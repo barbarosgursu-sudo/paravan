@@ -236,6 +236,8 @@ body{
 .istat-bar.secili{background:var(--kehribar)}
 .istat-yuzde{margin-left:auto;font-size:13px;color:var(--sonuk);min-width:38px;text-align:right;z-index:1}
 .istat-yuzde.secili{color:var(--kehribar);font-weight:bold}
+.istat-kaynak{margin-top:12px;padding-top:10px;border-top:1px solid var(--cizgi);
+  font-size:11.5px;color:var(--duman);line-height:1.5}
 .istat-not{margin-top:8px;font-size:12px;color:var(--duman);font-style:italic;line-height:1.5}
 .bilgi{padding:14px 24px;font-size:12px;color:var(--duman);font-style:italic;text-align:center}
 </style>
@@ -1281,7 +1283,10 @@ function gorselHTML(g){
 function istatistikPanel(vid, secilenId){
   const v = GAME.vakalar.find(x=>x.id===vid);
   const kararlar = [...v.decisions].sort((a,b)=>(b.yuzde||0)-(a.yuzde||0));
-  let h = `<div class="istat-panel"><div class="istat-baslik">Diğer oyuncular ne yaptı?</div>`;
+  // "Diğer oyuncular ne yaptı?" gerçek veri ima ediyordu; oysa bu oranlar
+  // vakaya sabit yazılı ve hiçbir yere gönderilmiyor. Koşullu kip kullanıp
+  // kaynağını açıkça söylüyoruz — ayna etkisi korunuyor, iddia kalkıyor.
+  let h = `<div class="istat-panel"><div class="istat-baslik">Çoğu insan ne yapardı?</div>`;
   for(const d of kararlar){
     const secili = d.id===secilenId;
     h += `<div class="istat-satir">
@@ -1292,7 +1297,8 @@ function istatistikPanel(vid, secilenId){
       </div>
     </div>`;
   }
-  h += `<div class="istat-not">Bu bir puan değil — kimse kazanmaz. Sadece insanların bu durumda ne seçtiğini gösteren bir ayna.</div></div>`;
+  h += `<div class="istat-kaynak">Bu oranlar gerçek oyuncu verisi değil — oyunun bu durumda insanlardan beklediği dağılım.</div>`;
+  h += `<div class="istat-not">Bu bir puan değil, kimse kazanmaz. Bir ayna.</div></div>`;
   return h;
 }
 
