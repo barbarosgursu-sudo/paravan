@@ -858,9 +858,11 @@ function kararFazi(){
       // Asıl bilgi "ay sonunda kasada ne kalıyor". Uyarı cümlesi YALNIZCA kötü
       // seçeneklerde çıkar — hepsinde çıkarsa ayrım kaybolur, kimse okumaz.
       let uyari = "", sinif = "iyi";
+      // Gelecek ay yeni bir iş gelebilir; uyarı bunu kesinmiş gibi sunmamalı.
+      // "Borca girersin" ise BU ayın kesin sonucu, koşulsuz.
       if(kalan < 0){ uyari = "borca girersin"; sinif = "kotu"; }
-      else if(aylikGider && kalan < aylikGider * 0.5){ uyari = "gelecek ay batarsın"; sinif = "kotu"; }
-      else if(aylikGider && kalan < aylikGider){ uyari = "gelecek ay açık verirsin"; sinif = "dar"; }
+      else if(aylikGider && kalan < aylikGider * 0.5){ uyari = "yeni iş gelmezse batarsın"; sinif = "kotu"; }
+      else if(aylikGider && kalan < aylikGider){ uyari = "yeni iş gelmezse açık verirsin"; sinif = "dar"; }
       const tutar = p > 0 ? "+" + tl(p) : (p < 0 ? tl(p) : "ödeme yok");
       // İki rakam arasındaki ilişki görünmezse okuyan "bu ne demek?" diyor.
       // Ücret → ay sonu zinciri okla kurulsun.

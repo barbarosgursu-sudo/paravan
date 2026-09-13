@@ -40,8 +40,16 @@ console.log("=== RAKAMLAR GERÇEKÇİ (2026 seviyeleri) ===");
   const ASGARI_NET = 28075;                       // 2026 net asgari ücret
   k("başlangıç kasası tanımlı", e.baslangic_kasa > 0, tl(e.baslangic_kasa));
   k("aylık gider asgari ücretin üstünde", gider > ASGARI_NET, tl(gider));
-  k("maaş kalemi asgari ücretin altında değil",
-    Object.entries(e.gider).some(([ad, t]) => /maaş/i.test(ad) && t >= ASGARI_NET));
+  // Cengo'ya ödenen kalem, eline geçen NET asgari ücretin altında olmamalı.
+  // Bilerek net kullanılıyor, resmî işveren maliyeti (~40.214 ₺) değil:
+  // Paravan bir paravan şirket, Cengo'ya elden ödeme yapılıyor. Kalem adı da
+  // bunu söylüyor — rakamın hangi muhasebe kaleminden geldiği belirsiz kalmasın.
+  const cengoKalem = Object.entries(e.gider).find(([ad]) => /cengo/i.test(ad));
+  k("Cengo kalemi tanımlı", !!cengoKalem, cengoKalem ? cengoKalem[0] : "yok");
+  k("Cengo'ya ödenen net asgari ücretin altında değil",
+    cengoKalem && cengoKalem[1] >= ASGARI_NET, cengoKalem ? tl(cengoKalem[1]) : "-");
+  k("kalem adı ödemenin biçimini söylüyor (elden/net)",
+    cengoKalem && /elden|net/i.test(cengoKalem[0]), cengoKalem ? cengoKalem[0] : "-");
   k("başlangıç kasası iki aylık gideri karşılamıyor (baskı var)",
     e.baslangic_kasa < gider * 2, tl(e.baslangic_kasa) + " / " + tl(gider) + " aylık");
 }

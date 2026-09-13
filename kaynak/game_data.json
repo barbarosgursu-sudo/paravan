@@ -25,7 +25,7 @@
   "baslangic_kasa": 65000,
   "gider": {
    "Ofis kirası": 22000,
-   "Cengo'nun maaşı": 28075,
+   "Cengo'ya elden ödeme": 28075,
    "İşletme (elektrik, telefon, yakıt)": 9000
   },
   "borc_faizi": 0.1
@@ -51,7 +51,7 @@
     "sigorta_sorusturma": "Sigorta, ödeme öncesi soruşturuyor.",
     "giris_zorlama_yok": "Eve zorla giriş yok — tanıdık ya da içeriden.",
     "ceyda_saat": "Ceyda: 'Sekizde çıktım, on buçukta döndüm, onu merdivenin dibinde buldum.'",
-    "olum_saati": "Kırık kol saati düşme anında durmuş: 23:10.",
+    "olum_saati": "Polis fotoğrafı: kırık kol saati düşme anında durmuş, 23:10.",
     "dusus_acisi": "Yaralar/açı kendi düşmeyle uyuşmuyor; itiş olası.",
     "komsu_ses": "Komşu: o gece boğuk bir tartışma / ikinci bir ses."
    },
@@ -174,7 +174,7 @@
       "olum_saati",
       "dusus_acisi"
      ],
-     "text": "Merdiven dik. Ama yaraların açısı, kendi düşen birine göre ters. Bileğindeki saat düşerken kırılmış — akrep on biri on geçede durmuş.",
+     "text": "Merdiven dik. Polis fotoğraflarında yaraların açısı, kendi düşen birine göre ters duruyor. Adamın kolundaki saat düşerken kırılmış — camı çatlak, akrep on biri on geçede durmuş.",
      "meta": "Açı bir itişe daha çok uyuyor.",
      "gorsel": {
       "dosya": "v1_merdiven.jpg",
@@ -256,7 +256,7 @@
      "id": "reddet",
      "gate": "yok",
      "etiket": "İşi reddet",
-     "sonuc": "Onurlu ama ölümcül. Para gelmez, borç büyür; Cavit başkasını bulur.",
+     "sonuc": "Onurlu ama ölümcül. Para gelmez, kasa erir; Cavit başkasını bulur.",
      "cengoBag": 2,
      "seed_yaz": {
       "ilk_karar": "reddetti",

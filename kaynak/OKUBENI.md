@@ -173,13 +173,20 @@ Rakamlar 2026 seviyelerine göre (`game_data.json` → `ekonomi`):
 |---|---|---|
 | Başlangıç kasası | 65.000 ₺ | bir aylık gideri ancak karşılıyor |
 | Ofis kirası | 22.000 ₺ | İstanbul ortalaması 75.450 ₺; Paravan arka sokakta, dökük |
-| Cengo'nun maaşı | 28.075 ₺ | 2026 net asgari ücret, birebir |
+| Cengo'ya elden ödeme | 28.075 ₺ | 2026 **net** asgari ücret, birebir |
 | İşletme | 9.000 ₺ | elektrik, telefon, yakıt |
 | **Aylık toplam** | **59.075 ₺** | |
 | Borç faizi | %10 / ay | tefeci; borç varsa her omurga vakada biner |
 
 Vaka ücretleri gerçek dedektiflik fiyatlarına dayanıyor: aldatma araştırması
 20–50 bin, kayıp kişi 40–100 bin, günlük 4–9 bin ₺.
+
+**Neden net ücret, işveren maliyeti değil:** resmî çalışanda 2026 toplam
+işveren maliyeti ~40.214 ₺. Paravan bir **paravan şirket**; Cengo'ya elden
+ödeme yapılıyor, bu yüzden nakit çıkışı net tutar kadar. Kalem adı bunu
+söylüyor ki rakamın hangi muhasebe kaleminden geldiği belirsiz kalmasın.
+Cengo resmîleştirilirse aylık gider ~71.214 ₺ olur ve tüm denge yeniden
+ayarlanmalıdır.
 
 ### Kurallar
 
