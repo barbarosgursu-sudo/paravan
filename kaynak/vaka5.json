@@ -1,0 +1,296 @@
+{
+  "id": "V5",
+  "tur": "omurga",
+  "sira": 5,
+  "belirir": null,
+  "baslik": "Kim Kimi",
+  "arastirma": 5,
+  "truth": {
+    "iten": "İlyas",
+    "cavit_ilyas_bag": "Cavit yıllar önce delil karartıp İlyas'ı kurtardı; İlyas ona borçlu",
+    "cavit_rol": "azmettiren — İlyas'ı bu cinayete o sürdü",
+    "cavit_ceyda": "Cavit ile Ceyda sevgili (Kaya ölmeden önce de)",
+    "ceyda_pay": "<BELİRSİZ> — mağdur MI, asıl akıl MI, para peşinde Mİ: üçü de mümkün, ÇÖZÜLMEZ",
+    "kaya_biliyordu": "<BELİRSİZ> — V6'ya"
+  },
+  "facts": {
+    "cavit_her_kosede": "Davanın her köşesinde Cavit var — Peri ondan şüpheleniyor.",
+    "cavit_ilyas_neden": "Cavit İlyas'ı fazla önemsiyor — sıradan bir tahsildar için değil bu.",
+    "eski_dava": "Cavit yıllar önce İlyas'ın avukatıydı; delil kararttı, onu kurtardı.",
+    "ilyas_mahkum": "İlyas o günden beri Cavit'e borçlu, mahkûm — silah oldu.",
+    "cavit_takip": "Peri Cavit'i izliyor.",
+    "cavit_ceyda_sevgili": "Cavit ile Ceyda sevgili — avukat/müvekkil değil.",
+    "cinayet_sebep": "Sebep buymuş: Kaya, sevgililerin önündeki engeldi.",
+    "ip_koz": "Ceyda gizli bir belge/kayıt saklıyor. Soğuk hesap MI, korkan mağdur MU — belli değil.",
+    "ip_akil": "Bir iz: cinayet fikri Ceyda'dan çıkmış olabilir. Gerçek Mİ, Cavit'in yalanı MI — belli değil.",
+    "ip_para": "Ceyda servet/sigortayla fazla ilgili. Açgözlülük MÜ, çaresiz dul MU — belli değil."
+  },
+  "knowledge": [
+    {
+      "turetilen": "cavit_supheli",
+      "ifade": {
+        "all": [
+          "cavit_her_kosede",
+          "cavit_ilyas_neden"
+        ]
+      }
+    },
+    {
+      "turetilen": "cavit_azmettiren",
+      "ifade": {
+        "all": [
+          "eski_dava",
+          "ilyas_mahkum"
+        ]
+      }
+    },
+    {
+      "turetilen": "iliski_acik",
+      "ifade": {
+        "all": [
+          "cavit_takip",
+          "cavit_ceyda_sevgili"
+        ]
+      }
+    },
+    {
+      "turetilen": "tam_resim",
+      "ifade": {
+        "all": [
+          "cavit_azmettiren",
+          "iliski_acik"
+        ]
+      }
+    },
+    {
+      "turetilen": "ceyda_bulaniklik",
+      "ifade": {
+        "any": [
+          "ip_koz",
+          "ip_akil",
+          "ip_para"
+        ]
+      }
+    }
+  ],
+  "giris": [
+    {
+      "kosul": {
+        "seed": "ilyas_kime_gitti",
+        "esit": "polis"
+      },
+      "metin": "Cavit panik hâlinde geldi: İlyas'ı polise verdin, ve bu Cavit'i tedirgin etti. 'Bu iş büyümeden bastıralım' diyor, fazla telaşlı. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+      "acilan": [
+        "cavit_her_kosede"
+      ]
+    },
+    {
+      "kosul": {
+        "seed": "ilyas_kime_gitti",
+        "esit": "koz"
+      },
+      "metin": "Cavit İlyas'ı senden almaya çalışıyor — 'o adamı bana bırak' diyor, fazla ısrarlı. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+      "acilan": [
+        "cavit_her_kosede"
+      ]
+    },
+    {
+      "kosul": {
+        "seed": "ilyas_kime_gitti",
+        "esit": "cavit"
+      },
+      "metin": "İlyas'ı Cavit'e teslim etmiştin; şimdi Cavit 'onunla ilgilendim, sen de sus' tonunda. Ama bu rahatlık Peri'yi rahatsız ediyor. Bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+      "acilan": [
+        "cavit_her_kosede"
+      ]
+    },
+    {
+      "kosul": "varsayilan",
+      "metin": "Cavit bir 'temizlik' işi daha istiyor, ama bu kez fazla ileri gidiyor. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+      "acilan": [
+        "cavit_her_kosede"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "cavit_ilyas_ilgi",
+      "ad": "Cavit neden İlyas'ı önemsiyor?",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "cavit_her_kosede"
+      ],
+      "reveals": [
+        "cavit_ilyas_neden"
+      ],
+      "text": "Cavit, İlyas gibi sıradan bir tahsildar için gereğinden fazla telaşlı. Peri soruyor: bu adamı neden bu kadar önemsiyor?",
+      "meta": "İlyas onun için sıradan biri değil. Aralarında bir geçmiş var.",
+      "gorsel": null
+    },
+    {
+      "id": "ilyas_gecmis",
+      "ad": "İlyas ile Cavit'in geçmişi",
+      "tur": "Belge",
+      "ico": "▤",
+      "needs": [
+        "cavit_supheli"
+      ],
+      "reveals": [
+        "eski_dava",
+        "ilyas_mahkum"
+      ],
+      "text": "Eski bir dava dosyası: yıllar önce İlyas bir suçtan yargılanacaktı. Avukatı Cavit'ti — deliller 'kayboldu', İlyas kurtuldu. O günden beri İlyas ona mahkûm.",
+      "meta": "Cavit kurtardığı adamı bir silaha çevirdi. Kendi cinayeti lazım olunca, elindeki bağlı adamı kullandı.",
+      "gorsel": {
+        "dosya": "v5_eski_dava.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "eski_dava"
+        ],
+        "alt": "yıllanmış, tozlu bir dava dosyası"
+      }
+    },
+    {
+      "id": "cavit_izle",
+      "ad": "Cavit'i izlemek",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "cavit_supheli"
+      ],
+      "reveals": [
+        "cavit_takip"
+      ],
+      "text": "Peri Cavit'i izlemeye başladı. Nereye gidiyor, kiminle görüşüyor?",
+      "meta": "Şüphe artık takibe dönüştü.",
+      "gorsel": null
+    },
+    {
+      "id": "iliski_gor",
+      "ad": "Cavit'in gittiği kapı",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "cavit_takip"
+      ],
+      "reveals": [
+        "cavit_ceyda_sevgili",
+        "cinayet_sebep"
+      ],
+      "text": "Cavit'in geldiği kapı Ceyda'nın kapısıydı — ve içeri girişi bir avukatın girişi değildi. Perde çekildi. 'Demek buymuş,' dedi Cengo alçak sesle.",
+      "meta": "Cavit ile Ceyda sevgili. Cinayetin sebebi buydu: Kaya, ikisinin önündeki engeldi. Sana ilk gün iş getiren adam, cinayetin mimarı.",
+      "gorsel": {
+        "dosya": "v5_perde.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "cavit_ceyda_sevgili"
+        ],
+        "alt": "gece, çekilmiş bir perdenin ardında iki gölge"
+      }
+    },
+    {
+      "id": "ceyda_oku",
+      "ad": "Ceyda'yı okumak",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [
+        "iliski_acik"
+      ],
+      "reveals": [
+        "ip_koz"
+      ],
+      "text": "Peri Ceyda'ya yaklaştı. Kadın gizli bir belge/kayıt saklıyordu — kendini sağlama almış gibi. Ama korkan biri de koz saklar.",
+      "meta": "Soğuk bir hesap mı, yoksa korkan bir mağdurun sigortası mı? Belli değil.",
+      "gorsel": {
+        "dosya": "portre_ceyda_golge.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "ip_koz"
+        ],
+        "alt": "yarısı gölgede, okunamayan bir kadın yüzü"
+      }
+    },
+    {
+      "id": "ceyda_derin",
+      "ad": "Ceyda'yı derinlemesine",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [
+        "ip_koz"
+      ],
+      "reveals": [
+        "ip_akil",
+        "ip_para"
+      ],
+      "text": "Peri kazdıkça kadın bulanıklaştı. Bir iz, cinayet fikrinin ondan çıkmış olabileceğini gösteriyordu — ama Cavit de suçunu ona yıkıyor olabilirdi. Servetle fazla ilgiliydi — ama beş parasız bir dul da paraya bakar.",
+      "meta": "Her kanıtın iki okunuşu var. Peri hiçbirinden emin olamadı. En çok da bu ürküttü onu.",
+      "gorsel": null
+    }
+  ],
+  "decisions": [
+    {
+      "id": "cavite_vur",
+      "gate": "tam_resim",
+      "etiket": "Bildiğini Cavit'in yüzüne vur",
+      "sonuc": "'Biliyorum. İlyas, Ceyda, hepsi.' Cesur — ama Cavit'i köşeye sıkıştırdın, ve köşeye sıkışmış bu adam tehlikeli. Para biter, artık sen de bir tehditsin.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "cavit_karsi_konum": "dusman"
+      }
+    },
+    {
+      "id": "oyunu_surdur",
+      "gate": "tam_resim",
+      "etiket": "Belli etme, oyunu sürdür",
+      "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "cavit_karsi_konum": "ortak"
+      }
+    },
+    {
+      "id": "kanit_biriktir",
+      "gate": "tam_resim",
+      "etiket": "Sessizce kanıt biriktir",
+      "sonuc": "Ne vur, ne teslim ol — belge, kayıt, iz topladın. Elini final için hazırladın; ama yakalanırsan bedeli ağır.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "cavit_karsi_konum": "silahli"
+      }
+    },
+    {
+      "id": "ceydaya_git",
+      "gate": "ceyda_bulaniklik",
+      "etiket": "Ceyda'yı hedef al, oku, kullan",
+      "sonuc": "Cavit'i değil Ceyda'yı hedef aldın — belki onu Cavit'e karşı kullanabilirsin, belki gerçek gücün kimde olduğunu öğrenirsin. Riskli bir satranç; Ceyda senden akıllı çıkabilir.",
+      "cengoBag": 0,
+      "seed_yaz": {
+        "cavit_karsi_konum": "ceyda_ittifak"
+      }
+    },
+    {
+      "id": "kazma",
+      "gate": "yok",
+      "etiket": "Cavit'in dediğini yap, kazma",
+      "sonuc": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "cavit_karsi_konum": "alet"
+      }
+    }
+  ],
+  "seeds": {
+    "cavit_ceyda_bilinir": {
+      "esit_ise": "tam_resim",
+      "deger": true
+    },
+    "ceyda_okundu": {
+      "say": [
+        "ip_koz",
+        "ip_akil",
+        "ip_para"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# build_html.js her derlemede bunları kaynak dosyalardan taze üretir
+kaynak/_gomulu_motor.js
+kaynak/_gomulu_veri.js

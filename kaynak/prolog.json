@@ -1,0 +1,21 @@
+{
+  "prolog": [
+    { "gorsel":{"dosya":"prolog_ihtisam.jpg","tur":"sahne","alt":"eski bir podyum ışığı, alkış, görkemli günlerin solmuş fotoğrafı"},
+      "metin":"Bir zamanlar herkes yüzümü tanırdı. Podyumlar, kapaklar, açılışlar... Perihan Aksoy. Güzellik bir sermayeydi ve ben onu akıllıca büyüttüm — salonlar, bir kozmetik markası, kendi adımı taşıyan bir dünya." },
+
+    { "gorsel":{"dosya":"prolog_dusus.jpg","tur":"sahne","alt":"gece, boşaltılmış bir ofis; açık çekmeceler, dağılmış kağıtlar, tek bir lamba"},
+      "metin":"Parayı yöneten, yıllarca en güvendiğim avukattı. Bir sabah uyandığımda hesaplar boştu, o gitmişti. İmzam vardı her belgede — kendi elimle her kapıyı ona açmışım. Bir gecede, hiç kimse oldum." },
+
+    { "gorsel":{"dosya":"portre_peri.jpg","tur":"portre","alt":"bugünkü Peri: eski güzelliğin izleri, yorgun ama dik bir kadın"},
+      "metin":"Geriye bir tek şu kaldı: Paravan Dedektiflik. Yıllar önce sırf vergi için kurduğumuz göstermelik bir şirket. Sahte bir isim, sahte bir iş. Şimdi elimdeki tek gerçek şey, en sahte şeymiş." },
+
+    { "gorsel":{"dosya":"portre_cengo.jpg","tur":"portre","alt":"Cengo: bakımsız ama sıcak, hınzır bir gülüşü olan bir adam"},
+      "metin":"Bir de Cengo var. Serseri, beş parasız, sokağın adamı. Neden hâlâ yanımda, bilmiyorum — ödeyecek param bile yok. Ama o dünyayı benim bilmediğim kadar biliyor. Artık tek yoldaşım o." },
+
+    { "gorsel":{"dosya":"prolog_masa.jpg","tur":"sahne","alt":"loş bir ofis masası, üstünde bir dosya; kapıda bir gölge"},
+      "metin":"Borç ensemde. Kasa boş. Ve o paravan şirketi, hayatta kalmak için gerçekten işletmem gereken tek şey oldu. Sonra bir gün, kapı çaldı. İyi giyimli bir avukat... ve bir dosya." },
+
+    { "gorsel":null, "nasil_oynanir":true,
+      "metin":"Her müşteri bir dert getirir. Sınırlı zamanın ve paranla ARAŞTIRIR, sonra geri alınamaz bir KARAR verirsin — ve sonuçlarına katlanırsın. Her seçim Cengo ile arana, kasana ve vicdanına dokunur. Kolay cevap yoktur." }
+  ]
+}

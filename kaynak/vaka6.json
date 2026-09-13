@@ -1,0 +1,151 @@
+{
+  "id": "V6",
+  "tur": "omurga",
+  "sira": 6,
+  "belirir": null,
+  "baslik": "Kaya Biliyor muydu",
+  "arastirma": 3,
+  "final": true,
+  "truth": {
+    "tum_resim": "Cavit yıllar önce İlyas'ı kurtardı, şimdi sevgilisi Ceyda'nın kocasını öldürtmek için kullandı",
+    "kaya_biliyordu": "HAYIR — Kaya aldatıldığını bilmiyordu (V6'da ÇÖZÜLÜR)",
+    "ceyda_pay": "<BELİRSİZ> — final bile çözmez, ÇÖZÜLMEZ"
+  },
+  "facts": {
+    "zincir_tam": "Cavit İlyas'ı yıllar önce kurtardı, borçlu bıraktı, şimdi cinayette kullandı; Ceyda ile sevgili.",
+    "kaya_son_gunler": "Kaya'nın son günlerine dair izler: hiçbir şeyden şüphelenmiyor, olağan hayatı.",
+    "kaya_bilmiyordu": "Kaya aldatıldığını bilmiyordu — olmayan bir tehdit için öldürüldü."
+  },
+  "knowledge": [
+    {
+      "turetilen": "gercek_ortaya_cikti",
+      "ifade": {
+        "all": [
+          "zincir_tam",
+          "kaya_bilmiyordu"
+        ]
+      }
+    }
+  ],
+  "giris": [
+    {
+      "kosul": {
+        "seed": "cavit_ceyda_bilinir",
+        "esit": true
+      },
+      "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda sevgili. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu?",
+      "acilan": [
+        "zincir_tam"
+      ]
+    },
+    {
+      "kosul": "varsayilan",
+      "metin": "Elinde dağınık parçalar var ama tam resim yok. Yine de bir şeyi biliyorsun: bu bir cinayetti, ve Kaya'nın ölümünde bir korku vardı. Geriye tek soru kaldı: Kaya aldatıldığını biliyor muydu? Ama sen o kadar derine inmedin — belki final bunu sana söyler.",
+      "acilan": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "zincir_ozet",
+      "ad": "Tüm zinciri toparlamak",
+      "tur": "Belge",
+      "ico": "▤",
+      "needs": [],
+      "reveals": [
+        "zincir_tam"
+      ],
+      "text": "Parçaları yan yana koydun: yıllar önceki dava, İlyas'ın borcu, Cavit'in Ceyda'yla ilişkisi, ve merdivendeki o gece. Zincir tamam.",
+      "meta": "Sana ilk gün 'kaza raporu' imzalatmak isteyen adam, cinayetin mimarıydı.",
+      "gorsel": null
+    },
+    {
+      "id": "kaya_izi",
+      "ad": "Kaya'nın son günleri",
+      "tur": "Belge",
+      "ico": "▤",
+      "needs": [
+        "zincir_tam"
+      ],
+      "reveals": [
+        "kaya_son_gunler",
+        "kaya_bilmiyordu"
+      ],
+      "text": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, o gizli çocuğa giden parası. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok.",
+      "meta": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken.",
+      "gorsel": {
+        "dosya": "portre_kaya.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "kaya_son_gunler"
+        ],
+        "alt": "güven veren, hiçbir şeyden habersiz bir adam yüzü"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "ilyas_ver",
+      "gate": "zincir_tam",
+      "etiket": "İlyas'ı ele ver (tetikçi)",
+      "sonuc": "En kolay hedef, en acınası kurban. Onu verdin — asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir. Küçük balığı verip büyükleri kaçırdın.",
+      "cengoBag": 0,
+      "seed_yaz": {
+        "final_karar": "ilyas"
+      }
+    },
+    {
+      "id": "cavit_ver",
+      "gate": "zincir_tam",
+      "etiket": "Cavit'i ele ver (mimar)",
+      "sonuc": "Mimarı verdin. Ama o senin geçim kaynağındı — ajans batabilir. Ve Cavit düşerken İlyas'ı da sürükler; ikisi birbirinin sırrını tutuyordu.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "final_karar": "cavit"
+      }
+    },
+    {
+      "id": "ceyda_ver",
+      "gate": "zincir_tam",
+      "etiket": "Ceyda'yı ele ver",
+      "sonuc": "Belki asıl akıl olanı verdin — ama emin değilsin. Mağdur bir kadını mı, bir canavarı mı ele verdiğini asla bilemeyeceksin. Ve Ceyda senden akıllıysa, seni de batırabilir.",
+      "cengoBag": 0,
+      "seed_yaz": {
+        "final_karar": "ceyda"
+      }
+    },
+    {
+      "id": "sus",
+      "gate": "yok",
+      "etiket": "Hiçbirini verme, sus",
+      "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "final_karar": "sus"
+      }
+    },
+    {
+      "id": "hepsini_ifsa",
+      "gate": {
+        "all": [
+          "zincir_tam",
+          {
+            "seed": "cavit_karsi_konum",
+            "esit": "silahli"
+          }
+        ]
+      },
+      "etiket": "Hepsini ifşa et (elinde kanıt varsa)",
+      "sonuc": "Biriktirdiğin kanıtla üçünü birden patlattın. En adil ama en yıkıcı: herkes düşer, düşerken masumlar da — aile, çocuk, belki Cengo — zarar görür. Adalet, bedelini masumlara ödetir.",
+      "cengoBag": 0,
+      "seed_yaz": {
+        "final_karar": "hepsi"
+      }
+    }
+  ],
+  "seeds": {
+    "kaya_gercek_ogrenildi": {
+      "esit_ise": "kaya_bilmiyordu",
+      "deger": true
+    }
+  }
+}

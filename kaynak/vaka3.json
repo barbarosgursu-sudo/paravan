@@ -1,0 +1,222 @@
+{
+  "id": "V3",
+  "tur": "omurga",
+  "sira": 3,
+  "belirir": null,
+  "baslik": "Tanık",
+  "arastirma": 4,
+  "truth": {
+    "olum_gercek": "Kaya itildi (V1'den taşınır, sabit)",
+    "iten_kim": "İlyas",
+    "ilyas_isaret1": "yüzünde yara",
+    "ilyas_isaret2": "aksak yürüyüş (topallama)",
+    "ilyas_yalniz_mi": "HAYIR — biri onu sıkıştırdı",
+    "sikistiran": "Cavit — BU VAKADA AÇILMAZ",
+    "cavit_ilyas_bag": "GİZLİ — V5/V6"
+  },
+  "facts": {
+    "tanik_korktu": "Tanık kadın polise korkudan susmuş; ama bize anlatıyor.",
+    "tarif_yara": "Tanık: o gece binadan çıkan adamın yüzünde yara vardı.",
+    "tarif_topal": "Tanık: adam aksak yürüyordu, topallıyordu.",
+    "itis_kesin": "Tanık: o adam düşmedi — Kaya itildi; ben gördüm.",
+    "ilyas_isim": "Tarif bir isme bağlandı: İlyas — Cengo'nun tanıdığı o tahsildar.",
+    "foto_teshis": "Çekilen fotoğrafı tanık onayladı: 'Evet, o.'",
+    "ilyas_sebep_yok": "İlyas'ın Kaya'ya husumeti/sebebi yok — sıradan bir tahsildar."
+  },
+  "knowledge": [
+    {
+      "turetilen": "ilyas_supde",
+      "ifade": {
+        "all": [
+          "tarif_yara",
+          "tarif_topal"
+        ]
+      }
+    },
+    {
+      "turetilen": "iten_ilyas",
+      "ifade": {
+        "all": [
+          "ilyas_supde",
+          "foto_teshis"
+        ]
+      }
+    },
+    {
+      "turetilen": "el_var",
+      "ifade": {
+        "all": [
+          "iten_ilyas",
+          "ilyas_sebep_yok"
+        ]
+      }
+    }
+  ],
+  "giris": [
+    {
+      "kosul": {
+        "seed": "ilyas_yuz_tandi",
+        "esit": true
+      },
+      "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez' diye sustur istiyor. Ama Peri'nin aklına Vedat'ın kapısındaki o yorgun tahsildar İlyas geliyor. İçine bir kurt düşüyor.",
+      "acilan": []
+    },
+    {
+      "kosul": "varsayilan",
+      "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez' diye sustur istiyor. Peri bu tarifin kime uyduğunu bilmiyor — ama Cengo'nun sokak bağlantıları bir şeyler fısıldayabilir.",
+      "acilan": []
+    }
+  ],
+  "clues": [
+    {
+      "id": "cavit_brief",
+      "ad": "Cavit'in tarifi",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [],
+      "reveals": [
+        "tanik_korktu"
+      ],
+      "text": "Cavit: 'Yaşlı, kafası karışık bir kadın. Sigortaya gitmeden şu dedikoduyu susturun. Zaten belli belirsiz bir karaltı görmüş, kimseyi tanımıyor.'",
+      "meta": "Cavit rahat — tanığın bir isme ulaşamayacağını sanıyor. Oysa kadın korkudan polise susmuş, size değil.",
+      "gorsel": {
+        "dosya": "portre_cavit.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "Cavit"
+        ],
+        "alt": "pahalı takım, terli alın, kaçan bakış"
+      }
+    },
+    {
+      "id": "tanik_gorusme",
+      "ad": "Tanık kadınla görüşme",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [
+        "tanik_korktu"
+      ],
+      "reveals": [
+        "tarif_yara",
+        "tarif_topal",
+        "itis_kesin"
+      ],
+      "text": "Kadın titredi: 'Polise korktum, söyleyemedim. Ama gördüm. O gece binadan bir adam çıktı — yüzünde yara vardı, ve aksak yürüyordu. O düşmedi; itildi. Eminim.'",
+      "meta": "İki işaret: yara + topallama. Ve 'itildi' — kaza değil.",
+      "gorsel": {
+        "dosya": "portre_tanik.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "tarif_yara",
+          "tarif_topal"
+        ],
+        "alt": "korkmuş yaşlı bir kadın yüzü"
+      }
+    },
+    {
+      "id": "mahalle_don",
+      "ad": "Şüpheliyi bulup fotoğraflamak",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "ilyas_supde"
+      ],
+      "reveals": [
+        "ilyas_isim"
+      ],
+      "text": "Cengo tarifi duyunca durdu: 'Yara, topal... bu İlyas olabilir, şu tahsildar.' Onu buldular, gizlice fotoğrafını çektiler — riskli bir an; fark edilselerdi kötü olurdu.",
+      "meta": "Artık bir isim ve bir yüz var: İlyas. Ama emin olmak için tanığa göstermek gerek.",
+      "gorsel": {
+        "dosya": "v3_gizli_foto.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "ilyas_isaret1"
+        ],
+        "alt": "gizlice çekilmiş, yaralı ve yorgun bir adam"
+      }
+    },
+    {
+      "id": "foto_goster",
+      "ad": "Fotoğrafı tanığa göstermek",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [
+        "ilyas_isim"
+      ],
+      "reveals": [
+        "foto_teshis"
+      ],
+      "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. O gece çıkan adam buydu.'",
+      "meta": "Kesin teşhis. İlyas — V2'deki o silik tahsildar — Kaya'yı iten kişi.",
+      "gorsel": null
+    },
+    {
+      "id": "cengo_okuma",
+      "ad": "Cengo'nun okuması",
+      "tur": "Gözlem",
+      "ico": "◈",
+      "needs": [
+        "iten_ilyas"
+      ],
+      "reveals": [
+        "ilyas_sebep_yok"
+      ],
+      "text": "Cengo başını salladı: 'Bu adamın Kaya'yla bir alıp veremediği yok Peri abla. Ne parası, ne derdi. Böyleleri kendi aklıyla adam itmez — biri sırtına bindiyse iter. Yani biz asıl adamı daha görmedik.'",
+      "meta": "İlyas tek başına değil. Arkasında onu süren biri var — henüz yüzü yok.",
+      "gorsel": null,
+      "bedelsiz": true
+    }
+  ],
+  "decisions": [
+    {
+      "id": "polise_ver",
+      "gate": "iten_ilyas",
+      "etiket": "İlyas'ı polise ver",
+      "sonuc": "Doğru olanı yaptın. Ama Cavit'in istediğinin tam tersi — gerilir, güveni sarsılır, ödemeyi keser. Ve İlyas konuşmazsa, onu süren el gizli kalır.",
+      "cengoBag": 2,
+      "seed_yaz": {
+        "ilyas_kime_gitti": "polis"
+      }
+    },
+    {
+      "id": "koz_yap",
+      "gate": "iten_ilyas",
+      "etiket": "Kendine sakla, koz yap",
+      "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "ilyas_kime_gitti": "koz"
+      }
+    },
+    {
+      "id": "cavite_teslim",
+      "gate": "iten_ilyas",
+      "etiket": "İlyas'ı Cavit'e teslim et",
+      "sonuc": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "ilyas_kime_gitti": "cavit"
+      }
+    },
+    {
+      "id": "tanigi_lekele",
+      "gate": "yok",
+      "etiket": "Tanığı 'güvenilmez' diye rapor et",
+      "sonuc": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz.",
+      "cengoBag": -2,
+      "seed_yaz": {
+        "ilyas_kime_gitti": "lekele"
+      }
+    }
+  ],
+  "seeds": {
+    "iten_biliniyor": {
+      "esit_ise": "iten_ilyas",
+      "deger": true
+    },
+    "el_sezildi": {
+      "esit_ise": "el_var",
+      "deger": true
+    }
+  }
+}

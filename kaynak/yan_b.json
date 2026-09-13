@@ -1,0 +1,164 @@
+{
+  "id": "YAN-B",
+  "tur": "yan",
+  "sira": 99,
+  "belirir": {
+    "sonra": "V4",
+    "kosul": "varsayilan"
+  },
+  "baslik": "Enkaz",
+  "arastirma": 3,
+  "truth": {
+    "nadire_dert": "son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırdı",
+    "dolandirici": "batış mağdurlarını avlayan biri",
+    "peri_gercek": "Peri'nin çöküşü Nadire'yi de batırdı — Peri farkında olmadan sorumlu",
+    "nadire_suclamaz": "hâlâ sadık, Peri'yi suçlamıyor — bu yüzden Peri'nin utancı daha ağır",
+    "avukat_kirinti": "Nadire kaçan avukata dair küçük bir şey biliyor olabilir — SEZON 2"
+  },
+  "facts": {
+    "nadire_geldi": "Nadire, Peri'nin eski sadık ustası, bir dertle geldi.",
+    "dolandirici_var": "Son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırmış.",
+    "dolandirici_kim": "Dolandırıcı: batış mağdurlarını avlayan biri; başka kurbanları da var.",
+    "batis_enkazi": "Peri'nin çöküşü Nadire'nin ve başkalarının hayatını götürmüş.",
+    "peri_sorumluluk": "Peri o avukata güvendi; enkazın bedelini başkaları da ödedi.",
+    "avukat_izi": "Nadire kaçan avukata dair bir kırıntı biliyor — burada çözülmez, Sezon 2."
+  },
+  "knowledge": [
+    {
+      "turetilen": "enkaz_gorundu",
+      "ifade": {
+        "all": [
+          "nadire_geldi",
+          "batis_enkazi"
+        ]
+      }
+    },
+    {
+      "turetilen": "sorumluluk_tam",
+      "ifade": {
+        "all": [
+          "enkaz_gorundu",
+          "peri_sorumluluk"
+        ]
+      }
+    }
+  ],
+  "giris": [
+    {
+      "kosul": "varsayilan",
+      "metin": "Ajansa yaşlı, yorgun ama bakımlı kalmaya çalışan bir kadın gelir — Nadire, 58. Peri onu tanır: eski salon zincirinin en kıdemli ustası. Peri battığında Nadire de battı — birikimi, emekliliği, avukat şirketi boşaltırken buhar oldu. Ama Nadire suçlamıyor; hâlâ 'Perihan Hanım' diyor. Derdi mütevazı: son parasını 'şirketten alacağınızı kurtarırım' diyen birine kaptırmış. 'Size zahmet vermek istemezdim ama... kime gideceğimi bilemedim.'",
+      "acilan": [
+        "nadire_geldi",
+        "dolandirici_var"
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "dolandirici_iz",
+      "ad": "Dolandırıcının izini sürmek",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "dolandirici_var"
+      ],
+      "reveals": [
+        "dolandirici_kim",
+        "batis_enkazi"
+      ],
+      "text": "Dolandırıcının izini sürdüler — batıştan zarar görmüş çaresizleri avlayan biri. Başka kurbanları da var, hepsi eski çalışanlar. Peri'nin düşüşünün enkazı gözünün önüne serildi.",
+      "meta": "Peri'nin avukatının yıktığı enkazın üstünde ikinci bir akbaba besleniyor. Ve o enkaz, Peri'nin enkazı.",
+      "gorsel": {
+        "dosya": "portre_nadire.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "dolandirici_kim"
+        ],
+        "alt": "batış mağdurlarını avlayan silik bir dolandırıcı"
+      }
+    },
+    {
+      "id": "peri_ic_ses",
+      "ad": "Peri'nin iç hesabı",
+      "tur": "Gözlem",
+      "ico": "◈",
+      "needs": [
+        "batis_enkazi"
+      ],
+      "reveals": [
+        "peri_sorumluluk"
+      ],
+      "bedelsiz": true,
+      "text": "Peri, Nadire'nin küçük soğuk odasına baktı. 'Ben o adama güvendim,' dedi içinden. 'Bu kadının hayatını ben götürdüm — farkında bile olmadan.'",
+      "meta": "Nadire suçlamıyor; o yüzden Peri suçu kendi taşımak zorunda. Utanç, affediciliğin sessizliğiyle ağırlaşıyor.",
+      "gorsel": null
+    },
+    {
+      "id": "avukat_kirintisi",
+      "ad": "Nadire'nin bildiği bir kırıntı (opsiyonel)",
+      "tur": "İfade",
+      "ico": "○",
+      "needs": [
+        "sorumluluk_tam"
+      ],
+      "reveals": [
+        "avukat_izi"
+      ],
+      "text": "Nadire, giderken durdu: 'O avukat... bir keresinde bir yerden söz etmişti. Belki işinize yarar.' Küçük bir kırıntı — ama bir yöne işaret ediyor.",
+      "meta": "Kaçan avukata giden ince bir iz. Bu vaka onu çözmez; sadece bir kapı aralar.",
+      "gorsel": null
+    }
+  ],
+  "decisions": [
+    {
+      "id": "tam_sahip_cik",
+      "gate": "sorumluluk_tam",
+      "etiket": "Nadire'ye tam sahip çık",
+      "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer.",
+      "cengoBag": 2,
+      "seed_yaz": {
+        "yanb_karar": "sahip"
+      }
+    },
+    {
+      "id": "gercegi_soyle",
+      "gate": "sorumluluk_tam",
+      "etiket": "Geçmişle yüzleş, gerçeği söyle",
+      "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün.",
+      "cengoBag": 2,
+      "seed_yaz": {
+        "yanb_karar": "yuzlesti"
+      }
+    },
+    {
+      "id": "sadece_coz",
+      "gate": "dolandirici_kim",
+      "etiket": "Sadece dolandırıcıyı çöz, mesafeni koru",
+      "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "yanb_karar": "coz"
+      }
+    },
+    {
+      "id": "gecistir",
+      "gate": "yok",
+      "etiket": "Geçiştir, kendini koru",
+      "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür.",
+      "cengoBag": -2,
+      "seed_yaz": {
+        "yanb_karar": "gecistirdi"
+      }
+    }
+  ],
+  "seeds": {
+    "peri_yuzlesti": {
+      "esit_ise": "sorumluluk_tam",
+      "deger": true
+    },
+    "sezon2_avukat_ipi": {
+      "esit_ise": "avukat_izi",
+      "deger": true
+    }
+  }
+}

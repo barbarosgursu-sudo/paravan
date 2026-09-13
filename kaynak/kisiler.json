@@ -1,0 +1,225 @@
+{
+  "kisiler": [
+    {
+      "id": "peri",
+      "ad": "Perihan \"Peri\" Aksoy",
+      "portre": "portre_peri.jpg",
+      "tanisma": "her_zaman",
+      "katmanlar": [
+        {
+          "kosul": "her_zaman",
+          "tanim": "Ajans sahibi. Eski güzellik kraliçesi; avukatı tüm parasını alıp kaçınca battı. Elinde bir tek bu paravan büro kaldı."
+        }
+      ]
+    },
+    {
+      "id": "cengo",
+      "ad": "Cengo",
+      "portre": "portre_cengo.jpg",
+      "tanisma": "her_zaman",
+      "katmanlar": [
+        {
+          "kosul": "her_zaman",
+          "tanim": "Ajansın tek çalışanı. Serseri ruhlu, sokağı bilen, pervasız. Peri'nin sağ kolu."
+        },
+        {
+          "kosul": "cengo_gecmis_bilinir",
+          "tanim": "Bir zamanlar sevdiği kadının suçunu üstlenip içeri girmiş; hayatı o yüzden raydan çıkmış. İyiliğin bedelini ödeyen adam."
+        }
+      ]
+    },
+    {
+      "id": "kaya",
+      "ad": "Kaya Tuncer",
+      "portre": "portre_kaya.jpg",
+      "tanisma": "polis_kaza",
+      "katmanlar": [
+        {
+          "kosul": "polis_kaza",
+          "tanim": "Maktul. Sevilen bir çocuk doktoru. Merdivenden düşüp öldüğü söyleniyor."
+        },
+        {
+          "kosul": "cinayet_suphesi",
+          "tanim": "Ölümü kaza değil — itilmiş olabilir. Sevilen doktorun ardında bir gölge var."
+        },
+        {
+          "kosul": "kaya_gizli_iyilik",
+          "tanim": "Evde ağır biriymiş; ama yıllarca gizlice bir hasta çocuğu yaşatmış. Hem karanlık hem şefkatli — aynı adam."
+        },
+        {
+          "kosul": "kaya_bilmiyordu",
+          "tanim": "Aldatıldığını bilmiyordu. Olmayan bir tehdit için öldürüldü — iyiliğinden bile habersiz."
+        }
+      ]
+    },
+    {
+      "id": "ceyda",
+      "ad": "Ceyda Tuncer",
+      "portre": "portre_ceyda.jpg",
+      "tanisma": "ceyda_saat",
+      "katmanlar": [
+        {
+          "kosul": "ceyda_saat",
+          "tanim": "Kaya'nın dul eşi. Yaslı, kırılgan görünüyor."
+        },
+        {
+          "kosul": "cavit_ceyda_sevgili",
+          "tanim": "Cavit'in sevgilisi — Kaya ölmeden önce de. Cinayetin bir ucu onda."
+        },
+        {
+          "kosul": "ceyda_bulaniklik",
+          "tanim": "Mağdur mu, cinayetin asıl aklı mı, para peşinde mi? Okunamıyor — ve bu, en ürkütücü yanı."
+        }
+      ]
+    },
+    {
+      "id": "cavit",
+      "ad": "Cavit Ergün",
+      "portre": "portre_cavit.jpg",
+      "tanisma": "her_zaman",
+      "katmanlar": [
+        {
+          "kosul": "her_zaman",
+          "tanim": "Ajansa iş getiren avukat. Kibar, güven veren, iyi giyimli."
+        },
+        {
+          "kosul": "cavit_supheli",
+          "tanim": "Davanın her köşesinde o var. Peri ondan şüpheleniyor."
+        },
+        {
+          "kosul": "cavit_azmettiren",
+          "tanim": "Cinayetin mimarı. Yıllar önce İlyas'ı kurtarmış, şimdi onu silah olarak kullanmış."
+        }
+      ]
+    },
+    {
+      "id": "ilyas",
+      "ad": "İlyas",
+      "portre": "portre_ilyas.jpg",
+      "tanisma": "ilyas_tahsildar",
+      "katmanlar": [
+        {
+          "kosul": "ilyas_tahsildar",
+          "tanim": "Yorgun bir tahsildar. Kenar mahallede borç topluyor. Sıradan biri gibi."
+        },
+        {
+          "kosul": "iten_ilyas",
+          "tanim": "Kaya'yı merdivende iten kişi. Ama husumeti yok — sanki biri onu sürmüş."
+        },
+        {
+          "kosul": "eski_dava",
+          "tanim": "Cavit'in yıllar önce delil karartıp kurtardığı katil. Şimdi ona mahkûm; kurtarıldığı için tuzağa düşmüş."
+        }
+      ]
+    },
+    {
+      "id": "nesrin",
+      "ad": "Nesrin",
+      "portre": "portre_nesrin.jpg",
+      "tanisma": "vedat_kayip_saat",
+      "katmanlar": [
+        {
+          "kosul": "vedat_kayip_saat",
+          "tanim": "Kocasının kendisini aldattığından şüphelenen kadın. Gazetede Peri'yi okuyup gelmiş."
+        }
+      ]
+    },
+    {
+      "id": "vedat",
+      "ad": "Vedat",
+      "portre": "portre_vedat.jpg",
+      "tanisma": "kenar_ev",
+      "katmanlar": [
+        {
+          "kosul": "kenar_ev",
+          "tanim": "Nesrin'in kocası. Akşamları bir yere gidiyor, bir şey saklıyor."
+        },
+        {
+          "kosul": "kacak_kardes",
+          "tanim": "Aldatmıyor — kaçak kardeşinin borcunu ödüyor. Aile için batan adam."
+        }
+      ]
+    },
+    {
+      "id": "sevil",
+      "ad": "Sevil",
+      "portre": "portre_sevil.jpg",
+      "tanisma": "cengo_tepki",
+      "katmanlar": [
+        {
+          "kosul": "cengo_tepki",
+          "tanim": "Ajansa bir dertle gelen kadın. Cengo'yla aralarında konuşulmayan bir geçmiş var."
+        },
+        {
+          "kosul": "gecmis_tam",
+          "tanim": "Cengo'nun suçunu üstlendiği eski sevgilisi. Onu tanıyor ama defteri açmıyor — nankör mü, kaçan kurban mı, belli değil."
+        }
+      ]
+    },
+    {
+      "id": "nadire",
+      "ad": "Nadire",
+      "portre": "portre_nadire.jpg",
+      "tanisma": "nadire_geldi",
+      "katmanlar": [
+        {
+          "kosul": "nadire_geldi",
+          "tanim": "Peri'nin eski salonundan sadık ustası. Peri battığında o da battı — ama suçlamıyor."
+        }
+      ]
+    }
+  ],
+  "defter": {
+    "V1": {
+      "temiz_rapor": "Kaza raporunu imzaladım. Para geldi, borç biraz nefes aldı. Ama o merdivende bir şey doğru değildi, ve ben ona sırtımı döndüm. İçimde bir taş.",
+      "soyle_cavit": "Cavit'e şüphemi söyledim. Belki aptallıktı. Gözündeki o değişikliği gördüm — artık bana farklı bakıyor.",
+      "gizli_kaz": "Cavit'e istediğini verdim, ama kendime bir dosya açtım. Bu iş bitmedi. Bir şeyin ucundan tutuyorum, daha bırakmayacağım.",
+      "reddet": "Reddettim. Onurluydu belki, ama kasada para yok, Cengo'nun yüzü asık. Onur karın doyurmuyor."
+    },
+    "V2": {
+      "hersey_soyle": "Nesrin'e her şeyi anlattım. Doğruyu söyledim — ama adamın en sakladığı şeyi elinden aldım. Doğru olan her zaman iyilik değilmiş.",
+      "aldatmiyor_de": "'Aldatmıyor' dedim, gerisini yuttum. Vedat'ın onurunu korudum. Umarım doğru olanı yaptım.",
+      "yalan_kur": "Yalan söyledim. İyilik için, dedim kendime. Cengo bana öyle bir baktı ki... İlk yalanımdı bu.",
+      "kuru_rapor": "İşi yaptım, parayı aldım, karışmadım. Cengo 'biz insanlarla mı uğraşıyoruz kağıtla mı' dedi. Cevap veremedim."
+    },
+    "V3": {
+      "polise_ver": "İlyas'ı polise verdim. Doğrusu buydu. Cavit köpürdü, para kesildi — ama o yaşlı kadın doğruyu söylemişti, ben de onu yalnız bırakmadım.",
+      "koz_yap": "İlyas'ı kimseye vermedim. Bildiğimi sakladım. Elimde bir koz var şimdi. Tehlikeli, biliyorum. Ama güçlü.",
+      "cavite_teslim": "İlyas'ı Cavit'e verdim. Para geldi. Ama o adamı doğrudan onu kullananın kucağına attığımı sonradan anladım.",
+      "tanigi_lekele": "O kadını 'güvenilmez' diye yazdım. Doğruyu söyleyen tek kişiyi lekeledim. Cengo o günden beri farklı. Ben de öyle."
+    },
+    "V4": {
+      "aileye_soyle": "Aileye Kaya'yı söyledim. Teşekkür edecek birini değil, bir mezarı buldular. Ama gerçeği hak ediyorlardı.",
+      "sessiz_coz": "Kaya'yı söylemeden bir yol buldum. Cebimden çıktı, zaten yoktu ama... o çocuk yaşasın. Kaya'nın bıraktığı yerden.",
+      "kimligi_sakla": "Sustum. 'Artık gelmeyecek' dedim, o kadar. Kaya'nın sırrını onunla gömdüm. Belki en merhametlisi buydu.",
+      "koz_yap": "Ölü bir adamın gizli iyiliğini koz yaptım. Cengo yüzüme bakmadı. Ben de aynada kendime bakamadım.",
+      "bos_ver": "O parayı fark ettim ama peşine düşmedim. Bilmemek bazen kolay. Ama Kaya'nın ne olduğunu hiç öğrenemedim."
+    },
+    "V5": {
+      "cavite_vur": "Cavit'in yüzüne vurdum: biliyorum, dedim. Artık bir tehdidim. Para bitti, tehlike başladı. Ama içim rahat — bir kere olsun.",
+      "oyunu_surdur": "Bildiğimi sakladım, oyunu sürdürdüm. Her gün bir cinayetin örtüsünü tutuyorum. Cengo'nun suskunluğu ağır.",
+      "kanit_biriktir": "Sessizce kanıt topluyorum. Vurmadım, teslim olmadım — bekliyorum. Elim güçlenecek. Yakalanmazsam.",
+      "ceydaya_git": "Ceyda'ya gittim. O kadını okumaya çalıştım — ama belki o beni okudu. Kim kimi kullanıyor, artık emin değilim.",
+      "kazma": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Sonradan öğrendim ne yaptığımı — bir cinayetin aletiydim, farkında bile değildim."
+    },
+    "V6": {
+      "ilyas_ver": "Tetikçiyi verdim. En kolayı, en acınası olanı. Mimarlar gölgede kaldı. Adalet mi bu? Bilmiyorum.",
+      "cavit_ver": "Cavit'i verdim. Zincir koptu, ajans sarsıldı — ama o adam bunu hak etti. Bedeli neyse ödeyeceğim.",
+      "ceyda_ver": "Ceyda'yı verdim. Mağdur muydu, canavar mıydı — asla bilemeyeceğim. Bu şüpheyle yaşayacağım.",
+      "sus": "Sustum. Her şeyi bilip sustum. Elim artık temiz değil. Ama hayattayım, ajans ayakta. Bu da bir seçim.",
+      "hepsini_ifsa": "Hepsini ifşa ettim. Adalet geldi — ama bedelini masumlar ödedi. O çocuk, o aile... Doğru olan bu muydu gerçekten?"
+    },
+    "YAN-A": {
+      "biliyorum_cik": "Sevil'e 'biliyorum' dedim. Cengo'nun yarasını izni olmadan açtım. Belki hata ettim.",
+      "cengoya_birak": "Karışmadım. 'Bu senin defterin' dedim Cengo'ya. Bana 'sen iyi birisin Peri abla' dedi. Uzun zamandır ilk kez ısındım.",
+      "sessiz_coz": "Sevil'in derdini çözdüm, geçmişe dokunmadım. Kapalı defter kapalı kaldı. Bazı şeyler öyle kalmalı.",
+      "isi_gecevir": "Sevil'i geri çevirdim, Cengo'nun hatırına. Ama kadın çözülmemiş bir dertle gitti. Cengo'nun yüzünde tuhaf bir şey vardı."
+    },
+    "YAN-B": {
+      "tam_sahip_cik": "Nadire'ye sahip çıktım. Cebimde ne varsa. Onun hayatını ben götürdüm, farkında olmadan — bari bunu düzelteyim.",
+      "gercegi_soyle": "Nadire'ye itiraf ettim: senin hayatını ben götürdüm. Beni affetti. Ben kendimi affedemedim.",
+      "sadece_coz": "Dolandırıcıyı hallettim, mesafemi korudum. Yardım ettim ama yaklaşmadım. Belki korkaklıktı.",
+      "gecistir": "Nadire'yi geçiştirdim. İkinci kez yüzüstü bıraktım o kadını. Cengo gördü. Ben de gördüm kendimi."
+    }
+  }
+}
