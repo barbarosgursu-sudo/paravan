@@ -475,6 +475,47 @@ function kural9_oluTohum(game, uyarilar, ekstraKaynaklar) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// KURAL 10 — Olgu sızıntısı (Nurcan kuralının derin hali)
+// K1 İSİM sızıntısına bakar ve girişte tanıtılan isimleri serbest sayar. Ama
+// bir ismin sahnede olması, o kişinin NE DEDİĞİNİ bilmek demek değildir.
+// facts sözlüğünde "Ceyda: '...'" gibi bir kişiye ait ifade olgusu varsa ve
+// bir kaynağın metni o kişiye dolaylı anlatımla ("demişti", "dedi") gönderme
+// yapıyorsa, o olgu needs'te bulunmalıdır.
+// ---------------------------------------------------------------------------
+function kural10_olguSizinti(game, hatalar) {
+  const ANLATIM = /(demişti|demiş|dedi|söylemişti|söylemiş|söyledi|iddia|ifadesi|anlatmıştı)/i;
+  for (const vaka of game.vakalar) {
+    const facts = vaka.facts || {};
+    // olgu → o olgunun ait olduğu kişi ("Ceyda: '...'" biçimi)
+    const olguSahibi = {};
+    for (const [olgu, aciklama] of Object.entries(facts)) {
+      const m = String(aciklama).match(/^\s*([\p{Lu}][\p{L}]+)\s*:/u);
+      if (m && game.kanon.isimler.includes(m[1])) olguSahibi[olgu] = m[1];
+    }
+    if (!Object.keys(olguSahibi).length) continue;
+
+    for (const c of vaka.clues) {
+      const havuz = new Set([
+        ...(c.needs || []).flatMap(n => typeof n === "string" ? [n] : [...ifadeOlgulari(n)]),
+        ...(c.reveals || []),
+      ]);
+      // koşullu metinlerde her varyant kendi koşuluyla korunur → varsayılanı denetle
+      const duz = (x) => typeof x === "string" ? x
+        : Array.isArray(x) ? (x.find(v => v.kosul === "varsayilan") || {}).metin || "" : "";
+      const blob = duz(c.text) + " " + duz(c.meta);
+      if (!ANLATIM.test(blob)) continue;
+
+      for (const [olgu, sahip] of Object.entries(olguSahibi)) {
+        if (havuz.has(olgu)) continue;                    // zaten hak edilmiş
+        if (!isimGeciyor(blob, sahip)) continue;          // o kişiden bahsetmiyor
+        hatalar.push(`[K10] ${vaka.id}/${c.id}: metin '${sahip}'in söylediğine gönderme yapıyor ` +
+          `('${olgu}') ama bu olgu needs'te yok — oyuncu onunla henüz konuşmamış olabilir.`);
+      }
+    }
+  }
+}
+
 function dogrula(game, ekstraKaynaklar) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -486,6 +527,7 @@ function dogrula(game, ekstraKaynaklar) {
   kural7_secim(game, hatalar, uyarilar);
   kural8_baskinlik(game, hatalar, uyarilar);
   kural9_oluTohum(game, uyarilar, ekstraKaynaklar);
+  kural10_olguSizinti(game, hatalar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -495,6 +537,7 @@ function dogrula(game, ekstraKaynaklar) {
   kural("Kural 3 (Döngü)         ", hatalar.some(h => h.startsWith("[K3]")));
   kural("Kural 4 (Truth uyumu)   ", hatalar.some(h => h.startsWith("[K4]")));
   kural("Kural 6 (Bütçe)         ", hatalar.some(h => h.startsWith("[K6]")));
+  kural("Kural 10 (Olgu sızıntısı)", hatalar.some(h => h.startsWith("[K10]")));
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);

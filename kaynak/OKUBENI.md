@@ -60,6 +60,7 @@ K5, K7, K8, K9 yazarın karar vermesi gereken tasarım sorularıdır.
 | K7 | **Seçim baskısı** — oyuncu hiç iki kaynak arasında seçmek zorunda kalıyor mu | uyarı |
 | K8 | **Baskınlık** — bir karar hem para hem vicdan ekseninde diğerini geçiyor mu | uyarı |
 | K9 | **Ölü tohum** — yazılıp hiçbir yerde okunmayan tohum | uyarı |
+| K10 | **Olgu sızıntısı** — metin, bir kişinin söylediğine gönderme yapıyor ama o olgu needs'te yok | hata |
 
 K6 ve K7 **gerçek motoru** kullanır (`motor.js`): bütün açma sıralarını
 dener, böylece simülasyon oyunla birebir aynı davranır. K2 bir kaynağın
@@ -70,6 +71,26 @@ K8 yalnızca kararlarında `para` bulunan vakalarda çalışır; ekonomi henüz
 yazılmamış vakaları sessizce atlar.
 
 K9, tohumları `kisiler.json`, `prolog.json` ve `build_html.js` içinde de arar.
+
+**K10, K1'in açığını kapatır.** K1 İSİM sızıntısına bakar ve girişte tanıtılan
+isimleri serbest sayar — ama bir ismin sahnede olması, o kişinin NE DEDİĞİNİ
+bilmek demek değildir. Canlı oyunda yakalanan hata tam buydu: V1'de komşu
+ifadesinin meta'sı "ama Ceyda 'yalnızdım' demişti" diyordu, oysa oyuncu Ceyda
+ile henüz görüşmemiş olabilirdi. K1 susuyordu çünkü Ceyda girişte tanıtılıyor.
+
+### Koşullu metin
+
+Kaynakların `text` ve `meta` alanları düz dizgi yerine varyant dizisi olabilir:
+
+```json
+"meta": [
+  {"kosul": "ceyda_saat", "metin": "... ama Ceyda 'yalnızdım' demişti."},
+  {"kosul": "varsayilan", "metin": "... o saatte dairede iki kişi varsa, biri konuşmadı."}
+]
+```
+
+Motorda `metinSec()` çözer. Aynı mekanizma anı defteri notlarında da var
+(`defterNotu`). Hak eden oyuncu bağlantıyı görür, etmeyen sızıntı görmez.
 
 ### Açık uyarılar (tasarım kararı bekliyor)
 

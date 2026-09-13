@@ -13,7 +13,7 @@ g.vakalar.push({
 });
 
 let hata = 0;
-const kontrol = (ad, kosul) => { console.log((kosul?"✓":"✗ BAŞARISIZ")+" "+ad); if(!kosul) hata++; };
+const kontrol = (ad, ok, ek) => { console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad+(ek?" → "+ek:"")); if(!ok)hata++; };
 
 console.log("=== YOL A: araştır → cinayet şüphesi → gizli_kaz ===");
 let o = new Oyun(g);
@@ -62,6 +62,23 @@ let o3 = new Oyun(g); o3.vakaBaslat("V1");
 o3.kararVer("reddet");
 const rdBekle = g.vakalar.find(v=>v.id==="V1").decisions.find(d=>d.id==="reddet").cengoBag;
 kontrol("reddet cengoBag verideki değerle uyuşuyor ("+rdBekle+")", o3.durum.cengoBag===rdBekle);
+
+console.log("\n=== KOŞULLU METİN: meta hak edilmemiş olguyu ele vermiyor ===");
+{
+  // Oyuncu Ceyda ile görüşmeden komşu ifadesini açarsa, meta Ceyda'nın
+  // ifadesine gönderme YAPMAMALI (Nurcan kuralı).
+  const a = new Oyun(g); a.vakaBaslat("V1");
+  const rA = a.kaynakAc("komsu_ifadesi");
+  kontrol("Ceyda ile görüşmeden: meta onun sözünü aktarmıyor",
+    !/Ceyda/.test(rA.meta || ""), rA.meta);
+  kontrol("yine de anlamlı bir meta geliyor", (rA.meta || "").length > 20);
+
+  const b = new Oyun(g); b.vakaBaslat("V1");
+  b.kaynakAc("ceyda_gorusme");
+  const rB = b.kaynakAc("komsu_ifadesi");
+  kontrol("görüştükten sonra: bağlantı kuruluyor", /Ceyda/.test(rB.meta || ""), rB.meta);
+  kontrol("iki varyant farklı", rA.meta !== rB.meta);
+}
 
 console.log("\n"+(hata===0 ? "=== TÜM MOTOR TESTLERİ GEÇTİ ===" : "=== "+hata+" TEST BAŞARISIZ ==="));
 process.exit(hata?1:0);

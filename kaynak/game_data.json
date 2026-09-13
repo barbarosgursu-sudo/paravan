@@ -152,7 +152,16 @@
       "komsu_ses"
      ],
      "text": "Komşu: 'O gece boğuk bir tartışma duydum. İki ses vardı gibi.'",
-     "meta": "Tek başına kanıt değil — ama Ceyda 'yalnızdım' demişti.",
+     "meta": [
+      {
+       "kosul": "ceyda_saat",
+       "metin": "Tek başına kanıt değil — ama Ceyda 'yalnızdım' demişti."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Tek başına kanıt değil. Ama o saatte dairede iki kişi varsa, biri konuşmadı."
+      }
+     ],
      "gorsel": null
     },
     {

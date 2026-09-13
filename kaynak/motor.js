@@ -56,6 +56,20 @@ function cengoAlev(x) {
   return 5;                // Bağlı
 }
 
+// Koşullu metin: düz dizgi olabilir ya da varyant dizisi
+//   [{kosul:<ifade>, metin:"..."}, {kosul:"varsayilan", metin:"..."}]
+// Bir kaynağın meta'sı oyuncunun HENÜZ bilmediği bir olguya gönderme
+// yapmamalı (Nurcan kuralı). Varyantla, hak eden oyuncu bağlantıyı görür.
+function metinSec(ham, bilinen, seeds, cengoBag) {
+  if (typeof ham === "string" || ham == null) return ham || "";
+  if (!Array.isArray(ham)) return "";
+  for (const v of ham) {
+    if (v.kosul === "varsayilan") return v.metin;
+    if (ifadeCalistir(v.kosul, bilinen, seeds, cengoBag)) return v.metin;
+  }
+  return "";
+}
+
 class Oyun {
   constructor(game) {
     this.game = game;
@@ -165,8 +179,12 @@ class Oyun {
     a.bilinen.add(id + "_acildi");                 // seed koşulları için işaret
     (c.reveals || []).forEach(r => a.bilinen.add(r));
     this._turet();
-    return { text: c.text, meta: c.meta, gorsel: c.gorsel || null,
-             arastirmaKalan: a.arastirmaKalan, ucret, para: this.durum.para };
+    return {
+      text: metinSec(c.text, a.bilinen, this.durum.seeds, this.durum.cengoBag),
+      meta: metinSec(c.meta, a.bilinen, this.durum.seeds, this.durum.cengoBag),
+      gorsel: c.gorsel || null,
+      arastirmaKalan: a.arastirmaKalan, ucret, para: this.durum.para,
+    };
   }
 
   // --- Açık kararlar: gate sağlanan --------------------------------------------
@@ -344,4 +362,4 @@ class Oyun {
   }
 }
 
-module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA, ekonomiAl, giderToplam };
+module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA, ekonomiAl, giderToplam, metinSec };
