@@ -68,7 +68,13 @@ kirletmez.
 
 ## Ses
 
-Altyapı kuruldu, **parçalar bekleniyor.** Sipariş metinleri: `ses_promptlari.md`.
+Altyapı kuruldu. Sipariş metinleri: `ses_promptlari.md`.
+
+**Şu an depoda geçici sentetik sesler var** (`ses/*.wav`, ~3 MB) — gerçek
+parçalar değil, geliştirme sırasında duyarak test edebilmek için. Ayrıntı:
+`ses/GECICI.md`. Oyun `.mp3`'ü önce arar, bulamazsa `.wav`'a düşer; gerçek
+`prolog.mp3` konduğu anda geçici `prolog.wav` devre dışı kalır, kodda hiçbir
+şey değişmez.
 
 Dosyalar depo kökündeki `ses/` klasörüne konur; `index.html`'e **gömülmez**
 (gömülürse dosya 15 MB'ı aşar, müzik akıtılamaz, ilk açılış yavaşlar).
@@ -76,6 +82,9 @@ Beklenen adlar `build_html.js` içindeki `MUZIK` ve `EFEKT` haritalarında:
 
 - müzik: `prolog` `masa` `giris` `arastirma` `karar` `sonuc` `huzun` `final`
 - efekt: `efekt_dokun` `efekt_kaynak` `efekt_kilit` `efekt_muhur` `efekt_alev`
+
+Uzantı sırası `SES_UZANTILAR = [".mp3", ".wav"]`. Bulunan uzantı akılda tutulur,
+her ses için yalnızca bir kez aranır.
 
 Davranış:
 
@@ -95,7 +104,8 @@ Davranış:
 
 ## Kalan iş
 
-- Ses parçalarının üretilip `ses/` klasörüne konması.
+- Gerçek ses parçalarının üretilip `ses/` klasörüne `.mp3` olarak konması,
+  ardından geçici `.wav` dosyalarının ve `ses/GECICI.md`'nin silinmesi.
 - Yayın öncesi `build_html.js` içinde `DEV_MOD = false`.
 
 ## Sonraki aşama: Android

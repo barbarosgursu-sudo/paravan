@@ -251,7 +251,9 @@ function kayitSil(){ try{ localStorage.removeItem(KAYIT_ANAHTAR); }catch(e){} }
    ============================================================ */
 const SES_ANAHTAR = "paravan_ses_v1";   // kayıt yuvasından AYRI: "baştan başla" ses tercihini silmez
 const SES_KLASOR  = "ses/";
-const SES_UZANTI  = ".mp3";
+// Sırayla denenir. Gerçek parçalar .mp3 olacak; .wav yedeği geçici sentetik
+// seslerin çalışmasını sağlıyor. Bulunan uzantı akılda tutulur, bir daha aranmaz.
+const SES_UZANTILAR = [".mp3", ".wav"];
 
 // ruh hali → dosya adı (ses/<ad>.mp3)
 const MUZIK = {
@@ -280,6 +282,8 @@ const ses = {
   calan: null,            // aktif Audio
   bekleyen: null,         // kilit açılınca çalacak ruh hali
   yok: {},                // bulunamayan dosyalar — bir daha denenmez
+  uzanti: {},             // ad → çalışan uzantının sırası (bir kez bulunur)
+  yukleniyor: null,       // hazırlanan parça (çift başlatmayı önler)
   efektler: {},           // önbellek
 };
 
@@ -307,29 +311,49 @@ function sesKilidiAc(){
 function muzikCal(mod){
   const ad = MUZIK[mod];
   if(!ad || ses.yok[ad]) return;
-  if(ses.suAn === mod && ses.calan) return;      // zaten çalıyor
+  if(ses.suAn === mod && (ses.calan || ses.yukleniyor)) return;   // zaten çalıyor ya da yükleniyor
   ses.suAn = mod;
   if(!ses.acik) return;
   if(ses.kilitli){ ses.bekleyen = mod; return; }
+  muzikBaslat(mod, ad, ses.uzanti[ad] ?? 0);
+}
 
-  const yeni = new Audio(SES_KLASOR + ad + SES_UZANTI);
+function muzikBaslat(mod, ad, i){
+  if(i >= SES_UZANTILAR.length){ ses.yok[ad] = true; ses.yukleniyor = null; return; }
+  const yeni = new Audio(SES_KLASOR + ad + SES_UZANTILAR[i]);
   yeni.loop = true;
   yeni.volume = 0;
-  yeni.addEventListener("error", () => {        // dosya yoksa sessizce vazgeç
-    ses.yok[ad] = true;
-    if(ses.calan === yeni){ ses.calan = null; }
-  });
+  ses.yukleniyor = yeni;
+  let bitti = false;
+
+  const basarisiz = () => {
+    if(bitti) return; bitti = true;
+    if(ses.yukleniyor === yeni) ses.yukleniyor = null;
+    if(ses.suAn === mod) muzikBaslat(mod, ad, i + 1);   // sıradaki uzantıyı dene
+  };
+  yeni.addEventListener("error", basarisiz);
+
+  // Geçişi ancak yeni parça çalmaya HAZIR olunca başlat; yoksa eskisi susar
+  // ve yeni dosya gelene kadar sessizlik olur.
+  yeni.addEventListener("canplay", () => {
+    if(bitti) return; bitti = true;
+    ses.uzanti[ad] = i;                                  // çalışan uzantıyı aklında tut
+    if(ses.yukleniyor === yeni) ses.yukleniyor = null;
+    if(ses.suAn !== mod || !ses.acik){ try{ yeni.pause(); }catch(e){} return; }  // sahne değişti
+    capraz(ses.calan, yeni);
+    ses.calan = yeni;
+  }, {once:true});
+
   const p = yeni.play();
   if(p && p.catch) p.catch(err => {
     // Reddin iki farklı sebebi var, karıştırılmamalı:
     // NotAllowedError = kullanıcı henüz dokunmadı → kilitle, dokununca çal.
-    // Diğerleri (dosya yok/bozuk/çözülemiyor) → yalnızca o dosyayı işaretle;
+    // Diğerleri (dosya yok/bozuk) → uzantıyı düş, sonunda dosyayı eksik say;
     // yoksa tek bir eksik parça bütün müziği susturur.
-    if(err && err.name === "NotAllowedError"){ ses.kilitli = true; ses.bekleyen = mod; }
-    else { ses.yok[ad] = true; if(ses.calan === yeni) ses.calan = null; }
+    if(err && err.name === "NotAllowedError"){
+      bitti = true; ses.yukleniyor = null; ses.kilitli = true; ses.bekleyen = mod;
+    } else basarisiz();
   });
-  capraz(ses.calan, yeni);
-  ses.calan = yeni;
 }
 
 // çapraz geçiş: eskisi kısılıp durur, yenisi açılır (sert kesme kötü durur)
@@ -353,14 +377,20 @@ function muzikDur(){
   ses.suAn = null;
 }
 
-function efektCal(tur){
+function efektCal(tur, i){
   const ad = EFEKT[tur];
   if(!ad || !ses.acik || ses.kilitli || ses.yok[ad]) return;
+  const idx = i ?? ses.uzanti[ad] ?? 0;
+  if(idx >= SES_UZANTILAR.length){ ses.yok[ad] = true; return; }
   try{
     let a = ses.efektler[ad];
     if(!a){
-      a = new Audio(SES_KLASOR + ad + SES_UZANTI);
-      a.addEventListener("error", () => { ses.yok[ad] = true; });
+      a = new Audio(SES_KLASOR + ad + SES_UZANTILAR[idx]);
+      a.addEventListener("error", () => {        // sıradaki uzantıyı dene
+        ses.efektler[ad] = null;
+        efektCal(tur, idx + 1);
+      });
+      a.addEventListener("canplay", () => { ses.uzanti[ad] = idx; }, {once:true});
       ses.efektler[ad] = a;
     }
     a.currentTime = 0;
