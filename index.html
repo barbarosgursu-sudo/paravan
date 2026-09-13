@@ -82,6 +82,14 @@ body{
 .kasa-serit .hal.kritik{color:var(--kirmizi);font-style:normal}
 .kasa-serit .hal.batik{color:var(--kirmizi);font-weight:bold;font-style:normal}
 .kasa-serit .borc{color:var(--kirmizi)}
+.gider-uyari{margin:14px 24px 4px;padding:12px 14px;border:1px solid var(--kirmizi);
+  border-radius:4px;background:rgba(194,91,82,.10)}
+.gider-uyari .ust-satir{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.gider-uyari .et{font-size:11.5px;letter-spacing:2px;text-transform:uppercase;color:var(--kirmizi)}
+.gider-uyari .tutar{font-size:22px;color:var(--kirmizi);font-weight:bold;letter-spacing:.3px}
+.gider-uyari .dokum{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:7px;
+  padding-top:7px;border-top:1px solid rgba(194,91,82,.28);font-size:12px;color:var(--duman)}
+.gider-uyari .dokum b{color:var(--sonuk);font-weight:normal}
 .karar .bedel{display:flex;align-items:baseline;gap:9px;margin-top:8px;
   padding-top:8px;border-top:1px solid var(--cizgi);flex-wrap:wrap}
 .karar .bedel .etiket{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--duman)}
@@ -1178,8 +1186,14 @@ function kararFazi(){
   let h = ust() + '<div class="faz">';
   h += `<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>`;
   h += `<div class="uyari">Bu karar geri alınamaz.</div>`;
+  // Baskının çapası bu. Küçük gri bir satır olarak geçiştirilirse oyuncu
+  // görmüyor ve karar bedelsiz hissettiriyor — masadaki fatura gibi dursun.
   if(oyun.durum.aktif.vaka.tur === "omurga"){
-    h += `<div class="bilgi" style="padding-top:2px">Bu ay ${tl(giderToplam(GAME))} gider ödeyeceksin.</div>`;
+    const gd = ekonomiAl(GAME).gider || {};
+    h += `<div class="gider-uyari">
+      <div class="ust-satir"><span class="et">Bu ay ödeyeceksin</span><span class="tutar">${tl(giderToplam(GAME))}</span></div>
+      <div class="dokum">${Object.entries(gd).map(([ad,t]) => `<span>${ad} <b>${tl(t)}</b></span>`).join("")}</div>
+    </div>`;
   }
   // Baskı ancak SONUCU görünürse hissedilir. Tutarı gizlemek ikilemi
   // korumuyordu, sadece kararı anlamsızlaştırıyordu — baskın seçeneği K8
