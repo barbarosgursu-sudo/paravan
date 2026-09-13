@@ -11,7 +11,8 @@ for (const [kar, iz] of [["polis","büyümeden bastıralım"],["koz","senden alm
 
 console.log("\n=== YOL 1: KOMPLO derinliği (tam_resim) — 4 kaynak + 1 ip ===");
 let o=new Oyun(g); o.durum.seeds.ilyas_kime_gitti="polis"; o.vakaBaslat("V5");
-k("başta sadece cavit_ilyas_ilgi açık", o.acikKaynaklar().length===1);
+const bas=o.acikKaynaklar().map(x=>x.id).sort().join(",");
+k("başta 2 paralel kaynak açık (cavit_ilyas_ilgi + dosya_donus), ip derinleşmemiş", bas==="cavit_ilyas_ilgi,dosya_donus");
 o.kaynakAc("cavit_ilyas_ilgi");
 k("İP2 başı açık, ceyda_oku KAPALI", o.acikKaynaklar().some(x=>x.id==="cavit_izle") && !o.acikKaynaklar().some(x=>x.id==="ceyda_oku"));
 o.kaynakAc("ilyas_gecmis"); o.kaynakAc("cavit_izle"); o.kaynakAc("iliski_gor");

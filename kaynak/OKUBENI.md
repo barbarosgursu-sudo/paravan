@@ -42,13 +42,6 @@ for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yan
 `test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
 vermesini bekler.
 
-### Bilinen bayat iddia — test_v5
-
-`test_v5.js:14` "V5 başta sadece 1 kaynak açık" diyor, oysa V5 artık 2 kaynakla
-açılıyor (`cavit_ilyas_ilgi`, `dosya_donus`). Bu, "her vaka 2+ paralel kaynakla
-açılsın" düzeltmesinden kalma eski bir iddia — oyunda hata değil. Testin geri
-kalan 13 iddiası geçiyor. Düzeltilmedi, karar bekliyor.
-
 ## Kalan iş
 
 - Ses/müzik (henüz başlanmadı). Ses dosyaları **gömülmeyecek**, `ses/` altında
