@@ -89,6 +89,26 @@ body{
 
 /* ===== ARAŞTIRMA FAZI ===== */
 .faz-etiket{padding:20px 24px 4px;display:flex;justify-content:space-between;align-items:center}
+.kasa-serit{display:flex;justify-content:space-between;align-items:center;
+  padding:9px 24px;background:rgba(15,35,56,.6);border-bottom:1px solid var(--cizgi);
+  font-size:12.5px;letter-spacing:.4px}
+.kasa-serit .tutar{color:var(--altin);font-weight:bold;font-size:14px}
+.kasa-serit .hal{color:var(--duman);font-style:italic}
+.kasa-serit .hal.kritik{color:var(--kirmizi);font-style:normal}
+.kasa-serit .hal.batik{color:var(--kirmizi);font-weight:bold;font-style:normal}
+.kasa-serit .borc{color:var(--kirmizi)}
+.karar .bedel{display:block;margin-top:5px;font-size:11.5px;letter-spacing:1px;
+  text-transform:uppercase;color:var(--duman)}
+.karar .bedel.tam{color:var(--altin)}
+.karar .bedel.yok{color:var(--kirmizi)}
+.kaynak .ucret{color:var(--altin);font-size:11.5px;margin-left:6px}
+.hesap{margin:16px 24px 0;padding:12px 14px;border:1px solid var(--cizgi);
+  background:rgba(33,69,106,.35);border-radius:4px;font-size:13px}
+.hesap .satir{display:flex;justify-content:space-between;padding:2px 0;color:var(--sonuk)}
+.hesap .satir.gelir b{color:var(--yesil)}
+.hesap .satir.gider b{color:var(--kirmizi)}
+.hesap .ayrac{border-top:1px solid var(--cizgi);margin:7px 0}
+.hesap .sonuc-satir{display:flex;justify-content:space-between;color:var(--metin);font-weight:bold}
 .kaynak.yetersiz{opacity:.45}
 .kaynak.yetersiz .tur{color:var(--kirmizi);font-style:italic}
 .kaynak-uyari{margin:8px 24px 0;padding:9px 12px;border-left:2px solid var(--kirmizi);
@@ -606,9 +626,27 @@ function ust(geriMasa){
       <button class="ust-btn" onclick="kisilerGoster()">☗ Kişiler</button>
       <button class="ust-btn" onclick="defterGoster()">✎ Defter</button>
     </div>
-  </div>\`;
+  </div>\` + kasaSerit();
 }
 function scrollUst(){ window.scrollTo(0,0); }
+
+/* Para: sayıyı ve ANLAMINI birlikte göster. Çıplak sayı baskıyı okunmaz yapar,
+   sayısız gösterge ise oyuncuyu körleştirir. */
+function tl(n){ return (n<0?"−":"") + Math.abs(Math.round(n)).toLocaleString("tr-TR") + " ₺"; }
+function kasaSerit(){
+  const k = oyun.kasaDurumu();
+  if(!k.aylikGider) return "";
+  const halMetin = {
+    "idare eder": k.ayDayanir + " aylık gider karşılanıyor",
+    "dar":        "bir aylık gideri ancak karşılıyor",
+    "kritik":     "bu ayın giderini karşılamıyor",
+    "batık":      "kasa boş",
+  }[k.hal];
+  return \`<div class="kasa-serit">
+    <span>Kasa <span class="tutar">\${tl(k.para)}</span>\${k.borc? \` · <span class="borc">borç \${tl(k.borc)}</span>\`:""}</span>
+    <span class="hal \${k.hal==="kritik"?"kritik":k.hal==="batık"?"batik":""}">\${halMetin}</span>
+  </div>\`;
+}
 
 /* Cengo bağı: 5 alevlik gösterge (dolu=kehribar, boş=sönük) + küçük kelime */
 function alevSvg(dolu){
@@ -734,9 +772,9 @@ function arastirmaFazi(){
       const tam = v.clues.find(x=>x.id===c.id);
       // Hak bitmişken ücretli kaynak listede durur ama alınamaz. Oyuncu bunu
       // tıklamadan ÖNCE görmeli; sessizce aynı ekrana dönmek hata gibi duruyor.
-      const yetersiz = !tam.bedelsiz && a.arastirmaKalan <= 0;
+      const yetersiz = (!tam.bedelsiz && a.arastirmaKalan <= 0) || ((tam.ucret||0) > oyun.durum.para);
       h += \`<div class="kaynak \${tam.bedelsiz?'bedelsiz':''} \${yetersiz?'yetersiz':''}" onclick="kaynakAcFaz('\${c.id}')">
-        <span class="ico">\${c.ico}</span><span class="ad">\${c.ad}</span>
+        <span class="ico">\${c.ico}</span><span class="ad">\${c.ad}\${tam.ucret?\`<span class="ucret">\${tl(tam.ucret)}</span>\`:""}</span>
         <span class="tur">\${yetersiz ? 'zamanın kalmadı' : c.tur}</span></div>\`;
     }
   } else {
@@ -768,14 +806,31 @@ function kaynakAcFaz(id){
 }
 
 /* ---------- FAZ 3: KARAR ---------- */
+// aktif vakanın ham karar tanımı (para alanı için)
+function v6Karar(id){
+  const v = oyun.durum.aktif && oyun.durum.aktif.vaka;
+  return (v && v.decisions.find(d => d.id === id)) || {};
+}
 function kararFazi(){
   muzikCal('karar');
   const kararlar = oyun.acikKararlar();
   let h = ust() + '<div class="faz">';
   h += \`<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>\`;
   h += \`<div class="uyari">Bu karar geri alınamaz.</div>\`;
+  const tumPara = kararlar.map(k => (v6Karar(k.id).para) || 0);
+  const enCok = Math.max(...tumPara, 0);
   for(const k of kararlar){
-    h += \`<div class="karar" onclick="kararVerFaz('\${k.id}')"><div class="et">\${k.etiket}</div></div>\`;
+    const p = v6Karar(k.id).para;
+    // Kasten RAKAM değil: kesin tutar görünürse ahlaki seçim hesap işine döner.
+    // Oyuncu yine de neyin ne kadar getirdiğini kabaca bilmeli.
+    let bedel = "", sinif = "";
+    if(p !== undefined){
+      if(p < 0){ bedel = "cebinden çıkar"; sinif = "yok"; }
+      else if(p === 0){ bedel = "ödeme yok"; sinif = "yok"; }
+      else if(p === enCok){ bedel = "tam ücret"; sinif = "tam"; }
+      else { bedel = "ücretin bir kısmı"; sinif = ""; }
+    }
+    h += \`<div class="karar" onclick="kararVerFaz('\${k.id}')"><div class="et">\${k.etiket}\${bedel?\`<span class="bedel \${sinif}">\${bedel}</span>\`:""}</div></div>\`;
   }
   h += \`<button class="buton ikincil" onclick="arastirmaFazi()">← Biraz daha araştırayım</button></div>\`;
   app.innerHTML=h; scrollUst();
@@ -793,6 +848,7 @@ function kararVerFaz(id){
   let h = ust() + '<div class="faz">';
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
   if(not) h += \`<div class="defter-not">\${not}</div>\`;
+  h += hesapKutusu(r.ekonomi);
   h += istatistikPanel(vid, id);
   h += cengoGosterge();
   if(devIzole){
@@ -802,6 +858,22 @@ function kararVerFaz(id){
     h += \`<button class="buton" onclick="masaGoster()">Devam et</button></div>\`;
   }
   app.innerHTML=h; scrollUst();
+}
+
+/* Kararın parasal sonucu: oyuncu ne kazandığını VE ayın giderlerini görmeli.
+   Ekonomik çöküş hikâyede varsa oyunda da görünmeli. */
+function hesapKutusu(e){
+  if(!e) return "";
+  let h = '<div class="hesap">';
+  if(e.kararPara) h += \`<div class="satir \${e.kararPara>0?'gelir':'gider'}"><span>\${e.kararPara>0?'Vaka ücreti':'Kararın bedeli'}</span><b>\${tl(e.kararPara)}</b></div>\`;
+  if(e.harcanan)  h += \`<div class="satir gider"><span>Araştırma masrafı</span><b>\${tl(-e.harcanan)}</b></div>\`;
+  for(const g of (e.giderler||[])) h += \`<div class="satir gider"><span>\${g.ad}</span><b>\${tl(-g.tutar)}</b></div>\`;
+  if(e.faiz) h += \`<div class="satir gider"><span>Borç faizi</span><b>\${tl(-e.faiz)}</b></div>\`;
+  h += '<div class="ayrac"></div>';
+  h += \`<div class="sonuc-satir"><span>Kasa</span><span>\${tl(e.para)}</span></div>\`;
+  if(e.borc) h += \`<div class="sonuc-satir" style="color:var(--kirmizi)"><span>Borç</span><span>\${tl(e.borc)}</span></div>\`;
+  h += '</div>';
+  return h;
 }
 
 function gorselHTML(g){

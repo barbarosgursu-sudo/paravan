@@ -41,7 +41,8 @@ const oyna = (id, kaynaklar, karar) => {
 
 // V1: araştır, gizli kaz
 oyna("V1", ["olay_yeri","ceyda_gorusme","cengo_baglanti"], "gizli_kaz");
-k("V1 sonrası cengoBag=1", o.durum.cengoBag===1);
+k("V1 sonrası cengoBag verideki gizli_kaz değeriyle uyuşuyor",
+  o.durum.cengoBag === g.vakalar.find(v=>v.id==="V1").decisions.find(d=>d.id==="gizli_kaz").cengoBag);
 k("V1 sonrası seed kaya_kayit_gordu=true", o.durum.seeds.kaya_kayit_gordu===true);
 
 // YAN-A belirmiş olmalı mı? V1 sonrası hayır (sonra=V2)

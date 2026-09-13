@@ -21,6 +21,15 @@
    "kaya_biliyordu": "V6"
   }
  },
+ "ekonomi": {
+  "baslangic_kasa": 65000,
+  "gider": {
+   "Ofis kirası": 22000,
+   "Cengo'nun maaşı": 28075,
+   "İşletme (elektrik, telefon, yakıt)": 9000
+  },
+  "borc_faizi": 0.1
+ },
  "vakalar": [
   {
    "id": "V1",
@@ -195,44 +204,48 @@
       "ilk_karar": "temiz",
       "cavit_guven": true
      },
-     "yuzde": 54
+     "yuzde": 54,
+     "para": 65000
     },
     {
      "id": "soyle_cavit",
      "gate": "cinayet_suphesi",
      "etiket": "Şüpheni Cavit'e söyle",
      "sonuc": "Dürüstsün ama saf. Cavit gülümser — ama gözünde artık bir risksin.",
-     "cengoBag": 0,
+     "cengoBag": 1,
      "seed_yaz": {
       "ilk_karar": "soyledi",
       "cavit_guven": false
      },
-     "yuzde": 11
+     "yuzde": 11,
+     "para": 25000
     },
     {
      "id": "gizli_kaz",
      "gate": "cinayet_suphesi",
      "etiket": "Raporu ver ama sessizce kaz",
      "sonuc": "Cavit'e istediğini verirsin, güvenini korursun; bir yandan kendine dosya açarsın.",
-     "cengoBag": 1,
+     "cengoBag": 0,
      "seed_yaz": {
       "ilk_karar": "gizli",
       "cavit_guven": true,
       "gizli_dosya": true
      },
-     "yuzde": 28
+     "yuzde": 28,
+     "para": 45000
     },
     {
      "id": "reddet",
      "gate": "yok",
      "etiket": "İşi reddet",
      "sonuc": "Onurlu ama ölümcül. Para gelmez, borç büyür; Cavit başkasını bulur.",
-     "cengoBag": 1,
+     "cengoBag": 2,
      "seed_yaz": {
       "ilk_karar": "reddetti",
       "cavit_guven": false
      },
-     "yuzde": 7
+     "yuzde": 7,
+     "para": 0
     }
    ],
    "seeds": {

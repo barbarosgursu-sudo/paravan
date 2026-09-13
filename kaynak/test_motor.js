@@ -37,7 +37,8 @@ kontrol("cinayet_suphesi türedi", o.bilinenler().includes("cinayet_suphesi"));
 kontrol("gizli_kaz artık AÇIK", o.acikKararlar().some(k=>k.id==="gizli_kaz"));
 
 let r = o.kararVer("gizli_kaz");
-kontrol("gizli_kaz cengoBag +1", o.durum.cengoBag===1);
+const gkBekle = g.vakalar.find(v=>v.id==="V1").decisions.find(d=>d.id==="gizli_kaz").cengoBag;
+kontrol("gizli_kaz cengoBag verideki değerle uyuşuyor ("+gkBekle+")", o.durum.cengoBag===gkBekle);
 kontrol("cengoDurum Yoldaş", r.cengoDurum==="Yoldaş");
 kontrol("seed gizli_dosya=true", o.durum.seeds.gizli_dosya===true);
 kontrol("seed kaya_kayit_gordu=true (olay_yeri açıldı)", o.durum.seeds.kaya_kayit_gordu===true);
@@ -59,7 +60,8 @@ kontrol("YAN-TEST belirMEdi (gizli_dosya yok)", !o2.masadakiVakalar().includes("
 console.log("\n=== YOL C: reddet → cengoBag +1 → Yoldaş sınırı ===");
 let o3 = new Oyun(g); o3.vakaBaslat("V1");
 o3.kararVer("reddet");
-kontrol("reddet cengoBag +1", o3.durum.cengoBag===1);
+const rdBekle = g.vakalar.find(v=>v.id==="V1").decisions.find(d=>d.id==="reddet").cengoBag;
+kontrol("reddet cengoBag verideki değerle uyuşuyor ("+rdBekle+")", o3.durum.cengoBag===rdBekle);
 
 console.log("\n"+(hata===0 ? "=== TÜM MOTOR TESTLERİ GEÇTİ ===" : "=== "+hata+" TEST BAŞARISIZ ==="));
 process.exit(hata?1:0);

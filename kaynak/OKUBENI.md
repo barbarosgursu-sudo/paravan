@@ -37,7 +37,7 @@ koşmadan derleme yapılmaz.
 
 ```
 cd kaynak
-for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit test_butce; do node $t.js; done
+for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit test_butce test_ekonomi; do node $t.js; done
 ```
 
 `test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
@@ -93,6 +93,70 @@ K9, tohumları `kisiler.json`, `prolog.json` ve `build_html.js` içinde de arar.
   kalıyordu. Artık 10 yolun hepsinde 4 karar da açık.
 - **V6/zincir_ozet** V5'teki komplo çözümüne bağlandı; çözemeyen oyuncu
   `eldekiler` ile boşluğun kendisiyle yüzleşiyor.
+
+## Ekonomi
+
+**Para bir skor değil, bir kısıt.** Biriktirilip maksimize edilmez; bittiğinde
+seçenekler kapanır. Batmak oyunu bitirmez — düzgün olma hakkını elinden alır.
+Kaybetme durumu **yok**.
+
+Rakamlar 2026 seviyelerine göre (`game_data.json` → `ekonomi`):
+
+| Kalem | Tutar | Dayanak |
+|---|---|---|
+| Başlangıç kasası | 65.000 ₺ | bir aylık gideri ancak karşılıyor |
+| Ofis kirası | 22.000 ₺ | İstanbul ortalaması 75.450 ₺; Paravan arka sokakta, dökük |
+| Cengo'nun maaşı | 28.075 ₺ | 2026 net asgari ücret, birebir |
+| İşletme | 9.000 ₺ | elektrik, telefon, yakıt |
+| **Aylık toplam** | **59.075 ₺** | |
+| Borç faizi | %10 / ay | tefeci; borç varsa her omurga vakada biner |
+
+Vaka ücretleri gerçek dedektiflik fiyatlarına dayanıyor: aldatma araştırması
+20–50 bin, kayıp kişi 40–100 bin, günlük 4–9 bin ₺.
+
+### Kurallar
+
+- **Sabit giderler yalnızca OMURGA vaka bitince kesilir.** Bir omurga vaka bir
+  ay demek; yan iş aynı ayın içinde yapılır, ikinci kira ödetmez. Bu yan
+  işleri finansal olarak anlamlı kılar.
+- **Kasa asla eksiye düşmez**; eksik kısım borca yazılır (`paraDus`).
+- Kaynaklar `ucret` taşıyabilir (muhbire ödeme, kayıt satın alma). Kasa
+  yetmiyorsa kaynak kapanır — yoksulluk bilgiye erişimi kısıtlar.
+- Kararlar `para` taşır: kararın net parasal sonucu.
+
+### Arayüz
+
+- **Kasa şeridi** her ekranda: tutar + anlamı ("bir aylık gideri ancak
+  karşılıyor"). Çıplak sayı baskıyı okunmaz yapar, sayısız gösterge körleştirir.
+- **Karar ekranında rakam YOK**, niteliksel etiket var: "tam ücret",
+  "ücretin bir kısmı", "ödeme yok", "cebinden çıkar". Kesin tutar görünürse
+  ahlaki seçim hesap işine döner.
+- **Sonuç ekranında tam döküm**: ücret, araştırma masrafı, kalem kalem
+  giderler, faiz, kasa ve borç.
+
+### Baskınlık kuralı (K8)
+
+Para ve vicdan eksenleri **ters sıralanmalı**. Bir seçenek hem daha çok para
+hem daha çok vicdan getiriyorsa o bir ikilem değil, doğru cevaptır.
+
+V1 bunun ilk örneği. Eski vicdan değerleri (−1, 0, +1, +1) para eklenince
+baskın seçenek üretiyordu: `gizli_kaz` hem para getiriyor hem +1 vicdan,
+`reddet`i (aynı +1, sıfır para) anlamsız kılıyordu. Yeni sıralama:
+
+| Karar | Para | Vicdan |
+|---|---|---|
+| Temiz rapor ver (göm) | 65.000 ₺ | −1 |
+| Raporu ver, sessizce kaz | 45.000 ₺ | 0 |
+| Şüpheni Cavit'e söyle | 25.000 ₺ | +1 |
+| İşi reddet | 0 ₺ | +2 |
+
+K8 ayrıca göreli ödünleşimi kontrol eder: en çok kazandıran seçenek aynı
+zamanda en vicdanlısı olamaz. 65.000 yerine 0 almak da bir bedeldir.
+
+### Kalan
+
+V1 dışındaki 7 vakanın para değerleri henüz yazılmadı (31 karar). K8 bu
+vakaları sessizce atlıyor; `para` eklendiği anda devreye giriyor.
 
 ## Kayıt sistemi
 

@@ -15,7 +15,28 @@ function ifadeCalistir(ifade, bilinen, seeds, cengoBag) {
   return false;
 }
 
-const KAYIT_SEMA = 1;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
+const KAYIT_SEMA = 2;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
+
+// --- EKONOMİ ---------------------------------------------------------------
+// Para bir SKOR değil, bir KISIT. Biriktirilip maksimize edilmez; bittiğinde
+// seçenekler kapanır. Batmak oyunu bitirmez — düzgün olma hakkını elinden alır.
+const EKONOMI_VARSAYILAN = {
+  baslangic_kasa: 0,
+  gider: {},            // omurga vaka bitince kesilen sabit giderler
+  borc_faizi: 0,        // her omurga vakada borca eklenen oran
+};
+
+function ekonomiAl(game) {
+  return { ...EKONOMI_VARSAYILAN, ...(game.ekonomi || {}) };
+}
+function giderToplam(game) {
+  return Object.values(ekonomiAl(game).gider || {}).reduce((a, b) => a + b, 0);
+}
+// Parayı düşürür; kasa yetmezse eksik kısım borca yazılır (oyun bitmez).
+function paraDus(durum, miktar) {
+  durum.para -= miktar;
+  if (durum.para < 0) { durum.borc += -durum.para; durum.para = 0; }
+}   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
 
 const ESIKLER = [
   { ad: "Mesafeli", enAz: -Infinity, enFazla: -2 },
@@ -39,8 +60,8 @@ class Oyun {
   constructor(game) {
     this.game = game;
     this.durum = {
-      para: game.baslangic?.para ?? 2400,
-      borc: game.baslangic?.borc ?? 0,
+      para: ekonomiAl(game).baslangic_kasa,
+      borc: 0,
       cengoBag: 0,
       seeds: {},          // cross-vaka bayraklar
       tamamlanan: [],     // biten vaka id'leri
@@ -131,13 +152,21 @@ class Oyun {
     // bedelsiz kaynaklar (Cengo'nun kendiliğinden konuşması gibi) araştırma harcamaz
     if (!c.bedelsiz) {
       if (a.arastirmaKalan <= 0) return { hata: "araştırma hakkı bitti" };
-      a.arastirmaKalan -= 1;
     }
+    // Bazı kaynaklar para ister (muhbire ödeme, kayıt satın alma). Kasa
+    // yetmiyorsa kaynak KAPANIR — yoksulluk bilgiye erişimi kısıtlar.
+    const ucret = c.ucret || 0;
+    if (ucret > this.durum.para) {
+      return { hata: "kasa yetmiyor — " + ucret.toLocaleString("tr-TR") + " ₺ gerekiyor" };
+    }
+    if (!c.bedelsiz) a.arastirmaKalan -= 1;
+    if (ucret) { this.durum.para -= ucret; a.harcanan = (a.harcanan || 0) + ucret; }
     a.acilanKaynaklar.add(id);
     a.bilinen.add(id + "_acildi");                 // seed koşulları için işaret
     (c.reveals || []).forEach(r => a.bilinen.add(r));
     this._turet();
-    return { text: c.text, meta: c.meta, gorsel: c.gorsel || null, arastirmaKalan: a.arastirmaKalan };
+    return { text: c.text, meta: c.meta, gorsel: c.gorsel || null,
+             arastirmaKalan: a.arastirmaKalan, ucret, para: this.durum.para };
   }
 
   // --- Açık kararlar: gate sağlanan --------------------------------------------
@@ -191,12 +220,55 @@ class Oyun {
       }
     }
 
+    // --- EKONOMİ: kararın parası, sonra ayın sabit giderleri ---------------
+    const ekonomi = ekonomiAl(this.game);
+    const kararPara = d.para || 0;
+    if (kararPara >= 0) this.durum.para += kararPara; else paraDus(this.durum, -kararPara);
+
+    // Sabit giderler yalnızca OMURGA vaka bitince kesilir: bir omurga vaka
+    // bir ay demek. Yan iş aynı ayın içinde yapılır, ikinci kira ödetmez —
+    // bu da yan işleri finansal olarak anlamlı kılar.
+    const giderler = [];
+    let faiz = 0;
+    if (a.vaka.tur === "omurga") {
+      for (const [ad, tutar] of Object.entries(ekonomi.gider || {})) {
+        paraDus(this.durum, tutar);
+        giderler.push({ ad, tutar });
+      }
+      if (this.durum.borc > 0 && ekonomi.borc_faizi) {
+        faiz = Math.round(this.durum.borc * ekonomi.borc_faizi);
+        this.durum.borc += faiz;
+      }
+    }
+
     this.durum.tamamlanan.push(a.id);
     // kalıcı olguları kaydet (künye için — vaka bitince bilinenler kaybolmasın)
     this.durum.kaliciOlgular = this.durum.kaliciOlgular || [];
     a.bilinen.forEach(x => { if (!x.endsWith("_acildi") && !this.durum.kaliciOlgular.includes(x)) this.durum.kaliciOlgular.push(x); });
+    const harcanan = a.harcanan || 0;
     this.durum.aktif = null;
-    return { sonuc: d.sonuc, cengoBag: this.durum.cengoBag, cengoDurum: cengoDurumHesap(this.durum.cengoBag), yuzde: d.yuzde ?? null };
+    return {
+      sonuc: d.sonuc,
+      cengoBag: this.durum.cengoBag,
+      cengoDurum: cengoDurumHesap(this.durum.cengoBag),
+      yuzde: d.yuzde ?? null,
+      // ekonomik döküm — oyuncu kararının parasal sonucunu ekranda görmeli
+      ekonomi: { kararPara, harcanan, giderler, faiz, para: this.durum.para, borc: this.durum.borc },
+    };
+  }
+
+  // Kasanın SAYISI kadar ANLAMI da gösterilmeli: "kaç ay dayanır?"
+  kasaDurumu() {
+    const gider = giderToplam(this.game);
+    const d = this.durum;
+    const ay = gider > 0 ? d.para / gider : Infinity;
+    let hal;
+    if (d.borc > 0 && d.para <= 0) hal = "batık";
+    else if (ay < 1) hal = "kritik";
+    else if (ay < 2) hal = "dar";
+    else hal = "idare eder";
+    return { para: d.para, borc: d.borc, aylikGider: gider, hal,
+             ayDayanir: gider > 0 ? Math.floor(ay) : null };
   }
 
   cengoDurum() { return cengoDurumHesap(this.durum.cengoBag); }
@@ -272,4 +344,4 @@ class Oyun {
   }
 }
 
-module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA };
+module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA, ekonomiAl, giderToplam };

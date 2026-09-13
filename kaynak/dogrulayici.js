@@ -436,12 +436,17 @@ function kural8_baskinlik(game, hatalar, uyarilar) {
                      `(para ${paraF >= 0 ? "+" : ""}${paraF}, vicdan ${vicdanF >= 0 ? "+" : ""}${vicdanF}) — ikilem değil.`);
       }
     }
-    const paraArtiVicdanEksi = kararlar.some(d => (d.para || 0) > 0 && (d.cengoBag || 0) < 0);
-    const paraEksiVicdanArti = kararlar.some(d => (d.para || 0) < 0 && (d.cengoBag || 0) > 0);
-    if (!paraArtiVicdanEksi || !paraEksiVicdanArti) {
-      uyarilar.push(`[K8] ${vaka.id}: gerçek ödünleşim eksik — ` +
-                    `${!paraArtiVicdanEksi ? "para kazandırıp vicdan bozan " : ""}` +
-                    `${!paraEksiVicdanArti ? "para kaybettirip vicdan kazandıran " : ""}seçenek yok.`);
+    // Ödünleşim MUTLAK değil GÖRELİdir: 65.000 yerine 0 almak da bir bedeldir.
+    // Asıl soru şu — en çok kazandıran seçenek aynı zamanda en vicdanlısı mı?
+    // Öyleyse "kolay cevap yok" iddiası çöker.
+    const enCokPara = Math.max(...kararlar.map(d => d.para || 0));
+    const enCokVicdan = Math.max(...kararlar.map(d => d.cengoBag || 0));
+    const paraciVicdani = Math.max(...kararlar.filter(d => (d.para || 0) === enCokPara).map(d => d.cengoBag || 0));
+    const vicdanciParasi = Math.max(...kararlar.filter(d => (d.cengoBag || 0) === enCokVicdan).map(d => d.para || 0));
+    if (paraciVicdani >= enCokVicdan) {
+      uyarilar.push(`[K8] ${vaka.id}: en çok kazandıran seçenek aynı zamanda en vicdanlısı — ikilem yok.`);
+    } else if (vicdanciParasi >= enCokPara) {
+      uyarilar.push(`[K8] ${vaka.id}: en vicdanlı seçenek aynı zamanda en çok kazandıranı — ikilem yok.`);
     }
   }
 }
