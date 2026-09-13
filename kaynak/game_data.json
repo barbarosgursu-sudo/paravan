@@ -1875,15 +1875,28 @@
      "yuzde": 13
     },
     {
-     "id": "sus",
-     "gate": "yok",
+     "id": "sus_bilerek",
      "etiket": "Hiçbirini verme, sus",
-     "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin.",
+     "gate": "zincir_tam",
      "cengoBag": -1,
+     "yuzde": 21,
      "seed_yaz": {
-      "final_karar": "sus"
+      "final_karar": "sus_bilerek"
      },
-     "yuzde": 21
+     "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin."
+    },
+    {
+     "id": "boslukla_kapat",
+     "etiket": "Dosyayı kapat",
+     "gate": {
+      "not": "zincir_tam"
+     },
+     "cengoBag": 0,
+     "yuzde": 100,
+     "seed_yaz": {
+      "final_karar": "boslukla_kapat"
+     },
+     "sonuc": "Dosyayı kapattın. Elinde bir adı olmayan bir boşluk, kanıtlanmamış bir şüphe ve ödenmiş bir kira kaldı. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
     },
     {
      "id": "hepsini_ifsa",

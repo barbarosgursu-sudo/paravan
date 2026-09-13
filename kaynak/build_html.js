@@ -879,6 +879,7 @@ function kararFazi(){
 /* ---------- FAZ 4: SONUÇ + DEFTER NOTU ---------- */
 function kararVerFaz(id){
   const vid = oyun.durum.aktif.id;
+  const mevcutIdler = oyun.acikKararlar().map(x=>x.id);   // karar vermeden önce
   const r = oyun.kararVer(id);
   if(r.hata){ alert(r.hata); return; }
   kayitYaz();   // hemen: kapatıp kararı geri almak yok
@@ -889,7 +890,7 @@ function kararVerFaz(id){
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
   if(not) h += \`<div class="defter-not">\${not}</div>\`;
   h += hesapKutusu(r.ekonomi);
-  h += istatistikPanel(vid, id);
+  h += istatistikPanel(vid, id, mevcutIdler);
   h += cengoGosterge();
   if(devIzole){
     h += \`<div class="dev-uyari" style="margin-top:20px">🛠 İZOLE TEST — bu sonuç kaydedilmedi</div>\`;
@@ -929,9 +930,21 @@ function gorselHTML(g){
 }
 
 /* Münevver stili: tüm kararların yüzdeleri, çubuk listesi */
-function istatistikPanel(vid, secilenId){
+function istatistikPanel(vid, secilenId, mevcutIdler){
   const v = GAME.vakalar.find(x=>x.id===vid);
-  const kararlar = [...v.decisions].sort((a,b)=>(b.yuzde||0)-(a.yuzde||0));
+  // Panel yalnızca oyuncuya SUNULAN kararları göstermeli. Aksi halde
+  // "bu durumda insanlar ne yapardı" ifadesi yanlış olur: oyuncunun hiç
+  // göremediği seçeneklerin oranını göstermek başka bir durumu anlatır.
+  let kararlar = [...v.decisions];
+  if(Array.isArray(mevcutIdler) && mevcutIdler.length){
+    kararlar = kararlar.filter(d => mevcutIdler.includes(d.id));
+  }
+  // Tek seçenek varsa dağılım diye bir şey yok — paneli hiç gösterme.
+  if(kararlar.length < 2) return "";
+  // Süzülen kümede oranlar 100'e tamamlanmalı, yoksa eksik görünür.
+  const toplam = kararlar.reduce((a,d)=>a+(d.yuzde||0),0) || 1;
+  kararlar = kararlar.map(d => ({...d, yuzde: Math.round((d.yuzde||0)*100/toplam)}));
+  kararlar.sort((a,b)=>(b.yuzde||0)-(a.yuzde||0));
   // "Diğer oyuncular ne yaptı?" gerçek veri ima ediyordu; oysa bu oranlar
   // vakaya sabit yazılı ve hiçbir yere gönderilmiyor. Koşullu kip kullanıp
   // kaynağını açıkça söylüyoruz — ayna etkisi korunuyor, iddia kalkıyor.
@@ -1032,12 +1045,15 @@ function sonEkrani(){
     "Yakın":"Cengo yanında kaldı — aranızda bir şey asılı, söze dökülmemiş.",
     "Bağlı":"Cengo, karanlığın ortasında sana kalan tek insan oldu."
   }[oyun.cengoDurum()];
+  // NOT: anahtar 'hepsi' olmalı — karar seed_yaz'ı onu yazıyor. Eskiden
+  // 'hepsini_ifsa' yazıyordu ve o final cümlesi hiç görünmüyordu.
   const fk = {
     "ilyas":"Tetikçiyi verdin; mimarlar gölgede kaldı.",
     "cavit":"Mimarı verdin; zincir koptu, ajans sarsıldı.",
     "ceyda":"Belki asıl aklı verdin — ama asla emin olamayacaksın.",
-    "sus":"Sustun. Elin temiz değil ama hayattasın.",
-    "hepsini_ifsa":"Hepsini yaktın — adalet, bedelini masumlara ödetti."
+    "sus_bilerek":"Sustun. Elin temiz değil ama hayattasın.",
+    "boslukla_kapat":"Dosyayı kapattın. Kimseyi vermedin — verecek kimsen yoktu.",
+    "hepsi":"Hepsini yaktın — adalet, bedelini masumlara ödetti."
   }[d.seeds.final_karar] || "Dava kapandı.";
   const kayaSatir = d.seeds.kaya_gercek_ogrenildi
     ? "Kaya hiçbir şey bilmiyordu. Olmayan bir tehdit için öldü — bunu öğrendin."

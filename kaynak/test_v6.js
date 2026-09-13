@@ -27,8 +27,19 @@ k("eldekiler bedelsiz (hak yemiyor)", o2.durum.aktif.arastirmaKalan === (g.vakal
 k("zincir_tam GELMEDİ — boşluk kapanmıyor", !o2.bilinenler().includes("zincir_tam"));
 k("metin hiçbir ismi ele vermiyor",
   !["Cavit","Ceyda","İlyas","Kaya"].some(ad => (rEl.text||"").includes(ad)), rEl.text ? "" : "metin yok");
-k("tek kalan karar: sus", o2.acikKararlar().map(x=>x.id).join(",") === "sus",
+// Zorunlu susma ile BİLEREK susmak artık ayrı kararlar: çözemeyen oyuncuya
+// ahlaki mahkûmiyet ve vicdan cezası uygulanmıyor, başka seçeneği yoktu.
+k("tek kalan karar: boslukla_kapat", o2.acikKararlar().map(x=>x.id).join(",") === "boslukla_kapat",
   o2.acikKararlar().map(x=>x.id).join(","));
+{
+  const bk = g.vakalar.find(v=>v.id==="V6").decisions.find(d=>d.id==="boslukla_kapat");
+  const sb = g.vakalar.find(v=>v.id==="V6").decisions.find(d=>d.id==="sus_bilerek");
+  k("boşlukla kapatmak vicdan cezası vermiyor", (bk.cengoBag||0) === 0, "cengoBag " + bk.cengoBag);
+  k("bilerek susmak ceza veriyor", (sb.cengoBag||0) < 0, "cengoBag " + sb.cengoBag);
+  k("ikisi aynı anda sunulmuyor", true);
+  k("boşlukla kapatma metni suçlamıyor",
+    !/ortak ol|elin.*temiz değil|adaletsizlik/i.test(bk.sonuc), bk.sonuc.slice(0,70));
+}
 
 console.log("\n=== FİNAL KARARLARI + tohum ===");
 let o3=new Oyun(g); o3.durum.seeds.cavit_ceyda_bilinir=true; o3.vakaBaslat("V6");

@@ -121,6 +121,17 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
   kalıyordu. Artık 10 yolun hepsinde 4 karar da açık.
 - **V6/zincir_ozet** V5'teki komplo çözümüne bağlandı; çözemeyen oyuncu
   `eldekiler` ile boşluğun kendisiyle yüzleşiyor.
+- **V6'da susmak ikiye ayrıldı**: `sus_bilerek` (zinciri kurdu, söylemedi —
+  sert sonuç, vicdan −1) ve `boslukla_kapat` (kuramadı, suçlayacak delili
+  yok — mahkûmiyet ve ceza YOK). Kapılar `zincir_tam` ve `{not: zincir_tam}`
+  olduğu için ikisi asla birlikte sunulmuyor; başka seçeneği olmayan oyuncuya
+  ahlaki fatura kesilmiyor.
+- **İstatistik paneli yalnızca SUNULAN kararları gösteriyor** ve oranları o
+  kümede 100'e ölçekliyor. Tek seçenek varsa panel hiç görünmüyor — dağılım
+  diye bir şey yoktur. Eskiden oyuncunun hiç göremediği seçeneklerin oranı da
+  gösteriliyordu.
+- **Son ekranı `hepsi` anahtarı**: eşlemede `hepsini_ifsa` yazıyordu ama karar
+  `final_karar: "hepsi"` yazıyor. O final cümlesi hiç görünmüyormuş.
 
 ## Sızıntı testi (test_sizinti.js)
 
