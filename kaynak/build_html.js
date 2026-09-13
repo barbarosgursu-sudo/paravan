@@ -97,10 +97,18 @@ body{
 .kasa-serit .hal.kritik{color:var(--kirmizi);font-style:normal}
 .kasa-serit .hal.batik{color:var(--kirmizi);font-weight:bold;font-style:normal}
 .kasa-serit .borc{color:var(--kirmizi)}
-.karar .bedel{display:block;margin-top:5px;font-size:11.5px;letter-spacing:1px;
-  text-transform:uppercase;color:var(--duman)}
-.karar .bedel.tam{color:var(--altin)}
-.karar .bedel.yok{color:var(--kirmizi)}
+.karar .bedel{display:flex;align-items:baseline;gap:9px;margin-top:8px;
+  padding-top:8px;border-top:1px solid var(--cizgi);flex-wrap:wrap}
+.karar .bedel b{font-size:16px;letter-spacing:.3px}
+.karar .bedel b.kazanc{color:var(--altin)}
+.karar .bedel b.yok{color:var(--kirmizi)}
+.karar .bedel .kalan{font-size:13px;color:var(--sonuk)}
+.karar .bedel .kalan.dar{color:var(--koz)}
+.karar .bedel .kalan.kotu{color:var(--kirmizi)}
+.karar .bedel .sonuc{font-size:13px;font-style:italic}
+.karar .bedel .sonuc.iyi{color:var(--sonuk)}
+.karar .bedel .sonuc.dar{color:var(--koz)}
+.karar .bedel .sonuc.kotu{color:var(--kirmizi);font-style:normal;font-weight:bold}
 .kaynak .ucret{color:var(--altin);font-size:11.5px;margin-left:6px}
 .hesap{margin:16px 24px 0;padding:12px 14px;border:1px solid var(--cizgi);
   background:rgba(33,69,106,.35);border-radius:4px;font-size:13px}
@@ -817,20 +825,30 @@ function kararFazi(){
   let h = ust() + '<div class="faz">';
   h += \`<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>\`;
   h += \`<div class="uyari">Bu karar geri alınamaz.</div>\`;
-  const tumPara = kararlar.map(k => (v6Karar(k.id).para) || 0);
-  const enCok = Math.max(...tumPara, 0);
+  if(oyun.durum.aktif.vaka.tur === "omurga"){
+    h += \`<div class="bilgi" style="padding-top:2px">Bu ay \${tl(giderToplam(GAME))} gider ödeyeceksin.</div>\`;
+  }
+  // Baskı ancak SONUCU görünürse hissedilir. Tutarı gizlemek ikilemi
+  // korumuyordu, sadece kararı anlamsızlaştırıyordu — baskın seçeneği K8
+  // engelliyor zaten. Peri iş kadını: hangi işin ne getirdiğini bilir.
+  const aylikGider = (oyun.durum.aktif.vaka.tur === "omurga") ? giderToplam(GAME) : 0;
   for(const k of kararlar){
     const p = v6Karar(k.id).para;
-    // Kasten RAKAM değil: kesin tutar görünürse ahlaki seçim hesap işine döner.
-    // Oyuncu yine de neyin ne kadar getirdiğini kabaca bilmeli.
-    let bedel = "", sinif = "";
+    let bedel = "";
     if(p !== undefined){
-      if(p < 0){ bedel = "cebinden çıkar"; sinif = "yok"; }
-      else if(p === 0){ bedel = "ödeme yok"; sinif = "yok"; }
-      else if(p === enCok){ bedel = "tam ücret"; sinif = "tam"; }
-      else { bedel = "ücretin bir kısmı"; sinif = ""; }
+      const kalan = oyun.durum.para + p - aylikGider;
+      // Asıl bilgi "ay sonunda kasada ne kalıyor". Uyarı cümlesi YALNIZCA kötü
+      // seçeneklerde çıkar — hepsinde çıkarsa ayrım kaybolur, kimse okumaz.
+      let uyari = "", sinif = "iyi";
+      if(kalan < 0){ uyari = "borca girersin"; sinif = "kotu"; }
+      else if(aylikGider && kalan < aylikGider * 0.5){ uyari = "gelecek ay batarsın"; sinif = "kotu"; }
+      else if(aylikGider && kalan < aylikGider){ uyari = "gelecek ay açık verirsin"; sinif = "dar"; }
+      const tutar = p > 0 ? "+" + tl(p) : (p < 0 ? tl(p) : "ödeme yok");
+      bedel = \`<span class="bedel"><b class="\${p>0?'kazanc':'yok'}">\${tutar}</b>
+        <span class="kalan \${sinif}">ay sonunda \${tl(Math.max(0,kalan))}</span>
+        \${uyari?\`<span class="sonuc \${sinif}">\${uyari}</span>\`:""}</span>\`;
     }
-    h += \`<div class="karar" onclick="kararVerFaz('\${k.id}')"><div class="et">\${k.etiket}\${bedel?\`<span class="bedel \${sinif}">\${bedel}</span>\`:""}</div></div>\`;
+    h += \`<div class="karar" onclick="kararVerFaz('\${k.id}')"><div class="et">\${k.etiket}\${bedel}</div></div>\`;
   }
   h += \`<button class="buton ikincil" onclick="arastirmaFazi()">← Biraz daha araştırayım</button></div>\`;
   app.innerHTML=h; scrollUst();
