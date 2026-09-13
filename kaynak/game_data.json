@@ -50,8 +50,8 @@
     "polis_kaza": "Polis dosyası: kaza, dosya kapalı.",
     "sigorta_sorusturma": "Sigorta, ödeme öncesi soruşturuyor.",
     "giris_zorlama_yok": "Eve zorla giriş yok — tanıdık ya da içeriden.",
-    "ceyda_saat": "Ceyda: 'Akşam 8'de çıktım, gece döndüğümde yerde buldum.'",
-    "olum_saati": "Adli tahmin: ölüm ~23:00.",
+    "ceyda_saat": "Ceyda: 'Sekizde çıktım, on buçukta döndüm, onu merdivenin dibinde buldum.'",
+    "olum_saati": "Kırık kol saati düşme anında durmuş: 23:10.",
     "dusus_acisi": "Yaralar/açı kendi düşmeyle uyuşmuyor; itiş olası.",
     "komsu_ses": "Komşu: o gece boğuk bir tartışma / ikinci bir ses."
    },
@@ -131,7 +131,7 @@
      "reveals": [
       "ceyda_saat"
      ],
-     "text": "Ceyda: 'Akşam sekizde çıktım. Gece döndüğümde onu merdivenin dibinde buldum.'",
+     "text": "Ceyda: 'Akşam sekizde çıktım. On buçukta döndüm, onu merdivenin dibinde buldum.'",
      "meta": "Sakin anlatıyor — ama sakinlik masumiyet değildir.",
      "gorsel": {
       "dosya": "portre_ceyda.jpg",
@@ -155,7 +155,7 @@
      "meta": [
       {
        "kosul": "ceyda_saat",
-       "metin": "Tek başına kanıt değil — ama Ceyda 'yalnızdım' demişti."
+       "metin": "Tek başına kanıt değil — ama Ceyda o saatlerde evde yalnız olduğunu söylüyor."
       },
       {
        "kosul": "varsayilan",
@@ -174,7 +174,7 @@
       "olum_saati",
       "dusus_acisi"
      ],
-     "text": "Merdiven dik. Ama yaraların açısı, kendi düşen birine göre ters. Ölüm saati ~23:00.",
+     "text": "Merdiven dik. Ama yaraların açısı, kendi düşen birine göre ters. Bileğindeki saat düşerken kırılmış — akrep on biri on geçede durmuş.",
      "meta": "Açı bir itişe daha çok uyuyor.",
      "gorsel": {
       "dosya": "v1_merdiven.jpg",
@@ -196,7 +196,7 @@
       "olum_saati"
      ],
      "reveals": [],
-     "text": "Cengo kağıtları yan yana koydu: 'Kadın sekizde çıktım diyor, ama adam on birde ölmüş. Peri abla, bu saatler tutmuyor.'",
+     "text": "Cengo kağıtları yan yana koydu: 'Kadın on buçukta dönüp onu yerde buldum diyor. Ama adamın saati on biri on geçede kırılmış. Peri abla, kadın adamı düşmeden kırk dakika önce yerde bulmuş oluyor.'",
      "meta": "Ceyda ya yanılıyor ya yalan söylüyor.",
      "gorsel": null,
      "bedelsiz": true
