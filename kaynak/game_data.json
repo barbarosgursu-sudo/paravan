@@ -48,7 +48,7 @@
    },
    "facts": {
     "polis_kaza": "Polis dosyası: kaza, dosya kapalı.",
-    "sigorta_sorusturma": "Sigorta, ödeme öncesi soruşturuyor.",
+    "sigorta_sorusturma": "Sigorta ödemeyi dondurdu; bağımsız bir uzman raporu bekliyor.",
     "giris_zorlama_yok": "Eve zorla giriş yok — tanıdık ya da içeriden.",
     "ceyda_saat": "Ceyda: 'Sekizde çıktım, on buçukta döndüm, onu merdivenin dibinde buldum.'",
     "olum_saati": "Polis fotoğrafı: kırık kol saati düşme anında durmuş, 23:10.",
@@ -114,12 +114,13 @@
      "ad": "Sigorta yazısı",
      "tur": "Belge",
      "ico": "▤",
+     "bedelsiz": true,
      "needs": [],
      "reveals": [
       "sigorta_sorusturma"
      ],
-     "text": "Sigorta, ödemeden önce kendi soruşturmasını açmış.",
-     "meta": "Şirket ödememek için bahane arar; saat işliyor.",
+     "text": "Sigorta eksperi kendi soruşturmasını açmış. Ödeme, 'bağımsız bir uzman raporu' gelene kadar donduruldu.",
+     "meta": "Cavit'in aradığı bağımsız uzman sensin. Satın aldığı şey zamanın değil, imzan.",
      "gorsel": null
     },
     {
@@ -155,7 +156,7 @@
      "meta": [
       {
        "kosul": "ceyda_saat",
-       "metin": "Tek başına kanıt değil — ama Ceyda o saatlerde evde yalnız olduğunu söylüyor."
+       "metin": "Tek başına kanıt değil — ama Ceyda'nın anlattığı gecede evde Kaya'dan başkası yok."
       },
       {
        "kosul": "varsayilan",

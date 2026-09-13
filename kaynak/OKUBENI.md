@@ -115,6 +115,13 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 
 - **V1/cengo_baglanti** bedelsiz yapıldı: needs'i iki kaynak istiyor, kendisi
   de hak istiyordu; yanlış sırada harcayan oyuncu listede görüp açamıyordu.
+- **V1/sigorta_yazisi** bedelsiz yapıldı: üç haktan birini yiyordu ama
+  karşılığında girişte zaten söylenen şeyi tekrarlıyordu; açtığı olgu
+  (`sigorta_sorusturma`) hiçbir çıkarımda kullanılmıyor. Sigorta eksperi
+  zaten Peri'yi tutan taraf, dosyayı ona vermesi doğal. Metni de keskinleşti:
+  artık ödemenin donduğunu ve "bağımsız uzman raporu" beklendiğini söylüyor —
+  yani oyuncuya kendi rolünü anlatıyor (Cavit'in satın aldığı şey imza).
+  V1'de hâlâ 4 ücretli kaynak / 3 hak var; seçim baskısı korundu.
 - **V3/foto_goster** bedelsiz yapıldı: iki açılış kaynağı (`cavit_brief`,
   `mahalle_yokla`) aynı kapıya çıkıyor. İkisini birden alan oyuncu — ki bu
   doğal bir hamle — teşhise yetişemiyor ve elinde yalnızca "tanığı lekele"
