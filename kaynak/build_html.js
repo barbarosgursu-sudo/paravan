@@ -245,6 +245,146 @@ function kayitOku(){
 function kayitSil(){ try{ localStorage.removeItem(KAYIT_ANAHTAR); }catch(e){} }
 
 /* ============================================================
+   SES — ruh haline göre müzik + kısa efektler.
+   Parçalar GÖMÜLMEZ; ses/ klasöründen akıtılır (bkz. OKUBENI).
+   Dosya yoksa oyun sessiz devam eder, hata vermez.
+   ============================================================ */
+const SES_ANAHTAR = "paravan_ses_v1";   // kayıt yuvasından AYRI: "baştan başla" ses tercihini silmez
+const SES_KLASOR  = "ses/";
+const SES_UZANTI  = ".mp3";
+
+// ruh hali → dosya adı (ses/<ad>.mp3)
+const MUZIK = {
+  prolog:     "prolog",
+  masa:       "masa",
+  giris:      "giris",
+  arastirma:  "arastirma",
+  karar:      "karar",
+  sonuc:      "sonuc",
+  huzun:      "huzun",      // V4 — Kaya'nın gizli iyiliği
+  final:      "final",      // V6 + son ekranı
+};
+const EFEKT = {
+  dokun:   "efekt_dokun",
+  kaynak:  "efekt_kaynak",
+  kilit:   "efekt_kilit",
+  muhur:   "efekt_muhur",   // karar mühürlendi
+  alev:    "efekt_alev",
+};
+
+const ses = {
+  acik: true,
+  seviye: 0.55,
+  kilitli: true,          // tarayıcı: kullanıcı dokunana kadar ses çalınmaz
+  suAn: null,             // çalan ruh hali
+  calan: null,            // aktif Audio
+  bekleyen: null,         // kilit açılınca çalacak ruh hali
+  yok: {},                // bulunamayan dosyalar — bir daha denenmez
+  efektler: {},           // önbellek
+};
+
+function sesAyarOku(){
+  try{
+    const s = JSON.parse(localStorage.getItem(SES_ANAHTAR));
+    if(s && typeof s === "object"){
+      if(typeof s.acik === "boolean") ses.acik = s.acik;
+      if(typeof s.seviye === "number") ses.seviye = Math.min(1, Math.max(0, s.seviye));
+    }
+  }catch(e){}
+}
+function sesAyarYaz(){
+  try{ localStorage.setItem(SES_ANAHTAR, JSON.stringify({acik: ses.acik, seviye: ses.seviye})); }catch(e){}
+}
+
+// Tarayıcı ve Android WebView, kullanıcı dokunmadan ses çaldırmaz.
+// İlk dokunuşta kilidi açıp bekleyen parçayı başlatıyoruz.
+function sesKilidiAc(){
+  if(!ses.kilitli) return;
+  ses.kilitli = false;
+  if(ses.bekleyen){ const m = ses.bekleyen; ses.bekleyen = null; muzikCal(m); }
+}
+
+function muzikCal(mod){
+  const ad = MUZIK[mod];
+  if(!ad || ses.yok[ad]) return;
+  if(ses.suAn === mod && ses.calan) return;      // zaten çalıyor
+  ses.suAn = mod;
+  if(!ses.acik) return;
+  if(ses.kilitli){ ses.bekleyen = mod; return; }
+
+  const yeni = new Audio(SES_KLASOR + ad + SES_UZANTI);
+  yeni.loop = true;
+  yeni.volume = 0;
+  yeni.addEventListener("error", () => {        // dosya yoksa sessizce vazgeç
+    ses.yok[ad] = true;
+    if(ses.calan === yeni){ ses.calan = null; }
+  });
+  const p = yeni.play();
+  if(p && p.catch) p.catch(err => {
+    // Reddin iki farklı sebebi var, karıştırılmamalı:
+    // NotAllowedError = kullanıcı henüz dokunmadı → kilitle, dokununca çal.
+    // Diğerleri (dosya yok/bozuk/çözülemiyor) → yalnızca o dosyayı işaretle;
+    // yoksa tek bir eksik parça bütün müziği susturur.
+    if(err && err.name === "NotAllowedError"){ ses.kilitli = true; ses.bekleyen = mod; }
+    else { ses.yok[ad] = true; if(ses.calan === yeni) ses.calan = null; }
+  });
+  capraz(ses.calan, yeni);
+  ses.calan = yeni;
+}
+
+// çapraz geçiş: eskisi kısılıp durur, yenisi açılır (sert kesme kötü durur)
+function capraz(eski, yeni){
+  const hedef = ses.seviye, sure = 700, adim = 50;
+  let t = 0;
+  const zamanlayici = setInterval(() => {
+    t += adim;
+    const o = Math.min(1, t / sure);
+    if(yeni) { try{ yeni.volume = hedef * o; }catch(e){} }
+    if(eski) { try{ eski.volume = hedef * (1 - o); }catch(e){} }
+    if(o >= 1){
+      clearInterval(zamanlayici);
+      if(eski){ try{ eski.pause(); }catch(e){} }
+    }
+  }, adim);
+}
+
+function muzikDur(){
+  if(ses.calan){ const e = ses.calan; ses.calan = null; capraz(e, null); }
+  ses.suAn = null;
+}
+
+function efektCal(tur){
+  const ad = EFEKT[tur];
+  if(!ad || !ses.acik || ses.kilitli || ses.yok[ad]) return;
+  try{
+    let a = ses.efektler[ad];
+    if(!a){
+      a = new Audio(SES_KLASOR + ad + SES_UZANTI);
+      a.addEventListener("error", () => { ses.yok[ad] = true; });
+      ses.efektler[ad] = a;
+    }
+    a.currentTime = 0;
+    a.volume = Math.min(1, ses.seviye + 0.15);   // efektler müziğin bir tık üstünde
+    const p = a.play(); if(p && p.catch) p.catch(()=>{});
+  }catch(e){}
+}
+
+function sesTogle(){
+  ses.acik = !ses.acik;
+  sesAyarYaz();
+  if(!ses.acik){ muzikDur(); }
+  else { const m = ses.suAn || "masa"; ses.suAn = null; muzikCal(m); }
+  sesDugmeTazele();
+}
+function sesDugmeSvg(){ return ses.acik ? "♪" : "♪̸"; }
+function sesDugmeTazele(){
+  document.querySelectorAll(".ses-btn").forEach(b => {
+    b.textContent = sesDugmeSvg();
+    b.setAttribute("aria-label", ses.acik ? "Sesi kapat" : "Sesi aç");
+  });
+}
+
+/* ============================================================
    🛠 GELİŞTİRİCİ MODU — YAYINA ALIRKEN AŞAĞIDAKİ SATIRI false YAP
    ============================================================ */
 const DEV_MOD = true;
@@ -351,11 +491,19 @@ function devBastan(){
   prologIndex = 0; prologGoster();
 }
 
+// prolog ve sürdürme ekranlarının sade şeridi — ses düğmesi burada da bulunmalı,
+// oyuncu daha masaya varmadan sesi kısabilsin
+function ustSade(){
+  return \`<div class="ust"><div class="marka">PARAVAN<small>DEDEKTİFLİK</small></div>
+    <div class="ust-butonlar"><button class="ust-btn ses-btn" onclick="sesTogle()" aria-label="Ses">\${sesDugmeSvg()}</button></div>
+  </div>\`;
+}
 function ust(geriMasa){
   return \`<div class="ust">
     <div class="marka">PARAVAN<small>DEDEKTİFLİK</small></div>
     <div class="ust-butonlar">
       \${DEV_MOD ? '<button class="ust-btn dev-btn" onclick="devPanel()">🛠</button>' : ''}
+      <button class="ust-btn ses-btn" onclick="sesTogle()" aria-label="Ses">\${sesDugmeSvg()}</button>
       <button class="ust-btn" onclick="kisilerGoster()">☗ Kişiler</button>
       <button class="ust-btn" onclick="defterGoster()">✎ Defter</button>
     </div>
@@ -386,11 +534,12 @@ function cengoGosterge(){
 /* ---------- PROLOG (açılış, dokundukça ilerler) ---------- */
 let prologIndex = 0;
 function prologGoster(){
+  muzikCal('prolog');
   const k = PROLOG[prologIndex];
   const sonMu = prologIndex === PROLOG.length - 1;
   let h = '<div class="faz prolog-faz">';
   // prologda üst şerit sade (Kişiler/Defter yok)
-  h += \`<div class="ust"><div class="marka">PARAVAN<small>DEDEKTİFLİK</small></div></div>\`;
+  h += ustSade();
   if(k.nasil_oynanir){
     h += \`<div class="baslik" style="padding-top:32px"><div class="no">Nasıl Oynanır</div></div>\`;
     h += \`<div class="giris-metin">\${k.metin}</div>\`;
@@ -417,6 +566,7 @@ function prologGeri(){ if(prologIndex>0){ prologIndex--; prologGoster(); } }
 function masaGoster(){
   sonAcilan=null;
   kayitYaz();
+  muzikCal('masa');
   const masada = oyun.masadakiVakalar();
   if(masada.length===0) return sonEkrani();
   let h = ust() + '<div class="faz">';
@@ -445,6 +595,7 @@ function vakaAc(id){
   const g = oyun.vakaBaslat(id);
   sonAcilan=null;
   kayitYaz();
+  muzikCal('giris');
   const v = oyun.durum.aktif.vaka;
   let h = ust() + '<div class="faz">';
   h += \`<div class="baslik"><div class="no">\${v.tur==='yan'?'Yan İş':'Vaka'}</div><h1>\${v.baslik}</h1></div>\`;
@@ -461,8 +612,11 @@ function vakaAc(id){
 }
 
 /* ---------- FAZ 2: ARAŞTIRMA (kaynak listesi) ---------- */
+// V4 hüzünlü keşif, V6 final ağırlığı; gerisi standart araştırma tonu
+function vakaModu(vid){ return vid==='V4' ? 'huzun' : (vid==='V6' ? 'final' : 'arastirma'); }
 function arastirmaFazi(){
   const a = oyun.durum.aktif;
+  muzikCal(vakaModu(a.id));
   const v = a.vaka;
   const acik = oyun.acikKaynaklar();
   const kararlar = oyun.acikKararlar();
@@ -498,8 +652,9 @@ function arastirmaFazi(){
 /* ---------- FAZ 2b: AÇILAN KANIT (tek ekran) ---------- */
 function kaynakAcFaz(id){
   const r = oyun.kaynakAc(id);
-  if(r.hata){ arastirmaFazi(); return; }
+  if(r.hata){ efektCal('kilit'); arastirmaFazi(); return; }
   kayitYaz();
+  efektCal('kaynak');
   const c = oyun.durum.aktif.vaka.clues.find(x=>x.id===id);
   let h = ust() + '<div class="faz kanit-ekran">';
   h += \`<div class="baslik"><div class="no">\${c.ad}</div></div>\`;
@@ -511,6 +666,7 @@ function kaynakAcFaz(id){
 
 /* ---------- FAZ 3: KARAR ---------- */
 function kararFazi(){
+  muzikCal('karar');
   const kararlar = oyun.acikKararlar();
   let h = ust() + '<div class="faz">';
   h += \`<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>\`;
@@ -528,6 +684,8 @@ function kararVerFaz(id){
   const r = oyun.kararVer(id);
   if(r.hata){ alert(r.hata); return; }
   kayitYaz();   // hemen: kapatıp kararı geri almak yok
+  efektCal('muhur');
+  muzikCal('sonuc');
   const not = (KISILER.defter[vid]||{})[id];
   let h = ust() + '<div class="faz">';
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
@@ -629,6 +787,7 @@ function geriDon(){
 
 /* ---------- SON EKRANI ---------- */
 function sonEkrani(){
+  muzikCal('final');
   const d = oyun.durum;
   const cengoSatir = {
     "Mesafeli":"Cengo çekip gitti.",
@@ -662,6 +821,14 @@ function sonEkrani(){
 
 /* ---------- AÇILIŞ: kayıt varsa sürdürme ekranı ---------- */
 function baslat(){
+  sesAyarOku();
+  // Tarayıcı/WebView kullanıcı dokunmadan ses çaldırmaz — ilk dokunuşta kilidi aç
+  document.addEventListener("pointerdown", sesKilidiAc, {once:true});
+  document.addEventListener("keydown", sesKilidiAc, {once:true});
+  // buton dokunuş efekti (kaynak ve karar kendi efektlerini çalar)
+  document.addEventListener("click", e => {
+    if(e.target.closest(".buton, .ust-btn")) efektCal('dokun');
+  });
   const k = kayitOku();
   if(!k){ prologGoster(); return; }
   // Deneme yüklemesi: kayıt bozuk ya da veri değişmişse sürdürme teklif etme
@@ -674,7 +841,7 @@ function devamEkrani(ozet){
   const bitti = ozet.durum.tamamlanan.length;
   const a = ozet.durum.aktif;
   let h = '<div class="faz prolog-faz">';
-  h += \`<div class="ust"><div class="marka">PARAVAN<small>DEDEKTİFLİK</small></div></div>\`;
+  h += ustSade();
   h += \`<div class="baslik" style="padding-top:32px"><div class="no">Kaldığın Yer</div><h1>Dosya açık</h1></div>\`;
   h += \`<div class="giris-metin anlati-italik">\${bitti ? bitti + " iş kapandı." : "Ajans yeni açıldı."}</div>\`;
   if(a){
