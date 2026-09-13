@@ -84,6 +84,8 @@ body{
 .kasa-serit .borc{color:var(--kirmizi)}
 .karar .bedel{display:flex;align-items:baseline;gap:9px;margin-top:8px;
   padding-top:8px;border-top:1px solid var(--cizgi);flex-wrap:wrap}
+.karar .bedel .etiket{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--duman)}
+.karar .bedel .ok{color:var(--duman);font-size:14px}
 .karar .bedel b{font-size:16px;letter-spacing:.3px}
 .karar .bedel b.kazanc{color:var(--altin)}
 .karar .bedel b.yok{color:var(--kirmizi)}
@@ -1195,7 +1197,11 @@ function kararFazi(){
       else if(aylikGider && kalan < aylikGider * 0.5){ uyari = "gelecek ay batarsın"; sinif = "kotu"; }
       else if(aylikGider && kalan < aylikGider){ uyari = "gelecek ay açık verirsin"; sinif = "dar"; }
       const tutar = p > 0 ? "+" + tl(p) : (p < 0 ? tl(p) : "ödeme yok");
-      bedel = `<span class="bedel"><b class="${p>0?'kazanc':'yok'}">${tutar}</b>
+      // İki rakam arasındaki ilişki görünmezse okuyan "bu ne demek?" diyor.
+      // Ücret → ay sonu zinciri okla kurulsun.
+      bedel = `<span class="bedel">
+        <span class="etiket">ücret</span><b class="${p>0?'kazanc':'yok'}">${tutar}</b>
+        <span class="ok">→</span>
         <span class="kalan ${sinif}">ay sonunda ${tl(Math.max(0,kalan))}</span>
         ${uyari?`<span class="sonuc ${sinif}">${uyari}</span>`:""}</span>`;
     }
