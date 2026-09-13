@@ -244,9 +244,6 @@
       ]
      },
      "deger": true
-    },
-    "el_sezildi_hazir": {
-     "deger": false
     }
    },
    "giris_gorsel": "v1_giris.jpg"
@@ -653,7 +650,8 @@
      ],
      "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. O gece çıkan adam buydu.'",
      "meta": "Kesin teşhis. İlyas — V2'deki o silik tahsildar — Kaya'yı iten kişi.",
-     "gorsel": null
+     "gorsel": null,
+     "bedelsiz": true
     },
     {
      "id": "cengo_okuma",

@@ -73,15 +73,26 @@ K9, tohumları `kisiler.json`, `prolog.json` ve `build_html.js` içinde de arar.
 
 ### Açık uyarılar (tasarım kararı bekliyor)
 
-- **K7 · YAN-A, YAN-B, V6**: oyuncu hiçbir noktada iki kaynak arasında seçim
-  yapmak zorunda kalmıyor — araştırmamanın bedeli yok.
-- **K7 · V6**: final vakasının kaynakları hiçbir geçmiş tohuma bakmıyor.
-  `zincir_ozet` koşulsuz (`needs: []`) ve tüm cinayet zincirini veriyor;
-  önceki vakaları savsaklayan oyuncu da hazır alıyor.
-- **K6 · V2/mahalle_konus, V3/foto_goster, V4/aile_gorusme, V5/ceyda_derin**:
-  yalnızca kusursuz sırada açılabiliyor. V5'teki bilinçli (komployu çöz YA DA
-  Ceyda'yı oku); diğerleri gözden geçirilmeli.
-- **K9**: 12 tohum yazılıp hiç okunmuyor.
+- **K7 · V3 ve V6**: oyuncu hiçbir noktada iki kaynak arasında seçim yapmak
+  zorunda kalmıyor. İkisi de **kabul edilmiş**: V3 düz bir teşhis zinciri
+  (ağırlığı İlyas'ı ne yapacağında — 4 ayrı ahlaki karar), V6 ise final
+  (ağırlığı kimi ele vereceğinde). Araştırma seçimi bu iki vakanın konusu değil.
+- **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
+  Derinlik ödülü olarak makul; dokunulmadı.
+- **K9**: 11 tohum yazılıp hiç okunmuyor. Silinmedi — bunlar ekonominin
+  ihtiyaç duyacağı şeyler (hangi kararı verdin → itibar → müşteri ücreti;
+  `cavit_guven` → hangi işler sana geliyor). Ekonomi turunda bağlanacak.
+
+### Kapatılan tuzaklar
+
+- **V1/cengo_baglanti** bedelsiz yapıldı: needs'i iki kaynak istiyor, kendisi
+  de hak istiyordu; yanlış sırada harcayan oyuncu listede görüp açamıyordu.
+- **V3/foto_goster** bedelsiz yapıldı: iki açılış kaynağı (`cavit_brief`,
+  `mahalle_yokla`) aynı kapıya çıkıyor. İkisini birden alan oyuncu — ki bu
+  doğal bir hamle — teşhise yetişemiyor ve elinde yalnızca "tanığı lekele"
+  kalıyordu. Artık 10 yolun hepsinde 4 karar da açık.
+- **V6/zincir_ozet** V5'teki komplo çözümüne bağlandı; çözemeyen oyuncu
+  `eldekiler` ile boşluğun kendisiyle yüzleşiyor.
 
 ## Kayıt sistemi
 

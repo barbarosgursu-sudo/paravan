@@ -4,11 +4,14 @@ let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); i
 
 // Tam teşhis + bedelsiz cengo → el_var
 let o=new Oyun(g); o.durum.seeds.ilyas_yuz_tandi=true; o.vakaBaslat("V3");
-["cavit_brief","tanik_gorusme","mahalle_don","foto_goster"].forEach(id=>o.kaynakAc(id));
-k("4 hak bitti", o.durum.aktif.arastirmaKalan===0);
+const zincir=["cavit_brief","tanik_gorusme","mahalle_don","foto_goster"];
+k("teşhis zinciri hatasız açıldı", zincir.every(id=>!o.kaynakAc(id).hata));
+k("iten_ilyas türedi (katil teşhis edildi)", o.bilinenler().includes("iten_ilyas"));
 k("cengo_okuma açık", o.acikKaynaklar().some(x=>x.id==="cengo_okuma"));
+// bütçeden bağımsız: bedelsiz kaynak hak HARCAMAMALI
+const hakOnce=o.durum.aktif.arastirmaKalan;
 let r=o.kaynakAc("cengo_okuma");
-k("cengo_okuma bedelsiz açıldı (araştırma hâlâ 0, hata yok)", !r.hata && o.durum.aktif.arastirmaKalan===0);
+k("cengo_okuma bedelsiz açıldı (hak değişmedi, hata yok)", !r.hata && o.durum.aktif.arastirmaKalan===hakOnce);
 k("el_var türedi", o.bilinenler().includes("el_var"));
 o.kararVer("polise_ver");
 k("el_sezildi tohumu=true (V5 doğrulama olur)", o.durum.seeds.el_sezildi===true);

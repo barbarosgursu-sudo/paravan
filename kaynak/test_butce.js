@@ -176,6 +176,42 @@ console.log("\n=== HER HARCAMA YOLU BİTİYOR (kilitlenme yok) ===");
   }
 }
 
+console.log("\n=== V3: KATİL TEŞHİSİ HİÇBİR YOLDA KAÇMIYOR ===");
+{
+  // Eskiden iki açılış kaynağı aynı kapıya çıkıyordu; ikisini birden alan
+  // oyuncu foto_goster'a yetişemiyor ve elinde yalnızca "tanığı lekele"
+  // kalıyordu. foto_goster bedelsiz oldu; artık her yolda teşhis mümkün.
+  const v = g.vakalar.find(x => x.id === "V3");
+  let enDar = null, yollar = 0;
+  const dene = (ac) => {
+    const o = new Oyun(g);
+    o.vakaBaslat("V3");
+    for (const id of ac) if (o.kaynakAc(id).hata) return;
+    const alinabilir = o.acikKaynaklar().filter(c => {
+      const t = v.clues.find(x => x.id === c.id);
+      return t.bedelsiz || o.durum.aktif.arastirmaKalan > 0;
+    });
+    if (!alinabilir.length) {
+      yollar++;
+      const n = o.acikKararlar().length;
+      if (enDar === null || n < enDar) enDar = n;
+      return;
+    }
+    for (const c of alinabilir) dene([...ac, c.id]);
+  };
+  dene([]);
+  k(`V3: ${yollar} yolun hepsinde 4 karar da açık`, enDar === 4, `en dar: ${enDar}`);
+
+  const o = new Oyun(g);
+  o.vakaBaslat("V3");
+  for (const id of ["cavit_brief", "mahalle_yokla", "tanik_gorusme", "mahalle_don"]) o.kaynakAc(id);
+  k("iki açılışı da alan oyuncu hakkını bitirdi", o.durum.aktif.arastirmaKalan === 0);
+  const r = o.kaynakAc("foto_goster");
+  k("yine de teşhis edebiliyor (foto_goster bedelsiz)", !r.hata, r.hata || "");
+  k("iten_ilyas türedi", o.bilinenler().includes("iten_ilyas"));
+  k("tanigi_lekele tek seçenek DEĞİL", o.acikKararlar().length === 4, o.acikKararlar().length + " karar");
+}
+
 console.log("\n=== YAN VAKALARDA SEÇİM BASKISI VAR ===");
 {
   // Hak 3 iken 3 ücretli kaynağın hepsi alınıyordu, seçim yoktu.
