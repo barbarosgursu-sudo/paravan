@@ -226,6 +226,25 @@ const app = document.getElementById("app");
 let sonAcilan = null; // son açılan kaynağın kaydı
 
 /* ============================================================
+   KAYIT — tek yuva, otomatik.
+   Karar verilir verilmez yazılır: oyuncu uygulamayı kapatarak
+   kararı geri alamaz. "Geri alınamaz karar" oyunun çekirdeği,
+   kayıt sistemi onu delmemeli.
+   ============================================================ */
+const KAYIT_ANAHTAR = "paravan_kayit_v1";
+let kayitKapali = false;   // depolama yoksa (özel sekme, dosya kısıtı) sessizce devre dışı kalır
+function kayitYaz(){
+  if(kayitKapali || devIzole) return;         // izole dev testi ana kaydı kirletmez
+  try{ localStorage.setItem(KAYIT_ANAHTAR, JSON.stringify(oyun.durumAl())); }
+  catch(e){ kayitKapali = true; }             // yazılamıyorsa oyun yine de oynanır
+}
+function kayitOku(){
+  try{ const s = localStorage.getItem(KAYIT_ANAHTAR); return s ? JSON.parse(s) : null; }
+  catch(e){ return null; }
+}
+function kayitSil(){ try{ localStorage.removeItem(KAYIT_ANAHTAR); }catch(e){} }
+
+/* ============================================================
    🛠 GELİŞTİRİCİ MODU — YAYINA ALIRKEN AŞAĞIDAKİ SATIRI false YAP
    ============================================================ */
 const DEV_MOD = true;
@@ -326,6 +345,7 @@ function devSeedTogle(key){
 }
 function devBastan(){
   // durumu sıfırla
+  kayitSil();
   const yeni = new Oyun(GAME);
   Object.assign(oyun.durum, yeni.durum);
   prologIndex = 0; prologGoster();
@@ -396,6 +416,7 @@ function prologGeri(){ if(prologIndex>0){ prologIndex--; prologGoster(); } }
 /* ---------- MASA ---------- */
 function masaGoster(){
   sonAcilan=null;
+  kayitYaz();
   const masada = oyun.masadakiVakalar();
   if(masada.length===0) return sonEkrani();
   let h = ust() + '<div class="faz">';
@@ -423,6 +444,7 @@ function masaGoster(){
 function vakaAc(id){
   const g = oyun.vakaBaslat(id);
   sonAcilan=null;
+  kayitYaz();
   const v = oyun.durum.aktif.vaka;
   let h = ust() + '<div class="faz">';
   h += \`<div class="baslik"><div class="no">\${v.tur==='yan'?'Yan İş':'Vaka'}</div><h1>\${v.baslik}</h1></div>\`;
@@ -477,6 +499,7 @@ function arastirmaFazi(){
 function kaynakAcFaz(id){
   const r = oyun.kaynakAc(id);
   if(r.hata){ arastirmaFazi(); return; }
+  kayitYaz();
   const c = oyun.durum.aktif.vaka.clues.find(x=>x.id===id);
   let h = ust() + '<div class="faz kanit-ekran">';
   h += \`<div class="baslik"><div class="no">\${c.ad}</div></div>\`;
@@ -504,6 +527,7 @@ function kararVerFaz(id){
   const vid = oyun.durum.aktif.id;
   const r = oyun.kararVer(id);
   if(r.hata){ alert(r.hata); return; }
+  kayitYaz();   // hemen: kapatıp kararı geri almak yok
   const not = (KISILER.defter[vid]||{})[id];
   let h = ust() + '<div class="faz">';
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
@@ -636,7 +660,49 @@ function sonEkrani(){
   app.innerHTML=h; scrollUst();
 }
 
-prologGoster();
+/* ---------- AÇILIŞ: kayıt varsa sürdürme ekranı ---------- */
+function baslat(){
+  const k = kayitOku();
+  if(!k){ prologGoster(); return; }
+  // Deneme yüklemesi: kayıt bozuk ya da veri değişmişse sürdürme teklif etme
+  const deneme = new Oyun(GAME);
+  if(deneme.durumYukle(k).hata){ kayitSil(); prologGoster(); return; }
+  devamEkrani(deneme);
+}
+
+function devamEkrani(ozet){
+  const bitti = ozet.durum.tamamlanan.length;
+  const a = ozet.durum.aktif;
+  let h = '<div class="faz prolog-faz">';
+  h += \`<div class="ust"><div class="marka">PARAVAN<small>DEDEKTİFLİK</small></div></div>\`;
+  h += \`<div class="baslik" style="padding-top:32px"><div class="no">Kaldığın Yer</div><h1>Dosya açık</h1></div>\`;
+  h += \`<div class="giris-metin anlati-italik">\${bitti ? bitti + " iş kapandı." : "Ajans yeni açıldı."}</div>\`;
+  if(a){
+    h += \`<div class="sonuc-kutu"><h3>Masadaki dosya</h3><p>\${a.vaka.baslik}</p>\`;
+    h += \`<p style="color:var(--sonuk);font-size:14px">\${a.arastirmaKalan} araştırma hakkı kaldı.</p></div>\`;
+  }
+  h += cengoGosterge();
+  h += \`<button class="buton" onclick="kayittanDevam()">Kaldığın yerden devam et</button>\`;
+  h += \`<button class="buton ikincil" onclick="yenidenBasla()">Baştan başla</button>\`;
+  h += '</div>';
+  app.innerHTML=h; scrollUst();
+}
+
+function kayittanDevam(){
+  const r = oyun.durumYukle(kayitOku());
+  if(r.hata){ kayitSil(); prologIndex=0; prologGoster(); return; }
+  if(oyun.durum.aktif) arastirmaFazi(); else masaGoster();
+}
+
+function yenidenBasla(){
+  if(!confirm("Kayıtlı ilerleme silinecek, oyun baştan başlayacak. Emin misin?")) return;
+  kayitSil();
+  const yeni = new Oyun(GAME);
+  oyun.durum = yeni.durum;
+  prologIndex = 0; prologGoster();
+}
+
+baslat();
 </script>
 </body>
 </html>`;

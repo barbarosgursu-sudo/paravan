@@ -36,22 +36,40 @@ koşmadan derleme yapılmaz.
 
 ```
 cd kaynak
-for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock; do node $t.js; done
+for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit; do node $t.js; done
 ```
 
 `test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
 vermesini bekler.
+
+## Kayıt sistemi
+
+Tek yuva, otomatik. Motorda `durumAl()` / `durumYukle()`, arayüzde
+`localStorage` (`paravan_kayit_v1`).
+
+Kaydedilen **yalnızca girdilerdir**: tohumlar, tamamlanan vakalar, kalıcı
+olgular ve aktif vakada açılmış kaynakların id'leri. Türetilmiş `knowledge`,
+araştırma hakkı ve giriş metni kaydedilmez — yüklemede güncel veriden yeniden
+üretilir. Böylece eski bir kayıt oyuncunun hak etmediği bir olguyu geri
+getiremez; Nurcan kuralı kayıt üzerinden delinmez.
+
+Yükleme, kaynakları kaydedildikleri sırayla yeniden açar. Tekrar oynatma aynı
+zamanda doğrulamadır: veri değiştiyse ya da kayıt kurcalandıysa bir adım
+"kilitli" döner ve kayıt tümden reddedilir, eski durum geri konur.
+
+**Karar verilir verilmez yazılır.** Oyuncu uygulamayı kapatıp kararı geri
+alamaz — "geri alınamaz karar" oyunun çekirdeği, kayıt sistemi onu delmemeli.
+Bu yüzden tek yuva var, elle kayıt ve çoklu slot yok.
+
+`localStorage` yoksa (gizli sekme, kısıtlı WebView) kayıt sessizce devre dışı
+kalır, oyun oynanmaya devam eder. İzole dev testi (🛠 → vakaya atla) ana kaydı
+kirletmez.
 
 ## Kalan iş
 
 - Ses/müzik (henüz başlanmadı). Ses dosyaları **gömülmeyecek**, `ses/` altında
   gerçek dosya olarak duracak: gömülürse dosya 15 MB'ı aşar, müzik akıtılamaz
   ve ilk açılış yavaşlar.
-- Kayıt/sürdürme sistemi (sesten sonra). Motora `durumAl()`/`durumYukle()`
-  olarak eklenmeli. Kaydedilecek olan tohumlar + açılmış kaynaklar + kararlar;
-  türetilmiş `knowledge` **kaydedilmez**, yüklemede sabit-nokta yeniden
-  koşturulur — aksi halde eski bir kayıt oyuncunun hak etmediği bilgiyi geri
-  yükleyebilir.
 - Yayın öncesi `build_html.js` içinde `DEV_MOD = false`.
 
 ## Sonraki aşama: Android

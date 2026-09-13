@@ -15,6 +15,8 @@ function ifadeCalistir(ifade, bilinen, seeds, cengoBag) {
   return false;
 }
 
+const KAYIT_SEMA = 1;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
+
 const ESIKLER = [
   { ad: "Mesafeli", enAz: -Infinity, enFazla: -2 },
   { ad: "Yoldaş",   enAz: -1,        enFazla: 2 },
@@ -215,6 +217,59 @@ class Oyun {
     }
     return set;
   }
+
+  // --- KAYIT / SÜRDÜRME -------------------------------------------------------
+  // Kaydedilen YALNIZCA girdilerdir: tohumlar, tamamlanan vakalar, kalıcı olgular
+  // ve aktif vakada açılmış kaynakların id'leri.
+  // Kaydedilmeyen: türetilmiş knowledge, araştırma hakkı, giriş metni. Bunlar
+  // yüklemede GÜNCEL veriden yeniden üretilir — böylece eski bir kayıt, oyuncunun
+  // hak etmediği bir olguyu geri getiremez (Nurcan kuralı kayıt üzerinden delinmez).
+  durumAl() {
+    const d = this.durum;
+    return {
+      sema: KAYIT_SEMA,
+      para: d.para, borc: d.borc, cengoBag: d.cengoBag,
+      seeds: { ...d.seeds },
+      tamamlanan: [...d.tamamlanan],
+      kaliciOlgular: [...(d.kaliciOlgular || [])],
+      aktif: d.aktif ? { id: d.aktif.id, acilan: [...d.aktif.acilanKaynaklar] } : null,
+    };
+  }
+
+  // Kaynakları kaydedildikleri sırayla yeniden açar. Tekrar oynatma aynı zamanda
+  // doğrulamadır: veri değiştiyse bir adım "kilitli" döner ve kayıt tümden reddedilir.
+  // Başarısızlıkta eski durum geri konur — bozuk kayıt oyunu bozmaz.
+  durumYukle(k) {
+    if (!k || typeof k !== "object") return { hata: "kayıt okunamadı" };
+    if (k.sema !== KAYIT_SEMA) return { hata: "kayıt sürümü uyumsuz" };
+    const yedek = this.durum;
+    try {
+      for (const id of (k.tamamlanan || [])) {
+        if (!this.game.vakalar.some(v => v.id === id)) throw new Error("kayıtta tanınmayan vaka: " + id);
+      }
+      this.durum = {
+        para: k.para ?? this.game.baslangic?.para ?? 2400,
+        borc: k.borc ?? this.game.baslangic?.borc ?? 0,
+        cengoBag: k.cengoBag ?? 0,
+        seeds: { ...(k.seeds || {}) },
+        tamamlanan: [...(k.tamamlanan || [])],
+        kaliciOlgular: [...(k.kaliciOlgular || [])],
+        aktif: null,
+      };
+      if (k.aktif) {
+        if (!this.game.vakalar.some(v => v.id === k.aktif.id)) throw new Error("kayıttaki vaka yok: " + k.aktif.id);
+        this.vakaBaslat(k.aktif.id);            // giriş varyantı tohumlardan yeniden seçilir
+        for (const cid of (k.aktif.acilan || [])) {
+          const r = this.kaynakAc(cid);
+          if (r.hata) throw new Error("kaynak geri yüklenemedi (" + cid + "): " + r.hata);
+        }
+      }
+      return { ok: true };
+    } catch (e) {
+      this.durum = yedek;
+      return { hata: e.message };
+    }
+  }
 }
 
-module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev };
+module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA };
