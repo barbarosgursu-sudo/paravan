@@ -1,1 +1,1811 @@
-{"kanon": {"isimler": ["Kaya", "Ceyda", "Cavit", "İlyas", "Vedat", "Nesrin", "Peri", "Cengo", "Nadire", "Sevil"], "belirsiz": ["ceyda_pay", "kaya_biliyordu", "sevil_pay"], "belirsiz_istisna": {"kaya_biliyordu": "V6"}}, "vakalar": [{"id": "V1", "tur": "omurga", "sira": 1, "belirir": null, "baslik": "Merdivendeki Adam", "arastirma": 3, "truth": {"olen": "Kaya Tuncer", "gorunen": "merdivenden düştü (kaza)", "gercek": "itildi (cinayet)", "iten": "İlyas — BU VAKADA AÇILMAZ", "azmettiren": "Cavit — çok sonra", "cavit_niyeti": "sigorta ödensin, dosya kapalı kalsın"}, "facts": {"polis_kaza": "Polis dosyası: kaza, dosya kapalı.", "sigorta_sorusturma": "Sigorta, ödeme öncesi soruşturuyor.", "giris_zorlama_yok": "Eve zorla giriş yok — tanıdık ya da içeriden.", "ceyda_saat": "Ceyda: 'Akşam 8'de çıktım, gece döndüğümde yerde buldum.'", "olum_saati": "Adli tahmin: ölüm ~23:00.", "dusus_acisi": "Yaralar/açı kendi düşmeyle uyuşmuyor; itiş olası.", "komsu_ses": "Komşu: o gece boğuk bir tartışma / ikinci bir ses."}, "knowledge": [{"turetilen": "ceyda_celiski", "ifade": {"all": ["ceyda_saat", "olum_saati"]}}, {"turetilen": "cinayet_suphesi", "ifade": {"all": ["dusus_acisi", {"any": ["ceyda_celiski", "komsu_ses"]}]}}], "giris": [{"kosul": "varsayilan", "metin": "Cavit iyi giyimli, güven veren biri. Bir müvekkili adına geldiğini söylüyor: genç bir dul, Ceyda Tuncer. Kocası Kaya, çocuk doktoru, merdivenden düşüp ölmüş. Polis kaza demiş. Ama sigorta ödeme öncesi soruşturuyor. Cavit'in istediği basit görünüyor: ölümün kaza olduğunu teyit eden kısa bir rapor.", "acilan": []}], "clues": [{"id": "polis_dosyasi", "ad": "Polis dosyası", "tur": "Belge", "ico": "▤", "needs": [], "reveals": ["polis_kaza", "giris_zorlama_yok"], "text": "Dosya kaza diyor, kapatılmış. Bir not: eve zorla giriş izi yok.", "meta": "Zorla giriş yoksa, ya tanıdık biri ya içeriden.", "gorsel": {"dosya": "v1_dosya.jpg", "tur": "kanit", "gosterir": ["polis_kaza"], "alt": "kapatılmış polis dosyası"}}, {"id": "sigorta_yazisi", "ad": "Sigorta yazısı", "tur": "Belge", "ico": "▤", "needs": [], "reveals": ["sigorta_sorusturma"], "text": "Sigorta, ödemeden önce kendi soruşturmasını açmış.", "meta": "Şirket ödememek için bahane arar; saat işliyor.", "gorsel": null}, {"id": "ceyda_gorusme", "ad": "Ceyda ile görüşme", "tur": "İfade", "ico": "◑", "needs": [], "reveals": ["ceyda_saat"], "text": "Ceyda: 'Akşam sekizde çıktım. Gece döndüğümde onu merdivenin dibinde buldum.'", "meta": "Sakin anlatıyor — ama sakinlik masumiyet değildir.", "gorsel": {"dosya": "portre_ceyda.jpg", "tur": "portre", "gosterir": ["Ceyda"], "alt": "yarısı gölgede bir kadın yüzü"}}, {"id": "komsu_ifadesi", "ad": "Komşu ifadesi", "tur": "İfade", "ico": "◑", "needs": [], "reveals": ["komsu_ses"], "text": "Komşu: 'O gece boğuk bir tartışma duydum. İki ses vardı gibi.'", "meta": "Tek başına kanıt değil — ama Ceyda 'yalnızdım' demişti.", "gorsel": null}, {"id": "olay_yeri", "ad": "Olay yeri incelemesi", "tur": "Gözlem", "ico": "◉", "needs": [], "reveals": ["olum_saati", "dusus_acisi"], "text": "Merdiven dik. Ama yaraların açısı, kendi düşen birine göre ters. Ölüm saati ~23:00.", "meta": "Açı bir itişe daha çok uyuyor.", "gorsel": {"dosya": "v1_merdiven.jpg", "tur": "mekan", "gosterir": ["dusus_acisi", "olum_saati"], "alt": "gölgeli merdiven boşluğu"}}, {"id": "cengo_baglanti", "ad": "Cengo saatleri karşılaştırır", "tur": "Gözlem", "ico": "◈", "needs": ["ceyda_saat", "olum_saati"], "reveals": [], "text": "Cengo kağıtları yan yana koydu: 'Kadın sekizde çıktım diyor, ama adam on birde ölmüş. Peri abla, bu saatler tutmuyor.'", "meta": "Ceyda ya yanılıyor ya yalan söylüyor.", "gorsel": null}], "decisions": [{"id": "temiz_rapor", "gate": "yok", "etiket": "Temiz 'kaza' raporu ver", "sonuc": "Parayı alırsın, ajans nefes alır. Şüpheni gömdün; Cavit sana güvenir, yeni iş getirir.", "cengoBag": -1, "seed_yaz": {"ilk_karar": "temiz", "cavit_guven": true}, "yuzde": 54}, {"id": "soyle_cavit", "gate": "cinayet_suphesi", "etiket": "Şüpheni Cavit'e söyle", "sonuc": "Dürüstsün ama saf. Cavit gülümser — ama gözünde artık bir risksin.", "cengoBag": 0, "seed_yaz": {"ilk_karar": "soyledi", "cavit_guven": false}, "yuzde": 11}, {"id": "gizli_kaz", "gate": "cinayet_suphesi", "etiket": "Raporu ver ama sessizce kaz", "sonuc": "Cavit'e istediğini verirsin, güvenini korursun; bir yandan kendine dosya açarsın.", "cengoBag": 1, "seed_yaz": {"ilk_karar": "gizli", "cavit_guven": true, "gizli_dosya": true}, "yuzde": 28}, {"id": "reddet", "gate": "yok", "etiket": "İşi reddet", "sonuc": "Onurlu ama ölümcül. Para gelmez, borç büyür; Cavit başkasını bulur.", "cengoBag": 1, "seed_yaz": {"ilk_karar": "reddetti", "cavit_guven": false}, "yuzde": 7}], "seeds": {"kaya_kayit_gordu": {"esit_ise": {"any": ["olay_yeri_acildi", "gizli_dosya"]}, "deger": true}, "el_sezildi_hazir": {"deger": false}}, "giris_gorsel": "v1_giris.jpg"}, {"id": "V2", "tur": "omurga", "sira": 2, "belirir": null, "baslik": "Yüzük", "arastirma": 4, "truth": {"vedat_gercek": "aldatmıyor", "vedat_sir": "kaçak kardeşinin borcunu ödüyor", "borc_tehlike": "kardeş tehlikeli işe bulaştı, ortada yok", "ilyas_rol": "borcu toplayan tahsildar", "ilyas_cinayet": "GİZLİ — bu vakada YOK", "nesrin_gelis": "gazete haberi + şöhret + ekonomi"}, "facts": {"vedat_kayip_saat": "Vedat akşamları kayboluyor, telefonunu saklıyor.", "vedat_kadin_yok": "Takip: kadın yok, buluşma yok — aldatma değil.", "kenar_ev": "Vedat kenar mahallede kırık bir kapıya gidiyor.", "para_elden": "Vedat orada elden para veriyor.", "ilyas_tahsildar": "Parayı alan yorgun adam: İlyas, bir tahsildar.", "kacak_kardes": "Borç Vedat'ın değil — kaçak kardeşinin.", "kardes_tehlike": "Kardeş tehlikeli bir işe bulaşmış, ortadan kaybolmuş.", "vedat_pisman": "Vedat bu yükten utanıyor, kapatmaya çabalıyor — karısını korumak istiyor.", "vedat_mali_sikinti": "Vedat son aylarda para sıkıntısında; borç kapatır gibi ödemeler yapıyor."}, "knowledge": [{"turetilen": "aldatmiyor_kesin", "ifade": {"all": ["vedat_kadin_yok", "kenar_ev"]}}, {"turetilen": "sir_borctur", "ifade": {"all": ["para_elden", "ilyas_tahsildar"]}}, {"turetilen": "sir_tam", "ifade": {"all": ["sir_borctur", "kacak_kardes", "kardes_tehlike"]}}], "giris": [{"kosul": "varsayilan", "metin": "Ajansın kapısı ilk kez dışarıdan çalınıyor. Nesrin adında bir kadın, gazetede Peri'nin bürosunu okumuş; tanıdık, kadın ve ucuz bir kapı aradığı için gelmiş. Utanarak anlatıyor: kocası Vedat son aylarda tuhaflaştı, akşamları kayboluyor, telefonunu saklıyor. Onu aldattığından neredeyse emin. Takip edilmesini istiyor.", "acilan": []}], "clues": [{"id": "nesrin_gorusme", "ad": "Nesrin ile görüşme", "tur": "İfade", "ico": "◑", "needs": [], "reveals": ["vedat_kayip_saat"], "text": "Nesrin: 'Her akşam bir yere gidiyor, dönünce hiçbir şey anlatmıyor. Telefonu hep ters duruyor.'", "meta": "Kaybolan saatler — ama kaybolmak aldatmak demek değil.", "gorsel": {"dosya": "portre_nesrin.jpg", "tur": "portre", "gosterir": ["Nesrin"], "alt": "yorgun, utangaç bir kadın yüzü"}}, {"id": "vedat_mali", "ad": "Vedat'ın mali durumunu araştır", "tur": "Belge", "ico": "▤", "needs": [], "reveals": ["vedat_mali_sikinti"], "text": "Vedat'ın hesaplarına, esnaf çevresine bakıldı. Adam borç içinde değil ama sürekli bir yere düzenli para aktarıyor — maaşından fazlasını.", "meta": "Birine düzenli para gidiyor — bir metresin değil, bir borcun izi gibi. Onu takip etsek nereye gittiğini görürüz.", "gorsel": null}, {"id": "takip_gece", "ad": "Gece takibi", "tur": "Gözlem", "ico": "◉", "needs": [{"any": ["vedat_kayip_saat", "vedat_mali_sikinti"]}], "reveals": ["vedat_kadin_yok", "kenar_ev"], "text": "Vedat'ı izlediler. Ne bir kadın, ne bir buluşma. Adam kenar bir mahalleye, kırık dökük bir kapıya gitti.", "meta": "Aldatma değil bu. Başka bir şey saklıyor.", "gorsel": {"dosya": "v2_kenar_sokak.jpg", "tur": "mekan", "gosterir": ["kenar_ev"], "alt": "gece, yağmurlu kenar mahalle sokağı"}}, {"id": "kenar_ev_gozlem", "ad": "Kapının gözlemi", "tur": "Gözlem", "ico": "◉", "needs": ["kenar_ev"], "reveals": ["para_elden", "ilyas_tahsildar"], "text": "Vedat kapıda elden para verdi. Parayı alan yorgun, sıradan bir adamdı — kimsenin iki kez bakmayacağı biri.", "meta": "Bir tahsildar. Adı İlyas'mış. Sıradan bir borç işi gibi.", "gorsel": {"dosya": "portre_ilyas_v2.jpg", "tur": "portre", "gosterir": ["ilyas_tahsildar"], "alt": "yorgun, silik bir adam; sıradan bir tahsildar"}}, {"id": "mahalle_konus", "ad": "Mahallede konuşmak", "tur": "İfade", "ico": "◑", "needs": ["ilyas_tahsildar"], "reveals": ["kacak_kardes", "kardes_tehlike"], "text": "Mahalleden biri fısıldadı: 'O borç Vedat'ın değil ki — kaçak kardeşinin. Kardeşi büyük bir işe bulaşıp ortadan kayboldu, borç Vedat'a kaldı.' Cengo alçak sesle ekledi: 'Bu öyle sıradan bir borç değil Peri abla.'", "meta": "Vedat kendi için değil, kardeşi için batıyor — ve iş tehlikeli.", "gorsel": null}, {"id": "vedat_yuz", "ad": "Vedat'ın hâli (opsiyonel)", "tur": "Gözlem", "ico": "○", "needs": ["kenar_ev"], "reveals": ["vedat_pisman"], "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Bu, bir suçlunun değil, utanan bir adamın hâliydi.", "meta": "Karısını korumak için saklıyor gibi. Ama bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.", "gorsel": {"dosya": "portre_vedat.jpg", "tur": "portre", "gosterir": ["vedat_pisman"], "alt": "yorgun, utanç içindeki bir adam yüzü"}}], "decisions": [{"id": "hersey_soyle", "gate": "sir_tam", "etiket": "Nesrin'e her şeyi anlat", "sonuc": "Aldatma yok, ama kaçak kardeşin borcu var. Dürüstsün — ama Vedat'ın en sakladığı şeyi ifşa ettin. Nesrin sert bir hamle yapabilir; kardeşin izi tehlikeye girer, evlilik sarsılır.", "cengoBag": 0, "seed_yaz": {"v2_karar": "hersey"}, "yuzde": 24}, {"id": "aldatmiyor_de", "gate": "aldatmiyor_kesin", "etiket": "Sadece 'aldatmıyor' de, borcu sakla", "sonuc": "Nesrin kısmen rahatlar, kuşkusu tam bitmez. Vedat'ın onurunu korudun; ama kadın karanlıkta, adam yükün altında yalnız.", "cengoBag": 1, "seed_yaz": {"v2_karar": "korudu"}, "yuzde": 41}, {"id": "yalan_kur", "gate": "yok", "etiket": "Rahatlatıcı bir yalan kur", "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder.", "cengoBag": -1, "seed_yaz": {"v2_karar": "yalan"}, "yuzde": 22}, {"id": "kuru_rapor", "gate": "yok", "etiket": "Parayı al, karışma, kuru rapor ver", "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar.", "cengoBag": -1, "seed_yaz": {"v2_karar": "kuru"}, "yuzde": 13}], "seeds": {"ilyas_yuz_tandi": {"esit_ise": "kenar_ev_gozlem_acildi", "deger": true}}, "giris_gorsel": "v2_giris.jpg"}, {"id": "V3", "tur": "omurga", "sira": 3, "belirir": null, "baslik": "Tanık", "arastirma": 4, "truth": {"olum_gercek": "Kaya itildi (V1'den taşınır, sabit)", "iten_kim": "İlyas", "ilyas_isaret1": "yüzünde yara", "ilyas_isaret2": "aksak yürüyüş (topallama)", "ilyas_yalniz_mi": "HAYIR — biri onu sıkıştırdı", "sikistiran": "Cavit — BU VAKADA AÇILMAZ", "cavit_ilyas_bag": "GİZLİ — V5/V6"}, "facts": {"tanik_korktu": "Tanık kadın polise korkudan susmuş; ama bize anlatıyor.", "tarif_yara": "Tanık: o gece binadan çıkan adamın yüzünde yara vardı.", "tarif_topal": "Tanık: adam aksak yürüyordu, topallıyordu.", "itis_kesin": "Tanık: o adam düşmedi — Kaya itildi; ben gördüm.", "ilyas_isim": "Tarif bir isme bağlandı: İlyas — Cengo'nun tanıdığı o tahsildar.", "foto_teshis": "Çekilen fotoğrafı tanık onayladı: 'Evet, o.'", "ilyas_sebep_yok": "İlyas'ın Kaya'ya husumeti/sebebi yok — sıradan bir tahsildar.", "mahalle_fisilti": "Mahallede fısıltı: o gece bir şey olmuş, ama herkes korkudan susuyor."}, "knowledge": [{"turetilen": "ilyas_supde", "ifade": {"all": ["tarif_yara", "tarif_topal"]}}, {"turetilen": "iten_ilyas", "ifade": {"all": ["ilyas_supde", "foto_teshis"]}}, {"turetilen": "el_var", "ifade": {"all": ["iten_ilyas", "ilyas_sebep_yok"]}}], "giris": [{"kosul": "varsayilan", "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye sustur istiyor. Ama Peri merak ediyor: madem önemsiz, Cavit neden bu kadar tedirgin?", "acilan": []}], "clues": [{"id": "cavit_brief", "ad": "Cavit'in tarifi", "tur": "İfade", "ico": "◑", "needs": [], "reveals": ["tanik_korktu"], "text": "Cavit: 'Yaşlı, kafası karışık bir kadın. Sigortaya gitmeden şu dedikoduyu susturun. Zaten belli belirsiz bir karaltı görmüş, kimseyi tanımıyor.'", "meta": "Cavit rahat — tanığın bir isme ulaşamayacağını sanıyor. Oysa kadın korkudan polise susmuş, size değil.", "gorsel": {"dosya": "portre_cavit.jpg", "tur": "portre", "gosterir": ["Cavit"], "alt": "pahalı takım, terli alın, kaçan bakış"}}, {"id": "mahalle_yokla", "ad": "Mahalleyi Cengo'yla yoklamak", "tur": "Gözlem", "ico": "◉", "needs": [], "reveals": ["mahalle_fisilti"], "text": "Cengo sokağı kendi yöntemiyle yokladı. Kimse açıkça konuşmuyor ama bir korku var: o gece bir şey olmuş, ve bir kadın gördüğünü söyleyip sonra susmuş.", "meta": "Cavit'in 'sustur' dediği tanık gerçekten bir şey görmüş. Ona ulaşmanın yolu Cavit değil, mahalle.", "gorsel": null}, {"id": "tanik_gorusme", "ad": "Tanık kadınla görüşme", "tur": "İfade", "ico": "◑", "needs": [{"any": ["tanik_korktu", "mahalle_fisilti"]}], "reveals": ["tarif_yara", "tarif_topal", "itis_kesin"], "text": "Kadın titredi: 'Polise korktum, söyleyemedim. Ama gördüm. O gece binadan bir adam çıktı — yüzünde yara vardı, ve aksak yürüyordu. O düşmedi; itildi. Eminim.'", "meta": "İki işaret: yara + topallama. Ve 'itildi' — kaza değil.", "gorsel": {"dosya": "portre_tanik.jpg", "tur": "portre", "gosterir": ["tarif_yara", "tarif_topal"], "alt": "korkmuş yaşlı bir kadın yüzü"}}, {"id": "mahalle_don", "ad": "Şüpheliyi bulup fotoğraflamak", "tur": "Gözlem", "ico": "◉", "needs": ["ilyas_supde"], "reveals": ["ilyas_isim"], "text": "Cengo tarifi duyunca durdu: 'Yara, topal... bu İlyas olabilir, şu tahsildar.' Onu buldular, gizlice fotoğrafını çektiler — riskli bir an; fark edilselerdi kötü olurdu.", "meta": "Artık bir isim ve bir yüz var: İlyas. Ama emin olmak için tanığa göstermek gerek.", "gorsel": {"dosya": "v3_gizli_foto.jpg", "tur": "kanit", "gosterir": ["ilyas_isaret1"], "alt": "gizlice çekilmiş, yaralı ve yorgun bir adam"}}, {"id": "foto_goster", "ad": "Fotoğrafı tanığa göstermek", "tur": "İfade", "ico": "◑", "needs": ["ilyas_isim"], "reveals": ["foto_teshis"], "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. O gece çıkan adam buydu.'", "meta": "Kesin teşhis. İlyas — V2'deki o silik tahsildar — Kaya'yı iten kişi.", "gorsel": null}, {"id": "cengo_okuma", "ad": "Cengo'nun okuması", "tur": "Gözlem", "ico": "◈", "needs": ["iten_ilyas"], "reveals": ["ilyas_sebep_yok"], "text": "Cengo başını salladı: 'Bu adamın Kaya'yla bir alıp veremediği yok Peri abla. Ne parası, ne derdi. Böyleleri kendi aklıyla adam itmez — biri sırtına bindiyse iter. Yani biz asıl adamı daha görmedik.'", "meta": "İlyas tek başına değil. Arkasında onu süren biri var — henüz yüzü yok.", "gorsel": null, "bedelsiz": true}], "decisions": [{"id": "polise_ver", "gate": "iten_ilyas", "etiket": "İlyas'ı polise ver", "sonuc": "Doğru olanı yaptın. Ama Cavit'in istediğinin tam tersi — gerilir, güveni sarsılır, ödemeyi keser. Ve İlyas konuşmazsa, onu süren el gizli kalır.", "cengoBag": 2, "seed_yaz": {"ilyas_kime_gitti": "polis"}, "yuzde": 38}, {"id": "koz_yap", "gate": "iten_ilyas", "etiket": "Kendine sakla, koz yap", "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol.", "cengoBag": 1, "seed_yaz": {"ilyas_kime_gitti": "koz"}, "yuzde": 31}, {"id": "cavite_teslim", "gate": "iten_ilyas", "etiket": "İlyas'ı Cavit'e teslim et", "sonuc": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın.", "cengoBag": -1, "seed_yaz": {"ilyas_kime_gitti": "cavit"}, "yuzde": 19}, {"id": "tanigi_lekele", "gate": "yok", "etiket": "Tanığı 'güvenilmez' diye rapor et", "sonuc": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz.", "cengoBag": -2, "seed_yaz": {"ilyas_kime_gitti": "lekele"}, "yuzde": 12}], "seeds": {"iten_biliniyor": {"esit_ise": "iten_ilyas", "deger": true}, "el_sezildi": {"esit_ise": "el_var", "deger": true}}, "giris_gorsel": "v3_giris.jpg"}, {"id": "YAN-A", "tur": "yan", "sira": 99, "belirir": {"sonra": "V2", "kosul": "varsayilan"}, "baslik": "Kapalı Defter", "arastirma": 3, "truth": {"sevil_dert": "eski suçunun ifşa tehdidi", "tehdit_kaynak": "eski o dünyadan biri", "gecmis_gercek": "suç Sevil'indi; Cengo üstlendi, içeri girdi, hayatı raydan çıktı", "sevil_neden_geldi": "sırrı bilen tek güvenilir kişiye — Cengo'ya, itiraf edemeden", "sevil_pay": "<BELİRSİZ> — nankör MÜ, kaçan kurban MI? ÇÖZÜLMEZ"}, "facts": {"sevil_tehdit": "Sevil eski bir sırrının ifşasıyla tehdit ediliyor.", "cengo_tepki": "Cengo, Sevil'i görünce kasıldı — aralarında bir geçmiş var.", "eski_dava": "Yıllar önce bir suç; kayıtlarda Cengo'nun adı.", "cengo_ustlendi": "Suç Sevil'indi; Cengo üstlendi. Sadakat MI, aptallık MI — belli değil.", "tehdit_kim": "Tehdit eden: eski o dünyadan biri.", "sevil_geldi_neden": "Sevil bu kapıyı boşuna çalmadı; ama minnet MI, korku MU — itiraf edemiyor, belli değil."}, "knowledge": [{"turetilen": "gecmis_sezildi", "ifade": {"all": ["cengo_tepki", "eski_dava"]}}, {"turetilen": "gecmis_tam", "ifade": {"all": ["gecmis_sezildi", "cengo_ustlendi"]}}], "giris": [{"kosul": "varsayilan", "metin": "Ajansa iyi giyimli, ölçülü bir kadın gelir — Sevil, 36. Düzenli bir hayatı var; geride bıraktığı bir geçmiş. Derdi mahrem: biri onu, eski günlerine dair bir şeyi ifşa etmekle tehdit ediyor. Sessizce durdurulmasını istiyor. Ama içeri girip Cengo'yu görünce bir an durur. Gözler buluşur. İkisi de tanır. Sonra — hiçbir şey olmaz. Sevil derdine döner; Cengo tek kelime etmez, sadece çenesi kasılır.", "acilan": ["sevil_tehdit", "cengo_tepki"]}], "clues": [{"id": "tehdit_arastir", "ad": "Tehdidi araştırmak", "tur": "Gözlem", "ico": "◉", "needs": ["sevil_tehdit"], "reveals": ["tehdit_kim"], "text": "Sevil'i sıkıştıranın izini sürdüler — eski o kenar dünyadan biri, geçmişi bilen ve para/sus koparmaya çalışan biri.", "meta": "Sevil'in derdini çözmek için yeterli. Ama Cengo'nun neden kasıldığı hâlâ ortada.", "gorsel": {"dosya": "portre_sevil.jpg", "tur": "portre", "gosterir": ["Sevil"], "alt": "ölçülü, mesafeli, bir şey saklayan bir kadın yüzü"}}, {"id": "eski_kayit", "ad": "Eski kaydı kurcalamak", "tur": "Belge", "ico": "▤", "needs": ["cengo_tepki"], "reveals": ["eski_dava"], "text": "Peri eski bir dava kaydına ulaştı: yıllar önce bir suç, ve kayıtta Cengo'nun adı. Cengo bundan hiç söz etmemişti.", "meta": "Cengo'nun sabıkası, sürüklenmişliği, o kenar dünyayı bilmesi — kökü burada.", "gorsel": {"dosya": "yana_dava.jpg", "tur": "kanit", "gosterir": ["eski_dava"], "alt": "yıllanmış bir dava dosyası, üstünde bir isim"}}, {"id": "cengo_cumle", "ad": "Cengo'nun tek cümlesi", "tur": "İfade", "ico": "◈", "needs": ["eski_dava"], "reveals": ["cengo_ustlendi"], "bedelsiz": true, "text": "Cengo pencereye baktı. 'Onun bir geleceği vardı Peri abla. Benim yoktu. O kadar.' Başka bir şey demedi.", "meta": "Suç Sevil'indi; Cengo üstlendi, içeri girdi, çıktığında Sevil gitmişti. Sadakat mi, aptallık mı — Cengo bile söylemiyor.", "gorsel": null}, {"id": "sevil_okuma", "ad": "Sevil neden geldi?", "tur": "Gözlem", "ico": "◑", "needs": ["gecmis_tam"], "reveals": ["sevil_geldi_neden"], "text": "Sevil bu büroyu, sırrı bilen tek güvenilir insan burada olduğu için seçmiş olabilir — Cengo. Ama bunu ne itiraf edebiliyor ne inkâr.", "meta": "Belki minnet, belki korku, belki ikisi. Sevil okunamıyor — kapalı bir defter.", "gorsel": null}], "decisions": [{"id": "biliyorum_cik", "gate": "gecmis_tam", "etiket": "Sevil'e 'biliyorum' diye çık", "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi?", "cengoBag": -1, "seed_yaz": {"yana_karar": "acti"}, "yuzde": 18}, {"id": "cengoya_birak", "gate": "gecmis_tam", "etiket": "Cengo'ya bırak, karışma", "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an.", "cengoBag": 2, "seed_yaz": {"yana_karar": "birakti"}, "yuzde": 42}, {"id": "sessiz_coz", "gate": "tehdit_kim", "etiket": "Tehdidi çöz, geçmişe dokunma", "sonuc": "Sevil'i sıkıştıranı hallettin, ama geçmişe dokunmadın. Kapalı defter kapalı kaldı. Merhametli bir sessizlik.", "cengoBag": 1, "seed_yaz": {"yana_karar": "sessiz"}, "yuzde": 28}, {"id": "isi_gecevir", "gate": "tehdit_kim", "etiket": "Sevil'in işini geri çevir", "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his.", "cengoBag": 1, "seed_yaz": {"yana_karar": "cevirdi"}, "yuzde": 12}], "seeds": {"cengo_gecmis_bilinir": {"esit_ise": "gecmis_tam", "deger": true}}, "giris_gorsel": "yana_giris.jpg"}, {"id": "YAN-B", "tur": "yan", "sira": 99, "belirir": {"sonra": "V4", "kosul": "varsayilan"}, "baslik": "Enkaz", "arastirma": 3, "truth": {"nadire_dert": "son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırdı", "dolandirici": "batış mağdurlarını avlayan biri", "peri_gercek": "Peri'nin çöküşü Nadire'yi de batırdı — Peri farkında olmadan sorumlu", "nadire_suclamaz": "hâlâ sadık, Peri'yi suçlamıyor — bu yüzden Peri'nin utancı daha ağır", "avukat_kirinti": "Nadire kaçan avukata dair küçük bir şey biliyor olabilir — SEZON 2"}, "facts": {"nadire_geldi": "Nadire, Peri'nin eski sadık ustası, bir dertle geldi.", "dolandirici_var": "Son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırmış.", "dolandirici_kim": "Dolandırıcı: batış mağdurlarını avlayan biri; başka kurbanları da var.", "batis_enkazi": "Peri'nin çöküşü Nadire'nin ve başkalarının hayatını götürmüş.", "peri_sorumluluk": "Peri o avukata güvendi; enkazın bedelini başkaları da ödedi.", "avukat_izi": "Nadire kaçan avukata dair bir kırıntı biliyor — burada çözülmez, Sezon 2.", "nadire_durum": "Nadire her şeyini kaybetmiş: birikimi, emekliliği, hepsi Peri'nin battığı o çöküşte yok olmuş."}, "knowledge": [{"turetilen": "enkaz_gorundu", "ifade": {"all": ["nadire_geldi", "batis_enkazi"]}}, {"turetilen": "sorumluluk_tam", "ifade": {"all": ["enkaz_gorundu", "peri_sorumluluk"]}}], "giris": [{"kosul": "varsayilan", "metin": "Ajansa yaşlı, yorgun ama bakımlı kalmaya çalışan bir kadın gelir — Nadire, 58. Peri onu tanır: eski salon zincirinin en kıdemli ustası. Peri battığında Nadire de battı — birikimi, emekliliği, avukat şirketi boşaltırken buhar oldu. Ama Nadire suçlamıyor; hâlâ 'Perihan Hanım' diyor. Derdi mütevazı: son parasını 'şirketten alacağınızı kurtarırım' diyen birine kaptırmış. 'Size zahmet vermek istemezdim ama... kime gideceğimi bilemedim.'", "acilan": ["nadire_geldi", "dolandirici_var"]}], "clues": [{"id": "dolandirici_iz", "ad": "Dolandırıcının izini sürmek", "tur": "Gözlem", "ico": "◉", "needs": ["dolandirici_var"], "reveals": ["dolandirici_kim", "batis_enkazi"], "text": "Dolandırıcının izini sürdüler — batıştan zarar görmüş çaresizleri avlayan biri. Başka kurbanları da var, hepsi eski çalışanlar. Peri'nin düşüşünün enkazı gözünün önüne serildi.", "meta": "Peri'nin avukatının yıktığı enkazın üstünde ikinci bir akbaba besleniyor. Ve o enkaz, Peri'nin enkazı.", "gorsel": {"dosya": "portre_nadire.jpg", "tur": "portre", "gosterir": ["dolandirici_kim"], "alt": "batış mağdurlarını avlayan silik bir dolandırıcı"}}, {"id": "nadire_dinle", "ad": "Nadire'yi dinle", "tur": "İfade", "ico": "◑", "needs": [], "reveals": ["nadire_durum"], "text": "Nadire çekinerek anlattı: salon batınca o da battı. Yıllarca biriktirdiği ne varsa, avukatın boşalttığı hesaplarla birlikte buhar oldu. Ama şikâyet etmiyor, sadece 'kader' diyor.", "meta": "Peri'nin düşüşü yalnız Peri'yi değil, ona güvenenleri de batırmış. Bu dolandırıcılık işinin altında daha ağır bir borç var — Peri'nin vicdan borcu.", "gorsel": null}, {"id": "peri_ic_ses", "ad": "Peri'nin iç hesabı", "tur": "Gözlem", "ico": "◈", "needs": [{"any": ["batis_enkazi", "nadire_durum"]}], "reveals": ["peri_sorumluluk"], "bedelsiz": true, "text": "Peri, Nadire'nin küçük soğuk odasına baktı. 'Ben o adama güvendim,' dedi içinden. 'Bu kadının hayatını ben götürdüm — farkında bile olmadan.'", "meta": "Nadire suçlamıyor; o yüzden Peri suçu kendi taşımak zorunda. Utanç, affediciliğin sessizliğiyle ağırlaşıyor.", "gorsel": null}, {"id": "avukat_kirintisi", "ad": "Nadire'nin bildiği bir kırıntı (opsiyonel)", "tur": "İfade", "ico": "○", "needs": ["sorumluluk_tam"], "reveals": ["avukat_izi"], "text": "Nadire, giderken durdu: 'O avukat... bir keresinde bir yerden söz etmişti. Belki işinize yarar.' Küçük bir kırıntı — ama bir yöne işaret ediyor.", "meta": "Kaçan avukata giden ince bir iz. Bu vaka onu çözmez; sadece bir kapı aralar.", "gorsel": null}], "decisions": [{"id": "tam_sahip_cik", "gate": "sorumluluk_tam", "etiket": "Nadire'ye tam sahip çık", "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer.", "cengoBag": 2, "seed_yaz": {"yanb_karar": "sahip"}, "yuzde": 36}, {"id": "gercegi_soyle", "gate": "sorumluluk_tam", "etiket": "Geçmişle yüzleş, gerçeği söyle", "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün.", "cengoBag": 2, "seed_yaz": {"yanb_karar": "yuzlesti"}, "yuzde": 22}, {"id": "sadece_coz", "gate": "dolandirici_kim", "etiket": "Sadece dolandırıcıyı çöz, mesafeni koru", "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun.", "cengoBag": 1, "seed_yaz": {"yanb_karar": "coz"}, "yuzde": 30}, {"id": "gecistir", "gate": "yok", "etiket": "Geçiştir, kendini koru", "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür.", "cengoBag": -2, "seed_yaz": {"yanb_karar": "gecistirdi"}, "yuzde": 12}], "seeds": {"peri_yuzlesti": {"esit_ise": "sorumluluk_tam", "deger": true}, "sezon2_avukat_ipi": {"esit_ise": "avukat_izi", "deger": true}}, "giris_gorsel": "yana_giris_b.jpg"}, {"id": "V4", "tur": "omurga", "sira": 4, "belirir": null, "baslik": "Küçük Hasta", "arastirma": 4, "truth": {"odeme_gercek": "Kaya yıllarca gizlice bir hasta çocuğun ailesine para gönderdi", "odeme_sebep": "Kaya çocuk doktoru — çocuğu mesleğiyle tanıdı, yoksulluğu gördü", "odeme_gizli": "Kimse bilmiyordu — karısı Ceyda dahil", "odeme_kesildi": "Kaya öldüğü gün para durdu", "kaya_iki_yuz": "Evde ağır + gizlice şefkatli — aynı adam", "ceyda_biliyor_muydu": "GİZLİ — V5'e ip"}, "facts": {"gizemli_odeme": "Kaya'nın kayıtlarında her ay giden isimsiz bir ödeme var.", "odeme_durdu": "Ödeme iki hafta önce kesilmiş.", "durma_tarihi": "Kesilme tarihi = Kaya'nın öldüğü gün.", "cocuk_hasta": "Para ağır hasta bir çocuğun ailesine gidiyormuş.", "kaya_doktor_bag": "Kaya çocuğun doktoruydu — böyle tanışmışlar.", "aile_bilmiyor": "Aile hayırseverin kim olduğunu hiç bilmiyor.", "kaya_gizli_iyilik": "Hayırsever = Kaya. Kimseye söylemeden yıllarca destekledi.", "kaya_itibar": "Kaya çevrede çok sevilen, dürüst bilinen bir doktormuş; kimse hakkında kötü söz etmiyor."}, "knowledge": [{"turetilen": "odeme_kayaya_ait", "ifade": {"all": ["gizemli_odeme", "durma_tarihi"]}}, {"turetilen": "iyilik_tam", "ifade": {"all": ["odeme_kayaya_ait", "cocuk_hasta", "kaya_doktor_bag"]}}], "giris": [{"kosul": {"seed": "kaya_kayit_gordu", "esit": true}, "metin": "Peri o gizemli ödemeyi zaten görmüştü — Kaya'nın kayıtlarına bakarken. 'Cengo, şu her ay giden isimsiz para... kimin bu? Buna hiç bakmadık.' İpi çekmeye karar veriyor.", "acilan": ["gizemli_odeme"]}, {"kosul": "varsayilan", "metin": "Cengo elinde bir kağıtla geldi: 'Kaya'nın eski dosyalarını karıştırırken bir şey gördüm Peri abla — her ay giden isimsiz bir para. Bakmadık buna hiç.' Peri kağıda baktı; içine bir merak düştü.", "acilan": ["gizemli_odeme"]}], "clues": [{"id": "odeme_iz", "ad": "Ödemenin izini sürmek", "tur": "Belge", "ico": "▤", "needs": ["gizemli_odeme"], "reveals": ["odeme_durdu", "durma_tarihi"], "text": "Ödeme her ay düzenli gitmiş, sonra iki hafta önce birden kesilmiş. Kesilme tarihine bakınca Peri durdu: o gün, Kaya'nın öldüğü gündü.", "meta": "Hayırsever öldüğü için para durmuş. İsimsiz ödeme, bir ölüm gününe bağlanıyor.", "gorsel": {"dosya": "v4_dekont.jpg", "tur": "kanit", "gosterir": ["odeme_durdu"], "alt": "isimsiz banka dekontları, sonuncusu iki hafta önce"}}, {"id": "kaya_cevre", "ad": "Kaya'nın çevresini araştır", "tur": "İfade", "ico": "◑", "needs": [], "reveals": ["kaya_itibar"], "text": "Kaya'yı tanıyanlarla konuşuldu. Herkes aynı şeyi söyledi: iyi kalpli, sessiz, kimseye yük olmayan bir adam. Ama son yıllarda içine kapanmış, bir şeyle meşgul gibiymiş.", "meta": "Herkesin sevdiği bir adam — ama 'bir şeyle meşgul'. O meşguliyet, kayıtlardaki isimsiz ödeme olabilir mi?", "gorsel": null}, {"id": "cocuk_bul", "ad": "Paranın gittiği yeri bulmak", "tur": "Gözlem", "ico": "◉", "needs": ["odeme_kayaya_ait"], "reveals": ["cocuk_hasta"], "text": "Para bir aileye gidiyormuş — ağır hasta bir çocuğun tedavisi için. Yıllardır süren, pahalı bir tedavi.", "meta": "Bu para bir çocuğu yaşatıyormuş. Ve iki haftadır gelmiyor.", "gorsel": null}, {"id": "hastane_kayit", "ad": "Hastane kaydı", "tur": "Belge", "ico": "▤", "needs": ["cocuk_hasta"], "reveals": ["kaya_doktor_bag"], "text": "Çocuk yıllar önce bir çocuk doktoruna görünmüş — ve o doktor aileyle ilgilenmeye devam etmiş. Doktorun adı: Kaya Tuncer.", "meta": "Kaya bu çocuğu mesleğiyle tanımış, yoksulluğunu görmüş, sessizce sırtlanmış.", "gorsel": null}, {"id": "aile_gorusme", "ad": "Aileyle görüşme", "tur": "İfade", "ico": "◑", "needs": ["kaya_doktor_bag"], "reveals": ["aile_bilmiyor", "kaya_gizli_iyilik"], "text": "Anne titrek konuştu: 'Yıllardır her ay geldi o para. Kim olduğunu hiç bilmedik, dua ettik sadece. İki hafta önce kesildi. Ne oldu ona?' Peri'nin boğazı düğümlendi — çünkü cevabı biliyordu.", "meta": "Aile hayırseverin kim olduğunu bilmiyor. Ve o hayırsever, evde ağır diye duyulan Kaya'ydı — aynı adam.", "gorsel": {"dosya": "portre_anne.jpg", "tur": "portre", "gosterir": ["aile_bilmiyor"], "alt": "yorgun, umutsuz bir anne yüzü"}}], "decisions": [{"id": "aileye_soyle", "gate": "iyilik_tam", "etiket": "Aileye gerçeği söyle", "sonuc": "Hayırsever Kaya'ydı, ve öldü, dedin. Aile kapanış buldu ama umudunu kaybetti — teşekkür yerine yas. Dürüst ama acı.", "cengoBag": 2, "seed_yaz": {"v4_karar": "soyledi"}, "yuzde": 29}, {"id": "sessiz_coz", "gate": "iyilik_tam", "etiket": "Kimliği sakla, sessizce çözüm ara", "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu ama sana pahalı — Peri de beş parasız.", "cengoBag": 2, "seed_yaz": {"v4_karar": "sessiz"}, "yuzde": 24}, {"id": "kimligi_sakla", "gate": "iyilik_tam", "etiket": "'Artık gelmeyecek' de, kimliği sakla", "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi.", "cengoBag": 1, "seed_yaz": {"v4_karar": "sakla"}, "yuzde": 33}, {"id": "koz_yap", "gate": "odeme_kayaya_ait", "etiket": "Bilgiyi kendine sakla, koz yap", "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir.", "cengoBag": -2, "seed_yaz": {"v4_karar": "koz"}, "yuzde": 9}, {"id": "bos_ver", "gate": "yok", "etiket": "Boş ver, bu ipi çekme", "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer.", "cengoBag": -1, "seed_yaz": {"v4_karar": "bosver"}, "yuzde": 5}], "seeds": {"kaya_insani": {"esit_ise": "iyilik_tam", "deger": true}, "ceyda_para_ipi": {"esit_ise": "odeme_kayaya_ait", "deger": true}}, "giris_gorsel": "v4_giris.jpg"}, {"id": "V5", "tur": "omurga", "sira": 5, "belirir": null, "baslik": "Kim Kimi", "arastirma": 5, "truth": {"iten": "İlyas", "cavit_ilyas_bag": "Cavit yıllar önce delil karartıp İlyas'ı kurtardı; İlyas ona borçlu", "cavit_rol": "azmettiren — İlyas'ı bu cinayete o sürdü", "cavit_ceyda": "Cavit ile Ceyda sevgili (Kaya ölmeden önce de)", "ceyda_pay": "<BELİRSİZ> — mağdur MI, asıl akıl MI, para peşinde Mİ: üçü de mümkün, ÇÖZÜLMEZ", "kaya_biliyordu": "<BELİRSİZ> — V6'ya"}, "facts": {"cavit_her_kosede": "Davanın her köşesinde Cavit var — Peri ondan şüpheleniyor.", "cavit_ilyas_neden": "Cavit İlyas'ı fazla önemsiyor — sıradan bir tahsildar için değil bu.", "eski_dava": "Cavit yıllar önce İlyas'ın avukatıydı; delil kararttı, onu kurtardı.", "ilyas_mahkum": "İlyas o günden beri Cavit'e borçlu, mahkûm — silah oldu.", "cavit_takip": "Peri Cavit'i izliyor.", "cavit_ceyda_sevgili": "Cavit ile Ceyda sevgili — avukat/müvekkil değil.", "cinayet_sebep": "Sebep buymuş: Kaya, sevgililerin önündeki engeldi.", "ip_koz": "Ceyda gizli bir belge/kayıt saklıyor. Soğuk hesap MI, korkan mağdur MU — belli değil.", "ip_akil": "Bir iz: cinayet fikri Ceyda'dan çıkmış olabilir. Gerçek Mİ, Cavit'in yalanı MI — belli değil.", "ip_para": "Ceyda servet/sigortayla fazla ilgili. Açgözlülük MÜ, çaresiz dul MU — belli değil.", "kaya_dosya_donus": "Kaya'nın ölüm dosyasına yeniden bakınca: itiliş, tetikçi, hepsi Cavit'in kapattığı o ilk kaza raporuyla örtülmüş."}, "knowledge": [{"turetilen": "cavit_supheli", "ifade": {"all": ["cavit_her_kosede", {"any": ["cavit_ilyas_neden", "kaya_dosya_donus"]}]}}, {"turetilen": "cavit_azmettiren", "ifade": {"all": ["eski_dava", "ilyas_mahkum"]}}, {"turetilen": "iliski_acik", "ifade": {"all": ["cavit_takip", "cavit_ceyda_sevgili"]}}, {"turetilen": "tam_resim", "ifade": {"all": ["cavit_azmettiren", "iliski_acik"]}}, {"turetilen": "ceyda_bulaniklik", "ifade": {"any": ["ip_koz", "ip_akil", "ip_para"]}}], "giris": [{"kosul": {"seed": "ilyas_kime_gitti", "esit": "polis"}, "metin": "Cavit panik hâlinde geldi: İlyas'ı polise verdin, ve bu Cavit'i tedirgin etti. 'Bu iş büyümeden bastıralım' diyor, fazla telaşlı. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.", "acilan": ["cavit_her_kosede"]}, {"kosul": {"seed": "ilyas_kime_gitti", "esit": "koz"}, "metin": "Cavit İlyas'ı senden almaya çalışıyor — 'o adamı bana bırak' diyor, fazla ısrarlı. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.", "acilan": ["cavit_her_kosede"]}, {"kosul": {"seed": "ilyas_kime_gitti", "esit": "cavit"}, "metin": "İlyas'ı Cavit'e teslim etmiştin; şimdi Cavit 'onunla ilgilendim, sen de sus' tonunda. Ama bu rahatlık Peri'yi rahatsız ediyor. Bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.", "acilan": ["cavit_her_kosede"]}, {"kosul": "varsayilan", "metin": "Cavit bir 'temizlik' işi daha istiyor, ama bu kez fazla ileri gidiyor. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.", "acilan": ["cavit_her_kosede"]}], "clues": [{"id": "cavit_ilyas_ilgi", "ad": "Cavit neden İlyas'ı önemsiyor?", "tur": "Gözlem", "ico": "◉", "needs": ["cavit_her_kosede"], "reveals": ["cavit_ilyas_neden"], "text": "Cavit, İlyas gibi sıradan bir tahsildar için gereğinden fazla telaşlı. Peri soruyor: bu adamı neden bu kadar önemsiyor?", "meta": "İlyas onun için sıradan biri değil. Aralarında bir geçmiş var.", "gorsel": null}, {"id": "dosya_donus", "ad": "Kaya'nın dosyasına dön", "tur": "Belge", "ico": "▤", "needs": [], "reveals": ["kaya_dosya_donus"], "text": "Peri baştan beri elindeki dosyaya yeniden baktı. İlk günden beri her 'temizlik' işini getiren, her raporu kapattıran aynı kişiydi: Cavit. Tesadüf olamayacak kadar çok.", "meta": "Cavit sadece iş getiren avukat değil — bu işin her düğümünde o var. Şüphe artık somut.", "gorsel": null}, {"id": "ilyas_gecmis", "ad": "İlyas ile Cavit'in geçmişi", "tur": "Belge", "ico": "▤", "needs": ["cavit_supheli"], "reveals": ["eski_dava", "ilyas_mahkum"], "text": "Eski bir dava dosyası: yıllar önce İlyas bir suçtan yargılanacaktı. Avukatı Cavit'ti — deliller 'kayboldu', İlyas kurtuldu. O günden beri İlyas ona mahkûm.", "meta": "Cavit kurtardığı adamı bir silaha çevirdi. Kendi cinayeti lazım olunca, elindeki bağlı adamı kullandı.", "gorsel": {"dosya": "v5_eski_dava.jpg", "tur": "kanit", "gosterir": ["eski_dava"], "alt": "yıllanmış, tozlu bir dava dosyası"}}, {"id": "cavit_izle", "ad": "Cavit'i izlemek", "tur": "Gözlem", "ico": "◉", "needs": ["cavit_supheli"], "reveals": ["cavit_takip"], "text": "Peri Cavit'i izlemeye başladı. Nereye gidiyor, kiminle görüşüyor?", "meta": "Şüphe artık takibe dönüştü.", "gorsel": null}, {"id": "iliski_gor", "ad": "Cavit'in gittiği kapı", "tur": "Gözlem", "ico": "◉", "needs": ["cavit_takip"], "reveals": ["cavit_ceyda_sevgili", "cinayet_sebep"], "text": "Cavit'in geldiği kapı Ceyda'nın kapısıydı — ve içeri girişi bir avukatın girişi değildi. Perde çekildi. 'Demek buymuş,' dedi Cengo alçak sesle.", "meta": "Cavit ile Ceyda sevgili. Cinayetin sebebi buydu: Kaya, ikisinin önündeki engeldi. Sana ilk gün iş getiren adam, cinayetin mimarı.", "gorsel": {"dosya": "v5_perde.jpg", "tur": "kanit", "gosterir": ["cavit_ceyda_sevgili"], "alt": "gece, çekilmiş bir perdenin ardında iki gölge"}}, {"id": "ceyda_oku", "ad": "Ceyda'yı okumak", "tur": "İfade", "ico": "◑", "needs": ["iliski_acik"], "reveals": ["ip_koz"], "text": "Peri Ceyda'ya yaklaştı. Kadın gizli bir belge/kayıt saklıyordu — kendini sağlama almış gibi. Ama korkan biri de koz saklar.", "meta": "Soğuk bir hesap mı, yoksa korkan bir mağdurun sigortası mı? Belli değil.", "gorsel": {"dosya": "portre_ceyda_golge.jpg", "tur": "portre", "gosterir": ["ip_koz"], "alt": "yarısı gölgede, okunamayan bir kadın yüzü"}}, {"id": "ceyda_derin", "ad": "Ceyda'yı derinlemesine", "tur": "İfade", "ico": "◑", "needs": ["ip_koz"], "reveals": ["ip_akil", "ip_para"], "text": "Peri kazdıkça kadın bulanıklaştı. Bir iz, cinayet fikrinin ondan çıkmış olabileceğini gösteriyordu — ama Cavit de suçunu ona yıkıyor olabilirdi. Servetle fazla ilgiliydi — ama beş parasız bir dul da paraya bakar.", "meta": "Her kanıtın iki okunuşu var. Peri hiçbirinden emin olamadı. En çok da bu ürküttü onu.", "gorsel": null}], "decisions": [{"id": "cavite_vur", "gate": "tam_resim", "etiket": "Bildiğini Cavit'in yüzüne vur", "sonuc": "'Biliyorum. İlyas, Ceyda, hepsi.' Cesur — ama Cavit'i köşeye sıkıştırdın, ve köşeye sıkışmış bu adam tehlikeli. Para biter, artık sen de bir tehditsin.", "cengoBag": 1, "seed_yaz": {"cavit_karsi_konum": "dusman"}, "yuzde": 21}, {"id": "oyunu_surdur", "gate": "tam_resim", "etiket": "Belli etme, oyunu sürdür", "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür.", "cengoBag": -1, "seed_yaz": {"cavit_karsi_konum": "ortak"}, "yuzde": 26}, {"id": "kanit_biriktir", "gate": "tam_resim", "etiket": "Sessizce kanıt biriktir", "sonuc": "Ne vur, ne teslim ol — belge, kayıt, iz topladın. Elini final için hazırladın; ama yakalanırsan bedeli ağır.", "cengoBag": 1, "seed_yaz": {"cavit_karsi_konum": "silahli"}, "yuzde": 37}, {"id": "ceydaya_git", "gate": "ceyda_bulaniklik", "etiket": "Ceyda'yı hedef al, oku, kullan", "sonuc": "Cavit'i değil Ceyda'yı hedef aldın — belki onu Cavit'e karşı kullanabilirsin, belki gerçek gücün kimde olduğunu öğrenirsin. Riskli bir satranç; Ceyda senden akıllı çıkabilir.", "cengoBag": 0, "seed_yaz": {"cavit_karsi_konum": "ceyda_ittifak"}, "yuzde": 11}, {"id": "kazma", "gate": "yok", "etiket": "Cavit'in dediğini yap, kazma", "sonuc": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun.", "cengoBag": -1, "seed_yaz": {"cavit_karsi_konum": "alet"}, "yuzde": 5}], "seeds": {"cavit_ceyda_bilinir": {"esit_ise": "tam_resim", "deger": true}, "ceyda_okundu": {"say": ["ip_koz", "ip_akil", "ip_para"]}}, "giris_gorsel": "v5_giris.jpg"}, {"id": "V6", "tur": "omurga", "sira": 6, "belirir": null, "baslik": "Kaya Biliyor muydu", "arastirma": 3, "final": true, "truth": {"tum_resim": "Cavit yıllar önce İlyas'ı kurtardı, şimdi sevgilisi Ceyda'nın kocasını öldürtmek için kullandı", "kaya_biliyordu": "HAYIR — Kaya aldatıldığını bilmiyordu (V6'da ÇÖZÜLÜR)", "ceyda_pay": "<BELİRSİZ> — final bile çözmez, ÇÖZÜLMEZ"}, "facts": {"zincir_tam": "Cavit İlyas'ı yıllar önce kurtardı, borçlu bıraktı, şimdi cinayette kullandı; Ceyda ile sevgili.", "kaya_son_gunler": "Kaya'nın son günlerine dair izler: hiçbir şeyden şüphelenmiyor, olağan hayatı.", "kaya_bilmiyordu": "Kaya aldatıldığını bilmiyordu — olmayan bir tehdit için öldürüldü."}, "knowledge": [{"turetilen": "gercek_ortaya_cikti", "ifade": {"all": ["zincir_tam", "kaya_bilmiyordu"]}}], "giris": [{"kosul": {"seed": "cavit_ceyda_bilinir", "esit": true}, "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda sevgili. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu?", "acilan": ["zincir_tam"]}, {"kosul": "varsayilan", "metin": "Elinde dağınık parçalar var ama tam resim yok. Yine de bir şeyi biliyorsun: bu bir cinayetti, ve Kaya'nın ölümünde bir korku vardı. Geriye tek soru kaldı: Kaya aldatıldığını biliyor muydu? Ama sen o kadar derine inmedin — belki final bunu sana söyler.", "acilan": []}], "clues": [{"id": "zincir_ozet", "ad": "Tüm zinciri toparlamak", "tur": "Belge", "ico": "▤", "needs": [], "reveals": ["zincir_tam"], "text": "Parçaları yan yana koydun: yıllar önceki dava, İlyas'ın borcu, Cavit'in Ceyda'yla ilişkisi, ve merdivendeki o gece. Zincir tamam.", "meta": "Sana ilk gün 'kaza raporu' imzalatmak isteyen adam, cinayetin mimarıydı.", "gorsel": null}, {"id": "kaya_izi", "ad": "Kaya'nın son günleri", "tur": "Belge", "ico": "▤", "needs": ["zincir_tam"], "reveals": ["kaya_son_gunler", "kaya_bilmiyordu"], "text": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, o gizli çocuğa giden parası. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok.", "meta": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken.", "gorsel": {"dosya": "portre_kaya.jpg", "tur": "portre", "gosterir": ["kaya_son_gunler"], "alt": "güven veren, hiçbir şeyden habersiz bir adam yüzü"}}], "decisions": [{"id": "ilyas_ver", "gate": "zincir_tam", "etiket": "İlyas'ı ele ver (tetikçi)", "sonuc": "En kolay hedef, en acınası kurban. Onu verdin — asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir. Küçük balığı verip büyükleri kaçırdın.", "cengoBag": 0, "seed_yaz": {"final_karar": "ilyas"}, "yuzde": 24}, {"id": "cavit_ver", "gate": "zincir_tam", "etiket": "Cavit'i ele ver (mimar)", "sonuc": "Mimarı verdin. Ama o senin geçim kaynağındı — ajans batabilir. Ve Cavit düşerken İlyas'ı da sürükler; ikisi birbirinin sırrını tutuyordu.", "cengoBag": 1, "seed_yaz": {"final_karar": "cavit"}, "yuzde": 34}, {"id": "ceyda_ver", "gate": "zincir_tam", "etiket": "Ceyda'yı ele ver", "sonuc": "Belki asıl akıl olanı verdin — ama emin değilsin. Mağdur bir kadını mı, bir canavarı mı ele verdiğini asla bilemeyeceksin. Ve Ceyda senden akıllıysa, seni de batırabilir.", "cengoBag": 0, "seed_yaz": {"final_karar": "ceyda"}, "yuzde": 13}, {"id": "sus", "gate": "yok", "etiket": "Hiçbirini verme, sus", "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin.", "cengoBag": -1, "seed_yaz": {"final_karar": "sus"}, "yuzde": 21}, {"id": "hepsini_ifsa", "gate": {"all": ["zincir_tam", {"seed": "cavit_karsi_konum", "esit": "silahli"}]}, "etiket": "Hepsini ifşa et (elinde kanıt varsa)", "sonuc": "Biriktirdiğin kanıtla üçünü birden patlattın. En adil ama en yıkıcı: herkes düşer, düşerken masumlar da — aile, çocuk, belki Cengo — zarar görür. Adalet, bedelini masumlara ödetir.", "cengoBag": 0, "seed_yaz": {"final_karar": "hepsi"}, "yuzde": 8}], "seeds": {"kaya_gercek_ogrenildi": {"esit_ise": "kaya_bilmiyordu", "deger": true}}, "giris_gorsel": "v6_giris.jpg"}]}
+{
+ "kanon": {
+  "isimler": [
+   "Kaya",
+   "Ceyda",
+   "Cavit",
+   "İlyas",
+   "Vedat",
+   "Nesrin",
+   "Peri",
+   "Cengo",
+   "Nadire",
+   "Sevil"
+  ],
+  "belirsiz": [
+   "ceyda_pay",
+   "kaya_biliyordu",
+   "sevil_pay"
+  ],
+  "belirsiz_istisna": {
+   "kaya_biliyordu": "V6"
+  }
+ },
+ "vakalar": [
+  {
+   "id": "V1",
+   "tur": "omurga",
+   "sira": 1,
+   "belirir": null,
+   "baslik": "Merdivendeki Adam",
+   "arastirma": 3,
+   "truth": {
+    "olen": "Kaya Tuncer",
+    "gorunen": "merdivenden düştü (kaza)",
+    "gercek": "itildi (cinayet)",
+    "iten": "İlyas — BU VAKADA AÇILMAZ",
+    "azmettiren": "Cavit — çok sonra",
+    "cavit_niyeti": "sigorta ödensin, dosya kapalı kalsın"
+   },
+   "facts": {
+    "polis_kaza": "Polis dosyası: kaza, dosya kapalı.",
+    "sigorta_sorusturma": "Sigorta, ödeme öncesi soruşturuyor.",
+    "giris_zorlama_yok": "Eve zorla giriş yok — tanıdık ya da içeriden.",
+    "ceyda_saat": "Ceyda: 'Akşam 8'de çıktım, gece döndüğümde yerde buldum.'",
+    "olum_saati": "Adli tahmin: ölüm ~23:00.",
+    "dusus_acisi": "Yaralar/açı kendi düşmeyle uyuşmuyor; itiş olası.",
+    "komsu_ses": "Komşu: o gece boğuk bir tartışma / ikinci bir ses."
+   },
+   "knowledge": [
+    {
+     "turetilen": "ceyda_celiski",
+     "ifade": {
+      "all": [
+       "ceyda_saat",
+       "olum_saati"
+      ]
+     }
+    },
+    {
+     "turetilen": "cinayet_suphesi",
+     "ifade": {
+      "all": [
+       "dusus_acisi",
+       {
+        "any": [
+         "ceyda_celiski",
+         "komsu_ses"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": "varsayilan",
+     "metin": "Cavit iyi giyimli, güven veren biri. Bir müvekkili adına geldiğini söylüyor: genç bir dul, Ceyda Tuncer. Kocası Kaya, çocuk doktoru, merdivenden düşüp ölmüş. Polis kaza demiş. Ama sigorta ödeme öncesi soruşturuyor. Cavit'in istediği basit görünüyor: ölümün kaza olduğunu teyit eden kısa bir rapor.",
+     "acilan": []
+    }
+   ],
+   "clues": [
+    {
+     "id": "polis_dosyasi",
+     "ad": "Polis dosyası",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [],
+     "reveals": [
+      "polis_kaza",
+      "giris_zorlama_yok"
+     ],
+     "text": "Dosya kaza diyor, kapatılmış. Bir not: eve zorla giriş izi yok.",
+     "meta": "Zorla giriş yoksa, ya tanıdık biri ya içeriden.",
+     "gorsel": {
+      "dosya": "v1_dosya.jpg",
+      "tur": "kanit",
+      "gosterir": [
+       "polis_kaza"
+      ],
+      "alt": "kapatılmış polis dosyası"
+     }
+    },
+    {
+     "id": "sigorta_yazisi",
+     "ad": "Sigorta yazısı",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [],
+     "reveals": [
+      "sigorta_sorusturma"
+     ],
+     "text": "Sigorta, ödemeden önce kendi soruşturmasını açmış.",
+     "meta": "Şirket ödememek için bahane arar; saat işliyor.",
+     "gorsel": null
+    },
+    {
+     "id": "ceyda_gorusme",
+     "ad": "Ceyda ile görüşme",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [],
+     "reveals": [
+      "ceyda_saat"
+     ],
+     "text": "Ceyda: 'Akşam sekizde çıktım. Gece döndüğümde onu merdivenin dibinde buldum.'",
+     "meta": "Sakin anlatıyor — ama sakinlik masumiyet değildir.",
+     "gorsel": {
+      "dosya": "portre_ceyda.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "Ceyda"
+      ],
+      "alt": "yarısı gölgede bir kadın yüzü"
+     }
+    },
+    {
+     "id": "komsu_ifadesi",
+     "ad": "Komşu ifadesi",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [],
+     "reveals": [
+      "komsu_ses"
+     ],
+     "text": "Komşu: 'O gece boğuk bir tartışma duydum. İki ses vardı gibi.'",
+     "meta": "Tek başına kanıt değil — ama Ceyda 'yalnızdım' demişti.",
+     "gorsel": null
+    },
+    {
+     "id": "olay_yeri",
+     "ad": "Olay yeri incelemesi",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [],
+     "reveals": [
+      "olum_saati",
+      "dusus_acisi"
+     ],
+     "text": "Merdiven dik. Ama yaraların açısı, kendi düşen birine göre ters. Ölüm saati ~23:00.",
+     "meta": "Açı bir itişe daha çok uyuyor.",
+     "gorsel": {
+      "dosya": "v1_merdiven.jpg",
+      "tur": "mekan",
+      "gosterir": [
+       "dusus_acisi",
+       "olum_saati"
+      ],
+      "alt": "gölgeli merdiven boşluğu"
+     }
+    },
+    {
+     "id": "cengo_baglanti",
+     "ad": "Cengo saatleri karşılaştırır",
+     "tur": "Gözlem",
+     "ico": "◈",
+     "needs": [
+      "ceyda_saat",
+      "olum_saati"
+     ],
+     "reveals": [],
+     "text": "Cengo kağıtları yan yana koydu: 'Kadın sekizde çıktım diyor, ama adam on birde ölmüş. Peri abla, bu saatler tutmuyor.'",
+     "meta": "Ceyda ya yanılıyor ya yalan söylüyor.",
+     "gorsel": null,
+     "bedelsiz": true
+    }
+   ],
+   "decisions": [
+    {
+     "id": "temiz_rapor",
+     "gate": "yok",
+     "etiket": "Temiz 'kaza' raporu ver",
+     "sonuc": "Parayı alırsın, ajans nefes alır. Şüpheni gömdün; Cavit sana güvenir, yeni iş getirir.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "ilk_karar": "temiz",
+      "cavit_guven": true
+     },
+     "yuzde": 54
+    },
+    {
+     "id": "soyle_cavit",
+     "gate": "cinayet_suphesi",
+     "etiket": "Şüpheni Cavit'e söyle",
+     "sonuc": "Dürüstsün ama saf. Cavit gülümser — ama gözünde artık bir risksin.",
+     "cengoBag": 0,
+     "seed_yaz": {
+      "ilk_karar": "soyledi",
+      "cavit_guven": false
+     },
+     "yuzde": 11
+    },
+    {
+     "id": "gizli_kaz",
+     "gate": "cinayet_suphesi",
+     "etiket": "Raporu ver ama sessizce kaz",
+     "sonuc": "Cavit'e istediğini verirsin, güvenini korursun; bir yandan kendine dosya açarsın.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "ilk_karar": "gizli",
+      "cavit_guven": true,
+      "gizli_dosya": true
+     },
+     "yuzde": 28
+    },
+    {
+     "id": "reddet",
+     "gate": "yok",
+     "etiket": "İşi reddet",
+     "sonuc": "Onurlu ama ölümcül. Para gelmez, borç büyür; Cavit başkasını bulur.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "ilk_karar": "reddetti",
+      "cavit_guven": false
+     },
+     "yuzde": 7
+    }
+   ],
+   "seeds": {
+    "kaya_kayit_gordu": {
+     "esit_ise": {
+      "any": [
+       "olay_yeri_acildi",
+       "gizli_dosya"
+      ]
+     },
+     "deger": true
+    },
+    "el_sezildi_hazir": {
+     "deger": false
+    }
+   },
+   "giris_gorsel": "v1_giris.jpg"
+  },
+  {
+   "id": "V2",
+   "tur": "omurga",
+   "sira": 2,
+   "belirir": null,
+   "baslik": "Yüzük",
+   "arastirma": 4,
+   "truth": {
+    "vedat_gercek": "aldatmıyor",
+    "vedat_sir": "kaçak kardeşinin borcunu ödüyor",
+    "borc_tehlike": "kardeş tehlikeli işe bulaştı, ortada yok",
+    "ilyas_rol": "borcu toplayan tahsildar",
+    "ilyas_cinayet": "GİZLİ — bu vakada YOK",
+    "nesrin_gelis": "gazete haberi + şöhret + ekonomi"
+   },
+   "facts": {
+    "vedat_kayip_saat": "Vedat akşamları kayboluyor, telefonunu saklıyor.",
+    "vedat_kadin_yok": "Takip: kadın yok, buluşma yok — aldatma değil.",
+    "kenar_ev": "Vedat kenar mahallede kırık bir kapıya gidiyor.",
+    "para_elden": "Vedat orada elden para veriyor.",
+    "ilyas_tahsildar": "Parayı alan yorgun adam: İlyas, bir tahsildar.",
+    "kacak_kardes": "Borç Vedat'ın değil — kaçak kardeşinin.",
+    "kardes_tehlike": "Kardeş tehlikeli bir işe bulaşmış, ortadan kaybolmuş.",
+    "vedat_pisman": "Vedat bu yükten utanıyor, kapatmaya çabalıyor — karısını korumak istiyor.",
+    "vedat_mali_sikinti": "Vedat son aylarda para sıkıntısında; borç kapatır gibi ödemeler yapıyor."
+   },
+   "knowledge": [
+    {
+     "turetilen": "aldatmiyor_kesin",
+     "ifade": {
+      "all": [
+       "vedat_kadin_yok",
+       "kenar_ev"
+      ]
+     }
+    },
+    {
+     "turetilen": "sir_borctur",
+     "ifade": {
+      "all": [
+       "para_elden",
+       "ilyas_tahsildar"
+      ]
+     }
+    },
+    {
+     "turetilen": "sir_tam",
+     "ifade": {
+      "all": [
+       "sir_borctur",
+       "kacak_kardes",
+       "kardes_tehlike"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": "varsayilan",
+     "metin": "Ajansın kapısı ilk kez dışarıdan çalınıyor. Nesrin adında bir kadın, gazetede Peri'nin bürosunu okumuş; tanıdık, kadın ve ucuz bir kapı aradığı için gelmiş. Utanarak anlatıyor: kocası Vedat son aylarda tuhaflaştı, akşamları kayboluyor, telefonunu saklıyor. Onu aldattığından neredeyse emin. Takip edilmesini istiyor.",
+     "acilan": []
+    }
+   ],
+   "clues": [
+    {
+     "id": "nesrin_gorusme",
+     "ad": "Nesrin ile görüşme",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [],
+     "reveals": [
+      "vedat_kayip_saat"
+     ],
+     "text": "Nesrin: 'Her akşam bir yere gidiyor, dönünce hiçbir şey anlatmıyor. Telefonu hep ters duruyor.'",
+     "meta": "Kaybolan saatler — ama kaybolmak aldatmak demek değil.",
+     "gorsel": {
+      "dosya": "portre_nesrin.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "Nesrin"
+      ],
+      "alt": "yorgun, utangaç bir kadın yüzü"
+     }
+    },
+    {
+     "id": "vedat_mali",
+     "ad": "Vedat'ın mali durumunu araştır",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [],
+     "reveals": [
+      "vedat_mali_sikinti"
+     ],
+     "text": "Vedat'ın hesaplarına, esnaf çevresine bakıldı. Adam borç içinde değil ama sürekli bir yere düzenli para aktarıyor — maaşından fazlasını.",
+     "meta": "Birine düzenli para gidiyor — bir metresin değil, bir borcun izi gibi. Onu takip etsek nereye gittiğini görürüz.",
+     "gorsel": null
+    },
+    {
+     "id": "takip_gece",
+     "ad": "Gece takibi",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      {
+       "any": [
+        "vedat_kayip_saat",
+        "vedat_mali_sikinti"
+       ]
+      }
+     ],
+     "reveals": [
+      "vedat_kadin_yok",
+      "kenar_ev"
+     ],
+     "text": "Vedat'ı izlediler. Ne bir kadın, ne bir buluşma. Adam kenar bir mahalleye, kırık dökük bir kapıya gitti.",
+     "meta": "Aldatma değil bu. Başka bir şey saklıyor.",
+     "gorsel": {
+      "dosya": "v2_kenar_sokak.jpg",
+      "tur": "mekan",
+      "gosterir": [
+       "kenar_ev"
+      ],
+      "alt": "gece, yağmurlu kenar mahalle sokağı"
+     }
+    },
+    {
+     "id": "kenar_ev_gozlem",
+     "ad": "Kapının gözlemi",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "kenar_ev"
+     ],
+     "reveals": [
+      "para_elden",
+      "ilyas_tahsildar"
+     ],
+     "text": "Vedat kapıda elden para verdi. Parayı alan yorgun, sıradan bir adamdı — kimsenin iki kez bakmayacağı biri.",
+     "meta": "Bir tahsildar. Adı İlyas'mış. Sıradan bir borç işi gibi.",
+     "gorsel": {
+      "dosya": "portre_ilyas_v2.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "ilyas_tahsildar"
+      ],
+      "alt": "yorgun, silik bir adam; sıradan bir tahsildar"
+     }
+    },
+    {
+     "id": "mahalle_konus",
+     "ad": "Mahallede konuşmak",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [
+      "ilyas_tahsildar"
+     ],
+     "reveals": [
+      "kacak_kardes",
+      "kardes_tehlike"
+     ],
+     "text": "Mahalleden biri fısıldadı: 'O borç Vedat'ın değil ki — kaçak kardeşinin. Kardeşi büyük bir işe bulaşıp ortadan kayboldu, borç Vedat'a kaldı.' Cengo alçak sesle ekledi: 'Bu öyle sıradan bir borç değil Peri abla.'",
+     "meta": "Vedat kendi için değil, kardeşi için batıyor — ve iş tehlikeli.",
+     "gorsel": null
+    },
+    {
+     "id": "vedat_yuz",
+     "ad": "Vedat'ın hâli (opsiyonel)",
+     "tur": "Gözlem",
+     "ico": "○",
+     "needs": [
+      "kenar_ev"
+     ],
+     "reveals": [
+      "vedat_pisman"
+     ],
+     "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Bu, bir suçlunun değil, utanan bir adamın hâliydi.",
+     "meta": "Karısını korumak için saklıyor gibi. Ama bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.",
+     "gorsel": {
+      "dosya": "portre_vedat.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "vedat_pisman"
+      ],
+      "alt": "yorgun, utanç içindeki bir adam yüzü"
+     }
+    }
+   ],
+   "decisions": [
+    {
+     "id": "hersey_soyle",
+     "gate": "sir_tam",
+     "etiket": "Nesrin'e her şeyi anlat",
+     "sonuc": "Aldatma yok, ama kaçak kardeşin borcu var. Dürüstsün — ama Vedat'ın en sakladığı şeyi ifşa ettin. Nesrin sert bir hamle yapabilir; kardeşin izi tehlikeye girer, evlilik sarsılır.",
+     "cengoBag": 0,
+     "seed_yaz": {
+      "v2_karar": "hersey"
+     },
+     "yuzde": 24
+    },
+    {
+     "id": "aldatmiyor_de",
+     "gate": "aldatmiyor_kesin",
+     "etiket": "Sadece 'aldatmıyor' de, borcu sakla",
+     "sonuc": "Nesrin kısmen rahatlar, kuşkusu tam bitmez. Vedat'ın onurunu korudun; ama kadın karanlıkta, adam yükün altında yalnız.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "v2_karar": "korudu"
+     },
+     "yuzde": 41
+    },
+    {
+     "id": "yalan_kur",
+     "gate": "yok",
+     "etiket": "Rahatlatıcı bir yalan kur",
+     "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "v2_karar": "yalan"
+     },
+     "yuzde": 22
+    },
+    {
+     "id": "kuru_rapor",
+     "gate": "yok",
+     "etiket": "Parayı al, karışma, kuru rapor ver",
+     "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "v2_karar": "kuru"
+     },
+     "yuzde": 13
+    }
+   ],
+   "seeds": {
+    "ilyas_yuz_tandi": {
+     "esit_ise": "kenar_ev_gozlem_acildi",
+     "deger": true
+    }
+   },
+   "giris_gorsel": "v2_giris.jpg"
+  },
+  {
+   "id": "V3",
+   "tur": "omurga",
+   "sira": 3,
+   "belirir": null,
+   "baslik": "Tanık",
+   "arastirma": 4,
+   "truth": {
+    "olum_gercek": "Kaya itildi (V1'den taşınır, sabit)",
+    "iten_kim": "İlyas",
+    "ilyas_isaret1": "yüzünde yara",
+    "ilyas_isaret2": "aksak yürüyüş (topallama)",
+    "ilyas_yalniz_mi": "HAYIR — biri onu sıkıştırdı",
+    "sikistiran": "Cavit — BU VAKADA AÇILMAZ",
+    "cavit_ilyas_bag": "GİZLİ — V5/V6"
+   },
+   "facts": {
+    "tanik_korktu": "Tanık kadın polise korkudan susmuş; ama bize anlatıyor.",
+    "tarif_yara": "Tanık: o gece binadan çıkan adamın yüzünde yara vardı.",
+    "tarif_topal": "Tanık: adam aksak yürüyordu, topallıyordu.",
+    "itis_kesin": "Tanık: o adam düşmedi — Kaya itildi; ben gördüm.",
+    "ilyas_isim": "Tarif bir isme bağlandı: İlyas — Cengo'nun tanıdığı o tahsildar.",
+    "foto_teshis": "Çekilen fotoğrafı tanık onayladı: 'Evet, o.'",
+    "ilyas_sebep_yok": "İlyas'ın Kaya'ya husumeti/sebebi yok — sıradan bir tahsildar.",
+    "mahalle_fisilti": "Mahallede fısıltı: o gece bir şey olmuş, ama herkes korkudan susuyor."
+   },
+   "knowledge": [
+    {
+     "turetilen": "ilyas_supde",
+     "ifade": {
+      "all": [
+       "tarif_yara",
+       "tarif_topal"
+      ]
+     }
+    },
+    {
+     "turetilen": "iten_ilyas",
+     "ifade": {
+      "all": [
+       "ilyas_supde",
+       "foto_teshis"
+      ]
+     }
+    },
+    {
+     "turetilen": "el_var",
+     "ifade": {
+      "all": [
+       "iten_ilyas",
+       "ilyas_sebep_yok"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": "varsayilan",
+     "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye sustur istiyor. Ama Peri merak ediyor: madem önemsiz, Cavit neden bu kadar tedirgin?",
+     "acilan": []
+    }
+   ],
+   "clues": [
+    {
+     "id": "cavit_brief",
+     "ad": "Cavit'in tarifi",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [],
+     "reveals": [
+      "tanik_korktu"
+     ],
+     "text": "Cavit: 'Yaşlı, kafası karışık bir kadın. Sigortaya gitmeden şu dedikoduyu susturun. Zaten belli belirsiz bir karaltı görmüş, kimseyi tanımıyor.'",
+     "meta": "Cavit rahat — tanığın bir isme ulaşamayacağını sanıyor. Oysa kadın korkudan polise susmuş, size değil.",
+     "gorsel": {
+      "dosya": "portre_cavit.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "Cavit"
+      ],
+      "alt": "pahalı takım, terli alın, kaçan bakış"
+     }
+    },
+    {
+     "id": "mahalle_yokla",
+     "ad": "Mahalleyi Cengo'yla yoklamak",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [],
+     "reveals": [
+      "mahalle_fisilti"
+     ],
+     "text": "Cengo sokağı kendi yöntemiyle yokladı. Kimse açıkça konuşmuyor ama bir korku var: o gece bir şey olmuş, ve bir kadın gördüğünü söyleyip sonra susmuş.",
+     "meta": "Cavit'in 'sustur' dediği tanık gerçekten bir şey görmüş. Ona ulaşmanın yolu Cavit değil, mahalle.",
+     "gorsel": null
+    },
+    {
+     "id": "tanik_gorusme",
+     "ad": "Tanık kadınla görüşme",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [
+      {
+       "any": [
+        "tanik_korktu",
+        "mahalle_fisilti"
+       ]
+      }
+     ],
+     "reveals": [
+      "tarif_yara",
+      "tarif_topal",
+      "itis_kesin"
+     ],
+     "text": "Kadın titredi: 'Polise korktum, söyleyemedim. Ama gördüm. O gece binadan bir adam çıktı — yüzünde yara vardı, ve aksak yürüyordu. O düşmedi; itildi. Eminim.'",
+     "meta": "İki işaret: yara + topallama. Ve 'itildi' — kaza değil.",
+     "gorsel": {
+      "dosya": "portre_tanik.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "tarif_yara",
+       "tarif_topal"
+      ],
+      "alt": "korkmuş yaşlı bir kadın yüzü"
+     }
+    },
+    {
+     "id": "mahalle_don",
+     "ad": "Şüpheliyi bulup fotoğraflamak",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "ilyas_supde"
+     ],
+     "reveals": [
+      "ilyas_isim"
+     ],
+     "text": "Cengo tarifi duyunca durdu: 'Yara, topal... bu İlyas olabilir, şu tahsildar.' Onu buldular, gizlice fotoğrafını çektiler — riskli bir an; fark edilselerdi kötü olurdu.",
+     "meta": "Artık bir isim ve bir yüz var: İlyas. Ama emin olmak için tanığa göstermek gerek.",
+     "gorsel": {
+      "dosya": "v3_gizli_foto.jpg",
+      "tur": "kanit",
+      "gosterir": [
+       "ilyas_isaret1"
+      ],
+      "alt": "gizlice çekilmiş, yaralı ve yorgun bir adam"
+     }
+    },
+    {
+     "id": "foto_goster",
+     "ad": "Fotoğrafı tanığa göstermek",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [
+      "ilyas_isim"
+     ],
+     "reveals": [
+      "foto_teshis"
+     ],
+     "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. O gece çıkan adam buydu.'",
+     "meta": "Kesin teşhis. İlyas — V2'deki o silik tahsildar — Kaya'yı iten kişi.",
+     "gorsel": null
+    },
+    {
+     "id": "cengo_okuma",
+     "ad": "Cengo'nun okuması",
+     "tur": "Gözlem",
+     "ico": "◈",
+     "needs": [
+      "iten_ilyas"
+     ],
+     "reveals": [
+      "ilyas_sebep_yok"
+     ],
+     "text": "Cengo başını salladı: 'Bu adamın Kaya'yla bir alıp veremediği yok Peri abla. Ne parası, ne derdi. Böyleleri kendi aklıyla adam itmez — biri sırtına bindiyse iter. Yani biz asıl adamı daha görmedik.'",
+     "meta": "İlyas tek başına değil. Arkasında onu süren biri var — henüz yüzü yok.",
+     "gorsel": null,
+     "bedelsiz": true
+    }
+   ],
+   "decisions": [
+    {
+     "id": "polise_ver",
+     "gate": "iten_ilyas",
+     "etiket": "İlyas'ı polise ver",
+     "sonuc": "Doğru olanı yaptın. Ama Cavit'in istediğinin tam tersi — gerilir, güveni sarsılır, ödemeyi keser. Ve İlyas konuşmazsa, onu süren el gizli kalır.",
+     "cengoBag": 2,
+     "seed_yaz": {
+      "ilyas_kime_gitti": "polis"
+     },
+     "yuzde": 38
+    },
+    {
+     "id": "koz_yap",
+     "gate": "iten_ilyas",
+     "etiket": "Kendine sakla, koz yap",
+     "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "ilyas_kime_gitti": "koz"
+     },
+     "yuzde": 31
+    },
+    {
+     "id": "cavite_teslim",
+     "gate": "iten_ilyas",
+     "etiket": "İlyas'ı Cavit'e teslim et",
+     "sonuc": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "ilyas_kime_gitti": "cavit"
+     },
+     "yuzde": 19
+    },
+    {
+     "id": "tanigi_lekele",
+     "gate": "yok",
+     "etiket": "Tanığı 'güvenilmez' diye rapor et",
+     "sonuc": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz.",
+     "cengoBag": -2,
+     "seed_yaz": {
+      "ilyas_kime_gitti": "lekele"
+     },
+     "yuzde": 12
+    }
+   ],
+   "seeds": {
+    "iten_biliniyor": {
+     "esit_ise": "iten_ilyas",
+     "deger": true
+    },
+    "el_sezildi": {
+     "esit_ise": "el_var",
+     "deger": true
+    }
+   },
+   "giris_gorsel": "v3_giris.jpg"
+  },
+  {
+   "id": "YAN-A",
+   "tur": "yan",
+   "sira": 99,
+   "belirir": {
+    "sonra": "V2",
+    "kosul": "varsayilan"
+   },
+   "baslik": "Kapalı Defter",
+   "arastirma": 3,
+   "truth": {
+    "sevil_dert": "eski suçunun ifşa tehdidi",
+    "tehdit_kaynak": "eski o dünyadan biri",
+    "gecmis_gercek": "suç Sevil'indi; Cengo üstlendi, içeri girdi, hayatı raydan çıktı",
+    "sevil_neden_geldi": "sırrı bilen tek güvenilir kişiye — Cengo'ya, itiraf edemeden",
+    "sevil_pay": "<BELİRSİZ> — nankör MÜ, kaçan kurban MI? ÇÖZÜLMEZ"
+   },
+   "facts": {
+    "sevil_tehdit": "Sevil eski bir sırrının ifşasıyla tehdit ediliyor.",
+    "cengo_tepki": "Cengo, Sevil'i görünce kasıldı — aralarında bir geçmiş var.",
+    "eski_dava": "Yıllar önce bir suç; kayıtlarda Cengo'nun adı.",
+    "cengo_ustlendi": "Suç Sevil'indi; Cengo üstlendi. Sadakat MI, aptallık MI — belli değil.",
+    "tehdit_kim": "Tehdit eden: eski o dünyadan biri.",
+    "sevil_geldi_neden": "Sevil bu kapıyı boşuna çalmadı; ama minnet MI, korku MU — itiraf edemiyor, belli değil."
+   },
+   "knowledge": [
+    {
+     "turetilen": "gecmis_sezildi",
+     "ifade": {
+      "all": [
+       "cengo_tepki",
+       "eski_dava"
+      ]
+     }
+    },
+    {
+     "turetilen": "gecmis_tam",
+     "ifade": {
+      "all": [
+       "gecmis_sezildi",
+       "cengo_ustlendi"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": "varsayilan",
+     "metin": "Ajansa iyi giyimli, ölçülü bir kadın gelir — Sevil, 36. Düzenli bir hayatı var; geride bıraktığı bir geçmiş. Derdi mahrem: biri onu, eski günlerine dair bir şeyi ifşa etmekle tehdit ediyor. Sessizce durdurulmasını istiyor. Ama içeri girip Cengo'yu görünce bir an durur. Gözler buluşur. İkisi de tanır. Sonra — hiçbir şey olmaz. Sevil derdine döner; Cengo tek kelime etmez, sadece çenesi kasılır.",
+     "acilan": [
+      "sevil_tehdit",
+      "cengo_tepki"
+     ]
+    }
+   ],
+   "clues": [
+    {
+     "id": "tehdit_arastir",
+     "ad": "Tehdidi araştırmak",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "sevil_tehdit"
+     ],
+     "reveals": [
+      "tehdit_kim"
+     ],
+     "text": "Sevil'i sıkıştıranın izini sürdüler — eski o kenar dünyadan biri, geçmişi bilen ve para/sus koparmaya çalışan biri.",
+     "meta": "Sevil'in derdini çözmek için yeterli. Ama Cengo'nun neden kasıldığı hâlâ ortada.",
+     "gorsel": {
+      "dosya": "portre_sevil.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "Sevil"
+      ],
+      "alt": "ölçülü, mesafeli, bir şey saklayan bir kadın yüzü"
+     }
+    },
+    {
+     "id": "eski_kayit",
+     "ad": "Eski kaydı kurcalamak",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "cengo_tepki"
+     ],
+     "reveals": [
+      "eski_dava"
+     ],
+     "text": "Peri eski bir dava kaydına ulaştı: yıllar önce bir suç, ve kayıtta Cengo'nun adı. Cengo bundan hiç söz etmemişti.",
+     "meta": "Cengo'nun sabıkası, sürüklenmişliği, o kenar dünyayı bilmesi — kökü burada.",
+     "gorsel": {
+      "dosya": "yana_dava.jpg",
+      "tur": "kanit",
+      "gosterir": [
+       "eski_dava"
+      ],
+      "alt": "yıllanmış bir dava dosyası, üstünde bir isim"
+     }
+    },
+    {
+     "id": "cengo_cumle",
+     "ad": "Cengo'nun tek cümlesi",
+     "tur": "İfade",
+     "ico": "◈",
+     "needs": [
+      "eski_dava"
+     ],
+     "reveals": [
+      "cengo_ustlendi"
+     ],
+     "bedelsiz": true,
+     "text": "Cengo pencereye baktı. 'Onun bir geleceği vardı Peri abla. Benim yoktu. O kadar.' Başka bir şey demedi.",
+     "meta": "Suç Sevil'indi; Cengo üstlendi, içeri girdi, çıktığında Sevil gitmişti. Sadakat mi, aptallık mı — Cengo bile söylemiyor.",
+     "gorsel": null
+    },
+    {
+     "id": "sevil_okuma",
+     "ad": "Sevil neden geldi?",
+     "tur": "Gözlem",
+     "ico": "◑",
+     "needs": [
+      "gecmis_tam"
+     ],
+     "reveals": [
+      "sevil_geldi_neden"
+     ],
+     "text": "Sevil bu büroyu, sırrı bilen tek güvenilir insan burada olduğu için seçmiş olabilir — Cengo. Ama bunu ne itiraf edebiliyor ne inkâr.",
+     "meta": "Belki minnet, belki korku, belki ikisi. Sevil okunamıyor — kapalı bir defter.",
+     "gorsel": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "biliyorum_cik",
+     "gate": "gecmis_tam",
+     "etiket": "Sevil'e 'biliyorum' diye çık",
+     "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi?",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "yana_karar": "acti"
+     },
+     "yuzde": 18
+    },
+    {
+     "id": "cengoya_birak",
+     "gate": "gecmis_tam",
+     "etiket": "Cengo'ya bırak, karışma",
+     "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an.",
+     "cengoBag": 2,
+     "seed_yaz": {
+      "yana_karar": "birakti"
+     },
+     "yuzde": 42
+    },
+    {
+     "id": "sessiz_coz",
+     "gate": "tehdit_kim",
+     "etiket": "Tehdidi çöz, geçmişe dokunma",
+     "sonuc": "Sevil'i sıkıştıranı hallettin, ama geçmişe dokunmadın. Kapalı defter kapalı kaldı. Merhametli bir sessizlik.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "yana_karar": "sessiz"
+     },
+     "yuzde": 28
+    },
+    {
+     "id": "isi_gecevir",
+     "gate": "tehdit_kim",
+     "etiket": "Sevil'in işini geri çevir",
+     "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "yana_karar": "cevirdi"
+     },
+     "yuzde": 12
+    }
+   ],
+   "seeds": {
+    "cengo_gecmis_bilinir": {
+     "esit_ise": "gecmis_tam",
+     "deger": true
+    }
+   },
+   "giris_gorsel": "yana_giris.jpg"
+  },
+  {
+   "id": "YAN-B",
+   "tur": "yan",
+   "sira": 99,
+   "belirir": {
+    "sonra": "V4",
+    "kosul": "varsayilan"
+   },
+   "baslik": "Enkaz",
+   "arastirma": 3,
+   "truth": {
+    "nadire_dert": "son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırdı",
+    "dolandirici": "batış mağdurlarını avlayan biri",
+    "peri_gercek": "Peri'nin çöküşü Nadire'yi de batırdı — Peri farkında olmadan sorumlu",
+    "nadire_suclamaz": "hâlâ sadık, Peri'yi suçlamıyor — bu yüzden Peri'nin utancı daha ağır",
+    "avukat_kirinti": "Nadire kaçan avukata dair küçük bir şey biliyor olabilir — SEZON 2"
+   },
+   "facts": {
+    "nadire_geldi": "Nadire, Peri'nin eski sadık ustası, bir dertle geldi.",
+    "dolandirici_var": "Son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırmış.",
+    "dolandirici_kim": "Dolandırıcı: batış mağdurlarını avlayan biri; başka kurbanları da var.",
+    "batis_enkazi": "Peri'nin çöküşü Nadire'nin ve başkalarının hayatını götürmüş.",
+    "peri_sorumluluk": "Peri o avukata güvendi; enkazın bedelini başkaları da ödedi.",
+    "avukat_izi": "Nadire kaçan avukata dair bir kırıntı biliyor — burada çözülmez, Sezon 2.",
+    "nadire_durum": "Nadire her şeyini kaybetmiş: birikimi, emekliliği, hepsi Peri'nin battığı o çöküşte yok olmuş."
+   },
+   "knowledge": [
+    {
+     "turetilen": "enkaz_gorundu",
+     "ifade": {
+      "all": [
+       "nadire_geldi",
+       "batis_enkazi"
+      ]
+     }
+    },
+    {
+     "turetilen": "sorumluluk_tam",
+     "ifade": {
+      "all": [
+       "enkaz_gorundu",
+       "peri_sorumluluk"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": "varsayilan",
+     "metin": "Ajansa yaşlı, yorgun ama bakımlı kalmaya çalışan bir kadın gelir — Nadire, 58. Peri onu tanır: eski salon zincirinin en kıdemli ustası. Peri battığında Nadire de battı — birikimi, emekliliği, avukat şirketi boşaltırken buhar oldu. Ama Nadire suçlamıyor; hâlâ 'Perihan Hanım' diyor. Derdi mütevazı: son parasını 'şirketten alacağınızı kurtarırım' diyen birine kaptırmış. 'Size zahmet vermek istemezdim ama... kime gideceğimi bilemedim.'",
+     "acilan": [
+      "nadire_geldi",
+      "dolandirici_var"
+     ]
+    }
+   ],
+   "clues": [
+    {
+     "id": "dolandirici_iz",
+     "ad": "Dolandırıcının izini sürmek",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "dolandirici_var"
+     ],
+     "reveals": [
+      "dolandirici_kim",
+      "batis_enkazi"
+     ],
+     "text": "Dolandırıcının izini sürdüler — batıştan zarar görmüş çaresizleri avlayan biri. Başka kurbanları da var, hepsi eski çalışanlar. Peri'nin düşüşünün enkazı gözünün önüne serildi.",
+     "meta": "Peri'nin avukatının yıktığı enkazın üstünde ikinci bir akbaba besleniyor. Ve o enkaz, Peri'nin enkazı.",
+     "gorsel": {
+      "dosya": "portre_nadire.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "dolandirici_kim"
+      ],
+      "alt": "batış mağdurlarını avlayan silik bir dolandırıcı"
+     }
+    },
+    {
+     "id": "nadire_dinle",
+     "ad": "Nadire'yi dinle",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [],
+     "reveals": [
+      "nadire_durum"
+     ],
+     "text": "Nadire çekinerek anlattı: salon batınca o da battı. Yıllarca biriktirdiği ne varsa, avukatın boşalttığı hesaplarla birlikte buhar oldu. Ama şikâyet etmiyor, sadece 'kader' diyor.",
+     "meta": "Peri'nin düşüşü yalnız Peri'yi değil, ona güvenenleri de batırmış. Bu dolandırıcılık işinin altında daha ağır bir borç var — Peri'nin vicdan borcu.",
+     "gorsel": null
+    },
+    {
+     "id": "peri_ic_ses",
+     "ad": "Peri'nin iç hesabı",
+     "tur": "Gözlem",
+     "ico": "◈",
+     "needs": [
+      {
+       "any": [
+        "batis_enkazi",
+        "nadire_durum"
+       ]
+      }
+     ],
+     "reveals": [
+      "peri_sorumluluk"
+     ],
+     "bedelsiz": true,
+     "text": "Peri, Nadire'nin küçük soğuk odasına baktı. 'Ben o adama güvendim,' dedi içinden. 'Bu kadının hayatını ben götürdüm — farkında bile olmadan.'",
+     "meta": "Nadire suçlamıyor; o yüzden Peri suçu kendi taşımak zorunda. Utanç, affediciliğin sessizliğiyle ağırlaşıyor.",
+     "gorsel": null
+    },
+    {
+     "id": "avukat_kirintisi",
+     "ad": "Nadire'nin bildiği bir kırıntı (opsiyonel)",
+     "tur": "İfade",
+     "ico": "○",
+     "needs": [
+      "sorumluluk_tam"
+     ],
+     "reveals": [
+      "avukat_izi"
+     ],
+     "text": "Nadire, giderken durdu: 'O avukat... bir keresinde bir yerden söz etmişti. Belki işinize yarar.' Küçük bir kırıntı — ama bir yöne işaret ediyor.",
+     "meta": "Kaçan avukata giden ince bir iz. Bu vaka onu çözmez; sadece bir kapı aralar.",
+     "gorsel": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "tam_sahip_cik",
+     "gate": "sorumluluk_tam",
+     "etiket": "Nadire'ye tam sahip çık",
+     "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer.",
+     "cengoBag": 2,
+     "seed_yaz": {
+      "yanb_karar": "sahip"
+     },
+     "yuzde": 36
+    },
+    {
+     "id": "gercegi_soyle",
+     "gate": "sorumluluk_tam",
+     "etiket": "Geçmişle yüzleş, gerçeği söyle",
+     "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün.",
+     "cengoBag": 2,
+     "seed_yaz": {
+      "yanb_karar": "yuzlesti"
+     },
+     "yuzde": 22
+    },
+    {
+     "id": "sadece_coz",
+     "gate": "dolandirici_kim",
+     "etiket": "Sadece dolandırıcıyı çöz, mesafeni koru",
+     "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "yanb_karar": "coz"
+     },
+     "yuzde": 30
+    },
+    {
+     "id": "gecistir",
+     "gate": "yok",
+     "etiket": "Geçiştir, kendini koru",
+     "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür.",
+     "cengoBag": -2,
+     "seed_yaz": {
+      "yanb_karar": "gecistirdi"
+     },
+     "yuzde": 12
+    }
+   ],
+   "seeds": {
+    "peri_yuzlesti": {
+     "esit_ise": "sorumluluk_tam",
+     "deger": true
+    },
+    "sezon2_avukat_ipi": {
+     "esit_ise": "avukat_izi",
+     "deger": true
+    }
+   },
+   "giris_gorsel": "yana_giris_b.jpg"
+  },
+  {
+   "id": "V4",
+   "tur": "omurga",
+   "sira": 4,
+   "belirir": null,
+   "baslik": "Küçük Hasta",
+   "arastirma": 4,
+   "truth": {
+    "odeme_gercek": "Kaya yıllarca gizlice bir hasta çocuğun ailesine para gönderdi",
+    "odeme_sebep": "Kaya çocuk doktoru — çocuğu mesleğiyle tanıdı, yoksulluğu gördü",
+    "odeme_gizli": "Kimse bilmiyordu — karısı Ceyda dahil",
+    "odeme_kesildi": "Kaya öldüğü gün para durdu",
+    "kaya_iki_yuz": "Evde ağır + gizlice şefkatli — aynı adam",
+    "ceyda_biliyor_muydu": "GİZLİ — V5'e ip"
+   },
+   "facts": {
+    "gizemli_odeme": "Kaya'nın kayıtlarında her ay giden isimsiz bir ödeme var.",
+    "odeme_durdu": "Ödeme iki hafta önce kesilmiş.",
+    "durma_tarihi": "Kesilme tarihi = Kaya'nın öldüğü gün.",
+    "cocuk_hasta": "Para ağır hasta bir çocuğun ailesine gidiyormuş.",
+    "kaya_doktor_bag": "Kaya çocuğun doktoruydu — böyle tanışmışlar.",
+    "aile_bilmiyor": "Aile hayırseverin kim olduğunu hiç bilmiyor.",
+    "kaya_gizli_iyilik": "Hayırsever = Kaya. Kimseye söylemeden yıllarca destekledi.",
+    "kaya_itibar": "Kaya çevrede çok sevilen, dürüst bilinen bir doktormuş; kimse hakkında kötü söz etmiyor."
+   },
+   "knowledge": [
+    {
+     "turetilen": "odeme_kayaya_ait",
+     "ifade": {
+      "all": [
+       "gizemli_odeme",
+       "durma_tarihi"
+      ]
+     }
+    },
+    {
+     "turetilen": "iyilik_tam",
+     "ifade": {
+      "all": [
+       "odeme_kayaya_ait",
+       "cocuk_hasta",
+       "kaya_doktor_bag"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": {
+      "seed": "kaya_kayit_gordu",
+      "esit": true
+     },
+     "metin": "Peri o gizemli ödemeyi zaten görmüştü — Kaya'nın kayıtlarına bakarken. 'Cengo, şu her ay giden isimsiz para... kimin bu? Buna hiç bakmadık.' İpi çekmeye karar veriyor.",
+     "acilan": [
+      "gizemli_odeme"
+     ]
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Cengo elinde bir kağıtla geldi: 'Kaya'nın eski dosyalarını karıştırırken bir şey gördüm Peri abla — her ay giden isimsiz bir para. Bakmadık buna hiç.' Peri kağıda baktı; içine bir merak düştü.",
+     "acilan": [
+      "gizemli_odeme"
+     ]
+    }
+   ],
+   "clues": [
+    {
+     "id": "odeme_iz",
+     "ad": "Ödemenin izini sürmek",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "gizemli_odeme"
+     ],
+     "reveals": [
+      "odeme_durdu",
+      "durma_tarihi"
+     ],
+     "text": "Ödeme her ay düzenli gitmiş, sonra iki hafta önce birden kesilmiş. Kesilme tarihine bakınca Peri durdu: o gün, Kaya'nın öldüğü gündü.",
+     "meta": "Hayırsever öldüğü için para durmuş. İsimsiz ödeme, bir ölüm gününe bağlanıyor.",
+     "gorsel": {
+      "dosya": "v4_dekont.jpg",
+      "tur": "kanit",
+      "gosterir": [
+       "odeme_durdu"
+      ],
+      "alt": "isimsiz banka dekontları, sonuncusu iki hafta önce"
+     }
+    },
+    {
+     "id": "kaya_cevre",
+     "ad": "Kaya'nın çevresini araştır",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [],
+     "reveals": [
+      "kaya_itibar"
+     ],
+     "text": "Kaya'yı tanıyanlarla konuşuldu. Herkes aynı şeyi söyledi: iyi kalpli, sessiz, kimseye yük olmayan bir adam. Ama son yıllarda içine kapanmış, bir şeyle meşgul gibiymiş.",
+     "meta": "Herkesin sevdiği bir adam — ama 'bir şeyle meşgul'. O meşguliyet, kayıtlardaki isimsiz ödeme olabilir mi?",
+     "gorsel": null
+    },
+    {
+     "id": "cocuk_bul",
+     "ad": "Paranın gittiği yeri bulmak",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "odeme_kayaya_ait"
+     ],
+     "reveals": [
+      "cocuk_hasta"
+     ],
+     "text": "Para bir aileye gidiyormuş — ağır hasta bir çocuğun tedavisi için. Yıllardır süren, pahalı bir tedavi.",
+     "meta": "Bu para bir çocuğu yaşatıyormuş. Ve iki haftadır gelmiyor.",
+     "gorsel": null
+    },
+    {
+     "id": "hastane_kayit",
+     "ad": "Hastane kaydı",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "cocuk_hasta"
+     ],
+     "reveals": [
+      "kaya_doktor_bag"
+     ],
+     "text": "Çocuk yıllar önce bir çocuk doktoruna görünmüş — ve o doktor aileyle ilgilenmeye devam etmiş. Doktorun adı: Kaya Tuncer.",
+     "meta": "Kaya bu çocuğu mesleğiyle tanımış, yoksulluğunu görmüş, sessizce sırtlanmış.",
+     "gorsel": null
+    },
+    {
+     "id": "aile_gorusme",
+     "ad": "Aileyle görüşme",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [
+      "kaya_doktor_bag"
+     ],
+     "reveals": [
+      "aile_bilmiyor",
+      "kaya_gizli_iyilik"
+     ],
+     "text": "Anne titrek konuştu: 'Yıllardır her ay geldi o para. Kim olduğunu hiç bilmedik, dua ettik sadece. İki hafta önce kesildi. Ne oldu ona?' Peri'nin boğazı düğümlendi — çünkü cevabı biliyordu.",
+     "meta": "Aile hayırseverin kim olduğunu bilmiyor. Ve o hayırsever, evde ağır diye duyulan Kaya'ydı — aynı adam.",
+     "gorsel": {
+      "dosya": "portre_anne.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "aile_bilmiyor"
+      ],
+      "alt": "yorgun, umutsuz bir anne yüzü"
+     }
+    }
+   ],
+   "decisions": [
+    {
+     "id": "aileye_soyle",
+     "gate": "iyilik_tam",
+     "etiket": "Aileye gerçeği söyle",
+     "sonuc": "Hayırsever Kaya'ydı, ve öldü, dedin. Aile kapanış buldu ama umudunu kaybetti — teşekkür yerine yas. Dürüst ama acı.",
+     "cengoBag": 2,
+     "seed_yaz": {
+      "v4_karar": "soyledi"
+     },
+     "yuzde": 29
+    },
+    {
+     "id": "sessiz_coz",
+     "gate": "iyilik_tam",
+     "etiket": "Kimliği sakla, sessizce çözüm ara",
+     "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu ama sana pahalı — Peri de beş parasız.",
+     "cengoBag": 2,
+     "seed_yaz": {
+      "v4_karar": "sessiz"
+     },
+     "yuzde": 24
+    },
+    {
+     "id": "kimligi_sakla",
+     "gate": "iyilik_tam",
+     "etiket": "'Artık gelmeyecek' de, kimliği sakla",
+     "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "v4_karar": "sakla"
+     },
+     "yuzde": 33
+    },
+    {
+     "id": "koz_yap",
+     "gate": "odeme_kayaya_ait",
+     "etiket": "Bilgiyi kendine sakla, koz yap",
+     "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir.",
+     "cengoBag": -2,
+     "seed_yaz": {
+      "v4_karar": "koz"
+     },
+     "yuzde": 9
+    },
+    {
+     "id": "bos_ver",
+     "gate": "yok",
+     "etiket": "Boş ver, bu ipi çekme",
+     "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "v4_karar": "bosver"
+     },
+     "yuzde": 5
+    }
+   ],
+   "seeds": {
+    "kaya_insani": {
+     "esit_ise": "iyilik_tam",
+     "deger": true
+    },
+    "ceyda_para_ipi": {
+     "esit_ise": "odeme_kayaya_ait",
+     "deger": true
+    }
+   },
+   "giris_gorsel": "v4_giris.jpg"
+  },
+  {
+   "id": "V5",
+   "tur": "omurga",
+   "sira": 5,
+   "belirir": null,
+   "baslik": "Kim Kimi",
+   "arastirma": 5,
+   "truth": {
+    "iten": "İlyas",
+    "cavit_ilyas_bag": "Cavit yıllar önce delil karartıp İlyas'ı kurtardı; İlyas ona borçlu",
+    "cavit_rol": "azmettiren — İlyas'ı bu cinayete o sürdü",
+    "cavit_ceyda": "Cavit ile Ceyda sevgili (Kaya ölmeden önce de)",
+    "ceyda_pay": "<BELİRSİZ> — mağdur MI, asıl akıl MI, para peşinde Mİ: üçü de mümkün, ÇÖZÜLMEZ",
+    "kaya_biliyordu": "<BELİRSİZ> — V6'ya"
+   },
+   "facts": {
+    "cavit_her_kosede": "Davanın her köşesinde Cavit var — Peri ondan şüpheleniyor.",
+    "cavit_ilyas_neden": "Cavit İlyas'ı fazla önemsiyor — sıradan bir tahsildar için değil bu.",
+    "eski_dava": "Cavit yıllar önce İlyas'ın avukatıydı; delil kararttı, onu kurtardı.",
+    "ilyas_mahkum": "İlyas o günden beri Cavit'e borçlu, mahkûm — silah oldu.",
+    "cavit_takip": "Peri Cavit'i izliyor.",
+    "cavit_ceyda_sevgili": "Cavit ile Ceyda sevgili — avukat/müvekkil değil.",
+    "cinayet_sebep": "Sebep buymuş: Kaya, sevgililerin önündeki engeldi.",
+    "ip_koz": "Ceyda gizli bir belge/kayıt saklıyor. Soğuk hesap MI, korkan mağdur MU — belli değil.",
+    "ip_akil": "Bir iz: cinayet fikri Ceyda'dan çıkmış olabilir. Gerçek Mİ, Cavit'in yalanı MI — belli değil.",
+    "ip_para": "Ceyda servet/sigortayla fazla ilgili. Açgözlülük MÜ, çaresiz dul MU — belli değil.",
+    "kaya_dosya_donus": "Kaya'nın ölüm dosyasına yeniden bakınca: itiliş, tetikçi, hepsi Cavit'in kapattığı o ilk kaza raporuyla örtülmüş."
+   },
+   "knowledge": [
+    {
+     "turetilen": "cavit_supheli",
+     "ifade": {
+      "all": [
+       "cavit_her_kosede",
+       {
+        "any": [
+         "cavit_ilyas_neden",
+         "kaya_dosya_donus"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "turetilen": "cavit_azmettiren",
+     "ifade": {
+      "all": [
+       "eski_dava",
+       "ilyas_mahkum"
+      ]
+     }
+    },
+    {
+     "turetilen": "iliski_acik",
+     "ifade": {
+      "all": [
+       "cavit_takip",
+       "cavit_ceyda_sevgili"
+      ]
+     }
+    },
+    {
+     "turetilen": "tam_resim",
+     "ifade": {
+      "all": [
+       "cavit_azmettiren",
+       "iliski_acik"
+      ]
+     }
+    },
+    {
+     "turetilen": "ceyda_bulaniklik",
+     "ifade": {
+      "any": [
+       "ip_koz",
+       "ip_akil",
+       "ip_para"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": {
+      "seed": "ilyas_kime_gitti",
+      "esit": "polis"
+     },
+     "metin": "Cavit panik hâlinde geldi: İlyas'ı polise verdin, ve bu Cavit'i tedirgin etti. 'Bu iş büyümeden bastıralım' diyor, fazla telaşlı. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+     "acilan": [
+      "cavit_her_kosede"
+     ]
+    },
+    {
+     "kosul": {
+      "seed": "ilyas_kime_gitti",
+      "esit": "koz"
+     },
+     "metin": "Cavit İlyas'ı senden almaya çalışıyor — 'o adamı bana bırak' diyor, fazla ısrarlı. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+     "acilan": [
+      "cavit_her_kosede"
+     ]
+    },
+    {
+     "kosul": {
+      "seed": "ilyas_kime_gitti",
+      "esit": "cavit"
+     },
+     "metin": "İlyas'ı Cavit'e teslim etmiştin; şimdi Cavit 'onunla ilgilendim, sen de sus' tonunda. Ama bu rahatlık Peri'yi rahatsız ediyor. Bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+     "acilan": [
+      "cavit_her_kosede"
+     ]
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Cavit bir 'temizlik' işi daha istiyor, ama bu kez fazla ileri gidiyor. Peri bir şeyi fark ediyor: bu davanın her köşesinde Cavit var. İlk kez kendi müşterisinden şüpheleniyor.",
+     "acilan": [
+      "cavit_her_kosede"
+     ]
+    }
+   ],
+   "clues": [
+    {
+     "id": "cavit_ilyas_ilgi",
+     "ad": "Cavit neden İlyas'ı önemsiyor?",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "cavit_her_kosede"
+     ],
+     "reveals": [
+      "cavit_ilyas_neden"
+     ],
+     "text": "Cavit, İlyas gibi sıradan bir tahsildar için gereğinden fazla telaşlı. Peri soruyor: bu adamı neden bu kadar önemsiyor?",
+     "meta": "İlyas onun için sıradan biri değil. Aralarında bir geçmiş var.",
+     "gorsel": null
+    },
+    {
+     "id": "dosya_donus",
+     "ad": "Kaya'nın dosyasına dön",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [],
+     "reveals": [
+      "kaya_dosya_donus"
+     ],
+     "text": "Peri baştan beri elindeki dosyaya yeniden baktı. İlk günden beri her 'temizlik' işini getiren, her raporu kapattıran aynı kişiydi: Cavit. Tesadüf olamayacak kadar çok.",
+     "meta": "Cavit sadece iş getiren avukat değil — bu işin her düğümünde o var. Şüphe artık somut.",
+     "gorsel": null
+    },
+    {
+     "id": "ilyas_gecmis",
+     "ad": "İlyas ile Cavit'in geçmişi",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "cavit_supheli"
+     ],
+     "reveals": [
+      "eski_dava",
+      "ilyas_mahkum"
+     ],
+     "text": "Eski bir dava dosyası: yıllar önce İlyas bir suçtan yargılanacaktı. Avukatı Cavit'ti — deliller 'kayboldu', İlyas kurtuldu. O günden beri İlyas ona mahkûm.",
+     "meta": "Cavit kurtardığı adamı bir silaha çevirdi. Kendi cinayeti lazım olunca, elindeki bağlı adamı kullandı.",
+     "gorsel": {
+      "dosya": "v5_eski_dava.jpg",
+      "tur": "kanit",
+      "gosterir": [
+       "eski_dava"
+      ],
+      "alt": "yıllanmış, tozlu bir dava dosyası"
+     }
+    },
+    {
+     "id": "cavit_izle",
+     "ad": "Cavit'i izlemek",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "cavit_supheli"
+     ],
+     "reveals": [
+      "cavit_takip"
+     ],
+     "text": "Peri Cavit'i izlemeye başladı. Nereye gidiyor, kiminle görüşüyor?",
+     "meta": "Şüphe artık takibe dönüştü.",
+     "gorsel": null
+    },
+    {
+     "id": "iliski_gor",
+     "ad": "Cavit'in gittiği kapı",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "cavit_takip"
+     ],
+     "reveals": [
+      "cavit_ceyda_sevgili",
+      "cinayet_sebep"
+     ],
+     "text": "Cavit'in geldiği kapı Ceyda'nın kapısıydı — ve içeri girişi bir avukatın girişi değildi. Perde çekildi. 'Demek buymuş,' dedi Cengo alçak sesle.",
+     "meta": "Cavit ile Ceyda sevgili. Cinayetin sebebi buydu: Kaya, ikisinin önündeki engeldi. Sana ilk gün iş getiren adam, cinayetin mimarı.",
+     "gorsel": {
+      "dosya": "v5_perde.jpg",
+      "tur": "kanit",
+      "gosterir": [
+       "cavit_ceyda_sevgili"
+      ],
+      "alt": "gece, çekilmiş bir perdenin ardında iki gölge"
+     }
+    },
+    {
+     "id": "ceyda_oku",
+     "ad": "Ceyda'yı okumak",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [
+      "iliski_acik"
+     ],
+     "reveals": [
+      "ip_koz"
+     ],
+     "text": "Peri Ceyda'ya yaklaştı. Kadın gizli bir belge/kayıt saklıyordu — kendini sağlama almış gibi. Ama korkan biri de koz saklar.",
+     "meta": "Soğuk bir hesap mı, yoksa korkan bir mağdurun sigortası mı? Belli değil.",
+     "gorsel": {
+      "dosya": "portre_ceyda_golge.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "ip_koz"
+      ],
+      "alt": "yarısı gölgede, okunamayan bir kadın yüzü"
+     }
+    },
+    {
+     "id": "ceyda_derin",
+     "ad": "Ceyda'yı derinlemesine",
+     "tur": "İfade",
+     "ico": "◑",
+     "needs": [
+      "ip_koz"
+     ],
+     "reveals": [
+      "ip_akil",
+      "ip_para"
+     ],
+     "text": "Peri kazdıkça kadın bulanıklaştı. Bir iz, cinayet fikrinin ondan çıkmış olabileceğini gösteriyordu — ama Cavit de suçunu ona yıkıyor olabilirdi. Servetle fazla ilgiliydi — ama beş parasız bir dul da paraya bakar.",
+     "meta": "Her kanıtın iki okunuşu var. Peri hiçbirinden emin olamadı. En çok da bu ürküttü onu.",
+     "gorsel": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "cavite_vur",
+     "gate": "tam_resim",
+     "etiket": "Bildiğini Cavit'in yüzüne vur",
+     "sonuc": "'Biliyorum. İlyas, Ceyda, hepsi.' Cesur — ama Cavit'i köşeye sıkıştırdın, ve köşeye sıkışmış bu adam tehlikeli. Para biter, artık sen de bir tehditsin.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "cavit_karsi_konum": "dusman"
+     },
+     "yuzde": 21
+    },
+    {
+     "id": "oyunu_surdur",
+     "gate": "tam_resim",
+     "etiket": "Belli etme, oyunu sürdür",
+     "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "cavit_karsi_konum": "ortak"
+     },
+     "yuzde": 26
+    },
+    {
+     "id": "kanit_biriktir",
+     "gate": "tam_resim",
+     "etiket": "Sessizce kanıt biriktir",
+     "sonuc": "Ne vur, ne teslim ol — belge, kayıt, iz topladın. Elini final için hazırladın; ama yakalanırsan bedeli ağır.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "cavit_karsi_konum": "silahli"
+     },
+     "yuzde": 37
+    },
+    {
+     "id": "ceydaya_git",
+     "gate": "ceyda_bulaniklik",
+     "etiket": "Ceyda'yı hedef al, oku, kullan",
+     "sonuc": "Cavit'i değil Ceyda'yı hedef aldın — belki onu Cavit'e karşı kullanabilirsin, belki gerçek gücün kimde olduğunu öğrenirsin. Riskli bir satranç; Ceyda senden akıllı çıkabilir.",
+     "cengoBag": 0,
+     "seed_yaz": {
+      "cavit_karsi_konum": "ceyda_ittifak"
+     },
+     "yuzde": 11
+    },
+    {
+     "id": "kazma",
+     "gate": "yok",
+     "etiket": "Cavit'in dediğini yap, kazma",
+     "sonuc": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "cavit_karsi_konum": "alet"
+     },
+     "yuzde": 5
+    }
+   ],
+   "seeds": {
+    "cavit_ceyda_bilinir": {
+     "esit_ise": "tam_resim",
+     "deger": true
+    },
+    "ceyda_okundu": {
+     "say": [
+      "ip_koz",
+      "ip_akil",
+      "ip_para"
+     ]
+    }
+   },
+   "giris_gorsel": "v5_giris.jpg"
+  },
+  {
+   "id": "V6",
+   "tur": "omurga",
+   "sira": 6,
+   "belirir": null,
+   "baslik": "Kaya Biliyor muydu",
+   "arastirma": 3,
+   "final": true,
+   "truth": {
+    "tum_resim": "Cavit yıllar önce İlyas'ı kurtardı, şimdi sevgilisi Ceyda'nın kocasını öldürtmek için kullandı",
+    "kaya_biliyordu": "HAYIR — Kaya aldatıldığını bilmiyordu (V6'da ÇÖZÜLÜR)",
+    "ceyda_pay": "<BELİRSİZ> — final bile çözmez, ÇÖZÜLMEZ"
+   },
+   "facts": {
+    "zincir_tam": "Cavit İlyas'ı yıllar önce kurtardı, borçlu bıraktı, şimdi cinayette kullandı; Ceyda ile sevgili.",
+    "kaya_son_gunler": "Kaya'nın son günlerine dair izler: hiçbir şeyden şüphelenmiyor, olağan hayatı.",
+    "kaya_bilmiyordu": "Kaya aldatıldığını bilmiyordu — olmayan bir tehdit için öldürüldü."
+   },
+   "knowledge": [
+    {
+     "turetilen": "gercek_ortaya_cikti",
+     "ifade": {
+      "all": [
+       "zincir_tam",
+       "kaya_bilmiyordu"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": {
+      "seed": "cavit_ceyda_bilinir",
+      "esit": true
+     },
+     "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda sevgili. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu?",
+     "acilan": [
+      "zincir_tam"
+     ]
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Elinde dağınık parçalar var ama tam resim yok. Yine de bir şeyi biliyorsun: bu bir cinayetti, ve Kaya'nın ölümünde bir korku vardı. Geriye tek soru kaldı: Kaya aldatıldığını biliyor muydu? Ama sen o kadar derine inmedin — belki final bunu sana söyler.",
+     "acilan": []
+    }
+   ],
+   "clues": [
+    {
+     "id": "zincir_ozet",
+     "ad": "Tüm zinciri toparlamak",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [],
+     "reveals": [
+      "zincir_tam"
+     ],
+     "text": "Parçaları yan yana koydun: yıllar önceki dava, İlyas'ın borcu, Cavit'in Ceyda'yla ilişkisi, ve merdivendeki o gece. Zincir tamam.",
+     "meta": "Sana ilk gün 'kaza raporu' imzalatmak isteyen adam, cinayetin mimarıydı.",
+     "gorsel": null
+    },
+    {
+     "id": "kaya_izi",
+     "ad": "Kaya'nın son günleri",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "zincir_tam"
+     ],
+     "reveals": [
+      "kaya_son_gunler",
+      "kaya_bilmiyordu"
+     ],
+     "text": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, o gizli çocuğa giden parası. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok.",
+     "meta": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken.",
+     "gorsel": {
+      "dosya": "portre_kaya.jpg",
+      "tur": "portre",
+      "gosterir": [
+       "kaya_son_gunler"
+      ],
+      "alt": "güven veren, hiçbir şeyden habersiz bir adam yüzü"
+     }
+    }
+   ],
+   "decisions": [
+    {
+     "id": "ilyas_ver",
+     "gate": "zincir_tam",
+     "etiket": "İlyas'ı ele ver (tetikçi)",
+     "sonuc": "En kolay hedef, en acınası kurban. Onu verdin — asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir. Küçük balığı verip büyükleri kaçırdın.",
+     "cengoBag": 0,
+     "seed_yaz": {
+      "final_karar": "ilyas"
+     },
+     "yuzde": 24
+    },
+    {
+     "id": "cavit_ver",
+     "gate": "zincir_tam",
+     "etiket": "Cavit'i ele ver (mimar)",
+     "sonuc": "Mimarı verdin. Ama o senin geçim kaynağındı — ajans batabilir. Ve Cavit düşerken İlyas'ı da sürükler; ikisi birbirinin sırrını tutuyordu.",
+     "cengoBag": 1,
+     "seed_yaz": {
+      "final_karar": "cavit"
+     },
+     "yuzde": 34
+    },
+    {
+     "id": "ceyda_ver",
+     "gate": "zincir_tam",
+     "etiket": "Ceyda'yı ele ver",
+     "sonuc": "Belki asıl akıl olanı verdin — ama emin değilsin. Mağdur bir kadını mı, bir canavarı mı ele verdiğini asla bilemeyeceksin. Ve Ceyda senden akıllıysa, seni de batırabilir.",
+     "cengoBag": 0,
+     "seed_yaz": {
+      "final_karar": "ceyda"
+     },
+     "yuzde": 13
+    },
+    {
+     "id": "sus",
+     "gate": "yok",
+     "etiket": "Hiçbirini verme, sus",
+     "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin.",
+     "cengoBag": -1,
+     "seed_yaz": {
+      "final_karar": "sus"
+     },
+     "yuzde": 21
+    },
+    {
+     "id": "hepsini_ifsa",
+     "gate": {
+      "all": [
+       "zincir_tam",
+       {
+        "seed": "cavit_karsi_konum",
+        "esit": "silahli"
+       }
+      ]
+     },
+     "etiket": "Hepsini ifşa et (elinde kanıt varsa)",
+     "sonuc": "Biriktirdiğin kanıtla üçünü birden patlattın. En adil ama en yıkıcı: herkes düşer, düşerken masumlar da — aile, çocuk, belki Cengo — zarar görür. Adalet, bedelini masumlara ödetir.",
+     "cengoBag": 0,
+     "seed_yaz": {
+      "final_karar": "hepsi"
+     },
+     "yuzde": 8
+    }
+   ],
+   "seeds": {
+    "kaya_gercek_ogrenildi": {
+     "esit_ise": "kaya_bilmiyordu",
+     "deger": true
+    }
+   },
+   "giris_gorsel": "v6_giris.jpg"
+  }
+ ]
+}

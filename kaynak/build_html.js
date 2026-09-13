@@ -89,6 +89,10 @@ body{
 
 /* ===== ARAŞTIRMA FAZI ===== */
 .faz-etiket{padding:20px 24px 4px;display:flex;justify-content:space-between;align-items:center}
+.kaynak.yetersiz{opacity:.45}
+.kaynak.yetersiz .tur{color:var(--kirmizi);font-style:italic}
+.kaynak-uyari{margin:8px 24px 0;padding:9px 12px;border-left:2px solid var(--kirmizi);
+  background:rgba(194,91,82,.09);color:var(--koz);font-size:13px;border-radius:0 4px 4px 0}
 .faz-etiket .t{font-size:11px;letter-spacing:2px;color:var(--duman);text-transform:uppercase}
 .arastirma-puan{display:inline-flex;gap:5px}
 .arastirma-puan .p{width:9px;height:9px;border-radius:50%;background:var(--kehribar)}
@@ -224,6 +228,7 @@ ${veri}
 const oyun = new Oyun(GAME);
 const app = document.getElementById("app");
 let sonAcilan = null; // son açılan kaynağın kaydı
+let sonUyari = null;  // açılamayan kaynağın sebebi (bir kez gösterilir)
 
 /* ============================================================
    KAYIT — tek yuva, otomatik.
@@ -724,11 +729,15 @@ function arastirmaFazi(){
 
   if(acik.length>0){
     h += \`<div class="faz-etiket"><span class="t">Neyi araştıracaksın?</span>\${puan}</div>\`;
+    if(sonUyari){ h += \`<div class="kaynak-uyari">\${sonUyari}</div>\`; sonUyari = null; }
     for(const c of acik){
       const tam = v.clues.find(x=>x.id===c.id);
-      h += \`<div class="kaynak \${tam.bedelsiz?'bedelsiz':''}" onclick="kaynakAcFaz('\${c.id}')">
+      // Hak bitmişken ücretli kaynak listede durur ama alınamaz. Oyuncu bunu
+      // tıklamadan ÖNCE görmeli; sessizce aynı ekrana dönmek hata gibi duruyor.
+      const yetersiz = !tam.bedelsiz && a.arastirmaKalan <= 0;
+      h += \`<div class="kaynak \${tam.bedelsiz?'bedelsiz':''} \${yetersiz?'yetersiz':''}" onclick="kaynakAcFaz('\${c.id}')">
         <span class="ico">\${c.ico}</span><span class="ad">\${c.ad}</span>
-        <span class="tur">\${c.tur}</span></div>\`;
+        <span class="tur">\${yetersiz ? 'zamanın kalmadı' : c.tur}</span></div>\`;
     }
   } else {
     h += \`<div class="bilgi">Araştıracak başka bir şey kalmadı.</div>\`;
@@ -746,7 +755,7 @@ function arastirmaFazi(){
 /* ---------- FAZ 2b: AÇILAN KANIT (tek ekran) ---------- */
 function kaynakAcFaz(id){
   const r = oyun.kaynakAc(id);
-  if(r.hata){ efektCal('kilit'); arastirmaFazi(); return; }
+  if(r.hata){ efektCal('kilit'); sonUyari = r.hata; arastirmaFazi(); return; }
   kayitYaz();
   efektCal('kaynak');
   const c = oyun.durum.aktif.vaka.clues.find(x=>x.id===id);

@@ -212,22 +212,200 @@ function kural5_belirsizlik(game, uyarilar) {
 // ============================================================================
 // ÇALIŞTIR
 // ============================================================================
-function dogrula(game) {
+
+// ---------------------------------------------------------------------------
+// KURAL 6 — Bütçe altında erişilebilirlik
+// HATA = oyun bozulur (ölü içerik). UYARI = tasarım kararı bekliyor.
+// K2 bir kaynağın olgu zinciriyle ulaşılabilir olduğunu kontrol eder; ama
+// araştırma hakkı sınırlı olduğu için "ulaşılabilir" demek "açılabilir" demek
+// değildir. Bu kural gerçek motoru kullanarak bütün açma sıralarını dener.
+//   ÖLÜ İÇERİK  (hata)  : hiçbir sırada açılamayan kaynak
+//   BÜTÇE TUZAĞI (uyarı): kilidi açılmış görünüp hakkı bitmiş oyuncunun
+//                         tıklayıp hiçbir şey alamadığı kaynak
+// ---------------------------------------------------------------------------
+function kural6_butce(game, hatalar, uyarilar) {
+  let Oyun;
+  try { Oyun = require("./motor.js").Oyun; } catch (e) { return; }   // motor yoksa atla
+
+  for (const vaka of game.vakalar) {
+    if (!Array.isArray(vaka.clues) || !vaka.clues.length) continue;
+    const hak = vaka.arastirma ?? 3;
+    const enAz = {};                  // kaynak → onu açmanın asgari toplam maliyeti
+    const gorulen = new Set();
+
+    const dfs = (acilmis, harcanan) => {
+      const anahtar = [...acilmis].sort().join("|");
+      if (gorulen.has(anahtar)) return;
+      gorulen.add(anahtar);
+
+      const o = new Oyun(game);
+      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+      for (const id of acilmis) { if (o.kaynakAc(id).hata) return; }
+
+      for (const c of o.acikKaynaklar()) {
+        const tam = vaka.clues.find(x => x.id === c.id);
+        const maliyet = harcanan + (tam.bedelsiz ? 0 : 1);
+        if (maliyet > hak) continue;                       // bu dalda alınamaz
+        if (enAz[c.id] === undefined || maliyet < enAz[c.id]) enAz[c.id] = maliyet;
+        dfs([...acilmis, c.id], maliyet);
+      }
+    };
+    dfs([], 0);
+
+    for (const c of vaka.clues) {
+      const m = enAz[c.id];
+      if (m === undefined) {
+        hatalar.push(`[K6] ${vaka.id}/${c.id}: ${hak} araştırma hakkıyla hiçbir sırada açılamıyor — ölü içerik.`);
+      } else if (m === hak && !c.bedelsiz) {
+        uyarilar.push(`[K6] ${vaka.id}/${c.id}: yalnızca kusursuz sırada açılabiliyor ` +
+                      `(asgari maliyet ${m} = tüm hak). Başka bir kaynağa bakan oyuncu onu listede görüp ` +
+                      `alamıyor. 'bedelsiz: true' ya da daha ucuz bir needs zinciri düşün.`);
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// KURAL 7 — Seçim baskısı ve geçmişin bedeli
+// (a) Araştırma hakkı kaynak sayısından az olmalı; değilse "neyi
+//     araştırayım?" diye bir seçim yoktur, oyuncu her şeyi alır.
+// (b) Final vakası önceki vakaların tohumlarına duyarlı olmalı; değilse
+//     geçmişte araştırma yapmamanın bedeli kalmaz.
+// ---------------------------------------------------------------------------
+function kural7_secim(game, hatalar, uyarilar) {
+  let Oyun;
+  try { Oyun = require("./motor.js").Oyun; } catch (e) { return; }
+
+  for (const vaka of game.vakalar) {
+    if (!Array.isArray(vaka.clues) || !vaka.clues.length) continue;
+    let secimAni = false;                 // iki açık kaynağın ikisini birden alamadığı bir an
+    const gorulen = new Set();
+
+    const dfs = (acilmis, harcanan) => {
+      if (secimAni) return;
+      const anahtar = [...acilmis].sort().join("|");
+      if (gorulen.has(anahtar)) return;
+      gorulen.add(anahtar);
+
+      const o = new Oyun(game);
+      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+      for (const id of acilmis) { if (o.kaynakAc(id).hata) return; }
+
+      const acik = o.acikKaynaklar();
+      const kalan = o.durum.aktif.arastirmaKalan;
+      const ucretli = acik.filter(c => !vaka.clues.find(x => x.id === c.id).bedelsiz);
+      if (ucretli.length > kalan && kalan > 0) secimAni = true;   // hepsini alamaz → seçmek zorunda
+
+      for (const c of acik) {
+        const tam = vaka.clues.find(x => x.id === c.id);
+        const maliyet = harcanan + (tam.bedelsiz ? 0 : 1);
+        if (maliyet > (vaka.arastirma ?? 3)) continue;
+        dfs([...acilmis, c.id], maliyet);
+      }
+    };
+    dfs([], 0);
+
+    if (!secimAni) {
+      uyarilar.push(`[K7] ${vaka.id}: oyuncu hiçbir noktada iki kaynak arasında seçim yapmak zorunda kalmıyor — ` +
+                    `kaynaklar düz bir zincir ya da bütçe hepsine yetiyor (hak ${vaka.arastirma ?? 3}, ` +
+                    `kaynak ${vaka.clues.length}). Araştırmamanın bedeli yok.`);
+    }
+
+    if (vaka.final) {
+      const tohumlar = new Set();
+      const tara = (x) => { if (!x || typeof x !== "object") return;
+        if (x.seed) tohumlar.add(x.seed);
+        for (const k of Object.keys(x)) tara(x[k]); };
+      tara(vaka.clues); tara(vaka.knowledge);
+      if (!tohumlar.size) {
+        uyarilar.push(`[K7] ${vaka.id}: final vakasının KAYNAKLARI hiçbir geçmiş tohuma bakmıyor — ` +
+                      `önceki vakaları savsaklayan oyuncu da tüm zinciri hazır alıyor.`);
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// KURAL 8 — Baskınlık yasağı (ekonomi tezi)
+// Oyunun sözü: "kolay cevap yok". Bir seçenek hem daha çok para hem daha çok
+// vicdan getiriyorsa o bir ikilem değil, doğru cevaptır.
+// Yalnızca kararlarında 'para' bulunan vakalarda çalışır; ekonomi henüz
+// yazılmamış vakalar sessizce atlanır.
+// ---------------------------------------------------------------------------
+function kural8_baskinlik(game, hatalar, uyarilar) {
+  for (const vaka of game.vakalar) {
+    const kararlar = (vaka.decisions || []).filter(d => d.para !== undefined);
+    if (kararlar.length < 2) continue;                       // ekonomi yok → atla
+
+    for (const a of kararlar) for (const b of kararlar) {
+      if (a === b) continue;
+      const paraF = (a.para || 0) - (b.para || 0);
+      const vicdanF = (a.cengoBag || 0) - (b.cengoBag || 0);
+      if (paraF >= 0 && vicdanF >= 0 && (paraF > 0 || vicdanF > 0)) {
+        uyarilar.push(`[K8] ${vaka.id}: '${a.id}' kararı '${b.id}' kararını her iki eksende de geçiyor ` +
+                     `(para ${paraF >= 0 ? "+" : ""}${paraF}, vicdan ${vicdanF >= 0 ? "+" : ""}${vicdanF}) — ikilem değil.`);
+      }
+    }
+    const paraArtiVicdanEksi = kararlar.some(d => (d.para || 0) > 0 && (d.cengoBag || 0) < 0);
+    const paraEksiVicdanArti = kararlar.some(d => (d.para || 0) < 0 && (d.cengoBag || 0) > 0);
+    if (!paraArtiVicdanEksi || !paraEksiVicdanArti) {
+      uyarilar.push(`[K8] ${vaka.id}: gerçek ödünleşim eksik — ` +
+                    `${!paraArtiVicdanEksi ? "para kazandırıp vicdan bozan " : ""}` +
+                    `${!paraEksiVicdanArti ? "para kaybettirip vicdan kazandıran " : ""}seçenek yok.`);
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// KURAL 9 — Ölü tohum
+// Yazılıp hiçbir yerde okunmayan tohum, tasarım niyeti ile kod arasında
+// kopukluk demektir. Künye ve arayüz metinleri de taranır (varsa).
+// ---------------------------------------------------------------------------
+function kural9_oluTohum(game, uyarilar, ekstraKaynaklar) {
+  const yazilan = new Set(), okunan = new Set();
+  const tara = (x) => { if (!x || typeof x !== "object") return;
+    if (x.seed) okunan.add(x.seed);
+    for (const k of Object.keys(x)) tara(x[k]); };
+
+  for (const vaka of game.vakalar) {
+    for (const d of vaka.decisions || []) for (const k of Object.keys(d.seed_yaz || {})) yazilan.add(k);
+    for (const k of Object.keys(vaka.seeds || {})) yazilan.add(k);
+    tara(vaka);
+  }
+  const metinler = (ekstraKaynaklar || []).join("\n");
+  const olu = [...yazilan].filter(t =>
+    !t.startsWith("_karar_") && !okunan.has(t) && !metinler.includes(t));
+  if (olu.length) {
+    uyarilar.push(`[K9] yazılıp hiçbir yerde okunmayan ${olu.length} tohum: ${olu.join(", ")}`);
+  }
+}
+
+function dogrula(game, ekstraKaynaklar) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
   kural2_erisilebilirlik(game, hatalar);
   kural3_dongu(game, hatalar);
   kural4_truth(game, hatalar);
   kural5_belirsizlik(game, uyarilar);
+  kural6_butce(game, hatalar, uyarilar);
+  kural7_secim(game, hatalar, uyarilar);
+  kural8_baskinlik(game, hatalar, uyarilar);
+  kural9_oluTohum(game, uyarilar, ekstraKaynaklar);
 
-  console.log("PARAVAN DOĞRULAYICI v1");
+  console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
   const kural = (ad, hataVar) => console.log(`${ad}: ${hataVar ? "FAIL" : "PASS"}`);
   kural("Kural 1 (Sözlük)        ", hatalar.some(h => h.startsWith("[K1]")));
   kural("Kural 2 (Erişilebilirlik)", hatalar.some(h => h.startsWith("[K2]")));
   kural("Kural 3 (Döngü)         ", hatalar.some(h => h.startsWith("[K3]")));
   kural("Kural 4 (Truth uyumu)   ", hatalar.some(h => h.startsWith("[K4]")));
-  console.log(`Kural 5 (Belirsizlik)   : ${uyarilar.length ? uyarilar.length + " UYARI" : "PASS"}`);
+  kural("Kural 6 (Bütçe)         ", hatalar.some(h => h.startsWith("[K6]")));
+
+  const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
+  console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);
+  console.log(`Kural 7 (Seçim baskısı) : ${uyariSay("[K7]") ? uyariSay("[K7]") + " UYARI" : "PASS"}`);
+  console.log(`Kural 8 (Baskınlık)     : ${uyariSay("[K8]") ? uyariSay("[K8]") + " UYARI" : "PASS"}`);
+  console.log(`Kural 9 (Ölü tohum)     : ${uyariSay("[K9]") ? "UYARI" : "PASS"}`);
   console.log("──────────────────────");
   hatalar.forEach(h => console.log("  ✗ " + h));
   uyarilar.forEach(u => console.log("  ⚠ " + u));
@@ -243,7 +421,12 @@ module.exports = { dogrula, ifadeDegerlendir, acilabilirOlgular, ifadeOlgulari }
 if (require.main === module) {
   try {
     const { GAME } = require("./game_data.js");
-    const ok = dogrula(GAME);
+    const fs = require("fs");
+    const ekstra = [];                       // K9 tohumları burada da arar
+    for (const f of ["kisiler.json", "build_html.js", "prolog.json"]) {
+      try { ekstra.push(fs.readFileSync(f, "utf-8")); } catch (e) {}
+    }
+    const ok = dogrula(GAME, ekstra);
     process.exit(ok ? 0 : 1);
   } catch (e) {
     console.log("game_data.js bulunamadı — test verisiyle çalıştırmak için test_dogrulayici.js kullanın.");

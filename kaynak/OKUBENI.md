@@ -23,7 +23,7 @@ koşmadan derleme yapılmaz.
 - `game_data.js`        → doğrulayıcının beklediği modül köprüsü (json'u dışa verir)
 - `kisiler.json`        → katmanlı künye + anı defteri
 - `prolog.json`         → açılış (6 kart)
-- `dogrulayici.js`      → çelişki denetleyici (5 kural)
+- `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
 - `build_html.js`       → derleyici (**DEV_MOD satırı burada**)
 - `_gomulu_gorseller.js`→ 33 görsel, base64 (derlemenin girdisi)
 - `vaka2-6.json`, `yan_a/b.json` → tekil vaka yedekleri (game_data.json asıldır)
@@ -37,11 +37,51 @@ koşmadan derleme yapılmaz.
 
 ```
 cd kaynak
-for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit; do node $t.js; done
+for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit test_butce; do node $t.js; done
 ```
 
 `test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
 vermesini bekler.
+
+## Doğrulayıcı kuralları
+
+**Hata = oyun bozulur, paketlenemez. Uyarı = tasarım kararı bekliyor.**
+Bu ayrım önemli: K1–K4 ve K6'nın ölü içerik kolu çelişki/bozukluk yakalar;
+K5, K7, K8, K9 yazarın karar vermesi gereken tasarım sorularıdır.
+
+| | Ne kontrol eder | Şiddet |
+|---|---|---|
+| K1 | Sözlük — metin/görsel, açılmamış bir ismi sızdırıyor mu (Nurcan kuralı) | hata |
+| K2 | Erişilebilirlik — olgu zinciri ulaşılabilir mi | hata |
+| K3 | Döngü — needs döngüsü, açık giriş var mı | hata |
+| K4 | Truth uyumu — vaka gerçeğiyle çelişen reveal | hata |
+| K5 | Belirsizlik — Ceyda/Sevil kesinleşmemeli | uyarı |
+| K6 | **Bütçe** — araştırma hakkıyla açılamayan kaynak | ölü içerik: hata / kusursuz sıra: uyarı |
+| K7 | **Seçim baskısı** — oyuncu hiç iki kaynak arasında seçmek zorunda kalıyor mu | uyarı |
+| K8 | **Baskınlık** — bir karar hem para hem vicdan ekseninde diğerini geçiyor mu | uyarı |
+| K9 | **Ölü tohum** — yazılıp hiçbir yerde okunmayan tohum | uyarı |
+
+K6 ve K7 **gerçek motoru** kullanır (`motor.js`): bütün açma sıralarını
+dener, böylece simülasyon oyunla birebir aynı davranır. K2 bir kaynağın
+*ulaşılabilir* olduğunu söyler; K6 onun **bütçe içinde açılabilir** olduğunu
+söyler — ikisi aynı şey değil, aradaki fark canlı bir hataya yol açmıştı.
+
+K8 yalnızca kararlarında `para` bulunan vakalarda çalışır; ekonomi henüz
+yazılmamış vakaları sessizce atlar.
+
+K9, tohumları `kisiler.json`, `prolog.json` ve `build_html.js` içinde de arar.
+
+### Açık uyarılar (tasarım kararı bekliyor)
+
+- **K7 · YAN-A, YAN-B, V6**: oyuncu hiçbir noktada iki kaynak arasında seçim
+  yapmak zorunda kalmıyor — araştırmamanın bedeli yok.
+- **K7 · V6**: final vakasının kaynakları hiçbir geçmiş tohuma bakmıyor.
+  `zincir_ozet` koşulsuz (`needs: []`) ve tüm cinayet zincirini veriyor;
+  önceki vakaları savsaklayan oyuncu da hazır alıyor.
+- **K6 · V2/mahalle_konus, V3/foto_goster, V4/aile_gorusme, V5/ceyda_derin**:
+  yalnızca kusursuz sırada açılabiliyor. V5'teki bilinçli (komployu çöz YA DA
+  Ceyda'yı oku); diğerleri gözden geçirilmeli.
+- **K9**: 12 tohum yazılıp hiç okunmuyor.
 
 ## Kayıt sistemi
 
