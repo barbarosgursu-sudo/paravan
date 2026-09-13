@@ -116,5 +116,44 @@ console.log("\n=== Açılamayan kaynak SEBEBİNİ söylüyor (sessiz dönüş yo
   }
 }
 
+console.log("\n=== HER HARCAMA YOLU BİTİYOR (kilitlenme yok) ===");
+{
+  // test_softlock tek bir yolu oynar; bu, bütçeyi harcamanın HER olası
+  // biçimini dener ve hepsinde en az bir karar açık kalmasını şart koşar.
+  for (const v of g.vakalar) {
+    let enDar = null, yollar = 0;
+    const dene = (ac) => {
+      const o = new Oyun(g);
+      o.vakaBaslat(v.id);
+      for (const id of ac) if (o.kaynakAc(id).hata) return;
+      const alinabilir = o.acikKaynaklar().filter(c => {
+        const t = v.clues.find(x => x.id === c.id);
+        return t.bedelsiz || o.durum.aktif.arastirmaKalan > 0;
+      });
+      if (!alinabilir.length) {
+        yollar++;
+        const kar = o.acikKararlar().map(x => x.id);
+        if (!enDar || kar.length < enDar.length) enDar = kar;
+        return;
+      }
+      for (const c of alinabilir) dene([...ac, c.id]);
+    };
+    dene([]);
+    k(`${v.id}: ${yollar} harcama yolunun hepsinde karar açık`,
+      enDar !== null && enDar.length > 0, enDar ? `en dar: ${enDar.length} karar` : "yol bulunamadı");
+  }
+}
+
+console.log("\n=== YAN VAKALARDA SEÇİM BASKISI VAR ===");
+{
+  // Hak 3 iken 3 ücretli kaynağın hepsi alınıyordu, seçim yoktu.
+  for (const vid of ["YAN-A", "YAN-B"]) {
+    const v = g.vakalar.find(x => x.id === vid);
+    const ucretli = v.clues.filter(c => !c.bedelsiz).length;
+    k(`${vid}: ücretli kaynak (${ucretli}) hak'tan (${v.arastirma}) fazla — seçmek zorunda`,
+      ucretli > v.arastirma);
+  }
+}
+
 console.log(hata ? `\n=== ${hata} BAŞARISIZ ===` : "\n=== BÜTÇE TESTİ TAMAM ===");
 process.exit(hata ? 1 : 0);

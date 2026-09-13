@@ -739,7 +739,7 @@
     "kosul": "varsayilan"
    },
    "baslik": "Kapalı Defter",
-   "arastirma": 3,
+   "arastirma": 2,
    "truth": {
     "sevil_dert": "eski suçunun ifşa tehdidi",
     "tehdit_kaynak": "eski o dünyadan biri",
@@ -925,7 +925,7 @@
     "kosul": "varsayilan"
    },
    "baslik": "Enkaz",
-   "arastirma": 3,
+   "arastirma": 2,
    "truth": {
     "nadire_dert": "son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırdı",
     "dolandirici": "batış mağdurlarını avlayan biri",
