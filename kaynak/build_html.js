@@ -789,7 +789,7 @@ function kararVerFaz(id){
   kayitYaz();   // hemen: kapatıp kararı geri almak yok
   efektCal('muhur');
   muzikCal('sonuc');
-  const not = (KISILER.defter[vid]||{})[id];
+  const not = defterNotu(vid, id);
   let h = ust() + '<div class="faz">';
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
   if(not) h += \`<div class="defter-not">\${not}</div>\`;
@@ -865,6 +865,24 @@ function kisilerGoster(){
 }
 
 /* ---------- DEFTER PANELİ ---------- */
+/* Anı defteri notu. Değer düz metin olabilir ya da koşullu varyant dizisi:
+   [{kosul: <ifade>, metin: "..."}, {kosul: "varsayilan", metin: "..."}]
+   Aynı kararı farklı bilgiyle veren oyuncular aynı notu okumamalı — örneğin
+   V6'da "sus" diyen biri her şeyi bilerek susmuş da olabilir, hiç
+   öğrenemediği için de susmuş olabilir. */
+function defterNotu(vid, kararId){
+  const ham = (KISILER.defter[vid]||{})[kararId];
+  if(!ham) return null;
+  if(typeof ham === "string") return ham;
+  if(!Array.isArray(ham)) return null;
+  const bilinen = oyun.tumBilinen();
+  for(const v of ham){
+    if(v.kosul === "varsayilan") return v.metin;
+    if(ifadeCalistir(v.kosul, bilinen, oyun.durum.seeds, oyun.durum.cengoBag)) return v.metin;
+  }
+  return null;
+}
+
 function defterGoster(){
   let h = ust() + '<div class="faz panel-ekran">';
   h += \`<div class="panel-baslik">✎ Anı Defteri</div>\`;
@@ -875,7 +893,7 @@ function defterGoster(){
     for(const vid of tamamlanan){
       const v = GAME.vakalar.find(x=>x.id===vid);
       const karar = oyun.durum.seeds["_karar_"+vid];
-      const not = (KISILER.defter[vid]||{})[karar];
+      const not = defterNotu(vid, karar);
       if(not) h += \`<div class="defter-kayit"><div class="v">\${v.baslik}</div><div class="n">\${not}</div></div>\`;
     }
   }

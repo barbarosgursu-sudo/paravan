@@ -9,6 +9,33 @@ const k = (ad, ok, ek) => { console.log((ok ? "✓" : "✗ BAŞARISIZ") + " " + 
 
 // Hedef kaynağı açılabilir hale getiren bir açma sırası bul (türetilmiş
 // olguları da kovalar — motoru kullandığı için oyunla birebir aynı davranır).
+// Tohuma bağlı kaynaklar boş tohumlarla bakıldığında hep "ölü" görünür.
+// Doğru soru: HERHANGİ bir oyun gidişatında açılabiliyor mu?
+function tohumBirlesimleri(vaka) {
+  const degerler = new Map();
+  const tara = (x) => {
+    if (!x || typeof x !== "object") return;
+    if (x.seed) {
+      if (!degerler.has(x.seed)) degerler.set(x.seed, new Set([undefined]));
+      degerler.get(x.seed).add(x.esit === undefined ? true : x.esit);
+    }
+    for (const key of Object.keys(x)) tara(x[key]);
+  };
+  tara(vaka.clues); tara(vaka.knowledge); tara(vaka.giris);
+  let out = [{}];
+  for (const [ad, kume] of degerler) {
+    const yeni = [];
+    for (const b of out) for (const d of kume) {
+      const kopya = { ...b };
+      if (d === undefined) delete kopya[ad]; else kopya[ad] = d;
+      yeni.push(kopya);
+    }
+    out = yeni;
+    if (out.length > 32) break;
+  }
+  return out;
+}
+
 function yoluBul(vid, hedef) {
   const vaka = g.vakalar.find(v => v.id === vid);
   const hak = vaka.arastirma ?? 3;
@@ -74,23 +101,26 @@ console.log("\n=== Hiçbir kaynak ölü içerik değil (tüm vakalar) ===");
   for (const vaka of g.vakalar) {
     const hak = vaka.arastirma ?? 3;
     const enAz = {};
-    const gorulen = new Set();
-    const dfs = (acilmis, harcanan) => {
-      const anahtar = [...acilmis].sort().join("|");
-      if (gorulen.has(anahtar)) return;
-      gorulen.add(anahtar);
-      const o = new Oyun(g);
-      o.vakaBaslat(vaka.id);
-      for (const id of acilmis) if (o.kaynakAc(id).hata) return;
-      for (const c of o.acikKaynaklar()) {
-        const tam = vaka.clues.find(x => x.id === c.id);
-        const m = harcanan + (tam.bedelsiz ? 0 : 1);
-        if (m > hak) continue;
-        if (enAz[c.id] === undefined || m < enAz[c.id]) enAz[c.id] = m;
-        dfs([...acilmis, c.id], m);
-      }
-    };
-    dfs([], 0);
+    for (const tohumlar of tohumBirlesimleri(vaka)) {
+      const gorulen = new Set();
+      const dfs = (acilmis, harcanan) => {
+        const anahtar = [...acilmis].sort().join("|");
+        if (gorulen.has(anahtar)) return;
+        gorulen.add(anahtar);
+        const o = new Oyun(g);
+        Object.assign(o.durum.seeds, tohumlar);
+        o.vakaBaslat(vaka.id);
+        for (const id of acilmis) if (o.kaynakAc(id).hata) return;
+        for (const c of o.acikKaynaklar()) {
+          const tam = vaka.clues.find(x => x.id === c.id);
+          const m = harcanan + (tam.bedelsiz ? 0 : 1);
+          if (m > hak) continue;
+          if (enAz[c.id] === undefined || m < enAz[c.id]) enAz[c.id] = m;
+          dfs([...acilmis, c.id], m);
+        }
+      };
+      dfs([], 0);
+    }
     const olu = vaka.clues.filter(c => enAz[c.id] === undefined).map(c => c.id);
     k(`${vaka.id}: tüm kaynaklar bütçe içinde açılabiliyor`, olu.length === 0, olu.join(","));
   }
@@ -122,8 +152,10 @@ console.log("\n=== HER HARCAMA YOLU BİTİYOR (kilitlenme yok) ===");
   // biçimini dener ve hepsinde en az bir karar açık kalmasını şart koşar.
   for (const v of g.vakalar) {
     let enDar = null, yollar = 0;
+    let aktifTohum = {};
     const dene = (ac) => {
       const o = new Oyun(g);
+      Object.assign(o.durum.seeds, aktifTohum);
       o.vakaBaslat(v.id);
       for (const id of ac) if (o.kaynakAc(id).hata) return;
       const alinabilir = o.acikKaynaklar().filter(c => {
@@ -138,7 +170,7 @@ console.log("\n=== HER HARCAMA YOLU BİTİYOR (kilitlenme yok) ===");
       }
       for (const c of alinabilir) dene([...ac, c.id]);
     };
-    dene([]);
+    for (const t of tohumBirlesimleri(v)) { aktifTohum = t; dene([]); }
     k(`${v.id}: ${yollar} harcama yolunun hepsinde karar açık`,
       enDar !== null && enDar.length > 0, enDar ? `en dar: ${enDar.length} karar` : "yol bulunamadı");
   }

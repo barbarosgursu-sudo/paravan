@@ -223,6 +223,37 @@ function kural5_belirsizlik(game, uyarilar) {
 //   BÜTÇE TUZAĞI (uyarı): kilidi açılmış görünüp hakkı bitmiş oyuncunun
 //                         tıklayıp hiçbir şey alamadığı kaynak
 // ---------------------------------------------------------------------------
+
+// Bir vakanın kaynak erişilebilirliğini etkileyen tohumların olası değer
+// birleşimlerini üretir. Tohuma bağlı bir kaynak, boş tohumlarla bakıldığında
+// her zaman "ölü" görünür — oysa doğru soru "HERHANGİ bir oyun gidişatında
+// açılabiliyor mu?"dur.
+function tohumBirlesimleri(vaka) {
+  const degerler = new Map();                     // tohum → olası değerler kümesi
+  const tara = (x) => {
+    if (!x || typeof x !== "object") return;
+    if (x.seed) {
+      if (!degerler.has(x.seed)) degerler.set(x.seed, new Set([undefined]));
+      degerler.get(x.seed).add(x.esit === undefined ? true : x.esit);
+    }
+    for (const k of Object.keys(x)) tara(x[k]);
+  };
+  tara(vaka.clues); tara(vaka.knowledge); tara(vaka.giris);
+
+  let birlesimler = [{}];
+  for (const [ad, kume] of degerler) {
+    const yeni = [];
+    for (const b of birlesimler) for (const d of kume) {
+      const kopya = { ...b };
+      if (d === undefined) delete kopya[ad]; else kopya[ad] = d;
+      yeni.push(kopya);
+    }
+    birlesimler = yeni;
+    if (birlesimler.length > 32) break;            // kombinatorik patlamayı önle
+  }
+  return birlesimler;
+}
+
 function kural6_butce(game, hatalar, uyarilar) {
   let Oyun;
   try { Oyun = require("./motor.js").Oyun; } catch (e) { return; }   // motor yoksa atla
@@ -230,27 +261,30 @@ function kural6_butce(game, hatalar, uyarilar) {
   for (const vaka of game.vakalar) {
     if (!Array.isArray(vaka.clues) || !vaka.clues.length) continue;
     const hak = vaka.arastirma ?? 3;
-    const enAz = {};                  // kaynak → onu açmanın asgari toplam maliyeti
-    const gorulen = new Set();
+    const enAz = {};                  // kaynak → onu açmanın asgari toplam maliyeti (en iyi gidişat)
 
-    const dfs = (acilmis, harcanan) => {
-      const anahtar = [...acilmis].sort().join("|");
-      if (gorulen.has(anahtar)) return;
-      gorulen.add(anahtar);
+    for (const tohumlar of tohumBirlesimleri(vaka)) {
+      const gorulen = new Set();
+      const dfs = (acilmis, harcanan) => {
+        const anahtar = [...acilmis].sort().join("|");
+        if (gorulen.has(anahtar)) return;
+        gorulen.add(anahtar);
 
-      const o = new Oyun(game);
-      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
-      for (const id of acilmis) { if (o.kaynakAc(id).hata) return; }
+        const o = new Oyun(game);
+        Object.assign(o.durum.seeds, tohumlar);
+        try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+        for (const id of acilmis) { if (o.kaynakAc(id).hata) return; }
 
-      for (const c of o.acikKaynaklar()) {
-        const tam = vaka.clues.find(x => x.id === c.id);
-        const maliyet = harcanan + (tam.bedelsiz ? 0 : 1);
-        if (maliyet > hak) continue;                       // bu dalda alınamaz
-        if (enAz[c.id] === undefined || maliyet < enAz[c.id]) enAz[c.id] = maliyet;
-        dfs([...acilmis, c.id], maliyet);
-      }
-    };
-    dfs([], 0);
+        for (const c of o.acikKaynaklar()) {
+          const tam = vaka.clues.find(x => x.id === c.id);
+          const maliyet = harcanan + (tam.bedelsiz ? 0 : 1);
+          if (maliyet > hak) continue;                       // bu dalda alınamaz
+          if (enAz[c.id] === undefined || maliyet < enAz[c.id]) enAz[c.id] = maliyet;
+          dfs([...acilmis, c.id], maliyet);
+        }
+      };
+      dfs([], 0);
+    }
 
     for (const c of vaka.clues) {
       const m = enAz[c.id];
@@ -279,7 +313,8 @@ function kural7_secim(game, hatalar, uyarilar) {
   for (const vaka of game.vakalar) {
     if (!Array.isArray(vaka.clues) || !vaka.clues.length) continue;
     let secimAni = false;                 // iki açık kaynağın ikisini birden alamadığı bir an
-    const gorulen = new Set();
+    let gorulen = new Set();
+    let aktifTohumlar = {};
 
     const dfs = (acilmis, harcanan) => {
       if (secimAni) return;
@@ -288,6 +323,7 @@ function kural7_secim(game, hatalar, uyarilar) {
       gorulen.add(anahtar);
 
       const o = new Oyun(game);
+      Object.assign(o.durum.seeds, aktifTohumlar);
       try { o.vakaBaslat(vaka.id); } catch (e) { return; }
       for (const id of acilmis) { if (o.kaynakAc(id).hata) return; }
 
@@ -303,7 +339,11 @@ function kural7_secim(game, hatalar, uyarilar) {
         dfs([...acilmis, c.id], maliyet);
       }
     };
-    dfs([], 0);
+    for (const tohumlar of tohumBirlesimleri(vaka)) {
+      if (secimAni) break;
+      aktifTohumlar = tohumlar; gorulen = new Set();
+      dfs([], 0);
+    }
 
     if (!secimAni) {
       uyarilar.push(`[K7] ${vaka.id}: oyuncu hiçbir noktada iki kaynak arasında seçim yapmak zorunda kalmıyor — ` +

@@ -18,10 +18,17 @@ let o2=new Oyun(g);  // cavit_ceyda_bilinir yok
 let gr2=o2.vakaBaslat("V6");
 k("giriş 'derine inmedin' varyantı", gr2.giris.includes("derine inmedin"));
 k("zincir_tam girişte AÇILMADI", !o2.bilinenler().includes("zincir_tam"));
-k("zincir_ozet baştan açık (needs:[])", o2.acikKaynaklar().some(x=>x.id==="zincir_ozet"));
-// derine inmemiş oyuncu zinciri kaynakla toparlayabilir
-o2.kaynakAc("zincir_ozet");
-k("zincir_tam kaynakla toparlandı", o2.bilinenler().includes("zincir_tam"));
+// DEĞİŞTİ: zinciri toparlamak artık V5'te komployu çözmüş olmayı gerektiriyor.
+// Çözemeyen oyuncuya zincir hazır verilmez; onun yerine boşluğu görür.
+k("zincir_ozet KAPALI (komployu çözmedi)", !o2.acikKaynaklar().some(x=>x.id==="zincir_ozet"));
+k("onun yerine 'eldekiler' açık", o2.acikKaynaklar().some(x=>x.id==="eldekiler"));
+const rEl = o2.kaynakAc("eldekiler");
+k("eldekiler bedelsiz (hak yemiyor)", o2.durum.aktif.arastirmaKalan === (g.vakalar.find(v=>v.id==="V6").arastirma));
+k("zincir_tam GELMEDİ — boşluk kapanmıyor", !o2.bilinenler().includes("zincir_tam"));
+k("metin hiçbir ismi ele vermiyor",
+  !["Cavit","Ceyda","İlyas","Kaya"].some(ad => (rEl.text||"").includes(ad)), rEl.text ? "" : "metin yok");
+k("tek kalan karar: sus", o2.acikKararlar().map(x=>x.id).join(",") === "sus",
+  o2.acikKararlar().map(x=>x.id).join(","));
 
 console.log("\n=== FİNAL KARARLARI + tohum ===");
 let o3=new Oyun(g); o3.durum.seeds.cavit_ceyda_bilinir=true; o3.vakaBaslat("V6");
