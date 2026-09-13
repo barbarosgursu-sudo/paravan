@@ -563,6 +563,31 @@ function sesAyarYaz(){
 
 // Tarayıcı ve Android WebView, kullanıcı dokunmadan ses çaldırmaz.
 // İlk dokunuşta kilidi açıp bekleyen parçayı başlatıyoruz.
+// Hangi uzantının VAR olduğunu önceden bul. Aksi halde ilk dokunuşta önce
+// .mp3 denenir, hata ASENKRON gelir ve .wav için çağrılan ikinci play()
+// artık kullanıcı hareketinin içinde olmadığı için mobilde reddedilir.
+// Bu yüzden dosya keşfi dokunuştan ÖNCE, fetch ile yapılıyor.
+function sesKesfet(){
+  if(typeof fetch !== "function") return;
+  const adlar = [...new Set([...Object.values(MUZIK), ...Object.values(EFEKT)])];
+  let calisti = false;                      // fetch hiç çalıştı mı (file:// engelleyebilir)
+  const bulunan = {}, eksik = {};
+  const denemeler = adlar.map(ad =>
+    SES_UZANTILAR.reduce((zincir, uz, i) => zincir.then(sonuc => {
+      if(sonuc !== null) return sonuc;
+      return fetch(SES_KLASOR + ad + uz, {method:"HEAD"})
+        .then(r => { calisti = true; return r.ok ? i : null; })
+        .catch(() => null);
+    }), Promise.resolve(null))
+    .then(i => { if(i !== null) bulunan[ad] = i; else eksik[ad] = true; })
+  );
+  Promise.all(denemeler).then(() => {
+    if(!calisti) return;                    // keşif yapılamadı → çalışma anında dene
+    Object.assign(ses.uzanti, bulunan);
+    Object.assign(ses.yok, eksik);
+  }).catch(()=>{});
+}
+
 function sesKilidiAc(){
   if(!ses.kilitli) return;
   ses.kilitli = false;
@@ -704,6 +729,21 @@ function devPanel(){
     <div class="dev-satir">Tamamlanan: ${d.tamamlanan.length? d.tamamlanan.join(", ") : "(yok)"}</div>
   </div>`;
 
+  // Ses teşhisi
+  const calanAd = ses.calan ? decodeURIComponent(ses.calan.src.split("/").pop()) : "(yok)";
+  const uzOzet = Object.keys(ses.uzanti).length
+    ? Object.entries(ses.uzanti).map(([a,i]) => a+SES_UZANTILAR[i]).slice(0,3).join(", ")+"…"
+    : "(keşif yok)";
+  h += `<div class="dev-blok"><div class="dev-baslik">Ses teşhisi</div>
+    <div class="dev-satir">açık: <b>${ses.acik}</b> · kilitli: <b>${ses.kilitli}</b> · bekleyen: <b>${ses.bekleyen||"-"}</b></div>
+    <div class="dev-satir">sahne: <b>${ses.suAn||"-"}</b> · çalan dosya: <b>${calanAd}</b></div>
+    <div class="dev-satir">duraklamış: <b>${ses.calan ? ses.calan.paused : "-"}</b> · ses düzeyi: <b>${ses.calan ? ses.calan.volume.toFixed(2) : "-"}</b></div>
+    <div class="dev-satir">bulunan: ${uzOzet}</div>
+    <div class="dev-satir">eksik: ${Object.keys(ses.yok).join(", ")||"(yok)"}</div>
+    <div class="dev-satir"><span class="dev-mini" onclick="devSesDene()">▶ zorla çal</span>
+      <span class="dev-mini" onclick="devSesRapor()">⎘ raporu göster</span></div>
+  </div>`;
+
   // Vakaya atla
   h += `<div class="dev-blok"><div class="dev-baslik">Vakaya atla (izole, temiz başlar)</div>`;
   for(const v of GAME.vakalar){
@@ -738,6 +778,30 @@ function devPanel(){
   app.innerHTML=h; scrollUst();
 }
 function devCengo(delta){ oyun.durum.cengoBag += delta; devPanel(); }
+// Ses çalmıyorsa sebebini doğrudan gösterir: play() ne diyor?
+function devSesDene(){
+  ses.kilitli = false; ses.acik = true;
+  const a = new Audio(SES_KLASOR + "masa" + SES_UZANTILAR[ses.uzanti["masa"] ?? 0]);
+  a.volume = 1;
+  const p = a.play();
+  if(p && p.then) p.then(() => alert("ÇALDI: " + a.src.split("/").pop() + "\nSes duymuyorsan cihazın sesi kısık ya da sessiz modda."))
+                   .catch(err => alert("REDDEDİLDİ: " + err.name + "\n" + err.message));
+  else alert("play() söz döndürmedi (eski tarayıcı)");
+}
+function devSesRapor(){
+  const r = {
+    adres: location.href,
+    acik: ses.acik, kilitli: ses.kilitli, sahne: ses.suAn,
+    calan: ses.calan ? ses.calan.src.split("/").pop() : null,
+    duraklamis: ses.calan ? ses.calan.paused : null,
+    duzey: ses.calan ? ses.calan.volume : null,
+    bulunan: ses.uzanti, eksik: Object.keys(ses.yok),
+    wavDestek: (new Audio()).canPlayType("audio/wav"),
+    mp3Destek: (new Audio()).canPlayType("audio/mpeg"),
+    tarayici: navigator.userAgent,
+  };
+  alert(JSON.stringify(r, null, 1));
+}
 function devVakaAtla(id){
   // İZOLE TEST: ana oyun durumuna dokunma. Geçici bir kopya oyun kur, onu oynat.
   devAnaDurum = JSON.parse(JSON.stringify(oyun.durum));  // ana durumu sakla
@@ -1113,9 +1177,12 @@ function sonEkrani(){
 /* ---------- AÇILIŞ: kayıt varsa sürdürme ekranı ---------- */
 function baslat(){
   sesAyarOku();
-  // Tarayıcı/WebView kullanıcı dokunmadan ses çaldırmaz — ilk dokunuşta kilidi aç
-  document.addEventListener("pointerdown", sesKilidiAc, {once:true});
-  document.addEventListener("keydown", sesKilidiAc, {once:true});
+  // Tarayıcı/WebView kullanıcı dokunmadan ses çaldırmaz.
+  // Dinleyiciler KALICI: ilk deneme reddedilirse (mobilde olur) sonraki
+  // dokunuş yeniden dener. {once:true} olsaydı tek ret sonsuza dek susturdu.
+  ["pointerdown","touchend","click","keydown"].forEach(e =>
+    document.addEventListener(e, sesKilidiAc, true));
+  sesKesfet();
   // buton dokunuş efekti (kaynak ve karar kendi efektlerini çalar)
   document.addEventListener("click", e => {
     if(e.target.closest(".buton, .ust-btn")) efektCal('dokun');
