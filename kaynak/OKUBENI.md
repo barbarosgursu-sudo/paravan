@@ -37,7 +37,7 @@ koşmadan derleme yapılmaz.
 
 ```
 cd kaynak
-for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit test_butce test_ekonomi; do node $t.js; done
+for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit test_butce test_ekonomi test_sizinti; do node $t.js; done
 ```
 
 `test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
@@ -114,6 +114,34 @@ Motorda `metinSec()` çözer. Aynı mekanizma anı defteri notlarında da var
   kalıyordu. Artık 10 yolun hepsinde 4 karar da açık.
 - **V6/zincir_ozet** V5'teki komplo çözümüne bağlandı; çözemeyen oyuncu
   `eldekiler` ile boşluğun kendisiyle yüzleşiyor.
+
+## Sızıntı testi (test_sizinti.js)
+
+Doğrulayıcının 10 kuralı **yapıya** bakar. Ama oynanışta bulunan hataların
+çoğu yapı olarak geçerli, **anlam olarak yanlış**: metin, oyuncunun o an
+sahip olmadığı bir olguyu varsayıyor. Şema doğrulaması bunu göremez.
+
+Bu test oyunu uçtan uca, farklı bilgi derinliklerinde oynar ve her ekranda
+gösterilen metni oyuncunun O ANDAKİ bilgisiyle karşılaştırır.
+
+Oynanan gidişatlar:
+
+| Gidişat | Ne yakalar |
+|---|---|
+| En az bilgi (hiç araştırma yok) | sonuç/defter metinlerinin varsaydığı bilgi |
+| Tam araştırma | normal akışta sızıntı |
+| Her şey (yan vakalar dahil) | yan vaka metinleri |
+| V4 savsaklandı ama komplo çözüldü | V6'nın V4 bilgisini hediye etmesi |
+| V1 savsaklandı, gerisi derin | erken savsaklamanın sonraki vakalara etkisi |
+
+**İma sözlüğü** elle yazılır ve bilinçli olarak dardır: "şu kelime geçiyorsa
+şu olgulardan biri bilinmeli". Böylece yanlış alarm üretmez; yakaladığı her
+şey gerçek sızıntıdır. Bir vaka kendi konusunu tanıtıyorsa `haric` ile
+muaf tutulur (örn. V4'ün girişi isimsiz ödemeyi zaten tanıtır).
+
+Test ayrıca `_durum_matrisi.txt` üretir: her gidişatta her ekranda ne yazdığının
+tam dökümü. Otomatik kural her şeyi yakalayamaz; bu dosya **elle okunmak
+içindir** ve oynamadan gözden geçirmeyi mümkün kılar.
 
 ## Ekonomi
 

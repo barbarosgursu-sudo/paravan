@@ -1,3 +1,5 @@
 # build_html.js her derlemede bunları kaynak dosyalardan taze üretir
 kaynak/_gomulu_motor.js
 kaynak/_gomulu_veri.js
+# test_sizinti.js her çalıştığında üretir (insan gözüyle okunmak için)
+kaynak/_durum_matrisi.txt
