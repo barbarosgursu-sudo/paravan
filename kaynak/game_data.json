@@ -207,7 +207,16 @@
      "id": "temiz_rapor",
      "gate": "yok",
      "etiket": "Temiz 'kaza' raporu ver",
-     "sonuc": "Parayı alırsın, ajans nefes alır. Şüpheni gömdün; Cavit sana güvenir, yeni iş getirir.",
+     "sonuc": [
+      {
+       "kosul": "cinayet_suphesi",
+       "metin": "Parayı alırsın, ajans nefes alır. Şüpheni gömdün; Cavit sana güvenir, yeni iş getirir."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Parayı alırsın, ajans nefes alır. Fazla soru sormadın — Cavit tam da bunu istiyordu; sana güvenir, yeni iş getirir."
+      }
+     ],
      "cengoBag": -1,
      "seed_yaz": {
       "ilk_karar": "temiz",
@@ -730,7 +739,16 @@
      "id": "tanigi_lekele",
      "gate": "yok",
      "etiket": "Tanığı 'güvenilmez' diye rapor et",
-     "sonuc": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz.",
+     "sonuc": [
+      {
+       "kosul": "iten_ilyas",
+       "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama neyin üstünü örttüğünü hiç öğrenmedin. Cengo bunu kaldıramaz."
+      }
+     ],
      "cengoBag": -2,
      "seed_yaz": {
       "ilyas_kime_gitti": "lekele"
@@ -1647,7 +1665,23 @@
      "id": "kazma",
      "gate": "yok",
      "etiket": "Cavit'in dediğini yap, kazma",
-     "sonuc": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun.",
+     "sonuc": [
+      {
+       "kosul": {
+        "any": [
+         "cinayet_suphesi",
+         "iten_ilyas",
+         "zincir_tam",
+         "el_var"
+        ]
+       },
+       "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Neyi temizlediğini hiç öğrenmedin. Cengo suskun."
+      }
+     ],
      "cengoBag": -1,
      "seed_yaz": {
       "cavit_karsi_konum": "alet"
@@ -1711,8 +1745,19 @@
      ]
     },
     {
-     "kosul": "varsayilan",
+     "kosul": {
+      "any": [
+       "cinayet_suphesi",
+       "iten_ilyas",
+       "el_var"
+      ]
+     },
      "metin": "Elinde dağınık parçalar var ama tam resim yok. Yine de bir şeyi biliyorsun: bu bir cinayetti, ve Kaya'nın ölümünde bir korku vardı. Geriye tek soru kaldı: Kaya aldatıldığını biliyor muydu? Ama sen o kadar derine inmedin. Bu gece elinde ne varsa onunla karar vereceksin.",
+     "acilan": []
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Elinde dağınık parçalar var, hiçbiri bir araya gelmiyor. Bir adam merdivenden düştü, bir kadın tuhaf konuştu, bir avukat fazla yakın durdu. Geriye tek soru kaldı: Kaya karısının onu aldattığını biliyor muydu? Ama sen o kadar derine inmedin. Bu gece elinde ne varsa onunla karar vereceksin.",
      "acilan": []
     }
    ],
@@ -1768,7 +1813,22 @@
       "kaya_son_gunler",
       "kaya_bilmiyordu"
      ],
-     "text": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, o gizli çocuğa giden parası. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok.",
+     "text": [
+      {
+       "kosul": {
+        "any": [
+         "kaya_gizli_iyilik",
+         "kaya_insani",
+         "odeme_kayaya_ait"
+        ]
+       },
+       "metin": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, o gizli çocuğa giden parası. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, düzenli bir takvim. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok."
+      }
+     ],
      "meta": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken.",
      "gorsel": {
       "dosya": "portre_kaya.jpg",

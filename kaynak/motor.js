@@ -108,11 +108,13 @@ class Oyun {
     const v = this.game.vakalar.find(x => x.id === id);
     if (!v) throw new Error("vaka yok: " + id);
     const bilinen = new Set();
-    // giriş varyantı: ilk koşulu sağlanan, yoksa 'varsayilan'
+    // Giriş varyantı önceki vakalarda öğrenilenlere de bakabilmeli — yoksa
+    // "bunu zaten biliyorsun" diyen bir giriş asla tetiklenmez.
+    const genis = this._metinBilinen();
     let secilen = null;
     for (const g of v.giris || []) {
       if (g.kosul === "varsayilan") { if (!secilen) secilen = g; continue; }
-      if (ifadeCalistir(g.kosul, bilinen, this.durum.seeds, this.durum.cengoBag)) { secilen = g; break; }
+      if (ifadeCalistir(g.kosul, genis, this.durum.seeds, this.durum.cengoBag)) { secilen = g; break; }
     }
     (secilen?.acilan || []).forEach(o => bilinen.add(o));
     this.durum.aktif = {
@@ -123,6 +125,20 @@ class Oyun {
     };
     this._turet();
     return { baslik: v.baslik, giris: this.durum.aktif.girisMetin, arastirma: this.durum.aktif.arastirmaKalan };
+  }
+
+  // METİN koşulları için geniş bilgi kümesi: aktif vakadakiler + önceki
+  // vakalardan taşınan kalıcı olgular + tohumlar.
+  // MEKANİK kapılar (needs, gate) bunu KULLANMAZ; onlar dar kümeyle çalışır,
+  // yoksa V1'de öğrenilen bir olgu V5'te kaynak açardı.
+  _metinBilinen() {
+    const set = new Set(this.durum.aktif ? this.durum.aktif.bilinen : []);
+    (this.durum.kaliciOlgular || []).forEach(x => set.add(x));
+    for (const [key, val] of Object.entries(this.durum.seeds)) {
+      if (val === true) set.add(key);
+      if (typeof val === "string") set.add(key + ":" + val);
+    }
+    return set;
   }
 
   // knowledge sabit-nokta türetimi
@@ -180,8 +196,8 @@ class Oyun {
     (c.reveals || []).forEach(r => a.bilinen.add(r));
     this._turet();
     return {
-      text: metinSec(c.text, a.bilinen, this.durum.seeds, this.durum.cengoBag),
-      meta: metinSec(c.meta, a.bilinen, this.durum.seeds, this.durum.cengoBag),
+      text: metinSec(c.text, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag),
+      meta: metinSec(c.meta, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag),
       gorsel: c.gorsel || null,
       arastirmaKalan: a.arastirmaKalan, ucret, para: this.durum.para,
     };
@@ -264,9 +280,12 @@ class Oyun {
     this.durum.kaliciOlgular = this.durum.kaliciOlgular || [];
     a.bilinen.forEach(x => { if (!x.endsWith("_acildi") && !this.durum.kaliciOlgular.includes(x)) this.durum.kaliciOlgular.push(x); });
     const harcanan = a.harcanan || 0;
+    // Sonuç metni de koşullu olabilir: aynı kararı farklı bilgiyle veren
+    // oyuncular aynı cümleyi okumamalı. Bilinenler henüz elimizde.
+    const sonucMetin = metinSec(d.sonuc, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag);
     this.durum.aktif = null;
     return {
-      sonuc: d.sonuc,
+      sonuc: sonucMetin,
       cengoBag: this.durum.cengoBag,
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,

@@ -200,7 +200,23 @@
    "oyunu_surdur": "Bildiğimi sakladım, oyunu sürdürdüm. Her gün bir cinayetin örtüsünü tutuyorum. Cengo'nun suskunluğu ağır.",
    "kanit_biriktir": "Sessizce kanıt topluyorum. Vurmadım, teslim olmadım — bekliyorum. Elim güçlenecek. Yakalanmazsam.",
    "ceydaya_git": "Ceyda'ya gittim. O kadını okumaya çalıştım — ama belki o beni okudu. Kim kimi kullanıyor, artık emin değilim.",
-   "kazma": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Sonradan öğrendim ne yaptığımı — bir cinayetin aletiydim, farkında bile değildim."
+   "kazma": [
+    {
+     "kosul": {
+      "any": [
+       "cinayet_suphesi",
+       "iten_ilyas",
+       "zincir_tam",
+       "el_var"
+      ]
+     },
+     "metin": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Sonradan öğrendim ne yaptığımı — bir cinayetin aletiydim, farkında bile değildim."
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Ne yaptığımı hiç öğrenmedim — belki de öğrenmek istemedim."
+    }
+   ]
   },
   "V6": {
    "ilyas_ver": "Tetikçiyi verdim. En kolayı, en acınası olanı. Mimarlar gölgede kaldı. Adalet mi bu? Bilmiyorum.",

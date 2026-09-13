@@ -89,8 +89,15 @@ Kaynakların `text` ve `meta` alanları düz dizgi yerine varyant dizisi olabili
 ]
 ```
 
-Motorda `metinSec()` çözer. Aynı mekanizma anı defteri notlarında da var
-(`defterNotu`). Hak eden oyuncu bağlantıyı görür, etmeyen sızıntı görmez.
+Motorda `metinSec()` çözer. Koşullu metin desteklenen yerler: kaynak `text`
+ve `meta`, karar `sonuc`, anı defteri notu (`defterNotu`), ve vaka `giris`
+varyantları. Hak eden oyuncu bağlantıyı görür, etmeyen sızıntı görmez.
+
+**Metin koşulları GENİŞ bilgi kümesini görür** (`_metinBilinen`): aktif
+vakadakiler + önceki vakalardan taşınan kalıcı olgular + tohumlar. Mekanik
+kapılar (`needs`, `gate`) bunu kullanmaz; onlar dar kümeyle çalışır — yoksa
+V1'de öğrenilen bir olgu V5'te kaynak açardı. Bu ayrım olmadan "önceki vakada
+bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 
 ### Açık uyarılar (tasarım kararı bekliyor)
 
