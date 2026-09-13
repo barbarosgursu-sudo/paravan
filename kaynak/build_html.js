@@ -655,7 +655,7 @@ function sonEkrani(){
   if(d.seeds.sezon2_avukat_ipi){
     h += \`<div class="giris-metin"><p style="color:var(--altin);font-style:italic">Ve bir kırıntı: seni soyan avukatın izi. Peri'nin gözünde eski bir ateş... (Sezon 2)</p></div>\`;
   }
-  h += \`<div class="bilgi">Paravan Dedektiflik · Sezon 1 sonu</div>\`;
+  h += \`<div class="bilgi">Paravan Dedektiflik · Pilot Sezon sonu</div>\`;
   h += \`<button class="buton ikincil" onclick="defterGoster()">Anı defterini oku</button></div>\`;
   app.innerHTML=h; scrollUst();
 }
