@@ -20,8 +20,10 @@ k("başta gecistir AÇIK (gate yok)", o.acikKararlar().some(x=>x.id==="gecistir"
 k("başta tam_sahip_cik KAPALI", !o.acikKararlar().some(x=>x.id==="tam_sahip_cik"));
 o.kaynakAc("dolandirici_iz");
 k("sadece_coz açıldı (dolandirici_kim)", o.acikKararlar().some(x=>x.id==="sadece_coz"));
+const hakOnce = o.durum.aktif.arastirmaKalan;
 o.kaynakAc("peri_ic_ses");  // bedelsiz
-k("peri_ic_ses bedelsiz (araştırma korundu)", o.durum.aktif.arastirmaKalan===2);
+// bütçeden bağımsız iddia: bedelsiz kaynak hak HARCAMAMALI
+k("peri_ic_ses bedelsiz (araştırma korundu)", o.durum.aktif.arastirmaKalan===hakOnce);
 k("sorumluluk_tam türedi", o.bilinenler().includes("sorumluluk_tam"));
 k("tam_sahip_cik + gercegi_soyle açıldı", o.acikKararlar().some(x=>x.id==="tam_sahip_cik") && o.acikKararlar().some(x=>x.id==="gercegi_soyle"));
 

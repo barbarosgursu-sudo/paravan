@@ -20,8 +20,10 @@ k("başta biliyorum_cik KAPALI (gecmis_tam yok)", !o.acikKararlar().some(x=>x.id
 o.kaynakAc("tehdit_arastir");
 k("sessiz_coz + isi_gecevir açıldı (tehdit_kim)", o.acikKararlar().some(x=>x.id==="sessiz_coz") && o.acikKararlar().some(x=>x.id==="isi_gecevir"));
 o.kaynakAc("eski_kayit");
+const hakOnce = o.durum.aktif.arastirmaKalan;
 o.kaynakAc("cengo_cumle");  // bedelsiz
-k("cengo_cumle bedelsiz (araştırma korundu)", o.durum.aktif.arastirmaKalan===1);
+// bütçeden bağımsız iddia: bedelsiz kaynak hak HARCAMAMALI
+k("cengo_cumle bedelsiz (araştırma korundu)", o.durum.aktif.arastirmaKalan===hakOnce);
 k("gecmis_tam türedi", o.bilinenler().includes("gecmis_tam"));
 k("cengoya_birak + biliyorum_cik açıldı", o.acikKararlar().some(x=>x.id==="cengoya_birak") && o.acikKararlar().some(x=>x.id==="biliyorum_cik"));
 
