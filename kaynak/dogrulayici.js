@@ -254,6 +254,48 @@ function tohumBirlesimleri(vaka) {
   return birlesimler;
 }
 
+// Bir kaynağı kaçırmanın BEDELİ: kaçıran oyuncunun elinde en az kaç karar
+// kalıyor, alan oyuncunun en fazla kaçı oluyor. "Kusursuz sıra gerekiyor"
+// uyarısı ancak bu sayı düşüyorsa anlamlı; düşmüyorsa o kaynak derinlik
+// katıyor demektir ve uyarmak gürültüdür.
+function kararEtkisi(game, vaka, hedefId, Oyun) {
+  const hak = vaka.arastirma ?? 3;
+  let enKotuFark = null;                        // aynı gidişat içindeki en büyük kayıp
+  for (const tohumlar of tohumBirlesimleri(vaka)) {
+    // ÖNEMLİ: karşılaştırma aynı tohum gidişatı içinde yapılmalı. Farklı
+    // gidişatlardaki iki oyuncuyu kıyaslamak (biri kaynağa hiç erişemeyen)
+    // yanlış alarm üretir.
+    let alinca = null, kacirinca = null;
+    const gorulen = new Set();
+    const dene = (ac) => {
+      const anahtar = [...ac].sort().join("|");
+      if (gorulen.has(anahtar)) return;
+      gorulen.add(anahtar);
+      const o = new Oyun(game);
+      Object.assign(o.durum.seeds, tohumlar);
+      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+      for (const id of ac) if (o.kaynakAc(id).hata) return;
+      const alinabilir = o.acikKaynaklar().filter(c => {
+        const t = vaka.clues.find(x => x.id === c.id);
+        return t.bedelsiz || o.durum.aktif.arastirmaKalan > 0;
+      });
+      if (!alinabilir.length) {                       // yol bitti
+        const n = o.acikKararlar().length;
+        if (ac.includes(hedefId)) { if (alinca === null || n > alinca) alinca = n; }
+        else { if (kacirinca === null || n < kacirinca) kacirinca = n; }
+        return;
+      }
+      for (const c of alinabilir) dene([...ac, c.id]);
+    };
+    dene([]);
+    if (alinca !== null && kacirinca !== null && kacirinca < alinca) {
+      const fark = { alinca, kacirinca };
+      if (!enKotuFark || (alinca - kacirinca) > (enKotuFark.alinca - enKotuFark.kacirinca)) enKotuFark = fark;
+    }
+  }
+  return enKotuFark || { alinca: null, kacirinca: null };
+}
+
 function kural6_butce(game, hatalar, uyarilar) {
   let Oyun;
   try { Oyun = require("./motor.js").Oyun; } catch (e) { return; }   // motor yoksa atla
@@ -291,9 +333,17 @@ function kural6_butce(game, hatalar, uyarilar) {
       if (m === undefined) {
         hatalar.push(`[K6] ${vaka.id}/${c.id}: ${hak} araştırma hakkıyla hiçbir sırada açılamıyor — ölü içerik.`);
       } else if (m === hak && !c.bedelsiz) {
-        uyarilar.push(`[K6] ${vaka.id}/${c.id}: yalnızca kusursuz sırada açılabiliyor ` +
-                      `(asgari maliyet ${m} = tüm hak). Başka bir kaynağa bakan oyuncu onu listede görüp ` +
-                      `alamıyor. 'bedelsiz: true' ya da daha ucuz bir needs zinciri düşün.`);
+        // Kusursuz sıra gerekiyor — ama bunun bir BEDELİ var mı?
+        const { alinca, kacirinca } = kararEtkisi(game, vaka, c.id, Oyun);
+        if (kacirinca !== null && alinca !== null) {
+          const toplam = (vaka.decisions || []).length;
+          uyarilar.push(`[K6] ${vaka.id}/${c.id}: yalnızca kusursuz sırada açılabiliyor ` +
+            `(asgari maliyet ${m} = tüm hak) ve kaçıran oyuncunun elinde ${toplam} karardan ` +
+            `yalnızca ${kacirinca}'i kalıyor (alan oyuncuda ${alinca}). ` +
+            `Tek bir yanlış sıra vakanın çoğunu kapatıyor — 'bedelsiz: true' ya da daha ucuz ` +
+            `bir needs zinciri düşün.`);
+        }
+        // Karar sayısı düşmüyorsa bu kaynak derinlik katıyor demektir; uyarmıyoruz.
       }
     }
   }
