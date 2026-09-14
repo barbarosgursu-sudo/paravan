@@ -505,7 +505,7 @@ function sesDugmeTazele(){
 /* ============================================================
    🛠 GELİŞTİRİCİ MODU — YAYINA ALIRKEN AŞAĞIDAKİ SATIRI false YAP
    ============================================================ */
-const DEV_MOD = true;
+const DEV_MOD = false;
 
 // Test için ayarlanabilir seed anahtarları (giriş varyantlarını/koşullu içeriği tetikler)
 const DEV_SEEDLER = [
@@ -1259,3 +1259,10 @@ baslat();
 
 fs.writeFileSync("../index.html", html);
 console.log("index.html yenilendi:", (html.length/1024).toFixed(0), "KB");
+// Geliştirici modunun yanlışlıkla yayına gitmesi sessizce olabilecek bir hata.
+// Bayrak üretilen sayfanın içinde yaşıyor, derleyicinin kapsamında değil —
+// o yüzden ÇIKTIYA bakıyoruz: 🛠 düğmesi gerçekten basıldı mı?
+const devAcik = /const DEV_MOD = true/.test(html);
+console.log(devAcik
+  ? "  ⚠ GELİŞTİRİCİ MODU AÇIK — 🛠 düğmesi çıktıda. Yayın öncesi DEV_MOD = false yap."
+  : "  ✓ yayın modu — 🛠 düğmesi basılmadı");
