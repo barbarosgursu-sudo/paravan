@@ -856,6 +856,20 @@ en son ev sahibi harekete geçer.
 | Cengo'ya ödeme | "Cengo'nun eline geçmedi" | `cengoBag` **−1**, her açık kalan ayda yeniden |
 | Ofis kirası | Ev sahibi icraya verdi | Aylık giderlere **12.000 ₺** takip masrafı eklenir |
 
+### Aylık gider TEK KAYNAK
+
+`oyun.aylikGiderler()` — hem motor keserken hem arayüz önizlerken buradan
+okuyor. İkisi ayrı hesaplanıyordu ve **icra takip masrafı önizlemeye
+girmiyordu**: karar ekranı "ay sonunda borç 246.425 ₺" derken gerçek sonuç
+259.625 ₺ çıkıyordu. Fark 13.200 ₺ (12.000 masraf + 1.200 faizi).
+
+Bu, ekonominin en güvenilmesi gereken yerinde bir yalandı: oyuncu ahlaki
+tercihini yanlış rakamla yapıyordu.
+
+**`test_ekonomi`'nin "önizleme motorla aynı" testi bu hatayı kaçırmıştı**,
+çünkü hiç icra senaryosu denemiyordu. Artık deniyor. Test yazarken "hangi
+durumu denemiyorum" sorusu, "ne iddia ediyorum" kadar önemli.
+
 ### Çekirdek kaynak: cezanın silemeyeceği delil
 
 Krizler araştırma **genişliğini** kısabilir, ama bir vakanın başlığını anlamlı

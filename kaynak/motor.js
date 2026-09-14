@@ -191,6 +191,20 @@ class Oyun {
     return { baslik: v.baslik, giris: this.durum.aktif.girisMetin, arastirma: this.durum.aktif.arastirmaKalan };
   }
 
+  // BU AYIN GİDER KALEMLERİ — TEK KAYNAK.
+  // Hem motor keserken hem arayüz önizlerken buradan okur. Ayrı ayrı
+  // hesaplandığında icra takip masrafı önizlemeye girmiyordu: oyuncu ahlaki
+  // tercihini 13.200 ₺ yanlış bir rakamla yapıyordu.
+  aylikGiderler() {
+    const e = ekonomiAl(this.game);
+    const kalemler = Object.entries(e.gider || {}).map(([ad, tutar]) => ({ ad, tutar }));
+    // İcra sürüyorsa takip masrafı da bu ayın gideri. En sona eklenir ki
+    // asıl kalemleri öne geçip onları ödenmemiş göstermesin.
+    if (this.durum.kriz.kira) kalemler.push({ ad: "İcra takip masrafı", tutar: ICRA_MASRAFI });
+    return kalemler;
+  }
+  aylikGiderToplam() { return this.aylikGiderler().reduce((a, b) => a + b.tutar, 0); }
+
   // Bir kaynak ya doğuştan bedelsizdir (bedelsiz: true) ya da bir koşul
   // sağlandığında bedelsizleşir (bedelsiz_kosul). İkincisi geçmiş kararların
   // araştırmaya dokunmasını sağlıyor: V1'de kendine dosya açan oyuncu V5'te
@@ -423,11 +437,7 @@ class Oyun {
     if (a.vaka.tur === "omurga") {
       // Kalemler TEK TEK ödeniyor ve hangisinin açık kaldığı kaydediliyor:
       // borcun sonucu ancak böyle "elektrik kesildi"ye dönüşebilir.
-      const kalemler = Object.entries(ekonomi.gider || {});
-      // İcra sürüyorsa takip masrafı da bu ayın gideri. En sona eklenir ki
-      // asıl kalemleri öne geçip onları ödenmemiş göstermesin.
-      if (this.durum.kriz.kira) kalemler.push(["İcra takip masrafı", ICRA_MASRAFI]);
-      for (const [ad, tutar] of kalemler) {
+      for (const { ad, tutar } of this.aylikGiderler()) {
         const odenen = Math.min(this.durum.para, tutar);
         paraDus(this.durum, tutar);
         giderler.push({ ad, tutar, odenen, eksik: tutar - odenen });

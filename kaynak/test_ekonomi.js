@@ -7,6 +7,8 @@ const g = JSON.parse(require("fs").readFileSync("game_data.json", "utf-8"));
 let hata = 0;
 const k = (ad, ok, ek) => { console.log((ok ? "✓" : "✗ BAŞARISIZ") + " " + ad + (ek ? " → " + ek : "")); if (!ok) hata++; };
 const tl = n => Math.round(n).toLocaleString("tr-TR") + " ₺";
+// JS'in /i/ bayrağı Türkçe İ'yi (U+0130) i'ye katlamıyor — elle katlıyoruz.
+const tr = x => String(x).toLocaleLowerCase("tr");
 
 // Belirli bir kararı açan bir araştırma yolu bul (kapıları kovalar).
 function kararIcinOyna(vid, kararId) {
@@ -203,8 +205,12 @@ console.log("\n=== KARAR ÖNİZLEMESİ MOTORLA AYNI SONUCU VERİYOR ===");
   // sırası (önce giderler, SONRA borcun tamamına faiz) değişirse burası patlar
   // ve arayüzün de güncellenmesi gerektiğini söyler.
   const e = ekonomiAl(g), gider = giderToplam(g);
-  const onizleme = (para, borc, kararPara, omurgaMi) => {
-    const aylikGider = omurgaMi ? gider : 0;
+  // Önizleme, motorun kesitiği kalemlerin TOPLAMINI kullanmalı — sabit
+  // giderToplam()'ı değil. İcra sürerken ikisi ayrışıyordu ve oyuncu ahlaki
+  // tercihini 13.200 ₺ yanlış bir rakamla yapıyordu. Bu testin eski hâli
+  // hatayı kaçırdı çünkü hiç icra senaryosu denemiyordu.
+  const onizleme = (para, borc, kararPara, omurgaMi, aylikGiderToplam) => {
+    const aylikGider = omurgaMi ? (aylikGiderToplam ?? gider) : 0;
     const kalan = para + kararPara - aylikGider;
     let kasaSonra = Math.max(0, kalan);
     let borcSonra = borc + Math.max(0, -kalan);
@@ -220,7 +226,8 @@ console.log("\n=== KARAR ÖNİZLEMESİ MOTORLA AYNI SONUCU VERİYOR ===");
     o.vakaBaslat(vid);
     for (const id of yol) o.kaynakAc(id);
     const omurgaMi = o.durum.aktif.vaka.tur === "omurga";
-    const t = onizleme(para, borc, g.vakalar.find(v=>v.id===vid).decisions.find(d=>d.id===kid).para || 0, omurgaMi);
+    const t = onizleme(para, borc, g.vakalar.find(v=>v.id===vid).decisions.find(d=>d.id===kid).para || 0,
+                       omurgaMi, o.aylikGiderToplam());
     o.kararVer(kid);
     k(`${vid}/${kid} (kasa ${tl(para)}, borç ${tl(borc)}): kasa uyuyor`,
       o.durum.para === t.kasa, tl(o.durum.para) + " ≟ " + tl(t.kasa));
@@ -230,6 +237,45 @@ console.log("\n=== KARAR ÖNİZLEMESİ MOTORLA AYNI SONUCU VERİYOR ===");
   dene("V3", "polise_ver",    21850, 40000);   // borçluyken borç büyümesi
   dene("V3", "tanigi_lekele", 21850,     0);   // kâr eden ay
   dene("V3", "tanigi_lekele",  5000, 30000);   // kâr var ama borç faiziyle duruyor
+}
+
+console.log("\n=== İCRA SÜRERKEN DE ÖNİZLEME TUTUYOR ===");
+{
+  // 3. inceleme turunda yakalanan hata: "Bu ay ödeyeceksin" kutusu ve karar
+  // önizlemesi sabit giderToplam()'ı okuyordu, motor ise icra takip masrafını
+  // da kesiyordu. Fark 13.200 ₺ (12.000 masraf + 1.200 faizi).
+  const e2 = ekonomiAl(g), temelGider = giderToplam(g);
+  const onizleme2 = (para, borc, kararPara, aylikGider) => {
+    const kalan = para + kararPara - aylikGider;
+    let kasaSonra = Math.max(0, kalan);
+    let borcSonra = borc + Math.max(0, -kalan);
+    if (aylikGider && borcSonra > 0) borcSonra += Math.round(borcSonra * (e2.borc_faizi || 0));
+    const odeme = Math.min(kasaSonra, borcSonra);
+    return { kasa: kasaSonra - odeme, borc: borcSonra - odeme };
+  };
+  const o = new Oyun(g);
+  o.durum.para = 0;
+  o.vakaBaslat("V1"); o.kararVer("reddet");        // üç kriz de yansın
+  k("icra başladı (test anlamlı)", o.durum.kriz.kira === true);
+  k("aylık gider icrayı içeriyor", o.aylikGiderToplam() > temelGider,
+    tl(temelGider) + " → " + tl(o.aylikGiderToplam()));
+  k("icra ayrı bir kalem olarak görünüyor",
+    o.aylikGiderler().some(x => tr(x.ad).includes("icra")),
+    o.aylikGiderler().map(x => x.ad).join(" | "));
+
+  const para = o.durum.para, borc = o.durum.borc;
+  const kararPara = g.vakalar.find(v => v.id === "V2").decisions.find(d => d.id === "kuru_rapor").para;
+  const t = onizleme2(para, borc, kararPara, o.aylikGiderToplam());
+  o.vakaBaslat("V2");
+  o.kararVer("kuru_rapor");
+  k("icralı ayda kasa önizlemesi tutuyor", o.durum.para === t.kasa, tl(o.durum.para) + " ≟ " + tl(t.kasa));
+  k("icralı ayda borç önizlemesi tutuyor", o.durum.borc === t.borc, tl(o.durum.borc) + " ≟ " + tl(t.borc));
+
+  // Arayüz de aynı kaynağı okumalı
+  const ui = fs.readFileSync("build_html.js", "utf-8");
+  k("arayüz gider kutusunu motordan okuyor", /oyun\.aylikGiderler\(\)/.test(ui));
+  k("arayüz önizlemede de motordan okuyor", /oyun\.aylikGiderToplam\(\)/.test(ui));
+  k("arayüz artık sabit giderToplam(GAME) kullanmıyor", !/giderToplam\(GAME\)/.test(ui));
 }
 
 console.log("\n=== KAYIT EKONOMİYİ TAŞIYOR ===");

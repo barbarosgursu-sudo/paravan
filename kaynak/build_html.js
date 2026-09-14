@@ -879,16 +879,17 @@ function kararFazi(){
   // Baskının çapası bu. Küçük gri bir satır olarak geçiştirilirse oyuncu
   // görmüyor ve karar bedelsiz hissettiriyor — masadaki fatura gibi dursun.
   if(oyun.durum.aktif.vaka.tur === "omurga"){
-    const gd = ekonomiAl(GAME).gider || {};
+    // Motorun keseceği kalemlerin TA KENDİSİ — icra sürüyorsa o da burada.
+    const gd = oyun.aylikGiderler();
     h += \`<div class="gider-uyari">
-      <div class="ust-satir"><span class="et">Bu ay ödeyeceksin</span><span class="tutar">\${tl(giderToplam(GAME))}</span></div>
-      <div class="dokum">\${Object.entries(gd).map(([ad,t]) => \`<span>\${ad} <b>\${tl(t)}</b></span>\`).join("")}</div>
+      <div class="ust-satir"><span class="et">Bu ay ödeyeceksin</span><span class="tutar">\${tl(oyun.aylikGiderToplam())}</span></div>
+      <div class="dokum">\${gd.map(x => \`<span>\${x.ad} <b>\${tl(x.tutar)}</b></span>\`).join("")}</div>
     </div>\`;
   }
   // Baskı ancak SONUCU görünürse hissedilir. Tutarı gizlemek ikilemi
   // korumuyordu, sadece kararı anlamsızlaştırıyordu — baskın seçeneği K8
   // engelliyor zaten. Peri iş kadını: hangi işin ne getirdiğini bilir.
-  const aylikGider = (oyun.durum.aktif.vaka.tur === "omurga") ? giderToplam(GAME) : 0;
+  const aylikGider = (oyun.durum.aktif.vaka.tur === "omurga") ? oyun.aylikGiderToplam() : 0;
   // İtibar ücreti vaka düzeyinde ölçekliyor. Oyuncu bunu KARAR VERMEDEN ÖNCE
   // görmeli; yoksa ekranda yazan rakamla kasaya giren rakam tutmaz.
   const itibar = oyun.ucretEtkisi();
