@@ -195,6 +195,31 @@ bekçi anında yakalıyor.
 Metnin kendisi koşulluyken **meta'nın koşulsuz kalması** iki kez tekrarladı
 (`V6/kaya_izi`). Varyant eklerken her iki alanı da gözden geçirmek gerekiyor.
 
+## Eksi tutarların gerçek bir adı var
+
+Karar ekranı Peri'nin cebinden çıkan parayı da **"ÜCRET −35.000 ₺"** diye
+gösteriyordu. Bu, ahlakın doğrudan satın alındığı hissini veriyordu: sanki
+vicdanın fiyatı var ve oyuncu onu ödüyor.
+
+Artık her gider kendi adıyla görünüyor (`decisions[].bedel_adi`):
+
+| Karar | Tutar | Ad |
+|---|---|---|
+| `YAN-B/tam_sahip_cik` | −40.000 ₺ | Nadire'nin zararı |
+| `YAN-B/gercegi_soyle` | −18.000 ₺ | Nadire'ye bırakılan |
+| `YAN-B/sadece_coz` | −8.000 ₺ | Takip masrafı |
+| `YAN-C/aylayi_uyar` | −15.000 ₺ | Ayla'nın taşınma parası |
+| `V4/aileye_soyle` | −10.000 ₺ | Aileye bırakılan |
+| `V4/sessiz_coz` | −35.000 ₺ | Tedavi katkısı |
+| `V6/cavit_ver` | −20.000 ₺ | Tahsil edilemeyen hesap |
+
+Rakam aynı, anlamı başka: *"TEDAVİ KATKISI −35.000 ₺"* bir fatura,
+*"ÜCRET −35.000 ₺"* bir fiyat etiketi. Hem karar ekranında hem sonuçtaki
+hesap kutusunda kullanılıyor.
+
+`test_ekonomi` her eksi tutarın adı olmasını ve hiçbir adın "ücret"
+dememesini şart koşuyor — yeni bir cepten-ödeme eklendiğinde test hatırlatır.
+
 ## Sabit finansal iddia yasağı
 
 Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir

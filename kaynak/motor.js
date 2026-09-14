@@ -469,7 +469,8 @@ class Oyun {
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,
       // ekonomik döküm — oyuncu kararının parasal sonucunu ekranda görmeli
-      ekonomi: { kararPara, ilanPara, itibar, harcanan, giderler, faiz, borcOdemesi, yeniKrizler,
+      ekonomi: { kararPara, ilanPara, itibar, bedelAdi: d.bedel_adi || null,
+                 harcanan, giderler, faiz, borcOdemesi, yeniKrizler,
                  kriz: { ...this.durum.kriz }, para: this.durum.para, borc: this.durum.borc },
     };
   }

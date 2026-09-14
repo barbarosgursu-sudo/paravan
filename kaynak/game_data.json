@@ -1150,7 +1150,8 @@
       "yanb_karar": "sahip"
      },
      "yuzde": 36,
-     "para": -40000
+     "para": -40000,
+     "bedel_adi": "Nadire'nin zararı"
     },
     {
      "id": "gercegi_soyle",
@@ -1162,7 +1163,8 @@
       "yanb_karar": "yuzlesti"
      },
      "yuzde": 22,
-     "para": -18000
+     "para": -18000,
+     "bedel_adi": "Nadire'ye bırakılan"
     },
     {
      "id": "sadece_coz",
@@ -1174,7 +1176,8 @@
       "yanb_karar": "coz"
      },
      "yuzde": 30,
-     "para": -8000
+     "para": -8000,
+     "bedel_adi": "Takip masrafı"
     },
     {
      "id": "gecistir",
@@ -1404,7 +1407,8 @@
      "para": -15000,
      "seed_yaz": {
       "adres_kime": "uyardi"
-     }
+     },
+     "bedel_adi": "Ayla'nın taşınma parası"
     }
    ]
   },
@@ -1575,7 +1579,8 @@
       "v4_karar": "soyledi"
      },
      "yuzde": 29,
-     "para": -10000
+     "para": -10000,
+     "bedel_adi": "Aileye bırakılan"
     },
     {
      "id": "sessiz_coz",
@@ -1587,7 +1592,8 @@
       "v4_karar": "sessiz"
      },
      "yuzde": 24,
-     "para": -35000
+     "para": -35000,
+     "bedel_adi": "Tedavi katkısı"
     },
     {
      "id": "kimligi_sakla",
@@ -2206,7 +2212,8 @@
       "final_karar": "cavit"
      },
      "yuzde": 34,
-     "para": -20000
+     "para": -20000,
+     "bedel_adi": "Tahsil edilemeyen hesap"
     },
     {
      "id": "ceyda_ver",

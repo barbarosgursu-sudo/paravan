@@ -920,8 +920,12 @@ function kararFazi(){
       const tutar = p > 0 ? "+" + tl(p) : (p < 0 ? tl(p) : "ödeme yok");
       // İki rakam arasındaki ilişki görünmezse okuyan "bu ne demek?" diyor.
       // Ücret → ay sonu zinciri okla kurulsun.
+      // Eksi tutarı "ücret" diye göstermek ahlakın satın alındığı hissini
+      // veriyordu. Her giderin gerçek bir adı var: taşınma parası, tedavi
+      // katkısı, tahsil edilemeyen hesap.
+      const etiket = (p < 0 && v6Karar(k.id).bedel_adi) ? v6Karar(k.id).bedel_adi : "ücret";
       bedel = \`<span class="bedel">
-        <span class="etiket">ücret</span><b class="\${p>0?'kazanc':'yok'}">\${tutar}</b>
+        <span class="etiket">\${etiket}</span><b class="\${p>0?'kazanc':'yok'}">\${tutar}</b>
         <span class="ok">→</span>
         <span class="kalan \${sinif}">ay sonunda \${tl(kasaSonra)}</span>
         \${borcSonra>0?\`<span class="borc-onizleme">borç \${tl(borcSonra)}</span>\`:""}
@@ -978,7 +982,7 @@ function hesapKutusu(e){
     // İtibar ücreti değiştirdiyse satır bunu söylesin; yoksa rakam sebepsiz
     // görünür ve oyuncu yanlış hatırladığını sanır.
     const kirpik = e.itibar && e.itibar.carpan !== 1 && e.ilanPara > 0;
-    h += \`<div class="satir \${e.kararPara>0?'gelir':'gider'}"><span>\${e.kararPara>0?'Vaka ücreti':'Kararın bedeli'}\${
+    h += \`<div class="satir \${e.kararPara>0?'gelir':'gider'}"><span>\${e.kararPara>0?'Vaka ücreti':(e.bedelAdi||'Kararın bedeli')}\${
       kirpik?\`<em class="acik" style="color:var(--sonuk)">anlaşılan \${tl(e.ilanPara)}, itibar ×\${e.itibar.carpan.toFixed(2)}</em>\`:""
     }</span><b>\${tl(e.kararPara)}</b></div>\`;
   }

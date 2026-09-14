@@ -2,6 +2,7 @@
 // Tasarım tezi: para bir SKOR değil, bir KISIT. Batmak oyunu bitirmez —
 // düzgün olma hakkını elinden alır. Bu testler o tezi koruyor.
 const { Oyun, giderToplam, ekonomiAl } = require("./motor.js");
+const fs = require("fs");
 const g = JSON.parse(require("fs").readFileSync("game_data.json", "utf-8"));
 let hata = 0;
 const k = (ad, ok, ek) => { console.log((ok ? "✓" : "✗ BAŞARISIZ") + " " + ad + (ek ? " → " + ek : "")); if (!ok) hata++; };
@@ -162,6 +163,36 @@ console.log("\n=== KASA DURUMU SAYIYI VE ANLAMINI VERİYOR ===");
   dene(gider * 1.5, 0, "dar");
   dene(gider * 0.5, 0, "kritik");
   dene(0, 50000, "batık");
+}
+
+console.log("\n=== EKSİ TUTARLARIN GERÇEK BİR ADI VAR ===");
+{
+  // "Ücret −20.000 ₺" demek, ahlakın doğrudan satın alındığı hissini veriyor.
+  // Peri'nin cebinden çıkan her kalemin diegetik bir adı olmalı: taşınma
+  // parası, tedavi katkısı, tahsil edilemeyen hesap.
+  const eksiler = [];
+  for (const v of g.vakalar) for (const d of v.decisions)
+    if ((d.para || 0) < 0) eksiler.push([v.id, d]);
+  k("cepten ödeten karar var (test anlamlı)", eksiler.length > 0, eksiler.length + " karar");
+  const adsiz = eksiler.filter(([, d]) => !d.bedel_adi).map(([vid, d]) => vid + "/" + d.id);
+  k("hepsinin bedel_adi var", adsiz.length === 0, adsiz.join(", "));
+  for (const [vid, d] of eksiler) console.log("   " + (vid + "/" + d.id).padEnd(22) + tl(d.para).padStart(11) + "   " + d.bedel_adi);
+  k("hiçbir ad 'ücret' demiyor",
+    eksiler.every(([, d]) => !/ücret/i.test(d.bedel_adi || "")));
+
+  // Motor adı sonuç ekranına taşıyor
+  const o = new Oyun(g);
+  o.durum.para = 2000000;
+  o.durum.tamamlanan = ["V1", "V2", "V3", "V4"];
+  o.vakaBaslat("YAN-B");
+  o.kaynakAc("dolandirici_iz"); o.kaynakAc("peri_ic_ses");
+  const r = o.kararVer("tam_sahip_cik");
+  k("motor bedel adını döndürüyor", !!r.ekonomi.bedelAdi, r.ekonomi.bedelAdi);
+
+  // Arayüz iki yerde de kullanıyor: karar ekranı ve hesap kutusu
+  const ui = fs.readFileSync("build_html.js", "utf-8");
+  k("karar ekranı bedel adını kullanıyor", /bedel_adi\) \? v6Karar\(k\.id\)\.bedel_adi/.test(ui));
+  k("hesap kutusu bedel adını kullanıyor", /e\.bedelAdi\|\|'Kararın bedeli'/.test(ui));
 }
 
 console.log("\n=== KARAR ÖNİZLEMESİ MOTORLA AYNI SONUCU VERİYOR ===");
