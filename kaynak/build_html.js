@@ -1134,8 +1134,13 @@ function sonEkrani(){
   }[oyun.cengoDurum()];
   // NOT: anahtar 'hepsi' olmalı — karar seed_yaz'ı onu yazıyor. Eskiden
   // 'hepsini_ifsa' yazıyordu ve o final cümlesi hiç görünmüyordu.
+  // Zinciri çözemeyen oyuncu "mimarlar" diye birilerinin varlığını bilmiyor.
+  // Aynı karar (İlyas'ı vermek) iki bilgi durumundan da verilebiliyor.
+  const zinciriBiliyor = oyun.tumBilinen().has("zincir_tam");
   const fk = {
-    "ilyas":"Tetikçiyi verdin; mimarlar gölgede kaldı.",
+    "ilyas": zinciriBiliyor
+      ? "Tetikçiyi verdin; mimarlar gölgede kaldı."
+      : "Elindeki tek ismi verdin. Arkasında biri var mıydı, hiç öğrenemedin.",
     "cavit":"Mimarı verdin; zincir koptu, ajans sarsıldı.",
     "ceyda":"Belki asıl aklı verdin — ama asla emin olamayacaksın.",
     "sus_bilerek":"Sustun. Elin temiz değil ama hayattasın.",

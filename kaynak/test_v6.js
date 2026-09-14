@@ -1,4 +1,5 @@
 const { Oyun } = require("./motor.js");
+const fs = require("fs");
 const { dogrula } = require("./dogrulayici.js");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
@@ -90,14 +91,24 @@ console.log("\n=== PARA: FİNALDE ÜCRET YOK, SONUÇ VAR ===");
   // Rakamlar kararların kendi metinlerinden çıkıyor.
   const duz = x => typeof x === "string" ? x : JSON.stringify(x);
   const bul = id => v.decisions.find(d => d.id === id);
-  k("'ajans yaşar' diyen karar kazandıran", /ajans yaşar/.test(duz(bul("sus_bilerek").sonuc)));
+  // "ajans yaşar / ajans rahat" gibi finansal durum iddiaları metinden
+  // kaldırıldı: sabit cümle, 500.000 ₺ borçlu oyuncuya yalan söylüyordu.
+  // Paranın KAYNAĞI hâlâ metinde — Cavit susmayı satın alıyor.
+  k("susma metni parayı Cavit'in ödediğini söylüyor",
+    /Cavit.{0,40}öd/is.test(duz(bul("sus_bilerek").sonuc)));
+  k("metinde artık sabit finansal durum iddiası yok",
+    !/ajans yaşar|ajans rahat|ajans bu ay/i.test(duz(bul("sus_bilerek").sonuc)));
   k("'ajans batabilir' diyen karar kaybettiren", /ajans batabilir/.test(duz(bul("cavit_ver").sonuc)));
 
-  // boslukla_kapat, zincir_tam'lı kararlarla ASLA birlikte sunulmuyor
-  // (kapısı {not: zincir_tam}). K8 bunu bilmiyor; burada sıfırda oldukları
-  // için sorun çıkmıyor ama ikisi ayrışırsa yanlış alarm verir.
-  k("boşlukla kapat, zincir_tam kararlarıyla dışlayan kapıda",
-    JSON.stringify(bul("boslukla_kapat").gate) === JSON.stringify({not:"zincir_tam"}));
+  // boslukla_kapat, ele verilecek biri OLAN oyuncuya asla sunulmuyor: kapısı
+  // artık "ne zinciri biliyor ne İlyas'ı" demek. K8 bu dışlamayı bilmiyor;
+  // burada hepsi sıfırda olduğu için sorun çıkmıyor ama ayrışırlarsa yanlış
+  // alarm verir.
+  const kapi = bul("boslukla_kapat").gate;
+  k("boşlukla kapat dışlayan bir kapıda", !!kapi.not, JSON.stringify(kapi));
+  const icerik = JSON.stringify(kapi.not);
+  k("hem zinciri hem İlyas'ı dışlıyor",
+    /zincir_tam/.test(icerik) && /iten_biliniyor/.test(icerik), icerik);
 
   // Sezonun son ayı da bir ay: kira ödeniyor.
   const o = new Oyun(g);
@@ -108,6 +119,76 @@ console.log("\n=== PARA: FİNALDE ÜCRET YOK, SONUÇ VAR ===");
   const r = o.kararVer(o.acikKararlar().map(x=>x.id).includes("sus_bilerek") ? "sus_bilerek" : o.acikKararlar()[0].id);
   k("final ayında da sabit giderler kesiliyor", r.ekonomi.giderler.length > 0,
     r.ekonomi.giderler.length + " kalem");
+}
+
+console.log("\n=== DÖRT BİLGİ DURUMU, DÖRT AYRI KAPANIŞ ===");
+{
+  // Eskiden zinciri çözemeyen HERKES tek bir zorunlu kapanışa düşüyordu ve
+  // metin ona "verecek kimsen yoktu" diyordu. İlyas'ı katil olarak bilen
+  // oyuncu için bu düpedüz yanlıştı: verecek biri vardı.
+  const kur = (derinlik, plan) => {
+    const o = new Oyun(g);
+    o.durum.para = 3000000;                      // ekonomi değil bilgi sınanıyor
+    for (const vid of ["V1","V2","V3","V4","V5"]) {
+      o.vakaBaslat(vid);
+      const n = derinlik[vid] ?? 0;
+      let i = 0;
+      while (i < n && o.acikKaynaklar().length) { if (o.kaynakAc(o.acikKaynaklar()[0].id).hata) break; i++; }
+      const kr = o.acikKararlar().map(x => x.id);
+      o.kararVer(kr.includes(plan[vid]) ? plan[vid] : kr[0]);
+    }
+    o.vakaBaslat("V6");
+    let n = 0;
+    while (o.acikKaynaklar().length && n++ < 4) { if (o.kaynakAc(o.acikKaynaklar()[0].id).hata) break; }
+    return o;
+  };
+  const A = kur({},                     {V1:"temiz_rapor",V3:"tanigi_lekele",V5:"kazma"});
+  const B = kur({V1:9},                 {V1:"gizli_kaz",  V3:"tanigi_lekele",V5:"kazma"});
+  const C = kur({V1:9,V3:9},            {V1:"gizli_kaz",  V3:"koz_yap",      V5:"kazma"});
+  const D = kur({V1:9,V3:9,V4:9,V5:9},  {V1:"gizli_kaz",  V3:"koz_yap",      V5:"cavite_vur"});
+  const idler = o => o.acikKararlar().map(x => x.id).sort().join(",");
+
+  k("A (hiç bakmadı): yalnız dosyayı kapat", idler(A) === "boslukla_kapat", idler(A));
+  k("B (baktı, bulamadı): yalnız dosyayı kapat", idler(B) === "boslukla_kapat", idler(B));
+  k("C (İlyas'ı biliyor): ARTIK gerçek bir seçim var",
+    idler(C) === "ilyas_ver,sus_bilerek", idler(C));
+  k("C artık 'dosyayı kapat'a düşmüyor", !idler(C).includes("boslukla_kapat"));
+  k("D (zinciri çözdü): dört seçenek", idler(D).split(",").length === 4, idler(D));
+
+  // Kapı DAR bilgi kümesiyle çalışır; iten_ilyas V3'ün olgusu, V6'nın değil.
+  // Bu yüzden tohum üzerinden bakılıyor — V3 onu zaten yazıyordu ama kimse
+  // okumuyordu.
+  k("C'nin kapısını açan şey iten_biliniyor tohumu", C.durum.seeds.iten_biliniyor === true);
+
+  console.log("\n   --- metinler ---");
+  const metin = (o, id) => {
+    const t = new Oyun(g);
+    t.durumYukle(JSON.parse(JSON.stringify(o.durumAl())));
+    return t.kararVer(id).sonuc;
+  };
+  const mA = metin(A, "boslukla_kapat"), mB = metin(B, "boslukla_kapat");
+  const mC = metin(C, "ilyas_ver"),      mD = metin(D, "ilyas_ver");
+  for (const [ad, m] of [["A", mA], ["B", mB], ["C", mC], ["D", mD]])
+    console.log("   " + ad + ": " + m.slice(0, 96) + "…");
+
+  k("A ile B aynı cümleyi okumuyor", mA !== mB);
+  k("A'ya 'baktın' denmiyor", !/baktın|sordun/i.test(mA), mA.slice(0, 60));
+  k("B'ye 'peşine düşmedin' denmiyor", !/peşine düşmedin/i.test(mB));
+  k("C ile D aynı cümleyi okumuyor", mC !== mD);
+  // NURCAN: C zinciri çözmedi — Cavit'in ya da Ceyda'nın adı geçmemeli.
+  k("C'nin metni Cavit/Ceyda/mimar demiyor", !/Cavit|Ceyda|mimar/i.test(mC), mC);
+  k("D'nin metni mimarlardan söz ediyor (test anlamlı)", /mimar/i.test(mD));
+
+  const sC = metin(C, "sus_bilerek"), sD = metin(D, "sus_bilerek");
+  k("susmanın iki metni farklı", sC !== sD);
+  k("C'nin susma metni zinciri ele vermiyor", !/Ceyda|ortak olmak|azmettir/i.test(sC), sC);
+
+  // Son ekran da aynı ayrımı yapmalı: "mimarlar gölgede kaldı" cümlesi
+  // zinciri bilmeyen oyuncuya gösterilemez.
+  const ui = fs.readFileSync("build_html.js", "utf-8");
+  k("son ekran zincir bilgisine göre ayrışıyor", /zinciriBiliyor/.test(ui));
+  k("zincir bilmeyene 'mimarlar' denmiyor",
+    /zinciriBiliyor[\s\S]{0,200}mimarlar gölgede/.test(ui));
 }
 
 console.log("\n"+(hata===0?"=== V6 TEST TAMAM ===":"=== "+hata+" BAŞARISIZ ==="));

@@ -476,6 +476,42 @@ metinlerde zaten vardı:
 - **Parayı kaybetmeyi göze almak, para akarken kanıt biriktirmekten ağır.**
   +2 ve +1.
 
+## V6 — dört bilgi durumu, dört ayrı kapanış
+
+Eskiden zinciri çözemeyen **herkes** tek bir zorunlu kapanışa düşüyordu ve
+metin ona *"Kimseyi ele vermedin çünkü verecek kimsen yoktu"* diyordu.
+İlyas'ı katil olarak bilen oyuncu için bu düpedüz yalandı: verecek biri vardı.
+
+| Durum | Ne biliyor | Ne sunuluyor |
+|---|---|---|
+| **A** | Hiçbir şey; peşine hiç düşmedi | Dosyayı kapat |
+| **B** | Bir şeyin tutmadığını gördü, isim yok | Dosyayı kapat *(farklı metin)* |
+| **C** | **İlyas'ın ittiğini biliyor** | **İlyas'ı ele ver** · **sus** |
+| **D** | Zincirin tamamı | Dört seçenek |
+
+C artık gerçek bir ikilemle karşılaşıyor: elindeki tek ismi verir ya da gömer.
+Gömerse Cavit ödüyor (+70.000 ₺) — **neden bu kadar kolay ödediğini bilmeden.**
+
+### Kapı neden tohumla açılıyor
+
+Kararların kapıları **dar** bilgi kümesiyle çalışır: yalnızca o vakanın kendi
+olguları. `iten_ilyas` V3'ün olgusu, V6'nın değil — doğrudan kapı olarak
+kullanılamaz. `iten_biliniyor` tohumu tam bu iş için V3'te zaten yazılıyordu
+ama bugüne kadar hiçbir yerde okunmuyordu. Artık okunuyor.
+
+### Metinler dört durumu da ayırıyor
+
+- **A**: "Peşine düşmedin, o yüzden verecek kimsen de olmadı."
+- **B**: "Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok."
+- **C**: "Elindeki tek ismi verdin… onu oraya kimin sürdüğünü sen de hiç
+  öğrenemedin." — **Cavit, Ceyda, "mimar" kelimeleri geçmiyor.**
+- **D**: "asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir."
+
+Son ekran da ayrışıyor: zinciri bilmeyene *"mimarlar gölgede kaldı"*
+denmiyor, çünkü mimarların varlığını bilmiyor.
+
+`test_v6` dördünü de ve C metninin sızdırmadığını kilitliyor.
+
 ## V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
 
 V6'nın da müşterisi yok; bu Peri'nin kendi son sorusu. Para burada bir ücret

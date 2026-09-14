@@ -2128,9 +2128,26 @@
    "decisions": [
     {
      "id": "ilyas_ver",
-     "gate": "zincir_tam",
+     "gate": {
+      "any": [
+       "zincir_tam",
+       {
+        "seed": "iten_biliniyor",
+        "esit": true
+       }
+      ]
+     },
      "etiket": "İlyas'ı ele ver (tetikçi)",
-     "sonuc": "En kolay hedef, en acınası kurban. Onu verdin — asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir. Küçük balığı verip büyükleri kaçırdın.",
+     "sonuc": [
+      {
+       "kosul": "zincir_tam",
+       "metin": "En kolay hedef, en acınası kurban. Onu verdin — asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir. Küçük balığı verip büyükleri kaçırdın."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Elindeki tek ismi verdin. İlyas içeri girdi ve konuşmadı — onu oraya kimin sürdüğünü sen de hiç öğrenemedin. Bir adam hesap verdi; hesabı ona kimin ödettiği karanlıkta kaldı."
+      }
+     ],
      "cengoBag": 0,
      "seed_yaz": {
       "final_karar": "ilyas"
@@ -2165,27 +2182,68 @@
     {
      "id": "sus_bilerek",
      "etiket": "Hiçbirini verme, sus",
-     "gate": "zincir_tam",
+     "gate": {
+      "any": [
+       "zincir_tam",
+       {
+        "seed": "iten_biliniyor",
+        "esit": true
+       }
+      ]
+     },
      "cengoBag": -1,
      "yuzde": 21,
      "seed_yaz": {
       "final_karar": "sus_bilerek"
      },
-     "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin. Cavit susmanın bedelini peşin ödüyor; ajans bu ay rahat.",
+     "sonuc": [
+      {
+       "kosul": "zincir_tam",
+       "metin": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın. Adaletsizlikle yaşamayı seçtin. Cavit susmanın bedelini peşin ödüyor."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Bir adın vardı ve onu gömdün. Cavit ödemeyi hiç sormadan, hiç pazarlık etmeden yaptı — o kadar kolay oldu ki, neden bu kadar kolay olduğunu kendine sormadın bile."
+      }
+     ],
      "para": 70000
     },
     {
      "id": "boslukla_kapat",
      "etiket": "Dosyayı kapat",
      "gate": {
-      "not": "zincir_tam"
+      "not": {
+       "any": [
+        "zincir_tam",
+        {
+         "seed": "iten_biliniyor",
+         "esit": true
+        }
+       ]
+      }
      },
      "cengoBag": 0,
      "yuzde": 100,
      "seed_yaz": {
       "final_karar": "boslukla_kapat"
      },
-     "sonuc": "Dosyayı kapattın. Elinde bir adı olmayan bir boşluk, kanıtlanmamış bir şüphe ve ödenmiş bir kira kaldı. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi.",
+     "sonuc": [
+      {
+       "kosul": {
+        "any": [
+         "komsu_ses",
+         "giris_zorlama_yok",
+         "polis_kaza",
+         "cinayet_suphesi"
+        ]
+       },
+       "metin": "Dosyayı kapattın. Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok, yalnızca uymayan parçalar var. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Dosyayı kapattın. Merdivenden düşen bir adam, imzalanmış bir rapor, kapanmış bir ay. Peşine düşmedin, o yüzden verecek kimsen de olmadı. Cengo bir şey sormadı — sorulacak bir şey bırakmamıştın."
+      }
+     ],
      "para": 0
     },
     {
