@@ -175,9 +175,11 @@ console.log("\n=== KARAR ÖNİZLEMESİ MOTORLA AYNI SONUCU VERİYOR ===");
   const onizleme = (para, borc, kararPara, omurgaMi) => {
     const aylikGider = omurgaMi ? gider : 0;
     const kalan = para + kararPara - aylikGider;
+    let kasaSonra = Math.max(0, kalan);
     let borcSonra = borc + Math.max(0, -kalan);
     if (aylikGider && borcSonra > 0) borcSonra += Math.round(borcSonra * (e.borc_faizi || 0));
-    return { kasa: Math.max(0, kalan), borc: borcSonra };
+    const odeme = Math.min(kasaSonra, borcSonra);       // eline geçen para borcu kapatır
+    return { kasa: kasaSonra - odeme, borc: borcSonra - odeme };
   };
   const dene = (vid, kid, para, borc) => {
     const o = new Oyun(g);

@@ -215,7 +215,7 @@ console.log("\n=== V3: KATİL TEŞHİSİ HİÇBİR YOLDA KAÇMIYOR ===");
 console.log("\n=== YAN VAKALARDA SEÇİM BASKISI VAR ===");
 {
   // Hak 3 iken 3 ücretli kaynağın hepsi alınıyordu, seçim yoktu.
-  for (const vid of ["YAN-A", "YAN-B"]) {
+  for (const vid of ["YAN-A", "YAN-B", "YAN-C"]) {
     const v = g.vakalar.find(x => x.id === vid);
     const ucretli = v.clues.filter(c => !c.bedelsiz).length;
     k(`${vid}: ücretli kaynak (${ucretli}) hak'tan (${v.arastirma}) fazla — seçmek zorunda`,

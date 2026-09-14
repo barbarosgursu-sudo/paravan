@@ -19,7 +19,7 @@ koşmadan derleme yapılmaz.
 ## Dosyalar
 
 - `motor.js`            → oyun mantığı (arayüzsüz, `class Oyun`)
-- `game_data.json`      → 8 vaka + kanon (**asıl veri**)
+- `game_data.json`      → 9 vaka + kanon (**asıl veri**)
 - `game_data.js`        → doğrulayıcının beklediği modül köprüsü (json'u dışa verir)
 - `kisiler.json`        → katmanlı künye + anı defteri
 - `prolog.json`         → açılış (6 kart)
@@ -37,7 +37,7 @@ koşmadan derleme yapılmaz.
 
 ```
 cd kaynak
-for t in test_motor test_v2b test_v3b test_v4 test_v5 test_v6 test_yana test_yanb test_softlock test_kayit test_butce test_ekonomi test_sizinti; do node $t.js; done
+for t in test_*.js; do node $t; done
 ```
 
 `test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
@@ -107,7 +107,7 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
   (ağırlığı kimi ele vereceğinde). Araştırma seçimi bu iki vakanın konusu değil.
 - **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
   Derinlik ödülü olarak makul; dokunulmadı.
-- **K9**: 11 tohum yazılıp hiç okunmuyor. Silinmedi — bunlar ekonominin
+- **K9**: 12 tohum yazılıp hiç okunmuyor (`adres_kime` dahil). Silinmedi — bunlar ekonominin
   ihtiyaç duyacağı şeyler (hangi kararı verdin → itibar → müşteri ücreti;
   `cavit_guven` → hangi işler sana geliyor). Ekonomi turunda bağlanacak.
 
@@ -310,10 +310,57 @@ oluşacak borcu yazıyor ("borç 40.948 ₺"). Zaten borçlu oyuncuda uyarı
 İki hesabın aynı kalmasını `test_ekonomi.js` kilitliyor: motorun kapanış
 sırası değişirse test patlar ve arayüzün de güncellenmesi gerektiğini söyler.
 
-**Açık tasarım sorusu:** kârlı bir ay borcu ÖDEMİYOR. 5.000 ₺ kasa + 30.000 ₺
-borçla 85.000 ₺'lik iş yapan oyuncu ay sonunda 30.925 ₺ kasa **ve** 33.000 ₺
-borçla çıkıyor — borç yalnızca büyüyor. "Kaybetme yok" ilkesine uygun ama
-borçtan çıkış yolu da yok. Karar verilmedi.
+### Eline geçen para borcu kapatır
+
+Kasa ve borç iki ayrı sayaç gibi işliyordu: oyuncu 30.925 ₺ kasa **ve** büyüyen
+33.000 ₺ borçla dolaşabiliyordu, borçtan çıkışın hiçbir yolu yoktu. Artık
+kapanış sırası şöyle: kararın parası → sabit giderler → borcun tamamına faiz →
+**kalan kasa borcu kapatır**. Alacaklı sormaz, alır. Yan işlerde de geçerli.
+
+Bu, borcu bir cezadan gerçekten tırmanılabilir bir çukura çevirdi ve YAN-C'yi
+mümkün kıldı — o düzeltme olmadan 120.000 ₺ kazanmak borcu kapatmıyordu.
+
+## YAN-C "Adres" — borç tetikli vaka
+
+Omurgayla hiçbir ilgisi yok. Borç **80.000 ₺**'yi geçince masaya düşer ve
+`belirir.sonra: "her"` olduğu için koşul sürdükçe orada kalır; masa kartı da
+bunu yazar ("Gitmiyor. Ne zaman dönsen orada"). Kirli oynayan oyuncu bu vakayı
+hiç görmez.
+
+Hulki adında bir adam tek bir şey ister: bir adres. Ödeyeceği rakam bir adres
+için değil, bir adresin sessizliği için. Peri'yi nereden bulduğu vakanın
+kalbi — Cengo'nun bedelsiz sorusu onu açar: *"Bu herif senin borcunu nereden
+biliyor?"* Borç, öğrenilecek bir şey değil; duyulur. Artık bir fiyatın var ve
+fiyatını sen koymadın.
+
+| Karar | Para | Vicdan | Kapı |
+|---|---|---|---|
+| Adresi ver, parayı al | +120.000 ₺ | −2 | `ayla_yeri` |
+| Yanlış adres ver, kaporayı al | +40.000 ₺ | 0 | `kadin_adi` |
+| İşi reddet | 0 ₺ | +1 | yok |
+| Ayla'yı bul ve uyar | **−15.000 ₺** | +2 | `ayla_yeri` |
+
+Oyunun **cebinden ödeten ilk kararı** bu. K8'in kuralı zaten "vicdan
+yükseldikçe para düşer" diyordu; en vicdanlı seçenek sıfırın da altına iniyor.
+
+**Bütçe kasten yetmiyor.** Hak 3, ücretli kaynak 4. Otuz iki harcama yolunun
+hiçbirinde oyuncu hem adresi (`ayla_yeri`) hem tam resmi (`neye_alet` =
+uzaklaştırma kararı + adamın bunu daha önce de yaptırmış olması) alamıyor.
+Yani *"kime alet olduğunu bil ve yine de sat"* mümkün; *"her şeyi bil"* değil.
+Hiç araştırmayanın önünde tek seçenek kalıyor: reddetmek. Para istiyorsan
+bakmak zorundasın.
+
+Borç 117.194 ₺ iken `adresi_ver` borcu sıfırlıyor ve geriye **3.000 ₺**
+bırakıyor. Kadını sattın ve hâlâ beş parasızsın — kurtuluş değil, takas.
+
+### Koşul dilinde borç
+
+`ifadeCalistir` artık beşinci bir argüman alıyor: kasa (`{para, borc}`).
+`{borc_en_az: 80000}` terimi bunu okuyor — `cengoBag_en_az` ile simetrik.
+
+Motor içinde koşullar **yalnızca `this._kos()` üzerinden** değerlendiriliyor.
+Sebebi şu: kasayı geçirmeyi unutan bir çağrı hata vermez, koşul sessizce
+yanlış döner ve metin hiç görünmez. Tek kapı, unutulacak yer bırakmıyor.
 
 ### Kalan
 

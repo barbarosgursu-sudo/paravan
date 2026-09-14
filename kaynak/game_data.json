@@ -1152,6 +1152,213 @@
    "giris_gorsel": "yana_giris_b.jpg"
   },
   {
+   "id": "YAN-C",
+   "tur": "yan",
+   "sira": 99,
+   "belirir": {
+    "sonra": "her",
+    "kosul": {
+     "borc_en_az": 80000
+    }
+   },
+   "baslik": "Adres",
+   "arastirma": 3,
+   "truth": {
+    "isteyen": "Hulki — sakin, ölçülü, hiç sesini yükseltmeyen adam",
+    "aranan": "Ayla — Hulki'nin eski karısı",
+    "neden_saklaniyor": "Hulki onu yıllarca dövdü; Ayla kaçtı, mahkeme kararı aldı",
+    "hulki_niyeti": "<BELİRSİZ> — barışmak MI, bitirmek Mİ? ÇÖZÜLMEZ",
+    "peri_neden_secildi": "Borcu duyuldu. Batmış dedektif ucuzdur ve soru sormaz"
+   },
+   "facts": {
+    "is_teklifi": "Hulki tek bir şey istiyor: bir adres. Başka hiçbir şey.",
+    "borc_duyulmus": "Hulki, Peri'nin borcunu biliyor. Kimse söylemedi — 'duyulmuş'.",
+    "kadin_adi": "Aranan kişi: Ayla. Hulki'nin eski karısı.",
+    "hulki_gecmis": "Hulki bu adresi daha önce de arattırmış. Bulan olmuş mu, bilinmiyor.",
+    "uzaklastirma": "Ayla'nın Hulki'ye karşı uzaklaştırma kararı var.",
+    "ayla_yeri": "Ayla'nın nerede oturduğu bulundu. İz taze."
+   },
+   "knowledge": [
+    {
+     "turetilen": "neye_alet",
+     "ifade": {
+      "all": [
+       "uzaklastirma",
+       "hulki_gecmis"
+      ]
+     }
+    }
+   ],
+   "giris": [
+    {
+     "kosul": "varsayilan",
+     "metin": "Kapı çalınır. İçeri sakin, ölçülü, iyi giyimli bir adam girer — Hulki. Oturmadan konuşur: bir adres istiyor, o kadar. Ne takip, ne fotoğraf, ne rapor. Sadece bir adres. Ödeyeceği rakamı söylediğinde Peri'nin eli masada durur; o rakam bir adres için değil, bir adresin sessizliği için. Sonra ekler, sesini hiç yükseltmeden: 'Sıkıntıda olduğunuzu duydum. Ben de sıkıntılı insanlarla çalışmayı severim — anlaşırız.'",
+     "acilan": [
+      "is_teklifi"
+     ]
+    }
+   ],
+   "clues": [
+    {
+     "id": "cengo_borc",
+     "ad": "Cengo bir şey sorar",
+     "tur": "İfade",
+     "ico": "◑",
+     "bedelsiz": true,
+     "needs": [
+      "is_teklifi"
+     ],
+     "reveals": [
+      "borc_duyulmus"
+     ],
+     "text": "Adam çıkınca Cengo kapıyı kapatır. 'Peri abla. Bu herif senin borcunu nereden biliyor?'",
+     "meta": "Borç, öğrenilecek bir şey değil ki — duyulur. Artık bir fiyatın var ve fiyatını sen koymadın.",
+     "gorsel": null
+    },
+    {
+     "id": "kimi_ariyor",
+     "ad": "Kimi aradığını sor",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "is_teklifi"
+     ],
+     "reveals": [
+      "kadin_adi"
+     ],
+     "text": "Hulki ismi zorlanmadan verir: Ayla. 'Eski karım' der. 'Ailevi bir mesele.'",
+     "meta": "İsmi saklamıyor. Ya saklayacak bir şeyi yok, ya da saklamanın gereksiz olduğunu biliyor.",
+     "gorsel": null
+    },
+    {
+     "id": "hulki_kim",
+     "ad": "Hulki'yi araştır",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "is_teklifi"
+     ],
+     "reveals": [
+      "hulki_gecmis"
+     ],
+     "text": "Hulki bu işi ilk kez yaptırmıyor. Aynı adres birkaç kez, birkaç kişiye soruldu.",
+     "meta": "Demek arıyor ve bulamıyor. Ya da buluyor ve yine arıyor.",
+     "gorsel": null
+    },
+    {
+     "id": "adli_kayit",
+     "ad": "Adliye kaydına bak",
+     "tur": "Belge",
+     "ico": "▤",
+     "needs": [
+      "kadin_adi"
+     ],
+     "reveals": [
+      "uzaklastirma"
+     ],
+     "text": "Kayıt kısa: Ayla'nın talebiyle, Hulki'ye karşı uzaklaştırma kararı. Yürürlükte.",
+     "meta": "Mahkeme bu adamın o kadına yaklaşmasını yasakladı. Adam da senden onun kapısını istiyor.",
+     "gorsel": null
+    },
+    {
+     "id": "izi_sur",
+     "ad": "İzi sür",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "kadin_adi"
+     ],
+     "reveals": [
+      "ayla_yeri"
+     ],
+     "text": "İz taze: bir semt, bir sokak, üçüncü kat. Ayla orada, bir başına yaşıyor.",
+     "meta": "Artık elinde. Bu satır bir kâğıda yazıldığı an senden çıkıp başka bir şeye dönüşür.",
+     "gorsel": null
+    }
+   ],
+   "decisions": [
+    {
+     "id": "adresi_ver",
+     "gate": "ayla_yeri",
+     "etiket": "Adresi ver, parayı al",
+     "sonuc": [
+      {
+       "kosul": "neye_alet",
+       "metin": "Adresi yazdın, parayı aldın, borç kapandı. Ne yaptığını tam olarak biliyordun: mahkemenin kapattığı kapıyı sen açtın. Bundan sonra o sokakta ne olursa, haberi sana kadar gelmeyebilir. Gelmemesi de bir şeyi değiştirmez."
+      },
+      {
+       "kosul": "uzaklastirma",
+       "metin": "Adresi yazdın, parayı aldın, borç kapandı. Mahkemenin o adamdan uzak tuttuğu kadının kapısını sen gösterdin. Kâğıdı uzatırken elin titremedi; asıl mesele bu."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Adresi yazdın, parayı aldın, borç kapandı. Kim olduğunu sormadın — sormamak da bir tercihti ve onu sen yaptın. Cengo rakamı duyduğunda yüzüne bakmadı."
+      }
+     ],
+     "cengoBag": -2,
+     "yuzde": 29,
+     "para": 120000,
+     "seed_yaz": {
+      "adres_kime": "hulki"
+     }
+    },
+    {
+     "id": "yanlis_adres",
+     "gate": "kadin_adi",
+     "etiket": "Yanlış adres ver, kaporayı al",
+     "sonuc": "Uydurdun. Kaporayı aldın, gerisini beklemedin — zaten gelmeyecek. Ayla yerinde kaldı, sen bir süre kazandın. Ama bu adam yanıldığını anlayınca kimi arayacağını biliyor: adresini bildiği tek kişiyi. Cengo kapıyı iki kez kilitledi o akşam.",
+     "cengoBag": 0,
+     "yuzde": 24,
+     "para": 40000,
+     "seed_yaz": {
+      "adres_kime": "yalan"
+     }
+    },
+    {
+     "id": "isi_reddet",
+     "gate": "yok",
+     "etiket": "İşi reddet",
+     "sonuc": [
+      {
+       "kosul": "borc_duyulmus",
+       "metin": "Reddettin. Adam ısrar etmedi, kızmadı, pazarlık bile yapmadı — başka bir kapı bulacağını biliyor. Borcun yerinde duruyor, üstelik artık duyulmuş bir borç. Temiz kaldın; kimseyi de kurtarmadın."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Reddettin. Adam ısrar etmedi, kızmadı, pazarlık bile yapmadı. Borcun yerinde duruyor. Temiz kaldın; kimseyi de kurtarmadın."
+      }
+     ],
+     "cengoBag": 1,
+     "yuzde": 31,
+     "para": 0,
+     "seed_yaz": {
+      "adres_kime": "yok"
+     }
+    },
+    {
+     "id": "aylayi_uyar",
+     "gate": "ayla_yeri",
+     "etiket": "Ayla'yı bul ve uyar",
+     "sonuc": [
+      {
+       "kosul": "uzaklastirma",
+       "metin": "Kapısını sen çaldın — ama onu vermek için değil. Ayla kapıyı aralık açtı, dinledi, teşekkür bile etmedi; korkan insanlar teşekkür etmez. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek. Cengo tek kelime etmedi, sadece o akşam çayı o yaptı."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Kapısını sen çaldın — ama onu vermek için değil. Adamı tarif ettiğinde Ayla'nın yüzünden neyi bilmediğini anladın. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek. Cengo tek kelime etmedi, sadece o akşam çayı o yaptı."
+      }
+     ],
+     "cengoBag": 2,
+     "yuzde": 16,
+     "para": -15000,
+     "seed_yaz": {
+      "adres_kime": "uyardi"
+     }
+    }
+   ]
+  },
+  {
    "id": "V4",
    "tur": "omurga",
    "sira": 4,

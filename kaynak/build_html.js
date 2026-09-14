@@ -733,6 +733,9 @@ function masaGoster(){
   for(const id of masada){
     const v = GAME.vakalar.find(x=>x.id===id);
     const yan = v.tur==='yan';
+    // 'sonra: her' ile gelen iş koşulu sürdükçe masada duruyor; ona
+    // "beklemez" demek yalan olurdu (bkz. motor: masadakiVakalar).
+    const kalici = yan && v.belirir && v.belirir.sonra === 'her';
     const gad = (v.giris_gorsel||'').replace('.jpg','');
     const src = (typeof GORSELLER!=='undefined' && GORSELLER[gad]) ? GORSELLER[gad] : null;
     const arka = src ? \`style="background-image:linear-gradient(to bottom, rgba(15,35,56,.15) 0%, rgba(15,35,56,.55) 55%, rgba(15,35,56,.95) 100%), url('\${src}')"\` : '';
@@ -740,7 +743,7 @@ function masaGoster(){
       <div class="afis-alt">
         <div class="tip">\${yan?'Yan iş':'Vaka'}</div>
         <h2>\${v.baslik}</h2>
-        <div class="ipu">\${yan?'Beklemez — büyük dosyaya dönersen başkasına gider':'Ana dosya'}</div>
+        <div class="ipu">\${kalici?'Gitmiyor. Ne zaman dönsen orada':(yan?'Beklemez — büyük dosyaya dönersen başkasına gider':'Ana dosya')}</div>
       </div>
     </div>\`;
   }
@@ -860,8 +863,13 @@ function kararFazi(){
       // birebir yapmalı, yoksa "ay sonunda 0 ₺" diyerek 37 bin liralık çukuru
       // gizler. Faiz giderlerden SONRA ve borcun tamamına işliyor.
       const borcOnce = oyun.durum.borc;
+      let kasaSonra = Math.max(0, kalan);
       let borcSonra = borcOnce + Math.max(0, -kalan);
       if(aylikGider && borcSonra > 0) borcSonra += Math.round(borcSonra * (ekonomiAl(GAME).borc_faizi || 0));
+      // Eline geçen para borcu kapatır (motor: kararVer). Önizleme de kapatmalı,
+      // yoksa "47.775 ₺ kasa + 40.948 ₺ borç" gibi imkânsız bir tablo gösterir.
+      const odeme = Math.min(kasaSonra, borcSonra);
+      kasaSonra -= odeme; borcSonra -= odeme;
       // Asıl bilgi "ay sonunda kasada ne kalıyor". Uyarı cümlesi YALNIZCA kötü
       // seçeneklerde çıkar — hepsinde çıkarsa ayrım kaybolur, kimse okumaz.
       let uyari = "", sinif = "iyi";
@@ -876,7 +884,7 @@ function kararFazi(){
       bedel = \`<span class="bedel">
         <span class="etiket">ücret</span><b class="\${p>0?'kazanc':'yok'}">\${tutar}</b>
         <span class="ok">→</span>
-        <span class="kalan \${sinif}">ay sonunda \${tl(Math.max(0,kalan))}</span>
+        <span class="kalan \${sinif}">ay sonunda \${tl(kasaSonra)}</span>
         \${borcSonra>0?\`<span class="borc-onizleme">borç \${tl(borcSonra)}</span>\`:""}
         \${uyari?\`<span class="sonuc \${sinif}">\${uyari}</span>\`:""}</span>\`;
     }
@@ -1017,7 +1025,7 @@ function defterNotu(vid, kararId){
   const bilinen = oyun.tumBilinen();
   for(const v of ham){
     if(v.kosul === "varsayilan") return v.metin;
-    if(ifadeCalistir(v.kosul, bilinen, oyun.durum.seeds, oyun.durum.cengoBag)) return v.metin;
+    if(ifadeCalistir(v.kosul, bilinen, oyun.durum.seeds, oyun.durum.cengoBag, oyun.durum)) return v.metin;
   }
   return null;
 }

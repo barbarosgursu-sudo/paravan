@@ -132,7 +132,16 @@ console.log("\n=== UÇTAN UCA: her adımda kaydet-yükle, oyun yine bitiyor ==="
     o.kararVer(kararlar[0].id); adim++; turAtla();
   }
   k("tüm vakalar bitti", o.masadakiVakalar().length === 0);
-  k("8 vaka tamamlandı", o.durum.tamamlanan.length === 8);
+  // Sayıyı sabitlemek yanlış iddiaydı: yan vakalar koşullu (YAN-C yalnızca
+  // borç eşiği aşılınca beliriyor), yani bu gidişatın kaç vaka göreceği
+  // içeriğe bağlı. Asıl iddia şu — omurganın tamamı oynandı, hiçbir vaka
+  // iki kez sayılmadı.
+  const omurga = g.vakalar.filter(v => v.tur === "omurga").map(v => v.id);
+  const eksikOmurga = omurga.filter(id => !o.durum.tamamlanan.includes(id));
+  k("omurga vakaların hepsi tamamlandı", eksikOmurga.length === 0, eksikOmurga.join(","));
+  k("hiçbir vaka iki kez tamamlanmadı",
+    new Set(o.durum.tamamlanan).size === o.durum.tamamlanan.length,
+    o.durum.tamamlanan.join(" → "));
   k("final kararı yazıldı", o.durum.seeds.final_karar !== undefined);
   k("kalıcı olgular taşındı", (o.durum.kaliciOlgular || []).length > 0);
   console.log("   → " + adim + " adımın her birinde kaydedilip yeniden yüklendi");

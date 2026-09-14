@@ -4,14 +4,19 @@
 // ============================================================================
 
 // Runtime ifade değerlendirme: bilinen olgular + cross-vaka seeds + cengoBag
-function ifadeCalistir(ifade, bilinen, seeds, cengoBag) {
+// kasa: {para, borc} taşıyan nesne (durum'un kendisi de olur). Borç koşulları
+// bunu okur; verilmezse borç 0 sayılır, yani koşul sessizce YANLIŞ döner.
+// Bu yüzden motor içinde hep _kos() üzerinden çağrılır — tek tek çağrılarda
+// kasayı geçirmeyi unutmak, metni hiç görünmeyen bir hataya dönüştürürdü.
+function ifadeCalistir(ifade, bilinen, seeds, cengoBag, kasa) {
   if (typeof ifade === "string") return bilinen.has(ifade);
   if (!ifade || typeof ifade !== "object") return false;
-  if (Array.isArray(ifade.all)) return ifade.all.every(x => ifadeCalistir(x, bilinen, seeds, cengoBag));
-  if (Array.isArray(ifade.any)) return ifade.any.some(x => ifadeCalistir(x, bilinen, seeds, cengoBag));
-  if (ifade.not) return !ifadeCalistir(ifade.not, bilinen, seeds, cengoBag);
+  if (Array.isArray(ifade.all)) return ifade.all.every(x => ifadeCalistir(x, bilinen, seeds, cengoBag, kasa));
+  if (Array.isArray(ifade.any)) return ifade.any.some(x => ifadeCalistir(x, bilinen, seeds, cengoBag, kasa));
+  if (ifade.not) return !ifadeCalistir(ifade.not, bilinen, seeds, cengoBag, kasa);
   if (ifade.seed) return (seeds[ifade.seed] ?? null) === (ifade.esit ?? true);
   if (typeof ifade.cengoBag_en_az === "number") return (cengoBag ?? 0) >= ifade.cengoBag_en_az;
+  if (typeof ifade.borc_en_az === "number") return ((kasa && kasa.borc) || 0) >= ifade.borc_en_az;
   return false;
 }
 
@@ -60,12 +65,12 @@ function cengoAlev(x) {
 //   [{kosul:<ifade>, metin:"..."}, {kosul:"varsayilan", metin:"..."}]
 // Bir kaynağın meta'sı oyuncunun HENÜZ bilmediği bir olguya gönderme
 // yapmamalı (Nurcan kuralı). Varyantla, hak eden oyuncu bağlantıyı görür.
-function metinSec(ham, bilinen, seeds, cengoBag) {
+function metinSec(ham, bilinen, seeds, cengoBag, kasa) {
   if (typeof ham === "string" || ham == null) return ham || "";
   if (!Array.isArray(ham)) return "";
   for (const v of ham) {
     if (v.kosul === "varsayilan") return v.metin;
-    if (ifadeCalistir(v.kosul, bilinen, seeds, cengoBag)) return v.metin;
+    if (ifadeCalistir(v.kosul, bilinen, seeds, cengoBag, kasa)) return v.metin;
   }
   return "";
 }
@@ -93,12 +98,22 @@ class Oyun {
       .filter(v => v.tur === "omurga" && !tamam.has(v.id))
       .sort((a, b) => a.sira - b.sira);
     if (omurga[0]) out.push(omurga[0].id);
-    // yan vakalar: belirir.sonra == sonuncu && belirir.kosul true && henüz yapılmadı
+    // Yan vakaların iki belirme biçimi var:
+    //   sonra: "<vaka id>"  → YALNIZCA o vakadan hemen sonraki masada durur.
+    //                         Omurgaya geçen oyuncu onu kalıcı kaybeder;
+    //                         masa kartı bunu yazıyor ("Beklemez").
+    //   sonra: "her"        → koşulu sağlandığı SÜRECE masada kalır. Borç
+    //                         tetikli iş böyle: çaresizlik geçici bir hâl
+    //                         değil, oyuncu ondan kaçamasın diye durur.
     for (const v of this.game.vakalar) {
       if (v.tur !== "yan" || tamam.has(v.id) || !v.belirir) continue;
       const kosulOk = !v.belirir.kosul || v.belirir.kosul === "varsayilan" ||
-        ifadeCalistir(v.belirir.kosul, new Set(), this.durum.seeds, this.durum.cengoBag);
-      if (v.belirir.sonra === sonuncu && kosulOk) out.push(v.id);
+        this._kos(v.belirir.kosul, new Set());
+      const kalici = v.belirir.sonra === "her";
+      // "her" olsa bile en az bir vaka bitmiş olmalı: ilk masada borç yok,
+      // olsa bile oyuncu daha oyunun ne olduğunu bilmiyor.
+      const sonraOk = kalici ? sonuncu !== null : v.belirir.sonra === sonuncu;
+      if (sonraOk && kosulOk) out.push(v.id);
     }
     return out;
   }
@@ -114,7 +129,7 @@ class Oyun {
     let secilen = null;
     for (const g of v.giris || []) {
       if (g.kosul === "varsayilan") { if (!secilen) secilen = g; continue; }
-      if (ifadeCalistir(g.kosul, genis, this.durum.seeds, this.durum.cengoBag)) { secilen = g; break; }
+      if (this._kos(g.kosul, genis)) { secilen = g; break; }
     }
     (secilen?.acilan || []).forEach(o => bilinen.add(o));
     this.durum.aktif = {
@@ -125,6 +140,14 @@ class Oyun {
     };
     this._turet();
     return { baslik: v.baslik, giris: this.durum.aktif.girisMetin, arastirma: this.durum.aktif.arastirmaKalan };
+  }
+
+  // Koşul değerlendirmenin TEK kapısı. Tohumları, Cengo bağını ve kasayı
+  // her seferinde birlikte geçirir; biri unutulduğunda ortaya çıkan hata
+  // (koşul sessizce yanlış döner, metin hiç görünmez) sessiz olduğu için
+  // dağınık çağrılara güvenilmiyor.
+  _kos(ifade, bilinen) {
+    return ifadeCalistir(ifade, bilinen, this.durum.seeds, this.durum.cengoBag, this.durum);
   }
 
   // METİN koşulları için geniş bilgi kümesi: aktif vakadakiler + önceki
@@ -149,7 +172,7 @@ class Oyun {
       degisti = false;
       for (const k of a.vaka.knowledge || []) {
         if (!a.bilinen.has(k.turetilen) &&
-            ifadeCalistir(k.ifade, a.bilinen, this.durum.seeds, this.durum.cengoBag)) {
+            this._kos(k.ifade, a.bilinen)) {
           a.bilinen.add(k.turetilen); degisti = true;
         }
       }
@@ -164,7 +187,7 @@ class Oyun {
       const needs = c.needs || [];
       return needs.every(n =>
         typeof n === "string" ? a.bilinen.has(n)
-                              : ifadeCalistir(n, a.bilinen, this.durum.seeds, this.durum.cengoBag));
+                              : this._kos(n, a.bilinen));
     }).map(c => ({ id: c.id, ad: c.ad, tur: c.tur, ico: c.ico }));
   }
 
@@ -177,7 +200,7 @@ class Oyun {
     // needs kontrolü
     const ok = (c.needs || []).every(n =>
       typeof n === "string" ? a.bilinen.has(n)
-                            : ifadeCalistir(n, a.bilinen, this.durum.seeds, this.durum.cengoBag));
+                            : this._kos(n, a.bilinen));
     if (!ok) return { hata: "kilitli — önce gereken bilgiyi aç" };
     // bedelsiz kaynaklar (Cengo'nun kendiliğinden konuşması gibi) araştırma harcamaz
     if (!c.bedelsiz) {
@@ -196,8 +219,8 @@ class Oyun {
     (c.reveals || []).forEach(r => a.bilinen.add(r));
     this._turet();
     return {
-      text: metinSec(c.text, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag),
-      meta: metinSec(c.meta, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag),
+      text: metinSec(c.text, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag, this.durum),
+      meta: metinSec(c.meta, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag, this.durum),
       gorsel: c.gorsel || null,
       arastirmaKalan: a.arastirmaKalan, ucret, para: this.durum.para,
     };
@@ -207,7 +230,7 @@ class Oyun {
   acikKararlar() {
     const a = this.durum.aktif;
     return a.vaka.decisions.filter(d =>
-      d.gate === "yok" || ifadeCalistir(d.gate, a.bilinen, this.durum.seeds, this.durum.cengoBag)
+      d.gate === "yok" || this._kos(d.gate, a.bilinen)
     ).map(d => ({ id: d.id, etiket: d.etiket }));
   }
 
@@ -216,7 +239,7 @@ class Oyun {
     const a = this.durum.aktif;
     const d = a.vaka.decisions.find(x => x.id === id);
     if (!d) return { hata: "karar yok" };
-    const gateOk = d.gate === "yok" || ifadeCalistir(d.gate, a.bilinen, this.durum.seeds, this.durum.cengoBag);
+    const gateOk = d.gate === "yok" || this._kos(d.gate, a.bilinen);
     if (!gateOk) return { hata: "bu karar henüz açık değil" };
 
     // cengoBag
@@ -247,7 +270,7 @@ class Oyun {
       else if (tanim.toplam === "cengoBag") { this.durum.seeds[ad] = this.durum.cengoBag; }
       else if (Array.isArray(tanim.say)) { this.durum.seeds[ad] = tanim.say.filter(f => seedEvalSet.has(f)).length; }
       else if (tanim.esit_ise !== undefined) {
-        this.durum.seeds[ad] = ifadeCalistir(tanim.esit_ise, seedEvalSet, this.durum.seeds, this.durum.cengoBag)
+        this.durum.seeds[ad] = this._kos(tanim.esit_ise, seedEvalSet)
           ? tanim.deger : (this.durum.seeds[ad] ?? false);
       } else if (tanim.deger !== undefined) {
         if (this.durum.seeds[ad] === undefined) this.durum.seeds[ad] = tanim.deger;
@@ -275,6 +298,19 @@ class Oyun {
       }
     }
 
+    // Eline geçen para borcu KAPATIR. Bu olmadan kasa ve borç iki ayrı sayaç
+    // gibi işliyordu: oyuncu 30.000 ₺ kasa ve büyüyen 33.000 ₺ borçla
+    // dolaşabiliyor, borçtan çıkışın hiçbir yolu bulunmuyordu. Alacaklı
+    // sormaz, alır — ve bu, borcu bir ceza olmaktan çıkarıp gerçekten
+    // tırmanılabilir bir çukura çevirir. Yan işlerde de geçerli: borçluyken
+    // kazanılan para önce borca gider.
+    let borcOdemesi = 0;
+    if (this.durum.borc > 0 && this.durum.para > 0) {
+      borcOdemesi = Math.min(this.durum.para, this.durum.borc);
+      this.durum.para -= borcOdemesi;
+      this.durum.borc -= borcOdemesi;
+    }
+
     this.durum.tamamlanan.push(a.id);
     // kalıcı olguları kaydet (künye için — vaka bitince bilinenler kaybolmasın)
     this.durum.kaliciOlgular = this.durum.kaliciOlgular || [];
@@ -282,7 +318,7 @@ class Oyun {
     const harcanan = a.harcanan || 0;
     // Sonuç metni de koşullu olabilir: aynı kararı farklı bilgiyle veren
     // oyuncular aynı cümleyi okumamalı. Bilinenler henüz elimizde.
-    const sonucMetin = metinSec(d.sonuc, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag);
+    const sonucMetin = metinSec(d.sonuc, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag, this.durum);
     this.durum.aktif = null;
     return {
       sonuc: sonucMetin,
@@ -290,7 +326,7 @@ class Oyun {
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,
       // ekonomik döküm — oyuncu kararının parasal sonucunu ekranda görmeli
-      ekonomi: { kararPara, harcanan, giderler, faiz, para: this.durum.para, borc: this.durum.borc },
+      ekonomi: { kararPara, harcanan, giderler, faiz, borcOdemesi, para: this.durum.para, borc: this.durum.borc },
     };
   }
 
