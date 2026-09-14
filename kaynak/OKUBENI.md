@@ -118,6 +118,14 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 
 - **V1/cengo_baglanti** bedelsiz yapıldı: needs'i iki kaynak istiyor, kendisi
   de hak istiyordu; yanlış sırada harcayan oyuncu listede görüp açamıyordu.
+- **V1/sigorta_yazisi → V4 köprüsü.** V4'ün girişi *"Peri o ödemeyi Kaya'nın
+  KAYITLARINA bakarken görmüştü"* diyor. Bunu tetikleyen koşul
+  `olay_yeri_acildi` idi — oysa o kaynak polis fotoğraflarından ibaret ve
+  banka kayıtlarına erişim sağlamaz. Köprü artık **sigorta dosyası**: ölüm
+  soruşturması yürüten sigorta hesap dökümlerini ister, ve dosyayı Peri'ye
+  veren Cavit'in kendisi. Kaynağın metni de bunu söylüyor — *"Dosya kalın:
+  poliçe, ekspertiz notları, ve Kaya'nın son bir yıllık hesap dökümleri"* —
+  ve meta Cavit'in neden ayıklamadığını açıklıyor: acelesi vardı.
 - **V1/sigorta_yazisi** bedelsiz yapıldı: üç haktan birini yiyordu ama
   karşılığında girişte zaten söylenen şeyi tekrarlıyordu; açtığı olgu
   (`sigorta_sorusturma`) hiçbir çıkarımda kullanılmıyor. Sigorta eksperi

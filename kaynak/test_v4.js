@@ -76,5 +76,42 @@ console.log("\n=== PARA: MÜŞTERİSİ OLMAYAN AY ===");
     tl(once) + " → " + tl(o.durum.para));
 }
 
+console.log("\n=== KAYITLARI NEREDEN GÖRDÜ? (köprü gerçek mi) ===");
+{
+  // V4'ün girişi "Peri o ödemeyi Kaya'nın KAYITLARINA bakarken görmüştü"
+  // diyor. Eskiden bunu tetikleyen şey olay yeri incelemesiydi — oysa o
+  // kaynak polis fotoğraflarından ibaret, banka kayıtlarına erişim sağlamaz.
+  // Köprü artık sigorta dosyası: ölüm soruşturması yürüten sigorta hesap
+  // dökümlerini ister, ve dosyayı Peri'ye veren Cavit'in kendisi.
+  const kur = (yol, karar) => {
+    const o = varlikli();
+    o.vakaBaslat("V1");
+    for (const c of yol) o.kaynakAc(c);
+    const kr = o.acikKararlar().map(x => x.id);
+    o.kararVer(kr.includes(karar) ? karar : kr[0]);
+    return o;
+  };
+  k("sigorta dosyasını okuyan kayıtları görmüş sayılıyor",
+    kur(["sigorta_yazisi"], "temiz_rapor").durum.seeds.kaya_kayit_gordu === true);
+  k("SADECE olay yerine bakan görmüş SAYILMIYOR",
+    kur(["olay_yeri"], "temiz_rapor").durum.seeds.kaya_kayit_gordu !== true);
+  k("hiç bakmayan görmüş sayılmıyor",
+    kur([], "temiz_rapor").durum.seeds.kaya_kayit_gordu !== true);
+  k("kendine dosya açan (gizli_kaz) görmüş sayılıyor",
+    kur(["polis_dosyasi", "olay_yeri", "ceyda_gorusme"], "gizli_kaz").durum.seeds.kaya_kayit_gordu === true);
+
+  // Köprünün metinde de görünmesi şart: yoksa oyuncu nereden bildiğini anlamaz.
+  const sig = g.vakalar.find(v => v.id === "V1").clues.find(c => c.id === "sigorta_yazisi");
+  const duz = x => typeof x === "string" ? x : JSON.stringify(x);
+  k("sigorta kaynağı hesap dökümlerinden söz ediyor",
+    /hesap döküm/i.test(duz(sig.text)), duz(sig.text).slice(0, 120));
+  k("tohum koşulu sigorta kaynağına bağlı",
+    JSON.stringify(g.vakalar.find(v => v.id === "V1").seeds.kaya_kayit_gordu)
+      .includes("sigorta_yazisi_acildi"));
+  k("artık olay yerine bağlı DEĞİL",
+    !JSON.stringify(g.vakalar.find(v => v.id === "V1").seeds.kaya_kayit_gordu)
+      .includes("olay_yeri_acildi"));
+}
+
 console.log("\n"+(hata===0?"=== V4 TEST TAMAM ===":"=== "+hata+" BAŞARISIZ ==="));
 process.exit(hata?1:0);

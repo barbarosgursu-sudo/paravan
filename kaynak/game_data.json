@@ -119,8 +119,8 @@
      "reveals": [
       "sigorta_sorusturma"
      ],
-     "text": "Sigorta eksperi kendi soruşturmasını açmış. Ödeme, 'bağımsız bir uzman raporu' gelene kadar donduruldu.",
-     "meta": "Cavit'in aradığı bağımsız uzman sensin. Satın aldığı şey zamanın değil, imzan.",
+     "text": "Sigorta eksperi kendi soruşturmasını açmış. Ödeme, 'bağımsız bir uzman raporu' gelene kadar donduruldu. Dosya kalın: poliçe, ekspertiz notları, ve Kaya'nın son bir yıllık hesap dökümleri.",
+     "meta": "Cavit'in aradığı bağımsız uzman sensin. Satın aldığı şey zamanın değil, imzan — ve acelesi olduğu için dosyayı olduğu gibi, ayıklamadan verdi.",
      "gorsel": null
     },
     {
@@ -271,7 +271,7 @@
     "kaya_kayit_gordu": {
      "esit_ise": {
       "any": [
-       "olay_yeri_acildi",
+       "sigorta_yazisi_acildi",
        "gizli_dosya"
       ]
      },
