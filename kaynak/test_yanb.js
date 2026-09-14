@@ -1,9 +1,15 @@
 const { Oyun } = require("./motor.js");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
+// Bu test vakanın İÇERİK mantığını sınıyor (türetme, kapı, karar), ekonomiyi
+// değil. Kasa boşken elektrik kesiliyor ve araştırma hakkı bir azalıyor —
+// gerçek bir davranış, ama burada ölçmek istediğimiz şey o değil. Ajansı
+// ödeyebilir durumda tutuyoruz ki tam bütçeyle sınansın.
+const ODEYEBILIR = 2000000;
+const varlikli = () => { const o = new Oyun(g); o.durum.para = ODEYEBILIR; return o; };
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
 
 console.log("=== 'BELİRİR': YAN-B V4'ten sonra ===");
-let o=new Oyun(g);
+let o=varlikli();
 function tamamla(o){
   o.vakaBaslat("V1"); o.kararVer("reddet");
   o.vakaBaslat("V2"); o.kararVer("kuru_rapor");
@@ -39,7 +45,7 @@ k("peri_yuzlesti tohumu=true", o.durum.seeds.peri_yuzlesti===true);
 k("sezon2_avukat_ipi tohumu=true", o.durum.seeds.sezon2_avukat_ipi===true);
 
 console.log("\n=== GEÇİŞTİR: gate'siz, her zaman kaçış mümkün ===");
-let o2=new Oyun(g);
+let o2=varlikli();
 o2.vakaBaslat("V1"); o2.kararVer("reddet"); o2.vakaBaslat("V2"); o2.kararVer("kuru_rapor"); o2.vakaBaslat("V3"); o2.kararVer("tanigi_lekele"); o2.vakaBaslat("V4"); o2.kaynakAc("odeme_iz"); o2.kararVer("koz_yap");
 o2.vakaBaslat("YAN-B");
 let r2=o2.kararVer("gecistir");  // hiç araştırmadan kaç

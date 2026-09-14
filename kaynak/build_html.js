@@ -116,6 +116,16 @@ body{
 .karar .bedel .kalan.dar{color:var(--koz)}
 .karar .bedel .kalan.kotu{color:var(--kirmizi)}
 .karar .bedel .borc-onizleme{font-size:13px;color:var(--kirmizi);font-weight:600}
+.kriz-kutu{margin:12px 0 0;padding:11px 13px;border:1px solid var(--kirmizi);border-radius:7px;
+  background:rgba(150,40,40,.12)}
+.kriz-kutu .b{font-size:14px;font-weight:700;color:var(--kirmizi);letter-spacing:.3px}
+.kriz-kutu .a{font-size:13px;color:var(--sonuk);margin-top:4px;line-height:1.45}
+.kriz-rozetler{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px;width:100%}
+.kriz-rozet{font-size:10.5px;letter-spacing:.4px;color:var(--kirmizi);border:1px solid var(--kirmizi);
+  border-radius:4px;padding:1px 5px;white-space:nowrap}
+.kriz-satir{font-size:12.5px;color:var(--kirmizi);margin:-2px 0 10px;font-style:italic}
+.hesap .satir.odenmedi b{color:var(--kirmizi)}
+.hesap .satir .acik{display:block;font-size:11px;color:var(--kirmizi);font-style:normal;margin-top:2px}
 .karar .bedel .sonuc{font-size:13px;font-style:italic}
 .karar .bedel .sonuc.iyi{color:var(--sonuk)}
 .karar .bedel .sonuc.dar{color:var(--koz)}
@@ -654,6 +664,16 @@ function scrollUst(){ window.scrollTo(0,0); }
 /* Para: sayıyı ve ANLAMINI birlikte göster. Çıplak sayı baskıyı okunmaz yapar,
    sayısız gösterge ise oyuncuyu körleştirir. */
 function tl(n){ return (n<0?"−":"") + Math.abs(Math.round(n)).toLocaleString("tr-TR") + " ₺"; }
+// Süren krizler her ekranda görünür durur: bu bir olay değil, bir HÂL.
+function krizRozetleri(){
+  const kz = (oyun.durum.kriz)||{};
+  const r = [];
+  if(kz.isletme) r.push('<span class="kriz-rozet">⚡ kesik</span>');
+  if(kz.kira)    r.push('<span class="kriz-rozet">§ icra</span>');
+  if(kz.cengo)   r.push('<span class="kriz-rozet">✦ Cengo ödenmedi</span>');
+  return r.length ? \`<span class="kriz-rozetler">\${r.join("")}</span>\` : "";
+}
+
 function kasaSerit(){
   const k = oyun.kasaDurumu();
   if(!k.aylikGider) return "";
@@ -666,6 +686,7 @@ function kasaSerit(){
   return \`<div class="kasa-serit">
     <span>Kasa <span class="tutar">\${tl(k.para)}</span>\${k.borc? \` · <span class="borc">borç \${tl(k.borc)}</span>\`:""}</span>
     <span class="hal \${k.hal==="kritik"?"kritik":k.hal==="batık"?"batik":""}">\${halMetin}</span>
+    \${krizRozetleri()}
   </div>\`;
 }
 
@@ -791,6 +812,10 @@ function arastirmaFazi(){
 
   if(acik.length>0){
     h += \`<div class="faz-etiket"><span class="t">Neyi araştıracaksın?</span>\${puan}</div>\`;
+    // Sönük duran nokta sebepsiz bir eksiklik gibi görünmesin.
+    if(oyun.durum.kriz && oyun.durum.kriz.isletme && a.arastirmaKalan < v.arastirma){
+      h += '<div class="kriz-satir">⚡ Elektrik kesik — bu vakada bir araştırma hakkın eksik.</div>';
+    }
     if(sonUyari){ h += \`<div class="kaynak-uyari">\${sonUyari}</div>\`; sonUyari = null; }
     for(const c of acik){
       const tam = v.clues.find(x=>x.id===c.id);
@@ -921,17 +946,40 @@ function kararVerFaz(id){
 
 /* Kararın parasal sonucu: oyuncu ne kazandığını VE ayın giderlerini görmeli.
    Ekonomik çöküş hikâyede varsa oyunda da görünmeli. */
+// Motordaki KRIZLER ile aynı metinler; arayüz motordan okuyamadığı için
+// burada duruyor. İkisinin ayrışmasını test_borc.js yakalıyor.
+const KRIZ_METIN = {
+  isletme: { ad: "Elektrik kesildi",
+             aciklama: "Fatura ödenmedi. Karanlıkta dosya okunmuyor — bundan sonraki vakada bir araştırma hakkın eksik." },
+  cengo:   { ad: "Cengo'nun eline geçmedi",
+             aciklama: "Bir şey demedi. Bu daha kötü." },
+  kira:    { ad: "Ev sahibi icraya verdi",
+             aciklama: "Büroya haciz ihbarnamesi geldi. Takip masrafı da her ay senden çıkıyor." },
+};
+
 function hesapKutusu(e){
   if(!e) return "";
   let h = '<div class="hesap">';
   if(e.kararPara) h += \`<div class="satir \${e.kararPara>0?'gelir':'gider'}"><span>\${e.kararPara>0?'Vaka ücreti':'Kararın bedeli'}</span><b>\${tl(e.kararPara)}</b></div>\`;
   if(e.harcanan)  h += \`<div class="satir gider"><span>Araştırma masrafı</span><b>\${tl(-e.harcanan)}</b></div>\`;
-  for(const g of (e.giderler||[])) h += \`<div class="satir gider"><span>\${g.ad}</span><b>\${tl(-g.tutar)}</b></div>\`;
+  for(const g of (e.giderler||[])){
+    // Ödenemeyen kalemi gizlemek, borcun NEDEN sonuç doğurduğunu görünmez
+    // kılardı. Açık kalan kadarı satırın kendisinde yazıyor.
+    const acik = g.eksik ? \`<em class="acik">\${tl(g.eksik)} açık kaldı</em>\` : "";
+    h += \`<div class="satir gider \${g.eksik?'odenmedi':''}"><span>\${g.ad}\${acik}</span><b>\${tl(-g.tutar)}</b></div>\`;
+  }
   if(e.faiz) h += \`<div class="satir gider"><span>Borç faizi</span><b>\${tl(-e.faiz)}</b></div>\`;
   h += '<div class="ayrac"></div>';
   h += \`<div class="sonuc-satir"><span>Kasa</span><span>\${tl(e.para)}</span></div>\`;
+  if(e.borcOdemesi) h += \`<div class="sonuc-satir" style="color:var(--altin)"><span>Borca giden</span><span>\${tl(-e.borcOdemesi)}</span></div>\`;
   if(e.borc) h += \`<div class="sonuc-satir" style="color:var(--kirmizi)"><span>Borç</span><span>\${tl(e.borc)}</span></div>\`;
   h += '</div>';
+  // Bu ay yeni patlayan sonuçlar. Rakamın altında değil, ayrı bir kutuda —
+  // oyuncu muhasebeyi atlasa bile bunu atlamasın.
+  for(const ad of (e.yeniKrizler||[])){
+    const k = KRIZ_METIN[ad]; if(!k) continue;
+    h += \`<div class="kriz-kutu"><div class="b">\${k.ad}</div><div class="a">\${k.aciklama}</div></div>\`;
+  }
   return h;
 }
 

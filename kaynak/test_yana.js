@@ -1,10 +1,16 @@
 const { Oyun } = require("./motor.js");
 const fs = require("fs");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
+// Bu test vakanın İÇERİK mantığını sınıyor (türetme, kapı, karar), ekonomiyi
+// değil. Kasa boşken elektrik kesiliyor ve araştırma hakkı bir azalıyor —
+// gerçek bir davranış, ama burada ölçmek istediğimiz şey o değil. Ajansı
+// ödeyebilir durumda tutuyoruz ki tam bütçeyle sınansın.
+const ODEYEBILIR = 2000000;
+const varlikli = () => { const o = new Oyun(g); o.durum.para = ODEYEBILIR; return o; };
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
 
 console.log("=== 'BELİRİR' MEKANİĞİ: YAN-A V2'den sonra masaya düşer ===");
-let o=new Oyun(g);
+let o=varlikli();
 // V1'i bitir
 o.vakaBaslat("V1"); o.kararVer("reddet");
 k("V1 sonrası YAN-A masada YOK", !o.masadakiVakalar().includes("YAN-A"));
@@ -37,7 +43,7 @@ k("YAN-A tamamlandı", o.durum.tamamlanan.includes("YAN-A"));
 k("YAN-A artık masada YOK (tekrar gelmez)", !o.masadakiVakalar().includes("YAN-A"));
 
 console.log("\n=== İŞİ GERİ ÇEVİR: keşiften SONRA, iptal değil ===");
-let o2=new Oyun(g);
+let o2=varlikli();
 o2.vakaBaslat("V1"); o2.kararVer("reddet"); o2.vakaBaslat("V2"); o2.kararVer("kuru_rapor");
 o2.vakaBaslat("YAN-A");
 k("başta isi_gecevir KAPALI (tehdit_kim yok)", !o2.acikKararlar().some(x=>x.id==="isi_gecevir"));
@@ -50,7 +56,7 @@ console.log("\n=== YAN İŞ KAÇIRILABİLİR — VE ARAYÜZ BUNU SÖYLÜYOR ==="
   // masadakiVakalar() yan vakayı yalnızca 'belirir.sonra === son tamamlanan'
   // iken gösteriyor. Omurgaya geçen oyuncu onu KALICI olarak kaybediyor.
   // Bu kasıtlı bir kayıp; ama oyuncuya söylenmezse tuzak olur.
-  const o3 = new Oyun(g);
+  const o3 = varlikli();
   o3.vakaBaslat("V1"); o3.kararVer("reddet");
   o3.vakaBaslat("V2"); o3.kararVer("kuru_rapor");
   k("V2'den sonra YAN-A masada", o3.masadakiVakalar().includes("YAN-A"));

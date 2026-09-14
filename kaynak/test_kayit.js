@@ -16,7 +16,7 @@ console.log("=== KAYIT YÜKÜ: yalnızca girdiler ===");
   const kay = o.durumAl();
   const alanlar = Object.keys(kay).sort().join(",");
   k("üst alanlar beklendiği gibi",
-    alanlar === "aktif,borc,cengoBag,kaliciOlgular,para,seeds,sema,tamamlanan");
+    alanlar === "aktif,borc,cengoBag,kaliciOlgular,kriz,para,seeds,sema,tamamlanan");
   k("aktif yalnızca id + açılan kaynaklar",
     Object.keys(kay.aktif).sort().join(",") === "acilan,id");
   const metin = JSON.stringify(kay);

@@ -1,5 +1,11 @@
 const { Oyun } = require("./motor.js");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
+// Bu test vakanın İÇERİK mantığını sınıyor (türetme, kapı, karar), ekonomiyi
+// değil. Kasa boşken elektrik kesiliyor ve araştırma hakkı bir azalıyor —
+// gerçek bir davranış, ama burada ölçmek istediğimiz şey o değil. Ajansı
+// ödeyebilir durumda tutuyoruz ki tam bütçeyle sınansın.
+const ODEYEBILIR = 2000000;
+const varlikli = () => { const o = new Oyun(g); o.durum.para = ODEYEBILIR; return o; };
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
 
 // Her vaka için: açgözlü kaynak açma → mutlaka bir karara ulaşılmalı
@@ -12,7 +18,7 @@ for (const vaka of g.vakalar) {
   ];
   let herZamanKararVar = true;
   for (const seeds of seedSetleri) {
-    let o = new Oyun(g);
+    let o = varlikli();
     Object.assign(o.durum.seeds, seeds);
     o.vakaBaslat(vaka.id);
     // açgözlü: açılabilen tüm kaynakları aç (bedelsiz + bedelli), karar çıkana dek
@@ -30,7 +36,7 @@ for (const vaka of g.vakalar) {
 }
 
 console.log("\n=== UÇTAN UCA: 8 vakalık tam oyun (vicdanlı yol) ===");
-let o = new Oyun(g);
+let o = varlikli();
 const oyna = (id, kaynaklar, karar) => {
   o.vakaBaslat(id);
   for (const c of kaynaklar) o.kaynakAc(c);

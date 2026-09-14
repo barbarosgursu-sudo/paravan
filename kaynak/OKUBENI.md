@@ -353,6 +353,49 @@ bakmak zorundasın.
 Borç 117.194 ₺ iken `adresi_ver` borcu sıfırlıyor ve geriye **3.000 ₺**
 bırakıyor. Kadını sattın ve hâlâ beş parasızsın — kurtuluş değil, takas.
 
+## Borcun sonuçları
+
+Borç bir sayı olarak kalırsa kimseyi sıkmaz. **Ödenmeyen her gider kaleminin
+kendi sonucu var.** Hangi kalemin açık kaldığı, ödeme sırasından çıkıyor
+(`game_data.json` → `ekonomi.gider` yazılış sırası):
+
+**Ofis kirası → Cengo'ya elden ödeme → İşletme (elektrik)**
+
+Yani para azaldıkça önce ışıklar söner, sonra Cengo'nun eline geçen kalmaz,
+en son ev sahibi harekete geçer.
+
+| Açık kalan | Sonuç | Mekanik |
+|---|---|---|
+| İşletme | Elektrik kesildi | Sonraki vakalarda araştırma hakkı **−1** (taban 1) |
+| Cengo'ya ödeme | "Cengo'nun eline geçmedi" | `cengoBag` **−1**, her açık kalan ayda yeniden |
+| Ofis kirası | Ev sahibi icraya verdi | Aylık giderlere **12.000 ₺** takip masrafı eklenir |
+
+**Eşik: kalemin yarıdan fazlası açık kalmalı.** Kirasının dörtte üçünü ödeyen
+kiracı icraya verilmez. Bu eşik olmadan tek kötü ay üç krizi birden
+patlatıyordu ve tırmanma diye bir şey kalmıyordu.
+
+**Hiçbiri oyunu bitirmez ve hepsi geri alınabilir:** kalem ödendiği ay sonuç
+kalkar. Yan işler ay kapatmadığı için kriz de değerlendirmez.
+
+Cezanın vakayı kilitlememesi `test_borc.js`'te korunuyor: elektrik kesikken de
+dokuz vakanın her birinde, bütçeyi harcamanın her biçiminde en az bir karar
+açık kalıyor.
+
+Oyuncu üç yerde görüyor: sonuç ekranında kriz kutusu (yeni patlayan), kasa
+şeridinde rozet (süren), araştırma ekranında sönük noktanın sebebi.
+
+**Kriz metinleri iki yerde duruyor** — motorda `KRIZLER`, arayüzde
+`KRIZ_METIN` — çünkü arayüz motordan okuyamıyor. İkisinin ayrışmasını
+`test_borc.js` yakalıyor.
+
+### Testler ve ekonomi
+
+`test_yana`, `test_yanb`, `test_softlock` vakaların İÇERİK mantığını sınıyor
+(türetme, kapı, karar), ekonomiyi değil. Kasa boşken elektrik kesiliyor ve
+araştırma hakkı azalıyor; bu gerçek bir davranış ama o testlerin ölçtüğü şey
+değil. Hepsi artık `varlikli()` ile başlıyor — ajans ödeyebilir durumda, vaka
+tam bütçeyle sınanıyor.
+
 ### Koşul dilinde borç
 
 `ifadeCalistir` artık beşinci bir argüman alıyor: kasa (`{para, borc}`).

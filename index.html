@@ -101,6 +101,16 @@ body{
 .karar .bedel .kalan.dar{color:var(--koz)}
 .karar .bedel .kalan.kotu{color:var(--kirmizi)}
 .karar .bedel .borc-onizleme{font-size:13px;color:var(--kirmizi);font-weight:600}
+.kriz-kutu{margin:12px 0 0;padding:11px 13px;border:1px solid var(--kirmizi);border-radius:7px;
+  background:rgba(150,40,40,.12)}
+.kriz-kutu .b{font-size:14px;font-weight:700;color:var(--kirmizi);letter-spacing:.3px}
+.kriz-kutu .a{font-size:13px;color:var(--sonuk);margin-top:4px;line-height:1.45}
+.kriz-rozetler{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px;width:100%}
+.kriz-rozet{font-size:10.5px;letter-spacing:.4px;color:var(--kirmizi);border:1px solid var(--kirmizi);
+  border-radius:4px;padding:1px 5px;white-space:nowrap}
+.kriz-satir{font-size:12.5px;color:var(--kirmizi);margin:-2px 0 10px;font-style:italic}
+.hesap .satir.odenmedi b{color:var(--kirmizi)}
+.hesap .satir .acik{display:block;font-size:11px;color:var(--kirmizi);font-style:normal;margin-top:2px}
 .karar .bedel .sonuc{font-size:13px;font-style:italic}
 .karar .bedel .sonuc.iyi{color:var(--sonuk)}
 .karar .bedel .sonuc.dar{color:var(--koz)}
@@ -268,7 +278,51 @@ function ifadeCalistir(ifade, bilinen, seeds, cengoBag, kasa) {
   return false;
 }
 
-const KAYIT_SEMA = 2;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
+const KAYIT_SEMA = 3;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
+
+// --- BORCUN SONUÇLARI ------------------------------------------------------
+// Borç bir sayı olarak kalırsa oyuncuyu sıkmaz. Ödenmeyen HER GİDER KALEMİNİN
+// kendi sonucu var; hangisinin açık kaldığı, giderlerin ödenme sırasından
+// çıkıyor. Sıra game_data'daki yazılış sırası: kira → Cengo → işletme.
+// Yani para azaldıkça önce ışıklar söner, sonra Cengo'nun eline geçen kalmaz,
+// en son ev sahibi mahkemeye gider.
+//
+// Hiçbiri oyunu bitirmez (kaybetme yok) ve hepsi geri alınabilir: kalem
+// ödendiği ay sonuç kalkar.
+const KRIZLER = {
+  isletme: {
+    esle: /elektrik|işletme|isletme/i,
+    ad: "Elektrik kesildi",
+    aciklama: "Fatura ödenmedi. Karanlıkta dosya okunmuyor — bu vakada bir araştırma hakkın eksik.",
+  },
+  cengo: {
+    esle: /cengo/i,
+    ad: "Cengo'nun eline geçmedi",
+    aciklama: "Bir şey demedi. Bu daha kötü.",
+  },
+  kira: {
+    esle: /kira/i,
+    ad: "Ev sahibi icraya verdi",
+    aciklama: "Büroya haciz ihbarnamesi geldi. Takip masrafı da her ay senden çıkıyor.",
+  },
+};
+const ICRA_MASRAFI = 12000;   // icra sürerken aylık giderlere eklenen kalem
+
+// Ödenmeyen kalemlerden kriz bayraklarına.
+// Bir kalemin YARIDAN FAZLASI açık kalmalı. Kirasının dörtte üçünü ödeyen
+// kiracı icraya verilmez; bu eşik olmadan tek kötü ay üç krizi birden
+// patlatıyordu ve tırmanma diye bir şey kalmıyordu. Eşikle sıra kendiliğinden
+// oluşuyor: giderler kira → Cengo → işletme sırasıyla ödendiği için para
+// azaldıkça önce ışıklar söner, sonra Cengo'nun eline geçen kalmaz, en son
+// ev sahibi harekete geçer.
+function krizleriCikar(giderler) {
+  const out = {};
+  for (const g of giderler) {
+    if (!g.eksik || g.eksik * 2 <= g.tutar) continue;
+    for (const [ad, k] of Object.entries(KRIZLER)) if (k.esle.test(g.ad)) out[ad] = true;
+  }
+  return out;
+}
 
 // --- EKONOMİ ---------------------------------------------------------------
 // Para bir SKOR değil, bir KISIT. Biriktirilip maksimize edilmez; bittiğinde
@@ -330,6 +384,7 @@ class Oyun {
       para: ekonomiAl(game).baslangic_kasa,
       borc: 0,
       cengoBag: 0,
+      kriz: {},           // ödenmeyen gider kaleminin sonuçları (bkz. KRIZLER)
       seeds: {},          // cross-vaka bayraklar
       tamamlanan: [],     // biten vaka id'leri
       aktif: null,        // aktif vaka çalışma durumu
@@ -383,7 +438,9 @@ class Oyun {
     this.durum.aktif = {
       id: v.id, vaka: v, bilinen,
       acilanKaynaklar: new Set(),
-      arastirmaKalan: v.arastirma ?? 3,
+      // Elektrik kesikse bir hak eksik. Tabana 1 konuyor: sıfır hak, kaynağı
+      // bedelsiz olmayan bir vakayı kilitleyebilirdi — ceza oyunu durdurmaz.
+      arastirmaKalan: Math.max(1, (v.arastirma ?? 3) - (this.durum.kriz.isletme ? 1 : 0)),
       girisMetin: secilen?.metin || "",
     };
     this._turet();
@@ -536,9 +593,16 @@ class Oyun {
     const giderler = [];
     let faiz = 0;
     if (a.vaka.tur === "omurga") {
-      for (const [ad, tutar] of Object.entries(ekonomi.gider || {})) {
+      // Kalemler TEK TEK ödeniyor ve hangisinin açık kaldığı kaydediliyor:
+      // borcun sonucu ancak böyle "elektrik kesildi"ye dönüşebilir.
+      const kalemler = Object.entries(ekonomi.gider || {});
+      // İcra sürüyorsa takip masrafı da bu ayın gideri. En sona eklenir ki
+      // asıl kalemleri öne geçip onları ödenmemiş göstermesin.
+      if (this.durum.kriz.kira) kalemler.push(["İcra takip masrafı", ICRA_MASRAFI]);
+      for (const [ad, tutar] of kalemler) {
+        const odenen = Math.min(this.durum.para, tutar);
         paraDus(this.durum, tutar);
-        giderler.push({ ad, tutar });
+        giderler.push({ ad, tutar, odenen, eksik: tutar - odenen });
       }
       if (this.durum.borc > 0 && ekonomi.borc_faizi) {
         faiz = Math.round(this.durum.borc * ekonomi.borc_faizi);
@@ -552,6 +616,21 @@ class Oyun {
     // sormaz, alır — ve bu, borcu bir ceza olmaktan çıkarıp gerçekten
     // tırmanılabilir bir çukura çevirir. Yan işlerde de geçerli: borçluyken
     // kazanılan para önce borca gider.
+    // Krizler: bu ay açık kalan kalemler yakılır, ödenenler söndürülür.
+    // Yalnızca omurga vakada (yani ay kapanışında) değerlendirilir — yan iş
+    // ikinci bir ay geçirmiyor.
+    let yeniKrizler = [];
+    if (a.vaka.tur === "omurga") {
+      const simdiki = krizleriCikar(giderler);
+      for (const ad of Object.keys(KRIZLER)) {
+        if (simdiki[ad] && !this.durum.kriz[ad]) yeniKrizler.push(ad);
+        this.durum.kriz[ad] = !!simdiki[ad];
+      }
+      // Cengo'ya ödeyememek bir ilişki olayıdır, bir gider satırı değil.
+      // Her AY açık kaldığında bir kez düşer — borç sürdükçe süren bir ceza.
+      if (simdiki.cengo) this.durum.cengoBag -= 1;
+    }
+
     let borcOdemesi = 0;
     if (this.durum.borc > 0 && this.durum.para > 0) {
       borcOdemesi = Math.min(this.durum.para, this.durum.borc);
@@ -574,7 +653,8 @@ class Oyun {
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,
       // ekonomik döküm — oyuncu kararının parasal sonucunu ekranda görmeli
-      ekonomi: { kararPara, harcanan, giderler, faiz, borcOdemesi, para: this.durum.para, borc: this.durum.borc },
+      ekonomi: { kararPara, harcanan, giderler, faiz, borcOdemesi, yeniKrizler,
+                 kriz: { ...this.durum.kriz }, para: this.durum.para, borc: this.durum.borc },
     };
   }
 
@@ -625,6 +705,7 @@ class Oyun {
       seeds: { ...d.seeds },
       tamamlanan: [...d.tamamlanan],
       kaliciOlgular: [...(d.kaliciOlgular || [])],
+      kriz: { ...(d.kriz || {}) },
       aktif: d.aktif ? { id: d.aktif.id, acilan: [...d.aktif.acilanKaynaklar] } : null,
     };
   }
@@ -647,6 +728,7 @@ class Oyun {
         seeds: { ...(k.seeds || {}) },
         tamamlanan: [...(k.tamamlanan || [])],
         kaliciOlgular: [...(k.kaliciOlgular || [])],
+        kriz: { ...(k.kriz || {}) },
         aktif: null,
       };
       if (k.aktif) {
@@ -1060,6 +1142,16 @@ function scrollUst(){ window.scrollTo(0,0); }
 /* Para: sayıyı ve ANLAMINI birlikte göster. Çıplak sayı baskıyı okunmaz yapar,
    sayısız gösterge ise oyuncuyu körleştirir. */
 function tl(n){ return (n<0?"−":"") + Math.abs(Math.round(n)).toLocaleString("tr-TR") + " ₺"; }
+// Süren krizler her ekranda görünür durur: bu bir olay değil, bir HÂL.
+function krizRozetleri(){
+  const kz = (oyun.durum.kriz)||{};
+  const r = [];
+  if(kz.isletme) r.push('<span class="kriz-rozet">⚡ kesik</span>');
+  if(kz.kira)    r.push('<span class="kriz-rozet">§ icra</span>');
+  if(kz.cengo)   r.push('<span class="kriz-rozet">✦ Cengo ödenmedi</span>');
+  return r.length ? `<span class="kriz-rozetler">${r.join("")}</span>` : "";
+}
+
 function kasaSerit(){
   const k = oyun.kasaDurumu();
   if(!k.aylikGider) return "";
@@ -1072,6 +1164,7 @@ function kasaSerit(){
   return `<div class="kasa-serit">
     <span>Kasa <span class="tutar">${tl(k.para)}</span>${k.borc? ` · <span class="borc">borç ${tl(k.borc)}</span>`:""}</span>
     <span class="hal ${k.hal==="kritik"?"kritik":k.hal==="batık"?"batik":""}">${halMetin}</span>
+    ${krizRozetleri()}
   </div>`;
 }
 
@@ -1197,6 +1290,10 @@ function arastirmaFazi(){
 
   if(acik.length>0){
     h += `<div class="faz-etiket"><span class="t">Neyi araştıracaksın?</span>${puan}</div>`;
+    // Sönük duran nokta sebepsiz bir eksiklik gibi görünmesin.
+    if(oyun.durum.kriz && oyun.durum.kriz.isletme && a.arastirmaKalan < v.arastirma){
+      h += '<div class="kriz-satir">⚡ Elektrik kesik — bu vakada bir araştırma hakkın eksik.</div>';
+    }
     if(sonUyari){ h += `<div class="kaynak-uyari">${sonUyari}</div>`; sonUyari = null; }
     for(const c of acik){
       const tam = v.clues.find(x=>x.id===c.id);
@@ -1327,17 +1424,40 @@ function kararVerFaz(id){
 
 /* Kararın parasal sonucu: oyuncu ne kazandığını VE ayın giderlerini görmeli.
    Ekonomik çöküş hikâyede varsa oyunda da görünmeli. */
+// Motordaki KRIZLER ile aynı metinler; arayüz motordan okuyamadığı için
+// burada duruyor. İkisinin ayrışmasını test_borc.js yakalıyor.
+const KRIZ_METIN = {
+  isletme: { ad: "Elektrik kesildi",
+             aciklama: "Fatura ödenmedi. Karanlıkta dosya okunmuyor — bundan sonraki vakada bir araştırma hakkın eksik." },
+  cengo:   { ad: "Cengo'nun eline geçmedi",
+             aciklama: "Bir şey demedi. Bu daha kötü." },
+  kira:    { ad: "Ev sahibi icraya verdi",
+             aciklama: "Büroya haciz ihbarnamesi geldi. Takip masrafı da her ay senden çıkıyor." },
+};
+
 function hesapKutusu(e){
   if(!e) return "";
   let h = '<div class="hesap">';
   if(e.kararPara) h += `<div class="satir ${e.kararPara>0?'gelir':'gider'}"><span>${e.kararPara>0?'Vaka ücreti':'Kararın bedeli'}</span><b>${tl(e.kararPara)}</b></div>`;
   if(e.harcanan)  h += `<div class="satir gider"><span>Araştırma masrafı</span><b>${tl(-e.harcanan)}</b></div>`;
-  for(const g of (e.giderler||[])) h += `<div class="satir gider"><span>${g.ad}</span><b>${tl(-g.tutar)}</b></div>`;
+  for(const g of (e.giderler||[])){
+    // Ödenemeyen kalemi gizlemek, borcun NEDEN sonuç doğurduğunu görünmez
+    // kılardı. Açık kalan kadarı satırın kendisinde yazıyor.
+    const acik = g.eksik ? `<em class="acik">${tl(g.eksik)} açık kaldı</em>` : "";
+    h += `<div class="satir gider ${g.eksik?'odenmedi':''}"><span>${g.ad}${acik}</span><b>${tl(-g.tutar)}</b></div>`;
+  }
   if(e.faiz) h += `<div class="satir gider"><span>Borç faizi</span><b>${tl(-e.faiz)}</b></div>`;
   h += '<div class="ayrac"></div>';
   h += `<div class="sonuc-satir"><span>Kasa</span><span>${tl(e.para)}</span></div>`;
+  if(e.borcOdemesi) h += `<div class="sonuc-satir" style="color:var(--altin)"><span>Borca giden</span><span>${tl(-e.borcOdemesi)}</span></div>`;
   if(e.borc) h += `<div class="sonuc-satir" style="color:var(--kirmizi)"><span>Borç</span><span>${tl(e.borc)}</span></div>`;
   h += '</div>';
+  // Bu ay yeni patlayan sonuçlar. Rakamın altında değil, ayrı bir kutuda —
+  // oyuncu muhasebeyi atlasa bile bunu atlamasın.
+  for(const ad of (e.yeniKrizler||[])){
+    const k = KRIZ_METIN[ad]; if(!k) continue;
+    h += `<div class="kriz-kutu"><div class="b">${k.ad}</div><div class="a">${k.aciklama}</div></div>`;
+  }
   return h;
 }
 
