@@ -11,7 +11,7 @@
 // İma sözlüğü elle yazılır ve bilinçli olarak dardır: "şu kelime geçiyorsa
 // şu olgu bilinmeli". Böylece yanlış alarm üretmez, ama yakaladığı her şey
 // gerçek bir sızıntıdır.
-const { Oyun } = require("./motor.js");
+const { Oyun, ifadeCalistir } = require("./motor.js");
 const fs = require("fs");
 const g = JSON.parse(fs.readFileSync("game_data.json", "utf-8"));
 const KISILER = JSON.parse(fs.readFileSync("kisiler.json", "utf-8"));
@@ -25,7 +25,8 @@ const k = (ad, ok, ek) => { console.log((ok ? "✓" : "✗ BAŞARISIZ") + " " + 
 // ---------------------------------------------------------------------------
 const IMA = [
   { kelimeler: ["cinayet", "öldürüldü", "öldürttü"],
-    olgular: ["cinayet_suphesi", "zincir_tam", "iten_ilyas", "el_var"],
+    olgular: ["cinayet_suphesi", "zincir_tam", "iten_ilyas", "el_var",
+              "tam_resim", "cinayet_sebep", "cavit_azmettiren", "itis_kesin"],
     aciklama: "ölümün kaza değil cinayet olduğu" },
 
   { kelimeler: ["gizli çocuk", "çocuğa giden", "gizli iyilik", "isimsiz para", "her ay giden"],
@@ -35,11 +36,13 @@ const IMA = [
     aciklama: "Kaya'nın gizlice bir çocuğa para gönderdiği" },
 
   { kelimeler: ["sevgili", "ilişkileri", "Cavit'le Ceyda"],
-    olgular: ["cavit_ceyda", "tam_resim", "zincir_tam", "iliski_gor_acildi"],
+    olgular: ["cavit_ceyda", "tam_resim", "zincir_tam", "iliski_gor_acildi",
+              "cavit_ceyda_sevgili", "iliski_acik"],
     aciklama: "Cavit ile Ceyda'nın ilişkisi" },
 
   { kelimeler: ["itildi", "itiş", "iten"],
-    olgular: ["dusus_acisi", "itis_kesin", "iten_ilyas", "cinayet_suphesi", "zincir_tam"],
+    olgular: ["dusus_acisi", "itis_kesin", "iten_ilyas", "cinayet_suphesi", "zincir_tam",
+              "foto_teshis", "tanik_gordu"],
     aciklama: "düşmenin itilme olduğu" },
 
   { kelimeler: ["yalnızdım", "yalnız olduğunu", "evde yalnız"],
@@ -49,6 +52,23 @@ const IMA = [
   { kelimeler: ["kayıtlarına bakarken", "kayıtlarında", "dekont"],
     olgular: ["kaya_kayit_gordu", "gizli_dosya", "odeme_iz_acildi"],
     aciklama: "Kaya'nın mali kayıtlarına bakılmış olduğu" },
+
+  // --- 2. inceleme turunda bulunanlar -------------------------------------
+  { kelimeler: ["onu kullanan", "kullananın", "azmettiren", "mimarıydı", "asıl mimar"],
+    olgular: ["zincir_tam", "cavit_ilyas_bag", "el_var"],
+    aciklama: "İlyas'ı birinin kullandığı / Cavit'in azmettiren olduğu" },
+
+  { kelimeler: ["aldattığını", "aldatıldığını", "sevgilinin onu istemediğinden"],
+    olgular: ["cavit_ceyda", "zincir_tam", "iliski_gor_acildi", "kaya_bilmiyordu"],
+    aciklama: "Ceyda'nın Kaya'yı aldattığı" },
+
+  { kelimeler: ["bir çocuğu yaşatırken", "aile, çocuk", "o çocuğa"],
+    olgular: ["kaya_gizli_iyilik", "kaya_insani", "odeme_kayaya_ait", "cocuk_bul_acildi"],
+    aciklama: "Kaya'nın bir çocuğu yaşattığı (V4 bilgisi)" },
+
+  { kelimeler: ["bu bir kaza değildi", "kaza değildi — bu kadarından eminsin"],
+    olgular: ["cinayet_suphesi", "iten_ilyas", "el_var", "dusus_acisi", "zincir_tam"],
+    aciklama: "ölümün kaza olmadığının KESİN bilindiği" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -191,6 +211,119 @@ console.log("\n=== SONUÇ METNİ, VERİLMEYEN BİR KARARI ANLATIYOR MU? ===");
 }
 
 // ---------------------------------------------------------------------------
+console.log("\n=== VARSAYILAN VARYANTLAR NEYİ VARSAYIYOR? ===");
+{
+  // Oynanan gidişatlar her varyantı tetiklemiyor; bu tarama YAPISAL.
+  // Koşullu bir metnin VARSAYILAN varyantı, hiçbir koşul sağlanmadığında
+  // gösterilen metindir — yani o yüzeyi gören EN AZ BİLGİLİ oyuncunun
+  // okuduğu şey. Soru şu: o oyuncunun elinde ne olduğu KESİN?
+  //
+  // Her yüzeyin kendi garantisi var:
+  //   kaynak metni  → needs + reveals (kaynağın kendisi o bilgiyi VERİYOR)
+  //   karar sonucu  → kararın gate'i
+  //   defter notu   → ait olduğu kararın gate'i
+  //   giriş         → giris.acilan
+  // Bu garantiler olmadan tarama her doğru metni de yakalardı: tanığın
+  // "itildi" demesi sızıntı değil, tanık ifadesinin ta kendisi.
+  const olgulariTopla = (ifade, out) => {
+    out = out || new Set();
+    if (!ifade) return out;
+    if (typeof ifade === "string") { if (ifade !== "yok") out.add(ifade); return out; }
+    if (Array.isArray(ifade)) { ifade.forEach(x => olgulariTopla(x, out)); return out; }
+    for (const anahtar of ["all", "any"]) if (ifade[anahtar]) olgulariTopla(ifade[anahtar], out);
+    if (ifade.not) olgulariTopla(ifade.not, out);
+    if (ifade.seed) out.add(ifade.seed + (ifade.esit === undefined ? "" : ":" + ifade.esit));
+    return out;
+  };
+  // Türetme İKİ YÖNLÜ: türetilmişe sahipsen bileşenlerine de sahipsin, VE
+  // bileşenlerin hepsine sahipsen türetilmişe de sahipsin. Tek yön yetmiyordu:
+  // foto_goster 'foto_teshis' veriyor, 'iten_ilyas' ondan TÜRÜYOR — ileri yön
+  // olmadan kaynağın kendi metni sızıntı sayılıyordu.
+  // Bir olguyu ÜRETEN kaynak açılmış olmalı; o hâlde onun needs'i ve diğer
+  // reveals'ı da elde demektir. Bu olmadan zincirin sonundaki kaynaklar
+  // yanlış alarm veriyordu: ceyda_derin'e ulaşmak iliski_gor'dan geçiyor,
+  // iliski_gor da 'cinayet_sebep'i veriyor.
+  // Aynı olguyu birden çok kaynak üretiyorsa yalnızca ORTAK garantiler
+  // sayılır — yoksa denetim gevşer ve gerçek sızıntıyı kaçırır.
+  const uretenlerdenGelen = (vaka, olgu) => {
+    const uretenler = (vaka.clues || []).filter(c => (c.reveals || []).includes(olgu));
+    if (!uretenler.length) return null;
+    let ortak = null;
+    for (const c of uretenler) {
+      const kume = new Set([...(c.reveals || []), ...olgulariTopla(c.needs)]);
+      ortak = ortak === null ? kume : new Set([...ortak].filter(x => kume.has(x)));
+    }
+    return ortak;
+  };
+  const genislet = (vaka, havuz) => {
+    let degisti = true;
+    while (degisti) {
+      degisti = false;
+      for (const olgu of [...havuz]) {
+        const gelen = uretenlerdenGelen(vaka, olgu);
+        if (!gelen) continue;
+        for (const f of gelen) if (!havuz.has(f)) { havuz.add(f); degisti = true; }
+      }
+      for (const t of (vaka.knowledge || [])) {
+        if (havuz.has(t.turetilen)) {
+          for (const f of olgulariTopla(t.ifade)) if (!havuz.has(f)) { havuz.add(f); degisti = true; }
+        } else if (ifadeCalistir(t.ifade, havuz, {}, 0, {})) {
+          havuz.add(t.turetilen); degisti = true;
+        }
+      }
+    }
+    return havuz;
+  };
+
+  const bulgular = [];
+  const varsayilanMetin = (x) => {
+    if (typeof x === "string") return x;                 // koşulsuz = herkese
+    if (!Array.isArray(x)) return "";
+    const v = x.find(y => y.kosul === "varsayilan");
+    return v ? v.metin : "";
+  };
+  const bak = (yer, ham, havuz) => {
+    const m = varsayilanMetin(ham);
+    if (!m) return;
+    for (const im of IMA) {
+      if ((im.haric || []).includes(yer)) continue;
+      if (!im.olgular.length) continue;                  // "hiç geçmemeli" kuralı ayrı
+      if (im.olgular.some(f => havuz.has(f))) continue;  // yüzeyin kendi garantisi
+      const gecen = im.kelimeler.find(kw =>
+        m.toLocaleLowerCase("tr").includes(kw.toLocaleLowerCase("tr")));
+      if (!gecen) continue;
+      bulgular.push(`${yer}\n       varsayılan varyantta "${gecen}" geçiyor → ${im.aciklama} varsayılıyor\n` +
+                    `       garantili olgular: ${[...havuz].join(", ") || "(yok)"}\n` +
+                    `       "${m.slice(0, 130)}"`);
+    }
+  };
+
+  for (const v of g.vakalar) {
+    const girisOlgulari = new Set((v.giris || []).flatMap(x => x.acilan || []));
+    for (const c of v.clues) {
+      const havuz = genislet(v, new Set([
+        ...girisOlgulari,
+        ...olgulariTopla(c.needs),
+        ...(c.reveals || []),
+      ]));
+      bak(v.id + "/" + c.id, c.text, havuz);
+      bak(v.id + "/" + c.id + ":meta", c.meta, havuz);
+    }
+    for (const d of v.decisions) {
+      const havuz = genislet(v, new Set([...girisOlgulari, ...olgulariTopla(d.gate)]));
+      bak(v.id + "/" + d.id, d.sonuc, havuz);
+      const not = (KISILER.defter[v.id] || {})[d.id];
+      if (not) bak("defter " + v.id + "/" + d.id, not, havuz);
+    }
+    const varsayilanGiris = (v.giris || []).find(x => x.kosul === "varsayilan");
+    if (varsayilanGiris)
+      bak(v.id + "/giriş", varsayilanGiris.metin, genislet(v, new Set(varsayilanGiris.acilan || [])));
+  }
+
+  k("hiçbir varsayılan varyant hak edilmemiş olgu varsaymıyor",
+    bulgular.length === 0, bulgular.join("\n\n"));
+}
+
 console.log("\n=== SABİT FİNANSAL DURUM İDDİASI VAR MI? ===");
 {
   // Ekonomi dinamik, metinler sabit. "Borç kapandı" diyen bir cümle, borcun

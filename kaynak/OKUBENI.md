@@ -143,6 +143,58 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 - **Son ekranı `hepsi` anahtarı**: eşlemede `hepsini_ifsa` yazıyordu ama karar
   `final_karar: "hepsi"` yazıyor. O final cümlesi hiç görünmüyormuş.
 
+## Nurcan denetimi artık TÜM metin yüzeylerinde
+
+Doğrulayıcının K10'u yalnızca **kaynak** metinlerine bakıyordu. Karar
+sonuçları, defter notları ve giriş varyantları denetimsizdi — bu sınıftaki
+hataları bugüne kadar hep elle, tek tek bulduk.
+
+`test_sizinti.js` artık **yapısal** bir tarama da yapıyor. Mantığı şu:
+koşullu bir metnin **varsayılan** varyantı, hiçbir koşul sağlanmadığında
+gösterilendir — yani o yüzeyi gören **en az bilgili** oyuncunun okuduğu şey.
+Soru: o oyuncunun elinde ne olduğu **kesin**?
+
+Her yüzeyin kendi garantisi var:
+
+| Yüzey | Garanti |
+|---|---|
+| Kaynak metni/meta | `needs` + `reveals` (kaynağın kendisi o bilgiyi veriyor) |
+| Karar sonucu | kararın `gate`'i |
+| Defter notu | ait olduğu kararın `gate`'i |
+| Giriş | `giris.acilan` |
+
+Havuz üç şekilde genişliyor, üçü de gerçek yanlış alarmları kapatmak için
+eklendi:
+
+1. **Türetme geriye** — türetilmiş olguya sahipsen bileşenlerine de sahipsin.
+2. **Türetme ileriye** — bileşenlerin hepsine sahipsen türetilmişe de
+   sahipsin. Bu olmadan `foto_goster`'ın kendi metni sızıntı sayılıyordu:
+   kaynak `foto_teshis` veriyor, `iten_ilyas` ondan türüyor.
+3. **Zincir boyunca** — bir olguyu üreten kaynak açılmış olmalı, o hâlde onun
+   `needs`'i ve diğer `reveals`'ı da elde demektir. Bu olmadan zincirin
+   sonundaki kaynaklar yanlış alarm veriyordu: `ceyda_derin`'e ulaşmak
+   `iliski_gor`'dan geçiyor, o da `cinayet_sebep`'i veriyor. Aynı olguyu
+   birden çok kaynak üretiyorsa yalnızca **ortak** garantiler sayılıyor —
+   yoksa denetim gevşer.
+
+Tarama 15 bulguyla başladı, 14'ü yanlış alarmdı; havuz doğru kurulunca
+sıfıra indi. Negatif testle doğrulandı: düzeltilen bir sızıntı geri konunca
+bekçi anında yakalıyor.
+
+### 2. inceleme turunda kapatılan sızıntılar
+
+| Nerede | Söylenen | Oyuncunun bilmediği |
+|---|---|---|
+| `V3/cavite_teslim` sonuç + defter | "onu kullanan adamın kucağına attın" | Cavit'in İlyas'ı kullandığı (V5 bilgisi) |
+| `V6` giriş (varsayılan) | "karısının onu aldattığını" | Ceyda–Cavit ilişkisi |
+| `V6` giriş (orta) | "aldatıldığını" | Aynı |
+| `V6/eldekiler` | "bu bir kaza değildi — eminsin" | Hiç şüphesi olmayabilir |
+| `V6/kaya_izi` **meta** | "bir çocuğu yaşatırken" | V4'ü oynamamış olabilir |
+| `V6/hepsini_ifsa` | "aile, **çocuk**, belki Cengo" | Aynı |
+
+Metnin kendisi koşulluyken **meta'nın koşulsuz kalması** iki kez tekrarladı
+(`V6/kaya_izi`). Varyant eklerken her iki alanı da gözden geçirmek gerekiyor.
+
 ## Sabit finansal iddia yasağı
 
 Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir

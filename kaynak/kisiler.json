@@ -201,7 +201,16 @@
   "V3": {
    "polise_ver": "İlyas'ı polise verdim. Doğrusu buydu. Cavit köpürdü, para kesildi — ama o yaşlı kadın doğruyu söylemişti, ben de onu yalnız bırakmadım.",
    "koz_yap": "İlyas'ı kimseye vermedim. Bildiğimi sakladım. Elimde bir koz var şimdi. Tehlikeli, biliyorum. Ama güçlü.",
-   "cavite_teslim": "İlyas'ı Cavit'e verdim. Para geldi. Ama o adamı doğrudan onu kullananın kucağına attığımı sonradan anladım.",
+   "cavite_teslim": [
+    {
+     "kosul": "zincir_tam",
+     "metin": "İlyas'ı Cavit'e verdim. Para geldi. Ama o adamı doğrudan onu kullananın kucağına attığımı sonradan anladım."
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "İlyas'ı Cavit'e verdim. Para geldi. Cavit 'ben hallederim' dedi ve ben ne halledeceğini sormadım."
+    }
+   ],
    "tanigi_lekele": "O kadını 'güvenilmez' diye yazdım. Doğruyu söyleyen tek kişiyi lekeledim. Cengo o günden beri farklı. Ben de öyle."
   },
   "V4": {

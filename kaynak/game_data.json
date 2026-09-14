@@ -745,7 +745,16 @@
      "id": "cavite_teslim",
      "gate": "iten_ilyas",
      "etiket": "İlyas'ı Cavit'e teslim et",
-     "sonuc": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın. Rapor yazılmadı ama Cavit aldığı şeye daha çok değer veriyor; ücretin çoğunu öder.",
+     "sonuc": [
+      {
+       "kosul": "zincir_tam",
+       "metin": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın. Rapor yazılmadı ama Cavit aldığı şeye daha çok değer veriyor; ücretin çoğunu öder."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama o adamı kimin eline bıraktığını sen de bilmiyorsun. Rapor yazılmadı ama Cavit aldığı şeye daha çok değer veriyor; ücretin çoğunu öder."
+      }
+     ],
      "cengoBag": -1,
      "seed_yaz": {
       "ilyas_kime_gitti": "cavit"
@@ -2037,12 +2046,12 @@
        "el_var"
       ]
      },
-     "metin": "Elinde dağınık parçalar var ama tam resim yok. Yine de bir şeyi biliyorsun: bu bir cinayetti, ve Kaya'nın ölümünde bir korku vardı. Geriye tek soru kaldı: Kaya aldatıldığını biliyor muydu? Ama sen o kadar derine inmedin. Bu gece elinde ne varsa onunla karar vereceksin.",
+     "metin": "Elinde dağınık parçalar var ama tam resim yok. Yine de bir şeyi biliyorsun: bu bir cinayetti, ve Kaya'nın ölümünde bir korku vardı. Geriye tek soru kaldı: Kaya son günlerinde ne biliyordu? Ama sen o kadar derine inmedin. Bu gece elinde ne varsa onunla karar vereceksin.",
      "acilan": []
     },
     {
      "kosul": "varsayilan",
-     "metin": "Elinde dağınık parçalar var, hiçbiri bir araya gelmiyor. Bir adam merdivenden düştü, bir kadın tuhaf konuştu, bir avukat fazla yakın durdu. Geriye tek soru kaldı: Kaya karısının onu aldattığını biliyor muydu? Ama sen o kadar derine inmedin. Bu gece elinde ne varsa onunla karar vereceksin.",
+     "metin": "Elinde birkaç kâğıt var, hiçbiri bir araya gelmiyor. Bir adam merdivenden düştü, dosya kapandı, ay bitti. Geriye tek soru kaldı ve onu soracak kimsen yok: Kaya son günlerinde ne biliyordu? Sen o kadar derine inmedin. Bu gece elinde ne varsa onunla karar vereceksin.",
      "acilan": []
     }
    ],
@@ -2082,7 +2091,23 @@
      "reveals": [
       "boslugu_kabul"
      ],
-     "text": "Masaya oturdun ve elindekileri tek tek dizdin. Bir adam merdivenden düştü ve bu bir kaza değildi — bu kadarından eminsin. Gerisi dağınık: yarım kalmış cümleler, kaçamak bakışlar, üstü örtülmüş bir iki şey. Yan yana koydun, konuşmadılar. Ortada bir boşluk var; bunu isteyen biri olmalı ve sen o boşluğa hiç inmedin. 'Elimde bu kadarı var,' dedin içinden. 'Gerisini artık öğrenemeyeceğim.'",
+     "text": [
+      {
+       "kosul": {
+        "any": [
+         "cinayet_suphesi",
+         "iten_ilyas",
+         "el_var",
+         "dusus_acisi"
+        ]
+       },
+       "metin": "Masaya oturdun ve elindekileri tek tek dizdin. Bir adam merdivenden düştü ve bu bir kaza değildi — bu kadarından eminsin. Gerisi dağınık: yarım kalmış cümleler, kaçamak bakışlar, üstü örtülmüş bir iki şey. Yan yana koydun, konuşmadılar. Ortada bir boşluk var; bunu isteyen biri olmalı ve sen o boşluğa hiç inmedin. 'Elimde bu kadarı var,' dedin içinden. 'Gerisini artık öğrenemeyeceğim.'"
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Masaya oturdun ve elindekileri tek tek dizdin. Bir dosya, bir rapor, birkaç isim. Yan yana koydun, konuşmadılar. Bir şeyin eksik olduğunu hissediyorsun ama neyin eksik olduğunu bile bilmiyorsun — çünkü aramadın. 'Elimde bu kadarı var,' dedin içinden. 'Gerisini artık öğrenemeyeceğim.'"
+      }
+     ],
      "meta": "Zinciri kapatacak halka eksik. Aramak için vaktin vardı, başka yerlere baktın. Bu boşluk kapanmayacak — bu gece ne yaparsan elindeki bu kadarıyla yapacaksın.",
      "bedelsiz": true
     },
@@ -2115,7 +2140,22 @@
        "metin": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, düzenli bir takvim. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok."
       }
      ],
-     "meta": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken.",
+     "meta": [
+      {
+       "kosul": {
+        "any": [
+         "kaya_gizli_iyilik",
+         "kaya_insani",
+         "odeme_kayaya_ait"
+        ]
+       },
+       "metin": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Kaya bilmiyordu. Karısının onu aldattığından, sevgilinin onu istemediğinden habersizdi. Olmayan bir tehdit için öldürüldü."
+      }
+     ],
      "gorsel": {
       "dosya": "portre_kaya.jpg",
       "tur": "portre",
@@ -2259,7 +2299,22 @@
       ]
      },
      "etiket": "Hepsini ifşa et (elinde kanıt varsa)",
-     "sonuc": "Biriktirdiğin kanıtla üçünü birden patlattın. En adil ama en yıkıcı: herkes düşer, düşerken masumlar da — aile, çocuk, belki Cengo — zarar görür. Adalet, bedelini masumlara ödetir.",
+     "sonuc": [
+      {
+       "kosul": {
+        "any": [
+         "kaya_gizli_iyilik",
+         "kaya_insani",
+         "odeme_kayaya_ait"
+        ]
+       },
+       "metin": "Biriktirdiğin kanıtla üçünü birden patlattın. En adil ama en yıkıcı: herkes düşer, düşerken masumlar da — aile, çocuk, belki Cengo — zarar görür. Adalet, bedelini masumlara ödetir."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Biriktirdiğin kanıtla üçünü birden patlattın. En adil ama en yıkıcı: herkes düşer, düşerken yanlarındakiler de — aileler, belki Cengo — zarar görür. Adalet, bedelini masumlara ödetir."
+      }
+     ],
      "cengoBag": 0,
      "seed_yaz": {
       "final_karar": "hepsi"
