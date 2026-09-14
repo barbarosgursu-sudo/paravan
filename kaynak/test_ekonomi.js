@@ -164,6 +164,41 @@ console.log("\n=== KASA DURUMU SAYIYI VE ANLAMINI VERİYOR ===");
   dene(0, 50000, "batık");
 }
 
+console.log("\n=== KARAR ÖNİZLEMESİ MOTORLA AYNI SONUCU VERİYOR ===");
+{
+  // Karar ekranı "ay sonunda ne olacak" diye bir önizleme basıyor. O önizleme
+  // motorun hesabını BİREBİR tekrar etmeli; etmezse oyuncuya yanlış rakamla
+  // karar verdiriyoruz. Bu test iki hesabı karşılaştırır — motorun kapanış
+  // sırası (önce giderler, SONRA borcun tamamına faiz) değişirse burası patlar
+  // ve arayüzün de güncellenmesi gerektiğini söyler.
+  const e = ekonomiAl(g), gider = giderToplam(g);
+  const onizleme = (para, borc, kararPara, omurgaMi) => {
+    const aylikGider = omurgaMi ? gider : 0;
+    const kalan = para + kararPara - aylikGider;
+    let borcSonra = borc + Math.max(0, -kalan);
+    if (aylikGider && borcSonra > 0) borcSonra += Math.round(borcSonra * (e.borc_faizi || 0));
+    return { kasa: Math.max(0, kalan), borc: borcSonra };
+  };
+  const dene = (vid, kid, para, borc) => {
+    const o = new Oyun(g);
+    o.durum.para = para; o.durum.borc = borc;
+    const yol = kararIcinOyna(vid, kid);
+    if (!yol) return k(`${vid}/${kid}: yol bulunamadı`, false);
+    o.vakaBaslat(vid);
+    for (const id of yol) o.kaynakAc(id);
+    const omurgaMi = o.durum.aktif.vaka.tur === "omurga";
+    const t = onizleme(para, borc, g.vakalar.find(v=>v.id===vid).decisions.find(d=>d.id===kid).para || 0, omurgaMi);
+    o.kararVer(kid);
+    k(`${vid}/${kid} (kasa ${tl(para)}, borç ${tl(borc)}): kasa uyuyor`,
+      o.durum.para === t.kasa, tl(o.durum.para) + " ≟ " + tl(t.kasa));
+    k(`${vid}/${kid}: borç uyuyor`, o.durum.borc === t.borc, tl(o.durum.borc) + " ≟ " + tl(t.borc));
+  };
+  dene("V3", "polise_ver",    21850,     0);   // borçsuzken borca giriş
+  dene("V3", "polise_ver",    21850, 40000);   // borçluyken borç büyümesi
+  dene("V3", "tanigi_lekele", 21850,     0);   // kâr eden ay
+  dene("V3", "tanigi_lekele",  5000, 30000);   // kâr var ama borç faiziyle duruyor
+}
+
 console.log("\n=== KAYIT EKONOMİYİ TAŞIYOR ===");
 {
   const o = new Oyun(g);

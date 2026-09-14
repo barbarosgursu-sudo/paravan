@@ -115,6 +115,7 @@ body{
 .karar .bedel .kalan{font-size:13px;color:var(--sonuk)}
 .karar .bedel .kalan.dar{color:var(--koz)}
 .karar .bedel .kalan.kotu{color:var(--kirmizi)}
+.karar .bedel .borc-onizleme{font-size:13px;color:var(--kirmizi);font-weight:600}
 .karar .bedel .sonuc{font-size:13px;font-style:italic}
 .karar .bedel .sonuc.iyi{color:var(--sonuk)}
 .karar .bedel .sonuc.dar{color:var(--koz)}
@@ -855,12 +856,18 @@ function kararFazi(){
     let bedel = "";
     if(p !== undefined){
       const kalan = oyun.durum.para + p - aylikGider;
+      // Kasa eksiye düşmez, açık BORCA yazılır — önizleme de motorun yaptığını
+      // birebir yapmalı, yoksa "ay sonunda 0 ₺" diyerek 37 bin liralık çukuru
+      // gizler. Faiz giderlerden SONRA ve borcun tamamına işliyor.
+      const borcOnce = oyun.durum.borc;
+      let borcSonra = borcOnce + Math.max(0, -kalan);
+      if(aylikGider && borcSonra > 0) borcSonra += Math.round(borcSonra * (ekonomiAl(GAME).borc_faizi || 0));
       // Asıl bilgi "ay sonunda kasada ne kalıyor". Uyarı cümlesi YALNIZCA kötü
       // seçeneklerde çıkar — hepsinde çıkarsa ayrım kaybolur, kimse okumaz.
       let uyari = "", sinif = "iyi";
       // Gelecek ay yeni bir iş gelebilir; uyarı bunu kesinmiş gibi sunmamalı.
-      // "Borca girersin" ise BU ayın kesin sonucu, koşulsuz.
-      if(kalan < 0){ uyari = "borca girersin"; sinif = "kotu"; }
+      // Borç ise BU ayın kesin sonucu, koşulsuz.
+      if(kalan < 0){ uyari = borcOnce > 0 ? "borcun büyür" : "borca girersin"; sinif = "kotu"; }
       else if(aylikGider && kalan < aylikGider * 0.5){ uyari = "yeni iş gelmezse batarsın"; sinif = "kotu"; }
       else if(aylikGider && kalan < aylikGider){ uyari = "yeni iş gelmezse açık verirsin"; sinif = "dar"; }
       const tutar = p > 0 ? "+" + tl(p) : (p < 0 ? tl(p) : "ödeme yok");
@@ -870,6 +877,7 @@ function kararFazi(){
         <span class="etiket">ücret</span><b class="\${p>0?'kazanc':'yok'}">\${tutar}</b>
         <span class="ok">→</span>
         <span class="kalan \${sinif}">ay sonunda \${tl(Math.max(0,kalan))}</span>
+        \${borcSonra>0?\`<span class="borc-onizleme">borç \${tl(borcSonra)}</span>\`:""}
         \${uyari?\`<span class="sonuc \${sinif}">\${uyari}</span>\`:""}</span>\`;
     }
     h += \`<div class="karar" onclick="kararVerFaz('\${k.id}')"><div class="et">\${k.etiket}\${bedel}</div></div>\`;

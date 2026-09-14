@@ -716,29 +716,32 @@
      "seed_yaz": {
       "ilyas_kime_gitti": "polis"
      },
-     "yuzde": 38
+     "yuzde": 38,
+     "para": 0
     },
     {
      "id": "koz_yap",
      "gate": "iten_ilyas",
      "etiket": "Kendine sakla, koz yap",
-     "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol.",
+     "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol. Ortada rapor yok, sadece bir görüntü; Cavit ücretin bir kısmını tutar.",
      "cengoBag": 1,
      "seed_yaz": {
       "ilyas_kime_gitti": "koz"
      },
-     "yuzde": 31
+     "yuzde": 31,
+     "para": 40000
     },
     {
      "id": "cavite_teslim",
      "gate": "iten_ilyas",
      "etiket": "İlyas'ı Cavit'e teslim et",
-     "sonuc": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın.",
+     "sonuc": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın. Rapor yazılmadı ama Cavit aldığı şeye daha çok değer veriyor; ücretin çoğunu öder.",
      "cengoBag": -1,
      "seed_yaz": {
       "ilyas_kime_gitti": "cavit"
      },
-     "yuzde": 19
+     "yuzde": 19,
+     "para": 70000
     },
     {
      "id": "tanigi_lekele",
@@ -758,7 +761,8 @@
      "seed_yaz": {
       "ilyas_kime_gitti": "lekele"
      },
-     "yuzde": 12
+     "yuzde": 12,
+     "para": 85000
     }
    ],
    "seeds": {

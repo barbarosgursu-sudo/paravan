@@ -272,10 +272,55 @@ getiriyor, yani cümle oyuncuyu tam ters yöne itiyordu. Oyunun deyimi
 kutusu değil kart yazısı seçildi. `test_yana.js` hem düşme davranışını hem
 kartın uyarıyı taşıdığını kilitliyor.
 
+### V3 — kirli paranın en yüksek olduğu ay
+
+Müşteri yine Cavit ve istediği şey V1'dekinden ağır: doğruyu söyleyen yaşlı
+bir kadını "güvenilmez" diye rapor ettirmek. Vicdanın fiyatı da ona göre
+yükseliyor — V1'in tavanı 65.000 ₺ idi, V3'ün tavanı 85.000 ₺.
+
+| Karar | Para | Vicdan | Neden o kadar |
+|---|---|---|---|
+| Tanığı 'güvenilmez' diye rapor et | 85.000 ₺ | −2 | Cavit'in sipariş ettiği tek şey buydu: dosyayı kapatan belge |
+| İlyas'ı Cavit'e teslim et | 70.000 ₺ | −1 | Rapor yazılmadı, ama Cavit aldığı şeye daha çok değer veriyor |
+| Kendine sakla, koz yap | 40.000 ₺ | +1 | Ortada rapor yok, sadece bir görüntü; ücretin bir kısmını tutar |
+| İlyas'ı polise ver | 0 ₺ | +2 | Sonuç metninin kendi sözü: Cavit "ödemeyi keser" |
+
+`tanigi_lekele` tek kapısız karar (`gate: "yok"`). Yani hiç araştırmayan
+oyuncunun önünde yalnızca **en çok kazandıran ve en kirli** seçenek duruyor.
+Bakmamak para kazandırıyor — tez tam olarak bu.
+
+Üç aylık eğri (yan vakalar hariç, başlangıç 65.000 ₺):
+
+| Yol | V1 | V2 | V3 |
+|---|---|---|---|
+| En kirli | 70.925 ₺ | 29.850 ₺ | 55.775 ₺ |
+| Orta | 50.925 ₺ | 9.850 ₺ | 20.775 ₺ |
+| Koz tutan | 50.925 ₺ | 9.850 ₺ | 10.148 ₺ borç |
+| En temiz | 5.925 ₺ | 47.465 ₺ borç | 117.194 ₺ borç |
+
+### Karar önizlemesi motorun hesabını tekrar eder
+
+Karar ekranındaki "ay sonunda …" satırı `Math.max(0, kalan)` basıyordu; kasa
+eksiye düşemediği için bu, 37.225 ₺'lik bir çukuru **"ay sonunda 0 ₺"** diye
+gösteriyordu. Artık motorun kapanış sırasını birebir taklit ediyor —
+önce sabit giderler, sonra borcun **tamamına** faiz — ve ikinci bir satırda
+oluşacak borcu yazıyor ("borç 40.948 ₺"). Zaten borçlu oyuncuda uyarı
+"borca girersin" değil "borcun büyür" oluyor.
+
+İki hesabın aynı kalmasını `test_ekonomi.js` kilitliyor: motorun kapanış
+sırası değişirse test patlar ve arayüzün de güncellenmesi gerektiğini söyler.
+
+**Açık tasarım sorusu:** kârlı bir ay borcu ÖDEMİYOR. 5.000 ₺ kasa + 30.000 ₺
+borçla 85.000 ₺'lik iş yapan oyuncu ay sonunda 30.925 ₺ kasa **ve** 33.000 ₺
+borçla çıkıyor — borç yalnızca büyüyor. "Kaybetme yok" ilkesine uygun ama
+borçtan çıkış yolu da yok. Karar verilmedi.
+
 ### Kalan
 
-V1 ve V2 dışındaki 6 vakanın para değerleri henüz yazılmadı (27 karar). K8 bu
-vakaları sessizce atlıyor; `para` eklendiği anda devreye giriyor.
+V4, V5, V6, YAN-A ve YAN-B'nin para değerleri henüz yazılmadı (23 karar). K8
+bu vakaları sessizce atlıyor; `para` eklendiği anda devreye giriyor. Yan
+vakaların ücretsiz olması özellikle önemli: V2 ve temiz oynanan V3 zararlı
+aylar, tek nefes alma yeri yan işler — ama şu an sıfır getiriyorlar.
 
 ## Kayıt sistemi
 
