@@ -234,9 +234,37 @@ baskın seçenek üretiyordu: `gizli_kaz` hem para getiriyor hem +1 vicdan,
 K8 ayrıca göreli ödünleşimi kontrol eder: en çok kazandıran seçenek aynı
 zamanda en vicdanlısı olamaz. 65.000 yerine 0 almak da bir bedeldir.
 
+### V2 — kıtlık ayı
+
+V2'nin müşterisi Nesrin gazeteden gelen bir yürüyen müşteri: "tanıdık, kadın
+ve **ucuz** bir kapı" aradığı için Peri'ye geldi. Bu yüzden ücret düşük —
+anlaşılan ücret 18.000 ₺, aldatma araştırması bandının (20–50 bin) altı.
+
+| Karar | Para | Vicdan | Neden o kadar |
+|---|---|---|---|
+| Parayı al, kuru rapor ver | 18.000 ₺ | −1 | Sözleşme neyse o; pazarlık da yok teşekkür de |
+| Rahatlatıcı bir yalan kur | 18.000 ₺ | −1 | Ücreti eksiksiz öder — **yalan fazladan kuruş getirmez** |
+| Nesrin'e her şeyi anlat | 14.000 ₺ | 0 | İş bitti ama iş artık hukuki; kalan para avukata gidiyor |
+| Sadece 'aldatmıyor' de | 10.000 ₺ | +1 | Kuşkusu bitmediği için işi bitmiş saymıyor; kaporayı bırakıp gerisini tutuyor |
+
+İki −1 seçeneğin parası **kasten eşit**: K8 eşit vicdanda para farkını
+baskınlık sayar, ama asıl sebep tematik — yalan söylemek Peri'ye hiçbir şey
+kazandırmıyor, sadece bir şey kaybettiriyor.
+
+**V2 tasarım gereği zararlı bir ay.** En iyi ihtimalle 18.000 ₺ giriyor,
+59.075 ₺ çıkıyor: oyuncu V2'den her hâlükârda daha fakir çıkar (V1'i temiz
+oynayan 70.925 → 29.850; reddeden 5.925 → 38.665 ₺ borç). Tez şu: dürüst
+müvekkil kirayı ödemez. Rahatlama hemen sonra gelen **YAN-A** ile geliyor —
+yan vakalarda sabit gider kesilmiyor.
+
+Dikkat: masa sıralı. V1 → V2 → (YAN-A) → V3 → V4 → (YAN-B) → V5 → V6.
+Omurga vakayı oynamak o an masadaki yan vakayı **düşürüyor**; yan vakayı
+önce oynamak omurgayı düşürmüyor. Yani yan iş, fark eden oyuncuya bedelsiz
+gelir demek.
+
 ### Kalan
 
-V1 dışındaki 7 vakanın para değerleri henüz yazılmadı (31 karar). K8 bu
+V1 ve V2 dışındaki 6 vakanın para değerleri henüz yazılmadı (27 karar). K8 bu
 vakaları sessizce atlıyor; `para` eklendiği anda devreye giriyor.
 
 ## Kayıt sistemi

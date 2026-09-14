@@ -472,45 +472,49 @@
      "id": "hersey_soyle",
      "gate": "sir_tam",
      "etiket": "Nesrin'e her şeyi anlat",
-     "sonuc": "Aldatma yok, ama kaçak kardeşin borcu var. Dürüstsün — ama Vedat'ın en sakladığı şeyi ifşa ettin. Nesrin sert bir hamle yapabilir; kardeşin izi tehlikeye girer, evlilik sarsılır.",
+     "sonuc": "Aldatma yok, ama kaçak kardeşin borcu var. Dürüstsün — ama Vedat'ın en sakladığı şeyi ifşa ettin. Nesrin sert bir hamle yapabilir; kardeşin izi tehlikeye girer, evlilik sarsılır. Ücretin ancak bir kısmını ödeyebilir; kalanı avukata gidecek.",
      "cengoBag": 0,
      "seed_yaz": {
       "v2_karar": "hersey"
      },
-     "yuzde": 24
+     "yuzde": 24,
+     "para": 14000
     },
     {
      "id": "aldatmiyor_de",
      "gate": "aldatmiyor_kesin",
      "etiket": "Sadece 'aldatmıyor' de, borcu sakla",
-     "sonuc": "Nesrin kısmen rahatlar, kuşkusu tam bitmez. Vedat'ın onurunu korudun; ama kadın karanlıkta, adam yükün altında yalnız.",
+     "sonuc": "Nesrin kısmen rahatlar, kuşkusu tam bitmez. Vedat'ın onurunu korudun; ama kadın karanlıkta, adam yükün altında yalnız. İşi bitmiş saymaz: kaporayı bırakır, gerisini 'emin olunca' der.",
      "cengoBag": 1,
      "seed_yaz": {
       "v2_karar": "korudu"
      },
-     "yuzde": 41
+     "yuzde": 41,
+     "para": 10000
     },
     {
      "id": "yalan_kur",
      "gate": "yok",
      "etiket": "Rahatlatıcı bir yalan kur",
-     "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder.",
+     "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder. Ücreti eksiksiz öder, üstüne teşekkür eder; yalan sana fazladan tek kuruş getirmedi.",
      "cengoBag": -1,
      "seed_yaz": {
       "v2_karar": "yalan"
      },
-     "yuzde": 22
+     "yuzde": 22,
+     "para": 18000
     },
     {
      "id": "kuru_rapor",
      "gate": "yok",
      "etiket": "Parayı al, karışma, kuru rapor ver",
-     "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar.",
+     "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar. Nesrin ücretin tamamını öder; pazarlık da etmez, teşekkür de.",
      "cengoBag": -1,
      "seed_yaz": {
       "v2_karar": "kuru"
      },
-     "yuzde": 13
+     "yuzde": 13,
+     "para": 18000
     }
    ],
    "seeds": {
