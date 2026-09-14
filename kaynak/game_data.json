@@ -1115,45 +1115,49 @@
      "id": "tam_sahip_cik",
      "gate": "sorumluluk_tam",
      "etiket": "Nadire'ye tam sahip çık",
-     "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer.",
-     "cengoBag": 2,
+     "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın. Kasa zaten yoktu; borç oldu.",
+     "cengoBag": 3,
      "seed_yaz": {
       "yanb_karar": "sahip"
      },
-     "yuzde": 36
+     "yuzde": 36,
+     "para": -40000
     },
     {
      "id": "gercegi_soyle",
      "gate": "sorumluluk_tam",
      "etiket": "Geçmişle yüzleş, gerçeği söyle",
-     "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün.",
+     "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün. O cümleyi kurduktan sonra kadına masraf yazamazsın. Acil ihtiyacı için de bir şey bıraktın.",
      "cengoBag": 2,
      "seed_yaz": {
       "yanb_karar": "yuzlesti"
      },
-     "yuzde": 22
+     "yuzde": 22,
+     "para": -18000
     },
     {
      "id": "sadece_coz",
      "gate": "dolandirici_kim",
      "etiket": "Sadece dolandırıcıyı çöz, mesafeni koru",
-     "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun.",
+     "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun. Adamın peşine düşmek para yedi; Nadire'den alamayacağına göre onu sen karşıladın.",
      "cengoBag": 1,
      "seed_yaz": {
       "yanb_karar": "coz"
      },
-     "yuzde": 30
+     "yuzde": 30,
+     "para": -8000
     },
     {
      "id": "gecistir",
      "gate": "yok",
      "etiket": "Geçiştir, kendini koru",
-     "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür.",
+     "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür. Cebinden bir kuruş çıkmadı. Hiçbir şey vermedin, hiçbir şey de almadın.",
      "cengoBag": -2,
      "seed_yaz": {
       "yanb_karar": "gecistirdi"
      },
-     "yuzde": 12
+     "yuzde": 12,
+     "para": 0
     }
    ],
    "seeds": {

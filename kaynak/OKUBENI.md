@@ -404,6 +404,38 @@ oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarası
 açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
 ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
 
+## YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+İki yan iş birbirinin aynası. YAN-A nefes aldırır; YAN-B **hiçbir seçeneğinde
+para kazandırmaz.**
+
+Sebebi vakanın kendisi: Nadire beş parasız, ve onu batıran Peri. Ondan ücret
+almak düşünülemez. En iyi ihtimal sıfır; gerisi Peri'nin cebinden çıkıyor.
+
+| Karar | Para | Vicdan | Neden o kadar |
+|---|---|---|---|
+| Geçiştir, kendini koru | 0 ₺ | −2 | Hiçbir şey vermedin, hiçbir şey de almadın |
+| Sadece dolandırıcıyı çöz | −8.000 ₺ | +1 | Adamın peşine düşmek para yedi, onu sen karşıladın |
+| Geçmişle yüzleş, gerçeği söyle | −18.000 ₺ | +2 | O cümleden sonra kadına masraf yazamazsın |
+| Nadire'ye tam sahip çık | −40.000 ₺ | +3 | Kaybettiğinin bir kısmını kendi kasandan kapattın |
+
+Oyunun tek "kaçmak bedava, doğru olan pahalı" vakası. `gecistir`'in sıfırı bir
+ödül değil, yalnızca maliyetin yokluğu — ve vicdan ekseninde oyunun en dibi.
+
+### Yine K8, yine gerçek bir çelişki
+
+`tam_sahip_cik` ile `gercegi_soyle` **ikisi de +2 idi.** Biri yalnızca itiraf,
+öteki itiraf **artı** kadının zararını kendi cebinden kapatmak. Aynı vicdan
+değerinde farklı para, K8'e göre baskınlık — ve haklı: sözle sahiplenmek ile
+parayla sahiplenmek aynı şey değil.
+
+`tam_sahip_cik` **+3**'e çıktı. Kararın kendi metni bunu zaten söylüyordu:
+*"Suçunu sahiplenmenin en pahalı, en dürüst hali."*
+
+`test_yanb`'deki "tam_sahip_cik +2" iddiası da sabit sayıdan kurtarıldı:
+artık bağı verideki değer kadar yükselttiğini ve YAN-B'nin en vicdanlı kararı
+olduğunu doğruluyor.
+
 ## Borcun sonuçları
 
 Borç bir sayı olarak kalırsa kimseyi sıkmaz. **Ödenmeyen her gider kaleminin
