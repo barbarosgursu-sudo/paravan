@@ -463,12 +463,33 @@ fiyatını sen koymadın.
 Oyunun **cebinden ödeten ilk kararı** bu. K8'in kuralı zaten "vicdan
 yükseldikçe para düşer" diyordu; en vicdanlı seçenek sıfırın da altına iniyor.
 
-**Bütçe kasten yetmiyor.** Hak 3, ücretli kaynak 4. Otuz iki harcama yolunun
-hiçbirinde oyuncu hem adresi (`ayla_yeri`) hem tam resmi (`neye_alet` =
-uzaklaştırma kararı + adamın bunu daha önce de yaptırmış olması) alamıyor.
-Yani *"kime alet olduğunu bil ve yine de sat"* mümkün; *"her şeyi bil"* değil.
-Hiç araştırmayanın önünde tek seçenek kalıyor: reddetmek. Para istiyorsan
-bakmak zorundasın.
+**Bütçe kasten yetmiyor.** Hak 3, ücretli kaynak 4 (`hulki_kim`, `adli_kayit`,
+`izi_sur`, `ayla_kim`); ismi sormak ve Cengo'nun sorusu bedelsiz. Hiç
+araştırmayanın önünde tek seçenek kalıyor: reddetmek. Para istiyorsan bakmak
+zorundasın.
+
+**İsmi sormak neden bedelsiz:** 2. inceleme turunda şu yakalandı — borçlu
+oyuncunun elektriği kesik olduğu için hakkı 2'ye iniyordu ve ismi sormak
+bunun birini yiyordu. Sonuç: ya kadının neden saklandığını öğreniyordu ya
+adresini buluyordu, ikisini birden asla. *"İlginç bir noir belirsizliği
+olabilir; fakat informed moral choice açısından sert."* Haklıydı — bu vakanın
+hedef kitlesi zaten borçlu oyuncu.
+
+İsmi sormak bedelsizleşince bütçe her şeye yetti ve seçim baskısı kalktı
+(K7 uyarı verdi). Onun yerine dördüncü bir ücretli kaynak geldi: **`ayla_kim`**
+— prosedür değil, insan. *"Üç yıldır aynı işte, aynı semtte. Kimseyle
+görüşmüyor."* Adresi yine satabilirsin, ama `adresi_ver`'in metni artık bunu
+biliyor: *"kim olduğunu öğrenmiştin, yine de yazdın."*
+
+Yeni denge:
+
+| | Hak | Adres + uzaklaştırma kararı | Her şey |
+|---|---|---|---|
+| Elektrik var | 3 | 70 / 150 yol | **0** |
+| Elektrik kesik | 2 | 8 / 60 yol | **0** |
+
+Yani bilinçli ahlaki karar artık borçlu oyuncuya da açık, ama kimse her şeyi
+öğrenemiyor — bir şeyi mutlaka atlıyorsun.
 
 Borç 117.194 ₺ iken `adresi_ver` borcu sıfırlıyor ve geriye **3.000 ₺**
 bırakıyor. Kadını sattın ve hâlâ beş parasızsın — kurtuluş değil, takas.

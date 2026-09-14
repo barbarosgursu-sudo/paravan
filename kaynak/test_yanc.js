@@ -63,11 +63,12 @@ console.log("\n=== BÜTÇE: HER ŞEYİ BİLEN OYUNCU YOK ===");
     for (const id of ac) if (o.kaynakAc(id).hata) return;
     const alinabilir = o.acikKaynaklar().filter(c => {
       const t = v.clues.find(x => x.id === c.id);
-      return t.bedelsiz || o.durum.aktif.arastirmaKalan > 0;
+      return o.bedelsizMi(t) || o.durum.aktif.arastirmaKalan > 0;
     });
     if (!alinabilir.length) {
       const b = o.bilinenler();
       uclu.push({ yol: ac, adres: b.includes("ayla_yeri"), tam: b.includes("neye_alet"),
+                  karar: b.includes("uzaklastirma"), insan: b.includes("ayla_hayati"),
                   kararlar: o.acikKararlar().map(x => x.id) });
       return;
     }
@@ -76,8 +77,19 @@ console.log("\n=== BÜTÇE: HER ŞEYİ BİLEN OYUNCU YOK ===");
   dene([], 0);
   k(`${uclu.length} harcama yolunun hepsinde en az bir karar açık`,
     uclu.every(x => x.kararlar.length > 0));
-  k("hem adresi hem tam resmi alan yol YOK", !uclu.some(x => x.adres && x.tam),
-    "adres: " + uclu.filter(x => x.adres).length + " yol, tam resim: " + uclu.filter(x => x.tam).length + " yol");
+  // Bilinçli ahlaki karar MÜMKÜN olmalı: adresi bulmak ile kadının neden
+  // saklandığını bilmek aynı yola sığmalı. 2. inceleme turunda değişti —
+  // eskiden ikisi birbirini dışlıyordu ("ilginç bir noir belirsizliği ama
+  // informed moral choice açısından sert"). İsmi sormak bedelsiz oldu,
+  // yerine dördüncü bir ücretli kaynak geldi: Ayla'nın kim olduğu.
+  k("adresi bulup NEDEN saklandığını da bilen yol VAR",
+    uclu.some(x => x.adres && x.karar), uclu.filter(x => x.adres && x.karar).length + " yol");
+  k("HER ŞEYİ bilen yol YOK",
+    !uclu.some(x => x.adres && x.karar && x.tam && x.insan),
+    "adres+karar: " + uclu.filter(x => x.adres && x.karar).length +
+    ", tam resim: " + uclu.filter(x => x.tam).length +
+    ", Ayla'yı tanıyan: " + uclu.filter(x => x.insan).length);
+  k("Ayla'yı bir insan olarak tanıyan yol VAR", uclu.some(x => x.insan));
   k("adresi bulan yol VAR", uclu.some(x => x.adres));
   k("tam resmi gören yol VAR", uclu.some(x => x.tam));
   k("hiç araştırmayana yalnızca 'reddet' kalıyor",
@@ -150,6 +162,27 @@ console.log("\n=== DEFTER NOTLARI TAM ===");
   const d = KISILER.defter["YAN-C"] || {};
   const eksik = v.decisions.filter(x => !d[x.id]).map(x => x.id);
   k("her kararın defter notu var", eksik.length === 0, eksik.join(","));
+}
+
+console.log("\n=== AYLA'YI TANIMAK SATIŞI DEĞİŞTİRİYOR ===");
+{
+  // Dördüncü kaynak prosedür değil insan veriyor. Adresi yine satabilirsin —
+  // ama metin artık bunu biliyor.
+  const oyna = (yol) => {
+    const o = borcla(200000);
+    o.vakaBaslat("YAN-C");
+    for (const c of yol) if (o.kaynakAc(c).hata) return null;
+    if (!o.acikKararlar().some(d => d.id === "adresi_ver")) return null;
+    return o.kararVer("adresi_ver").sonuc;
+  };
+  const tanimadan = oyna(["cengo_borc", "kimi_ariyor", "izi_sur", "adli_kayit"]);
+  const taniyarak = oyna(["cengo_borc", "kimi_ariyor", "izi_sur", "ayla_kim"]);
+  k("iki yol da oynanabildi", !!tanimadan && !!taniyarak);
+  if (tanimadan && taniyarak) {
+    k("metinler farklı", tanimadan !== taniyarak);
+    k("tanıyanın metni bunu söylüyor", /kim olduğunu öğrenmiştin/.test(taniyarak),
+      taniyarak.slice(0, 115));
+  }
 }
 
 console.log("\n" + (hata === 0 ? "=== YAN-C TEST TAMAM ===" : "=== " + hata + " BAŞARISIZ ==="));

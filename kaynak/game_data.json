@@ -1229,7 +1229,8 @@
     "kadin_adi": "Aranan kişi: Ayla. Hulki'nin eski karısı.",
     "hulki_gecmis": "Hulki bu adresi daha önce de arattırmış. Bulan olmuş mu, bilinmiyor.",
     "uzaklastirma": "Ayla'nın Hulki'ye karşı uzaklaştırma kararı var.",
-    "ayla_yeri": "Ayla'nın nerede oturduğu bulundu. İz taze."
+    "ayla_yeri": "Ayla'nın nerede oturduğu bulundu. İz taze.",
+    "ayla_hayati": "Ayla üç yıldır aynı işte, aynı semtte. Kimseyle görüşmüyor."
    },
    "knowledge": [
     {
@@ -1273,6 +1274,7 @@
      "ad": "Kimi aradığını sor",
      "tur": "Gözlem",
      "ico": "◉",
+     "bedelsiz": true,
      "needs": [
       "is_teklifi"
      ],
@@ -1327,6 +1329,21 @@
      "text": "İz taze: bir semt, bir sokak, üçüncü kat. Ayla orada, bir başına yaşıyor.",
      "meta": "Artık elinde. Bu satır bir kâğıda yazıldığı an senden çıkıp başka bir şeye dönüşür.",
      "gorsel": null
+    },
+    {
+     "id": "ayla_kim",
+     "ad": "Ayla kim, öğren",
+     "tur": "Gözlem",
+     "ico": "◉",
+     "needs": [
+      "kadin_adi"
+     ],
+     "reveals": [
+      "ayla_hayati"
+     ],
+     "text": "Bir hayatı var: üç yıldır aynı işte, aynı semtte. İşten eve, evden işe. Kimseyle görüşmüyor, kimseyi eve almıyor. Yeni bir hayat değil bu — saklanmanın adı konmamış hâli.",
+     "meta": "Artık bir isim değil, bir insan. Adresi yazmak bundan sonra daha zor olacak — ki zaten olması gereken bu.",
+     "gorsel": null
     }
    ],
    "decisions": [
@@ -1335,6 +1352,10 @@
      "gate": "ayla_yeri",
      "etiket": "Adresi ver, parayı al",
      "sonuc": [
+      {
+       "kosul": "ayla_hayati",
+       "metin": "Adresi yazdın, parayı aldın. Üç yıldır işten eve, evden işe giden bir kadının kapısını gösterdin — kim olduğunu öğrenmiştin, yine de yazdın. Bundan sonra o sokakta ne olursa, haberi sana kadar gelmeyebilir. Gelmemesi de bir şeyi değiştirmez."
+      },
       {
        "kosul": "neye_alet",
        "metin": "Adresi yazdın, parayı aldın. Ne yaptığını tam olarak biliyordun: mahkemenin kapattığı kapıyı sen açtın. Bundan sonra o sokakta ne olursa, haberi sana kadar gelmeyebilir. Gelmemesi de bir şeyi değiştirmez."
