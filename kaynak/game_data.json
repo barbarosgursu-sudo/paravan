@@ -2091,6 +2091,7 @@
      "ad": "Kaya'nın son günleri",
      "tur": "Belge",
      "ico": "▤",
+     "cekirdek": true,
      "needs": [
       "zincir_tam"
      ],

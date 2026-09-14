@@ -180,13 +180,67 @@ class Oyun {
     this.durum.aktif = {
       id: v.id, vaka: v, bilinen,
       acilanKaynaklar: new Set(),
-      // Elektrik kesikse bir hak eksik. Tabana 1 konuyor: sıfır hak, kaynağı
-      // bedelsiz olmayan bir vakayı kilitleyebilirdi — ceza oyunu durdurmaz.
-      arastirmaKalan: Math.max(1, (v.arastirma ?? 3) - (this.durum.kriz.isletme ? 1 : 0)),
+      arastirmaKalan: this._arastirmaHakki(v),
       girisMetin: secilen?.metin || "",
     };
     this._turet();
     return { baslik: v.baslik, giris: this.durum.aktif.girisMetin, arastirma: this.durum.aktif.arastirmaKalan };
+  }
+
+  // Araştırma hakkı. Elektrik kesikse bir eksik, ama taban iki şeyin büyüğü:
+  // en az 1 (sıfır hak vakayı kilitleyebilirdi) ve vakanın ÇEKİRDEK kaynağına
+  // ulaşmanın maliyeti — ceza, vakayı anlamlı kılan tek delili silemez.
+  //
+  // Ceza YOKSA çekirdek hesabı hiç çalıştırılmıyor: hem gereksiz, hem de
+  // _cekirdekMaliyet aramayı gerçek motorla yaptığı için (kopyalar vakaBaslat
+  // çağırıyor) özyinelemeye yol açardı. Kopyaların krizi boş olduğundan bu dal
+  // onlarda hiç açılmıyor ve arama kendiliğinden sonlanıyor.
+  _arastirmaHakki(v) {
+    const tam = v.arastirma ?? 3;
+    if (!this.durum.kriz.isletme) return tam;
+    return Math.max(Math.max(1, this._cekirdekMaliyet(v)), tam - 1);
+  }
+
+  // ÇEKİRDEK KAYNAK: vakanın başlığını anlamlı kılan kaynak.
+  // Krizler oyuncunun araştırma GENİŞLİĞİNİ kısabilir, ama vakanın tek yeni
+  // delilini erişilemez kılamaz — yoksa ekonomik ceza anlatı içeriğini
+  // elinden alır. Örnek: "Kaya Biliyor muydu" vakasında kaya_izi.
+  //
+  // Maliyeti gerçek motorla ölçüyoruz (doğrulayıcının K6'da yaptığı gibi):
+  // needs zincirini ve bedelsizleri kendiliğinden doğru sayar. Aramada
+  // kurulan kopyaların krizi boş olduğu için ceza uygulanmıyor; özyineleme
+  // kendiliğinden duruyor.
+  _cekirdekMaliyet(vaka) {
+    const cekirdekler = (vaka.clues || []).filter(c => c.cekirdek).map(c => c.id);
+    if (!cekirdekler.length) return 0;
+    const hak = vaka.arastirma ?? 3;
+    const gorulen = new Set();
+    let enAz = Infinity;
+    const dfs = (acilmis, harcanan) => {
+      if (harcanan >= enAz) return;
+      const anahtar = [...acilmis].sort().join("|");
+      if (gorulen.has(anahtar)) return;
+      gorulen.add(anahtar);
+      const o = new Oyun(this.game);
+      o.durum.seeds = { ...this.durum.seeds };
+      o.durum.cengoBag = this.durum.cengoBag;
+      o.durum.kaliciOlgular = [...(this.durum.kaliciOlgular || [])];
+      o.durum.tamamlanan = [...this.durum.tamamlanan];
+      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+      for (const id of acilmis) if (o.kaynakAc(id).hata) return;
+      if (cekirdekler.every(id => o.durum.aktif.acilanKaynaklar.has(id))) {
+        enAz = Math.min(enAz, harcanan);
+        return;
+      }
+      for (const c of o.acikKaynaklar()) {
+        const t = vaka.clues.find(x => x.id === c.id);
+        const m = harcanan + (t.bedelsiz ? 0 : 1);
+        if (m > hak) continue;
+        dfs([...acilmis, c.id], m);
+      }
+    };
+    dfs([], 0);
+    return enAz === Infinity ? 0 : enAz;
   }
 
   // İTİBAR: geçmiş kararlar bu vakanın ÜCRETİNİ ölçekler.

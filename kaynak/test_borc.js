@@ -73,6 +73,58 @@ console.log("\n=== ELEKTRİK: araştırma hakkı gerçekten eksiliyor ===");
     o2.durum.aktif.arastirmaKalan >= 1, String(o2.durum.aktif.arastirmaKalan));
 }
 
+console.log("\n=== ÇEKİRDEK KAYNAK CEZAYLA SİLİNEMİYOR ===");
+{
+  // Krizler araştırma GENİŞLİĞİNİ kısabilir, ama vakanın başlığını anlamlı
+  // kılan tek delili erişilemez kılamaz. Aksi halde ekonomik ceza anlatı
+  // içeriğini elinden alır — incelemedeki asıl endişe buydu.
+  const cekirdekli = g.vakalar.filter(v => (v.clues || []).some(c => c.cekirdek));
+  k("en az bir vakada çekirdek kaynak işaretli", cekirdekli.length > 0,
+    cekirdekli.map(v => v.id + "/" + v.clues.filter(c => c.cekirdek).map(c => c.id).join("+")).join(", "));
+
+  for (const v of cekirdekli) {
+    const cekirdek = v.clues.filter(c => c.cekirdek).map(c => c.id);
+    const kur = (kesik) => {
+      const o = new Oyun(g);
+      o.durum.para = 3000000;
+      o.durum.kriz.isletme = kesik;
+      o.durum.seeds.cavit_ceyda_bilinir = true;     // zinciri çözmüş oyuncu
+      o.durum.tamamlanan = g.vakalar
+        .filter(x => x.tur === "omurga" && x.sira < v.sira).map(x => x.id);
+      o.vakaBaslat(v.id);
+      let n = 0;
+      while (o.acikKaynaklar().length && n++ < 12) {
+        if (o.kaynakAc(o.acikKaynaklar()[0].id).hata) break;
+      }
+      return o;
+    };
+    const acik = kur(false), kesik = kur(true);
+    k(`${v.id}: elektrik varken çekirdek açılıyor (test anlamlı)`,
+      cekirdek.every(id => acik.durum.aktif.acilanKaynaklar.has(id)));
+    k(`${v.id}: elektrik KESİKKEN de çekirdek açılıyor`,
+      cekirdek.every(id => kesik.durum.aktif.acilanKaynaklar.has(id)),
+      "hak " + kesik.durum.aktif.arastirmaKalan);
+  }
+
+  // Koruma tesadüfe değil hesaba dayanmalı: bütçe artsa da çekirdek erişilebilir
+  // kalmalı, ama ceza yine de uygulanmalı (genişlik kısılır, çekirdek kalır).
+  const g2 = JSON.parse(JSON.stringify(g));
+  const v6 = g2.vakalar.find(x => x.id === "V6");
+  v6.arastirma = 3;
+  const o2 = new Oyun(g2);
+  o2.durum.kriz.isletme = true;
+  o2.durum.seeds.cavit_ceyda_bilinir = true;
+  o2.durum.tamamlanan = ["V1", "V2", "V3", "V4", "V5"];
+  o2.vakaBaslat("V6");
+  k("bütçe büyükse ceza yine de uygulanıyor", o2.durum.aktif.arastirmaKalan === 2,
+    "3 → " + o2.durum.aktif.arastirmaKalan);
+
+  // Çekirdeği olmayan vakada hesap hiç çalışmamalı (hız ve basitlik)
+  const v1 = g.vakalar.find(x => x.id === "V1");
+  const o3 = new Oyun(g);
+  k("çekirdeksiz vakada maliyet 0", o3._cekirdekMaliyet(v1) === 0);
+}
+
 console.log("\n=== HİÇBİR VAKA CEZAYLA KİLİTLENMİYOR ===");
 {
   // Elektrik kesikken de her vakada, bütçeyi harcamanın HER biçiminde,

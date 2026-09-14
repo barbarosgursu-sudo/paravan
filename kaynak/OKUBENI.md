@@ -630,9 +630,33 @@ en son ev sahibi harekete geçer.
 
 | Açık kalan | Sonuç | Mekanik |
 |---|---|---|
-| İşletme | Elektrik kesildi | Sonraki vakalarda araştırma hakkı **−1** (taban 1) |
+| İşletme | Elektrik kesildi | Sonraki vakalarda araştırma hakkı **−1** (bkz. çekirdek kaynak) |
 | Cengo'ya ödeme | "Cengo'nun eline geçmedi" | `cengoBag` **−1**, her açık kalan ayda yeniden |
 | Ofis kirası | Ev sahibi icraya verdi | Aylık giderlere **12.000 ₺** takip masrafı eklenir |
+
+### Çekirdek kaynak: cezanın silemeyeceği delil
+
+Krizler araştırma **genişliğini** kısabilir, ama bir vakanın başlığını anlamlı
+kılan tek delili erişilemez kılamaz. Aksi halde ekonomik ceza, anlatı
+içeriğini elinden alır.
+
+Bir kaynağa `cekirdek: true` konur. Elektrik kesikken araştırma hakkı şöyle
+hesaplanır:
+
+```
+hak = max( max(1, çekirdeğe ulaşmanın maliyeti),  tam bütçe − 1 )
+```
+
+Maliyet **gerçek motorla** ölçülüyor (doğrulayıcının K6'da yaptığı gibi):
+needs zincirini ve bedelsiz kaynakları kendiliğinden doğru sayıyor. Ceza yoksa
+hesap hiç çalıştırılmıyor — hem gereksiz hem de aramanın kurduğu kopyalar
+`vakaBaslat` çağırdığı için özyinelemeye yol açardı. Kopyaların krizi boş
+olduğundan arama kendiliğinden sonlanıyor.
+
+Şu an tek çekirdek: **V6/`kaya_izi`** — "Kaya Biliyor muydu" vakasının tek yeni
+delili. Eskiden onu koruyan şey tesadüftü (taban 1 ile çekirdeğin maliyeti 1
+çakışıyordu); bütçe 2 olsaydı koruma çalışmayacaktı. Artık hesap yapılıyor:
+bütçe 3 olsa ceza yine uygulanır (3 → 2) ama çekirdek erişilebilir kalır.
 
 **Eşik: kalemin yarıdan fazlası açık kalmalı.** Kirasının dörtte üçünü ödeyen
 kiracı icraya verilmez. Bu eşik olmadan tek kötü ay üç krizi birden
