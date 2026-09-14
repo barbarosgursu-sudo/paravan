@@ -1540,56 +1540,61 @@
      "id": "aileye_soyle",
      "gate": "iyilik_tam",
      "etiket": "Aileye gerçeği söyle",
-     "sonuc": "Hayırsever Kaya'ydı, ve öldü, dedin. Aile kapanış buldu ama umudunu kaybetti — teşekkür yerine yas. Dürüst ama acı.",
+     "sonuc": "Hayırsever Kaya'ydı, ve öldü, dedin. Aile kapanış buldu ama umudunu kaybetti — teşekkür yerine yas. Dürüst ama acı. O haberi verip elin boş çıkamazdın; bırakabildiğin kadarını bıraktın.",
      "cengoBag": 2,
      "seed_yaz": {
       "v4_karar": "soyledi"
      },
-     "yuzde": 29
+     "yuzde": 29,
+     "para": -10000
     },
     {
      "id": "sessiz_coz",
      "gate": "iyilik_tam",
      "etiket": "Kimliği sakla, sessizce çözüm ara",
-     "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu ama sana pahalı — Peri de beş parasız.",
-     "cengoBag": 2,
+     "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu ama sana pahalı — Peri de beş parasız. Tedavinin devamını kendi kasandan üstlendin. Kasa zaten dardı.",
+     "cengoBag": 3,
      "seed_yaz": {
       "v4_karar": "sessiz"
      },
-     "yuzde": 24
+     "yuzde": 24,
+     "para": -35000
     },
     {
      "id": "kimligi_sakla",
      "gate": "iyilik_tam",
      "etiket": "'Artık gelmeyecek' de, kimliği sakla",
-     "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi.",
+     "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi. Ne aldın ne verdin. Ay, kimseye fatura edilmeyen bir işle geçti.",
      "cengoBag": 1,
      "seed_yaz": {
       "v4_karar": "sakla"
      },
-     "yuzde": 33
+     "yuzde": 33,
+     "para": 0
     },
     {
      "id": "koz_yap",
      "gate": "odeme_kayaya_ait",
      "etiket": "Bilgiyi kendine sakla, koz yap",
-     "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir.",
+     "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir. Ayın kalanını ödeyen işlere ayırdın; bildiğin şey de cebinde duruyor.",
      "cengoBag": -2,
      "seed_yaz": {
       "v4_karar": "koz"
      },
-     "yuzde": 9
+     "yuzde": 9,
+     "para": 25000
     },
     {
      "id": "bos_ver",
      "gate": "yok",
      "etiket": "Boş ver, bu ipi çekme",
-     "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer.",
+     "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer. İpi çekmediğin için ay boş geçmedi — küçük işlerle idare ettin.",
      "cengoBag": -1,
      "seed_yaz": {
       "v4_karar": "bosver"
      },
-     "yuzde": 5
+     "yuzde": 5,
+     "para": 18000
     }
    ],
    "seeds": {

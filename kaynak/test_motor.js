@@ -54,7 +54,9 @@ kontrol("araştırmasız yalnız temiz_rapor + reddet açık",
   kararlar.includes("temiz_rapor") && kararlar.includes("reddet") &&
   !kararlar.includes("gizli_kaz") && !kararlar.includes("soyle_cavit"));
 let r2 = o2.kararVer("temiz_rapor");
-kontrol("temiz_rapor cengoBag -1", o2.durum.cengoBag===-1);
+// Aynı dosyadaki diğer iki iddia gibi: sabit sayı değil, verideki değer.
+const trBekle = g.vakalar.find(v=>v.id==="V1").decisions.find(d=>d.id==="temiz_rapor").cengoBag;
+kontrol("temiz_rapor cengoBag verideki değerle uyuşuyor ("+trBekle+")", o2.durum.cengoBag===trBekle);
 kontrol("YAN-TEST belirMEdi (gizli_dosya yok)", !o2.masadakiVakalar().includes("YAN-TEST"));
 
 console.log("\n=== YOL C: reddet → cengoBag +1 → Yoldaş sınırı ===");

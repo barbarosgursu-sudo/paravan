@@ -404,6 +404,35 @@ oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarası
 açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
 ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
 
+## V4 "Küçük Hasta" — müşterisi olmayan ay
+
+V4'ün **müşterisi yok.** Cengo'nun eski dosyalarda bulduğu bir kâğıt var ve
+Peri merakına uyuyor. Ücret ödeyen kimse olmadığı için para ancak ipi
+**çekmeyerek** ya da bildiğini kendine saklayarak geliyor — yani ayın kalanını
+ödeyen işlere ayırarak.
+
+| Karar | Para | Vicdan | Neden o kadar |
+|---|---|---|---|
+| Bilgiyi kendine sakla, koz yap | +25.000 ₺ | −2 | Ayın kalanı ödeyen işlere gitti; bildiğin de cebinde |
+| Boş ver, bu ipi çekme | +18.000 ₺ | −1 | Ay boş geçmedi, küçük işlerle idare ettin |
+| 'Artık gelmeyecek' de | 0 ₺ | +1 | Ne aldın ne verdin |
+| Aileye gerçeği söyle | −10.000 ₺ | +2 | O haberi verip elin boş çıkamazsın |
+| Kimliği sakla, sessizce çözüm ara | −35.000 ₺ | +3 | Tedavinin devamını kendi kasandan üstlendin |
+
+V4 omurga vaka, yani ay kapanıyor ve sabit giderler kesiliyor. **En kârlı
+seçenek bile ayı zararla bitiriyor** (25.000 ₺ girdi, 59.075 ₺ çıktı).
+
+### Üçüncü kez aynı çelişki
+
+`aileye_soyle` ile `sessiz_coz` **ikisi de +2 idi.** Biri gerçeği söyleyip
+çekiliyor, öteki kimliği saklayıp tedavinin devamını kendi cebinden
+üstleniyor. `sessiz_coz` **+3**'e çıktı; kendi metni zaten
+*"Onurlu ama sana pahalı — Peri de beş parasız"* diyordu.
+
+Bu, yan vakalardaki ikisiyle birlikte **üçüncü** örnek. Vicdan değerleri
+başlangıçta kabaca "iyi / çok iyi" diye konmuş, ince ayrım yapılmamış; para
+ekseni eklenince hepsi tek tek görünür oldu. K8'in asıl işi buymuş.
+
 ## YAN-B "Enkaz" — kazanç kapısı olmayan vaka
 
 İki yan iş birbirinin aynası. YAN-A nefes aldırır; YAN-B **hiçbir seçeneğinde
