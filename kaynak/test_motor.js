@@ -65,6 +65,46 @@ o3.kararVer("reddet");
 const rdBekle = g.vakalar.find(v=>v.id==="V1").decisions.find(d=>d.id==="reddet").cengoBag;
 kontrol("reddet cengoBag verideki değerle uyuşuyor ("+rdBekle+")", o3.durum.cengoBag===rdBekle);
 
+console.log("\n=== GİZLİ DOSYA GERÇEKTEN VAR ===");
+{
+  // V1/gizli_kaz "kendine dosya açarsın" diyordu ama gizli_dosya tohumu
+  // hiçbir yerde okunmuyordu: dosya hiç açılmıyordu. Üstelik seçenek en
+  // akıllı hamleydi — Cavit'in güvenini koruyor, ücret çarpanını koruyor,
+  // vicdanı temiz_rapor'dan bir puan yüksek, bedeli yalnızca 20.000 ₺.
+  //
+  // Artık dosyanın iki yüzü var: V5'te ona yeniden bakmak hak yemiyor
+  // (zaten tutuyordun), ama Cavit bir şeyler biriktirdiğini seziyor.
+  const kur = (dosya) => {
+    const o = new Oyun(g);
+    o.durum.para = 3000000;
+    o.durum.seeds.cavit_guven = true;
+    o.durum.seeds.ilyas_kime_gitti = "koz";
+    if (dosya) o.durum.seeds.gizli_dosya = true;
+    o.durum.tamamlanan = ["V1", "V2", "V3", "V4"];
+    o.vakaBaslat("V5");
+    return o;
+  };
+  const yok = kur(false), var_ = kur(true);
+  const hakYok = yok.durum.aktif.arastirmaKalan, hakVar = var_.durum.aktif.arastirmaKalan;
+  yok.kaynakAc("dosya_donus"); var_.kaynakAc("dosya_donus");
+  kontrol("dosyasız oyuncu dosya_donus için hak harcıyor",
+    yok.durum.aktif.arastirmaKalan === hakYok - 1);
+  kontrol("dosyalı oyuncu harcamıyor (zaten tutuyordu)",
+    var_.durum.aktif.arastirmaKalan === hakVar);
+  kontrol("ama Cavit tedirgin: V5 ücreti kırpılıyor",
+    var_.ucretEtkisi().carpan < yok.ucretEtkisi().carpan,
+    "×" + var_.ucretEtkisi().carpan.toFixed(2) + " / ×" + yok.ucretEtkisi().carpan.toFixed(2));
+  kontrol("sebebi oyuncuya söyleniyor",
+    var_.ucretEtkisi().sebepler.some(x => /biriktir/i.test(x.metin)));
+
+  // V1 metninin verdiği söz artık karşılıksız değil
+  const d = g.vakalar.find(v => v.id === "V1").decisions.find(x => x.id === "gizli_kaz");
+  kontrol("V1/gizli_kaz hâlâ dosyadan söz ediyor (test anlamlı)", /dosya/i.test(d.sonuc));
+  kontrol("gizli_dosya tohumu artık okunuyor",
+    JSON.stringify(g.vakalar).includes('"gizli_dosya"') &&
+    JSON.stringify(g.vakalar.find(v => v.id === "V5")).includes("gizli_dosya"));
+}
+
 console.log("\n=== KOŞULLU METİN: meta hak edilmemiş olguyu ele vermiyor ===");
 {
   // Oyuncu Ceyda ile görüşmeden komşu ifadesini açarsa, meta Ceyda'nın

@@ -187,6 +187,19 @@ class Oyun {
     return { baslik: v.baslik, giris: this.durum.aktif.girisMetin, arastirma: this.durum.aktif.arastirmaKalan };
   }
 
+  // Bir kaynak ya doğuştan bedelsizdir (bedelsiz: true) ya da bir koşul
+  // sağlandığında bedelsizleşir (bedelsiz_kosul). İkincisi geçmiş kararların
+  // araştırmaya dokunmasını sağlıyor: V1'de kendine dosya açan oyuncu V5'te
+  // o dosyaya yeniden bakmak için hak harcamıyor — zaten tutuyordu.
+  //
+  // Doğrulayıcı bu koşulu görmez ve kaynağı ÜCRETLİ sayar; bu bilinçli:
+  // bütçe denetimi her zaman zor durumu sınamalı.
+  bedelsizMi(c) {
+    if (!c) return false;
+    if (c.bedelsiz) return true;
+    return !!c.bedelsiz_kosul && this._kos(c.bedelsiz_kosul, new Set());
+  }
+
   // Araştırma hakkı. Elektrik kesikse bir eksik, ama taban iki şeyin büyüğü:
   // en az 1 (sıfır hak vakayı kilitleyebilirdi) ve vakanın ÇEKİRDEK kaynağına
   // ulaşmanın maliyeti — ceza, vakayı anlamlı kılan tek delili silemez.
@@ -234,7 +247,7 @@ class Oyun {
       }
       for (const c of o.acikKaynaklar()) {
         const t = vaka.clues.find(x => x.id === c.id);
-        const m = harcanan + (t.bedelsiz ? 0 : 1);
+        const m = harcanan + (o.bedelsizMi(t) ? 0 : 1);
         if (m > hak) continue;
         dfs([...acilmis, c.id], m);
       }
@@ -322,7 +335,8 @@ class Oyun {
                             : this._kos(n, a.bilinen));
     if (!ok) return { hata: "kilitli — önce gereken bilgiyi aç" };
     // bedelsiz kaynaklar (Cengo'nun kendiliğinden konuşması gibi) araştırma harcamaz
-    if (!c.bedelsiz) {
+    const bedava = this.bedelsizMi(c);
+    if (!bedava) {
       if (a.arastirmaKalan <= 0) return { hata: "araştırma hakkı bitti" };
     }
     // Bazı kaynaklar para ister (muhbire ödeme, kayıt satın alma). Kasa
@@ -331,7 +345,7 @@ class Oyun {
     if (ucret > this.durum.para) {
       return { hata: "kasa yetmiyor — " + ucret.toLocaleString("tr-TR") + " ₺ gerekiyor" };
     }
-    if (!c.bedelsiz) a.arastirmaKalan -= 1;
+    if (!bedava) a.arastirmaKalan -= 1;
     if (ucret) { this.durum.para -= ucret; a.harcanan = (a.harcanan || 0) + ucret; }
     a.acilanKaynaklar.add(id);
     a.bilinen.add(id + "_acildi");                 // seed koşulları için işaret

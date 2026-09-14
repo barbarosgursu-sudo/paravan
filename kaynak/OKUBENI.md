@@ -523,6 +523,53 @@ oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarası
 açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
 ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
 
+## Gizli dosya artık gerçek
+
+`V1/gizli_kaz` oyuncuya bir söz veriyordu — *"bir yandan kendine dosya
+açarsın"*, defterde *"Bir şeyin ucundan tutuyorum, daha bırakmayacağım"* —
+ama `gizli_dosya` tohumu hiçbir yerde okunmuyordu. **O dosya hiç açılmıyordu.**
+
+Üstelik seçenek mekanik olarak en akıllı hamleydi. Sezon boyu değeri (V1 +
+V3 + V5'in en yüksek ücretleri, itibar çarpanı dahil) şöyleydi:
+
+| V1 kararı | Eskiden | Vicdan | Basamak farkı |
+|---|---|---|---|
+| Temiz rapor | 230.000 ₺ | −1 | — |
+| Sessizce kaz | **210.000 ₺** | 0 | **20.000 ₺** |
+| Cavit'e söyle | 140.500 ₺ | +1 | 69.500 ₺ |
+| Reddet | 115.500 ₺ | +2 | 25.000 ₺ |
+
+Birinci vicdan puanı 20.000 ₺, ikincisi 69.500 ₺. Merdiven çarpıktı: `gizli_kaz`
+neredeyse bedava bir vicdan puanı satıyor, üstelik Cavit'in güvenini ve
+dolayısıyla sonraki ücretleri koruyordu.
+
+**Çözüm dosyayı gerçek yapmak oldu, iki yüzüyle:**
+
+- V5'teki `dosya_donus` kaynağı **bedelsizleşiyor** — o dosyaya yeniden
+  bakmak hak yemez, çünkü zaten tutuyordun.
+- Ama Cavit seziyor: V5 ücreti **×0.85**. *"Cavit senin bir şeyler
+  biriktirdiğini seziyor; eli sıkılaştı."*
+
+| V1 kararı | Şimdi | Vicdan | Basamak farkı |
+|---|---|---|---|
+| Temiz rapor | 230.000 ₺ | −1 | — |
+| Sessizce kaz | 198.000 ₺ | 0 | 32.000 ₺ **+1 araştırma hakkı** |
+| Cavit'e söyle | 140.500 ₺ | +1 | 57.500 ₺ |
+| Reddet | 115.500 ₺ | +2 | 25.000 ₺ |
+
+Artık bedava vicdan puanı değil, gerçek bir takas: **bir araştırma hakkı
+kazan, 32.000 ₺ kaybet, ve müşterin senden şüphelenmeye başlasın.**
+
+### Koşullu bedelsizlik
+
+Bunun için kaynaklara `bedelsiz_kosul` eklendi: koşul sağlandığında kaynak
+bedelsizleşiyor. Motor `bedelsizMi()` üzerinden karar veriyor, arayüz de aynı
+yöntemi kullanıyor — "bedava" etiketi motorun gerçekten uygulayacağı şeyi
+söylüyor.
+
+**Doğrulayıcı bu koşulu görmez ve kaynağı ücretli sayar.** Bu bilinçli: bütçe
+denetimi her zaman zor durumu sınamalı.
+
 ## İtibar: geçmiş kararlar ücreti değiştirir
 
 Tohumlar yazılıp hiç okunmuyordu — V1'de Cavit'e doğruyu söylemekle

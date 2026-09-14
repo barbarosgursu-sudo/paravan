@@ -826,8 +826,11 @@ function arastirmaFazi(){
       const tam = v.clues.find(x=>x.id===c.id);
       // Hak bitmişken ücretli kaynak listede durur ama alınamaz. Oyuncu bunu
       // tıklamadan ÖNCE görmeli; sessizce aynı ekrana dönmek hata gibi duruyor.
-      const yetersiz = (!tam.bedelsiz && a.arastirmaKalan <= 0) || ((tam.ucret||0) > oyun.durum.para);
-      h += \`<div class="kaynak \${tam.bedelsiz?'bedelsiz':''} \${yetersiz?'yetersiz':''}" onclick="kaynakAcFaz('\${c.id}')">
+      // Koşullu bedelsizlik de burada görünmeli: "bedava" etiketi motorun
+      // gerçekten uygulayacağı şeyi söylemeli.
+      const bedava = oyun.bedelsizMi(tam);
+      const yetersiz = (!bedava && a.arastirmaKalan <= 0) || ((tam.ucret||0) > oyun.durum.para);
+      h += \`<div class="kaynak \${bedava?'bedelsiz':''} \${yetersiz?'yetersiz':''}" onclick="kaynakAcFaz('\${c.id}')">
         <span class="ico">\${c.ico}</span><span class="ad">\${c.ad}\${tam.ucret?\`<span class="ucret">\${tl(tam.ucret)}</span>\`:""}</span>
         <span class="tur">\${yetersiz ? 'zamanın kalmadı' : c.tur}</span></div>\`;
     }

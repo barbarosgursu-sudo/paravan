@@ -1785,6 +1785,10 @@
      "ad": "Kaya'nın dosyasına dön",
      "tur": "Belge",
      "ico": "▤",
+     "bedelsiz_kosul": {
+      "seed": "gizli_dosya",
+      "esit": true
+     },
      "needs": [],
      "reveals": [
       "kaya_dosya_donus"
@@ -1909,6 +1913,14 @@
      },
      "carpan": 1.15,
      "metin": "Kaya'nın gizli parası elinde bir koz; Cavit'le pazarlığın güçlü."
+    },
+    {
+     "kosul": {
+      "seed": "gizli_dosya",
+      "esit": true
+     },
+     "carpan": 0.85,
+     "metin": "Cavit senin bir şeyler biriktirdiğini seziyor; eli sıkılaştı."
     }
    ],
    "decisions": [
