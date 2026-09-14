@@ -108,7 +108,9 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
   (ağırlığı kimi ele vereceğinde). Araştırma seçimi bu iki vakanın konusu değil.
 - **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
   Derinlik ödülü olarak makul; dokunulmadı.
-- **K9**: 12 tohum yazılıp hiç okunmuyor (`adres_kime` dahil). Silinmedi — bunlar ekonominin
+- **K9**: 9 tohum yazılıp hiç okunmuyor. Üçü (`cavit_guven`, `v2_karar`,
+  `v4_karar`) itibar sistemine bağlandı; kalanlar ya Sezon 2 ipi
+  (`peri_yuzlesti`, `adres_kime`) ya da henüz karşılığı yazılmamış. Silinmedi — bunlar ekonominin
   ihtiyaç duyacağı şeyler (hangi kararı verdin → itibar → müşteri ücreti;
   `cavit_guven` → hangi işler sana geliyor). Ekonomi turunda bağlanacak.
 
@@ -403,6 +405,48 @@ Yani en çok kazandıran seçenek (65.000 ₺) ancak Cengo'nun geçmişini kurca
 oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarasını
 açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
 ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
+
+## İtibar: geçmiş kararlar ücreti değiştirir
+
+Tohumlar yazılıp hiç okunmuyordu — V1'de Cavit'e doğruyu söylemekle
+söylememek sonraki hiçbir şeyi etkilemiyordu. Artık etkiliyor.
+
+Vakaya `ucret_etkisi` eklenebiliyor:
+
+```json
+"ucret_etkisi": [
+  { "kosul": {"seed":"cavit_guven","esit":false}, "carpan": 0.7,
+    "metin": "Cavit sana eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor." }
+]
+```
+
+| Vaka | Koşul | Çarpan |
+|---|---|---|
+| V3, V5 | `cavit_guven = false` | **×0.70** — Cavit'in güvenini kaybettin |
+| V5 | `v4_karar = "koz"` | **×1.15** — Kaya'nın gizli parası elinde bir koz |
+| YAN-A | `v2_karar = "hersey"` | **×0.80** — konuştuğun duyuldu, sır müşterisi pazarlık eder |
+
+Etkiler **birleşiyor**: güven yok + koz var → ×0.80.
+
+### Neden VAKA düzeyinde, karar düzeyinde değil
+
+Karar düzeyinde ölçeklemek K8'in para/vicdan merdivenini bozardı. Vaka
+düzeyinde ölçeklemek pozitif bir sabitle çarpmak demek; sıralamayı koruyor,
+yani K8'in statik analizi geçerli kalıyor. Vakanın tamamı zenginleşiyor ya da
+fakirleşiyor, kararlar arası ödünleşim aynı duruyor. `test_itibar` bunu her
+çarpan değeri için doğruluyor.
+
+**Yalnızca POZİTİF ücret ölçekleniyor.** İtibarını kaybetmek, Peri'nin kendi
+cebinden ödediğini ucuzlatmaz — YAN-B'nin −40.000 ₺'si her hâlükârda 40.000 ₺.
+
+### Oyuncu bunu karar vermeden ÖNCE görüyor
+
+Karar ekranında ücret satırlarının üstünde bir kutu: *"▼ %30 Cavit sana
+eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor."* Sonuç ekranındaki
+hesapta da satır *"anlaşılan 85.000 ₺, itibar ×0.70"* diyor. Önizleme ile
+motorun uyguladığı rakamın aynı olması `test_itibar`'da kilitli.
+
+K9 uyarısı 12 → **9** ölü tohuma indi.
 
 ## V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
 

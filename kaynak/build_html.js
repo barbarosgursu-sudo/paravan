@@ -116,6 +116,11 @@ body{
 .karar .bedel .kalan.dar{color:var(--koz)}
 .karar .bedel .kalan.kotu{color:var(--kirmizi)}
 .karar .bedel .borc-onizleme{font-size:13px;color:var(--kirmizi);font-weight:600}
+.itibar-kutu{margin:0 0 12px;padding:9px 12px;border-left:3px solid var(--duman);
+  background:rgba(255,255,255,.03);border-radius:0 6px 6px 0;font-size:12.5px;
+  color:var(--sonuk);line-height:1.5}
+.itibar-kutu .dusuk{color:var(--kirmizi);font-weight:700}
+.itibar-kutu .yuksek{color:var(--altin);font-weight:700}
 .kriz-kutu{margin:12px 0 0;padding:11px 13px;border:1px solid var(--kirmizi);border-radius:7px;
   background:rgba(150,40,40,.12)}
 .kriz-kutu .b{font-size:14px;font-weight:700;color:var(--kirmizi);letter-spacing:.3px}
@@ -879,8 +884,17 @@ function kararFazi(){
   // korumuyordu, sadece kararı anlamsızlaştırıyordu — baskın seçeneği K8
   // engelliyor zaten. Peri iş kadını: hangi işin ne getirdiğini bilir.
   const aylikGider = (oyun.durum.aktif.vaka.tur === "omurga") ? giderToplam(GAME) : 0;
+  // İtibar ücreti vaka düzeyinde ölçekliyor. Oyuncu bunu KARAR VERMEDEN ÖNCE
+  // görmeli; yoksa ekranda yazan rakamla kasaya giren rakam tutmaz.
+  const itibar = oyun.ucretEtkisi();
+  if(itibar.sebepler.length){
+    h += \`<div class="itibar-kutu">\${itibar.sebepler.map(x =>
+      \`<div><span class="\${x.carpan<1?'dusuk':'yuksek'}">\${x.carpan<1?'▼':'▲'} %\${Math.round(Math.abs(1-x.carpan)*100)}</span> \${x.metin}</div>\`
+    ).join("")}</div>\`;
+  }
   for(const k of kararlar){
-    const p = v6Karar(k.id).para;
+    const ham = v6Karar(k.id).para;
+    const p = (ham > 0) ? Math.round(ham * itibar.carpan) : ham;
     let bedel = "";
     if(p !== undefined){
       const kalan = oyun.durum.para + p - aylikGider;
@@ -960,7 +974,14 @@ const KRIZ_METIN = {
 function hesapKutusu(e){
   if(!e) return "";
   let h = '<div class="hesap">';
-  if(e.kararPara) h += \`<div class="satir \${e.kararPara>0?'gelir':'gider'}"><span>\${e.kararPara>0?'Vaka ücreti':'Kararın bedeli'}</span><b>\${tl(e.kararPara)}</b></div>\`;
+  if(e.kararPara){
+    // İtibar ücreti değiştirdiyse satır bunu söylesin; yoksa rakam sebepsiz
+    // görünür ve oyuncu yanlış hatırladığını sanır.
+    const kirpik = e.itibar && e.itibar.carpan !== 1 && e.ilanPara > 0;
+    h += \`<div class="satir \${e.kararPara>0?'gelir':'gider'}"><span>\${e.kararPara>0?'Vaka ücreti':'Kararın bedeli'}\${
+      kirpik?\`<em class="acik" style="color:var(--sonuk)">anlaşılan \${tl(e.ilanPara)}, itibar ×\${e.itibar.carpan.toFixed(2)}</em>\`:""
+    }</span><b>\${tl(e.kararPara)}</b></div>\`;
+  }
   if(e.harcanan)  h += \`<div class="satir gider"><span>Araştırma masrafı</span><b>\${tl(-e.harcanan)}</b></div>\`;
   for(const g of (e.giderler||[])){
     // Ödenemeyen kalemi gizlemek, borcun NEDEN sonuç doğurduğunu görünmez

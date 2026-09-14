@@ -189,6 +189,24 @@ class Oyun {
     return { baslik: v.baslik, giris: this.durum.aktif.girisMetin, arastirma: this.durum.aktif.arastirmaKalan };
   }
 
+  // İTİBAR: geçmiş kararlar bu vakanın ÜCRETİNİ ölçekler.
+  // Vaka düzeyinde uygulanıyor, karar düzeyinde değil — böylece kararlar
+  // arasındaki para/vicdan merdiveni (K8) olduğu gibi kalıyor, yalnızca
+  // vakanın tamamı zenginleşiyor ya da fakirleşiyor.
+  // Yalnızca POZİTİF ücret ölçeklenir: itibarını kaybetmek, Peri'nin kendi
+  // cebinden ödediği şeyi ucuzlatmaz.
+  ucretEtkisi(vaka) {
+    const v = vaka || (this.durum.aktif && this.durum.aktif.vaka);
+    const sebepler = [];
+    let carpan = 1;
+    for (const e of (v && v.ucret_etkisi) || []) {
+      if (!this._kos(e.kosul, new Set())) continue;
+      carpan *= e.carpan;
+      sebepler.push({ metin: e.metin, carpan: e.carpan });
+    }
+    return { carpan, sebepler };
+  }
+
   // Koşul değerlendirmenin TEK kapısı. Tohumları, Cengo bağını ve kasayı
   // her seferinde birlikte geçirir; biri unutulduğunda ortaya çıkan hata
   // (koşul sessizce yanlış döner, metin hiç görünmez) sessiz olduğu için
@@ -326,7 +344,9 @@ class Oyun {
 
     // --- EKONOMİ: kararın parası, sonra ayın sabit giderleri ---------------
     const ekonomi = ekonomiAl(this.game);
-    const kararPara = d.para || 0;
+    const itibar = this.ucretEtkisi(a.vaka);
+    const ilanPara = d.para || 0;
+    const kararPara = ilanPara > 0 ? Math.round(ilanPara * itibar.carpan) : ilanPara;
     if (kararPara >= 0) this.durum.para += kararPara; else paraDus(this.durum, -kararPara);
 
     // Sabit giderler yalnızca OMURGA vaka bitince kesilir: bir omurga vaka
@@ -395,7 +415,7 @@ class Oyun {
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,
       // ekonomik döküm — oyuncu kararının parasal sonucunu ekranda görmeli
-      ekonomi: { kararPara, harcanan, giderler, faiz, borcOdemesi, yeniKrizler,
+      ekonomi: { kararPara, ilanPara, itibar, harcanan, giderler, faiz, borcOdemesi, yeniKrizler,
                  kriz: { ...this.durum.kriz }, para: this.durum.para, borc: this.durum.borc },
     };
   }

@@ -706,6 +706,16 @@
      "bedelsiz": true
     }
    ],
+   "ucret_etkisi": [
+    {
+     "kosul": {
+      "seed": "cavit_guven",
+      "esit": false
+     },
+     "carpan": 0.7,
+     "metin": "Cavit sana eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor."
+    }
+   ],
    "decisions": [
     {
      "id": "polise_ver",
@@ -907,6 +917,16 @@
      "text": "Sevil bu büroyu, sırrı bilen tek güvenilir insan burada olduğu için seçmiş olabilir — Cengo. Ama bunu ne itiraf edebiliyor ne inkâr.",
      "meta": "Belki minnet, belki korku, belki ikisi. Sevil okunamıyor — kapalı bir defter.",
      "gorsel": null
+    }
+   ],
+   "ucret_etkisi": [
+    {
+     "kosul": {
+      "seed": "v2_karar",
+      "esit": "hersey"
+     },
+     "carpan": 0.8,
+     "metin": "Nesrin'e her şeyi anlattığın duyuldu. Sır satın alan müşteri pazarlık eder."
     }
    ],
    "decisions": [
@@ -1856,6 +1876,24 @@
      "text": "Peri kazdıkça kadın bulanıklaştı. Bir iz, cinayet fikrinin ondan çıkmış olabileceğini gösteriyordu — ama Cavit de suçunu ona yıkıyor olabilirdi. Servetle fazla ilgiliydi — ama beş parasız bir dul da paraya bakar.",
      "meta": "Her kanıtın iki okunuşu var. Peri hiçbirinden emin olamadı. En çok da bu ürküttü onu.",
      "gorsel": null
+    }
+   ],
+   "ucret_etkisi": [
+    {
+     "kosul": {
+      "seed": "cavit_guven",
+      "esit": false
+     },
+     "carpan": 0.7,
+     "metin": "Cavit sana eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor."
+    },
+    {
+     "kosul": {
+      "seed": "v4_karar",
+      "esit": "koz"
+     },
+     "carpan": 1.15,
+     "metin": "Kaya'nın gizli parası elinde bir koz; Cavit'le pazarlığın güçlü."
     }
    ],
    "decisions": [
