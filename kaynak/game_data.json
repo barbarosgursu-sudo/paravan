@@ -687,7 +687,16 @@
       "foto_teshis"
      ],
      "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. O gece çıkan adam buydu.'",
-     "meta": "Kesin teşhis. İlyas — V2'deki o silik tahsildar — Kaya'yı iten kişi.",
+     "meta": [
+      {
+       "kosul": "ilyas_tahsildar",
+       "metin": "Kesin teşhis. İlyas — V2'deki o silik tahsildar — Kaya'yı iten kişi."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Kesin teşhis. İlyas adında biri — Kaya'yı iten kişi. Adı sana bir şey söylemiyor, ama artık bir adın var."
+      }
+     ],
      "gorsel": null,
      "bedelsiz": true
     },
@@ -774,8 +783,12 @@
        "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz."
       },
       {
+       "kosul": "itis_kesin",
+       "metin": "Kadını dinledin, tarifini aldın, sonra 'güvenilmez' diye yazdın. Doğru söyleyip söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin. Para geldi, Cavit memnun. Cengo bunu kaldıramaz."
+      },
+      {
        "kosul": "varsayilan",
-       "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama neyin üstünü örttüğünü hiç öğrenmedin. Cengo bunu kaldıramaz."
+       "metin": "Kadını hiç dinlemeden 'güvenilmez' diye yazdın. Cavit'in istediği buydu; sen de fazlasını sormadın. Para geldi. Cengo bunu kaldıramaz."
       }
      ],
      "cengoBag": -2,
@@ -1792,7 +1805,25 @@
    "clues": [
     {
      "id": "cavit_ilyas_ilgi",
-     "ad": "Cavit neden İlyas'ı önemsiyor?",
+     "ad": [
+      {
+       "kosul": {
+        "any": [
+         "iten_ilyas",
+         "ilyas_isim",
+         {
+          "seed": "iten_biliniyor",
+          "esit": true
+         }
+        ]
+       },
+       "metin": "Cavit neden İlyas'ı önemsiyor?"
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Cavit'in telaşı nereden?"
+      }
+     ],
      "tur": "Gözlem",
      "ico": "◉",
      "needs": [
@@ -1824,7 +1855,25 @@
     },
     {
      "id": "ilyas_gecmis",
-     "ad": "İlyas ile Cavit'in geçmişi",
+     "ad": [
+      {
+       "kosul": {
+        "any": [
+         "iten_ilyas",
+         "ilyas_isim",
+         {
+          "seed": "iten_biliniyor",
+          "esit": true
+         }
+        ]
+       },
+       "metin": "İlyas ile Cavit'in geçmişi"
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Cavit'in eski dosyaları"
+      }
+     ],
      "tur": "Belge",
      "ico": "▤",
      "needs": [

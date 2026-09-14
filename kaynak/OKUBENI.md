@@ -191,6 +191,31 @@ Tarama 15 bulguyla başladı, 14'ü yanlış alarmdı; havuz doğru kurulunca
 sıfıra indi. Negatif testle doğrulandı: düzeltilen bir sızıntı geri konunca
 bekçi anında yakalıyor.
 
+### 3. inceleme turunda kapatılan sızıntılar
+
+| Nerede | Söylenen | Oyuncunun bilmediği |
+|---|---|---|
+| `V3/tanigi_lekele` sonuç + defter | "**Doğruyu söyleyen** kadını lekeledin" | Tanığın doğru söylediğini hiç doğrulamamış olabilir |
+| `V3/foto_goster` **meta** | "İlyas — **V2'deki** o silik tahsildar" | V2'de o kaynağı açmamış olabilir |
+| `V5/cavit_ilyas_ilgi` **başlık** | "Cavit neden **İlyas'ı** önemsiyor?" | İlyas'ı hiç teşhis etmemiş olabilir |
+| `V5/ilyas_gecmis` **başlık** | "**İlyas ile Cavit'in** geçmişi" | Aralarında bağ olduğunu bilmiyor |
+
+`tanigi_lekele` üç bilgi durumuna ayrıldı: teşhis eden ("doğruyu söyleyen
+kadını lekeledin"), tanığı dinleyip doğrulamayan ("doğru söyleyip
+söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin"), hiç dinlemeyen ("kadını
+hiç dinlemeden yazdın").
+
+### Başlıklar da koşullu olabiliyor
+
+Kaynak `ad` alanı artık `metinSec`'ten geçiyor. Sebep: **araştırma ekranında
+açmadan önce görünen tek şey başlık.** "Cavit neden İlyas'ı önemsiyor?" başlığı
+İlyas'ı hiç teşhis etmemiş oyuncuya ilişkinin varlığını peşinen söylüyordu;
+"İlyas ile Cavit'in geçmişi" ise kaynağın bulacağı şeyi başlıkta veriyordu.
+Bilmeyen oyuncu artık "Cavit'in telaşı nereden?" ve "Cavit'in eski dosyaları"
+görüyor.
+
+`test_sizinti` artık başlıkları da tarıyor — bu yüzey tamamen denetimsizdi.
+
 ### 2. inceleme turunda kapatılan sızıntılar
 
 | Nerede | Söylenen | Oyuncunun bilmediği |

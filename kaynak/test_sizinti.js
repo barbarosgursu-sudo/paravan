@@ -69,6 +69,19 @@ const IMA = [
   { kelimeler: ["bu bir kaza değildi", "kaza değildi — bu kadarından eminsin"],
     olgular: ["cinayet_suphesi", "iten_ilyas", "el_var", "dusus_acisi", "zincir_tam"],
     aciklama: "ölümün kaza olmadığının KESİN bilindiği" },
+
+  // --- 3. inceleme turunda bulunanlar -------------------------------------
+  { kelimeler: ["doğruyu söyleyen", "doğru söyleyen tek kişi"],
+    olgular: ["iten_ilyas", "foto_teshis", "zincir_tam"],
+    aciklama: "tanığın doğru söylediğinin DOĞRULANMIŞ olduğu" },
+
+  { kelimeler: ["V2'deki", "V2deki", "o silik tahsildar"],
+    olgular: ["ilyas_tahsildar"],
+    aciklama: "İlyas'la V2'de karşılaşılmış olduğu" },
+
+  { kelimeler: ["İlyas ile Cavit", "Cavit neden İlyas"],
+    olgular: ["iten_ilyas", "ilyas_isim", "ilyas_tahsildar", "zincir_tam"],
+    aciklama: "İlyas ile Cavit arasında bir bağ olduğu" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -306,6 +319,10 @@ console.log("\n=== VARSAYILAN VARYANTLAR NEYİ VARSAYIYOR? ===");
         ...olgulariTopla(c.needs),
         ...(c.reveals || []),
       ]));
+      // BAŞLIK da taranıyor: araştırma ekranında AÇMADAN ÖNCE görünen tek şey
+      // o. "Cavit neden İlyas'ı önemsiyor?" başlığı, İlyas'ı hiç teşhis
+      // etmemiş oyuncuya ilişkinin varlığını peşinen söylüyordu.
+      bak(v.id + "/" + c.id + ":başlık", c.ad, havuz);
       bak(v.id + "/" + c.id, c.text, havuz);
       bak(v.id + "/" + c.id + ":meta", c.meta, havuz);
     }

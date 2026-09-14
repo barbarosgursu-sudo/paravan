@@ -211,7 +211,20 @@
      "metin": "İlyas'ı Cavit'e verdim. Para geldi. Cavit 'ben hallederim' dedi ve ben ne halledeceğini sormadım."
     }
    ],
-   "tanigi_lekele": "O kadını 'güvenilmez' diye yazdım. Doğruyu söyleyen tek kişiyi lekeledim. Cengo o günden beri farklı. Ben de öyle."
+   "tanigi_lekele": [
+    {
+     "kosul": "iten_ilyas",
+     "metin": "O kadını 'güvenilmez' diye yazdım. Doğruyu söyleyen tek kişiyi lekeledim. Cengo o günden beri farklı. Ben de öyle."
+    },
+    {
+     "kosul": "itis_kesin",
+     "metin": "O kadını 'güvenilmez' diye yazdım. Anlattıklarını doğrulamadım bile — doğrulamak istemedim. Cengo o günden beri farklı. Ben de öyle."
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "O kadını 'güvenilmez' diye yazdım. Yüzünü bile görmedim. Cavit öyle istedi, ben de yazdım. Cengo o günden beri farklı."
+    }
+   ]
   },
   "V4": {
    "aileye_soyle": "Aileye Kaya'yı söyledim. Teşekkür edecek birini değil, bir mezarı buldular. Ama gerçeği hak ediyorlardı.",

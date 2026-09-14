@@ -387,7 +387,14 @@ class Oyun {
       return needs.every(n =>
         typeof n === "string" ? a.bilinen.has(n)
                               : this._kos(n, a.bilinen));
-    }).map(c => ({ id: c.id, ad: c.ad, tur: c.tur, ico: c.ico }));
+    // Başlık da koşullu olabilir. Araştırma ekranında AÇMADAN ÖNCE görünen tek
+    // şey o; "Cavit neden İlyas'ı önemsiyor?" gibi bir başlık, İlyas'ı hiç
+    // teşhis etmemiş oyuncuya ilişkinin varlığını peşinen söylüyordu.
+    }).map(c => ({
+      id: c.id,
+      ad: metinSec(c.ad, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag, this.durum),
+      tur: c.tur, ico: c.ico,
+    }));
   }
 
   // --- Kaynak aç: araştırma harca, reveals uygula, türet ----------------------
