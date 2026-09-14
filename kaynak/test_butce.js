@@ -205,7 +205,13 @@ console.log("\n=== V3: KATİL TEŞHİSİ HİÇBİR YOLDA KAÇMIYOR ===");
   const o = new Oyun(g);
   o.vakaBaslat("V3");
   for (const id of ["cavit_brief", "mahalle_yokla", "tanik_gorusme", "mahalle_don"]) o.kaynakAc(id);
-  k("iki açılışı da alan oyuncu hakkını bitirdi", o.durum.aktif.arastirmaKalan === 0);
+  // Eskiden iki açılışı da almak hakkı bitiriyordu; foto_goster'ın bedelsiz
+  // olması teşhisi kurtarıyordu. 3. inceleme turunda aynı tuzak elektrik
+  // kesintisiyle geri geldi: cezalı bütçede zincir tam oturuyor, doğal bir
+  // fazladan tıklamaya pay kalmıyordu. Cavit'in brifingi de bedelsiz oldu —
+  // müvekkilin ne istediğini dinlemek araştırma günü yemez.
+  k("iki açılışı da almak artık hak bitirmiyor", o.durum.aktif.arastirmaKalan > 0,
+    o.durum.aktif.arastirmaKalan + " hak kaldı");
   const r = o.kaynakAc("foto_goster");
   k("yine de teşhis edebiliyor (foto_goster bedelsiz)", !r.hata, r.hata || "");
   k("iten_ilyas türedi", o.bilinenler().includes("iten_ilyas"));
@@ -215,11 +221,21 @@ console.log("\n=== V3: KATİL TEŞHİSİ HİÇBİR YOLDA KAÇMIYOR ===");
 console.log("\n=== YAN VAKALARDA SEÇİM BASKISI VAR ===");
 {
   // Hak 3 iken 3 ücretli kaynağın hepsi alınıyordu, seçim yoktu.
-  for (const vid of ["YAN-A", "YAN-B", "YAN-C"]) {
+  // YAN-B bilerek dışarıda: kaynakları bir ZİNCİR (dolandırıcının izi →
+  // sorumluluk → avukat kırıntısı), seçim değil. Ağırlığı araştırmada değil,
+  // Nadire'ye ne yapacağında. V3 ve V6 gibi kabul edilmiş bir K7 uyarısı.
+  for (const vid of ["YAN-A", "YAN-C"]) {
     const v = g.vakalar.find(x => x.id === vid);
     const ucretli = v.clues.filter(c => !c.bedelsiz).length;
     k(`${vid}: ücretli kaynak (${ucretli}) hak'tan (${v.arastirma}) fazla — seçmek zorunda`,
       ucretli > v.arastirma);
+  }
+  {
+    // YAN-B'de baskı yok ama zincir tam: her iki ücretli kaynak da alınabiliyor
+    // ve Sezon 2 ipi (avukat kırıntısı) erişilebilir kalıyor.
+    const v = g.vakalar.find(x => x.id === "YAN-B");
+    k(`YAN-B: zincir bütçeye tam oturuyor (${v.clues.filter(c => !c.bedelsiz).length} ücretli / ${v.arastirma} hak)`,
+      v.clues.filter(c => !c.bedelsiz).length === v.arastirma);
   }
 }
 

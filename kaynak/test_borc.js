@@ -154,6 +154,47 @@ console.log("\n=== HİÇBİR VAKA CEZAYLA KİLİTLENMİYOR ===");
   }
 }
 
+console.log("\n=== KRİZ, AHLAKEN SAVUNULABİLİR SEÇENEĞİ SİLEMİYOR ===");
+{
+  // "En az bir karar açık" yetmiyor. 3. inceleme turunda yakalanan şey şuydu:
+  // elektrik kesikken V3'te dürüst oynamaya çalışan oyuncunun elinde YALNIZCA
+  // "tanığı 'güvenilmez' diye rapor et" kalıyordu — yani oyun ona "yanlış
+  // araştırdın, şimdi doğru söyleyen kadını lekele" diyordu. YAN-B'de de bir
+  // yol yalnızca "geçiştir"e düşüyordu.
+  //
+  // Asıl garanti: bütçeyi harcamanın HER biçiminde, vicdanı eksi OLMAYAN en
+  // az bir karar açık kalmalı. Oyuncu kendini kirletmeye ZORLANMAMALI.
+  for (const v of g.vakalar) {
+    const vicdan = Object.fromEntries(v.decisions.map(d => [d.id, d.cengoBag || 0]));
+    let kotuYol = null, yollar = 0;
+    const dene = (ac) => {
+      if (kotuYol) return;
+      const o = new Oyun(g);
+      o.durum.para = 3000000;
+      o.durum.kriz.isletme = true;
+      o.durum.tamamlanan = g.vakalar.filter(x => x.tur === "omurga" && x.sira < (v.sira || 99)).map(x => x.id);
+      try { o.vakaBaslat(v.id); } catch (e) { return; }
+      for (const id of ac) if (o.kaynakAc(id).hata) return;
+      const alinabilir = o.acikKaynaklar().filter(c => {
+        const t = v.clues.find(x => x.id === c.id);
+        return o.bedelsizMi(t) || o.durum.aktif.arastirmaKalan > 0;
+      });
+      if (!alinabilir.length) {
+        yollar++;
+        const kararlar = o.acikKararlar().map(x => x.id);
+        if (!kararlar.some(id => vicdan[id] >= 0)) kotuYol = { ac, kararlar };
+        return;
+      }
+      for (const c of alinabilir) dene([...ac, c.id]);
+    };
+    dene([]);
+    k(`${v.id}: ${yollar} yolun hepsinde vicdanı eksi olmayan bir seçenek var`,
+      !kotuYol,
+      kotuYol ? kotuYol.ac.join(" → ") + "  ⇒ yalnız [" +
+                kotuYol.kararlar.map(id => id + "(" + vicdan[id] + ")").join(",") + "]" : "");
+  }
+}
+
 console.log("\n=== İCRA: aylık gidere kalem ekliyor ===");
 {
   const { o } = ayKapat(0);

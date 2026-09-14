@@ -102,10 +102,12 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 
 ### Açık uyarılar (tasarım kararı bekliyor)
 
-- **K7 · V3 ve V6**: oyuncu hiçbir noktada iki kaynak arasında seçim yapmak
-  zorunda kalmıyor. İkisi de **kabul edilmiş**: V3 düz bir teşhis zinciri
-  (ağırlığı İlyas'ı ne yapacağında — 4 ayrı ahlaki karar), V6 ise final
-  (ağırlığı kimi ele vereceğinde). Araştırma seçimi bu iki vakanın konusu değil.
+- **K7 · V3, V6 ve YAN-B**: oyuncu hiçbir noktada iki kaynak arasında seçim
+  yapmak zorunda kalmıyor. Üçü de **kabul edilmiş**, çünkü üçü de zincir:
+  V3 düz bir teşhis zinciri (ağırlığı İlyas'ı ne yapacağında), V6 final
+  (ağırlığı kimi ele vereceğinde), YAN-B ise dolandırıcının izi → sorumluluk
+  → avukat kırıntısı (ağırlığı Nadire'ye ne yapacağında). Araştırma seçimi bu
+  üç vakanın konusu değil.
 - **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
   Derinlik ödülü olarak makul; dokunulmadı.
 - **K9**: 9 tohum yazılıp hiç okunmuyor. Üçü (`cavit_guven`, `v2_karar`,
@@ -869,6 +871,51 @@ tercihini yanlış rakamla yapıyordu.
 **`test_ekonomi`'nin "önizleme motorla aynı" testi bu hatayı kaçırmıştı**,
 çünkü hiç icra senaryosu denemiyordu. Artık deniyor. Test yazarken "hangi
 durumu denemiyorum" sorusu, "ne iddia ediyorum" kadar önemli.
+
+### Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+3. inceleme turunun en ciddi bulgusu: elektrik kesikken V3'te dürüst oynamaya
+çalışan oyuncunun elinde **yalnızca "tanığı 'güvenilmez' diye rapor et"**
+kalıyordu. Yani oyun ona *"yanlış araştırdın, şimdi doğru söyleyen kadını
+lekele"* diyordu. YAN-B'de de bir yol yalnızca "geçiştir"e düşüyordu.
+
+Sebep tabanda değildi: **çekirdek zincir tam olarak cezalı bütçe kadar
+tutuyordu**, yani doğal bir fazladan tıklamaya pay yoktu.
+
+Üç katmanlı çözüm:
+
+**1. Müvekkilin kendi anlattığı bedelsiz, ayak işi ücretli.** Bu kural artık
+dört yerde geçerli: `YAN-C/kimi_ariyor` (Hulki ismi veriyor),
+`V3/cavit_brief` (Cavit ne istediğini anlatıyor), `YAN-B/nadire_dinle`
+(Nadire derdini anlatıyor), `V1/sigorta_yazisi` (dosya zaten elinde). Karşında
+oturan insanı dinlemek bir araştırma günü yemez.
+
+**2. Çekirdek işaretleri:** `V3/foto_goster` ve `YAN-B/dolandirici_iz` de
+`cekirdek: true` oldu.
+
+**3. Ceza artık uyarlanabilir.** `_kirletmeyeZorlarMi()` cezalı bütçeyle
+bütçeyi harcamanın **her** biçimini deniyor; herhangi bir yolda oyuncunun
+elinde yalnızca vicdanı eksi kararlar kalıyorsa **ceza uygulanmıyor.**
+
+| Vaka | Tam bütçe | Elektrik kesik |
+|---|---|---|
+| V1 | 3 | 2 |
+| V2 | 4 | 3 |
+| V3 | 4 | 3 |
+| YAN-A | 2 | 1 |
+| YAN-B | 2 | 1 |
+| YAN-C | 3 | 2 |
+| V4 | 4 | **4** — ceza kirletmeye zorlardı |
+| V5 | 5 | **5** — aynı |
+| V6 | 1 | 1 (taban) |
+
+Sabit bir "pay" eklemek yerine sonucu ölçüyoruz: asıl kural bu, ve içerik
+değiştikçe kendini koruyor. Vakalar küçük (≤7 kaynak), arama 13 ms sürüyor.
+
+`test_borc` bunu yasa olarak tutuyor: **dokuz vakanın her birinde, bütçeyi
+harcamanın her biçiminde, vicdanı eksi olmayan en az bir karar açık kalmalı.**
+Bu bekçi yazılır yazılmaz incelemecinin ulaşamadığı iki vakayı daha (V4 ve V5)
+yakaladı.
 
 ### Çekirdek kaynak: cezanın silemeyeceği delil
 

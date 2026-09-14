@@ -593,6 +593,7 @@
      "ad": "Cavit'in tarifi",
      "tur": "İfade",
      "ico": "◑",
+     "bedelsiz": true,
      "needs": [],
      "reveals": [
       "tanik_korktu"
@@ -678,6 +679,7 @@
      "ad": "Fotoğrafı tanığa göstermek",
      "tur": "İfade",
      "ico": "◑",
+     "cekirdek": true,
      "needs": [
       "ilyas_isim"
      ],
@@ -1071,6 +1073,7 @@
      "ad": "Dolandırıcının izini sürmek",
      "tur": "Gözlem",
      "ico": "◉",
+     "cekirdek": true,
      "needs": [
       "dolandirici_var"
      ],
@@ -1094,6 +1097,7 @@
      "ad": "Nadire'yi dinle",
      "tur": "İfade",
      "ico": "◑",
+     "bedelsiz": true,
      "needs": [],
      "reveals": [
       "nadire_durum"

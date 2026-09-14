@@ -229,7 +229,56 @@ class Oyun {
   _arastirmaHakki(v) {
     const tam = v.arastirma ?? 3;
     if (!this.durum.kriz.isletme) return tam;
-    return Math.max(Math.max(1, this._cekirdekMaliyet(v)), tam - 1);
+    const cezali = Math.max(Math.max(1, this._cekirdekMaliyet(v)), tam - 1);
+    // EKONOMİ SEÇENEKLERİ DARALTIR, KİRLETMEYE ZORLAMAZ.
+    // Ceza uygulanabilir mi diye önce sonucuna bakıyoruz: cezalı bütçeyle
+    // bütçeyi harcamanın HER biçiminde vicdanı eksi olmayan en az bir karar
+    // açık kalıyor mu? Kalmıyorsa ceza uygulanmaz.
+    //
+    // Sabit bir "pay" eklemek yerine bunu ölçüyoruz çünkü asıl kural bu;
+    // içerik değiştikçe kendini korur. Vakalar küçük (≤7 kaynak), arama ucuz.
+    return this._kirletmeyeZorlarMi(v, cezali) ? tam : cezali;
+  }
+
+  // Verilen bütçeyle, bütçeyi harcamanın herhangi bir biçiminde oyuncunun
+  // elinde YALNIZCA vicdanı eksi kararlar kalıyor mu?
+  _kirletmeyeZorlarMi(vaka, hak) {
+    const vicdan = Object.fromEntries((vaka.decisions || []).map(d => [d.id, d.cengoBag || 0]));
+    if (!Object.values(vicdan).some(x => x >= 0)) return false;   // vakada zaten temiz seçenek yok
+    const gorulen = new Set();
+    let zorlar = false;
+    const dfs = (acilmis, harcanan) => {
+      if (zorlar) return;
+      const anahtar = [...acilmis].sort().join("|");
+      if (gorulen.has(anahtar)) return;
+      gorulen.add(anahtar);
+      const o = new Oyun(this.game);
+      o.durum.seeds = { ...this.durum.seeds };
+      o.durum.cengoBag = this.durum.cengoBag;
+      o.durum.kaliciOlgular = [...(this.durum.kaliciOlgular || [])];
+      o.durum.tamamlanan = [...this.durum.tamamlanan];
+      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+      // Bütçeyi baştan kur ve açılışları yeniden oynat; harcamayı kaynakAc
+      // kendisi düşürüyor. (İlk yazımda hem elle düşürüp hem oynatmıştım:
+      // çifte sayım yüzünden tarama olduğundan dar görünüyordu.)
+      o.durum.aktif.arastirmaKalan = hak;
+      for (const id of acilmis) if (o.kaynakAc(id).hata) return;
+      const alinabilir = o.acikKaynaklar().filter(c => {
+        const t = vaka.clues.find(x => x.id === c.id);
+        return o.bedelsizMi(t) || o.durum.aktif.arastirmaKalan > 0;
+      });
+      if (!alinabilir.length) {
+        const kararlar = o.acikKararlar().map(x => x.id);
+        if (kararlar.length && !kararlar.some(id => vicdan[id] >= 0)) zorlar = true;
+        return;
+      }
+      for (const c of alinabilir) {
+        const t = vaka.clues.find(x => x.id === c.id);
+        dfs([...acilmis, c.id], harcanan + (o.bedelsizMi(t) ? 0 : 1));
+      }
+    };
+    dfs([], 0);
+    return zorlar;
   }
 
   // ÇEKİRDEK KAYNAK: vakanın başlığını anlamlı kılan kaynak.
