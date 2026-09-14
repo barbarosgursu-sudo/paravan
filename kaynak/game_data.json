@@ -2125,10 +2125,18 @@
       "seed": "cavit_ceyda_bilinir",
       "esit": true
      },
-     "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda sevgili. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu?",
+     "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda sevgili. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu? Cavit dün akşam uğradı, masaya bir zarf bıraktı: 'Bu iş kapanırsa senindir.' Saymadın; ağırlığından belli.",
      "acilan": [
       "zincir_tam"
      ]
+    },
+    {
+     "kosul": {
+      "seed": "iten_biliniyor",
+      "esit": true
+     },
+     "metin": "Elinde bir isim var: İlyas. Kaya'yı iten adam. Onu o merdivene kimin sürdüğünü bilmiyorsun — o kapıyı hiç aralamadın. Geriye tek soru kaldı: Kaya son günlerinde ne biliyordu? Bu gece elinde ne varsa onunla karar vereceksin. Cavit dün akşam uğradı, masaya bir zarf bıraktı: 'Bu iş kapanırsa senindir.' Neden bu kadar cömert olduğunu sormadın.",
+     "acilan": []
     },
     {
      "kosul": {
@@ -2186,6 +2194,13 @@
      "text": [
       {
        "kosul": {
+        "seed": "iten_biliniyor",
+        "esit": true
+       },
+       "metin": "Masaya oturdun ve elindekileri tek tek dizdin. Ortada bir isim var: İlyas. Onu iten el olarak biliyorsun. Ama bir tetikçinin arkasında biri olur ve o yer boş — sen oraya hiç inmedin. 'Elimde bu kadarı var,' dedin içinden. 'Gerisini artık öğrenemeyeceğim.'"
+      },
+      {
+       "kosul": {
         "any": [
          "cinayet_suphesi",
          "iten_ilyas",
@@ -2200,7 +2215,19 @@
        "metin": "Masaya oturdun ve elindekileri tek tek dizdin. Bir dosya, bir rapor, birkaç isim. Yan yana koydun, konuşmadılar. Bir şeyin eksik olduğunu hissediyorsun ama neyin eksik olduğunu bile bilmiyorsun — çünkü aramadın. 'Elimde bu kadarı var,' dedin içinden. 'Gerisini artık öğrenemeyeceğim.'"
       }
      ],
-     "meta": "Zinciri kapatacak halka eksik. Aramak için vaktin vardı, başka yerlere baktın. Bu boşluk kapanmayacak — bu gece ne yaparsan elindeki bu kadarıyla yapacaksın.",
+     "meta": [
+      {
+       "kosul": {
+        "seed": "iten_biliniyor",
+        "esit": true
+       },
+       "metin": "Verecek bir adın var ama verecek bir hikâyen yok. Bu gece ne yaparsan elindeki bu isimle yapacaksın."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Zinciri kapatacak halka eksik. Aramak için vaktin vardı, başka yerlere baktın. Bu boşluk kapanmayacak — bu gece ne yaparsan elindeki bu kadarıyla yapacaksın."
+      }
+     ],
      "bedelsiz": true
     },
     {

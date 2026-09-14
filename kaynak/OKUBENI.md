@@ -765,7 +765,38 @@ ama bugüne kadar hiçbir yerde okunmuyordu. Artık okunuyor.
 Son ekran da ayrışıyor: zinciri bilmeyene *"mimarlar gölgede kaldı"*
 denmiyor, çünkü mimarların varlığını bilmiyor.
 
-`test_v6` dördünü de ve C metninin sızdırmadığını kilitliyor.
+### C'nin kendi anlatısı (3. inceleme turu)
+
+Kapılar doğruydu ama **anlatı C'yi tanımıyordu**: B ile C aynı giriş metnini
+okuyordu, C'de İlyas'ın bilindiği hiç söylenmiyordu, sonraki ekranda İlyas
+birden seçenek olarak beliriyordu. Üç düzeltme:
+
+**1. C'nin kendi girişi var:**
+> *"Elinde bir isim var: İlyas. Kaya'yı iten adam. Onu o merdivene kimin
+> sürdüğünü bilmiyorsun — o kapıyı hiç aralamadın."*
+
+**2. `eldekiler` özeti de C'yi tanıyor:** *"Ortada bir isim var: İlyas… ama bir
+tetikçinin arkasında biri olur ve o yer boş."* Meta'sı da değişiyor:
+*"Verecek bir adın var ama verecek bir hikâyen yok."*
+
+**3. Cavit'in teklifi artık KARARDAN ÖNCE kuruluyor.** `sus_bilerek`
++70.000 ₺ getiriyor ve oyuncu paranın nereden geldiğini karardan *sonra*
+öğreniyordu. Artık girişte:
+
+| Durum | Zarf |
+|---|---|
+| C | *"Bu iş kapanırsa senindir." **Neden bu kadar cömert olduğunu sormadın.*** |
+| D | *"Bu iş kapanırsa senindir." Saymadın; ağırlığından belli.* |
+| A, B | yok (susma seçenekleri de yok) |
+
+C'nin cümlesi kararın kendisi: cömertliğin sebebini bilmeden gömüyorsun.
+
+Üç defter notu da ayrıştı — `sus_bilerek` ("Her şeyi bilip sustum" → "Bir adım
+vardı, onu gömdüm"), `ilyas_ver` ("Mimarlar gölgede kaldı" → "Arkasında biri
+var mıydı, hiç öğrenemedim"), `hepsini_ifsa` ("O çocuk, o aile" → V4 bilgisine
+koşullu).
+
+`test_v6` dört girişi, zarfın yerini ve C metninin sızdırmadığını kilitliyor.
 
 ## V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
 

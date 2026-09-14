@@ -2,6 +2,7 @@ const { Oyun } = require("./motor.js");
 const fs = require("fs");
 const { dogrula } = require("./dogrulayici.js");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
+const tl = n => Math.round(n).toLocaleString("tr-TR") + " ₺";
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
 
 console.log("=== YOL A: V5'te tam_resim çözülmüş (cavit_ceyda_bilinir=true) ===");
@@ -71,6 +72,45 @@ k("Yakın(4) + cavit_ver → Bağlı (6)", o6.cengoDurum()==="Bağlı");
 console.log("\n=== KURAL 5: V6'da kaya_biliyordu ÇÖZÜLMESİ serbest, Ceyda DEĞİL ===");
 let temiz=dogrula(g);
 k("V6 kaya_biliyordu kesin ama uyarı YOK (istisna çalışıyor)", temiz===true);
+
+console.log("\n=== DÖRT DURUM, DÖRT AYRI GİRİŞ ===");
+{
+  // 3. inceleme turu: "B ve C aynı giriş metnini kullanıyor; C'de İlyas'ın
+  // bilindiği söylenmiyor, sonraki ekranda İlyas birden seçenek olarak
+  // beliriyor." Doğruydu — C'nin kendi girişi yoktu.
+  const kur = (olgular, tohumlar) => {
+    const o = new Oyun(g);
+    o.durum.para = 3000000;
+    o.durum.kaliciOlgular = [...(olgular || [])];
+    Object.assign(o.durum.seeds, tohumlar || {});
+    o.durum.tamamlanan = ["V1", "V2", "V3", "V4", "V5"];
+    return o.vakaBaslat("V6").giris;
+  };
+  const A = kur([], {});
+  const B = kur(["cinayet_suphesi"], {});
+  const C = kur(["cinayet_suphesi", "iten_ilyas"], { iten_biliniyor: true });
+  const D = kur(["cinayet_suphesi", "iten_ilyas"], { iten_biliniyor: true, cavit_ceyda_bilinir: true });
+  for (const [ad, m] of [["A", A], ["B", B], ["C", C], ["D", D]])
+    console.log("   " + ad + ": " + m.slice(0, 92) + "…");
+
+  k("dört giriş de birbirinden farklı", new Set([A, B, C, D]).size === 4);
+  k("C İlyas'ın adını söylüyor", /İlyas/.test(C), C.slice(0, 60));
+  k("B İlyas'tan söz ETMİYOR", !/İlyas/.test(B));
+  k("A cinayet demiyor", !/cinayet/i.test(A));
+  k("C, arkasındakini bilmediğini söylüyor", /kimin sürdüğünü bilmiyorsun|bilmiyorsun/.test(C));
+  k("C Cavit/Ceyda sızdırmıyor", !/Cavit'le Ceyda|azmettir|sevgili/.test(C), C);
+
+  // Cavit'in teklifi KARARDAN ÖNCE kurulmalı: sus_bilerek +70.000 ₺ getiriyor
+  // ve oyuncu paranın nereden geldiğini karardan SONRA öğreniyordu.
+  const v = g.vakalar.find(x => x.id === "V6");
+  const susPara = v.decisions.find(d => d.id === "sus_bilerek").para;
+  k("susmak gerçekten para getiriyor (test anlamlı)", susPara > 0, tl(susPara));
+  k("C'nin girişinde zarf var", /zarf/.test(C), "…" + (C.match(/Cavit dün[^.]*\./) || [""])[0]);
+  k("D'nin girişinde de zarf var", /zarf/.test(D));
+  k("A'da zarf YOK (susma seçeneği de yok)", !/zarf/.test(A));
+  k("B'de zarf YOK", !/zarf/.test(B));
+  k("C'nin zarfı 'neden bu kadar cömert' diye soruyor", /cömert/.test(C));
+}
 
 console.log("\n=== PARA: FİNALDE ÜCRET YOK, SONUÇ VAR ===");
 {
