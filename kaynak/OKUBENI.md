@@ -24,7 +24,7 @@ koşmadan derleme yapılmaz.
 - `kisiler.json`        → katmanlı künye + anı defteri
 - `prolog.json`         → açılış (6 kart)
 - `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
-- `build_html.js`       → derleyici (**DEV_MOD satırı burada**)
+- `build_html.js`       → derleyici (**DEV_MOD satırı burada — şu an `false`**)
 - `_gomulu_gorseller.js`→ 33 görsel, base64 (derlemenin girdisi)
 - `vaka2-6.json`, `yan_a/b.json` → tekil vaka yedekleri (game_data.json asıldır)
 - `test_*.js`           → testler
@@ -33,6 +33,32 @@ koşmadan derleme yapılmaz.
 - `final_tablo_plani.md`→ sezon sonu istatistik tablosu (yazılmadı; Android aşamasının planı)
 
 `_gomulu_motor.js` ve `_gomulu_veri.js` her derlemede üretilir, depoya girmez.
+
+## Geliştirici modu
+
+`build_html.js` içinde `const DEV_MOD = false;` (satır ~508). `true` iken üst
+şeritte 🛠 düğmesi çıkıyor: durum özeti, `cengoBag` oynatma, tohum anahtarları
+ve **ses teşhisi** (hangi dosya çalıyor, uzantı keşfi, kilit durumu).
+
+**Şu an kapalı — yayın modundayız.** Derleme bunu her seferinde söylüyor:
+
+```
+index.html yenilendi: 4357 KB
+  ✓ yayın modu — 🛠 düğmesi basılmadı
+```
+
+İki tuzak var, ikisine de düştüm:
+
+1. Bayrak **üretilen sayfanın içinde** yaşıyor, derleyicinin kendi kapsamında
+   değil — `console.log(DEV_MOD)` doğrudan patlıyor. Kontrol çıktı dizgisine
+   bakmalı.
+2. Çıktıda `dev-btn` aramak **yanıltıcı**: o dizgi sayfanın JS kaynağında her
+   hâlükârda var (koşullu ifadenin içinde), çalışma anında basılmıyor. Grep 1
+   döndürür ama düğme yoktur. Tek doğru kontrol tarayıcıda DOM'a bakmak —
+   `.dev-btn` sayısı 0.
+
+**Ses üretimine başlarken geri açmak isteyebilirsin** — ses teşhisi paneli
+orada. Tek satır.
 
 ## Testler
 
