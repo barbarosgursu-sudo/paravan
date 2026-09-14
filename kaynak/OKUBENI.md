@@ -143,6 +143,46 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 - **Son ekranı `hepsi` anahtarı**: eşlemede `hepsini_ifsa` yazıyordu ama karar
   `final_karar: "hepsi"` yazıyor. O final cümlesi hiç görünmüyormuş.
 
+## Sabit finansal iddia yasağı
+
+Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir
+kısmı kalan oyuncuya yalan söyler; *"kasam boş"* diyen bir defter notu
+200.000 ₺'si olana yalan söyler.
+
+**Kural: metnin işi EYLEMİ anlatmak, DURUMU değil.** Rakamı hesap kutusu zaten
+gösteriyor. Temizlenenler:
+
+| Nerede | Eski | Sorun |
+|---|---|---|
+| `YAN-C/adresi_ver` ×3 | "parayı aldın, **borç kapandı**" | Geç oynanırsa borcun bir kısmı kalıyor |
+| `V6/sus_bilerek` | "**ajans yaşar** … ajans bu ay **rahat**" | 500.000 ₺ borçluya yalan |
+| `V5/oyunu_surdur` | "bu ay **ajans rahat**" | Aynı |
+| `V4/sessiz_coz` | "**Peri de beş parasız**" | Oyuncunun 200.000 ₺'si olabilir |
+| `YAN-B/tam_sahip_cik` | "Peri **beş parasız** olsa da" | Aynı |
+| defter `V1/temiz_rapor` | "**borç biraz nefes aldı**" | O anda borç SIFIR |
+| defter `YAN-C/isi_reddet` | "**kasam boş**" | Sabit iddia |
+| prolog 4 | "Borç ensemde. **Kasa boş**." | Oyun 65.000 ₺ / 0 borç ile başlıyor |
+| prolog 3 | "**ödeyecek param bile yok**" | Cengo gider listesinde, ödeniyor |
+
+Serbest kalanlar: **olay** bildiren cümleler ("para geldi", "para biter",
+"para akar") ve **başkasının** parasızlığı (Cengo, Ceyda, Nadire). Bir de
+`V1/temiz_rapor`'un kendi sonucu: V1'e herkes aynı durumdan giriyor
+(65.000 ₺, borç yok), o yüzden "ajans nefes alır" orada her zaman doğru.
+
+`test_sizinti.js` bunu kalıcı olarak bekliyor — yasak kalıpların listesi ve
+bilinçli istisnalar orada. Bekçiyi yazarken benim gözden kaçırdığım bir
+tanesini (`V5/oyunu_surdur`) hemen yakaladı.
+
+### İki defter notu koşullu oldu
+
+Aynı düzeltme sırasında iki Nurcan kırılması da çıktı:
+
+- **`V1/temiz_rapor`** "o merdivende bir şey doğru değildi" diyordu — hiç
+  araştırmayan oyuncu böyle bir şey görmedi. Artık iki varyant.
+- **`YAN-C/isi_reddet`** "kadın hâlâ orada" diyordu — aranan kişinin kadın
+  olduğunu ve nerede olduğunu bilmeyen oyuncuya. Artık üç varyant: adresi
+  bulan, sadece ismi öğrenen, hiç bakmayan.
+
 ## Sızıntı testi (test_sizinti.js)
 
 Doğrulayıcının 10 kuralı **yapıya** bakar. Ama oynanışta bulunan hataların

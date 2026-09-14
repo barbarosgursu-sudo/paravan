@@ -1135,7 +1135,7 @@
      "id": "tam_sahip_cik",
      "gate": "sorumluluk_tam",
      "etiket": "Nadire'ye tam sahip çık",
-     "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın. Kasa zaten yoktu; borç oldu.",
+     "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın.",
      "cengoBag": 3,
      "seed_yaz": {
       "yanb_karar": "sahip"
@@ -1325,15 +1325,15 @@
      "sonuc": [
       {
        "kosul": "neye_alet",
-       "metin": "Adresi yazdın, parayı aldın, borç kapandı. Ne yaptığını tam olarak biliyordun: mahkemenin kapattığı kapıyı sen açtın. Bundan sonra o sokakta ne olursa, haberi sana kadar gelmeyebilir. Gelmemesi de bir şeyi değiştirmez."
+       "metin": "Adresi yazdın, parayı aldın. Ne yaptığını tam olarak biliyordun: mahkemenin kapattığı kapıyı sen açtın. Bundan sonra o sokakta ne olursa, haberi sana kadar gelmeyebilir. Gelmemesi de bir şeyi değiştirmez."
       },
       {
        "kosul": "uzaklastirma",
-       "metin": "Adresi yazdın, parayı aldın, borç kapandı. Mahkemenin o adamdan uzak tuttuğu kadının kapısını sen gösterdin. Kâğıdı uzatırken elin titremedi; asıl mesele bu."
+       "metin": "Adresi yazdın, parayı aldın. Mahkemenin o adamdan uzak tuttuğu kadının kapısını sen gösterdin. Kâğıdı uzatırken elin titremedi; asıl mesele bu."
       },
       {
        "kosul": "varsayilan",
-       "metin": "Adresi yazdın, parayı aldın, borç kapandı. Kim olduğunu sormadın — sormamak da bir tercihti ve onu sen yaptın. Cengo rakamı duyduğunda yüzüne bakmadı."
+       "metin": "Adresi yazdın, parayı aldın. Kim olduğunu sormadın — sormamak da bir tercihti ve onu sen yaptın. Cengo rakamı duyduğunda yüzüne bakmadı."
       }
      ],
      "cengoBag": -2,
@@ -1572,7 +1572,7 @@
      "id": "sessiz_coz",
      "gate": "iyilik_tam",
      "etiket": "Kimliği sakla, sessizce çözüm ara",
-     "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu ama sana pahalı — Peri de beş parasız. Tedavinin devamını kendi kasandan üstlendin. Kasa zaten dardı.",
+     "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu, ve faturası sana kesildi. Tedavinin devamını kendi kasandan üstlendin.",
      "cengoBag": 3,
      "seed_yaz": {
       "v4_karar": "sessiz"
@@ -1913,7 +1913,7 @@
      "id": "oyunu_surdur",
      "gate": "tam_resim",
      "etiket": "Belli etme, oyunu sürdür",
-     "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür. Cavit seni yakınında tutmak için cömert; bu ay ajans rahat.",
+     "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür. Cavit seni yakınında tutmak için cömert davranıyor.",
      "cengoBag": -2,
      "seed_yaz": {
       "cavit_karsi_konum": "ortak"

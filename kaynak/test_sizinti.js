@@ -191,6 +191,49 @@ console.log("\n=== SONUÇ METNİ, VERİLMEYEN BİR KARARI ANLATIYOR MU? ===");
 }
 
 // ---------------------------------------------------------------------------
+console.log("\n=== SABİT FİNANSAL DURUM İDDİASI VAR MI? ===");
+{
+  // Ekonomi dinamik, metinler sabit. "Borç kapandı" diyen bir cümle, borcun
+  // bir kısmı kalan oyuncuya yalan söyler; "kasa boş" diyen bir defter notu
+  // 200.000 ₺'si olana yalan söyler. Rakamı hesap kutusu gösteriyor zaten —
+  // metnin işi EYLEMİ anlatmak, DURUMU değil.
+  //
+  // Yasak olan: Peri'nin kasası/borcu hakkında kesin durum iddiası.
+  // Serbest olan: olay bildiren cümleler ("para geldi", "para biter") ve
+  // başka birinin parasızlığı (Cengo, Ceyda, Nadire).
+  const YASAK = [
+    { kalip: /borç\s*(biraz\s*)?(kapan|bitti|nefes)/i, ne: "borcun kapandığı/rahatladığı" },
+    { kalip: /kasa[mn]?\s*(boş|doldu|rahat)/i,          ne: "kasanın boş/dolu olduğu" },
+    { kalip: /ajans\s*(rahat|yaşar|nefes al[iı]r)/i,     ne: "ajansın rahat olduğu" },
+    { kalip: /ödenmiş bir kira/i,                        ne: "kiranın ödendiği" },
+    { kalip: /kasa zaten (dardı|yoktu)/i,                ne: "kasanın dar/yok olduğu" },
+    { kalip: /Peri (de )?beş parasız/i,                  ne: "Peri'nin beş parasız olduğu" },
+  ];
+  // Bilerek bırakılanlar: V1 herkeste aynı durumdan başlıyor (65.000 ₺, borç
+  // yok), o yüzden V1'in kendi sonucu "ajans nefes alır" diyebiliyor.
+  const SERBEST = new Set(["V1/temiz_rapor"]);
+
+  const bulgular = [];
+  const bak = (yer, x) => {
+    if (typeof x === "string") {
+      if (SERBEST.has(yer.split(" ")[0])) return;
+      for (const y of YASAK) if (y.kalip.test(x))
+        bulgular.push(`${yer}\n       ${y.ne} iddia ediliyor\n       "${x.slice(0, 120)}"`);
+    } else if (Array.isArray(x)) {
+      x.forEach((v, i) => bak(yer + "[" + i + "]", v && v.metin !== undefined ? v.metin : v));
+    }
+  };
+  for (const v of g.vakalar) {
+    for (const d of v.decisions) bak(v.id + "/" + d.id + " sonuc", d.sonuc);
+    for (const c of v.clues) { bak(v.id + "/" + c.id + " text", c.text); bak(v.id + "/" + c.id + " meta", c.meta); }
+    bak(v.id + " giris", (v.giris || []).map(x => x.metin));
+  }
+  for (const [vid, kararlar] of Object.entries(KISILER.defter))
+    for (const [kid, m] of Object.entries(kararlar)) bak("defter " + vid + "/" + kid, m);
+
+  k("hiçbir metin sabit finansal durum iddia etmiyor", bulgular.length === 0, bulgular.join("\n\n"));
+}
+
 console.log("\n=== DURUM MATRİSİ RAPORU ===");
 {
   // İnsan gözüyle okunacak döküm: her gidişatta hangi ekranda ne yazıyor.

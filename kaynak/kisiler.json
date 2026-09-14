@@ -171,7 +171,23 @@
  ],
  "defter": {
   "V1": {
-   "temiz_rapor": "Kaza raporunu imzaladım. Para geldi, borç biraz nefes aldı. Ama o merdivende bir şey doğru değildi, ve ben ona sırtımı döndüm. İçimde bir taş.",
+   "temiz_rapor": [
+    {
+     "kosul": {
+      "any": [
+       "cinayet_suphesi",
+       "dusus_acisi",
+       "olum_saati",
+       "komsu_ses"
+      ]
+     },
+     "metin": "Kaza raporunu imzaladım. Para geldi. Ama o merdivende bir şey doğru değildi, ve ben ona sırtımı döndüm. İçimde bir taş."
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Kaza raporunu imzaladım. Para geldi. Fazla soru sormadım — bu şehirde soranın işi zor. Yine de içimde bir taş kaldı, nedenini bilmeden."
+    }
+   ],
    "soyle_cavit": "Cavit'e şüphemi söyledim. Belki aptallıktı. Gözündeki o değişikliği gördüm — artık bana farklı bakıyor.",
    "gizli_kaz": "Cavit'e istediğini verdim, ama kendime bir dosya açtım. Bu iş bitmedi. Bir şeyin ucundan tutuyorum, daha bırakmayacağım.",
    "reddet": "Reddettim. Onurluydu belki, ama kasada para yok, Cengo'nun yüzü asık. Onur karın doyurmuyor."
@@ -241,7 +257,20 @@
   "YAN-C": {
    "adresi_ver": "Bir adres yazdım, borcum kapandı. Rakamı hâlâ hatırlıyorum. Adını da.",
    "yanlis_adres": "Adama olmayan bir sokak verdim. Kadın yerinde kaldı. Ben de bir süre kazandım; ne kadar, bilmiyorum.",
-   "isi_reddet": "Reddettim. Elim temiz, kasam boş, kadın hâlâ orada. Üçü aynı anda doğru.",
+   "isi_reddet": [
+    {
+     "kosul": "ayla_yeri",
+     "metin": "Reddettim. Elim temiz, kadın hâlâ orada. İkisi aynı anda doğru."
+    },
+    {
+     "kosul": "kadin_adi",
+     "metin": "Reddettim. Adını biliyordum, nerede olduğunu bilmiyordum. Öyle kalsın."
+    },
+    {
+     "kosul": "varsayilan",
+     "metin": "Reddettim. O adamın kimi aradığını hiç öğrenmedim — öğrenmek istemedim."
+    }
+   ],
    "aylayi_uyar": "Borcumu büyüttüm, bir kadını taşıdım. Cengo hiçbir şey sormadı. Bu, sorduğu her şeyden ağırdı."
   }
  }
