@@ -354,6 +354,56 @@ bakmak zorundasın.
 Borç 117.194 ₺ iken `adresi_ver` borcu sıfırlıyor ve geriye **3.000 ₺**
 bırakıyor. Kadını sattın ve hâlâ beş parasızsın — kurtuluş değil, takas.
 
+## YAN-A "Kapalı Defter" — nefes alma yeri
+
+Yan iş, sabit gider kesmediği için gelen para doğrudan nefes demek. V2'den
+47.465 ₺ borçla çıkan oyuncu burada borcunu neredeyse kapatabiliyor.
+
+| Karar | Para | Vicdan | Neden o kadar |
+|---|---|---|---|
+| Sevil'e 'biliyorum' diye çık | 65.000 ₺ | −1 | Ücret + fazlası: sırrını bilen bir kişi daha var |
+| Tehdidi çöz, geçmişe dokunma | 45.000 ₺ | 0 | Anlaşılan ücret; iş yapıldı |
+| Sevil'in işini geri çevir | 12.000 ₺ | +1 | Yapılan iş kadarı; asıl ücreti eline almadın |
+| Cengo'ya bırak, karışma | 0 ₺ | +2 | Arkadaşının kendi defteri için fatura kesilmez |
+
+### K8'in yakaladığı gerçek çelişki
+
+`sessiz_coz` ve `isi_gecevir` **ikisi de +1 vicdandaydı**. Biri işi çözüp para
+getiriyor, öteki geri çevirip getirmiyor — yani aynı ahlak, daha çok para.
+`isi_gecevir`'i seçmek için hiçbir sebep kalmıyordu. Bu, para eklenmeden de
+var olan bir tasarım hatasıydı; K8 onu para eklenince görünür kıldı.
+
+Çözüm `sessiz_coz`'ü **0**'a indirmek oldu: bir yabancının derdini para
+karşılığı çözmek ve fazlasını sormamak **meslek**, erdem değil. İşi
+Cengo'nun hatırına geri çevirmek ise 33.000 ₺'lik bir erdem.
+
+### Sessiz çözümün sonucu koşullu
+
+`sessiz_coz`'ün kapısı `tehdit_kim`; oyuncu Cengo'nun geçmişini **hiç
+öğrenmeden** bu kararı verebiliyor. Eski metin ona "kapalı defter kapalı
+kaldı" diyordu — olmayan bir sırrı ele veriyordu. Üç varyant:
+
+| Bilgi | Metin |
+|---|---|
+| `gecmis_tam` | "Cengo'nun onun yerine neyi üstlendiğini biliyorsun — ve söylemedin." |
+| `gecmis_sezildi` | "İkisi arasında bir şey olduğunu sezdin ama üstüne gitmedin." |
+| varsayılan | "Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da." |
+
+### Karanlıkta tek iplik
+
+Borçlu oyuncunun elektriği kesik olduğu için YAN-A'da **2 değil 1** araştırma
+hakkı var. Bu, iki dalın yalnızca birine yetiyor:
+
+| Harcadığın hak | Açılan kararlar |
+|---|---|
+| `tehdit_arastir` | sessiz_coz (45.000 ₺) · isi_gecevir (12.000 ₺) |
+| `eski_kayit` (+ bedelsiz `cengo_cumle`) | biliyorum_cik (65.000 ₺) · cengoya_birak (0 ₺) |
+
+Yani en çok kazandıran seçenek (65.000 ₺) ancak Cengo'nun geçmişini kurcalayan
+oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarasını
+açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
+ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
+
 ## Borcun sonuçları
 
 Borç bir sayı olarak kalırsa kimseyi sıkmaz. **Ödenmeyen her gider kaleminin

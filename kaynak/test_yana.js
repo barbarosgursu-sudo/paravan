@@ -51,6 +51,60 @@ o2.kaynakAc("tehdit_arastir");
 k("keşiften sonra isi_gecevir açık", o2.acikKararlar().some(x=>x.id==="isi_gecevir"));
 console.log("   → 'geri çevir' vakayı iptal etmiyor; önce Sevil'i görüyorsun, sonra reddedebiliyorsun.");
 
+console.log("\n=== PARA: MERDİVEN VE SEBEPLERİ ===");
+{
+  const v = g.vakalar.find(x => x.id === "YAN-A");
+  const tl = n => Math.round(n).toLocaleString("tr-TR") + " ₺";
+  const s = [...v.decisions].sort((a, b) => a.cengoBag - b.cengoBag);
+  for (const x of s) console.log("   " + x.id.padEnd(15) + tl(x.para).padStart(11) + "   vicdan " + (x.cengoBag > 0 ? "+" : "") + x.cengoBag);
+  k("vicdan yükseldikçe para düşüyor", s.every((x, i) => i === 0 || x.para < s[i - 1].para));
+  // Eskiden sessiz_coz ve isi_gecevir aynı vicdandaydı (+1): aynı ahlak, biri
+  // para getiriyor öteki getirmiyor — yani isi_gecevir'i seçmek için hiçbir
+  // sebep yoktu. sessiz_coz 0'a indi: bir yabancının derdini para karşılığı
+  // çözmek ve fazlasını sormamak meslek, erdem değil. İşi Cengo'nun hatırına
+  // geri çevirmek ise 33.000 ₺'lik bir erdem.
+  const bag = Object.fromEntries(v.decisions.map(d => [d.id, d.cengoBag]));
+  k("sessiz_coz ile isi_gecevir artık aynı vicdanda DEĞİL",
+    bag.sessiz_coz !== bag.isi_gecevir, `sessiz_coz ${bag.sessiz_coz} / isi_gecevir ${bag.isi_gecevir}`);
+  k("işi geri çevirmek, çözmekten daha vicdanlı", bag.isi_gecevir > bag.sessiz_coz);
+  k("Cengo'ya bırakmak hiç para getirmiyor",
+    v.decisions.find(d => d.id === "cengoya_birak").para === 0);
+  // Yan iş ay kapatmadığı için bu para doğrudan nefes demek.
+  const o = varlikli();
+  o.durum.para = 0; o.durum.borc = 47465;      // V2'den temiz çıkan oyuncunun hâli
+  o.durum.tamamlanan = ["V1", "V2"];
+  o.vakaBaslat("YAN-A");
+  o.kaynakAc("tehdit_arastir");
+  const r = o.kararVer("sessiz_coz");
+  k("borçlu oyuncu için gerçek nefes", o.durum.borc < 10000,
+    tl(47465) + " → " + tl(o.durum.borc));
+  k("ama sabit gider kesilmedi (yan iş)", r.ekonomi.giderler.length === 0);
+}
+
+console.log("\n=== SESSİZ ÇÖZÜM, BİLİNMEYEN SIRRI ANLATMIYOR ===");
+{
+  // Kapı 'tehdit_kim'; oyuncu Cengo'nun geçmişini hiç öğrenmeden bu kararı
+  // verebiliyor. Sonuç metni ona "kapalı defter kapalı kaldı" derse olmayan
+  // bir sırrı ele verir.
+  const kur = (yol) => {
+    const o = varlikli();
+    o.durum.tamamlanan = ["V1", "V2"];
+    o.vakaBaslat("YAN-A");
+    for (const c of yol) o.kaynakAc(c);
+    return o;
+  };
+  const sig = kur(["tehdit_arastir"]);
+  k("sığ oyuncu gecmis_tam bilmiyor (test anlamlı)", !sig.bilinenler().includes("gecmis_tam"));
+  const rs = sig.kararVer("sessiz_coz");
+  k("sığ oyuncuya 'kapalı defter' denmiyor", !/kapalı defter|üstlend/i.test(rs.sonuc), rs.sonuc);
+
+  const derin = kur(["eski_kayit", "tehdit_arastir", "cengo_cumle"]);
+  k("derin oyuncu gecmis_tam biliyor", derin.bilinenler().includes("gecmis_tam"));
+  const rd = derin.kararVer("sessiz_coz");
+  k("derin oyuncuya merhamet cümlesi geliyor", /kapalı defter/i.test(rd.sonuc));
+  k("iki metin farklı", rs.sonuc !== rd.sonuc);
+}
+
 console.log("\n=== YAN İŞ KAÇIRILABİLİR — VE ARAYÜZ BUNU SÖYLÜYOR ===");
 {
   // masadakiVakalar() yan vakayı yalnızca 'belirir.sonra === son tamamlanan'

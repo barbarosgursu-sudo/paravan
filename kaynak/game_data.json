@@ -914,45 +914,62 @@
      "id": "biliyorum_cik",
      "gate": "gecmis_tam",
      "etiket": "Sevil'e 'biliyorum' diye çık",
-     "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi?",
+     "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi? Sevil ücreti ödüyor, üstüne biraz daha — artık sırrını bilen bir kişi daha var ve bunu ikiniz de biliyorsunuz.",
      "cengoBag": -1,
      "seed_yaz": {
       "yana_karar": "acti"
      },
-     "yuzde": 18
+     "yuzde": 18,
+     "para": 65000
     },
     {
      "id": "cengoya_birak",
      "gate": "gecmis_tam",
      "etiket": "Cengo'ya bırak, karışma",
-     "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an.",
+     "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an. Fatura kesmedin. Kendi defteri için arkadaşından para alınmaz.",
      "cengoBag": 2,
      "seed_yaz": {
       "yana_karar": "birakti"
      },
-     "yuzde": 42
+     "yuzde": 42,
+     "para": 0
     },
     {
      "id": "sessiz_coz",
      "gate": "tehdit_kim",
      "etiket": "Tehdidi çöz, geçmişe dokunma",
-     "sonuc": "Sevil'i sıkıştıranı hallettin, ama geçmişe dokunmadın. Kapalı defter kapalı kaldı. Merhametli bir sessizlik.",
-     "cengoBag": 1,
+     "sonuc": [
+      {
+       "kosul": "gecmis_tam",
+       "metin": "Sevil'i sıkıştıranı hallettin, geçmişe dokunmadın. Cengo'nun onun yerine neyi üstlendiğini biliyorsun — ve söylemedin. Kapalı defter kapalı kaldı; merhametli bir sessizlik."
+      },
+      {
+       "kosul": "gecmis_sezildi",
+       "metin": "Sevil'i sıkıştıranı hallettin. İkisi arasında bir şey olduğunu sezdin ama üstüne gitmedin. Bazı kapılar çalınmaz."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Sevil'i sıkıştıranı hallettin, ücretini aldın, dosyayı kapattın. Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da."
+      }
+     ],
+     "cengoBag": 0,
      "seed_yaz": {
       "yana_karar": "sessiz"
      },
-     "yuzde": 28
+     "yuzde": 28,
+     "para": 45000
     },
     {
      "id": "isi_gecevir",
      "gate": "tehdit_kim",
      "etiket": "Sevil'in işini geri çevir",
-     "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his.",
+     "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his. Sevil yapılan iş için bir şey bırakıp gidiyor; asıl ücreti Cengo'nun hatırına eline almadın.",
      "cengoBag": 1,
      "seed_yaz": {
       "yana_karar": "cevirdi"
      },
-     "yuzde": 12
+     "yuzde": 12,
+     "para": 12000
     }
    ],
    "seeds": {
