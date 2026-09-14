@@ -20,7 +20,7 @@ function ifadeCalistir(ifade, bilinen, seeds, cengoBag, kasa) {
   return false;
 }
 
-const KAYIT_SEMA = 3;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
+const KAYIT_SEMA = 4;   // kayıt biçimi değişirse artır (eski kayıtlar reddedilir)
 
 // --- BORCUN SONUÇLARI ------------------------------------------------------
 // Borç bir sayı olarak kalırsa oyuncuyu sıkmaz. Ödenmeyen HER GİDER KALEMİNİN
@@ -127,6 +127,10 @@ class Oyun {
       borc: 0,
       cengoBag: 0,
       kriz: {},           // ödenmeyen gider kaleminin sonuçları (bkz. KRIZLER)
+      // Anlık durum geçmişi anlatmıyor. Cengo'ya kaç ay ödenemediği ve
+      // biriken alacağı finalde gösterilmek üzere burada birikiyor:
+      // sadakat ile emek sömürüsü aynı anda görünsün diye.
+      gecmis: { cengoAcikAy: 0, cengoAlacak: 0 },
       seeds: {},          // cross-vaka bayraklar
       tamamlanan: [],     // biten vaka id'leri
       aktif: null,        // aktif vaka çalışma durumu
@@ -378,18 +382,12 @@ class Oyun {
     // cengoBag
     this.durum.cengoBag += (d.cengoBag || 0);
 
-    // FİNAL İSTİSNALARI (yalnız final vakada): flörtü kırar ya da mühürler
-    if (a.vaka.final) {
-      const durumOnce = cengoDurumHesap(this.durum.cengoBag);
-      // KIRAR: canavarca seçim (hepsini ifşa — masumlar da yandı) → bir kademe düşür
-      if (id === "hepsini_ifsa") {
-        this.durum.cengoBag = Math.min(this.durum.cengoBag, 2); // Bağlı/Yakın'dan indir
-      }
-      // MÜHÜRLER: en zor ama en doğru (Cavit'i ver, ajans batsa da) + zaten Yakın'daysa → Bağlı
-      if (id === "cavit_ver" && durumOnce === "Yakın") {
-        this.durum.cengoBag = 6; // Bağlı eşiğine taşı
-      }
-    }
+    // FİNAL İSTİSNALARI: kararın ardından Cengo'nun hangi kademede olduğunu
+    // ŞİMDİ ölçüyoruz, ama mührü AŞAĞIDA, kriz hesabından SONRA vuruyoruz.
+    // Eskiden mühür burada vuruluyordu ve aynı ay Cengo'ya ödenemezse
+    // kriz −1'i onu hemen geri alıyordu: "Bağlı" mührü sessizce "Yakın"a
+    // düşüyordu. Mühür bilinçli bir final kararıysa geri alınmamalı.
+    const finalDurumOnce = a.vaka.final ? cengoDurumHesap(this.durum.cengoBag) : null;
     // kararın yazdığı seed'ler
     for (const [k, val] of Object.entries(d.seed_yaz || {})) this.durum.seeds[k] = val;
     // seçilen kararı da işaretle (seeds karardan taşınabilsin)
@@ -459,6 +457,19 @@ class Oyun {
       // Cengo'ya ödeyememek bir ilişki olayıdır, bir gider satırı değil.
       // Her AY açık kaldığında bir kez düşer — borç sürdükçe süren bir ceza.
       if (simdiki.cengo) this.durum.cengoBag -= 1;
+      // Alacak, kriz eşiğinden bağımsız: kaleme ne kadar eksik ödendiyse
+      // o kadar borçlusun. Yarısını ödemek "ödedim" değildir.
+      const cengoKalem = giderler.find(x => KRIZLER.cengo.esle.test(x.ad));
+      if (cengoKalem && cengoKalem.eksik > 0) {
+        this.durum.gecmis.cengoAcikAy += 1;
+        this.durum.gecmis.cengoAlacak += cengoKalem.eksik;
+      }
+    }
+
+    // Final mührü: kriz hesabından SONRA, ki aynı ay geri alınmasın.
+    if (finalDurumOnce !== null) {
+      if (id === "hepsini_ifsa") this.durum.cengoBag = Math.min(this.durum.cengoBag, 2);
+      if (id === "cavit_ver" && finalDurumOnce === "Yakın") this.durum.cengoBag = 6;
     }
 
     let borcOdemesi = 0;
@@ -537,6 +548,7 @@ class Oyun {
       tamamlanan: [...d.tamamlanan],
       kaliciOlgular: [...(d.kaliciOlgular || [])],
       kriz: { ...(d.kriz || {}) },
+      gecmis: { ...(d.gecmis || {}) },
       aktif: d.aktif ? { id: d.aktif.id, acilan: [...d.aktif.acilanKaynaklar] } : null,
     };
   }
@@ -560,6 +572,7 @@ class Oyun {
         tamamlanan: [...(k.tamamlanan || [])],
         kaliciOlgular: [...(k.kaliciOlgular || [])],
         kriz: { ...(k.kriz || {}) },
+        gecmis: { cengoAcikAy: 0, cengoAlacak: 0, ...(k.gecmis || {}) },
         aktif: null,
       };
       if (k.aktif) {

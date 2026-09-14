@@ -129,6 +129,8 @@ body{
 .kriz-rozet{font-size:10.5px;letter-spacing:.4px;color:var(--kirmizi);border:1px solid var(--kirmizi);
   border-radius:4px;padding:1px 5px;white-space:nowrap}
 .kriz-satir{font-size:12.5px;color:var(--kirmizi);margin:-2px 0 10px;font-style:italic}
+.sonuc-kutu .cengo-alacak{margin-top:9px;padding-top:9px;border-top:1px solid rgba(255,255,255,.12);font-size:13.5px;color:var(--sonuk);line-height:1.5}
+.sonuc-kutu .cengo-alacak b{color:var(--kirmizi)}
 .hesap .satir.odenmedi b{color:var(--kirmizi)}
 .hesap .satir .acik{display:block;font-size:11px;color:var(--kirmizi);font-style:normal;margin-top:2px}
 .karar .bedel .sonuc{font-size:13px;font-style:italic}
@@ -1161,7 +1163,16 @@ function sonEkrani(){
   h += \`<div class="baslik"><div class="no">Son</div><h1>Dava Kapandı</h1></div>\`;
   h += \`<div class="giris-metin"><p>\${fk}</p></div>\`;
   h += \`<div class="giris-metin"><p class="anlati-italik">\${kayaSatir}</p></div>\`;
-  h += \`<div class="sonuc-kutu"><h3>Cengo</h3><p>\${cengoSatir}</p></div>\`;
+  h += \`<div class="sonuc-kutu"><h3>Cengo</h3><p>\${cengoSatir}</p>\`;
+  // Sadakat ile emek sömürüsü aynı anda görünmeli. "Bağlı" ile "beş aylık
+  // alacağı var" birbirini çürütmüyor — ikisi birden doğru, ve asıl ağırlık
+  // orada. İlişkiyi düşürmek yerine faturayı görünür kılıyoruz.
+  const gc = (oyun.durum.gecmis)||{};
+  if(gc.cengoAcikAy > 0){
+    h += \`<p class="cengo-alacak">Ama \${gc.cengoAcikAy} ay eline tam para geçmedi.
+      Birikmiş alacağı <b>\${tl(gc.cengoAlacak)}</b>. Sana bir kez bile sormadı.</p>\`;
+  }
+  h += '</div>';
   h += cengoGosterge();
   if(d.seeds.sezon2_avukat_ipi){
     h += \`<div class="giris-metin"><p style="color:var(--altin);font-style:italic">Ve bir kırıntı: seni soyan avukatın izi. Peri'nin gözünde eski bir ateş... (Sezon 2)</p></div>\`;

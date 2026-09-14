@@ -192,6 +192,66 @@ console.log("\n=== CENGO: ödeyememek ilişkiyi aşındırıyor ===");
   k("ödeyende ceza yok", t.durum.cengoBag === oncekiT + (d.cengoBag || 0) && !t.durum.kriz.cengo);
 }
 
+console.log("\n=== CENGO'NUN ALACAĞI BİRİKİYOR ===");
+{
+  // Anlık kriz bayrağı geçmişi anlatmıyor. Finalde "Bağlı, ama beş aydır
+  // eline tam para geçmedi" diyebilmek için sayaç gerekiyordu.
+  const o = new Oyun(g);
+  o.durum.para = 0;
+  const cengo = Object.entries(ekonomiAl(g).gider).find(([ad]) => tr(ad).includes("cengo"));
+  o.vakaBaslat("V1"); o.kararVer("reddet");
+  k("bir ay açık kaldı", o.durum.gecmis.cengoAcikAy === 1, String(o.durum.gecmis.cengoAcikAy));
+  k("alacak eksik ödenen kadar", o.durum.gecmis.cengoAlacak > 0, tl(o.durum.gecmis.cengoAlacak));
+  const ilkAlacak = o.durum.gecmis.cengoAlacak;
+  o.vakaBaslat("V2"); o.kararVer("kuru_rapor");
+  k("ikinci ay da eklendi", o.durum.gecmis.cengoAcikAy === 2);
+  k("alacak büyüdü", o.durum.gecmis.cengoAlacak > ilkAlacak, tl(o.durum.gecmis.cengoAlacak));
+
+  // Ödeyen oyuncuda sayaç işlemiyor
+  const t = new Oyun(g); t.durum.para = 500000;
+  t.vakaBaslat("V1"); t.kararVer("reddet");
+  k("ödeyende alacak yok", t.durum.gecmis.cengoAcikAy === 0);
+
+  // Alacak, kriz EŞİĞİNDEN bağımsız: yarısını ödemek "ödedim" değil
+  const y = new Oyun(g);
+  const oncekiler = Object.entries(ekonomiAl(g).gider);
+  const kiraTutar = oncekiler[0][1];
+  y.durum.para = kiraTutar + Math.round(cengo[1] * 0.8);   // Cengo'nun %80'i
+  y.vakaBaslat("V1"); y.kararVer("reddet");
+  k("Cengo krizi yanmadı (yarıdan azı açık)", y.durum.kriz.cengo === false);
+  k("ama alacak yine de kaydedildi", y.durum.gecmis.cengoAcikAy === 1,
+    tl(y.durum.gecmis.cengoAlacak));
+
+  // Arayüz finalde ikisini birlikte gösteriyor
+  const ui = fs.readFileSync("build_html.js", "utf-8");
+  k("final ekranı alacağı gösteriyor", /cengo-alacak/.test(ui));
+  k("ilişki kademesi düşürülmedi, fatura eklendi", /cengoSatir/.test(ui));
+}
+
+console.log("\n=== FİNAL MÜHRÜ AYNI AY GERİ ALINMIYOR ===");
+{
+  // cavit_ver, Cengo zaten "Yakın"sa ilişkiyi "Bağlı"ya mühürlüyor. Mühür
+  // kriz hesabından ÖNCE vuruluyordu ve aynı ay Cengo'ya ödenemezse −1 onu
+  // hemen geri alıyordu: "Bağlı" sessizce "Yakın"a düşüyordu.
+  const kur = (para) => {
+    const o = new Oyun(g);
+    o.durum.para = para;
+    o.durum.cengoBag = 4;                       // "Yakın"
+    o.durum.seeds.cavit_ceyda_bilinir = true;
+    o.durum.tamamlanan = ["V1", "V2", "V3", "V4", "V5"];
+    o.vakaBaslat("V6");
+    let n = 0;
+    while (o.acikKaynaklar().length && n++ < 4) { if (o.kaynakAc(o.acikKaynaklar()[0].id).hata) break; }
+    o.kararVer("cavit_ver");
+    return o;
+  };
+  const zengin = kur(500000), fakir = kur(0);
+  k("ödeyen oyuncuda mühür tuttu", zengin.durum.cengoBag >= 6, String(zengin.durum.cengoBag));
+  k("ödeyemeyen oyuncuda da mühür tuttu", fakir.durum.cengoBag >= 6, String(fakir.durum.cengoBag));
+  k("ama alacağı yine de kaydedildi", fakir.durum.gecmis.cengoAcikAy > 0,
+    fakir.durum.gecmis.cengoAcikAy + " ay");
+}
+
 console.log("\n=== GERİ ALINABİLİR: ödeyince sonuçlar kalkıyor ===");
 {
   const { o } = ayKapat(0);

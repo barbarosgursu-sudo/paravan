@@ -228,6 +228,35 @@ hesap kutusunda kullanılıyor.
 `test_ekonomi` her eksi tutarın adı olmasını ve hiçbir adın "ücret"
 dememesini şart koşuyor — yeni bir cepten-ödeme eklendiğinde test hatırlatır.
 
+## Cengo: sadakat ve alacak birlikte görünüyor
+
+Dürüst rotada Cengo aylarca eline tam para geçmeden çalışıyor, ama ilişki
+yüksek bitiyor. İlişkiyi düşürmek yanlış olurdu — sadakat gerçek. Eksik olan
+şey **faturanın görünmemesiydi**.
+
+`durum.gecmis` iki sayaç tutuyor: `cengoAcikAy` ve `cengoAlacak`. Final ekranı
+ilişki kademesinin hemen altına ekliyor:
+
+> **Cengo mesleki bir vedayla ayrıldı; yollar ayrıldı.**
+> *Ama 4 ay eline tam para geçmedi. Birikmiş alacağı **95.800 ₺**. Sana bir kez
+> bile sormadı.*
+
+İkisi birbirini çürütmüyor; ikisi birden doğru ve ağırlık orada.
+
+**Alacak, kriz eşiğinden bağımsız.** Kriz bayrağı kalemin yarıdan fazlası açık
+kalınca yanıyor; alacak ise ne kadar eksik ödendiyse o kadar birikiyor.
+Cengo'ya ücretinin %80'ini ödemek "ödedim" değildir.
+
+### Final mührü artık geri alınamıyor
+
+`cavit_ver`, Cengo zaten "Yakın"sa ilişkiyi "Bağlı"ya mühürlüyor. Mühür kriz
+hesabından **önce** vuruluyordu: aynı ay Cengo'ya ödenemezse kriz −1'i onu
+hemen geri alıyor, "Bağlı" sessizce "Yakın"a düşüyordu. Mühür artık krizden
+sonra vuruluyor — hangi kademede olduğuna karar anında bakılıyor, ama sonuç
+ayın muhasebesiyle silinmiyor.
+
+Kayıt şeması 3 → 4.
+
 ## Sabit finansal iddia yasağı
 
 Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir

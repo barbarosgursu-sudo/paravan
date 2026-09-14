@@ -16,7 +16,7 @@ console.log("=== KAYIT YÜKÜ: yalnızca girdiler ===");
   const kay = o.durumAl();
   const alanlar = Object.keys(kay).sort().join(",");
   k("üst alanlar beklendiği gibi",
-    alanlar === "aktif,borc,cengoBag,kaliciOlgular,kriz,para,seeds,sema,tamamlanan");
+    alanlar === "aktif,borc,cengoBag,gecmis,kaliciOlgular,kriz,para,seeds,sema,tamamlanan");
   k("aktif yalnızca id + açılan kaynaklar",
     Object.keys(kay.aktif).sort().join(",") === "acilan,id");
   const metin = JSON.stringify(kay);
@@ -159,6 +159,9 @@ console.log("\n=== VAKA ARASINDA (aktif vaka yokken) ===");
   k("aktif vaka yok", y.durum.aktif === null);
   k("masadaki vakalar aynı",
     y.masadakiVakalar().join(",") === o.masadakiVakalar().join(","));
+  k("Cengo alacağı korundu",
+    (y.durum.gecmis||{}).cengoAcikAy === (o.durum.gecmis||{}).cengoAcikAy &&
+    (y.durum.gecmis||{}).cengoAlacak === (o.durum.gecmis||{}).cengoAlacak);
   k("kalıcı olgular korundu",
     (y.durum.kaliciOlgular || []).sort().join(",") === (o.durum.kaliciOlgular || []).sort().join(","));
   k("künye bilgisi korundu",
