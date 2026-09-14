@@ -190,7 +190,7 @@
    ],
    "soyle_cavit": "Cavit'e şüphemi söyledim. Belki aptallıktı. Gözündeki o değişikliği gördüm — artık bana farklı bakıyor.",
    "gizli_kaz": "Cavit'e istediğini verdim, ama kendime bir dosya açtım. Bu iş bitmedi. Bir şeyin ucundan tutuyorum, daha bırakmayacağım.",
-   "reddet": "Reddettim. Onurluydu belki, ama kasada para yok, Cengo'nun yüzü asık. Onur karın doyurmuyor."
+   "reddet": "Reddettim. Onurluydu belki, ama bu ay eve bir kuruş girmedi, Cengo'nun yüzü asık. Onur karın doyurmuyor."
   },
   "V2": {
    "hersey_soyle": "Nesrin'e her şeyi anlattım. Doğruyu söyledim — ama adamın en sakladığı şeyi elinden aldım. Doğru olan her zaman iyilik değilmiş.",
@@ -277,7 +277,7 @@
    "gecistir": "Nadire'yi geçiştirdim. İkinci kez yüzüstü bıraktım o kadını. Cengo gördü. Ben de gördüm kendimi."
   },
   "YAN-C": {
-   "adresi_ver": "Bir adres yazdım, borcum kapandı. Rakamı hâlâ hatırlıyorum. Adını da.",
+   "adresi_ver": "Bir adres yazdım, parasını aldım. Rakamı hâlâ hatırlıyorum. Adını da.",
    "yanlis_adres": "Adama olmayan bir sokak verdim. Kadın yerinde kaldı. Ben de bir süre kazandım; ne kadar, bilmiyorum.",
    "isi_reddet": [
     {
@@ -293,7 +293,7 @@
      "metin": "Reddettim. O adamın kimi aradığını hiç öğrenmedim — öğrenmek istemedim."
     }
    ],
-   "aylayi_uyar": "Borcumu büyüttüm, bir kadını taşıdım. Cengo hiçbir şey sormadı. Bu, sorduğu her şeyden ağırdı."
+   "aylayi_uyar": "Cebimden verdim, bir kadını taşıdım. Cengo hiçbir şey sormadı. Bu, sorduğu her şeyden ağırdı."
   }
  }
 }

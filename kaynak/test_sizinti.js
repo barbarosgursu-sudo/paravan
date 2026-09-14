@@ -358,6 +358,10 @@ console.log("\n=== SABİT FİNANSAL DURUM İDDİASI VAR MI? ===");
     { kalip: /ödenmiş bir kira/i,                        ne: "kiranın ödendiği" },
     { kalip: /kasa zaten (dardı|yoktu)/i,                ne: "kasanın dar/yok olduğu" },
     { kalip: /Peri (de )?beş parasız/i,                  ne: "Peri'nin beş parasız olduğu" },
+    // 3. inceleme turu: bekçinin kalıp listesi eksikti, üç defter notu kaçtı.
+    { kalip: /kasada\s*(para\s*)?(yok|kalmadı)/i,        ne: "kasada para olmadığı" },
+    { kalip: /borcu[mn]?\s*(kapan|bitti|sıfırlandı)/i,    ne: "borcun kapandığı" },
+    { kalip: /borcumu\s*büyüttüm/i,                       ne: "borcun büyüdüğü" },
   ];
   // Bilerek bırakılanlar: V1 herkeste aynı durumdan başlıyor (65.000 ₺, borç
   // yok), o yüzden V1'in kendi sonucu "ajans nefes alır" diyebiliyor.

@@ -314,6 +314,12 @@ Serbest kalanlar: **olay** bildiren cümleler ("para geldi", "para biter",
 bilinçli istisnalar orada. Bekçiyi yazarken benim gözden kaçırdığım bir
 tanesini (`V5/oyunu_surdur`) hemen yakaladı.
 
+**Kalıp listesi elle tutuluyor ve iki inceleme turunda büyüdü.** 3. turda üç
+defter notu daha kaçtığı görüldü — *"kasada para yok"* (5.925 ₺ varken),
+*"borcum kapandı"* (borç sıfırken), *"borcumu büyüttüm"* (parası olan
+oyuncuda borç oluşmaz). Üçü de eylem anlatan hâline çevrildi ve kalıp listesine
+eklendi. Liste tamam olduğunu iddia etmiyor; her yeni metinde göz gerekiyor.
+
 ### İki defter notu koşullu oldu
 
 Aynı düzeltme sırasında iki Nurcan kırılması da çıktı:
