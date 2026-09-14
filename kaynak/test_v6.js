@@ -71,5 +71,44 @@ console.log("\n=== KURAL 5: V6'da kaya_biliyordu ÇÖZÜLMESİ serbest, Ceyda DE
 let temiz=dogrula(g);
 k("V6 kaya_biliyordu kesin ama uyarı YOK (istisna çalışıyor)", temiz===true);
 
+console.log("\n=== PARA: FİNALDE ÜCRET YOK, SONUÇ VAR ===");
+{
+  const v = g.vakalar.find(x => x.id === "V6");
+  const tl = n => (n>0?"+":"") + Math.round(n).toLocaleString("tr-TR") + " ₺";
+  for (const d of [...v.decisions].sort((a,b) => a.cengoBag-b.cengoBag || b.para-a.para))
+    console.log("   " + d.id.padEnd(16) + tl(d.para).padStart(11) + "   vicdan " + (d.cengoBag>0?"+":"") + d.cengoBag);
+
+  // V6'nın müşterisi yok — bu Peri'nin kendi son sorusu. Para bir ücret değil,
+  // kararın sonucu. Dört seçeneğin sıfırda eşit olması bir boşluk değil, bir
+  // iddia: parayı değiştiren tek şey susmak ve hamini vermek.
+  const p = Object.fromEntries(v.decisions.map(d => [d.id, d.para]));
+  k("susmak para getiriyor", p.sus_bilerek > 0, tl(p.sus_bilerek));
+  k("hamini vermek para götürüyor", p.cavit_ver < 0, tl(p.cavit_ver));
+  k("diğer dördü parayı hiç değiştirmiyor",
+    [p.ilyas_ver, p.ceyda_ver, p.boslukla_kapat, p.hepsini_ifsa].every(x => x === 0));
+
+  // Rakamlar kararların kendi metinlerinden çıkıyor.
+  const duz = x => typeof x === "string" ? x : JSON.stringify(x);
+  const bul = id => v.decisions.find(d => d.id === id);
+  k("'ajans yaşar' diyen karar kazandıran", /ajans yaşar/.test(duz(bul("sus_bilerek").sonuc)));
+  k("'ajans batabilir' diyen karar kaybettiren", /ajans batabilir/.test(duz(bul("cavit_ver").sonuc)));
+
+  // boslukla_kapat, zincir_tam'lı kararlarla ASLA birlikte sunulmuyor
+  // (kapısı {not: zincir_tam}). K8 bunu bilmiyor; burada sıfırda oldukları
+  // için sorun çıkmıyor ama ikisi ayrışırsa yanlış alarm verir.
+  k("boşlukla kapat, zincir_tam kararlarıyla dışlayan kapıda",
+    JSON.stringify(bul("boslukla_kapat").gate) === JSON.stringify({not:"zincir_tam"}));
+
+  // Sezonun son ayı da bir ay: kira ödeniyor.
+  const o = new Oyun(g);
+  o.durum.para = 300000;
+  o.durum.seeds.zincir_tam = true;
+  o.durum.tamamlanan = ["V1","V2","V3","V4","V5"];
+  o.vakaBaslat("V6");
+  const r = o.kararVer(o.acikKararlar().map(x=>x.id).includes("sus_bilerek") ? "sus_bilerek" : o.acikKararlar()[0].id);
+  k("final ayında da sabit giderler kesiliyor", r.ekonomi.giderler.length > 0,
+    r.ekonomi.giderler.length + " kalem");
+}
+
 console.log("\n"+(hata===0?"=== V6 TEST TAMAM ===":"=== "+hata+" BAŞARISIZ ==="));
 process.exit(hata?1:0);

@@ -404,6 +404,78 @@ oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarası
 açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
 ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
 
+## V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+| Karar | Para | Vicdan | Metnin kendi sözü |
+|---|---|---|---|
+| Belli etme, oyunu sürdür | +80.000 ₺ | −2 | "**Para akar**, güvenliktesin" |
+| Cavit'in dediğini yap, kazma | +55.000 ₺ | −1 | "**Para geldi.** Neyi temizlediğini hiç öğrenmedin" |
+| Ceyda'yı hedef al | +30.000 ₺ | 0 | İstediğini yapmadın, ücret kırpıldı |
+| Sessizce kanıt biriktir | +15.000 ₺ | +1 | Ne vur ne teslim ol — az iş, az ücret |
+| Bildiğini Cavit'in yüzüne vur | 0 ₺ | +2 | "**Para biter**, artık sen de bir tehditsin" |
+
+Rakamları ben koymadım, metinler söylüyordu. `test_v5` o cümlelerle rakamı
+birbirine bağlıyor: "Para akar" diyen karar en çok kazandıran olmalı, "Para
+biter" diyen sıfır olmalı.
+
+**Ayı kârla kapatan tek seçenek `oyunu_surdur`** — yani her şeyi bilip örtmek.
+
+### V5'te İKİ çift eşitlik vardı
+
+`cavite_vur` ile `kanit_biriktir` ikisi de +1; `oyunu_surdur` ile `kazma` ikisi
+de −1 idi. Her iki çiftte de biri para getiriyor öteki getirmiyor. Ayrım
+metinlerde zaten vardı:
+
+- **Bilerek örtmek, bakmamaktan ağır.** `oyunu_surdur`'un kapısı `tam_resim`
+  (bilmeden seçilemiyor), `kazma`'nınki "yok" (bilmeyenin seçeneği).
+  −2 ve −1.
+- **Parayı kaybetmeyi göze almak, para akarken kanıt biriktirmekten ağır.**
+  +2 ve +1.
+
+## V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+V6'nın da müşterisi yok; bu Peri'nin kendi son sorusu. Para burada bir ücret
+değil, **kararın sonucu**:
+
+| Karar | Para | Vicdan |
+|---|---|---|
+| Hiçbirini verme, sus | +70.000 ₺ | −1 |
+| İlyas'ı ele ver | 0 ₺ | 0 |
+| Ceyda'yı ele ver | 0 ₺ | 0 |
+| Dosyayı kapat | 0 ₺ | 0 |
+| Hepsini ifşa et | 0 ₺ | 0 |
+| Cavit'i ele ver | −20.000 ₺ | +1 |
+
+Dört seçeneğin sıfırda eşit olması bir boşluk değil, bir iddia: **parayı
+değiştiren tek şey susmak (ödüllendiriliyor) ve hamini vermek
+(cezalandırılıyor).** Metinler de bunu söylüyordu — `sus_bilerek` "ajans
+yaşar", `cavit_ver` "o senin geçim kaynağındı, ajans batabilir".
+
+Bu sayede V6'da hiçbir vicdan değeri değiştirilmedi; finalin ahlaki dengesi
+yazıldığı gibi duruyor.
+
+### K8'in bilmediği bir şey
+
+`boslukla_kapat`'ın kapısı `{not: zincir_tam}`, diğer beşininki `zincir_tam`.
+Yani oyuncuya **asla birlikte sunulmuyorlar**; aralarında "baskınlık" diye bir
+şey olamaz. K8 bunu bilmiyor. Şu an ikisi de sıfırda olduğu için sorun
+çıkmıyor, ama biri değişirse yanlış alarm verir. `test_v6` kapının bu hâlini
+kilitliyor.
+
+## Sezonun tam eğrisi
+
+Üç gidişat, yan işler önce alınarak (aylık gider 59.075 ₺):
+
+| | Bitiş | Cengo |
+|---|---|---|
+| En kirli | 118.550 ₺ kasa, hiç borca girmedi | **−12** (gitti) |
+| Orta | 92.207 ₺ borç | −1 |
+| En temiz | 140.030 ₺ borç | **+1** |
+
+Dikkat çeken şey en temiz yolun Cengo'yu yalnızca +1'de bitirmesi: vicdanlı
+kararlar bağı yükseltiyor ama **ödeyemediğin her ay bir düşürüyor.** Cengo'ya
+iyi davranmakla Cengo'ya ödeyebilmek aynı şey değil.
+
 ## V4 "Küçük Hasta" — müşterisi olmayan ay
 
 V4'ün **müşterisi yok.** Cengo'nun eski dosyalarda bulduğu bir kâğıt var ve
@@ -519,8 +591,9 @@ yanlış döner ve metin hiç görünmez. Tek kapı, unutulacak yer bırakmıyor
 
 ### Kalan
 
-V4, V5, V6, YAN-A ve YAN-B'nin para değerleri henüz yazılmadı (23 karar). K8
-bu vakaları sessizce atlıyor; `para` eklendiği anda devreye giriyor. Yan
+Dokuz vakanın **40 kararının hepsinde** `para` yazılı; K8 hepsinde çalışıyor.
+Yan vakaların ücretsiz olması özellikle önemli: V2, V4 ve temiz oynanan V3
+zararlı aylar, nefes alma yeri yan işler. Yan
 vakaların ücretsiz olması özellikle önemli: V2 ve temiz oynanan V3 zararlı
 aylar, tek nefes alma yeri yan işler — ama şu an sıfır getiriyorlar.
 

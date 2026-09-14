@@ -1,4 +1,4 @@
-const { Oyun } = require("./motor.js");
+const { Oyun, giderToplam } = require("./motor.js");
 const { dogrula } = require("./dogrulayici.js");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
@@ -43,6 +43,46 @@ console.log("   → Gerçek ödünleşim: komployu çöz (tam_resim) YA DA Ceyda
 console.log("\n=== CEYDA BELİRSİZ KALIYOR (Kural 5 gerçek veride) ===");
 let temiz=dogrula(g); // mevcut veri Ceyda'yı belirsiz tutuyor → uyarı olmamalı
 k("temiz veride Ceyda uyarısı YOK", temiz===true);
+
+console.log("\n=== PARA: CAVİT'İN ÖDEDİĞİ ŞEY SESSİZLİK ===");
+{
+  const v = g.vakalar.find(x => x.id === "V5");
+  const tl = n => (n>0?"+":"") + Math.round(n).toLocaleString("tr-TR") + " ₺";
+  const s2 = [...v.decisions].sort((a, b) => a.cengoBag - b.cengoBag);
+  for (const x of s2) console.log("   " + x.id.padEnd(16) + tl(x.para).padStart(11) + "   vicdan " + (x.cengoBag>0?"+":"") + x.cengoBag);
+  k("vicdan yükseldikçe para düşüyor", s2.every((x,i) => i===0 || x.para < s2[i-1].para));
+
+  // Rakamlar kararların KENDİ metinlerinden çıkıyor: oyunu_surdur "Para akar"
+  // diyor, cavite_vur "Para biter" diyor. Test o cümlelerle rakamı bağlıyor —
+  // biri değişirse öteki de değişmeli.
+  const bul = id => v.decisions.find(d => d.id === id);
+  const duz = x => typeof x === "string" ? x : JSON.stringify(x);
+  k("'Para akar' diyen karar en çok kazandıran",
+    /Para akar/.test(duz(bul("oyunu_surdur").sonuc)) &&
+    bul("oyunu_surdur").para === Math.max(...v.decisions.map(d => d.para)));
+  k("'Para biter' diyen karar hiç kazandırmıyor",
+    /Para biter/.test(duz(bul("cavite_vur").sonuc)) && bul("cavite_vur").para === 0);
+
+  // Eskiden cavite_vur ile kanit_biriktir ikisi de +1, oyunu_surdur ile kazma
+  // ikisi de −1 idi. Her iki çiftte de biri para getiriyor öteki getirmiyor:
+  // aynı ahlak, farklı para — yani baskınlık. Ayrım metinlerin kendisinde
+  // zaten vardı: bilerek örtmek (tam_resim kapısı) bakmamaktan ağır; parayı
+  // kaybetmeyi göze almak, para akarken kanıt biriktirmekten ağır.
+  const bag = Object.fromEntries(v.decisions.map(d => [d.id, d.cengoBag]));
+  k("yüzüne vurmak, kanıt biriktirmekten daha vicdanlı",
+    bag.cavite_vur > bag.kanit_biriktir, `${bag.cavite_vur} > ${bag.kanit_biriktir}`);
+  k("bilerek örtmek, kazmamaktan daha ağır",
+    bag.oyunu_surdur < bag.kazma, `${bag.oyunu_surdur} < ${bag.kazma}`);
+  k("bilerek örtmenin kapısı tam_resim (bilmeden seçilemiyor)",
+    bul("oyunu_surdur").gate === "tam_resim");
+  k("kazmamak kapısız (bilmeyen oyuncunun seçeneği)", bul("kazma").gate === "yok");
+
+  // Omurga ay: yalnızca tam ortak olan seçenek ayı kârla kapatıyor.
+  const gider = giderToplam(g);
+  const karli = v.decisions.filter(d => d.para > gider).map(d => d.id);
+  k("ayı kârla kapatan tek seçenek 'oyunu_surdur'",
+    karli.length === 1 && karli[0] === "oyunu_surdur", karli.join(",") || "hiçbiri");
+}
 
 console.log("\n"+(hata===0?"=== V5 TEST TAMAM ===":"=== "+hata+" BAŞARISIZ ==="));
 process.exit(hata?1:0);

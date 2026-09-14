@@ -1864,44 +1864,48 @@
      "gate": "tam_resim",
      "etiket": "Bildiğini Cavit'in yüzüne vur",
      "sonuc": "'Biliyorum. İlyas, Ceyda, hepsi.' Cesur — ama Cavit'i köşeye sıkıştırdın, ve köşeye sıkışmış bu adam tehlikeli. Para biter, artık sen de bir tehditsin.",
-     "cengoBag": 1,
+     "cengoBag": 2,
      "seed_yaz": {
       "cavit_karsi_konum": "dusman"
      },
-     "yuzde": 21
+     "yuzde": 21,
+     "para": 0
     },
     {
      "id": "oyunu_surdur",
      "gate": "tam_resim",
      "etiket": "Belli etme, oyunu sürdür",
-     "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür.",
-     "cengoBag": -1,
+     "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür. Cavit seni yakınında tutmak için cömert; bu ay ajans rahat.",
+     "cengoBag": -2,
      "seed_yaz": {
       "cavit_karsi_konum": "ortak"
      },
-     "yuzde": 26
+     "yuzde": 26,
+     "para": 80000
     },
     {
      "id": "kanit_biriktir",
      "gate": "tam_resim",
      "etiket": "Sessizce kanıt biriktir",
-     "sonuc": "Ne vur, ne teslim ol — belge, kayıt, iz topladın. Elini final için hazırladın; ama yakalanırsan bedeli ağır.",
+     "sonuc": "Ne vur, ne teslim ol — belge, kayıt, iz topladın. Elini final için hazırladın; ama yakalanırsan bedeli ağır. Ne vurup ne teslim olduğun için ona az iş teslim ettin; ücret de o kadar.",
      "cengoBag": 1,
      "seed_yaz": {
       "cavit_karsi_konum": "silahli"
      },
-     "yuzde": 37
+     "yuzde": 37,
+     "para": 15000
     },
     {
      "id": "ceydaya_git",
      "gate": "ceyda_bulaniklik",
      "etiket": "Ceyda'yı hedef al, oku, kullan",
-     "sonuc": "Cavit'i değil Ceyda'yı hedef aldın — belki onu Cavit'e karşı kullanabilirsin, belki gerçek gücün kimde olduğunu öğrenirsin. Riskli bir satranç; Ceyda senden akıllı çıkabilir.",
+     "sonuc": "Cavit'i değil Ceyda'yı hedef aldın — belki onu Cavit'e karşı kullanabilirsin, belki gerçek gücün kimde olduğunu öğrenirsin. Riskli bir satranç; Ceyda senden akıllı çıkabilir. Cavit'in istediğini yapmadığın için ücret kırpıldı.",
      "cengoBag": 0,
      "seed_yaz": {
       "cavit_karsi_konum": "ceyda_ittifak"
      },
-     "yuzde": 11
+     "yuzde": 11,
+     "para": 30000
     },
     {
      "id": "kazma",
@@ -1928,7 +1932,8 @@
      "seed_yaz": {
       "cavit_karsi_konum": "alet"
      },
-     "yuzde": 5
+     "yuzde": 5,
+     "para": 55000
     }
    ],
    "seeds": {
@@ -2092,18 +2097,20 @@
      "seed_yaz": {
       "final_karar": "ilyas"
      },
-     "yuzde": 24
+     "yuzde": 24,
+     "para": 0
     },
     {
      "id": "cavit_ver",
      "gate": "zincir_tam",
      "etiket": "Cavit'i ele ver (mimar)",
-     "sonuc": "Mimarı verdin. Ama o senin geçim kaynağındı — ajans batabilir. Ve Cavit düşerken İlyas'ı da sürükler; ikisi birbirinin sırrını tutuyordu.",
+     "sonuc": "Mimarı verdin. Ama o senin geçim kaynağındı — ajans batabilir. Ve Cavit düşerken İlyas'ı da sürükler; ikisi birbirinin sırrını tutuyordu. Ödenmemiş hesabı da onunla birlikte gitti.",
      "cengoBag": 1,
      "seed_yaz": {
       "final_karar": "cavit"
      },
-     "yuzde": 34
+     "yuzde": 34,
+     "para": -20000
     },
     {
      "id": "ceyda_ver",
@@ -2114,7 +2121,8 @@
      "seed_yaz": {
       "final_karar": "ceyda"
      },
-     "yuzde": 13
+     "yuzde": 13,
+     "para": 0
     },
     {
      "id": "sus_bilerek",
@@ -2125,7 +2133,8 @@
      "seed_yaz": {
       "final_karar": "sus_bilerek"
      },
-     "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin."
+     "sonuc": "Elin artık temiz değil — bu kadarını bildikten sonra susmak, ortak olmak demek. Ama hayatta kalırsın, ajans yaşar. Adaletsizlikle yaşamayı seçtin. Cavit susmanın bedelini peşin ödüyor; ajans bu ay rahat.",
+     "para": 70000
     },
     {
      "id": "boslukla_kapat",
@@ -2138,7 +2147,8 @@
      "seed_yaz": {
       "final_karar": "boslukla_kapat"
      },
-     "sonuc": "Dosyayı kapattın. Elinde bir adı olmayan bir boşluk, kanıtlanmamış bir şüphe ve ödenmiş bir kira kaldı. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
+     "sonuc": "Dosyayı kapattın. Elinde bir adı olmayan bir boşluk, kanıtlanmamış bir şüphe ve ödenmiş bir kira kaldı. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi.",
+     "para": 0
     },
     {
      "id": "hepsini_ifsa",
@@ -2157,7 +2167,8 @@
      "seed_yaz": {
       "final_karar": "hepsi"
      },
-     "yuzde": 8
+     "yuzde": 8,
+     "para": 0
     }
    ],
    "seeds": {
