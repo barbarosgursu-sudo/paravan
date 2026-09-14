@@ -30,6 +30,7 @@ koşmadan derleme yapılmaz.
 - `test_*.js`           → testler
 - `*.md`                → tasarım sözleşmeleri (doğrulayıcı, Cengo bağı, görsel, veri formatı)
 - `ses_promptlari.md`   → 8 müzik + 5 efekt için sipariş metinleri
+- `final_tablo_plani.md`→ sezon sonu istatistik tablosu (yazılmadı; Android aşamasının planı)
 
 `_gomulu_motor.js` ve `_gomulu_veri.js` her derlemede üretilir, depoya girmez.
 
