@@ -284,6 +284,63 @@ ayın muhasebesiyle silinmiyor.
 
 Kayıt şeması 3 → 4.
 
+## Anlatı zemini (3. inceleme turu)
+
+### Saat ve komşu artık birbirini destekliyor
+
+İki zaman kanıtı vardı ve **ikisi de tek başına zayıftı**: kırık kol saati ne
+zaman *durduğunu* kanıtlar, ölümü değil — üstelik sahnelenmesi en kolay delil
+odur. Komşunun ifadesinde ise saat hiç yoktu. Buna rağmen Cengo ikisinden
+matematiksel bir kesinlik çıkarıyordu ("kırk dakika önce yerde bulmuş oluyor").
+
+Çözüm ayrı ayrı yamamak değil, **ikisini kenetlemek** oldu. Komşu artık saat
+veriyor ("haberlerden sonraydı — on bir gibi"), olay yeri metni saatin
+kesinliğini geri alıyor ("düşerken kırılmış olabilir, öncesinde de"). Cengo'nun
+cümlesi de bilgiye göre ikiye ayrıldı:
+
+| Oyuncu | Cengo ne diyor |
+|---|---|
+| Komşuyu dinledi | "İki şey aynı saati gösteriyor, bir kişi başka saati." |
+| Dinlemedi | "Saat kırılabilir, yanılabilir — ama yanılan saat mi, kadın mı?" |
+
+Kesinlik değil **ağırlık**. Dedektiflik zaten bu: tek başına hiçbir şey ifade
+etmeyen iki şeyin üst üste binmesi.
+
+### Sigorta neden "bağımsız" raporu kabul ediyor
+
+Uzmanı lehtarın avukatı seçiyor ve parasını o ödüyor. Sigortanın bunu neden
+bağımsız sayacağı açıklanmıyordu. İki yol vardı: ya sigorta Peri'yi atamış
+olacaktı (V1'in bütün güç dengesini bozardı), ya da boşluk gerçek olacaktı.
+
+İkincisi seçildi çünkü oyunun tezini güçlendiriyor: **sistem kanmıyor, sistem
+suç ortağı.**
+
+> *"Poliçe, lehtarın kendi uzmanını tutmasına izin veriyor — sigorta da bunu
+> biliyor. Kimse kanmıyor; herkesin işine geliyor."*
+
+### Aylık %10 ne
+
+Aylık %10 yıllık ~%214 eder; banka değil. Ama tefeci de değil — oyundaki borç
+bir kredi değil, **ödenmemiş faturaların birikmesi**. Görünmeyen bir tefeci
+yaratmak yerine var olan mekanik açıklandı (prolog):
+
+> *"Bu şehirde gecikmenin fiyatı ağır: ödenmeyen her fatura kendi cezasını
+> yazar, her ay biraz daha."*
+
+Hiç sahneye çıkmayan bir tehdit, tehdit olmaz.
+
+### İki sıçrama kapandı
+
+- **V1'de reddeden oyuncunun V3'ü.** Dosyanın kaza olarak kapandığı
+  varsayılıyordu ama o oyuncu imzalamamıştı. Yeni giriş varyantı: *"Kaza
+  raporunu başka bir uzmana imzalatmış… madem başkası imzaladı, Cavit neden
+  hâlâ bu kadar tedirgin?"* Koşulu `ilk_karar` tohumu — **bugüne kadar hiçbir
+  yerde okunmuyordu** (K9: 7 → 6).
+- **V5'te gözlemden kesinliğe atlama.** Cavit'i Ceyda'nın kapısında görmek
+  "sevgililer + cinayetin mimarı" demeye yetmiyordu. Meta ikiye ayrıldı:
+  İlyas'ın geçmişini bilmeyene *"Bu bir sebep olabilir — ama sebep, fail demek
+  değil"*, bilene *"ikisi yan yana gelince ortaya bir sebep çıkıyor"*.
+
 ## Sabit finansal iddia yasağı
 
 Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir

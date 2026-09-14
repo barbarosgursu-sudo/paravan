@@ -51,9 +51,9 @@
     "sigorta_sorusturma": "Sigorta ödemeyi dondurdu; bağımsız bir uzman raporu bekliyor.",
     "giris_zorlama_yok": "Eve zorla giriş yok — tanıdık ya da içeriden.",
     "ceyda_saat": "Ceyda: 'Sekizde çıktım, on buçukta döndüm, onu merdivenin dibinde buldum.'",
-    "olum_saati": "Polis fotoğrafı: kırık kol saati düşme anında durmuş, 23:10.",
+    "olum_saati": "Polis fotoğrafı: kırık kol saati 23:10'da durmuş — düşme anı olabilir.",
     "dusus_acisi": "Yaralar/açı kendi düşmeyle uyuşmuyor; itiş olası.",
-    "komsu_ses": "Komşu: o gece boğuk bir tartışma / ikinci bir ses."
+    "komsu_ses": "Komşu: on bir sularında boğuk bir tartışma, ikinci bir ses."
    },
    "knowledge": [
     {
@@ -120,7 +120,7 @@
       "sigorta_sorusturma"
      ],
      "text": "Sigorta eksperi kendi soruşturmasını açmış. Ödeme, 'bağımsız bir uzman raporu' gelene kadar donduruldu. Dosya kalın: poliçe, ekspertiz notları, ve Kaya'nın son bir yıllık hesap dökümleri.",
-     "meta": "Cavit'in aradığı bağımsız uzman sensin. Satın aldığı şey zamanın değil, imzan — ve acelesi olduğu için dosyayı olduğu gibi, ayıklamadan verdi.",
+     "meta": "Poliçe, lehtarın kendi uzmanını tutmasına izin veriyor — sigorta da bunu biliyor. Kimse kanmıyor; herkesin işine geliyor. Cavit'in aradığı bağımsız uzman sensin, ve satın aldığı şey zamanın değil, imzan. Acelesi olduğu için dosyayı olduğu gibi, ayıklamadan verdi.",
      "gorsel": null
     },
     {
@@ -152,8 +152,12 @@
      "reveals": [
       "komsu_ses"
      ],
-     "text": "Komşu: 'O gece boğuk bir tartışma duydum. İki ses vardı gibi.'",
+     "text": "Komşu: 'Yatmıştım, haberlerden sonraydı — on bir gibi. Boğuk bir tartışma duydum. İki ses vardı gibi. Sonra bir ses, sonra sessizlik.'",
      "meta": [
+      {
+       "kosul": "olum_saati",
+       "metin": "Kadının duyduğu saatle kırık saatin durduğu saat aynı yere düşüyor. İki ayrı şey, aynı saat."
+      },
       {
        "kosul": "ceyda_saat",
        "metin": "Tek başına kanıt değil — ama Ceyda'nın anlattığı gecede evde Kaya'dan başkası yok."
@@ -175,8 +179,8 @@
       "olum_saati",
       "dusus_acisi"
      ],
-     "text": "Merdiven dik. Polis fotoğraflarında yaraların açısı, kendi düşen birine göre ters duruyor. Adamın kolundaki saat düşerken kırılmış — camı çatlak, akrep on biri on geçede durmuş.",
-     "meta": "Açı bir itişe daha çok uyuyor.",
+     "text": "Merdiven dik. Polis fotoğraflarında yaraların açısı, kendi düşen birine göre ters duruyor. Adamın kolundaki saatin camı çatlak, akrepler 23:10'da durmuş — düşerken kırılmış olabilir, öncesinde de kırılmış olabilir.",
+     "meta": "Açı bir itişe daha çok uyuyor. Saat ise tek başına bir şey kanıtlamaz; birinin onu doğrulaması gerek.",
      "gorsel": {
       "dosya": "v1_merdiven.jpg",
       "tur": "mekan",
@@ -197,8 +201,26 @@
       "olum_saati"
      ],
      "reveals": [],
-     "text": "Cengo kağıtları yan yana koydu: 'Kadın on buçukta dönüp onu yerde buldum diyor. Ama adamın saati on biri on geçede kırılmış. Peri abla, kadın adamı düşmeden kırk dakika önce yerde bulmuş oluyor.'",
-     "meta": "Ceyda ya yanılıyor ya yalan söylüyor.",
+     "text": [
+      {
+       "kosul": "komsu_ses",
+       "metin": "Cengo kağıtları yan yana koydu: 'Komşu on bir gibi tartışma duymuş. Adamın saati on biri on geçede durmuş. Kadın ise on buçukta dönüp onu yerde bulduğunu söylüyor. İki şey aynı saati gösteriyor Peri abla, bir kişi başka saati.'"
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Cengo kağıtları yan yana koydu: 'Kadın on buçukta dönüp onu yerde buldum diyor. Adamın saati ise on biri on geçede durmuş. Saat kırılabilir, yanılabilir — ama yanılan saat mi, kadın mı?'"
+      }
+     ],
+     "meta": [
+      {
+       "kosul": "komsu_ses",
+       "metin": "Ceyda'nın saati iki ayrı şeyle birden çelişiyor. Bu artık bir yanılma değil."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Ceyda ya yanılıyor, ya saat yanılıyor. İkisinden biri."
+      }
+     ],
      "gorsel": null,
      "bedelsiz": true
     }
@@ -581,6 +603,22 @@
     }
    ],
    "giris": [
+    {
+     "kosul": {
+      "any": [
+       {
+        "seed": "ilk_karar",
+        "esit": "reddetti"
+       },
+       {
+        "seed": "ilk_karar",
+        "esit": "soyledi"
+       }
+      ]
+     },
+     "metin": "Cavit yine geldi — bu kez biraz daha mesafeli. Kaza raporunu başka bir uzmana imzalatmış, dosya kapanmış, sigorta neredeyse ödeyecek. Ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye sustur istiyor. Peri merak ediyor: madem önemsiz, madem başkası imzaladı, Cavit neden hâlâ bu kadar tedirgin?",
+     "acilan": []
+    },
     {
      "kosul": "varsayilan",
      "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye sustur istiyor. Ama Peri merak ediyor: madem önemsiz, Cavit neden bu kadar tedirgin?",
@@ -1922,7 +1960,16 @@
       "cinayet_sebep"
      ],
      "text": "Cavit'in geldiği kapı Ceyda'nın kapısıydı — ve içeri girişi bir avukatın girişi değildi. Perde çekildi. 'Demek buymuş,' dedi Cengo alçak sesle.",
-     "meta": "Cavit ile Ceyda sevgili. Cinayetin sebebi buydu: Kaya, ikisinin önündeki engeldi. Sana ilk gün iş getiren adam, cinayetin mimarı.",
+     "meta": [
+      {
+       "kosul": "cavit_azmettiren",
+       "metin": "Cavit ile Ceyda'nın arası bir avukat-müvekkil arası değil. İlyas'ı elinde tuttuğunu zaten biliyorsun — ikisi yan yana gelince ortaya bir sebep çıkıyor: Kaya, ikisinin önündeki engeldi."
+      },
+      {
+       "kosul": "varsayilan",
+       "metin": "Cavit ile Ceyda'nın arası bir avukat-müvekkil arası değil. Bu bir sebep olabilir — ama sebep, fail demek değil. Elinde henüz onu oraya kimin sürdüğü yok."
+      }
+     ],
      "gorsel": {
       "dosya": "v5_perde.jpg",
       "tur": "kanit",
