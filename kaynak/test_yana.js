@@ -1,4 +1,5 @@
 const { Oyun } = require("./motor.js");
+const fs = require("fs");
 const g = JSON.parse(require("fs").readFileSync("game_data.json","utf-8"));
 let hata=0; const k=(ad,ok)=>{console.log((ok?"✓":"✗ BAŞARISIZ")+" "+ad); if(!ok)hata++;};
 
@@ -43,6 +44,26 @@ k("başta isi_gecevir KAPALI (tehdit_kim yok)", !o2.acikKararlar().some(x=>x.id=
 o2.kaynakAc("tehdit_arastir");
 k("keşiften sonra isi_gecevir açık", o2.acikKararlar().some(x=>x.id==="isi_gecevir"));
 console.log("   → 'geri çevir' vakayı iptal etmiyor; önce Sevil'i görüyorsun, sonra reddedebiliyorsun.");
+
+console.log("\n=== YAN İŞ KAÇIRILABİLİR — VE ARAYÜZ BUNU SÖYLÜYOR ===");
+{
+  // masadakiVakalar() yan vakayı yalnızca 'belirir.sonra === son tamamlanan'
+  // iken gösteriyor. Omurgaya geçen oyuncu onu KALICI olarak kaybediyor.
+  // Bu kasıtlı bir kayıp; ama oyuncuya söylenmezse tuzak olur.
+  const o3 = new Oyun(g);
+  o3.vakaBaslat("V1"); o3.kararVer("reddet");
+  o3.vakaBaslat("V2"); o3.kararVer("kuru_rapor");
+  k("V2'den sonra YAN-A masada", o3.masadakiVakalar().includes("YAN-A"));
+  o3.vakaBaslat("V3"); o3.kararVer(o3.acikKararlar()[0].id);
+  k("omurgaya geçince YAN-A düştü", !o3.masadakiVakalar().includes("YAN-A"));
+  k("ve bir daha hiç gelmiyor",
+    !o3.durum.tamamlanan.includes("YAN-A") && !o3.masadakiVakalar().includes("YAN-A"));
+
+  // Kayıp kalıcı olduğu için masadaki kart bunu söylemek ZORUNDA.
+  const ui = fs.readFileSync("build_html.js", "utf-8");
+  k("masa kartı yan işin beklemediğini yazıyor", /Beklemez[^']*başkasına gider/.test(ui));
+  k("eski yanlış ipucu ('para senden gider') kaldırıldı", !/zaman ve para senden gider/.test(ui));
+}
 
 console.log("\n"+(hata===0?"=== YAN-A TEST TAMAM ===":"=== "+hata+" BAŞARISIZ ==="));
 process.exit(hata?1:0);

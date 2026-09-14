@@ -258,9 +258,19 @@ müvekkil kirayı ödemez. Rahatlama hemen sonra gelen **YAN-A** ile geliyor —
 yan vakalarda sabit gider kesilmiyor.
 
 Dikkat: masa sıralı. V1 → V2 → (YAN-A) → V3 → V4 → (YAN-B) → V5 → V6.
-Omurga vakayı oynamak o an masadaki yan vakayı **düşürüyor**; yan vakayı
-önce oynamak omurgayı düşürmüyor. Yani yan iş, fark eden oyuncuya bedelsiz
-gelir demek.
+`masadakiVakalar()` yan vakayı yalnızca `belirir.sonra === son tamamlanan`
+iken gösteriyor; omurgaya geçen oyuncu onu **kalıcı olarak** kaybediyor.
+Yan vakayı önce oynamak omurgayı düşürmüyor.
+
+Bu kayıp kasıtlı — ama söylenmezse tuzak. Masadaki yan iş kartı artık şunu
+yazıyor: *"Beklemez — büyük dosyaya dönersen başkasına gider."*
+
+Eski yazı (*"İstersen bak — zaman ve para senden gider"*) uyarı eksikliğinden
+daha kötüydü: yan vakalarda sabit gider **kesilmiyor** ve yan iş ücret
+getiriyor, yani cümle oyuncuyu tam ters yöne itiyordu. Oyunun deyimi
+"metinle uyar, engelleme" (bkz. "Bu karar geri alınamaz."), o yüzden onay
+kutusu değil kart yazısı seçildi. `test_yana.js` hem düşme davranışını hem
+kartın uyarıyı taşıdığını kilitliyor.
 
 ### Kalan
 

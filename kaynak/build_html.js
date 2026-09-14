@@ -739,7 +739,7 @@ function masaGoster(){
       <div class="afis-alt">
         <div class="tip">\${yan?'Yan iş':'Vaka'}</div>
         <h2>\${v.baslik}</h2>
-        <div class="ipu">\${yan?'İstersen bak — zaman ve para senden gider':'Ana dosya'}</div>
+        <div class="ipu">\${yan?'Beklemez — büyük dosyaya dönersen başkasına gider':'Ana dosya'}</div>
       </div>
     </div>\`;
   }
