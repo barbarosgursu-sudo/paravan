@@ -119,6 +119,26 @@ function metinSec(ham, bilinen, seeds, cengoBag, kasa) {
   return "";
 }
 
+/* Karar ekranının ruh hâli — dört hâlden biri.
+   Elle atanmıyor: kararın kendi cengoBag ve para değerlerinden türüyor.
+   Böylece yeni bir karar eklendiğinde ruh hâli kendiliğinden doğru çıkar,
+   birinin ayrıca etiketlemesi gerekmez (ve etiketlemeyi unutması mümkün olmaz).
+
+     bedel   vicdan artı, para eksi  → doğru olanı yaptın, cebinden ödedin
+     temiz   vicdan artı, para artı  → doğru olan aynı zamanda ayakta tuttu
+     kirli   vicdan eksi             → ne kazandırdığı önemli değil
+     bosluk  vicdan sıfır            → ne temiz ne kirli; kapattın, o kadar
+
+   Yeni bilgi SIZDIRMAZ: karar ekranında Cengo göstergesi zaten bu hareketi
+   gösteriyor, hesap kutusu da parayı. Görsel yalnızca ikisine yüz veriyor. */
+function kararRuhHali(d) {
+  const vicdan = d.cengoBag || 0;
+  const para = d.para || 0;
+  if (vicdan < 0) return "kirli";
+  if (vicdan === 0) return "bosluk";
+  return para < 0 ? "bedel" : "temiz";
+}
+
 class Oyun {
   constructor(game) {
     this.game = game;
@@ -559,6 +579,7 @@ class Oyun {
       cengoBag: this.durum.cengoBag,
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,
+      ruh: kararRuhHali(d),
       // ekonomik döküm — oyuncu kararının parasal sonucunu ekranda görmeli
       ekonomi: { kararPara, ilanPara, itibar, bedelAdi: d.bedel_adi || null,
                  harcanan, giderler, faiz, borcOdemesi, yeniKrizler,
@@ -657,4 +678,4 @@ class Oyun {
   }
 }
 
-module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA, ekonomiAl, giderToplam, metinSec };
+module.exports = { Oyun, ifadeCalistir, cengoDurumHesap, cengoAlev, KAYIT_SEMA, ekonomiAl, giderToplam, metinSec, kararRuhHali };

@@ -78,6 +78,11 @@ body{
 .gorsel-cerceve.portre{max-width:280px;margin:14px auto;border-radius:6px}
 .gorsel-cerceve.kanit{border-color:var(--kehribar)}
 .gorsel-cerceve.giris-gorsel{margin:0 0 4px;border-radius:0;border-left:none;border-right:none;border-top:none}
+/* Ruh bandı karar ekranının en üstünde duruyor. Vaka girişinde tam boy
+   görsel doğru — orası sahnenin açılışı. Kırk karar ekranında aynı boy
+   ekranı yutar ve sonuç metnini aşağı iter. Görseller yine dikey üretiliyor
+   (tek üretim hattı), burada kırpılarak gösteriliyor. */
+.gorsel-cerceve.ruh-bant img{max-height:34vh;object-fit:cover;object-position:center 40%}
 .gorsel{margin:14px 24px;border:1px solid var(--cizgi);border-radius:4px;
   background:linear-gradient(135deg,#24547e,#16304a);
   aspect-ratio:3/2;display:flex;flex-direction:column;align-items:center;justify-content:center;
@@ -954,6 +959,7 @@ function kararVerFaz(id){
   muzikCal('sonuc');
   const not = defterNotu(vid, id);
   let h = ust() + '<div class="faz">';
+  h += ruhGorseli(r.ruh);
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
   if(not) h += \`<div class="defter-not">\${not}</div>\`;
   h += hesapKutusu(r.ekonomi);
@@ -1012,6 +1018,32 @@ function hesapKutusu(e){
     h += \`<div class="kriz-kutu"><div class="b">\${k.ad}</div><div class="a">\${k.aciklama}</div></div>\`;
   }
   return h;
+}
+
+/* Karar mührünün ruh hâli: dört görselden biri, kararın kendi
+   cengoBag/para değerlerinden türüyor (motor.js/kararRuhHali).
+
+   Yer tutucu BASILMAZ: dört görsel gelene kadar bu bant hiç görünmez.
+   gorselHTML'in kesikli kutusu ipucu listesinde bilerek duruyor — orada
+   eksiği işaretliyor. Kırk karar ekranının her birinde aynı kutu ise
+   eksik işareti değil, gürültü olurdu.
+
+   Alt metinler yargı İÇERMEZ: "kirli karar" değil, kül tablası. Oyunun
+   oyuncuya not vermeme sözü metinde olduğu gibi görselde de geçerli. */
+const RUH_GORSEL = {
+  temiz:  { dosya: 'karar_temiz.jpg',  alt: 'sabaha karşı açılan bir pencere' },
+  bedel:  { dosya: 'karar_bedel.jpg',  alt: 'boşalmış bir çekmece, masada kalan az şey' },
+  bosluk: { dosya: 'karar_bosluk.jpg', alt: 'kapanmış bir dosya, sönmüş lamba' },
+  kirli:  { dosya: 'karar_kirli.jpg',  alt: 'kül tablasında sönmekte olan bir sigara' },
+};
+
+function ruhGorseli(ruh){
+  const g = RUH_GORSEL[ruh];
+  if(!g) return '';
+  const ad = g.dosya.replace('.jpg','');
+  const src = (typeof GORSELLER!=='undefined' && GORSELLER[ad]) ? GORSELLER[ad] : null;
+  if(!src) return '';
+  return \`<div class="gorsel-cerceve giris-gorsel ruh-bant ruh-\${ruh}"><img src="\${src}" alt="\${g.alt}" loading="lazy"></div>\`;
 }
 
 function gorselHTML(g){
