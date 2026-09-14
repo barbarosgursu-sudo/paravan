@@ -42,9 +42,18 @@ Münevver'in yumuşak abajur ışığının AKSİNE:
 
 ## 3. Teknik / fırça
 
-**Koyu, gölgeli, soğuk yağlıboya.** Münevver yağlıboyaydı; onu noir'a çekiyoruz:
-daha koyu, daha az detay, daha çok gölge. Tek teknik = 40+ görselde tutarlılık garantisi.
-Yağlıboyanın sıcaklığı, tamamen soğuk noir'ı insani tutar (hüzünlü + tekinsiz + sıcak dengesi).
+> **DÜZELTME (2. tur).** Bu bölüm önce "koyu yağlıboya" diyordu. Üretime geçerken
+> `gorsel_promptlari.md`'deki çekirdek **foto-gerçekçi sinematik render**'a döndü ve
+> eldeki 33 görselin hepsi o ağızdan çıktı. Bağlayıcı olan uygulamadır; sözleşme
+> ona uyduruldu. Yeni görsel siparişleri yağlıboya DEĞİL, aşağıdaki teknikle verilir.
+
+**Foto-gerçekçi, sinematik, atmosferik dijital render — bir film karesi.** Sinematik renk
+derecelendirmesi, hafif film greni, gerçekçi dokular; dört köşesi hafif karanlığa düşen
+kadraj. Tek teknik = 60+ görselde tutarlılık garantisi. Gerçekçiliğin sıcaklığı, tamamen
+soğuk noir'ı insani tutar (hüzünlü + tekinsiz + sıcak dengesi).
+
+**Koyuluk dengesi:** SAHNE ve KANIT görselleri koyu-atmosferik olabilir; PORTRELER biraz
+daha aydınlık ve okunur olmalı — yandan ışık ve yarı gölge sürer, ama yüz kaybolmaz.
 
 ---
 
@@ -112,6 +121,15 @@ görsel olarak göremez.
 **Örnek (V2):** İlyas V2'de tahsildar olarak görünür ama görseli yalnızca "yorgun bir adam"
 gösterir — truth'ta `ilyas_cinayet = YOK` olduğu için, V2 görseli hiçbir tehlike/cinayet
 iması taşıyamaz (karanlık ışık, tehditkâr poz vb. YASAK).
+
+### 7b. Giriş sahnesinde yüz seçilmez
+
+Vakanın açılış görseli müvekkili **duruşuyla** anlatır, yüzüyle değil: kapıda duran bir
+silüet, eğik omuzlar, elde bir çanta. Yüz, o kişiyi tanıtan **ipucuna** aittir.
+
+Bu bir estetik tercih değil, §7'nin aynısı: giriş metni oyuncuya henüz bir yüz
+kazandırmamıştır. `yana_giris_b` (Nadire kapıda, yüzü seçilmiyor) ile `portre_nadire`
+(ipucuyla açılan yüz) ayrımı bu kuralın kaynağıdır ve sürdürülür.
 
 **Doğrulayıcıya ek (Kural 1 genişletme):** Her görsel, bağlı clue'nun `reveals`ine
 etiketlenir. Görsel bir kanon yüzü/olguyu gösteriyorsa, o yüz/olgu clue'nun `needs ∪ reveals`
