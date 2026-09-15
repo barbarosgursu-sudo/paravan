@@ -287,6 +287,200 @@ sönmemiş közden geliyor. Ağır, bayat, huzursuz.
 
 ---
 
+# PAKET 1-DÜZELTME — süreklilik onarımı (5 görsel)
+
+İlk tur gömüldükten sonra üç kırık çıktı. İkisi süreklilik, biri Nurcan.
+
+**1. `yanc_ayla_hayat` — Nurcan sızıntısı.** Gömülen görselde pencereden panoramik
+Haliç/cami manzarası görünüyor. `ayla_kim` ile `izi_sur` **kardeş ipuçları** —
+ikisinin de tek koşulu `kadin_adi`, biri ötekini gerektirmiyor. Yani oyuncu
+`ayla_yeri`'ni hak etmeden `ayla_kim`'i açabiliyor ve manzara ona semti veriyor.
+Ayrıca daire yeni yapı; `yanc_sokak`'taki eski apartmanla aynı dünyada değil.
+→ Perde kapalı, manzara yok, bina eski.
+
+**2. Karar seti — palto ve çekmece tutarsızlığı.** Dört görsel aynı odada geçiyor
+ama `karar_temiz`'de askıda trençkot var, ötekilerde askı boş. Dahası açık çekmece
+`bedel`'in ayırt edici motifi olması gerekirken `bosluk` ve `kirli`de de duruyor;
+üç ekran birbirine benziyor, fark lamba ile sigaraya kalıyor.
+→ `karar_temiz` çıpa kabul edilir, diğer üçü onun odasına uydurulur: palto üçünde
+de askıda, çekmece yalnızca `bedel`'de açık.
+
+**3. `portre_dolandirici` — yüz karışması.** Bıyıklı, koyu montlu, kırk beş yaşında
+bir adam; `portre_ilyas_v2` ve `portre_vedat` de öyle. Sette bu tipten üç kişi
+olunca oyuncu tereddüt ediyor.
+→ Bıyıksız, farklı yapı, farklı kıyafet sınıfı.
+
+---
+
+## D1. `yanc_ayla_hayat.jpg` — `ayla_kim` ipucu (yeniden)
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke kapalı perdenin ardından sızan geç öğleden sonra ışığının soluk kehribar
+çizgisi; görselin en fazla %20'si sıcak. Işık yandan ve yumuşak gelir; odanın yarısı
+gölgede. Sinematik renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey
+(portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Eski bir İstanbul apartman dairesinin içi — yüksek tavan, yıpranmış ama tertemiz
+silinmiş parke, kalın kat kat boyanmış duvarlar, köşede eski bir radyatör. Küçük ve son
+derece düzenli tek kişilik bir hayatın izleri: tek bardak, tek tabak, tek sandalye, masada
+tek kişilik bir örtü; her şey tam yerinde, hiçbir şey fazla. Ahşap çerçeveli uzun pencerenin
+ince perdesi tamamen çekili — dışarısı görünmüyor, yalnızca perdenin ardından soluk bir ışık
+sızıyor. Kapının arkasında ikinci bir sürgü ve bir emniyet zinciri. Duvarlar çıplak: hiçbir
+fotoğraf, hiçbir hatıra, hiçbir davetiye, hiçbir takvim. Köşede küçük bir mutfak tezgâhı,
+üstünde tek bir çaydanlık. Kimse yok. Yıllardır aynı düzenle sürdürülen, kimseyi içeri
+almayan, adı konmamış bir saklanma hâli. Sessiz, temiz, yalnız. Hüzünlü ama onurlu bir
+dinginlik.
+```
+
+*Kısıt:* `ayla_hayati`. **Pencereden hiçbir şey görünmeyecek** — cami, Haliç, deniz,
+tanınır silüet, karşı bina, çatı manzarası yasak; `ayla_kim` yer bilgisi vermiyor ve
+`izi_sur`suz açılabiliyor. Bina **eski İstanbul apartmanı**, `yanc_sokak`'taki cepheyle
+aynı dünya: yeni yapı, panoramik cam, lüks manzara yasak. Ayla'nın yüzü yok. Korku ya da
+kaçış sahnesi değil; düzenli bir hayat. Kapı sürgüsü tek ipucu, o kadarı yeter.
+
+---
+
+## KARAR SETİ — üçü için ortak oda künyesi
+
+D2, D3, D4'ün üçünde de aşağıdaki oda birebir aynı kalır; yalnızca son paragraf değişir.
+Çıpa `karar_temiz.jpg`'dir (gömülü, değişmiyor) — üçü onun odası gibi durmalı.
+
+> Oda: Eski bir İstanbul bürosu. Solda metal bir evrak dolabı, üstünde üst üste kâğıtlar.
+> Dolabın üstündeki duvarda İstanbul limanını gösteren siyah-beyaz çerçeveli bir baskı;
+> onun altında ahşap bir askılık ve **askıda asılı duran bir trençkot**. Masa koyu, yıpranmış
+> ahşap; sol kenarında pirinç gövdeli, yarım küre abajurlu bir masa lambası, bir kalemlik,
+> bir yığın dosya, bir kül tablası. Masanın arkasında siyah deri bir çalışma koltuğu. Sağda
+> tavana kadar uzanan pencere: önünde tül, kenarında ağır perde, altında dökme demir
+> radyatör; camdan gece İstanbul'u ve uzakta bir vapur. Yerde desenli eski bir halı.
+> Kimse yok. Kamera masanın köşesinden, hafif alçak açıyla bakar.
+
+---
+
+## D2. `karar_bedel.jpg` — `bedel` ruh hâli (yeniden)
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke masa lambasının dar kehribar konisi; görselin en fazla %20'si sıcak. Işık
+yandan gelir; odanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film greni,
+gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf
+ya da rakam olmasın.
+Konu: Eski bir İstanbul bürosu. Solda metal bir evrak dolabı, üstünde üst üste kâğıtlar;
+dolabın üstündeki duvarda İstanbul limanını gösteren siyah-beyaz çerçeveli bir baskı, onun
+altında ahşap bir askılık ve askıda asılı duran bir trençkot. Masa koyu, yıpranmış ahşap;
+sol kenarında pirinç gövdeli, yarım küre abajurlu bir masa lambası, bir kalemlik, bir yığın
+dosya, bir kül tablası. Masanın arkasında siyah deri bir çalışma koltuğu. Sağda tavana kadar
+uzanan pencere: önünde tül, kenarında ağır perde, altında dökme demir radyatör; camdan gece
+İstanbul'u ve uzakta bir vapur. Yerde desenli eski bir halı. Kimse yok. Kamera masanın
+köşesinden, hafif alçak açıyla bakar.
+Bu karede: masanın çekmecesi açık ve neredeyse boş — içinde birkaç madenî para, katlanmış
+tek bir kâğıt para, bir de eski bir makbuz koçanı. Çekmecenin üstünde, masada kapanmış bir
+dosya duruyor; iş bitmiş. Lamba yanıyor ama ışığı dar. Acıma yok, dram yok; verilmiş bir
+şeyin sessiz boşluğu. Dik durmayı bilen bir yoksulluk. Hüzünlü ama onurlu.
+```
+
+*Kısıt:* Yargı yok, vakaya ait nesne yok, insan yok. Kâğıt paranın üstünde okunur hiçbir
+rakam ya da desen olmayacak — yıpranmış, solmuş, yüzü seçilmeyen bir kâğıt. Makbuz koçanı
+yalnızca çizgi ve kırışıklıkla anlatır; başlık, sütun yazısı, el yazısı yok.
+
+---
+
+## D3. `karar_bosluk.jpg` — `bosluk` ruh hâli (yeniden)
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: neredeyse tamamen soğuk kurşuni gri ve gece laciverti (asla saf siyah
+değil); sıcak leke en aza inmiş — yalnızca pencerenin çok ötesinde, uzaktaki bir sokak
+lambasının soluk kehribarı. Işık zayıf ve yandan gelir; odanın çoğu gölgede. Sinematik renk
+derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
+Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Eski bir İstanbul bürosu. Solda metal bir evrak dolabı, üstünde üst üste kâğıtlar;
+dolabın üstündeki duvarda İstanbul limanını gösteren siyah-beyaz çerçeveli bir baskı, onun
+altında ahşap bir askılık ve askıda asılı duran bir trençkot. Masa koyu, yıpranmış ahşap;
+sol kenarında pirinç gövdeli, yarım küre abajurlu bir masa lambası, bir kalemlik, bir yığın
+dosya, bir kül tablası. Masanın arkasında siyah deri bir çalışma koltuğu. Sağda tavana kadar
+uzanan pencere: önünde tül, kenarında ağır perde, altında dökme demir radyatör; camdan gece
+İstanbul'u ve uzakta bir vapur. Yerde desenli eski bir halı. Kimse yok. Kamera masanın
+köşesinden, hafif alçak açıyla bakar.
+Bu karede: masadaki abajur SÖNMÜŞ, odanın tek ışığı pencereden gelen zayıf gece aydınlığı.
+Masanın bütün çekmeceleri kapalı. Kapanmış bir dosya masanın tam ortasında duruyor, üstünde
+hiçbir şey yok. Koltuk geri itilmiş, biri kalkıp gitmiş. Kenarda bir bardak, dibinde birkaç
+yudum kalmış soğumuş çay. Hava durgun, toz askıda. Ne rahatlama ne pişmanlık — bir şey bitti
+ama hiçbir şey çözülmedi. Nötr, durgun, tuhaf biçimde sessiz. Boşluğun kendisi.
+```
+
+*Kısıt:* Çekmece **kapalı** olacak — açık çekmece `bedel`'in işareti, burada tekrarı
+ikisini birbirine benzetiyor. Lamba kesinlikle sönük. Yargı yok, insan yok.
+
+---
+
+## D4. `karar_kirli.jpg` — `kirli` ruh hâli (yeniden)
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke kül tablasındaki sigara közünün küçük turuncu noktası ve lambanın masaya
+düşen fazla sert kehribar lekesi; görselin en fazla %20'si sıcak. Işık tek kaynaktan, sert
+ve yandan; odanın yarısı karanlıkta. Sinematik renk derecelendirmesi, hafif film greni,
+gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf
+ya da rakam olmasın.
+Konu: Eski bir İstanbul bürosu. Solda metal bir evrak dolabı, üstünde üst üste kâğıtlar;
+dolabın üstündeki duvarda İstanbul limanını gösteren siyah-beyaz çerçeveli bir baskı, onun
+altında ahşap bir askılık ve askıda asılı duran bir trençkot. Masa koyu, yıpranmış ahşap;
+sol kenarında pirinç gövdeli, yarım küre abajurlu bir masa lambası, bir kalemlik, bir yığın
+dosya. Masanın arkasında siyah deri bir çalışma koltuğu. Sağda tavana kadar uzanan pencere:
+önünde tül, kenarında ağır perde, altında dökme demir radyatör; camdan gece İstanbul'u ve
+uzakta bir vapur. Yerde desenli eski bir halı. Kimse yok. Kamera masanın köşesinden, hafif
+alçak açıyla bakar.
+Bu karede: gece geç saat. Masanın bütün çekmeceleri kapalı. Masanın üstünde dolu bir kül
+tablası ve kenarına bırakılmış, kimse çekmediği hâlde filtresine kadar yanmış bir sigara —
+ince bir duman hâlâ yükseliyor. Yanında kapanmış bir dosya. Lamba ışığı masaya olması
+gerekenden biraz fazla sert düşüyor. Odanın bir köşesi tamamen karanlık ve göz oraya gitmek
+istemiyor. Kan YOK, silah YOK, şiddet YOK, korku öğesi YOK — hiçbir melodram yok. Rahatsızlık
+yalnızca beklemekten ve sönmemiş közden geliyor. Ağır, bayat, huzursuz.
+```
+
+*Kısıt:* Çekmece **kapalı**. Yargı yok: görselin hiçbir yerinde "bu kötü bir karardı" diyen
+bir işaret olmayacak; rahatsızlık yalnızca közden ve bekleyen sigaradan gelecek.
+
+---
+
+## D5. `portre_dolandirici.jpg` — `dolandirici_iz` ipucu (yeniden)
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke arkadaki bir vitrin ışığının soluk kehribarı; görselin en fazla %20'si sıcak.
+Işık yandan gelir, yüzün yarısı gölgede kalır — ama yüz kaybolmaz, ifade net seçilir.
+Sinematik renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü)
+kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Kırk beş yaşlarında, tamamen sıradan görünen bir adamın portresi. Tıraşlı, bıyıksız,
+sakalsız; yuvarlakça bir yüz, seyrelmiş saç, ince çerçeveli bir gözlük. Ucuz ama parlak
+kumaştan açık renk bir takım ceket ve gevşek bağlanmış bir kravat — özenilmiş ama ucuzluğu
+belli. Fazla gülümseyen bir yüz, insana güven vermeye çalışan bir ifade ve gözlerinde
+sürekli bir hesap. Kalabalıkta hatırlanmayacak kadar silik; tarif edilse kimse bulamaz.
+Zengin değil, tehlikeli de değil; batmış insanların etrafında dolaşıp küçük paralar toplayan
+biri. Bayat bir samimiyet. Soğuk, silik, hafifçe mide bulandırıcı.
+```
+
+*Kısıt:* `dolandirici_kim`. Nadire'ye benzemeyecek. Ayrıca **`portre_ilyas_v2` ve
+`portre_vedat` ile karışmayacak**: bıyık yok, koyu mont/parka yok, kasvetli-yorgun işçi
+tipi yok. Ayırt edici yön tıraşlı yüz + gözlük + ucuz parlak takım. Arkadaki vitrinde
+okunur hiçbir tabela, etiket, fiyat olmayacak.
+
+---
+
+## İSTEĞE BAĞLI — `yanc_sokak.jpg` (yeniden)
+
+Gömülü sürümde beyaz sedanın iki plakası, cam çıkartması ve parmaklık ardındaki yazı şeridi
+yerel bulanıklıkla silindi; oyun boyunda görünmüyor ve kural ihlali kalmadı. Rötuşsuz bir
+asıl isteniyorsa aynı prompt **araçsız** tekrarlanır: `gorsel_promptlari_2.md` Paket 1 / 5.
+maddedeki metne "Sokakta hiç araç yok — park etmiş araba, motosiklet, plaka, tabela yok;
+yalnızca ıslak asfalt, birkaç saksı ve bir kedi." cümlesi eklenir.
+
+---
+
 # SIRADAKİ PAKETLER (henüz yazılmadı)
 
 | Paket | Kapsam | Yeni görsel |
