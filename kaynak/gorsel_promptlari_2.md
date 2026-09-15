@@ -172,7 +172,7 @@ Yanlış kişiyi suçlayan bir görsel. Slot şimdilik yer tutucuya alındı, do
 ```
 Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
 karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
-tek sıcak leke arkadaki bir vitrin ya da tabela ışığının soluk kehribarı; görselin en fazla
+tek sıcak leke arkadaki eski, soluk bir dükkân vitrininin kehribarı; görselin en fazla
 %20'si sıcak. Işık yandan gelir, yüzün yarısı gölgede kalır — ama yüz kaybolmaz, ifade net
 seçilir. Sinematik renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey
 (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
@@ -305,6 +305,14 @@ birbirine benziyor.
 **3. `portre_dolandirici` — yüz karışması.** Bıyıklı, koyu montlu, kırk beş yaşında bir adam;
 `portre_ilyas_v2` ve `portre_vedat` de öyle.
 
+**Büronun mimarisi kanon, dokunulmuyor.** D2–D4'ün odası `prolog_masa`, `yanc_giris`,
+`yana_giris` ve `karar_temiz` ile birlikte dört gömülü görselde tanımlı: uzun pencere, arkada
+Haliç, geniş ahşap masa, tek lamba. "Dar, tek odalı, zemin küçük" istemi Ayla'nın dairesine
+aittir (D1) ve büroya taşınamaz — taşınırsa dördüyle birden kopar. Notun eskilik/yoksulluk
+yükü ise mobilya çıkarmadan, yıpranma diliyle uygulanmıştır: yıpranmış masa, boyası çatlamış
+duvar, çizilmiş dolap, solmuş halı. Büroyu gerçekten daraltmak istenirse `karar_temiz` dahil
+dört gömülü görselin de yeniden üretilmesi gerekir.
+
 **Siparişlerin kalıbı bozulmadı:** her biri kendi orijinalinin aynısıdır, yalnızca kırığı
 düzelten cümleler değişmiştir. `karar_temiz` **çıpadır, yeniden üretilmez** — D2/D3/D4 için
 onu referans görsel olarak eklemek, üçünü aynı odada tutmanın en kısa yolu.
@@ -350,8 +358,9 @@ tek sıcak leke masa lambasının dar kehribar konisi; görselin en fazla %20'si
 yandan gelir; odanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film greni,
 gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf
 ya da rakam olmasın.
-Konu: Aynı loş büro, aynı masa — koyu ahşap masa, pirinç gövdeli yarım küre abajur, arkada
-deri koltuk, sağda tülü çekili uzun pencere, solda evrak dolabı. Bir çekmece açık ve
+Konu: Aynı loş büro, aynı masa — eski ve yorgun bir yer: yıpranmış koyu ahşap masa, boyası
+çatlamış duvarlar, pirinç gövdeli yarım küre abajur, arkada eskimiş deri koltuk, sağda tülü
+çekili uzun pencere, solda çizilmiş metal evrak dolabı, yerde solmuş eski bir halı. Bir çekmece açık ve
 neredeyse boş; içinde birkaç madenî para, katlanmış tek bir kâğıt para, bir de eski bir
 makbuz koçanı. Çekmecenin yanında kapanmış bir dosya duruyor — iş bitmiş. Duvardaki askıda
 bir trençkot asılı duruyor. Kimse yok. Acıma yok, dram yok; verilmiş bir şeyin sessiz
@@ -373,9 +382,10 @@ değil); sıcak leke en aza inmiş — yalnızca uzakta, pencerenin ötesindeki 
 çok soluk kehribarı. Işık zayıf ve yandan gelir; odanın çoğu gölgede. Sinematik renk
 derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
 Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
-Konu: Aynı büro, gece — koyu ahşap masa, pirinç gövdeli yarım küre abajur, arkada deri
-koltuk, sağda tülü çekili uzun pencere, solda evrak dolabı, duvardaki askıda asılı bir
-trençkot. Masadaki abajur SÖNMÜŞ. Masanın bütün çekmeceleri kapalı. Kapanmış bir dosya tam
+Konu: Aynı büro, gece — eski ve yorgun bir yer: yıpranmış koyu ahşap masa, boyası çatlamış
+duvarlar, pirinç gövdeli yarım küre abajur, arkada eskimiş deri koltuk, sağda tülü çekili
+uzun pencere, solda çizilmiş metal evrak dolabı, yerde solmuş eski bir halı, duvardaki
+askıda asılı bir trençkot. Masadaki abajur SÖNMÜŞ. Masanın bütün çekmeceleri kapalı. Kapanmış bir dosya tam
 ortada duruyor, üstünde hiçbir şey yok. Koltuk geri itilmiş, biri kalkıp gitmiş. Bir bardak
 dibinde soğumuş çay. Hava durgun, toz askıda. Ne rahatlama ne pişmanlık — bir şey bitti ama
 hiçbir şey çözülmedi. Nötr, durgun, tuhaf biçimde sessiz. Boşluğun kendisi.
@@ -396,9 +406,10 @@ düşen fazla sert kehribar lekesi; görselin en fazla %20'si sıcak. Işık tek
 ve yandan; odanın yarısı karanlıkta. Sinematik renk derecelendirmesi, hafif film greni,
 gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf
 ya da rakam olmasın.
-Konu: Aynı büro, gece geç saat — koyu ahşap masa, pirinç gövdeli yarım küre abajur, arkada
-deri koltuk, sağda tülü çekili uzun pencere, solda evrak dolabı, duvardaki askıda asılı bir
-trençkot. Masanın bütün çekmeceleri kapalı. Masanın üstünde dolu bir kül tablası ve kenarına
+Konu: Aynı büro, gece geç saat — eski ve yorgun bir yer: yıpranmış koyu ahşap masa, boyası
+çatlamış duvarlar, pirinç gövdeli yarım küre abajur, arkada eskimiş deri koltuk, sağda tülü
+çekili uzun pencere, solda çizilmiş metal evrak dolabı, yerde solmuş eski bir halı,
+duvardaki askıda asılı bir trençkot. Masanın bütün çekmeceleri kapalı. Masanın üstünde dolu bir kül tablası ve kenarına
 bırakılmış, kimse çekmediği hâlde filtresine kadar yanmış bir sigara — ince bir duman hâlâ
 yükseliyor. Yanında kapanmış bir dosya. Lamba ışığı masaya olması gerekenden biraz fazla
 sert düşüyor. Odanın bir köşesi tamamen karanlık ve göz oraya gitmek istemiyor. Kan YOK,
@@ -416,13 +427,14 @@ olmayacak; rahatsızlık yalnızca közden ve bekleyen sigaradan gelecek.
 ```
 Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
 karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
-tek sıcak leke arkadaki bir vitrin ya da tabela ışığının soluk kehribarı; görselin en fazla
+tek sıcak leke arkadaki eski, soluk bir dükkân vitrininin kehribarı; görselin en fazla
 %20'si sıcak. Işık yandan gelir, yüzün yarısı gölgede kalır — ama yüz kaybolmaz, ifade net
 seçilir. Sinematik renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey
 (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
 Konu: Kırk beş yaşlarında, tamamen sıradan görünen bir adamın portresi. Tıraşlı, bıyıksız,
 sakalsız; yuvarlakça bir yüz, seyrelmiş saç, ince çerçeveli bir gözlük. Ucuz ama parlak
-kumaştan açık renk bir takım ceket ve gevşek bağlanmış bir kravat, fazla gülümseyen bir yüz,
+kumaştan, omuzları oturmamış açık renk bir takım ceket ve yıllanmış, gevşek bağlanmış bir
+kravat, fazla gülümseyen bir yüz,
 insana güven vermeye çalışan bir ifade — ve gözlerinde sürekli bir hesap. Kalabalıkta
 hatırlanmayacak kadar silik; tarif edilse kimse bulamaz. Zengin değil, tehlikeli de değil;
 batmış insanların etrafında dolaşıp küçük paralar toplayan biri. Bayat bir samimiyet.
