@@ -287,7 +287,7 @@ sönmemiş közden geliyor. Ağır, bayat, huzursuz.
 
 ---
 
-# PAKET 1-DÜZELTME — süreklilik onarımı (5 görsel)
+# PAKET 1-DÜZELTME — süreklilik onarımı (5 görsel) — **GÖMÜLDÜ**
 
 İlk tur gömüldükten sonra üç kırık çıktı. İkisi süreklilik, biri Nurcan.
 
