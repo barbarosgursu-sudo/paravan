@@ -320,20 +320,24 @@ tek sıcak leke çekili perdenin ardından sızan geç öğleden sonra ışığ�
 görselin en fazla %20'si sıcak. Işık yandan ve yumuşak gelir; odanın yarısı gölgede.
 Sinematik renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü)
 kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
-Konu: Eski bir İstanbul apartmanında, küçük ve son derece düzenli bir dairenin içi — yüksek
-tavan, yıpranmış ama tertemiz silinmiş parke. Tek kişilik bir hayatın izleri: tek bardak,
-tek tabak, tek sandalye; her şey tam yerinde. Kapının arkasında ikinci bir sürgü. Pencerenin
-perdesi tamamen çekili — dışarısı görünmüyor, yalnızca perdenin ardından soluk bir ışık
-sızıyor. Hiçbir fotoğraf, hiçbir hatıra, hiçbir davetiye yok — duvarlar çıplak. Kimse yok.
-Yıllardır aynı düzenle sürdürülen, kimseyi içeri almayan, adı konmamış bir saklanma hâli.
-Sessiz, temiz, yalnız. Hüzünlü ama onurlu bir dinginlik.
+Konu: Eski bir İstanbul apartmanında, dar ve tek odalı bir dairenin içi — tavan yüksek ama
+zemin küçük, yıpranmış ama tertemiz silinmiş parke. Eşya az ve eski: yıllanmış küçük bir
+masa, tek sandalye, masada tek bardak ve tek tabak; her şey tam yerinde, hiçbir şey fazla.
+Şık ya da yeni hiçbir mobilya YOK; ayrı salon, geniş hol, gösterişli konsol YOK — oda tek.
+Kapının arkasında ikinci bir sürgü. Pencerenin perdesi tamamen çekili — dışarısı görünmüyor,
+yalnızca perdenin ardından soluk bir ışık sızıyor. Hiçbir fotoğraf, hiçbir hatıra, hiçbir
+davetiye yok — duvarlar çıplak. Kimse yok. Yıllardır aynı düzenle sürdürülen, kimseyi içeri
+almayan, adı konmamış bir saklanma hâli. Sessiz, temiz, yalnız. Hüzünlü ama onurlu bir
+dinginlik.
 ```
 
 *Kısıt:* `ayla_hayati`. Ayla'nın **yüzü yok**. Korku ya da kaçış sahnesi değil; düzenli bir
 hayat. Kapı sürgüsü tek ipucu, ve o kadarı yeter. **Pencereden hiçbir şey görünmeyecek** —
 cami, Haliç, deniz, tanınır silüet, karşı bina yasak: `ayla_kim` yer bilgisi vermiyor ve
 `izi_sur`suz açılabiliyor. Bina eski, `yanc_sokak`'taki cepheyle aynı dünya; yeni yapı,
-panoramik cam, lüks manzara yasak.
+panoramik cam, lüks manzara yasak. **Ölçek de ipucunun parçası:** ilk denemede daire ferah
+ve zevkli çıktı — üç yıldır işten eve gidip gelen, kimseyle görüşmeyen bir kadının evi dar
+olacak, eşyası az ve eski.
 
 ---
 
