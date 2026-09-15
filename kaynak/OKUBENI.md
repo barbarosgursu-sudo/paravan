@@ -11,7 +11,10 @@ node dogrulayici.js && node build_html.js
 ```
 
 Derleme depo kökündeki `index.html`'i yeniden yazar. Görseller
-`_gomulu_gorseller.js`'ten okunur (33 görsel, base64) ve çıktıya gömülür.
+`_gomulu_gorseller.js`'ten okunur (34 görsel, **WebP q80**, base64) ve çıktıya
+gömülür. Biçim JPEG'den WebP'ye geçti: aynı çözünürlükte yarı boyut, gözle fark yok.
+Veride dosya adları hâlâ `foo.jpg` — o yalnızca bir anahtar, gerçek biçim data URI'nin
+içinde.
 
 Doğrulayıcı veri dosyasını bulamazsa hata koduyla çıkar; yani doğrulama
 koşmadan derleme yapılmaz.
@@ -25,7 +28,7 @@ koşmadan derleme yapılmaz.
 - `prolog.json`         → açılış (6 kart)
 - `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
 - `build_html.js`       → derleyici (**DEV_MOD satırı burada — şu an `false`**)
-- `_gomulu_gorseller.js`→ 33 görsel, base64 (derlemenin girdisi)
+- `_gomulu_gorseller.js`→ 34 görsel, WebP/base64 (derlemenin girdisi)
 - `vaka2-6.json`, `yan_a/b.json` → tekil vaka yedekleri (game_data.json asıldır)
 - `test_*.js`           → testler
 - `*.md`                → tasarım sözleşmeleri (doğrulayıcı, Cengo bağı, görsel, veri formatı)
