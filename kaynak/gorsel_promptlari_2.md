@@ -19,7 +19,7 @@ Tek biçim: dikey (portre yönlü), ~760–900 px genişlik. Gömerken WebP q80'
 
 ---
 
-# PAKET 1 — YAN-C "Adres" (6 görsel)
+# PAKET 1 — YAN-C "Adres" (6 görsel) — **GÖMÜLDÜ** (`yanc_sokak` plaka rötuşuyla)
 
 Oyunun tek tamamen görselsiz vakası. Borç 80.000 ₺'yi geçince beliriyor: Hulki adında sakin
 bir adam bir kadının adresini istiyor. **Vakanın kalbi belirsizlik** — Hulki'nin niyeti
@@ -161,7 +161,7 @@ ve o kadarı yeter.
 
 ---
 
-# PAKET 1-EK — YAN-B düzeltmesi (1 görsel)
+# PAKET 1-EK — YAN-B düzeltmesi (1 görsel) — **GÖMÜLDÜ**
 
 ## 7. `portre_dolandirici.jpg` — `dolandirici_iz` ipucu
 
@@ -188,7 +188,7 @@ Erkek olması zorunlu değil ama **Nadire'ye benzememesi** zorunlu.
 
 ---
 
-# PAKET 6 — KARAR EKRANI RUH HÂLLERİ (4 görsel)
+# PAKET 6 — KARAR EKRANI RUH HÂLLERİ (4 görsel) — **GÖMÜLDÜ**
 
 Kırk karar ekranı, dört görsel. Hangi kararın hangi görseli aldığı **elle atanmıyor** —
 kararın kendi `cengoBag` ve `para` değerlerinden türüyor (`motor.js/kararRuhHali`):

@@ -64,11 +64,13 @@ UI değişikliği Playwright + Chromium ile tarayıcıda doğrulanır:
 
 Metin, mantık ve ekonomi **bitti**. Kalan iki iş:
 
-1. **Görseller.** 34 gömülü görsel, WebP q80, `_gomulu_gorseller.js` içinde base64.
+1. **Görseller.** 44 gömülü görsel, WebP q80, `_gomulu_gorseller.js` içinde base64.
    Hedef 63 slot. Sipariş metinleri `kaynak/gorsel_promptlari_2.md` içinde; kalıp,
-   tek parça kopyala-yapıştır promptlar. Bekleyen: YAN-C'den 5, `portre_dolandirici`
-   (YAN-B'de yer tutucu duruyor), karar ekranının 4 ruh hâli.
-   Gelen görsel 900 px genişliğe indirilip WebP q80 ile gömülür.
+   tek parça kopyala-yapıştır promptlar. Paket 1 (YAN-C), 1-EK (`portre_dolandirici`)
+   ve Paket 6 (karar ruh hâlleri) gömüldü; bekleyen Paket 2-5, 19 görsel.
+   Gelen görsel 900 px genişliğe indirilip WebP q80 ile gömülür. Gömmeden önce üç
+   kontrol: mevcut setle parlaklık karşılaştırması, büyütülmüş harf/rakam taraması
+   (plaka, tabela, etiket), ve slotun `gosterir`ine karşı Nurcan kontrolü.
 2. **Ses.** `ses/*.wav` 13 sentetik yer tutucu. Sipariş metinleri
    `kaynak/ses_promptlari.md`, silinecek not `ses/GECICI.md`.
 

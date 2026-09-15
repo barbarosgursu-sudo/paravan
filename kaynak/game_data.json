@@ -1370,7 +1370,14 @@
           ],
           "text": "Hulki ismi zorlanmadan verir: Ayla. 'Eski karım' der. 'Ailevi bir mesele.'",
           "meta": "İsmi saklamıyor. Ya saklayacak bir şeyi yok, ya da saklamanın gereksiz olduğunu biliyor.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "portre_hulki.jpg",
+            "tur": "portre",
+            "gosterir": [
+              "Hulki"
+            ],
+            "alt": "sakin, bakımlı bir adamın yüzü"
+          }
         },
         {
           "id": "hulki_kim",
@@ -1385,7 +1392,14 @@
           ],
           "text": "Hulki bu işi ilk kez yaptırmıyor. Aynı adres birkaç kez, birkaç kişiye soruldu.",
           "meta": "Demek arıyor ve bulamıyor. Ya da buluyor ve yine arıyor.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "yanc_iz.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "hulki_gecmis"
+            ],
+            "alt": "birbirinin benzeri büro kapıları, aşınmış bir koridor"
+          }
         },
         {
           "id": "adli_kayit",
@@ -1400,7 +1414,14 @@
           ],
           "text": "Kayıt kısa: Ayla'nın talebiyle, Hulki'ye karşı uzaklaştırma kararı. Yürürlükte.",
           "meta": "Mahkeme bu adamın o kadına yaklaşmasını yasakladı. Adam da senden onun kapısını istiyor.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "yanc_adli.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "uzaklastirma"
+            ],
+            "alt": "arşiv masasında açık duran ince bir dosya"
+          }
         },
         {
           "id": "izi_sur",
@@ -1415,7 +1436,14 @@
           ],
           "text": "İz taze: bir semt, bir sokak, üçüncü kat. Ayla orada, bir başına yaşıyor.",
           "meta": "Artık elinde. Bu satır bir kâğıda yazıldığı an senden çıkıp başka bir şeye dönüşür.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "yanc_sokak.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "ayla_yeri"
+            ],
+            "alt": "akşam saatinde sıradan bir sokak, üst katta yanan tek pencere"
+          }
         },
         {
           "id": "ayla_kim",
@@ -1430,7 +1458,14 @@
           ],
           "text": "Bir hayatı var: üç yıldır aynı işte, aynı semtte. İşten eve, evden işe. Kimseyle görüşmüyor, kimseyi eve almıyor. Yeni bir hayat değil bu — saklanmanın adı konmamış hâli.",
           "meta": "Artık bir isim değil, bir insan. Adresi yazmak bundan sonra daha zor olacak — ki zaten olması gereken bu.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "yanc_ayla_hayat.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "ayla_hayati"
+            ],
+            "alt": "tek kişilik, fazla düzenli bir daire"
+          }
         }
       ],
       "decisions": [
