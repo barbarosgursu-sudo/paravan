@@ -101,6 +101,10 @@
       "cengoBag": 1,
       "seed_yaz": {
         "final_karar": "cavit"
+      },
+      "cengo_etki": {
+        "muhur": 6,
+        "eger_kademe": "Yakın"
       }
     },
     {
@@ -139,6 +143,9 @@
       "cengoBag": 0,
       "seed_yaz": {
         "final_karar": "hepsi"
+      },
+      "cengo_etki": {
+        "ust_sinir": 2
       }
     }
   ],

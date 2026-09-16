@@ -290,5 +290,19 @@ console.log("\n=== KAYIT EKONOMİYİ TAŞIYOR ===");
   k("borç korundu", y.durum.borc === o.durum.borc);
 }
 
+
+console.log("\n=== KASA ŞERİDİ: icra takip masrafını sayıyor mu ===");
+{
+  // Üst şeritteki "kaç aylık gider karşılanıyor" ile karar ekranının kestiği rakam
+  // aynı kaynaktan gelmeli; eskiden kasaDurumu ham gideri okuyordu ve icra sürerken
+  // 12.000 ₺ eksik hesapla konuşuyordu.
+  const o = new Oyun(g);
+  const normal = o.kasaDurumu().aylikGider;
+  o.durum.kriz.kira = true;
+  const icrali = o.kasaDurumu().aylikGider;
+  k("icra sürerken kasa şeridi motorun kestiği rakamı gösteriyor", icrali === o.aylikGiderToplam());
+  k("icralı gider normalden büyük", icrali > normal);
+}
+
 console.log(hata ? `\n=== ${hata} BAŞARISIZ ===` : "\n=== EKONOMİ TESTİ TAMAM ===");
 process.exit(hata ? 1 : 0);

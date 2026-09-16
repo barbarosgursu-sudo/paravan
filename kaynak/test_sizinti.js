@@ -87,6 +87,10 @@ const IMA = [
   { kelimeler: ["İlyas gibi", "sıradan bir tahsildar için", "İlyas onun için"],
     olgular: ["ilyas_tahsildar", "ilyas_isim", "iten_ilyas", "zincir_tam"],
     aciklama: "İlyas'ın adının ve tahsildar olduğunun bilindiği" },
+
+  { kelimeler: ["şu tahsildar", "o tahsildar"],
+    olgular: ["ilyas_tahsildar"],
+    aciklama: "İlyas'ın tahsildar olduğunun V2'de görülmüş olduğu" },
 ];
 
 // ---------------------------------------------------------------------------

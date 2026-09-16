@@ -231,5 +231,17 @@ console.log("\n=== DÖRT BİLGİ DURUMU, DÖRT AYRI KAPANIŞ ===");
     /zinciriBiliyor[\s\S]{0,200}mimarlar gölgede/.test(ui));
 }
 
+
+console.log("\n=== FİNAL MÜHRÜ VERİDEN OKUNUYOR ===");
+{
+  // Mühür eskiden motorun içinde karar id'siyle sabitti; bir yeniden adlandırma
+  // onu sessizce çalışmaz hâle getirirdi. Artık decisions[].cengo_etki taşıyor.
+  const v6 = g.vakalar.find(v => v.id === "V6");
+  const etkili = v6.decisions.filter(d => d.cengo_etki);
+  k("V6'da cengo_etki taşıyan karar var", etkili.length > 0);
+  k("her cengo_etki ust_sinir ya da muhur tanımlıyor",
+    etkili.every(d => typeof d.cengo_etki.ust_sinir === "number" || typeof d.cengo_etki.muhur === "number"));
+}
+
 console.log("\n"+(hata===0?"=== V6 TEST TAMAM ===":"=== "+hata+" BAŞARISIZ ==="));
 process.exit(hata?1:0);

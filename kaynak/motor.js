@@ -282,6 +282,7 @@ class Oyun {
       o.durum.cengoBag = this.durum.cengoBag;
       o.durum.kaliciOlgular = [...(this.durum.kaliciOlgular || [])];
       o.durum.tamamlanan = [...this.durum.tamamlanan];
+      o.durum.para = this.durum.para; o.durum.borc = this.durum.borc;   // ücretli kaynak gerçekten alınabilir mi
       try { o.vakaBaslat(vaka.id); } catch (e) { return; }
       // Bütçeyi baştan kur ve açılışları yeniden oynat; harcamayı kaynakAc
       // kendisi düşürüyor. (İlk yazımda hem elle düşürüp hem oynatmıştım:
@@ -331,6 +332,7 @@ class Oyun {
       o.durum.cengoBag = this.durum.cengoBag;
       o.durum.kaliciOlgular = [...(this.durum.kaliciOlgular || [])];
       o.durum.tamamlanan = [...this.durum.tamamlanan];
+      o.durum.para = this.durum.para; o.durum.borc = this.durum.borc;   // ücretli kaynak gerçekten alınabilir mi
       try { o.vakaBaslat(vaka.id); } catch (e) { return; }
       for (const id of acilmis) if (o.kaynakAc(id).hata) return;
       if (cekirdekler.every(id => o.durum.aktif.acilanKaynaklar.has(id))) {
@@ -440,12 +442,15 @@ class Oyun {
     }
     // Bazı kaynaklar para ister (muhbire ödeme, kayıt satın alma). Kasa
     // yetmiyorsa kaynak KAPANIR — yoksulluk bilgiye erişimi kısıtlar.
+    // KAYIT YÜKLERKEN ücret yeniden düşülmez: kayıttaki para zaten düşülmüş hâl.
+    // Kasa denetimi de atlanır, yoksa parasını o kaynağa yatırmış oyuncunun kaydı
+    // "kasa yetmiyor" diye reddedilir ve ilerlemesi silinir.
     const ucret = c.ucret || 0;
-    if (ucret > this.durum.para) {
+    if (ucret && !this._yukleniyor && ucret > this.durum.para) {
       return { hata: "kasa yetmiyor — " + ucret.toLocaleString("tr-TR") + " ₺ gerekiyor" };
     }
     if (!bedava) a.arastirmaKalan -= 1;
-    if (ucret) { this.durum.para -= ucret; a.harcanan = (a.harcanan || 0) + ucret; }
+    if (ucret && !this._yukleniyor) { this.durum.para -= ucret; a.harcanan = (a.harcanan || 0) + ucret; }
     a.acilanKaynaklar.add(id);
     a.bilinen.add(id + "_acildi");                 // seed koşulları için işaret
     (c.reveals || []).forEach(r => a.bilinen.add(r));
@@ -558,9 +563,12 @@ class Oyun {
     }
 
     // Final mührü: kriz hesabından SONRA, ki aynı ay geri alınmasın.
-    if (finalDurumOnce !== null) {
-      if (id === "hepsini_ifsa") this.durum.cengoBag = Math.min(this.durum.cengoBag, 2);
-      if (id === "cavit_ver" && finalDurumOnce === "Yakın") this.durum.cengoBag = 6;
+    // Etki VERİDEN okunuyor (decisions[].cengo_etki); eskiden karar id'leri motorun
+    // içinde sabitti ve bir yeniden adlandırma mührü sessizce çalışmaz hâle getirirdi.
+    if (finalDurumOnce !== null && d.cengo_etki) {
+      const e = d.cengo_etki;
+      if (typeof e.ust_sinir === "number") this.durum.cengoBag = Math.min(this.durum.cengoBag, e.ust_sinir);
+      if (typeof e.muhur === "number" && (!e.eger_kademe || finalDurumOnce === e.eger_kademe)) this.durum.cengoBag = e.muhur;
     }
 
     let borcOdemesi = 0;
@@ -594,7 +602,9 @@ class Oyun {
 
   // Kasanın SAYISI kadar ANLAMI da gösterilmeli: "kaç ay dayanır?"
   kasaDurumu() {
-    const gider = giderToplam(this.game);
+    // İcra sürüyorsa takip masrafı da bu ayın gideri — üst şerit ile karar ekranı
+    // aynı rakamı söylemeli (aylikGiderler TEK KAYNAK).
+    const gider = this.aylikGiderToplam();
     const d = this.durum;
     const ay = gider > 0 ? d.para / gider : Infinity;
     let hal;
@@ -641,7 +651,8 @@ class Oyun {
       kaliciOlgular: [...(d.kaliciOlgular || [])],
       kriz: { ...(d.kriz || {}) },
       gecmis: { ...(d.gecmis || {}) },
-      aktif: d.aktif ? { id: d.aktif.id, acilan: [...d.aktif.acilanKaynaklar] } : null,
+      aktif: d.aktif ? { id: d.aktif.id, acilan: [...d.aktif.acilanKaynaklar],
+                         harcanan: d.aktif.harcanan || 0 } : null,
     };
   }
 
@@ -657,7 +668,7 @@ class Oyun {
         if (!this.game.vakalar.some(v => v.id === id)) throw new Error("kayıtta tanınmayan vaka: " + id);
       }
       this.durum = {
-        para: k.para ?? this.game.baslangic?.para ?? 2400,
+        para: k.para ?? ekonomiAl(this.game).baslangic_kasa,
         borc: k.borc ?? this.game.baslangic?.borc ?? 0,
         cengoBag: k.cengoBag ?? 0,
         seeds: { ...(k.seeds || {}) },
@@ -670,10 +681,14 @@ class Oyun {
       if (k.aktif) {
         if (!this.game.vakalar.some(v => v.id === k.aktif.id)) throw new Error("kayıttaki vaka yok: " + k.aktif.id);
         this.vakaBaslat(k.aktif.id);            // giriş varyantı tohumlardan yeniden seçilir
-        for (const cid of (k.aktif.acilan || [])) {
-          const r = this.kaynakAc(cid);
-          if (r.hata) throw new Error("kaynak geri yüklenemedi (" + cid + "): " + r.hata);
-        }
+        this._yukleniyor = true;                // ücretli kaynaklar ikinci kez ödenmesin
+        try {
+          for (const cid of (k.aktif.acilan || [])) {
+            const r = this.kaynakAc(cid);
+            if (r.hata) throw new Error("kaynak geri yüklenemedi (" + cid + "): " + r.hata);
+          }
+        } finally { this._yukleniyor = false; }
+        this.durum.aktif.harcanan = k.aktif.harcanan || 0;
       }
       return { ok: true };
     } catch (e) {

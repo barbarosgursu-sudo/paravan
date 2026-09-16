@@ -17,7 +17,7 @@ const html = `<!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Paravan Dedektiflik — Pilot Sezon</title>
 <style>
 /* ===== PARLAMENT MAVİSİ NOIR PALETİ ===== */
@@ -47,6 +47,7 @@ body{
 .marka small{display:block;font-size:8.5px;letter-spacing:4px;color:var(--duman);font-weight:normal}
 .ust-butonlar{display:flex;gap:8px}
 .ust-btn{background:var(--panel);border:1px solid var(--cizgi);color:var(--sonuk);
+  min-height:40px;display:inline-flex;align-items:center;
   border-radius:20px;padding:6px 13px;font-family:inherit;font-size:12px;cursor:pointer;
   display:flex;align-items:center;gap:5px;transition:all .15s}
 .ust-btn:hover{border-color:var(--kehribar);color:var(--metin)}
@@ -94,7 +95,7 @@ body{
 
 /* ===== ARAŞTIRMA FAZI ===== */
 .faz-etiket{padding:20px 24px 4px;display:flex;justify-content:space-between;align-items:center}
-.kasa-serit{display:flex;justify-content:space-between;align-items:center;
+.kasa-serit{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;
   padding:9px 24px;background:rgba(15,35,56,.6);border-bottom:1px solid var(--cizgi);
   font-size:12.5px;letter-spacing:.4px}
 .kasa-serit .tutar{color:var(--altin);font-weight:bold;font-size:14px}

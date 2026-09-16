@@ -11,7 +11,7 @@ node dogrulayici.js && node build_html.js
 ```
 
 Derleme depo kökündeki `index.html`'i yeniden yazar. Görseller
-`_gomulu_gorseller.js`'ten okunur (34 görsel, **WebP q80**, base64) ve çıktıya
+`_gomulu_gorseller.js`'ten okunur (44 görsel, **WebP q80**, base64) ve çıktıya
 gömülür. Biçim JPEG'den WebP'ye geçti: aynı çözünürlükte yarı boyut, gözle fark yok.
 Veride dosya adları hâlâ `foo.jpg` — o yalnızca bir anahtar, gerçek biçim data URI'nin
 içinde.
@@ -29,7 +29,7 @@ koşmadan derleme yapılmaz.
 - `prolog.json`         → açılış (6 kart)
 - `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
 - `build_html.js`       → derleyici (**DEV_MOD satırı burada — şu an `false`**)
-- `_gomulu_gorseller.js`→ 34 görsel, WebP/base64 (derlemenin girdisi)
+- `_gomulu_gorseller.js`→ 44 görsel, WebP/base64 (derlemenin girdisi)
 - `vaka2-6.json`, `yan_a/b.json` → tekil vaka yedekleri (game_data.json asıldır)
 - `test_*.js`           → testler
 - `*.md`                → tasarım sözleşmeleri (doğrulayıcı, Cengo bağı, görsel, veri formatı)
@@ -149,7 +149,7 @@ bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
   üç vakanın konusu değil.
 - **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
   Derinlik ödülü olarak makul; dokunulmadı.
-- **K9**: 9 tohum yazılıp hiç okunmuyor. Üçü (`cavit_guven`, `v2_karar`,
+- **K9**: 6 tohum yazılıp hiç okunmuyor. Üçü (`cavit_guven`, `v2_karar`,
   `v4_karar`) itibar sistemine bağlandı; kalanlar ya Sezon 2 ipi
   (`peri_yuzlesti`, `adres_kime`) ya da henüz karşılığı yazılmamış. Silinmedi — bunlar ekonominin
   ihtiyaç duyacağı şeyler (hangi kararı verdin → itibar → müşteri ücreti;
@@ -1141,10 +1141,8 @@ yanlış döner ve metin hiç görünmez. Tek kapı, unutulacak yer bırakmıyor
 ### Kalan
 
 Dokuz vakanın **40 kararının hepsinde** `para` yazılı; K8 hepsinde çalışıyor.
-Yan vakaların ücretsiz olması özellikle önemli: V2, V4 ve temiz oynanan V3
-zararlı aylar, nefes alma yeri yan işler. Yan
-vakaların ücretsiz olması özellikle önemli: V2 ve temiz oynanan V3 zararlı
-aylar, tek nefes alma yeri yan işler — ama şu an sıfır getiriyorlar.
+Yan vakaların sabit gider kesmemesi özellikle önemli: V2, V4 ve temiz oynanan V3
+zararlı aylar, nefes alma yeri yan işler.
 
 ## Kayıt sistemi
 
@@ -1209,7 +1207,6 @@ Davranış:
 
 - Gerçek ses parçalarının üretilip `ses/` klasörüne `.mp3` olarak konması,
   ardından geçici `.wav` dosyalarının ve `ses/GECICI.md`'nin silinmesi.
-- Yayın öncesi `build_html.js` içinde `DEV_MOD = false`.
 
 ## Sonraki aşama: Android
 

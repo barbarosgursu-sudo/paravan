@@ -124,7 +124,16 @@
       "reveals": [
         "ilyas_isim"
       ],
-      "text": "Cengo tarifi duyunca durdu: 'Yara, topal... bu İlyas olabilir, şu tahsildar.' Onu buldular, gizlice fotoğrafını çektiler — riskli bir an; fark edilselerdi kötü olurdu.",
+      "text": [
+        {
+          "kosul": "ilyas_tahsildar",
+          "metin": "Cengo tarifi duyunca durdu: 'Yara, topal... bu İlyas olabilir, şu tahsildar.' Onu buldular, gizlice fotoğrafını çektiler — riskli bir an; fark edilselerdi kötü olurdu."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo tarifi duyunca durdu: 'Yara, topal... bu İlyas olabilir. Kenar mahallede tanıyan çoktur onu.' Onu buldular, gizlice fotoğrafını çektiler — riskli bir an; fark edilselerdi kötü olurdu."
+        }
+      ],
       "meta": "Artık bir isim ve bir yüz var: İlyas. Ama emin olmak için tanığa göstermek gerek.",
       "gorsel": {
         "dosya": "v3_gizli_foto.jpg",

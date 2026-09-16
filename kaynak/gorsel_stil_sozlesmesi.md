@@ -157,7 +157,7 @@ kümesinde olmalı. Değilse → FAIL. (Nurcan'ın görsel versiyonu böyle enge
 - Zifiri siyah kullanma → gece laciverti kullan.
 - Sıcağı baskın yapma → %20 kuralı.
 - Yumuşak/eşit aydınlatma yapma → yandan, sert, gölgeli.
-- İkinci bir teknik karıştırma → tek teknik: koyu yağlıboya.
+- İkinci bir teknik karıştırma → tek teknik: foto-gerçekçi sinematik render (§3).
 - Bir görselde clue'nun açtığından fazlasını gösterme → §7.
 - Ceyda'yı net/aydınlık gösterme → yarısı hep gölgede.
 - Karakteri tehlikeli gösteren imayı, o bilgi açılmadan koyma → §7.
@@ -169,7 +169,7 @@ kümesinde olmalı. Değilse → FAIL. (Nurcan'ın görsel versiyonu böyle enge
 Her görsel istenirken şu şablon kullanılır (tek elden çıkması için):
 
 ```
-[Koyu yağlıboya, İstanbul noir.]
+[Foto-gerçekçi, sinematik, atmosferik dijital render; İstanbul Noir.]
 Konu: [ne/kim]
 Palet: soğuk kurşuni-gri + gece laciverti temel; [varsa] tek sıcak leke: [kehribar/altın/kırmızı]
 Işık: yandan, sert, yüzün/sahnenin yarısı gölgede; tek kaynak [lamba/pencere/far]

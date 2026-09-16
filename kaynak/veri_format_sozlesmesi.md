@@ -132,7 +132,11 @@ DECISION = {
   etiket:    "Raporu ver ama sessizce kaz",
   sonuc:     "…karar sonucu anlatısı (hemen / ilerleyen / görünmeyen)…",
   cengoBag:  +1,                      // sayaca etki (bkz. cengoBag mekaniği)
-  seed_yaz:  { anahtar: <değer>, ... } // sonraki vakalara bayrak yazar
+  seed_yaz:  { anahtar: <değer>, ... }, // sonraki vakalara bayrak yazar
+  cengo_etki: {                        // YALNIZCA final vakasında: kriz hesabından SONRA
+    ust_sinir: 2,                      //   bağı bu değere kadar düşür
+    muhur: 6, eger_kademe: "Yakın"     //   ya da o kademedeyse bu değere mühürle
+  }
 }
 ```
 

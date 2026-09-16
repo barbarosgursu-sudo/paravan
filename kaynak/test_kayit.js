@@ -17,8 +17,8 @@ console.log("=== KAYIT YÜKÜ: yalnızca girdiler ===");
   const alanlar = Object.keys(kay).sort().join(",");
   k("üst alanlar beklendiği gibi",
     alanlar === "aktif,borc,cengoBag,gecmis,kaliciOlgular,kriz,para,seeds,sema,tamamlanan");
-  k("aktif yalnızca id + açılan kaynaklar",
-    Object.keys(kay.aktif).sort().join(",") === "acilan,id");
+  k("aktif yalnızca id + açılan kaynaklar + harcanan",
+    Object.keys(kay.aktif).sort().join(",") === "acilan,harcanan,id");
   const metin = JSON.stringify(kay);
   k("türetilmiş 'bilinen' kaydedilmiyor", !metin.includes('"bilinen"'));
   k("araştırma hakkı kaydedilmiyor", !metin.includes("arastirmaKalan"));
@@ -166,6 +166,38 @@ console.log("\n=== VAKA ARASINDA (aktif vaka yokken) ===");
     (y.durum.kaliciOlgular || []).sort().join(",") === (o.durum.kaliciOlgular || []).sort().join(","));
   k("künye bilgisi korundu",
     [...y.tumBilinen()].sort().join(",") === [...o.tumBilinen()].sort().join(","));
+}
+
+
+console.log("\n=== ÜCRETLİ KAYNAK: yükleme parayı ikinci kez almamalı ===");
+{
+  // Şu an veride ücretli kaynak yok ama kod yolu var. Yükleme kaynakları yeniden
+  // açarak doğruluyor; ücret orada yeniden düşülürse oyuncu parasını iki kez öder
+  // ve dökümdeki "araştırma masrafı" kaybolur.
+  const g2 = kopya(g);
+  const hedef = g2.vakalar[0].clues.find(c => !c.bedelsiz);
+  hedef.ucret = 1000;
+  const o = new Oyun(g2);
+  o.vakaBaslat(g2.vakalar[0].id);
+  const paraOnce = o.durum.para;
+  const r = o.kaynakAc(hedef.id);
+  k("ücret bir kez düşüldü", o.durum.para === paraOnce - hedef.ucret && !r.hata);
+  k("harcanan kaydediliyor", o.durum.aktif.harcanan === hedef.ucret);
+
+  const kay = o.durumAl();
+  const y = new Oyun(g2);
+  const yr = y.durumYukle(kay);
+  k("kayıt yüklenebiliyor", !yr.hata, yr.hata);
+  k("yüklemede ücret İKİNCİ KEZ düşülmüyor", y.durum.para === o.durum.para);
+  k("harcanan yüklemede korunuyor", y.durum.aktif.harcanan === o.durum.aktif.harcanan);
+
+  // Parasını o kaynağa yatırmış oyuncunun kaydı "kasa yetmiyor" diye reddedilmemeli
+  const fakir = new Oyun(g2);
+  fakir.durum.para = hedef.ucret;
+  fakir.vakaBaslat(g2.vakalar[0].id);
+  fakir.kaynakAc(hedef.id);
+  const fk = fakir.durumAl();
+  k("kasası boşalan oyuncunun kaydı reddedilmiyor", !new Oyun(g2).durumYukle(fk).hata);
 }
 
 console.log(hata ? `\n=== ${hata} BAŞARISIZ ===` : "\n=== KAYIT TESTİ TAMAM ===");

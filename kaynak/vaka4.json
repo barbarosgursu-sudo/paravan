@@ -55,6 +55,24 @@
       ]
     },
     {
+      "kosul": {
+        "all": [
+          {
+            "seed": "ilk_karar",
+            "esit": "reddetti"
+          },
+          {
+            "seed": "kaya_kayit_gordu",
+            "esit": false
+          }
+        ]
+      },
+      "metin": "Cengo elinde bir kağıtla geldi: 'Cavit'in bıraktığı dosyaların arasından çıkmış Peri abla — Kaya'nın hesabından her ay giden isimsiz bir para. O iş sana kalmadı ama kağıt burada duruyor.' Peri kağıda baktı; içine bir merak düştü.",
+      "acilan": [
+        "gizemli_odeme"
+      ]
+    },
+    {
       "kosul": "varsayilan",
       "metin": "Cengo elinde bir kağıtla geldi: 'Kaya'nın eski dosyalarını karıştırırken bir şey gördüm Peri abla — her ay giden isimsiz bir para. Bakmadık buna hiç.' Peri kağıda baktı; içine bir merak düştü.",
       "acilan": [

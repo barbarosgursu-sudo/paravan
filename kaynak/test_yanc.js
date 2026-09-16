@@ -10,7 +10,7 @@ const KISILER = JSON.parse(fs.readFileSync("kisiler.json", "utf-8"));
 let hata = 0;
 const k = (ad, ok, ek) => { console.log((ok ? "✓" : "✗ BAŞARISIZ") + " " + ad + (ek ? " → " + ek : "")); if (!ok) hata++; };
 const tl = n => Math.round(n).toLocaleString("tr-TR") + " ₺";
-const ESIK = 80000;
+const ESIK = g.vakalar.find(v => v.id === "YAN-C").belirir.kosul.borc_en_az;
 
 // V1'i bitirip masayı açan yardımcı (borcu elle kuruyoruz)
 function borcla(borc) {
