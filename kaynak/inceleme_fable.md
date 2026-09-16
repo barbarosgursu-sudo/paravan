@@ -1,5 +1,9 @@
 # Paravan Dedektiflik — Fable 5.1 taze göz incelemesi
 
+> **DURUM (16 Eylül 2026): hepsi uygulandı.** Her bulgunun başında ✔ ve commit
+> hash'i var. Uygulama talimatları `inceleme_fable_talimat.md`'de. Şüpheliler
+> bilerek yapılmadı — tasarım kararı, sahibine sorulacak.
+
 **Tarih:** 16 Eylül 2026 · **Kapsam:** veri/mantık, metin, ekonomi, arayüz/derleme,
 görseller · **Bu turda kod değişmedi**; yalnızca bulgu.
 
@@ -19,7 +23,7 @@ Biçim: `[Seviye] · başlık · dosya:satır · sorun · neden önemli · öner
 
 ## KRİTİK
 
-### K1 · `eski_dava` olgu kimliği iki vakada aynı → künye V5'in bütün sırrını V2'de açıyor
+### ✔ 78a4cf1 · K1 · `eski_dava` olgu kimliği iki vakada aynı → künye V5'in bütün sırrını V2'de açıyor
 **Dosya:** `game_data.json:882` (YAN-A facts), `:893,:949,:957,:968` (YAN-A eski_kayit
 reveals / cengo_cumle needs / knowledge), `game_data.json:1809` (V5 facts), `:1838,:1994,:2003`
 (V5 ilyas_gecmis reveals / knowledge); `kisiler.json:110` (İlyas katmanı `kosul: "eski_dava"`).
@@ -40,7 +44,7 @@ kimliklerinin vakalar arası benzersizliğini denetlemediği için görünmez ka
 `gecmis_tam` okuyor). Ardından doğrulayıcıya **K11: olgu kimlikleri vakalar arasında
 benzersiz** kuralı ekle (hata sınıfı) ki bir daha olmasın. **Süre:** 20 + 15 dk.
 
-### K2 · V5/`cavit_ilyas_ilgi` metni, İlyas'ı hiç tanımayan oyuncuya "İlyas gibi sıradan bir tahsildar" diyor
+### ✔ e98a4d0 · K2 · V5/`cavit_ilyas_ilgi` metni, İlyas'ı hiç tanımayan oyuncuya "İlyas gibi sıradan bir tahsildar" diyor
 **Dosya:** `game_data.json:1913` (kaynak; `text` ve `meta` koşulsuz).
 **Sorun:** Başlık 3. turda koşullu yapılmış ("Cavit'in telaşı nereden?") ama gövde ve
 meta yapılmamış. V3'te araştırmadan `tanigi_lekele` diyen oyuncu V5'e **sıfır İlyas
@@ -60,7 +64,7 @@ meselesi diyor ama…"*). `test_sizinti`'ye "V3 sığ + lekele, V5 derin" gidiş
 
 ## ÖNEMLİ
 
-### Ö1 · Final bittikten sonra YAN-C masaya düşüyor; final mührü ve son ekranı bozuluyor
+### ✔ 3675113 · Ö1 · Final bittikten sonra YAN-C masaya düşüyor; final mührü ve son ekranı bozuluyor
 **Dosya:** `motor.js:161-188` (`masadakiVakalar`), `build_html.js:757-762` (`masaGoster`:
 masa boşsa son ekranı).
 **Sorun:** YAN-C `belirir.sonra: "her"` ve tek koşulu `borc_en_az: 80000`. V6 bittiğinde
@@ -73,7 +77,7 @@ deliniyor; sezon finalinin ardından bir yan iş gelmesi anlatıyı da bozuyor.
 vakaları hiç listeleme; `sonEkrani` doğrudan gelsin. `test_yanc`'a "V6 sonrası masada
 görünmez" iddiası. **Süre:** 10 + 10 dk.
 
-### Ö2 · Künyedeki İlyas portresi yaralı yüz — yara V3'ün ipucu, künye V2'de açılıyor
+### ✔ 339e98f · Ö2 · Künyedeki İlyas portresi yaralı yüz — yara V3'ün ipucu, künye V2'de açılıyor
 **Dosya:** `kisiler.json:98` (`"portre": "portre_ilyas.jpg"`), `game_data.json:450`
 (V2 kaynağı `portre_ilyas_v2.jpg`).
 **Sorun:** İki İlyas görseli var: `portre_ilyas` (yanakta belirgin yara — V3'teki
@@ -87,7 +91,7 @@ geri açıyor.
 künyeye katmanlı portre (`iten_ilyas` sonrası `portre_ilyas`) — 4 satırlık arayüz
 değişikliği. **Süre:** 5 / 15 dk.
 
-### Ö3 · Doğrulayıcı K1 ve K5 koşullu metinleri hiç taramıyor
+### ✔ ca36642 · Ö3 · Doğrulayıcı K1 ve K5 koşullu metinleri hiç taramıyor
 **Dosya:** `dogrulayici.js:82` (`blob = (c.text||"") + " " + (c.meta||"")`), `:203` (K5 aynı).
 **Sorun:** `text`/`meta` varyant dizisi olduğunda dizgi birleştirme `"[object Object]"`
 üretiyor (doğrulandı). Şu an 8 kaynağın koşullu metni K1'in (isim sızıntısı) ve K5'in
@@ -99,7 +103,7 @@ oraya kör.
 **Düzeltme:** Her varyantı ayrı denetle: varyantın `kosul` olgularını o varyant için havuza
 kat, metnini tara. K5 için varyant metinlerini birleştirmek yeter. **Süre:** 20 dk.
 
-### Ö4 · K1'in "temel" isim kümesi giriş varyantlarının BİRLEŞİMİ — bir varyantta geçen isim tüm vakada serbest
+### ✔ ca36642 · Ö4 · K1'in "temel" isim kümesi giriş varyantlarının BİRLEŞİMİ — bir varyantta geçen isim tüm vakada serbest
 **Dosya:** `dogrulayici.js:71-76`.
 **Sorun:** `girisMetin` tüm varyantları birleştiriyor; V5'te "polis/koz/cavit" varyantları
 İlyas'ı andığı için İlyas V5'in her kaynağında serbest sayılıyor — varsayılan girişi
@@ -113,33 +117,33 @@ kapatılır. Ö3 ile birlikte yapılmalı. **Süre:** 15 dk (+ çıkan hataları
 
 ## KÜÇÜK
 
-### Kü1 · Kasa şeridinde borç görünürken metinler bitişiyor ("90.000 ₺bir aylık gideri…")
+### ✔ a34b2fb · Kü1 · Kasa şeridinde borç görünürken metinler bitişiyor ("90.000 ₺bir aylık gideri…")
 `build_html.js:97` `.kasa-serit` flex'te `gap` ve `flex-wrap` yok; Pixel 5'te borç satırı
 eklenince iki span birbirine yapışıyor (ekran görüntüsünde görüldü). → `gap:10px;
 flex-wrap:wrap`. **2 dk.**
 
-### Kü2 · `kasaDurumu` icra masrafını saymıyor
+### ✔ a34b2fb · Kü2 · `kasaDurumu` icra masrafını saymıyor
 `motor.js:591-602` `giderToplam(this.game)` okuyor, `aylikGiderToplam()` değil. İcra
 sürerken "bir aylık gideri ancak karşılıyor" 12.000 ₺ eksik hesapla söyleniyor — karar
 ekranı doğru, üst şerit yanlış. → `this.aylikGiderToplam()`. **5 dk.**
 
-### Kü3 · V3/`mahalle_don`: Cengo "bu İlyas olabilir, şu tahsildar" — V2'de kapıyı gözlemeyen oyuncuda tahsildar yok
+### ✔ a34b2fb · Kü3 · V3/`mahalle_don`: Cengo "bu İlyas olabilir, şu tahsildar" — V2'de kapıyı gözlemeyen oyuncuda tahsildar yok
 `game_data.json:699`. `foto_goster` meta'sı aynı sebeple koşullu yapılmış, bu kaynağın
 metni yapılmamış. Cengo'nun sokak bilgisi diye savunulabilir; ama emsal var. →
 `ilyas_tahsildar` koşullu varyant, varsayılan "bu İlyas olabilir — kenar mahallede tanınan
 biri". **5 dk.**
 
-### Kü4 · V4 varsayılan girişi "Kaya'nın eski dosyalarını karıştırırken" — V1'i reddedip hiçbir şey açmayan oyuncuda dosya yok
+### ✔ a34b2fb · Kü4 · V4 varsayılan girişi "Kaya'nın eski dosyalarını karıştırırken" — V1'i reddedip hiçbir şey açmayan oyuncuda dosya yok
 `game_data.json:1618`. Sigorta dosyasını alan (`sigorta_yazisi_acildi`) için köprü var;
 reddedip hiç bakmayan için Cengo'nun elindeki kâğıt nereden geldi, açık değil. Üçüncü
 varyant (`ilk_karar: reddetti` + dosya yok): kâğıt Cavit'in V3'te bıraktığı dosyadan.
 **10 dk.**
 
-### Kü5 · `test_yanc.js:13` `ESIK = 80000` sabit
+### ✔ a34b2fb · Kü5 · `test_yanc.js:13` `ESIK = 80000` sabit
 CLAUDE.md'nin "testlerde sabit sayı yazma" kuralına aykırı; eşik veride değişirse test
 yalan söyler. → `g.vakalar.find(v=>v.id==="YAN-C").belirir.kosul.borc_en_az`. **3 dk.**
 
-### Kü6 · `ucret` özelliği ölü ve iki gizli hata taşıyor
+### ✔ a34b2fb · Kü6 · `ucret` özelliği ölü ve iki gizli hata taşıyor
 Hiçbir kaynak `ucret` taşımıyor; ama kod yolu var ve bozuk: (a) `motor.js:668-671`
 kayıt yüklemede kaynaklar yeniden açılırken `kaynakAc` parayı **ikinci kez** düşürür
 (kayıttaki `para` zaten düşülmüş hâl); (b) `a.harcanan` kaydedilmiyor, sonuç dökümü
@@ -147,26 +151,26 @@ yüklemeden sonra 0 gösterir; (c) `_kirletmeyeZorlarMi` kopyaları kasa taşım
 ücretli kaynağı alınabilir sayar. → Ya özelliği kaldır, ya üçünü düzeltip `test_kayit`'a
 ücretli kaynak senaryosu ekle. **20 dk.**
 
-### Kü7 · Motorda veriye özgü karar kimlikleri sabit kodlu
+### ✔ a34b2fb · Kü7 · Motorda veriye özgü karar kimlikleri sabit kodlu
 `motor.js:557-558` `hepsini_ifsa` ve `cavit_ver` isimleri motorun içinde. Karar yeniden
 adlandırılırsa mühür sessizce çalışmaz. → karara `final_etki: {cengo_ust_sinir: 2}` /
 `{cengo_muhur: "Bağlı", eger: "Yakın"}` alanı, motor alanı okusun. **20 dk.**
 
-### Kü8 · `durumYukle` para yedeği 2400
+### ✔ a34b2fb · Kü8 · `durumYukle` para yedeği 2400
 `motor.js:655` `this.game.baslangic?.para ?? 2400` — `baslangic` bu veride yok, 2400
 Münevver'den kalma. Kayıtta `para` her zaman var, o yüzden bugün etkisiz. →
 `ekonomiAl(this.game).baslangic_kasa`. **2 dk.**
 
-### Kü9 · Yakınlaştırma kapalı
+### ✔ a34b2fb · Kü9 · Yakınlaştırma kapalı
 `build_html.js:20` `maximum-scale=1.0, user-scalable=no`. Erişilebilirlik açısından
 kötü (görme zorluğu çeken oyuncu büyütemez); iOS zaten yok sayıyor. Android aşamasında
 gündeme gelecek erişilebilirlik başlığının ilk maddesi. **1 dk.**
 
-### Kü10 · Üst şerit düğmeleri 29 px yüksek
+### ✔ a34b2fb · Kü10 · Üst şerit düğmeleri 29 px yüksek
 `build_html.js:49` `.ust-btn`. Dokunma hedefi önerisi 44 px. Kişiler/Defter/ses düğmeleri
 küçük parmakla kaçırılıyor. → `min-height:40px; padding` artışı. **5 dk.**
 
-### Kü11 · Belge bayatlıkları
+### ✔ a34b2fb · Kü11 · Belge bayatlıkları
 - `OKUBENI.md:14,31` "34 görsel" → 44.
 - `OKUBENI.md:142` K9 "9 tohum" → 6.
 - `OKUBENI.md:1133` "Ekonomi → Kalan" paragrafı iki kez yazılmış ve ikincisi "yan
@@ -178,7 +182,7 @@ küçük parmakla kaçırılıyor. → `min-height:40px; padding` artışı. **5
 - `dogrulayici.js:3` "5 kuralını" → 10.
 **15 dk.**
 
-### Kü12 · Ses keşfi açılışta 26 HEAD isteği
+### ✖ YAPILMADI (talimat gereği) · Kü12 · Ses keşfi açılışta 26 HEAD isteği
 `build_html.js` `sesKesfet`: 13 dosya × 2 uzantı, her açılışta. Pages'te 13 gereksiz
 404. Gerçek mp3'ler gelince `.wav` yedeği ve bu ikinci deneme zaten silinecek; o güne
 kadar not. **—**

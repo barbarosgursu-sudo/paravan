@@ -21,15 +21,25 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir; çıkış kodu 1'dir ve bu normaldir. Diğer 17 test geçmelidir.
 
-Doğrulayıcı hâlihazırda **5 kabul edilmiş uyarı** ile PASS veriyor (K6 V2/mahalle_konus;
-K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın bilinçli kararı, düzeltilecek
-hata değil. `hata` = oyun kırılır ve paketleme durur; `uyarı` = tasarım kararı.
+Doğrulayıcı **11 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
+veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
+bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketleme durur;
+`uyarı` = tasarım kararı.
+
+**UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
+gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
+kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
 
 ## Bozulmaz sözleşmeler
 
 **Nurcan kuralı** — projenin çekirdeği. Hiçbir metin ya da görsel, oyuncunun henüz
-hak etmediği bir bilgiyi sızdıramaz. Metin tarafını doğrulayıcı K1/K10 ve
-`test_sizinti.js` kolluyor; görsel tarafı `kaynak/gorsel_stil_sozlesmesi.md` §7.
+hak etmediği bir bilgiyi sızdıramaz. Metin tarafını doğrulayıcı K1/K10/K11 ve
+`test_sizinti.js` kolluyor; görsel tarafı `kaynak/gorsel_stil_sozlesmesi.md` §7
+(künye portresi de katmanlı — `kisiler.json` → `portre_katman`).
+
+**Olgu adları vakalar arasında benzersiz** (K11). Olgular vaka bitince taşınıyor ve
+künye birleşik kümeyi okuyor; aynı ad iki vakada iki anlam taşırsa biri ötekinin
+kapısını açar.
 
 **Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ.** Bütçeyi harcamanın hiçbir
 biçiminde oyuncunun elinde yalnızca vicdanı eksi kararlar kalamaz. `test_borc.js`
@@ -62,7 +72,13 @@ UI değişikliği Playwright + Chromium ile tarayıcıda doğrulanır:
 
 ## Şu anki durum (Eylül 2026)
 
-Metin, mantık ve ekonomi **bitti**. Kalan iki iş:
+Metin, mantık ve ekonomi **bitti**. Fable 5.1 taze göz incelemesi (16 Eylül 2026)
+uygulandı — bulgular ve commit'ler `kaynak/inceleme_fable.md`, uygulama talimatları
+`kaynak/inceleme_fable_talimat.md`. **Şüpheli** başlığındaki üç tasarım sorusu bilerek
+açık bırakıldı (ruh hâli sınıflaması, istatistik paneli, künye tanışma koşulları) —
+sahibine sorulacak.
+
+Kalan iki iş:
 
 1. **Görseller.** 44 gömülü görsel, WebP q80, `_gomulu_gorseller.js` içinde base64.
    Hedef 63 slot. Sipariş metinleri `kaynak/gorsel_promptlari_2.md` içinde; kalıp,
