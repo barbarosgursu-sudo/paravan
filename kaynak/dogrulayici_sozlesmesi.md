@@ -67,6 +67,15 @@ clue "cengo_okuma":
 → PASS: metinde "Cavit" ismi GEÇMİYOR; sadece "biri" deniyor (el_var, isimsiz).
 ```
 
+> **Kapsam notu (sonraki tur).** Kural 1 dört noktada keskinleşti:
+> (1) "Girişte tanıtılmış" sayılan isimler yalnızca **varsayılan** giriş varyantından alınır —
+> tüm varyantların birleşimi, bir varyantta geçen ismi o vakanın her kaynağında serbest
+> kılıyordu. (2) Koşullu metinler (varyant dizisi) **her varyant ayrı** denetlenir; varyantın
+> koşul olguları o varyantın havuzuna katılır. Kaynak `ad`'ı da taranır — araştırma ekranında
+> açmadan önce görünen tek şey odur. (3) Havuzdaki türetilmiş olgular bileşenlerine açılır;
+> ismi taşıyan açıklama bileşende durabilir. (4) Varyantın koşulu bir tohumsa,
+> `KANON.tohum_isimleri` o tohumun hangi değerinde hangi isimleri garanti ettiğini söyler.
+>
 > **İsim tespiti notu:** Doğrulayıcı KANON.isimler listesini kelime sınırıyla arar
 > (büyük/küçük harf ve Türkçe ekler dahil: "İlyas", "İlyas'ı", "İlyas'ın" → hepsi
 > "İlyas" sayılır). Olgu-anahtarları metne `{olgu}` şablonuyla veya açık atıfla girer;

@@ -19,6 +19,41 @@
     ],
     "belirsiz_istisna": {
       "kaya_biliyordu": "V6"
+    },
+    "tohum_isimleri": {
+      "iten_biliniyor": {
+        "true": [
+          "İlyas"
+        ]
+      },
+      "ilyas_yuz_tandi": {
+        "true": [
+          "İlyas"
+        ]
+      },
+      "ilyas_kime_gitti": {
+        "polis": [
+          "İlyas"
+        ],
+        "koz": [
+          "İlyas"
+        ],
+        "cavit": [
+          "İlyas"
+        ]
+      },
+      "cavit_ceyda_bilinir": {
+        "true": [
+          "Cavit",
+          "Ceyda",
+          "İlyas"
+        ]
+      },
+      "cengo_gecmis_bilinir": {
+        "true": [
+          "Sevil"
+        ]
+      }
     }
   },
   "ekonomi": {

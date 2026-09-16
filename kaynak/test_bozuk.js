@@ -33,3 +33,11 @@ let t6 = clone();
 // V1'in olgusunu V2'de de tanımla: kalıcı olgular taşındığı için aynı ad iki anlam taşıyamaz
 t6.vakalar[1].facts["polis_kaza"] = "V2'de aynı adla başka bir şey";
 dogrula(t6);
+
+console.log("\n########## TEST 7: KOŞULLU METİNDE SIZINTI (K1) ##########");
+let t7 = clone();
+// Koşullu bir metnin VARSAYILAN varyantına, hiçbir needs/reveals taşımadan isim sok.
+// Eskiden varyant dizisi "[object Object]" oluyordu ve K1 koşullu metni hiç görmüyordu.
+t7.vakalar[0].clues.find(c => c.id === "komsu_ifadesi")
+  .meta.find(v => v.kosul === "varsayilan").metin += " Sevil de oradaydı.";
+dogrula(t7);

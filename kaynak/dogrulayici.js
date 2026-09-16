@@ -56,6 +56,37 @@ function isimGeciyor(metin, isim) {
   return re.test(metin);
 }
 
+// Havuzdaki türetilmiş olgular (knowledge.turetilen) bileşen olgularına açılır — sabit
+// nokta. "cavit_azmettiren"i bilen oyuncu "eski_dava"yı da biliyordur; ismi taşıyan
+// açıklama bileşende durur, türetilmişin kendisinde değil.
+function havuzGenislet(vaka, havuz) {
+  const out = new Set(havuz);
+  let degisti = true;
+  while (degisti) {
+    degisti = false;
+    for (const k of vaka.knowledge || []) {
+      if (!out.has(k.turetilen)) continue;
+      for (const o of ifadeOlgulari(k.ifade)) if (!out.has(o)) { out.add(o); degisti = true; }
+    }
+  }
+  return out;
+}
+
+// Bir ifadedeki {seed, esit} yaprakları. {not: ...} altındakiler ALINMAZ: orada tohum
+// bir şeyin BİLİNMEDİĞİNİ söyler, dolayısıyla isim taşımaz.
+function tohumlariTopla(ifade, acc = []) {
+  if (!ifade || typeof ifade !== "object") return acc;
+  if (ifade.seed) acc.push({ seed: ifade.seed, esit: ifade.esit === undefined ? true : ifade.esit });
+  for (const k of ["all", "any"]) if (Array.isArray(ifade[k])) ifade[k].forEach(x => tohumlariTopla(x, acc));
+  return acc;
+}
+
+// Tohumun o değerinde oyuncunun hangi kanon isimlerini bildiği (kanon.tohum_isimleri).
+function tohumIsimleriAl(game, t) {
+  const h = (game.kanon.tohum_isimleri || {})[t.seed];
+  return (h && h[String(t.esit)]) || [];
+}
+
 // ============================================================================
 // KURALLAR
 // ============================================================================
@@ -68,7 +99,10 @@ function kural1_sozluk(game, hatalar) {
   for (const vaka of game.vakalar) {
     const facts = vaka.facts || {};
     // TEMEL bilinen isimler: kahramanlar + girişte tanıtılanlar (vaka başında zaten sahnede)
-    const girisMetin = (vaka.giris || []).map(g => g.metin || "").join(" ");
+    // TEMEL isimler, EN AZ BİLGİLİ oyuncunun garantisidir: yalnızca varsayılan giriş
+    // varyantı. Tüm varyantların birleşimi alınırsa, bir varyantta geçen isim o vakanın
+    // her kaynağında serbest sayılıyor — V5'te İlyas böyle serbest kalmıştı.
+    const girisMetin = ((vaka.giris || []).find(g => g.kosul === "varsayilan") || {}).metin || "";
     const temel = new Set(KAHRAMAN.filter(k => true));
     for (const isim of game.kanon.isimler) {
       if (isim.endsWith("-YOK")) continue;
@@ -79,16 +113,33 @@ function kural1_sozluk(game, hatalar) {
                              ...(c.reveals || [])]);
       // havuzdaki olguların açıklama metinleri (isim bu olgularda geçebilir)
       const havuzMetin = [...havuz].map(o => facts[o] || "").join(" ");
-      const blob = (c.text || "") + " " + (c.meta || "");
+      // Koşullu metin varyant dizisi olabilir. Her varyant AYRI denetlenir: varyantın
+      // kendi koşulu, onu okuyan oyuncunun neyi bildiğinin garantisidir — o olgular
+      // havuza katılır. Eskiden dizi doğrudan birleştiriliyor ve "[object Object]"
+      // üretiyordu; koşullu metin bu yüzden hiç taranmıyordu.
+      const parcalar = [];
+      const ekle = (alan, ham) => {
+        if (typeof ham === "string") parcalar.push({ metin: ham, ekHavuz: new Set(), ekTohum: [], etiket: alan });
+        else if (Array.isArray(ham)) for (const v of ham) {
+          const ek = v.kosul === "varsayilan" ? new Set() : ifadeOlgulari(v.kosul);
+          parcalar.push({ metin: v.metin || "", ekHavuz: ek,
+                          ekTohum: v.kosul === "varsayilan" ? [] : tohumlariTopla(v.kosul),
+                          etiket: alan + "[" + JSON.stringify(v.kosul) + "]" });
+        }
+      };
+      // 'ad' da taranıyor: araştırma ekranında AÇMADAN ÖNCE görünen tek şey başlıktır.
+      ekle("text", c.text); ekle("meta", c.meta); ekle("ad", c.ad);
 
-      for (const isim of game.kanon.isimler) {
-        if (isim.endsWith("-YOK")) continue;
-        if (temel.has(isim)) continue;   // kahraman ya da girişte tanıtılmış → serbest
-        if (isimGeciyor(blob, isim)) {
-          // Temelde olmayan isim: ya bu clue onu ilk açıyor (havuz olgusu taşıyor),
-          // ya da bir needs olgusu üzerinden daha önce açılmış olmalı.
-          if (!isimGeciyor(havuzMetin, isim)) {
-            hatalar.push(`[K1] ${vaka.id}/${c.id}: metin '${isim}' diyor ama needs/reveals olgularının hiçbiri onu taşımıyor (temelde de yok).`);
+      for (const p of parcalar) {
+        const havuz2 = havuzGenislet(vaka, new Set([...havuz, ...p.ekHavuz]));
+        const havuzMetin2 = [...havuz2].map(o => facts[o] || "").join(" ");
+        const tohumIsimleri = new Set(p.ekTohum.flatMap(t => tohumIsimleriAl(game, t)));
+        for (const isim of game.kanon.isimler) {
+          if (isim.endsWith("-YOK")) continue;
+          if (temel.has(isim)) continue;        // kahraman ya da varsayılan girişte tanıtılmış
+          if (tohumIsimleri.has(isim)) continue; // varyantın koşulu bu ismi zaten garanti ediyor
+          if (isimGeciyor(p.metin, isim) && !isimGeciyor(havuzMetin2, isim)) {
+            hatalar.push(`[K1] ${vaka.id}/${c.id} (${p.etiket}): metin '${isim}' diyor ama needs/reveals olgularının hiçbiri onu taşımıyor (temelde de yok).`);
           }
         }
       }
@@ -218,7 +269,10 @@ function kural5_belirsizlik(game, uyarilar) {
       }
       // clue metinlerinde kesin hüküm cümlesi
       for (const c of vaka.clues) {
-        const blob = (c.text || "") + " " + (c.meta || "");
+        // Koşullu metinler de taranmalı (bkz. K1); dizi ise varyantları birleştiriyoruz.
+        const duzMetin = x => typeof x === "string" ? x
+          : Array.isArray(x) ? x.map(v => v.metin || "").join(" ") : "";
+        const blob = duzMetin(c.text) + " " + duzMetin(c.meta);
         if (kesinKalip.test(blob) && new RegExp(konu.split("_")[0], "i").test(blob)) {
           uyarilar.push(`[K5] ${vaka.id}/${c.id}: '${konu}' konusunda tek yönlü kesin ifade olabilir — çift-okuma ekleyin.`);
         }

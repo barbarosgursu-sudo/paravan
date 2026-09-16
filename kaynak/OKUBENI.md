@@ -82,7 +82,7 @@ K5, K7, K8, K9 yazarın karar vermesi gereken tasarım sorularıdır.
 
 | | Ne kontrol eder | Şiddet |
 |---|---|---|
-| K1 | Sözlük — metin/görsel, açılmamış bir ismi sızdırıyor mu (Nurcan kuralı) | hata |
+| K1 | Sözlük — metin/görsel/başlık, açılmamış bir ismi sızdırıyor mu (Nurcan kuralı; koşullu metinde her varyant ayrı) | hata |
 | K2 | Erişilebilirlik — olgu zinciri ulaşılabilir mi | hata |
 | K3 | Döngü — needs döngüsü, açık giriş var mı | hata |
 | K4 | Truth uyumu — vaka gerçeğiyle çelişen reveal | hata |

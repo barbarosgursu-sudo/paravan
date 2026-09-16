@@ -24,7 +24,10 @@ KANON = {
   isimler:  ["Kaya","Ceyda","Cavit","İlyas","Vedat","Nesrin","Peri","Cengo",
              "Nadire","Sevil","Sabri-YOK"],   // doğrulayıcı Kural 1 bunu tarar
   belirsiz: ["ceyda_pay","kaya_biliyordu","sevil_pay"],  // Kural 5 bunları korur
-  belirsiz_istisna: { "kaya_biliyordu": "V6" }  // V6'da çözülmesi serbest (bkz. doğrulayıcı §Kural 5)
+  belirsiz_istisna: { "kaya_biliyordu": "V6" },  // V6'da çözülmesi serbest (bkz. doğrulayıcı §Kural 5)
+  tohum_isimleri: {                              // K1 için: tohumun hangi DEĞERİNDE hangi
+    "iten_biliniyor": { "true": ["İlyas"] }       // kanon isimlerinin bilindiği. Koşulu bu
+  }                                              // tohum olan metin varyantı o ismi serbestçe anabilir.
 }
 ```
 
