@@ -95,7 +95,13 @@
   {
    "id": "ilyas",
    "ad": "İlyas",
-   "portre": "portre_ilyas.jpg",
+   "portre": "portre_ilyas_v2.jpg",
+   "portre_katman": [
+    {
+     "kosul": "iten_ilyas",
+     "portre": "portre_ilyas.jpg"
+    }
+   ],
    "tanisma": "ilyas_tahsildar",
    "katmanlar": [
     {

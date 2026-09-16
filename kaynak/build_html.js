@@ -1109,7 +1109,11 @@ function kisilerGoster(){
     for(const kat of kisi.katmanlar){
       if(kat.kosul==='her_zaman' || bilinen.has(kat.kosul)) tanim = kat.tanim;
     }
-    const pad = (kisi.portre||'').replace('.jpg','');
+    // Portre de katmanlı olabilir: yüzdeki yara V3'ün tanık ipucu (tarif_yara),
+    // künye onu V2'de göstermemeli (görsel stil sözleşmesi §7).
+    let portreDosya = kisi.portre || '';
+    for(const pk of (kisi.portre_katman||[])) if(bilinen.has(pk.kosul)) portreDosya = pk.portre;
+    const pad = portreDosya.replace('.jpg','');
     const psrc = (typeof GORSELLER!=='undefined' && GORSELLER[pad]) ? GORSELLER[pad] : null;
     const portreHTML = psrc ? \`<img src="\${psrc}" alt="\${kisi.ad}">\` : '☗';
     h += \`<div class="kisi-kart">

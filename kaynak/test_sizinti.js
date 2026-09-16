@@ -415,5 +415,19 @@ console.log("\n=== DURUM MATRİSİ RAPORU ===");
   k("rapor yazıldı (_durum_matrisi.txt)", true, satirlar.length + " satır");
 }
 
+
+console.log("\n=== KÜNYE PORTRESİ ===");
+{
+  // Görsel de bilgi taşır (stil sözleşmesi §7). İlyas'ın yüzündeki yara V3'te
+  // tanığın verdiği tarif; künye onu V2'de, teşhisten önce gösteremez.
+  const K = JSON.parse(require("fs").readFileSync("kisiler.json", "utf-8"));
+  const ilyas = K.kisiler.find(x => x.id === "ilyas");
+  const v3 = g.vakalar.find(v => v.id === "V3");
+  const v3Olgular = new Set([...Object.keys(v3.facts), ...v3.knowledge.map(x => x.turetilen)]);
+  k("İlyas'ın temel portresi yarasız (V2 sürümü)", ilyas.portre === "portre_ilyas_v2.jpg");
+  const yarali = (ilyas.portre_katman || []).find(p => p.portre === "portre_ilyas.jpg");
+  k("yaralı portre yalnızca V3 olgusuyla açılıyor", !!yarali && v3Olgular.has(yarali.kosul));
+}
+
 console.log(hata ? `\n=== ${hata} BAŞARISIZ ===` : "\n=== SIZINTI TESTİ TAMAM ===");
 process.exit(hata ? 1 : 0);

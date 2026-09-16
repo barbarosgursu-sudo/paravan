@@ -24,7 +24,8 @@ koşmadan derleme yapılmaz.
 - `motor.js`            → oyun mantığı (arayüzsüz, `class Oyun`)
 - `game_data.json`      → 9 vaka + kanon (**asıl veri**)
 - `game_data.js`        → doğrulayıcının beklediği modül köprüsü (json'u dışa verir)
-- `kisiler.json`        → katmanlı künye + anı defteri
+- `kisiler.json`        → katmanlı künye + anı defteri (portre de katmanlı olabilir:
+  `portre_katman` ile bir olgu açılınca yüz değişir — İlyas'ın yarası V3 teşhisiyle gelir)
 - `prolog.json`         → açılış (6 kart)
 - `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
 - `build_html.js`       → derleyici (**DEV_MOD satırı burada — şu an `false`**)
