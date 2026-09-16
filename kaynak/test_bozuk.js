@@ -27,3 +27,9 @@ let t5 = clone();
 t5.vakalar[0].facts["iten"] = "Kaya'yı iten kişi.";
 t5.vakalar[0].clues.find(c=>c.id==="olay_yeri").reveals.push("iten");
 dogrula(t5);
+
+console.log("\n########## TEST 6: OLGU ÇAKIŞMASI (K11) — iki vakada aynı olgu adı ##########");
+let t6 = clone();
+// V1'in olgusunu V2'de de tanımla: kalıcı olgular taşındığı için aynı ad iki anlam taşıyamaz
+t6.vakalar[1].facts["polis_kaza"] = "V2'de aynı adla başka bir şey";
+dogrula(t6);

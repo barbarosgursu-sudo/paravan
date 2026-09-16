@@ -91,6 +91,7 @@ K5, K7, K8, K9 yazarın karar vermesi gereken tasarım sorularıdır.
 | K8 | **Baskınlık** — bir karar hem para hem vicdan ekseninde diğerini geçiyor mu | uyarı |
 | K9 | **Ölü tohum** — yazılıp hiçbir yerde okunmayan tohum | uyarı |
 | K10 | **Olgu sızıntısı** — metin, bir kişinin söylediğine gönderme yapıyor ama o olgu needs'te yok | hata |
+| K11 | **Olgu kimliği** — aynı olgu adı birden çok vakada tanımlı mı | hata |
 
 K6 ve K7 **gerçek motoru** kullanır (`motor.js`): bütün açma sıralarını
 dener, böylece simülasyon oyunla birebir aynı davranır. K2 bir kaynağın
@@ -107,6 +108,14 @@ isimleri serbest sayar — ama bir ismin sahnede olması, o kişinin NE DEDİĞ�
 bilmek demek değildir. Canlı oyunda yakalanan hata tam buydu: V1'de komşu
 ifadesinin meta'sı "ama Ceyda 'yalnızdım' demişti" diyordu, oysa oyuncu Ceyda
 ile henüz görüşmemiş olabilirdi. K1 susuyordu çünkü Ceyda girişte tanıtılıyor.
+
+**K11, kalıcı olguların açtığı kapıyı kapatıyor.** Bir vaka bitince açılan olgular
+`kaliciOlgular`a yazılıyor ve künye ile koşullu metinler `tumBilinen()` üzerinden
+okuyor. İki vaka aynı olgu adını kullanırsa, birinde açılan olgu ötekinin katmanını
+açar. Yaşandı: YAN-A'daki `eski_dava` (Cengo'nun sabıkası) ile V5'teki `eski_dava`
+(Cavit'in İlyas'ı kurtardığı dosya) aynı addı; YAN-A'da o kaydı açan oyuncunun
+künyesinde İlyas **V3 daha başlamadan** "Cavit'in kurtardığı katil" diye görünüyordu.
+Ad ayrıldı (`cengo_eski_dava`); kural tekrarını engelliyor.
 
 ### Koşullu metin
 

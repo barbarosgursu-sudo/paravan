@@ -879,7 +879,7 @@
       "facts": {
         "sevil_tehdit": "Sevil eski bir sırrının ifşasıyla tehdit ediliyor.",
         "cengo_tepki": "Cengo, Sevil'i görünce kasıldı — aralarında bir geçmiş var.",
-        "eski_dava": "Yıllar önce bir suç; kayıtlarda Cengo'nun adı.",
+        "cengo_eski_dava": "Yıllar önce bir suç; kayıtlarda Cengo'nun adı.",
         "cengo_ustlendi": "Suç Sevil'indi; Cengo üstlendi. Sadakat MI, aptallık MI — belli değil.",
         "tehdit_kim": "Tehdit eden: eski o dünyadan biri.",
         "sevil_geldi_neden": "Sevil bu kapıyı boşuna çalmadı; ama minnet MI, korku MU — itiraf edemiyor, belli değil."
@@ -890,7 +890,7 @@
           "ifade": {
             "all": [
               "cengo_tepki",
-              "eski_dava"
+              "cengo_eski_dava"
             ]
           }
         },
@@ -946,7 +946,7 @@
             "cengo_tepki"
           ],
           "reveals": [
-            "eski_dava"
+            "cengo_eski_dava"
           ],
           "text": "Peri eski bir dava kaydına ulaştı: yıllar önce bir suç, ve kayıtta Cengo'nun adı. Cengo bundan hiç söz etmemişti.",
           "meta": "Cengo'nun sabıkası, sürüklenmişliği, o kenar dünyayı bilmesi — kökü burada.",
@@ -954,7 +954,7 @@
             "dosya": "yana_dava.jpg",
             "tur": "kanit",
             "gosterir": [
-              "eski_dava"
+              "cengo_eski_dava"
             ],
             "alt": "yıllanmış bir dava dosyası, üstünde bir isim"
           }
@@ -965,7 +965,7 @@
           "tur": "İfade",
           "ico": "◈",
           "needs": [
-            "eski_dava"
+            "cengo_eski_dava"
           ],
           "reveals": [
             "cengo_ustlendi"

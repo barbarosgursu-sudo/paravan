@@ -1,6 +1,6 @@
 // ============================================================================
 // PARAVAN DETEKTİFLİK — DOĞRULAYICI v1
-// Veri Format Sözleşmesi'nden okur, Doğrulayıcı Sözleşmesi'nin 5 kuralını çalıştırır.
+// Veri Format Sözleşmesi'nden okur, 11 kuralı çalıştırır (bkz. OKUBENI → Doğrulayıcı kuralları).
 // Kullanım: node dogrulayici.js  (GAME'i ./game_data.js'ten import eder)
 // ============================================================================
 
@@ -183,6 +183,24 @@ function kural4_truth(game, hatalar) {
         }
       }
     }
+  }
+}
+
+// Kural 11 — Olgu kimlikleri VAKALAR ARASINDA benzersiz olmalı. Olgular vaka bitince
+// kaliciOlgular'a taşınır ve künye/koşullu metin tumBilinen() üzerinden okur; aynı ad
+// iki vakada iki şey anlamına gelirse, birinde açılan olgu ötekinin katmanını açar.
+// Yaşanan örnek: YAN-A/eski_dava ile V5/eski_dava aynı addı — YAN-A'da o kaydı açan
+// oyuncunun künyesinde İlyas "Cavit'in kurtardığı katil" diye görünüyordu, V3 daha
+// başlamadan. Ad ayrıldı (cengo_eski_dava); bu kural tekrarını engelliyor.
+function kural11_olguBenzersiz(game, hatalar) {
+  const sahip = {};   // olgu → [vaka id]
+  for (const vaka of game.vakalar) {
+    const adlar = new Set([...Object.keys(vaka.facts || {}), ...(vaka.knowledge || []).map(k => k.turetilen)]);
+    for (const ad of adlar) (sahip[ad] ??= []).push(vaka.id);
+  }
+  for (const [ad, vakalar] of Object.entries(sahip)) {
+    if (vakalar.length > 1)
+      hatalar.push(`[K11] olgu '${ad}' birden çok vakada tanımlı: ${vakalar.join(", ")} — kalıcı olgular vakalar arası taşındığı için aynı ad iki anlam taşıyamaz.`);
   }
 }
 
@@ -522,6 +540,7 @@ function dogrula(game, ekstraKaynaklar) {
   kural2_erisilebilirlik(game, hatalar);
   kural3_dongu(game, hatalar);
   kural4_truth(game, hatalar);
+  kural11_olguBenzersiz(game, hatalar);
   kural5_belirsizlik(game, uyarilar);
   kural6_butce(game, hatalar, uyarilar);
   kural7_secim(game, hatalar, uyarilar);
@@ -536,6 +555,7 @@ function dogrula(game, ekstraKaynaklar) {
   kural("Kural 2 (Erişilebilirlik)", hatalar.some(h => h.startsWith("[K2]")));
   kural("Kural 3 (Döngü)         ", hatalar.some(h => h.startsWith("[K3]")));
   kural("Kural 4 (Truth uyumu)   ", hatalar.some(h => h.startsWith("[K4]")));
+  kural("Kural 11 (Olgu kimliği) ", hatalar.some(h => h.startsWith("[K11]")));
   kural("Kural 6 (Bütçe)         ", hatalar.some(h => h.startsWith("[K6]")));
   kural("Kural 10 (Olgu sızıntısı)", hatalar.some(h => h.startsWith("[K10]")));
 

@@ -203,3 +203,22 @@ Beş kural bir arada, çelişkiyi **yazılabilir ama teslim edilemez** kılar:
 Kural 1 serbest ismi, Kural 2 ulaşılamaz bilgiyi, Kural 3 kısır döngüyü, Kural 4 cetvele
 aykırılığı, Kural 5 belirsizliğin çözülmesini yakalar. Nurcan hatası artık kapıda durur —
 oyunun içine sızamaz.
+
+---
+
+## 7. Sonradan eklenen kurallar
+
+Sözleşme beş kuralla yazıldı; uygulama sırasında altı kural daha eklendi (K6 bütçe,
+K7 seçim baskısı, K8 baskınlık, K9 ölü tohum, K10 olgu sızıntısı, K11 olgu kimliği).
+Hepsinin gerekçesi ve şiddeti `OKUBENI.md` → "Doğrulayıcı kuralları" tablosunda.
+
+### Kural 11 — Olgu kimliği (hata)
+
+**Ne denetler:** Bir olgu adının (`facts` anahtarı ya da `knowledge.turetilen`) yalnızca
+tek bir vakada tanımlı olduğunu.
+
+**Neden:** Vaka bitince olgular `kaliciOlgular`a taşınıyor; künye katmanları ve koşullu
+metinler bu birleşik kümeyi okuyor. Aynı ad iki vakada iki şey anlamına gelirse, birinde
+hak edilen bilgi ötekinin kapısını açar — Nurcan kuralının sessiz bir ihlali.
+
+**Patlama koşulu:** Aynı olgu adı birden çok vakada tanımlıysa → **FAIL**.
