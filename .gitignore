@@ -3,3 +3,5 @@ kaynak/_gomulu_motor.js
 kaynak/_gomulu_veri.js
 # test_sizinti.js her çalıştığında üretir (insan gözüyle okunmak için)
 kaynak/_durum_matrisi.txt
+# arac_ui_tur.js her çalıştığında ekran görüntüsü üretir (gözle bakmak için)
+kaynak/UI_*.png
