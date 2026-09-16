@@ -612,6 +612,10 @@ Omurgayla hiçbir ilgisi yok. Borç **80.000 ₺**'yi geçince masaya düşer ve
 bunu yazar ("Gitmiyor. Ne zaman dönsen orada"). Kirli oynayan oyuncu bu vakayı
 hiç görmez.
 
+**Omurga bitince masaya düşmez.** Sezon bittiğinde borç eşiği ne kadar aşılmış olursa
+olsun yan iş listelenmiyor; yoksa "Dava Kapandı" ekranı yan işin arkasında kalıyor ve
+finalin Cengo mührü (`cavit_ver` → "Bağlı") sonraki kararla siliniyordu.
+
 Hulki adında bir adam tek bir şey ister: bir adres. Ödeyeceği rakam bir adres
 için değil, bir adresin sessizliği için. Peri'yi nereden bulduğu vakanın
 kalbi — Cengo'nun bedelsiz sorusu onu açar: *"Bu herif senin borcunu nereden

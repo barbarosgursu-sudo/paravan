@@ -185,5 +185,22 @@ console.log("\n=== AYLA'YI TANIMAK SATIŞI DEĞİŞTİRİYOR ===");
   }
 }
 
+
+console.log("\n=== FİNAL SONRASI ===");
+{
+  // Omurga bitince sezon biter. Borç eşiği ne kadar aşılmış olursa olsun yan iş
+  // masaya düşmemeli: yoksa "Dava Kapandı" ekranı bir yan işin arkasında kalır
+  // ve finalin Cengo mührü sonraki kararla silinir.
+  const o = new Oyun(g);
+  for (const vid of g.vakalar.filter(v => v.tur === "omurga").sort((a, b) => a.sira - b.sira).map(v => v.id)) {
+    o.vakaBaslat(vid); o.kararVer(o.acikKararlar()[0].id);
+  }
+  o.durum.borc = ESIK * 2; o.durum.para = 0;
+  k("omurga bitince borç ne olursa olsun masa BOŞ (YAN-C düşmez)", o.masadakiVakalar().length === 0);
+  // Ters yön: sezon sürerken eşik aşılıysa hâlâ düşüyor
+  const p = borcla(ESIK);
+  k("sezon sürerken eşik aşılıysa YAN-C hâlâ masada", p.masadakiVakalar().includes("YAN-C"));
+}
+
 console.log("\n" + (hata === 0 ? "=== YAN-C TEST TAMAM ===" : "=== " + hata + " BAŞARISIZ ==="));
 process.exit(hata ? 1 : 0);

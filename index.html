@@ -437,6 +437,11 @@ class Oyun {
       .filter(v => v.tur === "omurga" && !tamam.has(v.id))
       .sort((a, b) => a.sira - b.sira);
     if (omurga[0]) out.push(omurga[0].id);
+    // Omurga bitti = sezon bitti. Yan iş artık masaya düşmez. Yoksa borç eşiği
+    // tutuyorsa YAN-C finalden SONRA masada beliriyor: "Dava Kapandı" ekranı
+    // Hulki'nin arkasında kalıyor ve final mührü (cavit_ver → "Bağlı") bir
+    // sonraki yan işin kararıyla siliniyordu.
+    else return out;
     // Yan vakaların iki belirme biçimi var:
     //   sonra: "<vaka id>"  → YALNIZCA o vakadan hemen sonraki masada durur.
     //                         Omurgaya geçen oyuncu onu kalıcı kaybeder;
