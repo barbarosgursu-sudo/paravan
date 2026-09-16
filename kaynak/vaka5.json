@@ -115,7 +115,26 @@
   "clues": [
     {
       "id": "cavit_ilyas_ilgi",
-      "ad": "Cavit neden İlyas'ı önemsiyor?",
+      "ad": [
+        {
+          "kosul": {
+            "any": [
+              "iten_ilyas",
+              "ilyas_isim",
+              "ilyas_tahsildar",
+              {
+                "seed": "iten_biliniyor",
+                "esit": true
+              }
+            ]
+          },
+          "metin": "Cavit neden İlyas'ı önemsiyor?"
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cavit'in telaşı nereden?"
+        }
+      ],
       "tur": "Gözlem",
       "ico": "◉",
       "needs": [
@@ -124,8 +143,46 @@
       "reveals": [
         "cavit_ilyas_neden"
       ],
-      "text": "Cavit, İlyas gibi sıradan bir tahsildar için gereğinden fazla telaşlı. Peri soruyor: bu adamı neden bu kadar önemsiyor?",
-      "meta": "İlyas onun için sıradan biri değil. Aralarında bir geçmiş var.",
+      "text": [
+        {
+          "kosul": {
+            "any": [
+              "iten_ilyas",
+              "ilyas_isim",
+              "ilyas_tahsildar",
+              {
+                "seed": "iten_biliniyor",
+                "esit": true
+              }
+            ]
+          },
+          "metin": "Cavit, İlyas gibi sıradan bir tahsildar için gereğinden fazla telaşlı. Peri soruyor: bu adamı neden bu kadar önemsiyor?"
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cavit'in bu kez üstünü örtmek istediği bir adam var. Adını vermiyor, 'önemsiz biri' diyor — ama önemsiz biri için fazla telaşlı. Peri soruyor: bu adamı neden bu kadar önemsiyor?"
+        }
+      ],
+      "meta": [
+        {
+          "kosul": {
+            "any": [
+              "iten_ilyas",
+              "ilyas_isim",
+              "ilyas_tahsildar",
+              {
+                "seed": "iten_biliniyor",
+                "esit": true
+              }
+            ]
+          },
+          "metin": "İlyas onun için sıradan biri değil. Aralarında bir geçmiş var."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "O adam Cavit için sıradan biri değil. Aralarında bir geçmiş var."
+        }
+      ],
       "gorsel": null
     },
     {

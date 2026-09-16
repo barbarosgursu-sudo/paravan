@@ -82,6 +82,11 @@ const IMA = [
   { kelimeler: ["İlyas ile Cavit", "Cavit neden İlyas"],
     olgular: ["iten_ilyas", "ilyas_isim", "ilyas_tahsildar", "zincir_tam"],
     aciklama: "İlyas ile Cavit arasında bir bağ olduğu" },
+
+  // --- Fable turu -----------------------------------------------------------
+  { kelimeler: ["İlyas gibi", "sıradan bir tahsildar için", "İlyas onun için"],
+    olgular: ["ilyas_tahsildar", "ilyas_isim", "iten_ilyas", "zincir_tam"],
+    aciklama: "İlyas'ın adının ve tahsildar olduğunun bilindiği" },
 ];
 
 // ---------------------------------------------------------------------------
@@ -162,6 +167,10 @@ for (const [ad, derinlik, yan, vakaDerinligi] of [
   ["V4 SAVSAKLANDI ama komplo çözüldü", 1, false, { "V4": 0 }],
   // V1'i savsaklayıp sonrasını derin oynayan oyuncu
   ["V1 SAVSAKLANDI, gerisi derin", 1, false, { "V1": 0 }],
+  // İlyas'ı HİÇ tanımayan oyuncu: V2'de kapıyı gözlemedi (tahsildar yok), V3'te hiç
+  // araştırmadan tanığı lekeledi (isim yok) — ama V5'i derin kazıyor. V5 metinleri
+  // ona İlyas'ın adını da tahsildar olduğunu da hediye etmemeli.
+  ["İLYAS HİÇ TANINMADI (V2+V3 sığ), V5 derin", 1, false, { "V2": 0, "V3": 0 }],
 ]) {
   try {
     const r = oyna({ ad, arastirmaDerinligi: derinlik, yanVakalar: yan, vakaDerinligi,
