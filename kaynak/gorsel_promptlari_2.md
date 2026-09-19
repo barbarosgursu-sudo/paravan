@@ -836,14 +836,18 @@ hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görse
 hiçbir yazı, harf ya da rakam olmasın.
 Konu: Bir büro kapısının eşiği, içeriden bakış. Kapı yeni kapanmış, aralıktan merdiven boşluğu
 ve inen basamakların ilk ikisi görünüyor. Eşiğin hemen içinde, yerde, biraz önce düşürülmüş ya
-da bilerek bırakılmış küçük bir şey: katlanmış, kenarı yıpranmış ince bir kâğıt parçası — bir
-zarfın köşesinden yırtılmış kadar küçük. Görünen yüzü bomboş: mürekkep, damga ya da matbu iz
-yok. Kapının camı düz ve yazısız — üstünde tabela, harf ya da numara yok. Arkada büronun loş
-içi, uzakta masa. Kadrajda HİÇ İNSAN YOK: ne kişi, ne silüet, ne insan biçiminde bir gölge, ne
-de camda ya da yerde yansıyan bir insan hayali. Kapının camının ardı boş — merdiven boşluğundan
-başka bir şey görünmüyor. Biri az önce gitti ama görüntüde kimse kalmadı; gidişi yalnızca aralık
-kapı ve yerdeki kâğıt söylüyor. Kovalamaca YOK, gizem teatralliği YOK — bir kapının kapanışından
-sonra yerde kalan tek şey. Küçük, soğuk, açık uçlu.
+da bilerek bırakılmış küçük bir şey: ikiye KATLANMIŞ, kenarı yıpranmış ince bir kâğıt parçası —
+bir zarfın köşesinden yırtılmış kadar küçük. Kâğıt katlı duruyor; iç yüzü görünmüyor, dışarıda
+yalnızca boş arka yüzü ve katın keskin kenarı var. Üstünde hiçbir işaret yok: ne mürekkep, ne el
+yazısı, ne çizik, ne damga, ne matbu iz. Kapının camı düz ve yazısız — üstünde tabela, harf ya
+da numara yok. Arkada büronun loş içi: yıpranmış koyu ahşap bir masa, deri bir koltuk, metal bir
+evrak dolabı, kubbe başlıklı eski bir masa lambası, yerde desenli yıpranmış bir kilim. Ekran
+YOK, bilgisayar YOK, tekerlekli modern ofis sandalyesi YOK — bu büro eski ve analog. Kadrajda
+HİÇ İNSAN YOK: ne kişi, ne silüet, ne insan biçiminde bir gölge, ne de camda ya da yerde
+yansıyan bir insan hayali. Kapının camının ardı boş — merdiven boşluğundan başka bir şey
+görünmüyor. Biri az önce gitti ama görüntüde kimse kalmadı; gidişi yalnızca aralık kapı ve
+yerdeki kâğıt söylüyor. Kovalamaca YOK, gizem teatralliği YOK — bir kapının kapanışından sonra
+yerde kalan tek şey. Küçük, soğuk, açık uçlu.
 ```
 
 *Kısıt:* Yalnızca `avukat_izi` — kaçan avukata dair ince bir iz. Avukatın **yüzü, adı, yeri,
@@ -851,7 +855,10 @@ nereye kaçtığı yok**; bu vaka onu çözmüyor, Sezon 2'nin kapısını aral�
 değil — `portre_nadire` ayrı slot. Kâğıtta okunur hiçbir şey olamaz. İlk üretimde camda
 ayakta duran bir figür çıktı (sızıntı değildi, §7b'ye uygundu) ama "kapanıştan sonra kalan
 tek şey" hissini bozuyordu; "geçip giden gölgenin izi" ifadesi insan biçimi davet ettiği
-için gövdeden çıkarıldı.
+için gövdeden çıkarıldı. İkinci üretimde figür gitti ama kâğıtta el yazısı belirdi ve büroda
+ekran/tekerlekli sandalye çıktı (kanon büro: `karar_temiz` — ahşap masa, deri koltuk, metal
+evrak dolabı, analog). Üçüncüde kâğıt katlanıp yüzü gizlendi — v1_sigorta ve v6_zincir'de
+işe yarayan çözümün aynısı — ve büro donanımı gövdeye yazıldı.
 
 ---
 
