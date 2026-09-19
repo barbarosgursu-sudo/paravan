@@ -59,10 +59,20 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 |---|---|---|---|---|
 | `arastirma` | 180 sn | 44,6 – 157,1 | 112,5 sn | parlaklık 473 Hz, vurmalı yok |
 | `masa` | 219 sn | 111,9 – 148,6 | 36,7 sn | orta bölüm; sakin giriş de kesildi ama sahibi bunu seçti |
+| `giris` | 215 sn | 27,1 – 61,9 | 34,8 sn | parlaklık 862 Hz — setin en parlağı, sahibi bilerek seçti |
 
-`masa`'da bir gözlem: aynı stil satırı kalıbı `arastirma`'dan iki kat yoğun bir
-parça üretti (atak 100–165 vs 36–90). Brief `masa`'yı daha durağan istiyordu;
-sahibi yoğun sürümü seçti, yani ev standardı bu yoğunluğu tolere ediyor.
+İki gözlem, ikisi de sahibinin kararıyla kapandı:
+
+- `masa`: aynı stil satırı kalıbı `arastirma`'dan iki kat yoğun bir parça üretti
+  (atak 100–165 vs 36–90). Brief `masa`'yı daha durağan istiyordu; sahibi yoğun
+  sürümü seçti.
+- `giris`: parlaklık 796 Hz geldi (gömülü ikisi 430–473). Karanlık final bölümü
+  de aday olarak kesildi (387 Hz) ama sahibi parlak olanı seçti — giriş ekranının
+  bir tık farklı duyulması kasıtlı.
+
+**Sonuç: set tek bir renkte değil, bir bant içinde.** Parlaklık 430–860 Hz,
+yoğunluk 36–165 arası tolere ediliyor. Kalan parçalarda bu iki ölçü tek başına
+ret sebebi değil; ölçüp bildiriyorum, karar sahibinin.
 
 ---
 
