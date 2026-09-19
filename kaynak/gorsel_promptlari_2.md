@@ -574,11 +574,12 @@ tek sıcak leke masa lambasının dar kehribar konisi; görselin en fazla %20'si
 yandan gelir; masanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film greni,
 gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf
 ya da rakam olmasın.
-Konu: Masaya yayılmış bir dizi ince hesap dökümü şeridi, üst üste değil yan yana — biri
-ötekiyle karşılaştırılmış. Kâğıtların aynı hizasında, her birinde aynı yerde, düzenli
-tekrarlayan bir işaret izi: parmak ucuyla takip edilmiş bir sütun. Kenarda bir hesap makinesi
-ve ucu körelmiş bir kalem. Yanlarında bir esnaf defterinin kapalı cildi. Kâğıtlar temiz, borç
-batağı değil — düzenli, disiplinli, her ay aynı. Kimse yok. Suç yok, skandal yok; yalnızca
+Konu: Bir büro masasında yan yana dizilmiş bir dizi ince kâğıt: hepsi aynı boyda, hepsi aynı
+yerden katlanmış, hepsi YÜZÜ AŞAĞI. Yalnızca kenarları, katlanma çizgileri ve üst üste binen
+gölgeleri görünüyor; hiçbirinin yüzü kadrajda değil. Sayıları çok ve dizilişleri düzenli —
+aynı şeyin aylarca tekrarlandığını yalnızca bu tekrar söylüyor. Yanlarında lastikle bağlanmış
+kapalı bir esnaf defteri, bir ataç, ucu körelmiş bir kalem. Kâğıtların üstünde ne satır, ne
+sütun, ne rakam, ne mühür var; bilgiyi taşıyan şey sayı ve düzen. Kimse yok. Suç yok, skandal yok; yalnızca
 bir adamın kazandığından fazlasını bir yere gönderdiğini gösteren soğuk bir düzen. Sabırlı,
 sessiz, biraz hüzünlü.
 ```
@@ -601,7 +602,8 @@ Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
 Konu: Gece, kenar bir mahallenin arka sokağı. Bir duvar dibinde, yan yana dizilmiş birkaç
 eski sandalye ve devrilmiş bir tahta kasa — buranın düzenli bir bekleme yeri olduğu belli.
 Duvarda yıllanmış bir sıva çatlağı ve üstünde silinmeye çalışılmış koyu bir leke. Uzakta bir
-apartman girişi; kapı aralık ama içerisi karanlık. Hiç insan yok; yalnızca bir duvara yaslanan
+apartman girişi; kapı aralık ama içerisi karanlık. Sokakta araç YOK; tabela, levha, afiş,
+plaka, dükkân yazısı YOK. Hiç insan yok; yalnızca bir duvara yaslanan
 uzun, sahibi görünmeyen bir gölge. Silah YOK, şiddet YOK, kan YOK, tehditkâr figür YOK —
 tehlike yalnızca burasının kimin sokağı olduğunu bilen bir düzenden geliyor. Ağır, kapalı,
 tekinsiz.
@@ -624,7 +626,8 @@ derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) k
 Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
 Konu: Kapanmış bir çocuk doktoru muayenehanesi. Alçak bir muayene masası, üstünde katlanmış
 temiz bir örtü. Duvarda çocuk çizimlerinin asıldığı bir pano — kâğıtlar solmuş, bantları
-kurumuş, bir köşesi sarkmış. Bekleme tarafında iki küçük sandalye, biri hâlâ hafifçe yana
+kurumuş, bir köşesi sarkmış; çizimlerde yalnızca renkli şekiller var, hiçbir harf, isim ya da
+rakam yok. Bekleme tarafında iki küçük sandalye, biri hâlâ hafifçe yana
 dönük. Kapı camının ardında koridorun boşluğu. Her şey özenle bırakılmış: temiz, düzenli,
 geri gelinecekmiş gibi. Kimse yok. Ölüm yok, yas töreni yok, ağlayan kimse yok — yalnızca
 sevilen birinin ardından kapanmış bir odanın sessizliği. Hüzünlü, sıcak, onurlu.
@@ -647,8 +650,9 @@ greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinli
 harf ya da rakam olmasın.
 Konu: Yoksul ama tertemiz bir evin küçük odası. Tek kişilik bir çocuk yatağı, yorganı düzgünce
 çekilmiş ve boş. Başucunda bir sehpa: üstünde bir sürahi, bir bardak, ve düzenli sıralanmış
-birkaç ilaç kutusu — yenisi değil, yıllardır aynı sırayla dizilmiş olanlar. Duvarda küçük bir
-çocuk çizimi. Yerde, yatağın yanında, oturulmaktan yıpranmış bir tabure. Perde yarı çekili.
+birkaç ilaç kutusu — yenisi değil, yıllardır aynı sırayla dizilmiş olanlar. Kutular düz ve
+etiketsiz, yüzleri çevrili; üzerlerinde hiçbir yazı, marka ya da rakam görünmüyor. Duvarda
+küçük, yazısız bir çocuk çizimi. Yerde, yatağın yanında, oturulmaktan yıpranmış bir tabure. Perde yarı çekili.
 Kimse yok — ne çocuk, ne aile. Hastane YOK, tıbbi cihaz YOK, acı YOK, ağlama YOK. Yıllardır
 sürdürülen bir bakımın sessiz düzeni. Hüzünlü ama onurlu; sevgiyle tutulmuş bir oda.
 ```
@@ -670,8 +674,9 @@ tek sıcak leke tavandaki tek floresanın ucunda titreyen soluk sıcak leke; gö
 %20'si sıcak. Işık yukarıdan ve yandan gelir; koridorun derinliği karanlığa gider. Sinematik
 renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
 Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
-Konu: Eski bir hastanenin arşiv odası. Duvar boyunca metal kartoteks çekmeceleri; biri yarıya
-kadar açık, içinde sıkışık duran yüzlerce kart fişin sırtı görünüyor. Açık çekmecenin önünde
+Konu: Eski bir hastanenin arşiv odası. Duvar boyunca metal kartoteks çekmeceleri; çekmecelerin
+etiket çerçeveleri BOŞ. Biri yarıya kadar açık, içinde sıkışık duran yüzlerce kart fişin
+yalnızca sırtı görünüyor — hiçbir fişin yüzü kadrajda değil. Açık çekmecenin önünde
 bir tabure ve üstünde tek bir çıkarılmış dosya kartı, yüzü aşağı. Yanda tekerlekli bir arşiv
 merdiveni. Zemin karo, yer yer aşınmış. Hiç insan yok. Hastalık YOK, hasta YOK, tıbbi sahne
 YOK — bu bir kayıt odası, bir tedavi yeri değil. Yıllar öncesine uzanan bir bağın kâğıtta
