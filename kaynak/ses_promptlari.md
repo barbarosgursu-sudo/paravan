@@ -45,8 +45,24 @@ hamdan `44,6 – 157,1 sn` aralığı kesildi, 5 sn eşit-güç çapraz geçişl
 bağlandı → 112,5 sn dikişsiz. Araç: `arac_ses_olc.py` ölçer; kesme betikleri
 oturum içinde yazıldı, tarif burada.
 
-**Seviye:** parçalar −17 LUFS civarında geliyor, yer tutucular −20'ydi. Sekizi de
-tamamlanınca hepsi tek seviyeye hizalanacak — tek tek uğraşma.
+**Seviye:** parçalar −14 … −17 LUFS arasında geliyor, yer tutucular −20'ydi ve
+parçalar arası fark 3 dB'yi buluyor. Sekizi de tamamlanınca hepsi tek seviyeye
+hizalanacak — tek tek uğraşma.
+
+**Gelen parçanın tamamı kullanılmıyor.** Suno 3 dakikalık bir yay çiziyor: sakin
+giriş, hareketlenen orta, yatışan final. Hangi bölümün alınacağı parçanın briefine
+göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
+
+### Gömülenler
+
+| parça | ham | alınan aralık | döngü | not |
+|---|---|---|---|---|
+| `arastirma` | 180 sn | 44,6 – 157,1 | 112,5 sn | parlaklık 473 Hz, vurmalı yok |
+| `masa` | 219 sn | 111,9 – 148,6 | 36,7 sn | orta bölüm; sakin giriş de kesildi ama sahibi bunu seçti |
+
+`masa`'da bir gözlem: aynı stil satırı kalıbı `arastirma`'dan iki kat yoğun bir
+parça üretti (atak 100–165 vs 36–90). Brief `masa`'yı daha durağan istiyordu;
+sahibi yoğun sürümü seçti, yani ev standardı bu yoğunluğu tolere ediyor.
 
 ---
 
