@@ -458,14 +458,414 @@ sakin: ıslak asfalt, birkaç saksı, bir kedi — hiç araç yok."
 
 ---
 
-# SIRADAKİ PAKETLER (henüz yazılmadı)
+# PAKET 2 — V1 + V3 kalan kanıtları (4 görsel)
 
-| Paket | Kapsam | Yeni görsel |
+Omurganın ilk iki vakasında görselsiz kalan kaynaklar. İkisi belge/mekân, biri portre, biri
+tepki anı.
+
+---
+
+## 12. `v1_sigorta.jpg` — `sigorta_yazisi` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke masa lambasının dar kehribar konisi; görselin en fazla %20'si sıcak. Işık
+yandan ve sert gelir; masanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film
+greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı,
+harf ya da rakam olmasın.
+Konu: Bir dedektiflik bürosunun masasında, yeni açılmış kalın bir sigorta dosyası. Şirket
+işi: düzgün ciltlenmiş, lastikle bağlanmış, kenarları keskin — evde tutulan bir dosya değil,
+kurumsal bir dosya. İçinden iki ayrı kâğıt cinsi taşıyor: kalın poliçe sayfaları ve arada
+ince, uzun hesap dökümü şeritleri. Yanında bir ataç kutusu, bir bardak soğumuş çay. Dosya
+fazla düzenli, fazla eksiksiz — aceleyle ayıklanmadan verilmiş. Kimse yok. Ölüm yok, kaza
+yok, kan yok; yalnızca bekleyen bir ödemenin bürokratik ağırlığı. Soğuk, resmî, sabırlı.
+```
+
+*Kısıt:* Bu kaynak yalnızca `sigorta_sorusturma`'yı açıyor — ödemenin donduğunu ve bağımsız
+rapor beklendiğini. Cinayet, itiliş, merdiven, şüphe **görselde yok**. Hesap dökümü şeritleri
+kaynağın kendi metninde geçtiği için serbest (V4'ün köprüsü oradan kurulu), ama üstlerinde
+okunur rakam olamaz. Yüz yok.
+
+---
+
+## 13. `portre_komsu.jpg` — `komsu_ifadesi` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke aralanmış kapıdan sızan koridor ampulünün soluk kehribarı; görselin en fazla
+%20'si sıcak. Işık yandan gelir, yüzün yarısı gölgede kalır — ama yüz kaybolmaz, ifade net
+seçilir. Sinematik renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre
+yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Altmış yaşlarında bir kadının portresi; kendi kapısının aralığında duruyor, üstünde ev
+hırkası, saçı gecelik hâlinde toplanmış. Uyandırılmış ama şaşırmamış bir yüz — anlatacağı şeyi
+zaten kafasında çevirmiş biri. İfadesi ne korku ne heyecan: duyduğu bir şeyden emin, ama emin
+olmanın kendisinden rahatsız. Bakışı biraz yana, duvara doğru — ses o taraftan gelmişti.
+Sıradan, yorgun bir İstanbul yüzü. Suçlama yok, dehşet yok; yalnızca gece yarısı duyulan ve
+unutulamayan bir şeyin ağırlığı. Sakin, tedirgin, dürüst.
+```
+
+*Kısıt:* Yalnızca `komsu_ses` — o gece boğuk bir tartışma ve ikinci bir ses. Kadının kimi
+duyduğu, cinayet, itiliş, Ceyda'nın evde olup olmadığı **gösterilemez**. Korku dolu ya da
+tanıklıktan kaçan bir poz değil: bu kadın polise değil, size anlatıyor.
+
+---
+
+## 14. `v3_mahalle.jpg` — `mahalle_yokla` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke kepenkleri yarı inik bir bakkalın içinden sızan kehribar; görselin en fazla
+%20'si sıcak. Işık yandan ve alçaktan gelir; sokağın yarısı gölgede. Sinematik renk
+derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
+Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Akşamüstü, eski bir İstanbul mahallesinin dar sokağı. Bir bakkalın önünde duran boş
+plastik sandalyeler — biraz önce oturulmuş, aceleyle kalkılmış gibi hâlâ dağınık. Yarı inik
+kepenk. Bir balkonda yarı çekilmiş perde, arkasında kimse görünmüyor ama perde yeni
+kımıldamış. Islak kaldırımda tek bir kedi. Hiç insan yüzü yok; birkaç uzak silüet var, hepsi
+sırtı dönük ya da çoktan bir kapıdan giriyor. Konuşma bitmiş, soru sorulmuş, cevap alınmamış.
+Tehlike YOK, tehdit YOK — yalnızca herkesin aynı anda meşgul olduğu bir sessizlik. Soğuk,
+kapalı, ısrarla suskun.
+```
+
+*Kısıt:* Yalnızca `mahalle_fisilti` — o gece bir şey olduğu ve herkesin korkudan sustuğu.
+Tanığın kim olduğu, ne gördüğü, İlyas, yara, topallama **hiçbiri görselde olamaz**. Yüz yok.
+
+---
+
+## 15. `v3_teshis.jpg` — `foto_goster` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke masadaki tek ampulün kehribar halesi; görselin en fazla %20'si sıcak. Işık
+yandan ve sert gelir; odanın yarısı karanlıkta. Sinematik renk derecelendirmesi, hafif film
+greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı,
+harf ya da rakam olmasın.
+Konu: Küçük, mütevazı bir evin masası. Masanın üstünde yüzü aşağı bakan grenli bir fotoğraf —
+yalnızca beyaz arkası ve kıvrılmış köşesi görünüyor. Fotoğrafın üstünde yaşlı bir kadının eli:
+parmaklar geri çekilmiş, ağzına götürülmek üzere havada kalmış, eklemleri beyazlamış. Kadının
+yalnızca eli ve omzunun bir parçası kadrajda; yüzü kadrajın dışında. Karşısında ikinci bir el,
+fotoğrafı ona doğru itmiş ve orada bırakmış. İki el arasındaki mesafe konuşmayı bitirmiş.
+Şiddet YOK, ağlama YOK, dram YOK — bir tanımanın refleksi. Sessiz, keskin, geri alınamaz.
+```
+
+*Kısıt:* Yalnızca `foto_teshis` — tanığın fotoğrafı onayladığı. **Fotoğrafın yüzü görünmüyor**
+(o yüz `v3_gizli_foto`'nun işi, tekrarı bu kaynağın konusunu boğar). Tanığın yüzü de kadraj
+dışında — `portre_tanik` zaten var, burada anlatan şey el. İlyas'a dair hiçbir işaret yok.
+
+---
+
+# PAKET 3 — V2 + V4 kalan kanıtları (5 görsel)
+
+Biri belge, biri sokak, üçü V4'ün sessiz zinciri. V4 vakanın tonu **hüzün**; bu üç görsel
+setin en yumuşak ışığını taşır.
+
+---
+
+## 16. `v2_hesap.jpg` — `vedat_mali` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke masa lambasının dar kehribar konisi; görselin en fazla %20'si sıcak. Işık
+yandan gelir; masanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film greni,
+gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf
+ya da rakam olmasın.
+Konu: Masaya yayılmış bir dizi ince hesap dökümü şeridi, üst üste değil yan yana — biri
+ötekiyle karşılaştırılmış. Kâğıtların aynı hizasında, her birinde aynı yerde, düzenli
+tekrarlayan bir işaret izi: parmak ucuyla takip edilmiş bir sütun. Kenarda bir hesap makinesi
+ve ucu körelmiş bir kalem. Yanlarında bir esnaf defterinin kapalı cildi. Kâğıtlar temiz, borç
+batağı değil — düzenli, disiplinli, her ay aynı. Kimse yok. Suç yok, skandal yok; yalnızca
+bir adamın kazandığından fazlasını bir yere gönderdiğini gösteren soğuk bir düzen. Sabırlı,
+sessiz, biraz hüzünlü.
+```
+
+*Kısıt:* Yalnızca `vedat_mali_sikinti` — düzenli bir para çıkışı olduğu. Paranın **kime**
+gittiği, kardeş, tahsildar, kenar mahalle, tehlike **yok**. Aldatma iması da yok — bu kaynak
+Nesrin'in şüphesini çürütmeye giden yolun ilk adımı. Rakam okunmayacak.
+
+---
+
+## 17. `v2_mahalle.jpg` — `mahalle_konus` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke uzakta yanan tek bir apartman penceresinin soluk kehribarı; görselin en fazla
+%20'si sıcak. Işık yandan ve zayıf gelir; sokağın çoğu gölgede. Sinematik renk
+derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
+Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Gece, kenar bir mahallenin arka sokağı. Bir duvar dibinde, yan yana dizilmiş birkaç
+eski sandalye ve devrilmiş bir tahta kasa — buranın düzenli bir bekleme yeri olduğu belli.
+Duvarda yıllanmış bir sıva çatlağı ve üstünde silinmeye çalışılmış koyu bir leke. Uzakta bir
+apartman girişi; kapı aralık ama içerisi karanlık. Hiç insan yok; yalnızca bir duvara yaslanan
+uzun, sahibi görünmeyen bir gölge. Silah YOK, şiddet YOK, kan YOK, tehditkâr figür YOK —
+tehlike yalnızca burasının kimin sokağı olduğunu bilen bir düzenden geliyor. Ağır, kapalı,
+tekinsiz.
+```
+
+*Kısıt:* `kacak_kardes` ve `kardes_tehlike` — borcun kardeşe ait olduğu ve işin tehlikeli
+olduğu. Kardeşin **yüzü yok** (hiç gösterilmiyor, vakada da yok). İlyas yok, tahsilat anı yok,
+Vedat yok. Tehlike atmosferle anlatılır; sahnelenmiş bir suç görüntüsü olamaz.
+
+---
+
+## 18. `v4_cevre.jpg` — `kaya_cevre` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke perdeden sızan geç öğleden sonra ışığının soluk kehribarı; görselin en fazla
+%20'si sıcak. Işık yandan ve yumuşak gelir; odanın yarısı gölgede. Sinematik renk
+derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
+Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Kapanmış bir çocuk doktoru muayenehanesi. Alçak bir muayene masası, üstünde katlanmış
+temiz bir örtü. Duvarda çocuk çizimlerinin asıldığı bir pano — kâğıtlar solmuş, bantları
+kurumuş, bir köşesi sarkmış. Bekleme tarafında iki küçük sandalye, biri hâlâ hafifçe yana
+dönük. Kapı camının ardında koridorun boşluğu. Her şey özenle bırakılmış: temiz, düzenli,
+geri gelinecekmiş gibi. Kimse yok. Ölüm yok, yas töreni yok, ağlayan kimse yok — yalnızca
+sevilen birinin ardından kapanmış bir odanın sessizliği. Hüzünlü, sıcak, onurlu.
+```
+
+*Kısıt:* Yalnızca `kaya_itibar` — Kaya'nın sevilen, dürüst bilinen bir doktor olduğu. Gizli
+ödeme, çocuk, aile, Ceyda, cinayet **hiçbiri yok**. Panodaki çizimlerde okunur harf ya da
+isim olamaz. Yüz yok — `portre_kaya` ayrı bir slot.
+
+---
+
+## 19. `v4_aile_evi.jpg` — `cocuk_bul` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke başucundaki küçük lambanın kehribarı; görselin en fazla %20'si sıcak. Işık
+yandan ve yumuşak gelir; odanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film
+greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı,
+harf ya da rakam olmasın.
+Konu: Yoksul ama tertemiz bir evin küçük odası. Tek kişilik bir çocuk yatağı, yorganı düzgünce
+çekilmiş ve boş. Başucunda bir sehpa: üstünde bir sürahi, bir bardak, ve düzenli sıralanmış
+birkaç ilaç kutusu — yenisi değil, yıllardır aynı sırayla dizilmiş olanlar. Duvarda küçük bir
+çocuk çizimi. Yerde, yatağın yanında, oturulmaktan yıpranmış bir tabure. Perde yarı çekili.
+Kimse yok — ne çocuk, ne aile. Hastane YOK, tıbbi cihaz YOK, acı YOK, ağlama YOK. Yıllardır
+sürdürülen bir bakımın sessiz düzeni. Hüzünlü ama onurlu; sevgiyle tutulmuş bir oda.
+```
+
+*Kısıt:* Yalnızca `cocuk_hasta` — paranın ağır hasta bir çocuğun tedavisine gittiği. **Çocuğun
+yüzü ve bedeni görselde YOK** (hasta bir çocuğu göstermek hem oyuncunun hak etmediği bir
+yakınlık kurar hem de vakanın tonunu melodrama çevirir). Kaya, doktor bağı, ödemenin kesilmesi
+ve ailenin hayırseveri bilmediği **gösterilemez** — onlar sonraki kaynakların işi. İlaç
+kutularında okunur yazı olamaz.
+
+---
+
+## 20. `v4_hastane.jpg` — `hastane_kayit` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke tavandaki tek floresanın ucunda titreyen soluk sıcak leke; görselin en fazla
+%20'si sıcak. Işık yukarıdan ve yandan gelir; koridorun derinliği karanlığa gider. Sinematik
+renk derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
+Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Eski bir hastanenin arşiv odası. Duvar boyunca metal kartoteks çekmeceleri; biri yarıya
+kadar açık, içinde sıkışık duran yüzlerce kart fişin sırtı görünüyor. Açık çekmecenin önünde
+bir tabure ve üstünde tek bir çıkarılmış dosya kartı, yüzü aşağı. Yanda tekerlekli bir arşiv
+merdiveni. Zemin karo, yer yer aşınmış. Hiç insan yok. Hastalık YOK, hasta YOK, tıbbi sahne
+YOK — bu bir kayıt odası, bir tedavi yeri değil. Yıllar öncesine uzanan bir bağın kâğıtta
+durduğu, tozlu, sabırlı bir yer. Soğuk, kurumsal, biraz ürpertici.
+```
+
+*Kısıt:* Yalnızca `kaya_doktor_bag` — çocukla Kaya'nın doktor-hasta olarak tanıştığı. Kaya'nın
+**adı, yüzü, imzası görselde olamaz** (kural: hiçbir yazı yok; bağı kaynağın metni kuruyor).
+Çocuk, aile, ödeme yok.
+
+---
+
+# PAKET 4 — V5, V6 ve yan işlerin kalanı (6 görsel)
+
+Sezonun sonuna giden zincir. Üçü V5'in takip-şüphe hattı, biri finalin toparlaması, ikisi yan
+işlerin kapanış kaynakları.
+
+---
+
+## 21. `v5_dosya_donus.jpg` — `dosya_donus` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke masa lambasının kehribar konisi; görselin en fazla %20'si sıcak. Işık yandan
+gelir; masanın yarısı gölgede. Sinematik renk derecelendirmesi, hafif film greni, gerçekçi
+dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı, harf ya da rakam
+olmasın.
+Konu: Eski bir büro masası, gece. Ortada aylar önce kapatılmış bir dosya yeniden açılmış:
+kapağın katlanma izi hâlâ üstünde, kenarları yıpranmış. Etrafına, sonradan biriken kâğıtlar
+yelpaze gibi dizilmiş — hepsi aynı dosyaya bakıyor. Kâğıtların üçünde aynı yerde aynı biçimde
+kıvrılmış bir köşe, biri ötekinin üstüne dikkatle hizalanmış: bir el bunları defalarca yan yana
+koymuş. Lamba dosyayı değil, dosyanın etrafındaki halkayı aydınlatıyor. Kül tablasında iki
+izmarit. Kimse yok. Yeni bir delil YOK; eskiye yeniden bakmanın soğukluğu var. Ağır, sabırlı,
+huzursuz.
+```
+
+*Kısıt:* Yalnızca `kaya_dosya_donus` — ilk dosyaya dönünce her düğümde aynı kişinin çıktığı.
+Cavit'in **yüzü, adı, fotoğrafı görselde yok** (`portre_cavit` ayrı slot; şüphe bu kaynağın
+metninde kuruluyor, görselde değil). Ceyda, İlyas, ilişki, cinayet sahnesi yok.
+
+---
+
+## 22. `v5_takip.jpg` — `cavit_izle` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke uzaktaki bir sokak lambasının camda dağılan kehribarı; görselin en fazla
+%20'si sıcak. Işık yandan ve uzaktan gelir; ön plan karanlıkta. Sinematik renk
+derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
+Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
+Konu: Gece, park etmiş bir arabanın içinden dışarı bakış. Ön camın alt kenarında buğu, üstünde
+yağmur damlaları; cam kısmen kararmış, dışarısı bulanık. Uzakta ıslak bir cadde ve birkaç
+sönük vitrin. Kadrajın kenarında, torpidonun üstünde soğumuş bir termos bardağı. Dışarıda
+kimse yok — takip edilen kişi kadrajda değil, henüz gelmemiş ya da çoktan geçmiş. Hiç insan
+figürü yok. Silah YOK, gerilim YOK, kovalamaca YOK — yalnızca beklemenin kendisi: saatlerdir
+aynı yerde duran bir arabanın içi. Soğuk, sabırlı, yalnız.
+```
+
+*Kısıt:* Yalnızca `cavit_takip` — Peri'nin Cavit'i izlemeye başladığı. Takibin **nereye
+çıktığı** (Ceyda'nın kapısı, ilişki, perde) bu görselde **olamaz** — o `v5_perde`'nin işi ve
+bir sonraki kaynağın ödülü. Cavit kadrajda yok, Peri'nin yüzü de yok.
+
+---
+
+## 23. `v5_bulanik.jpg` — `ceyda_derin` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke aralık duran çekmeceye düşen ince kehribar çizgi; görselin en fazla %20'si
+sıcak. Işık yandan ve dar gelir; odanın çoğu gölgede. Sinematik renk derecelendirmesi, hafif
+film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir
+yazı, harf ya da rakam olmasın.
+Konu: Bakımlı bir evin tuvalet masası, gece. Üstünde iki şey yan yana duruyor ve ikisi de aynı
+kadına ait: bir yanda yas tutan birinin eşyası — siyah bir eşarp, ters çevrilmiş bir çerçeve,
+kullanılmamış bir mendil; öbür yanda hesap tutan birinin eşyası — kilitli küçük bir kutu,
+bir anahtar, düzgünce katlanmış resmî görünüşlü bir kâğıt. İkisinin arasında ayna, ama ayna
+kadrajın açısından kimseyi yansıtmıyor. Bir çekmece parmak genişliğinde aralık kalmış. Kimse
+yok. İki eşya öbeği eşit ışık alıyor, hangisinin asıl olduğu **belli değil**. Suç YOK, kanıt
+YOK, itiraf YOK. Soğuk, kapalı, huzursuz edecek kadar dengeli.
+```
+
+*Kısıt:* `ip_akil` ve `ip_para` — cinayet fikrinin ondan çıkmış olabileceği ve servetle fazla
+ilgilendiği. **Ceyda çözülmez** (kanon: `ceyda_pay` hiçbir yerde kesinleşmez, K5 bunu
+koruyor). Görsel iki okunuşu da **eşit ağırlıkta** taşımalı: yas eşyaları hesap eşyalarından
+ne daha aydınlık ne daha soluk olacak. Suçlayan bir kompozisyon (karanlıkta parlayan kutu,
+gölgede gizlenmiş bakış) **yasak**. Ceyda'nın yüzü yok — `portre_ceyda_golge` ayrı slot.
+
+---
+
+## 24. `v6_zincir.jpg` — `zincir_ozet` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke masa lambasının kehribar konisi; görselin en fazla %20'si sıcak. Işık tam
+tepeden ve yandan gelir; masanın dışı karanlıkta. Sinematik renk derecelendirmesi, hafif film
+greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı,
+harf ya da rakam olmasın.
+Konu: Gece geç saat, büro masası yukarıdan görülüyor. Masanın üstü tek bir hat boyunca
+dizilmiş: yıllanmış bir dava dosyası, bir hesap dökümü şeridi, yüzü aşağı bakan grenli bir
+fotoğraf, ve en sonda kapatılmış bir kaza raporu. Aralarında boşluk yok — biri ötekinin
+kenarına değecek kadar yaklaştırılmış, sıra bilinçli. Kâğıtların altında, masanın ahşabında
+yıllanmış halkalar. Kenarda sönmüş bir sigara ve soğumuş çay. Kimse yok; yalnızca bir sandalye
+geri itilmiş. Ok YOK, ip YOK, duvar panosu YOK, not YOK — bağı kuran şey yalnızca dizilişin
+kendisi. Sessiz, kesin, ağır.
+```
+
+*Kısıt:* Yalnızca `zincir_tam`. Bu kaynak **ancak** V5'te tam resmi çözen oyuncuya açılıyor,
+yani zincirin parçaları hak edilmiş. Yine de **hiçbir yüz** gösterilmiyor: fotoğraf yüzü
+aşağı, kimse kadrajda değil — dizilişin kendisi anlatıyor. Okunur yazı, isim, tarih yok.
+
+---
+
+## 25. `yana_sevil_kapali.jpg` — `sevil_okuma` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke pencereden giren geç ikindi ışığının soluk kehribarı; görselin en fazla %20'si
+sıcak. Işık yandan ve yumuşak gelir; odanın yarısı gölgede. Sinematik renk derecelendirmesi,
+hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle
+hiçbir yazı, harf ya da rakam olmasın.
+Konu: Bir büro masasında, misafir tarafında bırakılmış bir kadın eldiveni — tek tek, çifti
+yok. Yanında dokunulmamış bir çay bardağı, kenarında ruj izi bile yok. Karşıdaki sandalye
+geri itilmemiş, düzgünce yerinde: kalkan kişi acele etmemiş. Masanın kenarında kapalı, tokası
+takılı küçük bir deri defter — kimsenin açmadığı, açmaya da çalışmadığı bir defter. Pencereden
+giren ışık defterin üstüne düşüyor ama içini göstermiyor. Kimse yok. Sır YOK, ifşa YOK, kanıt
+YOK — yalnızca bir kadının neden geldiğini söylemeden gittiği bir odanın sessizliği. Ölçülü,
+kapalı, okunamaz.
+```
+
+*Kısıt:* Yalnızca `sevil_geldi_neden` — Sevil'in bu kapıyı boşuna çalmadığı. **Minnet mi korku
+mu, çözülmez** (kanon: `sevil_pay` belirsiz, K5 koruyor): görsel iki yönden birine ağırlık
+veremez. Cengo, eski dava, suçun kime ait olduğu **yok**. Sevil'in yüzü yok — `portre_sevil`
+ayrı slot; burada anlatan şey geride bırakılan eşya.
+
+---
+
+## 26. `yanb_kirinti.jpg` — `avukat_kirintisi` ipucu
+
+```
+Foto-gerçekçi, sinematik, atmosferik bir dijital render; "İstanbul Noir" havası — bir film
+karesi gibi. Palet: ağırlıklı soğuk kurşuni gri ve gece laciverti (asla saf siyah değil);
+tek sıcak leke kapı aralığından sızan merdiven ampulünün kehribarı; görselin en fazla %20'si
+sıcak. Işık yandan ve dar gelir; sahnenin çoğu gölgede. Sinematik renk derecelendirmesi,
+hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle
+hiçbir yazı, harf ya da rakam olmasın.
+Konu: Bir büro kapısının eşiği, içeriden bakış. Kapı yeni kapanmış, aralıktan merdiven boşluğu
+ve inen basamakların ilk ikisi görünüyor. Eşiğin hemen içinde, yerde, biraz önce düşürülmüş
+ya da bilerek bırakılmış küçük bir şey: katlanmış, kenarı yıpranmış ince bir kâğıt parçası —
+bir zarfın köşesinden yırtılmış kadar küçük. Üstünde hiçbir iz okunmuyor. Arkada büronun loş
+içi, uzakta masa. Hiç insan yok; yalnızca kapının camında geçip giden bir gölgenin izi.
+Kovalamaca YOK, gizem teatralliği YOK — bir kapının kapanışından sonra yerde kalan tek şey.
+Küçük, soğuk, açık uçlu.
+```
+
+*Kısıt:* Yalnızca `avukat_izi` — kaçan avukata dair ince bir iz. Avukatın **yüzü, adı, yeri,
+nereye kaçtığı yok**; bu vaka onu çözmüyor, Sezon 2'nin kapısını aralıyor. Nadire kadrajda
+değil — `portre_nadire` ayrı slot. Kâğıtta okunur hiçbir şey olamaz.
+
+---
+
+# PAKET 5 — krizler + final (4 görsel) — **ÖNCE ARAYÜZ İŞİ GEREKİYOR**
+
+Bu paketin promptları **bilerek yazılmadı.** Sebep: bu dört görselin bağlanacağı slot veride
+ya da arayüzde **yok**.
+
+| Düşünülen görsel | Nereye bağlanacaktı | Bugünkü durum |
 |---|---|---|
-| 2 | V1 + V3 kanıtları (sigorta dosyası, komşu, mahalle, tanığın tepkisi) | 4 |
-| 3 | V4 + V2 kanıtları (hastane kaydı, çocuk, Vedat'ın parası, mahalle fısıltısı) | 5 |
-| 4 | V5 + V6 (Cavit takibi, Ceyda'nın bulanıklığı, dosyaya dönüş, zincir) | 5 |
-| 5 | Krizler + final (elektrik kesik ofis, icra, sezon sonu) | 4 |
+| Elektrik kesik büro | sonuç ekranı kriz kutusu (`isletme`) | kutu yalnızca metin (`build_html.js` → `KRIZ_METIN`) |
+| İcra ihbarnamesi | kriz kutusu (`kira`) | aynı |
+| Cengo'ya ödenemeyen ay | kriz kutusu (`cengo`) | aynı |
+| Sezon sonu | `sonEkrani()` | görsel kancası yok |
 
-Toplamda 7 + 22 = **29 yeni görsel**, 63 slotun tamamı dolar. WebP bütçesiyle
-index.html ~4,1 MB — bugünkü 2,25 MB'dan büyük ama dünkü 4,47 MB'dan küçük.
+Yani bunlar sipariş edilmeden önce küçük bir arayüz işi var: kriz kutusuna ve son ekranına
+görsel alanı eklemek, krizleri `KRIZ_METIN` yerine görselli bir haritaya bağlamak (motordaki
+`KRIZLER` ile eşleşmesi `test_borc.js` tarafından zaten kilitli — yeni alan eklenirken o eşleme
+korunmalı). Karar sahibin: **görsel slotu 63'e çıkarılacak mı, yoksa hedef 59'da mı kapanacak?**
+
+Hedef 59'da kapanırsa bu dosyadaki 15 prompt sezonun görsel işini bitiriyor.
+
+---
+
+# SLOT SAYIMI (19 Eylül 2026)
+
+| | Sayı |
+|---|---|
+| Gömülü görsel | 44 |
+| Bu dosyadaki bekleyen prompt (Paket 2-4) | 15 |
+| **Veride tanımlı toplam slot** | **59** |
+| Paket 5 (krizler + final) — slot henüz yok | 4 |
+
+Eski tablodaki "63 slot / 29 yeni görsel" hedefi Paket 5'in dört görselini de sayıyordu;
+onların bağlanacağı yer veride hiç açılmamıştı. 59 bugünkü gerçek sayıdır.
