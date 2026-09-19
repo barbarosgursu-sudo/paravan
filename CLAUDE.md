@@ -19,7 +19,9 @@ node dogrulayici.js && node build_html.js     # doğrulayıcı geçmezse derleme
 for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçmeli
 ```
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
-bir betiktir; çıkış kodu 1'dir ve bu normaldir. Diğer 17 test geçmelidir.
+bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
+başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
+Diğer 17 test geçmelidir.
 
 Doğrulayıcı **11 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -64,6 +66,14 @@ bunu dokuz vakanın hepsinde sınıyor.
   *ilişkiyle* kur, yoksa veri değişince test yalan söyler.
 - **Arayüz/motor ayrışması** sessizdir. İki yerde duran her şey (KRIZLER/KRIZ_METIN,
   kararRuhHali/RUH_GORSEL) test ile eşlenmiştir; yenisini eklerken aynısını yap.
+- **`GORSELLER` anahtarı UZANTISIZ.** Sayfa her aramada `.replace('.jpg','')` yapıyor,
+  yani `"v5_takip.jpg"` diye gömülen bir görsel hiç bulunamaz. Eksik görsel JS hatası
+  vermez, sessizce metin yer tutucuya düşer — `arac_ui_tur.js` de yakalamaz. Düşüldü:
+  7 görsel uzantılı gömüldü ve hiçbiri görünmedi. `build_html.js` artık hem uzantılı
+  anahtarı hem de gömülmemiş atfı yakalayıp derlemeyi durduruyor; görsel gömdükten
+  sonra derlemenin "✓ görsel: N atıfın hepsi gömülü" satırını görmek şart.
+- **Tarayıcı turu her şeyi görmez.** JS hatası, yatay taşma, dokunma hedefi ve
+  kayıt-sürdürme bakar; eksik görsele, yanlış metne, bozuk yerleşime bakmaz.
 
 ## Doğrulama
 
@@ -78,17 +88,23 @@ uygulandı — bulgular ve commit'ler `kaynak/inceleme_fable.md`, uygulama talim
 açık bırakıldı (ruh hâli sınıflaması, istatistik paneli, künye tanışma koşulları) —
 sahibine sorulacak.
 
-Kalan iki iş:
+**Görseller bitti (19 Eylül 2026).** 59 gömülü görsel, WebP q80,
+`_gomulu_gorseller.js` içinde base64; veride tanımlı her slot dolu. Sahibinin kararı:
+**sezon 59'da kapandı.** Paket 5'in dört görseli (kriz kutusu + sezon sonu) sipariş
+edilmedi — bağlanacakları slot veride hiç açılmamıştı, açmak arayüz işi gerektiriyor;
+gerekçe ve dönülecek yer `kaynak/gorsel_promptlari_2.md` PAKET 5 başlığında.
 
-1. **Görseller.** 44 gömülü görsel, WebP q80, `_gomulu_gorseller.js` içinde base64.
-   Hedef 63 slot. Sipariş metinleri `kaynak/gorsel_promptlari_2.md` içinde; kalıp,
-   tek parça kopyala-yapıştır promptlar. Paket 1 (YAN-C), 1-EK (`portre_dolandirici`)
-   Paket 6 (karar ruh hâlleri) ve Paket 1-DÜZELTME gömüldü; bekleyen Paket 2-5, 19 görsel.
-   Gelen görsel 900 px genişliğe indirilip WebP q80 ile gömülür. Gömmeden önce üç
-   kontrol: mevcut setle parlaklık karşılaştırması, büyütülmüş harf/rakam taraması
-   (plaka, tabela, etiket), ve slotun `gosterir`ine karşı Nurcan kontrolü.
-2. **Ses.** `ses/*.wav` 13 sentetik yer tutucu. Sipariş metinleri
-   `kaynak/ses_promptlari.md`, silinecek not `ses/GECICI.md`.
+Yeni görsel gerekirse boru hattı değişmedi: 900 px genişliğe indir, WebP q80 ile göm,
+öncesinde üç kontrol — mevcut setle parlaklık karşılaştırması, büyütülmüş harf/rakam
+taraması (plaka, tabela, etiket, kâğıt yüzü), ve slotun `gosterir`ine karşı Nurcan
+kontrolü. Tekrar tekrar ısıran ders: genel "yazı olmasın" satırı, gövdede **açıkça
+istenmiş** bir nesneyi geçersiz kılamaz. Yazı taşıyabilecek nesnenin yüzü gövdede
+kapatılır ("dosya KAPALI", "kâğıt katlı, iç yüzü görünmüyor"), boş yüz istenmez.
+
+Kalan tek iş:
+
+- **Ses.** `ses/*.wav` 13 sentetik yer tutucu. Sipariş metinleri
+  `kaynak/ses_promptlari.md`, silinecek not `ses/GECICI.md`.
 
 Sonrası Android aşaması (bilerek ertelendi): Capacitor, görselleri base64'ten
 çıkarma, donanım geri tuşu, erişilebilirlik, ve `kaynak/final_tablo_plani.md`'deki

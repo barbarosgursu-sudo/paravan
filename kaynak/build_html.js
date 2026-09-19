@@ -1294,6 +1294,33 @@ baslat();
   }
 }
 
+// Görsel anahtarı sessiz bir tuzak: sayfa her aramada `.replace('.jpg','')`
+// yapıyor, yani GORSELLER'e uzantılı gömülen bir görsel HİÇ bulunamaz —
+// ekranda JS hatası değil, metin yer tutucu çıkar. Bir kez düşüldü (7 görsel
+// .jpg anahtarıyla gömüldü, hiçbiri görünmedi, UI turu da yakalamadı).
+// Atıfları üretilen sayfadan topluyoruz: veri, künye ve RUH_GORSEL'in hepsi
+// oraya düştüğü için tek tarama üçünü birden kapsıyor.
+{
+  const anahtar = new Set(
+    [...gorselveri.matchAll(/"([^"]+)":\s*"data:image\//g)].map(m => m[1])
+  );
+  const uzantili = [...anahtar].filter(k => k.endsWith(".jpg"));
+  if (uzantili.length) {
+    console.error("DERLEME DURDU — GORSELLER anahtarı uzantılı (sayfa .jpg'yi kırpıp");
+    console.error("  arar, bu anahtarlar hiç bulunamaz):", uzantili.join(", "));
+    process.exit(1);
+  }
+  const istenen = new Set(
+    [...html.matchAll(/['"]([a-z0-9_]+\.jpg)['"]/g)].map(m => m[1])
+  );
+  const eksik = [...istenen].filter(d => !anahtar.has(d.replace(".jpg", "")));
+  if (eksik.length) {
+    console.error("DERLEME DURDU — sayfada atıf var ama gömülü görsel yok:", eksik.join(", "));
+    process.exit(1);
+  }
+  console.log("  \u2713 görsel: " + istenen.size + " atıfın hepsi gömülü (" + anahtar.size + " anahtar)");
+}
+
 fs.writeFileSync("../index.html", html);
 console.log("index.html yenilendi:", (html.length/1024).toFixed(0), "KB");
 // Geliştirici modunun yanlışlıkla yayına gitmesi sessizce olabilecek bir hata.

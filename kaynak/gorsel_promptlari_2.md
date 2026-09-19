@@ -862,7 +862,10 @@ işe yarayan çözümün aynısı — ve büro donanımı gövdeye yazıldı.
 
 ---
 
-# PAKET 5 — krizler + final (4 görsel) — **ÖNCE ARAYÜZ İŞİ GEREKİYOR**
+# PAKET 5 — krizler + final (4 görsel) — **KAPATILDI (19 Eylül 2026)**
+
+**Sahibinin kararı: sezon 59 slotta kapandı; bu paket sipariş edilmedi.** Aşağısı, ileride
+dönülmek istenirse diye duruyor — iş listesi değil, kayıt.
 
 Bu paketin promptları **bilerek yazılmadı.** Sebep: bu dört görselin bağlanacağı slot veride
 ya da arayüzde **yok**.
@@ -877,20 +880,21 @@ ya da arayüzde **yok**.
 Yani bunlar sipariş edilmeden önce küçük bir arayüz işi var: kriz kutusuna ve son ekranına
 görsel alanı eklemek, krizleri `KRIZ_METIN` yerine görselli bir haritaya bağlamak (motordaki
 `KRIZLER` ile eşleşmesi `test_borc.js` tarafından zaten kilitli — yeni alan eklenirken o eşleme
-korunmalı). Karar sahibin: **görsel slotu 63'e çıkarılacak mı, yoksa hedef 59'da mı kapanacak?**
+korunmalı).
 
-Hedef 59'da kapanırsa bu dosyadaki 15 prompt sezonun görsel işini bitiriyor.
+Bu soru soruldu ve **59'da kapatmak** yönünde cevaplandı. Bu dosyadaki 15 prompt üretildi,
+gömüldü ve sezonun görsel işini bitirdi.
 
 ---
 
-# SLOT SAYIMI (19 Eylül 2026)
+# SLOT SAYIMI (19 Eylül 2026 — kapanış)
 
 | | Sayı |
 |---|---|
-| Gömülü görsel | 44 |
-| Bu dosyadaki bekleyen prompt (Paket 2-4) | 15 |
+| Gömülü görsel | 59 |
 | **Veride tanımlı toplam slot** | **59** |
-| Paket 5 (krizler + final) — slot henüz yok | 4 |
+| Bekleyen prompt | 0 |
+| Paket 5 (krizler + final) — slot açılmadı, sipariş edilmedi | 4 |
 
 Eski tablodaki "63 slot / 29 yeni görsel" hedefi Paket 5'in dört görselini de sayıyordu;
-onların bağlanacağı yer veride hiç açılmamıştı. 59 bugünkü gerçek sayıdır.
+onların bağlanacağı yer veride hiç açılmamıştı. **Veride tanımlı her slot dolu.**
