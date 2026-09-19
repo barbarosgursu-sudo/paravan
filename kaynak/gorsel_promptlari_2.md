@@ -710,11 +710,11 @@ olmasın.
 Konu: Eski bir büro masası, gece. Ortada aylar önce kapatılmış bir dosya duruyor — yeniden
 açılıp yine kapatılmış: kapağın katlanma izi hâlâ üstünde, kenarları yıpranmış. Dosya KAPALI;
 hiçbir sayfanın yüzü görünmüyor. Etrafına, sonradan biriken kâğıtlar yelpaze gibi dizilmiş —
-hepsi yüzü aşağı, görünen arka yüzleri bomboş; hepsi aynı dosyaya bakıyor. Kâğıtların üçünde aynı yerde aynı biçimde
-kıvrılmış bir köşe, biri ötekinin üstüne dikkatle hizalanmış: bir el bunları defalarca yan yana
-koymuş. Lamba dosyayı değil, dosyanın etrafındaki halkayı aydınlatıyor. Kül tablasında iki
-izmarit. Kimse yok. Yeni bir delil YOK; eskiye yeniden bakmanın soğukluğu var. Ağır, sabırlı,
-huzursuz.
+hepsi yüzü aşağı, görünen arka yüzleri bomboş; hepsi aynı dosyaya bakıyor. Kâğıtların üçünde
+aynı yerde aynı biçimde kıvrılmış bir köşe, biri ötekinin üstüne dikkatle hizalanmış: bir el
+bunları defalarca yan yana koymuş. Lamba dosyayı değil, dosyanın etrafındaki halkayı
+aydınlatıyor. Kül tablasında iki izmarit. Kimse yok. Yeni bir delil YOK; eskiye yeniden bakmanın
+soğukluğu var. Ağır, sabırlı, huzursuz.
 ```
 
 *Kısıt:* Yalnızca `kaya_dosya_donus` — ilk dosyaya dönünce her düğümde aynı kişinin çıktığı.
@@ -733,13 +733,13 @@ tek sıcak leke uzaktaki bir sokak lambasının camda dağılan kehribarı; gör
 derecelendirmesi, hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon.
 Görselde kesinlikle hiçbir yazı, harf ya da rakam olmasın.
 Konu: Gece, park etmiş bir arabanın içinden dışarı bakış. Ön camın alt kenarında buğu, üstünde
-yağmur damlaları; cam kısmen kararmış, dışarısı bulanık. Uzakta ıslak bir cadde ve birkaç
-sönük vitrin — vitrinlerde tabela, levha ya da logo yok, yalnızca bulanık ışık lekeleri.
-Sokakta başka araç YOK. Gösterge paneli kadrajın dışında; hiçbir kadran ya da rakam
-görünmüyor. Kadrajın kenarında, torpidonun üstünde soğumuş bir termos bardağı — düz ve
-etiketsiz. Dışarıda kimse yok — takip edilen kişi kadrajda değil, henüz gelmemiş ya da çoktan geçmiş. Hiç insan
-figürü yok. Silah YOK, gerilim YOK, kovalamaca YOK — yalnızca beklemenin kendisi: saatlerdir
-aynı yerde duran bir arabanın içi. Soğuk, sabırlı, yalnız.
+yağmur damlaları; cam kısmen kararmış, dışarısı bulanık. Uzakta ıslak bir cadde ve birkaç sönük
+vitrin — vitrinlerde tabela, levha ya da logo yok, yalnızca bulanık ışık lekeleri. Sokakta başka
+araç YOK. Gösterge paneli kadrajın dışında; hiçbir kadran ya da rakam görünmüyor. Kadrajın
+kenarında, torpidonun üstünde soğumuş bir termos bardağı — düz ve etiketsiz. Dışarıda kimse yok
+— takip edilen kişi kadrajda değil, henüz gelmemiş ya da çoktan geçmiş. Hiç insan figürü yok.
+Silah YOK, gerilim YOK, kovalamaca YOK — yalnızca beklemenin kendisi: saatlerdir aynı yerde
+duran bir arabanın içi. Soğuk, sabırlı, yalnız.
 ```
 
 *Kısıt:* Yalnızca `cavit_takip` — Peri'nin Cavit'i izlemeye başladığı. Takibin **nereye
@@ -759,12 +759,12 @@ film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde ke
 yazı, harf ya da rakam olmasın.
 Konu: Bakımlı bir evin tuvalet masası, gece. Üstünde iki şey yan yana duruyor ve ikisi de aynı
 kadına ait: bir yanda yas tutan birinin eşyası — siyah bir eşarp, ters çevrilmiş bir çerçeve,
-kullanılmamış bir mendil; öbür yanda hesap tutan birinin eşyası — kilitli küçük bir kutu,
-bir anahtar, düzgünce katlanmış kalın bir kâğıt — katı keskin, yüzü içeri dönük; üstünde
-hiçbir yazı, kaşe ya da matbu iz görünmüyor, resmîliği yalnızca kâğıdın cinsinden belli. İkisinin arasında ayna, ama ayna
-kadrajın açısından kimseyi yansıtmıyor. Bir çekmece parmak genişliğinde aralık kalmış. Kimse
-yok. İki eşya öbeği eşit ışık alıyor, hangisinin asıl olduğu **belli değil**. Suç YOK, kanıt
-YOK, itiraf YOK. Soğuk, kapalı, huzursuz edecek kadar dengeli.
+kullanılmamış bir mendil; öbür yanda hesap tutan birinin eşyası — kilitli küçük bir kutu, bir
+anahtar, düzgünce katlanmış kalın bir kâğıt — katı keskin, yüzü içeri dönük; üstünde hiçbir
+yazı, kaşe ya da matbu iz görünmüyor, resmîliği yalnızca kâğıdın cinsinden belli. İkisinin
+arasında ayna, ama ayna kadrajın açısından kimseyi yansıtmıyor. Bir çekmece parmak genişliğinde
+aralık kalmış. Kimse yok. İki eşya öbeği eşit ışık alıyor, hangisinin asıl olduğu belli değil.
+Suç YOK, kanıt YOK, itiraf YOK. Soğuk, kapalı, huzursuz edecek kadar dengeli.
 ```
 
 *Kısıt:* `ip_akil` ve `ip_para` — cinayet fikrinin ondan çıkmış olabileceği ve servetle fazla
@@ -784,14 +784,14 @@ tek sıcak leke masa lambasının kehribar konisi; görselin en fazla %20'si sı
 tepeden ve yandan gelir; masanın dışı karanlıkta. Sinematik renk derecelendirmesi, hafif film
 greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle hiçbir yazı,
 harf ya da rakam olmasın.
-Konu: Gece geç saat, büro masası yukarıdan görülüyor. Masanın üstü tek bir hat boyunca
-dizilmiş: yıllanmış ve KAPALI bir dava dosyası, yüzü aşağı çevrilmiş dar bir kâğıt şerit
-(basılı yüzü masaya bakıyor, görünen yüzü bomboş), yüzü aşağı bakan grenli bir fotoğraf, ve en
-sonda kapatılmış bir kaza raporu. Dördünün de yüzü kapalı; hiçbir sayfa okunmuyor. Aralarında boşluk yok — biri ötekinin
-kenarına değecek kadar yaklaştırılmış, sıra bilinçli. Kâğıtların altında, masanın ahşabında
-yıllanmış halkalar. Kenarda sönmüş bir sigara ve soğumuş çay. Kimse yok; yalnızca bir sandalye
-geri itilmiş. Ok YOK, ip YOK, duvar panosu YOK, not YOK — bağı kuran şey yalnızca dizilişin
-kendisi. Sessiz, kesin, ağır.
+Konu: Gece geç saat, büro masası yukarıdan görülüyor. Masanın üstü tek bir hat boyunca dizilmiş:
+yıllanmış ve KAPALI bir dava dosyası, yüzü aşağı çevrilmiş dar bir kâğıt şerit (basılı yüzü
+masaya bakıyor, görünen yüzü bomboş), yüzü aşağı bakan grenli bir fotoğraf, ve en sonda
+kapatılmış bir kaza raporu. Dördünün de yüzü kapalı; hiçbir sayfa okunmuyor. Aralarında boşluk
+yok — biri ötekinin kenarına değecek kadar yaklaştırılmış, sıra bilinçli. Kâğıtların altında,
+masanın ahşabında yıllanmış halkalar. Kenarda sönmüş bir sigara ve soğumuş çay. Kimse yok;
+yalnızca bir sandalye geri itilmiş. Ok YOK, ip YOK, duvar panosu YOK, not YOK — bağı kuran şey
+yalnızca dizilişin kendisi. Sessiz, kesin, ağır.
 ```
 
 *Kısıt:* Yalnızca `zincir_tam`. Bu kaynak **ancak** V5'te tam resmi çözen oyuncuya açılıyor,
@@ -809,14 +809,13 @@ tek sıcak leke pencereden giren geç ikindi ışığının soluk kehribarı; g�
 sıcak. Işık yandan ve yumuşak gelir; odanın yarısı gölgede. Sinematik renk derecelendirmesi,
 hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle
 hiçbir yazı, harf ya da rakam olmasın.
-Konu: Bir büro masasında, misafir tarafında bırakılmış bir kadın eldiveni — tek tek, çifti
-yok. Yanında dokunulmamış bir çay bardağı, kenarında ruj izi bile yok. Karşıdaki sandalye
-geri itilmemiş, düzgünce yerinde: kalkan kişi acele etmemiş. Masanın kenarında kapalı, tokası
-takılı küçük bir deri defter — kapağı düz, üstünde kabartma harf, isim ya da marka yok;
-kimsenin açmadığı, açmaya da çalışmadığı bir defter. Pencereden
-giren ışık defterin üstüne düşüyor ama içini göstermiyor. Kimse yok. Sır YOK, ifşa YOK, kanıt
-YOK — yalnızca bir kadının neden geldiğini söylemeden gittiği bir odanın sessizliği. Ölçülü,
-kapalı, okunamaz.
+Konu: Bir büro masasında, misafir tarafında bırakılmış bir kadın eldiveni — tek tek, çifti yok.
+Yanında dokunulmamış bir çay bardağı, kenarında ruj izi bile yok. Karşıdaki sandalye geri
+itilmemiş, düzgünce yerinde: kalkan kişi acele etmemiş. Masanın kenarında kapalı, tokası takılı
+küçük bir deri defter — kapağı düz, üstünde kabartma harf, isim ya da marka yok; kimsenin
+açmadığı, açmaya da çalışmadığı bir defter. Pencereden giren ışık defterin üstüne düşüyor ama
+içini göstermiyor. Kimse yok. Sır YOK, ifşa YOK, kanıt YOK — yalnızca bir kadının neden
+geldiğini söylemeden gittiği bir odanın sessizliği. Ölçülü, kapalı, okunamaz.
 ```
 
 *Kısıt:* Yalnızca `sevil_geldi_neden` — Sevil'in bu kapıyı boşuna çalmadığı. **Minnet mi korku
@@ -836,11 +835,11 @@ sıcak. Işık yandan ve dar gelir; sahnenin çoğu gölgede. Sinematik renk der
 hafif film greni, gerçekçi dokular. Dikey (portre yönlü) kompozisyon. Görselde kesinlikle
 hiçbir yazı, harf ya da rakam olmasın.
 Konu: Bir büro kapısının eşiği, içeriden bakış. Kapı yeni kapanmış, aralıktan merdiven boşluğu
-ve inen basamakların ilk ikisi görünüyor. Eşiğin hemen içinde, yerde, biraz önce düşürülmüş
-ya da bilerek bırakılmış küçük bir şey: katlanmış, kenarı yıpranmış ince bir kâğıt parçası —
-bir zarfın köşesinden yırtılmış kadar küçük. Görünen yüzü bomboş: mürekkep, damga ya da matbu
-iz yok. Kapının camı düz ve yazısız — üstünde tabela, harf ya da numara yok. Arkada büronun
-loş içi, uzakta masa. Hiç insan yok; yalnızca kapının camında geçip giden bir gölgenin izi.
+ve inen basamakların ilk ikisi görünüyor. Eşiğin hemen içinde, yerde, biraz önce düşürülmüş ya
+da bilerek bırakılmış küçük bir şey: katlanmış, kenarı yıpranmış ince bir kâğıt parçası — bir
+zarfın köşesinden yırtılmış kadar küçük. Görünen yüzü bomboş: mürekkep, damga ya da matbu iz
+yok. Kapının camı düz ve yazısız — üstünde tabela, harf ya da numara yok. Arkada büronun loş
+içi, uzakta masa. Hiç insan yok; yalnızca kapının camında geçip giden bir gölgenin izi.
 Kovalamaca YOK, gizem teatralliği YOK — bir kapının kapanışından sonra yerde kalan tek şey.
 Küçük, soğuk, açık uçlu.
 ```
