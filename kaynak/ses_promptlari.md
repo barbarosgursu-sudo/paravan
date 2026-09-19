@@ -62,6 +62,7 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 | `giris` | 215 sn | 27,1 – 61,9 | 34,8 sn | parlaklık 862 Hz — setin en parlağı, sahibi bilerek seçti |
 | `karar` | 215 sn | 8,0 – 35,4 | 27,4 sn | 288 Hz, atak 41 — setin en karanlık ve en durağanı |
 | `sonuc` | 209 sn | 168,1 – 201,4 | 33,3 sn | 290 Hz — `karar`'ın 288 Hz'ine bilerek komşu seçildi |
+| `huzun` | 223 sn | 74,2 – 170,2 | 96,0 sn | 652 Hz — setin kasıtlı sıcak istisnası; uzun tutuldu |
 
 İki gözlem, ikisi de sahibinin kararıyla kapandı:
 
@@ -71,6 +72,12 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 - `giris`: parlaklık 796 Hz geldi (gömülü ikisi 430–473). Karanlık final bölümü
   de aday olarak kesildi (387 Hz) ama sahibi parlak olanı seçti — giriş ekranının
   bir tık farklı duyulması kasıtlı.
+
+**Uzun dinlenen iki parça uzun tutulur.** `arastirma` ve `huzun` araştırma
+ekranında çalıyor (`vakaModu()`: V4 → `huzun`, V6 → `final`, gerisi → `arastirma`),
+yani oyuncunun en uzun kaldığı yer. Bu ikisinde döngü uzunluğu karakterden önce
+gelir: `huzun`'da daha yumuşak ama 39 sn'lik aday varken 96 sn'lik olan seçildi.
+Kısa geçiş ekranlarında (`giris`, `karar`, `sonuc`) 27–35 sn yeterli.
 
 **Art arda gelen ekranların rengi eşlenir.** `karar` → `sonuc` geçişi oyunda her
 vakada yaşanıyor. `karar` 288 Hz'de kapanınca `sonuc` için de 290 Hz'lik bölüm
