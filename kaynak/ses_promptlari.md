@@ -61,6 +61,7 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 | `masa` | 219 sn | 111,9 – 148,6 | 36,7 sn | orta bölüm; sakin giriş de kesildi ama sahibi bunu seçti |
 | `giris` | 215 sn | 27,1 – 61,9 | 34,8 sn | parlaklık 862 Hz — setin en parlağı, sahibi bilerek seçti |
 | `karar` | 215 sn | 8,0 – 35,4 | 27,4 sn | 288 Hz, atak 41 — setin en karanlık ve en durağanı |
+| `sonuc` | 209 sn | 168,1 – 201,4 | 33,3 sn | 290 Hz — `karar`'ın 288 Hz'ine bilerek komşu seçildi |
 
 İki gözlem, ikisi de sahibinin kararıyla kapandı:
 
@@ -70,6 +71,13 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 - `giris`: parlaklık 796 Hz geldi (gömülü ikisi 430–473). Karanlık final bölümü
   de aday olarak kesildi (387 Hz) ama sahibi parlak olanı seçti — giriş ekranının
   bir tık farklı duyulması kasıtlı.
+
+**Art arda gelen ekranların rengi eşlenir.** `karar` → `sonuc` geçişi oyunda her
+vakada yaşanıyor. `karar` 288 Hz'de kapanınca `sonuc` için de 290 Hz'lik bölüm
+seçildi; parçanın 428 Hz'lik daha açık bölümü de aday olarak kesilmişti ama
+288→428 sıçraması "çözülme" yerine "ferahlama" gibi duyulma riski taşıyordu —
+brief'in tam istemediği şey. Aday keserken hangi ekranın hangisinden sonra
+geldiğine bak.
 
 **Çapraz geçiş uzunluğu malzemeye göre.** Durağan parçada dikiş affetmiyor:
 `karar` kendi içinde 0,7 dB dalgalanıyor, bu yüzden normalde sorun olmayacak
