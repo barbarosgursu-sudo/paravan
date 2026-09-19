@@ -451,7 +451,14 @@
           ],
           "text": "Vedat'ın hesaplarına, esnaf çevresine bakıldı. Adam borç içinde değil ama sürekli bir yere düzenli para aktarıyor — maaşından fazlasını.",
           "meta": "Birine düzenli para gidiyor — bir metresin değil, bir borcun izi gibi. Onu takip etsek nereye gittiğini görürüz.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v2_hesap.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "vedat_mali_sikinti"
+            ],
+            "alt": "masada yüzü aşağı dizilmiş bir dizi aynı kâğıt"
+          }
         },
         {
           "id": "takip_gece",
@@ -518,7 +525,15 @@
           ],
           "text": "Mahalleden biri fısıldadı: 'O borç Vedat'ın değil ki — kaçak kardeşinin. Kardeşi büyük bir işe bulaşıp ortadan kayboldu, borç Vedat'a kaldı.' Cengo alçak sesle ekledi: 'Bu öyle sıradan bir borç değil Peri abla.'",
           "meta": "Vedat kendi için değil, kardeşi için batıyor — ve iş tehlikeli.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v2_mahalle.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "kacak_kardes",
+              "kardes_tehlike"
+            ],
+            "alt": "gece, kenar mahallenin bekleme yeri olmuş arka sokağı"
+          }
         },
         {
           "id": "vedat_yuz",
@@ -1761,7 +1776,14 @@
           ],
           "text": "Para bir aileye gidiyormuş — ağır hasta bir çocuğun tedavisi için. Yıllardır süren, pahalı bir tedavi.",
           "meta": "Bu para bir çocuğu yaşatıyormuş. Ve iki haftadır gelmiyor.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v4_aile_evi.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "cocuk_hasta"
+            ],
+            "alt": "yoksul bir evin küçük odasında boş bir çocuk yatağı"
+          }
         },
         {
           "id": "hastane_kayit",
@@ -1776,7 +1798,14 @@
           ],
           "text": "Çocuk yıllar önce bir çocuk doktoruna görünmüş — ve o doktor aileyle ilgilenmeye devam etmiş. Doktorun adı: Kaya Tuncer.",
           "meta": "Kaya bu çocuğu mesleğiyle tanımış, yoksulluğunu görmüş, sessizce sırtlanmış.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v4_hastane.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "kaya_doktor_bag"
+            ],
+            "alt": "eski bir hastanenin kartoteks arşivi"
+          }
         },
         {
           "id": "aile_gorusme",

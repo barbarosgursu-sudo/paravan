@@ -20,7 +20,8 @@
     "cocuk_hasta": "Para ağır hasta bir çocuğun ailesine gidiyormuş.",
     "kaya_doktor_bag": "Kaya çocuğun doktoruydu — böyle tanışmışlar.",
     "aile_bilmiyor": "Aile hayırseverin kim olduğunu hiç bilmiyor.",
-    "kaya_gizli_iyilik": "Hayırsever = Kaya. Kimseye söylemeden yıllarca destekledi."
+    "kaya_gizli_iyilik": "Hayırsever = Kaya. Kimseye söylemeden yıllarca destekledi.",
+    "kaya_itibar": "Kaya çevrede çok sevilen, dürüst bilinen bir doktormuş; kimse hakkında kötü söz etmiyor."
   },
   "knowledge": [
     {
@@ -105,6 +106,19 @@
       }
     },
     {
+      "id": "kaya_cevre",
+      "ad": "Kaya'nın çevresini araştır",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [],
+      "reveals": [
+        "kaya_itibar"
+      ],
+      "text": "Kaya'yı tanıyanlarla konuşuldu. Herkes aynı şeyi söyledi: iyi kalpli, sessiz, kimseye yük olmayan bir adam. Ama son yıllarda içine kapanmış, bir şeyle meşgul gibiymiş.",
+      "meta": "Herkesin sevdiği bir adam — ama 'bir şeyle meşgul'. O meşguliyet, kayıtlardaki isimsiz ödeme olabilir mi?",
+      "gorsel": null
+    },
+    {
       "id": "cocuk_bul",
       "ad": "Paranın gittiği yeri bulmak",
       "tur": "Gözlem",
@@ -117,7 +131,14 @@
       ],
       "text": "Para bir aileye gidiyormuş — ağır hasta bir çocuğun tedavisi için. Yıllardır süren, pahalı bir tedavi.",
       "meta": "Bu para bir çocuğu yaşatıyormuş. Ve iki haftadır gelmiyor.",
-      "gorsel": null
+      "gorsel": {
+        "dosya": "v4_aile_evi.jpg",
+        "tur": "mekan",
+        "gosterir": [
+          "cocuk_hasta"
+        ],
+        "alt": "yoksul bir evin küçük odasında boş bir çocuk yatağı"
+      }
     },
     {
       "id": "hastane_kayit",
@@ -132,7 +153,14 @@
       ],
       "text": "Çocuk yıllar önce bir çocuk doktoruna görünmüş — ve o doktor aileyle ilgilenmeye devam etmiş. Doktorun adı: Kaya Tuncer.",
       "meta": "Kaya bu çocuğu mesleğiyle tanımış, yoksulluğunu görmüş, sessizce sırtlanmış.",
-      "gorsel": null
+      "gorsel": {
+        "dosya": "v4_hastane.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "kaya_doktor_bag"
+        ],
+        "alt": "eski bir hastanenin kartoteks arşivi"
+      }
     },
     {
       "id": "aile_gorusme",
@@ -163,51 +191,63 @@
       "id": "aileye_soyle",
       "gate": "iyilik_tam",
       "etiket": "Aileye gerçeği söyle",
-      "sonuc": "Hayırsever Kaya'ydı, ve öldü, dedin. Aile kapanış buldu ama umudunu kaybetti — teşekkür yerine yas. Dürüst ama acı.",
+      "sonuc": "Hayırsever Kaya'ydı, ve öldü, dedin. Aile kapanış buldu ama umudunu kaybetti — teşekkür yerine yas. Dürüst ama acı. O haberi verip elin boş çıkamazdın; bırakabildiğin kadarını bıraktın.",
       "cengoBag": 2,
       "seed_yaz": {
         "v4_karar": "soyledi"
-      }
+      },
+      "yuzde": 29,
+      "para": -10000,
+      "bedel_adi": "Aileye bırakılan"
     },
     {
       "id": "sessiz_coz",
       "gate": "iyilik_tam",
       "etiket": "Kimliği sakla, sessizce çözüm ara",
-      "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu ama sana pahalı — Peri de beş parasız.",
-      "cengoBag": 2,
+      "sonuc": "Kaya'yı söylemeden, tedavinin devamı için başka bir yol aradın. Onurlu, ve faturası sana kesildi. Tedavinin devamını kendi kasandan üstlendin.",
+      "cengoBag": 3,
       "seed_yaz": {
         "v4_karar": "sessiz"
-      }
+      },
+      "yuzde": 24,
+      "para": -35000,
+      "bedel_adi": "Tedavi katkısı"
     },
     {
       "id": "kimligi_sakla",
       "gate": "iyilik_tam",
       "etiket": "'Artık gelmeyecek' de, kimliği sakla",
-      "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi.",
+      "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi. Ne aldın ne verdin. Ay, kimseye fatura edilmeyen bir işle geçti.",
       "cengoBag": 1,
       "seed_yaz": {
         "v4_karar": "sakla"
-      }
+      },
+      "yuzde": 33,
+      "para": 0
     },
     {
       "id": "koz_yap",
       "gate": "odeme_kayaya_ait",
       "etiket": "Bilgiyi kendine sakla, koz yap",
-      "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir.",
+      "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir. Ayın kalanını ödeyen işlere ayırdın; bildiğin şey de cebinde duruyor.",
       "cengoBag": -2,
       "seed_yaz": {
         "v4_karar": "koz"
-      }
+      },
+      "yuzde": 9,
+      "para": 25000
     },
     {
       "id": "bos_ver",
       "gate": "yok",
       "etiket": "Boş ver, bu ipi çekme",
-      "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer.",
+      "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer. İpi çekmediğin için ay boş geçmedi — küçük işlerle idare ettin.",
       "cengoBag": -1,
       "seed_yaz": {
         "v4_karar": "bosver"
-      }
+      },
+      "yuzde": 5,
+      "para": 18000
     }
   ],
   "seeds": {
@@ -219,5 +259,6 @@
       "esit_ise": "odeme_kayaya_ait",
       "deger": true
     }
-  }
+  },
+  "giris_gorsel": "v4_giris.jpg"
 }

@@ -5,7 +5,6 @@
   "belirir": null,
   "baslik": "Yüzük",
   "arastirma": 4,
-
   "truth": {
     "vedat_gercek": "aldatmıyor",
     "vedat_sir": "kaçak kardeşinin borcunu ödüyor",
@@ -14,7 +13,6 @@
     "ilyas_cinayet": "GİZLİ — bu vakada YOK",
     "nesrin_gelis": "gazete haberi + şöhret + ekonomi"
   },
-
   "facts": {
     "vedat_kayip_saat": "Vedat akşamları kayboluyor, telefonunu saklıyor.",
     "vedat_kadin_yok": "Takip: kadın yok, buluşma yok — aldatma değil.",
@@ -23,76 +21,240 @@
     "ilyas_tahsildar": "Parayı alan yorgun adam: İlyas, bir tahsildar.",
     "kacak_kardes": "Borç Vedat'ın değil — kaçak kardeşinin.",
     "kardes_tehlike": "Kardeş tehlikeli bir işe bulaşmış, ortadan kaybolmuş.",
-    "vedat_pisman": "Vedat bu yükten utanıyor, kapatmaya çabalıyor — karısını korumak istiyor."
+    "vedat_pisman": "Vedat bu yükten utanıyor, kapatmaya çabalıyor — karısını korumak istiyor.",
+    "vedat_mali_sikinti": "Vedat son aylarda para sıkıntısında; borç kapatır gibi ödemeler yapıyor."
   },
-
   "knowledge": [
-    { "turetilen": "aldatmiyor_kesin", "ifade": { "all": ["vedat_kadin_yok","kenar_ev"] } },
-    { "turetilen": "sir_borctur", "ifade": { "all": ["para_elden","ilyas_tahsildar"] } },
-    { "turetilen": "sir_tam", "ifade": { "all": ["sir_borctur","kacak_kardes","kardes_tehlike"] } }
+    {
+      "turetilen": "aldatmiyor_kesin",
+      "ifade": {
+        "all": [
+          "vedat_kadin_yok",
+          "kenar_ev"
+        ]
+      }
+    },
+    {
+      "turetilen": "sir_borctur",
+      "ifade": {
+        "all": [
+          "para_elden",
+          "ilyas_tahsildar"
+        ]
+      }
+    },
+    {
+      "turetilen": "sir_tam",
+      "ifade": {
+        "all": [
+          "sir_borctur",
+          "kacak_kardes",
+          "kardes_tehlike"
+        ]
+      }
+    }
   ],
-
   "giris": [
-    { "kosul": "varsayilan",
+    {
+      "kosul": "varsayilan",
       "metin": "Ajansın kapısı ilk kez dışarıdan çalınıyor. Nesrin adında bir kadın, gazetede Peri'nin bürosunu okumuş; tanıdık, kadın ve ucuz bir kapı aradığı için gelmiş. Utanarak anlatıyor: kocası Vedat son aylarda tuhaflaştı, akşamları kayboluyor, telefonunu saklıyor. Onu aldattığından neredeyse emin. Takip edilmesini istiyor.",
-      "acilan": [] }
+      "acilan": []
+    }
   ],
-
   "clues": [
-    { "id": "nesrin_gorusme", "ad": "Nesrin ile görüşme", "tur": "İfade", "ico": "◑",
-      "needs": [], "reveals": ["vedat_kayip_saat"],
+    {
+      "id": "nesrin_gorusme",
+      "ad": "Nesrin ile görüşme",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [],
+      "reveals": [
+        "vedat_kayip_saat"
+      ],
       "text": "Nesrin: 'Her akşam bir yere gidiyor, dönünce hiçbir şey anlatmıyor. Telefonu hep ters duruyor.'",
       "meta": "Kaybolan saatler — ama kaybolmak aldatmak demek değil.",
-      "gorsel": { "dosya": "portre_nesrin.jpg", "tur": "portre", "gosterir": ["Nesrin"], "alt": "yorgun, utangaç bir kadın yüzü" } },
-
-    { "id": "takip_gece", "ad": "Gece takibi", "tur": "Gözlem", "ico": "◉",
-      "needs": ["vedat_kayip_saat"], "reveals": ["vedat_kadin_yok","kenar_ev"],
+      "gorsel": {
+        "dosya": "portre_nesrin.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "Nesrin"
+        ],
+        "alt": "yorgun, utangaç bir kadın yüzü"
+      }
+    },
+    {
+      "id": "vedat_mali",
+      "ad": "Vedat'ın mali durumunu araştır",
+      "tur": "Belge",
+      "ico": "▤",
+      "needs": [],
+      "reveals": [
+        "vedat_mali_sikinti"
+      ],
+      "text": "Vedat'ın hesaplarına, esnaf çevresine bakıldı. Adam borç içinde değil ama sürekli bir yere düzenli para aktarıyor — maaşından fazlasını.",
+      "meta": "Birine düzenli para gidiyor — bir metresin değil, bir borcun izi gibi. Onu takip etsek nereye gittiğini görürüz.",
+      "gorsel": {
+        "dosya": "v2_hesap.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "vedat_mali_sikinti"
+        ],
+        "alt": "masada yüzü aşağı dizilmiş bir dizi aynı kâğıt"
+      }
+    },
+    {
+      "id": "takip_gece",
+      "ad": "Gece takibi",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        {
+          "any": [
+            "vedat_kayip_saat",
+            "vedat_mali_sikinti"
+          ]
+        }
+      ],
+      "reveals": [
+        "vedat_kadin_yok",
+        "kenar_ev"
+      ],
       "text": "Vedat'ı izlediler. Ne bir kadın, ne bir buluşma. Adam kenar bir mahalleye, kırık dökük bir kapıya gitti.",
       "meta": "Aldatma değil bu. Başka bir şey saklıyor.",
-      "gorsel": { "dosya": "v2_kenar_sokak.jpg", "tur": "mekan", "gosterir": ["kenar_ev"], "alt": "gece, yağmurlu kenar mahalle sokağı" } },
-
-    { "id": "kenar_ev_gozlem", "ad": "Kapının gözlemi", "tur": "Gözlem", "ico": "◉",
-      "needs": ["kenar_ev"], "reveals": ["para_elden","ilyas_tahsildar"],
+      "gorsel": {
+        "dosya": "v2_kenar_sokak.jpg",
+        "tur": "mekan",
+        "gosterir": [
+          "kenar_ev"
+        ],
+        "alt": "gece, yağmurlu kenar mahalle sokağı"
+      }
+    },
+    {
+      "id": "kenar_ev_gozlem",
+      "ad": "Kapının gözlemi",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "kenar_ev"
+      ],
+      "reveals": [
+        "para_elden",
+        "ilyas_tahsildar"
+      ],
       "text": "Vedat kapıda elden para verdi. Parayı alan yorgun, sıradan bir adamdı — kimsenin iki kez bakmayacağı biri.",
       "meta": "Bir tahsildar. Adı İlyas'mış. Sıradan bir borç işi gibi.",
-      "gorsel": { "dosya": "portre_ilyas_v2.jpg", "tur": "portre", "gosterir": ["ilyas_tahsildar"], "alt": "yorgun, silik bir adam; sıradan bir tahsildar" } },
-
-    { "id": "mahalle_konus", "ad": "Mahallede konuşmak", "tur": "İfade", "ico": "◑",
-      "needs": ["ilyas_tahsildar"], "reveals": ["kacak_kardes","kardes_tehlike"],
+      "gorsel": {
+        "dosya": "portre_ilyas_v2.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "ilyas_tahsildar"
+        ],
+        "alt": "yorgun, silik bir adam; sıradan bir tahsildar"
+      }
+    },
+    {
+      "id": "mahalle_konus",
+      "ad": "Mahallede konuşmak",
+      "tur": "İfade",
+      "ico": "◑",
+      "needs": [
+        "ilyas_tahsildar"
+      ],
+      "reveals": [
+        "kacak_kardes",
+        "kardes_tehlike"
+      ],
       "text": "Mahalleden biri fısıldadı: 'O borç Vedat'ın değil ki — kaçak kardeşinin. Kardeşi büyük bir işe bulaşıp ortadan kayboldu, borç Vedat'a kaldı.' Cengo alçak sesle ekledi: 'Bu öyle sıradan bir borç değil Peri abla.'",
       "meta": "Vedat kendi için değil, kardeşi için batıyor — ve iş tehlikeli.",
-      "gorsel": null },
-
-    { "id": "vedat_yuz", "ad": "Vedat'ın hâli (opsiyonel)", "tur": "Gözlem", "ico": "○",
-      "needs": ["kenar_ev"], "reveals": ["vedat_pisman"],
+      "gorsel": {
+        "dosya": "v2_mahalle.jpg",
+        "tur": "mekan",
+        "gosterir": [
+          "kacak_kardes",
+          "kardes_tehlike"
+        ],
+        "alt": "gece, kenar mahallenin bekleme yeri olmuş arka sokağı"
+      }
+    },
+    {
+      "id": "vedat_yuz",
+      "ad": "Vedat'ın hâli (opsiyonel)",
+      "tur": "Gözlem",
+      "ico": "○",
+      "needs": [
+        "kenar_ev"
+      ],
+      "reveals": [
+        "vedat_pisman"
+      ],
       "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Bu, bir suçlunun değil, utanan bir adamın hâliydi.",
       "meta": "Karısını korumak için saklıyor gibi. Ama bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.",
-      "gorsel": { "dosya": "portre_vedat.jpg", "tur": "portre", "gosterir": ["vedat_pisman"], "alt": "yorgun, utanç içindeki bir adam yüzü" } }
+      "gorsel": {
+        "dosya": "portre_vedat.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "vedat_pisman"
+        ],
+        "alt": "yorgun, utanç içindeki bir adam yüzü"
+      }
+    }
   ],
-
   "decisions": [
-    { "id": "hersey_soyle", "gate": "sir_tam",
+    {
+      "id": "hersey_soyle",
+      "gate": "sir_tam",
       "etiket": "Nesrin'e her şeyi anlat",
-      "sonuc": "Aldatma yok, ama kaçak kardeşin borcu var. Dürüstsün — ama Vedat'ın en sakladığı şeyi ifşa ettin. Nesrin sert bir hamle yapabilir; kardeşin izi tehlikeye girer, evlilik sarsılır.",
-      "cengoBag": 0, "seed_yaz": { "v2_karar": "hersey" } },
-
-    { "id": "aldatmiyor_de", "gate": "aldatmiyor_kesin",
+      "sonuc": "Aldatma yok, ama kaçak kardeşin borcu var. Dürüstsün — ama Vedat'ın en sakladığı şeyi ifşa ettin. Nesrin sert bir hamle yapabilir; kardeşin izi tehlikeye girer, evlilik sarsılır. Ücretin ancak bir kısmını ödeyebilir; kalanı avukata gidecek.",
+      "cengoBag": 0,
+      "seed_yaz": {
+        "v2_karar": "hersey"
+      },
+      "yuzde": 24,
+      "para": 14000
+    },
+    {
+      "id": "aldatmiyor_de",
+      "gate": "aldatmiyor_kesin",
       "etiket": "Sadece 'aldatmıyor' de, borcu sakla",
-      "sonuc": "Nesrin kısmen rahatlar, kuşkusu tam bitmez. Vedat'ın onurunu korudun; ama kadın karanlıkta, adam yükün altında yalnız.",
-      "cengoBag": 1, "seed_yaz": { "v2_karar": "korudu" } },
-
-    { "id": "yalan_kur", "gate": "yok",
+      "sonuc": "Nesrin kısmen rahatlar, kuşkusu tam bitmez. Vedat'ın onurunu korudun; ama kadın karanlıkta, adam yükün altında yalnız. İşi bitmiş saymaz: kaporayı bırakır, gerisini 'emin olunca' der.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "v2_karar": "korudu"
+      },
+      "yuzde": 41,
+      "para": 10000
+    },
+    {
+      "id": "yalan_kur",
+      "gate": "yok",
       "etiket": "Rahatlatıcı bir yalan kur",
-      "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder.",
-      "cengoBag": -1, "seed_yaz": { "v2_karar": "yalan" } },
-
-    { "id": "kuru_rapor", "gate": "yok",
+      "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder. Ücreti eksiksiz öder, üstüne teşekkür eder; yalan sana fazladan tek kuruş getirmedi.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "v2_karar": "yalan"
+      },
+      "yuzde": 22,
+      "para": 18000
+    },
+    {
+      "id": "kuru_rapor",
+      "gate": "yok",
       "etiket": "Parayı al, karışma, kuru rapor ver",
-      "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar.",
-      "cengoBag": -1, "seed_yaz": { "v2_karar": "kuru" } }
+      "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar. Nesrin ücretin tamamını öder; pazarlık da etmez, teşekkür de.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "v2_karar": "kuru"
+      },
+      "yuzde": 13,
+      "para": 18000
+    }
   ],
-
   "seeds": {
-    "ilyas_yuz_tandi": { "esit_ise": "kenar_ev_gozlem_acildi", "deger": true }
-  }
+    "ilyas_yuz_tandi": {
+      "esit_ise": "kenar_ev_gozlem_acildi",
+      "deger": true
+    }
+  },
+  "giris_gorsel": "v2_giris.jpg"
 }
