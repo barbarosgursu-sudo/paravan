@@ -1000,9 +1000,13 @@ function kayitOku(){
 function kayitSil(){ try{ localStorage.removeItem(KAYIT_ANAHTAR); }catch(e){} }
 
 /* ============================================================
-   SES — ruh haline göre müzik + kısa efektler.
-   Parçalar GÖMÜLMEZ; ses/ klasöründen akıtılır (bkz. OKUBENI).
-   Dosya yoksa oyun sessiz devam eder, hata vermez.
+   SES — yalnızca kısa efektler. ARKA PLAN MÜZİĞİ YOK.
+   Sahibinin kararı (19 Eylül 2026): müzikli hâli beğenilmedi, oyun
+   sessizlik + efekt üzerine kuruldu. Sekiz müzik parçası üretilip
+   gömülmüştü; hepsi kaldırıldı. Gerekçe ve geri dönüş tarifi:
+   kaynak/ses_promptlari.md → MÜZİK KALDIRILDI.
+   Efektler GÖMÜLMEZ; ses/ klasöründen çalınır. Dosya yoksa oyun
+   sessiz devam eder, hata vermez.
    ============================================================ */
 const SES_ANAHTAR = "paravan_ses_v1";   // kayıt yuvasından AYRI: "baştan başla" ses tercihini silmez
 const SES_KLASOR  = "ses/";
@@ -1010,17 +1014,6 @@ const SES_KLASOR  = "ses/";
 // seslerin çalışmasını sağlıyor. Bulunan uzantı akılda tutulur, bir daha aranmaz.
 const SES_UZANTILAR = [".mp3", ".wav"];
 
-// ruh hali → dosya adı (ses/<ad>.mp3)
-const MUZIK = {
-  prolog:     "prolog",
-  masa:       "masa",
-  giris:      "giris",
-  arastirma:  "arastirma",
-  karar:      "karar",
-  sonuc:      "sonuc",
-  huzun:      "huzun",      // V4 — Kaya'nın gizli iyiliği
-  final:      "final",      // V6 + son ekranı
-};
 const EFEKT = {
   dokun:   "efekt_dokun",
   kaynak:  "efekt_kaynak",
@@ -1033,12 +1026,8 @@ const ses = {
   acik: true,
   seviye: 0.55,
   kilitli: true,          // tarayıcı: kullanıcı dokunana kadar ses çalınmaz
-  suAn: null,             // çalan ruh hali
-  calan: null,            // aktif Audio
-  bekleyen: null,         // kilit açılınca çalacak ruh hali
   yok: {},                // bulunamayan dosyalar — bir daha denenmez
   uzanti: {},             // ad → çalışan uzantının sırası (bir kez bulunur)
-  yukleniyor: null,       // hazırlanan parça (çift başlatmayı önler)
   efektler: {},           // önbellek
 };
 
@@ -1063,7 +1052,7 @@ function sesAyarYaz(){
 // Bu yüzden dosya keşfi dokunuştan ÖNCE, fetch ile yapılıyor.
 function sesKesfet(){
   if(typeof fetch !== "function") return;
-  const adlar = [...new Set([...Object.values(MUZIK), ...Object.values(EFEKT)])];
+  const adlar = [...new Set(Object.values(EFEKT))];
   let calisti = false;                      // fetch hiç çalıştı mı (file:// engelleyebilir)
   const bulunan = {}, eksik = {};
   const denemeler = adlar.map(ad =>
@@ -1085,76 +1074,6 @@ function sesKesfet(){
 function sesKilidiAc(){
   if(!ses.kilitli) return;
   ses.kilitli = false;
-  if(ses.bekleyen){ const m = ses.bekleyen; ses.bekleyen = null; muzikCal(m); }
-}
-
-function muzikCal(mod){
-  const ad = MUZIK[mod];
-  if(!ad || ses.yok[ad]) return;
-  if(ses.suAn === mod && (ses.calan || ses.yukleniyor)) return;   // zaten çalıyor ya da yükleniyor
-  ses.suAn = mod;
-  if(!ses.acik) return;
-  if(ses.kilitli){ ses.bekleyen = mod; return; }
-  muzikBaslat(mod, ad, ses.uzanti[ad] ?? 0);
-}
-
-function muzikBaslat(mod, ad, i){
-  if(i >= SES_UZANTILAR.length){ ses.yok[ad] = true; ses.yukleniyor = null; return; }
-  const yeni = new Audio(SES_KLASOR + ad + SES_UZANTILAR[i]);
-  yeni.loop = true;
-  yeni.volume = 0;
-  ses.yukleniyor = yeni;
-  let bitti = false;
-
-  const basarisiz = () => {
-    if(bitti) return; bitti = true;
-    if(ses.yukleniyor === yeni) ses.yukleniyor = null;
-    if(ses.suAn === mod) muzikBaslat(mod, ad, i + 1);   // sıradaki uzantıyı dene
-  };
-  yeni.addEventListener("error", basarisiz);
-
-  // Geçişi ancak yeni parça çalmaya HAZIR olunca başlat; yoksa eskisi susar
-  // ve yeni dosya gelene kadar sessizlik olur.
-  yeni.addEventListener("canplay", () => {
-    if(bitti) return; bitti = true;
-    ses.uzanti[ad] = i;                                  // çalışan uzantıyı aklında tut
-    if(ses.yukleniyor === yeni) ses.yukleniyor = null;
-    if(ses.suAn !== mod || !ses.acik){ try{ yeni.pause(); }catch(e){} return; }  // sahne değişti
-    capraz(ses.calan, yeni);
-    ses.calan = yeni;
-  }, {once:true});
-
-  const p = yeni.play();
-  if(p && p.catch) p.catch(err => {
-    // Reddin iki farklı sebebi var, karıştırılmamalı:
-    // NotAllowedError = kullanıcı henüz dokunmadı → kilitle, dokununca çal.
-    // Diğerleri (dosya yok/bozuk) → uzantıyı düş, sonunda dosyayı eksik say;
-    // yoksa tek bir eksik parça bütün müziği susturur.
-    if(err && err.name === "NotAllowedError"){
-      bitti = true; ses.yukleniyor = null; ses.kilitli = true; ses.bekleyen = mod;
-    } else basarisiz();
-  });
-}
-
-// çapraz geçiş: eskisi kısılıp durur, yenisi açılır (sert kesme kötü durur)
-function capraz(eski, yeni){
-  const hedef = ses.seviye, sure = 700, adim = 50;
-  let t = 0;
-  const zamanlayici = setInterval(() => {
-    t += adim;
-    const o = Math.min(1, t / sure);
-    if(yeni) { try{ yeni.volume = hedef * o; }catch(e){} }
-    if(eski) { try{ eski.volume = hedef * (1 - o); }catch(e){} }
-    if(o >= 1){
-      clearInterval(zamanlayici);
-      if(eski){ try{ eski.pause(); }catch(e){} }
-    }
-  }, adim);
-}
-
-function muzikDur(){
-  if(ses.calan){ const e = ses.calan; ses.calan = null; capraz(e, null); }
-  ses.suAn = null;
 }
 
 function efektCal(tur, i){
@@ -1174,7 +1093,10 @@ function efektCal(tur, i){
       ses.efektler[ad] = a;
     }
     a.currentTime = 0;
-    a.volume = Math.min(1, ses.seviye + 0.15);   // efektler müziğin bir tık üstünde
+    // Eskiden müziğin bir tık üstünde dursun diye +0.15 eklenirdi; müzik
+    // kaldırılınca üstünde duracağı bir şey kalmadı. Artık efektler tam
+    // olarak kullanıcının seçtiği düzeyde çalıyor.
+    a.volume = ses.seviye;
     const p = a.play(); if(p && p.catch) p.catch(()=>{});
   }catch(e){}
 }
@@ -1182,8 +1104,6 @@ function efektCal(tur, i){
 function sesTogle(){
   ses.acik = !ses.acik;
   sesAyarYaz();
-  if(!ses.acik){ muzikDur(); }
-  else { const m = ses.suAn || "masa"; ses.suAn = null; muzikCal(m); }
   sesDugmeTazele();
 }
 function sesDugmeSvg(){ return ses.acik ? "♪" : "♪̸"; }
@@ -1224,14 +1144,11 @@ function devPanel(){
   </div>`;
 
   // Ses teşhisi
-  const calanAd = ses.calan ? decodeURIComponent(ses.calan.src.split("/").pop()) : "(yok)";
   const uzOzet = Object.keys(ses.uzanti).length
     ? Object.entries(ses.uzanti).map(([a,i]) => a+SES_UZANTILAR[i]).slice(0,3).join(", ")+"…"
     : "(keşif yok)";
   h += `<div class="dev-blok"><div class="dev-baslik">Ses teşhisi</div>
-    <div class="dev-satir">açık: <b>${ses.acik}</b> · kilitli: <b>${ses.kilitli}</b> · bekleyen: <b>${ses.bekleyen||"-"}</b></div>
-    <div class="dev-satir">sahne: <b>${ses.suAn||"-"}</b> · çalan dosya: <b>${calanAd}</b></div>
-    <div class="dev-satir">duraklamış: <b>${ses.calan ? ses.calan.paused : "-"}</b> · ses düzeyi: <b>${ses.calan ? ses.calan.volume.toFixed(2) : "-"}</b></div>
+    <div class="dev-satir">açık: <b>${ses.acik}</b> · kilitli: <b>${ses.kilitli}</b></div>
     <div class="dev-satir">bulunan: ${uzOzet}</div>
     <div class="dev-satir">eksik: ${Object.keys(ses.yok).join(", ")||"(yok)"}</div>
     <div class="dev-satir"><span class="dev-mini" onclick="devSesDene()">▶ zorla çal</span>
@@ -1275,7 +1192,7 @@ function devCengo(delta){ oyun.durum.cengoBag += delta; devPanel(); }
 // Ses çalmıyorsa sebebini doğrudan gösterir: play() ne diyor?
 function devSesDene(){
   ses.kilitli = false; ses.acik = true;
-  const a = new Audio(SES_KLASOR + "masa" + SES_UZANTILAR[ses.uzanti["masa"] ?? 0]);
+  const a = new Audio(SES_KLASOR + EFEKT.muhur + SES_UZANTILAR[ses.uzanti[EFEKT.muhur] ?? 0]);
   a.volume = 1;
   const p = a.play();
   if(p && p.then) p.then(() => alert("ÇALDI: " + a.src.split("/").pop() + "\nSes duymuyorsan cihazın sesi kısık ya da sessiz modda."))
@@ -1285,10 +1202,7 @@ function devSesDene(){
 function devSesRapor(){
   const r = {
     adres: location.href,
-    acik: ses.acik, kilitli: ses.kilitli, sahne: ses.suAn,
-    calan: ses.calan ? ses.calan.src.split("/").pop() : null,
-    duraklamis: ses.calan ? ses.calan.paused : null,
-    duzey: ses.calan ? ses.calan.volume : null,
+    acik: ses.acik, kilitli: ses.kilitli,
     bulunan: ses.uzanti, eksik: Object.keys(ses.yok),
     wavDestek: (new Audio()).canPlayType("audio/wav"),
     mp3Destek: (new Audio()).canPlayType("audio/mpeg"),
@@ -1420,7 +1334,6 @@ function cengoGosterge(){
 /* ---------- PROLOG (açılış, dokundukça ilerler) ---------- */
 let prologIndex = 0;
 function prologGoster(){
-  muzikCal('prolog');
   const k = PROLOG[prologIndex];
   const sonMu = prologIndex === PROLOG.length - 1;
   let h = '<div class="faz prolog-faz">';
@@ -1452,7 +1365,6 @@ function prologGeri(){ if(prologIndex>0){ prologIndex--; prologGoster(); } }
 function masaGoster(){
   sonAcilan=null;
   kayitYaz();
-  muzikCal('masa');
   const masada = oyun.masadakiVakalar();
   if(masada.length===0) return sonEkrani();
   let h = ust() + '<div class="faz">';
@@ -1484,7 +1396,6 @@ function vakaAc(id){
   const g = oyun.vakaBaslat(id);
   sonAcilan=null;
   kayitYaz();
-  muzikCal('giris');
   const v = oyun.durum.aktif.vaka;
   let h = ust() + '<div class="faz">';
   h += `<div class="baslik"><div class="no">${v.tur==='yan'?'Yan İş':'Vaka'}</div><h1>${v.baslik}</h1></div>`;
@@ -1502,10 +1413,8 @@ function vakaAc(id){
 
 /* ---------- FAZ 2: ARAŞTIRMA (kaynak listesi) ---------- */
 // V4 hüzünlü keşif, V6 final ağırlığı; gerisi standart araştırma tonu
-function vakaModu(vid){ return vid==='V4' ? 'huzun' : (vid==='V6' ? 'final' : 'arastirma'); }
 function arastirmaFazi(){
   const a = oyun.durum.aktif;
-  muzikCal(vakaModu(a.id));
   const v = a.vaka;
   const acik = oyun.acikKaynaklar();
   const kararlar = oyun.acikKararlar();
@@ -1571,7 +1480,6 @@ function v6Karar(id){
   return (v && v.decisions.find(d => d.id === id)) || {};
 }
 function kararFazi(){
-  muzikCal('karar');
   const kararlar = oyun.acikKararlar();
   let h = ust() + '<div class="faz">';
   h += `<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>`;
@@ -1651,7 +1559,6 @@ function kararVerFaz(id){
   if(r.hata){ alert(r.hata); return; }
   kayitYaz();   // hemen: kapatıp kararı geri almak yok
   efektCal('muhur');
-  muzikCal('sonuc');
   const not = defterNotu(vid, id);
   let h = ust() + '<div class="faz">';
   h += ruhGorseli(r.ruh);
@@ -1865,7 +1772,6 @@ function geriDon(){
 
 /* ---------- SON EKRANI ---------- */
 function sonEkrani(){
-  muzikCal('final');
   const d = oyun.durum;
   const cengoSatir = {
     "Mesafeli":"Cengo çekip gitti.",

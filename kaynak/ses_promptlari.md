@@ -1,10 +1,31 @@
-# Paravan Dedektiflik — Ses Sipariş Metinleri (Suno / Udio vb.)
+# Paravan Dedektiflik — Ses Sipariş Metinleri
 
-**Nasıl kullanılır:** Görsellerde olduğu gibi — önce **STİL ÇEKİRDEĞİ**'ni ver, sonra o parçanın
-**ÖZEL** kısmını ekle. Böylece 8 parçanın hepsi aynı dünyadan çıkar ve sahne değişince oyuncu
-"başka bir oyuna geçtim" hissetmez.
+> ## ⛔ MÜZİK KALDIRILDI (19 Eylül 2026)
+>
+> **Sahibinin kararı: oyunda arka plan müziği yok.** Sekiz parçanın altısı
+> üretilmiş, döngüleri kesilmiş, −18 LUFS'a hizalanmış ve oyuna gömülmüştü;
+> müzikli hâli beğenilmedi ve katman tamamen söküldü — kod, dosyalar, testler.
+> Oyun artık **sessizlik + kısa efektler** üzerine kurulu.
+>
+> **Canlı olan tek bölüm: BÖLÜM 2 — EFEKTLER (5).**
+>
+> Aşağıdaki müzik bölümleri (ev standardı, sekiz stil satırı, kesme noktaları,
+> hizalama tarifi) **kayıt olarak duruyor** — iş listesi değil. Karar geri
+> alınırsa sıfırdan başlanmaz; ama `build_html.js`'teki müzik motoru da
+> silindiği için geri getirmek kod işi gerektirir (MUZIK tablosu, muzikCal/
+> muzikBaslat/muzikDur, capraz geçiş, vakaModu ve dokuz çağrı yeri).
+> `test_ses.js` müzik izini kasten kolluyor; geri getirilirse o test de
+> bilerek güncellenmeli.
+>
+> **Lisans notu:** üretilen altı parça Suno'nun Free planındaydı ve Suno'nun
+> şartlarına göre Free çıktıları yalnızca kişisel/ticari olmayan kullanım için;
+> abonelik geriye dönük hak vermiyor. Müzik kaldırıldığı için bu sorun da
+> ortadan kalktı. Efektler Suno'dan gelmiyor.
 
-Toplam: **8 müzik + 5 efekt**.
+**Nasıl kullanılır (efektler):** Efektler müzik değil — Suno/Udio bunları
+üretemez. Metinden efekt üreten bir araç ya da hazır kütüphane gerekir.
+
+Toplam: **5 efekt.** (Müzik kaldırıldı — yukarıdaki nota bakın.)
 
 ---
 
@@ -253,8 +274,15 @@ müzik de kazandığını söylemesin. Kapanış hissi versin ama **zafer vermes
 
 # BÖLÜM 2 — EFEKTLER (5)
 
-Kısa, kuru, tek seferlik. Müziğin üstünde duyulmalı ama onu bastırmamalı.
-Hepsi **mono**, 0,1–0,6 saniye, sonunda kuyruk bırakmadan kesilsin.
+Kısa, kuru, tek seferlik. Hepsi **mono**, 0,1–0,6 saniye, sonunda kuyruk
+bırakmadan kesilsin.
+
+**Müzik kaldırıldığı için bu beş efekt artık sesin tamamı.** Aşağıdaki
+tarifler müziğin üstünde duyulacakları varsayımıyla yazılmıştı; sessizliğin
+üstünde çok daha açıkta kalacaklar. Özellikle `efekt_dokun` için yazılan
+"neredeyse fark edilmemeli" maddesi şimdi daha da kritik — sessizlikte her
+dokunuş bir olay gibi duyulabilir. Sipariş verirken sessiz bir odada
+dinleneceklerini düşün; kuru ve alçak tut, parlaklıktan kaçın.
 
 ## 9. `efekt_dokun.mp3` — Buton dokunuşu
 Çok kısa, yumuşak bir tık. Dijital "bip" değil — tahta masaya konmuş bir şeyin tokluğu.

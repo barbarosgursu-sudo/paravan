@@ -74,9 +74,9 @@ bunu dokuz vakanın hepsinde sınıyor.
   sonra derlemenin "✓ görsel: N atıfın hepsi gömülü" satırını görmek şart.
 - **Tarayıcı turu her şeyi görmez.** JS hatası, yatay taşma, dokunma hedefi ve
   kayıt-sürdürme bakar; eksik görsele, yanlış metne, bozuk yerleşime bakmaz.
-- **Ses üç yerde duruyor** — MUZIK/EFEKT tabloları, muzikCal/efektCal çağrıları,
-  `ses/` klasörü. Ayrışması sessizdir: çalınmayan bir ses hata vermez, hiç duyulmaz.
-  Düşüldü: `efekt_alev` tabloda ve sipariş listesindeydi ama hiç çağrılmıyordu.
+- **Ses üç yerde duruyor** — EFEKT tablosu, efektCal çağrıları, `ses/` klasörü.
+  Ayrışması sessizdir: çalınmayan bir ses hata vermez, hiç duyulmaz. Düşüldü:
+  `efekt_alev` tabloda ve sipariş listesindeydi ama hiç çağrılmıyordu.
   `test_ses.js` üçünü de eşliyor; yeni ses eklerken üçüne birden ekle.
 
 ## Doğrulama
@@ -107,24 +107,23 @@ kapatılır ("dosya KAPALI", "kâğıt katlı, iç yüzü görünmüyor"), boş 
 
 Kalan tek iş:
 
-- **Ses — 13 parçanın 6'sı gerçek (19 Eylül 2026).** Gömülenler: `arastirma`,
-  `masa`, `giris`, `karar`, `sonuc`, `huzun`. Hepsi Suno v6-mini ile üretildi,
-  ham parçadan dikişsiz döngü kesildi, **−18,0 LUFS'a hizalandı**. Bekleyen:
-  `prolog`, `final` (müzik) ve 5 efekt — bunlar hâlâ `.wav` yer tutucu.
-  Oyun `.mp3`'ü önce arıyor, bulamazsa `.wav`'a düşüyor; yani karışık durum
-  sorunsuz çalışıyor, kodda değişiklik gerekmiyor.
+- **Ses — yalnızca efektler. ARKA PLAN MÜZİĞİ YOK (19 Eylül 2026).**
+  Sahibinin kararı: müzikli hâli beğenilmedi. Sekiz parçanın altısı üretilmiş,
+  döngüleri kesilmiş, −18 LUFS'a hizalanmış ve gömülmüştü; katman tamamen
+  söküldü — MUZIK tablosu, muzikCal/muzikBaslat/muzikDur, çapraz geçiş,
+  vakaModu, dokuz çağrı yeri, 14 ses dosyası. Oyun artık **sessizlik + beş
+  kısa efekt** üzerine kurulu.
 
-  Araç, ayarlar, kabul edilen stil satırları ve kesme tarifi:
-  `kaynak/ses_promptlari.md` → **EV STANDARDI**. Ölçüm aracı:
-  `kaynak/arac_ses_olc.py`. Silinecek not: `ses/GECICI.md`.
+  Kalan iş: `ses/efekt_*.wav` **5 sentetik yer tutucu** gerçek `.mp3` ile
+  değiştirilecek. Sipariş metinleri `kaynak/ses_promptlari.md` → BÖLÜM 2.
+  Efektler müzik değil; Suno/Udio üretemez, metinden efekt üreten bir araç
+  ya da hazır kütüphane gerekir. Silinecek not: `ses/GECICI.md`.
 
-  **Durdurma sebebi — çözülmesi gereken lisans sorusu:** altı parça da Suno'nun
-  **Free planında** üretildi ve Suno'nun kendi arayüzü "Commercial use rights"ı
-  Pro planın maddesi olarak gösteriyor. Oyun yayında ve Android planda.
-  Hakkın üretim anında mı abonelikle mi doğduğu Suno'nun şartlarından teyit
-  edilmeli. Gerekirse altısı yeniden üretilecek — parçalar tekrarlanabilir
-  değil (aynı satır + aynı ayar farklı üretim verir), yani yeniden seçim de
-  gerekir. Sahibi bu soruyu çözmeden yeni parça sipariş etmiyor.
+  **Müzik geri istenirse** sıfırdan başlanmaz ama kod işi gerektirir: ev
+  standardı, sekiz stil satırı, kesme noktaları ve hizalama tarifi
+  `ses_promptlari.md`'de kayıt olarak duruyor; motor silindiği için geri
+  getirilmesi gerekir. `test_ses.js` müzik izinin geri sızmadığını kasten
+  kolluyor — karar geri alınırsa o test de bilerek güncellenmeli.
 
 Sonrası Android aşaması (bilerek ertelendi): Capacitor, görselleri base64'ten
 çıkarma, donanım geri tuşu, erişilebilirlik, ve `kaynak/final_tablo_plani.md`'deki
