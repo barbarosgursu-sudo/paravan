@@ -202,7 +202,14 @@
               "metin": "Kaza olsaydı, o ikinci ses yardım çağırırdı."
             }
           ],
-          "gorsel": null
+          "gorsel": {
+            "dosya": "portre_komsu.jpg",
+            "tur": "portre",
+            "gosterir": [
+              "komsu_ses"
+            ],
+            "alt": "kapısının aralığında duran yaşlı bir kadın"
+          }
         },
         {
           "id": "olay_yeri",
@@ -698,7 +705,14 @@
           ],
           "text": "Cengo sokağı kendi yöntemiyle yokladı. Kimse açıkça konuşmuyor ama bir korku var: o gece bir şey olmuş, ve bir kadın gördüğünü söyleyip sonra susmuş.",
           "meta": "Cavit'in 'sustur' dediği tanık gerçekten bir şey görmüş. Ona ulaşmanın yolu Cavit değil, mahalle.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v3_mahalle.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "mahalle_fisilti"
+            ],
+            "alt": "akşamüstü, konuşmayı kesmiş bir mahalle sokağı"
+          }
         },
         {
           "id": "tanik_gorusme",
@@ -784,7 +798,14 @@
               "metin": "Kesin teşhis. İlyas adında biri — Kaya'yı iten kişi. Adı sana bir şey söylemiyor, ama artık bir adın var."
             }
           ],
-          "gorsel": null,
+          "gorsel": {
+            "dosya": "v3_teshis.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "foto_teshis"
+            ],
+            "alt": "masada yüzü aşağı bırakılmış bir fotoğraf ve iki el"
+          },
           "bedelsiz": true
         },
         {
