@@ -72,6 +72,62 @@ sessizce atlar (hata vermez, ama ses de gelmez).
 
 ---
 
+## 🎛 SUNO STİL SATIRLARI — 8 müzik
+
+Hepsi kabul edilen `arastirma` satırının deltası: **baş ve son aynen korunur**,
+yalnızca ortadaki karakter tarifi değişir. Böyle olduğu için sekiz parça aynı
+dünyadan çıkar. Ayarlar her parçada AYNI (yukarıdaki EV STANDARDI tablosu) —
+süre hedefi kısa olsa bile **Duration yine 3 dk**, çünkü uzun ham malzeme
+olmadan temiz döngü kesilemiyor.
+
+Aşağıdakiler Styles alanına olduğu gibi yapıştırılır. Lyrics boş kalır.
+
+**1. `prolog` — Düşüş**
+```
+instrumental istanbul noir ambient, solo piano with long silences, fragile and sparse, bittersweet, a few sustained strings, weary not angry, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**2. `masa` — Ajans masası**
+```
+instrumental istanbul noir ambient, motionless low organ pedal, distant city hum, occasional single ud note, almost no melody, waiting and calm, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**3. `giris` — Yeni dosya**
+```
+instrumental istanbul noir ambient, slow walking upright bass line, one questioning bass clarinet phrase, quiet curiosity, gentle forward motion, no threat, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**4. `arastirma` — Araştırma** ✅ *kabul edildi, gömüldü*
+```
+instrumental istanbul noir ambient, pulseless low drone, sparse falling piano notes, distant rain, bass clarinet and ud fragments, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**5. `karar` — Karar**
+```
+instrumental istanbul noir ambient, single held low note, slow creeping dissonance underneath, held breath, tense by stillness not volume, no acceleration, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**6. `sonuc` — Sonuç ve defter notu**
+```
+instrumental istanbul noir ambient, lone ud, slow and resigned, tension released into quiet weight, no triumph, subdued, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**7. `huzun` — Hüzünlü keşif (V4)**
+```
+instrumental istanbul noir ambient, tender and warm, slow soft strings with gentle ud, mournful but restrained, warmer than the rest, no mystery or threat, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**8. `final` — Final**
+```
+instrumental istanbul noir ambient, low strings thickening, distant ud, one sustained bass note, heavy mourning, closure without victory, no swell or climax, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+Aşağıdaki BÖLÜM 1, her parçanın **sahnesini ve niyetini** anlatır — stil satırı
+tutmazsa oraya bakıp satırı düzeltiriz. Sipariş verirken kullanılan şey yukarıdaki
+satırlardır.
+
+---
+
 # BÖLÜM 1 — MÜZİK (8)
 
 ## 1. `prolog.mp3` — Düşüş
