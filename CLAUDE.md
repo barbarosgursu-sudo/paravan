@@ -21,7 +21,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 17 test geçmelidir.
+Diğer 18 test geçmelidir.
 
 Doğrulayıcı **11 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -74,6 +74,10 @@ bunu dokuz vakanın hepsinde sınıyor.
   sonra derlemenin "✓ görsel: N atıfın hepsi gömülü" satırını görmek şart.
 - **Tarayıcı turu her şeyi görmez.** JS hatası, yatay taşma, dokunma hedefi ve
   kayıt-sürdürme bakar; eksik görsele, yanlış metne, bozuk yerleşime bakmaz.
+- **Ses üç yerde duruyor** — MUZIK/EFEKT tabloları, muzikCal/efektCal çağrıları,
+  `ses/` klasörü. Ayrışması sessizdir: çalınmayan bir ses hata vermez, hiç duyulmaz.
+  Düşüldü: `efekt_alev` tabloda ve sipariş listesindeydi ama hiç çağrılmıyordu.
+  `test_ses.js` üçünü de eşliyor; yeni ses eklerken üçüne birden ekle.
 
 ## Doğrulama
 

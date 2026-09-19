@@ -1397,9 +1397,17 @@ function alevSvg(dolu){
     <path d="M9 1 C10 5 14 6 14 11 C14 15 11.5 18 9 18 C6.5 18 4 15 4 11 C4 8 6 7 6 4 C7.5 5.5 8.5 3 9 1 Z"/>
   </svg>`;
 }
+// Alev sesi, göstergedeki alev sayısı DEĞİŞTİĞİNDE çalar. Ham cengoBag'e değil:
+// ses bir kibritin tutuşması (ses_promptlari.md #13), yani yanan/sönen alevin
+// kendisi — oyuncunun görmediği bir değişim için çalmak yanıltıcı olurdu.
+// İlk çizim sessiz: kayıttan dönerken ya da sayfa açılırken "değişti" demek yalan.
+let cengoSonAlev = null;
 function cengoGosterge(){
   const dolu = oyun.cengoAlevSayisi();   // 0-5
   const kelime = oyun.cengoDurum();
+  // innerHTML'den ÖNCE çağrılıyoruz; ses çizimden ve karar mühründen sonraya kalsın.
+  if(cengoSonAlev !== null && dolu !== cengoSonAlev) setTimeout(() => efektCal('alev'), 420);
+  cengoSonAlev = dolu;
   let alevler = '';
   for(let i=1;i<=5;i++) alevler += alevSvg(i<=dolu);
   return `<div class="cengo-gosterge">
@@ -1956,6 +1964,7 @@ function yenidenBasla(){
   kayitSil();
   const yeni = new Oyun(GAME);
   oyun.durum = yeni.durum;
+  cengoSonAlev = null;   // yeni oyun: ilk gösterge çizimi yine sessiz
   prologIndex = 0; prologGoster();
 }
 
