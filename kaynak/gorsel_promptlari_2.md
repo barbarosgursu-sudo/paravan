@@ -579,7 +579,8 @@ yerden katlanmış, hepsi YÜZÜ AŞAĞI. Yalnızca kenarları, katlanma çizgil
 gölgeleri görünüyor; hiçbirinin yüzü kadrajda değil. Sayıları çok ve dizilişleri düzenli —
 aynı şeyin aylarca tekrarlandığını yalnızca bu tekrar söylüyor. Yanlarında lastikle bağlanmış
 kapalı bir esnaf defteri, bir ataç, ucu körelmiş bir kalem. Kâğıtların üstünde ne satır, ne
-sütun, ne rakam, ne mühür var; bilgiyi taşıyan şey sayı ve düzen. Kimse yok. Suç yok, skandal yok; yalnızca
+sütun, ne rakam, ne mühür var; bilgiyi taşıyan şey sayı ve düzen. Kimse yok. Suç yok,
+skandal yok; yalnızca
 bir adamın kazandığından fazlasını bir yere gönderdiğini gösteren soğuk bir düzen. Sabırlı,
 sessiz, biraz hüzünlü.
 ```
@@ -652,7 +653,8 @@ Konu: Yoksul ama tertemiz bir evin küçük odası. Tek kişilik bir çocuk yata
 çekilmiş ve boş. Başucunda bir sehpa: üstünde bir sürahi, bir bardak, ve düzenli sıralanmış
 birkaç ilaç kutusu — yenisi değil, yıllardır aynı sırayla dizilmiş olanlar. Kutular düz ve
 etiketsiz, yüzleri çevrili; üzerlerinde hiçbir yazı, marka ya da rakam görünmüyor. Duvarda
-küçük, yazısız bir çocuk çizimi. Yerde, yatağın yanında, oturulmaktan yıpranmış bir tabure. Perde yarı çekili.
+küçük, yazısız bir çocuk çizimi. Yerde, yatağın yanında, oturulmaktan yıpranmış bir
+tabure. Perde yarı çekili.
 Kimse yok — ne çocuk, ne aile. Hastane YOK, tıbbi cihaz YOK, acı YOK, ağlama YOK. Yıllardır
 sürdürülen bir bakımın sessiz düzeni. Hüzünlü ama onurlu; sevgiyle tutulmuş bir oda.
 ```
