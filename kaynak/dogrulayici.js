@@ -143,13 +143,40 @@ function kural1_sozluk(game, hatalar) {
           }
         }
       }
-      // Görsel: gosterir ⊆ needs∪reveals (olgu bazlı)
+      // Görsel: gosterir ⊆ needs∪reveals (olgu bazlı).
+      // Metin taraması gibi burada da havuz GENİŞLETİLİR: needs'teki türetilmiş bir
+      // olgu bileşenlerini garanti eder (ilyas_supde'yi açabilen oyuncu tarif_yara'yı
+      // zaten bilir), o yüzden bileşeni gösteren görsel sızıntı değildir. Genişletme
+      // yokken metin kuralı ile görsel kuralı farklı davranıyordu.
       if (c.gorsel && Array.isArray(c.gorsel.gosterir)) {
+        const gHavuz = havuzGenislet(vaka, new Set(havuz));
+        // 'gosterir' iki tür değer taşır: olgu adı ve kanon YÜZÜ (kişi ismi).
+        // Yüz, o kaynakta hak edilmiş olmalı — temelde ya da havuzun metninde geçmeli.
+        const gHavuzMetin = [...gHavuz].map(o => facts[o] || "").join(" ");
         for (const g of c.gorsel.gosterir) {
           const isFact = Object.prototype.hasOwnProperty.call(facts, g);
-          if (isFact && !havuz.has(g)) {
-            hatalar.push(`[K1] ${vaka.id}/${c.id}: görsel '${g}' olgusunu gösteriyor ama needs/reveals'te yok.`);
+          const isYuz = game.kanon.isimler.includes(g);
+          if (isFact) {
+            if (!gHavuz.has(g))
+              hatalar.push(`[K1] ${vaka.id}/${c.id}: görsel '${g}' olgusunu gösteriyor ama needs/reveals'te yok.`);
+          } else if (isYuz) {
+            if (!temel.has(g) && !isimGeciyor(gHavuzMetin, g))
+              hatalar.push(`[K1] ${vaka.id}/${c.id}: görsel '${g}' yüzünü gösteriyor ama o isim bu kaynakta hak edilmiyor.`);
+          } else {
+            hatalar.push(`[K1] ${vaka.id}/${c.id}: gorsel.gosterir '${g}' ne olgu ne kanon ismi — yazım hatası ya da truth anahtarı; böyle bir etiket sessizce denetimsiz kalır.`);
           }
+        }
+      }
+      // Görselin alt metni de oyuncuya görünür (ekran okuyucu; görsel yüklenmezse
+      // sayfadaki yer tutucu). Metin kuralının aynısı ona da uygulanır.
+      if (c.gorsel && typeof c.gorsel.alt === "string" && c.gorsel.alt) {
+        const aHavuz = havuzGenislet(vaka, new Set(havuz));
+        const aMetin = [...aHavuz].map(o => facts[o] || "").join(" ");
+        for (const isim of game.kanon.isimler) {
+          if (isim.endsWith("-YOK")) continue;
+          if (temel.has(isim)) continue;
+          if (isimGeciyor(c.gorsel.alt, isim) && !isimGeciyor(aMetin, isim))
+            hatalar.push(`[K1] ${vaka.id}/${c.id} (gorsel.alt): metin '${isim}' diyor ama needs/reveals olgularının hiçbiri onu taşımıyor.`);
         }
       }
     }
