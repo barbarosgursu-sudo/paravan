@@ -64,6 +64,23 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 | `sonuc` | 209 sn | 168,1 – 201,4 | 33,3 sn | 290 Hz — `karar`'ın 288 Hz'ine bilerek komşu seçildi |
 | `huzun` | 223 sn | 74,2 – 170,2 | 96,0 sn | 652 Hz — setin kasıtlı sıcak istisnası; uzun tutuldu |
 
+**Altısı −18,0 LUFS'a hizalandı (19 Eylül 2026).** Gelen parçalar −13,7 … −18,0
+arasında savruluyordu; 4,3 dB fark ekran değişiminde duyuluyordu. Hizalama ham
+dosyadan yeniden keserek yapıldı (kes + çapraz geçiş + kazanç → tek kodlama),
+çünkü hazır mp3'e kazanç uygulamak ikinci bir kayıplı kodlama demekti. Tepe
+tavanı −1 dBFS. Kalan iki müzik geldiğinde aynı hedefe hizalanacak; kesme
+noktaları ve çapraz geçiş süreleri yukarıdaki tabloda, tarif
+`/tmp` dışında kalmadı diye buraya yazıldı:
+
+| parça | ham dosya | aralık | çapraz geçiş |
+|---|---|---|---|
+| `arastirma` | Rain on the Bosphorus | 44,6 – 157,1 | 5 sn |
+| `masa` | Ajans masası | 111,9 – 148,6 | 4 sn |
+| `giris` | giris | 27,1 – 61,9 | 4 sn |
+| `karar` | karar | 8,0 – 35,4 | 7 sn |
+| `sonuc` | Sonuc | 168,1 – 201,4 | 6 sn |
+| `huzun` | Huzun | 74,2 – 170,2 | 8 sn |
+
 İki gözlem, ikisi de sahibinin kararıyla kapandı:
 
 - `masa`: aynı stil satırı kalıbı `arastirma`'dan iki kat yoğun bir parça üretti

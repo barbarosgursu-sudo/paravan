@@ -107,8 +107,24 @@ kapatılır ("dosya KAPALI", "kâğıt katlı, iç yüzü görünmüyor"), boş 
 
 Kalan tek iş:
 
-- **Ses.** `ses/*.wav` 13 sentetik yer tutucu. Sipariş metinleri
-  `kaynak/ses_promptlari.md`, silinecek not `ses/GECICI.md`.
+- **Ses — 13 parçanın 6'sı gerçek (19 Eylül 2026).** Gömülenler: `arastirma`,
+  `masa`, `giris`, `karar`, `sonuc`, `huzun`. Hepsi Suno v6-mini ile üretildi,
+  ham parçadan dikişsiz döngü kesildi, **−18,0 LUFS'a hizalandı**. Bekleyen:
+  `prolog`, `final` (müzik) ve 5 efekt — bunlar hâlâ `.wav` yer tutucu.
+  Oyun `.mp3`'ü önce arıyor, bulamazsa `.wav`'a düşüyor; yani karışık durum
+  sorunsuz çalışıyor, kodda değişiklik gerekmiyor.
+
+  Araç, ayarlar, kabul edilen stil satırları ve kesme tarifi:
+  `kaynak/ses_promptlari.md` → **EV STANDARDI**. Ölçüm aracı:
+  `kaynak/arac_ses_olc.py`. Silinecek not: `ses/GECICI.md`.
+
+  **Durdurma sebebi — çözülmesi gereken lisans sorusu:** altı parça da Suno'nun
+  **Free planında** üretildi ve Suno'nun kendi arayüzü "Commercial use rights"ı
+  Pro planın maddesi olarak gösteriyor. Oyun yayında ve Android planda.
+  Hakkın üretim anında mı abonelikle mi doğduğu Suno'nun şartlarından teyit
+  edilmeli. Gerekirse altısı yeniden üretilecek — parçalar tekrarlanabilir
+  değil (aynı satır + aynı ayar farklı üretim verir), yani yeniden seçim de
+  gerekir. Sahibi bu soruyu çözmeden yeni parça sipariş etmiyor.
 
 Sonrası Android aşaması (bilerek ertelendi): Capacitor, görselleri base64'ten
 çıkarma, donanım geri tuşu, erişilebilirlik, ve `kaynak/final_tablo_plani.md`'deki
