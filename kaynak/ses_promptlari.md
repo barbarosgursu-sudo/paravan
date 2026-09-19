@@ -60,6 +60,7 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 | `arastirma` | 180 sn | 44,6 – 157,1 | 112,5 sn | parlaklık 473 Hz, vurmalı yok |
 | `masa` | 219 sn | 111,9 – 148,6 | 36,7 sn | orta bölüm; sakin giriş de kesildi ama sahibi bunu seçti |
 | `giris` | 215 sn | 27,1 – 61,9 | 34,8 sn | parlaklık 862 Hz — setin en parlağı, sahibi bilerek seçti |
+| `karar` | 215 sn | 8,0 – 35,4 | 27,4 sn | 288 Hz, atak 41 — setin en karanlık ve en durağanı |
 
 İki gözlem, ikisi de sahibinin kararıyla kapandı:
 
@@ -69,6 +70,14 @@ göre değişiyor, o yüzden her parçada 2–3 aday kesilip dinleniyor.
 - `giris`: parlaklık 796 Hz geldi (gömülü ikisi 430–473). Karanlık final bölümü
   de aday olarak kesildi (387 Hz) ama sahibi parlak olanı seçti — giriş ekranının
   bir tık farklı duyulması kasıtlı.
+
+**Çapraz geçiş uzunluğu malzemeye göre.** Durağan parçada dikiş affetmiyor:
+`karar` kendi içinde 0,7 dB dalgalanıyor, bu yüzden normalde sorun olmayacak
+2,4 dB'lik bir birleşme sırıttı. 3 sn yerine 7 sn geçişle temizlendi. Kural:
+malzeme ne kadar durağansa geçiş o kadar uzun (hareketli parçada 3–5 sn yeter,
+durağanda 7–12 sn). `arac_ses_olc.py` bunu ölçmüyor; parçayı iki kez arka arkaya
+ekleyip birleşmeyi parçanın kendi tipik dalgalanmasıyla karşılaştıran kontrol
+oturum içinde yazıldı, tarif burada.
 
 **Sonuç: set tek bir renkte değil, bir bant içinde.** Parlaklık 430–860 Hz,
 yoğunluk 36–165 arası tolere ediliyor. Kalan parçalarda bu iki ölçü tek başına
