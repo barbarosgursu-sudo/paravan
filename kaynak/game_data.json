@@ -1080,7 +1080,14 @@
           ],
           "text": "Sevil bu büroyu, sırrı bilen tek güvenilir insan burada olduğu için seçmiş olabilir — Cengo. Ama bunu ne itiraf edebiliyor ne inkâr.",
           "meta": "Belki minnet, belki korku, belki ikisi. Sevil okunamıyor — kapalı bir defter.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "yana_sevil_kapali.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "sevil_geldi_neden"
+            ],
+            "alt": "misafir tarafında bırakılmış tek eldiven, dokunulmamış çay, kapalı defter"
+          }
         }
       ],
       "ucret_etkisi": [
@@ -1305,7 +1312,14 @@
           ],
           "text": "Nadire, giderken durdu: 'O avukat... bir keresinde bir yerden söz etmişti. Belki işinize yarar.' Küçük bir kırıntı — ama bir yöne işaret ediyor.",
           "meta": "Kaçan avukata giden ince bir iz. Bu vaka onu çözmez; sadece bir kapı aralar.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "yanb_kirinti.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "avukat_izi"
+            ],
+            "alt": "kapanan bir büro kapısının eşiğinde yerde kalmış küçük kâğıt parçası"
+          }
         }
       ],
       "decisions": [
@@ -2127,7 +2141,14 @@
           ],
           "text": "Peri baştan beri elindeki dosyaya yeniden baktı. İlk günden beri her 'temizlik' işini getiren, her raporu kapattıran aynı kişiydi: Cavit. Tesadüf olamayacak kadar çok.",
           "meta": "Cavit sadece iş getiren avukat değil — bu işin her düğümünde o var. Şüphe artık somut.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v5_dosya_donus.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "kaya_dosya_donus"
+            ],
+            "alt": "aylar önce kapanmış bir dosya yeniden açılıp kapatılmış, etrafında biriken kâğıtlar"
+          }
         },
         {
           "id": "ilyas_gecmis",
@@ -2183,7 +2204,14 @@
           ],
           "text": "Peri Cavit'i izlemeye başladı. Nereye gidiyor, kiminle görüşüyor?",
           "meta": "Şüphe artık takibe dönüştü.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v5_takip.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "cavit_takip"
+            ],
+            "alt": "park etmiş bir arabanın buğulu camından ıslak gece caddesi"
+          }
         },
         {
           "id": "iliski_gor",
@@ -2253,7 +2281,15 @@
           ],
           "text": "Peri kazdıkça kadın bulanıklaştı. Bir iz, cinayet fikrinin ondan çıkmış olabileceğini gösteriyordu — ama Cavit de suçunu ona yıkıyor olabilirdi. Servetle fazla ilgiliydi — ama beş parasız bir dul da paraya bakar.",
           "meta": "Her kanıtın iki okunuşu var. Peri hiçbirinden emin olamadı. En çok da bu ürküttü onu.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v5_bulanik.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "ip_akil",
+              "ip_para"
+            ],
+            "alt": "bir tuvalet masasında yas eşyalarıyla kilitli kutu yan yana"
+          }
         }
       ],
       "ucret_etkisi": [
@@ -2457,7 +2493,14 @@
           ],
           "text": "Parçaları yan yana koydun: yıllar önceki dava, İlyas'ın borcu, Cavit'in Ceyda'yla ilişkisi, ve merdivendeki o gece. Zincir tamam.",
           "meta": "Sana ilk gün 'kaza raporu' imzalatmak isteyen adam, cinayetin mimarıydı.",
-          "gorsel": null,
+          "gorsel": {
+            "dosya": "v6_zincir.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "zincir_tam"
+            ],
+            "alt": "masada tek sıra hâlinde dizilmiş, hepsi yüzü kapalı dört parça"
+          },
           "bedelsiz": true
         },
         {

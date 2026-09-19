@@ -7,7 +7,7 @@
     "kosul": "varsayilan"
   },
   "baslik": "Enkaz",
-  "arastirma": 3,
+  "arastirma": 2,
   "truth": {
     "nadire_dert": "son parasını 'alacağını kurtarırım' diyen bir dolandırıcıya kaptırdı",
     "dolandirici": "batış mağdurlarını avlayan biri",
@@ -21,7 +21,8 @@
     "dolandirici_kim": "Dolandırıcı: batış mağdurlarını avlayan biri; başka kurbanları da var.",
     "batis_enkazi": "Peri'nin çöküşü Nadire'nin ve başkalarının hayatını götürmüş.",
     "peri_sorumluluk": "Peri o avukata güvendi; enkazın bedelini başkaları da ödedi.",
-    "avukat_izi": "Nadire kaçan avukata dair bir kırıntı biliyor — burada çözülmez, Sezon 2."
+    "avukat_izi": "Nadire kaçan avukata dair bir kırıntı biliyor — burada çözülmez, Sezon 2.",
+    "nadire_durum": "Nadire her şeyini kaybetmiş: birikimi, emekliliği, hepsi Peri'nin battığı o çöküşte yok olmuş."
   },
   "knowledge": [
     {
@@ -59,6 +60,7 @@
       "ad": "Dolandırıcının izini sürmek",
       "tur": "Gözlem",
       "ico": "◉",
+      "cekirdek": true,
       "needs": [
         "dolandirici_var"
       ],
@@ -78,12 +80,38 @@
       }
     },
     {
+      "id": "nadire_dinle",
+      "ad": "Nadire'yi dinle",
+      "tur": "İfade",
+      "ico": "◑",
+      "bedelsiz": true,
+      "needs": [],
+      "reveals": [
+        "nadire_durum"
+      ],
+      "text": "Nadire çekinerek anlattı: salon batınca o da battı. Yıllarca biriktirdiği ne varsa, avukatın boşalttığı hesaplarla birlikte buhar oldu. Ama şikâyet etmiyor, sadece 'kader' diyor.",
+      "meta": "Peri'nin düşüşü yalnız Peri'yi değil, ona güvenenleri de batırmış. Bu dolandırıcılık işinin altında daha ağır bir borç var — Peri'nin vicdan borcu.",
+      "gorsel": {
+        "dosya": "portre_nadire.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "nadire_durum"
+        ],
+        "alt": "Nadire anlatırken: yorgun ama onurunu koruyan bir kadın"
+      }
+    },
+    {
       "id": "peri_ic_ses",
       "ad": "Peri'nin iç hesabı",
       "tur": "Gözlem",
       "ico": "◈",
       "needs": [
-        "batis_enkazi"
+        {
+          "any": [
+            "batis_enkazi",
+            "nadire_durum"
+          ]
+        }
       ],
       "reveals": [
         "peri_sorumluluk"
@@ -91,7 +119,12 @@
       "bedelsiz": true,
       "text": "Peri, Nadire'nin küçük soğuk odasına baktı. 'Ben o adama güvendim,' dedi içinden. 'Bu kadının hayatını ben götürdüm — farkında bile olmadan.'",
       "meta": "Nadire suçlamıyor; o yüzden Peri suçu kendi taşımak zorunda. Utanç, affediciliğin sessizliğiyle ağırlaşıyor.",
-      "gorsel": null
+      "gorsel": {
+        "dosya": "portre_peri.jpg",
+        "tur": "portre",
+        "gosterir": [],
+        "alt": "Peri'nin kendine baktığı an"
+      }
     },
     {
       "id": "avukat_kirintisi",
@@ -106,7 +139,14 @@
       ],
       "text": "Nadire, giderken durdu: 'O avukat... bir keresinde bir yerden söz etmişti. Belki işinize yarar.' Küçük bir kırıntı — ama bir yöne işaret ediyor.",
       "meta": "Kaçan avukata giden ince bir iz. Bu vaka onu çözmez; sadece bir kapı aralar.",
-      "gorsel": null
+      "gorsel": {
+        "dosya": "yanb_kirinti.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "avukat_izi"
+        ],
+        "alt": "kapanan bir büro kapısının eşiğinde yerde kalmış küçük kâğıt parçası"
+      }
     }
   ],
   "decisions": [
@@ -114,41 +154,52 @@
       "id": "tam_sahip_cik",
       "gate": "sorumluluk_tam",
       "etiket": "Nadire'ye tam sahip çık",
-      "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin — Peri beş parasız olsa da. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer.",
-      "cengoBag": 2,
+      "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın.",
+      "cengoBag": 3,
       "seed_yaz": {
         "yanb_karar": "sahip"
-      }
+      },
+      "yuzde": 36,
+      "para": -40000,
+      "bedel_adi": "Nadire'nin zararı"
     },
     {
       "id": "gercegi_soyle",
       "gate": "sorumluluk_tam",
       "etiket": "Geçmişle yüzleş, gerçeği söyle",
-      "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün.",
+      "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün. O cümleyi kurduktan sonra kadına masraf yazamazsın. Acil ihtiyacı için de bir şey bıraktın.",
       "cengoBag": 2,
       "seed_yaz": {
         "yanb_karar": "yuzlesti"
-      }
+      },
+      "yuzde": 22,
+      "para": -18000,
+      "bedel_adi": "Nadire'ye bırakılan"
     },
     {
       "id": "sadece_coz",
       "gate": "dolandirici_kim",
       "etiket": "Sadece dolandırıcıyı çöz, mesafeni koru",
-      "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun.",
+      "sonuc": "İşini profesyonelce yaptın, parayı kurtardın, ama daha fazla bulaşmadın. Yardım ettin ama mesafeni korudun. Adamın peşine düşmek para yedi; Nadire'den alamayacağına göre onu sen karşıladın.",
       "cengoBag": 1,
       "seed_yaz": {
         "yanb_karar": "coz"
-      }
+      },
+      "yuzde": 30,
+      "para": -8000,
+      "bedel_adi": "Takip masrafı"
     },
     {
       "id": "gecistir",
       "gate": "yok",
       "etiket": "Geçiştir, kendini koru",
-      "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür.",
+      "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür. Cebinden bir kuruş çıkmadı. Hiçbir şey vermedin, hiçbir şey de almadın.",
       "cengoBag": -2,
       "seed_yaz": {
         "yanb_karar": "gecistirdi"
-      }
+      },
+      "yuzde": 12,
+      "para": 0
     }
   ],
   "seeds": {
@@ -160,5 +211,6 @@
       "esit_ise": "avukat_izi",
       "deger": true
     }
-  }
+  },
+  "giris_gorsel": "yana_giris_b.jpg"
 }

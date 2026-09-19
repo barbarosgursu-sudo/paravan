@@ -2,10 +2,12 @@
   "id": "YAN-A",
   "tur": "yan",
   "sira": 99,
-  "belirir": { "sonra": "V2", "kosul": "varsayilan" },
+  "belirir": {
+    "sonra": "V2",
+    "kosul": "varsayilan"
+  },
   "baslik": "Kapalı Defter",
-  "arastirma": 3,
-
+  "arastirma": 2,
   "truth": {
     "sevil_dert": "eski suçunun ifşa tehdidi",
     "tehdit_kaynak": "eski o dünyadan biri",
@@ -13,7 +15,6 @@
     "sevil_neden_geldi": "sırrı bilen tek güvenilir kişiye — Cengo'ya, itiraf edemeden",
     "sevil_pay": "<BELİRSİZ> — nankör MÜ, kaçan kurban MI? ÇÖZÜLMEZ"
   },
-
   "facts": {
     "sevil_tehdit": "Sevil eski bir sırrının ifşasıyla tehdit ediliyor.",
     "cengo_tepki": "Cengo, Sevil'i görünce kasıldı — aralarında bir geçmiş var.",
@@ -22,63 +23,203 @@
     "tehdit_kim": "Tehdit eden: eski o dünyadan biri.",
     "sevil_geldi_neden": "Sevil bu kapıyı boşuna çalmadı; ama minnet MI, korku MU — itiraf edemiyor, belli değil."
   },
-
   "knowledge": [
-    { "turetilen": "gecmis_sezildi", "ifade": { "all": ["cengo_tepki","cengo_eski_dava"] } },
-    { "turetilen": "gecmis_tam", "ifade": { "all": ["gecmis_sezildi","cengo_ustlendi"] } }
+    {
+      "turetilen": "gecmis_sezildi",
+      "ifade": {
+        "all": [
+          "cengo_tepki",
+          "cengo_eski_dava"
+        ]
+      }
+    },
+    {
+      "turetilen": "gecmis_tam",
+      "ifade": {
+        "all": [
+          "gecmis_sezildi",
+          "cengo_ustlendi"
+        ]
+      }
+    }
   ],
-
   "giris": [
-    { "kosul": "varsayilan",
+    {
+      "kosul": "varsayilan",
       "metin": "Ajansa iyi giyimli, ölçülü bir kadın gelir — Sevil, 36. Düzenli bir hayatı var; geride bıraktığı bir geçmiş. Derdi mahrem: biri onu, eski günlerine dair bir şeyi ifşa etmekle tehdit ediyor. Sessizce durdurulmasını istiyor. Ama içeri girip Cengo'yu görünce bir an durur. Gözler buluşur. İkisi de tanır. Sonra — hiçbir şey olmaz. Sevil derdine döner; Cengo tek kelime etmez, sadece çenesi kasılır.",
-      "acilan": ["sevil_tehdit","cengo_tepki"] }
+      "acilan": [
+        "sevil_tehdit",
+        "cengo_tepki"
+      ]
+    }
   ],
-
   "clues": [
-    { "id": "tehdit_arastir", "ad": "Tehdidi araştırmak", "tur": "Gözlem", "ico": "◉",
-      "needs": ["sevil_tehdit"], "reveals": ["tehdit_kim"],
+    {
+      "id": "tehdit_arastir",
+      "ad": "Tehdidi araştırmak",
+      "tur": "Gözlem",
+      "ico": "◉",
+      "needs": [
+        "sevil_tehdit"
+      ],
+      "reveals": [
+        "tehdit_kim"
+      ],
       "text": "Sevil'i sıkıştıranın izini sürdüler — eski o kenar dünyadan biri, geçmişi bilen ve para/sus koparmaya çalışan biri.",
       "meta": "Sevil'in derdini çözmek için yeterli. Ama Cengo'nun neden kasıldığı hâlâ ortada.",
-      "gorsel": { "dosya": "portre_sevil.jpg", "tur": "portre", "gosterir": ["Sevil"], "alt": "ölçülü, mesafeli, bir şey saklayan bir kadın yüzü" } },
-
-    { "id": "eski_kayit", "ad": "Eski kaydı kurcalamak", "tur": "Belge", "ico": "▤",
-      "needs": ["cengo_tepki"], "reveals": ["cengo_eski_dava"],
+      "gorsel": {
+        "dosya": "portre_sevil.jpg",
+        "tur": "portre",
+        "gosterir": [
+          "Sevil"
+        ],
+        "alt": "ölçülü, mesafeli, bir şey saklayan bir kadın yüzü"
+      }
+    },
+    {
+      "id": "eski_kayit",
+      "ad": "Eski kaydı kurcalamak",
+      "tur": "Belge",
+      "ico": "▤",
+      "needs": [
+        "cengo_tepki"
+      ],
+      "reveals": [
+        "cengo_eski_dava"
+      ],
       "text": "Peri eski bir dava kaydına ulaştı: yıllar önce bir suç, ve kayıtta Cengo'nun adı. Cengo bundan hiç söz etmemişti.",
       "meta": "Cengo'nun sabıkası, sürüklenmişliği, o kenar dünyayı bilmesi — kökü burada.",
-      "gorsel": { "dosya": "yana_dava.jpg", "tur": "kanit", "gosterir": ["cengo_eski_dava"], "alt": "yıllanmış bir dava dosyası, üstünde bir isim" } },
-
-    { "id": "cengo_cumle", "ad": "Cengo'nun tek cümlesi", "tur": "İfade", "ico": "◈",
-      "needs": ["cengo_eski_dava"], "reveals": ["cengo_ustlendi"], "bedelsiz": true,
+      "gorsel": {
+        "dosya": "yana_dava.jpg",
+        "tur": "kanit",
+        "gosterir": [
+          "cengo_eski_dava"
+        ],
+        "alt": "yıllanmış bir dava dosyası, üstünde bir isim"
+      }
+    },
+    {
+      "id": "cengo_cumle",
+      "ad": "Cengo'nun tek cümlesi",
+      "tur": "İfade",
+      "ico": "◈",
+      "needs": [
+        "cengo_eski_dava"
+      ],
+      "reveals": [
+        "cengo_ustlendi"
+      ],
+      "bedelsiz": true,
       "text": "Cengo pencereye baktı. 'Onun bir geleceği vardı Peri abla. Benim yoktu. O kadar.' Başka bir şey demedi.",
       "meta": "Suç Sevil'indi; Cengo üstlendi, içeri girdi, çıktığında Sevil gitmişti. Sadakat mi, aptallık mı — Cengo bile söylemiyor.",
-      "gorsel": null },
-
-    { "id": "sevil_okuma", "ad": "Sevil neden geldi?", "tur": "Gözlem", "ico": "◑",
-      "needs": ["gecmis_tam"], "reveals": ["sevil_geldi_neden"],
+      "gorsel": {
+        "dosya": "portre_cengo.jpg",
+        "tur": "portre",
+        "gosterir": [],
+        "alt": "Cengo, pencereye bakarken"
+      }
+    },
+    {
+      "id": "sevil_okuma",
+      "ad": "Sevil neden geldi?",
+      "tur": "Gözlem",
+      "ico": "◑",
+      "needs": [
+        "gecmis_tam"
+      ],
+      "reveals": [
+        "sevil_geldi_neden"
+      ],
       "text": "Sevil bu büroyu, sırrı bilen tek güvenilir insan burada olduğu için seçmiş olabilir — Cengo. Ama bunu ne itiraf edebiliyor ne inkâr.",
       "meta": "Belki minnet, belki korku, belki ikisi. Sevil okunamıyor — kapalı bir defter.",
-      "gorsel": null }
+      "gorsel": {
+        "dosya": "yana_sevil_kapali.jpg",
+        "tur": "mekan",
+        "gosterir": [
+          "sevil_geldi_neden"
+        ],
+        "alt": "misafir tarafında bırakılmış tek eldiven, dokunulmamış çay, kapalı defter"
+      }
+    }
   ],
-
+  "ucret_etkisi": [
+    {
+      "kosul": {
+        "seed": "v2_karar",
+        "esit": "hersey"
+      },
+      "carpan": 0.8,
+      "metin": "Nesrin'e her şeyi anlattığın duyuldu. Sır satın alan müşteri pazarlık eder."
+    }
+  ],
   "decisions": [
-    { "id": "biliyorum_cik", "gate": "gecmis_tam", "etiket": "Sevil'e 'biliyorum' diye çık",
-      "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi?",
-      "cengoBag": -1, "seed_yaz": { "yana_karar": "acti" } },
-
-    { "id": "cengoya_birak", "gate": "gecmis_tam", "etiket": "Cengo'ya bırak, karışma",
-      "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an.",
-      "cengoBag": 2, "seed_yaz": { "yana_karar": "birakti" } },
-
-    { "id": "sessiz_coz", "gate": "tehdit_kim", "etiket": "Tehdidi çöz, geçmişe dokunma",
-      "sonuc": "Sevil'i sıkıştıranı hallettin, ama geçmişe dokunmadın. Kapalı defter kapalı kaldı. Merhametli bir sessizlik.",
-      "cengoBag": 1, "seed_yaz": { "yana_karar": "sessiz" } },
-
-    { "id": "isi_gecevir", "gate": "tehdit_kim", "etiket": "Sevil'in işini geri çevir",
-      "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his.",
-      "cengoBag": 1, "seed_yaz": { "yana_karar": "cevirdi" } }
+    {
+      "id": "biliyorum_cik",
+      "gate": "gecmis_tam",
+      "etiket": "Sevil'e 'biliyorum' diye çık",
+      "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi? Sevil ücreti ödüyor, üstüne biraz daha — artık sırrını bilen bir kişi daha var ve bunu ikiniz de biliyorsunuz.",
+      "cengoBag": -1,
+      "seed_yaz": {
+        "yana_karar": "acti"
+      },
+      "yuzde": 18,
+      "para": 65000
+    },
+    {
+      "id": "cengoya_birak",
+      "gate": "gecmis_tam",
+      "etiket": "Cengo'ya bırak, karışma",
+      "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an. Fatura kesmedin. Kendi defteri için arkadaşından para alınmaz.",
+      "cengoBag": 2,
+      "seed_yaz": {
+        "yana_karar": "birakti"
+      },
+      "yuzde": 42,
+      "para": 0
+    },
+    {
+      "id": "sessiz_coz",
+      "gate": "tehdit_kim",
+      "etiket": "Tehdidi çöz, geçmişe dokunma",
+      "sonuc": [
+        {
+          "kosul": "gecmis_tam",
+          "metin": "Sevil'i sıkıştıranı hallettin, geçmişe dokunmadın. Cengo'nun onun yerine neyi üstlendiğini biliyorsun — ve söylemedin. Kapalı defter kapalı kaldı; merhametli bir sessizlik."
+        },
+        {
+          "kosul": "gecmis_sezildi",
+          "metin": "Sevil'i sıkıştıranı hallettin. İkisi arasında bir şey olduğunu sezdin ama üstüne gitmedin. Bazı kapılar çalınmaz."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Sevil'i sıkıştıranı hallettin, ücretini aldın, dosyayı kapattın. Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da."
+        }
+      ],
+      "cengoBag": 0,
+      "seed_yaz": {
+        "yana_karar": "sessiz"
+      },
+      "yuzde": 28,
+      "para": 45000
+    },
+    {
+      "id": "isi_gecevir",
+      "gate": "tehdit_kim",
+      "etiket": "Sevil'in işini geri çevir",
+      "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his. Sevil yapılan iş için bir şey bırakıp gidiyor; asıl ücreti Cengo'nun hatırına eline almadın.",
+      "cengoBag": 1,
+      "seed_yaz": {
+        "yana_karar": "cevirdi"
+      },
+      "yuzde": 12,
+      "para": 12000
+    }
   ],
-
   "seeds": {
-    "cengo_gecmis_bilinir": { "esit_ise": "gecmis_tam", "deger": true }
-  }
+    "cengo_gecmis_bilinir": {
+      "esit_ise": "gecmis_tam",
+      "deger": true
+    }
+  },
+  "giris_gorsel": "yana_giris.jpg"
 }
