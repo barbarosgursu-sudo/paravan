@@ -6,6 +6,50 @@
 
 Toplam: **8 müzik + 5 efekt**.
 
+---
+
+## ✅ EV STANDARDI — `arastirma` kabul edildi (19 Eylül 2026)
+
+İlk parça oturdu; **stil satırı ve ayarlar artık referans.** Kalan 7 müzik bunun
+deltası olarak yazıldı — görsellerde `karar_temiz`'in yaptığı iş.
+
+**Araç:** suno.com → **Advanced** (Simple'da stil alanı yok, vokal ekliyor) → model
+`v6-mini`. Tam `v6` ücretli ve 1 dakikalık önizleme veriyor; mini yeterli çıktı.
+
+**Ayarlar:**
+
+| | |
+|---|---|
+| Lyrics | **boş** — bu sürümde ayrı Instrumental anahtarı yok, boş bırakmak enstrümantal demek |
+| Vocal Gender | dokunma, ikisi de seçilmesin |
+| Duration | Custom → 3 dk (uzun ham malzeme = temiz döngü kesme şansı) |
+| Max Mode | Off (deneme turunda kredi harcama) |
+| Weirdness | **%20–25** — bu müzik dikkat çekmemeli |
+| Style Influence | **%75–80** — stil satırı spesifik, sıkı takip etsin |
+| Variety / Personalize | Normal / Off |
+| Exclude Styles | bu sürümde yok; "no vocals, no drums" stil satırında taşınıyor |
+
+**Kabul edilen stil satırı (İngilizce — Suno stil alanı İngilizceyi daha iyi okuyor):**
+
+```
+instrumental istanbul noir ambient, pulseless low drone, sparse falling piano notes, distant rain, bass clarinet and ud fragments, hicaz hint, tape saturation, vinyl crackle, no drums, no vocals
+```
+
+**Ölçüm (kabul edilen sürüm):** parlaklık ort. 473 Hz (karanlık), vurmalı yok,
+gövde dinamiği ~6 dB, −17,4 LUFS. Bilinen eksik: 6 kHz üstü enerji %0,6 — yağmur/
+cızırtı dokusu beklenenden zayıf geldi. Kabul edildi; sonraki parçalarda aynı
+satır kullanıldığı için set kendi içinde tutarlı olacak.
+
+**Döngü:** Suno dikişsiz döngü vermiyor, ham parça fade ile bitiyor. 3 dakikalık
+hamdan `44,6 – 157,1 sn` aralığı kesildi, 5 sn eşit-güç çapraz geçişle başa
+bağlandı → 112,5 sn dikişsiz. Araç: `arac_ses_olc.py` ölçer; kesme betikleri
+oturum içinde yazıldı, tarif burada.
+
+**Seviye:** parçalar −17 LUFS civarında geliyor, yer tutucular −20'ydi. Sekizi de
+tamamlanınca hepsi tek seviyeye hizalanacak — tek tek uğraşma.
+
+---
+
 Üretilen dosyalar `ses/` klasörüne, **aşağıdaki adlarla birebir** konur. Ad tutmazsa oyun o sesi
 sessizce atlar (hata vermez, ama ses de gelmez).
 
