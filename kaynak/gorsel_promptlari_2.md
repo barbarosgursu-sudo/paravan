@@ -839,14 +839,19 @@ ve inen basamakların ilk ikisi görünüyor. Eşiğin hemen içinde, yerde, bir
 da bilerek bırakılmış küçük bir şey: katlanmış, kenarı yıpranmış ince bir kâğıt parçası — bir
 zarfın köşesinden yırtılmış kadar küçük. Görünen yüzü bomboş: mürekkep, damga ya da matbu iz
 yok. Kapının camı düz ve yazısız — üstünde tabela, harf ya da numara yok. Arkada büronun loş
-içi, uzakta masa. Hiç insan yok; yalnızca kapının camında geçip giden bir gölgenin izi.
-Kovalamaca YOK, gizem teatralliği YOK — bir kapının kapanışından sonra yerde kalan tek şey.
-Küçük, soğuk, açık uçlu.
+içi, uzakta masa. Kadrajda HİÇ İNSAN YOK: ne kişi, ne silüet, ne insan biçiminde bir gölge, ne
+de camda ya da yerde yansıyan bir insan hayali. Kapının camının ardı boş — merdiven boşluğundan
+başka bir şey görünmüyor. Biri az önce gitti ama görüntüde kimse kalmadı; gidişi yalnızca aralık
+kapı ve yerdeki kâğıt söylüyor. Kovalamaca YOK, gizem teatralliği YOK — bir kapının kapanışından
+sonra yerde kalan tek şey. Küçük, soğuk, açık uçlu.
 ```
 
 *Kısıt:* Yalnızca `avukat_izi` — kaçan avukata dair ince bir iz. Avukatın **yüzü, adı, yeri,
 nereye kaçtığı yok**; bu vaka onu çözmüyor, Sezon 2'nin kapısını aralıyor. Nadire kadrajda
-değil — `portre_nadire` ayrı slot. Kâğıtta okunur hiçbir şey olamaz.
+değil — `portre_nadire` ayrı slot. Kâğıtta okunur hiçbir şey olamaz. İlk üretimde camda
+ayakta duran bir figür çıktı (sızıntı değildi, §7b'ye uygundu) ama "kapanıştan sonra kalan
+tek şey" hissini bozuyordu; "geçip giden gölgenin izi" ifadesi insan biçimi davet ettiği
+için gövdeden çıkarıldı.
 
 ---
 
