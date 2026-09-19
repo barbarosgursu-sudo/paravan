@@ -156,7 +156,14 @@
           ],
           "text": "Sigorta eksperi kendi soruşturmasını açmış. Ödeme, 'bağımsız bir uzman raporu' gelene kadar donduruldu. Dosya kalın: poliçe, ekspertiz notları, ve Kaya'nın son bir yıllık hesap dökümleri.",
           "meta": "Poliçe, lehtarın kendi uzmanını tutmasına izin veriyor — sigorta da bunu biliyor. Kimse kanmıyor; herkesin işine geliyor. Cavit'in aradığı bağımsız uzman sensin, ve satın aldığı şey zamanın değil, imzan. Acelesi olduğu için dosyayı olduğu gibi, ayıklamadan verdi.",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v1_sigorta.jpg",
+            "tur": "kanit",
+            "gosterir": [
+              "sigorta_sorusturma"
+            ],
+            "alt": "masada kapalı duran kalın bir sigorta dosyası"
+          }
         },
         {
           "id": "ceyda_gorusme",
