@@ -1761,7 +1761,14 @@
           ],
           "text": "Kaya'yı tanıyanlarla konuşuldu. Herkes aynı şeyi söyledi: iyi kalpli, sessiz, kimseye yük olmayan bir adam. Ama son yıllarda içine kapanmış, bir şeyle meşgul gibiymiş.",
           "meta": "Herkesin sevdiği bir adam — ama 'bir şeyle meşgul'. O meşguliyet, kayıtlardaki isimsiz ödeme olabilir mi?",
-          "gorsel": null
+          "gorsel": {
+            "dosya": "v4_cevre.jpg",
+            "tur": "mekan",
+            "gosterir": [
+              "kaya_itibar"
+            ],
+            "alt": "kapanmış bir çocuk doktoru muayenehanesi, duvarda çocuk çizimleri"
+          }
         },
         {
           "id": "cocuk_bul",
