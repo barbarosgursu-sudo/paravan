@@ -67,7 +67,14 @@ bunu dokuz vakanın hepsinde sınıyor.
 
 **Kaybetme yok.** Batmak oyunu bitirmez, düzgün olma hakkını daraltır.
 
-**Oyun oyuncuya not vermez.** Tek bir ahlak skoru, sıralama tablosu yok.
+**Oyun oyuncuya not vermez.** Tek bir ahlak skoru, sıralama tablosu yok — ve sonuç
+metinleri de seçimi yargılamaz. Kalıp: **eylem → sonuç → bedel.** Karar sonucu somut
+bir fiille açılır ("İlyas'ı polise teslim ettin"), sonra ne olduğunu gösterir. "Doğru
+olanı yaptın", "en adil" gibi hüküm cümleleri yasak; bedeli göster, kararı oyuncu
+versin. Nitelik + bedel yapısı ("Onurlu ama ölümcül", "Dürüstsün ama saf") hüküm
+değildir, kalabilir — orada oyuncunun seçimi değil dünyanın tepkisi anlatılıyor.
+Motorun içindeki `kararRuhHali` sınıflaması (temiz/bedel/bosluk/kirli) oyuncuya
+ASLA kelime olarak gösterilmez; yalnızca atmosfer görseli seçer.
 
 ## Teknik tuzaklar (hepsine düşüldü)
 

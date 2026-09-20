@@ -249,7 +249,7 @@
       "id": "polise_ver",
       "gate": "iten_ilyas",
       "etiket": "İlyas'ı polise ver",
-      "sonuc": "Doğru olanı yaptın. Ama Cavit'in istediğinin tam tersi — gerilir, güveni sarsılır, ödemeyi keser. Ve İlyas konuşmazsa, onu süren el gizli kalır.",
+      "sonuc": "İlyas'ı polise teslim ettin. Ama Cavit'in istediğinin tam tersi — gerilir, güveni sarsılır, ödemeyi keser. Ve İlyas konuşmazsa, onu süren el gizli kalır.",
       "cengoBag": 2,
       "seed_yaz": {
         "ilyas_kime_gitti": "polis"
