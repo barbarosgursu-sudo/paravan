@@ -960,7 +960,62 @@ kopyalama"* satırı şart — çıpa yakın plan ve aydınlatılmış, kopyalan
 **Üçüncü İlyas görseli kontrol edildi:** `v3_gizli_foto` aynı adam, yara aynı tarafta, palto
 aynı. Sorun yalnızca V2'deydi.
 
+## 6.3 · İlk denemede çıkan iki hata (kayda geçsin)
+
+Her iki görsel de **ikinci denemede** tutturuldu. İlk turda çıkanlar:
+
+**`v1_merdiven` 1. deneme — bina doğruydu, eşyalar değildi.** Prompt "dağılmış birkaç
+küçük eşya" demişti; üretici bunu ayakkabı + **küçük deri bir defter** + dolma kalem
+diye çözdü, defterin kapağında da **altın yaldızlı monogram** vardı. İki ayrı ihlal:
+
+1. Yaldızlı harfler → stil çekirdeğinin yazı yasağı.
+2. Defterin kendisi → **A-4 ile çelişiyor.** Kaya'nın el yazısı defteri kapanmış
+   muayenehanesinde, çekmecenin arkasına kaymış, V6'ya kadar bulunamamış olmalı.
+   V1'de olay yerinde açıkta duran bir defter ya o kurguyu bozar ya da V6'nın
+   açılışını baştan harcar.
+
+**Rötuş denendi ve TUTMADI.** Üç farklı kaynak konumuyla klonlama yapıldı; üçü de
+başarısız, çünkü defterin durduğu bölgeden **basamak kenarının parlak çizgisi geçiyor**.
+Düz bir mermer yaması o yapısal çizgiyi kesiyor, dikdörtgen ek yeri belli oluyor. Ders:
+`yanb_kirinti`'deki rötuş düz bir yüzeydeydi ve tuttu; **yapısal bir çizgiyi kesen
+bölge klonlanamaz**, yeniden üretim gerekir.
+
+**`portre_ilyas_v2` 1. deneme — yön ters, üstelik gündüz.** Poz fikri (omuz üstünden
+geriye bakış) doğruydu ama üretici **sol** tarafı gösterdi — tam yaranın olduğu taraf,
+yine pürüzsüz çizilmiş. Yani aynı yalan, yeni açıdan. Ayrıca sahne gündüz gri bir
+sokaktı: luma **66.6**, oysa setin en aydınlık görseli 48.9. Tüm stilin dışında.
+
+**Yön talimatı nasıl düzeldi:** "sağ yanağını görüyoruz" ifadesi ters anlaşıldı.
+İkinci turda geometriyle yazıldı — **"BURNU KADRAJIN SAĞINA BAKSIN, KULAĞI KADRAJIN
+SOLUNDA KALSIN"** — ve ilk seferde tuttu. Sol/sağ yanak yanlış okunabiliyor; burun-kulak
+konumu okunamıyor.
+
+## 6.4 · Teslim edilen hali (20 Eylül 2026)
+
+| | luma | hedef | sıcak | durum |
+|---|---|---|---|---|
+| `v1_merdiven` | 30.2 | 20–30 | %7.5 | ✔ gömüldü |
+| `portre_ilyas_v2` | 27.0 | 24–29 | %6.6 | ✔ gömüldü |
+
+Set ortalaması 27.5; portre ortalaması 27.8. İkisi de 900 px, WebP q80 (63 KB / 72 KB).
+
+Yapılan kontroller: parlaklık ölçümü, büyütülmüş harf/rakam taraması (merdivende kapı
+camı, ayna, pencere, saksı, zemin; İlyas'ta tüm arka sokak), yansımada figür taraması,
+`gosterir` Nurcan kontrolü, üç İlyas görselinin kimlik karşılaştırması
+(`portre_ilyas_v2` / `v3_gizli_foto` / `portre_ilyas` — aynı adam, yara V3 ve V6'da
+aynı tarafta), ve tarayıcıda gerçekten yüklendiklerinin doğrulanması (ikisi de
+900×1200 data URI, JS hatası yok).
+
+**`gosterir` notu (merdiven):** slot `dusus_acisi` + `olum_saati` taşıyor. Kadrajda
+yalnızca bir iskarpin ve bir atkı var — **saat kadranı bilerek yok**: hem rakam
+taşırdı hem de oyuncu `polis_dosyasi`'nı açmadan `olum_saati`'ni öğrenirdi.
+
 ## Bu paketin bıraktığı kalıcı kural
 
 `gorsel_stil_sozlesmesi.md` → **§7c**. §7 "fazlasını gösteremez" diyordu, "yanlış
 gösteremez" demiyordu; bu görsel tam o boşluktan geçti.
+
+Bir de sipariş yazma kuralı: **kadrajdaki nesneler tek tek sayılır.** "Dağılmış birkaç
+eşya" gibi açık uçlu bir ifade, boşluğu üreticiye bırakır ve üretici onu yazı taşıyan
+bir nesneyle doldurur. Üç kez aynı aileden hata çıktı (kâğıt parçası, dosya yüzü,
+defter kapağı).

@@ -137,7 +137,9 @@ eşyaları duran bir yer.
 
 **Görseller bitti (19 Eylül 2026).** 59 gömülü görsel, WebP q80,
 `_gomulu_gorseller.js` içinde base64; veride tanımlı her slot dolu. Sahibinin kararı:
-**sezon 59'da kapandı.** Paket 5'in dört görseli (kriz kutusu + sezon sonu) sipariş
+**sezon 59'da kapandı.** (20 Eylül'de iki slot **yeniden üretildi** — `v1_merdiven`
+kanona aykırı bir binadaydı, `portre_ilyas_v2` olmayan bir temiz yanak gösteriyordu;
+sayım değişmedi, bkz. `gorsel_promptlari_2.md` PAKET 6.) Paket 5'in dört görseli (kriz kutusu + sezon sonu) sipariş
 edilmedi — bağlanacakları slot veride hiç açılmamıştı, açmak arayüz işi gerektiriyor;
 gerekçe ve dönülecek yer `kaynak/gorsel_promptlari_2.md` PAKET 5 başlığında.
 
@@ -147,6 +149,24 @@ taraması (plaka, tabela, etiket, kâğıt yüzü), ve slotun `gosterir`ine kar�
 kontrolü. Tekrar tekrar ısıran ders: genel "yazı olmasın" satırı, gövdede **açıkça
 istenmiş** bir nesneyi geçersiz kılamaz. Yazı taşıyabilecek nesnenin yüzü gövdede
 kapatılır ("dosya KAPALI", "kâğıt katlı, iç yüzü görünmüyor"), boş yüz istenmez.
+
+Aynı ailenin üç varyantı da ısırdı, üçü de `gorsel_promptlari_2.md` PAKET 6'da:
+
+- **Açık uçlu nesne listesi yazma.** "Dağılmış birkaç eşya" deyince üretici boşluğu
+  yazı taşıyan bir nesneyle doldurdu (kapağı yaldızlı monogramlı bir defter) — üstelik
+  o defter A-4 kanonuyla çelişiyordu. **Kadrajdaki nesneler tek tek sayılır**, istenmeyen
+  nesne sınıfları adıyla yasaklanır.
+- **Görsel yalan söyleyebilir.** "Yarası görünmesin" demek yarayı saklatmaz, **yarasız
+  bir yüz ürettirir**. Kanondaki fiziksel gerçek kadraj dışında bırakılır, silinmez —
+  kural `gorsel_stil_sozlesmesi.md` **§7c**.
+- **Sol/sağ talimatı ters anlaşılıyor.** "Sağ yanağını görüyoruz" tutmadı; **"burnu
+  kadrajın sağına baksın, kulağı solunda kalsın"** ilk seferde tuttu. Yön talimatını
+  yanak/kaş ile değil burun-kulak geometrisiyle yaz.
+
+**Rötuşun sınırı:** düz bir yüzeydeki nesne klonlanarak silinebilir (`yanb_kirinti`
+böyle düzeldi). Ama silinecek bölgeden **yapısal bir çizgi geçiyorsa** (basamak kenarı,
+kiriş, sövenin hattı) klonlama o çizgiyi kesiyor ve ek yeri belli oluyor — orada
+yeniden üretim şart. Merdivendeki defter bu yüzden rötuşla kaldırılamadı.
 
 Kalan tek iş:
 

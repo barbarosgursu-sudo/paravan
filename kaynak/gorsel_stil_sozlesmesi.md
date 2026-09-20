@@ -120,7 +120,14 @@ görsel olarak göremez.
 
 **Örnek (V2):** İlyas V2'de tahsildar olarak görünür ama görseli yalnızca "yorgun bir adam"
 gösterir — truth'ta `ilyas_cinayet = YOK` olduğu için, V2 görseli hiçbir tehlike/cinayet
-iması taşıyamaz (karanlık ışık, tehditkâr poz vb. YASAK).
+iması taşıyamaz (tehditkâr poz, kameraya dik meydan okuyan bakış, şeytani/alttan ışık YASAK).
+
+> **Açıklama (20 Eylül 2026):** buradaki "karanlık ışık yasağı" **geceyi yasaklamaz.**
+> Oyunun tamamı gece ve stil çekirdeği zaten yandan sert ışık ve yarı gölge istiyor;
+> komşu slot `v2_kenar_sokak` da açıkça "gece, yağmurlu, ıssız kenar mahalle sokağı".
+> Yasaklanan şey **kötücül muamele**: adamı tehdit gibi gösteren poz, bakış ve ışık.
+> Yorgun, tedirgin, kaçar gibi bir adam gece sokağında durabilir — sahibinin kararı
+> `portre_ilyas_v2` için bu yönde oldu.
 
 ### 7b. Giriş sahnesinde yüz seçilmez
 
