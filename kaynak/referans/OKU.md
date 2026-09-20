@@ -15,6 +15,8 @@ ek olarak yüklenen çıpalardır. `_gomulu_gorseller.js` içindeki gömülü s�
 - `peri_kimlik.jpg` / `cengo_kimlik.jpg` — Peri ve Cengo'nun kimlik çıpaları,
   `portre_peri` ve `portre_cengo`'dan çıkarıldı. İkili kare (`cengo_*`)
   siparişlerine İKİSİ BİRDEN eklenir; yoksa üretici iki ayrı insan çizer.
-- `buro_mekan.jpg` — ajans bürosunun çıpası, `prolog_masa`'dan çıkarıldı.
-  Masa, siyah emaye lamba, kül tablası, çay bardağı, buzlu camlı kapı. İkili
-  karelerin dördü de AYNI odada geçmeli; bunu sağlayan tek şey bu çıpadır.
+  Oda çıpası olarak `karar_temiz.jpg` kullanılır — ayrı bir büro çıpası
+  üretilmez. Bir kez denendi ve yanlıştı: `prolog_masa`'dan çıkarılan çıpa
+  jaluzili pencere ve buzlu camlı kapı taşıyor, oysa büronun kanon tarifi
+  "uzun pencere, arkada Haliç, geniş ahşap masa, tek lamba" (PAKET
+  1-DÜZELTME). `karar_temiz` o tarifi taşıyan çıpadır ve zaten buradadır.
