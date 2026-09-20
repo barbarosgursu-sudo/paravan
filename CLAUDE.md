@@ -8,6 +8,12 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
 ## Çalışma kuralları
 
+**Hikâyeye yeni ayrıntı eklemek sahibinin işidir.** Metni kısaltmak, sızıntıyı
+kapatmak, hükmü kaldırmak, bulanık özneyi netleştirmek — bunlar onarımdır, yapılır.
+Ama karakter ya da dünya hakkında **oyunda henüz olmayan bir gerçek yazmak** (ör.
+"İlyas o mahallede hiç çalışmaz") kanona ekleme demektir ve ileride sahibinin elini
+bağlar. Kural: **eklemeden önce nereye ne ekleyeceğini söyle, onay al, sonra yap.**
+
 **Dal: doğrudan `main`.** Sahibinin duran talimatı: "Değişikliği doğrudan main dalına
 commit edip push et, yeni dal açma." Harness sana başka bir dal adı veriyorsa önce
 kullanıcıya sor — kendiliğinden dal açma.
