@@ -13,7 +13,7 @@
   },
   "facts": {
     "zincir_tam": "Cavit İlyas'ı yıllar önce kurtardı, borçlu bıraktı, şimdi cinayette kullandı; Ceyda ile sevgili.",
-    "kaya_son_gunler": "Kaya'nın son günlerine dair izler: hiçbir şeyden şüphelenmiyor, olağan hayatı.",
+    "kaya_son_gunler": "Kaya'nın kendi el yazısı: karısıyla aralarının açıldığını görmüş, sebebini bulamamış, suçu kendinde aramış. Son sayfada baharda birlikte gidecekleri bir yer planlıyor.",
     "kaya_bilmiyordu": "Kaya aldatıldığını bilmiyordu — olmayan bir tehdit için öldürüldü."
   },
   "knowledge": [
@@ -173,11 +173,11 @@
               "odeme_kayaya_ait"
             ]
           },
-          "metin": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, o gizli çocuğa giden parası. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok."
+          "metin": "Kaya'nın son günlerine baktın. Kapanmış muayenehanesinde çekmeceyi sonuna kadar çektin — arkaya kaymış, oraya düşeli kim bilir ne kadar olmuş küçük bir defter. Kendi el yazısı. Son aylarda karısıyla aralarının açıldığını yazmış: soğukluğu görmüş ama sebebini bulamamış, suçu kendinde aramış. Son sayfada bir plan var — baharda birkaç günlüğüne bir yere gidecekler, ikisi. 'Belki orada konuşuruz.' Tarih, ölümünden birkaç gün öncesi. Randevuları, hastaları, o gizli çocuğa giden parası — hepsi yerli yerinde."
         },
         {
           "kosul": "varsayilan",
-          "metin": "Kaya'nın son günlerine baktın: olağan bir hayat. Randevuları, hastaları, düzenli bir takvim. Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok."
+          "metin": "Kaya'nın son günlerine baktın. Kapanmış muayenehanesinde çekmeceyi sonuna kadar çektin — arkaya kaymış, oraya düşeli kim bilir ne kadar olmuş küçük bir defter. Kendi el yazısı. Son aylarda karısıyla aralarının açıldığını yazmış: soğukluğu görmüş ama sebebini bulamamış, suçu kendinde aramış. Son sayfada bir plan var — baharda birkaç günlüğüne bir yere gidecekler, ikisi. 'Belki orada konuşuruz.' Tarih, ölümünden birkaç gün öncesi. Randevuları, hastaları, düzenli takvimi — hepsi yerli yerinde."
         }
       ],
       "meta": [
@@ -189,11 +189,11 @@
               "odeme_kayaya_ait"
             ]
           },
-          "metin": "Kaya bilmiyordu. Karısının onu aldattığından da, Cavit'in onu engel saydığından da habersizdi. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken."
+          "metin": "Kaya soğukluğu görmüş ama sebebini bilmiyordu — kendi eliyle yazmış. Bilseydi baharı planlamazdı. Olmayan bir tehdit için öldürüldü — üstelik son nefesine kadar bir çocuğu yaşatırken."
         },
         {
           "kosul": "varsayilan",
-          "metin": "Kaya bilmiyordu. Karısının onu aldattığından da, Cavit'in onu engel saydığından da habersizdi. Olmayan bir tehdit için öldürüldü."
+          "metin": "Kaya soğukluğu görmüş ama sebebini bilmiyordu — kendi eliyle yazmış. Bilseydi baharı planlamazdı. Olmayan bir tehdit için öldürüldü."
         }
       ],
       "gorsel": {

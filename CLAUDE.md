@@ -123,12 +123,17 @@ uygulandı — bulgular ve commit'ler `kaynak/inceleme_fable.md`, uygulama talim
 açık bırakıldı (ruh hâli sınıflaması, istatistik paneli, künye tanışma koşulları) —
 sahibine sorulacak.
 
-ChatGPT taze göz incelemesi (20 Eylül 2026) — `kaynak/inceleme_chatgpt.md`. Beş bulgu
-uygulandı (künyedeki iki Nurcan sızıntısı, "En adil", "Doğru olanı yaptın", bulanık
-özne) ve künye kör noktası kapatıldı. A-5 uygulandı (İlyas'ın o mahallede işi
-yok — çıkarım artık pozitif kanıta dayanıyor). A-3 sahibince **olduğu gibi bırakıldı**;
-üç çözüm yolu denendi, üçü de elendi, gerekçeleri notta. **Tek açık bulgu A-4**
-(`V6/kaya_izi` kanıt yokluğundan kesin sonuç çıkarıyor).
+ChatGPT taze göz incelemesi (20 Eylül 2026) — `kaynak/inceleme_chatgpt.md`. **Açık bulgu
+kalmadı.** Beş bulgu uygulandı (künyedeki iki Nurcan sızıntısı, "En adil", "Doğru olanı
+yaptın", bulanık özne) ve künye kör noktası kapatıldı. A-5 uygulandı (İlyas'ın o
+mahallede işi yok) ve A-4 uygulandı (Kaya'nın kendi el yazısıyla defteri) — iki çıkarım
+da artık yokluktan değil pozitif kanıttan geliyor. A-3 sahibince **olduğu gibi
+bırakıldı**; üç çözüm yolu denendi, üçü de elendi, gerekçeleri notta.
+
+Bu iki eklemenin bağladığı kanon: **İlyas'ın Kaya'nın mahallesiyle bir bağı olduğu**
+bir daha yazılamaz, ve **Kaya'nın en ufak bir şüphe duyduğu** bir kurgu yazılamaz —
+kendi el yazısı aksini söylüyor. Kaya'nın muayenehanesi de artık içine girilebilen,
+eşyaları duran bir yer.
 
 **Görseller bitti (19 Eylül 2026).** 59 gömülü görsel, WebP q80,
 `_gomulu_gorseller.js` içinde base64; veride tanımlı her slot dolu. Sahibinin kararı:

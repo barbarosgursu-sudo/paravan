@@ -1,8 +1,8 @@
 # Paravan Dedektiflik — ChatGPT taze göz incelemesi
 
-> **DURUM (20 Eylül 2026): altı bulgu uygulandı, biri sahibince kapatıldı, biri AÇIK.** Açık olanlar yeni içerik
-> gerektiriyor (yeni olgu / yeni metin), o yüzden ayrı ele alınacak — aşağıda
-> **AÇIK** başlığı altında. Uygulananların başında ✔ ve commit hash'i var.
+> **DURUM (20 Eylül 2026): yedi bulgu uygulandı, biri sahibince olduğu gibi bırakıldı.
+> AÇIK BULGU KALMADI.** Son ikisi (A-4, A-5) yeni içerik gerektirdiği için aşağıda ayrı
+> başlık altında duruyor. Uygulananların başında ✔ ve commit hash'i var.
 
 **Tarih:** 20 Eylül 2026 · **Kapsam:** `game_data.json`, `kisiler.json`, `prolog.json`,
 `motor.js` · **İnceleyen:** ChatGPT (dosyalar yüklenerek; canlı sayfa 4,8 MB olduğu
@@ -84,13 +84,14 @@ aldattığından da, Cavit'in onu engel saydığından da habersizdi."* İsim ha
 
 ---
 
-## AÇIK — yeni içerik gerektiriyor
+## YENİ İÇERİK GEREKTİRENLER — hepsi kapandı
 
-Üçü de aynı sınıftan: **çıkarım, kanıtın önüne geçiyor.** Oyuncunun eline verilen veri
+Üçü de aynı sınıftandı: **çıkarım, kanıtın önüne geçiyor.** Oyuncunun eline verilen veri
 sonucu destekliyor ama kanıtlamıyor; `truth` doğru olduğu için cümle doğru çıkıyor, ama
 dedektiflik açısından çıkarım kazanılmamış. Düzeltmek yeni olgu ve/veya yeni metin
-yazmak demek — araştırma bütçesini artırmak gerekmiyor, mevcut ipucuna somut ikinci bir
-parça eklemek yetiyor.
+yazmak demekti — araştırma bütçesini artırmak gerekmedi, mevcut ipucuna somut ikinci bir
+parça eklemek yetti. A-4 ve A-5 böyle kapandı; A-3'te bu yol üç kez denendi ve üçü de
+elendi, sahibi olduğu gibi bırakmaya karar verdi.
 
 ### ✖ A-3 · V5 · `cavit_azmettiren` çıkarımı — SAHİBİ OLDUĞU GİBİ BIRAKMAYA KARAR VERDİ
 **Yer:** `game_data.json` → V5 → `knowledge.cavit_azmettiren` ve `clues.ilyas_gecmis`.
@@ -128,8 +129,8 @@ olgusunun metni "silah oldu" diyor, oyuncu buraya gelirken elinde `el_var` (V3: 
 İlyas'ı sürdü; A-5 ile artık pozitif kanıta dayanıyor) ve `cavit_supheli` var.
 **Tekrar açılacaksa:** yukarıdaki üç yol denendi, dördüncüsü gerekir.
 
-### ○ A-4 · V6 · `kaya_izi` kanıt yokluğundan kesin sonuç çıkarıyor
-**Yer:** `game_data.json` → V6 → `clues.kaya_izi`.
+### ✔ A-4 · V6 · `kaya_izi` kanıt yokluğundan kesin sonuç çıkarıyor
+**Yer:** `game_data.json` → V6 → `clues.kaya_izi` ve `facts.kaya_son_gunler`.
 **Sorun:** Metin *"Hiçbir yerde bir şüphe, bir hesaplaşma, bir öfke izi yok"* diyor,
 `meta` ise *"Kaya bilmiyordu"* diye kesinleştiriyor. Şüphe belirtisi **bulunmaması**,
 bilmediğinin kanıtı değil. Kaya biliyor ama belli etmiyor da olabilirdi ve oyuncu bunu
@@ -137,10 +138,24 @@ dosyadaki bilgilerle eleyemiyor.
 **Neden önemli:** `kaya_biliyordu`, `belirsiz_istisna` ile V6'da **bilerek çözülen** tek
 olgu — yani oyunun kesin cevap verdiği yer. Kanıt standardı tam da burada diğer
 vakalardan düşük.
-**Öneri:** `arastirma: 1` korunsun. `kaya_izi` içine doğrudan bilgi taşıyan ikinci bir iz:
-ölümden kısa süre önce yazılmış özel bir kayıt, ya da Cavit–Ceyda arasında "hâlâ hiçbir
-şeyden şüphelenmiyor" anlamını taşıyan bir belge. İkincisi Ceyda'nın payını çözmeden
-Kaya'nın bilgisizliğini kanıtlayabilir — `ceyda_pay` sözleşmesini bozmaz.
+**Uygulanan (sahibinin onayıyla, 20 Eylül 2026):** kanona eklenen yeni gerçek —
+**Kaya'nın kendi el yazısıyla tuttuğu küçük bir defter.** Karısıyla aralarının
+açıldığını görmüş, sebebini bulamamış, suçu kendinde aramış; son sayfada baharda
+birlikte gidecekleri bir yer planlamış, *"Belki orada konuşuruz."* Tarih, ölümünden
+birkaç gün öncesi. Çıkarım artık yokluktan değil **pozitif bir kayıttan** geliyor:
+soğukluğu gören ama sebebini bilmeyen bir adam, üç ay sonrasına ikisi için tatil
+planlamaz. `kaya_son_gunler` olgusu ve `kaya_izi`'nin iki koşullu varyantının metni ile
+meta'sı güncellendi.
+**Sahibinin zanaat notu:** defter çekmecenin arkasına düşmüş olmalı — bugüne kadar
+bulunamamasının bir sebebi olması gerekiyor. Metin öyle yazıldı.
+**Neden `ceyda_pay`'i bozmuyor:** defter yalnızca Kaya'nın ne bildiğini söylüyor,
+Ceyda'nın ne yaptığını değil. Aldatmanın varlığı zaten kanonda; Ceyda'nın cinayetteki
+payı belirsiz kalmaya devam ediyor.
+**Bu eklemenin kısıtı:** bundan sonra Kaya'nın en ufak bir şüphe duyduğu bir kurgu
+yazılamaz — kendi el yazısı aksini söylüyor. Bir de muayenehanesi artık "içine
+girilebilir, eşyaları hâlâ duruyor" bir yer.
+**Ölçü notu:** yeni `kaya_izi` oyunun en uzun ipucu metni (507 karakter; sonraki 387).
+Pixel 5'te tarayıcıda görülerek doğrulandı — kutuya sığıyor, yatay taşma yok.
 
 ### ✔ A-5 · V3 · `cengo_okuma` → "onu biri gönderdi" çıkarımı
 **Yer:** `game_data.json` → V3 → `clues.cengo_okuma`.
@@ -179,7 +194,7 @@ ve Cengo'nun ahlak hakemi konumunda olması — isimlendirme/tasarım eleştiris
 
 **C-2 · V6'nın yapısı.** "1 araştırma hakkı yanlış değil ama seçim baskısı yok, dar değil
 ince" eleştirisi meşru; ancak V6'nın daralması yazarın bilinçli kararı ve CLAUDE.md'de
-kayıtlı. A-4 düzeltilirse bu eleştirinin bir kısmı kendiliğinden hafifler.
+kayıtlı. A-4 düzeltildiği için bu eleştirinin bir kısmı kendiliğinden hafifledi.
 
 ---
 
