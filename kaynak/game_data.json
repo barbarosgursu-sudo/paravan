@@ -95,6 +95,7 @@
       "knowledge": [
         {
           "turetilen": "ceyda_celiski",
+          "baslik": "Ceyda'nın anlattığı saat, duran saatle örtüşmüyor.",
           "ifade": {
             "all": [
               "ceyda_saat",
@@ -104,6 +105,7 @@
         },
         {
           "turetilen": "cinayet_suphesi",
+          "baslik": "Kendi düşen biri böyle yaralanmaz. Kaza raporu bunu açıklamıyor.",
           "ifade": {
             "all": [
               "dusus_acisi",
@@ -387,6 +389,7 @@
       "knowledge": [
         {
           "turetilen": "aldatmiyor_kesin",
+          "baslik": "Vedat aldatmıyor. O kapıya bambaşka bir şey için gidiyor.",
           "ifade": {
             "all": [
               "vedat_kadin_yok",
@@ -396,6 +399,7 @@
         },
         {
           "turetilen": "sir_borctur",
+          "baslik": "Vedat'ın sırrı bir kadın değil, bir borç. Parayı kapıda bir tahsildara veriyor.",
           "ifade": {
             "all": [
               "para_elden",
@@ -405,6 +409,7 @@
         },
         {
           "turetilen": "sir_tam",
+          "baslik": "Borç Vedat'ın değil, kaçak kardeşinin. Vedat onun yerine ödüyor.",
           "ifade": {
             "all": [
               "sir_borctur",
@@ -647,6 +652,7 @@
       "knowledge": [
         {
           "turetilen": "ilyas_supde",
+          "baslik": "Tanığın tarifi belirli bir adamı çiziyor: yüzünde yara, yürüyüşünde aksaklık.",
           "ifade": {
             "all": [
               "tarif_yara",
@@ -656,6 +662,7 @@
         },
         {
           "turetilen": "iten_ilyas",
+          "baslik": "Tanık fotoğrafı onayladı: Kaya'yı merdivende iten adam İlyas.",
           "ifade": {
             "all": [
               "ilyas_supde",
@@ -665,6 +672,7 @@
         },
         {
           "turetilen": "el_var",
+          "baslik": "İlyas'ın kendi sebebi yok. Kendi aklıyla itmemiş — arkasında onu süren biri var.",
           "ifade": {
             "all": [
               "iten_ilyas",
@@ -976,6 +984,7 @@
       "knowledge": [
         {
           "turetilen": "gecmis_sezildi",
+          "baslik": "Cengo ile Sevil arasında eski bir şey var, kayıtlara geçmiş bir şey.",
           "ifade": {
             "all": [
               "cengo_tepki",
@@ -985,6 +994,7 @@
         },
         {
           "turetilen": "gecmis_tam",
+          "baslik": "Suç Sevil'indi; Cengo üstlendi. Neden üstlendiğini söylemiyor.",
           "ifade": {
             "all": [
               "gecmis_sezildi",
@@ -1202,6 +1212,7 @@
       "knowledge": [
         {
           "turetilen": "enkaz_gorundu",
+          "baslik": "Peri'nin batışı yalnız onu batırmamış. Nadire de enkazın altında kalmış.",
           "ifade": {
             "all": [
               "nadire_geldi",
@@ -1211,6 +1222,7 @@
         },
         {
           "turetilen": "sorumluluk_tam",
+          "baslik": "Peri o avukata güvendi. Bedelini yalnız kendisi ödemedi.",
           "ifade": {
             "all": [
               "enkaz_gorundu",
@@ -1420,6 +1432,7 @@
       "knowledge": [
         {
           "turetilen": "neye_alet",
+          "baslik": "Hulki'nin istediği adres, hakkında uzaklaştırma kararı olan kadının adresi. Bu ilk denemesi de değil.",
           "ifade": {
             "all": [
               "uzaklastirma",
@@ -1687,6 +1700,7 @@
       "knowledge": [
         {
           "turetilen": "odeme_kayaya_ait",
+          "baslik": "Her ay giden isimsiz ödeme Kaya'nındı. Öldüğü gün kesilmiş.",
           "ifade": {
             "all": [
               "gizemli_odeme",
@@ -1696,6 +1710,7 @@
         },
         {
           "turetilen": "iyilik_tam",
+          "baslik": "Para ağır hasta bir çocuğa gidiyormuş. Kaya onun doktoruydu ve kimseye söylememiş.",
           "ifade": {
             "all": [
               "odeme_kayaya_ait",
@@ -1961,6 +1976,7 @@
       "knowledge": [
         {
           "turetilen": "cavit_supheli",
+          "baslik": "Davanın her köşesinde Cavit var. Bu kadarı tesadüf değil.",
           "ifade": {
             "all": [
               "cavit_her_kosede",
@@ -1975,6 +1991,7 @@
         },
         {
           "turetilen": "cavit_azmettiren",
+          "baslik": "Cavit yıllar önce İlyas'ı kurtardı. İlyas o günden beri ona mahkûm — kullanılmaya hazır bir adam.",
           "ifade": {
             "all": [
               "eski_dava",
@@ -1984,6 +2001,7 @@
         },
         {
           "turetilen": "iliski_acik",
+          "baslik": "Cavit ile Ceyda sevgili. Avukat-müvekkil ilişkisi bir paravan.",
           "ifade": {
             "all": [
               "cavit_takip",
@@ -1993,6 +2011,7 @@
         },
         {
           "turetilen": "tam_resim",
+          "baslik": "Tablo tamamlandı: elinde mahkûm bir adam olan avukat, ölen adamın karısının sevgilisi.",
           "ifade": {
             "all": [
               "cavit_azmettiren",
@@ -2002,6 +2021,7 @@
         },
         {
           "turetilen": "ceyda_bulaniklik",
+          "baslik": "Ceyda bir şey saklıyor. Ama ne olduğu — ve neden — bulanık kalıyor.",
           "ifade": {
             "any": [
               "ip_koz",
@@ -2434,6 +2454,7 @@
       "knowledge": [
         {
           "turetilen": "gercek_ortaya_cikti",
+          "baslik": "Zincirin tamamı görünüyor: Kaya olmayan bir tehdit için öldürüldü.",
           "ifade": {
             "all": [
               "zincir_tam",

@@ -27,9 +27,9 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 18 test geçmelidir.
+Diğer 19 test geçmelidir.
 
-Doğrulayıcı **11 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
+Doğrulayıcı **12 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
 bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketleme durur;
 `uyarı` = tasarım kararı.
@@ -37,6 +37,10 @@ bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketl
 **Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` — her
 katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.
 Test değil, araç.
+
+**Çıkarım başlığı değiştirdikten sonra** `cd kaynak && node arac_tahta_denetim.js` —
+her başlığı, o çıkarıma ulaşan oyuncunun *kesinlikle* bildiği olguların yanına basar;
+fazla söyleyeni gözle ararsın. Künye aracının kardeşi, aynı sebeple insana bırakıldı.
 
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
@@ -58,6 +62,20 @@ fazla söyleyip söylemediği ANLAMSAL bir soru ve mekanik kural bunu yanlış
 pozitif üretmeden yapamıyor ("Kaya'nın dul eşi" sızıntı değildir) — o denetim
 `kaynak/arac_kunye_denetim.js` ile insana bırakıldı. **Künyeye katman
 eklerken ya da metnini değiştirirken o aracı çalıştır.**
+
+**Zincir defteri ÜÇÜNCÜ Nurcan yüzeyidir** ve en genişi: bir vakanın bütün olgularını,
+çıkarımlarını ve türetme ağacını tek ekranda basar. Üç kural pazarlığa kapalı:
+
+- **Yalnız hak edilmiş düğüm çizilir.** `ya biri` dalında YALNIZ TUTAN alternatif
+  gösterilir — tutmayanı göstermek, oyuncunun sahip olmadığı bir olgunun adını
+  söylemektir. `test_tahta.js` bunu davranışsal olarak sınıyor.
+- **Eksik düğüm, "?" kutusu, "şu da lazım" YOK.** Olsaydı tahta ipucu sistemine döner
+  ve "ekonomi seçenekleri daraltır" sözleşmesini delerdi.
+- **Sayaç YOK** ("7 ipucunun 5'i") — o not vermektir.
+
+Çıkarımlar vaka içidir (knowledge dar kümeyle türetilir), o yüzden ağaçlar vaka başına;
+vakalar arası bağ KARARLARDADIR (`seeds`) ve tahtanın altında karar satırı olarak durur.
+Her çıkarımın `baslik` alanı zorunludur (K12) — yoksa ekranda ham kimliğe düşer.
 
 **Kanonda ÇÖZÜLMEYEN iki olgu var:** `ceyda_pay` ve `sevil_pay`. `kaya_biliyordu`
 da `belirsiz` listesinde ama `belirsiz_istisna` ile V6'da bilerek çözülüyor —

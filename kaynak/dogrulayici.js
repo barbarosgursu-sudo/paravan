@@ -653,6 +653,20 @@ function kural10_olguSizinti(game, hatalar) {
   }
 }
 
+// KURAL 12 — Çıkarım başlığı (zincir defteri yüzeyi)
+// Zincir defteri her çıkarımı ADIYLA DEĞİL BAŞLIĞIYLA basar. Başlıksız bir
+// knowledge kaydı ekranda ham kimliğe ("cinayet_suphesi") düşer; bu sessiz bir
+// bozulmadır, JS hatası vermez. Kural onu derleme öncesi yakalar.
+function kural12_cikarimBaslik(game, hatalar) {
+  for (const vaka of game.vakalar) {
+    for (const k of vaka.knowledge || []) {
+      const b = k.baslik;
+      if (typeof b !== "string" || !b.trim())
+        hatalar.push(`[K12] ${vaka.id}/${k.turetilen}: çıkarımın 'baslik' alanı yok — zincir defteri ham kimliği basar.`);
+    }
+  }
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -667,6 +681,7 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural8_baskinlik(game, hatalar, uyarilar);
   kural9_oluTohum(game, uyarilar, ekstraKaynaklar);
   kural10_olguSizinti(game, hatalar);
+  kural12_cikarimBaslik(game, hatalar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -678,6 +693,7 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural("Kural 11 (Olgu kimliği) ", hatalar.some(h => h.startsWith("[K11]")));
   kural("Kural 6 (Bütçe)         ", hatalar.some(h => h.startsWith("[K6]")));
   kural("Kural 10 (Olgu sızıntısı)", hatalar.some(h => h.startsWith("[K10]")));
+  kural("Kural 12 (Çıkarım başlığı)", hatalar.some(h => h.startsWith("[K12]")));
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);

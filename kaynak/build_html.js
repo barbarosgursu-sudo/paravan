@@ -236,6 +236,36 @@ body{
 .defter-kayit .n{font-size:14.5px;font-style:italic;color:var(--metin)}
 .bos-panel{padding:40px 24px;text-align:center;color:var(--duman);font-style:italic}
 
+/* ===== ZİNCİR DEFTERİ (delil tahtası) ===== */
+.z-sekme{display:flex;gap:8px;padding:0 24px 14px}
+.z-sekme button{flex:1;min-height:44px;background:var(--panel);color:var(--sonuk);
+  border:1px solid var(--cizgi);border-radius:5px;font-family:inherit;font-size:13px;
+  letter-spacing:2px;text-transform:uppercase;cursor:pointer}
+.z-sekme button.aktif{background:var(--panel2);color:var(--altin);border-color:var(--altin)}
+.z-vaka{margin:0 0 26px}
+.z-vaka-ad{padding:2px 24px 10px;font-size:10.5px;letter-spacing:2px;
+  color:var(--duman);text-transform:uppercase}
+.z-kart{margin:9px 24px;padding:13px 15px;background:var(--panel);
+  border:1px solid var(--cizgi);border-left:3px solid var(--kehribar);border-radius:0 5px 5px 0}
+.z-sonuc{font-size:14.5px;color:var(--koz);line-height:1.45}
+.z-govde{margin-top:10px;padding-left:11px;border-left:1px dashed var(--cizgi)}
+.z-dal{margin:7px 0}
+.z-olgu{font-size:13px;color:var(--metin);line-height:1.45}
+.z-kaynak{display:inline-block;margin-top:3px;font-size:10.5px;letter-spacing:1px;
+  color:var(--duman)}
+.z-atif{font-size:12.5px;color:var(--altin);font-style:italic}
+.z-yabiri{margin:7px 0;padding-left:11px;border-left:1px dashed var(--cizgi)}
+.z-etiket{font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:var(--duman)}
+.z-kutu{margin:14px 24px 0;border-top:1px solid var(--cizgi)}
+.z-kutu summary{min-height:44px;display:flex;align-items:center;cursor:pointer;
+  font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:var(--duman)}
+.z-kutu[open] summary{color:var(--altin)}
+.z-kutu .z-olgu-satir{margin:7px 0}
+.z-olgu-satir{margin:7px 24px}
+.z-karar{margin:12px 24px 0;padding:10px 14px;background:var(--zemin2);
+  border:1px solid var(--cizgi);border-radius:5px;font-size:12.5px;
+  color:var(--sonuk);font-style:italic}
+
 .prolog-nokta{display:flex;gap:7px;justify-content:center;padding:22px 0 4px}
 .prolog-nokta span{width:7px;height:7px;border-radius:50%;background:var(--cizgi)}
 .prolog-nokta span.aktif{background:var(--kehribar);width:20px;border-radius:4px}
@@ -1061,20 +1091,129 @@ function defterNotu(vid, kararId){
   return null;
 }
 
-function defterGoster(){
-  let h = ust() + '<div class="faz panel-ekran">';
-  h += \`<div class="panel-baslik">✎ Anı Defteri</div>\`;
-  const tamamlanan = oyun.durum.tamamlanan;
-  if(tamamlanan.length===0){
-    h += \`<div class="bos-panel">Defter henüz boş. Her vaka bittiğinde Peri o günü buraya yazacak.</div>\`;
-  } else {
-    for(const vid of tamamlanan){
-      const v = GAME.vakalar.find(x=>x.id===vid);
-      const karar = oyun.durum.seeds["_karar_"+vid];
-      const not = defterNotu(vid, karar);
-      if(not) h += \`<div class="defter-kayit"><div class="v">\${v.baslik}</div><div class="n">\${not}</div></div>\`;
-    }
+/* ---------- ZİNCİR DEFTERİ (delil tahtası) ----------
+   Veri zaten bir çıkarım grafiği: kaynak --reveals--> olgu, olgu(lar) --knowledge--> çıkarım.
+   Tahtanın kendi bilgisi YOKTUR; yalnız o grafiği çizer.
+
+   NURCAN: sadece HAK EDİLMİŞ düğümler basılır.
+   - 'ya biri' dallarında YALNIZ TUTAN dal çizilir. Tutmayan alternatifi göstermek,
+     oyuncunun sahip olmadığı bir olgunun adını söylerdi.
+   - Eksik düğüm, '?' kutusu, "şu da lazım" ibaresi YOK — olsaydı tahta ipucu sistemine
+     dönerdi ve "ekonomi seçenekleri daraltır" sözleşmesini delerdi.
+   - Sayaç YOK ("7 ipucunun 5'i") — o not vermektir.
+   Çıkarımlar vaka içidir (knowledge dar kümeyle türetilir), o yüzden ağaçlar vaka başına;
+   vakalar arası bağ KARARLARDA, en altta gösterilir. */
+let _tahtaSozlukCache = null;
+function tahtaSozluk(){
+  if(_tahtaSozlukCache) return _tahtaSozlukCache;
+  const olgu={}, kaynak={}, cikarim={};
+  for(const v of GAME.vakalar){
+    for(const id of Object.keys(v.facts||{})) olgu[id] = v.facts[id];
+    for(const c of (v.clues||[])) for(const r of (c.reveals||[])) kaynak[r] = c;
+    for(const k of (v.knowledge||[])) cikarim[k.turetilen] = k;
   }
+  _tahtaSozlukCache = {olgu, kaynak, cikarim};
+  return _tahtaSozlukCache;
+}
+
+function tahtaTutar(ifade, bilinen){
+  return ifadeCalistir(ifade, bilinen, oyun.durum.seeds, oyun.durum.cengoBag, oyun.durum);
+}
+
+function tahtaOlguSatir(id, sinif){
+  const S = tahtaSozluk();
+  const metin = S.olgu[id];
+  if(!metin) return '';
+  const c = S.kaynak[id];
+  const kayn = c ? \`<span class="z-kaynak">\${c.ico||'•'} \${c.ad}</span>\` : '';
+  return \`<div class="\${sinif}"><div class="z-olgu">\${metin}</div>\${kayn}</div>\`;
+}
+
+/* Bir ifade düğümünü çizer. YALNIZ sağlanan dallar. */
+function zincirDal(ifade, bilinen){
+  const S = tahtaSozluk();
+  if(typeof ifade === 'string'){
+    // Başka bir çıkarımsa: kendi kartı zaten yukarıda duruyor, burada tek satır atıf.
+    if(S.cikarim[ifade]) return \`<div class="z-dal z-atif">◆ \${S.cikarim[ifade].baslik}</div>\`;
+    return tahtaOlguSatir(ifade, 'z-dal');
+  }
+  if(ifade && Array.isArray(ifade.all))
+    return ifade.all.map(x => zincirDal(x, bilinen)).join('');
+  if(ifade && Array.isArray(ifade.any)){
+    const tutan = ifade.any.filter(x => tahtaTutar(x, bilinen));
+    if(!tutan.length) return '';
+    return \`<div class="z-yabiri"><div class="z-etiket">ya biri</div>\${
+      tutan.map(x => zincirDal(x, bilinen)).join('')}</div>\`;
+  }
+  return '';
+}
+
+function tahtaVaka(v, bilinen){
+  const ulasilan = (v.knowledge||[]).filter(k => bilinen.has(k.turetilen));
+  const olgular  = Object.keys(v.facts||{}).filter(f => bilinen.has(f));
+  const kararId  = oyun.durum.seeds['_karar_' + v.id];
+  if(!ulasilan.length && !olgular.length) return '';
+  let h = \`<div class="z-vaka"><div class="z-vaka-ad">\${v.baslik}</div>\`;
+  for(const k of ulasilan){
+    const govde = zincirDal(k.ifade, bilinen);
+    h += \`<div class="z-kart"><div class="z-sonuc">◆ \${k.baslik}</div>\${
+      govde ? \`<div class="z-govde">\${govde}</div>\` : ''}</div>\`;
+  }
+  if(olgular.length){
+    // TAM liste — zincirde geçenler dahil. Bilerek: "zincire girmemişler" diye
+    // ayıklamak, oyuncuya hangi olgunun kullanılmadığını söylerdi (örtük ipucu).
+    // Tekrarı telefonda taşımak için katlanır; varsayılan kapalı.
+    h += \`<details class="z-kutu"><summary>Eldeki olgular</summary>\`;
+    for(const f of olgular) h += tahtaOlguSatir(f, 'z-olgu-satir');
+    h += \`</details>\`;
+  }
+  if(kararId){
+    const d = (v.decisions||[]).find(x => x.id === kararId);
+    if(d) h += \`<div class="z-karar">→ Verdiğin karar: «\${d.etiket}»</div>\`;
+  }
+  return h + '</div>';
+}
+
+function defterZincir(){
+  const bilinen = oyun.tumBilinen();
+  const d = oyun.durum;
+  const sira = [...(d.tamamlanan||[])];
+  if(d.aktif && !sira.includes(d.aktif.id)) sira.push(d.aktif.id);
+  const parca = [];
+  for(const vid of sira){
+    const v = GAME.vakalar.find(x => x.id === vid);
+    if(!v) continue;
+    const p = tahtaVaka(v, bilinen);
+    if(p) parca.push(p);
+  }
+  if(!parca.length)
+    return \`<div class="bos-panel">Tahta boş. Bir kaynak açtığında buraya işlenecek.</div>\`;
+  return parca.join('');
+}
+
+function defterAni(){
+  const tamamlanan = oyun.durum.tamamlanan;
+  if(tamamlanan.length===0)
+    return \`<div class="bos-panel">Defter henüz boş. Her vaka bittiğinde Peri o günü buraya yazacak.</div>\`;
+  let h = '';
+  for(const vid of tamamlanan){
+    const v = GAME.vakalar.find(x=>x.id===vid);
+    const karar = oyun.durum.seeds["_karar_"+vid];
+    const not = defterNotu(vid, karar);
+    if(not) h += \`<div class="defter-kayit"><div class="v">\${v.baslik}</div><div class="n">\${not}</div></div>\`;
+  }
+  return h;
+}
+
+function defterGoster(sekme){
+  sekme = sekme || 'zincir';
+  let h = ust() + '<div class="faz panel-ekran">';
+  h += \`<div class="panel-baslik">✎ Defter</div>\`;
+  h += \`<div class="z-sekme">
+    <button class="\${sekme==='zincir'?'aktif':''}" onclick="defterGoster('zincir')">Zincir</button>
+    <button class="\${sekme==='ani'?'aktif':''}" onclick="defterGoster('ani')">Anı</button>
+  </div>\`;
+  h += (sekme==='zincir') ? defterZincir() : defterAni();
   h += \`<button class="buton ikincil" onclick="geriDon()">← Geri</button></div>\`;
   app.innerHTML=h; scrollUst();
 }
