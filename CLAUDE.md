@@ -117,6 +117,12 @@ uygulandı — bulgular ve commit'ler `kaynak/inceleme_fable.md`, uygulama talim
 açık bırakıldı (ruh hâli sınıflaması, istatistik paneli, künye tanışma koşulları) —
 sahibine sorulacak.
 
+ChatGPT taze göz incelemesi (20 Eylül 2026) — `kaynak/inceleme_chatgpt.md`. Beş bulgu
+uygulandı (künyedeki iki Nurcan sızıntısı, "En adil", "Doğru olanı yaptın", bulanık
+özne) ve künye kör noktası kapatıldı. **Üç bulgu AÇIK ve sırada:** A-3 `cavit_azmettiren`,
+A-4 `kaya_izi`, A-5 `cengo_okuma` — üçünde de çıkarım kanıtın önüne geçiyor. Düzeltmek
+yeni olgu/metin yazmak demek; araştırma bütçesi artmayacak.
+
 **Görseller bitti (19 Eylül 2026).** 59 gömülü görsel, WebP q80,
 `_gomulu_gorseller.js` içinde base64; veride tanımlı her slot dolu. Sahibinin kararı:
 **sezon 59'da kapandı.** Paket 5'in dört görseli (kriz kutusu + sezon sonu) sipariş
