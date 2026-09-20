@@ -118,3 +118,37 @@ Bu, ana kararlardan **bağımsız ama onlarla örülü** bir ikinci final ekseni
 4. **Kırılabilir** — negatife düşebilir; kirli kararlar uzaklaştırır.
 5. **Nadir zirve** — "Bağlı" (+6) tutarlı insani/cesur oyun ister; yan vakalar anahtarı.
 6. **Final mühürler ya da kırar** — simetrik son dokunuş.
+
+---
+
+## 9. Uygulamanın bugünkü hâli (20 Eylül 2026) — iki sapma, biri kapatıldı
+
+Sahibi "ilişki fazla basit bir tonda duruyor" deyince mekanik ölçüldü. İki sapma çıktı:
+
+**1. Sayaç görünmez değil.** §1 "oyuncuya görünmez (bar/sayı yok)... oyuncu tavrın
+değiştiğini HİSSEDER, bir göstergenin dolduğunu GÖRMEZ" diyor. Ama ekranda üç yerde
+5 alevlik bir ölçek + kelime etiketi ("Cengo ile aran / Yoldaş") duruyor. İlke tersine
+dönmüş: oyuncu göstergeyi görüyor, değişimi hissetmiyor.
+**Sahibinin kararı: gösterge şimdilik kalsın.**
+
+**2. Bağ hiçbir metni değiştirmiyor — asıl boşluk buydu.** Ölçüm:
+
+| | |
+|---|---|
+| Bağı besleyen karar | 31 / 40 |
+| Cengo'nun geçtiği metin yeri | 34 |
+| Bunlardan bağa göre değişen | **0** |
+| Bağı metin olarak okuyan yer | 1 (yalnız final ekranı) |
+
+Motorda `ifadeCalistir` içinde `cengoBag_en_az` koşulu var — tam bu iş için yazılmış —
+ve `game_data.json`'da **sıfır kez** kullanılmış. Yani ilişki her kararda ÖLÇÜLÜYOR,
+hiçbir yerde OYNANMIYOR.
+
+**Yapılan:** görsel yol. Dört ikili kare (`CENGO_GORSEL`), `cengoDurum()`'un dört
+hâline bağlı, karar sonucu ekranında. Bkz. `gorsel_promptlari_2.md` PAKET 7.
+
+**Yapılmayan, açık duran iş:** Cengo'nun sesinin bağa göre değişmesi. 17 karar
+sonucunun 7'si zaten koşullu liste (varyant eklemek yapısal olarak bedava), kalan
+10'u listeye çevrilir. "Aynı sahne, farklı sıcaklık" — mesafede "patron", yoldaşta
+"Peri abla", bağlıda cümlesini bitirememek. Bu, §2'nin ve §8.1-8.2'nin istediği şeyin
+ta kendisi ve tahtadaki en yüksek etkili hamle olarak duruyor.

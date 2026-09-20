@@ -27,7 +27,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 19 test geçmelidir.
+Diğer 20 test geçmelidir.
 
 Doğrulayıcı **12 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -76,6 +76,13 @@ eklerken ya da metnini değiştirirken o aracı çalıştır.**
 Çıkarımlar vaka içidir (knowledge dar kümeyle türetilir), o yüzden ağaçlar vaka başına;
 vakalar arası bağ KARARLARDADIR (`seeds`) ve tahtanın altında karar satırı olarak durur.
 Her çıkarımın `baslik` alanı zorunludur (K12) — yoksa ekranda ham kimliğe düşer.
+
+**Cengo bağı ölçülüyor ama oynanmıyor.** 31 karar `cengoBag`'i besliyor, Cengo 34 metin
+yerinde geçiyor, ama **hiçbiri bağa göre değişmiyor**; motordaki `cengoBag_en_az` koşulu
+veride sıfır kez kullanılmış. 20 Eylül'de görsel yanıt verildi (`CENGO_GORSEL`, dört ikili
+kare), **metin yolu bilerek açık bırakıldı** — ayrıntı `cengo_bag_mekanigi.md` §9.
+Ayrıca ekrandaki 5 alevlik gösterge, notun "görünmez sayaç" ilkesiyle çelişiyor; sahibi
+şimdilik kalmasına karar verdi.
 
 **Kanonda ÇÖZÜLMEYEN iki olgu var:** `ceyda_pay` ve `sevil_pay`. `kaya_biliyordu`
 da `belirsiz` listesinde ama `belirsiz_istisna` ile V6'da bilerek çözülüyor —
@@ -153,9 +160,11 @@ bir daha yazılamaz, ve **Kaya'nın en ufak bir şüphe duyduğu** bir kurgu yaz
 kendi el yazısı aksini söylüyor. Kaya'nın muayenehanesi de artık içine girilebilen,
 eşyaları duran bir yer.
 
-**Görseller bitti (19 Eylül 2026).** 59 gömülü görsel, WebP q80,
+**Görseller: 63 gömülü** (sezon 59'da kapatılmıştı; 20 Eylül'de sahibinin kararıyla
+Cengo–Peri ikili kareleri için 4 slot açıldı — `gorsel_promptlari_2.md` PAKET 7).
+WebP q80,
 `_gomulu_gorseller.js` içinde base64; veride tanımlı her slot dolu. Sahibinin kararı:
-**sezon 59'da kapandı.** (20 Eylül'de iki slot **yeniden üretildi** — `v1_merdiven`
+**sezon 59'da kapanmıştı, 63'e açıldı.** (20 Eylül'de ayrıca iki slot **yeniden üretildi** — `v1_merdiven`
 kanona aykırı bir binadaydı, `portre_ilyas_v2` olmayan bir temiz yanak gösteriyordu;
 sayım değişmedi, bkz. `gorsel_promptlari_2.md` PAKET 6.) Paket 5'in dört görseli (kriz kutusu + sezon sonu) sipariş
 edilmedi — bağlanacakları slot veride hiç açılmamıştı, açmak arayüz işi gerektiriyor;

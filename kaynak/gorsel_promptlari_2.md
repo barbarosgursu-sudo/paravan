@@ -1019,3 +1019,103 @@ Bir de sipariş yazma kuralı: **kadrajdaki nesneler tek tek sayılır.** "Dağ�
 eşya" gibi açık uçlu bir ifade, boşluğu üreticiye bırakır ve üretici onu yazı taşıyan
 bir nesneyle doldurur. Üç kez aynı aileden hata çıktı (kâğıt parçası, dosya yüzü,
 defter kapağı).
+
+---
+
+# PAKET 7 — CENGO & PERİ İKİLİ KARELERİ (4 görsel, 20 Eylül 2026)
+
+**Sezon 59'dan 63'e açıldı.** Sahibinin kararı: Peri–Cengo ilişkisi oyunda fazla
+basit bir tonda duruyordu, öne çıkması istendi.
+
+## Teşhis — asıl sorun görsel değildi
+
+Ölçüldü: bağı **31 karar** besliyor, Cengo **34 metin yerinde** geçiyor
+(17 karar sonucu, 10 ipucu, 3 meta, 2 giriş, 2 olgu), ama **hiçbiri bağa göre
+değişmiyor.** Motorda tam bu iş için yazılmış `cengoBag_en_az` koşulu veride
+**sıfır kez** kullanılmış. Bağı metin olarak okuyan tek yer final ekranı.
+
+Yani ilişki her kararda ÖLÇÜLÜYOR, hiçbir yerde OYNANMIYOR. Üstelik
+`cengo_bag_mekanigi.md` "görünmez sayaç, oyuncu hisseder görmez" diyor ama
+ekranda 5 alevlik bir ölçek + kelime etiketi duruyor — ilke tersine dönmüş.
+
+Sahibine iki yol sunuldu (Cengo'nun sesini bağa göre değiştirmek / ikili kareler);
+**görsel yol seçildi, metin yolu açık bırakıldı.** Gösterge şimdilik kalıyor.
+
+## Kurulum
+
+`RUH_GORSEL`'in birebir kardeşi: `CENGO_GORSEL` tablosu, `cengoDurum()`'un dört
+hâline bağlı, karar sonucu ekranında göstergenin ÜSTÜNDE. Anahtarlar motordaki
+`ESIKLER.ad` ile birebir aynı olmalı; `test_cengo_gorsel.js` ikisini eşliyor.
+
+## Uyumluluk kontrolü — sipariş yazılırken kaçırılanlar
+
+İlk taslakta stil çekirdeğinin yarısı eksikti. Sahibi "bu promptlar öncekilerle
+uyumlu mu" diye sorunca karşılaştırıldı ve **dört eksik** çıktı:
+dikey kompozisyon, %20 sıcak sınırı, yandan sert ışık/yarı gölge, film greni.
+**Dikey kompozisyon kritikti** — yatay gelseydi kadraja oturmazdı ve ancak
+gömdükten sonra fark edilirdi.
+
+**Ayrıca büronun mimarisi yanlış tarif edilmişti.** Kanon tarif "uzun pencere,
+arkada Haliç, geniş ahşap masa, tek lamba" (dört gömülü görselde tanımlı), ama
+ilk taslak `prolog_masa`'ya bakıp "jaluzili pencere, buzlu camlı kapı" yazmıştı.
+Notun kendi talimatı da atlanmıştı: **`karar_temiz` çıpadır**, ayrı bir büro
+çıpası üretilmez. `prolog_masa`'dan üretilen `buro_mekan.jpg` kaldırıldı.
+
+## İlk tur kırığı — ÇEKİNGENLİK ≠ KAÇINMAK
+
+Dört kare geldi, sahibi: *"Hiçbir fotoğrafta birbirlerinin yüzüne bakmıyorlar.
+En yakın olduklarında bile sanki dargın gibiler."* Haklıydı ve sebep prompt'taydı:
+
+- Yoldaş: *"İKİSİ DE dosyaya bakıyor, **birbirlerine değil**"*
+- Yakın: *"Cengo Peri'ye bakıyor; **Peri pencereye bakıyor**"*
+- Bağlı: *"Cengo gözleri yarı kapalı, **Peri Haliç'e bakıyor**"*
+
+Dördünde de göz teması açıkça engellenmişti. Sebep: tasarım notunun
+"söze dökülmez" ilkesi **yanlış uygulanmıştı**. Birbirine bakıp söylememek
+çekingenliktir; birbirine bakmamak küslüktür.
+
+**Bağlı'da ikinci bir tuzak:** altı maddelik yasak listesi (sarılma, öpüşme,
+el ele, romantik poz, çift fotoğrafı, yatak odası) olumlu talimatı ezdi ve
+üretici en güvenli yere — hiç etkileşim yok — kaçtı. Kayıtlı tuzağın varyantı.
+Düzeltme: yasak listesi tek satıra indirildi, yerine **tek net olumlu sahne**
+kondu (Cengo uyuyakalmış, üstünde palto, Peri ona bakıyor).
+
+**Bağlı üçüncü turda tuttu:** "Peri ona baksın" yetmedi, geometri gerekti —
+*"PERİ'NİN BAŞI CENGO'YA DÖNÜK: yüzünü profilden görüyoruz ve bakışı onun
+yüzünde."* İlyas'ın burun-kulak dersinin aynısı.
+
+## Ayırt edici motifler (setin birbirine benzememesi için)
+
+`karar_*` setinde motifler birbirine bulaşıp üç ekran benzeşmişti (PAKET
+1-DÜZELTME). Bu sette her kareye özel motif verildi:
+
+| | trençkot | bardak | dosya | mesafe | bakış |
+|---|---|---|---|---|---|
+| Mesafeli | Cengo'nun üstünde, askı boş | bir | kapalı, Peri'de | odanın boyu | yok |
+| Yoldaş | askıda | iki, yarım | kapalı, ortada | masa başı | göz göze, rahat |
+| Yakın | askıda | biri dokunulmamış | kenara itilmiş | omuz omuza | göz göze, tutulmuş |
+| Bağlı | Cengo'nun üstüne örtülü | iki, boş | kapalı | yan yana | Peri ona bakıyor |
+
+## Teslim
+
+| | luma | boyut |
+|---|---|---|
+| `cengo_mesafeli` | 24.2 | 900×1200, 45 KB |
+| `cengo_yoldas` | 26.1 | 900×1200, 53 KB |
+| `cengo_yakin` | 20.3 | 900×1350, 54 KB |
+| `cengo_bagli` | 18.1 | 900×1200, 45 KB |
+
+Set ortalaması 27.5; `cengo_bagli` en geç saat olduğu için en koyusu (sette
+`v3_giris` 12.8, `portre_ilyas` 13.4 var — aralıkta). Sıcak oran %7.8–11.
+
+Kontroller: parlaklık, harf/rakam taraması (dosya kapağı, kâğıt yığını, duvardaki
+Haliç gravürü), oda sürekliliği (`karar_temiz` ile eşleşiyor), kimlik tutarlılığı,
+dört durumun tarayıcıda gerçekten doğru görseli yüklediğinin doğrulanması.
+
+## SLOT SAYIMI (20 Eylül 2026)
+
+| | Sayı |
+|---|---|
+| Gömülü görsel | **63** |
+| Veride/tabloda tanımlı slot | **63** |
+| Paket 5 (krizler + final) — hâlâ açılmadı | 4 |

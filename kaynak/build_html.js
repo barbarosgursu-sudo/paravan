@@ -910,6 +910,7 @@ function kararVerFaz(id){
   if(not) h += \`<div class="defter-not">\${not}</div>\`;
   h += hesapKutusu(r.ekonomi);
   h += istatistikPanel(vid, id, mevcutIdler);
+  h += cengoGorseli();
   h += cengoGosterge();
   if(devIzole){
     h += \`<div class="dev-uyari" style="margin-top:20px">🛠 İZOLE TEST — bu sonuç kaydedilmedi</div>\`;
@@ -976,6 +977,28 @@ function hesapKutusu(e){
 
    Alt metinler yargı İÇERMEZ: "kirli karar" değil, kül tablası. Oyunun
    oyuncuya not vermeme sözü metinde olduğu gibi görselde de geçerli. */
+/* Cengo–Peri ikili kareleri. RUH_GORSEL'in kardeşi: dört görsel, cengoDurum()'un
+   dört hâline bağlı. Anahtarlar motordaki ESIKLER.ad ile BİREBİR aynı olmalı —
+   arayüz/motor ayrışması bu depoda sessizdir, test_cengo_gorsel.js ikisini eşliyor.
+   Sahibinin tespiti (20 Eylül 2026): ilişki her kararda ÖLÇÜLÜYOR ama hiçbir yerde
+   OYNANMIYORDU; oyuncu göstergenin dolduğunu görüyor, Cengo'nun değiştiğini
+   görmüyordu. Bu tablo o boşluğun görsel yanıtı. */
+const CENGO_GORSEL = {
+  "Mesafeli": { dosya: 'cengo_mesafeli.jpg', alt: 'Cengo paltosuyla kapıya yakın, Peri masada; aralarında odanın boyu' },
+  "Yoldaş":   { dosya: 'cengo_yoldas.jpg',   alt: 'Cengo masanın köşesinde, ikisi bakışıyor' },
+  "Yakın":    { dosya: 'cengo_yakin.jpg',    alt: 'İkisi karşılıklı oturmuş, bakışıyor, kimse konuşmuyor' },
+  "Bağlı":    { dosya: 'cengo_bagli.jpg',    alt: 'Cengo uyuyakalmış, üstünde palto; Peri ona bakıyor' },
+};
+
+function cengoGorseli(){
+  const g = CENGO_GORSEL[oyun.cengoDurum()];
+  if(!g) return '';
+  const ad = g.dosya.replace('.jpg','');
+  const src = (typeof GORSELLER!=='undefined' && GORSELLER[ad]) ? GORSELLER[ad] : null;
+  if(!src) return '';
+  return \`<div class="gorsel-cerceve giris-gorsel cengo-kare"><img src="\${src}" alt="\${g.alt}" loading="lazy"></div>\`;
+}
+
 const RUH_GORSEL = {
   temiz:  { dosya: 'karar_temiz.jpg',  alt: 'sabaha karşı açılan bir pencere' },
   bedel:  { dosya: 'karar_bedel.jpg',  alt: 'boşalmış bir çekmece, masada kalan az şey' },
