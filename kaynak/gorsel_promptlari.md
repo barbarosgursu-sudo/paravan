@@ -85,6 +85,10 @@ Kırklı yaşlarında, yorgun, çökük yüzlü bir adam. YÜZÜNDE BELİRGİN B
 adam değil, kullanılmış bir adam gibi. Gözlerinde teslim olmuşluk.
 
 ## 10. portre_ilyas_v2.jpg  — İlyas (46), "sıradan tahsildar" hali
+> ⚠️ **BU PROMPT EMEKLİ (20 Eylül 2026).** "Yüzündeki yara belirsiz/görünmez" satırı
+> yarasız bir yanak ürettirdi — görsel kanona yalan söyledi. Güncel sipariş metni ve
+> gerekçesi: `gorsel_promptlari_2.md` → PAKET 6.2. Kural: `gorsel_stil_sozlesmesi.md` §7c.
+
 ÖNEMLİ: Bu görsel İlyas'ı SADECE sıradan, yorgun bir tahsildar olarak gösterir. Kırklı yaşlarında,
 silik, yorgun, dikkat çekmeyen bir adam; elinde eski bir tahsilat çantası olabilir. HİÇBİR tehlike,
 tehdit ya da kötülük iması YOK — karanlık/tehditkâr poz YASAK. Yüzündeki yara belirsiz/görünmez.
@@ -124,6 +128,10 @@ yıpranmış. Gözlerinde hem minnet hem çaresizlik.
 # BÖLÜM 3 — MEKÂN / SAHNE (2)
 
 ## 18. v1_merdiven.jpg  — Olay yeri: merdiven boşluğu
+> ⚠️ **BU PROMPT EMEKLİ (20 Eylül 2026).** Binanın kimin binası olduğu yazılmamıştı;
+> üretici izbe bir apartman verdi, oysa Kaya varlıklı bir çocuk doktoru. Güncel sipariş
+> metni: `gorsel_promptlari_2.md` → PAKET 6.1.
+
 GÖSTERİR: ölüm saati + düşüşün açısı (fazlası değil).
 Loş, eski bir apartman merdiven boşluğu; dik basamaklar, tek bir soluk kat lambası (kehribar leke).
 Basamaklarda bir düşüşün sessiz izi (bir iskarpin, dağılmış birkaç eşya) — ama CESET YOK, kan yok,
@@ -182,6 +190,8 @@ müstehcen DEĞİL, ima yeterli. Hüzünlü, soğuk, ağır bir ifşa.
 ---
 
 ## Notlar
+- **İlyas görselleri ÜÇ tane** (#9 portre_ilyas, #10 portre_ilyas_v2, #21 v3_gizli_foto);
+  yara #9 ve #21'de **sol** kaş/elmacık kemiğinde, ikisi tutarlı. #10 yeniden üretildi.
 - **İki İlyas görseli farklı:** #10 (portre_ilyas_v2) sıradan tahsildar, tehlike imasız; #9 & #21
   yara belirgin. Karıştırma.
 - **İki Ceyda görseli farklı:** #7 yaslı/sempatik; #8 okunamaz/gölge.

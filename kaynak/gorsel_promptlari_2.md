@@ -898,3 +898,69 @@ gömüldü ve sezonun görsel işini bitirdi.
 
 Eski tablodaki "63 slot / 29 yeni görsel" hedefi Paket 5'in dört görselini de sayıyordu;
 onların bağlanacağı yer veride hiç açılmamıştı. **Veride tanımlı her slot dolu.**
+
+---
+
+# PAKET 6 — İKİ SLOT YENİDEN ÜRETİLİYOR (20 Eylül 2026)
+
+Sahibi oyunu oynarken iki görsel hatası buldu. **Yeni slot yok** — ikisi de mevcut slotun
+yeniden üretimi, sayım 59'da kalıyor, sezon kapalı kararı bozulmuyor.
+
+## 6.1 · `v1_merdiven` — bina kanonla çelişiyor
+
+**Hata:** Küflü sıva, dökülmüş boya, kafesli demir kapı — izbe bir apartman. Ama Kaya özel
+muayenehanesi olan bir çocuk doktoru; dul eşi avukat tutuyor, sigorta bağımsız uzman raporu
+bekleyecek kadar büyük bir poliçeyi dondurmuş.
+
+**Kök sebep:** `gorsel_promptlari.md` #18 yalnızca *"Loş, eski bir apartman merdiven
+boşluğu"* diyor. Binanın **kimin** binası olduğu hiç yazılmamış; üretici boşluğu doldurmuş.
+
+**Kompozisyon doğru, taşınmıyor.** Sahanlık + aşağı inen merdiven doğru yer: tanık
+*"o gece binadan çıkan adam"* diyor, `ilyas_sebep_yok` *"hangi kapı, hangi merdiven"*
+diyor, komşu duvarın öte yanından duyuyor. Değişen tek şey binanın sınıfı.
+
+**Ölçüm:** eski hali luma 18.1 (set ortalaması 27.5). Sorun pozlama değil, izbelik.
+Yeni hedef 20–26; 28 üstü gece hissini öldürür.
+
+**Referans verilmez** — mevcut görseli eklersen üretici küfü de taşır.
+
+**`gosterir` notu:** slot `dusus_acisi` + `olum_saati` taşıyor. Prompt'ta **saat kadranı
+bilerek istenmedi**: 23:10'da durmuş bir kadran hem rakam taşır (stil çekirdeği yasağı) hem
+de oyuncu `polis_dosyasi`'nı açmadan `olum_saati`'ni sızdırır. Saat metinde kalır.
+
+## 6.2 · `portre_ilyas_v2` — görsel yalan söylüyordu
+
+**Hata:** Net, cepheden, aydınlık bir yüz etüdü ve yanak tertemiz. Ama yara kanonda var
+(`tarif_yara`). Yara **fiziksel bir gerçek**, bilgi değil: Nurcan kuralı bilgiyi saklar,
+bu görsel ise temiz bir yanak **uyduruyordu**.
+
+**Neden ciddi:** V3'te tanık *"yüzünde yara vardı"* diyor. V2'de İlyas'ın yüzüne net bakmış
+oyuncu yanağın temiz olduğunu görmüş — görsel, doğru çıkarımın aleyhine argüman üretiyor.
+
+**Zaten yasaktı:** `gorsel_stil_sozlesmesi.md` §7 — *"İlyas V2'de tahsildar olarak görünür
+ama görseli yalnızca 'yorgun bir adam' gösterir."* Teslim edilen şey yüz etüdü. Clue metni
+de aynısını söylüyor: *"kimsenin iki kez bakmayacağı biri."*
+
+**Kök sebep — kayıtlı tuzağın tersten hali:** #10 *"Yüzündeki yara belirsiz/görünmez"* diyor,
+stil çekirdeği *"yüz ve ifade net seçilsin"* diyor. Üretici çelişkiyi **net yüz + yarasız
+yanak** diye çözüyor. Ders kâğıt parçasındakiyle aynı: **boş yüz isteme, yüzü kapat.**
+
+**Çözüm yaraya eklemek değil, daha azını göstermek.** Yara büyütülerek tarandı: sol kaşın
+üstünde ve sol elmacık kemiğinde (`v3_gizli_foto` ile tutarlı). İlyas'ı **sağ profilinden**
+çekmek yetiyor — yüz okunur kalır, künye kartı çalışmaya devam eder, yaralı taraf kadraja
+hiç girmez. Uydurma değil, saklama.
+
+**Referans zorunlu:** `referans/ilyas_yarasiz_taraf.jpg`. Tam portre verilemez — üretici
+yarayı kopyalar. Çıpa `portre_ilyas`'ın yarasız (sağ) tarafından kırpıldı; kimlik geçer,
+kopyalanacak yara yok. Prompt'ta *"referans sadece kimlik içindir; ışığı, pozu, kadrajı
+kopyalama"* satırı şart — çıpa yakın plan ve aydınlatılmış, kopyalanırsa yine yüz etüdü çıkar.
+
+**Ölçüm:** eski hali luma 25.2 (portre ortalaması 27.8). Yeni hedef 24–29.
+
+**Üçüncü İlyas görseli kontrol edildi:** `v3_gizli_foto` aynı adam, yara aynı tarafta, palto
+aynı. Sorun yalnızca V2'deydi.
+
+## Bu paketin bıraktığı kalıcı kural
+
+`gorsel_stil_sozlesmesi.md` → **§7c**. §7 "fazlasını gösteremez" diyordu, "yanlış
+gösteremez" demiyordu; bu görsel tam o boşluktan geçti.

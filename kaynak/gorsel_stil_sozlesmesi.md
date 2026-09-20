@@ -131,6 +131,27 @@ Bu bir estetik tercih değil, §7'nin aynısı: giriş metni oyuncuya henüz bir
 kazandırmamıştır. `yana_giris_b` (Nadire kapıda, yüzü seçilmiyor) ile `portre_nadire`
 (ipucuyla açılan yüz) ayrımı bu kuralın kaynağıdır ve sürdürülür.
 
+### 7c. Görsel eksik gösterebilir, YANLIŞ gösteremez
+
+§7 bir görselin *fazlasını* göstermesini yasaklar. Bu yetmiyor: bir görsel **yalan da
+söyleyebilir**, ve o boşluktan bir hata geçti (20 Eylül 2026).
+
+**Kural:** Kanonda var olan fiziksel bir gerçek — yara, topallık, yaş, boy, bir eksik parmak —
+görselde **yokmuş gibi gösterilemez**. Oyuncu o gerçeği henüz hak etmediyse, o ayrıntı
+**kadraj dışında bırakılır**: yüz çevrilir, taraf gölgede kalır, mesafe açılır. Düzleştirilmez,
+silinmez, temiz gösterilmez.
+
+Fark önemli: **saklamak** Nurcan kuralıdır, **uydurmak** değildir. Temiz bir yanak çizmek
+oyuncuya "bu adamda yara yok" demektir — sonraki vakada tanık yarayı tarif edince görsel
+doğru çıkarımın *aleyhine* delil olur.
+
+**Düşüldü:** `portre_ilyas_v2` sipariş metninde "Yüzündeki yara belirsiz/görünmez" yazıyordu;
+stil çekirdeği de "yüz ve ifade net seçilsin" diyordu. Üretici çelişkiyi net yüz + yarasız
+yanak diye çözdü. Düzeltme yarayı eklemek değil, **sağ profilden çekmek** oldu.
+
+**Pratik kural — iki yerde de aynı:** yazı taşıyan nesnenin yüzü kapatılır ("dosya KAPALI"),
+gizlenecek fiziksel ayrıntı kadraj dışında bırakılır. **Boş yüz isteme, yüzü kapat.**
+
 **Doğrulayıcıya ek (Kural 1 genişletme):** Her görsel, bağlı clue'nun `reveals`ine
 etiketlenir. Görsel bir kanon yüzü/olguyu gösteriyorsa, o yüz/olgu clue'nun `needs ∪ reveals`
 kümesinde olmalı. Değilse → FAIL. (Nurcan'ın görsel versiyonu böyle engellenir.)
