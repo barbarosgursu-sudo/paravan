@@ -152,3 +152,40 @@ sonucunun 7'si zaten koşullu liste (varyant eklemek yapısal olarak bedava), ka
 10'u listeye çevrilir. "Aynı sahne, farklı sıcaklık" — mesafede "patron", yoldaşta
 "Peri abla", bağlıda cümlesini bitirememek. Bu, §2'nin ve §8.1-8.2'nin istediği şeyin
 ta kendisi ve tahtadaki en yüksek etkili hamle olarak duruyor.
+
+---
+
+## 10. Metin yolu açıldı (20 Eylül 2026) — `cengo_sonuc`
+
+§9'daki boşluk kapatıldı. **17 karar sonucunda** Cengo'nun tepkisi artık bağa göre değişiyor.
+
+**Üç kademe** (dördü değil — oyuncu Yakın ile Bağlı arasındaki nüansı tek cümlede ayırt
+edemez, dördü yazmak 68 metin demekti):
+
+| kademe | aralık | koşul |
+|---|---|---|
+| sıcak | Yakın + Bağlı | `{"cengoBag_en_az": 3}` |
+| varsayılan | Yoldaş | `{"cengoBag_en_az": -1}` |
+| soğuk | Mesafeli | `varsayilan` (son varyant) |
+
+**Yapı:** kararlara `cengo_sonuc` alanı eklendi; seçim mevcut `metinSec` ile yapılıyor,
+motorun seçim mantığına dokunulmadı. Arayüz satırı sonuç kutusunun altına kendi beat'i
+olarak basıyor (`.cengo-satir`).
+
+**Neden ayrı alan:** metinler `sonuc: [{kosul, metin}]` biçiminde ve Cengo genelde uzun bir
+paragrafın içinde tek cümle. Sıcaklığı paragrafın içine gömmek çarpım üretirdi —
+`adresi_ver`'in 4 varyantı × 3 = 12, `tanigi_lekele` 3 × 3 = 9; toplamda yüze yakın,
+neredeyse aynı paragraf ve birini düzeltip ötekini unutmak an meselesi.
+
+**Varsayılan kademe, kararın ÖZGÜN cümlesidir.** Yani bu özellikten önceki oyun deneyimi
+Yoldaş kademesinde birebir korunuyor; yeni olan soğuk ve sıcak uçlar.
+
+**Anı defteri çakışması (kayda geçsin).** Cengo satırı ekranda Peri'nin anı notunun hemen
+üstünde duruyor ve 12 anı notunda Cengo geçiyor. Çoğu sorun değil — Peri'nin sonradan
+içinden geçirdiği şey ("Cengo o günden beri farklı") satırın tekrarı sayılmaz. Ama birkaç
+yerde **kelimesi kelimesine** çakışma var ve bunlar bu özellikten ÖNCE de vardı
+(`kuru_rapor`, `cengoya_birak`, `gecistir`, `oyunu_surdur`): kararın özgün sonuç cümlesi ile
+anı notu aynı repliği taşıyor. Özellik onu yaratmadı, **görünür hale getirdi** — cümle artık
+kendi kutusunda. Yazarın prozası olduğu için dokunulmadı; istenirse anı notları kırpılabilir.
+`test_cengo_satir.js` yalnız **bu özellikle eklenen** soğuk/sıcak varyantların anı defterinden
+cümle tekrar etmediğini kolluyor (orta kademe denetim dışı — o özgün metindir).

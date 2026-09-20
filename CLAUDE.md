@@ -27,9 +27,9 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 20 test geçmelidir.
+Diğer 21 test geçmelidir.
 
-Doğrulayıcı **12 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
+Doğrulayıcı **13 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
 bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketleme durur;
 `uyarı` = tasarım kararı.
@@ -77,12 +77,22 @@ eklerken ya da metnini değiştirirken o aracı çalıştır.**
 vakalar arası bağ KARARLARDADIR (`seeds`) ve tahtanın altında karar satırı olarak durur.
 Her çıkarımın `baslik` alanı zorunludur (K12) — yoksa ekranda ham kimliğe düşer.
 
-**Cengo bağı ölçülüyor ama oynanmıyor.** 31 karar `cengoBag`'i besliyor, Cengo 34 metin
-yerinde geçiyor, ama **hiçbiri bağa göre değişmiyor**; motordaki `cengoBag_en_az` koşulu
-veride sıfır kez kullanılmış. 20 Eylül'de görsel yanıt verildi (`CENGO_GORSEL`, dört ikili
-kare), **metin yolu bilerek açık bırakıldı** — ayrıntı `cengo_bag_mekanigi.md` §9.
-Ayrıca ekrandaki 5 alevlik gösterge, notun "görünmez sayaç" ilkesiyle çelişiyor; sahibi
-şimdilik kalmasına karar verdi.
+**Cengo bağı artık hem görülüyor hem duyuluyor.** 31 karar `cengoBag`'i besliyor. 20 Eylül'de
+iki yanıt da verildi: görsel (`CENGO_GORSEL`, dört ikili kare) ve metin (`cengo_sonuc`,
+17 kararda üç sıcaklık kademesi — soğuk/varsayılan/sıcak). Ayrıntı `cengo_bag_mekanigi.md` §9-10.
+
+**Cengo satırının üç kuralı:**
+- **Kararın ÖNCESİNDEKİ bağa bakar.** Sonrasına bakmak yanlış metin üretir: bağ −1'ken
+  `koz_yap` (−2) seçilince −3'e düşer ve "uzun zamandır bir şey demiyor" basılırdı — oysa
+  adam tam o an tiksindi. İhanet, bulunduğun yere göre ölçülür.
+- **Varyant sırası AZALAN eşik olmalı** ve sonda `varsayilan` bulunmalı (K13). `metinSec`
+  ilk tutanı döndürür; sıra bozulursa sıcak varyant hiç görünmez, `varsayilan` yoksa satır
+  sessizce boşalır. İkisi de hata vermez.
+- **Sıcaklık onay değildir.** Bağ güçlendikçe kirli kararlar daha çok acıtır, temiz kararlar
+  daha az söze dökülür. Tersi olsaydı sayaç "puan topla, affedil" mekaniğine dönerdi.
+
+Ekrandaki 5 alevlik gösterge notun "görünmez sayaç" ilkesiyle çelişiyor; sahibi şimdilik
+kalmasına karar verdi.
 
 **Kanonda ÇÖZÜLMEYEN iki olgu var:** `ceyda_pay` ve `sevil_pay`. `kaya_biliyordu`
 da `belirsiz` listesinde ama `belirsiz_istisna` ile V6'da bilerek çözülüyor —

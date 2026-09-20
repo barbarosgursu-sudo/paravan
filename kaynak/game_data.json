@@ -594,7 +594,25 @@
           "id": "yalan_kur",
           "gate": "yok",
           "etiket": "Rahatlatıcı bir yalan kur",
-          "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder. Ücreti eksiksiz öder, üstüne teşekkür eder; yalan sana fazladan tek kuruş getirmedi.",
+          "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Ücreti eksiksiz öder, üstüne teşekkür eder; yalan sana fazladan tek kuruş getirmedi.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo fark etti. \"Sen böyle biri değildin abla\" demedi — demediği duyuldu."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bunu fark eder; akşam boyunca konusunu açmadı."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo fark etti, bir şey demedi. Zaten sormuyor artık."
+            }
+          ],
           "cengoBag": -1,
           "seed_yaz": {
             "v2_karar": "yalan"
@@ -606,7 +624,25 @@
           "id": "kuru_rapor",
           "gate": "yok",
           "etiket": "Parayı al, karışma, kuru rapor ver",
-          "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar. Nesrin ücretin tamamını öder; pazarlık da etmez, teşekkür de.",
+          "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk. Nesrin ücretin tamamını öder; pazarlık da etmez, teşekkür de.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo dosyaya baktı, sonra sana. Cevabı zaten biliyordu; yine de sordu."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo ilk kez sordu: \"Biz insanla mı uğraşıyoruz kâğıtla mı?\""
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo dosyayı aldı, arşive koydu. Soru sormadı."
+            }
+          ],
           "cengoBag": -1,
           "seed_yaz": {
             "v2_karar": "kuru"
@@ -925,15 +961,33 @@
           "sonuc": [
             {
               "kosul": "iten_ilyas",
-              "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz."
+              "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun."
             },
             {
               "kosul": "itis_kesin",
-              "metin": "Kadını dinledin, tarifini aldın, sonra 'güvenilmez' diye yazdın. Doğru söyleyip söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin. Para geldi, Cavit memnun. Cengo bunu kaldıramaz."
+              "metin": "Kadını dinledin, tarifini aldın, sonra 'güvenilmez' diye yazdın. Doğru söyleyip söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin. Para geldi, Cavit memnun."
             },
             {
               "kosul": "varsayilan",
-              "metin": "Kadını hiç dinlemeden 'güvenilmez' diye yazdın. Cavit'in istediği buydu; sen de fazlasını sormadın. Para geldi. Cengo bunu kaldıramaz."
+              "metin": "Kadını hiç dinlemeden 'güvenilmez' diye yazdın. Cavit'in istediği buydu; sen de fazlasını sormadın. Para geldi."
+            }
+          ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo bunu kaldıramaz. En çok da sen yaptığın için."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bunu kaldıramaz."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo tek kelime etmedi. Etmesi için önce bir şey beklemesi gerekirdi."
             }
           ],
           "cengoBag": -2,
@@ -1117,7 +1171,25 @@
           "id": "biliyorum_cik",
           "gate": "gecmis_tam",
           "etiket": "Sevil'e 'biliyorum' diye çık",
-          "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi? Sevil ücreti ödüyor, üstüne biraz daha — artık sırrını bilen bir kişi daha var ve bunu ikiniz de biliyorsunuz.",
+          "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Sevil ücreti ödüyor, üstüne biraz daha — artık sırrını bilen bir kişi daha var ve bunu ikiniz de biliyorsunuz.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo sana baktı — kızgın değil, açıkta kalmış gibi. Güvendiği yerden gelmişti."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bir şey demedi. Bunu isteyip istemediğini de hiç söylemedi."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo'nun yüzü değişmedi. Senden zaten bu kadarını bekliyordu."
+            }
+          ],
           "cengoBag": -1,
           "seed_yaz": {
             "yana_karar": "acti"
@@ -1129,7 +1201,25 @@
           "id": "cengoya_birak",
           "gate": "gecmis_tam",
           "etiket": "Cengo'ya bırak, karışma",
-          "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an. Fatura kesmedin. Kendi defteri için arkadaşından para alınmaz.",
+          "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. Fatura kesmedin. Kendi defteri için arkadaşından para alınmaz.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo uzun uzun baktı. \"Sen iyi birisin\" demedi; demeye gerek kalmamıştı."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "\"Sen iyi birisin, Peri abla,\" der — söze dökülmeyen bir an."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "\"Sağ olun.\" Patron-çalışan mesafesinde bir teşekkür."
+            }
+          ],
           "cengoBag": 2,
           "seed_yaz": {
             "yana_karar": "birakti"
@@ -1155,6 +1245,24 @@
               "metin": "Sevil'i sıkıştıranı hallettin, ücretini aldın, dosyayı kapattın. Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da."
             }
           ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo o akşam erken çıkmadı. Sebebini söylemedi, sen de sormadın."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bir şey sormadı. Sormaması teşekkürdü."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo dosyayı kaldırdı. Teşekkür etmedi; beklemiyordu da."
+            }
+          ],
           "cengoBag": 0,
           "seed_yaz": {
             "yana_karar": "sessiz"
@@ -1166,7 +1274,25 @@
           "id": "isi_gecevir",
           "gate": "tehdit_kim",
           "etiket": "Sevil'in işini geri çevir",
-          "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his. Sevil yapılan iş için bir şey bırakıp gidiyor; asıl ücreti Cengo'nun hatırına eline almadın.",
+          "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Sevil yapılan iş için bir şey bırakıp gidiyor; asıl ücreti Cengo'nun hatırına eline almadın.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo \"gerek yoktu abla\" dedi. Sesi, gerek olduğunu söylüyordu."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bunu tam istemeyebilir; karışık bir his."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo duydu, omuz silkti. \"Siz bilirsiniz.\""
+            }
+          ],
           "cengoBag": 1,
           "seed_yaz": {
             "yana_karar": "cevirdi"
@@ -1380,7 +1506,25 @@
           "id": "gecistir",
           "gate": "yok",
           "etiket": "Geçiştir, kendini koru",
-          "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür. Cebinden bir kuruş çıkmadı. Hiçbir şey vermedin, hiçbir şey de almadın.",
+          "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cebinden bir kuruş çıkmadı. Hiçbir şey vermedin, hiçbir şey de almadın.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo bunu gördü ve ilk kez gözünü kaçırdı."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bunu görür."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo gördü. Not almadı."
+            }
+          ],
           "cengoBag": -2,
           "seed_yaz": {
             "yanb_karar": "gecistirdi"
@@ -1604,7 +1748,25 @@
             },
             {
               "kosul": "varsayilan",
-              "metin": "Adresi yazdın, parayı aldın. Kim olduğunu sormadın — sormamak da bir tercihti ve onu sen yaptın. Cengo rakamı duyduğunda yüzüne bakmadı."
+              "metin": "Adresi yazdın, parayı aldın. Kim olduğunu sormadın — sormamak da bir tercihti ve onu sen yaptın."
+            }
+          ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo rakamı duydu, yüzüne bakmadı. O akşam ilk kez seninle birlikte çıkmadı."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo rakamı duyduğunda yüzüne bakmadı."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo rakamı yazdı, kasaya koydu."
             }
           ],
           "cengoBag": -2,
@@ -1618,7 +1780,25 @@
           "id": "yanlis_adres",
           "gate": "kadin_adi",
           "etiket": "Yanlış adres ver, kaporayı al",
-          "sonuc": "Uydurdun. Kaporayı aldın, gerisini beklemedin — zaten gelmeyecek. Ayla yerinde kaldı, sen bir süre kazandın. Ama bu adam yanıldığını anlayınca kimi arayacağını biliyor: adresini bildiği tek kişiyi. Cengo kapıyı iki kez kilitledi o akşam.",
+          "sonuc": "Uydurdun. Kaporayı aldın, gerisini beklemedin — zaten gelmeyecek. Ayla yerinde kaldı, sen bir süre kazandın. Ama bu adam yanıldığını anlayınca kimi arayacağını biliyor: adresini bildiği tek kişiyi.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo kapıyı iki kez kilitledi, sonra senin çıkmanı bekledi. Önce gitmedi."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo kapıyı iki kez kilitledi o akşam."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo kapıyı iki kez kilitledi. Kendi için."
+            }
+          ],
           "cengoBag": 0,
           "yuzde": 24,
           "para": 40000,
@@ -1654,11 +1834,29 @@
           "sonuc": [
             {
               "kosul": "uzaklastirma",
-              "metin": "Kapısını sen çaldın — ama onu vermek için değil. Ayla kapıyı aralık açtı, dinledi, teşekkür bile etmedi; korkan insanlar teşekkür etmez. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek. Cengo tek kelime etmedi, sadece o akşam çayı o yaptı."
+              "metin": "Kapısını sen çaldın — ama onu vermek için değil. Ayla kapıyı aralık açtı, dinledi, teşekkür bile etmedi; korkan insanlar teşekkür etmez. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek."
             },
             {
               "kosul": "varsayilan",
-              "metin": "Kapısını sen çaldın — ama onu vermek için değil. Adamı tarif ettiğinde Ayla'nın yüzünden neyi bilmediğini anladın. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek. Cengo tek kelime etmedi, sadece o akşam çayı o yaptı."
+              "metin": "Kapısını sen çaldın — ama onu vermek için değil. Adamı tarif ettiğinde Ayla'nın yüzünden neyi bilmediğini anladın. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek."
+            }
+          ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo tek kelime etmedi. Çayı o yaptı, sonra masanın öbür ucuna oturup seninle birlikte sustu."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo tek kelime etmedi, sadece o akşam çayı o yaptı."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo tek kelime etmedi."
             }
           ],
           "cengoBag": 2,
@@ -1912,7 +2110,25 @@
           "id": "koz_yap",
           "gate": "odeme_kayaya_ait",
           "etiket": "Bilgiyi kendine sakla, koz yap",
-          "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir. Ayın kalanını ödeyen işlere ayırdın; bildiğin şey de cebinde duruyor.",
+          "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Ayın kalanını ödeyen işlere ayırdın; bildiğin şey de cebinde duruyor.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo iğrendi — ve iğrendiğini senden saklamaya çalıştı, beceremedi."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo iğrenir."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo duydu, bir şey demedi. Uzun zamandır bir şey demiyor."
+            }
+          ],
           "cengoBag": -2,
           "seed_yaz": {
             "v4_karar": "koz"
@@ -1924,7 +2140,25 @@
           "id": "bos_ver",
           "gate": "yok",
           "etiket": "Boş ver, bu ipi çekme",
-          "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer. İpi çekmediğin için ay boş geçmedi — küçük işlerle idare ettin.",
+          "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı. İpi çekmediğin için ay boş geçmedi — küçük işlerle idare ettin.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo sezdi. \"Bakmayacak mıyız?\" diye sordu; cevabını alınca bir daha sormadı."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bu soğukluğu sezer."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo sezdi. Not düşmedi."
+            }
+          ],
           "cengoBag": -1,
           "seed_yaz": {
             "v4_karar": "bosver"
@@ -2357,7 +2591,25 @@
           "id": "oyunu_surdur",
           "gate": "tam_resim",
           "etiket": "Belli etme, oyunu sürdür",
-          "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür. Cavit seni yakınında tutmak için cömert davranıyor.",
+          "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cavit seni yakınında tutmak için cömert davranıyor.",
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo suskun. Ama artık odaya girdiğinde sana değil, pencereye bakıyor."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo suskunluğunu görür."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo suskun. Aranızda zaten konuşulacak bir şey kalmamıştı."
+            }
+          ],
           "cengoBag": -2,
           "seed_yaz": {
             "cavit_karsi_konum": "ortak"
@@ -2403,11 +2655,29 @@
                   "el_var"
                 ]
               },
-              "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun."
+              "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ."
             },
             {
               "kosul": "varsayilan",
-              "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Neyi temizlediğini hiç öğrenmedin. Cengo suskun."
+              "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Neyi temizlediğini hiç öğrenmedin."
+            }
+          ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo suskun. Susmanın ona zor geldiği belli."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo suskun."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo suskun; zaten sormayalı çok oldu."
             }
           ],
           "cengoBag": -1,
@@ -2759,11 +3029,29 @@
                   "cinayet_suphesi"
                 ]
               },
-              "metin": "Dosyayı kapattın. Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok, yalnızca uymayan parçalar var. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
+              "metin": "Dosyayı kapattın. Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok, yalnızca uymayan parçalar var. Kimseyi ele vermedin çünkü verecek kimsen yoktu."
             },
             {
               "kosul": "varsayilan",
-              "metin": "Dosyayı kapattın. Merdivenden düşen bir adam, imzalanmış bir rapor, kapanmış bir ay. Peşine düşmedin, o yüzden verecek kimsen de olmadı. Cengo bir şey sormadı — sorulacak bir şey bırakmamıştın."
+              "metin": "Dosyayı kapattın. Merdivenden düşen bir adam, imzalanmış bir rapor, kapanmış bir ay. Peşine düşmedin, o yüzden verecek kimsen de olmadı."
+            }
+          ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo bir şey sormadı. Yanına oturdu, ışığı kapattı; bir süre öyle kaldınız."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo bir şey sormadı. Soracak bir şeyi de yoktu."
             }
           ],
           "para": 0
@@ -2794,6 +3082,24 @@
             {
               "kosul": "varsayilan",
               "metin": "Biriktirdiğin kanıtla üçünü birden patlattın. Cavit ve İlyas düştü; Ceyda da aynı dosyanın içinde sürüklendi — onun gerçek payını hâlâ bilmiyorsun. Düşerken yanlarındakiler de zarar gördü: aileler, belki Cengo. Dosya kapandı; kimin ne kadar hak ettiği kapanmadı."
+            }
+          ],
+          "cengo_sonuc": [
+            {
+              "kosul": {
+                "cengoBag_en_az": 3
+              },
+              "metin": "Cengo yanında kaldı. Bedelini birlikte ödediniz; hiç yüzüne vurmadı."
+            },
+            {
+              "kosul": {
+                "cengoBag_en_az": -1
+              },
+              "metin": "Cengo enkazın içindeydi; kimse ona ne düşündüğünü sormadı."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo listede yoktu; çoktan uzaklaşmıştı."
             }
           ],
           "cengoBag": 0,

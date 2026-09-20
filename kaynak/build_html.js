@@ -236,6 +236,10 @@ body{
 .defter-kayit .n{font-size:14.5px;font-style:italic;color:var(--metin)}
 .bos-panel{padding:40px 24px;text-align:center;color:var(--duman);font-style:italic}
 
+.cengo-satir{margin:-6px 24px 0;padding:12px 16px;border-left:2px solid var(--kehribar);
+  background:rgba(224,164,92,.07);border-radius:0 5px 5px 0;
+  font-size:13.5px;line-height:1.5;color:var(--sonuk);font-style:italic}
+
 /* ===== ZİNCİR DEFTERİ (delil tahtası) ===== */
 .z-sekme{display:flex;gap:8px;padding:0 24px 14px}
 .z-sekme button{flex:1;min-height:44px;background:var(--panel);color:var(--sonuk);
@@ -907,6 +911,9 @@ function kararVerFaz(id){
   let h = ust() + '<div class="faz">';
   h += ruhGorseli(r.ruh);
   h += \`<div class="sonuc-kutu"><h3>Sonuç</h3><p>\${r.sonuc}</p></div>\`;
+  // Cengo'nun tepkisi kendi satırı. Bağ sıcaklığına göre değişir ve
+  // kararın ÖNCESİNDEKİ ilişkiye bakar (motor.js/kararVer).
+  if(r.cengoSatir) h += \`<div class="cengo-satir">\${r.cengoSatir}</div>\`;
   if(not) h += \`<div class="defter-not">\${not}</div>\`;
   h += hesapKutusu(r.ekonomi);
   h += istatistikPanel(vid, id, mevcutIdler);

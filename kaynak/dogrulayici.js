@@ -667,6 +667,40 @@ function kural12_cikarimBaslik(game, hatalar) {
   }
 }
 
+// KURAL 13 — Cengo satırı (bağ sıcaklığı)
+// metinSec İLK TUTAN varyantı döndürür. İki sessiz kırılma var:
+//   1. Eşikler artan sırada yazılırsa (-1 önce, 3 sonra) sıcak varyant HİÇ
+//      görünmez; -1 koşulu sıcak oyuncuyu da yutar.
+//   2. Sonda 'varsayilan' yoksa metinSec "" döndürür ve satır sessizce kaybolur.
+// İkisi de JS hatası vermez, test de görmez. Kural onları derleme öncesi yakalar.
+function kural13_cengoSatir(game, hatalar) {
+  for (const vaka of game.vakalar) {
+    for (const d of vaka.decisions || []) {
+      const cs = d.cengo_sonuc;
+      if (cs === undefined) continue;
+      const yer = `${vaka.id}/${d.id}`;
+      if (!Array.isArray(cs) || !cs.length) {
+        hatalar.push(`[K13] ${yer}: cengo_sonuc dizi değil ya da boş.`); continue;
+      }
+      if (cs[cs.length - 1].kosul !== "varsayilan")
+        hatalar.push(`[K13] ${yer}: cengo_sonuc'un SON varyantı 'varsayilan' olmalı — yoksa en soğuk oyuncuda satır boş kalır.`);
+      let oncekiEsik = Infinity;
+      for (const v of cs) {
+        if (typeof v.metin !== "string" || !v.metin.trim())
+          hatalar.push(`[K13] ${yer}: boş metinli varyant.`);
+        if (v.kosul === "varsayilan") continue;
+        const e = v.kosul && v.kosul.cengoBag_en_az;
+        if (typeof e !== "number") {
+          hatalar.push(`[K13] ${yer}: varyant koşulu cengoBag_en_az değil.`); continue;
+        }
+        if (e >= oncekiEsik)
+          hatalar.push(`[K13] ${yer}: eşikler AZALAN sırada olmalı (${oncekiEsik} sonra ${e}) — yoksa sıcak varyant hiç görünmez.`);
+        oncekiEsik = e;
+      }
+    }
+  }
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -682,6 +716,7 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural9_oluTohum(game, uyarilar, ekstraKaynaklar);
   kural10_olguSizinti(game, hatalar);
   kural12_cikarimBaslik(game, hatalar);
+  kural13_cengoSatir(game, hatalar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -694,6 +729,7 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural("Kural 6 (Bütçe)         ", hatalar.some(h => h.startsWith("[K6]")));
   kural("Kural 10 (Olgu sızıntısı)", hatalar.some(h => h.startsWith("[K10]")));
   kural("Kural 12 (Çıkarım başlığı)", hatalar.some(h => h.startsWith("[K12]")));
+  kural("Kural 13 (Cengo satırı)  ", hatalar.some(h => h.startsWith("[K13]")));
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);

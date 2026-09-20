@@ -479,6 +479,12 @@ class Oyun {
     const gateOk = d.gate === "yok" || this._kos(d.gate, a.bilinen);
     if (!gateOk) return { hata: "bu karar henüz açık değil" };
 
+    // Cengo'nun tepkisi, kararın ÖNCESİNDEKİ ilişkiye göre seçilir.
+    // Sonrasına bakmak yanlış metin üretir: bağ -1'ken koz_yap (-2) seçilince
+    // bağ -3'e düşer ve "uzun zamandır bir şey demiyor" basılırdı — oysa adam
+    // tam o an tiksindi. İhanet, bulunduğun yere göre ölçülür.
+    const cengoBagOnce = this.durum.cengoBag;
+
     // cengoBag
     this.durum.cengoBag += (d.cengoBag || 0);
 
@@ -586,9 +592,13 @@ class Oyun {
     // Sonuç metni de koşullu olabilir: aynı kararı farklı bilgiyle veren
     // oyuncular aynı cümleyi okumamalı. Bilinenler henüz elimizde.
     const sonucMetin = metinSec(d.sonuc, this._metinBilinen(), this.durum.seeds, this.durum.cengoBag, this.durum);
+    // Cengo satırı: aynı sahne, bağa göre farklı sıcaklık. Boş olabilir —
+    // her kararda Cengo konuşmaz.
+    const cengoSatir = metinSec(d.cengo_sonuc, this._metinBilinen(), this.durum.seeds, cengoBagOnce, this.durum);
     this.durum.aktif = null;
     return {
       sonuc: sonucMetin,
+      cengoSatir,
       cengoBag: this.durum.cengoBag,
       cengoDurum: cengoDurumHesap(this.durum.cengoBag),
       yuzde: d.yuzde ?? null,
