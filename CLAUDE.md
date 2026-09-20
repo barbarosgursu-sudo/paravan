@@ -28,6 +28,10 @@ veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar ya
 bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketleme durur;
 `uyarı` = tasarım kararı.
 
+**Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` — her
+katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.
+Test değil, araç.
+
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
 kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
@@ -38,6 +42,20 @@ kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
 hak etmediği bir bilgiyi sızdıramaz. Metin tarafını doğrulayıcı K1/K10/K11 ve
 `test_sizinti.js` kolluyor; görsel tarafı `kaynak/gorsel_stil_sozlesmesi.md` §7
 (künye portresi de katmanlı — `kisiler.json` → `portre_katman`).
+
+**Künye de Nurcan yüzeyidir** ve uzun süre denetimsiz kaldı. `kisiler.json`
+katman metni, o katmanın koşulunun garanti ettiğinden fazlasını söyleyemez.
+İki sızıntı bu boşlukta oturuyordu (20 Eylül 2026'da ChatGPT taze göz
+incelemesinde bulundu): İlyas'ın "arkasında biri var"ı ve Ceyda'nın "cinayetin
+bir ucu onda"sı. K1b artık koşulun gerçekten var olduğunu denetliyor; metnin
+fazla söyleyip söylemediği ANLAMSAL bir soru ve mekanik kural bunu yanlış
+pozitif üretmeden yapamıyor ("Kaya'nın dul eşi" sızıntı değildir) — o denetim
+`kaynak/arac_kunye_denetim.js` ile insana bırakıldı. **Künyeye katman
+eklerken ya da metnini değiştirirken o aracı çalıştır.**
+
+**Kanonda ÇÖZÜLMEYEN iki olgu var:** `ceyda_pay` ve `sevil_pay`. `kaya_biliyordu`
+da `belirsiz` listesinde ama `belirsiz_istisna` ile V6'da bilerek çözülüyor —
+yani "asla çözülmeyen üç şey" demek yanlıştır, ikidir.
 
 **Olgu adları vakalar arasında benzersiz** (K11). Olgular vaka bitince taşınıyor ve
 künye birleşik kümeyi okuyor; aynı ad iki vakada iki anlam taşırsa biri ötekinin

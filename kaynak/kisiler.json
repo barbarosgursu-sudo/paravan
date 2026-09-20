@@ -64,7 +64,7 @@
     },
     {
      "kosul": "cavit_ceyda_sevgili",
-     "tanim": "Cavit'in sevgilisi — Kaya ölmeden önce de. Cinayetin bir ucu onda."
+     "tanim": "Cavit'in sevgilisi — Kaya ölmeden önce de. Bu ilişki, Kaya'nın ölümüne bakışı değiştiriyor."
     },
     {
      "kosul": "ceyda_bulaniklik",
@@ -110,7 +110,11 @@
     },
     {
      "kosul": "iten_ilyas",
-     "tanim": "Kaya'yı merdivende iten kişi. Ama husumeti yok — sanki biri onu sürmüş."
+     "tanim": "Kaya'yı merdivende iten kişi. Tanığın tarif ettiği yara ve aksaklık onda."
+    },
+    {
+     "kosul": "el_var",
+     "tanim": "Kaya'yla bir alıp veremediği yok. Kendi aklıyla itmemiş — arkasında onu süren biri var."
     },
     {
      "kosul": "eski_dava",

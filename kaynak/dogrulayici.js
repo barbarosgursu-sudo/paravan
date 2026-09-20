@@ -183,6 +183,44 @@ function kural1_sozluk(game, hatalar) {
   }
 }
 
+// Kural 1b — KÜNYE koşulları gerçek olmalı.
+// Künye, oyuncunun her an açabildiği bir ekran ve katman metni o katmanın
+// koşulunun garanti ettiğinden fazlasını söyleyemez (Nurcan). Bu yüzey uzun
+// süre denetimsiz kaldı ve iki sızıntı barındırdı: İlyas'ın "arkasında biri
+// var" ve Ceyda'nın "cinayetin bir ucu onda".
+//
+// Burada YALNIZCA koşulun gerçekten var olduğu denetleniyor — yazım hatası
+// ya da silinmiş bir olgu, katmanı sessizce ölü bırakır ve kimse fark etmez.
+// Metnin fazla söyleyip söylemediği ANLAMSAL bir sorudur; mekanik kural
+// bunu yanlış pozitif üretmeden yapamıyor ("Kaya'nın dul eşi" cümlesindeki
+// Kaya sızıntı değildir). O iş `arac_kunye_denetim.js`'te: her katmanı
+// koşulunun hak ettiği olgularla yan yana basar, insan okur.
+function kural1b_kunye(game, hatalar, kisiler) {
+  if (!kisiler || !Array.isArray(kisiler.kisiler)) return;   // künye verilmediyse sessiz geç
+
+  const gecerli = new Set(["her_zaman"]);
+  for (const vaka of game.vakalar) {
+    for (const o of Object.keys(vaka.facts || {})) gecerli.add(o);
+    for (const k of vaka.knowledge || []) gecerli.add(k.turetilen);
+    for (const d of vaka.decisions || []) for (const t of Object.keys(d.seed_yaz || {})) gecerli.add(t);
+    for (const g of vaka.giris || []) for (const a of g.acilan || []) gecerli.add(a);
+  }
+  for (const t of Object.keys(game.kanon.tohum_isimleri || {})) gecerli.add(t);
+
+  for (const kisi of kisiler.kisiler) {
+    const kosullar = [
+      ["tanisma", kisi.tanisma],
+      ...(kisi.katmanlar || []).map(k => ["katman", k.kosul]),
+      ...(kisi.portre_katman || []).map(k => ["portre_katman", k.kosul]),
+    ].filter(([, k]) => k);
+    for (const [nerede, kos] of kosullar) {
+      if (gecerli.has(String(kos).split(":")[0])) continue;
+      hatalar.push(`[K1] künye '${kisi.id}' (${nerede}): koşul '${kos}' ne olgu, ne türetilen, ` +
+        `ne tohum — bu katman hiçbir zaman görünmez, sessizce ölü kalır.`);
+    }
+  }
+}
+
 // Kural 2 — Erişilebilirlik: knowledge ve gate'lerde kullanılan her olgu açılabilir olmalı
 function kural2_erisilebilirlik(game, hatalar) {
   for (const vaka of game.vakalar) {
@@ -615,9 +653,10 @@ function kural10_olguSizinti(game, hatalar) {
   }
 }
 
-function dogrula(game, ekstraKaynaklar) {
+function dogrula(game, ekstraKaynaklar, kisiler) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
+  kural1b_kunye(game, hatalar, kisiler);
   kural2_erisilebilirlik(game, hatalar);
   kural3_dongu(game, hatalar);
   kural4_truth(game, hatalar);
@@ -632,7 +671,7 @@ function dogrula(game, ekstraKaynaklar) {
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
   const kural = (ad, hataVar) => console.log(`${ad}: ${hataVar ? "FAIL" : "PASS"}`);
-  kural("Kural 1 (Sözlük)        ", hatalar.some(h => h.startsWith("[K1]")));
+  kural("Kural 1 (Sözlük+künye)  ", hatalar.some(h => h.startsWith("[K1]")));
   kural("Kural 2 (Erişilebilirlik)", hatalar.some(h => h.startsWith("[K2]")));
   kural("Kural 3 (Döngü)         ", hatalar.some(h => h.startsWith("[K3]")));
   kural("Kural 4 (Truth uyumu)   ", hatalar.some(h => h.startsWith("[K4]")));
@@ -665,7 +704,9 @@ if (require.main === module) {
     for (const f of ["kisiler.json", "build_html.js", "prolog.json"]) {
       try { ekstra.push(fs.readFileSync(f, "utf-8")); } catch (e) {}
     }
-    const ok = dogrula(GAME, ekstra);
+    let kisiler = null;                      // K1b künye katmanlarını denetler
+    try { kisiler = JSON.parse(fs.readFileSync("kisiler.json", "utf-8")); } catch (e) {}
+    const ok = dogrula(GAME, ekstra, kisiler);
     process.exit(ok ? 0 : 1);
   } catch (e) {
     console.log("game_data.js bulunamadı — test verisiyle çalıştırmak için test_dogrulayici.js kullanın.");
