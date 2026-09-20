@@ -1,6 +1,6 @@
 # Paravan Dedektiflik — ChatGPT taze göz incelemesi
 
-> **DURUM (20 Eylül 2026): altı bulgu uygulandı, ikisi AÇIK.** Açık olanlar yeni içerik
+> **DURUM (20 Eylül 2026): altı bulgu uygulandı, biri sahibince kapatıldı, biri AÇIK.** Açık olanlar yeni içerik
 > gerektiriyor (yeni olgu / yeni metin), o yüzden ayrı ele alınacak — aşağıda
 > **AÇIK** başlığı altında. Uygulananların başında ✔ ve commit hash'i var.
 
@@ -92,7 +92,7 @@ dedektiflik açısından çıkarım kazanılmamış. Düzeltmek yeni olgu ve/vey
 yazmak demek — araştırma bütçesini artırmak gerekmiyor, mevcut ipucuna somut ikinci bir
 parça eklemek yetiyor.
 
-### ○ A-3 · V5 · `cavit_azmettiren` çıkarımı
+### ✖ A-3 · V5 · `cavit_azmettiren` çıkarımı — SAHİBİ OLDUĞU GİBİ BIRAKMAYA KARAR VERDİ
 **Yer:** `game_data.json` → V5 → `knowledge.cavit_azmettiren` ve `clues.ilyas_gecmis`.
 **Zincir:** `eski_dava + ilyas_mahkum` → `cavit_azmettiren`.
 **Sorun:** İpucunun olgusal kısmı güçlü (Cavit yıllar önce İlyas'ın avukatı, deliller
@@ -103,8 +103,30 @@ adamı kullandı."*
 **Hafifletici:** `ilyas_mahkum` olgusunun kendi metni zaten "silah oldu" diyor, yani
 boşluk raporun sandığından dar. Ayrıca oyuncu buraya gelirken elinde `el_var` (V3:
 birisi İlyas'ı sürdü) ve `cavit_supheli` (V5) var.
-**Öneri:** Aynı ipucuna cinayet gecesini Cavit'e bağlayan küçük ve somut ikinci bir
-parça: arama kaydı, buluşma, ödeme, kısa bir not. Yeni olgu gerekebilir.
+**Denenen ve elenen üç yol (20 Eylül 2026):**
+
+1. **Cavit'in dosyasında Kaya'nın ev adresi/saatleri.** Sahibi eledi, haklı olarak:
+   Cavit hem Ceyda'nın avukatı hem sevgilisi — o eve giren adam. Kaya'nın evini
+   bilmesinin bir sürü masum yolu var, bilmemesi tuhaf olurdu. Kanıt suçlamıyor.
+2. **"Cavit on yıldır görmediği adamı aradı ve buldu."** Kanona ÇELİŞİYOR. Mevcut
+   metinler süregelen bir bağ kuruyor: `ilyas_mahkum` "o günden beri mahkûm" diyor,
+   `V6/cavit_ver.sonuc` "ikisi birbirinin sırrını tutuyordu" diyor, ve V3'te oyuncu
+   İlyas'ı doğrudan Cavit'e teslim edebiliyor ("onunla ilgilendim").
+3. **Sigorta kaydını `dosya_donus`'a koyup çıkarımı iki ipucuna bağlamak.** ÖLÇÜLDÜ,
+   pahalı çıktı. `cavit_azmettiren` = `eski_dava + ilyas_mahkum + kaya_dosya_donus`
+   yapılınca:
+   - Ulaşılabilirlik 5040 sıranın %78'inden %64'üne düşüyor.
+   - Doğrulayıcı tabanı PASS (5 uyarı) → PASS (6 uyarı). Yeni uyarı:
+     **[K6] V5/ceyda_derin — yanlış sıra seçen oyuncunun elinde 5 karardan yalnızca
+     2'si kalıyor** (doğru sırayı tutturanda 5). V5 kararlarının üçü `tam_resim`'e,
+     o da `cavit_azmettiren`'e bağlı; üçüncü bir ipucu şart koşulunca oyuncu Ceyda
+     ipi ile Cavit sonucu arasında seçmek zorunda kalıyor ve yanlış seçerse vakanın
+     çoğu kapanıyor. "Seçenekleri daraltır ama cezalandırmaz" sözleşmesine ters.
+
+**Karar:** Olduğu gibi bırakıldı. Hafifletici koşullar zaten güçlü — `ilyas_mahkum`
+olgusunun metni "silah oldu" diyor, oyuncu buraya gelirken elinde `el_var` (V3: birisi
+İlyas'ı sürdü; A-5 ile artık pozitif kanıta dayanıyor) ve `cavit_supheli` var.
+**Tekrar açılacaksa:** yukarıdaki üç yol denendi, dördüncüsü gerekir.
 
 ### ○ A-4 · V6 · `kaya_izi` kanıt yokluğundan kesin sonuç çıkarıyor
 **Yer:** `game_data.json` → V6 → `clues.kaya_izi`.

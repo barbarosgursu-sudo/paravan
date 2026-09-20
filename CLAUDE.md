@@ -125,9 +125,10 @@ sahibine sorulacak.
 
 ChatGPT taze göz incelemesi (20 Eylül 2026) — `kaynak/inceleme_chatgpt.md`. Beş bulgu
 uygulandı (künyedeki iki Nurcan sızıntısı, "En adil", "Doğru olanı yaptın", bulanık
-özne) ve künye kör noktası kapatıldı. **Üç bulgu AÇIK ve sırada:** A-3 `cavit_azmettiren`,
-A-4 `kaya_izi`, A-5 `cengo_okuma` — üçünde de çıkarım kanıtın önüne geçiyor. Düzeltmek
-yeni olgu/metin yazmak demek; araştırma bütçesi artmayacak.
+özne) ve künye kör noktası kapatıldı. A-5 uygulandı (İlyas'ın o mahallede işi
+yok — çıkarım artık pozitif kanıta dayanıyor). A-3 sahibince **olduğu gibi bırakıldı**;
+üç çözüm yolu denendi, üçü de elendi, gerekçeleri notta. **Tek açık bulgu A-4**
+(`V6/kaya_izi` kanıt yokluğundan kesin sonuç çıkarıyor).
 
 **Görseller bitti (19 Eylül 2026).** 59 gömülü görsel, WebP q80,
 `_gomulu_gorseller.js` içinde base64; veride tanımlı her slot dolu. Sahibinin kararı:
