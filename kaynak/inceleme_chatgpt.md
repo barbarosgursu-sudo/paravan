@@ -1,6 +1,6 @@
 # Paravan Dedektiflik — ChatGPT taze göz incelemesi
 
-> **DURUM (20 Eylül 2026): beş bulgu uygulandı, üçü AÇIK.** Açık olanlar yeni içerik
+> **DURUM (20 Eylül 2026): altı bulgu uygulandı, ikisi AÇIK.** Açık olanlar yeni içerik
 > gerektiriyor (yeni olgu / yeni metin), o yüzden ayrı ele alınacak — aşağıda
 > **AÇIK** başlığı altında. Uygulananların başında ✔ ve commit hash'i var.
 
@@ -120,7 +120,7 @@ vakalardan düşük.
 şeyden şüphelenmiyor" anlamını taşıyan bir belge. İkincisi Ceyda'nın payını çözmeden
 Kaya'nın bilgisizliğini kanıtlayabilir — `ceyda_pay` sözleşmesini bozmaz.
 
-### ○ A-5 · V3 · `cengo_okuma` → "onu biri gönderdi" çıkarımı
+### ✔ A-5 · V3 · `cengo_okuma` → "onu biri gönderdi" çıkarımı
 **Yer:** `game_data.json` → V3 → `clues.cengo_okuma`.
 **Sorun:** Cengo *"Böyleleri kendi aklıyla adam itmez — biri sırtına bindiyse iter"*
 diyor; `meta` bunu gerçek olarak kaydediyor: *"İlyas tek başına değil. Arkasında onu
@@ -128,9 +128,15 @@ süren biri var."* Bilinen husumet veya para nedeni **bulunamaması**, üçünc�
 varlığını kanıtlamaz. Oyuncuya hipotez değil doğru cevap veriliyor.
 **Not:** A-1 düzeltildikten sonra bu cümle artık künyede değil, yalnızca burada —
 yani yazarın kurduğu yerde. Sorun yerin değil, kesinliğin.
-**Öneri:** İki yol: (a) dili hipoteze indir ("kendi nedeni olmayabilir; biri yönlendirmiş
-olabilir"), ya da (b) aynı ipucuna yönlendirme/baskı gösteren somut bir veri ekle.
-(b) daha sağlam ama yeni olgu demek.
+**Uygulanan (sahibinin onayıyla, 20 Eylül 2026):** (b) seçildi. Kanona eklenen yeni
+gerçek — **İlyas o mahallede hiç çalışmaz, orada alacağı yoktur; ama cinayet gecesi tam
+saatinde oradadır.** Çıkarım artık yokluktan değil pozitif bir boşluktan geliyor: o
+adresi, o merdiveni ve o saati bilmesinin yolu yok, birinin söylemesi gerekiyordu.
+`ilyas_sebep_yok` olgusu, `cengo_okuma`'nın metni ve meta'sı güncellendi. Cavit'in adı
+geçmiyor (`sikistiran` V3'te açılmaz), `cengo_okuma` zaten `bedelsiz: true` olduğu için
+bütçe değişmedi, V2'deki "kenar mahalle" kurulumuyla çelişmiyor.
+**Bu eklemenin kısıtı:** bundan sonra İlyas'ın Kaya'nın mahallesiyle bir bağı olduğu
+yazılamaz.
 
 ---
 

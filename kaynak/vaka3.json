@@ -21,7 +21,7 @@
     "itis_kesin": "Tanık: o adam düşmedi — Kaya itildi; ben gördüm.",
     "ilyas_isim": "Tarif bir isme bağlandı: İlyas — Cengo'nun tanıdığı o tahsildar.",
     "foto_teshis": "Çekilen fotoğrafı tanık onayladı: 'Evet, o.'",
-    "ilyas_sebep_yok": "İlyas'ın Kaya'ya husumeti/sebebi yok — sıradan bir tahsildar.",
+    "ilyas_sebep_yok": "İlyas'ın Kaya'ya husumeti/sebebi yok; o mahallede alacağı da yok. Ama o akşam tam saatinde oradaydı.",
     "mahalle_fisilti": "Mahallede fısıltı: o gece bir şey olmuş, ama herkes korkudan susuyor."
   },
   "knowledge": [
@@ -223,8 +223,8 @@
       "reveals": [
         "ilyas_sebep_yok"
       ],
-      "text": "Cengo başını salladı: 'Bu adamın Kaya'yla bir alıp veremediği yok Peri abla. Ne parası, ne derdi. Böyleleri kendi aklıyla adam itmez — biri sırtına bindiyse iter. Yani biz asıl adamı daha görmedik.'",
-      "meta": "İlyas tek başına değil. Arkasında onu süren biri var — henüz yüzü yok.",
+      "text": "Cengo başını salladı: 'Bu adamın Kaya'yla bir alıp veremediği yok Peri abla. Ne parası, ne derdi. Dahası, İlyas o mahallede çalışmaz — orada bir kuruş alacağı yok. Ama o akşam tam saatinde oradaymış. Hangi kapı, hangi merdiven, kaçta — bunu birinin söylemesi lazım. Yani biz asıl adamı daha görmedik.'",
+      "meta": "İlyas'ın o sokakta işi yoktu; yine de tam saatinde oradaydı. Adresi ve saati ona veren biri var — henüz yüzü yok.",
       "gorsel": {
         "dosya": "portre_cengo.jpg",
         "tur": "portre",
