@@ -15,7 +15,11 @@ const bas=o.acikKaynaklar().map(x=>x.id).sort().join(",");
 k("başta 2 paralel kaynak açık (cavit_ilyas_ilgi + dosya_donus), ip derinleşmemiş", bas==="cavit_ilyas_ilgi,dosya_donus");
 o.kaynakAc("cavit_ilyas_ilgi");
 k("İP2 başı açık, ceyda_oku KAPALI", o.acikKaynaklar().some(x=>x.id==="cavit_izle") && !o.acikKaynaklar().some(x=>x.id==="ceyda_oku"));
-o.kaynakAc("ilyas_gecmis"); o.kaynakAc("cavit_izle"); o.kaynakAc("iliski_gor");
+o.kaynakAc("ilyas_gecmis");
+// cavit_azmettiren artık bu cinayete özgü kanıtı da istiyor (ilyas_son_is).
+// Adım bedelsiz: hak harcatmaz, zinciri uzatır.
+o.kaynakAc("cengo_mahalle_donus");
+o.kaynakAc("cavit_izle"); o.kaynakAc("iliski_gor");
 k("tam_resim türedi (İP1+İP2)", o.bilinenler().includes("tam_resim"));
 k("ana kararlar açık (cavite_vur/kanit_biriktir)", o.acikKararlar().some(x=>x.id==="cavite_vur"));
 k("ceyda_oku açık (İP3 başı)", o.acikKaynaklar().some(x=>x.id==="ceyda_oku"));

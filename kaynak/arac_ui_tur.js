@@ -33,16 +33,28 @@ const { chromium, devices } = require(process.env.PW || '/opt/node22/lib/node_mo
     const baslik = await hedef.$eval('h2', e=>e.innerText);
     await hedef.click(); await p.waitForTimeout(150); await ekranKontrol("giriş "+baslik);
     await p.click('.buton'); await p.waitForTimeout(150); await ekranKontrol("araştırma "+baslik);
-    // tüm kaynakları sırayla dene
-    for(let i=0;i<8;i++){
+    // Tüm kaynakları sırayla dene. Döngü açılabilir kaynak kalmayınca biter;
+    // buradaki sayı bir İDDİA değil, sonsuz döngüye karşı emniyet freni — o
+    // yüzden vakanın ipucu sayısından bol tutuluyor.
+    // İKİ KEZ ISIRDI: önce "i<8" yazılıydı ve V5 sekizinci ipucunu alınca bir
+    // eksik kaldı; sonra ".kaynak" sayılarak düzeltilmeye çalışıldı, ama o
+    // seçici yalnız O AN AÇILABİLİR olanları sayıyor (zincirin başında 2) ve
+    // sınır 4'e düştü, yani hata büyüdü. Ekrandan sayma.
+    for(let i=0;i<20;i++){
       const k = await p.$('.kaynak:not(.yetersiz)'); if(!k) break;
       await k.click(); await p.waitForTimeout(120); await ekranKontrol("kanıt "+baslik);
       const geri = await p.$('.buton'); await geri.click(); await p.waitForTimeout(120);
     }
     // Kişiler paneline bak (YAN-A sonrası künye sızıntısı için)
-    await p.click('text=Kişiler'); await p.waitForTimeout(150); await ekranKontrol("kişiler "+baslik);
+    // SEÇİCİ DÜĞMEYİ HEDEFLER, METNİ DEĞİL. Playwright'ın 'text=' seçicisi
+    // büyük/küçük harf duyarsız ve alt dizgi eşler: V5'e "…iş olarak GERİ
+    // istemiş" diyen bir künye satırı eklenince 'text=Geri' o cümleye takıldı,
+    // tur Kişiler panelinden çıkamadı ve "KARAR DÜĞMESİ YOK" diye YANLIŞ alarm
+    // verdi — oysa motorda V5 aktifti ve dört karar açıktı. Oyun metni
+    // değiştikçe kırılmayan tek yol, düğmenin kendisini seçmek.
+    await p.click('.ust-btn:has-text("Kişiler")'); await p.waitForTimeout(150); await ekranKontrol("kişiler "+baslik);
     if(baslik.includes("Tanık")) { await p.screenshot({path:'UI_kisiler_V3_oncesi.png', fullPage:true}); }
-    await p.click('text=Geri'); await p.waitForTimeout(120);
+    await p.click('.buton:has-text("Geri")'); await p.waitForTimeout(120);
     const kararBtn = await p.$('.buton:has-text("Karar")'); if(!kararBtn){ hatalar.push("KARAR DÜĞMESİ YOK: "+baslik); break; }
     await kararBtn.click(); await p.waitForTimeout(150); await ekranKontrol("karar "+baslik);
     const kararlar = await p.$$('.karar'); await kararlar[0].click(); await p.waitForTimeout(200); await ekranKontrol("sonuç "+baslik);

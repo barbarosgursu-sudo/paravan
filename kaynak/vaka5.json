@@ -24,7 +24,8 @@
     "ip_koz": "Ceyda gizli bir belge/kayıt saklıyor. Soğuk hesap MI, korkan mağdur MU — belli değil.",
     "ip_akil": "Bir iz: cinayet fikri Ceyda'dan çıkmış olabilir. Gerçek Mİ, Cavit'in ona yıktığı bir iddia MI — belli değil.",
     "ip_para": "Ceyda servet/sigortayla fazla ilgili. Açgözlülük MÜ, çaresiz dul MU — belli değil.",
-    "kaya_dosya_donus": "Kaya'nın ölüm dosyasına yeniden bakınca: itiliş, tetikçi, hepsi Cavit'in kapattığı o ilk kaza raporuyla örtülmüş."
+    "kaya_dosya_donus": "Kaya'nın ölüm dosyasına yeniden bakınca: itiliş, tetikçi, hepsi Cavit'in kapattığı o ilk kaza raporuyla örtülmüş.",
+    "ilyas_son_is": "Kaya ölmeden bir hafta önce İlyas 'tahsilat olmayan bir iş' almış — karşılığında eski borcu kapanacakmış."
   },
   "knowledge": [
     {
@@ -44,11 +45,12 @@
     },
     {
       "turetilen": "cavit_azmettiren",
-      "baslik": "Cavit yıllar önce İlyas'ı kurtardı. İlyas o günden beri ona mahkûm — kullanılmaya hazır bir adam.",
+      "baslik": "Eski borcu kapatabilecek tek kişi onu elinde tutan. İlyas'a o işi veren Cavit.",
       "ifade": {
         "all": [
           "eski_dava",
-          "ilyas_mahkum"
+          "ilyas_mahkum",
+          "ilyas_son_is"
         ]
       }
     },
@@ -264,6 +266,29 @@
           "eski_dava"
         ],
         "alt": "yıllanmış, tozlu bir dava dosyası"
+      }
+    },
+    {
+      "id": "cengo_mahalle_donus",
+      "bedelsiz": true,
+      "ad": "Cengo mahalleye döner",
+      "tur": "İfade",
+      "ico": "◈",
+      "needs": [
+        "ilyas_mahkum"
+      ],
+      "reveals": [
+        "ilyas_son_is"
+      ],
+      "text": "Cengo İlyas'ın mahallesine döndü, bu kez borç için değil. Kahvede biri hatırladı: 'Ölümden bir hafta önceydi. Bir iş var dedi, tahsilat değil. Onu yapınca eski defter kapanıyormuş.'",
+      "meta": "İlyas'a o işi veren, üstünde eski bir alacağı olan biri. O alacağın kimde olduğunu artık biliyorsun.",
+      "gorsel": {
+        "dosya": "v3_mahalle.jpg",
+        "tur": "sahne",
+        "gosterir": [
+          "ilyas_son_is"
+        ],
+        "alt": "kenar mahalle sokağı, akşamüstü"
       }
     },
     {

@@ -179,6 +179,17 @@ ASLA kelime olarak gösterilmez; yalnızca atmosfer görseli seçer.
   7 görsel uzantılı gömüldü ve hiçbiri görünmedi. `build_html.js` artık hem uzantılı
   anahtarı hem de gömülmemiş atfı yakalayıp derlemeyi durduruyor; görsel gömdükten
   sonra derlemenin "✓ görsel: N atıfın hepsi gömülü" satırını görmek şart.
+- **Tarayıcı turunda `text=` seçicisi kullanma.** Playwright'ın `text=Geri` seçicisi
+  büyük/küçük harf duyarsızdır ve alt dizgi eşler. V5'e *"…iş olarak **geri** istemiş"*
+  diyen bir künye satırı eklenince seçici o cümleye takıldı, tur Kişiler panelinden
+  çıkamadı ve **"KARAR DÜĞMESİ YOK" diye yanlış alarm verdi** — oysa motorda vaka
+  aktifti ve dört karar açıktı. Düğmeyi hedefle: `.buton:has-text("Geri")`,
+  `.ust-btn:has-text("Kişiler")`. Oyun metni değiştikçe kırılmayan tek yol bu.
+  Aynı turda ikinci ders: ipucu döngüsünün emniyet freni ekrandaki `.kaynak`
+  sayısından türetilemez — o seçici yalnız O AN açılabilir olanları sayar (zincirin
+  başında 2), toplamı değil. Fren bol ve sabit tutulur; o bir iddia değil.
+- **Tur "karar düğmesi yok" derse önce motora sor.** `oyun.acikKararlar()` tarayıcı
+  konsolundan okunabiliyor; doluysa sorun oyunda değil turun gezinmesindedir.
 - **Tarayıcı turu her şeyi görmez.** JS hatası, yatay taşma, dokunma hedefi ve
   kayıt-sürdürme bakar; eksik görsele, yanlış metne, bozuk yerleşime bakmaz.
 - **Ses üç yerde duruyor** — EFEKT tablosu, efektCal çağrıları, `ses/` klasörü.

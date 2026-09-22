@@ -78,7 +78,7 @@ k("YAN-B sonrası peri_yuzlesti=true", o.durum.seeds.peri_yuzlesti===true);
 k("YAN-B sonrası sezon2 ipi=true", o.durum.seeds.sezon2_avukat_ipi===true);
 
 // V5: komplo çöz (tam_resim), kanıt biriktir
-oyna("V5", ["cavit_ilyas_ilgi","ilyas_gecmis","cavit_izle","iliski_gor","ceyda_oku"], "kanit_biriktir");
+oyna("V5", ["cavit_ilyas_ilgi","ilyas_gecmis","cengo_mahalle_donus","cavit_izle","iliski_gor","ceyda_oku"], "kanit_biriktir");
 k("V5 sonrası cavit_ceyda_bilinir=true", o.durum.seeds.cavit_ceyda_bilinir===true);
 k("V5 sonrası cavit_karsi_konum=silahli", o.durum.seeds.cavit_karsi_konum==="silahli");
 
