@@ -6,6 +6,11 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
+> ### ⬅️ YENİ OTURUM: ÖNCE `kaynak/DEVIR.md` OKU
+> Bu dosya kalıcı bilgidir (sözleşmeler, tuzaklar, komutlar). `DEVIR.md` ise **oturum
+> durumudur**: en son ne yapıldı, sahibi hangi soruya cevap bekliyor, sıradaki iş ne.
+> İkisi birlikte okunur. `DEVIR.md` iş ilerledikçe güncellenir ya da silinir.
+
 ## Çalışma kuralları
 
 **Hikâyeye yeni ayrıntı eklemek sahibinin işidir.** Metni kısaltmak, sızıntıyı
