@@ -11,7 +11,7 @@
 
 ## 1. NEREDE DURUYORUZ
 
-Son commit **`7629ebd`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
+Son commit **`29dcd4e`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
 
 | | |
 |---|---|
@@ -65,7 +65,7 @@ eklerken aynısını yap; yakalayamayan test işe yaramaz.
 
 Son mesajda soruldu, cevap gelmedi. **İlk iş bunlar.**
 
-### 3.1 · `V1/reddet` anı notu görselle çelişiyor
+### 3.1 · `V1/reddet` anı notu görselle çelişiyor — ✅ KAPANDI (`29dcd4e`)
 
 Sahibi oynarken buldu. Aynı ekranda:
 - **Anı defteri:** *"…bu ay eve bir kuruş girmedi, **Cengo'nun yüzü asık**."*
@@ -86,7 +86,17 @@ Sunulan üç yol:
   *"…bir kuruş girmedi, Cengo hesabı iki kez saydı. Onur karın doyurmuyor."*
 - **C.** Dokunma.
 
-Bu sahibinin prozası — seçimi ona bırak, kendiliğinden değiştirme.
+**Sahibi "senin fikrin ne" dedi; B uygulandı**, tek değişiklikle: `hesabı` yerine
+**`kasayı`**. Gerekçe — kararın `sonuc` metni bir satır önce *"kasa erir"* diyor, aynı
+nesneye dönmek satırı ona bağlıyor; ve `Cengo rakamı yazdı, kasaya koydu` kanonda zaten
+var, yani yeni kanon eklenmedi. Yeni hâli:
+
+> Reddettim. Onurluydu belki, ama bu ay eve bir kuruş girmedi, Cengo kasayı iki kez saydı.
+> Onur karın doyurmuyor.
+
+Asıl mesele görsel değildi: `reddet` bağı **+2** yükselten karardır, yani metin
+**mekanikle** çelişiyordu; ikili kareler onu yalnızca görünür kıldı. Sahibi sözcüğü
+beğenmezse tek satırlık geri alma — `kisiler.json` satır 203.
 
 ### 3.2 · Yoldaş karesi "nötr varsayılan" için fazla sıcak olabilir
 
