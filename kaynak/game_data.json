@@ -1882,7 +1882,7 @@
         "odeme_sebep": "Kaya çocuk doktoru — çocuğu mesleğiyle tanıdı, yoksulluğu gördü",
         "odeme_gizli": "Kimse bilmiyordu — karısı Ceyda dahil",
         "odeme_kesildi": "Kaya öldüğü gün para durdu",
-        "kaya_iki_yuz": "Evde ağır + gizlice şefkatli — aynı adam",
+        "kaya_iki_yuz": "Sevilen ama son yıllarda içine kapanmış + gizlice şefkatli — kapanmanın sebebi bu",
         "ceyda_biliyor_muydu": "GİZLİ — V5'e ip"
       },
       "facts": {
@@ -1892,7 +1892,7 @@
         "cocuk_hasta": "Para ağır hasta bir çocuğun ailesine gidiyormuş.",
         "kaya_doktor_bag": "Kaya çocuğun doktoruydu — böyle tanışmışlar.",
         "aile_bilmiyor": "Aile hayırseverin kim olduğunu hiç bilmiyor.",
-        "kaya_gizli_iyilik": "Hayırsever = Kaya. Kimseye söylemeden yıllarca destekledi.",
+        "kaya_gizli_iyilik": "Hayırsever = Kaya. Yıllarca destekledi; aile kim olduğunu bilmiyordu.",
         "kaya_itibar": "Kaya çevrede çok sevilen, dürüst bilinen bir doktormuş; kimse hakkında kötü söz etmiyor."
       },
       "knowledge": [
@@ -1908,7 +1908,7 @@
         },
         {
           "turetilen": "iyilik_tam",
-          "baslik": "Para ağır hasta bir çocuğa gidiyormuş. Kaya onun doktoruydu ve kimseye söylememiş.",
+          "baslik": "Para ağır hasta bir çocuğa gidiyormuş. Kaya onun doktoruydu ve desteği veren oydu.",
           "ifade": {
             "all": [
               "odeme_kayaya_ait",
@@ -1969,7 +1969,7 @@
             "durma_tarihi"
           ],
           "text": "Ödeme her ay düzenli gitmiş, sonra iki hafta önce birden kesilmiş. Kesilme tarihine bakınca Peri durdu: o gün, Kaya'nın öldüğü gündü.",
-          "meta": "Hayırsever öldüğü için para durmuş. İsimsiz ödeme, bir ölüm gününe bağlanıyor.",
+          "meta": "Ödeme Kaya'nın öldüğü gün kesilmiş. Tesadüf olması zor — o para Kaya'dan çıkıyor olmalı.",
           "gorsel": {
             "dosya": "v4_dekont.jpg",
             "tur": "kanit",
@@ -2056,7 +2056,7 @@
             "kaya_gizli_iyilik"
           ],
           "text": "Anne titrek konuştu: 'Yıllardır her ay geldi o para. Kim olduğunu hiç bilmedik, dua ettik sadece. İki hafta önce kesildi. Ne oldu ona?' Peri'nin boğazı düğümlendi — çünkü cevabı biliyordu.",
-          "meta": "Aile hayırseverin kim olduğunu bilmiyor. Ve o hayırsever, evde ağır diye duyulan Kaya'ydı — aynı adam.",
+          "meta": "Aile hayırseverin kim olduğunu bilmiyor. Yıllarca her ay gelen o para Kaya'dandı — adını hiç söylememiş.",
           "gorsel": {
             "dosya": "portre_anne.jpg",
             "tur": "portre",
@@ -2098,7 +2098,7 @@
           "id": "kimligi_sakla",
           "gate": "iyilik_tam",
           "etiket": "'Artık gelmeyecek' de, kimliği sakla",
-          "sonuc": "Aileyi boş umuttan korudun ama Kaya'nın sırrını da onunla gömdün. Belki en merhametlisi. Ne aldın ne verdin. Ay, kimseye fatura edilmeyen bir işle geçti.",
+          "sonuc": "Aileyi boş umuttan korudun ama adını da onlardan sakladın. Ne aldın ne verdin. Ay, kimseye fatura edilmeyen bir işle geçti.",
           "cengoBag": 1,
           "seed_yaz": {
             "v4_karar": "sakla"

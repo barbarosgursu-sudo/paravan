@@ -44,7 +44,7 @@
     },
     {
      "kosul": "kaya_gizli_iyilik",
-     "tanim": "Evde ağır biriymiş; ama yıllarca gizlice bir hasta çocuğu yaşatmış. Hem karanlık hem şefkatli — aynı adam."
+     "tanim": "Sevilen doktorun taşıdığı yük buymuş: yıllarca gizlice bir hasta çocuğu yaşatmış. Ailenin haberi bile yokmuş."
     },
     {
      "kosul": "kaya_bilmiyordu",
@@ -238,8 +238,8 @@
   },
   "V4": {
    "aileye_soyle": "Aileye Kaya'yı söyledim. Teşekkür edecek birini değil, bir mezarı buldular. Ama gerçeği hak ediyorlardı.",
-   "sessiz_coz": "Kaya'yı söylemeden bir yol buldum. Cebimden çıktı, zaten yoktu ama... o çocuk yaşasın. Kaya'nın bıraktığı yerden.",
-   "kimligi_sakla": "Sustum. 'Artık gelmeyecek' dedim, o kadar. Kaya'nın sırrını onunla gömdüm. Belki en merhametlisi buydu.",
+   "sessiz_coz": "Kaya'yı söylemeden bir yol buldum. Cebimden çıktı, canımı yaktı ama... o çocuk yaşasın. Kaya'nın bıraktığı yerden.",
+   "kimligi_sakla": "Sustum. 'Artık gelmeyecek' dedim, o kadar. Adını söylemedim. Kendime bunun merhamet olduğunu söyledim.",
    "koz_yap": "Ölü bir adamın gizli iyiliğini koz yaptım. Cengo yüzüme bakmadı. Ben de aynada kendime bakamadım.",
    "bos_ver": "O parayı fark ettim ama peşine düşmedim. Bilmemek bazen kolay. Ama Kaya'nın ne olduğunu hiç öğrenemedim."
   },
