@@ -105,7 +105,7 @@
         },
         {
           "turetilen": "cinayet_suphesi",
-          "baslik": "Kendi düşen biri böyle yaralanmaz. Kaza raporu bunu açıklamıyor.",
+          "baslik": "Yaraların açısı sıradan bir düşmeyle uyuşmuyor. Kaza raporu bunu açıklamıyor.",
           "ifade": {
             "all": [
               "dusus_acisi",
@@ -206,11 +206,11 @@
             },
             {
               "kosul": "ceyda_saat",
-              "metin": "Tek başına kanıt değil — ama Ceyda'nın anlattığı gecede evde Kaya'dan başkası yok."
+              "metin": "Tek başına kanıt değil — ama Ceyda döndüğünde başka birinden söz etmedi."
             },
             {
               "kosul": "varsayilan",
-              "metin": "Kaza olsaydı, o ikinci ses yardım çağırırdı."
+              "metin": "İki kişi tartışmış. Sonra gelen sessizliği kimse açıklamıyor."
             }
           ],
           "gorsel": {

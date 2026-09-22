@@ -81,8 +81,14 @@ kararlar kalamaz.
 
 **4 · Kaybetme yok.** Batmak oyunu bitirmez, düzgün olma hakkını daraltır.
 
-**5 · Metin eylemi anlatır, durumu değil.** "Borç kapandı", "kasam boş" gibi
-finansal durum iddiaları yasak — rakamı ayrı bir hesap kutusu gösteriyor.
+**5 · Metin SABİT bir finansal durum iddia edemez.** "Borç kapandı", "kasam
+boş", "ajans rahat" gibi cümleler yasak, çünkü oyuncunun gerçek kasasıyla
+çelişebilirler — rakamı ayrı bir hesap kutusu gösteriyor. **Ama olay bildiren
+cümleler serbesttir** ("para geldi", "para gelmez", "kasa erir"), çünkü
+kararın kendi sonucundan doğarlar ve her zaman doğrudurlar. V1'in özel bir
+istisnası da var: bu vakaya herkes aynı durumdan giriyor (65.000 ₺, borç yok),
+o yüzden `temiz_rapor`'un "ajans nefes alır"ı orada her zaman doğru ve
+bilerek bırakılmış.
 
 ---
 
