@@ -99,7 +99,10 @@ function vakaYaz(v) {
     p(sar(x.metin, 3));
     p();
   }
-  const acilan = (v.giris || []).flatMap((x) => x.acilan || []);
+  // Giriş varyantları çoğu zaman AYNI olguyu açar (oyuncu hangi yoldan gelirse
+  // gelsin vaka aynı yerden başlasın diye). Düz birleştirince aynı ad üç kez
+  // basılıyordu; tekilleştir.
+  const acilan = [...new Set((v.giris || []).flatMap((x) => x.acilan || []))];
   if (acilan.length) p(`   → giriş şunları açıyor: ${acilan.join(", ")}`);
 
   /* İpuçları: önce kapısız olanlar, sonra bağımlılar — oyuncunun görebileceği sıra. */
