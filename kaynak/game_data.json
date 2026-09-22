@@ -383,13 +383,13 @@
         "ilyas_tahsildar": "Parayı alan yorgun adam: İlyas, bir tahsildar.",
         "kacak_kardes": "Borç Vedat'ın değil — kaçak kardeşinin.",
         "kardes_tehlike": "Kardeş tehlikeli bir işe bulaşmış, ortadan kaybolmuş.",
-        "vedat_pisman": "Vedat bu yükten utanıyor, kapatmaya çabalıyor — karısını korumak istiyor.",
+        "vedat_pisman": "Vedat taşıdığı şeyden utanıyor; gizlemeye çabalıyor.",
         "vedat_mali_sikinti": "Vedat son aylarda para sıkıntısında; borç kapatır gibi ödemeler yapıyor."
       },
       "knowledge": [
         {
           "turetilen": "aldatmiyor_kesin",
-          "baslik": "Vedat aldatmıyor. O kapıya bambaşka bir şey için gidiyor.",
+          "baslik": "Takipte aldatmaya dair bir iz çıkmadı. Vedat o kapıya başka bir şey için gidiyor.",
           "ifade": {
             "all": [
               "vedat_kadin_yok",
@@ -457,7 +457,7 @@
             "vedat_mali_sikinti"
           ],
           "text": "Vedat'ın hesaplarına, esnaf çevresine bakıldı. Adam borç içinde değil ama sürekli bir yere düzenli para aktarıyor — maaşından fazlasını.",
-          "meta": "Birine düzenli para gidiyor — bir metresin değil, bir borcun izi gibi. Onu takip etsek nereye gittiğini görürüz.",
+          "meta": "Birine düzenli para gidiyor, maaşından fazlası. Kaybolduğu saatlerin başka bir açıklaması olabilir. Onu takip etsek nereye gittiğini görürüz.",
           "gorsel": {
             "dosya": "v2_hesap.jpg",
             "tur": "kanit",
@@ -553,8 +553,8 @@
           "reveals": [
             "vedat_pisman"
           ],
-          "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Bu, bir suçlunun değil, utanan bir adamın hâliydi.",
-          "meta": "Karısını korumak için saklıyor gibi. Ama bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.",
+          "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Korkmuş değil — yorgun.",
+          "meta": "Sakladığı şey ona ağır geliyor. Ama bu, sakladığı şeyin ne olduğunu söylemiyor. Bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.",
           "gorsel": {
             "dosya": "portre_vedat.jpg",
             "tur": "portre",
@@ -630,7 +630,7 @@
               "kosul": {
                 "cengoBag_en_az": 3
               },
-              "metin": "Cengo dosyaya baktı, sonra sana. Cevabı zaten biliyordu; yine de sordu."
+              "metin": "Cengo dosyaya baktı, sonra sana. \"Kadına ne diyeceğiz?\" Cevabı zaten biliyordu; yine de sordu."
             },
             {
               "kosul": {
