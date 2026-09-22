@@ -26,6 +26,7 @@
   "knowledge": [
     {
       "turetilen": "odeme_kayaya_ait",
+      "baslik": "Her ay giden isimsiz ödeme Kaya'nındı. Öldüğü gün kesilmiş.",
       "ifade": {
         "all": [
           "gizemli_odeme",
@@ -35,6 +36,7 @@
     },
     {
       "turetilen": "iyilik_tam",
+      "baslik": "Para ağır hasta bir çocuğa gidiyormuş. Kaya onun doktoruydu ve kimseye söylememiş.",
       "ifade": {
         "all": [
           "odeme_kayaya_ait",
@@ -236,7 +238,25 @@
       "id": "koz_yap",
       "gate": "odeme_kayaya_ait",
       "etiket": "Bilgiyi kendine sakla, koz yap",
-      "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Cengo iğrenir. Ayın kalanını ödeyen işlere ayırdın; bildiğin şey de cebinde duruyor.",
+      "sonuc": "Kaya'nın gizli parası ilginç — bunu vakanın değil, kendi soruşturmanın kozu yaptın. Soğuk ama stratejik. Ayın kalanını ödeyen işlere ayırdın; bildiğin şey de cebinde duruyor.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo iğrendi — ve iğrendiğini senden saklamaya çalıştı, beceremedi."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo iğrenir."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo duydu, bir şey demedi. Uzun zamandır bir şey demiyor."
+        }
+      ],
       "cengoBag": -2,
       "seed_yaz": {
         "v4_karar": "koz"
@@ -248,7 +268,25 @@
       "id": "bos_ver",
       "gate": "yok",
       "etiket": "Boş ver, bu ipi çekme",
-      "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı — ama Cengo bu soğukluğu sezer. İpi çekmediğin için ay boş geçmedi — küçük işlerle idare ettin.",
+      "sonuc": "İsimsiz ödemeyi fark ettin ama peşine düşmedin. Kaya'nın sırrı sır kaldı, sen de öğrenmedin. Belki en kolayı. İpi çekmediğin için ay boş geçmedi — küçük işlerle idare ettin.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo sezdi. \"Bakmayacak mıyız?\" diye sordu; cevabını alınca bir daha sormadı."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bu soğukluğu sezer."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo sezdi. Not düşmedi."
+        }
+      ],
       "cengoBag": -1,
       "seed_yaz": {
         "v4_karar": "bosver"

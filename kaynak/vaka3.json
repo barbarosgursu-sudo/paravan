@@ -27,6 +27,7 @@
   "knowledge": [
     {
       "turetilen": "ilyas_supde",
+      "baslik": "Tanığın tarifi belirli bir adamı çiziyor: yüzünde yara, yürüyüşünde aksaklık.",
       "ifade": {
         "all": [
           "tarif_yara",
@@ -36,6 +37,7 @@
     },
     {
       "turetilen": "iten_ilyas",
+      "baslik": "Tanık fotoğrafı onayladı: Kaya'yı merdivende iten adam İlyas.",
       "ifade": {
         "all": [
           "ilyas_supde",
@@ -45,6 +47,7 @@
     },
     {
       "turetilen": "el_var",
+      "baslik": "İlyas'ın kendi sebebi yok. Kendi aklıyla itmemiş — arkasında onu süren biri var.",
       "ifade": {
         "all": [
           "iten_ilyas",
@@ -297,15 +300,33 @@
       "sonuc": [
         {
           "kosul": "iten_ilyas",
-          "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun. Cengo bunu kaldıramaz."
+          "metin": "Doğruyu söyleyen kadını lekeledin. Para geldi, Cavit memnun — ama bir cinayeti örtmeye ilk kez bilerek ortak oldun."
         },
         {
           "kosul": "itis_kesin",
-          "metin": "Kadını dinledin, tarifini aldın, sonra 'güvenilmez' diye yazdın. Doğru söyleyip söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin. Para geldi, Cavit memnun. Cengo bunu kaldıramaz."
+          "metin": "Kadını dinledin, tarifini aldın, sonra 'güvenilmez' diye yazdın. Doğru söyleyip söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin. Para geldi, Cavit memnun."
         },
         {
           "kosul": "varsayilan",
-          "metin": "Kadını hiç dinlemeden 'güvenilmez' diye yazdın. Cavit'in istediği buydu; sen de fazlasını sormadın. Para geldi. Cengo bunu kaldıramaz."
+          "metin": "Kadını hiç dinlemeden 'güvenilmez' diye yazdın. Cavit'in istediği buydu; sen de fazlasını sormadın. Para geldi."
+        }
+      ],
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo bunu kaldıramaz. En çok da sen yaptığın için."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bunu kaldıramaz."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo tek kelime etmedi. Etmesi için önce bir şey beklemesi gerekirdi."
         }
       ],
       "cengoBag": -2,

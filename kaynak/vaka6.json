@@ -19,6 +19,7 @@
   "knowledge": [
     {
       "turetilen": "gercek_ortaya_cikti",
+      "baslik": "Zincirin tamamı görünüyor: Kaya olmayan bir tehdit için öldürüldü.",
       "ifade": {
         "all": [
           "zincir_tam",
@@ -323,11 +324,29 @@
               "cinayet_suphesi"
             ]
           },
-          "metin": "Dosyayı kapattın. Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok, yalnızca uymayan parçalar var. Kimseyi ele vermedin çünkü verecek kimsen yoktu. Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
+          "metin": "Dosyayı kapattın. Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok, yalnızca uymayan parçalar var. Kimseyi ele vermedin çünkü verecek kimsen yoktu."
         },
         {
           "kosul": "varsayilan",
-          "metin": "Dosyayı kapattın. Merdivenden düşen bir adam, imzalanmış bir rapor, kapanmış bir ay. Peşine düşmedin, o yüzden verecek kimsen de olmadı. Cengo bir şey sormadı — sorulacak bir şey bırakmamıştın."
+          "metin": "Dosyayı kapattın. Merdivenden düşen bir adam, imzalanmış bir rapor, kapanmış bir ay. Peşine düşmedin, o yüzden verecek kimsen de olmadı."
+        }
+      ],
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo bir şey sormadı. Yanına oturdu, ışığı kapattı; bir süre öyle kaldınız."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bir şey sormadı; o da biliyor ki bu sefer eksik olan cesaret değildi."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo bir şey sormadı. Soracak bir şeyi de yoktu."
         }
       ],
       "para": 0
@@ -358,6 +377,24 @@
         {
           "kosul": "varsayilan",
           "metin": "Biriktirdiğin kanıtla üçünü birden patlattın. Cavit ve İlyas düştü; Ceyda da aynı dosyanın içinde sürüklendi — onun gerçek payını hâlâ bilmiyorsun. Düşerken yanlarındakiler de zarar gördü: aileler, belki Cengo. Dosya kapandı; kimin ne kadar hak ettiği kapanmadı."
+        }
+      ],
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo yanında kaldı. Bedelini birlikte ödediniz; hiç yüzüne vurmadı."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo enkazın içindeydi; kimse ona ne düşündüğünü sormadı."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo listede yoktu; çoktan uzaklaşmıştı."
         }
       ],
       "cengoBag": 0,

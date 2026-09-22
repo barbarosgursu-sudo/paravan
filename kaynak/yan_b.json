@@ -27,6 +27,7 @@
   "knowledge": [
     {
       "turetilen": "enkaz_gorundu",
+      "baslik": "Peri'nin batışı yalnız onu batırmamış. Nadire de enkazın altında kalmış.",
       "ifade": {
         "all": [
           "nadire_geldi",
@@ -36,6 +37,7 @@
     },
     {
       "turetilen": "sorumluluk_tam",
+      "baslik": "Peri o avukata güvendi. Bedelini yalnız kendisi ödemedi.",
       "ifade": {
         "all": [
           "enkaz_gorundu",
@@ -193,7 +195,25 @@
       "id": "gecistir",
       "gate": "yok",
       "etiket": "Geçiştir, kendini koru",
-      "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cengo bunu görür. Cebinden bir kuruş çıkmadı. Hiçbir şey vermedin, hiçbir şey de almadın.",
+      "sonuc": "'Elimden bir şey gelmez, ben de zor durumdayım.' Kendini korudun — ama Nadire'yi ikinci kez, bu sefer bilerek yüzüstü bıraktın. Cebinden bir kuruş çıkmadı. Hiçbir şey vermedin, hiçbir şey de almadın.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo bunu gördü ve ilk kez gözünü kaçırdı."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bunu görür."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo gördü. Not almadı."
+        }
+      ],
       "cengoBag": -2,
       "seed_yaz": {
         "yanb_karar": "gecistirdi"

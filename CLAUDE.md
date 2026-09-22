@@ -32,7 +32,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 21 test geçmelidir.
+Diğer 22 test geçmelidir.
 
 Doğrulayıcı **13 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -154,6 +154,12 @@ ASLA kelime olarak gösterilmez; yalnızca atmosfer görseli seçer.
   *ilişkiyle* kur, yoksa veri değişince test yalan söyler.
 - **Arayüz/motor ayrışması** sessizdir. İki yerde duran her şey (KRIZLER/KRIZ_METIN,
   kararRuhHali/RUH_GORSEL) test ile eşlenmiştir; yenisini eklerken aynısını yap.
+- **`game_data.json` ASIL, `vaka2-6.json` ve `yan_a/b.json` YEDEK.** Asılda değiştirdiğini
+  yedekte de değiştir. Bu kural belgede yazılıydı ama denetlenmiyordu ve yedi yedeğin
+  yedisi de kaymıştı (22–80 satır; Cengo satırı gibi bütün bir özellik hiç işlenmemişti).
+  Ayrışma sessizdir — oyun çalışır, yalnızca "yedek" adı yalan söyler. `test_yedek.js`
+  artık eşliyor; kayma olursa hangi alanın ayrıldığını basar. V1 ve YAN-C'nin yedeği
+  bilerek yok, küme OKUBENI'de tanımlı.
 - **`GORSELLER` anahtarı UZANTISIZ.** Sayfa her aramada `.replace('.jpg','')` yapıyor,
   yani `"v5_takip.jpg"` diye gömülen bir görsel hiç bulunamaz. Eksik görsel JS hatası
   vermez, sessizce metin yer tutucuya düşer — `arac_ui_tur.js` de yakalamaz. Düşüldü:

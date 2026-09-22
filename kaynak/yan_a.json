@@ -26,6 +26,7 @@
   "knowledge": [
     {
       "turetilen": "gecmis_sezildi",
+      "baslik": "Cengo ile Sevil arasında eski bir şey var, kayıtlara geçmiş bir şey.",
       "ifade": {
         "all": [
           "cengo_tepki",
@@ -35,6 +36,7 @@
     },
     {
       "turetilen": "gecmis_tam",
+      "baslik": "Suç Sevil'indi; Cengo üstlendi. Neden üstlendiğini söylemiyor.",
       "ifade": {
         "all": [
           "gecmis_sezildi",
@@ -157,7 +159,25 @@
       "id": "biliyorum_cik",
       "gate": "gecmis_tam",
       "etiket": "Sevil'e 'biliyorum' diye çık",
-      "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Bunu ister miydi? Sevil ücreti ödüyor, üstüne biraz daha — artık sırrını bilen bir kişi daha var ve bunu ikiniz de biliyorsunuz.",
+      "sonuc": "Defteri sen açtın: 'Bu adamın senin için ne ödediğini biliyor musun?' Adalet duygusu — ama Cengo'nun en mahrem yarasını, izni olmadan açtın. Sevil ücreti ödüyor, üstüne biraz daha — artık sırrını bilen bir kişi daha var ve bunu ikiniz de biliyorsunuz.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo sana baktı — kızgın değil, açıkta kalmış gibi. Güvendiği yerden gelmişti."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bir şey demedi. Bunu isteyip istemediğini de hiç söylemedi."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo'nun yüzü değişmedi. Senden zaten bu kadarını bekliyordu."
+        }
+      ],
       "cengoBag": -1,
       "seed_yaz": {
         "yana_karar": "acti"
@@ -169,7 +189,25 @@
       "id": "cengoya_birak",
       "gate": "gecmis_tam",
       "etiket": "Cengo'ya bırak, karışma",
-      "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. 'Sen iyi birisin, Peri abla,' der — söze dökülmeyen bir an. Fatura kesmedin. Kendi defteri için arkadaşından para alınmaz.",
+      "sonuc": "'Bu senin defterin, ne yapacağına sen karar ver.' Ona saygı gösterdin, yargılamadın. Cengo seni gördüğünü ama zorlamadığını anlar. Fatura kesmedin. Kendi defteri için arkadaşından para alınmaz.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo uzun uzun baktı. \"Sen iyi birisin\" demedi; demeye gerek kalmamıştı."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "\"Sen iyi birisin, Peri abla,\" der — söze dökülmeyen bir an."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "\"Sağ olun.\" Patron-çalışan mesafesinde bir teşekkür."
+        }
+      ],
       "cengoBag": 2,
       "seed_yaz": {
         "yana_karar": "birakti"
@@ -195,6 +233,24 @@
           "metin": "Sevil'i sıkıştıranı hallettin, ücretini aldın, dosyayı kapattın. Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da."
         }
       ],
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo o akşam erken çıkmadı. Sebebini söylemedi, sen de sormadın."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bir şey sormadı. Sormaması teşekkürdü."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo dosyayı kaldırdı. Teşekkür etmedi; beklemiyordu da."
+        }
+      ],
       "cengoBag": 0,
       "seed_yaz": {
         "yana_karar": "sessiz"
@@ -206,7 +262,25 @@
       "id": "isi_gecevir",
       "gate": "tehdit_kim",
       "etiket": "Sevil'in işini geri çevir",
-      "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Cengo bunu tam istemeyebilir; karışık bir his. Sevil yapılan iş için bir şey bırakıp gidiyor; asıl ücreti Cengo'nun hatırına eline almadın.",
+      "sonuc": "'Bu kadına yardım etmeyeceğim' dedin — Cengo'nun hatırına. Sadakat, ama Sevil çözülmemiş bir tehditle gitti. Sevil yapılan iş için bir şey bırakıp gidiyor; asıl ücreti Cengo'nun hatırına eline almadın.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo \"gerek yoktu abla\" dedi. Sesi, gerek olduğunu söylüyordu."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bunu tam istemeyebilir; karışık bir his."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo duydu, omuz silkti. \"Siz bilirsiniz.\""
+        }
+      ],
       "cengoBag": 1,
       "seed_yaz": {
         "yana_karar": "cevirdi"

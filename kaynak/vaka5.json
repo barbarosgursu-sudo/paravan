@@ -29,6 +29,7 @@
   "knowledge": [
     {
       "turetilen": "cavit_supheli",
+      "baslik": "Davanın her köşesinde Cavit var. Bu kadarı tesadüf değil.",
       "ifade": {
         "all": [
           "cavit_her_kosede",
@@ -43,6 +44,7 @@
     },
     {
       "turetilen": "cavit_azmettiren",
+      "baslik": "Cavit yıllar önce İlyas'ı kurtardı. İlyas o günden beri ona mahkûm — kullanılmaya hazır bir adam.",
       "ifade": {
         "all": [
           "eski_dava",
@@ -52,6 +54,7 @@
     },
     {
       "turetilen": "iliski_acik",
+      "baslik": "Cavit ile Ceyda sevgili. Avukat-müvekkil ilişkisi bir paravan.",
       "ifade": {
         "all": [
           "cavit_takip",
@@ -61,6 +64,7 @@
     },
     {
       "turetilen": "tam_resim",
+      "baslik": "Tablo tamamlandı: elinde mahkûm bir adam olan avukat, ölen adamın karısının sevgilisi.",
       "ifade": {
         "all": [
           "cavit_azmettiren",
@@ -70,6 +74,7 @@
     },
     {
       "turetilen": "ceyda_bulaniklik",
+      "baslik": "Ceyda bir şey saklıyor. Ama ne olduğu — ve neden — bulanık kalıyor.",
       "ifade": {
         "any": [
           "ip_koz",
@@ -405,7 +410,25 @@
       "id": "oyunu_surdur",
       "gate": "tam_resim",
       "etiket": "Belli etme, oyunu sürdür",
-      "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cengo suskunluğunu görür. Cavit seni yakınında tutmak için cömert davranıyor.",
+      "sonuc": "Bildiğini sakladın, Cavit'e istediğini veriyormuş gibi yaptın. Para akar, güvenliktesin — ama her gün bir cinayetin örtüsünü tutuyorsun. Cavit seni yakınında tutmak için cömert davranıyor.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo suskun. Ama artık odaya girdiğinde sana değil, pencereye bakıyor."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo suskunluğunu görür."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo suskun. Aranızda zaten konuşulacak bir şey kalmamıştı."
+        }
+      ],
       "cengoBag": -2,
       "seed_yaz": {
         "cavit_karsi_konum": "ortak"
@@ -451,11 +474,29 @@
               "el_var"
             ]
           },
-          "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ. Cengo suskun."
+          "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Ama farkında olmadan bir cinayetin aletisin hâlâ."
         },
         {
           "kosul": "varsayilan",
-          "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Neyi temizlediğini hiç öğrenmedin. Cengo suskun."
+          "metin": "Sormadın, kazmadın — Cavit'in istediği 'temizliği' yaptın. Para geldi. Neyi temizlediğini hiç öğrenmedin."
+        }
+      ],
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo suskun. Susmanın ona zor geldiği belli."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo suskun."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo suskun; zaten sormayalı çok oldu."
         }
       ],
       "cengoBag": -1,

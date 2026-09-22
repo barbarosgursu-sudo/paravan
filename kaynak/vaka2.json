@@ -21,12 +21,13 @@
     "ilyas_tahsildar": "Parayı alan yorgun adam: İlyas, bir tahsildar.",
     "kacak_kardes": "Borç Vedat'ın değil — kaçak kardeşinin.",
     "kardes_tehlike": "Kardeş tehlikeli bir işe bulaşmış, ortadan kaybolmuş.",
-    "vedat_pisman": "Vedat bu yükten utanıyor, kapatmaya çabalıyor — karısını korumak istiyor.",
+    "vedat_pisman": "Vedat taşıdığı şeyden utanıyor; gizlemeye çabalıyor.",
     "vedat_mali_sikinti": "Vedat son aylarda para sıkıntısında; borç kapatır gibi ödemeler yapıyor."
   },
   "knowledge": [
     {
       "turetilen": "aldatmiyor_kesin",
+      "baslik": "Takipte aldatmaya dair bir iz çıkmadı. Vedat o kapıya başka bir şey için gidiyor.",
       "ifade": {
         "all": [
           "vedat_kadin_yok",
@@ -36,6 +37,7 @@
     },
     {
       "turetilen": "sir_borctur",
+      "baslik": "Vedat'ın sırrı bir kadın değil, bir borç. Parayı kapıda bir tahsildara veriyor.",
       "ifade": {
         "all": [
           "para_elden",
@@ -45,6 +47,7 @@
     },
     {
       "turetilen": "sir_tam",
+      "baslik": "Borç Vedat'ın değil, kaçak kardeşinin. Vedat onun yerine ödüyor.",
       "ifade": {
         "all": [
           "sir_borctur",
@@ -92,7 +95,7 @@
         "vedat_mali_sikinti"
       ],
       "text": "Vedat'ın hesaplarına, esnaf çevresine bakıldı. Adam borç içinde değil ama sürekli bir yere düzenli para aktarıyor — maaşından fazlasını.",
-      "meta": "Birine düzenli para gidiyor — bir metresin değil, bir borcun izi gibi. Onu takip etsek nereye gittiğini görürüz.",
+      "meta": "Birine düzenli para gidiyor, maaşından fazlası. Kaybolduğu saatlerin başka bir açıklaması olabilir. Onu takip etsek nereye gittiğini görürüz.",
       "gorsel": {
         "dosya": "v2_hesap.jpg",
         "tur": "kanit",
@@ -188,8 +191,8 @@
       "reveals": [
         "vedat_pisman"
       ],
-      "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Bu, bir suçlunun değil, utanan bir adamın hâliydi.",
-      "meta": "Karısını korumak için saklıyor gibi. Ama bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.",
+      "text": "Vedat kapıdan çıkarken bir an durdu, yüzünü elleriyle ovdu. Omuzları çökük. Korkmuş değil — yorgun.",
+      "meta": "Sakladığı şey ona ağır geliyor. Ama bu, sakladığı şeyin ne olduğunu söylemiyor. Bu bilgi seni gerçeğe yaklaştırmaz — sadece ona acıtır.",
       "gorsel": {
         "dosya": "portre_vedat.jpg",
         "tur": "portre",
@@ -229,7 +232,25 @@
       "id": "yalan_kur",
       "gate": "yok",
       "etiket": "Rahatlatıcı bir yalan kur",
-      "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Cengo bunu fark eder. Ücreti eksiksiz öder, üstüne teşekkür eder; yalan sana fazladan tek kuruş getirmedi.",
+      "sonuc": "'Tertemiz, hiçbir şey yok.' Nesrin huzur bulur — ama sen ilk kez bir müşteriye düpedüz yalan söyledin. Ücreti eksiksiz öder, üstüne teşekkür eder; yalan sana fazladan tek kuruş getirmedi.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo fark etti. \"Sen böyle biri değildin abla\" demedi — demediği duyuldu."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo bunu fark eder; akşam boyunca konusunu açmadı."
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo fark etti, bir şey demedi. Zaten sormuyor artık."
+        }
+      ],
       "cengoBag": -1,
       "seed_yaz": {
         "v2_karar": "yalan"
@@ -241,7 +262,25 @@
       "id": "kuru_rapor",
       "gate": "yok",
       "etiket": "Parayı al, karışma, kuru rapor ver",
-      "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk — Cengo ilk kez 'biz insanla mı uğraşıyoruz kağıtla mı' diye sorar. Nesrin ücretin tamamını öder; pazarlık da etmez, teşekkür de.",
+      "sonuc": "İşini yaptın, mesafeni korudun. Profesyonel ama soğuk. Nesrin ücretin tamamını öder; pazarlık da etmez, teşekkür de.",
+      "cengo_sonuc": [
+        {
+          "kosul": {
+            "cengoBag_en_az": 3
+          },
+          "metin": "Cengo dosyaya baktı, sonra sana. \"Kadına ne diyeceğiz?\" Cevabı zaten biliyordu; yine de sordu."
+        },
+        {
+          "kosul": {
+            "cengoBag_en_az": -1
+          },
+          "metin": "Cengo ilk kez sordu: \"Biz insanla mı uğraşıyoruz kâğıtla mı?\""
+        },
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo dosyayı aldı, arşive koydu. Soru sormadı."
+        }
+      ],
       "cengoBag": -1,
       "seed_yaz": {
         "v2_karar": "kuru"
