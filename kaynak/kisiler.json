@@ -88,7 +88,7 @@
     },
     {
      "kosul": "cavit_azmettiren",
-     "tanim": "Cinayetin mimarı. Yıllar önce İlyas'ı kurtarmış, şimdi onu silah olarak kullanmış."
+     "tanim": "Yıllar önce İlyas'ı kurtarmış; o günden beri elinin altında. Kaya'nın ölümünün her düğümünde de o var."
     }
    ]
   },
@@ -250,14 +250,21 @@
    "ceydaya_git": "Ceyda'ya gittim. O kadını okumaya çalıştım — ama belki o beni okudu. Kim kimi kullanıyor, artık emin değilim.",
    "kazma": [
     {
+     "kosul": "tam_resim",
+     "metin": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Neyi örttüğümü de kimin için örttüğümü de biliyordum. Bu sefer bilmemek mazeretim yoktu."
+    },
+    {
      "kosul": {
       "any": [
        "cinayet_suphesi",
        "iten_ilyas",
-       "zincir_tam",
        "el_var"
       ]
      },
+     "metin": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Bir cinayetin üstünü örttüğümü biliyordum. Kimin hesabına olduğunu sormadım — sormamayı seçtim."
+    },
+    {
+     "kosul": "zincir_tam",
      "metin": "Kazmadım. Cavit'in dediğini yaptım. Para geldi. Sonradan öğrendim ne yaptığımı — bir cinayetin aletiydim, farkında bile değildim."
     },
     {
