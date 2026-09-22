@@ -47,6 +47,14 @@ Test değil, araç.
 her başlığı, o çıkarıma ulaşan oyuncunun *kesinlikle* bildiği olguların yanına basar;
 fazla söyleyeni gözle ararsın. Künye aracının kardeşi, aynı sebeple insana bırakıldı.
 
+**Karar metni / cengoBag / para değiştirdikten sonra** `cd kaynak && node arac_akis_denetim.js`
+— 40 kararın her birinin bütün yüzeylerini (sonuç, Cengo satırı, anı defteri, para, bağ,
+ruh hâli, ruh görseli) tek ekranda yan yana basar. Çelişkiler tek dosyanın içinde değil,
+anlamla bağlı ama kodla bağlı olmayan yüzeyler ARASINDA duruyor — "Cengo'nun yüzü asık"
+notu bağı +2 yükselten bir kararda öyle oturmuştu. `--bayrak` yalnız şüpheli kararları
+basar; bayraklar ADAY listesidir, hata listesi değil. Künye ve tahta araçlarının kardeşi,
+test değil.
+
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
 kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
