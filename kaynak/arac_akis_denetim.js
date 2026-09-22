@@ -111,6 +111,27 @@ function bayraklar(d, sonucV, cengoV, defterV) {
       if (ca.length > 25 && kucuk(b.metin).includes(kucuk(ca)))
         f.push(`aynı cümle hem Cengo satırında hem anı defterinde: "${ca.slice(0, 45)}…"`);
 
+  // 4b) Cengo EKRANDA susuyor ama anı defteri onu konuşturuyor.
+  //     Geçen turda kaçırıldı ve taze göz buldu: V2/kuru_rapor'un varsayılan
+  //     Cengo satırı "Soru sormadı" diyor, anı defteri ise KOŞULSUZ olarak
+  //     "Cengo 'biz insanlarla mı uğraşıyoruz' dedi" diyor. Düşük bağdaki
+  //     oyuncu ekranda sessizlik görüp deftere replik yazıyor.
+  //     Tekrar denetimi (4) bunu yakalayamadı: iki cümle birebir aynı değil
+  //     ("insanla"/"insanlarla"), üstelik sorun tekrar değil ÇELİŞKİ.
+  const SUSUYOR = ["soru sormadı", "bir şey demedi", "tek kelime etmedi",
+                   "konusunu açmadı", "sormuyor artık", "sessiz kaldı"];
+  const KONUSUYOR = /cengo[^.!?]{0,60}\b(dedi|sordu|ekledi|fısıldadı|söyledi)\b/i;
+  const susanVaryant = cengoV.find((x) => gecer(x.metin, SUSUYOR).length);
+  if (susanVaryant)
+    for (const x of defterV) {
+      // Defter varyantı Cengo'nun sessiz olduğu duruma da basılıyorsa çelişir.
+      // Koşulsuz ya da 'varsayilan' varyant her durumda basılır.
+      const herZaman = !x.kosul || x.kosul === "varsayilan";
+      if (herZaman && KONUSUYOR.test(kucuk(x.metin)))
+        f.push(`Cengo satırının bir varyantı susuyor ("${gecer(susanVaryant.metin, SUSUYOR)[0]}")` +
+               ` ama anı defteri onu her durumda konuşturuyor`);
+    }
+
   // 5) Sarkan tire — cümle silinince kalıyor, otomatik kontrol geçen sefer kaçırdı.
   for (const v of [...anlati, ...cengoV]) {
     if (/—\s*$/.test(v.metin.trim())) f.push("metin tire ile bitiyor");
