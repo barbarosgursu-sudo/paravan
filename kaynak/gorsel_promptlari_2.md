@@ -1119,3 +1119,83 @@ dört durumun tarayıcıda gerçekten doğru görseli yüklediğinin doğrulanma
 | Gömülü görsel | **63** |
 | Veride/tabloda tanımlı slot | **63** |
 | Paket 5 (krizler + final) — hâlâ açılmadı | 4 |
+
+---
+
+# PAKET 8 — `cengo_yoldas` YENİDEN ÜRETİMİ (1 görsel, 22 Eylül 2026)
+
+**Yeni slot değil, yerine geçer. Sayım 63'te kalır.** PAKET 6'daki iki yeniden
+üretimle aynı cinsten iş.
+
+## Neden
+
+Yoldaş kademesi bağ **−1 … +2** aralığını kaplıyor, yani oyunun çoğu orada geçiyor:
+varsayılan hâl. Mevcut kare ikisinin **gülümseyerek** bakışmasını gösteriyor.
+İki sonucu var:
+
+1. **Merdivenin tabanı fazla yüksek.** Taban gülümsüyorsa `cengo_yakin` ve
+   `cengo_bagli`'nın gidecek yeri kalmıyor; daha sıcak olmanın tek yolu romantiğe
+   kaymak, o da sette açıkça yasak.
+2. **Soğuk kararlarla çelişiyor.** `kuru_rapor` bağı 0 → −1'e düşürür, hâlâ Yoldaş'tır;
+   Cengo satırı *"dosyayı aldı, arşive koydu, soru sormadı"* derken kare gülümsüyor.
+
+Metin taraması bunu yakalamaz — çelişki kelimede değil tonda. Sahibi gözle buldu.
+
+## Değişen TEK eksen: gülümseme
+
+**Göz teması KALIR.** PAKET 7'nin ilk turu tam ters yönden ısırmıştı: "birbirlerine
+bakmasınlar" yazılınca dört kare de küs çıktı. Ders kayıtlı — *bakıp söylememek
+çekingenlik, bakmamak küslüktür.* Bu siparişte göz teması korunur, yalnızca ağız
+nötrleşir. Tek eksen; yoksa üç turda kazanılan yer geri verilir.
+
+| | bakış | ağız |
+|---|---|---|
+| Mesafeli | yok | — |
+| **Yoldaş** | **göz göze, rahat** | **gülümseme yok** ← değişen |
+| Yakın | göz göze, tutulmuş | yumuşak |
+| Bağlı | Peri ona bakıyor | — |
+
+Motifler PAKET 7 tablosundan aynen korunur: trençkot askıda, iki yarım bardak,
+dosya kapalı ve ortada, mesafe masa başı.
+
+## SİPARİŞ METNİ
+
+> *[Önce STİL ÇEKİRDEĞİ verilir — `gorsel_promptlari.md` §⭐. Tamamı: foto-gerçekçi
+> sinematik İstanbul Noir; kurşuni gri + gece laciverti, saf siyah yok; en fazla %20
+> sıcak leke; yandan sert ışık, sahnenin yarısı gölgede, tek ışık kaynağı; sinematik
+> renk derecelendirmesi, hafif film greni; **dikey (portre yönlü) kompozisyon**, dört
+> köşesi karanlığa düşen kadraj; **hiçbir yazı, harf ya da rakam yok**. Portre notu
+> geçerli — yüzler ve ifadeler okunur kalsın.]*
+>
+> **Mekân (kanon — çıpa `karar_temiz.jpg`, ayrı büro çıpası üretilmez):** Paravan
+> dedektiflik bürosu. Uzun pencere, arkada Haliç, geniş ahşap masa, tek lamba.
+>
+> **Sahne:** Gece, masa başı. Cengo ayakta, masaya bir kâğıt bırakıyor. Peri oturuyor,
+> başını kaldırmış ona bakıyor. **İkisi göz göze** — bakışlar kaçmıyor, bu kare göz
+> temasını taşır. **Ama ikisi de gülümsemiyor:** ağızlar gevşek ve nötr. İşin ortasındaki
+> iki insan; yorgun, birbirine alışkın, rahat — ama sıcak değil.
+>
+> **Yön (geometriyle yazılır):** Cengo'nun burnu kadrajın soluna baksın, kulağı sağında
+> kalsın. Peri'nin başı ona dönük, yüzünü dörtte üç açıdan görüyoruz.
+>
+> **Kadrajdaki nesneler — tam liste, bunlardan başka nesne yok:** askıda asılı bir
+> trençkot; masada iki çay bardağı, ikisi de yarım; masanın ortasında **kapalı** bir
+> dosya, kapağı düz ve yüzeyi boş; tek masa lambası; Cengo'nun elindeki kâğıt **ters
+> çevrilmiş, yazılı yüzü görünmüyor**. Duvarda tablo, gravür, takvim, afiş, levha yok.
+
+Sipariş dört kayıtlı tuzağa karşı yazıldı: nesneler **tek tek sayıldı** (yaldızlı defter
+dersi), yön **burun–kulak geometrisiyle** verildi, yasak **tek satıra** indirilip yerine
+tek net olumlu sahne kondu (üreticinin en güvenli yere kaçması dersi), ve stil çekirdeği
+**eksiksiz** yazıldı (dikey kompozisyon dersi).
+
+## Teslim alınca yapılacaklar
+
+1. Parlaklık karşılaştırması — mevcut set ortalaması 27.5; eskisi luma **26.1**,
+   yenisi aynı civarda olmalı (Mesafeli 24.2 ile Yakın 20.3 arasında kalsın).
+2. Büyütülmüş harf/rakam taraması — dosya kapağı, kâğıt yüzü, duvar.
+3. `karar_temiz` ile oda sürekliliği + kimlik tutarlılığı.
+4. 900 px genişliğe indir, WebP q80, `_gomulu_gorseller.js`'e göm — **anahtar
+   uzantısız** (`cengo_yoldas`), eski base64'ün yerine.
+5. `node dogrulayici.js && node build_html.js` — derlemede **"✓ görsel: 63 atıfın
+   hepsi gömülü"** satırı görülmeli; sayı 63'te kalmalı, 64 olursa slot yanlış açılmış.
+6. `for t in test_*.js; do node $t; done` + `node arac_ui_tur.js`.
