@@ -116,7 +116,14 @@ function vakaYaz(v) {
     // ikisi bedavaysa oyuncu gerçekte 5'ine ulaşabiliyordur.
     const bedava = c.bedelsiz ? "  ✦ BEDELSİZ (hak harcamaz)"
                  : c.bedelsiz_kosul ? `  ✦ bedelsiz koşullu: ${ifadeYaz(c.bedelsiz_kosul)}` : "";
-    p(`\n   ▸ ${c.ad}   [${c.id}]   tür: ${c.tur}${bedava}`);
+    // İpucunun ADI da koşullu varyant olabiliyor (motor.js onu da metinSec'ten
+    // geçiriyor). Düz dizgi varsayılırsa başlık [object Object] basıyordu —
+    // text ve meta için düzeltilmişti, ad atlanmıştı.
+    const adlar = varyantlar(c.ad);
+    const adYaz = adlar.length > 1
+      ? adlar.map((x) => `${x.metin}  [${x.kosul === "varsayilan" ? "varsayılan" : ifadeYaz(x.kosul)}]`).join("\n     / ")
+      : (adlar[0]?.metin ?? c.id);
+    p(`\n   ▸ ${adYaz}   [${c.id}]   tür: ${c.tur}${bedava}`);
     p(`     açılması için: ${(c.needs || []).length ? ifadeYaz(c.needs) : "koşulsuz"}`);
     p(`     açtığı olgular: ${(c.reveals || []).join(", ") || "—"}`);
     for (const x of varyantlar(c.text)) {
