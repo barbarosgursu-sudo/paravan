@@ -55,6 +55,15 @@ notu bağı +2 yükselten bir kararda öyle oturmuştu. `--bayrak` yalnız şüp
 basar; bayraklar ADAY listesidir, hata listesi değil. Künye ve tahta araçlarının kardeşi,
 test değil.
 
+**Bir vakayı baştan sona okumak için** `cd kaynak && node arac_okuma.js V1` — vakanın
+bütün metnini oyuncunun karşılaştığı sırayla düz okunur hâlde basar: yazarın gerçeği,
+giriş, ipuçları (bedelsiz olanlar işaretli), açılan olgular, çıkarımlar, kararların
+bütün yüzeyleri, tohumlar. `--hepsi` dokuz vakayı birden verir (~2300 satır).
+Oyunu oynayarak denetleyemezsin — hiçbir oyun bütün yolları birden gezmez; araştırma
+hakkı ipuçlarını, kapılar kararları, koşullu varyantlar metni daraltır. Bu araç o
+daralmayı kaldırır. `arac_akis_denetim.js`'in kardeşi: o dar ve derin (kararların
+yüzeyleri yan yana), bu geniş ve sığ (vakanın tamamı akış sırasıyla).
+
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
 kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
