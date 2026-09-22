@@ -676,10 +676,10 @@
         "cavit_ilyas_bag": "GİZLİ — V5/V6"
       },
       "facts": {
-        "tanik_korktu": "Tanık kadın polise korkudan susmuş; ama bize anlatıyor.",
-        "tarif_yara": "Tanık: o gece binadan çıkan adamın yüzünde yara vardı.",
-        "tarif_topal": "Tanık: adam aksak yürüyordu, topallıyordu.",
-        "itis_kesin": "Tanık: o adam düşmedi — Kaya itildi; ben gördüm.",
+        "tanik_korktu": "Cavit, tanığın kimseyi teşhis edemeyeceğinden emin — kadını kendisi dinlemeden.",
+        "tarif_yara": "Tanık: iten adamın yüzünde yara vardı.",
+        "tarif_topal": "Tanık: o adam aksak yürüyordu, topallıyordu.",
+        "itis_kesin": "Tanık: Kaya kendi düşmedi — bir adam onu itti, ben gördüm.",
         "ilyas_isim": "Tarif bir isme bağlandı: İlyas — Cengo'nun tanıdığı o tahsildar.",
         "foto_teshis": "Çekilen fotoğrafı tanık onayladı: 'Evet, o.'",
         "ilyas_sebep_yok": "İlyas'ın Kaya'ya husumeti/sebebi yok; o mahallede alacağı da yok. Ama o akşam tam saatinde oradaydı.",
@@ -731,12 +731,12 @@
               }
             ]
           },
-          "metin": "Cavit yine geldi — bu kez biraz daha mesafeli. Kaza raporunu başka bir uzmana imzalatmış, dosya kapanmış, sigorta neredeyse ödeyecek. Ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye sustur istiyor. Peri merak ediyor: madem önemsiz, madem başkası imzaladı, Cavit neden hâlâ bu kadar tedirgin?",
+          "metin": "Cavit yine geldi — bu kez biraz daha mesafeli. Kaza raporunu başka bir uzmana imzalatmış, dosya kapanmış, sigorta neredeyse ödeyecek. Ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye susturmanı istiyor. Peri merak ediyor: madem önemsiz, madem başkası imzaladı, Cavit neden hâlâ bu kadar tedirgin?",
           "acilan": []
         },
         {
           "kosul": "varsayilan",
-          "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye sustur istiyor. Ama Peri merak ediyor: madem önemsiz, Cavit neden bu kadar tedirgin?",
+          "metin": "Cavit yine geldi, gergin. Kaya'nın ölümünü kaza olarak kapatan dosya için sigorta neredeyse ödeyecek — ama mahalleden yaşlı bir kadın o gece 'birini gördüğünü' söyleyip durmuş. Cavit onu 'güvenilmez, bunak' diye susturmanı istiyor. Ama Peri merak ediyor: madem önemsiz, Cavit neden bu kadar tedirgin?",
           "acilan": []
         }
       ],
@@ -752,7 +752,7 @@
             "tanik_korktu"
           ],
           "text": "Cavit: 'Yaşlı, kafası karışık bir kadın. Sigortaya gitmeden şu dedikoduyu susturun. Zaten belli belirsiz bir karaltı görmüş, kimseyi tanımıyor.'",
-          "meta": "Cavit rahat — tanığın bir isme ulaşamayacağını sanıyor. Oysa kadın korkudan polise susmuş, size değil.",
+          "meta": "Cavit tanığın bir isme ulaşamayacağından emin. Emin olmak için kadını dinlemiş olması gerekirdi.",
           "gorsel": {
             "dosya": "portre_cavit.jpg",
             "tur": "portre",
@@ -772,7 +772,7 @@
             "mahalle_fisilti"
           ],
           "text": "Cengo sokağı kendi yöntemiyle yokladı. Kimse açıkça konuşmuyor ama bir korku var: o gece bir şey olmuş, ve bir kadın gördüğünü söyleyip sonra susmuş.",
-          "meta": "Cavit'in 'sustur' dediği tanık gerçekten bir şey görmüş. Ona ulaşmanın yolu Cavit değil, mahalle.",
+          "meta": "Cavit'in 'sustur' dediği kadın, mahallede de aynı geceden söz etmiş. Ona ulaşmanın yolu Cavit değil, mahalle.",
           "gorsel": {
             "dosya": "v3_mahalle.jpg",
             "tur": "mekan",
@@ -800,7 +800,7 @@
             "tarif_topal",
             "itis_kesin"
           ],
-          "text": "Kadın titredi: 'Polise korktum, söyleyemedim. Ama gördüm. O gece binadan bir adam çıktı — yüzünde yara vardı, ve aksak yürüyordu. O düşmedi; itildi. Eminim.'",
+          "text": "Kadın titredi: 'Polise korktum, söyleyemedim. Ama gördüm. Merdivende bir adam onu itti; sonra aynı adam binadan çıktı — yüzünde yara vardı, aksak yürüyordu. Kendi düşmedi. Eminim.'",
           "meta": "İki işaret: yara + topallama. Ve 'itildi' — kaza değil.",
           "gorsel": {
             "dosya": "portre_tanik.jpg",
@@ -855,7 +855,7 @@
           "reveals": [
             "foto_teshis"
           ],
-          "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. O gece çıkan adam buydu.'",
+          "text": "Fotoğrafı kadına gösterdiler. Eli ağzına gitti: 'Evet. Bu o. Onu iten adam buydu.'",
           "meta": [
             {
               "kosul": "ilyas_tahsildar",
@@ -925,7 +925,7 @@
           "id": "koz_yap",
           "gate": "iten_ilyas",
           "etiket": "Kendine sakla, koz yap",
-          "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol. Ortada rapor yok, sadece bir görüntü; Cavit ücretin bir kısmını tutar.",
+          "sonuc": "Kimseye söylemedin. Cavit'e 'tanık susturuldu' görüntüsü verdin, ama elinde İlyas'ı bağlayan gerçek kaldı. En tehlikeli, en güçlü yol. Ortada rapor yok, sadece verdiğin görüntü; Cavit ücretin bir kısmını tutar.",
           "cengoBag": 1,
           "seed_yaz": {
             "ilyas_kime_gitti": "koz"
@@ -939,8 +939,8 @@
           "etiket": "İlyas'ı Cavit'e teslim et",
           "sonuc": [
             {
-              "kosul": "zincir_tam",
-              "metin": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama katili doğrudan onu kullanan adamın kucağına attın. Rapor yazılmadı ama Cavit aldığı şeye daha çok değer veriyor; ücretin çoğunu öder."
+              "kosul": "el_var",
+              "metin": "'Tanığın gördüğü adamı buldum' dedin, Cavit'e havale ettin. Güvenini kazandın, para geldi — ama o adamı kimin süreceğini sezmiştin, ve yine de verdin. Rapor yazılmadı ama Cavit aldığı şeye daha çok değer veriyor; ücretin çoğunu öder."
             },
             {
               "kosul": "varsayilan",
