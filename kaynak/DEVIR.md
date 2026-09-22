@@ -11,7 +11,7 @@
 
 ## 1. NEREDE DURUYORUZ
 
-Son commit **`29dcd4e`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
+Son commit **`8725789`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
 
 | | |
 |---|---|
@@ -61,9 +61,9 @@ eklerken aynısını yap; yakalayamayan test işe yaramaz.
 
 ---
 
-## 3. SAHİBİNİN CEVAP BEKLEDİĞİ İKİ SORU ⬅️ BURADAN DEVAM ET
+## 3. SAHİBİNİN CEVAP BEKLEDİĞİ İKİ SORU — ✅ İKİSİ DE KAPANDI (22 Eylül)
 
-Son mesajda soruldu, cevap gelmedi. **İlk iş bunlar.**
+Geçmiş kayıt olarak duruyor; ikisi de cevaplandı ve uygulandı. **Sıradaki iş §4'te: SES.**
 
 ### 3.1 · `V1/reddet` anı notu görselle çelişiyor — ✅ KAPANDI (`29dcd4e`)
 
@@ -98,7 +98,7 @@ Asıl mesele görsel değildi: `reddet` bağı **+2** yükselten karardır, yani
 **mekanikle** çelişiyordu; ikili kareler onu yalnızca görünür kıldı. Sahibi sözcüğü
 beğenmezse tek satırlık geri alma — `kisiler.json` satır 203.
 
-### 3.2 · Yoldaş karesi "nötr varsayılan" için fazla sıcak olabilir
+### 3.2 · Yoldaş karesi "nötr varsayılan" için fazla sıcak — ✅ KAPANDI (takasla)
 
 Bağımsız bir gözlem, çelişki taraması sırasında fark edildi. Yoldaş kademesi bağ −1 ile
 +2 arasını kaplıyor — **oyunun çoğu orada geçiyor**. O kare ikisinin gülümseyerek
@@ -108,9 +108,14 @@ soru sormadı"* diyorken.
 
 Metin taraması bunu yakalamaz — çelişki kelimede değil **tonda**.
 
-Çözüm istenirse: `cengo_yoldas` nötr bir anla yeniden üretilir (gülümseme yok, birlikte
-çalışan iki insan). O zaman merdiven düzgün yükselir: **nötr → bakışma → sessizlik**.
-Sipariş kalıbı `gorsel_promptlari_2.md` PAKET 7'de, çıpalar `referans/`'ta hazır.
+**Çözüm yeniden üretim değil, takas çıktı.** Dört kare gömülü base64'ten çıkarılıp yan
+yana konunca görüldü ki `cengo_yoldas` ile `cengo_yakin`'in sıcaklığı **ters**: Yoldaş'ta
+duran kare setin en sıcağı (ikisi gülümsüyor), Yakın'da duran ise sessiz ve gülümsemesiz.
+`build_html.js` → `CENGO_GORSEL`'de ikisi takas edildi; **üretim yok, sayım 63'te kaldı.**
+
+Merdiven artık tek yönde yükseliyor: sırtı dönük → sessiz bakışma → gülümseme → uyuyakalma.
+Dosya adları kademe adlarıyla bilerek eşleşmiyor — tablonun üstündeki yorum bunu söylüyor,
+geri çevirme. Ayrıntı ve çıkan dersler: `gorsel_promptlari_2.md` PAKET 8.
 
 ---
 

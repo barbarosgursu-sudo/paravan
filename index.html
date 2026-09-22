@@ -1689,11 +1689,21 @@ function hesapKutusu(e){
    arayüz/motor ayrışması bu depoda sessizdir, test_cengo_gorsel.js ikisini eşliyor.
    Sahibinin tespiti (20 Eylül 2026): ilişki her kararda ÖLÇÜLÜYOR ama hiçbir yerde
    OYNANMIYORDU; oyuncu göstergenin dolduğunu görüyor, Cengo'nun değiştiğini
-   görmüyordu. Bu tablo o boşluğun görsel yanıtı. */
+   görmüyordu. Bu tablo o boşluğun görsel yanıtı.
+
+   DOSYA ADLARI KADEME ADLARIYLA EŞLEŞMEZ — bilerek. 22 Eylül 2026'da dört kare
+   yan yana konunca cengo_yoldas ile cengo_yakin'in SICAKLIĞININ TERS olduğu
+   görüldü: cengo_yoldas ikisinin gülümsediği en sıcak kare, cengo_yakin ise
+   sessiz ve gülümsemesiz (dosyanın kendi alt metni de "kimse konuşmuyor" diyordu).
+   Yoldaş kademesi bağ -1..+2 aralığını, yani oyunun çoğunu kaplar; taban gülümserse
+   üstündeki iki kademenin gidecek yeri kalmaz ve soğuk kararlar gülümseyen kareyle
+   çıkar. Kareler burada takas edildi; dosyalar yeniden üretilmedi, sayım 63'te kaldı.
+   Merdiven artık tek yönde yükseliyor: sırtı dönük -> sessiz bakışma -> gülümseme ->
+   uyuyakalma. Dosya adını kademeye uydurmak için buradaki eşleşmeyi geri çevirme. */
 const CENGO_GORSEL = {
   "Mesafeli": { dosya: 'cengo_mesafeli.jpg', alt: 'Cengo paltosuyla kapıya yakın, Peri masada; aralarında odanın boyu' },
-  "Yoldaş":   { dosya: 'cengo_yoldas.jpg',   alt: 'Cengo masanın köşesinde, ikisi bakışıyor' },
-  "Yakın":    { dosya: 'cengo_yakin.jpg',    alt: 'İkisi karşılıklı oturmuş, bakışıyor, kimse konuşmuyor' },
+  "Yoldaş":   { dosya: 'cengo_yakin.jpg',    alt: 'İkisi karşılıklı oturmuş, bakışıyor, kimse konuşmuyor' },
+  "Yakın":    { dosya: 'cengo_yoldas.jpg',   alt: 'Cengo masanın köşesinde, ikisi bakışıyor' },
   "Bağlı":    { dosya: 'cengo_bagli.jpg',    alt: 'Cengo uyuyakalmış, üstünde palto; Peri ona bakıyor' },
 };
 

@@ -1122,80 +1122,65 @@ dört durumun tarayıcıda gerçekten doğru görseli yüklediğinin doğrulanma
 
 ---
 
-# PAKET 8 — `cengo_yoldas` YENİDEN ÜRETİMİ (1 görsel, 22 Eylül 2026)
+# PAKET 8 — `cengo_yoldas` / `cengo_yakin` TAKASI (0 görsel, 22 Eylül 2026)
 
-**Yeni slot değil, yerine geçer. Sayım 63'te kalır.** PAKET 6'daki iki yeniden
-üretimle aynı cinsten iş.
+**Sipariş verilmedi, üretim yapılmadı, sayım 63'te kaldı.** Bu bölüm bir siparişle
+başladı ve bir takasla bitti; kalış sebebi ders.
 
-## Neden
+## Sahibinin tespiti
 
-Yoldaş kademesi bağ **−1 … +2** aralığını kaplıyor, yani oyunun çoğu orada geçiyor:
-varsayılan hâl. Mevcut kare ikisinin **gülümseyerek** bakışmasını gösteriyor.
-İki sonucu var:
+Yoldaş kademesi bağ **−1 … +2** aralığını kaplıyor — oyunun çoğu orada geçiyor,
+yani varsayılan hâl. Kare ikisinin gülümseyerek bakışmasını gösteriyordu. Soğuk bir
+karardan sonra bile (`kuru_rapor`, bağ 0 → −1, hâlâ Yoldaş) gülümseyen kare çıkıyordu;
+üstelik Cengo satırı *"dosyayı aldı, arşive koydu, soru sormadı"* derken.
 
-1. **Merdivenin tabanı fazla yüksek.** Taban gülümsüyorsa `cengo_yakin` ve
-   `cengo_bagli`'nın gidecek yeri kalmıyor; daha sıcak olmanın tek yolu romantiğe
-   kaymak, o da sette açıkça yasak.
-2. **Soğuk kararlarla çelişiyor.** `kuru_rapor` bağı 0 → −1'e düşürür, hâlâ Yoldaş'tır;
-   Cengo satırı *"dosyayı aldı, arşive koydu, soru sormadı"* derken kare gülümsüyor.
+Metin taraması bunu yakalamaz — çelişki kelimede değil tonda.
 
-Metin taraması bunu yakalamaz — çelişki kelimede değil tonda. Sahibi gözle buldu.
+## İlk teşhis yanlıştı: "Yoldaş'ı nötr olarak yeniden üret"
 
-## Değişen TEK eksen: gülümseme
+Yazılan sipariş `cengo_yoldas`'ı gülümsemesiz yeniden üretmekti. Sahibi sordu:
+*"referans resim vermemiz lazım, ayrıca promptu önceki promptları örnek alarak
+yazmalıyız."* Haklıydı ve sipariş iki yerden kırıktı — ama asıl kırık üçüncüsüydü:
 
-**Göz teması KALIR.** PAKET 7'nin ilk turu tam ters yönden ısırmıştı: "birbirlerine
-bakmasınlar" yazılınca dört kare de küs çıktı. Ders kayıtlı — *bakıp söylememek
-çekingenlik, bakmamak küslüktür.* Bu siparişte göz teması korunur, yalnızca ağız
-nötrleşir. Tek eksen; yoksa üç turda kazanılan yer geri verilir.
+**Sipariş, mevcut dört kareye bakılmadan yazılmıştı.** Dördü gömülü base64'ten
+çıkarılıp yan yana konunca görüldü ki kademeler değil, **kareler tersti**:
 
-| | bakış | ağız |
+| kademe | bağ | gerçekte olan kare |
 |---|---|---|
-| Mesafeli | yok | — |
-| **Yoldaş** | **göz göze, rahat** | **gülümseme yok** ← değişen |
-| Yakın | göz göze, tutulmuş | yumuşak |
-| Bağlı | Peri ona bakıyor | — |
+| Mesafeli | ≤ −2 | Cengo sırtı dönük, Peri dosyaya bakıyor ✓ |
+| **Yoldaş** | −1 … +2 | masanın köşesine ilişmiş, **ikisi gülümsüyor** ← setin en sıcak karesi |
+| **Yakın** | +3 … +5 | karşılıklı oturmuş, bakışıyor, **gülümseme yok** |
+| Bağlı | ≥ +6 | Cengo uyuyakalmış, üstünde palto; Peri bakıyor ✓ |
 
-Motifler PAKET 7 tablosundan aynen korunur: trençkot askıda, iki yarım bardak,
-dosya kapalı ve ortada, mesafe masa başı.
+`CENGO_GORSEL`'in kendi alt metni de söylüyordu: Yakın için *"kimse konuşmuyor"*.
 
-## SİPARİŞ METNİ
+Yani sorun "Yoldaş fazla sıcak" değil, **Yoldaş ile Yakın'ın sıcaklık sırası ters**.
+Üretilecek yeni kare zaten setin içindeydi.
 
-> *[Önce STİL ÇEKİRDEĞİ verilir — `gorsel_promptlari.md` §⭐. Tamamı: foto-gerçekçi
-> sinematik İstanbul Noir; kurşuni gri + gece laciverti, saf siyah yok; en fazla %20
-> sıcak leke; yandan sert ışık, sahnenin yarısı gölgede, tek ışık kaynağı; sinematik
-> renk derecelendirmesi, hafif film greni; **dikey (portre yönlü) kompozisyon**, dört
-> köşesi karanlığa düşen kadraj; **hiçbir yazı, harf ya da rakam yok**. Portre notu
-> geçerli — yüzler ve ifadeler okunur kalsın.]*
->
-> **Mekân (kanon — çıpa `karar_temiz.jpg`, ayrı büro çıpası üretilmez):** Paravan
-> dedektiflik bürosu. Uzun pencere, arkada Haliç, geniş ahşap masa, tek lamba.
->
-> **Sahne:** Gece, masa başı. Cengo ayakta, masaya bir kâğıt bırakıyor. Peri oturuyor,
-> başını kaldırmış ona bakıyor. **İkisi göz göze** — bakışlar kaçmıyor, bu kare göz
-> temasını taşır. **Ama ikisi de gülümsemiyor:** ağızlar gevşek ve nötr. İşin ortasındaki
-> iki insan; yorgun, birbirine alışkın, rahat — ama sıcak değil.
->
-> **Yön (geometriyle yazılır):** Cengo'nun burnu kadrajın soluna baksın, kulağı sağında
-> kalsın. Peri'nin başı ona dönük, yüzünü dörtte üç açıdan görüyoruz.
->
-> **Kadrajdaki nesneler — tam liste, bunlardan başka nesne yok:** askıda asılı bir
-> trençkot; masada iki çay bardağı, ikisi de yarım; masanın ortasında **kapalı** bir
-> dosya, kapağı düz ve yüzeyi boş; tek masa lambası; Cengo'nun elindeki kâğıt **ters
-> çevrilmiş, yazılı yüzü görünmüyor**. Duvarda tablo, gravür, takvim, afiş, levha yok.
+## Yapılan
 
-Sipariş dört kayıtlı tuzağa karşı yazıldı: nesneler **tek tek sayıldı** (yaldızlı defter
-dersi), yön **burun–kulak geometrisiyle** verildi, yasak **tek satıra** indirilip yerine
-tek net olumlu sahne kondu (üreticinin en güvenli yere kaçması dersi), ve stil çekirdeği
-**eksiksiz** yazıldı (dikey kompozisyon dersi).
+`build_html.js` → `CENGO_GORSEL` içinde iki satırın `dosya` ve `alt` alanları takas
+edildi. Dosya adları artık kademe adlarıyla eşleşmiyor ve **bu bilerek böyle**;
+tablonun üstündeki yorum bunu söylüyor, geri çevirme.
 
-## Teslim alınca yapılacaklar
+Merdiven tek yönde yükseliyor: **sırtı dönük → sessiz bakışma → gülümseme → uyuyakalma.**
 
-1. Parlaklık karşılaştırması — mevcut set ortalaması 27.5; eskisi luma **26.1**,
-   yenisi aynı civarda olmalı (Mesafeli 24.2 ile Yakın 20.3 arasında kalsın).
-2. Büyütülmüş harf/rakam taraması — dosya kapağı, kâğıt yüzü, duvar.
-3. `karar_temiz` ile oda sürekliliği + kimlik tutarlılığı.
-4. 900 px genişliğe indir, WebP q80, `_gomulu_gorseller.js`'e göm — **anahtar
-   uzantısız** (`cengo_yoldas`), eski base64'ün yerine.
-5. `node dogrulayici.js && node build_html.js` — derlemede **"✓ görsel: 63 atıfın
-   hepsi gömülü"** satırı görülmeli; sayı 63'te kalmalı, 64 olursa slot yanlış açılmış.
-6. `for t in test_*.js; do node $t; done` + `node arac_ui_tur.js`.
+Doğrulama: `dogrulayici.js` PASS, `build_html.js` "63 atıfın hepsi gömülü",
+21/21 test, `arac_ui_tur.js` temiz, ve tarayıcıda `CENGO_GORSEL` canlı okunup
+varsayılan hâlin (bağ 0 → Yoldaş) gerçekten sessiz kareyi bastığı görüldü.
+
+## Bu paketin bıraktığı kalıcı kurallar
+
+- **Görsel siparişi yazmadan önce mevcut kareleri AÇ VE BAK.** Bu sipariş kademe
+  adlarına ve PAKET 7'nin motif tablosuna güvenerek yazıldı; ikisi de doğruydu ama
+  karelerin hangi dosyada durduğunu söylemiyordu. Bir üretim turu boşa gidecekti.
+  Gömülü görsel base64'ten çıkarılır, PNG'ye Chromium ile çevrilir (depoda PIL,
+  ImageMagick, cwebp yok; Playwright var).
+- **Dosya adı kademe adıyla eşleşiyor diye eşlemenin doğru olduğunu varsayma.**
+  `cengo_yoldas`, Yoldaş kademesinde duruyordu ve yanlıştı.
+- **Yeni görsel gerekmeden önce elindekileri yeniden sırala.** Bu bulgu bir üretim
+  turunu sıfıra indirdi.
+- **Şablon dizgisinin içindeki yoruma backtick yazma.** Takasın yorumu
+  `` `cengo_yoldas` `` diye yazıldı; `index.html` tek bir JS şablon dizgisi olduğu
+  için dizgiyi kapattı ve derleme `SyntaxError` ile durdu. Koruma çalıştı, ama
+  kayıtlı tuzağın yeni bir yüzü: kaçış karakteri değil, **backtick**.
