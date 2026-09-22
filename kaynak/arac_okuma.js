@@ -22,6 +22,7 @@
 const fs = require("fs");
 const g = JSON.parse(fs.readFileSync("game_data.json", "utf-8"));
 const k = JSON.parse(fs.readFileSync("kisiler.json", "utf-8"));
+const prolog = JSON.parse(fs.readFileSync("prolog.json", "utf-8")).prolog || [];
 const { kararRuhHali } = require("./motor.js");
 
 const EN = 78;
@@ -63,6 +64,22 @@ function vakaYaz(v) {
   const defterVaka = (k.defter || {})[v.id] || {};
   const cikti = [];
   const p = (s = "") => cikti.push(s);
+
+  // PROLOG ilk vakadan ÖNCE oynanır ve Peri'nin çaresizliğini orada kurar
+  // ("Kasada kalan son para bir ayı zor çıkarır"). V1 dökümünde yoktu ve bir
+  // inceleme "açılış merkezî gerilimi kurmuyor" diye rapor etti — vaka değil,
+  // araç eksikti. Sıranın başı prologdur, o yüzden burada basılır.
+  if (v.sira === 1) {
+    p("\n" + "═".repeat(EN));
+    p("PROLOG — bu vakadan ÖNCE oynanır");
+    p("═".repeat(EN));
+    for (const x of prolog) {
+      if (x.nasil_oynanir) p("\n   [nasıl oynanır ekranı]");
+      p(sar(x.metin, 3));
+      if (x.gorsel) p(`   görsel: ${x.gorsel.dosya}`);
+      p();
+    }
+  }
 
   p("\n" + "═".repeat(EN));
   p(`${v.id} · ${v.baslik}`);
