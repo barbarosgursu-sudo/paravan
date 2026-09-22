@@ -150,6 +150,19 @@ ASLA kelime olarak gösterilmez; yalnızca atmosfer görseli seçer.
   içinde yaşar, derleyicinin kapsamında değil. Çıktıda `dev-btn` aramak yanıltıcıdır
   (dizgi koşulun içinde her hâlükârda var). Tek geçerli kontrol tarayıcıda DOM.
   **Ses teşhisi paneli de bu bayrağın arkasında.**
+- **Kapıya boru sokma.** `node dogrulayici.js | tail -1 && node build_html.js` yazma:
+  `tail` çıkış kodunu yutar, doğrulayıcı BLOCKED derken bile derleme çalışır ve bozuk
+  veri `index.html`'e yazılır. Düşüldü — K1 bir Nurcan sızıntısını yakalayıp BLOCKED
+  verdi, boru yüzünden derleme yine de geçti. Çıktıyı kısaltman gerekiyorsa önce
+  dosyaya yaz, çıkış kodunu ayrı oku:
+  ```
+  node dogrulayici.js > /tmp/dog.txt 2>&1; echo $?; tail -1 /tmp/dog.txt
+  ```
+  Aynı tuzağın kardeşi: test döngüsünde `|| echo FAIL` yazıp sonunda koşulsuz
+  "hepsi geçti" basmak. Bayrak tut, sonunda bayrağa bak.
+- **Doğrulayıcı testlerin içinde de çalışıyor.** `test_v5.js` ve `test_v6.js`
+  doğrulayıcıyı çağırıp temiz geçmesini bekliyor; bir K1 hatası bu ikisini de
+  kırar. Üç kırık gördüğünde tek kök sebep arayabilirsin.
 - **Testlerde sabit sayı yazma.** Tekrar tekrar ısırdı: iddiayı rakamla değil
   *ilişkiyle* kur, yoksa veri değişince test yalan söyler.
 - **Arayüz/motor ayrışması** sessizdir. İki yerde duran her şey (KRIZLER/KRIZ_METIN,
