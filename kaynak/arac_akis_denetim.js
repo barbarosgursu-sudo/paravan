@@ -118,18 +118,36 @@ function bayraklar(d, sonucV, cengoV, defterV) {
   //     oyuncu ekranda sessizlik görüp deftere replik yazıyor.
   //     Tekrar denetimi (4) bunu yakalayamadı: iki cümle birebir aynı değil
   //     ("insanla"/"insanlarla"), üstelik sorun tekrar değil ÇELİŞKİ.
-  const SUSUYOR = ["soru sormadı", "bir şey demedi", "tek kelime etmedi",
-                   "konusunu açmadı", "sormuyor artık", "sessiz kaldı"];
-  const KONUSUYOR = /cengo[^.!?]{0,60}\b(dedi|sordu|ekledi|fısıldadı|söyledi)\b/i;
-  const susanVaryant = cengoV.find((x) => gecer(x.metin, SUSUYOR).length);
+  // Sessizlik listesi HARFİ OLMAMALI. İlk yazımda "bir şey demedi" gibi tam
+  // kalıplar arandı ve YAN-A/cengoya_birak kaçtı: orada satır
+  // '"Sen iyi birisin" demedi' diyor, defter ise aynı cümleyi Cengo'ya
+  // söyletiyor. Olumsuzlanmış konuşma FİİLİ yeter.
+  const SUSUYOR = ["soru sormadı", "sormuyor artık", "sessiz kaldı"];
+  const SUSMA_FIIL = /(^|[^a-zçğıöşü])(demedi|söylemedi|sormadı|etmedi|konuşmadı|açmadı)([^a-zçğıöşü]|$)/i;
+  // Cümle sınırına takılmamalı: YAN-A defterinde "…dedim Cengo'ya. Bana '…'
+  // dedi." yazıyor ve arada NOKTA var. Atıf cümle atlayabiliyor, o yüzden
+  // "Cengo geçiyor" ile "konuşma fiili geçiyor" ayrı ayrı aranır. Bayrak
+  // zaten ADAY listesi; fazladan aday, kaçan bulgudan iyidir.
+  // TÜRKÇE \b TUZAĞI: JS'in \w'si [A-Za-z0-9_], yani "ğ" harf SAYILMAZ ve
+  // /\bsordu\b/ "sorduğu" ile eşleşir. YAN-C/aylayi_uyar tam böyle yanlış
+  // alarm verdi. Sınırı Türkçe harf kümesiyle elle kur.
+  const TR = "a-zçğıöşü";
+  const KONUSMA_FIIL = new RegExp(
+    `(^|[^${TR}])(dedi|sordu|ekledi|fısıldadı|söyledi)([^${TR}]|$)`, "i");
+  const KONUSUYOR = (t) => kucuk(t).includes("cengo") && KONUSMA_FIIL.test(kucuk(t));
+  const susanVaryant = cengoV.find((x) =>
+    gecer(x.metin, SUSUYOR).length || SUSMA_FIIL.test(kucuk(x.metin)));
   if (susanVaryant)
     for (const x of defterV) {
       // Defter varyantı Cengo'nun sessiz olduğu duruma da basılıyorsa çelişir.
       // Koşulsuz ya da 'varsayilan' varyant her durumda basılır.
       const herZaman = !x.kosul || x.kosul === "varsayilan";
-      if (herZaman && KONUSUYOR.test(kucuk(x.metin)))
-        f.push(`Cengo satırının bir varyantı susuyor ("${gecer(susanVaryant.metin, SUSUYOR)[0]}")` +
-               ` ama anı defteri onu her durumda konuşturuyor`);
+      if (herZaman && KONUSUYOR(x.metin)) {
+        const iz = gecer(susanVaryant.metin, SUSUYOR)[0] ||
+                   (kucuk(susanVaryant.metin).match(SUSMA_FIIL) || [])[0];
+        f.push(`Cengo satırının bir varyantı susuyor ("${iz}") ` +
+               `ama anı defteri onu her durumda konuşturuyor`);
+      }
     }
 
   // 5) Sarkan tire — cümle silinince kalıyor, otomatik kontrol geçen sefer kaçırdı.
