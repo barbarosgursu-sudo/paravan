@@ -10,7 +10,7 @@
 
 ## 1. NEREDE DURUYORUZ
 
-Son commit **`7decd10`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
+Her şey **`main`**'de ve push edilmiş; çalışma ağacı temiz. Son commit'in hash'i burada TUTULMUYOR — kendine işaret eden bir hash `--amend`'de anında yanlışlanıyor (bu nota bir kez öyle yazıldı). `git log --oneline -5` doğrusunu söyler.
 
 | | |
 |---|---|
