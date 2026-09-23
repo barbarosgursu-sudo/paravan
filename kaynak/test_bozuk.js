@@ -41,3 +41,12 @@ let t7 = clone();
 t7.vakalar[0].clues.find(c => c.id === "komsu_ifadesi")
   .meta.find(v => v.kosul === "varsayilan").metin += " Sevil de oradaydı.";
 dogrula(t7);
+
+console.log("\n########## TEST 8: TANIMSIZ OLGU (K14) — tek harflik yazım hatası ##########");
+let t8 = clone();
+// Gerçek senaryo bu: adı yanlış yazmak. Motor olguyu bilinen kümesine ekler,
+// ekranda hiçbir şey görünmez, hata da çıkmaz — ona bağlı çıkarım hiç doğmaz.
+// 23 Eylül 2026'ya kadar bunu tutan hiçbir kural yoktu.
+let c8 = t8.vakalar[0].clues.find(c => c.id === "komsu_ifadesi");
+c8.reveals = c8.reveals.map(r => r === "komsu_ses" ? "komsu_sess" : r);
+dogrula(t8);

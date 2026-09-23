@@ -30,11 +30,11 @@ node dogrulayici.js && node build_html.js     # doğrulayıcı geçmezse derleme
 for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçmeli
 ```
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
-bir betiktir — altı senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
+bir betiktir — yedi senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
 Diğer 22 test geçmelidir.
 
-Doğrulayıcı **13 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
+Doğrulayıcı **14 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
 bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketleme durur;
 `uyarı` = tasarım kararı.

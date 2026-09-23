@@ -10,12 +10,12 @@
 
 ## 1. NEREDE DURUYORUZ
 
-Son commit **`de2ba90`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
+Son commit **`7decd10`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
 
 | | |
 |---|---|
-| Doğrulayıcı | **PASS (5 uyarı)** — 13 kural |
-| Test | **23/23** (+ `test_bozuk.js`, çıkış 0, gösteri betiği) |
+| Doğrulayıcı | **PASS (5 uyarı)** — 14 kural |
+| Test | **22/22** (+ `test_bozuk.js`, çıkış 0, gösteri betiği) |
 | Görsel | **63/63** gömülü |
 | Tarayıcı turu | dokuz vakayı da oynuyor, hata yok |
 | İçerik | 9 vaka · 48 ipucu · 67 olgu · 40 karar |
@@ -25,7 +25,7 @@ değişikliği göremezse **`?v=8`** gibi bir sorgu eki ver.
 
 ---
 
-## 2. BU OTURUMDA NE OLDU (31 commit)
+## 2. BU OTURUMDA NE OLDU (33 commit)
 
 Oturum "akışta çelişki var mı" sorusuyla başladı ve **sistematik bir metin
 denetimine** dönüştü. **Dokuz vakanın dokuzu da** (V1–V6 omurga, YAN-A/B/C yan)
@@ -123,7 +123,9 @@ yakaladı). Türkçe tuzağının yeni bir yüzü de burada çıktı: **JS'in `\
 "ğ"yi harf saymıyor**, yani `/\bsordu\b/` **"sorduğu"** ile eşleşiyor. Sınır
 Türkçe harf kümesiyle elle kuruldu.
 
-### Yeni koruma
+### Yeni korumalar
+
+**K14 (Tanımsız olgu)** — doğrulayıcının 14. kuralı. Ayrıntısı §3.2'de.
 
 `test_yedek.js` — `game_data.json` ↔ `vaka2-6/yan_a-b` eşlemesi. Kural belgede
 yazılıydı ama denetlenmiyordu: **yedi yedeğin yedisi de kaymıştı** (22–80 satır).
@@ -137,24 +139,38 @@ derse önce motora sor)
 
 ---
 
-## 3. SAHİBİNİN CEVAP BEKLEDİĞİ İKİ SORU ⬅️ BURADAN DEVAM ET
+## 3. AÇIK SORU YOK
 
-### 3.1 · `boslugu_kabul` tanımsız bir olgu
+Önceki iki soru sahibince **ikisi de "uygula"** diye cevaplandı (23 Eylül 2026).
 
-V6'daki `eldekiler` ipucu `boslugu_kabul` diye bir olgu açıyor ama **o olgu
-hiçbir yerde tanımlı değil.** Oyuncuya görünmüyor (metinsiz olgu boş dizgi
-dönüyor), yani sessiz bir no-op. Hiçbir çıkarım/kapı/metin de okumuyor.
+### 3.1 · `boslugu_kabul` — silindi
 
-Bütün oyun tarandı: 67 tanımlı olgu içinde **tek örnek bu**, yani yazım hatası
-değil, tek bir açık uç.
+V6/`eldekiler` bu adla bir olgu "açıyordu" ama olgunun hiçbir yerde gövdesi yoktu:
+67 olgunun tek istisnası. Motor onu bilinen kümesine ekliyor, ekranda hiçbir şey
+görünmüyordu — sessiz bir no-op.
 
-Seçenekler: (a) metin verip gerçek olgu yap, (b) `reveals`'tan sil.
+`reveals`'tan silindi, metin yazılmadı. Gerekçe: olgu hiçbir çıkarımı beslemiyor,
+hiçbir kapıyı açmıyor, hiçbir künye katmanını tetiklemiyordu — yazılsa bile oyunda
+işi yoktu. Metin yazmak ayrıca kanona ekleme olurdu. **`eldekiler` artık `reveals: []`**
+ve bu meşrudur: hiçbir şey açmayan, yalnız oyuncuya elindekini saydıran bir ipucu.
+Motor ve doğrulayıcı her yerde `c.reveals || []` okuyor, boş dizi güvenli.
 
-### 3.2 · Doğrulayıcıya "tanımsız olgu" kuralı eklensin mi?
+### 3.2 · K14 (Tanımsız olgu) — eklendi
 
-Şu an `reveals`/`acilan` içindeki bir yazım hatası **sessizce** olguyu düşürüyor —
-tam da CLAUDE.md'nin uyardığı cinsten ayrışma. Kural eklenirse 3.1 önce
-çözülmeli (yoksa BLOCKED verir).
+`reveals`/`acilan` ile açılan her olgunun bir gövdesi olmalı: ya `vaka.facts`'te bir
+metni, ya bir `knowledge.turetilen` karşılığı. Yoksa **hata** — uyarı değil, çünkü bu
+bir tasarım kararı olamaz.
+
+Tuttuğu şey: `ilyas_yuzu` yerine `ilyas_yuz` yazmak. Eskiden doğrulayıcı geçerdi,
+oyun çalışırdı, ipucu açılırdı ve olgu buharlaşırdı — ona bağlı çıkarım hiç doğmaz,
+o çıkarıma bağlı karar hiç açılmaz, vakanın yarısı sessizce kapanırdı.
+
+**`needs` bilerek denetlenmiyor:** bir ipucu önceki vakadan taşınan kalıcı bir olguyu
+ya da bir tohumu isteyebilir; orada "bu vakada tanımlı değil" demek yanlış pozitif
+üretirdi. `reveals`/`acilan` ise BEYANDIR — bu vakanın açtığını söyler.
+
+Negatif sınandı ve `test_bozuk.js`'e **TEST 8** olarak eklendi (tek harflik yazım
+hatası → BLOCKED). Betik artık yedi senaryo basıyor.
 
 ---
 

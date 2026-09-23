@@ -320,6 +320,37 @@ function kural11_olguBenzersiz(game, hatalar) {
   }
 }
 
+// Kural 14 — Tanımsız olgu: reveals/acilan ile "açılan" her olgunun bir GÖVDESİ olmalı,
+// yani ya vaka.facts'te bir metni ya da bir knowledge.turetilen karşılığı bulunmalı.
+// Bu kuralın yokluğu sessizdi ve sessizliği tam da tehlikesiydi: motor olguyu bilinen
+// kümesine ekliyor (motor.js: reveals.forEach(r => bilinen.add(r))), ekranda hiçbir şey
+// görünmüyor, hata da çıkmıyor. Yazım hatası yapılmış bir olgu adı — 'ilyas_yuzu' yerine
+// 'ilyas_yuz' — oyuncunun ipucunu açmasına izin verir, sonra buharlaşır: ona bağlı çıkarım
+// hiç doğmaz, o çıkarıma bağlı karar hiç açılmaz, vakanın yarısı sessizce kapanır.
+// Yaşanan örnek: V6/eldekiler 'boslugu_kabul' açıyordu ve o olgu hiçbir yerde tanımlı
+// değildi (67 olgunun tek istisnası, 23 Eylül 2026'da elle sayarken bulundu).
+//
+// HATA, uyarı değil: bu bir tasarım kararı olamaz. Bir olguyu bilerek "açmamak" istiyorsan
+// adını reveals'tan çıkarırsın; boş reveals meşrudur (eldekiler artık öyle — hiçbir şey
+// açmayan, yalnız oyuncuya elindekini saydıran bir ipucu).
+//
+// needs BİLEREK denetlenmiyor: bir ipucu önceki vakadan taşınan kalıcı bir olguyu ya da
+// bir tohumu isteyebilir, orada "bu vakada tanımlı değil" demek yanlış pozitif üretirdi.
+// reveals/acilan ise BEYANDIR — bu vakanın açtığını söyler, o yüzden burada tanımlı olmalı.
+function kural14_tanimsizOlgu(game, hatalar) {
+  for (const vaka of game.vakalar) {
+    const tanimli = new Set([...Object.keys(vaka.facts || {}),
+                             ...(vaka.knowledge || []).map(k => k.turetilen)]);
+    const bak = (nerede, liste) => {
+      for (const ad of liste || [])
+        if (!tanimli.has(ad))
+          hatalar.push(`[K14] ${vaka.id}/${nerede}: '${ad}' olgusu açılıyor ama ne facts'te ne de bir knowledge.turetilen'de tanımlı — oyunda sessizce kaybolur.`);
+    };
+    (vaka.clues || []).forEach(c => bak(`${c.id}.reveals`, c.reveals));
+    (vaka.giris || []).forEach((g, i) => bak(`giris[${i}].acilan`, g.acilan));
+  }
+}
+
 // Kural 5 — Belirsizlik: belirsiz konular tek yöne kesinleşmesin (istisna: V6/kaya_biliyordu)
 function kural5_belirsizlik(game, uyarilar) {
   const kesinKalip = /(kesinlikle|açıkça|hiç şüphesiz|kuşkusuz|elbette .* dır)/i;
@@ -717,6 +748,7 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural10_olguSizinti(game, hatalar);
   kural12_cikarimBaslik(game, hatalar);
   kural13_cengoSatir(game, hatalar);
+  kural14_tanimsizOlgu(game, hatalar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -730,6 +762,7 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural("Kural 10 (Olgu sızıntısı)", hatalar.some(h => h.startsWith("[K10]")));
   kural("Kural 12 (Çıkarım başlığı)", hatalar.some(h => h.startsWith("[K12]")));
   kural("Kural 13 (Cengo satırı)  ", hatalar.some(h => h.startsWith("[K13]")));
+  kural("Kural 14 (Tanımsız olgu) ", hatalar.some(h => h.startsWith("[K14]")));
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);
