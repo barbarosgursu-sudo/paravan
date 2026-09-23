@@ -277,14 +277,14 @@
    "ilyas_ver": [
     {
      "kosul": "zincir_tam",
-     "metin": "Tetikçiyi verdim. En kolayı, en acınası olanı. Mimarlar gölgede kaldı. Adalet mi bu? Bilmiyorum."
+     "metin": "Tetikçiyi verdim. En kolayı, en acınası olanı. Mimar gölgede kaldı; Ceyda'nın payı da karanlıkta. Adalet mi bu? Bilmiyorum."
     },
     {
      "kosul": "varsayilan",
      "metin": "Elimdeki tek ismi verdim. Arkasında biri var mıydı, hiç öğrenemedim. Adalet mi bu? Bilmiyorum."
     }
    ],
-   "cavit_ver": "Cavit'i verdim. Zincir koptu, ajans sarsıldı — ama o adam bunu hak etti. Bedeli neyse ödeyeceğim.",
+   "cavit_ver": "Cavit'i verdim. Zincir koptu, ajans sarsıldı. Kendime onun bunu hak ettiğini söyledim. Bedeli neyse ödeyeceğim.",
    "ceyda_ver": "Ceyda'yı verdim. Mağdur muydu, canavar mıydı — asla bilemeyeceğim. Bu şüpheyle yaşayacağım.",
    "hepsini_ifsa": [
     {
@@ -295,11 +295,11 @@
        "odeme_kayaya_ait"
       ]
      },
-     "metin": "Hepsini ifşa ettim. Adalet geldi — ama bedelini masumlar ödedi. O çocuk, o aile... Doğru olan bu muydu gerçekten?"
+     "metin": "Hepsini ifşa ettim. Hepsi düştü — ama bedelini masumlar ödedi. O çocuk, o aile... Doğru olan bu muydu gerçekten?"
     },
     {
      "kosul": "varsayilan",
-     "metin": "Hepsini ifşa ettim. Adalet geldi — ama bedelini yanlarındakiler ödedi. Doğru olan bu muydu gerçekten?"
+     "metin": "Hepsini ifşa ettim. Hepsi düştü — ama bedelini yanlarındakiler ödedi. Doğru olan bu muydu gerçekten?"
     }
    ],
    "sus_bilerek": [
