@@ -56,7 +56,10 @@ function ifadeYaz(x) {
   if (Array.isArray(x)) return x.map(ifadeYaz).join(" VE ");
   if (x.all) return x.all.map((y) => (y.any ? "(" + ifadeYaz(y) + ")" : ifadeYaz(y))).join(" VE ");
   if (x.any) return x.any.map(ifadeYaz).join(" YA DA ");
-  if (x.not) return "DEĞİL " + ifadeYaz(x.not);
+  // DEĞİL'in kapsamı PARANTEZLE belirtilir. Parantezsiz "DEĞİL a YA DA b"
+  // okuyan insan "(DEĞİL a) YA DA b" sanıyor; oysa motor not(any(a,b)) yapıyor.
+  // Bir inceleme turu tam bu yüzden yanlış bir P0 bildirdi.
+  if (x.not) return "DEĞİL (" + ifadeYaz(x.not) + ")";
   return JSON.stringify(x);
 }
 
