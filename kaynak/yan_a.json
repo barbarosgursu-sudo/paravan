@@ -19,7 +19,7 @@
     "sevil_tehdit": "Sevil eski bir sırrının ifşasıyla tehdit ediliyor.",
     "cengo_tepki": "Cengo, Sevil'i görünce kasıldı — aralarında bir geçmiş var.",
     "cengo_eski_dava": "Yıllar önce bir suç; kayıtlarda Cengo'nun adı.",
-    "cengo_ustlendi": "Suç Sevil'indi; Cengo üstlendi. Sadakat MI, aptallık MI — belli değil.",
+    "cengo_ustlendi": "Cengo, Sevil'in yerine içeri girdi. Sadakat MI, aptallık MI — belli değil.",
     "tehdit_kim": "Tehdit eden: eski o dünyadan biri.",
     "sevil_geldi_neden": "Sevil bu kapıyı boşuna çalmadı; ama minnet MI, korku MU — itiraf edemiyor, belli değil."
   },
@@ -36,7 +36,7 @@
     },
     {
       "turetilen": "gecmis_tam",
-      "baslik": "Suç Sevil'indi; Cengo üstlendi. Neden üstlendiğini söylemiyor.",
+      "baslik": "Cengo, Sevil'in yerine içeri girdi. Neden girdiğini söylemiyor.",
       "ifade": {
         "all": [
           "gecmis_sezildi",
@@ -113,7 +113,7 @@
       ],
       "bedelsiz": true,
       "text": "Cengo pencereye baktı. 'Onun bir geleceği vardı Peri abla. Benim yoktu. O kadar.' Başka bir şey demedi.",
-      "meta": "Suç Sevil'indi; Cengo üstlendi, içeri girdi, çıktığında Sevil gitmişti. Sadakat mi, aptallık mı — Cengo bile söylemiyor.",
+      "meta": "Demek Cengo içeri Sevil'in yerine girdi. Çıktığında Sevil gitmişti. Sadakat mı, aptallık mı — Cengo bile söylemiyor.",
       "gorsel": {
         "dosya": "portre_cengo.jpg",
         "tur": "portre",
@@ -201,7 +201,7 @@
           "kosul": {
             "cengoBag_en_az": -1
           },
-          "metin": "\"Sen iyi birisin, Peri abla,\" der — söze dökülmeyen bir an."
+          "metin": "\"Sen iyi birisin, Peri abla,\" dedi — fazlasını söze dökmedi."
         },
         {
           "kosul": "varsayilan",
@@ -274,7 +274,7 @@
           "kosul": {
             "cengoBag_en_az": -1
           },
-          "metin": "Cengo bunu tam istemeyebilir; karışık bir his."
+          "metin": "Cengo'nun yüzü karışıktı; bunu isteyip istemediği belli değildi."
         },
         {
           "kosul": "varsayilan",

@@ -24,7 +24,7 @@
     },
     {
      "kosul": "cengo_gecmis_bilinir",
-     "tanim": "Bir zamanlar sevdiği kadının suçunu üstlenip içeri girmiş; hayatı o yüzden raydan çıkmış. İyiliğin bedelini ödeyen adam."
+     "tanim": "Bir kadının yerine yatmış; hayatı o yüzden raydan çıkmış. İyiliğin bedelini ödeyen adam."
     }
    ]
   },
@@ -162,7 +162,7 @@
     },
     {
      "kosul": "gecmis_tam",
-     "tanim": "Cengo'nun suçunu üstlendiği eski sevgilisi. Onu tanıyor ama defteri açmıyor — nankör mü, kaçan kurban mı, belli değil."
+     "tanim": "Cengo'nun yerine yattığı kadın. Onu tanıyor ama defteri açmıyor — nankör mü, kaçan kurban mı, belli değil."
     }
    ]
   },
@@ -316,13 +316,13 @@
   },
   "YAN-A": {
    "biliyorum_cik": "Sevil'e 'biliyorum' dedim. Cengo'nun yarasını izni olmadan açtım. Belki hata ettim.",
-   "cengoya_birak": "Karışmadım. 'Bu senin defterin' dedim Cengo'ya. Bana 'sen iyi birisin Peri abla' dedi. Uzun zamandır ilk kez ısındım.",
+   "cengoya_birak": "Karışmadım. 'Bu senin defterin, ne yapacağına sen karar ver' dedim. Defteri açmak ona kalsın. Uzun zamandır ilk kez ısındım.",
    "sessiz_coz": "Sevil'in derdini çözdüm, geçmişe dokunmadım. Kapalı defter kapalı kaldı. Bazı şeyler öyle kalmalı.",
    "isi_gecevir": "Sevil'i geri çevirdim, Cengo'nun hatırına. Ama kadın çözülmemiş bir dertle gitti. Cengo'nun yüzünde tuhaf bir şey vardı."
   },
   "YAN-B": {
-   "tam_sahip_cik": "Nadire'ye sahip çıktım. Cebimde ne varsa. Onun hayatını ben götürdüm, farkında olmadan — bari bunu düzelteyim.",
-   "gercegi_soyle": "Nadire'ye itiraf ettim: senin hayatını ben götürdüm. Beni affetti. Ben kendimi affedemedim.",
+   "tam_sahip_cik": "Nadire'ye sahip çıktım. Elimden geleni verdim. Onun hayatını ben götürdüm, farkında olmadan — bari bunu düzelteyim.",
+   "gercegi_soyle": "Nadire'ye itiraf ettim: senin hayatını ben götürdüm. Beni hiç suçlamamıştı. Ben kendimi affedemedim.",
    "sadece_coz": "Dolandırıcıyı hallettim, mesafemi korudum. Yardım ettim ama yaklaşmadım. Belki korkaklıktı.",
    "gecistir": "Nadire'yi geçiştirdim. İkinci kez yüzüstü bıraktım o kadını. Cengo gördü. Ben de gördüm kendimi."
   },

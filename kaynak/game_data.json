@@ -1031,7 +1031,7 @@
         "sevil_tehdit": "Sevil eski bir sırrının ifşasıyla tehdit ediliyor.",
         "cengo_tepki": "Cengo, Sevil'i görünce kasıldı — aralarında bir geçmiş var.",
         "cengo_eski_dava": "Yıllar önce bir suç; kayıtlarda Cengo'nun adı.",
-        "cengo_ustlendi": "Suç Sevil'indi; Cengo üstlendi. Sadakat MI, aptallık MI — belli değil.",
+        "cengo_ustlendi": "Cengo, Sevil'in yerine içeri girdi. Sadakat MI, aptallık MI — belli değil.",
         "tehdit_kim": "Tehdit eden: eski o dünyadan biri.",
         "sevil_geldi_neden": "Sevil bu kapıyı boşuna çalmadı; ama minnet MI, korku MU — itiraf edemiyor, belli değil."
       },
@@ -1048,7 +1048,7 @@
         },
         {
           "turetilen": "gecmis_tam",
-          "baslik": "Suç Sevil'indi; Cengo üstlendi. Neden üstlendiğini söylemiyor.",
+          "baslik": "Cengo, Sevil'in yerine içeri girdi. Neden girdiğini söylemiyor.",
           "ifade": {
             "all": [
               "gecmis_sezildi",
@@ -1125,7 +1125,7 @@
           ],
           "bedelsiz": true,
           "text": "Cengo pencereye baktı. 'Onun bir geleceği vardı Peri abla. Benim yoktu. O kadar.' Başka bir şey demedi.",
-          "meta": "Suç Sevil'indi; Cengo üstlendi, içeri girdi, çıktığında Sevil gitmişti. Sadakat mi, aptallık mı — Cengo bile söylemiyor.",
+          "meta": "Demek Cengo içeri Sevil'in yerine girdi. Çıktığında Sevil gitmişti. Sadakat mı, aptallık mı — Cengo bile söylemiyor.",
           "gorsel": {
             "dosya": "portre_cengo.jpg",
             "tur": "portre",
@@ -1213,7 +1213,7 @@
               "kosul": {
                 "cengoBag_en_az": -1
               },
-              "metin": "\"Sen iyi birisin, Peri abla,\" der — söze dökülmeyen bir an."
+              "metin": "\"Sen iyi birisin, Peri abla,\" dedi — fazlasını söze dökmedi."
             },
             {
               "kosul": "varsayilan",
@@ -1286,7 +1286,7 @@
               "kosul": {
                 "cengoBag_en_az": -1
               },
-              "metin": "Cengo bunu tam istemeyebilir; karışık bir his."
+              "metin": "Cengo'nun yüzü karışıktı; bunu isteyip istemediği belli değildi."
             },
             {
               "kosul": "varsayilan",
@@ -1467,7 +1467,7 @@
           "id": "tam_sahip_cik",
           "gate": "sorumluluk_tam",
           "etiket": "Nadire'ye tam sahip çık",
-          "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın.",
+          "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin. Kimsenin senden istemediği bir hesabı ödedin. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın.",
           "cengoBag": 3,
           "seed_yaz": {
             "yanb_karar": "sahip"
@@ -1480,7 +1480,7 @@
           "id": "gercegi_soyle",
           "gate": "sorumluluk_tam",
           "etiket": "Geçmişle yüzleş, gerçeği söyle",
-          "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün. O cümleyi kurduktan sonra kadına masraf yazamazsın. Acil ihtiyacı için de bir şey bıraktın.",
+          "sonuc": "'Beni suçlamasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün. O cümleyi kurduktan sonra kadına masraf yazamazsın. Acil ihtiyacı için de bir şey bıraktın.",
           "cengoBag": 2,
           "seed_yaz": {
             "yanb_karar": "yuzlesti"
@@ -1518,7 +1518,7 @@
               "kosul": {
                 "cengoBag_en_az": -1
               },
-              "metin": "Cengo bunu görür."
+              "metin": "Cengo bunu gördü."
             },
             {
               "kosul": "varsayilan",
@@ -1716,8 +1716,17 @@
           "reveals": [
             "ayla_hayati"
           ],
-          "text": "Bir hayatı var: üç yıldır aynı işte, aynı semtte. İşten eve, evden işe. Kimseyle görüşmüyor, kimseyi eve almıyor. Yeni bir hayat değil bu — saklanmanın adı konmamış hâli.",
-          "meta": "Artık bir isim değil, bir insan. Adresi yazmak bundan sonra daha zor olacak — ki zaten olması gereken bu.",
+          "text": "Bir hayatı var: üç yıldır aynı işte, aynı semtte. İşten eve, evden işe. Kimseyle görüşmüyor, kimseyi eve almıyor. Yeni bir hayat kurmuş da denemez — daralmış bir hayat bu.",
+          "meta": [
+            {
+              "kosul": "uzaklastirma",
+              "metin": "Artık bir isim değil, bir insan. Mahkeme kararıyla yan yana koyunca daralmanın adı da konuyor: saklanıyor."
+            },
+            {
+              "kosul": "varsayilan",
+              "metin": "Artık bir isim değil, bir insan. Neden bu kadar daraldığını bilmiyorsun."
+            }
+          ],
           "gorsel": {
             "dosya": "yanc_ayla_hayat.jpg",
             "tur": "mekan",
@@ -1744,7 +1753,7 @@
             },
             {
               "kosul": "uzaklastirma",
-              "metin": "Adresi yazdın, parayı aldın. Mahkemenin o adamdan uzak tuttuğu kadının kapısını sen gösterdin. Kâğıdı uzatırken elin titremedi; asıl mesele bu."
+              "metin": "Adresi yazdın, parayı aldın. Mahkemenin o adamdan uzak tuttuğu kadının kapısını sen gösterdin. Karar hâlâ yürürlükte; kâğıt çoktan Hulki'nin cebinde."
             },
             {
               "kosul": "varsayilan",
@@ -1813,11 +1822,11 @@
           "sonuc": [
             {
               "kosul": "borc_duyulmus",
-              "metin": "Reddettin. Adam ısrar etmedi, kızmadı, pazarlık bile yapmadı — başka bir kapı bulacağını biliyor. Borcun yerinde duruyor, üstelik artık duyulmuş bir borç. Temiz kaldın; kimseyi de kurtarmadın."
+              "metin": "Reddettin. Adam ısrar etmedi, kızmadı, pazarlık bile yapmadı — başka bir kapı bulacağını biliyor. Borcun yerinde duruyor, üstelik artık duyulmuş bir borç. Kimseyi kurtarmadın; sadece sen yapmadın."
             },
             {
               "kosul": "varsayilan",
-              "metin": "Reddettin. Adam ısrar etmedi, kızmadı, pazarlık bile yapmadı. Borcun yerinde duruyor. Temiz kaldın; kimseyi de kurtarmadın."
+              "metin": "Reddettin. Adam ısrar etmedi, kızmadı, pazarlık bile yapmadı. Borcun yerinde duruyor. Kimseyi kurtarmadın; sadece sen yapmadın."
             }
           ],
           "cengoBag": 1,
@@ -1834,7 +1843,7 @@
           "sonuc": [
             {
               "kosul": "uzaklastirma",
-              "metin": "Kapısını sen çaldın — ama onu vermek için değil. Ayla kapıyı aralık açtı, dinledi, teşekkür bile etmedi; korkan insanlar teşekkür etmez. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek."
+              "metin": "Kapısını sen çaldın — ama onu vermek için değil. Ayla kapıyı aralık açtı, dinledi, teşekkür bile etmedi; kapıyı kapatana kadar zinciri elinden bırakmadı. Taşınması için elindekini verdin. Borcun büyüdü, kimse bilmeyecek, kimse ödemeyecek."
             },
             {
               "kosul": "varsayilan",

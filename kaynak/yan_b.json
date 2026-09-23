@@ -156,7 +156,7 @@
       "id": "tam_sahip_cik",
       "gate": "sorumluluk_tam",
       "etiket": "Nadire'ye tam sahip çık",
-      "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin. Suçunu sahiplenmenin en pahalı, en dürüst hali. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın.",
+      "sonuc": "Dolandırıcıyı hallettin, parasını kurtarmaya çalıştın, kendi cebinden destekledin. Kimsenin senden istemediği bir hesabı ödedin. Ajans daha da zora girer. Kaybettiğinin bir kısmını kendi kasandan kapattın.",
       "cengoBag": 3,
       "seed_yaz": {
         "yanb_karar": "sahip"
@@ -169,7 +169,7 @@
       "id": "gercegi_soyle",
       "gate": "sorumluluk_tam",
       "etiket": "Geçmişle yüzleş, gerçeği söyle",
-      "sonuc": "'Haklıydın olmasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün. O cümleyi kurduktan sonra kadına masraf yazamazsın. Acil ihtiyacı için de bir şey bıraktın.",
+      "sonuc": "'Beni suçlamasan bile — ben o adama güvendim, senin de hayatını ben götürdüm.' Utançlı ama dürüst bir hesaplaşma. İşi de çözdün. O cümleyi kurduktan sonra kadına masraf yazamazsın. Acil ihtiyacı için de bir şey bıraktın.",
       "cengoBag": 2,
       "seed_yaz": {
         "yanb_karar": "yuzlesti"
@@ -207,7 +207,7 @@
           "kosul": {
             "cengoBag_en_az": -1
           },
-          "metin": "Cengo bunu görür."
+          "metin": "Cengo bunu gördü."
         },
         {
           "kosul": "varsayilan",

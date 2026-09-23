@@ -56,7 +56,23 @@ const CENGO_SOGUK = ["yüzü asık", "suratı", "tek kelime etmedi", "bir şey d
 const CENGO_SICAK = ["gülümse", "omzuna", "sırtını sıvazla", "başını salladı",
   "güldü", "sevindi", "rahatladı"];
 const HUKUM = ["doğru olanı yaptın", "en adil", "doğrusu buydu", "doğru olanı yaptım",
-  "en iyisini yaptın", "haklıydın", "doğru olan buydu", "iyi bir insansın"];
+  "en iyisini yaptın", "haklıydın", "doğru olan buydu", "iyi bir insansın",
+  // Sıralama da hükümdür: seçenekleri ahlaki sıraya dizen her üstünlük derecesi.
+  // 23 Eylül 2026'da YAN-B "en pahalı, en dürüst hali" diyordu ve bu liste
+  // yalnız "en adil"i tanıdığı için göremedi.
+  "en dürüst", "en temiz", "en onurlu", "en doğru", "en erdemli"];
+
+/* Motorun kararRuhHali sınıflaması (temiz/bedel/bosluk/kirli) oyuncuya ASLA
+   kelime olarak gösterilmez — sözleşme böyle diyor ama hiçbir yer denetlemiyordu.
+   YAN-C/isi_reddet tam tamına "Temiz kaldın" yazıyordu ve karar gerçekten
+   ruh=temiz'di: iç etiket ekrana sızmıştı. Bu tarama o sızıntıyı arar.
+   Fiille birlikte aranır; "temiz bir iş çıkardın" gibi sıfat kullanımı
+   yanlış pozitif olurdu. */
+const RUH_SIZINTI = [
+  "temiz kaldın", "temiz kaldım", "temiz çıktın", "temiz bir karar",
+  "kirli kaldın", "kirli bir karar", "elin kirlendi",
+  "vicdanın temiz", "vicdanı temiz",
+];
 const PARA_GELDI = ["para geldi", "parayı aldım", "ödeme yapıldı", "kasa doldu"];
 const PARA_GELMEDI = ["bir kuruş girmedi", "para gelmez", "para gelmedi"];
 
@@ -95,6 +111,11 @@ function bayraklar(d, sonucV, cengoV, defterV) {
     f.push(`SONUÇ metninde hüküm cümlesi: "${h}"`);
   for (const v of defterV) for (const h of gecer(v.metin, HUKUM))
     f.push(`anı defterinde hüküm kalıbı (Peri'nin kendi sesi olabilir): "${h}"`);
+  // 2b) Ruh hâli etiketi metne sızmış mı? Sonuç da defter de aynı yasağa tabi:
+  //     defterde Peri'nin kendi sesi olması bunu mazur göstermez, "temiz kaldım"
+  //     da oyuncuya not vermektir.
+  for (const v of [...sonucV, ...defterV]) for (const r of gecer(v.metin, RUH_SIZINTI))
+    f.push(`ruh hâli etiketi metne sızmış (motor sınıflaması ekranda): "${r}"`);
 
   // 3) Para ile metin çelişiyor mu?
   for (const v of anlati) {
