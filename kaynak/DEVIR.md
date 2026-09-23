@@ -10,12 +10,12 @@
 
 ## 1. NEREDE DURUYORUZ
 
-Son commit **`e3b79d6`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
+Son commit **`de2ba90`**, `main`'de, push edilmiş. Çalışma ağacı temiz.
 
 | | |
 |---|---|
 | Doğrulayıcı | **PASS (5 uyarı)** — 13 kural |
-| Test | **22/22** (+ `test_bozuk.js`, çıkış 0, gösteri betiği) |
+| Test | **23/23** (+ `test_bozuk.js`, çıkış 0, gösteri betiği) |
 | Görsel | **63/63** gömülü |
 | Tarayıcı turu | dokuz vakayı da oynuyor, hata yok |
 | İçerik | 9 vaka · 48 ipucu · 67 olgu · 40 karar |
@@ -25,11 +25,11 @@ değişikliği göremezse **`?v=8`** gibi bir sorgu eki ver.
 
 ---
 
-## 2. BU OTURUMDA NE OLDU (29 commit)
+## 2. BU OTURUMDA NE OLDU (31 commit)
 
 Oturum "akışta çelişki var mı" sorusuyla başladı ve **sistematik bir metin
-denetimine** dönüştü. Omurganın altı vakası da (V1–V6) taze göz incelemesinden
-geçirildi ve düzeltildi.
+denetimine** dönüştü. **Dokuz vakanın dokuzu da** (V1–V6 omurga, YAN-A/B/C yan)
+taze göz incelemesinden geçirildi ve düzeltildi. **Metin incelemesi bitti.**
 
 ### Yöntem — tekrar kurulabilir
 
@@ -52,6 +52,26 @@ aynı kalıbı kullan.**
 | V4 | 7 | 1 |
 | V5 | 6 + **kanıt eklendi** | 1 |
 | V6 | 4 | 2 *(biri `arac_okuma`'nın basım hatası)* |
+| YAN-A/B/C *(tek tur)* | 14 | **0** |
+
+Yan tur üçü birden okundu: `OKUBENI` YAN-A ile YAN-B'yi *"birbirinin aynası"*
+diye tanımlıyor (biri nefes aldırır, öteki hiçbir seçeneğinde para kazandırmaz) —
+ayrı turlarda o karşılaştırma kaybolurdu. **Dokuz turun içinde yanlış alarmsız
+tek tur bu oldu.**
+
+Yan turun iki asıl bulgusu:
+
+- **YAN-A'da olgu, ipucundan fazlasını söylüyordu** — V3/`tarif_yara`'nın kardeşi.
+  Cengo'nun tek cümlesi *"onun yerine içeri girdim"*i kanıtlıyor, *"suç onundu"*yu
+  değil. Olgu metni / çıkarım başlığı / ipucu metası cümleye indirildi; **kimlikler
+  değişmedi**, o yüzden kapı, tohum ve test etkilenmedi.
+- **YAN-C/`isi_reddet` "Temiz kaldın" diyordu** ve karar gerçekten `ruh=temiz`'di —
+  motorun iç sınıflaması kelimesi kelimesine ekrana sızmıştı.
+
+Aynı olgunun künye yüzeyinde ikinci bir aşım çıktı, raporda yoktu: *"sevdiği
+kadın"* / *"eski sevgilisi"*. **Yazar gerçeğinde bile yok** (`truth`'ta Sevil'in
+geliş sebebi "sırrı bilen tek güvenilir kişi"). Sezon boyu kovalanan "sevgili"
+fazla söylemesinin son yuvasıydı; ikisi de kaldırıldı.
 
 ### Kanona eklenen tek şey (sahibinin onayıyla)
 
@@ -94,6 +114,14 @@ kullanıldıkça kör noktaları çıktı:
 | ipucu `ad`'ı da varyant olabiliyor | iki başlık `[object Object]` |
 | prolog basılmıyordu | inceleme "açılış Peri'yi kurmuyor" dedi, yanlıştı |
 | `DEĞİL` parantezsiz basılıyordu | inceleme yanlış bir **P0** bildirdi |
+| sessizlik kalıbı fazla harfiydi + atıf cümle sınırına takılıyordu | YAN-A/`cengoya_birak` çelişkisi kaçmıştı |
+| `HUKUM` yalnız "en adil"i tanıyordu | YAN-B "en pahalı, **en dürüst** hali" göremedi |
+| ruh hâli etiketi hiç taranmıyordu | YAN-C "Temiz kaldın" göremedi |
+
+Son üçü düzeltildi ve negatif sınandı (eski metinler geçici geri konunca araç
+yakaladı). Türkçe tuzağının yeni bir yüzü de burada çıktı: **JS'in `\b` sınırı
+"ğ"yi harf saymıyor**, yani `/\bsordu\b/` **"sorduğu"** ile eşleşiyor. Sınır
+Türkçe harf kümesiyle elle kuruldu.
 
 ### Yeni koruma
 
@@ -132,9 +160,12 @@ tam da CLAUDE.md'nin uyardığı cinsten ayrışma. Kural eklenirse 3.1 önce
 
 ## 4. SIRADAKİ İŞLER
 
-### 🔴 Üç yan vaka incelenmedi
-YAN-A (Kapalı Defter), YAN-B (Enkaz), YAN-C (Adres). Omurga bitti, bunlar duruyor.
-Kalıp hazır: döküm + brief + doğrulama + ayıklama. **Aynı sırayla yap.**
+### ✅ Dokuz vakanın metin incelemesi BİTTİ
+Yan turda sorulan iki sert soruya cevap veriye uydu, **hiçbiri değişmedi:**
+`isi_reddet` gerçek bir kaçış (kapısız, 0 ₺, batmak game-over değil —
+`test_borc.js` dokuz vakada da sınıyor); 120.000 ₺ küçülmedi, baskı vakanın
+fikri; YAN-B'nin bütün seçeneklerinin para kaybettirmesi ceza değil, aynanın
+kendisi.
 
 ### 🔴 Ses — DEVIR'in eski notundaki "tek gerçek eksik"
 `ses/` içindeki **5 dosya sentetik yer tutucu** (12 kHz bip). Sipariş metinleri
@@ -152,9 +183,11 @@ eşliyor (EFEKT tablosu, `efektCal` çağrıları, `ses/` klasörü).
 - **Ceyda'nın üç "A mı B mi"si** (V5). Fikir sözleşme gereği doğru ama üçüncü
   tekrarda oyuncu yazarın elini görüyor. V6'da aynı belirsizlik kararın bedeline
   dönüştüğü için orada çalışıyor.
-- **Üç hüküm kalıbı**: *"Umarım doğru olanı yaptım"* (V2), *"Doğrusu buydu"* (V3),
-  *"Haklıydın olmasan bile"* (YAN-B — bu ayrıca Türkçe olarak tökezliyor).
-  `arac_akis_denetim.js --bayrak` üçünü de bayrakla basıyor.
+- **İki hüküm kalıbı**: *"Umarım doğru olanı yaptım"* (V2), *"Doğrusu buydu"* (V3).
+  `arac_akis_denetim.js --bayrak` ikisini de bayrakla basıyor. Üçüncüsü
+  (*"Haklıydın olmasan bile"*, YAN-B) yan turda onarıldı — bozuk Türkçeydi ve
+  üstüne, Nadire'nin suçlamadığı kurulmuşken suçlama varmış gibi bir geçmiş
+  yaratıyordu. Artık *"Beni suçlamasan bile"*.
 - **"Peri'nin boğazı düğümlendi"** (V4) — oyuncuya ne hissedeceğini söylüyor.
 - **`cengo_yoldas` yeniden üretimi** — PAKET 8 siparişi duruyor ama **gerek
   kalmadı**: kareler takas edilerek çözüldü. Sipariş kaydı tarihsel.
@@ -162,7 +195,8 @@ eşliyor (EFEKT tablosu, `efektCal` çağrıları, `ses/` klasörü).
 ### 🟢 Eski açık işler (değişmedi)
 - Paket 5 görselleri (4: kriz kutusu + sezon sonu) — slot veride açılmamış
 - K10 kör noktası — doğrulayıcı yalnız varsayılan metin varyantını denetliyor
-- Cengo satırı / anı defteri tekrarı — `cengoya_birak`, `gecistir`, `oyunu_surdur`
+- Cengo satırı / anı defteri tekrarı — `gecistir`, `oyunu_surdur`
+  (`cengoya_birak` yan turda kapandı: Cengo'ya atfedilen cümle defterden çıktı)
 
 ### ⚪ Sonraki faz
 Android: Capacitor, görselleri base64'ten çıkarma, donanım geri tuşu,
