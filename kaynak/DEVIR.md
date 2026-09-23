@@ -176,6 +176,26 @@ hatası → BLOCKED). Betik artık yedi senaryo basıyor.
 
 ## 4. SIRADAKİ İŞLER
 
+### 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
+
+Sahibi Mavi Ay (*Moonlighting*) tonunda, **İngilizce**, İstanbul'da geçen yeni bir oyun
+yapmaya karar verdi. Kararların tamamı ve gerekçeleri: **`YENI_OYUN_CERCEVE.md`**.
+
+Özet: sadece İngilizce (orijinal, çeviri değil) · İstanbul kalıyor · Steam birinci,
+Android ikinci · ilk 2-3 vaka bedava, gerisi tek ödeme · reklam/elmas/abonelik yok ·
+metin anahtarı sistemi kurulmayacak.
+
+Motor, doğrulayıcı, araçlar ve yöntem aynen devralınıyor (~7.100 satır). Yeniden
+yazılacak olan hikâye (~3.500 satır) ve iki yeni ekran: konuşma (atışma) ve sahnede
+ipucu arama.
+
+**Sıradaki iş: tek bir vakayı kâğıt üstünde baştan sona yazmak.** Kod yok.
+
+**Mevcut Türkçe sezon elde duruyor** — yayınlanıp yayınlanmayacağına karar verilmedi.
+Aşağıdaki maddeler onun açık işleri; yeni oyun onları geçersiz kılmıyor ama
+önceliklendirme değişti.
+
+
 ### ✅ Dokuz vakanın metin incelemesi BİTTİ
 Yan turda sorulan iki sert soruya cevap veriye uydu, **hiçbiri değişmedi:**
 `isi_reddet` gerçek bir kaçış (kapısız, 0 ₺, batmak game-over değil —
