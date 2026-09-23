@@ -2247,7 +2247,7 @@
         },
         {
           "turetilen": "tam_resim",
-          "baslik": "Tablo tamamlandı: elinde mahkûm bir adam olan avukat, ölen adamın karısının sevgilisi.",
+          "baslik": "Tablo tamamlandı: elinde mahkûm bir adam olan avukat, ölen adamın karısıyla gizlice yakın.",
           "ifade": {
             "all": [
               "cavit_azmettiren",
@@ -2745,7 +2745,7 @@
         "ceyda_pay": "<BELİRSİZ> — final bile çözmez, ÇÖZÜLMEZ"
       },
       "facts": {
-        "zincir_tam": "Cavit İlyas'ı yıllar önce kurtardı, borçlu bıraktı, şimdi cinayette kullandı; Ceyda ile sevgili.",
+        "zincir_tam": "Cavit İlyas'ı yıllar önce kurtardı, borçlu bıraktı, şimdi cinayette kullandı; Ceyda ile gizlice yakın.",
         "kaya_son_gunler": "Kaya'nın kendi el yazısı: karısıyla aralarının açıldığını görmüş, sebebini bulamamış, suçu kendinde aramış. Son sayfada baharda birlikte gidecekleri bir yer planlıyor.",
         "kaya_bilmiyordu": "Kaya aldatıldığını bilmiyordu — olmayan bir tehdit için öldürüldü."
       },
@@ -2767,7 +2767,7 @@
             "seed": "cavit_ceyda_bilinir",
             "esit": true
           },
-          "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda sevgili. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu? Cavit dün akşam uğradı, masaya bir zarf bıraktı: 'Bu iş kapanırsa senindir.' Saymadın; ağırlığından belli.",
+          "metin": "Artık her şeyi biliyorsun: Kaya öldürüldü, İlyas itti, Cavit azmettirdi, İlyas'ı yıllar önceki bir suçtan kurtardığı için elinde tuttu, ve Cavit'le Ceyda gizlice yakın. Geriye tek soru kaldı — ve bu soru yaptıkları her şeyin anlamını belirliyor: Kaya, aldatıldığını biliyor muydu? Cavit dün akşam uğradı, masaya bir zarf bıraktı: 'Bu iş kapanırsa senindir.' Saymadın; ağırlığından belli.",
           "acilan": [
             "zincir_tam"
           ]
