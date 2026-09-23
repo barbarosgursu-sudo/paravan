@@ -19,8 +19,8 @@
     "eski_dava": "Cavit yıllar önce İlyas'ın avukatıydı; delil kararttı, onu kurtardı.",
     "ilyas_mahkum": "İlyas o günden beri Cavit'e borçlu, mahkûm — silah oldu.",
     "cavit_takip": "Peri Cavit'i izliyor.",
-    "cavit_ceyda_sevgili": "Cavit ile Ceyda sevgili — avukat/müvekkil değil.",
-    "cinayet_sebep": "Sebep buymuş: Kaya, sevgililerin önündeki engeldi.",
+    "cavit_ceyda_sevgili": "Cavit ile Ceyda arasında gizli bir yakınlık var — avukat/müvekkil değil.",
+    "cinayet_sebep": "Ortaya bir sebep çıkıyor: Kaya, o ilişkinin önündeki engeldi.",
     "ip_koz": "Ceyda gizli bir belge/kayıt saklıyor. Soğuk hesap MI, korkan mağdur MU — belli değil.",
     "ip_akil": "Bir iz: cinayet fikri Ceyda'dan çıkmış olabilir. Gerçek Mİ, Cavit'in ona yıktığı bir iddia MI — belli değil.",
     "ip_para": "Ceyda servet/sigortayla fazla ilgili. Açgözlülük MÜ, çaresiz dul MU — belli değil.",
@@ -56,7 +56,7 @@
     },
     {
       "turetilen": "iliski_acik",
-      "baslik": "Cavit ile Ceyda sevgili. Avukat-müvekkil ilişkisi bir paravan.",
+      "baslik": "Cavit ile Ceyda arasında gizli bir yakınlık var. Avukat-müvekkil ilişkisi bir paravan.",
       "ifade": {
         "all": [
           "cavit_takip",
