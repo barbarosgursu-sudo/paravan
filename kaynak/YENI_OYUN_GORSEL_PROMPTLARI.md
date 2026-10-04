@@ -63,8 +63,8 @@ Referans görseldeki kadının AYNISI: aynı yüz, aynı saç, aynı kırmızı 
 krem bluz, aynı altın küpeler, aynı çizim tarzı, aynı düz açık bej arka plan,
 aynı kadraj (dizlerden yukarısı, dikey).
 
-Değişen tek şey ifade ve eller: sağ kaşı belirgin biçimde yukarıda, sol kaşı
-yerinde. Dudakları hafif büzülmüş, "Ciddi misin?" der gibi şüpheli bir bakış.
+Değişen tek şey ifade ve kollar: tek kaşı belirgin biçimde yukarıda (kadrajın
+sağ tarafında kalan kaş), öteki kaşı yerinde. Dudakları hafif büzülmüş, "Ciddi misin?" der gibi şüpheli bir bakış.
 Kollarını göğsünde kavuşturmuş. Burnu yine kadrajın soluna bakıyor, gözleri
 kameraya dönük.
 
