@@ -35,6 +35,75 @@ bu satır eklenir.
 
 ---
 
+## PROLOG — HACİZ SABAHI · *bedava · ~3-4 dakika*
+
+*Sahibinin onayıyla (4 Ekim 2026). Üç kanon eklemesi onaylandı: Cengo'nun bordrodaki
+hayali çalışan olarak gelmesi, tacın hacizde gitmesi, Peri'nin anahtarının kapıyı
+açmaması.*
+
+**İlke:** anlatıcı yok (Ton §11), "nasıl oynanır" kartı yok. Oyuncu hikâyeyi
+sahnelerin içinde görür; konuşma, seçim ve kasa ekranlarını oynayarak öğrenir.
+
+### Sahne 1 — Haciz sabahı (soğuk açılış)
+
+İcra memurları Peri'nin evini boşaltıyor. Peri gururunu bırakmıyor: memurlara çay
+ikram ediyor, "O koltuk İtalyan, dikkat" diyor, taşınan her eşyanın yanında bir laf
+ediyor. Son çıkan eşya **güzellik kraliçesi tacı.** Peri tacı tutar, bırakmamaya
+çalışır; memurla kısa, komik bir çekişme. Taç da gider.
+
+→ Oyuncu Peri'yi, düşüşünü ve **para hedefini** ilk dakikada, anlatılmadan görür.
+Evden giyip çıktığı tek şey eski günlerden kalan **kırmızı manto** — temel kıyafet
+burada kurulur.
+
+### Sahne 2 — Elde kalan tek şey
+
+Memur bir anahtar ve bir kâğıt uzatır: *"Bu şirket haciz dışı. Değeri yok."*
+**Paravan Dedektiflik** — avukatın vergi için kurduğu sahte şirket. Peri büroya gider.
+**Anahtar kapıyı açmaz.**
+
+### Sahne 3 — Cengo
+
+Arkadan bir ses: *"Tel lazım mı?"* Cengo kapıyı iki saniyede açar. Sonra:
+
+**Kurulum:** avukat, şirketin gerçek görünmesi için bordroya bir çalışan yazmış ve
+her ay bu isme küçük bir maaş yatırmış. İsim uydurma değil, gerçek biri: **Cengo.**
+Cengo yıllardır hesabına para yattığını biliyor, hiç sormamış. Avukat kaçınca maaş
+kesilmiş; Cengo kâğıttaki adresi bulup gelmiş.
+
+Örnek atışma (ton örneği; replikler Vaka 1 ile birlikte kesinleşir):
+
+> **CENGO:** Maaşım yatmadı.
+> **PERİ:** Siz kimsiniz?
+> **CENGO:** Çalışanınızım.
+> **PERİ:** Bu şirketin çalışanı yok.
+> **CENGO:** Bordroda var. Yedi yıldır.
+> **PERİ:** Yedi yıldır ne iş yapıyorsunuz?
+> **CENGO:** Hiç. Çok da iyi yapıyorum.
+
+Peri borcu kabul etmek zorunda, ödeyemiyor. Cengo: *"O zaman alacağım çıkana kadar
+buradayım."*
+
+→ Eksen ilk sahnede kurulur: **Peri'nin anahtarı, Cengo'nun teli.** İkisi birbirine
+mecbur: Peri kovamaz (borçlu), Cengo gitmez (alacaklı). **"Daha alacağım var"**
+sezon boyu süren bir atışma malzemesi olur.
+
+**Oyunun öğrettiği:** ilk seçim burada — Peri'nin Cengo'ya ilk cümlesi (2-3 seçenek,
+yalnız renk; bağı değiştirmez). Kasa ilk kez burada görünür: Peri'nin cebinde kalan
+son para.
+
+### Sahne 4 — Kapı çalar
+
+Daha birbirlerini tanımadan ilk müşteri gelir: Karaköy'den yaşlı balıkçı.
+**Vaka 1 buradan başlar.**
+
+**Açık:** avukatın Cengo'yu nereden tanıdığı. Söylenmez; Vaka 8'de (İade) işe
+yarayabilir — yazılırken karar verilir.
+
+**Görsel:** haciz sahnesi arka planı (Peri'nin boşalan evi), büro kapısı/koridor
+arka planı, icra memuru figürü. Peri ve Cengo temel setlerinde.
+
+---
+
 ## VAKA 1 — KAYIP TEKNE · *Mavi Ay tipi · bedava*
 
 **Müşteri:** Karaköy'de yaşlı bir balıkçı. Kırk yıllık teknesi bir gecede iskeleden
@@ -238,7 +307,7 @@ Her vakada iki karakterin yeni kıyafeti, her kıyafette 4 ifade:
 | | görsel |
 |---|---|
 | Vaka başına (Peri 4 + Cengo 4) | 8 |
-| Vaka 1 temel set (Peri + Cengo) | 8 |
+| Vaka 1 temel set (Peri + Cengo) — prologda da kullanılır | 8 |
 | Vaka 2–8 (7 vaka × 8) | 56 |
 | Müşteri ve tanık figürleri (vaka başına ~2) | ~16 |
 | Arka planlar (vaka başına ~2) | ~16 |
