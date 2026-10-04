@@ -85,3 +85,22 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Sonuç ne olursa olsun buraya yazılır: tuttuysa bu metin bütün karakterlerin
 şablonu olur; tutmadıysa neyin kaydığı bir sonraki denemenin girdisidir.
+
+## Sonuç — 4 Ekim 2026
+
+İki görsel geldi; 900 px WebP q80 olarak `kaynak/yeni_gorsel/deneme_peri_a.webp`
+ve `deneme_peri_b.webp`'de duruyor (referans olarak, oyuna gömülmedi).
+
+| | sonuç |
+|---|---|
+| **Tutarlılık (asıl test)** | **Tuttu.** Yüz, saç ve topuz, manto (renk, yaka, kuşak, cep kapağı), bluz, küpe, arka plan, kadraj — A ile B'de aynı. Sprite modeli bu üreticiyle çalışabilir. |
+| **İfade** | Kısmen. B'de şüpheli, yarım ağızlı bir bakış var ve okunuyor; ama tek kaş belirgin biçimde kalkmamış, iki kaş da hafif çatık. "Kaş kaldırma" gibi abartılı ifadeler için prompt daha sert olmalı. |
+| **Tarz** | **Gerçekçiye kaymış.** Boyalı ama fotoğrafa yakın: ten dokusu ayrıntılı, kontur çizgisi neredeyse yok. İstenen "belirgin kontur, animasyon afişi" tutmadı. |
+| **Yaş** | Otuzlarının sonu–kırklarının başı arası okunuyor; kabul edilebilir, sınırda. |
+| **Yazı taraması** | Temiz: düğmede, küpede, kuşakta harf/logo yok. |
+| **Arka plan** | Düz bej, nesne yok. Kesip sahneye koymaya uygun. |
+| **Kadraj** | Diz yerine uyluk ortasından kesilmiş. Sprite için sorun değil. |
+| **Göğüs dekoltesi** | Derin. Geniş kitle hedefinde mağaza yaş sınıflandırmasını etkileyebilir; bir düğme daha kapalı istenebilir — sahibinin kararı. |
+
+**Açık karar (sahibi):** bu tarzda mı kalınacak, yoksa daha çizgisel bir tarz
+için ikinci deneme mi yapılacak?
