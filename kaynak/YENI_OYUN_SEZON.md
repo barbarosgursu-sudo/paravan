@@ -27,6 +27,12 @@ ama 2'nin sonunda bir iplik ucu açılır ki oyuncu devamını merak etsin.
 saçı, takısı, aksesuarı vakaya göre değişir. Görsel üretimi vaka metni yazıldıktan
 sonra yapılır. Maliyet notu en altta (§9).
 
+**Dekolte kuralı (sahibinin kararı, 4 Ekim 2026):** Peri'nin dekoltesi **her
+vakada, her kıyafette** deneme setindeki seviyede kalır (`yeni_gorsel/deneme_peri_a.webp`
+referans). **Azaltılmaz.** Kapalı yakalı bir parça (tayyör, kazak, gömlek) yazılsa
+bile üst düğmeler açık, iç bluz aynı derinlikte çizilir. Her Peri görsel promptuna
+bu satır eklenir.
+
 ---
 
 ## VAKA 1 — KAYIP TEKNE · *Mavi Ay tipi · bedava*

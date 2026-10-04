@@ -100,7 +100,7 @@ ve `deneme_peri_b.webp`'de duruyor (referans olarak, oyuna gömülmedi).
 | **Yazı taraması** | Temiz: düğmede, küpede, kuşakta harf/logo yok. |
 | **Arka plan** | Düz bej, nesne yok. Kesip sahneye koymaya uygun. |
 | **Kadraj** | Diz yerine uyluk ortasından kesilmiş. Sprite için sorun değil. |
-| **Göğüs dekoltesi** | Derin. **Sahibinin kararı (4 Ekim 2026): olduğu gibi kalıyor.** Peri setinin bütün görsellerinde aynı tutulur. |
+| **Göğüs dekoltesi** | Derin. **Sahibinin kararı (4 Ekim 2026): olduğu gibi kalıyor, ve bütün vakalarda, bütün kıyafetlerde bu seviyede — azalmaz.** Kural `YENI_OYUN_SEZON.md` §0. |
 
 **Açık karar (sahibi):** bu tarzda mı kalınacak, yoksa daha çizgisel bir tarz
 için ikinci deneme mi yapılacak?
