@@ -158,3 +158,17 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Geldiğinde: arka planı ayrılıp taslakta `sinirli` ve `utanmis` ifadelerine
 bağlanır; A/B ile yan yana tutarlılık kontrolü yapılır.
+
+## Sonuç — 4 Ekim 2026
+
+C ve D geldi; referans kopyaları `kaynak/yeni_gorsel/deneme_peri_c.webp`,
+`deneme_peri_d.webp`. Taslakta `sinirli` → C, `utanmis` → D.
+
+| | sonuç |
+|---|---|
+| **İfade** | **Tuttu.** Parça parça, abartı açıkça istenince ikisi de ilk seferde okunaklı geldi: C'de çatık kaş, kısık göz, sıkılmış dudak, parmakla gösterme; D'de pembe yanak, kaçan bakış, eli ağzında, sıkılmış gülümseme. B'nin dersi doğrulandı. |
+| **Tutarlılık** | Manto, bluz, küpe, saç, arka plan, kadraj dördünde aynı. **D'de yüz bir tık yumuşamış/gençleşmiş** — yan yana bakınca fark ediliyor, tek başına değil. |
+| **Yön** | D'de bakış kadrajın soluna değil sağına gitti. Taslakta bütün Peri görselleri aynalandığı için sorun olmadı: C'nin parmağı Cengo'yu gösteriyor, D Cengo'dan kaçıyor. |
+
+**Kural (yeni):** ifade promptu kaşı, gözü, ağzı, yanağı ve elleri **ayrı ayrı**
+tarif eder ve abartıyı açıkça ister. "Kaşını kaldırsın" tek başına yetmiyor.
