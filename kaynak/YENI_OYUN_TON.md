@@ -274,6 +274,7 @@ benziyor mu?"* Taze göz yöntemi bunu da yakalar.
 
 | konu | karar | açık kalan |
 |---|---|---|
+| **Yaş** | **Peri 37, Cengo 34** (eski oyunda 49 ve 38). Peri birkaç yaş büyük; fark atışma malzemesi. | — |
 | **Dil** | Önce Türkçe, sonra İngilizce yeniden yazım (`YENI_OYUN_CERCEVE.md` §2) | — |
 | **Cengo'nun geçmişi** | Eski hapis sırrı **kalkar.** Yerine **yeni, hafif bir sır**: tek bir vakada açılır, hüzünlüdür ama yıkıcı değildir, sonra ton geri gelir. | Sırrın ne olduğu — birlikte yazılacak |
 | **Yan kadro** | **Evet: büroya kendiliğinden "atanmış" biri** (kapıcı, emekli zabıt kâtibi gibi). Maaşlı sekreter değil. §10: tuhaflığı telefon/tekerleme olmaz. | Kim olduğu, adı, tuhaflığı |

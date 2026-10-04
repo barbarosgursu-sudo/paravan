@@ -17,8 +17,8 @@ geçerli.*
 Bu yüzden deneme **iki görsel**: önce referans (A), sonra A'yı referans vererek
 aynı kadın, başka ifade (B). Yalnız A'yı üretmek ikinci soruyu cevaplamaz.
 
-**Kanona dikkat:** Peri'nin yaşı eski oyunda 49'du. Aşağıdaki metin "kırklı
-yaşlarının sonu" diyor. Yeni oyunda değişecekse söylenir, prompt ona göre düzelir.
+**Yaş (sahibinin kararı, 4 Ekim 2026):** Peri **37**, Cengo **34**. Eski oyunda 49
+ve 38'di.
 
 ---
 
@@ -30,11 +30,11 @@ insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuş
 boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
 roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
 
-Karakter: Perihan "Peri" Aksoy, kırklı yaşlarının sonunda, bir zamanlar güzellik
-kraliçesi olmuş, hâlâ çok çekici ve bunun farkında bir kadın. Dik duruş, çenesi
+Karakter: Perihan "Peri" Aksoy, 37 yaşında, bir zamanlar güzellik kraliçesi
+olmuş, hâlâ çok çekici ve bunun farkında bir kadın. Dik duruş, çenesi
 hafif yukarıda. Kumral-kızıl saçları özenle topuz yapılmış, yüzünün iki yanına
-birer tutam düşüyor. Ela gözler, belirgin kaşlar, kırmızı ruj. Yüzünde gülme
-çizgileri var; yaşını saklamıyor, taşıyor.
+birer tutam düşüyor. Ela gözler, belirgin kaşlar, kırmızı ruj. Gözlerinin
+kenarında hafif gülme çizgileri; genç kız değil, olgun ve kendinden emin bir kadın.
 
 Kıyafet: tek bir pahalı parça eski günlerden kalmış: diz boyu, beli kemerli,
 domates kırmızısı yün bir manto. Altında krem rengi ipek bluz. Kulaklarında
@@ -79,7 +79,7 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 |---|---|
 | **Tarz** | Fotoğrafa ya da animeye kaymış mı? Komik bir ifade bu tarzda doğal duruyor mu? |
 | **Tutarlılık (asıl test)** | A ile B yan yana: aynı kadın mı? Yüz şekli, saç rengi ve topuz, mantonun rengi ve kesimi, küpeler. **Bir tanesi bile farklıysa** not edilir. |
-| **Yaş** | "Kırklı yaşların sonu" mu duruyor, yoksa üretici gençleştirmiş mi? |
+| **Yaş** | Otuzlarının sonunda mı duruyor? Üretici yirmilerine gençleştirmiş ya da kırklarına yaşlandırmış mı? |
 | **Yazı taraması** | Büyütüp bak: düğmede, kemer tokasında, küpede harf ya da logo var mı? |
 | **Arka plan** | Gerçekten düz mü? Taslağa koyunca karakter kesilip sahnenin önüne yerleştirilecek. |
 
