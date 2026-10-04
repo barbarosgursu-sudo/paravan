@@ -1,6 +1,6 @@
 # YENİ OYUN — TON BELGESİ (TASLAK)
 
-*4 Ekim 2026. **Taslak:** buradaki her karakter ayrıntısı ve her örnek replik bir
+*4 Ekim 2026. **Taslak:** §9–11'deki kararlar sahibinindir; geri kalan her karakter ayrıntısı ve her örnek replik bir
 **öneridir**, kanon değildir. Sahibi onaylamadan hiçbir vaka bunlara dayanarak
 yazılmaz. Çerçeve kararları ayrı belgede: `YENI_OYUN_CERCEVE.md`.*
 
@@ -81,7 +81,7 @@ Peri'nin yanında olduğunu kimse bilmiyor.
 
 **Asla:** soytarı olmaz. Esprisi bir zırhtır; zırhın altında bir şey olduğunu oyuncu
 arada bir görür, ama Cengo hemen kapatır. **Cengo'nun geçmişi** (eski oyunda: bir
-kadının yerine hapis yatması) → *açık soru, §11.*
+kadının yerine hapis yatması) → *karar §11.*
 
 ---
 
@@ -189,7 +189,7 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 - **Nurcan kuralı şakaya da uyar.** Cengo'nun esprisi, oyuncunun henüz hak etmediği
   bir ipucunu "yanlışlıkla" söyleyemez. Komik yan karakterlerin en kolay düştüğü
   tuzak budur.
-- **Dördüncü duvar** (Cengo'nun oyuncuya göz kırpması) → *açık soru, §11.* Mavi Ay'ın
+- **Dördüncü duvar** (Cengo'nun oyuncuya göz kırpması) → *karar §11.* Mavi Ay'ın
   imzasıydı ama oyunda fazla kullanılırsa oyuncu hikâyenin dışına düşer.
 - **Görsel ton:** gece ve yağmur değil, gün ışığı ve kalabalık. İstanbul'un
   gürültülü, renkli, pazarlıklı yüzü. Ayrıntısı yeni görsel stil sözleşmesinde.
@@ -198,7 +198,7 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 
 ## 9. EKONOMİ
 
-*4 Ekim 2026'da sahibiyle konuşularak karara bağlandı. Hedefin ne olacağı açık (§11).*
+*4 Ekim 2026'da sahibiyle konuşularak karara bağlandı. Hedef: Peri'nin eski hayatından geri alınacak bir şey; ne olduğu açık (§11).*
 
 **Eski oyunda ne oldu.** Her omurga vakadan sonra 59.000 lira sabit gider kesiliyordu.
 Kararların çoğu bunun altında kazandırıyordu; temiz kararların çoğu 0 ya da eksiydi.
@@ -270,21 +270,20 @@ benziyor mu?"* Taze göz yöntemi bunu da yakalar.
 
 ---
 
-## 11. AÇIK SORULAR — SAHİBİNE
+## 11. SAHİBİNİN KARARLARI (4 Ekim 2026)
 
-1. ~~**Dil.**~~ **Karara bağlandı (4 Ekim 2026):** ilk hâli Türkçe, sonra İngilizce.
-   Örnekler Türkçe kalıyor. Kayıt `YENI_OYUN_CERCEVE.md` §2'de.
-2. **Cengo'nun geçmişi.** Eski oyundaki "bir kadının yerine yattı" sırrı kalsın mı,
-   yoksa yeni bir sır mı? Kalırsa ağır bir damar taşır. Hafif bir oyunda tek ciddi
-   damar olarak iyi de çalışabilir.
-3. **Yan kadro.** Ofiste üçüncü bir komik ses olsun mu? Öneri yönü: binanın
-   kapıcısı ya da emekli bir zabıt kâtibi, büroya kendiliğinden "atanmış". Adı,
-   tuhaflığı senden. **§10:** tuhaflığı telefonla ya da tekerlemeyle ilgili olmaz.
-4. **Dördüncü duvar:** hiç, nadiren (vaka başına bir), ya da imza olarak?
-5. **Oyunun adı.** Türkçe sürümde ajans "Paravan" kalabilir (§10). İngilizce ad
-   hâlâ açık; **§10:** Peri'nin reklam şöhretinden türetilmez.
-6. **Kimin gözünden?** *(Not: Mavi Ay'da anlatıcı yoktu; sahne + diyalog.)* Eski prolog Peri'nin ağzından. Yeni oyunda da anlatıcı Peri
-   mi, yoksa tarafsız bir anlatıcı mı?
-7. **Biriktirme hedefi ne?** Öneri yönleri: ofis için bir şey (Cengo'nun yıllardır
-   istediği bir eşya), ya da Peri'nin eski hayatından geri alınacak bir şey. Hedef
-   hikâyeye eklemedir — seçim senin. (§9)
+| konu | karar | açık kalan |
+|---|---|---|
+| **Dil** | Önce Türkçe, sonra İngilizce yeniden yazım (`YENI_OYUN_CERCEVE.md` §2) | — |
+| **Cengo'nun geçmişi** | Eski hapis sırrı **kalkar.** Yerine **yeni, hafif bir sır**: tek bir vakada açılır, hüzünlüdür ama yıkıcı değildir, sonra ton geri gelir. | Sırrın ne olduğu — birlikte yazılacak |
+| **Yan kadro** | **Evet: büroya kendiliğinden "atanmış" biri** (kapıcı, emekli zabıt kâtibi gibi). Maaşlı sekreter değil. §10: tuhaflığı telefon/tekerleme olmaz. | Kim olduğu, adı, tuhaflığı |
+| **Dördüncü duvar** | **Seyrek, sonradan başlar.** İlk vakalarda yok; sonra vaka başına en çok bir kez, yalnız Cengo. | Hangi vakada başlayacağı |
+| **Anlatıcı** | **Yok.** Sahne + diyalog; kısa, tarafsız sahne notları. Eski prologdaki Peri'nin iç sesi kalkar. | — |
+| **Para hedefi** | **Peri'nin eski hayatından geri alınacak bir şey** (§9). | Ne olduğu |
+| **Ajans adı** | Türkçe sürümde **"Paravan"** kalabilir (§10). | — |
+| **İngilizce ad** | **Ertelendi**; İngilizce yeniden yazıma geçerken seçilecek. | Ad |
+
+**Sıradaki iş:** vaka listesi — her vaka için birer paragraflık fikir, sahibi seçer.
+Açık kalan dört ayrıntı (Cengo'nun sırrı, yan karakter, para hedefi, dördüncü duvarın
+başladığı vaka) vaka listesiyle birlikte önerilir; hepsi kanona ekleme olduğu için
+onaysız yazılmaz.
