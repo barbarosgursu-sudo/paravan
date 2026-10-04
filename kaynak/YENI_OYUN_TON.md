@@ -279,7 +279,7 @@ benziyor mu?"* Taze göz yöntemi bunu da yakalar.
 | **Cengo'nun geçmişi** | Eski hapis sırrı **kalkar.** Yerine **yeni, hafif bir sır**: tek bir vakada açılır, hüzünlüdür ama yıkıcı değildir, sonra ton geri gelir. | Sırrın ne olduğu — birlikte yazılacak |
 | **Yan kadro** | **Evet: büroya kendiliğinden "atanmış" biri** (kapıcı, emekli zabıt kâtibi gibi). Maaşlı sekreter değil. §10: tuhaflığı telefon/tekerleme olmaz. | Kim olduğu, adı, tuhaflığı |
 | **Dördüncü duvar** | **Seyrek, sonradan başlar.** İlk vakalarda yok; sonra vaka başına en çok bir kez, yalnız Cengo. | Hangi vakada başlayacağı |
-| **Anlatıcı** | **Yok.** Sahne + diyalog; kısa, tarafsız sahne notları. Eski prologdaki Peri'nin iç sesi kalkar. | — |
+| **Anlatıcı** | **Yok.** Sahne + diyalog; kısa, tarafsız sahne notları. Eski oyunun açılışındaki Peri'nin iç sesi kalkar. | — |
 | **Para hedefi** | **Peri'nin eski hayatından geri alınacak bir şey** (§9). | Ne olduğu |
 | **Ajans adı** | Türkçe sürümde **"Paravan"** kalabilir (§10). | — |
 | **İngilizce ad** | **Ertelendi**; İngilizce yeniden yazıma geçerken seçilecek. | Ad |

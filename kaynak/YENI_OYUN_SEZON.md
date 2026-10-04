@@ -35,7 +35,7 @@ bu satır eklenir.
 
 ---
 
-## PROLOG — HACİZ SABAHI · *bedava · ~3-4 dakika*
+## AÇILIŞ — HACİZ SABAHI · *bedava · ~3-4 dakika*
 
 *Sahibinin onayıyla (4 Ekim 2026). Üç kanon eklemesi onaylandı: Cengo'nun bordrodaki
 hayali çalışan olarak gelmesi, tacın hacizde gitmesi, Peri'nin anahtarının kapıyı
@@ -307,7 +307,7 @@ Her vakada iki karakterin yeni kıyafeti, her kıyafette 4 ifade:
 | | görsel |
 |---|---|
 | Vaka başına (Peri 4 + Cengo 4) | 8 |
-| Vaka 1 temel set (Peri + Cengo) — prologda da kullanılır | 8 |
+| Vaka 1 temel set (Peri + Cengo) — açılışta da kullanılır | 8 |
 | Vaka 2–8 (7 vaka × 8) | 56 |
 | Müşteri ve tanık figürleri (vaka başına ~2) | ~16 |
 | Arka planlar (vaka başına ~2) | ~16 |

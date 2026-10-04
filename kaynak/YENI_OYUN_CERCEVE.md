@@ -13,7 +13,7 @@ belgesi değil — henüz tek satır yazılmadı.*
 Mavi Ay (*Moonlighting*, 1985-89) tonunda, İngilizce, İstanbul'da geçen bir
 dedektiflik oyunu. Mevcut motorun üstüne kurulacak.
 
-**Neden Mavi Ay:** Paravan'ın prologu zaten o dizinin kurulumu. Araştırıldı ve
+**Neden Mavi Ay:** Paravan'ın açılışı zaten o dizinin kurulumu. Araştırıldı ve
 birebir çıktı:
 
 | Mavi Ay | Paravan |
@@ -133,7 +133,7 @@ Bedava vakalar hafif ve eğlenceli olur; ücretli kısımda zor Columbo vakalar�
 ## 5. GÖRSEL — asıl maliyet
 
 Mevcut 63 görsel ayrıldı: ~26 vakaya özel (mekân/kanıt), 14 vaka karakteri portresi,
-Peri+Cengo portresi, 4 Cengo ikili karesi, 4 ruh hâli, 3 prolog.
+Peri+Cengo portresi, 4 Cengo ikili karesi, 4 ruh hâli, 3 açılış görseli.
 
 Sprite formatı **maliyeti düşürüyor:**
 
