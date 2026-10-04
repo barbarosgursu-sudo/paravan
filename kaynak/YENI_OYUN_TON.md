@@ -243,10 +243,8 @@ seçildikten sonra.
 
 ## 10. AÇIK SORULAR — SAHİBİNE
 
-1. **Dil.** `YENI_OYUN_CERCEVE.md` 23 Eylül'de **"yalnız İngilizce"** kararını
-   kaydetti. Bu belgedeki örnekler Türkçe yazıldı. Karar değiştiyse çerçeve belgesini
-   güncelleriz; değişmediyse örnekleri İngilizce yeniden yazarım. Komedi çevrilmediği
-   için ikisinin arası yok.
+1. ~~**Dil.**~~ **Karara bağlandı (4 Ekim 2026):** ilk hâli Türkçe, sonra İngilizce.
+   Örnekler Türkçe kalıyor. Kayıt `YENI_OYUN_CERCEVE.md` §2'de.
 2. **Cengo'nun geçmişi.** Eski oyundaki "bir kadının yerine yattı" sırrı kalsın mı,
    yoksa yeni bir sır mı? Kalırsa ağır bir damar taşır. Hafif bir oyunda tek ciddi
    damar olarak iyi de çalışabilir.

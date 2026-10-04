@@ -35,9 +35,9 @@ kılıkta çıkar — *"kapıyı çalalım" / "kilidi açalım."*
 
 | konu | karar |
 |---|---|
-| **Dil** | **Sadece İngilizce.** Çeviri değil, orijinal olarak İngilizce yazılır. |
+| **Dil** | **Önce Türkçe, sonra İngilizce** *(4 Ekim 2026, sahibi; 23 Eylül'deki "sadece İngilizce" kararının yerine).* İngilizce geçiş çeviri değil, **yeniden yazım** olacak — espri çevrilmez (bkz. gerekçe). |
 | **Metin anahtarı sistemi** | **Kurulmayacak.** Metin JSON içinde kalır. |
-| **Mekân** | **İstanbul.** Türk karakterler, Türk mekânlar, İngilizce metin. |
+| **Mekân** | **İstanbul.** Türk karakterler, Türk mekânlar. |
 | **Platform** | **Steam birinci, Android ikinci.** Aynı HTML; Electron + Capacitor. |
 | **Satış** | İlk 2-3 vaka bedava, gerisi **tek seferlik ödeme.** |
 | **Reklam / elmas / abonelik** | **Yok. Üçü de reddedildi.** |
