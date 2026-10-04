@@ -81,7 +81,7 @@ Peri'nin yanında olduğunu kimse bilmiyor.
 
 **Asla:** soytarı olmaz. Esprisi bir zırhtır; zırhın altında bir şey olduğunu oyuncu
 arada bir görür, ama Cengo hemen kapatır. **Cengo'nun geçmişi** (eski oyunda: bir
-kadının yerine hapis yatması) → *açık soru, §10.*
+kadının yerine hapis yatması) → *açık soru, §11.*
 
 ---
 
@@ -189,7 +189,7 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 - **Nurcan kuralı şakaya da uyar.** Cengo'nun esprisi, oyuncunun henüz hak etmediği
   bir ipucunu "yanlışlıkla" söyleyemez. Komik yan karakterlerin en kolay düştüğü
   tuzak budur.
-- **Dördüncü duvar** (Cengo'nun oyuncuya göz kırpması) → *açık soru, §10.* Mavi Ay'ın
+- **Dördüncü duvar** (Cengo'nun oyuncuya göz kırpması) → *açık soru, §11.* Mavi Ay'ın
   imzasıydı ama oyunda fazla kullanılırsa oyuncu hikâyenin dışına düşer.
 - **Görsel ton:** gece ve yağmur değil, gün ışığı ve kalabalık. İstanbul'un
   gürültülü, renkli, pazarlıklı yüzü. Ayrıntısı yeni görsel stil sözleşmesinde.
@@ -198,7 +198,7 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 
 ## 9. EKONOMİ
 
-*4 Ekim 2026'da sahibiyle konuşularak karara bağlandı. Hedefin ne olacağı açık (§10).*
+*4 Ekim 2026'da sahibiyle konuşularak karara bağlandı. Hedefin ne olacağı açık (§11).*
 
 **Eski oyunda ne oldu.** Her omurga vakadan sonra 59.000 lira sabit gider kesiliyordu.
 Kararların çoğu bunun altında kazandırıyordu; temiz kararların çoğu 0 ya da eksiydi.
@@ -241,7 +241,36 @@ seçildikten sonra.
 
 ---
 
-## 10. AÇIK SORULAR — SAHİBİNE
+## 10. ÖZGÜNLÜK — MAVİ AY'DAN NE ALINIR
+
+*4 Ekim 2026, sahibinin kararı: **"Birebir aynısı olmayacak, bize sıkıntı
+çıkarmayacak."** Hukuki danışmanlık değil; yayın öncesi bir telif avukatına kısa bir
+göz attırılacak.*
+
+İlke: **fikir ve yapı serbesttir, somut ifade değildir.** Dinamiği al, her somut
+ayrıntıyı kendin üret.
+
+| ALINIR (yapı, tür kalıbı) | ALINMAZ (somut ifade) |
+|---|---|
+| Dolandırılmış eski ünlü + elde kalan büro + sokağı bilen adam | Adlar: Blue Moon, Maddie, David, Agnes, Herbert |
+| Atışma, screwball ritim | Dizinin replikleri, sahneleri, bölüm kurguları |
+| Kavuşamama gerilimi | Dizinin ilişki olayları (gebelik, trende evlilik vb.) |
+| Tuhaf bir ofis çalışanı | Agnes'in imzası: telefonu tekerlemeyle, "günün kampanyası"yla açmak |
+| Ara sıra seyirciye dönmek | Dizinin bilinen göz kırpmaları ("reklam arasında çözdüm" gibi) |
+| Tek bölümlük vakalar | Ajans adının kadının reklam şöhretinden gelmesi |
+| | Pilotun kurgusu: kadın büroyu satmak ister, adam ortaklığa ikna eder |
+
+**Bizi zaten ayıran kurulum — korunur:** dolandıran **avukat** (muhasebeci değil);
+**İstanbul**; Cengo **ortak değil, tek çalışan**; büronun adı **"Paravan"** — kendi
+sahteliğiyle dalga geçen bir ad, şöhretten gelmiyor.
+
+**Denetim:** her vaka taslağı incelemeye giderken brief'e bir madde eklenir: *"Bu
+sahne/replik/karakter, bilinen bir dizi ya da filmin somut bir sahnesine
+benziyor mu?"* Taze göz yöntemi bunu da yakalar.
+
+---
+
+## 11. AÇIK SORULAR — SAHİBİNE
 
 1. ~~**Dil.**~~ **Karara bağlandı (4 Ekim 2026):** ilk hâli Türkçe, sonra İngilizce.
    Örnekler Türkçe kalıyor. Kayıt `YENI_OYUN_CERCEVE.md` §2'de.
@@ -250,10 +279,11 @@ seçildikten sonra.
    damar olarak iyi de çalışabilir.
 3. **Yan kadro.** Ofiste üçüncü bir komik ses olsun mu? Öneri yönü: binanın
    kapıcısı ya da emekli bir zabıt kâtibi, büroya kendiliğinden "atanmış". Adı,
-   tuhaflığı senden.
+   tuhaflığı senden. **§10:** tuhaflığı telefonla ya da tekerlemeyle ilgili olmaz.
 4. **Dördüncü duvar:** hiç, nadiren (vaka başına bir), ya da imza olarak?
-5. **Ajansın ve oyunun adı.** Hâlâ açık.
-6. **Kimin gözünden?** Eski prolog Peri'nin ağzından. Yeni oyunda da anlatıcı Peri
+5. **Oyunun adı.** Türkçe sürümde ajans "Paravan" kalabilir (§10). İngilizce ad
+   hâlâ açık; **§10:** Peri'nin reklam şöhretinden türetilmez.
+6. **Kimin gözünden?** *(Not: Mavi Ay'da anlatıcı yoktu; sahne + diyalog.)* Eski prolog Peri'nin ağzından. Yeni oyunda da anlatıcı Peri
    mi, yoksa tarafsız bir anlatıcı mı?
 7. **Biriktirme hedefi ne?** Öneri yönleri: ofis için bir şey (Cengo'nun yıllardır
    istediği bir eşya), ya da Peri'nin eski hayatından geri alınacak bir şey. Hedef
