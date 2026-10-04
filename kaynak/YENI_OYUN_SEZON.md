@@ -15,7 +15,7 @@ bağlayan üç iplik var, üçü de kararlarla ilerler:
 |---|---|
 | **Peri–Cengo** | `cengoBag`; Ters → Atışma → Elektrik → Neredeyse. **Kavuşmazlar.** |
 | **Para hedefi** | Peri'nin eski hayatından geri alınacak bir şey (§9). Vaka 7'de karşısına çıkar. |
-| **Cengo'nun sırrı** | Vaka 6'da açılır. Öncesinde yalnız ipuçları: telefona bakıp açmaması, bir semtten geçmek istememesi. |
+| **Cengo'nun sırrı** | Uzaktaki kızı (§10). Vaka 6'da açılır. Öncesinde yalnız ipuçları: telefona bakıp açmaması, bir okulun önünden geçmek istememesi. |
 
 **Bedava vakalar:** 1 ve 2 (gerekirse 3). Hafif, hızlı, tek başına tatmin edici;
 ama 2'nin sonunda bir iplik ucu açılır ki oyuncu devamını merak etsin.
@@ -251,13 +251,20 @@ Eski oyun 63 görseldi. Düşürmenin iki yolu (sahibinin kararı):
 
 ---
 
-## 10. SAHİBİNE
+## 10. SAHİBİNİN KARARLARI (4 Ekim 2026)
 
-1. **Sekiz vakadan hangileri kalsın**, hangileri çıksın ya da değişsin?
-2. **Vaka 6 — Cengo'nun sırrı:** a, b, c, ya da başka bir şey?
-3. **Vaka 7 — Peri'nin geri almak istediği eşya** ne? Öneri yönleri: güzellik
-   kraliçeliği tacı; annesinden kalan bir piyano; ilk kapak fotoğrafının
-   orijinal baskısı.
-4. **Vaka 3 — yan karakter** kim? (Ton belgesi §11: büroya kendiliğinden atanmış
-   biri; telefonla ya da tekerlemeyle ilgili tuhaflığı olmayacak.)
-5. **Görsel maliyeti:** ~96 kabul mü, yoksa §9'daki düşürme yollarından biri mi?
+| konu | karar |
+|---|---|
+| **Vakalar** | **Sekizi de kalıyor.** Yazarken değişebilir. |
+| **Cengo'nun sırrı (V6)** | **b — uzaktaki kızı.** On yedi yaşında bir kızı var; annesiyle anlaşarak uzaktan bakıyor. Kızı onu büyük bir dedektif sanıyor ve yardım istemeye geliyor. |
+| **Para hedefi (V7)** | **Güzellik kraliçesi tacı.** Haczedilip satılmış; müzayedede karşısına çıkar. |
+| **Yan karakter (V3)** | **Pastanenin genç kadın çalışanı** — çırak/garson ayrımı V3 yazılırken. **Yetişkin: yirmili yaşlarının ortası** (her görsel ve metinde açıkça belirtilir). Güzel, alımlı; kıyafetlerinde zaman zaman dekolte olabilir. Adı ve kişiliği V3 ile birlikte yazılır. |
+| **Görsel sayısı** | **~96 kalıyor.** Her vakada ikisi de yeni kıyafet, dörder ifade. |
+| **Peri'nin dekoltesi** | Her vakada, her kıyafette deneme seviyesinde; azalmaz (§0). |
+
+**Yazım notu — Cengo'nun kızı:** reşit değil. Görsel ve metinde çocuk/ergen olarak,
+tamamen masum çizilir; hiçbir romantik ya da cinsel çerçeveye girmez. Yan karakterle
+ilgili dekolte kararı yalnızca yan karakter içindir.
+
+**Açık kalan:** yan karakterin adı ve kişiliği; çırak mı garson mu; Cengo'nun
+kızının adı.
