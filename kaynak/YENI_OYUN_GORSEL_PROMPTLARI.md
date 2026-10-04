@@ -104,3 +104,57 @@ ve `deneme_peri_b.webp`'de duruyor (referans olarak, oyuna gömülmedi).
 
 **Açık karar (sahibi):** bu tarzda mı kalınacak, yoksa daha çizgisel bir tarz
 için ikinci deneme mi yapılacak?
+
+---
+
+# DENEME 2 — PERİ, İKİ İFADE DAHA (4 Ekim 2026)
+
+Taslaktaki konuşmada Peri'nin beş ifadesi geçiyor; elde iki görsel var (A nötr,
+B şüpheci). Eksik ikisi: **sinirli** ("O zaman peşin değil.", "Bunun adı haneye
+tecavüz.") ve **utanmış** ("…Kimse görmesin.").
+
+**B'nin dersi uygulandı:** "kaş kaldırmış" yumuşak çıkmıştı. Bu yüzden ifadeler
+yüzün parça parça hareketiyle, abartı açıkça istenerek yazıldı.
+
+Her ikisinde de **A'yı referans görsel olarak ver.** Dekolte kararı verilene kadar
+kıyafet A ile aynı kalıyor; tutarlılık testi bozulmasın.
+
+## C — Sinirli
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı kırmızı
+manto, aynı krem bluz, aynı altın küpeler, aynı çizim tarzı, aynı düz açık bej
+arka plan, aynı kadraj (dikey, uyluklardan yukarısı).
+
+Değişen tek şey ifade ve kollar. İfade: açıkça sinirli, abartılı ve okunaklı.
+İki kaşı da aşağı ve içe çatılmış, kaşlarının arasında belirgin bir kırışık.
+Gözleri kısılmış. Dudakları sıkıca birbirine bastırılmış, ağzının köşeleri
+aşağıda. Burun kanatları hafif açılmış. Kollar: bir eli belinde, öteki eli
+öne uzanmış, işaret parmağı ileriyi gösteriyor, karşısındakini azarlıyor.
+
+Burnu kadrajın soluna bakıyor, gözleri kameraya dönük.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## D — Utanmış
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı kırmızı
+manto, aynı krem bluz, aynı altın küpeler, aynı çizim tarzı, aynı düz açık bej
+arka plan, aynı kadraj (dikey, uyluklardan yukarısı).
+
+Değişen tek şey ifade ve kollar. İfade: açıkça utanmış ve mahcup, ama
+gülümsemesini tutamıyor; yakalanmış bir çocuk gibi. Yanakları belirgin biçimde
+pembeleşmiş. Kaşları ortada yukarı kalkmış. Bakışları kameradan kaçıyor, aşağıya
+ve kadrajın soluna bakıyor. Dudaklarını ısırır gibi, yarım, sıkılmış bir
+gülümseme. Kollar: bir eli ağzının önünde, parmak uçları dudağına değiyor;
+öteki kolu gövdesine yakın, eli mantonun kuşağını tutuyor.
+
+Başı hafif öne eğik, burnu kadrajın soluna bakıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+Geldiğinde: arka planı ayrılıp taslakta `sinirli` ve `utanmis` ifadelerine
+bağlanır; A/B ile yan yana tutarlılık kontrolü yapılır.
