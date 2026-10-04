@@ -81,7 +81,7 @@ Peri'nin yanında olduğunu kimse bilmiyor.
 
 **Asla:** soytarı olmaz. Esprisi bir zırhtır; zırhın altında bir şey olduğunu oyuncu
 arada bir görür, ama Cengo hemen kapatır. **Cengo'nun geçmişi** (eski oyunda: bir
-kadının yerine hapis yatması) → *açık soru, §9.*
+kadının yerine hapis yatması) → *açık soru, §10.*
 
 ---
 
@@ -189,14 +189,59 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 - **Nurcan kuralı şakaya da uyar.** Cengo'nun esprisi, oyuncunun henüz hak etmediği
   bir ipucunu "yanlışlıkla" söyleyemez. Komik yan karakterlerin en kolay düştüğü
   tuzak budur.
-- **Dördüncü duvar** (Cengo'nun oyuncuya göz kırpması) → *açık soru, §9.* Mavi Ay'ın
+- **Dördüncü duvar** (Cengo'nun oyuncuya göz kırpması) → *açık soru, §10.* Mavi Ay'ın
   imzasıydı ama oyunda fazla kullanılırsa oyuncu hikâyenin dışına düşer.
 - **Görsel ton:** gece ve yağmur değil, gün ışığı ve kalabalık. İstanbul'un
   gürültülü, renkli, pazarlıklı yüzü. Ayrıntısı yeni görsel stil sözleşmesinde.
 
 ---
 
-## 9. AÇIK SORULAR — SAHİBİNE
+## 9. EKONOMİ
+
+*4 Ekim 2026'da sahibiyle konuşularak karara bağlandı. Hedefin ne olacağı açık (§10).*
+
+**Eski oyunda ne oldu.** Her omurga vakadan sonra 59.000 lira sabit gider kesiliyordu.
+Kararların çoğu bunun altında kazandırıyordu; temiz kararların çoğu 0 ya da eksiydi.
+Borca vaka başına %10 faiz biniyordu. Sonuç: hangi yolu seçersen seç kasa eksiye
+gidiyor, bir kez düşen bir daha çıkamıyordu. Kasvetli bir oyunda bu bilinçli bir
+baskıydı; hafif bir oyunda keyfi öldürür.
+
+**Para neden kaldırılmıyor.** Paranın asıl işi muhasebe değil, **cazibedir.** Her
+kararda üç şey çekişir: para, vicdan, Cengo. Para giderse kirli seçeneği seçmek için
+sebep kalmaz ve her karar "doğru cevabı bul" sınavına döner.
+
+**Karar: batmayı kaldır, cazibeyi tut.**
+
+| | |
+|---|---|
+| **Kalkar** | Batıran aylık giderler, faiz, borç sarmalı, icra krizleri |
+| **Kalır** | Kasa; kararların para getirmesi ya da götürmesi |
+| **Eklenir** | Biriktirilecek bir **hedef** — para cezadan kaçılan şey değil, istenen şey olur |
+
+**Sayıların kuralları** (yeni vaka verisi yazılırken):
+
+1. **Her vakanın sabit bir ücreti olur** ve o vakanın masrafını karşılar. Kararlar
+   yalnızca bunun üstündeki fazlayı belirler.
+2. **Dürüst yol ayakta tutar.** Her vakada en az bir temiz seçenek kasayı eksiye
+   düşürmez. Kirli yol daha çok kazandırır, ama fark küçüktür. Bu bir testle
+   korunur (`test_borc.js`'in kardeşi).
+3. **Para inip çıkar.** Bazı vakalar bolluk, bazıları darlık getirir. Oyuncu hem
+   "bu ay yırttık" hem "kirayı nasıl ödeyeceğiz" hissini yaşar.
+4. **Eksiye düşmek ceza değil, sahnedir.** Kasa boşaldığında oyun daralmaz; Peri ev
+   sahibinden saklanır, Cengo'nun "adamı" faturayı erteletir. Para derdi atışma
+   malzemesidir.
+
+**Değişmeyen sözleşmeler:** kaybetme yok; ekonomi seçenekleri daraltabilir ama
+oyuncuyu kirli karara zorlayamaz.
+
+**Motor tarafı:** gider, faiz ve başlangıç kasası zaten `game_data.json` → `ekonomi`
+alanında ayar olarak duruyor; batmayı kaldırmak yeni veride bu sayıları farklı
+kurmak demek. Hedef ve "ödenmeyen ay" sahneleri ise yeni iş — tasarımı hedef
+seçildikten sonra.
+
+---
+
+## 10. AÇIK SORULAR — SAHİBİNE
 
 1. **Dil.** `YENI_OYUN_CERCEVE.md` 23 Eylül'de **"yalnız İngilizce"** kararını
    kaydetti. Bu belgedeki örnekler Türkçe yazıldı. Karar değiştiyse çerçeve belgesini
@@ -212,3 +257,6 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 5. **Ajansın ve oyunun adı.** Hâlâ açık.
 6. **Kimin gözünden?** Eski prolog Peri'nin ağzından. Yeni oyunda da anlatıcı Peri
    mi, yoksa tarafsız bir anlatıcı mı?
+7. **Biriktirme hedefi ne?** Öneri yönleri: ofis için bir şey (Cengo'nun yıllardır
+   istediği bir eşya), ya da Peri'nin eski hayatından geri alınacak bir şey. Hedef
+   hikâyeye eklemedir — seçim senin. (§9)
