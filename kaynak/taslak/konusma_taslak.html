@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Paravan Konuşma Taslağı</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Nunito:wght@500;700;800&display=swap">
+<style>
+/* Layout: tek ekranlık dikey oyun — üstte sahne (arka plan + iki figür), altta konuşma kutusu. Tek görünüm, tema değişmez. */
+:root {
+  --gece: #1d2a33;          /* çerçeve, metin */
+  --kagit: #fff7e8;         /* konuşma kutusu */
+  --tramvay: #c8372d;       /* Peri'nin isim plakası, vurgu */
+  --bogaz: #1f7a80;         /* Cengo'nun isim plakası */
+  --simit: #e9a83a;         /* ikincil vurgu, seçim çerçevesi */
+  --soluk: #8a8f87;         /* not metni */
+  --font-plaka: "Shrikhand", "Georgia", serif;
+  --font-metin: "Nunito", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+html, body { height: 100%; }
+body {
+  margin: 0; background: var(--gece); color: var(--gece);
+  font-family: var(--font-metin);
+  display: flex; justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.oyun {
+  position: relative; width: 100%; max-width: 480px; height: 100%;
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--gece);
+}
+
+/* Üst şerit */
+.serit {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 10px 16px; color: var(--kagit); font-size: 13px; font-weight: 700;
+  letter-spacing: .04em; z-index: 3;
+}
+.serit .vaka { text-transform: uppercase; opacity: .85; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.serit .kasa { font-variant-numeric: tabular-nums; background: rgba(255,247,232,.12); padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
+.taslak-etiket {
+  position: absolute; top: 46px; left: 16px; z-index: 3;
+  font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+  background: var(--simit); color: var(--gece); padding: 3px 8px; border-radius: 4px;
+}
+
+/* Sahne */
+.sahne { position: relative; flex: 1 1 auto; min-height: 0; overflow: hidden; }
+.arka { position: absolute; inset: 0; transition: opacity .5s ease; }
+.arka svg { width: 100%; height: 100%; display: block; }
+.mekan-adi {
+  position: absolute; right: 16px; top: 12px; z-index: 2;
+  font-family: var(--font-plaka); font-size: 15px; color: var(--kagit);
+  text-shadow: 0 2px 0 rgba(0,0,0,.35);
+}
+.figurler {
+  position: absolute; left: 0; right: 0; bottom: -6px; height: 78%;
+  display: flex; justify-content: space-between; align-items: flex-end;
+  padding: 0 4px; pointer-events: none;
+}
+.figur {
+  height: 100%; aspect-ratio: 200 / 360; max-width: 50%;
+  transition: transform .25s ease, filter .25s ease, opacity .25s ease;
+  transform-origin: bottom center;
+}
+.figur svg { width: 100%; height: 100%; display: block; }
+.figur.pasif { opacity: .62; transform: translateY(10px) scale(.94); }
+.figur.aktif { transform: translateY(0) scale(1); }
+.figur.zipla { animation: zipla .28s ease; }
+@keyframes zipla { 40% { transform: translateY(-8px) scale(1.01); } }
+
+/* Konuşma kutusu */
+.kutu-alani { position: relative; padding: 0 12px 14px; z-index: 2; flex: 0 0 auto; }
+.kutu {
+  position: relative; background: var(--kagit); border-radius: 14px;
+  border: 3px solid var(--gece); box-shadow: 0 5px 0 rgba(0,0,0,.35);
+  padding: 22px 16px 14px; min-height: 128px; cursor: pointer;
+  display: flex; flex-direction: column;
+}
+.kutu:focus-visible { outline: 3px solid var(--simit); outline-offset: 3px; }
+.plaka {
+  position: absolute; top: -18px; left: 14px;
+  font-family: var(--font-plaka); font-size: 18px; line-height: 1;
+  color: var(--kagit); padding: 7px 14px 8px; border-radius: 10px;
+  border: 3px solid var(--gece); transform: rotate(-2deg);
+}
+.plaka.peri { background: var(--tramvay); }
+.plaka.cengo { background: var(--bogaz); left: auto; right: 14px; transform: rotate(2deg); }
+.plaka[hidden] { display: none !important; }
+.replik { font-size: 18px; line-height: 1.45; font-weight: 700; margin: 0; min-height: 52px; }
+.replik.not { font-style: italic; font-weight: 500; color: var(--soluk); font-size: 16px; }
+.ileri {
+  align-self: flex-end; margin-top: auto; padding-top: 6px; font-size: 13px; font-weight: 800;
+  color: var(--soluk); letter-spacing: .06em; text-transform: uppercase;
+}
+.ileri::after { content: " ▸"; display: inline-block; animation: nabiz 1s ease-in-out infinite; }
+@keyframes nabiz { 50% { transform: translateX(3px); } }
+
+/* Seçimler */
+.secimler { display: flex; flex-direction: column; gap: 10px; }
+.secim-baslik { font-size: 13px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--soluk); margin: 0 0 2px; }
+.secim {
+  font: inherit; font-size: 17px; font-weight: 800; text-align: left;
+  background: #fff; color: var(--gece); border: 3px solid var(--gece);
+  border-radius: 12px; padding: 12px 14px; min-height: 48px; cursor: pointer;
+  box-shadow: 0 3px 0 var(--gece); transition: transform .1s ease, box-shadow .1s ease, background .15s;
+}
+.secim:hover { background: #fff2d6; }
+.secim:active { transform: translateY(3px); box-shadow: 0 0 0 var(--gece); }
+.secim:focus-visible { outline: 3px solid var(--simit); outline-offset: 2px; }
+
+.son { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.son p { margin: 0; font-size: 16px; line-height: 1.5; }
+
+@media (max-height: 640px) {
+  .replik { font-size: 16px; }
+  .kutu { min-height: 112px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<div class="oyun">
+  <div class="serit">
+    <span class="vaka" id="vakaAdi">Taslak vaka · Kayıp tekne</span>
+    <span class="kasa" id="kasa">Kasa ₺4.250</span>
+  </div>
+  <span class="taslak-etiket">Taslak · yer tutucu çizim</span>
+
+  <div class="sahne" id="sahne">
+    <div class="arka" id="arka"></div>
+    <div class="mekan-adi" id="mekanAdi"></div>
+    <div class="figurler">
+      <div class="figur pasif" id="figPeri"></div>
+      <div class="figur pasif" id="figCengo"></div>
+    </div>
+  </div>
+
+  <div class="kutu-alani">
+    <div class="kutu" id="kutu" tabindex="0" role="button" aria-label="Devam et">
+      <span class="plaka peri" id="plakaPeri" hidden>Peri</span>
+      <span class="plaka cengo" id="plakaCengo" hidden>Cengo</span>
+      <div id="icerik"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ---------- Yer tutucu figürler ----------
+const KASLAR = {
+  normal:  ["M58 82 L80 80", "M120 80 L142 82"],
+  kas:     ["M58 82 L80 80", "M120 72 Q131 64 143 70"],
+  sinirli: ["M58 76 L82 84", "M118 84 L142 76"],
+  gulen:   ["M58 80 Q69 72 80 78", "M120 78 Q131 72 142 80"],
+  utanmis: ["M58 78 L80 82", "M120 82 L142 78"]
+};
+const AGIZ = {
+  normal:  '<path d="M86 126 Q100 134 114 126" fill="none" stroke="#1d2a33" stroke-width="3.5" stroke-linecap="round"/>',
+  kas:     '<path d="M88 128 L114 125" fill="none" stroke="#1d2a33" stroke-width="3.5" stroke-linecap="round"/>',
+  sinirli: '<path d="M86 132 Q100 122 114 132" fill="none" stroke="#1d2a33" stroke-width="3.5" stroke-linecap="round"/>',
+  gulen:   '<path d="M84 122 Q100 146 116 122 Z" fill="#7a2620" stroke="#1d2a33" stroke-width="3" stroke-linejoin="round"/>',
+  utanmis: '<path d="M90 129 q5 -4 10 0 q5 4 10 0" fill="none" stroke="#1d2a33" stroke-width="3" stroke-linecap="round"/>'
+};
+function yuz(ifade, ten) {
+  const [k1, k2] = KASLAR[ifade];
+  const allik = ifade === "utanmis"
+    ? '<ellipse cx="70" cy="114" rx="9" ry="5" fill="#e4766b" opacity=".7"/><ellipse cx="130" cy="114" rx="9" ry="5" fill="#e4766b" opacity=".7"/>'
+    : "";
+  const goz = ifade === "gulen"
+    ? '<path d="M62 98 Q69 92 76 98" fill="none" stroke="#1d2a33" stroke-width="3.5" stroke-linecap="round"/><path d="M124 98 Q131 92 138 98" fill="none" stroke="#1d2a33" stroke-width="3.5" stroke-linecap="round"/>'
+    : '<ellipse cx="69" cy="97" rx="5" ry="6.5" fill="#1d2a33"/><ellipse cx="131" cy="97" rx="5" ry="6.5" fill="#1d2a33"/>';
+  return `${allik}${goz}
+    <path d="${k1}" fill="none" stroke="#1d2a33" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="${k2}" fill="none" stroke="#1d2a33" stroke-width="4.5" stroke-linecap="round"/>
+    ${AGIZ[ifade]}`;
+}
+function periSVG(ifade) {
+  const ten = "#f1c7a6";
+  return `<svg viewBox="0 0 200 360" aria-label="Peri, ${ifade}" role="img">
+    <path d="M30 360 Q34 236 100 214 Q166 236 170 360 Z" fill="#c8372d" stroke="#1d2a33" stroke-width="4"/>
+    <path d="M76 222 L100 262 L124 222" fill="#fff7e8" stroke="#1d2a33" stroke-width="3.5" stroke-linejoin="round"/>
+    <rect x="88" y="168" width="24" height="46" rx="10" fill="${ten}" stroke="#1d2a33" stroke-width="3.5"/>
+    <circle cx="100" cy="30" r="26" fill="#6b2f1f" stroke="#1d2a33" stroke-width="4"/>
+    <path d="M44 104 Q40 40 100 40 Q160 40 156 104 L156 136 Q148 112 140 88 Q100 72 60 88 Q52 112 44 136 Z" fill="#6b2f1f" stroke="#1d2a33" stroke-width="4" stroke-linejoin="round"/>
+    <ellipse cx="100" cy="104" rx="48" ry="62" fill="${ten}" stroke="#1d2a33" stroke-width="4"/>
+    <path d="M56 86 Q76 54 118 58 Q142 62 148 86 Q120 70 92 72 Q70 74 56 86 Z" fill="#6b2f1f" stroke="#1d2a33" stroke-width="3.5" stroke-linejoin="round"/>
+    <circle cx="51" cy="124" r="6" fill="#e9a83a" stroke="#1d2a33" stroke-width="2.5"/>
+    <circle cx="149" cy="124" r="6" fill="#e9a83a" stroke="#1d2a33" stroke-width="2.5"/>
+    ${yuz(ifade, ten)}
+  </svg>`;
+}
+function cengoSVG(ifade) {
+  const ten = "#d9a07a";
+  return `<svg viewBox="0 0 200 360" aria-label="Cengo, ${ifade}" role="img">
+    <path d="M22 360 Q26 232 100 212 Q174 232 178 360 Z" fill="#5a3a26" stroke="#1d2a33" stroke-width="4"/>
+    <path d="M78 218 L100 300 L122 218" fill="#e9e1cf" stroke="#1d2a33" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M78 218 L62 268 L92 250 Z M122 218 L138 268 L108 250 Z" fill="#6e4a32" stroke="#1d2a33" stroke-width="3.5" stroke-linejoin="round"/>
+    <rect x="86" y="166" width="28" height="48" rx="10" fill="${ten}" stroke="#1d2a33" stroke-width="3.5"/>
+    <ellipse cx="100" cy="104" rx="50" ry="62" fill="${ten}" stroke="#1d2a33" stroke-width="4"/>
+    <g fill="#1d2a33" opacity=".35">
+      <circle cx="78" cy="140" r="1.6"/><circle cx="86" cy="146" r="1.6"/><circle cx="96" cy="150" r="1.6"/>
+      <circle cx="106" cy="150" r="1.6"/><circle cx="116" cy="146" r="1.6"/><circle cx="124" cy="140" r="1.6"/>
+      <circle cx="82" cy="152" r="1.6"/><circle cx="118" cy="152" r="1.6"/><circle cx="100" cy="158" r="1.6"/>
+    </g>
+    <path d="M48 96 L44 62 L60 70 L62 40 L80 56 L92 30 L104 52 L120 32 L128 56 L146 44 L144 70 L158 66 L152 98 Q132 70 100 68 Q68 70 48 96 Z"
+      fill="#2a1d16" stroke="#1d2a33" stroke-width="4" stroke-linejoin="round"/>
+    ${yuz(ifade, ten)}
+  </svg>`;
+}
+
+// ---------- Yer tutucu arka planlar ----------
+const ARKALAR = {
+  buro: { ad: "Büro · sabah", svg: `<svg viewBox="0 0 480 600" preserveAspectRatio="xMidYMax slice">
+      <rect width="480" height="600" fill="#f2d9a8"/>
+      <rect y="420" width="480" height="180" fill="#b8763f"/>
+      <rect x="150" y="70" width="190" height="220" rx="6" fill="#9fd3d6" stroke="#5a3a26" stroke-width="10"/>
+      <rect x="150" y="210" width="190" height="80" fill="#1f7a80"/>
+      <path d="M150 210 L190 196 L230 204 L262 186 L300 200 L340 194 L340 210 Z" fill="#5f8f86"/>
+      <path d="M262 186 L262 150 L268 150 L270 186" fill="#5f8f86"/>
+      <circle cx="292" cy="112" r="20" fill="#f6c560"/>
+      <line x1="245" y1="70" x2="245" y2="290" stroke="#5a3a26" stroke-width="8"/>
+      <rect x="20" y="120" width="96" height="66" rx="4" fill="#fff7e8" stroke="#5a3a26" stroke-width="6"/>
+      <rect x="34" y="136" width="68" height="8" rx="3" fill="#c8372d" opacity=".75"/>
+      <rect x="34" y="152" width="50" height="6" rx="3" fill="#5a3a26" opacity=".35"/>
+      <rect x="380" y="150" width="70" height="270" fill="#8e5a33" stroke="#5a3a26" stroke-width="6"/>
+      <rect x="390" y="170" width="50" height="30" fill="#e9a83a" opacity=".6"/>
+      <rect x="390" y="214" width="50" height="30" fill="#1f7a80" opacity=".5"/>
+      <rect x="0" y="380" width="480" height="58" fill="#7a4a28"/>
+      <rect x="0" y="380" width="480" height="10" fill="#93603a"/>
+    </svg>` },
+  koridor: { ad: "Apartman koridoru", svg: `<svg viewBox="0 0 480 600" preserveAspectRatio="xMidYMax slice">
+      <rect width="480" height="600" fill="#c9d6c0"/>
+      <rect y="300" width="480" height="300" fill="#a6b59a"/>
+      <rect y="300" width="480" height="8" fill="#7f8f74"/>
+      <rect y="440" width="480" height="160" fill="#8a6a4e"/>
+      <g fill="#7a5a40"><rect x="0" y="470" width="480" height="4"/><rect x="0" y="520" width="480" height="4"/><rect x="0" y="570" width="480" height="4"/></g>
+      <rect x="168" y="120" width="144" height="320" rx="4" fill="#6b3b24" stroke="#3b2214" stroke-width="8"/>
+      <rect x="186" y="140" width="108" height="120" rx="3" fill="#7c4a2f"/>
+      <rect x="186" y="280" width="108" height="140" rx="3" fill="#7c4a2f"/>
+      <circle cx="292" cy="290" r="8" fill="#e9a83a" stroke="#3b2214" stroke-width="3"/>
+      <rect x="226" y="164" width="28" height="16" rx="3" fill="#e9a83a" stroke="#3b2214" stroke-width="3"/>
+      <circle cx="240" cy="210" r="7" fill="#1d2a33" opacity=".6"/>
+      <rect x="40" y="200" width="70" height="40" rx="3" fill="#fff7e8" opacity=".8"/>
+      <circle cx="420" cy="60" r="22" fill="#fff7e8" opacity=".9"/>
+      <line x1="420" y1="0" x2="420" y2="38" stroke="#3b2214" stroke-width="3"/>
+    </svg>` }
+};
+
+// ---------- Senaryo (yer tutucu; kanon değil) ----------
+// satır: { k: "peri"|"cengo"|"not", ifade: {peri, cengo}, m: metin }
+const SAHNE_1 = [
+  { k: "not", ifade: { peri: "normal", cengo: "normal" }, m: "Paravan Dedektiflik. Kira üç gün gecikmiş." },
+  { k: "cengo", ifade: { peri: "normal", cengo: "gulen" }, m: "Müjde. Müşteri bulduk. Peşin ödüyor." },
+  { k: "peri", ifade: { peri: "kas", cengo: "gulen" }, m: "Ne kadar?" },
+  { k: "cengo", ifade: { peri: "kas", cengo: "normal" }, m: "Peşin kısmını yarın getirecek." },
+  { k: "peri", ifade: { peri: "sinirli", cengo: "normal" }, m: "O zaman peşin değil." },
+  { k: "cengo", ifade: { peri: "sinirli", cengo: "gulen" }, m: "Niyeti peşin." },
+  { secim: "Peri ne desin?", secenekler: [
+    { m: "“Yazılı sözleşme isterim.”", satirlar: [
+      { k: "peri", ifade: { peri: "normal", cengo: "normal" }, m: "Yazılı sözleşme. İmza, kaşe. Usulüne uygun." },
+      { k: "cengo", ifade: { peri: "normal", cengo: "utanmis" }, m: "Kaşesi yok. Kaşesini de çalmışlar." },
+      { k: "peri", ifade: { peri: "kas", cengo: "utanmis" }, m: "…Otur. Baştan anlat." }
+    ]},
+    { m: "“Kimmiş bu müşteri?”", satirlar: [
+      { k: "cengo", ifade: { peri: "normal", cengo: "normal" }, m: "Karaköy'de bir balıkçı. Teknesini çalmışlar." },
+      { k: "peri", ifade: { peri: "kas", cengo: "normal" }, m: "Koca bir tekne nasıl çalınır?" },
+      { k: "cengo", ifade: { peri: "kas", cengo: "gulen" }, m: "Ben de onu sordum. Yüzerek değilmiş." }
+    ]}
+  ]}
+];
+const SAHNE_2 = [
+  { k: "peri", ifade: { peri: "normal", cengo: "normal" }, m: "Kapıyı çalacağız, kendimizi tanıtacağız, kibarca soracağız." },
+  { k: "cengo", ifade: { peri: "normal", cengo: "gulen" }, m: "Ya da kilidi açarız, kendimizi tanıtmayız, kibarca çıkarız." },
+  { k: "peri", ifade: { peri: "sinirli", cengo: "gulen" }, m: "Bunun adı haneye tecavüz." },
+  { k: "cengo", ifade: { peri: "sinirli", cengo: "kas" }, m: "Kibarca ama." },
+  { k: "not", ifade: { peri: "normal", cengo: "normal" }, m: "Peri kapıyı çaldı. Kimse açmadı. Cengo'nun cebinden bir tel çıktı." },
+  { k: "peri", ifade: { peri: "utanmis", cengo: "gulen" }, m: "…Kimse görmesin." }
+];
+const SENARYO = [
+  { arka: "buro", satirlar: SAHNE_1 },
+  { arka: "koridor", satirlar: SAHNE_2 }
+];
+
+// ---------- Oynatıcı ----------
+const $ = id => document.getElementById(id);
+const AZ_HAREKET = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let sahneNo = 0, kuyruk = [], yaziyor = null, tamMetin = "", secimde = false, bitti = false;
+let sonIfade = { peri: null, cengo: null };
+
+function arkaKoy(ad) {
+  $("arka").innerHTML = ARKALAR[ad].svg;
+  $("mekanAdi").textContent = ARKALAR[ad].ad;
+}
+function figurGuncelle(satir) {
+  for (const kim of ["peri", "cengo"]) {
+    const el = $(kim === "peri" ? "figPeri" : "figCengo");
+    const ifade = satir.ifade[kim];
+    if (sonIfade[kim] !== ifade) {
+      el.innerHTML = kim === "peri" ? periSVG(ifade) : cengoSVG(ifade);
+      sonIfade[kim] = ifade;
+    }
+    const aktif = satir.k === kim;
+    el.classList.toggle("aktif", aktif);
+    el.classList.toggle("pasif", !aktif);
+    if (aktif && !AZ_HAREKET) { el.classList.remove("zipla"); void el.offsetWidth; el.classList.add("zipla"); }
+  }
+}
+function satirGoster(satir) {
+  figurGuncelle(satir);
+  $("plakaPeri").hidden = satir.k !== "peri";
+  $("plakaCengo").hidden = satir.k !== "cengo";
+  const p = document.createElement("p");
+  p.className = "replik" + (satir.k === "not" ? " not" : "");
+  const ileri = document.createElement("span");
+  ileri.className = "ileri"; ileri.textContent = "dokun";
+  $("icerik").replaceChildren(p, ileri);
+  tamMetin = satir.m;
+  if (AZ_HAREKET) { p.textContent = tamMetin; return; }
+  let i = 0;
+  clearInterval(yaziyor);
+  yaziyor = setInterval(() => {
+    i++; p.textContent = tamMetin.slice(0, i);
+    if (i >= tamMetin.length) { clearInterval(yaziyor); yaziyor = null; }
+  }, 22);
+}
+function secimGoster(oge) {
+  secimde = true;
+  $("plakaPeri").hidden = true; $("plakaCengo").hidden = true;
+  const kap = document.createElement("div"); kap.className = "secimler";
+  const b = document.createElement("p"); b.className = "secim-baslik"; b.textContent = oge.secim;
+  kap.append(b);
+  oge.secenekler.forEach((s, n) => {
+    const btn = document.createElement("button");
+    btn.className = "secim"; btn.id = "secim" + n; btn.type = "button"; btn.textContent = s.m;
+    btn.addEventListener("click", e => {
+      e.stopPropagation(); secimde = false;
+      kuyruk.unshift(...s.satirlar); ilerle();
+    });
+    kap.append(btn);
+  });
+  $("icerik").replaceChildren(kap);
+  $("figPeri").classList.add("aktif"); $("figPeri").classList.remove("pasif");
+  $("figCengo").classList.add("pasif"); $("figCengo").classList.remove("aktif");
+}
+function sonGoster() {
+  bitti = true;
+  $("plakaPeri").hidden = true; $("plakaCengo").hidden = true;
+  const kap = document.createElement("div"); kap.className = "son";
+  const p = document.createElement("p");
+  p.textContent = "Taslak burada bitiyor. Figürler ve arka planlar yer tutucu; metinler ton örneği, kanon değil.";
+  const btn = document.createElement("button");
+  btn.className = "secim"; btn.id = "bastan"; btn.type = "button"; btn.textContent = "Baştan oynat";
+  btn.addEventListener("click", e => { e.stopPropagation(); basla(); });
+  kap.append(p, btn);
+  $("icerik").replaceChildren(kap);
+}
+function ilerle() {
+  if (secimde || bitti) return;
+  if (yaziyor) { clearInterval(yaziyor); yaziyor = null; $("icerik").querySelector(".replik").textContent = tamMetin; return; }
+  if (!kuyruk.length) {
+    sahneNo++;
+    if (sahneNo >= SENARYO.length) return sonGoster();
+    arkaKoy(SENARYO[sahneNo].arka);
+    kuyruk = [...SENARYO[sahneNo].satirlar];
+  }
+  const oge = kuyruk.shift();
+  if (oge.secim) secimGoster(oge); else satirGoster(oge);
+}
+function basla() {
+  sahneNo = 0; bitti = false; secimde = false;
+  sonIfade = { peri: null, cengo: null };
+  arkaKoy(SENARYO[0].arka);
+  kuyruk = [...SENARYO[0].satirlar];
+  ilerle();
+}
+$("kutu").addEventListener("click", ilerle);
+$("sahne").addEventListener("click", ilerle);
+$("kutu").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); ilerle(); } });
+basla();
+</script>
+</body>
+</html>
