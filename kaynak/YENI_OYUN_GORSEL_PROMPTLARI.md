@@ -399,3 +399,19 @@ yarım bir sırıtma.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — B4 (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_peri_b4.webp`. Taslakta `kas` → B4
+(aynalı, öteki ifadeler gibi); B2 ve aynasız deneme kaldırıldı.
+
+| | sonuç |
+|---|---|
+| **Bakış** | Baş üç çeyrek profil, gözbebekleri kadrajın soluna; ekranda doğrudan Cengo'ya. |
+| **İfade** | Bir kaş kalkık, öteki çatık, gözler kısık, yarım sırıtma. |
+| **Poz / kadraj** | Parmak çenede, el belde; A2 ile aynı ölçek ve kesim. |
+
+**Kural (yeni):** bakışı sağlamanın yolu önce **başı çevirmek.** Bakışı tutmuş bir
+görseli (A2) referans vermek açıyı hazır getirir; yalnız gözbebeğini tarif etmek
+yetmez. Bitmiş bir görseli referans verip yalnız küçük bir ayrıntıyı değiştirmeye
+çalışmak (B3) üreticiyi referansa kilitler.
