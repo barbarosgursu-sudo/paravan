@@ -1374,3 +1374,72 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde (her biri):** manto gerçekten yok mu, dekolte temel setle aynı mı (az da
 çok da değil), yüz ve yaş aynı mı, sabit çerçeveyle kesilince temel setle aynı ölçekte
 mi, bakış kadrajın soluna mı.
+
+## Sonuç — PMU2 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/deneme_peri_pmu2.webp`. Elleri önde kenetli,
+omuzları kalkık, yanakları pembe, gözleri aşağı-sola kaçmış, mahcup yamuk gülümseme.
+Kaşlar ortada kalkık. Standart çerçeveyle (x 120–1034) kesildi, `kes_saten` ayarıyla.
+
+## PERİ MANTOSUZ SET — TAMAM (5 Ekim 2026)
+
+| ifade | görsel | kesim |
+|---|---|---|
+| nötr / gülen | PM2 | standart |
+| şüpheci | PMK2 | standart |
+| sinirli | PMS2 | **tam genişlik** (x 0–1121), `img.genis` ile hizalı taşar |
+| utanmış | PMU2 | standart |
+
+Taslakta açılış sahnesi (A1 salon) eklendi: Peri mantosuz, Cengo yok, Hilmi Bey'in
+yalnız plakası var (figürü sırada). "Peri mantoyu giyiyor" satırında mantolu sete
+geçilir. Satır düzeyinde `periSet`, sahne düzeyinde `periSet` ve `cengoYok`.
+
+**Ortaya çıkan süreklilik açığı:** Peri mantoyu giydikten sonra A1'deki askıda manto
+hâlâ asılı. Kanonda S2 zaten A3'te (boşalmış salon) geçiyor; çözüm A3'ü iki hâlde
+üretmek: **A3** askıda manto var, **A3b** askı boş (A3 referanslı, tek değişiklik —
+burada üreticinin referansa kilitlenmesi işimize yarar). "Peri mantoyu giyiyor"
+satırında arka plan A3 → A3b geçer.
+
+## A3 — Aynı salon, bomboş, akşamüstü (A1 referanslı, ★)
+
+```
+Referans görseldeki salonun AYNISI: aynı oda, AYNI KADRAJ, aynı yüksek pencereler ve
+tül perdeler, aynı tavan süslemeleri, aynı balıkçılsırtı parke, aynı çizim tarzı. Bu
+görselde hiç insan yok.
+
+Değişen şeyler: saat ve eşyalar. Akşamüstü; güneş alçalmış, pencerelerden giren ışık
+turuncu ve uzun, parkeye uzun pencere gölgeleri düşüyor. Odanın köşeleri gölgede.
+
+Salon artık BOMBOŞ. Kanepe, koliler, örtülü mobilya GİTMİŞ. Avize de sökülmüş: tavanın
+ortasında yalnız alçı göbek ve ondan sarkan kısa, çıplak bir elektrik kablosu kalmış.
+Parkede, eşyaların durduğu yerlerde hafif açık renkli izler ve sürükleme çizikleri var.
+Duvarda tablolardan kalan açık renkli dikdörtgen izler ve boş çiviler duruyor.
+
+Odada kalan TEK eşya: kapı kenarındaki ayaklı ahşap askılık; askıda tek bir şey var:
+kırmızı, kuşaklı, uzun bir kadın mantosu.
+
+Görselin alt üçte biri boş parke zemin.
+
+Başka hiçbir nesne yok: kâğıt, liste, kutu, koli, kitap, fotoğraf, çerçeve, ayna, saat,
+taç yok.
+
+Hava: sessiz, boş, biraz hüzünlü ama sıcak ışıklı.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## A3b — Aynı boş salon, askı boş (A3 referanslı)
+
+```
+Referans görselin AYNISI: aynı oda, aynı kadraj, aynı akşamüstü ışığı, aynı gölgeler,
+aynı çizim tarzı. Bu görselde hiç insan yok.
+
+Değişen TEK şey: askıdaki kırmızı manto yok. Ayaklı ahşap askılık aynı yerde duruyor
+ama BOMBOŞ; kancaları çıplak.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde:** A1 ile aynı kadraj mı (pencereler ve askı aynı yerde), avize gerçekten
+sökülmüş mü, ışık akşamüstü mü; A3b'de yalnız manto mu gitmiş (başka bir şey
+değişmişse fark gözü tırmalar).

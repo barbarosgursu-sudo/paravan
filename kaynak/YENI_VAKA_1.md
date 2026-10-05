@@ -584,6 +584,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | A1 | Peri'nin salonu, geniş açı — eşyalar taşınıyor, koliler | Açılış S1 | ★ |
 | A2 | Aynı salon, ters açı — kapıdan içeri, avize sökülürken | Açılış S1 (avize) | |
 | A3 | Aynı salon, bomboş, akşamüstü ışığı | Açılış S2 | ★ |
+| A3b | A3, askı boş (manto Peri'nin üstünde) | Açılış S2 sonu | ★ |
 | A4 | Karaköy, eski hanın sokaktan girişi | Açılış S3 (geçiş) | |
 | A5 | Hanın üçüncü kat koridoru, büro kapısı | Açılış S3 | ★ |
 | A6 | Büronun içi, gündüz, geniş açı — iki masa, toz | S4, giriş, konuşma | ★ |
@@ -641,13 +642,13 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 
 | | tam plan | yalnız ★ |
 |---|---|---|
-| Arka plan | 14 | 8 |
+| Arka plan | 15 | 9 |
 | Detay | 3 | 2 |
 | Ara kare | 7 | 6 |
 | Figür | 8 | 6 |
 | Cengo | 4 | 4 |
 | Peri mantosuz | 4 | 4 |
-| **Yeni görsel** | **40** | **30** |
+| **Yeni görsel** | **41** | **31** |
 | Hazır (Peri) | 4 | 4 |
 
 **Yeniden kullanım:** A5, A6, A7, A8 (koridor ve büro), A9 (iskele) sezon boyu
