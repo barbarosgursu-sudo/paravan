@@ -172,3 +172,100 @@ C ve D geldi; referans kopyaları `kaynak/yeni_gorsel/deneme_peri_c.webp`,
 
 **Kural (yeni):** ifade promptu kaşı, gözü, ağzı, yanağı ve elleri **ayrı ayrı**
 tarif eder ve abartıyı açıkça ister. "Kaşını kaldırsın" tek başına yetmiyor.
+
+---
+
+# DENEME 3 — PERİ B, C, D YENİDEN (5 Ekim 2026, taslak)
+
+**Sahibinin kararı:** A kalıyor; B, C, D yeniden üretilecek. Değişecek olan: **poz**
+ve **ifade.** Her üçünde de **A referans görsel olarak verilir.**
+
+**Kadraj sabit kalır, poz değişir.** Konuşma ekranında ifadeler birbirinin yerine
+anında geçer; ölçek ya da kesim değişirse Peri ekranda zıplar. Bu yüzden her üçü
+A'yla aynı ölçekte, aynı kesimde (uyluk ortası), başın tepesi aynı yükseklikte.
+
+**Yüz kilidi** (D'de yüz gençleşmişti): her promptta yaş ve "A'daki yüzün aynısı"
+açıkça yazılır.
+
+**Ekranda yön:** taslakta Peri solda durur ve görselleri aynalanır. Promptta "burnu
+kadrajın soluna" denir; aynalanınca Cengo'ya döner.
+
+**Screwball ilkesi:** ifadeler gerçek öfke ya da gerçek utanç değil, komedi
+öfkesi ve komedi utancı — abartılı, okunaklı, biraz tiyatral.
+
+## B2 — Şüpheci
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı kırmızı manto,
+aynı krem ipek bluz ve aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı
+düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk
+ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Değişen tek şey poz ve ifade.
+
+Poz: bir eli belinde. Öteki elinin işaret parmağı çenesinde, düşünür gibi. Başı
+hafifçe yana eğik. Ağırlığı tek bacağında.
+
+İfade: açıkça şüpheci, abartılı ve okunaklı. Tek kaşı belirgin biçimde, alnına
+doğru yukarı kalkmış; öteki kaşı yerinde ve hafif aşağıda. Gözleri yarı kısılmış,
+yan bakış: bakışı kameraya değil, kadrajın soluna kaymış. Dudakları tek yana
+kıvrılmış, kapalı, "Ciddi misin?" der gibi yarım bir sırıtma.
+
+Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## C2 — Sinirli
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı kırmızı manto,
+aynı krem ipek bluz ve aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı
+düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk
+ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Değişen tek şey poz ve ifade.
+
+Poz: iki eli de yumruk hâlinde belinde. Gövdesi ve başı öne, kadrajın soluna doğru
+eğilmiş, birini azarlıyor. Omuzları kalkık.
+
+İfade: komedi öfkesi — abartılı, tiyatral, okunaklı. İki kaşı da aşağı ve içe
+çatılmış, kaşlarının arasında derin bir kırışık. Gözleri kocaman açılmış, öfkeyle
+parlıyor. Ağzı konuşurken açık, dişleri hafif görünüyor, tam bir cümlenin
+ortasında. Burun kanatları açılmış. Yanaklarında hafif kızarıklık.
+
+Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## D2 — Utanmış
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, olgun bir kadın; gençleştirilmemiş, yüzü yumuşatılmamış),
+aynı saç ve topuz, aynı kırmızı manto, aynı krem ipek bluz ve aynı dekolte, aynı
+altın küpeler, aynı çizim tarzı, aynı düz açık bej arka plan. Kadraj referansla
+birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte,
+dikey.
+
+Değişen tek şey poz ve ifade.
+
+Poz: bir eli yüzünün yanına düşen saç tutamını kulağının arkasına sıkıştırıyor.
+Öteki eli mantonun kuşağının düğümünü tutuyor. Omuzları hafif içe dönük, başı
+hafif öne eğik.
+
+İfade: komedi utancı — yakalanmış ama gülmesini tutamayan biri. Yanakları belirgin
+biçimde pembe. Kaşları ortada yukarı kalkmış. Gözleri aşağıya ve kadrajın soluna
+kaçmış, kameraya bakmıyor. Dudakları kapalı, alt dudağını hafifçe ısırır gibi,
+tutulmaya çalışılan bir gülümseme.
+
+Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde:** dördü (A + B2, C2, D2) yan yana: aynı kadın mı, aynı ölçek mi,
+taslakta ifade değişince Peri zıplıyor mu.
