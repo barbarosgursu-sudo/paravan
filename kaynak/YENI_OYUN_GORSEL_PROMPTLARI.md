@@ -1117,5 +1117,130 @@ Küçük not: karşı cephenin mavi mansart çatısı Paris'e kayıyor; Nişanta
 binalar var, kalabilir. A2/A3 üretilirken düzeltilecek bir şey değil — referans bu.
 
 **Açık süreklilik sorusu:** askıdaki manto, Peri sprite'ının üstündeki mantonun aynısı.
-S1–S2'de Peri mantoyu henüz giymemiş olmalı (S2 sonunda giyer: "Üstümde."). Sahibine
-soruldu.
+S1–S2'de Peri mantoyu henüz giymemiş olmalı (S2 sonunda giyer: "Üstümde."). **Karar:
+mantosuz set** (aşağıda, PM2/PMK/PMS/PMU).
+
+---
+
+# PERİ — MANTOSUZ SET (açılış S1–S2, 5 Ekim 2026)
+
+**Sahibinin kararı:** haciz sahnelerinde Peri mantosuz görünür; S2'de "Üstümde."
+dediği anda mevcut (mantolu) sete geçilir. Askıdaki manto A1'de zaten duruyor.
+
+Dört ifade: S1–S2'de geçen `normal`, `kas`, `sinirli`, `utanmis`. Yöntem temel setle
+aynı: önce **PM2** (nötr, A2 referanslı), sonra üçü **PM2 referanslı**. Kesim çerçevesi
+temel setle aynı (x 120–1034), yoksa manto giyilince Peri ekranda zıplar.
+
+**Dekolte kuralı:** krem ipek bluz ve dekolte temel setteki ayarda, azalmaz. Manto
+kalkınca bluz daha görünür olur; dekolte büyütülmez de — "aynı dekolte" denir.
+
+## PM2 — Nötr, mantosuz (A2 referanslı)
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı krem ipek bluz ve
+aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı düz açık bej arka plan.
+Kadraj referansla birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın tepesi
+aynı yükseklikte, dikey.
+
+Başın açısı ve bakış referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek
+profilden görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+Kameraya bakmıyor.
+
+Değişen tek şey kıyafet: KIRMIZI MANTO YOK. Üstünde yalnız krem rengi ipek bluz,
+kolları bileğe kadar, önü referanstaki gibi açık; bluz beline sokulmuş. Altında
+siyah, dar, diz boyu bir kalem etek ve ince siyah bir kemer. Başka giysi, başka takı
+yok.
+
+Poz ve ifade referansla aynı: bir eli bluzunun yakasında, öteki belinde; kendinden
+emin, dudakları kapalı, belli belirsiz bir gülümseme.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## PMK — Şüpheci, mantosuz (PM2 referanslı)
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı krem ipek bluz ve
+aynı dekolte, aynı siyah kalem etek ve kemer, aynı altın küpeler, mantosu yok; aynı
+çizim tarzı, aynı düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek,
+uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: bir eli belinde. Öteki elinin işaret parmağı çenesinde, düşünür gibi. Başı
+hafifçe yana eğik. Ağırlığı tek bacağında.
+
+İfade: açıkça şüpheci, abartılı ve okunaklı. Tek kaşı belirgin biçimde, alnına
+doğru yukarı kalkmış; öteki kaşı yerinde ve hafif aşağıda çatık. Gözleri yarı
+kısılmış. Bakışı başıyla aynı yönde: kadrajın soluna, karşısında kendi boyunda
+duran birinin yüzüne. Gözbebekleri gözlerin kadrajın soluna yakın köşesinde.
+Kameraya bakmıyor. Dudakları tek yana kıvrılmış, kapalı, "Ciddi misin?" der gibi
+yarım bir sırıtma.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## PMS — Sinirli, mantosuz (PM2 referanslı)
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı krem ipek bluz ve
+aynı dekolte, aynı siyah kalem etek ve kemer, aynı altın küpeler, mantosu yok; aynı
+çizim tarzı, aynı düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek,
+uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: iki eli de yumruk hâlinde belinde. Gövdesi ve başı hafifçe öne, kadrajın
+soluna doğru eğilmiş; karşısındakini azarlıyor. Omuzları kalkık.
+
+İfade: komedi öfkesi — abartılı, tiyatral, okunaklı. İki kaşı da aşağı ve içe
+çatılmış, kaşlarının arasında derin bir kırışık. Gözleri kocaman açılmış, öfkeyle
+parlıyor. Bakışı başıyla aynı yönde: kadrajın soluna, karşısında kendi boyunda
+duran birinin yüzüne; gözbebekleri gözlerin kadrajın soluna yakın köşesinde.
+Kameraya bakmıyor. Ağzı konuşurken açık, dişleri hafif görünüyor, tam bir
+cümlenin ortasında. Burun kanatları açılmış. Yanaklarında hafif kızarıklık.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## PMU — Utanmış, mantosuz (PM2 referanslı)
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, olgun bir kadın; gençleştirilmemiş, yüzü yumuşatılmamış),
+aynı saç ve topuz, aynı krem ipek bluz ve aynı dekolte, aynı siyah kalem etek ve
+kemer, aynı altın küpeler, mantosu yok; aynı çizim tarzı, aynı düz açık bej arka
+plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın
+tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor. Başı
+hafifçe öne eğik.
+
+Değişen şeyler poz ve ifade.
+
+Poz: kadrajın soluna yakın eli, yüzünün yanına düşen saç tutamını kulağının arkasına
+sıkıştırıyor. Öteki eli belinde, kemerin tokasının yanında. Omuzları hafif içe
+dönük.
+
+İfade: komedi utancı — yakalanmış ama gülmesini tutamayan biri. Yanakları belirgin
+biçimde pembe. Kaşları ortada yukarı kalkmış. Gözleri aşağıya ve kadrajın soluna
+kaçmış: gözbebekleri gözlerin kadrajın soluna ve aşağıya yakın köşesinde. Kameraya
+bakmıyor. Dudakları kapalı, alt dudağını hafifçe ısırır gibi, tutulmaya çalışılan
+bir gülümseme.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde (her biri):** manto gerçekten yok mu, dekolte temel setle aynı mı (az da
+çok da değil), yüz ve yaş aynı mı, sabit çerçeveyle kesilince temel setle aynı ölçekte
+mi, bakış kadrajın soluna mı.
