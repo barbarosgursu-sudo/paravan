@@ -676,3 +676,23 @@ kadrajın soluna yakın köşesinde. Kameraya bakmıyor. Alaycı değil, sevimli
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — CC (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_cengo_cc.webp`. Taslakta `gulen` → CC.
+
+| | sonuç |
+|---|---|
+| **İfade** | Geniş, keyifli sırıtma, kısılmış gözler; sevimli, alaycı değil. |
+| **Poz** | Avuç açık, omuz hizasında ("ben böyleyim"); öteki el cepte. |
+| **Bakış** | Baş profil, Peri'ye. |
+
+**Yerleştirmede bulunan iki sorun:**
+1. **Kalkan el çerçeveden taşıyordu.** Cengo'nun sabit çerçevesi Peri'ninkiyle aynıydı
+   (x 104–1018); CC'de el x≈30'a uzanıyor. Cengo'nun çerçevesi **x 10–1111** yapıldı ve
+   CA2 de yeniden kesildi. **Kural:** sabit çerçeve, o karakterin en geniş pozunu
+   kapsayacak kadar geniş seçilir; yeni bir poz taşarsa bütün set yeniden kesilir.
+2. **El Peri'nin yüzüne değiyordu.** Figürler fazla iç içeydi. Cengo sağa alındı; omzu
+   ekranın sağ kenarından hafifçe taşıyor (kabul).
+
+Kalan: **kaşı kalkık**, **yumuşak**.
