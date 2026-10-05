@@ -741,3 +741,38 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 | **Bakış** | Baş profil, hafif aşağı; ekranda Peri'nin yüzüne. "Kibarca ama." repliğinde sinirli Peri'ye karşı çok iyi oturuyor. |
 
 Kalan: **yumuşak** (Cengo temel setinin son ifadesi).
+
+## CY — Yumuşak (CA2 referanslı, 5 Ekim 2026)
+
+Cengo'nun ilk gülmediği an: kapanıştaki tel sahnesi ("Biliyorum. Cebinizde dursun."),
+sezon boyunca "elektrik" anları. Sırıtma yok, şaka yok; sıcak ve sade. Peri'ye
+**doğrudan** bakar (utanma gibi kaçan bakış değil). Poz genel olmalı (her elektrik
+anında kullanılacak), sahneye özel nesne tutmaz.
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz (34 yaşında, gözlerinin kenarında
+gülme çizgileri, gençleştirilmemiş), aynı dağınık siyah saç, aynı kısa sakal, aynı
+açık kahverengi buruşuk ceket ve sıvalı kolları, aynı beyaz gömlek ve gömleğin aynı
+açıklığı, aynı koyu kot, cebinden sarkan aynı bordo kravat, göğüs cebinde aynı tel,
+bileğinde aynı renkli boncuklu bileklik, aynı çizim tarzı, aynı düz açık bej arka
+plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın
+tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: iki eli de kotunun ön ceplerinde, başparmakları dışarıda. Omuzları hafif
+düşük, rahat; gövdesi hafifçe kadrajın soluna, karşısındakine doğru dönük. Başı
+çok hafif öne eğik.
+
+İfade: ciddi, sıcak, sade. Sırıtmıyor, şaka yapmıyor. Kaşları rahat, iç uçları
+çok hafif yukarıda. Gözleri yumuşak ve dikkatli, kısık değil. Dudakları kapalı,
+belli belirsiz, içten bir tebessüm; ağız köşelerinden biri değil, ikisi de hafifçe
+yukarıda. Bakışı başıyla aynı yönde ve doğrudan: kadrajın solunda kendinden biraz
+kısa birinin gözlerine; gözbebekleri gözlerin kadrajın soluna yakın köşesinde.
+Kameraya bakmıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
