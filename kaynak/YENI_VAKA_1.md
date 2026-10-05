@@ -23,15 +23,21 @@
 kapıda duruyor.*
 
 **HİLMİ BEY:** Hanımefendi, koltuğu alıyoruz.
-**PERİ [normal]:** Alın. Ama önce çayınızı bitirin. Soğuk çay içen adama koltuk emanet edilmez.
+**PERİ [normal]:** Önce çayınızı için. Bardaklar listede yok, değil mi?
+**HİLMİ BEY:** *(listeye bakar)* Bardaklar yarın.
+**PERİ:** O zaman bugün için.
 **HİLMİ BEY:** …Teşekkür ederiz.
-**PERİ:** O koltuk İtalyan. Yan yatırmayın, küser.
-**HİLMİ BEY:** *(listeye bakar)* Avize.
-**PERİ:** Avize Çek. Onu da yan yatırmayın.
-**HİLMİ BEY:** Avize yan yatmaz, hanımefendi.
-**PERİ [kas]:** Siz bilirsiniz.
+**PERİ:** O koltukta üç evlenme teklifi aldım. Üçünü de reddettim.
+**HİLMİ BEY:** Koltuk ne dedi?
+**PERİ [kas]:** Koltuk bir şey demedi. Ağzı sıkıdır. Avukatım gibi değil.
+**HİLMİ BEY:** *(listeye yazar)* Koltuk, bir adet. *(başını kaldırır)* Avize.
+**PERİ [normal]:** Dikkatli indirin. Kristalleri sayılıdır.
+**HİLMİ BEY:** Kaç tane?
+**PERİ [utanmis]:** Bilmiyorum. Sayan avukatımdı.
+**HİLMİ BEY:** Biz sayarız, hanımefendi. Bizim işimiz o.
 
-*Arkada iki memur avizeyle boğuşuyor. Bir kristal tıngırdıyor.*
+*Arkada iki memur avizeyle boğuşuyor. Bir kristal yere düşüyor. Hilmi Bey eğilip
+alıyor, listeye bir çizgi ekliyor.*
 
 **HİLMİ BEY:** Son kalem. *(okur)* "Güzellik yarışması birincilik tacı, bir adet."
 **PERİ [sinirli]:** O satılık değil.
