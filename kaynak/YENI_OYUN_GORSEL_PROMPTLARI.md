@@ -628,3 +628,19 @@ gözlerin kadrajın soluna yakın köşesinde.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — CA2 (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_cengo_ca2.webp`. Taslakta şimdilik
+bütün Cengo ifadeleri CA2; CA yalnız referans.
+
+| | sonuç |
+|---|---|
+| **Bakış** | Baş profil, gözler kadrajın soluna ve hafif aşağı; ekranda doğrudan Peri'nin yüzüne. İkisi ilk kez birbirine bakıyor. |
+| **Gövde / kıyafet** | CA ile birebir (kravat, tel, bileklik, gömlek açıklığı). |
+| **Kadraj** | CA ile aynı. |
+
+**Taslakta düzeltme:** figürler üst üste bindiğinde artık **konuşan önde** duruyor
+(Cengo konuşurken Peri'nin koluna binmiyordu, şimdi sıra konuşana göre).
+
+Sıradaki: Cengo **kaşı kalkık**, **gülen**, **yumuşak** — üçü de CA2 referansla.
