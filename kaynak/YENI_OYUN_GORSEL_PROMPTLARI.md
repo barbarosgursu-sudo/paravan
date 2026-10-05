@@ -920,3 +920,54 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** A6 ile aynı oda gibi mi (pencere biçimi, masa rengi,
 duvar), alt üçte bir boş mu, vapur/iskele yazı taraması, iskele figürleri yüzsüz ve
 küçük mü.
+
+## Sonuç — A7 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a7_buro_pencere.webp`. Taslakta Cengo
+"Karaköy'de bir balıkçı" derken açı A7'ye geçiyor (satıra `arka:` alanı eklendi —
+konuşmanın ortasında açı değişimi artık mümkün).
+
+| | sonuç |
+|---|---|
+| **Uyum** | A6 ile aynı oda: kemerli ahşap pencere, dökük sıva, çizik masalar, petek, aynı ahşap zemin. |
+| **Kadraj** | Pencere ortada (istenen hafif sağa dönüş tutmadı); sorun değil, iki figür pencerenin iki yanına düşüyor. |
+| **Alt üçte bir** | Boş, pencere gölgeli güneş ışığı. |
+| **Manzara** | Ayasofya silueti, minareler, iskeleye yanaşmış vapur, martılar, iskelede yüzsüz küçük figürler. |
+| **Yazı** | Yok (vapur gövdesindeki kırmızı lekeler süs, harf değil; kıyı büyütülerek tarandı). |
+
+## A8 — Büro, akşam (A6 referanslı, ★ kapanış)
+
+Vaka sonu tel sahnesi burada geçer. **A6'yı referans olarak ekle** — aynı oda, aynı
+kadraj; değişen yalnız saat ve ışık.
+
+```
+Referans görseldeki odanın AYNISI, AYNI KADRAJ, aynı çizim tarzı. Bu görselde hiç
+insan yok. Değişen yalnız saat: akşam, güneş batmış, hava lacivert.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, referanstaki gibi kapıdan içeri bakıyor.
+Görselin alt üçte biri boş, sakin bir ahşap zemin: orada hiçbir nesne yok.
+
+Odada YALNIZ referanstaki nesneler var: kemerli pencere, iki ahşap masa, iki sandalye,
+gri metal dosya dolabı (kapakları kapalı, etiketsiz), boş ayaklı askılık, duvarda
+çerçeve izi, kalorifer peteği. Masalardan birinin üstünde masa lambası YANIYOR ve
+yanında kapağı kapalı karton kutu.
+
+Pencereden: lacivert akşam göğü, ufukta son turuncu çizgi; Haliç'in koyu suyunda
+ışıkların yansıması; Karaköy iskelesinin sarı ışıkları; ışıkları yanan bir şehir
+hatları vapuru; karşı kıyıda tarihi yarımadanın aydınlatılmış kubbeli, minareli
+silueti. Camda hiçbir yazı yok.
+
+Işık: odayı yalnız masa lambasının sıcak sarı ışığı aydınlatıyor, lambanın çevresinde
+sıcak bir ışık havuzu; odanın geri kalanı pencereden gelen soğuk mavi akşam ışığında,
+köşeler karanlık. Zemine lambanın ve pencerenin ışığı düşüyor. Hava: sessiz, yorgun,
+sıcak; bir günün bittiği an.
+
+Başka hiçbir nesne yok: kâğıt, defter, kitap, gazete, takvim, tabela, poster, ekran,
+telefon, saat, bardak yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** A6 ile aynı kadraj mı (üst üste konunca nesneler
+örtüşüyor mu), alt üçte bir boş mu ve karakterler okunacak kadar aydınlık mı, yazı
+taraması (vapur, iskele ışıkları), lamba sıcak / pencere soğuk ayrımı var mı.
