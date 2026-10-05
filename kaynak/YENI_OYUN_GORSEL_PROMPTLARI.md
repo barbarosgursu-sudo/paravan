@@ -364,3 +364,38 @@ değiştirmiyor. Bölge düzenleme (inpainting) yoksa bu yol işe yaramaz.
 **Denenen çözüm (taslakta):** B2 **aynalanmadan** kullanıldı. Ekranda başı Cengo'dan
 hafif çevrik, gözleri ona kayıyor — şüpheci bir "yan göz". Bedeli: bu tek görselde
 beden öteki ifadelerin aynası; el ve topuz tarafı değişiyor. Sahibinin kararı bekleniyor.
+
+## B4 — Şüpheci, sıfırdan (5 Ekim 2026)
+
+**Sahibinin kararı:** sıfırdan yeniden üretilecek.
+
+**Referans: A2** (A değil). A2'de bakış tuttu, çünkü baş gerçekten kadrajın soluna
+dönmüştü (üç çeyrek profil); B2'de yüz kameraya yakın kaldığı için gözler kaçtı.
+Bakışı sağlamanın yolu gözbebeğini tarif etmekten önce **başı çevirmek.** A2'yi
+referans vermek bu açıyı hazır getirir; poz ve ifade değişikliği büyük olduğu için
+B3'teki kilitlenme beklenmez.
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı kırmızı manto,
+aynı krem ipek bluz ve aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı
+düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk
+ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: bir eli belinde. Öteki elinin işaret parmağı çenesinde, düşünür gibi. Başı
+hafifçe yana eğik. Ağırlığı tek bacağında.
+
+İfade: açıkça şüpheci, abartılı ve okunaklı. Tek kaşı belirgin biçimde, alnına
+doğru yukarı kalkmış; öteki kaşı yerinde ve hafif aşağıda çatık. Gözleri yarı
+kısılmış. Bakışı başıyla aynı yönde: kadrajın soluna, karşısında kendi boyunda
+duran birinin yüzüne. Gözbebekleri gözlerin kadrajın soluna yakın köşesinde.
+Kameraya bakmıyor. Dudakları tek yana kıvrılmış, kapalı, "Ciddi misin?" der gibi
+yarım bir sırıtma.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
