@@ -1294,6 +1294,21 @@ mi?" der gibi.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — PMK2 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/deneme_peri_pmk2.webp` (ilk deneme yedek:
+`deneme_peri_pmk_ilk.webp`). Yeni pencere + "poz referanstan tamamen farklı" satırı işe
+yaradı: kollar kavuşturulmuş, çene yukarıda, karşısındakini süzüyor. Kaş tam kalkmadı,
+ifade şüpheden çok küçümsemeye kaydı; "Hatıralar haczedilmiyor demek" repliğine daha da
+iyi oturuyor. Ölçek ve baş yüksekliği PM2 ile aynı.
+
+**Kesim dersi — saten:** delik doldurma (tol 14) saten bluzun parlak yerini arka plan
+sanıp sildi (PMK2'de göğüste, PM2'de kolda). Delik doldurmayı kapatmak da kol–bel
+arasındaki boşluğu bej bırakıyor. Çözüm `kes_saten` ayarı: **delik tohumu sıkı (tol 6)**
+— gerçek boşluk düz renk, saten değil — **sonra onaylı boşluktan tol 22 ile yeniden
+taşkın**, dokulu kalıntıları da alır. Mantosuz set bu ayarla kesilir; PM2 de yeniden
+kesildi.
+
 ## PMS2 — Sinirli, parmağıyla gösteriyor (PM2 referanslı, yeni pencere)
 
 Replikler: "O satılık değil." / "Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı."
