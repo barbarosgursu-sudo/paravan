@@ -119,7 +119,9 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 ⚙ **KASA ilk kez görünür: 4.250 ₺**
 
 **PERİ:** Dört bin iki yüz elli lira. Bütün servetim.
-**CENGO [kas]:** Benim üç aylık maaşım birikti. Onun yanında az kalıyor.
+**CENGO [kas]:** Benim üç aylık maaşım birikti. Asgari ücretten. Seksen dört bin.
+**PERİ [sinirli]:** Asgari ücret mi? Yedi yıl boyunca hiçbir şey yapmadığınız için mi?
+**CENGO [normal]:** Hiçbir şey yapmanın asgari ücreti bu.
 **PERİ [sinirli]:** Size verecek bir şeyim yok, anlamıyor musunuz?
 **CENGO [normal]:** Anlıyorum. O zaman alacağım çıkana kadar buradayım.
 **PERİ:** Burada ne yapacaksınız?
@@ -141,7 +143,8 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 
 # VAKA 1 — KAYIP TEKNE
 
-⚙ tip: Mavi Ay (oyuncu da bilmez) · bedava · araştırma hakkı: **3** · ay sonu gideri: **10.000 ₺**
+⚙ tip: Mavi Ay (oyuncu da bilmez) · bedava · araştırma hakkı: **3** · vaka ücreti: **35.000 ₺** · ay sonu gideri: **35.000 ₺**
+⚙ fiyatların gerekçesi: en alttaki "Fiyat referansı" tablosu
 ⚙ kıyafet: Peri ve Cengo temel setlerinde
 
 ## Yazarın gerçeği ⚠ oyuncuya asla gösterilmez
@@ -168,8 +171,10 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 **RIZA REİS:** Tekne. Rahmetli hanımın adı.
 **PERİ:** Ne zaman?
 **RIZA REİS:** Salı gecesi. Sabah iskeleye indim, yok. Polise gittim; "tekne kaybolmaz, batmıştır" dediler. Batmadı o. Ben bilirim.
-**PERİ:** Ücretimiz…
-**RIZA REİS:** Ödenir. Yarın getiririm. Bugün balık yok, tekne yok, para yok.
+**PERİ:** Ücretimiz otuz beş bin lira.
+**RIZA REİS:** Otuz beş bin mi? O paraya bir ay mazot alırım.
+**CENGO [gulen]:** Teknesiz mazotu ne yapacaksın Reis?
+**RIZA REİS:** …Ödenir. Yarın getiririm. Bugün balık yok, tekne yok, para yok.
 
 *Kapıdan çıkarken duruyor.*
 
@@ -239,7 +244,8 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 ⚙ açılması: `set_teknesi` · olgular: `kiralayan_serkan`
 
 > Mekân sorumlusu Tuba, elinde üç telefonla: "Tekneyi sahibinden kiraladık, üç
-> günlüğüne, nakit. Otuzlarında bir adam. Serkan. Ruhsatı göstermedi ama boyamaya
+> günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir
+> adam. Serkan. Ruhsatı göstermedi ama boyamaya
 > itiraz da etmedi, ben de sormadım. Bu sektörde sorarsan çekim biter."
 >
 > ↳ *Tekneyi kiralayan adamın adı Serkan. "Sahibi" olduğunu söylemiş.*
@@ -257,7 +263,8 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 ⚙ açılması: `serkan_anahtar` · olgular: `serkan_borc`
 
 > Dükkân kapalı; camında bir icra ihtarı. Batan bir balık-ekmek tezgâhından kalma
-> borç. Son ödeme günü: bu cuma. Peri ihtara uzun uzun bakıyor ve bir şey demiyor.
+> borç: ödenmemiş dükkân kirası ve balıkçıya veresiye, toplam yüz bin liraya yakın.
+> Son ödeme günü: bu cuma. Peri ihtara uzun uzun bakıyor ve bir şey demiyor.
 >
 > ↳ *Serkan'ın cumaya kadar ödemesi gereken bir borcu var.*
 
@@ -273,7 +280,7 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 | `nazli_izi` | İ4 | Boyanın altından teknenin eski adı seçiliyor: Nazlı. |
 | `kiralayan_serkan` | İ5 | Tekneyi sete üç günlüğüne Serkan adında biri, sahibi gibi kiralamış. |
 | `serkan_anahtar` | İ6 | Rıza Reis'in oğlu Serkan'da teknenin yedek anahtarı var; kaybettiğini söylüyor. |
-| `serkan_borc` | İ7 | Serkan'ın cuma günü ödemesi gereken bir borcu var. |
+| `serkan_borc` | İ7 | Serkan'ın cuma günü ödemesi gereken, yüz bin liraya yakın bir borcu var. |
 
 ## Çıkarımlar — olgular birleşince kendiliğinden doğar
 
@@ -295,7 +302,7 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 
 ## Kararlar
 
-⚙ Kasa hesabı (başlangıç 4.250 ₺, ay sonu gideri 10.000 ₺) her kararın altında.
+⚙ Kasa hesabı: başlangıç 4.250 ₺ + kararın getirdiği − ay sonu gideri 35.000 ₺.
 ⚙ Bu vakada karardan önceki bağ her zaman **0** (açılıştaki seçim bağı değiştirmez);
 bu yüzden Cengo satırlarının yalnız **varsayılan** hâli yazıldı. Kademeli
 varyantlar Vaka 2'den itibaren anlam kazanır.
@@ -303,7 +310,7 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ---
 
 ### K1 — "Rıza Reis'i sete götür"
-⚙ kapı: `tekne_sette` · para: **+12.000** · bağ: **+1** · kasa sonrası: 6.250 ₺
+⚙ kapı: `tekne_sette` · para: **+35.000** · bağ: **+1** · kasa sonrası: 4.250 ₺
 
 **SONUÇ** *(`serkan_kiraladi` biliniyorsa)*
 > Rıza Reis'i Bebek'e götürdün. Çekimin ortasında sete daldı, tekneye çıktı,
@@ -329,7 +336,7 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ---
 
 ### K2 — "Rıza Reis'e her şeyi anlat"
-⚙ kapı: `serkan_kiraladi` · para: **+12.000** · bağ: **0** · kasa sonrası: 6.250 ₺
+⚙ kapı: `serkan_kiraladi` · para: **+35.000** (+ ~10 kg levrek, ~4.000 ₺ değerinde, para sayılmaz) · bağ: **0** · kasa sonrası: 4.250 ₺
 
 **SONUÇ** *(`serkan_neden` biliniyorsa)*
 > Rıza Reis'e her şeyi anlattın: tekneyi, seti, oğlunu, cuma günkü borcu. Rıza Reis
@@ -356,18 +363,18 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ---
 
 ### K3 — "Serkan'la anlaş, tekneyi sessizce geri getir"
-⚙ kapı: `serkan_kiraladi` · para: **+10.000** · bağ: **+1** · kasa sonrası: 4.250 ₺
+⚙ kapı: `serkan_kiraladi` · para: **+32.000** · bağ: **+1** · kasa sonrası: 1.250 ₺
 
 **SONUÇ** *(`serkan_neden` biliniyorsa)*
 > Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak,
 > boyası silinmiş. Dizinin parası borcuna gidecek. Rıza Reis'e "gençler almış,
 > Bebek'te bırakmışlar" dedin. İnanmadı, sormadı. Teknesi kendiliğinden bulunduğu
-> için ücretten pazarlık etti. Serkan sana bir iyilik borçlu.
+> için ücretten üç bin lira kırdırdı. Serkan sana bir iyilik borçlu.
 
 **SONUÇ** *(bilinmiyorsa)*
 > Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak,
 > boyası silinmiş. Rıza Reis'e "gençler almış, Bebek'te bırakmışlar" dedin.
-> İnanmadı, sormadı. Teknesi kendiliğinden bulunduğu için ücretten pazarlık etti.
+> İnanmadı, sormadı. Teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı.
 > Serkan sana bir iyilik borçlu; neden bu kadar rahatladığını söylemedi.
 
 **CENGO** *(varsayılan)*
@@ -382,11 +389,12 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ---
 
 ### K4 — "Yapımcıdan 'gizlilik ücreti' al"
-⚙ kapı: `tekne_sette` · para: **+18.000** · bağ: **−1** · kasa sonrası: 12.250 ₺
+⚙ kapı: `tekne_sette` · para: **+55.000** (Rıza Reis 35.000 + yapımcı 20.000) · bağ: **−1** · kasa sonrası: 24.250 ₺
 
 **SONUÇ**
 > Yapımcıya, dizinin "lüks yatının" boyanmış bir balıkçı teknesi olduğunu kimseye
-> söylemeyeceğini söyledin. Yapımcı ödedi, hem de hızlı. Nazlı çekim bitene kadar
+> söylemeyeceğini söyledin. Yapımcı yirmi bin ödedi, hem de hızlı; bir çekim
+> gününün yemek masrafından azdı. Nazlı çekim bitene kadar
 > sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Sonra teknesini beyaz buldu
 > ve ücretini ödedi. Yapım şirketinin defterine bir not düşüldü: "Paravan — sorun
 > çıkarırsa ödenir."
@@ -406,13 +414,30 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 
 | karar | net | kasa sonrası | |
 |---|---|---|---|
-| K1 sete götür | +12.000 | 6.250 | |
-| K2 her şeyi anlat | +12.000 | 6.250 | |
-| K3 Serkan'la anlaş | +10.000 | 4.250 | başa baş |
-| K4 sus payı | +18.000 | 12.250 | kirli yol en kârlı, fark 6.000 |
+| K1 sete götür | +35.000 | 4.250 | başa baş |
+| K2 her şeyi anlat | +35.000 | 4.250 | başa baş (+ levrek) |
+| K3 Serkan'la anlaş | +32.000 | 1.250 | pazarlık |
+| K4 sus payı | +55.000 | 24.250 | kirli yol en kârlı, fark 20.000 |
 
-Hiçbir yol kasayı eksiye düşürmüyor (Ton §9). Kirli yol cazip ama oyunu
-çözmüyor.
+Hiçbir yol kasayı eksiye düşürmüyor (Ton §9). Dürüst yol başa baş: ilk vaka büroyu
+yalnızca ayakta tutar. Kirli yol cazip ama oyunu çözmüyor. Cengo'nun alacağı
+(84.000 ₺) hiçbir yolda ödenmiyor — atışma malzemesi.
+
+## Fiyat referansı (Ekim 2026, İstanbul)
+
+*Sahibinin kuralı: oyunda geçen her para gerçek hayatla tutarlı olur.
+Kaynaklar internet ilanları ve fiyat listeleri; vakalar yazıldıkça güncellenir.*
+
+| kalem | gerçek aralık | oyunda |
+|---|---|---|
+| Karaköy'de küçük ofis kirası (30 m² civarı, eski han) | 25.000–65.000 ₺/ay | 30.000 ₺ |
+| İşletme (elektrik, su, internet, telefon, aidat) | — | 5.000 ₺ |
+| **Ay sonu gideri** | | **35.000 ₺** |
+| Net asgari ücret (2026) | ~28.000 ₺/ay | Cengo'nun bordro maaşı; 3 ay ≈ 84.000 ₺ |
+| Özel dedektif, vaka bazlı | 10.000–100.000 ₺; günlük 4.000–15.000 ₺ | Vaka 1 ücreti 35.000 ₺ |
+| Günlük tekne kiralama (İstanbul) | 17.500–62.000 ₺/gün; yat çok daha pahalı | Sete 35.000 ₺/gün, 3 gün = 105.000 ₺ |
+| İkinci el ahşap balıkçı teknesi | ~2–3 milyon ₺ | Nazlı'nın değeri (geçmiyor) |
+| Levrek (hal fiyatı) | ~380–470 ₺/kg | 10 kg kasa ≈ 4.000 ₺ |
 
 ## Tohumlar — sonraki vakalara bıraktığı *(öneri)*
 

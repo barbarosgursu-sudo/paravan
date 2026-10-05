@@ -231,6 +231,12 @@ sebep kalmaz ve her karar "doğru cevabı bul" sınavına döner.
    sahibinden saklanır, Cengo'nun "adamı" faturayı erteletir. Para derdi atışma
    malzemesidir.
 
+5. **Her para gerçek hayatla tutarlıdır** (sahibinin kuralı, 5 Ekim 2026). Kira,
+   ücret, kiralama, borç, rüşvet, balığın kilosu — oyunda geçen her tutar o yılın
+   İstanbul fiyatlarıyla uyumlu olur. Her vaka kendi "fiyat referansı" tablosunu
+   taşır (ilki `YENI_VAKA_1.md`'de); ay sonu gideri bu tabloya göre kurulur
+   (Ekim 2026: 35.000 ₺).
+
 **Değişmeyen sözleşmeler:** kaybetme yok; ekonomi seçenekleri daraltabilir ama
 oyuncuyu kirli karara zorlayamaz.
 
