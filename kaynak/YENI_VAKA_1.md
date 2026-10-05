@@ -109,12 +109,18 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 **CENGO [gulen]:** Hiç. Çok da iyi yapıyorum.
 **PERİ [sinirli]:** Sizi kim işe aldı?
 **CENGO [normal]:** Bilmiyorum. Bir gün hesabıma para yattı. Sonraki ay yine yattı. Sormadım; ayıp olur diye.
-**PERİ:** Yedi yıl boyunca hiç merak etmediniz mi?
-**CENGO:** Ettim. Sonra para yattı, geçti.
-**PERİ [normal]:** Bu şirketi kuran avukat dün ülkeden kaçtı. Benim bütün paramla.
-**CENGO [kas]:** Benim maaşım da onda mı?
+**PERİ [kas]:** *(kâğıda bakar)* Şirket gerçek görünsün diye bordroya bir isim yazmış. Sizinkini.
+**CENGO [gulen]:** Gerçek bir isim. Hakkını vereyim.
+**PERİ [normal]:** Bu şirketi kuran avukat üç ay önce ülkeden kaçtı. Benim bütün paramla.
+**CENGO [kas]:** Üç ay önce mi? Maaşım da üç aydır yatmıyor. Benim maaşım da onda mı?
 **PERİ:** Muhtemelen.
-**CENGO [gulen]:** O zaman ikimiz de alacaklıyız. Bir ortak yanımız var.
+**CENGO:** Üç aydır her pazartesi geliyorum. Kapı hep kilitli.
+**PERİ [kas]:** Kilidi iki saniyede açıyorsunuz.
+**CENGO [normal]:** İzinsiz girmem. Ben kibar bir adamım.
+**PERİ:** Az önce girdiniz.
+**CENGO [gulen]:** Siz vardınız. Sizin izninizle.
+**PERİ [sinirli]:** Ben izin vermedim.
+**CENGO:** Vermediniz ama kapıyı da çalmadınız. Anahtar denediniz. Aynı kapıdan girmek istiyoruz; bir ortak yanımız var.
 **PERİ [sinirli]:** Hiçbir ortak yanımız yok.
 
 ⚙ **SEÇİM** (oyunun ilk seçimi; yalnız renk — bağı değiştirmez, tohum yazmaz)
@@ -135,7 +141,7 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 
 *Üç yol burada birleşir.*
 
-**PERİ [normal]:** *(cüzdanını açar)* Kasada ne kaldığını bilmek ister misiniz?
+**PERİ [normal]:** Şirketin kasasını görmek ister misiniz? *(cüzdanını açar)* Kasa bu.
 
 ⚙ **KASA ilk kez görünür: 4.250 ₺**
 
