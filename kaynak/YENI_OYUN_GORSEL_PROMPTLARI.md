@@ -582,3 +582,20 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** yaş (34 mü, gençleşmiş mi), stil Peri'yle aynı mı,
 kravat boyunda mı (olmamalı), bileklikte harf var mı, tel görünüyor mu, ceket
 takım ceketi mi (spor ceket ya da deri değil).
+
+## Sonuç — CA (5 Ekim 2026)
+
+Geldi; referans kopyası `kaynak/yeni_gorsel/deneme_cengo_ca.webp`. Taslakta şimdilik
+bütün Cengo ifadeleri CA'yı gösteriyor (yer tutucu çizim kalktı).
+
+| | sonuç |
+|---|---|
+| **Kıyafet** | **Tuttu.** Buruşuk açık kahve ceket, sıvalı kollar, beyaz gömlek, koyu kot; kravat boyunda değil, yan cepten sarkıyor; göğüs cebinde tel; bileklik renkli, **harfsiz**. Kol saati yok. |
+| **Yüz** | Dağınık kıvırcık siyah saç, kısa sakal, hınzır yarım gülümseme; 30–34 arası okunuyor. |
+| **Stil** | Peri'den biraz daha "boyalı" (fırça dokusu belirgin), ama yan yana uyumlu. |
+| **Gömlek** | İstenen "üst iki düğme" yerine yarıya kadar açık, göğüs görünüyor. Peri'nin dekoltesiyle dengeli duruyor; sahibinin kararı. |
+| **Kadraj** | Peri'yle aynı ölçek. Cengo'yu Peri'den yarım baş uzun göstermek için taslakta kutusu %5 büyük. |
+| **Kesim** | Beyaz gömlek arka plana çok yakın renk; "kapalı boşluk" temizliği gömleği siliyordu. Cengo için o adım kapalı. **Kural:** arka plana yakın renkli giysi varsa boşluk temizliği kapatılır, kesim gözle kontrol edilir. |
+
+Sıradaki: **CA2** — başı kadrajın soluna (Peri'ye) dönük nötr; ondan sonra kaşı
+kalkık, gülen, yumuşak.
