@@ -158,13 +158,15 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 
 ⚙ arka plan: büronun içi — tozlu, iki masa, bir pencere, pencereden Karaköy iskelesi
 
-*Büronun içi. Toz, iki masa, bir pencere. Kapı çalınıyor. İkisi birbirine bakıyor.*
+*Büronun içi. Yedi yıllık toz, iki masa, bir pencere; pencereden Karaköy iskelesi.
+Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 
-**CENGO [kas]:** Siz mi bakarsınız, ben mi?
-**PERİ [normal]:** Benim büromsa ben bakarım.
-**CENGO:** Kapıyı ben açtım ama.
+**PERİ [kas]:** Kim olabilir?
+**CENGO [normal]:** Ev sahibi. Avukat üç aydır yoksa, kira da üç aydır yoktur.
+**PERİ [utanmis]:** …Siz açın.
+**CENGO [gulen]:** Ben çalışanım. Kirayı patron konuşur.
 
-*Peri kapıyı açıyor.*
+*Peri derin bir nefes alıyor, mantosunun kuşağını düzeltiyor, kapıyı açıyor.*
 
 ---
 
@@ -191,8 +193,10 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 
 *Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri.*
 
-**RIZA REİS:** Dedektif burası mı? Tabelada öyle yazıyor.
-**PERİ [normal]:** Öyle yazıyor.
+**PERİ [normal]:** *(rahatlar)* Ev sahibi değilsiniz.
+**RIZA REİS:** Değilim. Dedektif burası mı? Tabelada öyle yazıyor.
+**PERİ:** Öyle yazıyor.
+**RIZA REİS:** Yedi yıldır iskeleden bu tabelaya bakarım. Işık ilk defa yandı.
 **RIZA REİS:** Teknemi çaldılar. Kırk yıllık teknemi. Nazlı'yı.
 **CENGO [kas]:** Nazlı kim?
 **RIZA REİS:** Tekne. Rahmetli hanımın adı.
