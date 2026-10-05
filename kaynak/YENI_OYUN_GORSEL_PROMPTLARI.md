@@ -1255,6 +1255,88 @@ bir gülümseme.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — PMK, ilk deneme (5 Ekim 2026)
+
+Teknik olarak tuttu (yüz, ölçek, kaş, bakış) ama **B4'ün birebir aynısı, yalnız kıyafet
+farklı.** Sahibinin itirazı: çeşitlilik yok. Kabahat prompt'ta — B4'ün poz satırı aynen
+kopyalanmıştı. **Ders: ifade setleri kıyafet değişince poz da değişir.** Ekranda zıplamayı
+önleyen şey poz değil; **ölçek, kesim çerçevesi ve baş açısı.** Pozlar sahnenin durumuna
+göre yeniden yazılır (haciz: evde, eşyaları gidiyor). Yeni pencerede, yalnız PM2
+referansla, "referansın pozunu kopyalama" satırıyla yeniden üretilecek.
+
+## PMK2 — Şüpheci, kollar kavuşturulmuş (PM2 referanslı, yeni pencere)
+
+Replikler: "Çok naziksiniz. Hatıralar haczedilmiyor demek." / "Benim şirketim yok."
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı krem ipek bluz ve
+aynı dekolte, aynı siyah kalem etek ve kemer, aynı altın küpeler, mantosu yok; aynı
+çizim tarzı, aynı düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek,
+uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+POZ REFERANSTAN TAMAMEN FARKLI; referanstaki poz kopyalanmayacak. Hiçbir eli yakasında,
+çenesinde ya da belinde değil.
+
+Poz: iki kolunu göğsünün altında sıkıca kavuşturmuş, parmakları dirseklerini tutuyor.
+Omuzları geride, çenesi yukarıda, başı hafifçe geriye çekilmiş: karşısındakini
+yukarıdan süzüyor. Ağırlığı arka bacağında, kalçası hafif yana kaymış.
+
+İfade: alaycı şüphe, abartılı ve okunaklı. Tek kaşı belirgin biçimde yukarı kalkmış,
+öteki düz. Göz kapakları yarı inik, burnunun üstünden bakıyor. Bakışı kadrajın soluna,
+karşısında kendi boyunda duran birinin yüzüne; gözbebekleri gözlerin kadrajın soluna
+yakın köşesinde. Kameraya bakmıyor. Dudakları kapalı, bir köşesi aşağı çekilmiş, "Öyle
+mi?" der gibi.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## PMS2 — Sinirli, parmağıyla gösteriyor (PM2 referanslı, yeni pencere)
+
+Replikler: "O satılık değil." / "Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı."
+
+```
+[PMK2'nin ilk iki paragrafı aynen]
+
+POZ REFERANSTAN TAMAMEN FARKLI; referanstaki poz kopyalanmayacak.
+
+Poz: kadrajın soluna yakın kolu ileri uzanmış, işaret parmağı kadrajın soluna,
+karşısındakinin göğsüne doğru dikilmiş, uyarır gibi. Öteki eli yumruk, yanında. Gövdesi
+öne, kadrajın soluna doğru eğilmiş; bir adım atmış gibi.
+
+İfade: komedi öfkesi — abartılı, tiyatral, okunaklı. İki kaşı aşağı ve içe çatılmış,
+kaşlarının arasında derin bir kırışık. Gözleri kocaman açılmış. Bakışı kadrajın
+soluna, karşısındakinin yüzüne; gözbebekleri gözlerin kadrajın soluna yakın köşesinde.
+Kameraya bakmıyor. Ağzı konuşurken açık, dişleri hafif görünüyor. Burun kanatları
+açılmış, yanaklarında hafif kızarıklık.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## PMU2 — Utanmış, elleri önde (PM2 referanslı, yeni pencere)
+
+Replikler: "Bilmiyorum. Sayan dolandırıcı avukatımdı." / "…Annenize selam söyleyin."
+
+```
+[PMK2'nin ilk iki paragrafı aynen; "Başı hafifçe öne eğik." eklenir]
+
+POZ REFERANSTAN TAMAMEN FARKLI; referanstaki poz kopyalanmayacak.
+
+Poz: iki eli önünde, bel hizasında birleşmiş, parmakları birbirine kenetlenmiş;
+omuzları hafifçe kulaklarına doğru kalkmış, kendini küçültür gibi. Dizleri hafif
+içe dönük.
+
+İfade: komedi utancı — yakalanmış ama gülmesini tutamayan biri. Yanakları belirgin
+biçimde pembe. Kaşları ortada yukarı kalkmış. Gözleri aşağıya ve kadrajın soluna
+kaçmış. Kameraya bakmıyor. Dudakları kapalı, mahcup, yamuk bir gülümseme; dişleri
+görünmüyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
 **Geldiğinde (her biri):** manto gerçekten yok mu, dekolte temel setle aynı mı (az da
 çok da değil), yüz ve yaş aynı mı, sabit çerçeveyle kesilince temel setle aynı ölçekte
 mi, bakış kadrajın soluna mı.
