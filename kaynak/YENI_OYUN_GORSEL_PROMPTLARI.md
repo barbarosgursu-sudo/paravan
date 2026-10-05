@@ -444,3 +444,24 @@ cümlenin ortasında. Burun kanatları açılmış. Yanaklarında hafif kızarı
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — C3 (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_peri_c3.webp`. Taslakta `sinirli` → C3.
+
+| | sonuç |
+|---|---|
+| **Bakış** | Baş profil, gözler kadrajın soluna; ekranda doğrudan Cengo'ya. |
+| **İfade** | Çatık kaş, açık gözler, konuşurken açık ağız: okunaklı komedi öfkesi. |
+| **Poz** | Yumruklar belde, dirsekler açık. |
+
+**Yerleştirmede bulunan sorun — ölçek zıplaması.** Görseller arka planı ayrıldıktan
+sonra kendi sınırlarına göre kırpılıyordu. C3'te dirsekler dışarıda olduğu için görsel
+daha genişti, ekranda küçülüyordu: ifade değişince Peri boyu değişiyordu.
+**Düzeltme:** bütün Peri görselleri artık aynı sabit çerçeveyle kesiliyor (orijinalde
+x 120–1034, tam yükseklik → 915×1402); kutu da o orana uyuyor. Dördü yan yana
+denendi: baş yüksekliği ve boy aynı.
+
+**Kural (yeni):** bir karakterin bütün ifadeleri **aynı sabit çerçeveyle** kesilir;
+görsel kendi sınırına göre kırpılmaz. Bu, üretici aynı kadrajı verse bile pozun
+genişliği değişince ölçeği korur.
