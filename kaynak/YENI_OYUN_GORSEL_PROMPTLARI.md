@@ -806,3 +806,62 @@ yakın beyaz gömlek yüzünden "kapalı boşluk" temizliği kapalı.
 
 **İki karakterin temel seti tamamlandı.** Vaka 1 görsel planında kalan: Cengo'nun
 4 ifadesi ✓ — sırada arka planlar (14), detaylar (3), ara kareler (7), figürler (8).
+
+---
+
+# ARKA PLANLAR — VAKA 1
+
+**Ortak kurallar (her arka plan):**
+- Aynı stil satırı (karakterlerle aynı üretici). Karakter görseli stil referansı
+  verilirse "yalnız çizim tarzı; içinde insan çizme" denir.
+- **Dikey, 3:4.** Telefonda sahne alanı dikey; karakterler alt %80'e oturur.
+- **İnsan yok.** Karakterler sonradan önüne konacak.
+- **Kamera göz hizasında, ayakta duran birinin boyunda**; ön plandaki zemin boş ve
+  sakin (karakterler oraya basacak), ilgi çekici ayrıntılar üst yarıda ve kenarlarda.
+- **Nesneler tek tek sayılır;** yazı taşıyabilecek her yüz kapalı ya da boş tarif
+  edilir; "başka nesne yok" denir.
+- Aynı mekânın öteki açıları (A7 pencere tarafı, A8 akşam) bu görsel **referans
+  verilerek** üretilir.
+
+## A6 — Büro, gündüz, geniş açı (★, sezon boyu)
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman arka planı. Belirgin, temiz
+kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi
+afişi ile modern çizgi roman arası bir tarz. Anime değil, fotoğraf değil.
+(Referans görsel varsa yalnız çizim tarzı içindir; bu görselde hiç insan yok.)
+
+Mekân: İstanbul Karaköy'de, eski bir taş hanın üçüncü katında, yıllardır kimsenin
+kullanmadığı küçük bir dedektiflik bürosu. Sabah, güneşli bir gün. Yüksek tavan,
+sıvası yer yer dökülmüş krem rengi duvarlar, eski ahşap döşeme.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, odanın kapısından içeri bakıyor.
+Görselin alt üçte biri boş, sakin bir ahşap zemin: orada hiçbir nesne yok.
+
+Odada YALNIZ şunlar var:
+1. Arka duvarın ortasında, üst yarıda, uzun ve kemerli tek bir pencere; ahşap
+   çerçeveli, camı tozlu. Pencereden Karaköy iskelesi, Haliç'in mavi suyu, beyaz
+   bir şehir hatları vapuru ve karşı kıyıda tarihi yarımadanın kubbeli silueti
+   görünüyor. Camda hiçbir yazı yok.
+2. Pencerenin önünde, yan yana iki eski ahşap masa; üstleri çizik ve tozlu. Masaların
+   üstünde yalnızca bir masa lambası ve kapağı kapalı, boş bir karton kutu.
+3. Her masanın arkasında birer eski ahşap sandalye.
+4. Sol duvarda, kapakları kapalı, etiketsiz, gri metal bir dosya dolabı.
+5. Sağ duvarda boş bir ayaklı askılık.
+6. Sağ duvarda, bir zamanlar orada asılı duran bir çerçevenin bıraktığı soluk,
+   dikdörtgen bir iz (çerçevenin kendisi yok).
+7. Pencerenin altında eski, döküm bir kalorifer peteği.
+8. Pencereden giren güneş ışığında havada süzülen toz zerrecikleri.
+
+Başka hiçbir nesne yok: kâğıt, defter, kitap, gazete, takvim, tabela, poster,
+ekran, telefon, saat yok.
+
+Işık: sabah güneşi pencereden giriyor, zeminde sıcak bir ışık dikdörtgeni; odanın
+köşeleri hafif gölgede. Hava: terk edilmiş ama umut veren, sıcak.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** alt üçte bir gerçekten boş mu (karakterler oraya
+basacak), pencere ve manzara okunuyor mu, yazı taraması (dolap, kutu, cam, manzarada
+vapur ve tabelalar), stil karakterlerle uyumlu mu, insan var mı.
