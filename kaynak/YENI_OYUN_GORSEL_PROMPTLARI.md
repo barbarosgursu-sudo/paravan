@@ -971,3 +971,67 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** A6 ile aynı kadraj mı (üst üste konunca nesneler
 örtüşüyor mu), alt üçte bir boş mu ve karakterler okunacak kadar aydınlık mı, yazı
 taraması (vapur, iskele ışıkları), lamba sıcak / pencere soğuk ayrımı var mı.
+
+## Sonuç — A8 (5 Ekim 2026)
+
+**Tuttu, çok iyi.** Kopya `kaynak/yeni_gorsel/arka_a8_buro_aksam.webp`. A6 ile yan yana
+konunca kapı, dolap, masalar, askılık, pencere ve çerçeve izi neredeyse birebir
+örtüşüyor; yalnız kutu lambanın yanına geçmiş (prompt öyle istedi). Lamba sıcak,
+pencere soğuk ayrımı tuttu; alt üçte bir boş, zeminde lamba yansıması.
+**Yazı yok** — dolap çekmecelerindeki etiket çerçeveleri boş, vapur ve kıyı ışık
+lekesi. Stil A6'dan biraz daha fotoğrafa yakın; akşam karanlığında fark edilmiyor.
+
+Taslakta akşam sahnesinde figürlere lamba tonu veriliyor (`.figurler.aksam`:
+`brightness(.8) sepia(.18)`, konuşmayan için daha koyu). Gerçek oyunda da arka planın
+`aksam` bayrağı figür tonunu seçmeli; yoksa karakterler karanlık odada sahne ışığında
+duruyor gibi görünür.
+
+## A5 — Hanın üçüncü kat koridoru, büro kapısı (★, sezon boyu)
+
+Açılış S3: Peri anahtarı deniyor, Cengo arkasından çıkıyor. **Stil referansı olarak A6
+eklenebilir** (yalnız çizim tarzı ve renk için; başka mekân).
+
+Tuzak: kanonda kapıda **soluk bir tabela** var ve yüzü görünmemeli. Boş tabela istemek
+üreticiye yazı yazdırır; o yüzden tabela **kenarından** görünür: kamera koridor
+boyunca bakar, kapı yan duvarda, perspektifte daralmış durur.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman arka planı. Belirgin, temiz
+kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi
+afişi ile modern çizgi roman arası bir tarz. Anime değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı ve renk içindir; bu başka bir mekân ve görselde
+hiç insan yok.)
+
+Mekân: İstanbul Karaköy'de, 19. yüzyıldan kalma eski bir taş hanın üçüncü katındaki
+koridor. Öğleden sonra. Yüksek tavan, yer yer sıvası dökülmüş krem rengi duvarlar,
+eski siyah-beyaz karo zemin, aşınmış.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, koridorun bir ucunda durup koridor boyunca
+ileri bakıyor; koridor perspektifle uzaklaşıyor. Görselin alt üçte biri boş, sakin
+bir karo zemin: orada hiçbir nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Sağ duvarda, yakında, koyu ahşap, çift kanatlı değil tek kanatlı eski bir kapı;
+   kapalı, pirinç tokmaklı, pirinç kilitli. Kapıya çok yandan bakıyoruz, kapı
+   perspektifte daralmış görünüyor.
+2. Bu kapının üstünde, duvardan dik çıkan küçük pirinç bir tabela; kamera ona tam
+   yandan baktığı için tabelanın YALNIZ İNCE KENARI görünüyor, yüzü hiç görünmüyor.
+3. Koridorun dibinde, uzakta, kemerli tek bir pencere; içeri sıcak, tozlu bir öğleden
+   sonra ışığı giriyor. Pencereden yalnız gökyüzü ve ışık görünüyor.
+4. Sol duvarda, uzakta, kapalı iki ahşap kapı daha; üzerlerinde tabela, numara ya da
+   yazı YOK.
+5. Tavandan sarkan, sönük, eski bir cam abajurlu lamba.
+6. Pencereden gelen ışık huzmesinde süzülen toz zerrecikleri.
+
+Başka hiçbir nesne yok: ilan, afiş, levha, posta kutusu, zil paneli, kâğıt, saat,
+paspas, saksı yok.
+
+Işık: koridorun dibindeki pencereden gelen sıcak, altın renkli ışık; yakın taraf
+hafif loş. Hava: eski, unutulmuş, ama gizemli ve davetkâr.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** tabelanın yüzü görünüyor mu (görünüyorsa yazı taraması
+ve gerekirse yeniden üretim), öteki kapılarda numara var mı, alt üçte bir boş mu,
+stil A6 ile uyumlu mu, kapı karakterlerin arkasında okunuyor mu.
