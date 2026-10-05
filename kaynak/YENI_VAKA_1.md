@@ -230,7 +230,7 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 **PERİ [kas]:** Çaycıyı tanıyor musunuz?
 **CENGO:** Bana üç bardak borcu var.
 **PERİ:** Siz herkese mi borçlusunuz, herkes size mi?
-**CENGO [gulen]:** Bana borçlu olan her soruma cevap verir. Çaycı bana borçlu.
+**CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım. Çaycı konuşur.
 
 ## Araştırma
 
