@@ -865,3 +865,19 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** alt üçte bir gerçekten boş mu (karakterler oraya
 basacak), pencere ve manzara okunuyor mu, yazı taraması (dolap, kutu, cam, manzarada
 vapur ve tabelalar), stil karakterlerle uyumlu mu, insan var mı.
+
+## Sonuç — A6 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a6_buro_gunduz.webp` (900 px, WebP q80). Taslakta
+"Büro · sabah" artık A6; "Büro · akşam" A8 gelene kadar A6'nın koyulaştırılmış hâli.
+
+| | sonuç |
+|---|---|
+| **Kompozisyon** | Kapı aralığından içeri bakış (solda kapı kanadı ve tokmak); kemerli pencere, iki masa, dolap, askılık, petek, duvarda çerçeve izi — sayılan nesnelerin hepsi var, fazlası yok. |
+| **Alt üçte bir** | Boş, güneş ışığı vuran ahşap zemin; karakterler oraya oturuyor. |
+| **Manzara** | Haliç, şehir hatları vapuru, tarihi yarımada siluetinde kubbeli cami ve minareler. |
+| **Yazı** | Yok (dolap, kutu, cam, vapur büyütülerek tarandı). |
+| **Stil** | Karakterlerden biraz daha fotoğrafa yakın, alan derinliği var; karakterlerle yan yana uyumlu. |
+
+Taslakta akşam sahnesinde karakterler arka plandan aydınlık kalıyor; A8 (gerçek akşam
+ışığı) üretilince ve figürlere akşam tonu verilince düzelecek.
