@@ -328,3 +328,28 @@ Geldi; referans kopyası `kaynak/yeni_gorsel/deneme_peri_b2.webp`. Taslakta `kas
 | **İfade** | **Tuttu.** Bir kaş belirgin biçimde kalkık, öteki çatık; tek yana kıvrık sırıtma. İlk B'deki yumuşaklık yok. |
 | **Kadraj** | A2 ile aynı ölçek ve kesim. |
 | **Bakış** | Kısmen. Burun kadrajın soluna (doğru), ama gözler kadrajın sağına kaymış; aynalanınca Cengo'ya değil hafifçe yana bakıyor. Şüpheci "yan göz" olarak okunabilir; sahibinin kararı. |
+
+## B3 — Şüpheci, bakış düzeltmesi (5 Ekim 2026)
+
+**Sahibinin kararı:** B2 yeniden üretilecek; yalnız bakış düzelecek. Poz ve ifade
+B2'de tuttuğu için **referans olarak B2 verilir** (A değil): üretici sadece gözleri
+değiştirsin. Üretici "düzenle / yalnız bir bölgeyi değiştir" seçeneği sunuyorsa
+yalnız gözler seçilerek o yol kullanılır.
+
+Ders (B2): "bakışı kadrajın soluna" tek başına yetmedi; burun sola döndü, gözbebekleri
+sağa kaçtı. Bakış da burun-kulak geometrisi gibi **gözbebeğinin göz içindeki yeriyle**
+tarif edilir.
+
+```
+Referans görselin AYNISI: aynı kadın, aynı yüz, aynı poz (işaret parmağı çenede,
+öteki eli belinde, başı hafif eğik), aynı ifade (bir kaşı yukarıda, öteki çatık,
+tek yana kıvrık kapalı dudaklı sırıtma), aynı kıyafet ve dekolte, aynı çizim tarzı,
+aynı düz açık bej arka plan, aynı kadraj.
+
+Değişen TEK şey gözbebekleri. İki gözde de gözbebekleri gözün kadrajın SOL tarafına
+yakın köşesinde duruyor; gözlerin beyazı kadrajın sağ tarafında görünüyor. Bakışı,
+kadrajın solunda, kendi boyunda biri duruyormuş gibi yatay ve o kişinin yüzünde.
+Kameraya bakmıyor; kadrajın sağına bakmıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
