@@ -1103,3 +1103,19 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kolilerde yazı/etiket var mı (en büyük risk), karşı
 cephede tabela var mı, duvarda çerçeve ya da fotoğraf var mı, manto askıda ve kırmızı
 mı (Peri'nin mantosuyla renk uyumu), alt üçte bir boş mu.
+
+## Sonuç — A1 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a1_salon_haciz.webp`. Sayılan sekiz nesnenin
+hepsi var, fazlası yok: iki yüksek pencere ve tül, kristal avize, bordo kadife oymalı
+kanepe (koltuk kanepe olarak çizildi; Türkçede "koltuk" ikisini de karşılar, kalabilir),
+yedi düz koli, örtülü mobilya, duvarda tablo izleri ve boş çiviler, askıda kırmızı manto.
+**Yazı yok** — koliler yalnız bantlı, cephe ve tavan süsleri büyütülerek tarandı.
+Alt üçte bir boş balıkçılsırtı parke.
+
+Küçük not: karşı cephenin mavi mansart çatısı Paris'e kayıyor; Nişantaşı'nda benzer
+binalar var, kalabilir. A2/A3 üretilirken düzeltilecek bir şey değil — referans bu.
+
+**Açık süreklilik sorusu:** askıdaki manto, Peri sprite'ının üstündeki mantonun aynısı.
+S1–S2'de Peri mantoyu henüz giymemiş olmalı (S2 sonunda giyer: "Üstümde."). Sahibine
+soruldu.
