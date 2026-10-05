@@ -303,3 +303,17 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde:** dördü (A2, B2, C2, D2) yan yana: aynı kadın mı, aynı ölçek mi,
 taslakta ifade değişince Peri zıplıyor mu.
+
+## Sonuç — A2 (5 Ekim 2026)
+
+Geldi; referans kopyası `kaynak/yeni_gorsel/deneme_peri_a2.webp`. Taslakta `normal`
+ve `gulen` ifadeleri artık A2'yi gösteriyor; A yalnız referans.
+
+| | sonuç |
+|---|---|
+| **Bakış** | **Tuttu.** Başı ve gözleri kadrajın soluna dönük; aynalanınca ekranda Cengo'ya bakıyor. |
+| **Kadraj** | A ile birebir aynı ölçek, kesim ve baş yüksekliği; ifade değişince Peri zıplamıyor. |
+| **Yüz** | Aynı kadın, yaşı korunmuş. |
+| **Yazı** | Yok. |
+
+Kalan: B2, C2, D2.
