@@ -369,16 +369,17 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ⚙ kapı: `tekne_sette` · para: **+35.000** · bağ: **+1** · kasa sonrası: 4.250 ₺
 
 **SONUÇ** *(`serkan_kiraladi` biliniyorsa)*
-> Rıza Reis'i Bebek'e götürdün. Çekimin ortasında sete daldı, tekneye çıktı,
-> boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın adını söyledi;
-> Rıza Reis zaten biliyordu, sen söylemiştin. Oğlunun adını herkesin önünde duydu.
+> Rıza Reis'e oğlunu söylemedin; teknesini gösterdin. Çekimin ortasında sete daldı,
+> tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın
+> adını herkesin önünde söyledi. Sen bildiğin hâlde susmuştun; Rıza Reis oğlunun
+> adını kırk kişinin içinde duydu. Yapım, Serkan'dan kira parasını geri istedi.
 > Tekne o akşam iskeleye döndü, beyaz. Ücretin tamamı geldi.
 
 **SONUÇ** *(bilinmiyorsa)*
 > Rıza Reis'i Bebek'e götürdün. Çekimin ortasında sete daldı, tekneye çıktı,
 > boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın adını kulağına
-> söyledi. Rıza Reis'in yüzü değişti; adı sana söylemedi. Tekne o akşam iskeleye
-> döndü, beyaz. Ücretin tamamı geldi.
+> söyledi. Rıza Reis'in yüzü değişti; adı sana söylemedi. Yapım, kiralayandan kira
+> parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz. Ücretin tamamı geldi.
 
 **CENGO** *(varsayılan)*
 > Cengo bütün çekimi bir figüranın yanında ayakta izledi. Dönüşte "Bu dizinin en
@@ -423,15 +424,17 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 
 **SONUÇ** *(`serkan_neden` biliniyorsa)*
 > Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak,
-> boyası silinmiş. Dizinin parası borcuna gidecek. Rıza Reis'e "gençler almış,
-> Bebek'te bırakmışlar" dedin. İnanmadı, sormadı. Teknesi kendiliğinden bulunduğu
-> için ücretten üç bin lira kırdırdı. Serkan sana bir iyilik borçlu.
+> boyasını yapım sökecek. Dizinin parası Serkan'ın borcuna gidecek. Rıza Reis'e
+> "gençler almış, Bebek'te bırakmışlar, cumartesi getiriyorlar" dedin. İnanmadı,
+> sormadı. Üç gün daha denize çıkamadı. Teknesi kendiliğinden bulunduğu için
+> ücretten üç bin lira kırdırdı. Serkan sana bir iyilik borçlu.
 
 **SONUÇ** *(bilinmiyorsa)*
 > Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak,
-> boyası silinmiş. Rıza Reis'e "gençler almış, Bebek'te bırakmışlar" dedin.
-> İnanmadı, sormadı. Teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı.
-> Serkan sana bir iyilik borçlu; neden bu kadar rahatladığını söylemedi.
+> boyasını yapım sökecek. Rıza Reis'e "gençler almış, Bebek'te bırakmışlar,
+> cumartesi getiriyorlar" dedin. İnanmadı, sormadı. Üç gün daha denize çıkamadı.
+> Teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı. Serkan sana
+> bir iyilik borçlu; neden bu kadar rahatladığını söylemedi.
 
 **CENGO** *(varsayılan)*
 > Cengo, Serkan'ın omzuna vurdu. "Baban sorarsa ben bilmem" dedi. Sonra Peri'ye
@@ -444,16 +447,16 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 
 ---
 
-### K4 — "Yapımcıdan 'gizlilik ücreti' al"
+### K4 — "Yapımcıya susmayı sat"
 ⚙ kapı: `tekne_sette` ve `yat_tanitimi` (ikisi de İ4'ten gelir) · para: **+55.000** (Rıza Reis 35.000 + yapımcı 20.000) · bağ: **−1** · kasa sonrası: 24.250 ₺
 
 **SONUÇ**
-> Yapımcıya, dizinin "lüks yatının" boyanmış bir balıkçı teknesi olduğunu kimseye
-> söylemeyeceğini söyledin. Yapımcı yirmi bin ödedi, hem de hızlı; bir çekim
-> gününün yemek masrafından azdı. Nazlı çekim bitene kadar
-> sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Sonra teknesini beyaz buldu
-> ve ücretini ödedi. Yapım şirketinin defterine bir not düşüldü: "Paravan — sorun
-> çıkarırsa ödenir."
+> Yapımcıyla bir "danışmanlık sözleşmesi" imzaladın. Konusu: dizinin "lüks
+> yatının" boyanmış bir balıkçı teknesi olduğunu kimseye söylememek. Yapımcı yirmi
+> bin ödedi, hem de hızlı; bir çekim gününün yemek masrafından azdı. Nazlı çekim
+> bitene kadar sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Cumartesi
+> teknesini iskelede, beyaz buldu ve ücretini ödedi. Yapım şirketinin defterine
+> bir not düşüldü: "Paravan — sorun çıkarırsa ödenir."
 
 **CENGO** *(varsayılan)*
 > Cengo yapımcının yüzünü taklit ederek on dakika güldü. Sonra pencereden boş
