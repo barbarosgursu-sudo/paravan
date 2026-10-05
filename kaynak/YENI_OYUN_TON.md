@@ -168,6 +168,39 @@ kirli bir karara tepkisi daha çok acıtır. Yeni oyundaki karşılığı:
 
 ---
 
+### İlişki nasıl oynanır (sahibinin kararı, 5 Ekim 2026)
+
+**Eski oyunun teşhisi:** ilişki ölçülüyordu ama oynanmıyordu. Bağ 31 kararda
+değişiyordu; 40 kararın 23'ünde Cengo konuşmuyordu; bağa göre değişen metin sonradan
+ve yalnız 17 kararda eklendi. "Söze dökülmez" ilkesi yanlış uygulanıp ikili
+karelerde ikisini birbirine küs gösterdi (`gorsel_promptlari_2.md` PAKET 7).
+
+**Yeni oyunda:**
+
+1. **Her sahnede yan yana.** Konuşma ekranı ilişkinin yaşandığı yerdir; karar
+   sonrasındaki tek satıra sıkışmaz.
+2. **Bağ atışmanın tonunu değiştirir.** Konuşma sahneleri de bağın kademesine göre
+   varyant taşır (Ters / Atışma / Elektrik / Neredeyse), yalnız karar sonuçları
+   değil. Her vakada en az bir konuşma anı kademeye göre yazılır.
+3. **Yakınlık eylemdedir, sözde değil.** Göz teması, yarım kalan laf, uzatılan ceket.
+   **Çekingenlik küslük değildir:** birbirine bakıp söylememek doğru; birbirine
+   bakmamak yanlış (görsellerde de).
+4. **İki taraf da hisseder.** Yalnız Cengo tepki vermez; Peri'nin de tarafı var.
+   Vaka 3'teki yan karakterin Cengo'yla şakalaşması Peri'nin belli etmemeye çalıştığı
+   bir kıskançlık olarak oynanır.
+5. **Sezon boyunca planlı anlar:** V4 falcı ("bir kadın, kırmızı"), V6 Cengo'nun
+   kızı (Peri onu ilk kez başkasının gözünden görür), V7 müzayede (smokin ve gece
+   elbisesi), V8 telefon (söylenecekken çalar).
+6. **Kavuşmazlar** — ama kavuşmamak uzak durmak değil, hep bir adım geride kalmaktır.
+
+**Gösterge YOK.** Eski oyundaki 5 alevlik bağ göstergesi yeni oyunda yer almaz.
+Bağ ekranda sayı, çubuk, alev ya da kelime olarak görünmez; oyuncu onu atışmanın
+tonundan, yüz ifadelerinden ve Cengo'nun satırlarından okur. Gösterge olsaydı
+oyuncu ilişkiyi puan toplamaya çevirirdi ("sıcaklık onay değildir" kuralını deler).
+*(Eski Türkçe oyundaki gösterge olduğu gibi kalır; bu karar yalnız yeni oyun için.)*
+
+---
+
 ## 7. "OYUN NOT VERMEZ" — KOMEDİDE NASIL TUTAR
 
 Komedi bu kuralı yeni bir yerden deler: **Cengo'nun esprisi gizli bir not olabilir.**
