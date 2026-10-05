@@ -190,6 +190,20 @@ açıkça yazılır.
 **Ekranda yön:** taslakta Peri solda durur ve görselleri aynalanır. Promptta "burnu
 kadrajın soluna" denir; aynalanınca Cengo'ya döner.
 
+**BAKIŞ KURALI (sahibinin sorusu üzerine, 5 Ekim 2026):** konuşma ekranında Peri ile
+Cengo **birbirine bakar, kameraya bakmaz.** Kameraya bakmak oyuncuyla göz göze
+gelmektir; bu bizde Cengo'nun seyrek dördüncü duvar anına ayrıldı (Ton §11).
+- Peri'nin bütün sprite'larında bakış **kadrajın soluna** (aynalanınca Cengo'ya).
+- Cengo ekranın sağında durur, aynalanmaz; onun sprite'larında da bakış **kadrajın
+  soluna** (doğrudan Peri'ye).
+- Utanma gibi "kaçan bakış" ifadelerinde bakış aşağı kayar ama yine o yöndedir.
+- Ara karelerde (K1–K7) ikisi aynı karedeyse birbirine bakar; çekingenlik küslük
+  değildir (Ton §6).
+- Tek istisna: Cengo'nun dördüncü duvar anı için ayrı bir "kameraya bakan" ifade
+  üretilir (Vaka 4).
+- **A (referans) kameraya bakıyor;** karakter kartı olarak referans kalır, ama
+  ekranda kullanılmak için bakışı kadrajın soluna dönük bir **A2** gerekir.
+
 **Screwball ilkesi:** ifadeler gerçek öfke ya da gerçek utanç değil, komedi
 öfkesi ve komedi utancı — abartılı, okunaklı, biraz tiyatral.
 
@@ -207,7 +221,7 @@ Değişen tek şey poz ve ifade.
 Poz: bir eli belinde. Öteki elinin işaret parmağı çenesinde, düşünür gibi. Başı
 hafifçe yana eğik. Ağırlığı tek bacağında.
 
-İfade: açıkça şüpheci, abartılı ve okunaklı. Tek kaşı belirgin biçimde, alnına
+İfade: açıkça şüpheci, abartılı ve okunaklı. Kameraya bakmıyor. Tek kaşı belirgin biçimde, alnına
 doğru yukarı kalkmış; öteki kaşı yerinde ve hafif aşağıda. Gözleri yarı kısılmış,
 yan bakış: bakışı kameraya değil, kadrajın soluna kaymış. Dudakları tek yana
 kıvrılmış, kapalı, "Ciddi misin?" der gibi yarım bir sırıtma.
@@ -229,7 +243,8 @@ ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
 Değişen tek şey poz ve ifade.
 
 Poz: iki eli de yumruk hâlinde belinde. Gövdesi ve başı öne, kadrajın soluna doğru
-eğilmiş, birini azarlıyor. Omuzları kalkık.
+eğilmiş, birini azarlıyor. Omuzları kalkık. Bakışı kameraya değil, kadrajın
+soluna, azarladığı kişiye dönük.
 
 İfade: komedi öfkesi — abartılı, tiyatral, okunaklı. İki kaşı da aşağı ve içe
 çatılmış, kaşlarının arasında derin bir kırışık. Gözleri kocaman açılmış, öfkeyle
@@ -259,7 +274,7 @@ hafif öne eğik.
 
 İfade: komedi utancı — yakalanmış ama gülmesini tutamayan biri. Yanakları belirgin
 biçimde pembe. Kaşları ortada yukarı kalkmış. Gözleri aşağıya ve kadrajın soluna
-kaçmış, kameraya bakmıyor. Dudakları kapalı, alt dudağını hafifçe ısırır gibi,
+kaçmış; kameraya bakmıyor. Dudakları kapalı, alt dudağını hafifçe ısırır gibi,
 tutulmaya çalışılan bir gülümseme.
 
 Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
@@ -267,5 +282,24 @@ Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
-**Geldiğinde:** dördü (A + B2, C2, D2) yan yana: aynı kadın mı, aynı ölçek mi,
+## A2 — Nötr, ekran için (bakış kadrajın soluna)
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı kırmızı manto,
+aynı krem ipek bluz ve aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı
+düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk
+ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Poz ve ifade referansla aynı: bir eli mantonun yakasında, öteki belinde, kendinden
+emin, dudakları kapalı, belli belirsiz bir gülümseme.
+
+Değişen tek şey bakış: kameraya bakmıyor. Başı ve gözleri kadrajın soluna,
+karşısında duran birine dönük. Burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında kalıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde:** dördü (A2, B2, C2, D2) yan yana: aynı kadın mı, aynı ölçek mi,
 taslakta ifade değişince Peri zıplıyor mu.
