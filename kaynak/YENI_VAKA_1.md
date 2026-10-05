@@ -482,9 +482,10 @@ Hiçbir yol kasayı eksiye düşürmüyor (Ton §9). Dürüst yol başa baş: il
 yalnızca ayakta tutar. Kirli yol cazip ama oyunu çözmüyor. Cengo'nun alacağı
 (84.000 ₺) hiçbir yolda ödenmiyor — atışma malzemesi.
 
-⚠ **Açık soru — birikmiş kira.** Sahne 4'te Cengo "avukat üç aydır yoksa, kira da üç
-aydır yoktur" diyor. Gerçekçi olan buysa büronun **90.000 ₺** birikmiş kira borcu var
-ve yukarıdaki tabloda yok. Sahibinin kararı gerekiyor (aşağıda, "Sahibine" §6).
+**Birikmiş kira — sahibinin kararı (5 Ekim 2026): seçenek a.** Büronun 90.000 ₺
+birikmiş kira borcu var ama kasaya yazılmaz. Ev sahibi Vaka 2'de kapıya gelir, borç
+taksite bağlanır; ev sahibi sezon boyu dönen bir yan figür olur. Taksit, Vaka 2'den
+itibaren ay sonu giderine eklenir (tutarı Vaka 2 yazılırken; öneri: 6 ay × 15.000 ₺).
 
 ## Fiyat referansı (Ekim 2026, İstanbul)
 
@@ -504,7 +505,7 @@ Kaynaklar internet ilanları ve fiyat listeleri; vakalar yazıldıkça güncelle
 | Serkan'ın borcu (dükkân kirası + veresiye) | — | ~100.000 ₺; sete kiradan gelen 105.000 ₺ ile kapanıyor |
 | Yapımcının "danışmanlık" ödemesi | — | 20.000 ₺ |
 | Dizi setinde bir çekim gününün yemek masrafı | *tahmin:* 60–80 kişi × kişi başı 400–600 ₺ | "yirmi binden fazla" |
-| Birikmiş kira (3 ay, açık soru) | — | 90.000 ₺ |
+| Birikmiş kira (3 ay) | — | 90.000 ₺; kasaya yazılmaz, Vaka 2'de taksite bağlanır |
 
 *"—" olan satırlar için kaynak aranmadı; hikâyenin iç hesabıdır. İşletme gideri de
 tahmindir.*
@@ -541,9 +542,4 @@ gelmez. Eski oyunda da kurulan "ekonomi daraltır, kirletmeye zorlamaz" dengesi.
 4. **Kararlar:** dört yolun her biri gerçekten seçilebilir mi, yoksa biri açıkça
    "doğru cevap" gibi mi duruyor?
 5. **Anı defteri:** Peri'nin kendi sesi, anlatıcı değil. Kalsın mı?
-6. **Birikmiş kira (90.000 ₺):** üç seçenek —
-   **a)** borç kasaya yazılmaz; ev sahibi Vaka 2'de kapıya gelir, taksite bağlanır,
-   sezon boyu tekrarlanan bir yan figür olur (önerim);
-   **b)** avukat kirayı bir yıl peşin ödemiş, Cengo yanılıyor — borç yok;
-   **c)** borç kasaya yazılır — ilk vakadan sonra kasa −85.750 ₺ olur, "batmak keyif
-   vermez" kararına aykırı.
+6. ~~**Birikmiş kira:**~~ karara bağlandı — seçenek a (ev sahibi yan figür).

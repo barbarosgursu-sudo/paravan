@@ -104,6 +104,20 @@ arka planı, icra memuru figürü. Peri ve Cengo temel setlerinde.
 
 ---
 
+## EV SAHİBİ — sezon boyu dönen yan figür *(sahibinin kararı, 5 Ekim 2026)*
+
+Avukat kaçtığından beri büronun kirası ödenmemiş: **90.000 ₺** (3 ay × 30.000 ₺).
+Borç kasaya yazılmaz (batmak keyif vermez). Ev sahibi **Vaka 2'de** kapıya gelir;
+borç taksite bağlanır ve taksit o vakadan itibaren ay sonu giderine eklenir (öneri:
+6 ay × 15.000 ₺ → ay sonu gideri 50.000 ₺).
+
+Sonra ara sıra döner: kira gününde kapıda, merdivende, en kötü anda. Peri ondan
+saklanır (Ton §9.4); Cengo'nun "borçlu olduklarımdan ben saklanırım" kuralı bu kez
+Peri'ye işler. **Kim olduğu** (adı, yaşı, tuhaflığı) Vaka 2 ile birlikte yazılır.
+§0 özgünlük kuralı: Mavi Ay'daki hiçbir figüre benzemez.
+
+---
+
 ## VAKA 1 — KAYIP TEKNE · *Mavi Ay tipi · bedava*
 
 **Müşteri:** Karaköy'de yaşlı bir balıkçı. Kırk yıllık teknesi bir gecede iskeleden
