@@ -81,9 +81,10 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 ## Sahne 3 — Cengo
 
 ⚙ arka plan: Karaköy, eski bir hanın üçüncü kat koridoru, büro kapısı · figürler: Peri, Cengo
-⚙ görsel kuralı: kapıdaki tabelanın yüzü görünmez (yazı yok)
+⚙ görsel kuralı: kapıdaki tabelanın ve penceredeki yazının yüzü görünmez (yazı yok)
 
-*Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela. Peri anahtarı deniyor.
+*Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye
+bakan penceresinin camında da aynı yazı, ters okunuyor. Peri anahtarı deniyor.
 Olmuyor. Bir daha deniyor. Olmuyor.*
 
 **PERİ [sinirli]:** Tabii. Avukatın kapısı bile yalan söylüyor.
@@ -185,23 +186,26 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 | neden | Batan balık-ekmek tezgâhından kalan bir borç; ödeme günü **cuma**. Babasından saklıyor. |
 | dizi | "Yalıda Bir Yaz." Tekne beyaza boyanmış, sette **"lüks yat"** rolünde. |
 | set | Mekân sorumlusu **Tuba** kiralamayı yaptı; yapımcı tekneyi sosyal medyada "gerçek lüks yat" diye tanıttı. |
-| plan | Serkan tekneyi cumartesi sabahı, boyası silinmiş olarak geri getirecekti. Babası salı sabahı fark etti. |
+| plan | Serkan tekneyi cumartesi sabahı, boyası silinmiş olarak geri getirecekti. Babası çarşamba sabahı fark etti; Peri ile Cengo aynı gün devreye giriyor. |
 
 ## Giriş
 
 ⚙ figürler: Peri, Cengo, Rıza Reis
 
-*Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri.*
+*Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri. Bugün
+çarşamba.*
 
 **PERİ [normal]:** *(rahatlar)* Ev sahibi değilsiniz.
-**RIZA REİS:** Değilim. Dedektif burası mı? Tabelada öyle yazıyor.
+**RIZA REİS:** Değilim. Dedektif burası mı? Camda öyle yazıyor.
 **PERİ:** Öyle yazıyor.
-**RIZA REİS:** Yedi yıldır iskeleden bu tabelaya bakarım. Işık ilk defa yandı.
-**RIZA REİS:** Teknemi çaldılar. Kırk yıllık teknemi. Nazlı'yı.
+**CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım.
+**RIZA REİS:** Yedi yıldır iskeleden o cama bakarım. Işık ilk defa yandı. Ben de çıktım.
+**PERİ [kas]:** Ne oldu?
+**RIZA REİS:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı.
 **CENGO [kas]:** Nazlı kim?
 **RIZA REİS:** Tekne. Rahmetli hanımın adı.
-**PERİ:** Ne zaman?
-**RIZA REİS:** Salı gecesi. Sabah iskeleye indim, yok. Polise gittim; "tekne kaybolmaz, batmıştır" dediler. Batmadı o. Ben bilirim.
+**PERİ [normal]:** Ne zaman?
+**RIZA REİS:** Dün gece. Sabah iskeleye indim, yok. Karakola gittim, tutanak tuttular, "bakarız" dediler. Haklılar, bakacaklar. Ama ben bir hafta denize çıkmazsam batarım.
 **PERİ:** Ücretimiz otuz beş bin lira.
 **RIZA REİS:** Otuz beş bin mi? O paraya bir ay mazot alırım.
 **CENGO [gulen]:** Teknesiz mazotu ne yapacaksın Reis?
