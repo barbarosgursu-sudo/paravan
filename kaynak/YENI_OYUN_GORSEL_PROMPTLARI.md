@@ -353,3 +353,14 @@ Kameraya bakmıyor; kadrajın sağına bakmıyor.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — B3 (5 Ekim 2026)
+
+**Tutmadı.** Üretici B2'yi neredeyse aynen geri verdi (piksel farkı çok küçük;
+gözbebekleri yine kadrajın sağında). Ders: referans olarak bitmiş görseli verip
+"yalnız gözleri değiştir" demek, üreticiyi referansa kilitliyor; küçük bir ayrıntıyı
+değiştirmiyor. Bölge düzenleme (inpainting) yoksa bu yol işe yaramaz.
+
+**Denenen çözüm (taslakta):** B2 **aynalanmadan** kullanıldı. Ekranda başı Cengo'dan
+hafif çevrik, gözleri ona kayıyor — şüpheci bir "yan göz". Bedeli: bu tek görselde
+beden öteki ifadelerin aynası; el ve topuz tarafı değişiyor. Sahibinin kararı bekleniyor.
