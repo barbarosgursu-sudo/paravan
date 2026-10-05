@@ -213,7 +213,7 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 
 *Kapıdan çıkarken duruyor.*
 
-**RIZA REİS:** Bir de… oğluma söylemeyin. Üzülür.
+**RIZA REİS:** Bir de… oğlum Serkan'a söylemeyin. Üzülür.
 
 ## Konuşma
 
@@ -230,7 +230,7 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 **PERİ [kas]:** Çaycıyı tanıyor musunuz?
 **CENGO:** Bana üç bardak borcu var.
 **PERİ:** Siz herkese mi borçlusunuz, herkes size mi?
-**CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarım saklanır. Çaycı konuşur.
+**CENGO [gulen]:** Bana borçlu olan her soruma cevap verir. Çaycı bana borçlu.
 
 ## Araştırma
 
@@ -265,44 +265,56 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 > ↳ *Zinciri anahtarı olan biri açmış.*
 
 ### İ4 — Bebek sahili · *Gözlem · 1 hak*
-⚙ açılması: `bebek_yonu` · olgular: `set_teknesi`, `nazli_izi`
+⚙ açılması: `bebek_yonu` · olgular: `set_teknesi`, `nazli_izi`, `yat_tanitimi`
 ⚙ sahnede arama adayı: oyuncu pruvaya dokunup adı kendisi bulabilir (ekran kararı açık)
 
-> Bebek'te bir dizi çekiliyor. Peri "eski bir meslektaş" olarak içeri girmeye
+> Bebek'te bir dizi çekiliyor. Peri "Beni tanırlar" diyerek içeri girmeye
 > çalışıyor; set asistanı onu süzüp "Figüranlar arkadan" diyor. Peri arkadan giriyor.
+>
+> Asistan, figüranlara telefonunda dizinin tanıtımını gösteriyor: "Bu sezonun
+> yıldızı, gerçek bir lüks yat."
 >
 > Setin ortasında "lüks yat": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı
 > teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: **Nazlı.**
 >
 > ↳ *Nazlı batmamış. Bebek'te, bir dizide oynuyor.*
 
-⚙ görsel kuralı: pruvadaki adın harfleri görselde görünmez; yalnız metinde.
+⚙ görsel kuralı: pruvadaki adın harfleri ve telefon ekranı görselde görünmez; yalnız metinde.
 
 ### İ5 — Set sorumlusuyla konuşmak · *İfade · 1 hak*
 ⚙ açılması: `set_teknesi` · olgular: `kiralayan_serkan`
 
 > Mekân sorumlusu Tuba, elinde üç telefonla: "Tekneyi sahibinden kiraladık, üç
 > günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir
-> adam. Serkan. Ruhsatı göstermedi ama boyamaya
-> itiraz da etmedi, ben de sormadım. Bu sektörde sorarsan çekim biter."
+> adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım.
+> Çekim cumaya yetişmezse ben yetişemem."
 >
 > ↳ *Tekneyi kiralayan adamın adı Serkan. "Sahibi" olduğunu söylemiş.*
 
 ### İ6 — Rıza Reis'in oğlu · *İfade · 1 hak*
-⚙ açılması: koşulsuz (Rıza Reis oğlundan söz etti) · olgular: `serkan_anahtar`
+⚙ açılması: koşulsuz (Rıza Reis oğlunun adını verdi) · olgular: `serkan_anahtar`, `serkan_yaka_karti`
+⚙ görsel kuralı: yaka kartının yüzü görünmez
 
-> Serkan, Karaköy'de bir dükkânın önünde. Babasının teknesi açılınca konuyu
-> değiştiriyor, sonra yine değiştiriyor. Cengo sorunca itiraf ediyor: teknenin
-> yedek anahtarı onda. "Ama kaybettim," diyor. Cebi şıngırdıyor.
+> Peri duraksıyor: "Rıza Reis 'oğluma söylemeyin' dedi." Cengo: "Söylemiyoruz.
+> Soruyoruz."
 >
-> ↳ *Serkan'da yedek anahtar var. Kaybettiğini söylüyor.*
+> Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu
+> değiştiriyor, sonra yine değiştiriyor. Cengo sorunca itiraf ediyor: teknenin
+> yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. "Ama kaybettim,"
+> diyor. Cebi şıngırdıyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri
+> bakınca kartı gömleğinin içine sokuyor.
+>
+> ↳ *Serkan'da yedek anahtar var, kaybettiğini söylüyor. Boynunda da bir dizi
+> setinin yaka kartı var.*
 
 ### İ7 — Serkan'ın dükkânı · *Belge · 1 hak*
 ⚙ açılması: `serkan_anahtar` · olgular: `serkan_borc`
+⚙ görsel kuralı: notun yüzü görünmez
 
-> Dükkân kapalı; camında bir icra ihtarı. Batan bir balık-ekmek tezgâhından kalma
-> borç: ödenmemiş dükkân kirası ve balıkçıya veresiye, toplam yüz bin liraya yakın.
-> Son ödeme günü: bu cuma. Peri ihtara uzun uzun bakıyor ve bir şey demiyor.
+> Serkan'ın kapalı balık-ekmek dükkânının kapısına bantlanmış, el yazısı bir not:
+> "Cuma günü ya para ya anahtar. — Ev sahibi." Yan dükkândaki simitçi gerisini
+> anlatıyor: dükkân batmış; birikmiş kira, balıkçıya veresiye, toplam yüz bin liraya
+> yakın. Peri nota uzun uzun bakıyor ve bir şey demiyor.
 >
 > ↳ *Serkan'ın cumaya kadar ödemesi gereken bir borcu var.*
 
@@ -315,26 +327,32 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 | `bebek_yonu` | İ2 | Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendeki genç el salladı. |
 | `kilit_saglam` | İ3 | Zincirin kilidi kırılmamış; anahtarla açılıp yeniden kilitlenmiş. |
 | `set_teknesi` | İ4 | Bebek'teki dizi setinde "lüks yat" diye beyaza boyanmış bir balıkçı teknesi var. |
+| `yat_tanitimi` | İ4 | Dizi, tekneyi tanıtımında "gerçek bir lüks yat" diye gösteriyor. |
 | `nazli_izi` | İ4 | Boyanın altından teknenin eski adı seçiliyor: Nazlı. |
 | `kiralayan_serkan` | İ5 | Tekneyi sete üç günlüğüne Serkan adında biri, sahibi gibi kiralamış. |
 | `serkan_anahtar` | İ6 | Rıza Reis'in oğlu Serkan'da teknenin yedek anahtarı var; kaybettiğini söylüyor. |
+| `serkan_yaka_karti` | İ6 | Serkan'ın boynunda bir dizi setinin yaka kartı var; saklamaya çalışıyor. |
 | `serkan_borc` | İ7 | Serkan'ın cuma günü ödemesi gereken, yüz bin liraya yakın bir borcu var. |
 
 ## Çıkarımlar — olgular birleşince kendiliğinden doğar
 
 | çıkarım | gerekir | başlık |
 |---|---|---|
-| `calinmadi` | `bebek_yonu` **ve** (`kilit_saglam` **ya da** `serkan_anahtar`) | Nazlı'yı kıran döken bir hırsız almamış. Anahtarı olan biri çözüp Bebek'e götürmüş. |
+| `calinmadi` | `bebek_yonu` **ve** `kilit_saglam` | Nazlı'yı zincir kıran bir hırsız almamış. Anahtarı olan biri çözüp Bebek'e götürmüş. |
 | `tekne_sette` | `set_teknesi` **ve** `nazli_izi` | Nazlı kayıp değil: Bebek'te bir dizi setinde, boyanmış, "lüks yat" rolünde. |
-| `serkan_kiraladi` | `tekne_sette` **ve** (`kiralayan_serkan` **ya da** (`serkan_anahtar` **ve** `calinmadi`)) | Nazlı'yı sete Rıza Reis'in oğlu Serkan götürmüş. |
+| `serkan_kiraladi` | `tekne_sette` **ve** (`kiralayan_serkan` **ya da** (`serkan_anahtar` **ve** `serkan_yaka_karti`)) | Nazlı'yı sete Rıza Reis'in oğlu Serkan götürmüş. |
 | `serkan_neden` | `serkan_kiraladi` **ve** `serkan_borc` | Serkan tekneyi cuma günkü borcunu ödemek için kiralamış; babasından saklıyor. |
 
 ⚙ Yollar (3 hak):
 - **A — "kim":** Bebek + set sorumlusu + bir tane daha → `serkan_kiraladi`. `serkan_neden` yok.
-- **B — "neden":** Bebek + Serkan + dükkân → `calinmadi`, `serkan_kiraladi`, `serkan_neden`.
+  Üçüncü hak iskeleye giderse `calinmadi` da doğar.
+- **B — "neden":** Bebek + Serkan + dükkân → `serkan_kiraladi` (anahtar + yaka kartı yolu), `serkan_neden`.
 - **C — kısa:** yalnız Bebek → `tekne_sette`. Kalan hak nereye giderse.
 
-⚙ Nurcan kontrolü: `calinmadi` "anahtarı olan biri" der, kim olduğunu demez.
+⚙ Nurcan kontrolü: `calinmadi` yalnız kilidin anahtarla açıldığı bilindiğinde doğar
+(Serkan'ın anahtarı tek başına kilidin kırılmadığını kanıtlamaz); "anahtarı olan biri"
+der, kim olduğunu demez. `serkan_kiraladi`'nın "Rıza Reis'in oğlu" demesi, Rıza Reis
+girişte oğlunun adını verdiği için hak edilmiş bilgidir.
 `serkan_kiraladi` Serkan'ın babasından sakladığını söylemez; bunu yalnız
 `serkan_neden` söyler.
 
@@ -427,7 +445,7 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ---
 
 ### K4 — "Yapımcıdan 'gizlilik ücreti' al"
-⚙ kapı: `tekne_sette` · para: **+55.000** (Rıza Reis 35.000 + yapımcı 20.000) · bağ: **−1** · kasa sonrası: 24.250 ₺
+⚙ kapı: `tekne_sette` ve `yat_tanitimi` (ikisi de İ4'ten gelir) · para: **+55.000** (Rıza Reis 35.000 + yapımcı 20.000) · bağ: **−1** · kasa sonrası: 24.250 ₺
 
 **SONUÇ**
 > Yapımcıya, dizinin "lüks yatının" boyanmış bir balıkçı teknesi olduğunu kimseye
