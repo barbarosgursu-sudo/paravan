@@ -465,3 +465,35 @@ denendi: baş yüksekliği ve boy aynı.
 **Kural (yeni):** bir karakterin bütün ifadeleri **aynı sabit çerçeveyle** kesilir;
 görsel kendi sınırına göre kırpılmaz. Bu, üretici aynı kadrajı verse bile pozun
 genişliği değişince ölçeği korur.
+
+## D3 — Utanmış, A2 referanslı (5 Ekim 2026)
+
+D2 metni üretilmeden B4/C3 dersiyle güncellendi: **referans A2**, baş açısı korunur.
+Bakış kuralı: utanmada bakış aşağı kayar ama yine kadrajın soluna (Cengo'nun yönüne).
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, olgun bir kadın; gençleştirilmemiş, yüzü yumuşatılmamış),
+aynı saç ve topuz, aynı kırmızı manto, aynı krem ipek bluz ve aynı dekolte, aynı
+altın küpeler, aynı çizim tarzı, aynı düz açık bej arka plan. Kadraj referansla
+birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte,
+dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor. Başı
+hafifçe öne eğik.
+
+Değişen şeyler poz ve ifade.
+
+Poz: kadrajın soluna yakın eli, yüzünün yanına düşen saç tutamını kulağının arkasına
+sıkıştırıyor. Öteki eli mantonun kuşağının düğümünü tutuyor. Omuzları hafif içe
+dönük.
+
+İfade: komedi utancı — yakalanmış ama gülmesini tutamayan biri. Yanakları belirgin
+biçimde pembe. Kaşları ortada yukarı kalkmış. Gözleri aşağıya ve kadrajın soluna
+kaçmış: gözbebekleri gözlerin kadrajın soluna ve aşağıya yakın köşesinde. Kameraya
+bakmıyor. Dudakları kapalı, alt dudağını hafifçe ısırır gibi, tutulmaya çalışılan
+bir gülümseme.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
