@@ -28,12 +28,12 @@ kapıda duruyor.*
 **PERİ:** O zaman bugün için.
 **HİLMİ BEY:** …Teşekkür ederiz.
 **PERİ:** O koltukta üç evlenme teklifi aldım. Üçünü de reddettim.
-**HİLMİ BEY:** Koltuk ne dedi?
-**PERİ [kas]:** Koltuk bir şey demedi. Ağzı sıkıdır. Avukatım gibi değil.
-**HİLMİ BEY:** *(listeye yazar)* Koltuk, bir adet. *(başını kaldırır)* Avize.
+**HİLMİ BEY:** *(listeye yazar)* Koltuk, bir adet. Hatıraları sizde kalsın.
+**PERİ [kas]:** Çok naziksiniz. Hatıralar haczedilmiyor demek.
+**HİLMİ BEY:** Şimdilik. *(başını kaldırır)* Avize.
 **PERİ [normal]:** Dikkatli indirin. Kristalleri sayılıdır.
 **HİLMİ BEY:** Kaç tane?
-**PERİ [utanmis]:** Bilmiyorum. Sayan avukatımdı.
+**PERİ [utanmis]:** Bilmiyorum. Sayan dolandırıcı avukatımdı.
 **HİLMİ BEY:** Biz sayarız, hanımefendi. Bizim işimiz o.
 
 *Arkada iki memur avizeyle boğuşuyor. Bir kristal yere düşüyor. Hilmi Bey eğilip
