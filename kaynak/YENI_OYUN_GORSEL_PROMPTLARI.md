@@ -881,3 +881,42 @@ vapur ve tabelalar), stil karakterlerle uyumlu mu, insan var mı.
 
 Taslakta akşam sahnesinde karakterler arka plandan aydınlık kalıyor; A8 (gerçek akşam
 ışığı) üretilince ve figürlere akşam tonu verilince düzelecek.
+
+## A7 — Büro, pencere tarafı (A6 referanslı, sezon boyu)
+
+Konuşmada açı değişimi için: aynı oda, kamera pencereye yaklaşmış. **A6'yı referans
+olarak ekle** — oda, pencere, masalar ve ışık aynı kalmalı.
+
+```
+Referans görseldeki odanın AYNISI, aynı çizim tarzı, aynı renkler, aynı sabah ışığı.
+Bu görselde hiç insan yok.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, odanın ortasına ilerlemiş, kemerli
+pencereye doğru bakıyor; pencere kadrajın üst yarısını kaplıyor. Kamera hafifçe
+sağa dönük: pencere kadrajın biraz soluna düşüyor.
+Görselin alt üçte biri boş, sakin bir ahşap zemin ve güneş ışığı: orada hiçbir
+nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Referanstaki kemerli ahşap pencere, yakından; camı tozlu, camda hiçbir yazı yok.
+   Pencereden aşağıda Karaköy iskelesi, iskeleye yanaşmış beyaz bir şehir hatları
+   vapuru, Haliç'in mavi suyu, martılar ve karşı kıyıda tarihi yarımadanın kubbeli,
+   minareli silueti. İskelede uzaktan, küçük, yüzü seçilmeyen birkaç insan silueti
+   olabilir.
+2. Referanstaki iki ahşap masanın yalnız pencereye yakın uçları, kadrajın alt
+   yarısının kenarlarında; üstlerinde yalnız masa lambası.
+3. Pencerenin altındaki döküm kalorifer peteği.
+4. Güneş ışığında süzülen toz zerrecikleri.
+
+Başka hiçbir nesne yok: kâğıt, defter, kitap, gazete, takvim, tabela, poster,
+ekran, telefon, saat yok. İskelede ve vapurda tabela, ad ya da yazı yok.
+
+Işık: sabah güneşi doğrudan pencereden giriyor, hafif ters ışık; zeminde sıcak
+ışık. Hava: sıcak, umut veren.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** A6 ile aynı oda gibi mi (pencere biçimi, masa rengi,
+duvar), alt üçte bir boş mu, vapur/iskele yazı taraması, iskele figürleri yüzsüz ve
+küçük mü.
