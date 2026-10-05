@@ -560,13 +560,108 @@ renk ekler.
 oyuncu ikisinden de mahrum kalır. Bu, kirli yolun gerçek bedeli: para gelir, dost
 gelmez. Eski oyunda da kurulan "ekonomi daraltır, kirletmeye zorlamaz" dengesi.
 
-## Görsel ihtiyacı (açılış + Vaka 1)
+## Görsel planı (açılış + Vaka 1)
 
-| tür | görsel |
-|---|---|
-| arka plan | Peri'nin boşalan salonu · han koridoru, büro kapısı · büronun içi · Karaköy iskelesi · Bebek, dizi seti · Serkan'ın kapalı dükkânı |
-| figür | Hilmi Bey (icra memuru) · Rıza Reis · Serkan · Tuba (set sorumlusu) · çaycı · yapımcı |
-| ana karakter | Peri ve Cengo temel setleri (4'er ifade) |
+*5 Ekim 2026. Sahibinin isteği: oyuncu için iyi bir deneyim; gerekiyorsa farklı
+açılar ve daha fazla görsel. Bu plan tam hâli; ★ işaretliler olmazsa olmaz.*
+
+**Dört görsel türü:**
+
+| tür | ne işe yarar | nasıl görünür |
+|---|---|---|
+| **Arka plan** | Konuşmanın geçtiği yer. Aynı mekânın farklı açısı, uzun sahnede ekranı tazeler. | Tam ekran, karakterler önünde |
+| **Detay** | İpucunun kendisi; "sahnede arama" ekranına da aday. | Tam ekran yakın çekim, karaktersiz |
+| **Ara kare** | Sahnenin doruk anı; konuşma ekranının taşıyamayacağı bir hareket. | Tam ekran, karakterler içinde çizili |
+| **Figür** | Yan karakter, arka planın önünde. | Peri/Cengo gibi kesilmiş |
+
+### Arka planlar — 14
+
+| # | görsel | nerede | |
+|---|---|---|---|
+| A1 | Peri'nin salonu, geniş açı — eşyalar taşınıyor, koliler | Açılış S1 | ★ |
+| A2 | Aynı salon, ters açı — kapıdan içeri, avize sökülürken | Açılış S1 (avize) | |
+| A3 | Aynı salon, bomboş, akşamüstü ışığı | Açılış S2 | ★ |
+| A4 | Karaköy, eski hanın sokaktan girişi | Açılış S3 (geçiş) | |
+| A5 | Hanın üçüncü kat koridoru, büro kapısı | Açılış S3 | ★ |
+| A6 | Büronun içi, gündüz, geniş açı — iki masa, toz | S4, giriş, konuşma | ★ |
+| A7 | Büronun içi, pencere tarafı — camdan iskele | Konuşmada açı değişimi | |
+| A8 | Büronun içi, akşam — iskelenin ışıkları | Kapanış | ★ |
+| A9 | Karaköy iskelesi, geniş — Nazlı'nın boş bağlama yeri | İ1, İ3 | ★ |
+| A10 | İskeledeki çay ocağı, yakın | İ2 | |
+| A11 | Bebek sahili, dizi seti — ışıklar, kamera, beyaz tekne | İ4 | ★ |
+| A12 | Setin arkası — kablolar, katering masası | İ5 | |
+| A13 | Karaköy ara sokağı, kapalı balık-ekmek dükkânı | İ6 | ★ |
+| A14 | Dükkânın içi, camdan — boş tezgâh, ters çevrilmiş sandalyeler | İ7 | |
+
+### Detaylar — 3
+
+| # | görsel | nerede | |
+|---|---|---|---|
+| D1 | Kilitte Cengo'nun teli, kapı aralanıyor | Açılış S3 ("İki saniye") | |
+| D2 | İskelede zincir ve sağlam asma kilit | İ3 | ★ |
+| D3 | Pruvada taze beyaz boya, altında eski boyanın gölgesi (harf okunmaz) | İ4 | ★ |
+
+### Ara kareler — 7
+
+| # | görsel | nerede | |
+|---|---|---|---|
+| K1 | Peri'nin eli tacı bırakıyor, taç kolinin içine giriyor; Hilmi Bey koliyi tutuyor | Açılış S1 sonu | ★ |
+| K2 | Peri boş salonda mantonun kuşağını sıkıyor | Açılış S2 sonu | |
+| K3 | Rıza Reis setin ortasında tekneye çıkmış, boyaya tırnağını geçiriyor | Karar K1 sonucu | ★ |
+| K4 | Büroda levrek kasası, Cengo buzdolabına sığdırmaya çalışıyor | Karar K2 sonucu | ★ |
+| K5 | Cumartesi sabahı iskelede Nazlı, boyası yarı sökülmüş | Karar K3 sonucu | ★ |
+| K6 | Peri bir masada imza atıyor, karşısında yapımcı; arkada beyaz tekne | Karar K4 sonucu | ★ |
+| K7 | Peri'nin eli mantonun cebinde, telin ucu görünüyor | Kapanış | ★ |
+
+K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
+kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
+
+### Figürler — 8
+
+| figür | ifade | |
+|---|---|---|
+| Hilmi Bey (icra memuru) | ciddi · hafif gülümseyen | ★ ciddi |
+| Rıza Reis | normal · dertli · öfkeli (K1 sonucu) | ★ normal, dertli |
+| Serkan | kaçamak, boynunda yaka kartı | ★ |
+| Tuba (set sorumlusu) | telaşlı, elinde telefonlar | ★ |
+| Çaycı | gülümseyen | |
+
+### Ana karakterler
+
+| | | |
+|---|---|---|
+| Peri, temel set | normal · kaşı kalkık · sinirli · utanmış | **4 hazır** (deneme görselleri; tarz kesinleşirse) |
+| Cengo, temel set | normal · kaşı kalkık · gülen · sinirli | **4 üretilecek** ★ |
+
+### Toplam
+
+| | tam plan | yalnız ★ |
+|---|---|---|
+| Arka plan | 14 | 8 |
+| Detay | 3 | 2 |
+| Ara kare | 7 | 6 |
+| Figür | 8 | 6 |
+| Cengo | 4 | 4 |
+| **Yeni görsel** | **36** | **26** |
+| Hazır (Peri) | 4 | 4 |
+
+**Yeniden kullanım:** A5, A6, A7, A8 (koridor ve büro), A9 (iskele) sezon boyu
+tekrar kullanılır. Vaka 2'den itibaren her vaka yalnız kendi mekânlarını ve ara
+karelerini ister.
+
+### Üretim kuralları (bu planla gelenler)
+
+1. **Aynı mekânın farklı açıları** için önce geniş açı (A1, A6, A11) üretilir;
+   ters açı ve gece/akşam hâli o görsel **referans verilerek** üretilir. Peri'nin
+   ifade denemesindeki yöntemin aynısı; mekân tutarlılığı da kendi kendine gelmez.
+2. **Ara karelerde Peri ve Cengo** sprite referansıyla üretilir; kıyafet, saç,
+   dekolte sprite'la aynı (Sezon §0).
+3. **Yazı kuralı:** kapıdaki tabela, camdaki yazı, pruvadaki ad (D3), yaka kartı,
+   dükkân notu, telefon ekranları — hiçbirinde okunur harf yok; yüzler kapatılır
+   ya da gölgede kalır.
+4. **Nurcan kuralı görselde de geçerli:** her görselin "gösterir" alanı yazılır
+   ve o görsel ancak o bilgiyi hak etmiş oyuncuya gösterilir (D3 yalnız İ4
+   açılınca, K3–K6 yalnız ilgili karardan sonra).
 
 ## Sahibine — okurken bakılacaklar
 
