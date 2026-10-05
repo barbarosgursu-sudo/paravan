@@ -563,7 +563,10 @@ gelmez. Eski oyunda da kurulan "ekonomi daraltır, kirletmeye zorlamaz" dengesi.
 ## Görsel planı (açılış + Vaka 1)
 
 *5 Ekim 2026. Sahibinin isteği: oyuncu için iyi bir deneyim; gerekiyorsa farklı
-açılar ve daha fazla görsel. Bu plan tam hâli; ★ işaretliler olmazsa olmaz.*
+açılar ve daha fazla görsel. ★ işaretliler olmazsa olmaz.*
+
+**Sahibinin kararı (5 Ekim 2026): TAM PLAN — 36 yeni görsel.** Peri'nin 4 deneme
+görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinden).
 
 **Dört görsel türü:**
 
