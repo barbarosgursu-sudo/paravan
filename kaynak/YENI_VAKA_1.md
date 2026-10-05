@@ -471,16 +471,20 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 
 ## Ekonomi kontrolü
 
-| karar | net | kasa sonrası | |
-|---|---|---|---|
-| K1 sete götür | +35.000 | 4.250 | başa baş |
-| K2 her şeyi anlat | +35.000 | 4.250 | başa baş (+ levrek) |
-| K3 Serkan'la anlaş | +32.000 | 1.250 | pazarlık |
-| K4 sus payı | +55.000 | 24.250 | kirli yol en kârlı, fark 20.000 |
+| karar | kararın getirdiği | ay sonu gideri | kasa sonrası | |
+|---|---|---|---|---|
+| K1 sete götür | 35.000 | −35.000 | 4.250 | başa baş |
+| K2 her şeyi anlat | 35.000 (+ levrek) | −35.000 | 4.250 | başa baş |
+| K3 Serkan'la anlaş | 32.000 | −35.000 | 1.250 | pazarlık |
+| K4 susmayı sat | 55.000 | −35.000 | 24.250 | en kârlı, fark 20.000 |
 
 Hiçbir yol kasayı eksiye düşürmüyor (Ton §9). Dürüst yol başa baş: ilk vaka büroyu
 yalnızca ayakta tutar. Kirli yol cazip ama oyunu çözmüyor. Cengo'nun alacağı
 (84.000 ₺) hiçbir yolda ödenmiyor — atışma malzemesi.
+
+⚠ **Açık soru — birikmiş kira.** Sahne 4'te Cengo "avukat üç aydır yoksa, kira da üç
+aydır yoktur" diyor. Gerçekçi olan buysa büronun **90.000 ₺** birikmiş kira borcu var
+ve yukarıdaki tabloda yok. Sahibinin kararı gerekiyor (aşağıda, "Sahibine" §6).
 
 ## Fiyat referansı (Ekim 2026, İstanbul)
 
@@ -497,14 +501,29 @@ Kaynaklar internet ilanları ve fiyat listeleri; vakalar yazıldıkça güncelle
 | Günlük tekne kiralama (İstanbul) | 17.500–62.000 ₺/gün; yat çok daha pahalı | Sete 35.000 ₺/gün, 3 gün = 105.000 ₺ |
 | İkinci el ahşap balıkçı teknesi | ~2–3 milyon ₺ | Nazlı'nın değeri (geçmiyor) |
 | Levrek (hal fiyatı) | ~380–470 ₺/kg | 10 kg kasa ≈ 4.000 ₺ |
+| Serkan'ın borcu (dükkân kirası + veresiye) | — | ~100.000 ₺; sete kiradan gelen 105.000 ₺ ile kapanıyor |
+| Yapımcının "danışmanlık" ödemesi | — | 20.000 ₺ |
+| Dizi setinde bir çekim gününün yemek masrafı | *tahmin:* 60–80 kişi × kişi başı 400–600 ₺ | "yirmi binden fazla" |
+| Birikmiş kira (3 ay, açık soru) | — | 90.000 ₺ |
+
+*"—" olan satırlar için kaynak aranmadı; hikâyenin iç hesabıdır. İşletme gideri de
+tahmindir.*
 
 ## Tohumlar — sonraki vakalara bıraktığı *(öneri)*
 
-| tohum | nerede işe yarayabilir |
-|---|---|
-| `riza_levrek` | Rıza Reis ara sıra büroya balık getirir; Cengo'nun buzdolabı esprisi sezon boyu. |
-| `serkan_iyilik` | Vaka 5 (Vapur): Serkan iskele ve vapur çalışanlarını tanır; bedelsiz bir ipucu açar. |
-| `yapimci_defter` | Vaka 2 (Gelinlik): aynı yapım şirketi düğünde; Peri'yi "ödenen dedektif" olarak tanır. |
+Her karar bir iz bırakır; hiçbiri sonraki vakayı kilitlemez, yalnız kapı ya da
+renk ekler.
+
+| karar | tohum | nerede işe yarayabilir |
+|---|---|---|
+| K1, K2 | `iskele_dostu` | Rıza Reis iskelede Paravan'ı anlatır. Karaköy balıkçıları büroyu tanır; Vaka 5 (Vapur) iskelede geçtiği için orada bedelsiz bir ipucu açar. |
+| K2 | `riza_levrek` | Rıza Reis ara sıra büroya balık getirir; Cengo'nun buzdolabı esprisi sezon boyu. |
+| K3 | `serkan_iyilik` | Serkan iyilik borçlu. Vaka 5'te vapur çalışanlarını tanıdığı için bedelsiz bir ipucu açar. |
+| K4 | `yapimci_defter` | Yapımcı bir gün Paravan'ı arar: "Sizinle çalışmıştık." Sezon içinde bir vakada kirli ama kârlı bir iş teklifi getirir; hangi vaka olduğu yazılırken seçilir. |
+
+⚙ Vaka 5'e iki tohum birden bağlanıyor (`iskele_dostu`, `serkan_iyilik`); K4'ü seçen
+oyuncu ikisinden de mahrum kalır. Bu, kirli yolun gerçek bedeli: para gelir, dost
+gelmez. Eski oyunda da kurulan "ekonomi daraltır, kirletmeye zorlamaz" dengesi.
 
 ## Görsel ihtiyacı (açılış + Vaka 1)
 
@@ -522,3 +541,9 @@ Kaynaklar internet ilanları ve fiyat listeleri; vakalar yazıldıkça güncelle
 4. **Kararlar:** dört yolun her biri gerçekten seçilebilir mi, yoksa biri açıkça
    "doğru cevap" gibi mi duruyor?
 5. **Anı defteri:** Peri'nin kendi sesi, anlatıcı değil. Kalsın mı?
+6. **Birikmiş kira (90.000 ₺):** üç seçenek —
+   **a)** borç kasaya yazılmaz; ev sahibi Vaka 2'de kapıya gelir, taksite bağlanır,
+   sezon boyu tekrarlanan bir yan figür olur (önerim);
+   **b)** avukat kirayı bir yıl peşin ödemiş, Cengo yanılıyor — borç yok;
+   **c)** borç kasaya yazılır — ilk vakadan sonra kasa −85.750 ₺ olur, "batmak keyif
+   vermez" kararına aykırı.
