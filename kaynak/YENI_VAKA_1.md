@@ -634,6 +634,7 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 | | | |
 |---|---|---|
 | Peri, temel set | normal · kaşı kalkık · sinirli · utanmış | **4 hazır** (deneme görselleri; tarz kesinleşirse) |
+| Peri, mantosuz (açılış S1–S2) | normal · kaşı kalkık · sinirli · utanmış | **4 üretilecek** ★ (5 Ekim kararı: manto S2 sonunda giyilir) |
 | Cengo, temel set | normal · kaşı kalkık · gülen · sinirli | **4 üretilecek** ★ |
 
 ### Toplam
@@ -645,7 +646,8 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 | Ara kare | 7 | 6 |
 | Figür | 8 | 6 |
 | Cengo | 4 | 4 |
-| **Yeni görsel** | **36** | **26** |
+| Peri mantosuz | 4 | 4 |
+| **Yeni görsel** | **40** | **30** |
 | Hazır (Peri) | 4 | 4 |
 
 **Yeniden kullanım:** A5, A6, A7, A8 (koridor ve büro), A9 (iskele) sezon boyu
