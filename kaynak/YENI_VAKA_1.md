@@ -53,6 +53,10 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 **HİLMİ BEY:** Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş. Vergi için.
 **PERİ:** Avukatım çok şey kurmuş.
 **HİLMİ BEY:** Değeri yok. O yüzden size bıraktık.
+**PERİ [kas]:** Dedektiflik mi? Ben dedektiflikten anlamam.
+**HİLMİ BEY:** Merak etmeyin, devlet de anlamıyor. Kanunu yok. Doksan dörtte çıkarmışlar, Cumhurbaşkanı geri göndermiş, bir daha da çıkmamış.
+**PERİ:** Yani yasak mı?
+**HİLMİ BEY:** Yasak değil. Ama var da sayılmaz. *(kâğıda bakar)* Sizin şirket gibi.
 **PERİ [normal]:** Teşekkür ederim. Bugün duyduğum en kibar hakaret bu.
 
 *Peri kırmızı mantosunu askıdan alıyor — evde kalan son şey — ve çıkıyor.*

@@ -247,6 +247,25 @@ seçildikten sonra.
 
 ---
 
+### Paravan'ın yasal durumu — tekrarlanan espri (sahibinin kararı, 5 Ekim 2026)
+
+**Gerçek:** Türkiye'de özel dedektiflik için bir kanun yok. 1994'te TBMM'den geçen
+Özel Dedektiflik Kanunu (3963) Cumhurbaşkanı tarafından veto edildi ve bir daha
+çıkmadı. Meslek ne yasak ne lisanslı; delil hukuka uygun toplandığı sürece iş
+yapılabiliyor, çoğu büro "danışmanlık" ya da "araştırma" şirketi olarak çalışıyor.
+
+**Espri:** Paravan, kanunda var sayılmayan bir mesleği yapan sahte bir şirket.
+İlk kez açılışta Hilmi Bey söyler ("Yasak değil. Ama var da sayılmaz. Sizin şirket
+gibi."). Sezon boyu ara sıra geri döner: kimlik soran bir polis, kartvizit
+bastırmaya çalışan Peri, "meslek" hanesine ne yazacağını bilemeyen bir form.
+
+**Kuralın tarafı:** delil hukuka uygun olmalı. Cengo'nun teli bu yüzden hep bir
+bedel taşır — kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak
+bulunan şey yarar. Peri'nin kuralı ile Cengo'nun içgüdüsü arasındaki kavganın
+gerçek hayattaki dayanağı bu.
+
+---
+
 ## 10. ÖZGÜNLÜK — MAVİ AY'DAN NE ALINIR
 
 *4 Ekim 2026, sahibinin kararı: **"Birebir aynısı olmayacak, bize sıkıntı
