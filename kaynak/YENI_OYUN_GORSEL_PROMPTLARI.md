@@ -1158,6 +1158,20 @@ emin, dudakları kapalı, belli belirsiz bir gülümseme.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — PM2 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/deneme_peri_pm2.webp`. Sabit çerçeveyle (x 120–1034)
+kesilip A2 ile yan yana kondu:
+
+| | sonuç |
+|---|---|
+| **Ölçek** | A2 ile aynı; baş birkaç piksel aşağıda ve sağda — manto giyildiği an fark edilmeyecek kadar. |
+| **Yüz** | Aynı kadın, yaş korunmuş. |
+| **Kıyafet** | Manto yok; krem saten bluz, siyah kalem etek, ince siyah kemer, altın küpeler. |
+| **Dekolte** | Temel setle aynı ayarda (azalmamış). |
+| **Bakış** | Kadrajın soluna; aynalanınca karşıdakine bakıyor. |
+| **Yazı** | Yok (kemer tokası düz). |
+
 ## PMK — Şüpheci, mantosuz (PM2 referanslı)
 
 ```
