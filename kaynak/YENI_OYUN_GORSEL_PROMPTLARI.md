@@ -644,3 +644,35 @@ bütün Cengo ifadeleri CA2; CA yalnız referans.
 (Cengo konuşurken Peri'nin koluna binmiyordu, şimdi sıra konuşana göre).
 
 Sıradaki: Cengo **kaşı kalkık**, **gülen**, **yumuşak** — üçü de CA2 referansla.
+
+## CC — Gülen (CA2 referanslı, 5 Ekim 2026)
+
+Vaka 1'de Cengo'nun en çok kullandığı ifade (14 replik): esprisini yapmış, keyfi
+yerinde. Komedi ifadesi; abartılı ama sevimli, alaycı değil.
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz (34 yaşında, gözlerinin kenarında
+gülme çizgileri, gençleştirilmemiş), aynı dağınık siyah saç, aynı kısa sakal, aynı
+açık kahverengi buruşuk ceket ve sıvalı kolları, aynı beyaz gömlek ve gömleğin aynı
+açıklığı, aynı koyu kot, cebinden sarkan aynı bordo kravat, göğüs cebinde aynı tel,
+bileğinde aynı renkli boncuklu bileklik, aynı çizim tarzı, aynı düz açık bej arka
+plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın
+tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: bir eli hâlâ kotunun cebinde. Öteki eli kaldırmış, avucu açık ve yukarı, omuz
+hizasında, "Ne yapayım, ben böyleyim" der gibi. Omuzları gevşek, başı hafifçe
+geriye yatık.
+
+İfade: geniş, keyifli, hınzır bir sırıtma; espriyi yapmış ve kendinden çok memnun.
+Ağzı açık gülüyor, üst dişleri görünüyor. Gözleri gülmekten kısılmış, kenarlarında
+belirgin kırışıklar. Kaşları rahat, hafif yukarıda. Bakışı başıyla aynı yönde:
+kadrajın solunda kendinden biraz kısa birinin yüzüne; gözbebekleri gözlerin
+kadrajın soluna yakın köşesinde. Kameraya bakmıyor. Alaycı değil, sevimli.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
