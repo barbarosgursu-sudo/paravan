@@ -729,3 +729,15 @@ gözbebekleri gözlerin kadrajın soluna yakın köşesinde. Kameraya bakmıyor.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — CK (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_cengo_ck.webp`. Taslakta `kas` → CK.
+
+| | sonuç |
+|---|---|
+| **İfade** | Tek kaş kalkık, yarım sırıtma, eğlenen dikkat — "Öyle mi?". |
+| **Poz** | Kollar kavuşturulmuş, bileklik görünüyor; eller gövdede, çerçeveden taşmıyor. |
+| **Bakış** | Baş profil, hafif aşağı; ekranda Peri'nin yüzüne. "Kibarca ama." repliğinde sinirli Peri'ye karşı çok iyi oturuyor. |
+
+Kalan: **yumuşak** (Cengo temel setinin son ifadesi).
