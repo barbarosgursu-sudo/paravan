@@ -1035,3 +1035,71 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** tabelanın yüzü görünüyor mu (görünüyorsa yazı taraması
 ve gerekirse yeniden üretim), öteki kapılarda numara var mı, alt üçte bir boş mu,
 stil A6 ile uyumlu mu, kapı karakterlerin arkasında okunuyor mu.
+
+## Sonuç — A5 (5 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a5_koridor.webp`. Taslakta koridor sahnesi
+artık A5; mekân adı "Apartman koridoru" yerine **"Han · koridor"** (kanon: han).
+
+| | sonuç |
+|---|---|
+| **Tabela** | Duvardan dik çıkan yuvarlak pirinç tabela, tam yandan; yüzü hiç görünmüyor. Kenardan gösterme hilesi tuttu — yüzü kanonda olup görünmemesi gereken her levhada aynısı kullanılır. |
+| **Kapılar** | Sağda büro kapısı (pirinç halka tokmak, kilit), solda iki kapı; numara, yazı yok. Kapının üstündeki camlı tepelik karanlık, yazısız. |
+| **Alt üçte bir** | Boş, güneşli siyah-beyaz karo (verev döşenmiş). |
+| **Stil** | Tonozlu tavanıyla beklenenden görkemli, A6 gibi biraz fotoğrafa yakın; Karaköy hanlarıyla çelişmiyor. |
+
+Not: büro kapısı sağ kenarda olduğundan Cengo'nun arkasında kalıyor; üst yarısı ve
+tokmağı görünüyor, yeterli. "Kapı açılıyor" anı zaten D1 detay karesiyle verilecek.
+
+## A1 — Peri'nin salonu, haciz sabahı, geniş açı (★)
+
+Açılış S1. A2 (ters açı, avize) ve A3 (boşalmış salon) **bu görsel referans verilerek**
+üretilecek. Stil referansı olarak A6 eklenebilir.
+
+Kanondan: Nişantaşı, yüksek tavanlı daire; haciz sürüyor; koltuk, avize ve kırmızı
+manto sahnede. Taç kadraja girmez (bir kolinin içinde, kapalı). Duvarlardaki
+tablolar zaten indirilmiş — fotoğraf çerçevesi Peri'nin yüzünü gösterirdi, Nurcan
+ve tutarlılık için hiç çerçeve yok.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman arka planı. Belirgin, temiz
+kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi
+afişi ile modern çizgi roman arası bir tarz. Anime değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı ve renk içindir; bu başka bir mekân ve görselde
+hiç insan yok.)
+
+Mekân: İstanbul Nişantaşı'nda, eski ve gösterişli bir apartman dairesinin salonu.
+Sabah. Çok yüksek tavan, tavanda alçı süslemeler, krem rengi duvarlar, balıkçılsırtı
+parke. Bir zamanlar çok şık bir salon; şimdi eşyaları haczediliyor, yarısı
+toplanmış.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, salonun bir köşesinden odaya bakıyor.
+Görselin alt üçte biri boş parke zemin: orada hiçbir nesne yok.
+
+Salonda YALNIZ şunlar var:
+1. Arka duvarda, iki uzun, yüksek pencere; ince tül perdeler; pencerelerden karşıdaki
+   eski taş apartmanın cephesi ve sabah ışığı görünüyor. Cephede tabela, yazı yok.
+2. Tavanın ortasından sarkan büyük, kristal damlalı, gösterişli bir avize.
+3. Bordo kadife, oymalı ahşap ayaklı, eski tarz büyük bir koltuk; odanın ortasında
+   biraz çapraz durmuş, sanki taşınmak üzere.
+4. Sol duvar dibinde üst üste yığılmış altı yedi karton koli; hepsi kapalı, düz
+   kahverengi, bantlı; üzerlerinde hiçbir yazı, etiket, işaret yok.
+5. Sağda, üstüne beyaz bir örtü atılmış, şekli belli olmayan büyük bir mobilya.
+6. Sağ duvarda, tabloların indirildiği yerlerde duvarda kalmış iki üç açık renkli
+   dikdörtgen iz ve boş çiviler (çerçevelerin kendisi yok).
+7. Kapı kenarında ayaklı ahşap bir askılık; askıda tek bir şey var: kırmızı, kuşaklı,
+   uzun bir kadın mantosu.
+8. Parkede, mobilyaların sürüklendiği yerlerde hafif çizik izleri.
+
+Başka hiçbir nesne yok: kâğıt, liste, kitap, gazete, takvim, fotoğraf, çerçeve, tablo,
+ayna, ekran, telefon, saat, taç, kupa yok.
+
+Işık: sabah güneşi tüllerden süzülüp parkeye düşüyor, avizenin kristallerinde
+parıltılar. Hava: zarif ama dağılmakta; hüzünlü değil, biraz komik bir karmaşa.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kolilerde yazı/etiket var mı (en büyük risk), karşı
+cephede tabela var mı, duvarda çerçeve ya da fotoğraf var mı, manto askıda ve kırmızı
+mı (Peri'nin mantosuyla renk uyumu), alt üçte bir boş mu.
