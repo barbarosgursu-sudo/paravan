@@ -776,3 +776,33 @@ Kameraya bakmıyor.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — CY (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_cengo_cy.webp`. Taslakta yeni
+`yumusak` ifadesi → CY.
+
+| | sonuç |
+|---|---|
+| **İfade** | Sırıtma yok; sıcak, sade, belli belirsiz tebessüm. Diğer dört ifadeden açıkça ayrılıyor. |
+| **Poz** | İki el ön ceplerde, omuzlar rahat; nesne yok, her elektrik anında kullanılabilir. |
+| **Bakış** | Peri'ye doğrudan. |
+
+Taslağa üçüncü sahne eklendi: **Vaka 1 kapanışı (ilk kıvılcım)**, "Büro · akşam"
+(yer tutucu büronun koyulaştırılmış hâli). CY ilk kez burada görünüyor.
+
+## CENGO TEMEL SETİ — TAMAM (5 Ekim 2026)
+
+| ifade | görsel | taslakta |
+|---|---|---|
+| nötr | CA2 | `normal` |
+| gülen | CC | `gulen` |
+| kaşı kalkık | CK | `kas` |
+| yumuşak | CY | `yumusak` |
+| (referans, ekranda yok) | CA | — |
+
+Sabit kesim çerçevesi: orijinalde x 10–1111, tam yükseklik (1102×1402). Arka plana
+yakın beyaz gömlek yüzünden "kapalı boşluk" temizliği kapalı.
+
+**İki karakterin temel seti tamamlandı.** Vaka 1 görsel planında kalan: Cengo'nun
+4 ifadesi ✓ — sırada arka planlar (14), detaylar (3), ara kareler (7), figürler (8).
