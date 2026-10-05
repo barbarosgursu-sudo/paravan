@@ -184,6 +184,8 @@ Her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına d�
 
 ## 8. MİZAHIN SINIRLARI
 
+- **Siyaset yok.** Devlet, kurumlar, siyasi makamlar ve gerçek kişiler espri
+  konusu edilmez, adları geçmez (sahibinin kararı, 5 Ekim 2026).
 - **Suç olur, vahşet olmaz.** Dolandırıcılık, şantaj, kayıp, hırsızlık, sahtecilik
   — evet. Ölüm olabilir ama sahnelenmez ve vakanın merkezinde yas durmaz.
 - **Nurcan kuralı şakaya da uyar.** Cengo'nun esprisi, oyuncunun henüz hak etmediği
@@ -249,15 +251,18 @@ seçildikten sonra.
 
 ### Paravan'ın yasal durumu — tekrarlanan espri (sahibinin kararı, 5 Ekim 2026)
 
-**Gerçek:** Türkiye'de özel dedektiflik için bir kanun yok. 1994'te TBMM'den geçen
-Özel Dedektiflik Kanunu (3963) Cumhurbaşkanı tarafından veto edildi ve bir daha
-çıkmadı. Meslek ne yasak ne lisanslı; delil hukuka uygun toplandığı sürece iş
+**Gerçek:** Türkiye'de özel dedektiflik için bir kanun yok. 1994'te hazırlanan
+Özel Dedektiflik Kanunu (3963) yürürlüğe girmedi. Meslek ne yasak ne lisanslı; delil hukuka uygun toplandığı sürece iş
 yapılabiliyor, çoğu büro "danışmanlık" ya da "araştırma" şirketi olarak çalışıyor.
 
 **Espri:** Paravan, kanunda var sayılmayan bir mesleği yapan sahte bir şirket.
 İlk kez açılışta Hilmi Bey söyler ("Yasak değil. Ama var da sayılmaz. Sizin şirket
 gibi."). Sezon boyu ara sıra geri döner: kimlik soran bir polis, kartvizit
 bastırmaya çalışan Peri, "meslek" hanesine ne yazacağını bilemeyen bir form.
+
+**Sınır (sahibinin kararı):** espri yalnız Paravan'ın kendi tuhaf durumuyla ilgili.
+Devlet, kurumlar, siyasi makamlar ve kişiler hakkında laf edilmez, adları geçmez.
+Oyunda "kanunu yok, yürürlüğe girmemiş" kadarı söylenir, fazlası söylenmez.
 
 **Kuralın tarafı:** delil hukuka uygun olmalı. Cengo'nun teli bu yüzden hep bir
 bedel taşır — kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak
