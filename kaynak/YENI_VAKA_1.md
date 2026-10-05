@@ -469,6 +469,40 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 
 ---
 
+## Kapanış — ilk kıvılcım
+
+⚙ her karardan sonra aynı sahne; bağı değiştirmez, tohum yazmaz
+⚙ Ton §6 "her vakada en az bir konuşma anı bağa göre değişir" kuralından **muaf**:
+bu vakada karardan önceki bağ hep 0. Kademeli konuşma Vaka 2'de başlar.
+⚙ arka plan: büronun içi, akşam · figürler: Peri, Cengo
+
+*Büro, akşam. İskelenin ışıkları yanmış. Cengo ceketini alıyor, kapıya yürüyor.
+Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.*
+
+**PERİ [sinirli]:** Bu kapı beni hiç sevmedi.
+**CENGO [gulen]:** Kapı kimseyi sevmez. Kilit sever.
+
+*Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor. Teli Peri'ye
+uzatıyor.*
+
+**CENGO [normal]:** Yarın sabah açarken lazım olur.
+**PERİ [kas]:** Ben kilit açmam.
+**CENGO:** Biliyorum. Cebinizde dursun.
+
+*Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.*
+
+**PERİ [normal]:** Yarın kaçta geliyorsunuz?
+**CENGO [kas]:** Ben pazartesileri geliyordum.
+**PERİ:** Yarın gelin.
+**CENGO:** Maaş?
+**PERİ [kas]:** Alacağınıza yazılır.
+**CENGO [gulen]:** Yazılsın.
+
+*Cengo merdivenden iniyor. Peri bir an kapının önünde duruyor, elini cebine
+sokuyor; tel orada.*
+
+---
+
 ## Ekonomi kontrolü
 
 | karar | kararın getirdiği | ay sonu gideri | kasa sonrası | |
@@ -537,9 +571,10 @@ gelmez. Eski oyunda da kurulan "ekonomi daraltır, kirletmeye zorlamaz" dengesi.
 ## Sahibine — okurken bakılacaklar
 
 1. **Ton:** atışmalar komik mi, yoksa zorlama mı duruyor?
-2. **Uzunluk:** açılış ~70 replik. Telefonda 3-4 dakika. Fazla mı?
-3. **Yeni adlar:** Hilmi Bey, Rıza Reis, Nazlı, Serkan, Tuba, "Yalıda Bir Yaz".
+2. **Uzunluk:** açılış ~70 replik. Telefonda 3-4 dakika. Fazla mı? *(açık)*
+3. ~~**Yeni adlar:**~~ onaylandı (5 Ekim 2026).
 4. **Kararlar:** dört yolun her biri gerçekten seçilebilir mi, yoksa biri açıkça
    "doğru cevap" gibi mi duruyor?
-5. **Anı defteri:** Peri'nin kendi sesi, anlatıcı değil. Kalsın mı?
+5. ~~**Anı defteri:**~~ kalıyor (5 Ekim 2026).
+7. ~~**İlk kıvılcım:**~~ eklendi — "Kapanış" sahnesi (5 Ekim 2026).
 6. ~~**Birikmiş kira:**~~ karara bağlandı — seçenek a (ev sahibi yan figür).

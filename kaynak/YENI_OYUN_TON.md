@@ -181,7 +181,8 @@ karelerde ikisini birbirine küs gösterdi (`gorsel_promptlari_2.md` PAKET 7).
    sonrasındaki tek satıra sıkışmaz.
 2. **Bağ atışmanın tonunu değiştirir.** Konuşma sahneleri de bağın kademesine göre
    varyant taşır (Ters / Atışma / Elektrik / Neredeyse), yalnız karar sonuçları
-   değil. Her vakada en az bir konuşma anı kademeye göre yazılır.
+   değil. Her vakada en az bir konuşma anı kademeye göre yazılır. **İstisna: Vaka 1**
+   — karardan önceki bağ hep 0; yerine her kararda aynı "ilk kıvılcım" sahnesi var.
 3. **Yakınlık eylemdedir, sözde değil.** Göz teması, yarım kalan laf, uzatılan ceket.
    **Çekingenlik küslük değildir:** birbirine bakıp söylememek doğru; birbirine
    bakmamak yanlış (görsellerde de).
