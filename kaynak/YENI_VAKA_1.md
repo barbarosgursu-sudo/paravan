@@ -54,18 +54,29 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 
 ⚙ aynı arka plan, artık boş
 
-**HİLMİ BEY:** Bir de bu var. *(bir anahtar ve katlanmış bir kâğıt uzatır)* Haczedilemeyen tek malınız. Bir şirket.
+**HİLMİ BEY:** Bir de bu var. *(bir anahtar ve katlanmış bir kâğıt uzatır)* Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket.
 **PERİ [kas]:** Benim şirketim yok.
-**HİLMİ BEY:** Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş. Vergi için.
-**PERİ:** Avukatım çok şey kurmuş.
-**HİLMİ BEY:** Değeri yok. O yüzden size bıraktık.
+**HİLMİ BEY:** Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş, vergi için. Anahtarı onun çekmecesinden çıktı.
+**PERİ [sinirli]:** Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı.
+**HİLMİ BEY:** Adresi burada. Karaköy, bir hanın üçüncü katı.
 **PERİ [kas]:** Dedektiflik mi? Ben dedektiflikten anlamam.
 **HİLMİ BEY:** Bu mesleğin kanunu yok. Doksan dörtte bir kanun hazırlanmış, yürürlüğe girmemiş.
 **PERİ:** Yani yasak mı?
 **HİLMİ BEY:** Yasak değil. Ama var da sayılmaz. *(kâğıda bakar)* Sizin şirket gibi.
 **PERİ [normal]:** Teşekkür ederim. Bugün duyduğum en kibar hakaret bu.
 
-*Peri kırmızı mantosunu askıdan alıyor — evde kalan son şey — ve çıkıyor.*
+*Peri askıdaki kırmızı mantoya uzanıyor. Hilmi Bey listeye bakıyor.*
+
+**HİLMİ BEY:** Manto.
+**PERİ [kas]:** Üstümdeki giysiyi de mi alacaksınız?
+**HİLMİ BEY:** Üstünüzdeyse almayız. Askıdaysa alırız.
+
+*Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor.*
+
+**PERİ [normal]:** Üstümde.
+**HİLMİ BEY:** *(listeden bir satırı çizer)* Üstünüzde.
+
+*Peri çıkıyor. Evden çıkardığı tek şey, üstündeki manto.*
 
 ## Sahne 3 — Cengo
 
