@@ -599,3 +599,32 @@ bütün Cengo ifadeleri CA'yı gösteriyor (yer tutucu çizim kalktı).
 
 Sıradaki: **CA2** — başı kadrajın soluna (Peri'ye) dönük nötr; ondan sonra kaşı
 kalkık, gülen, yumuşak.
+
+**Gömlek (sahibinin kararı, 5 Ekim 2026):** CA'daki açıklıkta kalıyor; bütün Cengo
+setinde aynı.
+
+## CA2 — Nötr, ekran için (başı Peri'ye dönük)
+
+**Referans: CA.** Peri A2'nin karşılığı: poz ve ifade aynı, yalnız baş ve bakış
+kadrajın soluna (ekranda Peri'ye) döner. Cengo aynalanmaz.
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz (34 yaşında, gözlerinin kenarında
+gülme çizgileri, gençleştirilmemiş), aynı dağınık siyah saç, aynı kısa sakal, aynı
+açık kahverengi buruşuk ceket ve sıvalı kolları, aynı beyaz gömlek ve gömleğin aynı
+açıklığı, aynı koyu kot, cebinden sarkan aynı bordo kravat, göğüs cebinde aynı tel,
+bileğinde aynı renkli boncuklu bileklik, aynı çizim tarzı, aynı düz açık bej arka
+plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın
+tepesi aynı yükseklikte, dikey.
+
+Poz ve ifade referansla aynı: bir eli kotunun cebinde, öteki kolu gevşekçe yanında,
+hınzır, kendinden emin yarım gülümseme.
+
+Değişen tek şey baş ve bakış: kameraya bakmıyor. Başı kadrajın soluna dönük, yüzü
+üç çeyrek profilden görünüyor; burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında kalıyor. Gözleri de başıyla aynı yönde: kadrajın solunda, kendinden biraz
+kısa biri duruyormuş gibi, o kişinin yüzüne hafif aşağı bakıyor. Gözbebekleri
+gözlerin kadrajın soluna yakın köşesinde.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
