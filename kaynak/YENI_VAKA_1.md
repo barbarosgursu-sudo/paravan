@@ -571,7 +571,7 @@ gelmez. Eski oyunda da kurulan "ekonomi daraltır, kirletmeye zorlamaz" dengesi.
 ## Sahibine — okurken bakılacaklar
 
 1. **Ton:** atışmalar komik mi, yoksa zorlama mı duruyor?
-2. **Uzunluk:** açılış ~70 replik. Telefonda 3-4 dakika. Fazla mı? *(açık)*
+2. ~~**Uzunluk:**~~ uygun (5 Ekim 2026).
 3. ~~**Yeni adlar:**~~ onaylandı (5 Ekim 2026).
 4. **Kararlar:** dört yolun her biri gerçekten seçilebilir mi, yoksa biri açıkça
    "doğru cevap" gibi mi duruyor?
