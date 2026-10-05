@@ -222,12 +222,15 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 **CENGO:** Niyeti peşin.
 **PERİ [sinirli]:** Niyetle kira ödenmez.
 **CENGO [kas]:** Hiç denediniz mi?
-**PERİ [normal]:** Plan şu. İskeleye gideriz, kayıt tutarız, liman başkanlığına dilekçe veririz.
-**CENGO [normal]:** Ya da iskeledeki çaycıya sorarız. Liman başkanlığı gece uyur. Çaycı uyumaz.
+**PERİ [normal]:** Kira, elektrik, su, telefon. Ay sonunda otuz beş bin lazım.
+**CENGO [gulen]:** Reis de otuz beş bin verecek. Hesap tuttu.
+**PERİ [kas]:** Niyetle tuttu.
+**PERİ [normal]:** Plan şu. İskeleye gideriz, kayıt tutarız, liman başkanlığına yazılı başvuru yaparız.
+**CENGO [normal]:** Başvurunun cevabı gelene kadar Reis batar. İskeledeki çaycıya sorarız. Çaycı gece de oradadır.
 **PERİ [kas]:** Çaycıyı tanıyor musunuz?
 **CENGO:** Bana üç bardak borcu var.
 **PERİ:** Siz herkese mi borçlusunuz, herkes size mi?
-**CENGO [gulen]:** Gününe göre.
+**CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarım saklanır. Çaycı konuşur.
 
 ## Araştırma
 
