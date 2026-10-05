@@ -696,3 +696,36 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
    ekranın sağ kenarından hafifçe taşıyor (kabul).
 
 Kalan: **kaşı kalkık**, **yumuşak**.
+
+## CK — Kaşı kalkık (CA2 referanslı, 5 Ekim 2026)
+
+Vaka 1'de 6 replik: "Nazlı kim?", "Hiç denediniz mi?", "Benim maaşım da onda mı?" —
+merak ve takılma; Peri'yi tartıyor. Peri'nin şüpheci pozundan (parmak çenede) ayrışsın
+diye **kollar kavuşturulmuş.** Eller gövdeye yakın; sabit çerçeveden taşmaz.
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz (34 yaşında, gözlerinin kenarında
+gülme çizgileri, gençleştirilmemiş), aynı dağınık siyah saç, aynı kısa sakal, aynı
+açık kahverengi buruşuk ceket ve sıvalı kolları, aynı beyaz gömlek ve gömleğin aynı
+açıklığı, aynı koyu kot, cebinden sarkan aynı bordo kravat, göğüs cebinde aynı tel,
+bileğinde aynı renkli boncuklu bileklik, aynı çizim tarzı, aynı düz açık bej arka
+plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk ortasından kesilmiş, başın
+tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: kollarını göğsünün önünde gevşekçe kavuşturmuş; bileklikli eli dirseğinin
+üstünde, bileklik görünüyor. Ağırlığı tek bacağında, başı hafifçe yana ve öne
+eğik, karşısındakini süzüyor. Eller ve dirsekler gövdeye yakın.
+
+İfade: meraklı, takılan, "Öyle mi?" diyen bir bakış. Tek kaşı belirgin biçimde,
+alnına doğru yukarı kalkmış; öteki kaşı yerinde. Gözleri hafif kısık, eğlenen
+bir dikkatle. Dudakları kapalı, bir köşesi yukarıda, yarım bir sırıtma. Bakışı
+başıyla aynı yönde: kadrajın solunda kendinden biraz kısa birinin yüzüne;
+gözbebekleri gözlerin kadrajın soluna yakın köşesinde. Kameraya bakmıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
