@@ -497,3 +497,32 @@ bir gülümseme.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+## Sonuç — D3 (5 Ekim 2026)
+
+**Tuttu.** Referans kopyası `kaynak/yeni_gorsel/deneme_peri_d3.webp`. Taslakta `utanmis` → D3.
+
+| | sonuç |
+|---|---|
+| **Bakış** | Baş profil, öne eğik; gözler aşağı ve kadrajın soluna — ekranda Cengo'nun önünde bakışını kaçırıyor. |
+| **İfade** | Pembe yanaklar, kalkık kaşlar, sıkılmış gülümseme. Gülmekten çok "mahcup/yüzünü buruşturan" tarafa yakın; komedi utancı olarak okunuyor. |
+| **Poz** | Bir eli saçında, öteki kuşakta. |
+| **Yüz** | Gençleşme yok (D'deki sorun giderildi). |
+| **Kadraj** | Sabit çerçeveyle kesildi; dört ifade yan yana aynı boy. |
+
+## PERİ TEMEL SETİ — TAMAM (5 Ekim 2026)
+
+| ifade | görsel | taslakta |
+|---|---|---|
+| nötr / gülen | A2 | `normal`, `gulen` |
+| şüpheci | B4 | `kas` |
+| sinirli | C3 | `sinirli` |
+| utanmış | D3 | `utanmis` |
+| (referans, ekranda yok) | A | — |
+
+**Yöntem (bundan sonraki her karakter seti için):**
+1. Kameraya bakan bir referans (karakter kartı) üretilir.
+2. Ondan, **başı konuşma yönüne çevrilmiş** bir nötr (A2) üretilir.
+3. Bütün öteki ifadeler **A2 referansla**, "başın açısı referansla aynı" satırıyla üretilir.
+4. İfade yüzün parça parça hareketiyle, abartı açıkça istenerek yazılır.
+5. Arka plan ayrılır, bütün ifadeler **aynı sabit çerçeveyle** kesilir.
