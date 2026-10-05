@@ -1331,6 +1331,25 @@ açılmış, yanaklarında hafif kızarıklık.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — PMS2 (5 Ekim 2026)
+
+**Tuttu, çok iyi.** Kopya `kaynak/yeni_gorsel/deneme_peri_pms2.webp`. Okunaklı komedi
+öfkesi: çatık kaşlar, açık ağız, öne eğilmiş gövde, dikilmiş parmak, öteki el yumruk.
+Bakış ve parmak kadrajın soluna — aynalanınca ekranda Cengo'ya / karşıdakine doğru.
+
+**Taşan sprite:** parmak ucu x≈40'ta, yumruk x≈1060'ta; sabit çerçeve (x 120–1034)
+ikisini de keser. Çözüm: bu görsel **tam genişlikte** (x 0–1121) kesilir ve ekranda
+standart kutuya hizalanarak taşar. Kutunun içi öteki ifadelerle piksel piksel aynı
+yerde kalır, yalnız el kutudan dışarı uzanır. Aynalı (Peri) için:
+
+```css
+img.genis { width: 122.62%; max-width: none; margin-left: -9.62%; }  /* 1122/915, −88/915 */
+```
+
+Aynasız bir karakterde `margin-left` −120/915 (= −13.11 %) olur. Gerçek motorda her
+sprite kaydı kendi kesim aralığını taşımalı (`x0`, `x1`); ekran kutusu çerçeveden,
+taşma kayıttan hesaplanır. Hizalama testi: PM2 ile yan yana, baş ve bel aynı yerde.
+
 ## PMU2 — Utanmış, elleri önde (PM2 referanslı, yeni pencere)
 
 Replikler: "Bilmiyorum. Sayan dolandırıcı avukatımdı." / "…Annenize selam söyleyin."
