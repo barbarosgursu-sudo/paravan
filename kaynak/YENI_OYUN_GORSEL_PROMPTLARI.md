@@ -317,3 +317,14 @@ ve `gulen` ifadeleri artık A2'yi gösteriyor; A yalnız referans.
 | **Yazı** | Yok. |
 
 Kalan: B2, C2, D2.
+
+## Sonuç — B2 (5 Ekim 2026)
+
+Geldi; referans kopyası `kaynak/yeni_gorsel/deneme_peri_b2.webp`. Taslakta `kas` → B2.
+
+| | sonuç |
+|---|---|
+| **Poz** | **Tuttu.** Parmak çenede, el belde, baş hafif eğik. |
+| **İfade** | **Tuttu.** Bir kaş belirgin biçimde kalkık, öteki çatık; tek yana kıvrık sırıtma. İlk B'deki yumuşaklık yok. |
+| **Kadraj** | A2 ile aynı ölçek ve kesim. |
+| **Bakış** | Kısmen. Burun kadrajın soluna (doğru), ama gözler kadrajın sağına kaymış; aynalanınca Cengo'ya değil hafifçe yana bakıyor. Şüpheci "yan göz" olarak okunabilir; sahibinin kararı. |
