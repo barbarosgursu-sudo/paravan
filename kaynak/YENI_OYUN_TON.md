@@ -85,6 +85,24 @@ kadının yerine hapis yatması) → *karar §11.*
 
 ---
 
+### Cengo'nun görünüşü (sahibinin kararı, 5 Ekim 2026)
+
+Mavi Ay'daki David'in tarzının **ruhu** alınır, ayrıntısı Cengo'nun (Ton §10):
+- Bitpazarından, bir beden büyük, buruşuk **açık kahverengi takım ceketi**; kolları
+  dirseğe kadar sıvalı.
+- **Beyaz gömlek**, üst iki düğmesi açık, yakası yamuk.
+- **Koyu kot** — takımın pantolonu değil; uyumsuzluk kasıtlı.
+- **Kravatı takmıyor ama atmıyor:** koyu bordo, ucu ceketin cebinden sarkıyor.
+  ("Gerekirse takarım.")
+- **Göğüs cebinden telin ucu** görünür (açılıştaki kilit; kapanışta teli Peri'ye
+  verir, cebinde hep yenisi olur).
+- **Bileğinde renkli boncuklu, ucuz bir bileklik** — kızının. Vaka 6'ya kadar kimse
+  sormaz, açıklanmaz. Boncuklarda harf yok.
+- Siyah, dağınık, hafif kıvırcık saç; iki üç günlük sakal; kalın kaşlar, koyu kahve
+  gözler; hınzır yarım gülümseme. Peri'den yarım baş uzun.
+- **İfadeler:** normal (hınzır), kaşı kalkık, gülen, **yumuşak** (ilk gülmediği,
+  "elektrik" anları). Göz kırpan dördüncü duvar görseli Vaka 4'te.
+
 ## 4. ATIŞMANIN KURALLARI
 
 **Eksen:** kadın kural, adam içgüdü. Her vakada aynı kavga başka kılıkta çıkar:

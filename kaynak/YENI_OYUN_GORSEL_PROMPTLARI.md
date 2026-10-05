@@ -526,3 +526,59 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 3. Bütün öteki ifadeler **A2 referansla**, "başın açısı referansla aynı" satırıyla üretilir.
 4. İfade yüzün parça parça hareketiyle, abartı açıkça istenerek yazılır.
 5. Arka plan ayrılır, bütün ifadeler **aynı sabit çerçeveyle** kesilir.
+
+
+---
+
+# CENGO — TEMEL SET (5 Ekim 2026)
+
+Görünüş: Ton belgesi §3 "Cengo'nun görünüşü". Yöntem: Peri temel setindeki 5 adım.
+Cengo ekranın **sağında** durur ve **aynalanmaz**; ekran görsellerinde başı ve bakışı
+**kadrajın soluna** (Peri'ye) dönüktür.
+
+## CA — Referans (karakter kartı, kameraya bakar)
+
+Peri A ile **aynı üretici ve aynı stil satırı.** Mümkünse Peri A2'yi **stil referansı**
+olarak ver (yalnız çizim tarzı ve arka plan için; yüz için değil).
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek
+insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak
+boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
+roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı ve arka plan içindir; içindeki kadın bu
+görselde yok.)
+
+Karakter: Cengo, 34 yaşında, İstanbullu bir adam. Uzun boylu, rahat, kendinden
+fazlasıyla memnun bir duruş; omuzları gevşek. Siyah, dağınık, hafif kıvırcık
+saçları, alnına bir tutam düşüyor. İki üç günlük sakal. Kalın kaşlar, koyu kahve
+gözler, hafif esmer ten. Gözlerinin kenarında gülme çizgileri; yüzünde hınzır bir
+yarım gülümseme. Yakışıklı ama bakımsız; kendine yakışmış bir dağınıklık.
+
+Kıyafet: bitpazarından alınmış, ona bir beden büyük, buruşuk, açık kahverengi
+bir takım ceketi; kolları dirseğe kadar sıvalı. Altında beyaz gömlek, üst iki
+düğmesi açık, yakası yamuk. Takımın pantolonu değil, koyu mavi kot pantolon.
+Koyu bordo, düz renk bir kravat boynunda değil: kıvrılmış, ucu ceketin yan
+cebinden sarkıyor. Ceketin göğüs cebinden ince, gümüş renkli bir telin ucu
+görünüyor. Bir bileğinde renkli, ucuz, plastik boncuklardan elle yapılmış bir
+bileklik; boncuklar düz renkli, üzerlerinde harf ya da sembol yok. Kol saati yok.
+Başka takı yok.
+
+Poz: bir eli kotunun cebinde. Öteki kolu gevşekçe yanında, bileklik açıkça
+görünüyor.
+
+İfade: hınzır, kendinden emin yarım gülümseme; dudakları kapalı, bir köşesi
+yukarıda. Kameraya bakıyor.
+
+Kadraj: DİKEY. Uyluk ortasından yukarısı, tek başına, ayakta. Gövdesi hafif yana
+dönük.
+
+Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok. (Karakter
+sonradan sahnelerin önüne yerleştirilecek.)
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** yaş (34 mü, gençleşmiş mi), stil Peri'yle aynı mı,
+kravat boyunda mı (olmamalı), bileklikte harf var mı, tel görünüyor mu, ceket
+takım ceketi mi (spor ceket ya da deri değil).
