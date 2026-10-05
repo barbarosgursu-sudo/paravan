@@ -415,3 +415,32 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 görseli (A2) referans vermek açıyı hazır getirir; yalnız gözbebeğini tarif etmek
 yetmez. Bitmiş bir görseli referans verip yalnız küçük bir ayrıntıyı değiştirmeye
 çalışmak (B3) üreticiyi referansa kilitler.
+
+## C3 — Sinirli, A2 referanslı (5 Ekim 2026)
+
+C2 metni üretilmeden B4 dersiyle güncellendi: **referans A2**, baş açısı korunur.
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz (37 yaşında, gözlerinin kenarında
+hafif gülme çizgileri, gençleştirilmemiş), aynı saç ve topuz, aynı kırmızı manto,
+aynı krem ipek bluz ve aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı
+düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk
+ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: iki eli de yumruk hâlinde belinde. Gövdesi ve başı hafifçe öne, kadrajın
+soluna doğru eğilmiş; karşısındakini azarlıyor. Omuzları kalkık.
+
+İfade: komedi öfkesi — abartılı, tiyatral, okunaklı. İki kaşı da aşağı ve içe
+çatılmış, kaşlarının arasında derin bir kırışık. Gözleri kocaman açılmış, öfkeyle
+parlıyor. Bakışı başıyla aynı yönde: kadrajın soluna, karşısında kendi boyunda
+duran birinin yüzüne; gözbebekleri gözlerin kadrajın soluna yakın köşesinde.
+Kameraya bakmıyor. Ağzı konuşurken açık, dişleri hafif görünüyor, tam bir
+cümlenin ortasında. Burun kanatları açılmış. Yanaklarında hafif kızarıklık.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
