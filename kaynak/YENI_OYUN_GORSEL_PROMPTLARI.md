@@ -2800,3 +2800,44 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** tacın üstünde yazı/rakam/kurdele yazısı (güzellik tacı
 kurdele çağırır — yasak), kolide yazı, Peri'nin elinde takı, el sayısı (üretici fazla
 parmak/el çizebilir), kollar doğru kişilerin mi (krem saten / gri takım).
+
+
+## Sonuç — K1 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k1_tac.webp`. Peri'nin eli (krem saten kol,
+takısız) tacın ucunu bırakıyor; Hilmi Bey'in gri takımlı iki eli koliyi tutuyor; kolide
+yarım bant; arkada bulanık salon ve sabah ışığı. Taçta kurdele/yazı yok, kolide yazı
+yok; el ve parmak sayıları doğru. Taslakta "Satmıyoruz. Haczediyoruz."dan sonra K1
+(karakterler çekilir), sonra avizesiz salona dönülür.
+
+## K2 — Peri boş salonda mantonun kuşağını sıkıyor (A3b + Peri A2 referanslı)
+
+Açılış S2 sonu: "Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor." — "Üstümde."
+Yıldızsız. **Yüzsüz kadraj:** belden aşağı-yukarı dar, eller ve düğüm; ardında boş askı
+ve boş salon. Mantonun kesimi ve rengi Peri'nin sprite'ından gelir.
+
+```
+Birinci referans görseldeki boş salonun AYNISI arka planda, bulanık: aynı boş oda, aynı
+pencereler, aynı öğle ışığı, kapının yanında BOŞ ayaklı askılık. İkinci referans
+görseldeki kadının YALNIZ mantosu ve elleri: aynı domates kırmızısı, kemerli yün manto,
+aynı altındaki krem saten bluzun kenarı. Kadının yüzü görünmüyor.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kamera kadının bel hizasında, kadrajın ortasında
+mantonun kuşağı; kadraj göğsün altından dizlerin üstüne kadar.
+
+Kadrajda YALNIZ şunlar var:
+1. Kırmızı yün mantonun beli; kuşak iki elle sıkıca düğümleniyor; iki el kuşağın
+   uçlarını kararlı bir hareketle iki yana çekiyor, düğüm sıkılıyor.
+2. Kadın elleri: ince, bakımlı; yüzük, bilezik, saat yok.
+3. Arka planda, bulanık, boş salon ve kapının yanında boş ayaklı askılık.
+
+Başka hiçbir nesne yok.
+
+Işık: öğle güneşi pencereden, kırmızı yünde sıcak bir parlaklık. Hava: kararlılık;
+"üstümde" — kaybedilen her şeyin içinden kalan tek şey.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** manto Peri'ninkiyle aynı mı (renk, kuşak, yaka), elde takı
+var mı, askı boş mu, yüz kadraja girmiş mi.
