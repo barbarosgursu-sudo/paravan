@@ -9,8 +9,8 @@
 // bluzu) delik doldurmada arka plan sanılıp silinir. Ayrıntı: YENI_OYUN_GORSEL_PROMPTLARI.md.
 //
 //   peri   x 120–1034 · delik doldurma tol 14            (mantolu temel set)
-//   saten  x 120–1034 · delik tohumu tol 6, sonra tol 22 ile yeniden taşkın
-//                       (gerçek boşluk düz renk, saten değil; mantosuz set)
+//   saten  x 120–1034 · kenar tol 14 (parlak saten kol kenara değiyor, 28 onu yer),
+//                       delik tohumu tol 6, sonra tol 22 ile yeniden taşkın; mantosuz set
 //   cengo  x 10–1111  · delik doldurma kapalı (beyaz gömlek)
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
@@ -20,10 +20,11 @@ const fs = require('fs');
 const path = require('path');
 const { chromium } = require(process.env.PW || '/opt/node22/lib/node_modules/playwright');
 
+const KENAR_SATEN = Number(process.env.KENAR || 14);
 const PROFILLER = {
-  peri:  { x0: 120, x1: 1034, delik: true,  delikTol: 14, yenidenTol: 0,  aynali: true },
-  saten: { x0: 120, x1: 1034, delik: true,  delikTol: 6,  yenidenTol: 22, aynali: true },
-  cengo: { x0: 10,  x1: 1111, delik: false, delikTol: 14, yenidenTol: 0,  aynali: false },
+  peri:  { x0: 120, x1: 1034, kenarTol: 28, delik: true,  delikTol: 14, yenidenTol: 0,  aynali: true },
+  saten: { x0: 120, x1: 1034, kenarTol: KENAR_SATEN, delik: true,  delikTol: 6,  yenidenTol: 22, aynali: true },
+  cengo: { x0: 10,  x1: 1111, kenarTol: 28, delik: false, delikTol: 14, yenidenTol: 0,  aynali: false },
 };
 
 const arg = process.argv.slice(2);
@@ -57,7 +58,7 @@ const P = { ...PROFILLER[profilAd] };
     const gecerli = (n, m) => m >= 0 && m < W * H && Math.abs((m % W) - (n % W)) <= 1;
     // 1) kenardan taşkın doldurma
     const q = []; for (let px = 0; px < W; px++) { q.push(px); q.push((H - 1) * W + px); } for (let py = 0; py < H; py++) { q.push(py * W); q.push(py * W + W - 1); }
-    while (q.length) { const n = q.pop(); if (bg[n]) continue; if (dist(n * 4, ref(n % W, (n / W) | 0)) > 28) continue; bg[n] = 1; for (const m of komsu(n)) if (gecerli(n, m) && !bg[m]) q.push(m); }
+    while (q.length) { const n = q.pop(); if (bg[n]) continue; if (dist(n * 4, ref(n % W, (n / W) | 0)) > P.kenarTol) continue; bg[n] = 1; for (const m of komsu(n)) if (gecerli(n, m) && !bg[m]) q.push(m); }
     // 2) kapalı boşluklar (kol ile bel arası vb.): arka plana yakın, büyük bileşenler
     let delik = 0;
     if (P.delik) {
@@ -74,6 +75,15 @@ const P = { ...PROFILLER[profilAd] };
     }
     // 3) hale aşındırma: arka plana komşu ve arka plana yakın pikseller (3 tur)
     for (let t = 0; t < 3; t++) { const yeni = []; for (let n = W; n < W * H - W; n++) { if (bg[n] || !(bg[n - 1] || bg[n + 1] || bg[n - W] || bg[n + W])) continue; if (dist(n * 4, ref(n % W, (n / W) | 0)) < 60) yeni.push(n); } for (const n of yeni) bg[n] = 1; }
+    // 3b) kırıntı temizliği: ana gövdeye bağlı olmayan küçük opak adacıklar (sıkı kenar
+    // toleransında arka plandan kalan lekeler) silinir. Gövdenin %2'sinden küçük olan gider.
+    let kirinti = 0;
+    { const etiket = new Int32Array(W * H).fill(-1), boy = [];
+      for (let s0 = 0; s0 < W * H; s0++) { if (bg[s0] || etiket[s0] >= 0) continue; const id = boy.length; let c = 0; const st = [s0]; etiket[s0] = id;
+        while (st.length) { const n = st.pop(); c++; for (const m of komsu(n)) if (gecerli(n, m) && !bg[m] && etiket[m] < 0) { etiket[m] = id; st.push(m); } }
+        boy.push(c); }
+      const enBuyuk = Math.max(0, ...boy);
+      for (let n = 0; n < W * H; n++) if (!bg[n] && boy[etiket[n]] < enBuyuk * 0.02) { bg[n] = 1; kirinti++; } }
     for (let n = 0; n < W * H; n++) if (bg[n]) a[n * 4 + 3] = 0;
     for (let n = W; n < W * H - W; n++) { if (!bg[n] && (bg[n - 1] || bg[n + 1] || bg[n - W] || bg[n + W])) a[n * 4 + 3] = 160; }
     x.putImageData(im, 0, 0);
@@ -87,11 +97,11 @@ const P = { ...PROFILLER[profilAd] };
     for (let py = 0; py < H; py += 2) for (const px of [P.x0 - 1, P.x1 + 1]) { if (px < 0 || px >= W) continue; if (!bg[py * W + px]) tasma++; }
     let yesil = null;
     if (d) { const c3 = document.createElement('canvas'); c3.width = c2.width; c3.height = c2.height; const y = c3.getContext('2d'); y.fillStyle = '#3a6'; y.fillRect(0, 0, c3.width, c3.height); y.drawImage(c2, 0, 0); yesil = c3.toDataURL('image/png'); }
-    return { u: c2.toDataURL('image/webp', 0.8), w: c2.width, h: c2.height, W, H, delik, tasma, yesil };
+    return { u: c2.toDataURL('image/webp', 0.8), w: c2.width, h: c2.height, W, H, delik, kirinti, tasma, yesil };
   }, [veri, P, genis]);
   fs.writeFileSync(cikti, Buffer.from(r.u.split(',')[1], 'base64'));
   if (onizleme) fs.writeFileSync(onizleme, Buffer.from(r.yesil.split(',')[1], 'base64'));
-  console.log(path.basename(cikti) + ': ' + r.w + '×' + r.h + ' · kaynak ' + r.W + '×' + r.H + ' · profil ' + profilAd + (genis ? ' (geniş)' : '') + ' · kapalı boşluk ' + r.delik);
+  console.log(path.basename(cikti) + ': ' + r.w + '×' + r.h + ' · kaynak ' + r.W + '×' + r.H + ' · profil ' + profilAd + (genis ? ' (geniş)' : '') + ' · kapalı boşluk ' + r.delik + ' · kırıntı ' + r.kirinti + ' px');
   if (r.H !== 1402) console.log('UYARI: kaynak yüksekliği ' + r.H + ' (set 1402). Ölçek öteki ifadelerden farklı olabilir; yan yana bakın.');
   if (!genis && r.tasma > 20) console.log('UYARI: çerçevenin kenarında karakter var (' + r.tasma + ' örnek). El/parmak kesiliyor olabilir → --genis ile yeniden kes.');
   if (genis) {

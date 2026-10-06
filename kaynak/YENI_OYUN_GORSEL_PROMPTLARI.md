@@ -1568,7 +1568,7 @@ node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo [--genis] [-
 | profil | çerçeve | delik doldurma | ne için |
 |---|---|---|---|
 | `peri` | x 120–1034 | tol 14 | Peri mantolu temel set |
-| `saten` | x 120–1034 | tohum tol 6 → yeniden taşkın tol 22 | Peri mantosuz set (saten bluz) |
+| `saten` | x 120–1034 | **kenar tol 14**; tohum tol 6 → yeniden taşkın tol 22 | Peri mantosuz set (saten bluz) |
 | `cengo` | x 10–1111 | kapalı | Cengo (beyaz gömlek) |
 
 - **`--genis`**: el/parmak çerçeveden taşıyorsa tam genişlikte keser ve ekran için CSS'i
@@ -1588,3 +1588,22 @@ node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo [--genis] [-
 **Yeni karakter eklenince:** referans görselden çerçeveyi seç (bütün ifadelerde
 karakterin hiçbir yeri kesilmesin), giysinin arka plana yakın rengi var mı bak, profili
 `PROFILLER`'a ekle.
+
+
+## Hata — PMU2'de kol silindi (6 Ekim 2026, sahibi telefonda yakaladı)
+
+PMU2'de Peri'nin bir kolu neredeyse tamamen kaybolmuştu. Sebep delik doldurma değil,
+**kenardan taşkın**: kol arka plana doğrudan değiyor, saten parlaklığı bej zemine 28
+tolerans içinde yakın, taşkın dışarıdan kolun içine yürüdü. Önizleme dosyası vardı ama
+**bakılmadı** — hata oradaydı.
+
+Düzeltme (`arac_kes.js`):
+- Profil başına **kenar toleransı** (`kenarTol`); saten 14, öbürleri 28.
+- Sıkı tolerans arka planda küçük lekeler bırakıyor → **kırıntı temizliği**: ana gövdenin
+  %2'sinden küçük, gövdeye bağlı olmayan opak adacıklar silinir. Araç kaç piksel
+  sildiğini basar.
+- Mantosuz set (PM2, PMK2, PMS2, PMU2) yeniden kesildi; Cengo ve mantolu Peri yeni
+  adımla denendi, gözle fark yok (karşılaştırmadaki dağınık farklar WebP sıkıştırma
+  gürültüsü).
+
+**Kural: her kesimden sonra `--onizleme` çıktısına bakılır, taslağa ondan sonra konur.**
