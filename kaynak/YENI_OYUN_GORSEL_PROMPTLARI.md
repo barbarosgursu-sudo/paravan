@@ -2857,3 +2857,51 @@ Taslakta "Peri mantoyu giyiyor" satırında K2, "Üstümde."de boş askılı sal
 Üçüncü referans eklendi: Peri mantosuz PM2 (siyah kalem etek ve kemer için). Metne
 eteği adıyla soran satır eklendi — "kırmızı etek yok" de; yoksa üretici mantonun rengini
 eteğe taşır.
+
+
+## Sonuç — K2b (6 Ekim 2026)
+
+**Tuttu, kırpmayla.** Kopya `kaynak/yeni_gorsel/ara_k2_manto.webp` (eskisinin yerine).
+Siyah kalem etek ve kemer tokası mantonun arasından görünüyor; manto, kuşak, boş askı
+doğru. **Üst kenarda sarı bir saç tutamı vardı** (Peri kumral-kızıl, topuz) — üstten 45 px
+kırpıldı, 3:4 korundu (1052×1403). Ders: yüzsüz kadrajda da saç kenardan sızabilir;
+"saç kadraja girmesin" satırı eklenmeli.
+
+## K3 — Rıza Reis setin ortasında teknede, boyaya tırnağını geçiriyor (★)
+
+K1 kararının sonucu: "Çekimin ortasında sete daldı, tekneye çıktı, boyaya tırnağını
+geçirdi. Çekim durdu." İki referans: **A11** (set, beyaz tekne, ışıklar) ve **Rıza Reis
+R3** (öfkeli — yüz, kıyafet). Başka insan yok (set ekibi kadraj dışında; "çekim durdu"
+metinden gelir).
+
+```
+Birinci referans görseldeki setin AYNISI: aynı beyaz boyanmış ahşap tekne, aynı iki film
+ışığı, aynı gün batımı, aynı Boğaz manzarası, aynı çizim tarzı. İkinci referans
+görseldeki yaşlı adamın AYNISI: aynı yüz, kasket, bıyık ve sakal, aynı açık mavi gömlek,
+lacivert örgü yelek. Başka hiçbir insan yok.
+
+Kadraj: DİKEY (3:4). Kamera kıyıdan, tekneye yakın, biraz alttan bakıyor. Adam teknenin
+güvertesinde, pruvanın yanında; kadrajın ortasında, belden yukarısı görünüyor.
+
+Kadrajda YALNIZ şunlar var:
+1. Yaşlı adam, güvertede tek dizinin üstüne çökmüş, bir eli pruvanın küpeştesini
+   kavramış; öteki elinin başparmak tırnağını taze beyaz boyaya bastırıp çekiyor:
+   tırnağının altında beyaz boya kalkmış, altından eski mavi boya kısacık bir çizgi
+   hâlinde görünüyor. Bu çizgi harf değil, yalnız kısa bir çizik.
+2. Yüzü, üç çeyrek profilden, boyaya eğilmiş; kaşları çatık, gözleri dolu, dudakları
+   bıyığının altında sıkılı: öfke ve tanıma bir arada — "bu benim teknem".
+3. Teknenin güvertesinde devrilmiş beyaz bir minder ve yan yatmış beyaz şemsiye.
+4. Arkada referanstaki iki film ışığı yanıyor, ama kimse yok; sette sessizlik.
+
+Başka hiçbir nesne yok: klaket, kamera önünde kimse, kâğıt, telefon yok. Teknenin
+hiçbir yerinde ad, harf, rakam yok.
+
+Işık: gün batımının turuncu ışığı ve film ışıklarının beyazı; adamın yüzü ikisinin
+arasında. Hava: dizinin sahte parıltısının ortasında gerçek bir an.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kazınan boyanın altında harf seçiliyor mu (Nazlı adı burada
+görünmemeli), Rıza Reis'in yüzü ve kıyafeti tutuyor mu, başka insan var mı, tekne
+A11'dekiyle aynı mı.
