@@ -2095,3 +2095,51 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kilitte marka/damga/rakam (en büyük risk), kilit gerçekten
 sağlam görünüyor mu (kırık ya da açık çizilirse ipucu tersine döner), A9 ile aynı zincir
 ve baba mı, el ya da insan var mı.
+
+
+## Sonuç — D2 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/detay_d2_kilit.webp`. Paslı baba, zincir, pirinç
+asma kilit kapalı ve sağlam; kilidin değdiği halkalar parlak, taşta ıslak iz; arkada
+bulanık iskele, yeşil tekne. **Kilitte marka/damga yok** (büyütülerek tarandı).
+Taslakta İ3: "Kilidi kırılmamış…" satırında karakterler çekilir, D2 çapraz geçişle
+gelir; Cengo'nun repliğinde iskeleye dönülür.
+
+## D3 — Pruvada taze beyaz boya, altında eski adın gölgesi (★, A11 referanslı)
+
+İ4. Gösterir: `nazli_izi`. **Yalnız İ4'te.** Kanon: "harfleri ve telefon ekranı görselde
+görünmez; yalnız metinde." Ad metinde söyleniyor ("Nazlı"); görsel yalnız **bir şeyin
+altta kaldığını** gösterir. Yazı riski en yüksek görsel bu: üretici adı okunur yazmaya
+çok yatkın. İstenen: eski boyanın **harf olmayan**, dağınık lekeleri.
+
+```
+Referans görseldeki beyaz teknenin AYNISI: aynı ahşap gövde, aynı parlak beyaz boya,
+aynı gün batımı ışığı, aynı çizim tarzı. Bu görselde hiç insan ve hiç el yok.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kamera teknenin pruvasına, bordanın ön ucuna çok
+yakın; ahşap kalasların arasındaki çizgiler ve boyanın dokusu görünüyor. Arka planda
+Boğaz'ın suyu bulanık.
+
+Kadrajda YALNIZ şunlar var:
+1. Pruvanın ahşap bordası, kadrajın çoğunu kaplıyor; üstünde taze, kalın, biraz
+   özensiz sürülmüş beyaz boya; fırça izleri belli.
+2. Beyaz boyanın altından, bordanın ortasında, eski boyanın hafifçe sızan gölgesi:
+   yatay bir şerit hâlinde, dağınık, soluk, koyu lacivert lekeler; sanki bir zamanlar
+   orada bir şey yazılıymış da üstü boyanmış. Lekeler HARF DEĞİL: biçimsiz, bulanık,
+   kesik kesik; hiçbir harf, rakam, sembol seçilmiyor, okunmuyor.
+3. Bir yerde beyaz boya hafifçe kabarmış, kenarından altındaki eski mavi boyanın küçük,
+   biçimsiz bir parçası görünüyor.
+4. Pruvanın ucunda eski, paslı bir halat halkası.
+
+Başka hiçbir nesne yok: etiket, plaka, numara, bayrak, kâğıt yok.
+
+Işık: gün batımının alçak ışığı bordayı yandan yalıyor; fırça izleri ve altta kalan
+lekeler bu yan ışıkta seçiliyor. Hava: "boyanın altında bir şey var" duygusu.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın. Altta kalan izler
+okunabilir bir kelime oluşturmasın.
+```
+
+**Geldiğinde bakılacaklar:** lekelerde harf ya da harfe benzer biçim var mı — en büyük
+risk; tek bir okunur harf varsa rötuşla dağıtılır ya da yeniden üretilir. A11'deki
+tekneyle aynı mı (beyaz, ahşap), alt kısımda gerçekten "altında bir şey var" okunuyor mu.
