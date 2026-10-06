@@ -3149,3 +3149,47 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** Peri'nin yüzü ve saç rengi tutuyor mu, dekolte setteki ayarda
 mı (az değil, fazla değil), Serkan tanınıyor mu, kasalarda/teknelerde yazı, el ve parmak
 sayıları, ton korkutucu ya da acı verici olmuş mu.
+
+
+## Sonuç — K8 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k8_kovalamaca.webp`. Peri (yüz, saç rengi, manto,
+bluz, küpeler tutuyor) mavi kasanın kenarına oturmuş, elinde damlayan levrek, ağzı açık,
+kaşlar çatık; saçında ve mantosunda pullar, her yeri ıslak; dekolte setteki ayarda.
+Arkada Serkan levreklerin üstünde sırt üstü, ayaklar havada — tanınıyor. Gün batımı,
+vapurlar, martılar. **Yazı yok** (vapurlar, kasalar tarandı). Ton tam komedi.
+
+Farklar (kabul edilebilir): Peri kasanın içine gömülmemiş, kenarına oturmuş; topuz
+dağılmamış, yalnız tutamlar ıslak. Kırmızı stiletto kanonda yoktu, Peri'ye yakışıyor.
+Balıklı ifadeler (PB1/PB2) bu karedeki saç ve ıslaklığı referans alacak.
+
+## PB1 — Peri balıklı, sinirli (ekran hâli; K8 + Peri C3 referanslı)
+
+Replik: "Planlamıştım." Sprite: Peri C3 (sinirli, mantolu) **poz ve kadraj** için; K8
+**ıslaklık ve pullar** için. Kesim: `peri` profili, aynı çerçeve.
+
+```
+Birinci referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı kırmızı
+manto, krem saten bluz ve aynı dekolte, aynı altın küpeler, aynı çizim tarzı, aynı düz
+açık bej arka plan. Kadraj birinci referansla birebir aynı: aynı ölçek, uyluk ortasından
+kesilmiş, başın tepesi aynı yükseklikte, dikey. Başın açısı birinci referansla aynı:
+başı kadrajın soluna dönük, burnu kadrajın soluna bakıyor, kulağı kadrajın sağında.
+Kameraya bakmıyor.
+
+İkinci referans görselden yalnız kadının hâli alınacak: her yeri balık suyuyla ıslak.
+Kumral-kızıl saçı sırılsıklam, topuzu yarı dağılmış, ıslak tutamlar yüzüne ve boynuna
+yapışmış; saçında, yanağında ve mantosunun üstünde birkaç gümüş balık pulu; manto ıslak,
+koyulaşmış, buruşuk; saten bluz ıslak, dekoltesi birinci referanstaki gibi görünüyor.
+Arka plan yine DÜZ, AÇIK BEJ; iskele, balık, kasa YOK.
+
+Poz: bir eliyle saçından bir balık pulunu tiksintiyle ayıklıyor, iki parmağının ucunda
+tutuyor; öteki eli yumruk, belinde. Çenesi yukarıda, gururunu toplamaya çalışıyor.
+
+İfade: onurlu öfke; kaşları çatık, burun kanatları açık, dudakları sıkı, gözleri
+kısılmış: "Planlamıştım." diyen biri.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde:** arka plan düz bej mi (kesim için şart), ölçek ve baş açısı C3 ile aynı mı,
+dekolte setteki ayarda mı, yüz Peri mi.
