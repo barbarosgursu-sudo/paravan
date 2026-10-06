@@ -1562,6 +1562,13 @@ Köşeler karanlık.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — A5b (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a5b_koridor_aksam.webp`. Aynı kadraj; tavan
+lambası yanık, karolarda sıcak yansıma, dipteki pencerede lacivert gök ve turuncu ufuk
+çizgisi. **Tabela akşamda da yalnız kenarıyla** görünüyor. Yazı yok. Taslakta kapanış
+"Cengo kapıya yürüyor"dan sonra A5b'ye geçiyor; figürlere akşam tonu uygulanıyor.
+
 ## A6L — Büro, gündüz, lamba yanık (A6 referanslı; A6'nın yerine geçer)
 
 ```
