@@ -2741,3 +2741,62 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** önlükte yazı/logo, Rıza Reis'e benzemiş mi (kasket, sakal,
 yelek olmamalı), bardak ve tepside damga, bakış kadrajın soluna mı.
+
+
+## Sonuç — C1 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_cayci.webp`. Kel, tombul, kıvrık beyaz bıyık,
+beyaz gömlek, kahve önlük, omzunda bez, askılı tepside iki çay; Rıza Reis'e benzemiyor.
+Önlükte yazı yok (bezdeki mavi çizgiler desen). Taslakta İ2'de `konukGir: "cayci"`,
+Cengo'nun repliğinde `konukCik`; boy 0.82 (kısa boylu).
+
+**YAN KARAKTERLER TAMAM:** Hilmi Bey (2), Rıza Reis (3), Serkan, Tuba, çaycı.
+
+---
+
+# ARA KARELER — VAKA 1
+
+Ara kare = konuşma ekranının taşıyamadığı doruk an; tam ekran, karakterler içinde çizili.
+Yüzler riskli (üretici yüzü kaydırır), o yüzden ilk tercih **yüzsüz kadraj**: eller,
+nesneler, sırttan çekim. Yüz gerekirse sprite referans verilir.
+
+## K1 — Taç kolinin içine giriyor (★, A2 referanslı)
+
+Açılış S1 sonu: "Peri tacı bırakmıyor. Hilmi Bey nazikçe çekiyor… Peri bırakıyor. Taç
+bir kolinin içine giriyor; koli kapanıyor." **Yüzsüz:** yalnız eller ve taç.
+
+İki referans: **A2** (salon, ters açı — arka plan, ışık, koliler) ve **Hilmi Bey H1**
+(gri takım kolu, beyaz manşet). Peri'nin eli metinle tarif edilir (krem saten kol —
+mantosuz set; takı yok — kanon).
+
+```
+Birinci referans görseldeki salonun AYNISI arka planda, bulanık: aynı krem duvarlar,
+aynı balıkçılsırtı parke, aynı sabah ışığı, aynı çizim tarzı. İkinci referans
+görseldeki adamın YALNIZ kolu ve elleri: aynı gri takım ceketin kolu, aynı beyaz
+gömlek manşeti. Yüzü görünmüyor.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kadrajın ortasında, göğüs hizasında, açık duran
+kapaksız düz kahverengi bir karton koli; kamera kolinin biraz üstünden bakıyor.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada, parlak, gümüş renkli, ince işçilikli, kristal taşlı küçük bir güzellik
+   yarışması tacı; tam kolinin içine düşmek üzere, havada.
+2. Kadrajın solundan giren bir kadın eli: krem rengi saten bluz kolu, ince bilek,
+   parmakları tacın ucunu son bir kez bırakıyor; parmak uçları hâlâ tacın kenarına
+   değiyor, isteksizce. Elde yüzük, bilezik, saat yok.
+3. Kadrajın sağından giren bir erkeğin iki eli: gri takım kolu, beyaz manşet;
+   koliyi iki yanından nazik, saygılı bir tavırla tutuyor.
+4. Kolinin içi boş, karanlık; kolinin üzerinde hiçbir yazı, etiket, işaret yok;
+   kenarında yarım kalmış bir bant şeridi.
+
+Başka hiçbir nesne yok: kâğıt, liste, dosya, telefon yok.
+
+Işık: sabah güneşi arkadan; tacın kristallerinde küçük parıltılar; arka plan yumuşak
+bulanık. Hava: komik bir hüzün; bir devrin bir koliye girişi.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** tacın üstünde yazı/rakam/kurdele yazısı (güzellik tacı
+kurdele çağırır — yasak), kolide yazı, Peri'nin elinde takı, el sayısı (üretici fazla
+parmak/el çizebilir), kollar doğru kişilerin mi (krem saten / gri takım).
