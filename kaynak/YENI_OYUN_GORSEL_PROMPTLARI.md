@@ -1668,3 +1668,22 @@ Düzeltme (`arac_kes.js`):
   gürültüsü).
 
 **Kural: her kesimden sonra `--onizleme` çıktısına bakılır, taslağa ondan sonra konur.**
+
+
+---
+
+# ARKA PLAN GEÇİŞLERİ (6 Ekim 2026, sahibinin isteği)
+
+Her arka plan bir **grup** taşır: yer + saat (`salon_sabah`, `salon_ogle`, `buro_gunduz`,
+`buro_aksam`, `koridor_gunduz`, `koridor_aksam`).
+
+- **Aynı grup → çapraz geçiş** (0,6 sn): yeni görsel eskinin üstünde belirir. Durum
+  değişimleri (avize, manto, lamba) ve aynı mekânda açı değişimi (A6 → A7) böyle.
+- **Grup değişir → kısa kararma** (≈0,3 sn kararır, açılır): yer ya da saat değişti.
+- **"Hareketi azalt" açıksa ve sahne baştan kurulurken → anında.**
+- Hızlı dokunmada geçişler üst üste binmez: bekleyen kararma iptal edilip son hedef
+  uygulanır, eski katmanlar temizlenir (tur testi: her iki yolda sonda tek katman).
+
+Gerçek oyunda da arka plan kaydı `grup` alanı taşımalı; süreklilik kuralının
+doğrulayıcı tarafı (bkz. Vaka 1 süreklilik denetimi) aynı alanı saat çizgisi için
+kullanabilir.
