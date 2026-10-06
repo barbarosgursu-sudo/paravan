@@ -1869,3 +1869,54 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 okunabilir — rötuş ya da yeniden), teknenin balıkçı teknesi olduğu belli mi (gerçek bir
 yat çizilirse hikâye çöker), ekipmanda marka/yazı (kamera, ışıklar, sandalyeler), klaket
 ya da monitör çizilmiş mi, A9 ile aynı ışık ailesi mi, alt üçte bir boş mu.
+
+
+## Sonuç — A11 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a11_set.webp`. Beyaza boyanmış ahşap tekne —
+kaptan köşkü ve balıkçı gövdesi belli, minderler ve şemsiye "yat" süsü; komik ve
+doğru. İki yanık film ışığı, gümüş yansıtıcı, örtülü kamera, kablolar, iki yönetmen
+sandalyesi (sırtlık düz); arkada yalılar ve Rumeli Hisarı. **Pruva temiz** — D3'ün
+anı korunuyor. **Yazı/marka yok** (tekne, kamera, sandalyeler tarandı). Taslakta İ4
+sahnesi ("Set asistanı" plakası, figürü sırada).
+
+## A12 — Setin arkası: kablolar, katering masası (A11 referanslı)
+
+İ5 (set sorumlusu Tuba, elinde üç telefon) burada geçer. **A11'i referans olarak
+ekle** — aynı set, ters yön: kara tarafı. Katering masası yazı riski taşır (etiketli
+şişe, ambalaj, menü kartı); hepsi sayılarak yasaklanır.
+
+```
+Referans görseldeki setin AYNISI: aynı yer, aynı gün batımı ışığı, aynı renkler, aynı
+çizim tarzı. Bu görselde hiç insan yok.
+
+Kadraj: DİKEY (3:4). TERS YÖN: kamera bu kez sudan kara tarafına, setin arkasına
+bakıyor; Boğaz ve beyaz tekne kameranın arkasında kalıyor. Görselin alt üçte biri boş,
+sakin taş sahil kaldırımı: orada hiçbir nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada, katlanır ayaklı uzun bir katering masası; üstünde beyaz bir örtü. Masanın
+   üstünde yalnız: büyük, metal bir termos semaver; üst üste dizilmiş beyaz karton
+   bardaklar; bir tepside simitler; bir kâse mandalina. Bardaklarda, termosta, tepside
+   hiçbir yazı, logo, etiket yok.
+2. Masanın yanında, kaldırımda üst üste duran üç siyah, kapalı ekipman kutusu; düz,
+   hiçbir yazı, etiket, numara yok.
+3. Kaldırım boyunca kıvrılarak giden kalın siyah kablolar ve bir kablo makarası.
+4. Sağda, ayaklı, sönük bir film ışığı; arkaya çevrilmiş.
+5. Arkada, sahil yolunun ötesinde, ağaçların arasında Bebek'in eski, iki üç katlı
+   taş ve ahşap evleri; pencerelerinde gün batımının yansıması.
+6. Bir ağacın gövdesine yaslanmış, katlanmış bir yönetmen sandalyesi; sırtlığı düz,
+   yazısız.
+
+Başka hiçbir nesne yok: tabela, afiş, menü, senaryo, kâğıt, klaket, monitör, telefon,
+şişe, kutu içecek, paket, araba, kamyon, karavan yok. Hiçbir yerde yazı, logo,
+marka, numara yok.
+
+Işık: gün batımının alçak, turuncu ışığı arkadan, evlerin camlarında; masanın
+üstünde sıcak bir parıltı. Hava: telaşın ortasında bir mola; dağınık ama sıcak.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** masada etiketli şişe/ambalaj var mı (en büyük risk), kutularda
+yazı/numara, evlerde tabela, A11 ile aynı ışık mı, alt üçte bir boş mu.
