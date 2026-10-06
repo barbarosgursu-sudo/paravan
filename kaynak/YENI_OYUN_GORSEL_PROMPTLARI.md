@@ -3271,3 +3271,46 @@ büyütülüp araçla kesilir.
 
 **VAKA 1 GÖRSELLERİ TAMAM (44/45).** Kalan yalnız isteğe bağlı A4 (hanın sokaktan
 girişi); şimdilik salon → koridor kararmayla geçiyor.
+
+## A4 — Karaköy, eski hanın sokaktan girişi (A13 + A5 referanslı)
+
+Açılış S2 → S3 geçişi: Peri anahtarla Karaköy'e geliyor. Saat **öğleden sonra** (A3 öğle,
+A5 öğleden sonra arası). İki referans: **A13** (Karaköy sokak dokusu) ve **A5** (hanın
+içi — taş, kemer, karo; giriş onun dışı olmalı). Yazı riski: han kapılarında kitabe ve
+tabela olur — kemer taşı düz, kitabe yeri boş istenir.
+
+```
+Birinci referans görseldeki Karaköy sokağının dokusu ve çizim tarzı: aynı eski taş
+binalar, aynı Arnavut kaldırımı. İkinci referans görseldeki hanın içinin malzemesi:
+aynı krem taş, aynı kemerler, aynı siyah-beyaz karo. Bu görselde hiç insan yok.
+
+Mekân: İstanbul Karaköy'de, 19. yüzyıldan kalma, üç katlı, eski bir taş hanın sokaktan
+girişi. Öğleden sonra; güneş yüksekte ama hafif yanlamasına, sıcak, bal rengi ışık.
+A13'teki gün batımı turuncusu YOK.
+
+Kadraj: DİKEY (3:4). Kamera dar sokağın karşı kaldırımında, göz hizasında, hanın
+cephesine bakıyor. Görselin alt üçte biri boş, sakin Arnavut kaldırımı.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada, hanın büyük, yuvarlak kemerli taş giriş kapısı; ağır, iki kanatlı, eski
+   ahşap kapının bir kanadı açık. Açık kanattan içeride loş bir taş avlu ve siyah-beyaz
+   karolar, dipte yukarı çıkan taş bir merdivenin ilk basamakları seçiliyor.
+2. Kemerin tepesindeki kilit taşı ve kemerin üstündeki dikdörtgen kitabe yeri DÜZ, BOŞ,
+   aşınmış taş; üzerinde hiçbir yazı, harf, rakam, işaret yok.
+3. Kapının iki yanında, cephede, demir parmaklıklı, kapalı pencereler; üst katlarda
+   ahşap kepenkli pencereler, birinde saksıda bir sardunya.
+4. Cephe boyunca soluk, yer yer dökülmüş krem sıva ve çıplak taş.
+5. Kaldırımın kenarında, kapının yanında, eski, demir bir sokak lambası; sönük.
+6. Sokağın ucunda, uzakta, Haliç'in suyundan bir parça.
+
+Başka hiçbir nesne yok: tabela, levha, kitabe, afiş, ilan, numara plakası, zil paneli,
+araba, motosiklet, çöp kutusu yok. Hiçbir yerde yazı, harf, rakam yok.
+
+Işık: öğleden sonranın sıcak, bal rengi ışığı cepheye yandan vuruyor; kemerin içi loş.
+Hava: eski, görkemli ama unutulmuş; bir kapının ardında bir şey bekliyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kitabe yeri ve kilit taşı boş mu (en büyük risk), kapıda numara,
+ışık öğleden sonra mı, alt üçte bir boş mu.
