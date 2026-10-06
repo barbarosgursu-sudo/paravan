@@ -2956,3 +2956,49 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** buzdolabında marka/logo (en büyük risk — eski buzdolabı
 logolu çizilir; rötuşla silinir), kasada yazı, Cengo tanınıyor mu (kıyafet, saç,
 bileklik), yüz Cengo'dan kaymış mı, balık sayısı ve eller düzgün mü.
+
+
+## Sonuç — K4 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k4_levrek.webp`. Cengo yandan-arkadan, gülümsüyor;
+ceket, cepten sarkan bordo kravat, bileklik tanıtıyor; yüz kaymamış. Eski krem
+buzdolabı **logosuz**, mavi kasa yazısız, levrekler taşıyor, biri yerde. Büro duvarı ve
+ahşap zemin A6 ile uyumlu.
+
+## K5 — Cumartesi sabahı iskelede Nazlı, boyası yarı sökülmüş (★, A9 referanslı)
+
+K3 kararının sonucu: tekne cumartesi sabahı iskelede, "boyasını yapım sökecek". Sabah —
+A9'un gün batımı değil: **serin, pembe-mavi sabah ışığı**, sakin su. Tekne A9'daki boş
+yerde, kıyıya bağlı; boyası yarı sökülmüş: beyaz yamalar, altından eski mavi gövde.
+**Yazı:** bordada ad çıkmamalı (beyazın sökülmesi adı açar — ad bölgesi hâlâ beyaz kalsın).
+İnsan yok (Rıza Reis'in "üç gün denize çıkamadığı" bekleyiş).
+
+```
+Referans görseldeki iskelenin AYNISI: aynı taş rıhtım, aynı demir bağlama babası ve
+zincir, aynı mavi ve kırmızı balıkçı tekneleri, aynı Haliç ve tarihi yarımada siluet,
+aynı çizim tarzı. Bu görselde hiç insan yok.
+
+Değişen şeyler: saat ve ortadaki boş yer.
+
+Saat: erken sabah. Güneş henüz doğmuş, ışık serin, pembe ve açık mavi; suyun üstünde
+ince bir sis; su çarşaf gibi sakin. Gün batımı turuncusu YOK.
+
+Ortadaki boş bağlama yerinde artık bir tekne var: eski, ahşap, orta boy bir balıkçı
+teknesi, babaya kalın zincirle bağlı. Teknenin boyası YARI YARIYA sökülmüş: gövdenin
+üst kısmında ve pruvada hâlâ beyaz boya yamaları var, aşağılarda ve yer yer beyazın
+altından eski, solmuş mavi gövde görünüyor; geçişler pürüzlü, fırça ve kazıma izli.
+Pruvanın ön yüzü ve bordanın ortası hâlâ BEYAZ; hiçbir yerde ad, harf, rakam yok.
+Teknenin üstünde katlanmış eski bir ağ ve bir tahta kova.
+
+Görselin alt üçte biri boş taş rıhtım.
+
+Başka hiçbir nesne yok: tabela, kâğıt, insan, kedi, araba yok.
+
+Işık: serin sabah ışığı; teknenin beyaz yamaları pembemsi parlıyor. Hava: dönüş;
+sessiz, yorgun bir rahatlama.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** bordada/pruvada ad ya da harf (en büyük risk), ışık gerçekten
+sabah mı (A9'un turuncusu taşınmış mı), tekne A9'daki boş yerde mi, insan var mı.
