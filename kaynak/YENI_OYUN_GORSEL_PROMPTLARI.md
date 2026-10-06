@@ -3207,3 +3207,49 @@ PB1b: PB1 metnine eklenen satırlar —
 "Üçüncü referans görseldeki kadının siyah, dar, diz boyu kalem eteği ve ince siyah
 kemeri. Mantonun önü kuşağın altında açık; aradan SİYAH kalem etek açıkça görünüyor.
 Kırmızı etek YOK; mantonun altında yalnız siyah etek ve krem bluz."
+
+
+## Sonuç — PB1b (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/deneme_peri_pb1.webp`. Islak saç ve manto, pullar,
+parmak ucunda pul, öteki el yumruk belde, onurlu öfke; **siyah kalem etek ve kemer
+görünüyor.** Dekolte setteki ayarda. Sağ dirsek çerçeveden taştığı için **geniş kesim**
+(`--genis`, aynı CSS). Taslakta İ6 yeni metne göre baştan kuruldu: kart → kaçış →
+K8 (balık) → iskelede balıklı Peri ("Planlamıştım.") → Serkan itiraf → istavrit →
+"Akşam yemeği çıktı." → hortum (mantolu sete dönüş) → dükkân.
+
+## PB2 — Peri balıklı, utanmış: istavrit anı (D3 + PB1b + PM2 referanslı)
+
+Vaka 1 İ6, sahibinin onayıyla: "Göğsünün arasına küçük bir istavrit sıkışmış. Peri
+kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor." Komedi; açık bir şey yok.
+**ChatGPT reddederse Grok.**
+
+```
+Birinci referans görseldeki kadının AYNISI: aynı yüz, aynı çizim tarzı, aynı düz açık
+bej arka plan; kadraj birinci referansla birebir aynı: aynı ölçek, uyluk ortasından
+kesilmiş, başın tepesi aynı yükseklikte, dikey. Başın açısı birinci referansla aynı:
+başı kadrajın soluna dönük, hafifçe öne eğik; burnu kadrajın soluna bakıyor, kulağı
+kadrajın sağında. Kameraya bakmıyor.
+
+İkinci referans görseldeki kadının hâli ve kıyafeti AYNEN: ıslak, dağınık kumral-kızıl
+saç ve içinde balık pulları, ıslak kırmızı manto ve üstündeki pullar, ıslak krem saten
+bluz ve aynı dekolte, mantonun önünden görünen siyah kalem etek ve ince siyah kemer,
+altın küpeler. Üçüncü referans görseldeki siyah kalem etek ve kemer.
+
+Değişen şeyler poz ve ifade.
+
+Poz: bir elinin iki parmağıyla, dekoltesinin arasından yarısı çıkmış küçük, gümüş,
+ince bir balığı (istavrit) kuyruğundan tutup çekiyor; balık havada hafifçe kıvrılmış.
+Öteki eli yüzünün yanında, utançla avucu açık, sanki yüzünü saklamak ister gibi.
+Omuzları kalkık.
+
+İfade: komedi utancı — yanakları ve kulakları kıpkırmızı; kaşları ortada yukarı kalkmış;
+gözleri kocaman açılmış ve balığa bakıyor; dudakları sıkılı, gülmekle ağlamak arasında
+bir çarpıklık. "Bu olmuyor" der gibi.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** arka plan düz bej mi, ölçek ve baş açısı D3/PB1 ile aynı mı,
+siyah etek görünüyor mu, balık küçük mü (levrek değil), ton komik mi, dekolte setteki ayarda
+mı.
