@@ -670,7 +670,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K6 | Peri bir masada imza atıyor, karşısında yapımcı; arkada beyaz tekne | Karar K4 sonucu | ★ |
 | K7 | Peri'nin eli mantonun cebinde, telin ucu görünüyor | Kapanış | ★ |
 | K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
-| K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) |
+| K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) · tuttu |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.

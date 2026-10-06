@@ -3389,3 +3389,22 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** Peri'nin yüzü ve siyah etek tutuyor mu; dekolte setteki
 ayarda mı, bluz opak mı; çaycı tanınıyor mu, Rıza Reis'e kaymış mı; hortumda, teknede
 yazı; el ve parmak sayıları (iki kişi, hortum tutan eller); ton komik mi.
+
+
+## Sonuç — K9 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k9_hortum.webp`. Çaycı (kel, kıvrık beyaz bıyık,
+kahve önlük; Rıza Reis'e benzemiyor) pirinç başlıklı yeşil hortumla Peri'nin başını
+yıkıyor, keyifli; Peri gözleri kapalı, çenesi havada, avuçları açık. Islak manto, saçta ve
+mantoda son pullar, **siyah kalem etek ve kemer görünüyor**; bluz opak, dekolte setteki
+ayarda. Yazı yok (vapur ve tekneler büyütülerek tarandı). Peri'nin sağ eli kadraj
+kenarında kesiliyor — ara kare için sorun değil.
+
+**Taslakta yerleşim:** iki yüzlü ara kare dar telefon ekranında `cover` ile kesilince
+çaycının yüzü dışarıda kalıyordu. `ARKALAR` girdisine `tam: true` eklendi: görsel %150
+genişlikte, iki yüz de içeride kalacak şekilde kaydırılır, üst/alt boşluğu aynı görselin
+bulanık kopyası doldurur. Gerçek oyunda iki yüzlü her yatay-ağırlıklı ara kare için aynı
+kural (K8 de aday). Akış: Akşam yemeği çıktı → K9 → iskele, Peri mantolu sete döner
+("Peri mantosunu sıkıyor.") → dükkân.
+
+# VAKA 1 GÖRSELLERİ — TAMAM (46/46, 6 Ekim 2026)
