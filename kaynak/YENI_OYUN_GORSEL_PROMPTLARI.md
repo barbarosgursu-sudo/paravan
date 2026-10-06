@@ -3253,3 +3253,21 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** arka plan düz bej mi, ölçek ve baş açısı D3/PB1 ile aynı mı,
 siyah etek görünüyor mu, balık küçük mü (levrek değil), ton komik mi, dekolte setteki ayarda
 mı.
+
+
+## Sonuç — PB2 (Grok ile, 6 Ekim 2026)
+
+**ChatGPT reddetti; Grok üretti.** Kopya `kaynak/yeni_gorsel/deneme_peri_pb2.webp`.
+Grok çıktısı 912×1136 (oran set ile aynı) → 1122×1402'ye büyütülüp `peri` profiliyle
+geniş kesildi. Kıpkırmızı yanaklar, kocaman gözler, çarpık ağız, küçük istavrit
+kuyruğundan çekiliyor, öteki el "dur" der gibi; ıslaklık, pullar, siyah etek ve kemer,
+dekolte setteki ayarda. Grok kadrajı biraz yakın tuttu: Peri bu satırda bir tık büyük;
+komik anda göze batmıyor. Taslakta "…Kıpkırmızı, kuyruğundan çekip çıkarıyor" ve
+"Akşam yemeği çıktı." satırlarında.
+
+**Ders (tekrar):** ChatGPT'nin reddettiği iki görsel de (kilit açma, istavrit) Grok'ta
+çıktı. Grok çıktısında kaynak boyu farklı olabilir; set oranı tutuyorsa set boyuna
+büyütülüp araçla kesilir.
+
+**VAKA 1 GÖRSELLERİ TAMAM (44/45).** Kalan yalnız isteğe bağlı A4 (hanın sokaktan
+girişi); şimdilik salon → koridor kararmayla geçiyor.
