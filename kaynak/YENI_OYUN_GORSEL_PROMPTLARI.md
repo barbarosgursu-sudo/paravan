@@ -2191,3 +2191,42 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** bileklikte harf var mı (kanon: harfsiz), el Cengo'nun eli
 gibi mi (ten, kol, ceket), kapı A5'tekiyle aynı mı, tabelanın yüzü görünüyor mu, kapı
 gerçekten aralık mı.
+
+
+## D1 — üretici reddetti (6 Ekim 2026) → D1b
+
+Üretici "içerik politikası" diyerek reddetti. Büyük olasılıkla **kilidi telle açan bir el**
+tarifi "izinsiz giriş / hırsızlık talimatı" olarak okundu. Ders: **eylemin kendisini
+değil, sonucunu göster.** Kapı zaten aralık, el yok, teldeki iş bitmiş; "tel" yerine
+günlük bir nesne: **bükülmüş bir ataç**, kilitte asılı kalmış. Komedi aynı kalır:
+"İki saniye" — ve ataç orada sallanıyor.
+
+### D1b — Kilitte asılı kalmış bükülmüş ataç, kapı aralık (A5 referanslı)
+
+```
+Referans görseldeki koridorun ve kapının AYNISI: aynı koyu ahşap kapı, aynı pirinç
+kapı kolu ve kilit, aynı öğleden sonra ışığı, aynı çizim tarzı. Bu görselde hiç insan,
+hiç el yok.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kamera kapının kilidine yakın, kilit kadrajın
+ortasında.
+
+Kadrajda YALNIZ şunlar var:
+1. Koyu ahşap kapının kenarı ve pirinç kilit; kapı biraz aralık: kanadı içeri doğru
+   bir parmak kadar açılmış, aradaki dar boşluktan içerideki odanın sıcak, tozlu ışığı
+   ince bir çizgi hâlinde dışarı sızıyor.
+2. Kilidin deliğinden sarkan, eğrilip bükülmüş, gümüş renkli tek bir ataç; hafifçe
+   sallanıyor gibi.
+3. Kapının üstünde, kadrajın tepesinde, pirinç tabelanın yalnız ince alt kenarı; yüzü
+   görünmüyor.
+
+Başka hiçbir nesne yok: anahtar, alet, kâğıt, etiket yok.
+
+Işık: loş, sıcak öğleden sonra ışığı; aralıktan sızan parlak bir çizgi; atacın ucunda
+küçük bir parıltı. Hava: hafif, oyunbaz, komik; bir kapının fazla kolay açılmış olması.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+Bu da reddedilirse D1 düşer (yıldızsız): "İki saniye sürüyor. Kapı açılıyor." satırı
+A5 üstünde metinle kalır.
