@@ -1599,6 +1599,16 @@ sarı bir ışık masanın üstüne düşüyor. Başka hiçbir şey değişmiyor
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — A7L (6 Ekim 2026)
+
+**Tuttu.** Tek gerçek fark: lamba yanıyor, duvara ve masaya sıcak ışık düşüyor (A7'de
+ampulde belli belirsiz bir parıltı vardı, şimdi açıkça yanık). Fark haritasındaki öteki
+noktalar manzaradaki ve kenarlardaki ince yeniden çizim, gözle görülmüyor.
+`kaynak/yeni_gorsel/arka_a7_buro_pencere.webp` artık bu hâl.
+
+**Süreklilik açıklarının hepsi kapandı:** A1 → A2 (avize), A3 → A3b (manto), A6L/A7L
+(lamba), A8 → A5b (kapanış koridorda).
+
 **Not:** A6L ve A7L'de üretici referansa kilitlenirse (B3'teki gibi aynı görseli
 verirse) iş rötuşla yapılır: lambanın başlığına sıcak bir ışıma ve masaya ışık
 havuzu boyanır. Lamba düz bir yüzeyde, yapısal çizgi kesmiyor — rötuş sınırının
