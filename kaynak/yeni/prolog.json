@@ -1,0 +1,4 @@
+{
+  "_not": "Eski oyunun slayt biçimli prologu yeni oyunda yok; açılış konuşma sahneleri olarak acilis.json'da. Bu dosya eski araçlar (arac_okuma.js) okuyabilsin diye boş duruyor.",
+  "prolog": []
+}

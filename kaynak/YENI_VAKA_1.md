@@ -247,9 +247,11 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 
 ## Araştırma
 
-⚙ 2 bedelsiz + 5 bedelli kaynak, **3 hak.** Çekirdek (teknenin yeri) her durumda
-ulaşılabilir: bedelsiz çaycı → Bebek (1 hak). Hak 3 olduğu için oyuncu iki yoldan
-birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (Serkan + borcu).
+⚙ 3 bedelsiz (İ1, İ2, İ3 — hepsi iskelede) + 4 bedelli kaynak, **3 hak.** Çekirdek
+(teknenin yeri) her yolda açılır: Bebek dışındaki bedelliler en fazla iki hak yer
+(Serkan → dükkân; set sorumlusu Bebek'e bağlı), üçüncü hak ister istemez Bebek'e gider.
+Oyuncu iki yoldan birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da
+**"neden"** (Serkan + borcu).
 
 ### İ1 — Rıza Reis'in anlattıkları · *İfade · bedelsiz*
 ⚙ açılması: koşulsuz · olgular: `tekne_kayip`, `zincir_kilitli`
@@ -270,8 +272,9 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 >
 > ↳ *Tekne Bebek'e gitmiş. Kullanan kim olursa olsun, saklanmıyormuş.*
 
-### İ3 — İskeleye bak · *Gözlem · 1 hak*
+### İ3 — İskeleye bak · *Gözlem · bedelsiz*
 ⚙ açılması: koşulsuz · olgular: `kilit_saglam`
+⚙ bedelsiz (sahibinin kararı, 6 Ekim 2026): İ1 ve İ2 için zaten iskeledeler; zincire bakmak hak harcamaz. Ücretli olduğu ilk yazımda İskele + Serkan + Dükkân yolu Bebek'i hiç görmüyor, dört karar da kapalı kalıyordu (doğrulayıcı K16).
 
 > Zincir iskelede, yerinde. Kilidi kırılmamış, zorlanmamış; açılıp yeniden
 > kilitlenmiş. Cengo kilide baktı: "Bu anahtarla açılmış. Ya da benden iyi biri
@@ -407,7 +410,7 @@ sonraki sahnelerde isteğe bağlı bir şaka olarak kullanılabilir, zorunlu de�
 
 ⚙ Yollar (3 hak):
 - **A — "kim":** Bebek + set sorumlusu + bir tane daha → `serkan_kiraladi`. `serkan_neden` yok.
-  Üçüncü hak iskeleye giderse `calinmadi` da doğar.
+  `calinmadi` her yolda doğabilir (iskele bedelsiz).
 - **B — "neden":** Bebek + Serkan + dükkân → `serkan_kiraladi` (anahtar + yaka kartı yolu), `serkan_neden`.
 - **C — kısa:** yalnız Bebek → `tekne_sette`. Kalan hak nereye giderse.
 

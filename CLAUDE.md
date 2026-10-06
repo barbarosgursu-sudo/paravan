@@ -32,12 +32,17 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — yedi senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 22 test geçmelidir.
+Diğer 23 test geçmelidir (22'si eski oyunun, `test_yeni_v1.js` yeni oyunun).
 
-Doğrulayıcı **14 kural** çalıştırıyor ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
+Doğrulayıcı eski oyunda **15 kural** çalıştırıyor (K16 kararsız yol dahil; K15 yalnız yeni oyunda) ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
 bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketleme durur;
 `uyarı` = tasarım kararı.
+
+**Yeni oyunun verisi `kaynak/yeni/`'de** (Vaka 1 + açılış; eski oyunun verisine dokunmaz).
+`cd kaynak && node dogrulayici.js yeni` onu denetler — argümansız çağrı eski oyunu denetler.
+Sahne satırı biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Metin önce
+`YENI_VAKA_1.md`'de değişir, sonra veriye taşınır.
 
 **Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` — her
 katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.

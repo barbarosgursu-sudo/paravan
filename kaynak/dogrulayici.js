@@ -87,6 +87,25 @@ function tohumIsimleriAl(game, t) {
   return (h && h[String(t.esit)]) || [];
 }
 
+// Bir konuşma sahnesinin oyuncuya görünen bütün metni (seçim seçenekleri dahil).
+function sahneSatirlari(sahne, acc = []) {
+  for (const s of (sahne && sahne.satirlar) || []) {
+    acc.push(s);
+    if (Array.isArray(s.secenekler))
+      for (const sec of s.secenekler) sahneSatirlari({ satirlar: sec.satirlar }, acc);
+  }
+  return acc;
+}
+function sahneMetni(sahne) {
+  const parca = [];
+  for (const s of sahneSatirlari(sahne)) {
+    if (s.m) parca.push(s.m);
+    if (s.secim) parca.push(s.secim);
+    for (const sec of s.secenekler || []) parca.push(sec.m || "");
+  }
+  return parca.join(" ");
+}
+
 // ============================================================================
 // KURALLAR
 // ============================================================================
@@ -129,6 +148,10 @@ function kural1_sozluk(game, hatalar) {
       };
       // 'ad' da taranıyor: araştırma ekranında AÇMADAN ÖNCE görünen tek şey başlıktır.
       ekle("text", c.text); ekle("meta", c.meta); ekle("ad", c.ad);
+      // Yeni oyun: kaynak bir de konuşma sahnesi olarak oynanır (c.sahne). Ekranda
+      // görünen metin O; düz 'text' yalnız okuma/yedek biçimi. Taranmazsa sahne
+      // satırları Nurcan denetiminin dışında kalırdı.
+      if (c.sahne) ekle("sahne", sahneMetni(c.sahne));
 
       for (const p of parcalar) {
         const havuz2 = havuzGenislet(vaka, new Set([...havuz, ...p.ekHavuz]));
@@ -732,7 +755,105 @@ function kural13_cengoSatir(game, hatalar) {
   }
 }
 
-function dogrula(game, ekstraKaynaklar, kisiler) {
+// KURAL 16 — Kararsız yol
+// Araştırma hakkını harcamanın HER biçiminde oyuncunun önünde en az bir karar
+// açık kalmalı. K6 tek tek kaynaklara bakar ("bu kaynak hiç açılabiliyor mu"),
+// test_softlock açgözlü tek bir yolu dener; ikisi de "hak doğru üç kaynağa
+// harcandı ama hiçbiri karar kapısını açmadı" durumunu görmez. Yeni oyunun
+// Vaka 1'i ilk yazımda tam bu deliğe düştü: İskele + Serkan + Dükkân yolu
+// teknenin yerini hiç öğrenmiyor ve dört kararın dördü de kapalı kalıyordu.
+// HATA: oyun o noktada ilerleyemez.
+function kural16_kararsizYol(game, hatalar) {
+  let Oyun;
+  try { Oyun = require("./motor.js").Oyun; } catch (e) { return; }
+  for (const vaka of game.vakalar) {
+    if (!Array.isArray(vaka.clues) || !vaka.clues.length || !(vaka.decisions || []).length) continue;
+    const bos = [];
+    for (const tohumlar of tohumBirlesimleri(vaka)) {
+      const gorulen = new Set();
+      const dfs = (ac) => {
+        const anahtar = [...ac].sort().join("|");
+        if (gorulen.has(anahtar) || bos.length >= 3) return;
+        gorulen.add(anahtar);
+        const o = new Oyun(game);
+        o.durum.para = 1e9;                       // ekonomi değil içerik sınanıyor
+        Object.assign(o.durum.seeds, tohumlar);
+        try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+        for (const id of ac) if (o.kaynakAc(id).hata) return;
+        const alinabilir = o.acikKaynaklar().filter(c =>
+          o.bedelsizMi(vaka.clues.find(x => x.id === c.id)) || o.durum.aktif.arastirmaKalan > 0);
+        if (!alinabilir.length) {
+          if (!o.acikKararlar().length) bos.push(ac.join(" + ") || "(hiçbir kaynak)");
+          return;
+        }
+        for (const c of alinabilir) dfs([...ac, c.id]);
+      };
+      dfs([]);
+    }
+    for (const yol of bos)
+      hatalar.push(`[K16] ${vaka.id}: '${yol}' yolunda hak bitiyor ve hiçbir karar açılmıyor — oyuncu vakayı kapatamaz.`);
+  }
+}
+
+// KURAL 15 — Sahne satırı (yeni oyunun konuşma ekranı)
+// Konuşma ekranı veriyi görsel setine bağlıyor: her satırın konuşanı bir figür ya
+// da tanımlı bir ses olmalı, ifadesi o figürün (Peri için o anki kıyafet setinin)
+// sprite'larından biri olmalı, arka plan ve kare kodları görsel listesinde
+// bulunmalı. Hiçbiri JS hatası vermez: tanımsız ifade sessizce eski sprite'ta
+// kalır, tanımsız arka plan sessizce boş kalır. "Arayüz/veri ayrışması sessizdir"
+// dersinin konuşma ekranındaki karşılığı. kanon.sahne yoksa (eski oyun) çalışmaz.
+function kural15_sahne(game, hatalar, acilis) {
+  const S = game.kanon && game.kanon.sahne;
+  if (!S) return;
+  const fig = S.figurler || {}, sesler = S.sesler || {};
+  const arkalar = new Set(S.arkalar || []), kareler = new Set(S.kareler || []);
+  const denetle = (yer, sahne) => {
+    if (!sahne || !Array.isArray(sahne.satirlar) || !sahne.satirlar.length) {
+      hatalar.push(`[K15] ${yer}: sahne boş ya da 'satirlar' dizisi yok.`); return;
+    }
+    if (sahne.arka && !arkalar.has(sahne.arka))
+      hatalar.push(`[K15] ${yer}: arka plan '${sahne.arka}' görsel listesinde yok.`);
+    let set = sahne.set || "manto";
+    const yuru = (satirlar, yol) => satirlar.forEach((s, n) => {
+      const y = `${yer} satır ${yol}${n + 1}`;
+      if (s.set) {
+        if (!(fig.peri && fig.peri.setler && fig.peri.setler[s.set]))
+          hatalar.push(`[K15] ${y}: Peri'nin '${s.set}' diye bir kıyafet seti yok.`);
+        else set = s.set;
+      }
+      if (s.arka && !arkalar.has(s.arka)) hatalar.push(`[K15] ${y}: arka plan '${s.arka}' görsel listesinde yok.`);
+      if (s.kare && !kareler.has(s.kare)) hatalar.push(`[K15] ${y}: kare '${s.kare}' görsel listesinde yok.`);
+      for (const g of [s.gir].filter(Boolean))
+        if (!fig[g]) hatalar.push(`[K15] ${y}: sahneye giren '${g}' tanımlı bir figür değil.`);
+      if (s.secim !== undefined) {
+        if (!Array.isArray(s.secenekler) || s.secenekler.length < 2)
+          hatalar.push(`[K15] ${y}: seçimin en az iki seçeneği olmalı.`);
+        (s.secenekler || []).forEach((sec, i) => yuru(sec.satirlar || [], `${yol}${n + 1}.${i + 1}.`));
+        return;
+      }
+      if (typeof s.m !== "string" || !s.m.trim()) hatalar.push(`[K15] ${y}: metin boş.`);
+      if (s.k === "not") { if (s.i) hatalar.push(`[K15] ${y}: anlatı satırının ifadesi olmaz.`); return; }
+      if (sesler[s.k]) { if (s.i) hatalar.push(`[K15] ${y}: '${s.k}' figürü olmayan bir ses; ifade alamaz.`); return; }
+      const f = fig[s.k];
+      if (!f) { hatalar.push(`[K15] ${y}: konuşan '${s.k}' ne figür ne tanımlı ses.`); return; }
+      if (!s.i) return;                              // ifade verilmezse önceki kalır
+      const izinli = s.k === "peri" ? (f.setler[set] || []) : (f.ifadeler || []);
+      if (!izinli.includes(s.i))
+        hatalar.push(`[K15] ${y}: '${s.k}' için '${s.i}' ifadesi yok` +
+          (s.k === "peri" ? ` ('${set}' setinde: ${izinli.join(", ")}).` : ` (var olanlar: ${izinli.join(", ")}).`));
+    });
+    yuru(sahne.satirlar, "");
+  };
+  for (const vaka of game.vakalar) {
+    for (const [ad, sahne] of Object.entries(vaka.sahneler || {})) denetle(`${vaka.id}/sahneler.${ad}`, sahne);
+    for (const c of vaka.clues || []) if (c.sahne) denetle(`${vaka.id}/${c.id}.sahne`, c.sahne);
+    for (const d of vaka.decisions || [])
+      if (d.kare && !kareler.has(d.kare)) hatalar.push(`[K15] ${vaka.id}/${d.id}: kare '${d.kare}' görsel listesinde yok.`);
+  }
+  for (const sahne of (acilis && acilis.sahneler) || []) denetle(`açılış/${sahne.id}`, sahne);
+}
+
+function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
   kural1b_kunye(game, hatalar, kisiler);
@@ -749,6 +870,8 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural12_cikarimBaslik(game, hatalar);
   kural13_cengoSatir(game, hatalar);
   kural14_tanimsizOlgu(game, hatalar);
+  kural15_sahne(game, hatalar, acilis);
+  kural16_kararsizYol(game, hatalar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -763,6 +886,9 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
   kural("Kural 12 (Çıkarım başlığı)", hatalar.some(h => h.startsWith("[K12]")));
   kural("Kural 13 (Cengo satırı)  ", hatalar.some(h => h.startsWith("[K13]")));
   kural("Kural 14 (Tanımsız olgu) ", hatalar.some(h => h.startsWith("[K14]")));
+  kural("Kural 16 (Kararsız yol)  ", hatalar.some(h => h.startsWith("[K16]")));
+  if (game.kanon && game.kanon.sahne)
+    kural("Kural 15 (Sahne satırı)  ", hatalar.some(h => h.startsWith("[K15]")));
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);
@@ -780,18 +906,27 @@ function dogrula(game, ekstraKaynaklar, kisiler) {
 
 module.exports = { dogrula, ifadeDegerlendir, acilabilirOlgular, ifadeOlgulari };
 
-// Doğrudan çalıştırılırsa game_data.js'i dene
+// Doğrudan çalıştırılırsa game_data.js'i dene.
+// İsteğe bağlı argüman: veri klasörü. `node dogrulayici.js yeni` yeni oyunun
+// verisini (yeni/game_data.json, kisiler.json, acilis.json) denetler; argümansız
+// çağrı eskisi gibi eski oyunu denetler.
 if (require.main === module) {
   try {
-    const { GAME } = require("./game_data.js");
-    const fs = require("fs");
+    const fs = require("fs"), path = require("path");
+    const dizin = process.argv[2];
+    const yol = f => dizin ? path.join(dizin, f) : f;
+    const GAME = dizin ? JSON.parse(fs.readFileSync(yol("game_data.json"), "utf-8"))
+                       : require("./game_data.js").GAME;
     const ekstra = [];                       // K9 tohumları burada da arar
-    for (const f of ["kisiler.json", "build_html.js", "prolog.json"]) {
-      try { ekstra.push(fs.readFileSync(f, "utf-8")); } catch (e) {}
+    for (const f of ["kisiler.json", "prolog.json", "acilis.json"]) {
+      try { ekstra.push(fs.readFileSync(yol(f), "utf-8")); } catch (e) {}
     }
+    try { ekstra.push(fs.readFileSync(path.join(__dirname, "build_html.js"), "utf-8")); } catch (e) {}
     let kisiler = null;                      // K1b künye katmanlarını denetler
-    try { kisiler = JSON.parse(fs.readFileSync("kisiler.json", "utf-8")); } catch (e) {}
-    const ok = dogrula(GAME, ekstra, kisiler);
+    try { kisiler = JSON.parse(fs.readFileSync(yol("kisiler.json"), "utf-8")); } catch (e) {}
+    let acilis = null;                       // K15 açılış sahnelerini de denetler
+    try { acilis = JSON.parse(fs.readFileSync(yol("acilis.json"), "utf-8")); } catch (e) {}
+    const ok = dogrula(GAME, ekstra, kisiler, acilis);
     process.exit(ok ? 0 : 1);
   } catch (e) {
     console.log("game_data.js bulunamadı — test verisiyle çalıştırmak için test_dogrulayici.js kullanın.");

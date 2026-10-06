@@ -1,0 +1,353 @@
+{
+  "_not": "YENİ OYUN verisi (Peri & Cengo). Kaynak metin: kaynak/YENI_VAKA_1.md. Eski oyunun verisi kaynak/game_data.json'da, ona dokunulmaz. Sahne satırı biçimi: kaynak/yeni/OKUBENI.md.",
+  "kanon": {
+    "isimler": ["Rıza", "Serkan", "Nazlı"],
+    "belirsiz": [],
+    "belirsiz_istisna": {},
+    "tohum_isimleri": {},
+    "sahne": {
+      "figurler": {
+        "peri":   { "setler": { "mantosuz": ["normal", "kas", "sinirli", "utanmis"],
+                                "manto":    ["normal", "kas", "sinirli", "utanmis"],
+                                "balikli":  ["sinirli", "utanmis"] } },
+        "cengo":  { "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak"] },
+        "hilmi":  { "ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen"] },
+        "riza":   { "ad": "Rıza Reis", "ifadeler": ["normal", "dertli", "ofkeli"] },
+        "serkan": { "ad": "Serkan", "ifadeler": ["normal"] },
+        "tuba":   { "ad": "Tuba", "ifadeler": ["normal"] },
+        "cayci":  { "ad": "Çaycı", "ifadeler": ["normal"] }
+      },
+      "sesler": { "ses": "Ses", "asistan": "Set asistanı" },
+      "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
+      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9"]
+    }
+  },
+  "ekonomi": {
+    "baslangic_kasa": 4250,
+    "gider": {
+      "Ofis kirası": 30000,
+      "İşletme (elektrik, su, internet, telefon, aidat)": 5000
+    },
+    "borc_faizi": 0
+  },
+  "vakalar": [
+    {
+      "id": "V1",
+      "tur": "omurga",
+      "sira": 1,
+      "belirir": null,
+      "baslik": "Kayıp Tekne",
+      "arastirma": 3,
+      "ucret": 35000,
+
+      "truth": {
+        "tekne": "Nazlı. Rıza Reis'in kırk yıllık ahşap balıkçı teknesi; adı rahmetli karısının.",
+        "ne_oldu": "Rıza Reis'in oğlu Serkan, yedek anahtarla tekneyi salı gecesi Bebek'e götürdü ve üç günlüğüne bir dizi setine nakit kiraladı.",
+        "neden": "Batan balık-ekmek tezgâhından kalan bir borç; ödeme günü cuma. Babasından saklıyor.",
+        "dizi": "“Yalıda Bir Yaz.” Tekne beyaza boyanmış, sette “lüks yat” rolünde.",
+        "set": "Mekân sorumlusu Tuba kiralamayı yaptı; yapımcı tekneyi sosyal medyada “gerçek lüks yat” diye tanıttı.",
+        "plan": "Serkan tekneyi cumartesi sabahı, boyası silinmiş olarak geri getirecekti. Babası çarşamba sabahı fark etti; Peri ile Cengo aynı gün devreye giriyor."
+      },
+
+      "facts": {
+        "tekne_kayip": "Nazlı salı gecesi Karaköy iskelesinden kayboldu.",
+        "zincir_kilitli": "Zincir kilitliydi; Rıza Reis anahtarın yalnız kendisinde olduğunu söylüyor.",
+        "bebek_yonu": "Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendeki genç el salladı.",
+        "kilit_saglam": "Zincirin kilidi kırılmamış; anahtarla açılıp yeniden kilitlenmiş.",
+        "set_teknesi": "Bebek'teki dizi setinde “lüks yat” diye beyaza boyanmış bir balıkçı teknesi var.",
+        "yat_tanitimi": "Dizi, tekneyi tanıtımında “gerçek bir lüks yat” diye gösteriyor.",
+        "nazli_izi": "Boyanın altından teknenin eski adı seçiliyor: Nazlı.",
+        "kiralayan_serkan": "Tekneyi sete üç günlüğüne Serkan adında biri, sahibi gibi kiralamış.",
+        "serkan_anahtar": "Rıza Reis'in oğlu Serkan'da teknenin yedek anahtarı var; kaybettiğini söylüyor.",
+        "serkan_yaka_karti": "Serkan'ın boynunda bir dizi setinin yaka kartı var; saklamaya çalışıyor.",
+        "serkan_borc": "Serkan'ın cuma günü ödemesi gereken, yüz bin liraya yakın bir borcu var."
+      },
+
+      "knowledge": [
+        { "turetilen": "calinmadi",
+          "baslik": "Nazlı'yı zincir kıran bir hırsız almamış. Anahtarı olan biri çözüp Bebek'e götürmüş.",
+          "ifade": { "all": ["bebek_yonu", "kilit_saglam"] } },
+        { "turetilen": "tekne_sette",
+          "baslik": "Nazlı kayıp değil: Bebek'te bir dizi setinde, boyanmış, “lüks yat” rolünde.",
+          "ifade": { "all": ["set_teknesi", "nazli_izi"] } },
+        { "turetilen": "serkan_kiraladi",
+          "baslik": "Nazlı'yı sete Rıza Reis'in oğlu Serkan götürmüş.",
+          "ifade": { "all": ["tekne_sette", { "any": ["kiralayan_serkan", { "all": ["serkan_anahtar", "serkan_yaka_karti"] }] }] } },
+        { "turetilen": "serkan_neden",
+          "baslik": "Serkan tekneyi cuma günkü borcunu ödemek için kiralamış; babasından saklıyor.",
+          "ifade": { "all": ["serkan_kiraladi", "serkan_borc"] } }
+      ],
+
+      "giris": [
+        { "kosul": "varsayilan",
+          "metin": "Kapıda yetmişlerinde bir balıkçı: Rıza Reis. Kırk yıllık teknesi Nazlı dün gece iskeleden kaybolmuş; karakol tutanak tutmuş, “bakarız” demiş. Bir hafta denize çıkamazsa batacak. Ücreti yarın getirecek. Giderken bir şey rica ediyor: oğlu Serkan'a söylenmesin, üzülür.",
+          "acilan": [] }
+      ],
+
+      "sahneler": {
+        "giris": {
+          "arka": "A6", "figurler": ["peri", "cengo", "riza"],
+          "satirlar": [
+            { "k": "not", "m": "Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri. Bugün çarşamba." },
+            { "k": "peri", "i": "normal", "m": "Ev sahibi değilsiniz." },
+            { "k": "riza", "i": "normal", "m": "Değilim. Dedektif burası mı? Camda öyle yazıyor." },
+            { "k": "peri", "m": "Öyle yazıyor." },
+            { "k": "cengo", "i": "kas", "m": "Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım." },
+            { "k": "riza", "m": "Yedi yıldır iskeleden o cama bakarım. Işık ilk defa yandı. Ben de çıktım." },
+            { "k": "peri", "i": "kas", "m": "Ne oldu?" },
+            { "k": "riza", "i": "dertli", "m": "Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı." },
+            { "k": "cengo", "i": "kas", "m": "Nazlı kim?" },
+            { "k": "riza", "m": "Tekne. Rahmetli hanımın adı." },
+            { "k": "peri", "i": "normal", "m": "Ne zaman?" },
+            { "k": "riza", "m": "Dün gece. Sabah iskeleye indim, yok. Karakola gittim, tutanak tuttular, “bakarız” dediler. Haklılar, bakacaklar. Ama ben bir hafta denize çıkmazsam batarım." },
+            { "k": "peri", "m": "Ücretimiz otuz beş bin lira." },
+            { "k": "riza", "i": "normal", "m": "Otuz beş bin mi? O paraya bir ay mazot alırım." },
+            { "k": "cengo", "i": "gulen", "m": "Teknesiz mazotu ne yapacaksın Reis?" },
+            { "k": "riza", "i": "dertli", "m": "…Ödenir. Yarın getiririm. Bugün balık yok, tekne yok, para yok." },
+            { "k": "not", "m": "Kapıdan çıkarken duruyor." },
+            { "k": "riza", "m": "Bir de… oğlum Serkan'a söylemeyin. Üzülür.", "cik": true }
+          ]
+        },
+        "konusma": {
+          "arka": "A6", "figurler": ["peri", "cengo"],
+          "satirlar": [
+            { "k": "cengo", "i": "gulen", "m": "İlk müşteri. Peşin ödüyor." },
+            { "k": "peri", "i": "kas", "m": "Yarın getirecek dedi." },
+            { "k": "cengo", "m": "Niyeti peşin." },
+            { "k": "peri", "i": "sinirli", "m": "Niyetle kira ödenmez." },
+            { "k": "cengo", "i": "kas", "m": "Hiç denediniz mi?" },
+            { "k": "peri", "i": "normal", "m": "Kira, elektrik, su, telefon. Ay sonunda otuz beş bin lazım." },
+            { "k": "cengo", "i": "gulen", "m": "Reis de otuz beş bin verecek. Hesap tuttu." },
+            { "k": "peri", "i": "kas", "m": "Niyetle tuttu." },
+            { "k": "peri", "i": "normal", "m": "Plan şu. İskeleye gideriz, kayıt tutarız, liman başkanlığına yazılı başvuru yaparız.", "arka": "A7" },
+            { "k": "cengo", "i": "normal", "m": "Başvurunun cevabı gelene kadar Reis batar. İskeledeki çaycıya sorarız. Çaycı gece de oradadır." },
+            { "k": "peri", "i": "kas", "m": "Çaycıyı tanıyor musunuz?" },
+            { "k": "cengo", "m": "Bana üç bardak borcu var." },
+            { "k": "peri", "m": "Siz herkese mi borçlusunuz, herkes size mi?" },
+            { "k": "cengo", "i": "gulen", "m": "Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım. Çaycı konuşur." },
+            { "k": "peri", "i": "normal", "m": "İskele. Çaycınızla tanışalım." },
+            { "k": "cengo", "i": "kas", "m": "Benim değil. Bana borçlu, o kadar." }
+          ]
+        },
+        "donus": {
+          "_not": "Araştırma bitince her yoldan oynanır. Nurcan: hiçbir olguyu adıyla anmaz.",
+          "arka": "A7", "figurler": ["peri", "cengo"],
+          "satirlar": [
+            { "k": "not", "m": "Büro, akşamüstü. Pencereden iskele görünüyor; Nazlı'nın yeri boş." },
+            { "k": "peri", "i": "normal", "m": "Reis yarın parayla gelecek. Ona ne diyoruz?" },
+            { "k": "cengo", "i": "kas", "m": "Bildiğimizi." },
+            { "k": "peri", "i": "kas", "m": "Ne kadarını biliyoruz?" },
+            { "k": "cengo", "i": "normal", "m": "Siz patronsunuz. Siz sayın." }
+          ]
+        },
+        "kapanis": {
+          "_not": "Her karardan sonra aynı sahne; bağı değiştirmez, tohum yazmaz.",
+          "arka": "A8", "figurler": ["peri", "cengo"],
+          "satirlar": [
+            { "k": "not", "m": "Aynı akşam. Büro. İskelenin ışıkları yanmış. Cengo kapıya yürüyor." },
+            { "k": "not", "m": "Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.", "arka": "A5b" },
+            { "k": "peri", "i": "sinirli", "m": "Bu kapı beni hiç sevmedi." },
+            { "k": "cengo", "i": "gulen", "m": "Kapı kimseyi sevmez. Kilit sever." },
+            { "k": "not", "m": "Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor. Teli Peri'ye uzatıyor." },
+            { "k": "cengo", "i": "normal", "m": "Yarın sabah açarken lazım olur." },
+            { "k": "peri", "i": "kas", "m": "Ben kilit açmam." },
+            { "k": "cengo", "m": "Biliyorum. Cebinizde dursun." },
+            { "k": "not", "m": "Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor." },
+            { "k": "peri", "i": "normal", "m": "Yarın kaçta geliyorsunuz?" },
+            { "k": "cengo", "i": "kas", "m": "Ben pazartesileri geliyordum." },
+            { "k": "peri", "m": "Yarın gelin." },
+            { "k": "cengo", "m": "Maaş?" },
+            { "k": "peri", "i": "kas", "m": "Alacağınıza yazılır." },
+            { "k": "cengo", "i": "gulen", "m": "Yazılsın." },
+            { "k": "not", "m": "Cengo merdivenden iniyor. Peri bir an kapının önünde duruyor, elini cebine sokuyor; tel orada.", "kare": "K7" }
+          ]
+        }
+      },
+
+      "clues": [
+        {
+          "id": "riza_anlatti", "ad": "Rıza Reis'in anlattıkları", "tur": "İfade", "ico": "○",
+          "bedelsiz": true, "needs": [], "reveals": ["tekne_kayip", "zincir_kilitli"],
+          "text": "İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış. “Zinciri her akşam kendim kilitlerim. Anahtar bende, boynumda. Kimse çözemez onu.”",
+          "meta": "Zincir kilitliydi ve anahtar Rıza Reis'te. Ya biri zinciri kırdı, ya da…",
+          "sahne": {
+            "arka": "A9", "figurler": ["peri", "riza"],
+            "satirlar": [
+              { "k": "not", "m": "İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış." },
+              { "k": "riza", "i": "dertli", "m": "Zinciri her akşam kendim kilitlerim. Anahtar bende, boynumda. Kimse çözemez onu." }
+            ]
+          }
+        },
+        {
+          "id": "cayci", "ad": "Cengo'nun çaycısı", "tur": "İfade", "ico": "○",
+          "bedelsiz": true, "needs": [], "reveals": ["bebek_yonu"],
+          "text": "Çaycı, Cengo'ya üç bardak çayı sonunda ödüyor ve konuşuyor: “Salı gece yarısı Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki genç bana el salladı.” Cengo: “El sallayan hırsız görmedim ben.”",
+          "meta": "Tekne Bebek'e gitmiş. Kullanan kim olursa olsun, saklanmıyormuş.",
+          "sahne": {
+            "arka": "A10", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "not", "m": "İskelenin çay ocağı. Çaycı, Cengo'ya üç bardak çayı sonunda ödüyor ve konuşuyor." },
+              { "k": "cayci", "i": "normal", "m": "Salı gece yarısı Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki genç bana el salladı.", "gir": "cayci" },
+              { "k": "cengo", "i": "kas", "m": "El sallayan hırsız görmedim ben.", "cik": true }
+            ]
+          }
+        },
+        {
+          "id": "iskele", "ad": "İskeleye bak", "tur": "Gözlem", "ico": "◉",
+          "bedelsiz": true, "needs": [], "reveals": ["kilit_saglam"],
+          "text": "Zincir iskelede, yerinde. Kilidi kırılmamış, zorlanmamış; açılıp yeniden kilitlenmiş. Cengo kilide baktı: “Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam.”",
+          "meta": "Zinciri anahtarı olan biri açmış.",
+          "sahne": {
+            "arka": "A9", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "not", "m": "Zincir iskelede, yerinde." },
+              { "k": "not", "m": "Kilidi kırılmamış, zorlanmamış; açılıp yeniden kilitlenmiş. Cengo kilide bakıyor.", "kare": "D2" },
+              { "k": "cengo", "i": "kas", "m": "Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam." }
+            ]
+          }
+        },
+        {
+          "id": "bebek", "ad": "Bebek sahili", "tur": "Gözlem", "ico": "◉",
+          "cekirdek": true, "needs": ["bebek_yonu"], "reveals": ["set_teknesi", "nazli_izi", "yat_tanitimi"],
+          "text": "Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi. Peri “Beni tanırlar” diyerek içeri girmeye çalışıyor; set asistanı onu süzüp “Figüranlar arkadan” diyor. Peri arkadan giriyor. Asistan, figüranlara telefonunda dizinin tanıtımını gösteriyor: “Bu sezonun yıldızı, gerçek bir lüks yat.” Setin ortasında “lüks yat”: beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.",
+          "meta": "Nazlı batmamış. Bebek'te, bir dizide oynuyor.",
+          "sahne": {
+            "arka": "A11", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "not", "m": "Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi." },
+              { "k": "peri", "i": "normal", "m": "Beni tanırlar." },
+              { "k": "asistan", "m": "Figüranlar arkadan." },
+              { "k": "not", "m": "Peri arkadan giriyor." },
+              { "k": "asistan", "m": "Bu sezonun yıldızı, gerçek bir lüks yat." },
+              { "k": "not", "m": "Setin ortasında “lüks yat”: beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.", "kare": "D3" }
+            ]
+          }
+        },
+        {
+          "id": "set_sorumlusu", "ad": "Set sorumlusuyla konuşmak", "tur": "İfade", "ico": "◈",
+          "needs": ["set_teknesi"], "reveals": ["kiralayan_serkan"],
+          "text": "Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona “Tuba Hanım” diye sesleniyor. Mekân sorumlusu Tuba: “Tekneyi sahibinden kiraladık, üç günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım. Çekim cumaya yetişmezse ben yetişemem.”",
+          "meta": "Tekneyi kiralayan adamın adı Serkan. “Sahibi” olduğunu söylemiş.",
+          "sahne": {
+            "arka": "A12", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "not", "m": "Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona “Tuba Hanım” diye sesleniyor." },
+              { "k": "tuba", "i": "normal", "m": "Tekneyi sahibinden kiraladık, üç günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı.", "gir": "tuba" },
+              { "k": "tuba", "m": "Otuzlarında bir adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım." },
+              { "k": "tuba", "m": "Çekim cumaya yetişmezse ben yetişemem.", "cik": true }
+            ]
+          }
+        },
+        {
+          "id": "serkan", "ad": "Rıza Reis'in oğlu", "tur": "İfade", "ico": "◈",
+          "needs": [], "reveals": ["serkan_anahtar", "serkan_yaka_karti"],
+          "text": "Peri duraksıyor: “Rıza Reis ‘oğluma söylemeyin’ dedi.” Cengo: “Söylemiyoruz. Soruyoruz.” Çaycı yolu tarif ediyor: “Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur.” Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor. “O kart ne?” Serkan cevap vermiyor. Koşuyor. Peri ıslak rıhtımda kayıp balık kasalarının içine oturuyor; kaçan Serkan levreklere basıp sırt üstü düşüyor. Yerde, nefes nefese itiraf ediyor: teknenin yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. “Ama kaybettim,” diyor. Cebi şıngırdıyor.",
+          "meta": "Serkan'da yedek anahtar var, kaybettiğini söylüyor. Boynunda da bir dizi setinin yaka kartı var.",
+          "sahne": {
+            "_not": "Kovalamaca: doruk komedi anı; seçim yok, sonuç değişmez. Peri'nin felaketi (sezon kuralı). Hortumdan sonra Peri temel sete döner.",
+            "arka": "A13", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "peri", "i": "utanmis", "m": "Rıza Reis “oğluma söylemeyin” dedi." },
+              { "k": "cengo", "i": "gulen", "m": "Söylemiyoruz. Soruyoruz." },
+              { "k": "cayci", "i": "normal", "m": "Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur.", "gir": "cayci" },
+              { "k": "not", "m": "Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu değiştiriyor, sonra yine değiştiriyor.", "gir": "serkan" },
+              { "k": "not", "m": "Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor." },
+              { "k": "peri", "i": "kas", "m": "O kart ne?" },
+              { "k": "not", "m": "Serkan cevap vermiyor. Koşuyor. Cebi şıngırdıyor.", "cik": true },
+              { "k": "not", "m": "Serkan iskeleye doğru kaçıyor. Cengo ara sokaktan kestirmeye sapıyor. Peri topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah avıyla dolu kasaların içine oturuyor. Kasa devriliyor, levrekler rıhtıma saçılıyor. Önde koşan Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor. Cengo kestirmeden çıkıp başına dikiliyor.", "kare": "K8" },
+              { "k": "cengo", "i": "gulen", "m": "Siz düştünüz, o kaydı. Ekip işi.", "arka": "A9", "set": "balikli" },
+              { "k": "peri", "i": "sinirli", "m": "(saçından pul ayıklayarak) Planlamıştım." },
+              { "k": "serkan", "i": "normal", "m": "Yedek anahtar bende. Yıllar önce babam verdi, unuttu. Ama kaybettim.", "gir": "serkan" },
+              { "k": "not", "m": "Cebi şıngırdıyor." },
+              { "k": "cengo", "i": "kas", "m": "Kaybettiğin anahtar cebinde şarkı söylüyor.", "cik": true },
+              { "k": "peri", "i": "utanmis", "m": "(elindeki levreği nereye koyacağını bilmeden) Bunu kime veriyorum?" },
+              { "k": "not", "m": "Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor ve tek kelime etmeden Cengo'ya uzatıyor." },
+              { "k": "cengo", "i": "gulen", "m": "Akşam yemeği çıktı." },
+              { "k": "not", "m": "Çaycı hortumu uzatıyor. Peri gözlerini kapatıp bekliyor; su saçındaki son pulları da götürüyor.", "kare": "K9" },
+              { "k": "not", "m": "Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.", "set": "manto" }
+            ]
+          }
+        },
+        {
+          "id": "dukkan", "ad": "Serkan'ın dükkânı", "tur": "Belge", "ico": "▤",
+          "needs": ["serkan_anahtar"], "reveals": ["serkan_borc"],
+          "text": "Kovalamaca dükkânın önünde başlamıştı; şimdi dönüp bakıyorlar. Serkan'ın kapalı balık-ekmek dükkânının kapısına bantlanmış, el yazısı bir not: “Cuma günü ya para ya anahtar. — Ev sahibi.” Yan dükkândaki simitçi gerisini anlatıyor: dükkân batmış; birikmiş kira, balıkçıya veresiye, toplam yüz bin liraya yakın. Peri nota uzun uzun bakıyor ve bir şey demiyor.",
+          "meta": "Serkan'ın cumaya kadar ödemesi gereken bir borcu var.",
+          "sahne": {
+            "arka": "A14", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "not", "m": "Kovalamaca dükkânın önünde başlamıştı; şimdi dönüp bakıyorlar." },
+              { "k": "not", "m": "Serkan'ın kapalı balık-ekmek dükkânının kapısına bantlanmış, el yazısı bir not: “Cuma günü ya para ya anahtar. — Ev sahibi.”" },
+              { "k": "not", "m": "Yan dükkândaki simitçi gerisini anlatıyor: dükkân batmış; birikmiş kira, balıkçıya veresiye, toplam yüz bin liraya yakın." },
+              { "k": "not", "m": "Peri nota uzun uzun bakıyor ve bir şey demiyor." }
+            ]
+          }
+        }
+      ],
+
+      "decisions": [
+        {
+          "id": "sete_gotur", "gate": "tekne_sette",
+          "etiket": "Rıza Reis'i sete götür",
+          "sonuc": [
+            { "kosul": "serkan_kiraladi",
+              "metin": "Rıza Reis'e oğlunu söylemedin; teknesini gösterdin. Çekimin ortasında sete daldı, tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın adını herkesin önünde söyledi. Sen bildiğin hâlde susmuştun; Rıza Reis oğlunun adını kırk kişinin içinde duydu. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz. Ücretin tamamı geldi." },
+            { "kosul": "varsayilan",
+              "metin": "Rıza Reis'i Bebek'e götürdün. Çekimin ortasında sete daldı, tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın adını kulağına söyledi. Rıza Reis'in yüzü değişti; adı sana söylemedi. Yapım, kiralayandan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz. Ücretin tamamı geldi." }
+          ],
+          "cengo_sonuc": [
+            { "kosul": "varsayilan", "metin": "Cengo bütün çekimi bir figüranın yanında ayakta izledi. Dönüşte “Bu dizinin en iyi bölümüydü” dedi." }
+          ],
+          "kare": "K3",
+          "cengoBag": 1, "para": 35000,
+          "seed_yaz": { "v1_karar": "set", "iskele_dostu": true }
+        },
+        {
+          "id": "her_seyi_anlat", "gate": "serkan_kiraladi",
+          "etiket": "Rıza Reis'e her şeyi anlat",
+          "sonuc": [
+            { "kosul": "serkan_neden",
+              "metin": "Rıza Reis'e her şeyi anlattın: tekneyi, seti, oğlunu, cuma günkü borcu. Rıza Reis kasketini çıkardı, taktı, yine çıkardı. Ertesi sabah Nazlı iskeledeydi. Serkan dizinin parasını geri ödemek zorunda kaldı; borcu yerinde duruyor. Baba oğul bir hafta konuşmadı, sonra Rıza Reis borcun yarısını ödedi. Ücretin tamamı geldi; yanında bir kasa levrek." },
+            { "kosul": "varsayilan",
+              "metin": "Rıza Reis'e tekneyi, seti, oğlunu anlattın. Rıza Reis kasketini çıkardı, taktı, yine çıkardı. Ertesi sabah Nazlı iskeledeydi. Serkan dizinin parasını geri ödemek zorunda kaldı. Baba oğul bir hafta konuşmadı. Ücretin tamamı geldi; yanında bir kasa levrek." }
+          ],
+          "cengo_sonuc": [
+            { "kosul": "varsayilan", "metin": "Cengo levrek kasasını büronun tek buzdolabına sığdırmaya çalıştı. Sığmadı. “Bir hafta balık yiyoruz” dedi. “Maaşımdan düşmeyin.”" }
+          ],
+          "kare": "K4",
+          "cengoBag": 0, "para": 35000,
+          "seed_yaz": { "v1_karar": "anlatti", "riza_levrek": true, "iskele_dostu": true }
+        },
+        {
+          "id": "serkanla_anlas", "gate": "serkan_kiraladi",
+          "etiket": "Serkan'la anlaş, tekneyi sessizce geri getir",
+          "sonuc": [
+            { "kosul": "serkan_neden",
+              "metin": "Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak, boyasını yapım sökecek. Dizinin parası Serkan'ın borcuna gidecek. Rıza Reis'e “gençler almış, Bebek'te bırakmışlar, cumartesi getiriyorlar” dedin. İnanmadı, sormadı. Üç gün daha denize çıkamadı. Teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı. Serkan sana bir iyilik borçlu." },
+            { "kosul": "varsayilan",
+              "metin": "Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak, boyasını yapım sökecek. Rıza Reis'e “gençler almış, Bebek'te bırakmışlar, cumartesi getiriyorlar” dedin. İnanmadı, sormadı. Üç gün daha denize çıkamadı. Teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı. Serkan sana bir iyilik borçlu; neden bu kadar rahatladığını söylemedi." }
+          ],
+          "cengo_sonuc": [
+            { "kosul": "varsayilan", "metin": "Cengo, Serkan'ın omzuna vurdu. “Baban sorarsa ben bilmem” dedi. Sonra Peri'ye döndü: “Ben gerçekten bilmem. Siz anlaştınız.”" }
+          ],
+          "kare": "K5",
+          "cengoBag": 1, "para": 32000,
+          "seed_yaz": { "v1_karar": "anlasti", "serkan_iyilik": true }
+        },
+        {
+          "id": "susmayi_sat", "gate": { "all": ["tekne_sette", "yat_tanitimi"] },
+          "etiket": "Yapımcıya susmayı sat",
+          "sonuc": "Yapımcıyla bir “danışmanlık sözleşmesi” imzaladın. Konusu: dizinin “lüks yatının” boyanmış bir balıkçı teknesi olduğunu kimseye söylememek. Yapımcı yirmi bin ödedi, hem de hızlı; bir çekim gününün yemek masrafından azdı. Nazlı çekim bitene kadar sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Cumartesi teknesini iskelede, beyaz buldu ve ücretini ödedi. Yapım şirketinin defterine bir not düşüldü: “Paravan — sorun çıkarırsa ödenir.”",
+          "cengo_sonuc": [
+            { "kosul": "varsayilan", "metin": "Cengo yapımcının yüzünü taklit ederek on dakika güldü. Sonra pencereden boş iskeleye baktı ve gülmeyi bıraktı." }
+          ],
+          "kare": "K6",
+          "cengoBag": -1, "para": 55000,
+          "seed_yaz": { "v1_karar": "sus_payi", "yapimci_defter": true }
+        }
+      ],
+
+      "seeds": {}
+    }
+  ]
+}
