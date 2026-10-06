@@ -2319,3 +2319,48 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** dosyada/yakada yazı, kart ya da rozet var mı, yaş otuz
 civarı mı (yaşlı memur çizilirse "ilkokuldaydınız" esprisi ölür), bakış kadrajın soluna
 mı, ölçek Cengo ile aynı mı, arka plan düz bej mi.
+
+
+## Sonuç — H1 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_hilmi_ciddi.webp`. Otuz civarı, gözlük, ince
+bıyık, gri takım, örgü yelek, lacivert kravat; kapalı yeşil dosya göğsünde, kalem elde;
+bakış kadrajın soluna. **Yazı/kart/rozet yok.** Stil öteki setten biraz daha yumuşak ve
+mat, ama sahnede uyuyor.
+
+Kesim: kaynak 1086×1448 (Peri/Cengo 1122×1402). İlk kesimde delik doldurma **beyaz
+gömleği sildi** (Cengo'daki aynı ders) → `arac_kes.js`'e `hilmi` profili eklendi: tam
+genişlik, delik doldurma kapalı.
+
+Taslakta: sahne kaydına `konuk: "hilmi"` — Cengo'nun olmadığı sahnede yan karakter
+sağdaki yerde durur, konuşunca öne gelir, konuşmayınca kararır. Hilmi Peri'den yarım baş
+uzun; erkek figür için doğal.
+
+## H2 — Hilmi Bey, hafif gülümseyen (H1 referanslı)
+
+Replikler: "Annem size oy vermişti." / "Söylerim. Tacı verir misiniz?" / "Üstünüzde."
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz, aynı yaş, aynı gözlük ve bıyık, aynı saç,
+aynı gri takım, yelek, gömlek ve kravat, aynı kapalı yeşil dosya, aynı çizim tarzı,
+aynı düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, aynı kesim,
+başın tepesi aynı yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor. Kameraya
+bakmıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: dosyayı tek koluyla göğsüne bastırıyor; öteki eli kalemi tutarken hafifçe göğsüne
+değmiş, "içtenlikle" der gibi. Başı çok hafif yana eğik.
+
+İfade: utangaç, sıcak, hafif bir gülümseme; dudakları kapalı, bir köşesi yukarı
+kalkmış; kaşları ortada hafif yukarıda; yanaklarında belli belirsiz bir kızarıklık;
+gözleri yumuşamış. Resmî memur bir an çocukluğunu hatırlamış gibi.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** aynı adam mı (gözlük, bıyık, yaş), ölçek H1 ile aynı mı,
+dosyada yazı var mı, bakış kadrajın soluna mı.

@@ -12,6 +12,7 @@
 //   saten  x 120–1034 · kenar tol 14 (parlak saten kol kenara değiyor, 28 onu yer),
 //                       delik tohumu tol 6, sonra tol 22 ile yeniden taşkın; mantosuz set
 //   cengo  x 10–1111  · delik doldurma kapalı (beyaz gömlek)
+//   hilmi  x 0–1085   · delik doldurma kapalı (beyaz gömlek); kaynak 1086×1448
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
 //           standart kutuya hizalanıp taşar. Araç gereken CSS'i basar.
@@ -25,6 +26,8 @@ const PROFILLER = {
   peri:  { x0: 120, x1: 1034, kenarTol: 28, delik: true,  delikTol: 14, yenidenTol: 0,  aynali: true },
   saten: { x0: 120, x1: 1034, kenarTol: KENAR_SATEN, delik: true,  delikTol: 6,  yenidenTol: 22, aynali: true },
   cengo: { x0: 10,  x1: 1111, kenarTol: 28, delik: false, delikTol: 14, yenidenTol: 0,  aynali: false },
+  // Yan karakterler: kaynak 1086×1448, tam genişlik; beyaz gömlek → delik doldurma kapalı.
+  hilmi: { x0: 0,   x1: 1085, kenarTol: 28, delik: false, delikTol: 14, yenidenTol: 0,  aynali: false },
 };
 
 const arg = process.argv.slice(2);
