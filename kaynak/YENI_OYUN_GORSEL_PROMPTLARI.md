@@ -2471,3 +2471,41 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** aynı adam mı, kasketin içinde/üstünde yazı ya da etiket var
 mı (kasketin içi görünürse en büyük risk), ölçek R1 ile aynı mı, bakış kadrajın soluna mı.
+
+
+## Sonuç — R2 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_riza_dertli.webp`. Kasket elinde, buruşturulmuş,
+**içi görünmüyor** (etiket riski yok); saçları dağınık, kaşlar kalkık, gözler nemli. Ölçek
+R1 ile aynı. Taslakta "Teknemi aldılar" ve "…Ödenir" dertli, "Otuz beş bin mi?" ciddi.
+
+## R3 — Rıza Reis, öfkeli (R1 referanslı)
+
+K1 sonucu ("tekneye çıktı, boyaya tırnağını geçirdi") ve ara kare K3 için de yüz kaynağı.
+Kanondaki öfke: bağırmayan, kızgınlığını tutan yaşlı adam — patlama değil, kararlılık.
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz, aynı yaş, aynı kasket, bıyık ve sakal,
+aynı açık mavi gömlek, lacivert örgü yelek ve pantolon, aynı çizim tarzı, aynı düz açık
+bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, aynı kesim, başın tepesi aynı
+yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor. Kameraya
+bakmıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: gövdesi hafifçe öne, kadrajın soluna eğilmiş; bir eli yumruk hâlinde yanında,
+öteki elinin işaret parmağı ileri, kadrajın soluna doğru uzatılmış, uyarır gibi.
+Omuzları kalkık, geniş göğsü şişmiş.
+
+İfade: tutulmuş, sessiz bir öfke: kaşları sertçe aşağı ve içe çatılmış, alnında derin
+bir kırışık; gözleri kısılmış, keskin; bıyığının altında dişleri sıkılı, ağzı hafif
+aralık, tek bir sert söz söylemek üzere; burun kanatları açılmış; yüzü kızarmış.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** aynı adam mı, ölçek R1 ile aynı mı, parmak çerçeveden taşıyor
+mu (taşıyorsa geniş kesim), öfke komedi tonunu aşıp korkutucu olmuş mu.
