@@ -2143,3 +2143,51 @@ okunabilir bir kelime oluşturmasın.
 **Geldiğinde bakılacaklar:** lekelerde harf ya da harfe benzer biçim var mı — en büyük
 risk; tek bir okunur harf varsa rötuşla dağıtılır ya da yeniden üretilir. A11'deki
 tekneyle aynı mı (beyaz, ahşap), alt kısımda gerçekten "altında bir şey var" okunuyor mu.
+
+
+## Sonuç — D3 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/detay_d3_pruva.webp`. Kalın, fırça izli beyaz boya;
+altından yatay bir şerit hâlinde sızan dağınık lacivert lekeler; köşede kabarmış boyanın
+altından eski mavi; paslı halat halkası; arkada bulanık Boğaz ve gün batımı. **Lekelerde
+harf ya da harfe benzer biçim yok** (büyütülerek tarandı) — "Nazlı" yalnız metinde.
+Taslakta İ4'ün son satırında karakterler çekilir, D3 gelir.
+
+## D1 — Kilitte Cengo'nun teli, kapı aralanıyor (A5 + Cengo referanslı)
+
+Açılış S3, "İki saniye." Cengo'nun ilk marifeti; yıldızsız ama karakteri tanıtıyor.
+**İki referans:** A5 (koridor, büro kapısı — kapı ve pirinç kilit aynı olsun) ve
+Cengo'nun CA2'si (el, gömlek kolu ve **boncuklu bileklik** — kızından; elin kime ait
+olduğunu bileklik söyler, yüz gerekmez). Bileklik harfsiz (kanon).
+
+```
+Birinci referans görseldeki koridorun ve büro kapısının AYNISI: aynı koyu ahşap kapı,
+aynı pirinç kilit ve tokmak, aynı öğleden sonra ışığı, aynı çizim tarzı. İkinci referans
+görseldeki adamın YALNIZ ELİ ve bileği: aynı ten, aynı kıvrılmış beyaz gömlek kolu, aynı
+renkli boncuklu bileklik. Yüzü ve gövdesi görünmüyor.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kamera kapının kilidine çok yakın, kilit kadrajın
+ortasında.
+
+Kadrajda YALNIZ şunlar var:
+1. Koyu ahşap kapının kenarı ve pirinç kilit; kapı ARALANMIŞ: kanadı içeri doğru bir
+   parmak kadar açılmış, aradaki dar boşluktan içerideki odanın tozlu, sıcak ışığı
+   ince bir çizgi hâlinde koridora sızıyor.
+2. Kilidin anahtar deliğinde ince, eğilmiş, gümüş renkli tek bir tel.
+3. Kadrajın sağından giren bir erkek eli: başparmak ve işaret parmağıyla telin ucunu
+   gevşekçe tutuyor, kendinden emin, zahmetsiz. Bileğinde renkli boncuklardan, harfsiz
+   bir bileklik; kolunda kıvrılmış beyaz gömlek kolu ve açık kahverengi ceketin kenarı.
+4. Kapının üstünde, kadrajın tepesinde, pirinç tabelanın yalnız ince alt kenarı;
+   yüzü görünmüyor.
+
+Başka hiçbir nesne yok: anahtar, alet çantası, kâğıt, etiket yok.
+
+Işık: koridorun loş, sıcak öğleden sonra ışığı; kapı aralığından sızan daha parlak bir
+çizgi; telin ucunda küçük bir parıltı. Hava: hafif, oyunbaz; "iki saniye" anı.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** bileklikte harf var mı (kanon: harfsiz), el Cengo'nun eli
+gibi mi (ten, kol, ceket), kapı A5'tekiyle aynı mı, tabelanın yüzü görünüyor mu, kapı
+gerçekten aralık mı.
