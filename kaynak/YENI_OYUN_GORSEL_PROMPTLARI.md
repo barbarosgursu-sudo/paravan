@@ -2036,3 +2036,58 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kâğıdın arkasında harf ya da ters yazı seçiliyor mu (en
 büyük risk — ters harf de harftir; varsa rötuşla düz beyaza), A13 ile aynı kapı mı,
 duvarda takvim/menü çizilmiş mi, alt üçte bir boş mu.
+
+
+## Sonuç — A14 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a14_dukkan_ici.webp`. İçeriden kapı, camda
+dört köşesi bantlı kâğıdın **arkası — bomboş**, ters harf yok (büyütülerek tarandı).
+Işık sızan kepenk, çelik tezgâh, ters bardak, bez, ters sandalyeler, boş raf, sönük
+ampul, mavi kasa. Taslakta İ7: not kâğıdı Peri ile Cengo'nun tam arasında görünüyor;
+notun metni yalnız kutuda.
+
+**VAKA 1 ARKA PLANLARI TAMAM:** A1, A2, A3, A3b, A5, A5b, A6L, A7L, A8, A9, A10, A11,
+A12, A13, A14. (A4 — hanın sokaktan girişi — yıldızsız geçiş karesi; şimdilik açılış
+S2 → S3 kararmayla geçiyor, gerekirse sonra.)
+
+---
+
+# DETAYLAR — VAKA 1
+
+Detay = tam ekran yakın çekim, karaktersiz; ipucunun kendisi. Konuşma ekranında arka
+planın yerine geçer (karakterler çekilir, `mekan: true` gibi), sonraki satırda mekâna
+dönülür.
+
+## D2 — İskelede zincir ve sağlam asma kilit (★, A9 referanslı)
+
+İ3. Gösterir: `kilit_saglam` — kilit kırılmamış, zorlanmamış. **Yalnız İ3 açılınca.**
+Asma kilidin gövdesi yazı riski (marka damgası): düz, damgasız istenir.
+
+```
+Referans görseldeki iskelenin AYNISI: aynı taş rıhtım, aynı paslı demir bağlama babası,
+aynı zincir, aynı gün batımı ışığı, aynı çizim tarzı. Bu görselde hiç insan ve hiç el yok.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kamera rıhtım taşına çok yakın, bağlama babasının
+dibine bakıyor; arka planda su ve tekneler bulanık.
+
+Kadrajda YALNIZ şunlar var:
+1. Babaya dolanmış kalın, paslı zincir; iki ucu, kadrajın ortasında, eski, pirinç bir
+   asma kilitle birbirine kilitli.
+2. Asma kilit SAĞLAM ve KAPALI: halkası kilidin gövdesine oturmuş, hiçbir çizik, ezik,
+   kırık, zorlama izi yok; gövdesi düz, hiçbir yazı, marka, damga, rakam yok. Kilidin
+   anahtar deliği net görünüyor.
+3. Zincirin halkaları paslı, ama kilidin değdiği halkalar biraz daha parlak (yakın
+   zamanda elle tutulmuş gibi).
+4. Rıhtım taşının üstünde, kilidin yanında, ıslak bir iz.
+
+Başka hiçbir nesne yok: kesici, alet, anahtar, kâğıt, etiket yok.
+
+Işık: gün batımının alçak, sıcak ışığı kilidin pirincinde parlıyor. Hava: sakin, net;
+"bu kilit açılmış ama kırılmamış" duygusu.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kilitte marka/damga/rakam (en büyük risk), kilit gerçekten
+sağlam görünüyor mu (kırık ya da açık çizilirse ipucu tersine döner), A9 ile aynı zincir
+ve baba mı, el ya da insan var mı.
