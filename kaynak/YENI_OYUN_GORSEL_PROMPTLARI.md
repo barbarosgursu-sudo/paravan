@@ -2841,3 +2841,13 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** manto Peri'ninkiyle aynı mı (renk, kuşak, yaka), elde takı
 var mı, askı boş mu, yüz kadraja girmiş mi.
+
+
+## Sonuç — K2 (6 Ekim 2026)
+
+**Tuttu, bir soruyla.** Kopya `kaynak/yeni_gorsel/ara_k2_manto.webp`. Kırmızı manto,
+kuşak iki elle düğümleniyor, takı yok, krem saten bluz ve dekolte sprite ayarında,
+arkada boş askı ve öğle salonu. Yazı yok.
+**Süreklilik sorusu:** mantonun içinde görünen etek kırmızı — mantosuz sette Peri **siyah
+kalem etek** giyiyor. Kruvaze mantonun iç kanadı olarak da okunabilir. Sahibine soruldu.
+Taslakta "Peri mantoyu giyiyor" satırında K2, "Üstümde."de boş askılı salon.
