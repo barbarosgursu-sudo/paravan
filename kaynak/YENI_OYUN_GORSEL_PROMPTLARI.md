@@ -3336,3 +3336,56 @@ kalır (`brightness(.62)`; akşamda `.48` + sepya). Zıplama kaldırıldı. Ayr�
 kutusuna yeterli `min-height` verildi: uzun replik ya da seçim ekranında kutu uzayınca
 sahne kısalıyor ve figürler 7–11 px küçülüyordu; artık bütün akışta Peri'nin boyu tek
 değer (tur testiyle doğrulandı). Gerçek oyunda aynı kural.
+
+
+## K9 — Hortum: çaycı Peri'yi iskelede yıkıyor (K8 + PB1b + çaycı referanslı)
+
+İ6 sonu, sahibinin onayıyla (46. görsel). Felaketin temizlenme anı (sezon kuralı
+"Peri'nin felaketi"). Üç referans: **K8** (iskele, gün batımı, Peri'nin ıslak hâli),
+**PB1b** (yüz, ıslak saç, siyah kalem etek ve kemer), **çaycı C1** (yüz, kıyafet).
+Cengo kadraja girmiyor. Dekolte temel setteki ayarda; bluz ıslak ama **opak** (ıslak
+tişört görüntüsü istenmez — hem ret sebebi hem ton dışı). **ChatGPT reddederse Grok.**
+
+```
+Birinci referans görseldeki iskelenin AYNISI: aynı taş rıhtım, aynı renkli balıkçı
+tekneleri, aynı Haliç ve gün batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki
+kadının AYNISI: aynı yüz, aynı ıslak kumral-kızıl saç, aynı kırmızı kuşaklı manto, aynı
+krem saten bluz ve aynı dekolte, aynı altın küpeler; mantonun önü kuşağın altında açık
+ve aradan SİYAH, dar, diz boyu kalem etek ile ince siyah kemer görünüyor. Kırmızı etek
+YOK. Üçüncü referans görseldeki adamın AYNISI: aynı kel kafa, aynı kıvrık beyaz bıyık,
+aynı tombul yüz, aynı beyaz kolları sıvalı gömlek ve açık kahve önlük.
+
+Kadraj: DİKEY (3:4). Kamera rıhtımda, göz hizasında. İki kişi de dizlerinden yukarı
+görünüyor.
+
+Kadrajda YALNIZ şunlar var:
+1. Kadrajın sağında kadın, ayakta, gövdesi kameraya dönük. Çenesi havada, gözleri sıkıca
+   kapalı, dudakları büzülmüş; iki kolu yanlara hafifçe açık, avuçları yukarı, parmakları
+   gergin: "bitsin artık" diye bekleyen, gururunu kurtarmaya çalışan biri. Yüzü üç çeyrek
+   profilden, kadrajın soluna, hortuma dönük; burnu kadrajın soluna bakıyor, kulağı
+   sağında.
+2. Kadrajın solunda adam, kadından bir adım ötede. İki eliyle yeşil, lastik bir bahçe
+   hortumu tutuyor; başparmağıyla hortumun ağzını sıkıştırmış, su yelpaze gibi kadının
+   başına ve saçına yağıyor. Adam kocaman, keyifli bir gülümsemeyle, dili dişlerinin
+   arasında, işine dikkat ediyor. Hortum yerde kıvrılarak kadrajın sol kenarından çıkıyor.
+3. Su: kadının saçından, yüzünden ve mantosunun omuzlarından akıyor; havada parlak
+   damlalar; ayaklarının dibinde rıhtım taşında bir su birikintisi ve birkaç gümüş
+   balık pulu. Saçındaki son pullar suyla akıp gidiyor.
+4. Kadının hâli: saçı sırılsıklam, ıslak tutamlar alnına yapışmış; manto ıslak ve
+   koyulaşmış. Krem saten bluz ıslak ama OPAK, içi görünmüyor; dekolte ikinci
+   referanstaki gibi, ne az ne fazla.
+5. Arka planda, bulanık: rıhtım, tekneler, Haliç, gün batımı.
+
+Başka hiçbir insan yok. Başka hiçbir nesne yok: kasa, balık yığını, tabela, kâğıt,
+telefon, çay tepsisi yok. Teknelerde hiçbir yazı, ad, numara yok.
+
+Işık: gün batımının sıcak turuncu ışığı; suda ve damlalarda parıltılar.
+Hava: komedi; zarif bir kadının onurunu toplamaya çalıştığı gülünç bir an. Acı,
+aşağılanma, korku yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** Peri'nin yüzü ve siyah etek tutuyor mu; dekolte setteki
+ayarda mı, bluz opak mı; çaycı tanınıyor mu, Rıza Reis'e kaymış mı; hortumda, teknede
+yazı; el ve parmak sayıları (iki kişi, hortum tutan eller); ton komik mi.

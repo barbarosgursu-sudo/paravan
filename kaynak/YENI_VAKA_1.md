@@ -344,6 +344,8 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 >
 > **CENGO [gulen]:** Akşam yemeği çıktı.
 >
+> ⚙ ara kare: **K9** (çaycı Peri'yi hortumla yıkıyor)
+>
 > Çaycı hortumu uzatıyor. Peri hortumla yıkanıyor, mantosunu sıkıyor. Akşama kadar
 > üstünden hafif bir balık kokusu çıkmıyor değil.
 >
@@ -668,6 +670,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K6 | Peri bir masada imza atıyor, karşısında yapımcı; arkada beyaz tekne | Karar K4 sonucu | ★ |
 | K7 | Peri'nin eli mantonun cebinde, telin ucu görünüyor | Kapanış | ★ |
 | K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
+| K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
@@ -696,12 +699,12 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 |---|---|---|
 | Arka plan | 16 | 11 |
 | Detay | 3 | 2 |
-| Ara kare | 8 | 7 |
+| Ara kare | 9 | 8 |
 | Figür | 8 | 6 |
 | Cengo | 4 | 4 |
 | Peri mantosuz | 4 | 4 |
 | Peri balıklı (sinirli, utanmış) | 2 | 2 |
-| **Yeni görsel** | **45** | **36** |
+| **Yeni görsel** | **46** | **37** |
 | Hazır (Peri) | 4 | 4 |
 
 **Süreklilik denetimi (6 Ekim 2026, sahibinin uyarısıyla):** sahne içinde durumu
