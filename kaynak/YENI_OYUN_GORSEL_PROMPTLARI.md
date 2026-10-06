@@ -1920,3 +1920,64 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** masada etiketli şişe/ambalaj var mı (en büyük risk), kutularda
 yazı/numara, evlerde tabela, A11 ile aynı ışık mı, alt üçte bir boş mu.
+
+
+## Sonuç — A12 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a12_set_arkasi.webp`. Ters yön: Bebek'in eski
+evleri, çınar, beyaz örtülü katering masası (termos semaver, karton bardaklar, simit,
+mandalina), üç siyah ekipman kutusu, kablo makarası, sönük film ışığı, ağaca yaslı
+yönetmen sandalyesi. **Yazı yok** (masa, kutular tarandı). Taslakta İ5 (Tuba) A11'in
+devamı; aynı grup, geçiş çapraz.
+
+## A13 — Karaköy ara sokağı, Serkan'ın kapalı dükkânı (★)
+
+İ6 (Serkan dükkânın önünde) burada geçer. Akşamüstü, gün batımı ailesi. **Stil
+referansı olarak A9 eklenebilir.**
+
+**Nurcan:** kapıya bantlı not İ7'nin olgusudur (`serkan_borc`); A13 İ6'da görünür,
+o yüzden kapıda **not yok**. Dükkân tabelası en büyük yazı riski: tabela yerinde
+yalnız sökülmüş tabelanın izi ve boş vida delikleri istenir. Kepenk düz, yazısız.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman arka planı. Belirgin, temiz
+kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi
+afişi ile modern çizgi roman arası bir tarz. Anime değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı ve renk içindir; bu başka bir mekân ve görselde
+hiç insan yok.)
+
+Mekân: İstanbul Karaköy'de, iskeleye yakın, dar, eski, Arnavut kaldırımlı bir ara
+sokak. Ekim, gün batımı; sokağın ucundan alçak, turuncu bir ışık giriyor.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, sokağın ortasında durup sokak boyunca
+ileri bakıyor. Görselin alt üçte biri boş, sakin Arnavut kaldırımı: orada hiçbir
+nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Sağda, yakında, küçük, eski bir dükkân; kepengi sonuna kadar inik, kilitli. Kepenk
+   düz, solmuş yeşil, paslı; üzerinde hiçbir yazı, numara, çıkartma, afiş yok.
+2. Kepengin yanında dar, camlı, eski bir ahşap kapı; kapalı; camı tozlu, içerisi
+   karanlık; camda ve kapıda hiçbir şey asılı değil, bantlı değil.
+3. Dükkânın üstünde, tabelanın söküldüğü yerde duvarda kalmış açık renkli, uzun,
+   dikdörtgen bir iz ve boş vida delikleri (tabelanın kendisi yok).
+4. Dükkânın önünde, kaldırımda, ters çevrilmiş, boş, düz renkli iki plastik balık
+   kasası.
+5. Sol tarafta, sokak boyunca, eski, iki üç katlı taş binaların cepheleri; kapıları ve
+   pencereleri kapalı, tabelasız.
+6. Sokağın ucunda, uzakta, Haliç'in suyundan bir parça ve bir vapurun silueti, gün
+   batımına karşı.
+7. Binaların arasında gerilmiş bir çamaşır ipi, üstünde iki beyaz çarşaf.
+
+Başka hiçbir nesne yok: tabela, levha, afiş, ilan, kâğıt, not, grafiti, plaka,
+araba, motosiklet, çöp kutusu, insan yok. Hiçbir yerde yazı, harf, rakam yok.
+
+Işık: gün batımının alçak turuncu ışığı sokağın ucundan giriyor, kaldırım taşlarında
+parıltı; dükkânın önü yarı gölgede. Hava: sessiz, biraz hüzünlü; batmış bir küçük
+işletme.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kepenkte, kapıda, camda yazı/not/afiş var mı (not varsa
+Nurcan sızıntısı), tabela izi gerçekten boş mu, binalarda tabela, alt üçte bir boş mu,
+A9 ile aynı ışık ailesi mi.
