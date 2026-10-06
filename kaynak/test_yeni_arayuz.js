@@ -51,13 +51,18 @@ for (const [ad, dizgi] of [
 ]) k(`şablonda '${ad}' yerleştirme noktası tek`, sablon.split(dizgi).length === 2);
 // Sarmalanan fonksiyonlar eski arayüzde tanımlı olmalı; adı değişirse sarma sessizce
 // yeni bir global yaratır ve eski fonksiyon çalışmaya devam eder.
-for (const f of ["prologGoster", "vakaAc", "kaynakAcFaz", "kararFazi", "kararVerFaz", "sonEkrani"]) {
+for (const f of ["prologGoster", "vakaAc", "kaynakAcFaz", "kararFazi", "kararVerFaz", "sonEkrani", "kasaSerit"]) {
   k(`'${f}' eski arayüzde tanımlı ve yeni arayüzde sarılıyor`,
     new RegExp("function " + f + "\\(").test(build) && new RegExp("^" + f + " = function", "m").test(arayuz));
 }
-for (const f of ["defterNotu", "hesapKutusu", "cengoGosterge", "ust", "tl", "kayitYaz", "efektCal", "arastirmaFazi", "masaGoster"]) {
+for (const f of ["defterNotu", "hesapKutusu", "cengoGosterge", "ust", "tl", "kayitYaz", "efektCal", "arastirmaFazi", "masaGoster", "krizRozetleri"]) {
   k(`yeni arayüzün çağırdığı '${f}' eski arayüzde var`, new RegExp("function " + f + "\\(").test(build));
 }
+
+// Batma uyarısı temizliği eski karar ekranının sınıf adlarına dayanıyor; adlar
+// değişirse temizlik sessizce hiçbir şey bulmaz ve uyarılar geri gelir.
+for (const sinif of ['class="sonuc \\${sinif}"', 'class="kalan \\${sinif}"', '"yeni iş gelmezse batarsın"'])
+  k(`eski karar ekranı hâlâ ${sinif} üretiyor (yeni arayüz onu temizliyor)`, build.includes(sinif));
 
 console.log(hata ? `\n${hata} BAŞARISIZ` : "\nHepsi geçti.");
 process.exit(hata ? 1 : 0);

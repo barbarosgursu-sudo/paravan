@@ -42,8 +42,17 @@ seçime kadar sarar, seçimi atlamaz. Ruh hâli görseli ve istatistik paneli ye
 sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔
 derleyici eşlemesini sınar.
 
-**Henüz eski görünümde:** masa, araştırma, karar ve sonuç ekranları eski oyunun
-lacivert noir temasında; konuşma ekranı taslağın açık temasında.
+**Tema (6 Ekim 2026, sahibinin kararı):** bütün ekranlar konuşma ekranının dilinde —
+kâğıt zemin, koyu mürekkep, kalın kontur, ofset gölge, Nunito + Shrikhand
+(Google Fonts; çevrimdışıyken Georgia'ya düşer — Android aşamasında gömülecek).
+`yeni_arayuz.css`'in ikinci bloğu eski CSS değişkenlerini yeniden tanımlar ve sabit
+renkli kuralları ezer.
+
+**Batma uyarısı yok (sahibinin kararı):** kasa şeridi yalnız kasa ve borcu gösterir;
+karar seçeneklerinin altındaki "yeni iş gelmezse batarsın / açık verirsin / borca
+girersin" kaldırıldı, "ay sonunda X ₺" önizlemesi ve gider kutusu kaldı (bilgi).
+`arac_yeni_tur.js` karar ekranında bu cümleleri arar; `test_yeni_arayuz.js` eski
+karar ekranının temizlenen sınıf adlarını hâlâ ürettiğini sınar.
 
 ## Eski formata eklenenler
 

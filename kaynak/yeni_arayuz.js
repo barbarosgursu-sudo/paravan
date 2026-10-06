@@ -313,10 +313,31 @@ kararFazi = function(){
   if(s && !vnDonusOynandi.has(a.id)){
     vnDonusOynandi.add(a.id);
     vnSonSet = "manto";
-    sahneOynat(s, _eskiKararFazi, a.vaka.baslik);
+    sahneOynat(s, kararEkrani, a.vaka.baslik);
     return;
   }
+  kararEkrani();
+};
+/* Batma uyarısı yok (sahibinin kararı, 6 Ekim 2026; Ton §9 "batmak keyif vermez").
+   Eski karar ekranı her seçeneğin altına "yeni iş gelmezse batarsın / açık
+   verirsin / borca girersin" yazıyor, ay sonu tutarını kırmızıya boyuyordu.
+   Yeni oyunda gider ve "ay sonunda" önizlemesi kalır — bilgi; hüküm cümlesi gider.
+   Borç önizlemesi (borcSonra) kalır: o bir sonuç, uyarı değil. */
+function kararEkrani(){
   _eskiKararFazi();
+  document.querySelectorAll(".karar .bedel .sonuc").forEach(el => el.remove());
+  document.querySelectorAll(".karar .bedel .kalan").forEach(el => el.classList.remove("kotu", "dar", "iyi"));
+}
+
+/* Kasa şeridi: yalnız kasa ve (varsa) borç. Eski şerit kasayı ay sonu giderine
+   oranlayıp "bu ayın giderini karşılamıyor / kasa boş" diyordu — batma uyarısı. */
+kasaSerit = function(){
+  const k = oyun.kasaDurumu();
+  if(!k.aylikGider) return "";
+  return `<div class="kasa-serit">
+    <span>Kasa <span class="tutar">${tl(k.para)}</span>${k.borc ? ` · <span class="borc">borç ${tl(k.borc)}</span>` : ""}</span>
+    ${krizRozetleri()}
+  </div>`;
 };
 
 // Karar sonucu: ruh hâli görseli yerine kararın kendi karesi; "Devam et" kapanış

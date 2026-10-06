@@ -54,6 +54,9 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set";
   await p.click('.buton:has-text("Karar vermeye hazırım")');
   console.log('dönüş', await vnOyna('donus'));
   await foto('kararlar'); await tasmaBak('kararlar');
+  // Batma uyarısı yeni oyunda yok (sahibinin kararı): karar ekranında ve şeritte aranır.
+  const batma = await p.evaluate(() => /batars|açık verirsin|borca girersin|giderini karşılamıyor|kasa boş/.test(document.body.innerText));
+  if (batma) hata.push('karar ekranında batma uyarısı var');
   const kararlar = await p.$$('.karar'); console.log('karar sayısı', kararlar.length);
   await kararlar[KARAR].click();
   await foto('sonuc'); await tasmaBak('sonuc');

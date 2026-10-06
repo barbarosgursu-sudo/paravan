@@ -82,3 +82,91 @@
 .yeni-olgular div.o.cikarim{color:var(--koz)}
 .karar-kare{margin:0 0 6px}
 .karar-kare img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}
+
+/* ===== YENİ TEMA: eski arayüzün ekranları (masa, araştırma, karar, sonuç, defter) =====
+   Eski sayfa lacivert noir; yeni oyun konuşma ekranıyla aynı dilde olmalı: kâğıt
+   zemin, koyu mürekkep, kalın kontur, ofset gölge, Nunito + Shrikhand. Eski CSS
+   değişkenleri yeniden tanımlanır (çoğu kural onları okuyor), sabit renkli kurallar
+   tek tek ezilir. Bu blok eski CSS'ten SONRA gelir. */
+:root{
+  --zemin1:#f3e6cc; --zemin2:#ead8b4; --panel:#fff7e8; --panel2:#ffffff; --cizgi:#1d2a33;
+  --metin:#1d2a33; --sonuk:#4f5b61; --duman:#7a7f78;
+  --kehribar:#e9a83a; --altin:#b4561f; --kirmizi:#c8372d; --koz:#b36a0f; --yesil:#2f7d55;
+  --gece:#1d2a33; --tramvay:#c8372d; --bogaz:#1f7a80; --simit:#e9a83a;
+}
+body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI",system-ui,sans-serif;line-height:1.55}
+.ust{background:var(--gece);border-bottom:none;backdrop-filter:none}
+.marka{font-family:"Shrikhand",Georgia,serif;font-weight:normal;letter-spacing:1px;color:#fff7e8;font-size:17px}
+.marka small{font-family:"Nunito",sans-serif;color:rgba(255,247,232,.6);letter-spacing:3px;font-weight:800}
+.ust-btn{background:transparent;border:1px solid rgba(255,247,232,.35);color:#fff7e8;font-weight:800}
+.ust-btn:hover{border-color:var(--simit);color:#fff}
+.kasa-serit{background:#26353f;color:#fff7e8;border-bottom:none;font-weight:700}
+.kasa-serit .tutar{color:var(--simit)}
+.baslik .no{color:var(--tramvay);font-weight:800;letter-spacing:2px}
+.baslik h1{font-family:"Shrikhand",Georgia,serif;letter-spacing:0;font-size:26px}
+.giris-metin{font-size:16.5px}
+.buton{background:var(--simit);color:var(--gece);border:3px solid var(--gece);border-radius:12px;
+  box-shadow:0 3px 0 var(--gece);font-weight:800;letter-spacing:1px;padding:14px;min-height:48px}
+.buton:hover{background:#f2bd5e}
+.buton:active{transform:translateY(3px);box-shadow:0 0 0 var(--gece)}
+.buton.ikincil{background:#fff;color:var(--gece);border:3px solid var(--gece)}
+.buton.ikincil:hover{background:#fff2d6;color:var(--gece)}
+.gorsel-cerceve{border:3px solid var(--gece);border-radius:12px;box-shadow:0 4px 0 var(--gece)}
+.gorsel-cerceve.giris-gorsel{border:none;border-radius:0;box-shadow:none;border-bottom:3px solid var(--gece)}
+.faz-etiket .t{color:var(--sonuk);font-weight:800}
+.arastirma-puan .p.bos{background:#cdbf9f}
+.kaynak{background:#fff;border:3px solid var(--gece);border-radius:12px;box-shadow:0 3px 0 var(--gece);padding:13px 15px}
+.kaynak:hover{background:#fff2d6;border-color:var(--gece);transform:none}
+.kaynak:active{transform:translateY(3px);box-shadow:0 0 0 var(--gece)}
+.kaynak .ico{color:var(--tramvay)}
+.kaynak .ad{font-weight:800;font-size:15px}
+.kaynak .tur{color:var(--sonuk);font-weight:700}
+.kaynak.bedelsiz .ad::after{color:var(--bogaz);font-weight:700}
+.kaynak-uyari{color:var(--tramvay);background:#fff;border-left-width:4px}
+.kanit-metin{background:#fff;border:3px solid var(--gece);border-left:6px solid var(--simit);border-radius:12px;font-size:16px}
+.kanit-metin .meta{color:var(--gece);font-weight:700;font-style:italic;margin-top:0;font-size:15px}
+.yeni-olgular{background:#fff;border:3px solid var(--gece);border-radius:12px;border-left:6px solid var(--bogaz);margin:12px 24px 0}
+.yeni-olgular .b{color:var(--bogaz);font-weight:800}
+.yeni-olgular div.o.cikarim{color:var(--tramvay);font-weight:800}
+.gider-uyari{background:#fff;border:3px solid var(--gece);border-radius:12px}
+.gider-uyari .et{color:var(--sonuk);font-weight:800}
+.gider-uyari .tutar{color:var(--gece)}
+.gider-uyari .dokum{border-top:1px solid #d9ccb0;color:var(--sonuk)}
+.gider-uyari .dokum b{color:var(--gece);font-weight:800}
+.karar{background:#fff;border:3px solid var(--gece);border-radius:12px;box-shadow:0 3px 0 var(--gece)}
+.karar:hover{background:#fff2d6;box-shadow:0 3px 0 var(--gece);transform:none}
+.karar:active{transform:translateY(3px);box-shadow:0 0 0 var(--gece)}
+.karar .et{font-size:16px;font-weight:800}
+.karar .bedel{border-top:1px solid #d9ccb0}
+.karar .bedel b.kazanc{color:var(--yesil)}
+.karar .bedel .kalan,.karar .bedel .kalan.dar,.karar .bedel .kalan.kotu{color:var(--sonuk);font-weight:700}
+.uyari{color:var(--tramvay);font-weight:700}
+.sonuc-kutu{background:#fff;border:3px solid var(--gece);border-radius:14px;box-shadow:0 4px 0 var(--gece)}
+.sonuc-kutu h3{color:var(--tramvay);font-weight:800}
+.sonuc-kutu p{font-size:16px}
+.cengo-satir{margin:0 24px;background:#fff;border:3px solid var(--gece);border-left:6px solid var(--bogaz);border-radius:12px;color:var(--gece);font-size:15px}
+.defter-not{background:#fffdf7;border:3px solid var(--gece);border-left:6px solid var(--tramvay);border-radius:12px;color:var(--gece);font-size:15.5px}
+.defter-not::before{color:var(--tramvay);font-weight:800}
+.hesap{background:#fff;border:3px solid var(--gece);border-radius:12px;font-size:14px}
+.hesap .satir{color:var(--sonuk)}
+.hesap .ayrac{border-top:1px solid #d9ccb0}
+.masa-baslik .b{font-family:"Shrikhand",Georgia,serif;color:var(--tramvay);font-size:26px;letter-spacing:0}
+.masa-baslik .alt{color:var(--sonuk);font-weight:700;letter-spacing:1px}
+.dosya-afis{border:3px solid var(--gece);border-radius:14px;box-shadow:0 4px 0 var(--gece);height:210px}
+.dosya-afis:hover{transform:none;border-color:var(--gece);box-shadow:0 4px 0 var(--gece)}
+.dosya-afis.omurga{border-left:3px solid var(--gece)}
+.afis-alt h2{font-family:"Shrikhand",Georgia,serif;font-size:26px}
+.afis-alt .tip{font-weight:800}
+.dosya-afis.omurga .tip{color:var(--simit)}
+.bilgi{color:var(--sonuk)}
+.panel-baslik{font-family:"Shrikhand",Georgia,serif;color:var(--tramvay);letter-spacing:0;font-size:24px}
+.kisi-kart,.defter-kayit,.z-kart{background:#fff;border:3px solid var(--gece);border-radius:12px}
+.defter-kayit{border-left:6px solid var(--tramvay)}
+.z-kart{border-left:6px solid var(--simit)}
+.z-sonuc{color:var(--tramvay);font-weight:800}
+.z-sekme button{background:#fff;border:3px solid var(--gece);border-radius:12px;color:var(--gece);font-weight:800}
+.z-sekme button.aktif{background:var(--simit);color:var(--gece);border-color:var(--gece)}
+.z-karar{background:#fff;border:2px dashed var(--gece)}
+.cengo-etiket{color:var(--sonuk);font-weight:800}
+.alev.dolu{filter:none}
+.cengo-kelime{color:var(--gece);font-weight:700}
