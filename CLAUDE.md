@@ -64,6 +64,11 @@ hakkı ipuçlarını, kapılar kararları, koşullu varyantlar metni daraltır. 
 daralmayı kaldırır. `arac_akis_denetim.js`'in kardeşi: o dar ve derin (kararların
 yüzeyleri yan yana), bu geniş ve sığ (vakanın tamamı akış sırasıyla).
 
+**Yeni oyunun karakter görselini kesmek için** `cd kaynak && node arac_kes.js <girdi> <çıktı.webp> --profil peri|saten|cengo [--genis]`
+— arka planı saydamlar, karakterin SABİT çerçevesiyle kırpar (yoksa ifade değişince
+karakter ekranda zıplar). Profiller ve gerekçeleri `YENI_OYUN_GORSEL_PROMPTLARI.md`
+"KESİM ARACI" başlığında. Test değil, araç.
+
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
 kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.

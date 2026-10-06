@@ -1343,7 +1343,7 @@ standart kutuya hizalanarak taşar. Kutunun içi öteki ifadelerle piksel piksel
 yerde kalır, yalnız el kutudan dışarı uzanır. Aynalı (Peri) için:
 
 ```css
-img.genis { width: 122.62%; max-width: none; margin-left: -9.62%; }  /* 1122/915, −88/915 */
+img.genis { width: 122.62%; max-width: none; margin-left: -9.51%; }  /* 1122/915, −87/915 */
 ```
 
 Aynasız bir karakterde `margin-left` −120/915 (= −13.11 %) olur. Gerçek motorda her
@@ -1552,3 +1552,36 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 verirse) iş rötuşla yapılır: lambanın başlığına sıcak bir ışıma ve masaya ışık
 havuzu boyanır. Lamba düz bir yüzeyde, yapısal çizgi kesmiyor — rötuş sınırının
 içinde.
+
+
+---
+
+# KESİM ARACI — `kaynak/arac_kes.js` (6 Ekim 2026)
+
+Bütün karakter kesimleri artık bu araçla yapılır; geçici betikler emekli.
+
+```
+cd kaynak
+node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo [--genis] [--onizleme <yesil.png>]
+```
+
+| profil | çerçeve | delik doldurma | ne için |
+|---|---|---|---|
+| `peri` | x 120–1034 | tol 14 | Peri mantolu temel set |
+| `saten` | x 120–1034 | tohum tol 6 → yeniden taşkın tol 22 | Peri mantosuz set (saten bluz) |
+| `cengo` | x 10–1111 | kapalı | Cengo (beyaz gömlek) |
+
+- **`--genis`**: el/parmak çerçeveden taşıyorsa tam genişlikte keser ve ekran için CSS'i
+  basar. Araç taşmayı kendisi de sezer: standart kesimde çerçeve kenarında karakter
+  varsa UYARI verir.
+- **`--onizleme`**: yeşil zemin üstünde PNG; kalıntı ve delik gözle aranır.
+- Kaynak yüksekliği 1402 değilse uyarır (ölçek setten farklı olabilir).
+- Doğrulama: PMK2 ve PMS2 (geniş) eski kesimlerle piksel piksel aynı. CY'de fark var
+  ve iyi yönde: araç alt kenardan da taşkın yapıyor, eski kesimde bacak arasında kalan
+  bej üçgen artık temizleniyor. Cengo seti bir sonraki fırsatta araçla yeniden kesilir. Bu sırada
+  geniş hizalama hesabındaki bir hata yakalandı: taşan sağ şerit 88 değil **87 px**
+  (1121−1034); `margin-left` −9.62 % değil **−9.51 %**.
+
+**Yeni karakter eklenince:** referans görselden çerçeveyi seç (bütün ifadelerde
+karakterin hiçbir yeri kesilmesin), giysinin arka plana yakın rengi var mı bak, profili
+`PROFILLER`'a ekle.
