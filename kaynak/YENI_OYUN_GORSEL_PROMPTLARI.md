@@ -2851,3 +2851,9 @@ arkada boş askı ve öğle salonu. Yazı yok.
 **Süreklilik sorusu:** mantonun içinde görünen etek kırmızı — mantosuz sette Peri **siyah
 kalem etek** giyiyor. Kruvaze mantonun iç kanadı olarak da okunabilir. Sahibine soruldu.
 Taslakta "Peri mantoyu giyiyor" satırında K2, "Üstümde."de boş askılı salon.
+
+### K2b — sahibinin kararı: siyah kalem etekle yeniden (6 Ekim 2026)
+
+Üçüncü referans eklendi: Peri mantosuz PM2 (siyah kalem etek ve kemer için). Metne
+eteği adıyla soran satır eklendi — "kırmızı etek yok" de; yoksa üretici mantonun rengini
+eteğe taşır.
