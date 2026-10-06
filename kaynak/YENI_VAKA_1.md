@@ -302,13 +302,41 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 > Soruyoruz."
 >
 > Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu
-> değiştiriyor, sonra yine değiştiriyor. Cengo sorunca itiraf ediyor: teknenin
-> yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. "Ama kaybettim,"
-> diyor. Cebi şıngırdıyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri
-> bakınca kartı gömleğinin içine sokuyor.
+> değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı
+> sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor.
+>
+> **PERİ [kas]:** O kart ne?
+>
+> Serkan cevap vermiyor. Koşuyor. Cebi şıngırdıyor.
+
+⚙ **Kovalamaca** (doruk komedi anı; seçim yok, sonuç değişmez) · arka plan: A13 → A9
+⚙ ara kare: **K8** (Peri balık kasalarında, arkada Serkan levreklerin üstünde) · Peri bundan sonra İ6 boyunca **balıklı set** (sinirli, utanmış)
+
+> Serkan iskeleye doğru kaçıyor. Cengo ara sokaktan kestirmeye sapıyor. Peri
+> topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah
+> avıyla dolu kasaların içine oturuyor. Kasa devriliyor, levrekler rıhtıma saçılıyor.
+> Önde koşan Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor. Cengo
+> kestirmeden çıkıp başına dikiliyor.
+>
+> **CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi.
+> **PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
+>
+> Serkan yerde, nefes nefese. Cengo sorunca itiraf ediyor: teknenin yedek anahtarı
+> onda; yıllar önce babası vermiş, babası unutmuş. "Ama kaybettim," diyor. Cebi
+> şıngırdıyor.
+>
+> **CENGO [kas]:** Kaybettiğin anahtar cebinde şarkı söylüyor.
+> **PERİ [utanmis]:** *(elindeki levreği nereye koyacağını bilmeden)* Bunu kime veriyorum?
+>
+> Çaycı hortumu uzatıyor. Peri hortumla yıkanıyor, mantosunu sıkıyor. Akşama kadar
+> üstünden hafif bir balık kokusu çıkmıyor değil.
 >
 > ↳ *Serkan'da yedek anahtar var, kaybettiğini söylüyor. Boynunda da bir dizi
 > setinin yaka kartı var.*
+
+⚙ süreklilik: hortum sahnesinden sonra Peri temel sete döner (manto ıslak ama ekranda fark
+edilmez). İ6 hangi sırada oynanırsa oynansın sonraki sahneler değişmez. "Balık kokusu"
+sonraki sahnelerde isteğe bağlı bir şaka olarak kullanılabilir, zorunlu değil.
 
 ### İ7 — Serkan'ın dükkânı · *Belge · 1 hak*
 ⚙ açılması: `serkan_anahtar` · olgular: `serkan_borc`
@@ -623,6 +651,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K5 | Cumartesi sabahı iskelede Nazlı, boyası yarı sökülmüş | Karar K3 sonucu | ★ |
 | K6 | Peri bir masada imza atıyor, karşısında yapımcı; arkada beyaz tekne | Karar K4 sonucu | ★ |
 | K7 | Peri'nin eli mantonun cebinde, telin ucu görünüyor | Kapanış | ★ |
+| K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
@@ -651,11 +680,12 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 |---|---|---|
 | Arka plan | 16 | 11 |
 | Detay | 3 | 2 |
-| Ara kare | 7 | 6 |
+| Ara kare | 8 | 7 |
 | Figür | 8 | 6 |
 | Cengo | 4 | 4 |
 | Peri mantosuz | 4 | 4 |
-| **Yeni görsel** | **42** | **33** |
+| Peri balıklı (sinirli, utanmış) | 2 | 2 |
+| **Yeni görsel** | **45** | **36** |
 | Hazır (Peri) | 4 | 4 |
 
 **Süreklilik denetimi (6 Ekim 2026, sahibinin uyarısıyla):** sahne içinde durumu
