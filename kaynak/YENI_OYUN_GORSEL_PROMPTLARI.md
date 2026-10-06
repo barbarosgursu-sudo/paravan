@@ -2364,3 +2364,62 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** aynı adam mı (gözlük, bıyık, yaş), ölçek H1 ile aynı mı,
 dosyada yazı var mı, bakış kadrajın soluna mı.
+
+
+## Sonuç — H2 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_hilmi_gulen.webp`. Aynı adam, aynı ölçek (H1 ile
+yan yana birebir); el göğsünde, utangaç gülümseme, yanaklar pembe. Yazı yok. Taslakta
+satır düzeyinde `konuk: "gulen" | "ciddi"` ile ifade seçiliyor ("Hatıraları sizde
+kalsın", "Üstünüzde" gülümseyen). **Hilmi Bey tamam.**
+
+## R1 — Rıza Reis, normal (★, ekran hâli)
+
+Kanondan: "Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri."
+Kırk yıllık balıkçı; karısının adını teknesine vermiş; kendi zincirini her akşam kendi
+kilitler, anahtar boynunda. **Stil referansı Cengo CA2** (Hilmi biraz mat kaydı; set
+rengini Cengo/Peri'den almak daha güvenli).
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek
+insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak
+boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
+roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı, renk, ölçek, kadraj ve arka plan içindir;
+içindeki adam bu görselde yok.)
+
+Karakter: Rıza Reis, yetmiş yaşında, kırk yıldır Karaköy'de balıkçılık yapan bir adam.
+Orta boylu, tıknaz, geniş omuzlu; yaşına rağmen sağlam. Güneşten ve tuzdan yanmış,
+derin çizgili, esmer bir yüz; kalın, beyaz, gür bir bıyık; kısa kırçıl sakal. Gür,
+kırçıl kaşların altında küçük, keskin, açık kahve gözler. Elleri iri, nasırlı; parmak
+eklemlerinde ve avuç kenarlarında ağ ipinin bıraktığı ince çizik izleri.
+
+Kıyafet: başında eski, yıpranmış, lacivert bir kasket. Üstünde açık mavi, kalın pamuklu,
+kolları dirseğe sıvalı bir gömlek; üstünde koyu lacivert, örgü, düğmeli, eski bir yelek.
+Koyu, kalın bir kumaş pantolon. Boynunda, gömleğin yakasından içeri giren ince, siyah bir
+kordon; ucu gömleğin altında, görünmüyor. Saat, yüzük, başka takı yok. Kıyafetlerde
+hiçbir yazı, logo, arma yok.
+
+Poz: dimdik ama yorgun ayakta; iki eli önünde, kasketini değil, iri parmaklarını
+birbirine kenetlemiş; omuzları hafif öne düşük.
+
+Başın açısı ve bakış: başı ve gözleri kadrajın soluna, karşısında duran birine dönük;
+yüzü üç çeyrek profilden görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında kalıyor. Kameraya bakmıyor.
+
+İfade: ağırbaşlı, gururlu ama derdi belli; dudakları kapalı, bıyığının altında sıkılı;
+kaşları hafif çatık; gözleri yorgun ama dik bakıyor. Yardım istemeye alışık olmayan biri.
+
+Kadraj: DİKEY. Referanstaki adamla aynı ölçek ve kesim: uyluk ortasından yukarısı,
+başın tepesi aynı yükseklikte (kasketiyle birlikte biraz daha kısa durabilir). Tek
+başına, ayakta.
+
+Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** yaş yetmiş mi (gençleşme riski), kasket ve lacivert yelek
+var mı, ellerde ağ izleri seçiliyor mu, boyun kordonunun ucu gizli mi (anahtar görünmemeli
+— İ1'de söylüyor ama görselde göstermek gereksiz), kıyafette yazı/arma var mı, bakış
+kadrajın soluna mı.
