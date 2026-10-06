@@ -3408,3 +3408,14 @@ kural (K8 de aday). Akış: Akşam yemeği çıktı → K9 → iskele, Peri mant
 ("Peri mantosunu sıkıyor.") → dükkân.
 
 # VAKA 1 GÖRSELLERİ — TAMAM (46/46, 6 Ekim 2026)
+
+
+## K9 — değiştirildi (6 Ekim 2026, sahibinin kararı)
+
+Sahibi Grok'la ürettiği ikinci hâli seçti: `kaynak/yeni_gorsel/ara_k9_hortum.webp`.
+İlk hâl (gözleri sıkıca kapalı, "bitsin artık") `ara_k9_hortum_ilk.webp` olarak duruyor.
+Yeni karede Peri'nin yüzü keyifli, ıslak bluz bedene yapışık; **dekolte temel setin
+ayarından derin** ve ton komedi yerine çekiciliğe kayıyor. İkisi de sahibinin bilinçli
+tercihi; bu kare için istisna, setin genel ayarı değişmedi. Yüz Peri (çil yok, küçük
+altın küpe), çaycı aynı, vapurda yazı yok. Taslakta aynı `tam` kadrajla iki yüz de
+ekranda.
