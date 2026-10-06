@@ -311,6 +311,7 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 
 ⚙ **Kovalamaca** (doruk komedi anı; seçim yok, sonuç değişmez) · arka plan: A13 → A9
 ⚙ ara kare: **K8** (Peri balık kasalarında, arkada Serkan levreklerin üstünde) · Peri bundan sonra İ6 boyunca **balıklı set** (sinirli, utanmış)
+⚙ görsel kuralı (sahibinin kararı): K8'de ve balıklı sette Peri'nin **dekoltesi görünür** (temel setteki ayarda); **saçı başı balık suyuyla ıslak**, topuz dağılmış, saçında pul. Komedi tonu korunur.
 
 > Serkan iskeleye doğru kaçıyor. Cengo ara sokaktan kestirmeye sapıyor. Peri
 > topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah
