@@ -1804,3 +1804,68 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ve semaverde damga ya da logo var mı, A9 ile aynı ışık mı, alt üçte bir boş mu, çay
 ocağı ortada mı (açılış planında görünür, sonra karakterler önüne gelir — o yüzden
 semaver ve bardaklar üst yarıda kalmalı).
+
+
+## Sonuç — A10 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a10_cay_ocagi.webp`. Tabelasız ahşap kulübe,
+bakır semaver ve buhar, tepside üç ince belli bardak, iki hasır tabure, çıplak ampul,
+kırmızı ağ. Solda iskele babası ve zincir: A9 ile aynı yer. Arkada su ve Galata Kulesi
+(iskele denize uzandığı için karaya geri bakış — coğrafyaya uyuyor). **Yazı yok** (raf,
+semaver, bardaklar tarandı). Taslakta İ2 sahnesi; A9 ile aynı grup (`iskele_aksamustu`),
+geçiş çapraz.
+
+## A11 — Bebek sahili, dizi seti, geniş (★)
+
+İ4 burada geçer. Akşamüstü, A9/A10 ile aynı gün batımı. **Stil referansı olarak A9
+eklenebilir** (başka mekân).
+
+**Nurcan / yazı:** Pruvadaki eski ad D3'ün işidir; A11'de pruva düz beyaz, iz yok —
+yoksa D3'ün anı burada harcanır ve ad okunabilir hâle gelir. Set ekipmanı yazı riski
+taşır: klaket istenmez, yönetmen sandalyesinin sırtlığı düz, kameralarda marka yok,
+monitör ekranı kameraya dönük değil. Telefon ekranı (tanıtım) metinde kalır.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman arka planı. Belirgin, temiz
+kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi
+afişi ile modern çizgi roman arası bir tarz. Anime değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı ve renk içindir; bu başka bir mekân ve görselde
+hiç insan yok.)
+
+Mekân: İstanbul Bebek sahili, Boğaz kıyısı; bir televizyon dizisinin çekim seti,
+çekime ara verilmiş. Ekim, gün batımı; ışık sıcak, turuncu ve alçak.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, sahil kaldırımından suya doğru bakıyor.
+Görselin alt üçte biri boş, sakin, taş sahil kaldırımı: orada hiçbir nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada, kıyıdaki küçük ahşap bir iskeleye bağlı, bembeyaz boyanmış eski bir ahşap
+   tekne: aslında yaşlı bir balıkçı teknesi, ama "lüks yat" görünsün diye baştan
+   sona parlak beyaza boyanmış; güvertesine iki beyaz minder ve küçük bir beyaz
+   şemsiye konmuş. Ahşap gövdesi, eski biçimi ve balıkçı teknesi oranları belli
+   oluyor. Pruvası ve bordası düz, pürüzsüz beyaz; üzerinde hiçbir ad, harf, iz yok.
+2. Teknenin iki yanında, ayaklar üzerinde iki büyük film ışığı, YANIYOR; tekneye
+   doğru çevrilmiş. Birinin önünde büyük, yuvarlak, gümüş bir yansıtıcı panel.
+3. Sol önde, tekneye bakan, üç ayaklı bir sehpa üstünde büyük bir sinema kamerası;
+   üstü bir örtüyle kısmen örtülü; üzerinde hiçbir marka, yazı yok.
+4. Kaldırımda kıvrılarak tekneye uzanan siyah kablolar.
+5. Sağ önde, katlanır iki ahşap yönetmen sandalyesi; kumaş sırtlıkları düz, tek renk,
+   yazısız.
+6. Arkada Boğaz'ın suyu, karşı kıyıda tepeler ve yalılar, uzakta Rumeli Hisarı'nın
+   kuleleri; gökte birkaç martı.
+
+Başka hiçbir nesne yok: klaket, tabela, afiş, pankart, monitör ekranı, kâğıt, senaryo,
+telefon, araba, kamyon, çadır yok. Ekipmanın, teknenin, sandalyelerin hiçbir yerinde
+yazı, logo, marka, numara yok.
+
+Işık: gün batımının sıcak turuncu ışığı ve film ışıklarının beyaz ışığı karışıyor;
+beyaz tekne iki ışığın arasında parlıyor. Hava: biraz gösterişli, biraz sahte, komik;
+bir balıkçı teknesinin yat rolü oynaması.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** pruvada iz/harf var mı (varsa D3'ün anı harcanır ve ad
+okunabilir — rötuş ya da yeniden), teknenin balıkçı teknesi olduğu belli mi (gerçek bir
+yat çizilirse hikâye çöker), ekipmanda marka/yazı (kamera, ışıklar, sandalyeler), klaket
+ya da monitör çizilmiş mi, A9 ile aynı ışık ailesi mi, alt üçte bir boş mu.
