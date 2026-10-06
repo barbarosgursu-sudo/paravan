@@ -1578,7 +1578,10 @@ node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo [--genis] [-
 - Kaynak yüksekliği 1402 değilse uyarır (ölçek setten farklı olabilir).
 - Doğrulama: PMK2 ve PMS2 (geniş) eski kesimlerle piksel piksel aynı. CY'de fark var
   ve iyi yönde: araç alt kenardan da taşkın yapıyor, eski kesimde bacak arasında kalan
-  bej üçgen artık temizleniyor. Cengo seti bir sonraki fırsatta araçla yeniden kesilir. Bu sırada
+  bej üçgen artık temizleniyor.
+- **Cengo seti araçla yeniden kesildi** (CA2, CC, CK, CY; 6 Ekim): dördünde de bacak
+  arası kalıntı gitti, gömlek sağlam. Peri setleri de denendi: fark 0–5 piksel, yeniden
+  kesime gerek yok. Bu sırada
   geniş hizalama hesabındaki bir hata yakalandı: taşan sağ şerit 88 değil **87 px**
   (1121−1034); `margin-left` −9.62 % değil **−9.51 %**.
 
