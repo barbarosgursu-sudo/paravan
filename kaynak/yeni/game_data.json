@@ -39,6 +39,7 @@
       "baslik": "Kayıp Tekne",
       "arastirma": 3,
       "ucret": 35000,
+      "giris_gorsel": "A9",
 
       "truth": {
         "tekne": "Nazlı. Rıza Reis'in kırk yıllık ahşap balıkçı teknesi; adı rahmetli karısının.",

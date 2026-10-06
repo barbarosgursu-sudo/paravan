@@ -22,7 +22,28 @@ cd yeni && node ../arac_okuma.js V1   # düz okuma (sahneleri değil, düz 'text
 ```
 
 Motor, doğrulayıcı ve araçlar **aynen** devralındı (`YENI_OYUN_CERCEVE.md` §3).
-Arayüz (`build_html.js`) henüz yeni veriyi okumuyor; konuşma ekranı sıradaki iş.
+
+## Sayfa ve konuşma ekranı
+
+```
+node build_html.js yeni           # → depo kökü yeni/index.html
+node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | dukkan)
+```
+
+Akış: açılış sahneleri → masa → giriş + konuşma sahnesi → araştırma (eski ekran;
+ipucu açılınca sahnesi oynar, ardından "Deftere düştü" kartı) → "Karar vermeye
+hazırım" → büroya dönüş sahnesi (vaka başına bir kez) → karar ekranı → sonuç
+(kararın karesi, Cengo satırı, anı defteri, hesap) → kapanış sahnesi → masa.
+
+Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün altı fonksiyonunu sarar
+(`prologGoster`, `vakaAc`, `kaynakAcFaz`, `kararFazi`, `kararVerFaz`, `sonEkrani`).
+Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
+seçime kadar sarar, seçimi atlamaz. Ruh hâli görseli ve istatistik paneli yeni
+sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔
+derleyici eşlemesini sınar.
+
+**Henüz eski görünümde:** masa, araştırma, karar ve sonuç ekranları eski oyunun
+lacivert noir temasında; konuşma ekranı taslağın açık temasında.
 
 ## Eski formata eklenenler
 

@@ -1,0 +1,84 @@
+/* ===== YENİ OYUN: konuşma ekranı (yeni_arayuz.css) =====
+   Yalnız `node build_html.js yeni` çıktısına girer; eski oyunun sayfasına dokunmaz.
+   Biçim taslaktan (kaynak/taslak/konusma_taslak.html) taşındı: üstte sahne
+   (arka plan + iki figür), altta konuşma kutusu. Boylar sabit; konuşan hafif
+   aydınlanır, dinleyen gölgede kalır (sahibinin kararı). */
+.vn{
+  --vn-gece:#1d2a33; --vn-kagit:#fff7e8; --vn-tramvay:#c8372d; --vn-bogaz:#1f7a80;
+  --vn-simit:#e9a83a; --vn-soluk:#8a8f87;
+  position:fixed; inset:0; z-index:50; margin:0 auto; max-width:480px;
+  display:flex; flex-direction:column; overflow:hidden;
+  background:var(--vn-gece); color:var(--vn-gece);
+  font-family:"Nunito","Segoe UI",system-ui,sans-serif; line-height:1.4;
+  -webkit-tap-highlight-color:transparent;
+}
+.vn-serit{display:flex;justify-content:space-between;align-items:center;gap:10px;
+  padding:10px 14px;color:var(--vn-kagit);font-size:13px;font-weight:700;letter-spacing:.04em;z-index:3}
+.vn-serit .vn-baslik{text-transform:uppercase;opacity:.85;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.vn-serit .vn-sag{display:flex;gap:8px;align-items:center;flex-shrink:0}
+.vn-kasa{font-variant-numeric:tabular-nums;background:rgba(255,247,232,.12);padding:4px 10px;border-radius:999px;white-space:nowrap}
+.vn-kasa[hidden]{display:none}
+.vn-gec{font:inherit;font-size:12px;font-weight:800;color:var(--vn-kagit);background:transparent;
+  border:1px solid rgba(255,247,232,.35);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
+.vn-sahne{position:relative;flex:1 1 auto;min-height:0;overflow:hidden;cursor:pointer}
+.vn-arka{position:absolute;inset:0}
+.vn-arka > .katman{position:absolute;inset:0;transition:opacity .6s ease}
+.vn-arka img.kaplama{width:100%;height:100%;object-fit:cover;object-position:center 70%;display:block}
+.vn-kare{position:absolute;inset:0;z-index:4;overflow:hidden;background:#0d1117;animation:vnBelir .35s ease}
+.vn-kare img.kaplama{width:100%;height:100%;object-fit:cover;object-position:center 60%;display:block}
+/* tam: iki yüzlü ara kare (K9) — cover iki yüzden birini keser; %150 genişlik, bulanık dolgu */
+.vn-kare img.dolgu{position:absolute;inset:-20px;width:calc(100% + 40px);height:calc(100% + 40px);object-fit:cover;filter:blur(14px) brightness(.55)}
+.vn-kare img.tam{position:absolute;left:-20%;width:150%;max-width:none;top:44%;transform:translateY(-50%);
+  -webkit-mask-image:linear-gradient(transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(transparent,#000 8%,#000 92%,transparent)}
+@keyframes vnBelir{from{opacity:0}to{opacity:1}}
+.vn-karartma{position:absolute;inset:0;z-index:5;background:#0d1117;opacity:0;pointer-events:none;transition:opacity .28s ease}
+.vn-karartma.acik{opacity:1}
+.vn-mekan{position:absolute;right:14px;top:10px;z-index:6;font-family:"Shrikhand",Georgia,serif;font-size:15px;color:var(--vn-kagit);
+  text-shadow:0 1px 2px rgba(0,0,0,.85),0 0 8px rgba(0,0,0,.55)}
+.vn-figurler{position:absolute;left:0;right:0;bottom:-6px;height:78%;display:flex;justify-content:space-between;align-items:flex-end;
+  padding:0 4px;pointer-events:none;transition:opacity .4s ease}
+.vn-figurler.cekilmis{opacity:0}
+.vn-figur{position:relative;z-index:1;height:100%;transition:filter .25s ease,opacity .25s ease}
+.vn-figur img{width:100%;height:100%;display:block;object-fit:contain;object-position:bottom center}
+.vn-figur.sol{aspect-ratio:915/1402;max-width:58%;margin-right:-8%}
+.vn-figur.sol img{transform:scaleX(-1)}
+.vn-figur.sol img.genis{width:122.62%;max-width:none;margin-left:-9.51%}
+.vn-figur.sag{aspect-ratio:1102/1402;max-width:78%;height:105%;margin-left:-8%;margin-right:-16%;flex-shrink:0}
+.vn-figur[hidden]{display:none}
+.vn-figur.pasif{filter:brightness(.62) saturate(.75)}
+.vn-figur.aktif{filter:brightness(1.04);z-index:2}
+.vn-figurler.aksam .vn-figur{filter:brightness(.8) sepia(.18) saturate(.9)}
+.vn-figurler.aksam .vn-figur.pasif{filter:brightness(.48) sepia(.22) saturate(.7)}
+.vn-kutu-alani{position:relative;padding:0 12px 14px;z-index:6;flex:0 0 auto}
+.vn-kutu{position:relative;background:var(--vn-kagit);border-radius:14px;border:3px solid var(--vn-gece);
+  box-shadow:0 5px 0 rgba(0,0,0,.35);padding:22px 16px 14px;min-height:142px;cursor:pointer;display:flex;flex-direction:column}
+.vn-kutu:focus-visible{outline:3px solid var(--vn-simit);outline-offset:3px}
+.vn-plaka{position:absolute;top:-18px;left:14px;font-family:"Shrikhand",Georgia,serif;font-size:18px;line-height:1;
+  color:var(--vn-kagit);padding:7px 14px 8px;border-radius:10px;border:3px solid var(--vn-gece);transform:rotate(-2deg);background:var(--vn-tramvay)}
+.vn-plaka.sag{left:auto;right:14px;transform:rotate(2deg);background:var(--vn-bogaz)}
+.vn-plaka.sag.konuk{background:#5b4a3a}
+.vn-plaka[hidden]{display:none!important}
+.vn-replik{font-size:18px;line-height:1.45;font-weight:700;margin:0;min-height:52px}
+.vn-replik.not{font-style:italic;font-weight:500;color:var(--vn-soluk);font-size:16px}
+.vn-ileri{align-self:flex-end;margin-top:auto;padding-top:6px;font-size:13px;font-weight:800;color:var(--vn-soluk);
+  letter-spacing:.06em;text-transform:uppercase}
+.vn-ileri::after{content:" ▸";display:inline-block;animation:vnNabiz 1s ease-in-out infinite}
+@keyframes vnNabiz{50%{transform:translateX(3px)}}
+.vn-secimler{display:flex;flex-direction:column;gap:10px}
+.vn-secim-baslik{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--vn-soluk);margin:0 0 2px}
+.vn-secim{font:inherit;font-size:17px;font-weight:800;text-align:left;background:#fff;color:var(--vn-gece);
+  border:3px solid var(--vn-gece);border-radius:12px;padding:12px 14px;min-height:48px;cursor:pointer;
+  box-shadow:0 3px 0 var(--vn-gece);transition:transform .1s ease,box-shadow .1s ease,background .15s}
+.vn-secim:hover{background:#fff2d6}
+.vn-secim:active{transform:translateY(3px);box-shadow:0 0 0 var(--vn-gece)}
+@media (max-height:640px){.vn-replik{font-size:16px}.vn-kutu{min-height:112px}}
+@media (prefers-reduced-motion:reduce){
+  .vn *,.vn *::before,.vn *::after{animation:none!important;transition:none!important}
+}
+/* Açılan ipucunun kartı ve karar sonucunun karesi (eski arayüzün içinde) */
+.yeni-olgular{margin:14px 18px 0;padding:12px 14px;border-left:3px solid var(--kehribar);background:rgba(255,255,255,.04)}
+.yeni-olgular .b{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--duman);margin-bottom:6px}
+.yeni-olgular div.o{margin:4px 0;font-size:15px}
+.yeni-olgular div.o.cikarim{color:var(--koz)}
+.karar-kare{margin:0 0 6px}
+.karar-kare img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}

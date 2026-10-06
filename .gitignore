@@ -5,3 +5,5 @@ kaynak/_gomulu_veri.js
 kaynak/_durum_matrisi.txt
 # arac_ui_tur.js her çalıştığında ekran görüntüsü üretir (gözle bakmak için)
 kaynak/UI_*.png
+# arac_yeni_tur.js ekran görüntüleri
+kaynak/YENI_UI/

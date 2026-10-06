@@ -32,7 +32,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — yedi senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 23 test geçmelidir (22'si eski oyunun, `test_yeni_v1.js` yeni oyunun).
+Diğer 24 test geçmelidir (22'si eski oyunun; `test_yeni_v1.js` ve `test_yeni_arayuz.js` yeni oyunun).
 
 Doğrulayıcı eski oyunda **15 kural** çalıştırıyor (K16 kararsız yol dahil; K15 yalnız yeni oyunda) ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -43,6 +43,16 @@ bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketl
 `cd kaynak && node dogrulayici.js yeni` onu denetler — argümansız çağrı eski oyunu denetler.
 Sahne satırı biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Metin önce
 `YENI_VAKA_1.md`'de değişir, sonra veriye taşınır.
+
+**Yeni oyunun sayfası:** `cd kaynak && node build_html.js yeni` → depo kökünde
+`yeni/index.html` (yayında `…/paravan/yeni/`). Eski sayfanın betiği aynen kullanılır;
+konuşma ekranı `kaynak/yeni_arayuz.js` + `.css`'ten eklenir, görseller
+`kaynak/yeni/gorseller.json` manifestosundan gömülür. Argümansız derleme eski
+`index.html`'i üretir ve ondan **birebir aynı** çıkar — yeni kip eski sayfaya dokunmaz.
+Kayıt anahtarı ayrı (`paravan_yeni_kayit_v1`): iki oyun aynı alan adında. Yeni kip
+`_gomulu_veri.js`'in üstüne yazar; ardından argümansız derleme onu yeniden üretir.
+Konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — yeni oyunu
+Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
 
 **Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` — her
 katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.

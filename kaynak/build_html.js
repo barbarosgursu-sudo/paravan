@@ -1,17 +1,40 @@
 const fs = require("fs");
+// İki kip: argümansız = eski oyun (../index.html); `node build_html.js yeni` = yeni
+// oyun (veri kaynak/yeni/, çıktı ../yeni/index.html). Yeni kip eski sayfanın
+// betiğini AYNEN kullanır, üstüne yeni_arayuz.css/js'i ekler (konuşma ekranı).
+// Eski kipin çıktısı bu ayrımdan etkilenmez — eklemeler yalnız YENI dalında.
+const YENI = process.argv[2] === "yeni";
+const VERI_DIZIN = YENI ? "yeni/" : "";
 // Gömme verilerini HER derlemede kaynak dosyalardan TAZE üret (bayat veri hatası olmasın)
 {
-  const g = JSON.parse(fs.readFileSync("game_data.json","utf-8"));
-  const kj = JSON.parse(fs.readFileSync("kisiler.json","utf-8"));
-  const pj = JSON.parse(fs.readFileSync("prolog.json","utf-8"));
+  const g = JSON.parse(fs.readFileSync(VERI_DIZIN + "game_data.json","utf-8"));
+  const kj = JSON.parse(fs.readFileSync(VERI_DIZIN + "kisiler.json","utf-8"));
+  const pj = JSON.parse(fs.readFileSync(VERI_DIZIN + "prolog.json","utf-8"));
   const motorKaynak = fs.readFileSync("motor.js","utf-8").replace(/module\.exports.*$/m,"");
   fs.writeFileSync("_gomulu_motor.js", motorKaynak);
+  let ek = "";
+  if (YENI) {
+    const acilis = JSON.parse(fs.readFileSync(VERI_DIZIN + "acilis.json","utf-8")).sahneler;
+    ek = "const ACILIS="+JSON.stringify(acilis)+";";
+  }
   fs.writeFileSync("_gomulu_veri.js",
-    "const GAME="+JSON.stringify(g)+";const KISILER="+JSON.stringify(kj)+";const PROLOG="+JSON.stringify(pj.prolog)+";");
+    "const GAME="+JSON.stringify(g)+";const KISILER="+JSON.stringify(kj)+";const PROLOG="+JSON.stringify(pj.prolog)+";"+ek);
 }
 const motor = fs.readFileSync("_gomulu_motor.js","utf-8");
 const veri  = fs.readFileSync("_gomulu_veri.js","utf-8");
-const gorselveri = fs.readFileSync("_gomulu_gorseller.js","utf-8");
+// Yeni kipte görseller manifestodan (yeni/gorseller.json) gömülür; anahtar kod ya da
+// sprite adı (A6, K9, peri.manto.kas). Eksik dosya derlemeyi durdurur.
+const yeniManifesto = YENI ? JSON.parse(fs.readFileSync("yeni/gorseller.json","utf-8")) : null;
+const gorselveri = !YENI ? fs.readFileSync("_gomulu_gorseller.js","utf-8") : (() => {
+  const harita = {};
+  for (const [anahtar, dosya] of Object.entries(yeniManifesto.dosyalar)) {
+    const yol = "yeni_gorsel/" + dosya;
+    if (!fs.existsSync(yol)) { console.error("DERLEME DURDU — manifestodaki görsel yok:", anahtar, "→", yol); process.exit(1); }
+    harita[anahtar] = "data:image/webp;base64," + fs.readFileSync(yol).toString("base64");
+  }
+  const { dosyalar, _not, ...ayar } = yeniManifesto;
+  return "const GORSELLER=" + JSON.stringify(harita) + ";const YENI_GORSEL=" + JSON.stringify(ayar) + ";";
+})();
 
 const html = `<!DOCTYPE html>
 <html lang="tr">
@@ -1388,6 +1411,31 @@ baslat();
   }
 }
 
+// Yeni kip: eski sayfanın betiğine konuşma ekranını ekle. Şablonun DIŞINDA
+// yapılıyor: yeni_arayuz.js düz JS, şablon kaçışlarına girmesin.
+let cikti = html;
+if (YENI) {
+  const css = fs.readFileSync("yeni_arayuz.css", "utf-8");
+  const js = fs.readFileSync("yeni_arayuz.js", "utf-8");
+  const degistir = (eski, yeni, ad) => {
+    if (cikti.split(eski).length !== 2) { console.error("DERLEME DURDU — yeni kip eki yerleşemedi:", ad); process.exit(1); }
+    cikti = cikti.replace(eski, () => yeni);
+  };
+  degistir("<title>Paravan Dedektiflik — Pilot Sezon</title>",
+    '<title>Paravan Dedektiflik — Yeni Oyun</title>\n<link rel="preconnect" href="https://fonts.googleapis.com">' +
+    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
+    '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Nunito:wght@500;700;800&display=swap">', "başlık");
+  degistir("</style>", css + "\n</style>", "stil");
+  // Kayıt aynı alan adında (github.io) eski oyunla ÇAKIŞMASIN.
+  degistir('const KAYIT_ANAHTAR = "paravan_kayit_v1";', 'const KAYIT_ANAHTAR = "paravan_yeni_kayit_v1";', "kayıt anahtarı");
+  // Sayfa bir alt klasörde (../yeni/); ses dosyaları depo kökündeki ses/'te.
+  degistir('const SES_KLASOR  = "ses/";', 'const SES_KLASOR  = "../ses/";', "ses klasörü");
+  degistir("\nbaslat();\n</script>", "\n" + js + "\nbaslat();\n</script>", "konuşma ekranı");
+  const m = cikti.match(/<script>([\s\S]*)<\/script>/);
+  try { new (require("vm").Script)(m[1], { filename: "yeni/index.html (script)" }); }
+  catch (e) { console.error("DERLEME DURDU — yeni kip betiği geçersiz:", e.message); process.exit(1); }
+}
+
 // Görsel anahtarı sessiz bir tuzak: sayfa her aramada `.replace('.jpg','')`
 // yapıyor, yani GORSELLER'e uzantılı gömülen bir görsel HİÇ bulunamaz —
 // ekranda JS hatası değil, metin yer tutucu çıkar. Bir kez düşüldü (7 görsel
@@ -1407,6 +1455,10 @@ baslat();
   const istenen = new Set(
     [...html.matchAll(/['"]([a-z0-9_]+\.jpg)['"]/g)].map(m => m[1])
   );
+  // Yeni kipte eski oyunun .jpg atıfları (ruh hâli, Cengo kareleri) bilerek gömülmez:
+  // o yüzeyler yeni arayüzde kullanılmıyor. Yeni oyunun atıf denetimi
+  // test_yeni_arayuz.js'te (veri kodları ↔ manifesto).
+  if (YENI) istenen.clear();
   const eksik = [...istenen].filter(d => !anahtar.has(d.replace(".jpg", "")));
   if (eksik.length) {
     console.error("DERLEME DURDU — sayfada atıf var ama gömülü görsel yok:", eksik.join(", "));
@@ -1415,8 +1467,10 @@ baslat();
   console.log("  \u2713 görsel: " + istenen.size + " atıfın hepsi gömülü (" + anahtar.size + " anahtar)");
 }
 
-fs.writeFileSync("../index.html", html);
-console.log("index.html yenilendi:", (html.length/1024).toFixed(0), "KB");
+const HEDEF = YENI ? "../yeni/index.html" : "../index.html";
+if (YENI) fs.mkdirSync("../yeni", { recursive: true });
+fs.writeFileSync(HEDEF, cikti);
+console.log(HEDEF.slice(3) + " yenilendi:", (cikti.length/1024).toFixed(0), "KB");
 // Geliştirici modunun yanlışlıkla yayına gitmesi sessizce olabilecek bir hata.
 // Bayrak üretilen sayfanın içinde yaşıyor, derleyicinin kapsamında değil —
 // o yüzden ÇIKTIYA bakıyoruz: 🛠 düğmesi gerçekten basıldı mı?
