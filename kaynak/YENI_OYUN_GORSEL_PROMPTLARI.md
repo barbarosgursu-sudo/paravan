@@ -3193,3 +3193,17 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde:** arka plan düz bej mi (kesim için şart), ölçek ve baş açısı C3 ile aynı mı,
 dekolte setteki ayarda mı, yüz Peri mi.
+
+
+## PB1 — ilk deneme: siyah etek görünmüyor (sahibi yakaladı) → PB1b
+
+Manto kapalı, alttaki aralıkta kırmızı (mantonun iç kanadı, ama etek gibi okunuyor).
+**Kural (sahibinin kararı, 6 Ekim 2026): mantolu Peri'nin altında HER ZAMAN siyah kalem
+etek ve ince siyah kemer var; manto önden açıkken görünür.** Mantolu her yeni görselde
+metne yazılır ve PM2 üçüncü referans olarak eklenir. K8'de aynı sorun var (kucaktaki
+kırmızı); ara kare olduğu için şimdilik kalıyor, sahibi isterse yeniden üretilir.
+
+PB1b: PB1 metnine eklenen satırlar —
+"Üçüncü referans görseldeki kadının siyah, dar, diz boyu kalem eteği ve ince siyah
+kemeri. Mantonun önü kuşağın altında açık; aradan SİYAH kalem etek açıkça görünüyor.
+Kırmızı etek YOK; mantonun altında yalnız siyah etek ve krem bluz."
