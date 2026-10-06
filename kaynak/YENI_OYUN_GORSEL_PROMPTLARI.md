@@ -2423,3 +2423,51 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 var mı, ellerde ağ izleri seçiliyor mu, boyun kordonunun ucu gizli mi (anahtar görünmemeli
 — İ1'de söylüyor ama görselde göstermek gereksiz), kıyafette yazı/arma var mı, bakış
 kadrajın soluna mı.
+
+
+## Sonuç — R1 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_riza_normal.webp`. Yetmiş civarı, lacivert
+kasket, açık mavi gömlek, lacivert örgü yelek, beyaz bıyık ve kırçıl sakal, iri nasırlı
+eller kenetli; bakış kadrajın soluna; boyun kordonunun ucu gömleğin içinde. Yazı/arma
+yok. Kesim `hilmi` profiliyle (aynı kaynak boyu, beyaz yok ama açık mavi gömlek).
+
+**Boy dersi:** bütün figürler aynı çerçeveyle kesildiği için ekranda aynı boyda duruyor;
+"orta boylu, tıknaz" Rıza Reis Peri'nin üstünde dev gibi kaldı. Taslağa `KONUK_BOY`
+eklendi (Rıza 0.86, Hilmi 0.95) — kanondaki boy farkı arayüzde verilir, görsel yeniden
+üretilmez. Gerçek oyunda figür kaydı `boy` alanı taşımalı.
+
+Taslakta Vaka 1 girişi (büro, kapıda Rıza Reis; Peri–Rıza replikleri) eklendi. Üç
+figürlü düzen (Peri + Cengo + konuk) henüz yok — o sahnede Cengo çekilmiş, Rıza onun
+yerinde. Üçlü düzen gerçek oyunun arayüz işi.
+
+## R2 — Rıza Reis, dertli (R1 referanslı)
+
+Replikler: "Teknemi aldılar. Kırk yıllık teknemi." / "Ben bir hafta denize çıkmazsam
+batarım." / "Bugün balık yok, tekne yok, para yok."
+
+```
+Referans görseldeki adamın AYNISI: aynı yüz, aynı yaş, aynı kasket, bıyık ve sakal,
+aynı açık mavi gömlek, lacivert örgü yelek ve pantolon, aynı çizim tarzı, aynı düz açık
+bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, aynı kesim, başın tepesi aynı
+yükseklikte, dikey.
+
+Başın açısı referansla aynı: başı kadrajın soluna dönük, yüzü üç çeyrek profilden
+görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor. Kameraya
+bakmıyor.
+
+Değişen şeyler poz ve ifade.
+
+Poz: kasketini başından çıkarmış, iki eliyle göğsünün önünde tutuyor, parmakları
+kasketin kenarını sıkıyor; kırçıl saçları dağınık görünüyor. Omuzları düşmüş, başı
+hafifçe öne eğik.
+
+İfade: derdini saklamaya çalışan gururlu bir adam; kaşları ortada yukarı kalkmış,
+alnında derin çizgiler; gözleri nemli ama ağlamıyor; dudakları bıyığının altında
+sıkılı, çenesi titremesin diye kasılmış.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** aynı adam mı, kasketin içinde/üstünde yazı ya da etiket var
+mı (kasketin içi görünürse en büyük risk), ölçek R1 ile aynı mı, bakış kadrajın soluna mı.
