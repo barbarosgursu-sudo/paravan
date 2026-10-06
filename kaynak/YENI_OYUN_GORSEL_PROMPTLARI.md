@@ -3053,3 +3053,45 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kâğıtta satır/harf/imza (en büyük risk — rötuşla
 düzleştirilir), zarfta yazı, Peri'nin yüzü kaymış mı, dekolte setteki ayarda mı, yapımcının
 yüzü kadraja girmiş mi.
+
+
+## Sonuç — K6 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k6_imza.webp`. Peri (yüz, saç, manto, dekolte
+tutuyor) gözleri kapalı, küçük soğuk gülümsemeyle imzalıyor; **kâğıt bomboş, zarf
+yazısız**; yapımcının yalnız lacivert kolu ve altın kol düğmesi. Notlar (bulanık arka
+plan): uzaktaki tekne gerçek bir yat gibi; küçük kırmızı-beyaz-mavi bir bayrak var —
+yazısız; sahibi isterse rötuşla silinir.
+
+## K7 — Peri'nin eli mantonun cebinde, telin ucu görünüyor (★, A5b + Peri A2)
+
+Kapanış son satırı: "Peri bir an kapının önünde duruyor, elini cebine sokuyor; tel orada."
+**Yüzsüz**, bel hizası; akşam koridorun sıcak lamba ışığı. Tel D1'deki gibi gümüş.
+
+```
+Birinci referans görseldeki akşam koridorunun AYNISI arka planda, bulanık: aynı karo
+zemin, aynı yanan tavan lambası, dipte lacivert akşam penceresi, sağda koyu ahşap büro
+kapısı, aynı çizim tarzı. İkinci referans görseldeki kadının YALNIZ mantosu ve eli:
+aynı domates kırmızısı, kuşaklı yün manto. Kadının yüzü, saçı ve başı kadraja girmiyor.
+
+Kadraj: DİKEY (3:4). YAKIN ÇEKİM: kamera kadının yanında, bel hizasında; kadrajın
+ortasında mantonun yan cebi.
+
+Kadrajda YALNIZ şunlar var:
+1. Kırmızı yün mantonun yan cebi; kadının eli cebin içinde, yalnız bileği ve parmak
+   eklemleri dışarıda görünüyor; yüzük, bilezik, saat yok.
+2. Parmaklarının arasından, cebin ağzından, ince, eğilmiş, gümüş renkli bir telin ucu
+   dışarı çıkıyor; ucunda lambanın ışığından küçük bir parıltı.
+3. Arka planda, bulanık: koridorun karoları, sıcak sarı tavan lambası, kapalı koyu
+   ahşap kapı.
+
+Başka hiçbir nesne yok.
+
+Işık: akşam; tavan lambasının sıcak sarı ışığı mantonun yününde ve telin ucunda;
+köşeler karanlık. Hava: sessiz, içten; küçük bir sırrın ilk günü.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** yüz ya da saç kadraja girmiş mi (K2b dersi), elde takı, tel
+seçiliyor mu, manto Peri'ninki mi.
