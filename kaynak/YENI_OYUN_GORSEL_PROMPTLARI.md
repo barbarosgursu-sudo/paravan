@@ -3095,3 +3095,57 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** yüz ya da saç kadraja girmiş mi (K2b dersi), elde takı, tel
 seçiliyor mu, manto Peri'ninki mi.
+
+
+## Sonuç — K7 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k7_tel.webp`. Kırmızı manto, el cepte, telin ucu
+parlıyor; takı yok, yüz ve saç yok; akşam koridoru (lamba, lacivert pencere, halka
+tokmaklı kapı). Taslakta kapanışın son satırı: "Cengo merdivenden iniyor… tel orada."
+
+## K8 — Kovalamaca: Peri balık kasalarında, Serkan levreklerin üstünde (★)
+
+İ6 (sahibinin onayladığı kovalamaca). Üç referans: **A9** (iskele, gün batımı), **Peri A2**
+(yüz, saç rengi, manto, bluz, dekolte), **Serkan S1b** (yüz, kıyafet). Cengo kadraja
+girmiyor (yüz sayısı az kalsın; "Cengo yetişiyor" metinden gelir).
+
+**Sahibinin kuralı:** dekolte görünür, temel setteki ayarda; saçı başı balık suyuyla
+ıslak, topuz dağılmış, saçında pul. Ton: komedi — tehlike ya da acı yok.
+
+```
+Birinci referans görseldeki iskelenin AYNISI: aynı taş rıhtım, aynı renkli balıkçı
+tekneleri, aynı Haliç ve gün batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki
+kadının AYNISI: aynı yüz, aynı kumral-kızıl saç rengi, aynı kırmızı kuşaklı manto, aynı
+krem saten bluz ve aynı dekolte, aynı altın küpeler. Üçüncü referans görseldeki genç
+adamın AYNISI: aynı yüz, aynı kısa saç, aynı yeşil kapüşonlu üst ve gri tişört.
+
+Kadraj: DİKEY (3:4). Kamera rıhtımda, göz hizasının biraz altında.
+
+Kadrajda YALNIZ şunlar var:
+1. Ön planda, kadrajın ortasında, kadın büyük, mavi, plastik bir balık kasasının İÇİNE
+   oturmuş: kasa ağzına kadar gümüş pullu levreklerle dolu, kadın balıkların arasına
+   gömülmüş, dizleri havada, topukluları kasanın kenarından sarkıyor. Bir elinde, kuyruğundan
+   tuttuğu, çırpınan bir levrek; öteki eli kasanın kenarını kavramış.
+2. Kadının hâli: kumral-kızıl saçı balık suyuyla sırılsıklam, topuzu dağılmış, ıslak
+   tutamlar yüzüne ve boynuna yapışmış; saçında ve yanaklarında birkaç gümüş balık pulu;
+   kırmızı mantosu ıslak ve buruşuk, kuşağı gevşemiş. Krem saten bluzu ıslak ve dekoltesi
+   referanstaki gibi açıkça görünüyor. Altın küpeleri yerinde.
+3. Kadının ifadesi: komik bir öfke ve inanamama; ağzı açık, kaşları çatık, gözleri kocaman;
+   "bu bana olamaz" der gibi. Yüzü üç çeyrek profilden, kadrajın soluna dönük.
+4. Arka planda, biraz uzakta, rıhtımda devrilmiş ikinci bir kasa; levrekler ıslak taşlara
+   saçılmış. Genç adam o levreklerin üstünde kaymış, sırt üstü yatıyor, kolları ve bacakları
+   havada, şaşkın.
+5. Uçuşan su damlaları ve havada bir iki pul.
+
+Başka hiçbir insan yok. Başka hiçbir nesne yok: tabela, kâğıt, telefon yok. Kasalarda,
+teknelerde hiçbir yazı, ad, numara yok.
+
+Işık: gün batımının sıcak turuncu ışığı; ıslak saçta, pullarda ve suda parıltılar.
+Hava: tam bir komedi felaketi; zarif bir kadının en kötü anı, ama acı yok, yalnız gülünç.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** Peri'nin yüzü ve saç rengi tutuyor mu, dekolte setteki ayarda
+mı (az değil, fazla değil), Serkan tanınıyor mu, kasalarda/teknelerde yazı, el ve parmak
+sayıları, ton korkutucu ya da acı verici olmuş mu.
