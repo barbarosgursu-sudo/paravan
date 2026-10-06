@@ -2509,3 +2509,68 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** aynı adam mı, ölçek R1 ile aynı mı, parmak çerçeveden taşıyor
 mu (taşıyorsa geniş kesim), öfke komedi tonunu aşıp korkutucu olmuş mu.
+
+
+## Sonuç — R3 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_riza_ofkeli.webp`. Kaşlar çatık, dişler sıkılı,
+yüz kızarmış, parmak kadrajın soluna uzanmış, öteki el yumruk; tutulmuş öfke, korkutucu
+değil. Baş R1 ile aynı yerde; parmak çerçevenin içinde (geniş kesim gerekmedi). Taslakta
+K1 sonucu yok; gerçek oyunda K1 sonuç ekranında ve K3 ara karesinde kullanılır.
+**Rıza Reis tamam (normal, dertli, öfkeli).**
+
+## S1 — Serkan, kaçamak (★, ekran hâli)
+
+Kanondan: Rıza Reis'in oğlu, otuzlarında ("Otuzlarında bir adam. Serkan." — Tuba);
+batmış balık-ekmek dükkânı, cuma ödemeli borç; konuyu değiştiriyor; cebi şıngırdıyor
+(yedek anahtar); **boynunda bir dizi setinin yaka kartı, Peri bakınca gömleğinin içine
+sokuyor.** Kanonun görsel kuralı: **yaka kartının yüzü görünmez.** Çözüm: kart yarı
+yarıya gömleğin içine sokulmuş, görünen kısmı kartın **arkası** — düz, boş. Ekranda Peri'ye
+bakan biri olarak, kartı saklamaya çalışırken yakalanmış an.
+
+Görünüş (balıkçı tulumu değil, kafe-dükkân sahibi genç adam) öneridir.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek
+insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak
+boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
+roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı, renk, ölçek, kadraj ve arka plan içindir;
+içindeki adam bu görselde yok.)
+
+Karakter: Serkan, otuz iki yaşında, İstanbullu bir adam; yaşlı bir balıkçının oğlu.
+Orta boylu, ince; omuzları hafif çökük, yerinde duramayan, gergin biri. Babasından
+kalma geniş yüz hatları ama daha yumuşak; kısa, kenarları kazınmış koyu kahve saç, iki
+günlük sakal, uykusuz gözlerinin altında morluk. Esmer ten.
+
+Kıyafet: eskimiş, koyu yeşil bir kapüşonlu üst, fermuarı yarıya kadar açık; altında
+gri bir tişört. Koyu, solmuş bir kot. Kapüşonlunun ve tişörtün üzerinde hiçbir yazı,
+logo, desen yok.
+
+Boynunda: ince, siyah bir kordon; ucundaki plastik, dikdörtgen kart YARI YARIYA
+tişörtünün yakasından içeri sokulmuş; görünen yarısı kartın ARKA YÜZÜ: düz, beyaz, boş,
+hiçbir yazı, fotoğraf, logo yok.
+
+Poz: bir eli kartı tişörtünün içine itmeye çalışırken yakalanmış, yaka hizasında;
+öteki eli kotunun cebinde, cebi şişkin (içinde anahtarlar). Ağırlığı bir ayağında,
+kaçmaya hazır gibi hafif yana dönük.
+
+Başın açısı ve bakış: başı kadrajın soluna, karşısında duran birine dönük; yüzü üç
+çeyrek profilden görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın sağında
+kalıyor. Ama gözleri karşısındakinin yüzüne değil, kaçamak bir biçimde aşağıya ve yana
+kayıyor. Kameraya bakmıyor.
+
+İfade: kaçamak, suçlu, zoraki bir gülümseme; dudaklarının bir köşesi yukarıda ama gözleri
+gülmüyor; kaşları ortada kalkık; "bir şey yok, her şey yolunda" der gibi.
+
+Kadraj: DİKEY. Referanstaki adamla aynı ölçek ve kesim: uyluk ortasından yukarısı,
+başın tepesi aynı yükseklikte. Tek başına, ayakta.
+
+Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kartta yazı/fotoğraf/logo görünüyor mu (en büyük risk — kanon
+yüzünün görünmesini yasaklıyor; görünüyorsa rötuşla düz beyaza), kıyafette yazı/logo,
+yaş otuzlar mı, bakış kaçamak ama kadrajın soluna mı, Rıza Reis'in oğlu olabilir mi.
