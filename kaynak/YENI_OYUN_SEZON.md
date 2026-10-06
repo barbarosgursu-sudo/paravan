@@ -33,6 +33,16 @@ referans). **Azaltılmaz.** Kapalı yakalı bir parça (tayyör, kazak, gömlek)
 bile üst düğmeler açık, iç bluz aynı derinlikte çizilir. Her Peri görsel promptuna
 bu satır eklenir.
 
+**Peri'nin felaketi (sahibinin kararı, 6 Ekim 2026):** her vakada Peri'nin üstü başı
+bir şekilde berbat olur — bir kovalamaca, boğuşma ya da kaza; balık, çamur, boya, pasta,
+su… Zarif eski güzellik kraliçesinin en kötü anı, fiziksel komedi. Kurallar:
+- Komedi; acı, tehlike, aşağılanma yok. Peri gururunu korumaya çalışır ("Planlamıştım.").
+- Dekolte kuralı bozulmaz: kirlenen sahnede de temel setteki ayarda görünür.
+- Felaket vakanın konusundan çıkar (V1: balık kasaları); dışarıdan yapıştırılmaz.
+- Görsel maliyeti: 1 ara kare + 2 "kirli" ifade (sinirli, utanmış) → vaka başına 3.
+- Sahne sonunda temizlenme anı yazılır (V1: çaycının hortumu), sonraki sahneler temel
+  setle sürer; araştırma sırası serbest olduğu için kirli hâl yayılmaz.
+
 ---
 
 ## AÇILIŞ — HACİZ SABAHI · *bedava · ~3-4 dakika*

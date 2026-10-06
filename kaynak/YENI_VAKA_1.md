@@ -85,6 +85,14 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 ⚙ arka plan: Karaköy, eski bir hanın üçüncü kat koridoru, büro kapısı · figürler: Peri, Cengo
 ⚙ görsel kuralı: kapıdaki tabelanın ve penceredeki yazının yüzü görünmez (yazı yok)
 
+⚙ geçiş: hanın sokaktan girişi (A4) · figür: Peri
+
+*Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor.*
+
+**PERİ [kas]:** Üçüncü kat. Tabii. Asansör yoktur.
+
+⚙ arka plan → A5
+
 *Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye
 bakan penceresinin camında da aynı yazı, ters okunuyor. Peri anahtarı deniyor.
 Olmuyor. Bir daha deniyor. Olmuyor.*
