@@ -2230,3 +2230,29 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Bu da reddedilirse D1 düşer (yıldızsız): "İki saniye sürüyor. Kapı açılıyor." satırı
 A5 üstünde metinle kalır.
+
+
+## Sonuç — D1 (Grok ile, 6 Ekim 2026)
+
+ChatGPT iki kez reddetti (el + tel, sonra yalnız ataç). Sahibi aynı ilk metni **Grok**'ta
+denedi; üretti. Kopya `kaynak/yeni_gorsel/detay_d1_tel.webp`.
+
+- **Tuttu:** koyu ahşap kapı, halka tokmak (A5 ile aynı), pirinç kilit, kilitte tel,
+  zahmetsiz tutan el, beyaz gömlek kolu ve açık kahverengi ceket, **harfsiz renkli
+  boncuklu bileklik**; kapı aralığından ışık çizgisi; arkada siyah-beyaz karo koridor.
+- **Düzeltme 1 — kırpma:** kapının üstüne düz bir pirinç plaka konmuş, harfe benzer
+  izler taşıyor ve kanondaki tabelayla (duvardan dik, yalnız kenarı) çelişiyordu. Üstten
+  123 px kırpıldı; plaka tamamen çıktı, oran tam 3:4 oldu (784×1045).
+- **Düzeltme 2 — parlaklık:** ortalama 69/49/30, koridor (A5) 129/87/56. `-level 0%,72%,1.15`
+  ile 103/77/49'a çekildi; detay karesi olduğu için hafif koyu kalması sorun değil.
+- **Stil:** öteki görsellerden biraz daha fotoğrafa yakın; tek başına tam ekran detay
+  karesi olarak geçiyor, karakterlerle yan yana durmadığı için göze batmıyor.
+
+**Ders:** ChatGPT kilit açma eylemini (hatta yalnız ataçlı kilidi) yasa dışı faaliyet
+sayıyor. Böyle bir sahne gerekirse doğrudan Grok denenir; Grok çıktısı stil, renk ve
+yazı için ayrıca kontrol edilir.
+
+Taslakta koridor sahnesinde "İki saniye sürüyor. Kapı açılıyor." satırında karakterler
+çekilir, D1 çapraz geçişle gelir; sonraki satırda koridora dönülür.
+
+**VAKA 1 DETAYLARI TAMAM: D1, D2, D3.**
