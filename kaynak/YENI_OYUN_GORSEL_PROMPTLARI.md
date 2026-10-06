@@ -2574,3 +2574,47 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kartta yazı/fotoğraf/logo görünüyor mu (en büyük risk — kanon
 yüzünün görünmesini yasaklıyor; görünüyorsa rötuşla düz beyaza), kıyafette yazı/logo,
 yaş otuzlar mı, bakış kaçamak ama kadrajın soluna mı, Rıza Reis'in oğlu olabilir mi.
+
+
+## S1 — ilk deneme Cengo'ya benzedi (6 Ekim 2026) → S1b
+
+Sahibinin itirazı: "Cengo'ya benziyor mu?" — evet: yüz kesimi, dağınık koyu saç, hınzır
+yarım gülüş neredeyse aynı. **Ders: yan karakterde referans olarak ana karakteri verme;
+üretici yüzü de alır.** Stil referansı olarak yalnız arka plan/sahne değil, kişi
+gösteren her görsel yüz sızdırır. Serkan için referans **babası Rıza Reis** (R1):
+benzerlik hikâyeye hizmet eder. Yüz tarifi Cengo'dan bilerek uzaklaştırıldı.
+
+### S1b — Serkan, kaçamak (R1 referanslı)
+
+```
+Referans görseldeki yaşlı adamın OĞLU: aynı aile yüzü, aynı geniş elmacık kemikleri,
+aynı kalın kaşlar ve aynı burun biçimi, ama otuz iki yaşında. Aynı çizim tarzı, aynı
+renkler, aynı düz açık bej arka plan, referansla aynı ölçek ve kadraj: uyluk ortasından
+yukarısı, başın tepesi aynı yükseklikte, dikey. Referanstaki yaşlı adamın kendisi bu
+görselde yok.
+
+Karakter: Serkan, otuz iki yaşında; yuvarlakça, yumuşak hatlı, biraz tombul yanaklı bir
+yüz; geniş, etli bir burun; çok kısa, makineyle kesilmiş koyu kahve saç (dağınık ya da
+kıvırcık DEĞİL); seyrek, düzensiz bir sakal; uykusuz, şiş göz kapakları, gözlerinin
+altında morluk. Orta boylu, hafif kilolu, omuzları çökük. Yakışıklı ya da karizmatik
+değil; sıradan, yorgun, dertli bir genç adam.
+
+Kıyafet: eskimiş, koyu yeşil, fermuarlı kapüşonlu bir üst, fermuarı yarıya kadar açık;
+altında gri bir tişört; solmuş koyu kot. Hiçbir yazı, logo, desen yok.
+
+Boynunda: ince siyah bir kordon; ucundaki plastik, dikdörtgen kart YARI YARIYA tişörtün
+yakasından içeri sokulmuş; görünen yarısı kartın ARKA YÜZÜ: düz, beyaz, boş.
+
+Poz: bir eli kartı tişörtünün içine itmeye çalışırken yakalanmış, yaka hizasında; öteki
+eli kotunun cebinde, cebi şişkin. Omuzları büzülmüş.
+
+Başın açısı ve bakış: başı kadrajın soluna dönük, yüzü üç çeyrek profilden; burnu
+kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor. Gözleri karşısındakinden
+kaçıyor, aşağıya bakıyor. Kameraya bakmıyor.
+
+İfade: korkak, suçlu, sinik değil; zorla gülümsemeye çalışan ama beceremeyen bir ağız,
+dudakları gergin; kaşları ortada endişeyle kalkık; alnında ter. Hınzır ya da kendinden
+emin DEĞİL.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
