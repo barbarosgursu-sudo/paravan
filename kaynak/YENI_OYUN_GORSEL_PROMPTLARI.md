@@ -1538,6 +1538,14 @@ Sonuç ortalaması 197/135/73 — A1/A2 ailesinde. **A3b de aynı komutla düzel
 tutar). Ders: aynı mekânın saat değişen görsellerinde "beyaz ışık" yazma; set
 kehribar tonda — "öğle, parlak ama sıcak, bal rengi ışık" de.
 
+## Sonuç — A3b (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a3b_salon_askisiz.webp`. A3 (özgün) referans
+verildi, üretici kilitlendi — burada istenen buydu: fark haritasında tek gerçek
+değişiklik manto, gerisi ince kenar gürültüsü. Aynı kehribar düzeltmesi uygulandı.
+Taslakta "Peri mantoyu giyiyor" satırında A3 → A3b geçiyor; askı boşalıyor, manto
+Peri'nin üstünde. **Açılış salonu tamam: A1, A2, A3, A3b.**
+
 ## A5b — Koridor, akşam (A5 referanslı, ★)
 
 ```
