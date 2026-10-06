@@ -663,7 +663,8 @@ değişen her nesne (avize, manto, lamba, kapı) için arka planın o anki hâli
 görsel olmalı. A1 avize sökülene kadar; A2 avizeden sona kadar; A3 → A3b manto
 giyilince; A6/A7 lamba yanık üretildi (eski sönük hâller kullanılmaz); kapanış kapıdan
 çıkınca koridora (A5b) geçer. Saat çizgisi: haciz sabah (A1/A2), boş salon öğle (A3),
-han ve büro öğleden sonra (A5, A6), kapanış akşam (A8, A5b).
+han ve büro öğleden sonra (A5, A6), araştırma akşamüstü / gün batımı (A9–A14),
+kapanış akşam (A8, A5b).
 
 **Yeniden kullanım:** A5, A6, A7, A8 (koridor ve büro), A9 (iskele) sezon boyu
 tekrar kullanılır. Vaka 2'den itibaren her vaka yalnız kendi mekânlarını ve ara

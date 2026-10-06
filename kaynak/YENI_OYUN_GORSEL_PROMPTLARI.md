@@ -1743,3 +1743,64 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 büyüterek tara), boş yer gerçekten okunuyor mu (ortada belirgin bir boşluk), kilit
 seçiliyor mu (seçiliyorsa Nurcan sızıntısı: İ1'de kilit_saglam'ı ele verir), alt üçte
 bir boş mu, vapurda yazı var mı, insan var mı.
+
+
+## Sonuç — A9 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a9_iskele.webp`. Üç adsız tekne (mavi, yeşil,
+kırmızı), mavi ile yeşilin arasında boş yer, zincirli baba, kasalar ve halat; ötede
+Ayasofya silueti ve vapurlar. **Yazı yok** (bordalar, kasalar, vapur büyütülerek
+tarandı). **Nurcan:** kilit seçilmiyor, yalnız zincir halkaları — İ1'de `kilit_saglam`
+sızmıyor.
+
+**Saat:** öğleden sonra istendi, **gün batımı** geldi. Sahibinin kararı: kalsın.
+Saat çizgisi buna göre: **araştırma mekânları akşamüstü / gün batımı** (iskele, çay
+ocağı, set, dükkân); kapanış akşam. Sonraki mekânlar bu ışıkta istenir.
+
+**Kadraj dersi — açılış planı:** taslağa konunca boş yer ve zincir tam Peri ile
+Cengo'nun arkasında kaldı. Mekânın anlatı öğesi ekranın ortasındaysa karakterler onu
+örter. Çözüm arayüzde: mekânın ilk anlatım satırına `mekan: true` — karakterler çekilir,
+yer boş görünür, sonraki satırda geri gelirler (0,5 sn). Taslakta her mekân girişinde
+uygulandı. Gerçek oyunda da her sahnenin ilk notu açılış planı olmalı. Prompt
+tarafında da: anlatı öğesi mümkünse ortaya değil, figürlerin arasına (orta-üst) ya da
+açılış planına bırakılır.
+
+## A10 — İskeledeki çay ocağı, yakın (A9 referanslı)
+
+İ2 (Cengo'nun çaycısı) burada geçer. Aynı iskele, aynı gün batımı ışığı. **A9'u
+referans olarak ekle.** Çay ocağı tabelası en büyük yazı riski: tabela hiç istenmez.
+
+```
+Referans görseldeki iskelenin AYNISI: aynı yer, aynı gün batımı ışığı, aynı renkler,
+aynı çizim tarzı. Bu görselde hiç insan yok.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, iskelenin kara tarafına dönmüş; rıhtımın
+gerisindeki küçük bir çay ocağına yakından bakıyor. Su ve tekneler kameranın arkasında
+kalıyor; yalnız kadrajın kenarında bir tekne pruvasının ucu ve suyun parıltısı
+seçiliyor. Görselin alt üçte biri boş, sakin taş rıhtım zemini: orada hiçbir nesne
+yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada, eski, küçük, ahşap bir çay ocağı kulübesi; önü açık, tezgâhlı. Kulübenin
+   üstünde ve önünde hiçbir tabela, levha, yazı, fiyat listesi yok.
+2. Tezgâhın üstünde büyük, parlak, bakır bir semaver; buharı tütüyor.
+3. Semaverin yanında yuvarlak, metal bir tepsi; tepside üç ince belli çay bardağı,
+   tabaklarıyla, içlerinde koyu kızıl çay.
+4. Tezgâhın önünde iki alçak, hasır oturaklı ahşap tabure.
+5. Kulübenin saçağında yanmayan, çıplak, tek bir ampul.
+6. Kulübenin yanında, duvara dayalı, katlanmış, düz renkli bir balıkçı ağı.
+
+Başka hiçbir nesne yok: tabela, levha, afiş, menü, fiyat kartı, gazete, kâğıt,
+telefon, şişe, paket, bayrak yok. Bardaklarda, tepside ve semaverde hiçbir yazı,
+logo, damga yok.
+
+Işık: gün batımı, kulübenin üstüne alçaktan sıcak turuncu ışık; semaverin bakırında
+parıltı; buhar ışıkta görünüyor. Hava: sıcak, tanıdık, mahalle samimiyeti.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kulübede tabela/yazı var mı (en büyük risk), bardaklarda
+ve semaverde damga ya da logo var mı, A9 ile aynı ışık mı, alt üçte bir boş mu, çay
+ocağı ortada mı (açılış planında görünür, sonra karakterler önüne gelir — o yüzden
+semaver ve bardaklar üst yarıda kalmalı).
