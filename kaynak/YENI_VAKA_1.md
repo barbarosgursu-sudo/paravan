@@ -242,6 +242,8 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 **CENGO:** Bana üç bardak borcu var.
 **PERİ:** Siz herkese mi borçlusunuz, herkes size mi?
 **CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım. Çaycı konuşur.
+**PERİ [normal]:** İskele. Çaycınızla tanışalım.
+**CENGO [kas]:** Benim değil. Bana borçlu, o kadar.
 
 ## Araştırma
 
@@ -252,6 +254,8 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 ### İ1 — Rıza Reis'in anlattıkları · *İfade · bedelsiz*
 ⚙ açılması: koşulsuz · olgular: `tekne_kayip`, `zincir_kilitli`
 
+> İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış.
+>
 > Rıza Reis: "Zinciri her akşam kendim kilitlerim. Anahtar bende, boynumda. Kimse
 > çözemez onu."
 >
@@ -279,6 +283,8 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 ⚙ açılması: `bebek_yonu` · olgular: `set_teknesi`, `nazli_izi`, `yat_tanitimi`
 ⚙ sahnede arama adayı: oyuncu pruvaya dokunup adı kendisi bulabilir (ekran kararı açık)
 
+> Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi.
+>
 > Bebek'te bir dizi çekiliyor. Peri "Beni tanırlar" diyerek içeri girmeye
 > çalışıyor; set asistanı onu süzüp "Figüranlar arkadan" diyor. Peri arkadan giriyor.
 >
@@ -295,6 +301,9 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 ### İ5 — Set sorumlusuyla konuşmak · *İfade · 1 hak*
 ⚙ açılması: `set_teknesi` · olgular: `kiralayan_serkan`
 
+> Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona "Tuba Hanım"
+> diye sesleniyor.
+>
 > Mekân sorumlusu Tuba, elinde üç telefonla: "Tekneyi sahibinden kiraladık, üç
 > günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir
 > adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım.
@@ -308,6 +317,8 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 
 > Peri duraksıyor: "Rıza Reis 'oğluma söylemeyin' dedi." Cengo: "Söylemiyoruz.
 > Soruyoruz."
+>
+> Çaycı yolu tarif ediyor: "Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur."
 >
 > Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu
 > değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı
@@ -360,6 +371,8 @@ sonraki sahnelerde isteğe bağlı bir şaka olarak kullanılabilir, zorunlu de�
 ⚙ açılması: `serkan_anahtar` · olgular: `serkan_borc`
 ⚙ görsel kuralı: notun yüzü görünmez
 
+> Kovalamaca dükkânın önünde başlamıştı; şimdi dönüp bakıyorlar.
+>
 > Serkan'ın kapalı balık-ekmek dükkânının kapısına bantlanmış, el yazısı bir not:
 > "Cuma günü ya para ya anahtar. — Ev sahibi." Yan dükkândaki simitçi gerisini
 > anlatıyor: dükkân batmış; birikmiş kira, balıkçıya veresiye, toplam yüz bin liraya
@@ -404,6 +417,23 @@ der, kim olduğunu demez. `serkan_kiraladi`'nın "Rıza Reis'in oğlu" demesi, R
 girişte oğlunun adını verdiği için hak edilmiş bilgidir.
 `serkan_kiraladi` Serkan'ın babasından sakladığını söylemez; bunu yalnız
 `serkan_neden` söyler.
+
+## Büroya dönüş — karar anı
+
+⚙ arka plan: büro penceresi, akşamüstü (A7) · figürler: Peri, Cengo
+⚙ araştırma bitince (hak tükenince ya da oyuncu "yeter" deyince) her durumda bu sahne
+⚙ köprü sahnesi: yeni olgu yok, bağı değiştirmez, tohum yazmaz
+
+*Büro, akşamüstü. Pencereden iskele görünüyor; Nazlı'nın yeri boş.*
+
+**PERİ [normal]:** Reis yarın parayla gelecek. Ona ne diyoruz?
+**CENGO [kas]:** Bildiğimizi.
+**PERİ [kas]:** Ne kadarını biliyoruz?
+**CENGO [normal]:** Siz patronsunuz. Siz sayın.
+
+⚙ Nurcan: bu sahne her yoldan oynanır; hiçbir olguyu (teknenin yeri, Serkan, set) adıyla anmaz.
+
+⚙ ardından karar ekranı
 
 ## Kararlar
 
@@ -525,7 +555,7 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 bu vakada karardan önceki bağ hep 0. Kademeli konuşma Vaka 2'de başlar.
 ⚙ arka plan: büronun içi, akşam (A8) → kapıdan çıkınca koridor, akşam (A5b) · figürler: Peri, Cengo
 
-*Büro, akşam. İskelenin ışıkları yanmış. Cengo kapıya yürüyor.*
+*Aynı akşam. Büro. İskelenin ışıkları yanmış. Cengo kapıya yürüyor.*
 
 ⚙ arka plan → A5b
 
