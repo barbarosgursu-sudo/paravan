@@ -3326,3 +3326,13 @@ Cengo yok); "Üçüncü kat. Tabii. Asansör yoktur." repliği **yalnız taslakt
 metninde yok — sahibi isterse eklenir.
 
 # VAKA 1 GÖRSELLERİ — TAMAM (45/45, 6 Ekim 2026)
+
+
+# KONUŞAN / DİNLEYEN GÖSTERİMİ (6 Ekim 2026, sahibinin kararı)
+
+Eski: konuşan büyür ve zıplar, dinleyen küçülür (scale .94) — orantısız görünüyordu.
+Yeni: **boylar sabit**; konuşan hafif aydınlanır (`brightness(1.04)`), dinleyen gölgede
+kalır (`brightness(.62)`; akşamda `.48` + sepya). Zıplama kaldırıldı. Ayrıca konuşma
+kutusuna yeterli `min-height` verildi: uzun replik ya da seçim ekranında kutu uzayınca
+sahne kısalıyor ve figürler 7–11 px küçülüyordu; artık bütün akışta Peri'nin boyu tek
+değer (tur testiyle doğrulandı). Gerçek oyunda aynı kural.

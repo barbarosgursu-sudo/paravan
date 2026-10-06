@@ -84,12 +84,13 @@ body {
 .figur img.genis { width: 122.62%; max-width: none; margin-left: -9.51%; }
 .figur[hidden] { display: none; }
 .plaka.cengo.konuk { background: #5b4a3a; }
-.figur.pasif { filter: brightness(.72) saturate(.8); transform: translateY(10px) scale(.94); }
+/* Boy sabit: konuşan aydınlanır, dinleyen gölgede kalır (sahibinin kararı). */
+.figur.pasif { filter: brightness(.62) saturate(.75); }
 .figurler.aksam .figur { filter: brightness(.8) sepia(.18) saturate(.9); }
-.figurler.aksam .figur.pasif { filter: brightness(.55) sepia(.22) saturate(.75); }
-.figur.aktif { transform: translateY(0) scale(1); z-index: 2; }
+.figurler.aksam .figur.pasif { filter: brightness(.48) sepia(.22) saturate(.7); }
+.figur.aktif { filter: brightness(1.04); z-index: 2; }
 .figur { position: relative; z-index: 1; }
-.figur.zipla { animation: zipla .28s ease; }
+.figur.zipla { animation: none; }
 @keyframes zipla { 40% { transform: translateY(-8px) scale(1.01); } }
 
 /* Konuşma kutusu */
@@ -97,7 +98,7 @@ body {
 .kutu {
   position: relative; background: var(--kagit); border-radius: 14px;
   border: 3px solid var(--gece); box-shadow: 0 5px 0 rgba(0,0,0,.35);
-  padding: 22px 16px 14px; min-height: 128px; cursor: pointer;
+  padding: 22px 16px 14px; min-height: 142px; cursor: pointer;
   display: flex; flex-direction: column;
 }
 .kutu:focus-visible { outline: 3px solid var(--simit); outline-offset: 3px; }
