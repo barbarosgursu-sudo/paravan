@@ -1581,6 +1581,12 @@ sarı bir ışık masanın üstüne ve çevresine düşüyor. Başka hiçbir şe
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+## Sonuç — A6L (6 Ekim 2026)
+
+**Tuttu.** Fark haritasında tek gerçek değişiklik lamba ve masadaki ışık havuzu.
+`kaynak/yeni_gorsel/arka_a6_buro_gunduz.webp` artık lambası yanık hâl (sönük A6
+kullanılmıyor). Taslakta büro gündüz arka planı A6L.
+
 ## A7L — Büro, pencere tarafı, lamba yanık (A7 referanslı; A7'nin yerine geçer)
 
 ```
