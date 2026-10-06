@@ -2682,3 +2682,62 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** telefon ekranlarında yazı/görüntü (en büyük risk), yelekte
 arma/yazı, kurşun kalemde yazı, Peri'ye benzemiş mi, bakış kadrajın soluna mı.
+
+
+## Sonuç — T1 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_tuba.webp`. Kırklarında, dağınık topuzda kurşun
+kalem, lacivert gömlek, çok cepli haki yelek (kalemler, bant), bir telefon omzunda, iki
+telefon elde — **hepsinin sırtı görünüyor, ekran yok.** Yazı/arma yok. Peri'ye
+benzemiyor. Taslakta Tuba satırlarında `konukGir: "tuba"`; boy 0.9.
+
+## C1 — Çaycı, gülümseyen (ekran hâli)
+
+Kanondan: iskeledeki çay ocağının sahibi; Cengo'ya üç bardak çayı sonunda ödüyor ve
+konuşuyor; "Dümendeki genç bana el salladı." Görünüş öneridir: altmışlarında, tombul,
+şakacı, iskelenin her şeyini gören biri.
+
+**Referans: Tuba T1** (yalnız stil, renk, ölçek). Rıza Reis referans verilmez — yaşlı
+erkek yüzü sızar ve iki iskele adamı birbirine benzer.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek
+insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak
+boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
+roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı, renk, ölçek, kadraj ve arka plan içindir;
+içindeki kadın bu görselde yok.)
+
+Karakter: Karaköy iskelesindeki çay ocağının sahibi, altmış beş yaşında bir adam.
+Kısa boylu, tombul, yuvarlak göbekli; neşeli, meraklı, şakacı. Yuvarlak, kırmızı
+yanaklı, güler yüzlü bir surat; tamamen dökülmüş, parlak bir kafa, kulaklarının üstünde
+yalnız ince beyaz saç; gür, beyaz, uçları yukarı kıvrık bir bıyık; sakal yok. Gözlerinin
+kenarında derin gülme çizgileri.
+
+Kıyafet: beyaz, kolları sıvalı bir gömlek; üstünde bele bağlanmış, düz, açık kahve bir
+önlük (üzerinde hiçbir yazı, logo yok); koyu gri kumaş pantolon. Omzunda katlanmış küçük
+beyaz bir kurulama bezi.
+
+Elinde: bir eliyle tuttuğu yuvarlak, metal, askılı bir çay tepsisi; tepside iki ince
+belli çay bardağı, içlerinde koyu kızıl çay. Tepside ve bardaklarda yazı, damga yok.
+
+Poz: tepsiyi ustalıkla tek elle göğüs hizasında tutuyor; öteki eli havada, bir şey
+anlatırken el sallar gibi.
+
+Başın açısı ve bakış: başı ve gözleri kadrajın soluna, karşısında duran birine dönük;
+yüzü üç çeyrek profilden görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında kalıyor. Kameraya bakmıyor.
+
+İfade: geniş, sıcak, dedikodu yapmaya hazır bir gülümseme; gözleri parlıyor, kaşları
+kalkık, "Sana bir şey söyleyeyim mi?" der gibi.
+
+Kadraj: DİKEY. Referanstaki kadınla aynı ölçek ve kesim: uyluk ortasından yukarısı,
+başın tepesi aynı yükseklikte. Tek başına, ayakta.
+
+Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** önlükte yazı/logo, Rıza Reis'e benzemiş mi (kasket, sakal,
+yelek olmamalı), bardak ve tepside damga, bakış kadrajın soluna mı.
