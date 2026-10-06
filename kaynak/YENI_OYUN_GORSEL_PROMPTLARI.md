@@ -2905,3 +2905,54 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kazınan boyanın altında harf seçiliyor mu (Nazlı adı burada
 görünmemeli), Rıza Reis'in yüzü ve kıyafeti tutuyor mu, başka insan var mı, tekne
 A11'dekiyle aynı mı.
+
+
+## Sonuç — K3 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k3_riza_teknede.webp`. Rıza Reis (yüz, kasket,
+yelek, kordon tutuyor) beyaz teknenin bordasına eğilmiş, başparmağının altında kalkan
+boya; altından **yalnız mavi lekeler, harf yok**. Gözleri dolu. Arkada iki film ışığı,
+devrik şemsiye ve minder, Rumeli Hisarı, gün batımı. Taslakta K1 sonuç ekranı yok;
+gerçek oyunda K1 sonucunda gösterilir.
+
+## K4 — Büroda levrek kasası, Cengo buzdolabına sığdırmaya çalışıyor (★, A6L + CA2)
+
+K2 sonucu: "Cengo levrek kasasını büronun tek buzdolabına sığdırmaya çalıştı. Sığmadı."
+Kanon metinde **büroda bir buzdolabı var**; A6'nın geniş açısında görünmüyor → kapının
+yanında, A6'nın kadrajı dışındaki köşede duruyor sayılır (A6 kapıdan bakıyor; kapının
+dibi kadraj dışı). Çelişki yok, ama bu kare o köşeyi ilk kez gösterir.
+
+Cengo **arkadan-yandan**, yüzü kısmen görünür (gülen ifade sprite'tan); ceket, gömlek,
+bordo kravat cepten sarkıyor — tanınması kıyafetten.
+
+```
+Birinci referans görseldeki bürodan bir köşe: aynı sıvası dökülmüş krem duvar, aynı
+eski ahşap döşeme, aynı sabah ışığı, aynı çizim tarzı. İkinci referans görseldeki
+adamın AYNISI: aynı dağınık siyah saç, aynı açık kahverengi buruşuk ceket, beyaz gömlek,
+koyu kot, ceketin yan cebinden sarkan bordo kravat, bilekte renkli boncuklu bileklik.
+
+Kadraj: DİKEY (3:4). Kamera büronun bir köşesine bakıyor; adam kadrajın ortasında,
+yandan ve biraz arkadan görünüyor, yüzünün yalnız yan profili ve gülümseyen ağız
+kenarı seçiliyor.
+
+Kadrajda YALNIZ şunlar var:
+1. Köşede, duvara dayalı, küçük, eski, krem rengi, tek kapılı, köşeleri yuvarlak bir
+   buzdolabı (1970'ler tarzı); kapısı ardına kadar açık; içi boş, tek bir rafı var,
+   içerisi soğuk mavi bir ışıkla aydınlık.
+2. Adam iki eliyle büyük, düz mavi, plastik bir balık kasasını buzdolabının içine
+   itmeye çalışıyor; kasa açıkça buzdolabından büyük, yarısı dışarıda kalmış. Kasa
+   ağzına kadar dolu, gümüş pullu, parlak levreklerle; birkaç kuyruk kasadan sarkıyor.
+3. Bir levrek kasadan kaymış, adamın ayakkabısının yanında, yerde.
+4. Kasanın üstünde ve buzdolabında hiçbir yazı, etiket, marka yok.
+
+Başka hiçbir nesne yok: kâğıt, takvim, mıknatıs, şişe, ambalaj yok.
+
+Işık: sabah güneşi yandan; buzdolabının içinden soğuk mavi ışık; levreklerin pulları
+parlıyor. Hava: komik; imkânsız bir işe gönülden girişmiş bir adam.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** buzdolabında marka/logo (en büyük risk — eski buzdolabı
+logolu çizilir; rötuşla silinir), kasada yazı, Cengo tanınıyor mu (kıyafet, saç,
+bileklik), yüz Cengo'dan kaymış mı, balık sayısı ve eller düzgün mü.
