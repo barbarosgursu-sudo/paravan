@@ -1981,3 +1981,58 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kepenkte, kapıda, camda yazı/not/afiş var mı (not varsa
 Nurcan sızıntısı), tabela izi gerçekten boş mu, binalarda tabela, alt üçte bir boş mu,
 A9 ile aynı ışık ailesi mi.
+
+
+## Sonuç — A13 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a13_ara_sokak.webp`. Dar Arnavut kaldırımlı
+sokak, ucunda Haliç, vapur ve gün batımı; sağda yeşil, paslı, yazısız kepenk; tabelanın
+söküldüğü yerde boş iz ve vida delikleri; camlı ahşap kapı, **not yok**; ters kasalar,
+çamaşır ipinde iki çarşaf. **Yazı yok.** Taslakta İ6 (Serkan; figürü sırada).
+Taslak etiketi "Taslak · deneme görselleri" → "Taslak" (görseller kalıcı).
+
+## A14 — Serkan'ın dükkânının içi, camdan (A13 referanslı)
+
+İ7 burada geçer. Kanonun görsel kuralı: **notun yüzü görünmez.** Çözüm geometride:
+not kapının camına DIŞARIDAN bantlı; kamera İÇERİDEN bakıyor, yani yalnız kâğıdın
+**arkası** görünür — bantları, kenarları, gün ışığında hafif saydam ama harfsiz.
+Not İ7'nin olgusu olduğu için A14 yalnız İ7 açılınca gösterilir; A13 ile çelişmez
+(A13'te kapı uzaktan ve cam karanlık).
+
+**A13'ü referans olarak ekle** (aynı dükkân, içeriden).
+
+```
+Referans görseldeki dükkânın İÇİ: aynı sokak, aynı gün batımı ışığı, aynı renkler,
+aynı çizim tarzı. Bu görselde hiç insan yok.
+
+Kadraj: DİKEY (3:4). Kamera dükkânın İÇİNDE, göz hizasında, camlı ahşap kapıya ve
+kepenge doğru, sokağa bakıyor. Görselin alt üçte biri boş, sakin, eski karo zemin:
+orada hiçbir nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada, referanstaki camlı ahşap kapı, içeriden; camından sokağın gün batımı ışığı
+   giriyor, dışarıda Arnavut kaldırımı belli belirsiz seçiliyor.
+2. Kapının camına DIŞARIDAN bantlanmış, beyaz, dikdörtgen bir kâğıt; içeriden
+   yalnız ARKASI görünüyor: düz beyaz kâğıdın sırtı, dört köşesinde şeffaf bant.
+   Kâğıdın arkasında hiçbir yazı, iz, gölge harf yok; ışık arkadan vurduğu için
+   kâğıt düz, aydınlık bir dikdörtgen gibi parlıyor.
+3. Solda, kepengin iç yüzü: inik, oluklu metal, içeriden çizgi çizgi ışık sızıyor.
+4. Kapının önünde, uzun, boş, paslanmaz çelik bir tezgâh; üstünde yalnız ters çevrilmiş
+   tek bir bardak ve kurumuş bir bez.
+5. Tezgâhın önünde, üst üste ters çevrilmiş dört ahşap sandalye.
+6. Duvarda boş bir ahşap raf ve tavandan sarkan sönük, çıplak bir ampul.
+7. Zeminde, köşede, düz renkli, boş bir plastik balık kasası.
+
+Başka hiçbir nesne yok: tabela, menü, fiyat listesi, takvim, fatura, kâğıt (kapıdaki
+dışında), şişe, ambalaj, telefon, ekran yok. Hiçbir yerde yazı, harf, rakam yok.
+
+Işık: içerisi loş; gün batımının turuncu ışığı yalnız kapı camından ve kepengin
+aralarından giriyor, tozun içinde çizgiler çiziyor; kâğıt ışığa karşı parlıyor.
+Hava: terk edilmiş, sessiz, biraz hüzünlü.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kâğıdın arkasında harf ya da ters yazı seçiliyor mu (en
+büyük risk — ters harf de harftir; varsa rötuşla düz beyaza), A13 ile aynı kapı mı,
+duvarda takvim/menü çizilmiş mi, alt üçte bir boş mu.
