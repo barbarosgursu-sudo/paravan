@@ -311,6 +311,7 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 
 ⚙ **Kovalamaca** (doruk komedi anı; seçim yok, sonuç değişmez) · arka plan: A13 → A9
 ⚙ ara kare: **K8** (Peri balık kasalarında, arkada Serkan levreklerin üstünde) · Peri bundan sonra İ6 boyunca **balıklı set** (sinirli, utanmış)
+⚙ PB2 (balıklı, utanmış) = istavrit anı: göğsünün arasından küçük bir istavriti kuyruğundan çekiyor, kıpkırmızı (sahibinin kararı).
 ⚙ görsel kuralı (sahibinin kararı): K8'de ve balıklı sette Peri'nin **dekoltesi görünür** (temel setteki ayarda); **saçı başı balık suyuyla ıslak**, topuz dağılmış, saçında pul. Komedi tonu korunur.
 
 > Serkan iskeleye doğru kaçıyor. Cengo ara sokaktan kestirmeye sapıyor. Peri
@@ -328,6 +329,12 @@ birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da **"neden"** (S
 >
 > **CENGO [kas]:** Kaybettiğin anahtar cebinde şarkı söylüyor.
 > **PERİ [utanmis]:** *(elindeki levreği nereye koyacağını bilmeden)* Bunu kime veriyorum?
+>
+> Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit
+> sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor ve tek
+> kelime etmeden Cengo'ya uzatıyor.
+>
+> **CENGO [gulen]:** Akşam yemeği çıktı.
 >
 > Çaycı hortumu uzatıyor. Peri hortumla yıkanıyor, mantosunu sıkıyor. Akşama kadar
 > üstünden hafif bir balık kokusu çıkmıyor değil.
