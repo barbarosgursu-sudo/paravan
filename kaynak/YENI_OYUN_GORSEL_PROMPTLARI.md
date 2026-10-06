@@ -1508,6 +1508,16 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ve göbek boş mu, kolilerde yazı var mı, alt üçte bir boş mu, kapının ötesinde bir şey
 (yazı, insan) var mı.
 
+## Sonuç — A2 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a2_salon_avize.webp`. Ters açı doğru kuruldu:
+askı ve manto artık solda, kapının yanında (A1'de sağdaydı — geometri tutarlı).
+Avize yerde, kristaller dağılmış, önde tek damla parlıyor; göbekten çıplak kablo
+sarkıyor; katlanır merdiven, kapalı koliler, tablo izleri. Kanepe ve örtülü mobilya
+yok. **Yazı yok** (koliler, hol, kapı büyütülerek tarandı). Alt üçte bir boş.
+Işık A1'den biraz daha turuncu, sabah sayılır. Taslakta "Arkada iki memur avizeyle
+boğuşuyor" satırından itibaren A2; taç bölümü burada geçiyor.
+
 ## A5b — Koridor, akşam (A5 referanslı, ★)
 
 ```
