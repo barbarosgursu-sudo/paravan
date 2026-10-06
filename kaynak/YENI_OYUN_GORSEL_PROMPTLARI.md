@@ -1646,6 +1646,10 @@ node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo [--genis] [-
   geniş hizalama hesabındaki bir hata yakalandı: taşan sağ şerit 88 değil **87 px**
   (1121−1034); `margin-left` −9.62 % değil **−9.51 %**.
 
+**Sahibinin kuralı (6 Ekim 2026): her prompt ile birlikte referans görselin KENDİSİ
+gönderilir** (özgün dosya, adıyla). Kodlar (A9, PM2…) tek başına yazılmaz — görsel
+sayısı arttıkça sahibi koddan hangisi olduğunu çıkaramıyor.
+
 **Yeni karakter eklenince:** referans görselden çerçeveyi seç (bütün ifadelerde
 karakterin hiçbir yeri kesilmesin), giysinin arka plana yakın rengi var mı bak, profili
 `PROFILLER`'a ekle.
