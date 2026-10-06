@@ -1400,15 +1400,15 @@ hâlâ asılı. Kanonda S2 zaten A3'te (boşalmış salon) geçiyor; çözüm A3
 burada üreticinin referansa kilitlenmesi işimize yarar). "Peri mantoyu giyiyor"
 satırında arka plan A3 → A3b geçer.
 
-## A3 — Aynı salon, bomboş, akşamüstü (A1 referanslı, ★)
+## A3 — Aynı salon, bomboş, öğle (A1 referanslı, ★)
 
 ```
 Referans görseldeki salonun AYNISI: aynı oda, AYNI KADRAJ, aynı yüksek pencereler ve
 tül perdeler, aynı tavan süslemeleri, aynı balıkçılsırtı parke, aynı çizim tarzı. Bu
 görselde hiç insan yok.
 
-Değişen şeyler: saat ve eşyalar. Akşamüstü; güneş alçalmış, pencerelerden giren ışık
-turuncu ve uzun, parkeye uzun pencere gölgeleri düşüyor. Odanın köşeleri gölgede.
+Değişen şeyler: saat ve eşyalar. Öğle; güneş yüksekte, pencerelerden giren ışık
+beyaz ve parlak, parkeye kısa, keskin pencere gölgeleri düşüyor.
 
 Salon artık BOMBOŞ. Kanepe, koliler, örtülü mobilya GİTMİŞ. Avize de sökülmüş: tavanın
 ortasında yalnız alçı göbek ve ondan sarkan kısa, çıplak bir elektrik kablosu kalmış.
@@ -1423,7 +1423,7 @@ Görselin alt üçte biri boş parke zemin.
 Başka hiçbir nesne yok: kâğıt, liste, kutu, koli, kitap, fotoğraf, çerçeve, ayna, saat,
 taç yok.
 
-Hava: sessiz, boş, biraz hüzünlü ama sıcak ışıklı.
+Hava: sessiz, boş, biraz hüzünlü ama aydınlık.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
@@ -1431,7 +1431,7 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ## A3b — Aynı boş salon, askı boş (A3 referanslı)
 
 ```
-Referans görselin AYNISI: aynı oda, aynı kadraj, aynı akşamüstü ışığı, aynı gölgeler,
+Referans görselin AYNISI: aynı oda, aynı kadraj, aynı öğle ışığı, aynı gölgeler,
 aynı çizim tarzı. Bu görselde hiç insan yok.
 
 Değişen TEK şey: askıdaki kırmızı manto yok. Ayaklı ahşap askılık aynı yerde duruyor
@@ -1441,5 +1441,114 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
 **Geldiğinde:** A1 ile aynı kadraj mı (pencereler ve askı aynı yerde), avize gerçekten
-sökülmüş mü, ışık akşamüstü mü; A3b'de yalnız manto mu gitmiş (başka bir şey
+sökülmüş mü, ışık öğle mi; A3b'de yalnız manto mu gitmiş (başka bir şey
 değişmişse fark gözü tırmalar).
+
+
+---
+
+# SÜREKLİLİK DENETİMİ — VAKA 1 (6 Ekim 2026)
+
+Sahibinin uyarısı: "Kırmızı mantoda olduğu gibi avizede de aynı sorun var." Bütün
+arka planlar metne karşı tarandı. **Kural: sahne içinde durumu değişen her nesne için
+arka planın o anki hâli ayrı bir görseldir; değişiklikten sonra eski görsele dönülmez.**
+Bulunanlar ve kararlar:
+
+| açık | karar |
+|---|---|
+| A1'de avize asılı, metinde S1 ortasında sökülüyor | A1 "Avize."ye kadar; sonrası (taç dahil) **A2** |
+| A3 "akşamüstü" — ama aynı gün Karaköy, Rıza Reis, araştırma var | A3 **öğle** |
+| Manto askıda, Peri giydikten sonra da | **A3 → A3b** |
+| Cengo ışığı yakıyor, A6/A7'de lamba sönük | **A6 ve A7 lamba yanık yeniden üretilir** (sahibinin kararı) |
+| Kapanışta kapı dışarıdan kilitleniyor, sahne A8'de (içeride) | ilk not A8, sonra **A5b** (koridor, akşam) |
+| "Cengo ceketini alıyor" — ceket hep üstünde | metin: "Cengo kapıya yürüyor" |
+| A8'de kutu öbür masaya geçmiş | zararsız, kalır |
+| Camdaki yazı görünmüyor | bilinçli karar (yazı yasağı), kalır |
+
+Saat çizgisi: A1/A2 sabah → A3 öğle → A5/A6/A7 öğleden sonra → A8/A5b akşam.
+
+## A2 — Aynı salon, ters açı, avize sökülmüş (A1 referanslı, ★)
+
+```
+Referans görseldeki salonun AYNISI: aynı oda, aynı krem duvarlar, aynı tavan
+süslemeleri, aynı balıkçılsırtı parke, aynı sabah ışığı, aynı çizim tarzı. Bu görselde
+hiç insan yok.
+
+Kadraj: DİKEY (3:4). TERS AÇI: kamera bu kez pencerelerin önünde duruyor ve odanın
+içine, kapıya doğru bakıyor. Pencereler kameranın arkasında kalıyor; sabah ışığı
+arkadan geliyor, parkeye pencere biçiminde ışık dikdörtgenleri düşüyor. Görselin alt
+üçte biri boş parke zemin: orada hiçbir nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Karşı duvarda, kadrajın solunda, açık duran yüksek, çift kanatlı bir salon kapısı;
+   kapının ötesi loş bir hol, holde hiçbir şey görünmüyor.
+2. Kapının hemen yanında referanstaki ayaklı ahşap askılık; askıda tek bir şey var:
+   kırmızı, kuşaklı, uzun bir kadın mantosu.
+3. Tavanın ortasında, kadrajın üst kenarına yakın, alçı göbek; avize SÖKÜLMÜŞ, göbekten
+   yalnız kısa, çıplak bir kablo sarkıyor.
+4. Göbeğin altında, orta zeminde, kadrajın sağ yarısında: referanstaki kristal avize
+   parkenin üstüne yan yatırılmış, kristal damlaları dağınık. Yanında ahşap, katlanır
+   bir merdiven açık duruyor.
+5. Avizenin biraz önünde parkede tek bir kristal damla parlıyor.
+6. Sağ duvar dibinde, üst üste dört beş kapalı, düz kahverengi, bantlı koli;
+   üzerlerinde hiçbir yazı, etiket, işaret yok.
+7. Duvarda tablolardan kalan açık renkli dikdörtgen izler ve boş çiviler.
+
+Bordo kanepe ve örtülü mobilya YOK (taşınmış); yerlerinde parkede hafif izler.
+
+Başka hiçbir nesne yok: kâğıt, liste, kitap, gazete, fotoğraf, çerçeve, tablo, ayna,
+ekran, telefon, saat, taç, kupa, alet çantası yok.
+
+Hava: telaşlı bir karmaşa, ama komik; zarif bir evin dağılması.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde:** A1 ile aynı ev gibi mi (duvar, parke, tavan, askı, manto), avize yerde
+ve göbek boş mu, kolilerde yazı var mı, alt üçte bir boş mu, kapının ötesinde bir şey
+(yazı, insan) var mı.
+
+## A5b — Koridor, akşam (A5 referanslı, ★)
+
+```
+Referans görselin AYNISI: aynı koridor, AYNI KADRAJ, aynı kapılar, aynı karo zemin,
+aynı tonozlu tavan, aynı çizim tarzı. Büro kapısının üstündeki pirinç tabela yine
+tam yandan, yalnız ince kenarıyla görünüyor; yüzü görünmüyor. Bu görselde hiç insan
+yok.
+
+Değişen TEK şey saat: akşam. Koridorun dibindeki kemerli pencereden lacivert akşam
+göğü ve ufukta son turuncu çizgi görünüyor. Tavandan sarkan cam abajurlu lamba YANIYOR;
+koridoru sıcak, sarı, loş bir ışıkla aydınlatıyor, karolarda ışığın yansıması var.
+Köşeler karanlık.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## A6L — Büro, gündüz, lamba yanık (A6 referanslı; A6'nın yerine geçer)
+
+```
+Referans görselin AYNISI: aynı oda, aynı kadraj, aynı sabah ışığı, aynı nesneler aynı
+yerlerde, aynı çizim tarzı. Bu görselde hiç insan yok.
+
+Değişen TEK şey: soldaki masanın üstündeki masa lambası YANIYOR; ampulünden sıcak
+sarı bir ışık masanın üstüne ve çevresine düşüyor. Başka hiçbir şey değişmiyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+## A7L — Büro, pencere tarafı, lamba yanık (A7 referanslı; A7'nin yerine geçer)
+
+```
+Referans görselin AYNISI: aynı kadraj, aynı pencere ve manzara, aynı sabah ışığı, aynı
+çizim tarzı. Bu görselde hiç insan yok.
+
+Değişen TEK şey: soldaki masanın üstündeki masa lambası YANIYOR; ampulünden sıcak
+sarı bir ışık masanın üstüne düşüyor. Başka hiçbir şey değişmiyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Not:** A6L ve A7L'de üretici referansa kilitlenirse (B3'teki gibi aynı görseli
+verirse) iş rötuşla yapılır: lambanın başlığına sıcak bir ışıma ve masaya ışık
+havuzu boyanır. Lamba düz bir yüzeyde, yapısal çizgi kesmiyor — rötuş sınırının
+içinde.

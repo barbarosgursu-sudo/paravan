@@ -36,6 +36,8 @@ kapıda duruyor.*
 **PERİ [utanmis]:** Bilmiyorum. Sayan dolandırıcı avukatımdı.
 **HİLMİ BEY:** Biz sayarız, hanımefendi. Bizim işimiz o.
 
+⚙ arka plan → A2 (ters açı; avize sökülmüş, yerde). Taç bölümü de burada geçer — A1'e dönülmez, A1'de avize hâlâ asılı.
+
 *Arkada iki memur avizeyle boğuşuyor. Bir kristal yere düşüyor. Hilmi Bey eğilip
 alıyor, listeye bir çizgi ekliyor.*
 
@@ -52,7 +54,7 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 
 ## Sahne 2 — Elde kalan tek şey
 
-⚙ aynı arka plan, artık boş
+⚙ aynı salon, artık boş, öğle ışığı (A3; askıda manto var) → Peri mantoyu giyince A3b (askı boş)
 
 **HİLMİ BEY:** Bir de bu var. *(bir anahtar ve katlanmış bir kâğıt uzatır)* Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket.
 **PERİ [kas]:** Benim şirketim yok.
@@ -158,6 +160,7 @@ Olmuyor. Bir daha deniyor. Olmuyor.*
 ## Sahne 4 — Kapı çalar
 
 ⚙ arka plan: büronun içi — tozlu, iki masa, bir pencere, pencereden Karaköy iskelesi
+⚙ görsel kuralı: Cengo ışığı yakar; A6 ve A7'de masa lambası YANIK (Rıza Reis ışığı iskeleden görüyor)
 
 *Büronun içi. Yedi yıllık toz, iki masa, bir pencere; pencereden Karaköy iskelesi.
 Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
@@ -474,10 +477,13 @@ varyantlar Vaka 2'den itibaren anlam kazanır.
 ⚙ her karardan sonra aynı sahne; bağı değiştirmez, tohum yazmaz
 ⚙ Ton §6 "her vakada en az bir konuşma anı bağa göre değişir" kuralından **muaf**:
 bu vakada karardan önceki bağ hep 0. Kademeli konuşma Vaka 2'de başlar.
-⚙ arka plan: büronun içi, akşam · figürler: Peri, Cengo
+⚙ arka plan: büronun içi, akşam (A8) → kapıdan çıkınca koridor, akşam (A5b) · figürler: Peri, Cengo
 
-*Büro, akşam. İskelenin ışıkları yanmış. Cengo ceketini alıyor, kapıya yürüyor.
-Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.*
+*Büro, akşam. İskelenin ışıkları yanmış. Cengo kapıya yürüyor.*
+
+⚙ arka plan → A5b
+
+*Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.*
 
 **PERİ [sinirli]:** Bu kapı beni hiç sevmedi.
 **CENGO [gulen]:** Kapı kimseyi sevmez. Kilit sever.
@@ -582,13 +588,14 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | # | görsel | nerede | |
 |---|---|---|---|
 | A1 | Peri'nin salonu, geniş açı — eşyalar taşınıyor, koliler | Açılış S1 | ★ |
-| A2 | Aynı salon, ters açı — kapıdan içeri, avize sökülürken | Açılış S1 (avize) | |
-| A3 | Aynı salon, bomboş, akşamüstü ışığı | Açılış S2 | ★ |
+| A2 | Aynı salon, ters açı — avize sökülmüş, yerde; kanepe taşınmış | Açılış S1 (avizeden sona kadar, taç dahil) | ★ |
+| A3 | Aynı salon, bomboş, öğle ışığı (askıda manto) | Açılış S2 | ★ |
 | A3b | A3, askı boş (manto Peri'nin üstünde) | Açılış S2 sonu | ★ |
 | A4 | Karaköy, eski hanın sokaktan girişi | Açılış S3 (geçiş) | |
 | A5 | Hanın üçüncü kat koridoru, büro kapısı | Açılış S3 | ★ |
-| A6 | Büronun içi, gündüz, geniş açı — iki masa, toz | S4, giriş, konuşma | ★ |
-| A7 | Büronun içi, pencere tarafı — camdan iskele | Konuşmada açı değişimi | |
+| A5b | Aynı koridor, akşam — tavan lambası yanık | Kapanış (tel sahnesi) | ★ |
+| A6 | Büronun içi, gündüz, geniş açı — iki masa, toz, **masa lambası yanık** | S4, giriş, konuşma | ★ |
+| A7 | Büronun içi, pencere tarafı — camdan iskele, **masa lambası yanık** | Konuşmada açı değişimi | |
 | A8 | Büronun içi, akşam — iskelenin ışıkları | Kapanış | ★ |
 | A9 | Karaköy iskelesi, geniş — Nazlı'nın boş bağlama yeri | İ1, İ3 | ★ |
 | A10 | İskeledeki çay ocağı, yakın | İ2 | |
@@ -642,14 +649,21 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 
 | | tam plan | yalnız ★ |
 |---|---|---|
-| Arka plan | 15 | 9 |
+| Arka plan | 16 | 11 |
 | Detay | 3 | 2 |
 | Ara kare | 7 | 6 |
 | Figür | 8 | 6 |
 | Cengo | 4 | 4 |
 | Peri mantosuz | 4 | 4 |
-| **Yeni görsel** | **41** | **31** |
+| **Yeni görsel** | **42** | **33** |
 | Hazır (Peri) | 4 | 4 |
+
+**Süreklilik denetimi (6 Ekim 2026, sahibinin uyarısıyla):** sahne içinde durumu
+değişen her nesne (avize, manto, lamba, kapı) için arka planın o anki hâli ayrı
+görsel olmalı. A1 avize sökülene kadar; A2 avizeden sona kadar; A3 → A3b manto
+giyilince; A6/A7 lamba yanık üretildi (eski sönük hâller kullanılmaz); kapanış kapıdan
+çıkınca koridora (A5b) geçer. Saat çizgisi: haciz sabah (A1/A2), boş salon öğle (A3),
+han ve büro öğleden sonra (A5, A6), kapanış akşam (A8, A5b).
 
 **Yeniden kullanım:** A5, A6, A7, A8 (koridor ve büro), A9 (iskele) sezon boyu
 tekrar kullanılır. Vaka 2'den itibaren her vaka yalnız kendi mekânlarını ve ara

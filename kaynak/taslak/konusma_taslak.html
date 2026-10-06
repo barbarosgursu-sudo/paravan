@@ -266,7 +266,7 @@ function cengoSVG(ifade) {
 
 // ---------- Yer tutucu arka planlar ----------
 const ARKALAR = {
-  buro: { ad: "Büro · sabah", svg: `<svg viewBox="0 0 480 600" preserveAspectRatio="xMidYMax slice">
+  buro: { ad: "Büro · gündüz", svg: `<svg viewBox="0 0 480 600" preserveAspectRatio="xMidYMax slice">
       <rect width="480" height="600" fill="#f2d9a8"/>
       <rect y="420" width="480" height="180" fill="#b8763f"/>
       <rect x="150" y="70" width="190" height="220" rx="6" fill="#9fd3d6" stroke="#5a3a26" stroke-width="10"/>
@@ -287,6 +287,11 @@ const ARKALAR = {
   buro_aksam: { ad: "Büro · akşam", svg: null, img: "A8", aksam: true },
   buro_pencere: { ad: "Büro · pencere", svg: null, img: "A7" },
   salon: { ad: "Nişantaşı · salon", svg: null, img: "A1" },
+  // Süreklilik: aşağıdakiler kendi görselleri gelene kadar yer tutucu (A1/A5) gösterir.
+  salon_avizesiz: { ad: "Nişantaşı · salon", svg: null, img: "A1", yerTutucu: "A2" },
+  salon_bos: { ad: "Nişantaşı · salon, öğle", svg: null, img: "A1", yerTutucu: "A3" },
+  salon_askisiz: { ad: "Nişantaşı · salon, öğle", svg: null, img: "A1", yerTutucu: "A3b" },
+  koridor_aksam: { ad: "Han · koridor, akşam", svg: null, img: "A5", aksam: true, filtre: "brightness(.5) saturate(.75) hue-rotate(-10deg)", yerTutucu: "A5b" },
   koridor: { ad: "Han · koridor", svg: `<svg viewBox="0 0 480 600" preserveAspectRatio="xMidYMax slice">
       <rect width="480" height="600" fill="#c9d6c0"/>
       <rect y="300" width="480" height="300" fill="#a6b59a"/>
@@ -337,7 +342,8 @@ const SAHNE_2 = [
 ];
 // Vaka 1 kapanışı (ilk kıvılcım) — YENI_VAKA_1.md'den, kısaltılmış.
 const SAHNE_3 = [
-  { k: "not", ifade: { peri: "normal", cengo: "normal" }, m: "Büro, akşam. Peri anahtarı kilide sokuyor. Olmuyor." },
+  { k: "not", ifade: { peri: "normal", cengo: "normal" }, m: "Büro, akşam. İskelenin ışıkları yanmış. Cengo kapıya yürüyor." },
+  { k: "not", arka: "koridor_aksam", ifade: { peri: "normal", cengo: "normal" }, m: "Koridor. Peri anahtarı kilide sokuyor. Olmuyor." },
   { k: "peri", ifade: { peri: "sinirli", cengo: "normal" }, m: "Bu kapı beni hiç sevmedi." },
   { k: "cengo", ifade: { peri: "sinirli", cengo: "gulen" }, m: "Kapı kimseyi sevmez. Kilit sever." },
   { k: "not", ifade: { peri: "normal", cengo: "yumusak" }, m: "Cengo teli kilide sokuyor; bir çıt. Teli Peri'ye uzatıyor." },
@@ -362,14 +368,16 @@ const SAHNE_0 = [
   { k: "peri", ifade: { peri: "normal" }, m: "Dikkatli indirin. Kristalleri sayılıdır." },
   { k: "hilmi", ifade: { peri: "normal" }, m: "Kaç tane?" },
   { k: "peri", ifade: { peri: "utanmis" }, m: "Bilmiyorum. Sayan dolandırıcı avukatımdı." },
-  { k: "hilmi", ifade: { peri: "utanmis" }, m: "Son kalem. “Güzellik yarışması birincilik tacı, bir adet.”" },
+  { k: "hilmi", ifade: { peri: "utanmis" }, m: "Biz sayarız, hanımefendi. Bizim işimiz o." },
+  { k: "not", arka: "salon_avizesiz", ifade: { peri: "normal" }, m: "Arkada iki memur avizeyle boğuşuyor. Bir kristal yere düşüyor." },
+  { k: "hilmi", ifade: { peri: "normal" }, m: "Son kalem. “Güzellik yarışması birincilik tacı, bir adet.”" },
   { k: "peri", ifade: { peri: "sinirli" }, m: "O satılık değil." },
   { k: "hilmi", ifade: { peri: "sinirli" }, m: "Satmıyoruz. Haczediyoruz." },
-  { k: "not", ifade: { peri: "normal" }, m: "Peri askıdaki kırmızı mantoya uzanıyor." },
+  { k: "not", arka: "salon_bos", ifade: { peri: "normal" }, m: "Öğle. Salon boşalmış. Peri askıdaki kırmızı mantoya uzanıyor." },
   { k: "hilmi", ifade: { peri: "normal" }, m: "Manto." },
   { k: "peri", ifade: { peri: "kas" }, m: "Üstümdeki giysiyi de mi alacaksınız?" },
   { k: "hilmi", ifade: { peri: "kas" }, m: "Üstünüzdeyse almayız. Askıdaysa alırız." },
-  { k: "not", periSet: "manto", ifade: { peri: "normal" }, m: "Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor." },
+  { k: "not", periSet: "manto", arka: "salon_askisiz", ifade: { peri: "normal" }, m: "Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor." },
   { k: "peri", ifade: { peri: "normal" }, m: "Üstümde." },
   { k: "hilmi", ifade: { peri: "normal" }, m: "Üstünüzde." }
 ];
@@ -401,7 +409,7 @@ function arkaKoy(ad) {
   // Akşam: arka plan kendi ışığında; figürlere lamba tonu verilir.
   document.querySelector(".figurler").classList.toggle("aksam", !!a.aksam);
   if (a.img) {
-    const filtre = "";
+    const filtre = a.filtre ? "filter:" + a.filtre + ";" : "";
     $("arka").innerHTML = '<img alt="" src="' + ARKA_GORSEL[a.img] + '" style="width:100%;height:100%;object-fit:cover;object-position:center 70%;display:block;' + filtre + '">';
     $("mekanAdi").textContent = a.ad;
     return;
