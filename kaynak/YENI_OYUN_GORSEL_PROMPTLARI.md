@@ -2618,3 +2618,67 @@ emin DEĞİL.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+
+## Sonuç — S1b (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/figur_serkan.webp`. Kısa saç, yuvarlak yüz, seyrek
+sakal, terli alın, korkak gülümseme; Rıza Reis'in oğlu olarak okunuyor, **Cengo'ya
+benzemiyor.** Kartın görünen kısmı boş beyaz arka yüz. Taslakta satır düzeyinde
+`konukGir` / `konukCik`: Serkan konuşmaya girince Cengo'nun yerine geçiyor, dükkâna
+geçerken çıkıyor ve Cengo dönüyor. Boy 0.92.
+
+## T1 — Tuba, set mekân sorumlusu (★, ekran hâli)
+
+Kanondan: "Mekân sorumlusu Tuba, elinde üç telefonla"; telaşlı, pratik, "Çekim cumaya
+yetişmezse ben yetişemem." Yaş ve görünüş öneridir: kırklarında (Peri'den ve sezonun
+genç pastane çalışanından ayrışsın), işini bilen, uykusuz bir set emekçisi.
+
+**Referans: Rıza Reis R1** (yalnız stil, renk, ölçek). Yan karakter kuralı: ana
+karakter referans verilmez. Yaşlı bir erkek referansı kadın figüre yüz sızdırmaz.
+
+**Yazı riski:** üç telefonun ekranı. Hepsi ekranı ona dönük ya da kapalı/kararmış;
+set yeleği/yaka kartı yok.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek
+insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak
+boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
+roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı, renk, ölçek, kadraj ve arka plan içindir;
+içindeki adam bu görselde yok.)
+
+Karakter: Tuba, kırk iki yaşında, bir dizi setinin mekân sorumlusu. Orta boylu, sağlam
+yapılı, enerjik; hep acelesi olan, pratik, işini bilen biri. Kalın, dalgalı, koyu kumral
+saçları tepede gelişigüzel bir topuzla toplanmış, topuza bir kurşun kalem saplanmış;
+birkaç tutam yüzüne düşmüş. Gözlerinin altında uykusuzluk; makyajı yok denecek kadar az.
+Açık buğday ten.
+
+Kıyafet: bol, koyu lacivert, kolları sıvalı bir keten gömlek, üstünde kalın, haki,
+çok cepli bir çalışma yeleği; ceplerden yalnız birkaç kalem ve bir rulo bant görünüyor.
+Siyah, rahat bir pantolon. Boynunda hiçbir kart, isim etiketi yok. Kıyafetlerde hiçbir
+yazı, logo, arma yok.
+
+Elinde: ÜÇ cep telefonu: biri kulağında, ikisi öteki elinde üst üste tutuluyor. Bütün
+ekranlar ya ona dönük ya da kararmış; hiçbir ekranın yüzü görünmüyor.
+
+Poz: bir telefon omzuyla kulağı arasında sıkıştırılmış, başı o yana eğik; öteki elinde
+iki telefon; gövdesi hafif dönük, sanki yürürken durmuş.
+
+Başın açısı ve bakış: başı ve gözleri kadrajın soluna, karşısında duran birine dönük;
+yüzü üç çeyrek profilden görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında kalıyor. Kameraya bakmıyor.
+
+İfade: telaşlı ama dostça; kaşları kalkık, ağzı konuşurken hafif açık, gözleri
+yorgun ama canlı; "iki dakikam var, hızlı sorun" der gibi.
+
+Kadraj: DİKEY. Referanstaki adamla aynı ölçek ve kesim: uyluk ortasından yukarısı,
+başın tepesi aynı yükseklikte. Tek başına, ayakta.
+
+Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** telefon ekranlarında yazı/görüntü (en büyük risk), yelekte
+arma/yazı, kurşun kalemde yazı, Peri'ye benzemiş mi, bakış kadrajın soluna mı.
