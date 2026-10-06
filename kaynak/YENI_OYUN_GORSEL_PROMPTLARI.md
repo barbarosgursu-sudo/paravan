@@ -1687,3 +1687,59 @@ Her arka plan bir **grup** taşır: yer + saat (`salon_sabah`, `salon_ogle`, `bu
 Gerçek oyunda da arka plan kaydı `grup` alanı taşımalı; süreklilik kuralının
 doğrulayıcı tarafı (bkz. Vaka 1 süreklilik denetimi) aynı alanı saat çizgisi için
 kullanabilir.
+
+---
+
+# VAKA 1 MEKÂNLARI
+
+## A9 — Karaköy iskelesi, geniş: Nazlı'nın boş yeri (★, sezon boyu)
+
+İ1 (Rıza Reis anlatır) ve İ3 (iskeleye bak) burada geçer. Saat: öğleden sonra (büro
+gündüzünden sonra, aynı gün). Stil referansı olarak A6L eklenebilir.
+
+**Nurcan:** A9 İ1'de de görünür, o yüzden kilidin sağlam olduğu (`kilit_saglam`, İ3)
+buradan okunmamalı. Zincir görünür (Rıza zaten anlatıyor) ama kilit seçilmez; kilidin
+yakın planı D2'dir ve yalnız İ3'te gösterilir. Teknelerin bordasındaki adlar en büyük
+yazı riski: hepsi düz boyalı, adsız istenir.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman arka planı. Belirgin, temiz
+kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi
+afişi ile modern çizgi roman arası bir tarz. Anime değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı ve renk içindir; bu başka bir mekân ve görselde
+hiç insan yok.)
+
+Mekân: İstanbul Karaköy'de, Haliç'in ağzında küçük bir balıkçı iskelesi. Ekim,
+öğleden sonra; güneş alçalmaya başlamış, ışık sıcak ve bal rengi.
+
+Kadraj: DİKEY (3:4). Kamera göz hizasında, iskelenin taş rıhtımının üstünde duruyor
+ve rıhtım boyunca ileri bakıyor; su kadrajın solunda. Görselin alt üçte biri boş,
+sakin, eski taş rıhtım zemini: orada hiçbir nesne yok.
+
+Kadrajda YALNIZ şunlar var:
+1. Solda, rıhtım boyunca suya bağlı, yan yana duran üç küçük, eski, ahşap balıkçı
+   teknesi; boyaları solmuş mavi, yeşil ve kırmızı; bordalarında hiçbir ad, harf,
+   rakam yok, düz boyalı.
+2. Bu teknelerin arasında, ortadaki yerde BOŞ bir bağlama yeri: orada tekne yok,
+   yalnız suyun üstünde boşluk. O boş yerin rıhtım kenarında kısa, kalın, demir bir
+   bağlama babası; babaya kalın, paslı bir zincir dolanmış, ucu rıhtımın taşına
+   bırakılmış. Zincir uzaktan görünüyor, ayrıntısı seçilmiyor.
+3. Rıhtımın üstünde, kenarda, üst üste yığılmış birkaç düz, adsız plastik balık
+   kasası ve kıvrılmış bir halat yığını.
+4. Suyun ötesinde, uzakta, Haliç'in mavi suyu, demirli beyaz bir şehir hatları
+   vapuru ve karşı kıyıda tarihi yarımadanın kubbeli, minareli silueti.
+5. Gökte birkaç martı.
+
+Başka hiçbir nesne yok: tabela, levha, afiş, bayrak, büfe, araba, kâğıt, telefon yok.
+Teknelerde, kasalarda ve vapurda hiçbir yazı, ad, numara yok.
+
+Işık: öğleden sonra güneşi, suda parıltılar, rıhtım taşlarında sıcak ışık. Hava:
+tanıdık, kokusunu hissettiren bir liman; ortadaki boş yer göze takılıyor.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** teknelerin bordasında ad/rakam var mı (en büyük risk —
+büyüterek tara), boş yer gerçekten okunuyor mu (ortada belirgin bir boşluk), kilit
+seçiliyor mu (seçiliyorsa Nurcan sızıntısı: İ1'de kilit_saglam'ı ele verir), alt üçte
+bir boş mu, vapurda yazı var mı, insan var mı.
