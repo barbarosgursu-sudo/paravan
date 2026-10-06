@@ -1408,7 +1408,7 @@ tül perdeler, aynı tavan süslemeleri, aynı balıkçılsırtı parke, aynı �
 görselde hiç insan yok.
 
 Değişen şeyler: saat ve eşyalar. Öğle; güneş yüksekte, pencerelerden giren ışık
-beyaz ve parlak, parkeye kısa, keskin pencere gölgeleri düşüyor.
+parlak ama sıcak, bal rengi; parkeye kısa, keskin pencere gölgeleri düşüyor.
 
 Salon artık BOMBOŞ. Kanepe, koliler, örtülü mobilya GİTMİŞ. Avize de sökülmüş: tavanın
 ortasında yalnız alçı göbek ve ondan sarkan kısa, çıplak bir elektrik kablosu kalmış.
@@ -1517,6 +1517,26 @@ sarkıyor; katlanır merdiven, kapalı koliler, tablo izleri. Kanepe ve örtül�
 yok. **Yazı yok** (koliler, hol, kapı büyütülerek tarandı). Alt üçte bir boş.
 Işık A1'den biraz daha turuncu, sabah sayılır. Taslakta "Arkada iki memur avizeyle
 boğuşuyor" satırından itibaren A2; taç bölümü burada geçiyor.
+
+## Sonuç — A3 (6 Ekim 2026)
+
+**Tuttu, renk düzeltmesiyle.** Kopya `kaynak/yeni_gorsel/arka_a3_salon_bos.webp`. Kadraj
+A1 ile aynı; salon boş, göbekten kablo sarkıyor, parkede izler, tablo izleri, askıda
+manto. Yazı yok. Alt üçte bir boş.
+
+**Sahibinin itirazı: renk kehribar olmalıydı.** Üretici "öğle, beyaz ışık" satırını
+fazla ciddiye aldı; ortalama renk 182/146/117 (A1 168/118/84, A2 174/114/64) — beyaza
+kaymış, set içinde kopuk duruyordu. Yeniden üretmek yerine **renk düzeltmesi**:
+
+```
+convert A3.png -channel R -evaluate multiply 1.06 -channel G -evaluate multiply 0.93 \
+  -channel B -evaluate multiply 0.68 +channel -modulate 100,110 A3_kehribar.png
+```
+
+Sonuç ortalaması 197/135/73 — A1/A2 ailesinde. **A3b de aynı komutla düzeltilir**
+(sahibi A3'ün özgün hâlini referans verir; iki görsel aynı ayarı alınca renk birebir
+tutar). Ders: aynı mekânın saat değişen görsellerinde "beyaz ışık" yazma; set
+kehribar tonda — "öğle, parlak ama sıcak, bal rengi ışık" de.
 
 ## A5b — Koridor, akşam (A5 referanslı, ★)
 
