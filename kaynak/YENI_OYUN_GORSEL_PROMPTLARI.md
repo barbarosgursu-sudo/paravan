@@ -2256,3 +2256,66 @@ Taslakta koridor sahnesinde "İki saniye sürüyor. Kapı açılıyor." satırı
 çekilir, D1 çapraz geçişle gelir; sonraki satırda koridora dönülür.
 
 **VAKA 1 DETAYLARI TAMAM: D1, D2, D3.**
+
+---
+
+# YAN KARAKTERLER — VAKA 1
+
+**Yöntem (temel setten kısaltılmış):** yan karakterlerin ekranda kameraya bakan kartı
+yok, o yüzden ilk görsel doğrudan **ekran hâli**: başı ve bakışı kadrajın soluna
+(Peri'ye) dönük, ekranın sağında durur, aynalanmaz. İkinci ifade bu görsel referans
+verilerek üretilir. Stil referansı: Cengo'nun nötr görseli (CA2) — aynı tarafta durduğu
+ve aynı yöne baktığı için kadraj ve ölçek de ondan gelir. Kesim: yeni profil
+(`arac_kes.js`'e eklenir, çerçeve ilk görselden seçilir).
+
+**Yazı riski:** yan karakterlerin elindeki her şey (liste, telefon, yaka kartı) yüzü
+kapalı ya da ters çevrili istenir.
+
+## H1 — Hilmi Bey, ciddi (★, ekran hâli)
+
+Kanondan: icra memuru, çok kibar, işini harfiyen yapan biri; elinde liste. "Ben onu
+takarken siz daha ilkokuldaydınız" / "O yarışmayı izledim, annemle" → **yaş otuz
+civarı** (Peri'nin taç yılında ilkokulda). Görünüşün geri kalanı (gözlük, kumaş
+yelek, ince bıyık) **öneri** — kanon değil, sahibi değiştirebilir.
+
+```
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek
+insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak
+boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi
+roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+(Referans görsel yalnız çizim tarzı, ölçek, kadraj ve arka plan içindir; içindeki
+adam bu görselde yok.)
+
+Karakter: Hilmi Bey, otuz yaşında bir devlet memuru. Orta boylu, ince yapılı, dimdik
+ve biraz resmî bir duruş; her şeyi kurallara göre yapan, ama içten içe kibar ve
+utangaç biri. Kısa, düzgün taranmış, yandan ayrılmış koyu kahve saçlar; temiz traşlı,
+yalnız ince, özenli bir bıyık. Yuvarlak, ince metal çerçeveli gözlük. Açık buğday ten.
+
+Kıyafet: biraz eskimiş ama ütülü, gri, sade bir takım elbise; beyaz gömlek, düz lacivert
+ince kravat, sıkıca bağlanmış. Ceketin altında gri örgü bir yelek. Yakasında ya da
+göğsünde hiçbir kart, rozet, isim etiketi yok. Ayakkabılar parlatılmış.
+
+Elinde: göğsüne bastırdığı, kapağı KAPALI, düz, koyu yeşil, karton bir dosya; kapağında
+hiçbir yazı, etiket yok; içindeki kâğıtların yalnız kenarları görünüyor. Öteki elinde
+tükenmez bir kalem. Kol saati, takı yok.
+
+Poz: dimdik ayakta, dosya göğsünde iki eliyle tutuluyor; kalem dosyanın üstünde.
+
+Başın açısı ve bakış: başı ve gözleri kadrajın soluna, karşısında duran birine dönük;
+yüzü üç çeyrek profilden görünüyor. Burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında kalıyor. Kameraya bakmıyor.
+
+İfade: ciddi, resmî, nazik; dudakları kapalı, kaşları hafif yukarıda, "görevimi
+yapıyorum, kusura bakmayın" diyen bir yüz.
+
+Kadraj: DİKEY. Referanstaki adamla aynı ölçek ve kesim: uyluk ortasından yukarısı,
+başın tepesi aynı yükseklikte. Tek başına, ayakta.
+
+Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** dosyada/yakada yazı, kart ya da rozet var mı, yaş otuz
+civarı mı (yaşlı memur çizilirse "ilkokuldaydınız" esprisi ölür), bakış kadrajın soluna
+mı, ölçek Cengo ile aynı mı, arka plan düz bej mi.
