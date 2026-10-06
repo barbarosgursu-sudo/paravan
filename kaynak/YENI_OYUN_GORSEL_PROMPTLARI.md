@@ -3314,3 +3314,15 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** kitabe yeri ve kilit taşı boş mu (en büyük risk), kapıda numara,
 ışık öğleden sonra mı, alt üçte bir boş mu.
+
+
+## Sonuç — A4 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/arka_a4_han_giris.webp`. Kemerli taş giriş, iki kanat
+açık (bir istendi; zararsız), içeride karo ve merdiven (A5 ile uyumlu); **kitabe yeri ve
+kilit taşı boş**, numara/tabela yok; sardunyalı pencere, sönük sokak lambası, uçta Haliç.
+Işık altın, A5 ile aynı aile. Taslakta salondan sonra kısa geçiş sahnesi (Peri mantolu,
+Cengo yok); "Üçüncü kat. Tabii. Asansör yoktur." repliği **yalnız taslakta**, Vaka 1
+metninde yok — sahibi isterse eklenir.
+
+# VAKA 1 GÖRSELLERİ — TAMAM (45/45, 6 Ekim 2026)
