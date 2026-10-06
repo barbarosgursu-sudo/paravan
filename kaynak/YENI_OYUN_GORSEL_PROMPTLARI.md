@@ -3002,3 +3002,54 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** bordada/pruvada ad ya da harf (en büyük risk), ışık gerçekten
 sabah mı (A9'un turuncusu taşınmış mı), tekne A9'daki boş yerde mi, insan var mı.
+
+
+## Sonuç — K5 (6 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k5_nazli_sabah.webp`. Serin pembe-mavi sabah, sis,
+çarşaf gibi su; Nazlı mavi ile yeşilin arasındaki eski yerinde, babaya zincirli, boyası
+yarı sökülmüş (beyaz yamalar, altından mavi). **Bordada ve pruvada ad yok**; vapurlarda
+yazı yok. Kenarda kırmızı dördüncü tekne eklenmiş, zararsız.
+
+## K6 — Peri yapımcıyla imza masasında; arkada beyaz tekne (★, A12 + Peri A2)
+
+K4 kararının sonucu ("danışmanlık sözleşmesi"; ruh: kirli). Yapımcı **figür olarak yok**
+— yüzü kadraj dışında; yalnız eli ve takım kolu (kanonda tarif edilmedi; yeni karakter
+çizmeyelim). Sözleşme yazı riski: kâğıdın yüzü görünmez, Peri'nin elinin ve kalemin altında;
+kamera yandan. **Peri'nin yüzü görünür:** zarafetle imza atıyor, dudaklarında küçük,
+soğuk bir gülümseme — kazanmış ama bir şey kaybetmiş. Dekolte temel setteki ayarda.
+
+```
+Birinci referans görseldeki set arkasının AYNISI arka planda, bulanık: aynı katering
+masası, aynı evler ve çınar, aynı gün batımı ışığı, aynı çizim tarzı; uzakta, bulanık,
+beyaz boyalı teknenin kıçı ve bir film ışığı görünüyor. İkinci referans görseldeki
+kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı kırmızı manto, krem saten bluz ve
+aynı dekolte, aynı altın küpeler.
+
+Kadraj: DİKEY (3:4). Kamera katering masasının yanından, masanın üstüne hafif yukarıdan
+ve yandan bakıyor. Kadın kadrajın solunda, masanın başında oturuyor, belden yukarısı
+görünüyor; yüzü üç çeyrek profilden.
+
+Kadrajda YALNIZ şunlar var:
+1. Kadın, dolma kalemle masadaki tek sayfalık kâğıda imza atıyor. Kâğıt kameraya göre
+   neredeyse yan duruyor; eli ve kalem kâğıdın üstünü kapatıyor; kâğıdın yüzündeki hiçbir
+   satır, harf, imza okunmuyor; kâğıt yalnızca düz, beyaz bir dikdörtgen.
+2. İfadesi: başı hafifçe eğik, gözleri kâğıtta; dudaklarında küçük, soğuk, kendinden
+   emin bir gülümseme; kaşları hafif kalkık. Kazanmış ama bunu sevmeyen biri.
+3. Kadrajın sağından giren bir erkeğin YALNIZ eli ve kolu: lacivert, pahalı bir takım
+   kolu, beyaz manşet, altın kol düğmesi; eli masaya, kâğıdın yanına, kapalı, kalın,
+   yazısız bir zarf koyuyor. Adamın yüzü ve gövdesi kadraj dışında.
+4. Masada yalnız: kâğıt, zarf, bir karton bardak.
+
+Başka hiçbir nesne yok: telefon, senaryo, klaket, ikinci kâğıt yok. Zarfta, bardakta,
+kalemde hiçbir yazı, logo yok.
+
+Işık: gün batımının sıcak ışığı yandan; kadının yüzünün yarısı gölgede. Hava: şık,
+sessiz, biraz kirli bir anlaşma.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kâğıtta satır/harf/imza (en büyük risk — rötuşla
+düzleştirilir), zarfta yazı, Peri'nin yüzü kaymış mı, dekolte setteki ayarda mı, yapımcının
+yüzü kadraja girmiş mi.
