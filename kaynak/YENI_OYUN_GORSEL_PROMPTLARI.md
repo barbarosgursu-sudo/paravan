@@ -3745,3 +3745,9 @@ beşinci ifadesi, `cay`). Gümüş tepside iki ince belli bardak, biri demli ça
 (buharlı), öteki boş; tepsi kadrajın soluna, Hilmi Bey'e uzatılıyor; kibar-ironik gülümseme.
 Ölçek PM2 ile aynı (1086×1448 → 1122×1402 bej dolgu, `saten` profili). Tepside yazı/desen
 yok. Oyunda "Önce çayınızı için…" ve "O zaman bugün için."; sonraki Peri satırı `normal`a döner.
+
+## PT-b — düzenleme: bardaklar büyük, ikisi de dolu (sahibinin isteği, 7 Ekim 2026)
+
+Telefonda tepsi küçük kalıyor, boş cam bardak seçilmiyordu. Sahibi: bardaklar büyüsün,
+**ikisi de çay dolu**. Birinci referans PT'nin kendisi (düzenleme; çerçeve ve ölçek korunur —
+yoksa sprite setle uyuşmaz).
