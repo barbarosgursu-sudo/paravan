@@ -119,9 +119,9 @@ bakan penceresinin camında da aynı yazı, ters okunuyor.*
 **CENGO [normal]:** Herkes bilir. Ben sadece utanmıyorum.
 **PERİ [normal]:** Teşekkür ederim. Şimdi gidebilirsiniz.
 **CENGO:** Gidemem. Maaşım yatmadı.
-**PERİ [kas]:** Ne maaşı?
+**PERİ [sasirmis]:** Ne maaşı?
 **CENGO:** Bu şirketin maaşı. Çalışanıyım.
-**PERİ:** Bu şirketin çalışanı yok.
+**PERİ [kas]:** Bu şirketin çalışanı yok.
 **CENGO:** Bordroda var. Yedi yıldır.
 **PERİ:** Yedi yıldır ne iş yapıyorsunuz?
 **CENGO [gulen]:** Hiç. Çok da iyi yapıyorum.
