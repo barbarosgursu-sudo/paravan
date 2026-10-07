@@ -3737,3 +3737,11 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** bir bardak dolu, biri boş mu; tepside desen/yazı; arka plan düz
 bej mi; ölçek PM2 ile aynı mı; dekolte; el ve parmak sayıları.
+
+## Sonuç — PT (7 Ekim 2026)
+
+**Tuttu.** Kesik sprite `kaynak/yeni_gorsel/sprite/peri_mantosuz_cay.webp` (mantosuz setin
+beşinci ifadesi, `cay`). Gümüş tepside iki ince belli bardak, biri demli çayla dolu
+(buharlı), öteki boş; tepsi kadrajın soluna, Hilmi Bey'e uzatılıyor; kibar-ironik gülümseme.
+Ölçek PM2 ile aynı (1086×1448 → 1122×1402 bej dolgu, `saten` profili). Tepside yazı/desen
+yok. Oyunda "Önce çayınızı için…" ve "O zaman bugün için."; sonraki Peri satırı `normal`a döner.
