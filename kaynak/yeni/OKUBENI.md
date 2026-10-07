@@ -40,7 +40,9 @@ Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün altı fonksiyonunu sar
 Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
 seçime kadar sarar, seçimi atlamaz. **GEÇİCİ:** "◂ Geri" düğmesi (sahibinin gözden geçirmesi için, 7 Ekim 2026) satır satır geri gider; sahnenin ilk satırında zincirdeki önceki sahnenin başına döner (açılış, giriş+konuşma). Oyun durumunu geri almaz (ipucu, karar, para). Kapatmak: `yeni_arayuz.js` → `VN_GERI = false`.
 
-**Açılış kaydı:** oyunun asıl kaydı ilk kez masada yazılır; açılışta hangi sahnede kalındığı ayrı anahtarda (`paravan_yeni_kayit_v1_acilis`) tutulur, açınca "Kaldığın yer — Açılış" ekranı sahnenin başından sürdürür. Masaya varınca silinir. Ruh hâli görseli ve istatistik paneli yeni
+**Açılış kaydı:** oyunun asıl kaydı ilk kez masada yazılır; açılışta hangi sahnede kalındığı ayrı anahtarda (`paravan_yeni_kayit_v1_acilis`) tutulur, açınca "Kaldığın yer — Açılış" ekranı sahnenin başından sürdürür. Masaya varınca silinir.
+
+**Tarayıcı iletişim kutusu yok:** claude.ai artifact çerçevesi `confirm()`/`alert()`ı engelliyor (kutu çıkmıyor, `confirm` "hayır" döner). Eski sayfanın "Baştan başla"sı bu yüzden hiçbir şey yapmıyordu; yeni oyunda `yenidenBasla` sayfa içi onay ekranıyla değiştirildi. Yeni bir onay/uyarı eklerken iletişim kutusu kullanma. Ruh hâli görseli ve istatistik paneli yeni
 sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔
 derleyici eşlemesini sınar.
 

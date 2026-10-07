@@ -441,3 +441,24 @@ sonEkrani = function(){
   h += `<button class="buton ikincil" onclick="yenidenBasla()">Baştan oyna</button></div>`;
   app.innerHTML = h; scrollUst();
 };
+
+/* "Baştan başla" eski sayfada confirm() soruyordu. claude.ai'nin artifact çerçevesi
+   tarayıcı iletişim kutularını engelliyor: kutu görünmüyor, cevap "hayır" sayılıyor,
+   düğme hiçbir şey yapmıyor. Yeni oyunda onay sayfanın içinde. */
+let vnOnayOncesi = "";
+yenidenBasla = function(){
+  vnOnayOncesi = app.innerHTML;
+  let h = '<div class="faz prolog-faz">' + ustSade();
+  h += `<div class="baslik" style="padding-top:32px"><div class="no">Baştan başla</div><h1>Emin misin?</h1></div>`;
+  h += `<div class="giris-metin anlati-italik">Kayıtlı ilerleme silinecek, oyun açılıştan yeniden başlayacak.</div>`;
+  h += '<button class="buton" onclick="yenidenBaslaOnay()">Evet, baştan başla</button>';
+  h += '<button class="buton ikincil" onclick="yenidenBaslaVazgec()">Vazgeç</button></div>';
+  app.innerHTML = h; scrollUst();
+};
+function yenidenBaslaOnay(){
+  kayitSil(); acilisSil();
+  oyun.durum = new Oyun(GAME).durum;
+  cengoSonAlev = null;
+  prologIndex = 0; prologGoster();
+}
+function yenidenBaslaVazgec(){ app.innerHTML = vnOnayOncesi; scrollUst(); }
