@@ -3542,3 +3542,49 @@ Yüz, saç, manto, bluz, dekolte, siyah etek ve teyzenin (yüzsüz) kolu tuttu; 
 
 K11b, ilk denemenin kendisi birinci referans verilerek DÜZENLEME olarak istenir (kompozisyon,
 ışık ve yüz korunur); ikinci referans K8 (kırmızı stiletto).
+
+## Sonuç — K11b (7 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k11_carsaf.webp` (ilk deneme `_ilk` olarak duruyor).
+Düzenleme olarak istendi, kompozisyon korundu: **kırmızı stiletto**, çarşaf başa geçmiş ve
+topuzu bastırmış, mandal saçta, bir uç yüzün yarısını kapatıyor, ipin kopan ucu mandallarla
+sürükleniyor; dekolte açık, siyah kalem etek ve kemer görünüyor. Teyzenin yalnız kolu ve
+tahta kaşık; kepenk, kapı, duvar büyütülerek tarandı — **yazı yok**. A13'ün ters kasaları
+da aynı. Yüz ifadesi rezil olmaktan çok şaşkın-soğukkanlı; kabul edilebilir.
+
+## K12 — Yakalama (A9 + Serkan + Cengo referanslı)
+
+Üç referans: **A9** (iskele, gün batımı), **Serkan S1b**, **Cengo CA2**. Peri kadrajda yok
+(K8 onun karesi). Komik süreklilik: Cengo'nun elinde K10'da yakaladığı simidin yarısı.
+
+```
+Birinci referans görseldeki iskelenin AYNISI: aynı taş rıhtım, aynı renkli balıkçı
+tekneleri, aynı Haliç ve gün batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki
+genç adamın AYNISI: aynı yüz, aynı kısa saç ve sakal, aynı yeşil kapüşonlu üst ve gri
+tişört. Üçüncü referans görseldeki adamın AYNISI: aynı yüz, aynı dalgalı koyu saç, aynı
+kahverengi ceket, açık yakalı krem gömlek, koyu kot.
+
+Kadraj: DİKEY (3:4). Kamera rıhtımda, alçak açı.
+
+Kadrajda YALNIZ şunlar var:
+1. Ön planda genç adam ıslak taşların üstünde, gümüş pullu levreklerin arasında sırt
+   üstü yatıyor; kolları iki yana açık, bir levrek göğsünün üstünde duruyor, yüzünde
+   şaşkın, yenilmiş bir ifade. Boynunda yaka kartı YOK.
+2. Onun üstüne eğilmiş ikinci adam: nefes nefese, terli, saçı dağınık; bir eliyle genç
+   adamın kapüşonlusunun yakasını kavramış, öteki elinde yarısı ısırılmış susamlı bir
+   simit. Yüzünde zafer kazanmış ama bitkin, komik bir sırıtış; yüzü üç çeyrek profilden,
+   aşağıya, genç adama dönük.
+3. Arkada devrilmiş mavi, plastik bir balık kasası; rıhtıma saçılmış levrekler, ıslak
+   taşlarda parıltı.
+
+Başka hiçbir insan yok. Başka hiçbir nesne yok: tabela, kâğıt, telefon yok. Kasada,
+teknelerde ve hiçbir yüzeyde yazı, ad, numara, logo yok.
+
+Işık: gün batımının sıcak turuncu ışığı; ıslak taşlarda, pullarda parıltı.
+Hava: slapstick komedi; şiddet, acı yok — beceri değil şans: adam kendi kendine kaymış.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** Serkan ve Cengo tanınıyor ve birbirine benzemiyor mu, simit
+elde mi, kasada/teknelerde yazı, el/parmak sayıları, ton şiddete kaymış mı.

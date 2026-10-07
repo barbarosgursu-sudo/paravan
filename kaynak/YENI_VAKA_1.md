@@ -733,7 +733,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
 | K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) · tuttu |
 | K10 | Kaçış: Serkan simit tablasını deviriyor, simitler havada, Cengo birini havada yakalıyor | İ6 kovalamaca | ★ (7 Ekim, sahibinin onayı) · tuttu |
-| K11 | Peri ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyzenin eli | İ6 kovalamaca | ★ (7 Ekim; çarşaf Peri'nin, sahibinin kararı) |
+| K11 | Peri ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyzenin eli | İ6 kovalamaca | ★ (7 Ekim; çarşaf Peri'nin, sahibinin kararı) · tuttu (K11b) |
 | K12 | Yakalama: Cengo kestirmeden çıkmış, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle

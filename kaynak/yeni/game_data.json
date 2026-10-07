@@ -19,7 +19,7 @@
       },
       "sesler": { "ses": "Ses", "asistan": "Set asistanı", "teyze": "Teyze" },
       "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
-      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10"]
+      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10", "K11"]
     }
   },
   "ekonomi": {
@@ -259,7 +259,7 @@
               { "k": "cengo", "i": "gulen", "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!" },
               { "k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?" },
               { "k": "cengo", "m": "(uzaktan) Bilmiyorum!" },
-              { "k": "not", "m": "Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor." },
+              { "k": "not", "m": "Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.", "kare": "K11" },
               { "k": "teyze", "m": "O çarşaf yeni yıkandı!" },
               { "k": "peri", "i": "sinirli", "m": "(çarşafın içinden) Getireceğim!" },
               { "k": "not", "m": "Peri çarşafı üstünden atıyor, koşmaya devam ediyor." },
