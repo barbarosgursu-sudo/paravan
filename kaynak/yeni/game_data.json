@@ -17,7 +17,7 @@
         "tuba":   { "ad": "Tuba", "ifadeler": ["normal"] },
         "cayci":  { "ad": "Çaycı", "ifadeler": ["normal"] }
       },
-      "sesler": { "ses": "Ses", "asistan": "Set asistanı" },
+      "sesler": { "ses": "Ses", "asistan": "Set asistanı", "teyze": "Teyze" },
       "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
       "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9"]
     }
@@ -242,7 +242,7 @@
         {
           "id": "serkan", "ad": "Rıza Reis'in oğlu", "tur": "İfade", "ico": "◈",
           "needs": [], "reveals": ["serkan_anahtar", "serkan_yaka_karti"],
-          "text": "Peri duraksıyor: “Rıza Reis ‘oğluma söylemeyin’ dedi.” Cengo: “Söylemiyoruz. Soruyoruz.” Çaycı yolu tarif ediyor: “Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur.” Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor. “O kart ne?” Serkan cevap vermiyor. Koşuyor. Peri ıslak rıhtımda kayıp balık kasalarının içine oturuyor; kaçan Serkan levreklere basıp sırt üstü düşüyor. Yerde, nefes nefese itiraf ediyor: teknenin yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. “Ama kaybettim,” diyor. Cebi şıngırdıyor.",
+          "text": "Peri duraksıyor: “Rıza Reis ‘oğluma söylemeyin’ dedi.” Cengo: “Söylemiyoruz. Soruyoruz.” Çaycı yolu tarif ediyor: “Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur.” Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor. “O kart ne?” Serkan cevap vermiyor. Koşuyor; simitçinin tablası devriliyor. Cengo kestirmeden gidiyor, bir çamaşır ipine dalıp çarşafa sarılıyor. Peri ıslak rıhtımda kayıp balık kasalarının içine oturuyor; kaçan Serkan levreklere basıp sırt üstü düşüyor, Cengo yetişip yakasına yapışıyor. Yerde, nefes nefese itiraf ediyor: teknenin yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. “Ama kaybettim,” diyor. Cebi şıngırdıyor.",
           "meta": "Serkan'da yedek anahtar var, kaybettiğini söylüyor. Boynunda da bir dizi setinin yaka kartı var.",
           "sahne": {
             "_not": "Kovalamaca: doruk komedi anı; seçim yok, sonuç değişmez. Peri'nin felaketi (sezon kuralı). Hortumdan sonra Peri temel sete döner.",
@@ -255,7 +255,15 @@
               { "k": "not", "m": "Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor." },
               { "k": "peri", "i": "kas", "m": "O kart ne?" },
               { "k": "not", "m": "Serkan cevap vermiyor. Koşuyor. Cebi şıngırdıyor.", "cik": true },
-              { "k": "not", "m": "Serkan iskeleye doğru kaçıyor. Cengo ara sokaktan kestirmeye sapıyor. Peri topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah avıyla dolu kasaların içine oturuyor. Kasa devriliyor, levrekler rıhtıma saçılıyor. Önde koşan Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor. Cengo kestirmeden çıkıp başına dikiliyor.", "kare": "K8" },
+              { "k": "not", "m": "Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor." },
+              { "k": "cengo", "i": "gulen", "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!" },
+              { "k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?" },
+              { "k": "cengo", "m": "(uzaktan) Bilmiyorum!" },
+              { "k": "not", "m": "Cengo ara sokakta bir çamaşır ipine dalıyor. Beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor." },
+              { "k": "teyze", "m": "O çarşaf yeni yıkandı!" },
+              { "k": "cengo", "m": "(çarşafın içinden) Getireceğim!" },
+              { "k": "not", "m": "Serkan iskeleye doğru kaçıyor. Peri topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah avıyla dolu kasaların içine oturuyor. Kasa devriliyor, levrekler rıhtıma saçılıyor. Önde koşan Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor.", "kare": "K8" },
+              { "k": "not", "m": "Cengo, çarşaf omzunda, nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın yakasına yapışıyor." },
               { "k": "cengo", "i": "gulen", "m": "Siz düştünüz, o kaydı. Ekip işi.", "arka": "A9", "set": "balikli" },
               { "k": "peri", "i": "sinirli", "m": "(saçından pul ayıklayarak) Planlamıştım." },
               { "k": "serkan", "i": "normal", "m": "Yedek anahtar bende. Yıllar önce babam verdi, unuttu. Ama kaybettim.", "gir": "serkan" },

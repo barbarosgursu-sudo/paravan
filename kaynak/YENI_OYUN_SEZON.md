@@ -43,6 +43,15 @@ su… Zarif eski güzellik kraliçesinin en kötü anı, fiziksel komedi. Kurall
 - Sahne sonunda temizlenme anı yazılır (V1: çaycının hortumu), sonraki sahneler temel
   setle sürer; araştırma sırası serbest olduğu için kirli hâl yayılmaz.
 
+**Kovalamaca (sahibinin kararı, 7 Ekim 2026):** her vakada suçluyla bir kovalamaca ya da
+arbede olur — Mavi Ay'ın bölüm sonu gibi birkaç dakikalık komedi. Kurallar:
+- İkisi de ayrı ayrı komik duruma düşer (V1: Cengo çamaşır ipinde çarşafa sarılır, Peri
+  balık kasasına oturur). Suçluyu beceri değil **şans** yakalar (V1: Serkan levreklere basıp kayar).
+- Yazıyla değil **görüntüyle** anlatılır: her vuruşun kendi ara karesi var (V1: 4 kare).
+- Peri'nin felaketi bu kovalamacanın içinde olur; iki kural birbirini besler.
+- Yer: V1'de araştırmanın ortasında (Serkan ipucu, her yol oradan geçiyor). Sonraki
+  vakalarda karardan hemen önceki doruğa yazılması önerilir — Mavi Ay'daki gibi.
+
 ---
 
 ## AÇILIŞ — HACİZ SABAHI · *bedava · ~3-4 dakika*

@@ -332,15 +332,41 @@ Oyuncu iki yoldan birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya
 > Serkan cevap vermiyor. Koşuyor. Cebi şıngırdıyor.
 
 ⚙ **Kovalamaca** (doruk komedi anı; seçim yok, sonuç değişmez) · arka plan: A13 → A9
+⚙ dört vuruş (sahibinin onayı, 7 Ekim 2026): **K10** kaçış (simit tablası) → **K11** Cengo'nun
+kestirmesi (çamaşır ipi) → **K8** Peri balık kasasında → **K12** yakalama. İkisi de ayrı
+ayrı rezil olur, Serkan'ı beceri değil şans yakalar (sezon kuralı "Kovalamaca").
 ⚙ ara kare: **K8** (Peri balık kasalarında, arkada Serkan levreklerin üstünde) · Peri bundan sonra İ6 boyunca **balıklı set** (sinirli, utanmış)
 ⚙ PB2 (balıklı, utanmış) = istavrit anı: göğsünün arasından küçük bir istavriti kuyruğundan çekiyor, kıpkırmızı (sahibinin kararı).
 ⚙ görsel kuralı (sahibinin kararı): K8'de ve balıklı sette Peri'nin **dekoltesi görünür** (temel setteki ayarda); **saçı başı balık suyuyla ıslak**, topuz dağılmış, saçında pul. Komedi tonu korunur.
 
-> Serkan iskeleye doğru kaçıyor. Cengo ara sokaktan kestirmeye sapıyor. Peri
-> topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah
-> avıyla dolu kasaların içine oturuyor. Kasa devriliyor, levrekler rıhtıma saçılıyor.
-> Önde koşan Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor. Cengo
-> kestirmeden çıkıp başına dikiliyor.
+> ⚙ ara kare: **K10** (simit tablası)
+>
+> Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor.
+> Simitler havada uçuşuyor.
+>
+> **CENGO [gulen]:** *(havadaki bir simidi yakalayıp ısırarak)* Ben kestirmeden!
+> **PERİ [sinirli]:** Kestirme nereye çıkıyor?
+> **CENGO:** *(uzaktan)* Bilmiyorum!
+>
+> ⚙ ara kare: **K11** (çamaşır ipi)
+>
+> Cengo ara sokakta bir çamaşır ipine dalıyor. Beyaz bir çarşafa sarılıp hayalet gibi
+> koşmaya devam ediyor. Pencereden bir teyze bağırıyor.
+>
+> **TEYZE:** O çarşaf yeni yıkandı!
+> **CENGO:** *(çarşafın içinden)* Getireceğim!
+>
+> ⚙ ara kare: **K8** (balık kasası)
+>
+> Serkan iskeleye doğru kaçıyor. Peri topuklularıyla ana yoldan koşuyor; ıslak
+> rıhtımda kayıyor ve balıkçıların sabah avıyla dolu kasaların içine oturuyor. Kasa
+> devriliyor, levrekler rıhtıma saçılıyor. Önde koşan Serkan levreklere basıyor,
+> kayıyor, sırt üstü düşüyor.
+>
+> ⚙ ara kare: **K12** (yakalama)
+>
+> Cengo, çarşaf omzunda, nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın
+> yakasına yapışıyor.
 >
 > **CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi.
 > **PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
@@ -691,7 +717,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | D2 | İskelede zincir ve sağlam asma kilit | İ3 | ★ |
 | D3 | Pruvada taze beyaz boya, altında eski boyanın gölgesi (harf okunmaz) | İ4 | ★ |
 
-### Ara kareler — 7
+### Ara kareler — 12
 
 | # | görsel | nerede | |
 |---|---|---|---|
@@ -704,6 +730,9 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K7 | Peri'nin eli mantonun cebinde, telin ucu görünüyor | Kapanış | ★ |
 | K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
 | K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) · tuttu |
+| K10 | Kaçış: Serkan simit tablasını deviriyor, simitler havada, Cengo birini havada yakalıyor | İ6 kovalamaca | ★ (7 Ekim, sahibinin onayı) |
+| K11 | Cengo ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyze | İ6 kovalamaca | ★ (7 Ekim) |
+| K12 | Yakalama: Cengo çarşaf omzunda, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
@@ -732,12 +761,12 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 |---|---|---|
 | Arka plan | 16 | 11 |
 | Detay | 3 | 2 |
-| Ara kare | 9 | 8 |
+| Ara kare | 12 | 11 |
 | Figür | 8 | 6 |
 | Cengo | 4 | 4 |
 | Peri mantosuz | 4 | 4 |
 | Peri balıklı (sinirli, utanmış) | 2 | 2 |
-| **Yeni görsel** | **46** | **37** |
+| **Yeni görsel** | **49** | **40** |
 | Hazır (Peri) | 4 | 4 |
 
 **Süreklilik denetimi (6 Ekim 2026, sahibinin uyarısıyla):** sahne içinde durumu

@@ -3419,3 +3419,50 @@ ayarından derin** ve ton komedi yerine çekiciliğe kayıyor. İkisi de sahibin
 tercihi; bu kare için istisna, setin genel ayarı değişmedi. Yüz Peri (çil yok, küçük
 altın küpe), çaycı aynı, vapurda yazı yok. Taslakta aynı `tam` kadrajla iki yüz de
 ekranda.
+
+
+# KOVALAMACA — üç yeni ara kare (7 Ekim 2026, sahibinin onayı)
+
+Vaka 1 İ6 dört vuruşa çıktı: **K10** kaçış → **K11** Cengo'nun kestirmesi → **K8** (aynen
+kalıyor) → **K12** yakalama. Kural (sezon belgesi "Kovalamaca"): ikisi ayrı ayrı rezil
+olur, suçluyu şans yakalar; yazı değil görüntü anlatır. Yan karakter yüzü kadraja
+sokulmaz (simitçi, teyze) — yüz sayısı az, sızma riski yok.
+
+## K10 — Kaçış: simit tablası (A13 + Serkan + Cengo referanslı)
+
+Üç referans: **A13** (ara sokak, kepenkli dükkân), **Serkan S1b** (yüz, kıyafet), **Cengo
+CA2** (yüz, kıyafet). Peri kadrajda yok.
+
+```
+Birinci referans görseldeki sokağın AYNISI: aynı dar Arnavut kaldırımlı Karaköy ara
+sokağı, sağda aynı yeşil, paslı, yazısız kepenk, aynı gün batımı ışığı, ucunda Haliç,
+aynı çizim tarzı. İkinci referans görseldeki genç adamın AYNISI: aynı yüz, aynı kısa
+saç, aynı yeşil kapüşonlu üst ve gri tişört. Üçüncü referans görseldeki adamın AYNISI:
+aynı yüz, aynı dalgalı koyu saç, aynı kahverengi ceket ve açık yakalı krem gömlek.
+
+Kadraj: DİKEY (3:4). Kamera sokakta, bel hizasında. Hareketli, komik bir an.
+
+Kadrajda YALNIZ şunlar var:
+1. Ön planda, kadrajın sağında, genç adam koşarak kaçıyor: gövdesi kadrajın sağına
+   dönük, bir ayağı havada, başı omzunun üstünden geriye dönmüş, gözleri panikle
+   kocaman. Boynunda yaka kartı YOK.
+2. Kadrajın ortasında, havada devrilen yuvarlak, tahta bir simit tablası; tablayı taşıyan
+   ahşap sehpa yana yıkılıyor. Havada on beş-yirmi susamlı simit uçuşuyor, birkaçı yere
+   düşmüş. Tablayı tutan kişiden yalnız kadrajın sol kenarından uzanan iki kol ve beyaz
+   bir önlük görünüyor; yüzü kadrajın DIŞINDA.
+3. Arka planda, kadrajın solunda, ikinci adam havaya sıçramış, bir eliyle uçan bir
+   simidi yakalamış, ağzını açmış ısırmak üzere; yüzünde keyifli, çocuksu bir sırıtış.
+   Yüzü üç çeyrek profilden, kadrajın sağına dönük; burnu kadrajın sağına bakıyor.
+
+Başka hiçbir insan yok. Başka hiçbir nesne yok: tabela, afiş, kâğıt, telefon, araba yok.
+Kepenkte, tablada, sehpada ve hiçbir yüzeyde yazı, harf, rakam, logo yok.
+
+Işık: gün batımının sıcak turuncu ışığı; havadaki simitlerde ve susamlarda parıltı.
+Hava: slapstick komedi; tehlike ya da acı yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** Serkan ve Cengo tanınıyor mu (Serkan Cengo'ya benzemesin —
+S1'de bu oldu), simitçinin yüzü kadraj dışında mı, kepenkte yazı, el/parmak sayıları,
+ton komik mi.
