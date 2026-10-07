@@ -3466,3 +3466,51 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** Serkan ve Cengo tanınıyor mu (Serkan Cengo'ya benzemesin —
 S1'de bu oldu), simitçinin yüzü kadraj dışında mı, kepenkte yazı, el/parmak sayıları,
 ton komik mi.
+
+
+## Sonuç — K10 (7 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k10_simit.webp`. Serkan referansla birebir (kısa
+saç, sakal, yeşil kapüşonlu, gri tişört), panikle geriye bakıyor; Cengo havada, simidi
+yakalamış, ağzı açık; tabla ve sehpa devriliyor, simitler havada. Simitçinin yalnız kolu
+ve beyaz kolu görünüyor, yüzü yok. A13'ün yeşil kepengi ve tabelanın söküldüğü boş iz
+aynı; **yazı yok** (tabela izi ve kepenk büyütülerek tarandı). Oyunda İ6'nın ilk
+kovalamaca satırında.
+
+## K11 — Cengo'nun kestirmesi: çamaşır ipi (A13 + Cengo referanslı)
+
+İki referans: **A13** (aynı ara sokak; ipteki iki beyaz çarşaf zaten orada — Cengo
+birini kapıyor), **Cengo CA2**. Teyzenin yüzü kadraj dışında: yalnız penceredeki eli.
+
+```
+Birinci referans görseldeki sokağın AYNISI: aynı dar Arnavut kaldırımlı Karaköy ara
+sokağı, aynı eski taş binalar, binalar arasına gerilmiş aynı çamaşır ipi, aynı gün
+batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki adamın AYNISI: aynı yüz,
+aynı dalgalı koyu saç, aynı kahverengi ceket, açık yakalı krem gömlek, koyu kot.
+
+Kadraj: DİKEY (3:4). Kamera sokağın ortasında, adamın önünde; adam kameraya doğru koşuyor.
+
+Kadrajda YALNIZ şunlar var:
+1. Ortada adam koşuyor; başına ve omuzlarına büyük, beyaz bir çarşaf dolanmış, hayalet
+   gibi arkasında uçuşuyor. Çarşafın üstünde hâlâ iki tahta mandal takılı. Yüzü
+   çarşafın açıklığından görünüyor: gözleri kocaman, bir eliyle çarşafı yüzünden
+   çekmeye çalışıyor, ağzı "eyvah" der gibi açık. Ceketinin kolları ve kotu çarşafın
+   altından görünüyor.
+2. Arkasında, binalar arasındaki çamaşır ipi sallanıyor; ipte bir çarşafın boş yeri,
+   kalan tek beyaz çarşaf ve birkaç mandal.
+3. Kadrajın sağ üstünde, ikinci kattaki açık bir ahşap pencereden yalnız bir kadın
+   kolu uzanıyor; elinde tahta bir kaşık, öfkeyle sallıyor. Kadının yüzü ve başı
+   pencerenin içinde, görünmüyor.
+4. Yerde uçuşmuş iki üç mandal.
+
+Başka hiçbir insan yok. Başka hiçbir nesne yok: tabela, afiş, kâğıt, araba yok. Duvarda,
+kapıda, pencerede hiçbir yazı, harf, rakam, logo yok.
+
+Işık: gün batımının sıcak turuncu ışığı; çarşafın kenarlarından süzülen ışık.
+Hava: slapstick komedi; tehlike ya da acı yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** Cengo'nun yüzü çarşafın içinden tanınıyor mu, teyzenin
+yüzü görünüyor mu (görünmemeli), mandallar, duvarlarda yazı, el/parmak sayıları.

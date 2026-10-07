@@ -730,7 +730,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K7 | Peri'nin eli mantonun cebinde, telin ucu görünüyor | Kapanış | ★ |
 | K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
 | K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) · tuttu |
-| K10 | Kaçış: Serkan simit tablasını deviriyor, simitler havada, Cengo birini havada yakalıyor | İ6 kovalamaca | ★ (7 Ekim, sahibinin onayı) |
+| K10 | Kaçış: Serkan simit tablasını deviriyor, simitler havada, Cengo birini havada yakalıyor | İ6 kovalamaca | ★ (7 Ekim, sahibinin onayı) · tuttu |
 | K11 | Cengo ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyze | İ6 kovalamaca | ★ (7 Ekim) |
 | K12 | Yakalama: Cengo çarşaf omzunda, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) |
 

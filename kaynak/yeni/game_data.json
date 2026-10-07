@@ -19,7 +19,7 @@
       },
       "sesler": { "ses": "Ses", "asistan": "Set asistanı", "teyze": "Teyze" },
       "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
-      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9"]
+      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10"]
     }
   },
   "ekonomi": {
@@ -255,7 +255,7 @@
               { "k": "not", "m": "Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor." },
               { "k": "peri", "i": "kas", "m": "O kart ne?" },
               { "k": "not", "m": "Serkan cevap vermiyor. Koşuyor. Cebi şıngırdıyor.", "cik": true },
-              { "k": "not", "m": "Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor." },
+              { "k": "not", "m": "Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.", "kare": "K10" },
               { "k": "cengo", "i": "gulen", "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!" },
               { "k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?" },
               { "k": "cengo", "m": "(uzaktan) Bilmiyorum!" },
