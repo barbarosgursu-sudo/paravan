@@ -7,7 +7,7 @@
     "tohum_isimleri": {},
     "sahne": {
       "figurler": {
-        "peri":   { "setler": { "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac"],
+        "peri":   { "setler": { "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac", "tac_sinirli"],
                                 "manto":    ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan"],
                                 "balikli":  ["sinirli", "utanmis"] } },
         "cengo":  { "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak"] },

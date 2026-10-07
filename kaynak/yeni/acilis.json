@@ -23,7 +23,7 @@
         { "k": "not", "m": "Avize sökülmüş, yerde; kristalleri parkeye dağılmış. Yanında bir merdiven, kapalı koliler.", "arka": "A2", "mekan": true },
         { "k": "not", "m": "Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor." },
         { "k": "hilmi", "m": "Son kalem. (okur) “Güzellik yarışması birincilik tacı, bir adet.”", "peri": "tac" },
-        { "k": "peri", "i": "tac", "m": "O satılık değil." },
+        { "k": "peri", "i": "tac_sinirli", "m": "O satılık değil." },
         { "k": "hilmi", "m": "Satmıyoruz. Haczediyoruz." },
         { "k": "peri", "m": "Ben onu takarken siz daha ilkokuldaydınız." },
         { "k": "hilmi", "i": "gulen", "m": "O yarışmayı izledim, hanımefendi. Annemle. Annem size oy vermişti." },

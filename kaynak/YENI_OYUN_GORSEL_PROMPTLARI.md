@@ -3801,3 +3801,9 @@ aynı mı, dekolte, el ve parmak sayıları (tacı kavrayan parmaklar).
 aynı (`saten` profili). Fark: taç K1'e göre daha altın tonlu (K1'de sıcak ışıkta gümüş-şampanya);
 tacın üst ucu dekoltenin altına değiyor, dekolte görünür. Oyunda "O satılık değil.",
 "Ben onu takarken…", "…Annenize selam söyleyin." — Peri tacı K1'e kadar bırakmıyor.
+
+### PTS — Peri, mantosuz, kızgın + taç (7 Ekim 2026) — TUTTU
+Referanslar: 1) mevcut `peri_mantosuz_sinirli` ham görseli, 2) PTC (taçlı Peri), 3) K1.
+Düzenleme: aynı poz ve ifade, yalnız sıkılı yumruk tacı kavrıyor (kalça hizasında,
+göğsü örtmüyor). Kesim: saten profil, KENAR=14, `--genis` (uzanan kol). Oyunda
+"O satılık değil." ve onu izleyen "Ben onu takarken…" satırında; ifade adı `tac_sinirli`.
