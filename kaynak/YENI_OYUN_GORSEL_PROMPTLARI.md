@@ -3651,3 +3651,40 @@ aynı; kaynak 1086×1448 geldi → yükseklik 1402'ye indirilip yanlara bej dolg
 — kâğıt bej zemine çok yakın. `saten` profili (kenar tol 14) kâğıdı korudu. **Zemine
 yakın renkli bir nesne tutan sprite'larda `saten` profiliyle kes, önizlemeye bak.**
 Oyunda: "(kâğıda bakar) Şirket gerçek görünsün…" ve han kapısında "Üçüncü kat. Tabii."
+
+
+## PC — Peri cüzdanını açıyor (mantolu set, yeni ifade "cuzdan"; A2 + PM2 referanslı)
+
+Sahibi oyunda istedi (7 Ekim 2026): "(cüzdanını açar) Kasa bu." / "Dört bin iki yüz elli
+lira. Bütün servetim." satırlarında cüzdan yoktu. PK'nin kardeşi; aynı çerçeve, kesim
+`saten` profiliyle (PK dersi). **Banknotun yüzü rakam ve yazı taşır** → cüzdanın içi
+Peri'ye dönük, kameraya yalnız deri dışı; para görünmez.
+
+```
+Birinci referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı kırmızı
+kuşaklı manto, aynı krem saten bluz ve aynı dekolte, aynı altın küpeler, aynı çizim
+tarzı, aynı düz açık bej arka plan. Kadraj birinci referansla birebir aynı: aynı ölçek,
+uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey. Mantonun önü kuşağın
+altında açık; aradan ikinci referans görseldeki SİYAH, dar kalem etek ve ince siyah
+kemer görünüyor. Kırmızı etek YOK.
+
+Poz: bir eliyle göğüs hizasında küçük, zarif, siyah deri bir kadın cüzdanını açık
+tutuyor ve içine bakıyor. Cüzdanın İÇİ kadına dönük; kameraya yalnız cüzdanın düz, siyah
+deri DIŞ yüzü görünüyor. Cüzdanın içinden hiçbir şey görünmüyor: para, kart, kâğıt
+görünmüyor. Öteki eli, avucu yukarıda, yana açılmış: "işte bu kadar" der gibi.
+Cüzdan dekolteyi örtmüyor.
+
+Başın açısı: başı kadrajın soluna dönük, hafifçe öne eğik, gözleri cüzdanın içinde;
+burnu kadrajın soluna bakıyor, kulağı kadrajın sağında. Kameraya bakmıyor.
+
+İfade: dramatik bir teslimiyet ile kara mizah: kaşları kalkık, dudağı bükük, yarım bir
+acı gülümseme; "Bütün servetim" diyen eski bir kraliçe.
+
+Arka plan DÜZ, AÇIK BEJ; başka hiçbir nesne yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın; cüzdanda marka, toka yazısı,
+logo yok.
+```
+
+**Geldiğinde bakılacaklar:** para/kart görünüyor mu (görünmemeli), cüzdanda logo, arka
+plan düz bej mi, ölçek A2 ile aynı mı, dekolte, siyah etek, el ve parmak sayıları.
