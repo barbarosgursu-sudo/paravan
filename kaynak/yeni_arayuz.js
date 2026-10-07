@@ -282,24 +282,48 @@ function vnBitir(){
   sonra();
 }
 
-function sahneZinciri(sahneler, sonra, baslik, n = 0, baslar = []){
+function sahneZinciri(sahneler, sonra, baslik, n = 0, baslar = [], kayit = null){
   const liste = sahneler.filter(Boolean);
   if(n >= liste.length){ sonra(); return; }
   // Geri düğmesi zincirde bir önceki sahnenin BAŞINA döner; o sahne başladığındaki
   // kıyafet seti ve kasa görünürlüğü geri yüklenir.
   baslar[n] = { set: vnSonSet, kasa: vnKasaGorunur };
-  const onceki = n > 0 ? () => { vnSonSet = baslar[n-1].set; vnKasaGorunur = baslar[n-1].kasa; sahneZinciri(liste, sonra, baslik, n - 1, baslar); } : null;
+  if(kayit) kayit(n);
+  const onceki = n > 0 && baslar[n-1] ? () => { vnSonSet = baslar[n-1].set; vnKasaGorunur = baslar[n-1].kasa; sahneZinciri(liste, sonra, baslik, n - 1, baslar, kayit); } : null;
   const ilk = liste[n];
-  sahneOynat(ilk, () => sahneZinciri(liste, sonra, baslik, n + 1, baslar), typeof baslik === "function" ? baslik(ilk) : baslik, onceki);
+  sahneOynat(ilk, () => sahneZinciri(liste, sonra, baslik, n + 1, baslar, kayit), typeof baslik === "function" ? baslik(ilk) : baslik, onceki);
 }
 
 /* ---------- Eski arayüzün sarmalanan fonksiyonları ---------- */
 
 // Açılış: eski oyunun slayt prologu yerine konuşma sahneleri.
+/* Açılışta oyun durumu yok (ilk kayıt masada yazılır); kapatıp açınca baştan
+   başlamasın diye hangi sahnede kalındığı ayrı bir anahtarda tutulur. Sahne
+   başına döner — satır değil (seçimler kuyruğu değiştiriyor). Masaya varınca silinir. */
+const ACILIS_ANAHTAR = KAYIT_ANAHTAR + "_acilis";
+function acilisKaydet(n){
+  try{ localStorage.setItem(ACILIS_ANAHTAR, JSON.stringify({ n, set: vnSonSet, kasa: vnKasaGorunur })); }catch(e){}
+}
+function acilisOku(){ try{ return JSON.parse(localStorage.getItem(ACILIS_ANAHTAR)); }catch(e){ return null; } }
+function acilisSil(){ try{ localStorage.removeItem(ACILIS_ANAHTAR); }catch(e){} }
+
+function acilisBaslat(n, k){
+  vnSonSet = k ? k.set : null; vnKasaGorunur = !!(k && k.kasa);
+  sahneZinciri(ACILIS, () => { acilisSil(); masaGoster(); }, s => "Açılış · " + (s.baslik || ""), n, [], acilisKaydet);
+}
 prologGoster = function(){
-  vnSonSet = null; vnKasaGorunur = false;
-  sahneZinciri(ACILIS, masaGoster, s => "Açılış · " + (s.baslik || ""));
+  const k = acilisOku();
+  if(k && k.n > 0 && k.n < ACILIS.length){
+    let h = '<div class="faz prolog-faz">' + ustSade();
+    h += `<div class="baslik" style="padding-top:32px"><div class="no">Kaldığın Yer</div><h1>Açılış</h1></div>`;
+    h += `<div class="giris-metin anlati-italik">“${vnHtml(ACILIS[k.n].baslik || "")}” sahnesinde kalmıştın.</div>`;
+    h += '<button class="buton" onclick="acilisDevam()">Kaldığın yerden devam et</button>';
+    h += '<button class="buton ikincil" onclick="acilisSil(); acilisBaslat(0)">Baştan başla</button></div>';
+    app.innerHTML = h; scrollUst(); return;
+  }
+  acilisBaslat(0);
 };
+function acilisDevam(){ const k = acilisOku(); if(k) acilisBaslat(k.n, k); else acilisBaslat(0); }
 
 // Vaka girişi: giriş sahnesi + Peri–Cengo konuşması, sonra araştırma.
 vakaAc = function(id){
