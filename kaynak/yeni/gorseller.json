@@ -63,7 +63,7 @@
     "_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır (Cengo'nun sinirli ifadesi henüz çekilmedi).",
     "cengo.sinirli": "cengo.normal"
   },
-  "genis": ["peri.mantosuz.sinirli", "peri.balikli.sinirli", "peri.balikli.utanmis"],
+  "genis": ["peri.mantosuz.sinirli", "peri.balikli.sinirli", "peri.balikli.utanmis", "peri.mantosuz.cay"],
   "tam": ["K9"],
   "boy": { "riza": 0.86, "hilmi": 0.95, "serkan": 0.92, "tuba": 0.9, "cayci": 0.82 },
   "arka": {

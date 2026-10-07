@@ -3751,3 +3751,9 @@ yok. Oyunda "Önce çayınızı için…" ve "O zaman bugün için."; sonraki Pe
 Telefonda tepsi küçük kalıyor, boş cam bardak seçilmiyordu. Sahibi: bardaklar büyüsün,
 **ikisi de çay dolu**. Birinci referans PT'nin kendisi (düzenleme; çerçeve ve ölçek korunur —
 yoksa sprite setle uyuşmaz).
+
+## Sonuç — PT-b (7 Ekim 2026)
+
+**Tuttu.** Bardaklar büyük, ikisi de demli ve buharlı, tabaklarda kaşık ve küp şeker; ölçek
+ve baş açısı korundu, dekolte açık. Tepsi standart çerçeveden taştığı için **geniş kesim**
+(`--genis`, manifestoda `genis` listesinde). Eski `cay` sprite'ının yerine geçti.
