@@ -159,6 +159,8 @@ function vnSatirGoster(satir){
   const figur = !!SAHNE_KANON.figurler[k];
   if(figur && k !== "peri"){ vn.mevcut.add(k); vn.sag = k; }
   if(figur && satir.i) vn.ifade[k] = satir.i;
+  // peri: Peri konuşmuyorken de ifadesi değişebilir (Hilmi Bey tacı okurken Peri onu çoktan kavramış).
+  if(satir.peri) vn.ifade.peri = satir.peri;
   if(satir.kasa){ vn.kasaGorunur = vnKasaGorunur = true; vnKasaTazele(); }
   vnKareGoster(satir.kare || null);
   // mekan: yeri tanıtan anlatı satırı — figürler çekilir, arka plan çıplak görünür

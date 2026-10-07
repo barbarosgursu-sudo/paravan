@@ -57,6 +57,11 @@ const clue = (g, id) => v1(g).clues.find(c => c.id === id);
   k("açılış sahnesindeki tanımsız ifade → K15", hataVar(sessiz(G, a), "[K15]", "agliyor"));
 }
 
+{
+  const a = kopya(ACILIS); a.sahneler[0].satirlar.push({ k: "hilmi", m: "deneme", peri: "balik" });
+  k("dinleyen Peri'nin tanımsız ifadesi → K15", hataVar(sessiz(G, a), "[K15]", "balik"));
+}
+
 console.log("\n=== K1 sahne taraması ===");
 {
   // Kanona hayalî bir isim ekle, yalnız SAHNE satırına yaz (düz metne değil).

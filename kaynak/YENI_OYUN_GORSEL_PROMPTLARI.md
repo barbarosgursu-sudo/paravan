@@ -3793,3 +3793,11 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** taç K1'dekiyle aynı mı, arka plan düz bej mi, ölçek PM2 ile
 aynı mı, dekolte, el ve parmak sayıları (tacı kavrayan parmaklar).
+
+## Sonuç — PTC (7 Ekim 2026)
+
+**Tuttu.** Kesik sprite `kaynak/yeni_gorsel/sprite/peri_mantosuz_tac.webp` (mantosuz setin
+`tac` ifadesi). İki el tacı göğsün altına bastırıyor, inatçı meydan okuma; ölçek PM2 ile
+aynı (`saten` profili). Fark: taç K1'e göre daha altın tonlu (K1'de sıcak ışıkta gümüş-şampanya);
+tacın üst ucu dekoltenin altına değiyor, dekolte görünür. Oyunda "O satılık değil.",
+"Ben onu takarken…", "…Annenize selam söyleyin." — Peri tacı K1'e kadar bırakmıyor.

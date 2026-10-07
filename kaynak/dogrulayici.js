@@ -832,6 +832,12 @@ function kural15_sahne(game, hatalar, acilis) {
         return;
       }
       if (typeof s.m !== "string" || !s.m.trim()) hatalar.push(`[K15] ${y}: metin boş.`);
+      // 'peri': konuşan başkayken Peri'nin ifadesi (dinleyen hâli). Aynı set kuralına tabi.
+      if (s.peri !== undefined && fig.peri && fig.peri.setler) {
+        const izinliP = fig.peri.setler[set] || [];
+        if (!izinliP.includes(s.peri))
+          hatalar.push(`[K15] ${y}: dinleyen Peri için '${s.peri}' ifadesi yok ('${set}' setinde: ${izinliP.join(", ")}).`);
+      }
       if (s.k === "not") { if (s.i) hatalar.push(`[K15] ${y}: anlatı satırının ifadesi olmaz.`); return; }
       if (sesler[s.k]) { if (s.i) hatalar.push(`[K15] ${y}: '${s.k}' figürü olmayan bir ses; ifade alamaz.`); return; }
       const f = fig[s.k];
