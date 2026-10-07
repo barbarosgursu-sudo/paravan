@@ -89,7 +89,6 @@ Satırda isteğe bağlı sahne değişiklikleri:
 | `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar |
 | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
 | `mekan: true` | mekân karesi: figürler çekilir, arka plan çıplak görünür (yeri tanıtan anlatı satırı) |
-| `vurgu: "avize"` | satır arka plandaki bir nesneyi anıyor: nesneye ışık düşer, çevresi kararır. Yeri `gorseller.json → vurgular[arka]` (görsel kesri) |
 
 **Seçim:** `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
 
