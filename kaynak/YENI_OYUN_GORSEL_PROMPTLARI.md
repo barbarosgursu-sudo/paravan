@@ -3526,3 +3526,19 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** Peri'nin yüzü ve saç rengi, siyah etek görünüyor mu, dekolte
 setteki ayarda mı (çarşaf örtmemeli), teyzenin yüzü görünmüyor mu, duvarlarda yazı,
 el/parmak sayıları. ChatGPT reddederse Grok.
+
+
+## K11 — ilk deneme (7 Ekim 2026): ayakkabı siyah, çarşaf pelerin gibi → K11b düzenleme
+
+Yüz, saç, manto, bluz, dekolte, siyah etek ve teyzenin (yüzsüz) kolu tuttu; yazı yok.
+İki sorun (sahibi yakaladı + değerlendirme):
+- **Ayakkabı siyah.** **Kural (sahibinin kararı, 7 Ekim 2026): Peri'nin ayakkabıları
+  KIRMIZI stiletto** — K8'de böyle çıkmıştı, kanon oldu. Peri'nin ayağının göründüğü her
+  yeni görselde metne yazılır.
+- **Çarşaf komik değil, zarif.** Başın arkasından pelerin/duvak gibi süzülüyor ve Peri onu
+  taşıyormuş gibi tutuyor; "ipe dalıp sarılmış" okunmuyor, sahne dergi kapağına kayıyor.
+  Düzenlemede çarşaf başına geçmiş, topuzu bastırmış, bir ucu yüzüne düşmüş, mandal
+  saçına takılı, ipin kopan ucu çarşafta sürükleniyor — dekolte yine açık.
+
+K11b, ilk denemenin kendisi birinci referans verilerek DÜZENLEME olarak istenir (kompozisyon,
+ışık ve yüz korunur); ikinci referans K8 (kırmızı stiletto).
