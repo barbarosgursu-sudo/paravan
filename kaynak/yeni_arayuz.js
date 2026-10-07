@@ -34,8 +34,12 @@ function vnHtml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;");
 
 let vn = null;   // çalan sahnenin durumu
 
+/* GEÇİCİ (7 Ekim 2026, sahibinin isteği): sahneleri gözden geçirmek için "Geri" düğmesi.
+   Sahne içinde bir önceki satıra döner. Kaldırmak için false yap. */
+const VN_GERI = true;
+
 /* Bir sahneyi oynatır, bitince sonra()'yı çağırır. baslik: üst şeritteki ad. */
-function sahneOynat(sahne, sonra, baslik){
+function sahneOynat(sahne, sonra, baslik, onceki){
   if(!sahne || !Array.isArray(sahne.satirlar) || !sahne.satirlar.length){ sonra(); return; }
   const figurler = sahne.figurler || ["peri"];
   vn = {
@@ -44,11 +48,12 @@ function sahneOynat(sahne, sonra, baslik){
     ifade: {}, mevcut: new Set(figurler),
     sag: figurler.find(f => f !== "peri" && f !== "cengo") || (figurler.includes("cengo") ? "cengo" : null),
     arka: null, grup: null, satir: null, yaziyor: null, tamMetin: "", secimde: false,
-    kasaGorunur: vnKasaGorunur, cikacak: false,
+    kasaGorunur: vnKasaGorunur, cikacak: false, gecmis: [], onceki: VN_GERI ? onceki || null : null,
   };
   app.innerHTML = `<div class="vn" role="application" aria-label="Konuşma">
     <div class="vn-serit"><span class="vn-baslik">${vnHtml(baslik||"")}</span>
       <span class="vn-sag"><span class="vn-kasa" id="vnKasa" hidden></span>
+      ${VN_GERI ? '<button class="vn-gec vn-geri" id="vnGeri" type="button" hidden>◂ Geri</button>' : ""}
       <button class="vn-gec" id="vnGec" type="button">Sahneyi geç ▸▸</button></span></div>
     <div class="vn-sahne" id="vnSahne">
       <div class="vn-arka" id="vnArka"></div>
@@ -70,6 +75,7 @@ function sahneOynat(sahne, sonra, baslik){
   $("vnSahne").addEventListener("click", vnIlerle);
   $("vnKutu").addEventListener("keydown", e => { if(e.key === "Enter" || e.key === " "){ e.preventDefault(); vnIlerle(); } });
   $("vnGec").addEventListener("click", e => { e.stopPropagation(); vnGec(); });
+  if(VN_GERI) $("vnGeri").addEventListener("click", e => { e.stopPropagation(); vnGeri(); });
   if(sahne.arka) vnArkaKoy(sahne.arka, true);
   vnKasaTazele();
   vnIlerle();
@@ -228,6 +234,7 @@ function vnIlerle(){
   }
   vnCikisUygula();
   if(!vn.kuyruk.length){ vnBitir(); return; }
+  if(VN_GERI) vnAnlikKaydet();
   const oge = vn.kuyruk.shift();
   if(oge.secim) vnSecimGoster(oge); else vnSatirGoster(oge);
 }
@@ -247,6 +254,27 @@ function vnGec(){
   if(vn.kuyruk.length) vnIlerle(); else vnBitir();
 }
 
+/* Geri: her öğe gösterilmeden hemen önceki durum saklanır; geri dönmek, bir önceki
+   öğenin anlık durumunu geri yükleyip o öğeyi yeniden göstermektir. */
+function vnAnlikKaydet(){
+  vn.gecmis.push({ kuyruk: [...vn.kuyruk], set: vn.set, ifade: { ...vn.ifade },
+    mevcut: new Set(vn.mevcut), sag: vn.sag, arka: vn.arka, kasaGorunur: vn.kasaGorunur });
+  const b = document.getElementById("vnGeri"); if(b) b.hidden = vn.gecmis.length < 2 && !vn.onceki;
+}
+function vnGeri(){
+  if(!vn) return;
+  if(vn.gecmis.length < 2){ if(vn.onceki){ clearInterval(vn.yaziyor); const o = vn.onceki; vn = null; o(); } return; }
+  clearInterval(vn.yaziyor); vn.yaziyor = null;
+  vn.gecmis.pop();
+  const a = vn.gecmis.pop();
+  Object.assign(vn, { kuyruk: a.kuyruk, set: a.set, ifade: a.ifade, mevcut: a.mevcut, sag: a.sag,
+    kasaGorunur: a.kasaGorunur, secimde: false, cikacak: false });
+  vnSonSet = a.set;
+  if(a.arka && a.arka !== vn.arka) vnArkaKoy(a.arka, true);
+  vnKasaTazele();
+  vnIlerle();
+}
+
 function vnBitir(){
   const sonra = vn.sonra;
   clearInterval(vn.yaziyor);
@@ -254,11 +282,15 @@ function vnBitir(){
   sonra();
 }
 
-function sahneZinciri(sahneler, sonra, baslik){
-  const kalan = sahneler.filter(Boolean);
-  if(!kalan.length){ sonra(); return; }
-  const [ilk, ...geri] = kalan;
-  sahneOynat(ilk, () => sahneZinciri(geri, sonra, baslik), typeof baslik === "function" ? baslik(ilk) : baslik);
+function sahneZinciri(sahneler, sonra, baslik, n = 0, baslar = []){
+  const liste = sahneler.filter(Boolean);
+  if(n >= liste.length){ sonra(); return; }
+  // Geri düğmesi zincirde bir önceki sahnenin BAŞINA döner; o sahne başladığındaki
+  // kıyafet seti ve kasa görünürlüğü geri yüklenir.
+  baslar[n] = { set: vnSonSet, kasa: vnKasaGorunur };
+  const onceki = n > 0 ? () => { vnSonSet = baslar[n-1].set; vnKasaGorunur = baslar[n-1].kasa; sahneZinciri(liste, sonra, baslik, n - 1, baslar); } : null;
+  const ilk = liste[n];
+  sahneOynat(ilk, () => sahneZinciri(liste, sonra, baslik, n + 1, baslar), typeof baslik === "function" ? baslik(ilk) : baslik, onceki);
 }
 
 /* ---------- Eski arayüzün sarmalanan fonksiyonları ---------- */

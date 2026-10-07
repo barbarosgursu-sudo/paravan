@@ -20,6 +20,7 @@
 .vn-kasa[hidden]{display:none}
 .vn-gec{font:inherit;font-size:12px;font-weight:800;color:var(--vn-kagit);background:transparent;
   border:1px solid rgba(255,247,232,.35);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
+.vn-geri[hidden]{display:none}
 .vn-sahne{position:relative;flex:1 1 auto;min-height:0;overflow:hidden;cursor:pointer}
 .vn-arka{position:absolute;inset:0}
 .vn-arka > .katman{position:absolute;inset:0;transition:opacity .6s ease}

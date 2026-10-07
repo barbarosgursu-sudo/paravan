@@ -38,7 +38,7 @@ hazırım" → büroya dönüş sahnesi (vaka başına bir kez) → karar ekran�
 Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün altı fonksiyonunu sarar
 (`prologGoster`, `vakaAc`, `kaynakAcFaz`, `kararFazi`, `kararVerFaz`, `sonEkrani`).
 Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
-seçime kadar sarar, seçimi atlamaz. Ruh hâli görseli ve istatistik paneli yeni
+seçime kadar sarar, seçimi atlamaz. **GEÇİCİ:** "◂ Geri" düğmesi (sahibinin gözden geçirmesi için, 7 Ekim 2026) satır satır geri gider; sahnenin ilk satırında zincirdeki önceki sahnenin başına döner (açılış, giriş+konuşma). Oyun durumunu geri almaz (ipucu, karar, para). Kapatmak: `yeni_arayuz.js` → `VN_GERI = false`. Ruh hâli görseli ve istatistik paneli yeni
 sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔
 derleyici eşlemesini sınar.
 
