@@ -62,7 +62,8 @@
       "satirlar": [
         { "k": "not", "m": "Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor." },
         { "k": "peri", "i": "kagit", "m": "Üçüncü kat. Tabii. Asansör yoktur." },
-        { "k": "not", "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor. Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "arka": "A5" },
+        { "k": "not", "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor.", "arka": "A5", "mekan": true },
+        { "k": "not", "m": "Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "kare": "K13" },
         { "k": "peri", "i": "sinirli", "m": "Tabii. Avukatın kapısı bile yalan söylüyor." },
         { "k": "ses", "m": "Tel lazım mı?" },
         { "k": "not", "m": "Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.", "gir": "cengo" },

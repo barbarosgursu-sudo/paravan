@@ -98,8 +98,11 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 ⚙ arka plan → A5
 
 *Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye
-bakan penceresinin camında da aynı yazı, ters okunuyor. Peri anahtarı deniyor.
-Olmuyor. Bir daha deniyor. Olmuyor.*
+bakan penceresinin camında da aynı yazı, ters okunuyor.*
+
+⚙ ara kare: **K13** (anahtar)
+
+*Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.*
 
 **PERİ [sinirli]:** Tabii. Avukatın kapısı bile yalan söylüyor.
 **SES:** Tel lazım mı?
@@ -739,6 +742,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K10 | Kaçış: Serkan simit tablasını deviriyor, simitler havada, Cengo birini havada yakalıyor | İ6 kovalamaca | ★ (7 Ekim, sahibinin onayı) · tuttu |
 | K11 | Peri ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyzenin eli | İ6 kovalamaca | ★ (7 Ekim; çarşaf Peri'nin, sahibinin kararı) · tuttu (K11b) |
 | K12 | Yakalama: Cengo kestirmeden çıkmış, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) · tuttu |
+| K13 | Peri büronun kapısında anahtarla boğuşuyor; bir stilettosu kapıya dayalı, tabela kadraj dışında | Açılış S3 | ★ (7 Ekim, sahibinin isteği) · tuttu |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.

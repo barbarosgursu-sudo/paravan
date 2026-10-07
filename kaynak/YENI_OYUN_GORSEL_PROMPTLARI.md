@@ -3816,3 +3816,11 @@ taraması onu da sildi (KENAR düşürmek yetmedi, renk eşiği zemini de aldı)
 kaynakta elle çizilen bir çokgen maskesiyle geri kondu. Zemine yakın renkte, figürün
 dışına taşan nesne istenecekse kesimden sonra maske gerekeceğini baştan bil.
 Oyunda "Bir de bu var." satırından "Manto."ya kadar (`hilmi.uzatir`).
+
+### K13 — Peri kapıda anahtarla boğuşuyor (A5 + D1 + Peri A2 + PM2 referanslı, 7 Ekim 2026) — TUTTU
+Sahibinin isteği: "Peri anahtarı deniyor. Olmuyor." anlatısına görüntü. Kapı D1'deki
+kapının aynısı; tabela kadrajın dışında (yazı yüzeyi), kâğıt buruşuk ve kapalı, kırmızı
+stiletto kapının alt paneline dayalı. İlk sonuçta (ChatGPT) anahtarı tutan el ters
+bükülmüştü → yalnız eli düzelten düzenleme (ilk görsel referans). Düzenlemeyi **Grok**
+yaptı; yüz değişmedi (A2/ilk/Grok yan yana bakıldı). Grok 864×1152 verdi → Lanczos ile
+900×1200'e büyütüldü, WebP q80. Kopya `kaynak/yeni_gorsel/ara_k13_anahtar.webp`.
