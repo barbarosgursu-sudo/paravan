@@ -52,6 +52,7 @@ function sahneOynat(sahne, sonra, baslik){
       <button class="vn-gec" id="vnGec" type="button">Sahneyi geç ▸▸</button></span></div>
     <div class="vn-sahne" id="vnSahne">
       <div class="vn-arka" id="vnArka"></div>
+      <div class="vn-vurgu" id="vnVurgu"></div>
       <div class="vn-figurler" id="vnFig">
         <div class="vn-figur sol pasif" id="vnSol"></div>
         <div class="vn-figur sag pasif" id="vnSag"></div>
@@ -150,6 +151,29 @@ function vnFigurCiz(satir){
   sag.classList.toggle("aktif", !!kim && k === kim); sag.classList.toggle("pasif", !(kim && k === kim));
 }
 
+/* vurgu: satır arka plandaki bir nesneyi anıyorsa (avize, koltuk) o nesnenin üstüne
+   ışık düşer, çevresi hafifçe kararır — konuşan figürün aydınlanmasının nesne hâli.
+   Nesnenin yeri manifestoda, görselin kesri olarak (YENI_GORSEL.vurgular[arka][ad]).
+   Arka plan object-fit:cover + object-position center 70% ile çizildiği için kesir,
+   kabın o anki boyutuna göre ekran koordinatına çevrilir. */
+function vnVurguGoster(ad){
+  const el = document.getElementById("vnVurgu");
+  if(!el) return;
+  const v = ad && ((YG.vurgular || {})[vn.arka] || {})[ad];
+  if(!v){ el.classList.remove("acik"); return; }
+  const img = document.querySelector("#vnArka .katman:last-child img");
+  const kap = document.getElementById("vnSahne");
+  const W = (img && img.naturalWidth) || 900, H = (img && img.naturalHeight) || 1200;
+  const w = kap.clientWidth, h = kap.clientHeight;
+  const o = Math.max(w / W, h / H);
+  const sol = (w - W * o) * 0.5, ust = (h - H * o) * 0.7;
+  const px = sol + v.x * W * o, py = ust + v.y * H * o;
+  const rx = v.rx * W * o, ry = v.ry * H * o;
+  el.style.background = `radial-gradient(ellipse ${rx}px ${ry}px at ${px}px ${py}px, ` +
+    `rgba(255,236,190,.34) 0%, rgba(255,236,190,.12) 55%, rgba(12,9,6,0) 80%, rgba(12,9,6,.46) 100%)`;
+  el.classList.add("acik");
+}
+
 function vnSatirGoster(satir){
   const $ = id => document.getElementById(id);
   if(satir.set){ vn.set = satir.set; vnSonSet = satir.set; }
@@ -161,6 +185,7 @@ function vnSatirGoster(satir){
   if(figur && satir.i) vn.ifade[k] = satir.i;
   if(satir.kasa){ vn.kasaGorunur = vnKasaGorunur = true; vnKasaTazele(); }
   vnKareGoster(satir.kare || null);
+  vnVurguGoster(satir.kare ? null : (satir.vurgu || null));
   // mekan: yeri tanıtan anlatı satırı — figürler çekilir, arka plan çıplak görünür
   // (aksi hâlde sahnenin ortasındaki nesne, ör. A2'deki yerdeki avize, figürlerin arkasında kalır).
   $("vnFig").classList.toggle("cekilmis", !!(satir.kare || satir.mekan));

@@ -66,6 +66,13 @@
   "genis": ["peri.mantosuz.sinirli", "peri.balikli.sinirli", "peri.balikli.utanmis", "peri.mantosuz.cay"],
   "tam": ["K9"],
   "boy": { "riza": 0.86, "hilmi": 0.95, "serkan": 0.92, "tuba": 0.9, "cayci": 0.82 },
+  "vurgular": {
+    "_not": "Satırdaki vurgu: nesnenin merkezi (x,y) ve yarıçapları (rx,ry), görselin genişlik/yükseklik kesri olarak.",
+    "A1": {
+      "avize":  { "x": 0.433, "y": 0.105, "rx": 0.17, "ry": 0.13 },
+      "koltuk": { "x": 0.41,  "y": 0.535, "rx": 0.30, "ry": 0.12 }
+    }
+  },
   "arka": {
     "A1": { "ad": "Nişantaşı · salon", "grup": "salon_sabah" },
     "A2": { "ad": "Nişantaşı · salon", "grup": "salon_sabah" },

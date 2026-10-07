@@ -36,6 +36,22 @@ k("geniş/tam listesindeki her anahtar manifestoda", !yetim.length, yetim.join("
 const bilinmeyenFigur = Object.keys(M.dosyalar).filter(a => a.includes(".") && !S.figurler[a.split(".")[0]]);
 k("manifestodaki her sprite kanondaki bir figüre ait", !bilinmeyenFigur.length, bilinmeyenFigur.join(", "));
 
+// Vurgu (konuşulan nesnenin aydınlanması): her satırın vurgusu, o an ekrandaki arka
+// planda tanımlı bir nesne olmalı. Yanlış adda vurgu JS hatası vermez, sessizce yanmaz.
+{
+  const A = JSON.parse(oku("yeni/acilis.json"));
+  const sahneler = [...A.sahneler, ...G.vakalar.flatMap(v => [...Object.values(v.sahneler || {}), ...(v.clues || []).map(c => c.sahne).filter(Boolean)])];
+  const hatali = [];
+  let toplam = 0;
+  const yuru = (satirlar, arka) => { for (const s of satirlar) {
+    if (s.arka) arka = s.arka;
+    if (s.vurgu) { toplam++; if (!((M.vurgular || {})[arka] || {})[s.vurgu]) hatali.push(`${arka}/${s.vurgu}`); }
+    for (const sec of s.secenekler || []) yuru(sec.satirlar || [], arka);
+  } };
+  for (const sh of sahneler) yuru(sh.satirlar || [], sh.arka);
+  k(`her vurgu o anki arka planda tanımlı (${toplam} satır)`, !hatali.length, hatali.join(", "));
+}
+
 console.log("\n=== Derleyici ↔ yeni_arayuz ===");
 const build = oku("build_html.js");
 // Yerleştirme dizgileri derleyicinin ek kodunda da geçiyor; tek olması gereken yer ŞABLON.
