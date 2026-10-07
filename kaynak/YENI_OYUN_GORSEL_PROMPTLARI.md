@@ -3830,3 +3830,12 @@ Sahibinin isteği: koridorda "Tel lazım mı?" sesini duyup Cengo'yu görünce P
 Eli köprücük kemiğinin altında, gözler iri, dudaklar aralık. Ölçek ve baş yüksekliği A2
 ile birebir; `peri` profiliyle temiz kesildi → `sprite/peri_manto_sasirmis.webp`.
 Oyunda "Tel lazım mı?" (dinleyen Peri) ve Cengo'nun girdiği anlatı satırında.
+
+### CB — Cengo "buyrun" (CA2 referanslı, 7 Ekim 2026) — TUTTU (CB-b)
+Sahibinin isteği: kapıyı açınca bir eliyle teli cebe koyup öbürüyle içeri yol versin.
+İlk sonuçta ÜÇ el vardı (cebe giden kol ile uzanan avuç aynı omuzdan) → düzenleme:
+cebe giden kol kaldırıldı, tel zaten göğüs cebinde ucu görünür; bileklik uzanan bileğe
+taşındı. Ölçek CA2 ile birebir. `cengo` profiliyle kesildi; kol ile gövde arasındaki
+kapalı bej boşluk (delik doldurma kapalı olduğu için kalıyor) elle floodfill ile
+saydamlandı → `sprite/cengo_buyrun.webp`. **Ders:** iki elle iki ayrı iş isteyince
+üretici bir kola iki el bağlayabiliyor; el sayısını her sonuçta say.

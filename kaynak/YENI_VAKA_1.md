@@ -114,7 +114,7 @@ bakan penceresinin camında da aynı yazı, ters okunuyor.*
 
 *İki saniye sürüyor. Kapı açılıyor.*
 
-**CENGO:** Buyrun.
+**CENGO [buyrun]:** Buyrun. *(teli göğüs cebine koymuş, eliyle içeri yol veriyor)*
 **PERİ [kas]:** Kilit açmayı nereden biliyorsunuz?
 **CENGO [normal]:** Herkes bilir. Ben sadece utanmıyorum.
 **PERİ [normal]:** Teşekkür ederim. Şimdi gidebilirsiniz.

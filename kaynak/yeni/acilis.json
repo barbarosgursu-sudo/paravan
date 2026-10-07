@@ -70,7 +70,7 @@
         { "k": "peri", "i": "kas", "m": "Siz kimsiniz?" },
         { "k": "cengo", "i": "gulen", "m": "O güzel gözleri kapı önünde bekletemem. İki saniye." },
         { "k": "not", "m": "İki saniye sürüyor. Kapı açılıyor.", "kare": "D1" },
-        { "k": "cengo", "m": "Buyrun." },
+        { "k": "cengo", "i": "buyrun", "m": "Buyrun." },
         { "k": "peri", "i": "kas", "m": "Kilit açmayı nereden biliyorsunuz?" },
         { "k": "cengo", "i": "normal", "m": "Herkes bilir. Ben sadece utanmıyorum." },
         { "k": "peri", "i": "normal", "m": "Teşekkür ederim. Şimdi gidebilirsiniz." },

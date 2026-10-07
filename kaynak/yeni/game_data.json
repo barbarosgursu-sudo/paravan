@@ -10,7 +10,7 @@
         "peri":   { "setler": { "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac", "tac_sinirli"],
                                 "manto":    ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis"],
                                 "balikli":  ["sinirli", "utanmis"] } },
-        "cengo":  { "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak"] },
+        "cengo":  { "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak", "buyrun"] },
         "hilmi":  { "ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"] },
         "riza":   { "ad": "Rıza Reis", "ifadeler": ["normal", "dertli", "ofkeli"] },
         "serkan": { "ad": "Serkan", "ifadeler": ["normal"] },
