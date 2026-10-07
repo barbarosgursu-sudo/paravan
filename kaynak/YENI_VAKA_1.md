@@ -104,7 +104,7 @@ bakan penceresinin camında da aynı yazı, ters okunuyor.*
 
 *Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.*
 
-**PERİ [sinirli]:** Tabii. Avukatın kapısı bile yalan söylüyor.
+**PERİ [sinirli]:** Avukatım bana bir şirket bırakmış. Bir de açmayan bir anahtar.
 **SES:** Tel lazım mı?
 
 *Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.*
