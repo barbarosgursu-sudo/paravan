@@ -3700,3 +3700,40 @@ Banknot kenarında bulanık, okunmayan baskı izleri vardı; küçük bir bölge
 kenarlı medyan rötuşla düzleştirildi (fermuar korunarak). Kesik sprite
 `kaynak/yeni_gorsel/sprite/peri_manto_cuzdan.webp` (`saten` profili, 1086×1448 → 1122×1402
 bej dolgu). Oyunda: "(cüzdanını açar) Kasa bu." ve "Bütün servetim."
+
+
+## PT — Peri çay ikram ediyor (mantosuz set, yeni ifade "cay"; PM2 referanslı)
+
+Sahibi oyunda istedi (7 Ekim 2026): haciz sahnesinde "Önce çayınızı için. Bardaklar listede
+yok, değil mi?" derken bardaklar görünmeli, biri çay dolu. Arka plana konmuyor (figürlerin
+arkasında kalırdı — avize dersi); Peri'nin elinde. Kullanılacağı satırlar: "Önce çayınızı
+için…" ve "O zaman bugün için." Kesim: `saten` profili; aynı çerçeve (PM2).
+
+Tek referans: **Peri PM2** (mantosuz: krem saten bluz, siyah kalem etek, kemer, yüz, kadraj).
+
+```
+Referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı krem saten bluz ve
+aynı dekolte, aynı siyah kalem etek ve ince siyah kemer, aynı altın küpeler, aynı çizim
+tarzı, aynı düz açık bej arka plan. Kadraj referansla birebir aynı: aynı ölçek, uyluk
+ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey. Manto YOK.
+
+Poz: iki eliyle, bel hizasının biraz üstünde, küçük, yuvarlak, gümüş renkli metal bir
+çay tepsisi tutuyor ve onu kadrajın soluna, karşısında duran birine doğru zarifçe
+uzatıyor. Tepside iki ince belli, şeffaf Türk çay bardağı, altlarında küçük beyaz
+tabaklar: birinin içi koyu kızıl, sıcak demli çayla dolu (üstünden ince bir buhar
+yükseliyor), öteki BOŞ. Tepside, bardaklarda, tabaklarda hiçbir yazı, desen, damga yok.
+Tepsi dekolteyi örtmüyor.
+
+Başın açısı: başı kadrajın soluna dönük; burnu kadrajın soluna bakıyor, kulağı kadrajın
+sağında. Gözleri karşısındakinde. Kameraya bakmıyor.
+
+İfade: kusursuz bir ev sahibesi nezaketi, ama altında ince bir ironi: hafif, kibar
+bir gülümseme, bir kaşı belli belirsiz kalkık; "Bardaklar listede yok, değil mi?"
+
+Arka plan DÜZ, AÇIK BEJ; başka hiçbir nesne yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** bir bardak dolu, biri boş mu; tepside desen/yazı; arka plan düz
+bej mi; ölçek PM2 ile aynı mı; dekolte; el ve parmak sayıları.
