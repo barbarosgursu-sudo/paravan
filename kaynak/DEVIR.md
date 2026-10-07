@@ -8,6 +8,40 @@
 
 ---
 
+## 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+
+> Aşağıdaki §1 ve sonrası **eski oyunun** (dokuz vaka, `index.html`) 23 Eylül durumudur;
+> eski oyun o günden beri değişmedi. Şu an üzerinde çalışılan **yeni oyun** (Peri & Cengo,
+> Mavi Ay tonu). Kalıcı bilgi `CLAUDE.md` + `kaynak/yeni/OKUBENI.md`'de.
+
+| | |
+|---|---|
+| Kaynak metin | `YENI_VAKA_1.md` (açılış + Vaka 1), `YENI_OYUN_SEZON.md` (sezon kuralları), `YENI_OYUN_TON.md` |
+| Veri | `kaynak/yeni/` — `node dogrulayici.js yeni` PASS (3 uyarı: K8 ×2, K9) |
+| Sayfa | `node build_html.js yeni` → `yeni/index.html` (yayında `…/paravan/yeni/`), tema yeni, batma uyarısı yok |
+| Görsel | Vaka 1: **49/49** (`YENI_OYUN_GORSEL_PROMPTLARI.md`, son bölümler kovalamaca K10–K12) |
+| Test | 24/24 (+ test_bozuk); `arac_yeni_tur.js` iki yolu da temiz oynuyor |
+
+**Son yapılanlar:** konuşma ekranı oyunda; bütün ekranlar yeni temada; kovalamaca dört
+kareye çıktı (simit → Peri çarşafta → balık kasası → yakalama); sezon kuralları
+"Peri'nin felaketi" ve "Kovalamaca".
+
+**Sahibine açık sorular:**
+- **K8 uyarısı:** `sete_gotur` iki kararı hem para hem bağda geçiyor (`yeni/OKUBENI.md`).
+- **Künye (Kişiler paneli) boş** — metinleri sahibinin onayıyla yazılacak.
+- Ruh hâli görseli / istatistik paneli yeni sayfada yok (eski açık sorular).
+- Cengo'nun "sinirli" sprite'ı yok (normal'e takma).
+
+**Sıradaki iş:** Vaka 2'yi kâğıt üstünde yazmak (`YENI_OYUN_SEZON.md` sırası); kovalamacayı
+karardan önceki doruğa koymak önerildi.
+
+**Duran kurallar (sahibinin):** doğrudan `main`; her prompta referans resimleri numaralı
+ve aynı mesajda; mantolu Peri'nin altında siyah kalem etek, ayakkabıları kırmızı stiletto;
+Peri'nin dekoltesi asla azaltılmaz; yan karakterlere ana karakter referans verilmez; yeni
+kanon eklemeden önce sor.
+
+---
+
 ## 1. NEREDE DURUYORUZ
 
 Her şey **`main`**'de ve push edilmiş; çalışma ağacı temiz. Son commit'in hash'i burada TUTULMUYOR — kendine işaret eden bir hash `--amend`'de anında yanlışlanıyor (bu nota bir kez öyle yazıldı). `git log --oneline -5` doğrusunu söyler.

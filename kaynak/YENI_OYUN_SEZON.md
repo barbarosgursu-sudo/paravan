@@ -49,6 +49,8 @@ arbede olur — Mavi Ay'ın bölüm sonu gibi birkaç dakikalık komedi. Kuralla
   çamaşır ipinde çarşafa sarılır, sonra balık kasasına oturur). Suçluyu beceri değil **şans** yakalar (V1: Serkan levreklere basıp kayar).
 - Yazıyla değil **görüntüyle** anlatılır: her vuruşun kendi ara karesi var (V1: 4 kare).
 - Peri'nin felaketi bu kovalamacanın içinde olur; iki kural birbirini besler.
+- Denge serbest: V1'de Peri iki kez rezil olur (çarşaf, balık kasası), Cengo yalnız havada
+  simit kapar — sahibi böyle bıraktı (7 Ekim 2026). Her vakada eşit pay şart değil.
 - Yer: V1'de araştırmanın ortasında (Serkan ipucu, her yol oradan geçiyor). Sonraki
   vakalarda karardan hemen önceki doruğa yazılması önerilir — Mavi Ay'daki gibi.
 
