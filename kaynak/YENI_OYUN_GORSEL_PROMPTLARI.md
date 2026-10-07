@@ -3477,29 +3477,40 @@ ve beyaz kolu görünüyor, yüzü yok. A13'ün yeşil kepengi ve tabelanın sö
 aynı; **yazı yok** (tabela izi ve kepenk büyütülerek tarandı). Oyunda İ6'nın ilk
 kovalamaca satırında.
 
-## K11 — Cengo'nun kestirmesi: çamaşır ipi (A13 + Cengo referanslı)
+## K11 — Peri çamaşır ipinde: çarşaf (A13 + Peri A2 + Peri PM2 referanslı)
 
-İki referans: **A13** (aynı ara sokak; ipteki iki beyaz çarşaf zaten orada — Cengo
-birini kapıyor), **Cengo CA2**. Teyzenin yüzü kadraj dışında: yalnız penceredeki eli.
+**Sahibinin kararı (7 Ekim 2026): bu sahne Peri'nin** (ilk taslakta Cengo'ydu). Cengo
+kestirmeye sapıyor; Peri Serkan'ın peşinden ara sokaktan koşarken ipe dalıyor, çarşafı
+atıp devam ediyor, sonra K8'de balık kasasına oturuyor (K8 değişmedi, çarşafsız).
+
+Üç referans: **A13** (aynı ara sokak; ipteki iki beyaz çarşaf zaten orada), **Peri A2**
+(yüz, saç, kırmızı manto, krem saten bluz, dekolte), **Peri PM2** (siyah kalem etek ve
+kemer — mantolu Peri'nin kuralı). Kovalamaca kuralı: dekolte temel setteki ayarda görünür;
+çarşaf başı ve sırtı örter, göğsün önünü kapatmaz. Teyzenin yüzü kadraj dışında.
 
 ```
 Birinci referans görseldeki sokağın AYNISI: aynı dar Arnavut kaldırımlı Karaköy ara
 sokağı, aynı eski taş binalar, binalar arasına gerilmiş aynı çamaşır ipi, aynı gün
-batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki adamın AYNISI: aynı yüz,
-aynı dalgalı koyu saç, aynı kahverengi ceket, açık yakalı krem gömlek, koyu kot.
+batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki kadının AYNISI: aynı yüz,
+aynı kumral-kızıl saç ve topuz, aynı kırmızı kuşaklı manto, aynı krem saten bluz ve
+aynı dekolte, aynı altın küpeler. Üçüncü referans görseldeki kadının siyah, dar, diz
+boyu kalem eteği ve ince siyah kemeri: mantonun önü kuşağın altında açık, aradan SİYAH
+kalem etek görünüyor. Kırmızı etek YOK.
 
-Kadraj: DİKEY (3:4). Kamera sokağın ortasında, adamın önünde; adam kameraya doğru koşuyor.
+Kadraj: DİKEY (3:4). Kamera sokağın ortasında, kadının önünde; kadın kameraya doğru
+koşuyor. Dizlerinden yukarısı görünüyor.
 
 Kadrajda YALNIZ şunlar var:
-1. Ortada adam koşuyor; başına ve omuzlarına büyük, beyaz bir çarşaf dolanmış, hayalet
-   gibi arkasında uçuşuyor. Çarşafın üstünde hâlâ iki tahta mandal takılı. Yüzü
-   çarşafın açıklığından görünüyor: gözleri kocaman, bir eliyle çarşafı yüzünden
-   çekmeye çalışıyor, ağzı "eyvah" der gibi açık. Ceketinin kolları ve kotu çarşafın
-   altından görünüyor.
+1. Ortada kadın topuklularıyla koşuyor. Büyük, beyaz bir çarşaf başına takılmış, bir
+   gelin duvağı ya da hayalet pelerini gibi başının üstünden sırtına ve arkasına doğru
+   uçuşuyor; çarşafta hâlâ iki tahta mandal takılı. Çarşaf göğsünün önünü KAPATMIYOR:
+   manto, saten bluz ve dekolte ikinci referanstaki gibi açıkça görünüyor. Bir eliyle
+   çarşafı yüzünün kenarından çekiyor. Yüzü öne, kameraya dönük; gözleri kocaman,
+   kaşları çatık, ağzı açık: hem öfkeli hem rezil.
 2. Arkasında, binalar arasındaki çamaşır ipi sallanıyor; ipte bir çarşafın boş yeri,
    kalan tek beyaz çarşaf ve birkaç mandal.
-3. Kadrajın sağ üstünde, ikinci kattaki açık bir ahşap pencereden yalnız bir kadın
-   kolu uzanıyor; elinde tahta bir kaşık, öfkeyle sallıyor. Kadının yüzü ve başı
+3. Kadrajın sağ üstünde, ikinci kattaki açık bir ahşap pencereden yalnız bir kadın kolu
+   uzanıyor; elinde tahta bir kaşık, öfkeyle sallıyor. Kolun sahibinin yüzü ve başı
    pencerenin içinde, görünmüyor.
 4. Yerde uçuşmuş iki üç mandal.
 
@@ -3507,10 +3518,11 @@ Başka hiçbir insan yok. Başka hiçbir nesne yok: tabela, afiş, kâğıt, ara
 kapıda, pencerede hiçbir yazı, harf, rakam, logo yok.
 
 Işık: gün batımının sıcak turuncu ışığı; çarşafın kenarlarından süzülen ışık.
-Hava: slapstick komedi; tehlike ya da acı yok.
+Hava: slapstick komedi; zarif bir kadının rezil anı, ama tehlike ya da acı yok.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
-**Geldiğinde bakılacaklar:** Cengo'nun yüzü çarşafın içinden tanınıyor mu, teyzenin
-yüzü görünüyor mu (görünmemeli), mandallar, duvarlarda yazı, el/parmak sayıları.
+**Geldiğinde bakılacaklar:** Peri'nin yüzü ve saç rengi, siyah etek görünüyor mu, dekolte
+setteki ayarda mı (çarşaf örtmemeli), teyzenin yüzü görünmüyor mu, duvarlarda yazı,
+el/parmak sayıları. ChatGPT reddederse Grok.

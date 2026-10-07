@@ -45,8 +45,8 @@ su… Zarif eski güzellik kraliçesinin en kötü anı, fiziksel komedi. Kurall
 
 **Kovalamaca (sahibinin kararı, 7 Ekim 2026):** her vakada suçluyla bir kovalamaca ya da
 arbede olur — Mavi Ay'ın bölüm sonu gibi birkaç dakikalık komedi. Kurallar:
-- İkisi de ayrı ayrı komik duruma düşer (V1: Cengo çamaşır ipinde çarşafa sarılır, Peri
-  balık kasasına oturur). Suçluyu beceri değil **şans** yakalar (V1: Serkan levreklere basıp kayar).
+- İkisi de ayrı ayrı komik duruma düşer (V1: Cengo havada simit yakalar, Peri önce
+  çamaşır ipinde çarşafa sarılır, sonra balık kasasına oturur). Suçluyu beceri değil **şans** yakalar (V1: Serkan levreklere basıp kayar).
 - Yazıyla değil **görüntüyle** anlatılır: her vuruşun kendi ara karesi var (V1: 4 kare).
 - Peri'nin felaketi bu kovalamacanın içinde olur; iki kural birbirini besler.
 - Yer: V1'de araştırmanın ortasında (Serkan ipucu, her yol oradan geçiyor). Sonraki

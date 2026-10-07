@@ -332,8 +332,8 @@ Oyuncu iki yoldan birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya
 > Serkan cevap vermiyor. Koşuyor. Cebi şıngırdıyor.
 
 ⚙ **Kovalamaca** (doruk komedi anı; seçim yok, sonuç değişmez) · arka plan: A13 → A9
-⚙ dört vuruş (sahibinin onayı, 7 Ekim 2026): **K10** kaçış (simit tablası) → **K11** Cengo'nun
-kestirmesi (çamaşır ipi) → **K8** Peri balık kasasında → **K12** yakalama. İkisi de ayrı
+⚙ dört vuruş (sahibinin onayı, 7 Ekim 2026): **K10** kaçış (simit tablası) → **K11** Peri
+çamaşır ipinde (çarşaf) → **K8** Peri balık kasasında → **K12** yakalama. İkisi de ayrı
 ayrı rezil olur, Serkan'ı beceri değil şans yakalar (sezon kuralı "Kovalamaca").
 ⚙ ara kare: **K8** (Peri balık kasalarında, arkada Serkan levreklerin üstünde) · Peri bundan sonra İ6 boyunca **balıklı set** (sinirli, utanmış)
 ⚙ PB2 (balıklı, utanmış) = istavrit anı: göğsünün arasından küçük bir istavriti kuyruğundan çekiyor, kıpkırmızı (sahibinin kararı).
@@ -348,13 +348,16 @@ ayrı rezil olur, Serkan'ı beceri değil şans yakalar (sezon kuralı "Kovalama
 > **PERİ [sinirli]:** Kestirme nereye çıkıyor?
 > **CENGO:** *(uzaktan)* Bilmiyorum!
 >
-> ⚙ ara kare: **K11** (çamaşır ipi)
+> ⚙ ara kare: **K11** (çamaşır ipi) · sahibinin kararı (7 Ekim 2026): çarşaf Peri'nin
 >
-> Cengo ara sokakta bir çamaşır ipine dalıyor. Beyaz bir çarşafa sarılıp hayalet gibi
-> koşmaya devam ediyor. Pencereden bir teyze bağırıyor.
+> Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken
+> bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor.
+> Pencereden bir teyze bağırıyor.
 >
 > **TEYZE:** O çarşaf yeni yıkandı!
-> **CENGO:** *(çarşafın içinden)* Getireceğim!
+> **PERİ [sinirli]:** *(çarşafın içinden)* Getireceğim!
+>
+> Peri çarşafı üstünden atıyor, koşmaya devam ediyor.
 >
 > ⚙ ara kare: **K8** (balık kasası)
 >
@@ -365,8 +368,7 @@ ayrı rezil olur, Serkan'ı beceri değil şans yakalar (sezon kuralı "Kovalama
 >
 > ⚙ ara kare: **K12** (yakalama)
 >
-> Cengo, çarşaf omzunda, nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın
-> yakasına yapışıyor.
+> Cengo nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın yakasına yapışıyor.
 >
 > **CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi.
 > **PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
@@ -731,8 +733,8 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K8 | Kovalamaca: Peri balık kasalarının içinde, arkada Serkan levreklerin üstünde sırt üstü, Cengo yetişiyor | İ6 | ★ |
 | K9 | Hortum: çaycı Peri'yi iskelede hortumla yıkıyor | İ6 sonu | ★ (6 Ekim, sahibinin onayı) · tuttu |
 | K10 | Kaçış: Serkan simit tablasını deviriyor, simitler havada, Cengo birini havada yakalıyor | İ6 kovalamaca | ★ (7 Ekim, sahibinin onayı) · tuttu |
-| K11 | Cengo ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyze | İ6 kovalamaca | ★ (7 Ekim) |
-| K12 | Yakalama: Cengo çarşaf omzunda, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) |
+| K11 | Peri ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyzenin eli | İ6 kovalamaca | ★ (7 Ekim; çarşaf Peri'nin, sahibinin kararı) |
+| K12 | Yakalama: Cengo kestirmeden çıkmış, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
