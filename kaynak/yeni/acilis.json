@@ -65,7 +65,7 @@
         { "k": "not", "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor.", "arka": "A5", "mekan": true },
         { "k": "not", "m": "Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "kare": "K13" },
         { "k": "peri", "i": "sinirli", "m": "Avukatım bana bir şirket bırakmış. Bir de açmayan bir anahtar." },
-        { "k": "ses", "m": "Tel lazım mı?" },
+        { "k": "ses", "m": "Tel lazım mı?", "peri": "sasirmis" },
         { "k": "not", "m": "Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.", "gir": "cengo" },
         { "k": "peri", "i": "kas", "m": "Siz kimsiniz?" },
         { "k": "cengo", "i": "gulen", "m": "O güzel gözleri kapı önünde bekletemem. İki saniye." },

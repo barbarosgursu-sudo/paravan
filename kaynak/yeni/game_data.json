@@ -8,7 +8,7 @@
     "sahne": {
       "figurler": {
         "peri":   { "setler": { "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac", "tac_sinirli"],
-                                "manto":    ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan"],
+                                "manto":    ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis"],
                                 "balikli":  ["sinirli", "utanmis"] } },
         "cengo":  { "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak"] },
         "hilmi":  { "ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"] },

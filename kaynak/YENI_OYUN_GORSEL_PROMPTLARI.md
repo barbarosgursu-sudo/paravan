@@ -3824,3 +3824,9 @@ stiletto kapının alt paneline dayalı. İlk sonuçta (ChatGPT) anahtarı tutan
 bükülmüştü → yalnız eli düzelten düzenleme (ilk görsel referans). Düzenlemeyi **Grok**
 yaptı; yüz değişmedi (A2/ilk/Grok yan yana bakıldı). Grok 864×1152 verdi → Lanczos ile
 900×1200'e büyütüldü, WebP q80. Kopya `kaynak/yeni_gorsel/ara_k13_anahtar.webp`.
+
+### PSA — Peri, mantolu, şaşırmış (A2 referanslı, 7 Ekim 2026) — TUTTU
+Sahibinin isteği: koridorda "Tel lazım mı?" sesini duyup Cengo'yu görünce Peri irkilsin.
+Eli köprücük kemiğinin altında, gözler iri, dudaklar aralık. Ölçek ve baş yüksekliği A2
+ile birebir; `peri` profiliyle temiz kesildi → `sprite/peri_manto_sasirmis.webp`.
+Oyunda "Tel lazım mı?" (dinleyen Peri) ve Cengo'nun girdiği anlatı satırında.
