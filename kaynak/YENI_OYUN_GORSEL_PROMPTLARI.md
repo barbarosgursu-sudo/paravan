@@ -3807,3 +3807,12 @@ Referanslar: 1) mevcut `peri_mantosuz_sinirli` ham görseli, 2) PTC (taçlı Per
 Düzenleme: aynı poz ve ifade, yalnız sıkılı yumruk tacı kavrıyor (kalça hizasında,
 göğsü örtmüyor). Kesim: saten profil, KENAR=14, `--genis` (uzanan kol). Oyunda
 "O satılık değil." ve onu izleyen "Ben onu takarken…" satırında; ifade adı `tac_sinirli`.
+
+### H3 — Hilmi Bey, anahtar ve kâğıdı uzatıyor (7 Ekim 2026) — TUTTU
+Referans: 1) H1 ham görseli. Aynı adam ve ölçek; dosya bir kolda, öteki kol kadrajın
+soluna uzanmış; katlı kâğıt (yüzü kapalı) ve üstünde etiketsiz pirinç anahtar. Yazı yok.
+Kesim: `hilmi` profili. **Ders:** beyaz kâğıt açık bej zeminle bitişik olduğu için kenar
+taraması onu da sildi (KENAR düşürmek yetmedi, renk eşiği zemini de aldı) → kâğıt
+kaynakta elle çizilen bir çokgen maskesiyle geri kondu. Zemine yakın renkte, figürün
+dışına taşan nesne istenecekse kesimden sonra maske gerekeceğini baştan bil.
+Oyunda "Bir de bu var." satırından "Manto."ya kadar (`hilmi.uzatir`).

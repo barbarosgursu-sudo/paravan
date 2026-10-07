@@ -11,7 +11,7 @@
                                 "manto":    ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan"],
                                 "balikli":  ["sinirli", "utanmis"] } },
         "cengo":  { "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak"] },
-        "hilmi":  { "ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen"] },
+        "hilmi":  { "ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"] },
         "riza":   { "ad": "Rıza Reis", "ifadeler": ["normal", "dertli", "ofkeli"] },
         "serkan": { "ad": "Serkan", "ifadeler": ["normal"] },
         "tuba":   { "ad": "Tuba", "ifadeler": ["normal"] },

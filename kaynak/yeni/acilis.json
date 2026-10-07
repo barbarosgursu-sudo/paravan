@@ -36,7 +36,7 @@
       "id": "manto", "baslik": "Elde kalan tek şey",
       "arka": "A3", "figurler": ["peri", "hilmi"], "set": "mantosuz",
       "satirlar": [
-        { "k": "hilmi", "i": "ciddi", "m": "Bir de bu var. (bir anahtar ve katlanmış bir kâğıt uzatır) Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket." },
+        { "k": "hilmi", "i": "uzatir", "m": "Bir de bu var. (bir anahtar ve katlanmış bir kâğıt uzatır) Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket." },
         { "k": "peri", "i": "kas", "m": "Benim şirketim yok." },
         { "k": "hilmi", "m": "Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş, vergi için. Anahtarı onun çekmecesinden çıktı." },
         { "k": "peri", "i": "sinirli", "m": "Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı." },
@@ -47,7 +47,7 @@
         { "k": "hilmi", "m": "Yasak değil. Ama var da sayılmaz. (kâğıda bakar) Sizin şirket gibi." },
         { "k": "peri", "i": "normal", "m": "Teşekkür ederim. Bugün duyduğum en kibar hakaret bu." },
         { "k": "not", "m": "Peri askıdaki kırmızı mantoya uzanıyor. Hilmi Bey listeye bakıyor." },
-        { "k": "hilmi", "m": "Manto." },
+        { "k": "hilmi", "i": "ciddi", "m": "Manto." },
         { "k": "peri", "i": "kas", "m": "Üstümdeki giysiyi de mi alacaksınız?" },
         { "k": "hilmi", "m": "Üstünüzdeyse almayız. Askıdaysa alırız." },
         { "k": "not", "m": "Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor.", "kare": "K2", "set": "manto" },
