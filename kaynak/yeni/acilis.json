@@ -61,7 +61,7 @@
       "arka": "A4", "figurler": ["peri"], "set": "manto",
       "satirlar": [
         { "k": "not", "m": "Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor." },
-        { "k": "peri", "i": "kas", "m": "Üçüncü kat. Tabii. Asansör yoktur." },
+        { "k": "peri", "i": "kagit", "m": "Üçüncü kat. Tabii. Asansör yoktur." },
         { "k": "not", "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor. Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "arka": "A5" },
         { "k": "peri", "i": "sinirli", "m": "Tabii. Avukatın kapısı bile yalan söylüyor." },
         { "k": "ses", "m": "Tel lazım mı?" },
@@ -82,7 +82,7 @@
         { "k": "cengo", "i": "gulen", "m": "Hiç. Çok da iyi yapıyorum." },
         { "k": "peri", "i": "sinirli", "m": "Sizi kim işe aldı?" },
         { "k": "cengo", "i": "normal", "m": "Bilmiyorum. Bir gün hesabıma para yattı. Sonraki ay yine yattı. Sormadım; ayıp olur diye." },
-        { "k": "peri", "i": "kas", "m": "(kâğıda bakar) Şirket gerçek görünsün diye bordroya bir isim yazmış. Sizinkini." },
+        { "k": "peri", "i": "kagit", "m": "(kâğıda bakar) Şirket gerçek görünsün diye bordroya bir isim yazmış. Sizinkini." },
         { "k": "cengo", "i": "gulen", "m": "Gerçek bir isim. Hakkını vereyim." },
         { "k": "peri", "i": "normal", "m": "Bu şirketi kuran avukat üç ay önce ülkeden kaçtı. Benim bütün paramla." },
         { "k": "cengo", "i": "kas", "m": "Üç ay önce mi? Maaşım da üç aydır yatmıyor. Benim maaşım da onda mı?" },

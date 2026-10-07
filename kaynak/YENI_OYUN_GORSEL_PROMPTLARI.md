@@ -3638,3 +3638,16 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Geldiğinde bakılacaklar:** kâğıdın kameraya dönük yüzü gerçekten boş mu (büyüt), arka
 plan düz bej mi (kesim için şart), ölçek ve baş açısı A2 ile aynı mı, dekolte setteki
 ayarda mı, siyah etek görünüyor mu, el ve parmak sayıları.
+
+## Sonuç — PK (7 Ekim 2026)
+
+**Tuttu.** Kesik sprite `kaynak/yeni_gorsel/sprite/peri_manto_kagit.webp` (mantolu setin
+beşinci ifadesi, `kagit`). Kâğıdın kameraya dönük yüzü boş (katlama izleri var, yazı
+yok), anahtar elde, siyah etek ve kemer görünüyor, dekolte setteki ayarda. Ölçek A2 ile
+aynı; kaynak 1086×1448 geldi → yükseklik 1402'ye indirilip yanlara bej dolgu ile
+1122×1402'ye getirildi, sonra kesildi.
+
+**Kesim dersi:** `peri` profili (kenar tol 28) kâğıdın üst yarısını arka plan sanıp sildi
+— kâğıt bej zemine çok yakın. `saten` profili (kenar tol 14) kâğıdı korudu. **Zemine
+yakın renkli bir nesne tutan sprite'larda `saten` profiliyle kes, önizlemeye bak.**
+Oyunda: "(kâğıda bakar) Şirket gerçek görünsün…" ve han kapısında "Üçüncü kat. Tabii."
