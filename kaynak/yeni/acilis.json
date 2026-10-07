@@ -68,7 +68,7 @@
         { "k": "ses", "m": "Tel lazım mı?" },
         { "k": "not", "m": "Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.", "gir": "cengo" },
         { "k": "peri", "i": "kas", "m": "Siz kimsiniz?" },
-        { "k": "cengo", "i": "gulen", "m": "İki saniye." },
+        { "k": "cengo", "i": "gulen", "m": "O güzel gözleri kapı önünde bekletemem. İki saniye." },
         { "k": "not", "m": "İki saniye sürüyor. Kapı açılıyor.", "kare": "D1" },
         { "k": "cengo", "m": "Buyrun." },
         { "k": "peri", "i": "kas", "m": "Kilit açmayı nereden biliyorsunuz?" },

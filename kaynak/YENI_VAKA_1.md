@@ -110,7 +110,7 @@ bakan penceresinin camında da aynı yazı, ters okunuyor.*
 *Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.*
 
 **PERİ [kas]:** Siz kimsiniz?
-**CENGO [gulen]:** İki saniye.
+**CENGO [gulen]:** O güzel gözleri kapı önünde bekletemem. İki saniye.
 
 *İki saniye sürüyor. Kapı açılıyor.*
 
