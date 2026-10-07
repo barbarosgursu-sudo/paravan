@@ -3588,3 +3588,13 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Geldiğinde bakılacaklar:** Serkan ve Cengo tanınıyor ve birbirine benzemiyor mu, simit
 elde mi, kasada/teknelerde yazı, el/parmak sayıları, ton şiddete kaymış mı.
+
+## Sonuç — K12 (7 Ekim 2026)
+
+**Tuttu.** Kopya `kaynak/yeni_gorsel/ara_k12_yakalama.webp`. Serkan levreklerin arasında
+sırt üstü, göğsünde bir levrek, kolları açık; Cengo üstüne eğilmiş, bir eli kapüşonlunun
+yakasında, öteki elinde yarısı ısırılmış simit (K10'la süreklilik), sırıtıyor. Devrik
+mavi kasa, saçılmış levrekler, A9'un tekneleri ve vapuru. Şiddet yok. Kasada yazı yok;
+vapurun pruvasında okunmayan, bulanık bir leke var (harf seçilmiyor) — kabul edildi.
+
+# KOVALAMACA TAMAM (K10, K11, K8, K12) · VAKA 1 GÖRSELLERİ 49/49
