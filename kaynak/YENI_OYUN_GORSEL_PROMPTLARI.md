@@ -3688,3 +3688,15 @@ logo yok.
 
 **Geldiğinde bakılacaklar:** para/kart görünüyor mu (görünmemeli), cüzdanda logo, arka
 plan düz bej mi, ölçek A2 ile aynı mı, dekolte, siyah etek, el ve parmak sayıları.
+
+## Sonuç — PC (7 Ekim 2026): ilk deneme deftere benzedi → PC-b düzenleme tuttu
+
+İlk denemede ikiye katlanan düz siyah nesne pasaport/cep defteri gibi okunuyordu (sahibi
+yakaladı). Düzenlemeyle: uzun, parlak siyah, **altın fermuarlı** kadın cüzdanı, ağzı açık,
+içinden katlı banknotların kenarı görünüyor — cüzdan diye okunuyor. **Ders: nesneyi
+türüyle değil, onu tanıtan ayrıntıyla iste** (cüzdan → fermuar + banknot kenarı).
+
+Banknot kenarında bulanık, okunmayan baskı izleri vardı; küçük bir bölgede yumuşak
+kenarlı medyan rötuşla düzleştirildi (fermuar korunarak). Kesik sprite
+`kaynak/yeni_gorsel/sprite/peri_manto_cuzdan.webp` (`saten` profili, 1086×1448 → 1122×1402
+bej dolgu). Oyunda: "(cüzdanını açar) Kasa bu." ve "Bütün servetim."

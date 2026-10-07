@@ -113,8 +113,8 @@
             { "k": "cengo", "m": "Gününe göre." }
           ]}
         ]},
-        { "k": "peri", "i": "normal", "m": "Şirketin kasasını görmek ister misiniz? (cüzdanını açar) Kasa bu.", "kasa": true },
-        { "k": "peri", "m": "Dört bin iki yüz elli lira. Bütün servetim." },
+        { "k": "peri", "i": "cuzdan", "m": "Şirketin kasasını görmek ister misiniz? (cüzdanını açar) Kasa bu.", "kasa": true },
+        { "k": "peri", "i": "cuzdan", "m": "Dört bin iki yüz elli lira. Bütün servetim." },
         { "k": "cengo", "i": "kas", "m": "Benim üç aylık maaşım birikti. Asgari ücretten. Seksen dört bin." },
         { "k": "peri", "i": "sinirli", "m": "Asgari ücret mi? Yedi yıl boyunca hiçbir şey yapmadığınız için mi?" },
         { "k": "cengo", "i": "normal", "m": "Hiçbir şey yapmanın asgari ücreti bu." },
