@@ -93,7 +93,7 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 
 *Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor.*
 
-**PERİ [kas]:** Üçüncü kat. Tabii. Asansör yoktur.
+**PERİ [normal]:** Üçüncü kat. Tabii. Asansör yoktur.
 
 ⚙ arka plan → A5
 

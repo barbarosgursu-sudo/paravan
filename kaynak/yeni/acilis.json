@@ -60,8 +60,8 @@
       "id": "cengo", "baslik": "Cengo",
       "arka": "A4", "figurler": ["peri"], "set": "manto",
       "satirlar": [
-        { "k": "not", "m": "Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor." },
-        { "k": "peri", "i": "kagit", "m": "Üçüncü kat. Tabii. Asansör yoktur." },
+        { "k": "not", "m": "Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor.", "peri": "kagit" },
+        { "k": "peri", "i": "normal", "m": "Üçüncü kat. Tabii. Asansör yoktur." },
         { "k": "not", "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor.", "arka": "A5", "mekan": true },
         { "k": "not", "m": "Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "kare": "K13" },
         { "k": "peri", "i": "sinirli", "m": "Tabii. Avukatın kapısı bile yalan söylüyor." },
