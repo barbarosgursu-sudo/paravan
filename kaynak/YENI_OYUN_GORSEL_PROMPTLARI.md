@@ -3757,3 +3757,39 @@ yoksa sprite setle uyuşmaz).
 **Tuttu.** Bardaklar büyük, ikisi de demli ve buharlı, tabaklarda kaşık ve küp şeker; ölçek
 ve baş açısı korundu, dekolte açık. Tepsi standart çerçeveden taştığı için **geniş kesim**
 (`--genis`, manifestoda `genis` listesinde). Eski `cay` sprite'ının yerine geçti.
+
+
+## PTC — Peri tacı göğsüne bastırıyor (mantosuz set, yeni ifade "tac"; PM2 + K1 referanslı)
+
+Sahibi oyunda sordu (7 Ekim 2026): taç konuşulurken görünmeli. Kullanılacağı satırlar: "Son
+kalem… tacı, bir adet" → "Tacı verir misiniz?" (altı satır); ardından K1 (taç koliye).
+Tacın kendisi K1'deki gibi olmalı: gümüş, ince işçilikli, ortada büyük damla taşlı tiara.
+Kesim `saten` profiliyle (taşlar bej zemine yakın parlıyor — PK dersi).
+
+```
+Birinci referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı krem saten
+bluz ve aynı dekolte, aynı siyah kalem etek ve ince siyah kemer, aynı altın küpeler, aynı
+çizim tarzı, aynı düz açık bej arka plan. Kadraj birinci referansla birebir aynı: aynı
+ölçek, uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey. Manto YOK.
+
+İkinci referans görseldeki tacın AYNISI: aynı gümüş, ince işçilikli tiara, ortasında aynı
+büyük damla biçimli parlak taş, aynı küçük taş dizisi. (İkinci görseldeki eller, koli ve
+oda bu görselde YOK; yalnız taç alınacak.)
+
+Poz: iki eliyle tacı göğsünün altına, kalbinin üstüne bastırıyor; parmakları tacın
+etrafına sıkıca kapanmış, sahiplenici. Taç kameraya dönük, parlıyor. Taç dekolteyi
+örtmüyor; göğsünün altında duruyor.
+
+Başın açısı: başı kadrajın soluna dönük, çenesi hafifçe havada; burnu kadrajın soluna
+bakıyor, kulağı kadrajın sağında. Gözleri karşısındakinde. Kameraya bakmıyor.
+
+İfade: onurlu, inatçı bir meydan okuma: kaşları hafifçe çatık, dudakları sıkı, gözleri
+kısık; "O satılık değil."
+
+Arka plan DÜZ, AÇIK BEJ; başka hiçbir nesne yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** taç K1'dekiyle aynı mı, arka plan düz bej mi, ölçek PM2 ile
+aynı mı, dekolte, el ve parmak sayıları (tacı kavrayan parmaklar).
