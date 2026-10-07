@@ -67,7 +67,7 @@ daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli 
 **HİLMİ BEY:** Bir de bu var. *(bir anahtar ve katlanmış bir kâğıt uzatır)* Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket.
 **PERİ [kas]:** Benim şirketim yok.
 **HİLMİ BEY:** Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş, vergi için. Anahtarı onun çekmecesinden çıktı.
-**PERİ [sinirli]:** Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı.
+**PERİ [aci]:** Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı.
 **HİLMİ BEY:** Adresi burada. Karaköy, bir hanın üçüncü katı.
 **PERİ [kas]:** Dedektiflik mi? Ben dedektiflikten anlamam.
 **HİLMİ BEY:** Bu mesleğin kanunu yok. Doksan dörtte bir kanun hazırlanmış, yürürlüğe girmemiş.

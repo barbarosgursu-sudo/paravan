@@ -3852,3 +3852,9 @@ Sahibinin isteği: "Hilmi Bey eğilip bir kristali alıyor…" anlatısında ekr
 Hilmi ve önceki satırdan kalan utanmış Peri vardı. Ara kare: yerdeki avizenin yanında diz
 çökmüş, bir kristali ışığa tutuyor, yanağında küçük bir gökkuşağı; dosya kapalı ve boş
 (büyütüp bakıldı, yazı yok). Kadrajda yalnız Hilmi. 1086×1448 → 900×1200 WebP q80.
+
+### PMA — Peri, mantosuz, acı (PM2 referanslı, 7 Ekim 2026) — TUTTU
+Sahibinin isteği: "Avukatım… En büyüğü tuzaktı." satırında parmakla Hilmi Bey'i işaret
+eden sinirli görsel tuhaftı — öfke orada olmayan avukata. Kollar dekoltenin altında
+kavuşturulmuş, bakış aşağı kaçmış, çene gergin. Ölçek PM2 ile birebir; `peri` profiliyle
+kesildi → `sprite/peri_mantosuz_aci.webp`.
