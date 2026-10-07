@@ -3846,3 +3846,9 @@ Sahibinin isteği: "Ne maaşı?"da şaşırma görseli (irkilme, el göğüste) 
 kalkık, dudaklar aralık. Üretici 1024×1536 verdi; ölçek A2 ile aynıydı → x1402'ye
 indirilip zemin rengiyle 1122×1402'ye ortalanarak dolduruldu, `peri` profiliyle kesildi
 → `sprite/peri_manto_merakli.webp`. Şaşırma görseli yalnız "Tel lazım mı?" irkilmesinde.
+
+### K14 — Hilmi Bey kristali ışığa tutuyor (A2 + H1 referanslı, 7 Ekim 2026) — TUTTU
+Sahibinin isteği: "Hilmi Bey eğilip bir kristali alıyor…" anlatısında ekranda dimdik duran
+Hilmi ve önceki satırdan kalan utanmış Peri vardı. Ara kare: yerdeki avizenin yanında diz
+çökmüş, bir kristali ışığa tutuyor, yanağında küçük bir gökkuşağı; dosya kapalı ve boş
+(büyütüp bakıldı, yazı yok). Kadrajda yalnız Hilmi. 1086×1448 → 900×1200 WebP q80.

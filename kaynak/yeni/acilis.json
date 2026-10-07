@@ -21,7 +21,7 @@
         { "k": "peri", "i": "utanmis", "m": "Bilmiyorum. Sayan dolandırıcı avukatımdı." },
         { "k": "hilmi", "m": "Biz sayarız, hanımefendi. Bizim işimiz o." },
         { "k": "not", "m": "Avize sökülmüş, yerde; kristalleri parkeye dağılmış. Yanında bir merdiven, kapalı koliler.", "arka": "A2", "mekan": true },
-        { "k": "not", "m": "Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor." },
+        { "k": "not", "m": "Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor.", "kare": "K14" },
         { "k": "hilmi", "m": "Son kalem. (okur) “Güzellik yarışması birincilik tacı, bir adet.”", "peri": "tac" },
         { "k": "peri", "i": "tac_sinirli", "m": "O satılık değil." },
         { "k": "hilmi", "m": "Satmıyoruz. Haczediyoruz." },

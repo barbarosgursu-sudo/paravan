@@ -40,7 +40,11 @@ sesi geliyor.*
 ⚙ arka plan → A2 (ters açı; avize sökülmüş, yerde). Taç bölümü de burada geçer — A1'e dönülmez, A1'de avize hâlâ asılı.
 
 *Avize sökülmüş, yerde; kristalleri parkeye dağılmış. Yanında bir merdiven, kapalı
-koliler. Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor.*
+koliler.*
+
+⚙ ara kare: **K14** (kristal)
+
+*Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor.*
 
 ⚙ metin A2 görseline uyduruldu (7 Ekim 2026, sahibi oyunda yakaladı): görselde avize
 çoktan yerde, boğuşan memur yok. Avize satırı mekân karesi — figürler çekilir.
@@ -743,6 +747,7 @@ görselinden 3'ü yeniden üretilecek (hangileri ve neden: aşağıda, sahibinde
 | K11 | Peri ara sokakta çamaşır ipine dalmış, çarşafa sarılı koşuyor; pencerede teyzenin eli | İ6 kovalamaca | ★ (7 Ekim; çarşaf Peri'nin, sahibinin kararı) · tuttu (K11b) |
 | K12 | Yakalama: Cengo kestirmeden çıkmış, levreklerin üstünde yatan Serkan'ın yakasında | İ6 kovalamaca | ★ (7 Ekim) · tuttu |
 | K13 | Peri büronun kapısında anahtarla boğuşuyor; bir stilettosu kapıya dayalı, tabela kadraj dışında | Açılış S3 | ★ (7 Ekim, sahibinin isteği) · tuttu |
+| K14 | Hilmi Bey yerdeki avizenin yanında diz çökmüş, bir kristali ışığa tutuyor | Açılış S1 | ★ (7 Ekim, sahibinin isteği) · tuttu |
 
 K3–K6 eski oyundaki "ruh hâli" görsellerinin yerini alır: her karar kendi sahnesiyle
 kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
