@@ -3839,3 +3839,10 @@ taşındı. Ölçek CA2 ile birebir. `cengo` profiliyle kesildi; kol ile gövde 
 kapalı bej boşluk (delik doldurma kapalı olduğu için kalıyor) elle floodfill ile
 saydamlandı → `sprite/cengo_buyrun.webp`. **Ders:** iki elle iki ayrı iş isteyince
 üretici bir kola iki el bağlayabiliyor; el sayısını her sonuçta say.
+
+### PME — Peri, mantolu, meraklı (A2 referanslı, 7 Ekim 2026) — TUTTU
+Sahibinin isteği: "Ne maaşı?"da şaşırma görseli (irkilme, el göğüste) fazla geldi;
+"biraz merak olmalı". Baş hafif eğik, işaret parmağı çenede, öteki el belde, kaşlar
+kalkık, dudaklar aralık. Üretici 1024×1536 verdi; ölçek A2 ile aynıydı → x1402'ye
+indirilip zemin rengiyle 1122×1402'ye ortalanarak dolduruldu, `peri` profiliyle kesildi
+→ `sprite/peri_manto_merakli.webp`. Şaşırma görseli yalnız "Tel lazım mı?" irkilmesinde.

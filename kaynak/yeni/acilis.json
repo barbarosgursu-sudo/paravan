@@ -75,7 +75,7 @@
         { "k": "cengo", "i": "normal", "m": "Herkes bilir. Ben sadece utanmıyorum." },
         { "k": "peri", "i": "normal", "m": "Teşekkür ederim. Şimdi gidebilirsiniz." },
         { "k": "cengo", "m": "Gidemem. Maaşım yatmadı." },
-        { "k": "peri", "i": "sasirmis", "m": "Ne maaşı?" },
+        { "k": "peri", "i": "merakli", "m": "Ne maaşı?" },
         { "k": "cengo", "m": "Bu şirketin maaşı. Çalışanıyım." },
         { "k": "peri", "i": "kas", "m": "Bu şirketin çalışanı yok." },
         { "k": "cengo", "m": "Bordroda var. Yedi yıldır." },
