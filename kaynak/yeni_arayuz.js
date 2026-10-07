@@ -146,7 +146,8 @@ function vnFigurCiz(satir){
     if(sag.dataset.src !== anahtar){
       const src = vnGorsel(anahtar);
       const olcek = (YG.boy||{})[kim] || 1;
-      const stil = olcek < 1 ? ` style="height:${olcek*100}%;margin-top:${(1-olcek)*100}%"` : "";
+      // Küçük figür tabana oturur: kesik alt kenarı sahnenin altında kalmalı, havada değil.
+      const stil = olcek < 1 ? ` style="position:absolute;left:0;bottom:0;height:${olcek*100}%"` : "";
       sag.innerHTML = src ? `<img alt="${vnHtml(vnAd(kim))}"${stil} src="${src}">` : "";
       sag.dataset.src = anahtar;
     }

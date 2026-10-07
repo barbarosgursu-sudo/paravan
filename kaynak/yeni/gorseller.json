@@ -69,7 +69,7 @@
   },
   "genis": ["peri.mantosuz.sinirli", "peri.balikli.sinirli", "peri.balikli.utanmis", "peri.mantosuz.cay", "peri.mantosuz.tac_sinirli"],
   "tam": ["K9"],
-  "boy": { "riza": 0.86, "hilmi": 0.95, "serkan": 0.92, "tuba": 0.9, "cayci": 0.82 },
+  "boy": { "riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.9, "cayci": 0.82 },
   "arka": {
     "A1": { "ad": "Nişantaşı · salon", "grup": "salon_sabah" },
     "A2": { "ad": "Nişantaşı · salon", "grup": "salon_sabah" },
