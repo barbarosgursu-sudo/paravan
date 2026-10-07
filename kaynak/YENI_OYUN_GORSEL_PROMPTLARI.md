@@ -3598,3 +3598,43 @@ mavi kasa, saçılmış levrekler, A9'un tekneleri ve vapuru. Şiddet yok. Kasad
 vapurun pruvasında okunmayan, bulanık bir leke var (harf seçilmiyor) — kabul edildi.
 
 # KOVALAMACA TAMAM (K10, K11, K8, K12) · VAKA 1 GÖRSELLERİ 49/49
+
+
+## PK — Peri kâğıda bakıyor (mantolu set, yeni ifade "kagit"; A2 + PM2 referanslı)
+
+Sahibi oyunda istedi (7 Ekim 2026): "(kâğıda bakar)" satırında Peri kaş kaldırıyordu,
+kâğıt yoktu. Kullanılacağı yerler: Cengo sahnesi "Şirket gerçek görünsün diye…" ve han
+kapısı "Üçüncü kat. Tabii. Asansör yoktur." (adrese bakıyor). Kesim: `peri` profili, aynı
+çerçeve (ekranda zıplamasın). Kâğıdın yazılı yüzü Peri'ye dönük; kameraya yalnız boş
+arkası görünür (yazı taşıyan nesnenin yüzü kapatılır — kalıcı ders).
+
+İki referans: **Peri A2** (yüz, saç, manto, bluz, dekolte, kadraj, düz bej arka plan),
+**Peri PM2** (siyah kalem etek ve kemer).
+
+```
+Birinci referans görseldeki kadının AYNISI: aynı yüz, aynı saç ve topuz, aynı kırmızı
+kuşaklı manto, aynı krem saten bluz ve aynı dekolte, aynı altın küpeler, aynı çizim
+tarzı, aynı düz açık bej arka plan. Kadraj birinci referansla birebir aynı: aynı ölçek,
+uyluk ortasından kesilmiş, başın tepesi aynı yükseklikte, dikey. Mantonun önü kuşağın
+altında açık; aradan ikinci referans görseldeki SİYAH, dar kalem etek ve ince siyah
+kemer görünüyor. Kırmızı etek YOK.
+
+Poz: iki eliyle, göğsünün biraz altında, açılmış, katlama izleri belli bir A4 kâğıdı
+tutuyor ve ona bakıyor. Kâğıdın yazılı yüzü KADINA dönük; kameraya kâğıdın yalnız ARKA
+yüzü görünüyor: düz, krem rengi, BOŞ, üzerinde hiçbir yazı, çizgi, iz yok. Kâğıt
+dekolteyi örtmüyor. Bir elinde, kâğıtla birlikte, küçük, eski, pirinç bir anahtar.
+
+Başın açısı: başı kadrajın soluna dönük ve hafifçe öne eğik, gözleri aşağıda, kâğıtta;
+burnu kadrajın soluna bakıyor, kulağı kadrajın sağında. Kameraya bakmıyor.
+
+İfade: kuşkulu, iğneleyici bir okuma: bir kaşı kalkık, dudağının bir ucu bükük;
+"Bak sen şu işe" der gibi.
+
+Arka plan DÜZ, AÇIK BEJ; başka hiçbir nesne yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
+**Geldiğinde bakılacaklar:** kâğıdın kameraya dönük yüzü gerçekten boş mu (büyüt), arka
+plan düz bej mi (kesim için şart), ölçek ve baş açısı A2 ile aynı mı, dekolte setteki
+ayarda mı, siyah etek görünüyor mu, el ve parmak sayıları.
