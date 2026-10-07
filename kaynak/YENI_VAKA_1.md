@@ -19,8 +19,9 @@
 
 ⚙ arka plan: Peri'nin evi, boşalmakta olan salon · figürler: Peri, Hilmi Bey (icra memuru)
 
-*Nişantaşı. Yüksek tavanlı bir daire. İki memur eşya taşıyor; biri elinde listeyle
-kapıda duruyor.*
+*Nişantaşı. Yüksek tavanlı bir daire. Eşyalar kolilere girmiş, avize hâlâ tavanda.
+İcra memuru elinde listeyle salonun ortasında duruyor; hol tarafından taşıyıcıların
+sesi geliyor.*
 
 **HİLMİ BEY:** Hanımefendi, koltuğu alıyoruz.
 **PERİ [normal]:** Önce çayınızı için. Bardaklar listede yok, değil mi?
@@ -38,8 +39,11 @@ kapıda duruyor.*
 
 ⚙ arka plan → A2 (ters açı; avize sökülmüş, yerde). Taç bölümü de burada geçer — A1'e dönülmez, A1'de avize hâlâ asılı.
 
-*Arkada iki memur avizeyle boğuşuyor. Bir kristal yere düşüyor. Hilmi Bey eğilip
-alıyor, listeye bir çizgi ekliyor.*
+*Avize sökülmüş, yerde; kristalleri parkeye dağılmış. Yanında bir merdiven, kapalı
+koliler. Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor.*
+
+⚙ metin A2 görseline uyduruldu (7 Ekim 2026, sahibi oyunda yakaladı): görselde avize
+çoktan yerde, boğuşan memur yok. Avize satırı mekân karesi — figürler çekilir.
 
 **HİLMİ BEY:** Son kalem. *(okur)* "Güzellik yarışması birincilik tacı, bir adet."
 **PERİ [sinirli]:** O satılık değil.

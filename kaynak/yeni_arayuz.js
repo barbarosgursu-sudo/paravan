@@ -161,7 +161,9 @@ function vnSatirGoster(satir){
   if(figur && satir.i) vn.ifade[k] = satir.i;
   if(satir.kasa){ vn.kasaGorunur = vnKasaGorunur = true; vnKasaTazele(); }
   vnKareGoster(satir.kare || null);
-  $("vnFig").classList.toggle("cekilmis", !!satir.kare);
+  // mekan: yeri tanıtan anlatı satırı — figürler çekilir, arka plan çıplak görünür
+  // (aksi hâlde sahnenin ortasındaki nesne, ör. A2'deki yerdeki avize, figürlerin arkasında kalır).
+  $("vnFig").classList.toggle("cekilmis", !!(satir.kare || satir.mekan));
   vnFigurCiz(satir);
   $("vnPlakaSol").hidden = k !== "peri";
   const sagPlaka = (figur && k !== "peri") || !!(SAHNE_KANON.sesler||{})[k];

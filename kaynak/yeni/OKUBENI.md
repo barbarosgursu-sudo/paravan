@@ -88,6 +88,7 @@ Satırda isteğe bağlı sahne değişiklikleri:
 | `set: "balikli"` | Peri'nin kıyafet seti değişir (sonraki ifadeler o setten seçilir) |
 | `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar |
 | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
+| `mekan: true` | mekân karesi: figürler çekilir, arka plan çıplak görünür (yeri tanıtan anlatı satırı) |
 
 **Seçim:** `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
 

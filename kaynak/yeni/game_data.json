@@ -134,7 +134,7 @@
           "_not": "Araştırma bitince her yoldan oynanır. Nurcan: hiçbir olguyu adıyla anmaz.",
           "arka": "A7", "figurler": ["peri", "cengo"],
           "satirlar": [
-            { "k": "not", "m": "Büro, akşamüstü. Pencereden iskele görünüyor; Nazlı'nın yeri boş." },
+            { "k": "not", "m": "Büro, akşamüstü. Pencereden iskele görünüyor; Nazlı'nın yeri boş.", "mekan": true },
             { "k": "peri", "i": "normal", "m": "Reis yarın parayla gelecek. Ona ne diyoruz?" },
             { "k": "cengo", "i": "kas", "m": "Bildiğimizi." },
             { "k": "peri", "i": "kas", "m": "Ne kadarını biliyoruz?" },
@@ -201,7 +201,7 @@
           "sahne": {
             "arka": "A9", "figurler": ["peri", "cengo"],
             "satirlar": [
-              { "k": "not", "m": "Zincir iskelede, yerinde." },
+              { "k": "not", "m": "Zincir iskelede, yerinde.", "mekan": true },
               { "k": "not", "m": "Kilidi kırılmamış, zorlanmamış; açılıp yeniden kilitlenmiş. Cengo kilide bakıyor.", "kare": "D2" },
               { "k": "cengo", "i": "kas", "m": "Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam." }
             ]
@@ -215,7 +215,7 @@
           "sahne": {
             "arka": "A11", "figurler": ["peri", "cengo"],
             "satirlar": [
-              { "k": "not", "m": "Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi." },
+              { "k": "not", "m": "Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi.", "mekan": true },
               { "k": "peri", "i": "normal", "m": "Beni tanırlar." },
               { "k": "asistan", "m": "Figüranlar arkadan." },
               { "k": "not", "m": "Peri arkadan giriyor." },
