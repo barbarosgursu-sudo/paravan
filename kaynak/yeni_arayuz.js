@@ -11,6 +11,12 @@
    ve en son konuşan Peri-dışı figürün. Üç kişilik sahnede (giriş: Peri, Cengo,
    Rıza Reis) kim söz alırsa sağa o geçer — boylar sabit, yalnız kişi değişir. */
 
+/* Yeni oyunun motoru (motor_yeni.js, derlemede bu dosyadan hemen önce gömülür).
+   `oyun` eski betikte zaten kuruldu; prototipini değiştirmek yeterli (kurucu aynı).
+   Sonraki her `new Oyun(GAME)` (yükleme denemesi, baştan başla) OyunYeni kurar. */
+Oyun = OyunYeni;
+Object.setPrototypeOf(oyun, OyunYeni.prototype);
+
 const YG = YENI_GORSEL;
 const SAHNE_KANON = GAME.kanon.sahne;
 const VN_AZ_HAREKET = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -39,11 +45,19 @@ let vn = null;   // çalan sahnenin durumu
 const VN_GERI = true;
 
 /* Bir sahneyi oynatır, bitince sonra()'yı çağırır. baslik: üst şeritteki ad. */
+/* bag: "yuksek" | "dusuk" taşıyan satır yalnız o hâlde oynar (kural 12a, eşik motor_yeni.js).
+   Bağ sahne BAŞLARKEN okunur; kapanış karardan sonra oynadığı için kararın etkisi dahildir. */
+function vnBagSuz(satirlar){
+  const yuksek = oyun.bagYuksek ? oyun.bagYuksek() : false;
+  return satirlar.filter(s => !s.bag || (s.bag === "yuksek") === yuksek)
+    .map(s => s.secenekler ? { ...s, secenekler: s.secenekler.map(o => ({ ...o, satirlar: vnBagSuz(o.satirlar || []) })) } : s);
+}
+
 function sahneOynat(sahne, sonra, baslik, onceki){
   if(!sahne || !Array.isArray(sahne.satirlar) || !sahne.satirlar.length){ sonra(); return; }
   const figurler = sahne.figurler || ["peri"];
   vn = {
-    kuyruk: [...sahne.satirlar], sonra,
+    kuyruk: vnBagSuz(sahne.satirlar), sonra,
     set: sahne.set || vnSonSet || "manto",
     ifade: {}, mevcut: new Set(figurler),
     sag: figurler.find(f => f !== "peri" && f !== "cengo") || (figurler.includes("cengo") ? "cengo" : null),
@@ -365,31 +379,106 @@ function ipucuKarti(c, r, yeni){
   app.innerHTML = h; scrollUst();
 }
 
-// Karara geçerken büroya dönüş sahnesi — vaka başına bir kez.
+/* ---------- Kim yaptı? (sablon/1_oyun_yapisi.md) ----------
+   Sıra: araştırma → Kim yaptı? → yüzleşme → kovalamaca → karar → kapanış.
+   Suçlama tek haktır; yapıldıktan sonra araştırmaya dönülmez. */
+const _eskiArastirmaFazi = arastirmaFazi;
 const _eskiKararFazi = kararFazi;
-const vnDonusOynandi = new Set();
+arastirmaFazi = function(){
+  const a = oyun.durum.aktif;
+  if(!a || !a.vaka.kim_yapti) return _eskiArastirmaFazi();
+  if(a.suclama){ kararEkrani(); return; }        // kayıttan dönüş: suçlama yapılmış
+  _eskiArastirmaFazi();
+  // Eski düğme ("Karar vermeye hazırım") ve "daha fazla araştırman gerek" notu yerine:
+  document.querySelectorAll('.faz > .buton[onclick="kararFazi()"]').forEach(el => el.remove());
+  document.querySelectorAll('.faz > .bilgi').forEach(el => { if(/Karar verebilmek/.test(el.textContent)) el.remove(); });
+  const b = document.createElement("button");
+  b.className = "buton"; b.textContent = "Kim yaptı? →";
+  b.addEventListener("click", () => kimYaptiEkrani());
+  document.querySelector(".faz").append(b);
+};
 kararFazi = function(){
   const a = oyun.durum.aktif;
-  const s = a && (a.vaka.sahneler || {}).donus;
-  if(s && !vnDonusOynandi.has(a.id)){
-    vnDonusOynandi.add(a.id);
-    vnSonSet = "manto";
-    sahneOynat(s, kararEkrani, a.vaka.baslik);
-    return;
-  }
+  if(a && a.vaka.kim_yapti && !a.suclama){ kimYaptiEkrani(); return; }
   kararEkrani();
 };
-/* Batma uyarısı yok (sahibinin kararı, 6 Ekim 2026; Ton §9 "batmak keyif vermez").
-   Eski karar ekranı her seçeneğin altına "yeni iş gelmezse batarsın / açık
-   verirsin / borca girersin" yazıyor, ay sonu tutarını kırmızıya boyuyordu.
-   Yeni oyunda gider ve "ay sonunda" önizlemesi kalır — bilgi; hüküm cümlesi gider.
-   Borç önizlemesi (borcSonra) kalır: o bir sonuç, uyarı değil. */
-function kararEkrani(){
-  _eskiKararFazi();
-  document.querySelectorAll(".karar .bedel .sonuc").forEach(el => el.remove());
-  document.querySelectorAll(".karar .bedel .kalan").forEach(el => el.classList.remove("kotu", "dar", "iyi"));
+
+let kySecim = { supheli: null, kanitlar: [] };
+function kimYaptiEkrani(sifirla = true){
+  if(sifirla) kySecim = { supheli: null, kanitlar: [] };
+  const a = oyun.durum.aktif;
+  const supheliler = oyun.supheliler(), kanitlar = oyun.kanitlar();
+  let h = ust() + '<div class="faz ky">';
+  h += `<div class="baslik"><div class="no">${vnHtml(a.vaka.baslik)}</div><h1 style="font-size:24px">Kim yaptı?</h1></div>`;
+  h += `<div class="ky-not">Bir şüpheli ve onu gösteren iki kanıt seç. Tek hakkın var.` +
+       (a.arastirmaKalan > 0 ? ` <b>Hâlâ ${a.arastirmaKalan} araştırma hakkın var.</b>` : "") + `</div>`;
+  h += `<div class="faz-etiket"><span class="t">Şüpheli</span></div><div class="ky-liste">`;
+  for(const s of supheliler)
+    h += `<button type="button" class="ky-secenek${kySecim.supheli === s.id ? " secili" : ""}" onclick="kySupheli('${s.id}')">${vnHtml(s.ad)}</button>`;
+  h += `</div><div class="faz-etiket"><span class="t">Kanıtlar</span><span class="ky-sayac">${kySecim.kanitlar.length} / 2</span></div><div class="ky-liste">`;
+  for(const k of kanitlar)
+    h += `<button type="button" class="ky-secenek kanit${kySecim.kanitlar.includes(k.id) ? " secili" : ""}" onclick="kyKanit('${k.id}')">${vnHtml(k.metin)}</button>`;
+  h += `</div>`;
+  const hazir = kySecim.supheli && kySecim.kanitlar.length === 2;
+  h += `<button class="buton" ${hazir ? "" : "disabled"} onclick="kyOnay()">Suçla</button>`;
+  h += `<button class="buton ikincil" onclick="arastirmaFazi()">← Araştırmaya dön</button></div>`;
+  app.innerHTML = h;
+  if(sifirla) scrollUst();
+}
+function kySupheli(id){ kySecim.supheli = kySecim.supheli === id ? null : id; kimYaptiEkrani(false); }
+function kyKanit(id){
+  const k = kySecim.kanitlar;
+  if(k.includes(id)) k.splice(k.indexOf(id), 1);
+  else { if(k.length >= 2) k.shift(); k.push(id); }
+  kimYaptiEkrani(false);
+}
+function kyOnay(){
+  const s = oyun.supheliler().find(x => x.id === kySecim.supheli);
+  const f = oyun.durum.aktif.vaka.facts;
+  if(!s || kySecim.kanitlar.length !== 2) return;
+  let h = ust() + '<div class="faz ky">';
+  h += `<div class="baslik"><div class="no">Kim yaptı?</div><h1 style="font-size:24px">${vnHtml(s.ad)}</h1></div>`;
+  h += `<div class="ky-ozet">${kySecim.kanitlar.map(id => `<div class="o">${vnHtml(f[id])}</div>`).join("")}</div>`;
+  h += `<div class="uyari">Bu suçlama geri alınamaz.</div>`;
+  h += `<button class="buton" onclick="kySucla()">Evet, suçla</button>`;
+  h += `<button class="buton ikincil" onclick="kimYaptiEkrani(false)">Vazgeç</button></div>`;
+  app.innerHTML = h; scrollUst();
+}
+function kySucla(){
+  const a = oyun.durum.aktif;
+  const r = oyun.suclama(kySecim.supheli, kySecim.kanitlar);
+  if(r.hata){ kimYaptiEkrani(); return; }
+  kayitYaz();
+  efektCal('muhur');
+  const s = a.vaka.sahneler || {};
+  vnSonSet = "manto";
+  sahneZinciri([s[r.sahne], s.kovalamaca], kararEkrani, a.vaka.baslik);
 }
 
+/* Karar ekranı: dört karar her zaman açık (kapı yok). Para yalnız birikir;
+   gider, "ay sonunda", batma yok (kural 24). Ücret Kim yaptı?'nın sonucundan gelir,
+   karar parası varsa kararın altında yazar. */
+function kararEkrani(){
+  const a = oyun.durum.aktif;
+  if(!a.vaka.kim_yapti){                         // eski tip vaka: batma uyarısı temizlenir
+    _eskiKararFazi();
+    document.querySelectorAll(".karar .bedel .sonuc").forEach(el => el.remove());
+    document.querySelectorAll(".karar .bedel .kalan").forEach(el => el.classList.remove("kotu", "dar", "iyi"));
+    return;
+  }
+  const ucret = a.vaka.kim_yapti.ucret[a.suclama.sonuc];
+  let h = ust() + '<div class="faz">';
+  h += `<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>`;
+  h += `<div class="uyari">Bu karar geri alınamaz.</div>`;
+  h += `<div class="ky-ucret">Vaka ücreti <b>${tl(ucret)}</b></div>`;
+  for(const k of oyun.acikKararlar()){
+    const p = v6Karar(k.id).para || 0;
+    const ek = p ? `<span class="bedel"><b class="${p > 0 ? "kazanc" : "yok"}">${p > 0 ? "+" : ""}${tl(p)}</b></span>` : "";
+    h += `<div class="karar" onclick="kararVerFaz('${k.id}')"><div class="et">${vnHtml(k.etiket)}${ek}</div></div>`;
+  }
+  h += '</div>';
+  app.innerHTML = h; scrollUst();
+}
 /* Kasa şeridi: yalnız kasa ve (varsa) borç. Eski şerit kasayı ay sonu giderine
    oranlayıp "bu ayın giderini karşılamıyor / kasa boş" diyordu — batma uyarısı. */
 kasaSerit = function(){
@@ -419,11 +508,24 @@ kararVerFaz = function(id){
   h += `<div class="sonuc-kutu"><h3>Sonuç</h3><p>${r.sonuc}</p></div>`;
   if(r.cengoSatir) h += `<div class="cengo-satir">${r.cengoSatir}</div>`;
   if(not) h += `<div class="defter-not">${not}</div>`;
-  h += hesapKutusu(r.ekonomi);
-  h += cengoGosterge();
+  h += v.kim_yapti ? yeniHesapKutusu(r.ekonomi) : hesapKutusu(r.ekonomi);
   h += `<button class="buton" onclick="vnKapanisOynat()">Devam et</button></div>`;
   app.innerHTML = h; scrollUst();
 };
+/* Cengo bağı ekranda görünmez: sayı, alev, kelime yok (kural kitabı 11). Bağ yalnız
+   kapanışın iki hâlinde hissedilir (12a). Eski arayüzün göstergesi bu sayfada boş döner. */
+cengoGosterge = function(){ return ""; };
+
+/* Para yalnız birikir (kural 24–25): ücret + karar parası = kasaya giren. */
+const KY_SONUC_AD = { dogru: "kanıt tam", zayif: "kanıt zayıftı", yanlis: "yanlış kişi suçlandı" };
+function yeniHesapKutusu(e){
+  let h = '<div class="hesap">';
+  h += `<div class="satir gelir"><span>Vaka ücreti<em class="acik" style="color:var(--sonuk)">${KY_SONUC_AD[e.suclama] || ""}</em></span><b>${tl(e.ucret)}</b></div>`;
+  if(e.kararPara) h += `<div class="satir ${e.kararPara > 0 ? "gelir" : "gider"}"><span>Kararın getirdiği</span><b>${tl(e.kararPara)}</b></div>`;
+  h += '<div class="ayrac"></div>';
+  h += `<div class="sonuc-satir"><span>Kasa</span><span>${tl(e.para)}</span></div></div>`;
+  return h;
+}
 let vnKapanis = null;
 function vnKapanisOynat(){
   const k = vnKapanis; vnKapanis = null;

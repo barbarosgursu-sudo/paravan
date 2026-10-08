@@ -171,3 +171,18 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .cengo-etiket{color:var(--sonuk);font-weight:800}
 .alev.dolu{filter:none}
 .cengo-kelime{color:var(--gece);font-weight:700}
+
+/* ===== Kim yaptı? ekranı (yeni_arayuz.js → kimYaptiEkrani) ===== */
+.ky-not{margin:4px 24px 6px;font-size:15px;color:var(--sonuk);font-weight:600}
+.ky-not b{color:var(--tramvay)}
+.ky-liste{display:flex;flex-direction:column;gap:10px;margin:8px 24px 0}
+.ky-secenek{font:inherit;text-align:left;background:#fff;color:var(--gece);border:3px solid var(--gece);border-radius:12px;
+  box-shadow:0 3px 0 var(--gece);padding:12px 14px;font-size:16px;font-weight:800;min-height:48px;cursor:pointer}
+.ky-secenek.kanit{font-size:15px;font-weight:600;line-height:1.4}
+.ky-secenek.secili{background:var(--simit);box-shadow:0 0 0 var(--gece);transform:translateY(3px)}
+.ky-sayac{font-weight:800;color:var(--tramvay)}
+.buton[disabled]{opacity:.45;cursor:not-allowed;transform:none}
+.ky-ozet{margin:8px 24px 0;display:flex;flex-direction:column;gap:8px}
+.ky-ozet .o{background:#fff;border:3px solid var(--gece);border-left:6px solid var(--simit);border-radius:12px;padding:10px 12px;font-size:15px}
+.ky-ucret{margin:6px 24px 4px;font-weight:700;color:var(--sonuk)}
+.ky-ucret b{color:var(--gece);font-size:17px;margin-left:6px}

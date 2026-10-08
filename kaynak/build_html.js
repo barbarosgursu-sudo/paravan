@@ -1430,7 +1430,9 @@ if (YENI) {
   degistir('const KAYIT_ANAHTAR = "paravan_kayit_v1";', 'const KAYIT_ANAHTAR = "paravan_yeni_kayit_v1";', "kayıt anahtarı");
   // Sayfa bir alt klasörde (../yeni/); ses dosyaları depo kökündeki ses/'te.
   degistir('const SES_KLASOR  = "ses/";', 'const SES_KLASOR  = "../ses/";', "ses klasörü");
-  degistir("\nbaslat();\n</script>", "\n" + js + "\nbaslat();\n</script>", "konuşma ekranı");
+  // Yeni motor eki (Kim yaptı?, ücret sonda): <node>…</node> blokları sayfaya girmez.
+  const motorYeni = fs.readFileSync("motor_yeni.js", "utf-8").replace(/\/\/ <node>[\s\S]*?\/\/ <\/node>\n?/g, "");
+  degistir("\nbaslat();\n</script>", "\n" + motorYeni + "\n" + js + "\nbaslat();\n</script>", "konuşma ekranı");
   const m = cikti.match(/<script>([\s\S]*)<\/script>/);
   try { new (require("vm").Script)(m[1], { filename: "yeni/index.html (script)" }); }
   catch (e) { console.error("DERLEME DURDU — yeni kip betiği geçersiz:", e.message); process.exit(1); }

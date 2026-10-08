@@ -832,6 +832,8 @@ function kural15_sahne(game, hatalar, acilis) {
         return;
       }
       if (typeof s.m !== "string" || !s.m.trim()) hatalar.push(`[K15] ${y}: metin boş.`);
+      if (s.bag !== undefined && s.bag !== "yuksek" && s.bag !== "dusuk")
+        hatalar.push(`[K15] ${y}: 'bag' yalnız "yuksek" ya da "dusuk" olabilir.`);
       // 'peri': konuşan başkayken Peri'nin ifadesi (dinleyen hâli). Aynı set kuralına tabi.
       if (s.peri !== undefined && fig.peri && fig.peri.setler) {
         const izinliP = fig.peri.setler[set] || [];
@@ -859,6 +861,149 @@ function kural15_sahne(game, hatalar, acilis) {
   for (const sahne of (acilis && acilis.sahneler) || []) denetle(`açılış/${sahne.id}`, sahne);
 }
 
+
+// ============================================================================
+// YENİ OYUN — şablon denetimleri (sablon/4_motor_sinirlari.md, 7_uretim_sureci.md).
+// Yalnız `kim_yapti` taşıyan vakalarda çalışır; eski oyunun vakalarında yoktur.
+// ============================================================================
+const trKucuk = x => String(x || "").toLocaleLowerCase("tr");
+// Kelime başında eşleşme (ek serbest): "Bebek" → "Bebek'teki", "bebekte".
+function kelimeGeciyor(metin, kelime) {
+  const esc = trKucuk(kelime).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp("(^|[^\\p{L}])" + esc, "u").test(trKucuk(metin));
+}
+// 35000 → "otuz beş bin" (ücret metinde yazıyla da geçebilir).
+function sayiYazi(n) {
+  const b = ["", "bir", "iki", "üç", "dört", "beş", "altı", "yedi", "sekiz", "dokuz"];
+  const o = ["", "on", "yirmi", "otuz", "kırk", "elli", "altmış", "yetmiş", "seksen", "doksan"];
+  const yuz = x => [x >= 100 ? (Math.floor(x / 100) > 1 ? b[Math.floor(x / 100)] + " yüz" : "yüz") : "",
+                    o[Math.floor(x % 100 / 10)], b[x % 10]].filter(Boolean).join(" ");
+  const bin = Math.floor(n / 1000), kalan = n % 1000;
+  return [bin ? (bin === 1 ? "bin" : yuz(bin) + " bin") : "", yuz(kalan)].filter(Boolean).join(" ");
+}
+function girisMetni(vaka) {
+  return [sahneMetni((vaka.sahneler || {}).giris), ...(vaka.giris || []).map(g => g.metin || "")].join(" ");
+}
+
+// KURAL 17 — Giriş (1. parça, "Giriş"): büro, 15–25 replik, şüpheli adı, ücret,
+// ipucu bilgisi önceden söylenmez. Kelime arar; dolaylı ele vermeyi yakalayamaz.
+function kural17_giris(game, hatalar) {
+  const buro = new Set(((game.kanon || {}).sahne || {}).buro || []);
+  for (const vaka of game.vakalar) {
+    const ky = vaka.kim_yapti; if (!ky) continue;
+    const s = (vaka.sahneler || {}).giris, yer = `${vaka.id}/giriş`;
+    if (!s) { hatalar.push(`[K17] ${yer}: giriş sahnesi yok.`); continue; }
+    const arkalar = [s.arka, ...sahneSatirlari(s).map(x => x.arka)].filter(Boolean);
+    if (!arkalar.length || arkalar.some(a => !buro.has(a)))
+      hatalar.push(`[K17] ${yer}: giriş büroda geçmeli (kanon.sahne.buro: ${[...buro].join(", ") || "tanımsız"}); arka plan: ${arkalar.join(", ") || "yok"}.`);
+    const n = s.satirlar.filter(x => x.m).length;
+    if (n < 15 || n > 25) hatalar.push(`[K17] ${yer}: ${n} replik; 15–25 olmalı.`);
+    const metin = girisMetni(vaka);
+    if (!(ky.supheliler || []).some(x => isimGeciyor(metin, x.ad.split(" ")[0])))
+      hatalar.push(`[K17] ${yer}: hiçbir şüphelinin adı geçmiyor; en az biri anılmalı.`);
+    const u = (ky.ucret || {}).dogru;
+    if (u && ![u.toLocaleString("tr-TR"), String(u), sayiYazi(u)].some(x => trKucuk(metin).includes(trKucuk(x))))
+      hatalar.push(`[K17] ${yer}: ücret (${u.toLocaleString("tr-TR")}) konuşulmuyor.`);
+    const girisOlgu = new Set((vaka.giris || []).flatMap(g => g.acilan || []));
+    const anahtar = vaka.anahtarlar || {};
+    const ipucuOlgu = new Set((vaka.clues || []).flatMap(c => c.reveals || []));
+    for (const o of ipucuOlgu) {
+      if (girisOlgu.has(o)) continue;
+      if (!(anahtar[o] || []).length) { hatalar.push(`[K17] ${vaka.id}/${o}: ipucu olgusunun anahtar kelimesi yok (vaka.anahtarlar).`); continue; }
+      for (const k of anahtar[o])
+        if (kelimeGeciyor(metin, k)) hatalar.push(`[K17] ${yer}: '${o}' olgusunun anahtarı "${k}" girişte geçiyor — ipucunun bilgisi önceden söylenmiş.`);
+    }
+  }
+}
+
+// KURAL 18 — İpucu adı (1. parça, "Yanlış iz"): ad, ipucu açılabilir olduğu anda
+// oyuncunun duyduğundan fazla özel isim söylemez. Özel isim: kesmeli kelime
+// (Serkan'ın, Bebek'teki) ya da ilk kelime dışında büyük harfle başlayan kelime.
+function kural18_ipucuAdi(game, hatalar) {
+  for (const vaka of game.vakalar) {
+    if (!vaka.kim_yapti) continue;
+    const kaynakOlgu = {};                               // olgu → onu açan ipucu
+    for (const c of vaka.clues || []) for (const o of c.reveals || []) kaynakOlgu[o] = c;
+    const temel = ["Peri Cengo", girisMetni(vaka), sahneMetni((vaka.sahneler || {}).konusma),
+      ...(vaka.giris || []).flatMap(g => (g.acilan || []).map(o => (vaka.facts || {})[o] || ""))].join(" ");
+    for (const c of vaka.clues || []) {
+      // needs zinciri: bu ipucundan önce açılmış olması gereken ipuçlarının sahne ve olguları
+      const duyulan = [temel], gorulen = new Set();
+      const gez = olgular => { for (const o of olgular) {
+        const k = kaynakOlgu[o]; if (!k || gorulen.has(k.id)) continue;
+        gorulen.add(k.id);
+        duyulan.push(sahneMetni(k.sahne), ...(k.reveals || []).map(r => (vaka.facts || {})[r] || ""));
+        gez([...ifadeOlgulari({ all: k.needs || [] })]);
+      } };
+      gez([...ifadeOlgulari({ all: c.needs || [] })]);
+      const ad = typeof c.ad === "string" ? c.ad : "";
+      const kelimeler = ad.split(/\s+/);
+      kelimeler.forEach((w, i) => {
+        const kok = w.split(/['’]/)[0].replace(/[^\p{L}]/gu, "");
+        const ozel = /['’]/.test(w) || (i > 0 && /^\p{Lu}/u.test(w));
+        if (!kok || !ozel) return;
+        if (!duyulan.some(t => isimGeciyor(t, kok) || kelimeGeciyor(t, kok)))
+          hatalar.push(`[K18] ${vaka.id}/${c.id}: ipucu adı "${ad}" — "${kok}" bu ipucu açılabilir olduğunda henüz duyulmadı.`);
+      });
+    }
+  }
+}
+
+// KURAL 19 — Kim yaptı? ve şablonun sabitleri (1. parça; kural kitabı 24–25).
+function kural19_kimYapti(game, hatalar) {
+  let OyunYeni;
+  try { OyunYeni = require("./motor_yeni.js").OyunYeni; } catch (e) { OyunYeni = null; }
+  for (const vaka of game.vakalar) {
+    const ky = vaka.kim_yapti; if (!ky) continue;
+    const yer = `${vaka.id}/kim_yapti`, facts = vaka.facts || {};
+    const sup = ky.supheliler || [];
+    if (sup.length !== 3) hatalar.push(`[K19] ${yer}: ${sup.length} şüpheli; şablon 3 ister.`);
+    const suclu = sup.find(x => x.id === ky.suclu);
+    if (!suclu) { hatalar.push(`[K19] ${yer}: suçlu '${ky.suclu}' şüpheliler arasında yok.`); continue; }
+    if (suclu.gorunur !== "her_zaman") hatalar.push(`[K19] ${yer}: suçlu her yolda ekranda olmalı (gorunur: "her_zaman").`);
+    for (const x of sup) if (x.gorunur !== "her_zaman") for (const o of ifadeOlgulari(x.gorunur))
+      if (!facts[o] && !/_acildi$/.test(o) && !(vaka.knowledge || []).some(k => k.turetilen === o))
+        hatalar.push(`[K19] ${yer}: '${x.id}' görünme koşulundaki '${o}' tanımlı değil.`);
+    if (!(ky.dogru_ciftler || []).length) hatalar.push(`[K19] ${yer}: doğru kanıt çifti yok.`);
+    for (const c of ky.dogru_ciftler || []) {
+      if (!Array.isArray(c) || c.length !== 2) { hatalar.push(`[K19] ${yer}: kanıt çifti iki öğeli olmalı.`); continue; }
+      for (const o of ifadeOlgulari({ all: c })) if (!facts[o]) hatalar.push(`[K19] ${yer}: kanıt çiftindeki '${o}' bir olgu değil.`);
+    }
+    const u = ky.ucret || {};
+    if (!(u.dogru >= u.zayif && u.zayif >= u.yanlis && u.yanlis >= 0))
+      hatalar.push(`[K19] ${yer}: ücret sırası dogru ≥ zayif ≥ yanlis ≥ 0 olmalı.`);
+    const sahneler = vaka.sahneler || {};
+    for (const ad of ["yuzlesme_dogru", "yuzlesme_zayif", ...sup.filter(x => x.id !== ky.suclu).map(x => "yuzlesme_" + x.id)])
+      if (!sahneler[ad]) hatalar.push(`[K19] ${vaka.id}: '${ad}' sahnesi yok.`);
+    const dec = vaka.decisions || [];
+    if (dec.length !== 4) hatalar.push(`[K19] ${vaka.id}: ${dec.length} karar; şablon 4 ister.`);
+    for (const d of dec) {
+      if (d.gate !== "yok") hatalar.push(`[K19] ${vaka.id}/${d.id}: kararda kapı olmaz (gate: "yok").`);
+      if (d.seed_yaz && Object.keys(d.seed_yaz).length) hatalar.push(`[K19] ${vaka.id}/${d.id}: tohum yazılmaz (vakalar arası bağ yok).`);
+    }
+    if (Object.keys(vaka.seeds || {}).length) hatalar.push(`[K19] ${vaka.id}: vaka tohumu tanımlı; tohum yok.`);
+    const enAz = Math.min(0, ...dec.map(d => d.para || 0));
+    if ((u.yanlis || 0) + enAz < 0) hatalar.push(`[K19] ${vaka.id}: en kötü durumda (yanlış kişi + en pahalı karar) kasaya eksi girer.`);
+    for (const c of vaka.clues || []) if (c.bedelsiz) hatalar.push(`[K19] ${vaka.id}/${c.id}: bedava ipucu yok; her ipucu bir hak harcar.`);
+    if ((vaka.arastirma ?? 3) >= (vaka.clues || []).length) hatalar.push(`[K19] ${vaka.id}: ipucu sayısı haktan fazla olmalı.`);
+    // En az iki ayrı kanıt yolu: hak içinde açılabilen yollarda tutan farklı doğru çift sayısı.
+    if (!OyunYeni) continue;
+    const tutan = new Set(), gorulen = new Set();
+    const dfs = ac => {
+      const anahtar = [...ac].sort().join("|"); if (gorulen.has(anahtar)) return; gorulen.add(anahtar);
+      const o = new OyunYeni(game); o.durum.para = 1e9;
+      try { o.vakaBaslat(vaka.id); } catch (e) { return; }
+      for (const id of ac) if (o.kaynakAc(id).hata) return;
+      const kn = o.kanitlar().map(x => x.id);
+      ky.dogru_ciftler.forEach((c, i) => { for (const a of kn) for (const b of kn) if (a !== b && o._ciftTutar(c, a, b)) tutan.add(i); });
+      if (o.durum.aktif.arastirmaKalan <= 0) return;
+      for (const c of o.acikKaynaklar()) dfs([...ac, c.id]);
+    };
+    dfs([]);
+    if (tutan.size < 2) hatalar.push(`[K19] ${vaka.id}: hak içinde yalnız ${tutan.size} doğru kanıt çifti kurulabiliyor; en az 2 yol gerekir.`);
+  }
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -878,6 +1023,9 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
   kural14_tanimsizOlgu(game, hatalar);
   kural15_sahne(game, hatalar, acilis);
   kural16_kararsizYol(game, hatalar);
+  kural17_giris(game, hatalar);
+  kural18_ipucuAdi(game, hatalar);
+  kural19_kimYapti(game, hatalar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -895,6 +1043,11 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
   kural("Kural 16 (Kararsız yol)  ", hatalar.some(h => h.startsWith("[K16]")));
   if (game.kanon && game.kanon.sahne)
     kural("Kural 15 (Sahne satırı)  ", hatalar.some(h => h.startsWith("[K15]")));
+  if (game.vakalar.some(v => v.kim_yapti)) {
+    kural("Kural 17 (Giriş)         ", hatalar.some(h => h.startsWith("[K17]")));
+    kural("Kural 18 (İpucu adı)     ", hatalar.some(h => h.startsWith("[K18]")));
+    kural("Kural 19 (Kim yaptı?)    ", hatalar.some(h => h.startsWith("[K19]")));
+  }
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);

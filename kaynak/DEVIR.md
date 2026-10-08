@@ -14,10 +14,14 @@
 > Aşağıdaki §0 şablondan önceki durumdur; Vaka 1 verisi forma göre **yeniden yapılacak.**
 
 - **Şablon dondu.** Vaka 1 formu (`sablon/vakalar/vaka1_form.md`) **Onay 1 aldı.**
-- **Sıradaki iş (7_uretim_sureci.md, adım 3–5):** önce motor işleri (`4_motor_sinirlari.md`
-  "yapılması gerekenler" 1–11: Kim yaptı? ekranı, yüzleşme, sıra, para, kapanış iki hâl,
-  tohum/kapı/bedava ipucu kalkar, K17 giriş denetimi, ipucu adı denetimi), sonra diyalog → veri
-  → görselsiz tur → **Onay 2 (sahibi görselsiz oynar).**
+- **Motor işleri bitti (8 Ekim):** `kaynak/motor_yeni.js` (Kim yaptı?, ücret sonda, kayıt),
+  `yeni_arayuz.js` (Kim yaptı? ekranı → yüzleşme → kovalamaca → karar; kapanışta `bag` satırları;
+  Cengo göstergesi yok), doğrulayıcı K17/K18/K19, `test_yeni_kimyapti.js`. Veri yeni düzene
+  taşındı ama **metin hâlâ eski**: giriş/konuşma "yarın getiririm / peşin" diyor, karar
+  sonuçlarında "ücretin tamamı geldi" ve tohum cümleleri duruyor, yüzleşmeler geçici, ipuçları
+  formdaki 5'e değil eski 7'ye göre. Bunlar diyalog adımının işi.
+- **Sıradaki iş:** diyalog (formdan) → veri → görselsiz tur → **Onay 2 (sahibi görselsiz oynar).**
+- Tur: `node arac_yeni_tur.js [karar] [set|dukkan] [dogru|zayif|kemal|tuba]`.
 - **Görsel üretilmez** hikâye donana kadar (adım 7).
 - **Sahibiyle çalışma biçimi:** çok basit ve kısa yaz, Türkçe kelime kullan; bir adımda dur,
   eksikleri tek tek konuş; yalnız Vaka 1 üzerinde çalış.

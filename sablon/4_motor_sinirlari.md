@@ -38,19 +38,21 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 
 ## Şablon için yapılması gerekenler
 
+*✓ = yapıldı (8 Ekim 2026): `kaynak/motor_yeni.js`, `yeni_arayuz.js`, doğrulayıcı K17–K19, `test_yeni_kimyapti.js`.*
+
 | # | iş | neden |
 |---|---|---|
-| 1 | **Kim yaptı? ekranı:** şüpheli + iki kanıt seçimi, üç sonuç | 1. parça |
-| 2 | **Yüzleşme:** seçime göre üç kısa sahneden biri | 1. parça |
-| 3 | **Sıra:** araştırma → Kim yaptı? → yüzleşme → kovalamaca → karar | 1. parça |
-| 4 | **Para:** gider, borç, faiz kapanır; kasa yalnız birikir | 2. parça |
-| 5 | **Kapanışta bağa göre iki hâl:** sahne satırının bağa göre değişmesi | 2. parça, kural 12a |
-| 6 | **Tohum sistemi kapanır** | 1. parça |
-| 7 | **Bedava ipucu kalkar** (motor zaten destekliyor; yalnız veri) | 1. parça |
-| 8 | **Karar kapıları kapanır:** dört karar her zaman açık | 1. parça |
+| 1 | ✓ **Kim yaptı? ekranı:** şüpheli + iki kanıt seçimi, üç sonuç | 1. parça |
+| 2 | ✓ **Yüzleşme:** seçime göre dört kısa sahneden biri | 1. parça |
+| 3 | ✓ **Sıra:** araştırma → Kim yaptı? → yüzleşme → kovalamaca → karar | 1. parça |
+| 4 | ✓ **Para:** gider, borç, faiz kapanır; kasa yalnız birikir | 2. parça |
+| 5 | ✓ **Kapanışta bağa göre iki hâl:** sahne satırının bağa göre değişmesi | 2. parça, kural 12a |
+| 6 | ✓ **Tohum sistemi kapanır** | 1. parça |
+| 7 | ✓ **Bedava ipucu kalkar** (motor zaten destekliyor; yalnız veri) | 1. parça |
+| 8 | ✓ **Karar kapıları kapanır:** dört karar her zaman açık | 1. parça |
 | 9 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
-| 10 | **Giriş denetimi (doğrulayıcıda K17):** büro, 15–25 replik, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
-| 11 | **İpucu adı denetimi:** addaki özel isimler, ipucu açılabilir olduğu anda duyulmuş mu | 1. parça, "Yanlış iz" |
+| 10 | ✓ **Giriş denetimi (doğrulayıcıda K17):** büro, 15–25 replik, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
+| 11 | ✓ **İpucu adı denetimi:** addaki özel isimler, ipucu açılabilir olduğu anda duyulmuş mu | 1. parça, "Yanlış iz" |
 
 ## K17: giriş denetimi (tasarım)
 
@@ -64,10 +66,10 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | 4 | Ücret | vakanın ücreti (ör. "35.000") metinde geçiyor |
 | 5 | Sızıntı | ipucu olgularının anahtar kelimeleri metinde **geçmiyor** |
 
-- **Veriye iki yeni alan:** vaka başına `supheliler` (üç ad); her ipucu olgusuna 1–3 `anahtar` kelime.
+- **Veriye iki yeni alan:** `kim_yapti.supheliler` (üç ad); `anahtarlar` (her ipucu olgusuna 1–3 kelime).
 - Arama `toLocaleLowerCase("tr")` ile (Türkçe İ).
 - Biri tutmazsa **hata**: derleme durur.
-- `test_bozuk.js`'e bozuk bir giriş eklenir; doğrulayıcının durdurduğu görülür.
+- `test_yeni_v1.js` bozuk girişler besler; doğrulayıcının durdurduğu görülür.
 - **Sınır:** 5. madde kelime arar; dolaylı ele vermeyi yakalayamaz. O, Onay 2'de sahibinde.
 
 ---

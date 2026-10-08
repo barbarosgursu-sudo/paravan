@@ -30,13 +30,22 @@ node build_html.js yeni           # → depo kökü yeni/index.html
 node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | dukkan)
 ```
 
-Akış: açılış sahneleri → masa → giriş + konuşma sahnesi → araştırma (eski ekran;
-ipucu açılınca sahnesi oynar, ardından "Deftere düştü" kartı) → "Karar vermeye
-hazırım" → büroya dönüş sahnesi (vaka başına bir kez) → karar ekranı → sonuç
-(kararın karesi, Cengo satırı, anı defteri, hesap) → kapanış sahnesi → masa.
+Akış (şablon, `sablon/1_oyun_yapisi.md`): açılış sahneleri → masa → giriş + konuşma
+sahnesi → araştırma (ipucu açılınca sahnesi oynar, ardından "Deftere düştü" kartı) →
+**Kim yaptı?** (şüpheli + iki kanıt, tek hak) → **yüzleşme** (sonuca göre dört sahneden
+biri) → **kovalamaca** → karar ekranı (dört karar her zaman açık) → sonuç (kararın
+karesi, Cengo satırı, anı defteri, ücret + karar parası) → kapanış sahnesi (bağa göre
+iki hâl) → masa.
 
-Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün altı fonksiyonunu sarar
-(`prologGoster`, `vakaAc`, `kaynakAcFaz`, `kararFazi`, `kararVerFaz`, `sonEkrani`).
+**Motor eki `kaynak/motor_yeni.js`** (`OyunYeni extends Oyun`): Kim yaptı?, sonda
+ödenen ücret, suçlamanın kaydı. `motor.js`'e dokunmaz (o eski sayfaya da gömülü ve eski
+sayfa birebir aynı çıkmalı). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak
+sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
+
+Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün fonksiyonlarını sarar
+(`prologGoster`, `vakaAc`, `kaynakAcFaz`, `arastirmaFazi`, `kararFazi`, `kararVerFaz`,
+`sonEkrani`, `kasaSerit`, `cengoGosterge`). Cengo göstergesi bu sayfada boş döner
+(kural kitabı 11: bağ ekranda görünmez).
 Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
 seçime kadar sarar, seçimi atlamaz. **GEÇİCİ:** "◂ Geri" düğmesi (sahibinin gözden geçirmesi için, 7 Ekim 2026) satır satır geri gider; sahnenin ilk satırında zincirdeki önceki sahnenin başına döner (açılış, giriş+konuşma). Oyun durumunu geri almaz (ipucu, karar, para). Kapatmak: `yeni_arayuz.js` → `VN_GERI = false`.
 
@@ -94,12 +103,28 @@ Satırda isteğe bağlı sahne değişiklikleri:
 | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
 | `peri: "tac"` | konuşan başkayken Peri'nin (dinleyen) ifadesi; K15 set kuralıyla denetler |
 | `mekan: true` | mekân karesi: figürler çekilir, arka plan çıplak görünür (yeri tanıtan anlatı satırı) |
+| `bag: "yuksek"` / `"dusuk"` | satır yalnız o bağ hâlinde oynar (kapanış; eşik +1, `motor_yeni.js` → `BAG_ESIK`) |
 
 **Seçim:** `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
 
 **Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`.
 
-**Vaka:** `ucret` (vakanın sabit ücreti; şimdilik bilgi, karar `para`'sına zaten dahil).
+**Karar:** `para` = **karar parası** (ücretin üstüne eklenen ya da düşülen; çoğu 0),
+`gate: "yok"` (kapı yok), `seed_yaz` yok (tohum yok).
+
+**Vaka — Kim yaptı?:**
+```
+kim_yapti: {
+  suclu: "serkan",
+  supheliler: [ { id, ad, gorunur: "her_zaman" | <ifade> } ],   // ekranda ne zaman görünür
+  dogru_ciftler: [ [<olgu|ifade>, <olgu|ifade>], ... ],          // suçu kanıtlayan iki olgu
+  ucret: { dogru, zayif, yanlis }                                 // sonda ödenir
+}
+sahneler: { giris, konusma, yuzlesme_dogru, yuzlesme_zayif, yuzlesme_<masum id>, kovalamaca, kapanis }
+anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızıntı araması
+```
+Girişte anlatılan olgular `giris[].acilan`'da (ipucu değil). `ekonomi.gider` boş (para
+yalnız birikir). Ücret Vaka 1'de bilerek `vaka.ucret`'te de duruyor (masa kartı).
 
 ## Düz metin ile sahne
 
@@ -107,18 +132,26 @@ Satırda isteğe bağlı sahne değişiklikleri:
 `sahne` **oynanan biçim**. İkisi aynı içeriğin iki hâli — birinde değişen ötekinde de
 değişmeli. K1 (isim sızıntısı) ikisini de tarar.
 
-## Doğrulayıcıya eklenen iki kural
+## Doğrulayıcıya eklenen kurallar
 
 - **K15 — Sahne satırı** (yalnız `kanon.sahne` olan veride): konuşan tanımlı mı, ifade
-  o figürün (Peri için o anki setin) sprite'ı mı, arka plan/kare listede mi. Hiçbiri
-  JS hatası vermezdi; tanımsız ifade sessizce eski sprite'ta kalırdı.
+  o figürün (Peri için o anki setin) sprite'ı mı, arka plan/kare listede mi, `bag`
+  geçerli mi. Hiçbiri JS hatası vermezdi; tanımsız ifade sessizce eski sprite'ta kalırdı.
 - **K16 — Kararsız yol** (iki oyunda da): hakkı harcamanın her biçiminde en az bir karar
-  açık kalmalı. İlk yazımda V1'de İskele + Serkan + Dükkân yolu Bebek'i hiç görmüyor,
-  dört karar da kapalı kalıyordu. Sahibinin kararıyla İskele bedelsiz oldu.
+  açık kalmalı. Yeni oyunda kapı olmadığı için kendiliğinden geçer.
+- **K17 — Giriş** (`kim_yapti` olan vakada): büroda (`kanon.sahne.buro`), 15–25 replik,
+  bir şüphelinin adı geçiyor, ücret konuşuluyor (rakam ya da yazı), ipucu olgularının
+  anahtar kelimeleri (`anahtarlar`) girişte geçmiyor. Kelime arar; dolaylı ele vermeyi
+  yakalamaz — o, görselsiz testte sahibinde.
+- **K18 — İpucu adı:** addaki özel isimler (kesmeli kelime ya da ilk kelime dışında büyük
+  harfle başlayan) ipucu açılabilir olduğunda duyulmuş olmalı (giriş, konuşma, needs
+  zincirindeki ipuçlarının sahne ve olguları; Peri ve Cengo her zaman bilinir).
+- **K19 — Kim yaptı?:** 3 şüpheli, suçlu her yolda görünür, kanıt çiftleri olgu, ücret
+  sırası, dört yüzleşme sahnesi, 4 karar, kapı/tohum/bedava ipucu yok, ipucu > hak,
+  en kötü durumda kasa eksiye düşmez, hak içinde en az 2 farklı doğru kanıt çifti.
 
 ## Açık uyarılar (tasarım; sahibine soruldu)
 
 - **K8:** `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem
   `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende de geçiyor.
-- **K9:** beş tohum (`v1_karar`, `iskele_dostu`, `riza_levrek`, `serkan_iyilik`,
-  `yapimci_defter`) henüz okunmuyor — okuyacak vakalar yazılmadı. Beklenen.
+- K9 uyarısı kalktı: tohum yok (şablon, 8 Ekim 2026).

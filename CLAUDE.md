@@ -32,7 +32,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — yedi senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 24 test geçmelidir (22'si eski oyunun; `test_yeni_v1.js` ve `test_yeni_arayuz.js` yeni oyunun).
+Diğer 25 test geçmelidir (22'si eski oyunun; `test_yeni_v1.js`, `test_yeni_arayuz.js` ve `test_yeni_kimyapti.js` yeni oyunun).
 
 Doğrulayıcı eski oyunda **15 kural** çalıştırıyor (K16 kararsız yol dahil; K15 yalnız yeni oyunda) ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -41,6 +41,11 @@ bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketl
 
 **Yeni oyunun verisi `kaynak/yeni/`'de** (Vaka 1 + açılış; eski oyunun verisine dokunmaz).
 `cd kaynak && node dogrulayici.js yeni` onu denetler — argümansız çağrı eski oyunu denetler.
+Yeni oyun **yapım şablonuyla** üretilir: `sablon/` (7 parça + `vakalar/`). Şablon ile bu
+dosya çelişirse yeni oyun için şablon geçerlidir. Yeni oyunun motor eki `kaynak/motor_yeni.js`
+(Kim yaptı?, ücret sonda) — `motor.js`'e dokunulmaz, eski sayfa birebir aynı kalmalı.
+Doğrulayıcı yeni oyunda ayrıca K17 (giriş), K18 (ipucu adı), K19 (Kim yaptı?) çalıştırır.
+Veri JSON'unu elle değil `arac_json_yaz.js` ile yaz (kısa, okunur biçim).
 Sahne satırı biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Metin önce
 `YENI_VAKA_1.md`'de değişir, sonra veriye taşınır.
 

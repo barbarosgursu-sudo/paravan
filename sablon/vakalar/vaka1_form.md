@@ -174,7 +174,7 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 3. ipucu
 ## 13. Kapanış
 
 - **Sahne:** Büro, akşam. Kapı kilitlenmez; Cengo telle kilitler, teli Peri'ye verir. "Yarın gelin." "Maaş?" "Alacağınıza yazılır."
-- **Bağ düşükse (0 ve altı):** Cengo teli masaya bırakır, Peri'ye uzatmaz. "Lazım olursa." Peri almaz; kapı kapanınca alır.
+- **Bağ düşükse (0 ve altı):** Cengo teli kilitte bırakır, Peri'ye uzatmaz. "Lazım olursa." Peri almaz; Cengo dönünce kilitten çekip alır. *(Sahne koridorda; masa yok.)*
 - **Bağ yüksekse (+1):** Cengo teli Peri'nin avucuna koyar, eli bir an kalır. Peri: "Ben kilit açmam." Cengo: "Biliyorum. Cebinizde dursun."
 
 ## 14. Kıyafet

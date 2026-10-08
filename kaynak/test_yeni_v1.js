@@ -35,7 +35,7 @@ const clue = (g, id) => v1(g).clues.find(c => c.id === id);
 {
   const g = kopya(G);
   // balıklı sette 'normal' ifade yok (yalnız sinirli/utanmış çekildi)
-  const s = clue(g, "serkan").sahne.satirlar;
+  const s = v1(g).sahneler.kovalamaca.satirlar;
   const i = s.findIndex(x => x.set === "balikli");
   s.splice(i + 1, 0, { k: "peri", i: "normal", m: "deneme" });
   k("balıklı sette olmayan Peri ifadesi → K15", hataVar(sessiz(g), "[K15]", "balikli"));
@@ -70,11 +70,65 @@ console.log("\n=== K1 sahne taraması ===");
   k("yalnız sahnede geçen hak edilmemiş isim → K1", hataVar(sessiz(g), "[K1]", "Zeki"));
 }
 
-console.log("\n=== K16 kararsız yol ===");
+console.log("\n=== K17 giriş ===");
+const giris = g => v1(g).sahneler.giris;
 {
-  // İskele ücretliyken İskele + Serkan + Dükkân yolu Bebek'i görmüyordu.
-  const g = kopya(G); delete clue(g, "iskele").bedelsiz;
-  k("iskele ücretli olunca kararsız yol yakalanıyor → K16", hataVar(sessiz(g), "[K16]"));
+  const g = kopya(G); giris(g).arka = "A9";
+  k("büro dışında giriş → K17", hataVar(sessiz(g), "[K17]", "büroda"));
+}
+{
+  const g = kopya(G); giris(g).satirlar = giris(g).satirlar.slice(0, 10);
+  k("15 repliğin altındaki giriş → K17", hataVar(sessiz(g), "[K17]", "replik"));
+}
+{
+  const g = kopya(G); const a = Object.entries(v1(g).anahtarlar)[0];
+  giris(g).satirlar.splice(2, 0, { k: "peri", m: "Deneme: " + a[1][0] + "." });
+  k("ipucu olgusunun anahtarı girişte → K17", hataVar(sessiz(g), "[K17]", a[0]));
+}
+{
+  const g = kopya(G); const o = Object.keys(v1(g).anahtarlar)[0]; delete v1(g).anahtarlar[o];
+  k("anahtar kelimesi olmayan ipucu olgusu → K17", hataVar(sessiz(g), "[K17]", o));
+}
+{
+  const g = kopya(G); const u = v1(g).kim_yapti.ucret; u.dogru += 1000; u.zayif = Math.min(u.zayif, u.dogru);
+  k("girişte konuşulmayan ücret → K17", hataVar(sessiz(g), "[K17]", "ücret"));
+}
+
+console.log("\n=== K18 ipucu adı ===");
+{
+  const g = kopya(G); const c = v1(g).clues[0]; c.ad = "Zübeyde'nin kahvesi";
+  k("duyulmamış özel isimli ipucu adı → K18", hataVar(sessiz(g), "[K18]", "Zübeyde"));
+}
+
+console.log("\n=== K19 Kim yaptı? ===");
+{
+  const g = kopya(G); v1(g).clues[0].bedelsiz = true;
+  k("bedava ipucu → K19", hataVar(sessiz(g), "[K19]", "bedava"));
+}
+{
+  const g = kopya(G); v1(g).decisions[0].gate = v1(g).kim_yapti.dogru_ciftler[0][0];
+  k("kapılı karar → K19", hataVar(sessiz(g), "[K19]", "kapı"));
+}
+{
+  const g = kopya(G); const masum = v1(g).kim_yapti.supheliler.find(x => x.id !== v1(g).kim_yapti.suclu).id;
+  delete v1(g).sahneler["yuzlesme_" + masum];
+  k("eksik yüzleşme sahnesi → K19", hataVar(sessiz(g), "[K19]", "yuzlesme_" + masum));
+}
+{
+  const g = kopya(G); v1(g).kim_yapti.supheliler.find(x => x.id === v1(g).kim_yapti.suclu).gorunur = "set_teknesi";
+  k("suçlu her yolda görünmüyor → K19", hataVar(sessiz(g), "[K19]", "her yolda"));
+}
+{
+  const g = kopya(G); v1(g).kim_yapti.dogru_ciftler = v1(g).kim_yapti.dogru_ciftler.slice(0, 1);
+  k("tek kanıt yolu → K19", hataVar(sessiz(g), "[K19]", "en az 2 yol"));
+}
+{
+  const g = kopya(G); v1(g).decisions[0].para = -(v1(g).kim_yapti.ucret.yanlis + 1);
+  k("kasayı eksiye düşürebilen karar → K19", hataVar(sessiz(g), "[K19]", "eksi"));
+}
+{
+  const g = kopya(G); v1(g).sahneler.kapanis.satirlar.push({ k: "peri", m: "deneme", bag: "orta" });
+  k("tanımsız bağ hâli → K15", hataVar(sessiz(g), "[K15]", "bag"));
 }
 
 console.log("\n=== Her yol: karar, ekonomi ===");

@@ -51,7 +51,7 @@ for (const [ad, dizgi] of [
 ]) k(`şablonda '${ad}' yerleştirme noktası tek`, sablon.split(dizgi).length === 2);
 // Sarmalanan fonksiyonlar eski arayüzde tanımlı olmalı; adı değişirse sarma sessizce
 // yeni bir global yaratır ve eski fonksiyon çalışmaya devam eder.
-for (const f of ["prologGoster", "vakaAc", "kaynakAcFaz", "kararFazi", "kararVerFaz", "sonEkrani", "kasaSerit"]) {
+for (const f of ["prologGoster", "vakaAc", "kaynakAcFaz", "kararFazi", "kararVerFaz", "sonEkrani", "kasaSerit", "arastirmaFazi", "cengoGosterge"]) {
   k(`'${f}' eski arayüzde tanımlı ve yeni arayüzde sarılıyor`,
     new RegExp("function " + f + "\\(").test(build) && new RegExp("^" + f + " = function", "m").test(arayuz));
 }
