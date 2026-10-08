@@ -36,6 +36,8 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 
 20. **Oyuncu hak etmediği bir bilgiyi hiçbir yerden almaz:** metin, görsel, defter, Cengo'nun esprisi, ipucu adı.
 21. **Oyun cevabı söylemez.** Hiçbir ekran "suçlu X" demez; bunu oyuncu "Kim yaptı?"da söyler.
+21a. **Defter yalnız ara bulgu yazar.** Olgular birleşince deftere yazılan cümle ("Tekne sette") suçluyu asla söylemez.
+21b. **Kilit açarak bulunan kanıt** (Cengo'nun teli) "Kim yaptı?"da geçerlidir; mahkemede geçmemesi yalnız espri olarak kullanılır.
 
 ## E. Karar
 
@@ -49,7 +51,11 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 26. **Her vakanın sabit bir ücreti vardır.**
 27. **Her tutar gerçekçidir:** o yılın İstanbul fiyatları. Her vaka kendi fiyat tablosunu taşır.
 
-## G. Vakalar arası
+## G. Eski oyundan kalanlar
+
+27a. **Ruh hâli görseli ve istatistik paneli yok.** Kararın sonucunu kararın kendi ara karesi gösterir.
+
+## H. Vakalar arası
 
 28. Vakalar arasında yalnız para, Cengo bağı ve sabit sezon hikâyesi taşınır. Tohum yok (1. parça).
 
@@ -57,13 +63,14 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 
 ## Sahibine sorular (çelişkiler)
 
-1. **Çıkarımlar cevabı söylüyor.** Şu an oyun iki olguyu birleştirip "Nazlı'yı sete Serkan götürmüş" diye deftere yazıyor. Bu, 21. kuralla çelişiyor. Ne olsun?
+1. ✓ *Karar: a (21a).* **Çıkarımlar cevabı söylüyor.** Şu an oyun iki olguyu birleştirip "Nazlı'yı sete Serkan götürmüş" diye deftere yazıyor. Bu, 21. kuralla çelişiyor. Ne olsun?
    - a) Çıkarımlar kalsın ama yalnız ara bulguları söylesin ("Tekne sette"), suçluyu asla söylemesin. *(önerim)*
    - b) Çıkarımlar tamamen kalksın; oyuncu yalnız olguları görsün.
-2. **Kanunsuz bulunan kanıt.** Ton belgesine göre Cengo'nun teliyle (kilit açarak) bulunan kanıt mahkemede işe yaramaz. "Kim yaptı?"da bunun karşılığı olsun mu?
+2. ✓ *Karar: a (21b).* **Kanunsuz bulunan kanıt.** Ton belgesine göre Cengo'nun teliyle (kilit açarak) bulunan kanıt mahkemede işe yaramaz. "Kim yaptı?"da bunun karşılığı olsun mu?
    - a) Olmasın; yalnız bir espri olarak kalsın. *(önerim, basit)*
    - b) Olsun: böyle bir kanıt "zayıf kanıt" sayılsın.
 3. **Bağa göre değişen konuşma.** Ton belgesine göre her vakada en az bir konuşma, Cengo bağının kademesine göre farklı yazılır (vaka başına 2–4 varyant). Kalsın mı?
    - a) Kalsın (ilişki hissedilir, ama vaka başına fazladan yazı).
    - b) Yalnız karar sonucundaki Cengo satırında kalsın. *(daha hızlı)*
-4. **Ruh hâli görseli ve istatistik paneli** eski oyundan kalma, yeni oyunda yok. Kesin kalksınlar mı? *(önerim: evet)*
+   - c) Orta yol: vaka başına tek bir anda (kapanış sahnesinde 2–3 replik), yalnız iki hâl: bağ düşük / bağ yüksek. *(önerim)*
+4. ✓ *Karar: kalkar (27a).* **Ruh hâli görseli ve istatistik paneli** eski oyundan kalma, yeni oyunda yok. Kesin kalksınlar mı? *(önerim: evet)*
