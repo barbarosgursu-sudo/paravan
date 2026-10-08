@@ -241,20 +241,16 @@ sonradan "aslında o da" diye doğrulanmaz.
   > **RIZA REİS:** Yerinde. Akıllı adam.
 
   "Oğlum Serkan'a söylemeyin" **kalır**; artık Kemal'in gölgesinde bir veda sözü, oyunun tek iması değil.
-- **İ1 (Rıza, bedelsiz):** "Anahtar bende, boynumda. Bir de yedeği vardı; kaybolalı yıllar oldu." Yeni olgu: `yedek_kayip`: *Teknenin bir de yedek anahtarı varmış; Rıza Reis yıllardır kayıp sanıyor.*
+- **İ1 (Rıza, bedelsiz):** "Zincirin de teknenin de anahtarı bende, boynumda. Yedekleri vardı; kaybolalı yıllar oldu." Yeni olgu: `yedek_kayip`: *Teknenin bir de yedek anahtarı varmış; Rıza Reis yıllardır kayıp sanıyor.* (`zincir_kilitli` metni Ç4'e göre değişir.)
 - **İ2 (çaycı, bedelsiz):** "Dümendeki genç" çıkar → "Dümendeki el salladı; karanlıktı, yüzünü seçemedim." Eklenir: "Kemal mi? Bütün gece burada okey oynadı. Yalnız gece yarısına doğru 'tekneye bakıp geleyim' dedi, yarım saat yoktu." Yeni olgu: `kemal_kayboldu`.
-- **İ3 (iskele, bedelsiz):** Eklenir: "Yan bağlamada Kemal Reis'in teknesi; küpeştesi taze beyaza boyanmış, boya kurumamış." Cengo: "Gece yarısı boya yapan adam ya çok çalışkandır ya bir şey saklıyordur." Yeni olgu: `kemal_boya`.
-- **İ4 (Bebek):** Tekne beyaza boyanmış hâlde bulununca:
-  > **PERİ [kas]:** Beyaz.
-  > **CENGO [kas]:** Kemal'in boyası da beyazdı.
-
-  Bir de set şüphesi: Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz."
-- **İ5 (Tuba):** "…boyamaya itiraz da etmedi" yerine "Boyayı bizim ekip yaptı, sahibi itiraz etmedi". Boya izini Kemal'den koparan cümle bu.
+- **İ3 (iskele, bedelsiz):** Eklenir: "Yan bağlamada Kemal Reis; elleri bileklerine kadar beyaz boya, teknesinin küpeştesi taze boyalı." (Ç6: boya figürde görünür.) Cengo: "Gece yarısı boya yapan adam ya çok çalışkandır ya bir şey saklıyordur." Yeni olgu: `kemal_boya`.
+- **İ4 (Bebek):** Set şüphesi: Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz." Beyaz boya bağı metinde **söylenmez** (Ç3); `iki_beyaz` çıkarımı kurar.
+- **İ5 (Tuba):** "…boyamaya itiraz da etmedi" yerine "Boyayı bizim ekip yaptı, sahibi itiraz etmedi". Yeni olgu `set_boyadi`; boya izini Kemal'den koparan cümle bu (Ç8).
 - **İ6 (Serkan, yakalanınca):** "Ama kaybettim" dedikten sonra eklenir: "Kemal Reis bulmuştur! O babamın yerine göz dikti!" Cengo: "Kaybettiğin anahtar cebinde şarkı söylüyor." (mevcut satır) artık bir yalanın üstüne düşüyor.
 - **Yeni İ8, Kemal Reis'le konuşmak (bedelsiz, açılması `kemal_kayboldu`):** Kemal kaba, savunmada ve bir şey aydınlatmıyor:
-  > **KEMAL REİS:** Boyadım, ne olacak? Gündüz denizdeyim. Nazlı'yı ben ne yapayım? Rıza'ya sorun asıl; adamın kırk yerde borcu var.
+  > **KEMAL REİS:** Boyadım, ne olacak? Gündüz denizdeyim. Nazlı'yı ben ne yapayım? Hırsız arıyorsanız uzağa bakmayın.
 
-  Rıza'nın borcu **dedikodu, kanon değil**; hiçbir yerde doğrulanmaz, karar metinlerine girmez. Yeni olgu: `kemal_inkar`. İ8 bedelsiz, çünkü iskelede; böylece Kemal izi araştırma hakkını yemez ve K16 (kararsız yol) değişmez.
+  (Ç2: ilk taslaktaki "Rıza'nın borcu" dedikodusu çıkarıldı.) Yeni olgu: `kemal_inkar`. Gece yarısı ne gördüğü Ç1'e bağlı. İ8 bedelsiz, çünkü iskelede; böylece Kemal izi araştırma hakkını yemez ve K16 (kararsız yol) değişmez.
 
 **Kemal'in elenmesi:** tek bir cümleyle değil, Serkan izinin tamamlanmasıyla: Tuba boyayı
 kendileri yaptı der (İ5), ya da yedek anahtar Serkan'ın cebinden çıkar (İ6). Hiç biri
@@ -267,6 +263,38 @@ ile birlikte "yedek kimde?" sorusunu doğurur.
 
 **Bedel:** bir figür görseli (Kemal Reis, iskele); ara kare yok. `isimler`'e "Kemal" girer
 (K1 sızıntı denetimi). Kararlar, para ve bağ **değişmez**.
+
+### Kural denetimi (8 Ekim 2026) — sahibi Kemal, boya ve yedek anahtarı onayladı
+
+Öneri, mevcut metnin bütün yüzeylerine (`arac_okuma.js V1`: ipuçları, olgular,
+çıkarımlar, dört kararın sonuç/Cengo/defter metinleri) ve kurallara karşı okundu.
+
+**Çelişki ve düzeltmeler:**
+
+| # | sorun | düzeltme |
+|---|---|---|
+| Ç1 | **Zaman çizelgesi.** Kemal gece yarısı kendi teknesindeyse, yanındaki Nazlı'nın gidişini görmüş olmalı. | ⚠ **sahibine soruldu.** Ya Kemal gördü ve kininden sustu (yeni kanon), ya da yarım saati gece yarısından önceydi (şüphe zayıflar). |
+| Ç2 | Kemal'in "Rıza'nın kırk yerde borcu var" dedikodusu, `her_seyi_anlat` sonucuyla ("Rıza Reis borcun yarısını ödedi") çatışıyor: borçlu adam oğlunun borcunu nasıl öder? | Dedikodu **çıkar.** Kemal'in repliği: "Hırsız arıyorsanız uzağa bakmayın." (Kendini mi ele veriyor, aileyi mi işaret ediyor; oyuncu bilemez.) |
+| Ç3 | **Nurcan:** İ4'te Cengo'nun "Kemal'in boyası da beyazdı" demesi, İ3 hiç açılmadıysa hak edilmemiş bilgi (İ3 bedelsiz ama zorunlu değil). | Replik metinden **çıkar**; bağ bir **çıkarıma** taşınır, iki olgu da bilinince kendiliğinden doğar: `iki_beyaz` (`kemal_boya` ∧ `set_teknesi`): *"Kemal'in teknesi de, sette Nazlı da taze beyaza boyanmış."* Doğru bir cümle; bağ kurmaz, oyuncu kurar. |
+| Ç4 | `zincir_kilitli` olgusu "anahtarın **yalnız** kendisinde olduğunu söylüyor"; yeni "yedeği vardı" bununla çatışıyor. Ayrıca "yedek" hangi anahtar: zincirin mi, teknenin mi? | İ1: "Zincirin de teknenin de anahtarı bende, boynumda. Yedekleri vardı; kaybolalı yıllar oldu." `zincir_kilitli` → *"Zincir kilitliydi; anahtar Rıza Reis'in boynunda."* + `yedek_kayip`. Serkan'ın "teknenin yedek anahtarı" aynı takım. |
+| Ç5 | "Dümendeki **genç**" iki yerde: İ2 metni **ve** `bebek_yonu` olgusu. | İkisi de "dümendeki biri / yüzünü seçemedim". |
+| Ç6 | **Metin–görsel:** İ3'te "Kemal'in teknesi taze beyaz" denecek ama A9 iskelesinde öyle bir tekne yok. | Boya **Kemal'in figüründe** görünür: elleri, kolları, önlüğü beyaz boyalı. Metin tekneyi değil, adamı gösterir: "Yan bağlamada Kemal Reis; elleri bileklerine kadar beyaz boya." |
+| Ç7 | Yan karakterlerin üçü de yaşlı, bıyıklı erkek (Rıza, çaycı, Kemal). Telefonda karışır. | Kemal: **elli yaşlarında, iri, kara-kır kısa saç, sinekkaydı tıraşlı ya da üç günlük sakal, bıyıksız**; lastik balıkçı önlüğü. Ana karakter referans alınmaz (kural). |
+| Ç8 | Kemal'i "akladıran" bir an yok; oyuncu Serkan izini tamamlasa bile beyaz boya askıda kalır. | İ5'e yeni olgu `set_boyadi` (Tuba: "Boyayı bizim ekip yaptı"). Çıkarım `boya_tesaduf` (`iki_beyaz` ∧ `set_boyadi`): *"Nazlı'yı set ekibi boyamış; Kemal'in beyazı başka bir fırçadan."* |
+
+**Çelişki çıkmayanlar:**
+- **Kararlar, para, bağ, tohum:** değişmiyor. Dört kararın kapıları (`tekne_sette`, `serkan_kiraladi`, `yat_tanitimi`) aynı olgulara bakıyor.
+- **K16 kararsız yol / ekonomi:** İ8 bedelsiz; araştırma hakkı, bedelli ipuçları ve yolları aynı.
+- **K1 isim sızıntısı:** "Kemal" girişte geçtiği için baştan hak edilmiş (`temel`); Serkan'ın İ6'da Kemal'i suçlaması da öyle.
+- **Kovalamaca, Peri'nin felaketi, dekolte, kıyafet:** dokunulmuyor.
+- **Ton §8 (siyaset yok, vahşet yok), "kimse kötü değil":** Kemal kaba ve kinci, kötü değil.
+- **Oyun not vermez:** yeni metin yalnız ipucu ve olgu; hüküm cümlesi yok.
+- **Zincir defteri:** yeni çıkarımlar (`iki_beyaz`, `boya_tesaduf`) doğru cümleler, "?" kutusu ya da "eksik" işareti yok; başlıklar `arac_tahta_denetim.js` ile denetlenecek.
+
+**Eksik ama çelişki değil:** `serkanla_anlas` ve `susmayi_sat` sonlarında Rıza gerçeği hiç
+öğrenmiyor, yani Kemal'i suçlamaya devam ediyor. Sonuç metinleri bunu söylemiyor; istenirse
+birer cümle eklenebilir ("Rıza Reis, Kemal'le bir daha konuşmadı."). Kararın bedelini
+artırır; sahibinin kararı.
 
 ## Giriş
 
