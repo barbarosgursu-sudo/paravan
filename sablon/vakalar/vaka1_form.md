@@ -196,12 +196,15 @@ Büro (gündüz, pencere, akşam), koridor (akşam), iskele, çay ocağı, Bebek
 
 | tutar | ne | dayanak |
 |---|---|---|
-| 35.000 ₺ | vaka ücreti | özel dedektif vaka başı 10.000–100.000 ₺ |
-| 35.000 ₺/gün, 3 gün = 105.000 ₺ | sete tekne kirası | günlük tekne kiralama 17.500–62.000 ₺ |
-| ~100.000 ₺ | Serkan'ın borcu | hikâye içi (kira + veresiye) |
-| 20.000 ₺ | yapımcının sus payı | hikâye içi |
+| 35.000 ₺ | vaka ücreti | İstanbul'da 2 kişilik haftalık takip ≈ 75.000 ₺ (Milliyet, 2026); net asgari ücret 28.075 ₺ |
+| 35.000 ₺/gün, 3 gün = 105.000 ₺ | sete tekne kirası | **tahmin** (kaynak bulunamadı); yat kiralama bunun birkaç katı |
+| ~100.000 ₺ | Serkan'ın borcu | **tahmin:** birkaç aylık dükkân kirası + veresiye; kira geliriyle (105.000 ₺) kapanır |
+| 20.000 ₺ | yapımcının sus payı | hikâye içi; bir yapım için küçük |
 | 3.000 ₺ | Rıza'nın indirimi | hikâye içi |
-| ~4.000 ₺ | bir kasa levrek (10 kg) | hal fiyatı 380–470 ₺/kg |
+| 5.000 / 15.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
+
+*Fiyatlar 8 Ekim 2026'da internetten kontrol edildi.*
+| ~5.000 ₺ | bir kasa levrek (10 kg) | markette 530–700 ₺/kg (Ağustos 2026), halde daha ucuz |
 
 ## 18. Kanon
 
