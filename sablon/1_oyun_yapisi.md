@@ -61,6 +61,15 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 - **Bilmece:** Oyuncu da suçluyu bilmez, bulur.
 - **Ters:** Oyuncu suçluyu baştan görür, Peri bilmez. Oyuncu kanıt arar. *(Ertelendi; şimdilik yalnız Bilmece.)*
 
+## Vakalar arası
+
+Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır:
+
+- **Para (kasa)** ve **Cengo bağı:** sistemler, vakadan vakaya sürer.
+- **Sabit sezon hikâyesi:** Peri'nin geçmişi (dolandırıcı avukat, haczedilen taç). Her oyuncu için aynıdır; oyuncunun kararı değiştirmez.
+
+**Tohum yok:** bir vakadaki karar başka bir vakanın metnini, kişilerini ya da olaylarını değiştirmez. (Vaka 1'deki 5 tohum üretim aşamasında silinecek.)
+
 ## Değişmez ilkeler
 
 - **Kaybetme yok.** Para bitse de oyun sürer.
