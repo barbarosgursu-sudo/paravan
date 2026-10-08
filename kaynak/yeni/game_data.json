@@ -550,7 +550,7 @@
           "kare": "K5",
           "cengoBag": 1,
           "para": -3000,
-          "onizleme": "Rıza'ya yalan söylersin. Tekne üç gün sonra döner."
+          "onizleme": "Rıza'ya yalan söylersin. Tekne üç gün sonra döner; Rıza ücretten 3.000 ₺ kırar."
         },
         {
           "id": "susmayi_sat",
@@ -566,7 +566,7 @@
           "kare": "K6",
           "cengoBag": -1,
           "para": 10000,
-          "onizleme": "Yapımcı sana öder. Tekne üç gün sette kalır."
+          "onizleme": "Yapımcı sana 10.000 ₺ öder. Tekne üç gün sette kalır."
         }
       ],
       "seeds": {},
@@ -578,7 +578,11 @@
           {"id": "tuba", "ad": "Tuba", "gorunur": "tuba_ters"}
         ],
         "dogru_ciftler": [["kiralayan_balikci", "kilit_saglam"], ["kiralayan_balikci", "serkan_borc"], ["kilit_saglam", "serkan_borc"]],
-        "ucret": {"dogru": 35000, "zayif": 30000, "yanlis": 20000}
+        "ucret": {"dogru": 35000, "zayif": 30000, "yanlis": 20000},
+        "kesinti": {
+          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Rıza Reis {kesinti} kesti.",
+          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Rıza Reis {kesinti} kesti."
+        }
       },
       "anahtarlar": {
         "bebek_yonu": ["Bebek", "kuzey"],

@@ -45,7 +45,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 ## E. Karar
 
 22. **Oyun not vermez.** Karar metni: eylem → sonuç → bedel. "Doğru olanı yaptın" gibi hüküm cümlesi yok.
-22a. **Oyuncu seçmeden önce sonucu bilir** (sahibinin kararı, 8 Ekim 2026). Karar ekranında her seçeneğin altında üç şey yazar: tek cümlelik kısa sonuç, kasaya girecek toplam para (ücret + karar parası) ve Cengo'nun tavrı (kural 11). Ayrıntı ve bedel seçimden sonra, sonuç ekranında anlatılır.
+22a. **Oyuncu seçmeden önce sonucu bilir** (sahibinin kararı, 8 Ekim 2026). Karar ekranında her seçeneğin altında üç şey yazar: tek cümlelik kısa sonuç, kasaya girecek toplam para (ücret + karar parası) ve Cengo'nun tavrı (kural 11). Ücret kesildiyse sebebi ekranın üstünde yazılır; kararın kendi parası kısa sonucun içinde söylenir. Her rakamın nereden geldiği görünür. Ayrıntı ve bedel seçimden sonra, sonuç ekranında anlatılır.
 23. **Cengo'nun tepkisi ahlaka değil duruma göredir.** Dört kararın Cengo satırları yan yana okununca "doğru cevap" çıkmamalı.
 
 ## F. Para

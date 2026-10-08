@@ -470,6 +470,10 @@ function kararEkrani(){
   let h = ust() + '<div class="faz">';
   h += `<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>`;
   h += `<div class="uyari">Bu karar geri alınamaz.</div>`;
+  // Ücret kesildiyse sebebi (kural 22a): anlaşılan rakamla ekrandaki rakam arasındaki fark açıklanır.
+  const ky = a.vaka.kim_yapti, sonuc = a.suclama.sonuc;
+  if(ucret < ky.ucret.dogru && (ky.kesinti || {})[sonuc])
+    h += `<div class="ky-kesinti">${vnHtml(ky.kesinti[sonuc].replace("{anlasilan}", tl(ky.ucret.dogru)).replace("{kesinti}", tl(ky.ucret.dogru - ucret)))}</div>`;
   // Kural 22a: seçmeden önce kısa sonuç, kasaya girecek toplam ve Cengo'nun tavrı (kural 11: yön, sayı değil).
   for(const k of oyun.acikKararlar()){
     const d = v6Karar(k.id);

@@ -86,6 +86,8 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 | Yanlış kişi (şüpheli 2) | | |
 | Yanlış kişi (şüpheli 3) | | |
 
+- **Kesinti açıklaması:** ücret kesilirse karar ekranında çıkan cümle (zayıf / yanlış), müşterinin ağzından sebebiyle.
+
 ## 11. Kovalamaca
 
 | vuruş | ne olur | Peri'nin pozu (erotik + gülünç) | ara kare |

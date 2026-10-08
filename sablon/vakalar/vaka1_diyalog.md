@@ -10,7 +10,7 @@
 - `*metin*` → anlatı satırı (sahne notu)
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
   `gir: serkan`, `cik`, `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
-- `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri
+- `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
 
@@ -221,6 +221,12 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 
 ---
 
+## ucret
+⚙ Karar ekranının üstünde, ücret kesildiyse çıkan açıklama. `{anlasilan}` ve `{kesinti}` tutarla dolar.
+
+**ZAYIF:** Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Rıza Reis {kesinti} kesti.
+**YANLIS:** Anlaşılan ücret {anlasilan}. Masum birini suçladın; Rıza Reis {kesinti} kesti.
+
 ## karar sete_gotur
 ⚙ etiket: Rıza Reis'i sete götür
 
@@ -240,7 +246,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar serkanla_anlas
 ⚙ etiket: Serkan'la anlaş, tekneyi sessizce geri getir
 
-**ÖNİZLEME:** Rıza'ya yalan söylersin. Tekne üç gün sonra döner.
+**ÖNİZLEME:** Rıza'ya yalan söylersin. Tekne üç gün sonra döner; Rıza ücretten 3.000 ₺ kırar.
 **SONUÇ:** Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak, boyasını yapım sökecek. Rıza Reis'e "gençler almış, Bebek'te bırakmışlar, cumartesi getiriyorlar" dedin. İnanmadı, sormadı. Üç gün daha denize çıkamadı; teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı.
 **CENGO:** Cengo, Serkan'ın omzuna vurdu: "Cumartesi sabah. Bir dakika geç kalırsan baban da duyar, ben de."
 **DEFTER:** Rıza Reis'e yalan söyledim. Tekne cumartesi döndü.
@@ -248,7 +254,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar susmayi_sat
 ⚙ etiket: Yapımcıya susmayı sat
 
-**ÖNİZLEME:** Yapımcı sana öder. Tekne üç gün sette kalır.
+**ÖNİZLEME:** Yapımcı sana 10.000 ₺ öder. Tekne üç gün sette kalır.
 **SONUÇ:** Yapımcıyla bir "danışmanlık sözleşmesi" imzaladın. Konusu: dizinin "lüks yatının" boyanmış bir balıkçı teknesi olduğunu kimseye söylememek. Yapımcı on bin ödedi, hem de hızlı. Nazlı çekim bitene kadar sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Cumartesi teknesini iskelede, beyaz buldu.
 **CENGO:** Cengo yapımcının yüzünü taklit ederek on dakika güldü. Sonra pencereden boş iskeleye baktı ve gülmeyi bıraktı.
 **DEFTER:** Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi.

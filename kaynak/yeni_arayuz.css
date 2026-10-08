@@ -191,3 +191,4 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .ky-kasa{color:var(--sonuk);font-weight:700}
 .ky-kasa b{color:var(--gece);font-size:16px}
 .ky-cengo{color:var(--bogaz);font-weight:800}
+.ky-kesinti{margin:6px 24px 4px;padding:10px 12px;background:#fff;border:3px solid var(--gece);border-left:6px solid var(--tramvay);border-radius:12px;font-size:15px;font-weight:700;color:var(--gece)}

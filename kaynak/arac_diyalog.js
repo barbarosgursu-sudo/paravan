@@ -26,11 +26,12 @@ const temiz = s => s.replace(/\*\(([^)]*)\)\*/g, "($1)").trim();   // *(yutkunar
 
 const hatalar = [];
 const sahneler = {}, ipuclari = {}, kararlar = {};
-let hedef = null, satirNo = 0;
+let hedef = null, satirNo = 0, ucretMetin = null;
 for (const ham of md) {
   satirNo++;
   const s = ham.trim();
   let m;
+  if (s === "## ucret") { hedef = { tur: "ucret", ayar: {}, metin: {} }; ucretMetin = hedef; continue; }
   if ((m = s.match(/^## (sahne|ipucu|karar) (\S+)$/))) {
     hedef = { tur: m[1], ad: m[2], ayar: {}, satirlar: [], metin: {} };
     ({ sahne: sahneler, ipucu: ipuclari, karar: kararlar })[m[1]][m[2]] = hedef;
@@ -43,6 +44,11 @@ for (const ham of md) {
       const mm = parca.trim().match(/^(arka|figurler|etiket):\s*(.+)$/);
       if (mm) hedef.ayar[mm[1]] = mm[1] === "figurler" ? mm[2].split(",").map(x => x.trim()) : mm[2].trim();
     }
+    continue;
+  }
+  if (hedef.tur === "ucret") {
+    if ((m = s.match(/^\*\*(ZAYIF|YANLIS):\*\*\s*(.+)$/))) hedef.metin[{ ZAYIF: "zayif", YANLIS: "yanlis" }[m[1]]] = m[2].trim();
+    else hatalar.push(`${satirNo}: ücret bölümünde tanınmayan satır`);
     continue;
   }
   if (hedef.tur === "karar") {
@@ -91,6 +97,10 @@ for (const [id, h] of Object.entries(kararlar)) {
   d.sonuc = h.metin["SONUÇ"];
   d.cengo_sonuc = [{ kosul: "varsayilan", metin: h.metin.CENGO }];
   K.defter[vakaId][id] = h.metin.DEFTER;
+}
+if (v.kim_yapti) {
+  if (!ucretMetin || !ucretMetin.metin.zayif || !ucretMetin.metin.yanlis) hatalar.push("'## ucret' bölümü (ZAYIF, YANLIS) yok");
+  else v.kim_yapti.kesinti = { zayif: ucretMetin.metin.zayif, yanlis: ucretMetin.metin.yanlis };
 }
 for (const d of v.decisions) if (!kararlar[d.id]) hatalar.push(`veride karar '${d.id}' var ama diyalogda metni yok`);
 

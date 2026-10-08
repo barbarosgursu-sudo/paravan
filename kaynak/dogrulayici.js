@@ -972,6 +972,8 @@ function kural19_kimYapti(game, hatalar) {
     const u = ky.ucret || {};
     if (!(u.dogru >= u.zayif && u.zayif >= u.yanlis && u.yanlis >= 0))
       hatalar.push(`[K19] ${yer}: ücret sırası dogru ≥ zayif ≥ yanlis ≥ 0 olmalı.`);
+    for (const k of ["zayif", "yanlis"]) if (u[k] < u.dogru && !((ky.kesinti || {})[k] || "").trim())
+      hatalar.push(`[K19] ${yer}: '${k}' ücret kesintisinin açıklaması (kesinti.${k}) yok — kural 22a.`);
     const sahneler = vaka.sahneler || {};
     for (const ad of ["yuzlesme_dogru", "yuzlesme_zayif", ...sup.filter(x => x.id !== ky.suclu).map(x => "yuzlesme_" + x.id)])
       if (!sahneler[ad]) hatalar.push(`[K19] ${vaka.id}: '${ad}' sahnesi yok.`);
