@@ -986,8 +986,20 @@ function kural19_kimYapti(game, hatalar) {
     if ((u.yanlis || 0) + enAz < 0) hatalar.push(`[K19] ${vaka.id}: en kötü durumda (yanlış kişi + en pahalı karar) kasaya eksi girer.`);
     for (const c of vaka.clues || []) if (c.bedelsiz) hatalar.push(`[K19] ${vaka.id}/${c.id}: bedava ipucu yok; her ipucu bir hak harcar.`);
     if ((vaka.arastirma ?? 3) >= (vaka.clues || []).length) hatalar.push(`[K19] ${vaka.id}: ipucu sayısı haktan fazla olmalı.`);
-    // En az iki ayrı kanıt yolu: hak içinde açılabilen yollarda tutan farklı doğru çift sayısı.
     if (!OyunYeni) continue;
+    // Kural 21c: hiçbir doğru çift tek bir ipucundan (+ giriş) çıkmaz — suçlu iki ipucunun birleşmesiyle bulunur.
+    {
+      const o = new OyunYeni(game);
+      const girisOlgu = (vaka.giris || []).flatMap(g => g.acilan || []);
+      for (const c of vaka.clues || []) {
+        const kume = [...new Set([...girisOlgu, ...(c.reveals || [])])];
+        for (const cift of ky.dogru_ciftler || []) for (const x of kume) for (const y of kume)
+          if (x !== y && o._ciftTutar(cift, x, y) && (c.reveals || []).some(r => r === x || r === y)) {
+            hatalar.push(`[K19] ${vaka.id}/${c.id}: bu ipucu suçluyu tek başına kanıtlıyor (${x} + ${y}) — kural 21c.`);
+          }
+      }
+    }
+    // En az iki ayrı kanıt yolu: hak içinde açılabilen yollarda tutan farklı doğru çift sayısı.
     const tutan = new Set(), gorulen = new Set();
     const dfs = ac => {
       const anahtar = [...ac].sort().join("|"); if (gorulen.has(anahtar)) return; gorulen.add(anahtar);

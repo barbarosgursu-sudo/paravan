@@ -56,7 +56,7 @@
       "facts": {
         "tekne_kayip": "Nazlı salı gecesi Karaköy iskelesinden kayboldu.",
         "zincir_kilitli": "Zincir kilitliydi; anahtar Rıza Reis'in boynunda.",
-        "yedek_kayip": "Zincirin ve teknenin bir de yedek anahtarı varmış; Rıza Reis yıllardır kayıp sanıyor.",
+        "yedek_kayip": "Zincirin ve teknenin yedek anahtarları evde dururmuş; Rıza Reis yıllardır kayıp sanıyor.",
         "bebek_yonu": "Salı gece yarısı Nazlı Boğaz'a, kuzeye gitti; dümendekinin yüzü seçilmedi. Sabah Bebek'te Nazlı'ya benzer, ama beyaz bir tekne görülmüş.",
         "kemal_kayboldu": "Kemal Reis salı gece yarısına doğru okey masasından kalkıp yarım saat ortadan kaybolmuş.",
         "kemal_boya": "Kemal Reis'in elleri ve teknesi taze beyaz boyalı.",
@@ -66,11 +66,10 @@
         "set_teknesi": "Bebek'teki dizi setinde beyaza boyanmış bir balıkçı teknesi var.",
         "yat_tanitimi": "Dizi, tekneyi tanıtımında “gerçek bir lüks yat” diye gösteriyor.",
         "nazli_izi": "Boyanın altından teknenin eski adı seçiliyor: Nazlı.",
-        "kiralayan_serkan": "Tekneyi sete Serkan adında biri, sahibi gibi kiralamış.",
-        "serkan_anahtar": "Serkan'da teknenin yedek anahtarı var; “kaybettim” diyor, cebi şıngırdıyor.",
-        "serkan_yaka_karti": "Serkan'ın boynunda bir dizi setinin yaka kartı var; saklıyor.",
         "serkan_borc": "Serkan'ın cuma ödemesi gereken, yüz bine yakın bir borcu var.",
-        "tuba_ters": "Set sorumlusu Tuba tekne için “bizim, belgesi tamam” diyor, soruları kesip atıyor."
+        "tuba_ters": "Set sorumlusu Tuba tekne için “bizim, belgesi tamam” diyor, soruları kesip atıyor.",
+        "kiralayan_balikci": "Tekneyi sete Karaköy'den bir balıkçı kiralamış; “sahibiyim” demiş, adını vermemiş.",
+        "serkan_anahtar_inkar": "Serkan yedek anahtarın “yıllar önce babamda kaldığını” söylüyor."
       },
       "knowledge": [
         {
@@ -97,7 +96,7 @@
       "giris": [
         {
           "kosul": "varsayilan",
-          "metin": "Kapıda yetmişlerinde bir balıkçı: Rıza Reis. Kırk yıllık teknesi Nazlı dün gece iskeleden kaybolmuş; yan bağlamadaki Kemal'den şüpheleniyor. Zinciri kendisi kilitler, anahtarı boynunda; yedekleri yıllar önce kaybolmuş. Ücret otuz beş bin, tekne dönünce. Giderken bir şey rica ediyor: oğlu Serkan'a söylenmesin, üzülür.",
+          "metin": "Kapıda yetmişlerinde bir balıkçı: Rıza Reis. Kırk yıllık teknesi Nazlı dün gece iskeleden kaybolmuş; yan bağlamadaki Kemal'den şüpheleniyor. Zinciri kendisi kilitler, anahtarı boynunda; yedekleri evde dururmuş, yıllar önce kaybolmuş. Ücret otuz beş bin, tekne dönünce. Giderken bir şey rica ediyor: oğlu Serkan'a söylenmesin, üzülür.",
           "acilan": ["tekne_kayip", "zincir_kilitli", "yedek_kayip"]
         }
       ],
@@ -135,7 +134,7 @@
             {
               "k": "riza",
               "i": "normal",
-              "m": "Zinciri her akşam kendim kilitlerim. Anahtarı boynumda. Yedekleri vardı; yıllar önce kayboldu."
+              "m": "Zinciri her akşam kendim kilitlerim. Anahtarı boynumda. Yedekleri evde dururdu; yıllar önce kayboldu."
             },
             {"k": "riza", "i": "dertli", "m": "Bir hafta denize çıkmazsam batarım."},
             {"k": "peri", "i": "normal", "m": "Otuz beş bin."},
@@ -223,9 +222,9 @@
               "gir": "serkan"
             },
             {"k": "peri", "i": "kas", "m": "Tuba Hanım, tekneyi siz çaldınız."},
-            {"k": "tuba_tel", "m": "Çaldık mı? Kiraladık! Sahibi Serkan, şu an yanınızda olmalı!"},
-            {"k": "cengo", "i": "kas", "m": "Yanımızda."},
-            {"k": "not", "m": "Serkan sesi duyuyor. Koşuyor.", "cik": true}
+            {"k": "tuba_tel", "m": "Çaldık mı? Kiraladık! Karaköylü bir balıkçı geldi, \"sahibiyim\" dedi!"},
+            {"k": "cengo", "i": "kas", "m": "Karaköylü bir balıkçı."},
+            {"k": "not", "m": "Herkes Serkan'a dönüyor. Serkan koşuyor.", "cik": true}
           ]
         },
         "kovalamaca": {
@@ -264,7 +263,7 @@
             {
               "k": "serkan",
               "i": "normal",
-              "m": "Tamam! Ben aldım. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim.",
+              "m": "Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim.",
               "gir": "serkan"
             },
             {"k": "cengo", "i": "kas", "m": "Babana söyleyecek miydin?"},
@@ -441,9 +440,9 @@
           "tur": "İfade",
           "ico": "◈",
           "needs": ["set_teknesi", "tuba_ters"],
-          "reveals": ["kiralayan_serkan"],
-          "text": "Tekneyi sete kiralayan, sahibi olduğunu söyleyen biri: Serkan.",
-          "meta": "Tekneyi sete kiralayan, sahibi olduğunu söyleyen biri: Serkan.",
+          "reveals": ["kiralayan_balikci"],
+          "text": "Tekneyi sete Karaköy'den bir balıkçı kiralamış; “sahibiyim” demiş. Adını kimse sormamış.",
+          "meta": "Tekneyi sete Karaköy'den bir balıkçı kiralamış; “sahibiyim” demiş. Adını kimse sormamış.",
           "sahne": {
             "arka": "A12",
             "figurler": ["peri", "cengo"],
@@ -458,8 +457,10 @@
               {"k": "cengo", "i": "normal", "m": "Teknenin sahibinin adamıyım."},
               {
                 "k": "tuba",
-                "m": "Sahibi o değil mi? Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin. Sahibiyim diyen Serkan'dı."
+                "m": "Sahibi değil mi o? Karaköy'den bir balıkçı geldi, \"sahibiyim\" dedi. Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin."
               },
+              {"k": "peri", "i": "kas", "m": "Adı neydi?"},
+              {"k": "tuba", "m": "Sormadım. Nakit veren adama ad sorulmaz."},
               {"k": "peri", "i": "kas", "m": "Ruhsatını gördünüz mü?"},
               {"k": "tuba", "m": "Göstermedi, ben de sormadım. Çekim cumaya yetişmezse ben yetişemem.", "cik": true},
               {"k": "cengo", "i": "gulen", "m": "Pilavı da güzeldi."}
@@ -472,9 +473,9 @@
           "tur": "İfade",
           "ico": "◈",
           "needs": [],
-          "reveals": ["serkan_anahtar", "serkan_yaka_karti", "serkan_borc"],
-          "text": "Serkan'da yedek anahtar var, “kaybettim” diyor. Boynunda bir dizi setinin yaka kartı var. Cumaya yüz bine yakın borcu var.",
-          "meta": "Serkan'da yedek anahtar var, “kaybettim” diyor. Boynunda bir dizi setinin yaka kartı var. Cumaya yüz bine yakın borcu var.",
+          "reveals": ["serkan_borc", "serkan_anahtar_inkar"],
+          "text": "Serkan sakin; yedek anahtarın babasında kaldığını söylüyor. Kapısında borç notu: cumaya yüz bine yakın borcu var.",
+          "meta": "Serkan sakin; yedek anahtarın babasında kaldığını söylüyor. Kapısında borç notu: cumaya yüz bine yakın borcu var.",
           "sahne": {
             "arka": "A13",
             "figurler": ["peri", "cengo"],
@@ -487,27 +488,17 @@
                 "gir": "serkan"
               },
               {"k": "peri", "i": "normal", "m": "Serkan Bey? Babanızın teknesi…"},
-              {"k": "serkan", "i": "normal", "m": "Hava güzel, değil mi? Lodos yapacak diyorlar."},
-              {
-                "k": "not",
-                "m": "Boynunda bir dizi setinin yaka kartı sallanıyor. Peri bakınca kartı gömleğinin içine sokuyor."
-              },
-              {"k": "peri", "i": "kas", "m": "O kart ne?"},
-              {"k": "serkan", "m": "Hiç. Bir arkadaşın işi."},
+              {"k": "serkan", "i": "normal", "m": "Duydum. Kemal'le kavgalılar, biliyorsunuz."},
               {"k": "cengo", "i": "kas", "m": "Teknenin yedek anahtarı kimde?"},
-              {
-                "k": "serkan",
-                "m": "Bende. Yani… babam yıllar önce verdi. Kaybettim. Kemal Reis bulmuştur! O babamın yerine göz dikti!"
-              },
-              {"k": "not", "m": "Cebi şıngırdıyor."},
-              {"k": "cengo", "i": "kas", "m": "Kaybettiğin anahtar cebinde şarkı söylüyor."},
+              {"k": "serkan", "m": "Yedek mi? Yıllar önce babamda kaldı. Evde bir yerdedir."},
               {
                 "k": "not",
                 "m": "Kepengin üstüne bantlanmış, el yazısı bir not: \"Cuma günü ya para ya anahtar. — Ev sahibi.\""
               },
               {"k": "peri", "i": "normal", "m": "Cumaya ne kadar borcunuz var?"},
               {"k": "serkan", "m": "Yüz bine yakın. Ne alakası var?"},
-              {"k": "peri", "i": "kas", "m": "Bilmiyorum. Henüz."}
+              {"k": "peri", "i": "kas", "m": "Bilmiyorum. Henüz."},
+              {"k": "cengo", "i": "kas", "m": "Dükkân kapalı, borç açık."}
             ]
           }
         }
@@ -517,7 +508,7 @@
           "id": "sete_gotur",
           "gate": "yok",
           "etiket": "Rıza Reis'i sete götür",
-          "sonuc": "Rıza Reis'i Bebek'e, sete götürdün. Çekimin ortasında tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın adını herkesin önünde söyledi; Rıza Reis oğlunun adını kırk kişinin içinde duydu. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz.",
+          "sonuc": "Rıza Reis'i Bebek'e, sete götürdün. Çekimin ortasında tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanı herkesin önünde tarif etti; Rıza Reis oğlunun yaptığını kırk kişinin içinde öğrendi. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -582,11 +573,7 @@
           {"id": "kemal", "ad": "Kemal Reis", "gorunur": "her_zaman"},
           {"id": "tuba", "ad": "Tuba", "gorunur": "tuba_ters"}
         ],
-        "dogru_ciftler": [
-          ["kiralayan_serkan", {"any": ["set_teknesi", "nazli_izi"]}],
-          ["serkan_anahtar", "kilit_saglam"],
-          ["serkan_yaka_karti", {"any": ["set_teknesi", "nazli_izi"]}]
-        ],
+        "dogru_ciftler": [["kiralayan_balikci", "kilit_saglam"], ["kiralayan_balikci", "serkan_borc"], ["kilit_saglam", "serkan_borc"]],
         "ucret": {"dogru": 35000, "zayif": 30000, "yanlis": 20000}
       },
       "anahtarlar": {
@@ -600,10 +587,9 @@
         "yat_tanitimi": ["lüks yat"],
         "set_boyadi": ["biz boyadık", "set ekibi"],
         "tuba_ters": ["Tuba", "belgesi"],
-        "kiralayan_serkan": ["kirala"],
-        "serkan_anahtar": ["anahtar Serkan", "Serkan'da"],
-        "serkan_yaka_karti": ["yaka kart"],
-        "serkan_borc": ["borç", "borcu"]
+        "serkan_borc": ["borç", "borcu"],
+        "kiralayan_balikci": ["kirala", "sahibiyim"],
+        "serkan_anahtar_inkar": ["babamda kaldı"]
       }
     }
   ]

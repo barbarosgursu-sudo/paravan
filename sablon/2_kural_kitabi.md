@@ -39,6 +39,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 20. **Oyuncu hak etmediği bir bilgiyi hiçbir yerden almaz:** metin, görsel, defter, Cengo'nun esprisi, ipucu adı.
 21. **Oyun cevabı söylemez.** Hiçbir ekran "suçlu X" demez; bunu oyuncu "Kim yaptı?"da söyler.
 21a. **Defter yalnız ara bulgu yazar.** Olgular birleşince deftere yazılan cümle ("Tekne sette") suçluyu asla söylemez.
+21c. **Hiçbir ipucu suçluyu tek başına göstermez** (sahibinin görselsiz testi, 8 Ekim 2026). Adı, ona özgü bir eşya ya da itiraf tek ipucunda verilmez; her ipucunun bilgisi en az iki şüpheliye uyar ya da masum bir açıklaması vardır. Suçlu, en az iki ipucunun birleşmesiyle bulunur (K19 denetler: hiçbir doğru kanıt çifti tek ipucundan çıkmaz).
 21b. **Kilit açarak bulunan kanıt** (Cengo'nun teli) "Kim yaptı?"da geçerlidir; mahkemede geçmemesi yalnız espri olarak kullanılır.
 
 ## E. Karar

@@ -39,7 +39,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 **RIZA [ofkeli]:** Kemal'dir. Yanımda bağlar. Yirmi yıldır yerime göz diker; geçen hafta yakama yapıştı.
 **CENGO [kas]:** Kemal'in teknesi yerinde mi?
 **RIZA:** Yerinde. Akıllı adam.
-**RIZA [normal]:** Zinciri her akşam kendim kilitlerim. Anahtarı boynumda. Yedekleri vardı; yıllar önce kayboldu.
+**RIZA [normal]:** Zinciri her akşam kendim kilitlerim. Anahtarı boynumda. Yedekleri evde dururdu; yıllar önce kayboldu.
 **RIZA [dertli]:** Bir hafta denize çıkmazsam batarım.
 **PERİ [normal]:** Otuz beş bin.
 **RIZA [dertli]:** *(yutkunarak)* …Tekne dönünce.
@@ -118,35 +118,35 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 
 ## ipucu set_sorumlusu
 ⚙ arka: A12 · figurler: peri, cengo
+⚙ Kural 21c: Tuba kiralayanın adını VERMEZ. "Karaköy'den bir balıkçı" Kemal'e de Serkan'a da uyar.
 
 *Set arkası, yemek masası. Cengo bir tabak pilav alıp Tuba'nın yanına oturuyor.* {mekan}
 **CENGO [gulen]:** Pilavınız güzel.
 **TUBA [normal]:** Sen kimsin? {gir: tuba}
 **CENGO [normal]:** Teknenin sahibinin adamıyım.
-**TUBA:** Sahibi o değil mi? Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin. Sahibiyim diyen Serkan'dı.
+**TUBA:** Sahibi değil mi o? Karaköy'den bir balıkçı geldi, "sahibiyim" dedi. Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin.
+**PERİ [kas]:** Adı neydi?
+**TUBA:** Sormadım. Nakit veren adama ad sorulmaz.
 **PERİ [kas]:** Ruhsatını gördünüz mü?
 **TUBA:** Göstermedi, ben de sormadım. Çekim cumaya yetişmezse ben yetişemem. {cik}
 **CENGO [gulen]:** Pilavı da güzeldi.
 
 ## ipucu serkan
 ⚙ arka: A13 · figurler: peri, cengo
+⚙ Kural 21c: Serkan sakin; tek başına ele vermez. Borç notu sebebi gösterir, suçu değil.
 
 **PERİ [utanmis]:** Rıza Reis "oğluma söylemeyin" dedi.
 **CENGO [gulen]:** Söylemiyoruz. Soruyoruz.
 *Karaköy'de kapalı bir balık-ekmek dükkânı. Kepengin önünde otuzlarında bir adam.* {gir: serkan}
 **PERİ [normal]:** Serkan Bey? Babanızın teknesi…
-**SERKAN [normal]:** Hava güzel, değil mi? Lodos yapacak diyorlar.
-*Boynunda bir dizi setinin yaka kartı sallanıyor. Peri bakınca kartı gömleğinin içine sokuyor.*
-**PERİ [kas]:** O kart ne?
-**SERKAN:** Hiç. Bir arkadaşın işi.
+**SERKAN [normal]:** Duydum. Kemal'le kavgalılar, biliyorsunuz.
 **CENGO [kas]:** Teknenin yedek anahtarı kimde?
-**SERKAN:** Bende. Yani… babam yıllar önce verdi. Kaybettim. Kemal Reis bulmuştur! O babamın yerine göz dikti!
-*Cebi şıngırdıyor.*
-**CENGO [kas]:** Kaybettiğin anahtar cebinde şarkı söylüyor.
+**SERKAN:** Yedek mi? Yıllar önce babamda kaldı. Evde bir yerdedir.
 *Kepengin üstüne bantlanmış, el yazısı bir not: "Cuma günü ya para ya anahtar. — Ev sahibi."*
 **PERİ [normal]:** Cumaya ne kadar borcunuz var?
 **SERKAN:** Yüz bine yakın. Ne alakası var?
 **PERİ [kas]:** Bilmiyorum. Henüz.
+**CENGO [kas]:** Dükkân kapalı, borç açık.
 
 ---
 
@@ -189,9 +189,9 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 
 *Serkan'ın dükkânının önü. Peri telefonda, hoparlör açık. Serkan kepengin önünde.* {gir: serkan}
 **PERİ [kas]:** Tuba Hanım, tekneyi siz çaldınız.
-**TUBA_TEL:** Çaldık mı? Kiraladık! Sahibi Serkan, şu an yanınızda olmalı!
-**CENGO [kas]:** Yanımızda.
-*Serkan sesi duyuyor. Koşuyor.* {cik}
+**TUBA_TEL:** Çaldık mı? Kiraladık! Karaköylü bir balıkçı geldi, "sahibiyim" dedi!
+**CENGO [kas]:** Karaköylü bir balıkçı.
+*Herkes Serkan'a dönüyor. Serkan koşuyor.* {cik}
 
 ## sahne kovalamaca
 ⚙ arka: A13 · figurler: peri, cengo
@@ -209,7 +209,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 *Cengo nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın yakasına yapışıyor.* {kare: K12}
 **CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi. {set: balikli}
 **PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
-**SERKAN [normal]:** Tamam! Ben aldım. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan}
+**SERKAN [normal]:** Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan}
 **CENGO [kas]:** Babana söyleyecek miydin?
 **SERKAN:** Cumartesi. Tekneyle birlikte. {cik}
 **PERİ [utanmis]:** *(elindeki levreği nereye koyacağını bilmeden)* Bunu kime veriyorum?
@@ -223,9 +223,9 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar sete_gotur
 ⚙ etiket: Rıza Reis'i sete götür
 
-**SONUÇ:** Rıza Reis'i Bebek'e, sete götürdün. Çekimin ortasında tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanın adını herkesin önünde söyledi; Rıza Reis oğlunun adını kırk kişinin içinde duydu. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz.
+**SONUÇ:** Rıza Reis'i Bebek'e, sete götürdün. Çekimin ortasında tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanı herkesin önünde tarif etti; Rıza Reis oğlunun yaptığını kırk kişinin içinde öğrendi. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz.
 **CENGO:** Cengo bütün çekimi bir figüranın yanında ayakta izledi. Dönüşte "Bu dizinin en iyi bölümüydü" dedi.
-**DEFTER:** Rıza Reis teknesine sette kavuştu; oğlunun adını herkesin önünde duydu.
+**DEFTER:** Rıza Reis teknesine sette kavuştu; oğlunun yaptığını herkesin önünde öğrendi.
 
 ## karar her_seyi_anlat
 ⚙ etiket: Rıza Reis'e her şeyi anlat

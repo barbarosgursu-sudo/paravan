@@ -44,7 +44,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 - **Ne istiyor:** Teknesini. Bir hafta denize çıkamazsa batar.
 - **Girişte anlattıkları** (ipucu değil):
   - Nazlı salı gece kayboldu; karakol tutanak tuttu.
-  - Zinciri her akşam kendisi kilitler; zincirin de teknenin de anahtarı boynunda. Yedekleri yıllar önce kayboldu.
+  - Zinciri her akşam kendisi kilitler; zincirin de teknenin de anahtarı boynunda. Yedekleri evde dururdu; yıllar önce kayboldu. *(Anahtar ailedeydi: Kemal'i eleyen bilgi.)*
   - **Kemal'den şüpheleniyor:** yan bağlamadaki balıkçı, yirmi yıldır yerine göz diker, geçen hafta yakasına yapıştı.
   - Giderken: "Oğlum Serkan'a söylemeyin. Üzülür."
 - **Ne saklıyor:** Hiçbir şey. Yedek anahtarı oğluna verdiğini unutmuş.
@@ -59,8 +59,8 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 | | **Serkan** (suçlu) | **Kemal Reis** | **Tuba** (dizi seti) |
 |---|---|---|---|
 | Kim | Rıza'nın oğlu, 30'larında, dükkânı batmış | rakip balıkçı, 50'lerinde, iri, ters; Serkan'ın dükkânına veresiye balık vermiş, alacaklı | setin mekân sorumlusu, elinde üç telefon |
-| Şüpheli gösteren iz | yedek anahtar onda, boynunda set kartı, borcu var | Rıza suçluyor; tam o saatte yarım saat kayıp; elleri beyaz boyalı | tekne onların setinde, "lüks yat" diye tanıtılıyor; Tuba "tekne bizim" deyip Peri'yi kovuyor (3. ipucu) |
-| Aklayan kanıt | — | set ekibi boyadı (3. ipucu, boyacı); anahtar Serkan'da | "Kiraladık, nakit; sahibiyim diyen Serkan" |
+| Şüpheli gösteren iz | borcu var; iskeleden biri; yedek anahtar evdeydi | Rıza suçluyor; tam o saatte yarım saat kayıp; elleri beyaz boyalı | tekne onların setinde, "lüks yat" diye tanıtılıyor; Tuba "tekne bizim" deyip Peri'yi kovuyor (3. ipucu) |
+| Aklayan kanıt | — | set ekibi boyadı (3. ipucu, boyacı); zincir anahtarla açılmış, Kemal'in anahtarı yok | "Karaköy'den bir balıkçı kiraladı, sahibiyim dedi" (4. ipucu) |
 | O gece gerçekte | tekneyi götürdü | öğleden sonra kendi teknesini boyadı; gece branda örterken Serkan'ı gördü, sustu | sette, tekneyi teslim aldı |
 | Görünüşü | mevcut figür | **yeni figür:** 50'lerinde, iri, bıyıksız, kara-kır sakal, lastik önlük, elleri beyaz boyalı | mevcut figür |
 
@@ -76,11 +76,10 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 | set_teknesi | Bebek'teki dizi setinde beyaza boyanmış bir balıkçı teknesi var. | Bebek |
 | nazli_izi | Boyanın altından teknenin adı seçiliyor: Nazlı. | Bebek |
 | yat_tanitimi | Dizi tekneyi "gerçek bir lüks yat" diye tanıtıyor. | Bebek |
-| kiralayan_serkan | Tekneyi sete Serkan adında biri, sahibi gibi kiralamış. | Tuba |
+| kiralayan_balikci | Tekneyi sete Karaköy'den bir balıkçı kiralamış; "sahibiyim" demiş, adını vermemiş. | Tuba |
 | tuba_ters | Set sorumlusu Tuba tekne için "bizim, belgesi tamam" diyor, soruları kesip atıyor. | Bebek |
 | set_boyadi | Nazlı'yı set ekibi boyamış ("Dün gece geldi, sabah biz boyadık"). | Bebek |
-| serkan_anahtar | Serkan'da teknenin yedek anahtarı var; "kaybettim" diyor, cebi şıngırdıyor. | Serkan'ın dükkânı |
-| serkan_yaka_karti | Serkan'ın boynunda dizi setinin yaka kartı var, saklıyor. | Serkan'ın dükkânı |
+| serkan_anahtar_inkar | Serkan yedek anahtarın "yıllar önce babamda kaldığını" söylüyor. | Serkan'ın dükkânı |
 | serkan_borc | Serkan'ın cuma ödemesi gereken ~100.000 ₺ borcu var. | Serkan'ın dükkânı |
 
 ## 6. İpuçları (5 ipucu, 4 hak)
@@ -90,30 +89,31 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 | 1 | Çaycıyla konuşmak | çay ocağı | koşulsuz | bebek_yonu, kemal_kayboldu | Cengo (çaycı ona borçlu) |
 | 2 | İskele ve Kemal Reis | iskele | koşulsuz | kilit_saglam, kemal_boya, kemal_inkar | Peri (gözlem, sorgu) |
 | 3 | Bebek'teki beyaz tekne | Bebek | bebek_yonu | set_teknesi, nazli_izi, yat_tanitimi, set_boyadi, tuba_ters | Peri ("Beni tanırlar") |
-| 4 | Setin sorumlusuyla konuşmak | set arkası | set_teknesi | kiralayan_serkan | Cengo (yemek masasından sızar) |
-| 5 | Serkan'ı bulmak | Karaköy, kapalı dükkân | koşulsuz (Rıza adını verdi) | serkan_anahtar, serkan_yaka_karti, serkan_borc | Peri + Cengo |
+| 4 | Setin sorumlusuyla konuşmak | set arkası | set_teknesi | kiralayan_balikci | Cengo (yemek masasından sızar) |
+| 5 | Serkan'ı bulmak | Karaköy, kapalı dükkân | koşulsuz (Rıza adını verdi) | serkan_borc, serkan_anahtar_inkar | Peri + Cengo |
 
 **Sahne özetleri**
 1. Çaycı Cengo'ya üç bardak çay borcunu ödeyip anlatır: tekne Boğaz'a gitti; sabah Bebek'teki balıkçı arkadaşı aradı, "Nazlı'ya benzer, ama beyaz bir tekne var." Cengo: "Kemal o gece neredeydi?"
 2. Zincir yerinde, kilit sağlam. Yan bağlamada Kemal, elleri beyaz. Kaba ve savunmada: "Hırsız arıyorsanız uzağa bakmayın." Cengo: "İtiraf mıydı, tavsiye mi?" Peri: "Belki ikisi."
 3. Peri sete "eski ünlü" diye girmeye çalışır, figüran sanılır. Tekne sette, beyaz, adı boyanın altında. Yanında set boyacısı (figürsüz ses): "Dün gece geldi, sabah biz boyadık." Set sorumlusu Tuba gelir, Peri'yi uzaklaştırır: "Tekne bizim, belgesi tamam. Çekimdeyiz, gidin." Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz."
-4. Cengo yemek masasından Tuba'ya sızar. Tuba bu kez açılır: "Kiraladık, nakit. Sahibiyim diyen Serkan'dı."
-5. Serkan kapalı dükkânın önünde; konuyu değiştirir. Yaka kartını saklar. "Yedek anahtar bende ama kaybettim; Kemal bulmuştur!" Cebi şıngırdar. Kapıda borç notu: "Cuma ya para ya anahtar."
+4. Cengo yemek masasından Tuba'ya sızar. Tuba bu kez açılır: "Karaköy'den bir balıkçı kiraladı, nakit. 'Sahibiyim' dedi. Adını sormadım."
+5. Serkan kapalı dükkânın önünde, sakin. Anahtar sorulunca: "Yedek mi? Yıllar önce babamda kaldı." Kapıda borç notu: "Cuma ya para ya anahtar." *(Tek başına ele vermez; kural 21c.)*
    *(Kovalamaca artık burada değil; Kim yaptı?'dan sonra.)*
 
 ## 7. Kanıt yolları
 
 **Suçluyu tam kanıtlayan yollar (her 4'lü seçimde en az biri çıkıyor):**
-- A: Çaycı → Bebek → Tuba (tekne sette + Serkan kiralamış)
-- B: İskele + Serkan'ın dükkânı (anahtarla açılmış + Serkan'da anahtar)
-- C: Çaycı → Bebek + Serkan'ın dükkânı (tekne sette + Serkan'da set kartı)
+*(Sahibinin görselsiz testi, 8 Ekim: Tuba Serkan'ın adını verince vaka tek ipucuyla çözülüyordu. Kural 21c: hiçbir ipucu suçluyu tek başına göstermez.)*
+- A: Çaycı → Bebek → Tuba + İskele (kiralayan iskeleden bir balıkçı + zincir anahtarla açılmış → anahtar ailede → oğul)
+- B: Çaycı → Bebek → Tuba + Serkan (kiralayan iskeleden bir balıkçı + Serkan'ın cuma borcu)
+- C: İskele + Serkan (zincir anahtarla açılmış → aile + Serkan'ın cuma borcu)
 
 **Kim yaptı?'da doğru kanıt çiftleri (Serkan için):**
-- kiralayan_serkan + set_teknesi (ya da nazli_izi)
-- serkan_anahtar + kilit_saglam
-- serkan_yaka_karti + set_teknesi (ya da nazli_izi)
+- kiralayan_balikci + kilit_saglam
+- kiralayan_balikci + serkan_borc
+- kilit_saglam + serkan_borc
 
-**Zayıf kanıtlar:** serkan_borc (yalnız sebep), serkan_anahtar tek başına, serkan_yaka_karti tek başına, bebek_yonu.
+**Zayıf kanıtlar:** serkan_anahtar_inkar, bebek_yonu, set_teknesi, yedek_kayip; çiftin yalnız biri.
 
 ## 8. Defter cümleleri *(suçluyu söylemez)*
 
@@ -141,7 +141,7 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 3. ipucu
 | Serkan, doğru kanıt | 35.000 ₺ | Peri iki kanıtı sayar. Serkan bir babasına bakar, bir yola… kaçar. |
 | Serkan, zayıf kanıt | 30.000 ₺ | Serkan: "Ne kanıtınız var?" Peri tutturamaz. Cengo yaklaşınca Serkan paniğe kapılıp kaçar. |
 | Kemal | 20.000 ₺ | Kemal, Serkan'dan alacağını istemeye dükkâna gelmiştir. Suçlanınca öfkelenir: "Ben mi? Dümende Rıza'nın oğlu vardı, gözümle gördüm!" Serkan kaçar. |
-| Tuba | 20.000 ₺ | Peri Tuba'yı telefonda suçlar. Tuba hoparlörden: "Kiraladık! Sahibi Serkan, şu an yanınızda olmalı!" Serkan duyar, kaçar. |
+| Tuba | 20.000 ₺ | Peri Tuba'yı telefonda suçlar. Tuba hoparlörden: "Kiraladık! Karaköylü bir balıkçı, sahibiyim dedi!" Serkan duyar, kaçar. |
 
 ## 11. Kovalamaca *(mevcut 5 kare)*
 
@@ -163,7 +163,7 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 3. ipucu
 
 | karar | eylem → sonuç → bedel | karar parası | bağ | Cengo satırı | anı defteri | ara kare |
 |---|---|---|---|---|---|---|
-| Rıza'yı sete götür | Rıza çekimi basar, oğlunun adını kırk kişinin içinde duyar; tekne o akşam döner | +0 | +1 | Bütün çekimi bir figüranın yanında izledi: "Bu dizinin en iyi bölümüydü." | Rıza Reis teknesine sette kavuştu; oğlunun adını herkesin önünde duydu. | K3 |
+| Rıza'yı sete götür | Rıza çekimi basar, oğlunun yaptığını kırk kişinin içinde öğrenir; tekne o akşam döner | +0 | +1 | Bütün çekimi bir figüranın yanında izledi: "Bu dizinin en iyi bölümüydü." | Rıza Reis teknesine sette kavuştu; oğlunun yaptığını herkesin önünde öğrendi. | K3 |
 | Rıza'ya her şeyi anlat | Baba oğul bir hafta küs; Rıza borcun yarısını öder; bir kasa levrek gelir | +0 | 0 | Levrek kasası buzdolabına sığmaz: "Bir hafta balık yiyoruz. Maaşımdan düşmeyin." | Rıza Reis her şeyi benden duydu. Büro bir hafta balık koktu. | K4 |
 | Serkan'la anlaş, sessizce geri getir | Rıza'ya yalan; üç gün daha denize çıkamaz, ücretten 3.000 ₺ kırdırır | −3.000 | +1 | Serkan'ın omzuna vurur: "Cumartesi sabah. Bir dakika geç kalırsan baban da duyar, ben de." | Rıza Reis'e yalan söyledim. Tekne cumartesi döndü. | K5 |
 | Yapımcıya susmayı sat | Yapımcı 10.000 ₺ öder; Rıza üç gün denize çıkamaz | +10.000 | −1 | Yapımcıyı taklit edip güler, sonra boş iskeleye bakar, gülmeyi bırakır. | Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi. | K6 |
