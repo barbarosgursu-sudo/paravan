@@ -10,15 +10,19 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 2 | **Onay 1:** form | sahibi | "onay" |
 | 3 | **Diyalog** yazılır: her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu) | ben | otomatik denetimden geçer |
 | 4 | **Veri** hazırlanır | ben | otomatik denetimden geçer |
-| 5 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) | ben | — |
-| 6 | **Görseller** üretilir | sahibi | — |
-| 7 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi) | ben | her görsel gömülü |
-| 8 | **Oyun turu:** bütün yollar otomatik oynanır | ben | hata yok |
-| 9 | **Onay 2:** sahibi oynar, notlarını tek listede verir | sahibi | — |
-| 10 | **Düzeltme turu** (tek tur, aşağıdaki kurala göre) | ben | denetim + tur temiz |
-| 11 | **Vaka donar.** Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | — |
+| 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır | ben | hata yok |
+| 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
+| 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
+| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) | ben | — |
+| 9 | **Görseller** üretilir | sahibi | — |
+| 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi) | ben | her görsel gömülü |
+| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır | ben | hata yok |
+| 12 | **Onay 3 — görselli test:** sahibi oynar. **Yalnız görsellere** bakılır: metinle uyum, ifade, çekicilik | sahibi | notlar tek listede |
+| 13 | **Görsel düzeltmeleri** | ben + sahibi | — |
+| 14 | **Vaka donar.** Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | — |
 
-- Görseller 3. ve 4. adım geçmeden üretilmez.
+- **Görseller, hikâye donmadan (7. adım) üretilmez.**
+- Görselli testte hikâye değişmez; değişecekse forma dönülür ve etkilenen görseller listelenir.
 - Her adımın sonunda değişiklikler `main`'e gönderilir.
 
 ## Otomatik denetimler
@@ -64,8 +68,9 @@ Bir şey beğenilmezse değişiklik **doğru yerden** başlar:
 |---|---|
 | Form + onay | yarım gün |
 | Diyalog + veri + denetim | 1 gün |
+| Görselsiz test + hikâye düzeltmeleri | yarım–1 gün |
 | Görseller (25–35 adet) | 2–3 gün (sahibinin üretim hızına bağlı) |
-| Oyun testi + düzeltme | yarım–1 gün |
-| **Toplam** | **4–6 gün** |
+| Görselli test + düzeltme | yarım gün |
+| **Toplam** | **5–6 gün** |
 
 **Vaka 1'e özel:** motor işleri (Kim yaptı? ekranı, yüzleşme, para, kapanıştaki iki hâl, yeni denetimler) bir kez yapılır: **+2 gün.**
