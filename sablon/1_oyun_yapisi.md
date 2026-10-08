@@ -63,6 +63,7 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
   - Doğru kişi, zayıf kanıt → suçlu inkâr eder, sonra paniğe kapılıp kaçar.
   - Yanlış şüpheli 1 → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
   - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
+- **Yüzleşmenin yeri:** dört sahne de kovalamacanın başladığı yerde geçer. Şüpheli orada değilse yüzleşme telefonla ya da onu oraya getiren bir sebeple yapılır.
 - **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez.
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
