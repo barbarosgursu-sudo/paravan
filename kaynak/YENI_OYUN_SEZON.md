@@ -33,6 +33,17 @@ referans). **Azaltılmaz.** Kapalı yakalı bir parça (tayyör, kazak, gömlek)
 bile üst düğmeler açık, iç bluz aynı derinlikte çizilir. Her Peri görsel promptuna
 bu satır eklenir.
 
+**Çekicilik seviyesi (sahibinin kararı, 8 Ekim 2026) — yukarıdaki kuralın yerine geçer:**
+deneme setindeki seviye artık **taban**, tavan değil. Peri eski bir güzellik kraliçesi;
+güzel ve seksi görünmesi vakanın parçası.
+- **Serbest:** çekici, seksi, dar ve kısa kıyafet, derin dekolte, bacak, kışkırtıcı poz, flört.
+- **Hedef:** Google Play'in izin verdiği ve görsel üreticilerin üretebildiği **en yüksek** seviye.
+  ChatGPT reddederse Grok denenir.
+- **Kesin çizgi (değişmez):** çıplaklık yok, cinsel eylem yok. Cengo'nun kızı ve reşit olmayan
+  hiç kimse bu çerçeveye hiçbir zaman girmez.
+- **Bedeli:** Play yaş sınıflandırması büyük ihtimalle 16+ olur (yasak değil, kitle daralır).
+- Bu kural oyun yapım şablonunun kural kitabına taşınacak.
+
 **Peri'nin felaketi (sahibinin kararı, 6 Ekim 2026):** her vakada Peri'nin üstü başı
 bir şekilde berbat olur — bir kovalamaca, boğuşma ya da kaza; balık, çamur, boya, pasta,
 su… Zarif eski güzellik kraliçesinin en kötü anı, fiziksel komedi. Kurallar:
