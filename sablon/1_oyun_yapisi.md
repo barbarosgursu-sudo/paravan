@@ -72,6 +72,7 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 ## Karar
 
 - 4 seçenek vardır. Doğru ya da yanlış cevap yoktur.
+- **Kapı yok:** dört karar her zaman açıktır. Gerçek yüzleşmede ortaya çıktığı için hepsi seçilebilir. Araştırmanın karşılığı Kim yaptı? ekranındadır.
 - Her seçenek: eylem → sonuç → bedel.
 - Oyun oyuncuya not vermez.
 

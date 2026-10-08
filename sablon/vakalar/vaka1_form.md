@@ -232,7 +232,7 @@ Bunlar şablonu değiştirir; onayın gerekiyor.
 
 1. ✓ *Şablona işlendi.* **Yanlış kişi sahnesi iki tane.** Şablon "3 yüzleşme sahnesi" diyor ama iki yanlış şüpheli var: doğru, zayıf, yanlış-1, yanlış-2 = **4 sahne.**
 2. ✓ *Şablona işlendi.* **Yüzleşme yeri.** Yüzleşme, kovalamacanın başladığı yerde olmalı (yoksa kovalamaca görselleri tutmaz). Şablona kural olarak girsin.
-3. **Karar kapıları gereksiz.** Yüzleşmeden sonra gerçek hep ortada; dört karar her zaman açık. Şablona: "kararlarda kapı yok".
+3. ✓ *Şablona işlendi.* **Karar kapıları gereksiz.** Yüzleşmeden sonra gerçek hep ortada; dört karar her zaman açık. Şablona: "kararlarda kapı yok".
 4. **Ücret ile karar parası ayrı.** Ücret Kim yaptı?'nın sonucuna göre (35 / 30 / 20 bin), kararlar üstüne ekler ya da düşer. Şablona yazılsın.
 5. **Bağ eşiği.** Kapanıştaki iki hâl için sınır: bağ **+1 ve üstü yüksek**, altı düşük.
 6. **Açılış.** Şablon yalnız vakaları anlatıyor; sezon başındaki açılış (haciz) için bir satır gerekiyor: "Açılış vaka değildir, formun dışındadır."

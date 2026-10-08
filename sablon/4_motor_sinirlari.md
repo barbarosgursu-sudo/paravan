@@ -47,7 +47,8 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | 5 | **Kapanışta bağa göre iki hâl:** sahne satırının bağa göre değişmesi | 2. parça, kural 12a |
 | 6 | **Tohum sistemi kapanır** | 1. parça |
 | 7 | **Bedava ipucu kalkar** (motor zaten destekliyor; yalnız veri) | 1. parça |
-| 8 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
+| 8 | **Karar kapıları kapanır:** dört karar her zaman açık | 1. parça |
+| 9 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
 
 ---
 
