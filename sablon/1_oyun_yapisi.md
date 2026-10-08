@@ -8,7 +8,7 @@ Her vaka aynı sırayla oynanır. Bu sıra değişmez.
 2. **Konuşma:** Peri ile Cengo atışır, plan yapar.
 3. **Araştırma:** Oyuncu ipucu açar. Hakkı sınırlıdır.
 4. **Kim yaptı?:** Oyuncu suçluyu seçer ve iki kanıt gösterir.
-5. **Yüzleşme:** Seçime göre kısa bir sahne (3 türü var, aşağıda). Hepsinde gerçek suçlu kaçar.
+5. **Yüzleşme:** Seçime göre kısa bir sahne (4 tane, aşağıda). Hepsinde gerçek suçlu kaçar.
 6. **Kovalamaca:** Her durumda aynı.
 7. **Karar:** Oyuncu ne yapacağını seçer (ahlaki seçim).
 8. **Kapanış:** Kısa bir son sahne.
@@ -58,10 +58,11 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 | Yanlış kişi | Masum biri suçlanır. Ücretin büyük bir kısmı alınamaz. Gerçek yine ortaya çıkar. |
 
 - **Tek hak:** oyuncu bir kez suçlar.
-- **Yüzleşme sahneleri:** her vaka 3 kısa sahne yazar (4–6 replik):
+- **Yüzleşme sahneleri:** her vaka 4 kısa sahne yazar (4–6 replik):
   - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.
   - Doğru kişi, zayıf kanıt → suçlu inkâr eder, sonra paniğe kapılıp kaçar.
-  - Yanlış kişi → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
+  - Yanlış şüpheli 1 → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
+  - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
 - **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez.
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.

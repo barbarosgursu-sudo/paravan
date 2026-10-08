@@ -230,7 +230,7 @@ Büro (gündüz, pencere, akşam), koridor (akşam), iskele, çay ocağı, Bebek
 
 Bunlar şablonu değiştirir; onayın gerekiyor.
 
-1. **Yanlış kişi sahnesi iki tane.** Şablon "3 yüzleşme sahnesi" diyor ama iki yanlış şüpheli var: doğru, zayıf, yanlış-1, yanlış-2 = **4 sahne.**
+1. ✓ *Şablona işlendi.* **Yanlış kişi sahnesi iki tane.** Şablon "3 yüzleşme sahnesi" diyor ama iki yanlış şüpheli var: doğru, zayıf, yanlış-1, yanlış-2 = **4 sahne.**
 2. **Yüzleşme yeri.** Yüzleşme, kovalamacanın başladığı yerde olmalı (yoksa kovalamaca görselleri tutmaz). Şablona kural olarak girsin.
 3. **Karar kapıları gereksiz.** Yüzleşmeden sonra gerçek hep ortada; dört karar her zaman açık. Şablona: "kararlarda kapı yok".
 4. **Ücret ile karar parası ayrı.** Ücret Kim yaptı?'nın sonucuna göre (35 / 30 / 20 bin), kararlar üstüne ekler ya da düşer. Şablona yazılsın.
