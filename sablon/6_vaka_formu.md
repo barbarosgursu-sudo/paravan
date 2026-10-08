@@ -102,7 +102,7 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 
 ## 12. Kararlar (4)
 
-| karar | eylem → sonuç → bedel | karar parası (ücrete ek) | bağ | Cengo satırı | anı defteri | ara kare |
+| karar | kısa sonuç (karar ekranında, tek cümle) | eylem → sonuç → bedel | karar parası (ücrete ek) | bağ | Cengo satırı | anı defteri | ara kare |
 |---|---|---|---|---|---|---|
 
 - En az bir dürüst karar. Kirli karar biraz daha çok kazandırır.

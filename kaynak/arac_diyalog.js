@@ -4,7 +4,7 @@
 // değiştirmeden hikâyeyi değiştiremez").
 //
 // Kullanım:  cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md [V1]
-// Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,sonuc,cengo_sonuc}
+// Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,onizleme,sonuc,cengo_sonuc}
 //            yeni/kisiler.json    → defter.<vaka>.<karar>
 // Yapı (ipuçlarının açılma koşulu, olgular, Kim yaptı?) bu aracın işi değil; veride durur.
 // Ardından: node dogrulayici.js yeni
@@ -46,7 +46,7 @@ for (const ham of md) {
     continue;
   }
   if (hedef.tur === "karar") {
-    if ((m = s.match(/^\*\*(SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
+    if ((m = s.match(/^\*\*(ÖNİZLEME|SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
     else hatalar.push(`${satirNo}: karar bölümünde tanınmayan satır`);
     continue;
   }
@@ -85,8 +85,9 @@ K.defter = K.defter || {}; K.defter[vakaId] = {};
 for (const [id, h] of Object.entries(kararlar)) {
   const d = v.decisions.find(x => x.id === id);
   if (!d) { hatalar.push(`karar '${id}' veride yok`); continue; }
-  for (const alan of ["SONUÇ", "CENGO", "DEFTER"]) if (!h.metin[alan]) hatalar.push(`karar '${id}': ${alan} yok`);
+  for (const alan of ["ÖNİZLEME", "SONUÇ", "CENGO", "DEFTER"]) if (!h.metin[alan]) hatalar.push(`karar '${id}': ${alan} yok`);
   if (h.ayar.etiket) d.etiket = h.ayar.etiket;
+  d.onizleme = h.metin["ÖNİZLEME"];
   d.sonuc = h.metin["SONUÇ"];
   d.cengo_sonuc = [{ kosul: "varsayilan", metin: h.metin.CENGO }];
   K.defter[vakaId][id] = h.metin.DEFTER;

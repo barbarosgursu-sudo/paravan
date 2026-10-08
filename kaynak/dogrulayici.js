@@ -979,6 +979,7 @@ function kural19_kimYapti(game, hatalar) {
     if (dec.length !== 4) hatalar.push(`[K19] ${vaka.id}: ${dec.length} karar; şablon 4 ister.`);
     for (const d of dec) {
       if (d.gate !== "yok") hatalar.push(`[K19] ${vaka.id}/${d.id}: kararda kapı olmaz (gate: "yok").`);
+      if (typeof d.onizleme !== "string" || !d.onizleme.trim()) hatalar.push(`[K19] ${vaka.id}/${d.id}: karar ekranındaki kısa sonuç (onizleme) yok — kural 22a.`);
       if (d.seed_yaz && Object.keys(d.seed_yaz).length) hatalar.push(`[K19] ${vaka.id}/${d.id}: tohum yazılmaz (vakalar arası bağ yok).`);
     }
     if (Object.keys(vaka.seeds || {}).length) hatalar.push(`[K19] ${vaka.id}: vaka tohumu tanımlı; tohum yok.`);

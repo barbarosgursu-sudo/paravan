@@ -19,7 +19,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 8. **Atışma:** son sözü sırayla alırlar; her vakada ikisi de en az bir kez "kaybeder". Kavga işin üstündedir, kişiliğin değil.
 9. **İkisi de gerekli:** bazı ipuçlarını Peri'nin yolu (kural, kibarlık), bazılarını Cengo'nun yolu (tanıdık, kurnazlık) açar.
 10. **Kavuşmazlar.** Yakınlık sözde değil eylemde: bakış, yarım kalan laf, uzatılan ceket.
-11. **Cengo bağı görünmez.** Sayı, çubuk, alev ya da kelime olarak ekranda yer almaz.
+11. **Cengo bağının değeri görünmez.** Sayı, çubuk ya da alev olarak ekranda yer almaz. **İstisna (sahibinin kararı, 8 Ekim 2026):** karar ekranında her seçeneğin altında Cengo'nun **tavrı** yazılır ("Cengo'nun hoşuna gider" / "Cengo'yu ilgilendirmez" / "Cengo'nun hoşuna gitmez"); oyuncu yönü bilir, sayıyı bilmez.
 12a. **Bağ kapanışta görünür.** Her vakanın kapanış sahnesinde 2–3 replik bağa göre iki hâlde yazılır: düşükse soğuk, yüksekse sıcak. **Eşik:** bağ +1 ve üstü sıcak, 0 ve altı soğuk (kapanış anındaki bağ; kararın etkisi dahil).
 12. **Sıcaklık onay değildir.** Bağ yükseldikçe kirli bir karar Cengo'yu daha çok kırar.
 13. **Dördüncü duvar:** seyrek, ilk vakalarda yok; sonra vaka başına en çok bir kez, yalnız Cengo.
@@ -45,6 +45,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 ## E. Karar
 
 22. **Oyun not vermez.** Karar metni: eylem → sonuç → bedel. "Doğru olanı yaptın" gibi hüküm cümlesi yok.
+22a. **Oyuncu seçmeden önce sonucu bilir** (sahibinin kararı, 8 Ekim 2026). Karar ekranında her seçeneğin altında üç şey yazar: tek cümlelik kısa sonuç, kasaya girecek toplam para (ücret + karar parası) ve Cengo'nun tavrı (kural 11). Ayrıntı ve bedel seçimden sonra, sonuç ekranında anlatılır.
 23. **Cengo'nun tepkisi ahlaka değil duruma göredir.** Dört kararın Cengo satırları yan yana okununca "doğru cevap" çıkmamalı.
 
 ## F. Para

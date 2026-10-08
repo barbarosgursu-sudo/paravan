@@ -169,6 +169,7 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 3. ipucu
 | Yapımcıya susmayı sat | Yapımcı 10.000 ₺ öder; Rıza üç gün denize çıkamaz | +10.000 | −1 | Yapımcıyı taklit edip güler, sonra boş iskeleye bakar, gülmeyi bırakır. | Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi. | K6 |
 
 - **Eski metinden kalkanlar:** "Ücretin tamamı geldi" (ücret Kim yaptı?'ya bağlı); "Serkan sana bir iyilik borçlu" ve "yapımcının defterine not" (tohum yok); koşullu varyantlar (her karara tek metin).
+- **Kısa sonuçlar (karar ekranı, kural 22a):** sete götür → "Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir." · her şeyi anlat → "Tekne yarın döner. Baba oğul küser." · Serkan'la anlaş → "Rıza'ya yalan söylersin. Tekne üç gün sonra döner." · susmayı sat → "Yapımcı sana öder. Tekne üç gün sette kalır."
 - Cengo satırları yan yana: üçü espri, yalnız bağı düşüren kararda Cengo susar; "doğru cevap" çıkmaz.
 
 ## 13. Kapanış

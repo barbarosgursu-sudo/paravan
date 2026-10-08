@@ -470,11 +470,13 @@ function kararEkrani(){
   let h = ust() + '<div class="faz">';
   h += `<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>`;
   h += `<div class="uyari">Bu karar geri alınamaz.</div>`;
-  h += `<div class="ky-ucret">Vaka ücreti <b>${tl(ucret)}</b></div>`;
+  // Kural 22a: seçmeden önce kısa sonuç, kasaya girecek toplam ve Cengo'nun tavrı (kural 11: yön, sayı değil).
   for(const k of oyun.acikKararlar()){
-    const p = v6Karar(k.id).para || 0;
-    const ek = p ? `<span class="bedel"><b class="${p > 0 ? "kazanc" : "yok"}">${p > 0 ? "+" : ""}${tl(p)}</b></span>` : "";
-    h += `<div class="karar" onclick="kararVerFaz('${k.id}')"><div class="et">${vnHtml(k.etiket)}${ek}</div></div>`;
+    const d = v6Karar(k.id);
+    h += `<div class="karar" onclick="kararVerFaz('${k.id}')"><div class="et">${vnHtml(k.etiket)}</div>
+      ${d.onizleme ? `<div class="ky-onizleme">${vnHtml(d.onizleme)}</div>` : ""}
+      <div class="ky-alt"><span class="ky-kasa">Kasaya <b>${tl(ucret + (d.para || 0))}</b></span>
+      <span class="ky-cengo">${CENGO_TAVIR(d.cengoBag || 0)}</span></div></div>`;
   }
   h += '</div>';
   app.innerHTML = h; scrollUst();
@@ -512,6 +514,9 @@ kararVerFaz = function(id){
   h += `<button class="buton" onclick="vnKapanisOynat()">Devam et</button></div>`;
   app.innerHTML = h; scrollUst();
 };
+/* Kural 11 istisnası: karar ekranında Cengo'nun tavrı — yön, sayı değil. */
+const CENGO_TAVIR = b => b > 0 ? "Cengo'nun hoşuna gider" : b < 0 ? "Cengo'nun hoşuna gitmez" : "Cengo'yu ilgilendirmez";
+
 /* Cengo bağı ekranda görünmez: sayı, alev, kelime yok (kural kitabı 11). Bağ yalnız
    kapanışın iki hâlinde hissedilir (12a). Eski arayüzün göstergesi bu sayfada boş döner. */
 cengoGosterge = function(){ return ""; };

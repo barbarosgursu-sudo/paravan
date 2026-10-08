@@ -517,7 +517,8 @@
           ],
           "kare": "K3",
           "cengoBag": 1,
-          "para": 0
+          "para": 0,
+          "onizleme": "Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir."
         },
         {
           "id": "her_seyi_anlat",
@@ -532,7 +533,8 @@
           ],
           "kare": "K4",
           "cengoBag": 0,
-          "para": 0
+          "para": 0,
+          "onizleme": "Tekne yarın döner. Baba oğul küser."
         },
         {
           "id": "serkanla_anlas",
@@ -547,7 +549,8 @@
           ],
           "kare": "K5",
           "cengoBag": 1,
-          "para": -3000
+          "para": -3000,
+          "onizleme": "Rıza'ya yalan söylersin. Tekne üç gün sonra döner."
         },
         {
           "id": "susmayi_sat",
@@ -562,7 +565,8 @@
           ],
           "kare": "K6",
           "cengoBag": -1,
-          "para": 10000
+          "para": 10000,
+          "onizleme": "Yapımcı sana öder. Tekne üç gün sette kalır."
         }
       ],
       "seeds": {},

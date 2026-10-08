@@ -186,3 +186,8 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .ky-ozet .o{background:#fff;border:3px solid var(--gece);border-left:6px solid var(--simit);border-radius:12px;padding:10px 12px;font-size:15px}
 .ky-ucret{margin:6px 24px 4px;font-weight:700;color:var(--sonuk)}
 .ky-ucret b{color:var(--gece);font-size:17px;margin-left:6px}
+.ky-onizleme{margin-top:8px;font-size:15px;font-weight:600;color:var(--sonuk);line-height:1.4}
+.ky-alt{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:10px;padding-top:8px;border-top:1px solid #d9ccb0;font-size:14px}
+.ky-kasa{color:var(--sonuk);font-weight:700}
+.ky-kasa b{color:var(--gece);font-size:16px}
+.ky-cengo{color:var(--bogaz);font-weight:800}

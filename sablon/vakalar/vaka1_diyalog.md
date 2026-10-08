@@ -11,6 +11,7 @@
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
   `gir: serkan`, `cik`, `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
 - `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri
+  (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
 
 **Görselsiz test için yer tutucu:** Kemal Reis'in figürü yok, adıyla konuşur (ses).
@@ -223,6 +224,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar sete_gotur
 ⚙ etiket: Rıza Reis'i sete götür
 
+**ÖNİZLEME:** Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir.
 **SONUÇ:** Rıza Reis'i Bebek'e, sete götürdün. Çekimin ortasında tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanı herkesin önünde tarif etti; Rıza Reis oğlunun yaptığını kırk kişinin içinde öğrendi. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz.
 **CENGO:** Cengo bütün çekimi bir figüranın yanında ayakta izledi. Dönüşte "Bu dizinin en iyi bölümüydü" dedi.
 **DEFTER:** Rıza Reis teknesine sette kavuştu; oğlunun yaptığını herkesin önünde öğrendi.
@@ -230,6 +232,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar her_seyi_anlat
 ⚙ etiket: Rıza Reis'e her şeyi anlat
 
+**ÖNİZLEME:** Tekne yarın döner. Baba oğul küser.
 **SONUÇ:** Rıza Reis'e her şeyi anlattın: tekneyi, seti, oğlunu, cuma günkü borcu. Rıza Reis kasketini çıkardı, taktı, yine çıkardı. Ertesi sabah Nazlı iskeledeydi. Baba oğul bir hafta konuşmadı; sonra Rıza Reis borcun yarısını ödedi. Büroya bir kasa levrek geldi.
 **CENGO:** Cengo levrek kasasını büronun tek buzdolabına sığdırmaya çalıştı. Sığmadı. "Bir hafta balık yiyoruz" dedi. "Maaşımdan düşmeyin."
 **DEFTER:** Rıza Reis her şeyi benden duydu. Büro bir hafta balık koktu.
@@ -237,6 +240,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar serkanla_anlas
 ⚙ etiket: Serkan'la anlaş, tekneyi sessizce geri getir
 
+**ÖNİZLEME:** Rıza'ya yalan söylersin. Tekne üç gün sonra döner.
 **SONUÇ:** Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak, boyasını yapım sökecek. Rıza Reis'e "gençler almış, Bebek'te bırakmışlar, cumartesi getiriyorlar" dedin. İnanmadı, sormadı. Üç gün daha denize çıkamadı; teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı.
 **CENGO:** Cengo, Serkan'ın omzuna vurdu: "Cumartesi sabah. Bir dakika geç kalırsan baban da duyar, ben de."
 **DEFTER:** Rıza Reis'e yalan söyledim. Tekne cumartesi döndü.
@@ -244,6 +248,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 ## karar susmayi_sat
 ⚙ etiket: Yapımcıya susmayı sat
 
+**ÖNİZLEME:** Yapımcı sana öder. Tekne üç gün sette kalır.
 **SONUÇ:** Yapımcıyla bir "danışmanlık sözleşmesi" imzaladın. Konusu: dizinin "lüks yatının" boyanmış bir balıkçı teknesi olduğunu kimseye söylememek. Yapımcı on bin ödedi, hem de hızlı. Nazlı çekim bitene kadar sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Cumartesi teknesini iskelede, beyaz buldu.
 **CENGO:** Cengo yapımcının yüzünü taklit ederek on dakika güldü. Sonra pencereden boş iskeleye baktı ve gülmeyi bıraktı.
 **DEFTER:** Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi.

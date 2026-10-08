@@ -123,6 +123,10 @@ console.log("\n=== K19 Kim yaptı? ===");
   k("tek kanıt yolu → K19", hataVar(sessiz(g), "[K19]", "en az 2 yol"));
 }
 {
+  const g = kopya(G); delete v1(g).decisions[0].onizleme;
+  k("kısa sonucu olmayan karar → K19 (kural 22a)", hataVar(sessiz(g), "[K19]", "22a"));
+}
+{
   // Kural 21c: tek ipucunun kendi iki olgusunu doğru çift yap → yakalanmalı.
   const g = kopya(G); const c = v1(g).clues.find(x => (x.reveals || []).length >= 2);
   v1(g).kim_yapti.dogru_ciftler.push(c.reveals.slice(0, 2));
