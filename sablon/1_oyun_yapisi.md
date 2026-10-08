@@ -6,14 +6,17 @@ Her vaka aynı sırayla oynanır. Bu sıra değişmez.
 
 1. **Giriş:** Müşteri gelir, derdini anlatır.
 2. **Konuşma:** Peri ile Cengo atışır, plan yapar.
-3. **Araştırma:** Oyuncu ipucu açar. Hakkı sınırlıdır. Her vakada bir kovalamaca vardır.
+3. **Araştırma:** Oyuncu ipucu açar. Hakkı sınırlıdır.
 4. **Kim yaptı?:** Oyuncu suçluyu seçer ve iki kanıt gösterir.
-5. **Karar:** Oyuncu ne yapacağını seçer (ahlaki seçim).
-6. **Kapanış:** Kısa bir son sahne.
+5. **Yüzleşme:** Seçime göre kısa bir sahne (3 türü var, aşağıda). Hepsinde gerçek suçlu kaçar.
+6. **Kovalamaca:** Her durumda aynı.
+7. **Karar:** Oyuncu ne yapacağını seçer (ahlaki seçim).
+8. **Kapanış:** Kısa bir son sahne.
 
 ## Kovalamaca (her vakada, önemli)
 
 - Her vakada bir kovalamaca ya da arbede olur. Birkaç dakikalık fiziksel komedi.
+- **Yeri: Kim yaptı? ve yüzleşmeden sonra, karardan önce.** Kaçan hep gerçek suçludur; kovalamaca cevabı önceden ele vermez.
 - **Yazıyla değil görüntüyle** anlatılır: her vuruşun kendi ara karesi var (3–4 kare).
 - **Peri:** mümkün olduğunca **erotik ve kışkırtıcı pozlar** (çekicilik kuralının en üst seviyesi) **ve gülünç durumlar**. İkisi aynı karede. Peri gururunu korumaya çalışır.
 - **Peri'nin felaketi** burada olur: üstü başı bir şekilde berbat olur (balık, çamur, boya, su…). Felaket vakanın konusundan çıkar.
@@ -55,6 +58,10 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 | Yanlış kişi | Masum biri suçlanır. Ücretten büyük bir kesinti. Gerçek yine ortaya çıkar. |
 
 - **Tek hak:** oyuncu bir kez suçlar.
+- **Yüzleşme sahneleri:** her vaka 3 kısa sahne yazar (4–6 replik):
+  - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.
+  - Doğru kişi, zayıf kanıt → suçlu inkâr eder, sonra paniğe kapılıp kaçar.
+  - Yanlış kişi → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
 - **Bedel yalnız paradır** (müşteri ücretten keser).
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
