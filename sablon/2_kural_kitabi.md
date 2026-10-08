@@ -53,7 +53,8 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 25. **Her vakanın bir ücreti vardır;** kararlar ne kadar kazanılacağını değiştirir.
 26. **Kirli seçenek biraz daha çok kazandırır** (cazibe). Dürüst seçenek de kazandırır; fark küçüktür.
 27. **Biriken paranın amacı:** Vaka 7'de Peri'nin tacını geri almak.
-27b. **Her tutar gerçekçidir:** o yılın İstanbul fiyatları. Her vaka kendi fiyat tablosunu taşır.
+27b. **Her tutar gerçek hayata uygundur:** o yılın İstanbul fiyatları. Vaka ücreti, kararların getirdiği para ve metinde geçen her tutar (kira, balık, kiralama, rüşvet…) buna uyar.
+27c. **Her vakanın fiyat tablosu vardır:** metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır. Tabloda olmayan tutar metne giremez (denetimde kontrol edilir).
 
 ## G. Eski oyundan kalanlar
 
