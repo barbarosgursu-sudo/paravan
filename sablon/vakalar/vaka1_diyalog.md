@@ -87,9 +87,9 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 *Karaköy iskelesi. Nazlı'nın yeri boş; zincir yerinde.* {mekan}
 *Kilidi kırılmamış, zorlanmamış. Cengo kilide eğiliyor.* {kare: D2}
 **CENGO [kas]:** Bu anahtarla açılmış, sonra yeniden kilitlenmiş. Ya da benden iyi biri varmış; ona inanmam.
-*Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.*
+*Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.* {gir: kemal}
 **PERİ [normal]:** Kemal Reis?
-**KEMAL [normal]:** Ne olacak? {gir: kemal}
+**KEMAL [normal]:** Ne olacak?
 **PERİ [kas]:** Salı gece neredeydiniz?
 **KEMAL:** Teknemdeydim. Ne olacak?
 **CENGO [kas]:** Nazlı giderken?
@@ -111,8 +111,8 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık.
 **PERİ [sinirli]:** Hırsızı bulduk.
 **CENGO [kas]:** Hırsız kamera kurmaz.
-*Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.*
-**TUBA [normal]:** Tekne bizim, belgesi tamam. Çekimdeyiz, gidin. {gir: tuba}
+*Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba}
+**TUBA [normal]:** Tekne bizim, belgesi tamam. Çekimdeyiz, gidin.
 **PERİ [kas]:** Belgeyi görebilir miyim?
 **TUBA:** Çekimdeyiz dedim. {cik}
 **CENGO [kas]:** Belgesi o kadar tamam ki göstermeye kıyamıyor.
@@ -201,9 +201,9 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ Her sonuçta aynı. Peri erotik + gülünç, felaketi balık kasası; Serkan'ı şans yakalar.
 
 *Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.* {kare: K10}
-**CENGO [gulen]:** *(havadaki bir simidi yakalayıp ısırarak)* Ben kestirmeden!
-**PERİ [sinirli]:** Kestirme nereye çıkıyor?
-**CENGO:** *(uzaktan)* Bilmiyorum!
+**CENGO [gulen]:** *(havadaki bir simidi yakalayıp ısırarak)* Ben kestirmeden! {kare: K10}
+**PERİ [sinirli]:** Kestirme nereye çıkıyor? {kare: K10}
+**CENGO:** *(uzaktan)* Bilmiyorum! {kare: K10}
 *Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.* {kare: K11}
 **TEYZE:** O çarşaf yeni yıkandı!
 **PERİ [sinirli]:** *(çarşafın içinden)* Getireceğim!
@@ -271,7 +271,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 *Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.* {arka: A5b}
 **PERİ [sinirli]:** Bu kapı beni hiç sevmedi.
 **CENGO [gulen]:** Kapı kimseyi sevmez. Kilit sever.
-*Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor.*
+*Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor.* {kare: D1}
 *Teli kilitte bırakıyor. Peri'ye uzatmıyor.* {bag: dusuk}
 **CENGO [normal]:** Lazım olursa. {bag: dusuk}
 *Peri teli almıyor. Cengo dönünce kilitten çekip mantosunun cebine koyuyor.* {bag: dusuk}

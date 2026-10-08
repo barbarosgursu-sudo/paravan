@@ -238,9 +238,14 @@
               "m": "Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.",
               "kare": "K10"
             },
-            {"k": "cengo", "i": "gulen", "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!"},
-            {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?"},
-            {"k": "cengo", "m": "(uzaktan) Bilmiyorum!"},
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!",
+              "kare": "K10"
+            },
+            {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?", "kare": "K10"},
+            {"k": "cengo", "m": "(uzaktan) Bilmiyorum!", "kare": "K10"},
             {
               "k": "not",
               "m": "Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.",
@@ -300,7 +305,7 @@
             },
             {"k": "peri", "i": "sinirli", "m": "Bu kapı beni hiç sevmedi."},
             {"k": "cengo", "i": "gulen", "m": "Kapı kimseyi sevmez. Kilit sever."},
-            {"k": "not", "m": "Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor."},
+            {"k": "not", "m": "Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor.", "kare": "D1"},
             {"k": "not", "m": "Teli kilitte bırakıyor. Peri'ye uzatmıyor.", "bag": "dusuk"},
             {"k": "cengo", "i": "normal", "m": "Lazım olursa.", "bag": "dusuk"},
             {
@@ -382,10 +387,11 @@
               },
               {
                 "k": "not",
-                "m": "Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı."
+                "m": "Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.",
+                "gir": "kemal"
               },
               {"k": "peri", "i": "normal", "m": "Kemal Reis?"},
-              {"k": "kemal", "i": "normal", "m": "Ne olacak?", "gir": "kemal"},
+              {"k": "kemal", "i": "normal", "m": "Ne olacak?"},
               {"k": "peri", "i": "kas", "m": "Salı gece neredeydiniz?"},
               {"k": "kemal", "m": "Teknemdeydim. Ne olacak?"},
               {"k": "cengo", "i": "kas", "m": "Nazlı giderken?"},
@@ -427,8 +433,12 @@
               {"k": "boyaci", "m": "Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık."},
               {"k": "peri", "i": "sinirli", "m": "Hırsızı bulduk."},
               {"k": "cengo", "i": "kas", "m": "Hırsız kamera kurmaz."},
-              {"k": "not", "m": "Elinde üç telefonla bir kadın koşarak geliyor; herkes ona \"Tuba Hanım\" diyor."},
-              {"k": "tuba", "i": "normal", "m": "Tekne bizim, belgesi tamam. Çekimdeyiz, gidin.", "gir": "tuba"},
+              {
+                "k": "not",
+                "m": "Elinde üç telefonla bir kadın koşarak geliyor; herkes ona \"Tuba Hanım\" diyor.",
+                "gir": "tuba"
+              },
+              {"k": "tuba", "i": "normal", "m": "Tekne bizim, belgesi tamam. Çekimdeyiz, gidin."},
               {"k": "peri", "i": "kas", "m": "Belgeyi görebilir miyim?"},
               {"k": "tuba", "m": "Çekimdeyiz dedim.", "cik": true},
               {"k": "cengo", "i": "kas", "m": "Belgesi o kadar tamam ki göstermeye kıyamıyor."}
