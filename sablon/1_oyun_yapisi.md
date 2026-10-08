@@ -2,6 +2,10 @@
 
 Her vaka aynı sırayla oynanır. Bu sıra değişmez.
 
+## Sezon açılışı
+
+Oyunun en başındaki açılış (haciz, büro, Cengo) **vaka değildir**, vaka formunun dışındadır. Yalnız kural kitabına, kanon kaydına ve görsel sistemine uyar. Bir kez oynanır.
+
 ## Adımlar
 
 1. **Giriş:** Müşteri gelir, derdini anlatır.
