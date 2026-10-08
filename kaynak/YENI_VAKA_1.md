@@ -210,6 +210,64 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 | set | Mekân sorumlusu **Tuba** kiralamayı yaptı; yapımcı tekneyi sosyal medyada "gerçek lüks yat" diye tanıttı. |
 | plan | Serkan tekneyi cumartesi sabahı, boyası silinmiş olarak geri getirecekti. Babası çarşamba sabahı fark etti; Peri ile Cengo aynı gün devreye giriyor. |
 
+## ÖNERİ — Şüpheliler ve yanlış izler (8 Ekim 2026) ⚠ sahibinin onayı bekleniyor
+
+⚙ sahibinin notu: "Hafif bir vaka yapıyoruz ama bu dedektiflik yapmayacağımız anlamına
+gelmiyor. Oyuncunun kafasını karıştırabilecek durumlar olmalı." Bugünkü taslakta tek isim
+var (Serkan) ve oyun onu kendisi veriyor. Aşağıdakiler onaylanana kadar oyuna taşınmaz.
+
+**Yazarın gerçeği değişmiyor:** tekneyi Serkan götürdü. Eklenen her şey yanlış iz; hiçbiri
+sonradan "aslında o da" diye doğrulanmaz.
+
+**Yeni kanon (onay gereken):**
+
+| | |
+|---|---|
+| **Kemal Reis** | İskelede Nazlı'nın yanında bağlayan rakip balıkçı. Rıza Reis'le bağlama yeri yüzünden yıllardır kavgalı; geçen hafta yakalaştılar. Hırsız değil. |
+| Kemal'in gecesi | Salı gece çay ocağında okey oynuyordu. Gece yarısına doğru "tekneye bakıp geleyim" deyip yarım saat kayboldu: kendi teknesinin küpeştesini boyuyordu (gündüz balıkta, boyaya ancak gece vakti var). |
+| Beyaz boya | Kemal'in boyası da beyaz. Nazlı'yı sette boyatan Tuba'nın ekibi; iki beyaz arasında bağ yok. Tesadüf. |
+| Yedek anahtar | Rıza Reis yedeğin varlığını hatırlıyor ama "kaybolalı yıllar oldu" sanıyor (kanondaki "babası unutmuş" ile aynı gerçek, Rıza'nın ağzından). |
+
+**Oyuncunun kafasında şüphenin sırası:**
+1. **Kemal Reis**: Rıza'nın kendisi gösteriyor; fırsatı var (yarım saat), izi var (beyaz boya).
+2. **Dizi seti**: tekne orada, boyanmış; "set çalmış" demek kolay.
+3. **Serkan**: gerçek. Yakalanınca suçu Kemal'e atıyor.
+
+**Metindeki değişiklikler:**
+
+- **Giriş (Rıza):** "Teknemi aldılar" dedikten sonra eklenir:
+  > **RIZA REİS [ofkeli]:** Kemal'dir. Yanımda bağlar. Yirmi yıldır yerime göz diker; geçen hafta yakama yapıştı.
+  > **CENGO [kas]:** Kemal'in teknesi yerinde mi?
+  > **RIZA REİS:** Yerinde. Akıllı adam.
+
+  "Oğlum Serkan'a söylemeyin" **kalır**; artık Kemal'in gölgesinde bir veda sözü, oyunun tek iması değil.
+- **İ1 (Rıza, bedelsiz):** "Anahtar bende, boynumda. Bir de yedeği vardı; kaybolalı yıllar oldu." Yeni olgu: `yedek_kayip`: *Teknenin bir de yedek anahtarı varmış; Rıza Reis yıllardır kayıp sanıyor.*
+- **İ2 (çaycı, bedelsiz):** "Dümendeki genç" çıkar → "Dümendeki el salladı; karanlıktı, yüzünü seçemedim." Eklenir: "Kemal mi? Bütün gece burada okey oynadı. Yalnız gece yarısına doğru 'tekneye bakıp geleyim' dedi, yarım saat yoktu." Yeni olgu: `kemal_kayboldu`.
+- **İ3 (iskele, bedelsiz):** Eklenir: "Yan bağlamada Kemal Reis'in teknesi; küpeştesi taze beyaza boyanmış, boya kurumamış." Cengo: "Gece yarısı boya yapan adam ya çok çalışkandır ya bir şey saklıyordur." Yeni olgu: `kemal_boya`.
+- **İ4 (Bebek):** Tekne beyaza boyanmış hâlde bulununca:
+  > **PERİ [kas]:** Beyaz.
+  > **CENGO [kas]:** Kemal'in boyası da beyazdı.
+
+  Bir de set şüphesi: Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz."
+- **İ5 (Tuba):** "…boyamaya itiraz da etmedi" yerine "Boyayı bizim ekip yaptı, sahibi itiraz etmedi". Boya izini Kemal'den koparan cümle bu.
+- **İ6 (Serkan, yakalanınca):** "Ama kaybettim" dedikten sonra eklenir: "Kemal Reis bulmuştur! O babamın yerine göz dikti!" Cengo: "Kaybettiğin anahtar cebinde şarkı söylüyor." (mevcut satır) artık bir yalanın üstüne düşüyor.
+- **Yeni İ8, Kemal Reis'le konuşmak (bedelsiz, açılması `kemal_kayboldu`):** Kemal kaba, savunmada ve bir şey aydınlatmıyor:
+  > **KEMAL REİS:** Boyadım, ne olacak? Gündüz denizdeyim. Nazlı'yı ben ne yapayım? Rıza'ya sorun asıl; adamın kırk yerde borcu var.
+
+  Rıza'nın borcu **dedikodu, kanon değil**; hiçbir yerde doğrulanmaz, karar metinlerine girmez. Yeni olgu: `kemal_inkar`. İ8 bedelsiz, çünkü iskelede; böylece Kemal izi araştırma hakkını yemez ve K16 (kararsız yol) değişmez.
+
+**Kemal'in elenmesi:** tek bir cümleyle değil, Serkan izinin tamamlanmasıyla: Tuba boyayı
+kendileri yaptı der (İ5), ya da yedek anahtar Serkan'ın cebinden çıkar (İ6). Hiç biri
+açılmazsa Kemal şüphesi açık kalır. Bu bir ceza değil, kararlar yine açık.
+
+**Zincir defteri / çıkarımlar:** yeni çıkarım yok. Kemal olguları tahtada başıboş durur
+("?" kutusu ya da "eksik" işareti yok, sözleşme gereği). `calinmadi`'nın başlığı
+("Anahtarı olan biri çözüp Bebek'e götürmüş") Kemal'i ne suçlar ne aklar; `yedek_kayip`
+ile birlikte "yedek kimde?" sorusunu doğurur.
+
+**Bedel:** bir figür görseli (Kemal Reis, iskele); ara kare yok. `isimler`'e "Kemal" girer
+(K1 sızıntı denetimi). Kararlar, para ve bağ **değişmez**.
+
 ## Giriş
 
 ⚙ figürler: Peri, Cengo, Rıza Reis
