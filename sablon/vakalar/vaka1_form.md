@@ -221,16 +221,19 @@ Büro (gündüz, pencere, akşam), koridor (akşam), iskele, çay ocağı, Bebek
 - **Vaka kanonu:** Kemal Reis (öğleden sonra boyadı, gece branda örterken Serkan'ı gördü, sustu), Tuba, dizi seti, Serkan'ın borcu.
 - **Kalkanlar:** 5 tohum; ay sonu gideri; birikmiş kira (90.000 ₺).
 
-## 19. Kontrol
+## 19. Kontrol *(8 Ekim 2026, ikinci geçiş: 11 sorun bulundu, hepsi düzeltildi)*
 
-- [x] 3 şüpheli; Kemal ve Tuba'nın izi ve aklanması var
-- [x] Suçluyu kanıtlayan en az 2 yol var (3 yol)
+- [x] Giriş kurallarına uyuyor (Kemal anılıyor; suçlu ele verilmiyor; ücret sonda)
+- [x] 3 şüpheli; Kemal ve Tuba'nın izi ve aklanması var (Tuba 3. ipucunda şüpheli, 4.'de aklanır)
+- [x] Suçluyu kanıtlayan en az 2 yol var (3 yol; her dörtlü seçimde en az biri)
 - [x] Defter cümleleri suçluyu söylemiyor
-- [x] "Aha!" anı var (beyaz boya)
-- [x] Zaman çizelgesi tutarlı (Kemal gördü ve sustu)
+- [x] "Aha!" anı var; yanılgıya düşen tek hakla çözer (1 → 3)
+- [x] Zaman çizelgesi tutarlı (çaycı Bebek'i arkadaşından duyar; Kemal gece branda örter)
+- [x] İpucu adları sızdırmıyor
 - [x] Her tutar fiyat tablosunda
-- [x] En az bir dürüst karar var
-- [x] Yeni sezon kanonu yok
+- [x] En az bir dürüst karar var; kirli karar farkı küçük (10.000 ₺)
+- [x] Kararlarda tohum ve "ücretin tamamı" yok
+- [x] Vaka kanonu eklemeleri onaylandı (balıkçı arkadaş, Kemal alacaklı, branda, Tuba'nın tavrı)
 - [x] Kural kitabıyla çelişen bir şey yok
 
 ---
