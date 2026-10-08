@@ -164,7 +164,7 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 4. ipucu
 | Rıza'yı sete götür | Rıza çekimi basar, oğlunun adını kırk kişinin içinde duyar; tekne o akşam döner | +0 | +1 |
 | Rıza'ya her şeyi anlat | Baba oğul bir hafta küs; Rıza borcun yarısını öder; bir kasa levrek gelir | +0 | 0 |
 | Serkan'la anlaş, sessizce geri getir | Rıza'ya yalan; üç gün daha denize çıkamaz, ücretten 3.000 ₺ kırdırır | −3.000 | +1 |
-| Yapımcıya susmayı sat | Yapımcı 20.000 ₺ öder; Rıza üç gün denize çıkamaz | +20.000 | −1 |
+| Yapımcıya susmayı sat | Yapımcı 10.000 ₺ öder; Rıza üç gün denize çıkamaz | +10.000 | −1 |
 
 - Cengo satırları ve anı defteri notları mevcut metinden aynen.
 - Ara kareler mevcut (K3–K6).
@@ -205,12 +205,14 @@ Büro (gündüz, pencere, akşam), koridor (akşam), iskele, çay ocağı, Bebek
 | 35.000 ₺ | vaka ücreti | İstanbul'da 2 kişilik haftalık takip ≈ 75.000 ₺ (Milliyet, 2026); net asgari ücret 28.075 ₺ |
 | 35.000 ₺/gün, 3 gün = 105.000 ₺ | sete tekne kirası | **tahmin** (kaynak bulunamadı); yat kiralama bunun birkaç katı |
 | ~100.000 ₺ | Serkan'ın borcu | **tahmin:** birkaç aylık dükkân kirası + veresiye; kira geliriyle (105.000 ₺) kapanır |
-| 20.000 ₺ | yapımcının sus payı | hikâye içi; bir yapım için küçük |
+| 10.000 ₺ | yapımcının sus payı | hikâye içi; bir yapım için küçük; kural 26 (ücretin altında) |
 | 3.000 ₺ | Rıza'nın indirimi | hikâye içi |
 | 5.000 / 15.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 
-*Fiyatlar 8 Ekim 2026'da internetten kontrol edildi.*
 | ~5.000 ₺ | bir kasa levrek (10 kg) | markette 530–700 ₺/kg (Ağustos 2026), halde daha ucuz |
+| ~50.000 ₺ | Rıza'nın ödediği borcun yarısı | Serkan'ın borcunun yarısı; tutar metinde söylenmez, "yarısı" denir |
+
+*Fiyatlar 8 Ekim 2026'da internetten kontrol edildi.*
 
 ## 18. Kanon
 
