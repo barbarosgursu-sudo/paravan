@@ -203,15 +203,17 @@
           "satirlar": [
             {
               "k": "not",
-              "m": "Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş; Serkan kepengin önünde.",
-              "gir": "serkan"
+              "m": "Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.",
+              "gir": "kemal"
             },
             {"k": "peri", "i": "kas", "m": "Kemal Reis. Nazlı'yı siz aldınız."},
-            {"k": "kemal", "i": "ofkeli", "m": "Ben mi? Ben buraya alacağımı almaya geldim!", "gir": "kemal"},
+            {"k": "kemal", "i": "ofkeli", "m": "Ben mi? Ben buraya alacağımı almaya geldim!"},
             {"k": "kemal", "m": "Dümende Rıza'nın oğlu vardı. Gözümle gördüm!"},
             {"k": "cengo", "i": "kas", "m": "Gördün de sustun mu?"},
             {"k": "kemal", "m": "Rıza'ya mı söyleyecektim? Yakama yapışan adama?"},
-            {"k": "not", "m": "Herkes Serkan'a dönüyor. Serkan koşuyor.", "cik": true}
+            {"k": "not", "m": "Herkes kepengin önündeki Serkan'a dönüyor.", "gir": "serkan"},
+            {"k": "serkan", "i": "panik", "m": "Ben… bir şey yapmadım!"},
+            {"k": "not", "m": "Serkan koşuyor.", "cik": true}
           ]
         },
         "yuzlesme_tuba": {
