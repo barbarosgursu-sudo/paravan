@@ -54,15 +54,15 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 | seçim | sonuç |
 |---|---|
 | Doğru kişi, doğru kanıt | Suç kanıtlanır. |
-| Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz. Ücretten küçük bir kesinti. |
-| Yanlış kişi | Masum biri suçlanır. Ücretten büyük bir kesinti. Gerçek yine ortaya çıkar. |
+| Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz. Ücretin küçük bir kısmı alınamaz. |
+| Yanlış kişi | Masum biri suçlanır. Ücretin büyük bir kısmı alınamaz. Gerçek yine ortaya çıkar. |
 
 - **Tek hak:** oyuncu bir kez suçlar.
 - **Yüzleşme sahneleri:** her vaka 3 kısa sahne yazar (4–6 replik):
   - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.
   - Doğru kişi, zayıf kanıt → suçlu inkâr eder, sonra paniğe kapılıp kaçar.
   - Yanlış kişi → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
-- **Bedel yalnız paradır** (müşteri ücretten keser).
+- **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez.
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
 - **Oyun hiçbir durumda bitmez.**
@@ -89,8 +89,8 @@ Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır:
 
 ## Değişmez ilkeler
 
-- **Kaybetme yok.** Para bitse de oyun sürer.
-- **Para kirletmeye zorlamaz.** Her durumda en az bir dürüst seçenek açıktır.
+- **Kaybetme yok.** Kasa hiç eksiye düşmez; gider ve borç yok.
+- **Her durumda en az bir dürüst seçenek açıktır.**
 - **Her vakada bir "aha!" anı vardır:** oyuncuyu yanıltan bir iz ve onu çözen bir kanıt.
 
 ---

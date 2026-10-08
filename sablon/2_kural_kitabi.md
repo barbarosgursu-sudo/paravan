@@ -47,10 +47,13 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 
 ## F. Para
 
-24. **Kaybetme yok.** Kasa eksiye düşse de oyun sürer; para derdi atışma malzemesidir.
-25. **Dürüst yol ayakta tutar.** Her vakada en az bir dürüst karar kasayı eksiye düşürmez. Kirli yol biraz daha çok kazandırır.
-26. **Her vakanın sabit bir ücreti vardır.**
-27. **Her tutar gerçekçidir:** o yılın İstanbul fiyatları. Her vaka kendi fiyat tablosunu taşır.
+*(Sahibinin kararı, 8 Ekim 2026: para iyi hissettirmeli, hesap yaptırmamalı.)*
+
+24. **Para yalnız birikir.** Gider, kira, borç, taksit, faiz yok. Kasa hiç eksiye düşmez.
+25. **Her vakanın bir ücreti vardır;** kararlar ne kadar kazanılacağını değiştirir.
+26. **Kirli seçenek biraz daha çok kazandırır** (cazibe). Dürüst seçenek de kazandırır; fark küçüktür.
+27. **Biriken paranın amacı:** Vaka 7'de Peri'nin tacını geri almak.
+27b. **Her tutar gerçekçidir:** o yılın İstanbul fiyatları. Her vaka kendi fiyat tablosunu taşır.
 
 ## G. Eski oyundan kalanlar
 

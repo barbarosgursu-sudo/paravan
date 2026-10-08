@@ -20,7 +20,7 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | **Cengo'nun kızı** | 17. Annesiyle uzakta yaşıyor; Cengo uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. |
 | **Avukat** | Peri'yi dolandırıp kaçtı. Paravan'ı vergi için o kurdu, Cengo'yu bordroya o yazdı. Vaka 8'de döner. |
 | **Hilmi Bey** | İcra memuru, otuzlarında. Açılışta Peri'nin evini haczeder. Annesi bir zamanlar Peri'ye oy vermiş. |
-| **Ev sahibi** | Büronun ev sahibi. Avukattan kalan 3 aylık kira borcu: 90.000 ₺. Vaka 2'de kapıya gelir, sonra ara sıra döner. |
+| **Ev sahibi** | Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan saklanır. **Yalnız komedi:** parayı etkilemez. |
 | **Yan karakter** | Vaka 3'te gelir: pastanenin genç kadın çalışanı, yirmili yaşlarının ortasında. |
 
 ## Yerler
@@ -35,7 +35,7 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | nesne | bilinen |
 |---|---|
 | **Kırmızı manto** | Peri'nin evden çıkardığı tek giysi. |
-| **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar. |
+| **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; Peri onu **kasada biriken parayla** geri alabilir. |
 | **Büro anahtarı** | Peri'nin anahtarı kapıyı açmaz. |
 | **Tel** | Cengo'nun göğüs cebinde hep bir tel vardır. Kilit açar. |
 | **Bileklik** | Cengo'nun bileğinde renkli boncuklu ucuz bir bileklik: kızının. Vaka 6'ya kadar kimse sormaz. |
@@ -52,7 +52,7 @@ Her oyuncu için aynıdır; kararlar değiştirmez.
 | vaka | ne olur |
 |---|---|
 | Açılış | Haciz, taç gider, büro, Cengo. |
-| 2 | Ev sahibi gelir; kira borcu taksite bağlanır. |
+| 2 | Ev sahibi gelir (komedi). |
 | 3 | Yan karakter gelir. |
 | 4 | Dördüncü duvar ilk kez (yalnız Cengo, bir kez). |
 | 6 | Cengo'nun kızı ortaya çıkar. |
@@ -70,7 +70,7 @@ Her oyuncu için aynıdır; kararlar değiştirmez.
 
 ## Sahibine sorular
 
-1. **Taç ve para.** Vaka 7'de taç müzayedede. Peri onu kasadaki parayla mı alır (oyuncunun biriktirdiğine bağlı), yoksa sonuç sabit mi?
+1. ✓ *Karar: a (kasaya bağlı).* **Taç ve para.** Vaka 7'de taç müzayedede. Peri onu kasadaki parayla mı alır (oyuncunun biriktirdiğine bağlı), yoksa sonuç sabit mi?
    - a) Kasaya bağlı: oyuncu sezon boyu para biriktirmenin anlamını görür. *(önerim; para zaten vakalar arası taşınıyor)*
    - b) Sabit: her oyuncu için aynı.
-2. **Ev sahibi borcu.** Sezon belgesine göre Vaka 2'den itibaren ay sonu giderine taksit eklenir (15.000 ₺). Kalsın mı? *(önerim: kalsın; para baskısını sezon boyu canlı tutar)*
+2. ✓ *Karar: borç yok, ev sahibi yalnız komedi.* **Ev sahibi borcu.** Sezon belgesine göre Vaka 2'den itibaren ay sonu giderine taksit eklenir (15.000 ₺). Kalsın mı? *(önerim: kalsın; para baskısını sezon boyu canlı tutar)*
