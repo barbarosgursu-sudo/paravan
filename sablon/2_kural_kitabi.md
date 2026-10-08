@@ -20,7 +20,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 9. **İkisi de gerekli:** bazı ipuçlarını Peri'nin yolu (kural, kibarlık), bazılarını Cengo'nun yolu (tanıdık, kurnazlık) açar.
 10. **Kavuşmazlar.** Yakınlık sözde değil eylemde: bakış, yarım kalan laf, uzatılan ceket.
 11. **Cengo bağı görünmez.** Sayı, çubuk, alev ya da kelime olarak ekranda yer almaz.
-12a. **Bağ kapanışta görünür.** Her vakanın kapanış sahnesinde 2–3 replik bağa göre iki hâlde yazılır: düşükse soğuk, yüksekse sıcak.
+12a. **Bağ kapanışta görünür.** Her vakanın kapanış sahnesinde 2–3 replik bağa göre iki hâlde yazılır: düşükse soğuk, yüksekse sıcak. **Eşik:** bağ +1 ve üstü sıcak, 0 ve altı soğuk (kapanış anındaki bağ; kararın etkisi dahil).
 12. **Sıcaklık onay değildir.** Bağ yükseldikçe kirli bir karar Cengo'yu daha çok kırar.
 13. **Dördüncü duvar:** seyrek, ilk vakalarda yok; sonra vaka başına en çok bir kez, yalnız Cengo.
 

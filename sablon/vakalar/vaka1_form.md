@@ -234,6 +234,6 @@ Bunlar şablonu değiştirir; onayın gerekiyor.
 2. ✓ *Şablona işlendi.* **Yüzleşme yeri.** Yüzleşme, kovalamacanın başladığı yerde olmalı (yoksa kovalamaca görselleri tutmaz). Şablona kural olarak girsin.
 3. ✓ *Şablona işlendi.* **Karar kapıları gereksiz.** Yüzleşmeden sonra gerçek hep ortada; dört karar her zaman açık. Şablona: "kararlarda kapı yok".
 4. ✓ *Şablona işlendi.* **Ücret ile karar parası ayrı.** Ücret Kim yaptı?'nın sonucuna göre (35 / 30 / 20 bin), kararlar üstüne ekler ya da düşer. Şablona yazılsın.
-5. **Bağ eşiği.** Kapanıştaki iki hâl için sınır: bağ **+1 ve üstü yüksek**, altı düşük.
+5. ✓ *Şablona işlendi.* **Bağ eşiği.** Kapanıştaki iki hâl için sınır: bağ **+1 ve üstü yüksek**, altı düşük.
 6. **Açılış.** Şablon yalnız vakaları anlatıyor; sezon başındaki açılış (haciz) için bir satır gerekiyor: "Açılış vaka değildir, formun dışındadır."
 7. **İlk vakanın kıyafeti.** "Her vakada yeni kıyafet" kuralına istisna: Vaka 1 temel seti tanıtır.
