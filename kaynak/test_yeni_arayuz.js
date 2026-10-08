@@ -12,7 +12,7 @@ const S = G.kanon.sahne;
 
 let hata = 0;
 const k = (ad, ok, ayrinti) => { console.log((ok ? "✓ " : "✗ BAŞARISIZ ") + ad + (ok || !ayrinti ? "" : " — " + ayrinti)); if (!ok) hata++; };
-const var_ = a => M.dosyalar[a] || (M.takma && M.dosyalar[M.takma[a]]);
+const var_ = a => M.dosyalar[a] || (M.takma && M.dosyalar[M.takma[a]]) || (M.yer_tutucu || []).includes(a);
 
 console.log("=== Manifesto ↔ kanon.sahne ===");
 const eksikKod = [...S.arkalar, ...S.kareler].filter(a => !M.dosyalar[a]);
@@ -25,9 +25,12 @@ for (const [kim, f] of Object.entries(S.figurler)) {
     for (const i of ifadeler) { if (!var_(`${kim}.${set}.${i}`)) eksikSprite.push(`${kim}.${set}.${i}`); }
   else for (const i of f.ifadeler) if (!var_(`${kim}.${i}`)) eksikSprite.push(`${kim}.${i}`);
 }
-k("her figürün her ifadesinin sprite'ı ya da takması var", !eksikSprite.length, eksikSprite.join(", "));
+k("her figürün her ifadesinin sprite'ı, takması ya da yer tutucusu var", !eksikSprite.length, eksikSprite.join(", "));
 const yokDosya = Object.entries(M.dosyalar).filter(([, d]) => !fs.existsSync(path.join(__dirname, "yeni_gorsel", d))).map(([a]) => a);
 k("manifestodaki her dosya diskte", !yokDosya.length, yokDosya.join(", "));
+// Görsel gelince yer tutucu listeden silinmeli; ikisinde birden duran anahtar unutulmuş bir satırdır.
+const bayatYT = (M.yer_tutucu || []).filter(a => M.dosyalar[a]);
+k("yer tutucu listesinde görseli gelmiş anahtar yok", !bayatYT.length, bayatYT.join(", "));
 const gecersizTakma = Object.entries(M.takma || {}).filter(([a, h]) => a !== "_not" && !M.dosyalar[h]).map(([a]) => a);
 k("her takma gerçek bir sprite'a gidiyor", !gecersizTakma.length, gecersizTakma.join(", "));
 const yetim = [...(M.genis || []), ...(M.tam || [])].filter(a => !M.dosyalar[a]);

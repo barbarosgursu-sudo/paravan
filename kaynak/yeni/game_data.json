@@ -10,22 +10,22 @@
         "peri": {
           "setler": {
             "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac", "tac_sinirli", "aci"],
-            "manto": ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis", "merakli"],
+            "manto": ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis", "merakli", "aci"],
             "balikli": ["sinirli", "utanmis"]
           }
         },
         "cengo": {"ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak", "buyrun"]},
         "hilmi": {"ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"]},
         "riza": {"ad": "Rıza Reis", "ifadeler": ["normal", "dertli", "ofkeli"]},
-        "serkan": {"ad": "Serkan", "ifadeler": ["normal"]},
+        "serkan": {"ad": "Serkan", "ifadeler": ["normal", "panik"]},
         "tuba": {"ad": "Tuba", "ifadeler": ["normal"]},
-        "cayci": {"ad": "Çaycı", "ifadeler": ["normal"]}
+        "cayci": {"ad": "Çaycı", "ifadeler": ["normal"]},
+        "kemal": {"ad": "Kemal Reis", "ifadeler": ["normal", "ofkeli"]}
       },
       "sesler": {
         "ses": "Ses",
         "asistan": "Set asistanı",
         "teyze": "Teyze",
-        "kemal": "Kemal Reis",
         "boyaci": "Set boyacısı",
         "tuba_tel": "Tuba (telefonda)"
       },
@@ -180,6 +180,7 @@
             {"k": "serkan", "i": "normal", "m": "Ne diyorsunuz siz?"},
             {"k": "peri", "i": "kas", "m": "İki şey diyorum. İkisini de biliyorsunuz."},
             {"k": "cengo", "i": "kas", "m": "Baban da bilecek."},
+            {"k": "serkan", "i": "panik", "m": "Babam mı?"},
             {"k": "not", "m": "Serkan bir babasının iskelesine bakıyor, bir yola. Sonra koşuyor.", "cik": true}
           ]
         },
@@ -191,8 +192,9 @@
             {"k": "peri", "i": "normal", "m": "Tekneyi siz aldınız."},
             {"k": "serkan", "i": "normal", "m": "Ne kanıtınız var?"},
             {"k": "peri", "i": "utanmis", "m": "…Bir his."},
-            {"k": "serkan", "m": "His mi? Gidin işinize."},
-            {"k": "not", "m": "Cengo bir adım yaklaşıyor. Serkan paniğe kapılıp koşuyor.", "cik": true}
+            {"k": "serkan", "i": "normal", "m": "His mi? Gidin işinize.", "peri": "aci"},
+            {"k": "serkan", "i": "panik", "m": "(Cengo bir adım yaklaşınca) Yaklaşmayın!"},
+            {"k": "not", "m": "Serkan paniğe kapılıp koşuyor.", "cik": true}
           ]
         },
         "yuzlesme_kemal": {
@@ -205,7 +207,7 @@
               "gir": "serkan"
             },
             {"k": "peri", "i": "kas", "m": "Kemal Reis. Nazlı'yı siz aldınız."},
-            {"k": "kemal", "m": "Ben mi? Ben buraya alacağımı almaya geldim!"},
+            {"k": "kemal", "i": "ofkeli", "m": "Ben mi? Ben buraya alacağımı almaya geldim!", "gir": "kemal"},
             {"k": "kemal", "m": "Dümende Rıza'nın oğlu vardı. Gözümle gördüm!"},
             {"k": "cengo", "i": "kas", "m": "Gördün de sustun mu?"},
             {"k": "kemal", "m": "Rıza'ya mı söyleyecektim? Yakama yapışan adama?"},
@@ -383,13 +385,13 @@
                 "m": "Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı."
               },
               {"k": "peri", "i": "normal", "m": "Kemal Reis?"},
-              {"k": "kemal", "m": "Ne olacak?"},
+              {"k": "kemal", "i": "normal", "m": "Ne olacak?", "gir": "kemal"},
               {"k": "peri", "i": "kas", "m": "Salı gece neredeydiniz?"},
               {"k": "kemal", "m": "Teknemdeydim. Ne olacak?"},
               {"k": "cengo", "i": "kas", "m": "Nazlı giderken?"},
               {"k": "kemal", "m": "Nazlı'yı ben ne yapayım?"},
               {"k": "not", "m": "Fırçayı kovaya atıyor."},
-              {"k": "kemal", "m": "Hırsız arıyorsanız uzağa bakmayın."},
+              {"k": "kemal", "i": "ofkeli", "m": "Hırsız arıyorsanız uzağa bakmayın."},
               {"k": "cengo", "i": "kas", "m": "Bu bir itiraf mıydı, tavsiye mi?"},
               {"k": "peri", "i": "kas", "m": "Belki ikisi."}
             ]

@@ -47,7 +47,7 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
     if (!(await el.count())) { console.log('yok:', ad); continue; }
     if (await el.evaluate(e => e.classList.contains('yetersiz'))) { console.log('hak bitti:', ad); continue; }
     await el.click();
-    const s = await vnOyna('ipucu', ['Planlamıştım', 'Akşam yemeği', 'Çaycı hortumu', 'Bu sezonun']);
+    const s = await vnOyna('ipucu', ['Ne olacak?', 'Hırsız arıyorsanız', 'Bu sezonun']);
     await foto('kart'); await tasmaBak('kart');
     console.log('ipucu', ad, s, 'satır');
     await p.click('.buton:has-text("Araştırmaya dön")');
@@ -72,7 +72,7 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   await foto('kimyapti_onay');
   await p.click('.buton:has-text("Evet, suçla")');
   console.log('suçlama', secim.kim, secim.kanit.join('+'), '→', await p.evaluate(() => oyun.durum.aktif.suclama.sonuc));
-  console.log('yüzleşme+kovalamaca', await vnOyna('yuzlesme', ['Ben mi?', '(hoparlörden)', 'İki şey', 'Ne kanıtınız', 'Akşam yemeği']));
+  console.log('yüzleşme+kovalamaca', await vnOyna('yuzlesme', ['Ben mi?', 'His mi?', '(Cengo bir adım', 'Babam mı?', 'Akşam yemeği']));
   await foto('kararlar'); await tasmaBak('kararlar');
   // Batma uyarısı yeni oyunda yok (sahibinin kararı): karar ekranında ve şeritte aranır.
   const batma = await p.evaluate(() => /batars|açık verirsin|borca girersin|giderini karşılamıyor|kasa boş/.test(document.body.innerText));

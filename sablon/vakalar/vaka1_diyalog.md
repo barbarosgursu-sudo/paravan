@@ -14,9 +14,9 @@
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
 
-**Görselsiz test için yer tutucu:** Kemal Reis'in figürü yok, adıyla konuşur (ses).
-Serkan'ın panik ifadesi, Peri'nin mantolu "acı" ifadesi ve Cengo'nun yeni ifadeleri
-görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
+**Görselsiz test için yer tutucu:** görseli olmayan ifadeler (Kemal Reis'in ikisi, Serkan panik,
+Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
+(`gorseller.json` → `yer_tutucu`). Görsel gelince kutu kendiliğinden kalkar.
 
 ---
 
@@ -89,13 +89,13 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 **CENGO [kas]:** Bu anahtarla açılmış, sonra yeniden kilitlenmiş. Ya da benden iyi biri varmış; ona inanmam.
 *Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.*
 **PERİ [normal]:** Kemal Reis?
-**KEMAL:** Ne olacak?
+**KEMAL [normal]:** Ne olacak? {gir: kemal}
 **PERİ [kas]:** Salı gece neredeydiniz?
 **KEMAL:** Teknemdeydim. Ne olacak?
 **CENGO [kas]:** Nazlı giderken?
 **KEMAL:** Nazlı'yı ben ne yapayım?
 *Fırçayı kovaya atıyor.*
-**KEMAL:** Hırsız arıyorsanız uzağa bakmayın.
+**KEMAL [ofkeli]:** Hırsız arıyorsanız uzağa bakmayın.
 **CENGO [kas]:** Bu bir itiraf mıydı, tavsiye mi?
 **PERİ [kas]:** Belki ikisi.
 
@@ -160,6 +160,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 **SERKAN [normal]:** Ne diyorsunuz siz?
 **PERİ [kas]:** İki şey diyorum. İkisini de biliyorsunuz.
 **CENGO [kas]:** Baban da bilecek.
+**SERKAN [panik]:** Babam mı?
 *Serkan bir babasının iskelesine bakıyor, bir yola. Sonra koşuyor.* {cik}
 
 ## sahne yuzlesme_zayif
@@ -169,8 +170,9 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 **PERİ [normal]:** Tekneyi siz aldınız.
 **SERKAN [normal]:** Ne kanıtınız var?
 **PERİ [utanmis]:** …Bir his.
-**SERKAN:** His mi? Gidin işinize.
-*Cengo bir adım yaklaşıyor. Serkan paniğe kapılıp koşuyor.* {cik}
+**SERKAN [normal]:** His mi? Gidin işinize. {peri: aci}
+**SERKAN [panik]:** *(Cengo bir adım yaklaşınca)* Yaklaşmayın!
+*Serkan paniğe kapılıp koşuyor.* {cik}
 
 ## sahne yuzlesme_kemal
 ⚙ arka: A13 · figurler: peri, cengo, serkan
@@ -178,7 +180,7 @@ görsel adımında gelir; şimdilik mevcut ifadeler kullanıldı.
 
 *Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş; Serkan kepengin önünde.* {gir: serkan}
 **PERİ [kas]:** Kemal Reis. Nazlı'yı siz aldınız.
-**KEMAL:** Ben mi? Ben buraya alacağımı almaya geldim!
+**KEMAL [ofkeli]:** Ben mi? Ben buraya alacağımı almaya geldim! {gir: kemal}
 **KEMAL:** Dümende Rıza'nın oğlu vardı. Gözümle gördüm!
 **CENGO [kas]:** Gördün de sustun mu?
 **KEMAL:** Rıza'ya mı söyleyecektim? Yakama yapışan adama?

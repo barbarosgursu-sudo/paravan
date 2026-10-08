@@ -34,7 +34,6 @@
     "K12": "ara_k12_yakalama.webp",
     "K13": "ara_k13_anahtar.webp",
     "K14": "ara_k14_kristal.webp",
-
     "peri.manto.normal": "sprite/peri_manto_normal.webp",
     "peri.manto.kas": "sprite/peri_manto_kas.webp",
     "peri.manto.sinirli": "sprite/peri_manto_sinirli.webp",
@@ -68,29 +67,34 @@
     "tuba.normal": "figur_tuba.webp",
     "cayci.normal": "figur_cayci.webp"
   },
-  "takma": {
-    "_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır (Cengo'nun sinirli ifadesi henüz çekilmedi).",
-    "cengo.sinirli": "cengo.normal"
-  },
-  "genis": ["peri.mantosuz.sinirli", "peri.balikli.sinirli", "peri.balikli.utanmis", "peri.mantosuz.cay", "peri.mantosuz.tac_sinirli"],
+  "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
+  "genis": [
+    "peri.mantosuz.sinirli",
+    "peri.balikli.sinirli",
+    "peri.balikli.utanmis",
+    "peri.mantosuz.cay",
+    "peri.mantosuz.tac_sinirli"
+  ],
   "tam": ["K9"],
-  "boy": { "riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.9, "cayci": 0.82 },
+  "boy": {"riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.9, "cayci": 0.82, "kemal": 0.95},
   "arka": {
-    "A1": { "ad": "Nişantaşı · salon", "grup": "salon_sabah" },
-    "A2": { "ad": "Nişantaşı · salon", "grup": "salon_sabah" },
-    "A3": { "ad": "Nişantaşı · öğle", "grup": "salon_ogle" },
-    "A3b": { "ad": "Nişantaşı · öğle", "grup": "salon_ogle" },
-    "A4": { "ad": "Karaköy · han", "grup": "han_giris" },
-    "A5": { "ad": "Han · koridor", "grup": "koridor_gunduz" },
-    "A5b": { "ad": "Han · koridor, akşam", "grup": "koridor_aksam", "aksam": true },
-    "A6": { "ad": "Büro · gündüz", "grup": "buro_gunduz" },
-    "A7": { "ad": "Büro · pencere", "grup": "buro_gunduz" },
-    "A8": { "ad": "Büro · akşam", "grup": "buro_aksam", "aksam": true },
-    "A9": { "ad": "Karaköy · iskele", "grup": "iskele" },
-    "A10": { "ad": "Karaköy · çay ocağı", "grup": "iskele" },
-    "A11": { "ad": "Bebek · dizi seti", "grup": "bebek" },
-    "A12": { "ad": "Bebek · set arkası", "grup": "bebek" },
-    "A13": { "ad": "Karaköy · ara sokak", "grup": "sokak" },
-    "A14": { "ad": "Karaköy · dükkânın içi", "grup": "dukkan" }
-  }
+    "A1": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
+    "A2": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
+    "A3": {"ad": "Nişantaşı · öğle", "grup": "salon_ogle"},
+    "A3b": {"ad": "Nişantaşı · öğle", "grup": "salon_ogle"},
+    "A4": {"ad": "Karaköy · han", "grup": "han_giris"},
+    "A5": {"ad": "Han · koridor", "grup": "koridor_gunduz"},
+    "A5b": {"ad": "Han · koridor, akşam", "grup": "koridor_aksam", "aksam": true},
+    "A6": {"ad": "Büro · gündüz", "grup": "buro_gunduz"},
+    "A7": {"ad": "Büro · pencere", "grup": "buro_gunduz"},
+    "A8": {"ad": "Büro · akşam", "grup": "buro_aksam", "aksam": true},
+    "A9": {"ad": "Karaköy · iskele", "grup": "iskele"},
+    "A10": {"ad": "Karaköy · çay ocağı", "grup": "iskele"},
+    "A11": {"ad": "Bebek · dizi seti", "grup": "bebek"},
+    "A12": {"ad": "Bebek · set arkası", "grup": "bebek"},
+    "A13": {"ad": "Karaköy · ara sokak", "grup": "sokak"},
+    "A14": {"ad": "Karaköy · dükkânın içi", "grup": "dukkan"}
+  },
+  "yer_tutucu": ["kemal.normal", "kemal.ofkeli", "serkan.panik", "peri.manto.aci", "cengo.sinirli"],
+  "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir."
 }

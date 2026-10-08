@@ -33,6 +33,7 @@ const gorselveri = !YENI ? fs.readFileSync("_gomulu_gorseller.js","utf-8") : (()
     harita[anahtar] = "data:image/webp;base64," + fs.readFileSync(yol).toString("base64");
   }
   const { dosyalar, _not, ...ayar } = yeniManifesto;
+  if ((ayar.yer_tutucu || []).length) console.log(`  ⚠ yer tutucu: ${ayar.yer_tutucu.length} görsel henüz yok (${ayar.yer_tutucu.join(", ")})`);
   return "const GORSELLER=" + JSON.stringify(harita) + ";const YENI_GORSEL=" + JSON.stringify(ayar) + ";";
 })();
 

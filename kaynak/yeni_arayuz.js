@@ -26,6 +26,14 @@ function vnGorsel(anahtar){
   const t = (YG.takma||{})[anahtar];
   return t ? GORSELLER[t] || null : null;
 }
+/* Yer tutucu: görseli henüz üretilmemiş ifade (manifesto 'yer_tutucu'). Görselsiz testte
+   figürün yerinde adı ve ifadesi yazılı gri bir kutu durur; sessizce başka bir sprite'a
+   düşmez, yoksa test eden kişi eksik görseli fark etmez. */
+function vnYerTutucu(anahtar, kim){
+  const p = anahtar.split("."), i = p[p.length - 1];
+  const ad = { ofkeli: "öfkeli", aci: "acı", utanmis: "utanmış", sasirmis: "şaşırmış", merakli: "meraklı", gulen: "gülen", yumusak: "yumuşak" }[i] || i;
+  return `<div class="vn-yer-tutucu"><b>${vnHtml(vnAd(kim))}</b><span>${vnHtml(ad)}</span><em>görsel yok</em></div>`;
+}
 function vnAd(k){
   if(k === "peri") return "Peri";
   if(k === "cengo") return "Cengo";
@@ -148,9 +156,10 @@ function vnFigurCiz(satir){
   sol.hidden = !periVar;
   if(periVar){
     const anahtar = "peri." + vn.set + "." + (vn.ifade.peri || "normal");
+    const yt = !vnGorsel(anahtar) && (YG.yer_tutucu||[]).includes(anahtar);
     const src = vnGorsel(anahtar) || vnGorsel("peri." + vn.set + "." + SAHNE_KANON.figurler.peri.setler[vn.set][0]);
     const genis = (YG.genis||[]).includes(anahtar) ? ' class="genis"' : "";
-    if(sol.dataset.src !== anahtar){ sol.innerHTML = src ? `<img${genis} alt="Peri" src="${src}">` : ""; sol.dataset.src = anahtar; }
+    if(sol.dataset.src !== anahtar){ sol.innerHTML = yt ? vnYerTutucu(anahtar, "peri") : src ? `<img${genis} alt="Peri" src="${src}">` : ""; sol.dataset.src = anahtar; }
   }
   // Sağdaki: Cengo ya da konuk
   const kim = vn.sag && vn.mevcut.has(vn.sag) ? vn.sag : null;
@@ -162,7 +171,7 @@ function vnFigurCiz(satir){
       const olcek = (YG.boy||{})[kim] || 1;
       // Küçük figür tabana oturur: kesik alt kenarı sahnenin altında kalmalı, havada değil.
       const stil = olcek < 1 ? ` style="position:absolute;left:0;bottom:0;height:${olcek*100}%"` : "";
-      sag.innerHTML = src ? `<img alt="${vnHtml(vnAd(kim))}"${stil} src="${src}">` : "";
+      sag.innerHTML = src ? `<img alt="${vnHtml(vnAd(kim))}"${stil} src="${src}">` : vnYerTutucu(anahtar, kim);
       sag.dataset.src = anahtar;
     }
   }
