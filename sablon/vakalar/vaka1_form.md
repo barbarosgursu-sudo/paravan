@@ -48,9 +48,9 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
   - Giderken: "Oğlum Serkan'a söylemeyin. Üzülür."
 - **Ne saklıyor:** Hiçbir şey. Yedek anahtarı oğluna verdiğini unutmuş.
 - **Adı anılan şüpheli:** Kemal.
-- **Ücret konuşması:** *(öneri)* Rıza parayı tomar hâlinde masaya koyar: 35.000 ₺. Peri saymadan kabul eder; Cengo sayar.
-- **Çekicilik anı:** *(öneri)* Peri mantoyu çıkarıp askıya asar; Rıza gözünü kaçırır, "Kızım, sen o yarışmadaki değil misin?" der.
-- **Espri:** *(öneri)* Cengo: "Yarışmayı hatırlayan son seyirci de bulundu."
+- **Ücret konuşması:** Rıza parayı tomar hâlinde masaya koyar: 35.000 ₺. Peri saymadan kabul eder; Cengo sayar.
+- **Çekicilik anı:** Peri mantoyu çıkarıp askıya asar; Rıza gözünü kaçırır, "Kızım, sen o yarışmadaki değil misin?" der.
+- **Espri:** Cengo: "Yarışmayı hatırlayan son seyirci de bulundu."
 - **Nasıl bitiyor:** İş kabul; ilk gidilecek yer Karaköy iskelesi.
 
 ## 4. Şüpheliler
