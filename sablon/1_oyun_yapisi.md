@@ -11,6 +11,16 @@ Her vaka aynı sırayla oynanır. Bu sıra değişmez.
 5. **Karar:** Oyuncu ne yapacağını seçer (ahlaki seçim).
 6. **Kapanış:** Kısa bir son sahne.
 
+## Kovalamaca (her vakada, önemli)
+
+- Her vakada bir kovalamaca ya da arbede olur. Birkaç dakikalık fiziksel komedi.
+- **Yazıyla değil görüntüyle** anlatılır: her vuruşun kendi ara karesi var (3–4 kare).
+- **Peri:** mümkün olduğunca **erotik ve kışkırtıcı pozlar** (çekicilik kuralının en üst seviyesi) **ve gülünç durumlar**. İkisi aynı karede. Peri gururunu korumaya çalışır.
+- **Peri'nin felaketi** burada olur: üstü başı bir şekilde berbat olur (balık, çamur, boya, su…). Felaket vakanın konusundan çıkar.
+- Cengo da en az bir kez komik duruma düşer. Denge serbest.
+- Kaçanı beceri değil **şans** yakalar.
+- Sınır: çıplaklık ve cinsel eylem yok; acı, tehlike, aşağılanma yok.
+
 ## Oyuncunun çözdüğü şey
 
 **Kim yaptı, nasıl biliyorum?**
