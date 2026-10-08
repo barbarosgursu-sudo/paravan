@@ -59,7 +59,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 |---|---|---|---|
 | Kim | Rıza'nın oğlu, 30'larında, dükkânı batmış | rakip balıkçı, 50'lerinde, iri, ters | setin mekân sorumlusu, elinde üç telefon |
 | Şüpheli gösteren iz | yedek anahtar onda, boynunda set kartı, borcu var | Rıza suçluyor; tam o saatte yarım saat kayıp; elleri beyaz boyalı | tekne onların setinde, beyaza boyanmış, "lüks yat" diye tanıtılıyor |
-| Aklayan kanıt | — | set ekibi boyadı ("Boyayı biz yaptık"); anahtar Serkan'da | "Kiraladık, nakit; sahibiyim diyen Serkan" |
+| Aklayan kanıt | — | set ekibi boyadı (3. ipucu, boyacı); anahtar Serkan'da | "Kiraladık, nakit; sahibiyim diyen Serkan" |
 | O gece gerçekte | tekneyi götürdü | kendi teknesini boyadı, Serkan'ı gördü, sustu | sette, tekneyi teslim aldı |
 | Görünüşü | mevcut figür | **yeni figür:** 50'lerinde, iri, bıyıksız, kara-kır sakal, lastik önlük, elleri beyaz boyalı | mevcut figür |
 
@@ -76,7 +76,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 | nazli_izi | Boyanın altından teknenin adı seçiliyor: Nazlı. | Bebek |
 | yat_tanitimi | Dizi tekneyi "gerçek bir lüks yat" diye tanıtıyor. | Bebek |
 | kiralayan_serkan | Tekneyi sete Serkan adında biri, sahibi gibi kiralamış. | Tuba |
-| set_boyadi | Nazlı'yı set ekibi boyamış. | Tuba |
+| set_boyadi | Nazlı'yı set ekibi boyamış ("Dün gece geldi, sabah biz boyadık"). | Bebek |
 | serkan_anahtar | Serkan'da teknenin yedek anahtarı var; "kaybettim" diyor, cebi şıngırdıyor. | Serkan'ın dükkânı |
 | serkan_yaka_karti | Serkan'ın boynunda dizi setinin yaka kartı var, saklıyor. | Serkan'ın dükkânı |
 | serkan_borc | Serkan'ın cuma ödemesi gereken ~100.000 ₺ borcu var. | Serkan'ın dükkânı |
@@ -87,15 +87,15 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 |---|---|---|---|---|---|
 | 1 | Çaycıyla konuşmak | çay ocağı | koşulsuz | bebek_yonu, kemal_kayboldu | Cengo (çaycı ona borçlu) |
 | 2 | İskele ve Kemal Reis | iskele | koşulsuz | kilit_saglam, kemal_boya, kemal_inkar | Peri (gözlem, sorgu) |
-| 3 | Bebek'teki beyaz tekne | Bebek | bebek_yonu | set_teknesi, nazli_izi, yat_tanitimi | Peri ("Beni tanırlar") |
-| 4 | Setin sorumlusuyla konuşmak | set arkası | set_teknesi | kiralayan_serkan, set_boyadi | Cengo (yemek masasından sızar) |
+| 3 | Bebek'teki beyaz tekne | Bebek | bebek_yonu | set_teknesi, nazli_izi, yat_tanitimi, set_boyadi | Peri ("Beni tanırlar") |
+| 4 | Setin sorumlusuyla konuşmak | set arkası | set_teknesi | kiralayan_serkan | Cengo (yemek masasından sızar) |
 | 5 | Serkan'ı bulmak | Karaköy, kapalı dükkân | koşulsuz (Rıza adını verdi) | serkan_anahtar, serkan_yaka_karti, serkan_borc | Peri + Cengo |
 
 **Sahne özetleri**
 1. Çaycı Cengo'ya üç bardak çay borcunu ödeyip anlatır: tekne Boğaz'a gitti; sabah Bebek'teki balıkçı arkadaşı aradı, "Nazlı'ya benzer, ama beyaz bir tekne var." Cengo: "Kemal o gece neredeydi?"
 2. Zincir yerinde, kilit sağlam. Yan bağlamada Kemal, elleri beyaz. Kaba ve savunmada: "Hırsız arıyorsanız uzağa bakmayın." Cengo: "İtiraf mıydı, tavsiye mi?" Peri: "Belki ikisi."
-3. Peri sete "eski ünlü" diye girmeye çalışır, figüran sanılır. Tekne sette, beyaz, adı boyanın altında. Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz."
-4. Cengo yemek masasından Tuba'ya ulaşır. Tuba: "Kiraladık, nakit, sahibi Serkan. Boyayı biz yaptık."
+3. Peri sete "eski ünlü" diye girmeye çalışır, figüran sanılır. Tekne sette, beyaz, adı boyanın altında. Yanında set boyacısı (figürsüz ses): "Dün gece geldi, sabah biz boyadık." Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz."
+4. Cengo yemek masasından Tuba'ya ulaşır. Tuba: "Kiraladık, nakit, sahibi Serkan."
 5. Serkan kapalı dükkânın önünde; konuyu değiştirir. Yaka kartını saklar. "Yedek anahtar bende ama kaybettim; Kemal bulmuştur!" Cebi şıngırdar. Kapıda borç notu: "Cuma ya para ya anahtar."
    *(Kovalamaca artık burada değil; Kim yaptı?'dan sonra.)*
 
@@ -127,7 +127,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 ## 9. "Aha!" anı
 
 - **Yanıltan iz:** Kemal'in beyaz boyalı elleri + sette beyaza boyanmış tekne → "Kemal boyadı!"
-- **Çözen kanıt:** Tuba: "Boyayı bizim ekip yaptı." Kemal'in boyası kendi teknesine.
+- **Çözen kanıt:** 3. ipucunda set boyacısı: "Sabah biz boyadık." Kemal'in boyası kendi teknesine. (1 → 3 zinciriyle, tek hakla ulaşılır.)
 
 ## 10. Kim yaptı? ve yüzleşme
 
