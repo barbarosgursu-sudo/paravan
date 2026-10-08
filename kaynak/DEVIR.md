@@ -22,6 +22,9 @@
   formdaki 5'e değil eski 7'ye göre. Bunlar diyalog adımının işi.
 - **Diyalog yazıldı (8 Ekim):** `sablon/vakalar/vaka1_diyalog.md` tek kaynak; `arac_diyalog.js`
   veriye yazar. 5 ipucu / 4 hak, bedava yok; Kemal figürsüz (ses). Altı yol turda temiz.
+- **Onay 2 sürüyor (8 Ekim):** sahibinin notlarıyla yapılanlar — kural 21c (tek ipucu suçluyu
+  göstermez; Tuba ad vermez, Serkan sakin), kural 22a (karar ekranında kısa sonuç, kasaya giden,
+  Cengo'nun tavrı, ücret kesintisinin sebebi), eksik görsellere gri yer tutucu (`yer_tutucu`).
 - **Sıradaki iş: Onay 2** — sahibi görselsiz oynar (bakılan: hikâye anlaşılıyor mu, bulmaca,
   Kim yaptı? keyifli mi, espriler, süre). Notlar değişiklik kuralına göre sınıflanır.
 - Tur: `node arac_yeni_tur.js [karar] [set|dukkan] [dogru|zayif|kemal|tuba]`.
