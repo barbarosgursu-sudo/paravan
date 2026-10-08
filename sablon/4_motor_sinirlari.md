@@ -51,6 +51,24 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | 9 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
 | 10 | **Giriş denetimi (doğrulayıcıda K17):** büro, 15–25 replik, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
 
+## K17: giriş denetimi (tasarım)
+
+`dogrulayici.js`'e eklenir, yalnız yeni oyunda çalışır. Giriş sahnesine bakar:
+
+| # | ne | nasıl |
+|---|---|---|
+| 1 | Büro | arka plan, kanondaki büro görselleri listesinde mi |
+| 2 | Uzunluk | 15–25 replik |
+| 3 | Şüpheli | vakanın şüpheliler listesinden en az bir ad metinde geçiyor |
+| 4 | Ücret | vakanın ücreti (ör. "35.000") metinde geçiyor |
+| 5 | Sızıntı | ipucu olgularının anahtar kelimeleri metinde **geçmiyor** |
+
+- **Veriye iki yeni alan:** vaka başına `supheliler` (üç ad); her ipucu olgusuna 1–3 `anahtar` kelime.
+- Arama `toLocaleLowerCase("tr")` ile (Türkçe İ).
+- Biri tutmazsa **hata**: derleme durur.
+- `test_bozuk.js`'e bozuk bir giriş eklenir; doğrulayıcının durdurduğu görülür.
+- **Sınır:** 5. madde kelime arar; dolaylı ele vermeyi yakalayamaz. O, Onay 2'de sahibinde.
+
 ---
 
 ## Sahibine sorular
