@@ -26,9 +26,10 @@ Açılış (haciz, büro, Cengo) bu formun dışında; o bölüm hazır.
 | zaman | Serkan | Kemal Reis | Tuba (set) | çaycı |
 |---|---|---|---|---|
 | Pazartesi | Tuba'yla anlaşır | — | kiralamayı yapar | — |
+| Salı öğleden sonra | — | kendi teknesinin küpeştesini beyaza boyar | — | — |
 | Salı 23.00 | evde | ocakta okey oynuyor | setin hazırlığı | ocakta |
-| Salı 23.40 | iskeleye gelir | "tekneye bakayım" der, kalkar; kendi teknesinin küpeştesini beyaza boyar | — | ocakta |
-| Salı 00.00 | anahtarla zinciri açıp kilitler, Nazlı'yı çalıştırır, çaycıya el sallar | yan teknede boya yapıyor; **Serkan'ı görür, susar** (Rıza'yla kavgalı) | — | motoru duyar, teknenin Boğaz'a gittiğini görür, el sallayanın yüzünü seçemez |
+| Salı 23.40 | iskeleye gelir | "tekneye bakayım" der, kalkar: yağmur bekleniyor, taze boyanın üstüne branda örtmeye gider | — | ocakta |
+| Salı 00.00 | anahtarla zinciri açıp kilitler, Nazlı'yı çalıştırır, çaycıya el sallar | yan teknede branda örtüyor; **Serkan'ı görür, susar** (Rıza'yla kavgalı) | — | motoru duyar, teknenin Boğaz'a gittiğini görür, el sallayanın yüzünü seçemez |
 | Salı 00.10 | Bebek'e gider | okeye döner | — | — |
 | Çarşamba sabah | karadan Karaköy'e döner | teknesinde, elleri boyalı | ekip Nazlı'yı beyaza boyar | Bebek'teki balıkçı arkadaşı arar: "Nazlı'ya benzer bir tekne var, ama beyaz." |
 | Çarşamba öğlen | dükkânın önünde, boynunda set kartı | iskelede | çekim başlar | — |
@@ -60,7 +61,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 | Kim | Rıza'nın oğlu, 30'larında, dükkânı batmış | rakip balıkçı, 50'lerinde, iri, ters; Serkan'ın dükkânına veresiye balık vermiş, alacaklı | setin mekân sorumlusu, elinde üç telefon |
 | Şüpheli gösteren iz | yedek anahtar onda, boynunda set kartı, borcu var | Rıza suçluyor; tam o saatte yarım saat kayıp; elleri beyaz boyalı | tekne onların setinde, beyaza boyanmış, "lüks yat" diye tanıtılıyor |
 | Aklayan kanıt | — | set ekibi boyadı (3. ipucu, boyacı); anahtar Serkan'da | "Kiraladık, nakit; sahibiyim diyen Serkan" |
-| O gece gerçekte | tekneyi götürdü | kendi teknesini boyadı, Serkan'ı gördü, sustu | sette, tekneyi teslim aldı |
+| O gece gerçekte | tekneyi götürdü | öğleden sonra kendi teknesini boyadı; gece branda örterken Serkan'ı gördü, sustu | sette, tekneyi teslim aldı |
 | Görünüşü | mevcut figür | **yeni figür:** 50'lerinde, iri, bıyıksız, kara-kır sakal, lastik önlük, elleri beyaz boyalı | mevcut figür |
 
 ## 5. Olgular
@@ -216,7 +217,7 @@ Büro (gündüz, pencere, akşam), koridor (akşam), iskele, çay ocağı, Bebek
 ## 18. Kanon
 
 - **Sezon kanonuna ekleme:** yok.
-- **Vaka kanonu:** Kemal Reis (o gece boyadı, Serkan'ı gördü, sustu), Tuba, dizi seti, Serkan'ın borcu.
+- **Vaka kanonu:** Kemal Reis (öğleden sonra boyadı, gece branda örterken Serkan'ı gördü, sustu), Tuba, dizi seti, Serkan'ın borcu.
 - **Kalkanlar:** 5 tohum; ay sonu gideri; birikmiş kira (90.000 ₺).
 
 ## 19. Kontrol
