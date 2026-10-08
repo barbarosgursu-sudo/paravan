@@ -8,8 +8,8 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 |---|---|---|---|
 | 1 | **Form** doldurulur (6. parça) | ben | formun kontrol listesi tamam |
 | 2 | **Onay 1:** form | sahibi | "onay" |
-| 3 | **Diyalog** yazılır: her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu) | ben | otomatik denetimden geçer |
-| 4 | **Veri** hazırlanır | ben | otomatik denetimden geçer |
+| 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu) | ben | otomatik denetimden geçer |
+| 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan | ben | otomatik denetimden geçer |
 | 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır | ben | hata yok |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |

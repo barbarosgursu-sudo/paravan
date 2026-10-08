@@ -40,8 +40,8 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   await p.click('.dosya-afis');
   console.log('giriş+konuşma', await vnOyna('giris', ['Teknemi aldılar', 'Camda yazıyor', 'Bir de…', 'Hiç denediniz']));
   await foto('arastirma');
-  const sira = YOL === "set" ? ['Cengo\'nun çaycısı','İskeleye bak','Bebek sahili','Set sorumlusuyla','Rıza Reis\'in oğlu']
-                             : ['İskeleye bak','Rıza Reis\'in oğlu','Serkan\'ın dükkânı','Cengo\'nun çaycısı','Bebek sahili'];
+  const sira = YOL === "set" ? ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla','Serkan\'ı bulmak']
+                             : ['İskele ve Kemal','Serkan\'ı bulmak','Çaycıyla konuşmak','Bebek\'teki beyaz','Setin sorumlusuyla'];
   for (const ad of sira) {
     const el = p.locator('.kaynak', { hasText: ad }).first();
     if (!(await el.count())) { console.log('yok:', ad); continue; }

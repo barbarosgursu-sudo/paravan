@@ -195,6 +195,11 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 
 # VAKA 1 — KAYIP TEKNE
 
+> **⚠ ESKİ TASLAK (8 Ekim 2026'dan beri kayıt).** Vaka 1 artık yapım şablonuyla üretiliyor:
+> hikâye `sablon/vakalar/vaka1_form.md`, sahneler ve karar metinleri
+> `sablon/vakalar/vaka1_diyalog.md` (veriye `kaynak/arac_diyalog.js` yazar). Aşağısı
+> yalnız geçmiş kaydıdır; burada yapılan değişiklik oyuna girmez. Açılış bölümü geçerlidir.
+
 ⚙ tip: Mavi Ay (oyuncu da bilmez) · bedava · araştırma hakkı: **3** · vaka ücreti: **35.000 ₺** · ay sonu gideri: **35.000 ₺**
 ⚙ fiyatların gerekçesi: en alttaki "Fiyat referansı" tablosu
 ⚙ kıyafet: Peri ve Cengo temel setlerinde

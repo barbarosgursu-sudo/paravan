@@ -46,8 +46,9 @@ dosya çelişirse yeni oyun için şablon geçerlidir. Yeni oyunun motor eki `ka
 (Kim yaptı?, ücret sonda) — `motor.js`'e dokunulmaz, eski sayfa birebir aynı kalmalı.
 Doğrulayıcı yeni oyunda ayrıca K17 (giriş), K18 (ipucu adı), K19 (Kim yaptı?) çalıştırır.
 Veri JSON'unu elle değil `arac_json_yaz.js` ile yaz (kısa, okunur biçim).
-Sahne satırı biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Metin önce
-`YENI_VAKA_1.md`'de değişir, sonra veriye taşınır.
+Sahne satırı biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Vaka metni
+`sablon/vakalar/vakaN_diyalog.md`'de değişir; veriye `node arac_diyalog.js <dosya> <vaka>`
+yazar (elle değil). Açılış metni hâlâ `YENI_VAKA_1.md` → `yeni/acilis.json`.
 
 **Yeni oyunun sayfası:** `cd kaynak && node build_html.js yeni` → depo kökünde
 `yeni/index.html` (yayında `…/paravan/yeni/`). Eski sayfanın betiği aynen kullanılır;

@@ -20,7 +20,10 @@
   taşındı ama **metin hâlâ eski**: giriş/konuşma "yarın getiririm / peşin" diyor, karar
   sonuçlarında "ücretin tamamı geldi" ve tohum cümleleri duruyor, yüzleşmeler geçici, ipuçları
   formdaki 5'e değil eski 7'ye göre. Bunlar diyalog adımının işi.
-- **Sıradaki iş:** diyalog (formdan) → veri → görselsiz tur → **Onay 2 (sahibi görselsiz oynar).**
+- **Diyalog yazıldı (8 Ekim):** `sablon/vakalar/vaka1_diyalog.md` tek kaynak; `arac_diyalog.js`
+  veriye yazar. 5 ipucu / 4 hak, bedava yok; Kemal figürsüz (ses). Altı yol turda temiz.
+- **Sıradaki iş: Onay 2** — sahibi görselsiz oynar (bakılan: hikâye anlaşılıyor mu, bulmaca,
+  Kim yaptı? keyifli mi, espriler, süre). Notlar değişiklik kuralına göre sınıflanır.
 - Tur: `node arac_yeni_tur.js [karar] [set|dukkan] [dogru|zayif|kemal|tuba]`.
 - **Görsel üretilmez** hikâye donana kadar (adım 7).
 - **Sahibiyle çalışma biçimi:** çok basit ve kısa yaz, Türkçe kelime kullan; bir adımda dur,

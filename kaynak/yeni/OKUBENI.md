@@ -10,7 +10,9 @@ verisine **dokunulmaz**; o hâlâ yayındaki `index.html`'in kaynağı.
 | `kisiler.json` | anı defteri (karar başına). **Künye henüz yazılmadı** — her katman yeni metin ve Nurcan yüzeyi, sahibinin onayıyla yazılacak |
 | `prolog.json` | boş; eski araçlar okuyabilsin diye duruyor |
 
-Kaynak metin: `kaynak/YENI_VAKA_1.md`. **Metin orada değişir, sonra buraya taşınır.**
+Kaynak metin: Vaka 1 için `sablon/vakalar/vaka1_diyalog.md` (sahneler, karar metinleri, anı
+defteri) — veriye `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`
+yazar; **elle düzenlenmez.** Açılış için `kaynak/YENI_VAKA_1.md` → `acilis.json`.
 
 ## Komutlar
 
