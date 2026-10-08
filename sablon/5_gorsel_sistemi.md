@@ -42,6 +42,10 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 
 **Konuk:** en az 1, gerekirse 2–3 ifade.
 
+**Kıyafet başına sayı (sahibinin kararı, 8 Ekim 2026):**
+- **Peri:** tavan yok; olabildiğince çok ve farklı görsel. Her kıyafette sözlüğün **yedi ifadesinin hepsi** (normal, kas, sinirli, acı, utanmış, şaşırmış, meraklı) **+ vakanın gerektirdiği her nesneli ve hareketli poz.** Aynı görsel bir sahnede art arda çok tekrar ederse yeni poz üretilir.
+- **Cengo:** 4 (normal, kas, gülen, yumuşak) + vaka gerektirirse fazlası.
+
 ## C. Metin ile görselin eşleşmesi
 
 1. **Metin bir nesneyi, hareketi ya da kıyafeti anıyorsa o satırda ekranda görünür.** Üç yol:
@@ -108,7 +112,7 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 
 ## Sahibine sorular
 
-1. **Kıyafet başına zorunlu ifade sayısı.** Her vakada yeni kıyafet olduğu için bu sayı vaka başına görsel sayısını belirliyor.
+1. ✓ *Karar: Peri için tavan yok, en az yedi ifade + vaka pozları; Cengo 4.* **Kıyafet başına zorunlu ifade sayısı.** Her vakada yeni kıyafet olduğu için bu sayı vaka başına görsel sayısını belirliyor.
    - a) Peri 5 (normal, kas, sinirli, utanmış, şaşırmış), Cengo 4 (normal, kas, gülen, yumuşak). Gerisi vaka gerektirirse. *(önerim)*
    - b) Peri 4, Cengo 4.
    - c) Başka bir sayı.
