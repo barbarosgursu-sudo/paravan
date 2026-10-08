@@ -17,13 +17,15 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 
 ## Oyun akışı: yapabildikleri
 
-- Açılış → masa → vaka girişi → konuşma → araştırma → dönüş → karar → sonuç → kapanış.
-- **Araştırma:** ipucu listesi, hak sayısı, ipucu sahnesi, "deftere düştü" kartı.
-- **Olgu ve defter:** ipucu açılınca olgular gelir; olgular birleşince deftere bir cümle yazılır.
-- **Karar:** her kararın bir kapısı vardır (hangi olgular bilinirse açılır).
-- **Sonuç:** kararın ara karesi, Cengo satırı, anı defteri notu, kazanılan para.
-- **Koşullu metin:** karar sonucu olgulara göre, Cengo satırı bağa göre değişebilir.
-- **Kayıt:** oyun her adımda kaydedilir; açılışta sahne düzeyinde.
+- Açılış → masa → giriş → konuşma → araştırma → **Kim yaptı?** → yüzleşme → kovalamaca → karar → sonuç → kapanış.
+- **Araştırma:** ipucu listesi, hak sayısı, ipucu sahnesi, "deftere düştü" kartı. Bedava ipucu yok.
+- **Olgu ve defter:** ipucu açılınca olgular gelir; olgular birleşince deftere bir cümle yazılır (suçluyu söylemez).
+- **Kim yaptı?:** yalnız adı duyulan şüpheliler ve eldeki olgular; tek hak; üç sonuç; sonuca göre yüzleşme sahnesi.
+- **Karar ekranı:** kapı yok, dört karar açık. Her seçenekte kısa sonuç, kasaya girecek toplam, Cengo'nun tavrı; ücret kesildiyse sebebi üstte.
+- **Sonuç:** kararın ara karesi, Cengo satırı, anı defteri notu, ücret + karar parası. Cengo göstergesi (alev) yok.
+- **Kapanış:** satır `bag: yuksek|dusuk` ile bağın iki hâli (eşik +1).
+- **Kayıt:** oyun her adımda kaydedilir (suçlama dahil); açılışta sahne düzeyinde.
+- **Metin kaynağı:** sahneler ve karar metinleri `vakalar/vakaN_diyalog.md`'de; veriye `arac_diyalog.js` yazar.
 
 ## Yapamadıkları (sınırlar)
 

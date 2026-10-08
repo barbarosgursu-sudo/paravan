@@ -39,6 +39,7 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 **Hikâye**
 - 3 şüpheli var; her yanlış şüpheliyi aklayan bir kanıt var.
 - Suçluyu kanıtlayan en az 2 ipucu yolu var.
+- Hiçbir doğru kanıt çifti tek bir ipucundan çıkmıyor (kural 21c).
 - Her ipucu yolunda "Kim yaptı?" ekranı çalışıyor (tam, zayıf ya da yanlış sonuç).
 - Defter cümleleri suçluyu söylemiyor.
 - Hak edilmemiş bilgi sızmıyor (isim, olgu, görsel).
@@ -46,6 +47,7 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 
 **Karar ve para**
 - En az bir dürüst karar her yolda açık.
+- Her kararın kısa sonucu (önizleme) ve her ücret kesintisinin açıklaması var (kural 22a).
 - Kasa hiç eksiye düşmüyor; gider, borç, tohum yok.
 - Metindeki her tutar fiyat tablosunda.
 

@@ -64,6 +64,7 @@ Oyun cevabı söylemez. Oyuncu ipuçlarını kendisi birleştirir.
 - Her yanlış izi çözen bir kanıt vardır.
 - Suçluyu tam kanıtlayan **en az iki ayrı ipucu yolu** vardır.
 - Müşterinin anlattıkları ipucu değil, girişin parçasıdır.
+- **Hiçbir ipucu suçluyu tek başına göstermez** (kural 21c): her ipucunun bilgisi en az iki şüpheliye uyar ya da masum bir açıklaması vardır; suçlu iki ipucu birleşince bulunur.
 - İpucu adları açıktır; oyuncu neye hak harcadığını bilir.
 - **İpucu adı, açılmadan önce oyuncunun bildiğinden fazlasını söylemez** (yeni ad, yer, nesne yok).
 
@@ -85,7 +86,7 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
   - Yanlış şüpheli 1 → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
   - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
 - **Yüzleşmenin yeri:** dört sahne de kovalamacanın başladığı yerde geçer. Şüpheli orada değilse yüzleşme telefonla ya da onu oraya getiren bir sebeple yapılır.
-- **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez.
+- **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez. Kesintinin sebebi karar ekranının üstünde, müşterinin ağzından yazılır ("Masum birini suçladın; Rıza Reis 15.000 ₺ kesti").
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
 - **Oyun hiçbir durumda bitmez.**
@@ -94,7 +95,8 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 
 - 4 seçenek vardır. Doğru ya da yanlış cevap yoktur.
 - **Kapı yok:** dört karar her zaman açıktır. Gerçek yüzleşmede ortaya çıktığı için hepsi seçilebilir. Araştırmanın karşılığı Kim yaptı? ekranındadır.
-- Her seçenek: eylem → sonuç → bedel.
+- **Oyuncu seçmeden önce bilir** (kural 22a): her seçeneğin altında tek cümlelik kısa sonuç, kasaya girecek toplam para ve Cengo'nun tavrı ("hoşuna gider / ilgilendirmez / hoşuna gitmez"; sayı yok, kural 11).
+- Seçimden sonra: eylem → sonuç → bedel.
 - Oyun oyuncuya not vermez.
 
 ## İki vaka tipi
@@ -109,7 +111,7 @@ Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır:
 - **Para (kasa)** ve **Cengo bağı:** sistemler, vakadan vakaya sürer.
 - **Sabit sezon hikâyesi:** Peri'nin geçmişi (dolandırıcı avukat, haczedilen taç). Her oyuncu için aynıdır; oyuncunun kararı değiştirmez.
 
-**Tohum yok:** bir vakadaki karar başka bir vakanın metnini, kişilerini ya da olaylarını değiştirmez. (Vaka 1'deki 5 tohum üretim aşamasında silinecek.)
+**Tohum yok:** bir vakadaki karar başka bir vakanın metnini, kişilerini ya da olaylarını değiştirmez. (Vaka 1'in tohumları silindi; doğrulayıcı K19 tohumu hata sayar.)
 
 ## Değişmez ilkeler
 

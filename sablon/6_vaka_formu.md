@@ -153,10 +153,12 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] Giriş kurallarına uyuyor (şüpheli anılıyor, suçlu ele verilmiyor)
 - [ ] 3 şüpheli; her yanlış şüphelinin izi ve aklanması var
 - [ ] Suçluyu kanıtlayan en az 2 yol var
+- [ ] Hiçbir ipucu suçluyu tek başına göstermiyor (kural 21c)
 - [ ] Defter cümleleri suçluyu söylemiyor
 - [ ] "Aha!" anı var
 - [ ] Zaman çizelgesinde çelişki yok (kim nerede, ne gördü)
 - [ ] Her tutar fiyat tablosunda
 - [ ] En az bir dürüst karar var
+- [ ] Her kararın kısa sonucu var; ücret kesintilerinin açıklaması var (kural 22a)
 - [ ] Yeni kanon varsa onaylandı
 - [ ] Kural kitabıyla çelişen bir şey yok

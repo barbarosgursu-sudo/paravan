@@ -111,7 +111,7 @@ Satırda isteğe bağlı sahne değişiklikleri:
 
 **Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`.
 
-**Karar:** `para` = **karar parası** (ücretin üstüne eklenen ya da düşülen; çoğu 0),
+**Karar:** `onizleme` = karar ekranındaki tek cümlelik kısa sonuç (kural 22a); `para` = **karar parası** (ücretin üstüne eklenen ya da düşülen; çoğu 0),
 `gate: "yok"` (kapı yok), `seed_yaz` yok (tohum yok).
 
 **Vaka — Kim yaptı?:**
@@ -120,7 +120,8 @@ kim_yapti: {
   suclu: "serkan",
   supheliler: [ { id, ad, gorunur: "her_zaman" | <ifade> } ],   // ekranda ne zaman görünür
   dogru_ciftler: [ [<olgu|ifade>, <olgu|ifade>], ... ],          // suçu kanıtlayan iki olgu
-  ucret: { dogru, zayif, yanlis }                                 // sonda ödenir
+  ucret: { dogru, zayif, yanlis },                                // sonda ödenir
+  kesinti: { zayif, yanlis }   // karar ekranının üstü; {anlasilan} {kesinti} tutarla dolar (diyalogda '## ucret')
 }
 sahneler: { giris, konusma, yuzlesme_dogru, yuzlesme_zayif, yuzlesme_<masum id>, kovalamaca, kapanis }
 anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızıntı araması
@@ -150,7 +151,9 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
   zincirindeki ipuçlarının sahne ve olguları; Peri ve Cengo her zaman bilinir).
 - **K19 — Kim yaptı?:** 3 şüpheli, suçlu her yolda görünür, kanıt çiftleri olgu, ücret
   sırası, dört yüzleşme sahnesi, 4 karar, kapı/tohum/bedava ipucu yok, ipucu > hak,
-  en kötü durumda kasa eksiye düşmez, hak içinde en az 2 farklı doğru kanıt çifti.
+  en kötü durumda kasa eksiye düşmez, hak içinde en az 2 farklı doğru kanıt çifti,
+  hiçbir doğru çift tek ipucundan çıkmaz (kural 21c), her kararın `onizleme`si ve her
+  ücret kesintisinin açıklaması (`kesinti`) var (kural 22a).
 
 ## Açık uyarılar (tasarım; sahibine soruldu)
 
