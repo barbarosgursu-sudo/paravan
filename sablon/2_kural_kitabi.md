@@ -50,7 +50,10 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 *(Sahibinin kararı, 8 Ekim 2026: para iyi hissettirmeli, hesap yaptırmamalı.)*
 
 24. **Para yalnız birikir.** Gider, kira, borç, taksit, faiz yok. Kasa hiç eksiye düşmez.
-25. **Her vakanın bir ücreti vardır;** kararlar ne kadar kazanılacağını değiştirir.
+25. **İki ayrı para:**
+    - **Ücret:** Kim yaptı? sonucuna göre (tam / küçük kesinti / büyük kesinti).
+    - **Karar parası:** ücretin üstüne eklenen ya da düşülen tutar (çoğu karar 0).
+    - Kasaya giren = ücret + karar parası.
 26. **Kirli seçenek biraz daha çok kazandırır** (cazibe). Dürüst seçenek de kazandırır; fark küçüktür.
 27. **Biriken paranın amacı:** Vaka 7'de Peri'nin tacını geri almak.
 27b. **Her tutar gerçek hayata uygundur:** o yılın İstanbul fiyatları. Vaka ücreti, kararların getirdiği para ve metinde geçen her tutar (kira, balık, kiralama, rüşvet…) buna uyar.
