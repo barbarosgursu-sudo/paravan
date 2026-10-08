@@ -132,6 +132,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 ## 10. Kim yaptı? ve yüzleşme
 
 Yer: **Serkan'ın dükkânının önü** (kovalamaca buradan başlıyor).
+Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 4. ipucu açıldıysa.
 
 | sonuç | ücret | yüzleşme (özet) |
 |---|---|---|

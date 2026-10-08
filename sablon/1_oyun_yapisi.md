@@ -76,6 +76,7 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 | Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz. Ücretin küçük bir kısmı alınamaz. |
 | Yanlış kişi | Masum biri suçlanır. Ücretin büyük bir kısmı alınamaz. Gerçek yine ortaya çıkar. |
 
+- **Ekranda ne görünür:** yalnız oyuncunun adını duyduğu şüpheliler (girişte anılan ya da açtığı ipuçlarında karşılaştığı) ve elindeki olgular.
 - **Tek hak:** oyuncu bir kez suçlar.
 - **Yüzleşme sahneleri:** her vaka 4 kısa sahne yazar (4–6 replik):
   - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.
