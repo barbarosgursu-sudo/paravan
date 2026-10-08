@@ -18,7 +18,7 @@ Açılış (haciz, büro, Cengo) bu formun dışında; o bölüm hazır.
 ## 2. Gerçek *(oyuncuya gösterilmez)*
 
 - **Ne oldu:** Rıza Reis'in kırk yıllık teknesi Nazlı, salı gece yarısı iskeleden kayboldu.
-- **Kim, neden:** Oğlu **Serkan**. Batan balık-ekmek dükkânının ~100.000 ₺ borcu var, ödeme günü cuma. Tekneyi babasından habersiz, 3 günlüğüne bir dizi setine kiraladı (günü 35.000 ₺, nakit).
+- **Kim, neden:** Oğlu **Serkan**. Batan balık-ekmek dükkânının ~100.000 ₺ borcu var (kira, veresiye; alacaklılardan biri Kemal Reis), ödeme günü cuma. Tekneyi babasından habersiz, 3 günlüğüne bir dizi setine kiraladı (günü 35.000 ₺, nakit).
 - **Nasıl:** Yıllar önce babasının verip unuttuğu yedek anahtarla zinciri açtı, sonra yeniden kilitledi. Tekneyi Bebek'e götürdü. Set ekibi tekneyi beyaza boyadı, dizide "lüks yat" yaptı.
 
 **Zaman çizelgesi**
@@ -57,7 +57,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 
 | | **Serkan** (suçlu) | **Kemal Reis** | **Tuba** (dizi seti) |
 |---|---|---|---|
-| Kim | Rıza'nın oğlu, 30'larında, dükkânı batmış | rakip balıkçı, 50'lerinde, iri, ters | setin mekân sorumlusu, elinde üç telefon |
+| Kim | Rıza'nın oğlu, 30'larında, dükkânı batmış | rakip balıkçı, 50'lerinde, iri, ters; Serkan'ın dükkânına veresiye balık vermiş, alacaklı | setin mekân sorumlusu, elinde üç telefon |
 | Şüpheli gösteren iz | yedek anahtar onda, boynunda set kartı, borcu var | Rıza suçluyor; tam o saatte yarım saat kayıp; elleri beyaz boyalı | tekne onların setinde, beyaza boyanmış, "lüks yat" diye tanıtılıyor |
 | Aklayan kanıt | — | set ekibi boyadı (3. ipucu, boyacı); anahtar Serkan'da | "Kiraladık, nakit; sahibiyim diyen Serkan" |
 | O gece gerçekte | tekneyi götürdü | kendi teknesini boyadı, Serkan'ı gördü, sustu | sette, tekneyi teslim aldı |
@@ -138,7 +138,7 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 4. ipucu
 |---|---|---|
 | Serkan, doğru kanıt | 35.000 ₺ | Peri iki kanıtı sayar. Serkan bir babasına bakar, bir yola… kaçar. |
 | Serkan, zayıf kanıt | 30.000 ₺ | Serkan: "Ne kanıtınız var?" Peri tutturamaz. Cengo yaklaşınca Serkan paniğe kapılıp kaçar. |
-| Kemal | 20.000 ₺ | Kemal öfkelenir: "Ben mi? Dümende Rıza'nın oğlu vardı, gözümle gördüm!" Serkan kaçar. |
+| Kemal | 20.000 ₺ | Kemal, Serkan'dan alacağını istemeye dükkâna gelmiştir. Suçlanınca öfkelenir: "Ben mi? Dümende Rıza'nın oğlu vardı, gözümle gördüm!" Serkan kaçar. |
 | Tuba | 20.000 ₺ | Peri Tuba'yı telefonda suçlar. Tuba hoparlörden: "Kiraladık! Sahibi Serkan, şu an yanınızda olmalı!" Serkan duyar, kaçar. |
 
 ## 11. Kovalamaca *(mevcut 5 kare)*
