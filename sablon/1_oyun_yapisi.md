@@ -23,7 +23,7 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) **vaka değildir**, vaka 
 2. **Uzunluk:** 15–25 replik (2–4 dakika).
 3. **İçinde bulunması gerekenler:**
    - Müşteri kim, ne kaybetmiş, ne istiyor.
-   - Ücret konuşulur (tutar fiyat tablosundan).
+   - Ücret konuşulur (tutar fiyat tablosundan); peşin ödenmez, sonda ödenir (kural 25).
    - Şüphelilerden en az biri adıyla anılır; oyuncunun aklına ilk şüphe düşer.
    - Peri'nin vakadaki kıyafeti ilk kez görünür (kural 15a); çekicilik anı burada olur.
    - Peri ile Cengo arasında bir espri ya da atışma olur.
