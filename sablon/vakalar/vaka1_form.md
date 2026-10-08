@@ -208,7 +208,6 @@ Büro (gündüz, pencere, akşam), koridor (akşam), iskele, çay ocağı, Bebek
 | 10.000 ₺ | yapımcının sus payı | hikâye içi; bir yapım için küçük; kural 26 (ücretin altında) |
 | 3.000 ₺ | Rıza'nın indirimi | hikâye içi |
 | 5.000 / 15.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
-
 | ~5.000 ₺ | bir kasa levrek (10 kg) | markette 530–700 ₺/kg (Ağustos 2026), halde daha ucuz |
 | ~50.000 ₺ | Rıza'nın ödediği borcun yarısı | Serkan'ın borcunun yarısı; tutar metinde söylenmez, "yarısı" denir |
 
