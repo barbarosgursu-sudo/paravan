@@ -208,9 +208,14 @@ Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor.*
 | neden | Batan balık-ekmek tezgâhından kalan bir borç; ödeme günü **cuma**. Babasından saklıyor. |
 | dizi | "Yalıda Bir Yaz." Tekne beyaza boyanmış, sette **"lüks yat"** rolünde. |
 | set | Mekân sorumlusu **Tuba** kiralamayı yaptı; yapımcı tekneyi sosyal medyada "gerçek lüks yat" diye tanıttı. |
+| Kemal | Yan bağlamadaki rakip balıkçı **Kemal Reis** o gece teknesinin küpeştesini beyaza boyuyordu. Nazlı'yı götürenin Serkan olduğunu gördü; Rıza Reis'le kavgalı olduğu için kimseye söylemedi. Hırsız değil. |
 | plan | Serkan tekneyi cumartesi sabahı, boyası silinmiş olarak geri getirecekti. Babası çarşamba sabahı fark etti; Peri ile Cengo aynı gün devreye giriyor. |
 
-## ÖNERİ — Şüpheliler ve yanlış izler (8 Ekim 2026) ⚠ sahibinin onayı bekleniyor
+## Şüpheliler ve yanlış izler (8 Ekim 2026) — ✓ onaylandı, veriye taşındı
+
+⚙ Aşağıdaki gerekçe ve kural denetimi kayıt olarak duruyor; metnin kendisi Giriş, İ1–İ8,
+Olgular ve Çıkarımlar bölümlerine işlendi. Kemal Reis'in figürü gelene kadar figürsüz
+konuşan (`kanon.sahne.sesler`); görsel gelince `figurler`'e taşınır.
 
 ⚙ sahibinin notu: "Hafif bir vaka yapıyoruz ama bu dedektiflik yapmayacağımız anlamına
 gelmiyor. Oyuncunun kafasını karıştırabilecek durumlar olmalı." Bugünkü taslakta tek isim
@@ -312,6 +317,9 @@ artırır; sahibinin kararı.
 **RIZA REİS:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı.
 **CENGO [kas]:** Nazlı kim?
 **RIZA REİS:** Tekne. Rahmetli hanımın adı.
+**RIZA REİS [ofkeli]:** Kemal'dir. Yanımda bağlar. Yirmi yıldır yerime göz diker; geçen hafta yakama yapıştı.
+**CENGO [kas]:** Kemal'in teknesi yerinde mi?
+**RIZA REİS:** Yerinde. Akıllı adam.
 **PERİ [normal]:** Ne zaman?
 **RIZA REİS:** Dün gece. Sabah iskeleye indim, yok. Karakola gittim, tutanak tuttular, "bakarız" dediler. Haklılar, bakacaklar. Ama ben bir hafta denize çıkmazsam batarım.
 **PERİ:** Ücretimiz otuz beş bin lira.
@@ -344,40 +352,67 @@ artırır; sahibinin kararı.
 
 ## Araştırma
 
-⚙ 3 bedelsiz (İ1, İ2, İ3 — hepsi iskelede) + 4 bedelli kaynak, **3 hak.** Çekirdek
+⚙ 4 bedelsiz (İ1, İ2, İ3, İ8 — hepsi iskelede) + 4 bedelli kaynak, **3 hak.** Çekirdek
 (teknenin yeri) her yolda açılır: Bebek dışındaki bedelliler en fazla iki hak yer
 (Serkan → dükkân; set sorumlusu Bebek'e bağlı), üçüncü hak ister istemez Bebek'e gider.
 Oyuncu iki yoldan birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya da
 **"neden"** (Serkan + borcu).
 
 ### İ1 — Rıza Reis'in anlattıkları · *İfade · bedelsiz*
-⚙ açılması: koşulsuz · olgular: `tekne_kayip`, `zincir_kilitli`
+⚙ açılması: koşulsuz · olgular: `tekne_kayip`, `zincir_kilitli`, `yedek_kayip`
 
 > İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış.
 >
-> Rıza Reis: "Zinciri her akşam kendim kilitlerim. Anahtar bende, boynumda. Kimse
-> çözemez onu."
+> Rıza Reis: "Zinciri her akşam kendim kilitlerim. Zincirin de teknenin de anahtarı
+> bende, boynumda. Kimse çözemez onu. Yedekleri vardı; kaybolalı yıllar oldu."
 >
-> ↳ *Zincir kilitliydi ve anahtar Rıza Reis'te. Ya biri zinciri kırdı, ya da…*
+> ↳ *Zincir kilitliydi ve anahtar Rıza Reis'te; yedeği yıllardır kayıp. Ya biri zinciri kırdı, ya da…*
 
 ### İ2 — Cengo'nun çaycısı · *İfade · bedelsiz*
-⚙ açılması: koşulsuz · olgular: `bebek_yonu`
+⚙ açılması: koşulsuz · olgular: `bebek_yonu`, `kemal_kayboldu`
 
 > Çaycı, Cengo'ya üç bardak çayı sonunda ödüyor ve konuşuyor: "Salı gece yarısı
-> Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki genç bana el salladı."
-> Cengo: "El sallayan hırsız görmedim ben."
+> Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki bana el salladı; karanlıktı,
+> yüzünü seçemedim." Cengo: "El sallayan hırsız görmedim ben. Kemal o gece neredeydi?"
+> Çaycı: "Bütün gece burada okey oynadı. Yalnız gece yarısına doğru 'tekneye bakıp
+> geleyim' dedi; yarım saat yoktu." Peri: "Tam gece yarısı."
 >
-> ↳ *Tekne Bebek'e gitmiş. Kullanan kim olursa olsun, saklanmıyormuş.*
+> ↳ *Tekne Bebek'e gitmiş; kullanan saklanmıyormuş. Kemal Reis'in de tam o saatte yarım saati boş.*
 
 ### İ3 — İskeleye bak · *Gözlem · bedelsiz*
-⚙ açılması: koşulsuz · olgular: `kilit_saglam`
+⚙ açılması: koşulsuz · olgular: `kilit_saglam`, `kemal_boya`
 ⚙ bedelsiz (sahibinin kararı, 6 Ekim 2026): İ1 ve İ2 için zaten iskeledeler; zincire bakmak hak harcamaz. Ücretli olduğu ilk yazımda İskele + Serkan + Dükkân yolu Bebek'i hiç görmüyor, dört karar da kapalı kalıyordu (doğrulayıcı K16).
 
 > Zincir iskelede, yerinde. Kilidi kırılmamış, zorlanmamış; açılıp yeniden
 > kilitlenmiş. Cengo kilide baktı: "Bu anahtarla açılmış. Ya da benden iyi biri
 > varmış; ona inanmam."
 >
-> ↳ *Zinciri anahtarı olan biri açmış.*
+> Yan bağlamada Kemal Reis teknesinin başında; elleri bileklerine kadar beyaz boya,
+> küpeşte taze boyalı. Cengo: "Gece yarısı boya yapan adam ya çok çalışkandır ya bir
+> şey saklıyordur."
+>
+> ↳ *Zinciri anahtarı olan biri açmış. Yandaki teknede taze beyaz boya var.*
+
+### İ8 — Kemal Reis'le konuşmak · *İfade · bedelsiz*
+⚙ açılması: `kemal_kayboldu` · olgular: `kemal_boya`, `kemal_inkar`
+⚙ bedelsiz: iskelede; Kemal izi araştırma hakkını yemez, K16 değişmez. Numara sonradan eklendiği için İ8; ekranda İ3'ün ardından gelir.
+⚙ Kemal gece yarısı Serkan'ı gördü (sahibinin kararı) ama söylemez; "uzağa bakmayın" o bilgiden gelir, adı vermez.
+
+> Kemal Reis teknesinin başında; elleri beyaz boyalı. Elli yaşlarında, iri, Rıza Reis'e
+> selam vermeyen bir adam.
+>
+> **PERİ [kas]:** Salı gece yarım saat neredeydiniz?
+> **KEMAL REİS:** Teknemdeydim. Boyadım, ne olacak? Gündüz denizdeyim.
+> **CENGO [kas]:** Nazlı giderken?
+> **KEMAL REİS:** Nazlı'yı ben ne yapayım?
+>
+> *Fırçayı kovaya atıyor.*
+>
+> **KEMAL REİS:** Hırsız arıyorsanız uzağa bakmayın.
+> **CENGO [kas]:** Bu bir itiraf mıydı, tavsiye mi?
+> **PERİ [kas]:** Belki ikisi.
+>
+> ↳ *Kemal Reis gece teknesini boyadığını söylüyor ve uzağa bakmamamızı tavsiye ediyor.*
 
 ### İ4 — Bebek sahili · *Gözlem · 1 hak*
 ⚙ açılması: `bebek_yonu` · olgular: `set_teknesi`, `nazli_izi`, `yat_tanitimi`
@@ -394,20 +429,23 @@ Oyuncu iki yoldan birini seçmek zorunda: **"kim kiraladı"** (set sorumlusu) ya
 > Setin ortasında "lüks yat": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı
 > teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: **Nazlı.**
 >
+> **PERİ [sinirli]:** Hırsızı bulduk.
+> **CENGO [kas]:** Hırsız kamera kurmaz.
+>
 > ↳ *Nazlı batmamış. Bebek'te, bir dizide oynuyor.*
 
 ⚙ görsel kuralı: pruvadaki adın harfleri ve telefon ekranı görselde görünmez; yalnız metinde.
 
 ### İ5 — Set sorumlusuyla konuşmak · *İfade · 1 hak*
-⚙ açılması: `set_teknesi` · olgular: `kiralayan_serkan`
+⚙ açılması: `set_teknesi` · olgular: `kiralayan_serkan`, `set_boyadi`
 
 > Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona "Tuba Hanım"
 > diye sesleniyor.
 >
 > Mekân sorumlusu Tuba, elinde üç telefonla: "Tekneyi sahibinden kiraladık, üç
 > günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir
-> adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım.
-> Çekim cumaya yetişmezse ben yetişemem."
+> adam. Serkan. Ruhsatı göstermedi, ben de sormadım. Boyayı bizim ekip yaptı; sahibi
+> itiraz etmedi. Çekim cumaya yetişmezse ben yetişemem."
 >
 > ↳ *Tekneyi kiralayan adamın adı Serkan. "Sahibi" olduğunu söylemiş.*
 
@@ -471,8 +509,8 @@ ayrı rezil olur, Serkan'ı beceri değil şans yakalar (sezon kuralı "Kovalama
 > **PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
 >
 > Serkan yerde, nefes nefese. Cengo sorunca itiraf ediyor: teknenin yedek anahtarı
-> onda; yıllar önce babası vermiş, babası unutmuş. "Ama kaybettim," diyor. Cebi
-> şıngırdıyor.
+> onda; yıllar önce babası vermiş, babası unutmuş. "Ama kaybettim," diyor. "Kemal Reis
+> bulmuştur! O babamın yerine göz dikti!" Cebi şıngırdıyor.
 >
 > **CENGO [kas]:** Kaybettiğin anahtar cebinde şarkı söylüyor.
 > **PERİ [utanmis]:** *(elindeki levreği nereye koyacağını bilmeden)* Bunu kime veriyorum?
@@ -513,13 +551,18 @@ sonraki sahnelerde isteğe bağlı bir şaka olarak kullanılabilir, zorunlu de�
 | olgu | ← | cümle |
 |---|---|---|
 | `tekne_kayip` | İ1 | Nazlı salı gecesi Karaköy iskelesinden kayboldu. |
-| `zincir_kilitli` | İ1 | Zincir kilitliydi; Rıza Reis anahtarın yalnız kendisinde olduğunu söylüyor. |
-| `bebek_yonu` | İ2 | Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendeki genç el salladı. |
+| `zincir_kilitli` | İ1 | Zincir kilitliydi; anahtar Rıza Reis'in boynunda. |
+| `yedek_kayip` | İ1 | Zincirin ve teknenin bir de yedek anahtarı varmış; Rıza Reis yıllardır kayıp sanıyor. |
+| `bebek_yonu` | İ2 | Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendeki biri el salladı, yüzü seçilmemiş. |
+| `kemal_kayboldu` | İ2 | Kemal Reis salı gece yarısına doğru okey masasından kalkıp yarım saat ortadan kaybolmuş. |
+| `kemal_boya` | İ3, İ8 | Kemal Reis'in teknesi taze beyaza boyanmış; elleri hâlâ boyalı. |
+| `kemal_inkar` | İ8 | Kemal Reis gece teknesini boyadığını söylüyor; "Hırsız arıyorsanız uzağa bakmayın" diyor. |
 | `kilit_saglam` | İ3 | Zincirin kilidi kırılmamış; anahtarla açılıp yeniden kilitlenmiş. |
 | `set_teknesi` | İ4 | Bebek'teki dizi setinde "lüks yat" diye beyaza boyanmış bir balıkçı teknesi var. |
 | `yat_tanitimi` | İ4 | Dizi, tekneyi tanıtımında "gerçek bir lüks yat" diye gösteriyor. |
 | `nazli_izi` | İ4 | Boyanın altından teknenin eski adı seçiliyor: Nazlı. |
 | `kiralayan_serkan` | İ5 | Tekneyi sete üç günlüğüne Serkan adında biri, sahibi gibi kiralamış. |
+| `set_boyadi` | İ5 | Nazlı'yı set ekibi beyaza boyamış. |
 | `serkan_anahtar` | İ6 | Rıza Reis'in oğlu Serkan'da teknenin yedek anahtarı var; kaybettiğini söylüyor. |
 | `serkan_yaka_karti` | İ6 | Serkan'ın boynunda bir dizi setinin yaka kartı var; saklamaya çalışıyor. |
 | `serkan_borc` | İ7 | Serkan'ın cuma günü ödemesi gereken, yüz bin liraya yakın bir borcu var. |
@@ -532,6 +575,8 @@ sonraki sahnelerde isteğe bağlı bir şaka olarak kullanılabilir, zorunlu de�
 | `tekne_sette` | `set_teknesi` **ve** `nazli_izi` | Nazlı kayıp değil: Bebek'te bir dizi setinde, boyanmış, "lüks yat" rolünde. |
 | `serkan_kiraladi` | `tekne_sette` **ve** (`kiralayan_serkan` **ya da** (`serkan_anahtar` **ve** `serkan_yaka_karti`)) | Nazlı'yı sete Rıza Reis'in oğlu Serkan götürmüş. |
 | `serkan_neden` | `serkan_kiraladi` **ve** `serkan_borc` | Serkan tekneyi cuma günkü borcunu ödemek için kiralamış; babasından saklıyor. |
+| `iki_beyaz` | `kemal_boya` **ve** `set_teknesi` | Kemal Reis'in teknesi de, sette Nazlı da taze beyaza boyanmış. *(yanlış iz: doğru cümle, bağı oyuncu kurar)* |
+| `boya_tesaduf` | `iki_beyaz` **ve** `set_boyadi` | Nazlı'yı set ekibi boyamış; Kemal Reis'in beyazı başka bir fırçadan. |
 
 ⚙ Yollar (3 hak):
 - **A — "kim":** Bebek + set sorumlusu + bir tane daha → `serkan_kiraladi`. `serkan_neden` yok.
@@ -847,6 +892,7 @@ kapanır, motorun iç sınıflaması (temiz/bedel/kirli) ekranda iz bırakmaz.
 | Serkan | kaçamak, boynunda yaka kartı | ★ |
 | Tuba (set sorumlusu) | telaşlı, elinde telefonlar | ★ |
 | Çaycı | gülümseyen | |
+| Kemal Reis (rakip balıkçı, 8 Ekim) | ters, elleri beyaz boyalı | ★ (bekliyor) |
 
 ### Ana karakterler
 

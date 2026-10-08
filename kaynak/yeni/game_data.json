@@ -1,7 +1,7 @@
 {
   "_not": "YENİ OYUN verisi (Peri & Cengo). Kaynak metin: kaynak/YENI_VAKA_1.md. Eski oyunun verisi kaynak/game_data.json'da, ona dokunulmaz. Sahne satırı biçimi: kaynak/yeni/OKUBENI.md.",
   "kanon": {
-    "isimler": ["Rıza", "Serkan", "Nazlı"],
+    "isimler": ["Rıza", "Serkan", "Nazlı", "Kemal"],
     "belirsiz": [],
     "belirsiz_istisna": {},
     "tohum_isimleri": {},
@@ -17,7 +17,7 @@
         "tuba":   { "ad": "Tuba", "ifadeler": ["normal"] },
         "cayci":  { "ad": "Çaycı", "ifadeler": ["normal"] }
       },
-      "sesler": { "ses": "Ses", "asistan": "Set asistanı", "teyze": "Teyze" },
+      "sesler": { "ses": "Ses", "asistan": "Set asistanı", "teyze": "Teyze", "kemal": "Kemal Reis" },
       "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
       "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10", "K11", "K12", "K13", "K14"]
     }
@@ -47,13 +47,19 @@
         "neden": "Batan balık-ekmek tezgâhından kalan bir borç; ödeme günü cuma. Babasından saklıyor.",
         "dizi": "“Yalıda Bir Yaz.” Tekne beyaza boyanmış, sette “lüks yat” rolünde.",
         "set": "Mekân sorumlusu Tuba kiralamayı yaptı; yapımcı tekneyi sosyal medyada “gerçek lüks yat” diye tanıttı.",
+        "kemal": "Yan bağlamadaki rakip balıkçı Kemal Reis o gece teknesinin küpeştesini beyaza boyuyordu. Nazlı'yı götürenin Serkan olduğunu gördü; Rıza Reis'le kavgalı olduğu için kimseye söylemedi. Hırsız değil.",
         "plan": "Serkan tekneyi cumartesi sabahı, boyası silinmiş olarak geri getirecekti. Babası çarşamba sabahı fark etti; Peri ile Cengo aynı gün devreye giriyor."
       },
 
       "facts": {
         "tekne_kayip": "Nazlı salı gecesi Karaköy iskelesinden kayboldu.",
-        "zincir_kilitli": "Zincir kilitliydi; Rıza Reis anahtarın yalnız kendisinde olduğunu söylüyor.",
-        "bebek_yonu": "Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendeki genç el salladı.",
+        "zincir_kilitli": "Zincir kilitliydi; anahtar Rıza Reis'in boynunda.",
+        "yedek_kayip": "Zincirin ve teknenin bir de yedek anahtarı varmış; Rıza Reis yıllardır kayıp sanıyor.",
+        "bebek_yonu": "Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendeki biri el salladı, yüzü seçilmemiş.",
+        "kemal_kayboldu": "Kemal Reis salı gece yarısına doğru okey masasından kalkıp yarım saat ortadan kaybolmuş.",
+        "kemal_boya": "Kemal Reis'in teknesi taze beyaza boyanmış; elleri hâlâ boyalı.",
+        "kemal_inkar": "Kemal Reis gece teknesini boyadığını söylüyor; “Hırsız arıyorsanız uzağa bakmayın” diyor.",
+        "set_boyadi": "Nazlı'yı set ekibi beyaza boyamış.",
         "kilit_saglam": "Zincirin kilidi kırılmamış; anahtarla açılıp yeniden kilitlenmiş.",
         "set_teknesi": "Bebek'teki dizi setinde “lüks yat” diye beyaza boyanmış bir balıkçı teknesi var.",
         "yat_tanitimi": "Dizi, tekneyi tanıtımında “gerçek bir lüks yat” diye gösteriyor.",
@@ -76,12 +82,18 @@
           "ifade": { "all": ["tekne_sette", { "any": ["kiralayan_serkan", { "all": ["serkan_anahtar", "serkan_yaka_karti"] }] }] } },
         { "turetilen": "serkan_neden",
           "baslik": "Serkan tekneyi cuma günkü borcunu ödemek için kiralamış; babasından saklıyor.",
-          "ifade": { "all": ["serkan_kiraladi", "serkan_borc"] } }
+          "ifade": { "all": ["serkan_kiraladi", "serkan_borc"] } },
+        { "turetilen": "iki_beyaz",
+          "baslik": "Kemal Reis'in teknesi de, sette Nazlı da taze beyaza boyanmış.",
+          "ifade": { "all": ["kemal_boya", "set_teknesi"] } },
+        { "turetilen": "boya_tesaduf",
+          "baslik": "Nazlı'yı set ekibi boyamış; Kemal Reis'in beyazı başka bir fırçadan.",
+          "ifade": { "all": ["iki_beyaz", "set_boyadi"] } }
       ],
 
       "giris": [
         { "kosul": "varsayilan",
-          "metin": "Kapıda yetmişlerinde bir balıkçı: Rıza Reis. Kırk yıllık teknesi Nazlı dün gece iskeleden kaybolmuş; karakol tutanak tutmuş, “bakarız” demiş. Bir hafta denize çıkamazsa batacak. Ücreti yarın getirecek. Giderken bir şey rica ediyor: oğlu Serkan'a söylenmesin, üzülür.",
+          "metin": "Kapıda yetmişlerinde bir balıkçı: Rıza Reis. Kırk yıllık teknesi Nazlı dün gece iskeleden kaybolmuş; yan bağlamadaki Kemal'den şüpheleniyor, yıllardır kavgalılar; karakol tutanak tutmuş, “bakarız” demiş. Bir hafta denize çıkamazsa batacak. Ücreti yarın getirecek. Giderken bir şey rica ediyor: oğlu Serkan'a söylenmesin, üzülür.",
           "acilan": [] }
       ],
 
@@ -99,6 +111,9 @@
             { "k": "riza", "i": "dertli", "m": "Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı." },
             { "k": "cengo", "i": "kas", "m": "Nazlı kim?" },
             { "k": "riza", "m": "Tekne. Rahmetli hanımın adı." },
+            { "k": "riza", "i": "ofkeli", "m": "Kemal'dir. Yanımda bağlar. Yirmi yıldır yerime göz diker; geçen hafta yakama yapıştı." },
+            { "k": "cengo", "i": "kas", "m": "Kemal'in teknesi yerinde mi?" },
+            { "k": "riza", "m": "Yerinde. Akıllı adam." },
             { "k": "peri", "i": "normal", "m": "Ne zaman?" },
             { "k": "riza", "m": "Dün gece. Sabah iskeleye indim, yok. Karakola gittim, tutanak tuttular, “bakarız” dediler. Haklılar, bakacaklar. Ama ben bir hafta denize çıkmazsam batarım." },
             { "k": "peri", "m": "Ücretimiz otuz beş bin lira." },
@@ -168,42 +183,67 @@
       "clues": [
         {
           "id": "riza_anlatti", "ad": "Rıza Reis'in anlattıkları", "tur": "İfade", "ico": "○",
-          "bedelsiz": true, "needs": [], "reveals": ["tekne_kayip", "zincir_kilitli"],
-          "text": "İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış. “Zinciri her akşam kendim kilitlerim. Anahtar bende, boynumda. Kimse çözemez onu.”",
-          "meta": "Zincir kilitliydi ve anahtar Rıza Reis'te. Ya biri zinciri kırdı, ya da…",
+          "bedelsiz": true, "needs": [], "reveals": ["tekne_kayip", "zincir_kilitli", "yedek_kayip"],
+          "text": "İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış. “Zinciri her akşam kendim kilitlerim. Zincirin de teknenin de anahtarı bende, boynumda. Kimse çözemez onu. Yedekleri vardı; kaybolalı yıllar oldu.”",
+          "meta": "Zincir kilitliydi ve anahtar Rıza Reis'te; yedeği yıllardır kayıp. Ya biri zinciri kırdı, ya da…",
           "sahne": {
             "arka": "A9", "figurler": ["peri", "riza"],
             "satirlar": [
               { "k": "not", "m": "İskelede Rıza Reis, boş bağlama yerinin başında oturuyor; zinciri dizine almış." },
-              { "k": "riza", "i": "dertli", "m": "Zinciri her akşam kendim kilitlerim. Anahtar bende, boynumda. Kimse çözemez onu." }
+              { "k": "riza", "i": "dertli", "m": "Zinciri her akşam kendim kilitlerim. Zincirin de teknenin de anahtarı bende, boynumda. Kimse çözemez onu." },
+              { "k": "riza", "m": "Yedekleri vardı. Kaybolalı yıllar oldu." }
             ]
           }
         },
         {
           "id": "cayci", "ad": "Cengo'nun çaycısı", "tur": "İfade", "ico": "○",
-          "bedelsiz": true, "needs": [], "reveals": ["bebek_yonu"],
-          "text": "Çaycı, Cengo'ya üç bardak çayı sonunda ödüyor ve konuşuyor: “Salı gece yarısı Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki genç bana el salladı.” Cengo: “El sallayan hırsız görmedim ben.”",
-          "meta": "Tekne Bebek'e gitmiş. Kullanan kim olursa olsun, saklanmıyormuş.",
+          "bedelsiz": true, "needs": [], "reveals": ["bebek_yonu", "kemal_kayboldu"],
+          "text": "Çaycı, Cengo'ya üç bardak çayı sonunda ödüyor ve konuşuyor: “Salı gece yarısı Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki bana el salladı; karanlıktı, yüzünü seçemedim.” Cengo: “El sallayan hırsız görmedim ben. Kemal o gece neredeydi?” Çaycı: “Bütün gece burada okey oynadı. Yalnız gece yarısına doğru ‘tekneye bakıp geleyim’ dedi; yarım saat yoktu.”",
+          "meta": "Tekne Bebek'e gitmiş; kullanan saklanmıyormuş. Kemal Reis'in de tam o saatte yarım saati boş.",
           "sahne": {
             "arka": "A10", "figurler": ["peri", "cengo"],
             "satirlar": [
               { "k": "not", "m": "İskelenin çay ocağı. Çaycı, Cengo'ya üç bardak çayı sonunda ödüyor ve konuşuyor." },
-              { "k": "cayci", "i": "normal", "m": "Salı gece yarısı Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki genç bana el salladı.", "gir": "cayci" },
-              { "k": "cengo", "i": "kas", "m": "El sallayan hırsız görmedim ben.", "cik": true }
+              { "k": "cayci", "i": "normal", "m": "Salı gece yarısı Nazlı'nın motoru çalıştı. Bebek'e doğru gitti. Dümendeki bana el salladı; karanlıktı, yüzünü seçemedim.", "gir": "cayci" },
+              { "k": "cengo", "i": "kas", "m": "El sallayan hırsız görmedim ben. Kemal o gece neredeydi?" },
+              { "k": "cayci", "m": "Bütün gece burada okey oynadı. Yalnız gece yarısına doğru “tekneye bakıp geleyim” dedi; yarım saat yoktu." },
+              { "k": "peri", "i": "kas", "m": "Tam gece yarısı.", "cik": true }
             ]
           }
         },
         {
           "id": "iskele", "ad": "İskeleye bak", "tur": "Gözlem", "ico": "◉",
-          "bedelsiz": true, "needs": [], "reveals": ["kilit_saglam"],
-          "text": "Zincir iskelede, yerinde. Kilidi kırılmamış, zorlanmamış; açılıp yeniden kilitlenmiş. Cengo kilide baktı: “Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam.”",
-          "meta": "Zinciri anahtarı olan biri açmış.",
+          "bedelsiz": true, "needs": [], "reveals": ["kilit_saglam", "kemal_boya"],
+          "text": "Zincir iskelede, yerinde. Kilidi kırılmamış, zorlanmamış; açılıp yeniden kilitlenmiş. Cengo kilide baktı: “Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam.” Yan bağlamada Kemal Reis teknesinin başında; elleri bileklerine kadar beyaz boya, küpeşte taze boyalı. Cengo: “Gece yarısı boya yapan adam ya çok çalışkandır ya bir şey saklıyordur.”",
+          "meta": "Zinciri anahtarı olan biri açmış. Yandaki teknede taze beyaz boya var.",
           "sahne": {
             "arka": "A9", "figurler": ["peri", "cengo"],
             "satirlar": [
               { "k": "not", "m": "Zincir iskelede, yerinde.", "mekan": true },
               { "k": "not", "m": "Kilidi kırılmamış, zorlanmamış; açılıp yeniden kilitlenmiş. Cengo kilide bakıyor.", "kare": "D2" },
-              { "k": "cengo", "i": "kas", "m": "Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam." }
+              { "k": "cengo", "i": "kas", "m": "Bu anahtarla açılmış. Ya da benden iyi biri varmış; ona inanmam." },
+              { "k": "not", "m": "Yan bağlamada Kemal Reis teknesinin başında; elleri bileklerine kadar beyaz boya. Küpeşte taze boyalı." },
+              { "k": "cengo", "i": "kas", "m": "Gece yarısı boya yapan adam ya çok çalışkandır ya bir şey saklıyordur." }
+            ]
+          }
+        },
+        {
+          "id": "kemal", "ad": "Kemal Reis'le konuşmak", "tur": "İfade", "ico": "○",
+          "bedelsiz": true, "needs": ["kemal_kayboldu"], "reveals": ["kemal_boya", "kemal_inkar"],
+          "text": "Kemal Reis teknesinin başında; elleri beyaz boyalı. Peri salı geceki yarım saati soruyor. “Teknemdeydim. Boyadım, ne olacak? Gündüz denizdeyim.” Cengo Nazlı'yı soruyor. “Nazlı'yı ben ne yapayım?” Fırçayı kovaya atıyor. “Hırsız arıyorsanız uzağa bakmayın.”",
+          "meta": "Kemal Reis gece teknesini boyadığını söylüyor ve uzağa bakmamamızı tavsiye ediyor.",
+          "sahne": {
+            "arka": "A9", "figurler": ["peri", "cengo"],
+            "satirlar": [
+              { "k": "not", "m": "Kemal Reis teknesinin başında; elleri beyaz boyalı. Elli yaşlarında, iri, Rıza Reis'e selam vermeyen bir adam." },
+              { "k": "peri", "i": "kas", "m": "Salı gece yarım saat neredeydiniz?" },
+              { "k": "kemal", "m": "Teknemdeydim. Boyadım, ne olacak? Gündüz denizdeyim." },
+              { "k": "cengo", "i": "kas", "m": "Nazlı giderken?" },
+              { "k": "kemal", "m": "Nazlı'yı ben ne yapayım?" },
+              { "k": "not", "m": "Fırçayı kovaya atıyor." },
+              { "k": "kemal", "m": "Hırsız arıyorsanız uzağa bakmayın." },
+              { "k": "cengo", "i": "kas", "m": "Bu bir itiraf mıydı, tavsiye mi?" },
+              { "k": "peri", "i": "kas", "m": "Belki ikisi." }
             ]
           }
         },
@@ -220,21 +260,24 @@
               { "k": "asistan", "m": "Figüranlar arkadan." },
               { "k": "not", "m": "Peri arkadan giriyor." },
               { "k": "asistan", "m": "Bu sezonun yıldızı, gerçek bir lüks yat." },
-              { "k": "not", "m": "Setin ortasında “lüks yat”: beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.", "kare": "D3" }
+              { "k": "not", "m": "Setin ortasında “lüks yat”: beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.", "kare": "D3" },
+              { "k": "peri", "i": "sinirli", "m": "Hırsızı bulduk." },
+              { "k": "cengo", "i": "kas", "m": "Hırsız kamera kurmaz." }
             ]
           }
         },
         {
           "id": "set_sorumlusu", "ad": "Set sorumlusuyla konuşmak", "tur": "İfade", "ico": "◈",
-          "needs": ["set_teknesi"], "reveals": ["kiralayan_serkan"],
-          "text": "Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona “Tuba Hanım” diye sesleniyor. Mekân sorumlusu Tuba: “Tekneyi sahibinden kiraladık, üç günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım. Çekim cumaya yetişmezse ben yetişemem.”",
+          "needs": ["set_teknesi"], "reveals": ["kiralayan_serkan", "set_boyadi"],
+          "text": "Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona “Tuba Hanım” diye sesleniyor. Mekân sorumlusu Tuba: “Tekneyi sahibinden kiraladık, üç günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı. Otuzlarında bir adam. Serkan. Ruhsatı göstermedi, ben de sormadım. Boyayı bizim ekip yaptı; sahibi itiraz etmedi. Çekim cumaya yetişmezse ben yetişemem.”",
           "meta": "Tekneyi kiralayan adamın adı Serkan. “Sahibi” olduğunu söylemiş.",
           "sahne": {
             "arka": "A12", "figurler": ["peri", "cengo"],
             "satirlar": [
               { "k": "not", "m": "Setin arkasında, elinde üç telefonla koşturan bir kadın; herkes ona “Tuba Hanım” diye sesleniyor." },
               { "k": "tuba", "i": "normal", "m": "Tekneyi sahibinden kiraladık, üç günlüğüne, günü otuz beş binden, nakit. Yat kiralasak üç katı.", "gir": "tuba" },
-              { "k": "tuba", "m": "Otuzlarında bir adam. Serkan. Ruhsatı göstermedi ama boyamaya itiraz da etmedi, ben de sormadım." },
+              { "k": "tuba", "m": "Otuzlarında bir adam. Serkan. Ruhsatı göstermedi, ben de sormadım." },
+              { "k": "tuba", "m": "Boyayı bizim ekip yaptı. Sahibi itiraz etmedi." },
               { "k": "tuba", "m": "Çekim cumaya yetişmezse ben yetişemem.", "cik": true }
             ]
           }
@@ -242,7 +285,7 @@
         {
           "id": "serkan", "ad": "Rıza Reis'in oğlu", "tur": "İfade", "ico": "◈",
           "needs": [], "reveals": ["serkan_anahtar", "serkan_yaka_karti"],
-          "text": "Peri duraksıyor: “Rıza Reis ‘oğluma söylemeyin’ dedi.” Cengo: “Söylemiyoruz. Soruyoruz.” Çaycı yolu tarif ediyor: “Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur.” Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor. “O kart ne?” Serkan cevap vermiyor. Koşuyor; simitçinin tablası devriliyor. Cengo kestirmeden gidiyor. Peri ara sokakta bir çamaşır ipine dalıp çarşafa sarılıyor, sonra ıslak rıhtımda kayıp balık kasalarının içine oturuyor; kaçan Serkan levreklere basıp sırt üstü düşüyor, Cengo yetişip yakasına yapışıyor. Yerde, nefes nefese itiraf ediyor: teknenin yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. “Ama kaybettim,” diyor. Cebi şıngırdıyor.",
+          "text": "Peri duraksıyor: “Rıza Reis ‘oğluma söylemeyin’ dedi.” Cengo: “Söylemiyoruz. Soruyoruz.” Çaycı yolu tarif ediyor: “Serkan mı? Dükkânının önündedir. Kapalı ama önünde durur.” Serkan, Karaköy'de kapalı bir dükkânın önünde. Babasının teknesi açılınca konuyu değiştiriyor, sonra yine değiştiriyor. Boynunda bir dizi setinin yaka kartı sallanıyor; Peri bakınca kartı gömleğinin içine sokuyor. “O kart ne?” Serkan cevap vermiyor. Koşuyor; simitçinin tablası devriliyor. Cengo kestirmeden gidiyor. Peri ara sokakta bir çamaşır ipine dalıp çarşafa sarılıyor, sonra ıslak rıhtımda kayıp balık kasalarının içine oturuyor; kaçan Serkan levreklere basıp sırt üstü düşüyor, Cengo yetişip yakasına yapışıyor. Yerde, nefes nefese itiraf ediyor: teknenin yedek anahtarı onda; yıllar önce babası vermiş, babası unutmuş. “Ama kaybettim,” diyor. “Kemal Reis bulmuştur! O babamın yerine göz dikti!” Cebi şıngırdıyor.",
           "meta": "Serkan'da yedek anahtar var, kaybettiğini söylüyor. Boynunda da bir dizi setinin yaka kartı var.",
           "sahne": {
             "_not": "Kovalamaca: doruk komedi anı; seçim yok, sonuç değişmez. Peri'nin felaketi (sezon kuralı). Hortumdan sonra Peri temel sete döner.",
@@ -268,6 +311,7 @@
               { "k": "cengo", "i": "gulen", "m": "Siz düştünüz, o kaydı. Ekip işi.", "set": "balikli" },
               { "k": "peri", "i": "sinirli", "m": "(saçından pul ayıklayarak) Planlamıştım." },
               { "k": "serkan", "i": "normal", "m": "Yedek anahtar bende. Yıllar önce babam verdi, unuttu. Ama kaybettim.", "gir": "serkan" },
+              { "k": "serkan", "m": "Kemal Reis bulmuştur! O babamın yerine göz dikti!" },
               { "k": "not", "m": "Cebi şıngırdıyor." },
               { "k": "cengo", "i": "kas", "m": "Kaybettiğin anahtar cebinde şarkı söylüyor.", "cik": true },
               { "k": "peri", "i": "utanmis", "m": "(elindeki levreği nereye koyacağını bilmeden) Bunu kime veriyorum?" },
