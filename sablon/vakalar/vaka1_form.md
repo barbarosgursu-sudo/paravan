@@ -1,6 +1,6 @@
 # VAKA 1 FORMU — KAYIP TEKNE
 
-Şablon 6'ya göre. Durum: **taslak, Onay 1 bekliyor.**
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 8 Ekim 2026). Form ve şablon dondu;** değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 Açılış (haciz, büro, Cengo) bu formun dışında; o bölüm hazır.
 
 ---

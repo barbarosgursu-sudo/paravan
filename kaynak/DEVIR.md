@@ -8,6 +8,22 @@
 
 ---
 
+## 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+
+> Yeni oyun artık **`sablon/`** klasöründeki yapım şablonuyla üretiliyor (7 parça + `vakalar/`).
+> Aşağıdaki §0 şablondan önceki durumdur; Vaka 1 verisi forma göre **yeniden yapılacak.**
+
+- **Şablon dondu.** Vaka 1 formu (`sablon/vakalar/vaka1_form.md`) **Onay 1 aldı.**
+- **Sıradaki iş (7_uretim_sureci.md, adım 3–5):** önce motor işleri (`4_motor_sinirlari.md`
+  "yapılması gerekenler" 1–11: Kim yaptı? ekranı, yüzleşme, sıra, para, kapanış iki hâl,
+  tohum/kapı/bedava ipucu kalkar, K17 giriş denetimi, ipucu adı denetimi), sonra diyalog → veri
+  → görselsiz tur → **Onay 2 (sahibi görselsiz oynar).**
+- **Görsel üretilmez** hikâye donana kadar (adım 7).
+- **Sahibiyle çalışma biçimi:** çok basit ve kısa yaz, Türkçe kelime kullan; bir adımda dur,
+  eksikleri tek tek konuş; yalnız Vaka 1 üzerinde çalış.
+
+---
+
 ## 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > Aşağıdaki §1 ve sonrası **eski oyunun** (dokuz vaka, `index.html`) 23 Eylül durumudur;
