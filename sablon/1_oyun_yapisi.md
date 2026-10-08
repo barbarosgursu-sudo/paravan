@@ -41,10 +41,14 @@ Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
 | seçim | sonuç |
 |---|---|
 | Doğru kişi, doğru kanıt | Suç kanıtlanır. |
-| Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz. Küçük bir bedel öder. |
-| Yanlış kişi | Masum biri suçlanır. Büyük bir bedel ödenir. Gerçek yine ortaya çıkar. |
+| Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz. Ücretten küçük bir kesinti. |
+| Yanlış kişi | Masum biri suçlanır. Ücretten büyük bir kesinti. Gerçek yine ortaya çıkar. |
 
-Bedel para, ilişki ya da itibar olabilir. **Oyun hiçbir durumda bitmez.**
+- **Tek hak:** oyuncu bir kez suçlar.
+- **Bedel yalnız paradır** (müşteri ücretten keser).
+- **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
+- **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
+- **Oyun hiçbir durumda bitmez.**
 
 ## Karar
 
@@ -67,6 +71,6 @@ Bedel para, ilişki ya da itibar olabilir. **Oyun hiçbir durumda bitmez.**
 
 ## Sahibine sorular
 
-1. Yanlış suçlamanın bedeli: para mı, ilişki mi, ikisi mi?
+1. ~~Yanlış suçlamanın bedeli~~ → tek hak, yalnız para, o vakada kalır.
 2. ~~Ters tip~~ → sonra düşünülecek.
 3. ~~3 şüpheli, 4 karar~~ → onaylandı.
