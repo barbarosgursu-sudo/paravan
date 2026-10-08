@@ -28,9 +28,9 @@ Açılış (haciz, büro, Cengo) bu formun dışında; o bölüm hazır.
 | Pazartesi | Tuba'yla anlaşır | — | kiralamayı yapar | — |
 | Salı 23.00 | evde | ocakta okey oynuyor | setin hazırlığı | ocakta |
 | Salı 23.40 | iskeleye gelir | "tekneye bakayım" der, kalkar; kendi teknesinin küpeştesini beyaza boyar | — | ocakta |
-| Salı 00.00 | anahtarla zinciri açıp kilitler, Nazlı'yı çalıştırır, çaycıya el sallar | yan teknede boya yapıyor; **Serkan'ı görür, susar** (Rıza'yla kavgalı) | — | motoru duyar, el sallayanın yüzünü seçemez |
+| Salı 00.00 | anahtarla zinciri açıp kilitler, Nazlı'yı çalıştırır, çaycıya el sallar | yan teknede boya yapıyor; **Serkan'ı görür, susar** (Rıza'yla kavgalı) | — | motoru duyar, teknenin Boğaz'a gittiğini görür, el sallayanın yüzünü seçemez |
 | Salı 00.10 | Bebek'e gider | okeye döner | — | — |
-| Çarşamba sabah | karadan Karaköy'e döner | teknesinde, elleri boyalı | ekip Nazlı'yı beyaza boyar | — |
+| Çarşamba sabah | karadan Karaköy'e döner | teknesinde, elleri boyalı | ekip Nazlı'yı beyaza boyar | Bebek'teki balıkçı arkadaşı arar: "Nazlı'ya benzer bir tekne var, ama beyaz." |
 | Çarşamba öğlen | dükkânın önünde, boynunda set kartı | iskelede | çekim başlar | — |
 | Cuma | borcunu ödeyecek | | çekim biter | |
 | Cumartesi sabah | tekneyi geri getirecek | | | |
@@ -67,7 +67,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 
 | kod | cümle | ipucu |
 |---|---|---|
-| bebek_yonu | Salı gece yarısı Nazlı motoruyla Bebek'e gitti; dümendekinin yüzü seçilmedi. | Çaycı |
+| bebek_yonu | Salı gece yarısı Nazlı Boğaz'a, kuzeye gitti; dümendekinin yüzü seçilmedi. Sabah Bebek'te Nazlı'ya benzer, ama beyaz bir tekne görülmüş. | Çaycı |
 | kemal_kayboldu | Kemal Reis gece yarısına doğru okey masasından kalkıp yarım saat kayboldu. | Çaycı |
 | kilit_saglam | Zincirin kilidi kırılmamış; anahtarla açılıp yeniden kilitlenmiş. | İskele |
 | kemal_boya | Kemal Reis'in elleri ve teknesi taze beyaz boyalı. | İskele |
@@ -92,7 +92,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 | 5 | Serkan'ın dükkânı | Karaköy, kapalı dükkân | koşulsuz (Rıza adını verdi) | serkan_anahtar, serkan_yaka_karti, serkan_borc | Peri + Cengo |
 
 **Sahne özetleri**
-1. Çaycı Cengo'ya üç bardak çay borcunu ödeyip anlatır. Cengo: "Kemal o gece neredeydi?"
+1. Çaycı Cengo'ya üç bardak çay borcunu ödeyip anlatır: tekne Boğaz'a gitti; sabah Bebek'teki balıkçı arkadaşı aradı, "Nazlı'ya benzer, ama beyaz bir tekne var." Cengo: "Kemal o gece neredeydi?"
 2. Zincir yerinde, kilit sağlam. Yan bağlamada Kemal, elleri beyaz. Kaba ve savunmada: "Hırsız arıyorsanız uzağa bakmayın." Cengo: "İtiraf mıydı, tavsiye mi?" Peri: "Belki ikisi."
 3. Peri sete "eski ünlü" diye girmeye çalışır, figüran sanılır. Tekne sette, beyaz, adı boyanın altında. Peri: "Hırsızı bulduk." Cengo: "Hırsız kamera kurmaz."
 4. Cengo yemek masasından Tuba'ya ulaşır. Tuba: "Kiraladık, nakit, sahibi Serkan. Boyayı biz yaptık."
