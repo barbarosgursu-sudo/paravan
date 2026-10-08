@@ -53,6 +53,6 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 
 ## Sahibine sorular
 
-1. **Ekranda iki figür sınırı** uygun mu? Üç kişilik sahnelerde (Peri, Cengo, konuk) Cengo ile konuk sırayla sağda durur.
+1. ✓ *Karar: a (iki figür).* **Ekranda iki figür sınırı** uygun mu? Üç kişilik sahnelerde (Peri, Cengo, konuk) Cengo ile konuk sırayla sağda durur.
    - a) Uygun. *(önerim; görseller ve yerleşim basit kalır)*
    - b) Üç figür olsun (yerleşim ve ölçek işi, her sahnede daha kalabalık ekran).
