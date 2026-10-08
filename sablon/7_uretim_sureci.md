@@ -29,6 +29,13 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 
 Geçmeyen vaka bir sonraki adıma geçmez.
 
+**Giriş (K17)**
+- Arka plan büro.
+- 15–25 replik.
+- Formdaki şüphelinin adı metinde geçiyor.
+- Metindeki ücret formdaki ücretle aynı.
+- Bir ipucunun vereceği bilgi metinde geçmiyor (ipucu olgularının anahtar kelimeleriyle aranır).
+
 **Hikâye**
 - 3 şüpheli var; her yanlış şüpheliyi aklayan bir kanıt var.
 - Suçluyu kanıtlayan en az 2 ipucu yolu var.
@@ -46,7 +53,7 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 - Metinde anılan nesne ya da hareket o satırda görünüyor (satır → görsel tablosu).
 - Her görsel gömülü, adı doğru.
 
-**Elle bakılanlar** (makine yapamaz): espri tutuyor mu, çekicilik seviyesi, görsel kalitesi.
+**Elle bakılanlar** (makine yapamaz): espri tutuyor mu, çekicilik seviyesi, görsel kalitesi. Girişte: suçlu dolaylı yoldan ele veriliyor mu, çekicilik anı ve espri tutuyor mu, giriş ilk gidilecek yer belli olarak bitiyor mu (Onay 2'de sahibi bakar).
 
 ## Değişiklik kuralı
 

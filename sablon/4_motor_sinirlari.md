@@ -49,6 +49,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | 7 | **Bedava ipucu kalkar** (motor zaten destekliyor; yalnız veri) | 1. parça |
 | 8 | **Karar kapıları kapanır:** dört karar her zaman açık | 1. parça |
 | 9 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
+| 10 | **Giriş denetimi (doğrulayıcıda K17):** büro, 15–25 replik, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
 
 ---
 
