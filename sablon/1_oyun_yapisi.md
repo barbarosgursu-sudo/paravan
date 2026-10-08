@@ -20,8 +20,9 @@ Oyun cevabı söylemez. Oyuncu ipuçlarını kendisi birleştirir.
 
 - **3 şüpheli:** 1 gerçek suçlu, 2 yanlış iz.
 - **İpucu ve hak:** bedava ipucu yok, her ipucu bir hak harcar. İpucu sayısı haktan fazladır.
-  - Kolay vaka (Vaka 1): 5 ipucu, 4 hak.
-  - Orta vaka (sonrakiler): 6 ipucu, 3 hak.
+  - Vaka 1: 5 ipucu, 4 hak.
+  - Vaka 2: 6 ipucu, 3 hak.
+  - Sonraki vakalar: bu iki vakayı oynadıktan sonra karar verilecek.
 - **4 karar.**
 - **Süre:** bir vaka 15–25 dakika.
 
@@ -54,7 +55,7 @@ Bedel para, ilişki ya da itibar olabilir. **Oyun hiçbir durumda bitmez.**
 ## İki vaka tipi
 
 - **Bilmece:** Oyuncu da suçluyu bilmez, bulur.
-- **Ters:** Oyuncu suçluyu baştan görür, Peri bilmez. Oyuncu kanıt arar. "Kim yaptı?" ekranında yalnız kanıt seçilir.
+- **Ters:** Oyuncu suçluyu baştan görür, Peri bilmez. Oyuncu kanıt arar. *(Ertelendi; şimdilik yalnız Bilmece.)*
 
 ## Değişmez ilkeler
 
@@ -67,5 +68,5 @@ Bedel para, ilişki ya da itibar olabilir. **Oyun hiçbir durumda bitmez.**
 ## Sahibine sorular
 
 1. Yanlış suçlamanın bedeli: para mı, ilişki mi, ikisi mi?
-2. "Ters" tip kalsın mı, yoksa şimdilik yalnız "Bilmece" mi?
-3. 3 şüpheli ve 4 karar uygun mu? (İpucu ve hak sayıları kararlaştırıldı.)
+2. ~~Ters tip~~ → sonra düşünülecek.
+3. ~~3 şüpheli, 4 karar~~ → onaylandı.
