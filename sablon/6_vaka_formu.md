@@ -116,7 +116,7 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 
 ## 14. Kıyafet
 
-- **Peri:** (yeni kıyafet; sabitleri: etek, ayakkabı, takı…)
+- **Peri:** (yeni kıyafet, kural 15a; sabitleri: etek, ayakkabı, takı…)
 - **Cengo:** (yeni kıyafet)
 - **Peri'nin felaket kıyafeti:** (kovalamacadaki kirli hâl)
 

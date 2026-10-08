@@ -25,7 +25,7 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) **vaka değildir**, vaka 
    - Müşteri kim, ne kaybetmiş, ne istiyor.
    - Ücret konuşulur (tutar fiyat tablosundan).
    - Şüphelilerden en az biri adıyla anılır; oyuncunun aklına ilk şüphe düşer.
-   - Peri'nin yeni kıyafeti ilk kez görünür; çekicilik anı burada olur.
+   - Peri'nin vakadaki kıyafeti ilk kez görünür (kural 15a); çekicilik anı burada olur.
    - Peri ile Cengo arasında bir espri ya da atışma olur.
 4. **Yasak:**
    - Suçlu ele verilmez.

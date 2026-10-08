@@ -241,4 +241,4 @@ Bunlar şablonu değiştirir; onayın gerekiyor.
 4. ✓ *Şablona işlendi.* **Ücret ile karar parası ayrı.** Ücret Kim yaptı?'nın sonucuna göre (35 / 30 / 20 bin), kararlar üstüne ekler ya da düşer. Şablona yazılsın.
 5. ✓ *Şablona işlendi.* **Bağ eşiği.** Kapanıştaki iki hâl için sınır: bağ **+1 ve üstü yüksek**, altı düşük.
 6. ✓ *Şablona işlendi.* **Açılış.** Şablon yalnız vakaları anlatıyor; sezon başındaki açılış (haciz) için bir satır gerekiyor: "Açılış vaka değildir, formun dışındadır."
-7. **İlk vakanın kıyafeti.** "Her vakada yeni kıyafet" kuralına istisna: Vaka 1 temel seti tanıtır.
+7. ✓ *Şablona işlendi.* **İlk vakanın kıyafeti.** "Her vakada yeni kıyafet" kuralına istisna: Vaka 1 temel seti tanıtır.

@@ -28,6 +28,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 
 14. **Siyaset yok.** Devlet, kurumlar, siyasi makamlar ve gerçek kişiler espri konusu olmaz, adları geçmez.
 15. **Çekicilik:** Peri seksi ve çekici; dar ve kısa kıyafet, derin dekolte, bacak, kışkırtıcı poz, flört serbest. Google Play'in ve görsel üreticilerin izin verdiği en yüksek seviye hedeflenir.
+15a. **Her vakada yeni kıyafet** (Peri ve Cengo). İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir.
 16. **Kesin çizgi:** çıplaklık yok, cinsel eylem yok. Reşit olmayan hiç kimse (Cengo'nun kızı dahil) bu çerçeveye girmez.
 17. **Suç olur, vahşet olmaz.** Ölüm sahnelenmez, vakanın merkezinde yas durmaz.
 18. **Hakaretin yönü yukarıdır.** Zayıf, yoksul, hasta biri şakanın hedefi olmaz.
