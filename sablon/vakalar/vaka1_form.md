@@ -159,15 +159,15 @@ Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 4. ipucu
 
 ## 12. Kararlar *(gerçek artık biliniyor; dördü de açık)*
 
-| karar | eylem → sonuç → bedel | karar parası | bağ |
-|---|---|---|---|
-| Rıza'yı sete götür | Rıza çekimi basar, oğlunun adını kırk kişinin içinde duyar; tekne o akşam döner | +0 | +1 |
-| Rıza'ya her şeyi anlat | Baba oğul bir hafta küs; Rıza borcun yarısını öder; bir kasa levrek gelir | +0 | 0 |
-| Serkan'la anlaş, sessizce geri getir | Rıza'ya yalan; üç gün daha denize çıkamaz, ücretten 3.000 ₺ kırdırır | −3.000 | +1 |
-| Yapımcıya susmayı sat | Yapımcı 10.000 ₺ öder; Rıza üç gün denize çıkamaz | +10.000 | −1 |
+| karar | eylem → sonuç → bedel | karar parası | bağ | Cengo satırı | anı defteri | ara kare |
+|---|---|---|---|---|---|---|
+| Rıza'yı sete götür | Rıza çekimi basar, oğlunun adını kırk kişinin içinde duyar; tekne o akşam döner | +0 | +1 | Bütün çekimi bir figüranın yanında izledi: "Bu dizinin en iyi bölümüydü." | Rıza Reis teknesine sette kavuştu; oğlunun adını herkesin önünde duydu. | K3 |
+| Rıza'ya her şeyi anlat | Baba oğul bir hafta küs; Rıza borcun yarısını öder; bir kasa levrek gelir | +0 | 0 | Levrek kasası buzdolabına sığmaz: "Bir hafta balık yiyoruz. Maaşımdan düşmeyin." | Rıza Reis her şeyi benden duydu. Büro bir hafta balık koktu. | K4 |
+| Serkan'la anlaş, sessizce geri getir | Rıza'ya yalan; üç gün daha denize çıkamaz, ücretten 3.000 ₺ kırdırır | −3.000 | +1 | Serkan'ın omzuna vurur: "Cumartesi sabah. Bir dakika geç kalırsan baban da duyar, ben de." | Rıza Reis'e yalan söyledim. Tekne cumartesi döndü. | K5 |
+| Yapımcıya susmayı sat | Yapımcı 10.000 ₺ öder; Rıza üç gün denize çıkamaz | +10.000 | −1 | Yapımcıyı taklit edip güler, sonra boş iskeleye bakar, gülmeyi bırakır. | Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi. | K6 |
 
-- Cengo satırları ve anı defteri notları mevcut metinden aynen.
-- Ara kareler mevcut (K3–K6).
+- **Eski metinden kalkanlar:** "Ücretin tamamı geldi" (ücret Kim yaptı?'ya bağlı); "Serkan sana bir iyilik borçlu" ve "yapımcının defterine not" (tohum yok); koşullu varyantlar (her karara tek metin).
+- Cengo satırları yan yana: üçü espri, yalnız bağı düşüren kararda Cengo susar; "doğru cevap" çıkmaz.
 
 ## 13. Kapanış
 
