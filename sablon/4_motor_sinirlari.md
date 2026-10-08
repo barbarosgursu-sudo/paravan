@@ -50,6 +50,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | 8 | **Karar kapıları kapanır:** dört karar her zaman açık | 1. parça |
 | 9 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
 | 10 | **Giriş denetimi (doğrulayıcıda K17):** büro, 15–25 replik, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
+| 11 | **İpucu adı denetimi:** addaki özel isimler, ipucu açılabilir olduğu anda duyulmuş mu | 1. parça, "Yanlış iz" |
 
 ## K17: giriş denetimi (tasarım)
 

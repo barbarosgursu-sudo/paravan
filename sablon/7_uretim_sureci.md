@@ -42,6 +42,7 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 - Her ipucu yolunda "Kim yaptı?" ekranı çalışıyor (tam, zayıf ya da yanlış sonuç).
 - Defter cümleleri suçluyu söylemiyor.
 - Hak edilmemiş bilgi sızmıyor (isim, olgu, görsel).
+- İpucu adındaki özel isimler, ipucu açılabilir olduğu anda oyuncunun duyduğu adlar arasında.
 
 **Karar ve para**
 - En az bir dürüst karar her yolda açık.

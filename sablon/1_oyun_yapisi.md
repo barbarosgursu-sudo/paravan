@@ -65,6 +65,7 @@ Oyun cevabı söylemez. Oyuncu ipuçlarını kendisi birleştirir.
 - Suçluyu tam kanıtlayan **en az iki ayrı ipucu yolu** vardır.
 - Müşterinin anlattıkları ipucu değil, girişin parçasıdır.
 - İpucu adları açıktır; oyuncu neye hak harcadığını bilir.
+- **İpucu adı, açılmadan önce oyuncunun bildiğinden fazlasını söylemez** (yeni ad, yer, nesne yok).
 
 ## Kim yaptı? ekranı
 

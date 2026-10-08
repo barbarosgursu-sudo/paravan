@@ -87,9 +87,9 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 |---|---|---|---|---|---|
 | 1 | Çaycıyla konuşmak | çay ocağı | koşulsuz | bebek_yonu, kemal_kayboldu | Cengo (çaycı ona borçlu) |
 | 2 | İskele ve Kemal Reis | iskele | koşulsuz | kilit_saglam, kemal_boya, kemal_inkar | Peri (gözlem, sorgu) |
-| 3 | Bebek'teki dizi seti | Bebek | bebek_yonu | set_teknesi, nazli_izi, yat_tanitimi | Peri ("Beni tanırlar") |
-| 4 | Set sorumlusu Tuba | set arkası | set_teknesi | kiralayan_serkan, set_boyadi | Cengo (yemek masasından sızar) |
-| 5 | Serkan'ın dükkânı | Karaköy, kapalı dükkân | koşulsuz (Rıza adını verdi) | serkan_anahtar, serkan_yaka_karti, serkan_borc | Peri + Cengo |
+| 3 | Bebek'teki beyaz tekne | Bebek | bebek_yonu | set_teknesi, nazli_izi, yat_tanitimi | Peri ("Beni tanırlar") |
+| 4 | Setin sorumlusuyla konuşmak | set arkası | set_teknesi | kiralayan_serkan, set_boyadi | Cengo (yemek masasından sızar) |
+| 5 | Serkan'ı bulmak | Karaköy, kapalı dükkân | koşulsuz (Rıza adını verdi) | serkan_anahtar, serkan_yaka_karti, serkan_borc | Peri + Cengo |
 
 **Sahne özetleri**
 1. Çaycı Cengo'ya üç bardak çay borcunu ödeyip anlatır: tekne Boğaz'a gitti; sabah Bebek'teki balıkçı arkadaşı aradı, "Nazlı'ya benzer, ama beyaz bir tekne var." Cengo: "Kemal o gece neredeydi?"
