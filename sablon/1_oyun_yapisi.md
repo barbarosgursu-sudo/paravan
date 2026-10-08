@@ -19,8 +19,9 @@ Oyun cevabı söylemez. Oyuncu ipuçlarını kendisi birleştirir.
 ## Sabit sayılar
 
 - **3 şüpheli:** 1 gerçek suçlu, 2 yanlış iz.
-- **7 ipucu:** 3 bedava, 4 bedelli.
-- **3 araştırma hakkı.**
+- **İpucu ve hak:** bedava ipucu yok, her ipucu bir hak harcar. İpucu sayısı haktan fazladır.
+  - Kolay vaka (Vaka 1): 5 ipucu, 4 hak.
+  - Orta vaka (sonrakiler): 6 ipucu, 3 hak.
 - **4 karar.**
 - **Süre:** bir vaka 15–25 dakika.
 
@@ -28,7 +29,9 @@ Oyun cevabı söylemez. Oyuncu ipuçlarını kendisi birleştirir.
 
 - Her yanlış şüphelinin onu suçlu gösteren bir izi vardır.
 - Her yanlış izi çözen bir kanıt vardır.
-- Bedava ipuçları tek başına suçluyu göstermez.
+- Suçluyu tam kanıtlayan **en az iki ayrı ipucu yolu** vardır.
+- Müşterinin anlattıkları ipucu değil, girişin parçasıdır.
+- İpucu adları açıktır; oyuncu neye hak harcadığını bilir.
 
 ## Kim yaptı? ekranı
 
@@ -65,4 +68,4 @@ Bedel para, ilişki ya da itibar olabilir. **Oyun hiçbir durumda bitmez.**
 
 1. Yanlış suçlamanın bedeli: para mı, ilişki mi, ikisi mi?
 2. "Ters" tip kalsın mı, yoksa şimdilik yalnız "Bilmece" mi?
-3. Sayılar (3 şüpheli, 7 ipucu, 3 hak, 4 karar) uygun mu?
+3. 3 şüpheli ve 4 karar uygun mu? (İpucu ve hak sayıları kararlaştırıldı.)
