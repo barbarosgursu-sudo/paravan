@@ -17,6 +17,21 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) **vaka değildir**, vaka 
 7. **Karar:** Oyuncu ne yapacağını seçer (ahlaki seçim).
 8. **Kapanış:** Kısa bir son sahne.
 
+## Giriş (her vakada)
+
+1. **Yer:** büro. Müşteri kapıdan girer.
+2. **Uzunluk:** 15–25 replik (2–4 dakika).
+3. **İçinde bulunması gerekenler:**
+   - Müşteri kim, ne kaybetmiş, ne istiyor.
+   - Ücret konuşulur (tutar fiyat tablosundan).
+   - Şüphelilerden en az biri adıyla anılır; oyuncunun aklına ilk şüphe düşer.
+   - Peri'nin yeni kıyafeti ilk kez görünür; çekicilik anı burada olur.
+   - Peri ile Cengo arasında bir espri ya da atışma olur.
+4. **Yasak:**
+   - Suçlu ele verilmez.
+   - Bir ipucunun vereceği bilgi önceden söylenmez.
+5. **Bitiş:** İş kabul edilir, ilk gidilecek yer belli olur.
+
 ## Kovalamaca (her vakada, önemli)
 
 - Her vakada bir kovalamaca ya da arbede olur. Birkaç dakikalık fiziksel komedi.

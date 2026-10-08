@@ -23,12 +23,16 @@ Hikâye değişecekse önce form değişir.
 - **Nasıl:**
 - **Zaman çizelgesi:** saat saat. Her şüphelinin o anda **nerede olduğu ve ne gördüğü** yazılır.
 
-## 3. Müşteri
+## 3. Giriş *(kurallar: 1. parça, "Giriş")*
 
-- **Kim:**
-- **Ne istiyor:**
-- **Girişte ne anlatıyor:** (bunlar ipucu değil, girişin parçası)
+- **Müşteri:** kim, ne istiyor
 - **Ne saklıyor:** (varsa)
+- **Girişte anlattıkları:** (bunlar ipucu değil, girişin parçası)
+- **Adı anılan şüpheli:**
+- **Ücret konuşması:**
+- **Çekicilik anı:**
+- **Espri:**
+- **Nasıl bitiyor:** (iş kabul, ilk gidilecek yer)
 
 ## 4. Şüpheliler (3)
 
@@ -144,6 +148,7 @@ Metinde geçen her tutar burada yazılı olmalı.
 
 ## 19. Kontrol (form onaya gitmeden)
 
+- [ ] Giriş kurallarına uyuyor (şüpheli anılıyor, suçlu ele verilmiyor)
 - [ ] 3 şüpheli; her yanlış şüphelinin izi ve aklanması var
 - [ ] Suçluyu kanıtlayan en az 2 yol var
 - [ ] Defter cümleleri suçluyu söylemiyor
