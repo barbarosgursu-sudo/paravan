@@ -119,7 +119,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık. {kare: D3}
 **PERİ [sinirli]:** Hırsızı bulduk.
 **CENGO [kas]:** Hırsız kamera kurmaz. {kime: peri}
-*Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba, peri: sasirmis}
+*Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba, peri: merakli}
 **TUBA [normal]:** Tekne bizim, belgesi tamam. Çekimdeyiz, gidin.
 **PERİ [kas]:** Belgeyi görebilir miyim?
 **TUBA:** Çekimdeyiz dedim. {cik}
