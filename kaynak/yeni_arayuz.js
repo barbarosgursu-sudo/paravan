@@ -11,7 +11,8 @@
    Cengo). Konuk yokken Peri solda, Cengo sağda. Konuk sahnedeyken konuk sağda kalır;
    Cengo konuşursa Peri'nin yerine SOLA geçer (aynalı, konuğa bakar) — konuşan ile
    karşısındaki hep ekranda (sahibinin kararı, 9 Ekim 2026). Cengo konuk varken
-   Peri'ye konuşuyorsa satıra `kime: peri` yazılır: Cengo eskisi gibi sağa geçer. */
+   Peri'ye konuşuyorsa satıra `kime: peri` yazılır: Cengo eskisi gibi sağa geçer.
+   Konuk satırında `kime: peri|cengo` solda kimin duracağını seçer (yoksa sol değişmez). */
 
 /* Yeni oyunun motoru (motor_yeni.js, derlemede bu dosyadan hemen önce gömülür).
    `oyun` eski betikte zaten kuruldu; prototipini değiştirmek yeterli (kurucu aynı).
@@ -207,6 +208,9 @@ function vnSatirGoster(satir){
   if(k === "peri") vn.sol = "peri";
   if(k === "cengo" && konukVar && satir.kime !== "peri"){ vn.sol = "cengo"; vn.mevcut.add(k); }
   else if(figur && k !== "peri"){ vn.mevcut.add(k); vn.sag = k; if(k === "cengo") vn.sol = "peri"; }
+  // Konuk satırında kime: karşısındaki (solda) kim olsun — "Kızım…" Peri'ye.
+  if(k !== "peri" && k !== "cengo" && satir.kime === "peri") vn.sol = "peri";
+  if(k !== "peri" && k !== "cengo" && satir.kime === "cengo" && vn.mevcut.has("cengo")) vn.sol = "cengo";
   if(figur && satir.i) vn.ifade[k] = satir.i;
   // peri: Peri konuşmuyorken de ifadesi değişebilir (Hilmi Bey tacı okurken Peri onu çoktan kavramış).
   if(satir.peri) vn.ifade.peri = satir.peri;

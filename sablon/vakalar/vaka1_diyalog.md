@@ -9,7 +9,7 @@
 - `**PERİ [kas]:** metin` → konuşan, ifade (verilmezse öncekisi kalır), metin
 - `*metin*` → anlatı satırı (sahne notu)
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
-  `gir: serkan`, `cik`, `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına), `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
+  `gir: serkan`, `cik`, `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına; konuk satırında: solda Peri/Cengo), `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
 - `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
@@ -29,7 +29,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **RIZA [normal]:** Değilim. Dedektif burası mı? Camda öyle yazıyor.
 **CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım.
 *Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15}
-**RIZA [normal]:** Kızım, sen o yarışmadaki değil misin?
+**RIZA [normal]:** Kızım, sen o yarışmadaki değil misin? {kime: peri}
 **CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu. {kime: peri}
 **PERİ [kas]:** Buyurun, oturun. Ne oldu? {gir: riza}
 **RIZA [dertli]:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı.

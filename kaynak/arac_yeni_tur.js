@@ -38,7 +38,7 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   console.log('açılış satır', await vnOyna('acilis', ['O koltukta', 'Peri mantoyu', 'Tel lazım', 'Dört bin']));
   await foto('masa'); await tasmaBak('masa');
   await p.click('.dosya-afis');
-  console.log('giriş+konuşma', await vnOyna('giris', ['Teknemi aldılar', 'Camda yazıyor', 'Peri mantosunu', 'Buyurun, oturun', 'Bir de…', 'Hiç denediniz']));
+  console.log('giriş+konuşma', await vnOyna('giris', ['Teknemi aldılar', 'Camda yazıyor', 'Peri mantosunu', 'Kızım, sen', 'Buyurun, oturun', 'Bir de…', 'Hiç denediniz']));
   await foto('arastirma');
   const sira = YOL === "set" ? ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla','Serkan\'ı bulmak']
                              : ['İskele ve Kemal','Serkan\'ı bulmak','Çaycıyla konuşmak','Bebek\'teki beyaz','Setin sorumlusuyla'];

@@ -141,7 +141,7 @@
               "set": "mantosuz",
               "kare": "K15"
             },
-            {"k": "riza", "i": "normal", "m": "Kızım, sen o yarışmadaki değil misin?"},
+            {"k": "riza", "i": "normal", "m": "Kızım, sen o yarışmadaki değil misin?", "kime": "peri"},
             {"k": "cengo", "i": "gulen", "m": "Yarışmayı hatırlayan son seyirci de bulundu.", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Buyurun, oturun. Ne oldu?", "gir": "riza"},
             {"k": "riza", "i": "dertli", "m": "Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı."},
