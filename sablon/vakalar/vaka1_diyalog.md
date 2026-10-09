@@ -111,14 +111,14 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **PERİ [kas]:** Herkes. Ben güzellik kraliçesiydim.
 **ASİSTAN:** *(Peri'yi baştan aşağı süzüp)* Figüranlar arkadan.
 **PERİ [sinirli]:** …Figüran mı?
-**CENGO [gulen]:** Kraliçeler arkadan giriyormuş.
+**CENGO [gulen]:** Kraliçeler arkadan giriyormuş. {kime: peri}
 **PERİ [sinirli]:** Bir kelime daha edersen maaşını keserim.
-**CENGO [gulen]:** Önce bir verin, sonra kesin.
+**CENGO [gulen]:** Önce bir verin, sonra kesin. {kime: peri}
 **ASİSTAN:** *(telefonunu figüranlara gösteriyor)* Bu sezonun yıldızı: gerçek bir lüks yat.
 *Setin ortasında "lüks yat": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.* {kare: D3}
 **BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık. {kare: D3}
 **PERİ [sinirli]:** Hırsızı bulduk.
-**CENGO [kas]:** Hırsız kamera kurmaz.
+**CENGO [kas]:** Hırsız kamera kurmaz. {kime: peri}
 *Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba}
 **TUBA [normal]:** Tekne bizim, belgesi tamam. Çekimdeyiz, gidin.
 **PERİ [kas]:** Belgeyi görebilir miyim?
