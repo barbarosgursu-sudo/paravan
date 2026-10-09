@@ -42,6 +42,7 @@
     "peri.manto.cuzdan": "sprite/peri_manto_cuzdan.webp",
     "peri.manto.sasirmis": "sprite/peri_manto_sasirmis.webp",
     "peri.manto.merakli": "sprite/peri_manto_merakli.webp",
+    "peri.manto.aci": "sprite/peri_manto_aci.webp",
     "peri.mantosuz.normal": "sprite/peri_mantosuz_normal.webp",
     "peri.mantosuz.kas": "sprite/peri_mantosuz_kas.webp",
     "peri.mantosuz.sinirli": "sprite/peri_mantosuz_sinirli.webp",
@@ -98,6 +99,6 @@
     "A13": {"ad": "Karaköy · ara sokak", "grup": "sokak"},
     "A14": {"ad": "Karaköy · dükkânın içi", "grup": "dukkan"}
   },
-  "yer_tutucu": ["peri.manto.aci", "cengo.sinirli"],
+  "yer_tutucu": ["cengo.sinirli"],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir."
 }

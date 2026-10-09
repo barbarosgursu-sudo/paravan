@@ -183,6 +183,10 @@ Kimseye bağırmıyor; kendine kızgın.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** Ölçek ve baş yüksekliği temel görselle aynı. Manto
+kuşaksız ve önü açık geldi (kuşak yanlarda sarkıyor; etek ve kemer görünüyor) — cüzdanlı ve
+kâğıtlı görsellerde de manto açık, kabul edildi. `--profil peri`, elle düzeltme yok.
+
 ## G6 — Cengo, sinirli
 
 **Referans 1:** Cengo, nötr (CA2).
