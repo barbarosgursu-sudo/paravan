@@ -50,7 +50,8 @@
         "K13",
         "K14",
         "K15",
-        "K16"
+        "K16",
+        "K17"
       ],
       "buro": ["A6", "A7", "A8"]
     }
@@ -329,7 +330,8 @@
             {
               "k": "not",
               "m": "Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.",
-              "arka": "A5b"
+              "arka": "A5b",
+              "kare": "K17"
             },
             {"k": "peri", "i": "sinirli", "m": "Bu kapı beni hiç sevmedi."},
             {"k": "cengo", "i": "gulen", "m": "Kapı kimseyi sevmez. Kilit sever."},

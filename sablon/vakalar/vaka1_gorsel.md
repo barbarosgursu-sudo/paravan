@@ -428,6 +428,9 @@ Kapıda, duvarda, hiçbir yerde yazı, numara, levha yok. Elinde kâğıt yok.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): 2. deneme tuttu.** Sırtı kapıya yaslı, bir eli arkada anahtarda (büyütüldü:
+anahtar kilitte, el doğru), öteki alnında. Yazı yok. Kare K17; diyalogda koridor satırında.
+
 ## G11 — Cengo teli Peri'nin avucuna koyuyor (ara kare, bağ yüksek)
 
 **Referans 1:** Koridor, akşam (A5b). **Referans 2:** Peri, mantolu (A2). **Referans 3:** Cengo (CA2).

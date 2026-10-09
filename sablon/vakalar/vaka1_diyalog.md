@@ -287,7 +287,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ Bağın iki hâli (kural 12a, eşik +1): `bag: dusuk` / `bag: yuksek` satırları.
 
 *Aynı akşam. Büro. İskelenin ışıkları yanmış. Cengo kapıya yürüyor.*
-*Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.* {arka: A5b}
+*Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.* {arka: A5b, kare: K17}
 **PERİ [sinirli]:** Bu kapı beni hiç sevmedi.
 **CENGO [gulen]:** Kapı kimseyi sevmez. Kilit sever.
 *Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor.* {kare: D1}

@@ -91,7 +91,7 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   await p.click('.buton:has-text("Devam et")');
   gorulen = [];
   const bagY = await p.evaluate(() => oyun.bagYuksek());
-  console.log('kapanış', await vnOyna('kapanis', ['Cengo merdivenden', 'Teli kilitte', 'Teli Peri']),
+  console.log('kapanış', await vnOyna('kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri']),
     '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith('Teli Peri')) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith('Teli kilitte')) ? 'soğuk satırlar' : 'iki hâl yok');
   await foto('son');
   // kayıt-sürdürme: yeniden yükle
