@@ -125,6 +125,11 @@ değil mi?" diye konuyu değiştiren biri. Ter yok, korku yok.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** Kordon ve kart yok. Eller ters tarafta (cep kadrajın
+solunda, ense sağında) — önemsiz. İfade istenenden biraz tedirgin/mahcup (yarım gülüş değil);
+satırlarına ("Ne diyorsunuz siz?", "Ne kanıtınız var?") uyuyor, bırakıldı. 1122×1402 geldi →
+`--profil konuk`. `serkan.normal` artık `figur_serkan_sakin.webp`.
+
 ## G4 — Serkan, panik
 
 **Referans 1:** G3 çıktısı.

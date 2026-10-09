@@ -51,7 +51,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 |---|---|---|---|---|---|
 | G1 | Kemal Reis, normal (fırçalı) | **oyunda** (9 Ekim) | `figur_kemal_normal.webp` | `kemal.normal` | iskele ipucu |
 | G2 | Kemal Reis, öfkeli (G1'den) | **oyunda** (9 Ekim) | `figur_kemal_ofkeli.webp` | `kemal.ofkeli` | Kemal yüzleşmesi |
-| G3 | Serkan, sakin, kartsız | bekleniyor | `figur_serkan_sakin.webp` | `serkan.normal` (eski kartlı görselin yerine) | Serkan ipucu, yüzleşmeler |
+| G3 | Serkan, sakin, kartsız | **oyunda** (9 Ekim) | `figur_serkan_sakin.webp` | `serkan.normal` (eski kartlı görselin yerine) | Serkan ipucu, yüzleşmeler |
 | G4 | Serkan, panik (G3'ten) | bekleniyor | `figur_serkan_panik.webp` | `serkan.panik` | yüzleşmeler |
 | G5 | Peri mantolu, acı | bekleniyor | `sprite/peri_manto_aci.webp` | `peri.manto.aci` | zayıf kanıt yüzleşmesi |
 | G6 | Cengo, sinirli | bekleniyor | `sprite/cengo_sinirli.webp` | `cengo.sinirli` | ileride |
@@ -68,7 +68,8 @@ Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da
 
 **Referans dosyaları:** sahibi her promptla referans görsellerini de istiyor. Depo kökünde
 `referans/` (git'e girmez) — `G<n>-<sıra>_<ad>.png`; kesilmiş figürler bej zemine basılır.
-Kemal'in kesim profili: `arac_kes.js --profil kemal` (1122×1402, tam genişlik).
+Kemal'in kesim profili: `arac_kes.js --profil kemal`; Serkan ve sonraki konuklar `--profil konuk`
+(ikisi de 1122×1402, tam genişlik). Eski `figur_serkan.webp` (kartlı) artık kullanılmıyor.
 
 ## 5. Görsel gelince yapılacaklar (sırayla)
 

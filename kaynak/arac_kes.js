@@ -14,6 +14,7 @@
 //   cengo  x 10–1111  · delik doldurma kapalı (beyaz gömlek)
 //   hilmi  x 0–1085   · delik doldurma kapalı (beyaz gömlek); kaynak 1086×1448
 //   kemal  x 0–1121   · delik doldurma tol 10 (14 önlükteki boya damlasını yer); kaynak 1122×1402
+//   konuk  = kemal (1122×1402 gelen yeni konuklar: Serkan G3/G4)
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
 //           standart kutuya hizalanıp taşar. Araç gereken CSS'i basar.
@@ -31,6 +32,8 @@ const PROFILLER = {
   hilmi: { x0: 0,   x1: 1085, kenarTol: 28, delik: false, delikTol: 14, yenidenTol: 0,  aynali: false },
   // Kemal: kaynak 1122×1402, tam genişlik; kol-gövde arası boşluk için delik doldurma açık.
   kemal: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
+  // Yeni konuklar (Serkan 9 Ekim'den sonra): aynı 1122×1402 çerçeve.
+  konuk: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
 };
 
 const arg = process.argv.slice(2);
