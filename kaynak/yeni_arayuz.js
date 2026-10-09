@@ -579,15 +579,24 @@ const KY_SONUC_BASLIK = { dogru: "Doğru kişi, sağlam kanıt", zayif: "Doğru 
 function cozumEkrani(){
   const a = oyun.durum.aktif, ky = a.vaka.kim_yapti, sc = a.suclama, f = a.vaka.facts;
   const ad = id => (ky.supheliler.find(x => x.id === id) || {}).ad || id;
-  const cz = ky.cozum || { yollar: [], masum: {} };
+  const cz = ky.cozum || { masum: {} };
+  const madde = ids => `<ul class="ky-madde">${ids.map(id => `<li>${vnHtml(f[id])}</li>`).join("")}</ul>`;
   let h = ust() + '<div class="faz ky">';
   h += `<div class="baslik"><div class="no">Dosya çözüldü</div><h1 style="font-size:24px">${KY_SONUC_BASLIK[sc.sonuc]}</h1></div>`;
-  h += `<div class="ky-not">Suçladığın: <b>${vnHtml(ad(sc.supheli))}</b>. Gösterdiğin kanıtlar:</div>`;
-  h += `<div class="ky-ozet">${sc.kanitlar.map(id => `<div class="o">${vnHtml(f[id])}</div>`).join("")}</div>`;
-  if(sc.sonuc === "yanlis" && cz.masum[sc.supheli]) h += `<div class="ky-aciklama">${vnHtml(cz.masum[sc.supheli])}</div>`;
-  if(sc.sonuc === "zayif") h += `<div class="ky-aciklama">Kişi doğruydu ama bu iki kanıt onu suça bağlamıyordu.</div>`;
-  h += `<div class="faz-etiket"><span class="t">${vnHtml(ad(ky.suclu))} nasıl kanıtlanırdı</span></div>`;
-  h += `<div class="ky-ozet">${cz.yollar.map(y => `<div class="o yol">${vnHtml(y)}</div>`).join("")}</div>`;
+  // Ada ek koymuyoruz (ünlü uyumu her adda tutmaz).
+  const ozet = sc.sonuc === "dogru" ? `Suçlu doğru: ${ad(ky.suclu)}. Kanıtların da sağlam.`
+             : sc.sonuc === "zayif" ? `Suçlu doğru: ${ad(ky.suclu)}. Ama kanıtların onu suça bağlamadı.`
+             : (cz.masum[sc.supheli] || `${ad(sc.supheli)} masumdu.`);
+  h += `<div class="ky-not">${vnHtml(ozet)}</div>`;
+  h += `<div class="ky-alt-baslik">Senin kanıtların</div>` + madde(sc.kanitlar);
+  if(sc.sonuc !== "dogru"){
+    // Tek yol: oyuncunun seçtiğine en yakın doğru çift (ortak kanıtı olan önce).
+    const somut = o => typeof o === "string" ? o : (o.any || o.all || [])[0];
+    const ciftler = ky.dogru_ciftler.map(c => c.map(somut));
+    const yakin = ciftler.map(c => ({ c, ortak: c.filter(x => sc.kanitlar.includes(x)).length }))
+                         .sort((x, y) => y.ortak - x.ortak)[0].c;
+    h += `<div class="ky-alt-baslik">Şu ikisi yeterdi</div>` + madde(yakin);
+  }
   h += `<button class="buton" onclick="kararEkrani()">Karara geç →</button></div>`;
   app.innerHTML = h; scrollUst();
 }

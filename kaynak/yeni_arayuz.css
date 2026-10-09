@@ -206,3 +206,6 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .ky-grup.acik + .ky-secenek{margin-top:-2px}
 .ky-aciklama{margin:10px 24px 0;padding:10px 12px;background:#fff;border:3px solid var(--gece);border-left:6px solid var(--tramvay);border-radius:12px;font-size:15px;font-weight:700}
 .ky-ozet .o.yol{border-left-color:var(--bogaz)}
+.ky-alt-baslik{margin:16px 24px 4px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--sonuk)}
+.ky-madde{margin:0 24px;padding-left:20px;font-size:16px;line-height:1.45}
+.ky-madde li{margin:6px 0}
