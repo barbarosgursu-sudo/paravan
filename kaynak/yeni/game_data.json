@@ -476,7 +476,8 @@
               {
                 "k": "not",
                 "m": "Elinde üç telefonla bir kadın koşarak geliyor; herkes ona \"Tuba Hanım\" diyor.",
-                "gir": "tuba"
+                "gir": "tuba",
+                "peri": "sasirmis"
               },
               {"k": "tuba", "i": "normal", "m": "Tekne bizim, belgesi tamam. Çekimdeyiz, gidin."},
               {"k": "peri", "i": "kas", "m": "Belgeyi görebilir miyim?"},
