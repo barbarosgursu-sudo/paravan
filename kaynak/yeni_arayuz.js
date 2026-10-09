@@ -506,7 +506,6 @@ function kyGruplar(){
     k.forEach(o => atanan.add(o));
     if(k.length) gruplar.push({ ad, kanitlar: k });
   };
-  ekle(ky.giris_grup || "Girişte anlatılanlar", (v.giris || []).flatMap(g => g.acilan || []));
   for(const c of v.clues) if(a.acilanKaynaklar.has(c.id)) ekle(c.ad, c.reveals || []);
   ekle("Diğer", [...elde]);
   return gruplar;

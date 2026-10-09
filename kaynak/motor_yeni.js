@@ -36,11 +36,14 @@ class OyunYeni extends Oyun {
       .map(s => ({ id: s.id, ad: s.ad }));
   }
 
-  // Kanıt olarak gösterilebilecekler: oyuncunun elindeki OLGULAR (çıkarımlar değil).
+  // Kanıt olarak gösterilebilecekler: oyuncunun AÇTIĞI ipuçlarından gelen olgular.
+  // Girişte müşterinin anlattıkları herkesin bildiği bilgidir, kanıt değil (sahibinin
+  // görselsiz testi, 9 Ekim 2026: "yedekler evdeydi" seçilince 3 kanıt gerekiyormuş sanıldı).
   kanitlar() {
     const a = this.durum.aktif; if (!a) return [];
     const f = a.vaka.facts || {};
-    return [...a.bilinen].filter(x => f[x]).map(id => ({ id, metin: f[id] }));
+    const ipucundan = new Set(a.vaka.clues.filter(c => a.acilanKaynaklar.has(c.id)).flatMap(c => c.reveals || []));
+    return [...a.bilinen].filter(x => f[x] && ipucundan.has(x)).map(id => ({ id, metin: f[id] }));
   }
 
   // Bir çift öğesi tek olgu ya da ifade ({any:[...]}) olabilir.

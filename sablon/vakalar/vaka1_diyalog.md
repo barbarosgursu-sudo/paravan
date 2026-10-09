@@ -242,7 +242,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ## cozum
 ⚙ "Dosya çözüldü" ekranı (kovalamacadan sonra, karardan önce). YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: yanlış şüphelinin neden masum olduğu.
 
-**YOL:** Kiralayan Karaköy'den bir balıkçı + zincir anahtarla açılmış (anahtar ailede).
+**YOL:** Zincir anahtarla açılmış + Kiralayan Karaköy'den bir balıkçı.
 **YOL:** Kiralayan Karaköy'den bir balıkçı + Serkan'ın cuma borcu.
 **YOL:** Zincir anahtarla açılmış + Serkan'ın cuma borcu.
 **MASUM kemal:** Kemal masumdu: o gece teknesine branda örtüyordu. Beyaz boyayı öğleden sonra sürmüştü; Nazlı'yı set ekibi boyamıştı.
