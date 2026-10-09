@@ -169,8 +169,9 @@ plan, aynı ölçek ve kadraj: uyluk ortasından yukarısı, başın tepesi ayn�
 
 Değişen tek şey poz ve ifade.
 
-Poz (ikinci referanstaki gibi): TAM İKİ KOL, İKİ EL. Kolları dekoltenin altında kavuşturulmuş;
-manto açık, bluz ve dekolte görünüyor.
+Poz (ikinci referanstaki gibi): TAM İKİ KOL, İKİ EL. Kolları dekoltenin altında, mantonun
+üstünden kavuşturulmuş. Manto birinci referanstaki gibi: kuşağı belde bağlı, yakası açık; bluz ve
+dekolte yakadan görünüyor.
 
 Başın açısı: başı kadrajın soluna dönük; burnu kadrajın soluna bakıyor, kulağı kadrajın sağında.
 
