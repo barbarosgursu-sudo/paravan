@@ -34,6 +34,7 @@
         "D1",
         "D2",
         "D3",
+        "D4",
         "K1",
         "K2",
         "K3",
@@ -541,7 +542,8 @@
               {"k": "serkan", "m": "Yedek mi? Yıllar önce babamda kaldı. Evde bir yerdedir."},
               {
                 "k": "not",
-                "m": "Kepengin üstüne bantlanmış, el yazısı bir not: \"Cuma günü ya para ya anahtar. — Ev sahibi.\""
+                "m": "Kepengin üstüne bantlanmış, el yazısı bir not: \"Cuma günü ya para ya anahtar. — Ev sahibi.\"",
+                "kare": "D4"
               },
               {"k": "peri", "i": "normal", "m": "Cumaya ne kadar borcunuz var?"},
               {"k": "serkan", "m": "Yüz bine yakın. Ne alakası var?"},

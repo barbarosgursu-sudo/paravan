@@ -151,7 +151,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **SERKAN [normal]:** Duydum. Kemal'le kavgalılar, biliyorsunuz.
 **CENGO [kas]:** Teknenin yedek anahtarı kimde?
 **SERKAN:** Yedek mi? Yıllar önce babamda kaldı. Evde bir yerdedir.
-*Kepengin üstüne bantlanmış, el yazısı bir not: "Cuma günü ya para ya anahtar. — Ev sahibi."*
+*Kepengin üstüne bantlanmış, el yazısı bir not: "Cuma günü ya para ya anahtar. — Ev sahibi."* {kare: D4}
 **PERİ [normal]:** Cumaya ne kadar borcunuz var?
 **SERKAN:** Yüz bine yakın. Ne alakası var?
 **PERİ [kas]:** Bilmiyorum. Henüz.

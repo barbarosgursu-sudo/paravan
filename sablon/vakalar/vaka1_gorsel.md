@@ -368,6 +368,12 @@ Başka hiçbir nesne yok. Kepengin üstünde yazı, afiş, tabela yok.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): A yoluyla tuttu, bir düzenlemeyle.** İlk A görselinde bel altı kırmızıydı
+(kuşak bağlı manto kırmızı etek gibi okunuyordu) → görsel düzenletildi; 2. referans kâğıtlı Peri
+(`peri_manto_kagit`: manto açık, siyah etek, kemer). Kâğıt kontrast açılarak bakıldı: arkadan
+sızan yazı yok. Kepende yırtık bant kalıntısı var. Kare D4; diyalogda not satırında.
+Metin "kepengin üstüne bantlanmış" diyor, görsel koparılmış notu gösteriyor — sahibinin onayı.
+
 ## G10 — Koridor, akşam: Peri anahtarla boğuşuyor (ara kare)
 
 **Referans 1:** Peri kapıda anahtarla (K13, gündüz). **Referans 2:** Koridor, akşam (A5b).
