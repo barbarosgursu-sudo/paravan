@@ -50,7 +50,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | # | ne | durum | gidecek dosya | manifesto anahtarı | metinde yeri |
 |---|---|---|---|---|---|
 | G1 | Kemal Reis, normal (fırçalı) | **oyunda** (9 Ekim) | `figur_kemal_normal.webp` | `kemal.normal` | iskele ipucu |
-| G2 | Kemal Reis, öfkeli (G1'den) | bekleniyor | `figur_kemal_ofkeli.webp` | `kemal.ofkeli` | Kemal yüzleşmesi |
+| G2 | Kemal Reis, öfkeli (G1'den) | **oyunda** (9 Ekim) | `figur_kemal_ofkeli.webp` | `kemal.ofkeli` | Kemal yüzleşmesi |
 | G3 | Serkan, sakin, kartsız | bekleniyor | `figur_serkan_sakin.webp` | `serkan.normal` (eski kartlı görselin yerine) | Serkan ipucu, yüzleşmeler |
 | G4 | Serkan, panik (G3'ten) | bekleniyor | `figur_serkan_panik.webp` | `serkan.panik` | yüzleşmeler |
 | G5 | Peri mantolu, acı | bekleniyor | `sprite/peri_manto_aci.webp` | `peri.manto.aci` | zayıf kanıt yüzleşmesi |

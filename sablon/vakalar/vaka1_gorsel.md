@@ -99,6 +99,9 @@ damarları belirgin.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** Baş tepesi G1 ile aynı satırda (y=12), iki el beşer
+parmak, yazı yok. `--profil kemal` ile temiz kesildi, elle düzeltme gerekmedi.
+
 ## G3 — Serkan, sakin (kartsız)
 
 **Referans 1:** Serkan'ın mevcut görseli.
