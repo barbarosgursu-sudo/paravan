@@ -66,7 +66,13 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   if (!secim) throw new Error('bu yolda "' + SONUC + '" sonucu verecek seçim yok');
   if (!(await p.$(`.ky-secenek[onclick="kySupheli('${secim.kim}')"]`))) throw new Error('şüpheli ekranda yok: ' + secim.kim);
   await p.click(`.ky-secenek[onclick="kySupheli('${secim.kim}')"]`);
-  for (const id of secim.kanit) await p.click(`.ky-secenek[onclick="kyKanit('${id}')"]`);
+  await foto('kimyapti_supheli');
+  for (const id of secim.kanit) {
+    // Kanıtlar başlık altında kapalı durur: önce o kanıtın başlığını aç.
+    const n = await p.evaluate(id => kyGruplar().findIndex(g => g.kanitlar.includes(id)), id);
+    if (!(await p.$(`.ky-secenek[onclick="kyKanit('${id}')"]`))) await p.click(`.ky-grup[onclick="kyGrup(${n})"]`);
+    await p.click(`.ky-secenek[onclick="kyKanit('${id}')"]`);
+  }
   await foto('kimyapti_secili');
   await p.click('.buton:has-text("Suçla")');
   await foto('kimyapti_onay');

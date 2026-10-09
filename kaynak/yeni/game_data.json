@@ -599,7 +599,8 @@
         "kesinti": {
           "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Rıza Reis {kesinti} kesti.",
           "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Rıza Reis {kesinti} kesti."
-        }
+        },
+        "giris_grup": "Rıza Reis'in anlattıkları"
       },
       "anahtarlar": {
         "bebek_yonu": ["Bebek", "kuzey"],

@@ -197,3 +197,10 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .vn-yer-tutucu b{font-family:"Shrikhand",Georgia,serif;font-weight:normal;font-size:20px}
 .vn-yer-tutucu span{font-weight:800;font-size:15px}
 .vn-yer-tutucu em{font-style:normal;font-size:12px;letter-spacing:2px;text-transform:uppercase;opacity:.85}
+.ky-secenek.ky-kisi{font-size:19px;padding:16px 16px}
+.ky-grup{font:inherit;display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;background:var(--panel);color:var(--gece);
+  border:3px solid var(--gece);border-radius:12px;padding:12px 14px;font-size:16px;font-weight:800;min-height:48px;cursor:pointer}
+.ky-grup.acik{background:#fff2d6}
+.ky-grup-say{font-size:14px;font-weight:700;color:var(--sonuk);white-space:nowrap}
+.ky-grup-say b{color:var(--tramvay)}
+.ky-grup.acik + .ky-secenek{margin-top:-2px}
