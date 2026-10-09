@@ -204,6 +204,8 @@ function vnSatirGoster(satir){
   if(satir.set){ vn.set = satir.set; vnSonSet = satir.set; }
   if(satir.arka) vnArkaKoy(satir.arka, vn.hizli);
   if(satir.gir){ vn.mevcut.add(satir.gir); if(satir.gir !== "peri") vn.sag = satir.gir; }
+  // gizle: o figür bu satırdan itibaren ekranda değil (ör. Cengo kestirmeye koştu); konuşunca geri gelir.
+  if(satir.gizle){ vn.mevcut.delete(satir.gizle); if(vn.sag === satir.gizle) vn.sag = null; if(vn.sol === satir.gizle) vn.sol = "peri"; }
   // gi: giren konuğun ilk ifadesi ({gir: kemal, gi: ofkeli}) — konuşmadan önce de doğru yüz.
   if(satir.gir && satir.gi) vn.ifade[satir.gir] = satir.gi;
   const k = satir.k;

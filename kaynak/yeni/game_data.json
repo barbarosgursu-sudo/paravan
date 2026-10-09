@@ -271,7 +271,7 @@
               "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!",
               "kare": "K10"
             },
-            {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?", "kare": "K10"},
+            {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?", "gizle": "cengo"},
             {"k": "cengo", "m": "(uzaktan) Bilmiyorum!", "kare": "K10"},
             {
               "k": "not",
