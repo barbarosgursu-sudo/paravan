@@ -64,6 +64,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G9 | Kepenkte borç notu (detay) | **oyunda** (9 Ekim, 3. deneme) | `detay_d4_not.webp` | `D4` | serkan ipucu, satır ~154 ("Kepengin üstüne bantlanmış…") |
 | G10 | Akşam koridoru, Peri anahtarla | **oyunda** (9 Ekim, 2. deneme) | `ara_k17_anahtar_aksam.webp` | `K17` | kapanış, satır ~290 ("Koridor. Peri anahtarı kilide sokuyor") |
 | G11 | Cengo teli Peri'nin avucuna koyuyor | **oyunda** (9 Ekim) | `ara_k18_avuc.webp` | `K18` | kapanış, satır ~297 (`bag: yuksek`) |
+| A6b | Büro gündüz, ters açı, manto askıda (sahibinin isteği) | **oyunda** (9 Ekim) | `arka_a6b_buro_askili.webp` | `A6b` | giriş K15'ten sonra, konuşma sahnesi |
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 

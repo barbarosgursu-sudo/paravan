@@ -28,7 +28,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **PERİ [normal]:** Ev sahibi değilsiniz.
 **RIZA [normal]:** Değilim. Dedektif burası mı? Camda öyle yazıyor.
 **CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım.
-*Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15}
+*Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15, arka: A6b}
 **RIZA [normal]:** Kızım, sen o yarışmadaki değil misin? {kime: peri}
 **CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu. {kime: peri}
 **PERİ [kas]:** Buyurun, oturun. Ne oldu? {gir: riza}
@@ -50,7 +50,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **RIZA [normal]:** Bir de… oğlum Serkan'a söylemeyin. Üzülür. {cik}
 
 ## sahne konusma
-⚙ arka: A6 · figurler: peri, cengo
+⚙ arka: A6b · figurler: peri, cengo
 
 **CENGO [gulen]:** İlk müşteri.
 **PERİ [kas]:** Parası tekne dönünce.

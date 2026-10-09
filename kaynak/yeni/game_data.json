@@ -29,7 +29,7 @@
         "boyaci": "Set boyacısı",
         "tuba_tel": "Tuba (telefonda)"
       },
-      "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
+      "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A6b", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
       "kareler": [
         "D1",
         "D2",
@@ -54,7 +54,7 @@
         "K17",
         "K18"
       ],
-      "buro": ["A6", "A7", "A8"]
+      "buro": ["A6", "A6b", "A7", "A8"]
     }
   },
   "ekonomi": {"baslangic_kasa": 4250, "gider": {}, "borc_faizi": 0},
@@ -139,7 +139,8 @@
               "k": "not",
               "m": "Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.",
               "set": "mantosuz",
-              "kare": "K15"
+              "kare": "K15",
+              "arka": "A6b"
             },
             {"k": "riza", "i": "normal", "m": "Kızım, sen o yarışmadaki değil misin?", "kime": "peri"},
             {"k": "cengo", "i": "gulen", "m": "Yarışmayı hatırlayan son seyirci de bulundu.", "kime": "peri"},
@@ -174,7 +175,7 @@
           ]
         },
         "konusma": {
-          "arka": "A6",
+          "arka": "A6b",
           "figurler": ["peri", "cengo"],
           "satirlar": [
             {"k": "cengo", "i": "gulen", "m": "İlk müşteri."},
