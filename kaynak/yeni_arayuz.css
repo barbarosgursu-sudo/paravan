@@ -212,3 +212,7 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .ky-alt-baslik{margin:16px 24px 4px;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--sonuk)}
 .ky-madde{margin:0 24px;padding-left:20px;font-size:16px;line-height:1.45}
 .ky-madde li{margin:6px 0}
+
+/* Konuşma sırasında Kişiler penceresi (vnKisilerAc). */
+.vn-gec.vn-kisi{padding-left:12px;padding-right:12px}
+.vn-kisiler{position:fixed;inset:0;z-index:60;overflow-y:auto;background:var(--zemin1);color:var(--metin);padding:18px 16px 28px;max-width:480px;margin:0 auto}

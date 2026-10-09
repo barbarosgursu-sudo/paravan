@@ -80,6 +80,7 @@ function sahneOynat(sahne, sonra, baslik, onceki, devam){
   app.innerHTML = `<div class="vn" role="application" aria-label="Konuşma">
     <div class="vn-serit"><span class="vn-baslik">${vnHtml(baslik||"")}</span>
       <span class="vn-sag"><span class="vn-kasa" id="vnKasa" hidden></span>
+      ${oyun.durum && oyun.durum.aktif ? '<button class="vn-gec vn-kisi" id="vnKisi" type="button" aria-label="Kişiler">☗</button>' : ""}
       ${VN_GERI ? '<button class="vn-gec vn-geri" id="vnGeri" type="button" hidden>◂ Geri</button>' : ""}
       <button class="vn-gec" id="vnGec" type="button">Sahneyi geç ▸▸</button></span></div>
     <div class="vn-sahne" id="vnSahne">
@@ -103,6 +104,7 @@ function sahneOynat(sahne, sonra, baslik, onceki, devam){
   $("vnKutu").addEventListener("keydown", e => { if(e.key === "Enter" || e.key === " "){ e.preventDefault(); vnIlerle(); } });
   $("vnGec").addEventListener("click", e => { e.stopPropagation(); vnGec(); });
   if(VN_GERI) $("vnGeri").addEventListener("click", e => { e.stopPropagation(); vnGeri(); });
+  if($("vnKisi")) $("vnKisi").addEventListener("click", e => { e.stopPropagation(); vnKisilerAc(); });
   if(sahne.arka) vnArkaKoy(sahne.arka, true);
   vnKasaTazele();
   if(devam && devam.adim > 0) vnSar(devam); else vnIlerle();
@@ -745,3 +747,29 @@ function yenidenBaslaOnay(){
   prologIndex = 0; prologGoster();
 }
 function yenidenBaslaVazgec(){ app.innerHTML = vnOnayOncesi; scrollUst(); }
+
+/* Konuşma sırasında Kişiler: künye konuşmanın ÜSTÜNDE pencere olarak açılır, kapanınca
+   konuşma aynı satırdan sürer (sayfa değişmez, vn durumu el sürülmeden kalır). Düğme
+   yalnız bir vaka açıkken çıkar — açılışta Cengo ve Hilmi Bey'le henüz tanışılmadı.
+   Kart mantığı eski kisilerGoster'ın aynısı: tanışılan kişi, en derin bilinen katman. */
+function vnKisilerAc(){
+  if(document.getElementById("vnKisiler")) return;
+  const bilinen = oyun.tumBilinen();
+  let h = '<div class="panel-baslik">☗ Kişiler</div>';
+  for(const kisi of KISILER.kisiler){
+    if(!(kisi.tanisma === "her_zaman" || bilinen.has(kisi.tanisma))) continue;
+    let tanim = "";
+    for(const kat of kisi.katmanlar) if(kat.kosul === "her_zaman" || bilinen.has(kat.kosul)) tanim = kat.tanim;
+    let portre = kisi.portre || "";
+    for(const pk of (kisi.portre_katman||[])) if(bilinen.has(pk.kosul)) portre = pk.portre;
+    const src = GORSELLER[portre.replace(".jpg","")];
+    h += `<div class="kisi-kart"><div class="kisi-portre">${src ? `<img src="${src}" alt="${vnHtml(kisi.ad)}">` : "☗"}</div>
+      <div class="kisi-bilgi"><div class="ad">${vnHtml(kisi.ad)}</div><div class="tanim">${vnHtml(tanim)}</div></div></div>`;
+  }
+  h += '<button class="buton ikincil" id="vnKisilerKapat" type="button">← Konuşmaya dön</button>';
+  const d = document.createElement("div");
+  d.className = "vn-kisiler"; d.id = "vnKisiler"; d.innerHTML = h;
+  d.addEventListener("click", e => e.stopPropagation());
+  document.querySelector(".vn").append(d);
+  document.getElementById("vnKisilerKapat").addEventListener("click", () => d.remove());
+}
