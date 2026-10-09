@@ -18,7 +18,11 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
   (`vaka1_gorsel.md`); G7–G11 promptları mekâna göre düzeltildi, G9 üç denemede tuttu.
 - **Onay 3 sürüyor (9 Ekim):** sahibinin oyun notlarıyla — "Buyurun, oturun"da sağa Rıza
   (`gir: riza`); konuk varken Cengo sola geçer, konuğa bakar (A yolu, `yeni_arayuz.js`;
-  `kime: peri` istisnası 3 satırda). Sonra Vaka 2.
+  `kime: peri` istisnası 3 satırda; konuk satırında da `kime`). Cengo sinirli metinde ("Babana
+  söyleyecek miydin?"). Boyacı satırında D3 kalır. Tuba küçüldü (0.8). 29 figürde saç halesi
+  temizlendi. A6b (büro ters açı, manto askıda). K3 yeniden çizildi (mavi iz tek yerde, küpeşte
+  bütün). Şablona oran satırı (figür 4:5, sahne 3:4). Sahibi oynamaya devam ediyor; notları
+  geldikçe tek tek. Onay 3 verilince Vaka 2.
 
 ## 2. Sahibiyle çalışma biçimi (çok önemli)
 
