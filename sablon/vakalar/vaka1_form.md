@@ -1,6 +1,6 @@
 # VAKA 1 FORMU — KAYIP TEKNE
 
-Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 8 Ekim 2026). Form ve şablon dondu;** değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 8 Ekim 2026). Hikâye dondu (Onay 2, 9 Ekim 2026); görseller `vaka1_gorsel.md`. Form ve şablon dondu;** değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 Açılış (haciz, büro, Cengo) bu formun dışında; o bölüm hazır.
 
 ---

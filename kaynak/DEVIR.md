@@ -22,13 +22,13 @@
   formdaki 5'e değil eski 7'ye göre. Bunlar diyalog adımının işi.
 - **Diyalog yazıldı (8 Ekim):** `sablon/vakalar/vaka1_diyalog.md` tek kaynak; `arac_diyalog.js`
   veriye yazar. 5 ipucu / 4 hak, bedava yok; Kemal figürsüz (ses). Altı yol turda temiz.
-- **Onay 2 sürüyor (8 Ekim):** sahibinin notlarıyla yapılanlar — kural 21c (tek ipucu suçluyu
-  göstermez; Tuba ad vermez, Serkan sakin), kural 22a (karar ekranında kısa sonuç, kasaya giden,
-  Cengo'nun tavrı, ücret kesintisinin sebebi), eksik görsellere gri yer tutucu (`yer_tutucu`).
-- **Sıradaki iş: Onay 2** — sahibi görselsiz oynar (bakılan: hikâye anlaşılıyor mu, bulmaca,
-  Kim yaptı? keyifli mi, espriler, süre). Notlar değişiklik kuralına göre sınıflanır.
+- **Onay 2 TAMAM (9 Ekim): hikâye dondu.** Sahibinin görselsiz test notlarıyla yapılanlar —
+  kural 21c, kural 22a (kısa sonuç, kasaya giden, Cengo'nun tavrı, kesinti sebebi), gri yer
+  tutucu, iki adımlı Kim yaptı?, Dosya çözüldü ekranı, satırdan sürdürme, Sahneyi geç onarımı.
+- **Sıradaki iş: adım 8, görseller.** Liste ve 11 prompt: `sablon/vakalar/vaka1_gorsel.md`
+  (numaralı referanslarla sahibine gönderildi). Görsel geldikçe: kontrol (dosyanın sonu),
+  figürse `arac_kes.js`, göm, `gorseller.json` → `yer_tutucu`'dan çıkar, tur. Sonra Onay 3.
 - Tur: `node arac_yeni_tur.js [karar] [set|dukkan] [dogru|zayif|kemal|tuba]`.
-- **Görsel üretilmez** hikâye donana kadar (adım 7).
 - **Sahibiyle çalışma biçimi:** çok basit ve kısa yaz, Türkçe kelime kullan; bir adımda dur,
   eksikleri tek tek konuş; yalnız Vaka 1 üzerinde çalış.
 
