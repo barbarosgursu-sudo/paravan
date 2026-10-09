@@ -433,29 +433,40 @@ anahtar kilitte, el doğru), öteki alnında. Yazı yok. Kare K17; diyalogda kor
 
 ## G11 — Cengo teli Peri'nin avucuna koyuyor (ara kare, bağ yüksek)
 
-**Referans 1:** Koridor, akşam (A5b). **Referans 2:** Peri, mantolu (A2). **Referans 3:** Cengo (CA2).
+**Referans 1:** Koridor, akşam (A5b). **Referans 2:** Peri, mantolu (A2). **Referans 3:** D1 (Cengo'nun
+eli, ceket kolu, bileklik ve tel — gündüz).
+
+*9 Ekim düzeltmesi:* 3. referans Cengo'nun tam boyu yerine D1 yapıldı: el, kol, bileklik ve tel
+orada zaten çizili; tel aynı nesne olmalı.
 
 ```
 Birinci referans görseldeki akşam koridorunun AYNISI arka planda, bulanık: aynı yanan tavan
-lambası, aynı koyu ahşap kapı, aynı çizim tarzı. İkinci referans görseldeki kadının YALNIZ eli
-ve kırmızı manto kolu; üçüncü referans görseldeki adamın YALNIZ eli, ceket kolu ve renkli
-boncuk bilekliği.
+lambası, aynı koyu ahşap kapı ve pirinç kilit, dipteki pencerede lacivert akşam göğü, aynı çizim
+tarzı. İkinci referans görseldeki kadının YALNIZ eli ve domates kırmızısı yün manto kolu. Üçüncü
+referans görseldeki adamın YALNIZ eli, kahverengi süet ceket kolu, krem gömlek manşeti, renkli
+boncuk bileklik ve elindeki ince, ucu kıvrık gümüş tel — aynı tel.
 
 Kadraj: DİKEY (3:4). YAKIN ÇEKİM: iki el kadrajın ortasında, göğüs hizasında.
 
 Kadrajda YALNIZ şunlar var:
-1. Kadının sağ eli, avucu yukarı açık; kırmızı manto kolu, kırmızı ojeli parmaklar; yüzük yok.
-2. Adamın eli kadının avucunun üstünde: parmaklarının arasından ince, eğilmiş, gümüş renkli bir
-   teli kadının avucuna bırakıyor; parmak uçları kadının avucuna bir an değiyor. Bileğinde renkli
-   boncuk bileklik; ceket kolu.
+1. Kadının eli kadrajın altından giriyor, avucu yukarı açık; kırmızı manto kolu, kırmızı ojeli
+   parmaklar; yüzük, bilezik yok. Tam beş parmak.
+2. Adamın eli kadrajın üstünden, kadının avucunun üstünde: başparmağı ile işaret parmağı
+   arasındaki ince, ucu kıvrık gümüş teli kadının avucuna bırakıyor; parmak uçları kadının
+   avucuna bir an değiyor. Bileğinde renkli boncuk bileklik; süet ceket kolu, krem manşet.
+   Tam beş parmak.
 3. Arka planda, bulanık: lamba ışığı, kapı.
 
-İki yüz de kadraja girmiyor. Başka hiçbir nesne yok.
+TAM İKİ EL var: biri kadının, biri adamın. İki yüz de kadraja girmiyor. Başka hiçbir nesne yok.
 
-Işık: sıcak sarı lamba; tel küçük bir parıltıyla parlıyor. Hava: sessiz, yakın; bir dokunuş.
+Işık: akşam; sıcak sarı lamba ışığı ellerin üstünde; tel küçük bir parıltıyla parlıyor. Hava:
+sessiz, yakın; bir dokunuş.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+**Bakılacaklar:** el sayısı (en büyük risk: üçüncü el ya da birleşik parmak); tel D1'deki gibi mi;
+gündüz ışığı sızmış mı.
 
 ---
 
