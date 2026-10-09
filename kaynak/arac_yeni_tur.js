@@ -47,7 +47,7 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
     if (!(await el.count())) { console.log('yok:', ad); continue; }
     if (await el.evaluate(e => e.classList.contains('yetersiz'))) { console.log('hak bitti:', ad); continue; }
     await el.click();
-    const s = await vnOyna('ipucu', ['Ne olacak?', 'Hırsız arıyorsanız', 'Bu sezonun', 'Duydum.']);
+    const s = await vnOyna('ipucu', ['Ne olacak?', 'Hırsız arıyorsanız', 'Bu sezonun', 'Duydum.', 'Set arkası, yemek']);
     await foto('kart'); await tasmaBak('kart');
     console.log('ipucu', ad, s, 'satır');
     await p.click('.buton:has-text("Araştırmaya dön")');

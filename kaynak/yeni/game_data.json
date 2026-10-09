@@ -30,7 +30,27 @@
         "tuba_tel": "Tuba (telefonda)"
       },
       "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
-      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10", "K11", "K12", "K13", "K14", "K15"],
+      "kareler": [
+        "D1",
+        "D2",
+        "D3",
+        "K1",
+        "K2",
+        "K3",
+        "K4",
+        "K5",
+        "K6",
+        "K7",
+        "K8",
+        "K9",
+        "K10",
+        "K11",
+        "K12",
+        "K13",
+        "K14",
+        "K15",
+        "K16"
+      ],
       "buro": ["A6", "A7", "A8"]
     }
   },
@@ -477,7 +497,8 @@
               {
                 "k": "not",
                 "m": "Set arkası, yemek masası. Cengo bir tabak pilav alıp Tuba'nın yanına oturuyor.",
-                "mekan": true
+                "mekan": true,
+                "kare": "K16"
               },
               {"k": "cengo", "i": "gulen", "m": "Pilavınız güzel."},
               {"k": "tuba", "i": "normal", "m": "Sen kimsin?", "gir": "tuba"},

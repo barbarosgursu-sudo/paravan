@@ -129,7 +129,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ arka: A12 · figurler: peri, cengo
 ⚙ Kural 21c: Tuba kiralayanın adını VERMEZ. "Karaköy'den bir balıkçı" Kemal'e de Serkan'a da uyar.
 
-*Set arkası, yemek masası. Cengo bir tabak pilav alıp Tuba'nın yanına oturuyor.* {mekan}
+*Set arkası, yemek masası. Cengo bir tabak pilav alıp Tuba'nın yanına oturuyor.* {mekan, kare: K16}
 **CENGO [gulen]:** Pilavınız güzel.
 **TUBA [normal]:** Sen kimsin? {gir: tuba}
 **CENGO [normal]:** Teknenin sahibinin adamıyım.

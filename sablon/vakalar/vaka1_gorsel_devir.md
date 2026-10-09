@@ -56,7 +56,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G5 | Peri mantolu, acı | **oyunda** (9 Ekim) | `sprite/peri_manto_aci.webp` | `peri.manto.aci` | zayıf kanıt yüzleşmesi |
 | G6 | Cengo, sinirli | **oyunda** (9 Ekim; metinde henüz kullanılmıyor) | `sprite/cengo_sinirli.webp` | `cengo.sinirli` | ileride |
 | G7 | Peri mantosunu asıyor, Rıza gözünü kaçırıyor | **oyunda** (9 Ekim) | `ara_k15_aski.webp` | `K15` | giriş, diyalog satır ~31 ("Peri mantosunu çıkarıp askıya asıyor") |
-| G8 | Cengo pilavla Tuba'nın yanında | bekleniyor | `ara_k16_pilav.webp` | `K16` | set_sorumlusu ipucu, satır ~132 ("Set arkası, yemek masası…") |
+| G8 | Cengo pilavla Tuba'nın yanında | **oyunda** (9 Ekim) | `ara_k16_pilav.webp` | `K16` | set_sorumlusu ipucu, satır ~132 ("Set arkası, yemek masası…") |
 | G9 | Kepenkte borç notu (detay) | bekleniyor | `detay_d4_not.webp` | `D4` | serkan ipucu, satır ~154 ("Kepengin üstüne bantlanmış…") |
 | G10 | Akşam koridoru, Peri anahtarla | bekleniyor | `ara_k17_anahtar_aksam.webp` | `K17` | kapanış, satır ~290 ("Koridor. Peri anahtarı kilide sokuyor") |
 | G11 | Cengo teli Peri'nin avucuna koyuyor | bekleniyor | `ara_k18_avuc.webp` | `K18` | kapanış, satır ~297 (`bag: yuksek`) |

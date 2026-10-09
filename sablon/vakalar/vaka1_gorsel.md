@@ -302,6 +302,10 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Bakılacaklar:** sandık ve ışıkta etiket/yazı; telefon ekranı; Tuba'nın yüzü referansla aynı mı.
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** Mekân A12'yle aynı; telefonların yalnız arkası
+görünüyor; sandık, ışık, sandalye bezinde yazı yok (büyütüldü). Cengo pilavı yiyor (metindeki
+"Pilavınız güzel"e uyuyor). Kare K16; diyalogda tek satırda (`{mekan, kare: K16}`).
+
 ## G9 — Kepenkte bantlı borç notu, Peri'nin elinde (detay)
 
 **Referans 1:** Ara sokak, kapalı dükkân (A13). **Referans 2:** Peri, mantolu (A2).
