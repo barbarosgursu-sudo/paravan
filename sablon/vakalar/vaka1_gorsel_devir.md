@@ -72,6 +72,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G11 | Cengo teli Peri'nin avucuna koyuyor | **oyunda** (9 Ekim) | `ara_k18_avuc.webp` | `K18` | kapanış, satır ~297 (`bag: yuksek`) |
 | A6b | Büro gündüz, ters açı, manto askıda (sahibinin isteği) | **oyunda** (9 Ekim) | `arka_a6b_buro_askili.webp` | `A6b` | giriş K15'ten sonra, konuşma sahnesi |
 | G12 | Set asistanı (sahibinin isteği; görünüş onaylı: yirmilerinde, siyah küt saç, siyah tişört/kargo, telsiz, telefon) | **oyunda** (9 Ekim; 2. üretim denendi, sahibi ilkini tercih etti — boy 0.76) | `figur_asistan.webp` | `asistan.normal` (ses → figür) | bebek ipucu, iki satır |
+| G13 | Kemal, sokak hâli, öfkeli (önlüksüz, eller yıkanmış; sahibinin isteği) | **oyunda** (9 Ekim) | `figur_kemal_sokak.webp` | `kemal.sokak` | Kemal yüzleşmesi (iskele fırçalı/önlüklü kalır) |
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 

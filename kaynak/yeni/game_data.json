@@ -20,7 +20,7 @@
         "serkan": {"ad": "Serkan", "ifadeler": ["normal", "panik"]},
         "tuba": {"ad": "Tuba", "ifadeler": ["normal"]},
         "cayci": {"ad": "Çaycı", "ifadeler": ["normal"]},
-        "kemal": {"ad": "Kemal Reis", "ifadeler": ["normal", "ofkeli"]},
+        "kemal": {"ad": "Kemal Reis", "ifadeler": ["normal", "ofkeli", "sokak"]},
         "asistan": {"ad": "Set asistanı", "ifadeler": ["normal"]}
       },
       "sesler": {"ses": "Ses", "teyze": "Teyze", "boyaci": "Set boyacısı", "tuba_tel": "Tuba (telefonda)"},
@@ -229,10 +229,10 @@
               "k": "not",
               "m": "Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.",
               "gir": "kemal",
-              "gi": "ofkeli"
+              "gi": "sokak"
             },
             {"k": "peri", "i": "kas", "m": "Kemal Reis. Nazlı'yı siz aldınız."},
-            {"k": "kemal", "i": "ofkeli", "m": "Ben mi? Ben buraya alacağımı almaya geldim!"},
+            {"k": "kemal", "i": "sokak", "m": "Ben mi? Ben buraya alacağımı almaya geldim!"},
             {"k": "kemal", "m": "Dümende Rıza'nın oğlu vardı. Gözümle gördüm!"},
             {"k": "cengo", "i": "kas", "m": "Gördün de sustun mu?"},
             {"k": "kemal", "m": "Rıza'ya mı söyleyecektim? Yakama yapışan adama?"},

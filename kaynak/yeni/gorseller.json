@@ -85,6 +85,7 @@
     "asistan.normal": "figur_asistan.webp",
     "kemal.normal": "figur_kemal_normal.webp",
     "kemal.ofkeli": "figur_kemal_ofkeli.webp",
+    "kemal.sokak": "figur_kemal_sokak.webp",
     "serkan.panik": "figur_serkan_panik.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
