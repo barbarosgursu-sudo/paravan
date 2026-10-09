@@ -142,7 +142,7 @@
               "kare": "K15"
             },
             {"k": "riza", "i": "normal", "m": "Kızım, sen o yarışmadaki değil misin?"},
-            {"k": "cengo", "i": "gulen", "m": "Yarışmayı hatırlayan son seyirci de bulundu."},
+            {"k": "cengo", "i": "gulen", "m": "Yarışmayı hatırlayan son seyirci de bulundu.", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Buyurun, oturun. Ne oldu?", "gir": "riza"},
             {"k": "riza", "i": "dertli", "m": "Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı."},
             {"k": "cengo", "i": "kas", "m": "Nazlı kim?"},
@@ -437,7 +437,7 @@
               {"k": "kemal", "m": "Nazlı'yı ben ne yapayım?"},
               {"k": "not", "m": "Fırçayı kovaya atıyor."},
               {"k": "kemal", "i": "ofkeli", "m": "Hırsız arıyorsanız uzağa bakmayın."},
-              {"k": "cengo", "i": "kas", "m": "Bu bir itiraf mıydı, tavsiye mi?"},
+              {"k": "cengo", "i": "kas", "m": "Bu bir itiraf mıydı, tavsiye mi?", "kime": "peri"},
               {"k": "peri", "i": "kas", "m": "Belki ikisi."}
             ]
           }
@@ -509,8 +509,8 @@
                 "mekan": true,
                 "kare": "K16"
               },
-              {"k": "cengo", "i": "gulen", "m": "Pilavınız güzel."},
-              {"k": "tuba", "i": "normal", "m": "Sen kimsin?", "gir": "tuba"},
+              {"k": "cengo", "i": "gulen", "m": "Pilavınız güzel.", "gir": "tuba"},
+              {"k": "tuba", "i": "normal", "m": "Sen kimsin?"},
               {"k": "cengo", "i": "normal", "m": "Teknenin sahibinin adamıyım."},
               {
                 "k": "tuba",
@@ -556,7 +556,7 @@
               {"k": "peri", "i": "normal", "m": "Cumaya ne kadar borcunuz var?"},
               {"k": "serkan", "m": "Yüz bine yakın. Ne alakası var?"},
               {"k": "peri", "i": "kas", "m": "Bilmiyorum. Henüz."},
-              {"k": "cengo", "i": "kas", "m": "Dükkân kapalı, borç açık."}
+              {"k": "cengo", "i": "kas", "m": "Dükkân kapalı, borç açık.", "kime": "peri"}
             ]
           }
         }

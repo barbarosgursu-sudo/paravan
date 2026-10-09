@@ -9,7 +9,7 @@
 - `**PERİ [kas]:** metin` → konuşan, ifade (verilmezse öncekisi kalır), metin
 - `*metin*` → anlatı satırı (sahne notu)
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
-  `gir: serkan`, `cik`, `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
+  `gir: serkan`, `cik`, `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına), `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
 - `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
@@ -30,7 +30,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım.
 *Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15}
 **RIZA [normal]:** Kızım, sen o yarışmadaki değil misin?
-**CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu.
+**CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu. {kime: peri}
 **PERİ [kas]:** Buyurun, oturun. Ne oldu? {gir: riza}
 **RIZA [dertli]:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı.
 **CENGO [kas]:** Nazlı kim?
@@ -99,7 +99,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **KEMAL:** Nazlı'yı ben ne yapayım?
 *Fırçayı kovaya atıyor.*
 **KEMAL [ofkeli]:** Hırsız arıyorsanız uzağa bakmayın.
-**CENGO [kas]:** Bu bir itiraf mıydı, tavsiye mi?
+**CENGO [kas]:** Bu bir itiraf mıydı, tavsiye mi? {kime: peri}
 **PERİ [kas]:** Belki ikisi.
 
 ## ipucu bebek
@@ -130,8 +130,8 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ Kural 21c: Tuba kiralayanın adını VERMEZ. "Karaköy'den bir balıkçı" Kemal'e de Serkan'a da uyar.
 
 *Set arkası, yemek masası. Cengo bir tabak pilav alıp Tuba'nın yanına oturuyor.* {mekan, kare: K16}
-**CENGO [gulen]:** Pilavınız güzel.
-**TUBA [normal]:** Sen kimsin? {gir: tuba}
+**CENGO [gulen]:** Pilavınız güzel. {gir: tuba}
+**TUBA [normal]:** Sen kimsin?
 **CENGO [normal]:** Teknenin sahibinin adamıyım.
 **TUBA:** Sahibi değil mi o? Karaköy'den bir balıkçı geldi, "sahibiyim" dedi. Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin.
 **PERİ [kas]:** Adı neydi?
@@ -155,7 +155,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **PERİ [normal]:** Cumaya ne kadar borcunuz var?
 **SERKAN:** Yüz bine yakın. Ne alakası var?
 **PERİ [kas]:** Bilmiyorum. Henüz.
-**CENGO [kas]:** Dükkân kapalı, borç açık.
+**CENGO [kas]:** Dükkân kapalı, borç açık. {kime: peri}
 
 ---
 

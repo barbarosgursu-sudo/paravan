@@ -107,6 +107,7 @@ Satırda isteğe bağlı sahne değişiklikleri:
 | `kare: "K8"` | tam ekran ara kare / detay; figürler çekilir |
 | `set: "balikli"` | Peri'nin kıyafet seti değişir (sonraki ifadeler o setten seçilir) |
 | `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar |
+| `kime: "peri"` | konuk varken Cengo Peri'ye konuşuyor: sağa geçer. Yoksa Cengo konuk varken SOLA geçer (aynalı), konuk sağda kalır |
 | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
 | `peri: "tac"` | konuşan başkayken Peri'nin (dinleyen) ifadesi; K15 set kuralıyla denetler |
 | `mekan: true` | mekân karesi: figürler çekilir, arka plan çıplak görünür (yeri tanıtan anlatı satırı) |

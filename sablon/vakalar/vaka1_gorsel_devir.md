@@ -16,7 +16,9 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
   Promptlar ve numaralı referans görseller sahibine gönderildi.
 - **9 Ekim: 11 görselin 11'i oyunda.** Gri yer tutucu kalmadı. Sonuç notları her promptun altında
   (`vaka1_gorsel.md`); G7–G11 promptları mekâna göre düzeltildi, G9 üç denemede tuttu.
-- **Sıradaki: Onay 3** (sahibi görsellerle oynar). Sonra Vaka 2.
+- **Onay 3 sürüyor (9 Ekim):** sahibinin oyun notlarıyla — "Buyurun, oturun"da sağa Rıza
+  (`gir: riza`); konuk varken Cengo sola geçer, konuğa bakar (A yolu, `yeni_arayuz.js`;
+  `kime: peri` istisnası 3 satırda). Sonra Vaka 2.
 
 ## 2. Sahibiyle çalışma biçimi (çok önemli)
 

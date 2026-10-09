@@ -56,6 +56,10 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
    Hiçbiri yoksa metin değişir.
 2. **Dinleyenin ifadesi de uyar.** Konuşmadığı satırda da hikâyeye uygun durur (tacı tutan Peri gibi).
 3. **Figür birini işaret ediyorsa** karşısındaki gerçekten o kişi olmalı.
+   **Ekran düzeni (9 Ekim 2026):** sol "bizim taraf" (Peri ya da Cengo), sağ karşı taraf. Konuk
+   sahnedeyken Cengo konuşursa Peri'nin yerine sola geçer (aynalı) ve konuğa bakar; Cengo konuk
+   varken Peri'ye konuşuyorsa satıra `{kime: peri}` yazılır. Peri konuğa, Cengo'nun ardından
+   konuşuyorsa konuğu sağa almak için `{gir: <konuk>}`.
 4. Her sahne için bir **satır → görsel** tablosu yazılır ve denetlenir.
 
 ## D. Üretim yöntemi

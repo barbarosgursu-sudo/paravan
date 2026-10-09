@@ -7,9 +7,11 @@
    Veri biçimi: kaynak/yeni/OKUBENI.md. Sahne satırı { k, i, m } + isteğe bağlı
    arka / kare / set / gir / cik / kasa; seçim { secim, secenekler }.
 
-   Figür düzeni: Peri solda; sağda Cengo YA DA konuk. Sağdaki yer, sahnede bulunan
-   ve en son konuşan Peri-dışı figürün. Üç kişilik sahnede (giriş: Peri, Cengo,
-   Rıza Reis) kim söz alırsa sağa o geçer — boylar sabit, yalnız kişi değişir. */
+   Figür düzeni: sol "bizim taraf" (Peri ya da Cengo), sağ karşı taraf (konuk ya da
+   Cengo). Konuk yokken Peri solda, Cengo sağda. Konuk sahnedeyken konuk sağda kalır;
+   Cengo konuşursa Peri'nin yerine SOLA geçer (aynalı, konuğa bakar) — konuşan ile
+   karşısındaki hep ekranda (sahibinin kararı, 9 Ekim 2026). Cengo konuk varken
+   Peri'ye konuşuyorsa satıra `kime: peri` yazılır: Cengo eskisi gibi sağa geçer. */
 
 /* Yeni oyunun motoru (motor_yeni.js, derlemede bu dosyadan hemen önce gömülür).
    `oyun` eski betikte zaten kuruldu; prototipini değiştirmek yeterli (kurucu aynı).
@@ -68,7 +70,7 @@ function sahneOynat(sahne, sonra, baslik, onceki, devam){
   vn = {
     kuyruk: vnBagSuz(sahne.satirlar), sonra,
     set: sahne.set || vnSonSet || "manto",
-    ifade: {}, mevcut: new Set(figurler),
+    ifade: {}, mevcut: new Set(figurler), sol: "peri",
     sag: figurler.find(f => f !== "peri" && f !== "cengo") || (figurler.includes("cengo") ? "cengo" : null),
     arka: null, grup: null, satir: null, yaziyor: null, tamMetin: "", secimde: false,
     kasaGorunur: vnKasaGorunur, cikacak: false, gecmis: [], onceki: VN_GERI ? onceki || null : null,
@@ -154,9 +156,19 @@ function vnKareGoster(kod){
 
 function vnFigurCiz(satir){
   const sol = document.getElementById("vnSol"), sag = document.getElementById("vnSag");
+  // Solda Cengo: konuk sahnedeyken konuğa konuşuyor (aynalı, sağa bakar).
+  const solCengo = vn.sol === "cengo" && vn.mevcut.has("cengo");
+  sol.classList.toggle("cengo", solCengo);
+  if(solCengo){
+    const anahtar = "cengo." + (vn.ifade.cengo || "normal");
+    const yt = !vnGorsel(anahtar) && (YG.yer_tutucu||[]).includes(anahtar);
+    const src = vnGorsel(anahtar) || vnGorsel("cengo.normal");
+    sol.hidden = false;
+    if(sol.dataset.src !== "sol:" + anahtar){ sol.innerHTML = yt ? vnYerTutucu(anahtar, "cengo") : `<img alt="Cengo" src="${src}">`; sol.dataset.src = "sol:" + anahtar; }
+  }
   // Peri
-  const periVar = vn.mevcut.has("peri");
-  sol.hidden = !periVar;
+  const periVar = !solCengo && vn.mevcut.has("peri");
+  if(!solCengo) sol.hidden = !periVar;
   if(periVar){
     const anahtar = "peri." + vn.set + "." + (vn.ifade.peri || "normal");
     const yt = !vnGorsel(anahtar) && (YG.yer_tutucu||[]).includes(anahtar);
@@ -179,7 +191,8 @@ function vnFigurCiz(satir){
     }
   }
   const k = satir.k;
-  sol.classList.toggle("aktif", k === "peri"); sol.classList.toggle("pasif", k !== "peri");
+  const solKim = solCengo ? "cengo" : "peri";
+  sol.classList.toggle("aktif", k === solKim); sol.classList.toggle("pasif", k !== solKim);
   sag.classList.toggle("aktif", !!kim && k === kim); sag.classList.toggle("pasif", !(kim && k === kim));
 }
 
@@ -190,7 +203,10 @@ function vnSatirGoster(satir){
   if(satir.gir){ vn.mevcut.add(satir.gir); if(satir.gir !== "peri") vn.sag = satir.gir; }
   const k = satir.k;
   const figur = !!SAHNE_KANON.figurler[k];
-  if(figur && k !== "peri"){ vn.mevcut.add(k); vn.sag = k; }
+  const konukVar = [...vn.mevcut].some(f => f !== "peri" && f !== "cengo");
+  if(k === "peri") vn.sol = "peri";
+  if(k === "cengo" && konukVar && satir.kime !== "peri"){ vn.sol = "cengo"; vn.mevcut.add(k); }
+  else if(figur && k !== "peri"){ vn.mevcut.add(k); vn.sag = k; if(k === "cengo") vn.sol = "peri"; }
   if(figur && satir.i) vn.ifade[k] = satir.i;
   // peri: Peri konuşmuyorken de ifadesi değişebilir (Hilmi Bey tacı okurken Peri onu çoktan kavramış).
   if(satir.peri) vn.ifade.peri = satir.peri;
@@ -200,8 +216,11 @@ function vnSatirGoster(satir){
   // (aksi hâlde sahnenin ortasındaki nesne, ör. A2'deki yerdeki avize, figürlerin arkasında kalır).
   $("vnFig").classList.toggle("cekilmis", !!(satir.kare || satir.mekan));
   vnFigurCiz(satir);
-  $("vnPlakaSol").hidden = k !== "peri";
-  const sagPlaka = (figur && k !== "peri") || !!(SAHNE_KANON.sesler||{})[k];
+  const solda = k === "peri" || (k === "cengo" && vn.sol === "cengo");
+  $("vnPlakaSol").hidden = !solda;
+  $("vnPlakaSol").textContent = k === "cengo" ? "Cengo" : "Peri";
+  $("vnPlakaSol").classList.toggle("cengo", k === "cengo");
+  const sagPlaka = !solda && ((figur && k !== "peri") || !!(SAHNE_KANON.sesler||{})[k]);
   $("vnPlakaSag").hidden = !sagPlaka;
   $("vnPlakaSag").textContent = sagPlaka ? vnAd(k) : "";
   $("vnPlakaSag").classList.toggle("konuk", sagPlaka && k !== "cengo");
@@ -257,6 +276,7 @@ function vnCikisUygula(){
   if(!konuk) return;
   vn.mevcut.delete(konuk);
   if(vn.sag === konuk) vn.sag = vn.mevcut.has("cengo") ? "cengo" : null;
+  vn.sol = "peri";
 }
 
 function vnIlerle(){
@@ -315,7 +335,7 @@ function vnGec(){
    öğenin anlık durumunu geri yükleyip o öğeyi yeniden göstermektir. */
 function vnAnlikKaydet(){
   vn.gecmis.push({ kuyruk: [...vn.kuyruk], set: vn.set, ifade: { ...vn.ifade },
-    mevcut: new Set(vn.mevcut), sag: vn.sag, arka: vn.arka, kasaGorunur: vn.kasaGorunur,
+    mevcut: new Set(vn.mevcut), sag: vn.sag, sol: vn.sol, arka: vn.arka, kasaGorunur: vn.kasaGorunur,
     adim: vn.adim, secimN: vn.secimler.length });
   const b = document.getElementById("vnGeri"); if(b) b.hidden = vn.gecmis.length < 2 && !vn.onceki;
 }
@@ -325,7 +345,7 @@ function vnGeri(){
   clearInterval(vn.yaziyor); vn.yaziyor = null;
   vn.gecmis.pop();
   const a = vn.gecmis.pop();
-  Object.assign(vn, { kuyruk: a.kuyruk, set: a.set, ifade: a.ifade, mevcut: a.mevcut, sag: a.sag,
+  Object.assign(vn, { kuyruk: a.kuyruk, set: a.set, ifade: a.ifade, mevcut: a.mevcut, sag: a.sag, sol: a.sol,
     kasaGorunur: a.kasaGorunur, secimde: false, cikacak: false, adim: a.adim });
   vn.secimler.length = a.secimN;
   vnSonSet = a.set;

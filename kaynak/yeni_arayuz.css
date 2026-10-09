@@ -44,6 +44,8 @@
 .vn-figur.sol{aspect-ratio:915/1402;max-width:58%;margin-right:-8%}
 .vn-figur.sol img{transform:scaleX(-1)}
 .vn-figur.sol img.genis{width:122.62%;max-width:none;margin-left:-9.51%}
+/* Solda Cengo (konuğa konuşurken): sağdaki Cengo'yla aynı çerçeve ve boy, aynalı. */
+.vn-figur.sol.cengo{aspect-ratio:1102/1402;max-width:78%;height:105%;margin-left:-16%;margin-right:-8%;flex-shrink:0}
 .vn-figur.sag{aspect-ratio:1102/1402;max-width:78%;height:105%;margin-left:-8%;margin-right:-16%;flex-shrink:0}
 .vn-figur[hidden]{display:none}
 .vn-figur.pasif{filter:brightness(.62) saturate(.75)}
@@ -58,6 +60,7 @@
   color:var(--vn-kagit);padding:7px 14px 8px;border-radius:10px;border:3px solid var(--vn-gece);transform:rotate(-2deg);background:var(--vn-tramvay)}
 .vn-plaka.sag{left:auto;right:14px;transform:rotate(2deg);background:var(--vn-bogaz)}
 .vn-plaka.sag.konuk{background:#5b4a3a}
+.vn-plaka.sol.cengo{background:var(--vn-bogaz)}
 .vn-plaka[hidden]{display:none!important}
 .vn-replik{font-size:18px;line-height:1.45;font-weight:700;margin:0;min-height:52px}
 .vn-replik.not{font-style:italic;font-weight:500;color:var(--vn-soluk);font-size:16px}
