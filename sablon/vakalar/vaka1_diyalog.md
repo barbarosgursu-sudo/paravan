@@ -9,7 +9,7 @@
 - `**PERİ [kas]:** metin` → konuşan, ifade (verilmezse öncekisi kalır), metin
 - `*metin*` → anlatı satırı (sahne notu)
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
-  `gir: serkan`, `cik`, `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına; konuk satırında: solda Peri/Cengo), `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
+  `gir: serkan` (`gi: ofkeli` girenin ilk yüzü), `cik`, `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına; konuk satırında: solda Peri/Cengo), `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
 - `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
@@ -186,7 +186,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ arka: A13 · figurler: peri, cengo, serkan
 ⚙ Kemal, Serkan'dan alacağını istemeye gelmiş (form §10, onaylı).
 
-*Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.* {gir: kemal}
+*Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.* {gir: kemal, gi: ofkeli}
 **PERİ [kas]:** Kemal Reis. Nazlı'yı siz aldınız.
 **KEMAL [ofkeli]:** Ben mi? Ben buraya alacağımı almaya geldim!
 **KEMAL:** Dümende Rıza'nın oğlu vardı. Gözümle gördüm!

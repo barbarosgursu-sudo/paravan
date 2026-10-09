@@ -106,7 +106,7 @@ Satırda isteğe bağlı sahne değişiklikleri:
 | `arka: "A5b"` | arka plan değişir (aynı yer+saat çapraz geçiş, değilse karartma — taslaktaki kural) |
 | `kare: "K8"` | tam ekran ara kare / detay; figürler çekilir |
 | `set: "balikli"` | Peri'nin kıyafet seti değişir (sonraki ifadeler o setten seçilir) |
-| `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar |
+| `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar; `gi` girenin ilk ifadesi |
 | `kime: "peri"` | konuk varken Cengo Peri'ye konuşuyor: sağa geçer. Yoksa Cengo konuk varken SOLA geçer (aynalı), konuk sağda kalır. Konuk satırında `kime: peri\|cengo` solda kimin duracağını seçer |
 | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
 | `peri: "tac"` | konuşan başkayken Peri'nin (dinleyen) ifadesi; K15 set kuralıyla denetler |

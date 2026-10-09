@@ -204,6 +204,8 @@ function vnSatirGoster(satir){
   if(satir.set){ vn.set = satir.set; vnSonSet = satir.set; }
   if(satir.arka) vnArkaKoy(satir.arka, vn.hizli);
   if(satir.gir){ vn.mevcut.add(satir.gir); if(satir.gir !== "peri") vn.sag = satir.gir; }
+  // gi: giren konuğun ilk ifadesi ({gir: kemal, gi: ofkeli}) — konuşmadan önce de doğru yüz.
+  if(satir.gir && satir.gi) vn.ifade[satir.gir] = satir.gi;
   const k = satir.k;
   const figur = !!SAHNE_KANON.figurler[k];
   // Cengo yalnız SAĞDA bir konuk duruyorsa sola geçer; sağ boşsa ya da Cengo'nun kendisiyse

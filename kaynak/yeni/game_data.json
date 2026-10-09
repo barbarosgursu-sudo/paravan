@@ -228,7 +228,8 @@
             {
               "k": "not",
               "m": "Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.",
-              "gir": "kemal"
+              "gir": "kemal",
+              "gi": "ofkeli"
             },
             {"k": "peri", "i": "kas", "m": "Kemal Reis. Nazlı'yı siz aldınız."},
             {"k": "kemal", "i": "ofkeli", "m": "Ben mi? Ben buraya alacağımı almaya geldim!"},
