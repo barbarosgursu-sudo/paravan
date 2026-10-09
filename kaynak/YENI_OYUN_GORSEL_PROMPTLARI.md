@@ -3866,3 +3866,5 @@ Sahibi: K3'te gövdede D3'teki mavi izler yok; tırnağın bastığı küpeşte 
 1. düzenleme: izler bütün gövdeye yayıldı, kenar yine kırık. **Ders:** "izleri ekle" deyince
 üretici sınırsız yayar — iz YERİ ve BOYU tek tek verilir; tahta kenarına bastırılan tırnak her
 seferinde kırık okunuyor → tırnak kenara değil düz tahta yüzüne konur.
+2. deneme (baştan çizim, tırnak düz tahtada, iz tek yerde bir karış) **tuttu**: küpeşte bütün,
+mavi iz yalnız tırnağın önünde, harf yok. 1122×1402 geldi → 900×1200'e kırpıldı.
