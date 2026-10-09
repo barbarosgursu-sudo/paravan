@@ -28,7 +28,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **PERİ [normal]:** Ev sahibi değilsiniz.
 **RIZA [normal]:** Değilim. Dedektif burası mı? Camda öyle yazıyor.
 **CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım.
-*Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz}
+*Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15}
 **RIZA [normal]:** Kızım, sen o yarışmadaki değil misin?
 **CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu.
 **PERİ [kas]:** Buyurun, oturun. Ne oldu?

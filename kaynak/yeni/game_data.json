@@ -30,7 +30,7 @@
         "tuba_tel": "Tuba (telefonda)"
       },
       "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
-      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10", "K11", "K12", "K13", "K14"],
+      "kareler": ["D1", "D2", "D3", "K1", "K2", "K3", "K4", "K5", "K6", "K7", "K8", "K9", "K10", "K11", "K12", "K13", "K14", "K15"],
       "buro": ["A6", "A7", "A8"]
     }
   },
@@ -112,7 +112,12 @@
             {"k": "peri", "i": "normal", "m": "Ev sahibi değilsiniz."},
             {"k": "riza", "i": "normal", "m": "Değilim. Dedektif burası mı? Camda öyle yazıyor."},
             {"k": "cengo", "i": "kas", "m": "Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım."},
-            {"k": "not", "m": "Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.", "set": "mantosuz"},
+            {
+              "k": "not",
+              "m": "Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.",
+              "set": "mantosuz",
+              "kare": "K15"
+            },
             {"k": "riza", "i": "normal", "m": "Kızım, sen o yarışmadaki değil misin?"},
             {"k": "cengo", "i": "gulen", "m": "Yarışmayı hatırlayan son seyirci de bulundu."},
             {"k": "peri", "i": "kas", "m": "Buyurun, oturun. Ne oldu?"},

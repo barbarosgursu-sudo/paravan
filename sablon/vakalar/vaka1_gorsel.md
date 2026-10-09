@@ -256,6 +256,10 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 **Bakılacaklar:** kapı camında yazı ("Camda yazıyor" — metin anıyor ama görselde harf olmamalı;
 kapı camı görünüyorsa düz buzlu cam); Rıza'nın kasketi elinde mi; el sayısı.
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** Oda referansla aynı, yazı yok (vapur büyütülüp bakıldı),
+kasket Rıza'nın elinde, eller doğru. Rıza'nın kasketsiz başı ilk kez görünüyor: kıvırcık kır
+saç. 1086×1448 geldi → 900×1200. Kare K15; diyalogda tek satırda (`{set: mantosuz, kare: K15}`).
+
 ## G8 — Set arkası: Cengo pilav tabağıyla Tuba'nın yanında (ara kare)
 
 **Referans 1:** Set arkası (A12). **Referans 2:** Cengo (CA2). **Referans 3:** Tuba.
