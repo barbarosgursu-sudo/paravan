@@ -150,6 +150,11 @@ Başın açısı: başı kadrajın soluna dönük; burnu kadrajın soluna bakıy
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** İki elde beşer parmak, baş tepesi G3'le 4 px farkla
+aynı. `--profil konuk`, elle düzeltme yok. Ekranda kadrajın sağındaki eli ekran kenarında
+yarım kalıyor (figür ekranın sağına yaslı). Kumaşta (kot, ceket) ince çatlak dokusu var;
+ekran boyunda görünmüyor.
+
 ## G5 — Peri, mantolu, acı
 
 **Referans 1:** Peri, mantolu, nötr (A2). **Referans 2:** Peri, mantosuz, acı (yalnız poz için).

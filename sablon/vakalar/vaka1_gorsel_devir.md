@@ -52,7 +52,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G1 | Kemal Reis, normal (fırçalı) | **oyunda** (9 Ekim) | `figur_kemal_normal.webp` | `kemal.normal` | iskele ipucu |
 | G2 | Kemal Reis, öfkeli (G1'den) | **oyunda** (9 Ekim) | `figur_kemal_ofkeli.webp` | `kemal.ofkeli` | Kemal yüzleşmesi |
 | G3 | Serkan, sakin, kartsız | **oyunda** (9 Ekim) | `figur_serkan_sakin.webp` | `serkan.normal` (eski kartlı görselin yerine) | Serkan ipucu, yüzleşmeler |
-| G4 | Serkan, panik (G3'ten) | bekleniyor | `figur_serkan_panik.webp` | `serkan.panik` | yüzleşmeler |
+| G4 | Serkan, panik (G3'ten) | **oyunda** (9 Ekim) | `figur_serkan_panik.webp` | `serkan.panik` | yüzleşmeler |
 | G5 | Peri mantolu, acı | bekleniyor | `sprite/peri_manto_aci.webp` | `peri.manto.aci` | zayıf kanıt yüzleşmesi |
 | G6 | Cengo, sinirli | bekleniyor | `sprite/cengo_sinirli.webp` | `cengo.sinirli` | ileride |
 | G7 | Peri mantosunu asıyor, Rıza gözünü kaçırıyor | bekleniyor | `ara_k15_aski.webp` | `K15` | giriş, diyalog satır ~31 ("Peri mantosunu çıkarıp askıya asıyor") |
