@@ -332,6 +332,42 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 **Bakılacaklar:** kâğıtta harf/çizgi (en büyük risk); kepenkte yazı.
 
+**Sonuç (9 Ekim): iki deneme tutmadı.**
+1. İlk prompt (omuz üstünden): Peri ile kamera kâğıdın aynı yüzünü görüyor; o yüz boş → "not
+   boş" okunuyor, metinle çelişiyor.
+2. Kepenk yanından deneme: kâğıt kepende bantlıyken okuyanla bakan aynı yüzü görür; görselde
+   fizik tutmadı, bantlar havada.
+**Ders:** duvara yapışık bir kâğıtta "okuyan yazıyı, kamera boş yüzü görsün" istenemez — iki göz
+aynı yüze bakar. Kâğıt ya duvardan ayrılır ya kenarından görünür.
+**Sahibinin kararı (A):** Peri notu kepenkten koparmış, önünde tutup okuyor; kepende yırtık bant
+parçaları kalıyor. Yeni prompt:
+
+```
+Birinci referans görseldeki ara sokağın AYNISI, arka planda: aynı yeşil, yer yer paslı kepenkli
+kapalı dükkân, aynı Arnavut kaldırımı, aynı gün batımı ışığı, aynı çizim tarzı. İkinci referans
+görseldeki kadının AYNISI: aynı yüz, kızıl-kahve saç ve topuz, aynı domates kırmızısı yün manto,
+krem saten bluz, aynı altın küpeler, kırmızı oje.
+
+Kadraj: DİKEY (3:4). Kadın kadrajın ortasında, KAMERAYA DÖNÜK, göğüs hizasından yukarısı. Hemen
+arkasında kepenk; kepengin yüzeyi kadın ile aynı düzlemde, onun arkasında.
+
+Kadrajda YALNIZ şunlar var:
+1. Kadının arkasında yeşil, eski, yer yer paslı metal kepenk. Kepengin üstünde, kadının omzunun
+   yanında, koparılmış bir kâğıdın kalıntısı: iki küçük, yırtık koli bandı parçası ve bantlara
+   yapışık kalmış minik kâğıt kırıntıları. Başka hiçbir şey yok.
+2. Kadın tek sayfa, beyaz bir kâğıdı İKİ ELİYLE, iki yan kenarından tutmuş, yüzünün önünde, göğüs
+   hizasında, okuyor. Kâğıdın üst kenarı hafif yırtık; köşelerinde koli bandı kalıntısı.
+   Kâğıdın YAZILI YÜZÜ kadına dönük; kameraya kâğıdın BOŞ ARKA YÜZÜ görünüyor. Arka yüzde hiçbir
+   iz, harf, mürekkep, arkadan sızan gölge ya da yazı yok; düz beyaz, ışık geçirmeyen kalın kâğıt.
+3. Kadının yüzü kâğıdın üst kenarının üstünden görünüyor: gözleri aşağıda, kâğıtta; kaşları
+   hafif çatık; dikkatle okuyor. TAM İKİ KOL, İKİ EL; kırmızı ojeli parmak uçları kâğıdın iki
+   yanında; yüzük, bilezik yok. Manto açık yakalı, bluz ve dekolte yakadan görünüyor.
+
+Başka hiçbir nesne yok. Kepengin üstünde yazı, afiş, tabela yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
 ## G10 — Koridor, akşam: Peri anahtarla boğuşuyor (ara kare)
 
 **Referans 1:** Peri kapıda anahtarla (K13, gündüz). **Referans 2:** Koridor, akşam (A5b).
