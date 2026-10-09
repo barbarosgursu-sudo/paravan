@@ -277,11 +277,11 @@
             },
             {"k": "cengo", "i": "kas", "m": "Babana söyleyecek miydin?"},
             {"k": "serkan", "m": "Cumartesi. Tekneyle birlikte.", "cik": true},
-            {"k": "peri", "i": "utanmis", "m": "(elindeki levreği nereye koyacağını bilmeden) Bunu kime veriyorum?"},
             {
               "k": "not",
-              "m": "Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor ve tek kelime etmeden Cengo'ya uzatıyor."
+              "m": "Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor."
             },
+            {"k": "peri", "i": "utanmis", "m": "(istavriti havada tutarak) Bunu kime veriyorum?"},
             {"k": "cengo", "i": "gulen", "m": "Akşam yemeği çıktı."},
             {
               "k": "not",
