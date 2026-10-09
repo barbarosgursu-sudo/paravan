@@ -960,7 +960,6 @@ function kural19_kimYapti(game, hatalar) {
     if (sup.length !== 3) hatalar.push(`[K19] ${yer}: ${sup.length} şüpheli; şablon 3 ister.`);
     const suclu = sup.find(x => x.id === ky.suclu);
     if (!suclu) { hatalar.push(`[K19] ${yer}: suçlu '${ky.suclu}' şüpheliler arasında yok.`); continue; }
-    if (suclu.gorunur !== "her_zaman") hatalar.push(`[K19] ${yer}: suçlu her yolda ekranda olmalı (gorunur: "her_zaman").`);
     for (const x of sup) if (x.gorunur !== "her_zaman") for (const o of ifadeOlgulari(x.gorunur))
       if (!facts[o] && !/_acildi$/.test(o) && !(vaka.knowledge || []).some(k => k.turetilen === o))
         hatalar.push(`[K19] ${yer}: '${x.id}' görünme koşulundaki '${o}' tanımlı değil.`);
@@ -1004,6 +1003,7 @@ function kural19_kimYapti(game, hatalar) {
     }
     // En az iki ayrı kanıt yolu: hak içinde açılabilen yollarda tutan farklı doğru çift sayısı.
     const tutan = new Set(), gorulen = new Set();
+    let gorunmez = null;
     const dfs = ac => {
       const anahtar = [...ac].sort().join("|"); if (gorulen.has(anahtar)) return; gorulen.add(anahtar);
       const o = new OyunYeni(game); o.durum.para = 1e9;
@@ -1011,10 +1011,13 @@ function kural19_kimYapti(game, hatalar) {
       for (const id of ac) if (o.kaynakAc(id).hata) return;
       const kn = o.kanitlar().map(x => x.id);
       ky.dogru_ciftler.forEach((c, i) => { for (const a of kn) for (const b of kn) if (a !== b && o._ciftTutar(c, a, b)) tutan.add(i); });
-      if (o.durum.aktif.arastirmaKalan <= 0) return;
-      for (const c of o.acikKaynaklar()) dfs([...ac, c.id]);
+      const acik = o.durum.aktif.arastirmaKalan > 0 ? o.acikKaynaklar() : [];
+      // Hakkını bitiren (ya da açacak ipucu kalmayan) oyuncu suçluyu ekranda görmeli.
+      if (!acik.length && !o.supheliler().some(x => x.id === ky.suclu) && !gorunmez) gorunmez = ac.join(" + ") || "(hiçbir ipucu)";
+      for (const c of acik) dfs([...ac, c.id]);
     };
     dfs([]);
+    if (gorunmez) hatalar.push(`[K19] ${vaka.id}: '${gorunmez}' yolunda hak bitiyor ama suçlu ekranda yok — her tam yolda görünmeli.`);
     if (tutan.size < 2) hatalar.push(`[K19] ${vaka.id}: hak içinde yalnız ${tutan.size} doğru kanıt çifti kurulabiliyor; en az 2 yol gerekir.`);
   }
 }

@@ -115,8 +115,8 @@ console.log("\n=== K19 Kim yaptı? ===");
   k("eksik yüzleşme sahnesi → K19", hataVar(sessiz(g), "[K19]", "yuzlesme_" + masum));
 }
 {
-  const g = kopya(G); v1(g).kim_yapti.supheliler.find(x => x.id === v1(g).kim_yapti.suclu).gorunur = "set_teknesi";
-  k("suçlu her yolda görünmüyor → K19", hataVar(sessiz(g), "[K19]", "her yolda"));
+  const g = kopya(G); v1(g).kim_yapti.supheliler.find(x => x.id === v1(g).kim_yapti.suclu).gorunur = "kiralayan_balikci";
+  k("suçlu bir tam yolda görünmüyor → K19", hataVar(sessiz(g), "[K19]", "tam yolda"));
 }
 {
   const g = kopya(G); v1(g).kim_yapti.dogru_ciftler = v1(g).kim_yapti.dogru_ciftler.slice(0, 1);

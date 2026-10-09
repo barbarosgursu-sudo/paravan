@@ -87,6 +87,9 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 *Karaköy iskelesi. Nazlı'nın yeri boş; zincir yerinde.* {mekan}
 *Kilidi kırılmamış, zorlanmamış. Cengo kilide eğiliyor.* {kare: D2}
 **CENGO [kas]:** Bu anahtarla açılmış, sonra yeniden kilitlenmiş. Ya da benden iyi biri varmış; ona inanmam.
+**PERİ [kas]:** Rıza Reis "yedekler evde dururdu" demişti.
+**CENGO [kas]:** Evde kim var?
+**PERİ [normal]:** Bir oğlu var. Serkan.
 *Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.* {gir: kemal}
 **PERİ [normal]:** Kemal Reis?
 **KEMAL [normal]:** Ne olacak?

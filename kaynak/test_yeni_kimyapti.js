@@ -42,7 +42,6 @@ console.log("\n=== Ekranda yalnız adı duyulan şüpheliler ===");
   const herZaman = KY.supheliler.filter(s => s.gorunur === "her_zaman").map(s => s.id);
   const kosullu = KY.supheliler.filter(s => s.gorunur !== "her_zaman").map(s => s.id);
   k("baştan görünenler tam 'her_zaman' olanlar", herZaman.every(id => bas.has(id)) && kosullu.every(id => !bas.has(id)));
-  k("suçlu baştan görünüyor", bas.has(KY.suclu));
   const son = new Set(tumIpuclari().supheliler().map(s => s.id));
   k("bütün ipuçlarından sonra herkes görünüyor", KY.supheliler.every(s => son.has(s.id)));
   const o = oyunKur();
@@ -117,7 +116,7 @@ console.log("\n=== Kayıt ===");
   let acik;
   while (o.kanitlar().length < 2 && (acik = o.acikKaynaklar()).length && !o.kaynakAc(acik[0].id).hata) {}
   const kanit = o.kanitlar().slice(0, 2).map(x => x.id);
-  const ilk = o.suclama(KY.suclu, kanit);
+  const ilk = o.suclama(o.supheliler()[0].id, kanit);   // erken suçlama: ekrandaki ilk şüpheli
   const kayit = JSON.parse(JSON.stringify(o.durumAl()));
   const y = new OyunYeni(G);
   k("suçlamalı kayıt yükleniyor", !ilk.hata && !y.durumYukle(kayit).hata);

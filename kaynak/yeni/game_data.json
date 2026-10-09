@@ -387,6 +387,9 @@
                 "i": "kas",
                 "m": "Bu anahtarla açılmış, sonra yeniden kilitlenmiş. Ya da benden iyi biri varmış; ona inanmam."
               },
+              {"k": "peri", "i": "kas", "m": "Rıza Reis \"yedekler evde dururdu\" demişti."},
+              {"k": "cengo", "i": "kas", "m": "Evde kim var?"},
+              {"k": "peri", "i": "normal", "m": "Bir oğlu var. Serkan."},
               {
                 "k": "not",
                 "m": "Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.",
@@ -587,7 +590,7 @@
       "kim_yapti": {
         "suclu": "serkan",
         "supheliler": [
-          {"id": "serkan", "ad": "Serkan", "gorunur": "her_zaman"},
+          {"id": "serkan", "ad": "Serkan", "gorunur": {"any": ["serkan_borc", "kilit_saglam"]}},
           {"id": "kemal", "ad": "Kemal Reis", "gorunur": "her_zaman"},
           {"id": "tuba", "ad": "Tuba", "gorunur": "tuba_ters"}
         ],

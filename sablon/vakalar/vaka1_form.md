@@ -135,7 +135,7 @@ Rıza Reis çarşamba sabah fark eder, karakola gider, öğlen büroya gelir.
 
 Yer: **Serkan'ın dükkânının önü** (kovalamaca buradan başlıyor).
 Ücret kesilirse karar ekranının üstünde açıklanır: zayıf → "Kanıtın zayıf kaldı; Rıza Reis 5.000 ₺ kesti.", yanlış → "Masum birini suçladın; Rıza Reis 15.000 ₺ kesti."
-Ekranda: Serkan ve Kemal her zaman (girişte anıldılar); Tuba yalnız 3. ipucu açıldıysa.
+Ekranda: Kemal her zaman (Rıza girişte suçluyor); Tuba 3. ipucundan sonra; Serkan, onunla konuşunca (5. ipucu) ya da zincirin anahtarla açıldığı anlaşılınca (2. ipucu: "Evde kim var?" "Bir oğlu var. Serkan."). Her 4'lü seçimde 2 ya da 5 vardır; hakkını bitiren her oyuncu Serkan'ı görür.
 
 | sonuç | ücret | yüzleşme (özet) |
 |---|---|---|
