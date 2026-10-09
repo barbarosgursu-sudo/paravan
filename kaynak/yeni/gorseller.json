@@ -58,6 +58,7 @@
     "cengo.gulen": "sprite/cengo_gulen.webp",
     "cengo.yumusak": "sprite/cengo_yumusak.webp",
     "cengo.buyrun": "sprite/cengo_buyrun.webp",
+    "cengo.sinirli": "sprite/cengo_sinirli.webp",
     "hilmi.ciddi": "figur_hilmi_ciddi.webp",
     "hilmi.gulen": "figur_hilmi_gulen.webp",
     "hilmi.uzatir": "figur_hilmi_uzatir.webp",
@@ -99,6 +100,6 @@
     "A13": {"ad": "Karaköy · ara sokak", "grup": "sokak"},
     "A14": {"ad": "Karaköy · dükkânın içi", "grup": "dukkan"}
   },
-  "yer_tutucu": ["cengo.sinirli"],
+  "yer_tutucu": [],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir."
 }

@@ -209,6 +209,9 @@ Bağırmıyor; soğuk bir kızgınlık.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** Ölçek ve baş yüksekliği temel görselle aynı; bileklik
+görünüyor, mendil yerinde, gömlek kesimde korundu. `--profil cengo`. Gri yer tutucu kalmadı.
+
 ## G7 — Peri mantosunu askıya asıyor, Rıza gözünü kaçırıyor (ara kare)
 
 **Referans 1:** Büro, gündüz (A6). **Referans 2:** Peri, mantosuz. **Referans 3:** Rıza Reis.
