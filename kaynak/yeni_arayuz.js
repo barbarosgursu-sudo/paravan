@@ -206,7 +206,9 @@ function vnSatirGoster(satir){
   if(satir.gir){ vn.mevcut.add(satir.gir); if(satir.gir !== "peri") vn.sag = satir.gir; }
   const k = satir.k;
   const figur = !!SAHNE_KANON.figurler[k];
-  const konukVar = [...vn.mevcut].some(f => f !== "peri" && f !== "cengo");
+  // Cengo yalnız SAĞDA bir konuk duruyorsa sola geçer; sağ boşsa ya da Cengo'nun kendisiyse
+  // (konuk çıktı) sola geçmek iki Cengo çizer.
+  const konukVar = !!vn.sag && vn.sag !== "cengo" && vn.mevcut.has(vn.sag);
   if(k === "peri") vn.sol = "peri";
   if(k === "cengo" && konukVar && satir.kime !== "peri"){ vn.sol = "cengo"; vn.mevcut.add(k); }
   else if(figur && k !== "peri"){ vn.mevcut.add(k); vn.sag = k; if(k === "cengo") vn.sol = "peri"; }
