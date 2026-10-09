@@ -124,7 +124,8 @@ Kemal'in kesim profili: `arac_kes.js --profil kemal`; Serkan ve sonraki konuklar
 ## 6. Teknik tuzaklar (görselle ilgili)
 
 - **Kıvırcık saçta bej hale (9 Ekim, sahibi buldu):** `arac_kes.js` saç kıvrımlarında kalan arka
-  planı silemiyor — Tuba ve Cengo'nun altı ifadesinde vardı, elle temizlendi (yalnız baş bölgesi:
+  planı silemiyor — Tuba, Cengo (6), Peri (19) ve Hilmi (3) elle temizlendi; Rıza, çaycı, Kemal,
+  Serkan temizdi (kır saçlılarda bu yöntem saçı da siler, dikkat) (yalnız baş bölgesi:
   saydama bağlı açık-bej pikseller + kıvrımda kapalı kalmış nötr bej cepler; ten ve beyaz yaka
   korunur). Yeni figür kesince saçı yeşil önizlemede büyütüp bak.
 
