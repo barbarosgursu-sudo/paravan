@@ -79,6 +79,8 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   await p.click('.buton:has-text("Evet, suçla")');
   console.log('suçlama', secim.kim, secim.kanit.join('+'), '→', await p.evaluate(() => oyun.durum.aktif.suclama.sonuc));
   console.log('yüzleşme+kovalamaca', await vnOyna('yuzlesme', ['Ben mi?', 'His mi?', '(Cengo bir adım', 'Babam mı?', 'Akşam yemeği']));
+  await foto('cozum'); await tasmaBak('cozum');
+  await p.click('.buton:has-text("Karara geç")');
   await foto('kararlar'); await tasmaBak('kararlar');
   // Batma uyarısı yeni oyunda yok (sahibinin kararı): karar ekranında ve şeritte aranır.
   const batma = await p.evaluate(() => /batars|açık verirsin|borca girersin|giderini karşılamıyor|kasa boş/.test(document.body.innerText));

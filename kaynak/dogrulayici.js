@@ -973,6 +973,10 @@ function kural19_kimYapti(game, hatalar) {
       hatalar.push(`[K19] ${yer}: ücret sırası dogru ≥ zayif ≥ yanlis ≥ 0 olmalı.`);
     for (const k of ["zayif", "yanlis"]) if (u[k] < u.dogru && !((ky.kesinti || {})[k] || "").trim())
       hatalar.push(`[K19] ${yer}: '${k}' ücret kesintisinin açıklaması (kesinti.${k}) yok — kural 22a.`);
+    const cz = ky.cozum || {};
+    if (!(cz.yollar || []).length) hatalar.push(`[K19] ${yer}: 'Dosya çözüldü' ekranının kanıt yolları (cozum.yollar) yok.`);
+    for (const x of sup) if (x.id !== ky.suclu && !((cz.masum || {})[x.id] || "").trim())
+      hatalar.push(`[K19] ${yer}: '${x.id}' için masumiyet açıklaması (cozum.masum.${x.id}) yok.`);
     const sahneler = vaka.sahneler || {};
     for (const ad of ["yuzlesme_dogru", "yuzlesme_zayif", ...sup.filter(x => x.id !== ky.suclu).map(x => "yuzlesme_" + x.id)])
       if (!sahneler[ad]) hatalar.push(`[K19] ${vaka.id}: '${ad}' sahnesi yok.`);

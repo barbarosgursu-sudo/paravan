@@ -239,6 +239,15 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **ZAYIF:** Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Rıza Reis {kesinti} kesti.
 **YANLIS:** Anlaşılan ücret {anlasilan}. Masum birini suçladın; Rıza Reis {kesinti} kesti.
 
+## cozum
+⚙ "Dosya çözüldü" ekranı (kovalamacadan sonra, karardan önce). YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: yanlış şüphelinin neden masum olduğu.
+
+**YOL:** Kiralayan Karaköy'den bir balıkçı + zincir anahtarla açılmış (anahtar ailede).
+**YOL:** Kiralayan Karaköy'den bir balıkçı + Serkan'ın cuma borcu.
+**YOL:** Zincir anahtarla açılmış + Serkan'ın cuma borcu.
+**MASUM kemal:** Kemal masumdu: o gece teknesine branda örtüyordu. Beyaz boyayı öğleden sonra sürmüştü; Nazlı'yı set ekibi boyamıştı.
+**MASUM tuba:** Tuba masumdu: tekneyi "sahibiyim" diyen birinden kiralamıştı. Hırsız değil, kandırılmıştı.
+
 ## karar sete_gotur
 ⚙ etiket: Rıza Reis'i sete götür
 

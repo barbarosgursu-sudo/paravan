@@ -86,6 +86,7 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 | Yanlış kişi (şüpheli 2) | | |
 | Yanlış kişi (şüpheli 3) | | |
 
+- **Dosya çözüldü:** suçluyu kanıtlayan yollar (sade dille) ve her yanlış şüphelinin neden masum olduğu.
 - **Kesinti açıklaması:** ücret kesilirse karar ekranında çıkan cümle (zayıf / yanlış), müşterinin ağzından sebebiyle.
 
 ## 11. Kovalamaca

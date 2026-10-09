@@ -80,6 +80,7 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıtlar
 
 - **Ekranda ne görünür:** yalnız oyuncunun **şüphelenmek için sebebi olan** kişiler (biri onu suçladı, ipucunda karşılaştı ya da onu işaret eden bir olguyu biliyor; adının geçmesi yetmez) ve elindeki olgular. Suçlu, hakkını bitiren her oyuncunun ekranında görünür; erken suçlayan göremeyebilir. *(Sahibinin görselsiz testi, 9 Ekim 2026.)*
 - Bir kişi bir olgu yüzünden görünür hâle geliyorsa, o olgunun geldiği sahnede bağ **söylenir** ("Evde kim var?" "Bir oğlu var."), oyuncuya bırakılmaz.
+- **"Dosya çözüldü" ekranı:** kovalamacadan sonra, karardan önce. Sonuç (sağlam / zayıf / yanlış), oyuncunun kanıtları, yanlışsa suçlananın neden masum olduğu ve suçluyu kanıtlayan bütün yollar sade dille yazılır. Gerçek zaten ortaya çıktığı için sızıntı değildir.
 - **Tek hak:** oyuncu bir kez suçlar.
 - **Yüzleşme sahneleri:** her vaka 4 kısa sahne yazar (4–6 replik):
   - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.

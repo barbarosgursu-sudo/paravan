@@ -26,11 +26,12 @@ const temiz = s => s.replace(/\*\(([^)]*)\)\*/g, "($1)").trim();   // *(yutkunar
 
 const hatalar = [];
 const sahneler = {}, ipuclari = {}, kararlar = {};
-let hedef = null, satirNo = 0, ucretMetin = null;
+let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null;
 for (const ham of md) {
   satirNo++;
   const s = ham.trim();
   let m;
+  if (s === "## cozum") { hedef = { tur: "cozum", ayar: {}, metin: { yollar: [], masum: {} } }; cozumMetin = hedef; continue; }
   if (s === "## ucret") { hedef = { tur: "ucret", ayar: {}, metin: {} }; ucretMetin = hedef; continue; }
   if ((m = s.match(/^## (sahne|ipucu|karar) (\S+)$/))) {
     hedef = { tur: m[1], ad: m[2], ayar: {}, satirlar: [], metin: {} };
@@ -44,6 +45,12 @@ for (const ham of md) {
       const mm = parca.trim().match(/^(arka|figurler|etiket):\s*(.+)$/);
       if (mm) hedef.ayar[mm[1]] = mm[1] === "figurler" ? mm[2].split(",").map(x => x.trim()) : mm[2].trim();
     }
+    continue;
+  }
+  if (hedef.tur === "cozum") {
+    if ((m = s.match(/^\*\*YOL:\*\*\s*(.+)$/))) hedef.metin.yollar.push(m[1].trim());
+    else if ((m = s.match(/^\*\*MASUM (\S+):\*\*\s*(.+)$/))) hedef.metin.masum[m[1]] = m[2].trim();
+    else hatalar.push(`${satirNo}: çözüm bölümünde tanınmayan satır`);
     continue;
   }
   if (hedef.tur === "ucret") {
@@ -101,6 +108,8 @@ for (const [id, h] of Object.entries(kararlar)) {
 if (v.kim_yapti) {
   if (!ucretMetin || !ucretMetin.metin.zayif || !ucretMetin.metin.yanlis) hatalar.push("'## ucret' bölümü (ZAYIF, YANLIS) yok");
   else v.kim_yapti.kesinti = { zayif: ucretMetin.metin.zayif, yanlis: ucretMetin.metin.yanlis };
+  if (!cozumMetin || !cozumMetin.metin.yollar.length) hatalar.push("'## cozum' bölümü (YOL) yok");
+  else v.kim_yapti.cozum = cozumMetin.metin;
 }
 for (const d of v.decisions) if (!kararlar[d.id]) hatalar.push(`veride karar '${d.id}' var ama diyalogda metni yok`);
 

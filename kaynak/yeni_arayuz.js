@@ -366,7 +366,7 @@ function vnAkisKur(tur, ek){
     const c = v.clues.find(x => x.id === ek.ipucu); if(!c) return null;
     return { sahneler: [c.sahne], sonra: () => ipucuKarti(c, { meta: c.meta }, c.reveals || []), baslik: v.baslik + " · " + c.ad };
   }
-  if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca], sonra: kararEkrani, baslik: v.baslik };
+  if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca], sonra: cozumEkrani, baslik: v.baslik };
   if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: masaGoster, baslik: v.baslik };
   return null;
 }
@@ -562,6 +562,26 @@ function kySucla(){
   const s = a.vaka.sahneler || {};
   vnSonSet = "manto";
   akisBaslat("yuzlesme", { vaka: a.id, sahne: r.sahne });
+}
+
+/* "Dosya çözüldü" (sahibinin görselsiz testi, 9 Ekim 2026): kovalamacadan sonra, karardan önce.
+   Oyuncu suçlamasının neden tam, zayıf ya da yanlış olduğunu ve suçluyu gösteren yolları görür.
+   Suçlamadan sonra geldiği için sızıntı değil: gerçek kovalamacada ortaya çıktı. */
+const KY_SONUC_BASLIK = { dogru: "Doğru kişi, sağlam kanıt", zayif: "Doğru kişi, zayıf kanıt", yanlis: "Yanlış kişi" };
+function cozumEkrani(){
+  const a = oyun.durum.aktif, ky = a.vaka.kim_yapti, sc = a.suclama, f = a.vaka.facts;
+  const ad = id => (ky.supheliler.find(x => x.id === id) || {}).ad || id;
+  const cz = ky.cozum || { yollar: [], masum: {} };
+  let h = ust() + '<div class="faz ky">';
+  h += `<div class="baslik"><div class="no">Dosya çözüldü</div><h1 style="font-size:24px">${KY_SONUC_BASLIK[sc.sonuc]}</h1></div>`;
+  h += `<div class="ky-not">Suçladığın: <b>${vnHtml(ad(sc.supheli))}</b>. Gösterdiğin kanıtlar:</div>`;
+  h += `<div class="ky-ozet">${sc.kanitlar.map(id => `<div class="o">${vnHtml(f[id])}</div>`).join("")}</div>`;
+  if(sc.sonuc === "yanlis" && cz.masum[sc.supheli]) h += `<div class="ky-aciklama">${vnHtml(cz.masum[sc.supheli])}</div>`;
+  if(sc.sonuc === "zayif") h += `<div class="ky-aciklama">Kişi doğruydu ama bu iki kanıt onu suça bağlamıyordu.</div>`;
+  h += `<div class="faz-etiket"><span class="t">${vnHtml(ad(ky.suclu))} nasıl kanıtlanırdı</span></div>`;
+  h += `<div class="ky-ozet">${cz.yollar.map(y => `<div class="o yol">${vnHtml(y)}</div>`).join("")}</div>`;
+  h += `<button class="buton" onclick="kararEkrani()">Karara geç →</button></div>`;
+  app.innerHTML = h; scrollUst();
 }
 
 /* Karar ekranı: dört karar her zaman açık (kapı yok). Para yalnız birikir;

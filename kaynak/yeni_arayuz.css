@@ -204,3 +204,5 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .ky-grup-say{font-size:14px;font-weight:700;color:var(--sonuk);white-space:nowrap}
 .ky-grup-say b{color:var(--tramvay)}
 .ky-grup.acik + .ky-secenek{margin-top:-2px}
+.ky-aciklama{margin:10px 24px 0;padding:10px 12px;background:#fff;border:3px solid var(--gece);border-left:6px solid var(--tramvay);border-radius:12px;font-size:15px;font-weight:700}
+.ky-ozet .o.yol{border-left-color:var(--bogaz)}
