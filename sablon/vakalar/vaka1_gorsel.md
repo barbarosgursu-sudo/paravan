@@ -395,6 +395,39 @@ sıcak ışığında. Kadının ifadesi: sinirli, yorgun; dudaklarını ısırı
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**1. deneme (9 Ekim):** temiz ve akşam tuttu, ama K13'ün neredeyse birebir aynısı. Sahibi: "Yine
+dekolte ve bacaklar görünsün, yine kapıyı açamadığı için sinirli olsun; poz farklı olsun."
+Yeni prompt (Ref 1: ilk akşam denemesi — ışık, kapı, koridor, kıyafet; Ref 2: Peri mantolu):
+
+```
+Birinci referans görseldeki sahnenin AYNISI: aynı akşam koridoru, aynı koyu ahşap kapı ve pirinç
+kilit, aynı tavanda yanan sıcak sarı lamba, dipteki pencerede aynı lacivert-turuncu akşam göğü,
+aynı damalı mermer zemin, aynı çizim tarzı. Aynı kadın ve aynı kıyafet: domates kırmızısı yün
+manto (açık), krem saten bluz ve derin dekolte, ince siyah kemer, siyah kalem etek, kırmızı
+stiletto, altın küpeler. İkinci referans görsel yüzü ve kıyafeti doğrulamak içindir.
+
+Değişen POZ ve KAMERA. Birinci referanstaki poz (kapıya yan dönmüş, bir bacağı kapıya dayalı)
+TEKRARLANMASIN.
+
+Kadraj: DİKEY (3:4). Kamera koridorun içinde, kapının çaprazında, kadının önünde; kadın kameraya
+üç çeyrek dönük, dizlerinin altına kadar görünüyor.
+
+Poz: TAM İKİ KOL, İKİ EL. Kadın sırtını ve bir omzunu kapıya yaslamış, yorgun ve öfkeli. Sağ eli
+arkaya, kilitteki anahtara uzanmış, anahtarı tutuyor. Sol eli alnında, saçlarının dibinde,
+"yine mi" der gibi. Başı geriye, kapıya yaslanmış; gözleri yarı kapalı, kaşları çatık, dudakları
+sıkılmış, dişlerinin arasından nefes veriyor. Bir bacağı düz, öteki dizden hafif kırık, stiletto
+topuğu kapıya dayalı. Manto omzundan hafif kaymış, iki yana açık: dekolte, kalem eteğin sardığı
+kalça ve bacak hattı, kırmızı stilettolar görünüyor.
+
+Işık: lamba yüzünü ve dekoltesini sıcak sarı aydınlatıyor; köşeler karanlık.
+
+Çekicilik: seksi ve zarif; dekolte ve bacak hattı belirgin. Çıplaklık yok.
+
+Kapıda, duvarda, hiçbir yerde yazı, numara, levha yok. Elinde kâğıt yok.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+```
+
 ## G11 — Cengo teli Peri'nin avucuna koyuyor (ara kare, bağ yüksek)
 
 **Referans 1:** Koridor, akşam (A5b). **Referans 2:** Peri, mantolu (A2). **Referans 3:** Cengo (CA2).
