@@ -82,6 +82,7 @@
     "serkan.normal": "figur_serkan_sakin.webp",
     "tuba.normal": "figur_tuba.webp",
     "cayci.normal": "figur_cayci.webp",
+    "asistan.normal": "figur_asistan.webp",
     "kemal.normal": "figur_kemal_normal.webp",
     "kemal.ofkeli": "figur_kemal_ofkeli.webp",
     "serkan.panik": "figur_serkan_panik.webp"
@@ -95,7 +96,7 @@
     "peri.mantosuz.tac_sinirli"
   ],
   "tam": ["K9"],
-  "boy": {"riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.8, "cayci": 0.72, "kemal": 0.95},
+  "boy": {"riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.8, "cayci": 0.72, "kemal": 0.95, "asistan": 0.86},
   "arka": {
     "A1": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
     "A2": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
