@@ -143,7 +143,7 @@
             },
             {"k": "riza", "i": "normal", "m": "Kızım, sen o yarışmadaki değil misin?"},
             {"k": "cengo", "i": "gulen", "m": "Yarışmayı hatırlayan son seyirci de bulundu."},
-            {"k": "peri", "i": "kas", "m": "Buyurun, oturun. Ne oldu?"},
+            {"k": "peri", "i": "kas", "m": "Buyurun, oturun. Ne oldu?", "gir": "riza"},
             {"k": "riza", "i": "dertli", "m": "Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı."},
             {"k": "cengo", "i": "kas", "m": "Nazlı kim?"},
             {"k": "riza", "m": "Tekne. Rahmetli hanımın adı."},

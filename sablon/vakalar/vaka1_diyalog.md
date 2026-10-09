@@ -31,7 +31,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 *Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15}
 **RIZA [normal]:** Kızım, sen o yarışmadaki değil misin?
 **CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu.
-**PERİ [kas]:** Buyurun, oturun. Ne oldu?
+**PERİ [kas]:** Buyurun, oturun. Ne oldu? {gir: riza}
 **RIZA [dertli]:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı.
 **CENGO [kas]:** Nazlı kim?
 **RIZA:** Tekne. Rahmetli hanımın adı.
