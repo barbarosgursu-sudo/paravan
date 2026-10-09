@@ -1,7 +1,8 @@
 /* Künye katmanlarını insan gözüne serer. Test değil, araç —
    `test_*.js` döngüsüne girmez (arac_ui_tur.js gibi).
 
-       node arac_kunye_denetim.js
+       node arac_kunye_denetim.js          (eski oyun)
+       node arac_kunye_denetim.js yeni     (yeni oyun)
 
    NEDEN VAR: künye, oyuncunun her an açabildiği bir ekran. Bir katman
    metni, o katmanın koşulunun garanti ettiğinden fazlasını söylerse
@@ -25,8 +26,10 @@
    Ayrıca kanonun ÇÖZÜLMEZ dediği olgular (kanon.belirsiz) hakkında hiçbir
    katman kesin konuşamaz. */
 const fs = require("fs");
-const { GAME } = require("./game_data.js");
-const KISILER = JSON.parse(fs.readFileSync("kisiler.json", "utf-8"));
+// `node arac_kunye_denetim.js yeni` → yeni oyunun verisi (yeni/game_data.json, yeni/kisiler.json).
+const YENI = process.argv[2] === "yeni";
+const GAME = YENI ? JSON.parse(fs.readFileSync(__dirname + "/yeni/game_data.json", "utf-8")) : require("./game_data.js").GAME;
+const KISILER = JSON.parse(fs.readFileSync(__dirname + (YENI ? "/yeni/kisiler.json" : "/kisiler.json"), "utf-8"));
 
 const olguMetni = {}, sahipVaka = {}, acan = {};
 for (const v of GAME.vakalar) {
@@ -55,8 +58,8 @@ function genislet(o) {
   return out;
 }
 
-const BELIRSIZ = new Set(GAME.kanon.belirsiz || []);
-const ISTISNA = GAME.kanon.belirsiz_istisna || {};
+const BELIRSIZ = new Set((GAME.kanon || {}).belirsiz || []);
+const ISTISNA = (GAME.kanon || {}).belirsiz_istisna || {};
 console.log("KÜNYE DENETİMİ — katman metni koşulunun hak ettiğinden fazlasını söylüyor mu?");
 console.log("═".repeat(78));
 for (const kisi of KISILER.kisiler) {

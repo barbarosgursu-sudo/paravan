@@ -23,8 +23,8 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
   temizlendi. A6b (büro ters açı, manto askıda). K3 yeniden çizildi (mavi iz tek yerde, küpeşte
   bütün). Şablona oran satırı (figür 4:5, sahne 3:4). Sahibi oynamaya devam ediyor; notları
   geldikçe tek tek. Künye yazıldı (8 kişi, sahibinin onayı; `yeni/kisiler.json`), portreler
-  figürlerden kırpıldı (`yeni_gorsel/portre/`). Not: `arac_kunye_denetim.js` yalnız eski oyunu
-  okuyor; yeni künye elle denetlendi. Onay 3 verilince Vaka 2.
+  figürlerden kırpıldı (`yeni_gorsel/portre/`). `node arac_kunye_denetim.js yeni` yeni künyeyi
+  basar (9 Ekim; sızıntı yok). Onay 3 verilince Vaka 2.
 
 ## 2. Sahibiyle çalışma biçimi (çok önemli)
 

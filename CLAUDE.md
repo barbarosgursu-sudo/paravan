@@ -60,7 +60,7 @@ Kayıt anahtarı ayrı (`paravan_yeni_kayit_v1`): iki oyun aynı alan adında. Y
 Konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — yeni oyunu
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
 
-**Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` — her
+**Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` (yeni oyun: `… yeni`) — her
 katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.
 Test değil, araç.
 
