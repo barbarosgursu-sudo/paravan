@@ -210,7 +210,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ arka: A13 · figurler: peri, cengo
 ⚙ Her sonuçta aynı. Peri erotik + gülünç, felaketi balık kasası; Serkan'ı şans yakalar.
 
-*Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.* {kare: K10}
+*Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.* {kare: K10b}
 **CENGO [gulen]:** *(havadaki bir simidi yakalayıp ısırarak)* Ben kestirmeden! {kare: K10}
 **PERİ [sinirli]:** Kestirme nereye çıkıyor? {kare: K10}
 **CENGO:** *(uzaktan)* Bilmiyorum! {kare: K10}

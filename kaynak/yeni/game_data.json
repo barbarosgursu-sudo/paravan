@@ -40,6 +40,7 @@
         "K8",
         "K9",
         "K10",
+        "K10b",
         "K11",
         "K12",
         "K13",
@@ -262,7 +263,7 @@
             {
               "k": "not",
               "m": "Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.",
-              "kare": "K10"
+              "kare": "K10b"
             },
             {
               "k": "cengo",
