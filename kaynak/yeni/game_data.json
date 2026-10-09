@@ -303,7 +303,7 @@
               "m": "Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim.",
               "gir": "serkan"
             },
-            {"k": "cengo", "i": "kas", "m": "Babana söyleyecek miydin?"},
+            {"k": "cengo", "i": "sinirli", "m": "Babana söyleyecek miydin?"},
             {"k": "serkan", "m": "Cumartesi. Tekneyle birlikte.", "cik": true},
             {
               "k": "not",

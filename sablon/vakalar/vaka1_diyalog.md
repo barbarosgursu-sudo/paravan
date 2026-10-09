@@ -223,7 +223,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi. {set: balikli}
 **PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
 **SERKAN [normal]:** Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan}
-**CENGO [kas]:** Babana söyleyecek miydin?
+**CENGO [sinirli]:** Babana söyleyecek miydin?
 **SERKAN:** Cumartesi. Tekneyle birlikte. {cik}
 *Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.*
 **PERİ [utanmis]:** *(istavriti havada tutarak)* Bunu kime veriyorum?

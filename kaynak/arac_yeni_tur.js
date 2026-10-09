@@ -78,7 +78,7 @@ const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = 
   await foto('kimyapti_onay');
   await p.click('.buton:has-text("Evet, suçla")');
   console.log('suçlama', secim.kim, secim.kanit.join('+'), '→', await p.evaluate(() => oyun.durum.aktif.suclama.sonuc));
-  console.log('yüzleşme+kovalamaca', await vnOyna('yuzlesme', ['Ben mi?', 'His mi?', '(Cengo bir adım', 'Babam mı?', 'Akşam yemeği']));
+  console.log('yüzleşme+kovalamaca', await vnOyna('yuzlesme', ['Babana söyleyecek', 'Ben mi?', 'His mi?', '(Cengo bir adım', 'Babam mı?', 'Akşam yemeği']));
   await foto('cozum'); await tasmaBak('cozum');
   await p.click('.buton:has-text("Karara geç")');
   await foto('kararlar'); await tasmaBak('kararlar');
