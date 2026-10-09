@@ -2459,6 +2459,7 @@ function vnBagSuz(satirlar){
 
 function sahneOynat(sahne, sonra, baslik, onceki, devam){
   if(!sahne || !Array.isArray(sahne.satirlar) || !sahne.satirlar.length){ sonra(); return; }
+  if(vn) clearInterval(vn.yaziyor);
   const figurler = sahne.figurler || ["peri"];
   vn = {
     kuyruk: vnBagSuz(sahne.satirlar), sonra,
@@ -2529,9 +2530,10 @@ function vnArkaKoy(kod, anlik){
     setTimeout(() => { while(arka.firstChild && arka.firstChild !== katman && arka.contains(katman)) arka.firstChild.remove(); }, 650);
     return;
   }
-  const kr = document.getElementById("vnKarartma");
+  const kr = document.getElementById("vnKarartma"), sahip = vn;
   kr.classList.add("acik");
-  setTimeout(() => { arka.replaceChildren(katman); uygula(); kr.classList.remove("acik"); }, 300);
+  // Bu arada sahne değiştiyse (Sahneyi geç) eski geçiş yeni sahnenin mekân adına dokunmasın.
+  setTimeout(() => { if(vn !== sahip) return; arka.replaceChildren(katman); uygula(); kr.classList.remove("acik"); }, 300);
 }
 
 function vnKareGoster(kod){
@@ -2608,10 +2610,14 @@ function vnSatirGoster(satir){
   if(VN_AZ_HAREKET || vn.hizli){ p.textContent = vn.tamMetin; return; }
   let i = 0;
   clearInterval(vn.yaziyor);
-  vn.yaziyor = setInterval(() => {
-    i++; p.textContent = vn.tamMetin.slice(0, i);
-    if(i >= vn.tamMetin.length){ clearInterval(vn.yaziyor); vn.yaziyor = null; }
+  // Yazı efekti kendi sahnesine bağlı: sahne değiştiyse (geç, bitir) kendini durdurur.
+  const sahip = vn, metin = vn.tamMetin;
+  const t = setInterval(() => {
+    if(vn !== sahip){ clearInterval(t); return; }
+    i++; p.textContent = metin.slice(0, i);
+    if(i >= metin.length){ clearInterval(t); vn.yaziyor = null; }
   }, 22);
+  vn.yaziyor = t;
 }
 
 function vnSecimGoster(oge){
@@ -2683,19 +2689,22 @@ function vnSar(devam){
   if(vn) vn.hizli = false;
 }
 
-/* "Sahneyi geç": seçimlere kadar ileri sarar — seçim atlanmaz, oyuncu kendisi seçer.
-   Satırların durum etkileri (kıyafet, kasa) sarılırken de uygulanır. */
+/* "Sahneyi geç": sahnenin SONUNA atlar, bir sonraki sahne başlar (sahibinin isteği, 9 Ekim 2026).
+   Eskiden seçime kadar sarıyordu; atlanan satırların arka plan değişimi uygulanmadığı için seçim
+   önceki mekânın görüntüsü üstünde çıkıyordu. Atlanan seçimlerde ilk seçenek alınır (metin
+   farkı yaratır, oyun durumu değil). Kıyafet ve kasa etkileri sarılırken de uygulanır. */
 function vnGec(){
   if(!vn) return;
   clearInterval(vn.yaziyor); vn.yaziyor = null;
-  if(vn.secimde) return;
-  while(vn.kuyruk.length && !vn.kuyruk[0].secim){
+  const sec = oge => { vn.secimler.push(0); vn.kuyruk.unshift(...((oge.secenekler[0] || {}).satirlar || [])); };
+  if(vn.secimde){ vn.secimde = false; sec(vn.secimOge); }
+  while(vn.kuyruk.length){
     const s = vn.kuyruk.shift(); vn.adim++;
+    if(s.secim){ sec(s); continue; }
     if(s.set){ vn.set = s.set; vnSonSet = s.set; }
     if(s.kasa){ vn.kasaGorunur = vnKasaGorunur = true; }
   }
-  vnKasaTazele();
-  if(vn.kuyruk.length) vnIlerle(); else vnBitir();
+  vnBitir();
 }
 
 /* Geri: her öğe gösterilmeden hemen önceki durum saklanır; geri dönmek, bir önceki
