@@ -81,6 +81,11 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 8. Kıyafet sabitleri (vakaya göre: etek, ayakkabı rengi…)
 9. Çekicilik satırı (kural 15)
 10. "Hiçbir yazı, harf, rakam, logo yok."
+11. **Oran satırı (9 Ekim 2026, sahibinin kararı):** her promptun sonuna, tek başına:
+    - figür: "Görselin oranı TAM 4:5, dikey (1122×1402). Birinci referansla aynı oran."
+    - arka plan, ara kare, detay: "Görselin oranı TAM 3:4, dikey (1086×1448)."
+    Üretici oranı çoğu zaman birinci referanstan alır; bu yüzden birinci referans da aynı
+    oranda verilir. Yine kayarsa görsel atılmaz, kesimde ölçüye getirilir (kenardan kırpma).
 
 **Bilinen hatalar ve önlemleri:**
 | hata | önlem |
