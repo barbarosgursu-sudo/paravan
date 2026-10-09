@@ -216,25 +216,35 @@ görünüyor, mendil yerinde, gömlek kesimde korundu. `--profil cengo`. Gri yer
 
 **Referans 1:** Büro, gündüz (A6). **Referans 2:** Peri, mantosuz. **Referans 3:** Rıza Reis.
 
+*9 Ekim düzeltmesi:* büroda askı zaten var (sağda, ayaklı ahşap portmanto) ve kapı solda. Eski
+prompt "duvardaki askı", "Rıza sağda kapıda", "başka nesne yok" diyordu — odayla çelişiyordu.
+Yerleşim odaya göre çevrildi: Rıza solda kapıda, Peri sağda portmantoda.
+
 ```
-Birinci referans görseldeki büronun AYNISI: aynı oda, aynı masa, aynı pencere ve ışık, aynı
-çizim tarzı. İkinci referans görseldeki kadının AYNISI: aynı yüz, saç ve topuz, aynı krem saten
-bluz, siyah kalem etek, ince siyah kemer, kırmızı stiletto, aynı altın küpeler. Üçüncü referans
-görseldeki yaşlı balıkçının AYNISI: aynı yüz, bıyık, kasket ve lacivert yelek.
+Birinci referans görseldeki büronun AYNISI: aynı oda, aynı iki ahşap masa, aynı kemerli pencere
+ve deniz manzarası, aynı ışık, aynı solda açık duran ahşap kapı, aynı sağdaki ayaklı ahşap
+portmanto, aynı çizim tarzı. İkinci referans görseldeki kadının AYNISI: aynı yüz, saç ve topuz,
+aynı krem saten bluz, siyah kalem etek, ince siyah kemer, aynı altın küpeler; ayağında kırmızı
+stiletto. Üçüncü referans görseldeki yaşlı balıkçının AYNISI: aynı yüz, beyaz bıyık ve sakal,
+aynı lacivert kasket, açık mavi gömlek ve lacivert örgü yelek.
 
-Kadraj: DİKEY (3:4). Kamera büronun içinde, göz hizasında.
+Kadraj: DİKEY (3:4). Kamera büronun içinde, göz hizasında; oda referanstaki gibi görünüyor.
 
-Kadrajda YALNIZ şunlar var:
-1. Kadın kadrajın solunda, duvardaki ahşap bir askının önünde; yarı yana dönük, üç çeyrek
-   profilden. Domates kırmızısı yün mantosunu iki eliyle askıya asıyor; TAM İKİ KOL, İKİ EL, ikisi de
-   mantonun yakasında, askının kancasında. Mantoyu çıkarmış: saten bluzun ince kumaşı ve derin
-   dekolte, kalem eteğin sardığı kalça ve bacak hattı, kırmızı stilettolar görünüyor.
-   Yüzünde küçük, kendinden emin bir gülümseme; omzunun üstünden geriye bakıyor.
-2. Yaşlı balıkçı kadrajın sağında, kapı aralığında ayakta; kasketini iki eliyle göğsünde
-   tutuyor; mahcup, başını yana çevirmiş, gözünü kaçırıyor, yanakları hafif kızarmış.
-3. Duvarda yalnız askı; masada kapalı, yazısız bir dosya.
+Kadrajda şunlar var:
+1. Kadın kadrajın sağında, ayaklı ahşap portmantonun önünde; yarı yana dönük, üç çeyrek
+   profilden, tam boy. Domates kırmızısı yün mantosunu iki eliyle portmantonun kancasına asıyor;
+   TAM İKİ KOL, İKİ EL, ikisi de mantonun yakasında, kancanın üstünde. Mantoyu çıkarmış: saten
+   bluzun ince kumaşı ve derin dekolte, kalem eteğin sardığı kalça ve bacak hattı, kırmızı
+   stilettolar görünüyor. Yüzünde küçük, kendinden emin bir gülümseme; omzunun üstünden
+   kadrajın soluna, kapıdaki adama bakıyor.
+2. Yaşlı balıkçı kadrajın solunda, açık kapının aralığında ayakta; lacivert kasketini çıkarmış,
+   iki eliyle göğsünde tutuyor; mahcup, başını yana çevirmiş, gözünü kaçırıyor, yanakları hafif
+   kızarmış.
+3. Oda referanstaki gibi: iki masa, pencere, dolap, masa lambası. Masalarda ve duvarlarda yazı
+   taşıyan hiçbir şey yok: kâğıt, afiş, tabela, takvim yok. Masadaki karton kutunun yüzü düz,
+   etiketsiz.
 
-Başka hiçbir nesne yok. Hiçbir kâğıtta, duvarda, kapıda yazı yok.
+Kişi olarak YALNIZ bu iki kişi var. Hiçbir kâğıtta, duvarda, kapıda, camda yazı yok.
 
 Hava: komik ve çekici; kadın farkında, yaşlı adam utanmış.
 
@@ -242,6 +252,9 @@ Hava: komik ve çekici; kadın farkında, yaşlı adam utanmış.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+**Bakılacaklar:** kapı camında yazı ("Camda yazıyor" — metin anıyor ama görselde harf olmamalı;
+kapı camı görünüyorsa düz buzlu cam); Rıza'nın kasketi elinde mi; el sayısı.
 
 ## G8 — Set arkası: Cengo pilav tabağıyla Tuba'nın yanında (ara kare)
 
