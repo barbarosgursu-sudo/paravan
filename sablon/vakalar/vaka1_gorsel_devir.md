@@ -123,6 +123,11 @@ Kemal'in kesim profili: `arac_kes.js --profil kemal`; Serkan ve sonraki konuklar
 
 ## 6. Teknik tuzaklar (görselle ilgili)
 
+- **Kıvırcık saçta bej hale (9 Ekim, sahibi buldu):** `arac_kes.js` saç kıvrımlarında kalan arka
+  planı silemiyor — Tuba ve Cengo'nun altı ifadesinde vardı, elle temizlendi (yalnız baş bölgesi:
+  saydama bağlı açık-bej pikseller + kıvrımda kapalı kalmış nötr bej cepler; ten ve beyaz yaka
+  korunur). Yeni figür kesince saçı yeşil önizlemede büyütüp bak.
+
 - `GORSELLER` anahtarı **uzantısız**; uzantılı anahtar sessizce görünmez (derleyici yakalar).
 - `toLocaleLowerCase("tr")` "ZAYIF"ı "zayıf" yapar — kimliklerde açık eşleme kullan.
 - Eski `index.html` **birebir aynı** kalmalı (md5 yukarıda). `motor.js`'e dokunma.
