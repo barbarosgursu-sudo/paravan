@@ -228,10 +228,9 @@
             {
               "k": "not",
               "m": "Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.",
-              "gir": "kemal",
-              "gi": "sokak"
+              "mekan": true
             },
-            {"k": "peri", "i": "kas", "m": "Kemal Reis. Nazlı'yı siz aldınız."},
+            {"k": "peri", "i": "kas", "m": "Kemal Reis. Nazlı'yı siz aldınız.", "gir": "kemal", "gi": "sokak"},
             {"k": "kemal", "i": "sokak", "m": "Ben mi? Ben buraya alacağımı almaya geldim!"},
             {"k": "kemal", "m": "Dümende Rıza'nın oğlu vardı. Gözümle gördüm!"},
             {"k": "cengo", "i": "kas", "m": "Gördün de sustun mu?"},

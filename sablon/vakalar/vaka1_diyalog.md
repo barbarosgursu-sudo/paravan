@@ -186,8 +186,8 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ arka: A13 · figurler: peri, cengo, serkan
 ⚙ Kemal, Serkan'dan alacağını istemeye gelmiş (form §10, onaylı).
 
-*Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.* {gir: kemal, gi: sokak}
-**PERİ [kas]:** Kemal Reis. Nazlı'yı siz aldınız.
+*Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.* {mekan}
+**PERİ [kas]:** Kemal Reis. Nazlı'yı siz aldınız. {gir: kemal, gi: sokak}
 **KEMAL [sokak]:** Ben mi? Ben buraya alacağımı almaya geldim!
 **KEMAL:** Dümende Rıza'nın oğlu vardı. Gözümle gördüm!
 **CENGO [kas]:** Gördün de sustun mu?
