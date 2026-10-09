@@ -3858,3 +3858,11 @@ Sahibinin isteği: "Avukatım… En büyüğü tuzaktı." satırında parmakla H
 eden sinirli görsel tuhaftı — öfke orada olmayan avukata. Kollar dekoltenin altında
 kavuşturulmuş, bakış aşağı kaçmış, çene gergin. Ölçek PM2 ile birebir; `peri` profiliyle
 kesildi → `sprite/peri_mantosuz_aci.webp`.
+
+
+## K3 düzeltmesi (9 Ekim 2026, Onay 3)
+
+Sahibi: K3'te gövdede D3'teki mavi izler yok; tırnağın bastığı küpeşte kenarı kırık tahta gibi.
+1. düzenleme: izler bütün gövdeye yayıldı, kenar yine kırık. **Ders:** "izleri ekle" deyince
+üretici sınırsız yayar — iz YERİ ve BOYU tek tek verilir; tahta kenarına bastırılan tırnak her
+seferinde kırık okunuyor → tırnak kenara değil düz tahta yüzüne konur.
