@@ -264,27 +264,43 @@ saç. 1086×1448 geldi → 900×1200. Kare K15; diyalogda tek satırda (`{set: m
 
 **Referans 1:** Set arkası (A12). **Referans 2:** Cengo (CA2). **Referans 3:** Tuba.
 
+*9 Ekim düzeltmesi:* A12'de "uzun katering masası" yok; beyaz örtülü tek bir masa (semaver,
+karton bardaklar, simit sepeti, portakal kâsesi), yanında katlanır yönetmen sandalyesi, siyah
+ekipman sandıkları, ışık ayağı ve kablo makarası var. Eski prompt "başka hiçbir nesne yok"
+diyordu — mekânla çelişiyordu. Prompt mekâna göre yazıldı.
+
 ```
-Birinci referans görseldeki set arkasının AYNISI: aynı katering masası, aynı ağaçlar, aynı gün
-batımı ışığı, aynı çizim tarzı. İkinci referans görseldeki adamın AYNISI: aynı yüz, saç,
-kıyafet ve bileklik. Üçüncü referans görseldeki kadının AYNISI: aynı yüz, saç ve kıyafet.
+Birinci referans görseldeki set arkasının AYNISI: aynı beyaz örtülü masa ve üstündeki semaver,
+karton bardaklar, simit sepeti ve portakal kâsesi; aynı çınar ağacı, aynı yalılar, aynı gün
+batımı ışığı, aynı taş zemin, aynı çizim tarzı. İkinci referans görseldeki adamın AYNISI: aynı
+yüz, saç, kahverengi süet ceket, krem gömlek, koyu kot, bordo mendil ve renkli boncuk bileklik.
+Üçüncü referans görseldeki kadının AYNISI: aynı yüz, aynı kıvırcık topuz ve saçına sokulu
+kalem, aynı haki yelek, lacivert gömlek ve koyu kargo pantolon.
 
-Kadraj: DİKEY (3:4). Kamera masanın karşısından, oturanların göz hizasında.
+Kadraj: DİKEY (3:4). Kamera masanın önünden, oturanların göz hizasında; masa ve ikisi kadrajın
+ortasında, arkada çınar ve yalılar.
 
-Kadrajda YALNIZ şunlar var:
-1. Uzun katering masası; üstünde iki plastik tabak dolusu pilav, iki karton bardak.
-2. Kadın masanın başında oturuyor, kadrajın sağında; bir elinde telefon kulağında, öteki elinde
-   ikinci bir telefon, masada üçüncü telefon ekranı aşağı dönük. Yorgun, aceleci, kaşları çatık;
-   yanına oturan adama şüpheyle yan gözle bakıyor.
-3. Adam kadrajın solunda, kadının yanına yeni oturmuş; elinde dolu bir pilav tabağı ve plastik
-   kaşık; kadına dönmüş, sırıtıyor, sohbet açan, hınzır bir gülümseme. TAM İKİ KOL, İKİ EL.
+Kadrajda şunlar var:
+1. Referanstaki beyaz örtülü masa; üstünde referanstaki semaver, karton bardaklar, simit sepeti
+   ve portakal kâsesi, ayrıca kadının önünde yarısı yenmiş bir plastik tabak pilav.
+2. Kadın masanın yanında, referanstaki katlanır ahşap yönetmen sandalyesinde oturuyor, kadrajın
+   sağında. Telefonu omzuyla kulağına sıkıştırmış, iki eliyle ikinci bir telefona bakıyor;
+   ekranlar kameraya dönük DEĞİL. Yorgun, aceleci, kaşları çatık; yanına oturan adama şüpheyle
+   yan gözle bakıyor.
+3. Adam kadrajın solunda, kadının yanına ikinci bir katlanır sandalyeye yeni oturmuş; elinde
+   dolu bir plastik tabak pilav ve plastik kaşık; kadına dönmüş, sırıtıyor, sohbet açan, hınzır
+   bir gülümseme. TAM İKİ KOL, İKİ EL.
+4. Arkada referanstaki siyah ekipman sandıkları, ışık ayağı ve kablo makarası; sandıkların
+   üstünde etiket, yazı, çıkartma yok.
 
-Başka hiçbir nesne yok: senaryo, klaket, kâğıt yok. Telefon ekranları görünmüyor.
+Senaryo, klaket, kâğıt yok. Telefon ekranları görünmüyor.
 
 Hava: hafif komik; adam kendini davet etmiş.
 
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
+
+**Bakılacaklar:** sandık ve ışıkta etiket/yazı; telefon ekranı; Tuba'nın yüzü referansla aynı mı.
 
 ## G9 — Kepenkte bantlı borç notu, Peri'nin elinde (detay)
 
