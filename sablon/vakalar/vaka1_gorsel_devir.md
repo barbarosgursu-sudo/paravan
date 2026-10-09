@@ -13,8 +13,10 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 - **Hikâye dondu (Onay 2, 9 Ekim).** Metin artık değişmez; değişirse 7. parçadaki "değişiklik
   kuralı"yla.
 - **Şimdiki adım: 8, görseller.** 11 prompt yazıldı: `sablon/vakalar/vaka1_gorsel.md`.
-  Promptlar ve numaralı referans görseller sahibine gönderildi. **Hiçbir görsel daha gelmedi.**
-- Sonra: **Onay 3** (sahibi görsellerle oynar). Sonra Vaka 2.
+  Promptlar ve numaralı referans görseller sahibine gönderildi.
+- **9 Ekim: 11 görselin 11'i oyunda.** Gri yer tutucu kalmadı. Sonuç notları her promptun altında
+  (`vaka1_gorsel.md`); G7–G11 promptları mekâna göre düzeltildi, G9 üç denemede tuttu.
+- **Sıradaki: Onay 3** (sahibi görsellerle oynar). Sonra Vaka 2.
 
 ## 2. Sahibiyle çalışma biçimi (çok önemli)
 
@@ -59,7 +61,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G8 | Cengo pilavla Tuba'nın yanında | **oyunda** (9 Ekim) | `ara_k16_pilav.webp` | `K16` | set_sorumlusu ipucu, satır ~132 ("Set arkası, yemek masası…") |
 | G9 | Kepenkte borç notu (detay) | **oyunda** (9 Ekim, 3. deneme) | `detay_d4_not.webp` | `D4` | serkan ipucu, satır ~154 ("Kepengin üstüne bantlanmış…") |
 | G10 | Akşam koridoru, Peri anahtarla | **oyunda** (9 Ekim, 2. deneme) | `ara_k17_anahtar_aksam.webp` | `K17` | kapanış, satır ~290 ("Koridor. Peri anahtarı kilide sokuyor") |
-| G11 | Cengo teli Peri'nin avucuna koyuyor | bekleniyor | `ara_k18_avuc.webp` | `K18` | kapanış, satır ~297 (`bag: yuksek`) |
+| G11 | Cengo teli Peri'nin avucuna koyuyor | **oyunda** (9 Ekim) | `ara_k18_avuc.webp` | `K18` | kapanış, satır ~297 (`bag: yuksek`) |
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 

@@ -470,6 +470,11 @@ gündüz ışığı sızmış mı.
 
 ---
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde.** İki el, beşer parmak; tel D1'deki gibi; akşam ışığı.
+Kare K18; diyalogda `bag: yuksek` satırında.
+
+---
+
 ## Kontrol (gelen her görsel — `5_gorsel_sistemi.md` E)
 
 Kimlik · ölçek ve baş yüksekliği · bakış kadrajın soluna · el sayısı · yazı/harf/logo ·

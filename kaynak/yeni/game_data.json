@@ -51,7 +51,8 @@
         "K14",
         "K15",
         "K16",
-        "K17"
+        "K17",
+        "K18"
       ],
       "buro": ["A6", "A7", "A8"]
     }
@@ -343,7 +344,12 @@
               "m": "Peri teli almıyor. Cengo dönünce kilitten çekip mantosunun cebine koyuyor.",
               "bag": "dusuk"
             },
-            {"k": "not", "m": "Teli Peri'nin avucuna koyuyor. Eli bir an orada kalıyor.", "bag": "yuksek"},
+            {
+              "k": "not",
+              "m": "Teli Peri'nin avucuna koyuyor. Eli bir an orada kalıyor.",
+              "bag": "yuksek",
+              "kare": "K18"
+            },
             {"k": "peri", "i": "kas", "m": "Ben kilit açmam.", "bag": "yuksek"},
             {"k": "cengo", "i": "yumusak", "m": "Biliyorum. Cebinizde dursun.", "bag": "yuksek"},
             {"k": "not", "m": "Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.", "bag": "yuksek"},

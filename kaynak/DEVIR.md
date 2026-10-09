@@ -26,6 +26,7 @@
   kural 21c, kural 22a (kısa sonuç, kasaya giden, Cengo'nun tavrı, kesinti sebebi), gri yer
   tutucu, iki adımlı Kim yaptı?, Dosya çözüldü ekranı, satırdan sürdürme, Sahneyi geç onarımı.
 - **Görsel işi yeni pencerede: önce `sablon/vakalar/vaka1_gorsel_devir.md` oku.**
+- **9 Ekim: Vaka 1'in 11 görseli oyunda** (figürler G1–G6, kareler K15–K18, detay D4). Sırada Onay 3.
 - **Sıradaki iş: adım 8, görseller.** Liste ve 11 prompt: `sablon/vakalar/vaka1_gorsel.md`
   (numaralı referanslarla sahibine gönderildi). Görsel geldikçe: kontrol (dosyanın sonu),
   figürse `arac_kes.js`, göm, `gorseller.json` → `yer_tutucu`'dan çıkar, tur. Sonra Onay 3.
