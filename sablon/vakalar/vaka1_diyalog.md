@@ -106,9 +106,14 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ arka: A11 · figurler: peri, cengo
 
 *Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi.* {mekan}
-**PERİ [normal]:** Beni tanırlar.
-**ASİSTAN:** Figüranlar arkadan.
-**PERİ [sinirli]:** …Arkadan.
+**PERİ [normal]:** Dur, ben hallederim. Beni tanırlar.
+**CENGO [kas]:** Kim tanır?
+**PERİ [kas]:** Herkes. Ben güzellik kraliçesiydim.
+**ASİSTAN:** *(Peri'yi baştan aşağı süzüp)* Figüranlar arkadan.
+**PERİ [sinirli]:** …Figüran mı?
+**CENGO [gulen]:** Kraliçeler arkadan giriyormuş.
+**PERİ [sinirli]:** Bir kelime daha edersen maaşını keserim.
+**CENGO [gulen]:** Önce bir verin, sonra kesin.
 **ASİSTAN:** *(telefonunu figüranlara gösteriyor)* Bu sezonun yıldızı: gerçek bir lüks yat.
 *Setin ortasında "lüks yat": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.* {kare: D3}
 **BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık.

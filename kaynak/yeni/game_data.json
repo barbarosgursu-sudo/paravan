@@ -426,9 +426,14 @@
                 "m": "Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi.",
                 "mekan": true
               },
-              {"k": "peri", "i": "normal", "m": "Beni tanırlar."},
-              {"k": "asistan", "m": "Figüranlar arkadan."},
-              {"k": "peri", "i": "sinirli", "m": "…Arkadan."},
+              {"k": "peri", "i": "normal", "m": "Dur, ben hallederim. Beni tanırlar."},
+              {"k": "cengo", "i": "kas", "m": "Kim tanır?"},
+              {"k": "peri", "i": "kas", "m": "Herkes. Ben güzellik kraliçesiydim."},
+              {"k": "asistan", "m": "(Peri'yi baştan aşağı süzüp) Figüranlar arkadan."},
+              {"k": "peri", "i": "sinirli", "m": "…Figüran mı?"},
+              {"k": "cengo", "i": "gulen", "m": "Kraliçeler arkadan giriyormuş."},
+              {"k": "peri", "i": "sinirli", "m": "Bir kelime daha edersen maaşını keserim."},
+              {"k": "cengo", "i": "gulen", "m": "Önce bir verin, sonra kesin."},
               {"k": "asistan", "m": "(telefonunu figüranlara gösteriyor) Bu sezonun yıldızı: gerçek bir lüks yat."},
               {
                 "k": "not",
