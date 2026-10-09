@@ -116,7 +116,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **CENGO [gulen]:** Önce bir verin, sonra kesin.
 **ASİSTAN:** *(telefonunu figüranlara gösteriyor)* Bu sezonun yıldızı: gerçek bir lüks yat.
 *Setin ortasında "lüks yat": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.* {kare: D3}
-**BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık.
+**BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık. {kare: D3}
 **PERİ [sinirli]:** Hırsızı bulduk.
 **CENGO [kas]:** Hırsız kamera kurmaz.
 *Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba}

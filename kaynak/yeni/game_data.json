@@ -474,7 +474,7 @@
                 "m": "Setin ortasında \"lüks yat\": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.",
                 "kare": "D3"
               },
-              {"k": "boyaci", "m": "Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık."},
+              {"k": "boyaci", "m": "Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık.", "kare": "D3"},
               {"k": "peri", "i": "sinirli", "m": "Hırsızı bulduk."},
               {"k": "cengo", "i": "kas", "m": "Hırsız kamera kurmaz."},
               {
