@@ -49,7 +49,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 
 | # | ne | durum | gidecek dosya | manifesto anahtarı | metinde yeri |
 |---|---|---|---|---|---|
-| G1 | Kemal Reis, normal (fırçalı) | bekleniyor | `figur_kemal_normal.webp` | `kemal.normal` | iskele ipucu |
+| G1 | Kemal Reis, normal (fırçalı) | **oyunda** (9 Ekim) | `figur_kemal_normal.webp` | `kemal.normal` | iskele ipucu |
 | G2 | Kemal Reis, öfkeli (G1'den) | bekleniyor | `figur_kemal_ofkeli.webp` | `kemal.ofkeli` | Kemal yüzleşmesi |
 | G3 | Serkan, sakin, kartsız | bekleniyor | `figur_serkan_sakin.webp` | `serkan.normal` (eski kartlı görselin yerine) | Serkan ipucu, yüzleşmeler |
 | G4 | Serkan, panik (G3'ten) | bekleniyor | `figur_serkan_panik.webp` | `serkan.panik` | yüzleşmeler |
@@ -63,10 +63,12 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 
-**Bekleyen onay:** Kemal Reis'in görünüşü metinde yoktu, ben önerdim — elli yaşlarında,
-iri, kısa kır saç, kirli sakal, **bıyıksız**, lastik balıkçı önlüğü, elleri beyaz boyalı
-(boya kanonda: `kemal_boya`). Rıza (yetmiş civarı, bıyıklı, kasketli) ve çaycıdan (kel,
-tombul, beyaz bıyıklı) ayrışsın diye. Sahibi henüz "uygun" demedi.
+**Kemal'in görünüşü onaylandı (9 Ekim):** elli yaşlarında, iri, kısa kır saç, kirli sakal,
+**bıyıksız**, lastik balıkçı önlüğü, elleri beyaz boyalı (boya kanonda: `kemal_boya`).
+
+**Referans dosyaları:** sahibi her promptla referans görsellerini de istiyor. Depo kökünde
+`referans/` (git'e girmez) — `G<n>-<sıra>_<ad>.png`; kesilmiş figürler bej zemine basılır.
+Kemal'in kesim profili: `arac_kes.js --profil kemal` (1122×1402, tam genişlik).
 
 ## 5. Görsel gelince yapılacaklar (sırayla)
 

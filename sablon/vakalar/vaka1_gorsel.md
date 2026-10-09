@@ -68,6 +68,12 @@ Arka plan: düz, tek renk açık bej. Hiçbir nesne, hiçbir mekân yok.
 Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 ```
 
+**Sonuç (9 Ekim): Tuttu, ilk seferde (ChatGPT).** Bıyık yok (üst dudakta yalnız sakalla aynı
+kirli sakal), iki el, fırça tek, yazı yok, bakış sola. Kaynak 1122×1402 geldi → yeni profil
+`kemal` (tam genişlik, delik tol 10; 14'te önlükteki bir boya damlası delik sanılıp siliniyordu).
+Koltuk altında kalan küçük bej leke elle silindi. Ekranda sağdaki el ekran kenarına değiyor;
+sorun değil.
+
 **Bakılacaklar:** bıyık yok mu; Rıza Reis'e (bıyıklı, kasketli, yaşlı) ve çaycıya benzemiyor mu;
 eller beyaz, fırça tek mi; el sayısı.
 
