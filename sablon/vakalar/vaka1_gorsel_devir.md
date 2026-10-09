@@ -22,7 +22,9 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
   söyleyecek miydin?"). Boyacı satırında D3 kalır. Tuba küçüldü (0.8). 29 figürde saç halesi
   temizlendi. A6b (büro ters açı, manto askıda). K3 yeniden çizildi (mavi iz tek yerde, küpeşte
   bütün). Şablona oran satırı (figür 4:5, sahne 3:4). Sahibi oynamaya devam ediyor; notları
-  geldikçe tek tek. Onay 3 verilince Vaka 2.
+  geldikçe tek tek. Künye yazıldı (8 kişi, sahibinin onayı; `yeni/kisiler.json`), portreler
+  figürlerden kırpıldı (`yeni_gorsel/portre/`). Not: `arac_kunye_denetim.js` yalnız eski oyunu
+  okuyor; yeni künye elle denetlendi. Onay 3 verilince Vaka 2.
 
 ## 2. Sahibiyle çalışma biçimi (çok önemli)
 

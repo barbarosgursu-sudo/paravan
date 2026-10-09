@@ -1,6 +1,107 @@
 {
-  "_not": "Künye (kisiler) henüz yazılmadı: her katman yeni metin ve Nurcan yüzeyi, sahibinin onayıyla yazılacak. defter = Peri'nin anı defteri, karar başına.",
-  "kisiler": [],
+  "_not": "Künye: sahibinin onayıyla 9 Ekim 2026. Her katman yalnız koşulunun garanti ettiği olguyu söyler (Nurcan yüzeyi). Katman metni BİRİKİMLİDİR: alt katman üsttekini tekrar eder, çünkü motor en derin eşleşeni gösterir. defter = Peri'nin anı defteri, karar başına.",
+  "kisiler": [
+    {
+      "id": "peri",
+      "ad": "Peri",
+      "portre": "portre_peri",
+      "tanisma": "her_zaman",
+      "katmanlar": [
+        {
+          "kosul": "her_zaman",
+          "tanim": "Eski güzellik kraliçesi. Avukatı bütün parasını alıp kaçtı, evine haciz geldi. Elinde avukatın kurduğu Paravan Dedektiflik ve üstündeki kırmızı manto kaldı."
+        }
+      ]
+    },
+    {
+      "id": "cengo",
+      "ad": "Cengo",
+      "portre": "portre_cengo",
+      "tanisma": "her_zaman",
+      "katmanlar": [
+        {
+          "kosul": "her_zaman",
+          "tanim": "Paravan Dedektiflik'in bordrosunda yedi yıldır kayıtlı tek çalışan; ne iş yaptığını kimse bilmiyor. Kilidi iki saniyede açar. Üç aylık maaşını bekliyor."
+        }
+      ]
+    },
+    {
+      "id": "hilmi",
+      "ad": "Hilmi Bey",
+      "portre": "portre_hilmi",
+      "tanisma": "her_zaman",
+      "katmanlar": [{"kosul": "her_zaman", "tanim": "İcra memuru. Peri'nin evini haczetti. Annesi yarışmada Peri'ye oy vermiş."}]
+    },
+    {
+      "id": "riza",
+      "ad": "Rıza Reis",
+      "portre": "portre_riza",
+      "tanisma": "tekne_kayip",
+      "katmanlar": [
+        {
+          "kosul": "tekne_kayip",
+          "tanim": "Karaköylü yaşlı balıkçı. Kırk yıllık teknesi Nazlı (adı rahmetli karısının) iskeleden kayboldu. Oğlu Serkan'ın duymasını istemiyor."
+        },
+        {
+          "kosul": "tekne_sette",
+          "tanim": "Karaköylü yaşlı balıkçı. Kırk yıllık teknesi Nazlı (adı rahmetli karısının) iskeleden kayboldu. Oğlu Serkan'ın duymasını istemiyor. Nazlı Bebek'te, bir dizi setinde çıktı."
+        }
+      ]
+    },
+    {
+      "id": "cayci",
+      "ad": "Çaycı",
+      "portre": "portre_cayci",
+      "tanisma": "bebek_yonu",
+      "katmanlar": [
+        {
+          "kosul": "bebek_yonu",
+          "tanim": "İskelenin çay ocağını işletir; gece de oradadır. Salı gecesi Nazlı'nın kuzeye gittiğini gördü."
+        }
+      ]
+    },
+    {
+      "id": "kemal",
+      "ad": "Kemal Reis",
+      "portre": "portre_kemal",
+      "tanisma": "kemal_boya",
+      "katmanlar": [
+        {
+          "kosul": "kemal_boya",
+          "tanim": "Rıza Reis'in yan bağlamadaki komşusu; aralarında kavga var. Elleri ve teknesi taze beyaz boyalı."
+        },
+        {
+          "kosul": "boya_tesaduf",
+          "tanim": "Rıza Reis'in yan bağlamadaki komşusu; aralarında kavga var. Elleri ve teknesi taze beyaz boyalı. Kendi teknesini boyamış; Nazlı'nın beyazı başka bir fırçadan."
+        }
+      ]
+    },
+    {
+      "id": "tuba",
+      "ad": "Tuba",
+      "portre": "portre_tuba",
+      "tanisma": "tuba_ters",
+      "katmanlar": [
+        {"kosul": "tuba_ters", "tanim": "Dizinin set sorumlusu. Elinde üç telefon; hep çekimde, soru sevmez."},
+        {
+          "kosul": "kiralayan_balikci",
+          "tanim": "Dizinin set sorumlusu. Elinde üç telefon; hep çekimde, soru sevmez. Tekneyi Karaköylü bir balıkçıdan nakit kiralamış; adını sormamış."
+        }
+      ]
+    },
+    {
+      "id": "serkan",
+      "ad": "Serkan",
+      "portre": "portre_serkan",
+      "tanisma": "serkan_borc",
+      "katmanlar": [
+        {
+          "kosul": "serkan_borc",
+          "tanim": "Rıza Reis'in oğlu. Karaköy'de kapalı bir balık-ekmek dükkânı var; cumaya yüz bine yakın borcu."
+        }
+      ]
+    }
+  ],
   "defter": {
     "V1": {
       "sete_gotur": "Rıza Reis teknesine sette kavuştu; oğlunun yaptığını herkesin önünde öğrendi.",
