@@ -378,11 +378,17 @@ Metin "kepengin üstüne bantlanmış" diyor, görsel koparılmış notu göster
 
 **Referans 1:** Peri kapıda anahtarla (K13, gündüz). **Referans 2:** Koridor, akşam (A5b).
 
+*9 Ekim düzeltmesi:* K13'te Peri'nin sol elinde küçük bir kâğıt var; kapanışta metin kâğıt
+anmıyor → kâğıt kaldırıldı.
+
 ```
 Birinci referans görselin AYNISI: aynı kadın, aynı poz (kapıya eğilmiş, anahtarı kilitte
 çeviriyor), aynı kapı ve kilit, aynı kıyafet, aynı kadraj ve çizim tarzı.
 
-Değişen tek şey IŞIK ve SAAT: ikinci referans görseldeki gibi AKŞAM. Tavanda yanan sıcak sarı
+Değişen iki şey var.
+1. Elindeki küçük beyaz kâğıt YOK: sol eli boş, parmakları yumruk gibi kapalı, mantonun önünde.
+   Sağ eli aynen anahtarda.
+2. IŞIK ve SAAT: ikinci referans görseldeki gibi AKŞAM. Tavanda yanan sıcak sarı
 lamba, dipteki pencerede lacivert akşam göğü; köşeler karanlık, kadının yüzü ve eli lambanın
 sıcak ışığında. Kadının ifadesi: sinirli, yorgun; dudaklarını ısırıyor.
 
