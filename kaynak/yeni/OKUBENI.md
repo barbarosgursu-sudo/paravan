@@ -51,7 +51,12 @@ Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün fonksiyonlarını sara
 Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
 seçime kadar sarar, seçimi atlamaz. **GEÇİCİ:** "◂ Geri" düğmesi (sahibinin gözden geçirmesi için, 7 Ekim 2026) satır satır geri gider; sahnenin ilk satırında zincirdeki önceki sahnenin başına döner (açılış, giriş+konuşma). Oyun durumunu geri almaz (ipucu, karar, para). Kapatmak: `yeni_arayuz.js` → `VN_GERI = false`.
 
-**Açılış kaydı:** oyunun asıl kaydı ilk kez masada yazılır; açılışta hangi sahnede kalındığı ayrı anahtarda (`paravan_yeni_kayit_v1_acilis`) tutulur, açınca "Kaldığın yer — Açılış" ekranı sahnenin başından sürdürür. Masaya varınca silinir.
+**Sahne kaydı (9 Ekim 2026, sahibinin isteği):** her konuşma akışı (açılış, giriş, ipucu,
+yüzleşme+kovalamaca, kapanış) `akisBaslat` ile başlar; hangi sahnede ve kaçıncı satırda
+olunduğu ayrı anahtarda (`paravan_yeni_kayit_v1_sahne`) tutulur. Açınca sahne o satıra kadar
+yazı/geçiş beklemeden yeniden oynatılır (`vnSar`), seçimler kaydedildiği gibi yapılır; görüntü
+(arka plan, kıyafet, figürler) aynı gelir. Kayıt motor durumuyla tutarsızsa yok sayılır. Akış
+bitince silinir. Sonuç ekranında kapatılırsa kapanış sahnesinden sürer.
 
 **Tarayıcı iletişim kutusu yok:** claude.ai artifact çerçevesi `confirm()`/`alert()`ı engelliyor (kutu çıkmıyor, `confirm` "hayır" döner). Eski sayfanın "Baştan başla"sı bu yüzden hiçbir şey yapmıyordu; yeni oyunda `yenidenBasla` sayfa içi onay ekranıyla değiştirildi. Yeni bir onay/uyarı eklerken iletişim kutusu kullanma. Ruh hâli görseli ve istatistik paneli yeni
 sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔

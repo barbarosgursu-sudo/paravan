@@ -61,7 +61,7 @@ function vnBagSuz(satirlar){
     .map(s => s.secenekler ? { ...s, secenekler: s.secenekler.map(o => ({ ...o, satirlar: vnBagSuz(o.satirlar || []) })) } : s);
 }
 
-function sahneOynat(sahne, sonra, baslik, onceki){
+function sahneOynat(sahne, sonra, baslik, onceki, devam){
   if(!sahne || !Array.isArray(sahne.satirlar) || !sahne.satirlar.length){ sonra(); return; }
   const figurler = sahne.figurler || ["peri"];
   vn = {
@@ -71,6 +71,7 @@ function sahneOynat(sahne, sonra, baslik, onceki){
     sag: figurler.find(f => f !== "peri" && f !== "cengo") || (figurler.includes("cengo") ? "cengo" : null),
     arka: null, grup: null, satir: null, yaziyor: null, tamMetin: "", secimde: false,
     kasaGorunur: vnKasaGorunur, cikacak: false, gecmis: [], onceki: VN_GERI ? onceki || null : null,
+    adim: 0, secimler: [], hizli: false, basSet: vnSonSet, basKasa: vnKasaGorunur,
   };
   app.innerHTML = `<div class="vn" role="application" aria-label="Konuşma">
     <div class="vn-serit"><span class="vn-baslik">${vnHtml(baslik||"")}</span>
@@ -100,7 +101,7 @@ function sahneOynat(sahne, sonra, baslik, onceki){
   if(VN_GERI) $("vnGeri").addEventListener("click", e => { e.stopPropagation(); vnGeri(); });
   if(sahne.arka) vnArkaKoy(sahne.arka, true);
   vnKasaTazele();
-  vnIlerle();
+  if(devam && devam.adim > 0) vnSar(devam); else vnIlerle();
 }
 
 /* Kıyafet seti ve kasa göstergesi sahneler arasında taşınır (açılışta manto
@@ -183,7 +184,7 @@ function vnFigurCiz(satir){
 function vnSatirGoster(satir){
   const $ = id => document.getElementById(id);
   if(satir.set){ vn.set = satir.set; vnSonSet = satir.set; }
-  if(satir.arka) vnArkaKoy(satir.arka);
+  if(satir.arka) vnArkaKoy(satir.arka, vn.hizli);
   if(satir.gir){ vn.mevcut.add(satir.gir); if(satir.gir !== "peri") vn.sag = satir.gir; }
   const k = satir.k;
   const figur = !!SAHNE_KANON.figurler[k];
@@ -208,7 +209,7 @@ function vnSatirGoster(satir){
   $("vnIcerik").replaceChildren(p, ileri);
   vn.tamMetin = satir.m;
   vn.cikacak = !!satir.cik;
-  if(VN_AZ_HAREKET){ p.textContent = vn.tamMetin; return; }
+  if(VN_AZ_HAREKET || vn.hizli){ p.textContent = vn.tamMetin; return; }
   let i = 0;
   clearInterval(vn.yaziyor);
   vn.yaziyor = setInterval(() => {
@@ -229,13 +230,16 @@ function vnSecimGoster(oge){
   oge.secenekler.forEach((s, n) => {
     const btn = document.createElement("button");
     btn.className = "vn-secim"; btn.type = "button"; btn.id = "vnSecim" + n; btn.textContent = s.m;
-    btn.addEventListener("click", e => {
-      e.stopPropagation(); vn.secimde = false;
-      vn.kuyruk.unshift(...(s.satirlar||[])); vnIlerle();
-    });
+    btn.addEventListener("click", e => { e.stopPropagation(); vnSecimYap(oge, n); });
     kap.append(btn);
   });
   document.getElementById("vnIcerik").replaceChildren(kap);
+}
+
+function vnSecimYap(oge, n){
+  vn.secimde = false; vn.secimler.push(n);
+  vn.kuyruk.unshift(...(oge.secenekler[n].satirlar || []));
+  if(!vn.hizli) vnIlerle();
 }
 
 /* cik: satır gösterildikten SONRA konuk sahneden çıkar (Rıza Reis son sözünü
@@ -260,7 +264,27 @@ function vnIlerle(){
   if(!vn.kuyruk.length){ vnBitir(); return; }
   if(VN_GERI) vnAnlikKaydet();
   const oge = vn.kuyruk.shift();
-  if(oge.secim) vnSecimGoster(oge); else vnSatirGoster(oge);
+  if(oge.secim){ vn.secimOge = oge; vnSecimGoster(oge); } else vnSatirGoster(oge);
+  vn.adim++; vnYerKaydet();
+}
+
+/* Kaldığı satırdan devam (sahibinin isteği, 9 Ekim 2026): kayıttaki adım sayısına kadar
+   sahne yazı ve geçiş beklemeden yeniden oynatılır; seçimler kaydedildiği gibi yapılır.
+   Kuyruğu baştan oynatmak, satırların bütün etkilerini (kıyafet, giren/çıkan, arka plan,
+   ifade) doğru sırayla yeniden kurmanın tek güvenli yolu. */
+function vnSar(devam){
+  vn.hizli = true;
+  let si = 0, fren = 0;
+  while(vn && vn.adim < devam.adim && fren++ < 3000){
+    if(vn.secimde){
+      const k = (devam.secimler || [])[si++];
+      if(k === undefined || !vn.secimOge.secenekler[k]) break;
+      vnSecimYap(vn.secimOge, k); continue;
+    }
+    if(!vn.kuyruk.length) break;
+    vnIlerle();
+  }
+  if(vn) vn.hizli = false;
 }
 
 /* "Sahneyi geç": seçimlere kadar ileri sarar — seçim atlanmaz, oyuncu kendisi seçer.
@@ -270,7 +294,7 @@ function vnGec(){
   clearInterval(vn.yaziyor); vn.yaziyor = null;
   if(vn.secimde) return;
   while(vn.kuyruk.length && !vn.kuyruk[0].secim){
-    const s = vn.kuyruk.shift();
+    const s = vn.kuyruk.shift(); vn.adim++;
     if(s.set){ vn.set = s.set; vnSonSet = s.set; }
     if(s.kasa){ vn.kasaGorunur = vnKasaGorunur = true; }
   }
@@ -282,7 +306,8 @@ function vnGec(){
    öğenin anlık durumunu geri yükleyip o öğeyi yeniden göstermektir. */
 function vnAnlikKaydet(){
   vn.gecmis.push({ kuyruk: [...vn.kuyruk], set: vn.set, ifade: { ...vn.ifade },
-    mevcut: new Set(vn.mevcut), sag: vn.sag, arka: vn.arka, kasaGorunur: vn.kasaGorunur });
+    mevcut: new Set(vn.mevcut), sag: vn.sag, arka: vn.arka, kasaGorunur: vn.kasaGorunur,
+    adim: vn.adim, secimN: vn.secimler.length });
   const b = document.getElementById("vnGeri"); if(b) b.hidden = vn.gecmis.length < 2 && !vn.onceki;
 }
 function vnGeri(){
@@ -292,7 +317,8 @@ function vnGeri(){
   vn.gecmis.pop();
   const a = vn.gecmis.pop();
   Object.assign(vn, { kuyruk: a.kuyruk, set: a.set, ifade: a.ifade, mevcut: a.mevcut, sag: a.sag,
-    kasaGorunur: a.kasaGorunur, secimde: false, cikacak: false });
+    kasaGorunur: a.kasaGorunur, secimde: false, cikacak: false, adim: a.adim });
+  vn.secimler.length = a.secimN;
   vnSonSet = a.set;
   if(a.arka && a.arka !== vn.arka) vnArkaKoy(a.arka, true);
   vnKasaTazele();
@@ -306,48 +332,95 @@ function vnBitir(){
   sonra();
 }
 
-function sahneZinciri(sahneler, sonra, baslik, n = 0, baslar = [], kayit = null){
+function sahneZinciri(sahneler, sonra, baslik, n = 0, baslar = [], kayit = null, devam = null){
   const liste = sahneler.filter(Boolean);
   if(n >= liste.length){ sonra(); return; }
+  if(vnAkis) vnAkis.n = n;
   // Geri düğmesi zincirde bir önceki sahnenin BAŞINA döner; o sahne başladığındaki
   // kıyafet seti ve kasa görünürlüğü geri yüklenir.
   baslar[n] = { set: vnSonSet, kasa: vnKasaGorunur };
   if(kayit) kayit(n);
   const onceki = n > 0 && baslar[n-1] ? () => { vnSonSet = baslar[n-1].set; vnKasaGorunur = baslar[n-1].kasa; sahneZinciri(liste, sonra, baslik, n - 1, baslar, kayit); } : null;
   const ilk = liste[n];
-  sahneOynat(ilk, () => sahneZinciri(liste, sonra, baslik, n + 1, baslar, kayit), typeof baslik === "function" ? baslik(ilk) : baslik, onceki);
+  sahneOynat(ilk, () => sahneZinciri(liste, sonra, baslik, n + 1, baslar, kayit), typeof baslik === "function" ? baslik(ilk) : baslik, onceki, devam);
 }
+
+/* ---------- Akışlar ve sahne kaydı ----------
+   Her konuşma akışı (açılış, giriş, ipucu, yüzleşme+kovalamaca, kapanış) adıyla başlar;
+   oynarken hangi sahnede ve kaçıncı satırda olunduğu ayrı bir anahtara yazılır. Akış
+   bitince silinir. Oyunun asıl kaydı (motor durumu) ayrıdır ve değişmez. */
+const SAHNE_YER_ANAHTAR = KAYIT_ANAHTAR + "_sahne";
+let vnAkis = null;
+function vnYerKaydet(){
+  if(!vn || !vnAkis) return;
+  try{ localStorage.setItem(SAHNE_YER_ANAHTAR, JSON.stringify({ ...vnAkis, adim: vn.adim, secimler: vn.secimler, set: vn.basSet, kasa: vn.basKasa })); }catch(e){}
+}
+function vnYerOku(){ try{ return JSON.parse(localStorage.getItem(SAHNE_YER_ANAHTAR)); }catch(e){ return null; } }
+function vnYerSil(){ try{ localStorage.removeItem(SAHNE_YER_ANAHTAR); }catch(e){} }
+function vnAkisKur(tur, ek){
+  if(tur === "acilis") return { sahneler: ACILIS, sonra: masaGoster, baslik: s => "Açılış · " + (s.baslik || "") };
+  const v = GAME.vakalar.find(x => x.id === ek.vaka), s = (v && v.sahneler) || {};
+  if(!v) return null;
+  if(tur === "giris") return { sahneler: [s.giris, s.konusma], sonra: arastirmaFazi, baslik: v.baslik };
+  if(tur === "ipucu"){
+    const c = v.clues.find(x => x.id === ek.ipucu); if(!c) return null;
+    return { sahneler: [c.sahne], sonra: () => ipucuKarti(c, { meta: c.meta }, c.reveals || []), baslik: v.baslik + " · " + c.ad };
+  }
+  if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca], sonra: kararEkrani, baslik: v.baslik };
+  if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: masaGoster, baslik: v.baslik };
+  return null;
+}
+function akisBaslat(tur, ek = {}, n = 0, devam = null, sonraOzel = null){
+  const k = vnAkisKur(tur, ek);
+  if(!k){ vnYerSil(); masaGoster(); return; }
+  vnAkis = { tur, vaka: ek.vaka, ipucu: ek.ipucu, sahne: ek.sahne, n };
+  sahneZinciri(k.sahneler, () => { vnAkis = null; vnYerSil(); (sonraOzel || k.sonra)(); }, k.baslik, n, [], null, devam);
+}
+// Kayıttaki akış motorun durumuyla hâlâ tutarlı mı (eski ya da bozuk kayıt sahne açmasın).
+function vnAkisGecerli(y){
+  const a = oyun.durum.aktif;
+  if(y.tur === "giris") return !!a && a.id === y.vaka;
+  if(y.tur === "ipucu") return !!a && a.id === y.vaka && a.acilanKaynaklar.has(y.ipucu);
+  if(y.tur === "yuzlesme") return !!a && a.id === y.vaka && !!a.suclama;
+  if(y.tur === "kapanis") return !a && oyun.durum.tamamlanan.includes(y.vaka);
+  return false;
+}
+function akisDevam(y){
+  vnSonSet = y.set || "manto"; vnKasaGorunur = !!y.kasa;
+  akisBaslat(y.tur, y, y.n || 0, { adim: y.adim || 0, secimler: y.secimler || [] });
+}
+kayittanDevam = function(){
+  const r = oyun.durumYukle(kayitOku());
+  if(r.hata){ kayitSil(); vnYerSil(); prologIndex = 0; prologGoster(); return; }
+  const y = vnYerOku();
+  if(y && y.tur !== "acilis" && vnAkisGecerli(y)){ akisDevam(y); return; }
+  vnYerSil();
+  if(oyun.durum.aktif) arastirmaFazi(); else masaGoster();
+};
 
 /* ---------- Eski arayüzün sarmalanan fonksiyonları ---------- */
 
 // Açılış: eski oyunun slayt prologu yerine konuşma sahneleri.
-/* Açılışta oyun durumu yok (ilk kayıt masada yazılır); kapatıp açınca baştan
-   başlamasın diye hangi sahnede kalındığı ayrı bir anahtarda tutulur. Sahne
-   başına döner — satır değil (seçimler kuyruğu değiştiriyor). Masaya varınca silinir. */
-const ACILIS_ANAHTAR = KAYIT_ANAHTAR + "_acilis";
-function acilisKaydet(n){
-  try{ localStorage.setItem(ACILIS_ANAHTAR, JSON.stringify({ n, set: vnSonSet, kasa: vnKasaGorunur })); }catch(e){}
-}
-function acilisOku(){ try{ return JSON.parse(localStorage.getItem(ACILIS_ANAHTAR)); }catch(e){ return null; } }
-function acilisSil(){ try{ localStorage.removeItem(ACILIS_ANAHTAR); }catch(e){} }
-
-function acilisBaslat(n, k){
-  vnSonSet = k ? k.set : null; vnKasaGorunur = !!(k && k.kasa);
-  sahneZinciri(ACILIS, () => { acilisSil(); masaGoster(); }, s => "Açılış · " + (s.baslik || ""), n, [], acilisKaydet);
+/* Açılışta oyun durumu yok (ilk kayıt masada yazılır); kaldığı satır genel sahne
+   kaydında (akış "acilis") durur, açınca "Kaldığın yer — Açılış" ekranı oradan sürdürür. */
+function acilisSil(){ vnYerSil(); }
+function acilisBaslat(n, y){
+  vnSonSet = y ? y.set : null; vnKasaGorunur = !!(y && y.kasa);
+  akisBaslat("acilis", {}, n, y ? { adim: y.adim || 0, secimler: y.secimler || [] } : null);
 }
 prologGoster = function(){
-  const k = acilisOku();
-  if(k && k.n > 0 && k.n < ACILIS.length){
+  const y = vnYerOku();
+  if(y && y.tur === "acilis" && (y.n > 0 || y.adim > 1) && y.n < ACILIS.length){
     let h = '<div class="faz prolog-faz">' + ustSade();
     h += `<div class="baslik" style="padding-top:32px"><div class="no">Kaldığın Yer</div><h1>Açılış</h1></div>`;
-    h += `<div class="giris-metin anlati-italik">“${vnHtml(ACILIS[k.n].baslik || "")}” sahnesinde kalmıştın.</div>`;
+    h += `<div class="giris-metin anlati-italik">“${vnHtml(ACILIS[y.n].baslik || "")}” sahnesinde kalmıştın.</div>`;
     h += '<button class="buton" onclick="acilisDevam()">Kaldığın yerden devam et</button>';
     h += '<button class="buton ikincil" onclick="acilisSil(); acilisBaslat(0)">Baştan başla</button></div>';
     app.innerHTML = h; scrollUst(); return;
   }
   acilisBaslat(0);
 };
-function acilisDevam(){ const k = acilisOku(); if(k) acilisBaslat(k.n, k); else acilisBaslat(0); }
+function acilisDevam(){ const y = vnYerOku(); if(y && y.tur === "acilis") acilisBaslat(y.n, y); else acilisBaslat(0); }
 
 // Vaka girişi: giriş sahnesi + Peri–Cengo konuşması, sonra araştırma.
 vakaAc = function(id){
@@ -357,7 +430,7 @@ vakaAc = function(id){
   const v = oyun.durum.aktif.vaka;
   const s = v.sahneler || {};
   vnSonSet = "manto"; vnKasaGorunur = true;
-  sahneZinciri([s.giris, s.konusma], arastirmaFazi, v.baslik);
+  akisBaslat("giris", { vaka: v.id });
 };
 
 // İpucu: sahnesi oynanır, ardından kart — ne öğrenildi (yeni olgular + doğan çıkarımlar).
@@ -373,7 +446,7 @@ kaynakAcFaz = function(id){
   efektCal('kaynak');
   const yeni = [...a.bilinen].filter(x => !once.has(x));
   vnSonSet = "manto";
-  sahneOynat(c.sahne, () => ipucuKarti(c, r, yeni), a.vaka.baslik + " · " + c.ad);
+  akisBaslat("ipucu", { vaka: a.id, ipucu: id }, 0, null, () => ipucuKarti(c, r, yeni));
 };
 function ipucuKarti(c, r, yeni){
   const v = oyun.durum.aktif.vaka;
@@ -488,7 +561,7 @@ function kySucla(){
   efektCal('muhur');
   const s = a.vaka.sahneler || {};
   vnSonSet = "manto";
-  sahneZinciri([s[r.sahne], s.kovalamaca], kararEkrani, a.vaka.baslik);
+  akisBaslat("yuzlesme", { vaka: a.id, sahne: r.sahne });
 }
 
 /* Karar ekranı: dört karar her zaman açık (kapı yok). Para yalnız birikir;
@@ -544,7 +617,9 @@ kararVerFaz = function(id){
   efektCal('muhur');
   const not = defterNotu(vid, id);
   const kare = d.kare && vnGorsel(d.kare);
-  vnKapanis = (v.sahneler || {}).kapanis ? { sahne: v.sahneler.kapanis, baslik: v.baslik } : null;
+  vnKapanis = (v.sahneler || {}).kapanis ? { vaka: vid } : null;
+  // Sonuç ekranında kapatılırsa açınca kapanıştan sürsün (sonuç metni yeniden kurulamaz).
+  if(vnKapanis) try{ localStorage.setItem(SAHNE_YER_ANAHTAR, JSON.stringify({ tur: "kapanis", vaka: vid, n: 0, adim: 0, set: "manto", kasa: true })); }catch(e){}
   let h = ust() + '<div class="faz">';
   if(kare) h += `<div class="gorsel-cerceve giris-gorsel karar-kare"><img src="${kare}" alt=""></div>`;
   h += `<div class="sonuc-kutu"><h3>Sonuç</h3><p>${r.sonuc}</p></div>`;
@@ -576,7 +651,7 @@ function vnKapanisOynat(){
   const k = vnKapanis; vnKapanis = null;
   if(!k){ masaGoster(); return; }
   vnSonSet = "manto";
-  sahneOynat(k.sahne, masaGoster, k.baslik);
+  akisBaslat("kapanis", { vaka: k.vaka });
 }
 
 // Sezon sonu: yeni oyunda şimdilik tek vaka var.
