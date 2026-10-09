@@ -70,7 +70,7 @@ Oyun cevabı söylemez. Oyuncu ipuçlarını kendisi birleştirir.
 
 ## Kim yaptı? ekranı
 
-Oyuncu bir şüpheli ve iki kanıt seçer. Üç sonuç olur:
+Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıtlar şüpheliye göre **süzülmez** (süzmek cevabı söylemek olur); öğrenildiği yerin başlığı altında, kapalı gruplar hâlinde durur. Üç sonuç olur:
 
 | seçim | sonuç |
 |---|---|
