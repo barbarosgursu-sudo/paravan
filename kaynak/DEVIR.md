@@ -25,6 +25,7 @@
 - **Onay 2 TAMAM (9 Ekim): hikâye dondu.** Sahibinin görselsiz test notlarıyla yapılanlar —
   kural 21c, kural 22a (kısa sonuç, kasaya giden, Cengo'nun tavrı, kesinti sebebi), gri yer
   tutucu, iki adımlı Kim yaptı?, Dosya çözüldü ekranı, satırdan sürdürme, Sahneyi geç onarımı.
+- **Görsel işi yeni pencerede: önce `sablon/vakalar/vaka1_gorsel_devir.md` oku.**
 - **Sıradaki iş: adım 8, görseller.** Liste ve 11 prompt: `sablon/vakalar/vaka1_gorsel.md`
   (numaralı referanslarla sahibine gönderildi). Görsel geldikçe: kontrol (dosyanın sonu),
   figürse `arac_kes.js`, göm, `gorseller.json` → `yer_tutucu`'dan çıkar, tur. Sonra Onay 3.
