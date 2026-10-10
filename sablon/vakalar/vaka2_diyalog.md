@@ -165,7 +165,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 
 *Boğaz'da bir otelin balo salonu. Pembe saten elbiseli dört nedime, balon kemerinin altında sıra olmuş. Kulaklıklı, ince bir adam tabletine bakıyor.* {mekan}
 **TOLGA [normal]:** Kuzen sen misin canım? Geç kaldın. Sıraya! {gir: tolga, kime: cengo}
-**CENGO [gulen]:** Benim. Hangi kuzen?
+**CENGO [gulen]:** Benim. Kimin kuzeniydim, bir hatırlatır mısınız?
 **TOLGA:** Kim olursan. Kolunu dördüncü nedimeye ver. Adım, dur, adım. {kime: cengo}
 *Cengo, kolunda pembe saten bir nedime, balon kemerinin altından yürüyor. Peri kapıda, kollarını kavuşturmuş.* {kare: K21}
 **NEDİME:** Gelin de provaya gelmiyor ki. "Cuma sabahı işim var, beni beklemeyin" dedi. {kare: K21}
