@@ -39,7 +39,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [kas]:** Kapı?
 **MÜJGAN [normal]:** Kırılmamış. Anahtar yalnız Lâl'de. {kime: cengo}
 **MÜJGAN [ofkeli]:** Lâl batıyor, herkes biliyor. Gelinliğe İtalyan dantel koydum.
-**MÜJGAN [normal]:** Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor; düğün yerinde dursun diye.
+**MÜJGAN [normal]:** Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor. Gelinlik yok diye düğün iptal olmaz.
 **PERİ [normal]:** Elli bin.
 **MÜJGAN [normal]:** Gelinlik üç yüz bin, siz elli bin. Makul. Gelinlik bulununca. Basına duyulmasın.
 **CENGO [kas]:** Makul dedi. Az istemişiz. {kime: peri}
