@@ -2,7 +2,7 @@
 
 Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 10 Ekim 2026). Hikâye dondu (Onay 2, 10 Ekim 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
-**Sahibinin çekicilik talimatı (Onay 1, 10 Ekim 2026):** Peri ve vakadaki **bütün yetişkin kadınlar** mümkün olan en erotik ve seksi hâlde (kural 15'in üst sınırı: dar, kısa, derin dekolte, bacak, kışkırtıcı poz, flört). Kesin çizgi değişmez (kural 16): çıplaklık yok, cinsel eylem yok; herkes yetişkin.
+**Sahibinin çekicilik talimatı (Onay 1, 10 Ekim 2026):** Peri ve vakadaki **bütün yetişkin kadınlar** mümkün olan en erotik ve seksi hâlde (kural 15'in üst sınırı: dar, kısa, derin dekolte, bacak, kışkırtıcı poz, flört). Kesin çizgi değişmez (kural 16): çıplaklık yok, cinsel eylem yok; herkes yetişkin. **Ek (10 Ekim):** Peri vakadaki kadınların içinde her zaman en gösterişli ve seksi olandır; iki kadın yan yana geldiğinde Peri çok daha alımlı görünür.
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 2 — GELİNLİK".
 🟡 işaretli maddeler **kanona ekleme**: onayın olmadan yazılmaz (§18).
 

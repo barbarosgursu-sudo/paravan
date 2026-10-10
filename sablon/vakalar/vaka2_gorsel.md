@@ -16,6 +16,8 @@ G35 → G36–37 · G40 → G41–42 · kareler en son (figür ve mekânları re
 erotik ve seksi hâlde (dar, kısa, derin dekolte, bacak, kışkırtıcı poz). Kesin çizgi: çıplaklık
 yok, cinsel eylem yok.
 
+**Peri her zaman en gösterişli kadın (sahibinin talimatı, 10 Ekim 2026):** Peri eski bir güzellik kraliçesi; vakadaki kadınların içinde en gösterişli ve en seksi o olur. İki kadın aynı karede olduğunda Peri açıkça daha alımlı görünür: ışık onda, duruşu daha kendinden emin, kıyafeti daha dikkat çekici. Öbür kadınlar çekici kalır ama Peri'yi gölgede bırakmaz.
+
 **Oran:** figür TAM 4:5 (1122×1402) · arka plan, ara kare, detay TAM 3:4 (1086×1448). Her
 promptun son satırı.
 
@@ -484,6 +486,10 @@ Ortadaki zemin boş bırakılır (figürler orada durur).
 Ortak: kişiler referanstakilerin AYNISI (yüz, kıyafet), mekân referanstakinin AYNISI; kadrajda
 yalnız sayılan kişiler ve nesneler var; Peri ve kadınlar en üst seviyede seksi; çıplaklık yok; yazı
 yok; oran 3:4 (1086×1448).
+
+**Peri'nin olduğu ve başka bir kadının da bulunduğu her karede (G46, G47, G48) prompta şu satır eklenir:**
+> Kadrajdaki en gösterişli, en çekici kadın Peri'dir: ışık onun üstünde, duruşu en kendinden emin
+> olan o; öbür kadın(lar) çekici ama Peri'yi gölgede bırakmıyor.
 
 | # | anahtar | referanslar | ne |
 |---|---|---|---|
