@@ -1070,7 +1070,7 @@
                 "gir": "tolga",
                 "kime": "cengo"
               },
-              {"k": "cengo", "i": "gulen", "m": "Benim. Hangi kuzen?"},
+              {"k": "cengo", "i": "gulen", "m": "Benim. Kimin kuzeniydim, bir hatırlatır mısınız?"},
               {"k": "tolga", "m": "Kim olursan. Kolunu dördüncü nedimeye ver. Adım, dur, adım.", "kime": "cengo"},
               {
                 "k": "not",
@@ -1087,7 +1087,7 @@
               {
                 "k": "tolga",
                 "i": "normal",
-                "m": "Canım, cumartesi boşalırsa öbür düğünü oraya alırım. Söz yok, umut var.",
+                "m": "Canım, cumartesi salon boşalırsa sizin düğünü oraya alırım. Söz veremem ama umut var.",
                 "gir": "tolga"
               },
               {"k": "cengo", "i": "kas", "m": "Hangi düğün boşalıyor?"},
@@ -1099,7 +1099,8 @@
               },
               {"k": "tolga", "m": "Mankendeydi, açık. Gelin de oradaydı."},
               {"k": "peri", "i": "merakli", "m": "Kaç dakika kaldınız?", "gir": "tolga"},
-              {"k": "tolga", "m": "Beş. Çiçekçi bekliyordu. Hadi canım, bir daha baştan!", "kime": "peri"},
+              {"k": "tolga", "m": "Beş dakika. Aşağıda çiçekçi bekliyordu.", "kime": "peri"},
+              {"k": "tolga", "m": "(nedimelere dönüp) Hadi kızlar, bir daha baştan!"},
               {"k": "cengo", "i": "gulen", "m": "Beni nedimeyle evlendirdiler.", "kime": "peri"}
             ]
           }
@@ -1144,8 +1145,8 @@
               {"k": "sarkis", "m": "Kuyruğu kesilecek, kısa olacak. Cuma sabah sekizde alacak."},
               {"k": "peri", "i": "merakli", "m": "Kısa mı? Beş yüz kişilik düğüne kısa gelinlik?", "gir": "sarkis"},
               {"k": "sarkis", "m": "Ben dikerim, düğünü sormam. Fişi olana veririm. Size vermem.", "kime": "peri"},
-              {"k": "cengo", "i": "gulen", "m": "Biz istemedik ki."},
-              {"k": "peri", "i": "kas", "m": "Henüz."}
+              {"k": "cengo", "i": "gulen", "m": "Zaten bana yakışmazdı."},
+              {"k": "peri", "i": "kas", "m": "Kısası da yakışmazdı."}
             ]
           }
         }
