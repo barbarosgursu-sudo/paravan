@@ -118,6 +118,8 @@ bakan penceresinin camında da aynı yazı, ters okunuyor.*
 
 *İki saniye sürüyor. Kapı açılıyor.*
 
+⚙ arka plan → A5c (kapı açık, büro içi görünüyor)
+
 **CENGO [buyrun]:** Buyrun. *(teli göğüs cebine koymuş, eliyle içeri yol veriyor)*
 **PERİ [kas]:** Kilit açmayı nereden biliyorsunuz?
 **CENGO [normal]:** Herkes bilir. Ben sadece utanmıyorum.

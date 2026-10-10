@@ -2,139 +2,214 @@
   "_not": "Açılış (YENI_VAKA_1.md → AÇILIŞ, Sahne 1–4). Sahne satırı biçimi: OKUBENI.md. Açılıştaki seçim yalnız renk: bağı değiştirmez, tohum yazmaz.",
   "sahneler": [
     {
-      "id": "haciz", "baslik": "Haciz sabahı",
-      "arka": "A1", "figurler": ["peri", "hilmi"], "set": "mantosuz",
+      "id": "haciz",
+      "baslik": "Haciz sabahı",
+      "arka": "A1",
+      "figurler": ["peri", "hilmi"],
+      "set": "mantosuz",
       "satirlar": [
-        { "k": "not", "m": "Nişantaşı. Yüksek tavanlı bir daire. Eşyalar kolilere girmiş, avize hâlâ tavanda.", "mekan": true },
-        { "k": "not", "m": "İcra memuru elinde listeyle salonun ortasında duruyor; hol tarafından taşıyıcıların sesi geliyor." },
-        { "k": "hilmi", "i": "ciddi", "m": "Hanımefendi, koltuğu alıyoruz." },
-        { "k": "peri", "i": "cay", "m": "Önce çayınızı için. Bardaklar listede yok, değil mi?" },
-        { "k": "hilmi", "m": "(listeye bakar) Bardaklar yarın." },
-        { "k": "peri", "m": "O zaman bugün için." },
-        { "k": "hilmi", "m": "…Teşekkür ederiz." },
-        { "k": "peri", "i": "normal", "m": "O koltukta üç evlenme teklifi aldım. Üçünü de reddettim." },
-        { "k": "hilmi", "i": "gulen", "m": "(listeye yazar) Koltuk, bir adet. Hatıraları sizde kalsın." },
-        { "k": "peri", "i": "kas", "m": "Çok naziksiniz. Hatıralar haczedilmiyor demek." },
-        { "k": "hilmi", "i": "ciddi", "m": "Şimdilik. (başını kaldırır) Avize." },
-        { "k": "peri", "i": "normal", "m": "Dikkatli indirin. Kristalleri sayılıdır." },
-        { "k": "hilmi", "m": "Kaç tane?" },
-        { "k": "peri", "i": "utanmis", "m": "Bilmiyorum. Sayan dolandırıcı avukatımdı." },
-        { "k": "hilmi", "m": "Biz sayarız, hanımefendi. Bizim işimiz o." },
-        { "k": "not", "m": "Avize sökülmüş, yerde; kristalleri parkeye dağılmış. Yanında bir merdiven, kapalı koliler.", "arka": "A2", "mekan": true },
-        { "k": "not", "m": "Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor.", "kare": "K14" },
-        { "k": "hilmi", "m": "Son kalem. (okur) “Güzellik yarışması birincilik tacı, bir adet.”", "peri": "tac" },
-        { "k": "peri", "i": "tac_sinirli", "m": "O satılık değil." },
-        { "k": "hilmi", "m": "Satmıyoruz. Haczediyoruz." },
-        { "k": "peri", "m": "Ben onu takarken siz daha ilkokuldaydınız." },
-        { "k": "hilmi", "i": "gulen", "m": "O yarışmayı izledim, hanımefendi. Annemle. Annem size oy vermişti." },
-        { "k": "peri", "i": "tac", "m": "…Annenize selam söyleyin." },
-        { "k": "hilmi", "i": "ciddi", "m": "Söylerim. Tacı verir misiniz?" },
-        { "k": "not", "m": "Peri tacı bırakmıyor. Hilmi Bey nazikçe çekiyor. Peri bırakmıyor. Hilmi Bey biraz daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli kapanıyor.", "kare": "K1" }
+        {
+          "k": "not",
+          "m": "Nişantaşı. Yüksek tavanlı bir daire. Eşyalar kolilere girmiş, avize hâlâ tavanda.",
+          "mekan": true
+        },
+        {
+          "k": "not",
+          "m": "İcra memuru elinde listeyle salonun ortasında duruyor; hol tarafından taşıyıcıların sesi geliyor."
+        },
+        {"k": "hilmi", "i": "ciddi", "m": "Hanımefendi, koltuğu alıyoruz."},
+        {"k": "peri", "i": "cay", "m": "Önce çayınızı için. Bardaklar listede yok, değil mi?"},
+        {"k": "hilmi", "m": "(listeye bakar) Bardaklar yarın."},
+        {"k": "peri", "m": "O zaman bugün için."},
+        {"k": "hilmi", "m": "…Teşekkür ederiz."},
+        {"k": "peri", "i": "normal", "m": "O koltukta üç evlenme teklifi aldım. Üçünü de reddettim."},
+        {"k": "hilmi", "i": "gulen", "m": "(listeye yazar) Koltuk, bir adet. Hatıraları sizde kalsın."},
+        {"k": "peri", "i": "kas", "m": "Çok naziksiniz. Hatıralar haczedilmiyor demek."},
+        {"k": "hilmi", "i": "ciddi", "m": "Şimdilik. (başını kaldırır) Avize."},
+        {"k": "peri", "i": "normal", "m": "Dikkatli indirin. Kristalleri sayılıdır."},
+        {"k": "hilmi", "m": "Kaç tane?"},
+        {"k": "peri", "i": "utanmis", "m": "Bilmiyorum. Sayan dolandırıcı avukatımdı."},
+        {"k": "hilmi", "m": "Biz sayarız, hanımefendi. Bizim işimiz o."},
+        {
+          "k": "not",
+          "m": "Avize sökülmüş, yerde; kristalleri parkeye dağılmış. Yanında bir merdiven, kapalı koliler.",
+          "arka": "A2",
+          "mekan": true
+        },
+        {"k": "not", "m": "Hilmi Bey eğilip bir kristali alıyor, listeye bir çizgi ekliyor.", "kare": "K14"},
+        {"k": "hilmi", "m": "Son kalem. (okur) “Güzellik yarışması birincilik tacı, bir adet.”", "peri": "tac"},
+        {"k": "peri", "i": "tac_sinirli", "m": "O satılık değil."},
+        {"k": "hilmi", "m": "Satmıyoruz. Haczediyoruz."},
+        {"k": "peri", "m": "Ben onu takarken siz daha ilkokuldaydınız."},
+        {"k": "hilmi", "i": "gulen", "m": "O yarışmayı izledim, hanımefendi. Annemle. Annem size oy vermişti."},
+        {"k": "peri", "i": "tac", "m": "…Annenize selam söyleyin."},
+        {"k": "hilmi", "i": "ciddi", "m": "Söylerim. Tacı verir misiniz?"},
+        {
+          "k": "not",
+          "m": "Peri tacı bırakmıyor. Hilmi Bey nazikçe çekiyor. Peri bırakmıyor. Hilmi Bey biraz daha nazikçe çekiyor. Peri bırakıyor. Taç bir kolinin içine giriyor; koli kapanıyor.",
+          "kare": "K1"
+        }
       ]
     },
     {
-      "id": "manto", "baslik": "Elde kalan tek şey",
-      "arka": "A3", "figurler": ["peri", "hilmi"], "set": "mantosuz",
+      "id": "manto",
+      "baslik": "Elde kalan tek şey",
+      "arka": "A3",
+      "figurler": ["peri", "hilmi"],
+      "set": "mantosuz",
       "satirlar": [
-        { "k": "hilmi", "i": "uzatir", "m": "Bir de bu var. (bir anahtar ve katlanmış bir kâğıt uzatır) Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket." },
-        { "k": "peri", "i": "kas", "m": "Benim şirketim yok." },
-        { "k": "hilmi", "m": "Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş, vergi için. Anahtarı onun çekmecesinden çıktı." },
-        { "k": "peri", "i": "aci", "m": "Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı." },
-        { "k": "hilmi", "m": "Adresi burada. Karaköy, bir hanın üçüncü katı." },
-        { "k": "peri", "i": "kas", "m": "Dedektiflik mi? Ben dedektiflikten anlamam." },
-        { "k": "hilmi", "m": "Bu mesleğin kanunu yok. Doksan dörtte bir kanun hazırlanmış, yürürlüğe girmemiş." },
-        { "k": "peri", "m": "Yani yasak mı?" },
-        { "k": "hilmi", "m": "Yasak değil. Ama var da sayılmaz. (kâğıda bakar) Sizin şirket gibi." },
-        { "k": "peri", "i": "normal", "m": "Teşekkür ederim. Bugün duyduğum en kibar hakaret bu." },
-        { "k": "not", "m": "Peri askıdaki kırmızı mantoya uzanıyor. Hilmi Bey listeye bakıyor." },
-        { "k": "hilmi", "i": "ciddi", "m": "Manto." },
-        { "k": "peri", "i": "kas", "m": "Üstümdeki giysiyi de mi alacaksınız?" },
-        { "k": "hilmi", "m": "Üstünüzdeyse almayız. Askıdaysa alırız." },
-        { "k": "not", "m": "Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor.", "kare": "K2", "set": "manto" },
-        { "k": "peri", "i": "normal", "m": "Üstümde.", "arka": "A3b" },
-        { "k": "hilmi", "i": "gulen", "m": "(listeden bir satırı çizer) Üstünüzde." },
-        { "k": "not", "m": "Peri çıkıyor. Evden çıkardığı tek şey, üstündeki manto." }
+        {
+          "k": "hilmi",
+          "i": "uzatir",
+          "m": "Bir de bu var. (bir anahtar ve katlanmış bir kâğıt uzatır) Değersiz olduğu için haczetmediğimiz tek şey. Bir şirket."
+        },
+        {"k": "peri", "i": "kas", "m": "Benim şirketim yok."},
+        {
+          "k": "hilmi",
+          "m": "Kâğıtta var. Paravan Dedektiflik. Avukatınız kurmuş, vergi için. Anahtarı onun çekmecesinden çıktı."
+        },
+        {"k": "peri", "i": "aci", "m": "Avukatım benim adıma çok şey kurmuş. En büyüğü tuzaktı."},
+        {"k": "hilmi", "m": "Adresi burada. Karaköy, bir hanın üçüncü katı."},
+        {"k": "peri", "i": "kas", "m": "Dedektiflik mi? Ben dedektiflikten anlamam."},
+        {"k": "hilmi", "m": "Bu mesleğin kanunu yok. Doksan dörtte bir kanun hazırlanmış, yürürlüğe girmemiş."},
+        {"k": "peri", "m": "Yani yasak mı?"},
+        {"k": "hilmi", "m": "Yasak değil. Ama var da sayılmaz. (kâğıda bakar) Sizin şirket gibi."},
+        {"k": "peri", "i": "normal", "m": "Teşekkür ederim. Bugün duyduğum en kibar hakaret bu."},
+        {"k": "not", "m": "Peri askıdaki kırmızı mantoya uzanıyor. Hilmi Bey listeye bakıyor."},
+        {"k": "hilmi", "i": "ciddi", "m": "Manto."},
+        {"k": "peri", "i": "kas", "m": "Üstümdeki giysiyi de mi alacaksınız?"},
+        {"k": "hilmi", "m": "Üstünüzdeyse almayız. Askıdaysa alırız."},
+        {"k": "not", "m": "Peri mantoyu giyiyor. Kuşağını bağlıyor, düğümü sıkıyor.", "kare": "K2", "set": "manto"},
+        {"k": "peri", "i": "normal", "m": "Üstümde.", "arka": "A3b"},
+        {"k": "hilmi", "i": "gulen", "m": "(listeden bir satırı çizer) Üstünüzde."},
+        {"k": "not", "m": "Peri çıkıyor. Evden çıkardığı tek şey, üstündeki manto."}
       ]
     },
     {
-      "id": "cengo", "baslik": "Cengo",
-      "arka": "A4", "figurler": ["peri"], "set": "manto",
+      "id": "cengo",
+      "baslik": "Cengo",
+      "arka": "A4",
+      "figurler": ["peri"],
+      "set": "manto",
       "satirlar": [
-        { "k": "not", "m": "Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor.", "peri": "kagit" },
-        { "k": "peri", "i": "normal", "m": "Üçüncü kat. Tabii. Asansör yoktur." },
-        { "k": "not", "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor.", "arka": "A5", "mekan": true },
-        { "k": "not", "m": "Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "kare": "K13" },
-        { "k": "peri", "i": "sinirli", "m": "Avukatım bana bir şirket bırakmış. Bir de açmayan bir anahtar." },
-        { "k": "ses", "m": "Tel lazım mı?", "peri": "sasirmis" },
-        { "k": "not", "m": "Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.", "gir": "cengo" },
-        { "k": "peri", "i": "kas", "m": "Siz kimsiniz?" },
-        { "k": "cengo", "i": "gulen", "m": "O güzel gözleri kapı önünde bekletemem. İki saniye." },
-        { "k": "not", "m": "İki saniye sürüyor. Kapı açılıyor.", "kare": "D1" },
-        { "k": "cengo", "i": "buyrun", "m": "Buyrun." },
-        { "k": "peri", "i": "kas", "m": "Kilit açmayı nereden biliyorsunuz?" },
-        { "k": "cengo", "i": "normal", "m": "Herkes bilir. Ben sadece utanmıyorum." },
-        { "k": "peri", "i": "normal", "m": "Teşekkür ederim. Şimdi gidebilirsiniz." },
-        { "k": "cengo", "m": "Gidemem. Maaşım yatmadı." },
-        { "k": "peri", "i": "merakli", "m": "Ne maaşı?" },
-        { "k": "cengo", "m": "Bu şirketin maaşı. Çalışanıyım." },
-        { "k": "peri", "i": "kas", "m": "Bu şirketin çalışanı yok." },
-        { "k": "cengo", "m": "Bordroda var. Yedi yıldır." },
-        { "k": "peri", "m": "Yedi yıldır ne iş yapıyorsunuz?" },
-        { "k": "cengo", "i": "gulen", "m": "Hiç. Çok da iyi yapıyorum." },
-        { "k": "peri", "i": "sinirli", "m": "Sizi kim işe aldı?" },
-        { "k": "cengo", "i": "normal", "m": "Bilmiyorum. Bir gün hesabıma para yattı. Sonraki ay yine yattı. Sormadım; ayıp olur diye." },
-        { "k": "peri", "i": "kagit", "m": "(kâğıda bakar) Şirket gerçek görünsün diye bordroya bir isim yazmış. Sizinkini." },
-        { "k": "cengo", "i": "gulen", "m": "Gerçek bir isim. Hakkını vereyim." },
-        { "k": "peri", "i": "normal", "m": "Bu şirketi kuran avukat üç ay önce ülkeden kaçtı. Benim bütün paramla." },
-        { "k": "cengo", "i": "kas", "m": "Üç ay önce mi? Maaşım da üç aydır yatmıyor. Benim maaşım da onda mı?" },
-        { "k": "peri", "m": "Muhtemelen." },
-        { "k": "cengo", "m": "Üç aydır her pazartesi geliyorum. Kapı hep kilitli." },
-        { "k": "peri", "i": "kas", "m": "Kilidi iki saniyede açıyorsunuz." },
-        { "k": "cengo", "i": "normal", "m": "İzinsiz girmem. Ben kibar bir adamım." },
-        { "k": "peri", "m": "Az önce girdiniz." },
-        { "k": "cengo", "i": "gulen", "m": "Siz vardınız. Sizin izninizle." },
-        { "k": "peri", "i": "sinirli", "m": "Ben izin vermedim." },
-        { "k": "cengo", "m": "Vermediniz ama kapıyı da çalmadınız. Anahtar denediniz. Aynı kapıdan girmek istiyoruz; bir ortak yanımız var." },
-        { "k": "peri", "i": "sinirli", "m": "Hiçbir ortak yanımız yok." },
-        { "secim": "Peri ne desin?", "secenekler": [
-          { "m": "“Size ödeyecek param yok.”", "satirlar": [
-            { "k": "peri", "i": "sinirli", "m": "Size ödeyecek param yok." },
-            { "k": "cengo", "i": "normal", "m": "Olsun. Beklerim. Bekleme konusunda yedi yıllık tecrübem var." }
-          ]},
-          { "m": "“Adınız ne sizin?”", "satirlar": [
-            { "k": "peri", "i": "kas", "m": "Adınız ne sizin?" },
-            { "k": "cengo", "i": "normal", "m": "Cengo." },
-            { "k": "peri", "i": "kas", "m": "Cengo ne?" },
-            { "k": "cengo", "i": "gulen", "m": "Bordroda ne yazıyorsa." }
-          ]},
-          { "m": "“Polisi çağırırım.”", "satirlar": [
-            { "k": "peri", "i": "sinirli", "m": "Polisi çağırırım." },
-            { "k": "cengo", "i": "gulen", "m": "Çağırın. Komiser beni tanır. Size de selam söyler." },
-            { "k": "peri", "i": "kas", "m": "…Bu iyi bir şey mi?" },
-            { "k": "cengo", "m": "Gününe göre." }
-          ]}
-        ]},
-        { "k": "peri", "i": "cuzdan", "m": "Şirketin kasasını görmek ister misiniz? (cüzdanını açar) Kasa bu.", "kasa": true },
-        { "k": "peri", "i": "cuzdan", "m": "Dört bin iki yüz elli lira. Bütün servetim." },
-        { "k": "cengo", "i": "kas", "m": "Benim üç aylık maaşım birikti. Asgari ücretten. Seksen dört bin." },
-        { "k": "peri", "i": "sinirli", "m": "Asgari ücret mi? Yedi yıl boyunca hiçbir şey yapmadığınız için mi?" },
-        { "k": "cengo", "i": "normal", "m": "Hiçbir şey yapmanın asgari ücreti bu." },
-        { "k": "peri", "i": "sinirli", "m": "Size verecek bir şeyim yok, anlamıyor musunuz?" },
-        { "k": "cengo", "i": "normal", "m": "Anlıyorum. O zaman alacağım çıkana kadar buradayım." },
-        { "k": "peri", "m": "Burada ne yapacaksınız?" },
-        { "k": "cengo", "i": "gulen", "m": "Yedi yıldır ne yapıyorsam. Ama artık gelip burada yapacağım." }
+        {
+          "k": "not",
+          "m": "Karaköy. Eski bir hanın kapısı. Peri elindeki anahtara, sonra kâğıttaki adrese bakıyor.",
+          "peri": "kagit"
+        },
+        {"k": "peri", "i": "normal", "m": "Üçüncü kat. Tabii. Asansör yoktur."},
+        {
+          "k": "not",
+          "m": "Karaköy. Eski bir hanın üçüncü katı. Kapıda soluk bir tabela; büronun iskeleye bakan penceresinin camında da aynı yazı, ters okunuyor.",
+          "arka": "A5",
+          "mekan": true
+        },
+        {"k": "not", "m": "Peri anahtarı deniyor. Olmuyor. Bir daha deniyor. Olmuyor.", "kare": "K13"},
+        {"k": "peri", "i": "sinirli", "m": "Avukatım bana bir şirket bırakmış. Bir de açmayan bir anahtar."},
+        {"k": "ses", "m": "Tel lazım mı?", "peri": "sasirmis"},
+        {"k": "not", "m": "Arkasında bir adam: elleri cebinde, kendinden fazlasıyla memnun.", "gir": "cengo"},
+        {"k": "peri", "i": "kas", "m": "Siz kimsiniz?"},
+        {"k": "cengo", "i": "gulen", "m": "O güzel gözleri kapı önünde bekletemem. İki saniye."},
+        {"k": "not", "m": "İki saniye sürüyor. Kapı açılıyor.", "kare": "D1"},
+        {"k": "cengo", "i": "buyrun", "m": "Buyrun.", "arka": "A5c"},
+        {"k": "peri", "i": "kas", "m": "Kilit açmayı nereden biliyorsunuz?"},
+        {"k": "cengo", "i": "normal", "m": "Herkes bilir. Ben sadece utanmıyorum."},
+        {"k": "peri", "i": "normal", "m": "Teşekkür ederim. Şimdi gidebilirsiniz."},
+        {"k": "cengo", "m": "Gidemem. Maaşım yatmadı."},
+        {"k": "peri", "i": "merakli", "m": "Ne maaşı?"},
+        {"k": "cengo", "m": "Bu şirketin maaşı. Çalışanıyım."},
+        {"k": "peri", "i": "kas", "m": "Bu şirketin çalışanı yok."},
+        {"k": "cengo", "m": "Bordroda var. Yedi yıldır."},
+        {"k": "peri", "m": "Yedi yıldır ne iş yapıyorsunuz?"},
+        {"k": "cengo", "i": "gulen", "m": "Hiç. Çok da iyi yapıyorum."},
+        {"k": "peri", "i": "sinirli", "m": "Sizi kim işe aldı?"},
+        {
+          "k": "cengo",
+          "i": "normal",
+          "m": "Bilmiyorum. Bir gün hesabıma para yattı. Sonraki ay yine yattı. Sormadım; ayıp olur diye."
+        },
+        {
+          "k": "peri",
+          "i": "kagit",
+          "m": "(kâğıda bakar) Şirket gerçek görünsün diye bordroya bir isim yazmış. Sizinkini."
+        },
+        {"k": "cengo", "i": "gulen", "m": "Gerçek bir isim. Hakkını vereyim."},
+        {"k": "peri", "i": "normal", "m": "Bu şirketi kuran avukat üç ay önce ülkeden kaçtı. Benim bütün paramla."},
+        {"k": "cengo", "i": "kas", "m": "Üç ay önce mi? Maaşım da üç aydır yatmıyor. Benim maaşım da onda mı?"},
+        {"k": "peri", "m": "Muhtemelen."},
+        {"k": "cengo", "m": "Üç aydır her pazartesi geliyorum. Kapı hep kilitli."},
+        {"k": "peri", "i": "kas", "m": "Kilidi iki saniyede açıyorsunuz."},
+        {"k": "cengo", "i": "normal", "m": "İzinsiz girmem. Ben kibar bir adamım."},
+        {"k": "peri", "m": "Az önce girdiniz."},
+        {"k": "cengo", "i": "gulen", "m": "Siz vardınız. Sizin izninizle."},
+        {"k": "peri", "i": "sinirli", "m": "Ben izin vermedim."},
+        {
+          "k": "cengo",
+          "m": "Vermediniz ama kapıyı da çalmadınız. Anahtar denediniz. Aynı kapıdan girmek istiyoruz; bir ortak yanımız var."
+        },
+        {"k": "peri", "i": "sinirli", "m": "Hiçbir ortak yanımız yok."},
+        {
+          "secim": "Peri ne desin?",
+          "secenekler": [
+            {
+              "m": "“Size ödeyecek param yok.”",
+              "satirlar": [
+                {"k": "peri", "i": "sinirli", "m": "Size ödeyecek param yok."},
+                {"k": "cengo", "i": "normal", "m": "Olsun. Beklerim. Bekleme konusunda yedi yıllık tecrübem var."}
+              ]
+            },
+            {
+              "m": "“Adınız ne sizin?”",
+              "satirlar": [
+                {"k": "peri", "i": "kas", "m": "Adınız ne sizin?"},
+                {"k": "cengo", "i": "normal", "m": "Cengo."},
+                {"k": "peri", "i": "kas", "m": "Cengo ne?"},
+                {"k": "cengo", "i": "gulen", "m": "Bordroda ne yazıyorsa."}
+              ]
+            },
+            {
+              "m": "“Polisi çağırırım.”",
+              "satirlar": [
+                {"k": "peri", "i": "sinirli", "m": "Polisi çağırırım."},
+                {"k": "cengo", "i": "gulen", "m": "Çağırın. Komiser beni tanır. Size de selam söyler."},
+                {"k": "peri", "i": "kas", "m": "…Bu iyi bir şey mi?"},
+                {"k": "cengo", "m": "Gününe göre."}
+              ]
+            }
+          ]
+        },
+        {
+          "k": "peri",
+          "i": "cuzdan",
+          "m": "Şirketin kasasını görmek ister misiniz? (cüzdanını açar) Kasa bu.",
+          "kasa": true
+        },
+        {"k": "peri", "i": "cuzdan", "m": "Dört bin iki yüz elli lira. Bütün servetim."},
+        {"k": "cengo", "i": "kas", "m": "Benim üç aylık maaşım birikti. Asgari ücretten. Seksen dört bin."},
+        {"k": "peri", "i": "sinirli", "m": "Asgari ücret mi? Yedi yıl boyunca hiçbir şey yapmadığınız için mi?"},
+        {"k": "cengo", "i": "normal", "m": "Hiçbir şey yapmanın asgari ücreti bu."},
+        {"k": "peri", "i": "sinirli", "m": "Size verecek bir şeyim yok, anlamıyor musunuz?"},
+        {"k": "cengo", "i": "normal", "m": "Anlıyorum. O zaman alacağım çıkana kadar buradayım."},
+        {"k": "peri", "m": "Burada ne yapacaksınız?"},
+        {"k": "cengo", "i": "gulen", "m": "Yedi yıldır ne yapıyorsam. Ama artık gelip burada yapacağım."}
       ]
     },
     {
-      "id": "kapi", "baslik": "Kapı çalar",
-      "arka": "A6", "figurler": ["peri", "cengo"], "set": "manto",
+      "id": "kapi",
+      "baslik": "Kapı çalar",
+      "arka": "A6",
+      "figurler": ["peri", "cengo"],
+      "set": "manto",
       "satirlar": [
-        { "k": "not", "m": "Büronun içi. Yedi yıllık toz, iki masa, bir pencere; pencereden Karaköy iskelesi. Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor." },
-        { "k": "peri", "i": "kas", "m": "Kim olabilir?" },
-        { "k": "cengo", "i": "normal", "m": "Ev sahibi. Avukat üç aydır yoksa, kira da üç aydır yoktur." },
-        { "k": "peri", "i": "utanmis", "m": "…Siz açın." },
-        { "k": "cengo", "i": "gulen", "m": "Ben çalışanım. Kirayı patron konuşur." },
-        { "k": "not", "m": "Peri derin bir nefes alıyor, mantosunun kuşağını düzeltiyor, kapıyı açıyor." }
+        {
+          "k": "not",
+          "m": "Büronun içi. Yedi yıllık toz, iki masa, bir pencere; pencereden Karaköy iskelesi. Cengo ışığı yakıyor. Kapı çalınıyor. İkisi birbirine bakıyor."
+        },
+        {"k": "peri", "i": "kas", "m": "Kim olabilir?"},
+        {"k": "cengo", "i": "normal", "m": "Ev sahibi. Avukat üç aydır yoksa, kira da üç aydır yoktur."},
+        {"k": "peri", "i": "utanmis", "m": "…Siz açın."},
+        {"k": "cengo", "i": "gulen", "m": "Ben çalışanım. Kirayı patron konuşur."},
+        {"k": "not", "m": "Peri derin bir nefes alıyor, mantosunun kuşağını düzeltiyor, kapıyı açıyor."}
       ]
     }
   ]

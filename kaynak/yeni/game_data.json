@@ -24,7 +24,26 @@
         "asistan": {"ad": "Set asistanı", "ifadeler": ["normal"]}
       },
       "sesler": {"ses": "Ses", "teyze": "Teyze", "boyaci": "Set boyacısı", "tuba_tel": "Tuba (telefonda)"},
-      "arkalar": ["A1", "A2", "A3", "A3b", "A4", "A5", "A5b", "A6", "A6b", "A7", "A8", "A9", "A10", "A11", "A12", "A13", "A14"],
+      "arkalar": [
+        "A1",
+        "A2",
+        "A3",
+        "A3b",
+        "A4",
+        "A5",
+        "A5c",
+        "A5b",
+        "A6",
+        "A6b",
+        "A7",
+        "A8",
+        "A9",
+        "A10",
+        "A11",
+        "A12",
+        "A13",
+        "A14"
+      ],
       "kareler": [
         "D1",
         "D2",
