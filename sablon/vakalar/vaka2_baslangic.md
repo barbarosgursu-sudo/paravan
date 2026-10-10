@@ -25,10 +25,12 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | 5 Görselsiz tur | 10 Eki ~17:33 | 10 Eki 17:44 | araçlar V2'ye açıldı (Cengo kıyafet seti, gri arka plan/kare, tur, `test_yeni_v2.js`); 6 yol temiz; satır satır ekran denetimi, 6 düzeltme |
 | 6–7 Onay 2, hikâye donar | 10 Eki 17:44 | 10 Eki 19:40 | 22 metin notu (hepsi bulanık replik; hikâye değişmedi); soğuk kapanış belirginleşti (+K32); geçici "Vaka 2'den başla" düğmesi |
 | 8 Görsel listesi + promptlar | 10 Eki 19:40 | 10 Eki 19:44 | 59 görsel, `vaka2_gorsel.md`; 29 referans `vaka2_referans/` |
-| 9–10 Görseller, kontrol, yerleştirme | 10 Eki 19:44 | | sahibi üretiyor |
+| 9–10 Görseller, kontrol, yerleştirme | (başlamadı) | | 10 Eki 19:44'te ara verildi; süre, sahibi yeniden başladığında işlemeye başlar |
 | 11 Görselli tur | | | |
 | 12–13 Onay 3, düzeltmeler | | | |
 | 14 Vaka donar | | | |
+
+**Ara:** 10 Ekim 19:44'te ara verildi (sahibi). Ara süresi toplama girmez; yeniden başlanınca saat yazılır.
 
 ## 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 

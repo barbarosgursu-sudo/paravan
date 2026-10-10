@@ -15,6 +15,7 @@
   numaralı referanslar `sablon/vakalar/vaka2_referans/`. **Sırada: sahibi görselleri üretiyor; gelen
   her görsel → kontrol, kesim (`arac_kes.js`), göm, `gorseller.json` yer_tutucu'dan çıkar, tur.**
   Geçici "Vaka 2'den başla" düğmesi açık (`VN_VAKA_ATLA`), yayından önce kapanacak.
+  **19:44'te ara verildi.** Yeniden başlanınca süre tablosuna (`vaka2_baslangic.md` §1) başlangıç saati yazılır.
 
 - **10 Ekim akşam: adım 1–5 bitti.** Form Onay 1 aldı (`vaka2_form.md`; kadın karakterler en çekici
   hâlde). Diyalog `vaka2_diyalog.md`, veri `yeni/game_data.json` V2, künye yazıldı. Araçlar Vaka 2'ye
