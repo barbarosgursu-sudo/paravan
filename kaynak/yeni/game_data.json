@@ -41,6 +41,7 @@
         "K9",
         "K10",
         "K10b",
+        "K10c",
         "K11",
         "K12",
         "K13",
@@ -271,8 +272,8 @@
               "m": "(havadaki bir simidi yakalayıp ısırarak) Ben kestirmeden!",
               "kare": "K10"
             },
-            {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?", "gizle": "cengo"},
-            {"k": "cengo", "m": "(uzaktan) Bilmiyorum!", "kare": "K10"},
+            {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?", "kare": "K10c"},
+            {"k": "cengo", "m": "(uzaktan) Bilmiyorum!", "kare": "K10c"},
             {
               "k": "not",
               "m": "Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.",

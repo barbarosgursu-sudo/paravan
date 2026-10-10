@@ -212,8 +212,8 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 *Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.* {kare: K10b}
 **CENGO [gulen]:** *(havadaki bir simidi yakalayıp ısırarak)* Ben kestirmeden! {kare: K10}
-**PERİ [sinirli]:** Kestirme nereye çıkıyor? {gizle: cengo}
-**CENGO:** *(uzaktan)* Bilmiyorum! {kare: K10}
+**PERİ [sinirli]:** Kestirme nereye çıkıyor? {kare: K10c}
+**CENGO:** *(uzaktan)* Bilmiyorum! {kare: K10c}
 *Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.* {kare: K11}
 **TEYZE:** O çarşaf yeni yıkandı!
 **PERİ [sinirli]:** *(çarşafın içinden)* Getireceğim!
