@@ -24,7 +24,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
   bütün). Şablona oran satırı (figür 4:5, sahne 3:4). Sahibi oynamaya devam ediyor; notları
   geldikçe tek tek. Künye yazıldı (8 kişi, sahibinin onayı; `yeni/kisiler.json`), portreler
   figürlerden kırpıldı (`yeni_gorsel/portre/`). `node arac_kunye_denetim.js yeni` yeni künyeyi
-  basar (9 Ekim; sızıntı yok). Onay 3 verilince Vaka 2.
+  basar (9 Ekim; sızıntı yok). 10 Ekim: sahibi "her şey tamam gibi" dedi; resmî Onay 3 ve Vaka 2 başlangıcı bekleniyor.
 
 ## 2. Sahibiyle çalışma biçimi (çok önemli)
 
