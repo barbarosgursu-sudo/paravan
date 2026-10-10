@@ -177,3 +177,6 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
   listesindeki kod gri bir alan olarak çizilir; üstünde `yer_tutucu_metin`'deki açıklama yazar.
   Görsel gelince kod `dosyalar`'a eklenir, iki listeden silinir (`test_yeni_arayuz.js` bayatı yakalar).
 - `arac_diyalog.js` konuşan adındaki â/î/û'yu da düzler ("LÂL" → `lal`).
+- **GEÇİCİ "Vaka N'den başla" (10 Ekim 2026, sahibinin testi için):** "Baştan başla" onay ekranında
+  her sonraki omurga vakası için bir düğme. Önceki vakalar motorda kendiliğinden oynanır (her ipucu,
+  doğru suçlama, ilk karar). Yayından önce `yeni_arayuz.js` → `VN_VAKA_ATLA = false`.

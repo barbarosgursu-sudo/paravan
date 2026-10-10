@@ -740,11 +740,11 @@ function vnKapanisOynat(){
   akisBaslat("kapanis", { vaka: k.vaka });
 }
 
-// Sezon sonu: yeni oyunda şimdilik tek vaka var.
+// Sezon sonu: yazılmış vakalar bitti.
 sonEkrani = function(){
   let h = ust() + '<div class="faz">';
-  h += `<div class="baslik"><div class="no">Şimdilik bu kadar</div><h1>Vaka 2 yazılıyor</h1></div>`;
-  h += `<div class="bilgi">Yeni oyunun ilk vakası burada bitiyor.</div>`;
+  h += `<div class="baslik"><div class="no">Şimdilik bu kadar</div><h1>Sıradaki vaka yazılıyor</h1></div>`;
+  h += `<div class="bilgi">Yazılmış vakalar burada bitiyor.</div>`;
   h += `<button class="buton ikincil" onclick="defterGoster()">Anı defterini oku</button>`;
   h += `<button class="buton ikincil" onclick="yenidenBasla()">Baştan oyna</button></div>`;
   app.innerHTML = h; scrollUst();
@@ -760,9 +760,34 @@ yenidenBasla = function(){
   h += `<div class="baslik" style="padding-top:32px"><div class="no">Baştan başla</div><h1>Emin misin?</h1></div>`;
   h += `<div class="giris-metin anlati-italik">Kayıtlı ilerleme silinecek, oyun açılıştan yeniden başlayacak.</div>`;
   h += '<button class="buton" onclick="yenidenBaslaOnay()">Evet, baştan başla</button>';
+  // GEÇİCİ: sahibinin testi için sonraki vakaya atlama (10 Ekim 2026). Kaldırmak: VN_VAKA_ATLA = false.
+  if(VN_VAKA_ATLA) for(const v of GAME.vakalar.filter(x => x.tur === "omurga").sort((a, b) => a.sira - b.sira).slice(1))
+    h += `<button class="buton ikincil" onclick="vakaAtla('${v.id}')">Vaka ${v.sira}'den başla (geçici)</button>`;
   h += '<button class="buton ikincil" onclick="yenidenBaslaVazgec()">Vazgeç</button></div>';
   app.innerHTML = h; scrollUst();
 };
+/* GEÇİCİ (sahibinin testi için): önceki vakaları motorda kendiliğinden oynatır — her ipucu
+   açılır, suçlu doğru kanıtla suçlanır, ilk karar seçilir — ve masaya o vakayla döner.
+   Kasa ve Cengo bağı bu varsayılan yolun sonucudur. Yayından önce false yapılır. */
+const VN_VAKA_ATLA = true;
+function vakaAtla(hedef){
+  kayitSil(); acilisSil();
+  oyun.durum = new Oyun(GAME).durum;
+  cengoSonAlev = null;
+  for(const v of GAME.vakalar.filter(x => x.tur === "omurga").sort((a, b) => a.sira - b.sira)){
+    if(v.id === hedef) break;
+    oyun.vakaBaslat(v.id);
+    oyun.durum.aktif.arastirmaKalan = 99;
+    let acik; while((acik = oyun.acikKaynaklar()).length) oyun.kaynakAc(acik[0].id);
+    const kn = oyun.kanitlar().map(x => x.id), suclu = v.kim_yapti.suclu;
+    let cift = null;
+    for(const a of kn) for(const b of kn) if(!cift && a !== b && oyun.suclamaSonucu(suclu, [a, b]) === "dogru") cift = [a, b];
+    oyun.suclama(suclu, cift || kn.slice(0, 2));
+    oyun.kararVer(v.decisions[0].id);
+  }
+  vnKasaGorunur = true;
+  masaGoster();
+}
 function yenidenBaslaOnay(){
   kayitSil(); acilisSil();
   oyun.durum = new Oyun(GAME).durum;
