@@ -200,7 +200,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 ⚙ arka: A13 · figurler: peri, cengo, serkan
 ⚙ Tuba sette; yüzleşme telefonla, hoparlörden (form §10).
 
-*Serkan'ın dükkânının önü. Peri telefonda, hoparlör açık. Serkan kepengin önünde.* {gir: serkan}
+*Serkan'ın dükkânının önü. Peri, Serkan'ın gözü önünde Tuba'yı arıyor; hoparlörü açıyor. Serkan kepengin önünde, kollarını kavuşturmuş dinliyor.* {gir: serkan}
 **PERİ [kas]:** Tuba Hanım, tekneyi siz çaldınız.
 **TUBA_TEL:** Çaldık mı? Kiraladık! Karaköylü bir balıkçı geldi, "sahibiyim" dedi!
 **CENGO [kas]:** Karaköylü bir balıkçı.
