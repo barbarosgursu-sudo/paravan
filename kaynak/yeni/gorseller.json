@@ -56,6 +56,7 @@
     "peri.manto.aci": "sprite/peri_manto_aci.webp",
     "peri.manto.telefon": "sprite/peri_manto_telefon.webp",
     "peri.manto.islak": "sprite/peri_manto_islak.webp",
+    "peri.manto.tel": "sprite/peri_manto_tel.webp",
     "peri.mantosuz.normal": "sprite/peri_mantosuz_normal.webp",
     "peri.mantosuz.kas": "sprite/peri_mantosuz_kas.webp",
     "peri.mantosuz.sinirli": "sprite/peri_mantosuz_sinirli.webp",
@@ -102,6 +103,7 @@
     "peri.balikli.sinirli",
     "peri.balikli.utanmis",
     "peri.balikli.istavrit",
+    "peri.manto.tel",
     "peri.mantosuz.cay",
     "peri.mantosuz.tac_sinirli"
   ],

@@ -295,7 +295,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **CENGO [normal]:** Lazım olursa. {bag: dusuk}
 *Peri teli almıyor. Cengo dönünce kilitten çekip mantosunun cebine koyuyor.* {bag: dusuk}
 *Teli Peri'nin avucuna koyuyor. Eli bir an orada kalıyor.* {bag: yuksek, kare: K18}
-**PERİ [kas]:** Ben hırsız değilim. Kilit kurcalamam. {bag: yuksek}
+**PERİ [tel]:** Ben hırsız değilim. Kilit kurcalamam. {bag: yuksek}
 **CENGO [yumusak]:** Biliyorum. Cebinizde dursun. {bag: yuksek}
 *Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.* {bag: yuksek}
 **PERİ [normal]:** Yarın kaçta geliyorsunuz?

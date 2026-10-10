@@ -10,7 +10,20 @@
         "peri": {
           "setler": {
             "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac", "tac_sinirli", "aci"],
-            "manto": ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis", "merakli", "aci", "telefon", "islak"],
+            "manto": [
+              "normal",
+              "kas",
+              "sinirli",
+              "utanmis",
+              "kagit",
+              "cuzdan",
+              "sasirmis",
+              "merakli",
+              "aci",
+              "telefon",
+              "islak",
+              "tel"
+            ],
             "balikli": ["sinirli", "utanmis", "istavrit"]
           }
         },
@@ -373,7 +386,7 @@
               "bag": "yuksek",
               "kare": "K18"
             },
-            {"k": "peri", "i": "kas", "m": "Ben hırsız değilim. Kilit kurcalamam.", "bag": "yuksek"},
+            {"k": "peri", "i": "tel", "m": "Ben hırsız değilim. Kilit kurcalamam.", "bag": "yuksek"},
             {"k": "cengo", "i": "yumusak", "m": "Biliyorum. Cebinizde dursun.", "bag": "yuksek"},
             {"k": "not", "m": "Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.", "bag": "yuksek"},
             {"k": "peri", "i": "normal", "m": "Yarın kaçta geliyorsunuz?"},

@@ -80,6 +80,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G18 | Peri mantolu, telefonla (hoparlörden konuşuyor) | **oyunda** (10 Ekim) | `sprite/peri_manto_telefon.webp` | `peri.manto.telefon` | Tuba yüzleşmesi |
 | G19 | Peri balıklı, istavriti kuyruğundan havada tutuyor (geniş kesim) | **oyunda** (10 Ekim) | `sprite/peri_balikli_istavrit.webp` | `peri.balikli.istavrit` | "Bunu kime veriyorum?", "Akşam yemeği çıktı" (anlatı satırında `balikli.utanmis`) |
 | G20 | Peri mantolu, ıslak, mantosunu sıkıyor (hortumdan sonra) | **oyunda** (10 Ekim) | `sprite/peri_manto_islak.webp` | `peri.manto.islak` | kovalamaca son satırı "Peri mantosunu sıkıyor" |
+| G21 | Peri mantolu, avucunda tel; gururlu, hafif utangaç (geniş, öne alınır) | **oyunda** (10 Ekim) | `sprite/peri_manto_tel.webp` | `peri.manto.tel` | kapanış bağ yüksek: "Ben hırsız değilim…" ve sonrası |
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 
