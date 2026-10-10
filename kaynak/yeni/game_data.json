@@ -373,7 +373,7 @@
               "bag": "yuksek",
               "kare": "K18"
             },
-            {"k": "peri", "i": "kas", "m": "Ben kilit açmam.", "bag": "yuksek"},
+            {"k": "peri", "i": "kas", "m": "Ben hırsız değilim. Kilit kurcalamam.", "bag": "yuksek"},
             {"k": "cengo", "i": "yumusak", "m": "Biliyorum. Cebinizde dursun.", "bag": "yuksek"},
             {"k": "not", "m": "Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.", "bag": "yuksek"},
             {"k": "peri", "i": "normal", "m": "Yarın kaçta geliyorsunuz?"},
