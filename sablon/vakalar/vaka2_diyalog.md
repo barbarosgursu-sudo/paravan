@@ -60,7 +60,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [kas]:** Kira yok, börek var?
 **SAADET:** Borçluya ikram edilir, oğlum. Utansın diye. Ben Saadet. Yine gelirim. {kime: cengo}
 *Saadet Hanım tepsiyi Cengo'nun eline bırakıp merdivenden iniyor.* {cik, kare: K20}
-**CENGO [gulen]:** Çıkabilirsiniz. Börek ıspanaklı. {kare: K20}
+**CENGO [gulen]:** Börek ıspanaklı. Çıkabilirsiniz. {kare: K20}
 **PERİ [utanmis]:** Utanmadım.
 **CENGO [gulen]:** Bir dilim alın, utanırsınız.
 **PERİ [normal]:** Plan şu. Atölyeye müşteri olarak girerim. Lâl beni tanır. {arka: A7}
