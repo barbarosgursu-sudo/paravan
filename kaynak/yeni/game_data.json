@@ -1297,7 +1297,7 @@
             },
             {"k": "mujgan", "i": "kas", "m": "Bu tayyör Lâl işi."},
             {"k": "peri", "i": "normal", "m": "On yıllık."},
-            {"k": "mujgan", "m": "Belli olmuyor. Size de."},
+            {"k": "mujgan", "m": "Tayyör de, siz de iyi muhafaza edilmişsiniz."},
             {
               "k": "mujgan",
               "i": "ofkeli",
@@ -1313,7 +1313,7 @@
             {
               "k": "mujgan",
               "i": "normal",
-              "m": "Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor; düğün yerinde dursun diye."
+              "m": "Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor. Gelinlik yok diye düğün iptal olmaz."
             },
             {"k": "peri", "i": "normal", "m": "Elli bin."},
             {
@@ -1334,7 +1334,7 @@
             {"k": "not", "m": "Müjgan Hanım merdivenden iniyor. Kapı yine çalınıyor: üç kere."},
             {"k": "peri", "i": "sasirmis", "m": "Ev sahibi."},
             {"k": "cengo", "i": "kas", "m": "Nereden bildiniz?"},
-            {"k": "peri", "i": "utanmis", "m": "Hep üç kere çalar."},
+            {"k": "peri", "i": "utanmis", "m": "Borçlu, kapıyı sesinden tanır."},
             {
               "k": "not",
               "m": "Peri masanın altına giriyor. Cengo kapıyı açıyor: minyon, kızıl saçlı, kırmızı rujlu bir hanım; elinde örtülü bir tepsi.",
@@ -1355,9 +1355,9 @@
               "cik": true,
               "kare": "K20"
             },
-            {"k": "cengo", "i": "gulen", "m": "Çıkabilirsiniz. Börek ıspanaklı.", "kare": "K20"},
+            {"k": "cengo", "i": "gulen", "m": "Börek ıspanaklı. Çıkabilirsiniz.", "kare": "K20"},
             {"k": "peri", "i": "utanmis", "m": "Utanmadım."},
-            {"k": "cengo", "i": "gulen", "m": "Bir dilim alın, utanırsınız."},
+            {"k": "cengo", "i": "gulen", "m": "Börekten yemediniz ki daha."},
             {"k": "peri", "i": "normal", "m": "Plan şu. Atölyeye müşteri olarak girerim. Lâl beni tanır.", "arka": "A7"},
             {"k": "cengo", "i": "kas", "m": "Tanır mı?"},
             {"k": "peri", "i": "kas", "m": "…Tanır."},
