@@ -125,8 +125,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ Kural 21c: vale yüzü görmedi. Bağ sahnede söylenir ("O akşam atölyede genç kadın kim vardı?" "Gelin."); Defne ekranda görünür hâle gelir.
 
 *Teşvikiye. Atölyenin sokağı. Kırmızı yelekli genç bir vale, anahtar panosunun başında.* {mekan}
-**BÜLENT [normal]:** Cengo abi! O çizik için… {gir: bulent, kime: cengo}
-**CENGO [gulen]:** Ben bir şey görmedim. Sen gördün mü, salı akşamı?
+**BÜLENT [normal]:** Cengo abi! Arabayı çizdiğimi kimseye söylemedin, sağ ol. {gir: bulent, kime: cengo}
+**CENGO [gulen]:** Ben görmem. Ama sen görmüşsündür. Salı akşamı ne gördün?
 **BÜLENT:** Gördüm abi. Organizatör var ya, kulaklıklı. Sekizi çeyrek geçe ön kapıdan çıktı, eli boş. {kime: cengo}
 **BÜLENT:** Sekiz buçukta da arka kapıdan bir kadın çıktı. Elinde uzun, siyah bir elbise kılıfı. Taksiye bindi.
 **PERİ [merakli]:** Lâl Hanım mı?
