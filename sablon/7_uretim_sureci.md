@@ -24,6 +24,9 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 - **Görseller, hikâye donmadan (7. adım) üretilmez.**
 - Görselli testte hikâye değişmez; değişecekse forma dönülür ve etkilenen görseller listelenir.
 - Her adımın sonunda değişiklikler `main`'e gönderilir.
+- **Her vakanın süresi ölçülür:** başlangıç ve her adımın bitişi vakanın başlangıç belgesindeki
+  tabloya yazılır (örnek: `vakalar/vaka2_baslangic.md` §1).
+- **Vaka 1 dersleri** (zamanı en çok yiyen görsel düzeltmeleri ve önlemleri): `vakalar/vaka2_baslangic.md` §2–4.
 
 ## Otomatik denetimler
 

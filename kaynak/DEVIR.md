@@ -8,6 +8,16 @@
 
 ---
 
+## 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+
+- **Vaka 1 bitti** (görseller, Onay 3 notları, künye). Kalıp oldu.
+- **Sıradaki iş: Vaka 2.** Yeni pencerede önce **`sablon/vakalar/vaka2_baslangic.md`** oku:
+  okuma sırası, süre ölçüm tablosu, Vaka 1'de zamanın nereye gittiği ve nasıl önleneceği,
+  adım adım yapılacaklar, görselli tur denetimi.
+- Sahibi Vaka 2'nin süresini ölçüyor: "Vaka 2'ye başla" dediği an başlangıç.
+
+---
+
 ## 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > Yeni oyun artık **`sablon/`** klasöründeki yapım şablonuyla üretiliyor (7 parça + `vakalar/`).
