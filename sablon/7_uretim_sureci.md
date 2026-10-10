@@ -48,7 +48,10 @@ verilir; sahibi Onay 2'ye temizlenmiş metinle başlar. Sahibi de notlarını sa
 **toplu** verir.
 
 **Toplu görsel işleme (adım 9–10).** Sahibi görselleri tek tek değil, **sohbet sohbet** gönderir
-(bir sohbetin bütün çıktıları, dosya adı ya da sırası prompt numarasıyla: `G2`, `G3`…).
+(bir sohbetin bütün çıktıları). Dosyalar **ChatGPT'nin verdiği adla** kalır; sahibi yalnız hangi
+numaralar olduğunu yazar ("Sohbet 1, G1–G13") ve araç `--sira G1-G13` ile dosya adındaki üretim
+saatine göre numara verir. Pakette her numaradan **bir** görsel olur (beğenilmeyen çıkarılır);
+sayı tutmazsa araç durur.
 Ben o paketin hepsini birden işlerim: `cd kaynak && node arac_paket.js <klasör> --vaka N` önce
 **önizler** (proje dosyasına dokunmaz; temas sayfası `YENI_UI/paket_<klasör>.png`: yeşil zemin +
 büyütülmüş baş), uygunsa aynı komut `--yaz` ile keser/küçültür, gömer, manifestoyu günceller,

@@ -1,9 +1,11 @@
 // ARAÇ (test değil): bir sohbetin görsellerini PAKET hâlinde işler (şablon 7. parça,
 // "Hızlandırma kuralları" → toplu görsel işleme; adım 9–10).
 // Kullanım:
-//   cd kaynak && node arac_paket.js <klasör> [--vaka 2] [--profil G10=saten,G32=cengo] [--genis G3,G24] [--yaz]
+//   cd kaynak && node arac_paket.js <klasör> [--vaka 2] [--sira G1-G13] [--profil G10=saten,G32=cengo] [--genis G3,G24] [--yaz]
 //
 // Klasördeki dosyalar prompt numarasıyla başlar: G2.png, G3_sinirli.jpg, G35.webp …
+// YA DA ChatGPT'nin verdiği adla kalır ve --sira G1-G13 verilir: dosyalar adlarındaki üretim
+// saatine dizilir, numaralar sırayla dağıtılır (sayı tutmazsa durur). Eşleşme temas sayfasında.
 // Numara → tür ve anahtar, sablon/vakalar/vaka<N>_gorsel.md tablosundan okunur.
 //   figür              → arac_kes.js ile kesilir (peri / cengo / konuk profili; --profil ile değişir)
 //   arka plan/kare/detay → 900×1200, WebP q80
@@ -31,10 +33,30 @@ const yaz = arg.includes('--yaz'); if (yaz) arg.splice(arg.indexOf('--yaz'), 1);
 const vaka = bayrak('--vaka') || '2';
 const profilEk = Object.fromEntries((bayrak('--profil') || '').split(',').filter(Boolean).map(s => s.split('=')));
 const genisEk = new Set((bayrak('--genis') || '').split(',').filter(Boolean));
+const sira = bayrak('--sira');
 const [klasor] = arg;
 if (!klasor || !fs.existsSync(klasor)) {
-  console.error('Kullanım: node arac_paket.js <klasör> [--vaka 2] [--profil G10=saten] [--genis G3,G24] [--yaz]');
+  console.error('Kullanım: node arac_paket.js <klasör> [--vaka 2] [--sira G1-G13] [--profil G10=saten] [--genis G3,G24] [--yaz]');
   process.exit(1);
+}
+
+// ChatGPT indirme adından üretim saati: "ChatGPT Image Oct 10, 2026, 08_15_33 PM.png",
+// "ChatGPT Image 10 Eki 2026 20_15_33.png" … Tarih + saat sıralanabilir sayıya çevrilir; yoksa null.
+const AYLAR = ['oca|jan', 'şub|sub|feb', 'mar', 'nis|apr', 'may', 'haz|jun', 'tem|jul', 'ağu|agu|aug', 'eyl|sep', 'eki|oct', 'kas|nov', 'ara|dec'];
+const ayNo = s => AYLAR.findIndex(a => a.split('|').some(x => s.toLocaleLowerCase('tr').startsWith(x)));
+function saatAnahtari(ad) {
+  const t = ad.match(/(\d{1,2})[_.:](\d{2})[_.:](\d{2})(?:\s*(AM|PM|ÖÖ|ÖS))?/i);
+  if (!t) return null;
+  let tarih = 0;
+  const iso = ad.match(/(\d{4})-(\d{2})-(\d{2})/);
+  const tr = ad.match(/(\d{1,2})\s+([A-Za-zÇĞİÖŞÜçğıöşü]{3,})\.?\s+(\d{4})/);
+  const en = ad.match(/([A-Za-z]{3,})\.?\s+(\d{1,2}),?\s+(\d{4})/);
+  if (iso) tarih = +iso[1] * 10000 + +iso[2] * 100 + +iso[3];
+  else if (tr && ayNo(tr[2]) >= 0) tarih = +tr[3] * 10000 + (ayNo(tr[2]) + 1) * 100 + +tr[1];
+  else if (en && ayNo(en[1]) >= 0) tarih = +en[3] * 10000 + (ayNo(en[1]) + 1) * 100 + +en[2];
+  let s = +t[1] % 12;
+  if (!t[4]) s = +t[1]; else if (/PM|ÖS/i.test(t[4])) s += 12;
+  return tarih * 1e6 + s * 10000 + +t[2] * 100 + +t[3];
 }
 
 // 1) Görsel tablosu: | G<n> | tür | ne | `anahtar` | …
@@ -48,7 +70,35 @@ for (const satir of fs.readFileSync(tabloYolu, 'utf8').split('\n')) {
 
 // 2) Klasördeki dosyalar
 const girdiler = {};
-for (const ad of fs.readdirSync(klasor).sort()) {
+const resimler = fs.readdirSync(klasor).filter(ad => /\.(png|jpe?g|webp)$/i.test(ad));
+if (sira) {
+  // --sira: ChatGPT'nin verdiği adlarla gelen dosyalar üretim saatine dizilir, sıradaki
+  // numaralar sırayla verilir. Sohbetteki üretim sırası sayfadaki kart sırasıdır.
+  const numaralar = sira.split(',').flatMap(p => {
+    const m = p.trim().match(/^G?(\d+)(?:\s*-\s*G?(\d+))?$/i);
+    if (!m) { console.error('--sira anlaşılmadı: ' + p); process.exit(1); }
+    const a = +m[1], b = m[2] ? +m[2] : a;
+    return Array.from({ length: b - a + 1 }, (_, i) => String(a + i));
+  });
+  const anahtarlar = resimler.map(ad => ({ ad, k: saatAnahtari(ad) }));
+  const saatsiz = anahtarlar.filter(x => x.k === null);
+  if (saatsiz.length && saatsiz.length < anahtarlar.length) {
+    console.error('DURDU: şu dosyaların adında üretim saati yok, sıraya konamıyor (adını değiştirmeden gönder): ' + saatsiz.map(x => x.ad).join(', '));
+    process.exit(1);
+  }
+  if (saatsiz.length) {
+    console.log('UYARI: dosya adlarında saat yok; dosya tarihine göre dizildi — temas sayfasında sırayı mutlaka kontrol et.');
+    for (const x of anahtarlar) x.k = fs.statSync(path.join(klasor, x.ad)).mtimeMs;
+  }
+  anahtarlar.sort((x, y) => x.k - y.k || x.ad.localeCompare(y.ad, 'tr', { numeric: true }));
+  if (anahtarlar.length !== numaralar.length) {
+    console.error('DURDU: klasörde ' + anahtarlar.length + ' görsel var, --sira ' + numaralar.length + ' numara istiyor (' +
+      numaralar.map(n => 'G' + n).join(' ') + '). Beğenilmeyen/yeniden üretilen görselleri çıkar; her numaradan bir görsel.');
+    process.exit(1);
+  }
+  anahtarlar.forEach((x, i) => { girdiler[numaralar[i]] = x.ad; console.log('G' + numaralar[i] + ' ← ' + x.ad); });
+}
+for (const ad of sira ? [] : resimler.sort()) {
   const m = ad.match(/^G(\d+)(?![0-9]).*\.(png|jpe?g|webp)$/i);
   if (!m) continue;
   if (girdiler[m[1]]) { console.log('ATLANDI: G' + m[1] + ' iki dosya (' + girdiler[m[1]] + ', ' + ad + ') — birini çıkar'); girdiler[m[1]] = null; continue; }
@@ -113,7 +163,7 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
   const uri = f => 'data:image/' + (f.endsWith('.png') ? 'png' : 'webp') + ';base64,' + fs.readFileSync(f).toString('base64');
   const hucre = k => '<figure><div class="ikili"><img src="' + uri(k.onizleme) + '">' +
     (k.tur === 'figur' ? '<div class="bas" style="background-image:url(' + uri(k.onizleme) + ')"></div>' : '') +
-    '</div><figcaption><b>G' + k.no + '</b> ' + k.anahtar + '</figcaption></figure>';
+    '</div><figcaption><b>G' + k.no + '</b> ' + k.anahtar + '<br><small>' + k.ad + '</small></figcaption></figure>';
   await p.setContent('<style>body{margin:0;padding:12px;background:#222;color:#eee;font:14px sans-serif;display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:12px}' +
     'figure{margin:0;background:#333;padding:6px;border-radius:6px}.ikili{display:flex;gap:6px}img{height:300px}' +
     '.bas{width:200px;height:300px;background-size:260% auto;background-position:50% 6%;background-repeat:no-repeat;background-color:#3a6}</style>' +

@@ -95,7 +95,8 @@ karakter ekranda zıplar). Profiller ve gerekçeleri `YENI_OYUN_GORSEL_PROMPTLAR
 "KESİM ARACI" başlığında. Test değil, araç.
 
 **Yeni oyunun görsellerini paket hâlinde işlemek için** `cd kaynak && node arac_paket.js <klasör> --vaka N [--yaz]`
-— dosyalar `G<n>` ile başlar; numara `sablon/vakalar/vakaN_gorsel.md` tablosundan tür ve anahtara
+— dosyalar `G<n>` ile başlar ya da ChatGPT adıyla kalır ve `--sira G1-G13` üretim saatine göre
+numara verir; numara `sablon/vakalar/vakaN_gorsel.md` tablosundan tür ve anahtara
 çevrilir. `--yaz` yokken yalnız önizler (temas sayfası `YENI_UI/paket_<klasör>.png`); `--yaz` ile
 keser, gömer, manifestoyu günceller, doğrulayıcı + iki derlemeyi koşar ve eski `index.html`'in
 değişmediğini md5 ile sınar. Saç halesi, yazı taraması ve boy insana kalır. Test değil, araç.
