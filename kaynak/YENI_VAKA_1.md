@@ -165,6 +165,8 @@ bakan penceresinin camında da aynı yazı, ters okunuyor.*
 
 *Üç yol burada birleşir.*
 
+⚙ arka plan → A5d (ters açı, merdiven başı)
+
 **PERİ [normal]:** Şirketin kasasını görmek ister misiniz? *(cüzdanını açar)* Kasa bu.
 
 ⚙ **KASA ilk kez görünür: 4.250 ₺**

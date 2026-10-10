@@ -182,7 +182,8 @@
           "k": "peri",
           "i": "cuzdan",
           "m": "Şirketin kasasını görmek ister misiniz? (cüzdanını açar) Kasa bu.",
-          "kasa": true
+          "kasa": true,
+          "arka": "A5d"
         },
         {"k": "peri", "i": "cuzdan", "m": "Dört bin iki yüz elli lira. Bütün servetim."},
         {"k": "cengo", "i": "kas", "m": "Benim üç aylık maaşım birikti. Asgari ücretten. Seksen dört bin."},
