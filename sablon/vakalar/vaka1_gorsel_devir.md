@@ -75,6 +75,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G13 | Kemal, sokak hâli, öfkeli (önlüksüz, eller yıkanmış; sahibinin isteği) | **oyunda** (9 Ekim) | `figur_kemal_sokak.webp` | `kemal.sokak` | Kemal yüzleşmesi (iskele fırçalı/önlüklü kalır) |
 | G14 | Serkan simit tablasına çarpıyor (Cengo'suz) | **oyunda** (10 Ekim) | `ara_k10b_simit_serkan.webp` | `K10b` | kovalamaca 1. satır |
 | G15 | Peri simitlerin arasında koşuyor (K10b + K11 karışımı, yandan; çarşafsız) | **oyunda** (10 Ekim) | `ara_k10c_kosu.webp` | `K10c` | kovalamaca: "Kestirme nereye çıkıyor?", "Bilmiyorum!" |
+| G16 | K11 yeniden: çarşaflı Peri kovalamacanın içinde (Serkan önde, teyze, mandallar, güvercinler) | **oyunda** (10 Ekim) | `ara_k11_carsaf.webp` (eskisi `_eski2`) | `K11` | kovalamaca çarşaf satırları |
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 
