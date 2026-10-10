@@ -327,7 +327,8 @@
             {"k": "serkan", "m": "Cumartesi. Tekneyle birlikte.", "cik": true},
             {
               "k": "not",
-              "m": "Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor."
+              "m": "Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.",
+              "cengo": "gulen"
             },
             {"k": "peri", "i": "utanmis", "m": "(istavriti havada tutarak) Bunu kime veriyorum?"},
             {"k": "cengo", "i": "gulen", "m": "Akşam yemeği çıktı."},

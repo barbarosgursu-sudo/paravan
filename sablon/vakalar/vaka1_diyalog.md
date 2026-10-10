@@ -9,7 +9,7 @@
 - `**PERİ [kas]:** metin` → konuşan, ifade (verilmezse öncekisi kalır), metin
 - `*metin*` → anlatı satırı (sahne notu)
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
-  `gir: serkan` (`gi: ofkeli` girenin ilk yüzü), `cik`, `gizle: cengo` (o figür ekrandan çıkar), `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına; konuk satırında: solda Peri/Cengo), `peri: sasirmis` (dinleyen Peri), `bag: yuksek|dusuk`, `mekan`
+  `gir: serkan` (`gi: ofkeli` girenin ilk yüzü), `cik`, `gizle: cengo` (o figür ekrandan çıkar), `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına; konuk satırında: solda Peri/Cengo), `peri: sasirmis` (dinleyen Peri), `cengo: gulen` (dinleyen Cengo), `bag: yuksek|dusuk`, `mekan`
 - `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
@@ -225,7 +225,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **SERKAN [normal]:** Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan}
 **CENGO [sinirli]:** Babana söyleyecek miydin?
 **SERKAN:** Cumartesi. Tekneyle birlikte. {cik}
-*Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.*
+*Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.* {cengo: gulen}
 **PERİ [utanmis]:** *(istavriti havada tutarak)* Bunu kime veriyorum?
 **CENGO [gulen]:** Akşam yemeği çıktı.
 *Çaycı hortumu uzatıyor. Peri gözlerini kapatıp bekliyor; su saçındaki son pulları da götürüyor.* {kare: K9}
