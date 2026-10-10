@@ -225,8 +225,8 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **SERKAN [normal]:** Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan}
 **CENGO [sinirli]:** Babana söyleyecek miydin?
 **SERKAN:** Cumartesi. Tekneyle birlikte. {cik}
-*Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.* {cengo: gulen}
-**PERİ [utanmis]:** *(istavriti havada tutarak)* Bunu kime veriyorum?
+*Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.* {cengo: gulen, peri: utanmis}
+**PERİ [istavrit]:** *(istavriti havada tutarak)* Bunu kime veriyorum?
 **CENGO [gulen]:** Akşam yemeği çıktı.
 *Çaycı hortumu uzatıyor. Peri gözlerini kapatıp bekliyor; su saçındaki son pulları da götürüyor.* {kare: K9}
 *Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.* {set: manto}

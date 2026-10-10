@@ -65,6 +65,7 @@
     "peri.mantosuz.aci": "sprite/peri_mantosuz_aci.webp",
     "peri.balikli.sinirli": "sprite/peri_balikli_sinirli.webp",
     "peri.balikli.utanmis": "sprite/peri_balikli_utanmis.webp",
+    "peri.balikli.istavrit": "sprite/peri_balikli_istavrit.webp",
     "cengo.normal": "sprite/cengo_normal.webp",
     "cengo.kas": "sprite/cengo_kas.webp",
     "cengo.gulen": "sprite/cengo_gulen.webp",
@@ -99,6 +100,7 @@
     "peri.mantosuz.sinirli",
     "peri.balikli.sinirli",
     "peri.balikli.utanmis",
+    "peri.balikli.istavrit",
     "peri.mantosuz.cay",
     "peri.mantosuz.tac_sinirli"
   ],

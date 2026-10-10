@@ -177,6 +177,8 @@ function vnFigurCiz(satir){
     const yt = !vnGorsel(anahtar) && (YG.yer_tutucu||[]).includes(anahtar);
     const src = vnGorsel(anahtar) || vnGorsel("peri." + vn.set + "." + SAHNE_KANON.figurler.peri.setler[vn.set][0]);
     const genis = (YG.genis||[]).includes(anahtar) ? ' class="genis"' : "";
+    // Geniş poz (uzanan kol, havada tutulan nesne) karşıdakinin üstünde kalır; yoksa el onun arkasına girer.
+    sol.classList.toggle("ustte", !!genis && anahtar === "peri.balikli.istavrit");
     if(sol.dataset.src !== anahtar){ sol.innerHTML = yt ? vnYerTutucu(anahtar, "peri") : src ? `<img${genis} alt="Peri" src="${src}">` : ""; sol.dataset.src = anahtar; }
   }
   // Sağdaki: Cengo ya da konuk
