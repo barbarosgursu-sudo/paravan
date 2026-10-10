@@ -873,7 +873,11 @@
               {"k": "lal", "i": "kas", "m": "Siz… Pervin?", "gir": "lal"},
               {"k": "peri", "i": "kas", "m": "Peri."},
               {"k": "lal", "i": "normal", "m": "Tabii. Pervin. Buyrun canım. Gelinlik mi?"},
-              {"k": "peri", "i": "utanmis", "m": "Müşteri olarak geldim. Yani… Müjgan Hanım'ın gelinliği için."},
+              {
+                "k": "peri",
+                "i": "utanmis",
+                "m": "Gelinlik için geldim. Ben evlenmiyorum… Müjgan Hanım'ın kayıp gelinliği için."
+              },
               {"k": "lal", "i": "sinirli", "m": "Müjgan beni hırsız yaptı, sizi de dedektif."},
               {
                 "k": "lal",
@@ -929,11 +933,8 @@
               {"k": "cengo", "i": "gulen", "m": "Çayınız soğumuş. Tazeleyeyim mi?", "gir": "gulsum"},
               {"k": "gulsum", "i": "normal", "m": "Sen kimsin?", "gir": "gulsum", "kime": "cengo"},
               {"k": "cengo", "i": "normal", "m": "Kuzen. Gelin tarafından."},
-              {
-                "k": "gulsum",
-                "m": "Gelin tarafından kuzen olmaz oğlum, ben hepsini diktim. Ama çay iyi olur.",
-                "kime": "cengo"
-              },
+              {"k": "gulsum", "m": "Kuzen mi? O ailenin her kuzeninin bel ölçüsünü bilirim.", "kime": "cengo"},
+              {"k": "gulsum", "m": "Seninkini bilmiyorum. Çayı koy.", "kime": "cengo"},
               {"k": "peri", "i": "normal", "m": "Dün akşam çıkarken gelinlik neredeydi?"},
               {"k": "gulsum", "m": "Mankendeydi, açık. Sekizde ben çıktım.", "kime": "peri"},
               {"k": "peri", "i": "merakli", "m": "Açık mı? Örtüsüz?"},
@@ -967,8 +968,14 @@
                 "m": "Teşvikiye. Atölyenin sokağı. Kırmızı yelekli genç bir vale, anahtar panosunun başında.",
                 "mekan": true
               },
-              {"k": "bulent", "i": "normal", "m": "Cengo abi! O çizik için…", "gir": "bulent", "kime": "cengo"},
-              {"k": "cengo", "i": "gulen", "m": "Ben bir şey görmedim. Sen gördün mü, salı akşamı?"},
+              {
+                "k": "bulent",
+                "i": "normal",
+                "m": "Cengo abi! Arabayı çizdiğimi kimseye söylemedin, sağ ol.",
+                "gir": "bulent",
+                "kime": "cengo"
+              },
+              {"k": "cengo", "i": "gulen", "m": "Ben görmem. Ama sen görmüşsündür. Salı akşamı ne gördün?"},
               {
                 "k": "bulent",
                 "m": "Gördüm abi. Organizatör var ya, kulaklıklı. Sekizi çeyrek geçe ön kapıdan çıktı, eli boş.",
