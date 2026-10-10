@@ -203,6 +203,8 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 /* Görseli olmayan arka plan / kare: bütün alanı kaplar (görselsiz test). */
 .vn-yer-tutucu.alan{left:0;right:0;top:0;bottom:0;height:auto;border-radius:0;background:#8a8478;padding:24px 28px}
 .vn-yer-tutucu.alan span{font-weight:700;font-size:16px;line-height:1.35}
+/* Arka planın yazısı figürlerin üstünde, tepede kalsın (figürler ortayı kaplar). */
+.vn-arka .vn-yer-tutucu.alan{justify-content:flex-start;padding-top:52px;border:0}
 .ky-secenek.ky-kisi{font-size:19px;padding:16px 16px}
 .ky-grup{font:inherit;display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;background:var(--panel);color:var(--gece);
   border:3px solid var(--gece);border-radius:12px;padding:12px 14px;font-size:16px;font-weight:800;min-height:48px;cursor:pointer}

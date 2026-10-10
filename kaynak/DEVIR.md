@@ -10,6 +10,12 @@
 
 ## 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
+- **10 Ekim akşam: adım 1–5 bitti.** Form Onay 1 aldı (`vaka2_form.md`; kadın karakterler en çekici
+  hâlde). Diyalog `vaka2_diyalog.md`, veri `yeni/game_data.json` V2, künye yazıldı. Araçlar Vaka 2'ye
+  açıldı: Cengo kıyafet seti (`cset`), görseli olmayan arka plan/kare gri kutu, tur
+  (`node arac_yeni_tur.js 0 ortu dogru`), `test_yeni_v2.js`. **Sırada: Onay 2 — sahibi görselsiz oynar.**
+  Süre tablosu: `sablon/vakalar/vaka2_baslangic.md` §1.
+
 - **Vaka 1 bitti** (görseller, Onay 3 notları, künye). Kalıp oldu.
 - **Sıradaki iş: Vaka 2.** Yeni pencerede önce **`sablon/vakalar/vaka2_baslangic.md`** oku:
   okuma sırası, süre ölçüm tablosu, Vaka 1'de zamanın nereye gittiği ve nasıl önleneceği,

@@ -104,7 +104,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ Kural 21c: örtü, kilitlemeden önce birinin içeride olduğunu söyler; kim olduğunu değil (Lâl de içerideydi).
 
 *Atölyenin arka avlusu. Usta Gülsüm, önlüğünde toplu iğneler, çay molasında.* {mekan}
-**CENGO [gulen]:** Çayınız soğumuş. Tazeleyeyim mi?
+**CENGO [gulen]:** Çayınız soğumuş. Tazeleyeyim mi? {gir: gulsum}
 **GÜLSÜM [normal]:** Sen kimsin? {gir: gulsum, kime: cengo}
 **CENGO [normal]:** Kuzen. Gelin tarafından.
 **GÜLSÜM:** Gelin tarafından kuzen olmaz oğlum, ben hepsini diktim. Ama çay iyi olur. {kime: cengo}
@@ -142,7 +142,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ Kural 21c: Defne'nin sakinliği bir gelinin sinirine de uyar; Tolga'yı suçlaması Tolga'yı ekrana getirir.
 
 *Nişantaşı. Ersoy'ların salonu. Defne pencerenin önünde; ipek gömleği belde düğümlü, saçları omzunda. Sakin.* {mekan}
-**PERİ [normal]:** Defne Hanım. Gelinliğiniz için çok üzgünüm.
+**PERİ [normal]:** Defne Hanım. Gelinliğiniz için çok üzgünüm. {gir: defne}
 **DEFNE [normal]:** Bulunur. Böyle şeyler bulunur. {gir: defne}
 **PERİ [kas]:** Çok sakinsiniz.
 **DEFNE:** Annem yeterince telaşlı. İkimize yeter.
@@ -203,7 +203,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ Oyuncu hangi doğru çifti seçtiyse seçsin aynı sahne; kanıtı adıyla anmaz.
 
 *Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.* {mekan}
-**PERİ [normal]:** Defne Hanım. Gelinliği siz aldınız. Nasıl aldığınızı da biliyorum.
+**PERİ [normal]:** Defne Hanım. Gelinliği siz aldınız. Nasıl aldığınızı da biliyorum. {gir: defne}
 **DEFNE [gergin]:** Ne diyorsunuz siz? {gir: defne}
 **PERİ [kas]:** İki şey diyorum. İkisini de biliyorsunuz.
 **MÜJGAN [ofkeli]:** Kızım? {gir: mujgan, kime: peri}
@@ -214,7 +214,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
 
 *Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.* {mekan}
-**PERİ [normal]:** Gelinliği siz aldınız.
+**PERİ [normal]:** Gelinliği siz aldınız. {gir: defne}
 **DEFNE [normal]:** Ben mi? Kendi gelinliğimi mi? Ne kanıtınız var? {gir: defne}
 **PERİ [utanmis]:** …Bir his.
 **MÜJGAN [ofkeli]:** His mi? Kızım, gel buraya. {gir: mujgan, kime: peri}
@@ -327,9 +327,9 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 *Akşam. Büro. Peri hâlâ masa örtüsüne sarılı, saçında krema. Cengo kravatını gevşetiyor.* {set: ortulu}
 *Kapı çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi!
-*Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.*
+*Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.* {gizle: peri}
 **LÂL [normal]:** Tayyörünü pastaya gömmüşsün. Bunu giy. {gir: lal, kime: cengo}
-**PERİ [utanmis]:** *(masanın arkasından doğrularak)* Lâl Hanım. Beni sonunda hatırladınız mı?
+**PERİ [utanmis]:** *(masanın arkasından doğrularak)* Lâl Hanım. Beni sonunda hatırladınız mı? {gir: peri}
 **LÂL [kas]:** Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim. {kime: peri}
 **PERİ [sasirmis]:** Peki neden "Pervin"?
 **LÂL [kas]:** Yüzünü görmek için.

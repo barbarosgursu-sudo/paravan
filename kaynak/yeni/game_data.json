@@ -926,7 +926,7 @@
                 "m": "Atölyenin arka avlusu. Usta Gülsüm, önlüğünde toplu iğneler, çay molasında.",
                 "mekan": true
               },
-              {"k": "cengo", "i": "gulen", "m": "Çayınız soğumuş. Tazeleyeyim mi?"},
+              {"k": "cengo", "i": "gulen", "m": "Çayınız soğumuş. Tazeleyeyim mi?", "gir": "gulsum"},
               {"k": "gulsum", "i": "normal", "m": "Sen kimsin?", "gir": "gulsum", "kime": "cengo"},
               {"k": "cengo", "i": "normal", "m": "Kuzen. Gelin tarafından."},
               {
@@ -1013,7 +1013,7 @@
                 "m": "Nişantaşı. Ersoy'ların salonu. Defne pencerenin önünde; ipek gömleği belde düğümlü, saçları omzunda. Sakin.",
                 "mekan": true
               },
-              {"k": "peri", "i": "normal", "m": "Defne Hanım. Gelinliğiniz için çok üzgünüm."},
+              {"k": "peri", "i": "normal", "m": "Defne Hanım. Gelinliğiniz için çok üzgünüm.", "gir": "defne"},
               {"k": "defne", "i": "normal", "m": "Bulunur. Böyle şeyler bulunur.", "gir": "defne"},
               {"k": "peri", "i": "kas", "m": "Çok sakinsiniz."},
               {"k": "defne", "m": "Annem yeterince telaşlı. İkimize yeter."},
@@ -1385,7 +1385,12 @@
               "m": "Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.",
               "mekan": true
             },
-            {"k": "peri", "i": "normal", "m": "Defne Hanım. Gelinliği siz aldınız. Nasıl aldığınızı da biliyorum."},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Defne Hanım. Gelinliği siz aldınız. Nasıl aldığınızı da biliyorum.",
+              "gir": "defne"
+            },
             {"k": "defne", "i": "gergin", "m": "Ne diyorsunuz siz?", "gir": "defne"},
             {"k": "peri", "i": "kas", "m": "İki şey diyorum. İkisini de biliyorsunuz."},
             {"k": "mujgan", "i": "ofkeli", "m": "Kızım?", "gir": "mujgan", "kime": "peri"},
@@ -1404,7 +1409,7 @@
               "m": "Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.",
               "mekan": true
             },
-            {"k": "peri", "i": "normal", "m": "Gelinliği siz aldınız."},
+            {"k": "peri", "i": "normal", "m": "Gelinliği siz aldınız.", "gir": "defne"},
             {"k": "defne", "i": "normal", "m": "Ben mi? Kendi gelinliğimi mi? Ne kanıtınız var?", "gir": "defne"},
             {"k": "peri", "i": "utanmis", "m": "…Bir his."},
             {"k": "mujgan", "i": "ofkeli", "m": "His mi? Kızım, gel buraya.", "gir": "mujgan", "kime": "peri"},
@@ -1519,13 +1524,15 @@
             {"k": "peri", "i": "sasirmis", "m": "Ev sahibi!"},
             {
               "k": "not",
-              "m": "Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı."
+              "m": "Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.",
+              "gizle": "peri"
             },
             {"k": "lal", "i": "normal", "m": "Tayyörünü pastaya gömmüşsün. Bunu giy.", "gir": "lal", "kime": "cengo"},
             {
               "k": "peri",
               "i": "utanmis",
-              "m": "(masanın arkasından doğrularak) Lâl Hanım. Beni sonunda hatırladınız mı?"
+              "m": "(masanın arkasından doğrularak) Lâl Hanım. Beni sonunda hatırladınız mı?",
+              "gir": "peri"
             },
             {"k": "lal", "i": "kas", "m": "Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim.", "kime": "peri"},
             {"k": "peri", "i": "sasirmis", "m": "Peki neden \"Pervin\"?"},

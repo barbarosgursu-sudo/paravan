@@ -34,7 +34,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 `test_bozuk.js` bilerek bozuk veri besleyip doğrulayıcının BLOCKED demesini gösteren
 bir betiktir — yedi senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri
 başarılı demektir; buradaki "BLOCKED" çıktısı beklenen sonuçtur, hata değil).
-Diğer 25 test geçmelidir (22'si eski oyunun; `test_yeni_v1.js`, `test_yeni_arayuz.js` ve `test_yeni_kimyapti.js` yeni oyunun).
+Diğer 26 test geçmelidir (22'si eski oyunun; `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js` ve `test_yeni_kimyapti.js` yeni oyunun).
 
 Doğrulayıcı eski oyunda **15 kural** çalıştırıyor (K16 kararsız yol dahil; K15 yalnız yeni oyunda) ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
 veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Bunlar yazarın
@@ -61,6 +61,8 @@ Kayıt anahtarı ayrı (`paravan_yeni_kayit_v1`): iki oyun aynı alan adında. Y
 `_gomulu_veri.js`'in üstüne yazar; ardından argümansız derleme onu yeniden üretir.
 Konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — yeni oyunu
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
+Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]`
+(Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
 
 **Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` (yeni oyun: `… yeni`) — her
 katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.

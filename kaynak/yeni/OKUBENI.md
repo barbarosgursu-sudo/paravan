@@ -5,12 +5,12 @@ verisine **dokunulmaz**; o hâlâ yayındaki `index.html`'in kaynağı.
 
 | dosya | ne |
 |---|---|
-| `game_data.json` | kanon, ekonomi, vakalar (şimdilik yalnız V1) |
+| `game_data.json` | kanon, ekonomi, vakalar (V1, V2) |
 | `acilis.json` | açılış: dört konuşma sahnesi (haciz → manto → Cengo → kapı çalar) |
 | `kisiler.json` | anı defteri (karar başına). **Künye henüz yazılmadı** — her katman yeni metin ve Nurcan yüzeyi, sahibinin onayıyla yazılacak |
 | `prolog.json` | boş; eski araçlar okuyabilsin diye duruyor |
 
-Kaynak metin: Vaka 1 için `sablon/vakalar/vaka1_diyalog.md` (sahneler, karar metinleri, anı
+Kaynak metin: Vaka 2 için `sablon/vakalar/vaka2_diyalog.md` (`… arac_diyalog.js ../sablon/vakalar/vaka2_diyalog.md V2`). Vaka 1 için `sablon/vakalar/vaka1_diyalog.md` (sahneler, karar metinleri, anı
 defteri) — veriye `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`
 yazar; **elle düzenlenmez.** Açılış için `kaynak/YENI_VAKA_1.md` → `acilis.json`.
 
@@ -20,6 +20,7 @@ yazar; **elle düzenlenmez.** Açılış için `kaynak/YENI_VAKA_1.md` → `acil
 cd kaynak
 node dogrulayici.js yeni          # yeni veriyi denetler (argümansız = eski oyun)
 node test_yeni_v1.js              # yeni verinin testi (test_*.js döngüsüne girer)
+node test_yeni_v2.js              # her vakanın araştırma ekonomisi: hak açıkken bütün ipucu sıraları
 cd yeni && node ../arac_okuma.js V1   # düz okuma (sahneleri değil, düz 'text'i basar)
 ```
 
@@ -166,3 +167,13 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
 - **K8:** `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem
   `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende de geçiyor.
 - K9 uyarısı kalktı: tohum yok (şablon, 8 Ekim 2026).
+
+## Vaka 2 ile gelenler (10 Ekim 2026)
+
+- **Kıyafet seti sahne başında:** diyalogda `⚙ … · set: tayyor · cset: takim`. `set` Peri'nin, `cset`
+  Cengo'nun seti (`kanon.sahne.figurler.cengo.setler`). Cengo'nun sprite anahtarı set varsa
+  `cengo.<set>.<ifade>`, yoksa `cengo.<ifade>` (Vaka 1). K15 ikisini de denetler.
+- **Görselsiz test, arka plan ve kare de yer tutucu olabilir:** `gorseller.json` → `yer_tutucu`
+  listesindeki kod gri bir alan olarak çizilir; üstünde `yer_tutucu_metin`'deki açıklama yazar.
+  Görsel gelince kod `dosyalar`'a eklenir, iki listeden silinir (`test_yeni_arayuz.js` bayatı yakalar).
+- `arac_diyalog.js` konuşan adındaki â/î/û'yu da düzler ("LÂL" → `lal`).
