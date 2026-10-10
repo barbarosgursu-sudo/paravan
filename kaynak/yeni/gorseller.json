@@ -197,7 +197,8 @@
     "gulsum.normal",
     "bulent.normal",
     "sarkis.normal",
-    "saadet.normal"
+    "saadet.normal",
+    "K32"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -224,6 +225,7 @@
     "K28": "Karar: cuma nikâhı, kısa gelinlik, iki şahit",
     "K29": "Karar: ana kız boş salonda aynı masada",
     "K30": "Karar: Lâl'in atölyesinin kapısı, kumaşçının adamı",
-    "K31": "Cengo merdivende, kravatı gevşek, gülümseyerek dönüyor"
+    "K31": "Cengo merdivende, kravatı gevşek, gülümseyerek dönüp bakıyor",
+    "K32": "Akşam büro: masada çözülmüş bordo kravat ve börek tepsisi; Peri örtüye sarılı, tek başına"
   }
 }

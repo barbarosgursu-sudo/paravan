@@ -142,7 +142,8 @@
         "K28",
         "K29",
         "K30",
-        "K31"
+        "K31",
+        "K32"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -1500,7 +1501,14 @@
             {"k": "cengo", "i": "buket", "m": "Ben tutmadım, o düştü.", "kime": "peri"},
             {"k": "defne", "i": "itiraf", "m": "Tamam. Ben aldım.", "gir": "defne"},
             {"k": "defne", "m": "Kerem'le evleniyoruz. Cuma sabahı, iki şahitle. Beş yüz kişi değil."},
-            {"k": "defne", "m": "Annem dinlemedi. Gelinlik yoksa düğün ertelenir, dedim."},
+            {
+              "k": "defne",
+              "m": "Annemle konuşmaya çalıştım. \"Beş yüz kişiye davetiye gitti, ayıp olur\" dedi. Konu kapandı."
+            },
+            {
+              "k": "defne",
+              "m": "Gelinlik olmazsa düğünü erteler, dedim. Ben de o arada cuma sabahı sessizce evlenirim."
+            },
             {
               "k": "defne",
               "m": "Gelinlik Kurtuluş'ta, bir terzide. Kuyruğunu kestiriyorum. Gelinliği seviyorum; gösteriyi sevmiyorum."
@@ -1553,17 +1561,27 @@
               "cik": true
             },
             {"k": "peri", "i": "kas", "m": "Neyi?"},
-            {"k": "cengo", "i": "kas", "m": "Gitti. Merdiven üç kat; örtüyle yetişemezsiniz."},
-            {"k": "not", "m": "Cengo kravatını çözüyor, masaya bırakıyor.", "bag": "dusuk"},
-            {"k": "cengo", "i": "normal", "m": "Takımı yarın geri veriyorum.", "bag": "dusuk"},
-            {"k": "peri", "i": "kas", "m": "Kolları zaten kısaydı.", "bag": "dusuk"},
-            {"k": "not", "m": "Cengo kapıda duruyor, bir şey diyecek gibi oluyor. Vazgeçip iniyor.", "bag": "dusuk"},
+            {"k": "cengo", "i": "normal", "m": "Gitti.", "bag": "dusuk"},
+            {
+              "k": "not",
+              "m": "Cengo kravatını çözüp masaya bırakıyor. Börek tepsisini de yanına koyuyor.",
+              "bag": "dusuk"
+            },
+            {"k": "cengo", "i": "normal", "m": "Takım yarın sahibine döner. İyi akşamlar.", "bag": "dusuk"},
+            {"k": "peri", "i": "sasirmis", "m": "Cengo…", "bag": "dusuk"},
+            {
+              "k": "not",
+              "m": "Cengo dönmüyor; merdivenden iniyor. Peri örtüsüne sarılı, boş büroda tek başına kalıyor.",
+              "bag": "dusuk",
+              "kare": "K32"
+            },
+            {"k": "cengo", "i": "gulen", "m": "Gitti. Merdiven üç kat; örtüyle yetişemezsiniz.", "bag": "yuksek"},
             {"k": "cengo", "i": "yumusak", "m": "Siz evlenseniz kaç kişi çağırırdınız?", "bag": "yuksek"},
             {"k": "peri", "i": "normal", "m": "İki.", "bag": "yuksek"},
             {"k": "peri", "i": "kas", "m": "Ben ve şahit.", "bag": "yuksek", "cengo": "yumusak"},
             {
               "k": "not",
-              "m": "Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivenden iniyor.",
+              "m": "Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivende dönüp Peri'ye bir kez daha bakıyor.",
               "bag": "yuksek",
               "kare": "K31"
             }

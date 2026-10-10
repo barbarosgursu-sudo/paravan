@@ -339,15 +339,16 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 *Lâl Hanım kapıda dönüyor.*
 **LÂL [normal]:** Geçen hafta elime bir müzayede kataloğu geçti. Sana bir şey hatırlatırdı. Neyse. {cik}
 **PERİ [kas]:** Neyi?
-**CENGO [kas]:** Gitti. Merdiven üç kat; örtüyle yetişemezsiniz.
-*Cengo kravatını çözüyor, masaya bırakıyor.* {bag: dusuk}
-**CENGO [normal]:** Takımı yarın geri veriyorum. {bag: dusuk}
-**PERİ [kas]:** Kolları zaten kısaydı. {bag: dusuk}
-*Cengo kapıda duruyor, bir şey diyecek gibi oluyor. Vazgeçip iniyor.* {bag: dusuk}
+**CENGO [normal]:** Gitti. {bag: dusuk}
+*Cengo kravatını çözüp masaya bırakıyor. Börek tepsisini de yanına koyuyor.* {bag: dusuk}
+**CENGO [normal]:** Takım yarın sahibine döner. İyi akşamlar. {bag: dusuk}
+**PERİ [sasirmis]:** Cengo… {bag: dusuk}
+*Cengo dönmüyor; merdivenden iniyor. Peri örtüsüne sarılı, boş büroda tek başına kalıyor.* {bag: dusuk, kare: K32}
+**CENGO [gulen]:** Gitti. Merdiven üç kat; örtüyle yetişemezsiniz. {bag: yuksek}
 **CENGO [yumusak]:** Siz evlenseniz kaç kişi çağırırdınız? {bag: yuksek}
 **PERİ [normal]:** İki. {bag: yuksek}
 **PERİ [kas]:** Ben ve şahit. {bag: yuksek, cengo: yumusak}
-*Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivenden iniyor.* {bag: yuksek, kare: K31}
+*Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivende dönüp Peri'ye bir kez daha bakıyor.* {bag: yuksek, kare: K31}
 
 ---
 
@@ -377,7 +378,8 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka2
 | K25 | Defne pirinçte kaymış, örtü yığınında; Cengo buketle | kovalamaca 4 |
 | K26 | Peri masa örtüsüne sarılı; Cengo kremayı tadıyor | kovalamaca sonu |
 | K27–K30 | dört kararın ara karesi | kararlar |
-| K31 | Cengo kravatı gevşek, merdivende gülümseyerek dönüyor | kapanış (bağ yüksek) |
+| K31 | Cengo kravatı gevşek, merdivende gülümseyerek dönüp bakıyor | kapanış (bağ yüksek) |
+| K32 | Akşam büro: masada çözülmüş bordo kravat ve börek tepsisi; Peri örtüye sarılı, tek başına | kapanış (bağ düşük) |
 | Peri `tayyor` | normal, kas, sinirli, aci, utanmis, sasirmis, merakli | her yerde |
 | Peri `kremali` | sinirli, utanmis | kovalamaca |
 | Peri `ortulu` | normal, kas, sasirmis, utanmis | kovalamaca sonu, kapanış |

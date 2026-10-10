@@ -188,7 +188,7 @@ Ekranda: Lâl her zaman (Müjgan girişte suçluyor); Tolga `tolga_kavga`, `tolg
 ## 13. Kapanış
 
 - **Sahne:** Büro, akşam. Kapı çalınır; Peri ev sahibi sanıp saklanır. Gelen Lâl: elinde bir kılıf. "Tayyörünü pastaya gömmüşsün. Bunu giy." Peri: "Beni hatırladınız mı sonunda?" Lâl: "Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim." 🟡 Kapıda döner: "Geçen hafta elime bir müzayede kataloğu geçti. Sana bir şey hatırlatırdı. Neyse." Çıkar. 🟡
-- **Bağ düşükse (0 ve altı):** Cengo kravatı çözer, masaya bırakır: "Takımı yarın geri veriyorum." Peri: "Kolları zaten kısaydı." Cengo kapıda durur, bir şey diyecekken vazgeçer.
+- **Bağ düşükse (0 ve altı):** *(Onay 2, 10 Ekim: tek başına görülünce de soğuk okunmalı)* Cengo kısa keser: "Gitti." Kravatını çözüp börek tepsisinin yanına bırakır: "Takım yarın sahibine döner. İyi akşamlar." Peri: "Cengo…" Cengo dönmeden iner; Peri boş büroda tek başına (kare K32).
 - **Bağ yüksekse (+1):** Cengo: "Siz evlenseniz kaç kişi çağırırdınız?" Peri: "İki." Cengo bakar. Peri: "Ben ve şahit." Cengo gülümser, kravatı gevşetir ama çıkarmaz.
 
 ## 14. Kıyafet

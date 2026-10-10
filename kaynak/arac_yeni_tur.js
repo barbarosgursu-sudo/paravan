@@ -97,8 +97,8 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
     await p.click('.buton:has-text("Devam et")');
     gorulen = [];
     const bagY = await p.evaluate(() => oyun.bagYuksek());
-    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüyor' }[vid];
-    console.log(`[${vid}] kapanış`, await vnOyna(vid + '_kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri', 'Hiç unutmadım', 'Geçen hafta elime', 'Siz evlenseniz', 'Takımı yarın']),
+    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp' }[vid];
+    console.log(`[${vid}] kapanış`, await vnOyna(vid + '_kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri', 'Hiç unutmadım', 'Geçen hafta elime', 'Siz evlenseniz', 'Takım yarın']),
       '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith(sicak)) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith(soguk)) ? 'soğuk satırlar' : 'iki hâl yok',
       '· kasa', await p.evaluate(() => oyun.durum.para));
     await foto(vid + '_son');
