@@ -10,7 +10,7 @@
         "peri": {
           "setler": {
             "mantosuz": ["normal", "kas", "sinirli", "utanmis", "cay", "tac", "tac_sinirli", "aci"],
-            "manto": ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis", "merakli", "aci", "telefon"],
+            "manto": ["normal", "kas", "sinirli", "utanmis", "kagit", "cuzdan", "sasirmis", "merakli", "aci", "telefon", "islak"],
             "balikli": ["sinirli", "utanmis", "istavrit"]
           }
         },
@@ -341,7 +341,8 @@
             {
               "k": "not",
               "m": "Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.",
-              "set": "manto"
+              "set": "manto",
+              "peri": "islak"
             }
           ]
         },

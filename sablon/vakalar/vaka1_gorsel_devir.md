@@ -79,6 +79,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 | G17 | Peri çarşafı fırlatıp rıhtıma çıkıyor, Serkan önde (sokaktan iskeleye geçiş) | **oyunda** (10 Ekim) | `ara_k11c_rihtim.webp` | `K11c` | kovalamaca "Peri çarşafı üstünden atıyor" |
 | G18 | Peri mantolu, telefonla (hoparlörden konuşuyor) | **oyunda** (10 Ekim) | `sprite/peri_manto_telefon.webp` | `peri.manto.telefon` | Tuba yüzleşmesi |
 | G19 | Peri balıklı, istavriti kuyruğundan havada tutuyor (geniş kesim) | **oyunda** (10 Ekim) | `sprite/peri_balikli_istavrit.webp` | `peri.balikli.istavrit` | "Bunu kime veriyorum?", "Akşam yemeği çıktı" (anlatı satırında `balikli.utanmis`) |
+| G20 | Peri mantolu, ıslak, mantosunu sıkıyor (hortumdan sonra) | **oyunda** (10 Ekim) | `sprite/peri_manto_islak.webp` | `peri.manto.islak` | kovalamaca son satırı "Peri mantosunu sıkıyor" |
 
 Kodlar (K15–K18, D4) **öneri**; mevcut son kodlar K14 ve D3. Dosya adları da öneri.
 

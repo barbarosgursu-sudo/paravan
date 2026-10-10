@@ -229,7 +229,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **PERİ [istavrit]:** *(istavriti havada tutarak)* Bunu kime veriyorum?
 **CENGO [gulen]:** Akşam yemeği çıktı.
 *Çaycı hortumu uzatıyor. Peri gözlerini kapatıp bekliyor; su saçındaki son pulları da götürüyor.* {kare: K9}
-*Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.* {set: manto}
+*Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.* {set: manto, peri: islak}
 
 ---
 
