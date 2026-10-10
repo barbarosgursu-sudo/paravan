@@ -9,14 +9,14 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 1 | **Form** doldurulur (6. parça) | ben | formun kontrol listesi tamam |
 | 2 | **Onay 1:** form | sahibi | "onay" |
 | 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu) | ben | otomatik denetimden geçer |
-| 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan | ben | otomatik denetimden geçer |
+| 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
 | 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır | ben | hata yok |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
 | 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) | ben | — |
 | 9 | **Görseller** üretilir | sahibi | — |
 | 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi) | ben | her görsel gömülü |
-| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır | ben | hata yok |
+| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi | ben | hata yok |
 | 12 | **Onay 3 — görselli test:** sahibi oynar. **Yalnız görsellere** bakılır: metinle uyum, ifade, çekicilik | sahibi | notlar tek listede |
 | 13 | **Görsel düzeltmeleri** | ben + sahibi | — |
 | 14 | **Vaka donar.** Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | — |
@@ -53,6 +53,8 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 
 **Görsel**
 - Her satırın ifadesi sözlükte ve görseli var.
+- Hiçbir satırda ekranda aynı figür iki kez yok (Cengo hem solda hem sağda).
+- Önceki vakaya geçiş: vaka bitince sonraki vaka açılıyor (ilk iki vakada elle denenir).
 - Metinde anılan nesne ya da hareket o satırda görünüyor (satır → görsel tablosu).
 - Her görsel gömülü, adı doğru.
 

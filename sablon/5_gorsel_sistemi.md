@@ -60,6 +60,26 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
    sahnedeyken Cengo konuşursa Peri'nin yerine sola geçer (aynalı) ve konuğa bakar; Cengo konuk
    varken Peri'ye konuşuyorsa satıra `{kime: peri}` yazılır. Peri konuğa, Cengo'nun ardından
    konuşuyorsa konuğu sağa almak için `{gir: <konuk>}`.
+   **Satır işaretleri (Vaka 1 dersleri, 10 Ekim 2026):**
+   | işaret | ne zaman |
+   |---|---|
+   | `{kime: peri}` Cengo satırında | konuk varken Cengo Peri'ye konuşuyor (yoksa sola geçer, konuğa bakar) |
+   | `{kime: peri\|cengo}` konuk satırında | konuk kime konuşuyorsa solda o dursun |
+   | `{gir: x, gi: ifade}` | konuk girerken ilk yüzü (anlatı satırında "öfkeli giriyor" gibi) |
+   | `{gizle: cengo}` | figür sahneden ayrıldı (koşup gitti); konuşunca geri gelir |
+   | `{peri: ifade}` / `{cengo: ifade}` | konuşmayan dinleyenin yüzü değişsin (önceki yüz kalmasın) |
+   | `{mekan}` | konuk henüz görünmemeli, yer tanıtılıyor |
+   **Denetim:** konuşan kim, karşısında kim, dinleyenin yüzü önceki satırdan mı kaldı — her sahne
+   satır satır okunur. Sesi olan ama figürü olmayan biri (boyacı, telefon) konuşurken ekranda ilgili
+   kare ya da nesne (telefonlu Peri) olur; boş iki figür kalmaz.
+5. **Mekân ve açı çeşitliliği:** uzun bir konuşma (≈15 satırdan fazla) tek arka planda geçmez;
+   aynı mekânın ikinci/üçüncü açısı ya da durum değişikliği (kapı açıldı, manto askıda) üretilir.
+   Hikâyede bir şey değiştiyse (kapı açıldı, manto asıldı, tabla devrildi) arka plan da değişir.
+6. **Hareket sahneleri (kovalamaca):** her vuruş bir kare; kareler birbirinin devamı (aynı hız,
+   aynı kargaşanın izleri). Sıralama metinle aynı: önde koşan önce düşer. Sahneden ayrılan figür
+   kareye girmez.
+7. **Durum sürekliliği:** ıslandı, kirlendi, balık pulu, manto çıkarıldı/asıldı — sonraki satırlarda
+   figür de o hâlde. Gerekirse ara hâl figürü üretilir (ıslak Peri).
 4. Her sahne için bir **satır → görsel** tablosu yazılır ve denetlenir.
 
 ## D. Üretim yöntemi
@@ -116,6 +136,15 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 - **Zemine yakın renkte nesne** (beyaz kâğıt gibi) kesimde kaybolabilir → elle maske.
 - Kol ile gövde arasında kalan bej boşluk → elle temizlenir.
 - Gömüldükten sonra derleme "her görsel gömülü" demeli.
+- **Saç kenarı (her figürde):** kesim aracı kıvırcık/dağınık saçın arasında bej hale bırakır.
+  Yeşil önizlemede başı büyütüp bak; hale varsa yalnız **baş kutusunda** temizle. Kır saçta dikkat
+  (saçı da siler); **gümüş/beyaz nesneler** (balık, tel, kâğıt, pul) temizlikte silinebilir —
+  kutunun dışında bırak, sonra büyütüp var mı bak. Siyah saçta açık şerit kalır → kenarı koyulaştır.
+- **Boy:** yeni konuk eklenince Peri'nin yanında ekranda bakılır; `gorseller.json` → `boy`.
+  Kadın yan karakterler genellikle 0.76–0.82, çok kısa/tombul 0.72.
+- **Uzanan kol / elde tutulan nesne** figür çerçevesinden taşıyorsa `--genis`; karşıdakinin
+  arkasında kalıyorsa öne alınır (`yeni_arayuz.js` → `ustte` listesi).
+- **Künye portresi:** her figürlü kişinin yüzü portreye kırpılır (`yeni_gorsel/portre/`).
 
 ---
 

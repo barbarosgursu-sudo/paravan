@@ -137,6 +137,13 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 - Cengo: 4 ifade + vaka gerektirirse.
 - Konuklar, arka planlar, ara kareler, detaylar.
 
+**Kişiler (künye):** vakada tanışılan her kişi için kart.
+
+| kişi | ne zaman çıkar (olgu) | kart metni | bilgi artınca (olgu → ek cümle) |
+|---|---|---|---|
+
+Kart yalnız o olgunun söylediğini söyler (Nurcan kuralı); `node arac_kunye_denetim.js yeni`.
+
 ## 17. Fiyat tablosu
 
 | tutar | ne | dayanak |
@@ -162,4 +169,6 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] En az bir dürüst karar var
 - [ ] Her kararın kısa sonucu var; ücret kesintilerinin açıklaması var (kural 22a)
 - [ ] Yeni kanon varsa onaylandı
+- [ ] Künye kartları yazıldı, denetim aracından geçti
+- [ ] Yeni yan karakterlerin görünüşü onaylandı ve benzerlerinden ayrışıyor
 - [ ] Kural kitabıyla çelişen bir şey yok
