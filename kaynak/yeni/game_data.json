@@ -279,8 +279,8 @@
               "m": "Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.",
               "kare": "K11"
             },
-            {"k": "teyze", "m": "O çarşaf yeni yıkandı!"},
-            {"k": "peri", "i": "sinirli", "m": "(çarşafın içinden) Getireceğim!"},
+            {"k": "teyze", "m": "O çarşaf yeni yıkandı!", "kare": "K11"},
+            {"k": "peri", "i": "sinirli", "m": "(çarşafın içinden) Getireceğim!", "kare": "K11"},
             {"k": "not", "m": "Peri çarşafı üstünden atıyor, koşmaya devam ediyor."},
             {
               "k": "not",
