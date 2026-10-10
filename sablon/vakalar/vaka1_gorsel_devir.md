@@ -143,6 +143,8 @@ Kemal'in kesim profili: `arac_kes.js --profil kemal`; Serkan ve sonraki konuklar
   Serkan temizdi (kır saçlılarda bu yöntem saçı da siler, dikkat) (yalnız baş bölgesi:
   saydama bağlı açık-bej pikseller + kıvrımda kapalı kalmış nötr bej cepler; ten ve beyaz yaka
   korunur). Yeni figür kesince saçı yeşil önizlemede büyütüp bak.
+  **Dikkat:** hale temizliği gümüş/gri nesneleri de yer (G19'da istavrit kayboldu) — temizliği
+  yalnız baş kutusuyla sınırla, yüz ve bluzu dışarıda bırak.
 
 - `GORSELLER` anahtarı **uzantısız**; uzantılı anahtar sessizce görünmez (derleyici yakalar).
 - `toLocaleLowerCase("tr")` "ZAYIF"ı "zayıf" yapar — kimliklerde açık eşleme kullan.
