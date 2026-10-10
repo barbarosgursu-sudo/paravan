@@ -33,7 +33,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 *Peri masanın kenarına oturup bacak bacak üstüne atıyor. Müjgan Hanım tayyörü baştan aşağı süzüyor; Cengo kravatına bakıyor.* {kare: K19}
 **MÜJGAN [kas]:** Bu tayyör Lâl işi.
 **PERİ [normal]:** On yıllık.
-**MÜJGAN:** Belli olmuyor. Size de.
+**MÜJGAN:** Tayyör de, siz de iyi muhafaza edilmişsiniz.
 **MÜJGAN [ofkeli]:** Kızımın gelinliği kayboldu. Düğüne üç gün var. Cumartesi, beş yüz davetli.
 **MÜJGAN:** Lâl'in atölyesinde, mankendeydi. Dün akşam son prova. Bu sabah ustası Gülsüm bakmış: yok.
 **CENGO [kas]:** Kapı?
