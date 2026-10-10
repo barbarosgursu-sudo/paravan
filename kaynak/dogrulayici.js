@@ -814,6 +814,10 @@ function kural15_sahne(game, hatalar, acilis) {
     if (sahne.arka && !arkalar.has(sahne.arka))
       hatalar.push(`[K15] ${yer}: arka plan '${sahne.arka}' görsel listesinde yok.`);
     let set = sahne.set || "manto";
+    // Cengo'nun kıyafet seti (Vaka 2'den itibaren): yoksa düz ifade listesi.
+    const cset = sahne.cset || null;
+    if (cset && !(fig.cengo && fig.cengo.setler && fig.cengo.setler[cset]))
+      hatalar.push(`[K15] ${yer}: Cengo'nun '${cset}' diye bir kıyafet seti yok.`);
     const yuru = (satirlar, yol) => satirlar.forEach((s, n) => {
       const y = `${yer} satır ${yol}${n + 1}`;
       if (s.set) {
@@ -845,7 +849,8 @@ function kural15_sahne(game, hatalar, acilis) {
       const f = fig[s.k];
       if (!f) { hatalar.push(`[K15] ${y}: konuşan '${s.k}' ne figür ne tanımlı ses.`); return; }
       if (!s.i) return;                              // ifade verilmezse önceki kalır
-      const izinli = s.k === "peri" ? (f.setler[set] || []) : (f.ifadeler || []);
+      const izinli = s.k === "peri" ? (f.setler[set] || [])
+        : s.k === "cengo" && cset ? ((f.setler || {})[cset] || []) : (f.ifadeler || []);
       if (!izinli.includes(s.i))
         hatalar.push(`[K15] ${y}: '${s.k}' için '${s.i}' ifadesi yok` +
           (s.k === "peri" ? ` ('${set}' setinde: ${izinli.join(", ")}).` : ` (var olanlar: ${izinli.join(", ")}).`));

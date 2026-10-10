@@ -200,6 +200,9 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .vn-yer-tutucu b{font-family:"Shrikhand",Georgia,serif;font-weight:normal;font-size:20px}
 .vn-yer-tutucu span{font-weight:800;font-size:15px}
 .vn-yer-tutucu em{font-style:normal;font-size:12px;letter-spacing:2px;text-transform:uppercase;opacity:.85}
+/* Görseli olmayan arka plan / kare: bütün alanı kaplar (görselsiz test). */
+.vn-yer-tutucu.alan{left:0;right:0;top:0;bottom:0;height:auto;border-radius:0;background:#8a8478;padding:24px 28px}
+.vn-yer-tutucu.alan span{font-weight:700;font-size:16px;line-height:1.35}
 .ky-secenek.ky-kisi{font-size:19px;padding:16px 16px}
 .ky-grup{font:inherit;display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;background:var(--panel);color:var(--gece);
   border:3px solid var(--gece);border-radius:12px;padding:12px 14px;font-size:16px;font-weight:800;min-height:48px;cursor:pointer}

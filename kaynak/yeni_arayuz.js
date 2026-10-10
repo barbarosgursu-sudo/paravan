@@ -47,6 +47,16 @@ function vnVarsayilanIfade(k){
   const f = SAHNE_KANON.figurler[k];
   return (f && f.ifadeler && f.ifadeler[0]) || "normal";
 }
+/* Cengo'nun sprite anahtarı kıyafet setine göre: "cengo.takim.gulen"; set yoksa "cengo.gulen" (Vaka 1). */
+function vnFigurAnahtar(kim, ifade){
+  return kim === "cengo" && vn && vn.cset ? "cengo." + vn.cset + "." + ifade : kim + "." + ifade;
+}
+/* Görseli henüz üretilmemiş arka plan ya da kare (görselsiz test): gri bir alan, üstünde kodu ve
+   ne göstereceği yazılı (manifesto 'yer_tutucu_metin'). Sessizce boş kalmaz; test eden fark eder. */
+function vnYerTutucuAlan(kod){
+  const metin = (YG.yer_tutucu_metin||{})[kod] || "";
+  return `<div class="vn-yer-tutucu alan"><b>${vnHtml(kod)}</b><span>${vnHtml(metin)}</span><em>görsel yok</em></div>`;
+}
 function vnHtml(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;"); }
 
 let vn = null;   // çalan sahnenin durumu
@@ -71,6 +81,7 @@ function sahneOynat(sahne, sonra, baslik, onceki, devam){
   vn = {
     kuyruk: vnBagSuz(sahne.satirlar), sonra,
     set: sahne.set || vnSonSet || "manto",
+    cset: sahne.cset || null,   // Cengo'nun kıyafeti (Vaka 2'den itibaren); yoksa düz "cengo.<ifade>"
     ifade: {}, mevcut: new Set(figurler), sol: "peri",
     sag: figurler.find(f => f !== "peri" && f !== "cengo") || (figurler.includes("cengo") ? "cengo" : null),
     arka: null, grup: null, satir: null, yaziyor: null, tamMetin: "", secimde: false,
@@ -126,7 +137,8 @@ function vnArkaKoy(kod, anlik){
   const arka = document.getElementById("vnArka");
   const katman = document.createElement("div");
   katman.className = "katman";
-  katman.innerHTML = src ? `<img class="kaplama" alt="" src="${src}">` : "";
+  katman.innerHTML = src ? `<img class="kaplama" alt="" src="${src}">`
+    : (YG.yer_tutucu||[]).includes(kod) ? vnYerTutucuAlan(kod) : "";
   const uygula = () => {
     document.getElementById("vnFig").classList.toggle("aksam", !!bilgi.aksam);
     document.getElementById("vnMekan").textContent = bilgi.ad || "";
@@ -148,10 +160,12 @@ function vnArkaKoy(kod, anlik){
 function vnKareGoster(kod){
   const eski = document.querySelector(".vn-kare"); if(eski) eski.remove();
   if(!kod) return;
-  const src = vnGorsel(kod); if(!src) return;
+  const src = vnGorsel(kod);
+  const yt = !src && (YG.yer_tutucu||[]).includes(kod);
+  if(!src && !yt) return;
   const d = document.createElement("div");
   d.className = "vn-kare";
-  d.innerHTML = (YG.tam||[]).includes(kod)
+  d.innerHTML = yt ? vnYerTutucuAlan(kod) : (YG.tam||[]).includes(kod)
     ? `<img class="dolgu" alt="" src="${src}"><img class="tam" alt="" src="${src}">`
     : `<img class="kaplama" alt="" src="${src}">`;
   document.getElementById("vnSahne").insertBefore(d, document.getElementById("vnMekan"));
@@ -163,9 +177,9 @@ function vnFigurCiz(satir){
   const solCengo = vn.sol === "cengo" && vn.mevcut.has("cengo");
   sol.classList.toggle("cengo", solCengo);
   if(solCengo){
-    const anahtar = "cengo." + (vn.ifade.cengo || "normal");
+    const anahtar = vnFigurAnahtar("cengo", vn.ifade.cengo || "normal");
     const yt = !vnGorsel(anahtar) && (YG.yer_tutucu||[]).includes(anahtar);
-    const src = vnGorsel(anahtar) || vnGorsel("cengo.normal");
+    const src = vnGorsel(anahtar) || vnGorsel(vnFigurAnahtar("cengo", "normal")) || vnGorsel("cengo.normal");
     sol.hidden = false;
     if(sol.dataset.src !== "sol:" + anahtar){ sol.innerHTML = yt ? vnYerTutucu(anahtar, "cengo") : `<img alt="Cengo" src="${src}">`; sol.dataset.src = "sol:" + anahtar; }
   }
@@ -185,7 +199,7 @@ function vnFigurCiz(satir){
   const kim = vn.sag && vn.mevcut.has(vn.sag) ? vn.sag : null;
   sag.hidden = !kim;
   if(kim){
-    const anahtar = kim + "." + (vn.ifade[kim] || vnVarsayilanIfade(kim));
+    const anahtar = vnFigurAnahtar(kim, vn.ifade[kim] || vnVarsayilanIfade(kim));
     if(sag.dataset.src !== anahtar){
       const src = vnGorsel(anahtar);
       const olcek = (YG.boy||{})[kim] || 1;

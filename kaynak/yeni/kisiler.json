@@ -100,6 +100,82 @@
           "tanim": "Rıza Reis'in oğlu. Karaköy'de kapalı bir balık-ekmek dükkânı var; cumaya yüz bine yakın borcu."
         }
       ]
+    },
+    {
+      "id": "mujgan",
+      "ad": "Müjgan Hanım",
+      "portre": "portre_mujgan",
+      "tanisma": "gelinlik_kayip",
+      "katmanlar": [
+        {
+          "kosul": "gelinlik_kayip",
+          "tanim": "Defne'nin annesi, Nişantaşı. Cumartesi beş yüz kişilik bir düğün kuruyor. Gelinliği Lâl'in aldığını düşünüyor."
+        }
+      ]
+    },
+    {
+      "id": "defne",
+      "ad": "Defne",
+      "portre": "portre_defne",
+      "tanisma": "gelinlik_kayip",
+      "katmanlar": [
+        {"kosul": "gelinlik_kayip", "tanim": "Gelin. Annesine göre perişan."},
+        {"kosul": "defne_sakin", "tanim": "Gelin. Annesine göre perişan. Peri'ye göre gelinliğin kaybına üzülmüyor."},
+        {
+          "kosul": "defne_cuma",
+          "tanim": "Gelin. Annesine göre perişan. Cuma sabahı bir işi var; nedime provalarına gelmiyor."
+        }
+      ]
+    },
+    {
+      "id": "lal",
+      "ad": "Lâl Hanım",
+      "portre": "portre_lal",
+      "tanisma": "gelinlik_kayip",
+      "katmanlar": [
+        {
+          "kosul": "gelinlik_kayip",
+          "tanim": "Teşvikiye'de modacı. Gelinliği o dikti. Peri'yi tanıyıp tanımadığı belli değil."
+        },
+        {
+          "kosul": "lal_kilitledi",
+          "tanim": "Teşvikiye'de modacı. Gelinliği o dikti. Peri'yi tanıyıp tanımadığı belli değil. Kumaşçıya borçlu. Salı akşamı atölyeyi o kilitledi."
+        }
+      ]
+    },
+    {
+      "id": "tolga",
+      "ad": "Tolga",
+      "portre": "portre_tolga",
+      "tanisma": "gelinlik_kayip",
+      "katmanlar": [
+        {"kosul": "gelinlik_kayip", "tanim": "Düğün organizatörü. Herkese \"canım\" der."},
+        {
+          "kosul": "tolga_telefon",
+          "tanim": "Düğün organizatörü. Herkese \"canım\" der. Cumartesinin boşalmasını umuyor; salı akşamı atölyeye uğramış."
+        }
+      ]
+    },
+    {
+      "id": "gulsum",
+      "ad": "Gülsüm",
+      "portre": "portre_gulsum",
+      "tanisma": "ortu_ortulmez",
+      "katmanlar": [{"kosul": "ortu_ortulmez", "tanim": "Lâl'in ustası. Kırk yıllık usulü var: gelinliğe örtü örtmez."}]
+    },
+    {
+      "id": "bulent",
+      "ad": "Bülent",
+      "portre": "portre_bulent",
+      "tanisma": "kilifli_kadin",
+      "katmanlar": [{"kosul": "kilifli_kadin", "tanim": "Teşvikiye'de vale. Cengo'ya borçlu. O sokakta olan biteni görür."}]
+    },
+    {
+      "id": "sarkis",
+      "ad": "Sarkis Usta",
+      "portre": "portre_sarkis",
+      "tanisma": "terzi_gelinlik",
+      "katmanlar": [{"kosul": "terzi_gelinlik", "tanim": "Kurtuluş'ta terzi. Fişi olmayana bir şey vermez."}]
     }
   ],
   "defter": {
@@ -108,6 +184,12 @@
       "her_seyi_anlat": "Rıza Reis her şeyi benden duydu. Büro bir hafta balık koktu.",
       "serkanla_anlas": "Rıza Reis'e yalan söyledim. Tekne cumartesi döndü.",
       "susmayi_sat": "Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi."
+    },
+    "V2": {
+      "anneye_anlat": "Gelinlik cumartesiye yetişti. Gelin de.",
+      "nikahtan_sonra": "Defne nikâhını istediği gibi kıydı. Müjgan Hanım bir gün geç öğrendi.",
+      "yuz_yuze": "Ana kız aynı masaya oturdu. Nikâh cuma, cumartesi yemek.",
+      "defnenin_parasi": "Defne'nin sırrı bende kaldı. Lâl Hanım'ın iki müşterisi gitti."
     }
   }
 }

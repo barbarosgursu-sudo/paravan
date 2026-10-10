@@ -15,15 +15,20 @@ const k = (ad, ok, ayrinti) => { console.log((ok ? "✓ " : "✗ BAŞARISIZ ") +
 const var_ = a => M.dosyalar[a] || (M.takma && M.dosyalar[M.takma[a]]) || (M.yer_tutucu || []).includes(a);
 
 console.log("=== Manifesto ↔ kanon.sahne ===");
-const eksikKod = [...S.arkalar, ...S.kareler].filter(a => !M.dosyalar[a]);
-k("her arka plan ve kare kodunun görseli var", !eksikKod.length, eksikKod.join(", "));
+// Görselsiz testte (şablon 7. parça adım 5) arka plan ve kare de yer tutucu olabilir; o zaman
+// ekranda ne göstereceği yazılı olmalı, yoksa gri alan boş kalır.
+const eksikKod = [...S.arkalar, ...S.kareler].filter(a => !M.dosyalar[a] && !(M.yer_tutucu || []).includes(a));
+k("her arka plan ve kare kodunun görseli ya da yer tutucusu var", !eksikKod.length, eksikKod.join(", "));
+const metinsizYT = [...S.arkalar, ...S.kareler].filter(a => !M.dosyalar[a] && !(M.yer_tutucu_metin || {})[a]);
+k("yer tutucu arka plan ve karelerin açıklaması var", !metinsizYT.length, metinsizYT.join(", "));
 const eksikAd = S.arkalar.filter(a => !(M.arka[a] && M.arka[a].ad));
 k("her arka planın mekân adı var (sahnenin sağ üstü)", !eksikAd.length, eksikAd.join(", "));
 const eksikSprite = [];
 for (const [kim, f] of Object.entries(S.figurler)) {
+  // Cengo'da ikisi birden var: düz ifadeler (Vaka 1) + kıyafet setleri (Vaka 2'den itibaren).
   if (f.setler) for (const [set, ifadeler] of Object.entries(f.setler))
     for (const i of ifadeler) { if (!var_(`${kim}.${set}.${i}`)) eksikSprite.push(`${kim}.${set}.${i}`); }
-  else for (const i of f.ifadeler) if (!var_(`${kim}.${i}`)) eksikSprite.push(`${kim}.${i}`);
+  if (f.ifadeler) for (const i of f.ifadeler) if (!var_(`${kim}.${i}`)) eksikSprite.push(`${kim}.${i}`);
 }
 k("her figürün her ifadesinin sprite'ı, takması ya da yer tutucusu var", !eksikSprite.length, eksikSprite.join(", "));
 const yokDosya = Object.entries(M.dosyalar).filter(([, d]) => !fs.existsSync(path.join(__dirname, "yeni_gorsel", d))).map(([a]) => a);

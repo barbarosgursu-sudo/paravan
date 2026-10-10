@@ -6,6 +6,7 @@
 // Kullanım:  cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md [V1]
 // Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,onizleme,sonuc,cengo_sonuc}
 //            yeni/kisiler.json    → defter.<vaka>.<karar>
+// ⚙ satırı: arka, figurler, etiket, set (Peri'nin sahne başı kıyafeti), cset (Cengo'nun).
 // Yapı (ipuçlarının açılma koşulu, olgular, Kim yaptı?) bu aracın işi değil; veride durur.
 // Ardından: node dogrulayici.js yeni
 const fs = require("fs");
@@ -17,7 +18,7 @@ if (!dosya) { console.error("kullanım: node arac_diyalog.js <diyalog.md> [vaka 
 const md = fs.readFileSync(dosya, "utf-8").split("\n");
 
 // Konuşan adı → veri kimliği: "ÇAYCI" → "cayci", "TUBA_TEL" → "tuba_tel".
-const kimlik = ad => ad.toLocaleLowerCase("tr").replace(/[çğıöşü]/g, c => ({ ç: "c", ğ: "g", ı: "i", ö: "o", ş: "s", ü: "u" })[c]).replace(/i̇/g, "i");
+const kimlik = ad => ad.toLocaleLowerCase("tr").replace(/[çğıöşüâîû]/g, c => ({ ç: "c", ğ: "g", ı: "i", ö: "o", ş: "s", ü: "u", â: "a", î: "i", û: "u" })[c]).replace(/i̇/g, "i");
 // "{arka: A9, cik}" → { arka: "A9", cik: true }
 const ayar = s => Object.fromEntries(s.split(",").map(x => x.trim()).filter(Boolean).map(x => {
   const [k, ...v] = x.split(":"); return [k.trim(), v.length ? v.join(":").trim() : true];
@@ -42,7 +43,7 @@ for (const ham of md) {
   if (!hedef || !s) continue;
   if (s.startsWith("⚙")) {                          // ⚙ arka: A6 · figurler: peri, cengo
     for (const parca of s.slice(1).split("·")) {
-      const mm = parca.trim().match(/^(arka|figurler|etiket):\s*(.+)$/);
+      const mm = parca.trim().match(/^(arka|figurler|etiket|set|cset):\s*(.+)$/);
       if (mm) hedef.ayar[mm[1]] = mm[1] === "figurler" ? mm[2].split(",").map(x => x.trim()) : mm[2].trim();
     }
     continue;
@@ -79,7 +80,9 @@ for (const ham of md) {
   hedef.satirlar.push({ ...satir, ...ek });
 }
 
+// set: sahnenin başındaki Peri kıyafeti; cset: Cengo'nun (Vaka 2'den itibaren her vakada yeni).
 const sahneYap = h => ({ ...(h.ayar.arka ? { arka: h.ayar.arka } : {}),
+  ...(h.ayar.set ? { set: h.ayar.set } : {}), ...(h.ayar.cset ? { cset: h.ayar.cset } : {}),
   figurler: h.ayar.figurler || ["peri", "cengo"], satirlar: h.satirlar });
 
 const vYol = path.join(__dirname, "yeni", "game_data.json"), kYol = path.join(__dirname, "yeni", "kisiler.json");
