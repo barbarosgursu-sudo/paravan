@@ -1,6 +1,8 @@
 # VAKA 2 FORMU — GELİNLİK
 
-Şablon 6'ya göre. Durum: **TASLAK — Onay 1 bekliyor (10 Ekim 2026).**
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 10 Ekim 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
+
+**Sahibinin çekicilik talimatı (Onay 1, 10 Ekim 2026):** Peri ve vakadaki **bütün yetişkin kadınlar** mümkün olan en erotik ve seksi hâlde (kural 15'in üst sınırı: dar, kısa, derin dekolte, bacak, kışkırtıcı poz, flört). Kesin çizgi değişmez (kural 16): çıplaklık yok, cinsel eylem yok; herkes yetişkin.
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 2 — GELİNLİK".
 🟡 işaretli maddeler **kanona ekleme**: onayın olmadan yazılmaz (§18).
 
@@ -61,7 +63,7 @@ Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 2 — GELİNLİK".
 | Şüpheli gösteren iz | provadan sonra yalnız kaldı; kayba üzülmüyor; cuma sabahı "işi var" | Müjgan suçluyor; borçlu, alacaklı kapıda; atölyeyi o kilitledi, anahtar yalnız onda; manken örtülüydü, bakmadı | Defne onu suçluyor (annesiyle kavgalı); telefonda "Cumartesi boşalırsa öbür düğünü oraya alırım"; salı akşamı atölyedeydi |
 | Aklayan kanıt | — | vale: arka kapıdan çıkan genç bir kadındı, "Lâl Hanım değildi"; Gülsüm: gelinliğe örtü örtülmez → örtü boş mankeni saklamak içindi, gelinlik kilitlemeden önce çıkmıştı (anahtarı olanın örtüye ihtiyacı yok) | vale: 20.15'te ön kapıdan eli boş çıktı; gelinlik 20.30'da bir kadınla çıktı |
 | O gece gerçekte | gelinliği kılıfa koydu, örtüyü örttü, terziye götürdü | yukarıda çalıştı, 21.00'de örtüye bakmadan kilitledi | çiçek rengine baktı, otele döndü (çift rezervasyonu gerçek ama gelinlikle ilgisi yok) |
-| Görünüşü (figür) 🟢 | **yeni:** 29, uzun düz koyu kestane saç, makyajsız denecek kadar sade; beyaz gömlek, bej pantolon; sakin yüz, ince gümüş yüzük (nişan) | **yeni:** 60'larında, ince, kısa kırçıl beyaz alagarson saç, kalın siyah çerçeveli gözlük boynunda zincirle, kırmızı ruj, baştan aşağı siyah; boynunda küçük gümüş makas kolye | **yeni:** 40'larında, ince, yanları kısa üstü jöleli saç, dar lacivert yelek ve gömlek, tek kulakta kulaklık-mikrofon, elinde tablet |
+| Görünüşü (figür) 🟢 | **yeni:** 29, uzun dalgalı koyu kestane saç, dolgun dudaklar, sakin bakış; üst düğmeleri açık, belde düğümlenmiş ince beyaz ipek gömlek (derin dekolte, karın görünür), vücuda yapışan bej yüksek bel pantolon, ince topuklu sandalet; ince gümüş nişan yüzüğü. Kaçarken yalınayak, gömlek omzundan kaymış | **yeni:** 60'larında, iddialı ve hâlâ çok çekici; kısa gümüş beyazı alagarson saç, kırmızı ruj, kalın siyah çerçeveli gözlük boynunda zincirle; derin V yakalı, vücudu saran siyah kalem elbise, yırtmaçlı, siyah file çorap, siyah stiletto; boynunda küçük gümüş makas kolye | **yeni:** 40'larında, ince, yanları kısa üstü jöleli saç, dar lacivert yelek ve gömlek, tek kulakta kulaklık-mikrofon, elinde tablet |
 
 ## 5. Olgular
 
@@ -206,6 +208,8 @@ Ekranda: Lâl her zaman (Müjgan girişte suçluyor); Tolga `tolga_kavga`, `tolg
 | Teşvikiye sokağı, atölyenin önü (vale) | yeni |
 | Ersoy'ların salonu, Nişantaşı | yeni |
 | Otel balo salonu (nedime provası, balon kemeri) | yeni + 2. açı |
+
+**Nedimeler** (yalnız karelerde): dört genç kadın, aynı renk (pudra pembe) dar, kısa, askılı saten nedime elbiseleri, derin dekolte, yüksek topuklu.
 | Otel pasta mutfağı | yeni |
 | Kurtuluş, Sarkis Usta'nın dükkânı | yeni |
 
@@ -226,11 +230,11 @@ Ekranda: Lâl her zaman (Müjgan girişte suçluyor); Tolga `tolga_kavga`, `tolg
 | Ara kareler | kovalamaca 4, karar 4, temizlenme 1, kapı/örtü detayı |
 
 **Yeni yan karakterlerin görünüşü** (§4'e ek; benzerlerinden ayrışır):
-- **Müjgan:** 58, ince, uzun boylu; platin sarı fönlü kısa saç, güneş gözlüğü başında, krem kaşmir, iri tek yüzük.
-- **Gülsüm:** 50'lerinde, tombul, başörtüsü arkadan bağlı, önlüğünde toplu iğneler, gözlüğü burnunun ucunda.
+- **Müjgan:** 58, uzun boylu, bakımlı ve alımlı; platin sarı fönlü omuz boyu saç, güneş gözlüğü başında; derin dekolteli, dar krem ipek elbise, belden kemerli, dizin üstünde; ince altın topuklu ayakkabı, iri tek yüzük.
+- **Gülsüm:** 50'lerinde, dolgun ve kıvrımlı, gür siyah saçı arkadan topuz, dar siyah tişört üstünde göğsü saran iş önlüğü, önlükte toplu iğneler, gözlüğü burnunun ucunda; çay bardağıyla rahat, cilveli.
 - **Bülent (vale):** 20'lerinde, uzun ince, kırmızı vale yeleği, elinde anahtar demeti.
 - **Sarkis Usta:** 70'lerinde, kısa boylu, kel, bıyıksız, kalın camlı gözlük, boynunda mezura, ağzında toplu iğne. (Rıza'dan ayrışır: kasket yok, yelek yok.)
-- **Saadet Hanım** 🟡: 70, minyon, koyu kızıl mizanpli saç, hırka, elinde örtülü börek tepsisi.
+- **Saadet Hanım** 🟡: 70, minyon, "eski dilber": koyu kızıl mizanpli saç, kırmızı ruj, dar bordo kadife elbise, inci kolye; elinde örtülü börek tepsisi.
 
 **Kişiler (künye):**
 
@@ -280,12 +284,12 @@ Ekranda: Lâl her zaman (Müjgan girişte suçluyor); Tolga `tolga_kavga`, `tolg
 - [x] Her tutar fiyat tablosunda
 - [x] En az bir dürüst ve kazandıran karar var; kirli fark küçük
 - [x] Her kararın kısa sonucu var; kesinti açıklamaları var
-- [ ] Yeni kanon onaylandı (🟡 3 madde)
+- [x] Yeni kanon onaylandı (🟡 3 madde, 10 Ekim)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı (🟢)
+- [x] Yeni yan karakterlerin görünüşü onaylandı (🟢, 10 Ekim; kadınlar sahibinin talimatıyla daha çekici)
 - [x] Kural kitabıyla çelişen bir şey yok
 
-## Sahibine sorular
+## Sahibine sorular *(Onay 1: hepsine evet, 10 Ekim 2026)*
 
 1. 🟡 Kanon 1–3 (ev sahibi Saadet Hanım, Lâl Peri'nin taç elbisesini dikti, müzayede kataloğu) — uygun mu?
 2. 🟢 Peri'nin kıyafeti zümrüt yeşili tayyör + kırmızı stiletto; yan karakter görünüşleri — uygun mu?

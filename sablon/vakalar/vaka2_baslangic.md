@@ -20,7 +20,7 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
 | 1 Form | 10 Eki 16:52 (TSİ) | 10 Eki 17:02 | başlangıç = "Vaka 2'ye başla" |
-| 2 Onay 1 | 10 Eki 17:02 | | form `vaka2_form.md` sahibinde |
+| 2 Onay 1 | 10 Eki 17:02 | 10 Eki 17:23 | onay; tek ek: kadınlar en çekici hâlde |
 | 3–4 Diyalog + veri + künye | | | |
 | 5 Görselsiz tur | | | |
 | 6–7 Onay 2, hikâye donar | | | |
