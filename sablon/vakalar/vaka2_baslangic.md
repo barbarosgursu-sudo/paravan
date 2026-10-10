@@ -21,9 +21,9 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 |---|---|---|---|
 | 1 Form | 10 Eki 16:52 (TSİ) | 10 Eki 17:02 | başlangıç = "Vaka 2'ye başla" |
 | 2 Onay 1 | 10 Eki 17:02 | 10 Eki 17:23 | onay; tek ek: kadınlar en çekici hâlde |
-| 3–4 Diyalog + veri + künye | 10 Eki 17:23 | 10 Eki 17:45 | doğrulayıcı PASS; künye aracı temiz; bağ: "nikâhtan sonra" +2 (K8) |
-| 5 Görselsiz tur | 10 Eki 17:45 | 10 Eki 18:02 | araçlar V2'ye açıldı (Cengo kıyafet seti, gri arka plan/kare, tur, `test_yeni_v2.js`); 6 yol temiz; satır satır ekran denetimi, 6 düzeltme |
-| 6–7 Onay 2, hikâye donar | 10 Eki 18:02 | | sahibi görselsiz oynuyor |
+| 3–4 Diyalog + veri + künye | 10 Eki 17:23 | 10 Eki ~17:33 | doğrulayıcı PASS; künye aracı temiz; bağ: "nikâhtan sonra" +2 (K8) |
+| 5 Görselsiz tur | 10 Eki ~17:33 | 10 Eki 17:44 | araçlar V2'ye açıldı (Cengo kıyafet seti, gri arka plan/kare, tur, `test_yeni_v2.js`); 6 yol temiz; satır satır ekran denetimi, 6 düzeltme |
+| 6–7 Onay 2, hikâye donar | 10 Eki 17:44 | | sahibi görselsiz oynuyor |
 | 8 Görsel listesi + promptlar | | | |
 | 9–10 Görseller, kontrol, yerleştirme | | | |
 | 11 Görselli tur | | | |
