@@ -335,7 +335,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **PERİ [utanmis]:** *(masanın arkasından doğrularak)* Lâl Hanım. Beni sonunda hatırladınız mı? {gir: peri}
 **LÂL [kas]:** Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim. {kime: peri}
 **PERİ [sasirmis]:** Peki neden "Pervin"?
-**LÂL [kas]:** Yüzünü görmek için.
+**LÂL [kas]:** Bir kraliçe unutulunca nasıl bakar, merak ettim.
 *Lâl Hanım kapıda dönüyor.*
 **LÂL [normal]:** Geçen hafta elime bir müzayede kataloğu geçti. İçinde senin tanıyacağın bir şey vardı.
 **PERİ [sasirmis]:** Ne?
