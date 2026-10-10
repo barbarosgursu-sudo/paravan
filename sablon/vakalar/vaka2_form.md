@@ -60,7 +60,7 @@ Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 2 — GELİNLİK".
 | | **Defne** (suçlu) | **Lâl Hanım** (modacı) | **Tolga** (organizatör) |
 |---|---|---|---|
 | Kim | gelin, 29, mimar | atölye sahibi, 60'larında, eski moda dünyasının büyüklerinden; Peri'yi tanıyıp tanımadığı belli olmuyor | düğün organizatörü, 40'larında, kulaklıklı, herkese "canım" der |
-| Şüpheli gösteren iz | provadan sonra yalnız kaldı; kayba üzülmüyor; cuma sabahı "işi var" | Müjgan suçluyor; borçlu, alacaklı kapıda; atölyeyi o kilitledi, anahtar yalnız onda; manken örtülüydü, bakmadı | Defne onu suçluyor (annesiyle kavgalı); telefonda "Cumartesi boşalırsa öbür düğünü oraya alırım"; salı akşamı atölyedeydi |
+| Şüpheli gösteren iz | provadan sonra yalnız kaldı; kayba üzülmüyor; cuma sabahı "işi var" | Müjgan suçluyor; borçlu, alacaklı kapıda; atölyeyi o kilitledi, anahtar yalnız onda; manken örtülüydü, bakmadı | Defne onu suçluyor (annesiyle kavgalı); telefonda "Cumartesi salon boşalırsa sizin düğünü oraya alırım"; salı akşamı atölyedeydi |
 | Aklayan kanıt | — | vale: arka kapıdan çıkan genç bir kadındı, "Lâl Hanım değildi"; Gülsüm: gelinliğe örtü örtülmez → örtü boş mankeni saklamak içindi, gelinlik kilitlemeden önce çıkmıştı (anahtarı olanın örtüye ihtiyacı yok) | vale: 20.15'te ön kapıdan eli boş çıktı; gelinlik 20.30'da bir kadınla çıktı |
 | O gece gerçekte | gelinliği kılıfa koydu, örtüyü örttü, terziye götürdü | yukarıda çalıştı, 21.00'de örtüye bakmadan kilitledi | çiçek rengine baktı, otele döndü (çift rezervasyonu gerçek ama gelinlikle ilgisi yok) |
 | Görünüşü (figür) 🟢 | **yeni:** 29, uzun dalgalı koyu kestane saç, dolgun dudaklar, sakin bakış; üst düğmeleri açık, belde düğümlenmiş ince beyaz ipek gömlek (derin dekolte, karın görünür), vücuda yapışan bej yüksek bel pantolon, ince topuklu sandalet; ince gümüş nişan yüzüğü. Kaçarken yalınayak, gömlek omzundan kaymış | **yeni:** 60'larında, iddialı ve hâlâ çok çekici; kısa gümüş beyazı alagarson saç, kırmızı ruj, kalın siyah çerçeveli gözlük boynunda zincirle; derin V yakalı, vücudu saran siyah kalem elbise, yırtmaçlı, siyah file çorap, siyah stiletto; boynunda küçük gümüş makas kolye | **yeni:** 40'larında, ince, yanları kısa üstü jöleli saç, dar lacivert yelek ve gömlek, tek kulakta kulaklık-mikrofon, elinde tablet |
@@ -79,7 +79,7 @@ Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 2 — GELİNLİK".
 | kurtulus | Kadın taksiciye "Kurtuluş'a, terziye" dedi. | C |
 | defne_sakin | Defne kayba üzülmüyor; gelinlik sorulunca rahat, düğün sorulunca gergin. | D |
 | tolga_kavga | Defne'ye göre Tolga annesiyle kavgalı; düğünü ertelemek istiyor. | D |
-| tolga_telefon | Tolga telefonda: "Cumartesi boşalırsa öbür düğünü oraya alırım." | E |
+| tolga_telefon | Tolga telefonda: "Cumartesi salon boşalırsa sizin düğünü oraya alırım." | E |
 | tolga_gordu | Tolga salı sekizi on geçe atölyeye uğradı: gelinlik mankende, açıktaydı; gelin de içerideydi. | E |
 | defne_cuma | Defne nedime provalarına gelmiyor; nedimelere "cuma sabahı işim var" demiş. | E |
 | terzi_gelinlik | Kurtuluş'ta Sarkis Usta'da Lâl işi bir gelinlik var; salı gece getirilmiş. Kuyruğu kesilip kısaltılacak. | F |
@@ -103,7 +103,7 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E).
 - **B.** Arka avluda Gülsüm çay molasında. Cengo bardağını doldurur. Gülsüm: "Ben gelinliğe örtü örtmem. Tül yapışır, kırk yıllık usul." Sekizde çıkarken gelinlik açıktı. Sabah örtüyü kaldırınca manken çıplaktı; kapı kilitli, cam sağlam. Cengo: "Örtüyü kim örttü o zaman?" Gülsüm omuz silker.
 - **C.** Vale Bülent Cengo'ya borçlu (araba çizdirmiş, Cengo "görmedi"). Salı: Tolga sekizi çeyrek geçe ön kapıdan eli boş çıktı. Sekiz buçukta arka kapıdan kılıflı genç bir kadın, taksi, "Kurtuluş'a, terziye." "Lâl Hanım değildi, onu tanırım." Cengo: "Genç kadın. O akşam atölyede genç kadın kim vardı?" Peri: "Gelin." *(Bağ sahnede söylenir; Defne ekranda görünür hâle gelir.)*
 - **D.** Ersoy'ların salonu. Defne sakin, nazik. Gelinlik sorulunca rahat ("Bulunur"), düğün sorulunca bardağı sıkıyor. Tolga'yı işaret eder: "Annemle kavgalı. Düğünü ertelemek istiyordu." Peri (sonra, Cengo'ya): "Gelinliği kaybeden kadın böyle bakmaz. Düğünü kaybeden bakar."
-- **E.** Otel. Tolga kapıda Cengo'yu görür: "Kuzen sen misin canım? Geç kaldın, sıraya!" Cengo nedimelerin arasında yürür. Tolga telefonda: "Cumartesi boşalırsa öbür düğünü oraya alırım." Sonra Cengo'ya böbürlenir: "Salı akşam gelinliği ben gördüm, sekizi on geçe, çiçek rengi için. Gelin de oradaydı." Nedime: "Defne provaya gelmiyor ki. 'Cuma sabahı işim var' dedi."
+- **E.** Otel. Tolga kapıda Cengo'yu görür: "Kuzen sen misin canım? Geç kaldın, sıraya!" Cengo nedimelerin arasında yürür. Tolga telefonda: "Cumartesi salon boşalırsa sizin düğünü oraya alırım." Sonra Cengo'ya böbürlenir: "Salı akşam gelinliği ben gördüm, sekizi on geçe, çiçek rengi için. Gelin de oradaydı." Nedime: "Defne provaya gelmiyor ki. 'Cuma sabahı işim var' dedi."
 - **F.** Kurtuluş, Sarkis Usta. Peri'yi tanır (kraliçe yılının terzisi değil, ama dergiden). Mankende Lâl işi gelinlik, kuyruğu yarı sökülmüş. "Salı gece getirdiler. Kısa olacak. Cuma sabah sekizde alacaklar; parası peşin." Kim? "Genç bir hanım. Adını sormadım." Fişi olmayana vermez.
 
 ## 7. Kanıt yolları

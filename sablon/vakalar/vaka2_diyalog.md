@@ -171,7 +171,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **NEDİME:** Gelin de provaya gelmiyor ki. "Cuma sabahı işim var, beni beklemeyin" dedi. {kare: K21}
 **PERİ [kas]:** Cuma sabahı.
 *Tolga'nın kulaklığı ötüyor.*
-**TOLGA [normal]:** Canım, cumartesi boşalırsa öbür düğünü oraya alırım. Söz yok, umut var. {gir: tolga}
+**TOLGA [normal]:** Canım, cumartesi salon boşalırsa sizin düğünü oraya alırım. Söz veremem ama umut var. {gir: tolga}
 **CENGO [kas]:** Hangi düğün boşalıyor?
 **TOLGA [sinirli]:** Hiçbiri canım! Lafın gelişi. {kime: cengo}
 **TOLGA [normal]:** Gelinliği ben salı akşamı gördüm. Sekizi on geçe, çiçek rengi için uğradım.
