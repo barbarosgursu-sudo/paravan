@@ -177,7 +177,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **TOLGA [normal]:** Gelinliği ben salı akşamı gördüm. Sekizi on geçe, çiçek rengi için uğradım.
 **TOLGA:** Mankendeydi, açık. Gelin de oradaydı.
 **PERİ [merakli]:** Kaç dakika kaldınız? {gir: tolga}
-**TOLGA:** Beş. Çiçekçi bekliyordu. Hadi canım, bir daha baştan! {kime: peri}
+**TOLGA:** Beş dakika. Aşağıda çiçekçi bekliyordu. {kime: peri}
+**TOLGA:** *(nedimelere dönüp)* Hadi kızlar, bir daha baştan!
 **CENGO [gulen]:** Beni nedimeyle evlendirdiler. {kime: peri}
 
 ## ipucu terzi
