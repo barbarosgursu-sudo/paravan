@@ -10,6 +10,12 @@
 
 ## 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
+- **10 Ekim akşam: Onay 2 tamam, hikâye dondu.** 22 metin notu uygulandı (hepsi diyalogda), soğuk
+  kapanış belirginleşti (+K32). **Adım 8 bitti:** 59 görsel, promptlar `sablon/vakalar/vaka2_gorsel.md`,
+  numaralı referanslar `sablon/vakalar/vaka2_referans/`. **Sırada: sahibi görselleri üretiyor; gelen
+  her görsel → kontrol, kesim (`arac_kes.js`), göm, `gorseller.json` yer_tutucu'dan çıkar, tur.**
+  Geçici "Vaka 2'den başla" düğmesi açık (`VN_VAKA_ATLA`), yayından önce kapanacak.
+
 - **10 Ekim akşam: adım 1–5 bitti.** Form Onay 1 aldı (`vaka2_form.md`; kadın karakterler en çekici
   hâlde). Diyalog `vaka2_diyalog.md`, veri `yeni/game_data.json` V2, künye yazıldı. Araçlar Vaka 2'ye
   açıldı: Cengo kıyafet seti (`cset`), görseli olmayan arka plan/kare gri kutu, tur
