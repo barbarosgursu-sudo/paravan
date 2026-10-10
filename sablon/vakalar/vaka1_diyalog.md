@@ -217,7 +217,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 *Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.* {kare: K11}
 **TEYZE:** O çarşaf yeni yıkandı! {kare: K11}
 **PERİ [sinirli]:** *(çarşafın içinden)* Getireceğim! {kare: K11}
-*Peri çarşafı üstünden atıyor, koşmaya devam ediyor.* {kare: K11c}
+*Peri çarşafı üstünden atıyor, koşmaya devam ediyor.* {kare: K11c, arka: A9}
 *Serkan iskeleye doğru kaçıyor. Peri topuklularıyla ana yoldan koşuyor; ıslak rıhtımda kayıyor ve balıkçıların sabah avıyla dolu kasaların içine oturuyor. Kasa devriliyor, levrekler rıhtıma saçılıyor. Önde koşan Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor.* {kare: K8, arka: A9}
 *Cengo nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın yakasına yapışıyor.* {kare: K12}
 **CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi. {set: balikli}
