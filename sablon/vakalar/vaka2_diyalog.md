@@ -85,7 +85,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **LÂL [kas]:** Siz… Pervin? {gir: lal}
 **PERİ [kas]:** Peri.
 **LÂL [normal]:** Tabii. Pervin. Buyrun canım. Gelinlik mi?
-**PERİ [utanmis]:** Müşteri olarak geldim. Yani… Müjgan Hanım'ın gelinliği için.
+**PERİ [utanmis]:** Gelinlik için geldim. Ben evlenmiyorum… Müjgan Hanım'ın kayıp gelinliği için.
 **LÂL [sinirli]:** Müjgan beni hırsız yaptı, sizi de dedektif.
 **LÂL [sinirli]:** Kapıdaki adamı gördünüz. Kumaşçının adamı. Borcumu öderim; gelinlik çalarak değil.
 **PERİ [normal]:** Dün akşam ne oldu?
