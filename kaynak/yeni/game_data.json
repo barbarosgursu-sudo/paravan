@@ -1557,10 +1557,10 @@
             {
               "k": "lal",
               "i": "normal",
-              "m": "Geçen hafta elime bir müzayede kataloğu geçti. Sana bir şey hatırlatırdı. Neyse.",
-              "cik": true
+              "m": "Geçen hafta elime bir müzayede kataloğu geçti. İçinde senin tanıyacağın bir şey vardı."
             },
-            {"k": "peri", "i": "kas", "m": "Neyi?"},
+            {"k": "peri", "i": "sasirmis", "m": "Ne?"},
+            {"k": "lal", "i": "kas", "m": "Sonra.", "cik": true},
             {"k": "cengo", "i": "normal", "m": "Gitti.", "bag": "dusuk"},
             {
               "k": "not",

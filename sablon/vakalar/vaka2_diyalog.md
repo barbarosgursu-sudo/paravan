@@ -337,8 +337,9 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **PERİ [sasirmis]:** Peki neden "Pervin"?
 **LÂL [kas]:** Yüzünü görmek için.
 *Lâl Hanım kapıda dönüyor.*
-**LÂL [normal]:** Geçen hafta elime bir müzayede kataloğu geçti. Sana bir şey hatırlatırdı. Neyse. {cik}
-**PERİ [kas]:** Neyi?
+**LÂL [normal]:** Geçen hafta elime bir müzayede kataloğu geçti. İçinde senin tanıyacağın bir şey vardı.
+**PERİ [sasirmis]:** Ne?
+**LÂL [kas]:** Sonra. {cik}
 **CENGO [normal]:** Gitti. {bag: dusuk}
 *Cengo kravatını çözüp masaya bırakıyor. Börek tepsisini de yanına koyuyor.* {bag: dusuk}
 **CENGO [normal]:** Takım yarın sahibine döner. İyi akşamlar. {bag: dusuk}
