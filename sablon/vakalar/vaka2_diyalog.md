@@ -195,8 +195,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **SARKİS:** Kuyruğu kesilecek, kısa olacak. Cuma sabah sekizde alacak.
 **PERİ [merakli]:** Kısa mı? Beş yüz kişilik düğüne kısa gelinlik? {gir: sarkis}
 **SARKİS:** Ben dikerim, düğünü sormam. Fişi olana veririm. Size vermem. {kime: peri}
-**CENGO [gulen]:** Biz istemedik ki.
-**PERİ [kas]:** Henüz.
+**CENGO [gulen]:** Zaten bana yakışmazdı.
+**PERİ [kas]:** Kısası da yakışmazdı.
 
 ---
 
