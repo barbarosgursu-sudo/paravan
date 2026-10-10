@@ -49,8 +49,11 @@ verilir; sahibi Onay 2'ye temizlenmiş metinle başlar. Sahibi de notlarını sa
 
 **Toplu görsel işleme (adım 9–10).** Sahibi görselleri tek tek değil, **sohbet sohbet** gönderir
 (bir sohbetin bütün çıktıları, dosya adı ya da sırası prompt numarasıyla: `G2`, `G3`…).
-Ben o paketin hepsini birden işlerim: kes (`arac_kes.js`), saç kenarını temizle, ekranda boyuna
-bak, yazı/harf tara, göm, ilgili satırlarda ekran görüntüsü al. Sahibine paketin **oyundaki son
+Ben o paketin hepsini birden işlerim: `cd kaynak && node arac_paket.js <klasör> --vaka N` önce
+**önizler** (proje dosyasına dokunmaz; temas sayfası `YENI_UI/paket_<klasör>.png`: yeşil zemin +
+büyütülmüş baş), uygunsa aynı komut `--yaz` ile keser/küçültür, gömer, manifestoyu günceller,
+doğrulayıcı ve iki derlemeyi koşar. Araca kalmayan: saç halesi temizliği, yazı/harf taraması,
+boy ayarı (araç boyu olmayan konuğu söyler), ilgili satırlarda ekran görüntüsü (`arac_yeni_tur.js`). Sahibine paketin **oyundaki son
 hâli tek seferde** gösterilir; düzeltme istenen görseller tek listede döner. Temel görseller
 (G1, G14…) bitince öbür sohbetler aynı anda (başka sekmede, ChatGPT ya da Grok) yürüyebilir.
 

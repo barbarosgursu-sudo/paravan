@@ -94,6 +94,12 @@ yüzeyleri yan yana), bu geniş ve sığ (vakanın tamamı akış sırasıyla).
 karakter ekranda zıplar). Profiller ve gerekçeleri `YENI_OYUN_GORSEL_PROMPTLARI.md`
 "KESİM ARACI" başlığında. Test değil, araç.
 
+**Yeni oyunun görsellerini paket hâlinde işlemek için** `cd kaynak && node arac_paket.js <klasör> --vaka N [--yaz]`
+— dosyalar `G<n>` ile başlar; numara `sablon/vakalar/vakaN_gorsel.md` tablosundan tür ve anahtara
+çevrilir. `--yaz` yokken yalnız önizler (temas sayfası `YENI_UI/paket_<klasör>.png`); `--yaz` ile
+keser, gömer, manifestoyu günceller, doğrulayıcı + iki derlemeyi koşar ve eski `index.html`'in
+değişmediğini md5 ile sınar. Saç halesi, yazı taraması ve boy insana kalır. Test değil, araç.
+
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
 kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
