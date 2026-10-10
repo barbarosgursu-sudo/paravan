@@ -107,7 +107,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [gulen]:** Çayınız soğumuş. Tazeleyeyim mi? {gir: gulsum}
 **GÜLSÜM [normal]:** Sen kimsin? {gir: gulsum, kime: cengo}
 **CENGO [normal]:** Kuzen. Gelin tarafından.
-**GÜLSÜM:** Gelin tarafından kuzen olmaz oğlum, ben hepsini diktim. Ama çay iyi olur. {kime: cengo}
+**GÜLSÜM:** Kuzen mi? O ailenin her kuzeninin bel ölçüsünü bilirim. {kime: cengo}
+**GÜLSÜM:** Seninkini bilmiyorum. Çayı koy. {kime: cengo}
 **PERİ [normal]:** Dün akşam çıkarken gelinlik neredeydi?
 **GÜLSÜM:** Mankendeydi, açık. Sekizde ben çıktım. {kime: peri}
 **PERİ [merakli]:** Açık mı? Örtüsüz?
