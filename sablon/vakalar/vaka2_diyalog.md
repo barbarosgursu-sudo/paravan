@@ -52,7 +52,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 *Müjgan Hanım merdivenden iniyor. Kapı yine çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi.
 **CENGO [kas]:** Nereden bildiniz?
-**PERİ [utanmis]:** Hep üç kere çalar.
+**PERİ [utanmis]:** Borçlu, kapıyı sesinden tanır.
 *Peri masanın altına giriyor. Cengo kapıyı açıyor: minyon, kızıl saçlı, kırmızı rujlu bir hanım; elinde örtülü bir tepsi.* {kare: K20}
 **SAADET [normal]:** Peri Hanım yok mu? {gir: saadet, kime: cengo}
 **CENGO [normal]:** Yok. Ben buranın… çalışanıyım.
