@@ -262,7 +262,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [buket]:** Ben tutmadım, o düştü. {kime: peri}
 **DEFNE [itiraf]:** Tamam. Ben aldım. {gir: defne}
 **DEFNE:** Kerem'le evleniyoruz. Cuma sabahı, iki şahitle. Beş yüz kişi değil.
-**DEFNE:** Annem dinlemedi. Gelinlik yoksa düğün ertelenir, dedim.
+**DEFNE:** Annemle konuşmaya çalıştım. "Beş yüz kişiye davetiye gitti, ayıp olur" dedi. Konu kapandı.
+**DEFNE:** Gelinlik olmazsa düğünü erteler, dedim. Ben de o arada cuma sabahı sessizce evlenirim.
 **DEFNE:** Gelinlik Kurtuluş'ta, bir terzide. Kuyruğunu kestiriyorum. Gelinliği seviyorum; gösteriyi sevmiyorum.
 **CENGO [yumusak]:** Gösteriyi kimse sevmez.
 *Garson Peri'ye bir masa örtüsü uzatıyor; Peri örtüye sarınıyor. Cengo parmağındaki kremayı tadıyor.* {kare: K26, set: ortulu}
