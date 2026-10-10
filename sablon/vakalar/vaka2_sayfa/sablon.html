@@ -1,0 +1,158 @@
+<title>Vaka 2 Görselleri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Shrikhand&display=swap">
+<style>
+/* Düzen: tek sütun iş listesi; sohbet başlıkları bölüm, her görsel bir iş kartı. Oyunun kâğıt-mürekkep dili. */
+:root{
+  --kagit:#f4ecdc; --kart:#fffaf0; --murekkep:#1f2a33; --soluk:#5d6870; --cizgi:#d9ccb2;
+  --zumrut:#0f6b52; --zumrut-acik:#d7ece3; --tamam:#2f7d4f;
+  --baslik:"Shrikhand",Georgia,serif; --govde:"Nunito",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --kagit:#161d22; --kart:#1f282f; --murekkep:#eee6d6; --soluk:#a7b0b6; --cizgi:#36434c;
+  --zumrut:#54c39d; --zumrut-acik:#1d3a31; --tamam:#6fcf95; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --kagit:#161d22; --kart:#1f282f; --murekkep:#eee6d6; --soluk:#a7b0b6; --cizgi:#36434c;
+  --zumrut:#54c39d; --zumrut-acik:#1d3a31; --tamam:#6fcf95; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--kagit);color:var(--murekkep);font-family:var(--govde);font-size:16px;line-height:1.5;padding-inline:16px;padding-block:20px 60px}
+.kap{max-width:680px;margin:0 auto;display:grid;gap:22px}
+h1{font-family:var(--baslik);font-weight:normal;font-size:2rem;line-height:1.1;margin:0;text-wrap:balance}
+.alt{color:var(--soluk);margin:4px 0 0}
+.ilerleme{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--kagit);padding-block:10px;display:flex;align-items:center;gap:12px;border-bottom:2px solid var(--murekkep)}
+.cubuk{flex:1;height:10px;border:2px solid var(--murekkep);border-radius:6px;overflow:hidden}
+.cubuk i{display:block;height:100%;background:var(--zumrut);width:0;transition:width .3s}
+.sayi{font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}
+.nasil{background:var(--kart);border:2px solid var(--murekkep);border-radius:14px;padding:14px 16px;box-shadow:4px 4px 0 var(--murekkep)}
+.nasil ol{margin:6px 0 0;padding-left:20px;display:grid;gap:4px}
+.nasil b{font-weight:800}
+section{display:grid;gap:12px}
+section>h2{font-family:var(--baslik);font-weight:normal;font-size:1.35rem;margin:6px 0 0;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+section>h2 small{font-family:var(--govde);font-size:.85rem;color:var(--soluk);font-weight:700}
+.not{font-size:.9rem;color:var(--soluk);margin:-6px 0 0}
+.kart{background:var(--kart);border:2px solid var(--cizgi);border-radius:14px;padding:14px;display:grid;gap:10px;min-width:0}
+.kart.bitti{border-color:var(--tamam);opacity:.72}
+.ust{display:flex;gap:10px;align-items:flex-start;justify-content:space-between}
+.ust h3{margin:0;font-size:1.05rem;font-weight:800;min-width:0}
+.ust h3 span{display:inline-block;background:var(--murekkep);color:var(--kart);border-radius:6px;padding:0 7px;margin-right:6px;font-variant-numeric:tabular-nums}
+.anahtar{font-size:.8rem;color:var(--soluk);font-family:ui-monospace,Menlo,monospace}
+.yapildi{display:flex;align-items:center;gap:6px;font-weight:800;font-size:.9rem;white-space:nowrap;cursor:pointer;min-height:44px}
+.yapildi input{width:22px;height:22px;accent-color:var(--zumrut)}
+.refler{display:grid;gap:8px}
+.ref{display:flex;gap:10px;align-items:center;min-width:0}
+.ref img{width:56px;height:70px;object-fit:cover;border-radius:6px;border:1px solid var(--cizgi);flex-shrink:0;background:var(--kagit)}
+.ref .yer{width:56px;height:70px;border-radius:6px;border:2px dashed var(--zumrut);display:grid;place-items:center;font-weight:800;color:var(--zumrut);flex-shrink:0;font-size:.85rem;text-align:center}
+.ref .ne{flex:1;min-width:0;font-size:.9rem}
+.ref .ne b{display:block;font-weight:800}
+.btn{font:inherit;font-weight:800;border:2px solid var(--murekkep);background:var(--kart);color:var(--murekkep);border-radius:10px;padding:8px 14px;min-height:44px;cursor:pointer}
+.btn.ana{background:var(--zumrut);border-color:var(--zumrut);color:#fff}
+.btn:focus-visible,.yapildi input:focus-visible{outline:3px solid var(--zumrut);outline-offset:2px}
+.dugmeler{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+details summary{cursor:pointer;color:var(--soluk);font-size:.9rem;font-weight:700;min-height:32px}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--kagit);border-radius:8px;padding:10px;font-size:.85rem;margin:6px 0 0;font-family:var(--govde)}
+.bak{font-size:.88rem;background:var(--zumrut-acik);border-radius:8px;padding:6px 10px}
+.durum{font-size:.85rem;color:var(--zumrut);font-weight:800;min-height:1em}
+@media (prefers-reduced-motion:reduce){.cubuk i{transition:none}}
+</style>
+
+<div class="kap">
+  <header>
+    <h1>Vaka 2 Görselleri</h1>
+    <p class="alt">Gelinlik · 59 görsel · ChatGPT ile sırayla</p>
+  </header>
+  <div class="ilerleme" aria-live="polite"><div class="cubuk"><i id="cubuk"></i></div><span class="sayi" id="sayi">0 / 59</span></div>
+  <div class="nasil">
+    <b>Her görsel için:</b>
+    <ol>
+      <li><b>Yazıyı kopyala</b>, ChatGPT'ye yapıştır.</li>
+      <li>Kartta resmi olan referansları <b>indir</b> ve aynı mesaja ekle. "Senin ürettiğin" yazanlar: o sohbette zaten var, eklemen gerekmez; başka sohbettense o görseli ekle.</li>
+      <li>Çıkan resmi Claude'a gönder, kartta <b>Yapıldı</b>'yı işaretle.</li>
+    </ol>
+    <p class="not" style="margin:8px 0 0">Aynı başlık altındaki görseller ChatGPT'de aynı sohbette, yukarıdan aşağı yapılır. Her "Yeni sohbet" ayrı bir sohbet.</p>
+  </div>
+  <main id="liste" class="kap" style="gap:28px"></main>
+</div>
+
+<script>
+/*VERI*/
+const ANAHTAR = "vaka2_gorsel_yapildi";
+let yapildi = {};
+try { yapildi = JSON.parse(localStorage.getItem(ANAHTAR) || "{}"); } catch (e) {}
+const kaydet = () => { try { localStorage.setItem(ANAHTAR, JSON.stringify(yapildi)); } catch (e) {} };
+let indir = null;
+(async () => { try { indir = window.claude && await window.claude.use("downloads"); } catch (e) { indir = null; } })();
+
+function sayac() {
+  const n = Object.values(yapildi).filter(Boolean).length;
+  document.getElementById("sayi").textContent = n + " / 59";
+  document.getElementById("cubuk").style.width = (n / 59 * 100) + "%";
+}
+function el(t, c, h) { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.textContent = h; return e; }
+
+const liste = document.getElementById("liste");
+for (const g of GRUPLAR) {
+  const s = el("section");
+  const h = el("h2", null, g.ad);
+  const yeni = g.ad.startsWith("Yeni sohbet");
+  h.append(el("small", null, g.gorseller.length + " görsel"));
+  s.append(h);
+  if (!yeni && g.gorseller.length > 1) s.append(el("p", "not", "Bu görselleri ChatGPT'de tek bir sohbette, sırayla yap."));
+  for (const v of g.gorseller) {
+    const k = el("article", "kart"); k.id = "g" + v.no;
+    const ust = el("div", "ust");
+    const bas = el("div"); const h3 = el("h3"); const no = el("span", null, "G" + v.no); h3.append(no, document.createTextNode(v.ad));
+    bas.append(h3, el("div", "anahtar", v.anahtar));
+    const lab = el("label", "yapildi"); const cb = el("input"); cb.type = "checkbox"; cb.id = "y" + v.no; cb.checked = !!yapildi[v.no];
+    lab.append(cb, document.createTextNode("Yapıldı"));
+    cb.addEventListener("change", () => { yapildi[v.no] = cb.checked; kaydet(); k.classList.toggle("bitti", cb.checked); sayac(); });
+    k.classList.toggle("bitti", cb.checked);
+    ust.append(bas, lab); k.append(ust);
+
+    const refs = el("div", "refler");
+    v.refs.forEach((r, i) => {
+      const satir = el("div", "ref");
+      const ne = el("div", "ne");
+      if (r.dosya) {
+        const img = el("img"); img.src = "ref/" + r.dosya; img.alt = r.ne; img.loading = "lazy";
+        ne.append(el("b", null, (i + 1) + ". referans"), document.createTextNode(r.ne));
+        const b = el("button", "btn", "İndir"); b.type = "button";
+        const durum = el("div", "durum");
+        b.addEventListener("click", async () => {
+          if (!indir) { durum.textContent = "İndirme bu görünümde yok: resme uzun basıp kaydet."; return; }
+          try {
+            const blob = await (await fetch("ref/" + r.dosya)).blob();
+            await indir.save({ filename: r.dosya, data: blob });
+            durum.textContent = "Kaydedildi";
+          } catch (e) { durum.textContent = e && e.code === "declined" ? "Vazgeçildi" : "Olmadı: resme uzun basıp kaydet."; }
+        });
+        ne.append(durum);
+        satir.append(img, ne, b);
+      } else {
+        const ayni = g.gorseller.some(x => x.no === r.cikti);
+        satir.append(el("div", "yer", "G" + r.cikti));
+        ne.append(el("b", null, (i + 1) + ". referans"), document.createTextNode(
+          ayni ? "Bu sohbette ürettiğin G" + r.cikti + " (" + r.ne + "). Eklemene gerek yok."
+               : "Senin ürettiğin G" + r.cikti + " (" + r.ne + "). Bu mesaja ekle."));
+        satir.append(ne);
+      }
+      refs.append(satir);
+    });
+    k.append(refs);
+
+    const dg = el("div", "dugmeler");
+    const kop = el("button", "btn ana", "Yazıyı kopyala"); kop.type = "button";
+    const kd = el("span", "durum");
+    const det = el("details"); det.append(el("summary", null, "Yazıyı göster")); const pre = el("pre", null, v.metin); det.append(pre);
+    kop.addEventListener("click", () => {
+      navigator.clipboard.writeText(v.metin).then(() => { kd.textContent = "Kopyalandı"; setTimeout(() => kd.textContent = "", 2500); })
+        .catch(() => { det.open = true; const r = document.createRange(); r.selectNodeContents(pre); const s = getSelection(); s.removeAllRanges(); s.addRange(r); kd.textContent = "Seçildi: kopyala'ya bas"; });
+    });
+    dg.append(kop, kd); k.append(dg);
+    if (v.bak) k.append(el("div", "bak", "Bakılacaklar: " + v.bak));
+    k.append(det);
+    s.append(k);
+  }
+  liste.append(s);
+}
+sayac();
+</script>
