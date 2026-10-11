@@ -109,6 +109,21 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
    adım 8'in **çıktısıdır**: `vakaN_gorsel.md` biter bitmez üretilir, yayımlanır, bağlantısı
    sahibine ve `DEVIR.md`'ye yazılır. Sohbet sırası değişirse önce sayfa, sonra belgeler.
 
+7. **Yerel üretim denemesi (11 Ekim 2026; karar verilmedi, sürüyor).** Amaç: ret/limit yok, gece
+   otomatik üretim, Claude üretir-denetler-yeniden dener, sahibi sabah toplu onaylar.
+   - Donanım: sahibinin dizüstü HP Omen, GTX 1060 Max-Q **6 GB**, 16 GB RAM, Win 10. Sınırda ama çalışıyor.
+   - Kurulum: Stable Diffusion WebUI **Forge** (tek tık paketi, CUDA 12.1) → `C:\forge`; NVIDIA 582.78.
+   - Model: **DreamShaper XL Lightning DPM++ SDE** (civitai 112902). Lisans CreativeML Open RAIL++-M
+     (çıktı üzerinde hak iddia edilmiyor; ticari kullanım yasağı yok). Ayar: 6 adım, CFG 2, DPM++ SDE,
+     Karras, 832×1216, UI = xl.
+   - Tuzaklar: canlı önizleme GitHub'dan dosya indirmeye çalışıp "getaddrinfo failed" verdi → Settings →
+     Live previews kapat, yöntem "Approx cheap". **GPU Weights 5119 → 4096** süreyi 4 dk 35 sn'den
+     1 dk 25 sn'ye indirdi (bellek %100 → %87).
+   - Karakter tutarlılığı: ControlNet Unit 0 → IP-Adapter (`ip-adapter-plus_sdxl_vit-h`, preprocessor
+     CLIP-ViT-H) + G1 referansı. Weight 0.7: G1'e çok benzer ama fotoğrafa kayar; **0.5: hem benzer hem
+     boyalı**, 1 dk 47 sn. (İlk çalıştırma kodlayıcıyı indirdiği için 14 dk.)
+   - Sıradaki: Peri/Cengo için LoRA (bulutta bir kez, ~1–2 $), sonra gece betiği (Forge API).
+
 **Prompt kalıbı (sırasıyla):**
 1. Kimlik: "Referanstaki kişinin AYNISI…"
 2. Kadraj: ölçek, kesim, baş yüksekliği
