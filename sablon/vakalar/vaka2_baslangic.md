@@ -53,6 +53,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K19 | G46 | 11 Eki 13:38 | | 11 Eki 13:46 | Cengo eksikti (metin "Cengo kravatına bakıyor") → bir düzeltme |
 |   K20 | G47 | | | 11 Eki 13:55 | ilk hâlde masanın açık yüzü kapıya bakıyordu (Saadet Peri'yi görürdü) → kamera masanın arkasına alındı, ön panel kapalı |
 |   K21 | G48 | | | 11 Eki 14:02 | düzeltme yok; 6 kişi, eller doğru |
+|   K22 | G49 | | | 11 Eki 14:09 | düzeltme yok |
 
 **Ara 4:** 11 Ekim 12:56'te Sohbet 7 (Atölye) bitince ara verildi (sahibi). Ara toplama girmez; sahibi başladığını haber verince süre yeniden başlar. Süre 13:12'te yeniden başladı.
 
