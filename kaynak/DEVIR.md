@@ -28,9 +28,10 @@ kuralları** · 5. `sablon/5_gorsel_sistemi.md` E–F (kontrol listesi, kesim) �
 
 ### Sahibinin iş sayfası
 Görsel iş listesi (59 prompt, kopyala/indir/Yapıldı): https://claude.ai/artifact/DhL2uDY7LHzMLqo8FQ5fXQ
-Üreticisi `sablon/vakalar/vaka2_sayfa/uret.py`. Sohbet sırası: 1 Peri (G1–13) · 2 Cengo (G14–18) ·
+Üreticisi `sablon/vakalar/vaka2_sayfa/uret.py`. Sohbet sırası (iş sayfası): 1 Peri (G1–13) · 2 Cengo (G14–18) ·
 3 Müjgan (G19–21) · 4 Defne (G22–25) · 5 Lâl (G26–28) · 6 Tolga (G29–30) · tekli konuklar
-(G31–34) · 7 Atölye ve öbür mekânlar (G35–45) · kareler en son (G46–59, figür ve mekânları referans alır).
+(G31–34, her biri ayrı) · 7 Atölye (G35–37, G44) · 8 Otel (G40–42) · 9 Terzi (G43, G45) · Sokak (G38) ·
+Salon (G39) · kareler en son (G46–59, her biri ayrı sohbet).
 
 ### Paket gelince ne yapılır (her sohbet için aynı)
 Sahibi dosyaları **ChatGPT'nin verdiği adla** gönderir ve "Sohbet 1, G1–G13" yazar.
@@ -61,9 +62,9 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
 ### ⏸ Ara (11 Eki 12:56) — KALDIĞIN YER
-Gömülü: G1–G12, G14–G37, G44. Açık: **G13** (yerinde geçici G12). Sırada Sohbet 7'nin kalanı:
-**G38–G43, G45** — G40 (→ G41, G42) ve G43 (→ G45) önce tek tek gönderilir, onaylanınca türeyenler;
-G38, G39 bağımsız. Sonra **kareler G46–G59**. Sahibi başladığını haber verince saati
+Gömülü: G1–G12, G14–G37, G44. Açık: **G13** (yerinde geçici G12). **Sohbet sırası iş sayfasındakidir** (`vaka2_sayfa/veri.js`), bu belgenin eski
+"7 = G35–G45" listesi değil: 7 Atölye (G35–37, G44) ✓ · **8 Otel (G40 → G41, G42)** · 9 Terzi
+(G43 → G45) · Sokak (G38) · Salon (G39) · her kare ayrı sohbet. Sonra **kareler G46–G59**. Sahibi başladığını haber verince saati
 `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
 `arac_yeni_tur.js 0 defne dogru` yolu yok.
 
@@ -129,10 +130,10 @@ sırasından değil görselden doğrula**. Yeni profil **`konuk_beyaz`** (beyaz 
 komşu, zemine <32 uzak pikseller 8 tur aşındırıldı. Mezuralarda çentik/rakam benzeri işaretler var;
 mezuranın doğası, oyun boyutunda okunmuyor — kabul.
 
-### Sohbet 7 (mekânlar) — kısmen gömüldü (11 Eki 12:46)
+### Sohbet 7 (Atölye) — gömüldü (11 Eki 12:46)
 G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) düzeltilip gömüldü (12:49):** ilk hâlinde örtüyü kaldıran el siyah uzun kollu ve
 kolunda toplu iğneler — Lâl'in kıyafetini çağrıştırıyor; oysa satır Gülsüm'ün ("Sabah geldim…
-Kaldırdım: çıplak", ipucu gulsum). Düzeltme: dolgun çıplak kol, kısa kollu siyah tişört, gri önlük (Gülsüm). **Gelmedi:** G38–G43, G45.
+Kaldırdım: çıplak", ipucu gulsum). Düzeltme: dolgun çıplak kol, kısa kollu siyah tişört, gri önlük (Gülsüm).
 
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
