@@ -25,7 +25,7 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | 5 Görselsiz tur | 10 Eki ~17:33 | 10 Eki 17:44 | araçlar V2'ye açıldı (Cengo kıyafet seti, gri arka plan/kare, tur, `test_yeni_v2.js`); 6 yol temiz; satır satır ekran denetimi, 6 düzeltme |
 | 6–7 Onay 2, hikâye donar | 10 Eki 17:44 | 10 Eki 19:40 | 22 metin notu (hepsi bulanık replik; hikâye değişmedi); soğuk kapanış belirginleşti (+K32); geçici "Vaka 2'den başla" düğmesi |
 | 8 Görsel listesi + promptlar | 10 Eki 19:40 | 10 Eki 19:44 | 59 görsel, `vaka2_gorsel.md`; 29 referans `vaka2_referans/` |
-| 9–10 Görseller, kontrol, yerleştirme | (yeni pencere) | | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
+| 9–10 Görseller, kontrol, yerleştirme | 11 Eki 09:17 (TSİ) | | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
 | 11 Görselli tur | | | |
 | 12–13 Onay 3, düzeltmeler | | | |
 | 14 Vaka donar | | | |
@@ -38,7 +38,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 
 | sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
 |---|---|---|---|---|---|
-| 1 Peri | G1–G13 | | | | |
+| 1 Peri | G1–G13 | 11 Eki 09:17 | | | |
 | 2 Cengo | G14–G18 | | | | |
 | 3 Müjgan | G19–G21 | | | | |
 | 4 Defne | G22–G25 | | | | |
