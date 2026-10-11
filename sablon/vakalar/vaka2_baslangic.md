@@ -48,6 +48,8 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 7 mekânlar, detay | G35–G45 | 11 Eki 12:34 | 11 Eki 12:44 (yalnız G35–37, G44) | 11 Eki 12:46 (G35–37) | G35 önce ayrı kontrol. G44: siyah uzun kol Lâl'i çağrıştırıyordu (satır Gülsüm'ün) → bir düzeltme, 12:49'te gömüldü. G38–43, G45 gelmedi |
 | kareler | G46–G59 | | | | |
 
+**Ara 4:** 11 Ekim 12:56'te Sohbet 7'nin ortasında (G35–37, G44 gömülü; G38–43, G45 bekliyor) ara verildi (sahibi). Ara toplama girmez; sahibi başladığını haber verince süre yeniden başlar.
+
 **Ara 3:** 11 Ekim 11:39'te Sohbet 4 bitip Sohbet 5'ten (Lâl) önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 5'e başlıyorum" deyince süre yeniden başlar. Süre 11 Oct 12:01'te yeniden başladı.
 
 **Ara 2:** 11 Ekim 10:23'te Sohbet 1 bitip Sohbet 2'den önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 2'ye başlıyorum" deyince süre yeniden başlar. Süre 11 Ekim 10:54'te yeniden başladı.
