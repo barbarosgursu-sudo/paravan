@@ -104,6 +104,11 @@ koyu saça komşu, zemine <30 uzak opak pikseller silindi (boyun altında yalnı
 Boy: `defne` 0.80. Not: `arac_yeni_tur.js 0 defne dogru` yolu yok ("dogru sonucu verecek seçim
 yok"); `defne zayif` çalışıyor.
 
+### ⏸ Ara (11 Eki 11:39) — kaldığın yer
+Sohbet 1–4 gömüldü (G1–G12, G14–G25). Açık: **G13** (yerinde geçici G12). Sırada **Sohbet 5: Lâl
+(G26–G28)** — sahibi G26'yı önce tek gönderir, onaylanınca G27–28. Sahibi "Sohbet 5'e başlıyorum"
+deyince saati `vaka2_baslangic.md` §1 tablosuna yaz.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı

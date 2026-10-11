@@ -48,6 +48,8 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 7 mekânlar, detay | G35–G45 | | | | |
 | kareler | G46–G59 | | | | |
 
+**Ara 3:** 11 Ekim 11:39'te Sohbet 4 bitip Sohbet 5'ten (Lâl) önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 5'e başlıyorum" deyince süre yeniden başlar.
+
 **Ara 2:** 11 Ekim 10:23'te Sohbet 1 bitip Sohbet 2'den önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 2'ye başlıyorum" deyince süre yeniden başlar. Süre 11 Ekim 10:54'te yeniden başladı.
 
 **Ara:** 10 Ekim 19:44'te ara verildi (sahibi). Ara süresi toplama girmez; yeniden başlanınca saat yazılır. Aradan sonra 19:54'te G1'in (Peri, tayyör) promptu ve referansları sahibine verildi; sahibinin isteğiyle **süreden sayılmaz**. Toplu görsel işleme aracının (`kaynak/arac_paket.js`) yazımı da sahibinin isteğiyle **süreden sayılmaz**; kalan 59 görsel bu araçla, paket paket işlenir.
