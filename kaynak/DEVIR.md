@@ -60,6 +60,22 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
+### Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,…,G13=peri_beyaz --genis G3,G8 --yaz`
+(dosyalar sahibinden `G1.png…` adıyla geldi, `--sira`sız). Öğrenilenler — sonraki paketler için:
+- **G1 boydan (ayakkabıya kadar) geldi**; öbürleri uyluk ortasından. Ölçek 1.58 kat küçüktü → G1 elle
+  kırpılıp 1122×1402'ye büyütüldü (baş tepesi/etek ucu aralığı G2–G7 ile eşlendi). Temel görselin
+  kadrajı tutmazsa önce bunu ölç: baş tepesi–etek ucu aralığı setle aynı mı?
+- **`peri_beyaz` profili** (`arac_kes.js`): beyaz krema ve masa örtüsü `peri` profilinde zeminle
+  birlikte siliniyordu (kenar tol 28, hale tol 60). Yeni profil: kenar 8, hale 20, delik tol 5, zemin
+  rengi kenardan 40 px içeriden okunur (bu üreticinin kenar sütunları ~5 birim açık; dar tolde
+  zemini parça parça bırakıyordu). Beyaz giysili her Peri setinde bunu kullan.
+- **Krema rengi zemine ~6 birim uzak** → renkle genel hale temizliği kremayı yer. G10–13'te topuz
+  altı / boyun yanındaki zemin cebi yalnız küçük bir kutuda (sprite x 235–345, y 88–170) silindi.
+- **Grok çıktısı** 912×1136 geldi; araç 1122×1402'ye büyüttü, ölçek ve parlaklık setle tuttu.
+- Sahibine sorulacak beğeni noktaları (hata değil): G2–G7'de yüze düşen tutam ("tek tutam bile
+  düşmüyor" denmişti); G8–G13'te çorabın üst bandı görünüyor, G9'da etek kaldırılmış.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı

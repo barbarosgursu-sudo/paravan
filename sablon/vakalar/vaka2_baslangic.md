@@ -38,7 +38,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 
 | sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
 |---|---|---|---|---|---|
-| 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | | bir kısmı Grok'ta üretildi (ChatGPT üretmedi) |
+| 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | 11 Eki 10:00 | G8–G9 Grok'ta (912×1136, araç büyüttü; ölçek tuttu). G1 boydan geldi → elle kırpıldı. Krema/örtü için `peri_beyaz` kesim profili eklendi. G10–13 boyun cebi elle temizlendi. Düzeltme promptu gerekmedi |
 | 2 Cengo | G14–G18 | | | | |
 | 3 Müjgan | G19–G21 | | | | |
 | 4 Defne | G22–G25 | | | | |

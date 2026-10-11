@@ -1,7 +1,7 @@
 // ARAÇ (test değil): yeni oyunun karakter görselini (düz bej arka planlı) keser —
 // arka planı saydam yapar, sabit çerçeveyle kırpar, 700 px yüksekliğe indirip WebP yazar.
 // Kullanım:
-//   cd kaynak && node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo [--genis] [--onizleme <dosya.png>]
+//   cd kaynak && node arac_kes.js <girdi.png> <cikti.webp> --profil peri|saten|cengo|peri_beyaz [--genis] [--onizleme <dosya.png>]
 //
 // Neden sabit çerçeve: bütün ifadeler AYNI çerçeveyle kesilmezse ekranda ifade değişince
 // karakter büyüyüp küçülür, zıplar. Çerçeve karakter başına bir kere seçilir (profil).
@@ -15,6 +15,7 @@
 //   hilmi  x 0–1085   · delik doldurma kapalı (beyaz gömlek); kaynak 1086×1448
 //   kemal  x 0–1121   · delik doldurma tol 10 (14 önlükteki boya damlasını yer); kaynak 1122×1402
 //   konuk  = kemal (1122×1402 gelen yeni konuklar: Serkan G3/G4)
+//   peri_beyaz  peri çerçevesi · delik kapalı · kenar tol 8, hale tol 20, zemin 40 px içeriden (krema, beyaz örtü)
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
 //           standart kutuya hizalanıp taşar. Araç gereken CSS'i basar.
@@ -34,6 +35,11 @@ const PROFILLER = {
   kemal: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
   // Yeni konuklar (Serkan 9 Ekim'den sonra): aynı 1122×1402 çerçeve.
   konuk: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
+  // Peri, zemine yakın beyaz taşıyan set (Vaka 2: krema, masa örtüsü): peri çerçevesi,
+  // delik doldurma kapalı, kenar ve hale toleransı dar (28/60 beyazı zeminle birlikte yer).
+  // refIc: zemin rengi kenardan 40 px içeriden okunur — bu üreticinin kenarları ~5 birim
+  // daha açık, dar toleransta o fark zemini parça parça bırakıyordu (G13).
+  peri_beyaz: { x0: 120, x1: 1034, kenarTol: Number(process.env.KENAR_BEYAZ || 8), delik: process.env.DELIK_BEYAZ !== "0", delikTol: Number(process.env.DELIKTOL_BEYAZ || 5), yenidenTol: 0, haleTol: Number(process.env.HALE_BEYAZ || 20), refIc: 40, aynali: true },
 };
 
 const arg = process.argv.slice(2);
@@ -60,7 +66,7 @@ const P = { ...PROFILLER[profilAd] };
     const x = cv.getContext('2d'); x.drawImage(i, 0, 0);
     const im = x.getImageData(0, 0, W, H), a = im.data;
     // Arka plan rengi satır satır kenardan okunur (hafif degradeye dayanır).
-    const ref = (px, py) => { const k = (py * W + (px < W / 2 ? 2 : W - 3)) * 4; return [a[k], a[k + 1], a[k + 2]]; };
+    const ri = P.refIc || 2; const ref = (px, py) => { const k = (py * W + (px < W / 2 ? ri : W - 1 - ri)) * 4; return [a[k], a[k + 1], a[k + 2]]; };
     const dist = (k, c) => Math.hypot(a[k] - c[0], a[k + 1] - c[1], a[k + 2] - c[2]);
     const bg = new Uint8Array(W * H);
     const komsu = n => [n - 1, n + 1, n - W, n + W];
@@ -83,7 +89,7 @@ const P = { ...PROFILLER[profilAd] };
       }
     }
     // 3) hale aşındırma: arka plana komşu ve arka plana yakın pikseller (3 tur)
-    for (let t = 0; t < 3; t++) { const yeni = []; for (let n = W; n < W * H - W; n++) { if (bg[n] || !(bg[n - 1] || bg[n + 1] || bg[n - W] || bg[n + W])) continue; if (dist(n * 4, ref(n % W, (n / W) | 0)) < 60) yeni.push(n); } for (const n of yeni) bg[n] = 1; }
+    for (let t = 0; t < 3; t++) { const yeni = []; for (let n = W; n < W * H - W; n++) { if (bg[n] || !(bg[n - 1] || bg[n + 1] || bg[n - W] || bg[n + W])) continue; if (dist(n * 4, ref(n % W, (n / W) | 0)) < (P.haleTol || 60)) yeni.push(n); } for (const n of yeni) bg[n] = 1; }
     // 3b) kırıntı temizliği: ana gövdeye bağlı olmayan küçük opak adacıklar (sıkı kenar
     // toleransında arka plandan kalan lekeler) silinir. Gövdenin %2'sinden küçük olan gider.
     let kirinti = 0;
