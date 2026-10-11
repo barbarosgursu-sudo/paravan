@@ -41,7 +41,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | 11 Eki 10:00 | G8–G9 Grok'ta (912×1136, araç büyüttü; ölçek tuttu). G1 boydan geldi → elle kırpıldı. Krema/örtü için `peri_beyaz` kesim profili eklendi. G10–13 boyun cebi elle temizlendi. Sonra sahibi çorap bandını kaldırttı: G8–G12 Grok'ta yeniden (bantsız) gömüldü; **G13 açık** (limit), yerine geçici G12 |
 | 2 Cengo | G14–G18 | 11 Eki 10:54 | 11 Eki 11:05 | 11 Eki 11:08 | hepsi ChatGPT; G14 önce ayrı kontrol edildi. G15–G16'da beyaz yaka ucu zeminle gidiyordu → `cengo_beyaz` profili. Saç halesi baş kutusunda elle. Düzeltme promptu gerekmedi |
 | 3 Müjgan | G19–G21 | 11 Eki ~11:08 (Sohbet 2 bitince; ayrıca bildirilmedi) | 11 Eki 11:20 | 11 Eki 11:23 | G19 önce ayrı kontrol: saç bal-kumraldı, metin "platin" diyor → bir düzeltme. G21'de sola uzanan el satırın zemin örneğini bozdu → `konuk_sag` profili. Boy 0.82 (uzun boylu) |
-| 4 Defne | G22–G25 | 11 Eki 11:25 | | | |
+| 4 Defne | G22–G25 | 11 Eki 11:25 | 11 Eki 11:32 | 11 Eki 11:38 | G22 önce ayrı kontrol; düzeltme yok. Koyu saçın kıvrımındaki bej hale elle (ten korunarak; ilk denemede G24'ün göz akı da gidiyordu). Boy 0.80 |
 | 5 Lâl | G26–G28 | | | | |
 | 6 Tolga | G29–G30 | | | | |
 | tekli konuklar | G31–G34 | | | | |

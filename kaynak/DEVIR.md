@@ -97,6 +97,13 @@ yerine ten okunuyor ve elin hizasında ince bir zemin çizgisi kalıyordu (G21).
 okunur. El SAĞ kenara uzanırsa tersini düşün. Platin saçın kenarı biraz tırtıklı — kabul edildi.
 Boy: `mujgan` 0.82.
 
+### Sohbet 4 (Defne, G22–G25) — gömüldü (11 Eki 11:38)
+Varsayılan `konuk` profili beyaz gömleği ve bej pantolonu temiz kesti. Koyu kıvırcık saçta bej hale:
+koyu saça komşu, zemine <30 uzak opak pikseller silindi (boyun altında yalnız dış kenar). **Ten
+çevresi korunmalı** — korumasız ilk denemede G24'ün göz akı (zemine yakın, kirpiğe komşu) da gitti.
+Boy: `defne` 0.80. Not: `arac_yeni_tur.js 0 defne dogru` yolu yok ("dogru sonucu verecek seçim
+yok"); `defne zayif` çalışıyor.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı
