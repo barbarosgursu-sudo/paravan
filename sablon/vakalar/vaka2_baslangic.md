@@ -64,6 +64,8 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K30 | G57 | | | 11 Eki 15:43 | düzeltme yok |
 |   K31, K32 | G58, G59 | | | 11 Eki 15:52 | düzeltme yok (K32'de tepsi örtüsü çizgili, K20'de dantelli — küçük fark, kabul) |
 
+**Ara 7:** 11 Ekim 15:55'te K32'den sonra gün kapandı (sahibi). Kalan G13 ve K23 yarın Grok'ta. Ara toplama girmez.
+
 **Ara 6:** 11 Ekim 15:07'te K28'den sonra ara verildi (sahibi). Ara toplama girmez. Süre 11 Oct 15:34'te (K29) yeniden başladı.
 
 **Ara 5:** 11 Ekim 14:15'te K22'den sonra gün kapandı (sahibi). Ara toplama girmez. Süre 11 Oct 14:40'te (K24) yeniden başladı.
