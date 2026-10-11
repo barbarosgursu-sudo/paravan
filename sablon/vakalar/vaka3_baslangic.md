@@ -23,6 +23,11 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   kopyalanıp `vaka3_sayfa/` yapılır, `uret.py`'deki liste Vaka 3'e göre yazılır, sayfa
   yayımlanır ve bağlantısı sahibine verilir. Sahibi sohbetleri sayfanın sırasıyla yürütür;
   süre tablosu ve `DEVIR.md` de o sırayı kullanır. Ayrıntı: `5_gorsel_sistemi.md` D-6.
+- **Temel görsel önce, tek başına; türevler onaydan sonra.** Ayrıca Vaka 2'nin bütün görsel
+  dersleri (kıyafet sabiti kayması, külotlu çorap, sayı, şehir, marka izi, kalabalıkta kişi
+  düşmesi, kim kimi görüyor, red) `5_gorsel_sistemi.md` D (bilinen hatalar tablosu), E (kontrol
+  listesi 10–12) ve F'de (kesim profilleri, hale, rötuş sınırı). Prompt yazarken D tablosundaki
+  önlemler promptlara baştan konur.
 - **Görsel sorunu anında söylenir (11 Ekim, Vaka 2 Sohbet 1 dersi).** Sahibi üretim sırasında bir
   sorun görürse (fazla ayrıntı, tutarsız kıyafet, el, yazı) o an yazar — özellikle sonraki
   görsellere **referans olacak** görselde (temel: G1, ilk kremalı, ilk örtülü vb.). Hata referansta

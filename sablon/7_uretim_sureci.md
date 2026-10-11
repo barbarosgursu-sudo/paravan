@@ -47,6 +47,13 @@ sorulur — CLAUDE.md çalışma kuralı). Bulunanlar ve yapılanlar sahibine **
 verilir; sahibi Onay 2'ye temizlenmiş metinle başlar. Sahibi de notlarını sahne sahne,
 **toplu** verir.
 
+**Temel görsel önce, tek başına (Vaka 2'nin asıl hızlandırıcısı).** Her sohbette sahibi önce temel
+görseli (G1, G14, G19…; mekânda G35, G40, G43) **tek** gönderir; ben kontrol listesinden geçirip
+"doğru, devam" ya da düzeltme promptu veririm; onaydan sonra türevler üretilir. Vaka 2'de bunu
+yapmayan Sohbet 1 (G8'deki çorap bandı G9–G13'e yayıldı) 64 dk sürdü; yapan sohbetler görsel başına
+3–5 dk. Sahibi görselleri sohbete **doğrudan yapıştırır**; numarayı ben veririm (dosya adı gerekmez).
+Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır.
+
 **Toplu görsel işleme (adım 9–10).** Sahibi görselleri tek tek değil, **sohbet sohbet** gönderir
 (bir sohbetin bütün çıktıları). Dosyalar **ChatGPT'nin verdiği adla** kalır; sahibi yalnız hangi
 numaralar olduğunu yazar ("Sohbet 1, G1–G13") ve araç `--sira G1-G13` ile dosya adındaki üretim

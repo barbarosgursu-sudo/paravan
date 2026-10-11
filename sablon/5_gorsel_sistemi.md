@@ -135,6 +135,15 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 | istenmeyen nesne çıkar | nesneleri tek tek say, açık uçlu liste yok |
 | "görünmesin" yanlış çizilir | kadraj dışında bırak, silme |
 | ölçek kayar | temel görseli 1. referans ver |
+| **kıyafet sabiti kayar** (ayakkabı yeşil, saç kumral) — Vaka 2 K24, G19 | her türev ve karede sabitleri tek tek yeniden yaz ("kırmızı stiletto", "platin saç"); referansa güvenme |
+| **istenmeyen giysi ayrıntısı** (çorap üst bandı) — Vaka 2 G8–G13 | bacak görünen her kadın görselinde: "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor" |
+| **sayı kayar** (beş katlı pasta dört çıktı) — G40 | sayıyı büyük harfle ve parantezle tekrarla: "BEŞ katlı (dört değil)" |
+| **manzara başka şehir** (Lizbon, Paris çatıları) — G35, G39 | pencere görünen mekânda: "pencereden İstanbul: eski apartmanlar, uzakta minare / Boğaz" |
+| **marka izi** (gözlük sapı, buzdolabı levhası, kürsü rozeti) — G26–28, G42, G38 | "yazı yok" yetmiyor: üreticinin markalı yaptığı nesnede ("markasız, rozetsiz") yaz; gelince büyütüp tara |
+| **kalabalık karede kişi düşer** (K19'da Cengo yok) — K19 | kare promptunda kişi sayısını yaz ("kadrajda TAM üç kişi: …"); gelince metindeki kare satırıyla say |
+| **kim kimi görüyor** bozulur (masanın açık yüzü kapıya) — K20 | saklanma/gizlilik karesinde kamerayı ve engeli tarif et ("kamera masanın arkasında, ön panel kapalı") |
+| **kıyafet başka karakteri çağrıştırır** (siyah uzun kol = Lâl) — G44 | detay karede elin sahibinin kıyafetini yaz (Gülsüm: kısa kollu tişört, gri önlük); şüpheliyle karışmasın |
+| **reddedilir** ("sahtekârlık" kalıbı) — K23 | asıl sebep çoğu zaman "seksi / bacaklar havada / etek" sözcükleri; önce aynı promptla öbür üreticide (Grok) dene, sahibi istemedikçe yumuşatma |
 
 ## E. Kontrol listesi (gelen her görsel)
 
@@ -147,6 +156,10 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 7. Çekicilik seviyesi kurala uygun mu?
 8. Hak edilmemiş bir bilgi gösteriyor mu?
 9. Metindeki satırla uyuşuyor mu?
+10. **Metindeki kare/sahne satırında adı geçen herkes var mı?** (`vakaN_diyalog.md` → `{kare: Kn}`)
+11. **Mekân doğru şehir mi, nesne sayısı (kat, kişi) doğru mu?**
+12. **Gelen görselin numarasını mesaj sırasından değil görselden doğrula** (Vaka 2 konuklarında
+    3. ve 4. ters gelmişti).
 
 ## F. Kesim ve yerleştirme
 
@@ -159,6 +172,21 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
   Yeşil önizlemede başı büyütüp bak; hale varsa yalnız **baş kutusunda** temizle. Kır saçta dikkat
   (saçı da siler); **gümüş/beyaz nesneler** (balık, tel, kâğıt, pul) temizlikte silinebilir —
   kutunun dışında bırak, sonra büyütüp var mı bak. Siyah saçta açık şerit kalır → kenarı koyulaştır.
+- **Kesim profilleri** (`arac_kes.js`; `arac_paket.js --profil G<n>=<profil>`), Vaka 2'de eklenenler:
+  - `peri_beyaz` / `cengo_beyaz` / `konuk_beyaz`: zemine yakın beyaz taşıyan görsel (krema, masa
+    örtüsü, beyaz gömlek). Varsayılan profil (kenar tol 28, hale 60, delik doldurma) beyazı zeminle
+    birlikte yer. Bu profiller kenar 8–10, hale 20–25, delik kapalı ve zemin rengini kenardan
+    40 px içeriden okur (üreticinin kenar sütunları birkaç birim açık çıkıyor).
+  - `konuk_sag`: el ya da kol **sol kenara** uzanıyorsa. Araç zemin rengini satırın sol kenarından
+    okur; orada parmak varsa o satırda ince bir zemin çizgisi kalır. Bu profil sağdan okur.
+- **Temel görselin ölçeğini ölç** (baş tepesi ile etek ucu arası setle aynı mı). Vaka 2 G1 boydan
+  gelmişti → kırpılıp 1122×1402'ye getirildi. Grok 912×1136 verir; araç büyütür, ölçek tutar.
+- **Hale temizliği yöntemi:** koyu saçta, koyu saça komşu ve zemine <30 uzak opak pikseller silinir;
+  **ten çevresi korunur** (korumasız denemede göz akı da gitmişti). Kızıl saç ten rengine yakın;
+  orada yalnız baş kutusunda saydama komşu pikseller birkaç tur aşındırılır. Krema zemine ~6 birim
+  uzak: renkle genel temizlik kremayı yer, yalnız küçük kutuda çalış.
+- **Marka/yazı rötuşu:** düz yüzeyde (gözlük sapı, çelik kapak, rozet) satır satır yatay ara değerle
+  silinir. Yapısal çizgi geçen ya da büyük alanda (çorap bandı, etek ucu) rötuş tutmaz → yeniden üret.
 - **Boy:** yeni konuk eklenince Peri'nin yanında ekranda bakılır; `gorseller.json` → `boy`.
   Kadın yan karakterler genellikle 0.76–0.82, çok kısa/tombul 0.72.
 - **Uzanan kol / elde tutulan nesne** figür çerçevesinden taşıyorsa `--genis`; karşıdakinin
