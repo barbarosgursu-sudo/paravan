@@ -8,13 +8,14 @@
 
 ---
 
-## 0000. VAKA 2 — DEVİR (11 Ekim 2026, 08:58) ⬅️ YENİ PENCERE BURADAN BAŞLAR
+## 0000. VAKA 2 — DEVİR (11 Ekim 2026) ⬅️ YENİ PENCERE BURADAN BAŞLAR
 
 **Durum tek cümle:** Vaka 2'nin hikâyesi dondu (Onay 2 tamam); **adım 9–10 sürüyor** — sahibi
 ChatGPT'de **Sohbet 1'i (Peri, G1–G13)** üretiyor, bitince 13 görseli **tek seferde** bu pencereye
 gönderecek. Bu pencerenin işi: görselleri değerlendirmek, işlemek, oyuna gömmek ve Vaka 2'yi
-sona (adım 14) götürmek. Süre tablosu: `sablon/vakalar/vaka2_baslangic.md` §1 (adım 9 başladı
-11 Eki 08:58; bitişleri sen yaz).
+sona (adım 14) götürmek. Süre tablosu: `sablon/vakalar/vaka2_baslangic.md` §1. **Adım 9'un başlangıcı = sahibinin bu
+pencereye İLK MESAJI verdiği an** (sahibinin kararı): o saati (TSİ, `TZ=Europe/Istanbul date`)
+hemen tabloya yaz; öncesi ara, toplama girmez. Bitişleri de sen yaz.
 
 ### Okuma sırası
 1. `CLAUDE.md` · 2. **bu bölüm** · 3. `sablon/vakalar/vaka2_baslangic.md` (§2 Vaka 1 dersleri,
