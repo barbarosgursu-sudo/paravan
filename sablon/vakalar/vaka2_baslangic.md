@@ -61,6 +61,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K27 | G54 | | | 11 Eki 15:00 | düzeltme yok |
 |   K28 | G55 | | | 11 Eki 15:05 | düzeltme yok |
 |   K29 | G56 | 11 Eki 15:34 | | 11 Eki 15:39 | düzeltme yok |
+|   K30 | G57 | | | 11 Eki 15:43 | düzeltme yok |
 
 **Ara 6:** 11 Ekim 15:07'te K28'den sonra ara verildi (sahibi). Ara toplama girmez. Süre 11 Oct 15:34'te (K29) yeniden başladı.
 
