@@ -16,6 +16,7 @@
 //   kemal  x 0–1121   · delik doldurma tol 10 (14 önlükteki boya damlasını yer); kaynak 1122×1402
 //   konuk  = kemal (1122×1402 gelen yeni konuklar: Serkan G3/G4)
 //   cengo_beyaz cengo çerçevesi · kenar tol 10, hale tol 25, zemin 40 px içeriden (yaka zemine değiyorsa)
+//   konuk_sag   konuk, zemin rengi sağ kenardan (el sol kenara uzanıyorsa)
 //   peri_beyaz  peri çerçevesi · delik kapalı · kenar tol 8, hale tol 20, zemin 40 px içeriden (krema, beyaz örtü)
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
@@ -36,6 +37,9 @@ const PROFILLER = {
   kemal: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
   // Yeni konuklar (Serkan 9 Ekim'den sonra): aynı 1122×1402 çerçeve.
   konuk: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
+  // konuk_sag: zemin rengi her satırda SAĞ kenardan okunur. Sol kenara uzanan el/parmak o satırın
+  // zemin örneğini bozuyordu; elin hizasında silinmemiş ince bir zemin çizgisi kalıyordu (Vaka 2 G21).
+  konuk_sag: { x0: 0, x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0, refSag: true, aynali: false },
   // Cengo, yakası zemine değen beyaz gömlek (Vaka 2 G15–G16: yaka ucu zeminle birlikte gidiyordu):
   // cengo çerçevesi, kenar/hale toleransı dar, zemin 40 px içeriden.
   cengo_beyaz: { x0: 10, x1: 1111, kenarTol: Number(process.env.KENAR_BEYAZ || 10), delik: false, delikTol: 14, yenidenTol: 0, haleTol: Number(process.env.HALE_BEYAZ || 25), refIc: 40, aynali: false },
@@ -70,7 +74,7 @@ const P = { ...PROFILLER[profilAd] };
     const x = cv.getContext('2d'); x.drawImage(i, 0, 0);
     const im = x.getImageData(0, 0, W, H), a = im.data;
     // Arka plan rengi satır satır kenardan okunur (hafif degradeye dayanır).
-    const ri = P.refIc || 2; const ref = (px, py) => { const k = (py * W + (px < W / 2 ? ri : W - 1 - ri)) * 4; return [a[k], a[k + 1], a[k + 2]]; };
+    const ri = P.refIc || 2; const ref = (px, py) => { const k = (py * W + ((P.refSag ? false : px < W / 2) ? ri : W - 1 - ri)) * 4; return [a[k], a[k + 1], a[k + 2]]; };
     const dist = (k, c) => Math.hypot(a[k] - c[0], a[k + 1] - c[1], a[k + 2] - c[2]);
     const bg = new Uint8Array(W * H);
     const komsu = n => [n - 1, n + 1, n - W, n + W];

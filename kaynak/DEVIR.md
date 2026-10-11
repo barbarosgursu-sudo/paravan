@@ -90,6 +90,13 @@ Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,�
 hale 25, zemin 40 px içeriden. Saç halesi (üstte açık bej kıvrımlar): baş kutusunda (sprite y 0–115)
 zemine <38 uzak opak pikseller silindi — koyu saçta güvenli; açık saçlı karakterde yapma.
 
+### Sohbet 3 (Müjgan, G19–G21) — gömüldü (11 Eki 11:23)
+G19 bir kez düzeltildi (saç platin değildi; metin "platin saçlı" diyor). Yeni profil **`konuk_sag`**:
+`arac_kes.js` zemin rengini satırın SOL kenarından okuyor; el sol kenara uzanınca o satırda zemin
+yerine ten okunuyor ve elin hizasında ince bir zemin çizgisi kalıyordu (G21). `refSag` ile sağdan
+okunur. El SAĞ kenara uzanırsa tersini düşün. Platin saçın kenarı biraz tırtıklı — kabul edildi.
+Boy: `mujgan` 0.82.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı

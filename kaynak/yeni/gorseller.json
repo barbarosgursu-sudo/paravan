@@ -112,7 +112,10 @@
     "cengo.takim.kas": "sprite/cengo_takim_kas.webp",
     "cengo.takim.gulen": "sprite/cengo_takim_gulen.webp",
     "cengo.takim.yumusak": "sprite/cengo_takim_yumusak.webp",
-    "cengo.takim.buket": "sprite/cengo_takim_buket.webp"
+    "cengo.takim.buket": "sprite/cengo_takim_buket.webp",
+    "mujgan.normal": "figur_mujgan_normal.webp",
+    "mujgan.kas": "figur_mujgan_kas.webp",
+    "mujgan.ofkeli": "figur_mujgan_ofkeli.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -127,7 +130,7 @@
     "peri.kremali.sinirli"
   ],
   "tam": ["K9"],
-  "boy": {"riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.8, "cayci": 0.72, "kemal": 0.95, "asistan": 0.76},
+  "boy": {"riza": 0.86, "hilmi": 0.84, "serkan": 0.92, "tuba": 0.8, "cayci": 0.72, "kemal": 0.95, "asistan": 0.76, "mujgan": 0.82},
   "arka": {
     "A1": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
     "A2": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
@@ -183,9 +186,6 @@
     "K29",
     "K30",
     "K31",
-    "mujgan.normal",
-    "mujgan.kas",
-    "mujgan.ofkeli",
     "defne.normal",
     "defne.gergin",
     "defne.panik",
