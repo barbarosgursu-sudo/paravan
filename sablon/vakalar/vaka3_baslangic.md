@@ -19,6 +19,10 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   verilir. Ölçü: Vaka 2'de Onay 2 = 1 sa 56 dk, 22 not.
 - **Toplu görsel işleme** (adım 9–10): görseller sohbet sohbet gelir, paket hâlinde işlenir,
   sahibine oyundaki son hâli tek seferde gösterilir.
+- **Görsel iş sayfası aynı biçimde (11 Ekim, sahibinin kararı).** Adım 8'de `vaka2_sayfa/`
+  kopyalanıp `vaka3_sayfa/` yapılır, `uret.py`'deki liste Vaka 3'e göre yazılır, sayfa
+  yayımlanır ve bağlantısı sahibine verilir. Sahibi sohbetleri sayfanın sırasıyla yürütür;
+  süre tablosu ve `DEVIR.md` de o sırayı kullanır. Ayrıntı: `5_gorsel_sistemi.md` D-6.
 - **Görsel sorunu anında söylenir (11 Ekim, Vaka 2 Sohbet 1 dersi).** Sahibi üretim sırasında bir
   sorun görürse (fazla ayrıntı, tutarsız kıyafet, el, yazı) o an yazar — özellikle sonraki
   görsellere **referans olacak** görselde (temel: G1, ilk kremalı, ilk örtülü vb.). Hata referansta

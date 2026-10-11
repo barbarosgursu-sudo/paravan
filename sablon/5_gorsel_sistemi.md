@@ -90,6 +90,25 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 4. **Benzer yan karakterler ayrışır:** yaş, yapı, saç, bıyık farklı (üç yaşlı bıyıklı balıkçı olmaz).
 5. **Üretici:** önce ChatGPT; reddederse ya da tutmazsa Grok.
 
+6. **Görsel iş sayfası (zorunlu; 11 Ekim 2026, sahibinin kararı).** Promptlar sahibine düz metin
+   ya da md dosyası olarak değil, **iş sayfası** olarak verilir: claude.ai'da yayımlanmış tek bir
+   sayfa (Artifact). Vaka 2'nin sayfası: https://claude.ai/artifact/DhL2uDY7LHzMLqo8FQ5fXQ —
+   sahibinin ölçüsü: "beni çok hızlandırdı; sonraki vakalar aynı şekilde devam etmeli."
+   Sayfanın vazgeçilmez özellikleri (Vaka 2'deki gibi):
+   - Görseller **sohbet sırasıyla** gruplu (temel görsel önce, ondan türeyenler arkasından; tek
+     görsellik konuk/mekân "Yeni sohbet · Ad"; kareler en sonda, her biri ayrı sohbet).
+   - Her kartta: numara (G<n>), ad, oyundaki anahtar, **tam prompt metni** (yer tutucu yok,
+     "[ortak stil satırı]" gibi kısaltma yok) ve **Kopyala** düğmesi.
+   - Referanslar kartın içinde **numaralı**: dosya referansı **indir** düğmesiyle, önceki çıktı
+     referansı "G<n> çıktısı (ne için)" diye.
+   - **Yapıldı** işareti (tarayıcıda kalır) — sahibi nerede kaldığını görür.
+   - Kartta **bakılacaklar** satırı (o görselde en sık bozulan şey).
+   Üretim: `sablon/vakalar/vakaN_sayfa/` = `uret.py` (veriyi `vakaN_gorsel.md`'den, tam metinli
+   üretir → `veri.js`) + `sablon.html` (sayfa). Yeni vakada Vaka 2'nin klasörü kopyalanır,
+   `uret.py`'deki görsel listesi ve `sira` değiştirilir; `sablon.html` aynen kalır. Sayfa
+   adım 8'in **çıktısıdır**: `vakaN_gorsel.md` biter bitmez üretilir, yayımlanır, bağlantısı
+   sahibine ve `DEVIR.md`'ye yazılır. Sohbet sırası değişirse önce sayfa, sonra belgeler.
+
 **Prompt kalıbı (sırasıyla):**
 1. Kimlik: "Referanstaki kişinin AYNISI…"
 2. Kadraj: ölçek, kesim, baş yüksekliği

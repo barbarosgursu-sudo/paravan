@@ -13,7 +13,7 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** (aşağıda) | ben | hata yok; tarama bitti, düzeltmeler veride |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
-| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) | ben | — |
+| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6) | ben | — |
 | 9 | **Görseller** üretilir; **toplu gönderilir** (aşağıda) | sahibi | — |
 | 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi); **toplu işlenir** | ben | her görsel gömülü |
 | 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi | ben | hata yok |
@@ -59,6 +59,12 @@ doğrulayıcı ve iki derlemeyi koşar. Araca kalmayan: saç halesi temizliği, 
 boy ayarı (araç boyu olmayan konuğu söyler), ilgili satırlarda ekran görüntüsü (`arac_yeni_tur.js`). Sahibine paketin **oyundaki son
 hâli tek seferde** gösterilir; düzeltme istenen görseller tek listede döner. Temel görseller
 (G1, G14…) bitince öbür sohbetler aynı anda (başka sekmede, ChatGPT ya da Grok) yürüyebilir.
+
+**İş sayfası (11 Ekim 2026, sahibinin kararı).** Vaka 2'de görsel aşamasını en çok hızlandıran şey
+iş sayfasıydı (59 görsel, sohbet sırasıyla, kopyala/indir/Yapıldı). Her vakada **aynı biçimde**
+üretilir ve sahibi sohbetleri **sayfadaki sırayla** yürütür; belgelerdeki sohbet bölümlemesi
+sayfayla aynı tutulur (Vaka 2'de "7 = G35–G45" diyen belge sayfayla ayrışmıştı). Ayrıntı:
+`5_gorsel_sistemi.md` D-6.
 
 Kapsam dışı bırakılanlar (sahibinin kararı): görsel sayısı azaltılmaz; ifade ızgarası (bir
 istekte birkaç ifade) kullanılmaz, çözünürlük düşüyor; ücretli üretim (API) yok; her vakada
