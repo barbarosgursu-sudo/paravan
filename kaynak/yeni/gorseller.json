@@ -131,7 +131,8 @@
     "saadet.normal": "figur_saadet_normal.webp",
     "A15": "arka_a15.webp",
     "A16": "arka_a16.webp",
-    "A17": "arka_a17.webp"
+    "A17": "arka_a17.webp",
+    "D6": "detay_d6.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -200,7 +201,6 @@
     "A20b",
     "A21",
     "A22",
-    "D6",
     "D7",
     "K19",
     "K20",
@@ -225,7 +225,6 @@
     "A20b": "Balo salonu, prova sırası (2. açı)",
     "A21": "Otelin pasta mutfağı",
     "A22": "Kurtuluş: Sarkis Usta'nın dükkânı",
-    "D6": "Bir el örtüyü kaldırıyor: manken boş",
     "D7": "Kuyruğu yarıya kadar sökülmüş gelinlik",
     "K19": "Peri masanın kenarında, bacak bacak üstüne; Müjgan süzüyor",
     "K20": "Kapıda tepsili Saadet ve Cengo; masanın altında Peri",

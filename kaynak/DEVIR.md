@@ -123,9 +123,9 @@ komşu, zemine <32 uzak pikseller 8 tur aşındırıldı. Mezuralarda çentik/ra
 mezuranın doğası, oyun boyutunda okunmuyor — kabul.
 
 ### Sohbet 7 (mekânlar) — kısmen gömüldü (11 Eki 12:46)
-G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) bekliyor:** örtüyü kaldıran el siyah uzun kollu ve
+G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) düzeltilip gömüldü (12:49):** ilk hâlinde örtüyü kaldıran el siyah uzun kollu ve
 kolunda toplu iğneler — Lâl'in kıyafetini çağrıştırıyor; oysa satır Gülsüm'ün ("Sabah geldim…
-Kaldırdım: çıplak", ipucu gulsum). Sahibine soruldu. **Gelmedi:** G38–G43, G45.
+Kaldırdım: çıplak", ipucu gulsum). Düzeltme: dolgun çıplak kol, kısa kollu siyah tişört, gri önlük (Gülsüm). **Gelmedi:** G38–G43, G45.
 
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
