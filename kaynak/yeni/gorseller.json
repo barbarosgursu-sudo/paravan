@@ -107,7 +107,12 @@
     "peri.kremali.utanmis": "sprite/peri_kremali_utanmis.webp",
     "peri.ortulu.normal": "sprite/peri_ortulu_normal.webp",
     "peri.ortulu.kas": "sprite/peri_ortulu_kas.webp",
-    "peri.ortulu.sasirmis": "sprite/peri_ortulu_sasirmis.webp"
+    "peri.ortulu.sasirmis": "sprite/peri_ortulu_sasirmis.webp",
+    "cengo.takim.normal": "sprite/cengo_takim_normal.webp",
+    "cengo.takim.kas": "sprite/cengo_takim_kas.webp",
+    "cengo.takim.gulen": "sprite/cengo_takim_gulen.webp",
+    "cengo.takim.yumusak": "sprite/cengo_takim_yumusak.webp",
+    "cengo.takim.buket": "sprite/cengo_takim_buket.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -178,11 +183,6 @@
     "K29",
     "K30",
     "K31",
-    "cengo.takim.normal",
-    "cengo.takim.kas",
-    "cengo.takim.gulen",
-    "cengo.takim.yumusak",
-    "cengo.takim.buket",
     "mujgan.normal",
     "mujgan.kas",
     "mujgan.ofkeli",

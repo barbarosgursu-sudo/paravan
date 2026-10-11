@@ -15,6 +15,7 @@
 //   hilmi  x 0–1085   · delik doldurma kapalı (beyaz gömlek); kaynak 1086×1448
 //   kemal  x 0–1121   · delik doldurma tol 10 (14 önlükteki boya damlasını yer); kaynak 1122×1402
 //   konuk  = kemal (1122×1402 gelen yeni konuklar: Serkan G3/G4)
+//   cengo_beyaz cengo çerçevesi · kenar tol 10, hale tol 25, zemin 40 px içeriden (yaka zemine değiyorsa)
 //   peri_beyaz  peri çerçevesi · delik kapalı · kenar tol 8, hale tol 20, zemin 40 px içeriden (krema, beyaz örtü)
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
@@ -35,6 +36,9 @@ const PROFILLER = {
   kemal: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
   // Yeni konuklar (Serkan 9 Ekim'den sonra): aynı 1122×1402 çerçeve.
   konuk: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
+  // Cengo, yakası zemine değen beyaz gömlek (Vaka 2 G15–G16: yaka ucu zeminle birlikte gidiyordu):
+  // cengo çerçevesi, kenar/hale toleransı dar, zemin 40 px içeriden.
+  cengo_beyaz: { x0: 10, x1: 1111, kenarTol: Number(process.env.KENAR_BEYAZ || 10), delik: false, delikTol: 14, yenidenTol: 0, haleTol: Number(process.env.HALE_BEYAZ || 25), refIc: 40, aynali: false },
   // Peri, zemine yakın beyaz taşıyan set (Vaka 2: krema, masa örtüsü): peri çerçevesi,
   // delik doldurma kapalı, kenar ve hale toleransı dar (28/60 beyazı zeminle birlikte yer).
   // refIc: zemin rengi kenardan 40 px içeriden okunur — bu üreticinin kenarları ~5 birim

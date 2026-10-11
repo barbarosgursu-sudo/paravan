@@ -84,6 +84,12 @@ Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,�
   sonra `takma`'daki satırı sil, boyun cebini temizle (aşağıdaki kutu).
 - Hâlâ sorulmadı (beğeni): G2–G7'de yüze düşen tutam ("tek tutam bile düşmüyor" denmişti).
 
+### Sohbet 2 (Cengo, G14–G18) — gömüldü (11 Eki 11:08)
+`node arac_paket.js <paket> --vaka 2 --profil G14=cengo_beyaz,…,G18=cengo_beyaz --yaz`. Yeni profil
+**`cengo_beyaz`** (`arac_kes.js`): yaka ucu zemine değince `cengo` (kenar 28) onu yiyordu; kenar 10,
+hale 25, zemin 40 px içeriden. Saç halesi (üstte açık bej kıvrımlar): baş kutusunda (sprite y 0–115)
+zemine <38 uzak opak pikseller silindi — koyu saçta güvenli; açık saçlı karakterde yapma.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı

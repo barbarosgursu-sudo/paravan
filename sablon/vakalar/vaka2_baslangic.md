@@ -39,7 +39,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
 |---|---|---|---|---|---|
 | 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | 11 Eki 10:00 | G8–G9 Grok'ta (912×1136, araç büyüttü; ölçek tuttu). G1 boydan geldi → elle kırpıldı. Krema/örtü için `peri_beyaz` kesim profili eklendi. G10–13 boyun cebi elle temizlendi. Sonra sahibi çorap bandını kaldırttı: G8–G12 Grok'ta yeniden (bantsız) gömüldü; **G13 açık** (limit), yerine geçici G12 |
-| 2 Cengo | G14–G18 | 11 Eki 10:54 | | | |
+| 2 Cengo | G14–G18 | 11 Eki 10:54 | 11 Eki 11:05 | 11 Eki 11:08 | hepsi ChatGPT; G14 önce ayrı kontrol edildi. G15–G16'da beyaz yaka ucu zeminle gidiyordu → `cengo_beyaz` profili. Saç halesi baş kutusunda elle. Düzeltme promptu gerekmedi |
 | 3 Müjgan | G19–G21 | | | | |
 | 4 Defne | G22–G25 | | | | |
 | 5 Lâl | G26–G28 | | | | |
