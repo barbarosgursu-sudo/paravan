@@ -45,7 +45,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 5 Lâl | G26–G28 | 11 Eki 12:01 | 11 Eki 12:10 | 11 Eki 12:13 | G26 önce ayrı kontrol. Üçünde de gözlük sapında yazı benzeri iz → elle silindi (düz siyah yüzey). G28 parmağı sol kenarda → `konuk_sag`. Boy 0.80 |
 | 6 Tolga | G29–G30 | 11 Eki 12:14 | 11 Eki 12:19 | 11 Eki 12:21 | G29 önce ayrı kontrol; düzeltme yok. Kesim varsayılan `konuk`. Boy 0.90. G30'un havadaki eli sağ figür yuvasında ekran dışında kalıyor (adım 11'de bak) |
 | tekli konuklar | G31–G34 | 11 Eki ~12:21 (Sohbet 6 bitince) | 11 Eki 12:28 | 11 Eki 12:32 | sıra karışık geldi (3.=Saadet, 4.=Sarkis), görselden düzeltildi. Beyaz gömlek/bez için `konuk_beyaz`. Gülsüm ve Saadet saç halesi elle. Boy: Gülsüm 0.80, Bülent 0.94, Sarkis 0.80, Saadet 0.72 |
-| 7 mekânlar, detay | G35–G45 | 11 Eki 12:34 | | | |
+| 7 mekânlar, detay | G35–G45 | 11 Eki 12:34 | 11 Eki 12:44 (yalnız G35–37, G44) | 11 Eki 12:46 (G35–37) | G35 önce ayrı kontrol. G44 bekliyor (siyah kol Lâl'i çağrıştırıyor; satır Gülsüm'ün). G38–43, G45 gelmedi |
 | kareler | G46–G59 | | | | |
 
 **Ara 3:** 11 Ekim 11:39'te Sohbet 4 bitip Sohbet 5'ten (Lâl) önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 5'e başlıyorum" deyince süre yeniden başlar. Süre 11 Oct 12:01'te yeniden başladı.

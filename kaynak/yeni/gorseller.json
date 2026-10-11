@@ -128,7 +128,10 @@
     "gulsum.normal": "figur_gulsum_normal.webp",
     "bulent.normal": "figur_bulent_normal.webp",
     "sarkis.normal": "figur_sarkis_normal.webp",
-    "saadet.normal": "figur_saadet_normal.webp"
+    "saadet.normal": "figur_saadet_normal.webp",
+    "A15": "arka_a15.webp",
+    "A16": "arka_a16.webp",
+    "A17": "arka_a17.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -191,9 +194,6 @@
     "A22": {"ad": "Kurtuluş · terzi", "grup": "terzi"}
   },
   "yer_tutucu": [
-    "A15",
-    "A16",
-    "A17",
     "A18",
     "A19",
     "A20",
@@ -219,9 +219,6 @@
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
-    "A15": "Lâl'in atölyesi: aynalar, kumaş topları, mankenler",
-    "A16": "Prova odası: çıplak manken, örtüsü sandalyede",
-    "A17": "Atölyenin arka avlusu",
     "A18": "Teşvikiye: atölyenin sokağı, vale panosu",
     "A19": "Ersoy'ların salonu, Nişantaşı",
     "A20": "Otelin balo salonu, balon kemeri",

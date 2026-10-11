@@ -122,6 +122,11 @@ sırasından değil görselden doğrula**. Yeni profil **`konuk_beyaz`** (beyaz 
 komşu, zemine <32 uzak pikseller 8 tur aşındırıldı. Mezuralarda çentik/rakam benzeri işaretler var;
 mezuranın doğası, oyun boyutunda okunmuyor — kabul.
 
+### Sohbet 7 (mekânlar) — kısmen gömüldü (11 Eki 12:46)
+G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) bekliyor:** örtüyü kaldıran el siyah uzun kollu ve
+kolunda toplu iğneler — Lâl'in kıyafetini çağrıştırıyor; oysa satır Gülsüm'ün ("Sabah geldim…
+Kaldırdım: çıplak", ipucu gulsum). Sahibine soruldu. **Gelmedi:** G38–G43, G45.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı
