@@ -38,7 +38,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 
 | sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
 |---|---|---|---|---|---|
-| 1 Peri | G1–G13 | 11 Eki 09:17 | | | |
+| 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | | bir kısmı Grok'ta üretildi (ChatGPT üretmedi) |
 | 2 Cengo | G14–G18 | | | | |
 | 3 Müjgan | G19–G21 | | | | |
 | 4 Defne | G22–G25 | | | | |
