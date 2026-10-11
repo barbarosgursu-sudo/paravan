@@ -49,7 +49,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 8 Otel | G40 → G41, G42 | 11 Eki 13:12 | 11 Eki ~13:19 | 11 Eki 13:22 | G40 önce ayrı kontrol: pasta 4 kattı → bir düzeltme (5 kat). G42 buzdolabındaki marka levhaları elle silindi |
 | 9 Terzi | G43 → G45 | 11 Eki 13:23 | 11 Eki ~13:28 | 11 Eki 13:29 | G43 önce ayrı kontrol; düzeltme yok |
 | Sokak, Salon | G38, G39 | 11 Eki 13:31 | 11 Eki ~13:34 | 11 Eki 13:36 | vale kürsüsündeki küçük rozet elle silindi; plakalar görünmüyor |
-| kareler (her biri ayrı sohbet) | G46–G59 | | | | |
+| kareler (her biri ayrı sohbet) | G46–G59 | 11 Eki 13:38 (K19) | | | |
 
 **Ara 4:** 11 Ekim 12:56'te Sohbet 7 (Atölye) bitince ara verildi (sahibi). Ara toplama girmez; sahibi başladığını haber verince süre yeniden başlar. Süre 13:12'te yeniden başladı.
 
