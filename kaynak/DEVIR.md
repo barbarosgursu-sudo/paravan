@@ -62,7 +62,7 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
 ### ⏸ Ara (11 Eki 12:56) — KALDIĞIN YER
-Gömülü: G1–G12, G14–G46 (bütün figürler, arka planlar, detaylar; kareler K19'dan). Açık: **G13** (yerinde geçici G12). **Sohbet sırası iş sayfasındakidir** (`vaka2_sayfa/veri.js`), bu belgenin eski
+Gömülü: G1–G12, G14–G47 (bütün figürler, arka planlar, detaylar; kareler K19'dan). Açık: **G13** (yerinde geçici G12). **Sohbet sırası iş sayfasındakidir** (`vaka2_sayfa/veri.js`), bu belgenin eski
 "7 = G35–G45" listesi değil: 7 Atölye (G35–37, G44) ✓ · 8 Otel (G40–42) ✓ · 9 Terzi
 (G43, G45) ✓ · Sokak (G38) ✓ · Salon (G39) ✓ · **kareler (her biri ayrı sohbet)**. Sonra **kareler G46–G59**. Sahibi başladığını haber verince saati
 `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
@@ -142,6 +142,7 @@ araç, cihaz gibi markalı olabilen nesnelerde levha/rozet ara.
 
 ### Kareler — ders (K19, 11 Eki)
 Kare promptu birden çok kişi sayınca üretici kenardaki kişiyi düşürebiliyor (K19'da Cengo yoktu).
+Saklanma/görme içeren karede **kim kimi görüyor** geometrisini kur (K20: kamera masanın arkasında, ön panel kapalı → seyirci Peri'yi görür, Saadet görmez).
 Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) aç, adı geçen herkes var mı say.
 
 ### Sonra
