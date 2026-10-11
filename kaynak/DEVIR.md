@@ -142,6 +142,10 @@ araç, cihaz gibi markalı olabilen nesnelerde levha/rozet ara.
 
 ### Kareler — ders (K19, 11 Eki)
 Kare promptu birden çok kişi sayınca üretici kenardaki kişiyi düşürebiliyor (K19'da Cengo yoktu).
+**K23 (G50) ertelendi (11 Eki 14:14):** ChatGPT reddetti. Sahibi yarın **Grok**'ta deneyecek. Yumuşatılmış
+prompt hazır: "komik bir an, çizgi film tonu", kamera YANDAN göğüs hizası, Peri pastanın alt katına
+oturmuş, dizler bükülü, ayaklar kenardan sarkıyor; "seksi / bacaklar havada / etek" kelimeleri YOK.
+Ref: G42 (mutfak) + G8 (kremalı Peri). Reddedilen karelerde bu kelimeleri çıkarıp açıyı yandan al.
 Saklanma/görme içeren karede **kim kimi görüyor** geometrisini kur (K20: kamera masanın arkasında, ön panel kapalı → seyirci Peri'yi görür, Saadet görmez).
 Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) aç, adı geçen herkes var mı say.
 
