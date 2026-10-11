@@ -109,6 +109,11 @@ yok"); `defne zayif` çalışıyor.
 yüzeyde, dikeyde koyu komşulardan medyanla dolduruldu (kaynak `ozgun/` scratchpad'de). Gözlük/kalem/saat
 gibi markalı olabilen nesnelerde sapı ve kenarı büyütüp tara. G28 → `konuk_sag`. Boy `lal` 0.80.
 
+### Sohbet 6 (Tolga, G29–G30) — gömüldü (11 Eki 12:21)
+Düzeltme yok; `konuk` profili temiz. Boy `tolga` 0.90. **Adım 11'de bak:** G30'un ("Ben mi canım?")
+havadaki açık eli, sağ figür yuvasında ekranın sağ kenarından taşıyor — jest kayboluyor. Çare
+`genis` listesi ya da yuva kaydırma (arayüz işi), görsel değil.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı

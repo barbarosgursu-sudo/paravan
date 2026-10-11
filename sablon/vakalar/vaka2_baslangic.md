@@ -43,7 +43,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 3 Müjgan | G19–G21 | 11 Eki ~11:08 (Sohbet 2 bitince; ayrıca bildirilmedi) | 11 Eki 11:20 | 11 Eki 11:23 | G19 önce ayrı kontrol: saç bal-kumraldı, metin "platin" diyor → bir düzeltme. G21'de sola uzanan el satırın zemin örneğini bozdu → `konuk_sag` profili. Boy 0.82 (uzun boylu) |
 | 4 Defne | G22–G25 | 11 Eki 11:25 | 11 Eki 11:32 | 11 Eki 11:38 | G22 önce ayrı kontrol; düzeltme yok. Koyu saçın kıvrımındaki bej hale elle (ten korunarak; ilk denemede G24'ün göz akı da gidiyordu). Boy 0.80 |
 | 5 Lâl | G26–G28 | 11 Eki 12:01 | 11 Eki 12:10 | 11 Eki 12:13 | G26 önce ayrı kontrol. Üçünde de gözlük sapında yazı benzeri iz → elle silindi (düz siyah yüzey). G28 parmağı sol kenarda → `konuk_sag`. Boy 0.80 |
-| 6 Tolga | G29–G30 | 11 Eki 12:14 | | | |
+| 6 Tolga | G29–G30 | 11 Eki 12:14 | 11 Eki 12:19 | 11 Eki 12:21 | G29 önce ayrı kontrol; düzeltme yok. Kesim varsayılan `konuk`. Boy 0.90. G30'un havadaki eli sağ figür yuvasında ekran dışında kalıyor (adım 11'de bak) |
 | tekli konuklar | G31–G34 | | | | |
 | 7 mekânlar, detay | G35–G45 | | | | |
 | kareler | G46–G59 | | | | |

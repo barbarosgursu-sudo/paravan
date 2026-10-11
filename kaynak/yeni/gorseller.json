@@ -122,7 +122,9 @@
     "defne.itiraf": "figur_defne_itiraf.webp",
     "lal.normal": "figur_lal_normal.webp",
     "lal.kas": "figur_lal_kas.webp",
-    "lal.sinirli": "figur_lal_sinirli.webp"
+    "lal.sinirli": "figur_lal_sinirli.webp",
+    "tolga.normal": "figur_tolga_normal.webp",
+    "tolga.sinirli": "figur_tolga_sinirli.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -147,7 +149,8 @@
     "asistan": 0.76,
     "mujgan": 0.82,
     "defne": 0.8,
-    "lal": 0.8
+    "lal": 0.8,
+    "tolga": 0.9
   },
   "arka": {
     "A1": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
@@ -204,8 +207,6 @@
     "K29",
     "K30",
     "K31",
-    "tolga.normal",
-    "tolga.sinirli",
     "gulsum.normal",
     "bulent.normal",
     "sarkis.normal",
