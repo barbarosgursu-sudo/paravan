@@ -19,6 +19,14 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   verilir. Ölçü: Vaka 2'de Onay 2 = 1 sa 56 dk, 22 not.
 - **Toplu görsel işleme** (adım 9–10): görseller sohbet sohbet gelir, paket hâlinde işlenir,
   sahibine oyundaki son hâli tek seferde gösterilir.
+- **Görsel sorunu anında söylenir (11 Ekim, Vaka 2 Sohbet 1 dersi).** Sahibi üretim sırasında bir
+  sorun görürse (fazla ayrıntı, tutarsız kıyafet, el, yazı) o an yazar — özellikle sonraki
+  görsellere **referans olacak** görselde (temel: G1, ilk kremalı, ilk örtülü vb.). Hata referansta
+  düzelmezse zincirle yayılır: Vaka 2'de G8'de doğan çorap bandı G9–G13'e geçti; 5 görsel yeniden
+  üretildi, G13 limite takıldı (~20 dk kayıp).
+- **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta
+  istenmemiş bir ayrıntı görürse gömmeden önce sorar ve düzeltme promptunu verir. Otomatik rötuşa
+  (ör. bant/nesne silme) ancak yüzey düzse girer; yeniden üretim çoğu zaman daha kısadır.
 
 ## 2. Süre ölçümü
 
