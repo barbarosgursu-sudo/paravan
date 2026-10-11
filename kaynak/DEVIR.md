@@ -62,9 +62,9 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
 ### ⏸ Ara (11 Eki 14:15) — KALDIĞIN YER
-Gömülü: G1–G12, G14–G49 (48/59). **Grok bekleyen:** G13 (örtülü utanmış; yerinde geçici G12) ve K23 (G50;
-ChatGPT reddetti) — ikisi de orijinal promptla. **Sırada (ChatGPT):** K24–K32 (G51–G59), her biri ayrı sohbet.
-K24 de reddedilebilir; reddedilirse sahibine sor, kendiliğinden yumuşatma. Sahibi başladığını haber verince
+Gömülü: G1–G12, G14–G49, G51 (49/59). **Grok bekleyen:** G13 (örtülü utanmış; yerinde geçici G12) ve K23 (G50;
+ChatGPT reddetti) — ikisi de orijinal promptla. **Sırada (ChatGPT):** K25–K32 (G52–G59), her biri ayrı sohbet.
+Bir kare reddedilirse sahibine sor, kendiliğinden yumuşatma. Sahibi başladığını haber verince
 saati `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
 `arac_yeni_tur.js 0 defne dogru` yolu yok.
 

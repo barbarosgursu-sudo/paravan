@@ -143,7 +143,8 @@
     "K19": "ara_k19.webp",
     "K20": "ara_k20.webp",
     "K21": "ara_k21.webp",
-    "K22": "ara_k22.webp"
+    "K22": "ara_k22.webp",
+    "K24": "ara_k24.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -205,11 +206,10 @@
     "A21": {"ad": "Otel · pasta mutfağı", "grup": "otel_mutfak"},
     "A22": {"ad": "Kurtuluş · terzi", "grup": "terzi"}
   },
-  "yer_tutucu": ["K23", "K24", "K25", "K26", "K27", "K28", "K29", "K30", "K31", "K32"],
+  "yer_tutucu": ["K23", "K25", "K26", "K27", "K28", "K29", "K30", "K31", "K32"],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
     "K23": "Peri beş katlı pastanın içinde",
-    "K24": "Kremalı Peri pistte kayıyor, bir bacağı havada",
     "K25": "Defne pirinçte kaymış, örtü yığınında; Cengo buketle",
     "K26": "Peri masa örtüsüne sarılı; Cengo kremayı tadıyor",
     "K27": "Karar: cumartesi düğünü, beş yüz kişi",
