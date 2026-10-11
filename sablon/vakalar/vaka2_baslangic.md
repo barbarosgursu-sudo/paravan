@@ -61,6 +61,8 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K27 | G54 | | | 11 Eki 15:00 | düzeltme yok |
 |   K28 | G55 | | | 11 Eki 15:05 | düzeltme yok |
 
+**Ara 6:** 11 Ekim 15:07'te K28'den sonra ara verildi (sahibi). Ara toplama girmez.
+
 **Ara 5:** 11 Ekim 14:15'te K22'den sonra gün kapandı (sahibi). Ara toplama girmez. Süre 11 Oct 14:40'te (K24) yeniden başladı.
 
 **Ara 4:** 11 Ekim 12:56'te Sohbet 7 (Atölye) bitince ara verildi (sahibi). Ara toplama girmez; sahibi başladığını haber verince süre yeniden başlar. Süre 13:12'te yeniden başladı.
