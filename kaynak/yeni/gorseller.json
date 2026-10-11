@@ -124,7 +124,11 @@
     "lal.kas": "figur_lal_kas.webp",
     "lal.sinirli": "figur_lal_sinirli.webp",
     "tolga.normal": "figur_tolga_normal.webp",
-    "tolga.sinirli": "figur_tolga_sinirli.webp"
+    "tolga.sinirli": "figur_tolga_sinirli.webp",
+    "gulsum.normal": "figur_gulsum_normal.webp",
+    "bulent.normal": "figur_bulent_normal.webp",
+    "sarkis.normal": "figur_sarkis_normal.webp",
+    "saadet.normal": "figur_saadet_normal.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -150,7 +154,11 @@
     "mujgan": 0.82,
     "defne": 0.8,
     "lal": 0.8,
-    "tolga": 0.9
+    "tolga": 0.9,
+    "gulsum": 0.8,
+    "bulent": 0.94,
+    "sarkis": 0.8,
+    "saadet": 0.72
   },
   "arka": {
     "A1": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
@@ -207,10 +215,6 @@
     "K29",
     "K30",
     "K31",
-    "gulsum.normal",
-    "bulent.normal",
-    "sarkis.normal",
-    "saadet.normal",
     "K32"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",

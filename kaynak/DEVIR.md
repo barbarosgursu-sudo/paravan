@@ -114,6 +114,14 @@ Düzeltme yok; `konuk` profili temiz. Boy `tolga` 0.90. **Adım 11'de bak:** G30
 havadaki açık eli, sağ figür yuvasında ekranın sağ kenarından taşıyor — jest kayboluyor. Çare
 `genis` listesi ya da yuva kaydırma (arayüz işi), görsel değil.
 
+### Tekli konuklar (G31–G34) — gömüldü (11 Eki 12:32)
+Sahibi dört görseli tek mesajda gönderdi; 3. ve 4. sırası tablonun tersiydi — **numarayı mesaj
+sırasından değil görselden doğrula**. Yeni profil **`konuk_beyaz`** (beyaz gömlek: varsayılan
+`konuk`un delik doldurması Bülent ve Sarkis'in gömleğini delik delik yiyordu). Saadet'in kızıl saçı
+`hale_koyu`nun ten korumasına takıldı (kızıl = ten rengi); baş bölgesinde (y<170) yalnız saydama
+komşu, zemine <32 uzak pikseller 8 tur aşındırıldı. Mezuralarda çentik/rakam benzeri işaretler var;
+mezuranın doğası, oyun boyutunda okunmuyor — kabul.
+
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı

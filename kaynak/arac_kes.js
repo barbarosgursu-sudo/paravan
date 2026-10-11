@@ -16,6 +16,7 @@
 //   kemal  x 0–1121   · delik doldurma tol 10 (14 önlükteki boya damlasını yer); kaynak 1122×1402
 //   konuk  = kemal (1122×1402 gelen yeni konuklar: Serkan G3/G4)
 //   cengo_beyaz cengo çerçevesi · kenar tol 10, hale tol 25, zemin 40 px içeriden (yaka zemine değiyorsa)
+//   konuk_beyaz konuk çerçevesi, delik kapalı, kenar 10 / hale 25 (beyaz gömlek)
 //   konuk_sag   konuk, zemin rengi sağ kenardan (el sol kenara uzanıyorsa)
 //   peri_beyaz  peri çerçevesi · delik kapalı · kenar tol 8, hale tol 20, zemin 40 px içeriden (krema, beyaz örtü)
 //
@@ -37,6 +38,9 @@ const PROFILLER = {
   kemal: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
   // Yeni konuklar (Serkan 9 Ekim'den sonra): aynı 1122×1402 çerçeve.
   konuk: { x0: 0,   x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0,  aynali: false },
+  // konuk_beyaz: beyaz gömlek / beyaz bez taşıyan konuk (Vaka 2 Bülent, Sarkis, Saadet'in tepsi örtüsü):
+  // delik doldurma gömleğin açık bölgelerini zemin sanıyordu → kapalı; kenar/hale dar, zemin içeriden.
+  konuk_beyaz: { x0: 0, x1: 1121, kenarTol: Number(process.env.KENAR_BEYAZ || 10), delik: false, delikTol: 10, yenidenTol: 0, haleTol: Number(process.env.HALE_BEYAZ || 25), refIc: 40, aynali: false },
   // konuk_sag: zemin rengi her satırda SAĞ kenardan okunur. Sol kenara uzanan el/parmak o satırın
   // zemin örneğini bozuyordu; elin hizasında silinmemiş ince bir zemin çizgisi kalıyordu (Vaka 2 G21).
   konuk_sag: { x0: 0, x1: 1121, kenarTol: 28, delik: true, delikTol: 10, yenidenTol: 0, refSag: true, aynali: false },
