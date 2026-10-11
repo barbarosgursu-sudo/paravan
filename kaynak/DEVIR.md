@@ -1,10 +1,78 @@
-# DEVİR NOTU — 23 Eylül 2026
+# DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 11 Ekim 2026)
 
 > Bir sohbet penceresinden ötekine devir. **Önce `CLAUDE.md`'yi oku** (sözleşmeler,
 > tuzaklar, komutlar orada). Bu belge onun üstüne yalnız **oturum durumunu** koyar:
 > ne yapıldı, sahibi neyi bekliyor, sıradaki iş ne.
 >
 > Bu belge tarihlidir. İş ilerledikçe **güncellenir ya da silinir**.
+
+---
+
+## 0000. VAKA 2 — DEVİR (11 Ekim 2026, 08:58) ⬅️ YENİ PENCERE BURADAN BAŞLAR
+
+**Durum tek cümle:** Vaka 2'nin hikâyesi dondu (Onay 2 tamam); **adım 9–10 sürüyor** — sahibi
+ChatGPT'de **Sohbet 1'i (Peri, G1–G13)** üretiyor, bitince 13 görseli **tek seferde** bu pencereye
+gönderecek. Bu pencerenin işi: görselleri değerlendirmek, işlemek, oyuna gömmek ve Vaka 2'yi
+sona (adım 14) götürmek. Süre tablosu: `sablon/vakalar/vaka2_baslangic.md` §1 (adım 9 başladı
+11 Eki 08:58; bitişleri sen yaz).
+
+### Okuma sırası
+1. `CLAUDE.md` · 2. **bu bölüm** · 3. `sablon/vakalar/vaka2_baslangic.md` (§2 Vaka 1 dersleri,
+§4 görselli tur denetimi, §5 çalışma biçimi) · 4. `sablon/7_uretim_sureci.md` → **Hızlandırma
+kuralları** · 5. `sablon/5_gorsel_sistemi.md` E–F (kontrol listesi, kesim) · 6. `sablon/vakalar/vaka2_gorsel.md`
+(59 görselin listesi, promptlar, sohbet sırası) · 7. gerekirse `vaka1_gorsel_devir.md` §5–6 (elle iş tarifleri, saç halesi).
+
+### Sahibinin iş sayfası
+Görsel iş listesi (59 prompt, kopyala/indir/Yapıldı): https://claude.ai/artifact/DhL2uDY7LHzMLqo8FQ5fXQ
+Üreticisi `sablon/vakalar/vaka2_sayfa/uret.py`. Sohbet sırası: 1 Peri (G1–13) · 2 Cengo (G14–18) ·
+3 Müjgan (G19–21) · 4 Defne (G22–25) · 5 Lâl (G26–28) · 6 Tolga (G29–30) · tekli konuklar
+(G31–34) · 7 Atölye ve öbür mekânlar (G35–45) · kareler en son (G46–59, figür ve mekânları referans alır).
+
+### Paket gelince ne yapılır (her sohbet için aynı)
+Sahibi dosyaları **ChatGPT'nin verdiği adla** gönderir ve "Sohbet 1, G1–G13" yazar.
+```
+mkdir -p <scratchpad>/paket_s1 && (dosyaları oraya koy)
+cd kaynak
+node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİZLEME, projeye dokunmaz
+```
+1. Konsoldaki `G1 ← dosya adı` eşleşmesine ve **temas sayfasına** (`kaynak/YENI_UI/paket_paket_s1.png`)
+   bak: sıra doğru mu (her kartın ifadesi `vaka2_gorsel.md`'deki satırla tutuyor mu)?
+   - **Bilinmeyen:** yüklenen dosyaların adı korunuyor mu henüz görülmedi. Ad değişmişse araç
+     "dosya tarihine göre dizildi" der → sırayı görselden tek tek doğrula; gerekirse dosyaları
+     `G1.png…` diye adlandırıp `--sira`sız çalıştır.
+2. Her görsele **kontrol listesi** (`5_gorsel_sistemi.md` E): iki kol iki el / beşer parmak,
+   kıyafet promptla tutuyor mu (kartın `bak` satırı), oran, **yazı/harf** (büyütüp), Nurcan.
+   Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
+3. Kesim sorunları: zemine yakın renk silinirse (Peri'nin **beyaz masa örtüsü G10–13**, beyaz
+   gömlekler) `--profil` ile değiştir. Dikkat: `cengo` profilinin çerçevesi Peri'ninkinden farklı;
+   Peri'ye delik doldurmasız bir profil gerekirse `arac_kes.js` PROFILLER'e `peri` çerçeveli,
+   `delik:false` bir profil ekle. El çerçeveden taşarsa `--genis G<n>`.
+4. Sorunlu görsel → sahibine **tek listede** düzeltme promptu (o sohbette "şunu düzelt").
+5. Hepsi iyi → aynı komut **`--yaz`** ile: yeni_gorsel/'e yazar, `gorseller.json` günceller,
+   doğrulayıcı + iki derleme koşar, eski `index.html` md5 aynı mı bakar (`bc871463456171ae79f25847a2b962ad`).
+6. **Elle:** saç halesi (yalnız baş kutusu; tarif `vaka1_gorsel_devir.md` §6), yeni konuğun
+   **boyu** (`gorseller.json` → `boy`; araç boysuzları söyler; kadınlar ~0.76–0.82).
+7. Görselli tur: `node arac_yeni_tur.js 0 ortu dogru` (yollar: `ortu|vale|terzi|defne`,
+   sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
+8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
+
+### Sonra
+- Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
+  görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı
+  hesapla** (aralar ve "sayılmaz" işler hariç) — sahibi bununla vaka başına süreyi tahmin edecek
+  (önceki tahmin: 7–10 saat).
+- Yayından önce: geçici "Vaka 2'den başla" düğmesini kapat (`yeni_arayuz.js` → `VN_VAKA_ATLA = false`).
+- Vaka 3: `sablon/vakalar/vaka3_baslangic.md` hazır (iki yeni kural: **bulanık replik taraması**
+  Onay 2'den önce, **toplu görsel işleme**). Sahibi "Vaka 3'e başla" deyince başlar.
+
+### Bu oturumda alınan kararlar (sahibinin)
+- Görsel sayısı **azaltılmaz** (çok görsel oyunu güzelleştiriyor).
+- **İfade ızgarası yok** (bir istekte birkaç ifade → çözünürlük düşüyor).
+- **Ücretli üretim (API) yok**, şimdilik; ChatGPT/Grok sohbetinde elle üretim.
+- **Her vakada Peri ve Cengo yeni kıyafet** giyer → kıyafet kütüphanesi tutulmaz.
+- Görseller sohbet sohbet, **toplu** gelir; adlandırmayı araç yapar (`--sira`).
+- `arac_paket.js` yazımı ve G1 hazırlığı Vaka 2 süresine **sayılmaz**.
+- Platform/tür sohbeti yapıldı (Choices benzeri platform, gazeteci/avukat gibi türler) — karar yok, iş yok.
 
 ---
 
