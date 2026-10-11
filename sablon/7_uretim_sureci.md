@@ -54,6 +54,22 @@ yapmayan Sohbet 1 (G8'deki çorap bandı G9–G13'e yayıldı) 64 dk sürdü; ya
 3–5 dk. Sahibi görselleri sohbete **doğrudan yapıştırır**; numarayı ben veririm (dosya adı gerekmez).
 Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır.
 
+**Görsel–metin uyum denetimi (adım 11, Onay 3'ten ÖNCE).** Bulanık replik taramasının görsel
+kardeşi. Bütün görseller gömülünce görselli turu **bütün yollarda** koşarım
+(`arac_yeni_tur.js`) ve her ekranı altındaki metinle yan yana okurum:
+- **Kim var?** Metindeki/kare satırındaki herkes ekranda mı; fazladan ya da iki kez görünen var mı?
+- **Kime konuşuyor?** Konuşanın karşısında, hitap ettiği kişi mi duruyor?
+- **Yüz satıra uyuyor mu?** Konuşanın ve dinleyenin ifadesi bu satırın duygusu mu (önceki satırdan kalmış mı)?
+- **Anılan şey görünüyor mu?** Metindeki nesne, hareket, kıyafet (krema, örtü, kravat gevşek/çözük, gözlük elde).
+- **Süreklilik:** Kıyafet, saç, takı sahneden sahneye aynı mı; bir önceki olay (pastaya oturma) görselde izini taşıyor mu?
+- **Yer ve zaman:** Arka plan, yer etiketi ve ışık (gündüz/akşam) metinle aynı mı?
+- **Görünürlük:** El, jest, nesne ekran kenarından taşıp kayboluyor mu (Vaka 2: Tolga "Ben mi canım?")?
+- **Nurcan:** Görsel, oyuncunun o ana kadar hak etmediği bir şeyi gösteriyor mu?
+- Teknik: saç kenarı, boy, kesim kalıntısı.
+Bulunanlar sahibine **tek liste** hâlinde, ekran görüntüsüyle verilir; düzeltilebilenleri (yerleşim,
+boy, takma, kesim) önce ben düzeltirim, yeniden üretim gerektirenler için prompt veririm. Sahibi
+Onay 3'e temizlenmiş turla başlar.
+
 **Toplu görsel işleme (adım 9–10).** Sahibi görselleri tek tek değil, **sohbet sohbet** gönderir
 (bir sohbetin bütün çıktıları). Dosyalar **ChatGPT'nin verdiği adla** kalır; sahibi yalnız hangi
 numaralar olduğunu yazar ("Sohbet 1, G1–G13") ve araç `--sira G1-G13` ile dosya adındaki üretim

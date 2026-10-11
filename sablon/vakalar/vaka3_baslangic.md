@@ -19,6 +19,10 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   verilir. Ölçü: Vaka 2'de Onay 2 = 1 sa 56 dk, 22 not.
 - **Toplu görsel işleme** (adım 9–10): görseller sohbet sohbet gelir, paket hâlinde işlenir,
   sahibine oyundaki son hâli tek seferde gösterilir.
+- **Görsel–metin uyum denetimi** (adım 11, Onay 3'ten önce): görselli tur bütün yollarda; her ekran
+  altındaki metinle yan yana okunur (kim var, kime konuşuyor, yüz satıra uyuyor mu, anılan şey
+  görünüyor mu, süreklilik, yer/zaman, kenardan taşan jest, Nurcan). Bulunanlar tek listede.
+  Ayrıntı: `7_uretim_sureci.md` → Hızlandırma kuralları.
 - **Görsel iş sayfası aynı biçimde (11 Ekim, sahibinin kararı).** Adım 8'de `vaka2_sayfa/`
   kopyalanıp `vaka3_sayfa/` yapılır, `uret.py`'deki liste Vaka 3'e göre yazılır, sayfa
   yayımlanır ve bağlantısı sahibine verilir. Sahibi sohbetleri sayfanın sırasıyla yürütür;
