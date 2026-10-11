@@ -59,6 +59,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K25 | G52 | | | 11 Eki 14:50 | düzeltme yok |
 |   K26 | G53 | | | 11 Eki 14:55 | düzeltme yok |
 |   K27 | G54 | | | 11 Eki 15:00 | düzeltme yok |
+|   K28 | G55 | | | 11 Eki 15:05 | düzeltme yok |
 
 **Ara 5:** 11 Ekim 14:15'te K22'den sonra gün kapandı (sahibi). Ara toplama girmez. Süre 11 Oct 14:40'te (K24) yeniden başladı.
 
