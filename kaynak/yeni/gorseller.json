@@ -107,10 +107,9 @@
     "peri.kremali.utanmis": "sprite/peri_kremali_utanmis.webp",
     "peri.ortulu.normal": "sprite/peri_ortulu_normal.webp",
     "peri.ortulu.kas": "sprite/peri_ortulu_kas.webp",
-    "peri.ortulu.sasirmis": "sprite/peri_ortulu_sasirmis.webp",
-    "peri.ortulu.utanmis": "sprite/peri_ortulu_utanmis.webp"
+    "peri.ortulu.sasirmis": "sprite/peri_ortulu_sasirmis.webp"
   },
-  "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
+  "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
     "peri.mantosuz.sinirli",
     "peri.balikli.sinirli",

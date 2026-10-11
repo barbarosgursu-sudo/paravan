@@ -71,10 +71,18 @@ Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,�
   rengi kenardan 40 px içeriden okunur (bu üreticinin kenar sütunları ~5 birim açık; dar tolde
   zemini parça parça bırakıyordu). Beyaz giysili her Peri setinde bunu kullan.
 - **Krema rengi zemine ~6 birim uzak** → renkle genel hale temizliği kremayı yer. G10–13'te topuz
-  altı / boyun yanındaki zemin cebi yalnız küçük bir kutuda (sprite x 235–345, y 88–170) silindi.
+  altı / boyun yanındaki zemin cebi yalnız küçük bir kutuda (sprite x 235–345, y 88–170) silindi;
+  yeni G9'da el–yüz arası ve ense arkası ayrı kutularla.
 - **Grok çıktısı** 912×1136 geldi; araç 1122×1402'ye büyüttü, ölçek ve parlaklık setle tuttu.
-- Sahibine sorulacak beğeni noktaları (hata değil): G2–G7'de yüze düşen tutam ("tek tutam bile
-  düşmüyor" denmişti); G8–G13'te çorabın üst bandı görünüyor, G9'da etek kaldırılmış.
+- **Çorap bandı (sahibinin kararı: kaldır).** İlk G8–G13'te çorabın üst bandı görünüyordu (bazısında
+  tek, G9'da iki bacak). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" promptuyla
+  yeniden üretildi (Grok, 912×1136) ve gömüldü. Otomatik rötuş denendi, olmadı (bant etek ucuna
+  yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönme.
+- ⚠️ **AÇIK: G13 (`peri.ortulu.utanmis`) yeniden üretilemedi** (ChatGPT yapmıyor, Grok limiti doldu).
+  Geçici: `gorseller.json` → `takma` ile G12'nin (`peri.ortulu.sasirmis`) karesi görünüyor; bantlı eski
+  sprite silindi. Sahibi G13'ü getirince: `arac_paket.js <klasör> --vaka 2 --profil G13=peri_beyaz --yaz`,
+  sonra `takma`'daki satırı sil, boyun cebini temizle (aşağıdaki kutu).
+- Hâlâ sorulmadı (beğeni): G2–G7'de yüze düşen tutam ("tek tutam bile düşmüyor" denmişti).
 
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
