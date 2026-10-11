@@ -132,7 +132,10 @@
     "A15": "arka_a15.webp",
     "A16": "arka_a16.webp",
     "A17": "arka_a17.webp",
-    "D6": "detay_d6.webp"
+    "D6": "detay_d6.webp",
+    "A20": "arka_a20.webp",
+    "A20b": "arka_a20b.webp",
+    "A21": "arka_a21.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -197,9 +200,6 @@
   "yer_tutucu": [
     "A18",
     "A19",
-    "A20",
-    "A20b",
-    "A21",
     "A22",
     "D7",
     "K19",
@@ -221,9 +221,6 @@
   "yer_tutucu_metin": {
     "A18": "Teşvikiye: atölyenin sokağı, vale panosu",
     "A19": "Ersoy'ların salonu, Nişantaşı",
-    "A20": "Otelin balo salonu, balon kemeri",
-    "A20b": "Balo salonu, prova sırası (2. açı)",
-    "A21": "Otelin pasta mutfağı",
     "A22": "Kurtuluş: Sarkis Usta'nın dükkânı",
     "D7": "Kuyruğu yarıya kadar sökülmüş gelinlik",
     "K19": "Peri masanın kenarında, bacak bacak üstüne; Müjgan süzüyor",

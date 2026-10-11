@@ -62,9 +62,9 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
 ### ⏸ Ara (11 Eki 12:56) — KALDIĞIN YER
-Gömülü: G1–G12, G14–G37, G44. Açık: **G13** (yerinde geçici G12). **Sohbet sırası iş sayfasındakidir** (`vaka2_sayfa/veri.js`), bu belgenin eski
-"7 = G35–G45" listesi değil: 7 Atölye (G35–37, G44) ✓ · **8 Otel (G40 → G41, G42)** · 9 Terzi
-(G43 → G45) · Sokak (G38) · Salon (G39) · her kare ayrı sohbet. Sonra **kareler G46–G59**. Sahibi başladığını haber verince saati
+Gömülü: G1–G12, G14–G37, G40–G42, G44. Açık: **G13** (yerinde geçici G12). **Sohbet sırası iş sayfasındakidir** (`vaka2_sayfa/veri.js`), bu belgenin eski
+"7 = G35–G45" listesi değil: 7 Atölye (G35–37, G44) ✓ · 8 Otel (G40–42) ✓ · **9 Terzi
+(G43 → G45)** · Sokak (G38) · Salon (G39) · her kare ayrı sohbet. Sonra **kareler G46–G59**. Sahibi başladığını haber verince saati
 `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
 `arac_yeni_tur.js 0 defne dogru` yolu yok.
 
@@ -134,6 +134,11 @@ mezuranın doğası, oyun boyutunda okunmuyor — kabul.
 G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) düzeltilip gömüldü (12:49):** ilk hâlinde örtüyü kaldıran el siyah uzun kollu ve
 kolunda toplu iğneler — Lâl'in kıyafetini çağrıştırıyor; oysa satır Gülsüm'ün ("Sabah geldim…
 Kaldırdım: çıplak", ipucu gulsum). Düzeltme: dolgun çıplak kol, kısa kollu siyah tişört, gri önlük (Gülsüm).
+
+### Sohbet 8 (Otel, G40–G42) — gömüldü (11 Eki 13:22)
+G40: pasta dört katlıydı (metin "beş katlı") → düzeltildi. G42: buzdolabının üstünde 3–4 küçük marka
+levhası vardı; düz çelik yüzey, satır satır yatay ara değerle silindi (kaynak `ozgun/G42.png`). Mutfak,
+araç, cihaz gibi markalı olabilen nesnelerde levha/rozet ara.
 
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız

@@ -46,7 +46,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 6 Tolga | G29–G30 | 11 Eki 12:14 | 11 Eki 12:19 | 11 Eki 12:21 | G29 önce ayrı kontrol; düzeltme yok. Kesim varsayılan `konuk`. Boy 0.90. G30'un havadaki eli sağ figür yuvasında ekran dışında kalıyor (adım 11'de bak) |
 | tekli konuklar | G31–G34 | 11 Eki ~12:21 (Sohbet 6 bitince) | 11 Eki 12:28 | 11 Eki 12:32 | sıra karışık geldi (3.=Saadet, 4.=Sarkis), görselden düzeltildi. Beyaz gömlek/bez için `konuk_beyaz`. Gülsüm ve Saadet saç halesi elle. Boy: Gülsüm 0.80, Bülent 0.94, Sarkis 0.80, Saadet 0.72 |
 | 7 Atölye | G35–G37, G44 | 11 Eki 12:34 | 11 Eki 12:44 | 11 Eki ~12:50 | G35 önce ayrı kontrol. G44: siyah uzun kol Lâl'i çağrıştırıyordu (satır Gülsüm'ün) → bir düzeltme |
-| 8 Otel | G40 → G41, G42 | 11 Eki 13:12 | | | |
+| 8 Otel | G40 → G41, G42 | 11 Eki 13:12 | 11 Eki ~13:30 | 11 Eki 13:22 | G40 önce ayrı kontrol: pasta 4 kattı → bir düzeltme (5 kat). G42 buzdolabındaki marka levhaları elle silindi |
 | 9 Terzi | G43 → G45 | | | | |
 | Sokak, Salon | G38, G39 | | | | |
 | kareler (her biri ayrı sohbet) | G46–G59 | | | | |
