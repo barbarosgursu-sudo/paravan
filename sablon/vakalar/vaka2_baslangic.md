@@ -42,7 +42,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 2 Cengo | G14–G18 | 11 Eki 10:54 | 11 Eki 11:05 | 11 Eki 11:08 | hepsi ChatGPT; G14 önce ayrı kontrol edildi. G15–G16'da beyaz yaka ucu zeminle gidiyordu → `cengo_beyaz` profili. Saç halesi baş kutusunda elle. Düzeltme promptu gerekmedi |
 | 3 Müjgan | G19–G21 | 11 Eki ~11:08 (Sohbet 2 bitince; ayrıca bildirilmedi) | 11 Eki 11:20 | 11 Eki 11:23 | G19 önce ayrı kontrol: saç bal-kumraldı, metin "platin" diyor → bir düzeltme. G21'de sola uzanan el satırın zemin örneğini bozdu → `konuk_sag` profili. Boy 0.82 (uzun boylu) |
 | 4 Defne | G22–G25 | 11 Eki 11:25 | 11 Eki 11:32 | 11 Eki 11:38 | G22 önce ayrı kontrol; düzeltme yok. Koyu saçın kıvrımındaki bej hale elle (ten korunarak; ilk denemede G24'ün göz akı da gidiyordu). Boy 0.80 |
-| 5 Lâl | G26–G28 | 11 Oct 12:01 | | | |
+| 5 Lâl | G26–G28 | 11 Eki 12:01 | 11 Eki 12:10 | 11 Eki 12:13 | G26 önce ayrı kontrol. Üçünde de gözlük sapında yazı benzeri iz → elle silindi (düz siyah yüzey). G28 parmağı sol kenarda → `konuk_sag`. Boy 0.80 |
 | 6 Tolga | G29–G30 | | | | |
 | tekli konuklar | G31–G34 | | | | |
 | 7 mekânlar, detay | G35–G45 | | | | |
