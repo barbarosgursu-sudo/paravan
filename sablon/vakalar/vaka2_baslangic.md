@@ -30,6 +30,24 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | 12–13 Onay 3, düzeltmeler | | | |
 | 14 Vaka donar | | | |
 
+**Adım 9–10 sohbet sohbet (sahibinin isteği: üretim süresi de ölçülür).** Sahibi "Sohbet N'e
+başlıyorum" deyince **üretim başladı** yazılır; görselleri gönderince **üretim bitti**; paket
+oyuna gömülüp sahibine gösterilince **işleme bitti**. ChatGPT dosya adlarındaki saat (ilk ve son
+görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da tablodan okunur; sahibi
+"ara" demedikçe çalışma süresidir.
+
+| sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
+|---|---|---|---|---|---|
+| 1 Peri | G1–G13 | | | | |
+| 2 Cengo | G14–G18 | | | | |
+| 3 Müjgan | G19–G21 | | | | |
+| 4 Defne | G22–G25 | | | | |
+| 5 Lâl | G26–G28 | | | | |
+| 6 Tolga | G29–G30 | | | | |
+| tekli konuklar | G31–G34 | | | | |
+| 7 mekânlar, detay | G35–G45 | | | | |
+| kareler | G46–G59 | | | | |
+
 **Ara:** 10 Ekim 19:44'te ara verildi (sahibi). Ara süresi toplama girmez; yeniden başlanınca saat yazılır. Aradan sonra 19:54'te G1'in (Peri, tayyör) promptu ve referansları sahibine verildi; sahibinin isteğiyle **süreden sayılmaz**. Toplu görsel işleme aracının (`kaynak/arac_paket.js`) yazımı da sahibinin isteğiyle **süreden sayılmaz**; kalan 59 görsel bu araçla, paket paket işlenir.
 
 ## 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)

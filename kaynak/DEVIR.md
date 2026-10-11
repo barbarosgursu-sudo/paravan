@@ -15,7 +15,10 @@ ChatGPT'de **Sohbet 1'i (Peri, G1–G13)** üretiyor, bitince 13 görseli **tek 
 gönderecek. Bu pencerenin işi: görselleri değerlendirmek, işlemek, oyuna gömmek ve Vaka 2'yi
 sona (adım 14) götürmek. Süre tablosu: `sablon/vakalar/vaka2_baslangic.md` §1. **Adım 9'un başlangıcı = sahibinin bu
 pencereye İLK MESAJI verdiği an** (sahibinin kararı): o saati (TSİ, `TZ=Europe/Istanbul date`)
-hemen tabloya yaz; öncesi ara, toplama girmez. Bitişleri de sen yaz.
+hemen tabloya yaz; öncesi ara, toplama girmez. **Üretim süresi de ölçülür:** §1'deki sohbet
+tablosuna her sohbetin üretim başladı / üretim bitti / işleme bitti saatini yaz (sahibi "Sohbet N'e
+başlıyorum" der, görselleri gönderir; ChatGPT dosya adındaki saatlerle karşılaştır). Sahibi "ara"
+demedikçe sohbetler arası boşluk çalışma süresidir.
 
 ### Okuma sırası
 1. `CLAUDE.md` · 2. **bu bölüm** · 3. `sablon/vakalar/vaka2_baslangic.md` (§2 Vaka 1 dersleri,
