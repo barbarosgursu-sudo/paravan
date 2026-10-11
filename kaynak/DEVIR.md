@@ -60,6 +60,13 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
+### ⏸ Ara (11 Eki 12:56) — KALDIĞIN YER
+Gömülü: G1–G12, G14–G37, G44. Açık: **G13** (yerinde geçici G12). Sırada Sohbet 7'nin kalanı:
+**G38–G43, G45** — G40 (→ G41, G42) ve G43 (→ G45) önce tek tek gönderilir, onaylanınca türeyenler;
+G38, G39 bağımsız. Sonra **kareler G46–G59**. Sahibi başladığını haber verince saati
+`vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
+`arac_yeni_tur.js 0 defne dogru` yolu yok.
+
 ### Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,…,G13=peri_beyaz --genis G3,G8 --yaz`
 (dosyalar sahibinden `G1.png…` adıyla geldi, `--sira`sız). Öğrenilenler — sonraki paketler için:
