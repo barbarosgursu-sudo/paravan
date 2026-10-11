@@ -137,7 +137,9 @@
     "A20b": "arka_a20b.webp",
     "A21": "arka_a21.webp",
     "A22": "arka_a22.webp",
-    "D7": "detay_d7.webp"
+    "D7": "detay_d7.webp",
+    "A18": "arka_a18.webp",
+    "A19": "arka_a19.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
   "genis": [
@@ -199,11 +201,9 @@
     "A21": {"ad": "Otel · pasta mutfağı", "grup": "otel_mutfak"},
     "A22": {"ad": "Kurtuluş · terzi", "grup": "terzi"}
   },
-  "yer_tutucu": ["A18", "A19", "K19", "K20", "K21", "K22", "K23", "K24", "K25", "K26", "K27", "K28", "K29", "K30", "K31", "K32"],
+  "yer_tutucu": ["K19", "K20", "K21", "K22", "K23", "K24", "K25", "K26", "K27", "K28", "K29", "K30", "K31", "K32"],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
-    "A18": "Teşvikiye: atölyenin sokağı, vale panosu",
-    "A19": "Ersoy'ların salonu, Nişantaşı",
     "K19": "Peri masanın kenarında, bacak bacak üstüne; Müjgan süzüyor",
     "K20": "Kapıda tepsili Saadet ve Cengo; masanın altında Peri",
     "K21": "Cengo kolunda nedimeyle balon kemerinin altında; Peri kapıda",
