@@ -39,7 +39,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
 |---|---|---|---|---|---|
 | 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | 11 Eki 10:00 | G8–G9 Grok'ta (912×1136, araç büyüttü; ölçek tuttu). G1 boydan geldi → elle kırpıldı. Krema/örtü için `peri_beyaz` kesim profili eklendi. G10–13 boyun cebi elle temizlendi. Sonra sahibi çorap bandını kaldırttı: G8–G12 Grok'ta yeniden (bantsız) gömüldü; **G13 açık** (limit), yerine geçici G12 |
-| 2 Cengo | G14–G18 | | | | |
+| 2 Cengo | G14–G18 | 11 Eki 10:54 | | | |
 | 3 Müjgan | G19–G21 | | | | |
 | 4 Defne | G22–G25 | | | | |
 | 5 Lâl | G26–G28 | | | | |
@@ -48,7 +48,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 | 7 mekânlar, detay | G35–G45 | | | | |
 | kareler | G46–G59 | | | | |
 
-**Ara 2:** 11 Ekim 10:23'te Sohbet 1 bitip Sohbet 2'den önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 2'ye başlıyorum" deyince süre yeniden başlar.
+**Ara 2:** 11 Ekim 10:23'te Sohbet 1 bitip Sohbet 2'den önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 2'ye başlıyorum" deyince süre yeniden başlar. Süre 11 Ekim 10:54'te yeniden başladı.
 
 **Ara:** 10 Ekim 19:44'te ara verildi (sahibi). Ara süresi toplama girmez; yeniden başlanınca saat yazılır. Aradan sonra 19:54'te G1'in (Peri, tayyör) promptu ve referansları sahibine verildi; sahibinin isteğiyle **süreden sayılmaz**. Toplu görsel işleme aracının (`kaynak/arac_paket.js`) yazımı da sahibinin isteğiyle **süreden sayılmaz**; kalan 59 görsel bu araçla, paket paket işlenir.
 
