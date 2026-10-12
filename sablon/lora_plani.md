@@ -27,6 +27,19 @@ iş sayfası: https://claude.ai/artifact/VZx993DUZZniyMiYrtsExm (üreticisi `sab
 - Tutarsa aynı yöntemle Cengo seti.
 Bu set Adım 1'deki oyun görselleriyle birleştirilebilir (en iyi 25–30 seçilir).
 
+**Durum (12 Ekim 2026): Peri seti BİTTİ — 25/25.** Yeniden üretilen: L1 (yaş, kaş), L3 (yüz dolgun;
+düzeltme tutmadı, yeni sohbette baştan), L11 (iki ayrı küpe), L14 (yaş). L8'deki ben gibi nokta
+rötuşla silindi. **Sahibinin kararı: oyun görselleri eklenmiyor** — set tek başına yeterli ve daha
+çeşitli; oyun görselleri hep aynı bej zemin/kadraj. Yani Adım 1–2 Peri için atlandı.
+Eğitim paketi (`prvperi_egitim_seti.zip`: `L01–L25.png` + aynı adlı `.txt`) sahibine verildi;
+görseller depoda yok (43 MB), yazılar `sablon/lora_sayfa/egitim_yazilari/`'nda.
+Yazıların kuralı: `prvperi, <stil>, <kadraj>, <açı/poz>, <ifade>, <kıyafet>, <küpe>, <saç biçimi>,
+<zemin/ışık>`. Yüz, saç RENGİ, ruj yazılmaz (tetiğe bağlansın). Değişebilir olması istenen her şey
+yazılır: saç biçimi (topuz/açık), küpe (inci/altın), tırnak (kırmızı), ifade çizgileri (`furrowed
+brows`), ışık (`bright sunlight` — L21'de saç güneşte parlak). Ders: ChatGPT'de "düzelt" yüzeyi
+(cilt, küpe) düzeltir, yüzün iskeletini (yüz hattı) düzeltmez — o zaman yeni sohbet. Sağa dönük
+üç çeyrekte yüz dolgun çıkıyor; sert ifadeler (temkinli, çatık) yaşı yukarı itiyor.
+
 ## Adım 1 — Veri toplama (sahibi, ~30 dk)
 
 - Sahibinin telefonundaki **orijinal** ChatGPT/Grok/Gemini çıktıları (ekran görüntüsü değil).
