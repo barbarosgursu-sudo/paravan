@@ -99,3 +99,22 @@ daha teknik. Civitai eğiticisi yetmezse.
 - Oyunun kuralı değişmez: çekici, **çıplaklık yok**. LoRA verisi zaten bu çizgide.
 - Eğitim verisi Civitai'ye yüklenir; model özel tutulur. İstenmezse RunPod yolu veriyi dışarıya
   açmadan eğitir.
+
+## Sonuç — Peri LoRA (12 Ekim 2026)
+
+Civitai Training Studio, **SDXL Standard**, 25 görsel, etiket (tags) kipi, Auto-label = Manual (bizim
+`.txt`'ler), tetik `prvperi`, 2000 adım / 10 epoch, 500 Buzz (~0,5 $), 1 sa 30 dk. Civitai'de
+**11 Kasım 2026'ya kadar** duruyor; 10 checkpoint'in hepsi sahibinde (`C:\lora\peri_checkpoints`).
+Forge'da kullanılan: `prvperi_e10` (ana), `prvperi_e07` (yedek) → `C:\forge\webui\models\Lora`.
+
+Forge denemeleri (DreamShaper XL Lightning, 6 adım, CFG 2, DPM++ SDE Karras, GPU Weights 4096):
+- 0.8, boydan 832×1216: kimlik tutarlı; ama **yüz ~100 px → gözler bozuk/orantısız**. Sebep çözünürlük,
+  LoRA değil (yakın portrede gözler temiz). Çözüm: **ADetailer** (face_yolov8n). 4 görsel 7 dk 23 sn.
+- Zümrüt tayyörde "hand on hip" tutmadı, el yakada (L12/L18 pozu ezberlenmiş).
+- 0.6: kıyafet serbest (kırmızı gece elbisesi tuttu) ama **yüz Peri'den uzaklaştı** → kullanma.
+- 0.8 yakın portre: aynı kadın ama yüz geniş/yuvarlak, göz kapağı ağır, "alım" eksik.
+- **1.0 + güzellik tarifi + negatif → L1'e en yakın.** Sabit ayar bu:
+  - pozitif: `<lora:prvperi_e10:1.0> prvperi, painted illustration, semi-realistic graphic novel style,
+    beautiful woman, high cheekbones, slim face, sharp jawline, bright eyes, …`
+  - negatif: `wide face, round face, double chin, heavy eyelids, tired eyes, old, wrinkles`
+Sırada: ADetailer kurulumu → bu ayarlarla boydan deneme → kıyafet esnekliği 1.0'da yeniden sınanır.
