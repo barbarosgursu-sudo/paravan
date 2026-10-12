@@ -138,3 +138,14 @@ sağa dönük üç çeyrekte yüz dolgunlaşabilir (düzelt tutmazsa yeni sohbet
   hands, blob`; ana negatife `deformed hands, fused fingers, extra fingers, missing fingers`. Sonuç:
   eller ayrık ve doğal, yüz değişmedi. Bedel: **4 görsel 16 dk 52 sn (~4,2 dk/görsel)** → 8 saatte ~110.
   Kalan: tırnak hâlâ kırmızı (ana prompt kazanıyor) → ana prompta `nude nail polish`.
+- **Tırnak:** ana prompta `nude nail polish`, ana negatife `red nails` → 3/4 ten rengi, 1/4 hâlâ
+  koyu/bordo (dördüncü görsel). Eller sağlam. Bu ayar gece betiğinin sabitlerine girer.
+
+### Sabit Peri ayarı (gece betiği bundan başlar)
+- Model DreamShaper XL Lightning, 6 adım, CFG 2, DPM++ SDE Karras, 832×1216 (portre 1024×1024), GPU Weights 4096
+- Pozitif başı: `<lora:prvperi_e10:1.0> prvperi, painted illustration, semi-realistic graphic novel style,
+  beautiful woman, high cheekbones, slim face, sharp jawline, bright eyes,` … sonu `, nude nail polish`
+- Negatif: `wide face, round face, double chin, heavy eyelids, tired eyes, old, wrinkles, deformed hands,
+  fused fingers, extra fingers, missing fingers, red nails`
+- ADetailer 1st `face_yolov8n.pt` (prompt boş); 2nd `hand_yolov8n.pt` (yalnız el görünen kadrajlarda)
+- Seçilenler Extras → R-ESRGAN 4x+ ×1.5 (1248×1824)
