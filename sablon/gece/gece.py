@@ -36,6 +36,19 @@ def adetailer(el):
                          "ad_denoising_strength": 0.5})
     return {"ADetailer": {"args": [True, False] + sekmeler}}
 
+def referans_oku(yol):
+    for aday in (yol, os.path.splitext(yol)[0] + ".png", os.path.splitext(yol)[0] + ".jpg"):
+        if os.path.exists(aday):
+            return base64.b64encode(open(aday, "rb").read()).decode()
+    raise FileNotFoundError("referans görsel yok: " + yol)
+
+def controlnet(yol):
+    # Onaylı bir görselin derinlik haritası duruşu ve elleri sabitler; LoRA yüzü verir.
+    return {"ControlNet": {"args": [{
+        "enabled": True, "image": referans_oku(yol), "module": "depth_anything",
+        "model": "diffusers_xl_depth_mid", "weight": 0.7, "guidance_start": 0.0, "guidance_end": 0.7,
+        "pixel_perfect": True, "resize_mode": "Crop and Resize", "control_mode": "Balanced"}]}}
+
 def istek(yol, veri=None):
     r = urllib.request.Request(FORGE + yol, data=json.dumps(veri).encode() if veri else None,
                                headers={"Content-Type": "application/json"})
@@ -52,6 +65,8 @@ def uret(is_, klasor):
                 alwayson_scripts=adetailer(el))
     if portre:
         veri.update(width=1024, height=1024)
+    if is_.get("referans"):
+        veri["alwayson_scripts"].update(controlnet(is_["referans"]))
     if is_.get("hires", True):
         veri.update(HIRES)
     t = time.time()

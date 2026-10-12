@@ -1,9 +1,8 @@
 [
-  {"ad": "hr_el_tayyor_boydan", "karakter": "peri", "adet": 2,
-   "prompt": "full body, standing, three-quarter view, one hand on hip, emerald green suit jacket, white silk blouse buttoned up to the collar under the jacket, pencil skirt, red stiletto heels, feet visible, shoes on the floor, pearl earrings, plain beige background",
-   "negatif": "deep cleavage, bare chest, cropped legs"},
-  {"ad": "hr_el_fincan", "karakter": "peri", "adet": 2,
+  {"ad": "cn_fincan", "karakter": "peri", "adet": 2, "referans": "C:\\lora\\peri\\L15",
    "prompt": "upper body, sitting on a sofa, three-quarter view, holding a white porcelain teacup with both hands, red v-neck knit sweater, pearl earrings, blurred living room background, warm lamp light"},
-  {"ad": "hr_el_kollar_kavusuk", "karakter": "peri", "adet": 2,
-   "prompt": "upper body, standing, front view, arms crossed under chest, hands visible, black fitted pencil dress, pearl earrings, plain light beige background"}
+  {"ad": "cn_kollar_kavusuk", "karakter": "peri", "adet": 2, "referans": "C:\\lora\\peri\\L9",
+   "prompt": "upper body, three-quarter view, arms crossed under chest, black v-neck fitted pencil dress, pearl earrings, plain light beige background"},
+  {"ad": "cn_isaret", "karakter": "peri", "adet": 2, "referans": "C:\\lora\\peri\\L16",
+   "prompt": "upper body, three-quarter view, one hand on hip, pointing finger to the left, angry, furrowed brows, cream satin blouse, black pencil skirt, pearl earring, plain light beige background"}
 ]
