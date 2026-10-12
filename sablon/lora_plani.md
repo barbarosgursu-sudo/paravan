@@ -123,3 +123,12 @@ Sırada: ADetailer kurulumu → bu ayarlarla boydan deneme → kıyafet esnekli�
   "evening dress" 3/4'te kısa kalem elbiseye kaydı (setteki kalem etek siluetinin ezberi) → uzun
   isteniyorsa `floor-length` yaz; "plain beige background" 2/4'te iç mekâna döndü.
   Not: Forge yeniden başlayınca ayarlar varsayılana döner (CFG 5, 20 adım…) — her açılışta kontrol.
+
+## Cengo seti (12 Ekim 2026, sahibinin kararı: Peri yöntemiyle aynı)
+
+İş sayfası: https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc (üreticisi `sablon/lora_sayfa/uret_cengo.py`).
+25 görsel, C1–C8 yakın yüz · C9–C17 bel üstü · C18–C25 boydan. Referans G14-1 (kahverengi ceket);
+**C1 = setin yüz referansı**, Claude onaylamadan devam edilmez. Tetik `prvcengo`. Boncuklu bileklik
+yalnız oyun kıyafetlerinde (C9, C10, C18, C19) — eğitim yazısında açıkça yazılacak ki promptla
+açılıp kapanabilsin. Peri'den dersler baştan uygulandı: sert ifadeler yaşı iter (düzelt: cilt),
+sağa dönük üç çeyrekte yüz dolgunlaşabilir (düzelt tutmazsa yeni sohbet).
