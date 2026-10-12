@@ -149,3 +149,11 @@ sağa dönük üç çeyrekte yüz dolgunlaşabilir (düzelt tutmazsa yeni sohbet
   fused fingers, extra fingers, missing fingers, red nails`
 - ADetailer 1st `face_yolov8n.pt` (prompt boş); 2nd `hand_yolov8n.pt` (yalnız el görünen kadrajlarda)
 - Seçilenler Extras → R-ESRGAN 4x+ ×1.5 (1248×1824)
+
+## Gece betiği ilk gerçek çalışma (12 Ekim 2026, 17:15)
+`sablon/gece/` (gece.py + is_listesi.json + baslat.bat) → sahibinde `C:\lora\gece_betik`. Forge
+`webui-user.bat` → `set COMMANDLINE_ARGS=--api`. **Çalıştı:** 17:15'te kendiliğinden başladı, 17:28 bitti.
+Portre 2 görsel 5,2 dk (el kapalı), boydan 2 görsel 7,9 dk (el açık). Yüzler 4/4 Peri, eller sağlam.
+Kayan: tayyörde `silk blouse under jacket` tutmadı (L12 ezberi: bluzsuz derin V) ve `full body`
+yerine dizden kesik geldi. Tayyör için sırada: bluz rengini/ilikliliğini açıkça yaz + negatife
+`deep cleavage, bare chest`; boydan için `feet visible, shoes visible` ekle.
