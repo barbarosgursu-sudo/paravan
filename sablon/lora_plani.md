@@ -132,3 +132,9 @@ Sırada: ADetailer kurulumu → bu ayarlarla boydan deneme → kıyafet esnekli�
 yalnız oyun kıyafetlerinde (C9, C10, C18, C19) — eğitim yazısında açıkça yazılacak ki promptla
 açılıp kapanabilsin. Peri'den dersler baştan uygulandı: sert ifadeler yaşı iter (düzelt: cilt),
 sağa dönük üç çeyrekte yüz dolgunlaşabilir (düzelt tutmazsa yeni sohbet).
+- **Eller:** boydan görselde parmak uçları/tırnaklar kaynıyordu (el ~70 px; kırmızı tırnak kırmızı
+  elbiseye karışıyor). Çözüm: ADetailer **2nd** sekmesi `hand_yolov8n.pt`, prompt `beautiful hands,
+  five fingers, natural nails, nude nail polish`, negatif `fused fingers, extra fingers, deformed
+  hands, blob`; ana negatife `deformed hands, fused fingers, extra fingers, missing fingers`. Sonuç:
+  eller ayrık ve doğal, yüz değişmedi. Bedel: **4 görsel 16 dk 52 sn (~4,2 dk/görsel)** → 8 saatte ~110.
+  Kalan: tırnak hâlâ kırmızı (ana prompt kazanıyor) → ana prompta `nude nail polish`.
