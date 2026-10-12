@@ -18,14 +18,15 @@ KARAKTER = {
              "son": "nude nail polish",
              "negatif": "wide face, round face, double chin, heavy eyelids, tired eyes, old, wrinkles"},
 }
-EL_NEGATIF = "deformed hands, fused fingers, extra fingers, missing fingers, red nails"
+EL_NEGATIF = "deformed hands, fused fingers, extra fingers, missing fingers, deformed thumb, red nails"
 
 def adetailer(el):
     sekmeler = [{"ad_model": "face_yolov8n.pt"}]
     if el:
         sekmeler.append({"ad_model": "hand_yolov8n.pt",
                          "ad_prompt": "beautiful hands, five fingers, natural nails, nude nail polish",
-                         "ad_negative_prompt": "fused fingers, extra fingers, deformed hands, blob"})
+                         "ad_negative_prompt": "fused fingers, extra fingers, deformed hands, blob, deformed thumb",
+                         "ad_denoising_strength": 0.5})
     return {"ADetailer": {"args": [True, False] + sekmeler}}
 
 def istek(yol, veri=None):
@@ -40,7 +41,7 @@ def uret(is_, klasor):
     el = is_.get("el", not portre)
     veri = dict(SABIT, n_iter=is_.get("adet", 1),
                 prompt=", ".join([k["bas"], is_["prompt"], k["son"]]),
-                negative_prompt=", ".join([k["negatif"]] + ([EL_NEGATIF] if el else [])),
+                negative_prompt=", ".join([k["negatif"]] + ([EL_NEGATIF] if el else []) + ([is_["negatif"]] if is_.get("negatif") else [])),
                 alwayson_scripts=adetailer(el))
     if portre:
         veri.update(width=1024, height=1024)

@@ -1,6 +1,11 @@
 [
-  {"ad": "deneme_portre", "karakter": "peri", "portre": true, "adet": 2,
-   "prompt": "close-up portrait, three-quarter view, face turned to the left, faint smile, cream silk blouse, pearl earrings, plain beige background"},
-  {"ad": "deneme_tayyor", "karakter": "peri", "adet": 2,
-   "prompt": "full body, standing, three-quarter view, emerald green suit jacket with deep v neckline, silk blouse under jacket, pencil skirt, red stiletto heels, pearl earrings, plain beige background"}
+  {"ad": "el_tayyor_boydan", "karakter": "peri", "adet": 2,
+   "prompt": "full body, standing, three-quarter view, one hand on hip, emerald green suit jacket, white silk blouse buttoned up to the collar under the jacket, pencil skirt, red stiletto heels, feet visible, shoes on the floor, pearl earrings, plain beige background",
+   "negatif": "deep cleavage, bare chest, cropped legs"},
+  {"ad": "el_fincan", "karakter": "peri", "adet": 2,
+   "prompt": "upper body, sitting on a sofa, three-quarter view, holding a white porcelain teacup with both hands, red v-neck knit sweater, pearl earrings, blurred living room background, warm lamp light"},
+  {"ad": "el_kollar_kavusuk", "karakter": "peri", "adet": 2,
+   "prompt": "upper body, standing, front view, arms crossed under chest, hands visible, black fitted pencil dress, pearl earrings, plain light beige background"},
+  {"ad": "el_cene", "karakter": "peri", "adet": 2,
+   "prompt": "upper body, sitting at a desk, three-quarter view, chin resting on one hand, thoughtful, cream silk blouse, pearl earrings, blurred office background, daylight"}
 ]
