@@ -169,3 +169,12 @@ Poz kuralı (her durumda): Forge işlerinde mümkünse eller cepte/arkada/kadraj
   çalıştı, ~5–6 dk/görsel. **Sonuç: el görünen 6 görselin hiçbirinde düzgün el yok** (altı parmak,
   eğik). Hires. fix + ADetailer el 0.5 elleri ÇÖZMÜYOR. Sırada tek ciddi aday: ControlNet (onaylı
   ChatGPT görselinden duruş/el iskeleti). Tutmazsa karar: el görünen kareler ChatGPT'de kalır.
+
+## Arka planlar (Forge) — plan (12 Ekim 2026)
+Kişisiz mekân LoRA'sız ve ADetailer'sız üretilir (`"karakter": "mekan"` → gece.py MEKAN): stil satırı +
+"empty room, no people, eye level, warm daylight"; negatif kişi + YAZI (tabela, plaka, etiket).
+896×1192 (3:4) + Hires. fix ×1.5 → 1344×1788, oyunda 900×1200'e iner. El sorunu yok, bu yüzden
+Forge'un en güçlü olduğu iş bu olmalı. Deneme: `is_listesi_mekan.json` = Vaka 2 A15, A18, A19, A22,
+her biri 2 (`baslat_mekan.bat`, 21:15). Denetim aynı: yazı taraması, nesne sayımı (§E), doğru şehir.
+Tarz tutarlılığı gerekirse sonraki adım: ChatGPT tarz referansından (G35-1 vb.) IP-Adapter ya da
+img2img; ilk denemede düz txt2img.

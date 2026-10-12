@@ -25,6 +25,9 @@ KARAKTER = {
              "son": "nude nail polish",
              "negatif": "wide face, round face, double chin, heavy eyelids, tired eyes, old, wrinkles"},
 }
+# Mekân: kişisiz arka plan. LoRA yok, ADetailer yok; oran 3:4 dikey (oyun 900×1200).
+MEKAN = {"bas": STIL + ", detailed background art, empty room, no people, eye level camera, warm daylight",
+         "negatif": "people, person, woman, man, figure, crowd, text, letters, words, sign, logo, watermark, label, numbers, blurry"}
 EL_NEGATIF = "deformed hands, fused fingers, extra fingers, missing fingers, deformed thumb, red nails"
 
 def adetailer(el):
@@ -55,7 +58,18 @@ def istek(yol, veri=None):
     with urllib.request.urlopen(r, timeout=3600) as y:
         return json.load(y)
 
+def uret_mekan(is_):
+    return dict(SABIT, n_iter=is_.get("adet", 1), width=896, height=1192,
+                prompt=", ".join([MEKAN["bas"], is_["prompt"]]),
+                negative_prompt=", ".join([MEKAN["negatif"]] + ([is_["negatif"]] if is_.get("negatif") else [])),
+                alwayson_scripts={})
+
 def uret(is_, klasor):
+    if is_["karakter"] == "mekan":
+        veri = uret_mekan(is_)
+        if is_.get("hires", True):
+            veri.update(HIRES)
+        return kaydet(is_, klasor, veri)
     k = KARAKTER[is_["karakter"]]
     portre = is_.get("portre", False)
     el = is_.get("el", not portre)
@@ -69,6 +83,9 @@ def uret(is_, klasor):
         veri["alwayson_scripts"].update(controlnet(is_["referans"]))
     if is_.get("hires", True):
         veri.update(HIRES)
+    return kaydet(is_, klasor, veri)
+
+def kaydet(is_, klasor, veri):
     t = time.time()
     sonuc = istek("/sdapi/v1/txt2img", veri)
     for i, b64 in enumerate(sonuc["images"][:veri["n_iter"]]):

@@ -1,0 +1,11 @@
+[
+  {"ad": "A15_atolye_salon", "karakter": "mekan", "adet": 2,
+   "prompt": "a dressmaker's atelier in an old Istanbul apartment, high ceiling, cream walls, plaster ceiling ornament, a tall standing mirror with gilded frame on the left, two empty dress forms with no fabric on the right, shelves with colorful fabric rolls on the back wall, soft daylight from a window, parquet floor with a small rug, empty floor space in the center"},
+  {"ad": "A18_tesvikiye_sokak", "karakter": "mekan", "adet": 2,
+   "prompt": "an elegant tree-lined street in Nisantasi Istanbul, old stone apartment buildings, a ground floor atelier door with curtained glass and no sign, two parked cars seen from the side, sidewalk, daylight, empty street in the center",
+   "negatif": "license plate, shop sign, storefront text"},
+  {"ad": "A19_ersoy_salon", "karakter": "mekan", "adet": 2,
+   "prompt": "a wealthy modern living room in Nisantasi Istanbul, high ceiling, crystal chandelier, cream sofas, a large window with long white sheer curtains, white orchids on a coffee table, abstract paintings without frames, cool tones, view of old Istanbul apartments through the window, empty floor space in the center"},
+  {"ad": "A22_terzi_dukkani", "karakter": "mekan", "adet": 2,
+   "prompt": "a narrow old tailor shop in Kurtulus Istanbul, wooden counter, an old sewing machine, garments hanging in plain covers on the wall, a dress form in the corner wearing an ivory lace wedding dress with a half unstitched train, shop window facing the street with no writing on the glass, warm daylight, empty floor space in the center"}
+]
