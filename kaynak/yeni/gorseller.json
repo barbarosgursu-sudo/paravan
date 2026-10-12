@@ -152,9 +152,10 @@
     "K29": "ara_k29.webp",
     "K30": "ara_k30.webp",
     "K31": "ara_k31.webp",
-    "K32": "ara_k32.webp"
+    "K32": "ara_k32.webp",
+    "peri.ortulu.utanmis": "sprite/peri_ortulu_utanmis.webp"
   },
-  "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır.", "peri.ortulu.utanmis": "peri.ortulu.sasirmis"},
+  "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [
     "peri.mantosuz.sinirli",
     "peri.balikli.sinirli",
