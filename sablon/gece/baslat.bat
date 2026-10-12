@@ -1,5 +1,7 @@
 @echo off
-rem Paravan gece uretimi. Forge --api ile acik olmali. Saati degistirmek icin asagidaki 20:15i duzenle.
+rem Paravan uretimi. Forge --api ile acik olmali. Once el (ControlNet) denemesi, ardindan arka planlar.
+rem Saati degistirmek icin asagidaki 21:30u duzenle.
 cd /d %~dp0
-"C:\forge\system\python\python.exe" gece.py is_listesi.json --saat 20:15
+"C:\forge\system\python\python.exe" gece.py is_listesi.json --saat 21:30
+"C:\forge\system\python\python.exe" gece.py is_listesi_mekan.json
 pause

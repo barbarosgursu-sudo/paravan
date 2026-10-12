@@ -45,11 +45,26 @@ def referans_oku(yol):
             return base64.b64encode(open(aday, "rb").read()).decode()
     raise FileNotFoundError("referans görsel yok: " + yol)
 
+CN_MODEL = "diffusers_xl_depth_mid"
+CN_AD = None  # Forge'un listesindeki tam ad ("… [hash]" olabilir); main() doldurur
+
+def cn_modeli_bul():
+    # Forge ControlNet modelleri AÇILIŞTA okur; adı listeden almazsak sessizce ControlNet'siz çizer.
+    try:
+        liste = istek("/controlnet/model_list").get("model_list", [])
+    except Exception as e:
+        sys.exit("ControlNet model listesi alınamadı: %s" % e)
+    for ad in liste:
+        if ad.split(" [")[0] == CN_MODEL:
+            return ad
+    sys.exit("ControlNet modeli '%s' Forge'da yok. Dosya C:\\forge\\webui\\models\\ControlNet içinde mi? "
+             "Forge'u kapatıp yeniden açın. Görülen modeller: %s" % (CN_MODEL, liste))
+
 def controlnet(yol):
     # Onaylı bir görselin derinlik haritası duruşu ve elleri sabitler; LoRA yüzü verir.
     return {"ControlNet": {"args": [{
         "enabled": True, "image": referans_oku(yol), "module": "depth_anything",
-        "model": "diffusers_xl_depth_mid", "weight": 0.7, "guidance_start": 0.0, "guidance_end": 0.7,
+        "model": CN_AD, "weight": 0.7, "guidance_start": 0.0, "guidance_end": 0.7,
         "pixel_perfect": True, "resize_mode": "Crop and Resize", "control_mode": "Balanced"}]}}
 
 def istek(yol, veri=None):
@@ -106,6 +121,10 @@ def main():
         istek("/sdapi/v1/options")
     except Exception as e:
         sys.exit("Forge'a ulaşılamadı (açık mı, --api ile mi başladı?): %s" % e)
+    if any(i.get("referans") for i in liste):
+        global CN_AD
+        CN_AD = cn_modeli_bul()
+        print("ControlNet modeli:", CN_AD, flush=True)
     klasor = os.path.join(CIKTI, datetime.datetime.now().strftime("%Y%m%d_%H%M"))
     os.makedirs(klasor, exist_ok=True)
     print("Başladı:", datetime.datetime.now().strftime("%H:%M"), "→", klasor, flush=True)
