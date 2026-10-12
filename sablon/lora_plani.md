@@ -31,7 +31,7 @@ Bu set Adım 1'deki oyun görselleriyle birleştirilebilir (en iyi 25–30 seçi
 düzeltme tutmadı, yeni sohbette baştan), L11 (iki ayrı küpe), L14 (yaş). L8'deki ben gibi nokta
 rötuşla silindi. **Sahibinin kararı: oyun görselleri eklenmiyor** — set tek başına yeterli ve daha
 çeşitli; oyun görselleri hep aynı bej zemin/kadraj. Yani Adım 1–2 Peri için atlandı.
-Eğitim paketi (`prvperi_egitim_seti.zip`: `L01–L25.png` + aynı adlı `.txt`) sahibine verildi;
+Eğitim paketi (`prvperi_egitim_seti.zip`: `L1–L25` görseller + aynı adlı `.txt`; sahibinin dosyaları L1…L25 adında, yazılar da öyle) sahibine verildi;
 görseller depoda yok (43 MB), yazılar `sablon/lora_sayfa/egitim_yazilari/`'nda.
 Yazıların kuralı: `prvperi, <stil>, <kadraj>, <açı/poz>, <ifade>, <kıyafet>, <küpe>, <saç biçimi>,
 <zemin/ışık>`. Yüz, saç RENGİ, ruj yazılmaz (tetiğe bağlansın). Değişebilir olması istenen her şey
