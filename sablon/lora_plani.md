@@ -118,3 +118,8 @@ Forge denemeleri (DreamShaper XL Lightning, 6 adım, CFG 2, DPM++ SDE Karras, GP
     beautiful woman, high cheekbones, slim face, sharp jawline, bright eyes, …`
   - negatif: `wide face, round face, double chin, heavy eyelids, tired eyes, old, wrinkles`
 Sırada: ADetailer kurulumu → bu ayarlarla boydan deneme → kıyafet esnekliği 1.0'da yeniden sınanır.
+- **ADetailer (face_yolov8n, varsayılan ayarlar, prompt boş) + 1.0 + tarif/negatif, boydan:** gözler
+  simetrik ve net, yüz L1'e yakın, 4/4 tutarlı. **Başarı ölçütü geçti.** Kalan küçük şeyler: 1.0'da
+  "evening dress" 3/4'te kısa kalem elbiseye kaydı (setteki kalem etek siluetinin ezberi) → uzun
+  isteniyorsa `floor-length` yaz; "plain beige background" 2/4'te iç mekâna döndü.
+  Not: Forge yeniden başlayınca ayarlar varsayılana döner (CFG 5, 20 adım…) — her açılışta kontrol.
