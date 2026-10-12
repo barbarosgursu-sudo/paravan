@@ -15,7 +15,10 @@ SABIT = {  # lora_plani.md → "Sabit Peri ayarı"
 # Kalite önce (sahibinin kararı): görsel 1,5 kat büyütülüp YENİDEN çizilir; eller ve yüz büyük
 # çözünürlükte oluşur. Süre ~2-3 kat artar, önemli değil. "hires": false ile işe göre kapatılır.
 HIRES = {"enable_hr": True, "hr_scale": 1.5, "hr_upscaler": "R-ESRGAN 4x+",
-         "hr_second_pass_steps": 6, "denoising_strength": 0.45}
+         "hr_second_pass_steps": 6, "denoising_strength": 0.45,
+         # Forge API'si bu alanlar boş gelince çöküyor (TypeError: 'NoneType' is not iterable)
+         "hr_additional_modules": ["Use same choices"], "hr_checkpoint_name": "Use same checkpoint",
+         "hr_sampler_name": "Use same sampler", "hr_scheduler": "Use same scheduler"}
 STIL = "painted illustration, semi-realistic graphic novel style"
 KARAKTER = {
     "peri": {"bas": "<lora:prvperi_e10:1.0> prvperi, " + STIL + ", beautiful woman, high cheekbones, slim face, sharp jawline, bright eyes",
