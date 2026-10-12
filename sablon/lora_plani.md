@@ -157,3 +157,11 @@ Portre 2 görsel 5,2 dk (el kapalı), boydan 2 görsel 7,9 dk (el açık). Yüzl
 Kayan: tayyörde `silk blouse under jacket` tutmadı (L12 ezberi: bluzsuz derin V) ve `full body`
 yerine dizden kesik geldi. Tayyör için sırada: bluz rengini/ilikliliğini açıkça yaz + negatife
 `deep cleavage, bare chest`; boydan için `feet visible, shoes visible` ekle.
+
+## Eller — karar: kalite önce (12 Ekim 2026, sahibinin kararı: süre önemsiz, vaka başına ~60 görsel)
+17:40 el denemesi (ADetailer el 0.5): sahibine göre ellerin hepsinde sorun. Sıralı plan:
+1. **Hires. fix** (betikte varsayılan açık: ×1.5, R-ESRGAN 4x+, 6 adım, denoise 0.45) — ek indirme yok.
+2. Yetmezse **ControlNet depth/openpose**: her iş için onaylı ChatGPT görselinden duruş + el iskeleti;
+   LoRA yüzü verir. SDXL depth modeli (~2,5 GB) indirilecek.
+3. Yetmezse Lightning olmayan SDXL modeli, 25–30 adım.
+Poz kuralı (her durumda): Forge işlerinde mümkünse eller cepte/arkada/kadraj dışında.

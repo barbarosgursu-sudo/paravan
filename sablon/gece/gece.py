@@ -12,6 +12,10 @@ SABIT = {  # lora_plani.md → "Sabit Peri ayarı"
     "width": 832, "height": 1216, "batch_size": 1,
     "override_settings": {"sd_model_checkpoint": "dreamshaperXL_lightningDPMSDE"},
 }
+# Kalite önce (sahibinin kararı): görsel 1,5 kat büyütülüp YENİDEN çizilir; eller ve yüz büyük
+# çözünürlükte oluşur. Süre ~2-3 kat artar, önemli değil. "hires": false ile işe göre kapatılır.
+HIRES = {"enable_hr": True, "hr_scale": 1.5, "hr_upscaler": "R-ESRGAN 4x+",
+         "hr_second_pass_steps": 6, "denoising_strength": 0.45}
 STIL = "painted illustration, semi-realistic graphic novel style"
 KARAKTER = {
     "peri": {"bas": "<lora:prvperi_e10:1.0> prvperi, " + STIL + ", beautiful woman, high cheekbones, slim face, sharp jawline, bright eyes",
@@ -45,6 +49,8 @@ def uret(is_, klasor):
                 alwayson_scripts=adetailer(el))
     if portre:
         veri.update(width=1024, height=1024)
+    if is_.get("hires", True):
+        veri.update(HIRES)
     t = time.time()
     sonuc = istek("/sdapi/v1/txt2img", veri)
     for i, b64 in enumerate(sonuc["images"][:veri["n_iter"]]):
