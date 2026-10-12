@@ -14,6 +14,19 @@ betiği) temeli olur.
 **Başarı ölçütü:** Forge'da `<lora:…>` ile üretilen 4 Peri görselinden en az 3'ü, sahibine göre "bu
 Peri" — yüz, saç rengi/topuz, vücut hattı; kıyafet promptla değişebiliyor. Cengo için aynı.
 
+## Adım 0 — Eğitime özel Peri seti (12 Ekim 2026, sahibinin kararı; önce yalnız Peri)
+
+Oyun görselleri hep aynı bej zemin ve kadrajda; LoRA'ya çeşitlilik lazım. ChatGPT'de **25 görsel**,
+iş sayfası: https://claude.ai/artifact/VZx993DUZZniyMiYrtsExm (üreticisi `sablon/lora_sayfa/uret.py`).
+- Sohbet 1 · Yakın yüz (L1–L8, kare): açılar (önden, ¾ sol/sağ, profil, yukarıdan, aşağıdan), ifadeler,
+  ışıklar. **L1 = setin yüz referansı**: önce yalnız L1 üretilir, Claude asıl Peri'ye (G1-1) benzerliğini
+  onaylar; sonra devam.
+- Sohbet 2 · Bel üstü (L9–L17, 2:3), Sohbet 3 · Boydan (L18–L25, 2:3): 9 farklı kıyafet, farklı zemin
+  ve ışık. Her promptta referans: L1 (yüz) + G1-1 (vücut hatları); kimlik ve beden satırı sabit.
+- Her gelen görselde Claude yüzü L1 ile karşılaştırır; kayanlar elenir, yeniden ürettirilir.
+- Tutarsa aynı yöntemle Cengo seti.
+Bu set Adım 1'deki oyun görselleriyle birleştirilebilir (en iyi 25–30 seçilir).
+
 ## Adım 1 — Veri toplama (sahibi, ~30 dk)
 
 - Sahibinin telefonundaki **orijinal** ChatGPT/Grok/Gemini çıktıları (ekran görüntüsü değil).
