@@ -5,8 +5,8 @@ STIL = ("Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter 
         "ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. "
         "Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.")
 KIMLIK = ("Karakter: Perihan \"Peri\" Aksoy, 37 yaşında, bir zamanlar güzellik kraliçesi olmuş, hâlâ çok çekici ve bunun "
-          "farkında. Kumral-kızıl (kızıl-kahve) saç. Ela gözler, belirgin kaşlar, kırmızı ruj, gözlerinin kenarında hafif "
-          "gülme çizgileri; genç kız değil, olgun ve kendinden emin bir kadın. Vücut: referanstaki AYNI beden — kum saati "
+          "farkında. Kumral-kızıl (kızıl-kahve) saç. Ela gözler, belirgin kaşlar, kırmızı ruj; gözlerinin kenarında çok belli belirsiz, "
+          "yalnız gülümserken beliren ince bir iz (burun-dudak, alın ya da göz altı çizgisi yok); genç kız değil, olgun ve kendinden emin bir kadın. Vücut: referanstaki AYNI beden — kum saati "
           "hattı, dolgun göğüs, ince bel, belirgin kalça, uzun bacaklar; zayıflatma, kalınlaştırma, gençleştirme yok.")
 REF_TEMEL = ("Birinci referans görseldeki kadının AYNISI: aynı yüz (yüz hatları, gözler, kaşlar, burun, dudaklar, çene), "
              "aynı kızıl-kahve saç rengi, aynı yaş, aynı beden ve çizim tarzı. İkinci referans da aynı kadındır; yüzünü ve "
