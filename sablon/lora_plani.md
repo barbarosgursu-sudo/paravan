@@ -165,3 +165,7 @@ yerine dizden kesik geldi. Tayyör için sırada: bluz rengini/ilikliliğini aç
    LoRA yüzü verir. SDXL depth modeli (~2,5 GB) indirilecek.
 3. Yetmezse Lightning olmayan SDXL modeli, 25–30 adım.
 Poz kuralı (her durumda): Forge işlerinde mümkünse eller cepte/arkada/kadraj dışında.
+- **19:00 Hires. fix denemesi (API hatası 2 adımda giderildi: hr_additional_modules + açık hr_sampler_name):**
+  çalıştı, ~5–6 dk/görsel. **Sonuç: el görünen 6 görselin hiçbirinde düzgün el yok** (altı parmak,
+  eğik). Hires. fix + ADetailer el 0.5 elleri ÇÖZMÜYOR. Sırada tek ciddi aday: ControlNet (onaylı
+  ChatGPT görselinden duruş/el iskeleti). Tutmazsa karar: el görünen kareler ChatGPT'de kalır.
