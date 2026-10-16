@@ -3038,7 +3038,8 @@ arastirmaFazi = function(){
   b.className = "buton"; b.textContent = "Kim yaptı? →";
   b.addEventListener("click", () => kimYaptiEkrani());
   document.querySelector(".faz").append(b);
-  if(!a.reklamHak){
+  // Reklam yalnız hak bitince ve açılabilecek ipucu kaldıysa (sahibinin kararı, 16 Ekim 2026).
+  if(!a.reklamHak && a.arastirmaKalan <= 0 && oyun.acikKaynaklar().length){
     const rk = document.createElement("button");
     rk.className = "buton ikincil reklam-dugme"; rk.id = "reklamHak";
     rk.textContent = "▶ Reklam izle · +1 araştırma hakkı";

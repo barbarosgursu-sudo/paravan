@@ -84,7 +84,7 @@ düğmesi çıkmaz; Steam'de hak sayısı karar sonra (ör. reklamın yerine +1 
 
 **Deneme reklamı (16 Ekim 2026, sahibinin isteği).** Web sayfasında gerçek reklam yok; `yeni_arayuz.js →
 reklamGoster` 5 saniyelik bir taklit perde açar ("Ödülü al" / "Kapat (ödül yok)"). Araştırma ekranında
-"▶ Reklam izle · +1 araştırma hakkı" (motor `reklamHakAl`, kayıtta `aktif.reklamHak`); kapanıştan sonra
+"▶ Reklam izle · +1 araştırma hakkı" yalnız hak bitince ve açılacak ipucu kaldıysa (motor `reklamHakAl`, kayıtta `aktif.reklamHak`); kapanıştan sonra
 "Kaçırdığın ipuçları" ekranı (`kacanEkrani`, liste `…_kacan` anahtarında). Android'de yalnız
 `reklamGoster`'ın içi gerçek ödüllü reklamla değişir. Steam sürümü için düğmeler kapatılacak.
 
