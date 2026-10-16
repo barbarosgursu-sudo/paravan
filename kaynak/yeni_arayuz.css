@@ -97,6 +97,15 @@
   .vn-secim-baslik{font-size:16px}
   .vn-secim{font-size:22px;padding:16px 18px;min-height:60px}
 }
+/* Aynı eşikte eski arayüzün ekranları (masa, araştırma, kart, karar, sonuç) %30 büyür.
+   zoom bütün ekranı orantılı ölçekler; #app aynı oranda genişler ki iç düzen telefondaki
+   520 px'in aynısı kalsın. .vn #app'in içinde ama kendi boyunu yukarıda alıyor — iki kez
+   büyümesin diye hariç. */
+@media (min-width:600px) and (min-height:1050px){
+  #app{max-width:676px}
+  #app > :not(.vn){zoom:1.3}
+  .vn .vn-kisiler{zoom:1.3;position:absolute;max-width:none}  /* .vn'in genişliğini tam kaplasın */
+}
 @media (prefers-reduced-motion:reduce){
   .vn *,.vn *::before,.vn *::after{animation:none!important;transition:none!important}
 }
