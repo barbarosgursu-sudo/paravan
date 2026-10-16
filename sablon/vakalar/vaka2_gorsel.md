@@ -517,6 +517,28 @@ tablet ekranı, vale kürsüsü, tabela, dosya, plaka) · kıyafet sabitleri · 
 (gösterdiği şey o satırda hak edilmiş mi: D7 gelinliği yalnız terzi ipucunda görünür) · metindeki
 satırla uyum. Figürse: `arac_kes.js`, saç kenarı temizliği, ekranda Peri'nin yanında boy.
 
+
+---
+
+## Onay 3 ekleri (16 Ekim 2026) — adı geçen kişi ekranda değildi
+
+Sahibi görselli turda buldu: anlatı kalabalık anlatıyor, ekranda yok. Kural artık
+`7_uretim_sureci.md` → Görsel–metin uyum denetimi (ZORUNLU). Promptlar sahibine tek tek verildi.
+
+| # | tür | ne | anahtar | referanslar | satırlar |
+|---|---|---|---|---|---|
+| G60 | ara kare | Son prova: Defne sıranın başında, Müjgan, 4 nedime, Tolga, Lâl | `K33` | G41, G22, G19, G48, G29, G26 | yüzleşmenin dört açılışı |
+| G61 | ara kare | Herkes Defne'ye dönüyor; Müjgan bir adım atmış | `K34` | G41, G22, G19, G48, G29, G26 | nedimeler/herkes dönüyor, annesine bakıyor, "Gelme anne!", sandaletler |
+| G62 | ara kare | Atölyenin kapısı: faturayla bekleyen kumaşçının adamı | `K35` | G35, G57 | atölyeye geliş |
+| G63 | figür | Lâl, elinde siyah elbise kılıfı | `lal.kilif` | G26 | kapanış: "Bunu giy" |
+
+**G60 K33** (Ref: G41 mekân · G22 Defne · G19 Müjgan · G48 yalnız nedime elbisesi · G29 Tolga · G26 Lâl):
+balo salonu 2. açı, gündüz, son prova. Kadrajda TAM SEKİZ kişi: ön planda sıranın başında Defne (beyaz
+gömlek belde düğümlü, bej pantolon, düz taban sandalet; elleri kenetli, gergin); yanında Müjgan koluna
+girmiş, gururlu; arkada tek sıra DÖRT pembe saten nedime; sağda Tolga tabletle sırayı diziyor (ekran
+görünmüyor); solda Lâl bir nedimenin askısına iğne takıyor. Peri ve Cengo YOK. "Kadınlar en üst seviyede
+şık ve çekici" (riskli sözcük yok).
+
 ---
 
 ## K23 (G50) — ChatGPT'nin kendi yazdığı promptlar (16 Ekim 2026)
