@@ -107,6 +107,11 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
+### ✅✅ 16 Ekim 20:10: VAKA 2 DONDU (adım 14)
+Toplam ≈ 11 sa 06 dk (tablo: `sablon/vakalar/vaka2_baslangic.md` §1). 63 görsel (59 + Onay 3'te 4). Geçici
+"Vaka N'den başla" düğmesi kapalı (`VN_VAKA_ATLA = false`; Vaka 3 testinde gerekirse geçici açılır, yayından
+önce yine kapanır). **Sıradaki iş: Vaka 3** — sahibi "Vaka 3'e başla" deyince `sablon/vakalar/vaka3_baslangic.md`.
+
 ### ✅ 16 Ekim 19:31: Onay 3 sürüyor — sahibinin ilk notu uygulandı
 Sahibi: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU, `7_uretim_sureci.md`), `--hepsi` aday listesi,
 dört yeni görsel üretilip gömüldü: K33 son prova (4 açılış), K34 herkes Defne'ye dönüyor (7 satır), K35 atölye

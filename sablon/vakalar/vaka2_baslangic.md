@@ -27,8 +27,24 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | 8 Görsel listesi + promptlar | 10 Eki 19:40 | 10 Eki 19:44 | 59 görsel, `vaka2_gorsel.md`; 29 referans `vaka2_referans/` |
 | 9–10 Görseller, kontrol, yerleştirme | 11 Eki 09:17 (TSİ) | 16 Eki 16:47 | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
 | 11 Görselli tur | 16 Eki 16:58 | 16 Eki 17:40 | `arac_yeni_tur.js --hepsi` yazıldı (her satır görüntü + döküm); 4 yol × 4 sonuç × 4 karar + soğuk kapanış; 7 sahne düzeltmesi (konuk girişi ×3, K20, Kısası, K31 etiketi, Tolga eli); `--cihaz` temiz (bilinen tek bayrak) |
-| 12–13 Onay 3, düzeltmeler | | | |
-| 14 Vaka donar | | | |
+| 12–13 Onay 3, düzeltmeler | 16 Eki 17:40 | 16 Eki 19:52 | sahibinin tek notu: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU) + 4 yeni görsel (K33, K34, K35, `lal.kilif`), 4 tanıtım satırına `gir`; iki küçük soru "kalsın" |
+| 14 Vaka donar | 16 Eki 19:52 | 16 Eki 20:10 | geçici düğme kapandı; 8 son tur (bütün yollar, tablet, 19 boy) temiz |
+
+### Toplam (aralar ve "sayılmaz" işler hariç)
+
+| bölüm | süre |
+|---|---|
+| 1–8 (form → görsel listesi, 10 Eki) | 2 sa 52 dk |
+| 9–10 görseller (11 Eki 277 dk + 16 Eki 16:33–16:58 25 dk) | 5 sa 02 dk |
+| 11 görselli tur | 42 dk |
+| 12–13 Onay 3 + 4 ek görsel | 2 sa 12 dk |
+| 14 dondurma | 18 dk |
+| **Toplam** | **≈ 11 sa 06 dk** |
+
+Ölçülmeyen: G13'ün Gemini'de üretimi (12 Eki sabahı, birkaç dakika). Önceki tahmin 7–10 saatti;
+aşan kısım Onay 3'te sonradan istenen 4 görsel (~1,5 sa). Vaka 3'te "adı geçen kişi ekranda"
+kuralı adım 3 ve 8'de uygulanırsa bu süre baştan görsel listesine girer, Onay 3'e kalmaz.
+Görseller vakanın yarısına yakın (5 sa) — en büyük kalem.
 
 **Adım 9–10 sohbet sohbet (sahibinin isteği: üretim süresi de ölçülür).** Sahibi "Sohbet N'e
 başlıyorum" deyince **üretim başladı** yazılır; görselleri gönderince **üretim bitti**; paket
