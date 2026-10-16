@@ -8,14 +8,17 @@
 //   (Vaka 1 önce hızlı oynanır: V1 → V2 geçişi ve kayıt da böylece denenir.)
 //   --tablet (herhangi bir yerde): Pixel 5 yerine dikey tablet (800×1280) — yeni_arayuz.css'teki
 //   tablet eşiği (min-width:600px, min-height:1050px) devreye girer; tam sayfa görüntü alır.
+//   --cihaz: seçilen her anda 19 ekran boyunda (telefon, tablet dikey/yatay, bilgisayar) görüntü alır
+//   ve yerleşimi ölçer — ayrıntı arac_cihaz.js; çıktı YENI_UI/cihaz/ (karşılaştırma sayfaları + bayraklar).
 // Yazı tipi (Google Fonts) ve ses dosyası yükleme hataları çevrimdışı ortamda
 // beklenir; sayılmaz. Seçicilerde text= kullanılmaz (bkz. CLAUDE.md).
 const { chromium, devices } = require('/opt/node22/lib/node_modules/playwright');
 const path = require('path'), fs = require('fs');
 const SAYFA = path.join(__dirname, '..', 'yeni', 'index.html');
 const OUT = path.join(__dirname, 'YENI_UI'); fs.mkdirSync(OUT, { recursive: true });
-for (const f of fs.readdirSync(OUT)) fs.unlinkSync(path.join(OUT, f));
-const TABLET = process.argv.includes('--tablet'), ARG = process.argv.filter(a => a !== '--tablet');
+for (const f of fs.readdirSync(OUT)) fs.rmSync(path.join(OUT, f), { recursive: true });
+const TABLET = process.argv.includes('--tablet'), CIHAZ = process.argv.includes('--cihaz') && require('./arac_cihaz.js');
+const ARG = process.argv.filter(a => a !== '--tablet' && a !== '--cihaz');
 const KARAR = Number(ARG[2]||0), YOL = ARG[3]||"set", SONUC = ARG[4]||"dogru";
 // Vaka 2: yol adı ortu|vale|terzi|defne verilirse Vaka 1 hızlı oynanır, sonra Vaka 2.
 const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA = YOL2 ? "V2" : "V1";
@@ -29,7 +32,8 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
   if (TABLET) { const g = await p.evaluate(() => (document.querySelector('.vn')||{getBoundingClientRect:()=>({width:0})}).getBoundingClientRect().width);
     if (g <= 600) hata.push('tablet: konuşma ekranı ' + Math.round(g) + ' px — tablet eşiği devreye girmedi'); else console.log('tablet: konuşma ekranı', Math.round(g), 'px'); }
   let n = 0, shot = 0, tasma = [], gorulen = [];
-  const foto = async ad => { await p.waitForTimeout(350); await p.screenshot({ fullPage: TABLET, path: `${OUT}/${String(++shot).padStart(2,'0')}_${ad}.png` }); };
+  const foto = async ad => { await p.waitForTimeout(350); await p.screenshot({ fullPage: TABLET, path: `${OUT}/${String(++shot).padStart(2,'0')}_${ad}.png` });
+    if (CIHAZ) await CIHAZ.tara(p, ad); };
   const tasmaBak = async yer => { const w = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (w > 0) tasma.push(yer+':'+w); };
   // VN'i bitene kadar oynat
   const vnOyna = async (ad, fotoAnlar = []) => {
@@ -131,5 +135,6 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
   console.log(tasma.length ? '✗ yatay taşma: ' + tasma.join(' ') : '✓ yatay taşma yok');
   console.log(hata.length ? '✗ hata:\n  ' + hata.join('\n  ') : '✓ JS hatası yok');
   if (tasma.length || hata.length) process.exitCode = 1;
+  if (CIHAZ) await CIHAZ.rapor(b, OUT);
   await b.close();
 })().catch(e => { console.error('TUR HATASI', e.message); process.exit(1); });

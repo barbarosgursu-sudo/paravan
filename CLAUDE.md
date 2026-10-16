@@ -65,6 +65,15 @@ Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
 `--tablet` eklenirse (herhangi bir yere) Pixel 5 yerine dikey tablette (800×1280) oynatır ve
 tam sayfa görüntü alır; tablet eşiği tutmazsa hata basar. Yeni vaka bittiğinde iki kipte de koş.
+`--cihaz` eklenirse oyun bir kez oynanır, seçilen her anda sayfa **19 ekran boyuna** (telefonlar,
+iPhone Safari çubuklu, telefon yatay, tablet dikey/yatay — 1280×650 çubuklu dahil, dizüstü,
+masaüstü) getirilip görüntülenir ve ölçülür (`kaynak/arac_cihaz.js`; ~3 dk). Çıktı
+`YENI_UI/cihaz/`: her an için bütün boylar yan yana bir karşılaştırma sayfası + `bayraklar.txt`.
+Bayraklar ADAY'dır: yatay taşma, figür başı kadraj dışı, konuk/Peri boy oranının Pixel 5'ten
+%12'den fazla sapması (Lâl/Defne hatasını yakalar), arka planın %65'ten azı görünmesi (ilk
+tablet hatasını yakalar), Peri'nin küçülmesi, kutunun ekranı yemesi, küçük dokunma hedefi.
+Eşikler `ESIK` tablosunda. Yeni vaka, yeni görsel ya da düzen değişikliğinden sonra koş;
+bilinen AÇIK bayrak: **telefon yatay (844×390)** — sahne ~170 px; ne yapılacağı sahibine soruldu (Ekim 2026).
 
 **Tablet düzeni (Ekim 2026) — yalnız yeni oyun, `kaynak/yeni_arayuz.css`.** Dikey tablette
 sabit 480 px sütun sahneyi 1:2'den uzun yapıyordu: 3:4 arka plan iki yandan ~%40 kesiliyor,
