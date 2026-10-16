@@ -428,7 +428,7 @@ function vnAkisKur(tur, ek){
     return { sahneler: [c.sahne], sonra: () => ipucuKarti(c, { meta: c.meta }, c.reveals || []), baslik: v.baslik + " · " + c.ad };
   }
   if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca], sonra: cozumEkrani, baslik: v.baslik };
-  if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: masaGoster, baslik: v.baslik };
+  if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: () => kacanEkrani(), baslik: v.baslik };
   return null;
 }
 function akisBaslat(tur, ek = {}, n = 0, devam = null, sonraOzel = null){
@@ -540,6 +540,16 @@ arastirmaFazi = function(){
   b.className = "buton"; b.textContent = "Kim yaptı? →";
   b.addEventListener("click", () => kimYaptiEkrani());
   document.querySelector(".faz").append(b);
+  if(!a.reklamHak){
+    const rk = document.createElement("button");
+    rk.className = "buton ikincil reklam-dugme"; rk.id = "reklamHak";
+    rk.textContent = "▶ Reklam izle · +1 araştırma hakkı";
+    rk.addEventListener("click", () => reklamGoster(() => {
+      const r = oyun.reklamHakAl(); if(r.hata){ alert(r.hata); return; }
+      kayitYaz(); arastirmaFazi();
+    }));
+    document.querySelector(".faz").insertBefore(rk, b);
+  }
 };
 kararFazi = function(){
   const a = oyun.durum.aktif;
@@ -701,8 +711,11 @@ kararVerFaz = function(id){
   const vid = oyun.durum.aktif.id;
   const v = oyun.durum.aktif.vaka;
   const d = v.decisions.find(x => x.id === id) || {};
+  const acilan = oyun.durum.aktif.acilanKaynaklar;
+  const kacan = (v.clues || []).filter(c => c.sahne && !acilan.has(c.id)).map(c => c.id);
   const r = oyun.kararVer(id);
   if(r.hata){ alert(r.hata); return; }
+  kacanYaz(kacan.length ? { vaka: vid, ipuclari: kacan, izlenen: [] } : null);
   kayitYaz();
   efektCal('muhur');
   const not = defterNotu(vid, id);
@@ -719,6 +732,64 @@ kararVerFaz = function(id){
   h += `<button class="buton" onclick="vnKapanisOynat()">Devam et</button></div>`;
   app.innerHTML = h; scrollUst();
 };
+/* ---------- Ödüllü reklam (DENEME) — YENI_OYUN_CERCEVE.md, 16 Ekim 2026 ----------
+   Web sayfasında gerçek reklam yok: bu pencere reklamı taklit eder (sayaç, sonra "Ödülü al").
+   Android aşamasında reklamGoster'ın içi gerçek ödüllü reklam SDK'sıyla değişir; çağıranlar aynı kalır.
+   Kapatırsan ödül yok (gerçek ödüllü reklamdaki gibi). Reklam hiçbir zaman sonucu, parayı, bağı
+   değiştirmez: ek hak (vaka başına bir) ve kaçırılan ipucu sahneleri. */
+const REKLAM_SURE = 5;
+function reklamGoster(odul){
+  const d = document.createElement("div");
+  d.className = "reklam-perde"; d.id = "reklamPerde";
+  d.innerHTML = `<div class="reklam-kutu"><div class="reklam-etiket">Reklam · deneme</div>
+    <div class="reklam-alan">Burada reklam oynar</div>
+    <div class="reklam-sayac" id="reklamSayac">${REKLAM_SURE}</div>
+    <button class="buton" id="reklamOdul" disabled>Ödülü al</button>
+    <button class="buton ikincil" id="reklamKapat">Kapat (ödül yok)</button></div>`;
+  document.body.append(d);
+  let kalan = REKLAM_SURE;
+  const t = setInterval(() => {
+    kalan--; const sy = document.getElementById("reklamSayac"); if(sy) sy.textContent = kalan > 0 ? kalan : "✓";
+    if(kalan <= 0){ clearInterval(t); const b = document.getElementById("reklamOdul"); if(b) b.disabled = false; }
+  }, 1000);
+  const kapat = () => { clearInterval(t); d.remove(); };
+  d.querySelector("#reklamKapat").addEventListener("click", kapat);
+  d.querySelector("#reklamOdul").addEventListener("click", () => { kapat(); odul(); });
+}
+
+/* Kaçırılan ipuçları: vaka kapandıktan sonra, açılmamış ipucu sahneleri reklamla izlenir.
+   Olgu vermez, motoru değiştirmez (vaka kapandı); yalnız sahne. Liste ayrı anahtarda durur. */
+const KACAN_ANAHTAR = KAYIT_ANAHTAR + "_kacan";
+function kacanYaz(k){ try{ k ? localStorage.setItem(KACAN_ANAHTAR, JSON.stringify(k)) : localStorage.removeItem(KACAN_ANAHTAR); }catch(e){} }
+function kacanOku(){ try{ return JSON.parse(localStorage.getItem(KACAN_ANAHTAR)); }catch(e){ return null; } }
+function kacanEkrani(){
+  const k = kacanOku();
+  const v = k && GAME.vakalar.find(x => x.id === k.vaka);
+  if(!v){ kacanYaz(null); masaGoster(); return; }
+  let h = ust() + '<div class="faz">';
+  h += `<div class="baslik"><div class="no">${v.baslik}</div><h1 style="font-size:24px">Kaçırdığın ipuçları</h1></div>`;
+  h += `<div class="bilgi">Bu vakada açmadığın yerler. Dosya kapandı; izlemek sonucu değiştirmez.</div>`;
+  for(const id of k.ipuclari){
+    const c = v.clues.find(x => x.id === id); if(!c) continue;
+    const ad = typeof c.ad === "string" ? c.ad : (c.ad && (c.ad.varsayilan || c.ad[0] && c.ad[0].metin)) || id;
+    const izlendi = (k.izlenen || []).includes(id);
+    h += `<button class="buton ikincil kacan-ipucu" onclick="kacanIzle('${id}')">${izlendi ? "↻ " : "▶ "}${ad}${izlendi ? "" : " · reklam"}</button>`;
+  }
+  h += `<button class="buton" id="kacanDon" onclick="kacanYaz(null);masaGoster()">Masaya dön</button></div>`;
+  app.innerHTML = h; scrollUst();
+}
+function kacanIzle(id){
+  const k = kacanOku(); if(!k) return;
+  const oynat = () => {
+    const v = GAME.vakalar.find(x => x.id === k.vaka), c = v && v.clues.find(x => x.id === id);
+    if(!c || !c.sahne){ kacanEkrani(); return; }
+    if(!(k.izlenen || []).includes(id)){ k.izlenen = [...(k.izlenen || []), id]; kacanYaz(k); }
+    vnSonSet = "manto";
+    sahneZinciri([c.sahne], () => kacanEkrani(), v.baslik + " · " + (typeof c.ad === "string" ? c.ad : ""), 0, [], null, null);
+  };
+  if((k.izlenen || []).includes(id)) oynat(); else reklamGoster(oynat);
+}
+
 /* Kural 11 istisnası: karar ekranında Cengo'nun tavrı — yön, sayı değil. */
 const CENGO_TAVIR = b => b > 0 ? "Cengo'nun hoşuna gider" : b < 0 ? "Cengo'nun hoşuna gitmez" : "Cengo'yu ilgilendirmez";
 

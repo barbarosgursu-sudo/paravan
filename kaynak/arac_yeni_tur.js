@@ -142,6 +142,8 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
       '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith(sicak)) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith(soguk)) ? 'soğuk satırlar' : 'iki hâl yok',
       '· kasa', await p.evaluate(() => oyun.durum.para));
     await foto(vid + '_son');
+    // Kaçırılan ipuçları ekranı (reklamla izlenir; deneme reklamı) — varsa masaya dön.
+    if (await p.$('#kacanDon')) { await foto(vid + '_kacan'); await p.click('#kacanDon'); await p.waitForTimeout(200); }
   };
   const V1_SIRA = YOL === "set" ? ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla','Serkan\'ı bulmak']
                                 : ['İskele ve Kemal','Serkan\'ı bulmak','Çaycıyla konuşmak','Bebek\'teki beyaz','Setin sorumlusuyla'];

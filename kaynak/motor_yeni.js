@@ -106,9 +106,27 @@ class OyunYeni extends Oyun {
 
   bagYuksek() { return this.durum.cengoBag >= BAG_ESIK; }
 
+  /* Ödüllü reklamla ek araştırma hakkı (YENI_OYUN_CERCEVE.md, 16 Ekim 2026): vaka başına bir
+     kez, suçlamadan önce. Reklam başarı satmaz — her vaka reklamsız haklarla `doğru` çözülür
+     (test_yeni_v2.js sınar). Hak kayıtta tutulur; yüklerken bütçe +1 kurulur, yoksa açılmış
+     dördüncü ipucu "hak bitti" diye geri yüklenemez. */
+  reklamHakAl() {
+    const a = this.durum.aktif;
+    if (!a) return { hata: "açık vaka yok" };
+    if (a.reklamHak) return { hata: "bu vakada ek hak alındı" };
+    if (a.suclama) return { hata: "suçlamadan sonra araştırma yok" };
+    a.reklamHak = true;
+    a.arastirmaKalan += 1;
+    return { ok: true, arastirmaKalan: a.arastirmaKalan };
+  }
+  _arastirmaHakki(v) {
+    return super._arastirmaHakki(v) + (this._yukleReklam === v.id ? 1 : 0);
+  }
+
   durumAl() {
     const k = super.durumAl();
     const a = this.durum.aktif;
+    if (k.aktif && a.reklamHak) k.aktif.reklamHak = true;
     if (k.aktif && a.suclama) k.aktif.suclama = { supheli: a.suclama.supheli, kanitlar: [...a.suclama.kanitlar] };
     return k;
   }
@@ -116,7 +134,10 @@ class OyunYeni extends Oyun {
   // Suçlama da girdidir: güncel veriyle yeniden yapılır (sonuç kayıttan okunmaz).
   durumYukle(k) {
     const yedek = this.durum;
-    const r = super.durumYukle(k);
+    this._yukleReklam = k && k.aktif && k.aktif.reklamHak ? k.aktif.id : null;
+    let r;
+    try { r = super.durumYukle(k); } finally { this._yukleReklam = null; }
+    if (!r.hata && k.aktif && k.aktif.reklamHak && this.durum.aktif) this.durum.aktif.reklamHak = true;
     if (r.hata || !k.aktif || !k.aktif.suclama) return r;
     const s = this.suclama(k.aktif.suclama.supheli, k.aktif.suclama.kanitlar);
     if (s.hata) { this.durum = yedek; return { hata: "suçlama geri yüklenemedi: " + s.hata }; }

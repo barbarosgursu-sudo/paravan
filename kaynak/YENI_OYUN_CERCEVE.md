@@ -82,6 +82,12 @@ daha geniş resim verir. Doğrulayıcı/test bunu vaka başına sınar (reklams�
 `doğru` yolu). Ekonomi sözleşmesi aynen (`test_borc.js`). Reklamsız sürümde (web, Steam) ek hak
 düğmesi çıkmaz; Steam'de hak sayısı karar sonra (ör. reklamın yerine +1 sabit).
 
+**Deneme reklamı (16 Ekim 2026, sahibinin isteği).** Web sayfasında gerçek reklam yok; `yeni_arayuz.js →
+reklamGoster` 5 saniyelik bir taklit perde açar ("Ödülü al" / "Kapat (ödül yok)"). Araştırma ekranında
+"▶ Reklam izle · +1 araştırma hakkı" (motor `reklamHakAl`, kayıtta `aktif.reklamHak`); kapanıştan sonra
+"Kaçırdığın ipuçları" ekranı (`kacanEkrani`, liste `…_kacan` anahtarında). Android'de yalnız
+`reklamGoster`'ın içi gerçek ödüllü reklamla değişir. Steam sürümü için düğmeler kapatılacak.
+
 **Kaçırılan ipuçları (aynı karar).** Vaka bitip karar verildikten sonra, oyuncu açmadığı ipucu
 sahnelerini reklam izleyerek görür. Sonucu, parayı, bağı değiştirmez; olgu da vermez (vaka kapandı,
 olgu taşınmaz — Nurcan: sonraki vakada hak edilmemiş bilgi olmasın). Yalnız sahne.

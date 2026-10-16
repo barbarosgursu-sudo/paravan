@@ -87,5 +87,18 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   }
 }
 
+// Ödüllü reklamla ek hak (YENI_OYUN_CERCEVE.md): vaka başına bir, suçlamadan önce; kayıtta kalır.
+for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
+  const o = new OyunYeni(G); o.vakaBaslat(vaka.id);
+  const tam = o.durum.aktif.arastirmaKalan;
+  k(`${vaka.id}: reklam hakkı +1 verir`, o.reklamHakAl().arastirmaKalan === tam + 1);
+  k(`${vaka.id}: reklam hakkı vaka başına bir kez`, !!o.reklamHakAl().hata);
+  while (o.durum.aktif.arastirmaKalan > 0 && o.acikKaynaklar().length) o.kaynakAc(o.acikKaynaklar()[0].id);
+  const kayit = JSON.parse(JSON.stringify(o.durumAl())), o2 = new OyunYeni(G), r = o2.durumYukle(kayit);
+  k(`${vaka.id}: ek hakla açılan ipuçları kayıttan geri yüklenir`, !r.hata && o2.durum.aktif.acilanKaynaklar.size === o.durum.aktif.acilanKaynaklar.size && o2.durum.aktif.reklamHak, r.hata);
+  const o3 = new OyunYeni(G); o3.vakaBaslat(vaka.id);
+  k(`${vaka.id}: ek hak sonraki oyuna taşmaz`, o3.durum.aktif.arastirmaKalan === tam);
+}
+
 console.log(hata ? `\n${hata} başarısız.` : "\nHepsi geçti.");
 process.exitCode = hata ? 1 : 0;
