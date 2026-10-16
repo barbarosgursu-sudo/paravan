@@ -40,7 +40,7 @@ kılıkta çıkar — *"kapıyı çalalım" / "kilidi açalım."*
 | **Mekân** | **İstanbul.** Türk karakterler, Türk mekânlar. |
 | **Platform** | **Steam birinci, Android ikinci.** Aynı HTML; Electron + Capacitor. |
 | **Satış** | İlk 2-3 vaka bedava, gerisi **tek seferlik ödeme.** |
-| **Reklam / elmas / abonelik** | **Yok. Üçü de reddedildi.** — *İstisna (16 Ekim 2026, sahibi): Android'de reklamla açılan **kozmetik kıyafet** (gardırop), aşağıda.* |
+| **Reklam / elmas / abonelik** | **Yok. Üçü de reddedildi.** — *Gevşetildi (16 Ekim 2026, sahibi): Android'de ödüllü reklamla üç şey — kozmetik kıyafet (gardırop), vaka başına **bir ek araştırma hakkı**, vaka bitince **kaçırılan ipuçları**. Aşağıda.* |
 | **Oyun ve ajans adı** | ⏳ açık. "Paravan" İngilizce'de çalışmıyor. |
 
 ### Gerekçeler
@@ -74,6 +74,17 @@ kremalı → örtülü) bundan ayrıdır, her vakada serbest. Her gardırop kıy
 ifadeler (~6–8 figür). Başlangıç havuzu: `sablon/peri_poz/` L kıyafetleri (kırmızı manto, gece
 elbisesi, trençkot…), Cengo'nun C seti. Web sayfasında reklam yok; iş Capacitor + reklam SDK'sıyla.
 Steam sürümünde reklam olmaz — orada gardırop ya bedava açılır ya da yoktur (karar sonra).
+
+**Reklamla ek ipucu hakkı (16 Ekim 2026, sahibinin kararı; Android aşamasında).** Sahibi oynarken 3 hakkı
+az buldu. Vaka başına **bir kez**, ödüllü reklamla bir ek araştırma hakkı. Koruma kuralı (pazarlığa
+kapalı): **her vaka reklamsız haklarla `doğru` çözülebilir olmalı** — reklam başarı satmaz, yalnız
+daha geniş resim verir. Doğrulayıcı/test bunu vaka başına sınar (reklamsız hak sayısıyla en az bir
+`doğru` yolu). Ekonomi sözleşmesi aynen (`test_borc.js`). Reklamsız sürümde (web, Steam) ek hak
+düğmesi çıkmaz; Steam'de hak sayısı karar sonra (ör. reklamın yerine +1 sabit).
+
+**Kaçırılan ipuçları (aynı karar).** Vaka bitip karar verildikten sonra, oyuncu açmadığı ipucu
+sahnelerini reklam izleyerek görür. Sonucu, parayı, bağı değiştirmez; olgu da vermez (vaka kapandı,
+olgu taşınmaz — Nurcan: sonraki vakada hak edilmemiş bilgi olmasın). Yalnız sahne.
 
 **Mekân.** İngilizce yazılmış bir İstanbul-noir ayırt edici. Pazarda genel Amerikan
 dedektif hikâyesi çok, İstanbul yok.

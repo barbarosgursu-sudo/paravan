@@ -12,7 +12,7 @@ Hikâye değişecekse önce form değişir.
 |---|---|
 | Vaka no ve adı | |
 | Tip | Bilmece |
-| İpucu / hak | (Vaka 1: 5/4 · Vaka 2: 6/3) |
+| İpucu / hak | (Vaka 1: 5/4 · Vaka 2: 6/3) — Vaka 2'den itibaren 3 hak; **3 hakla `doğru` yolu şart** (Android'de +1 hak reklamla, 16 Ekim 2026) |
 | Vaka ücreti | (fiyat tablosundan) |
 | Süre hedefi | 15–25 dakika |
 
