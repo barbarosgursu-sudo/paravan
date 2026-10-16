@@ -107,7 +107,12 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
-### ⏸ Ara (11 Eki 15:55) — KALDIĞIN YER
+### ✅ 16 Ekim 16:47: K23 gömüldü — 59/59, adım 9–10 bitti
+Sahibi K23'ü hem Grok'ta hem ChatGPT'de üretti; ChatGPT'ninki seçildi (buzdolabı levhaları elle silindi).
+`yer_tutucu` boş. **Sırada adım 11: görselli tur, bütün yollar + `--cihaz`** (aşağıdaki notlar hâlâ geçerli:
+Tolga G30'un eli, `defne dogru` yolu yok).
+
+### ⏸ Ara (11 Eki 15:55) — eski not
 Gömülü: G1–G49, G51–G59 (58/59). G13 Gemini'de üretildi (12 Eki). **Bekleyen yalnız K23** (G50;
 ChatGPT reddetti) — Grok'ta orijinal promptla.
 Grok da reddederse sahibine sor, kendiliğinden yumuşatma. İki görsel gelince → **adım 11 görselli tur (bütün yollar)** → Onay 3. Sahibi başladığını haber verince

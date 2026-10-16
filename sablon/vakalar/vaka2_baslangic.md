@@ -25,7 +25,7 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | 5 Görselsiz tur | 10 Eki ~17:33 | 10 Eki 17:44 | araçlar V2'ye açıldı (Cengo kıyafet seti, gri arka plan/kare, tur, `test_yeni_v2.js`); 6 yol temiz; satır satır ekran denetimi, 6 düzeltme |
 | 6–7 Onay 2, hikâye donar | 10 Eki 17:44 | 10 Eki 19:40 | 22 metin notu (hepsi bulanık replik; hikâye değişmedi); soğuk kapanış belirginleşti (+K32); geçici "Vaka 2'den başla" düğmesi |
 | 8 Görsel listesi + promptlar | 10 Eki 19:40 | 10 Eki 19:44 | 59 görsel, `vaka2_gorsel.md`; 29 referans `vaka2_referans/` |
-| 9–10 Görseller, kontrol, yerleştirme | 11 Eki 09:17 (TSİ) | | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
+| 9–10 Görseller, kontrol, yerleştirme | 11 Eki 09:17 (TSİ) | 16 Eki 16:47 | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
 | 11 Görselli tur | | | |
 | 12–13 Onay 3, düzeltmeler | | | |
 | 14 Vaka donar | | | |
@@ -54,7 +54,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K20 | G47 | | | 11 Eki 13:55 | ilk hâlde masanın açık yüzü kapıya bakıyordu (Saadet Peri'yi görürdü) → kamera masanın arkasına alındı, ön panel kapalı |
 |   K21 | G48 | | | 11 Eki 14:02 | düzeltme yok; 6 kişi, eller doğru |
 |   K22 | G49 | | | 11 Eki 14:09 | düzeltme yok |
-|   K23 | G50 | 16 Eki 16:34 | | | 11 Eki: ChatGPT reddetti ("sahtekârlık" kalıbı; asıl sebep "seksi/bacaklar havada"). 16 Eki: sahibi önce ChatGPT'de yeniden, olmazsa Grok'ta orijinal promptla deniyor |
+|   K23 | G50 | 16 Eki 16:34 | 16 Eki ~16:45 | 16 Eki 16:47 | 11 Eki: ChatGPT reddetti. 16 Eki: hem Grok hem ChatGPT üretti; sahibi **ChatGPT'ninkini** seçti (mutfak G42'yle aynı, Peri satırdaki gibi sinirli; Grok'unkinde köprü kırmızı Golden Gate'ti). Pasta oturulmuş değil yıkılmış — kabul. Buzdolabındaki 4 marka levhası elle silindi |
 |   K24 | G51 | 11 Eki 14:40 | | 11 Eki 14:44 | ayakkabılar yeşildi → bir düzeltme (kırmızı stiletto) |
 |   K25 | G52 | | | 11 Eki 14:50 | düzeltme yok |
 |   K26 | G53 | | | 11 Eki 14:55 | düzeltme yok |

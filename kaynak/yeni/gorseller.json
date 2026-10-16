@@ -153,7 +153,8 @@
     "K30": "ara_k30.webp",
     "K31": "ara_k31.webp",
     "K32": "ara_k32.webp",
-    "peri.ortulu.utanmis": "sprite/peri_ortulu_utanmis.webp"
+    "peri.ortulu.utanmis": "sprite/peri_ortulu_utanmis.webp",
+    "K23": "ara_k23.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [
@@ -215,7 +216,7 @@
     "A21": {"ad": "Otel · pasta mutfağı", "grup": "otel_mutfak"},
     "A22": {"ad": "Kurtuluş · terzi", "grup": "terzi"}
   },
-  "yer_tutucu": ["K23"],
+  "yer_tutucu": [],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
-  "yer_tutucu_metin": {"K23": "Peri beş katlı pastanın içinde"}
+  "yer_tutucu_metin": {}
 }
