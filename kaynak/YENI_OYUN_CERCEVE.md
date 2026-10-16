@@ -40,7 +40,7 @@ kılıkta çıkar — *"kapıyı çalalım" / "kilidi açalım."*
 | **Mekân** | **İstanbul.** Türk karakterler, Türk mekânlar. |
 | **Platform** | **Steam birinci, Android ikinci.** Aynı HTML; Electron + Capacitor. |
 | **Satış** | İlk 2-3 vaka bedava, gerisi **tek seferlik ödeme.** |
-| **Reklam / elmas / abonelik** | **Yok. Üçü de reddedildi.** |
+| **Reklam / elmas / abonelik** | **Yok. Üçü de reddedildi.** — *İstisna (16 Ekim 2026, sahibi): Android'de reklamla açılan **kozmetik kıyafet** (gardırop), aşağıda.* |
 | **Oyun ve ajans adı** | ⏳ açık. "Paravan" İngilizce'de çalışmıyor. |
 
 ### Gerekçeler
@@ -64,6 +64,16 @@ bir anlatı-bulmaca oyunu ilk 30 günde 1.640 satış / 8.200 $.
 **Satış modelinin tek kuralı: VAKA SAT, SEÇİM SATMA.** Chapters'ın modeli (elmasla
 açılan özel seçenekler) sözleşmeyi doğrudan deler — *"düzgün insan olmak için para öde"*
 demeye gelir. `test_borc.js` dokuz vakada da tersini sınıyor.
+
+**Gardırop — reklamla açılan kıyafet (16 Ekim 2026, sahibinin kararı; Android aşamasında).**
+Oyuncu ödüllü reklam izleyerek Peri ve Cengo için ek kıyafet açar. Yalnız **kozmetik**: hiçbir
+seçeneği, ipucunu, parayı, bağı değiştirmez — "seçim satma" kuralına dokunmaz. Yalnız **konuşma
+ekranındaki figürlerde** görünür; ara kareler hikâyenin kendi kıyafetiyle kalır (her kareyi iki
+kez çizmek görsel sayısını katlar). Hikâyenin gerektirdiği kıyafet değişimi (Vaka 2: tayyör →
+kremalı → örtülü) bundan ayrıdır, her vakada serbest. Her gardırop kıyafeti = o kıyafette bütün
+ifadeler (~6–8 figür). Başlangıç havuzu: `sablon/peri_poz/` L kıyafetleri (kırmızı manto, gece
+elbisesi, trençkot…), Cengo'nun C seti. Web sayfasında reklam yok; iş Capacitor + reklam SDK'sıyla.
+Steam sürümünde reklam olmaz — orada gardırop ya bedava açılır ya da yoktur (karar sonra).
 
 **Mekân.** İngilizce yazılmış bir İstanbul-noir ayırt edici. Pazarda genel Amerikan
 dedektif hikâyesi çok, İstanbul yok.
