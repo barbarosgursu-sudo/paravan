@@ -516,3 +516,47 @@ Kimlik · ölçek ve baş yüksekliği · bakış yönü · el ve parmak sayıs�
 tablet ekranı, vale kürsüsü, tabela, dosya, plaka) · kıyafet sabitleri · çekicilik seviyesi · Nurcan
 (gösterdiği şey o satırda hak edilmiş mi: D7 gelinliği yalnız terzi ipucunda görünür) · metindeki
 satırla uyum. Figürse: `arac_kes.js`, saç kenarı temizliği, ekranda Peri'nin yanında boy.
+
+---
+
+## K23 (G50) — ChatGPT'nin kendi yazdığı promptlar (16 Ekim 2026)
+
+Bizim Türkçe promptumuz (yukarıdaki tablo, G50) 11 Ekim'de reddedildi. 16 Ekim'de ChatGPT'nin
+düşünen kipinde ("Çalışma") aynı prompt verildi; ChatGPT promptu kendisi İngilizceye çevirip
+yazdı, iki kez filtreye takıldı, üçüncüde üretti (kural: `5_gorsel_sistemi.md` D-5). Promptlar
+sahibinin isteğiyle ChatGPT'den alındı — sonraki vakalarda reddedilebilecek kareleri baştan
+bu dille yazmak için. Hangi ifadenin takıldığı, reddedilenle kabul edilenin farkından okunur.
+
+### Deneme 1 — REDDEDİLDİ
+
+```
+Use case: illustration-story
+Asset type: vertical visual-novel story insert / game scene
+
+Input images:
+- Image 1 is the strict character identity and wardrobe reference for Peri. Preserve the same adult woman: same recognizable face, facial proportions, eyes, eyebrows, nose, lips, jawline, red-brown hair, pearl earrings, emerald-green fitted blazer and matching short skirt, and red stiletto heels. Her clothing remains intact and non-transparent.
+- Image 2 is the strict location reference. Recreate the same elegant sunlit pastry kitchen: white tile walls, tall arched windows with Bosphorus view, stainless-steel counters and refrigerator, warm golden daylight. Do not copy the intact cake placement; use the cake as part of the action described below.
+
+Primary scene:
+A funny, glamorous accident. Peri has landed seated inside a huge five-tier white wedding cake in the pastry kitchen. Her hips and bottom are embedded in the broad lowest cake tier, with the remaining damaged tiers visibly stacked/crumpled around and behind her so the cake is unmistakably five-tiered. Both legs kick upward into the air in a clear readable pose, and both red stiletto shoes are fully visible in the air. White frosting is splashed over her hair, face, hands and emerald outfit. Her elegant updo has come partly undone, with loose red-brown strands. Both arms are extended outward to the sides, palms open and fingers naturally separated. Her expression is simultaneously startled and proudly self-possessed: wide alert eyes, raised brows, chin lifted, comic confidence; no pain, fear, humiliation or crying. Glamorous, playful and sexy without nudity or explicit content.
+
+Style/medium:
+Semi-realistic painted digital illustration for a visual novel. Real adult human proportions, clearly illustrated rather than photographic. Clean defined contour lines, soft painted shading, warm vivid colors, polished animation-film-poster meets modern comic-book look. Not anime, not children's cartoon, not a photo.
+
+Composition/framing:
+EXACT 3:4 vertical portrait composition, intended output 1086 x 1448. Full-body action shot from head to both airborne red stilettos; do not crop head, hands, legs, or shoes. Peri and the destroyed five-tier cake are the central focus, with enough of the reference pastry kitchen visible to identify the exact location. Only one person in frame: Peri. Dynamic but anatomically coherent pose. Both hands clearly visible with exactly five natural fingers each; two legs and two red stilettos only.
+
+Lighting/mood:
+Warm golden daylight matching Image 2; playful, glamorous slapstick energy.
+
+Constraints:
+Preserve Peri's adult identity, facial likeness, hair color, pearl earrings, green suit and red stilettos from Image 1, and preserve the kitchen design and lighting from Image 2. No additional people. No extra limbs, duplicated shoes, malformed hands, detached body parts or impossible anatomy. No nudity; no exposed nipples or genitals; outfit stays on. No pain, degradation or humiliation. No writing, letters, numbers, logo, label, signage, watermark or signature anywhere in the image.
+```
+
+### Deneme 2 — REDDEDİLDİ
+
+(sahibinden bekleniyor)
+
+### Deneme 3 — KABUL EDİLDİ (oyundaki K23)
+
+(sahibinden bekleniyor)
