@@ -111,8 +111,8 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 Sahibi: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU, `7_uretim_sureci.md`), `--hepsi` aday listesi,
 dört yeni görsel üretilip gömüldü: K33 son prova (4 açılış), K34 herkes Defne'ye dönüyor (7 satır), K35 atölye
 kapısında kumaşçının adamı, `lal.kilif` (kapanışta "Bunu giy"). Gülsüm/Bülent/Defne/Tolga tanıtım satırında
-`gir`. ChatGPT en çok 5 referans alıyor (kural `5_gorsel_sistemi.md` D-2). Açık kalan: Defne itirafında Peri'nin
-yüzü (kremalı sette `normal` yok), G2–G7 tutam. Sırada: sahibinin Onay 3'teki öbür notları.
+`gir`. ChatGPT en çok 5 referans alıyor (kural `5_gorsel_sistemi.md` D-2). Sahibinin kararı (16 Eki): Defne itirafında
+Peri'nin sinirli yüzü ve G2–G7'deki tutam **kalıyor**. Sırada: sahibinin Onay 3'teki öbür notları.
 
 ### ✅ 16 Ekim 17:40: adım 11 bitti — sırada Onay 3 (sahibi görsellere bakar)
 `arac_yeni_tur.js --hepsi` her satırı `YENI_UI/satir/`'a görüntüler + `dokum.txt`. Bütün yollar ve dört karar koşuldu,
