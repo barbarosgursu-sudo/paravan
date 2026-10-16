@@ -308,6 +308,10 @@ body{
   --vn-gece:#1d2a33; --vn-kagit:#fff7e8; --vn-tramvay:#c8372d; --vn-bogaz:#1f7a80;
   --vn-simit:#e9a83a; --vn-soluk:#8a8f87;
   position:fixed; inset:0; z-index:50; margin:0 auto; max-width:480px;
+  /* Dikey tablette sabit 480 px sahneyi 1:2'den uzun yapıyordu: arka plan (3:4) iki yandan
+     ~%40 kesiliyor, figürler kadrajdan taşıyordu. Sütun yüksekliğe göre genişler ki oran
+     telefondakine yakın kalsın; telefon ve yatay ekranda 480 px tabanı değişmez. */
+  max-width:max(480px,56vh); max-width:max(480px,56dvh);
   display:flex; flex-direction:column; overflow:hidden;
   background:var(--vn-gece); color:var(--vn-gece);
   font-family:"Nunito","Segoe UI",system-ui,sans-serif; line-height:1.4;
