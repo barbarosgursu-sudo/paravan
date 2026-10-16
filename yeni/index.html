@@ -3240,7 +3240,7 @@ yenidenBasla = function(){
 /* GEÇİCİ (sahibinin testi için): önceki vakaları motorda kendiliğinden oynatır — her ipucu
    açılır, suçlu doğru kanıtla suçlanır, ilk karar seçilir — ve masaya o vakayla döner.
    Kasa ve Cengo bağı bu varsayılan yolun sonucudur. Yayından önce false yapılır. */
-const VN_VAKA_ATLA = true;
+const VN_VAKA_ATLA = false;
 function vakaAtlaDugmeleri(){
   if(!VN_VAKA_ATLA) return "";
   return GAME.vakalar.filter(x => x.tur === "omurga").sort((a, b) => a.sira - b.sira).slice(1)
