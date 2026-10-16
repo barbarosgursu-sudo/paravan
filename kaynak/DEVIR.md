@@ -1,10 +1,56 @@
-# DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 11 Ekim 2026)
+# DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026)
 
 > Bir sohbet penceresinden ötekine devir. **Önce `CLAUDE.md`'yi oku** (sözleşmeler,
 > tuzaklar, komutlar orada). Bu belge onun üstüne yalnız **oturum durumunu** koyar:
 > ne yapıldı, sahibi neyi bekliyor, sıradaki iş ne.
 >
 > Bu belge tarihlidir. İş ilerledikçe **güncellenir ya da silinir**.
+
+---
+
+## 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026)
+
+**Durum tek cümle:** Sahibi oyuna tabletten baktı; yeni oyunun (`/yeni/`) düzeni telefon dışı
+ekranlara uyarlandı, çok boylu denetim aracı yazıldı. **Açık iş yok, sahibi bir şey beklemiyor.**
+Vaka 2'nin durumu (aşağıdaki bölüm) bu oturumda **değişmedi** — oradan devam edilir.
+Kurallar ve tuzaklar `CLAUDE.md` → **"Tablet düzeni"** ve `--cihaz` paragrafında; burada yalnız iz.
+
+### Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+Sahibinin sırayla bildirdiği sorunlar ve çözümleri — hepsi `kaynak/yeni_arayuz.css`:
+1. **Dikey tablette sahne çok uzun, yanlar kesik** (`edfee06`). Sabit 480 px sütun 800×1280'de
+   sahneyi 480×1070 yapıyordu; 3:4 arka plan iki yandan ~%40 kesiliyor, Müjgan/Cengo kadrajdan
+   taşıyordu. `.vn` genişliği `max(480px,56dvh)`.
+2. **Tablette yazı küçük** (`49e083d`, `689fc01`). Konuşma ekranı elle ~%30; masa/araştırma/kart/
+   karar/sonuç ekranları `#app > :not(.vn){zoom:1.3}`; Kişiler paneli `.vn`'i kaplar.
+3. **Yatay tablette diğer ekranlar küçük** (`9a76947`). Aynı zoom, `min-width:1000px` ve
+   `min-height:700px`'te. Konuşma ekranı yatayda **bilerek 480 px'te** (genişlerse üst/alt kesilir).
+4. **Yatay tablette Lâl ve Defne kısa** (`32b5bf2`). Asıl kök: `gorseller.json → boy` ölçekleri
+   telefonda ayarlandı ve telefonda figürler genişliğe takılıp küçülüyor, ölçek neredeyse görünmüyor;
+   geniş sahnede Peri tam boya çıkınca konuk %20 kısa kaldı. Figür katmanı Pixel 5 oranına
+   (393/498) kilitlendi, yüksekliği container birimleriyle. **Pixel 5 görüntüleri piksel piksel aynı.**
+   Sahibinin tableti yatayda tarayıcı çubuğuyla **1280×650** — hata yalnız o boyda belirgindi.
+5. **Araçlar:** `arac_yeni_tur.js --tablet` (`f6db231`, 800×1280, tam sayfa) ve **`--cihaz`**
+   (`c05c12c`, `kaynak/arac_cihaz.js`): oyun bir kez oynanır, seçilen her anda 19 ekran boyunda
+   görüntü + ölçüm, `YENI_UI/cihaz/` altında karşılaştırma sayfaları ve aday bayraklar.
+   Düzeltmelerden önceki derlemeye karşı koşuldu: Lâl/Defne/Müjgan/Gülsüm/Rıza boy sapmasını ve
+   tablet arka plan kesimini cihaz cihaz yakaladı.
+6. **Yatay telefon** (`d42dc87`): araç sahnenin ~170 px'e indiğini buldu; sahibi üç seçenekten
+   **"Telefonu dikey çevir" uyarısını** seçti (`body::before`, alçak + yatay + dokunmatik ekran).
+
+### Sahibinin kararları (bu oturum)
+- Her cihaza ayrı ayar **yapılmaz**; kurallar orana dayalı, denetim taklitle (`--cihaz`).
+- Yatay telefon için ayrı düzen **yok**, uyarı var.
+- Yatay tablette konuşma ekranının dar kalması kabul (yalnız diğer ekranlar büyüdü).
+- Sahibi değişikliği görmek için adrese `?v=N` ekliyor (önbellek); son verilen `?v=30`.
+
+### Bundan sonra dikkat
+- **Yeni vaka / yeni görsel / düzen değişikliğinden sonra** `node arac_yeni_tur.js 0 ortu dogru --cihaz`
+  (~3–5 dk). Güncel derlemede tek bayrak: 1280×650 seçim ekranında arka planın ~%51'i (göze batmıyor).
+- Yeni konuk boyu (`boy`) ayarlanırken artık her ekranda telefondaki oran geçerli — telefonda bak yeter,
+  ama `--cihaz` boy sapmasını yine sınar.
+- Düz tur (`arac_yeni_tur.js`, `--cihaz`sız) `YENI_UI/`'yi siler — `cihaz/` sayfaları da gider.
+- Gözlenen, dokunulmayan: `arac_yeni_tur.js 0 defne dogru` "bu yolda doğru sonucu verecek seçim yok"
+  der (Vaka 2 notundaki bilinen durum, aşağıda).
 
 ---
 
