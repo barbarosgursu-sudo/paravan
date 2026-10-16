@@ -114,6 +114,18 @@
       ]
     },
     {
+      "id": "saadet",
+      "ad": "Saadet Hanım",
+      "portre": "portre_saadet",
+      "tanisma": "gelinlik_kayip",
+      "katmanlar": [
+        {
+          "kosul": "gelinlik_kayip",
+          "tanim": "Büronun ev sahibi. Kira üç aydır ödenmedi; o da börek getiriyor. \"Borçluya ikram edilir, utansın diye.\" Yine gelecek."
+        }
+      ]
+    },
+    {
       "id": "defne",
       "ad": "Defne",
       "portre": "portre_defne",
