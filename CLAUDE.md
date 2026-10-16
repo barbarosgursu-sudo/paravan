@@ -76,6 +76,9 @@ figürler kadrajdan taşıyordu. Üç kural birlikte çözüyor, birini bozma:
   (`#app` 676 px = 520 × 1,3, iç düzen telefondakiyle aynı). `.vn` `#app`'in İÇİNDE —
   `:not(.vn)` olmazsa iki kez büyür. Kişiler paneli `.vn .vn-kisiler` ile `.vn`'i kaplar
   (özgüllük şart: dosyanın sonundaki `.vn-kisiler` kuralı aksi hâlde ezer).
+- Yatay tablet / geniş ekran (`min-width:1000px` ve `min-height:700px`): yalnız `#app`
+  ekranları aynı `zoom:1.3` ile büyür; konuşma ekranı BİLEREK 480 px'te kalır — 800 px
+  yükseklikte genişlerse 3:4 arka plan üstten/alttan kesilir, figürün başı ya da ayağı gider.
 - Yeni bir ekran ya da pencere `#app`'in ya da `.vn`'in DIŞINA eklenirse bu kurallar ona
   uygulanmaz; tablette ayrıca bak. Yeni arka plan 3:4 değilse kesim oranı değişir.
 Eski oyunun sayfası bu kurallara girmez (CSS yalnız `build_html.js yeni`'de gömülür).

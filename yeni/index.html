@@ -407,6 +407,13 @@ body{
   #app > :not(.vn){zoom:1.3}
   .vn .vn-kisiler{zoom:1.3;position:absolute;max-width:none}  /* .vn'in genişliğini tam kaplasın */
 }
+/* Yatay tablet / geniş ekran: aynı %30 yalnız eski arayüzün ekranlarına (aşağı kayan sayfalar).
+   Konuşma ekranı 480 px'te kalır — 800 px yükseklikte genişlerse 3:4 arka plan üstten/alttan
+   kesilir, figürlerin başı ya da ayağı gider. */
+@media (min-width:1000px) and (min-height:700px){
+  #app{max-width:676px}
+  #app > :not(.vn){zoom:1.3}
+}
 @media (prefers-reduced-motion:reduce){
   .vn *,.vn *::before,.vn *::after{animation:none!important;transition:none!important}
 }
