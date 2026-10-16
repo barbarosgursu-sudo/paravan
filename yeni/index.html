@@ -568,6 +568,15 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .vn-kisiler{position:fixed;inset:0;z-index:60;overflow-y:auto;background:var(--zemin1);color:var(--metin);padding:18px 16px 28px;max-width:480px;margin:0 auto}
 .vn-figur.sol.ustte{z-index:3}
 
+/* Yatay telefon: sahne ~170 px'e iniyor, kutu ekranı yiyor — oyun dikey için (sahibinin kararı,
+   Ekim 2026: düzen yerine uyarı). Yalnız dokunmatik ve alçak yatay ekranda; tablet yatayı
+   (en az ~650 px) ve bilgisayar penceresi girmez. Oyun altta durur, çevirince kaldığı yerden sürer. */
+@media (orientation:landscape) and (max-height:500px) and (pointer:coarse){
+  body::before{content:"↻\A\ATelefonu dikey çevir";white-space:pre;position:fixed;inset:0;z-index:1000;
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;
+    background:var(--zemin1);color:var(--gece);font-family:"Shrikhand",Georgia,serif;font-size:26px;line-height:1.1}
+}
+
 </style>
 </head>
 <body>

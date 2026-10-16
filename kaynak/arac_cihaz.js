@@ -55,7 +55,9 @@ function secilsin(ad) {
 function olc() {
   const R = e => e && e.getBoundingClientRect();
   const gorunur = e => e && !e.hidden && e.offsetParent !== null && R(e).width > 0;
-  const sonuc = { tasma: document.documentElement.scrollWidth - innerWidth, vn: !!document.querySelector('.vn') };
+  const sonuc = { tasma: document.documentElement.scrollWidth - innerWidth, vn: !!document.querySelector('.vn'),
+    // Yatay telefonda oyunun üstüne "dikey çevir" uyarısı biner (yeni_arayuz.css); alttaki yerleşim ölçülmez.
+    dikeyUyari: getComputedStyle(document.body, '::before').content.includes('dikey') };
   const vn = document.querySelector('.vn'), sahne = document.querySelector('.vn-sahne');
   if (vn && sahne) {
     const s = R(sahne); sonuc.sahne = { w: s.width, h: s.height };
@@ -89,6 +91,7 @@ let kisilerBakildi = false;
 
 function bayraklar(o, ref) {
   const b = [];
+  if (o.dikeyUyari) return b;
   if (o.tasma > 0) b.push('yatay taşma ' + o.tasma + ' px');
   if (o.sahne && o.sahne.h < ESIK.sahneMin) b.push('sahne kısa: ' + Math.round(o.sahne.h) + ' px');
   if (o.kutuPay > ESIK.kutuPay) b.push('kutu ekranın %' + Math.round(o.kutuPay * 100) + "'i");
@@ -150,7 +153,7 @@ async function rapor(tarayici, outDir) {
       <div style="display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start">` + ks.filter(k => k.cihaz.grup === g).map(k => {
         const H = 340, W = Math.round(k.cihaz.w * H / k.cihaz.h);
         return `<div style="width:${Math.max(W, 150)}px"><img style="height:${H}px;width:${W}px;display:block;border:1px solid #999" src="data:image/jpeg;base64,${k.jpg}">
-          <div style="font-weight:bold;margin-top:4px">${esc(k.cihaz.ad)}</div><div style="color:#666">${k.cihaz.w}×${k.cihaz.h}</div>
+          <div style="font-weight:bold;margin-top:4px">${esc(k.cihaz.ad)}</div><div style="color:#666">${k.cihaz.w}×${k.cihaz.h}${k.olcu.dikeyUyari ? ' · dikey uyarısı' : ''}</div>
           ${k.bayrak.map(x => `<div style="color:#c00">⚑ ${esc(x)}</div>`).join('')}</div>`;
       }).join('') + '</div>').join('') + '</body></html>';
     await sayfa.setContent(html);

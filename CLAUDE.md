@@ -73,7 +73,10 @@ Bayraklar ADAY'dır: yatay taşma, figür başı kadraj dışı, konuk/Peri boy 
 %12'den fazla sapması (Lâl/Defne hatasını yakalar), arka planın %65'ten azı görünmesi (ilk
 tablet hatasını yakalar), Peri'nin küçülmesi, kutunun ekranı yemesi, küçük dokunma hedefi.
 Eşikler `ESIK` tablosunda. Yeni vaka, yeni görsel ya da düzen değişikliğinden sonra koş;
-bilinen AÇIK bayrak: **telefon yatay (844×390)** — sahne ~170 px; ne yapılacağı sahibine soruldu (Ekim 2026).
+Telefon yatayda (alçak, dokunmatik, yatay ekran) oyunun üstüne **"Telefonu dikey çevir"** uyarısı
+biner (`yeni_arayuz.css` sonu, `body::before`; sahibinin kararı, Ekim 2026 — sahne ~170 px'e iniyordu).
+Araç o boyu "dikey uyarısı" diye işaretler, altını ölçmez. Bilinen tek bayrak: 1280×650'de seçim
+ekranı (arka planın ~%51'i görünür, kutu büyüdüğü için) — göze batmıyor.
 
 **Tablet düzeni (Ekim 2026) — yalnız yeni oyun, `kaynak/yeni_arayuz.css`.** Dikey tablette
 sabit 480 px sütun sahneyi 1:2'den uzun yapıyordu: 3:4 arka plan iki yandan ~%40 kesiliyor,
