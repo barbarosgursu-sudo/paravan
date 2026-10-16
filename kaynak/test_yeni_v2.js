@@ -100,5 +100,15 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   k(`${vaka.id}: ek hak sonraki oyuna taşmaz`, o3.durum.aktif.arastirmaKalan === tam);
 }
 
+// Künye portresi: her kişinin portresi (ve katman portreleri) gömülü — yoksa panelde ☗ kalır,
+// hata vermez (Vaka 2'nin yedi konuğu 16 Ekim'e kadar böyle kaldı; sahibi oynarken buldu).
+{
+  const KIS = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "kisiler.json"), "utf-8"));
+  const GOR = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "gorseller.json"), "utf-8")).dosyalar;
+  const eksik = KIS.kisiler.flatMap(x => [x.portre, ...(x.portre_katman || []).map(p => p.portre)])
+    .filter(p => p && !GOR[String(p).replace(".jpg", "")]);
+  k("künyedeki her portre gömülü", !eksik.length, eksik.join(", "));
+}
+
 console.log(hata ? `\n${hata} başarısız.` : "\nHepsi geçti.");
 process.exitCode = hata ? 1 : 0;

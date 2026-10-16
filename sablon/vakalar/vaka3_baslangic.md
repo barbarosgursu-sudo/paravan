@@ -41,6 +41,9 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   her kişi o satırda ekranda; tek kişi → `{gir: x}`, iki kişiden fazlası ya da grup → kare.
   Diyalogda (adım 3), görsel listesinde (adım 8) ve turda (`--hepsi` → `adi_gecen_yok.txt`)
   denetlenir. `7_uretim_sureci.md` → Görsel–metin uyum denetimi.
+- **Künye portresi (16 Ekim, sahibi buldu: Vaka 2'nin yedi konuğunda yoktu):** her yeni kişinin figürü
+  gömülünce `python3 arac_portre.py <figür_normal> yeni_gorsel/portre/portre_<id>.webp` + `gorseller.json`.
+  `test_yeni_v2.js` eksik portreyi yakalar.
 - **Peri poz kütüphanesi (16 Ekim):** `sablon/peri_poz/` — L1 yüz, L22/L25 oturur-bacak bacak üstünde,
   L16 işaret eden, L13/L24 arkadan… Adım 8'de her Peri promptuna uygun L eklenir (en çok 5 referans).
   Cengo seti (C1–C25) üretiliyor; gelince `sablon/cengo_poz/`.
