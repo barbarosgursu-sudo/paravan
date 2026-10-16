@@ -42,7 +42,7 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
     if (CIHAZ) await CIHAZ.tara(p, ad); };
   const tasmaBak = async yer => { const w = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (w > 0) tasma.push(yer+':'+w); };
   // --hepsi: incelenen vakanın her satırı → satir/NNN_ad.jpg + dokum.txt
-  let incelenen = null, sn = 0; const SDIR = path.join(OUT, 'satir'), dokum = [];
+  let incelenen = null, sn = 0; const SDIR = path.join(OUT, 'satir'), dokum = [], adsiz = [];
   if (HEPSI) fs.mkdirSync(SDIR, { recursive: true });
   const satirFoto = async ad => {
     await p.waitForTimeout(250);
@@ -50,8 +50,15 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
       const s = window.__satir || {}, f = id => { const e = document.getElementById(id); return e && !e.hidden ? (e.dataset.src || '?') : '-'; };
       return { k: s.k, kime: s.kime || '', arka: vn.arka || '', kare: s.kare || '', sol: f('vnSol'), sag: f('vnSag'),
         cekilmis: document.getElementById('vnFig').classList.contains('cekilmis'),
-        m: (document.querySelector('.vn-replik') || {}).textContent || '' };
+        m: (document.querySelector('.vn-replik') || {}).textContent || '',
+        // Anlatı satırında adı geçen ama ekranda olmayan kişi (kare yoksa). Ad = künyedeki adın ilk kelimesi.
+        yok: (!s.kare && s.k === 'not') ? Object.keys(Object.assign({}, SAHNE_KANON.figurler, { peri: 1, cengo: 1 }, SAHNE_KANON.sesler || {}))
+          .filter(k => { const ad = String(vnAd(k)).split(/\s+/)[0]; const m = s.m || '';
+            if (!ad || ad.length < 3 || !new RegExp('(^|[^\\p{L}])' + ad + '(?![\\p{L}])', 'u').test(m) && !m.includes(ad + "'")) return false;
+            const g = ['vnSol', 'vnSag'].map(id => document.getElementById(id)).filter(e => !e.hidden && !document.getElementById('vnFig').classList.contains('cekilmis')).map(e => e.dataset.src || '');
+            return !g.some(x => x.replace(/^sol:/, '').split('.')[0] === k); }) : [] };
     });
+    if (d.yok.length) adsiz.push(`${String(sn + 1).padStart(3, '0')} ${ad} | ekranda yok: ${d.yok.join(', ')} | ${d.m}`);
     const no = String(++sn).padStart(3, '0');
     await p.screenshot({ path: `${SDIR}/${no}_${ad}.jpg`, type: 'jpeg', quality: 55 });
     dokum.push(`${no} ${ad} | ${d.k}${d.kime ? '→' + d.kime : ''} | ${d.arka}${d.kare ? ' KARE ' + d.kare : ''} | sol ${d.cekilmis ? '(çekik) ' : ''}${d.sol} | sağ ${d.sag} | ${d.m}`);
@@ -158,7 +165,9 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
   console.log(tasma.length ? '✗ yatay taşma: ' + tasma.join(' ') : '✓ yatay taşma yok');
   console.log(hata.length ? '✗ hata:\n  ' + hata.join('\n  ') : '✓ JS hatası yok');
   if (tasma.length || hata.length) process.exitCode = 1;
-  if (HEPSI) { fs.writeFileSync(path.join(SDIR, 'dokum.txt'), dokum.join('\n') + '\n'); console.log('satır görüntüsü', sn, '→ YENI_UI/satir/'); }
+  if (HEPSI) { fs.writeFileSync(path.join(SDIR, 'dokum.txt'), dokum.join('\n') + '\n'); console.log('satır görüntüsü', sn, '→ YENI_UI/satir/');
+    fs.writeFileSync(path.join(SDIR, 'adi_gecen_yok.txt'), adsiz.join('\n') + '\n');
+    console.log(adsiz.length ? '⚑ anlatıda adı geçen ama ekranda olmayan: ' + adsiz.length + ' satır (aday; satir/adi_gecen_yok.txt)\n  ' + adsiz.join('\n  ') : '✓ anlatıda adı geçen herkes ekranda'); }
   if (CIHAZ) await CIHAZ.rapor(b, OUT);
   await b.close();
 })().catch(e => { console.error('TUR HATASI', e.message); process.exit(1); });

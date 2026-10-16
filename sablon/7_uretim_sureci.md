@@ -58,6 +58,15 @@ Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılı
 kardeşi. Bütün görseller gömülünce görselli turu **bütün yollarda** koşarım
 (`arac_yeni_tur.js`) ve her ekranı altındaki metinle yan yana okurum:
 - **Kim var?** Metindeki/kare satırındaki herkes ekranda mı; fazladan ya da iki kez görünen var mı?
+  **ZORUNLU (16 Ekim 2026, sahibinin kararı):** anlatı satırında adı geçen her kişi (ya da grup:
+  nedimeler, annesi, misafirler) o satırda ekranda olmalı. Tek kişiyse figürü `{gir: x}` ile o
+  satırda girer (yeri tanıtan `{mekan}` satırı bile olsa); ekranda aynı anda yalnız iki figür
+  durabildiği için **iki kişiden fazlası ya da grup → kare**. Bu yüzden denetim üç adımda yapılır:
+  diyalog yazılırken (adım 3: kişi sayan her anlatı satırına `gir` ya da kare), görsel listesinde
+  (adım 8: kalabalık anlatan her satıra kare) ve turda (adım 11: `arac_yeni_tur.js … --hepsi`
+  `satir/adi_gecen_yok.txt`'ye aday listesi yazar; grup adlarını ve akrabalık sözlerini
+  — "annesi" — yakalamaz, onlara gözle bakılır). Vaka 2'de sahibi Onay 3'te buldu: son prova
+  açılışları, "Bütün nedimeler Defne'ye dönüyor", "Gelme anne!" → K33–K34 sonradan üretildi.
 - **Kime konuşuyor?** Konuşanın karşısında, hitap ettiği kişi mi duruyor?
 - **Yüz satıra uyuyor mu?** Konuşanın ve dinleyenin ifadesi bu satırın duygusu mu (önceki satırdan kalmış mı)?
 - **Anılan şey görünüyor mu?** Metindeki nesne, hareket, kıyafet (krema, örtü, kravat gevşek/çözük, gözlük elde).

@@ -37,6 +37,10 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   görsellere **referans olacak** görselde (temel: G1, ilk kremalı, ilk örtülü vb.). Hata referansta
   düzelmezse zincirle yayılır: Vaka 2'de G8'de doğan çorap bandı G9–G13'e geçti; 5 görsel yeniden
   üretildi, G13 limite takıldı (~20 dk kayıp).
+- **Adı geçen kişi ekranda mı (16 Ekim, sahibinin kararı — ZORUNLU):** anlatı satırında adı geçen
+  her kişi o satırda ekranda; tek kişi → `{gir: x}`, iki kişiden fazlası ya da grup → kare.
+  Diyalogda (adım 3), görsel listesinde (adım 8) ve turda (`--hepsi` → `adi_gecen_yok.txt`)
+  denetlenir. `7_uretim_sureci.md` → Görsel–metin uyum denetimi.
 - **ChatGPT reddederse (16 Ekim, sahibinin kararı):** aynı promptu ChatGPT'nin düşünen kipinde
   ver; kendisi yumuşatıp yeniden dener (Vaka 2 K23 böyle çıktı). Olmazsa Grok. `5_gorsel_sistemi.md` D-5.
 - **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta
