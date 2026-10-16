@@ -143,7 +143,8 @@
         "K29",
         "K30",
         "K31",
-        "K32"
+        "K32",
+        "K33"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -1399,7 +1400,7 @@
             {
               "k": "not",
               "m": "Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.",
-              "mekan": true
+              "kare": "K33"
             },
             {
               "k": "peri",
@@ -1423,7 +1424,7 @@
             {
               "k": "not",
               "m": "Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.",
-              "mekan": true
+              "kare": "K33"
             },
             {"k": "peri", "i": "normal", "m": "Gelinliği siz aldınız.", "gir": "defne"},
             {"k": "defne", "i": "normal", "m": "Ben mi? Kendi gelinliğimi mi? Ne kanıtınız var?", "gir": "defne"},
@@ -1442,7 +1443,7 @@
             {
               "k": "not",
               "m": "Ertesi gün. Otelin balo salonu. Lâl Hanım nedimelerin son iğnelerini takıyor. Defne sıranın başında.",
-              "mekan": true
+              "kare": "K33"
             },
             {"k": "peri", "i": "kas", "m": "Lâl Hanım. Gelinliği siz aldınız.", "gir": "lal"},
             {"k": "lal", "i": "sinirli", "m": "Ben mi? Pervin, aklını mı kaçırdın?"},
@@ -1461,7 +1462,7 @@
             {
               "k": "not",
               "m": "Ertesi gün. Otelin balo salonunda son prova. Tolga tabletiyle sırayı diziyor. Defne sıranın başında.",
-              "mekan": true
+              "kare": "K33"
             },
             {"k": "peri", "i": "kas", "m": "Tolga Bey. Gelinliği siz aldınız.", "gir": "tolga"},
             {"k": "tolga", "i": "sinirli", "m": "Ben mi canım? Ben gördüğümde gelinlik yerindeydi!"},

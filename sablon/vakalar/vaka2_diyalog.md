@@ -204,7 +204,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Oyuncu hangi doğru çifti seçtiyse seçsin aynı sahne; kanıtı adıyla anmaz.
 
-*Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.* {mekan}
+*Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.* {kare: K33}
 **PERİ [normal]:** Defne Hanım. Gelinliği siz aldınız. Nasıl aldığınızı da biliyorum. {gir: defne}
 **DEFNE [gergin]:** Ne diyorsunuz siz? {gir: defne}
 **PERİ [kas]:** İki şey diyorum. İkisini de biliyorsunuz.
@@ -215,7 +215,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ## sahne yuzlesme_zayif
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
 
-*Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.* {mekan}
+*Ertesi gün. Otelin balo salonunda son prova. Defne sıranın başında, yanında annesi.* {kare: K33}
 **PERİ [normal]:** Gelinliği siz aldınız. {gir: defne}
 **DEFNE [normal]:** Ben mi? Kendi gelinliğimi mi? Ne kanıtınız var? {gir: defne}
 **PERİ [utanmis]:** …Bir his.
@@ -227,7 +227,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Lâl nedime elbiselerini getirmiş (form §10).
 
-*Ertesi gün. Otelin balo salonu. Lâl Hanım nedimelerin son iğnelerini takıyor. Defne sıranın başında.* {mekan}
+*Ertesi gün. Otelin balo salonu. Lâl Hanım nedimelerin son iğnelerini takıyor. Defne sıranın başında.* {kare: K33}
 **PERİ [kas]:** Lâl Hanım. Gelinliği siz aldınız. {gir: lal}
 **LÂL [sinirli]:** Ben mi? Pervin, aklını mı kaçırdın?
 **LÂL [sinirli]:** Salı akşamı prova odasında en son kim kaldı, ona sorsana!
@@ -238,7 +238,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ## sahne yuzlesme_tolga
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
 
-*Ertesi gün. Otelin balo salonunda son prova. Tolga tabletiyle sırayı diziyor. Defne sıranın başında.* {mekan}
+*Ertesi gün. Otelin balo salonunda son prova. Tolga tabletiyle sırayı diziyor. Defne sıranın başında.* {kare: K33}
 **PERİ [kas]:** Tolga Bey. Gelinliği siz aldınız. {gir: tolga}
 **TOLGA [sinirli]:** Ben mi canım? Ben gördüğümde gelinlik yerindeydi!
 **TOLGA [sinirli]:** Gelin hanım da yanındaydı. Bana öyle bir baktı ki çıktım!
@@ -381,6 +381,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka2
 | K27–K30 | dört kararın ara karesi | kararlar |
 | K31 | Cengo kravatı gevşek, merdivende gülümseyerek dönüp bakıyor | kapanış (bağ yüksek) |
 | K32 | Akşam büro: masada çözülmüş bordo kravat ve börek tepsisi; Peri örtüye sarılı, tek başına | kapanış (bağ düşük) |
+| K33 | Son prova: Defne sıranın başında, yanında Müjgan; dört nedime, Tolga, Lâl | yüzleşme açılışı (dört sonuç) |
 | Peri `tayyor` | normal, kas, sinirli, aci, utanmis, sasirmis, merakli | her yerde |
 | Peri `kremali` | sinirli, utanmis | kovalamaca |
 | Peri `ortulu` | normal, kas, sasirmis, utanmis | kovalamaca sonu, kapanış |

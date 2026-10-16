@@ -154,7 +154,8 @@
     "K31": "ara_k31.webp",
     "K32": "ara_k32.webp",
     "peri.ortulu.utanmis": "sprite/peri_ortulu_utanmis.webp",
-    "K23": "ara_k23.webp"
+    "K23": "ara_k23.webp",
+    "K33": "ara_k33.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [

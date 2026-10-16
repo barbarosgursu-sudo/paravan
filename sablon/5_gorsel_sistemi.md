@@ -85,7 +85,9 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 ## D. Üretim yöntemi
 
 1. **Kıyafet başına tek temel görsel:** önce nötr görsel üretilir. Diğer ifadeler hep onun **düzenlemesidir** (1. referans = temel görsel). Yüz, ölçek ve kıyafet sabit kalır.
-2. **Referanslar:** her prompta numaralı olarak, aynı mesajda verilir.
+2. **Referanslar:** her prompta numaralı olarak, aynı mesajda verilir. **En çok 5 referans**
+   (ChatGPT sınırı; 16 Ekim 2026, Vaka 2 K33'te görüldü). Daha çok kişi gerekiyorsa o kişileri
+   bir arada gösteren önceki bir kare tek referans olarak verilir (K34 → K33 çıktısı).
 3. **Yan karakterlere ana karakter referans verilmez.** Stil için başka bir yan karakter verilir.
 4. **Benzer yan karakterler ayrışır:** yaş, yapı, saç, bıyık farklı (üç yaşlı bıyıklı balıkçı olmaz).
 5. **Üretici:** önce ChatGPT; reddederse ya da tutmazsa Grok.
