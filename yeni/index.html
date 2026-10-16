@@ -3240,11 +3240,12 @@ yenidenBasla = function(){
 /* GEÇİCİ (sahibinin testi için): önceki vakaları motorda kendiliğinden oynatır — her ipucu
    açılır, suçlu doğru kanıtla suçlanır, ilk karar seçilir — ve masaya o vakayla döner.
    Kasa ve Cengo bağı bu varsayılan yolun sonucudur. Yayından önce false yapılır. */
-const VN_VAKA_ATLA = false;
+const VN_VAKA_ATLA = true;
 function vakaAtlaDugmeleri(){
   if(!VN_VAKA_ATLA) return "";
-  return GAME.vakalar.filter(x => x.tur === "omurga").sort((a, b) => a.sira - b.sira).slice(1)
-    .map(v => `<button class="buton ikincil" onclick="vakaAtla('${v.id}')">Vaka ${v.sira}'den başla (geçici)</button>`).join("");
+  // Test aşaması (16 Ekim 2026, sahibinin isteği): her vakaya doğrudan erişim, Vaka 1 dahil (açılış atlanır).
+  return GAME.vakalar.filter(x => x.tur === "omurga").sort((a, b) => a.sira - b.sira)
+    .map(v => `<button class="buton ikincil" onclick="vakaAtla('${v.id}')">Vaka ${v.sira} · ${v.baslik} (test)</button>`).join("");
 }
 function vakaAtla(hedef){
   kayitSil(); acilisSil();

@@ -108,9 +108,10 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
 ### ✅✅ 16 Ekim 20:10: VAKA 2 DONDU (adım 14)
-Toplam ≈ 11 sa 06 dk (tablo: `sablon/vakalar/vaka2_baslangic.md` §1). 63 görsel (59 + Onay 3'te 4). Geçici
-"Vaka N'den başla" düğmesi kapalı (`VN_VAKA_ATLA = false`; Vaka 3 testinde gerekirse geçici açılır, yayından
-önce yine kapanır). **Sıradaki iş: Vaka 3** — sahibi "Vaka 3'e başla" deyince `sablon/vakalar/vaka3_baslangic.md`.
+Toplam ≈ 11 sa 06 dk (tablo: `sablon/vakalar/vaka2_baslangic.md` §1). 63 görsel (59 + Onay 3'te 4). Test aşaması
+(sahibinin isteği, 16 Eki 20:20): "Baştan başla" penceresinde **her vakaya düğme** ("Vaka N · Başlık (test)",
+Vaka 1 dahil, açılış atlanır) — `VN_VAKA_ATLA = true`. Yeni vaka eklenince düğmesi kendiliğinden çıkar.
+**Yayından önce `false` yapılır.** **Sıradaki iş: Vaka 3** — sahibi "Vaka 3'e başla" deyince `sablon/vakalar/vaka3_baslangic.md`.
 
 ### ✅ 16 Ekim 19:31: Onay 3 sürüyor — sahibinin ilk notu uygulandı
 Sahibi: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU, `7_uretim_sureci.md`), `--hepsi` aday listesi,
