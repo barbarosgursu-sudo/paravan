@@ -89,6 +89,12 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 3. **Yan karakterlere ana karakter referans verilmez.** Stil için başka bir yan karakter verilir.
 4. **Benzer yan karakterler ayrışır:** yaş, yapı, saç, bıyık farklı (üç yaşlı bıyıklı balıkçı olmaz).
 5. **Üretici:** önce ChatGPT; reddederse ya da tutmazsa Grok.
+   **ChatGPT reddederse önce bu yol (16 Ekim 2026, sahibinin kararı; Vaka 2 K23):** aynı promptu
+   ChatGPT'nin **düşünen kipinde ("Çalışma")** yeniden ver. Filtreye takılınca promptu kendisi
+   yeniden yazıp tekrar deniyor: "seksi" → "şık ve çekici moda estetiği", ceket kapalı, kamera
+   açısı nötr, sahne "aile dostu fiziksel komedi". 11 Ekim'de reddedilen K23 böyle üretildi ve
+   Grok'unkinden iyi çıktı. Gelince bak: yumuşatılmış tarif Peri'nin görünüşünü (dekolte,
+   kıyafet sabitleri) değiştirmiş mi — K23'te değiştirmemişti. Olmazsa Grok.
 
 6. **Görsel iş sayfası (zorunlu; 11 Ekim 2026, sahibinin kararı).** Promptlar sahibine düz metin
    ya da md dosyası olarak değil, **iş sayfası** olarak verilir: claude.ai'da yayımlanmış tek bir
@@ -158,7 +164,7 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 | **kalabalık karede kişi düşer** (K19'da Cengo yok) — K19 | kare promptunda kişi sayısını yaz ("kadrajda TAM üç kişi: …"); gelince metindeki kare satırıyla say |
 | **kim kimi görüyor** bozulur (masanın açık yüzü kapıya) — K20 | saklanma/gizlilik karesinde kamerayı ve engeli tarif et ("kamera masanın arkasında, ön panel kapalı") |
 | **kıyafet başka karakteri çağrıştırır** (siyah uzun kol = Lâl) — G44 | detay karede elin sahibinin kıyafetini yaz (Gülsüm: kısa kollu tişört, gri önlük); şüpheliyle karışmasın |
-| **reddedilir** ("sahtekârlık" kalıbı) — K23 | asıl sebep çoğu zaman "seksi / bacaklar havada / etek" sözcükleri; önce aynı promptla öbür üreticide (Grok) dene, sahibi istemedikçe yumuşatma |
+| **reddedilir** ("sahtekârlık" kalıbı) — K23 | asıl sebep çoğu zaman "seksi / bacaklar havada / etek" sözcükleri; önce aynı promptu ChatGPT'nin düşünen kipinde ver, kendisi yumuşatıp yeniden dener (D-5); olmazsa aynı promptla Grok. Claude promptu kendiliğinden yumuşatmaz |
 
 ## E. Kontrol listesi (gelen her görsel)
 
