@@ -555,7 +555,34 @@ Preserve Peri's adult identity, facial likeness, hair color, pearl earrings, gre
 
 ### Deneme 2 — REDDEDİLDİ
 
-(sahibinden bekleniyor)
+```
+Use case: illustration-story
+Asset type: vertical visual-novel story insert / game scene
+
+Reference roles:
+Image 1 is the strict identity and costume reference for Peri, an adult woman. Keep her recognizable face, facial structure, eyes, brows, nose, lips, jawline, red-brown hair, pearl earrings, emerald-green fitted blazer and matching skirt, and red stiletto shoes.
+Image 2 is the strict location reference. Recreate the same elegant pastry kitchen with white tile walls, tall arched windows and Bosphorus view, stainless-steel counters and refrigerator, and warm golden daylight.
+
+Scene:
+A polished, playful slapstick accident. Peri is seated deep in the collapsed broad bottom layer of a huge five-tier white wedding cake. All five original tiers must remain visually understandable through the broken stacked layers around and behind her. Her knees are bent and both feet have kicked upward from the comic fall, with both red stilettos completely visible. White frosting is splashed over her hair, hands and green suit. Her elegant updo is partly loosened with several red-brown strands falling free. She extends both arms outward, palms open, in a theatrical "what just happened?" gesture. Her expression combines surprise with proud composure: alert eyes, raised brows, lifted chin, confident comic poise. She is unharmed and in control.
+
+Style:
+Semi-realistic painted digital illustration for an adult visual novel. Realistic human proportions, unmistakably illustrated rather than photographic. Clean defined contour lines, soft painted shading, warm vivid color, polished animation-film-poster and modern comic-book finish. Not anime, not a children's cartoon, not photorealistic.
+
+Composition:
+Strict 3:4 vertical portrait composition, intended final size 1086 × 1448. Show the complete action from the top of her hair to both raised red shoes. Do not crop head, hands, legs, or shoes. Peri and the damaged five-tier cake are centered; enough of the matching kitchen remains visible to identify the location. Only one person appears. Pose must be energetic yet anatomically coherent. Exactly two arms, two hands, two legs and two shoes. Both hands visible with five natural fingers each.
+
+Tone:
+Glamorous, stylish, attractive and funny. Fully dressed throughout; skirt remains properly positioned and covering her. No injury, distress, embarrassment, ridicule or degrading tone.
+
+Hard constraints:
+No additional people. No extra limbs, duplicated shoes, malformed hands, disconnected anatomy or impossible joints. No bare body exposure. No text, letters, numbers, logos, labels, signs, watermark or signature anywhere.
+```
+
+Deneme 1'den farkı: "sexy", "hips and bottom", "nipples/genitals" çıktı; yerine "attractive",
+"skirt remains properly positioned and covering her" geldi. Yine reddedildi — demek ki asıl
+sebep tek kelime değil, **"bacaklar havada + etek + oturma" pozunun kendisi** olabilir;
+ayrıca "adult visual novel" ifadesi eklendi (riskli olabilir).
 
 ### Deneme 3 — KABUL EDİLDİ (oyundaki K23)
 
