@@ -114,6 +114,12 @@ Grok da reddederse sahibine sor, kendiliğinden yumuşatma. İki görsel gelince
 saati `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
 `arac_yeni_tur.js 0 defne dogru` yolu yok.
 
+**16 Ekim notu:** K23'ün Grok denemesi 12 Ekim'den beri kayda geçmedi — yeni pencere **ilk iş sahibine
+sorsun** (denendi mi, görsel var mı). 12 Ekim'deki LoRA / Forge (yerel üretim) işi Vaka 2'nin yolu
+DEĞİL, ayrı bir deneme; durumu `sablon/lora_plani.md`'de (eller çözülmedi, sırada ControlNet). Vaka 2
+süresine girmez. 16 Ekim cihaz düzeni oturumu da girmez (bkz. en üst bölüm). Adım 11 turunda
+`--cihaz` da koşulsun (CLAUDE.md).
+
 ### Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,…,G13=peri_beyaz --genis G3,G8 --yaz`
 (dosyalar sahibinden `G1.png…` adıyla geldi, `--sira`sız). Öğrenilenler — sonraki paketler için:
