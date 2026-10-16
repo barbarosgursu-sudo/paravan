@@ -6,6 +6,8 @@
 //   cd kaynak && node build_html.js yeni && node arac_yeni_tur.js [karar_sırası] [set|dukkan] [dogru|zayif|<şüpheli id>]
 //   Vaka 2: node arac_yeni_tur.js [karar_sırası] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]
 //   (Vaka 1 önce hızlı oynanır: V1 → V2 geçişi ve kayıt da böylece denenir.)
+//   --tablet (herhangi bir yerde): Pixel 5 yerine dikey tablet (800×1280) — yeni_arayuz.css'teki
+//   tablet eşiği (min-width:600px, min-height:1050px) devreye girer; tam sayfa görüntü alır.
 // Yazı tipi (Google Fonts) ve ses dosyası yükleme hataları çevrimdışı ortamda
 // beklenir; sayılmaz. Seçicilerde text= kullanılmaz (bkz. CLAUDE.md).
 const { chromium, devices } = require('/opt/node22/lib/node_modules/playwright');
@@ -13,16 +15,21 @@ const path = require('path'), fs = require('fs');
 const SAYFA = path.join(__dirname, '..', 'yeni', 'index.html');
 const OUT = path.join(__dirname, 'YENI_UI'); fs.mkdirSync(OUT, { recursive: true });
 for (const f of fs.readdirSync(OUT)) fs.unlinkSync(path.join(OUT, f));
-const KARAR = Number(process.argv[2]||0), YOL = process.argv[3]||"set", SONUC = process.argv[4]||"dogru";
+const TABLET = process.argv.includes('--tablet'), ARG = process.argv.filter(a => a !== '--tablet');
+const KARAR = Number(ARG[2]||0), YOL = ARG[3]||"set", SONUC = ARG[4]||"dogru";
 // Vaka 2: yol adı ortu|vale|terzi|defne verilirse Vaka 1 hızlı oynanır, sonra Vaka 2.
 const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA = YOL2 ? "V2" : "V1";
 (async () => {
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
-  const p = await b.newPage({ ...devices['Pixel 5'], reducedMotion: 'reduce' });
+  const cihaz = TABLET ? { viewport: { width: 800, height: 1280 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true } : devices['Pixel 5'];
+  const p = await b.newPage({ ...cihaz, reducedMotion: 'reduce' });
   const hata = []; p.on('pageerror', e => hata.push(e.message)); p.on('console', m => { if (m.type()==='error' && !/ses|Audio|404|ERR_FILE|ERR_FAILED|ERR_CERT|ERR_NAME|ERR_INTERNET/.test(m.text())) hata.push('console: '+m.text()); });
   await p.goto('file://' + SAYFA); await p.waitForTimeout(400);
+  // Tablet eşiği tutmadıysa (CSS değişti, .vn yine 480 px'e kilitlendi) görüntüler yanıltır: söyle.
+  if (TABLET) { const g = await p.evaluate(() => (document.querySelector('.vn')||{getBoundingClientRect:()=>({width:0})}).getBoundingClientRect().width);
+    if (g <= 600) hata.push('tablet: konuşma ekranı ' + Math.round(g) + ' px — tablet eşiği devreye girmedi'); else console.log('tablet: konuşma ekranı', Math.round(g), 'px'); }
   let n = 0, shot = 0, tasma = [], gorulen = [];
-  const foto = async ad => { await p.waitForTimeout(350); await p.screenshot({ path: `${OUT}/${String(++shot).padStart(2,'0')}_${ad}.png` }); };
+  const foto = async ad => { await p.waitForTimeout(350); await p.screenshot({ fullPage: TABLET, path: `${OUT}/${String(++shot).padStart(2,'0')}_${ad}.png` }); };
   const tasmaBak = async yer => { const w = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (w > 0) tasma.push(yer+':'+w); };
   // VN'i bitene kadar oynat
   const vnOyna = async (ad, fotoAnlar = []) => {

@@ -63,6 +63,22 @@ Konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — ye
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
 Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]`
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
+`--tablet` eklenirse (herhangi bir yere) Pixel 5 yerine dikey tablette (800×1280) oynatır ve
+tam sayfa görüntü alır; tablet eşiği tutmazsa hata basar. Yeni vaka bittiğinde iki kipte de koş.
+
+**Tablet düzeni (Ekim 2026) — yalnız yeni oyun, `kaynak/yeni_arayuz.css`.** Dikey tablette
+sabit 480 px sütun sahneyi 1:2'den uzun yapıyordu: 3:4 arka plan iki yandan ~%40 kesiliyor,
+figürler kadrajdan taşıyordu. Üç kural birlikte çözüyor, birini bozma:
+- `.vn` genişliği `max(480px,56dvh)` — sütun yüksekliğe göre genişler, oran telefondakine
+  yakın kalır. Telefon ve yatay ekran 480 px tabanında kalır.
+- `@media (min-width:600px) and (min-height:1050px)` eşiğinde konuşma ekranının yazısı
+  elle ~%30 büyür; eski arayüzün ekranları ise `#app > :not(.vn){zoom:1.3}` ile ölçeklenir
+  (`#app` 676 px = 520 × 1,3, iç düzen telefondakiyle aynı). `.vn` `#app`'in İÇİNDE —
+  `:not(.vn)` olmazsa iki kez büyür. Kişiler paneli `.vn .vn-kisiler` ile `.vn`'i kaplar
+  (özgüllük şart: dosyanın sonundaki `.vn-kisiler` kuralı aksi hâlde ezer).
+- Yeni bir ekran ya da pencere `#app`'in ya da `.vn`'in DIŞINA eklenirse bu kurallar ona
+  uygulanmaz; tablette ayrıca bak. Yeni arka plan 3:4 değilse kesim oranı değişir.
+Eski oyunun sayfası bu kurallara girmez (CSS yalnız `build_html.js yeni`'de gömülür).
 
 **Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` (yeni oyun: `… yeni`) — her
 katmanı koşulunun hak ettiği olgularla yan yana basar; sızıntıyı gözle ararsın.
