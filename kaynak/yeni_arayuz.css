@@ -80,6 +80,23 @@
 .vn-secim:hover{background:#fff2d6}
 .vn-secim:active{transform:translateY(3px);box-shadow:0 0 0 var(--vn-gece)}
 @media (max-height:640px){.vn-replik{font-size:16px}.vn-kutu{min-height:112px}}
+/* Dikey tablet: sütun ~650-720 px'e genişlediğinde (bkz. .vn max-width) yazı telefon boyunda
+   küçük kalıyordu; yazı ve kutu ~%30 büyür. Telefon ve yatay ekran bu eşiğe girmez. */
+@media (min-width:600px) and (min-height:1050px){
+  .vn-serit{font-size:16px;padding:14px 18px}
+  .vn-gec{font-size:15px;min-height:44px;padding:8px 16px}
+  .vn-kasa{padding:6px 14px}
+  .vn-mekan{font-size:20px;right:18px;top:14px}
+  .vn-kutu-alani{padding:0 16px 20px}
+  .vn-kutu{min-height:184px;padding:30px 22px 18px;border-radius:18px}
+  .vn-plaka{font-size:23px;top:-22px}
+  .vn-replik{font-size:23px;min-height:68px}
+  .vn-replik.not{font-size:21px}
+  .vn-ileri{font-size:16px}
+  .vn-secimler{gap:14px}
+  .vn-secim-baslik{font-size:16px}
+  .vn-secim{font-size:22px;padding:16px 18px;min-height:60px}
+}
 @media (prefers-reduced-motion:reduce){
   .vn *,.vn *::before,.vn *::after{animation:none!important;transition:none!important}
 }
