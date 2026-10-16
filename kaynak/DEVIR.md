@@ -1,10 +1,57 @@
-# DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026)
+# DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > Bir sohbet penceresinden ötekine devir. **Önce `CLAUDE.md`'yi oku** (sözleşmeler,
 > tuzaklar, komutlar orada). Bu belge onun üstüne yalnız **oturum durumunu** koyar:
 > ne yapıldı, sahibi neyi bekliyor, sıradaki iş ne.
 >
 > Bu belge tarihlidir. İş ilerledikçe **güncellenir ya da silinir**.
+
+---
+
+## 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı
+
+**Durum tek cümle:** Vaka 2 **dondu** (adım 14, ≈11 sa 06 dk). Sıradaki iki iş, sırayla:
+**(1) Cengo referans seti C1–C25** (sahibi üretiyor; Vaka 3 süresine girmez), **(2) Vaka 3** (sahibi
+"Vaka 3'e başla" deyince; o an saat `sablon/vakalar/vaka3_baslangic.md` §2'ye yazılır).
+
+### Yeni pencerede ilk iş
+1. `CLAUDE.md` → 2. **bu bölüm** → 3. `sablon/vakalar/vaka3_baslangic.md` (bütün yeni kurallar orada
+   özetli) → 4. `sablon/` 7 parça.
+2. Sahibi C1'i gönderirse: C1'i asıl Cengo'ya (G14-1, `sablon/lora_sayfa/ref/G14-1_cengo.jpg`) karşı
+   onayla (yüz, saç, sakal, yaş); onaylamadan devam ettirme. İş sayfası (25 prompt, hâlâ geçerli):
+   https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc — üreticisi `sablon/lora_sayfa/uret_cengo.py`.
+   Görseller gelince: 900 px JPEG q85 → `sablon/cengo_poz/C<n>.jpg` + `OKUBENI.md` dizini
+   (Peri'deki gibi: `sablon/peri_poz/OKUBENI.md` örnek). Sahibi 10'arlı gönderir; eşleştirmeyi
+   kartın tarifinden yap (kıyafet/poz), mesaj sırasına güvenme.
+
+### Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+- **Vaka 2 bitti:** K23 gömüldü (ChatGPT düşünen kip; reddedilen 2 + kabul edilen prompt
+  `vaka2_gorsel.md` sonunda). Adım 11 görselli tur (`arac_yeni_tur.js --hepsi`: her satır görüntü +
+  `dokum.txt` + `adi_gecen_yok.txt`), sahne düzeltmeleri, Tolga eli (`gorseller.json → sola`).
+  Onay 3: sahibinin notuyla **4 yeni görsel** (K33 son prova, K34 herkes Defne'ye dönüyor, K35
+  kumaşçının adamı, `lal.kilif`). Vaka dondu; süre tablosu `vaka2_baslangic.md` §1.
+- **Yeni kurallar (şablonda):** anlatıda adı geçen herkes ekranda (tek kişi `gir`, kalabalık kare —
+  `7_uretim_sureci.md`); ChatGPT reddederse düşünen kip, sonra Grok (`5_gorsel_sistemi.md` D-5);
+  en çok 5 referans (D-2); her yeni kişiye künye portresi (`arac_portre.py`).
+- **Peri poz/kıyafet kütüphanesi:** `sablon/peri_poz/` L1–L25 + dizin. L1 = her temel Peri'de yüz
+  referansı; zor pozda uygun L "YALNIZ poz için".
+- **Künye:** Vaka 2'nin 7 kişisine portre + **Saadet Hanım** eklendi (sahibinin onayıyla metin).
+  Künye artık **yalnız içinde bulunulan vakanın kişilerini** gösterir (Peri, Cengo her vakada;
+  Hilmi Bey yalnız açılışın). Eski kişi dönerse `tanisma` dizi olur. Test: eksik portre yakalanır.
+- **Test aşaması düğmeleri:** "Baştan başla" penceresinde her vakaya düğme (`VN_VAKA_ATLA = true`).
+  **Yayından önce `false`.**
+- **Deneme reklamı (web; Android'de gerçek ödüllü reklam):** araştırma hakkı **bitince** "Reklam izle
+  · +1 araştırma hakkı" (vaka başına bir; `reklamHakAl`, kayıtta); kapanıştan sonra **"Kaçırdığın
+  ipuçları"** (her biri reklamla, olgu vermez). Kural: her vaka reklamsız 3 hakla `doğru` çözülür
+  (`test_yeni_v2.js`). Vaka 2'den itibaren **3 hak** (Vaka 1: 4).
+- **Kararlar (`kaynak/YENI_OYUN_CERCEVE.md`):** reklam yasağı gevşetildi — Android'de gardırop
+  (kozmetik kıyafet, yalnız figürlerde), +1 hak, kaçırılan ipuçları; arkadaş daveti (+1 hak),
+  karar istatistiği, komik rozetler. **Reddedildi:** günlük seri, sıralama tablosu.
+- Hikâyenin gerektirdiği kıyafet değişimi vaka içinde serbest (Vaka 2'deki gibi).
+
+### Sahibinin kararları (bu oturum, kısa)
+Defne itirafta gülümsüyor → kalsın. Kremalı Peri'nin itirafta sinirli yüzü ve G2–G7 tutam → kalsın.
+Nedime/garson/kumaşçının adamı künyeye girmez. Son `?v=` = 38.
 
 ---
 
@@ -54,7 +101,7 @@ Sahibinin sırayla bildirdiği sorunlar ve çözümleri — hepsi `kaynak/yeni_a
 
 ---
 
-## 0000. VAKA 2 — DEVİR (11 Ekim 2026) ⬅️ YENİ PENCERE BURADAN BAŞLAR
+## 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte)
 
 **Durum tek cümle:** Vaka 2'nin hikâyesi dondu (Onay 2 tamam); **adım 9–10 sürüyor** — sahibi
 ChatGPT'de **Sohbet 1'i (Peri, G1–G13)** üretiyor, bitince 13 görseli **tek seferde** bu pencereye

@@ -65,6 +65,10 @@ Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
 `--hepsi` eklenirse incelenen vakanın HER satırı `YENI_UI/satir/`'a görüntülenir ve `dokum.txt`'ye
 konuşan/kime/arka/kare/figür anahtarıyla dökülür — görselli tur denetimi (adım 11) bununla yapılır.
+Künye (Kişiler) yalnız içinde bulunulan vakanın kişilerini gösterir (`yeni_arayuz.js → vnKisiGorunur`);
+portre `python3 arac_portre.py <figür> yeni_gorsel/portre/portre_<id>.webp`. Deneme reklamı (`reklamGoster`,
++1 hak ve kaçırılan ipuçları) ve test için vaka düğmeleri (`VN_VAKA_ATLA`, yayından önce `false`):
+`kaynak/YENI_OYUN_CERCEVE.md`.
 Ayrıca `satir/adi_gecen_yok.txt`: anlatıda adı geçen ama ekranda olmayan kişiler (aday; grup ve
 "annesi" gibi sözleri yakalamaz). Sahibinin kuralı: adı geçen herkes ekranda — tek kişi `gir`, kalabalık kare.
 `--tablet` eklenirse (herhangi bir yere) Pixel 5 yerine dikey tablette (800×1280) oynatır ve

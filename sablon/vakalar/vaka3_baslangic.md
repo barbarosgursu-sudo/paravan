@@ -41,6 +41,13 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   her kişi o satırda ekranda; tek kişi → `{gir: x}`, iki kişiden fazlası ya da grup → kare.
   Diyalogda (adım 3), görsel listesinde (adım 8) ve turda (`--hepsi` → `adi_gecen_yok.txt`)
   denetlenir. `7_uretim_sureci.md` → Görsel–metin uyum denetimi.
+- **3 araştırma hakkı + reklamla +1 (16 Ekim, sahibinin kararı):** formda 3 hak; **3 hakla `doğru` yolu
+  şart** (`test_yeni_v2.js` sınar), 4. ipucu resmi genişletir. Reklam düğmesi hak bitince çıkar;
+  kapanıştan sonra "Kaçırdığın ipuçları". Ayrıntı `kaynak/YENI_OYUN_CERCEVE.md`.
+- **Künye vaka başına (16 Ekim):** künyede yalnız o vakanın kişileri (+ Peri, Cengo). Her konuşan kişiye
+  künye kaydı (adı olan herkes; Vaka 2'de Saadet unutulmuştu) ve portre. Önceki vakadan dönen kişi
+  için `tanisma` dizi olur.
+- **Kıyafet:** hikâye gerektirirse vaka içinde değişebilir (her yeni kıyafet = ifade seti, ~6–8 figür).
 - **Künye portresi (16 Ekim, sahibi buldu: Vaka 2'nin yedi konuğunda yoktu):** her yeni kişinin figürü
   gömülünce `python3 arac_portre.py <figür_normal> yeni_gorsel/portre/portre_<id>.webp` + `gorseller.json`.
   `test_yeni_v2.js` eksik portreyi yakalar.
