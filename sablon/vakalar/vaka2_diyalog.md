@@ -210,7 +210,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **PERİ [kas]:** İki şey diyorum. İkisini de biliyorsunuz.
 **MÜJGAN [ofkeli]:** Kızım? {gir: mujgan, kime: peri}
 **DEFNE [panik]:** Anne… {gir: defne}
-*Defne annesine bakıyor, kapıya bakıyor. Sandaletlerini çıkarıp koşuyor.* {cik}
+*Defne annesine bakıyor, kapıya bakıyor. Sandaletlerini çıkarıp koşuyor.* {cik, kare: K34}
 
 ## sahne yuzlesme_zayif
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
@@ -220,8 +220,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **DEFNE [normal]:** Ben mi? Kendi gelinliğimi mi? Ne kanıtınız var? {gir: defne}
 **PERİ [utanmis]:** …Bir his.
 **MÜJGAN [ofkeli]:** His mi? Kızım, gel buraya. {gir: mujgan, kime: peri}
-**DEFNE [panik]:** *(annesi bir adım yaklaşınca)* Gelme anne! {gir: defne}
-*Defne sandaletlerini fırlatıp koşuyor.* {cik}
+**DEFNE [panik]:** *(annesi bir adım yaklaşınca)* Gelme anne! {gir: defne, kare: K34}
+*Defne sandaletlerini fırlatıp koşuyor.* {cik, kare: K34}
 
 ## sahne yuzlesme_lal
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
@@ -231,9 +231,9 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **PERİ [kas]:** Lâl Hanım. Gelinliği siz aldınız. {gir: lal}
 **LÂL [sinirli]:** Ben mi? Pervin, aklını mı kaçırdın?
 **LÂL [sinirli]:** Salı akşamı prova odasında en son kim kaldı, ona sorsana!
-*Bütün nedimeler aynı anda Defne'ye dönüyor.* {gir: defne, gi: panik}
+*Bütün nedimeler aynı anda Defne'ye dönüyor.* {gir: defne, gi: panik, kare: K34}
 **DEFNE [panik]:** Ben… ben yalnızca aynaya baktım!
-*Defne sandaletlerini çıkarıp koşuyor.* {cik}
+*Defne sandaletlerini çıkarıp koşuyor.* {cik, kare: K34}
 
 ## sahne yuzlesme_tolga
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
@@ -242,9 +242,9 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **PERİ [kas]:** Tolga Bey. Gelinliği siz aldınız. {gir: tolga}
 **TOLGA [sinirli]:** Ben mi canım? Ben gördüğümde gelinlik yerindeydi!
 **TOLGA [sinirli]:** Gelin hanım da yanındaydı. Bana öyle bir baktı ki çıktım!
-*Herkes Defne'ye dönüyor.* {gir: defne, gi: panik}
+*Herkes Defne'ye dönüyor.* {gir: defne, gi: panik, kare: K34}
 **DEFNE [panik]:** Ne bakıyorsunuz?
-*Defne sandaletlerini çıkarıp koşuyor.* {cik}
+*Defne sandaletlerini çıkarıp koşuyor.* {cik, kare: K34}
 
 ## sahne kovalamaca
 ⚙ arka: A20b · figurler: peri, cengo · set: tayyor · cset: takim
@@ -381,6 +381,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka2
 | K27–K30 | dört kararın ara karesi | kararlar |
 | K31 | Cengo kravatı gevşek, merdivende gülümseyerek dönüp bakıyor | kapanış (bağ yüksek) |
 | K32 | Akşam büro: masada çözülmüş bordo kravat ve börek tepsisi; Peri örtüye sarılı, tek başına | kapanış (bağ düşük) |
+| K34 | Herkes Defne'ye dönüyor; Müjgan bir adım atmış | yüzleşme, kaçıştan önce (dört sonuç) |
 | K33 | Son prova: Defne sıranın başında, yanında Müjgan; dört nedime, Tolga, Lâl | yüzleşme açılışı (dört sonuç) |
 | Peri `tayyor` | normal, kas, sinirli, aci, utanmis, sasirmis, merakli | her yerde |
 | Peri `kremali` | sinirli, utanmis | kovalamaca |

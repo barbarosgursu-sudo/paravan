@@ -144,7 +144,8 @@
         "K30",
         "K31",
         "K32",
-        "K33"
+        "K33",
+        "K34"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -1412,7 +1413,12 @@
             {"k": "peri", "i": "kas", "m": "İki şey diyorum. İkisini de biliyorsunuz."},
             {"k": "mujgan", "i": "ofkeli", "m": "Kızım?", "gir": "mujgan", "kime": "peri"},
             {"k": "defne", "i": "panik", "m": "Anne…", "gir": "defne"},
-            {"k": "not", "m": "Defne annesine bakıyor, kapıya bakıyor. Sandaletlerini çıkarıp koşuyor.", "cik": true}
+            {
+              "k": "not",
+              "m": "Defne annesine bakıyor, kapıya bakıyor. Sandaletlerini çıkarıp koşuyor.",
+              "cik": true,
+              "kare": "K34"
+            }
           ]
         },
         "yuzlesme_zayif": {
@@ -1430,8 +1436,8 @@
             {"k": "defne", "i": "normal", "m": "Ben mi? Kendi gelinliğimi mi? Ne kanıtınız var?", "gir": "defne"},
             {"k": "peri", "i": "utanmis", "m": "…Bir his."},
             {"k": "mujgan", "i": "ofkeli", "m": "His mi? Kızım, gel buraya.", "gir": "mujgan", "kime": "peri"},
-            {"k": "defne", "i": "panik", "m": "(annesi bir adım yaklaşınca) Gelme anne!", "gir": "defne"},
-            {"k": "not", "m": "Defne sandaletlerini fırlatıp koşuyor.", "cik": true}
+            {"k": "defne", "i": "panik", "m": "(annesi bir adım yaklaşınca) Gelme anne!", "gir": "defne", "kare": "K34"},
+            {"k": "not", "m": "Defne sandaletlerini fırlatıp koşuyor.", "cik": true, "kare": "K34"}
           ]
         },
         "yuzlesme_lal": {
@@ -1448,9 +1454,15 @@
             {"k": "peri", "i": "kas", "m": "Lâl Hanım. Gelinliği siz aldınız.", "gir": "lal"},
             {"k": "lal", "i": "sinirli", "m": "Ben mi? Pervin, aklını mı kaçırdın?"},
             {"k": "lal", "i": "sinirli", "m": "Salı akşamı prova odasında en son kim kaldı, ona sorsana!"},
-            {"k": "not", "m": "Bütün nedimeler aynı anda Defne'ye dönüyor.", "gir": "defne", "gi": "panik"},
+            {
+              "k": "not",
+              "m": "Bütün nedimeler aynı anda Defne'ye dönüyor.",
+              "gir": "defne",
+              "gi": "panik",
+              "kare": "K34"
+            },
             {"k": "defne", "i": "panik", "m": "Ben… ben yalnızca aynaya baktım!"},
-            {"k": "not", "m": "Defne sandaletlerini çıkarıp koşuyor.", "cik": true}
+            {"k": "not", "m": "Defne sandaletlerini çıkarıp koşuyor.", "cik": true, "kare": "K34"}
           ]
         },
         "yuzlesme_tolga": {
@@ -1467,9 +1479,9 @@
             {"k": "peri", "i": "kas", "m": "Tolga Bey. Gelinliği siz aldınız.", "gir": "tolga"},
             {"k": "tolga", "i": "sinirli", "m": "Ben mi canım? Ben gördüğümde gelinlik yerindeydi!"},
             {"k": "tolga", "i": "sinirli", "m": "Gelin hanım da yanındaydı. Bana öyle bir baktı ki çıktım!"},
-            {"k": "not", "m": "Herkes Defne'ye dönüyor.", "gir": "defne", "gi": "panik"},
+            {"k": "not", "m": "Herkes Defne'ye dönüyor.", "gir": "defne", "gi": "panik", "kare": "K34"},
             {"k": "defne", "i": "panik", "m": "Ne bakıyorsunuz?"},
-            {"k": "not", "m": "Defne sandaletlerini çıkarıp koşuyor.", "cik": true}
+            {"k": "not", "m": "Defne sandaletlerini çıkarıp koşuyor.", "cik": true, "kare": "K34"}
           ]
         },
         "kovalamaca": {
