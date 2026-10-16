@@ -145,7 +145,8 @@
         "K31",
         "K32",
         "K33",
-        "K34"
+        "K34",
+        "K35"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -870,7 +871,7 @@
               {
                 "k": "not",
                 "m": "Teşvikiye. Lâl'in atölyesi: aynalar, kumaş topları, mankenler. Kapının önünde elinde faturayla bekleyen bir adam: kumaşçının adamı.",
-                "mekan": true
+                "kare": "K35"
               },
               {
                 "k": "not",

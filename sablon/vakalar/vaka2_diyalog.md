@@ -80,7 +80,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A15 · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Kural 21c: Defne'nin yalnız kalması Lâl'i de içeride bırakır; Lâl kilitledi ve borçlu.
 
-*Teşvikiye. Lâl'in atölyesi: aynalar, kumaş topları, mankenler. Kapının önünde elinde faturayla bekleyen bir adam: kumaşçının adamı.* {mekan}
+*Teşvikiye. Lâl'in atölyesi: aynalar, kumaş topları, mankenler. Kapının önünde elinde faturayla bekleyen bir adam: kumaşçının adamı.* {kare: K35}
 *Siyahlar içinde, gözlüğü zincirde, gümüş saçlı bir kadın kapıyı açıyor.* {gir: lal, gi: kas}
 **LÂL [kas]:** Siz… Pervin? {gir: lal}
 **PERİ [kas]:** Peri.
@@ -381,6 +381,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka2
 | K27–K30 | dört kararın ara karesi | kararlar |
 | K31 | Cengo kravatı gevşek, merdivende gülümseyerek dönüp bakıyor | kapanış (bağ yüksek) |
 | K32 | Akşam büro: masada çözülmüş bordo kravat ve börek tepsisi; Peri örtüye sarılı, tek başına | kapanış (bağ düşük) |
+| K35 | Atölyenin kapısı: faturayla bekleyen kumaşçının adamı | atölyeye geliş |
 | K34 | Herkes Defne'ye dönüyor; Müjgan bir adım atmış | yüzleşme, kaçıştan önce (dört sonuç) |
 | K33 | Son prova: Defne sıranın başında, yanında Müjgan; dört nedime, Tolga, Lâl | yüzleşme açılışı (dört sonuç) |
 | Peri `tayyor` | normal, kas, sinirli, aci, utanmis, sasirmis, merakli | her yerde |
