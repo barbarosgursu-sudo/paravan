@@ -79,6 +79,11 @@ figürler kadrajdan taşıyordu. Üç kural birlikte çözüyor, birini bozma:
 - Yatay tablet / geniş ekran (`min-width:1000px` ve `min-height:700px`): yalnız `#app`
   ekranları aynı `zoom:1.3` ile büyür; konuşma ekranı BİLEREK 480 px'te kalır — 800 px
   yükseklikte genişlerse 3:4 arka plan üstten/alttan kesilir, figürün başı ya da ayağı gider.
+- Figür katmanı (`.vn-figurler`) Pixel 5 oranına (393/498) kilitli; yüksekliği `.vn-sahne`'nin
+  container birimleriyle hesaplanır (`max(78cqh, min(115cqh, 100cqw·498/393))`). Konukların
+  `gorseller.json → boy` ölçekleri telefonda ayarlandı ve telefonda figürler genişliğe takılıp
+  küçülüyor; kilit olmadan geniş sahnede Peri tam boya çıkıp konuk %20 kısa kalıyordu (Lâl,
+  Defne). Telefon birebir aynı. `min-width:0` şart — yoksa aspect-ratio içerikle ezilir.
 - Yeni bir ekran ya da pencere `#app`'in ya da `.vn`'in DIŞINA eklenirse bu kurallar ona
   uygulanmaz; tablette ayrıca bak. Yeni arka plan 3:4 değilse kesim oranı değişir.
 Eski oyunun sayfası bu kurallara girmez (CSS yalnız `build_html.js yeni`'de gömülür).
