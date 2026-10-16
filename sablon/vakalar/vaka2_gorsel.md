@@ -586,4 +586,44 @@ ayrıca "adult visual novel" ifadesi eklendi (riskli olabilir).
 
 ### Deneme 3 — KABUL EDİLDİ (oyundaki K23)
 
-(sahibinden bekleniyor)
+```
+Create a family-friendly, semi-realistic painted visual-novel illustration in a strict 3:4 vertical frame, intended size 1086 × 1448.
+
+REFERENCE USE
+- Image 1: match the adult woman's recognizable face, red-brown hair, pearl earrings, emerald-green tailored skirt suit, and red stiletto shoes. Keep the jacket securely closed across the chest and keep the skirt fully covering her.
+- Image 2: match the same bright pastry kitchen: white tiled walls, tall arched windows with the Bosphorus view, stainless-steel counters and refrigerator, and warm golden sunlight.
+
+ACTION
+A harmless comic accident: the woman has fallen into a giant five-tier white wedding cake and is now sitting in its crushed broad bottom tier. The remnants of all five stacked tiers remain clearly visible around and behind her. Frosting is splashed on her hair, hands and suit. Her updo has loosened, with several strands falling free. Both feet have bounced upward, so both red stiletto shoes are clearly visible in the air; her skirt remains properly in place and her lap is concealed by the broken cake. She holds both arms out to the sides with open palms, reacting with startled but proud theatrical composure. She is unharmed.
+
+FRAMING
+Neutral eye-level camera, no low angle. Full action visible from hair to both shoes; do not crop head, hands, legs or shoes. One person only. The woman and broken cake are centered, with the reference kitchen visible around them.
+
+STYLE
+Real adult human proportions, clearly illustrated rather than photographed; clean contour lines, soft painted shadows, warm vivid colors, modern comic-book meets animation-film-poster finish. Stylish physical comedy, not suggestive. Not anime, not children's cartoon, not photorealistic.
+
+REQUIRED
+Anatomically coherent pose; exactly two arms, two hands, two legs and two shoes; five natural fingers on each visible hand. No additional people. No body exposure, no see-through fabric, no injury, no distress, no humiliation. No writing, letters, numbers, logo, label, signage, watermark or signature.
+```
+
+### Ne değişti, ne işe yaradı (çıkarım; tek örnek, kesin değil)
+
+Deneme 2'den farkı:
+- **İlk cümle çerçeveyi koyuyor:** "family-friendly … visual-novel illustration". "adult visual
+  novel" yok.
+- **Karakterin adı yok:** "Peri" yerine "the woman".
+- **Riskli bölge somut bir nesneyle kapatılıyor:** "her lap is concealed by the broken cake" —
+  yalnız "etek yerinde" demek yetmedi; örtüyü sahnedeki bir nesne yapıyor.
+- **Kamera açısı söyleniyor:** "Neutral eye-level camera, no low angle."
+- **Ton olumsuzla da söyleniyor:** "Stylish physical comedy, not suggestive."
+- **Kazaya zararsızlık:** "A harmless comic accident … She is unharmed."
+- "Keep the jacket securely closed across the chest" yazdığı hâlde çıktıda Peri'nin dekoltesi
+  setteki gibi kaldı — referans görsel kıyafeti taşıdı. Yine de her seferinde bakılır
+  (Peri'nin dekoltesi azaltılmaz, sahibinin kuralı).
+- Poz da hafifçe değişti: ayaklar "bounced upward" diye istendi, çıktıda bacaklar yana açık,
+  ayaklar diz hizasında. Pasta oturulmuş değil, yıkılmış.
+
+**Sonraki vakalarda reddedilebilecek kare (kovalamaca düşüşü, etekli kadın, bacak/kalça
+pozu) için baştan:** aile dostu çerçeve cümlesi + riskli bölgeyi örten somut nesne + göz
+hizası kamera + "not suggestive". "Seksi / bacaklar havada / kalça" sözcükleri yazılmaz;
+çekicilik referans görselden ve kıyafetten gelir.

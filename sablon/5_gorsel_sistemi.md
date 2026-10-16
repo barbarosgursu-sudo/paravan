@@ -95,6 +95,10 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
    açısı nötr, sahne "aile dostu fiziksel komedi". 11 Ekim'de reddedilen K23 böyle üretildi ve
    Grok'unkinden iyi çıktı. Gelince bak: yumuşatılmış tarif Peri'nin görünüşünü (dekolte,
    kıyafet sabitleri) değiştirmiş mi — K23'te değiştirmemişti. Olmazsa Grok.
+   Kabul edilen prompt ve reddedilen iki deneme: `vakalar/vaka2_gorsel.md` → "K23 (G50) —
+   ChatGPT'nin kendi yazdığı promptlar". Riskli karede baştan: "family-friendly" çerçeve cümlesi,
+   riskli bölgeyi örten somut nesne ("lap concealed by the broken cake"), "neutral eye-level
+   camera, no low angle", "not suggestive"; "seksi / bacaklar havada / kalça" yazılmaz.
 
 6. **Görsel iş sayfası (zorunlu; 11 Ekim 2026, sahibinin kararı).** Promptlar sahibine düz metin
    ya da md dosyası olarak değil, **iş sayfası** olarak verilir: claude.ai'da yayımlanmış tek bir
