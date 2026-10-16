@@ -330,8 +330,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 *Akşam. Büro. Peri hâlâ masa örtüsüne sarılı, saçında krema. Cengo kravatını gevşetiyor.* {set: ortulu}
 *Kapı çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi!
-*Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.* {gizle: peri, gir: lal, gi: normal}
-**LÂL [normal]:** Tayyörünü pastaya gömmüşsün. Bunu giy. {gir: lal, kime: cengo}
+*Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.* {gizle: peri, gir: lal, gi: kilif}
+**LÂL [kilif]:** Tayyörünü pastaya gömmüşsün. Bunu giy. {gir: lal, kime: cengo}
 **PERİ [utanmis]:** *(masanın arkasından doğrularak)* Lâl Hanım. Beni sonunda hatırladınız mı? {gir: peri}
 **LÂL [kas]:** Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim. {kime: peri}
 **PERİ [sasirmis]:** Peki neden "Pervin"?

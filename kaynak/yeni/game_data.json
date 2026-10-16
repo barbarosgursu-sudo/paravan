@@ -57,7 +57,7 @@
         "asistan": {"ad": "Set asistanı", "ifadeler": ["normal"]},
         "mujgan": {"ad": "Müjgan Hanım", "ifadeler": ["normal", "kas", "ofkeli"]},
         "defne": {"ad": "Defne", "ifadeler": ["normal", "gergin", "panik", "itiraf"]},
-        "lal": {"ad": "Lâl Hanım", "ifadeler": ["normal", "kas", "sinirli"]},
+        "lal": {"ad": "Lâl Hanım", "ifadeler": ["normal", "kas", "sinirli", "kilif"]},
         "tolga": {"ad": "Tolga", "ifadeler": ["normal", "sinirli"]},
         "gulsum": {"ad": "Gülsüm", "ifadeler": ["normal"]},
         "bulent": {"ad": "Bülent", "ifadeler": ["normal"]},
@@ -1564,9 +1564,9 @@
               "m": "Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.",
               "gizle": "peri",
               "gir": "lal",
-              "gi": "normal"
+              "gi": "kilif"
             },
-            {"k": "lal", "i": "normal", "m": "Tayyörünü pastaya gömmüşsün. Bunu giy.", "gir": "lal", "kime": "cengo"},
+            {"k": "lal", "i": "kilif", "m": "Tayyörünü pastaya gömmüşsün. Bunu giy.", "gir": "lal", "kime": "cengo"},
             {
               "k": "peri",
               "i": "utanmis",
