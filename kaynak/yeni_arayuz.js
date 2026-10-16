@@ -880,12 +880,25 @@ function yenidenBaslaVazgec(){ app.innerHTML = vnOnayOncesi; scrollUst(); }
    konuşma aynı satırdan sürer (sayfa değişmez, vn durumu el sürülmeden kalır). Düğme
    yalnız bir vaka açıkken çıkar — açılışta Cengo ve Hilmi Bey'le henüz tanışılmadı.
    Kart mantığı eski kisilerGoster'ın aynısı: tanışılan kişi, en derin bilinen katman. */
-function vnKisilerAc(){
-  if(document.getElementById("vnKisiler")) return;
+/* Künye yalnız İÇİNDE BULUNULAN vakanın kişilerini gösterir (sahibinin kararı, 16 Ekim 2026:
+   "geçmiş vakalar geçmişte kaldı"). Tanışma koşulu açık vakanın kendi bilgisinde aranır; kalıcı
+   olgular (önceki vakalardan taşınan) kişiyi göstermez. Her vakada yalnız Peri ve Cengo; Hilmi Bey
+   açılışın kişisi, vakalarda görünmez. Eski bir kişi yeni vakada geri dönerse `tanisma` dizi olur
+   ve o vakanın olgusu eklenir: ["gelinlik_kayip", "<yeni vaka olgusu>"]. Katman metni yine bütün
+   bilgiyle seçilir. */
+const VN_HER_VAKADA = ["peri", "cengo"];
+function vnKisiGorunur(kisi){
+  const t = [].concat(kisi.tanisma);
+  if(VN_HER_VAKADA.includes(kisi.id)) return true;
+  const a = oyun.durum.aktif;
+  return !!a && t.some(k => a.bilinen.has(k));
+}
+function vnKisiKartlari(){
   const bilinen = oyun.tumBilinen();
-  let h = '<div class="panel-baslik">☗ Kişiler</div>';
+  let h = "", n = 0;
   for(const kisi of KISILER.kisiler){
-    if(!(kisi.tanisma === "her_zaman" || bilinen.has(kisi.tanisma))) continue;
+    if(!vnKisiGorunur(kisi)) continue;
+    n++;
     let tanim = "";
     for(const kat of kisi.katmanlar) if(kat.kosul === "her_zaman" || bilinen.has(kat.kosul)) tanim = kat.tanim;
     let portre = kisi.portre || "";
@@ -894,6 +907,16 @@ function vnKisilerAc(){
     h += `<div class="kisi-kart"><div class="kisi-portre">${src ? `<img src="${src}" alt="${vnHtml(kisi.ad)}">` : "☗"}</div>
       <div class="kisi-bilgi"><div class="ad">${vnHtml(kisi.ad)}</div><div class="tanim">${vnHtml(tanim)}</div></div></div>`;
   }
+  return n ? h : '<div class="bos-panel">Henüz kimseyle tanışmadın.</div>';
+}
+kisilerGoster = function(){
+  let h = ust() + '<div class="faz panel-ekran"><div class="panel-baslik">☗ Kişiler</div>' + vnKisiKartlari();
+  h += '<button class="buton ikincil" onclick="geriDon()">← Geri</button></div>';
+  app.innerHTML = h; scrollUst();
+};
+function vnKisilerAc(){
+  if(document.getElementById("vnKisiler")) return;
+  let h = '<div class="panel-baslik">☗ Kişiler</div>' + vnKisiKartlari();
   h += '<button class="buton ikincil" id="vnKisilerKapat" type="button">← Konuşmaya dön</button>';
   const d = document.createElement("div");
   d.className = "vn-kisiler"; d.id = "vnKisiler"; d.innerHTML = h;
