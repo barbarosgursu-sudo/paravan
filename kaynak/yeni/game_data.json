@@ -934,7 +934,7 @@
               {
                 "k": "not",
                 "m": "Atölyenin arka avlusu. Usta Gülsüm, önlüğünde toplu iğneler, çay molasında.",
-                "mekan": true
+                "gir": "gulsum"
               },
               {"k": "cengo", "i": "gulen", "m": "Çayınız soğumuş. Tazeleyeyim mi?", "gir": "gulsum"},
               {"k": "gulsum", "i": "normal", "m": "Sen kimsin?", "gir": "gulsum", "kime": "cengo"},
@@ -972,7 +972,7 @@
               {
                 "k": "not",
                 "m": "Teşvikiye. Atölyenin sokağı. Kırmızı yelekli genç bir vale, anahtar panosunun başında.",
-                "mekan": true
+                "gir": "bulent"
               },
               {
                 "k": "bulent",
@@ -1024,7 +1024,7 @@
               {
                 "k": "not",
                 "m": "Nişantaşı. Ersoy'ların salonu. Defne pencerenin önünde; ipek gömleği belde düğümlü, saçları omzunda. Sakin.",
-                "mekan": true
+                "gir": "defne"
               },
               {"k": "peri", "i": "normal", "m": "Defne Hanım. Gelinliğiniz için çok üzgünüm.", "gir": "defne"},
               {"k": "defne", "i": "normal", "m": "Bulunur. Böyle şeyler bulunur.", "gir": "defne"},
@@ -1067,7 +1067,7 @@
               {
                 "k": "not",
                 "m": "Boğaz'da bir otelin balo salonu. Pembe saten elbiseli dört nedime, balon kemerinin altında sıra olmuş. Kulaklıklı, ince bir adam tabletine bakıyor.",
-                "mekan": true
+                "gir": "tolga"
               },
               {
                 "k": "tolga",

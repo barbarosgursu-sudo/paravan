@@ -103,7 +103,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A17 · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Kural 21c: örtü, kilitlemeden önce birinin içeride olduğunu söyler; kim olduğunu değil (Lâl de içerideydi).
 
-*Atölyenin arka avlusu. Usta Gülsüm, önlüğünde toplu iğneler, çay molasında.* {mekan}
+*Atölyenin arka avlusu. Usta Gülsüm, önlüğünde toplu iğneler, çay molasında.* {gir: gulsum}
 **CENGO [gulen]:** Çayınız soğumuş. Tazeleyeyim mi? {gir: gulsum}
 **GÜLSÜM [normal]:** Sen kimsin? {gir: gulsum, kime: cengo}
 **CENGO [normal]:** Kuzen. Gelin tarafından.
@@ -124,7 +124,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A18 · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Kural 21c: vale yüzü görmedi. Bağ sahnede söylenir ("O akşam atölyede genç kadın kim vardı?" "Gelin."); Defne ekranda görünür hâle gelir.
 
-*Teşvikiye. Atölyenin sokağı. Kırmızı yelekli genç bir vale, anahtar panosunun başında.* {mekan}
+*Teşvikiye. Atölyenin sokağı. Kırmızı yelekli genç bir vale, anahtar panosunun başında.* {gir: bulent}
 **BÜLENT [normal]:** Cengo abi! Arabayı çizdiğimi kimseye söylemedin, sağ ol. {gir: bulent, kime: cengo}
 **CENGO [gulen]:** Ben görmem. Ama sen görmüşsündür. Salı akşamı ne gördün?
 **BÜLENT:** Gördüm abi. Organizatör var ya, kulaklıklı. Sekizi çeyrek geçe ön kapıdan çıktı, eli boş. {kime: cengo}
@@ -142,7 +142,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A19 · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Kural 21c: Defne'nin sakinliği bir gelinin sinirine de uyar; Tolga'yı suçlaması Tolga'yı ekrana getirir.
 
-*Nişantaşı. Ersoy'ların salonu. Defne pencerenin önünde; ipek gömleği belde düğümlü, saçları omzunda. Sakin.* {mekan}
+*Nişantaşı. Ersoy'ların salonu. Defne pencerenin önünde; ipek gömleği belde düğümlü, saçları omzunda. Sakin.* {gir: defne}
 **PERİ [normal]:** Defne Hanım. Gelinliğiniz için çok üzgünüm. {gir: defne}
 **DEFNE [normal]:** Bulunur. Böyle şeyler bulunur. {gir: defne}
 **PERİ [kas]:** Çok sakinsiniz.
@@ -163,7 +163,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ arka: A20 · figurler: peri, cengo · set: tayyor · cset: takim
 ⚙ Kural 21c: Tolga'nın gördüğü, onu da atölyeye koyar; nedimenin "cuma sabahı" tek başına bir gelinin işine de uyar.
 
-*Boğaz'da bir otelin balo salonu. Pembe saten elbiseli dört nedime, balon kemerinin altında sıra olmuş. Kulaklıklı, ince bir adam tabletine bakıyor.* {mekan}
+*Boğaz'da bir otelin balo salonu. Pembe saten elbiseli dört nedime, balon kemerinin altında sıra olmuş. Kulaklıklı, ince bir adam tabletine bakıyor.* {gir: tolga}
 **TOLGA [normal]:** Kuzen sen misin canım? Geç kaldın. Sıraya! {gir: tolga, kime: cengo}
 **CENGO [gulen]:** Benim. Kimin kuzeniydim, bir hatırlatır mısınız?
 **TOLGA:** Kim olursan. Kolunu dördüncü nedimeye ver. Adım, dur, adım. {kime: cengo}
