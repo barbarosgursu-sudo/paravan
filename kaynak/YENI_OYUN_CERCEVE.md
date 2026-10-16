@@ -92,6 +92,17 @@ reklamGoster` 5 saniyelik bir taklit perde açar ("Ödülü al" / "Kapat (ödül
 sahnelerini reklam izleyerek görür. Sonucu, parayı, bağı değiştirmez; olgu da vermez (vaka kapandı,
 olgu taşınmaz — Nurcan: sonraki vakada hak edilmemiş bilgi olmasın). Yalnız sahne.
 
+**Android aşamasına eklenenler (16 Ekim 2026, sahibinin kararı; başka bir oyunun ekranlarından).**
+- **Arkadaş daveti:** davet eden de gelen de birer **ek araştırma hakkı** kazanır; haklar birikir,
+  istenen vakada harcanır. Reklamla ek hakla aynı koruma: her vaka reklamsız/davetsiz haklarla
+  `doğru` çözülür. Takip: Google Play Install Referrer.
+- **Karar istatistiği:** karardan sonra "Oyuncuların %38'i senin gibi karar verdi". Not vermez, sıralamaz.
+  Plan: `kaynak/final_tablo_plani.md` (sezon sonu tablosu) ile birlikte; sunucu gerekir.
+- **Komik rozetler:** yalnız komik anlar için ("Pastaya oturdun", "Saadet Hanım'dan üç kez saklandın").
+  İyi/kötü karar için rozet YOK — oyun not vermez.
+- **Reddedilenler:** günlük seri (hikâye oyununu angaryaya çevirir; günlük vaka yok) ve sıralama
+  tablosu (sözleşme: "oyun not vermez, sıralama tablosu yok"; hız değil karar ölçülür).
+
 **Mekân.** İngilizce yazılmış bir İstanbul-noir ayırt edici. Pazarda genel Amerikan
 dedektif hikâyesi çok, İstanbul yok.
 
