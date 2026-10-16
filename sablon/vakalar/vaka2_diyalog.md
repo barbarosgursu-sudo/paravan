@@ -25,7 +25,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [gulen]:** Arkadaşın nikâhından geldim. Şahittim.
 **PERİ [kas]:** Neye?
 **CENGO [gulen]:** "Evet" dediklerine.
-*Kapı çalınıyor. Eşikte uzun boylu, platin saçlı bir kadın; güneş gözlüğü başında, ipek elbisesi dar.*
+*Kapı çalınıyor. Eşikte uzun boylu, platin saçlı bir kadın; güneş gözlüğü başında, ipek elbisesi dar.* {gir: mujgan, gi: normal}
 **MÜJGAN [normal]:** Paravan Dedektiflik? Müjgan Ersoy. {gir: mujgan}
 **MÜJGAN [kas]:** Siz şey değil misiniz… şampuan reklamındaki? {kime: peri}
 **PERİ [kas]:** Kozmetik. Kendi markamdı.
@@ -60,8 +60,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [kas]:** Kira yok, börek var?
 **SAADET:** Borçluya ikram edilir, oğlum. Utansın diye. Ben Saadet. Yine gelirim. {kime: cengo}
 *Saadet Hanım tepsiyi Cengo'nun eline bırakıp merdivenden iniyor.* {cik, kare: K20}
-**CENGO [gulen]:** Börek ıspanaklı. Çıkabilirsiniz. {kare: K20}
-**PERİ [utanmis]:** Utanmadım.
+**CENGO [gulen]:** Börek ıspanaklı. Çıkabilirsiniz. {gizle: peri}
+**PERİ [utanmis]:** Utanmadım. {gir: peri}
 **CENGO [gulen]:** Börekten yemediniz ki daha.
 **PERİ [normal]:** Plan şu. Atölyeye müşteri olarak girerim. Lâl beni tanır. {arka: A7}
 **CENGO [kas]:** Tanır mı?
@@ -81,7 +81,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ Kural 21c: Defne'nin yalnız kalması Lâl'i de içeride bırakır; Lâl kilitledi ve borçlu.
 
 *Teşvikiye. Lâl'in atölyesi: aynalar, kumaş topları, mankenler. Kapının önünde elinde faturayla bekleyen bir adam: kumaşçının adamı.* {mekan}
-*Siyahlar içinde, gözlüğü zincirde, gümüş saçlı bir kadın kapıyı açıyor.*
+*Siyahlar içinde, gözlüğü zincirde, gümüş saçlı bir kadın kapıyı açıyor.* {gir: lal, gi: kas}
 **LÂL [kas]:** Siz… Pervin? {gir: lal}
 **PERİ [kas]:** Peri.
 **LÂL [normal]:** Tabii. Pervin. Buyrun canım. Gelinlik mi?
@@ -196,7 +196,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **PERİ [merakli]:** Kısa mı? Beş yüz kişilik düğüne kısa gelinlik? {gir: sarkis}
 **SARKİS:** Ben dikerim, düğünü sormam. Fişi olana veririm. Size vermem. {kime: peri}
 **CENGO [gulen]:** Zaten bana yakışmazdı.
-**PERİ [kas]:** Kısası da yakışmazdı.
+**PERİ [kas]:** Kısası da yakışmazdı. {gir: cengo}
 
 ---
 
@@ -330,7 +330,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 *Akşam. Büro. Peri hâlâ masa örtüsüne sarılı, saçında krema. Cengo kravatını gevşetiyor.* {set: ortulu}
 *Kapı çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi!
-*Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.* {gizle: peri}
+*Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.* {gizle: peri, gir: lal, gi: normal}
 **LÂL [normal]:** Tayyörünü pastaya gömmüşsün. Bunu giy. {gir: lal, kime: cengo}
 **PERİ [utanmis]:** *(masanın arkasından doğrularak)* Lâl Hanım. Beni sonunda hatırladınız mı? {gir: peri}
 **LÂL [kas]:** Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim. {kime: peri}
@@ -349,7 +349,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **CENGO [yumusak]:** Siz evlenseniz kaç kişi çağırırdınız? {bag: yuksek}
 **PERİ [normal]:** İki. {bag: yuksek}
 **PERİ [kas]:** Ben ve şahit. {bag: yuksek, cengo: yumusak}
-*Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivende dönüp Peri'ye bir kez daha bakıyor.* {bag: yuksek, kare: K31}
+*Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivende dönüp Peri'ye bir kez daha bakıyor.* {bag: yuksek, arka: A5b, kare: K31}
 
 ---
 

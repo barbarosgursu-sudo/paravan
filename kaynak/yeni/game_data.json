@@ -870,7 +870,12 @@
                 "m": "Teşvikiye. Lâl'in atölyesi: aynalar, kumaş topları, mankenler. Kapının önünde elinde faturayla bekleyen bir adam: kumaşçının adamı.",
                 "mekan": true
               },
-              {"k": "not", "m": "Siyahlar içinde, gözlüğü zincirde, gümüş saçlı bir kadın kapıyı açıyor."},
+              {
+                "k": "not",
+                "m": "Siyahlar içinde, gözlüğü zincirde, gümüş saçlı bir kadın kapıyı açıyor.",
+                "gir": "lal",
+                "gi": "kas"
+              },
               {"k": "lal", "i": "kas", "m": "Siz… Pervin?", "gir": "lal"},
               {"k": "peri", "i": "kas", "m": "Peri."},
               {"k": "lal", "i": "normal", "m": "Tabii. Pervin. Buyrun canım. Gelinlik mi?"},
@@ -1147,7 +1152,7 @@
               {"k": "peri", "i": "merakli", "m": "Kısa mı? Beş yüz kişilik düğüne kısa gelinlik?", "gir": "sarkis"},
               {"k": "sarkis", "m": "Ben dikerim, düğünü sormam. Fişi olana veririm. Size vermem.", "kime": "peri"},
               {"k": "cengo", "i": "gulen", "m": "Zaten bana yakışmazdı."},
-              {"k": "peri", "i": "kas", "m": "Kısası da yakışmazdı."}
+              {"k": "peri", "i": "kas", "m": "Kısası da yakışmazdı.", "gir": "cengo"}
             ]
           }
         }
@@ -1293,7 +1298,9 @@
             {"k": "cengo", "i": "gulen", "m": "\"Evet\" dediklerine."},
             {
               "k": "not",
-              "m": "Kapı çalınıyor. Eşikte uzun boylu, platin saçlı bir kadın; güneş gözlüğü başında, ipek elbisesi dar."
+              "m": "Kapı çalınıyor. Eşikte uzun boylu, platin saçlı bir kadın; güneş gözlüğü başında, ipek elbisesi dar.",
+              "gir": "mujgan",
+              "gi": "normal"
             },
             {"k": "mujgan", "i": "normal", "m": "Paravan Dedektiflik? Müjgan Ersoy.", "gir": "mujgan"},
             {"k": "mujgan", "i": "kas", "m": "Siz şey değil misiniz… şampuan reklamındaki?", "kime": "peri"},
@@ -1364,8 +1371,8 @@
               "cik": true,
               "kare": "K20"
             },
-            {"k": "cengo", "i": "gulen", "m": "Börek ıspanaklı. Çıkabilirsiniz.", "kare": "K20"},
-            {"k": "peri", "i": "utanmis", "m": "Utanmadım."},
+            {"k": "cengo", "i": "gulen", "m": "Börek ıspanaklı. Çıkabilirsiniz.", "gizle": "peri"},
+            {"k": "peri", "i": "utanmis", "m": "Utanmadım.", "gir": "peri"},
             {"k": "cengo", "i": "gulen", "m": "Börekten yemediniz ki daha."},
             {"k": "peri", "i": "normal", "m": "Plan şu. Atölyeye müşteri olarak girerim. Lâl beni tanır.", "arka": "A7"},
             {"k": "cengo", "i": "kas", "m": "Tanır mı?"},
@@ -1541,7 +1548,9 @@
             {
               "k": "not",
               "m": "Peri masanın arkasına çömeliyor. Cengo kapıyı açıyor. Eşikte Lâl Hanım, elinde siyah bir elbise kılıfı.",
-              "gizle": "peri"
+              "gizle": "peri",
+              "gir": "lal",
+              "gi": "normal"
             },
             {"k": "lal", "i": "normal", "m": "Tayyörünü pastaya gömmüşsün. Bunu giy.", "gir": "lal", "kime": "cengo"},
             {
@@ -1583,6 +1592,7 @@
               "k": "not",
               "m": "Cengo gülümsüyor. Kravatını gevşetiyor ama çıkarmıyor; merdivende dönüp Peri'ye bir kez daha bakıyor.",
               "bag": "yuksek",
+              "arka": "A5b",
               "kare": "K31"
             }
           ]
