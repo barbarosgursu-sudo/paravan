@@ -54,7 +54,7 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K20 | G47 | | | 11 Eki 13:55 | ilk hâlde masanın açık yüzü kapıya bakıyordu (Saadet Peri'yi görürdü) → kamera masanın arkasına alındı, ön panel kapalı |
 |   K21 | G48 | | | 11 Eki 14:02 | düzeltme yok; 6 kişi, eller doğru |
 |   K22 | G49 | | | 11 Eki 14:09 | düzeltme yok |
-|   K23 | G50 | | | | ChatGPT reddetti ("sahtekârlık" kalıbı; asıl sebep "seksi/bacaklar havada"). Sahibi: **yarın Grok'ta, orijinal promptla** |
+|   K23 | G50 | 16 Eki 16:34 | | | 11 Eki: ChatGPT reddetti ("sahtekârlık" kalıbı; asıl sebep "seksi/bacaklar havada"). 16 Eki: sahibi önce ChatGPT'de yeniden, olmazsa Grok'ta orijinal promptla deniyor |
 |   K24 | G51 | 11 Eki 14:40 | | 11 Eki 14:44 | ayakkabılar yeşildi → bir düzeltme (kırmızı stiletto) |
 |   K25 | G52 | | | 11 Eki 14:50 | düzeltme yok |
 |   K26 | G53 | | | 11 Eki 14:55 | düzeltme yok |
@@ -63,6 +63,8 @@ görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da t
 |   K29 | G56 | 11 Eki 15:34 | | 11 Eki 15:39 | düzeltme yok |
 |   K30 | G57 | | | 11 Eki 15:43 | düzeltme yok |
 |   K31, K32 | G58, G59 | | | 11 Eki 15:52 | düzeltme yok (K32'de tepsi örtüsü çizgili, K20'de dantelli — küçük fark, kabul) |
+
+**Ara 8:** 11 Ekim 15:55 → 16 Ekim 16:33 (sahibinin yeni pencereye ilk mesajı). Arada G13 Gemini'de üretildi (12 Eki 07:56); LoRA denemesi ve 16 Ekim cihaz düzeni oturumu süreye girmez. Ara toplama girmez.
 
 **Ara 7:** 11 Ekim 15:55'te K32'den sonra gün kapandı (sahibi). Kalan G13 ve K23 yarın Grok'ta. Ara toplama girmez.
 
