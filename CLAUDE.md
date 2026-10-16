@@ -63,6 +63,8 @@ Konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — ye
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
 Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]`
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
+`--hepsi` eklenirse incelenen vakanın HER satırı `YENI_UI/satir/`'a görüntülenir ve `dokum.txt`'ye
+konuşan/kime/arka/kare/figür anahtarıyla dökülür — görselli tur denetimi (adım 11) bununla yapılır.
 `--tablet` eklenirse (herhangi bir yere) Pixel 5 yerine dikey tablette (800×1280) oynatır ve
 tam sayfa görüntü alır; tablet eşiği tutmazsa hata basar. Yeni vaka bittiğinde iki kipte de koş.
 `--cihaz` eklenirse oyun bir kez oynanır, seçilen her anda sayfa **19 ekran boyuna** (telefonlar,

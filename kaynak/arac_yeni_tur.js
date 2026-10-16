@@ -10,6 +10,9 @@
 //   tablet eşiği (min-width:600px, min-height:1050px) devreye girer; tam sayfa görüntü alır.
 //   --cihaz: seçilen her anda 19 ekran boyunda (telefon, tablet dikey/yatay, bilgisayar) görüntü alır
 //   ve yerleşimi ölçer — ayrıntı arac_cihaz.js; çıktı YENI_UI/cihaz/ (karşılaştırma sayfaları + bayraklar).
+//   --hepsi: incelenen vakanın (V1 ya da V2) HER konuşma satırının görüntüsünü YENI_UI/satir/'a yazar
+//   (JPEG) ve satir/dokum.txt'ye satır satır döker: konuşan, kime, arka plan, kare, soldaki/sağdaki
+//   figürün sprite anahtarı, metin. Görselli tur denetimi (adım 11) bununla yapılır.
 // Yazı tipi (Google Fonts) ve ses dosyası yükleme hataları çevrimdışı ortamda
 // beklenir; sayılmaz. Seçicilerde text= kullanılmaz (bkz. CLAUDE.md).
 const { chromium, devices } = require('/opt/node22/lib/node_modules/playwright');
@@ -18,7 +21,8 @@ const SAYFA = path.join(__dirname, '..', 'yeni', 'index.html');
 const OUT = path.join(__dirname, 'YENI_UI'); fs.mkdirSync(OUT, { recursive: true });
 for (const f of fs.readdirSync(OUT)) fs.rmSync(path.join(OUT, f), { recursive: true });
 const TABLET = process.argv.includes('--tablet'), CIHAZ = process.argv.includes('--cihaz') && require('./arac_cihaz.js');
-const ARG = process.argv.filter(a => a !== '--tablet' && a !== '--cihaz');
+const HEPSI = process.argv.includes('--hepsi');
+const ARG = process.argv.filter(a => a !== '--tablet' && a !== '--cihaz' && a !== '--hepsi');
 const KARAR = Number(ARG[2]||0), YOL = ARG[3]||"set", SONUC = ARG[4]||"dogru";
 // Vaka 2: yol adı ortu|vale|terzi|defne verilirse Vaka 1 hızlı oynanır, sonra Vaka 2.
 const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA = YOL2 ? "V2" : "V1";
@@ -28,6 +32,8 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
   const p = await b.newPage({ ...cihaz, reducedMotion: 'reduce' });
   const hata = []; p.on('pageerror', e => hata.push(e.message)); p.on('console', m => { if (m.type()==='error' && !/ses|Audio|404|ERR_FILE|ERR_FAILED|ERR_CERT|ERR_NAME|ERR_INTERNET/.test(m.text())) hata.push('console: '+m.text()); });
   await p.goto('file://' + SAYFA); await p.waitForTimeout(400);
+  // --hepsi: o an gösterilen satırı yakalamak için vnSatirGoster sarılır (oyunun kendisi tutmuyor).
+  if (HEPSI) await p.evaluate(() => { const o = vnSatirGoster; window.vnSatirGoster = function (s) { window.__satir = s; return o(s); }; });
   // Tablet eşiği tutmadıysa (CSS değişti, .vn yine 480 px'e kilitlendi) görüntüler yanıltır: söyle.
   if (TABLET) { const g = await p.evaluate(() => (document.querySelector('.vn')||{getBoundingClientRect:()=>({width:0})}).getBoundingClientRect().width);
     if (g <= 600) hata.push('tablet: konuşma ekranı ' + Math.round(g) + ' px — tablet eşiği devreye girmedi'); else console.log('tablet: konuşma ekranı', Math.round(g), 'px'); }
@@ -35,6 +41,21 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
   const foto = async ad => { await p.waitForTimeout(350); await p.screenshot({ fullPage: TABLET, path: `${OUT}/${String(++shot).padStart(2,'0')}_${ad}.png` });
     if (CIHAZ) await CIHAZ.tara(p, ad); };
   const tasmaBak = async yer => { const w = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (w > 0) tasma.push(yer+':'+w); };
+  // --hepsi: incelenen vakanın her satırı → satir/NNN_ad.jpg + dokum.txt
+  let incelenen = null, sn = 0; const SDIR = path.join(OUT, 'satir'), dokum = [];
+  if (HEPSI) fs.mkdirSync(SDIR, { recursive: true });
+  const satirFoto = async ad => {
+    await p.waitForTimeout(250);
+    const d = await p.evaluate(() => {
+      const s = window.__satir || {}, f = id => { const e = document.getElementById(id); return e && !e.hidden ? (e.dataset.src || '?') : '-'; };
+      return { k: s.k, kime: s.kime || '', arka: vn.arka || '', kare: s.kare || '', sol: f('vnSol'), sag: f('vnSag'),
+        cekilmis: document.getElementById('vnFig').classList.contains('cekilmis'),
+        m: (document.querySelector('.vn-replik') || {}).textContent || '' };
+    });
+    const no = String(++sn).padStart(3, '0');
+    await p.screenshot({ path: `${SDIR}/${no}_${ad}.jpg`, type: 'jpeg', quality: 55 });
+    dokum.push(`${no} ${ad} | ${d.k}${d.kime ? '→' + d.kime : ''} | ${d.arka}${d.kare ? ' KARE ' + d.kare : ''} | sol ${d.cekilmis ? '(çekik) ' : ''}${d.sol} | sağ ${d.sag} | ${d.m}`);
+  };
   // VN'i bitene kadar oynat
   const vnOyna = async (ad, fotoAnlar = []) => {
     let i = 0;
@@ -43,6 +64,7 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
       if (sec) { await foto(ad + '_secim'); await sec.click(); continue; }
       const t = await p.evaluate(() => (document.querySelector('.vn-replik')||{}).textContent || '');
       gorulen.push(t);
+      if (HEPSI && incelenen && ad.startsWith(incelenen)) await satirFoto(ad);
       if (fotoAnlar.some(f => t.startsWith(f))) { await foto(ad + '_' + i); }
       await tasmaBak(ad);
       await p.click('#vnKutu'); i++; n++;
@@ -122,6 +144,7 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
                     vale: ["Lâl Hanım'ın atölyesi", 'Sokaktaki vale', "Kurtuluş'taki terzi"],
                     terzi: ['Sokaktaki vale', "Kurtuluş'taki terzi", 'Nedime provası'],
                     defne: ["Defne'yle konuşmak", 'Nedime provası', 'Usta Gülsüm'] }[YOL2] || [];
+  incelenen = VAKA;
   if (VAKA === 'V2') {
     // Vaka 1 hızlı geçilir (ilk yol, doğru, ilk karar); asıl tur Vaka 2.
     await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla'], 0, 'dogru');
@@ -135,6 +158,7 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null, VAKA
   console.log(tasma.length ? '✗ yatay taşma: ' + tasma.join(' ') : '✓ yatay taşma yok');
   console.log(hata.length ? '✗ hata:\n  ' + hata.join('\n  ') : '✓ JS hatası yok');
   if (tasma.length || hata.length) process.exitCode = 1;
+  if (HEPSI) { fs.writeFileSync(path.join(SDIR, 'dokum.txt'), dokum.join('\n') + '\n'); console.log('satır görüntüsü', sn, '→ YENI_UI/satir/'); }
   if (CIHAZ) await CIHAZ.rapor(b, OUT);
   await b.close();
 })().catch(e => { console.error('TUR HATASI', e.message); process.exit(1); });
