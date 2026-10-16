@@ -107,6 +107,14 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
+### ✅ 16 Ekim 17:40: adım 11 bitti — sırada Onay 3 (sahibi görsellere bakar)
+`arac_yeni_tur.js --hepsi` her satırı `YENI_UI/satir/`'a görüntüler + `dokum.txt`. Bütün yollar ve dört karar koşuldu,
+bağ düşük (karar 3) soğuk kapanış da. Düzeltilen: kapıdaki konuk anlatı satırında görünür (Müjgan, Lâl ×2), Saadet
+gidince K20 kalkar, "Kısası da yakışmazdı" karşısında Cengo, K31'de etiket koridor (A5b), Tolga G30 eli
+(`gorseller.json → sola`). `defne dogru` yolunun olmaması bilerek (Defne yolu çözmeyen yol, form §7).
+Sahibine sorulan, karar bekleyen: kumaşçının adamı hiç görünmüyor; Lâl'in elbise kılıfı görünmüyor; Defne'nin
+itirafında Peri'nin yüzü sinirli kalıyor (kremalı sette `normal` yok); G2–G7 yüze düşen tutam.
+
 ### ✅ 16 Ekim 16:47: K23 gömüldü — 59/59, adım 9–10 bitti
 Sahibi K23'ü hem Grok'ta hem ChatGPT'de üretti; ChatGPT'ninki seçildi (buzdolabı levhaları elle silindi).
 `yer_tutucu` boş. **Sırada adım 11: görselli tur, bütün yollar + `--cihaz`** (aşağıdaki notlar hâlâ geçerli:

@@ -26,7 +26,7 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 | 6–7 Onay 2, hikâye donar | 10 Eki 17:44 | 10 Eki 19:40 | 22 metin notu (hepsi bulanık replik; hikâye değişmedi); soğuk kapanış belirginleşti (+K32); geçici "Vaka 2'den başla" düğmesi |
 | 8 Görsel listesi + promptlar | 10 Eki 19:40 | 10 Eki 19:44 | 59 görsel, `vaka2_gorsel.md`; 29 referans `vaka2_referans/` |
 | 9–10 Görseller, kontrol, yerleştirme | 11 Eki 09:17 (TSİ) | 16 Eki 16:47 | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
-| 11 Görselli tur | | | |
+| 11 Görselli tur | 16 Eki 16:58 | 16 Eki 17:40 | `arac_yeni_tur.js --hepsi` yazıldı (her satır görüntü + döküm); 4 yol × 4 sonuç × 4 karar + soğuk kapanış; 7 sahne düzeltmesi (konuk girişi ×3, K20, Kısası, K31 etiketi, Tolga eli); `--cihaz` temiz (bilinen tek bayrak) |
 | 12–13 Onay 3, düzeltmeler | | | |
 | 14 Vaka donar | | | |
 

@@ -169,7 +169,7 @@
     "peri.kremali.sinirli"
   ],
   "tam": ["K9"],
-  "sola": {"tolga.sinirli": 9},
+  "sola": {"tolga.sinirli": 18},
   "_not_sola": "Sağdaki figürün eli ekranın sağ kenarından taşıyorsa figür genişliğinin yüzdesi kadar sola kayar (yeni_arayuz.js vnFigurCiz).",
   "boy": {
     "riza": 0.86,
