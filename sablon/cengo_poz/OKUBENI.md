@@ -23,6 +23,15 @@ https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc — üreticisi `../lora_sayfa/
 | C6 | yakın, **aşağıdan** | çene hafif yukarıda | kendinden memnun yarım gülüş | bordo gömlek; koyu kahve, akşam ışığı |
 | C7 | yakın, **yukarıdan** | kameraya yukarı bakıyor | yumuşak, hafif gülümseme | beyaz gömlek; açık bej |
 | C8 | yakın, önden | — | **şaşkın**, gözler açık, ağız aralık | siyah tişört; koyu gri |
+| C9 | bel üstü, ¾ sol | bir el cepte, öbürü yanda; baş yana dönük | hınzır yarım gülüş | **Vaka 1:** bol kahverengi ceket, kollar sıvalı, beyaz gömlek, bordo kravat cepten sarkıyor, boncuklu bileklik; bej |
+| C10 | bel üstü, ¾ sol | bir el kravat düğümünü gevşetiyor, öbürü cepte | sıkışmış ama keyifli | **Vaka 2:** koyu lacivert takım, gömlek ilikli, bordo kravat bağlı, bileklik; bej |
+| C11 | bel üstü, önden | **kollar göğüste kavuşuk** | kendinden emin gülümseme | siyah deri ceket, beyaz tişört; orta gri |
+| C12 | bel üstü, ¾ | elinde **porselen fincan** | dalgın, yumuşak | koyu gri balıkçı yaka kazak; mutfak, sabah ışığı |
+| C13 | bel üstü, ¾ sol | **eli ensesinde** | mahcup yarım gülüş | açık mavi kot gömlek, kollar sıvalı; bej |
+| C14 | bel üstü, önden | el ceket yakasında | ciddi, karizmatik | siyah smokin, papyon; koyu, altın ışıklar |
+| C15 | bel üstü, ¾ sol | **eller cepte**, saç ıslak | temkinli, gözler kısık | koyu yeşil yağmurluk, yaka kalkık; gece sokak, yağmur, fener |
+| C16 | bel üstü, ¾ sol | **sola işaret ediyor**, öbür el belde | öfkeli, ağız açık | beyaz gömlek, kollar sıvalı, kot; bej |
+| C17 | bel üstü | **eli çenesinde**, bakış aşağıda | düşünceli, hüzünlü | lacivert yuvarlak yaka kazak; koyu gri |
 
 ## Notlar
 - C1 ikinci denemede onaylandı. İlk deneme yaşlı (göz çizgileri), çilli, saçı kabarık ve kızıla çalıyordu;
