@@ -76,8 +76,9 @@ portre `python3 arac_portre.py <figür> yeni_gorsel/portre/portre_<id>.webp`. De
 `kaynak/YENI_OYUN_CERCEVE.md`.
 **Paylaş (davet kartı, 17 Ekim 2026) — yalnız yeni oyun.** Biten vaka "Arkadaşına öner" düğmesiyle
 paylaşılır (kapanıştan sonraki ekran — kaçan ipucu yoksa "Dosya kapandı" — ve Defter → Anı). Kart
-1080×1920 tarayıcıda çizilir (`yeni_arayuz.js → paylasKartCiz`): vaka no/adı, kapak (`gorseller.json →
-kapak`), girişin ilk cümlesi, "Sen olsan ne yapardın?", bağlantı. **Suçlu, karar, suçlama, kasa, not
+1080×1920 tarayıcıda çizilir (`yeni_arayuz.js → paylasKartCiz`): vakanın afişi (`gorseller.json → kart`; yoksa
+`kapak` arka planı) ve altta KÜÇÜK bir kutu — vaka no/adı, "Sen olsan ne yapardın?" — ile bağlantı. Sahibinin
+kuralı: önce resim, yazı az; girişin ilk cümlesi kartta değil paylaşım mesajında (`paylasMetin`). **Suçlu, karar, suçlama, kasa, not
 karta GİRMEZ** (Nurcan — arkadaş oynamadı; ve oyun not vermez). `navigator.share` varsa görselle paylaşır,
 yoksa indir + bağlantıyı kopyala. Bağlantı önizlemesi (`og:` etiketleri) `build_html.js yeni`'de; görseli
 `yeni_gorsel/paylas_onizleme.jpg` → `yeni/paylas.jpg`. Anı karşılaştırması ve davet kodu Android aşamasında.

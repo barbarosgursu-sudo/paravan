@@ -11,8 +11,8 @@ ORAN = ("Görselin oranı dikey 9:16 (1080×1920). Üretici 9:16 veremiyorsa dik
 HAREKET = ("Hava: eğlenceli, hareketli bir macera-komedi afişi. Peri ile Cengo HAREKET HÂLİNDE, ikisi de ÖN PLANDA, "
            "kameraya doğru geliyorlar; arkalarındaki dört kişi yerinde duruyor. 5. referans YALNIZ Peri'nin yürüyüş pozu içindir: "
            "oradaki kıyafeti, saçı ve arka planı alma.")
-DUZEN = ("Afiş düzeni (ÖNEMLİ): görselin ALT %40'ının üstüne bir yazı kutusu binecek. Bütün yüzler ve başlar "
-         "görselin ÜST %55'inde. Alt kısımda yalnız gövdeler ve zemin; orada önemli hiçbir şey yok.")
+DUZEN = ("Afiş düzeni (ÖNEMLİ): görselin ALT %20'sinin üstüne küçük bir yazı kutusu binecek. Kişiler ayaklarına kadar "
+         "o şeridin ÜSTÜNDE kalsın; alt %20'de yalnız zemin var, orada önemli hiçbir şey yok.")
 ESIT = ("Arka sıradaki dört kişi AYNI boyda, AYNI ışıkta, Peri ile Cengo'dan AYNI uzaklıkta, eşit aralıklı; hiçbiri ortada "
         "tek başına öne çıkmıyor, hiçbiri gölgede kalmıyor. Bu bir dizi afişi: herkes 'kadroda', kimse 'suçlu' değil.")
 
