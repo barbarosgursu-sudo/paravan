@@ -26,6 +26,9 @@ G.append(dict(no=1, ad="Vaka 1 · Kayıp Tekne — kart görseli", anahtar="kart
     "Mekân (1. referans): Karaköy iskelesi, gün batımı. Taş rıhtım, suda bağlı küçük ahşap balıkçı tekneleri (mavi, yeşil, kırmızı; "
     "ahşabı eski, boyaları solmuş), arkada Boğaz, tarihi yarımadanın siluetinde camiler ve bir vapur. Rıhtımda iki teknenin arasında "
     "BOŞ bir bağlama yeri: yalnız su ve boş bir demir baba, babada halat yok.",
+    "Zemin (ÖNEMLİ): ALTI KİŞİNİN HEPSİ geniş taş rıhtımın ÜSTÜNDE duruyor, ayakları taşa basıyor. Rıhtımın su kenarı "
+    "arka sıranın da ARKASINDA; su ve bağlı tekneler yalnız kişilerin arkasında görünür. Kimse suyun üstünde ya da teknelerin "
+    "arasında durmuyor.",
     "Kadrajda TAM ALTI kişi (altı; beş değil, yedi değil):",
     "ÖN PLANDA ORTADA Peri (2. referans): aynı kızıl saç topuzu, kırmızı manto belden kuşakla bağlı, altında krem saten bluz, "
     "kırmızı stiletto. TAM İKİ KOL, İKİ EL: sol eli belinde, sağ eli mantonun yakasında. Kendinden emin, hafif gülümseme; "
@@ -48,7 +51,7 @@ G.append(dict(no=1, ad="Vaka 1 · Kayıp Tekne — kart görseli", anahtar="kart
     "yaka kartı ya da boyna asılı kart; anahtar; kilit; zincir; telefon; simit; balık kasası; para. Kimse koşmuyor.",
     "Işık: sıcak gün batımı ışığı herkesin üstünde eşit; en parlak yer Peri.", DUZEN,
     "Peri en üst seviyede zarif ve çekici. Çıplaklık yok.", YAZI, ORAN),
-  bak="tam altı kişi · Kemal'de boya/önlük/fırça yok · Serkan'ın elleri cepte · arka sıradaki üçü aynı ifadede · "
+  bak="herkes taş rıhtımda, su arkada · tam altı kişi · Kemal'de boya/önlük/fırça yok · Serkan'ın elleri cepte · arka sıradaki üçü aynı ifadede · "
       "zincir, kilit, beyaz tekne yok · yüzler üst yarıda · yazı yok"))
 
 G.append(dict(no=2, ad="Vaka 2 · Gelinlik — kart görseli", anahtar="kart.V2", sohbet="Yeni sohbet · Vaka 2 kartı",
