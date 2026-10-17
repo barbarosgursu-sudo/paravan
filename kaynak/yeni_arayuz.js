@@ -925,3 +925,15 @@ function vnKisilerAc(){
   document.querySelector(".vn").append(d);
   document.getElementById("vnKisilerKapat").addEventListener("click", () => d.remove());
 }
+
+/* Defter → Zincir de yalnız İÇİNDE BULUNULAN vakayı gösterir (künyeyle aynı kural: geçmiş vakalar
+   geçmişte kaldı). Açık vaka yoksa (kapanış, vakalar arası) son biten vaka. Olgular yine bütün
+   bilgiyle süzülür ama yalnız o vakanın olguları/çıkarımları çizilir (tahtaVaka). Eski oyunun
+   defterZincir'i (bütün vakalar alt alta) bu dosya gömülmediği için değişmez. */
+defterZincir = function(){
+  const d = oyun.durum;
+  const vid = d.aktif ? d.aktif.id : (d.tamamlanan || []).slice(-1)[0];
+  const v = vid && GAME.vakalar.find(x => x.id === vid);
+  const p = v ? tahtaVaka(v, oyun.tumBilinen()) : "";
+  return p || `<div class="bos-panel">Tahta boş. Bir kaynak açtığında buraya işlenecek.</div>`;
+};
