@@ -20,6 +20,9 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 - **Konu: Simit Soygunu (17 Ekim, sahibinin onayı).** Yan karakter **Gizem**: pastanenin tezgâhtarı, yirmili
   yaşlarının ortası, hazırcevap, seksi ve işveli; Cengo'yla atışır, Peri'yi zaman zaman kıskançlık krizine sokar.
   Masum; soygun gecesinin tek gerçek tanığı; vakadan sonra büroya yerleşir. Kanon: `3_kanon_kaydi.md`.
+- **Peri her zaman üstün (17 Ekim, sahibinin kararı):** Vaka 2 kuralı sürer — Peri vakadaki kadınların içinde
+  her zaman en gösterişli ve seksi olandır; Gizem'le yan yana Peri çok daha alımlı görünür. Kıskançlık bundan
+  doğar: Peri üstün olduğu hâlde huzursuzlanır. Görsel promptlarına (adım 8) baştan konur.
 
 - **Bulanık replik taraması** (adım 5'in sonu): Onay 2'den önce her replik "kime, neyi,
   nereden biliyor, espri, sıra, niyet" sorularıyla okunur; düzeltmeler sahibine tek listede
