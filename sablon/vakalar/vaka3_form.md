@@ -1,6 +1,6 @@
 # VAKA 3 FORMU — SİMİT SOYGUNU
 
-Şablon 6'ya göre. Durum: **TASLAK — Onay 1 bekliyor (17 Ekim 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 17 Ekim 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 3 — SİMİT SOYGUNU" (Columbo tipiydi; sahibinin kararıyla **Bilmece**).
 Yan karakter **Gizem** (`3_kanon_kaydi.md`). Peri vakadaki her kadından gösterişli (kural 15b).
@@ -309,7 +309,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 - [x] Yeni yan karakterlerin görünüşü onaylandı (Peri, Gizem ve öbür altı kişi, 17 Ekim)
 - [x] Kural kitabıyla çelişen bir şey yok
 
-## Sahibine sorular *(Onay 1)*
+## Sahibine sorular *(Onay 1: hepsi uygun, 17 Ekim 2026; 1. kanon maddesi ve Peri'nin kılığının sebebi sahibince düzeltildi)*
 
 1. 🟡 Kanon 1–4 (Nadide Peri'nin eski hayranı, imzalı afişi dükkânında; afiş büroya asılmaz; Susam büroya yakın, Cengo veresiyeli; Gizem artan simitleri yaşlılara götürür; Gizem istifa edip maaşsız büroya yerleşir) — uygun mu?
 2. 🟢 Peri: kısa bej trençkot + siyah elbise + eşarp + güneş gözlüğü + kırmızı stiletto; Gizem: bal rengi kahküllü, pembe önlük, kot etek. Diğer görünüşler — uygun mu?
