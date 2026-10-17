@@ -270,7 +270,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 | tutar | ne | dayanak |
 |---|---|---|
 | 40.000 ₺ | vaka ücreti | V1 35.000 (yoksul müşteri), V2 50.000 (zengin, acil); orta hâlli esnaf, 2 gün |
-| 720.000 ₺ | sigortaya bildirilen hafta sonu hasılatı (cuma–pazar, 4 dükkân) | **tahmin:** dükkân başına günde ~60.000 ₺ (simit ~25–30 ₺, çay, pasta; kalabalık Karaköy merkezi) × 4 × 3 |
+| 720.000 ₺ | sigortaya bildirilen hafta sonu hasılatı (cuma–pazar, 4 dükkân) | **tahmin:** dükkân başına günde ~60.000 ₺ (simit 30 ₺, Eylül 2026; çay, pasta; kalabalık Karaköy merkezi) × 4 × 3 |
 | 240.000 ₺ | cuma hasılatı = elden ödenen un borcu | aynı hesap, bir gün |
 | 480.000 ₺ | kasadaki gerçek para (cumartesi + pazar), un çuvalında | aynı hesap, iki gün |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
@@ -278,7 +278,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 | 10.000 ₺ | Nadide'nin "maaşlara lazım" kesintisi | hikâye içi |
 | 20.000 ₺ | Ferruh'un payı | hikâye içi; kural 26 (ücretin altında) |
 
-*Fiyatlar adım 3'ten önce internetten kontrol edilecek (2026 simit fiyatı, pastane cirosu).*
+*Fiyatlar 17 Ekim 2026'da kontrol edildi: İstanbul'da simit Eylül 2026'dan beri 30 ₺; net asgari ücret 28.075 ₺. Dükkân cirosu için kaynak yok (tahmin: günde ~2.000 satış).*
 
 ## 18. Kanon
 

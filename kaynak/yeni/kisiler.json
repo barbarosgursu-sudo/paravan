@@ -188,6 +188,82 @@
       "portre": "portre_sarkis",
       "tanisma": "terzi_gelinlik",
       "katmanlar": [{"kosul": "terzi_gelinlik", "tanim": "Kurtuluş'ta terzi. Fişi olmayana bir şey vermez."}]
+    },
+    {
+      "id": "nadide",
+      "ad": "Nadide Hanım",
+      "tanisma": "susam_soyuldu",
+      "katmanlar": [
+        {
+          "kosul": "susam_soyuldu",
+          "tanim": "Susam Pastanesi'nin kurucusu. Dükkânı on beş yıldır Ferruh'a bıraktı. Hırsızı bulmamızı istiyor."
+        }
+      ]
+    },
+    {
+      "id": "gizem",
+      "ad": "Gizem",
+      "tanisma": "gizem_kapatti",
+      "katmanlar": [
+        {
+          "kosul": "gizem_kapatti",
+          "tanim": "Susam'da tezgâhtar. Pazar akşamı dükkânı o kapattı. Ferruh ondan şüpheleniyor."
+        },
+        {
+          "kosul": "gizem_dondu",
+          "tanim": "Susam'da tezgâhtar. Pazar akşamı dükkânı o kapattı. Ferruh ondan şüpheleniyor. Pazar gece dükkâna geri döndü."
+        }
+      ]
+    },
+    {
+      "id": "kenan",
+      "ad": "Kenan",
+      "tanisma": "kenan_acti",
+      "katmanlar": [
+        {"kosul": "kenan_acti", "tanim": "Susam'ın müdürü. Sabah dükkânı o açtı. Eksper ondan şüpheleniyor."},
+        {
+          "kosul": "kenan_yalan",
+          "tanim": "Susam'ın müdürü. Sabah dükkânı o açtı. Eksper ondan şüpheleniyor. Pazar gecesi için yalan söylüyor."
+        },
+        {
+          "kosul": "kenan_deneme",
+          "tanim": "Susam'ın müdürü. Sabah dükkânı o açtı. Eksper ondan şüpheleniyor. Pazar gece Kadıköy'de bir iş denemesindeydi."
+        }
+      ]
+    },
+    {
+      "id": "ferruh",
+      "ad": "Ferruh",
+      "tanisma": "susam_soyuldu",
+      "katmanlar": [
+        {"kosul": "susam_soyuldu", "tanim": "Susam'ı yöneten ortak. Nadide Hanım ona güveniyor."},
+        {
+          "kosul": "ferruh_borc",
+          "tanim": "Susam'ı yöneten ortak. Nadide Hanım ona güveniyor. Toptancıya göre çok sıkışık."
+        },
+        {
+          "kosul": "merkez_satilik",
+          "tanim": "Susam'ı yöneten ortak. Nadide Hanım ona güveniyor. Merkezi gizlice satmaya çalışmış."
+        }
+      ]
+    },
+    {
+      "id": "sedat",
+      "ad": "Sedat",
+      "tanisma": "alarm_kodu",
+      "katmanlar": [{"kosul": "alarm_kodu", "tanim": "Alarmcı. Susam'ın alarmını o taktı. Cengo'ya borçlu."}]
+    },
+    {
+      "id": "ayla",
+      "ad": "Ayla Hanım",
+      "tanisma": "kenan_deneme",
+      "katmanlar": [{"kosul": "kenan_deneme", "tanim": "Kadıköy'deki Badem Pastanesi'nin şefi."}]
+    },
+    {
+      "id": "rustem",
+      "ad": "Rüstem Bey",
+      "tanisma": "borc_elden",
+      "katmanlar": [{"kosul": "borc_elden", "tanim": "Eminönü'nde un toptancısı. Nadide Hanım'ın duvarındaki afişi bilir."}]
     }
   ],
   "defter": {
@@ -202,11 +278,18 @@
       "nikahtan_sonra": "Defne nikâhını istediği gibi kıydı. Müjgan Hanım bir gün geç öğrendi.",
       "yuz_yuze": "Ana kız aynı masaya oturdu. Nikâh cuma, cumartesi yemek.",
       "defnenin_parasi": "Defne'nin sırrı bende kaldı. Lâl Hanım'ın iki müşterisi gitti."
+    },
+    "V3": {
+      "eksper_anlat": "Sigorta gerçeği öğrendi. Susam'ın merkezi kapandı.",
+      "ferruh_soylesin": "Ferruh kendi ağzıyla söyledi. Merkez açık, maaşlar ödendi.",
+      "nadideye_birak": "Karar Nadide Hanım'ındı. Merkez Badem oldu.",
+      "ferruh_payi": "Ferruh'un sırrı bende. Gizem'in adı temizlenmedi."
     }
   },
   "ani_ozet": {
     "_not": "Anı defterinde Peri notunun üstündeki hatırlatma. Yalnız kovalamacadaki itirafın söylediği (o sahne her yolda oynar); karara göre değişen hiçbir şey yazılmaz.",
     "V1": "Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.",
-    "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu."
+    "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.",
+    "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı."
   }
 }

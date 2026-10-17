@@ -93,7 +93,9 @@ console.log("\n=== Paylaş (davet kartı) ===");
     const kod = (M.kapak || {})[v.id];
     const ipucuArka = new Set((v.clues || []).map(c => c.sahne && c.sahne.arka).filter(Boolean));
     k(`${v.id}: kapak var, gömülü ve ipucu sahnelerinde geçen bir arka plan (gorseller.json → kapak)`,
-      !!kod && !!M.dosyalar[kod] && ipucuArka.has(kod), kod ? `${kod} — ipucu arkaları: ${[...ipucuArka].join(" ")}` : "kapak yok");
+      !!kod && (!!M.dosyalar[kod] || (M.yer_tutucu || []).includes(kod)) && ipucuArka.has(kod), kod ? `${kod} — ipucu arkaları: ${[...ipucuArka].join(" ")}` : "kapak yok");
+    // Görselsiz aşamada (şablon 7. parça adım 5) kapak yer tutucu olabilir; görsel gelince dosyalar'a geçer.
+    if (kod && !M.dosyalar[kod] && (M.yer_tutucu || []).includes(kod)) console.log(`  ⚠ ${v.id}: kapak ${kod} henüz yer tutucu (görselsiz aşama)`);
     k(`${v.id}: girişin varsayılan metni var (kartın cümlesi)`,
       !!(v.giris || []).some(g => g.kosul === "varsayilan" && g.metin));
   }
