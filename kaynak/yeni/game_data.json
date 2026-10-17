@@ -2015,10 +2015,17 @@
                 "mekan": true
               },
               {"k": "peri", "i": "normal", "m": "Kenan Bey. Pazar gece neredeydiniz?", "gir": "kenan", "gi": "normal"},
-              {"k": "kenan", "i": "normal", "m": "Evdeydim.", "gir": "kenan"},
-              {"k": "not", "m": "Kenan'ın bıçağı hamurun üstünde bir an duruyor."},
-              {"k": "peri", "i": "kas", "m": "Bıçağınız bir an durdu. Yalan söyleyenin eli durur.", "gir": "kenan"},
-              {"k": "kenan", "i": "kizgin", "m": "Hamur sertleşti, ondan durdu.", "kime": "peri"},
+              {"k": "kenan", "i": "normal", "m": "Evdeydim. Erken yattım; sabah fırını ben açıyorum.", "gir": "kenan"},
+              {"k": "peri", "i": "merakli", "m": "Kaçta yattınız?"},
+              {"k": "kenan", "i": "normal", "m": "Onda. En geç on."},
+              {"k": "not", "m": "Kenan kocaman esniyor. Gözlerinin altı mosmor."},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Onda yatan biri öğlen böyle esnemez, Kenan Bey. Siz o gece hiç uyumamışsınız.",
+                "gir": "kenan"
+              },
+              {"k": "kenan", "i": "kizgin", "m": "Uykumu da mı size soracağım?", "kime": "peri"},
               {"k": "cengo", "i": "kas", "m": "Soygunu sabah ilk sen görmüşsün. Altı buçukta."},
               {
                 "k": "kenan",

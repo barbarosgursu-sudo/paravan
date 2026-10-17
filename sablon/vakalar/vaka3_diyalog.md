@@ -144,10 +144,12 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 *Susam'ın imalathanesi. Taş fırın, simit tezgâhı, büyük bir pekmez kazanı. Uzun boylu, sakallı bir adam lacivert önlüğüyle hamur kesiyor.* {mekan}
 **PERİ [normal]:** Kenan Bey. Pazar gece neredeydiniz? {gir: kenan, gi: normal}
-**KENAN [normal]:** Evdeydim. {gir: kenan}
-*Kenan'ın bıçağı hamurun üstünde bir an duruyor.*
-**PERİ [kas]:** Bıçağınız bir an durdu. Yalan söyleyenin eli durur. {gir: kenan}
-**KENAN [kizgin]:** Hamur sertleşti, ondan durdu. {kime: peri}
+**KENAN [normal]:** Evdeydim. Erken yattım; sabah fırını ben açıyorum. {gir: kenan}
+**PERİ [merakli]:** Kaçta yattınız?
+**KENAN [normal]:** Onda. En geç on.
+*Kenan kocaman esniyor. Gözlerinin altı mosmor.*
+**PERİ [kas]:** Onda yatan biri öğlen böyle esnemez, Kenan Bey. Siz o gece hiç uyumamışsınız. {gir: kenan}
+**KENAN [kizgin]:** Uykumu da mı size soracağım? {kime: peri}
 **CENGO [kas]:** Soygunu sabah ilk sen görmüşsün. Altı buçukta.
 **KENAN [normal]:** Her sabah fırını ben açarım. O sabah da açtım, kasayı açık buldum. {kime: cengo}
 **KENAN [kizgin]:** Maaşlar iki aydır geç yatıyor. Maaşı Ferruh Bey yatırır. {kime: peri}
