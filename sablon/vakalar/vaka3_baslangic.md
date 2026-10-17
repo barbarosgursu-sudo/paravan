@@ -17,6 +17,9 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 - **Tip: Bilmece (17 Ekim, sahibinin kararı)** — Vaka 1 ve 2 gibi; oyuncu da suçluyu bilmez. Taslak
   (`kaynak/YENI_OYUN_SEZON.md` → "VAKA 3 — SİMİT SOYGUNU") Columbo tipi yazıyor; konu oradan alınır, tip
   Bilmece'ye çevrilir. Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`1_oyun_yapisi.md`).
+- **Konu: Simit Soygunu (17 Ekim, sahibinin onayı).** Yan karakter **Gizem**: pastanenin tezgâhtarı, yirmili
+  yaşlarının ortası, hazırcevap, seksi ve işveli; Cengo'yla atışır, Peri'yi zaman zaman kıskançlık krizine sokar.
+  Masum; soygun gecesinin tek gerçek tanığı; vakadan sonra büroya yerleşir. Kanon: `3_kanon_kaydi.md`.
 
 - **Bulanık replik taraması** (adım 5'in sonu): Onay 2'den önce her replik "kime, neyi,
   nereden biliyor, espri, sıra, niyet" sorularıyla okunur; düzeltmeler sahibine tek listede

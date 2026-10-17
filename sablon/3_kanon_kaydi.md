@@ -21,7 +21,7 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | **Avukat** | Peri'yi dolandırıp kaçtı. Paravan'ı vergi için o kurdu, Cengo'yu bordroya o yazdı. Vaka 8'de döner. |
 | **Hilmi Bey** | İcra memuru, otuzlarında. Açılışta Peri'nin evini haczeder. Annesi bir zamanlar Peri'ye oy vermiş. |
 | **Ev sahibi** | Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan saklanır. **Yalnız komedi:** parayı etkilemez. |
-| **Yan karakter** | Vaka 3'te gelir: pastanenin genç kadın çalışanı, yirmili yaşlarının ortasında. |
+| **Gizem** (yan karakter) | Vaka 3'te gelir: pastanenin genç kadın çalışanı (tezgâhtar), yirmili yaşlarının ortasında — yetişkin. Hazırcevap, lafını esirgemez; seksi ve işveli. Cengo'yla atışır; Peri'yi zaman zaman kıskançlık krizine sokar. Vakadan sonra büroya yerleşir. *(Sahibinin kararı, 17 Ekim 2026.)* |
 
 ## Yerler
 
@@ -62,7 +62,7 @@ Her oyuncu için aynıdır; kararlar değiştirmez.
 ## Açık noktalar (ilk kullanıldıkları vakada karara bağlanır)
 
 - Ev sahibinin adı, yaşı, tuhaflığı → Vaka 2
-- Yan karakterin adı, kişiliği, çırak mı garson mu → Vaka 3
+- ~~Yan karakterin adı, kişiliği, çırak mı garson mu~~ → Gizem, tezgâhtar, hazırcevap (17 Ekim 2026)
 - Cengo'nun kızının adı → Vaka 6
 - Avukatın adı ve Cengo'yla bağlantısı → Vaka 8
 
