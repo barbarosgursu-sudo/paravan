@@ -49,12 +49,10 @@
 ### Yeni pencerede ilk iş
 1. `CLAUDE.md` → 2. **bu bölüm** → 3. `sablon/vakalar/vaka3_baslangic.md` (bütün yeni kurallar orada
    özetli) → 4. `sablon/` 7 parça.
-2. Sahibi C1'i gönderirse: C1'i asıl Cengo'ya (G14-1, `sablon/lora_sayfa/ref/G14-1_cengo.jpg`) karşı
-   onayla (yüz, saç, sakal, yaş); onaylamadan devam ettirme. İş sayfası (25 prompt, hâlâ geçerli):
-   https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc — üreticisi `sablon/lora_sayfa/uret_cengo.py`.
-   Görseller gelince: 900 px JPEG q85 → `sablon/cengo_poz/C<n>.jpg` + `OKUBENI.md` dizini
-   (Peri'deki gibi: `sablon/peri_poz/OKUBENI.md` örnek). Sahibi 10'arlı gönderir; eşleştirmeyi
-   kartın tarifinden yap (kıyafet/poz), mesaj sırasına güvenme.
+2. Cengo seti **bitti** (17 Ekim): `sablon/cengo_poz/` C1–C25 + `OKUBENI.md` dizini. Yapılacak iş yok;
+   sahibi "Vaka 3'e başla" deyince başla. Kullanım: her yeni Cengo temel figürü C1 (yüz) + G14-1 (beden),
+   zor pozda uygun C "YALNIZ poz için"; ifadeler vakanın temel figürünün düzenlemesi (D-1); kıyafet V1/V2
+   ile aynıysa oyundaki figür referanstır. Adım 8'de her Cengo kartına hangi C'nin gireceğini Claude yazar.
 
 ### Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 - **Vaka 2 bitti:** K23 gömüldü (ChatGPT düşünen kip; reddedilen 2 + kabul edilen prompt

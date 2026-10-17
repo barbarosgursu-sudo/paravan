@@ -66,6 +66,8 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   L16 işaret eden, L13/L24 arkadan… Adım 8'de her Peri promptuna uygun L eklenir (en çok 5 referans).
   **Cengo poz kütüphanesi (17 Ekim, tamam):** `sablon/cengo_poz/` — C1 yüz, G14-1 beden; C25 koltukta
   bacak bacak üstünde, C16 işaret eden, C24 arkadan, C19 yürüyor… Aynı kural: uygun C "YALNIZ poz için".
+  Yeni kıyafette temel figür C1 + G14-1 (+ poz C) ile; ifadeler o temelin düzenlemesi (D-1). Kıyafet V1/V2
+  ile aynıysa oyundaki figür referanstır. Adım 8'de her Peri/Cengo kartına hangi L/C'nin gireceğini yaz.
 - **ChatGPT reddederse (16 Ekim, sahibinin kararı):** aynı promptu ChatGPT'nin düşünen kipinde
   ver; kendisi yumuşatıp yeniden dener (Vaka 2 K23 böyle çıktı). Olmazsa Grok. `5_gorsel_sistemi.md` D-5.
 - **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta

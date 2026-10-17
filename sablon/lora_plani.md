@@ -126,11 +126,14 @@ Sırada: ADetailer kurulumu → bu ayarlarla boydan deneme → kıyafet esnekli�
 
 ## Cengo seti (12 Ekim 2026, sahibinin kararı: Peri yöntemiyle aynı)
 
-**16 Ekim 20:23: sahibinin kararı — 25'in tamamı şimdi üretiliyor** (Vaka 3'ten önce; Vaka 3 süresine girmez).
+**17 Ekim 2026: set TAMAM** — `sablon/cengo_poz/` C1–C25 + dizin (C1 ikinci denemede onaylandı). Peri'ninki
+`sablon/peri_poz/` L1–L25. Aşağıdaki metin üretim dönemi kaydıdır.
+
+16 Ekim 20:23: sahibinin kararı — 25'in tamamı şimdi üretiliyor (Vaka 3'ten önce; Vaka 3 süresine girmez).
 Yeni amaç: LoRA'dan bağımsız olarak iki set (L1–L25, C1–C25) **ChatGPT'ye poz/kıyafet/yüz referansı**
 olarak kullanılır — her vakanın temel figürü L1/C1 (yüz) + G1-1/G14-1 (beden) ile, zor pozlar ilgili L/C
 ile ("YALNIZ poz; kıyafeti ve arka planı alma"). En çok 5 referans. Peri'nin 25 görseli küçültülüp
-depoya konacak (sahibinden bekleniyor), dizin sayfasıyla.
+depoya kondu (`sablon/peri_poz/`), dizin sayfasıyla.
 
 İş sayfası: https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc (üreticisi `sablon/lora_sayfa/uret_cengo.py`).
 25 görsel, C1–C8 yakın yüz · C9–C17 bel üstü · C18–C25 boydan. Referans G14-1 (kahverengi ceket);
