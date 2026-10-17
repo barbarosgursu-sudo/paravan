@@ -8,6 +8,9 @@ STIL = ("Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter 
 YAZI = "Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın."
 ORAN = ("Görselin oranı dikey 9:16 (1080×1920). Üretici 9:16 veremiyorsa dikey 2:3 (1024×1536) olsun: "
         "sol ve sağ kenardan kırpılacak, bu yüzden kimse kenara değmesin; bütün kişiler ortadaki %80'lik şeritte toplu.")
+HAREKET = ("Hava: eğlenceli, hareketli bir macera-komedi afişi. Peri ile Cengo HAREKET HÂLİNDE, ikisi de ÖN PLANDA, "
+           "kameraya doğru geliyorlar; arkalarındaki dört kişi yerinde duruyor. 5. referans YALNIZ Peri'nin yürüyüş pozu içindir: "
+           "oradaki kıyafeti, saçı ve arka planı alma.")
 DUZEN = ("Afiş düzeni (ÖNEMLİ): görselin ALT %40'ının üstüne bir yazı kutusu binecek. Bütün yüzler ve başlar "
          "görselin ÜST %55'inde. Alt kısımda yalnız gövdeler ve zemin; orada önemli hiçbir şey yok.")
 ESIT = ("Arka sıradaki dört kişi AYNI boyda, AYNI ışıkta, Peri ile Cengo'dan AYNI uzaklıkta, eşit aralıklı; hiçbiri ortada "
@@ -19,7 +22,7 @@ G = []
 
 G.append(dict(no=1, ad="Vaka 1 · Kayıp Tekne — kart görseli", anahtar="kart.V1", sohbet="Yeni sohbet · Vaka 1 kartı",
   refs=[dosya("KART1-1_iskele.jpg", "mekân: Karaköy iskelesi"), dosya("KART1-2_peri.jpg", "Peri, kırmızı manto"),
-        dosya("KART1-3_cengo.jpg", "Cengo"), dosya("KART1-4_konuklar.jpg", "soldan sağa: Rıza, Kemal, Tuba, Serkan")],
+        dosya("KART1-3_cengo.jpg", "Cengo"), dosya("KART1-4_konuklar.jpg", "soldan sağa: Rıza, Kemal, Tuba, Serkan"), dosya("KART-5_peri_yuruyus.jpg", "YALNIZ Peri'nin yürüyüş pozu")],
   metin=j(STIL,
     "Bir oyunun paylaşım kartı için dikey afiş görseli: bir dizi afişi gibi toplu kadro. Kişiler eklediğim referanslardakilerin AYNISI "
     "(yüz, saç, yaş, beden); mekân birinci referanstakinin AYNISI. Kadrajda yalnız sayılan kişiler ve nesneler var.",
@@ -30,11 +33,16 @@ G.append(dict(no=1, ad="Vaka 1 · Kayıp Tekne — kart görseli", anahtar="kart
     "arka sıranın da ARKASINDA; su ve bağlı tekneler yalnız kişilerin arkasında görünür. Kimse suyun üstünde ya da teknelerin "
     "arasında durmuyor.",
     "Kadrajda TAM ALTI kişi (altı; beş değil, yedi değil):",
+    HAREKET,
     "ÖN PLANDA ORTADA Peri (2. referans): aynı kızıl saç topuzu, kırmızı manto belden kuşakla bağlı, altında krem saten bluz, "
-    "kırmızı stiletto. TAM İKİ KOL, İKİ EL: sol eli belinde, sağ eli mantonun yakasında. Kendinden emin, hafif gülümseme; "
-    "gövdesi kameraya yarım dönük, burnu kadrajın soluna bakıyor.",
-    "Peri'nin hemen sağ omzunun arkasında Cengo (3. referans): aynı dağınık siyah saç, kahverengi ceket, açık yakalı krem gömlek, "
-    "kot pantolon, bileğinde boncuk bileklik. TAM İKİ KOL, İKİ EL: bir eli cebinde, öbürü yanda. Hınzır yarım gülümseme.",
+    "siyah kalem etek, kırmızı stiletto. Kameraya doğru kararlı adımlarla YÜRÜYOR (5. referanstaki gibi, bir bacağı önde). "
+    "Deniz rüzgârı mantonun eteklerini arkaya savuruyor, topuzundan iki kızıl tutam kurtulmuş yüzüne uçuşuyor. TAM İKİ KOL, "
+    "İKİ EL: sağ eli yüzüne düşen tutamı geriye itiyor, sol kolu yürürken yanında sallanıyor. Doğrudan kameraya bakıyor, "
+    "dudağının bir köşesi kıvrık, kendinden emin, hınzır bir gülümseme.",
+    "Peri'nin yanında, yarım adım geride Cengo (3. referans): aynı dağınık siyah saç, kahverengi ceket, açık yakalı krem gömlek, "
+    "kot pantolon, bileğinde boncuk bileklik. O da yürüyor ama bir martı alçaktan, tam başının üstünden geçiyor: Cengo başını "
+    "eğmiş, omuzlarını kısmış, kocaman sırıtıyor. TAM İKİ KOL, İKİ EL: bir eli saçını korur gibi başının üstünde, öbürü "
+    "cebinde. Martı kanatları açık, Cengo'nun başının bir karış üstünde; gagası boş.",
     "ARKADA, Peri ve Cengo'dan bir adım geride, başları onlardan biraz yukarıda kalacak biçimde tek sıra, soldan sağa: "
     "Kemal, Rıza Reis, Tuba, Serkan (4. referanstaki kişiler; referanstaki sıra soldan sağa Rıza, Kemal, Tuba, Serkan).",
     "- Rıza Reis: yetmişlerinde, kır sakallı, lacivert kasket, lacivert örgü yelek, açık mavi gömlek. Elleri önünde kavuşmuş. "
@@ -48,27 +56,34 @@ G.append(dict(no=1, ad="Vaka 1 · Kayıp Tekne — kart görseli", anahtar="kart
     "hiçbiri tedirgin, suçlu ya da korkmuş görünmüyor.",
     ESIT,
     "Kadrajda OLMAYACAKLAR: beyaz boya, boya fırçası, boya lekesi; beyaz tekne, yat, lüks tekne; kamera, ışık, klaket, kulaklık; "
-    "yaka kartı ya da boyna asılı kart; anahtar; kilit; zincir; telefon; simit; balık kasası; para. Kimse koşmuyor.",
+    "yaka kartı ya da boyna asılı kart; anahtar; kilit; zincir; telefon; simit; balık kasası; para. Arka sıradakiler koşmuyor.",
     "Işık: sıcak gün batımı ışığı herkesin üstünde eşit; en parlak yer Peri.", DUZEN,
     "Peri en üst seviyede zarif ve çekici. Çıplaklık yok.", YAZI, ORAN),
-  bak="herkes taş rıhtımda, su arkada · tam altı kişi · Kemal'de boya/önlük/fırça yok · Serkan'ın elleri cepte · arka sıradaki üçü aynı ifadede · "
+  bak="Peri yürüyor, manto rüzgârda · Cengo martıdan eğiliyor · herkes taş rıhtımda, su arkada · tam altı kişi · Kemal'de boya/önlük/fırça yok · Serkan'ın elleri cepte · arka sıradaki üçü aynı ifadede · "
       "zincir, kilit, beyaz tekne yok · yüzler üst yarıda · yazı yok"))
 
 G.append(dict(no=2, ad="Vaka 2 · Gelinlik — kart görseli", anahtar="kart.V2", sohbet="Yeni sohbet · Vaka 2 kartı",
-  refs=[dosya("KART2-1_atolye.jpg", "mekân: Lâl'in atölyesi"), dosya("KART2-2_peri.jpg", "Peri, zümrüt tayyör"),
-        dosya("KART2-3_cengo.jpg", "Cengo, lacivert takım"), dosya("KART2-4_konuklar.jpg", "soldan sağa: Müjgan, Lâl, Tolga, Defne")],
+  refs=[dosya("KART2-1_balo.jpg", "mekân: otelin balo salonu"), dosya("KART2-2_peri.jpg", "Peri, zümrüt tayyör"),
+        dosya("KART2-3_cengo.jpg", "Cengo, lacivert takım"), dosya("KART2-4_konuklar.jpg", "soldan sağa: Müjgan, Lâl, Tolga, Defne"), dosya("KART-5_peri_yuruyus.jpg", "YALNIZ Peri'nin yürüyüş pozu")],
   metin=j(STIL,
     "Bir oyunun paylaşım kartı için dikey afiş görseli: bir dizi afişi gibi toplu kadro. Kişiler eklediğim referanslardakilerin AYNISI "
     "(yüz, saç, yaş, beden, kıyafet); mekân birinci referanstakinin AYNISI. Kadrajda yalnız sayılan kişiler ve nesneler var.",
-    "Mekân (1. referans): Lâl Hanım'ın Teşvikiye'deki moda atölyesi, gün ışığı. Yüksek tavan, krem duvarlar, alçı süsler, yaldız "
-    "çerçeveli boy aynası, yazısız rulo kumaş rafları, kemerli büyük pencere; pencereden İstanbul: eski taş apartmanlar, ağaçlar, "
-    "uzakta bir minare. Arkada İKİ terzi mankeni, ikisi de BOŞ: üstlerinde hiçbir giysi yok, örtü yok.",
+    "Mekân (1. referans): Boğaz kıyısında büyük bir otelin balo salonu, gündüz. Kristal avizeler, cilalı ahşap dans pisti, "
+    "kemerli büyük pencerelerden Boğaz ve karşı kıyı. Arka planda pembe ve beyaz balonlardan büyük bir kemer. Yanlarda beyaz "
+    "örtülü, BOŞ yuvarlak masalar (masaların üstü boş). Geniş, ferah bir salon: kişilerin arasında rahat boşluk var.",
+    "Zemin (ÖNEMLİ): ALTI KİŞİNİN HEPSİ dans pistinin üstünde duruyor, ayakları parkeye basıyor; arka sıradaki dört kişi balon "
+    "kemerinin önünde, pistin üstünde.",
     "Kadrajda TAM ALTI kişi (altı; beş değil, yedi değil):",
+    HAREKET,
     "ÖN PLANDA ORTADA Peri (2. referans): aynı kızıl saç, ensede sıkı topuz, tek inci küpe; zümrüt yeşili tayyör (derin V yakalı "
-    "kısa ceket, altında bluz yok; dizin üstünde dar kalem etek), ince ten rengi KÜLOTLU çorap, kırmızı stiletto. TAM İKİ KOL, "
-    "İKİ EL: sol eli belinde, sağ eli ceketin yakasında. Kendinden emin, hafif gülümseme; burnu kadrajın soluna bakıyor.",
-    "Peri'nin hemen sağ omzunun arkasında Cengo (3. referans): aynı dağınık siyah saç; lacivert takım (kolları bileklerinden kısa), "
-    "beyaz gömlek, bordo kravat. TAM İKİ KOL, İKİ EL: bir eli cebinde, öbürü kravatının düğümünde. Hınzır yarım gülümseme.",
+    "kısa ceket, altında bluz yok; dizin üstünde dar kalem etek), ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor; "
+    "kırmızı stiletto. Dans pistinde kameraya doğru kararlı adımlarla YÜRÜYOR (5. referanstaki gibi, bir bacağı önde). TAM İKİ "
+    "KOL, İKİ EL: sağ eli inci küpesini düzeltiyor, sol kolu yürürken yanında. Tek kaşı kalkık, yan gözle Cengo'ya bakıyor; "
+    "eğlenen ama umursamaz bir gülümseme.",
+    "Peri'nin yanında Cengo (3. referans): aynı dağınık siyah saç; ödünç lacivert takım (kolları ve paçaları kısa, bilekleri ve "
+    "boncuk bilekliği görünüyor), beyaz gömlek, bordo kravat. Peri'yi dansa davet eden abartılı, kibar bir pozda: gövdesi Peri'ye "
+    "dönük, hafifçe eğilmiş, bir ayağı parkede kayarak öne uzanmış. TAM İKİ KOL, İKİ EL: sağ eli avucu yukarı, Peri'ye doğru "
+    "uzanmış; sol eli sırtında. Kocaman, hınzır bir sırıtış. Peri elini tutmuyor; yürümeye devam ediyor.",
     "ARKADA, Peri ve Cengo'dan bir adım geride, başları onlardan biraz yukarıda kalacak biçimde tek sıra, soldan sağa: "
     "Lâl Hanım, Defne, Müjgan Ersoy, Tolga (4. referanstaki kişiler; referanstaki sıra soldan sağa Müjgan, Lâl, Tolga, Defne).",
     "- Müjgan Ersoy: ellilerinin sonu, dalgalı platin saç, başının üstünde güneş gözlüğü; krem saten, kısa, kolsuz, altın kemerli "
@@ -82,13 +97,14 @@ G.append(dict(no=2, ad="Vaka 2 · Gelinlik — kart görseli", anahtar="kart.V2"
     "Lâl, Defne ve Tolga'nın ifadesi AYNI: ciddi, temkinli, kameraya bakıyor. Hiçbiri gülümsemiyor, hiçbiri rahat ya da mutlu "
     "değil, hiçbiri gözünü kaçırmıyor, hiçbiri suçlu ya da korkmuş görünmüyor. (Defne de gülümsemiyor.)",
     ESIT,
-    "Kadrajda OLMAYACAKLAR: gelinlik, beyaz dantel, duvak; elbise kılıfı ya da siyah giysi torbası; beyaz örtü, çarşaf; "
-    "makas (Lâl'in kolyesindeki küçük gümüş makas dışında); anahtar; açık kapı; taksi; düğün pastası; nedime; balon; telefon; "
-    "tablet; kâğıt, fatura. Kimse koşmuyor.",
-    "Işık: pencereden gelen sıcak gün ışığı herkesin üstünde eşit; en parlak yer Peri.", DUZEN,
+    "Kadrajda OLMAYACAKLAR: düğün pastası ya da pasta arabası (referanstaki pastayı ÇIKAR); gelinlik, beyaz dantel, duvak; "
+    "elbise kılıfı ya da siyah giysi torbası; katlanmış ya da yığılmış örtü, çarşaf (masalardaki serili örtüler dışında); "
+    "makas (Lâl'in kolyesindeki küçük gümüş makas dışında); anahtar; taksi; nedime; başka misafir ya da garson; telefon; "
+    "tablet; kâğıt, fatura. Arka sıradakiler koşmuyor.",
+    "Işık: büyük pencerelerden gelen sıcak gün ışığı herkesin üstünde eşit; en parlak yer Peri.", DUZEN,
     "Kadrajdaki en gösterişli, en çekici kadın Peri'dir: ışık onun üstünde, duruşu en kendinden emin olan o; öbür kadınlar şık "
     "ve çekici ama Peri'yi gölgede bırakmıyor. Çıplaklık yok.", YAZI, ORAN),
-  bak="tam altı kişi · iki manken de boş, örtü/kılıf yok · Defne gülümsemiyor · arka sıradaki üçü aynı ifadede · "
+  bak="Peri yürüyor, Cengo dansa davet ediyor · herkes pistte · pasta yok · tam altı kişi · örtü yığını/kılıf yok · Defne gülümsemiyor · arka sıradaki üçü aynı ifadede · "
       "Müjgan'ın elbisesi gelinliğe benzemiyor · yüzler üst yarıda · yazı yok"))
 
 yol = os.path.dirname(os.path.abspath(__file__))

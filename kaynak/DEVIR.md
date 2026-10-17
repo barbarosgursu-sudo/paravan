@@ -21,7 +21,9 @@
   eli ensesinde değil (cepte), Defne gülümsemiyor, şüphelilerin üçü aynı ifade ve aynı boyda; kılıf/örtü/gelinlik, zincir/
   kilit/beyaz tekne/set yasak. Görseller gelince: E kontrol listesi + `bak` satırı → `yeni_gorsel/kart_v1.webp` vb. →
   `gorseller.json` → `dosyalar` + `kart` (kapak yedek kalır). **V1 gömüldü** (`KART_V1`, ikinci deneme: ilkinde arka sıra
-  suyun üstündeydi). **V2 bekleniyor.**
+  suyun üstündeydi). **V2 bekleniyor.** Sahibinin isteğiyle promptlar hareketlendi: Peri yürüyor (L19 yalnız poz),
+  Cengo V1'de martıdan eğiliyor, V2'de Peri'yi dansa davet ediyor; V2 mekânı balo salonu (A20, pasta çıkarılıyor; A20b'deki
+  örtü yığını yüzünden ikinci açı değil). V1 hareketli promptla yeniden üretilirse `KART_V1` değişir.
 - **Sıradaki (Android):** anı karşılaştırması (bitirmiş arkadaşa kilitli kart), davet kodu (+1 hak).
 
 ## 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
