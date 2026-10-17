@@ -218,8 +218,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [normal]:** Dükkânı siz soydunuz, Ferruh Bey. {gir: ferruh}
 **FERRUH [normal]:** Ben mi? Kırk beş yıllık dükkân, ben mi? Kanıtınız ne? {gir: ferruh}
 **PERİ [utanmis]:** …Şimdilik bir his.
-**NADİDE [kirgin]:** His mi? Ferruh, kasa defterini getir. {gir: nadide, kime: peri}
-**FERRUH [terli]:** *(yüzü değişerek)* Defter… defter içeride. {gir: ferruh}
+**NADİDE [kirgin]:** His mi? Peki Ferruh, sen söyle: pazar gece neredeydin? {gir: nadide, kime: peri}
+**FERRUH [terli]:** *(yüzü değişerek)* Evde… uyuyordum. Bir dakika, fırın yanıyor! {gir: ferruh}
 *Ferruh imalathaneye dönüp koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_kenan
@@ -303,28 +303,28 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **DEFTER:** Sigorta gerçeği öğrendi. Susam'ın merkezi kapandı.
 
 ## karar ferruh_soylesin
-⚙ etiket: Ferruh kendisi söylesin
+⚙ etiket: Talebi Ferruh kendisi geri çeksin
 
-**ÖNİZLEME:** Ferruh talebi kendisi geri çeker, Nadide Hanım'a her şeyi anlatır. Para maaşlara gider; Nadide Hanım 10.000 ₺ keser.
-**SONUÇ:** Ferruh'u Nadide Hanım'ın karşısına oturttun; anlattı. Ertesi sabah eksper'i arayıp talebi geri çekti: "Sayım hatası." Çuvaldaki para iki aylık maaşa gitti. Nadide Hanım merkezi tuttu, Ferruh'un hissesini aldı. Senin ücretinden on bin kesti: "Maaşlara lazım."
+**ÖNİZLEME:** Ferruh eksper'i arayıp talebi kendisi geri çeker; dolandırıcılık dosyası açılmaz. Çuvaldaki para maaşlara gider; Nadide Hanım 10.000 ₺ keser.
+**SONUÇ:** Ferruh'u telefonun başına oturttun. Eksper'i kendisi aradı, talebi geri çekti: "Sayım hatası yapmışım." Dosya kapandı. Çuvaldaki para iki aylık maaşa gitti. Nadide Hanım merkezi tuttu, Ferruh'un hissesini alıp onu kapıya koydu. Senin ücretinden on bin kesti: "Maaşlara lazım."
 **CENGO:** Kenan fırından bir simit uzattı. Cengo simidi ikiye böldü: "Hesaba yazma."
-**DEFTER:** Ferruh kendi ağzıyla söyledi. Merkez açık, maaşlar ödendi.
+**DEFTER:** Ferruh talebi kendi ağzıyla geri çekti. Merkez açık, maaşlar ödendi.
 
 ## karar nadideye_birak
 ⚙ etiket: Kararı Nadide Hanım'a bırak
 
-**ÖNİZLEME:** Kararı Nadide Hanım verir; sigortaya sen bir şey söylemezsin. Nadide Hanım talebi geri çeker, merkezi satar.
-**SONUÇ:** Dosyayı Nadide Hanım'a bıraktın. Talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi Badem'e sattı; dört dükkândan üçü kaldı. Kenan Badem'e geçti.
+**ÖNİZLEME:** Dükkân onun; ne yapılacağına Nadide Hanım karar verir, sen sigortaya bir şey söylemezsin. Nadide Hanım talebi geri çeker, merkezi satar.
+**SONUÇ:** "Dükkân sizin, karar da sizin" dedin ve çekildin. Nadide Hanım talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi Badem'e sattı; dört dükkândan üçü kaldı. Kenan Badem'e geçti.
 **CENGO:** Cengo merkezin yeni tabelasına baktı. "Badem" dedi. "Susam daha iyiydi."
 **DEFTER:** Karar Nadide Hanım'ındı. Merkez Badem oldu.
 
 ## karar ferruh_payi
 ⚙ etiket: Ferruh'tan payını al, sus
 
-**ÖNİZLEME:** Ferruh sana 20.000 ₺ verir; eksper'e "dışarıdan biri, bulunamadı" dersin. Sigorta öder; Gizem'in üstündeki şüphe kalkmaz.
-**SONUÇ:** Ferruh'un parasını aldın ve eksper'e içeriden kimsenin olmadığını söyledin. Sigorta yedi yüz yirmi bin ödedi. Ferruh Nadide Hanım'a "kurtardım" dedi. Gizem'in adı esnafın ağzında kaldı: "Kasayı o kızın açtığını söylüyorlar."
+**ÖNİZLEME:** Ferruh sana 20.000 ₺ verir; eksper'e "dışarıdan biri, bulunamadı" dersin. Nadide Hanım dükkânı kurtulsun diye susar. Sigorta öder; Gizem'in üstündeki şüphe kalkmaz.
+**SONUÇ:** Ferruh'un parasını aldın ve eksper'e içeriden kimsenin olmadığını söyledin. Nadide Hanım bir şey demedi; dükkânı kurtulsun istedi. Sigorta yedi yüz yirmi bin ödedi, Ferruh yerinde kaldı. Gizem'in adı esnafın ağzında kaldı: "Kasayı o kızın açtığını söylüyorlar."
 **CENGO:** Cengo parayı saydı, bir an durdu. "Gizem'in fotoğrafı hâlâ telefonunda mı?" diye sordu.
-**DEFTER:** Ferruh'un sırrı bende. Gizem'in adı temizlenmedi.
+**DEFTER:** Ferruh'un sırrı bende ve Nadide Hanım'da. Gizem'in adı temizlenmedi.
 
 ---
 

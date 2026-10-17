@@ -2183,9 +2183,9 @@
           "kare": "K47",
           "cengoBag": 2,
           "para": -10000,
-          "etiket": "Ferruh kendisi söylesin",
-          "onizleme": "Ferruh talebi kendisi geri çeker, Nadide Hanım'a her şeyi anlatır. Para maaşlara gider; Nadide Hanım 10.000 ₺ keser.",
-          "sonuc": "Ferruh'u Nadide Hanım'ın karşısına oturttun; anlattı. Ertesi sabah eksper'i arayıp talebi geri çekti: \"Sayım hatası.\" Çuvaldaki para iki aylık maaşa gitti. Nadide Hanım merkezi tuttu, Ferruh'un hissesini aldı. Senin ücretinden on bin kesti: \"Maaşlara lazım.\"",
+          "etiket": "Talebi Ferruh kendisi geri çeksin",
+          "onizleme": "Ferruh eksper'i arayıp talebi kendisi geri çeker; dolandırıcılık dosyası açılmaz. Çuvaldaki para maaşlara gider; Nadide Hanım 10.000 ₺ keser.",
+          "sonuc": "Ferruh'u telefonun başına oturttun. Eksper'i kendisi aradı, talebi geri çekti: \"Sayım hatası yapmışım.\" Dosya kapandı. Çuvaldaki para iki aylık maaşa gitti. Nadide Hanım merkezi tuttu, Ferruh'un hissesini alıp onu kapıya koydu. Senin ücretinden on bin kesti: \"Maaşlara lazım.\"",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -2200,8 +2200,8 @@
           "cengoBag": 0,
           "para": 0,
           "etiket": "Kararı Nadide Hanım'a bırak",
-          "onizleme": "Kararı Nadide Hanım verir; sigortaya sen bir şey söylemezsin. Nadide Hanım talebi geri çeker, merkezi satar.",
-          "sonuc": "Dosyayı Nadide Hanım'a bıraktın. Talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi Badem'e sattı; dört dükkândan üçü kaldı. Kenan Badem'e geçti.",
+          "onizleme": "Dükkân onun; ne yapılacağına Nadide Hanım karar verir, sen sigortaya bir şey söylemezsin. Nadide Hanım talebi geri çeker, merkezi satar.",
+          "sonuc": "\"Dükkân sizin, karar da sizin\" dedin ve çekildin. Nadide Hanım talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi Badem'e sattı; dört dükkândan üçü kaldı. Kenan Badem'e geçti.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -2216,8 +2216,8 @@
           "cengoBag": -2,
           "para": 20000,
           "etiket": "Ferruh'tan payını al, sus",
-          "onizleme": "Ferruh sana 20.000 ₺ verir; eksper'e \"dışarıdan biri, bulunamadı\" dersin. Sigorta öder; Gizem'in üstündeki şüphe kalkmaz.",
-          "sonuc": "Ferruh'un parasını aldın ve eksper'e içeriden kimsenin olmadığını söyledin. Sigorta yedi yüz yirmi bin ödedi. Ferruh Nadide Hanım'a \"kurtardım\" dedi. Gizem'in adı esnafın ağzında kaldı: \"Kasayı o kızın açtığını söylüyorlar.\"",
+          "onizleme": "Ferruh sana 20.000 ₺ verir; eksper'e \"dışarıdan biri, bulunamadı\" dersin. Nadide Hanım dükkânı kurtulsun diye susar. Sigorta öder; Gizem'in üstündeki şüphe kalkmaz.",
+          "sonuc": "Ferruh'un parasını aldın ve eksper'e içeriden kimsenin olmadığını söyledin. Nadide Hanım bir şey demedi; dükkânı kurtulsun istedi. Sigorta yedi yüz yirmi bin ödedi, Ferruh yerinde kaldı. Gizem'in adı esnafın ağzında kaldı: \"Kasayı o kızın açtığını söylüyorlar.\"",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -2469,11 +2469,16 @@
             {
               "k": "nadide",
               "i": "kirgin",
-              "m": "His mi? Ferruh, kasa defterini getir.",
+              "m": "His mi? Peki Ferruh, sen söyle: pazar gece neredeydin?",
               "gir": "nadide",
               "kime": "peri"
             },
-            {"k": "ferruh", "i": "terli", "m": "(yüzü değişerek) Defter… defter içeride.", "gir": "ferruh"},
+            {
+              "k": "ferruh",
+              "i": "terli",
+              "m": "(yüzü değişerek) Evde… uyuyordum. Bir dakika, fırın yanıyor!",
+              "gir": "ferruh"
+            },
             {"k": "not", "m": "Ferruh imalathaneye dönüp koşuyor.", "cik": true, "kare": "K40"}
           ]
         },
