@@ -109,7 +109,7 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
 ## İki vaka tipi
 
 - **Bilmece:** Oyuncu da suçluyu bilmez, bulur.
-- **Ters:** Oyuncu suçluyu baştan görür, Peri bilmez. Oyuncu kanıt arar. *(Ertelendi; şimdilik yalnız Bilmece.)*
+- **Ters:** Oyuncu suçluyu baştan görür, Peri bilmez. Oyuncu kanıt arar. *(Ertelendi; şimdilik yalnız Bilmece. Sahibinin kararı, 17 Ekim 2026: Vaka 3 de Bilmece; Ters tip ileride ayrı bir **deneme vakasıyla** sınanacak — yüzleşme "kişi seç" yerine "kanıt seç" olur, motor + doğrulayıcı işi.)*
 
 ## Vakalar arası
 
@@ -131,5 +131,5 @@ Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır:
 ## Sahibine sorular
 
 1. ~~Yanlış suçlamanın bedeli~~ → tek hak, yalnız para, o vakada kalır.
-2. ~~Ters tip~~ → sonra düşünülecek.
+2. ~~Ters tip~~ → sonra, ayrı bir deneme vakasıyla (17 Ekim 2026).
 3. ~~3 şüpheli, 4 karar~~ → onaylandı.

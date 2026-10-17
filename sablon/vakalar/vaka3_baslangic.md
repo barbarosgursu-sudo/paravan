@@ -14,6 +14,10 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 
 ## 1. Bu vakada yeni olan
 
+- **Tip: Bilmece (17 Ekim, sahibinin kararı)** — Vaka 1 ve 2 gibi; oyuncu da suçluyu bilmez. Taslak
+  (`kaynak/YENI_OYUN_SEZON.md` → "VAKA 3 — SİMİT SOYGUNU") Columbo tipi yazıyor; konu oradan alınır, tip
+  Bilmece'ye çevrilir. Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`1_oyun_yapisi.md`).
+
 - **Bulanık replik taraması** (adım 5'in sonu): Onay 2'den önce her replik "kime, neyi,
   nereden biliyor, espri, sıra, niyet" sorularıyla okunur; düzeltmeler sahibine tek listede
   verilir. Ölçü: Vaka 2'de Onay 2 = 1 sa 56 dk, 22 not.
