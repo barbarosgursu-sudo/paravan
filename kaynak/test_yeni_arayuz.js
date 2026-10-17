@@ -72,5 +72,17 @@ for (const f of ["defterNotu", "hesapKutusu", "cengoGosterge", "ust", "tl", "kay
 for (const sinif of ['class="sonuc \\${sinif}"', 'class="kalan \\${sinif}"', '"yeni iş gelmezse batarsın"'])
   k(`eski karar ekranı hâlâ ${sinif} üretiyor (yeni arayüz onu temizliyor)`, build.includes(sinif));
 
+console.log("\n=== Anı defteri ===");
+{
+  // Biten her vakanın Anı kaydında hatırlatma durur; yoksa kayıt yalnız Peri'nin tek satırına düşer.
+  const KJ = JSON.parse(oku("yeni/kisiler.json"));
+  const eksik = G.vakalar.filter(v => v.kim_yapti && !((KJ.ani_ozet || {})[v.id] || "").trim()).map(v => v.id);
+  k("Kim yaptı?'lı her vakanın anı hatırlatması var (kisiler.json → ani_ozet)", !eksik.length, eksik.join(", "));
+  const yetimOzet = Object.keys(KJ.ani_ozet || {}).filter(id => id !== "_not" && !G.vakalar.some(v => v.id === id));
+  k("ani_ozet'te olmayan vaka yok", !yetimOzet.length, yetimOzet.join(", "));
+  k("'defterAni' eski arayüzde tanımlı ve yeni arayüzde sarılıyor",
+    /function defterAni\(/.test(build) && /^defterAni = function/m.test(arayuz));
+}
+
 console.log(hata ? `\n${hata} BAŞARISIZ` : "\nHepsi geçti.");
 process.exit(hata ? 1 : 0);

@@ -99,6 +99,8 @@ class OyunYeni extends Oyun {
     if (r.hata) { this.durum.para -= ucret; return r; }
     r.ekonomi.ucret = ucret;
     r.ekonomi.suclama = sonuc;
+    // Anı defteri vaka bittikten sonra kimi suçladığını hatırlatır; aktif silindiği için tohumda.
+    this.durum.seeds["_suclama_" + a.id] = a.suclama.supheli + ":" + sonuc;
     r.bagOnce = bagOnce;
     r.bagYuksek = this.durum.cengoBag >= BAG_ESIK;
     return r;

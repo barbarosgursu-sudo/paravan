@@ -937,3 +937,36 @@ defterZincir = function(){
   const p = v ? tahtaVaka(v, oyun.tumBilinen()) : "";
   return p || `<div class="bos-panel">Tahta boş. Bir kaynak açtığında buraya işlenecek.</div>`;
 };
+
+/* Anı defteri: Peri'nin notunun üstünde vakanın kısa hatırlatması (kisiler.json → ani_ozet; yalnız
+   kovalamacadaki itirafın söylediği, o sahne her yolda oynar) ve altında oyuncunun kendi izi:
+   kimi suçladı, hangi kararı verdi, kasaya ne girdi. Suçlama motorun tohumundan
+   (`_suclama_<vaka>` = "şüpheli:sonuç"); eski kayıtta yoksa o parça yazılmaz. */
+const ANI_SUCLAMA = { dogru: "kanıt sağlam", zayif: "kanıt zayıf", yanlis: "masumdu" };
+defterAni = function(){
+  const tamamlanan = oyun.durum.tamamlanan;
+  if(!tamamlanan.length)
+    return `<div class="bos-panel">Defter henüz boş. Her vaka bittiğinde Peri o günü buraya yazacak.</div>`;
+  let h = "";
+  for(const vid of tamamlanan){
+    const v = GAME.vakalar.find(x => x.id === vid);
+    if(!v) continue;
+    const kararId = oyun.durum.seeds["_karar_" + vid];
+    const d = (v.decisions || []).find(x => x.id === kararId);
+    const ozet = (KISILER.ani_ozet || {})[vid];
+    const not = defterNotu(vid, kararId);
+    const iz = [];
+    const sc = String(oyun.durum.seeds["_suclama_" + vid] || "").split(":");
+    const ky = v.kim_yapti;
+    const sup = ky && ky.supheliler.find(x => x.id === sc[0]);
+    if(sup && ANI_SUCLAMA[sc[1]]) iz.push(`Suçladığın: ${vnHtml(sup.ad)} · ${ANI_SUCLAMA[sc[1]]}`);
+    if(d) iz.push(`Kararın: «${vnHtml(d.etiket)}»`);
+    if(d && sup && ky.ucret[sc[1]] != null) iz.push(`Kasaya: ${tl(ky.ucret[sc[1]] + (d.para || 0))}`);
+    if(!ozet && !not && !iz.length) continue;
+    h += `<div class="defter-kayit"><div class="v">${vnHtml(v.baslik)}</div>${
+      ozet ? `<div class="ani-ozet">${vnHtml(ozet)}</div>` : ""}${
+      iz.length ? `<div class="ani-iz">${iz.map(x => `<div>${x}</div>`).join("")}</div>` : ""}${
+      not ? `<div class="n">${not}</div>` : ""}</div>`;
+  }
+  return h;
+};

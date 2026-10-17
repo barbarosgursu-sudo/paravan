@@ -203,5 +203,10 @@
       "yuz_yuze": "Ana kız aynı masaya oturdu. Nikâh cuma, cumartesi yemek.",
       "defnenin_parasi": "Defne'nin sırrı bende kaldı. Lâl Hanım'ın iki müşterisi gitti."
     }
+  },
+  "ani_ozet": {
+    "_not": "Anı defterinde Peri notunun üstündeki hatırlatma. Yalnız kovalamacadaki itirafın söylediği (o sahne her yolda oynar); karara göre değişen hiçbir şey yazılmaz.",
+    "V1": "Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.",
+    "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu."
   }
 }
