@@ -10,8 +10,8 @@
 
 ## 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
-**Durum tek cümle:** Web'de paylaşım kuruldu ve iki vakanın da afişli kartı gömülü. Sıradaki iş değişmedi:
-Cengo referans seti, sonra Vaka 3 (aşağıdaki bölüm).
+**Durum tek cümle:** Web'de paylaşım kuruldu ve iki vakanın da afişli kartı gömülü. Cengo referans seti de
+**bitti** (17 Ekim, C1–C25 → `sablon/cengo_poz/` + dizin). Sıradaki iş: **Vaka 3** (aşağıdaki bölüm).
 
 - **Ne var:** biten vakada "Arkadaşına öner" (kapanış sonrası ekran — kaçan ipucu yoksa "Dosya kapandı" — ve
   Defter → Anı). Kart 1080×1920 tarayıcıda çizilir: vakanın afişi + altta KÜÇÜK kutu (vaka no/adı, "Sen olsan
@@ -43,7 +43,7 @@ Cengo referans seti, sonra Vaka 3 (aşağıdaki bölüm).
 ## 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı
 
 **Durum tek cümle:** Vaka 2 **dondu** (adım 14, ≈11 sa 06 dk). Sıradaki iki iş, sırayla:
-**(1) Cengo referans seti C1–C25** (sahibi üretiyor; Vaka 3 süresine girmez), **(2) Vaka 3** (sahibi
+**(1) Cengo referans seti C1–C25** (**BİTTİ 17 Ekim** — `sablon/cengo_poz/`), **(2) Vaka 3** (sahibi
 "Vaka 3'e başla" deyince; o an saat `sablon/vakalar/vaka3_baslangic.md` §2'ye yazılır).
 
 ### Yeni pencerede ilk iş

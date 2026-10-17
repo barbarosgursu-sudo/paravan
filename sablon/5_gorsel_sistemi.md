@@ -88,7 +88,8 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 1. **Kıyafet başına tek temel görsel:** önce nötr görsel üretilir. Diğer ifadeler hep onun **düzenlemesidir** (1. referans = temel görsel). Yüz, ölçek ve kıyafet sabit kalır.
 2. **Referanslar:** her prompta numaralı olarak, aynı mesajda verilir. **En çok 5 referans**
    (ChatGPT sınırı; 16 Ekim 2026, Vaka 2 K33'te görüldü). **Peri poz kütüphanesi:** `sablon/peri_poz/`
-   (L1–L25, dizin `OKUBENI.md`): L1 her temel Peri'de yüz referansı; zor pozda uygun L "YALNIZ poz için".
+   (L1–L25, dizin `OKUBENI.md`): L1 her temel Peri'de yüz referansı; zor pozda uygun L "YALNIZ poz için". **Cengo:** `sablon/cengo_poz/`
+   (C1–C25): C1 yüz, G14-1 beden, uygun C "YALNIZ poz için".
    Daha çok kişi gerekiyorsa o kişileri
    bir arada gösteren önceki bir kare tek referans olarak verilir (K34 → K33 çıktısı).
 3. **Yan karakterlere ana karakter referans verilmez.** Stil için başka bir yan karakter verilir.

@@ -32,7 +32,17 @@ https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc — üreticisi `../lora_sayfa/
 | C15 | bel üstü, ¾ sol | **eller cepte**, saç ıslak | temkinli, gözler kısık | koyu yeşil yağmurluk, yaka kalkık; gece sokak, yağmur, fener |
 | C16 | bel üstü, ¾ sol | **sola işaret ediyor**, öbür el belde | öfkeli, ağız açık | beyaz gömlek, kollar sıvalı, kot; bej |
 | C17 | bel üstü | **eli çenesinde**, bakış aşağıda | düşünceli, hüzünlü | lacivert yuvarlak yaka kazak; koyu gri |
+| C18 | **boydan**, ayakta, ¾ | bir el kot cebinde, ağırlık tek bacakta | hınzır yarım gülüş | **Vaka 1:** bol kahverengi ceket, beyaz gömlek, kot, kahve bot, kravat cepte, bileklik; bej |
+| C19 | boydan, **yürüyor** (kameraya) | kollar yanda | hafif gülümseme | **Vaka 2:** kısa gelen lacivert takım (bilekler açık), bordo kravat, siyah ayakkabı, bileklik; gri |
+| C20 | boydan, **duvara yaslanmış** | bacaklar çapraz, baş yana | rahat, gülüyor | siyah deri ceket, beyaz tişört, siyah kot, siyah bot; taş duvar, gün ışığı |
+| C21 | boydan, ayakta, önden | **eller cepte** | rahat gülümseme | bej keten gömlek ve pantolon, espadril; deniz kıyısı, mavi gök |
+| C22 | boydan, **sandalyeye ters oturmuş** | kollar sandalye arkasında | dalgın | gri kazak, kot, kahve bot; oda, gün ışığı |
+| C23 | boydan, **profil** (sola) | ayakta, kollar yanda | sakin, gururlu | siyah smokin, papyon, rugan ayakkabı; koyu, lacivert-altın ışık |
+| C24 | boydan, **arkadan ¾** | omzunun üstünden bakıyor | alaycı gülümseme | bej trençkot, koyu pantolon, siyah ayakkabı; bej |
+| C25 | boydan, **koltukta oturur, bacak bacak üstünde** | kollar koltuk kollarında | kendinden memnun | beyaz gömlek, koyu gri pantolon, kahve ayakkabı; gri |
 
 ## Notlar
+- Set tamam (17 Ekim 2026, 25/25). Hepsi C1 ile aynı yüz; eller ve boydan oranlar denetlendi.
+- C9 ve C10 baş açısı/gülüşü G14-1'den kopya; C9 neredeyse G14-1'in aynısı. Yeni poz için başka C seç.
 - C1 ikinci denemede onaylandı. İlk deneme yaşlı (göz çizgileri), çilli, saçı kabarık ve kızıla çalıyordu;
   düzeltme: 34 yaş, pürüzsüz cilt, çil yok, saç koyu kahve-siyah ve yatık, ten zeytinî esmer.

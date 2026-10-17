@@ -64,7 +64,8 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   `test_yeni_v2.js` eksik portreyi yakalar.
 - **Peri poz kütüphanesi (16 Ekim):** `sablon/peri_poz/` — L1 yüz, L22/L25 oturur-bacak bacak üstünde,
   L16 işaret eden, L13/L24 arkadan… Adım 8'de her Peri promptuna uygun L eklenir (en çok 5 referans).
-  Cengo seti (C1–C25) üretiliyor; gelince `sablon/cengo_poz/`.
+  **Cengo poz kütüphanesi (17 Ekim, tamam):** `sablon/cengo_poz/` — C1 yüz, G14-1 beden; C25 koltukta
+  bacak bacak üstünde, C16 işaret eden, C24 arkadan, C19 yürüyor… Aynı kural: uygun C "YALNIZ poz için".
 - **ChatGPT reddederse (16 Ekim, sahibinin kararı):** aynı promptu ChatGPT'nin düşünen kipinde
   ver; kendisi yumuşatıp yeniden dener (Vaka 2 K23 böyle çıktı). Olmazsa Grok. `5_gorsel_sistemi.md` D-5.
 - **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta
