@@ -428,7 +428,7 @@ function vnAkisKur(tur, ek){
     return { sahneler: [c.sahne], sonra: () => ipucuKarti(c, { meta: c.meta }, c.reveals || []), baslik: v.baslik + " · " + c.ad };
   }
   if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca], sonra: cozumEkrani, baslik: v.baslik };
-  if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: () => kacanEkrani(), baslik: v.baslik };
+  if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: () => kacanEkrani(v.id), baslik: v.baslik };
   return null;
 }
 function akisBaslat(tur, ek = {}, n = 0, devam = null, sonraOzel = null){
@@ -763,19 +763,23 @@ function reklamGoster(odul){
 const KACAN_ANAHTAR = KAYIT_ANAHTAR + "_kacan";
 function kacanYaz(k){ try{ k ? localStorage.setItem(KACAN_ANAHTAR, JSON.stringify(k)) : localStorage.removeItem(KACAN_ANAHTAR); }catch(e){} }
 function kacanOku(){ try{ return JSON.parse(localStorage.getItem(KACAN_ANAHTAR)); }catch(e){ return null; } }
-function kacanEkrani(){
+/* Kapanıştan sonra her zaman bu ekran gelir (vid): kaçan ipucu yoksa yalnız "Dosya kapandı" + Paylaş. */
+function kacanEkrani(vid){
   const k = kacanOku();
-  const v = k && GAME.vakalar.find(x => x.id === k.vaka);
+  const v = GAME.vakalar.find(x => x.id === (k ? k.vaka : vid));
   if(!v){ kacanYaz(null); masaGoster(); return; }
   let h = ust() + '<div class="faz">';
-  h += `<div class="baslik"><div class="no">${v.baslik}</div><h1 style="font-size:24px">Kaçırdığın ipuçları</h1></div>`;
-  h += `<div class="bilgi">Bu vakada açmadığın yerler. Dosya kapandı; izlemek sonucu değiştirmez.</div>`;
-  for(const id of k.ipuclari){
+  if(k){
+    h += `<div class="baslik"><div class="no">${v.baslik}</div><h1 style="font-size:24px">Kaçırdığın ipuçları</h1></div>`;
+    h += `<div class="bilgi">Bu vakada açmadığın yerler. Dosya kapandı; izlemek sonucu değiştirmez.</div>`;
+  } else h += `<div class="baslik"><div class="no">${v.baslik}</div><h1 style="font-size:24px">Dosya kapandı</h1></div>`;
+  for(const id of (k ? k.ipuclari : [])){
     const c = v.clues.find(x => x.id === id); if(!c) continue;
     const ad = typeof c.ad === "string" ? c.ad : (c.ad && (c.ad.varsayilan || c.ad[0] && c.ad[0].metin)) || id;
     const izlendi = (k.izlenen || []).includes(id);
     h += `<button class="buton ikincil kacan-ipucu" onclick="kacanIzle('${id}')">${izlendi ? "↻ " : "▶ "}${ad}${izlendi ? "" : " · reklam"}</button>`;
   }
+  if(paylasilabilir(v.id)) h += `<button class="buton ikincil paylas-dugme" onclick="paylasAc('${v.id}')">Arkadaşına öner</button>`;
   h += `<button class="buton" id="kacanDon" onclick="kacanYaz(null);masaGoster()">Masaya dön</button></div>`;
   app.innerHTML = h; scrollUst();
 }
@@ -966,7 +970,154 @@ defterAni = function(){
     h += `<div class="defter-kayit"><div class="v">${vnHtml(v.baslik)}</div>${
       ozet ? `<div class="ani-ozet">${vnHtml(ozet)}</div>` : ""}${
       iz.length ? `<div class="ani-iz">${iz.map(x => `<div>${x}</div>`).join("")}</div>` : ""}${
-      not ? `<div class="n">${not}</div>` : ""}</div>`;
+      not ? `<div class="n">${not}</div>` : ""}${
+      paylasilabilir(vid) ? `<button class="buton ikincil paylas-dugme ani-paylas" onclick="paylasAc('${vid}')">Arkadaşına öner</button>` : ""}</div>`;
   }
   return h;
 };
+
+
+/* ---------- Paylaş: davet kartı (17 Ekim 2026, sahibinin onayı) ----------
+   Yalnız BİTEN vaka paylaşılır; kart arkadaşı vakaya davet eder. Karta giren: oyunun adı, vaka no
+   ve adı, kapak (gorseller.json → kapak), vaka girişinin ilk cümlesi (oyuncunun ilk sahnede duyduğu),
+   bir soru ve bağlantı. Suçlu, suçlama sonucu, karar, kasa, Peri'nin notu karta GİRMEZ — arkadaş
+   vakayı oynamadı (Nurcan). Puan, sayaç, "3/3" yok — oyun not vermez. Anı karşılaştırması
+   (bitirmiş arkadaşa kilitli kart) ve davet kodu Android aşamasında. */
+const PAYLAS_URL = "https://barbarosgursu-sudo.github.io/paravan/yeni/";
+const PAYLAS_SORU = "Sen olsan ne yapardın?";
+function paylasilabilir(vid){
+  return oyun.durum.tamamlanan.includes(vid) && !!((YENI_GORSEL.kapak || {})[vid]);
+}
+/* Girişin ilk cümlesi; çok kısaysa (V1: "Kapıda … Rıza Reis.") bir sonrakiyle. */
+function paylasCumle(v){
+  const g = (v.giris || []).find(x => x.kosul === "varsayilan") || (v.giris || [])[0];
+  const cumleler = String(g ? g.metin : "").match(/[^.!?]+[.!?]+/g) || [];
+  let t = "";
+  for(const c of cumleler){ t += (t ? " " : "") + c.trim(); if(t.length >= 60) break; }
+  return t;
+}
+function paylasMetin(v){
+  return `Paravan Dedektiflik · Vaka ${v.sira}: ${v.baslik}\n${paylasCumle(v)}\nBen bu dosyayı kapattım. ${PAYLAS_SORU}\n${PAYLAS_URL}`;
+}
+function paylasSar(c, metin, genislik){
+  const satir = []; let s = "";
+  for(const k of metin.split(/\s+/)){
+    const dene = s ? s + " " + k : k;
+    if(s && c.measureText(dene).width > genislik){ satir.push(s); s = k; } else s = dene;
+  }
+  if(s) satir.push(s);
+  return satir;
+}
+function paylasYuvarlak(c, x, y, w, h, r){
+  c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r);
+  c.arcTo(x, y + h, x, y, r); c.arcTo(x, y, x + w, y, r); c.closePath();
+}
+/* 1080×1920 (hikâye boyu): üstte kapak, altta kâğıt kart — oyunun kendi renkleri ve yazıları. */
+async function paylasKartCiz(v){
+  const GECE = "#1d2a33", KAGIT = "#fff7e8", TRAMVAY = "#c8372d", W = 1080, H = 1920;
+  const yaziYukle = Promise.all(["120px Shrikhand", "800 44px Nunito", "500 40px Nunito"].map(f => document.fonts.load(f)));
+  try{ await Promise.race([yaziYukle, new Promise(r => setTimeout(r, 2500))]); }catch(e){}
+  const img = new Image(); img.src = GORSELLER[YENI_GORSEL.kapak[v.id]];
+  try{ await img.decode(); }catch(e){}
+  const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const c = cv.getContext("2d");
+  c.fillStyle = GECE; c.fillRect(0, 0, W, H);
+  if(img.naturalWidth){
+    const o = Math.max(W / img.naturalWidth, H / img.naturalHeight), iw = img.naturalWidth * o, ih = img.naturalHeight * o;
+    c.drawImage(img, (W - iw) / 2, (H - ih) / 2, iw, ih);
+  }
+  let g = c.createLinearGradient(0, 0, 0, 300);
+  g.addColorStop(0, "rgba(29,42,51,.75)"); g.addColorStop(1, "rgba(29,42,51,0)");
+  c.fillStyle = g; c.fillRect(0, 0, W, 300);
+  g = c.createLinearGradient(0, H * .45, 0, H);
+  g.addColorStop(0, "rgba(29,42,51,0)"); g.addColorStop(1, "rgba(29,42,51,.92)");
+  c.fillStyle = g; c.fillRect(0, H * .45, W, H * .55);
+  c.textBaseline = "alphabetic"; c.textAlign = "center";
+  c.fillStyle = KAGIT; c.font = "800 34px Nunito, sans-serif";
+  if("letterSpacing" in c) c.letterSpacing = "8px";
+  c.fillText("PARAVAN DEDEKTİFLİK", W / 2, 110);
+  if("letterSpacing" in c) c.letterSpacing = "0px";
+  // Kart: içerik aşağıdan yukarı ölçülür, sonra çizilir.
+  const KX = 64, KW = W - 128, IC = KW - 112;
+  c.font = "120px Shrikhand, serif";
+  const baslik = paylasSar(c, v.baslik, IC);
+  c.font = "500 40px Nunito, sans-serif";
+  const cumle = paylasSar(c, paylasCumle(v), IC).slice(0, 6);
+  const kh = 64 + 44 + 30 + baslik.length * 128 + 20 + cumle.length * 56 + 44 + 4 + 44 + 60 + 70 + 56;
+  const KY = H - 150 - kh;
+  c.fillStyle = "rgba(0,0,0,.35)"; paylasYuvarlak(c, KX + 4, KY + 16, KW, kh, 36); c.fill();
+  c.fillStyle = KAGIT; paylasYuvarlak(c, KX, KY, KW, kh, 36); c.fill();
+  c.lineWidth = 8; c.strokeStyle = GECE; c.stroke();
+  let y = KY + 64 + 34;
+  c.textAlign = "left"; const x = KX + 56;
+  c.fillStyle = TRAMVAY; c.font = "800 34px Nunito, sans-serif";
+  if("letterSpacing" in c) c.letterSpacing = "6px";
+  c.fillText(("VAKA " + v.sira).toLocaleUpperCase("tr"), x, y);
+  if("letterSpacing" in c) c.letterSpacing = "0px";
+  y += 30;
+  c.fillStyle = GECE; c.font = "120px Shrikhand, serif";
+  for(const s of baslik){ y += 128; c.fillText(s, x, y - 18); }
+  y += 20;
+  c.font = "500 40px Nunito, sans-serif";
+  for(const s of cumle){ y += 56; c.fillText(s, x, y); }
+  y += 44;
+  c.fillStyle = "rgba(29,42,51,.2)"; c.fillRect(x, y, IC, 4); y += 4;
+  y += 44 + 16;
+  c.fillStyle = GECE; c.font = "800 44px Nunito, sans-serif"; c.fillText("Ben bu dosyayı kapattım.", x, y);
+  y += 70;
+  c.fillStyle = TRAMVAY; c.font = "800 52px Nunito, sans-serif"; c.fillText(PAYLAS_SORU, x, y);
+  c.textAlign = "center"; c.fillStyle = KAGIT; c.font = "700 34px Nunito, sans-serif";
+  c.fillText(PAYLAS_URL.replace(/^https:\/\//, "").replace(/\/$/, ""), W / 2, H - 70);
+  return cv;
+}
+async function paylasAc(vid){
+  const v = GAME.vakalar.find(x => x.id === vid);
+  if(!v || !paylasilabilir(vid)) return;
+  const d = document.createElement("div");
+  d.className = "reklam-perde paylas-perde"; d.id = "paylasPerde";
+  d.innerHTML = `<div class="reklam-kutu paylas-kutu"><div class="reklam-etiket">Arkadaşına öner</div>
+    <div class="paylas-onizleme" id="paylasOnizleme">Kart hazırlanıyor…</div>
+    <div class="paylas-bilgi">Kartta yalnız vakanın adı ve girişi var. Kimi suçladığın, kararın ve sonu yok.</div>
+    <button class="buton" id="paylasGonder" disabled>Paylaş</button>
+    <a class="buton ikincil" id="paylasIndir" download="paravan_vaka${v.sira}.jpg" hidden>Görseli indir</a>
+    <button class="buton ikincil" id="paylasKopyala">Bağlantıyı kopyala</button>
+    <button class="buton ikincil" id="paylasKapat">Kapat</button></div>`;
+  document.body.append(d);
+  let url = null;
+  const kapat = () => { if(url) URL.revokeObjectURL(url); d.remove(); };
+  d.querySelector("#paylasKapat").addEventListener("click", kapat);
+  const metin = paylasMetin(v);
+  const kopyala = async btn => {
+    let ok = false;
+    try{ await navigator.clipboard.writeText(metin); ok = true; }catch(e){
+      const t = document.createElement("textarea"); t.value = metin; document.body.append(t); t.select();
+      try{ ok = document.execCommand("copy"); }catch(e2){} t.remove();
+    }
+    btn.textContent = ok ? "Kopyalandı ✓" : "Kopyalanamadı";
+  };
+  d.querySelector("#paylasKopyala").addEventListener("click", e => kopyala(e.currentTarget));
+  // Kart ÖNCE hazırlanır: navigator.share yalnız dokunuşun hemen ardından çalışır (Safari), beklerse reddeder.
+  const cv = await paylasKartCiz(v);
+  const blob = await new Promise(r => cv.toBlob(r, "image/jpeg", 0.9));
+  if(!document.body.contains(d)) return;
+  const on = d.querySelector("#paylasOnizleme");
+  if(!blob){ on.textContent = "Kart çizilemedi."; }
+  else{
+    url = URL.createObjectURL(blob);
+    on.innerHTML = `<img src="${url}" alt="Paylaşım kartı: Vaka ${v.sira}, ${vnHtml(v.baslik)}">`;
+    const indir = d.querySelector("#paylasIndir"); indir.href = url; indir.hidden = false;
+  }
+  const dosya = blob && new File([blob], `paravan_vaka${v.sira}.jpg`, { type: "image/jpeg" });
+  const gonder = d.querySelector("#paylasGonder");
+  const dosyali = dosya && navigator.canShare && navigator.canShare({ files: [dosya] });
+  if(!navigator.share){ gonder.remove(); return; }    // masaüstü: indir + kopyala yeter
+  gonder.disabled = false;
+  gonder.addEventListener("click", async () => {
+    try{
+      await navigator.share(dosyali ? { files: [dosya], text: metin } : { title: "Paravan Dedektiflik", text: metin });
+    }catch(e){
+      if(e && e.name === "AbortError") return;       // oyuncu vazgeçti
+      kopyala(d.querySelector("#paylasKopyala"));
+    }
+  });
+}

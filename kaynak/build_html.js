@@ -1422,8 +1422,20 @@ if (YENI) {
     if (cikti.split(eski).length !== 2) { console.error("DERLEME DURDU — yeni kip eki yerleşemedi:", ad); process.exit(1); }
     cikti = cikti.replace(eski, () => yeni);
   };
+  // Bağlantı önizlemesi (WhatsApp, X, Telegram): mutlak adres şart. Görsel yeni_gorsel/paylas_onizleme.jpg
+  // (1200×630, A9 iskele; suçlu/itiraf/karar göstermez) → ../yeni/paylas.jpg olarak kopyalanır.
+  const SITE = "https://barbarosgursu-sudo.github.io/paravan/yeni/";
+  const ONIZLEME_ACIKLAMA = "İstanbul'da bir dedektiflik oyunu. İpucunu topla, suçluyu bul, kararı sen ver.";
+  const ONIZLEME_META = [
+    ["property", "og:type", "website"], ["property", "og:site_name", "Paravan Dedektiflik"],
+    ["property", "og:title", "Paravan Dedektiflik"], ["property", "og:description", ONIZLEME_ACIKLAMA],
+    ["property", "og:url", SITE], ["property", "og:image", SITE + "paylas.jpg"],
+    ["property", "og:image:width", "1200"], ["property", "og:image:height", "630"],
+    ["property", "og:locale", "tr_TR"], ["name", "twitter:card", "summary_large_image"],
+    ["name", "description", ONIZLEME_ACIKLAMA],
+  ].map(([n, k, v]) => `<meta ${n}="${k}" content="${v.replace(/"/g, "&quot;")}">\n`).join("");
   degistir("<title>Paravan Dedektiflik — Pilot Sezon</title>",
-    '<title>Paravan Dedektiflik — Yeni Oyun</title>\n<link rel="preconnect" href="https://fonts.googleapis.com">' +
+    '<title>Paravan Dedektiflik — Yeni Oyun</title>\n' + ONIZLEME_META + '<link rel="preconnect" href="https://fonts.googleapis.com">' +
     '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
     '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Nunito:wght@500;700;800&display=swap">', "başlık");
   degistir("</style>", css + "\n</style>", "stil");
@@ -1471,7 +1483,10 @@ if (YENI) {
 }
 
 const HEDEF = YENI ? "../yeni/index.html" : "../index.html";
-if (YENI) fs.mkdirSync("../yeni", { recursive: true });
+if (YENI) {
+  fs.mkdirSync("../yeni", { recursive: true });
+  fs.copyFileSync("yeni_gorsel/paylas_onizleme.jpg", "../yeni/paylas.jpg");
+}
 fs.writeFileSync(HEDEF, cikti);
 console.log(HEDEF.slice(3) + " yenilendi:", (cikti.length/1024).toFixed(0), "KB");
 // Geliştirici modunun yanlışlıkla yayına gitmesi sessizce olabilecek bir hata.

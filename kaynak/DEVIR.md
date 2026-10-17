@@ -8,6 +8,15 @@
 
 ---
 
+## 00000000. 17 Ekim 2026 — Paylaş (web, ilk adım)
+
+- **Davet kartı:** biten vakada "Arkadaşına öner" (kapanış sonrası ekran + Defter → Anı). Kart suçlu/karar/
+  kasa taşımaz; ayrıntı `CLAUDE.md` → "Paylaş". Kapanıştan sonra kaçan ipucu yoksa artık "Dosya kapandı"
+  ekranı gelir (eskiden doğrudan masa).
+- **Sahibine sorulacak:** kapaklar (V1 = A9 iskele, V2 = A15 atölye) ve önizleme açıklaması
+  ("İstanbul'da bir dedektiflik oyunu. İpucunu topla, suçluyu bul, kararı sen ver.") Claude'un seçimi.
+- **Sıradaki (Android):** anı karşılaştırması (bitirmiş arkadaşa kilitli kart), davet kodu (+1 hak).
+
 ## 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
 
 - **Zincir vaka başına:** Vaka 2'de Vaka 1'in olguları görünüyordu; artık yalnız içinde bulunulan vaka.

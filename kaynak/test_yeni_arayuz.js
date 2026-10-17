@@ -84,5 +84,26 @@ console.log("\n=== Anı defteri ===");
     /function defterAni\(/.test(build) && /^defterAni = function/m.test(arayuz));
 }
 
+console.log("\n=== Paylaş (davet kartı) ===");
+{
+  // Kartın kapağı olmayan vaka "Arkadaşına öner" düğmesini sessizce kaybeder. Kapak bir ARKA PLAN
+  // olmalı ve vakanın ipucu sahnelerinde geçmeli: oyuncunun araştırırken gezdiği bir yer. Yüzleşme,
+  // kovalamaca, kapanış ve K kareleri (yakalama, itiraf) kart için yasak — arkadaş oynamadı (Nurcan).
+  for (const v of G.vakalar.filter(v => v.tur === "omurga")) {
+    const kod = (M.kapak || {})[v.id];
+    const ipucuArka = new Set((v.clues || []).map(c => c.sahne && c.sahne.arka).filter(Boolean));
+    k(`${v.id}: kapak var, gömülü ve ipucu sahnelerinde geçen bir arka plan (gorseller.json → kapak)`,
+      !!kod && !!M.dosyalar[kod] && ipucuArka.has(kod), kod ? `${kod} — ipucu arkaları: ${[...ipucuArka].join(" ")}` : "kapak yok");
+    k(`${v.id}: girişin varsayılan metni var (kartın cümlesi)`,
+      !!(v.giris || []).some(g => g.kosul === "varsayilan" && g.metin));
+  }
+  k("paylaşım yalnız biten vakada (paylasilabilir → tamamlanan)",
+    /function paylasilabilir\(vid\)\{\s*return oyun\.durum\.tamamlanan\.includes\(vid\)/.test(arayuz));
+  // Kart çizimi suçlu, karar, suçlama, kasa ya da Peri'nin notunu okumamalı.
+  const ciz = (arayuz.match(/async function paylasKartCiz[\s\S]*?\n\}\n/) || [""])[0] + (arayuz.match(/function paylasMetin[\s\S]*?\n\}\n/) || [""])[0];
+  const yasak = ["kim_yapti", "_karar_", "_suclama_", "decisions", "defterNotu", "ani_ozet", "seeds", "para"].filter(x => ciz.includes(x));
+  k("kart ve paylaşım metni suçlu/karar/kasa/not okumuyor", ciz.length > 200 && !yasak.length, yasak.join(", "));
+}
+
 console.log(hata ? `\n${hata} BAŞARISIZ` : "\nHepsi geçti.");
 process.exit(hata ? 1 : 0);

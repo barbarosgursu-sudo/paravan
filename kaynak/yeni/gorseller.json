@@ -183,6 +183,8 @@
   "tam": ["K9"],
   "sola": {"tolga.sinirli": 18},
   "_not_sola": "Sağdaki figürün eli ekranın sağ kenarından taşıyorsa figür genişliğinin yüzdesi kadar sola kayar (yeni_arayuz.js vnFigurCiz).",
+  "kapak": {"V1": "A9", "V2": "A15"},
+  "_not_kapak": "Paylaş kartının (davet) arka planı, vaka başına. Suçluyu, itirafı ya da kararı gösteren kare seçilmez (Nurcan); vakanın ilk sahnelerinde görülen bir yer olsun. Her omurga vakada zorunlu (test_yeni_arayuz.js).",
   "boy": {
     "riza": 0.86,
     "hilmi": 0.84,
