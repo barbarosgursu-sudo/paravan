@@ -306,7 +306,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 - [x] Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor
 - [x] Yeni kanon onaylandı (4 madde, 17 Ekim; 1. madde sahibince düzeltildi)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı (🟢)
+- [x] Yeni yan karakterlerin görünüşü onaylandı (Peri, Gizem ve öbür altı kişi, 17 Ekim)
 - [x] Kural kitabıyla çelişen bir şey yok
 
 ## Sahibine sorular *(Onay 1)*
