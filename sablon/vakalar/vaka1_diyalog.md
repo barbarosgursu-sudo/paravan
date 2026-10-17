@@ -254,6 +254,17 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 **ANI:** Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.
 
+
+## hikaye
+⚙ "Dosyanın tamamı" ekranı: kaçan ipuçlarından en az birini reklamla izleyen oyuncuya vaka kapanınca bir kez gösterilir (17 Ekim 2026, sahibinin kararı). Gerçekte ne oldu, olay sırasıyla; masumlar o gece neredeydi.
+
+**HİKÂYE:** Rıza Reis'in oğlu Serkan'ın balık-ekmek dükkânı batıyordu; cuma günü ödemesi gereken yüz bine yakın borcu vardı. Alacaklılarından biri Kemal Reis'ti.
+**HİKÂYE:** Serkan babasına söylemeden Nazlı'yı üç günlüğüne bir dizi setine kiraladı: günü otuz beş bin, nakit.
+**HİKÂYE:** Salı gece yarısı, babasının yıllar önce verip unuttuğu yedek anahtarla zinciri açtı, tekneyi çalıştırdı, zinciri yeniden kilitledi. Çaycı motoru duydu ama el sallayanın yüzünü seçemedi.
+**HİKÂYE:** Kemal Reis o saatte iskeledeydi: öğleden sonra boyadığı kendi teknesine branda örtmeye gitmişti, ellerindeki beyaz boya o yüzdendi. Serkan'ı gördü ama Rıza'yla kavgalı olduğu için sustu.
+**HİKÂYE:** Bebek'te set ekibi tekneyi beyaza boyadı; dizide "lüks yat" oldu. Setin sorumlusu Tuba tekneyi Karaköy'den bir balıkçıdan kiraladığını sanıyordu; kiralayanın sahibi olmadığını bilmiyordu.
+**HİKÂYE:** Serkan cuma borcunu ödeyecek, cumartesi sabahı tekneyi sessizce geri getirecekti.
+
 ## karar sete_gotur
 ⚙ etiket: Rıza Reis'i sete götür
 

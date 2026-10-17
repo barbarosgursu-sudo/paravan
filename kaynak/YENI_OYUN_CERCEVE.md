@@ -92,6 +92,12 @@ reklamGoster` 5 saniyelik bir taklit perde açar ("Ödülü al" / "Kapat (ödül
 sahnelerini reklam izleyerek görür. Sonucu, parayı, bağı değiştirmez; olgu da vermez (vaka kapandı,
 olgu taşınmaz — Nurcan: sonraki vakada hak edilmemiş bilgi olmasın). Yalnız sahne.
 
+**Dosyanın tamamı (17 Ekim 2026, sahibinin kararı).** Kaçırılan ipuçlarından **en az birini reklamla izleyen**
+oyuncu "Masaya dön"e basınca önce "Dosyanın tamamı" ekranını görür: vakanın gerçekte nasıl olduğu, olay
+sırasıyla (suçlu ne yaptı, neden; masumlar o gece neredeydi). Hiç reklam izlemeyene çıkmaz; sonradan
+Defter'den de açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`**HİKÂYE:**` paragrafları) →
+`kim_yapti.hikaye`; yoksa `arac_diyalog.js` yazmaz. Ekran `yeni_arayuz.js → kacanBitir, hikayeEkrani`.
+
 **Android aşamasına eklenenler (16 Ekim 2026, sahibinin kararı; başka bir oyunun ekranlarından).**
 - **Paylaş (web'de kuruldu, 17 Ekim 2026):** biten vaka afişli bir kartla paylaşılır; kart suçlu/karar/kasa
   taşımaz. Android'de kalan: anı karşılaştırması (bitirmiş arkadaşa kilitli) ve davet kodu. `CLAUDE.md` → "Paylaş".

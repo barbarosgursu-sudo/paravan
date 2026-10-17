@@ -298,6 +298,17 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 **ANI:** Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı.
 
+
+## hikaye
+⚙ "Dosyanın tamamı" ekranı: kaçan ipuçlarından en az birini reklamla izleyen oyuncuya vaka kapanınca bir kez gösterilir (17 Ekim 2026, sahibinin kararı). Gerçekte ne oldu, olay sırasıyla; masumlar o gece neredeydi.
+
+**HİKÂYE:** Susam Pastanesi batıyordu: maaşlar iki aydır gecikiyor, un toptancısına borç birikiyordu. Dükkânı yöneten Ferruh bunu Nadide Hanım'dan sakladı; merkezi gizlice Badem'e satmaya çalıştı, olmadı.
+**HİKÂYE:** Cumartesi sabahı kasadaki cuma hasılatını, iki yüz kırk bini alıp un borcunu elden ödedi; kasa defterine yazmadı.
+**HİKÂYE:** Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz buçukta çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.
+**HİKÂYE:** Ferruh gece on bire on altı kala döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.
+**HİKÂYE:** On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.
+**HİKÂYE:** Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı.
+
 ## karar eksper_anlat
 ⚙ etiket: Eksper'e her şeyi anlat
 

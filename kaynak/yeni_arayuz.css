@@ -298,3 +298,7 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
 .paylas-kutu a.buton[hidden]{display:none}
 .defter-kayit .ani-paylas{width:100%;margin:12px 0 0;padding:10px;min-height:44px;font-size:14px}
 .paylas-kutu .buton{width:auto}
+
+/* "Dosyanın tamamı" (kaçan ipucunu reklamla izleyene, 17 Ekim 2026): paragraflar ayrık */
+.hikaye-kutu p{margin:0 0 12px}
+.hikaye-kutu p:last-child{margin-bottom:0}

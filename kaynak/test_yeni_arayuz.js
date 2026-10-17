@@ -78,6 +78,12 @@ console.log("\n=== Anı defteri ===");
   const KJ = JSON.parse(oku("yeni/kisiler.json"));
   const eksik = G.vakalar.filter(v => v.kim_yapti && !((KJ.ani_ozet || {})[v.id] || "").trim()).map(v => v.id);
   k("Kim yaptı?'lı her vakanın anı hatırlatması var (kisiler.json → ani_ozet)", !eksik.length, eksik.join(", "));
+  // "Dosyanın tamamı" (kaçan ipucunu reklamla izleyene): her Kim yaptı?'lı vakada metin, arayüzde ekran.
+  const hikayesiz = G.vakalar.filter(v => v.kim_yapti && !((v.kim_yapti.hikaye || []).length)).map(v => v.id);
+  k("Kim yaptı?'lı her vakanın 'Dosyanın tamamı' metni var (diyalog ## hikaye → kim_yapti.hikaye)", !hikayesiz.length, hikayesiz.join(", "));
+  const ARY = fs.readFileSync(path.join(__dirname, "yeni_arayuz.js"), "utf-8");
+  k("'Dosyanın tamamı' yalnız reklamla en az bir ipucu izlenince açılır (kacanBitir → izlenen)",
+    /function kacanBitir\(\)\{[\s\S]*?izlenen[\s\S]*?hikayeEkrani/.test(ARY) && /id="kacanDon" onclick="kacanBitir\(\)"/.test(ARY));
   const yetimOzet = Object.keys(KJ.ani_ozet || {}).filter(id => id !== "_not" && !G.vakalar.some(v => v.id === id));
   k("ani_ozet'te olmayan vaka yok", !yetimOzet.length, yetimOzet.join(", "));
   k("'defterAni' eski arayüzde tanımlı ve yeni arayüzde sarılıyor",

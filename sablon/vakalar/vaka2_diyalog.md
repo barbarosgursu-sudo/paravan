@@ -294,6 +294,17 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 
 **ANI:** Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.
 
+
+## hikaye
+⚙ "Dosyanın tamamı" ekranı: kaçan ipuçlarından en az birini reklamla izleyen oyuncuya vaka kapanınca bir kez gösterilir (17 Ekim 2026, sahibinin kararı). Gerçekte ne oldu, olay sırasıyla; masumlar o gece neredeydi.
+
+**HİKÂYE:** Defne, annesi Müjgan Hanım'ın kurduğu beş yüz kişilik düğünü istemiyordu; Kerem'le cuma sabahı iki şahitle evlenmek istiyordu. Annesine söylemeyi denedi, dinletemedi.
+**HİKÂYE:** Salı son provadan sonra "biraz yalnız kalayım" dedi. Lâl Hanım yukarıda, ofisindeydi; usta Gülsüm sekizde çıkarken gelinlik mankende, açıktaydı.
+**HİKÂYE:** Sekizi on geçe organizatör Tolga çiçek rengine bakmaya uğradı, gelinliği ve gelini gördü, çeyrek geçe eli boş çıktı. Cumartesiyi boş istemesi başka bir çiftin düğünü içindi.
+**HİKÂYE:** Defne gelinliği siyah bir kılıfa koydu, boş mankene örtü örttü ki gelinlik yerindeymiş gibi görünsün. Sekiz buçukta arka kapıdan çıktı; vale Bülent onu gördü ama yüzünü seçemedi. Taksiye "Kurtuluş'a, terziye" dedi.
+**HİKÂYE:** Dokuzda Lâl Hanım aşağı indi, örtülü mankene bakmadan kapıları kilitledi. Borcu gerçekti, hırsızlığı değil.
+**HİKÂYE:** Gelinlik Sarkis Usta'daydı; kuyruğu kesilip kısaltılacak, cuma sabah sekizde alınacaktı. Defne gelinliği seviyordu; istemediği, gösteriydi.
+
 ## karar anneye_anlat
 ⚙ etiket: Müjgan Hanım'a hemen anlat
 

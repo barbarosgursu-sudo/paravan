@@ -803,7 +803,15 @@
             "kemal": "Kemal masumdu: o gece teknesine branda örtüyordu. Beyaz boyayı öğleden sonra sürmüştü; Nazlı'yı set ekibi boyamıştı.",
             "tuba": "Tuba masumdu: tekneyi \"sahibiyim\" diyen birinden kiralamıştı. Hırsız değil, kandırılmıştı."
           }
-        }
+        },
+        "hikaye": [
+          "Rıza Reis'in oğlu Serkan'ın balık-ekmek dükkânı batıyordu; cuma günü ödemesi gereken yüz bine yakın borcu vardı. Alacaklılarından biri Kemal Reis'ti.",
+          "Serkan babasına söylemeden Nazlı'yı üç günlüğüne bir dizi setine kiraladı: günü otuz beş bin, nakit.",
+          "Salı gece yarısı, babasının yıllar önce verip unuttuğu yedek anahtarla zinciri açtı, tekneyi çalıştırdı, zinciri yeniden kilitledi. Çaycı motoru duydu ama el sallayanın yüzünü seçemedi.",
+          "Kemal Reis o saatte iskeledeydi: öğleden sonra boyadığı kendi teknesine branda örtmeye gitmişti, ellerindeki beyaz boya o yüzdendi. Serkan'ı gördü ama Rıza'yla kavgalı olduğu için sustu.",
+          "Bebek'te set ekibi tekneyi beyaza boyadı; dizide \"lüks yat\" oldu. Setin sorumlusu Tuba tekneyi Karaköy'den bir balıkçıdan kiraladığını sanıyordu; kiralayanın sahibi olmadığını bilmiyordu.",
+          "Serkan cuma borcunu ödeyecek, cumartesi sabahı tekneyi sessizce geri getirecekti."
+        ]
       },
       "anahtarlar": {
         "bebek_yonu": ["Bebek", "kuzey"],
@@ -1316,7 +1324,15 @@
             "lal": "Lâl masumdu: dokuzda örtüye bakmadan kilitledi; gelinlik o sırada çoktan çıkmıştı. Borcu gerçekti, hırsızlığı değil.",
             "tolga": "Tolga masumdu: atölyeden eli boş çıktı. Cumartesiyi boş istiyordu, ama gelinliğe dokunmadı."
           }
-        }
+        },
+        "hikaye": [
+          "Defne, annesi Müjgan Hanım'ın kurduğu beş yüz kişilik düğünü istemiyordu; Kerem'le cuma sabahı iki şahitle evlenmek istiyordu. Annesine söylemeyi denedi, dinletemedi.",
+          "Salı son provadan sonra \"biraz yalnız kalayım\" dedi. Lâl Hanım yukarıda, ofisindeydi; usta Gülsüm sekizde çıkarken gelinlik mankende, açıktaydı.",
+          "Sekizi on geçe organizatör Tolga çiçek rengine bakmaya uğradı, gelinliği ve gelini gördü, çeyrek geçe eli boş çıktı. Cumartesiyi boş istemesi başka bir çiftin düğünü içindi.",
+          "Defne gelinliği siyah bir kılıfa koydu, boş mankene örtü örttü ki gelinlik yerindeymiş gibi görünsün. Sekiz buçukta arka kapıdan çıktı; vale Bülent onu gördü ama yüzünü seçemedi. Taksiye \"Kurtuluş'a, terziye\" dedi.",
+          "Dokuzda Lâl Hanım aşağı indi, örtülü mankene bakmadan kapıları kilitledi. Borcu gerçekti, hırsızlığı değil.",
+          "Gelinlik Sarkis Usta'daydı; kuyruğu kesilip kısaltılacak, cuma sabah sekizde alınacaktı. Defne gelinliği seviyordu; istemediği, gösteriydi."
+        ]
       },
       "anahtarlar": {
         "lal_kilitledi": ["kilitledi", "örtülü"],
@@ -2275,7 +2291,15 @@
             "kenan": "Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi; alarm onun koduyla değil, ortak kodla kapatıldı. Yalanı iş aradığı içindi.",
             "gizem": "Gizem masumdu: kasanın şifresini bilmez; döndüğünde alarm çoktan kapalıydı ve kasanın başında lacivert önlüklü biri vardı. Yalnız bayat simit almıştı."
           }
-        }
+        },
+        "hikaye": [
+          "Susam Pastanesi batıyordu: maaşlar iki aydır gecikiyor, un toptancısına borç birikiyordu. Dükkânı yöneten Ferruh bunu Nadide Hanım'dan sakladı; merkezi gizlice Badem'e satmaya çalıştı, olmadı.",
+          "Cumartesi sabahı kasadaki cuma hasılatını, iki yüz kırk bini alıp un borcunu elden ödedi; kasa defterine yazmadı.",
+          "Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz buçukta çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.",
+          "Ferruh gece on bire on altı kala döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.",
+          "On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.",
+          "Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı."
+        ]
       },
       "anahtarlar": {
         "cam_iceriden": ["kırıklar", "sokakta"],
