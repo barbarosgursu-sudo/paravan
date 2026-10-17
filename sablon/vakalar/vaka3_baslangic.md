@@ -89,11 +89,16 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 ## 2. Süre ölçümü
 
 Başlangıç = sahibinin "Vaka 3'e başla" dediği an. Her adımın bitişi yazılır; aralar toplama girmez.
+Sahibi "zamanı durdur" / "tekrar başlat" der; aralar aşağıdaki ara tablosuna yazılır (17 Ekim, sahibinin isteği):
+aktif süre = toplam − aralar.
+
+| ara | durdu | başladı | süre |
+|---|---|---|---|
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
-| 1 Form | | | |
-| 2 Onay 1 | | | |
+| 1 Form | 17 Eki 14:19 (TSİ) | 17 Eki 14:30 | başlangıç = "Vaka 3'e başlayalım"; müşteri aile dışı (V1 baba–oğul tekrarı olmasın) |
+| 2 Onay 1 | 17 Eki 14:30 | | |
 | 3–4 Diyalog + veri + künye | | | |
 | 5 Görselsiz tur + bulanık replik taraması | | | |
 | 6–7 Onay 2, hikâye donar | | | Vaka 2: 1 sa 56 dk |
