@@ -16,6 +16,13 @@ https://claude.ai/artifact/XxseE7eCNqgr8oPqy8V6Nc — üreticisi `../lora_sayfa/
 | # | kadraj | poz | ifade | kıyafet / zemin |
 |---|---|---|---|---|
 | C1 | yakın, önden | kameraya bakıyor | hınzır yarım gülüş | beyaz gömlek, üst düğmeler açık; açık bej — **YÜZ REFERANSI** |
+| C2 | yakın, ¾ sol | burnu sola, başı hafif eğik | kuşkulu, alaycı, kaş kalkık | beyaz gömlek; açık bej |
+| C3 | yakın, ¾ sağ | burnu sağa, bakış yana | ciddi, düşünceli | koyu tişört; orta gri |
+| C4 | yakın, **profil** (sola) | uzağa bakıyor | sakin | lacivert gömlek; koyu lacivert |
+| C5 | yakın, ¾ sol | başı hafif geride | **kahkaha**, dişler görünür | beyaz gömlek; açık gri |
+| C6 | yakın, **aşağıdan** | çene hafif yukarıda | kendinden memnun yarım gülüş | bordo gömlek; koyu kahve, akşam ışığı |
+| C7 | yakın, **yukarıdan** | kameraya yukarı bakıyor | yumuşak, hafif gülümseme | beyaz gömlek; açık bej |
+| C8 | yakın, önden | — | **şaşkın**, gözler açık, ağız aralık | siyah tişört; koyu gri |
 
 ## Notlar
 - C1 ikinci denemede onaylandı. İlk deneme yaşlı (göz çizgileri), çilli, saçı kabarık ve kızıla çalıyordu;
