@@ -3310,26 +3310,30 @@ function kacanEkrani(vid){
     const izlendi = (k.izlenen || []).includes(id);
     h += `<button class="buton ikincil kacan-ipucu" onclick="kacanIzle('${id}')">${izlendi ? "↻ " : "▶ "}${ad}${izlendi ? "" : " · reklam"}</button>`;
   }
+  if(((v.kim_yapti || {}).hikaye || []).length){
+    const gordu = !!(k && k.hikaye);
+    h += `<button class="buton ikincil kacan-hikaye" id="hikayeAc" onclick="hikayeIzle('${v.id}')">${gordu ? "↻ " : "▶ "}Dosyanın tamamı${gordu ? "" : " · reklam"}</button>`;
+  }
   if(paylasilabilir(v.id)) h += `<button class="buton ikincil paylas-dugme" onclick="paylasAc('${v.id}')">Arkadaşına öner</button>`;
-  h += `<button class="buton" id="kacanDon" onclick="kacanBitir()">Masaya dön</button></div>`;
+  h += `<button class="buton" id="kacanDon" onclick="kacanYaz(null);masaGoster()">Masaya dön</button></div>`;
   app.innerHTML = h; scrollUst();
 }
-/* Kaçan ipuçlarından en az birini reklamla izleyen oyuncu masaya dönmeden önce "Dosyanın tamamı"nı
-   bir kez görür (sahibinin kararı, 17 Ekim 2026): vakanın gerçekte nasıl olduğu, olay sırasıyla
-   (diyalogda ## hikaye → kim_yapti.hikaye). Reklam izlemeyen için ekran hiç çıkmaz. Vaka kapandı;
-   karar verildi — sızdıracak bir şey yok. */
-function kacanBitir(){
+/* "Dosyanın tamamı" (sahibinin kararı, 17 Ekim 2026): kapanıştan sonraki ekranda AYRI bir düğme; reklam
+   izleyen vakanın gerçekte nasıl olduğunu olay sırasıyla okur (diyalogda ## hikaye → kim_yapti.hikaye).
+   Kaçan ipucu reklamlarından bağımsız. Bir kez izlenince o ekranda yeniden reklamsız açılır (kacan.hikaye).
+   Vaka kapandı, karar verildi — sızdıracak bir şey yok. */
+function hikayeIzle(vid){
+  const v = GAME.vakalar.find(x => x.id === vid); if(!v) return;
   const k = kacanOku();
-  const v = k && (k.izlenen || []).length && GAME.vakalar.find(x => x.id === k.vaka);
-  kacanYaz(null);
-  if(v && ((v.kim_yapti || {}).hikaye || []).length) hikayeEkrani(v); else masaGoster();
+  const oynat = () => { if(k && !k.hikaye){ k.hikaye = true; kacanYaz(k); } hikayeEkrani(v); };
+  if(k && k.hikaye) oynat(); else reklamGoster(oynat);
 }
 function hikayeEkrani(v){
   let h = ust() + '<div class="faz">';
   h += `<div class="baslik"><div class="no">${v.baslik}</div><h1 style="font-size:24px">Dosyanın tamamı</h1></div>`;
   h += `<div class="bilgi">Gerçekte ne oldu, baştan sona.</div>`;
   h += `<div class="sonuc-kutu hikaye-kutu">${v.kim_yapti.hikaye.map(p => `<p>${p}</p>`).join("")}</div>`;
-  h += `<button class="buton" id="hikayeDon" onclick="masaGoster()">Masaya dön</button></div>`;
+  h += `<button class="buton" id="hikayeDon" onclick="kacanEkrani('${v.id}')">Geri</button></div>`;
   app.innerHTML = h; scrollUst();
 }
 function kacanIzle(id){

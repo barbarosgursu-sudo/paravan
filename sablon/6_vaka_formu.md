@@ -114,7 +114,7 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
   müşteri ve kayıp, kim almıştı, neden. Yalnız her yolda oynayan itirafın (kovalamaca) söylediği;
   karara göre değişen hiçbir şey yazılmaz. Diyalogda `## ani` bölümüne gider.
   - **Anı özeti:**
-- **Dosyanın tamamı** (17 Ekim 2026; kaçan ipucunu reklamla izleyen oyuncuya vaka sonunda bir kez): 5–7 kısa paragraf,
+- **Dosyanın tamamı** (17 Ekim 2026; vaka sonundaki ekranda ayrı düğme, reklamla açılır): 5–7 kısa paragraf,
   olay sırasıyla gerçekte ne oldu — suçlu ne yaptı ve neden, masumlar o gece neredeydi, yanıltan izler nereden geldi.
   §2'den düz dille. Diyalogda `## hikaye` bölümüne gider (`YENI_OYUN_CERCEVE.md`).
 
