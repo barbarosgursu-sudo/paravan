@@ -98,6 +98,8 @@ sırasıyla okur (suçlu ne yaptı, neden; masumlar o gece neredeydi), "Geri" il
 reklamlarından bağımsızdır; bir kez izlenince o ekranda yeniden reklamsız açılır. Masaya dönünce kapanır,
 Defter'den açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`**HİKÂYE:**` paragrafları) →
 `kim_yapti.hikaye`; yoksa `arac_diyalog.js` yazmaz. Ekran `yeni_arayuz.js → hikayeIzle, hikayeEkrani`.
+**AÇIK SORU (17 Ekim 2026, sahibi):** düğmenin yeri geçici. Kaçan ipuçlarının altında durunca oyuncu ipuçlarını
+izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse gitmez. Şimdilik böyle kalıyor, sonra düşünülecek.
 
 **Android aşamasına eklenenler (16 Ekim 2026, sahibinin kararı; başka bir oyunun ekranlarından).**
 - **Paylaş (web'de kuruldu, 17 Ekim 2026):** biten vaka afişli bir kartla paylaşılır; kart suçlu/karar/kasa
