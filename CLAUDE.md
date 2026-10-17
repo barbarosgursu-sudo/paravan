@@ -361,3 +361,12 @@ Kalan tek iş:
 Sonrası Android aşaması (bilerek ertelendi): Capacitor, görselleri base64'ten
 çıkarma, donanım geri tuşu, erişilebilirlik, ve `kaynak/final_tablo_plani.md`'deki
 sezon sonu istatistik tablosu.
+
+**Android aşamasına girerken sahibine HATIRLAT — eski dalları toplu silecek (17 Ekim 2026 isteği).**
+GitHub'da `main` dışında yedi dal duruyor; hepsi incelendi, hiçbirinde `main`'de olmayan iş yok:
+`ccr-343110e4-d0l9zo`, `ccr-87724e8f-t47bex`, `ccr-e81c6ba9-9m243w` (`main`'de olmayan commit yok),
+`ccr-4dc083d1-16dsmw`, `ccr-b852a2a4-jzjulo`, `ccr-a12f42ec-wu06x5` (9–10 Ekim; GitHub yüzlerce
+commit "önde" gösterir çünkü `main`'in geçmişi 12 Ekim'de tek commit'le yeniden başladı — içerikleri
+`main`'de), `claude/vibrant-mccarthy-jdec2m` (13 Eylül, PR #1 ile birleşmiş). Silme sahibinde:
+Branches sayfası → çöp kutusu (oturumdan `git push --delete` geçmiyor). O güne kadar yeni dal
+açılırsa listeye eklenir; silinince bu not kalkar.
