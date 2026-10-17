@@ -60,7 +60,7 @@ ailesi değil: kurucu ortak. Suçlu ona yıllarca güvenilmiş ortak.
   - Nadide: "Ferruh'a on beş yıldır güvenirim. Ama o kıza da inanmam. Kenan'a da."
 - **Adı anılan şüpheliler:** Gizem, Kenan. (Ferruh müşterinin güvendiği adam olarak anılır, suçlanmaz.)
 - **Ücret konuşması:** Peri: "Kırk bin." Nadide: "Kırk bin. Hırsız bulununca." Cengo: "Simitle ödenebiliyor mu?" Nadide: "Senin defterin ayrı, oğlum."
-- **Çekicilik anı / espri (birlikte):** 🟡 Peri bej trençkotla, eşarp ve iri güneş gözlüğüyle oturur; tanınmak istemiyor. Nadide yine de tanır: "Siz bizim afişteki kız değil misiniz?" Peri: "Hayır." Cengo: "Evet." Peri gözlüğü çıkarır, trençkotun kemerini çözer, bacak bacak üstüne atar: altında dar siyah elbise. Nadide: "Afişte de böyle otururdunuz. Simit yerdiniz." Peri: "Yemezdim. Tutardım."
+- **Çekicilik anı / espri (birlikte):** 🟡 Peri bej trençkotla, eşarp ve iri güneş gözlüğüyle oturur; tanınmak istemiyor. Nadide kapıdan girer girmez: "Peri Hanım." Peri (gözlüğün arkasından): "Ben o değilim." Nadide: "Sormadım ki. Afişten tanırım." Cengo: "Kimse sormadı." *(Şaka tanınmada değil, Peri'nin boşuna saklanmasında; V1–V2'deki "siz o değil misiniz?" tekrar edilmez. "Sormadım" vaka boyunca döner: A'da Ferruh, C'de Gizem.)* Peri pes eder, gözlüğü çıkarır, trençkotun kemerini çözer, bacak bacak üstüne atar: altında dar siyah elbise. Nadide: "Afişte de böyle otururdunuz. Simit yerdiniz." Peri: "Yemezdim. Tutardım."
 - **Cengo'nun Gizem'i tanıması:** Cengo: "Gizem'i tanırım. Bana veresiye yazar." Peri ona bakar: "Ne kadar?" Cengo: "Gizem'e göre değişiyor." *(İlk kıskançlık kıvılcımı; Gizem henüz ekranda yok.)*
 - **Nasıl bitiyor:** İş kabul; ilk yer Susam'ın merkezi (Ferruh gezdirecek).
 
@@ -108,9 +108,9 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E).
 *İpucu adları yeni ad taşımaz (K18): "Alarmcı Sedat" ve Rüstem konuşmada anılır; E'nin adı yalnız "Kadıköy'deki pastane".*
 
 **Sahne özetleri**
-- **A.** Ferruh kapıda karşılar, Peri'yi tanır: "Afiş! Siz afişsiniz!" Duvarda Peri'nin eski Susam afişi (yüzü, yazısız). Ferruh onları "tanık" yapmaya çalışır: "Cam, görüyor musunuz, dışarıdan kırılmış!" Peri cam kırıklarına bakar: sokakta. "İçeriden." Ferruh: "…İçeriden de olur tabii." Kasa: zorlanmamış. Ofiste kayıt cihazı: fişi çekik; Cengo takar, son kare: lacivert bir kol. Ferruh: "Kenan'la ben giyeriz. Bir de… herkes giyebilir aslında." Peri: "Tezgâh pembe giyiyor." *(Ferruh ekranda görünür: şifreyi ve önlüğü o söyler.)*
+- **A.** Ferruh kapıda karşılar: "Afiş! Siz afişsiniz!" Peri: "Değilim." Ferruh duvarı gösterir. Duvarda Peri'nin eski Susam afişi (yüzü, yazısız). Ferruh onları "tanık" yapmaya çalışır: "Cam, görüyor musunuz, dışarıdan kırılmış!" Peri cam kırıklarına bakar: sokakta. "İçeriden." Ferruh: "…İçeriden de olur tabii." Kasa: zorlanmamış. Ofiste kayıt cihazı: fişi çekik; Cengo takar, son kare: lacivert bir kol. Ferruh: "Kenan'la ben giyeriz. Bir de… herkes giyebilir aslında." Peri: "Tezgâh pembe giyiyor." *(Ferruh ekranda görünür: şifreyi ve önlüğü o söyler.)*
 - **B.** Sedat dükkânın önünde kamyonetinde; Cengo'ya borçlu (alarmı bir yerde "fazla" ötmüştü, Cengo görmedi). Kayıt: 22.44 ortak kod kapalı, 23.55 ortak kod kurulu, 06.30 müdür kodu açık. "Ortak kodu tezgâhtaki kızla Ferruh Bey bilir. Kenan'ın kendi kodu var." Cam sensörü hiç ötmemiş. Cengo: "Cam kırılırken alarm kapalıymış yani." Peri (telefonla ya da yanında): "Gizem'in kodu." Cengo: "Bir de patronun."
-- **C.** Gizem apartmanının önünde, elinde simit poşeti, yaşlı komşulara dağıtıyor. Cengo'yu görünce: "Veresiye defterin burada değil, tatlım." Peri'yi süzer: "Afiş." Peri: "Peri." Gizem Cengo'ya döner, işveli: "Sana anlatırım. Ona değil." Pazar gece simitler için döndü: arka kapı, alarm ötmedi, ofiste ışık. Telefonda fotoğrafı: tabla, arkada lacivert önlüklü biri kasanın başında. "Korktum, kaçtım. Simitleri de aldım. Yasak." Peri, kıskanç: "Simit çalmak da hırsızlıktır." Gizem: "Bayat simit hayır işidir."
+- **C.** Gizem apartmanının önünde, elinde simit poşeti, yaşlı komşulara dağıtıyor. Cengo'yu görünce: "Veresiye defterin burada değil, tatlım." Peri'yi süzer: "Afiş." Peri: "Değilim." Gizem: "Sormadım." Gizem Cengo'ya döner, işveli: "Sana anlatırım. Ona değil." Pazar gece simitler için döndü: arka kapı, alarm ötmedi, ofiste ışık. Telefonda fotoğrafı: tabla, arkada lacivert önlüklü biri kasanın başında. "Korktum, kaçtım. Simitleri de aldım. Yasak." Peri, kıskanç: "Simit çalmak da hırsızlıktır." Gizem: "Bayat simit hayır işidir."
 - **D.** Sabah fırını, Kenan hamur keserken. Az konuşur. Pazar gece? "Evdeydim." Peri bıçağın durduğunu görür: yalan. Maaşlar iki aydır geç: "Bu dükkân batıyor, hanımefendi. Herkes biliyor, Nadide Hanım hariç." Cengo dolabı açar (tel): içinde başka bir önlük, Badem Pastanesi. Kenan: "O… hediye." *(Kenan'ın şüphesi artar.)*
 - **E.** Kadıköy, Badem. Cengo "iş arıyorum" der; şef **Ayla Hanım** onu süzer: "Elin hamura yatkın değil." Kenan'ı sorar: "Pazar gece buradaydı, ondan ikiye. Deneme vardiyası. Profiterolü iyi; Susam'dan çıkarsa alırım." Ve: "Susam'ın merkezini geçen ay bize Ferruh Bey satmak istedi. Fiyatı tutmadı."
 - **F.** Eminönü, un çuvalları. Rüstem Bey Peri'yi görünce ayağa kalkar: "Susam afişi! Dükkânda hâlâ asılı." Peri gülümser, bilgiyi alır: cumartesi sabah Susam'dan biri gelip un borcunu elden ödemiş, 240 bin, Susam poşetinde. "Ben de şaşırdım. Aylardır ödemiyorlardı." Getireni kalfa almış, Rüstem görmemiş. "Ferruh Bey çok sıkışık; piyasaya da borcu var." Peri (çıkarken): "Cuma'nın parası cumartesi borca gittiyse, pazar gece kasada ne vardı?"
@@ -205,8 +205,8 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 
 ## 13. Kapanış
 
-- **Sahne:** Büro, akşam. Peri pembe önlük altında, saçında hâlâ susam. Kapı çalınır; Peri ev sahibi sanıp masanın altına saklanır. Gelen Gizem: elinde simit tablası, omzunda çanta. "İstifa ettim. Burada çay ocağı var mı?" Cengo: "Var. Çay yok." Gizem: "Ben getiririm." Peri (masanın altından çıkarken): "Maaş veremeyiz." Gizem: "Biliyorum. Cengo'ya da vermiyormuşsunuz." 🟡 Gizem tablayı masaya koyar, duvara Susam'dan getirdiği Peri afişini asar: "Burada daha çok yakışıyor." Peri afişe bakar, sonra Gizem'e. Bir şey demez.
-- **Bağ düşükse (0 ve altı):** Cengo ceketini alır: "Ben çıkıyorum." Gizem: "Ben kalıyorum." Peri ikisine bakar; Cengo merdivenden iner. Gizem çayı koyar, Peri'nin önüne bırakır, kendininkini alıp afişin altına oturur. Büroda iki kadın, bir afiş (kare).
+- **Sahne:** Büro, akşam. Peri pembe önlük altında, saçında hâlâ susam. Kapı çalınır; Peri ev sahibi sanıp masanın altına saklanır. Gelen Gizem: elinde simit tablası, omzunda çanta. "İstifa ettim. Burada çay ocağı var mı?" Cengo: "Var. Çay yok." Gizem: "Ben getiririm." Peri (masanın altından çıkarken): "Maaş veremeyiz." Gizem: "Biliyorum. Cengo'ya da vermiyormuşsunuz." 🟡 Gizem çantasından rulo bir afiş çıkarır, Peri'ye uzatır: "Ferruh Bey çöpe atıyordu. Kurtardım." Peri afişe bakar, sonra Gizem'e. Bir şey demez; afişi masanın arkasına, yüzü duvara dönük koyar. *(Afiş büroda asılı kalmaz: sonraki vakaların büro görselleri değişmez.)*
+- **Bağ düşükse (0 ve altı):** Cengo ceketini alır: "Ben çıkıyorum." Gizem: "Ben kalıyorum." Peri ikisine bakar; Cengo merdivenden iner. Gizem çayı koyar, Peri'nin önüne bırakır, kendininkini alıp pencerenin önüne oturur. Büroda iki kadın, bir boş sandalye (kare).
 - **Bağ yüksekse (+1 ve üstü):** Gizem Cengo'ya simit uzatır. Cengo alır, ikiye böler, büyük yarısını Peri'ye verir. Gizem bakar: "Hıh." Peri yarım simidi ısırır, gülümsemesini saklamaz.
 
 ## 14. Kıyafet
@@ -283,7 +283,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 ## 18. Kanon
 
 **Sezon kanonuna eklenecekler — onayın gerekiyor:**
-1. 🟡 **Peri Susam'ın reklam yüzüydü:** kraliçe yıllarında Susam Pastanesi'nin afişinde simitle poz verdi; afiş merkezde hâlâ asılı. Nadide, Ferruh ve Rüstem bu yüzden onu tanır. **Nerede:** giriş (Nadide tanır, Peri trençkot ve gözlükle saklanmaya çalışır), A, F; kapanışta Gizem afişi büroya asar — afiş sezon boyu büroda durur.
+1. 🟡 **Peri Susam'ın reklam yüzüydü:** kraliçe yıllarında Susam Pastanesi'nin afişinde simitle poz verdi; afiş merkezde hâlâ asılı. Nadide, Ferruh, Gizem ve Rüstem bu yüzden onu tanır. **Nerede:** giriş (Peri trençkot ve gözlükle saklanır, herkes yine de tanır), A, C, F; kapanışta Gizem rulo afişi Peri'ye verir, Peri onu masanın arkasına ters koyar — **büroya asılmaz** (büro görselleri değişmez).
 2. 🟡 **Susam büroya yakın:** merkez Karaköy'de, hanın birkaç sokak ötesinde; Cengo orada veresiye yer, Gizem onu tanır. **Nerede:** giriş, C.
 3. 🟡 **Gizem'in alışkanlığı:** artan simitleri yasak olduğu hâlde apartmanındaki yaşlılara götürür (vakanın düğümü; karakterine "hazırcevap ama iyi kalpli" çizgisini ekler). **Nerede:** C, yüzleşme.
 4. 🟡 **Gizem büroya nasıl yerleşir:** Susam'dan istifa eder, maaşsız, çay ocağına el koyar ("Ben burada başladım"). Unvanı yok. **Nerede:** kapanış. *(Kanondaki "büroya yerleşir"in biçimi.)*
@@ -311,7 +311,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 
 ## Sahibine sorular *(Onay 1)*
 
-1. 🟡 Kanon 1–4 (Peri Susam'ın afiş yüzüydü; Susam büroya yakın, Cengo veresiyeli; Gizem artan simitleri yaşlılara götürür; Gizem istifa edip maaşsız büroya yerleşir) — uygun mu?
+1. 🟡 Kanon 1–4 (Peri Susam'ın afiş yüzüydü, afiş büroya asılmaz; Susam büroya yakın, Cengo veresiyeli; Gizem artan simitleri yaşlılara götürür; Gizem istifa edip maaşsız büroya yerleşir) — uygun mu?
 2. 🟢 Peri: kısa bej trençkot + siyah elbise + eşarp + güneş gözlüğü + kırmızı stiletto; Gizem: bal rengi kahküllü, pembe önlük, kot etek. Diğer görünüşler — uygun mu?
 3. Kararlar: dürüst olan ("Eksper'e anlat") Cengo'nun hoşuna gitmiyor (altı kişi işsiz kalıyor). Bu ters köşe uygun mu?
 4. Müşteri Ferruh'un annesi değil, kurucu ortak (Vaka 1'deki baba–oğulla benzemesin diye). Uygun mu?
