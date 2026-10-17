@@ -94,6 +94,7 @@ aktif süre = toplam − aralar.
 
 | ara | durdu | başladı | süre |
 |---|---|---|---|
+| 1 | 17 Eki 15:40 (Onay 2 sırasında) | | |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
