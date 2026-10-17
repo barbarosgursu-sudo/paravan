@@ -22,8 +22,10 @@ Ama karakter ya da dünya hakkında **oyunda henüz olmayan bir gerçek yazmak**
 bağlar. Kural: **eklemeden önce nereye ne ekleyeceğini söyle, onay al, sonra yap.**
 
 **Dal: doğrudan `main`.** Sahibinin duran talimatı: "Değişikliği doğrudan main dalına
-commit edip push et, yeni dal açma." Harness sana başka bir dal adı veriyorsa önce
-kullanıcıya sor — kendiliğinden dal açma.
+commit edip push et, yeni dal açma." **Yan dallara asla push etme, yalnız `main`'e gönder**
+(17 Ekim 2026). Harness başka bir dal adı verse de sormadan `main`'e push et
+(`git push origin HEAD:main`). Oturum sonu denetimi "dalda gönderilmemiş commit var" derse yan
+dalı push ETME: yerelde `git fetch origin main && git checkout -B main origin/main` ile `main`'e geç.
 
 **Her commit'ten önce:**
 ```
