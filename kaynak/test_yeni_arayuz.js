@@ -97,6 +97,9 @@ console.log("\n=== Paylaş (davet kartı) ===");
     k(`${v.id}: girişin varsayılan metni var (kartın cümlesi)`,
       !!(v.giris || []).some(g => g.kosul === "varsayilan" && g.metin));
   }
+  // Kart görseli (afiş) isteğe bağlı; varsa gömülü olmalı, yoksa kart sessizce kapağa düşer.
+  const kartYok = Object.entries(M.kart || {}).filter(([vid, kod]) => !M.dosyalar[kod] || !G.vakalar.some(v => v.id === vid)).map(([vid]) => vid);
+  k("her kart görseli gömülü ve vakası var (gorseller.json → kart)", !kartYok.length, kartYok.join(", "));
   k("paylaşım yalnız biten vakada (paylasilabilir → tamamlanan)",
     /function paylasilabilir\(vid\)\{\s*return oyun\.durum\.tamamlanan\.includes\(vid\)/.test(arayuz));
   // Kart çizimi suçlu, karar, suçlama, kasa ya da Peri'nin notunu okumamalı.

@@ -1017,7 +1017,8 @@ async function paylasKartCiz(v){
   const GECE = "#1d2a33", KAGIT = "#fff7e8", TRAMVAY = "#c8372d", W = 1080, H = 1920;
   const yaziYukle = Promise.all(["120px Shrikhand", "800 44px Nunito", "500 40px Nunito"].map(f => document.fonts.load(f)));
   try{ await Promise.race([yaziYukle, new Promise(r => setTimeout(r, 2500))]); }catch(e){}
-  const img = new Image(); img.src = GORSELLER[YENI_GORSEL.kapak[v.id]];
+  // Vakanın kendi kart görseli (gorseller.json → kart) varsa o; yoksa kapak (bir arka plan).
+  const img = new Image(); img.src = GORSELLER[(YENI_GORSEL.kart || {})[v.id] || YENI_GORSEL.kapak[v.id]];
   try{ await img.decode(); }catch(e){}
   const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
   const c = cv.getContext("2d");

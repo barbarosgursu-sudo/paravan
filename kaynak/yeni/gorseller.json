@@ -166,7 +166,8 @@
     "K33": "ara_k33.webp",
     "K34": "ara_k34.webp",
     "K35": "ara_k35.webp",
-    "lal.kilif": "figur_lal_kilif.webp"
+    "lal.kilif": "figur_lal_kilif.webp",
+    "KART_V1": "kart_v1.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [
@@ -185,6 +186,8 @@
   "_not_sola": "Sağdaki figürün eli ekranın sağ kenarından taşıyorsa figür genişliğinin yüzdesi kadar sola kayar (yeni_arayuz.js vnFigurCiz).",
   "kapak": {"V1": "A9", "V2": "A15"},
   "_not_kapak": "Paylaş kartının (davet) arka planı, vaka başına. Suçluyu, itirafı ya da kararı gösteren kare seçilmez (Nurcan); vakanın ilk sahnelerinde görülen bir yer olsun. Her omurga vakada zorunlu (test_yeni_arayuz.js).",
+  "kart": {"V1": "KART_V1"},
+  "_not_kart": "Paylaş kartının kendi afiş görseli (sablon/kart_sayfa; kişiler + mekân, ipucusuz). Varsa kapak yerine bu çizilir. Yüzler üst %55te: kâğıt kutu alt %40a biner.",
   "boy": {
     "riza": 0.86,
     "hilmi": 0.84,
