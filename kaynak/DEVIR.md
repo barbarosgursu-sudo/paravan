@@ -8,22 +8,26 @@
 
 ---
 
-## 00000000. 17 Ekim 2026 — Paylaş (web, ilk adım)
+## 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
-- **Davet kartı:** biten vakada "Arkadaşına öner" (kapanış sonrası ekran + Defter → Anı). Kart suçlu/karar/
-  kasa taşımaz; ayrıntı `CLAUDE.md` → "Paylaş". Kapanıştan sonra kaçan ipucu yoksa artık "Dosya kapandı"
-  ekranı gelir (eskiden doğrudan masa).
-- **Sahibine sorulacak:** kapaklar (V1 = A9 iskele, V2 = A15 atölye) ve önizleme açıklaması
-  ("İstanbul'da bir dedektiflik oyunu. İpucunu topla, suçluyu bul, kararı sen ver.") Claude'un seçimi.
-- **Kart görselleri (sahibinin isteği, 17 Ekim):** vaka başına bir afiş (kişiler + mekân, ipucusuz). İş sayfası:
-  https://claude.ai/artifact/FoLWwgaEXNtLnqBV4HCBFG — üreticisi `sablon/kart_sayfa/uret.py` (promptlar orada; referanslar
-  `ref/`, konuk şeridi figürlerden birleştirildi, 4 referans). Nurcan nötrlemeleri: Kemal'de boya/önlük/fırça yok, Serkan'ın
-  eli ensesinde değil (cepte), Defne gülümsemiyor, şüphelilerin üçü aynı ifade ve aynı boyda; kılıf/örtü/gelinlik, zincir/
-  kilit/beyaz tekne/set yasak. Görseller gelince: E kontrol listesi + `bak` satırı → `yeni_gorsel/kart_v1.webp` vb. →
-  `gorseller.json` → `dosyalar` + `kart` (kapak yedek kalır). **V1 gömüldü** (`KART_V1`, ikinci deneme: ilkinde arka sıra
-  suyun üstündeydi). **V2 gömüldü** (`KART_V2`, balo salonu; Peri ceketin altında yeşil üst — kıyafet kayması, ipucu değil, kaldı). Sahibinin isteğiyle promptlar hareketlendi: Peri yürüyor (L19 yalnız poz),
-  Cengo V1'de martıdan eğiliyor, V2'de Peri'yi dansa davet ediyor; V2 mekânı balo salonu (A20, pasta çıkarılıyor; A20b'deki
-  örtü yığını yüzünden ikinci açı değil). V1 hareketli promptla yeniden üretildi ve gömüldü (`KART_V1`).
+**Durum tek cümle:** Web'de paylaşım kuruldu ve iki vakanın da afişli kartı gömülü. Sıradaki iş değişmedi:
+Cengo referans seti, sonra Vaka 3 (aşağıdaki bölüm).
+
+- **Ne var:** biten vakada "Arkadaşına öner" (kapanış sonrası ekran — kaçan ipucu yoksa "Dosya kapandı" — ve
+  Defter → Anı). Kart 1080×1920 tarayıcıda çizilir: vakanın afişi + altta KÜÇÜK kutu (vaka no/adı, "Sen olsan
+  ne yapardın?") + bağlantı. Giriş cümlesi ve "Ben bu dosyayı kapattım." kartta değil, paylaşım metninde.
+  Ayrıntı ve sözleşme: `CLAUDE.md` → "Paylaş". Bağlantı önizlemesi (`og:`, `yeni/paylas.jpg`) hazır.
+- **Sahibinin kararları (17 Ekim):** "önce resim, yazı az" (kutu küçük); afişler eğlenceli ve hareketli, Peri ile
+  Cengo'nun kendine özgü pozu var; Vaka 2 afişi balo salonunda. Yalnız `main`'e push (CLAUDE.md).
+- **Afişler:** `KART_V1` (iskele: Peri yürüyor, Cengo martıdan eğiliyor) ve `KART_V2` (balo salonu: Cengo
+  Peri'yi dansa davet ediyor). İş sayfası https://claude.ai/artifact/FoLWwgaEXNtLnqBV4HCBFG, üreticisi
+  `sablon/kart_sayfa/uret.py` (5 referans: mekân, Peri, Cengo, konuk şeridi, L19 yalnız poz). Yeni vakanın
+  afişi nasıl yazılır: `sablon/5_gorsel_sistemi.md` → **G. Kart afişi**.
+- **Kabul edilen sapma:** `KART_V2`'de Peri'nin ceketinin altında yeşil üst (prompt "bluz yok" diyordu); ipucu
+  değil, kaldı. Sahibi isterse aynı sohbette düzelttirir.
+- **Sahibine hâlâ sorulmadı (düşük öncelik):** afişi olmayan vakanın yedek kapağı (V1 = A9, V2 = A15 — artık
+  yalnız yedek) ve önizleme açıklaması ("İstanbul'da bir dedektiflik oyunu. İpucunu topla, suçluyu bul,
+  kararı sen ver.") Claude'un seçimi.
 - **Sıradaki (Android):** anı karşılaştırması (bitirmiş arkadaşa kilitli kart), davet kodu (+1 hak).
 
 ## 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)

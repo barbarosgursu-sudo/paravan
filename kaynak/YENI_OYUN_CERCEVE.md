@@ -93,6 +93,8 @@ sahnelerini reklam izleyerek görür. Sonucu, parayı, bağı değiştirmez; olg
 olgu taşınmaz — Nurcan: sonraki vakada hak edilmemiş bilgi olmasın). Yalnız sahne.
 
 **Android aşamasına eklenenler (16 Ekim 2026, sahibinin kararı; başka bir oyunun ekranlarından).**
+- **Paylaş (web'de kuruldu, 17 Ekim 2026):** biten vaka afişli bir kartla paylaşılır; kart suçlu/karar/kasa
+  taşımaz. Android'de kalan: anı karşılaştırması (bitirmiş arkadaşa kilitli) ve davet kodu. `CLAUDE.md` → "Paylaş".
 - **Arkadaş daveti:** davet eden de gelen de birer **ek araştırma hakkı** kazanır; haklar birikir,
   istenen vakada harcanır. Reklamla ek hakla aynı koruma: her vaka reklamsız/davetsiz haklarla
   `doğru` çözülür. Takip: Google Play Install Referrer.

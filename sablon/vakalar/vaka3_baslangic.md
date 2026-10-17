@@ -52,10 +52,12 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
   (müşteri ve kayıp, kim almıştı, neden; yalnız kovalamacadaki itirafın söylediği — kural 21d).
   Formda §12'nin altına yazılır, diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider;
   bölüm yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`.
-- **Paylaş kartının kapağı (17 Ekim):** `gorseller.json → kapak` içine vakanın kapağı (ipucu sahnelerinde
-  geçen bir ARKA PLAN; yüzleşme/kovalamaca/kapanış ve K kareleri olmaz — Nurcan). Kart girişin ilk
-  cümlesini basar, o yüzden `giris` varsayılanının ilk cümlesi sızıntısız ve tek başına anlaşılır olsun.
-  `test_yeni_arayuz.js` kapaksız vakayı yakalar.
+- **Paylaş kartı (17 Ekim):** her vakaya iki şey gerekir.
+  (1) **Kapak** (`gorseller.json → kapak`, zorunlu, yedek): ipucu sahnelerinde geçen bir ARKA PLAN; yüzleşme/
+  kovalamaca/kapanış ve K kareleri olmaz (Nurcan). `test_yeni_arayuz.js` kapaksız vakayı yakalar.
+  (2) **Kart afişi** (`gorseller.json → kart`, `KART_V3`): kişiler + mekân, ipucusuz, hareketli. Adım 8'de görsel
+  listesine eklenir, promptu `sablon/kart_sayfa/uret.py`'ye yazılır; kurallar `5_gorsel_sistemi.md` → **G**.
+  `giris` varsayılanının ilk cümlesi paylaşım mesajına girer: sızıntısız ve tek başına anlaşılır olsun.
 - **Kıyafet:** hikâye gerektirirse vaka içinde değişebilir (her yeni kıyafet = ifade seti, ~6–8 figür).
 - **Künye portresi (16 Ekim, sahibi buldu: Vaka 2'nin yedi konuğunda yoktu):** her yeni kişinin figürü
   gömülünce `python3 arac_portre.py <figür_normal> yeni_gorsel/portre/portre_<id>.webp` + `gorseller.json`.

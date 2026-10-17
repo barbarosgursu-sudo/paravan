@@ -10,6 +10,7 @@ Görseller hikâye onaylandıktan **sonra** üretilir. Liste vaka formundan çı
 | **Ara kare** | tam ekran an (kovalamaca, karar sonucu) | 900×1200 |
 | **Detay** | yakın çekim nesne (kilit, pruva) | 900×1200 |
 | **Figür** | karakter, düz bej zemin, uyluk ortasından yukarı | Peri ve Cengo 1122×1402, konuk 1086×1448 |
+| **Kart afişi** | paylaşım kartı: vakanın kadrosu + mekânı, ipucusuz (bkz. G) | dikey 9:16 (ChatGPT ~941×1672) |
 
 - Bütün görseller WebP, kalite 80.
 - **Figürde sabitler:** aynı ölçek, başın tepesi aynı yükseklikte, bakış kadrajın soluna. Peri ekranda aynalanır, Cengo'ya bakar.
@@ -221,6 +222,35 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 - **Uzanan kol / elde tutulan nesne** figür çerçevesinden taşıyorsa `--genis`; karşıdakinin
   arkasında kalıyorsa öne alınır (`yeni_arayuz.js` → `ustte` listesi).
 - **Künye portresi:** her figürlü kişinin yüzü portreye kırpılır (`yeni_gorsel/portre/`).
+
+
+## G. Kart afişi (paylaşım kartı; 17 Ekim 2026)
+
+Her vakanın bir afişi var: oyuncu vakayı bitirince "Arkadaşına öner" kartının arka planı olur
+(`gorseller.json → kart`, anahtar `KART_V<n>`). Okuyan kişi vakayı OYNAMADI — afiş Nurcan yüzeyidir.
+Promptlar ve iş sayfası: `sablon/kart_sayfa/uret.py` (yeni vaka = yeni `G.append`, sonra `python3 uret.py`
+ve aynı Artifact'e yeniden yayın). Vaka 1 ve 2'nin promptları örnek.
+
+- **Kadro:** önde Peri ve Cengo (vakanın kıyafetiyle), arkada tek sıra müşteri + şüpheliler. Görgü tanığı ve
+  sırrı taşıyan kişi (Vaka 2'de vale, terzi) girmez.
+- **Şüpheliler eşit:** aynı boy, aynı ışık, aynı ciddi-temkinli ifade, eşit aralık; suçlu ortada ya da önde değil.
+- **Figürdeki ipuçlarını nötrle:** figür referansı ipucu taşıyabilir (Kemal'in beyaz boyası, Serkan'ın enseyi
+  kaşıyan suçlu duruşu, Defne'nin rahat gülümsemesi). Promptta açıkça kaldır: "önlük yok, fırça yok", "eller
+  cepte, ensesinde değil", "Defne de gülümsemiyor".
+- **Yasak nesneler adıyla sayılır** (açık uçlu liste yok): yöntem nesneleri (kılıf, örtü, anahtar, zincir),
+  yanıltıcı iz (boya), kovalamaca şakaları (simit, balık kasası, pasta). Mekân referansında böyle bir nesne
+  varsa "referanstaki X'i ÇIKAR" yazılır (A20'nin pastası); örtü yığını olan ikinci açı (A20b) kullanılmadı.
+- **Hareketli ve eğlenceli (sahibinin kararı):** Peri kameraya yürür (L19 yalnız poz referansı), Cengo'ya
+  vakaya uygun komik bir hareket (V1 martıdan eğiliyor, V2 Peri'yi dansa davet ediyor). Arka sıra yerinde durur.
+- **Zemin satırı ŞART:** "Altı kişinin hepsi <zemin>in üstünde, ayakları <zemin>e basıyor; su/tekneler arkada."
+  Vaka 1'in ilk denemesinde arka sıra suyun üstünde durdu.
+- **Düzen:** kart altta küçük bir kutu çizer (alt ~%20). Kişiler ayaklarına kadar onun üstünde kalsın; alt
+  şeritte yalnız zemin. Sahibinin kuralı: önce resim — kutu büyütülmez.
+- **Referanslar (5):** mekân, Peri temeli, Cengo temeli, **konuk şeridi** (figürler bej zeminde tek görselde
+  birleştirilir; `uret.py` yanındaki `ref/`), L19. Şerit tek referansla dört kişi taşır.
+- **Gömme:** gelen görsel olduğu gibi WebP q80 → `kaynak/yeni_gorsel/kart_v<n>.webp`; `dosyalar` + `kart`
+  (`arac_json_yaz.js` ile). Sonra kartı Pixel 5'te çizip bak (yüzler kutunun üstünde mi). Kontrol: E listesi
+  + kartın `bak` satırı.
 
 ---
 

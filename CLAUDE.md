@@ -80,7 +80,8 @@ paylaşılır (kapanıştan sonraki ekran — kaçan ipucu yoksa "Dosya kapandı
 `kapak` arka planı) ve altta KÜÇÜK bir kutu — vaka no/adı, "Sen olsan ne yapardın?" — ile bağlantı. Sahibinin
 kuralı: önce resim, yazı az; girişin ilk cümlesi kartta değil paylaşım mesajında (`paylasMetin`). **Suçlu, karar, suçlama, kasa, not
 karta GİRMEZ** (Nurcan — arkadaş oynamadı; ve oyun not vermez). `navigator.share` varsa görselle paylaşır,
-yoksa indir + bağlantıyı kopyala. Bağlantı önizlemesi (`og:` etiketleri) `build_html.js yeni`'de; görseli
+yoksa indir + bağlantıyı kopyala. Afiş promptları ve iş sayfası `sablon/kart_sayfa/uret.py`; yeni vakanın afişi
+için kurallar `sablon/5_gorsel_sistemi.md` → G. Bağlantı önizlemesi (`og:` etiketleri) `build_html.js yeni`'de; görseli
 `yeni_gorsel/paylas_onizleme.jpg` → `yeni/paylas.jpg`. Anı karşılaştırması ve davet kodu Android aşamasında.
 Ayrıca `satir/adi_gecen_yok.txt`: anlatıda adı geçen ama ekranda olmayan kişiler (aday; grup ve
 "annesi" gibi sözleri yakalamaz). Sahibinin kuralı: adı geçen herkes ekranda — tek kişi `gir`, kalabalık kare.

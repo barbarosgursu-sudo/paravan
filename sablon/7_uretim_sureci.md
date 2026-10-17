@@ -13,7 +13,7 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** (aşağıda) | ben | hata yok; tarama bitti, düzeltmeler veride |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
-| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6) | ben | — |
+| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası) | ben | — |
 | 9 | **Görseller** üretilir; **toplu gönderilir** (aşağıda) | sahibi | — |
 | 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi); **toplu işlenir** | ben | her görsel gömülü |
 | 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi | ben | hata yok |
