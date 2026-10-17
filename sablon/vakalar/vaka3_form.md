@@ -24,14 +24,14 @@ ailesi değil: kurucu ortak. Suçlu ona yıllarca güvenilmiş ortak.
 ## 2. Gerçek *(oyuncuya gösterilmez)*
 
 - **Ne oldu:** Karaköy'deki **Susam Pastanesi**'nin merkezi (dört dükkânlık küçük bir zincir, simit + pasta) pazar gecesi "soyuldu": arka cam kırık, kasa açık, hafta sonu hasılatı yok. Sigortaya 720.000 ₺ bildirildi.
-- **Kim, neden:** **Ferruh**, dükkânı yöneten ortak (%40). Susam batıyor: maaşlar iki aydır geç, toptancıya çek borcu var, merkezi gizlice satmaya çalıştı, alıcı çıkmadı. Kurucu ortak Nadide Hanım'a hiçbir şey söylemedi. Sigortadan para alıp borçları kapatacak, Nadide'ye "kurtardım" diyecekti.
-- **Nasıl:** Cumartesi sabah kasadaki **cuma hasılatını (240.000 ₺)** alıp toptancının çekini karşıladı, kasa defterine yazmadı. Pazar gece dükkâna döndü: alarmı ortak kodla kapattı, kayıt cihazının fişini çekti, kasayı şifreyle açtı, içindeki **480.000 ₺**'yi (cumartesi + pazar) depodaki bir un çuvalına sakladı, camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki rakamı verdi: cuma–pazar, 720.000 ₺. Yani kasada olmayan parayı da "çaldırdı". Şüpheyi dükkânı kapatan Gizem'e çevirdi.
+- **Kim, neden:** **Ferruh**, dükkânı yöneten ortak (%40). Susam batıyor: maaşlar iki aydır geç, un toptancısına büyük bir borç var, cumartesi son gün, merkezi gizlice satmaya çalıştı, alıcı çıkmadı. Kurucu ortak Nadide Hanım'a hiçbir şey söylemedi. Sigortadan para alıp borçları kapatacak, Nadide'ye "kurtardım" diyecekti.
+- **Nasıl:** Cumartesi sabah kasadaki **cuma hasılatını (240.000 ₺)** alıp un toptancısına götürdü, borcu elden ödedi; kasa defterine yazmadı. Pazar gece dükkâna döndü: alarmı ortak kodla kapattı, kayıt cihazının fişini çekti, kasayı şifreyle açtı, içindeki **480.000 ₺**'yi (cumartesi + pazar) depodaki bir un çuvalına sakladı, camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki rakamı verdi: cuma–pazar, 720.000 ₺. Yani kasada olmayan parayı da "çaldırdı". Şüpheyi dükkânı kapatan Gizem'e çevirdi.
 
 **Zaman çizelgesi**
 
 | saat | Ferruh | Kenan (müdür) | Gizem (tezgâhtar) |
 |---|---|---|---|
-| Cmt 09.00 | kasadan cuma hasılatını alır, çeke yatırır; deftere yazmaz | fırında | — |
+| Cmt 09.00 | kasadan cuma hasılatını alır, toptancıya borcu elden öder; deftere yazmaz | fırında | — |
 | Pazar 19.00 | "eve" çıkar | dükkânda | tezgâhta |
 | 20.30 | — | çıkar; Kadıköy'e gider | tezgâhta |
 | 21.00 | — | — | kapatır: hasılatı kasanın üstündeki yarıktan atar (şifreyi bilmez), alarmı ortak kodla kurar, kilitler |
@@ -90,8 +90,8 @@ ailesi değil: kurucu ortak. Suçlu ona yıllarca güvenilmiş ortak.
 | kenan_onluk | Kenan'ın dolabında başka bir pastanenin önlüğü asılı: Kadıköy'deki Badem Pastanesi. | D |
 | kenan_deneme | Kenan pazar gece ondan sabah ikiye kadar Badem'de deneme vardiyasındaydı. Susam'dan gitmek istiyor. | E |
 | merkez_satilik | Ferruh Bey geçen ay Susam'ın merkezini Badem'e satmaya çalışmış; Nadide Hanım'ın haberi yok. | E |
-| cek_karsilandi | Susam'ın toptancıya verdiği büyük çek cumartesi sabah karşılandı: hesaba 240.000 ₺ nakit yatırılmış, cuma hasılatı kadar. | F |
-| ferruh_borc | Toptancıya göre Susam'ın piyasada başka borçları da var; çeki Ferruh Bey imzalamıştı. | F |
+| borc_elden | Cumartesi sabah Susam'dan biri gelip un borcunu elden ödedi: 240.000 ₺, bir Susam poşetinin içinde. Cuma hasılatı kadar. Parayı kalfa aldı, getireni Rüstem Bey görmedi. | F |
+| ferruh_borc | Toptancıya göre Susam'ın piyasada başka borçları da var. Rüstem Bey: "Ferruh Bey çok sıkışık." | F |
 
 ## 6. İpuçları (6 ipucu, 3 hak)
 
@@ -102,7 +102,7 @@ ailesi değil: kurucu ortak. Suçlu ona yıllarca güvenilmiş ortak.
 | C | Gizem'le konuşmak | Gizem'in apartmanının önü, simit poşetiyle | koşulsuz | gizem_dondu, gizem_foto | Cengo (veresiye, atışma) |
 | D | Kenan'la konuşmak | dükkânın imalathanesi, sabah fırını | koşulsuz | kenan_yalan, maas_gec, kenan_onluk | Peri (yalanı okur) |
 | E | Kadıköy'deki pastane | Badem Pastanesi, Kadıköy | `kenan_onluk` | kenan_deneme, merkez_satilik | Cengo (iş arıyor kılığı) |
-| F | Un toptancısı | Rüstem Bey'in dükkânı, Eminönü | koşulsuz (konuşmada Nadide "unu kırk yıldır Rüstem'den alırız" der) | cek_karsilandi, ferruh_borc | Peri 🟡 (Rüstem afişin hayranı) |
+| F | Un toptancısı | Rüstem Bey'in dükkânı, Eminönü | koşulsuz (konuşmada Nadide "unu kırk yıldır Rüstem'den alırız" der) | borc_elden, ferruh_borc | Peri 🟡 (Rüstem afişin hayranı) |
 
 Peri 3 (A, D, F), Cengo 3 (B, C, E).
 *İpucu adları yeni ad taşımaz (K18): "Alarmcı Sedat" ve Rüstem konuşmada anılır; E'nin adı yalnız "Kadıköy'deki pastane".*
@@ -113,7 +113,7 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E).
 - **C.** Gizem apartmanının önünde, elinde simit poşeti, yaşlı komşulara dağıtıyor. Cengo'yu görünce: "Veresiye defterin burada değil, tatlım." Peri'yi süzer: "Afiş." Peri: "Peri." Gizem Cengo'ya döner, işveli: "Sana anlatırım. Ona değil." Pazar gece simitler için döndü: arka kapı, alarm ötmedi, ofiste ışık. Telefonda fotoğrafı: tabla, arkada lacivert önlüklü biri kasanın başında. "Korktum, kaçtım. Simitleri de aldım. Yasak." Peri, kıskanç: "Simit çalmak da hırsızlıktır." Gizem: "Bayat simit hayır işidir."
 - **D.** Sabah fırını, Kenan hamur keserken. Az konuşur. Pazar gece? "Evdeydim." Peri bıçağın durduğunu görür: yalan. Maaşlar iki aydır geç: "Bu dükkân batıyor, hanımefendi. Herkes biliyor, Nadide Hanım hariç." Cengo dolabı açar (tel): içinde başka bir önlük, Badem Pastanesi. Kenan: "O… hediye." *(Kenan'ın şüphesi artar.)*
 - **E.** Kadıköy, Badem. Cengo "iş arıyorum" der; şef **Ayla Hanım** onu süzer: "Elin hamura yatkın değil." Kenan'ı sorar: "Pazar gece buradaydı, ondan ikiye. Deneme vardiyası. Profiterolü iyi; Susam'dan çıkarsa alırım." Ve: "Susam'ın merkezini geçen ay bize Ferruh Bey satmak istedi. Fiyatı tutmadı."
-- **F.** Eminönü, un çuvalları. Rüstem Bey Peri'yi görünce ayağa kalkar: "Susam afişi! Dükkânda hâlâ asılı." Peri gülümser, bilgiyi alır: Susam'ın büyük çeki cumartesi sabah karşılandı, hesaba 240 bin nakit yatmış. "Ben de şaşırdım. Karşılıksız çıkacak sanıyordum." Çeki Ferruh imzalamıştı; piyasada başka borçlar da var. Peri (çıkarken): "Cuma hasılatı cumartesi bankadaysa, pazar gece kasada ne vardı?"
+- **F.** Eminönü, un çuvalları. Rüstem Bey Peri'yi görünce ayağa kalkar: "Susam afişi! Dükkânda hâlâ asılı." Peri gülümser, bilgiyi alır: cumartesi sabah Susam'dan biri gelip un borcunu elden ödemiş, 240 bin, Susam poşetinde. "Ben de şaşırdım. Aylardır ödemiyorlardı." Getireni kalfa almış, Rüstem görmemiş. "Ferruh Bey çok sıkışık; piyasaya da borcu var." Peri (çıkarken): "Cuma'nın parası cumartesi borca gittiyse, pazar gece kasada ne vardı?"
 
 ## 7. Kanıt yolları
 
@@ -121,18 +121,18 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E).
 - **Yol 1 (kod + şifre):** B + A — alarmı ortak kodu bilen biri kapattı (Gizem ya da Ferruh); kasayı şifreyi bilen biri açtı (Kenan ya da Ferruh).
 - **Yol 2 (kod + önlük):** B + A — ortak kod (Gizem/Ferruh) + fişi çeken lacivert önlüklü (Kenan/Ferruh).
 - **Yol 3 (kod + fotoğraf, "aha!"):** B + C — Gizem döndüğünde içeride kasanın başında lacivert önlüklü biri vardı; alarm ondan 45 dk önce ortak kodla kapatılmıştı.
-- **Yol 4 (kod + çek):** B + F — kasa defterindeki 720.000 yalan: cuma hasılatı cumartesi bankaya gitmişti; deftere yazmayan şifreyi bilen biri (Kenan/Ferruh) + ortak kod (Gizem/Ferruh).
+- **Yol 4 (kod + borç):** B + F — sigortaya bildirilen 720.000 şişirilmiş: cuma hasılatı cumartesi borca gitmişti, kasada yoktu. Kasayı açıp defteri tutan şifreyi bilen biri (Kenan/Ferruh) + ortak kod (Gizem/Ferruh).
 - **Yol 5 (Kenan'ın gecesi):** D → E + A, C ya da F — Kenan Kadıköy'deydi; lacivert önlüklü, şifreyi bilen kalan tek kişi.
 
 **Kim yaptı?'da doğru kanıt çiftleri (Ferruh için):**
 - alarm_kodu + kasa_sifre
 - alarm_kodu + kamera_fis
 - alarm_kodu + gizem_foto
-- alarm_kodu + cek_karsilandi
+- alarm_kodu + borc_elden
 - kenan_deneme + kasa_sifre
 - kenan_deneme + kamera_fis
 - kenan_deneme + gizem_foto
-- kenan_deneme + cek_karsilandi
+- kenan_deneme + borc_elden
 
 **Zayıf kanıtlar:** her çiftin tek başına kalan yarısı; ayrıca maas_gec, merkez_satilik, ferruh_borc (sebep, kanıt değil).
 
@@ -146,7 +146,7 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E).
 | cam_iceriden + cam_sensor | Cam içeriden, alarm kapalıyken kırılmış. Dışarıdan gelen olmamış. |
 | kamera_fis + gizem_foto | Gece ofisteki lacivert önlük giyiyordu. Tezgâhtan biri değil. |
 | alarm_kodu + gizem_foto | Gizem döndüğünde alarm çoktan kapalıydı; içeride biri vardı. |
-| cek_karsilandi + kasa_sifre | Cuma hasılatı cumartesi bankaya gitmiş. Pazar gece kasada 720.000 yoktu. |
+| borc_elden + kasa_sifre | Cuma'nın parası cumartesi borca gitmiş. Pazar gece kasada 720.000 yoktu. |
 | kenan_yalan + kenan_deneme | Kenan'ın sakladığı şey bir iş denemesi. |
 | maas_gec + merkez_satilik | Susam batıyor ve merkez satılık. Nadide Hanım ikisini de bilmiyor. |
 
@@ -183,7 +183,7 @@ Ekranda: Gizem ve Kenan her zaman (girişte suçlanıyorlar); Ferruh her ipucund
 - **Cengo'nun komik anı:** un bulutu: bembeyaz, öksürerek "Ben… hayalet değilim."
 - **Kaçanı yakalayan şans:** Peri'nin döktüğü susam. Paranın saklandığı çuval da düşüşle açılır.
 - **Temizlenme:** Gizem Peri'ye pembe tezgâh önlüğünü uzatır: "Bunu giy, en azından renkli olursun." Gizem Peri'nin omzundan bir susam alıp yer: "Kavrulmamış." Peri bakar. Cengo un içinde güler, öksürür.
-- **İtiraf** (yakalanınca, her yolda aynı): Susam batıyor; maaşları ödeyemedi, merkezi satamadı. Cuma hasılatını cumartesi çeke yatırdı, deftere yazmadı. Pazar gece kasadakini un çuvalına sakladı, camı içeriden kırdı. Sigortadan 720.000 alacak, borçları kapatıp Nadide'ye "kurtardım" diyecekti. "Kızı da… biri suçlanmalıydı."
+- **İtiraf** (yakalanınca, her yolda aynı): Susam batıyor; maaşları ödeyemedi, merkezi satamadı. Cuma hasılatını cumartesi un borcuna verdi, deftere yazmadı. Pazar gece kasadakini un çuvalına sakladı, camı içeriden kırdı. Sigortadan 720.000 alacak, borçları kapatıp Nadide'ye "kurtardım" diyecekti. "Kızı da… biri suçlanmalıydı."
 
 ## 12. Kararlar *(gerçek artık biliniyor; dördü de açık)*
 
@@ -260,7 +260,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 | Nadide Hanım | giriş | Susam Pastanesi'nin kurucusu. Dükkânı on beş yıldır Ferruh'a bıraktı. Hırsızı bulmamızı istiyor. | — |
 | Gizem | giriş | Susam'da tezgâhtar. Pazar akşamı dükkânı o kapattı. Ferruh ondan şüpheleniyor. | `gizem_dondu` → Pazar gece dükkâna geri döndü. |
 | Kenan | giriş | Susam'ın müdürü. Sabah dükkânı o açtı. Eksper ondan şüpheleniyor. | `kenan_yalan` → Pazar gecesi için yalan söylüyor. · `kenan_deneme` → Pazar gece Kadıköy'de bir iş denemesindeydi. |
-| Ferruh | giriş | Susam'ı yöneten ortak. Nadide Hanım ona güveniyor. | `merkez_satilik` → Merkezi satmaya çalışmış. · `ferruh_borc` → Toptancıya çeki o imzalamış. |
+| Ferruh | giriş | Susam'ı yöneten ortak. Nadide Hanım ona güveniyor. | `merkez_satilik` → Merkezi satmaya çalışmış. · `ferruh_borc` → Toptancıya göre çok sıkışık. |
 | Sedat | B | Alarmcı. Cengo'ya borçlu. | — |
 | Ayla Hanım | E | Kadıköy'deki Badem Pastanesi'nin şefi. | — |
 | Rüstem Bey | F | Eminönü'nde un toptancısı. Susam afişini hatırlıyor. | — |
@@ -271,7 +271,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 |---|---|---|
 | 40.000 ₺ | vaka ücreti | V1 35.000 (yoksul müşteri), V2 50.000 (zengin, acil); orta hâlli esnaf, 2 gün |
 | 720.000 ₺ | sigortaya bildirilen hafta sonu hasılatı (cuma–pazar, 4 dükkân) | **tahmin:** dükkân başına günde ~60.000 ₺ (simit ~25–30 ₺, çay, pasta; kalabalık Karaköy merkezi) × 4 × 3 |
-| 240.000 ₺ | cuma hasılatı = karşılanan çek | aynı hesap, bir gün |
+| 240.000 ₺ | cuma hasılatı = elden ödenen un borcu | aynı hesap, bir gün |
 | 480.000 ₺ | kasadaki gerçek para (cumartesi + pazar), un çuvalında | aynı hesap, iki gün |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 | 5.000 ₺ | eksperin ikramiyesi | hikâye içi; ücretin ~%12'si |
@@ -293,7 +293,7 @@ Para çuvaldan çıktı; 480.000 ₺ Susam'ın kendi parası. Soru, sigortaya ne
 
 ## 19. Kontrol
 
-- [x] Giriş kurallarına uyuyor (Gizem ve Kenan anılıyor; Ferruh suçlanmıyor; ücret sonda; şifre, alarm, fiş, Badem, çek geçmiyor)
+- [x] Giriş kurallarına uyuyor (Gizem ve Kenan anılıyor; Ferruh suçlanmıyor; ücret sonda; şifre, alarm, fiş, Badem, borç ödemesi geçmiyor)
 - [x] 3 şüpheli; Kenan ve Gizem'in izi ve aklanması var
 - [x] Suçluyu kanıtlayan en az 2 yol var (5 yol)
 - [x] Hiçbir ipucu suçluyu tek başına göstermiyor (kural 21c): A, D, F → Kenan ya da Ferruh; B → Gizem ya da Ferruh; C → Kenan ya da Ferruh (Gizem'in kendi fotoğrafı); E → Kenan'ı aklar, Ferruh için yalnız sebep. Her doğru çift iki ayrı ipucundan
