@@ -110,6 +110,10 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 
 - En az bir dürüst karar. Kirli karar biraz daha çok kazandırır.
 - Cengo satırları yan yana okununca "doğru cevap" çıkmaz.
+- **Anı özeti** (bütün kararlarda aynı, anı defterinde Peri'nin notunun üstünde; kural 21d): 2–3 cümle —
+  müşteri ve kayıp, kim almıştı, neden. Yalnız her yolda oynayan itirafın (kovalamaca) söylediği;
+  karara göre değişen hiçbir şey yazılmaz. Diyalogda `## ani` bölümüne gider.
+  - **Anı özeti:**
 
 ## 13. Kapanış
 
@@ -168,6 +172,7 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] Her tutar fiyat tablosunda
 - [ ] En az bir dürüst karar var
 - [ ] Her kararın kısa sonucu var; ücret kesintilerinin açıklaması var (kural 22a)
+- [ ] Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor (kural 21d)
 - [ ] Yeni kanon varsa onaylandı
 - [ ] Künye kartları yazıldı, denetim aracından geçti
 - [ ] Yeni yan karakterlerin görünüşü onaylandı ve benzerlerinden ayrışıyor

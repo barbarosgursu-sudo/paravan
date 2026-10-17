@@ -10,7 +10,8 @@
 - `*metin*` → anlatı satırı (sahne notu)
 - Satır sonunda `{…}` → sahne değişiklikleri: `arka: A9`, `kare: K8`, `set: mantosuz`,
   `gir: serkan` (`gi: ofkeli` girenin ilk yüzü), `cik`, `gizle: cengo` (o figür ekrandan çıkar), `kime: peri` (konuk varken Cengo Peri'ye konuşuyor: sağa geçer; yoksa sola, konuğun karşısına; konuk satırında: solda Peri/Cengo), `peri: sasirmis` (dinleyen Peri), `cengo: gulen` (dinleyen Cengo), `bag: yuksek|dusuk`, `mekan`
-- `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması
+- `## sahne <ad>` vaka sahnesi · `## ipucu <id>` ipucu sahnesi · `## karar <id>` karar metinleri · `## ucret` kesinti açıklaması · `## cozum` Dosya çözüldü
+  · `## ani` anı defterindeki hatırlatma (`**ANI:**` tek paragraf, 2–3 cümle; zorunlu)
   (ÖNİZLEME = karar ekranındaki kısa sonuç, SONUÇ = seçimden sonraki metin, CENGO, DEFTER)
 - `⚙` ile başlayan satır: sahnenin ayarı (`arka`, `figurler`) ya da açıklama (veriye girmez)
 
@@ -247,6 +248,11 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **YOL:** Zincir anahtarla açılmış + Serkan'ın cuma borcu.
 **MASUM kemal:** Kemal masumdu: o gece teknesine branda örtüyordu. Beyaz boyayı öğleden sonra sürmüştü; Nazlı'yı set ekibi boyamıştı.
 **MASUM tuba:** Tuba masumdu: tekneyi "sahibiyim" diyen birinden kiralamıştı. Hırsız değil, kandırılmıştı.
+
+## ani
+⚙ Anı defterinde vakanın hatırlatması (Peri'nin notunun üstünde, bütün kararlarda aynı). Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği; karara göre değişen hiçbir şey yazılmaz. 2–3 cümle: müşteri ve kayıp, kim almıştı, neden.
+
+**ANI:** Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.
 
 ## karar sete_gotur
 ⚙ etiket: Rıza Reis'i sete götür

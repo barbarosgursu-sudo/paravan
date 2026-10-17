@@ -23,6 +23,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 - **Kim yaptı?:** yalnız adı duyulan şüpheliler ve eldeki olgular; tek hak; üç sonuç; sonuca göre yüzleşme sahnesi.
 - **Karar ekranı:** kapı yok, dört karar açık. Her seçenekte kısa sonuç, kasaya girecek toplam, Cengo'nun tavrı; ücret kesildiyse sebebi üstte.
 - **Sonuç:** kararın ara karesi, Cengo satırı, anı defteri notu, ücret + karar parası. Cengo göstergesi (alev) yok.
+- **Defter:** Zincir yalnız içinde bulunulan vaka; Anı biten her vaka için özet + kimi suçladın/karar/kasa + Peri'nin notu (`yeni_arayuz.js` → `defterZincir`, `defterAni`). Suçlama vaka bitince `_suclama_<vaka>` tohumunda kalır (`motor_yeni.js`).
 - **Kapanış:** satır `bag: yuksek|dusuk` ile bağın iki hâli (eşik +1).
 - **Kayıt:** oyun her adımda kaydedilir (suçlama dahil); açılışta sahne düzeyinde.
 - **Metin kaynağı:** sahneler ve karar metinleri `vakalar/vakaN_diyalog.md`'de; veriye `arac_diyalog.js` yazar.

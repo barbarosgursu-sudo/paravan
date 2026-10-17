@@ -185,6 +185,8 @@ Ekranda: Lâl her zaman (Müjgan girişte suçluyor); Tolga `tolga_kavga`, `tolg
 - **Bağ (veri adımında, 10 Ekim):** "Nikâhtan sonra söyle" +2 oldu (+1 değil). Sezon belgesi bu yolu "Cengo'ya göre en güzel iş" diye anıyor; +1 kalsaydı "yüz yüze" onu iki eksende de geçerdi (K8). Sıra artık: para arttıkça bağ düşüyor.
 - **Kasaya giren en az:** yanlış suçlama (25.000) + nikâhtan sonra (−10.000) = 15.000 ₺. Hiçbir yol eksiye düşmez.
 
+- **Anı özeti** (17 Ekim 2026'da eklendi, kural 21d; diyalogda `## ani`): Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.
+
 ## 13. Kapanış
 
 - **Sahne:** Büro, akşam. Kapı çalınır; Peri ev sahibi sanıp saklanır. Gelen Lâl: elinde bir kılıf. "Tayyörünü pastaya gömmüşsün. Bunu giy." Peri: "Beni hatırladınız mı sonunda?" Lâl: "Hiç unutmadım, Peri. Taç gecesi elbiseni ben diktim." 🟡 Kapıda döner: "Geçen hafta elime bir müzayede kataloğu geçti. İçinde senin tanıyacağın bir şey vardı." Peri: "Ne?" Lâl: "Sonra." Çıkar. 🟡

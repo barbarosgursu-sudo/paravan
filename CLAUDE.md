@@ -65,6 +65,9 @@ Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
 `--hepsi` eklenirse incelenen vakanın HER satırı `YENI_UI/satir/`'a görüntülenir ve `dokum.txt`'ye
 konuşan/kime/arka/kare/figür anahtarıyla dökülür — görselli tur denetimi (adım 11) bununla yapılır.
+Defter de vaka başına (17 Ekim 2026): Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın
+**anı özetini** (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi
+suçladığını, kararını, kasayı ve Peri'nin notunu basar (`yeni_arayuz.js → defterZincir, defterAni`).
 Künye (Kişiler) yalnız içinde bulunulan vakanın kişilerini gösterir (`yeni_arayuz.js → vnKisiGorunur`);
 portre `python3 arac_portre.py <figür> yeni_gorsel/portre/portre_<id>.webp`. Deneme reklamı (`reklamGoster`,
 +1 hak ve kaçırılan ipuçları) ve test için vaka düğmeleri (`VN_VAKA_ATLA`, yayından önce `false`):

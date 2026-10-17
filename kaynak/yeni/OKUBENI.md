@@ -7,11 +7,11 @@ verisine **dokunulmaz**; o hâlâ yayındaki `index.html`'in kaynağı.
 |---|---|
 | `game_data.json` | kanon, ekonomi, vakalar (V1, V2) |
 | `acilis.json` | açılış: dört konuşma sahnesi (haciz → manto → Cengo → kapı çalar) |
-| `kisiler.json` | anı defteri (karar başına). **Künye henüz yazılmadı** — her katman yeni metin ve Nurcan yüzeyi, sahibinin onayıyla yazılacak |
+| `kisiler.json` | künye (`kisiler`), anı defteri notu (`defter.<vaka>.<karar>`), anı özeti (`ani_ozet.<vaka>`, diyalogdaki `## ani`) |
 | `prolog.json` | boş; eski araçlar okuyabilsin diye duruyor |
 
 Kaynak metin: Vaka 2 için `sablon/vakalar/vaka2_diyalog.md` (`… arac_diyalog.js ../sablon/vakalar/vaka2_diyalog.md V2`). Vaka 1 için `sablon/vakalar/vaka1_diyalog.md` (sahneler, karar metinleri, anı
-defteri) — veriye `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`
+defteri, anı özeti) — veriye `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`
 yazar; **elle düzenlenmez.** Açılış için `kaynak/YENI_VAKA_1.md` → `acilis.json`.
 
 ## Komutlar
@@ -116,7 +116,8 @@ Satırda isteğe bağlı sahne değişiklikleri:
 
 **Seçim:** `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
 
-**Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`.
+**Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`; vakanın anı özeti `ani_ozet.V1`.
+Anı sekmesindeki "Suçladığın" ve "Kasaya" satırları motorun `_suclama_<vaka>` tohumundan (`"şüpheli:sonuç"`) okunur; bu tohumdan önceki kayıtlarda o iki satır çıkmaz.
 
 **Karar:** `onizleme` = karar ekranındaki tek cümlelik kısa sonuç (kural 22a); `para` = **karar parası** (ücretin üstüne eklenen ya da düşülen; çoğu 0),
 `gate: "yok"` (kapı yok), `seed_yaz` yok (tohum yok).

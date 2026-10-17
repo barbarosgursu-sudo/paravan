@@ -8,6 +8,16 @@
 
 ---
 
+## 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
+
+- **Zincir vaka başına:** Vaka 2'de Vaka 1'in olguları görünüyordu; artık yalnız içinde bulunulan vaka.
+- **Anı zenginleşti:** her biten vakada anı özeti (2–3 cümle) + kimi suçladın · karar · kasa + Peri'nin notu.
+  Yeni kural 21d (`2_kural_kitabi.md`); formda §12 altı, diyalogda `## ani` (zorunlu, `arac_diyalog.js` yoksa
+  yazmaz). Vaka 3'te yazılacak: `vaka3_baslangic.md` §1.
+- **Eski dallar:** Android aşamasında sahibi toplu silecek; liste `CLAUDE.md` sonunda (hatırlat).
+
+---
+
 ## 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı
 
 **Durum tek cümle:** Vaka 2 **dondu** (adım 14, ≈11 sa 06 dk). Sıradaki iki iş, sırayla:

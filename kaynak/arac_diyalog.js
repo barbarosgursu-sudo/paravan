@@ -5,7 +5,7 @@
 //
 // Kullanım:  cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md [V1]
 // Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,onizleme,sonuc,cengo_sonuc}
-//            yeni/kisiler.json    → defter.<vaka>.<karar>
+//            yeni/kisiler.json    → defter.<vaka>.<karar>, ani_ozet.<vaka> (## ani bölümü)
 // ⚙ satırı: arka, figurler, etiket, set (Peri'nin sahne başı kıyafeti), cset (Cengo'nun).
 // Yapı (ipuçlarının açılma koşulu, olgular, Kim yaptı?) bu aracın işi değil; veride durur.
 // Ardından: node dogrulayici.js yeni
@@ -27,12 +27,13 @@ const temiz = s => s.replace(/\*\(([^)]*)\)\*/g, "($1)").trim();   // *(yutkunar
 
 const hatalar = [];
 const sahneler = {}, ipuclari = {}, kararlar = {};
-let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null;
+let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null, aniMetin = null;
 for (const ham of md) {
   satirNo++;
   const s = ham.trim();
   let m;
   if (s === "## cozum") { hedef = { tur: "cozum", ayar: {}, metin: { yollar: [], masum: {} } }; cozumMetin = hedef; continue; }
+  if (s === "## ani") { hedef = { tur: "ani", ayar: {}, metin: {} }; aniMetin = hedef; continue; }
   if (s === "## ucret") { hedef = { tur: "ucret", ayar: {}, metin: {} }; ucretMetin = hedef; continue; }
   if ((m = s.match(/^## (sahne|ipucu|karar) (\S+)$/))) {
     hedef = { tur: m[1], ad: m[2], ayar: {}, satirlar: [], metin: {} };
@@ -52,6 +53,11 @@ for (const ham of md) {
     if ((m = s.match(/^\*\*YOL:\*\*\s*(.+)$/))) hedef.metin.yollar.push(m[1].trim());
     else if ((m = s.match(/^\*\*MASUM (\S+):\*\*\s*(.+)$/))) hedef.metin.masum[m[1]] = m[2].trim();
     else hatalar.push(`${satirNo}: çözüm bölümünde tanınmayan satır`);
+    continue;
+  }
+  if (hedef.tur === "ani") {
+    if ((m = s.match(/^\*\*ANI:\*\*\s*(.+)$/))) hedef.metin.ani = m[1].trim();
+    else hatalar.push(`${satirNo}: anı bölümünde tanınmayan satır`);
     continue;
   }
   if (hedef.tur === "ucret") {
@@ -113,6 +119,10 @@ if (v.kim_yapti) {
   else v.kim_yapti.kesinti = { zayif: ucretMetin.metin.zayif, yanlis: ucretMetin.metin.yanlis };
   if (!cozumMetin || !cozumMetin.metin.yollar.length) hatalar.push("'## cozum' bölümü (YOL) yok");
   else v.kim_yapti.cozum = cozumMetin.metin;
+  // Anı defterinde vakanın hatırlatması (Peri'nin notunun üstünde). Yalnız her yolda oynayan
+  // itiraf sahnesinin söylediği yazılır — şablon 6. parça "Anı özeti".
+  if (!aniMetin || !aniMetin.metin.ani) hatalar.push("'## ani' bölümü (ANI) yok");
+  else { K.ani_ozet = K.ani_ozet || {}; K.ani_ozet[vakaId] = aniMetin.metin.ani; }
 }
 for (const d of v.decisions) if (!kararlar[d.id]) hatalar.push(`veride karar '${d.id}' var ama diyalogda metni yok`);
 

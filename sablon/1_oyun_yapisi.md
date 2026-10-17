@@ -101,6 +101,11 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
 - Seçimden sonra: eylem → sonuç → bedel.
 - Oyun oyuncuya not vermez.
 
+## Defter
+
+- **Zincir:** yalnız **içinde bulunulan** vakanın olguları ve çıkarımları (açık vaka yoksa son biten vaka). Önceki vakalar burada görünmez — künyedeki kuralın aynısı: geçmiş vakalar geçmişte kaldı. *(Sahibinin isteği, 17 Ekim 2026.)*
+- **Anı:** biten her vaka için bir kayıt, sırayla: **anı özeti** (2–3 cümle, kural 21d) → oyuncunun izi (kimi suçladı · sonucu, kararı, kasaya giren) → Peri'nin karara göre notu. Anı, vakalar arası tek geriye bakış yeridir.
+
 ## İki vaka tipi
 
 - **Bilmece:** Oyuncu da suçluyu bilmez, bulur.

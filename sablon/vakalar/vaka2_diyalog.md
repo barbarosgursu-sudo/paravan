@@ -289,6 +289,11 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **MASUM lal:** Lâl masumdu: dokuzda örtüye bakmadan kilitledi; gelinlik o sırada çoktan çıkmıştı. Borcu gerçekti, hırsızlığı değil.
 **MASUM tolga:** Tolga masumdu: atölyeden eli boş çıktı. Cumartesiyi boş istiyordu, ama gelinliğe dokunmadı.
 
+## ani
+⚙ Anı defterinde vakanın hatırlatması (Peri'nin notunun üstünde, bütün kararlarda aynı). Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği; karara göre değişen hiçbir şey yazılmaz. 2–3 cümle: müşteri ve kayıp, kim almıştı, neden.
+
+**ANI:** Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.
+
 ## karar anneye_anlat
 ⚙ etiket: Müjgan Hanım'a hemen anlat
 

@@ -41,6 +41,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 21. **Oyun cevabı söylemez.** Hiçbir ekran "suçlu X" demez; bunu oyuncu "Kim yaptı?"da söyler.
 21a. **Defter yalnız ara bulgu yazar.** Olgular birleşince deftere yazılan cümle ("Tekne sette") suçluyu asla söylemez.
 21c. **Hiçbir ipucu suçluyu tek başına göstermez** (sahibinin görselsiz testi, 8 Ekim 2026). Adı, ona özgü bir eşya ya da itiraf tek ipucunda verilmez; her ipucunun bilgisi en az iki şüpheliye uyar ya da masum bir açıklaması vardır. Suçlu, en az iki ipucunun birleşmesiyle bulunur (K19 denetler: hiçbir doğru kanıt çifti tek ipucundan çıkmaz).
+21d. **Anı özeti yalnız herkesin duyduğunu yazar** (sahibinin isteği, 17 Ekim 2026). Anı defterinde her biten vakanın üstünde 2–3 cümlelik hatırlatma durur (müşteri ve kayıp, kim almıştı, neden). Yalnız her yolda oynayan itiraf sahnesinin söylediği girer: bir ipucunda kalmış ayrıntı ya da karara göre değişen sonuç girmez. Kimi suçladığın, kararın ve kasaya giren oyunun kendi kaydından yazılır.
 21b. **Kilit açarak bulunan kanıt** (Cengo'nun teli) "Kim yaptı?"da geçerlidir; mahkemede geçmemesi yalnız espri olarak kullanılır.
 
 ## E. Karar

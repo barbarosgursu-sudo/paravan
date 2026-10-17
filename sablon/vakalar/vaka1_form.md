@@ -173,6 +173,8 @@ Ekranda: Kemal her zaman (Rıza girişte suçluyor); Tuba 3. ipucundan sonra; Se
 - **Kısa sonuçlar (karar ekranı, kural 22a):** sete götür → "Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir." · her şeyi anlat → "Tekne yarın döner. Baba oğul küser." · Serkan'la anlaş → "Rıza'ya yalan söylersin. Tekne üç gün sonra döner; Rıza ücretten 3.000 ₺ kırar." · susmayı sat → "Yapımcı sana 10.000 ₺ öder. Tekne üç gün sette kalır."
 - Cengo satırları yan yana: üçü espri, yalnız bağı düşüren kararda Cengo susar; "doğru cevap" çıkmaz.
 
+- **Anı özeti** (17 Ekim 2026'da eklendi, kural 21d; diyalogda `## ani`): Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.
+
 ## 13. Kapanış
 
 - **Sahne:** Büro, akşam. Kapı kilitlenmez; Cengo telle kilitler, teli Peri'ye verir. "Yarın gelin." "Maaş?" "Alacağınıza yazılır."

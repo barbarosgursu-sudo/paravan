@@ -47,6 +47,11 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 - **Künye vaka başına (16 Ekim):** künyede yalnız o vakanın kişileri (+ Peri, Cengo). Her konuşan kişiye
   künye kaydı (adı olan herkes; Vaka 2'de Saadet unutulmuştu) ve portre. Önceki vakadan dönen kişi
   için `tanisma` dizi olur.
+- **Defter vaka başına + anı özeti (17 Ekim, sahibinin isteği):** Zincir sekmesi yalnız içinde bulunulan
+  vakayı gösterir. Anı sekmesinde her biten vakanın üstünde 2–3 cümlelik **anı özeti** durur
+  (müşteri ve kayıp, kim almıştı, neden; yalnız kovalamacadaki itirafın söylediği — kural 21d).
+  Formda §12'nin altına yazılır, diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider;
+  bölüm yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`.
 - **Kıyafet:** hikâye gerektirirse vaka içinde değişebilir (her yeni kıyafet = ifade seti, ~6–8 figür).
 - **Künye portresi (16 Ekim, sahibi buldu: Vaka 2'nin yedi konuğunda yoktu):** her yeni kişinin figürü
   gömülünce `python3 arac_portre.py <figür_normal> yeni_gorsel/portre/portre_<id>.webp` + `gorseller.json`.

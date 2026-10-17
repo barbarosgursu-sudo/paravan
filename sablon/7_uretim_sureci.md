@@ -125,6 +125,7 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 **Karar ve para**
 - En az bir dürüst karar her yolda açık.
 - Her kararın kısa sonucu (önizleme) ve her ücret kesintisinin açıklaması var (kural 22a).
+- Anı özeti var: diyalogda `## ani` yoksa `arac_diyalog.js` yazmaz, `test_yeni_arayuz.js` de eksiği yakalar. İçeriği (yalnız itirafın söylediği, kural 21d) bulanık replik taramasında okunur.
 - Kasa hiç eksiye düşmüyor; gider, borç, tohum yok.
 - Metindeki her tutar fiyat tablosunda.
 
