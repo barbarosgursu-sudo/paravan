@@ -45,6 +45,9 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
   ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
   "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Diyalog **baştan bu ölçüyle yazılır**;
   tarama yalnız kaçanı yakalar. Vaka 3'te sahibi bunu Onay 2'den önce istedi, 109 replik sonradan açıldı.
+- **Neden kaçıyor?** (17 Ekim 2026, sahibinin kararı; 1. parça "Yüzleşme sahneleri") Her yüzleşmede suçlunun paniği
+  somut bir tetikleyiciye bağlı mı: kanıt yalanını çürütüyor ya da sakladığı şey tehlikeye giriyor? "His mi?", "Neredeydin?",
+  "Fırına bakayım" gibi cevabı kolay bir sözle kaçış yazılmaz. Vaka 3'te üç yüzleşme bu yüzden yeniden yazıldı.
 
 Düzeltme yalnız **netleştirme**dir (hikâyeye yeni olgu eklenmez; eklenecekse önce sahibine
 sorulur — CLAUDE.md çalışma kuralı). Bulunanlar ve yapılanlar sahibine **tek liste** hâlinde

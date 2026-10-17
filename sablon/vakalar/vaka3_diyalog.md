@@ -209,7 +209,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor.
 **NADİDE [kirgin]:** Ferruh… Doğru mu bu? {gir: nadide, kime: peri}
 **FERRUH [terli]:** Nadide Hanım… {gir: ferruh}
-*Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra imalathaneye dönüp koşuyor.* {cik, kare: K40}
+*Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra parayı sakladığı depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_zayif
 ⚙ arka: A23b · figurler: peri, cengo · set: trenckot · cset: haki
@@ -218,9 +218,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [normal]:** Dükkânı siz soydunuz, Ferruh Bey. {gir: ferruh}
 **FERRUH [normal]:** Ben mi? Kırk beş yıllık dükkân, ben mi? Kanıtınız ne? {gir: ferruh}
 **PERİ [utanmis]:** …Şimdilik bir his.
-**NADİDE [kirgin]:** His mi? Peki Ferruh, sen söyle: pazar gece neredeydin? {gir: nadide, kime: peri}
-**FERRUH [terli]:** *(yüzü değişerek)* Evde… uyuyordum. Bir dakika, fırın yanıyor! {gir: ferruh}
-*Ferruh imalathaneye dönüp koşuyor.* {cik, kare: K40}
+**NADİDE [kirgin]:** His yetmez. Yarın sabah eksper geliyor; dükkânı baştan aşağı arayacak, depodaki un çuvallarına kadar. Ferruh, depo anahtarını hazırla. {gir: nadide, kime: peri}
+**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
+*Ferruh depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_kenan
 ⚙ arka: A23b · figurler: peri, cengo · set: trenckot · cset: haki
@@ -229,10 +229,10 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [kas]:** Kenan Bey. Dükkânı siz soydunuz. {gir: kenan}
 **KENAN [kizgin]:** *(önlüğünü çıkarıp)* Pazar gece Kadıköy'deydim. İş denemesindeydim. {gir: kenan}
 **KENAN [kizgin]:** Gitmek istiyordum, çünkü bu dükkân batıyor. Ferruh Bey size söylemedi mi?
-**NADİDE [kirgin]:** Batıyor mu? Ferruh? {gir: nadide, kime: peri}
+**NADİDE [kirgin]:** Batıyor mu? Yarın sabah eksper gelince her şeyi açacağız Ferruh: defterleri de, depoyu da, un çuvallarına kadar. {gir: nadide, kime: peri}
 *Herkes Ferruh'a dönüyor.* {gir: ferruh, gi: terli, kare: K40}
-**FERRUH [terli]:** Ben… fırına bir bakayım, yanmasın. {gir: ferruh}
-*Ferruh imalathaneye dönüp koşuyor.* {cik, kare: K40}
+**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
+*Ferruh depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_gizem
 ⚙ arka: A23b · figurler: peri, cengo · set: trenckot · cset: haki
@@ -241,10 +241,10 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [kas]:** Gizem. Dükkânı sen soydun. {gir: gizem}
 **GİZEM [kas]:** Oradaydım, evet. Simit için. {gir: gizem}
 **GİZEM [korkmus]:** Ama içeride biri vardı. Bak. *(telefonu tezgâha bırakıyor)*
-**NADİDE [kirgin]:** Lacivert önlük… {gir: nadide, kime: peri}
-*Fotoğraf elden ele geçiyor. Ferruh fotoğrafa bakıyor; herkes ona dönüyor.* {gir: ferruh, gi: terli, kare: K40}
-**FERRUH [terli]:** Bu fotoğraf… çok bulanık. Kim olduğu belli değil. {gir: ferruh}
-*Ferruh imalathaneye dönüp koşuyor.* {cik, kare: K40}
+**NADİDE [kirgin]:** Lacivert önlük… Bu fotoğrafı yarın sabah eksper görecek. Dükkânı da baştan aşağı arayacak, depodaki un çuvallarına kadar. {gir: nadide, kime: peri}
+*Fotoğraf elden ele geçiyor. Herkes Ferruh'a dönüyor.* {gir: ferruh, gi: terli, kare: K40}
+**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
+*Ferruh depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne kovalamaca
 ⚙ arka: A25 · figurler: peri, cengo · set: trenckot · cset: haki
@@ -380,7 +380,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka3
 | K37 | Peri tezgâhın üstündeki kendi kocaman afişine bakakalmış; Ferruh gururla gösteriyor; Cengo sırıtıyor | ipucu dukkan |
 | K38 | Gizem apartman önünde yaşlı komşulara simit dağıtıyor; Peri ve Cengo yaklaşıyor | ipucu gizem |
 | K39 | Salı akşamı tezgâhın önü: Nadide, Ferruh, Kenan, Gizem; Peri ve Cengo karşılarında | yüzleşme açılışı (dört sonuç) |
-| K40 | Herkes Ferruh'a dönmüş; Ferruh imalathaneye koşuyor | yüzleşme kaçışı (dört sonuç) |
+| K40 | Herkes Ferruh'a dönmüş; Ferruh depoya koşuyor | yüzleşme kaçışı (dört sonuç) |
 | K41 | un bulutunda bembeyaz Cengo, yalnız gözleri | kovalamaca 1 |
 | K42 | Peri pekmez kazanının içinde, bacaklar kenardan havada | kovalamaca 2 |
 | K43 | susamlı Peri tablada kapaklanmış; Gizem kapıda | kovalamaca 3 |

@@ -18,6 +18,8 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 **Replikler anlaşılır yazılır (17 Ekim 2026, sahibinin kararı).** Çok kısa, şifreli cümle yok; her replik ilk
 okumada kim/neyi/neden söylediğini taşır, ama telefondaki kutuya (~110 harf) sığar. Ayrıntı ve örnekler:
 `sablon/2_kural_kitabi.md` kural 5, `sablon/7_uretim_sureci.md` → bulanık replik taraması ("Fazla kısa mı?").
+Aynı gün: **yüzleşmede suçlunun paniği somut bir sebebe bağlanır** (kanıt yalanı çürütür ya da sakladığı şey
+tehlikeye girer); zayıf bir sözle kaçış yok — `sablon/1_oyun_yapisi.md` → Yüzleşme sahneleri.
 
 **Hikâyeye yeni ayrıntı eklemek sahibinin işidir.** Metni kısaltmak, sızıntıyı
 kapatmak, hükmü kaldırmak, bulanık özneyi netleştirmek — bunlar onarımdır, yapılır.

@@ -87,6 +87,7 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
   - Doğru kişi, zayıf kanıt → suçlu inkâr eder, sonra paniğe kapılıp kaçar.
   - Yanlış şüpheli 1 → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
   - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
+- **Panik ve kaçışın somut sebebi olur** (sahibinin kararı, 17 Ekim 2026). Suçlu "Bir his", "Neredeydin?" gibi zayıf bir sözle kaçmaz. Kaçışı bir tetikleyici başlatır: ya kanıt yalanını çürütür (doğru kanıt), ya da **sakladığı şey tehlikeye girer** (biri, farkında olmadan, onun sakladığı yeri arayacağını söyler). Oyuncu kovalamacada "ha, bu yüzden kaçtı" diyebilmeli. Vaka 3: Nadide "Yarın eksper dükkânı arayacak, depodaki un çuvallarına kadar" der; para o çuvaldadır, Ferruh depoya koşar.
 - **Yüzleşmenin yeri:** dört sahne de kovalamacanın başladığı yerde geçer. Şüpheli orada değilse yüzleşme telefonla ya da onu oraya getiren bir sebeple yapılır.
 - **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez. Kesintinin sebebi karar ekranının üstünde, müşterinin ağzından yazılır ("Masum birini suçladın; Rıza Reis 15.000 ₺ kesti").
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.

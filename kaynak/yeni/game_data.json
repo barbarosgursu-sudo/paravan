@@ -2441,7 +2441,7 @@
             {"k": "ferruh", "i": "terli", "m": "Nadide Hanım…", "gir": "ferruh"},
             {
               "k": "not",
-              "m": "Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra imalathaneye dönüp koşuyor.",
+              "m": "Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra parayı sakladığı depoya doğru koşuyor.",
               "cik": true,
               "kare": "K40"
             }
@@ -2469,17 +2469,17 @@
             {
               "k": "nadide",
               "i": "kirgin",
-              "m": "His mi? Peki Ferruh, sen söyle: pazar gece neredeydin?",
+              "m": "His yetmez. Yarın sabah eksper geliyor; dükkânı baştan aşağı arayacak, depodaki un çuvallarına kadar. Ferruh, depo anahtarını hazırla.",
               "gir": "nadide",
               "kime": "peri"
             },
             {
               "k": "ferruh",
               "i": "terli",
-              "m": "(yüzü değişerek) Evde… uyuyordum. Bir dakika, fırın yanıyor!",
+              "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
               "gir": "ferruh"
             },
-            {"k": "not", "m": "Ferruh imalathaneye dönüp koşuyor.", "cik": true, "kare": "K40"}
+            {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
           ]
         },
         "yuzlesme_kenan": {
@@ -2505,10 +2505,21 @@
               "i": "kizgin",
               "m": "Gitmek istiyordum, çünkü bu dükkân batıyor. Ferruh Bey size söylemedi mi?"
             },
-            {"k": "nadide", "i": "kirgin", "m": "Batıyor mu? Ferruh?", "gir": "nadide", "kime": "peri"},
+            {
+              "k": "nadide",
+              "i": "kirgin",
+              "m": "Batıyor mu? Yarın sabah eksper gelince her şeyi açacağız Ferruh: defterleri de, depoyu da, un çuvallarına kadar.",
+              "gir": "nadide",
+              "kime": "peri"
+            },
             {"k": "not", "m": "Herkes Ferruh'a dönüyor.", "gir": "ferruh", "gi": "terli", "kare": "K40"},
-            {"k": "ferruh", "i": "terli", "m": "Ben… fırına bir bakayım, yanmasın.", "gir": "ferruh"},
-            {"k": "not", "m": "Ferruh imalathaneye dönüp koşuyor.", "cik": true, "kare": "K40"}
+            {
+              "k": "ferruh",
+              "i": "terli",
+              "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
+              "gir": "ferruh"
+            },
+            {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
           ]
         },
         "yuzlesme_gizem": {
@@ -2525,16 +2536,27 @@
             {"k": "peri", "i": "kas", "m": "Gizem. Dükkânı sen soydun.", "gir": "gizem"},
             {"k": "gizem", "i": "kas", "m": "Oradaydım, evet. Simit için.", "gir": "gizem"},
             {"k": "gizem", "i": "korkmus", "m": "Ama içeride biri vardı. Bak. (telefonu tezgâha bırakıyor)"},
-            {"k": "nadide", "i": "kirgin", "m": "Lacivert önlük…", "gir": "nadide", "kime": "peri"},
+            {
+              "k": "nadide",
+              "i": "kirgin",
+              "m": "Lacivert önlük… Bu fotoğrafı yarın sabah eksper görecek. Dükkânı da baştan aşağı arayacak, depodaki un çuvallarına kadar.",
+              "gir": "nadide",
+              "kime": "peri"
+            },
             {
               "k": "not",
-              "m": "Fotoğraf elden ele geçiyor. Ferruh fotoğrafa bakıyor; herkes ona dönüyor.",
+              "m": "Fotoğraf elden ele geçiyor. Herkes Ferruh'a dönüyor.",
               "gir": "ferruh",
               "gi": "terli",
               "kare": "K40"
             },
-            {"k": "ferruh", "i": "terli", "m": "Bu fotoğraf… çok bulanık. Kim olduğu belli değil.", "gir": "ferruh"},
-            {"k": "not", "m": "Ferruh imalathaneye dönüp koşuyor.", "cik": true, "kare": "K40"}
+            {
+              "k": "ferruh",
+              "i": "terli",
+              "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
+              "gir": "ferruh"
+            },
+            {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
           ]
         },
         "kovalamaca": {

@@ -162,10 +162,10 @@ Ekranda: Gizem ve Kenan her zaman (girişte suçlanıyorlar); Ferruh her ipucund
 
 | sonuç | ücret | yüzleşme (özet) |
 |---|---|---|
-| Ferruh, doğru kanıt | 40.000 ₺ | Peri iki kanıtı sayar. Ferruh papyonunu düzeltir, gülümser: "Tanık olarak siz de…" Nadide: "Ferruh." Ferruh imalathaneye döner, koşar. |
-| Ferruh, zayıf kanıt | 30.000 ₺ | Ferruh: "Ben mi? Kırk beş yıllık dükkân, ben mi?" Peri tutturamaz. Nadide "Pazar gece neredeydin?" diye sorunca Ferruh'un yüzü değişir, imalathaneye koşar. |
-| Kenan | 20.000 ₺ | Kenan önlüğünü çıkarır: "Pazar gece Kadıköy'deydim, iş denemesindeydim. Gitmek istiyordum, çünkü bu dükkân batıyor. Patron söylemedi mi?" Nadide Ferruh'a döner; Ferruh koşar. |
-| Gizem | 20.000 ₺ | Gizem telefonunu masaya bırakır: "Oradaydım, evet. Simit için. Ama içeride biri vardı, bak." Fotoğraf elden ele; Ferruh fotoğrafa bakar, imalathaneye koşar. |
+| Ferruh, doğru kanıt | 40.000 ₺ | Peri iki kanıtı sayar. Ferruh papyonunu düzeltir, gülümser: "Tanık olarak siz de…" Nadide: "Ferruh… Doğru mu bu?" Ferruh parayı sakladığı depoya koşar. |
+| Ferruh, zayıf kanıt | 30.000 ₺ | Ferruh: "Ben mi? Kırk beş yıllık dükkân, ben mi?" Peri tutturamaz. Nadide "Yarın eksper dükkânı arayacak, depodaki un çuvallarına kadar" deyince Ferruh'un yüzü bembeyaz olur, depoya (paraya) koşar. |
+| Kenan | 20.000 ₺ | Kenan önlüğünü çıkarır: "Pazar gece Kadıköy'deydim, iş denemesindeydim. Gitmek istiyordum, çünkü bu dükkân batıyor. Patron söylemedi mi?" Nadide: "Yarın eksper her şeyi açacak, depoyu da." Ferruh depoya koşar. |
+| Gizem | 20.000 ₺ | Gizem telefonunu masaya bırakır: "Oradaydım, evet. Simit için. Ama içeride biri vardı, bak." Nadide: "Bu fotoğrafı yarın eksper görecek; depoyu da arayacak." Ferruh depoya koşar. |
 
 - **Dosya çözüldü:** yolların sade dili (§7); masumlar: *Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi; alarm onun koduyla değil, ortak kodla kapatıldı. Yalanı iş aradığı içindi.* · *Gizem masumdu: kasanın şifresini bilmez; döndüğünde alarm çoktan kapalıydı ve kasanın başında lacivert önlüklü biri vardı. Yalnız bayat simit almıştı.*
 - **Kesinti:** zayıf → "Anlaşılan ücret 40.000 ₺. Kanıtın zayıf kaldı; Nadide Hanım 10.000 ₺ kesti." · yanlış → "Anlaşılan ücret 40.000 ₺. Masum birini suçladın; Nadide Hanım 20.000 ₺ kesti."
