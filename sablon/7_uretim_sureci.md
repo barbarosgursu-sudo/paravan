@@ -41,6 +41,10 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
 - **Espri tutuyor mu?** Espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
 - **Sıra:** cevap sorudan, tepki olaydan sonra mı; iki iş tek replikte karışmış mı?
 - **Ne istiyor?** Karakterin bu satırdaki niyeti (iltifat mı, iğne mi, yalan mı) belli mi?
+- **Fazla kısa mı?** (17 Ekim 2026, sahibinin kararı; kural kitabı 5) Replik tek başına okununca normal bir oyuncu
+  ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
+  "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Diyalog **baştan bu ölçüyle yazılır**;
+  tarama yalnız kaçanı yakalar. Vaka 3'te sahibi bunu Onay 2'den önce istedi, 109 replik sonradan açıldı.
 
 Düzeltme yalnız **netleştirme**dir (hikâyeye yeni olgu eklenmez; eklenecekse önce sahibine
 sorulur — CLAUDE.md çalışma kuralı). Bulunanlar ve yapılanlar sahibine **tek liste** hâlinde

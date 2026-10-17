@@ -10,7 +10,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 2. **Gizem gerçektir.** Oyuncuyu kandıran, hile yapan gizem yok.
 3. **Hafif ama bedelli.** Bedel utanç, para, gurur ya da bir fırsattır; ölüm ya da hapis değil.
 4. **Anlatıcı yok.** Sahne, diyalog ve kısa, tarafsız sahne notları.
-5. **Kısa replik.** Bir replik bir satırı geçerse bölünür.
+5. **Anlaşılır replik** (sahibinin kararı, 17 Ekim 2026). Replik ilk okumada anlaşılır: kim, neyi, neden söylüyor belli olur. Çok kısa, şifreli cümle yazılmaz ("Senin defterin ayrı, oğlum." → "Seni tanırım oğlum. Dükkânda veresiye defterin var; o borcun ayrı."; "Önce dükkân." → "İşe soygunun olduğu yerden, dükkândan başlarız."). Espri de açıklanmaz ama kurulumu görünür olur. Aptala anlatır gibi uzatılmaz: bir replik telefondaki yazı kutusuna (4 satır, ~110 harf) sığar; geçerse bölünür. Ölçü Vaka 3: ortalama ~50 harf (Vaka 2'de 37'ydi ve çok kısa bulundu).
 
 ## B. Peri ve Cengo
 
