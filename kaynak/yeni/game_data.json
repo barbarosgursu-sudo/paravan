@@ -1871,17 +1871,19 @@
                 "gir": "sedat"
               },
               {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Sedat, Susam'ın alarmını sen takmıştın. Pazar gecenin kaydını göster.",
+                "gir": "sedat"
+              },
+              {
                 "k": "sedat",
                 "i": "normal",
-                "m": "Cengo abi! Geçen ay taktığım bir alarm bütün gece boşu boşuna öttü. Kimseye söylemedin, değil mi?",
+                "m": "Göstereyim abi, sana borçluyum. Geçen ay anahtarı kamyonetin içinde unutmuştum; kapıyı telinle sen açtın.",
                 "gir": "sedat",
                 "kime": "cengo"
               },
-              {
-                "k": "cengo",
-                "i": "gulen",
-                "m": "Ben bir şey duymadım. Ama senin alarmın her şeyi duyar. Pazar gece kayıtta ne var?"
-              },
+              {"k": "cengo", "i": "gulen", "m": "Telim hâlâ cebimde. Kayıtta ne var?"},
               {
                 "k": "sedat",
                 "m": "Bakayım. (tableti açıp) Pazar gece, on bire on altı kala alarm kapatılmış. Dükkânın ortak koduyla.",

@@ -100,8 +100,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ Kural 21c: ortak kod Gizem'e de Ferruh'a da uyar (Gizem'i şüpheli gösterir, Kenan'ı aklar). Ferruh adıyla anılır.
 
 *Susam'ın arka sokağı. Gri iş tulumlu, tıknaz bir adam kamyonetin kapısında, kulağında kalem.* {gir: sedat}
-**SEDAT [normal]:** Cengo abi! Geçen ay taktığım bir alarm bütün gece boşu boşuna öttü. Kimseye söylemedin, değil mi? {gir: sedat, kime: cengo}
-**CENGO [gulen]:** Ben bir şey duymadım. Ama senin alarmın her şeyi duyar. Pazar gece kayıtta ne var?
+**CENGO [normal]:** Sedat, Susam'ın alarmını sen takmıştın. Pazar gecenin kaydını göster. {gir: sedat}
+**SEDAT [normal]:** Göstereyim abi, sana borçluyum. Geçen ay anahtarı kamyonetin içinde unutmuştum; kapıyı telinle sen açtın. {gir: sedat, kime: cengo}
+**CENGO [gulen]:** Telim hâlâ cebimde. Kayıtta ne var?
 **SEDAT:** Bakayım. *(tableti açıp)* Pazar gece, on bire on altı kala alarm kapatılmış. Dükkânın ortak koduyla. {kime: cengo}
 **SEDAT:** Gece yarısına beş kala yine ortak kodla kurulmuş. Sabah altı buçukta müdür koduyla açılmış.
 **PERİ [merakli]:** Ortak kodu kim bilir?
