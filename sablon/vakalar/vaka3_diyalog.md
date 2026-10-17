@@ -265,10 +265,12 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **FERRUH:** Sigortadan yedi yüz yirmi bin alacaktım. Borçları kapatıp Nadide Hanım'a "kurtardım" diyecektim.
 **GİZEM [kas]:** Beni de suçlayacaktın. {gir: gizem}
 **FERRUH [itiraf]:** Biri suçlanmalıydı. {gir: ferruh}
-*Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor. Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.* {kare: K45, set: onluklu}
-**GİZEM [isveli]:** Susamın kavrulmamış tatlım. Fırına girmeden olmaz. {gir: gizem, kime: peri}
-**PERİ [sinirli]:** Ben pembe giymem.
-**GİZEM [isveli]:** Bu gece giyersin tatlım. Susamdan iyidir.
+*Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.* {kare: K45}
+**GİZEM [isveli]:** Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın. {gir: gizem, kime: peri}
+**PERİ [sinirli]:** Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem.
+**GİZEM [isveli]:** Ya pembe önlük ya susam, tatlım. Seç.
+*Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.* {set: onluklu, peri: sinirli}
+**GİZEM [isveli]:** Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz.
 
 ---
 

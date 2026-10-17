@@ -2616,21 +2616,23 @@
             },
             {"k": "gizem", "i": "kas", "m": "Beni de suçlayacaktın.", "gir": "gizem"},
             {"k": "ferruh", "i": "itiraf", "m": "Biri suçlanmalıydı.", "gir": "ferruh"},
-            {
-              "k": "not",
-              "m": "Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor. Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.",
-              "kare": "K45",
-              "set": "onluklu"
-            },
+            {"k": "not", "m": "Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.", "kare": "K45"},
             {
               "k": "gizem",
               "i": "isveli",
-              "m": "Susamın kavrulmamış tatlım. Fırına girmeden olmaz.",
+              "m": "Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın.",
               "gir": "gizem",
               "kime": "peri"
             },
-            {"k": "peri", "i": "sinirli", "m": "Ben pembe giymem."},
-            {"k": "gizem", "i": "isveli", "m": "Bu gece giyersin tatlım. Susamdan iyidir."}
+            {"k": "peri", "i": "sinirli", "m": "Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem."},
+            {"k": "gizem", "i": "isveli", "m": "Ya pembe önlük ya susam, tatlım. Seç."},
+            {
+              "k": "not",
+              "m": "Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.",
+              "set": "onluklu",
+              "peri": "sinirli"
+            },
+            {"k": "gizem", "i": "isveli", "m": "Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz."}
           ]
         },
         "kapanis": {
