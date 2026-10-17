@@ -202,6 +202,9 @@ kısa kalan bir **takım elbise**.
 
 ## VAKA 3 — SİMİT SOYGUNU · *Columbo tipi*
 
+> **17 Ekim 2026, sahibinin kararı:** konu bu, ama tip **Bilmece** (oyuncu da suçluyu bilmez). Yan karakter
+> **Gizem**, tezgâhtar (`sablon/3_kanon_kaydi.md`). Güncel durum: `sablon/vakalar/vaka3_baslangic.md` §1.
+
 **Oyuncu baştan görür:** bir pastane zincirinin sahibi, batmak üzere olduğu için
 kendi merkez dükkânını sigorta için "soyduruyor". Ve iki tanık lazım ona: güvenilir
 görünen, ama işi bilmeyen iki dedektif. Peri ile Cengo'yu tutar.
@@ -381,5 +384,5 @@ Eski oyun 63 görseldi. Düşürmenin iki yolu (sahibinin kararı):
 tamamen masum çizilir; hiçbir romantik ya da cinsel çerçeveye girmez. Yan karakterle
 ilgili dekolte kararı yalnızca yan karakter içindir.
 
-**Açık kalan:** yan karakterin adı ve kişiliği; çırak mı garson mu; Cengo'nun
-kızının adı.
+**Açık kalan:** ~~yan karakterin adı ve kişiliği; çırak mı garson mu~~ (17 Ekim 2026: Gizem, tezgâhtar,
+hazırcevap, seksi ve işveli — `sablon/3_kanon_kaydi.md`); Cengo'nun kızının adı.

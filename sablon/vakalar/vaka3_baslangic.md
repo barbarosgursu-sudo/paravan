@@ -23,6 +23,8 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 - **Peri her zaman üstün (17 Ekim, sahibinin kararı):** Vaka 2 kuralı sürer — Peri vakadaki kadınların içinde
   her zaman en gösterişli ve seksi olandır; Gizem'le yan yana Peri çok daha alımlı görünür. Kıskançlık bundan
   doğar: Peri üstün olduğu hâlde huzursuzlanır. Görsel promptlarına (adım 8) baştan konur.
+- **Gizem referans seti (17 Ekim):** Vaka 3'te yok — önce temel figür tek başına, onaydan sonra ifadeler.
+  Vaka 3 bitince sahibiyle karar: küçük set (8–10) ya da tam set (25, Peri/Cengo gibi). Vaka süresine girmez.
 
 - **Bulanık replik taraması** (adım 5'in sonu): Onay 2'den önce her replik "kime, neyi,
   nereden biliyor, espri, sıra, niyet" sorularıyla okunur; düzeltmeler sahibine tek listede

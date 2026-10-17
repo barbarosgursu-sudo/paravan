@@ -8,6 +8,21 @@
 
 ---
 
+## 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLAMADI; sahibi "Vaka 3'e başla" diyecek)
+
+**Durum tek cümle:** Vaka 3'ün çerçevesi sahibiyle konuşuldu; süre ölçümü ve form henüz başlamadı.
+Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 1 (form, `vaka3_form.md`).
+
+- **Tip: Bilmece** (Vaka 1–2 gibi). Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`1_oyun_yapisi.md`).
+- **Konu: Simit Soygunu** (`YENI_OYUN_SEZON.md`), Bilmece'ye çevrilmiş hâli: pastane sahibi sigorta için kendi
+  dükkânını sahte soyduruyor; oyuncu da bilmiyor. Taslak şüpheliler: sahip (suçlu), ortak/müdür (yanıltan iz),
+  Gizem (masum, tek gerçek tanık). Kararlar taslaktaki üçlü.
+- **Yan karakter: Gizem** — tezgâhtar, yirmili yaşlarının ortası, hazırcevap, seksi ve işveli; Cengo'yla atışır,
+  Peri'yi zaman zaman kıskançlık krizine sokar; vakadan sonra büroya yerleşir (`3_kanon_kaydi.md`).
+- **Peri her zaman Gizem'den üstün** (Vaka 2 kuralı sürer; promptlara baştan).
+- **Gizem referans seti:** şimdi yok. Vaka 3'te önce temel figür; Vaka 3 bitince sahibiyle karar: küçük set
+  (8–10) ya da tam set (25). Ölçü: Cengo setinde C2–C25 ≈ 62 dk (commit saatleri, ~2,5 dk/görsel).
+
 ## 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 **Durum tek cümle:** Web'de paylaşım kuruldu ve iki vakanın da afişli kartı gömülü. Cengo referans seti de
