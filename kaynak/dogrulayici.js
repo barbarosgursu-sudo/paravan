@@ -815,7 +815,7 @@ function kural15_sahne(game, hatalar, acilis) {
       hatalar.push(`[K15] ${yer}: arka plan '${sahne.arka}' görsel listesinde yok.`);
     let set = sahne.set || "manto";
     // Cengo'nun kıyafet seti (Vaka 2'den itibaren): yoksa düz ifade listesi.
-    const cset = sahne.cset || null;
+    let cset = sahne.cset || null;
     if (cset && !(fig.cengo && fig.cengo.setler && fig.cengo.setler[cset]))
       hatalar.push(`[K15] ${yer}: Cengo'nun '${cset}' diye bir kıyafet seti yok.`);
     const yuru = (satirlar, yol) => satirlar.forEach((s, n) => {
@@ -824,6 +824,12 @@ function kural15_sahne(game, hatalar, acilis) {
         if (!(fig.peri && fig.peri.setler && fig.peri.setler[s.set]))
           hatalar.push(`[K15] ${y}: Peri'nin '${s.set}' diye bir kıyafet seti yok.`);
         else set = s.set;
+      }
+      // Cengo'nun kıyafeti satır ortasında değişebilir (Vaka 3: un bulutu).
+      if (s.cset) {
+        if (!(fig.cengo && fig.cengo.setler && fig.cengo.setler[s.cset]))
+          hatalar.push(`[K15] ${y}: Cengo'nun '${s.cset}' diye bir kıyafet seti yok.`);
+        else cset = s.cset;
       }
       if (s.arka && !arkalar.has(s.arka)) hatalar.push(`[K15] ${y}: arka plan '${s.arka}' görsel listesinde yok.`);
       if (s.kare && !kareler.has(s.kare)) hatalar.push(`[K15] ${y}: kare '${s.kare}' görsel listesinde yok.`);

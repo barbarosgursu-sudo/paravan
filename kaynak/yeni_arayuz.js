@@ -221,6 +221,7 @@ function vnFigurCiz(satir){
 function vnSatirGoster(satir){
   const $ = id => document.getElementById(id);
   if(satir.set){ vn.set = satir.set; vnSonSet = satir.set; }
+  if(satir.cset) vn.cset = satir.cset;   // Cengo'nun kıyafeti satır ortasında değişir (Vaka 3: un bulutu)
   if(satir.arka) vnArkaKoy(satir.arka, vn.hizli);
   if(satir.gir){ vn.mevcut.add(satir.gir); if(satir.gir !== "peri") vn.sag = satir.gir; }
   // gizle: o figür bu satırdan itibaren ekranda değil (ör. Cengo kestirmeye koştu); konuşunca geri gelir.
@@ -358,6 +359,7 @@ function vnGec(){
     const s = vn.kuyruk.shift(); vn.adim++;
     if(s.secim){ sec(s); continue; }
     if(s.set){ vn.set = s.set; vnSonSet = s.set; }
+    if(s.cset) vn.cset = s.cset;
     if(s.kasa){ vn.kasaGorunur = vnKasaGorunur = true; }
   }
   vnBitir();
@@ -366,7 +368,7 @@ function vnGec(){
 /* Geri: her öğe gösterilmeden hemen önceki durum saklanır; geri dönmek, bir önceki
    öğenin anlık durumunu geri yükleyip o öğeyi yeniden göstermektir. */
 function vnAnlikKaydet(){
-  vn.gecmis.push({ kuyruk: [...vn.kuyruk], set: vn.set, ifade: { ...vn.ifade },
+  vn.gecmis.push({ kuyruk: [...vn.kuyruk], set: vn.set, cset: vn.cset, ifade: { ...vn.ifade },
     mevcut: new Set(vn.mevcut), sag: vn.sag, sol: vn.sol, arka: vn.arka, kasaGorunur: vn.kasaGorunur,
     adim: vn.adim, secimN: vn.secimler.length });
   const b = document.getElementById("vnGeri"); if(b) b.hidden = vn.gecmis.length < 2 && !vn.onceki;
@@ -377,7 +379,7 @@ function vnGeri(){
   clearInterval(vn.yaziyor); vn.yaziyor = null;
   vn.gecmis.pop();
   const a = vn.gecmis.pop();
-  Object.assign(vn, { kuyruk: a.kuyruk, set: a.set, ifade: a.ifade, mevcut: a.mevcut, sag: a.sag, sol: a.sol,
+  Object.assign(vn, { kuyruk: a.kuyruk, set: a.set, cset: a.cset, ifade: a.ifade, mevcut: a.mevcut, sag: a.sag, sol: a.sol,
     kasaGorunur: a.kasaGorunur, secimde: false, cikacak: false, adim: a.adim });
   vn.secimler.length = a.secimN;
   vnSonSet = a.set;

@@ -9,7 +9,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 - **Mekân karesi:** figürler çekilir, yalnız arka plan görünür.
 - **Figürler:** Peri solda, sağda **tek** konuk. Konuşan aydınlanır, dinleyen kararır.
 - **İfade:** her satırda konuşanın ifadesi değişebilir. Dinleyen Peri'nin ifadesi de değişebilir.
-- **Kıyafet:** sahne içinde Peri'nin kıyafeti değişebilir (manto → mantosuz gibi).
+- **Kıyafet:** sahne içinde Peri'nin kıyafeti değişebilir (manto → mantosuz gibi); Cengo'nunki de (`cset`, Vaka 3: un bulutu).
 - **Giriş / çıkış:** konuk sahneye girer, sahneden çıkar.
 - **Figürsüz konuşan:** görseli olmayan biri adıyla konuşabilir (ses, asistan…).
 - **Seçim:** oyuncu bir cevap seçer; birkaç satır değişir, hikâye **dallanmaz.**

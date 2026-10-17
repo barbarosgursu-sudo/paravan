@@ -174,6 +174,7 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
 - **Kıyafet seti sahne başında:** diyalogda `⚙ … · set: tayyor · cset: takim`. `set` Peri'nin, `cset`
   Cengo'nun seti (`kanon.sahne.figurler.cengo.setler`). Cengo'nun sprite anahtarı set varsa
   `cengo.<set>.<ifade>`, yoksa `cengo.<ifade>` (Vaka 1). K15 ikisini de denetler.
+  Satırda `{cset: unlu}` Cengo'nun setini sahne ortasında değiştirir (Vaka 3, 17 Ekim 2026; Peri'nin `set`'inin kardeşi).
 - **Görselsiz test, arka plan ve kare de yer tutucu olabilir:** `gorseller.json` → `yer_tutucu`
   listesindeki kod gri bir alan olarak çizilir; üstünde `yer_tutucu_metin`'deki açıklama yazar.
   Görsel gelince kod `dosyalar`'a eklenir, iki listeden silinir (`test_yeni_arayuz.js` bayatı yakalar).

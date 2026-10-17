@@ -34,12 +34,12 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **CENGO [kas]:** Ne kadar?
 **NADİDE [kirgin]:** Yedi yüz yirmi bin. Ferruh defterden saydı, sigortaya o bildirdi. Kamera da bozukmuş, o gece. {kime: cengo}
 **NADİDE [normal]:** Ferruh dükkânı on beş yıldır yönetir. Rahmetlinin çırağıydı; ona güvenirim. {kime: peri}
-**NADİDE [kirgin]:** Sigortanın eksperi "içeriden iş" deyip ödemeyi durdurdu. Müdürüm Kenan'dan şüpheleniyor. Ferruh ise tezgâhtaki Gizem'den: dükkânı pazar akşamı o kapatmış.
-**NADİDE [normal]:** Ben ikisine de inanmam. Hırsız kimse bilmek isterim. Kırk yıldır unumu Rüstem'den alırım, bir kuruş borcum olmadı. Böyle bir dükkânda hırsız olmaz.
+**NADİDE [kirgin]:** Sigortanın eksperi "içeriden iş" deyip ödemeyi durdurdu. Müdürüm Kenan'dan şüpheleniyor.
+**NADİDE [kirgin]:** Ferruh ise tezgâhtaki Gizem'den: dükkânı pazar akşamı o kapatmış.
+**NADİDE [normal]:** Ben ikisine de inanmam. Hırsız kimse bilmek isterim. Kırk yıldır unumu Rüstem'den alırım; bir kuruş borcum olmadı. Ben dükkânımı bilirim.
 *Büro sıcak. Peri trençkotun kemerini çözüp bacak bacak üstüne atıyor; altında dar siyah bir elbise. Nadide Hanım hayranlıkla bakıyor.* {kare: K36}
 **CENGO [gulen]:** Gizli görev bitti mi? {kime: peri}
-**PERİ [kas]:** Mola.
-**PERİ [normal]:** Kırk bin.
+**PERİ [kas]:** Mola. Ücretimiz kırk bin.
 **NADİDE [normal]:** Kırk bin. Hırsız bulununca. {kime: peri}
 **CENGO [kas]:** Simitle ödenebiliyor mu?
 **NADİDE [normal]:** Senin defterin ayrı, oğlum. {kime: cengo}
@@ -49,7 +49,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ arka: A6 · figurler: peri, cengo · set: trenckot · cset: haki
 ⚙ İpucu adlarındaki kişiler burada duyulur (K18): Sedat (Cengo). Rüstem girişte Nadide'nin ağzından.
 
-*Nadide Hanım merdivenden iniyor. Peri gözlüğünü yeniden takıyor.*
+*Kapı kapanıyor. Peri gözlüğünü yeniden takıyor.*
 **CENGO [kas]:** Gizem'i tanırım. Bana veresiye yazar.
 **PERİ [kiskanc]:** Ne kadar?
 **CENGO [gulen]:** Gizem'e göre değişiyor.
@@ -89,7 +89,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **CENGO [kas]:** Kamera bozuk mu?
 **FERRUH [normal]:** Bozuk. Sabahtan beri böyle. {kime: cengo}
 *Cengo kayıt cihazının arkasına eğiliyor; fişi çekilmiş. Takıyor. Ekranda son kare: pazar gece 22.46, ofis kapısında lacivert bir önlük kolu.* {kare: D8}
-**CENGO [kas]:** Bozuk değil. Fişi çekilmiş. Dokuzu kırk altı geçe. {kare: D8}
+**CENGO [kas]:** Bozuk değil. Fişi çekilmiş. Pazar gece, on bire on dört kala. {kare: D8}
 **PERİ [merakli]:** Lacivert önlük. Kim giyer? {gir: ferruh}
 **FERRUH [terli]:** Kenan'la ben. Bir de… herkes giyebilir aslında. {kime: peri}
 **PERİ [kas]:** Tezgâh pembe giyiyor.
@@ -100,17 +100,17 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ Kural 21c: ortak kod Gizem'e de Ferruh'a da uyar (Gizem'i şüpheli gösterir, Kenan'ı aklar). Ferruh adıyla anılır.
 
 *Susam'ın arka sokağı. Gri iş tulumlu, tıknaz bir adam kamyonetin kapısında, kulağında kalem.* {gir: sedat}
-**SEDAT [normal]:** Cengo abi! O gece kimse duymadı, değil mi? {gir: sedat, kime: cengo}
+**SEDAT [normal]:** Cengo abi! Geçen ay boşuna öten alarmı kimseye söylemedin, değil mi? {gir: sedat, kime: cengo}
 **CENGO [gulen]:** Ben duymam. Ama alarm duyar. Pazar gece ne olmuş?
-**SEDAT:** Kayda bakayım. *(tableti açıp)* Dokuzu kırk dört geçe kapatılmış. Ortak kodla. {kime: cengo}
-**SEDAT:** On bire beş kala yine ortak kodla kurulmuş. Sabah altı buçukta müdür koduyla açılmış.
+**SEDAT:** Kayda bakayım. *(tableti açıp)* Gece on bire on altı kala kapatılmış. Ortak kodla. {kime: cengo}
+**SEDAT:** Gece yarısına beş kala yine ortak kodla kurulmuş. Sabah altı buçukta müdür koduyla açılmış.
 **PERİ [merakli]:** Ortak kodu kim bilir?
 **SEDAT:** Tezgâhtaki kız, Gizem. Bir de Ferruh Bey. Kenan'ın kendi kodu var; o gece kullanılmamış. {kime: peri}
 **CENGO [kas]:** Cam kırılınca ötmedi mi?
 **SEDAT:** Sensör hiç ötmemiş. Cam kırılırken alarm kapalıymış. {kime: cengo}
 **CENGO [kas]:** Yani kırılınca kimse duymasın diye önce kapatmışlar. {kime: peri}
 **PERİ [kas]:** Gizem'in kodu.
-**CENGO [normal]:** Bir de patronun.
+**CENGO [normal]:** Bir de Ferruh'un.
 **SEDAT:** Abi, ben bir şey demedim. {cik}
 
 ## ipucu gizem
@@ -127,11 +127,11 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [isveli]:** Tabii, tatlım.
 **GİZEM [isveli]:** Sana anlatırım. Ona değil. {kime: cengo}
 **PERİ [kiskanc]:** Ben buradayım.
-**GİZEM [normal]:** Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor, atılıyor diye. {kime: cengo}
+**GİZEM [normal]:** Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır. {kime: cengo}
 **GİZEM [normal]:** Arka kapıdan girdim. Alarm ötmedi. Ofiste ışık vardı.
 **GİZEM [korkmus]:** Tablanın fotoğrafını çektim, teyzelere atacaktım. Sonra arkada birini gördüm.
 *Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde simit tablası; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.* {kare: D9}
-**GİZEM [korkmus]:** Lacivert önlük. Onu Kenan'la patron giyer. Korktum, simitleri kaptım, kaçtım. {kare: D9}
+**GİZEM [korkmus]:** Lacivert önlük. Onu Kenan'la Ferruh Bey giyer. Korktum, simitleri kaptım, kaçtım. {kare: D9}
 **CENGO [kas]:** Neden kimseye söylemedin?
 **GİZEM [kas]:** Simit çalmış biri olarak mı? Patron zaten beni suçluyor. {kime: cengo}
 **PERİ [kiskanc]:** Simit almak da hırsızlıktır. {gir: gizem}
@@ -149,8 +149,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **KENAN [kizgin]:** Hamur durdu. {kime: peri}
 **CENGO [kas]:** Kasayı sen bulmuşsun. Altı buçukta.
 **KENAN [normal]:** Fırını ben açarım. Her sabah. {kime: cengo}
-**KENAN [kizgin]:** Maaşlar iki aydır geç yatıyor; maaşı Ferruh Bey yatırır. Bu dükkân batıyor, hanımefendi. Herkes biliyor, Nadide Hanım hariç. {kime: peri}
-**PERİ [merakli]:** Siz de batıyor musunuz?
+**KENAN [kizgin]:** Maaşlar iki aydır geç yatıyor. Maaşı Ferruh Bey yatırır. {kime: peri}
+**KENAN [kizgin]:** Bu dükkân batıyor, hanımefendi. Herkes biliyor, Nadide Hanım hariç.
+**PERİ [merakli]:** Siz de gidiyor musunuz?
 **KENAN [kizgin]:** Ben hamur keserim.
 *Kenan fırına dönüyor. Cengo duvardaki dolabı teliyle açıyor. İçinde katlanmış, başka bir pastanenin önlüğü.* {kare: D10}
 **CENGO [kas]:** Bu önlük sizin değil. Kadıköy'deki Badem Pastanesi'nin. {kare: D10}
@@ -248,9 +249,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ arka: A25 · figurler: peri, cengo · set: trenckot · cset: haki
 ⚙ Her sonuçta aynı. Peri erotik + gülünç, felaketi pekmez + susam (simit olur); Ferruh'u şans (dökülen susam) yakalar; para çuvaldan fışkırır.
 
-*Ferruh un deposuna dalıyor, çuval yığınını deviriyor. Cengo un bulutunun içinde kalıyor; bembeyaz, yalnız gözleri görünüyor.* {arka: A25b, kare: K41}
-**CENGO [kas]:** *(öksürerek)* Ben… hayalet değilim. {kare: K41, cset: unlu}
-*Peri Ferruh'un peşinden imalathaneye koşuyor. Pekmez kazanının ıslak kenarında kayıyor ve kazanın içine oturuyor.* {arka: A25, kare: K42, set: simit}
+*Ferruh un deposuna dalıyor, çuval yığınını deviriyor. Cengo un bulutunun içinde kalıyor; bembeyaz, yalnız gözleri görünüyor.* {arka: A25b, kare: K41, cset: unlu}
+**CENGO [kas]:** *(öksürerek)* Ben… hayalet değilim. {kare: K41}
+*Peri Ferruh'un peşinden imalathaneye koşuyor. Pekmez kazanının ıslak kenarında kayıyor ve kazanın içine oturuyor.* {arka: A25, kare: K42, set: simit, peri: sinirli}
 **PERİ [sinirli]:** *(kazanın içinden)* Bu… planın parçasıydı. {kare: K42}
 *Peri kazandan çıkarken susam tablasına kapaklanıyor. Baştan aşağı susamlı.* {kare: K43}
 **GİZEM:** Fırına verelim mi? {kare: K43}
@@ -333,8 +334,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 *Akşam. Büro. Peri pembe önlüğün altında, saçında hâlâ susam. Cengo ceketindeki unu silkeliyor.*
 *Kapı çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi!
-*Peri masanın altına giriyor. Cengo kapıyı açıyor. Eşikte Gizem: elinde simit tablası, omzunda çantası.* {gizle: peri, gir: gizem, gi: normal}
-**GİZEM [normal]:** İstifa ettim. Ferruh Bey'in yüzüne bir sabah daha bakmam. {gir: gizem, kime: cengo}
+*Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.* {gizle: peri, gir: gizem, gi: normal}
+**GİZEM [normal]:** İstifa ettim. O tezgâha bir sabah daha çıkmam. {gir: gizem, kime: cengo}
 **GİZEM [isveli]:** Burada çay ocağı var mı?
 **CENGO [gulen]:** Var. Çay yok.
 **GİZEM [isveli]:** Ben getiririm. {kime: cengo}
@@ -347,9 +348,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [normal]:** Ben kalıyorum. {bag: dusuk, kime: peri}
 **PERİ [sasirmis]:** Cengo… {bag: dusuk}
 *Cengo dönmüyor; merdivenden iniyor. Gizem iki çay koyuyor; birini Peri'nin önüne bırakıp kendininkiyle pencerenin önüne oturuyor. Cengo'nun sandalyesi boş.* {bag: dusuk, kare: K50}
-*Gizem tabladan bir simit alıp Cengo'ya uzatıyor.* {bag: yuksek}
-**CENGO [gulen]:** Veresiye mi? {bag: yuksek, kime: peri}
-**GİZEM [isveli]:** Hoş geldin simidi. {bag: yuksek, kime: cengo}
+**GİZEM [isveli]:** *(tabladan bir simit uzatarak)* Al bakalım. {bag: yuksek, gir: gizem, kime: cengo}
+**CENGO [gulen]:** Veresiye mi? {bag: yuksek}
+**GİZEM [isveli]:** Hoş bulduk simidi. {bag: yuksek, kime: cengo}
 *Cengo simidi ikiye bölüyor; büyük yarısını Peri'ye veriyor.* {bag: yuksek, kare: K51}
 **GİZEM [kas]:** Hıh. {bag: yuksek, kime: peri}
 **PERİ [normal]:** *(yarım simidi ısırarak)* Kavrulmuş. {bag: yuksek, cengo: yumusak}

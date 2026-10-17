@@ -100,8 +100,8 @@ aktif süre = toplam − aralar.
 | 1 Form | 17 Eki 14:19 (TSİ) | 17 Eki 14:30 | başlangıç = "Vaka 3'e başlayalım"; müşteri aile dışı (V1 baba–oğul tekrarı olmasın) |
 | 2 Onay 1 | 17 Eki 14:30 | 17 Eki 15:03 | onay; düzeltmeler: çek → elden borç, afiş = Nadide'nin imzalı hayran afişi, Peri kitaba göre dedektif kılığında, "Tabii, tabii" |
 | 3–4 Diyalog + veri + künye | 17 Eki 15:03 | 17 Eki 15:11 | doğrulayıcı PASS; testler geçti (V3: 9/14 küme çözer); künye aracı temiz; kapak testi görselsiz aşamada yer tutucuyu kabul eder |
-| 5 Görselsiz tur + bulanık replik taraması | 17 Eki 15:11 | | |
-| 6–7 Onay 2, hikâye donar | | | Vaka 2: 1 sa 56 dk |
+| 5 Görselsiz tur + bulanık replik taraması | 17 Eki 15:11 | 17 Eki 15:37 | `arac_yeni_tur.js` V3'e açıldı (yollar kod/foto/borc/badem/cozmez); 9 tur (5 yol × 4 sonuç × 4 karar) temiz; `--hepsi` 140 satır; motor eki: satırda `cset` (Cengo unlu); 11 bulanık replik düzeltmesi (saat ifadeleri ×3, 'patron' → Ferruh ×2, Gizem'in istifa cümlesi, Cengo'nun kime'si…) |
+| 6–7 Onay 2, hikâye donar | 17 Eki 15:37 | | Vaka 2: 1 sa 56 dk |
 | 8 Görsel listesi + promptlar | | | |
 | 9–10 Görseller, toplu işleme, yerleştirme | | | |
 | 11 Görselli tur | | | |
