@@ -353,7 +353,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 *Akşam. Büro. Peri pembe önlüğün altında, saçında hâlâ susam. Cengo ceketindeki unu silkeliyor.*
 *Kapı çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi!
-*Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.* {gizle: peri, gir: gizem, gi: normal}
+*Peri masanın altına giriyor.*
+*Kapıda Gizem: elinde simit tablası, omzunda çantası.* {gizle: peri, gir: gizem, gi: normal}
 **GİZEM [normal]:** Susam'dan istifa ettim. Beni suçlayan bir dükkânda bir gün daha çalışmam. {gir: gizem, kime: cengo}
 **GİZEM [isveli]:** Size bir çaycı lazım. Burada çay ocağı var mı?
 **CENGO [gulen]:** Ocak var. Çay yok, para hiç yok.

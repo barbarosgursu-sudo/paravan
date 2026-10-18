@@ -2685,9 +2685,10 @@
             },
             {"k": "not", "m": "Kapı çalınıyor: üç kere."},
             {"k": "peri", "i": "sasirmis", "m": "Ev sahibi!"},
+            {"k": "not", "m": "Peri masanın altına giriyor."},
             {
               "k": "not",
-              "m": "Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.",
+              "m": "Kapıda Gizem: elinde simit tablası, omzunda çantası.",
               "gizle": "peri",
               "gir": "gizem",
               "gi": "normal"
