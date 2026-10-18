@@ -1707,7 +1707,7 @@
         "kamera_fis": "Kamera bozuk değil: kayıt cihazının fişi pazar gece 22.46'da çekilmiş. Son karede ofis kapısında lacivert bir önlük kolu var. Lacivert önlüğü Kenan'la Ferruh Bey giyer; tezgâh pembe giyer.",
         "alarm_kodu": "Alarmcı Sedat'ın kaydına göre alarm pazar gece 22.44'te dükkânın ortak koduyla kapatılmış, 23.55'te aynı kodla kurulmuş. Ortak kodu Gizem'le Ferruh Bey bilir; Kenan'ın kendi müdür kodu var, o gece kullanılmamış.",
         "cam_sensor": "Cam sensörü hiç ötmemiş: cam kırılırken alarm kapalıymış.",
-        "gizem_dondu": "Gizem pazar gece 23.30'da artan simitleri almak için arka kapıdan dükkâna girdi; alarm ötmedi. Patron yasaklıyor, kimseye söylemedi.",
+        "gizem_dondu": "Gizem pazar gece on bir buçukta artan simitleri almak için arka kapıdan dükkâna girdi; alarm ötmedi. Patron yasaklıyor, kimseye söylemedi.",
         "gizem_foto": "Gizem'in 23.31'de çektiği simit fotoğrafında, arkada, ofiste kasanın başında lacivert önlüklü biri var; sırtı dönük. Gizem'e göre lacivert önlüğü Kenan'la Ferruh Bey giyer.",
         "kenan_yalan": "Kenan pazar gece evde olduğunu söylüyor; Peri'ye göre yalan.",
         "maas_gec": "Susam'da maaşlar iki aydır geç yatıyor; maaşı Ferruh Bey yatırır. Kenan: \"Bu dükkân batıyor.\"",
@@ -1944,8 +1944,8 @@
           "ico": "◈",
           "needs": [],
           "reveals": ["gizem_dondu", "gizem_foto"],
-          "text": "Gizem pazar gece 23.30'da artan simitler için dükkâna dönmüş. 23.31'deki fotoğrafında kasanın başında lacivert önlüklü biri var.",
-          "meta": "Gizem pazar gece 23.30'da artan simitler için dükkâna dönmüş. 23.31'deki fotoğrafında kasanın başında lacivert önlüklü biri var.",
+          "text": "Gizem pazar gece on bir buçukta artan simitler için dükkâna dönmüş. 23.31'deki fotoğrafında kasanın başında lacivert önlüklü biri var.",
+          "meta": "Gizem pazar gece on bir buçukta artan simitler için dükkâna dönmüş. 23.31'deki fotoğrafında kasanın başında lacivert önlüklü biri var.",
           "sahne": {
             "arka": "A27",
             "set": "trenckot",
@@ -1982,7 +1982,7 @@
               {
                 "k": "gizem",
                 "i": "normal",
-                "m": "Pazar gece on bir otuzda dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır.",
+                "m": "Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır.",
                 "kime": "cengo"
               },
               {"k": "gizem", "i": "normal", "m": "Arka kapıdan girdim. Alarm ötmedi. Ofiste ışık vardı."},
@@ -2051,7 +2051,7 @@
                 "gir": "kenan"
               },
               {"k": "kenan", "i": "kizgin", "m": "Uykumu da mı size soracağım?", "kime": "peri"},
-              {"k": "cengo", "i": "kas", "m": "Soygunu sabah ilk sen görmüşsün. Altı otuzda."},
+              {"k": "cengo", "i": "kas", "m": "Soygunu sabah ilk sen görmüşsün. Altı buçukta."},
               {
                 "k": "kenan",
                 "i": "normal",
@@ -2304,9 +2304,9 @@
         "hikaye": [
           "Susam Pastanesi batıyordu: maaşlar iki aydır gecikiyor, un toptancısına borç birikiyordu. Dükkânı yöneten Ferruh bunu Nadide Hanım'dan sakladı; merkezi gizlice Badem'e satmaya çalıştı, olmadı.",
           "Cumartesi sabahı kasadaki cuma hasılatını, iki yüz kırk bini alıp un borcunu elden ödedi; kasa defterine yazmadı.",
-          "Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz otuzda çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.",
+          "Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz buçukta çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.",
           "Ferruh gece on kırk dörtte döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.",
-          "On bir otuzda Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.",
+          "On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.",
           "Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı."
         ]
       },

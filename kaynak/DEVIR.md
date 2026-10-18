@@ -26,8 +26,8 @@ Aktif süre ≈ 4 sa 14 dk (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzelteb
   adım 8'de prompt yazılacak. Kural: `7_uretim_sureci.md` → "Saklanan kişi".
 - **Gizem sahnesi:** "Hepsi susamlı teyzeciğim" K38 karesinde kalır (kare kalkınca Peri karşısında görünüyordu).
   Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı".
-- **Saat dijital okunur** (kural kitabı 5b, bütün vakalar): Vaka 3'te bütün sözlü saatler çevrildi. Vaka 1–2'de
-  eski biçim duruyor (V2: "sekizi çeyrek geçe", "sekiz buçukta", "sekizi on geçe") — donmuş vakalar, sahibine soruldu.
+- **Saat "kala" ile geriye sayılmaz** (kural kitabı 5b, bütün vakalar): Vaka 3'te "on bire … kala", "gece yarısına beş
+  kala" dijitale çevrildi; cihazdan okunanlar ekrandaki gibi. "Buçuk", "çeyrek geçe" doğru — Vaka 2 olduğu gibi kalır (sahibi).
 - **Yeni kare eklerken üç yer** (`kanon.sahne.kareler` dahil): `kaynak/yeni/OKUBENI.md`.
 - **Açık, sahibine soruldu:** Vaka 2'deki aynı kalıp (`vaka2_diyalog.md:349`, Lâl gelirken Peri masanın arkasında,
   `gizle` aynı satırda) — Vaka 2 donmuş, dokunulmadı; sahibi isterse.

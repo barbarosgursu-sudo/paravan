@@ -40,8 +40,9 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
 - **Nereden biliyor?** Karakter bu bilgiyi ya da bu kişiyi nereden tanıyor; ekranda görüldü mü?
 - **Espri tutuyor mu?** Espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
 - **Sıra:** cevap sorudan, tepki olaydan sonra mı; iki iş tek replikte karışmış mı?
-- **Saat dijital mi?** (18 Ekim 2026, sahibinin kararı; kural kitabı 5b) Her saat, kim söylerse söylesin, dijital ekrandan
-  okunur gibi: "on kırk altı", "on bir otuzda" — "kala", "buçuk", "çeyrek geçe" yok. Yazılı yüzeylerde rakam.
+- **Saat "kala" ile mi söyleniyor?** (18 Ekim 2026, sahibinin kararı; kural kitabı 5b) "Sekiz buçuğa çeyrek kala",
+  "on bire on dört kala" gibi geriye sayış yok; dijital okunur ("sekiz on beşte", "on kırk altı"). "Buçuk", "çeyrek geçe"
+  serbest. Cihazdan okunan saat her zaman ekrandaki gibi. Yazılı yüzeylerde rakam.
 - **Tekrar eden şaka büyüyor mu?** (18 Ekim 2026, sahibinin onayı) Vaka boyunca dönen bir şaka ("Ben o değilim /
   Tabii, tabii") her dönüşünde bir basamak tırmanır; aynı kurulum aynı sırayla ikinci kez gelmez. Vurucu sözü karşı
   taraf önceden söyleyip esprinin hedefini kuru bırakmaz. En güçlü kaynak karakterin zaafıdır: Vaka 3'te Peri
