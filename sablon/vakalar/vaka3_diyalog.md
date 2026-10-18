@@ -92,7 +92,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **CENGO [kas]:** Kamera ne göstermiş?
 **FERRUH [normal]:** Hiçbir şey. Kamera bozuk; o gece hiç kayıt almamış. {kime: cengo}
 *Cengo kayıt cihazının arkasına eğiliyor; fişi çekilmiş. Takıyor. Ekranda son kare: pazar gece 22.46, ofis kapısında lacivert bir önlük kolu.* {kare: D8}
-**CENGO [kas]:** Kamera bozuk değil, biri fişini çekmiş. Son kayıt pazar gece, on bire on dört kala. {kare: D8}
+**CENGO [kas]:** Kamera bozuk değil, biri fişini çekmiş. Son kayıt pazar gece, on kırk altı. {kare: D8}
 **PERİ [merakli]:** Son karede lacivert bir önlük kolu var. Dükkânda bu önlüğü kim giyer? {gir: ferruh}
 **FERRUH [terli]:** Kenan'la ben. Bir de… herkes giyebilir aslında. {kime: peri}
 **PERİ [kas]:** Herkes değil. Tezgâhtakiler pembe önlük giyiyor; Gizem de.
@@ -106,8 +106,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **CENGO [normal]:** Sedat, Susam'ın alarmını sen takmıştın. Pazar gecenin kaydını göster. {gir: sedat}
 **SEDAT [normal]:** Göstereyim abi, sana borçluyum. Geçen ay anahtarı kamyonetin içinde unutmuştum; kapıyı telinle sen açtın. {gir: sedat, kime: cengo}
 **CENGO [gulen]:** Telim hâlâ cebimde. Kayıtta ne var?
-**SEDAT:** Bakayım. *(tableti açıp)* Pazar gece, on bire on altı kala alarm kapatılmış. Dükkânın ortak koduyla. {kime: cengo}
-**SEDAT:** Gece yarısına beş kala yine ortak kodla kurulmuş. Sabah altı buçukta müdür koduyla açılmış.
+**SEDAT:** Bakayım. *(tableti açıp)* Pazar gece on kırk dörtte alarm kapatılmış. Dükkânın ortak koduyla. {kime: cengo}
+**SEDAT:** On bir elli beşte yine ortak kodla kurulmuş. Sabah altı otuzda müdür koduyla açılmış.
 **PERİ [merakli]:** Ortak kodu kim bilir?
 **SEDAT:** Tezgâhtaki kız, Gizem. Bir de Ferruh Bey. Kenan'ın kendi kodu var; o gece kullanılmamış. {kime: peri}
 **CENGO [kas]:** Cam kırılınca alarm ötmedi mi?
