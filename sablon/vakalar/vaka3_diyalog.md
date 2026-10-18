@@ -133,8 +133,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [kiskanc]:** Afiş hanım burada ve duyuyor.
 **GİZEM [normal]:** Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır. {kime: cengo, cengo: kas}
 **GİZEM [normal]:** Arka kapıdan girdim. Alarm ötmedi. Ofiste ışık vardı.
-**GİZEM [korkmus]:** Tablanın fotoğrafını çektim, teyzelere atacaktım. Sonra arkada birini gördüm.
-*Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde simit tablası; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.* {kare: D9}
+**GİZEM [korkmus]:** Ofisin kapısı aralıktı. Kasanın başında biri vardı, sırtı bana dönüktü.
+**GİZEM [korkmus]:** Telefonu çıkarıp çektim. Elim titriyordu; tablayı bırakmak aklıma bile gelmedi.
+*Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde Gizem'in tablayı tutan eli; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.* {kare: D9}
 **GİZEM [korkmus]:** Lacivert önlük. Onu Kenan'la Ferruh Bey giyer. Korktum, simitleri kaptım, kaçtım. {kare: D9}
 **CENGO [kas]:** Neden kimseye söylemedin?
 **GİZEM [kas]:** Ne diyecektim? "Gece gizlice simit almaya girdim" mi? Ferruh Bey zaten beni suçluyor. {kime: cengo}
@@ -309,7 +310,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **HİKÂYE:** Cumartesi sabahı kasadaki cuma hasılatını, iki yüz kırk bini alıp un borcunu elden ödedi; kasa defterine yazmadı.
 **HİKÂYE:** Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz buçukta çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.
 **HİKÂYE:** Ferruh gece on kırk dörtte döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.
-**HİKÂYE:** On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.
+**HİKÂYE:** On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başında lacivert önlüklü birini görünce telefonla fotoğrafını çekti, korkup kaçtı; gizlice girdiği için kimseye söylemedi.
 **HİKÂYE:** Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı.
 
 ## karar eksper_anlat
@@ -392,7 +393,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka3
 | A28 | Badem Pastanesi, Kadıköy: parlak vitrin, mutfak kapısı | ipucu badem |
 | A29 | Rüstem'in un toptancısı, Eminönü: çuvallar | ipucu toptanci |
 | D8 | kayıt cihazının ekranı: son kare, ofis kapısında lacivert önlük kolu (saat yazısı yok) | ipucu dukkan |
-| D9 | Gizem'in telefonu: önde simit tablası, arkada kasanın başında lacivert önlüklü, sırtı dönük (yazı yok) | ipucu gizem |
+| D9 | Gizem'in telefonu: önde tablayı tutan eli (simitler), arkada kasanın başında lacivert önlüklü, sırtı dönük (yazı yok) | ipucu gizem |
 | D10 | dolapta katlı, başka renkte bir pastane önlüğü (yazı/logo yok) | ipucu kenan |
 | K36 | Peri trençkotu açmış, masada bacak bacak üstüne; Nadide hayranlıkla bakıyor; Cengo | giriş |
 | K37 | Peri tezgâhın üstündeki kendi kocaman afişine bakakalmış; Ferruh gururla gösteriyor; Cengo sırıtıyor | ipucu dukkan |

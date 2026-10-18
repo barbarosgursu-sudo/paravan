@@ -1708,7 +1708,7 @@
         "alarm_kodu": "Alarmcı Sedat'ın kaydına göre alarm pazar gece 22.44'te dükkânın ortak koduyla kapatılmış, 23.55'te aynı kodla kurulmuş. Ortak kodu Gizem'le Ferruh Bey bilir; Kenan'ın kendi müdür kodu var, o gece kullanılmamış.",
         "cam_sensor": "Cam sensörü hiç ötmemiş: cam kırılırken alarm kapalıymış.",
         "gizem_dondu": "Gizem pazar gece on bir buçukta artan simitleri almak için arka kapıdan dükkâna girdi; alarm ötmedi. Patron yasaklıyor, kimseye söylemedi.",
-        "gizem_foto": "Gizem'in 23.31'de çektiği simit fotoğrafında, arkada, ofiste kasanın başında lacivert önlüklü biri var; sırtı dönük. Gizem'e göre lacivert önlüğü Kenan'la Ferruh Bey giyer.",
+        "gizem_foto": "Gizem'in 23.31'de gizlice çektiği fotoğrafta, ofiste kasanın başında lacivert önlüklü biri var; sırtı dönük. Gizem'e göre lacivert önlüğü Kenan'la Ferruh Bey giyer.",
         "kenan_yalan": "Kenan pazar gece evde olduğunu söylüyor; Peri'ye göre yalan.",
         "maas_gec": "Susam'da maaşlar iki aydır geç yatıyor; maaşı Ferruh Bey yatırır. Kenan: \"Bu dükkân batıyor.\"",
         "kenan_onluk": "Kenan'ın dolabında başka bir pastanenin önlüğü var: Kadıköy'deki Badem Pastanesi.",
@@ -1990,11 +1990,16 @@
               {
                 "k": "gizem",
                 "i": "korkmus",
-                "m": "Tablanın fotoğrafını çektim, teyzelere atacaktım. Sonra arkada birini gördüm."
+                "m": "Ofisin kapısı aralıktı. Kasanın başında biri vardı, sırtı bana dönüktü."
+              },
+              {
+                "k": "gizem",
+                "i": "korkmus",
+                "m": "Telefonu çıkarıp çektim. Elim titriyordu; tablayı bırakmak aklıma bile gelmedi."
               },
               {
                 "k": "not",
-                "m": "Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde simit tablası; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.",
+                "m": "Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde Gizem'in tablayı tutan eli; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.",
                 "kare": "D9"
               },
               {
@@ -2307,7 +2312,7 @@
           "Cumartesi sabahı kasadaki cuma hasılatını, iki yüz kırk bini alıp un borcunu elden ödedi; kasa defterine yazmadı.",
           "Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz buçukta çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.",
           "Ferruh gece on kırk dörtte döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.",
-          "On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.",
+          "On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başında lacivert önlüklü birini görünce telefonla fotoğrafını çekti, korkup kaçtı; gizlice girdiği için kimseye söylemedi.",
           "Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı."
         ]
       },

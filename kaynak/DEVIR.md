@@ -28,6 +28,9 @@ Aktif süre ≈ 4 sa 14 dk (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzelteb
   Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı".
 - **Saat "kala" ile geriye sayılmaz** (kural kitabı 5b, bütün vakalar): Vaka 3'te "on bire … kala", "gece yarısına beş
   kala" dijitale çevrildi; cihazdan okunanlar ekrandaki gibi. "Buçuk", "çeyrek geçe" doğru — Vaka 2 olduğu gibi kalır (sahibi).
+- **Gizem'in fotoğrafı bilerek çekilir** (sahibinin onayı): "teyzelere atacaktım" zayıftı; Gizem kasanın başında birini görünce
+  telefonla çeker, tablayı elinden bırakmamış. D9 = önde tablayı tutan eli. Fotoğraf yol 3'ün ve Gizem'in masumluğunun kanıtı —
+  kamera (D8) dükkâna gitmeyen oyuncuya ulaşmaz, o yüzden kalkamaz.
 - **Yeni kare eklerken üç yer** (`kanon.sahne.kareler` dahil): `kaynak/yeni/OKUBENI.md`.
 - **Açık, sahibine soruldu:** Vaka 2'deki aynı kalıp (`vaka2_diyalog.md:349`, Lâl gelirken Peri masanın arkasında,
   `gizle` aynı satırda) — Vaka 2 donmuş, dokunulmadı; sahibi isterse.
