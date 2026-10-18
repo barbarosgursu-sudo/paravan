@@ -77,8 +77,11 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [sasirmis]:** … {kare: K37}
 **FERRUH [normal]:** Bu afiş Nadide Hanım'ın gözbebeği. Yıllar önce bir defilede imzalatmış. Ama siz o değilsiniz tabii. {gir: ferruh, kime: peri}
 **PERİ [kas]:** Değilim.
+**PERİ [kas]:** Ama ışık kötü. Fotoğrafçı sol profili çekmeliydi, hep söylerdim.
+**FERRUH [normal]:** Kime söylerdiniz efendim? {kime: peri}
+**PERİ [sasirmis]:** … Genel olarak söylerdim.
 **FERRUH [normal]:** Tabii efendim, tabii.
-**CENGO [gulen]:** *(Peri'nin kulağına)* Afişte gözlük yok. Herkes seni ondan tanıyor. {kime: peri}
+**CENGO [gulen]:** *(Peri'nin kulağına)* Gizli görev yine bitti. Bu sefer kendin bitirdin. {kime: peri}
 *Arka sokak. Kırık bir pencere; cam kırıkları kaldırımda, sokağa saçılmış.* {arka: A26, mekan}
 **FERRUH [normal]:** İşte, bakın! Hırsız camı dışarıdan kırmış. Siz de gördünüz; gerekirse tanıklık edersiniz. {gir: ferruh}
 **PERİ [kas]:** Kırıklar sokakta, Ferruh Bey. Cam içeriden kırılmış.
@@ -93,7 +96,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [merakli]:** Son karede lacivert bir önlük kolu var. Dükkânda bu önlüğü kim giyer? {gir: ferruh}
 **FERRUH [terli]:** Kenan'la ben. Bir de… herkes giyebilir aslında. {kime: peri}
 **PERİ [kas]:** Herkes değil. Tezgâhtakiler pembe önlük giyiyor; Gizem de.
-**FERRUH [normal]:** Ne keskin gözünüz var. Afiştekinden bile keskin.
+**FERRUH [normal]:** Ne keskin gözünüz var. Fotoğrafçılara da böyle söylerdiniz herhalde.
 
 ## ipucu alarm
 ⚙ arka: A26 · figurler: peri, cengo · set: trenckot · cset: haki

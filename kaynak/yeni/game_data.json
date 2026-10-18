@@ -1802,11 +1802,14 @@
                 "kime": "peri"
               },
               {"k": "peri", "i": "kas", "m": "Değilim."},
+              {"k": "peri", "i": "kas", "m": "Ama ışık kötü. Fotoğrafçı sol profili çekmeliydi, hep söylerdim."},
+              {"k": "ferruh", "i": "normal", "m": "Kime söylerdiniz efendim?", "kime": "peri"},
+              {"k": "peri", "i": "sasirmis", "m": "… Genel olarak söylerdim."},
               {"k": "ferruh", "i": "normal", "m": "Tabii efendim, tabii."},
               {
                 "k": "cengo",
                 "i": "gulen",
-                "m": "(Peri'nin kulağına) Afişte gözlük yok. Herkes seni ondan tanıyor.",
+                "m": "(Peri'nin kulağına) Gizli görev yine bitti. Bu sefer kendin bitirdin.",
                 "kime": "peri"
               },
               {
@@ -1862,7 +1865,11 @@
               },
               {"k": "ferruh", "i": "terli", "m": "Kenan'la ben. Bir de… herkes giyebilir aslında.", "kime": "peri"},
               {"k": "peri", "i": "kas", "m": "Herkes değil. Tezgâhtakiler pembe önlük giyiyor; Gizem de."},
-              {"k": "ferruh", "i": "normal", "m": "Ne keskin gözünüz var. Afiştekinden bile keskin."}
+              {
+                "k": "ferruh",
+                "i": "normal",
+                "m": "Ne keskin gözünüz var. Fotoğrafçılara da böyle söylerdiniz herhalde."
+              }
             ]
           }
         },
