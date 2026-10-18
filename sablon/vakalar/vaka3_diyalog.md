@@ -131,7 +131,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [isveli]:** Tabii, tatlım.
 **GİZEM [isveli]:** Sana anlatırım, Cengo. Afiş hanıma değil. {kime: cengo}
 **PERİ [kiskanc]:** Afiş hanım burada ve duyuyor.
-**GİZEM [normal]:** Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır. {kime: cengo}
+**GİZEM [normal]:** Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır. {kime: cengo, cengo: kas}
 **GİZEM [normal]:** Arka kapıdan girdim. Alarm ötmedi. Ofiste ışık vardı.
 **GİZEM [korkmus]:** Tablanın fotoğrafını çektim, teyzelere atacaktım. Sonra arkada birini gördüm.
 *Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde simit tablası; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.* {kare: D9}
