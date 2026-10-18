@@ -105,6 +105,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 7 | 18 Eki 14:38 (mola; Onay 2 sırasında) | 18 Eki 20:32 | 5 sa 54 dk |
 | 8 | 18 Eki 20:51 (Onay 2 sırasında; Gizem'in fotoğrafı bitti) | 18 Eki ~21:25 ("zamanı başlat"; kanıt ekranı sorusu) | ~34 dk |
 | 9 | 18 Eki 21:41 (Onay 2 sırasında; kanıt ekranı bitti, sahibi inceliyor) | 18 Eki 21:46 ("tekrar başlat") | 5 dk |
+| 10 | 18 Eki 21:48 (Onay 2 sırasında; V1/V2 kısa ad kararı yarına) | | |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
