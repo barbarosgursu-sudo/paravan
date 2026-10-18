@@ -20,29 +20,21 @@ HIRES = {"enable_hr": True, "hr_scale": 1.5, "hr_upscaler": "R-ESRGAN 4x+",
          "hr_additional_modules": ["Use same choices"], "hr_checkpoint_name": "Use same checkpoint",
          "hr_sampler_name": "DPM++ SDE", "hr_scheduler": "Karras"}
 STIL = "painted illustration, semi-realistic graphic novel style"
-# Çocuk oyunu denemesi (18 Ekim 2026): işte "stil": "cocuk" mekânın stilini değiştirir; Paravan işleri etkilenmez.
-STILLER = {"cocuk": "children's picture book illustration, soft gouache and watercolor, warm cozy colors, "
-                    "simple rounded shapes, clean outlines, gentle lighting"}
 KARAKTER = {
     "peri": {"bas": "<lora:prvperi_e10:1.0> prvperi, " + STIL + ", beautiful woman, high cheekbones, slim face, sharp jawline, bright eyes",
              "son": "nude nail polish",
              "negatif": "wide face, round face, double chin, heavy eyelids, tired eyes, old, wrinkles"},
-    # LoRA yok: önce stil ve eller sınanır.
-    "cocuk": {"bas": STILLER["cocuk"] + ", cute friendly character, big expressive eyes",
-              "son": "fully clothed, wholesome",
-              "negatif": "adult, makeup, lipstick, photo, realistic, scary, creepy, dark, horror, text, letters",
-              "el_prompt": "simple cartoon hands, five fingers"},
 }
 # Mekân: kişisiz arka plan. LoRA yok, ADetailer yok; oran 3:4 dikey (oyun 900×1200).
 MEKAN = {"bas": STIL + ", detailed background art, empty room, no people, eye level camera, warm daylight",
          "negatif": "people, person, woman, man, figure, crowd, text, letters, words, sign, logo, watermark, label, numbers, blurry"}
 EL_NEGATIF = "deformed hands, fused fingers, extra fingers, missing fingers, deformed thumb, red nails"
 
-def adetailer(el, el_prompt=None):
+def adetailer(el):
     sekmeler = [{"ad_model": "face_yolov8n.pt"}]
     if el:
         sekmeler.append({"ad_model": "hand_yolov8n.pt",
-                         "ad_prompt": el_prompt or "beautiful hands, five fingers, natural nails, nude nail polish",
+                         "ad_prompt": "beautiful hands, five fingers, natural nails, nude nail polish",
                          "ad_negative_prompt": "fused fingers, extra fingers, deformed hands, blob, deformed thumb",
                          "ad_denoising_strength": 0.5})
     return {"ADetailer": {"args": [True, False] + sekmeler}}
@@ -82,11 +74,8 @@ def istek(yol, veri=None):
         return json.load(y)
 
 def uret_mekan(is_):
-    bas = MEKAN["bas"]
-    if is_.get("stil"):
-        bas = STILLER[is_["stil"]] + ", detailed background art, no people, eye level camera"
     return dict(SABIT, n_iter=is_.get("adet", 1), width=896, height=1192,
-                prompt=", ".join([bas, is_["prompt"]]),
+                prompt=", ".join([MEKAN["bas"], is_["prompt"]]),
                 negative_prompt=", ".join([MEKAN["negatif"]] + ([is_["negatif"]] if is_.get("negatif") else [])),
                 alwayson_scripts={})
 
@@ -102,7 +91,7 @@ def uret(is_, klasor):
     veri = dict(SABIT, n_iter=is_.get("adet", 1),
                 prompt=", ".join([k["bas"], is_["prompt"], k["son"]]),
                 negative_prompt=", ".join([k["negatif"]] + ([EL_NEGATIF] if el else []) + ([is_["negatif"]] if is_.get("negatif") else [])),
-                alwayson_scripts=adetailer(el, k.get("el_prompt")))
+                alwayson_scripts=adetailer(el))
     if portre:
         veri.update(width=1024, height=1024)
     if is_.get("referans"):

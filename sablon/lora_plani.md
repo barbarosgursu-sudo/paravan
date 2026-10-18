@@ -187,10 +187,3 @@ Forge'un en güçlü olduğu iş bu olmalı. Deneme: `is_listesi_mekan.json` = V
 her biri 2 (`baslat_mekan.bat`, 21:15). Denetim aynı: yazı taraması, nesne sayımı (§E), doğru şehir.
 Tarz tutarlılığı gerekirse sonraki adım: ChatGPT tarz referansından (G35-1 vb.) IP-Adapter ya da
 img2img; ilk denemede düz txt2img.
-
-## Çocuk oyunu stil denemesi (18 Ekim 2026, hazırlandı — henüz koşulmadı)
-Ayrı bir fikir (çocuklar için 10 dk'lık yatma öncesi dedektif oyunu) için yerel üretimin yeterliliği
-sınanıyor. `is_listesi_cocuk.json` + `baslat_cocuk.bat`: 7 iş, 22 görsel — 3 mekân, 1 ipucu yakın çekimi,
-kız dedektif (portre, büyüteçli boydan, köpekle). LoRA yok; aynı model (DreamShaper XL Lightning), stil
-`gece.py → STILLER["cocuk"]` (masal kitabı). Bakılacaklar: eller bu stilde tutuyor mu, karakter 11 figür
-görselinde aynı kalıyor mu, mekânlar yazısız mı. Mekân denemesi (yukarıda, A15–A22) de henüz koşulmadı.
