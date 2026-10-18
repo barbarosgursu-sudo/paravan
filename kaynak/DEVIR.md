@@ -8,7 +8,7 @@
 
 ---
 
-## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 7, 14:38'den beri)
+## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (saat işliyor: ara 7 20:32'de kapandı)
 
 **Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
 Adım 8 (görsel listesi + promptlar, `vaka3_gorsel.md` + `vaka3_sayfa/`) **başlamadı**; Onay 2 kapanınca başlar.
