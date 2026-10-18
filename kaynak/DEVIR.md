@@ -8,12 +8,12 @@
 
 ---
 
-## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (saat işliyor: ara 7 20:32'de kapandı)
+## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 8, 20:51'den beri)
 
 **Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
 Adım 8 (görsel listesi + promptlar, `vaka3_gorsel.md` + `vaka3_sayfa/`) **başlamadı**; Onay 2 kapanınca başlar.
-Saat: `vaka3_baslangic.md` §2 ara tablosu. Sahibi "tekrar başlat" deyince ara 7'yi o anla kapat.
-Aktif süre ≈ 4 sa 14 dk (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
+Saat: `vaka3_baslangic.md` §2 ara tablosu. Sahibi "tekrar başlat" deyince ara 8'i o anla kapat.
+Aktif süre ≈ 4 sa 14 dk + 20:32'den ara 8'e kadar (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
 
 **Bu pencerede (18 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı):**
 - **Dükkân sahnesi, afiş esprisi** yeniden yazıldı: Peri "Değilim" der, hemen afişin ışığını eleştirir
@@ -25,7 +25,8 @@ Aktif süre ≈ 4 sa 14 dk (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzelteb
   Gizem + unlu Cengo, masanın altında pembe önlüklü Peri; Peri'nin yüzü eli ağzında, gözler iri). Yeni kare →
   adım 8'de prompt yazılacak. Kural: `7_uretim_sureci.md` → "Saklanan kişi".
 - **Gizem sahnesi:** "Hepsi susamlı teyzeciğim" K38 karesinde kalır (kare kalkınca Peri karşısında görünüyordu).
-  Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı".
+  Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı". Aynı sahnede Gizem gece olanları anlatırken Cengo'nun
+  dinleme yüzü `kas` (önceki satırdan "gülen" kalıyordu).
 - **Saat "kala" ile geriye sayılmaz** (kural kitabı 5b, bütün vakalar): Vaka 3'te "on bire … kala", "gece yarısına beş
   kala" dijitale çevrildi; cihazdan okunanlar ekrandaki gibi. "Buçuk", "çeyrek geçe" doğru — Vaka 2 olduğu gibi kalır (sahibi).
 - **Gizem'in fotoğrafı bilerek çekilir** (sahibinin onayı): "teyzelere atacaktım" zayıftı; Gizem kasanın başında birini görünce

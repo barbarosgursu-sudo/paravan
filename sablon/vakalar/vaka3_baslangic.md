@@ -103,6 +103,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 5 | 18 Eki 10:11 (Onay 2 sırasında; afiş esprisi + kapanış K53 bitti, adım 8 başlamadı) | 18 Eki 11:26 ("saati başlat") | 1 sa 15 dk |
 | 6 | 18 Eki 11:26 (sahibi başlattıktan sonra çalışamadı; aynı anda durduruldu) | 18 Eki 13:33 | 2 sa 07 dk |
 | 7 | 18 Eki 14:38 (mola; Onay 2 sırasında) | 18 Eki 20:32 | 5 sa 54 dk |
+| 8 | 18 Eki 20:51 (Onay 2 sırasında; Gizem'in fotoğrafı bitti) | | |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
@@ -110,7 +111,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 2 Onay 1 | 17 Eki 14:30 | 17 Eki 15:03 | onay; düzeltmeler: çek → elden borç, afiş = Nadide'nin imzalı hayran afişi, Peri kitaba göre dedektif kılığında, "Tabii, tabii" |
 | 3–4 Diyalog + veri + künye | 17 Eki 15:03 | 17 Eki 15:11 | doğrulayıcı PASS; testler geçti (V3: 9/14 küme çözer); künye aracı temiz; kapak testi görselsiz aşamada yer tutucuyu kabul eder |
 | 5 Görselsiz tur + bulanık replik taraması | 17 Eki 15:11 | 17 Eki 15:37 | `arac_yeni_tur.js` V3'e açıldı (yollar kod/foto/borc/badem/cozmez); 9 tur (5 yol × 4 sonuç × 4 karar) temiz; `--hepsi` 140 satır; motor eki: satırda `cset` (Cengo unlu); 11 bulanık replik düzeltmesi (saat ifadeleri ×3, 'patron' → Ferruh ×2, Gizem'in istifa cümlesi, Cengo'nun kime'si…) |
-| 6–7 Onay 2, hikâye donar | 17 Eki 15:37 | | Vaka 2: 1 sa 56 dk. 16:11–16:18: sahibinin isteğiyle anlaşılırlık geçişi — 109 replik açıldı (kısa/şifreli cümleler: "Senin defterin ayrı", "Önce dükkân" gibi) |
+| 6–7 Onay 2, hikâye donar | 17 Eki 15:37 | | Vaka 2: 1 sa 56 dk. 16:11–16:18: sahibinin isteğiyle anlaşılırlık geçişi — 109 replik açıldı (kısa/şifreli cümleler: "Senin defterin ayrı", "Önce dükkân" gibi). 18 Eki notları: afiş esprisi, K53 (saklanma), K38 teyze cevabı, saat kuralı 5b, Cengo'nun dinleme yüzü, Gizem'in fotoğrafı bilerek — ayrıntı `DEVIR.md` |
 | 8 Görsel listesi + promptlar | | | |
 | 9–10 Görseller, toplu işleme, yerleştirme | | | |
 | 11 Görselli tur | | | |
