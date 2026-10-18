@@ -8,12 +8,13 @@
 
 ---
 
-## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 8, 20:51'den beri)
+## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT İŞLİYOR: 21:25'ten beri)
 
 **Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
 Adım 8 (görsel listesi + promptlar, `vaka3_gorsel.md` + `vaka3_sayfa/`) **başlamadı**; Onay 2 kapanınca başlar.
-Saat: `vaka3_baslangic.md` §2 ara tablosu. Sahibi "tekrar başlat" deyince ara 8'i o anla kapat.
-Aktif süre ≈ 4 sa 14 dk + 20:32'den ara 8'e kadar (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
+Saat: `vaka3_baslangic.md` §2 ara tablosu (ara 8 kapandı, 21:25). Sahibi "durdur" deyince ara 9'u o anla aç.
+Aktif süre ≈ 4 sa 33 dk (20:51'e kadar) + 21:25'ten bu yana (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
+Açık soru (18 Eki 21:25): kanıt seçimi + sonuç ekranı dağınık; öneri verildi (kısa kanıt adları, düz liste, iki yuva, sonuçta ✓/✗ farkı) — sahibinin cevabı bekleniyor.
 
 **Bu pencerede (18 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı):**
 - **Dükkân sahnesi, afiş esprisi** yeniden yazıldı: Peri "Değilim" der, hemen afişin ışığını eleştirir

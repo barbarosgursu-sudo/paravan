@@ -103,7 +103,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 5 | 18 Eki 10:11 (Onay 2 sırasında; afiş esprisi + kapanış K53 bitti, adım 8 başlamadı) | 18 Eki 11:26 ("saati başlat") | 1 sa 15 dk |
 | 6 | 18 Eki 11:26 (sahibi başlattıktan sonra çalışamadı; aynı anda durduruldu) | 18 Eki 13:33 | 2 sa 07 dk |
 | 7 | 18 Eki 14:38 (mola; Onay 2 sırasında) | 18 Eki 20:32 | 5 sa 54 dk |
-| 8 | 18 Eki 20:51 (Onay 2 sırasında; Gizem'in fotoğrafı bitti) | | |
+| 8 | 18 Eki 20:51 (Onay 2 sırasında; Gizem'in fotoğrafı bitti) | 18 Eki ~21:25 ("zamanı başlat"; kanıt ekranı sorusu) | ~34 dk |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
