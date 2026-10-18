@@ -8,7 +8,29 @@
 
 ---
 
-## 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLAMADI; sahibi "Vaka 3'e başla" diyecek)
+## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 7, 14:38'den beri)
+
+**Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
+Adım 8 (görsel listesi + promptlar, `vaka3_gorsel.md` + `vaka3_sayfa/`) **başlamadı**; Onay 2 kapanınca başlar.
+Saat: `vaka3_baslangic.md` §2 ara tablosu. Sahibi "tekrar başlat" deyince ara 7'yi o anla kapat.
+Aktif süre ≈ 4 sa 14 dk (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
+
+**Bu pencerede (18 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı):**
+- **Dükkân sahnesi, afiş esprisi** yeniden yazıldı: Peri "Değilim" der, hemen afişin ışığını eleştirir
+  ("hep söylerdim"); Ferruh "Kime söylerdiniz efendim?"; Cengo "Gizli görev yine bitti. Bu sefer kendin
+  bitirdin."; sahne sonu "Fotoğrafçılara da böyle söylerdiniz herhalde." Kural: `7_uretim_sureci.md` →
+  "Tekrar eden şaka büyüyor mu?". (`vaka3_form.md`'deki eski "Afişte gözlük yok" Onay 1 kaydıdır, bilerek
+  değişmedi; sahnelerin tek kaynağı diyalog dosyası.)
+- **Kapanış, saklanma:** Peri masanın altına girerken **K53** karesi (V2 K20'nin açısı: kapıda simit tablalı
+  Gizem + unlu Cengo, masanın altında pembe önlüklü Peri; Peri'nin yüzü eli ağzında, gözler iri). Yeni kare →
+  adım 8'de prompt yazılacak. Kural: `7_uretim_sureci.md` → "Saklanan kişi".
+- **Gizem sahnesi:** "Hepsi susamlı teyzeciğim" K38 karesinde kalır (kare kalkınca Peri karşısında görünüyordu).
+  Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı".
+- **Yeni kare eklerken üç yer** (`kanon.sahne.kareler` dahil): `kaynak/yeni/OKUBENI.md`.
+- **Açık, sahibine soruldu:** Vaka 2'deki aynı kalıp (`vaka2_diyalog.md:349`, Lâl gelirken Peri masanın arkasında,
+  `gizle` aynı satırda) — Vaka 2 donmuş, dokunulmadı; sahibi isterse.
+
+## 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 **Durum tek cümle:** Vaka 3'ün çerçevesi sahibiyle konuşuldu; süre ölçümü ve form henüz başlamadı.
 Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 1 (form, `vaka3_form.md`).

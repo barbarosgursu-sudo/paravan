@@ -91,6 +91,8 @@ kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_s
 Başlangıç = sahibinin "Vaka 3'e başla" dediği an. Her adımın bitişi yazılır; aralar toplama girmez.
 Sahibi "zamanı durdur" / "tekrar başlat" der; aralar aşağıdaki ara tablosuna yazılır (17 Ekim, sahibinin isteği):
 aktif süre = toplam − aralar.
+Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün anıdır, ekran görüntüsünden tahmin edilmez
+(18 Eki: "başlat" dendi ama çalışılamadı → aynı anda yeni ara açıldı).
 
 | ara | durdu | başladı | süre |
 |---|---|---|---|

@@ -178,6 +178,10 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
 - **Görselsiz test, arka plan ve kare de yer tutucu olabilir:** `gorseller.json` → `yer_tutucu`
   listesindeki kod gri bir alan olarak çizilir; üstünde `yer_tutucu_metin`'deki açıklama yazar.
   Görsel gelince kod `dosyalar`'a eklenir, iki listeden silinir (`test_yeni_arayuz.js` bayatı yakalar).
+- **Diyaloğa yeni kare eklerken üç yer** (18 Ekim 2026, K53): `game_data.json → kanon.sahne.kareler` (arac_diyalog.js
+  bunu YAZMAZ; eksikse K15 BLOCKED der), `gorseller.json → yer_tutucu` + `yer_tutucu_metin`, ve vakanın diyalog
+  dosyasındaki görsel tablosu. Kanon listesine `arac_json_yaz.js` ile yaz. Doğrulayıcı ile derlemeyi `&&` ile zincirle:
+  `;` ile yazınca BLOCKED veri yine `yeni/index.html`'e derlendi.
 - `arac_diyalog.js` konuşan adındaki â/î/û'yu da düzler ("LÂL" → `lal`).
 - **GEÇİCİ "Vaka N'den başla" (10 Ekim 2026, sahibinin testi için):** "Baştan başla" onay ekranında
   her sonraki omurga vakası için bir düğme. Önceki vakalar motorda kendiliğinden oynanır (her ipucu,

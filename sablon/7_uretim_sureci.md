@@ -40,6 +40,11 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
 - **Nereden biliyor?** Karakter bu bilgiyi ya da bu kişiyi nereden tanıyor; ekranda görüldü mü?
 - **Espri tutuyor mu?** Espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
 - **Sıra:** cevap sorudan, tepki olaydan sonra mı; iki iş tek replikte karışmış mı?
+- **Tekrar eden şaka büyüyor mu?** (18 Ekim 2026, sahibinin onayı) Vaka boyunca dönen bir şaka ("Ben o değilim /
+  Tabii, tabii") her dönüşünde bir basamak tırmanır; aynı kurulum aynı sırayla ikinci kez gelmez. Vurucu sözü karşı
+  taraf önceden söyleyip esprinin hedefini kuru bırakmaz. En güçlü kaynak karakterin zaafıdır: Vaka 3'te Peri
+  kılıktayken afişini eleştirmekten kendini alamaz ("hep söylerdim"), Ferruh "Kime söylerdiniz efendim?" diye
+  sıkıştırır. Şaka bir sahnede en çok dört replik sürer; sahne kapanışı ona geri dönebilir (callback).
 - **Ne istiyor?** Karakterin bu satırdaki niyeti (iltifat mı, iğne mi, yalan mı) belli mi?
 - **Fazla kısa mı?** (17 Ekim 2026, sahibinin kararı; kural kitabı 5) Replik tek başına okununca normal bir oyuncu
   ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
@@ -75,6 +80,12 @@ kardeşi. Bütün görseller gömülünce görselli turu **bütün yollarda** ko
   — "annesi" — yakalamaz, onlara gözle bakılır). Vaka 2'de sahibi Onay 3'te buldu: son prova
   açılışları, "Bütün nedimeler Defne'ye dönüyor", "Gelme anne!" → K33–K34 sonradan üretildi.
 - **Kime konuşuyor?** Konuşanın karşısında, hitap ettiği kişi mi duruyor?
+  **Figürü olmayan konuşmacı** (`sesler`: teyze, ses) bir karenin üstünde konuşuyorsa, ona verilen cevap da
+  AYNI karede kalır (`{kare: K38}`). Kare kalkarsa motor solda Peri'yi gösterir ve cevap Peri'ye verilmiş gibi
+  görünür (Vaka 3, Gizem → teyze; sahibi 18 Ekim'de buldu). Kare, cevaplayan başka birine dönünce kalkar.
+- **Saklanan kişi** (masanın altı, kapı arkası) **ara kareyle** gösterilir: kapıda gelen, masanın altında saklanan
+  aynı karede (Vaka 2 K20, Vaka 3 K53 — aynı açı, tekrar eden şaka). Anlatı + gelenin ilk repliği o karede; figür
+  düzeninde `gizle` ile yapılırsa saklanan, adı geçtiği satırda ekranda olmaz (18 Ekim, sahibinin kararı).
 - **Yüz satıra uyuyor mu?** Konuşanın ve dinleyenin ifadesi bu satırın duygusu mu (önceki satırdan kalmış mı)?
 - **Anılan şey görünüyor mu?** Metindeki nesne, hareket, kıyafet (krema, örtü, kravat gevşek/çözük, gözlük elde).
 - **Süreklilik:** Kıyafet, saç, takı sahneden sahneye aynı mı; bir önceki olay (pastaya oturma) görselde izini taşıyor mu?
