@@ -353,9 +353,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 *Akşam. Büro. Peri pembe önlüğün altında, saçında hâlâ susam. Cengo ceketindeki unu silkeliyor.*
 *Kapı çalınıyor: üç kere.*
 **PERİ [sasirmis]:** Ev sahibi!
-*Peri masanın altına giriyor.*
-*Kapıda Gizem: elinde simit tablası, omzunda çantası.* {gizle: peri, gir: gizem, gi: normal}
-**GİZEM [normal]:** Susam'dan istifa ettim. Beni suçlayan bir dükkânda bir gün daha çalışmam. {gir: gizem, kime: cengo}
+*Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.* {kare: K53, gizle: peri, gir: gizem, gi: normal}
+**GİZEM [normal]:** Susam'dan istifa ettim. Beni suçlayan bir dükkânda bir gün daha çalışmam. {gir: gizem, kime: cengo, kare: K53}
 **GİZEM [isveli]:** Size bir çaycı lazım. Burada çay ocağı var mı?
 **CENGO [gulen]:** Ocak var. Çay yok, para hiç yok.
 **GİZEM [isveli]:** Çayı ben getiririm. Büroya da ben bakarım. {kime: cengo}
@@ -409,6 +408,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka3
 | K50 | Akşam büro: Gizem pencerenin önünde çayla; Peri pembe önlüklü masada; Cengo'nun sandalyesi boş | kapanış (bağ düşük) |
 | K51 | Cengo simidi ikiye bölüp büyük yarısını Peri'ye veriyor; Gizem kollarını kavuşturmuş bakıyor | kapanış (bağ yüksek) |
 | K52 | Gizem Peri'ye çerçeveli afişi uzatıyor | kapanış |
+| K53 | Kapıda simit tablalı Gizem ve unlu Cengo; masanın altında pembe önlüklü Peri saklanıyor (V2 K20'nin açısı) | kapanış |
 | Peri `trenckot` | normal, kas, sinirli, utanmis, sasirmis, merakli, kiskanc | her yerde |
 | Peri `simit` | sinirli, utanmis | kovalamaca |
 | Peri `onluklu` | normal, kas, sasirmis, utanmis, sinirli | kovalamaca sonu, kapanış |

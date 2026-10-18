@@ -197,7 +197,8 @@
         "K49",
         "K50",
         "K51",
-        "K52"
+        "K52",
+        "K53"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -2685,10 +2686,10 @@
             },
             {"k": "not", "m": "Kapı çalınıyor: üç kere."},
             {"k": "peri", "i": "sasirmis", "m": "Ev sahibi!"},
-            {"k": "not", "m": "Peri masanın altına giriyor."},
             {
               "k": "not",
-              "m": "Kapıda Gizem: elinde simit tablası, omzunda çantası.",
+              "m": "Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.",
+              "kare": "K53",
               "gizle": "peri",
               "gir": "gizem",
               "gi": "normal"
@@ -2698,7 +2699,8 @@
               "i": "normal",
               "m": "Susam'dan istifa ettim. Beni suçlayan bir dükkânda bir gün daha çalışmam.",
               "gir": "gizem",
-              "kime": "cengo"
+              "kime": "cengo",
+              "kare": "K53"
             },
             {"k": "gizem", "i": "isveli", "m": "Size bir çaycı lazım. Burada çay ocağı var mı?"},
             {"k": "cengo", "i": "gulen", "m": "Ocak var. Çay yok, para hiç yok."},

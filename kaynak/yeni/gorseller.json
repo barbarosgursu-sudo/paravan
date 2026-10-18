@@ -282,6 +282,7 @@
     "K50",
     "K51",
     "K52",
+    "K53",
     "peri.trenckot.normal",
     "peri.trenckot.kas",
     "peri.trenckot.sinirli",
@@ -349,6 +350,7 @@
     "K49": "Karar: Ferruh'tan pay al",
     "K50": "Akşam büro: Gizem çayla pencere önünde, Peri masada, Cengo'nun sandalyesi boş",
     "K51": "Cengo simidi ikiye bölüp büyüğünü Peri'ye veriyor; Gizem bakıyor",
-    "K52": "Gizem Peri'ye çerçeveli afişi uzatıyor"
+    "K52": "Gizem Peri'ye çerçeveli afişi uzatıyor",
+    "K53": "Kapıda Gizem ve Cengo; masanın altında Peri saklanıyor"
   }
 }
