@@ -131,7 +131,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [isveli]:** Tabii, tatlım.
 **GİZEM [isveli]:** Sana anlatırım, Cengo. Afiş hanıma değil. {kime: cengo}
 **PERİ [kiskanc]:** Afiş hanım burada ve duyuyor.
-**GİZEM [normal]:** Pazar gece on bir buçukta dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır. {kime: cengo}
+**GİZEM [normal]:** Pazar gece on bir otuzda dükkâna geri döndüm. Artan simitler için. Patron yasaklıyor; artanı çöpe attırır. {kime: cengo}
 **GİZEM [normal]:** Arka kapıdan girdim. Alarm ötmedi. Ofiste ışık vardı.
 **GİZEM [korkmus]:** Tablanın fotoğrafını çektim, teyzelere atacaktım. Sonra arkada birini gördüm.
 *Gizem telefonunu uzatıyor. Fotoğraf 23.31: önde simit tablası; arkada, ofisin kapısından, kasanın başında lacivert önlüklü biri. Sırtı dönük.* {kare: D9}
@@ -153,7 +153,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 *Kenan kocaman esniyor. Gözlerinin altı mosmor.*
 **PERİ [kas]:** Onda yatan biri öğlen böyle esnemez, Kenan Bey. Siz o gece hiç uyumamışsınız. {gir: kenan}
 **KENAN [kizgin]:** Uykumu da mı size soracağım? {kime: peri}
-**CENGO [kas]:** Soygunu sabah ilk sen görmüşsün. Altı buçukta.
+**CENGO [kas]:** Soygunu sabah ilk sen görmüşsün. Altı otuzda.
 **KENAN [normal]:** Her sabah fırını ben açarım. O sabah da açtım, kasayı açık buldum. {kime: cengo}
 **KENAN [kizgin]:** Maaşlar iki aydır geç yatıyor. Maaşı Ferruh Bey yatırır. {kime: peri}
 **KENAN [kizgin]:** Bu dükkân batıyor, hanımefendi. Herkes biliyor, Nadide Hanım hariç.
@@ -307,9 +307,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 **HİKÂYE:** Susam Pastanesi batıyordu: maaşlar iki aydır gecikiyor, un toptancısına borç birikiyordu. Dükkânı yöneten Ferruh bunu Nadide Hanım'dan sakladı; merkezi gizlice Badem'e satmaya çalıştı, olmadı.
 **HİKÂYE:** Cumartesi sabahı kasadaki cuma hasılatını, iki yüz kırk bini alıp un borcunu elden ödedi; kasa defterine yazmadı.
-**HİKÂYE:** Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz buçukta çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.
-**HİKÂYE:** Ferruh gece on bire on altı kala döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.
-**HİKÂYE:** On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.
+**HİKÂYE:** Pazar akşamı dükkânı Gizem kapattı. Kenan sekiz otuzda çıkmış, Kadıköy'de Badem'deki gizli iş denemesine gitmişti; sabah ikiye kadar oradaydı.
+**HİKÂYE:** Ferruh gece on kırk dörtte döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.
+**HİKÂYE:** On bir otuzda Gizem artan simitleri almak için geri geldi. Kasanın başındaki lacivert önlüklüyü fotoğrafına yakaladı, korkup kaçtı; gizlice girdiği için kimseye söylemedi.
 **HİKÂYE:** Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı.
 
 ## karar eksper_anlat

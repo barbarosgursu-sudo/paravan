@@ -11,6 +11,7 @@ Görsel kuralları 5. parçada, üretim kuralları 7. parçada.
 3. **Hafif ama bedelli.** Bedel utanç, para, gurur ya da bir fırsattır; ölüm ya da hapis değil.
 4. **Anlatıcı yok.** Sahne, diyalog ve kısa, tarafsız sahne notları.
 5. **Anlaşılır replik** (sahibinin kararı, 17 Ekim 2026). Replik ilk okumada anlaşılır: kim, neyi, neden söylüyor belli olur. Çok kısa, şifreli cümle yazılmaz ("Senin defterin ayrı, oğlum." → "Seni tanırım oğlum. Dükkânda veresiye defterin var; o borcun ayrı."; "Önce dükkân." → "İşe soygunun olduğu yerden, dükkândan başlarız."). Espri de açıklanmaz ama kurulumu görünür olur. Aptala anlatır gibi uzatılmaz: bir replik telefondaki yazı kutusuna (4 satır, ~110 harf) sığar; geçerse bölünür. Ölçü Vaka 3: ortalama ~50 harf (Vaka 2'de 37'ydi ve çok kısa bulundu).
+5b. **Saat dijital okunur** (sahibinin kararı, 18 Ekim 2026; bütün vakalar). Replikte, anlatıda ve hikâyede saat her zaman dijital saat ekranından okunur gibi söylenir: "on kırk altı", "on bir otuzda", "altı otuzda", "sekiz on beşte". "On bire on dört kala", "buçuk", "çeyrek geçe", "gece yarısına beş kala" yazılmaz. Tam saat yalnız sayıyla söylenir ("onda", "ondan ikiye kadar"). Yazılı yüzeylerde (ipucu metni, olgu) rakam: "22.46'da".
 
 ## B. Peri ve Cengo
 
