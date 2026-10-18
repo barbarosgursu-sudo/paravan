@@ -8,12 +8,12 @@
 
 ---
 
-## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 9, 21:41'den beri)
+## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT İŞLİYOR: 21:46'dan beri)
 
 **Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
 Adım 8 (görsel listesi + promptlar, `vaka3_gorsel.md` + `vaka3_sayfa/`) **başlamadı**; Onay 2 kapanınca başlar.
-Saat: `vaka3_baslangic.md` §2 ara tablosu (ara 8 kapandı, 21:25). Sahibi "tekrar başlat" deyince ara 9'u o anla kapat.
-Aktif süre ≈ 4 sa 33 dk (20:51'e kadar) + 21:25→21:41 = ≈ 4 sa 49 dk (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
+Saat: `vaka3_baslangic.md` §2 ara tablosu (ara 8 kapandı, 21:25). (ara 9 kapandı, 21:46). Sahibi "durdur" deyince ara 10'u o anla aç.
+Aktif süre ≈ 4 sa 33 dk (20:51'e kadar) + 21:25→21:41 = ≈ 4 sa 49 dk, + 21:46'dan bu yana (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
 Kim yaptı? kanıt ekranı sadeleşti (18 Eki, sahibinin onayı): kısa kanıt adları (`vaka3_diyalog.md → ## kanit`,
 veride `kim_yapti.kanit_ad`; K19 eksik adı yakalar), düz liste + ▾ ile tam metin, üstte iki yuva, "Dosya çözüldü"de
 ✓/✗ ve yalnız "Eksik olan". V1/V2'de kısa ad yok → tam metin + "0 / 2" sayacı (Vaka 2 dondu; ad eklemek sahibine sorulacak).
