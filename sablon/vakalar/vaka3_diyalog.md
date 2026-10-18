@@ -123,7 +123,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 *Tophane. Dar bir sokakta eski bir apartmanın önü. Elinde simit poşeti olan genç bir kadın, kapı önündeki yaşlı komşulara simit dağıtıyor.* {kare: K38}
 **TEYZE:** Gizem kızım, susamlısından bir tane daha. {kare: K38}
-**GİZEM [isveli]:** Hepsi susamlı teyzeciğim. Susam Pastanesi'nden geldiler. {gir: gizem, gi: isveli}
+**GİZEM [isveli]:** Hepsi susamlı teyzeciğim. Susam Pastanesi'nden geldiler. {gir: gizem, gi: isveli, kare: K38}
 **GİZEM [isveli]:** Cengo! Burada veresiye yok tatlım, defterin dükkânda kaldı. {gir: gizem, kime: cengo}
 **CENGO [gulen]:** Simit için gelmedim. Pazar geceyi soracağız.
 **GİZEM [kas]:** *(Peri'yi baştan aşağı süzerek)* Sen dükkândaki afişsin. {kime: peri}
