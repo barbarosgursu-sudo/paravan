@@ -99,7 +99,7 @@ aktif süre = toplam − aralar.
 | 3 | 17 Eki 17:41 (Onay 2 sırasında) | 17 Eki 17:57 | 16 dk |
 | 4 | 17 Eki 18:09 (Onay 2 sırasında) | 18 Eki ~09:14 (sahibinin ekran görüntüleri 09:13; afiş esprisi) | ~15 sa 05 dk |
 | 5 | 18 Eki 10:11 (Onay 2 sırasında; afiş esprisi + kapanış K53 bitti, adım 8 başlamadı) | 18 Eki 11:26 ("saati başlat") | 1 sa 15 dk |
-| 6 | 18 Eki 11:26 (sahibi başlattıktan sonra çalışamadı; aynı anda durduruldu) | | |
+| 6 | 18 Eki 11:26 (sahibi başlattıktan sonra çalışamadı; aynı anda durduruldu) | 18 Eki 13:33 | 2 sa 07 dk |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
