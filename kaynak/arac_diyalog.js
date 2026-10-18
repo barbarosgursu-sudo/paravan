@@ -7,6 +7,7 @@
 // Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,onizleme,sonuc,cengo_sonuc}
 //            yeni/kisiler.json    → defter.<vaka>.<karar>, ani_ozet.<vaka> (## ani bölümü)
 //            vaka.kim_yapti.hikaye → "Dosyanın tamamı" ekranı (## hikaye bölümü, 17 Ekim 2026)
+//            vaka.kim_yapti.kanit_ad → kanıtların kısa adı (## kanit bölümü, 18 Ekim 2026; yoksa tam metin görünür)
 // ⚙ satırı: arka, figurler, etiket, set (Peri'nin sahne başı kıyafeti), cset (Cengo'nun).
 // Yapı (ipuçlarının açılma koşulu, olgular, Kim yaptı?) bu aracın işi değil; veride durur.
 // Ardından: node dogrulayici.js yeni
@@ -28,12 +29,13 @@ const temiz = s => s.replace(/\*\(([^)]*)\)\*/g, "($1)").trim();   // *(yutkunar
 
 const hatalar = [];
 const sahneler = {}, ipuclari = {}, kararlar = {};
-let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null, aniMetin = null, hikayeMetin = null;
+let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null, aniMetin = null, hikayeMetin = null, kanitMetin = null;
 for (const ham of md) {
   satirNo++;
   const s = ham.trim();
   let m;
   if (s === "## cozum") { hedef = { tur: "cozum", ayar: {}, metin: { yollar: [], masum: {} } }; cozumMetin = hedef; continue; }
+  if (s === "## kanit") { hedef = { tur: "kanit", ayar: {}, metin: {} }; kanitMetin = hedef; continue; }
   if (s === "## ani") { hedef = { tur: "ani", ayar: {}, metin: {} }; aniMetin = hedef; continue; }
   if (s === "## hikaye") { hedef = { tur: "hikaye", ayar: {}, metin: { paragraflar: [] } }; hikayeMetin = hedef; continue; }
   if (s === "## ucret") { hedef = { tur: "ucret", ayar: {}, metin: {} }; ucretMetin = hedef; continue; }
@@ -60,6 +62,11 @@ for (const ham of md) {
   if (hedef.tur === "hikaye") {
     if ((m = s.match(/^\*\*HİKÂYE:\*\*\s*(.+)$/))) hedef.metin.paragraflar.push(m[1].trim());
     else hatalar.push(`${satirNo}: hikâye bölümünde tanınmayan satır`);
+    continue;
+  }
+  if (hedef.tur === "kanit") {
+    if ((m = s.match(/^\*\*([a-z0-9_]+):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
+    else hatalar.push(`${satirNo}: kanıt bölümünde tanınmayan satır`);
     continue;
   }
   if (hedef.tur === "ani") {
@@ -131,6 +138,10 @@ if (v.kim_yapti) {
   // "Dosyanın tamamı": kaçan ipucunu reklamla izleyen oyuncuya vaka sonunda bir kez (yeni_arayuz.js → hikayeEkrani).
   if (!hikayeMetin || !hikayeMetin.metin.paragraflar.length) hatalar.push("'## hikaye' bölümü (HİKÂYE) yok");
   else v.kim_yapti.hikaye = hikayeMetin.metin.paragraflar;
+  if (kanitMetin) {
+    for (const id of Object.keys(kanitMetin.metin)) if (!(v.facts || {})[id]) hatalar.push(`kanıt adı '${id}' bir olgu değil`);
+    v.kim_yapti.kanit_ad = kanitMetin.metin;
+  }
   if (!aniMetin || !aniMetin.metin.ani) hatalar.push("'## ani' bölümü (ANI) yok");
   else { K.ani_ozet = K.ani_ozet || {}; K.ani_ozet[vakaId] = aniMetin.metin.ani; }
 }

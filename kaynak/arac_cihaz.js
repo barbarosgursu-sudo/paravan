@@ -80,7 +80,7 @@ function olc() {
       }
     }
   }
-  sonuc.kucukHedef = [...document.querySelectorAll('.vn-gec,.vn-secim,.buton,.kaynak,.karar,.ust-btn,.ky-secenek,.ky-grup,.dosya-afis')]
+  sonuc.kucukHedef = [...document.querySelectorAll('.vn-gec,.vn-secim,.buton,.kaynak,.karar,.ust-btn,.ky-secenek,.ky-oku,.ky-yuva.dolu,.dosya-afis')]
     .filter(gorunur).map(e => ({ ad: (e.getAttribute('aria-label') || e.textContent || '').trim().slice(0, 18), r: R(e) }))
     .filter(x => x.r.height < 32 || x.r.width < 32).map(x => x.ad + ' ' + Math.round(x.r.width) + '×' + Math.round(x.r.height));
   return sonuc;

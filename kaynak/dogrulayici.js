@@ -984,6 +984,16 @@ function kural19_kimYapti(game, hatalar) {
       hatalar.push(`[K19] ${yer}: ücret sırası dogru ≥ zayif ≥ yanlis ≥ 0 olmalı.`);
     for (const k of ["zayif", "yanlis"]) if (u[k] < u.dogru && !((ky.kesinti || {})[k] || "").trim())
       hatalar.push(`[K19] ${yer}: '${k}' ücret kesintisinin açıklaması (kesinti.${k}) yok — kural 22a.`);
+    // Kısa kanıt adları (18 Ekim 2026): varsa ipucundan gelen her olgunun adı olmalı, yoksa
+    // liste yarısı ad yarısı paragraf olur. Yoksa (V1, V2) ekran tam metne düşer.
+    if (ky.kanit_ad) {
+      for (const [id, ad] of Object.entries(ky.kanit_ad)) {
+        if (!facts[id]) hatalar.push(`[K19] ${yer}: kanıt adı '${id}' bir olgu değil.`);
+        if (!String(ad).trim() || String(ad).length > 32) hatalar.push(`[K19] ${yer}: '${id}' kanıt adı boş ya da 32 harften uzun.`);
+      }
+      for (const c of vaka.clues || []) for (const o of c.reveals || [])
+        if (facts[o] && !ky.kanit_ad[o]) hatalar.push(`[K19] ${yer}: '${o}' kanıt olabilir ama kısa adı (kanit_ad) yok.`);
+    }
     const cz = ky.cozum || {};
     if (!(cz.yollar || []).length) hatalar.push(`[K19] ${yer}: 'Dosya çözüldü' ekranının kanıt yolları (cozum.yollar) yok.`);
     for (const x of sup) if (x.id !== ky.suclu && !((cz.masum || {})[x.id] || "").trim())

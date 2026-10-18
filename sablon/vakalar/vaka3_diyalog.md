@@ -297,6 +297,27 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **MASUM kenan:** Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi; alarm onun koduyla değil, ortak kodla kapatıldı. Yalanı iş aradığı içindi.
 **MASUM gizem:** Gizem masumdu: kasanın şifresini bilmez; döndüğünde alarm çoktan kapalıydı ve kasanın başında lacivert önlüklü biri vardı. Yalnız bayat simit almıştı.
 
+## kanit
+⚙ Kim yaptı? ekranında kanıtın kısa adı (18 Ekim 2026, sahibinin onayı). Listede yalnız ad görünür, tam metin dokununca açılır; "Dosya çözüldü" ekranı da adla konuşur. Ad olgunun kendi metninde olanı söyler, fazlasını değil (Nurcan): kişiyi suçlamaz, olayı adlandırır. 2–4 kelime.
+
+**susam_soyuldu:** Soygun gecesi
+**gizem_kapatti:** Dükkânı Gizem kapattı
+**kenan_acti:** Dükkânı Kenan açtı
+**cam_iceriden:** İçeriden kırılan cam
+**kasa_sifre:** Şifreyle açılan kasa
+**kamera_fis:** Fişi çekilen kamera
+**alarm_kodu:** Alarmın ortak kodu
+**cam_sensor:** Ötmeyen cam sensörü
+**gizem_dondu:** Gizem'in gece dönüşü
+**gizem_foto:** Gizem'in fotoğrafı
+**kenan_yalan:** Kenan'ın "evdeydim"i
+**maas_gec:** Geciken maaşlar
+**kenan_onluk:** Badem'in önlüğü
+**kenan_deneme:** Kenan'ın deneme vardiyası
+**merkez_satilik:** Satılmak istenen merkez
+**borc_elden:** Elden ödenen un borcu
+**ferruh_borc:** Toptancının sözü
+
 ## ani
 ⚙ Anı defterinde vakanın hatırlatması (Peri'nin notunun üstünde, bütün kararlarda aynı). Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği; karara göre değişen hiçbir şey yazılmaz. 2–3 cümle: müşteri ve kayıp, kim almıştı, neden.
 

@@ -73,6 +73,8 @@ Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
 `--hepsi` eklenirse incelenen vakanın HER satırı `YENI_UI/satir/`'a görüntülenir ve `dokum.txt`'ye
 konuşan/kime/arka/kare/figür anahtarıyla dökülür — görselli tur denetimi (adım 11) bununla yapılır.
+**Kim yaptı? kanıtları kısa adla (18 Ekim 2026):** diyalogda `## kanit` (`**olgu_id:** Kısa ad`) → `kim_yapti.kanit_ad`.
+Liste düz, tam metin ▾ ile; sonuç ekranı ✓/✗ + "Eksik olan". Ad olgunun metninden fazlasını söylemez (Nurcan). Adı olmayan vaka tam metne düşer.
 Defter de vaka başına (17 Ekim 2026): Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın
 **anı özetini** (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi
 suçladığını, kararını, kasayı ve Peri'nin notunu basar (`yeni_arayuz.js → defterZincir, defterAni`).

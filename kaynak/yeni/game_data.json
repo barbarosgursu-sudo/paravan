@@ -2314,7 +2314,26 @@
           "Ferruh gece on kırk dörtte döndü: alarmı ortak kodla kapattı, kameranın fişini çekti, kasayı şifreyle açtı ve içindeki dört yüz seksen bini depodaki bir un çuvalına sakladı.",
           "On bir buçukta Gizem artan simitleri almak için geri geldi. Kasanın başında lacivert önlüklü birini görünce telefonla fotoğrafını çekti, korkup kaçtı; gizlice girdiği için kimseye söylemedi.",
           "Ferruh camı içeriden kırdı, alarmı kurup çıktı. Sabah sigortaya defterdeki yedi yüz yirmi bini bildirdi, kasada hiç olmayan cuma parası dahil; suçu da Gizem'e yıkmaya çalıştı."
-        ]
+        ],
+        "kanit_ad": {
+          "susam_soyuldu": "Soygun gecesi",
+          "gizem_kapatti": "Dükkânı Gizem kapattı",
+          "kenan_acti": "Dükkânı Kenan açtı",
+          "cam_iceriden": "İçeriden kırılan cam",
+          "kasa_sifre": "Şifreyle açılan kasa",
+          "kamera_fis": "Fişi çekilen kamera",
+          "alarm_kodu": "Alarmın ortak kodu",
+          "cam_sensor": "Ötmeyen cam sensörü",
+          "gizem_dondu": "Gizem'in gece dönüşü",
+          "gizem_foto": "Gizem'in fotoğrafı",
+          "kenan_yalan": "Kenan'ın \"evdeydim\"i",
+          "maas_gec": "Geciken maaşlar",
+          "kenan_onluk": "Badem'in önlüğü",
+          "kenan_deneme": "Kenan'ın deneme vardiyası",
+          "merkez_satilik": "Satılmak istenen merkez",
+          "borc_elden": "Elden ödenen un borcu",
+          "ferruh_borc": "Toptancının sözü"
+        }
       },
       "anahtarlar": {
         "cam_iceriden": ["kırıklar", "sokakta"],

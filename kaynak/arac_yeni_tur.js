@@ -119,8 +119,6 @@ const VAKA = YOL3 ? "V3" : YOL2 ? "V2" : "V1";
     await foto(vid + '_kimyapti_supheli');
     for (const id of secim.kanit) {
       // Kanıtlar başlık altında kapalı durur: önce o kanıtın başlığını aç.
-      const n = await p.evaluate(id => kyGruplar().findIndex(g => g.kanitlar.includes(id)), id);
-      if (!(await p.$(`.ky-secenek[onclick="kyKanit('${id}')"]`))) await p.click(`.ky-grup[onclick="kyGrup(${n})"]`);
       await p.click(`.ky-secenek[onclick="kyKanit('${id}')"]`);
     }
     await foto(vid + '_kimyapti_secili');

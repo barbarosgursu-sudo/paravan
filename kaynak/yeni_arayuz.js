@@ -561,8 +561,12 @@ kararFazi = function(){
 };
 
 /* İki adım (sahibinin görselsiz testi, 9 Ekim 2026): önce şüpheli, sonra kanıt.
-   Kanıtlar şüpheliye göre SÜZÜLMEZ (süzmek hangi kanıtın önemli olduğunu söylemek olurdu);
-   nereden öğrenildiyse o başlığın altında durur, başlığa dokununca açılır. */
+   Kanıtlar şüpheliye göre SÜZÜLMEZ (süzmek hangi kanıtın önemli olduğunu söylemek olurdu).
+   18 Ekim 2026 (sahibi: "dağınık"): tek düz liste, kanıt KISA ADIYLA (kim_yapti.kanit_ad) görünür,
+   nereden öğrenildiği küçük etiket; tam metin ▾ ile okunur (seçmeden de).
+   Üstte iki yuva seçileni gösterir. Kısa adı olmayan vakada (V1, V2) ad yerine tam metin durur. */
+const kyAd = id => ((oyun.durum.aktif.vaka.kim_yapti || {}).kanit_ad || {})[id];
+const kyMetin = id => oyun.durum.aktif.vaka.facts[id];
 let kySecim = { supheli: null, kanitlar: [], acik: null };
 function kyGruplar(){
   const a = oyun.durum.aktif, v = a.vaka, ky = v.kim_yapti;
@@ -590,16 +594,23 @@ function kimYaptiEkrani(sifirla = true){
   } else {
     const s = oyun.supheliler().find(x => x.id === kySecim.supheli), f = a.vaka.facts;
     // Ad sonuna ek koymuyoruz: "Kemal Reis'ı" gibi yanlış ünlü uyumu çıkar.
-    h += `<div class="ky-not">Suçladığın: <b>${vnHtml(s.ad)}</b>. Hangi iki kanıtla?</div>`;
-    h += `<div class="faz-etiket"><span class="t">Kanıtlar</span><span class="ky-sayac">${kySecim.kanitlar.length} / 2</span></div><div class="ky-liste">`;
-    kyGruplar().forEach((g, n) => {
-      const secili = g.kanitlar.filter(id => kySecim.kanitlar.includes(id)).length;
-      const acik = kySecim.acik === n;
-      h += `<button type="button" class="ky-grup${acik ? " acik" : ""}" onclick="kyGrup(${n})"><span>${vnHtml(g.ad)}</span>` +
-           `<span class="ky-grup-say">${secili ? `<b>${secili} seçili</b> · ` : ""}${g.kanitlar.length} ${acik ? "▴" : "▾"}</span></button>`;
-      if(acik) for(const id of g.kanitlar)
-        h += `<button type="button" class="ky-secenek kanit${kySecim.kanitlar.includes(id) ? " secili" : ""}" onclick="kyKanit('${id}')">${vnHtml(f[id])}</button>`;
-    });
+    h += `<div class="ky-not">Suçladığın: <b>${vnHtml(s.ad)}</b>. Onu suça hangi iki kanıt bağlıyor?</div>`;
+    if(!(a.vaka.kim_yapti || {}).kanit_ad)            // kısa adı olmayan vaka: yuvada paragraf durmasın
+      h += `<div class="faz-etiket"><span class="t">Kanıtlar</span><span class="ky-sayac">${kySecim.kanitlar.length} / 2</span></div>`;
+    else h += `<div class="ky-yuvalar">` + [0, 1].map(i => {
+      const id = kySecim.kanitlar[i];
+      return id ? `<button type="button" class="ky-yuva dolu" onclick="kyKanit('${id}')" aria-label="Çıkar">${vnHtml(kyAd(id) || f[id])}<span>✕</span></button>`
+                : `<div class="ky-yuva">${i + 1}. kanıt</div>`;
+    }).join("") + `</div>`;
+    h += `<div class="ky-liste">`;
+    for(const g of kyGruplar()) for(const id of g.kanitlar){
+      const secili = kySecim.kanitlar.includes(id), ad = kyAd(id), acik = kySecim.acik === id;
+      h += `<div class="ky-kanit${secili ? " secili" : ""}">` +
+           `<div class="ky-kanit-ust"><button type="button" class="ky-secenek kanit${secili ? " secili" : ""}${ad ? "" : " uzun"}" onclick="kyKanit('${id}')">` +
+           `${vnHtml(ad || f[id])}<span class="ky-kaynak">${vnHtml(g.ad)}</span></button>` +
+           (ad ? `<button type="button" class="ky-oku" onclick="kyOku('${id}')" aria-label="Kanıtı oku">${acik ? "▴" : "▾"}</button>` : "") +
+           `</div>` + (ad && acik ? `<div class="ky-kanit-metin">${vnHtml(f[id])}</div>` : "") + `</div>`;
+    }
     h += `</div>`;
     h += `<button class="buton" ${kySecim.kanitlar.length === 2 ? "" : "disabled"} onclick="kyOnay()">Suçla</button>`;
     h += `<button class="buton ikincil" onclick="kySupheli(null)">← Başka şüpheli</button></div>`;
@@ -608,7 +619,7 @@ function kimYaptiEkrani(sifirla = true){
   if(sifirla) scrollUst();
 }
 function kySupheli(id){ kySecim = { supheli: id, kanitlar: [], acik: null }; kimYaptiEkrani(false); scrollUst(); }
-function kyGrup(n){ kySecim.acik = kySecim.acik === n ? null : n; kimYaptiEkrani(false); }
+function kyOku(id){ kySecim.acik = kySecim.acik === id ? null : id; kimYaptiEkrani(false); }
 function kyKanit(id){
   const k = kySecim.kanitlar;
   if(k.includes(id)) k.splice(k.indexOf(id), 1);
@@ -621,7 +632,7 @@ function kyOnay(){
   if(!s || kySecim.kanitlar.length !== 2) return;
   let h = ust() + '<div class="faz ky">';
   h += `<div class="baslik"><div class="no">Kim yaptı?</div><h1 style="font-size:24px">${vnHtml(s.ad)}</h1></div>`;
-  h += `<div class="ky-ozet">${kySecim.kanitlar.map(id => `<div class="o">${vnHtml(f[id])}</div>`).join("")}</div>`;
+  h += `<div class="ky-ozet">${kySecim.kanitlar.map(id => `<div class="o">${kyAd(id) ? `<b>${vnHtml(kyAd(id))}</b><br>` : ""}${vnHtml(f[id])}</div>`).join("")}</div>`;
   h += `<div class="uyari">Bu suçlama geri alınamaz.</div>`;
   h += `<button class="buton" onclick="kySucla()">Evet, suçla</button>`;
   h += `<button class="buton ikincil" onclick="kimYaptiEkrani(false)">Vazgeç</button></div>`;
@@ -646,7 +657,9 @@ function cozumEkrani(){
   const a = oyun.durum.aktif, ky = a.vaka.kim_yapti, sc = a.suclama, f = a.vaka.facts;
   const ad = id => (ky.supheliler.find(x => x.id === id) || {}).ad || id;
   const cz = ky.cozum || { masum: {} };
-  const madde = ids => `<ul class="ky-madde">${ids.map(id => `<li>${vnHtml(f[id])}</li>`).join("")}</ul>`;
+  // 18 Ekim 2026: aynı paragraf iki kez basılmaz. Seçilen kanıtlar adla, ✓ (doğru çiftte) / ✗;
+  // altta yalnız EKSİK olan, adı ve tam metniyle.
+  const adi = id => vnHtml(kyAd(id) || f[id]);
   let h = ust() + '<div class="faz ky">';
   h += `<div class="baslik"><div class="no">Dosya çözüldü</div><h1 style="font-size:24px">${KY_SONUC_BASLIK[sc.sonuc]}</h1></div>`;
   // Ada ek koymuyoruz (ünlü uyumu her adda tutmaz).
@@ -654,14 +667,18 @@ function cozumEkrani(){
              : sc.sonuc === "zayif" ? `Suçlu doğru: ${ad(ky.suclu)}. Ama kanıtların onu suça bağlamadı.`
              : (cz.masum[sc.supheli] || `${ad(sc.supheli)} masumdu.`);
   h += `<div class="ky-not">${vnHtml(ozet)}</div>`;
-  h += `<div class="ky-alt-baslik">Senin kanıtların</div>` + madde(sc.kanitlar);
-  if(sc.sonuc !== "dogru"){
-    // Tek yol: oyuncunun seçtiğine en yakın doğru çift (ortak kanıtı olan önce).
-    const somut = o => typeof o === "string" ? o : (o.any || o.all || [])[0];
-    const ciftler = ky.dogru_ciftler.map(c => c.map(somut));
-    const yakin = ciftler.map(c => ({ c, ortak: c.filter(x => sc.kanitlar.includes(x)).length }))
-                         .sort((x, y) => y.ortak - x.ortak)[0].c;
-    h += `<div class="ky-alt-baslik">Şu ikisi yeterdi</div>` + madde(yakin);
+  // Oyuncunun seçtiğine en yakın doğru çift (ortak kanıtı olan önce); doğruysa kendi çifti.
+  const tutar = (o, k) => oyun._ogeTutar(o, k);
+  const somut = o => typeof o === "string" ? o : (o.any || o.all || [])[0];
+  const yakin = ky.dogru_ciftler.map(c => ({ c, ortak: sc.kanitlar.filter(k => c.some(o => tutar(o, k))).length }))
+                               .sort((x, y) => y.ortak - x.ortak)[0].c;
+  h += `<div class="ky-alt-baslik">Senin kanıtların</div><ul class="ky-madde isaretli">` +
+       sc.kanitlar.map(k => yakin.some(o => tutar(o, k))
+         ? `<li class="tamam"><span class="i">✓</span>${adi(k)}</li>` : `<li class="bos"><span class="i">✗</span>${adi(k)}</li>`).join("") + `</ul>`;
+  const eksik = yakin.filter(o => !sc.kanitlar.some(k => tutar(o, k))).map(somut);
+  if(eksik.length){
+    h += `<div class="ky-alt-baslik">Eksik olan</div>`;
+    for(const id of eksik) h += `<div class="ky-eksik">${kyAd(id) ? `<b>${vnHtml(kyAd(id))}</b>` : ""}<div>${vnHtml(f[id])}</div></div>`;
   }
   h += `<button class="buton" onclick="kararEkrani()">Karara geç →</button></div>`;
   app.innerHTML = h; scrollUst();
