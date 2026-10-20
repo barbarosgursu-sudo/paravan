@@ -63,6 +63,23 @@ class OyunYeni extends Oyun {
     return ky.dogru_ciftler.some(c => this._ciftTutar(c, a, b)) ? "dogru" : "zayif";
   }
 
+  // "Dosya çözüldü" ekranının malzemesi (yeni_arayuz.js → cozumEkrani). NURCAN (20 Ekim 2026):
+  // yalnız iki öğesi de ELDE olan doğru çift aday; eksik kanıt hep eldeki bir olgudur.
+  // Elde tam çift yoksa yakin null, eksik boş: açılmamış ipucunun olgusu adıyla bile anılmaz.
+  cozumYolu() {
+    const a = this.durum.aktif, ky = this._ky(), sc = a && a.suclama;
+    if (!sc) return null;
+    const elde = this.kanitlar().map(k => k.id);
+    const eldeki = o => elde.find(k => this._ogeTutar(o, k));
+    const secili = o => sc.kanitlar.some(k => this._ogeTutar(o, k));
+    const aday = ky.dogru_ciftler.filter(c => c.every(eldeki))
+      .map(c => ({ c, ortak: c.filter(secili).length })).sort((x, y) => y.ortak - x.ortak);
+    const yakin = aday.length ? aday[0].c : null;
+    const tamam = sc.kanitlar.filter(k => (yakin ? [yakin] : ky.dogru_ciftler).some(c => c.some(o => this._ogeTutar(o, k))));
+    const eksik = yakin && sc.sonuc !== "dogru" ? yakin.filter(o => !secili(o)).map(eldeki) : [];
+    return { tamam, eksik, eldeCiftVar: !!yakin };
+  }
+
   // Tek hak: oyuncu bir kez suçlar (1. parça).
   suclama(supheliId, kanitIdleri) {
     const a = this.durum.aktif, ky = this._ky();

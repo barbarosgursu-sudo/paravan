@@ -133,6 +133,36 @@ console.log("\n=== Kayıt ===");
   k("geçersiz suçlamalı kayıt reddediliyor, durum bozulmuyor", !!z.durumYukle(bozuk).hata && z.durum.aktif === null);
 }
 
+console.log("\n=== Dosya çözüldü: yalnız eldeki kanıt (Nurcan, 20 Ekim 2026) ===");
+// Sahibi buldu: "Eksik olan" açılmamış ipucunun olgusunu basıyordu (hem sızıntı hem reklamlı
+// kaçan ipucunu bedavaya açma). Her vakada her ipucu alt kümesi × şüpheli × çift denenir.
+{
+  let denenen = 0, sizinti = [], eldeYetmez = 0, eksikli = 0;
+  for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
+    const ids = vaka.clues.map(c => c.id);
+    for (let m = 1; m < (1 << ids.length); m++) {
+      const o = new OyunYeni(G);
+      for (const v of G.vakalar.filter(x => x.kim_yapti && x.sira < vaka.sira).sort((x, y) => x.sira - y.sira)) {
+        o.vakaBaslat(v.id); o.durum.aktif.arastirmaKalan = 99;
+        let ac; while ((ac = o.acikKaynaklar()).length) o.kaynakAc(ac[0].id);
+        const kn = o.kanitlar().map(x => x.id); o.suclama(v.kim_yapti.suclu, kn.slice(0, 2)); o.kararVer(v.decisions[0].id);
+      }
+      o.vakaBaslat(vaka.id); const a = o.durum.aktif; a.arastirmaKalan = 99;
+      for (const [i, id] of ids.entries()) if (m & (1 << i)) o.kaynakAc(id);   // koşulu tutmayan açılmaz, sorun değil
+      const kn = o.kanitlar().map(x => x.id);
+      for (const s of o.supheliler()) for (let i = 0; i < kn.length; i++) for (let j = i + 1; j < kn.length; j++) {
+        a.suclama = null; o.suclama(s.id, [kn[i], kn[j]]); denenen++;
+        const y = o.cozumYolu();
+        for (const x of [...y.eksik, ...y.tamam]) if (!kn.includes(x)) sizinti.push(`${vaka.id} ${s.id} → ${x}`);
+        if (y.eksik.length) eksikli++;
+        if (!y.eldeCiftVar) eldeYetmez++;
+      }
+    }
+  }
+  k(`sonuç ekranı yalnız eldeki kanıtı anıyor (${denenen} suçlama)` + (sizinti.length ? ": " + sizinti.slice(0, 3).join("; ") : ""), denenen > 0 && !sizinti.length);
+  k("iki durum da yaşanıyor: eksik kanıt elde / elde tam çift yok", eksikli > 0 && eldeYetmez > 0);
+}
+
 console.log("\n=== Kapanış eşiği ===");
 {
   const o = new OyunYeni(G);

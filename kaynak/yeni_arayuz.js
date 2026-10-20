@@ -651,7 +651,9 @@ function kySucla(){
 
 /* "Dosya çözüldü" (sahibinin görselsiz testi, 9 Ekim 2026): kovalamacadan sonra, karardan önce.
    Oyuncu suçlamasının neden tam, zayıf ya da yanlış olduğunu ve suçluyu gösteren yolları görür.
-   Suçlamadan sonra geldiği için sızıntı değil: gerçek kovalamacada ortaya çıktı. */
+   Suçlamadan sonra gelir ama NURCAN YÜZEYİDİR (sahibi, 20 Ekim 2026): yalnız oyuncunun elindeki kanıtlar
+   adıyla ya da metniyle anılır. Açılmamış ipucunun olgusu burada basılırsa hem sızıntı olur hem de
+   reklamla izlenen "kaçan ipuçları"nı bedavaya açar. */
 const KY_SONUC_BASLIK = { dogru: "Doğru kişi, sağlam kanıt", zayif: "Doğru kişi, zayıf kanıt", yanlis: "Yanlış kişi" };
 function cozumEkrani(){
   const a = oyun.durum.aktif, ky = a.vaka.kim_yapti, sc = a.suclama, f = a.vaka.facts;
@@ -667,19 +669,15 @@ function cozumEkrani(){
              : sc.sonuc === "zayif" ? `Suçlu doğru: ${ad(ky.suclu)}. Ama kanıtların onu suça bağlamadı.`
              : (cz.masum[sc.supheli] || `${ad(sc.supheli)} masumdu.`);
   h += `<div class="ky-not">${vnHtml(ozet)}</div>`;
-  // Oyuncunun seçtiğine en yakın doğru çift (ortak kanıtı olan önce); doğruysa kendi çifti.
-  const tutar = (o, k) => oyun._ogeTutar(o, k);
-  const somut = o => typeof o === "string" ? o : (o.any || o.all || [])[0];
-  const yakin = ky.dogru_ciftler.map(c => ({ c, ortak: sc.kanitlar.filter(k => c.some(o => tutar(o, k))).length }))
-                               .sort((x, y) => y.ortak - x.ortak)[0].c;
+  const yol = oyun.cozumYolu();                   // Nurcan: yalnız eldeki kanıtlar (motor_yeni.js)
   h += `<div class="ky-alt-baslik">Senin kanıtların</div><ul class="ky-madde isaretli">` +
-       sc.kanitlar.map(k => yakin.some(o => tutar(o, k))
+       sc.kanitlar.map(k => yol.tamam.includes(k)
          ? `<li class="tamam"><span class="i">✓</span>${adi(k)}</li>` : `<li class="bos"><span class="i">✗</span>${adi(k)}</li>`).join("") + `</ul>`;
-  const eksik = yakin.filter(o => !sc.kanitlar.some(k => tutar(o, k))).map(somut);
-  if(eksik.length){
-    h += `<div class="ky-alt-baslik">Eksik olan</div>`;
-    for(const id of eksik) h += `<div class="ky-eksik">${kyAd(id) ? `<b>${vnHtml(kyAd(id))}</b>` : ""}<div>${vnHtml(f[id])}</div></div>`;
-  }
+  if(yol.eksik.length){
+    h += `<div class="ky-alt-baslik">Elindeydi</div>`;
+    for(const id of yol.eksik) h += `<div class="ky-eksik">${kyAd(id) ? `<b>${vnHtml(kyAd(id))}</b>` : ""}<div>${vnHtml(f[id])}</div></div>`;
+  } else if(sc.sonuc !== "dogru" && !yol.eldeCiftVar)
+    h += `<div class="ky-eksik">Elindeki kanıtlar onu suça bağlamaya yetmiyordu. Eksik parça, açmadığın bir ipucundaydı.</div>`;
   h += `<button class="buton" onclick="kararEkrani()">Karara geç →</button></div>`;
   app.innerHTML = h; scrollUst();
 }

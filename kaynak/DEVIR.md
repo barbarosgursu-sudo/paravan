@@ -16,7 +16,7 @@ Saat: `vaka3_baslangic.md` §2 ara tablosu (ara 8 kapandı, 21:25). (ara 9 kapan
 Aktif süre ≈ 4 sa 33 dk (20:51'e kadar) + 21:25→21:41 = ≈ 4 sa 49 dk, + 21:46→21:48 (ara 4'ün bitişi ~09:14 tahmindir; sahibi düzeltebilir).
 Kim yaptı? kanıt ekranı sadeleşti (18 Eki, sahibinin onayı): kısa kanıt adları (`vaka3_diyalog.md → ## kanit`,
 veride `kim_yapti.kanit_ad`; K19 eksik adı yakalar), düz liste + ▾ ile tam metin, üstte iki yuva, "Dosya çözüldü"de
-✓/✗ ve yalnız "Eksik olan". V1/V2'de kısa ad yok → tam metin + "0 / 2" sayacı — önerildi (V1: 13, V2: 15 kanıt; yalnız ad, kod hazır); sahibi YARIN karar verecek.
+✓/✗ ve "Elindeydi". **20 Eki: sızıntı kapandı** — "Eksik olan" açılmamış ipucunun kanıtını basıyordu (sahibi buldu); artık yalnız eldeki kanıt, elde tam çift yoksa tek cümle (`cozumYolu`, test_yeni_kimyapti). V1/V2'de kısa ad yok → tam metin + "0 / 2" sayacı — önerildi (V1: 13, V2: 15 kanıt; yalnız ad, kod hazır); sahibi YARIN karar verecek.
 
 **Bu pencerede (18 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı):**
 - **Dükkân sahnesi, afiş esprisi** yeniden yazıldı: Peri "Değilim" der, hemen afişin ışığını eleştirir
