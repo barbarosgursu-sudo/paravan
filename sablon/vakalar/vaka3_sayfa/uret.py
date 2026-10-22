@@ -109,10 +109,10 @@ konuk(8, "Kenan, normal (temel)", "kenan.normal", A1, "tarz_govde_erkek.jpg",
   "", "Düzgün dolgun sakal (kirli sakal değil) · çok kısa saç · uzun köşeli yüz · Vaka 1'in Serkan'ına benzemiyor · önlük lacivert · kazıyıcı yazısız")
 konuk(9, "Gizem, normal (temel)", "gizem.normal", A1, "tarz_govde_kadin.jpg",
   "Gizem, 25, Susam Pastanesi'nde tezgâhtar. Orta boylu, kıvrımlı; koyu bal rengi, omuz boyu, dalgalı saç ve kâküllü; iri ela gözler, çilli burun; pembe-mercan ruj. Hazırcevap, işveli, mahalleli.",
-  "dar beyaz tişört, kısa kot etek, beyaz spor ayakkabı; kulaklarında küçük, simit biçimli altın küpeler. Önlük yok. Çorap yok.",
-  "Sol eli belinde, sağ eliyle bir tutam kâkülünü kulağının arkasına atıyor; kalçası hafif yana kırık.", "kendinden emin, muzip bir gülümseme.",
-  "Çekicilik: genç, sportif ve işveli; çekici ama sade, sokak şıklığı. Bu vakada en gösterişli kadın Peri'dir; Gizem onu geçmez. Çıplaklık yok.",
-  "Saç bal rengi + kâkül · çil · simit küpe · beyaz tişört + kot etek · önlük yok")
+  "vücudu saran, kısa kesim beyaz bir tişört: göbeği açıkta, derin yuvarlak yakalı; çok kısa, dar, bel oturan kot etek; beyaz spor ayakkabı; kulaklarında küçük altın halka küpeler. Önlük yok. Çorap yok.",
+  "Ağırlığı tek bacağında, kalçası belirgin biçimde yana kırık, sırtı hafif kavisli. Sol eli belinde, sağ eliyle saçını kaldırıp ensesine atıyor.", "işveli, kendinden emin; gözler yarı kapalı, dudaklar hafif aralık, muzip bir yarım gülümseme.",
+  "Çekicilik: genç, sportif ve çok çekici bir mahalle güzeli; kıvrımlı beden hattı belirgin (sahibinin isteği, 22 Ekim 2026). Bu vakada en gösterişli kadın yine Peri'dir. Çıplaklık yok.",
+  "Saç bal rengi + kâkül · çil · kısa tişört (göbek açık) + kısa kot etek · önlük yok")
 def mekan(no, ad, an, grup, refs, govde, bak=""):
     ekle(no, ad, an, "arka plan", grup, refs, j(STIL, govde, "İnsan yok; kadraj boş bir sahne gibi, figürler sonradan önüne konacak (ortası açık).", YAZI, F34), bak)
 mekan(10, "Susam'ın merkezi: tezgâh ve afiş", "A23", A1,
