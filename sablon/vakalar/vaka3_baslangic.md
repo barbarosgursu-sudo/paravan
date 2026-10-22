@@ -106,7 +106,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 8 | 18 Eki 20:51 (Onay 2 sırasında; Gizem'in fotoğrafı bitti) | 18 Eki ~21:25 ("zamanı başlat"; kanıt ekranı sorusu) | ~34 dk |
 | 9 | 18 Eki 21:41 (Onay 2 sırasında; kanıt ekranı bitti, sahibi inceliyor) | 18 Eki 21:46 ("tekrar başlat") | 5 dk |
 | 10 | 18 Eki 21:48 (Onay 2 sırasında; V1/V2 kısa ad kararı yarına) | 22 Eki 12:59 ("zamanı başlat"; hikâye donmuş sayıldı, adım 8) | ~3 gün 15 sa 11 dk (aradaki işler — kanıt sızıntısı, sahne sızıntıları, tarama aracı — saat dururken yapıldı, sayılmadı) |
-| 11 | 22 Eki 13:09 (adım 8: iş sayfası yayımlandı; sahibi bilgisayarda "başlat" diyecek) | | |
+| 11 | 22 Eki 13:09 (adım 8: iş sayfası yayımlandı; sahibi bilgisayarda "başlat" diyecek) | 22 Eki 15:34 ("zamanı başlat"; adım 9 görsel üretimi) | 2 sa 25 dk |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
@@ -116,7 +116,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 5 Görselsiz tur + bulanık replik taraması | 17 Eki 15:11 | 17 Eki 15:37 | `arac_yeni_tur.js` V3'e açıldı (yollar kod/foto/borc/badem/cozmez); 9 tur (5 yol × 4 sonuç × 4 karar) temiz; `--hepsi` 140 satır; motor eki: satırda `cset` (Cengo unlu); 11 bulanık replik düzeltmesi (saat ifadeleri ×3, 'patron' → Ferruh ×2, Gizem'in istifa cümlesi, Cengo'nun kime'si…) |
 | 6–7 Onay 2, hikâye donar | 17 Eki 15:37 | 22 Eki 12:59 (sahibi: "hikâyeyi donmuş sayalım") | Vaka 2: 1 sa 56 dk. 16:11–16:18: sahibinin isteğiyle anlaşılırlık geçişi — 109 replik açıldı (kısa/şifreli cümleler: "Senin defterin ayrı", "Önce dükkân" gibi). 18 Eki notları: afiş esprisi, K53 (saklanma), K38 teyze cevabı, saat kuralı 5b, Cengo'nun dinleme yüzü, Gizem'in fotoğrafı bilerek — ayrıntı `DEVIR.md` |
 | 8 Görsel listesi + promptlar | 22 Eki 12:59 | 22 Eki 13:09 | sahibinin yeni düzeni: önce ana referanslar (onay), sonra referansa göre gruplu toplu üretim, 3 pencere paralel |
-| 9–10 Görseller, toplu işleme, yerleştirme | | | |
+| 9–10 Görseller, toplu işleme, yerleştirme | 22 Eki 15:34 | | sahibi bilgisayarda; Aşama 1 (G1–G11) önce |
 | 11 Görselli tur | | | |
 | 12–13 Onay 3, düzeltmeler | | | |
 | 14 Vaka donar | | | |

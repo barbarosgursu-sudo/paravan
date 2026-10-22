@@ -8,10 +8,10 @@
 
 ---
 
-## 00000000000. ⬅️ 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 11, 13:09'den beri)
+## 00000000000. ⬅️ 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT İŞLİYOR: 22 Eki 15:34'den beri)
 
 **Durum tek cümle:** hikâye donmuş sayıldı (sahibi, 22 Eki 12:59); görsel listesi ve promptlar hazır, **iş sayfası:
-https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Sahibi bilgisayarda "başlat, üretime başlıyorum" deyince ara 11'i kapat.
+https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Ara 11 kapandı (22 Eki 15:34); sahibi "durdur" deyince ara 12'yi aç.
 - **Yeni düzen (sahibinin isteği):** Aşama 1 = ana referanslar G1–G11 (Peri trençkot/felaket/önlüklü, Cengo haki/unlu, Nadide,
   Ferruh, Kenan, Gizem, A23 Susam, A25 imalathane) tek pencerede → Claude hepsini onaylar → Aşama 2 (G19–G48) gruplar
   üç ChatGPT penceresinde paralel, 8–10 görsel birikince toplu gelir, Claude toplu değerlendirir → Aşama 3 kareler + afiş (G49–G67).
