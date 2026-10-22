@@ -260,7 +260,7 @@ kare(51, "Gizem apartman önünde komşulara simit dağıtıyor", "K38",
   "Mekân: birinci referanstaki Tophane apartmanının önü, sabah. Kadrajda TAM beş kişi. Kapının önündeki iki taburede İKİ yaşlı kadın komşu oturuyor (başörtülü biri, gri saçlı ve hırkalı öbürü); Gizem (ikinci referans; bal rengi kâküllü saç, dar beyaz tişört, kot etek) elindeki düz kahverengi kâğıt poşetten (yazısız) onlara simit uzatıyor, gülüyor. Sokağın aşağısından Peri (üçüncü referans; kısa bej trençkot, eşarp, gözlük alında, kırmızı stiletto, ÇORAP YOK) ve Cengo (dördüncü referans; haki ceket) yaklaşıyor; Cengo el sallıyor, Peri Gizem'i süzüyor.",
   True, "TAM beş kişi (iki yaşlı komşu) · poşet yazısız · Peri Gizem'den gösterişli")
 kare(52, "Yüzleşme: salı akşamı, herkes tezgâhın önünde", "K39",
-  [cikti(43, "Susam, salı akşamı"), cikti(1, "Peri"), cikti(4, "Cengo"), seritref("Susam dörtlüsü şeridi: Nadide, Ferruh, Kenan, Gizem")],
+  [cikti(43, "Susam, salı akşamı"), cikti(1, "Peri"), cikti(4, "Cengo"), dosya("serit_susam_dortlu.jpg", "Susam dörtlüsü: soldan Nadide, Ferruh, Kenan, Gizem")],
   "Mekân: birinci referanstaki dükkân, salı akşamı, kepenk yarı inik, tezgâh lambası yanık. Kadrajda TAM altı kişi. Sağda tezgâhın önünde yan yana dört kişi (dördüncü referanstaki şeridin soldan sağa sırasıyla aynı kişiler): Nadide Hanım (bembeyaz topuz, baston), Ferruh (papyon, lacivert önlük), Kenan (gri tişört, lacivert önlük), Gizem (bal rengi kâküllü saç, beyaz tişört, kot etek). Dördü de gergin, Peri'ye bakıyor. Solda, onların karşısında Peri (ikinci referans; kısa bej trençkot, eşarp, gözlük alında, kırmızı stiletto, ÇORAP YOK) dimdik duruyor, yanında Cengo (üçüncü referans; haki ceket).",
   True, "TAM altı kişi, say · dört kişi şeritteki kişilerle aynı · kimse kaçmıyor (kaçış bir sonraki kare)")
 kare(53, "Yüzleşme: herkes Ferruh'a dönmüş; Ferruh depoya koşuyor", "K40",
@@ -324,7 +324,7 @@ kare(66, "Kapanış: kapıda Gizem ve Cengo; masanın altında Peri", "K53",
 # AFİŞ (paylaşım kartı) — sablon/5_gorsel_sistemi.md → G
 # =====================================================================================
 ekle(67, "Kart afişi: Simit Soygunu", "KART_V3", "kart afişi", K,
-  [cikti(10, "mekân: Susam'ın dükkânı"), cikti(1, "Peri"), cikti(4, "Cengo"), seritref("Susam dörtlüsü şeridi: Nadide, Ferruh, Kenan, Gizem"), dosya("L19_peri_yuruyor.jpg", "YALNIZ Peri'nin yürüyüşü")],
+  [cikti(10, "mekân: Susam'ın dükkânı"), cikti(1, "Peri"), cikti(4, "Cengo"), dosya("serit_susam_dortlu.jpg", "Susam dörtlüsü: soldan Nadide, Ferruh, Kenan, Gizem"), dosya("L19_peri_yuruyor.jpg", "YALNIZ Peri'nin yürüyüşü")],
   j(STIL, "Bir dedektif komedisinin dikey film afişi.",
     "Mekân: birinci referanstaki eski simit-pastane dükkânının içi, sıcak sabah ışığı; vitrinde simit tablaları, duvarda afiş.",
     "Kadro, kadrajda TAM altı kişi. Önde, kameraya doğru yürüyen Peri (ikinci referans; kısa bej trençkot kemeri bağlı, krem eşarp, güneş gözlüğü alnında, kırmızı stiletto, ÇORAP YOK; beşinci referanstaki yürüyüş, YALNIZ poz): kendinden emin, gizemli. Yanında Cengo (üçüncü referans; haki ceket) havaya attığı bir simidi ağzıyla yakalamaya çalışıyor, komik. Arkada tek sıra halinde, tezgâhın önünde, dördüncü referanstaki şeridin sırasıyla dört kişi: Nadide Hanım, Ferruh, Kenan, Gizem. Dördü EŞİT: aynı boyda, aynı ışıkta, eşit aralıkla, aynı ciddi-temkinli ifadeyle, kollar yanda ya da kavuşuk; hiçbiri öne çıkmıyor, hiçbiri ortada değil.",
@@ -339,7 +339,7 @@ SIRA = [A1, B, P1, "G2 → Peri, pekmezli-susamlı", P3, "G4 → Cengo, haki cek
 NOT = {
   A1: "TEK pencerede, yukarıdan aşağı (G2 G1'den, G3 G2'den, G5 G4'ten türer). Hepsini Claude'a gönder; onaylanmayan yeniden üretilir. Aşama 2 bunlar onaylanınca başlar.",
   B: "Hiçbir onaya bağlı değil. Aşama 1'i beklerken ya da bir pencere boş kalınca yap.",
-  K: "Aşama 2'nin çıktıları onaylanınca. K40 (G53) K39'dan (G52) türer: ikisini aynı pencerede, arka arkaya. \"Susam dörtlüsü şeridi\"ni Claude, G6–G9 onaylanınca hazırlayıp bu sayfaya koyar.",
+  K: "Aşama 2'nin çıktıları onaylanınca. K40 (G53) K39'dan (G52) türer: ikisini aynı pencerede, arka arkaya. \"Susam dörtlüsü\" referansı (G6–G9 birleşik) kartlarda indirilebilir.",
 }
 gruplar = []
 for s in SIRA:

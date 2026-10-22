@@ -64,7 +64,7 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G49 | ara kare | Giriş: Peri trençkotu açmış, masada; Nadide hayran | `K36` | buro_gunduz.jpg, G1, G4, G6, L25_peri_oturur.jpg | Aşama 3 · Kareler |
 | G50 | ara kare | Afiş: Peri kendi afişine bakakalmış; Ferruh gururla gösteriyor | `K37` | G10, G1, G7, G4 | Aşama 3 · Kareler |
 | G51 | ara kare | Gizem apartman önünde komşulara simit dağıtıyor | `K38` | G16, G9, G1, G4 | Aşama 3 · Kareler |
-| G52 | ara kare | Yüzleşme: salı akşamı, herkes tezgâhın önünde | `K39` | G43, G1, G4, Susam dörtlüsü şeridi | Aşama 3 · Kareler |
+| G52 | ara kare | Yüzleşme: salı akşamı, herkes tezgâhın önünde | `K39` | G43, G1, G4, serit_susam_dortlu.jpg | Aşama 3 · Kareler |
 | G53 | ara kare | Yüzleşme: herkes Ferruh'a dönmüş; Ferruh depoya koşuyor | `K40` | G52, G37 | Aşama 3 · Kareler |
 | G54 | ara kare | Kovalamaca 1: un bulutunda bembeyaz Cengo | `K41` | G47, G5 | Aşama 3 · Kareler |
 | G55 | ara kare | Kovalamaca 2: Peri pekmez kazanının içinde | `K42` | G11, G1 | Aşama 3 · Kareler |
@@ -79,4 +79,4 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G64 | ara kare | Kapanış (bağ yüksek): Cengo simidi bölüp büyük yarısını Peri'ye veriyor | `K51` | buro_aksam.jpg, G3, G4, G9 | Aşama 3 · Kareler |
 | G65 | ara kare | Kapanış: Gizem Peri'ye çerçeveli afişi uzatıyor | `K52` | buro_aksam.jpg, G3, G9, G10 | Aşama 3 · Kareler |
 | G66 | ara kare | Kapanış: kapıda Gizem ve Cengo; masanın altında Peri | `K53` | aci_masanin_alti_v2.jpg, buro_aksam.jpg, G3, G9, G4 | Aşama 3 · Kareler |
-| G67 | kart afişi | Kart afişi: Simit Soygunu | `KART_V3` | G10, G1, G4, Susam dörtlüsü şeridi, L19_peri_yuruyor.jpg | Aşama 3 · Kareler |
+| G67 | kart afişi | Kart afişi: Simit Soygunu | `KART_V3` | G10, G1, G4, serit_susam_dortlu.jpg, L19_peri_yuruyor.jpg | Aşama 3 · Kareler |
