@@ -10,7 +10,7 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 2 | **Onay 1:** form | sahibi | "onay" |
 | 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu) | ben | otomatik denetimden geçer |
 | 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
-| 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** (aşağıda) | ben | hata yok; tarama bitti, düzeltmeler veride |
+| 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** ve **sızıntı taraması** (aşağıda) | ben | hata yok; iki tarama bitti, düzeltmeler veride |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
 | 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası) | ben | — |
@@ -19,13 +19,19 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi | ben | hata yok |
 | 12 | **Onay 3 — görselli test:** sahibi oynar. **Yalnız görsellere** bakılır: metinle uyum, ifade, çekicilik | sahibi | notlar tek listede |
 | 13 | **Görsel düzeltmeleri** | ben + sahibi | — |
-| 14 | **Vaka donar.** Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | — |
+| 14 | **Vaka donar.** Donmadan önce **sızıntı taraması** bir kez daha (aşağıda). Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | tarama temiz |
 
 - **Görseller, hikâye donmadan (7. adım) üretilmez.**
 - Görselli testte hikâye değişmez; değişecekse forma dönülür ve etkilenen görseller listelenir.
 - Her adımın sonunda değişiklikler `main`'e gönderilir.
 - **Her vakanın süresi ölçülür:** başlangıç ve her adımın bitişi vakanın başlangıç belgesindeki
   tabloya yazılır (örnek: `vakalar/vaka2_baslangic.md` §1).
+- **Sızıntı taraması (22 Ekim 2026, sahibinin kararı — her vakadan sonra):** `cd kaynak && node build_html.js yeni &&
+  node arac_sizinti_tur.js VN`. İki parça: (1) oyunu farklı yollardan oynar, her ekranda oyuncunun o an bilmediği
+  olgunun metni / kısa adı çıkıyor mu bakar — bulursa çıkış 1; (2) `YENI_UI/sizinti_okuma.txt`'yi ELLE oku:
+  MASUM satırları ve karar ÖNİZLEME/SONUÇ/CENGO yalnız her yolda oynayan sahnelerin (yüzleşmeler + kovalamaca
+  itirafı) söylediğini mi anıyor? Bir ipucunun bilgisi geçiyorsa sızıntıdır (22 Ekim'de 9 tane böyle bulundu:
+  "kodu, fişi", "Gizem'in fotoğrafı", "örtüyü"…). Düzeltme sahibine tek tek, önce/sonra gösterilir.
 - **Vaka 1 dersleri** (zamanı en çok yiyen görsel düzeltmeleri ve önlemleri): `vakalar/vaka2_baslangic.md` §2–4.
 
 ## Hızlandırma kuralları (10 Ekim 2026, Vaka 2 ölçümünden)

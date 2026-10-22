@@ -80,6 +80,9 @@ ipucunun olgusu orada basılırsa hem sızıntı olur hem reklamlı "kaçan ipuc
 `test_yeni_kimyapti.js` her ipucu alt kümesi × şüpheli × çifti sınar.
 Aynı kural suçlamadan sonraki METİNLERE de uyar (22 Ekim 2026): `## cozum` MASUM satırları ve karar ÖNİZLEME/SONUÇ/CENGO yalnız
 her yolda oynayan sahnelerin (yüzleşme + kovalamaca itirafı) söylediğini anar; ipucu olgusunu değil. Mekanik yakalanmaz, elle oku.
+**Her vakadan sonra sızıntı taraması** (sahibinin kararı): `cd kaynak && node arac_sizinti_tur.js [VN] [tur]` — farklı yollardan
+oynar, her ekranda bilinmeyen olgu arar (çıkış 1 = sızıntı) ve `YENI_UI/sizinti_okuma.txt`'yi elle okunmak üzere yazar.
+Şablon 7. parça adım 5 ve 14. Test değil, araç.
 Defter de vaka başına (17 Ekim 2026): Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın
 **anı özetini** (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi
 suçladığını, kararını, kasayı ve Peri'nin notunu basar (`yeni_arayuz.js → defterZincir, defterAni`).

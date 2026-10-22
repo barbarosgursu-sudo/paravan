@@ -19,7 +19,7 @@ veride `kim_yapti.kanit_ad`; K19 eksik adı yakalar), düz liste + ▾ ile tam m
 ✓/✗ ve "Elindeydi". **20 Eki: sızıntı kapandı** — "Eksik olan" açılmamış ipucunun kanıtını basıyordu (sahibi buldu); artık yalnız eldeki kanıt, elde tam çift yoksa tek cümle (`cozumYolu`, test_yeni_kimyapti). **22 Eki: sahne/karar sızıntıları** — farklı yollardan oynanınca 9 metin açılmamış ipucunun bilgisini veriyordu
 (V3 masum Kenan/Gizem, eksper sonucu, ferruh_payi Cengo; V2 masum Lâl/Tolga, anneye_anlat, defnenin_parasi Cengo; V1 masum Kemal).
 Sahibinin onayıyla yalnız yüzleşme + itirafın söylediğine indirildi. V1 sete_gotur / susmayi_sat'taki "beyaz boya / lüks yat"
-bilerek kaldı (çaycı sezdiriyor; espri). Kural: masum açıklaması ve karar metni yalnız HER YOLDA oynayan sahnelerin söylediğini anar. V1/V2'de kısa ad yok → tam metin + "0 / 2" sayacı — önerildi (V1: 13, V2: 15 kanıt; yalnız ad, kod hazır); sahibi YARIN karar verecek.
+bilerek kaldı (çaycı sezdiriyor; espri). Kural: masum açıklaması ve karar metni yalnız HER YOLDA oynayan sahnelerin söylediğini anar. Tarama artık araç: `arac_sizinti_tur.js` (her vakadan sonra; şablon 7. parça adım 5 ve 14). V1/V2'de kısa ad yok → tam metin + "0 / 2" sayacı — önerildi (V1: 13, V2: 15 kanıt; yalnız ad, kod hazır); sahibi YARIN karar verecek.
 
 **Bu pencerede (18 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı):**
 - **Dükkân sahnesi, afiş esprisi** yeniden yazıldı: Peri "Değilim" der, hemen afişin ışığını eleştirir
