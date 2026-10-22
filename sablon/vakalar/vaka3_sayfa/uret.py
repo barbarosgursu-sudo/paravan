@@ -24,8 +24,10 @@ PERI_TR = ("kısa, bej bir trençkot: dizin çok üstünde biter, belden kemeriy
            "kısa siyah elbisenin derin V dekoltesi görünüyor. Başında çene altından bağlı krem rengi ipek eşarp (eski film yıldızları gibi), "
            "altından kızıl-kahve saçının ucu görünüyor. İri siyah güneş gözlüğü eşarbın üstüne, alnının yukarısına itilmiş; gözleri açıkça görünüyor. "
            "Çıplak bacaklar, ÇORAP YOK. Kırmızı stiletto. Başka takı yok")
-PERI_SM = ("aynı kısa bej trençkot ve altındaki dar siyah elbise, ama ikisi de koyu kehribar renkli pekmezle sırılsıklam ve parlak; trençkotun, "
-           "elbisenin, bacakların, saçın ve yanakların her yeri susam taneleriyle kaplı (tam bir simit gibi); krem eşarp boynuna kaymış, "
+PERI_SM = ("aynı kısa bej trençkot ve altındaki dar siyah elbise; trençkot koyu kehribar renkli pekmezle ıslak, lekeli ve parlak, yer yer "
+           "akıntılar; bacaklarda birkaç pekmez akıntısı. TENİ KENDİ RENGİNDE: yüzü, boynu ve göğsü pekmeze boyanmamış, turuncu değil; "
+           "yalnız yanağında ve dekoltesinde birkaç pekmez damlası. Susam taneleri trençkotta, saçta ve bacaklarda serpiştirilmiş (simit gibi), "
+           "yüzde yalnız birkaç tane. Krem eşarp başından kaymış, boynuna düşmüş, ucunda pekmez lekesi; saçı açıkta ve dağınık; "
            "güneş gözlüğü saçın üstünde yamuk duruyor. ÇORAP YOK")
 PERI_ON = ("trençkot YOK (çıkarılmış). Pekmez lekeli, vücudu saran kısa siyah elbise (derin V dekolte); elbisenin üstüne belden sıkıca bağlı "
            "pembe bir tezgâh önlüğü: düz pembe, ön cepli, yazısız, logosuz. Saçında ve omuzlarında hâlâ susam taneleri; krem eşarp boynunda gevşek; "
@@ -64,7 +66,7 @@ ekle(2, "Peri, pekmezli-susamlı, sinirli (felaket temeli)", "peri.simit.sinirli
     "Poz: TAM İKİ KOL, İKİ EL. Bir kırmızı stilettosunu sağ elinde topuğundan tutuyor (öbürü ayağında, kadraj dışında); sol eliyle yanağındaki susamları silkeliyor. Dimdik; gururunu korumaya çalışıyor.",
     BAS, "İfade: öfkeli ve gururlu; kaşlar çatık, dudaklar sıkılmış.",
     "Çekicilik: en üst seviyede seksi ve komik, ikisi aynı anda. Acı ya da aşağılanma yok. Çıplaklık yok.", YAZI, F45),
-  "Pekmez parlak ve koyu kehribar mı · susam her yerde mi · elde tek stiletto · yüz G1 ile aynı mı")
+  "Ten KENDİ RENGİNDE mi (turuncu değil) · eşarp boyunda, saç açık · pekmez kıyafette · susam serpiştirilmiş · elde tek stiletto · yüz G1 ile aynı")
 ekle(3, "Peri, pembe önlüklü, normal (kapanış temeli)", "peri.onluklu.normal", "figür", A1,
   [cikti(2, "pekmezli-susamlı Peri")],
   j("Birinci referans görseldeki kadının AYNISI: aynı yüz, aynı beden, aynı çizim tarzı, aynı düz açık bej arka plan, aynı ölçek ve kadraj.",
