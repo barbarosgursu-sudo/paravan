@@ -8,6 +8,21 @@
 
 ---
 
+## 00000000000. ⬅️ 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 11, 13:09'den beri)
+
+**Durum tek cümle:** hikâye donmuş sayıldı (sahibi, 22 Eki 12:59); görsel listesi ve promptlar hazır, **iş sayfası:
+https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Sahibi bilgisayarda "başlat, üretime başlıyorum" deyince ara 11'i kapat.
+- **Yeni düzen (sahibinin isteği):** Aşama 1 = ana referanslar G1–G11 (Peri trençkot/felaket/önlüklü, Cengo haki/unlu, Nadide,
+  Ferruh, Kenan, Gizem, A23 Susam, A25 imalathane) tek pencerede → Claude hepsini onaylar → Aşama 2 (G19–G48) gruplar
+  üç ChatGPT penceresinde paralel, 8–10 görsel birikince toplu gelir, Claude toplu değerlendirir → Aşama 3 kareler + afiş (G49–G67).
+  "Beklemeden" G12–G18 (Sedat, Ayla, Rüstem, A26–A29) hiçbir onaya bağlı değil.
+- **Claude'un işi G6–G9 onaylanınca:** "Susam dörtlüsü şeridi" (Nadide, Ferruh, Kenan, Gizem bej zeminde tek görsel; V2 kart `ref/`
+  yöntemi) → `vaka3_sayfa/ref/` + K39 (G52) ve afiş (G67) kartlarına dosya referansı olarak eklenir, sayfa yeniden yayımlanır.
+- **Kaynak:** `sablon/vakalar/vaka3_sayfa/uret.py` (promptlar) → `python3 uret.py` → `veri.js`, `vaka3_gorseller.html`, `../vaka3_gorsel.md`
+  (arac_paket.js'in okuduğu tablo). Elle değil, uret.py'de değiştir; aynı dosya yoluyla yeniden yayımla.
+- **Nurcan dikkat:** D8 (kayıt cihazı) ve D9 (Gizem'in fotoğrafı) önlüğün sahibini ele vermemeli (kol, gömlek, beden, papyon görünmez);
+  afişte önlük yok, şüpheliler eşit.
+
 ## 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 **Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
