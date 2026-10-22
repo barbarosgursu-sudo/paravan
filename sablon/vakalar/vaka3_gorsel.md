@@ -18,15 +18,15 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G3 | figür | Peri, pembe önlüklü, normal (kapanış temeli) | `peri.onluklu.normal` | G2 | Aşama 1 · Ana referanslar |
 | G4 | figür | Cengo, haki ceket, normal (temel) | `cengo.haki.normal` | C1_cengo_yuz.jpg, cengo_beden.jpg | Aşama 1 · Ana referanslar |
 | G5 | figür | Cengo, unlu, normal (felaket temeli) | `cengo.unlu.normal` | G4 | Aşama 1 · Ana referanslar |
-| G6 | figür | Nadide Hanım, normal (temel) | `nadide.normal` | tarz_kadin.jpg | Aşama 1 · Ana referanslar |
-| G7 | figür | Ferruh, normal (temel) | `ferruh.normal` | tarz_yasli_adam.jpg | Aşama 1 · Ana referanslar |
-| G8 | figür | Kenan, normal (temel) | `kenan.normal` | tarz_genc_adam.jpg | Aşama 1 · Ana referanslar |
-| G9 | figür | Gizem, normal (temel) | `gizem.normal` | tarz_kadin.jpg | Aşama 1 · Ana referanslar |
+| G6 | figür | Nadide Hanım, normal (temel) | `nadide.normal` | tarz_govde_kadin.jpg | Aşama 1 · Ana referanslar |
+| G7 | figür | Ferruh, normal (temel) | `ferruh.normal` | tarz_govde_iri_erkek.jpg | Aşama 1 · Ana referanslar |
+| G8 | figür | Kenan, normal (temel) | `kenan.normal` | tarz_govde_erkek.jpg | Aşama 1 · Ana referanslar |
+| G9 | figür | Gizem, normal (temel) | `gizem.normal` | tarz_govde_kadin.jpg | Aşama 1 · Ana referanslar |
 | G10 | arka plan | Susam'ın merkezi: tezgâh ve afiş | `A23` | tarz_mekan_ic.jpg, L1_peri_yuz.jpg | Aşama 1 · Ana referanslar |
 | G11 | arka plan | Susam'ın imalathanesi: fırın, pekmez kazanı, susam tablaları | `A25` | tarz_mekan_ic.jpg | Aşama 1 · Ana referanslar |
-| G12 | figür | Sedat (alarmcı) | `sedat.normal` | tarz_genc_adam.jpg | Beklemeden · onaya bağlı değil |
-| G13 | figür | Ayla Hanım (Badem'in şefi) | `ayla.normal` | tarz_kadin.jpg | Beklemeden · onaya bağlı değil |
-| G14 | figür | Rüstem Bey (un toptancısı) | `rustem.normal` | tarz_yasli_adam.jpg | Beklemeden · onaya bağlı değil |
+| G12 | figür | Sedat (alarmcı) | `sedat.normal` | tarz_govde_erkek.jpg | Beklemeden · onaya bağlı değil |
+| G13 | figür | Ayla Hanım (Badem'in şefi) | `ayla.normal` | tarz_govde_kadin.jpg | Beklemeden · onaya bağlı değil |
+| G14 | figür | Rüstem Bey (un toptancısı) | `rustem.normal` | tarz_govde_iri_erkek.jpg | Beklemeden · onaya bağlı değil |
 | G15 | arka plan | Susam'ın arka sokağı | `A26` | tarz_sokak.jpg | Beklemeden · onaya bağlı değil |
 | G16 | arka plan | Tophane: eski apartmanın önü | `A27` | tarz_sokak.jpg | Beklemeden · onaya bağlı değil |
 | G17 | arka plan | Badem Pastanesi, Kadıköy | `A28` | tarz_mekan_ic.jpg, G13 | Beklemeden · onaya bağlı değil |

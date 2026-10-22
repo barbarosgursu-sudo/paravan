@@ -14,7 +14,8 @@ F45 = "Görselin oranı TAM 4:5, dikey (1122×1402). Birinci referansla aynı or
 F34 = "Görselin oranı TAM 3:4, dikey (1086×1448)."
 F916 = "Görselin oranı TAM 9:16, dikey."
 BAS = "Başın açısı: burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor; yüzü üç çeyrek. Kameraya bakmıyor."
-TARZ = "Referans görsel YALNIZ çizim tarzı, renk, ölçek, kadraj ve arka plan içindir; içindeki kişi bu görselde yok."
+TARZ = ("Referans görsel YALNIZ çizim tarzı, renk, ölçek, kadraj ve arka plan içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; "
+        "referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.")
 KADRAJ = "Kadraj: DİKEY. Referanstakiyle aynı ölçek ve kesim: uyluk ortasından yukarısı, başın tepesi aynı yükseklikte. Tek başına, ayakta. Arka plan: düz, tek renk açık bej; hiçbir nesne yok."
 POZ_REF = "Eklediğim poz referansı YALNIZ poz içindir; oradaki kıyafeti, saçı ve arka planı alma."
 EN = "Kadrajdaki en gösterişli, en çekici kadın Peri'dir: ışık onun üstünde, duruşu en kendinden emin olan o; öbür kadın(lar) çekici ama Peri'yi gölgede bırakmıyor."
@@ -91,22 +92,22 @@ ekle(5, "Cengo, unlu, normal (felaket temeli)", "cengo.unlu.normal", "figür", A
 def konuk(no, ad, anahtar, grup, ref, karakter, kiyafet, poz, ifade, cekim, bak=""):
     ekle(no, ad, anahtar, "figür", grup, [dosya(ref, "yalnız tarz, ölçek, kadraj")],
       j(STIL, TARZ, "Karakter: " + karakter, "Kıyafet: " + kiyafet, "Poz: TAM İKİ KOL, İKİ EL. " + poz, BAS, "İfade: " + ifade, cekim, KADRAJ, YAZI, F45), bak)
-konuk(6, "Nadide Hanım, normal (temel)", "nadide.normal", A1, "tarz_kadin.jpg",
+konuk(6, "Nadide Hanım, normal (temel)", "nadide.normal", A1, "tarz_govde_kadin.jpg",
   "Nadide Hanım, 72, Karaköy'deki Susam Pastanesi'nin kurucusu. İri yapılı, dimdik, ağır başlı ama sıcak. Bembeyaz saç arkada düzgün bir topuz; altın çerçeveli okuma gözlüğü boynunda ince bir zincirle sarkıyor.",
   "koyu yeşil, uzun kollu yün elbise; üstünde el örgüsü bej bir hırka; hırkanın yakasında iri, düz, yuvarlak altın bir broş (simit biçimli değil). Elinde gümüş saplı koyu bir baston, ama bastona yaslanmıyor; yere değmeden tutuyor.",
   "Bir eli bastonun sapında, öbür eli göğsünde, broşun yanında.", "sıcak, hayran bir gülümseme; gözleri parlıyor, sanki karşısında çok sevdiği bir yıldız var.",
   "Çekicilik: yaşına yakışan bir zarafet; görkemli, bakımlı.", "Bembeyaz topuz · broş düz yuvarlak · baston yere değmiyor · iki el")
-konuk(7, "Ferruh, normal (temel)", "ferruh.normal", A1, "tarz_yasli_adam.jpg",
-  "Ferruh, 50'lerinde, Susam Pastanesi'ni yöneten ortak. Orta boylu, göbekli; kır saçları geriye taranmış, ince düzgün bir bıyık. Nazik, yardımsever, çok konuşan, herkesi kendi tarafına çekmeye çalışan bir esnaf.",
+konuk(7, "Ferruh, normal (temel)", "ferruh.normal", A1, "tarz_govde_iri_erkek.jpg",
+  "Ferruh, 50'lerinde, Susam Pastanesi'ni yöneten ortak. Orta boylu, göbekli. Yüz: yuvarlak, tombul, pembe yanaklı, sinekkaydı tıraşlı (sakal yok); üst dudakta KALEM GİBİ İNCE, düzgün kesilmiş siyah-kır bir bıyık (gür değil, sarkık değil; eski film jönleri gibi). Saç: kır, briyantinle parlatılmış, düzgünce geriye yatırılmış; tek tel düşmüyor. Kaşlar ince. Nazik, yardımsever, çok konuşan, herkesi kendi tarafına çekmeye çalışan bir esnaf.",
   "beyaz gömlek, boynunda bordo papyon; üstünde boyundan ve belden bağlı koyu lacivert bir pastane önlüğü (düz, cepsiz, yazısız, logosuz).",
   "Sağ eli göğsünde, sol eli açık avuçla kadrajın soluna uzanmış; \"buyurun, bakın\" der gibi.", "güven veren, biraz fazla geniş bir gülümseme; yardımsever.",
-  "", "Papyon bordo · önlük koyu lacivert, yazısız · bıyık ince · göbek belli")
-konuk(8, "Kenan, normal (temel)", "kenan.normal", A1, "tarz_genc_adam.jpg",
-  "Kenan, 40'larında, Susam'ın dükkân müdürü; sabah fırınını o açar. Uzun boylu ve ince; kısa siyah sakal, koyu kalın kaşlar, yorgun gözler. Az konuşur.",
+  "", "Bıyık KALEM GİBİ İNCE, yüz tıraşlı · saç briyantinli geriye · Rüstem'e (gür beyaz bıyık) benzemiyor · papyon bordo · önlük lacivert, yazısız")
+konuk(8, "Kenan, normal (temel)", "kenan.normal", A1, "tarz_govde_erkek.jpg",
+  "Kenan, 40'larında, Susam'ın dükkân müdürü; sabah fırınını o açar. Uzun boylu ve ince. Yüz: uzun ve köşeli, çökük yanaklar, belirgin kemerli bir burun; DÜZGÜN KESİLMİŞ, dolgun, kısa siyah bir sakal (kirli sakal değil); koyu kalın kaşlar, altları mor yorgun gözler. Saç: makineyle çok kısa kesilmiş siyah saç, dağınık değil. Az konuşur, ciddi.",
   "kolları dirseğe kadar sıvanmış gri tişört; üstünde boyundan ve belden bağlı koyu lacivert bir pastane önlüğü (düz, yazısız, logosuz), önlükte un izleri.",
   "Kollarında un; sağ elinde düz, metal bir hamur kazıyıcısı, göğüs hizasında; sol eli önlüğün cebinde.", "ciddi, kapalı; yorgun bir dikkat.",
-  "", "Önlük koyu lacivert (Ferruh'unkiyle aynı renk) · gri tişört · un izi · kazıyıcı düz metal, yazısız")
-konuk(9, "Gizem, normal (temel)", "gizem.normal", A1, "tarz_kadin.jpg",
+  "", "Düzgün dolgun sakal (kirli sakal değil) · çok kısa saç · uzun köşeli yüz · Vaka 1'in Serkan'ına benzemiyor · önlük lacivert · kazıyıcı yazısız")
+konuk(9, "Gizem, normal (temel)", "gizem.normal", A1, "tarz_govde_kadin.jpg",
   "Gizem, 25, Susam Pastanesi'nde tezgâhtar. Orta boylu, kıvrımlı; koyu bal rengi, omuz boyu, dalgalı saç ve kâküllü; iri ela gözler, çilli burun; pembe-mercan ruj. Hazırcevap, işveli, mahalleli.",
   "dar beyaz tişört, kısa kot etek, beyaz spor ayakkabı; kulaklarında küçük, simit biçimli altın küpeler. Önlük yok. Çorap yok.",
   "Sol eli belinde, sağ eliyle bir tutam kâkülünü kulağının arkasına atıyor; kalçası hafif yana kırık.", "kendinden emin, muzip bir gülümseme.",
@@ -127,17 +128,17 @@ mekan(11, "Susam'ın imalathanesi: fırın, pekmez kazanı, susam tablaları", "
 # BEKLEMEDEN — hiçbir onaya bağlı değil (boş kalan pencerede her an)
 # =====================================================================================
 B = "Beklemeden · onaya bağlı değil"
-konuk(12, "Sedat (alarmcı)", "sedat.normal", B, "tarz_genc_adam.jpg",
-  "Sedat, 30'larında, alarm tamircisi. Kısa boylu, tıknaz; kısa kıvırcık koyu saç (kel değil); kulağının arkasında bir kurşun kalem. Sevimli, biraz suçlu bakışlı.",
+konuk(12, "Sedat (alarmcı)", "sedat.normal", B, "tarz_govde_erkek.jpg",
+  "Sedat, 30'larında, alarm tamircisi. Kısa boylu, tıknaz. Yüz: yuvarlak, bebek yüzlü, TIRAŞLI (sakal, bıyık yok), tombul yanaklar, küçük burun, ince kaşlar. Saç: kısa, sık kıvırcık koyu saç (kel değil); kulağının arkasında bir kurşun kalem. Sevimli, biraz suçlu bakışlı.",
   "gri iş tulumu (markasız, yazısız, rozetsiz), fermuarı göğse kadar; belinde deri bir alet çantası.",
-  "Sol elinde küçük, kapalı bir tablet, ekranı göğsüne dönük (ekran görünmüyor); sağ eli ensesinde.", "mahcup bir sırıtış, \"abi, sana borçluyum\".",
-  "", "Tulum yazısız · tablet ekranı görünmüyor · kalem kulakta")
-konuk(13, "Ayla Hanım (Badem'in şefi)", "ayla.normal", B, "tarz_kadin.jpg",
+  "Sol elinde küçük, kapalı bir tablet, ekranı göğsüne dönük (ekran görünmüyor); sağ eliyle kulağının arkasındaki kalemi alıyor.", "mahcup bir sırıtış, \"abi, sana borçluyum\".",
+  "", "Sakal YOK, bebek yüzü · Kenan'a ve Vaka 1'in Serkan'ına benzemiyor · tulum yazısız · tablet ekranı görünmüyor")
+konuk(13, "Ayla Hanım (Badem'in şefi)", "ayla.normal", B, "tarz_govde_kadin.jpg",
   "Ayla Hanım, 50'lerinde, Kadıköy'deki iddialı bir pastanenin şefi. Uzun boylu; kısa kesim kırçıl saç; keskin bakış. Sert, iş bilen.",
   "beyaz şef ceketi (markasız, nakışsız, yazısız), kolları dirseğe kadar sıvalı; zeytin yeşili bir önlük.",
   "Sağ elinde krema sıkma torbası, ucu aşağıda; sol eli belinde.", "değerlendiren, alaycı yarım bakış; bir kaşı kalkık.",
   "", "Şef ceketinde nakış/yazı yok · önlük zeytin yeşili (onaylı G13: Badem'in rengi bu)")
-konuk(14, "Rüstem Bey (un toptancısı)", "rustem.normal", B, "tarz_yasli_adam.jpg",
+konuk(14, "Rüstem Bey (un toptancısı)", "rustem.normal", B, "tarz_govde_iri_erkek.jpg",
   "Rüstem Bey, 60'larında, Eminönü'nde un toptancısı. İri yapılı; gür, bembeyaz bir bıyık; kalın kaşlar; başı açık, takke yok. Babacan.",
   "kahverengi kumaş yelek, altında açık mavi gömlek, kolları sıvalı; gömlekte ve yelekte un izleri.",
   "Sol elinde eski bir masa hesap makinesi, ekranı kendine dönük (görünmüyor); sağ eli göğsünde, şapka çıkarır gibi bir selam.", "kocaman, hayran bir gülümseme; heyecanlı.",

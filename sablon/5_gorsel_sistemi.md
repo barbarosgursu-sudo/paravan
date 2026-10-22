@@ -92,7 +92,11 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
    (C1–C25): C1 yüz, G14-1 beden, uygun C "YALNIZ poz için".
    Daha çok kişi gerekiyorsa o kişileri
    bir arada gösteren önceki bir kare tek referans olarak verilir (K34 → K33 çıktısı).
-3. **Yan karakterlere ana karakter referans verilmez.** Stil için başka bir yan karakter verilir.
+3. **Yan karakterlere ana karakter referans verilmez.** Stil için başka bir yan karakterin **başı silinmiş** hâli verilir
+   (`vakalar/vaka3_sayfa/ref/tarz_govde_*.jpg`) ve yüz sıfırdan, ayırt edici çizgilerle tarif edilir (yüz biçimi, sakal/bıyık
+   türü, saç kesimi). **Vaka 3 dersi (22 Ekim 2026, sahibi buldu):** yüzü açık tarz referansı verilince ChatGPT yüzü ve hatta
+   pozu kopyaladı — Kenan ve Sedat Vaka 1'in Serkan'ı, Ferruh Rüstem'le aynı aileden çıktı. "İçindeki kişi bu görselde yok"
+   satırı yetmedi.
 4. **Benzer yan karakterler ayrışır:** yaş, yapı, saç, bıyık farklı (üç yaşlı bıyıklı balıkçı olmaz).
 5. **Üretici:** önce ChatGPT; reddederse ya da tutmazsa Grok.
    **ChatGPT reddederse önce bu yol (16 Ekim 2026, sahibinin kararı; Vaka 2 K23):** aynı promptu
@@ -174,6 +178,7 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 | **kalabalık karede kişi düşer** (K19'da Cengo yok) — K19 | kare promptunda kişi sayısını yaz ("kadrajda TAM üç kişi: …"); gelince metindeki kare satırıyla say |
 | **kim kimi görüyor** bozulur (masanın açık yüzü kapıya) — K20 | saklanma/gizlilik karesinde kamerayı ve engeli tarif et ("kamera masanın arkasında, ön panel kapalı") |
 | **kıyafet başka karakteri çağrıştırır** (siyah uzun kol = Lâl) — G44 | detay karede elin sahibinin kıyafetini yaz (Gülsüm: kısa kollu tişört, gri önlük); şüpheliyle karışmasın |
+| **yan karakter eski bir yan karaktere benzer** (yüz ve poz kopyası) — V3 Kenan/Sedat = V1 Serkan | tarz referansının başını sil (`tarz_govde_*`); yüzü ayırt edici çizgilerle yaz (yüz biçimi, sakal türü, saç); "pozunu alma" de |
 | **reddedilir** ("sahtekârlık" kalıbı) — K23 | asıl sebep çoğu zaman "seksi / bacaklar havada / etek" sözcükleri; önce aynı promptu ChatGPT'nin düşünen kipinde ver, kendisi yumuşatıp yeniden dener (D-5); olmazsa aynı promptla Grok. Claude promptu kendiliğinden yumuşatmaz |
 
 ## E. Kontrol listesi (gelen her görsel)
