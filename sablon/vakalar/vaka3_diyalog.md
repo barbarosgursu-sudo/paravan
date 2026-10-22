@@ -294,8 +294,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **YOL:** Alarm ortak kodla kapatıldı (Gizem ya da Ferruh) + Gizem döndüğünde kasanın başında lacivert önlüklü biri vardı (Kenan ya da Ferruh).
 **YOL:** Alarm ortak kodla kapatıldı (Gizem ya da Ferruh) + kasada 720.000 yoktu, cuma'nın parası cumartesi borca gitmişti; şifreyi bilen yalan söylüyor (Kenan ya da Ferruh).
 **YOL:** Kenan pazar gece Kadıköy'deydi + kasayı açabilen, lacivert önlük giyen kalan tek kişi Ferruh.
-**MASUM kenan:** Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi; alarm onun koduyla değil, ortak kodla kapatıldı. Yalanı iş aradığı içindi.
-**MASUM gizem:** Gizem masumdu: kasanın şifresini bilmez; döndüğünde alarm çoktan kapalıydı ve kasanın başında lacivert önlüklü biri vardı. Yalnız bayat simit almıştı.
+**MASUM kenan:** Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi. Yalanı iş aradığı içindi.
+**MASUM gizem:** Gizem masumdu: o gece yalnız simit almaya gelmişti. İçeride lacivert önlüklü birini görüp fotoğrafını çekti.
 
 ## kanit
 ⚙ Kim yaptı? ekranında kanıtın kısa adı (18 Ekim 2026, sahibinin onayı). Listede yalnız ad görünür, tam metin dokununca açılır; "Dosya çözüldü" ekranı da adla konuşur. Ad olgunun kendi metninde olanı söyler, fazlasını değil (Nurcan): kişiyi suçlamaz, olayı adlandırır. 2–4 kelime.
@@ -338,7 +338,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ etiket: Eksper'e her şeyi anlat
 
 **ÖNİZLEME:** Sigorta talebi düşer; eksper sana 5.000 ₺ ikramiye verir. Susam'ın merkezi kapanır.
-**SONUÇ:** Çarşamba sabah eksper'e her şeyi anlattın: kodu, fişi, çuvalı. Talep düştü, poliçe iptal oldu. Borçlar çuvaldaki parayı yuttu; merkezin kepengi bir hafta sonra indi. Altı kişi işsiz kaldı. Eksper sana beş bin ikramiye bıraktı.
+**SONUÇ:** Çarşamba sabah eksper'e her şeyi anlattın: defteri, kasayı, çuvalı. Talep düştü, poliçe iptal oldu. Borçlar çuvaldaki parayı yuttu; merkezin kepengi bir hafta sonra indi. Altı kişi işsiz kaldı. Eksper sana beş bin ikramiye bıraktı.
 **CENGO:** Cengo inik kepengin önünde durdu. "Sabah simidini nereden alacağız şimdi?" dedi.
 **DEFTER:** Sigorta gerçeği öğrendi. Susam'ın merkezi kapandı.
 
@@ -363,7 +363,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 **ÖNİZLEME:** Ferruh sana 20.000 ₺ verir; eksper'e "dışarıdan biri, bulunamadı" dersin. Nadide Hanım dükkânı kurtulsun diye susar. Sigorta öder; Gizem'in üstündeki şüphe kalkmaz.
 **SONUÇ:** Ferruh'un parasını aldın ve eksper'e içeriden kimsenin olmadığını söyledin. Nadide Hanım bir şey demedi; dükkânı kurtulsun istedi. Sigorta yedi yüz yirmi bin ödedi, Ferruh yerinde kaldı. Gizem'in adı esnafın ağzında kaldı: "Kasayı o kızın açtığını söylüyorlar."
-**CENGO:** Cengo parayı saydı, bir an durdu. "Gizem'in fotoğrafı hâlâ telefonunda mı?" diye sordu.
+**CENGO:** Cengo parayı saydı, bir an durdu. "Gizem'e ne diyeceğiz?" diye sordu.
 **DEFTER:** Ferruh'un sırrı bende ve Nadide Hanım'da. Gizem'in adı temizlenmedi.
 
 ---

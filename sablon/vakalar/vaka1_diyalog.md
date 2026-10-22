@@ -246,7 +246,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **YOL:** Zincir anahtarla açılmış + Kiralayan Karaköy'den bir balıkçı.
 **YOL:** Kiralayan Karaköy'den bir balıkçı + Serkan'ın cuma borcu.
 **YOL:** Zincir anahtarla açılmış + Serkan'ın cuma borcu.
-**MASUM kemal:** Kemal masumdu: o gece teknesine branda örtüyordu. Beyaz boyayı öğleden sonra sürmüştü; Nazlı'yı set ekibi boyamıştı.
+**MASUM kemal:** Kemal masumdu: o gece tekneyi Rıza'nın oğlu götürdü; Kemal gördü ama sustu.
 **MASUM tuba:** Tuba masumdu: tekneyi "sahibiyim" diyen birinden kiralamıştı. Hırsız değil, kandırılmıştı.
 
 ## ani

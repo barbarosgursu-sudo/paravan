@@ -78,6 +78,8 @@ Liste düz, tam metin ▾ ile; sonuç ekranı ✓/✗ + "Elindeydi". Ad olgunun 
 **"Dosya çözüldü" de Nurcan yüzeyidir (20 Ekim 2026, sahibi buldu):** yalnız oyuncunun ELİNDEKİ kanıt anılır — açılmamış
 ipucunun olgusu orada basılırsa hem sızıntı olur hem reklamlı "kaçan ipucu"nu bedavaya açar. Seçim `motor_yeni.js → cozumYolu()`;
 `test_yeni_kimyapti.js` her ipucu alt kümesi × şüpheli × çifti sınar.
+Aynı kural suçlamadan sonraki METİNLERE de uyar (22 Ekim 2026): `## cozum` MASUM satırları ve karar ÖNİZLEME/SONUÇ/CENGO yalnız
+her yolda oynayan sahnelerin (yüzleşme + kovalamaca itirafı) söylediğini anar; ipucu olgusunu değil. Mekanik yakalanmaz, elle oku.
 Defter de vaka başına (17 Ekim 2026): Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın
 **anı özetini** (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi
 suçladığını, kararını, kasayı ve Peri'nin notunu basar (`yeni_arayuz.js → defterZincir, defterAni`).

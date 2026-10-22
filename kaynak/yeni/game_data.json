@@ -801,7 +801,7 @@
             "Zincir anahtarla açılmış + Serkan'ın cuma borcu."
           ],
           "masum": {
-            "kemal": "Kemal masumdu: o gece teknesine branda örtüyordu. Beyaz boyayı öğleden sonra sürmüştü; Nazlı'yı set ekibi boyamıştı.",
+            "kemal": "Kemal masumdu: o gece tekneyi Rıza'nın oğlu götürdü; Kemal gördü ama sustu.",
             "tuba": "Tuba masumdu: tekneyi \"sahibiyim\" diyen birinden kiralamıştı. Hırsız değil, kandırılmıştı."
           }
         },
@@ -1229,7 +1229,7 @@
           "para": 5000,
           "etiket": "Müjgan Hanım'a hemen anlat",
           "onizleme": "Gelinlik cumartesiye döner; Defne'nin cuma nikâhı olmaz. Müjgan Hanım 5.000 ₺ bahşiş verir.",
-          "sonuc": "Müjgan Hanım'a her şeyi anlattın: örtüyü, terziyi, cuma nikâhını. Müjgan Hanım kızını alıp Kurtuluş'a gitti; Sarkis Usta kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.",
+          "sonuc": "Müjgan Hanım'a her şeyi anlattın: terziyi, cuma nikâhını, beş yüz kişiyi istemediğini. Müjgan Hanım kızını alıp Kurtuluş'a gitti; Sarkis Usta kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -1281,7 +1281,7 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo parayı saydı, bir an durdu. \"Lâl Hanım'ın kapısında hâlâ o adam bekliyor mu?\" diye sordu."
+              "metin": "Cengo parayı saydı, bir an durdu. \"Lâl Hanım'ın atölyesine bir daha kim gider?\" diye sordu."
             }
           ]
         }
@@ -1322,8 +1322,8 @@
             "Gelinlik cuma sabah sekizde terziden alınacak + Defne'nin cuma sabahı işi var."
           ],
           "masum": {
-            "lal": "Lâl masumdu: dokuzda örtüye bakmadan kilitledi; gelinlik o sırada çoktan çıkmıştı. Borcu gerçekti, hırsızlığı değil.",
-            "tolga": "Tolga masumdu: atölyeden eli boş çıktı. Cumartesiyi boş istiyordu, ama gelinliğe dokunmadı."
+            "lal": "Lâl masumdu: anahtar ondaydı ama gelinliği provadan sonra Defne aldı.",
+            "tolga": "Tolga masumdu: uğradığında gelinlik yerindeydi, gelin de yanındaydı. Gelinliği Defne aldı."
           }
         },
         "hikaye": [
@@ -2207,7 +2207,7 @@
           "para": 5000,
           "etiket": "Eksper'e her şeyi anlat",
           "onizleme": "Sigorta talebi düşer; eksper sana 5.000 ₺ ikramiye verir. Susam'ın merkezi kapanır.",
-          "sonuc": "Çarşamba sabah eksper'e her şeyi anlattın: kodu, fişi, çuvalı. Talep düştü, poliçe iptal oldu. Borçlar çuvaldaki parayı yuttu; merkezin kepengi bir hafta sonra indi. Altı kişi işsiz kaldı. Eksper sana beş bin ikramiye bıraktı.",
+          "sonuc": "Çarşamba sabah eksper'e her şeyi anlattın: defteri, kasayı, çuvalı. Talep düştü, poliçe iptal oldu. Borçlar çuvaldaki parayı yuttu; merkezin kepengi bir hafta sonra indi. Altı kişi işsiz kaldı. Eksper sana beş bin ikramiye bıraktı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -2256,12 +2256,7 @@
           "etiket": "Ferruh'tan payını al, sus",
           "onizleme": "Ferruh sana 20.000 ₺ verir; eksper'e \"dışarıdan biri, bulunamadı\" dersin. Nadide Hanım dükkânı kurtulsun diye susar. Sigorta öder; Gizem'in üstündeki şüphe kalkmaz.",
           "sonuc": "Ferruh'un parasını aldın ve eksper'e içeriden kimsenin olmadığını söyledin. Nadide Hanım bir şey demedi; dükkânı kurtulsun istedi. Sigorta yedi yüz yirmi bin ödedi, Ferruh yerinde kaldı. Gizem'in adı esnafın ağzında kaldı: \"Kasayı o kızın açtığını söylüyorlar.\"",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo parayı saydı, bir an durdu. \"Gizem'in fotoğrafı hâlâ telefonunda mı?\" diye sordu."
-            }
-          ]
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Cengo parayı saydı, bir an durdu. \"Gizem'e ne diyeceğiz?\" diye sordu."}]
         }
       ],
       "seeds": {},
@@ -2303,8 +2298,8 @@
             "Kenan pazar gece Kadıköy'deydi + kasayı açabilen, lacivert önlük giyen kalan tek kişi Ferruh."
           ],
           "masum": {
-            "kenan": "Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi; alarm onun koduyla değil, ortak kodla kapatıldı. Yalanı iş aradığı içindi.",
-            "gizem": "Gizem masumdu: kasanın şifresini bilmez; döndüğünde alarm çoktan kapalıydı ve kasanın başında lacivert önlüklü biri vardı. Yalnız bayat simit almıştı."
+            "kenan": "Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi. Yalanı iş aradığı içindi.",
+            "gizem": "Gizem masumdu: o gece yalnız simit almaya gelmişti. İçeride lacivert önlüklü birini görüp fotoğrafını çekti."
           }
         },
         "hikaye": [

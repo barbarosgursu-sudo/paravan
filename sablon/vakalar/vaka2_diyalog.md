@@ -286,8 +286,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 **YOL:** Gelinlik sekizde açıktaydı, dokuzda manken örtülüydü + arada içeride Defne yalnız kaldı.
 **YOL:** Sekizi on geçe gelinlik yerindeydi, gelin içerideydi + sekiz buçukta arka kapıdan kılıflı genç bir kadın çıktı.
 **YOL:** Gelinlik cuma sabah sekizde terziden alınacak + Defne'nin cuma sabahı işi var.
-**MASUM lal:** Lâl masumdu: dokuzda örtüye bakmadan kilitledi; gelinlik o sırada çoktan çıkmıştı. Borcu gerçekti, hırsızlığı değil.
-**MASUM tolga:** Tolga masumdu: atölyeden eli boş çıktı. Cumartesiyi boş istiyordu, ama gelinliğe dokunmadı.
+**MASUM lal:** Lâl masumdu: anahtar ondaydı ama gelinliği provadan sonra Defne aldı.
+**MASUM tolga:** Tolga masumdu: uğradığında gelinlik yerindeydi, gelin de yanındaydı. Gelinliği Defne aldı.
 
 ## ani
 ⚙ Anı defterinde vakanın hatırlatması (Peri'nin notunun üstünde, bütün kararlarda aynı). Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği; karara göre değişen hiçbir şey yazılmaz. 2–3 cümle: müşteri ve kayıp, kim almıştı, neden.
@@ -309,7 +309,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 ⚙ etiket: Müjgan Hanım'a hemen anlat
 
 **ÖNİZLEME:** Gelinlik cumartesiye döner; Defne'nin cuma nikâhı olmaz. Müjgan Hanım 5.000 ₺ bahşiş verir.
-**SONUÇ:** Müjgan Hanım'a her şeyi anlattın: örtüyü, terziyi, cuma nikâhını. Müjgan Hanım kızını alıp Kurtuluş'a gitti; Sarkis Usta kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.
+**SONUÇ:** Müjgan Hanım'a her şeyi anlattın: terziyi, cuma nikâhını, beş yüz kişiyi istemediğini. Müjgan Hanım kızını alıp Kurtuluş'a gitti; Sarkis Usta kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.
 **CENGO:** Cengo düğünde ikinci tabağı alırken "Ana kız meselesi" dedi. "Ben yemeğe bakarım."
 **DEFTER:** Gelinlik cumartesiye yetişti. Gelin de.
 
@@ -334,7 +334,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
 
 **ÖNİZLEME:** Defne sana 15.000 ₺ verir; anneye "atölyeden çalınmış, terzide bulduk" dersin. Suç Lâl'in atölyesine kalır.
 **SONUÇ:** Defne'nin parasını aldın ve Müjgan Hanım'a hırsızın bulunamadığını söyledin. Gelinlik cumartesiye döndü; Defne nikâhından vazgeçti. Müjgan Hanım Nişantaşı'nda "Lâl'in atölyesi kalbur gibi" dedi. İki müşteri siparişini geri çekti.
-**CENGO:** Cengo parayı saydı, bir an durdu. "Lâl Hanım'ın kapısında hâlâ o adam bekliyor mu?" diye sordu.
+**CENGO:** Cengo parayı saydı, bir an durdu. "Lâl Hanım'ın atölyesine bir daha kim gider?" diye sordu.
 **DEFTER:** Defne'nin sırrı bende kaldı. Lâl Hanım'ın iki müşterisi gitti.
 
 ---
