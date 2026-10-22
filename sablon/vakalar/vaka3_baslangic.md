@@ -109,6 +109,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 11 | 22 Eki 13:09 (adım 8: iş sayfası yayımlandı; sahibi bilgisayarda "başlat" diyecek) | 22 Eki 15:34 ("zamanı başlat"; adım 9 görsel üretimi) | 2 sa 25 dk |
 | 12 | 22 Eki 15:51 (adım 9: G1, G12–G18 onaylı; sıradaki G2) | 22 Eki 17:35 ("zamanı başlat") | 1 sa 44 dk |
 | 13 | 22 Eki 18:37 (adım 9: Aşama 1 tamam, Aşama 2'de G19–G24 onaylı; sıradaki G25) | 22 Eki 20:20 ("zamanı başlat") | 1 sa 43 dk |
+| 14 | 22 Eki 21:09 (adım 9: 45 görsel onaylı; kalan Aşama 2: G45–G48, sonra Aşama 3) | | |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
