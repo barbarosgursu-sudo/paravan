@@ -132,9 +132,9 @@ konuk(12, "Sedat (alarmcı)", "sedat.normal", B, "tarz_genc_adam.jpg",
   "", "Tulum yazısız · tablet ekranı görünmüyor · kalem kulakta")
 konuk(13, "Ayla Hanım (Badem'in şefi)", "ayla.normal", B, "tarz_kadin.jpg",
   "Ayla Hanım, 50'lerinde, Kadıköy'deki iddialı bir pastanenin şefi. Uzun boylu; kısa kesim kırçıl saç; keskin bakış. Sert, iş bilen.",
-  "beyaz şef ceketi (markasız, nakışsız, yazısız), kolları dirseğe kadar sıvalı; açık badem yeşili bir önlük.",
+  "beyaz şef ceketi (markasız, nakışsız, yazısız), kolları dirseğe kadar sıvalı; zeytin yeşili bir önlük.",
   "Sağ elinde krema sıkma torbası, ucu aşağıda; sol eli belinde.", "değerlendiren, alaycı yarım bakış; bir kaşı kalkık.",
-  "", "Şef ceketinde nakış/yazı yok · önlük badem yeşili")
+  "", "Şef ceketinde nakış/yazı yok · önlük zeytin yeşili (onaylı G13: Badem'in rengi bu)")
 konuk(14, "Rüstem Bey (un toptancısı)", "rustem.normal", B, "tarz_yasli_adam.jpg",
   "Rüstem Bey, 60'larında, Eminönü'nde un toptancısı. İri yapılı; gür, bembeyaz bir bıyık; kalın kaşlar; başı açık, takke yok. Babacan.",
   "kahverengi kumaş yelek, altında açık mavi gömlek, kolları sıvalı; gömlekte ve yelekte un izleri.",
@@ -146,9 +146,9 @@ mekan(15, "Susam'ın arka sokağı", "A26", B, [dosya("tarz_sokak.jpg", "yalnız
 mekan(16, "Tophane: eski apartmanın önü", "A27", B, [dosya("tarz_sokak.jpg", "yalnız çizim tarzı ve ışık")],
   "Mekân: İstanbul Tophane'de dik, dar bir sokakta eski, cumbalı bir apartmanın önü, sabah. Ahşap çift kanatlı apartman kapısı, önünde üç basamak; kapının iki yanında birer ahşap tabure; pencere önlerinde saksı sardunyalar; ipte asılı çamaşır. Sokakta kimse yok. Kapı numarası ya da tabela yok.",
   "Basamak ve iki tabure · numara/tabela yok · İstanbul dokusu")
-mekan(17, "Badem Pastanesi, Kadıköy", "A28", B, [dosya("tarz_mekan_ic.jpg", "yalnız çizim tarzı ve ışık")],
-  "Mekân: Kadıköy'de yeni, parlak, modern bir pastanenin içi. Açık badem yeşili ve krem renkler; aydınlık camlı vitrinde sıra sıra profiterol, ekler ve küçük pastalar; mermer tezgâh; arkada mutfağa açılan çift kanatlı, yuvarlak pencereli bir kapı. Duvarda tek süs: büyük, yaldızlı bir badem resmi (harf yok). Hiçbir yazı, tabela, fiyat kartı yok. Susam'ın eski dükkânının tam tersi: yeni, ışıklı, düzenli.",
-  "Badem yeşili + krem · badem resmi harfsiz · vitrinde fiyat kartı yok")
+mekan(17, "Badem Pastanesi, Kadıköy", "A28", B, [dosya("tarz_mekan_ic.jpg", "yalnız çizim tarzı ve ışık"), cikti(13, "YALNIZ Badem'in rengi: Ayla'nın zeytin yeşili önlüğü")],
+  "Mekân: Kadıköy'de yeni, parlak, modern bir pastanenin içi. Zeytin yeşili (ikinci referanstaki önlüğün rengi) ve krem renkler; aydınlık camlı vitrinde sıra sıra profiterol, ekler ve küçük pastalar; mermer tezgâh; arkada mutfağa açılan çift kanatlı, yuvarlak pencereli bir kapı. Duvarda tek süs: büyük, yaldızlı bir badem resmi (harf yok). Hiçbir yazı, tabela, fiyat kartı yok. Susam'ın eski dükkânının tam tersi: yeni, ışıklı, düzenli.",
+  "Zeytin yeşili + krem (Ayla'nın önlüğüyle aynı) · badem resmi harfsiz · vitrinde fiyat kartı yok")
 mekan(18, "Rüstem'in un toptancısı, Eminönü", "A29", B, [dosya("tarz_mekan_ic.jpg", "yalnız çizim tarzı ve ışık")],
   "Mekân: Eminönü'nde eski, loş bir un toptancısı dükkânı. Tavana kadar üst üste dizilmiş beyaz, düz bez un çuvalları (üstlerinde hiçbir baskı, yazı, logo yok); önde eski ahşap bir yazı masası ve sandalye; masada kapalı bir defter (kapağı düz, yazısız). Açık kapıdan dışarıda dar bir çarşı sokağı. Havada un tozu.",
   "Çuvallarda baskı/yazı var mı (büyüt) · defter kapalı")
@@ -233,10 +233,10 @@ ekle(47, "İmalathane: un deposu", "A25b", "arka plan", S11, [cikti(11, "onaylı
   j(STIL, "Birinci referanstaki imalathanenin arkasındaki un deposu; aynı yapı, taş duvarlar ve ışık.",
     "Mekân: alçak tavanlı, taş duvarlı bir depo; iki yanda tavana kadar üst üste dizilmiş beyaz, düz bez un çuvalları (baskısız, yazısız). Ortada dar bir geçit; geçidin sonunda sokağa açılan eski ahşap bir arka kapı. Havada ince un tozu, kapının aralığından ışık huzmesi.",
     "İnsan yok.", YAZI, F34), "Çuvallarda baskı yok · arka kapı görünüyor")
-ekle(48, "Detay: dolapta başka pastanenin önlüğü", "D10", "detay", S11, [cikti(11, "onaylı imalathane (malzeme ve ışık)")],
+ekle(48, "Detay: dolapta başka pastanenin önlüğü", "D10", "detay", S11, [cikti(11, "onaylı imalathane (malzeme ve ışık)"), cikti(13, "YALNIZ önlüğün rengi ve biçimi (Ayla'nın önlüğü)")],
   j(STIL, "Detay görsel: birinci referanstaki imalathanenin köşesinde duran eski, gri, metal bir personel dolabı; kapağı ardına kadar açık. Yakın çekim.",
-    "Dolabın içinde: askıda AÇIK BADEM YEŞİLİ bir pastane önlüğü; göğsünde nakışla işlenmiş tek bir küçük badem şekli (harf yok); bu önlük Susam'ın lacivert önlüklerinden açıkça farklı. Yanında askıda gri bir tişört; dolabın dibinde bir çift eski beyaz iş ayakkabısı. Başka hiçbir şey yok.",
-    "Dolapta isim etiketi, yazı, logo YOK.", YAZI, F34), "Önlük badem yeşili, yalnız badem nakışı · yazı/etiket yok")
+    "Dolabın içinde: askıda ZEYTİN YEŞİLİ bir pastane önlüğü (ikinci referanstaki önlüğün aynısı, kişi yok); göğsünde nakışla işlenmiş tek bir küçük badem şekli (harf yok); bu önlük Susam'ın lacivert önlüklerinden açıkça farklı. Yanında askıda gri bir tişört; dolabın dibinde bir çift eski beyaz iş ayakkabısı. Başka hiçbir şey yok.",
+    "Dolapta isim etiketi, yazı, logo YOK.", YAZI, F34), "Önlük Ayla'nınkiyle aynı zeytin yeşili, yalnız badem nakışı · yazı/etiket yok")
 
 # =====================================================================================
 # AŞAMA 3 — KARELER (Aşama 2'nin onaylı çıktılarıyla)
@@ -294,7 +294,7 @@ kare(60, "Karar: talebi Ferruh geri çeksin — Kenan simit uzatıyor", "K47",
   False, "TAM iki kişi · Kenan gülümsüyor")
 kare(61, "Karar: Nadide'ye bırak — merkezin yeni tabelası", "K48",
   [cikti(43, "Susam'ın binası ve dükkânı"), cikti(17, "Badem'in renkleri ve badem resmi"), cikti(4, "Cengo")],
-  "Birinci referanstaki dükkânın DIŞARIDAN görünüşü, Karaköy, gündüz: aynı eski taş bina, ama dükkân değişmiş: vitrin ve kepenk ikinci referanstaki pastanenin açık badem yeşili-krem renklerine boyanmış; kapının üstündeki yeni, parlak tabelada YALNIZ büyük, yaldızlı bir badem resmi (hiç harf yok). Kadrajda TAM bir kişi: Cengo (üçüncü referans; haki ceket) kaldırımda durmuş, ellerini cebine sokmuş, yeni tabelaya küskün bakıyor.",
+  "Birinci referanstaki dükkânın DIŞARIDAN görünüşü, Karaköy, gündüz: aynı eski taş bina, ama dükkân değişmiş: vitrin ve kepenk ikinci referanstaki pastanenin zeytin yeşili-krem renklerine boyanmış; kapının üstündeki yeni, parlak tabelada YALNIZ büyük, yaldızlı bir badem resmi (hiç harf yok). Kadrajda TAM bir kişi: Cengo (üçüncü referans; haki ceket) kaldırımda durmuş, ellerini cebine sokmuş, yeni tabelaya küskün bakıyor.",
   False, "Tabelada HARF yok, yalnız badem · bina aynı, renk Badem'in")
 kare(62, "Karar: Ferruh'tan pay al — Cengo parayı sayıyor", "K49",
   [dosya("buro_gunduz.jpg", "büro"), cikti(4, "Cengo")],

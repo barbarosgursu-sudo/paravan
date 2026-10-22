@@ -29,7 +29,7 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G14 | figür | Rüstem Bey (un toptancısı) | `rustem.normal` | tarz_yasli_adam.jpg | Beklemeden · onaya bağlı değil |
 | G15 | arka plan | Susam'ın arka sokağı | `A26` | tarz_sokak.jpg | Beklemeden · onaya bağlı değil |
 | G16 | arka plan | Tophane: eski apartmanın önü | `A27` | tarz_sokak.jpg | Beklemeden · onaya bağlı değil |
-| G17 | arka plan | Badem Pastanesi, Kadıköy | `A28` | tarz_mekan_ic.jpg | Beklemeden · onaya bağlı değil |
+| G17 | arka plan | Badem Pastanesi, Kadıköy | `A28` | tarz_mekan_ic.jpg, G13 | Beklemeden · onaya bağlı değil |
 | G18 | arka plan | Rüstem'in un toptancısı, Eminönü | `A29` | tarz_mekan_ic.jpg | Beklemeden · onaya bağlı değil |
 | G19 | figür | Peri, trençkot, kaşı kalkık | `peri.trenckot.kas` | G1, poz_peri_kas.jpg | G1 → Peri, trençkot ifadeleri |
 | G20 | figür | Peri, trençkot, sinirli | `peri.trenckot.sinirli` | G1, poz_peri_sinirli.jpg | G1 → Peri, trençkot ifadeleri |
@@ -60,7 +60,7 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G45 | detay | Detay: kayıt cihazının son karesi | `D8` | G44 | G10 → Susam dükkânı (mekân ve detaylar) |
 | G46 | detay | Detay: Gizem'in fotoğrafı | `D9` | G44, G9 | G10 → Susam dükkânı (mekân ve detaylar) |
 | G47 | arka plan | İmalathane: un deposu | `A25b` | G11 | G11 → İmalathane (mekân ve detay) |
-| G48 | detay | Detay: dolapta başka pastanenin önlüğü | `D10` | G11 | G11 → İmalathane (mekân ve detay) |
+| G48 | detay | Detay: dolapta başka pastanenin önlüğü | `D10` | G11, G13 | G11 → İmalathane (mekân ve detay) |
 | G49 | ara kare | Giriş: Peri trençkotu açmış, masada; Nadide hayran | `K36` | buro_gunduz.jpg, G1, G4, G6, L25_peri_oturur.jpg | Aşama 3 · Kareler |
 | G50 | ara kare | Afiş: Peri kendi afişine bakakalmış; Ferruh gururla gösteriyor | `K37` | G10, G1, G7, G4 | Aşama 3 · Kareler |
 | G51 | ara kare | Gizem apartman önünde komşulara simit dağıtıyor | `K38` | G16, G9, G1, G4 | Aşama 3 · Kareler |
