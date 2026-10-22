@@ -107,6 +107,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 9 | 18 Eki 21:41 (Onay 2 sırasında; kanıt ekranı bitti, sahibi inceliyor) | 18 Eki 21:46 ("tekrar başlat") | 5 dk |
 | 10 | 18 Eki 21:48 (Onay 2 sırasında; V1/V2 kısa ad kararı yarına) | 22 Eki 12:59 ("zamanı başlat"; hikâye donmuş sayıldı, adım 8) | ~3 gün 15 sa 11 dk (aradaki işler — kanıt sızıntısı, sahne sızıntıları, tarama aracı — saat dururken yapıldı, sayılmadı) |
 | 11 | 22 Eki 13:09 (adım 8: iş sayfası yayımlandı; sahibi bilgisayarda "başlat" diyecek) | 22 Eki 15:34 ("zamanı başlat"; adım 9 görsel üretimi) | 2 sa 25 dk |
+| 12 | 22 Eki 15:51 (adım 9: G1, G12–G18 onaylı; sıradaki G2) | | |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
