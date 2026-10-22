@@ -11,7 +11,7 @@
 ## 00000000000. ⬅️ 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT İŞLİYOR: 22 Eki 17:35'den beri)
 
 **Durum tek cümle:** hikâye donmuş sayıldı (sahibi, 22 Eki 12:59); görsel listesi ve promptlar hazır, **iş sayfası:
-https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Ara 12 kapandı (22 Eki 17:35); "durdur" deyince ara 13'ü aç. Onaylı: G1, G12–G18 (`vaka3_gelen/`; G17 tente yazısı rötuşlu, ham G17_ham). Onaylı ayrıca G2–G6, G9, G13–G18. **Yeniden üretilecek: G7 Ferruh, G8 Kenan, G12 Sedat** (yüzleri eski yan karakterlerin kopyası çıktı; tarz referansları artık başı silinmiş `tarz_govde_*`, D-3).
+https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Ara 12 kapandı (22 Eki 17:35); "durdur" deyince ara 13'ü aç. Onaylı: G1, G12–G18 (`vaka3_gelen/`; G17 tente yazısı rötuşlu, ham G17_ham). Onaylı ayrıca G2–G6, G9, G13–G18. G7 Ferruh ve G8 Kenan ikinci denemede onaylandı. **Yeniden üretilecek: G12 Sedat, G14 Rüstem (Ferruh'a benziyordu; artık kel, uzun yüzlü)** (yüzleri eski yan karakterlerin kopyası çıktı; tarz referansları artık başı silinmiş `tarz_govde_*`, D-3).
 - **Yeni düzen (sahibinin isteği):** Aşama 1 = ana referanslar G1–G11 (Peri trençkot/felaket/önlüklü, Cengo haki/unlu, Nadide,
   Ferruh, Kenan, Gizem, A23 Susam, A25 imalathane) tek pencerede → Claude hepsini onaylar → Aşama 2 (G19–G48) gruplar
   üç ChatGPT penceresinde paralel, 8–10 görsel birikince toplu gelir, Claude toplu değerlendirir → Aşama 3 kareler + afiş (G49–G67).

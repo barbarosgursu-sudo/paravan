@@ -139,10 +139,10 @@ konuk(13, "Ayla Hanım (Badem'in şefi)", "ayla.normal", B, "tarz_govde_kadin.jp
   "Sağ elinde krema sıkma torbası, ucu aşağıda; sol eli belinde.", "değerlendiren, alaycı yarım bakış; bir kaşı kalkık.",
   "", "Şef ceketinde nakış/yazı yok · önlük zeytin yeşili (onaylı G13: Badem'in rengi bu)")
 konuk(14, "Rüstem Bey (un toptancısı)", "rustem.normal", B, "tarz_govde_iri_erkek.jpg",
-  "Rüstem Bey, 60'larında, Eminönü'nde un toptancısı. İri yapılı; gür, bembeyaz bir bıyık; kalın kaşlar; başı açık, takke yok. Babacan.",
+  "Rüstem Bey, 60'larında, Eminönü'nde un toptancısı. İri yapılı, geniş omuzlu. Yüz: UZUN ve kemikli (yuvarlak ve tombul DEĞİL), derin çizgili, kartal burunlu; gür, aşağı sarkan bembeyaz bir pala bıyık; kalın, bembeyaz kaşlar. Saç: tepesi KEL ve parlak, yalnız kulaklarının üstünde ve ensesinde kısa beyaz saç; takke yok. Babacan.",
   "kahverengi kumaş yelek, altında açık mavi gömlek, kolları sıvalı; gömlekte ve yelekte un izleri.",
   "Sol elinde eski bir masa hesap makinesi, ekranı kendine dönük (görünmüyor); sağ eli göğsünde, şapka çıkarır gibi bir selam.", "kocaman, hayran bir gülümseme; heyecanlı.",
-  "", "Bıyık bembeyaz ve gür · hesap makinesinin ekranı görünmüyor · Ferruh ve Kemal Reis'ten ayrışıyor mu")
+  "", "Tepe kel, yüz uzun ve kemikli · pala bıyık bembeyaz · Ferruh'a (yuvarlak, briyantinli) ve Kemal Reis'e benzemiyor · hesap makinesinin ekranı görünmüyor")
 mekan(15, "Susam'ın arka sokağı", "A26", B, [dosya("tarz_sokak.jpg", "yalnız çizim tarzı ve ışık")],
   "Mekân: Karaköy'de dar, arnavut kaldırımlı bir arka sokak, sabah. Solda eski taş bir binanın arka cephesi: arka kapı ve yanında kırık bir pencere; cam kırıkları SOKAKTA, kaldırımın üstünde (dışarıda) dağılmış. Sağda kaldırıma yanaşmış küçük, beyaz, eski bir kamyonet; arka kapakları açık, içinde kablo makaraları; kamyonette hiçbir yazı, logo, plaka yazısı yok. Arkada İstanbul: eski apartmanlar.",
   "Cam kırıkları dışarıda, kaldırımda mı · kamyonette yazı/plaka okunuyor mu (büyüt)")
