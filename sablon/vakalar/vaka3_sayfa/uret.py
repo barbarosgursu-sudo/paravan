@@ -181,7 +181,7 @@ P3 = "G3 → Peri, pembe önlüklü"
 for no, an, ad, f, poz, ifade in [
   (26, "kas", "kaşı kalkık", "poz_peri_kas.jpg", "Kolları önlüğün üstünde kavuşmuş.", "bir kaşı kalkık, alaycı."),
   (27, "sasirmis", "şaşırmış", "poz_peri_sasirmis.jpg", "Bir eli açık avuçla göğsünde, öbürü önlüğün eteğini tutuyor.", "irkilmiş; gözler açık (kapı çalındı)."),
-  (28, "utanmis", "utanmış", "poz_peri_utanmis.jpg", "Önlüğün ucunu iki eliyle tutup yüzünün altına kaldırmış.", "mahcup; yanaklar kızarmış."),
+  (28, "utanmis", "utanmış", "poz_peri_utanmis.jpg", "Bir eli alnında, gözlerini yarı örtüyor; öbür eli önlüğün cebinde. Omuzları hafif düşük.", "mahcup; yanaklar kızarmış, dudaklarını ısırıyor."),
   (29, "sinirli", "sinirli", "poz_peri_sinirli.jpg", "Sağ eli belinde, sol işaret parmağı kadrajın soluna uzanmış.", "öfkeli; \"ben pembe önlük giymem!\".")]:
   peri_turev(no, P3, 3, PERI_ON, "peri.onluklu." + an, "Peri, önlüklü, " + ad, f, poz, ifade)
 def cengo_turev(no, grup, temel, kiy, an, ad, f, poz, ifade):
