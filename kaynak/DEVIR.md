@@ -21,7 +21,7 @@ yükledi; 67'si de `yeni/index.html`'de. Sıradaki: adım 11 (görselli tur, bü
   bozuyordu). Peri G2, G20, G25, G28, G29 `--genis`. Komut:
   `node arac_paket.js ../sablon/vakalar/vaka3_gelen --vaka 3 --profil G7=konuk_beyaz_delik,… --genis G2,G20,G25,G28,G29 --yaz`
 - **Kart afişi** G67 → `yeni_gorsel/kart_v3.webp`, `gorseller.json → kart.V3` (araç "kart afişi" türünü tanımıyor; elle).
-- **Boy:** yeni konukların `boy` değerleri hâlâ 0.85 yer tutucu — turda Peri'nin yanında ayarlanacak.
+- **Boy (5 Kas, sahibinin seçimi "küçült"):** nadide .74, ferruh .74, kenan .76, gizem .68, sedat .70, ayla .72, rustem .74. Bu konuklar dizden kesik çizildiği için 0.8 civarı ekranda fark etmiyor (genişliğe takılıyor); etkisi ~0.75 altında başlıyor. Rüstem ekranda görülmedi (borc yolu).
 - `yeni/index.html` 15,8 MB → 25,1 MB.
 
 ## 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
