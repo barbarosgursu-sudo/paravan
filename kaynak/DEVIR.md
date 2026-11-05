@@ -8,7 +8,23 @@
 
 ---
 
-## 00000000000. ⬅️ 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
+## 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+
+**Durum tek cümle:** sahibi 67 görseli ChatGPT'de baştan üretti, kontrollerini masaüstünde yaptı ve GitHub web'den
+yükledi; 67'si de `yeni/index.html`'de. Sıradaki: adım 11 (görselli tur, bütün yollar) ve Onay 3.
+- **Klasörler:** yeni set `sablon/vakalar/vaka3_gelen/` (G1–G67). Eski onaylı set + red/ham dosyalar
+  `vaka3_gelen_eski/`. 15 dosya (G1–G3, G9, G19–G29) eskisiyle birebir aynı — sahibi bilerek tuttu.
+- **Yükleme yolu (sahibi için):** github.com → `…/upload/main/<klasör>`; tek seferde ~10 dosya (67 PNG birden
+  "file is too large" verdi).
+- **Kesim:** Ferruh (G7, G37, G38) ve Gizem (G9, G40–G42) beyaz gömlekli → yeni profil `konuk_beyaz_delik`
+  (`arac_kes.js`: delik tol 4 + zemin köşelerden tek renk, `refSabit`; kenara değen kol satırın zemin örneğini
+  bozuyordu). Peri G2, G20, G25, G28, G29 `--genis`. Komut:
+  `node arac_paket.js ../sablon/vakalar/vaka3_gelen --vaka 3 --profil G7=konuk_beyaz_delik,… --genis G2,G20,G25,G28,G29 --yaz`
+- **Kart afişi** G67 → `yeni_gorsel/kart_v3.webp`, `gorseller.json → kart.V3` (araç "kart afişi" türünü tanımıyor; elle).
+- **Boy:** yeni konukların `boy` değerleri hâlâ 0.85 yer tutucu — turda Peri'nin yanında ayarlanacak.
+- `yeni/index.html` 15,8 MB → 25,1 MB.
+
+## 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
 
 **Durum tek cümle:** hikâye donmuş sayıldı (sahibi, 22 Eki 12:59); görsel listesi ve promptlar hazır, **iş sayfası:
 https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Ara 14 açık (22 Eki 21:09); "başlat" deyince kapat. 45 görsel onaylı (G1–G44, G9 yenilendi); kalan Aşama 2: G45–G48. Aşama 2: G19–G24 onaylı, sıradaki G25. Onaylı: G1, G12–G18 (`vaka3_gelen/`; G17 tente yazısı rötuşlu, ham G17_ham). Onaylı ayrıca G2–G6, G9, G13–G18. G7 Ferruh ve G8 Kenan ikinci denemede onaylandı. G12 Sedat ve G14 Rüstem ikinci denemede onaylandı (G14 hesap makinesindeki iz rötuşlu). Susam dörtlüsü şeridi hazır (`ref/serit_susam_dortlu.jpg`, K39 ve afişte). **Aşama 1 TAMAM (G1–G11 + G12–G18 onaylı, 22 Eki).** Aşama 2 (G19–G48) başladı. (yüzleri eski yan karakterlerin kopyası çıktı; tarz referansları artık başı silinmiş `tarz_govde_*`, D-3).
