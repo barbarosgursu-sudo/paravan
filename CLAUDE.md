@@ -8,6 +8,8 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
 > ### ⬅️ VAKA 3 İÇİN: ÖNCE `sablon/vakalar/vaka3_baslangic.md` OKU (sonra DEVIR.md) — Vaka 2 dondu (16 Ekim 2026)
 >
+> ### 🖼️ RESİM ÜRETİMİ: `uretim/CLAUDE.md` OKU (Codex + yerel Claude düzeni, 6 Kasım 2026)
+>
 > ### ⬅️ YENİ OTURUM: ÖNCE `kaynak/DEVIR.md` OKU
 > Bu dosya kalıcı bilgidir (sözleşmeler, tuzaklar, komutlar). `DEVIR.md` ise **oturum
 > durumudur**: en son ne yapıldı, sahibi hangi soruya cevap bekliyor, sıradaki iş ne.
