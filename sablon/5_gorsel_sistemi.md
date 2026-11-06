@@ -258,6 +258,67 @@ ve aynı Artifact'e yeniden yayın). Vaka 1 ve 2'nin promptları örnek.
   (`arac_json_yaz.js` ile). Sonra kartı Pixel 5'te çizip bak (yüzler kutunun üstünde mi). Kontrol: E listesi
   + kartın `bak` satırı.
 
+## H. Görsel standart (6 Kasım 2026, sahibinin onayı)
+
+Amaç: resimler tek tek değil, **oyunda yan yana** doğru olsun. Her istem buna göre yazılır; yerel Claude
+denetimi buna göre yapar. (Vaka 3 dersi: 67 resim tek tek onaylandı, oyunda boylar, bakışlar ve kesim tutmadı.)
+
+### H1. Figür kadrajı — herkes için aynı
+- 4:5 dikey. Uyluk ortasından yukarısı. Başın üstünde ince bir boşluk. Tek kişi, ayakta.
+- Aynı karakterin bütün ifadeleri aynı ölçek ve kadrajda (yoksa ifade değişince ekranda zıplar).
+
+### H2. Boy — resim değil, tablo belirler
+- Resimde herkes aynı yükseklikte çizilir. Ekrandaki boyu bu tablo belirler.
+- Yerel Claude temel figürü onaylamadan önce `arac_yanyana.js --oran` ile boyu ölçüp ayarlar.
+
+| karakter | Peri'ye göre boy |
+|---|---|
+| Peri | 1,00 |
+| Cengo | 1,00 |
+| Nadide | 0,98 |
+| Ferruh | 0,98 |
+| Kenan | 1,02 |
+| Gizem | 0,93 |
+| Sedat | 0,92 |
+| Ayla | 1,00 |
+| Rüstem | 0,95 |
+
+Yeni karakter tabloya önce eklenir, sonra istemi yazılır.
+
+### H3. Bakış — birbirine baksınlar
+Her figür isteminde aynı satır:
+> Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın
+> soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil.
+
+Oyunda Peri solda aynalanır, konuk sağda durur; bu satırla ikisi birbirine bakar.
+
+### H4. Zemin rengi — kıyafete ve saça benzemesin
+Düz, tek renk, gölgesiz, hiçbir nesne yok. Renk karaktere göre seçilir:
+
+| karakter giyiyorsa / saçı | zemin |
+|---|---|
+| hiçbiri (varsayılan) | açık bej |
+| beyaz, krem ya da bej giysi, veya beyaz / kır saç (yeşil giymiyorsa) | düz orta yeşil |
+| hem beyaz/kır hem yeşil | düz gri-mavi |
+
+Aynı karakterin bütün ifadeleri aynı zeminde. **Renk düzeltmesi yapılmaz:** renk yanlışsa resim yeniden üretilir.
+
+### H5. Denetim — onaydan önce oyundaki hâli
+Yerel Claude her figürü onaylamadan önce `arac_yanyana.js` ile kesip Peri'nin yanında görür. Bakar:
+1. **Boy:** tablodaki orana uyuyor mu?
+2. **Bakış:** iki karakter birbirine bakıyor mu, göz hizası doğal mı?
+3. **Kesim:** giysinin içinde delik var mı (arkadaki sahne görünüyor mu)?
+4. **Saç:** başı büyütüp bak; saçın kenarında beyaz/bej iz var mı?
+
+Biri tutmazsa resim onaylanmaz: ya kesim ayarı düzeltilir ya da resim düzeltme notuyla yeniden üretilir.
+
+### H6. Her istemde sabit
+Tarz paragrafı · "Poz: TAM İKİ KOL, İKİ EL" · bakış satırı · zemin satırı · karakter sabitleri (Peri:
+kırmızı stiletto, çorap yok) · "yazı, harf, rakam, logo yok" · oran satırı · çıplaklık yok.
+
+### H7. Dosya
+PNG, adı `G<n>.png`. Onaylı resim silinmez.
+
 ---
 
 ## Sahibine sorular
