@@ -8,3 +8,5 @@ kaynak/UI_*.png
 # arac_yeni_tur.js ekran görüntüleri
 kaynak/YENI_UI/
 referans/
+# Bilgisayardaki tarayıcı aracı (Playwright + Chromium, ~200 MB) — yalnız yerelde
+araclar/
