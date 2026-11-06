@@ -58,7 +58,8 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
 
 **Döngüyü arka planda başlat:** `cd uretim && DONGU_LOG=<scratchpad> ./dongu.sh <N>` (run_in_background). Betik referansı hazır
 olan her resmi sırayla Codex'e ürettirir (`codex exec --approve-for-me … < /dev/null`; stdin kapalı değilse Codex takılır),
-kuyruk boşalınca çıkar. Aynı anda ikinci bir Codex çalıştırma. Döngü çalışırken sen:
+kuyruk boşalınca çıkar. Aynı anda ikinci bir Codex çalıştırma. **Durdurmak için `touch uretim/v<N>/DUR`** (TaskStop
+Windows'ta kabuğu öldürmez; sonra kalan `codex`/`bash` süreci var mı bak). Döngü çalışırken sen:
 1. `uretilen/`'e geleni denetle (aşağıda). Onayladıkça yeni resimlerin önü açılır; döngü çıktıysa yeniden başlat.
    Codex 5 dakikadan uzun beklerse: `uretim_kaydi.md`'nin sahibine bak (BIRIKIM §3.4).
 2. Temel onaylanınca gereken baş kırpığını/şeridi hazırla (`referanslar/`); hazırlanmayan referansı bekleyen resim döngüye girmez.

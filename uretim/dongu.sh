@@ -4,6 +4,8 @@
 # Üretilebilir = onayli/ ve uretilen/'de yok · istemde "## ENGELLENDİ" yok · Referanslar'daki her dosya mevcut
 # (onayli/G<k>.png onaylanmamışsa ya da referanslar/<dosya> henüz hazırlanmamışsa bekler).
 # Denetim yerel Claude'da: döngü çalışırken uretilen/'e geleni denetler, onayladıkça yeni resimlerin önü açılır.
+# DURDURMA: `touch uretim/v<N>/DUR` — döngü o anki resmi bitirip çıkar. Windows'ta arka plan görevini durdurmak kabuğu
+# öldürmüyor (6 Kasım: döngü "durdurulduktan" sonra 3 resim daha üretti). Yeniden başlatınca DUR kendiliğinden silinir.
 # Codex ASLA --dangerously-bypass… ile çalışmaz. stdin kapalı (< /dev/null), yoksa Codex girdi bekleyip takılır.
 set -u
 N="${1:?vaka no}"
@@ -19,10 +21,13 @@ uretilebilir() {
     [ $hazir = 1 ] && echo "$n"
   done | sort -n
 }
+rm -f DUR
 while :; do
+  [ -f DUR ] && { echo "DUR dosyası: döngü durdu $(date +%H:%M)"; exit 0; }
   liste=$(uretilebilir)
   [ -z "$liste" ] && { echo "BITTI $(date +%H:%M): üretilecek resim yok (kalanlar onay ya da referans bekliyor)"; exit 0; }
   for n in $liste; do
+    [ -f DUR ] && { echo "DUR dosyası: döngü durdu $(date +%H:%M)"; exit 0; }
     [ -f "onayli/G$n.png" ] || [ -f "uretilen/G$n.png" ] && continue
     timeout 590 codex exec --approve-for-me "AGENTS.md'ye göre G$n resmini üret." < /dev/null > "$LOG/codex_G$n.log" 2>&1
     if [ -f "uretilen/G$n.png" ]; then echo "G$n üretildi $(date +%H:%M)"
