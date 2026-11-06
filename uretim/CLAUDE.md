@@ -145,3 +145,4 @@ fazla boşluğu kırp). Şeritte dekolte olmamalı.
 | İki yan karakter birbirine benziyor | "X'e benzemiyor" + ayırıcı özellik (ince bıyık / gür pala bıyık) |
 | Yeni karakter eski birine benziyor | başı silinmiş tarz gövdesi; yüzü ayırt edici çizgilerle tarif et |
 | Boy, bakış, kesim, saç | H. Görsel standart + `arac_yanyana.js` |
+| Dağınık saç telleri zemine taşıyor → kesimde teller arasındaki zemin yeşil/beyaz hale kalıyor; profil değiştirmek çözmedi (v3 G1, G4, 6 Kasım) | "saçın dış çizgisi toplu; zemine taşan ince tel, havada kıvrılan uç yok" (eşarplıysa "saçın tamamı eşarbın içinde") |

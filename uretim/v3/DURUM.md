@@ -1,6 +1,18 @@
 # Vaka 3 — durum
 
-**Aşama:** istemler onaylandı (6 Kasım 2026). Üretim başladı.
+**Aşama:** üretim sürüyor (6 Kasım 2026).
+
+## Sayım
+
+Onaylı 7: G1, G10, G11, G15, G16, G17, G18. Ret: G1 ×1 (saç telleri), G4 ×2 (profil; saç telleri).
+
+**Boy:** G1 boy 1 (`peri` profili temiz). G4 henüz onaylı değil.
+
+**Araç notu (bu bilgisayar):** `arac_yanyana.js` için `PW=D:/Yazilim/paravan/araclar/node_modules/playwright` ve
+`CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe` gerekli.
+
+**İstem eki (6 Kasım):** saç tellerinin kesimi bozması iki kez görülünce üretilmemiş 35 figür istemine saç satırı eklendi
+("saçın dış çizgisi toplu…", Peri trençkotta "saçın tamamı eşarbın içinde"). Ders `uretim/CLAUDE.md` tablosunda.
 
 ## Yapılan
 
