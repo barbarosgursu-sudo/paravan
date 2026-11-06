@@ -113,6 +113,9 @@ Yalnız LISTE'deki her resim `onayli/`'deyken (yarım set gömülmez; oyunda esk
 1. `kaynak` içinde: `node arac_paket.js ../uretim/v<N>/onayli --vaka <N> --profil <G=profil,…> --genis <…>` → temas sayfasına bak.
 2. Aynı komut `--yaz` ile (doğrulayıcı ve derlemeleri kendisi çalıştırır).
 3. Not ettiğin boy ölçeklerini `kaynak/yeni/gorseller.json → boy`'a yaz (`arac_json_yaz.js` ile).
+3b. **Saç halesi (yeşil zeminli figürler):** `python arac_hale.py ../uretim/v<N>/onayli/G<n>.png yeni_gorsel/<…>.webp --profil peri|konuk [--genis]`
+   — kaynağın baş bölgesinde renk anahtarıyla teller arasındaki yeşili siler, kenar sisini saç tonuna çeker. Bir dosyaya
+   BİR kez çalıştır (önce `arac_paket.js --yaz` yeniden keser). Bej zeminli figüre kullanma. Oyunda `arac_yanyana.js --kesik` ile bak.
 4. Kart afişi (9:16) elle: `kart_v<N>.webp` (`5_gorsel_sistemi.md` → G). Yeni karakter: künye portresi (`python arac_portre.py …`).
 5. Kök CLAUDE.md'deki "Her commit'ten önce" komutları; hepsi geçerse commit → push.
 6. `node arac_yeni_tur.js 0 <yol> dogru --hepsi` ile vakayı oynat; görüntülere bak, sorunları sahibine listele.

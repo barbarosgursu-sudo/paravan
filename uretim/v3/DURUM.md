@@ -2,10 +2,13 @@
 
 **Aşama:** üretim sürüyor (6 Kasım 2026).
 
-## Sayım (6 Kasım 21:45) — ÜRETİM BİTTİ: 67/67 onaylı
+## Sayım (6 Kasım 22:15) — GÖMÜLDÜ
 
-Web'de üretilen 4: G3, G25, G51, G65 (Codex filtresi). Öbürleri Codex. Dünkü ayarlar: Peri ve Gizem dekolteli
-(`uretim/ISTEM_KALIPLARI.md` §9). Sıradaki adım: `göm` (sahibinin onayıyla).
+67/67 onaylı ve oyuna gömüldü (`arac_paket.js --yaz`). Saç halesi `kaynak/arac_hale.py` ile temizlendi (Peri 14, Gizem 4 figür).
+Boy (yeni Peri'ye göre, gorseller.json): nadide 0.64 · ferruh 0.64 · kenan 0.66 · gizem 0.60 · sedat 0.60 · ayla 0.66 · rustem 0.63.
+Portreler ve kart afişi yenilendi. Doğrulayıcı (eski + yeni) PASS, iki derleme, 27 test geçti, eski index.html aynı.
+Sırada: `arac_yeni_tur.js` ile görselli tur.
+Sahibinin sorusu (konuşulacak): bir sonraki vakada saç halesi çıkmasın diye figür zemin rengi.
 
 **Boy (arac_yanyana --oran, eski oyundaki Peri'ye göre; gömmede yeni Peri'yle yeniden ölç):** Peri 1 · Cengo 1 ·
 Nadide ≈0.65 · Gizem ≈0.61 · Sedat ≈0.61 · Ayla ≈0.66 · Rüstem ≈0.63.

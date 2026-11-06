@@ -259,7 +259,8 @@
     "peri.trenckot.sinirli",
     "peri.simit.utanmis",
     "peri.onluklu.utanmis",
-    "peri.onluklu.sinirli"
+    "peri.onluklu.sinirli",
+    "gizem.korkmus"
   ],
   "tam": ["K9"],
   "sola": {"tolga.sinirli": 18},
@@ -284,13 +285,13 @@
     "bulent": 0.94,
     "sarkis": 0.8,
     "saadet": 0.72,
-    "nadide": 0.74,
-    "ferruh": 0.74,
-    "kenan": 0.76,
-    "gizem": 0.68,
-    "sedat": 0.7,
-    "ayla": 0.72,
-    "rustem": 0.74
+    "nadide": 0.64,
+    "ferruh": 0.64,
+    "kenan": 0.66,
+    "gizem": 0.6,
+    "sedat": 0.6,
+    "ayla": 0.66,
+    "rustem": 0.63
   },
   "arka": {
     "A1": {"ad": "Nişantaşı · salon", "grup": "salon_sabah"},
