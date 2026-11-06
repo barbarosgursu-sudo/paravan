@@ -79,7 +79,7 @@
         "sarkis": {"ad": "Sarkis Usta", "ifadeler": ["normal"]},
         "saadet": {"ad": "Saadet Hanım", "ifadeler": ["normal"]},
         "nadide": {"ad": "Nadide Hanım", "ifadeler": ["normal", "kirgin"]},
-        "ferruh": {"ad": "Ferruh", "ifadeler": ["normal", "terli", "itiraf"]},
+        "ferruh": {"ad": "Ferruh", "ifadeler": ["normal", "terli", "itiraf", "alingan"]},
         "kenan": {"ad": "Kenan", "ifadeler": ["normal", "kizgin"]},
         "gizem": {"ad": "Gizem", "ifadeler": ["normal", "isveli", "kas", "korkmus"]},
         "sedat": {"ad": "Sedat", "ifadeler": ["normal"]},
@@ -2493,7 +2493,7 @@
             },
             {
               "k": "ferruh",
-              "i": "normal",
+              "i": "alingan",
               "m": "(papyonunu düzelterek) Peri Hanım, ne diyorsunuz? Siz benim tanığımdınız…",
               "gir": "ferruh"
             },
@@ -2522,7 +2522,7 @@
             {"k": "peri", "i": "normal", "m": "Dükkânı siz soydunuz, Ferruh Bey.", "gir": "ferruh"},
             {
               "k": "ferruh",
-              "i": "normal",
+              "i": "alingan",
               "m": "Ben mi? Kırk beş yıllık dükkân, ben mi? Kanıtınız ne?",
               "gir": "ferruh"
             },
@@ -2696,7 +2696,7 @@
               "m": "Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.",
               "kare": "K45",
               "set": "onluklu",
-              "peri": "sinirli"
+              "peri": "kas"
             },
             {"k": "gizem", "i": "isveli", "m": "Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz."}
           ]

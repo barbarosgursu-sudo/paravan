@@ -242,7 +242,8 @@
     "portre_gizem": "portre/portre_gizem.webp",
     "portre_sedat": "portre/portre_sedat.webp",
     "portre_ayla": "portre/portre_ayla.webp",
-    "portre_rustem": "portre/portre_rustem.webp"
+    "portre_rustem": "portre/portre_rustem.webp",
+    "ferruh.alingan": "figur_ferruh_alingan.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [

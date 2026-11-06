@@ -2,19 +2,11 @@
 
 **Aşama:** üretim sürüyor (6 Kasım 2026).
 
-## YARIM İŞ (6 Kasım 22:55, kullanım sınırı) — sıradaki oturum buradan devam eder
+## Sahibinin bulguları kapandı (6 Kasım 23:50)
 
-Sahibinin bulguları (telefonda): G52 Nadide toplamış görünmüyordu · Ferruh suçlanırken gülüyordu · G58 Gizem'de 3 kol ·
-Gizem konuşurken Peri'nin işaret eden figürü konuşan sanılıyordu. Yapılanlar:
-- G52 yeniden üretildi, ONAYLI (Nadide önde ortada). G68 `ferruh.alingan` yeni figür, ONAYLI (LISTE + vaka3_gorsel.md'ye eklendi).
-- G58 3. üretim `uretilen/G58.png`: kollar DOĞRU, ama ayakkabıda soluk marka izi (swoosh, dil etiketi). Karar ver: onayla ya da
-  `## Düzeltme 3` "ayakkabılar markasız" ile yeniden üret.
-- Diyalog (`vaka3_diyalog.md`) düzeltildi ama VERİYE YAZILMADI: Ferruh satır 214/225 `[alingan]`, satır 278 `peri: kas`.
-  Önce G68'i göm (arac_kes konuk_beyaz_delik → `figur_ferruh_alingan.webp`, gorseller.json'a `ferruh.alingan`, kanon ifadelerine
-  alingan ekle), sonra `node arac_diyalog.js ../sablon/vakalar/vaka3_diyalog.md V3`, doğrulayıcı, derleme, testler.
-- G52 ve G58 gömülecek (`arac_paket.js ../uretim/v3/onayli --vaka 3 … --yaz` ya da tek tek 900×1200 webp: ara_k39, ara_k45).
-- Sonra 4 yolu `--hepsi` ile oyna, `node arac_satir_resim.js <dokum…> --vaka V3`, uyumsuzluk tablosunu sahibine ver.
-- Yeni araç ve kural: `kaynak/arac_satir_resim.js`; uretim/CLAUDE.md madde 7 ve denetim 12; 7_uretim_sureci.md; ISTEM_KALIPLARI §10.
+G52 (Nadide önde), G58 (iki kol; ayakkabıdaki soluk iz sahibinin onayıyla kaldı), G68 `ferruh.alingan` gömüldü; diyalog veriye
+yazıldı (Ferruh suçlanınca alınmış, Gizem konuşurken Peri dinliyor, Kenan girişi, gözlük, halka). 68/68 resim oyunda.
+4 yol `--hepsi` + `arac_satir_resim.js`: KONUŞAN 0; kalan EYLEM 5 / JEST 10 bayrağı küçük jest farkları (sahibine listelendi).
 
 ## Sayım (6 Kasım 22:15) — GÖMÜLDÜ
 
