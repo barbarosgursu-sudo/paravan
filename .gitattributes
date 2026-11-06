@@ -1,0 +1,4 @@
+# Satır sonları her bilgisayarda LF (Windows dahil): testler ve derleyici LF bekliyor.
+* text=auto eol=lf
+# Windows betikleri Windows satır sonuyla kalır.
+*.bat text eol=crlf
