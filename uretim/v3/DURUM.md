@@ -2,23 +2,20 @@
 
 **Aşama:** üretim sürüyor (6 Kasım 2026).
 
-## Sayım
+## Sayım (6 Kasım 17:55)
 
-Onaylı 7: G1, G10, G11, G15, G16, G17, G18. Ret: G1 ×1 (saç telleri), G4 ×2 (profil; saç telleri).
+Onaylı 19: G1–G6, G9–G21 hariç G7, G8 (yani G1, G2, G3, G4, G5, G6, G9, G10, G11, G12, G13, G14, G15, G16, G17, G18, G19, G20, G21).
+Ret bekleyen yeniden üretim: G7, G8 (önlük uzun kollu olmalı). Döngü (`uretim/dongu.sh 3`) arka planda çalışıyor.
 
-**Boy:** G1 boy 1 (`peri` profili temiz). G4 henüz onaylı değil.
+**Boy (arac_yanyana --oran, eski oyundaki Peri'ye göre; gömmede yeni Peri'yle yeniden ölç):** Peri 1 · Cengo 1 ·
+Nadide ≈0.65 · Gizem ≈0.61 · Sedat ≈0.61 · Ayla ≈0.66 · Rüstem ≈0.63.
 
-**Araç notu (bu bilgisayar):** `arac_yanyana.js` için `PW=D:/Yazilim/paravan/araclar/node_modules/playwright` ve
-`CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe` gerekli.
+**Araç notu (bu bilgisayar):** `arac_yanyana.js` için `PW=D:/Yazilim/paravan/araclar/node_modules/playwright`,
+`CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe`.
 
-**İstem eki (6 Kasım):** saç tellerinin kesimi bozması iki kez görülünce üretilmemiş 35 figür istemine saç satırı eklendi
-("saçın dış çizgisi toplu…"); sahibinin kararıyla Peri ve Cengo istemlerinden çıkarıldı, yan karakterlerde duruyor. Ders `uretim/CLAUDE.md` tablosunda.
-
-## Yapılan
-
-- `istemleri hazırla 3`: `LISTE.md` + `prompts/G1–G67.md`. Numara, tür, anahtar `sablon/vakalar/vaka3_gorsel.md` ile
-  aynı (karşılaştırıldı). İstemler sıfırdan; eski istemler kullanılmadı.
-- `referanslar/aci_masanin_alti_v2.jpg` `v3_eski/`'den alındı (dekoltesiz; G66 yalnız açı için).
+**Sahibinin kararları (6 Kasım):** tarz = eski resimler (`uretim/ISTEM_KALIPLARI.md`); çekicilik ve dekolte = "dünkü ayarlar"
+(§9); Peri ve Cengo'nun saçı dağınık, hale gömmede temizlenir. Hazır referanslar: `referanslar/peri_trenckot_bas.png` (G1),
+`referanslar/peri_simit_bas.png` (G2). Şerit (`serit_susam_dortlu.jpg`) G7 ve G8 onaylanınca yapılacak.
 
 ## Sonra yerel Claude'un hazırlayacakları
 

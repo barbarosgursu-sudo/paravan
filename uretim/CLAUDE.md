@@ -56,12 +56,12 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
 
 ## Komut: `vaka <N> resimlerini üret`  (asıl komut — döngü sahibine sormadan yürür)
 
-Tekrarla:
-1. Üretilecek resimleri bul (AGENTS.md atlama kuralları). Her biri için `uretim/v<N>` içinde:
-   `codex exec --approve-for-me "AGENTS.md'ye göre G<n> resmini üret."`
-   Bitmesini bekle (~1–2 dk). `--dangerously-bypass-approvals-and-sandbox` ASLA.
+**Döngüyü arka planda başlat:** `cd uretim && DONGU_LOG=<scratchpad> ./dongu.sh <N>` (run_in_background). Betik referansı hazır
+olan her resmi sırayla Codex'e ürettirir (`codex exec --approve-for-me … < /dev/null`; stdin kapalı değilse Codex takılır),
+kuyruk boşalınca çıkar. Aynı anda ikinci bir Codex çalıştırma. Döngü çalışırken sen:
+1. `uretilen/`'e geleni denetle (aşağıda). Onayladıkça yeni resimlerin önü açılır; döngü çıktıysa yeniden başlat.
    Codex 5 dakikadan uzun beklerse: `uretim_kaydi.md`'nin sahibine bak (BIRIKIM §3.4).
-2. `uretilen/`'e gelenleri aşağıdaki **denetim** ile değerlendir.
+2. Temel onaylanınca gereken baş kırpığını/şeridi hazırla (`referanslar/`); hazırlanmayan referansı bekleyen resim döngüye girmez.
 3. Birkaç resimde bir `DURUM.md` → commit → push.
 4. Üretilecek ve denetlenecek resim kalmayınca dur. LISTE'nin hepsi `onayli/`'deyse `göm`'e geç.
 
