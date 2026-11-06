@@ -7,7 +7,8 @@
 # Kullanım: python arac_hale.py <kaynak.png> <kesilmis.webp> [--profil peri|cengo|konuk] [--genis] [--bas 0.5] [--onizleme <dosya.png>]
 #   Kesim çerçevesi arac_kes.js profilindeki x0 ile aynı olmalı (peri 120, öbürleri 0–10; --genis 0).
 #   --bas: kaynağın üst kısmının bu oranı (varsayılan 0.5) = baş bölgesi; temizlik yalnız orada.
-# Yeşil olmayan zemin (açık bej) için değil: bej zeminli figürde (Cengo haki, Kenan, Sedat) kullanma.
+# --zemin bej: açık bej zeminli KOYU saçlı figür (Cengo haki, Kenan, Sedat): zemine renk uzaklığıyla anahtarlar.
+#   Açık/kır saçlı ya da beyaz yakalı figürde kullanma (saçı da siler).
 import sys, os
 import numpy as np
 from PIL import Image
@@ -22,7 +23,41 @@ def anahtar(src):
     # İnce saç teli kenarı zeminle karışık (G yalnız ~5–15 baskın); eşik düşük tutulur.
     return np.clip((fark - ESIK) / 28.0, 0, 1), fark
 
-def temizle(kaynak, kesik, profil='peri', genis=False, bas=0.5, onizleme=None):
+def _bej(src, s, cut, kesik, ch, cw, ust, onizleme):
+    # Açık zemin (bej): zemin rengi kaynağın üst köşelerinden ölçülür; baş bölgesinde zemine yakın pikseller
+    # (renk uzaklığı) saydamlaşır. Koyu saç zeminden çok uzak → korunur. Yalnız KOYU saçlı karakterde kullan
+    # (açık/kır saç ve beyaz yaka da zemine yakındır).
+    H, W = src.shape[:2]
+    zr = np.concatenate([src[5:40, 5:40].reshape(-1, 3), src[5:40, W - 40:W - 5].reshape(-1, 3)]).mean(0)
+    d = np.sqrt(((s - zr) ** 2).sum(-1))
+    k = np.clip((BEJ_UST - d) / (BEJ_UST - BEJ_ALT), 0, 1)
+    a = cut[..., 3] / 255.0
+    # Yalnız saydam kenara BANT px yakın şerit: ten zemine renkçe yakın olabilir, yüzün içine dokunulmaz.
+    sayd = a < 0.5; m = sayd.copy()
+    for _ in range(BANT):
+        g = m.copy(); g[1:] |= m[:-1]; g[:-1] |= m[1:]; g[:, 1:] |= m[:, :-1]; g[:, :-1] |= m[:, 1:]; m = g
+    bas_bolge = (np.arange(ch)[:, None] < ust) & m
+    k[~bas_bolge] = 0
+    yeni_a = np.minimum(a, 1 - k)
+    # yarı saydam kenar ve kaynakta zemine görece yakın → sil (bukle arası açık leke)
+    yeni_a[bas_bolge & (a < 0.7) & (d < BEJ_UST + 40)] = 0
+    # kalan açık kenar piksellerini koyulaştır: zemin payı kadar karart
+    rgb = cut[..., :3]
+    pay = np.clip((BEJ_UST + 60 - d) / 60.0, 0, 1) * bas_bolge
+    rgb *= (1 - 0.5 * pay)[..., None]
+    cut[..., 3] = (yeni_a * 255).round()
+    out = Image.fromarray(cut.clip(0, 255).astype(np.uint8), 'RGBA')
+    out.save(kesik, 'WEBP', quality=80, method=6)
+    if onizleme:
+        z = Image.new('RGBA', out.size, (58, 42, 32, 255)); z.alpha_composite(out)
+        z.crop((0, 0, cw, ust)).save(onizleme)
+    return int(((a > 0.5) & (yeni_a <= 0.5)).sum())
+
+BEJ_ALT = float(os.environ.get('BEJ_ALT', 30))
+BEJ_UST = float(os.environ.get('BEJ_UST', 75))
+BANT = int(os.environ.get('BEJ_BANT', 8))
+
+def temizle(kaynak, kesik, profil='peri', genis=False, bas=0.5, onizleme=None, zemin='yesil'):
     with Image.open(kaynak) as f: src = np.array(f.convert('RGB')).astype(np.float32)
     with Image.open(kesik) as f: cut = np.array(f.convert('RGBA')).astype(np.float32)
     H, W = src.shape[:2]
@@ -33,8 +68,10 @@ def temizle(kaynak, kesik, profil='peri', genis=False, bas=0.5, onizleme=None):
     w = int(round(cw / sc))
     kare = Image.fromarray(src[:, x0:x0 + w].astype(np.uint8)).resize((cw, ch), Image.LANCZOS)
     s = np.array(kare).astype(np.float32)
-    k, fark = anahtar(s)
     ust = int(ch * bas)
+    if zemin == 'bej':
+        return _bej(src, s, cut, kesik, ch, cw, ust, onizleme)
+    k, fark = anahtar(s)
     k[ust:, :] = 0
     a = cut[..., 3] / 255.0
     yeni_a = np.minimum(a, 1 - k)
@@ -68,9 +105,9 @@ if __name__ == '__main__':
     def al(ad, v=None):
         if ad in arg: i = arg.index(ad); val = arg[i + 1]; del arg[i:i + 2]; return val
         return v
-    profil = al('--profil', 'peri'); bas = float(al('--bas', 0.5)); on = al('--onizleme')
+    profil = al('--profil', 'peri'); bas = float(al('--bas', 0.5)); on = al('--onizleme'); zemin = al('--zemin', 'yesil')
     genis = '--genis' in arg
     if genis: arg.remove('--genis')
     kaynak, kesik = arg
-    n = temizle(kaynak, kesik, profil, genis, bas, on)
+    n = temizle(kaynak, kesik, profil, genis, bas, on, zemin)
     print(f'{os.path.basename(kesik)}: {n} px saydamlaştı')
