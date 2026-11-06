@@ -46,4 +46,5 @@ referanslar o vakanın `referanslar/` klasöründe.
 ## Belgeler
 
 - Görsel kurallar: `sablon/5_gorsel_sistemi.md` → **H. Görsel standart**
+- İstem kalıpları (onaylı tarz): `ISTEM_KALIPLARI.md`
 - Vaka 3'ün Codex deneyimi (gerekçeler, ret geçmişi, filtre deneyi): `v3_eski/BIRIKIM.md`

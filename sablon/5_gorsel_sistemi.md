@@ -313,8 +313,10 @@ Yerel Claude her figürü onaylamadan önce `arac_yanyana.js` ile kesip Peri'nin
 Biri tutmazsa resim onaylanmaz: ya kesim ayarı düzeltilir ya da resim düzeltme notuyla yeniden üretilir.
 
 ### H6. Her istemde sabit
-Tarz paragrafı · "Poz: TAM İKİ KOL, İKİ EL" · bakış satırı · zemin satırı · karakter sabitleri (Peri:
-kırmızı stiletto, çorap yok) · "yazı, harf, rakam, logo yok" · oran satırı · çıplaklık yok.
+"Poz: TAM İKİ KOL, İKİ EL" · bakış satırı · zemin satırı · karakter sabitleri (Peri: kırmızı stiletto, çorap yok) ·
+"yazı, harf, rakam, logo yok" · oran satırı · çıplaklık yok. **Tarz paragrafı her istemde DEĞİL:** Peri/Cengo ve bütün
+varyant istemlerinde yazılmaz (tarzı boyalı referans taşır); yeni karakterde, mekânda ve karede yazılır. Kalıplar ve
+gerekçe: `uretim/ISTEM_KALIPLARI.md` (6 Kasım 2026 düzeltmesi; eski satır karikatür tarzına yol açtı).
 
 ### H7. Dosya
 PNG, adı `G<n>.png`. Onaylı resim silinmez.

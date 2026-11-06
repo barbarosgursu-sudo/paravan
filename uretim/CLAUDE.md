@@ -46,8 +46,10 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
    - Kıyafetin HER ayrıntısı, dekolte dahil, metne yazılır ("vücudu saran kısa siyah elbise, derin V dekolteli").
      Yazılmazsa resimde çıkmaz.
    - Erkek karakterlerde açık göğüs sorun çıkarmadı.
-3. **H. Görsel standart** satırları: kadraj (H1), bakış (H3), zemin (H4: karakterin zemin rengi), tarz paragrafı, iki kol
-   iki el, yazı yok, oran.
+3. **İstem kalıpları: `uretim/ISTEM_KALIPLARI.md` — ZORUNLU, ezberden yazma.** Tarz paragrafının nereye yazılıp
+   nereye YAZILMADIĞI (Peri/Cengo ve varyantlarda yok), tarz örneği cümlesi, mekânda ışık, zemin satırı orada.
+   Yazmadan önce oradaki onaylı örneklerle ve `v3_eski/prompts/` ile yan yana karşılaştır. Ayrıca **H. Görsel standart**:
+   kadraj (H1), bakış (H3), zemin (H4), iki kol iki el, yazı yok, oran.
 4. **Vaka 3 dersleri baştan istemde** (aşağıdaki tablo).
 5. **Kontrol satırı:** o resimde en kolay bozulacak 2–5 şey.
 6. Hikâyede olmayan ayrıntı ekleme (kök CLAUDE.md kuralı). Gerekirse sahibine sor.
