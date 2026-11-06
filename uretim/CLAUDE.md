@@ -129,6 +129,10 @@ Yalnız LISTE'deki her resim `onayli/`'deyken (yarım set gömülmez; oyunda esk
 3b. **Saç halesi (yeşil zeminli figürler):** `python arac_hale.py ../uretim/v<N>/onayli/G<n>.png yeni_gorsel/<…>.webp --profil peri|konuk [--genis]`
    — kaynağın baş bölgesinde renk anahtarıyla teller arasındaki yeşili siler, kenar sisini saç tonuna çeker. Bir dosyaya
    BİR kez çalıştır (önce `arac_paket.js --yaz` yeniden keser). Bej zeminli figüre kullanma. Oyunda `arac_yanyana.js --kesik` ile bak.
+4. **Masa kartı (Ajansın Masası, vaka seçme):** kart afişinden yatay kırpık, yüzler görünür:
+   `magick yeni_gorsel/kart_v<N>.webp -resize 900x -crop 900x500+0+<y> +repage -quality 80 yeni_gorsel/masa_v<N>.webp`;
+   `gorseller.json → dosyalar.MASA_V<N>`, `game_data.json → vakalar[V<N>].giris_gorsel = "MASA_V<N>"` (yoksa önceki vakanın
+   büro resmi görünür — Vaka 3'te sahibi buldu, 6 Kasım).
 4. Kart afişi (9:16) elle: `kart_v<N>.webp` (`5_gorsel_sistemi.md` → G). Yeni karakter: künye portresi (`python arac_portre.py …`).
 5. Kök CLAUDE.md'deki "Her commit'ten önce" komutları; hepsi geçerse commit → push.
 6. `node arac_yeni_tur.js 0 <yol> dogru --hepsi` ile vakayı oynat; görüntülere bak, sorunları sahibine listele.

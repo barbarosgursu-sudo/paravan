@@ -213,7 +213,7 @@
       "baslik": "Kayıp Tekne",
       "arastirma": 4,
       "ucret": 35000,
-      "giris_gorsel": "A9",
+      "giris_gorsel": "MASA_V1",
       "truth": {
         "tekne": "Nazlı. Rıza Reis'in kırk yıllık ahşap balıkçı teknesi; adı rahmetli karısının.",
         "ne_oldu": "Rıza Reis'in oğlu Serkan, babasının yıllar önce verip unuttuğu yedek anahtarla zinciri açıp yeniden kilitledi; salı gece yarısı tekneyi Bebek'e götürdü ve üç günlüğüne bir dizi setine nakit kiraladı (günü 35.000 ₺).",
@@ -838,7 +838,7 @@
       "baslik": "Gelinlik",
       "arastirma": 3,
       "ucret": 50000,
-      "giris_gorsel": "A6",
+      "giris_gorsel": "MASA_V2",
       "setler": {"peri": "tayyor", "cengo": "takim"},
       "truth": {
         "gelinlik": "Defne Ersoy'un Lâl Hanım'ın atölyesinde dikilen ısmarlama gelinliği (İtalyan dantel, ~300.000 ₺).",
