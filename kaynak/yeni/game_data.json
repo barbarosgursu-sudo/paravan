@@ -1689,7 +1689,7 @@
       "baslik": "Simit Soygunu",
       "arastirma": 3,
       "ucret": 40000,
-      "giris_gorsel": "A6",
+      "giris_gorsel": "MASA_V3",
       "setler": {"peri": "trenckot", "cengo": "haki"},
       "truth": {
         "ne_oldu": "Ferruh pazar gece dükkâna döndü: alarmı ortak kodla kapattı, kayıt cihazının fişini çekti, kasayı şifreyle açıp 480.000 ₺'yi depoda bir un çuvalına sakladı, camı içeriden kırdı, alarmı kurup çıktı.",
