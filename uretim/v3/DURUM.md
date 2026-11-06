@@ -12,7 +12,7 @@ Onaylı 7: G1, G10, G11, G15, G16, G17, G18. Ret: G1 ×1 (saç telleri), G4 ×2 
 `CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe` gerekli.
 
 **İstem eki (6 Kasım):** saç tellerinin kesimi bozması iki kez görülünce üretilmemiş 35 figür istemine saç satırı eklendi
-("saçın dış çizgisi toplu…", Peri trençkotta "saçın tamamı eşarbın içinde"). Ders `uretim/CLAUDE.md` tablosunda.
+("saçın dış çizgisi toplu…"); sahibinin kararıyla Peri ve Cengo istemlerinden çıkarıldı, yan karakterlerde duruyor. Ders `uretim/CLAUDE.md` tablosunda.
 
 ## Yapılan
 

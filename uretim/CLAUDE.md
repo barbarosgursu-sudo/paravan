@@ -145,4 +145,4 @@ fazla boşluğu kırp). Şeritte dekolte olmamalı.
 | İki yan karakter birbirine benziyor | "X'e benzemiyor" + ayırıcı özellik (ince bıyık / gür pala bıyık) |
 | Yeni karakter eski birine benziyor | başı silinmiş tarz gövdesi; yüzü ayırt edici çizgilerle tarif et |
 | Boy, bakış, kesim, saç | H. Görsel standart + `arac_yanyana.js` |
-| Dağınık saç telleri zemine taşıyor → kesimde teller arasındaki zemin yeşil/beyaz hale kalıyor; profil değiştirmek çözmedi (v3 G1, G4, 6 Kasım) | "saçın dış çizgisi toplu; zemine taşan ince tel, havada kıvrılan uç yok" (eşarplıysa "saçın tamamı eşarbın içinde") |
+| Dağınık saç telleri zemine taşıyor → kesimden sonra teller arasında zemin halesi kalıyor (v3 G1, G4) | istemde "saçın dış çizgisi toplu; zemine taşan ince tel yok" (eşarplıysa "saçın tamamı eşarbın içinde"). Hale tek başına RET SEBEBİ DEĞİL: gömmede yalnız baş kutusunda temizlenir (`5_gorsel_sistemi.md` → F "Hale temizliği yöntemi"; Vaka 1–2'de böyle yapıldı). **Peri ve Cengo istisna (sahibi, 6 Kasım):** saçları eskisi gibi dağınık kalır; onlara bu satır yazılmaz, hale gömmede temizlenir |
