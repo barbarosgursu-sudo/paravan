@@ -2,11 +2,10 @@
 
 **Aşama:** üretim sürüyor (6 Kasım 2026).
 
-## Sayım (6 Kasım 18:40) — DÖNGÜ DURDURULDU (sahibi: "çalışmayı durdur")
+## Sayım (6 Kasım 21:45) — ÜRETİM BİTTİ: 67/67 onaylı
 
-Onaylı 35: G1–G21, G26–G36, G40–G42. Şerit hazır (`referanslar/serit_susam_dortlu.jpg`).
-Bekleyen karar: trençkotlu Peri dünkü gibi dekolteli mi? (G1, G19–G21 önü kapalı onaylandı; G22–G24 `uretilen/`'de bekliyor.)
-G25 ikinci kez ENGELLENDİ (dünkü tarifle bile; utanmış felaket pozu). Kalan: G25, G37–G39, G43–G67.
+Web'de üretilen 4: G3, G25, G51, G65 (Codex filtresi). Öbürleri Codex. Dünkü ayarlar: Peri ve Gizem dekolteli
+(`uretim/ISTEM_KALIPLARI.md` §9). Sıradaki adım: `göm` (sahibinin onayıyla).
 
 **Boy (arac_yanyana --oran, eski oyundaki Peri'ye göre; gömmede yeni Peri'yle yeniden ölç):** Peri 1 · Cengo 1 ·
 Nadide ≈0.65 · Gizem ≈0.61 · Sedat ≈0.61 · Ayla ≈0.66 · Rüstem ≈0.63.
