@@ -4,3 +4,4 @@
 
 
 (Şu an boş. G2, G3, G25 web/Codex ile tamamlandı, 6 Kasım.)
+
