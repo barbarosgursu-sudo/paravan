@@ -27,6 +27,13 @@ Yeni vakada yeni karakter → buraya eklenir (sahibinin onayıyla).
 Hikâye donmuş olmalı (`sablon/vakalar/vaka<N>_diyalog.md`). Çıktı: `uretim/v<N>/LISTE.md`, `prompts/G<n>.md`,
 gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. Kurallar:
 
+0. **Liste oyunla eşleşir — zorunlu.** Oyun her resmi bir anahtarla arar (ör. `peri.trenckot.kas`, `A23`, `K36`);
+   gömme aracı (`arac_paket.js`) numarayı ve anahtarı `sablon/vakalar/vaka<N>_gorsel.md` tablosundan okur.
+   - Listesi zaten olan vaka (Vaka 3): `vaka<N>_gorsel.md`'deki liste AYNEN alınır — aynı numaralar, tür, anahtar.
+     Yalnız istemler yazılır. Numara ya da anahtar değişmez, resim eklenmez, çıkarılmaz.
+   - Yeni vaka: liste `vaka<N>_gorsel.md`'ye de aynı tablo biçiminde yazılır
+     (`| G<n> | figür / arka plan / detay / ara kare / kart afişi | ne | \`anahtar\` | referans | aşama |`).
+     Anahtarlar diyalogdaki sahne kodlarıyla aynı olmalı (`node dogrulayici.js yeni` ve `test_yeni_arayuz.js` sınar).
 1. **Sıra: temeller önce.** Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve kareler sonra.
    (Bir temelin reddi bütün zinciri bir tur geciktirir — Vaka 3'te G5 beş resmi bekletti.)
 2. **Referanslarda dekolte YOK — zorunlu.** Güvenlik filtresi metne değil referans resimdeki dekolteye bakıyor;
