@@ -80,3 +80,4 @@ Ferruh, Gizem, Ayla, Rüstem orta yeşil · Kenan, Sedat açık bej.
 | G65 | ara kare | Kapanış: Gizem Peri'ye çerçeveli afişi uzatıyor | `K52` | G3, G9, G10 |
 | G66 | ara kare | Kapanış: kapıda Gizem ve Cengo; masanın altında Peri | `K53` | G3, G9, G5 |
 | G67 | kart afişi | Kart afişi: Simit Soygunu | `KART_V3` | G10, G1, G4 + referanslar/serit_susam_dortlu.jpg |
+| G68 | figür | Ferruh, alınmış (suçlanınca; sahibinin bulgusu, 6 Kasım) | `ferruh.alingan` | G7 |

@@ -53,6 +53,17 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
 4. **Vaka 3 dersleri baştan istemde** (aşağıdaki tablo).
 5. **Kontrol satırı:** o resimde en kolay bozulacak 2–5 şey.
 6. Hikâyede olmayan ayrıntı ekleme (kök CLAUDE.md kuralı). Gerekirse sahibine sor.
+7. **Satır–resim uyumu ZORUNLU (sahibi, 6 Kasım 2026).** Her metin, gösterildiği resimle uyumlu olmalı ve resim bunu bilerek
+üretilir. Üç aşama, araç `kaynak/arac_satir_resim.js` (tur dökümünden her resmin göründüğü satırları ve riskli satırları basar):
+   - **İstem yazarken:** görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`, her yolun `satir/`'ını kopyala) →
+  `node arac_satir_resim.js <dokum…> --vaka V<N>`. Her figür/kare isteminin `## Satırlar` bölümüne o resmin satırları
+  konur. Bir yüz hepsine uymuyorsa (ör. güler yüz + suçlanma satırı) AYRI ifade istenir. EYLEM bayraklı anlatı satırı
+  (yiyor, uzatıyor, kesiyor…) kare ister ya da diyalogda o satıra uygun kare/figür bağlanır. JEST bayraklı replik
+  ("(papyonunu düzelterek)") konuşanın figürünün pozuna yazılır.
+   - **Denetimde:** resim istemle birlikte o satırlarla da okunur: yüz, el, jest, konuşanın kim olduğu (dinleyen
+  parmağıyla işaret ediyorsa konuşan o sanılır — Vaka 3, Gizem konuşurken Peri'nin işaret eden figürü).
+   - **Gömmeden sonra:** bütün yollar `--hepsi` ile oynanır, araç yeniden çalışır; her bayrak ve her satırın ekranı
+  metniyle okunur, sonuç sahibine tablo hâlinde verilir (satır · metin · uyuyor/uymuyor · neden).
 
 ## Komut: `vaka <N> resimlerini üret`  (asıl komut — döngü sahibine sormadan yürür)
 
@@ -92,6 +103,8 @@ boyutta görünmeyen ret sebeplerinin hepsi büyütünce çıktı. Büyütme: `m
 9. Fiziksel olabilirlik: oturan/dayanan figür mobilyanın içinden ya da arkasından geçmiyor; dirsek gerçekten masada.
 10. Sayım: "TAM n kişi" tutuyor; aynı karakter iki kez yok.
 11. Mantık: ışık ve saat istemdeki gibi; kapalı dükkânda ateş yanmaz.
+12. **Satırlar:** istemin `## Satırlar` bölümündeki (yoksa `arac_satir_resim.js` çıktısındaki) HER satıra uyuyor mu —
+    yüz, el, jest; dinleyen figür konuşan gibi görünmüyor mu.
 
 **B. Oyundaki hâli (figürler)** — `kaynak` içinde:
 `node arac_yanyana.js ../uretim/v<N>/uretilen/G<n>.png --kim <id> --profil <profil> --oran <H2 tablosu>`

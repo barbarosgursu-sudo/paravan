@@ -75,6 +75,18 @@ yapmayan Sohbet 1 (G8'deki çorap bandı G9–G13'e yayıldı) 64 dk sürdü; ya
 3–5 dk. Sahibi görselleri sohbete **doğrudan yapıştırır**; numarayı ben veririm (dosya adı gerekmez).
 Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır.
 
+**Satır–resim uyumu ZORUNLU (sahibi, 6 Kasım 2026).** Her metin, gösterildiği resimle uyumlu olmalı ve resim bunu bilerek
+üretilir. Üç aşama, araç `kaynak/arac_satir_resim.js` (tur dökümünden her resmin göründüğü satırları ve riskli satırları basar):
+- **İstem yazarken:** görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`, her yolun `satir/`'ını kopyala) →
+  `node arac_satir_resim.js <dokum…> --vaka V<N>`. Her figür/kare isteminin `## Satırlar` bölümüne o resmin satırları
+  konur. Bir yüz hepsine uymuyorsa (ör. güler yüz + suçlanma satırı) AYRI ifade istenir. EYLEM bayraklı anlatı satırı
+  (yiyor, uzatıyor, kesiyor…) kare ister ya da diyalogda o satıra uygun kare/figür bağlanır. JEST bayraklı replik
+  ("(papyonunu düzelterek)") konuşanın figürünün pozuna yazılır.
+- **Denetimde:** resim istemle birlikte o satırlarla da okunur: yüz, el, jest, konuşanın kim olduğu (dinleyen
+  parmağıyla işaret ediyorsa konuşan o sanılır — Vaka 3, Gizem konuşurken Peri'nin işaret eden figürü).
+- **Gömmeden sonra:** bütün yollar `--hepsi` ile oynanır, araç yeniden çalışır; her bayrak ve her satırın ekranı
+  metniyle okunur, sonuç sahibine tablo hâlinde verilir (satır · metin · uyuyor/uymuyor · neden).
+
 **Görsel–metin uyum denetimi (adım 11, Onay 3'ten ÖNCE).** Bulanık replik taramasının görsel
 kardeşi. Bütün görseller gömülünce görselli turu **bütün yollarda** koşarım
 (`arac_yeni_tur.js`) ve her ekranı altındaki metinle yan yana okurum:

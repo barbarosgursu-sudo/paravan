@@ -109,6 +109,12 @@ Peri her resimde en seksi kadın; dekolte istenir. Filtreden geçen düzen (5 Ka
   müstehcen değil.` (eski G55, G56 bununla geçti).
 - Örnek: `v3/prompts/G2.md` → `v3/onayli/G2.png` (sahibinin "daha iyi" dediği hâl).
 
+## 10. `## Satırlar` bölümü (Vaka 4'ten itibaren her figür ve karede)
+
+İstem dosyasında `## Kontrol`'den önce: `arac_satir_resim.js` çıktısındaki o resmin satırları (konuşan: metin; dinliyorsa
+işaretli). İstemin ifade ve poz satırları bu satırların HEPSİNE uyacak biçimde yazılır; jestler (parantezli sahne yönü)
+poza girer. Codex bu bölümü istem metnine KATMAZ (yalnız `## İstem` gider); yerel Claude yazarken ve denetlerken okur.
+
 ---
 
 ## Neden (Vaka 3, 6 Kasım 2026)

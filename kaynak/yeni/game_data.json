@@ -2043,13 +2043,14 @@
               {
                 "k": "not",
                 "m": "Susam'ın imalathanesi. Taş fırın, simit tezgâhı, büyük bir pekmez kazanı. Uzun boylu, sakallı bir adam lacivert önlüğüyle hamur kesiyor.",
-                "mekan": true
+                "gir": "kenan",
+                "gi": "normal"
               },
               {"k": "peri", "i": "normal", "m": "Kenan Bey. Pazar gece neredeydiniz?", "gir": "kenan", "gi": "normal"},
               {"k": "kenan", "i": "normal", "m": "Evdeydim. Erken yattım; sabah fırını ben açıyorum.", "gir": "kenan"},
               {"k": "peri", "i": "merakli", "m": "Kaçta yattınız?"},
               {"k": "kenan", "i": "normal", "m": "Onda. En geç on."},
-              {"k": "not", "m": "Kenan kocaman esniyor. Gözlerinin altı mosmor."},
+              {"k": "not", "m": "Kenan kocaman esniyor. Gözlerinin altında koyu halkalar var."},
               {
                 "k": "peri",
                 "i": "kas",
@@ -2355,7 +2356,7 @@
           "satirlar": [
             {
               "k": "not",
-              "m": "Sabah. Büro. Peri masada; bej trençkot, başında eşarp, gözünde iri güneş gözlüğü. Cengo kapıda durup bakıyor."
+              "m": "Sabah. Büro. Peri masada; bej trençkot, başında eşarp, iri güneş gözlüğü alnında. Cengo kapıda durup bakıyor."
             },
             {"k": "cengo", "i": "kas", "m": "Bu ne kılık? Film setinden mi geldin?"},
             {"k": "peri", "i": "kas", "m": "Kılık bu. Dedektif iz sürerken tanınmaz. Kitapta yazıyor."},
@@ -2440,7 +2441,7 @@
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
-            {"k": "not", "m": "Kapı kapanıyor. Peri gözlüğünü yeniden takıyor."},
+            {"k": "not", "m": "Kapı kapanıyor. Peri gözlüğünü alnına itip düzeltiyor."},
             {"k": "cengo", "i": "kas", "m": "Tezgâhtaki Gizem'i tanırım. Aldığım simitleri veresiye defterine o yazar."},
             {"k": "peri", "i": "kiskanc", "m": "Ne kadar borcunuz var?"},
             {"k": "cengo", "i": "gulen", "m": "Gizem'in keyfine göre değişiyor. Onu güldürürsem yazmıyor."},
@@ -2681,14 +2682,19 @@
               "k": "gizem",
               "i": "isveli",
               "m": "Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın.",
-              "gir": "gizem",
-              "kime": "peri"
+              "kare": "K45"
             },
-            {"k": "peri", "i": "sinirli", "m": "Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem."},
-            {"k": "gizem", "i": "isveli", "m": "Ya pembe önlük ya susam, tatlım. Seç."},
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem.",
+              "kare": "K45"
+            },
+            {"k": "gizem", "i": "isveli", "m": "Ya pembe önlük ya susam, tatlım. Seç.", "kare": "K45"},
             {
               "k": "not",
               "m": "Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.",
+              "kare": "K45",
               "set": "onluklu",
               "peri": "sinirli"
             },

@@ -19,7 +19,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ arka: A6 · figurler: peri, cengo · set: trenckot · cset: haki
 ⚙ K17: büro, 15–25 replik, şüpheli (Gizem, Kenan) anılıyor, ücret konuşuluyor, ipucu bilgisi yok.
 
-*Sabah. Büro. Peri masada; bej trençkot, başında eşarp, gözünde iri güneş gözlüğü. Cengo kapıda durup bakıyor.*
+*Sabah. Büro. Peri masada; bej trençkot, başında eşarp, iri güneş gözlüğü alnında. Cengo kapıda durup bakıyor.*
 **CENGO [kas]:** Bu ne kılık? Film setinden mi geldin?
 **PERİ [kas]:** Kılık bu. Dedektif iz sürerken tanınmaz. Kitapta yazıyor.
 **CENGO [gulen]:** Ortada iş yok ki. Kimin izini süreceksin?
@@ -49,7 +49,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ arka: A6 · figurler: peri, cengo · set: trenckot · cset: haki
 ⚙ İpucu adlarındaki kişiler burada duyulur (K18): Sedat (Cengo). Rüstem girişte Nadide'nin ağzından.
 
-*Kapı kapanıyor. Peri gözlüğünü yeniden takıyor.*
+*Kapı kapanıyor. Peri gözlüğünü alnına itip düzeltiyor.*
 **CENGO [kas]:** Tezgâhtaki Gizem'i tanırım. Aldığım simitleri veresiye defterine o yazar.
 **PERİ [kiskanc]:** Ne kadar borcunuz var?
 **CENGO [gulen]:** Gizem'in keyfine göre değişiyor. Onu güldürürsem yazmıyor.
@@ -146,12 +146,12 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ arka: A25 · figurler: peri, cengo · set: trenckot · cset: haki
 ⚙ Kural 21c: yalan ve batan dükkân Kenan'ı şüpheli gösterir; maaşı Ferruh'un yatırdığı söylenir (Ferruh ekranda). Önlük E'yi açar.
 
-*Susam'ın imalathanesi. Taş fırın, simit tezgâhı, büyük bir pekmez kazanı. Uzun boylu, sakallı bir adam lacivert önlüğüyle hamur kesiyor.* {mekan}
+*Susam'ın imalathanesi. Taş fırın, simit tezgâhı, büyük bir pekmez kazanı. Uzun boylu, sakallı bir adam lacivert önlüğüyle hamur kesiyor.* {gir: kenan, gi: normal}
 **PERİ [normal]:** Kenan Bey. Pazar gece neredeydiniz? {gir: kenan, gi: normal}
 **KENAN [normal]:** Evdeydim. Erken yattım; sabah fırını ben açıyorum. {gir: kenan}
 **PERİ [merakli]:** Kaçta yattınız?
 **KENAN [normal]:** Onda. En geç on.
-*Kenan kocaman esniyor. Gözlerinin altı mosmor.*
+*Kenan kocaman esniyor. Gözlerinin altında koyu halkalar var.*
 **PERİ [kas]:** Onda yatan biri öğlen böyle esnemez, Kenan Bey. Siz o gece hiç uyumamışsınız. {gir: kenan}
 **KENAN [kizgin]:** Uykumu da mı size soracağım? {kime: peri}
 **CENGO [kas]:** Soygunu sabah ilk sen görmüşsün. Altı buçukta.
@@ -211,7 +211,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 *Salı akşamı. Susam'ın merkezi, kepenk yarı inik. Nadide Hanım herkesi tezgâhın önüne toplamış: Ferruh, Kenan, Gizem.* {kare: K39}
 **PERİ [normal]:** Ferruh Bey. Dükkânı siz soydunuz. Nasıl soyduğunuzu da biliyorum. {gir: ferruh}
-**FERRUH [normal]:** *(papyonunu düzelterek)* Peri Hanım, ne diyorsunuz? Siz benim tanığımdınız… {gir: ferruh}
+**FERRUH [alingan]:** *(papyonunu düzelterek)* Peri Hanım, ne diyorsunuz? Siz benim tanığımdınız… {gir: ferruh}
 **PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor.
 **NADİDE [kirgin]:** Ferruh… Doğru mu bu? {gir: nadide, kime: peri}
 **FERRUH [terli]:** Nadide Hanım… {gir: ferruh}
@@ -222,7 +222,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 
 *Salı akşamı. Susam'ın merkezi, kepenk yarı inik. Nadide Hanım herkesi tezgâhın önüne toplamış: Ferruh, Kenan, Gizem.* {kare: K39}
 **PERİ [normal]:** Dükkânı siz soydunuz, Ferruh Bey. {gir: ferruh}
-**FERRUH [normal]:** Ben mi? Kırk beş yıllık dükkân, ben mi? Kanıtınız ne? {gir: ferruh}
+**FERRUH [alingan]:** Ben mi? Kırk beş yıllık dükkân, ben mi? Kanıtınız ne? {gir: ferruh}
 **PERİ [utanmis]:** …Şimdilik bir his.
 **NADİDE [kirgin]:** His yetmez. Yarın sabah eksper geliyor; dükkânı baştan aşağı arayacak, depodaki un çuvallarına kadar. Ferruh, depo anahtarını hazırla. {gir: nadide, kime: peri}
 **FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
@@ -272,10 +272,10 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [kas]:** Beni de suçlayacaktın. {gir: gizem}
 **FERRUH [itiraf]:** Biri suçlanmalıydı. {gir: ferruh}
 *Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.* {kare: K45}
-**GİZEM [isveli]:** Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın. {gir: gizem, kime: peri}
-**PERİ [sinirli]:** Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem.
-**GİZEM [isveli]:** Ya pembe önlük ya susam, tatlım. Seç.
-*Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.* {set: onluklu, peri: sinirli}
+**GİZEM [isveli]:** Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın. {kare: K45}
+**PERİ [sinirli]:** Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem. {kare: K45}
+**GİZEM [isveli]:** Ya pembe önlük ya susam, tatlım. Seç. {kare: K45}
+*Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.* {kare: K45, set: onluklu, peri: kas}
 **GİZEM [isveli]:** Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz.
 
 ---
