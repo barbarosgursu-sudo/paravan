@@ -108,6 +108,10 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   const eksik = KIS.kisiler.flatMap(x => [x.portre, ...(x.portre_katman || []).map(p => p.portre)])
     .filter(p => p && !GOR[String(p).replace(".jpg", "")]);
   k("künyedeki her portre gömülü", !eksik.length, eksik.join(", "));
+  // Portre alanı hiç yazılmamış kişi de ☗ kalır; yukarıdaki süzgeç onu sessizce atlıyordu
+  // (Vaka 3'ün yedi konuğu 6 Kasım'a kadar böyle kaldı).
+  const portresiz = KIS.kisiler.filter(x => !x.portre).map(x => x.id);
+  k("künyedeki her kişinin portresi var", !portresiz.length, portresiz.join(", "));
 }
 
 console.log(hata ? `\n${hata} başarısız.` : "\nHepsi geçti.");

@@ -192,6 +192,7 @@
     {
       "id": "nadide",
       "ad": "Nadide Hanım",
+      "portre": "portre_nadide",
       "tanisma": "susam_soyuldu",
       "katmanlar": [
         {
@@ -203,6 +204,7 @@
     {
       "id": "gizem",
       "ad": "Gizem",
+      "portre": "portre_gizem",
       "tanisma": "gizem_kapatti",
       "katmanlar": [
         {
@@ -218,6 +220,7 @@
     {
       "id": "kenan",
       "ad": "Kenan",
+      "portre": "portre_kenan",
       "tanisma": "kenan_acti",
       "katmanlar": [
         {"kosul": "kenan_acti", "tanim": "Susam'ın müdürü. Sabah dükkânı o açtı. Eksper ondan şüpheleniyor."},
@@ -234,6 +237,7 @@
     {
       "id": "ferruh",
       "ad": "Ferruh",
+      "portre": "portre_ferruh",
       "tanisma": "susam_soyuldu",
       "katmanlar": [
         {"kosul": "susam_soyuldu", "tanim": "Susam'ı yöneten ortak. Nadide Hanım ona güveniyor."},
@@ -250,18 +254,21 @@
     {
       "id": "sedat",
       "ad": "Sedat",
+      "portre": "portre_sedat",
       "tanisma": "alarm_kodu",
       "katmanlar": [{"kosul": "alarm_kodu", "tanim": "Alarmcı. Susam'ın alarmını o taktı. Cengo'ya borçlu."}]
     },
     {
       "id": "ayla",
       "ad": "Ayla Hanım",
+      "portre": "portre_ayla",
       "tanisma": "kenan_deneme",
       "katmanlar": [{"kosul": "kenan_deneme", "tanim": "Kadıköy'deki Badem Pastanesi'nin şefi."}]
     },
     {
       "id": "rustem",
       "ad": "Rüstem Bey",
+      "portre": "portre_rustem",
       "tanisma": "borc_elden",
       "katmanlar": [{"kosul": "borc_elden", "tanim": "Eminönü'nde un toptancısı. Nadide Hanım'ın duvarındaki afişi bilir."}]
     }

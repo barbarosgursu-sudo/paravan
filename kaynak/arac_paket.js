@@ -23,7 +23,8 @@ const os = require('os');
 const path = require('path');
 const crypto = require('crypto');
 const { execFileSync, spawnSync } = require('child_process');
-const { chromium } = require(process.env.PW || '/opt/node22/lib/node_modules/playwright');
+const ORTAM = require('./arac_ortam.js');
+const { chromium } = ORTAM.playwright();
 const jsonYaz = require('./arac_json_yaz.js');
 
 const KOK = __dirname;
@@ -113,7 +114,7 @@ const profilBul = (no, anahtar) => profilEk['G' + no] || (anahtar.startsWith('pe
 const dosyaAdi = ({ tur, anahtar }) =>
   tur === 'figur' ? ((/^(peri|cengo)\./.test(anahtar) ? 'sprite/' : 'figur_') + sozcuk(anahtar) + '.webp')
   : ({ arka: 'arka_', detay: 'detay_', kare: 'ara_' })[tur] + sozcuk(anahtar) + '.webp';
-const olcu = f => execFileSync('identify', ['-format', '%w %h', f + '[0]']).toString().trim().split(' ').map(Number);
+const olcu = f => ORTAM.im('identify', ['-format', '%w %h', f + '[0]']).toString().trim().split(' ').map(Number);
 
 const sonuc = [];
 for (const [no, ad] of Object.entries(girdiler)) {
@@ -130,9 +131,9 @@ for (const [no, ad] of Object.entries(girdiler)) {
     let kaynak = girdi;
     if (w !== 1122 || h !== 1402) {
       // Zemin rengiyle 1122×1402'ye getir (5. parça F). Zemin rengi sol üst köşeden.
-      const zemin = execFileSync('convert', [girdi + '[0]', '-format', '%[pixel:p{2,2}]', 'info:']).toString().trim();
+      const zemin = ORTAM.im('convert', [girdi + '[0]', '-format', '%[pixel:p{2,2}]', 'info:']).toString().trim();
       kaynak = path.join(gecici, 'G' + no + '_1122.png');
-      execFileSync('convert', [girdi + '[0]', '-resize', '1122x1402', '-background', zemin, '-gravity', 'center', '-extent', '1122x1402', kaynak]);
+      ORTAM.im('convert', [girdi + '[0]', '-resize', '1122x1402', '-background', zemin, '-gravity', 'center', '-extent', '1122x1402', kaynak]);
       kayit.notlar.push('kaynak ' + w + '×' + h + ' → 1122×1402 (zemin ' + zemin + ')');
     }
     const profil = profilBul(no, satir.anahtar);
@@ -143,7 +144,7 @@ for (const [no, ad] of Object.entries(girdiler)) {
     kayit.notlar.push(...r.stdout.trim().split('\n'));
     kayit.genis = genis;
   } else {
-    execFileSync('convert', [girdi + '[0]', '-resize', '900x1200', '-quality', '80', cikti]);
+    ORTAM.im('convert', [girdi + '[0]', '-resize', '900x1200', '-quality', '80', cikti]);
     const [w2, h2] = olcu(cikti);
     kayit.notlar.push(path.basename(rel) + ': ' + w2 + '×' + h2 + ' · kaynak ' + w + '×' + h);
     if (w2 !== 900 || h2 !== 1200) kayit.notlar.push('UYARI: 900×1200 değil — oran 3:4 değil, ekranda kayabilir');
@@ -158,7 +159,7 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
 (async () => {
   if (!sonuc.length) { console.log('İşlenecek görsel yok.'); return; }
   // 3) Temas sayfası: her görsel + figürlerde büyütülmüş baş (saç halesine bakmak için)
-  const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const b = await chromium.launch(ORTAM.tarayici());
   const p = await b.newPage({ viewport: { width: 1200, height: 800 } });
   const uri = f => 'data:image/' + (f.endsWith('.png') ? 'png' : 'webp') + ';base64,' + fs.readFileSync(f).toString('base64');
   const hucre = k => '<figure><div class="ikili"><img src="' + uri(k.onizleme) + '">' +

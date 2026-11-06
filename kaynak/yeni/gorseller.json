@@ -235,7 +235,14 @@
     "K51": "ara_k51.webp",
     "K52": "ara_k52.webp",
     "K53": "ara_k53.webp",
-    "KART_V3": "kart_v3.webp"
+    "KART_V3": "kart_v3.webp",
+    "portre_nadide": "portre/portre_nadide.webp",
+    "portre_ferruh": "portre/portre_ferruh.webp",
+    "portre_kenan": "portre/portre_kenan.webp",
+    "portre_gizem": "portre/portre_gizem.webp",
+    "portre_sedat": "portre/portre_sedat.webp",
+    "portre_ayla": "portre/portre_ayla.webp",
+    "portre_rustem": "portre/portre_rustem.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [

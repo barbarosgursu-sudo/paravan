@@ -39,9 +39,10 @@ const hedefVakalar = VAKALAR.length ? VAKALAR : G.vakalar.filter(v => v.kim_yapt
   fs.writeFileSync(path.join(__dirname, "YENI_UI", "sizinti_okuma.txt"), o);
 }
 
-const { chromium } = require('/opt/node22/lib/node_modules/playwright');
+const ORTAM = require('./arac_ortam.js');
+const { chromium } = ORTAM.playwright();
 (async () => {
-  const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const b = await chromium.launch(ORTAM.tarayici());
   const p = await b.newPage(); const jsh = []; p.on('pageerror', e => jsh.push(e.message));
   await p.goto('file://' + path.join(__dirname, '..', 'yeni', 'index.html')); await p.waitForTimeout(400);
   const r = await p.evaluate(({ TUR, VAKALAR }) => {

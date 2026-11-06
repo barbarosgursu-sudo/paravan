@@ -26,7 +26,8 @@
 // --onizleme : yeşil zemin üstünde önizleme PNG'si (kalıntı, delik gözle aranır).
 const fs = require('fs');
 const path = require('path');
-const { chromium } = require(process.env.PW || '/opt/node22/lib/node_modules/playwright');
+const ORTAM = require('./arac_ortam.js');
+const { chromium } = ORTAM.playwright();
 
 const KENAR_SATEN = Number(process.env.KENAR || 14);
 const PROFILLER = {
@@ -72,7 +73,7 @@ if (!girdi || !cikti || !PROFILLER[profilAd]) {
 const P = { ...PROFILLER[profilAd] };
 
 (async () => {
-  const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const b = await chromium.launch(ORTAM.tarayici());
   const p = await b.newPage();
   const tur = /\.jpe?g$/i.test(girdi) ? 'jpeg' : /\.webp$/i.test(girdi) ? 'webp' : 'png';
   const veri = 'data:image/' + tur + ';base64,' + fs.readFileSync(girdi).toString('base64');

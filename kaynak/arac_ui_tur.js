@@ -2,9 +2,10 @@
 // JS hatası, yatay taşma, küçük dokunma hedefi ve kayıt-sürdürme kontrolü yapar.
 // Kullanım: cd kaynak && node arac_ui_tur.js   (Playwright + Chromium gerekir)
 // ses/ dosyalarına file:// üzerinden CORS hatası NORMALDİR, yok sayılır.
-const { chromium, devices } = require(process.env.PW || '/opt/node22/lib/node_modules/playwright');
+const ORTAM = require('./arac_ortam.js');
+const { chromium, devices } = ORTAM.playwright();
 (async () => {
-  const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const b = await chromium.launch(ORTAM.tarayici());
   const ctx = await b.newContext({ ...devices['Pixel 5'] });
   const p = await ctx.newPage();
   const hatalar=[]; p.on('pageerror', e=>hatalar.push("pageerror: "+e.message)); p.on('console', m=>{ if(m.type()==='error' && !/ses\/|CORS|ERR_FAILED|ERR_FILE_NOT_FOUND/.test(m.text())) hatalar.push("console: "+m.text()); });

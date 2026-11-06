@@ -17,7 +17,8 @@
 //   figürün sprite anahtarı, metin. Görselli tur denetimi (adım 11) bununla yapılır.
 // Yazı tipi (Google Fonts) ve ses dosyası yükleme hataları çevrimdışı ortamda
 // beklenir; sayılmaz. Seçicilerde text= kullanılmaz (bkz. CLAUDE.md).
-const { chromium, devices } = require('/opt/node22/lib/node_modules/playwright');
+const ORTAM = require('./arac_ortam.js');
+const { chromium, devices } = ORTAM.playwright();
 const path = require('path'), fs = require('fs');
 const SAYFA = path.join(__dirname, '..', 'yeni', 'index.html');
 const OUT = path.join(__dirname, 'YENI_UI'); fs.mkdirSync(OUT, { recursive: true });
@@ -32,7 +33,7 @@ const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null;
 const YOL3 = ["kod", "foto", "borc", "badem", "cozmez"].includes(YOL) ? YOL : null;
 const VAKA = YOL3 ? "V3" : YOL2 ? "V2" : "V1";
 (async () => {
-  const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const b = await chromium.launch(ORTAM.tarayici());
   const cihaz = TABLET ? { viewport: { width: 800, height: 1280 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true } : devices['Pixel 5'];
   const p = await b.newPage({ ...cihaz, reducedMotion: 'reduce' });
   const hata = []; p.on('pageerror', e => hata.push(e.message)); p.on('console', m => { if (m.type()==='error' && !/ses|Audio|404|ERR_FILE|ERR_FAILED|ERR_CERT|ERR_NAME|ERR_INTERNET/.test(m.text())) hata.push('console: '+m.text()); });
