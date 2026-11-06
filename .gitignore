@@ -10,3 +10,5 @@ kaynak/YENI_UI/
 referans/
 # Bilgisayardaki tarayıcı aracı (Playwright + Chromium, ~200 MB) — yalnız yerelde
 araclar/
+# Resim üretiminde reddedilen resimler — yalnız yerelde
+uretim/*/red/
