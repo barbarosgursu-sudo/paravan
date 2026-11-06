@@ -91,6 +91,21 @@ Tarz paragrafı VAR. Mekân ve kişiler onaylı resimlerden (`onayli/G<n>.png`) 
 Kalabalıkta "Kadrajda TAM n kişi", her kişiye referans numarası ve kıyafet özeti, Peri varsa "en gösterişli kadın" satırı,
 her elin işi. Kurallar: `CLAUDE.md` → Vaka 3 dersleri tablosu.
 
+## 9. Çekicilik ve dekolte — "dünkü ayarlar" (sahibi, 6 Kasım: "bütün resimleri dünkü ayarlarla")
+
+Peri her resimde en seksi kadın; dekolte istenir. Filtreden geçen düzen (5 Kasım Codex denemesi, G2):
+- **Peri'nin her isteminde:** `Çekicilik: en üst seviyede zarif ve seksi; belin inceliği ve bacakların hattı belirgin.
+  Çıplaklık yok.` Felaket/komedi hâlinde: `Çekicilik: en üst seviyede seksi ve komik, ikisi aynı anda. Acı ya da
+  aşağılanma yok.`
+- **"Kumaş kalın ve mat, altından vücut ayrıntısı belirmiyor" satırı Peri'ye YAZILMAZ** — dekolteyi ve seksiliği bastırdı.
+  Yalnız Gizem'in dar beyaz tişörtünde kalır (meme ucu izi dersi), Gizem'de ayrıca kollar göğsü örter.
+- **Dekolteli kıyafette referans = baş kırpığı + `tarz_govde_kadin.jpg`**, bütün figür değil (`v3/referanslar/peri_*_bas.png`).
+- **Islaklık yalnız üst giyside:** "trençkot pekmezle ıslak; TENİ KENDİ RENGİNDE, yalnız dekoltesinde birkaç damla".
+  "Elbise de ıslak, vücuda yapışık" yazınca iki çağrı da engellendi (sexual, output).
+- **Fiziksel komedi karesinde:** `Sahne aile dostu bir fiziksel komedi anıdır; kamera göz hizasında, alttan açı yok;
+  müstehcen değil.` (eski G55, G56 bununla geçti).
+- Örnek: `v3/prompts/G2.md` → `v3/onayli/G2.png` (sahibinin "daha iyi" dediği hâl).
+
 ---
 
 ## Neden (Vaka 3, 6 Kasım 2026)
