@@ -75,6 +75,9 @@ ifade → kadraj + zemin → çıplaklık → yazı yasağı → oran.
 
 "dokusuz, lekesiz" şart: bir denemede zemin tuval dokulu, lekeli çıktı ve kesim tutmazdı.
 
+**Zemin rengi (Vaka 4'ten itibaren):** `5_gorsel_sistemi.md` → H4. Kızıl/bal/açık saçlı karakter (Peri, Gizem) ve
+beyaz/krem giyen → gri-mavi; koyu saçlı → açık bej. Yeşil kullanılmaz. Yeni temelde iki zeminle deneme yapılır.
+
 ## 7. Arka plan (mekân)
 
 Referans: `../referanslar/tarz_mekan_ic.jpg` ya da `tarz_sokak.jpg` — **"yalnız çizim tarzı ve ışık"**. Işığı yasaklama:

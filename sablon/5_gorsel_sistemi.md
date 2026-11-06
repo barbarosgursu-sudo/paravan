@@ -295,11 +295,23 @@ Oyunda Peri solda aynalanır, konuk sağda durur; bu satırla ikisi birbirine ba
 ### H4. Zemin rengi — kıyafete ve saça benzemesin
 Düz, tek renk, gölgesiz, hiçbir nesne yok. Renk karaktere göre seçilir:
 
+**Vaka 4'ten itibaren (sahibinin kararı, 6 Kasım 2026):** zemin hem kıyafetten hem SAÇTAN uzak olmalı. Vaka 3'te
+kızıl/bal rengi dağınık saç yeşil zeminde kesilince teller arasında zeytin-yeşil sis kaldı (`arac_hale.py` ile ancak
+temizlendi); bej zemindeki karakterlerde (Cengo, Kenan, Sedat) hale çıkmadı.
+
 | karakter giyiyorsa / saçı | zemin |
 |---|---|
-| hiçbiri (varsayılan) | açık bej |
-| beyaz, krem ya da bej giysi, veya beyaz / kır saç (yeşil giymiyorsa) | düz orta yeşil |
-| hem beyaz/kır hem yeşil | düz gri-mavi |
+| hiçbiri, koyu saç (varsayılan) | açık bej |
+| beyaz, krem ya da bej giysi, veya beyaz / kır saç | düz gri-mavi |
+| **kızıl, bal, sarı ya da açık kahve saç** (Peri, Gizem) — giysi ne olursa olsun | düz gri-mavi |
+| gri-mavi/lacivert giysi ve beyaz/kızıl saç birlikte | denemeyle seç (aşağıda) |
+
+Yeşil zemin artık kullanılmaz (kızıl saçın karşıtı; karışımı göze batıyor).
+
+**Zemin denemesi (her yeni karakter temeli ve her yeni kıyafet temeli):** temel istemi iki zeminle (tablodaki + bir
+aday) üret, ikisini `arac_kes.js` + `arac_yanyana.js` ile oyunda kesip başı büyüt; saç kenarı temiz olanı seç. O
+karakterin bütün ifadeleri o zemini alır. Hâlâ hale kalırsa gömmede `arac_hale.py` (yalnız yeşil zemin için yazıldı;
+başka zeminde kullanmadan önce eşiğini dene).
 
 Aynı karakterin bütün ifadeleri aynı zeminde. **Renk düzeltmesi yapılmaz:** renk yanlışsa resim yeniden üretilir.
 
