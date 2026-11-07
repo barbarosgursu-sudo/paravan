@@ -8,6 +8,29 @@
 
 ---
 
+## 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+
+**Durum tek cümle:** Vaka 3'ün 68 resmi (G68 = `ferruh.alingan`, sonradan eklendi) eski tarzla ve "dünkü ayarlarla"
+(Peri ve Gizem dekolteli) yeniden üretildi, oyuna gömüldü, dört yol görselli turla denetlendi, `main`'de ve yayında.
+Ayrıntı ve sayım: `uretim/v3/DURUM.md`. Resim düzeni: `uretim/CLAUDE.md`, istem kalıpları: `uretim/ISTEM_KALIPLARI.md`.
+
+- **Yeni araçlar:** `kaynak/arac_hale.py` (saç halesi; yeşil zemin varsayılan, `--zemin bej` koyu saçlı bej zeminli figür),
+  `kaynak/arac_satir_resim.js` (tur dökümünden resim→satır listesi ve EYLEM/JEST/KONUŞAN bayrakları),
+  `uretim/dongu.sh` (Codex üretim döngüsü; durdurmak için `touch uretim/v<N>/DUR`).
+- **Sahibinin kalıcı kararları (6–7 Kasım):** tarz = eski resimler (Peri/Cengo/varyant istemlerinde tarz paragrafı YOK);
+  Peri ve Gizem dekolteli (§9); Peri ve Cengo'nun saçı dağınık, hale gömmede temizlenir; **satır–resim uyumu zorunlu**
+  (her istemde `## Satırlar`, denetimde satırlarla okuma, gömmeden sonra bütün yollar + tablo); **Vaka 4'ten itibaren
+  zemin saçtan da uzak** (kızıl/açık saç → gri-mavi, yeşil yok, temelde iki zemin denemesi — `5_gorsel_sistemi.md` H4);
+  her vakaya kendi **masa kartı** (`MASA_V<N>`, kart afişinden yatay kırpık).
+- **Bu bilgisayarda araç ortamı:** `PW=D:/Yazilim/paravan/araclar/node_modules/playwright`,
+  `CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe`, `PYTHONIOENCODING=utf-8`.
+- **Açık kalan (sahibine sorulmadı, isteğe bağlı):** `YENI_UI/satir_resim.md`'deki 5 EYLEM / 10 JEST bayrağı küçük jest farkları
+  (ör. "Cengo ceketindeki unu silkeliyor", "(yarım simidi ısırarak)"); bilerek bırakıldı.
+- **Sıradaki adım (şablon 7. parça):** Vaka 3 için adım 12–14 — Onay 3 (sahibi oyunu oynar), düzeltmeler, vaka donar.
+  Ardından Vaka 4: `istemleri hazırla 4` yeni kurallarla.
+
+---
+
 ## 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 **Durum tek cümle:** sahibi 67 görseli ChatGPT'de baştan üretti, kontrollerini masaüstünde yaptı ve GitHub web'den
