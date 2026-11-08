@@ -1,0 +1,37 @@
+diff --git a/kaynak/yeni_arayuz.css b/kaynak/yeni_arayuz.css
+index 6af6102..81d9336 100644
+--- a/kaynak/yeni_arayuz.css
++++ b/kaynak/yeni_arayuz.css
+@@ -317,3 +317,32 @@ body{background:var(--zemin1);color:var(--metin);font-family:"Nunito","Segoe UI"
+ /* "Dosyanın tamamı" (kaçan ipucunu reklamla izleyene, 17 Ekim 2026): paragraflar ayrık */
+ .hikaye-kutu p{margin:0 0 12px}
+ .hikaye-kutu p:last-child{margin-bottom:0}
++
++/* ── Sahne hareketi (8 Kasım 2026, deneme) ── yalnız CSS; JS'e dokunmaz.
++   Hepsi `transform`/`scale`/`translate` ve opaklık (ekran kartında döner, telefonu yormaz).
++   "Hareketi azalt" açık cihazda yukarıdaki prefers-reduced-motion kuralı hepsini kapatır.
++   1) Arka plan: çok yavaş yaklaşma + kayma (24 sn, gidip gelir). En çok %4 — tablet kesim payını yemesin.
++   2) Ara kare: açılınca 12 sn'de %5 yaklaşır ve orada kalır.
++   3) Figürler nefes alır (dikey %0,7). `scale` ayrı özellik: sol figürün `transform:scaleX(-1)` aynasını bozmaz.
++      Sol ve sağ farklı fazda, aynı anda nefes almasınlar.
++   4) Konuşan figür 4 px öne çıkar (`translate`), susan geri çekilir.
++   5) Toz: sahnenin üstünde süzülen ışık zerreleri. Tek sözde öğe, iki nokta deseni; yalnız transform ile
++      kayar (600 px, üç desenin de yüksekliğinin katı → dikişsiz döngü; yukarı süzülür). */
++.vn-arka img.kaplama{animation:vnArkaSuzul 24s ease-in-out infinite alternate;transform-origin:50% 70%}
++@keyframes vnArkaSuzul{from{transform:scale(1.005) translate(0,0)}to{transform:scale(1.04) translate(-1.2%,-.6%)}}
++.vn-kare img.kaplama{animation:vnKareYaklas 12s cubic-bezier(.2,.6,.3,1) forwards;transform-origin:50% 55%}
++@keyframes vnKareYaklas{from{transform:scale(1)}to{transform:scale(1.05)}}
++.vn-figur img{transform-origin:50% 100%;animation:vnNefes 4.6s ease-in-out infinite;
++  transition:translate .35s ease}
++.vn-figur.sag img{animation-duration:5.2s;animation-delay:-1.7s}
++@keyframes vnNefes{0%,100%{scale:1 1}50%{scale:1.004 1.007}}
++.vn-figur.aktif img{translate:0 -4px}
++.vn-figur.pasif img{translate:0 2px}
++.vn-sahne::before{content:"";position:absolute;left:0;right:0;top:0;bottom:-600px;z-index:3;pointer-events:none;
++  background-image:
++    radial-gradient(circle at 30% 40%,rgba(255,222,160,.55) 0 1.4px,transparent 2.4px),
++    radial-gradient(circle at 70% 75%,rgba(255,214,150,.4) 0 2.2px,transparent 4px),
++    radial-gradient(circle at 15% 85%,rgba(255,230,180,.35) 0 1px,transparent 2px);
++  background-size:150px 200px,230px 300px,110px 150px;
++  mix-blend-mode:screen;opacity:.7;animation:vnToz 38s linear infinite}
++@keyframes vnToz{from{transform:translate3d(0,0,0)}to{transform:translate3d(0,-600px,0)}}
