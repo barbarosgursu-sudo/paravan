@@ -71,11 +71,11 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ Kural 21c: cam, şifre ve lacivert önlük Kenan'a da Ferruh'a da uyar. Ferruh ekranda görünür: şifreyi ve önlüğü kendisi söyler.
 
 *Karaköy. Susam Pastanesi: vitrinde simit tablaları, tezgâh, duvarlarda eski fotoğraflar. Kepenk yarı açık.* {mekan}
-*Göbekli, bıyıklı, papyonlu bir adam kapıda; lacivert önlüğünü düzeltiyor.* {gir: ferruh, gi: normal}
-**FERRUH [normal]:** Hoş geldiniz! Ben Ferruh, dükkânı ben yönetirim. Nadide Hanım dedektif tuttuğunu söyledi. {gir: ferruh}
-*Peri içeri adım atıyor ve duruyor. Tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.* {kare: K37}
-**PERİ [sasirmis]:** … {kare: K37}
-**FERRUH [normal]:** Bu afiş Nadide Hanım'ın gözbebeği. Yıllar önce bir defilede imzalatmış. Ama siz o değilsiniz tabii. {gir: ferruh, kime: peri}
+*Peri içeri adım atıyor ve duruyor. Tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.* {peri: sasirmis}
+**PERİ [sasirmis]:** …
+*Göbekli, bıyıklı, papyonlu bir adam tezgâhın arkasından çıkıyor; lacivert önlüğünü düzeltiyor.* {gir: ferruh, gi: normal}
+**FERRUH [normal]:** Hoş geldiniz! Ben Ferruh, dükkânı ben yönetirim. Nadide Hanım dedektif tuttuğunu söyledi. {gir: ferruh, kime: peri}
+**FERRUH [normal]:** Bu afiş Nadide Hanım'ın gözbebeği. Yıllar önce bir defilede imzalatmış. Ama siz o değilsiniz tabii. {kare: K37}
 **PERİ [kas]:** Değilim.
 **PERİ [kas]:** Ama ışık kötü. Fotoğrafçı sol profili çekmeliydi, hep söylerdim.
 **FERRUH [normal]:** Kime söylerdiniz efendim? {kime: peri}

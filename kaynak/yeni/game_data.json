@@ -1790,7 +1790,13 @@
               },
               {
                 "k": "not",
-                "m": "Göbekli, bıyıklı, papyonlu bir adam kapıda; lacivert önlüğünü düzeltiyor.",
+                "m": "Peri içeri adım atıyor ve duruyor. Tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.",
+                "peri": "sasirmis"
+              },
+              {"k": "peri", "i": "sasirmis", "m": "…"},
+              {
+                "k": "not",
+                "m": "Göbekli, bıyıklı, papyonlu bir adam tezgâhın arkasından çıkıyor; lacivert önlüğünü düzeltiyor.",
                 "gir": "ferruh",
                 "gi": "normal"
               },
@@ -1798,20 +1804,14 @@
                 "k": "ferruh",
                 "i": "normal",
                 "m": "Hoş geldiniz! Ben Ferruh, dükkânı ben yönetirim. Nadide Hanım dedektif tuttuğunu söyledi.",
-                "gir": "ferruh"
+                "gir": "ferruh",
+                "kime": "peri"
               },
-              {
-                "k": "not",
-                "m": "Peri içeri adım atıyor ve duruyor. Tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.",
-                "kare": "K37"
-              },
-              {"k": "peri", "i": "sasirmis", "m": "…", "kare": "K37"},
               {
                 "k": "ferruh",
                 "i": "normal",
                 "m": "Bu afiş Nadide Hanım'ın gözbebeği. Yıllar önce bir defilede imzalatmış. Ama siz o değilsiniz tabii.",
-                "gir": "ferruh",
-                "kime": "peri"
+                "kare": "K37"
               },
               {"k": "peri", "i": "kas", "m": "Değilim."},
               {"k": "peri", "i": "kas", "m": "Ama ışık kötü. Fotoğrafçı sol profili çekmeliydi, hep söylerdim."},
