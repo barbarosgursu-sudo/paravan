@@ -64,6 +64,11 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
   parmağıyla işaret ediyorsa konuşan o sanılır — Vaka 3, Gizem konuşurken Peri'nin işaret eden figürü).
    - **Gömmeden sonra:** bütün yollar `--hepsi` ile oynanır, araç yeniden çalışır; her bayrak ve her satırın ekranı
   metniyle okunur, sonuç sahibine tablo hâlinde verilir (satır · metin · uyuyor/uymuyor · neden).
+8. **Satır–resim sözleşmesi SR-A…K (sahibi, 8 Kasım 2026): `sablon/5_gorsel_sistemi.md` C0.** İstem yazmadan önce:
+   bayrakların hepsi kapalı (SR-E; "kısmen uyuyor" da sahibine); kıyafet hâli tablosu var ve karenin referansı o hâlden
+   (SR-B); kıyafet **kartı** referans verilir, kıyafet sözle tarif edilmez (SR-C, 5. parça I); ifade figürü nesnesiz,
+   nesneli poz ayrı anahtar, kare tek an (SR-D); bakışın yönü/hedefi ve ifadeyi kardeşlerinden ayıran şey yazılır
+   (SR-I, SR-J); karar karesi SONUÇ metninin asıl anı (SR-K).
 
 ## Komut: `vaka <N> resimlerini üret`  (asıl komut — döngü sahibine sormadan yürür)
 
@@ -104,7 +109,10 @@ boyutta görünmeyen ret sebeplerinin hepsi büyütünce çıktı. Büyütme: `m
 10. Sayım: "TAM n kişi" tutuyor; aynı karakter iki kez yok.
 11. Mantık: ışık ve saat istemdeki gibi; kapalı dükkânda ateş yanmaz.
 12. **Satırlar:** istemin `## Satırlar` bölümündeki (yoksa `arac_satir_resim.js` çıktısındaki) HER satıra uyuyor mu —
-    yüz, el, jest; dinleyen figür konuşan gibi görünmüyor mu.
+    yüz, el, jest; dinleyen figür konuşan gibi görünmüyor mu. Elde nesne yalnız metnin getirdiği satırlarda mı (SR-D);
+    bakış satırın söylediği yere mi (SR-I).
+13. **Kıyafet kartı:** kıyafet onaylı karttaki gibi mi — boy, kesim, açık/kapalı hâli (SR-B, SR-C).
+14. **Kardeşler:** aynı kişinin onaylı ifadeleriyle yan yana; yüz ve poz onlardan açıkça ayrılıyor mu (SR-J).
 
 **B. Oyundaki hâli (figürler)** — `kaynak` içinde:
 `node arac_yanyana.js ../uretim/v<N>/uretilen/G<n>.png --kim <id> --profil <profil> --oran <H2 tablosu>`

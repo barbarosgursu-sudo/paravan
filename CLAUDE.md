@@ -23,6 +23,18 @@ okumada kim/neyi/neden söylediğini taşır, ama telefondaki kutuya (~110 harf)
 Aynı gün: **yüzleşmede suçlunun paniği somut bir sebebe bağlanır** (kanıt yalanı çürütür ya da sakladığı şey
 tehlikeye girer); zayıf bir sözle kaçış yok — `sablon/1_oyun_yapisi.md` → Yüzleşme sahneleri.
 
+**Satır–resim sözleşmesi (8 Kasım 2026, sahibinin kararı): `sablon/5_gorsel_sistemi.md` C0, SR-A…K.** Bir şey
+söylendiğinde ilgili kişi ekranda ya da söylenen şey resimde; resimde görünen de o an söylenmiş olmalı (sahnede olmayan
+ya da geçmişte kalan birinden söz serbest). Hitap edilen ekranda (konuk konuğa konuşursa ikisi de), süreklilik
+(kıyafet hâli, elde nesne; dinleyen dahil), kıyafet kartı (her kıyafet tek ölçü resmi, sözle tarif yok), nesne metnin
+getirdiği satırda başlar/bıraktığında biter, **araç bayrağı kapıdır** (istemden önce kapanır ya da sahibi "kalsın"
+der), ipucu taşıyan eylem görünür, sahne notu yalnız o an görüleni söyler, yüz satıra uyar, ifadeler birbirinden
+ayrılır, karar karesi SONUÇ'u gösterir. Amaç: bir vakanın resimleri **bir kez** üretilir; kurallar istem yazılırken
+yakalar (7. parça adım 3, 8 ve "Satır–resim uyumu").
+
+**Önce konuş, sonra yap (8 Kasım 2026, sahibinin isteği).** Yeni bir kural ya da istek geldiğinde önce anladığını ve
+sorularını söyle, ayrıntıda anlaşın; sahibi "yap/yaz" demeden belge, kod ya da veri değiştirilmez. Okumak serbest.
+
 **Hikâyeye yeni ayrıntı eklemek sahibinin işidir.** Metni kısaltmak, sızıntıyı
 kapatmak, hükmü kaldırmak, bulanık özneyi netleştirmek — bunlar onarımdır, yapılır.
 Ama karakter ya da dünya hakkında **oyunda henüz olmayan bir gerçek yazmak** (ör.

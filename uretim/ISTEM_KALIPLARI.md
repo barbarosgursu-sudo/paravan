@@ -109,11 +109,21 @@ Peri her resimde en seksi kadın; dekolte istenir. Filtreden geçen düzen (5 Ka
   müstehcen değil.` (eski G55, G56 bununla geçti).
 - Örnek: `v3/prompts/G2.md` → `v3/onayli/G2.png` (sahibinin "daha iyi" dediği hâl).
 
-## 10. `## Satırlar` bölümü (Vaka 4'ten itibaren her figür ve karede)
+## 10. `## Satırlar` bölümü (her vakada, her figür ve karede — 8 Kasım 2026)
 
 İstem dosyasında `## Kontrol`'den önce: `arac_satir_resim.js` çıktısındaki o resmin satırları (konuşan: metin; dinliyorsa
 işaretli). İstemin ifade ve poz satırları bu satırların HEPSİNE uyacak biçimde yazılır; jestler (parantezli sahne yönü)
 poza girer. Codex bu bölümü istem metnine KATMAZ (yalnız `## İstem` gider); yerel Claude yazarken ve denetlerken okur.
+
+Satır–resim sözleşmesi (`sablon/5_gorsel_sistemi.md` C0) istemde şöyle görünür:
+- **Kıyafet:** sözle tarif yok; "Kıyafet: N. referanstaki kıyafet kartıyla birebir aynı (boy, kesim, renk)" + o satırların
+  hâli ("trençkot AÇIK, kemer çözük"). (SR-B, SR-C)
+- **Nesne:** yalnız `## Satırlar`'ın HEPSİNDE metinde geçen nesne poza girer; birinde yoksa nesnesiz ifade + ayrı nesneli
+  anahtar. Başlıkta ifade ile nesne birleşmez ("korkmuş (telefonu gösteriyor)" yazılmaz). (SR-D)
+- **Bakış:** satır bir yere bakmayı söylüyorsa yönü ve hedefi: "gözleri aşağıda, kadrajın soluna, karşısındakinin
+  ellerine". (SR-I)
+- **Ayırt edici:** yeni ifadede "Bu ifadeyi <kardeş ifade>'den ayıran: …" satırı (yüz rengi, ağız, eller). (SR-J)
+- **Kare:** tek an; "aynı anda" iki ardışık eylem yazılmaz (uzatıyor + bölüyor). Karar karesi SONUÇ metninin anı. (SR-D, SR-K)
 
 ---
 

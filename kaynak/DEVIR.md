@@ -8,6 +8,41 @@
 
 ---
 
+## 00000000000000. ⬅️ 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi BEKLİYOR
+
+**Durum tek cümle:** sahibi Onay 3'te Vaka 3 ekranlarını tek tek gösterdi; kurallar birlikte bağlandı ve belgelere
+yazıldı (`sablon/5_gorsel_sistemi.md` C0 SR-A…K ve I. Kıyafet kartı; `2_kural_kitabi.md` 4a; `7_uretim_sureci.md`
+adım 3/8/11 ve "Satır–resim uyumu"; `uretim/CLAUDE.md` madde 8 ve denetim 12–14; `uretim/ISTEM_KALIPLARI.md` §10).
+Aşağıdaki işlerin **hiçbiri yapılmadı**; sahibine sırayla sor, "yap" demeden başlama.
+
+**Kod/araç:**
+1. Motor: konuk–konuk düzeni (SR-G) — `{kime: <konuk>}` konuk satırında → konuşan sola (aynalı), hitap edilen sağa.
+   Yalnız `yeni_arayuz.js`; eski `index.html` md5 aynı kalmalı.
+2. `arac_satir_resim.js`: HİTAP bayrağı (satırın `kime`si ekranda değil), konuk–konuk satırı, replikte adı geçen kişi (aday).
+
+**Vaka 3 metin (onaylı, `vaka3_diyalog.md` → `arac_diyalog.js`):** 42 `{gir: nadide}`; 216, 217, 240, 272, 273 ve
+yüzleşmelerdeki eşleri gerçek muhataba `kime` (motor işinden sonra); 218 "parayı sakladığı" silinir ("Sonra depoya
+doğru koşuyor."); 192 Rüstem: "elindeki hesap makinesini bırakıp" → "hesap makinesi elinde ayağa kalkıyor";
+379'dan sonra yeni anlatı: *"Gizem simit tablasını masaya bırakıyor."*
+
+**Vaka 3 resim (onaylı):**
+- Kıyafet kartları tek sayfada (önce bunlar). Peri trençkotu **uzun, diz altı** (ölçü: un deposu karesi).
+- Peri trençkot **kapalı** ve **açık** setleri (7 ifade + pozlar). Hâl tablosu: büro 22–39 kapalı; büro 40–46 ve
+  konuşma sahnesi açık; A23 dükkân açık; A26 arka sokak kapalı; A27 Tophane kapalı; A25 imalathane açık; A28 Badem açık;
+  A29 toptancı açık; A23b akşam yüzleşmeleri açık.
+- Peri `onluklu.simit_elinde` (396) ve `onluklu.simit_isiriyor` (397).
+- Gizem: korkmuş telefonsuz (136, 137, 139), telefonu öne/aşağı bırakırken (249), öfkeli (272), Peri'yi baştan aşağı
+  süzerken (129), tek simit uzatıyor (392, tablasız).
+- Kenan: esniyor (154; koyu halka için mevcut gölge yeter), önlüksüz-önlük elinde-öfkeli (236–237).
+- `ferruh.bembeyaz` (240; `terli`/`alingan`dan ayrılmalı). Sedat tableti açık, ekrana bakıyor (ekran kameraya dönük
+  değil). Ayla bakışı aşağıda, Cengo'nun ellerinde.
+- Kareler: K40a (herkes Ferruh'a dönmüş, telefonsuz, 239), K40b (aynı an, telefon elden ele, 251); K46–K49 yeniden —
+  SONUÇ metninin anı, Cengo unlu (anlar istemden önce sahibine); Kenan hamur kesiyor (imalathane girişi); Peri masanın
+  altından çıkıyor (383, K53 açısı); Cengo Peri'nin kulağına fısıldıyor; Peri afişi yüzü duvara dönük koyuyor (387);
+  kısa trençkotlu bütün kareler (tur sonrası sayılacak).
+
+---
+
 ## 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 **Durum tek cümle:** Vaka 3'ün 68 resmi (G68 = `ferruh.alingan`, sonradan eklendi) eski tarzla ve "dünkü ayarlarla"

@@ -49,6 +49,35 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 
 ## C. Metin ile görselin eşleşmesi
 
+### C0. Satır–resim sözleşmesi (8 Kasım 2026, sahibinin kararı)
+
+Vaka 3'ün resimleri sahibinin Onay 3'ünde satır satır yeniden açıldı: konuşulan kişi ekranda yoktu, anılan şey
+resimde yoktu, resim metnin söylemediğini gösteriyordu. Hataların çoğu **resimden önce**, istem yazılırken yapılmıştı.
+Amaç: bir vakanın resimleri bir kez üretilsin, toplu düzeltme olmasın.
+
+**Temel ilke:** Bir şey söylendiğinde ilgili kişi ya da kişiler ekranda görünür, ya da söylenen şey resimde görünür.
+Tersi de geçerlidir: **resimde görünen şey o an söylenmiş olmalı.** Sahnede bulunmayan ya da geçmişte kalan birinden
+söz etmek serbesttir ("Kenan dün akşam neredeydi?" kare istemez).
+
+| | Kural | Vaka 3 örneği |
+|---|---|---|
+| **SR-A** | **Hitap.** Konuşanın karşısında sözü yönelttiği kişi durur. Replik iki kişiye gidiyorsa asıl işin yöneldiği kişi ekranda olur. `kime` her zaman gerçek muhatabı gösterir. | "Kısa bir mola. Gelelim işe: ücretimiz…" Nadide'ye, ekranda Cengo; "Ferruh… Doğru mu bu?" `kime: peri` yazılmış |
+| **SR-B** | **Süreklilik.** Sahne içinde kıyafet hâli (açık trençkot), çıkarılan şey (önlük) ve elde tutulan nesne (tabla, yarım simit) sürer; **dinleyen için de**. Bir nesne bırakılıyorsa bu metinde söylenir. Sahneler arası doğal geçiş serbest (dışarıda kapalı, içeride açık; satır gerekmez), ama her sahnenin **ve her karar/ara/kapanış karesinin** kıyafet hâli görsel listesinde önceden yazılır (**kıyafet hâli tablosu**); karenin referansı o hâlden seçilir. | trençkot açılınca figür kapalı; Kenan önlüğünü çıkarınca yine önlüklü; karar karelerinde unlu değil haki Cengo |
+| **SR-C** | **Kıyafet kartı.** Her kıyafet önce tek bir ölçü resmiyle onaylanır (I). Kıyafeti istemde sözle yeniden tarif etmek yasak; kart referans verilir. | istem "kısa trençkot" dedi, bir kare uzun çizdi; sahibi uzunu seçti, bütün set yenilendi |
+| **SR-D** | **Resim metne bağlı.** Nesne ya da hareket metnin onu **getirdiği** satırda başlar, **bıraktığı** satırda biter. Geçmiş zamanla anlatılan eylem ("çektim") şimdiki pozu haklı çıkarmaz. İfade figürü **nesnesiz** üretilir; nesneli/hareketli poz ayrı anahtardır ve yalnız o satırlara bağlanır. Bir kare **tek bir anı** gösterir; sonraki anı gösteren kare önceki satırda kullanılmaz. | `gizem.korkmus` telefonu metinden önce uzatıyor; Rüstem hesap makinesini "bırakıyor" ama hep elinde; K40 (kaçış) "herkes Ferruh'a dönüyor" satırında; bir karede iki simit |
+| **SR-E** | **Bayrak kapıdır.** `arac_satir_resim.js`'in her bayrağı (EYLEM, JEST, KONUŞAN, HİTAP) **istemler yazılmadan önce** kapanır: figür ya da kare bağlanır, ya da sahibi o bayrağı görüp "kalsın" der. "Kısmen uyuyor" da sahibine gider; yerel karar yok. | 15 bayrak "küçük jest farkı" diye bırakılmıştı; esneme ve iki simit bunların içindeydi |
+| **SR-F** | **İpucu taşıyan eylem her zaman görünür.** Bir çıkarım bir harekete ya da görünüşe dayanıyorsa o satırda ekranda olur. | "Kenan kocaman esniyor" → Peri: "Onda yatan biri öğlen böyle esnemez" |
+| **SR-G** | **Konuk konuğa konuşursa ikisi de ekranda.** Konuşan sola geçer (aynalı), hitap edilen sağda kalır (C-3 ekran düzeni). | Nadide ↔ Ferruh, Gizem ↔ Ferruh |
+| **SR-H** | **Anlatıcı da "nereden biliyoruz?" sınavından geçer.** Anlatı satırı yalnız o an görülebileni söyler (kural kitabı 4a). | "parayı sakladığı depoya doğru koşuyor" — para itirafta ortaya çıkıyor |
+| **SR-I** | **Yüz satıra uyar.** İfade satırın duygusuna göre seçilir, eldeki figürlere göre değil; uyan yüz yoksa yeni ifade üretilir (konuk figür listesi diyalogdan çıkar). Bakışın **yönü ve hedefi** ("süzerek", "ellerine bakıp") istemde yazılır. | "Beni de suçlayacaktın" keyifli `gizem.kas`'la; Ayla Cengo'nun ellerine bakmıyor |
+| **SR-J** | **Her ifade kardeşlerinden ayırt edilir.** İstemde onu ötekilerden neyin ayırdığı yazılır; denetimde aynı kişinin ifadeleri yan yana konur, benzeyen kabul edilmez. | `ferruh.terli` ≈ `ferruh.alingan` → "yüzü bembeyaz" karşılıksız |
+| **SR-K** | **Karar karesi SONUÇ metninin asıl anını gösterir** (bedeli yaşayan kişiler karede). Cengo satırı resimsiz kalabilir. | K47 Cengo satırını (Kenan'ın simidi) gösteriyordu; SONUÇ'taki Ferruh ve telefon yoktu |
+
+**Nerede yakalanır (7. parça):** diyalog yazılırken SR-A, H, I (`kime`, anlatı, ifade); görsel listesinde SR-B, C, D, K
+(kıyafet kartı, kıyafet hâli tablosu, ifade/nesne ayrımı); istem yazılırken SR-D, E, I, J (`## Satırlar` her vakada
+zorunlu, bayraklar kapalı); gömmeden sonra hepsi doğrulanır. Bu son adım artık hata aramak için değil, öncekilerin
+tuttuğunu görmek içindir.
+
 1. **Metin bir nesneyi, hareketi ya da kıyafeti anıyorsa o satırda ekranda görünür.** Üç yol:
    - figürün ifadesi o nesneyle ya da hareketle,
    - bir ara kare,
@@ -66,6 +95,7 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
    |---|---|
    | `{kime: peri}` Cengo satırında | konuk varken Cengo Peri'ye konuşuyor (yoksa sola geçer, konuğa bakar) |
    | `{kime: peri\|cengo}` konuk satırında | konuk kime konuşuyorsa solda o dursun |
+   | `{kime: <konuk>}` konuk satırında | konuk başka bir konuğa konuşuyor: konuşan sola geçer (aynalı), hitap edilen sağda (SR-G; 8 Kasım 2026 kararı, motor desteği `yeni_arayuz.js`'e eklenecek) |
    | `{gir: x, gi: ifade}` | konuk girerken ilk yüzü (anlatı satırında "öfkeli giriyor" gibi) |
    | `{gizle: cengo}` | figür sahneden ayrıldı (koşup gitti); konuşunca geri gelir |
    | `{peri: ifade}` / `{cengo: ifade}` | konuşmayan dinleyenin yüzü değişsin (önceki yüz kalmasın) |
@@ -332,6 +362,17 @@ gerekçe: `uretim/ISTEM_KALIPLARI.md` (6 Kasım 2026 düzeltmesi; eski satır ka
 
 ### H7. Dosya
 PNG, adı `G<n>.png`. Onaylı resim silinmez.
+
+## I. Kıyafet kartı (8 Kasım 2026, sahibinin kararı; SR-C)
+
+- Görsel listesinden sonra, **ilk figürden önce** vakadaki her kıyafet için tek bir **ölçü resmi** üretilir: boy, kesim,
+  renk, aksesuar; açılıp kapanan kıyafette iki hâl de (trençkot kapalı / açık). Peri, Cengo ve her konuğun kıyafeti.
+- Kartların hepsi **tek sayfada yan yana** sahibine gider, **birlikte** onaylanır.
+- Onaydan sonra o kıyafetin geçtiği her figür ve kare istemi kartı **referans** olarak alır. Kıyafet istemde sözle
+  yeniden tarif edilmez (sözlü tarif üreticiye her seferinde farklı okunur); yalnız "kart nasılsa öyle" ve o satırın hâli
+  (açık/kapalı, lekeli) yazılır.
+- Kart değişirse o kıyafetin bütün figürleri listelenir ve sahibine sorulur.
+- Vaka 3 kaydı: Peri'nin trençkotu **uzun, diz altına iner** (sahibinin seçtiği ölçü: un deposu karesi, 8 Kasım 2026).
 
 ---
 

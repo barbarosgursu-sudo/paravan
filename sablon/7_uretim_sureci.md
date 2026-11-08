@@ -8,15 +8,15 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 |---|---|---|---|
 | 1 | **Form** doldurulur (6. parça) | ben | formun kontrol listesi tamam |
 | 2 | **Onay 1:** form | sahibi | "onay" |
-| 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu) | ben | otomatik denetimden geçer |
+| 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu). Satır–resim sözleşmesi (5. parça C0): her satırın gerçek muhatabı `kime`/`gir` ile (SR-A, konuk–konuk SR-G); ifade satırın duygusundan seçilir, eldeki yüzlerden değil (SR-I); sahne notu yalnız o an görüleni söyler (SR-H) | ben | otomatik denetimden geçer |
 | 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
 | 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** ve **sızıntı taraması** (aşağıda) | ben | hata yok; iki tarama bitti, düzeltmeler veride |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
-| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası) | ben | — |
+| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve her karar/ara/kapanış karesi için kıyafet hâli, SR-B), **ifade/nesne ayrımı** (SR-D), `arac_satir_resim.js` bayraklarının **hepsi kapalı** (SR-E). İlk figürden önce **kıyafet kartları** tek sayfada sahibine (5. parça I, SR-C) | ben | bayrak kalmadı; kıyafet kartları onaylı |
 | 9 | **Görseller** üretilir; **toplu gönderilir** (aşağıda) | sahibi | — |
 | 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi); **toplu işlenir** | ben | her görsel gömülü |
-| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi | ben | hata yok |
+| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi; satır–resim sözleşmesinin (SR-A…K) hepsi | ben | hata yok |
 | 12 | **Onay 3 — görselli test:** sahibi oynar. **Yalnız görsellere** bakılır: metinle uyum, ifade, çekicilik | sahibi | notlar tek listede |
 | 13 | **Görsel düzeltmeleri** | ben + sahibi | — |
 | 14 | **Vaka donar.** Donmadan önce **sızıntı taraması** bir kez daha (aşağıda). Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | tarama temiz |
@@ -43,7 +43,8 @@ Vaka 2'de metin tarafı 2 sa 52 dk sürdü; bunun 1 sa 56 dk'sı Onay 2'ydi ve 2
 gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) ve her satıra sorarım:
 - **Kime?** Konuşanın kime konuştuğu belli mi; cevap doğru kişiden mi geliyor?
 - **Neyi?** "O", "bu", "orası" neyi gösteriyor; oyuncu bunu bu satıra kadar duydu mu?
-- **Nereden biliyor?** Karakter bu bilgiyi ya da bu kişiyi nereden tanıyor; ekranda görüldü mü?
+- **Nereden biliyor?** Karakter bu bilgiyi ya da bu kişiyi nereden tanıyor; ekranda görüldü mü? **Sahne notuna da
+  sorulur** (8 Kasım 2026, kural kitabı 4a): not yalnız o an görüleni söyler, sonra ortaya çıkacak gerçeği değil.
 - **Espri tutuyor mu?** Espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
 - **Sıra:** cevap sorudan, tepki olaydan sonra mı; iki iş tek replikte karışmış mı?
 - **Saat "kala" ile mi söyleniyor?** (18 Ekim 2026, sahibinin kararı; kural kitabı 5b) "Sekiz buçuğa çeyrek kala",
@@ -82,6 +83,11 @@ Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılı
   konur. Bir yüz hepsine uymuyorsa (ör. güler yüz + suçlanma satırı) AYRI ifade istenir. EYLEM bayraklı anlatı satırı
   (yiyor, uzatıyor, kesiyor…) kare ister ya da diyalogda o satıra uygun kare/figür bağlanır. JEST bayraklı replik
   ("(papyonunu düzelterek)") konuşanın figürünün pozuna yazılır.
+  **8 Kasım 2026 (sahibinin kararı, 5. parça C0):** `## Satırlar` **bütün vakalarda** zorunlu. İstem yazılmadan önce
+  her bayrak kapanır (SR-E): figür/kare bağlanır ya da sahibi "kalsın" der; "kısmen uyuyor" da sahibine gider. Her satır
+  şu soruyla okunur: *bu pozdaki her nesne ve hareket BU satırda metinde var mı; metindeki her kişi ve şey ekranda mı?*
+  Bir satır uymazsa istem bölünür (SR-D). İstemde bakışın yönü ve hedefi (SR-I) ve ifadeyi kardeşlerinden ayıran şey
+  (SR-J) yazılır; kıyafet sözle değil kıyafet kartıyla verilir (SR-C).
 - **Denetimde:** resim istemle birlikte o satırlarla da okunur: yüz, el, jest, konuşanın kim olduğu (dinleyen
   parmağıyla işaret ediyorsa konuşan o sanılır — Vaka 3, Gizem konuşurken Peri'nin işaret eden figürü).
 - **Gömmeden sonra:** bütün yollar `--hepsi` ile oynanır, araç yeniden çalışır; her bayrak ve her satırın ekranı
