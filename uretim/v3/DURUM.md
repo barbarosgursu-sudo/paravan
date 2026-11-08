@@ -1,11 +1,11 @@
 # Vaka 3 — durum
 
-**Aşama (8 Kasım 2026 gece, Onay 3 sürüyor): 2 resim bekliyor.** Sahibi K45'te buldu: Gizem susamı 5. satırdan önce
-yiyordu, Peri'nin bir ayakkabısı elindeydi, "önlüğü bağlıyor" satırı resimde yoktu.
-- **G58 (K45) yeniden:** yalnız uzatma anı (ilk 4 satır). Eski resim `eski_onay3/G58_2.png`.
-- **G96 (K45b) yeni:** Peri önlüğü bağlıyor, Gizem susam yiyor (5. satır). Referansı yeni G58 → G58 onaylanınca başlar.
-- Gömdükten sonra: diyalogda 5. satır `kare: K45b`, yeni kare için üç yer (`kaynak/yeni/OKUBENI.md`), görselli tur.
-- Komut: `cd uretim && ./dongu.sh 3`.
+**Aşama (8 Kasım 2026 gece, Onay 3): G58 ve G96 ONAYLI, gömülmeyi bekliyor.** Sahibi K45'te Gizem'in susamı 5. satırdan
+önce yediğini, Peri'nin elinde ayakkabı olduğunu, "önlüğü bağlıyor" satırının resimde olmadığını bulmuştu.
+- **G58 (K45):** yalnız uzatma anı, onaylı (eski `eski_onay3/G58_2.png`).
+- **G96 (K45b):** Peri önlüğü bağlıyor, Gizem tek susam yiyor; onaylı.
+- Sıradaki (göm): diyalogda 5. satır `kare: K45b` (`vaka3_diyalog.md:278`), kare tablosunda K45 tanımı "yalnız uzatıyor"
+  + K45b satırı, yeni kare için üç yer (`kaynak/yeni/OKUBENI.md`), `arac_paket.js --yaz`, görselli tur.
 
 **Aşama (8 Kasım 2026 gece): ONAY 3 DÜZELTMELERİ BİTTİ.** Listedeki her resim `onayli/`'de ve oyunda (G29 İPTAL).
 Sonradan eklenen: G93 (K40k), G94 (`gizem.tabla`), G95 (A23d, dükkânın dış cephesi). Kıyafet kartları G101–G111.
