@@ -377,7 +377,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [sasirmis]:** Ev sahibi!
 *Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.* {kare: K53, gizle: peri, gir: gizem, gi: normal}
 **GİZEM [normal]:** Susam'dan istifa ettim. Beni suçlayan bir dükkânda bir gün daha çalışmam. {gir: gizem, kime: cengo, kare: K53}
-*Gizem simit tablasını masaya bırakıyor.*
+*Gizem simit tablasını masaya bırakıyor.* {gir: gizem, gi: tabla}
 **GİZEM [isveli]:** Size bir çaycı lazım. Burada çay ocağı var mı?
 **CENGO [gulen]:** Ocak var. Çay yok, para hiç yok.
 **GİZEM [isveli]:** Çayı ben getiririm. Büroya da ben bakarım. {kime: cengo}

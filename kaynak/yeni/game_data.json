@@ -82,7 +82,10 @@
         "nadide": {"ad": "Nadide Hanım", "ifadeler": ["normal", "kirgin"]},
         "ferruh": {"ad": "Ferruh", "ifadeler": ["normal", "terli", "itiraf", "alingan", "bembeyaz"]},
         "kenan": {"ad": "Kenan", "ifadeler": ["normal", "kizgin", "esniyor", "onluksuz"]},
-        "gizem": {"ad": "Gizem", "ifadeler": ["normal", "isveli", "kas", "korkmus", "telefon", "ofkeli", "suzuyor", "simit"]},
+        "gizem": {
+          "ad": "Gizem",
+          "ifadeler": ["normal", "isveli", "kas", "korkmus", "telefon", "ofkeli", "suzuyor", "simit", "tabla"]
+        },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
         "ayla": {"ad": "Ayla Hanım", "ifadeler": ["normal", "bakiyor"]},
         "rustem": {"ad": "Rüstem Bey", "ifadeler": ["normal"]}
@@ -2761,7 +2764,7 @@
               "kime": "cengo",
               "kare": "K53"
             },
-            {"k": "not", "m": "Gizem simit tablasını masaya bırakıyor."},
+            {"k": "not", "m": "Gizem simit tablasını masaya bırakıyor.", "gir": "gizem", "gi": "tabla"},
             {"k": "gizem", "i": "isveli", "m": "Size bir çaycı lazım. Burada çay ocağı var mı?"},
             {"k": "cengo", "i": "gulen", "m": "Ocak var. Çay yok, para hiç yok."},
             {"k": "gizem", "i": "isveli", "m": "Çayı ben getiririm. Büroya da ben bakarım.", "kime": "cengo"},
