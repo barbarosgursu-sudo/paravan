@@ -197,6 +197,7 @@
         "K44",
         "K45",
         "K45b",
+        "K45c",
         "K46",
         "K47",
         "K48",
@@ -2723,7 +2724,7 @@
             },
             {"k": "gizem", "i": "ofkeli", "m": "Beni de suçlayacaktın.", "gir": "gizem", "kime": "ferruh"},
             {"k": "ferruh", "i": "itiraf", "m": "Biri suçlanmalıydı.", "gir": "ferruh", "kime": "gizem"},
-            {"k": "not", "m": "Gizem kolundaki pembe tezgâh önlüğünü Peri'ye uzatıyor.", "kare": "K45"},
+            {"k": "not", "m": "Gizem kolundaki pembe tezgâh önlüğünü Peri'ye uzatıyor.", "arka": "A25", "kare": "K45"},
             {
               "k": "gizem",
               "i": "isveli",
@@ -2744,7 +2745,12 @@
               "set": "onluklu",
               "peri": "kas"
             },
-            {"k": "gizem", "i": "isveli", "m": "Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz."}
+            {
+              "k": "gizem",
+              "i": "isveli",
+              "m": "Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz.",
+              "kare": "K45c"
+            }
           ]
         },
         "kapanis": {

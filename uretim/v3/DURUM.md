@@ -4,7 +4,10 @@
 Peri'nin elinde ayakkabı olduğunu, "önlüğü bağlıyor" satırının resimde olmadığını bulmuştu.
 - **G58 (K45):** yalnız uzatma anı (ilk 4 satır); eski `eski_onay3/G58_2.png`. **G96 (K45b, yeni):** Peri önlüğü bağlıyor,
   Gizem tek susam yiyor (5. satır). İkisi onaylı ve gömülü; K45b kanon kareler + diyalog tablosunda, 5. satır `kare: K45b`.
-- Doğrulayıcı (eski + yeni) PASS, iki derleme, 26 test geçti, eski index.html aynı; `kod dogru --hepsi` turunda 123–127 bakıldı.
+- **G97 (K45c, yeni; sahibi):** 6. satır ("Susamın kavrulmamış…") un deposu önünde figürlerle gösteriliyordu (yer atlaması,
+  soluk önlüklü Peri). Artık imalathanede kare; önlük bölümü `arka: A25` (etiket "Susam · imalathane"). 122→123 geçişi
+  (un deposu → imalathane) sahibinin kararıyla olduğu gibi kaldı.
+- Doğrulayıcı (eski + yeni) PASS, iki derleme, 26 test geçti, eski index.html aynı; `kod dogru --hepsi` turunda 122–129 bakıldı.
 
 **Aşama (8 Kasım 2026 gece): ONAY 3 DÜZELTMELERİ BİTTİ.** Listedeki her resim `onayli/`'de ve oyunda (G29 İPTAL).
 Sonradan eklenen: G93 (K40k), G94 (`gizem.tabla`), G95 (A23d, dükkânın dış cephesi). Kıyafet kartları G101–G111.

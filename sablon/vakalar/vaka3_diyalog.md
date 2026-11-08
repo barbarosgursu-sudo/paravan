@@ -271,12 +271,12 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **FERRUH:** Sigortadan yedi yüz yirmi bin alacaktım. Borçları kapatıp Nadide Hanım'a "kurtardım" diyecektim.
 **GİZEM [ofkeli]:** Beni de suçlayacaktın. {gir: gizem, kime: ferruh}
 **FERRUH [itiraf]:** Biri suçlanmalıydı. {gir: ferruh, kime: gizem}
-*Gizem kolundaki pembe tezgâh önlüğünü Peri'ye uzatıyor.* {kare: K45}
+*Gizem kolundaki pembe tezgâh önlüğünü Peri'ye uzatıyor.* {arka: A25, kare: K45}
 **GİZEM [isveli]:** Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın. {kare: K45}
 **PERİ [sinirli]:** Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem. {kare: K45}
 **GİZEM [isveli]:** Ya pembe önlük ya susam, tatlım. Seç. {kare: K45}
 *Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.* {kare: K45b, set: onluklu, peri: kas}
-**GİZEM [isveli]:** Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz.
+**GİZEM [isveli]:** Susamın kavrulmamış tatlım. Fırına girmeden simit olmaz. {kare: K45c}
 
 ---
 
@@ -428,6 +428,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve promptlar adım 8'de (`vaka3
 | K44 | Ferruh yırtık çuvalın üstünde, para desteleri saçılmış; unlu Cengo yetişiyor | kovalamaca 4 |
 | K45 | Gizem Peri'ye pembe önlüğü uzatıyor | kovalamaca sonu |
 | K45b | Peri pembe önlüğü bağlıyor; Gizem Peri'nin omzundan bir susam alıp yiyor | kovalamaca sonu |
+| K45c | Gizem "Susamın kavrulmamış" diye takılıyor; önlüklü Peri ters bakıyor | kovalamaca sonu |
 | K46–K49 | dört kararın ara karesi | kararlar |
 | K50 | Akşam büro: Gizem pencerenin önünde çayla; Peri pembe önlüklü masada; Cengo'nun sandalyesi boş | kapanış (bağ düşük) |
 | K51 | Cengo simidi ikiye bölüp büyük yarısını Peri'ye veriyor; Gizem kollarını kavuşturmuş bakıyor | kapanış (bağ yüksek) |

@@ -273,7 +273,8 @@
     "gizem.tabla": "figur_gizem_tabla.webp",
     "K57": "ara_k57.webp",
     "A23d": "arka_a23d.webp",
-    "K45b": "ara_k45b.webp"
+    "K45b": "ara_k45b.webp",
+    "K45c": "ara_k45c.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [

@@ -33,7 +33,8 @@ web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
 - **K45 (önlük sahnesi, 5 satır tek kare):** Gizem susamı 5. satırdan önce yiyordu, Peri'nin bir ayakkabısı elindeydi,
   "önlüğü bağlıyor" resimde yoktu (sahibi). Metin: "Gizem **kolundaki** pembe tezgâh önlüğünü…" (K43'te önlük kolunda; eski
   "çıkarıp" üstündeymiş gibi okunuyordu). **YAPILDI (8 Kasım gece):** G58 (K45) yalnız uzatma
-  anı, yeni G96 (K45b) bağlama + susam; ikisi gömülü, 5. satır `kare: K45b`. Ayrıntı `uretim/v3/DURUM.md`.
+  anı, yeni G96 (K45b) bağlama + susam; ikisi gömülü, 5. satır `kare: K45b`. Ardından G97 (K45c): 6. satır
+  imalathanede kare, önlük bölümü `arka: A25`; 122→123 yer geçişi sahibinin kararıyla kaldı. Ayrıntı `uretim/v3/DURUM.md`.
 - Sahibi Onay 3'ü telefonda sahne sahne sürdürüyor; bulduğu her şey bu kurallarla çözülür (önce konuş, sonra yap).
 
 ---

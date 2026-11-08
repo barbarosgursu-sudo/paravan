@@ -169,3 +169,4 @@ Baş kırpıkları temel onaylanınca hazırlanır: `peri_trenckot2_bas` (G1), `
 | G94 | figür | Gizem, simit tablasını masaya bırakıyor | `gizem.tabla` | — |
 | G95 | arka plan | Susam'ın merkezi, dışarıdan: kapı önü (gündüz) | `A23d` | G10 |
 | G96 | ara kare | Kovalamaca sonu: Peri pembe önlüğü bağlıyor, Gizem omzundan susam yiyor | `K45b` | G58 (yeniden), G103 |
+| G97 | ara kare | Kovalamaca sonu: Gizem "Susamın kavrulmamış" diye takılıyor, önlüklü Peri ters bakıyor | `K45c` | G96, G103 |
