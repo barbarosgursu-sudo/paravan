@@ -52,7 +52,8 @@
             "ortulu": ["normal", "kas", "sasirmis", "utanmis"],
             "trenckot": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"],
             "simit": ["sinirli", "utanmis"],
-            "onluklu": ["normal", "kas", "sasirmis", "utanmis", "sinirli"]
+            "onluklu": ["normal", "kas", "sasirmis", "utanmis", "sinirli", "simit_elinde", "simit_isiriyor"],
+            "trenckot_acik": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"]
           }
         },
         "cengo": {
@@ -79,11 +80,11 @@
         "sarkis": {"ad": "Sarkis Usta", "ifadeler": ["normal"]},
         "saadet": {"ad": "Saadet Hanım", "ifadeler": ["normal"]},
         "nadide": {"ad": "Nadide Hanım", "ifadeler": ["normal", "kirgin"]},
-        "ferruh": {"ad": "Ferruh", "ifadeler": ["normal", "terli", "itiraf", "alingan"]},
-        "kenan": {"ad": "Kenan", "ifadeler": ["normal", "kizgin"]},
-        "gizem": {"ad": "Gizem", "ifadeler": ["normal", "isveli", "kas", "korkmus"]},
-        "sedat": {"ad": "Sedat", "ifadeler": ["normal"]},
-        "ayla": {"ad": "Ayla Hanım", "ifadeler": ["normal"]},
+        "ferruh": {"ad": "Ferruh", "ifadeler": ["normal", "terli", "itiraf", "alingan", "bembeyaz"]},
+        "kenan": {"ad": "Kenan", "ifadeler": ["normal", "kizgin", "esniyor", "onluksuz"]},
+        "gizem": {"ad": "Gizem", "ifadeler": ["normal", "isveli", "kas", "korkmus", "telefon", "ofkeli", "suzuyor", "simit"]},
+        "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
+        "ayla": {"ad": "Ayla Hanım", "ifadeler": ["normal", "bakiyor"]},
         "rustem": {"ad": "Rüstem Bey", "ifadeler": ["normal"]}
       },
       "sesler": {
@@ -198,7 +199,12 @@
         "K50",
         "K51",
         "K52",
-        "K53"
+        "K53",
+        "K40a",
+        "K40b",
+        "K54",
+        "K55",
+        "K56"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -1768,7 +1774,7 @@
           "meta": "Cam içeriden kırılmış. Kasa şifreyle açılmış; şifreyi Kenan'la Ferruh bilir. Kameranın fişi 22.46'da çekilmiş; son karede lacivert bir önlük kolu.",
           "sahne": {
             "arka": "A23",
-            "set": "trenckot",
+            "set": "trenckot_acik",
             "cset": "haki",
             "figurler": ["peri", "cengo"],
             "satirlar": [
@@ -1811,7 +1817,8 @@
                 "k": "cengo",
                 "i": "gulen",
                 "m": "(Peri'nin kulağına) Gizli görev yine bitti. Bu sefer kendin bitirdin.",
-                "kime": "peri"
+                "kime": "peri",
+                "kare": "K56"
               },
               {
                 "k": "not",
@@ -1910,6 +1917,7 @@
               {"k": "cengo", "i": "gulen", "m": "Telim hâlâ cebimde. Kayıtta ne var?"},
               {
                 "k": "sedat",
+                "i": "tablet",
                 "m": "Bakayım. (tableti açıp) Pazar gece on kırk dörtte alarm kapatılmış. Dükkânın ortak koduyla.",
                 "kime": "cengo"
               },
@@ -1920,11 +1928,17 @@
               {"k": "peri", "i": "merakli", "m": "Ortak kodu kim bilir?"},
               {
                 "k": "sedat",
+                "i": "normal",
                 "m": "Tezgâhtaki kız, Gizem. Bir de Ferruh Bey. Kenan'ın kendi kodu var; o gece kullanılmamış.",
                 "kime": "peri"
               },
               {"k": "cengo", "i": "kas", "m": "Cam kırılınca alarm ötmedi mi?"},
-              {"k": "sedat", "m": "Sensör hiç ötmemiş. Cam kırılırken alarm kapalıymış.", "kime": "cengo"},
+              {
+                "k": "sedat",
+                "i": "tablet",
+                "m": "Sensör hiç ötmemiş. Cam kırılırken alarm kapalıymış.",
+                "kime": "cengo"
+              },
               {
                 "k": "cengo",
                 "i": "kas",
@@ -1933,7 +1947,7 @@
               },
               {"k": "peri", "i": "kas", "m": "Ortak kodu Gizem biliyor."},
               {"k": "cengo", "i": "normal", "m": "Ferruh da biliyor."},
-              {"k": "sedat", "m": "Abi, bunları ben söylemedim, tamam mı?", "cik": true}
+              {"k": "sedat", "i": "normal", "m": "Abi, bunları ben söylemedim, tamam mı?", "cik": true}
             ]
           }
         },
@@ -1974,7 +1988,12 @@
                 "kime": "cengo"
               },
               {"k": "cengo", "i": "gulen", "m": "Simit için gelmedim. Pazar geceyi soracağız."},
-              {"k": "gizem", "i": "kas", "m": "(Peri'yi baştan aşağı süzerek) Sen dükkândaki afişsin.", "kime": "peri"},
+              {
+                "k": "gizem",
+                "i": "suzuyor",
+                "m": "(Peri'yi baştan aşağı süzerek) Sen dükkândaki afişsin.",
+                "kime": "peri"
+              },
               {"k": "peri", "i": "kas", "m": "Değilim."},
               {"k": "gizem", "i": "isveli", "m": "Tabii, tatlım."},
               {"k": "gizem", "i": "isveli", "m": "Sana anlatırım, Cengo. Afiş hanıma değil.", "kime": "cengo"},
@@ -2036,13 +2055,14 @@
           "meta": "Kenan pazar gecesi için yalan söylüyor. Maaşlar iki aydır geç; dükkân batıyor. Dolabında Kadıköy'deki Badem Pastanesi'nin önlüğü var.",
           "sahne": {
             "arka": "A25",
-            "set": "trenckot",
+            "set": "trenckot_acik",
             "cset": "haki",
             "figurler": ["peri", "cengo"],
             "satirlar": [
               {
                 "k": "not",
                 "m": "Susam'ın imalathanesi. Taş fırın, simit tezgâhı, büyük bir pekmez kazanı. Uzun boylu, sakallı bir adam lacivert önlüğüyle hamur kesiyor.",
+                "kare": "K54",
                 "gir": "kenan",
                 "gi": "normal"
               },
@@ -2050,12 +2070,18 @@
               {"k": "kenan", "i": "normal", "m": "Evdeydim. Erken yattım; sabah fırını ben açıyorum.", "gir": "kenan"},
               {"k": "peri", "i": "merakli", "m": "Kaçta yattınız?"},
               {"k": "kenan", "i": "normal", "m": "Onda. En geç on."},
-              {"k": "not", "m": "Kenan kocaman esniyor. Gözlerinin altında koyu halkalar var."},
+              {
+                "k": "not",
+                "m": "Kenan kocaman esniyor. Gözlerinin altında koyu halkalar var.",
+                "gir": "kenan",
+                "gi": "esniyor"
+              },
               {
                 "k": "peri",
                 "i": "kas",
                 "m": "Onda yatan biri öğlen böyle esnemez, Kenan Bey. Siz o gece hiç uyumamışsınız.",
-                "gir": "kenan"
+                "gir": "kenan",
+                "gi": "normal"
               },
               {"k": "kenan", "i": "kizgin", "m": "Uykumu da mı size soracağım?", "kime": "peri"},
               {"k": "cengo", "i": "kas", "m": "Soygunu sabah ilk sen görmüşsün. Altı buçukta."},
@@ -2098,7 +2124,7 @@
           "meta": "Kenan pazar gece ondan ikiye kadar Badem'de deneme vardiyasındaymış. Ferruh geçen ay Susam'ın merkezini Badem'e satmaya çalışmış.",
           "sahne": {
             "arka": "A28",
-            "set": "trenckot",
+            "set": "trenckot_acik",
             "cset": "haki",
             "figurler": ["peri", "cengo"],
             "satirlar": [
@@ -2110,7 +2136,7 @@
               {"k": "cengo", "i": "normal", "m": "İş arıyorum. Hamurdan anlarım.", "gir": "ayla"},
               {
                 "k": "ayla",
-                "i": "normal",
+                "i": "bakiyor",
                 "m": "(Cengo'nun ellerine bakıp) Bu eller hamur görmemiş. Sen iş aramıyorsun.",
                 "gir": "ayla",
                 "kime": "cengo"
@@ -2118,6 +2144,7 @@
               {"k": "peri", "i": "normal", "m": "Haklısınız. Susam'ın müdürü Kenan'ı soracaktık."},
               {
                 "k": "ayla",
+                "i": "normal",
                 "m": "Kenan pazar gece buradaydı, ondan sabah ikiye kadar. Onu deneme vardiyasına çağırmıştım.",
                 "kime": "peri"
               },
@@ -2146,7 +2173,7 @@
           "meta": "Cumartesi sabah Susam'dan biri un borcunu elden ödemiş: 240.000 ₺, cuma hasılatı kadar. Getireni Rüstem görmemiş. Ferruh çok sıkışıkmış.",
           "sahne": {
             "arka": "A29",
-            "set": "trenckot",
+            "set": "trenckot_acik",
             "cset": "haki",
             "figurler": ["peri", "cengo"],
             "satirlar": [
@@ -2420,7 +2447,8 @@
             {
               "k": "not",
               "m": "Büro sıcak. Peri trençkotun kemerini çözüp bacak bacak üstüne atıyor; altında dar siyah bir elbise. Nadide Hanım hayranlıkla bakıyor.",
-              "kare": "K36"
+              "kare": "K36",
+              "set": "trenckot_acik"
             },
             {"k": "cengo", "i": "gulen", "m": "Trençkotu açtın. Gizli görev bitti mi?", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Kısa bir mola. Gelelim işe: ücretimiz kırk bin lira.", "gir": "nadide"},
@@ -2437,7 +2465,7 @@
         },
         "konusma": {
           "arka": "A6",
-          "set": "trenckot",
+          "set": "trenckot_acik",
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -2476,7 +2504,7 @@
         },
         "yuzlesme_dogru": {
           "arka": "A23b",
-          "set": "trenckot",
+          "set": "trenckot_acik",
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -2510,7 +2538,7 @@
         },
         "yuzlesme_zayif": {
           "arka": "A23b",
-          "set": "trenckot",
+          "set": "trenckot_acik",
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -2536,7 +2564,7 @@
             },
             {
               "k": "ferruh",
-              "i": "terli",
+              "i": "bembeyaz",
               "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
               "gir": "ferruh",
               "kime": "nadide"
@@ -2546,7 +2574,7 @@
         },
         "yuzlesme_kenan": {
           "arka": "A23b",
-          "set": "trenckot",
+          "set": "trenckot_acik",
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -2558,13 +2586,13 @@
             {"k": "peri", "i": "kas", "m": "Kenan Bey. Dükkânı siz soydunuz.", "gir": "kenan"},
             {
               "k": "kenan",
-              "i": "kizgin",
+              "i": "onluksuz",
               "m": "(önlüğünü çıkarıp) Pazar gece Kadıköy'deydim. İş denemesindeydim.",
               "gir": "kenan"
             },
             {
               "k": "kenan",
-              "i": "kizgin",
+              "i": "onluksuz",
               "m": "Gitmek istiyordum, çünkü bu dükkân batıyor. Ferruh Bey size söylemedi mi?"
             },
             {
@@ -2574,10 +2602,10 @@
               "gir": "nadide",
               "kime": "ferruh"
             },
-            {"k": "not", "m": "Herkes Ferruh'a dönüyor.", "gir": "ferruh", "gi": "terli", "kare": "K40"},
+            {"k": "not", "m": "Herkes Ferruh'a dönüyor.", "gir": "ferruh", "gi": "bembeyaz", "kare": "K40a"},
             {
               "k": "ferruh",
-              "i": "terli",
+              "i": "bembeyaz",
               "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
               "gir": "ferruh",
               "kime": "nadide"
@@ -2587,7 +2615,7 @@
         },
         "yuzlesme_gizem": {
           "arka": "A23b",
-          "set": "trenckot",
+          "set": "trenckot_acik",
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -2598,7 +2626,7 @@
             },
             {"k": "peri", "i": "kas", "m": "Gizem. Dükkânı sen soydun.", "gir": "gizem"},
             {"k": "gizem", "i": "kas", "m": "Oradaydım, evet. Simit için.", "gir": "gizem"},
-            {"k": "gizem", "i": "korkmus", "m": "Ama içeride biri vardı. Bak. (telefonu tezgâha bırakıyor)"},
+            {"k": "gizem", "i": "telefon", "m": "Ama içeride biri vardı. Bak. (telefonu tezgâha bırakıyor)"},
             {
               "k": "nadide",
               "i": "kirgin",
@@ -2610,12 +2638,12 @@
               "k": "not",
               "m": "Fotoğraf elden ele geçiyor. Herkes Ferruh'a dönüyor.",
               "gir": "ferruh",
-              "gi": "terli",
-              "kare": "K40"
+              "gi": "bembeyaz",
+              "kare": "K40b"
             },
             {
               "k": "ferruh",
-              "i": "terli",
+              "i": "bembeyaz",
               "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
               "gir": "ferruh",
               "kime": "nadide"
@@ -2625,7 +2653,7 @@
         },
         "kovalamaca": {
           "arka": "A25",
-          "set": "trenckot",
+          "set": "trenckot_acik",
           "cset": "haki",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -2678,7 +2706,7 @@
               "k": "ferruh",
               "m": "Sigortadan yedi yüz yirmi bin alacaktım. Borçları kapatıp Nadide Hanım'a \"kurtardım\" diyecektim."
             },
-            {"k": "gizem", "i": "kas", "m": "Beni de suçlayacaktın.", "gir": "gizem", "kime": "ferruh"},
+            {"k": "gizem", "i": "ofkeli", "m": "Beni de suçlayacaktın.", "gir": "gizem", "kime": "ferruh"},
             {"k": "ferruh", "i": "itiraf", "m": "Biri suçlanmalıydı.", "gir": "ferruh", "kime": "gizem"},
             {"k": "not", "m": "Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.", "kare": "K45"},
             {
@@ -2736,7 +2764,7 @@
             {"k": "gizem", "i": "isveli", "m": "Size bir çaycı lazım. Burada çay ocağı var mı?"},
             {"k": "cengo", "i": "gulen", "m": "Ocak var. Çay yok, para hiç yok."},
             {"k": "gizem", "i": "isveli", "m": "Çayı ben getiririm. Büroya da ben bakarım.", "kime": "cengo"},
-            {"k": "peri", "i": "kas", "m": "(masanın altından çıkarak) Maaş veremeyiz.", "gir": "peri"},
+            {"k": "peri", "i": "kas", "m": "(masanın altından çıkarak) Maaş veremeyiz.", "gir": "peri", "kare": "K55"},
             {"k": "gizem", "i": "isveli", "m": "Biliyorum. Cengo'ya da vermiyormuşsunuz.", "kime": "peri"},
             {"k": "not", "m": "Gizem çantasından çerçeveli afişi çıkarıp Peri'ye uzatıyor.", "kare": "K52"},
             {"k": "gizem", "i": "normal", "m": "Nadide Hanım gönderdi. \"Asıl sahibine götür\" dedi.", "kare": "K52"},
@@ -2755,7 +2783,7 @@
             },
             {
               "k": "gizem",
-              "i": "isveli",
+              "i": "simit",
               "m": "(tabladan bir simit uzatarak) Al bakalım.",
               "bag": "yuksek",
               "gir": "gizem",
@@ -2775,10 +2803,17 @@
               "bag": "yuksek",
               "kare": "K51"
             },
-            {"k": "gizem", "i": "kas", "m": "Hıh. Bana yarım bile vermedi.", "bag": "yuksek", "kime": "peri"},
+            {
+              "k": "gizem",
+              "i": "kas",
+              "m": "Hıh. Bana yarım bile vermedi.",
+              "bag": "yuksek",
+              "kime": "peri",
+              "peri": "simit_elinde"
+            },
             {
               "k": "peri",
-              "i": "normal",
+              "i": "simit_isiriyor",
               "m": "(yarım simidi ısırarak) Bu susam kavrulmuş.",
               "bag": "yuksek",
               "cengo": "yumusak"
