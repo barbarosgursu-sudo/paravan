@@ -1845,7 +1845,13 @@
                 "arka": "A24",
                 "mekan": true
               },
-              {"k": "peri", "i": "merakli", "m": "Kasanın kapağında tek çizik yok. Zorla açılmamış.", "gir": "ferruh"},
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Kasanın kapağında tek çizik yok. Zorla açılmamış.",
+                "gir": "ferruh",
+                "gi": "normal"
+              },
               {
                 "k": "ferruh",
                 "i": "normal",

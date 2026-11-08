@@ -87,7 +87,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [kas]:** Kırıklar sokakta, Ferruh Bey. Cam içeriden kırılmış.
 **FERRUH [terli]:** Haklısınız… İçeriden de kırılmış olabilir tabii.
 *Ofis. Dağınık bir masa, açık duran çelik bir kasa, köşede kamera kayıt cihazı.* {arka: A24, mekan}
-**PERİ [merakli]:** Kasanın kapağında tek çizik yok. Zorla açılmamış. {gir: ferruh}
+**PERİ [merakli]:** Kasanın kapağında tek çizik yok. Zorla açılmamış. {gir: ferruh, gi: normal}
 **FERRUH [normal]:** Şifreyle açılır; şifreyi Kenan'la ben biliriz. Gizem şifreyi bilmez, günün parasını üstteki yarıktan atar. {kime: peri}
 **CENGO [kas]:** Kamera ne göstermiş?
 **FERRUH [normal]:** Hiçbir şey. Kamera bozuk; o gece hiç kayıt almamış. {kime: cengo}
