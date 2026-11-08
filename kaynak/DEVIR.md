@@ -33,6 +33,12 @@ doğru koşuyor."); 192 Rüstem: "elindeki hesap makinesini bırakıp" → "hesa
   konuşma sahnesi açık; A23 dükkân açık; A26 arka sokak kapalı; A27 Tophane kapalı; A25 imalathane açık; A28 Badem açık;
   A29 toptancı açık; A23b akşam yüzleşmeleri açık.
 - Peri `onluklu.simit_elinde` (396) ve `onluklu.simit_isiriyor` (397).
+- **Önlüklü Peri baştan (8 Kasım, sahibi):** önlük GÖĞÜSLÜ ve tam (boyun askılı, kalp yaka — dekolte biraz görünür,
+  diz üstüne iner); önlük takıldıktan sonra da saçında, yüzünde, göğsünde, bacaklarında pekmez VE susam. Kart G103.
+  Yeniden üretilecek onaylılar: G3, G26–G29 (önlüklü figürler), G58 (K45, önlüğün bağlandığı kare), G63–G66 (K50–K53).
+- **Kıyafet kartları G101–G111** (`uretim/v3/`): G103 dışında hepsi onaylı (8 Kasım). Bel altı seçimleri sahibince
+  onaylandı (Cengo kahverengi bot, Kenan/Ferruh koyu pantolon + siyah ayakkabı, Nadide koyu kahve alçak topuk, Sedat
+  siyah iş botu, Ayla siyah pantolon).
 - Gizem: korkmuş telefonsuz (136, 137, 139), telefonu öne/aşağı bırakırken (249), öfkeli (272), Peri'yi baştan aşağı
   süzerken (129), tek simit uzatıyor (392, tablasız).
 - Kenan: esniyor (154; koyu halka için mevcut gölge yeter), önlüksüz-önlük elinde-öfkeli (236–237).

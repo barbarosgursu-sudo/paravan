@@ -369,6 +369,8 @@ PNG, adı `G<n>.png`. Onaylı resim silinmez.
   renk, aksesuar; açılıp kapanan kıyafette iki hâl de (trençkot kapalı / açık). Peri, Cengo ve her konuğun kıyafeti.
 - Kart **tam boy**dur: baştan ayakkabıya, önden, düz duruş, nötr yüz, düz zemin (figür uyluktan kesildiği için boy
   ve etek/trençkot uzunluğu ancak tam boyda görünür). Açılıp kapanan kıyafetin iki hâli **aynı kartta yan yana**.
+- Kart isteminde **çekicilik satırı yok**, dekolte hafif yazılır ("V yakalı"): tam boyda filtre engelliyor
+  (`uretim/ISTEM_KALIPLARI.md` §9). Çekicilik figür ve kare istemlerinde kalır.
 - Kartların hepsi **tek sayfada yan yana** sahibine gider, **birlikte** onaylanır.
 - Onaydan sonra o kıyafetin geçtiği her figür ve kare istemi kartı **referans** olarak alır. Kıyafet istemde sözle
   yeniden tarif edilmez (sözlü tarif üreticiye her seferinde farklı okunur); yalnız "kart nasılsa öyle" ve o satırın hâli

@@ -108,6 +108,10 @@ Peri her resimde en seksi kadın; dekolte istenir. Filtreden geçen düzen (5 Ka
 - **Fiziksel komedi karesinde:** `Sahne aile dostu bir fiziksel komedi anıdır; kamera göz hizasında, alttan açı yok;
   müstehcen değil.` (eski G55, G56 bununla geçti).
 - Örnek: `v3/prompts/G2.md` → `v3/onayli/G2.png` (sahibinin "daha iyi" dediği hâl).
+- **Kıyafet kartında (tam boy) çekicilik satırı YAZILMAZ** (sahibi, 8 Kasım 2026). "Derin V dekolte" yerine "V yakalı",
+  "göbeği açık" yerine "göbeği hafif açık". Tam boyda derin dekolte + mini elbise + çıplak bacak + "seksi" bir araya
+  gelince çıktı filtresi engelledi (G101, sexual, output); uyluktan kesik figürde bu sorun çıkmıyordu. Kart yalnız
+  kıyafetin ölçüsünü taşır; çekicilik ve dekolte figür ve kare istemlerinde yukarıdaki gibi yazılmaya devam eder.
 
 ## 10. `## Satırlar` bölümü (her vakada, her figür ve karede — 8 Kasım 2026)
 
