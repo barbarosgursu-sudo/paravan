@@ -113,6 +113,9 @@ boyutta görünmeyen ret sebeplerinin hepsi büyütünce çıktı. Büyütme: `m
     bakış satırın söylediği yere mi (SR-I).
 13. **Kıyafet kartı:** kıyafet onaylı karttaki gibi mi — boy, kesim, açık/kapalı hâli (SR-B, SR-C).
 14. **Kardeşler:** aynı kişinin onaylı ifadeleriyle yan yana; yüz ve poz onlardan açıkça ayrılıyor mu (SR-J).
+15. **Çekicilik (Peri ve Gizem; sahibi, 8 Kasım 2026):** yeni resim, o karakterin eski onaylı resimleriyle yan yana;
+    çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan
+    onaylanmaz, `ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. (Kıyafet kartı bu maddeden muaf.)
 
 **B. Oyundaki hâli (figürler)** — `kaynak` içinde:
 `node arac_yanyana.js ../uretim/v<N>/uretilen/G<n>.png --kim <id> --profil <profil> --oran <H2 tablosu>`
