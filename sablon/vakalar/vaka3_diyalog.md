@@ -39,7 +39,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **NADİDE [normal]:** İkisinden de şüphelenmem. Dükkânımı bilirim: unu kırk yıldır Rüstem'den alırım, bir kuruş borcumuz olmadı.
 *Büro sıcak. Peri trençkotun kemerini çözüp bacak bacak üstüne atıyor; altında dar siyah bir elbise. Nadide Hanım hayranlıkla bakıyor.* {kare: K36}
 **CENGO [gulen]:** Trençkotu açtın. Gizli görev bitti mi? {kime: peri}
-**PERİ [kas]:** Kısa bir mola. Gelelim işe: ücretimiz kırk bin lira.
+**PERİ [kas]:** Kısa bir mola. Gelelim işe: ücretimiz kırk bin lira. {gir: nadide}
 **NADİDE [normal]:** Kabul. Kırk bini hırsızı bulduğunuzda öderim. {kime: peri}
 **CENGO [kas]:** Bir kısmını simitle ödeseniz olmaz mı? Ben dükkânınızın müdavimiyim.
 **NADİDE [normal]:** Seni tanırım oğlum. Dükkânda veresiye defterin var; o borcun ayrı. {kime: cengo}
@@ -188,7 +188,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ arka: A29 · figurler: peri, cengo · set: trenckot · cset: haki
 ⚙ Kural 21c: 720.000 şişirilmiş; parayı getireni Rüstem görmedi (Kenan da olabilir). Ferruh yalnız "sıkışık" diye anılır: sebep, kanıt değil.
 
-*Eminönü. Un çuvallarıyla dolu dar bir dükkân. Gür beyaz bıyıklı, iri bir adam elindeki hesap makinesini bırakıp ayağa kalkıyor.* {gir: rustem}
+*Eminönü. Un çuvallarıyla dolu dar bir dükkân. Gür beyaz bıyıklı, iri bir adam, hesap makinesi elinde, ayağa kalkıyor.* {gir: rustem}
 **RÜSTEM [normal]:** Siz Nadide Hanım'ın duvarındaki afişsiniz! Dükkâna her un götürdüğümde size bakarım. {gir: rustem, kime: peri}
 **PERİ [kas]:** Ben o değilim.
 **RÜSTEM:** Tabii, tabii. Buyurun, kraliçem.
@@ -213,9 +213,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [normal]:** Ferruh Bey. Dükkânı siz soydunuz. Nasıl soyduğunuzu da biliyorum. {gir: ferruh}
 **FERRUH [alingan]:** *(papyonunu düzelterek)* Peri Hanım, ne diyorsunuz? Siz benim tanığımdınız… {gir: ferruh}
 **PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor.
-**NADİDE [kirgin]:** Ferruh… Doğru mu bu? {gir: nadide, kime: peri}
-**FERRUH [terli]:** Nadide Hanım… {gir: ferruh}
-*Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra parayı sakladığı depoya doğru koşuyor.* {cik, kare: K40}
+**NADİDE [kirgin]:** Ferruh… Doğru mu bu? {gir: nadide, kime: ferruh}
+**FERRUH [terli]:** Nadide Hanım… {gir: ferruh, kime: nadide}
+*Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_zayif
 ⚙ arka: A23b · figurler: peri, cengo · set: trenckot · cset: haki
@@ -224,8 +224,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [normal]:** Dükkânı siz soydunuz, Ferruh Bey. {gir: ferruh}
 **FERRUH [alingan]:** Ben mi? Kırk beş yıllık dükkân, ben mi? Kanıtınız ne? {gir: ferruh}
 **PERİ [utanmis]:** …Şimdilik bir his.
-**NADİDE [kirgin]:** His yetmez. Yarın sabah eksper geliyor; dükkânı baştan aşağı arayacak, depodaki un çuvallarına kadar. Ferruh, depo anahtarını hazırla. {gir: nadide, kime: peri}
-**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
+**NADİDE [kirgin]:** His yetmez. Yarın sabah eksper geliyor; dükkânı baştan aşağı arayacak, depodaki un çuvallarına kadar. Ferruh, depo anahtarını hazırla. {gir: nadide, kime: ferruh}
+**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh, kime: nadide}
 *Ferruh depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_kenan
@@ -235,9 +235,9 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [kas]:** Kenan Bey. Dükkânı siz soydunuz. {gir: kenan}
 **KENAN [kizgin]:** *(önlüğünü çıkarıp)* Pazar gece Kadıköy'deydim. İş denemesindeydim. {gir: kenan}
 **KENAN [kizgin]:** Gitmek istiyordum, çünkü bu dükkân batıyor. Ferruh Bey size söylemedi mi?
-**NADİDE [kirgin]:** Batıyor mu? Yarın sabah eksper gelince her şeyi açacağız Ferruh: defterleri de, depoyu da, un çuvallarına kadar. {gir: nadide, kime: peri}
+**NADİDE [kirgin]:** Batıyor mu? Yarın sabah eksper gelince her şeyi açacağız Ferruh: defterleri de, depoyu da, un çuvallarına kadar. {gir: nadide, kime: ferruh}
 *Herkes Ferruh'a dönüyor.* {gir: ferruh, gi: terli, kare: K40}
-**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
+**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh, kime: nadide}
 *Ferruh depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne yuzlesme_gizem
@@ -249,7 +249,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [korkmus]:** Ama içeride biri vardı. Bak. *(telefonu tezgâha bırakıyor)*
 **NADİDE [kirgin]:** Lacivert önlük… Bu fotoğrafı yarın sabah eksper görecek. Dükkânı da baştan aşağı arayacak, depodaki un çuvallarına kadar. {gir: nadide, kime: peri}
 *Fotoğraf elden ele geçiyor. Herkes Ferruh'a dönüyor.* {gir: ferruh, gi: terli, kare: K40}
-**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh}
+**FERRUH [terli]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh, kime: nadide}
 *Ferruh depoya doğru koşuyor.* {cik, kare: K40}
 
 ## sahne kovalamaca
@@ -269,8 +269,8 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **FERRUH:** Cuma'nın hasılatıyla cumartesi un borcunu kapattım. Deftere yazmadım.
 **FERRUH:** Pazar gece kasadakini bu çuvala sakladım. Camı içeriden kırdım.
 **FERRUH:** Sigortadan yedi yüz yirmi bin alacaktım. Borçları kapatıp Nadide Hanım'a "kurtardım" diyecektim.
-**GİZEM [kas]:** Beni de suçlayacaktın. {gir: gizem}
-**FERRUH [itiraf]:** Biri suçlanmalıydı. {gir: ferruh}
+**GİZEM [kas]:** Beni de suçlayacaktın. {gir: gizem, kime: ferruh}
+**FERRUH [itiraf]:** Biri suçlanmalıydı. {gir: ferruh, kime: gizem}
 *Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.* {kare: K45}
 **GİZEM [isveli]:** Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın. {kare: K45}
 **PERİ [sinirli]:** Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem. {kare: K45}
@@ -377,6 +377,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **PERİ [sasirmis]:** Ev sahibi!
 *Peri masanın altına giriyor. Kapıda Gizem: elinde simit tablası, omzunda çantası.* {kare: K53, gizle: peri, gir: gizem, gi: normal}
 **GİZEM [normal]:** Susam'dan istifa ettim. Beni suçlayan bir dükkânda bir gün daha çalışmam. {gir: gizem, kime: cengo, kare: K53}
+*Gizem simit tablasını masaya bırakıyor.*
 **GİZEM [isveli]:** Size bir çaycı lazım. Burada çay ocağı var mı?
 **CENGO [gulen]:** Ocak var. Çay yok, para hiç yok.
 **GİZEM [isveli]:** Çayı ben getiririm. Büroya da ben bakarım. {kime: cengo}

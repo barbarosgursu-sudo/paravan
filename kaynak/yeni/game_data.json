@@ -2152,7 +2152,7 @@
             "satirlar": [
               {
                 "k": "not",
-                "m": "Eminönü. Un çuvallarıyla dolu dar bir dükkân. Gür beyaz bıyıklı, iri bir adam elindeki hesap makinesini bırakıp ayağa kalkıyor.",
+                "m": "Eminönü. Un çuvallarıyla dolu dar bir dükkân. Gür beyaz bıyıklı, iri bir adam, hesap makinesi elinde, ayağa kalkıyor.",
                 "gir": "rustem"
               },
               {
@@ -2423,7 +2423,7 @@
               "kare": "K36"
             },
             {"k": "cengo", "i": "gulen", "m": "Trençkotu açtın. Gizli görev bitti mi?", "kime": "peri"},
-            {"k": "peri", "i": "kas", "m": "Kısa bir mola. Gelelim işe: ücretimiz kırk bin lira."},
+            {"k": "peri", "i": "kas", "m": "Kısa bir mola. Gelelim işe: ücretimiz kırk bin lira.", "gir": "nadide"},
             {"k": "nadide", "i": "normal", "m": "Kabul. Kırk bini hırsızı bulduğunuzda öderim.", "kime": "peri"},
             {"k": "cengo", "i": "kas", "m": "Bir kısmını simitle ödeseniz olmaz mı? Ben dükkânınızın müdavimiyim."},
             {
@@ -2498,11 +2498,11 @@
               "gir": "ferruh"
             },
             {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor."},
-            {"k": "nadide", "i": "kirgin", "m": "Ferruh… Doğru mu bu?", "gir": "nadide", "kime": "peri"},
-            {"k": "ferruh", "i": "terli", "m": "Nadide Hanım…", "gir": "ferruh"},
+            {"k": "nadide", "i": "kirgin", "m": "Ferruh… Doğru mu bu?", "gir": "nadide", "kime": "ferruh"},
+            {"k": "ferruh", "i": "terli", "m": "Nadide Hanım…", "gir": "ferruh", "kime": "nadide"},
             {
               "k": "not",
-              "m": "Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra parayı sakladığı depoya doğru koşuyor.",
+              "m": "Ferruh tezgâha bakıyor, kapıya bakıyor. Sonra depoya doğru koşuyor.",
               "cik": true,
               "kare": "K40"
             }
@@ -2532,13 +2532,14 @@
               "i": "kirgin",
               "m": "His yetmez. Yarın sabah eksper geliyor; dükkânı baştan aşağı arayacak, depodaki un çuvallarına kadar. Ferruh, depo anahtarını hazırla.",
               "gir": "nadide",
-              "kime": "peri"
+              "kime": "ferruh"
             },
             {
               "k": "ferruh",
               "i": "terli",
               "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
-              "gir": "ferruh"
+              "gir": "ferruh",
+              "kime": "nadide"
             },
             {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
           ]
@@ -2571,14 +2572,15 @@
               "i": "kirgin",
               "m": "Batıyor mu? Yarın sabah eksper gelince her şeyi açacağız Ferruh: defterleri de, depoyu da, un çuvallarına kadar.",
               "gir": "nadide",
-              "kime": "peri"
+              "kime": "ferruh"
             },
             {"k": "not", "m": "Herkes Ferruh'a dönüyor.", "gir": "ferruh", "gi": "terli", "kare": "K40"},
             {
               "k": "ferruh",
               "i": "terli",
               "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
-              "gir": "ferruh"
+              "gir": "ferruh",
+              "kime": "nadide"
             },
             {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
           ]
@@ -2615,7 +2617,8 @@
               "k": "ferruh",
               "i": "terli",
               "m": "(yüzü bembeyaz) Depo mu? Depoya… gerek yok ki. Ben… bir bakayım.",
-              "gir": "ferruh"
+              "gir": "ferruh",
+              "kime": "nadide"
             },
             {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
           ]
@@ -2675,8 +2678,8 @@
               "k": "ferruh",
               "m": "Sigortadan yedi yüz yirmi bin alacaktım. Borçları kapatıp Nadide Hanım'a \"kurtardım\" diyecektim."
             },
-            {"k": "gizem", "i": "kas", "m": "Beni de suçlayacaktın.", "gir": "gizem"},
-            {"k": "ferruh", "i": "itiraf", "m": "Biri suçlanmalıydı.", "gir": "ferruh"},
+            {"k": "gizem", "i": "kas", "m": "Beni de suçlayacaktın.", "gir": "gizem", "kime": "ferruh"},
+            {"k": "ferruh", "i": "itiraf", "m": "Biri suçlanmalıydı.", "gir": "ferruh", "kime": "gizem"},
             {"k": "not", "m": "Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.", "kare": "K45"},
             {
               "k": "gizem",
@@ -2729,6 +2732,7 @@
               "kime": "cengo",
               "kare": "K53"
             },
+            {"k": "not", "m": "Gizem simit tablasını masaya bırakıyor."},
             {"k": "gizem", "i": "isveli", "m": "Size bir çaycı lazım. Burada çay ocağı var mı?"},
             {"k": "cengo", "i": "gulen", "m": "Ocak var. Çay yok, para hiç yok."},
             {"k": "gizem", "i": "isveli", "m": "Çayı ben getiririm. Büroya da ben bakarım.", "kime": "cengo"},
