@@ -43,9 +43,13 @@ Her replik ifadesini **anlamına göre** seçer. Uygun ifade yoksa önce görsel
 
 **Konuk:** en az 1, gerekirse 2–3 ifade.
 
-**Kıyafet başına sayı (sahibinin kararı, 8 Ekim 2026):**
-- **Peri:** tavan yok; olabildiğince çok ve farklı görsel. Her kıyafette sözlüğün **yedi ifadesinin hepsi** (normal, kas, sinirli, acı, utanmış, şaşırmış, meraklı) **+ vakanın gerektirdiği her nesneli ve hareketli poz.** Aynı görsel bir sahnede art arda çok tekrar ederse yeni poz üretilir.
-- **Cengo:** 4 (normal, kas, gülen, yumuşak) + vaka gerektirirse fazlası.
+**Kıyafet başına sayı (sahibinin kararı, 8 Kasım 2026 — 8 Ekim kararının yerine):**
+**Yalnız satırların istediği ifade ve poz üretilir.** Bir ifadenin vakada hiçbir satırı yoksa (`arac_satir_resim.js` →
+"Resim → satırlar" listesinde boşsa) üretilmez. Eski "Peri'nin her kıyafetinde yedi ifadenin hepsi" kuralı kalktı:
+Vaka 3'te altı resim hiçbir satırda kullanılmadan üretildi (biri filtreye takılıp sahibine web'de iş çıkardı).
+- **Peri:** tavan yok; satırların istediği her ifade **+ vakanın gerektirdiği her nesneli ve hareketli poz.** Aynı görsel
+  bir sahnede art arda çok tekrar ederse yeni poz üretilir (o da satırlardan çıkar).
+- **Cengo:** satırların istediği ifadeler (genelde normal, kas, gülen, yumuşak) + vaka gerektirirse fazlası.
 
 ## C. Metin ile görselin eşleşmesi
 
@@ -382,7 +386,7 @@ PNG, adı `G<n>.png`. Onaylı resim silinmez.
 
 ## Sahibine sorular
 
-1. ✓ *Karar: Peri için tavan yok, en az yedi ifade + vaka pozları; Cengo 4.* **Kıyafet başına zorunlu ifade sayısı.** Her vakada yeni kıyafet olduğu için bu sayı vaka başına görsel sayısını belirliyor.
+1. ✓ *Karar (8 Kasım 2026, eski kararın yerine): yalnız satırların istediği ifade ve pozlar üretilir (B).* **Kıyafet başına zorunlu ifade sayısı.** Her vakada yeni kıyafet olduğu için bu sayı vaka başına görsel sayısını belirliyor.
    - a) Peri 5 (normal, kas, sinirli, utanmış, şaşırmış), Cengo 4 (normal, kas, gülen, yumuşak). Gerisi vaka gerektirirse. *(önerim)*
    - b) Peri 4, Cengo 4.
    - c) Başka bir sayı.

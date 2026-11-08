@@ -12,8 +12,8 @@
 
 **Durum tek cümle:** aşağıdaki listedeki bütün resimler üretildi, denetlendi (eller omuzdan ele), gömüldü ve diyaloğa
 bağlandı; ek olarak K40k (Kenan yolunun kaçışı, Kenan önlüksüz) ve `gizem.tabla` (G94). G1, G2, G3, G27, G28, G72, G92
-filtreye takıldı, sahibi web'de üretti. Yalnız **G29** (önlüklü sinirli, HİÇBİR satırda kullanılmıyor) üretilmedi —
-sahibine "listeden çıkaralım mı" diye soruldu, cevap yok. Sıradaki: **sahibi oyunu baştan oynar (Onay 3)**, sonra vaka donar.
+filtreye takıldı, sahibi web'de üretti. **G29** (önlüklü sinirli) İPTAL: hiçbir satırda yoktu; eski yarım önlüklü
+resmi oyundan da çıkarıldı. Kural değişti: yalnız satırların istediği ifade üretilir (5. parça B). Sıradaki: **sahibi oyunu baştan oynar (Onay 3)**, sonra vaka donar.
 Kalıcı kurallar bu gün eklendi: `uretim/CLAUDE.md` "Temeller önce, takılan temel HEMEN sahibine" ve denetim 15 (çekicilik);
 web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
 

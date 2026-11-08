@@ -52,7 +52,7 @@
             "ortulu": ["normal", "kas", "sasirmis", "utanmis"],
             "trenckot": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"],
             "simit": ["sinirli", "utanmis"],
-            "onluklu": ["normal", "kas", "sasirmis", "utanmis", "sinirli", "simit_elinde", "simit_isiriyor"],
+            "onluklu": ["normal", "kas", "sasirmis", "utanmis", "simit_elinde", "simit_isiriyor"],
             "trenckot_acik": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"]
           }
         },

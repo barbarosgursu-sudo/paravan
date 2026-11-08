@@ -100,7 +100,7 @@ def dosya(no, baslik, tur, anahtar, refs, kontrol, satirlar, istem, bekle=""):
     if bekle: s += f"- önce hazır olmalı: {bekle}\n"
     s += "\n## Referanslar (bu sırayla ekle; istemdeki \"birinci referans\" = 1.)\n\n"
     s += "\n".join(f"{i+1}. {r}" for i, r in enumerate(refs)) + "\n\n"
-    s += "## Satırlar\n\n" + ("\n".join(satirlar) if satirlar else "- (şu an hiçbir satırda kullanılmıyor; setin tamlığı için üretiliyor — 5. parça B, her kıyafette yedi ifade)") + "\n\n"
+    s += "## Satırlar\n\n" + ("\n".join(satirlar) if satirlar else "- (şu an hiçbir satırda kullanılmıyor; ÜRETİLMEZ — 5. parça B, 8 Kasım 2026)") + "\n\n"
     s += f"## Kontrol\n\n{kontrol}\n\n## İstem\n\n```text\n" + "\n\n".join(x for x in istem if x) + "\n```\n"
     io.open(os.path.join(P, f"G{no}.md"), "w", encoding="utf-8", newline="\n").write(s)
 YAZILAN = []

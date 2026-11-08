@@ -122,7 +122,7 @@ Baş kırpıkları temel onaylanınca hazırlanır: `peri_trenckot2_bas` (G1), `
 | G26 | figür | Peri, göğüslü pembe önlüklü, kaşı kalkık | `peri.onluklu.kas` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
 | G27 | figür | Peri, göğüslü pembe önlüklü, şaşırmış | `peri.onluklu.sasirmis` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
 | G28 | figür | Peri, göğüslü pembe önlüklü, utanmış | `peri.onluklu.utanmis` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
-| G29 | figür | Peri, göğüslü pembe önlüklü, sinirli | `peri.onluklu.sinirli` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G29 | figür | Peri, göğüslü pembe önlüklü, sinirli | `peri.onluklu.sinirli` | İPTAL (8 Kasım: hiçbir satırda yok) |
 | G42 | figür | Gizem, korkmuş (telefonsuz) | `gizem.korkmus` | — |
 | G49 | ara kare | Giriş: Peri trençkotu açmış, masada; Nadide hayran (Onay 3) | `K36` | — |
 | G50 | ara kare | Afiş: Peri kendi afişine bakakalmış; Ferruh gururla gösteriyor (Onay 3) | `K37` | — |

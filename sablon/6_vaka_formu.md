@@ -140,7 +140,7 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 | tür | ad | ne gösterir | hangi satırda |
 |---|---|---|---|
 
-- Peri: her kıyafette yedi ifade + vaka pozları (tavan yok).
+- Peri ve Cengo: yalnız satırların istediği ifade ve pozlar (5. parça B, 8 Kasım 2026); Peri için tavan yok.
 - Cengo: 4 ifade + vaka gerektirirse.
 - Konuklar, arka planlar, ara kareler, detaylar.
 
