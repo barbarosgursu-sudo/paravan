@@ -26,6 +26,10 @@ web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
   A23d'nin ışığı sabah/akşam arası belirsiz; sahibine soruldu, cevap gelmedi.
 - **Yeni kural SR-L — mekân ve olay akışı mantıklı** (`5_gorsel_sistemi.md` C0; `7_uretim_sureci.md` bulanık replik
   taraması "Akış: kim nerede, ne sırayla?"; diyalogda sahne başına `⚙ akış:` notu). Sözleşme artık SR-A…L.
+- **Peri %23 büyük çiziliyordu** ("Tamam. Ben yaptım." satırında Ferruh bir baş kısa görünüyordu): `peri.simit.sinirli`,
+  `peri.simit.utanmis`, `peri.onluklu.utanmis` dar yeniden kesilmiş ama `gorseller.json → genis` listesinde kalmıştı;
+  listeden çıkarıldı. `build_html.js yeni` artık geniş liste ↔ kesim genişliğini iki yönde de denetliyor, uyuşmazsa durur.
+  A23d'nin ışığı olduğu gibi kalır (sahibi).
 - Sahibi Onay 3'ü telefonda sahne sahne sürdürüyor; bulduğu her şey bu kurallarla çözülür (önce konuş, sonra yap).
 
 ---

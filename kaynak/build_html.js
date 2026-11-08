@@ -32,6 +32,31 @@ const gorselveri = !YENI ? fs.readFileSync("_gomulu_gorseller.js","utf-8") : (()
     if (!fs.existsSync(yol)) { console.error("DERLEME DURDU — manifestodaki görsel yok:", anahtar, "→", yol); process.exit(1); }
     harita[anahtar] = "data:image/webp;base64," + fs.readFileSync(yol).toString("base64");
   }
+  // Geniş liste ↔ kesim genişliği. `genis` listesindeki Peri resmi ekranda 560/457 kat büyütülür;
+  // yalnız --genis ile (tam genişlikte, 4:5) kesilmiş resim için doğrudur. Düşüldü (8 Kasım 2026, Onay 3):
+  // üç resim dar yeniden kesildi ama listede kaldı, Peri %23 büyük çizildi, konuk bir baş kısa göründü.
+  // Ters yön de sessizdir: listede olmayan geniş resim küçülür.
+  {
+    const webpBoy = yol => {
+      const b = fs.readFileSync(yol), t = b.toString("ascii", 12, 16);
+      if (t === "VP8X") return [1 + b.readUIntLE(24, 3), 1 + b.readUIntLE(27, 3)];
+      if (t === "VP8L") { const v = b.readUInt32LE(21); return [1 + (v & 0x3fff), 1 + ((v >> 14) & 0x3fff)]; }
+      if (t === "VP8 ") return [b.readUInt16LE(26) & 0x3fff, b.readUInt16LE(28) & 0x3fff];
+      return null;
+    };
+    const genis = new Set(yeniManifesto.genis || []), yanlis = [];
+    for (const [anahtar, dosya] of Object.entries(yeniManifesto.dosyalar)) {
+      if (!anahtar.startsWith("peri.")) continue;
+      const boy = webpBoy("yeni_gorsel/" + dosya); if (!boy) continue;
+      const genisKesim = boy[0] / boy[1] > 0.72;   // dar Peri 457×700 (0,653), geniş 560×700 (0,8)
+      if (genisKesim !== genis.has(anahtar)) yanlis.push(`${anahtar} (${boy[0]}×${boy[1]}, listede ${genis.has(anahtar) ? "var" : "yok"})`);
+    }
+    if (yanlis.length) {
+      console.error("DERLEME DURDU — gorseller.json → genis listesi resmin kesimiyle uyuşmuyor (Peri yanlış boyda çizilir):");
+      for (const y of yanlis) console.error("  " + y);
+      process.exit(1);
+    }
+  }
   const { dosyalar, _not, ...ayar } = yeniManifesto;
   if ((ayar.yer_tutucu || []).length) console.log(`  ⚠ yer tutucu: ${ayar.yer_tutucu.length} görsel henüz yok (${ayar.yer_tutucu.join(", ")})`);
   return "const GORSELLER=" + JSON.stringify(harita) + ";const YENI_GORSEL=" + JSON.stringify(ayar) + ";";
