@@ -16,7 +16,7 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve her karar/ara/kapanış karesi için kıyafet hâli, SR-B), **ifade/nesne ayrımı** (SR-D), `arac_satir_resim.js` bayraklarının **hepsi kapalı** (SR-E). İlk figürden önce **kıyafet kartları** tek sayfada sahibine (5. parça I, SR-C) | ben | bayrak kalmadı; kıyafet kartları onaylı |
 | 9 | **Görseller** üretilir; **toplu gönderilir** (aşağıda) | sahibi | — |
 | 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi); **toplu işlenir** | ben | her görsel gömülü |
-| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi; satır–resim sözleşmesinin (SR-A…K) hepsi | ben | hata yok |
+| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi; satır–resim sözleşmesinin (SR-A…L) hepsi | ben | hata yok |
 | 12 | **Onay 3 — görselli test:** sahibi oynar. **Yalnız görsellere** bakılır: metinle uyum, ifade, çekicilik | sahibi | notlar tek listede |
 | 13 | **Görsel düzeltmeleri** | ben + sahibi | — |
 | 14 | **Vaka donar.** Donmadan önce **sızıntı taraması** bir kez daha (aşağıda). Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | tarama temiz |
@@ -42,6 +42,10 @@ Vaka 2'de metin tarafı 2 sa 52 dk sürdü; bunun 1 sa 56 dk'sı Onay 2'ydi ve 2
 **Bulanık replik taraması (adım 5'in sonu, Onay 2'den ÖNCE).** Diyaloğu baştan sona, oyuncunun
 gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) ve her satıra sorarım:
 - **Kime?** Konuşanın kime konuştuğu belli mi; cevap doğru kişiden mi geliyor?
+- **Akış: kim nerede, ne sırayla?** (8 Kasım 2026, 5. parça SR-L) Varışta önce giriş, sonra içerisi; bir şey ilk kez
+  görüldüğü satırda görülür (önceki satırlarda karakter onun önünde tepkisiz durmaz); söylenen yer ("kapıda") figür ve
+  arka planla çelişmez; kare yalnız gösterdiği anın satırında. Diyalog yazılırken her sahnenin başına kısa bir akış notu
+  (`⚙ akış: kim nerede, kim ne zaman giriyor, ne ilk kez görülüyor`) yazılır.
 - **Neyi?** "O", "bu", "orası" neyi gösteriyor; oyuncu bunu bu satıra kadar duydu mu?
 - **Nereden biliyor?** Karakter bu bilgiyi ya da bu kişiyi nereden tanıyor; ekranda görüldü mü? **Sahne notuna da
   sorulur** (8 Kasım 2026, kural kitabı 4a): not yalnız o an görüleni söyler, sonra ortaya çıkacak gerçeği değil.

@@ -76,8 +76,9 @@ söz etmek serbesttir ("Kenan dün akşam neredeydi?" kare istemez).
 | **SR-I** | **Yüz satıra uyar.** İfade satırın duygusuna göre seçilir, eldeki figürlere göre değil; uyan yüz yoksa yeni ifade üretilir (konuk figür listesi diyalogdan çıkar). Bakışın **yönü ve hedefi** ("süzerek", "ellerine bakıp") istemde yazılır. | "Beni de suçlayacaktın" keyifli `gizem.kas`'la; Ayla Cengo'nun ellerine bakmıyor |
 | **SR-J** | **Her ifade kardeşlerinden ayırt edilir.** İstemde onu ötekilerden neyin ayırdığı yazılır; denetimde aynı kişinin ifadeleri yan yana konur, benzeyen kabul edilmez. | `ferruh.terli` ≈ `ferruh.alingan` → "yüzü bembeyaz" karşılıksız |
 | **SR-K** | **Karar karesi SONUÇ metninin asıl anını gösterir** (bedeli yaşayan kişiler karede). Cengo satırı resimsiz kalabilir. | K47 Cengo satırını (Kenan'ın simidi) gösteriyordu; SONUÇ'taki Ferruh ve telefon yoktu |
+| **SR-L** | **Mekân ve olay akışı mantıklı** (8 Kasım 2026). Satırlar ve resimler olayın gerçek sırasıyla ilerler. Varışta önce giriş, sonra içerisi: karakter içeride gösterildiyse "içeri adım atıyor" ondan sonra gelmez. Bir şeyi ilk kez görmek o satırda olur; karakter önceki satırlarda onun önünde tepkisiz durmaz. Söylenen yer ("kapıda", "tezgâhın arkasında") figür ve arka planla çelişmez. Kare yalnız gösterdiği anın satırına bağlanır (SR-D'nin sahne düzeyi). | Peri afişin dibinde dururken Ferruh "kapıda" karşılıyor, sonra "Peri içeri adım atıyor… kendi afişi"; K37 (Ferruh afişi gösteriyor) afişten söz edilmeden önce |
 
-**Nerede yakalanır (7. parça):** diyalog yazılırken SR-A, H, I (`kime`, anlatı, ifade); görsel listesinde SR-B, C, D, K
+**Nerede yakalanır (7. parça):** diyalog yazılırken SR-A, H, I, L (`kime`, anlatı, ifade, sahne başında akış notu); görsel listesinde SR-B, C, D, K
 (kıyafet kartı, kıyafet hâli tablosu, ifade/nesne ayrımı); istem yazılırken SR-D, E, I, J (`## Satırlar` her vakada
 zorunlu, bayraklar kapalı); gömmeden sonra hepsi doğrulanır. Bu son adım artık hata aramak için değil, öncekilerin
 tuttuğunu görmek içindir.
