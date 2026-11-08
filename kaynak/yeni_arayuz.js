@@ -12,7 +12,10 @@
    Cengo konuşursa Peri'nin yerine SOLA geçer (aynalı, konuğa bakar) — konuşan ile
    karşısındaki hep ekranda (sahibinin kararı, 9 Ekim 2026). Cengo konuk varken
    Peri'ye konuşuyorsa satıra `kime: peri` yazılır: Cengo eskisi gibi sağa geçer.
-   Konuk satırında `kime: peri|cengo` solda kimin duracağını seçer (yoksa sol değişmez). */
+   Konuk satırında `kime: peri|cengo` solda kimin duracağını seçer (yoksa sol değişmez).
+   Konuk satırında `kime: <başka konuk>` (SR-G, 8 Kasım 2026): konuşan konuk SOLA geçer (aynalı),
+   hitap edilen sağda; Peri o satırda ekranda değil. Peri/Cengo konuşunca ya da soldaki konuk
+   `kime`siz konuşunca sol yine Peri'ye döner. */
 
 /* Yeni oyunun motoru (motor_yeni.js, derlemede bu dosyadan hemen önce gömülür).
    `oyun` eski betikte zaten kuruldu; prototipini değiştirmek yeterli (kurucu aynı).
@@ -183,9 +186,26 @@ function vnFigurCiz(satir){
     sol.hidden = false;
     if(sol.dataset.src !== "sol:" + anahtar){ sol.innerHTML = yt ? vnYerTutucu(anahtar, "cengo") : `<img alt="Cengo" src="${src}">`; sol.dataset.src = "sol:" + anahtar; }
   }
+  // Solda konuk: başka bir konuğa konuşuyor (SR-G; aynalı, sağdakine bakar). Sağdakiyle aynı çerçeve ve boy.
+  const solKonuk = !solCengo && vn.sol !== "peri" && vn.sol !== vn.sag && vn.mevcut.has(vn.sol)
+    && !!SAHNE_KANON.figurler[vn.sol] ? vn.sol : null;
+  sol.classList.toggle("konuk", !!solKonuk);
+  if(solKonuk) sol.classList.remove("ustte");
+  if(solKonuk){
+    const anahtar = vnFigurAnahtar(solKonuk, vn.ifade[solKonuk] || vnVarsayilanIfade(solKonuk));
+    sol.hidden = false;
+    if(sol.dataset.src !== "sol:" + anahtar){
+      const src = vnGorsel(anahtar);
+      const olcek = (YG.boy||{})[solKonuk] || 1;
+      const stil = olcek < 1 ? ` style="position:absolute;right:0;bottom:0;height:${olcek*100}%"` : "";
+      // `sola` kaydırması burada uygulanmaz: satır içi transform aynalamayı (scaleX(-1)) ezer.
+      sol.innerHTML = src ? `<img alt="${vnHtml(vnAd(solKonuk))}"${stil} src="${src}">` : vnYerTutucu(anahtar, solKonuk);
+      sol.dataset.src = "sol:" + anahtar;
+    }
+  }
   // Peri
-  const periVar = !solCengo && vn.mevcut.has("peri");
-  if(!solCengo) sol.hidden = !periVar;
+  const periVar = !solCengo && !solKonuk && vn.mevcut.has("peri");
+  if(!solCengo && !solKonuk) sol.hidden = !periVar;
   if(periVar){
     const anahtar = "peri." + vn.set + "." + (vn.ifade.peri || "normal");
     const yt = !vnGorsel(anahtar) && (YG.yer_tutucu||[]).includes(anahtar);
@@ -213,7 +233,7 @@ function vnFigurCiz(satir){
     }
   }
   const k = satir.k;
-  const solKim = solCengo ? "cengo" : "peri";
+  const solKim = solCengo ? "cengo" : solKonuk || "peri";
   sol.classList.toggle("aktif", k === solKim); sol.classList.toggle("pasif", k !== solKim);
   sag.classList.toggle("aktif", !!kim && k === kim); sag.classList.toggle("pasif", !(kim && k === kim));
 }
@@ -233,9 +253,14 @@ function vnSatirGoster(satir){
   // Cengo yalnız SAĞDA bir konuk duruyorsa sola geçer; sağ boşsa ya da Cengo'nun kendisiyse
   // (konuk çıktı) sola geçmek iki Cengo çizer.
   const konukVar = !!vn.sag && vn.sag !== "cengo" && vn.mevcut.has(vn.sag);
-  if(k === "peri") vn.sol = "peri";
-  if(k === "cengo" && konukVar && satir.kime !== "peri"){ vn.sol = "cengo"; vn.mevcut.add(k); }
-  else if(figur && k !== "peri"){ vn.mevcut.add(k); vn.sag = k; if(k === "cengo") vn.sol = "peri"; }
+  // Konuk konuğa konuşuyor ({kime: <konuk>}; SR-G, 8 Kasım 2026): konuşan SOLA geçer (aynalı),
+  // hitap edilen sağda — ikisi de ekranda. Peri o satırda ekrandan çıkar.
+  const konukMu = x => !!x && x !== "peri" && x !== "cengo" && !!SAHNE_KANON.figurler[x];
+  const konukKonuga = konukMu(k) && konukMu(satir.kime) && satir.kime !== k;
+  if(konukKonuga){ vn.mevcut.add(k); vn.mevcut.add(satir.kime); vn.sol = k; vn.sag = satir.kime; }
+  else if(k === "peri") vn.sol = "peri";
+  else if(k === "cengo" && konukVar && satir.kime !== "peri"){ vn.sol = "cengo"; vn.mevcut.add(k); }
+  else if(figur){ vn.mevcut.add(k); vn.sag = k; if(k === "cengo" || vn.sol === k) vn.sol = "peri"; }
   // Konuk satırında kime: karşısındaki (solda) kim olsun — "Kızım…" Peri'ye.
   if(k !== "peri" && k !== "cengo" && satir.kime === "peri") vn.sol = "peri";
   if(k !== "peri" && k !== "cengo" && satir.kime === "cengo" && vn.mevcut.has("cengo")) vn.sol = "cengo";
@@ -249,10 +274,11 @@ function vnSatirGoster(satir){
   // (aksi hâlde sahnenin ortasındaki nesne, ör. A2'deki yerdeki avize, figürlerin arkasında kalır).
   $("vnFig").classList.toggle("cekilmis", !!(satir.kare || satir.mekan));
   vnFigurCiz(satir);
-  const solda = k === "peri" || (k === "cengo" && vn.sol === "cengo");
+  const solda = k === "peri" || (k === "cengo" && vn.sol === "cengo") || (konukKonuga && vn.sol === k);
   $("vnPlakaSol").hidden = !solda;
-  $("vnPlakaSol").textContent = k === "cengo" ? "Cengo" : "Peri";
+  $("vnPlakaSol").textContent = k === "cengo" ? "Cengo" : k === "peri" ? "Peri" : vnAd(k);
   $("vnPlakaSol").classList.toggle("cengo", k === "cengo");
+  $("vnPlakaSol").classList.toggle("konuk", solda && konukMu(k));
   const sagPlaka = !solda && ((figur && k !== "peri") || !!(SAHNE_KANON.sesler||{})[k]);
   $("vnPlakaSag").hidden = !sagPlaka;
   $("vnPlakaSag").textContent = sagPlaka ? vnAd(k) : "";

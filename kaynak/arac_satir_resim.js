@@ -15,6 +15,7 @@
 //      JEST   — replikte parantezli sahne yönü var: "(papyonunu düzelterek)" — konuşanın figürü bunu yapıyor mu?
 //      KONUŞAN— konuşan kişi ekranda değil (kare yok, iki figürde de yok).
 //      SUSKUN — anlatı satırında adı geçen kişi ekranda değil.
+//      HİTAP  — satırın `kime`si (hitap edilen) ekranda değil (kare yok). SR-A/SR-G, 8 Kasım 2026.
 const fs = require('fs'), path = require('path');
 const arg = process.argv.slice(2);
 const al = (ad, v) => { const i = arg.indexOf(ad); if (i < 0) return v; const x = arg[i + 1]; arg.splice(i, 2); return x; };
@@ -55,6 +56,7 @@ for (const s of satirlar.values()) {
   if (s.k === 'not' && !s.kare && EYLEM.test(s.m)) bayrak.push(['EYLEM', s, 'figür bu eylemi göstermez; kare ya da uygun figür gerekir']);
   if (s.k !== 'not' && /\([^)]+\)/.test(s.m) && !s.kare) bayrak.push(['JEST', s, `figür: ${[s.sol, s.sag].find(x => x.split('.')[0] === s.k) || '(ekranda değil)'}`]);
   if (s.k !== 'not' && !s.kare && !s.cekik && !ekranda.includes(s.k) && !['teyze'].includes(s.k)) bayrak.push(['KONUŞAN', s, `ekranda: ${s.sol}, ${s.sag}`]);
+  if (s.k !== 'not' && s.kime && !s.kare && !s.cekik && !ekranda.includes(s.kime)) bayrak.push(['HİTAP', s, `${s.kime} ekranda değil; ekranda: ${s.sol}, ${s.sag}`]);
 }
 
 let o = `# Satır → resim uyumu${VAKA ? ' — ' + VAKA : ''}\n\nKaynak: ${arg.map(a => path.basename(path.dirname(a)) + '/' + path.basename(a)).join(', ')} · ${satirlar.size} farklı satır.\n` +
@@ -70,5 +72,5 @@ for (const key of sira) {
 fs.mkdirSync(path.dirname(CIKTI), { recursive: true });
 fs.writeFileSync(CIKTI, o);
 const say = t => bayrak.filter(b => b[0] === t).length;
-console.log(`${satirlar.size} satır · ${resim.size} resim anahtarı · bayrak: EYLEM ${say('EYLEM')}, JEST ${say('JEST')}, KONUŞAN ${say('KONUŞAN')}`);
+console.log(`${satirlar.size} satır · ${resim.size} resim anahtarı · bayrak: EYLEM ${say('EYLEM')}, JEST ${say('JEST')}, KONUŞAN ${say('KONUŞAN')}, HİTAP ${say('HİTAP')}`);
 console.log('Yazıldı: ' + CIKTI);

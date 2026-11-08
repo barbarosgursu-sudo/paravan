@@ -15,10 +15,10 @@ yazıldı (`sablon/5_gorsel_sistemi.md` C0 SR-A…K ve I. Kıyafet kartı; `2_ku
 adım 3/8/11 ve "Satır–resim uyumu"; `uretim/CLAUDE.md` madde 8 ve denetim 12–14; `uretim/ISTEM_KALIPLARI.md` §10).
 Aşağıdaki işlerin **hiçbiri yapılmadı**; sahibine sırayla sor, "yap" demeden başlama.
 
-**Kod/araç:**
-1. Motor: konuk–konuk düzeni (SR-G) — `{kime: <konuk>}` konuk satırında → konuşan sola (aynalı), hitap edilen sağa.
-   Yalnız `yeni_arayuz.js`; eski `index.html` md5 aynı kalmalı.
-2. `arac_satir_resim.js`: HİTAP bayrağı (satırın `kime`si ekranda değil), konuk–konuk satırı, replikte adı geçen kişi (aday).
+**Kod/araç — YAPILDI (8 Kasım):** motor konuk–konuk düzeni (`{kime: <konuk>}` → konuşan solda aynalı, hitap edilen
+sağda; `yeni_arayuz.js` + `.css`; eski `index.html` md5 aynı, V3 `kod dogru` turu hatasız) ve `arac_satir_resim.js`
+HİTAP bayrağı (`kime`si ekranda olmayan satır). Replikte adı geçen kişi bayrağı **yapılmadı**: sahnede olmayan birinden
+söz serbest (sahibinin kararı), bayrak gürültü olurdu.
 
 **Vaka 3 metin (onaylı, `vaka3_diyalog.md` → `arac_diyalog.js`):** 42 `{gir: nadide}`; 216, 217, 240, 272, 273 ve
 yüzleşmelerdeki eşleri gerçek muhataba `kime` (motor işinden sonra); 218 "parayı sakladığı" silinir ("Sonra depoya

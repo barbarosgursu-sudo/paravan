@@ -95,7 +95,7 @@ tuttuğunu görmek içindir.
    |---|---|
    | `{kime: peri}` Cengo satırında | konuk varken Cengo Peri'ye konuşuyor (yoksa sola geçer, konuğa bakar) |
    | `{kime: peri\|cengo}` konuk satırında | konuk kime konuşuyorsa solda o dursun |
-   | `{kime: <konuk>}` konuk satırında | konuk başka bir konuğa konuşuyor: konuşan sola geçer (aynalı), hitap edilen sağda (SR-G; 8 Kasım 2026 kararı, motor desteği `yeni_arayuz.js`'e eklenecek) |
+   | `{kime: <konuk>}` konuk satırında | konuk başka bir konuğa konuşuyor: konuşan sola geçer (aynalı), hitap edilen sağda (SR-G; 8 Kasım 2026, `yeni_arayuz.js`). Peri o satırda ekranda değil; Peri/Cengo konuşunca ya da soldaki konuk `kime`siz konuşunca sol Peri'ye döner |
    | `{gir: x, gi: ifade}` | konuk girerken ilk yüzü (anlatı satırında "öfkeli giriyor" gibi) |
    | `{gizle: cengo}` | figür sahneden ayrıldı (koşup gitti); konuşunca geri gelir |
    | `{peri: ifade}` / `{cengo: ifade}` | konuşmayan dinleyenin yüzü değişsin (önceki yüz kalmasın) |
