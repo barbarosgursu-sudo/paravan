@@ -1,5 +1,9 @@
 # Vaka 3 — durum
 
+**Aşama (8 Kasım 2026 gece): ONAY 3 DÜZELTMELERİ BİTTİ.** Listedeki her resim `onayli/`'de ve oyunda (G29 İPTAL).
+Sonradan eklenen: G93 (K40k), G94 (`gizem.tabla`), G95 (A23d, dükkânın dış cephesi). Kıyafet kartları G101–G111.
+Sahibi oyunu oynuyor; yeni bulgu gelirse istem `prompts/`'ta düzeltme notuyla, döngü `../dongu.sh 3`.
+
 **Aşama (8 Kasım 2026): ONAY 3 DÜZELTMELERİ.** Sahibi Onay 3'te satır–resim uyumsuzluklarını gösterdi; kurallar
 `sablon/5_gorsel_sistemi.md` C0 (SR-A…K) ve I'ya yazıldı. Kıyafet kartları G101–G111 onaylı. 56 istem hazır
 (`onay3_istem.py` → `onay3_liste.tsv`, `LISTE.md` sonu): 32 yenileme (eskiler `eski_onay3/`) + 24 yeni (G69–G92).

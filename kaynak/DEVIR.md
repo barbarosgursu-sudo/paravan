@@ -17,6 +17,17 @@ resmi oyundan da çıkarıldı. Kural değişti: yalnız satırların istediği 
 Kalıcı kurallar bu gün eklendi: `uretim/CLAUDE.md` "Temeller önce, takılan temel HEMEN sahibine" ve denetim 15 (çekicilik);
 web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
 
+**Sonra, sahibi telefonda oynarken (8 Kasım gece):**
+- Kasa satırında ("Kasanın kapağında tek çizik yok") dinleyen Ferruh `gi: normal` — önceki panik yüzünü taşımıyordu.
+- **Dükkân girişi yeniden kuruldu:** yeni dış cephe **A23d** (G95, "Karaköy · Susam Pastanesi önü", grup susam; ipucu
+  dukkan sahnesinin başlangıç arkası) → Ferruh kapıda karşılıyor → "Peri içeri adım atıyor… kendi afişi" satırında arka
+  A23'e geçer (afişi oyuncu da ilk kez burada görür) → "Bu afiş…" satırında K37. `gorseller.json → kapak.V3 = A23d`
+  (test_yeni_arayuz kapak ipucu sahnesinin başlangıç arkasında olmalı diyor; afişsiz olduğu için de uygun).
+  A23d'nin ışığı sabah/akşam arası belirsiz; sahibine soruldu, cevap gelmedi.
+- **Yeni kural SR-L — mekân ve olay akışı mantıklı** (`5_gorsel_sistemi.md` C0; `7_uretim_sureci.md` bulanık replik
+  taraması "Akış: kim nerede, ne sırayla?"; diyalogda sahne başına `⚙ akış:` notu). Sözleşme artık SR-A…L.
+- Sahibi Onay 3'ü telefonda sahne sahne sürdürüyor; bulduğu her şey bu kurallarla çözülür (önce konuş, sonra yap).
+
 ---
 
 ## 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
