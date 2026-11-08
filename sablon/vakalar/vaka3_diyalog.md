@@ -67,14 +67,14 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ---
 
 ## ipucu dukkan
-⚙ arka: A23 · figurler: peri, cengo · set: trenckot_acik · cset: haki
+⚙ arka: A23d · figurler: peri, cengo · set: trenckot_acik · cset: haki
 ⚙ Kural 21c: cam, şifre ve lacivert önlük Kenan'a da Ferruh'a da uyar. Ferruh ekranda görünür: şifreyi ve önlüğü kendisi söyler.
 
-*Karaköy. Susam Pastanesi: vitrinde simit tablaları, tezgâh, duvarlarda eski fotoğraflar. Kepenk yarı açık.* {mekan}
-*Peri içeri adım atıyor ve duruyor. Tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.* {peri: sasirmis}
-**PERİ [sasirmis]:** …
-*Göbekli, bıyıklı, papyonlu bir adam tezgâhın arkasından çıkıyor; lacivert önlüğünü düzeltiyor.* {gir: ferruh, gi: normal}
+*Karaköy. Susam Pastanesi'nin önü: kepenk yarı açık, kapı aralık, vitrinde simit tablaları.* {arka: A23d, mekan}
+*Göbekli, bıyıklı, papyonlu bir adam kapıda; lacivert önlüğünü düzeltiyor.* {gir: ferruh, gi: normal}
 **FERRUH [normal]:** Hoş geldiniz! Ben Ferruh, dükkânı ben yönetirim. Nadide Hanım dedektif tuttuğunu söyledi. {gir: ferruh, kime: peri}
+*Peri içeri adım atıyor ve duruyor. İçeride tezgâh, duvarlarda eski fotoğraflar; tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.* {arka: A23, peri: sasirmis}
+**PERİ [sasirmis]:** …
 **FERRUH [normal]:** Bu afiş Nadide Hanım'ın gözbebeği. Yıllar önce bir defilede imzalatmış. Ama siz o değilsiniz tabii. {kare: K37}
 **PERİ [kas]:** Değilim.
 **PERİ [kas]:** Ama ışık kötü. Fotoğrafçı sol profili çekmeliydi, hep söylerdim.

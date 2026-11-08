@@ -128,6 +128,7 @@
         "A21",
         "A22",
         "A23",
+        "A23d",
         "A23b",
         "A24",
         "A25",
@@ -1778,25 +1779,20 @@
           "text": "Cam içeriden kırılmış. Kasa şifreyle açılmış; şifreyi Kenan'la Ferruh bilir. Kameranın fişi 22.46'da çekilmiş; son karede lacivert bir önlük kolu.",
           "meta": "Cam içeriden kırılmış. Kasa şifreyle açılmış; şifreyi Kenan'la Ferruh bilir. Kameranın fişi 22.46'da çekilmiş; son karede lacivert bir önlük kolu.",
           "sahne": {
-            "arka": "A23",
+            "arka": "A23d",
             "set": "trenckot_acik",
             "cset": "haki",
             "figurler": ["peri", "cengo"],
             "satirlar": [
               {
                 "k": "not",
-                "m": "Karaköy. Susam Pastanesi: vitrinde simit tablaları, tezgâh, duvarlarda eski fotoğraflar. Kepenk yarı açık.",
+                "m": "Karaköy. Susam Pastanesi'nin önü: kepenk yarı açık, kapı aralık, vitrinde simit tablaları.",
+                "arka": "A23d",
                 "mekan": true
               },
               {
                 "k": "not",
-                "m": "Peri içeri adım atıyor ve duruyor. Tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.",
-                "peri": "sasirmis"
-              },
-              {"k": "peri", "i": "sasirmis", "m": "…"},
-              {
-                "k": "not",
-                "m": "Göbekli, bıyıklı, papyonlu bir adam tezgâhın arkasından çıkıyor; lacivert önlüğünü düzeltiyor.",
+                "m": "Göbekli, bıyıklı, papyonlu bir adam kapıda; lacivert önlüğünü düzeltiyor.",
                 "gir": "ferruh",
                 "gi": "normal"
               },
@@ -1807,6 +1803,13 @@
                 "gir": "ferruh",
                 "kime": "peri"
               },
+              {
+                "k": "not",
+                "m": "Peri içeri adım atıyor ve duruyor. İçeride tezgâh, duvarlarda eski fotoğraflar; tezgâhın üstünde, kocaman bir çerçevede, kendi afişi: kraliçe yıllarından, köşesinde kendi imzası.",
+                "arka": "A23",
+                "peri": "sasirmis"
+              },
+              {"k": "peri", "i": "sasirmis", "m": "…"},
               {
                 "k": "ferruh",
                 "i": "normal",

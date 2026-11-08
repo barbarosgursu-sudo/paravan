@@ -271,7 +271,8 @@
     "K56": "ara_k56.webp",
     "K40k": "ara_k40k.webp",
     "gizem.tabla": "figur_gizem_tabla.webp",
-    "K57": "ara_k57.webp"
+    "K57": "ara_k57.webp",
+    "A23d": "arka_a23d.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [
@@ -298,7 +299,7 @@
   "tam": ["K9"],
   "sola": {"tolga.sinirli": 18},
   "_not_sola": "Sağdaki figürün eli ekranın sağ kenarından taşıyorsa figür genişliğinin yüzdesi kadar sola kayar (yeni_arayuz.js vnFigurCiz).",
-  "kapak": {"V1": "A9", "V2": "A15", "V3": "A23"},
+  "kapak": {"V1": "A9", "V2": "A15", "V3": "A23d"},
   "_not_kapak": "Paylaş kartının (davet) arka planı, vaka başına. Suçluyu, itirafı ya da kararı gösteren kare seçilmez (Nurcan); vakanın ilk sahnelerinde görülen bir yer olsun. Her omurga vakada zorunlu (test_yeni_arayuz.js).",
   "kart": {"V1": "KART_V1", "V2": "KART_V2", "V3": "KART_V3"},
   "_not_kart": "Paylaş kartının kendi afiş görseli (sablon/kart_sayfa; kişiler + mekân, ipucusuz). Varsa kapak yerine bu çizilir. Yüzler üst %55te: kâğıt kutu alt %40a biner.",
@@ -363,7 +364,8 @@
     "A26": {"ad": "Susam · arka sokak", "grup": "arka_sokak"},
     "A27": {"ad": "Tophane · apartman önü", "grup": "tophane"},
     "A28": {"ad": "Kadıköy · Badem Pastanesi", "grup": "badem"},
-    "A29": {"ad": "Eminönü · un toptancısı", "grup": "eminonu"}
+    "A29": {"ad": "Eminönü · un toptancısı", "grup": "eminonu"},
+    "A23d": {"ad": "Karaköy · Susam Pastanesi önü", "grup": "susam"}
   },
   "yer_tutucu": [],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",

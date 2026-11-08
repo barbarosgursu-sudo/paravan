@@ -114,3 +114,4 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G92 | ara kare | Kapanış: Peri afişi yüzü duvara dönük koyuyor | `K57` | uretim/v3/prompts | Onay 3 |
 | G93 | ara kare | Yüzleşme (Kenan yolu): Ferruh depoya koşuyor, Kenan önlüksüz | `K40k` | uretim/v3/prompts | Onay 3 |
 | G94 | figür | Gizem, simit tablasını masaya bırakıyor | `gizem.tabla` | uretim/v3/prompts | Onay 3 |
+| G95 | arka plan | Susam'ın merkezi, dışarıdan: kapı önü (gündüz) | `A23d` | uretim/v3/prompts | Onay 3 |
