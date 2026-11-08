@@ -2722,7 +2722,7 @@
             },
             {"k": "gizem", "i": "ofkeli", "m": "Beni de suçlayacaktın.", "gir": "gizem", "kime": "ferruh"},
             {"k": "ferruh", "i": "itiraf", "m": "Biri suçlanmalıydı.", "gir": "ferruh", "kime": "gizem"},
-            {"k": "not", "m": "Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.", "kare": "K45"},
+            {"k": "not", "m": "Gizem kolundaki pembe tezgâh önlüğünü Peri'ye uzatıyor.", "kare": "K45"},
             {
               "k": "gizem",
               "i": "isveli",

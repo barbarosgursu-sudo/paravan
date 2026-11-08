@@ -271,7 +271,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **FERRUH:** Sigortadan yedi yüz yirmi bin alacaktım. Borçları kapatıp Nadide Hanım'a "kurtardım" diyecektim.
 **GİZEM [ofkeli]:** Beni de suçlayacaktın. {gir: gizem, kime: ferruh}
 **FERRUH [itiraf]:** Biri suçlanmalıydı. {gir: ferruh, kime: gizem}
-*Gizem pembe tezgâh önlüğünü çıkarıp Peri'ye uzatıyor.* {kare: K45}
+*Gizem kolundaki pembe tezgâh önlüğünü Peri'ye uzatıyor.* {kare: K45}
 **GİZEM [isveli]:** Al, bunu üstüne bağla. Pekmezli elbiseyle sokağa çıkamazsın. {kare: K45}
 **PERİ [sinirli]:** Tezgâhtar önlüğü mü? Hem de pembe? Ben pembe önlük giymem. {kare: K45}
 **GİZEM [isveli]:** Ya pembe önlük ya susam, tatlım. Seç. {kare: K45}

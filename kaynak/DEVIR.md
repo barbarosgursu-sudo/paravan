@@ -30,6 +30,10 @@ web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
   `peri.simit.utanmis`, `peri.onluklu.utanmis` dar yeniden kesilmiş ama `gorseller.json → genis` listesinde kalmıştı;
   listeden çıkarıldı. `build_html.js yeni` artık geniş liste ↔ kesim genişliğini iki yönde de denetliyor, uyuşmazsa durur.
   A23d'nin ışığı olduğu gibi kalır (sahibi).
+- **K45 (önlük sahnesi, 5 satır tek kare):** Gizem susamı 5. satırdan önce yiyordu, Peri'nin bir ayakkabısı elindeydi,
+  "önlüğü bağlıyor" resimde yoktu (sahibi). Metin: "Gizem **kolundaki** pembe tezgâh önlüğünü…" (K43'te önlük kolunda; eski
+  "çıkarıp" üstündeymiş gibi okunuyordu). İstemler hazır, üretilmedi: **G58 (K45) yeniden** yalnız uzatma anı, **G96 (K45b)
+  yeni** bağlama + susam (G58'e bağlı). Gömünce 5. satır `kare: K45b`. Ayrıntı `uretim/v3/DURUM.md`.
 - Sahibi Onay 3'ü telefonda sahne sahne sürdürüyor; bulduğu her şey bu kurallarla çözülür (önce konuş, sonra yap).
 
 ---
