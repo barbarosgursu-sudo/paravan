@@ -81,3 +81,34 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G66 | ara kare | Kapanış: kapıda Gizem ve Cengo; masanın altında Peri | `K53` | aci_masanin_alti_v2.jpg, buro_aksam.jpg, G3, G9, G4 | Aşama 3 · Kareler |
 | G67 | kart afişi | Kart afişi: Simit Soygunu | `KART_V3` | G10, G1, G4, serit_susam_dortlu.jpg, L19_peri_yuruyor.jpg | Aşama 3 · Kareler |
 | G68 | figür | Ferruh, alınmış (suçlanınca) | `ferruh.alingan` | G7 | Sonradan (6 Kasım, sahibinin bulgusu) |
+
+## Onay 3 düzeltmeleri — yeni anahtarlar (8 Kasım 2026)
+
+**Elle eklendi** (uret.py eski web düzeni; yeni istemler `uretim/v3/prompts/`, yazan `uretim/v3/onay3_istem.py`). Yenilenen 32 resmin numarası ve anahtarı yukarıdaki tabloda aynı kalır.
+
+| # | tür | ne | anahtar | referans | aşama |
+|---|---|---|---|---|---|
+| G69 | figür | Peri, trençkot AÇIK (uzun), normal (temel) | `peri.trenckot_acik.normal` | uretim/v3/prompts | Onay 3 |
+| G70 | figür | Peri, trençkot AÇIK (uzun), kaşı kalkık | `peri.trenckot_acik.kas` | uretim/v3/prompts | Onay 3 |
+| G71 | figür | Peri, trençkot AÇIK (uzun), sinirli | `peri.trenckot_acik.sinirli` | uretim/v3/prompts | Onay 3 |
+| G72 | figür | Peri, trençkot AÇIK (uzun), utanmış | `peri.trenckot_acik.utanmis` | uretim/v3/prompts | Onay 3 |
+| G73 | figür | Peri, trençkot AÇIK (uzun), şaşırmış | `peri.trenckot_acik.sasirmis` | uretim/v3/prompts | Onay 3 |
+| G74 | figür | Peri, trençkot AÇIK (uzun), meraklı | `peri.trenckot_acik.merakli` | uretim/v3/prompts | Onay 3 |
+| G75 | figür | Peri, trençkot AÇIK (uzun), kıskanç | `peri.trenckot_acik.kiskanc` | uretim/v3/prompts | Onay 3 |
+| G76 | figür | Peri, göğüslü önlüklü, yarım simit elinde | `peri.onluklu.simit_elinde` | uretim/v3/prompts | Onay 3 |
+| G77 | figür | Peri, göğüslü önlüklü, yarım simidi ısırıyor | `peri.onluklu.simit_isiriyor` | uretim/v3/prompts | Onay 3 |
+| G78 | figür | Gizem, telefonu tezgâha bırakıyor | `gizem.telefon` | uretim/v3/prompts | Onay 3 |
+| G79 | figür | Gizem, öfkeli | `gizem.ofkeli` | uretim/v3/prompts | Onay 3 |
+| G80 | figür | Gizem, Peri'yi baştan aşağı süzüyor | `gizem.suzuyor` | uretim/v3/prompts | Onay 3 |
+| G81 | figür | Gizem, tek simit uzatıyor | `gizem.simit` | uretim/v3/prompts | Onay 3 |
+| G82 | figür | Kenan, kocaman esniyor | `kenan.esniyor` | uretim/v3/prompts | Onay 3 |
+| G83 | figür | Kenan, önlüksüz, önlük elinde, öfkeli | `kenan.onluksuz` | uretim/v3/prompts | Onay 3 |
+| G84 | figür | Ferruh, yüzü bembeyaz | `ferruh.bembeyaz` | uretim/v3/prompts | Onay 3 |
+| G85 | figür | Sedat, tableti açık, ekrana bakıyor | `sedat.tablet` | uretim/v3/prompts | Onay 3 |
+| G86 | figür | Ayla Hanım, Cengo'nun ellerine bakıyor | `ayla.bakiyor` | uretim/v3/prompts | Onay 3 |
+| G87 | ara kare | Yüzleşme (Kenan yolu): herkes Ferruh'a dönmüş, Ferruh donmuş | `K40a` | uretim/v3/prompts | Onay 3 |
+| G88 | ara kare | Yüzleşme (Gizem yolu): fotoğraf elden ele, herkes Ferruh'a dönmüş | `K40b` | uretim/v3/prompts | Onay 3 |
+| G89 | ara kare | İmalathane girişi: Kenan hamur kesiyor | `K54` | uretim/v3/prompts | Onay 3 |
+| G90 | ara kare | Kapanış: Peri masanın altından çıkıyor | `K55` | uretim/v3/prompts | Onay 3 |
+| G91 | ara kare | Dükkân: Cengo Peri'nin kulağına fısıldıyor | `K56` | uretim/v3/prompts | Onay 3 |
+| G92 | ara kare | Kapanış: Peri afişi yüzü duvara dönük koyuyor | `K57` | uretim/v3/prompts | Onay 3 |

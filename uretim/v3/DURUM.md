@@ -1,5 +1,13 @@
 # Vaka 3 — durum
 
+**Aşama (8 Kasım 2026): ONAY 3 DÜZELTMELERİ.** Sahibi Onay 3'te satır–resim uyumsuzluklarını gösterdi; kurallar
+`sablon/5_gorsel_sistemi.md` C0 (SR-A…K) ve I'ya yazıldı. Kıyafet kartları G101–G111 onaylı. 56 istem hazır
+(`onay3_istem.py` → `onay3_liste.tsv`, `LISTE.md` sonu): 32 yenileme (eskiler `eski_onay3/`) + 24 yeni (G69–G92).
+Üretim sırası: temeller (G1, G69, G2, G3) ve bağımsız konuk figürleri → onaylanınca baş kırpıkları
+(`peri_trenckot2_bas`, `peri_acik_bas`, `peri_simit2_bas`, `peri_onluk2_bas`) → ifadeler ve kareler.
+Gömmeden sonra diyalog yeni anahtarlara bağlanır (set `trenckot_acik`, K40a/b, K54–K57, yeni ifadeler) — liste DEVIR.md'de.
+
+
 **Aşama:** BİTTİ — 68/68 resim oyunda ve yayında (7 Kasım 2026). Sırada: Onay 3 (sahibi oynar). Masa kartları MASA_V1–V3 eklendi.
 
 ## Sahibinin bulguları kapandı (6 Kasım 23:50)

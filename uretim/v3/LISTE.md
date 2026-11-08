@@ -101,3 +101,67 @@ gider, birlikte onaylanır; sonra o kıyafeti taşıyan her istem kartı referan
 | G109 | kıyafet kartı | Nadide Hanım | — | G6 |
 | G110 | kıyafet kartı | Sedat | — | G12 |
 | G111 | kıyafet kartı | Ayla Hanım | — | G13 |
+
+## Onay 3 düzeltmeleri (8 Kasım 2026; sahibinin onaylı listesi — `onay3_istem.py` yazar)
+
+Yenilenen 32 resim eski numarasıyla (eski onaylı `eski_onay3/`'te). Yeniler G69–G92. Her istemde `## Satırlar` ve kıyafet kartı referansı (SR-C).
+Baş kırpıkları temel onaylanınca hazırlanır: `peri_trenckot2_bas` (G1), `peri_acik_bas` (G69), `peri_simit2_bas` (G2), `peri_onluk2_bas` (G3).
+
+| # | tür | ne | anahtar | önce hazır olmalı |
+|---|---|---|---|---|
+| G1 | figür | Peri, trençkot KAPALI (uzun), normal (temel) | `peri.trenckot.normal` | — |
+| G2 | figür | Peri, felaket hâli (uzun trençkot), sinirli (temel) | `peri.simit.sinirli` | — |
+| G3 | figür | Peri, göğüslü pembe önlüklü, normal (temel) | `peri.onluklu.normal` | — |
+| G19 | figür | Peri, trençkot KAPALI (uzun), kaşı kalkık | `peri.trenckot.kas` | `referanslar/peri_trenckot2_bas.png` (yeni G1 onaylanınca yerel Claude hazırlar) |
+| G20 | figür | Peri, trençkot KAPALI (uzun), sinirli | `peri.trenckot.sinirli` | `referanslar/peri_trenckot2_bas.png` (yeni G1 onaylanınca yerel Claude hazırlar) |
+| G21 | figür | Peri, trençkot KAPALI (uzun), utanmış | `peri.trenckot.utanmis` | `referanslar/peri_trenckot2_bas.png` (yeni G1 onaylanınca yerel Claude hazırlar) |
+| G22 | figür | Peri, trençkot KAPALI (uzun), şaşırmış | `peri.trenckot.sasirmis` | `referanslar/peri_trenckot2_bas.png` (yeni G1 onaylanınca yerel Claude hazırlar) |
+| G23 | figür | Peri, trençkot KAPALI (uzun), meraklı | `peri.trenckot.merakli` | `referanslar/peri_trenckot2_bas.png` (yeni G1 onaylanınca yerel Claude hazırlar) |
+| G24 | figür | Peri, trençkot KAPALI (uzun), kıskanç | `peri.trenckot.kiskanc` | `referanslar/peri_trenckot2_bas.png` (yeni G1 onaylanınca yerel Claude hazırlar) |
+| G25 | figür | Peri, felaket hâli (uzun trençkot), utanmış | `peri.simit.utanmis` | `referanslar/peri_simit2_bas.png` (yeni G2 onaylanınca) |
+| G26 | figür | Peri, göğüslü pembe önlüklü, kaşı kalkık | `peri.onluklu.kas` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G27 | figür | Peri, göğüslü pembe önlüklü, şaşırmış | `peri.onluklu.sasirmis` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G28 | figür | Peri, göğüslü pembe önlüklü, utanmış | `peri.onluklu.utanmis` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G29 | figür | Peri, göğüslü pembe önlüklü, sinirli | `peri.onluklu.sinirli` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G42 | figür | Gizem, korkmuş (telefonsuz) | `gizem.korkmus` | — |
+| G49 | ara kare | Giriş: Peri trençkotu açmış, masada; Nadide hayran (Onay 3) | `K36` | — |
+| G50 | ara kare | Afiş: Peri kendi afişine bakakalmış; Ferruh gururla gösteriyor (Onay 3) | `K37` | — |
+| G51 | ara kare | Gizem apartman önünde komşulara simit dağıtıyor (Onay 3) | `K38` | — |
+| G52 | ara kare | Yüzleşme: salı akşamı, herkes tezgâhın önünde (Onay 3) | `K39` | — |
+| G53 | ara kare | Yüzleşme: herkes Ferruh'a dönmüş; Ferruh depoya koşuyor (Onay 3) | `K40` | — |
+| G55 | ara kare | Kovalamaca 2: Peri pekmez kazanının içinde (Onay 3) | `K42` | — |
+| G56 | ara kare | Kovalamaca 3: susamlı Peri tablada; Gizem kapıda (Onay 3) | `K43` | — |
+| G58 | ara kare | Kovalamaca sonu: Gizem Peri'ye pembe önlüğü uzatıyor (Onay 3) | `K45` | — |
+| G59 | ara kare | Karar (eksper'e anlat): merkezin kepengi inmiş, işsiz kalanlar önünde | `K46` | — |
+| G60 | ara kare | Karar (Ferruh geri çeksin): Ferruh ofiste telefonla eksperi arıyor | `K47` | — |
+| G61 | ara kare | Karar (Nadide'ye bırak): merkez Badem olmuş, Kenan yeni önlüğüyle kapıda | `K48` | — |
+| G62 | ara kare | Karar (Ferruh'tan pay al): Ferruh büroda Peri'ye zarf uzatıyor | `K49` | — |
+| G63 | ara kare | Kapanış (bağ düşük): Gizem pencerede, Cengo'nun sandalyesi boş (Onay 3) | `K50` | — |
+| G64 | ara kare | Kapanış (bağ yüksek): Cengo simidi bölüp büyük yarısını Peri'ye veriyor (Onay 3) | `K51` | — |
+| G65 | ara kare | Kapanış: Gizem Peri'ye çerçeveli afişi uzatıyor (Onay 3) | `K52` | — |
+| G66 | ara kare | Kapanış: kapıda Gizem ve Cengo; masanın altında Peri (Onay 3) | `K53` | — |
+| G67 | ara kare | Kart afişi: Simit Soygunu (Onay 3) | `KART_V3` | — |
+| G69 | figür | Peri, trençkot AÇIK (uzun), normal (temel) | `peri.trenckot_acik.normal` | — |
+| G70 | figür | Peri, trençkot AÇIK (uzun), kaşı kalkık | `peri.trenckot_acik.kas` | `referanslar/peri_acik_bas.png` (G69 onaylanınca yerel Claude hazırlar) |
+| G71 | figür | Peri, trençkot AÇIK (uzun), sinirli | `peri.trenckot_acik.sinirli` | `referanslar/peri_acik_bas.png` (G69 onaylanınca yerel Claude hazırlar) |
+| G72 | figür | Peri, trençkot AÇIK (uzun), utanmış | `peri.trenckot_acik.utanmis` | `referanslar/peri_acik_bas.png` (G69 onaylanınca yerel Claude hazırlar) |
+| G73 | figür | Peri, trençkot AÇIK (uzun), şaşırmış | `peri.trenckot_acik.sasirmis` | `referanslar/peri_acik_bas.png` (G69 onaylanınca yerel Claude hazırlar) |
+| G74 | figür | Peri, trençkot AÇIK (uzun), meraklı | `peri.trenckot_acik.merakli` | `referanslar/peri_acik_bas.png` (G69 onaylanınca yerel Claude hazırlar) |
+| G75 | figür | Peri, trençkot AÇIK (uzun), kıskanç | `peri.trenckot_acik.kiskanc` | `referanslar/peri_acik_bas.png` (G69 onaylanınca yerel Claude hazırlar) |
+| G76 | figür | Peri, göğüslü önlüklü, yarım simit elinde | `peri.onluklu.simit_elinde` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G77 | figür | Peri, göğüslü önlüklü, yarım simidi ısırıyor | `peri.onluklu.simit_isiriyor` | `referanslar/peri_onluk2_bas.png` (yeni G3 onaylanınca) |
+| G78 | figür | Gizem, telefonu tezgâha bırakıyor | `gizem.telefon` | — |
+| G79 | figür | Gizem, öfkeli | `gizem.ofkeli` | — |
+| G80 | figür | Gizem, Peri'yi baştan aşağı süzüyor | `gizem.suzuyor` | — |
+| G81 | figür | Gizem, tek simit uzatıyor | `gizem.simit` | — |
+| G82 | figür | Kenan, kocaman esniyor | `kenan.esniyor` | — |
+| G83 | figür | Kenan, önlüksüz, önlük elinde, öfkeli | `kenan.onluksuz` | — |
+| G84 | figür | Ferruh, yüzü bembeyaz | `ferruh.bembeyaz` | — |
+| G85 | figür | Sedat, tableti açık, ekrana bakıyor | `sedat.tablet` | — |
+| G86 | figür | Ayla Hanım, Cengo'nun ellerine bakıyor | `ayla.bakiyor` | — |
+| G87 | ara kare | Yüzleşme (Kenan yolu): herkes Ferruh'a dönmüş, Ferruh donmuş | `K40a` | — |
+| G88 | ara kare | Yüzleşme (Gizem yolu): fotoğraf elden ele, herkes Ferruh'a dönmüş | `K40b` | — |
+| G89 | ara kare | İmalathane girişi: Kenan hamur kesiyor | `K54` | — |
+| G90 | ara kare | Kapanış: Peri masanın altından çıkıyor | `K55` | — |
+| G91 | ara kare | Dükkân: Cengo Peri'nin kulağına fısıldıyor | `K56` | — |
+| G92 | ara kare | Kapanış: Peri afişi yüzü duvara dönük koyuyor | `K57` | — |
