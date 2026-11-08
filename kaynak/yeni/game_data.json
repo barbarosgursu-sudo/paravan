@@ -196,6 +196,7 @@
         "K43",
         "K44",
         "K45",
+        "K45b",
         "K46",
         "K47",
         "K48",
@@ -2739,7 +2740,7 @@
             {
               "k": "not",
               "m": "Peri önlüğü pekmezli elbisesinin üstüne bağlıyor. Gizem, Peri'nin omzundan bir susam alıp yiyor.",
-              "kare": "K45",
+              "kare": "K45b",
               "set": "onluklu",
               "peri": "kas"
             },
