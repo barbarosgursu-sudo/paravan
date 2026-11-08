@@ -20,7 +20,9 @@ sağda; `yeni_arayuz.js` + `.css`; eski `index.html` md5 aynı, V3 `kod dogru` t
 HİTAP bayrağı (`kime`si ekranda olmayan satır). Replikte adı geçen kişi bayrağı **yapılmadı**: sahnede olmayan birinden
 söz serbest (sahibinin kararı), bayrak gürültü olurdu.
 
-**Vaka 3 metin (onaylı, `vaka3_diyalog.md` → `arac_diyalog.js`):** 42 `{gir: nadide}`; 216, 217, 240, 272, 273 ve
+**Vaka 3 metin — YAPILDI (8 Kasım, 756121f).** Ayrıca 227 ve 238 Nadide → `kime: ferruh` (Ferruh'a adıyla
+seslenir). 250 (Gizem yolu, "Bu fotoğrafı yarın sabah eksper görecek") `kime: peri` kaldı — Ferruh'a seslenmiyor.
+**Kalan:** 239 ve 251'deki `kare: K40` → K40a / K40b, kareler üretilince. Yapılanlar: 42 `{gir: nadide}`; 216, 217, 240, 272, 273 ve
 yüzleşmelerdeki eşleri gerçek muhataba `kime` (motor işinden sonra); 218 "parayı sakladığı" silinir ("Sonra depoya
 doğru koşuyor."); 192 Rüstem: "elindeki hesap makinesini bırakıp" → "hesap makinesi elinde ayağa kalkıyor";
 379'dan sonra yeni anlatı: *"Gizem simit tablasını masaya bırakıyor."*
