@@ -238,7 +238,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **NADİDE [kirgin]:** Batıyor mu? Yarın sabah eksper gelince her şeyi açacağız Ferruh: defterleri de, depoyu da, un çuvallarına kadar. {gir: nadide, kime: ferruh}
 *Herkes Ferruh'a dönüyor.* {gir: ferruh, gi: bembeyaz, kare: K40a}
 **FERRUH [bembeyaz]:** *(yüzü bembeyaz)* Depo mu? Depoya… gerek yok ki. Ben… bir bakayım. {gir: ferruh, kime: nadide}
-*Ferruh depoya doğru koşuyor.* {cik, kare: K40}
+*Ferruh depoya doğru koşuyor.* {cik, kare: K40k}
 
 ## sahne yuzlesme_gizem
 ⚙ arka: A23b · figurler: peri, cengo · set: trenckot_acik · cset: haki

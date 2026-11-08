@@ -165,3 +165,4 @@ Baş kırpıkları temel onaylanınca hazırlanır: `peri_trenckot2_bas` (G1), `
 | G90 | ara kare | Kapanış: Peri masanın altından çıkıyor | `K55` | — |
 | G91 | ara kare | Dükkân: Cengo Peri'nin kulağına fısıldıyor | `K56` | — |
 | G92 | ara kare | Kapanış: Peri afişi yüzü duvara dönük koyuyor | `K57` | — |
+| G93 | ara kare | Yüzleşme (Kenan yolu): Ferruh depoya koşuyor, Kenan önlüksüz | `K40k` | G87, G84 |

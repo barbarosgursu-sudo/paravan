@@ -269,7 +269,8 @@
     "K40b": "ara_k40b.webp",
     "K54": "ara_k54.webp",
     "K55": "ara_k55.webp",
-    "K56": "ara_k56.webp"
+    "K56": "ara_k56.webp",
+    "K40k": "ara_k40k.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [

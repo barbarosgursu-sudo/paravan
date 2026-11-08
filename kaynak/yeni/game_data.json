@@ -204,7 +204,8 @@
         "K40b",
         "K54",
         "K55",
-        "K56"
+        "K56",
+        "K40k"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -2610,7 +2611,7 @@
               "gir": "ferruh",
               "kime": "nadide"
             },
-            {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40"}
+            {"k": "not", "m": "Ferruh depoya doğru koşuyor.", "cik": true, "kare": "K40k"}
           ]
         },
         "yuzlesme_gizem": {
