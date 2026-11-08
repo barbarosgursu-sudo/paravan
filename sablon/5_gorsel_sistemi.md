@@ -367,6 +367,8 @@ PNG, adı `G<n>.png`. Onaylı resim silinmez.
 
 - Görsel listesinden sonra, **ilk figürden önce** vakadaki her kıyafet için tek bir **ölçü resmi** üretilir: boy, kesim,
   renk, aksesuar; açılıp kapanan kıyafette iki hâl de (trençkot kapalı / açık). Peri, Cengo ve her konuğun kıyafeti.
+- Kart **tam boy**dur: baştan ayakkabıya, önden, düz duruş, nötr yüz, düz zemin (figür uyluktan kesildiği için boy
+  ve etek/trençkot uzunluğu ancak tam boyda görünür). Açılıp kapanan kıyafetin iki hâli **aynı kartta yan yana**.
 - Kartların hepsi **tek sayfada yan yana** sahibine gider, **birlikte** onaylanır.
 - Onaydan sonra o kıyafetin geçtiği her figür ve kare istemi kartı **referans** olarak alır. Kıyafet istemde sözle
   yeniden tarif edilmez (sözlü tarif üreticiye her seferinde farklı okunur); yalnız "kart nasılsa öyle" ve o satırın hâli

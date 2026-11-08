@@ -81,3 +81,23 @@ Ferruh, Gizem, Ayla, Rüstem orta yeşil · Kenan, Sedat açık bej.
 | G66 | ara kare | Kapanış: kapıda Gizem ve Cengo; masanın altında Peri | `K53` | G3, G9, G5 |
 | G67 | kart afişi | Kart afişi: Simit Soygunu | `KART_V3` | G10, G1, G4 + referanslar/serit_susam_dortlu.jpg |
 | G68 | figür | Ferruh, alınmış (suçlanınca; sahibinin bulgusu, 6 Kasım) | `ferruh.alingan` | G7 |
+
+## Kıyafet kartları (8 Kasım 2026; oyuna GÖMÜLMEZ — `sablon/5_gorsel_sistemi.md` I, SR-C)
+
+Onay 3 düzeltmelerinden önce, yenilenecek resimlerdeki her kıyafet için tam boy ölçü resmi. Hepsi tek sayfada sahibine
+gider, birlikte onaylanır; sonra o kıyafeti taşıyan her istem kartı referans alır. Peri'nin trençkotu UZUN, diz altı
+(ölçü: G58).
+
+| # | tür | ne | anahtar | önce hazır olmalı |
+|---|---|---|---|---|
+| G101 | kıyafet kartı | Peri, trençkot kapalı + açık | — | referanslar/peri_trenckot_bas.png |
+| G102 | kıyafet kartı | Peri, felaket (pekmezli açık trençkot) | — | referanslar/peri_simit_bas.png |
+| G103 | kıyafet kartı | Peri, pembe önlüklü | — | referanslar/peri_onluk_bas.png |
+| G104 | kıyafet kartı | Cengo, haki | — | G4 |
+| G105 | kıyafet kartı | Cengo, unlu | — | G5 |
+| G106 | kıyafet kartı | Gizem | — | referanslar/gizem_bas.png |
+| G107 | kıyafet kartı | Kenan, önlüklü + önlüksüz | — | G8 |
+| G108 | kıyafet kartı | Ferruh | — | G7 |
+| G109 | kıyafet kartı | Nadide Hanım | — | G6 |
+| G110 | kıyafet kartı | Sedat | — | G12 |
+| G111 | kıyafet kartı | Ayla Hanım | — | G13 |
