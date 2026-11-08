@@ -208,7 +208,8 @@
         "K54",
         "K55",
         "K56",
-        "K40k"
+        "K40k",
+        "K57"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -2774,7 +2775,8 @@
             {"k": "gizem", "i": "normal", "m": "Nadide Hanım gönderdi. \"Asıl sahibine götür\" dedi.", "kare": "K52"},
             {
               "k": "not",
-              "m": "Peri afişe bakıyor, sonra Gizem'e. Bir şey demiyor; afişi masanın arkasına, yüzü duvara dönük koyuyor."
+              "m": "Peri afişe bakıyor, sonra Gizem'e. Bir şey demiyor; afişi masanın arkasına, yüzü duvara dönük koyuyor.",
+              "kare": "K57"
             },
             {"k": "cengo", "i": "normal", "m": "Ben çıkıyorum. İyi akşamlar.", "bag": "dusuk"},
             {"k": "gizem", "i": "normal", "m": "Ben kalıyorum. Çayı demlerim.", "bag": "dusuk", "kime": "peri"},

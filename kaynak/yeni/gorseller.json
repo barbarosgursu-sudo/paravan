@@ -271,7 +271,8 @@
     "K55": "ara_k55.webp",
     "K56": "ara_k56.webp",
     "K40k": "ara_k40k.webp",
-    "gizem.tabla": "figur_gizem_tabla.webp"
+    "gizem.tabla": "figur_gizem_tabla.webp",
+    "K57": "ara_k57.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [

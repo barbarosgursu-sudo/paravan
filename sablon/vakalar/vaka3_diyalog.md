@@ -385,7 +385,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **GİZEM [isveli]:** Biliyorum. Cengo'ya da vermiyormuşsunuz. {kime: peri}
 *Gizem çantasından çerçeveli afişi çıkarıp Peri'ye uzatıyor.* {kare: K52}
 **GİZEM [normal]:** Nadide Hanım gönderdi. "Asıl sahibine götür" dedi. {kare: K52}
-*Peri afişe bakıyor, sonra Gizem'e. Bir şey demiyor; afişi masanın arkasına, yüzü duvara dönük koyuyor.*
+*Peri afişe bakıyor, sonra Gizem'e. Bir şey demiyor; afişi masanın arkasına, yüzü duvara dönük koyuyor.* {kare: K57}
 **CENGO [normal]:** Ben çıkıyorum. İyi akşamlar. {bag: dusuk}
 **GİZEM [normal]:** Ben kalıyorum. Çayı demlerim. {bag: dusuk, kime: peri}
 **PERİ [sasirmis]:** Cengo… {bag: dusuk}
