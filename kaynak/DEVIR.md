@@ -8,7 +8,18 @@
 
 ---
 
-## 00000000000000. ⬅️ 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi BEKLİYOR
+## 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+
+**Durum tek cümle:** aşağıdaki listedeki bütün resimler üretildi, denetlendi (eller omuzdan ele), gömüldü ve diyaloğa
+bağlandı; ek olarak K40k (Kenan yolunun kaçışı, Kenan önlüksüz) ve `gizem.tabla` (G94). G1, G2, G3, G27, G28, G72, G92
+filtreye takıldı, sahibi web'de üretti. Yalnız **G29** (önlüklü sinirli, HİÇBİR satırda kullanılmıyor) üretilmedi —
+sahibine "listeden çıkaralım mı" diye soruldu, cevap yok. Sıradaki: **sahibi oyunu baştan oynar (Onay 3)**, sonra vaka donar.
+Kalıcı kurallar bu gün eklendi: `uretim/CLAUDE.md` "Temeller önce, takılan temel HEMEN sahibine" ve denetim 15 (çekicilik);
+web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
+
+---
+
+## 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 **Durum tek cümle:** sahibi Onay 3'te Vaka 3 ekranlarını tek tek gösterdi; kurallar birlikte bağlandı ve belgelere
 yazıldı (`sablon/5_gorsel_sistemi.md` C0 SR-A…K ve I. Kıyafet kartı; `2_kural_kitabi.md` 4a; `7_uretim_sureci.md`
