@@ -65,7 +65,7 @@ TARZ_KARE = "Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karak
 SAC = "Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok."
 
 TR_UZUN = "kart referansındaki UZUN bej trençkot: etek ucu dizin altına, baldırın ortasına iner; bu kadrajda etek ucu GÖRÜNMÜYOR (uyluk ortasında biten kısa bir etek yok)"
-TR_KAPALI = TR_UZUN + "; belden kemeriyle sıkı bağlı, önü kapalı, yakası açık; yakadan, altındaki vücudu saran kısa siyah elbisenin derin V dekoltesi görünüyor."
+TR_KAPALI = TR_UZUN + "; belden kemeriyle SIKICA bağlı, kemer beli incecik sıkıyor; trençkot bedene oturuyor, kalçanın kıvrımı trençkotun altından belirgin; önü kapalı ama yakası DERİN açık: yakadan, altındaki vücudu saran kısa siyah elbisenin DERİN V dekoltesi belirgin biçimde görünüyor (kapalı trençkotta çekicilik dekolte, ince bel ve kalça hattıyla taşınır)."
 TR_ACIK = TR_UZUN + "; kemeri ÇÖZÜK, iki ucu yanlarından sarkıyor; iki yakası iki yana açılmış; önden, altındaki vücudu saran kısa siyah elbise ve derin V dekoltesi görünüyor."
 KARE_TR_KAPALI = "UZUN bej trençkot (etek ucu dizin altında, baldırın ortasında; kart referansındaki gibi), belden kemerli, önü kapalı, yakası açık, altındaki kısa siyah elbisenin derin V dekoltesi görünüyor"
 KARE_TR_ACIK = "UZUN bej trençkot (etek ucu dizin altında, baldırın ortasında; kart referansındaki gibi), kemeri ÇÖZÜK, önü AÇIK; altındaki vücudu saran kısa siyah elbise, derin V dekolteli, görünüyor"
@@ -73,11 +73,11 @@ ONLUK = ("Peri'nin kıyafeti: trençkot YOK (çıkarılmış). Pekmez lekeli, v�
          "kart referansındaki GÖĞÜSLÜ pembe tezgâh önlüğü: boynundan askılı, üst kenarı kalp yakalı; önlüğün üstünden elbisenin derin V dekoltesi "
          "görünüyor; göğsünden dizinin hemen üstüne kadar iner, belden arkadan bağlı; düz pembe, ön cepli, yazısız, logosuz; kenarlarına yer yer "
          "pekmez bulaşmış. Pekmez ve susam hâlâ HER YERİNDE: dağınık saçında susam taneleri ve pekmez; yanağında ve alnında pekmez damlaları; "
-         "boynunda ve göğsünün açık kısmında birkaç pekmez damlası ve susam; kollarında ve bacaklarında pekmez akıntıları ve serpiştirilmiş susam. "
+         "boynunda birkaç pekmez damlası; göğsünün açık kısmında YALNIZ birkaç susam tanesi (pekmez yok); kollarında ve bacaklarında pekmez akıntıları ve serpiştirilmiş susam. "
          "TENİ KENDİ RENGİNDE: pekmez yalnız damla ve akıntı, ten turuncuya boyanmamış. Krem eşarp boynunda; güneş gözlüğü saçın üstünde yamuk. "
          "Çıplak bacaklar, ÇORAP YOK. Ayakkabısı kırmızı stiletto.")
 KARE_ONLUK = ("derin V dekolteli kısa siyah elbisenin üstünde GÖĞÜSLÜ pembe tezgâh önlüğü (boyundan askılı, kalp yakalı üst kenarından dekolte biraz "
-              "görünüyor; kart referansındaki gibi); saçında, yüzünde, göğsünde, kollarında ve bacaklarında pekmez damlaları ve susam; trençkot, "
+              "görünüyor; kart referansındaki gibi); saçında, yüzünde, boynunda, kollarında ve bacaklarında pekmez damlaları ve susam (göğsünde yalnız birkaç susam); trençkot, "
               "eşarp başta değil (boynunda), gözlük saçta")
 
 KART = {"tr": "`onayli/G101.png` — YALNIZ Peri'nin trençkotunun kesimi ve boyu (soldaki kapalı, sağdaki açık hâl); yüzü, pozu alınmaz",
@@ -91,8 +91,11 @@ KART = {"tr": "`onayli/G101.png` — YALNIZ Peri'nin trençkotunun kesimi ve boy
         "sedat": "`onayli/G110.png` — Sedat'ın kıyafet kartı",
         "ayla": "`onayli/G111.png` — Ayla Hanım'ın kıyafet kartı"}
 
+YALNIZ = {int(x) for x in sys.argv[2].split(",")} if len(sys.argv) > 2 else None   # ör. "1,2,3": yalnız bu numaralar yazılır
 def dosya(no, baslik, tur, anahtar, refs, kontrol, satirlar, istem, bekle=""):
     assert len(refs) <= 5, (no, "en çok 5 referans")
+    YAZILAN.append((no, baslik, tur, anahtar, bekle))
+    if YALNIZ is not None and no not in YALNIZ: return
     s = f"# G{no} — {baslik}\n\n- tür: {tur} · anahtar: `{anahtar}` · Onay 3 düzeltmesi (8 Kasım 2026)\n"
     if bekle: s += f"- önce hazır olmalı: {bekle}\n"
     s += "\n## Referanslar (bu sırayla ekle; istemdeki \"birinci referans\" = 1.)\n\n"
@@ -100,7 +103,6 @@ def dosya(no, baslik, tur, anahtar, refs, kontrol, satirlar, istem, bekle=""):
     s += "## Satırlar\n\n" + ("\n".join(satirlar) if satirlar else "- (şu an hiçbir satırda kullanılmıyor; setin tamlığı için üretiliyor — 5. parça B, her kıyafette yedi ifade)") + "\n\n"
     s += f"## Kontrol\n\n{kontrol}\n\n## İstem\n\n```text\n" + "\n\n".join(x for x in istem if x) + "\n```\n"
     io.open(os.path.join(P, f"G{no}.md"), "w", encoding="utf-8", newline="\n").write(s)
-    YAZILAN.append((no, baslik, tur, anahtar, bekle))
 YAZILAN = []
 
 import subprocess
@@ -167,9 +169,9 @@ for no in (2, 25):
     par, _ = eski_istem(no)
     par = degistir(par, "kısa bej trençkot (dizin çok üstünde biter,", "kart referansındaki UZUN bej trençkot (etek ucu dizin altına iner, bu kadrajda görünmüyor;")
     par = [x for x in par if not x.startswith("Son referans")]
-    ist = par[:1] + ["Son eklenen referans YALNIZ trençkotun kesimi ve boyu içindir; oradaki pozu alma."] + par[1:]
-    refs = (["`referanslar/peri_trenckot_bas.png` — Peri'nin yüzü (onaylı G1'in baş kırpığı)", "`../referanslar/tarz_govde_kadin.jpg` — YALNIZ ölçek ve kadraj (başı silik)", KART["simit"]] if no == 2
-            else ["`referanslar/peri_simit2_bas.png` — Peri'nin felaket hâlinde başı (YENİ onaylı G2'nin baş kırpığı)", "`../referanslar/tarz_govde_kadin.jpg` — YALNIZ ölçek ve kadraj (başı silik)", KART["simit"]])
+    ist = par
+    refs = (["`referanslar/peri_trenckot_bas.png` — Peri'nin yüzü (onaylı G1'in baş kırpığı)", "`../referanslar/tarz_govde_kadin.jpg` — YALNIZ ölçek ve kadraj (başı silik)"] if no == 2
+            else ["`referanslar/peri_simit2_bas.png` — Peri'nin felaket hâlinde başı (YENİ onaylı G2'nin baş kırpığı)", "`../referanslar/tarz_govde_kadin.jpg` — YALNIZ ölçek ve kadraj (başı silik)"])
     an = "peri.simit.sinirli" if no == 2 else "peri.simit.utanmis"
     dosya(no, "Peri, felaket hâli (uzun trençkot), " + ("sinirli (temel)" if no == 2 else "utanmış"), "figür", an, refs,
           "trençkot UZUN: kadrajda etek ucu yok · derin V dekolte · ten kendi renginde · susam serpiştirilmiş · elde tek kırmızı stiletto · çorap yok · çekicilik eski onaylıdan az değil",
@@ -295,7 +297,7 @@ def kare_yenile(no, kod, refs, degisim, ek_par=None, duz_degis=None, kontrol="",
     t_ist = par
     s_duz = "".join(f"\n## Düzeltme {i+1}\n\n{x}\n" for i, x in enumerate(duz))
     dosya(no, eski_baslik(no) + " (Onay 3)", "ara kare", kod, refs, kontrol, sat if sat is not None else satirlar_kare(kod), t_ist)
-    if s_duz:
+    if s_duz and (YALNIZ is None or no in YALNIZ):
         f = os.path.join(P, f"G{no}.md"); io.open(f, "a", encoding="utf-8", newline="\n").write(s_duz)
 def eski_baslik(no):
     t = eski_metin(no).splitlines()[0]
