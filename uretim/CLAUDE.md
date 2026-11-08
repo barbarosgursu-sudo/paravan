@@ -82,6 +82,13 @@ Windows'ta kabuğu öldürmez; sonra kalan `codex`/`bash` süreci var mı bak). 
 3. Birkaç resimde bir `DURUM.md` → commit → push.
 4. Üretilecek ve denetlenecek resim kalmayınca dur. LISTE'nin hepsi `onayli/`'deyse `göm`'e geç.
 
+**Temeller önce, takılan temel HEMEN sahibine (sahibi, 8 Kasım 2026).** Her vakada üretim temellerle başlar: her
+kıyafetin temel figürü (ve ondan baş kırpığı çıkacak her resim), mekân temelleri. İlk iş yalnız temelleri üretmek ve
+denetlemek; durumları (onaylı / ret / engelli) sahibine söylenir. İki kez filtreye takılan ya da üç kez reddedilen **temel**
+döngü sonunu beklemez: sahibine o an web paketi verilir (istemin tam metni + referanslar sırayla, tam yollarıyla).
+Sahibi web'de temeli üretirken döngü temele bağlı OLMAYAN resimlerle sürer; temel gelip onaylanınca ona bağlı olanlar başlar.
+(Vaka 3 Onay 3'te G2 ve G3 engellendi, 25 resim onları bekledi.)
+
 **Sahibine sormadan devam et.** Şunları `WEB_LISTESI.md`'ye yaz, döngü sürsün:
 - 3. kez reddedilecek resim (son düzeltme notuyla),
 - iki kez güvenlik filtresine takılan resim (`## ENGELLENDİ`),

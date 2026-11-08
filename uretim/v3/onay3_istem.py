@@ -303,8 +303,8 @@ def eski_baslik(no):
     t = eski_metin(no).splitlines()[0]
     return re.sub(r"^# G\d+ — ", "", t.strip()).replace(" (Onay 3)", "")
 
-kare_yenile(49, "K36", ["`../referanslar/buro_gunduz.jpg` — büro, gündüz", "`onayli/G69.png` — Peri (açık trençkot)", "`onayli/G4.png` — Cengo", "`onayli/G6.png` — Nadide", KART["tr"]],
-            [("kısa bej trençkot, kemeri ÇÖZÜLMÜŞ, önü AÇIK", "UZUN bej trençkot (etek ucu dizin altında; beşinci referanstaki kartın sağdaki hâli), kemeri ÇÖZÜLMÜŞ, önü AÇIK; oturunca trençkotun etekleri masanın kenarından aşağı sarkıyor")],
+kare_yenile(49, "K36", ["`../referanslar/buro_gunduz.jpg` — büro, gündüz", "`onayli/G69.png` — Peri (açık trençkot)", "`onayli/G4.png` — Cengo", "`onayli/G6.png` — Nadide"],
+            [("kısa bej trençkot, kemeri ÇÖZÜLMÜŞ, önü AÇIK", "UZUN bej trençkot (etek ucu dizin altında, baldırın ortasında), kemeri ÇÖZÜLMÜŞ, önü AÇIK; oturunca trençkotun etekleri masanın kenarından aşağı sarkıyor")],
             kontrol="trençkot UZUN, etekleri masadan sarkıyor · açık, elbise ve bacak bacak üstüne görünüyor · TAM 3 kişi · çekicilik eski onaylıdan az değil")
 kare_yenile(50, "K37", ["`onayli/G10.png` — Susam'ın merkezi ve duvardaki afiş", "`onayli/G69.png` — Peri (açık trençkot)", "`onayli/G7.png` — Ferruh", "`onayli/G4.png` — Cengo", KART["tr"]],
             [("kısa bej trençkot, belden kemerli, yakası açık, altındaki kısa siyah elbisenin derin V dekoltesi görünüyor", KARE_TR_ACIK), ("sol eli trençkotun kemerinde", "sol eli trençkotun açık kenarında")],
