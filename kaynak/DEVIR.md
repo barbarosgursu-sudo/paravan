@@ -18,7 +18,7 @@ Sıra: Vaka 3 bitir → Vaka 1–2'yi Vaka 3 kurallarına göre yeniden yap → 
 Kod yazılmadı. `YENI_OYUN_CERCEVE.md`'de eskiyen satırlar işaretlendi. Sıradaki iş değişmedi (Vaka 3).
 Aynı gün açık konular da kapandı: söz *"No right answers. Only consequences."*, logo aralık kapı + ışık,
 fiyat eksik sezon 1,99 $ / tamamlanmış 2,99 $ (kitap 8–10 sezon × 8–10 vaka), davet/istatistik/anı karşılaştırması
-ileriye, Steam gündem dışı. Açık: Paravan'ın İngilizce adı (acelesiz), adların boşluk kontrolü.
+ileriye, Steam gündem dışı. Ad kesinleşti: raf "Ajar: Story Choices"; Paravan'ın İngilizce adı "Cover Story: An Istanbul Mystery".
 
 ## 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 

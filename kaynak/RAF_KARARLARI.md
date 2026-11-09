@@ -235,6 +235,19 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
   4. Google'ın zorunlu **kapalı testi** (12 kişi, 14 gün) — test oyuncuları **internetteki test topluluklarından**.
   5. **Üç vakayla yayın**; sonraki vakalar güncellemeyle eklenir.
 
+## 11b. PARAVAN'IN İNGİLİZCE ADI (9 Kasım 2026, kesin)
+
+- **Kitap adı: Cover Story: An Istanbul Mystery.**
+- **Oyundaki ajansın adı: Cover Story Investigations.** Türkçe kanonda **Paravan Dedektiflik** kalır; İngilizcede başka ad
+  vermek çeviri kararıdır, yeni olgu eklemez.
+- Gerekçe: "cover story" = gerçeği saklamak için uydurulan hikâye (paravan şirketin göstermelikliği) + Peri eski bir manken,
+  dergi **kapaklarının** yüzü + "story". Mavi Ay tonuna uyar. "Paravan" İngilizcede anlamsız ("caravan" gibi okunur).
+- Elenenler: *On Paper* (Hilmi'nin "Kâğıtta var"ı; gizem havası zayıf), *Front* (sert, anlaşılması zor),
+  *Paravan* (espri geçmez), *Façade* (2005 tarihli ünlü etkileşimli hikâye oyunu).
+- **İngilizcede yeniden yazılacak:** Vaka 1'deki "Kâğıtta var. Paravan Dedektiflik…" sahnesi yeni adın esprisine göre.
+- Kontrol: "Cover Story" adlı dedektiflik/gizem oyunu bulunmadı (web araması; marka veritabanına ve mağazaya ayrıca
+  bakılmadı). Mağazada ayrı uygulama değil, Ajar'ın içinde kitap adı olduğu için çakışma riski düşük.
+
 ## 12. İLERİYE BIRAKILANLAR (ilk sürümde YOK)
 
 Eski Android planındaki (`YENI_OYUN_CERCEVE.md`) sunucu gerektiren üç özellik ilk sürümden çıkarıldı:
@@ -249,7 +262,6 @@ en çok işe yarayanla (öneri: karar istatistiği) başlanır.
 
 ## 13. AÇIK OLANLAR
 
-- **Paravan'ın İngilizce adı** — acelesi yok; üç vakanın İngilizcesi hazırlanırken karar verilir.
 - Alan adının satın alınması ve TÜRKPATENT tescil başvurusu (sahibinin işi).
 - Paravan için komik rozetler ve sezon sonu tablosu.
 - Yeni vaka takvimi (eksik sezonu alan oyuncu bekleyecek; mağazada "yeni vaka her ay" gibi bir söz ancak üretim hızı oturunca yazılır).

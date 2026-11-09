@@ -44,7 +44,7 @@ kılıkta çıkar — *"kapıyı çalalım" / "kilidi açalım."*
 | **Platform** | ⚠ *9 Kasım 2026: mobil birinci (önce Android), Steam ileride — `RAF_KARARLARI.md` §11.* ~~**Steam birinci, Android ikinci.** Aynı HTML; Electron + Capacitor.~~ |
 | **Satış** | ⚠ *9 Kasım 2026: her sezon ayrı satılır, Vaka 1–2 bedava, sonrası kredi/reklam — `RAF_KARARLARI.md` §5–6.* ~~İlk 2-3 vaka bedava, gerisi **tek seferlik ödeme.**~~ |
 | **Reklam / elmas / abonelik** | ⚠ *9 Kasım 2026: kredi düzeni, yalnız ödüllü reklam, elmas/abonelik yine yok — `RAF_KARARLARI.md` §6.* ~~**Yok. Üçü de reddedildi.** — *Gevşetildi (16 Ekim 2026, sahibi): Android'de ödüllü reklamla üç şey — kozmetik kıyafet (gardırop), vaka başına **bir ek araştırma hakkı**, vaka bitince **kaçırılan ipuçları**. Aşağıda.*~~ |
-| **Oyun ve ajans adı** | ⚠ *9 Kasım 2026: raf "Ajar: Story Choices"; Paravan'ın İngilizce adı açık — `RAF_KARARLARI.md` §11.* ~~⏳ açık. "Paravan" İngilizce'de çalışmıyor.~~ |
+| **Oyun ve ajans adı** | ⚠ *9 Kasım 2026: raf "Ajar: Story Choices"; Paravan'ın İngilizce adı "Cover Story: An Istanbul Mystery" (ajans: Cover Story Investigations) — `RAF_KARARLARI.md` §11b.* ~~⏳ açık. "Paravan" İngilizce'de çalışmıyor.~~ |
 
 ### Gerekçeler
 
