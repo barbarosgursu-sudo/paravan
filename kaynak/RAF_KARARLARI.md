@@ -234,6 +234,7 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
   3. Üç vaka İngilizceye çevrilir.
   4. Google'ın zorunlu **kapalı testi** (12 kişi, 14 gün) — test oyuncuları **internetteki test topluluklarından**.
   5. **Üç vakayla yayın**; sonraki vakalar güncellemeyle eklenir.
+  - **Stok:** yayından önce en az bir-iki vaka (örn. Vaka 4 ve 5) hazır olur ama yayınlanmaz; stok her zaman en az bir-iki vaka. Bkz. §11c.
 
 ## 11b. PARAVAN'IN İNGİLİZCE ADI (9 Kasım 2026, kesin)
 
@@ -247,6 +248,20 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
 - **İngilizcede yeniden yazılacak:** Vaka 1'deki "Kâğıtta var. Paravan Dedektiflik…" sahnesi yeni adın esprisine göre.
 - Kontrol: "Cover Story" adlı dedektiflik/gizem oyunu bulunmadı (web araması; marka veritabanına ve mağazaya ayrıca
   bakılmadı). Mağazada ayrı uygulama değil, Ajar'ın içinde kitap adı olduğu için çakışma riski düşük.
+
+## 11c. YENİ VAKA TAKVİMİ (9 Kasım 2026)
+
+- **Ölçülen hız:** Vaka 2 ~11 sa aktif, takvimde ~1 hafta (10–16 Ekim). Vaka 3 17 Ekim'de başladı, 9 Kasım'da Onay 3'te
+  (~3,5 hafta; görsel kuralları sıkılaştı, yeniden üretimler, yeni araçlar). Yayından sonra her vakaya İngilizce çeviri
+  ve sahibinin geri çeviriyle anlam denetimi eklenir (vaka başına birkaç saat).
+- Darboğaz otomasyonun hızlandıramadığı yerler: sahibinin onayları ve oyunu baştan oynaması, görsel yeniden üretimi, çeviri denetimi.
+- **Hedef: haftada bir vaka ÜRETMEK. Söz: daha seyrek YAYINLAMAK** (örn. iki haftada bir). Fark stoka girer; aksayan
+  haftaları ve ileride ikinci kitabın zamanını karşılar. Haftada bir vaka sahibinin her hafta ~10–15 saatini ister.
+- **Söz Vaka 4–5 ölçülünce verilir:** çeviri dahil bir vaka gerçekte bir haftaya sığıyorsa söz "iki haftada bir",
+  sığmıyorsa "üç-dört haftada bir". Söz, stoktan bir vaka eksiğiyle verilir.
+- **Stok her zaman en az bir-iki vaka.**
+- **Mağazada tarih verilmez** — "Yeni vakalar düzenli olarak eklenir." Yeni vaka gelince §9'daki "Yeni" işareti ve tek seferlik kart.
+- 10 vakalık bir sezon: iki haftada bir ~5 ay, ayda bir ~10 ay.
 
 ## 12. İLERİYE BIRAKILANLAR (ilk sürümde YOK)
 
@@ -285,5 +300,5 @@ oyuncuya asla kelime olarak gösterilmez, oyun not vermez):
 
 ## 13. AÇIK OLANLAR
 
+- Yayın sıklığı sözü (Vaka 4–5 ölçülünce, §11c).
 - Alan adının satın alınması ve TÜRKPATENT tescil başvurusu (sahibinin işi).
-- Yeni vaka takvimi (eksik sezonu alan oyuncu bekleyecek; mağazada "yeni vaka her ay" gibi bir söz ancak üretim hızı oturunca yazılır).

@@ -19,6 +19,8 @@ Kod yazılmadı. `YENI_OYUN_CERCEVE.md`'de eskiyen satırlar işaretlendi. Sıra
 Aynı gün açık konular da kapandı: söz *"No right answers. Only consequences."*, logo aralık kapı + ışık,
 fiyat eksik sezon 1,99 $ / tamamlanmış 2,99 $ (kitap 8–10 sezon × 8–10 vaka), davet/istatistik/anı karşılaştırması
 ileriye, Steam gündem dışı. Ad kesinleşti: raf "Ajar: Story Choices"; Paravan'ın İngilizce adı "Cover Story: An Istanbul Mystery".
+Takvim: hedef haftada bir vaka üretmek, söz daha seyrek (Vaka 4–5 ölçülünce); yayından önce ve her zaman 1–2 vaka stok.
+Vaka 4 ve 5'te süre çeviri dahil ölçülecek (`RAF_KARARLARI.md` §11c).
 
 ## 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
