@@ -31,7 +31,8 @@ PERI_SM = ("aynı kısa bej trençkot ve altındaki dar siyah elbise; trençkot 
            "yüzde yalnız birkaç tane. Krem eşarp başından kaymış, boynuna düşmüş, ucunda pekmez lekesi; saçı açıkta ve dağınık; "
            "güneş gözlüğü saçın üstünde yamuk duruyor. ÇORAP YOK")
 PERI_ON = ("trençkot YOK (çıkarılmış). Pekmez lekeli, vücudu saran kısa siyah elbise (derin V dekolte); elbisenin üstüne belden sıkıca bağlı "
-           "pembe bir tezgâh önlüğü: düz pembe, ön cepli, yazısız, logosuz. Saçında ve omuzlarında hâlâ susam taneleri; krem eşarp boynunda gevşek; "
+           "pembe bir tezgâh önlüğü: düz pembe, ön cepli, yazısız, logosuz; önlük YENİ ve TERTEMİZ (Gizem az önce verdi): "
+           "üstünde hiç pekmez, hiç susam, hiç leke yok — pekmez yalnız elbisede, tende ve saçta. Saçında ve omuzlarında hâlâ susam taneleri; krem eşarp boynunda gevşek; "
            "güneş gözlüğü saçın üstünde. ÇORAP YOK, kırmızı stiletto")
 PERI_CEK = "Çekicilik: en üst seviyede zarif ve seksi; dekolte, belin inceliği, kalçanın ve bacağın hattı korunur. Çıplaklık yok."
 CENGO_HK = ("haki renkli, dört cepli bir askeri ceket, kollar dirseğe kadar kıvrık (bileğindeki renkli boncuklu bileklik açıkça görünüyor); "
@@ -74,7 +75,7 @@ ekle(3, "Peri, pembe önlüklü, normal (kapanış temeli)", "peri.onluklu.norma
     "Değişen: kıyafet. Kıyafet: " + PERI_ON + ".",
     "Poz: TAM İKİ KOL, İKİ EL. İki eli önlüğün iplerini belinde bağlıyor, dirsekleri yana açık. Dimdik.",
     BAS, "İfade: onurunu toplamış, sakin; pembe önlüğe rağmen kraliçe gibi; dudağında kuru bir yarım gülümseme.", PERI_CEK, YAZI, F45),
-  "Trençkot gerçekten yok mu · önlük düz pembe, yazısız · susam saçta ve omuzlarda · siyah elbise önlüğün altından görünüyor")
+  "Trençkot gerçekten yok mu · önlük düz pembe, yazısız · önlük TEMİZ mi (pekmez/susam yok) · susam saçta ve omuzlarda · siyah elbise önlüğün altından görünüyor")
 ekle(4, "Cengo, haki ceket, normal (temel)", "cengo.haki.normal", "figür", A1,
   [dosya("C1_cengo_yuz.jpg", "yüz"), dosya("cengo_beden.jpg", "beden, ölçek, kadraj, bileklik")],
   j("Birinci referans görseldeki adamın AYNISI: aynı yüz, aynı dağınık koyu saç, iki üç günlük sakal, kalın kaşlar, aynı hınzır yarım gülümseme. İkinci referanstaki gibi beden, ölçek ve kadraj: uyluk ortasından yukarısı, başın tepesi aynı yükseklikte, dikey; düz, tek renk açık bej arka plan; bileğinde aynı renkli boncuklu bileklik.",
