@@ -21,6 +21,11 @@ girişle başlar ama durağan değil; İngilizce; üretim yerelde (bulut kartı 
   arka plan pikselinde lamba ve pencere huzmesi; şimdilik yalnız A6), toz, hafif film greni, mekân etiketi; ses −14 LUFS.
   `python3 video_uret.py <metin.json> <ses klasörü> <çıktı.mp4>`; `--kare=5,14` yalnız o anların PNG'si (denetim).
   Yeni mekânda `ISIK`'a o arka planın lamba/huzme noktaları eklenir (yoksa ışık efekti yok, gerisi çalışır).
+- `vapur.py` — A6 penceresindeki vapuru bellekte ayırır (oyunun resmine YAZMAZ): vapur + köpük izi kesilir, yeri orta
+  camın alt kısmındaki sudan aynalı döşemeyle doldurulur, direkler inpaint; orta dikmenin arkası hiç görülmediği için
+  vapurun iki yanı birleştirilip dikme genişliği kadar esnetilir (kopya yok). Videoda vapur yalnız camdan görünür
+  (dikmeler önde), süre boyunca 40 px (orijinal) sola gider, hafif dalga. Sahnede `"vapur": true`. OpenCV gerekir
+  (`pip install opencv-python-headless`). Deneme: `python3 vapur.py <klasör>` → 0/30/60 px kaymış dört kare.
 - `deneme_30sn_elevenlabs.mp4`, `deneme_30sn_kokoro.mp4` — ilk 5 satır, iki ses seçeneği, ilk efekt seti.
 - `deneme_60sn.mp4` — ilk 12 satır, bütün efektler. Sesler Kokoro; yalnız açılış anlatısı
   (satır 0) ElevenLabs George (sahibinin seçimi, 9 Kasım). Depodaki 5 Mbps (yükleme için betikle yeniden üret: crf 18 ≈ 145 MB). Ses klasöründe `000.mp3` + diğerleri `NNN.wav` — betik önce

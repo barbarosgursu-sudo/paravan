@@ -65,6 +65,29 @@ OLC = H / arka0.height
 AW = round(arka0.width * OLC); AX = (AW - W) / 2          # arka planın taban kaymasu (görünmeyen yan)
 arka_b = arka0.resize((AW, H), Image.LANCZOS)
 
+# ---- pencerede giden vapur (yalnız A6; sahnede "vapur": true) — vapur.py, oyunun resmine yazmaz ----
+VAPUR = None
+if S.get('vapur') and S['arka'] == 'A6':
+    import vapur as VP
+    temiz, vap, (vx, vy), cam = VP.ayir(arka0)
+    arka_b = temiz.resize((AW, H), Image.LANCZOS)
+    vap_b = vap.resize((round(vap.width * OLC), round(vap.height * OLC)), Image.LANCZOS)
+    YOL = 40                                         # orijinal pikselde toplam sola kayma (videonun süresince)
+    R = (int((vx - YOL - 4) * OLC), int((vy - 4) * OLC), int((vx + vap.width + 4) * OLC), int((vy + vap.height + 4) * OLC))
+    cam_r = np.asarray(cam.resize((AW, H), Image.BILINEAR).crop(R)).astype(np.float32)[..., None] / 255
+    temiz_r = np.asarray(arka_b.crop(R)).astype(np.float32)
+    VAPUR = (vap_b, vx * OLC - R[0], vy * OLC - R[1])
+def arka_an(t):
+    """O anın arka planı: vapur varsa yeri kayarak (alt piksel, hafif dalga), yalnız camdan görünür."""
+    if not VAPUR: return arka_b
+    vb, x, y = VAPUR
+    dx = -YOL * OLC * t / TOPLAM; dy = .6 * math.sin(t * 1.2)
+    w, h = R[2] - R[0], R[3] - R[1]
+    kat = vb.transform((w, h), Image.AFFINE, (1, 0, -(x + dx), 0, 1, -(y + dy)), resample=Image.BILINEAR)
+    k = np.asarray(kat).astype(np.float32); a = k[..., 3:] / 255 * cam_r
+    bolge = temiz_r * (1 - a) + k[..., :3] * a
+    im = arka_b.copy(); im.paste(Image.fromarray(bolge.astype(np.uint8)), R[:2]); return im
+
 # ---- figür katmanı: oyunun yerleşimi (yeni_arayuz.css) --------------------------------
 LW = W; LH = round(W * 498 / 393); PAD = round(4 * W / 393); ALT = round(6 * W / 393)
 BOY = MANIFESTO.get('boy', {})
@@ -191,7 +214,7 @@ def kare(t):
     # arka plan: kameranın %75'i kadar (uzakta) — derinlik
     zb = 1 + (z - 1) * .75; cxb = W / 2 + (cx - W / 2) * .75; cyb = H / 2 + (cy - H / 2) * .75
     cxb, cyb = sinirla(zb, cxb, cyb)
-    bg = afin(arka_b, zb, cxb - sx, cyb - sy, AX)
+    bg = afin(arka_an(t), zb, cxb - sx, cyb - sy, AX)
     f = np.asarray(bg).astype(np.float32) / 255
     # mekân ışığı (arka planla birlikte hareket eder)
     if isik:
