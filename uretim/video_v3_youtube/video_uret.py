@@ -71,9 +71,12 @@ if S.get('vapur') and S['arka'] == 'A6':
     import vapur as VP
     temiz, vap, (vx, vy), cam = VP.ayir(arka0)
     arka_b = temiz.resize((AW, H), Image.LANCZOS)
+    # Sahibi (9 Kasım): vapur SAĞA gitsin, daha hızlı, sonunda bir kısmı sağ çerçevenin arkasına girsin.
+    # Resimde burun solda, köpük sağda → sağa giderken geri geri gitmesin diye vapur AYNALANIR.
+    vap = ImageOps.mirror(vap)
     vap_b = vap.resize((round(vap.width * OLC), round(vap.height * OLC)), Image.LANCZOS)
-    YOL = 40                                         # orijinal pikselde toplam sola kayma (videonun süresince)
-    R = (int((vx - YOL - 4) * OLC), int((vy - 4) * OLC), int((vx + vap.width + 4) * OLC), int((vy + vap.height + 4) * OLC))
+    YOL0, YOL1 = -55, 62                             # orijinal pikselde başlangıç / bitiş kayması (+ sağa)
+    R = (int((vx + YOL0 - 4) * OLC), int((vy - 4) * OLC), int((vx + vap.width + YOL1 + 4) * OLC), int((vy + vap.height + 4) * OLC))
     cam_r = np.asarray(cam.resize((AW, H), Image.BILINEAR).crop(R)).astype(np.float32)[..., None] / 255
     temiz_r = np.asarray(arka_b.crop(R)).astype(np.float32)
     VAPUR = (vap_b, vx * OLC - R[0], vy * OLC - R[1])
@@ -81,7 +84,7 @@ def arka_an(t):
     """O anın arka planı: vapur varsa yeri kayarak (alt piksel, hafif dalga), yalnız camdan görünür."""
     if not VAPUR: return arka_b
     vb, x, y = VAPUR
-    dx = -YOL * OLC * t / TOPLAM; dy = .6 * math.sin(t * 1.2)
+    dx = (YOL0 + (YOL1 - YOL0) * t / TOPLAM) * OLC; dy = .6 * math.sin(t * 1.2)
     w, h = R[2] - R[0], R[3] - R[1]
     kat = vb.transform((w, h), Image.AFFINE, (1, 0, -(x + dx), 0, 1, -(y + dy)), resample=Image.BILINEAR)
     k = np.asarray(kat).astype(np.float32); a = k[..., 3:] / 255 * cam_r

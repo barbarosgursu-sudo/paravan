@@ -24,7 +24,7 @@ girişle başlar ama durağan değil; İngilizce; üretim yerelde (bulut kartı 
 - `vapur.py` — A6 penceresindeki vapuru bellekte ayırır (oyunun resmine YAZMAZ): vapur + köpük izi kesilir, yeri orta
   camın alt kısmındaki sudan aynalı döşemeyle doldurulur, direkler inpaint; orta dikmenin arkası hiç görülmediği için
   vapurun iki yanı birleştirilip dikme genişliği kadar esnetilir (kopya yok). Videoda vapur yalnız camdan görünür
-  (dikmeler önde), süre boyunca 40 px (orijinal) sola gider, hafif dalga. Sahnede `"vapur": true`. OpenCV gerekir
+  (dikmeler önde). Sahibi (9 Kasım): vapur AYNALANIR (burun sağda) ve süre boyunca −55 → +62 px (orijinal) SAĞA gider; sonda bir kısmı sağ çerçevenin arkasına girer; hafif dalga. Sahnede `"vapur": true`. OpenCV gerekir
   (`pip install opencv-python-headless`). Deneme: `python3 vapur.py <klasör>` → 0/30/60 px kaymış dört kare.
 - `deneme_30sn_elevenlabs.mp4`, `deneme_30sn_kokoro.mp4` — ilk 5 satır, iki ses seçeneği, ilk efekt seti.
 - `deneme_60sn.mp4` — ilk 12 satır, bütün efektler. Sesler Kokoro; yalnız açılış anlatısı
