@@ -8,6 +8,15 @@
 
 ---
 
+## 0000000000000000. ⬅️ 9 Kasım 2026 — Yayın planı konuşuldu: mobil kitap rafı (yalnız belge)
+
+Sahibiyle Play Store / App Store yolu fikir olarak konuşuldu; kararların tamamı **`kaynak/RAF_KARARLARI.md`**.
+Özet: tek mobil uygulama "The Back Room: Story Choices", içinde bağımsız oyunlar (kitaplar), Paravan ilki. Türkçe
+kanon, rafta yalnız İngilizce (yapay zekâ çevirisi, vaka vaka), çok dilli yapı. Her sezon ayrı satılır; Vaka 1–2
+reklamsız, sonrası kredi (reklam = 1 kredi, tavan 5, parayla satılmaz). Önce Android, iPhone sonra, Steam ileride.
+Sıra: Vaka 3 bitir → Vaka 1–2'yi Vaka 3 kurallarına göre yeniden yap → İngilizce → kapalı test → üç vakayla yayın.
+Kod yazılmadı. `YENI_OYUN_CERCEVE.md`'de eskiyen satırlar işaretlendi. Sıradaki iş değişmedi (Vaka 3).
+
 ## 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 **Durum tek cümle:** aşağıdaki listedeki bütün resimler üretildi, denetlendi (eller omuzdan ele), gömüldü ve diyaloğa

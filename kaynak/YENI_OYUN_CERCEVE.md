@@ -3,8 +3,11 @@
 *23 Eylül 2026. Sahibiyle konuşarak alındı. Bu belge **kararların kaydı**, tasarım
 belgesi değil — henüz tek satır yazılmadı.*
 
+> **⚠ 9 Kasım 2026: platform, dil, metin anahtarı, satış, reklam ve gardırop kararları `RAF_KARARLARI.md` ile
+> DEĞİŞTİ** (mobil kütüphane uygulaması "The Back Room", Paravan rafın ilk kitabı). Çelişkide o belge geçerlidir.
+
 > **Bu, Paravan'ın devamı değil, yeni bir oyun.** Mevcut Türkçe sezon (dokuz vaka,
-> bitmiş, denetlenmiş) elde duruyor; yayınlanıp yayınlanmayacağına karar verilmedi.
+> bitmiş, denetlenmiş) elde duruyor; **yayınlanmayacak** (9 Kasım 2026, sahibi: bir denemeydi).
 
 ---
 
@@ -35,13 +38,13 @@ kılıkta çıkar — *"kapıyı çalalım" / "kilidi açalım."*
 
 | konu | karar |
 |---|---|
-| **Dil** | **Önce Türkçe, sonra İngilizce** *(4 Ekim 2026, sahibi; 23 Eylül'deki "sadece İngilizce" kararının yerine).* İngilizce geçiş çeviri değil, **yeniden yazım** olacak — espri çevrilmez (bkz. gerekçe). |
-| **Metin anahtarı sistemi** | **Kurulmayacak.** Metin JSON içinde kalır. |
+| **Dil** | ⚠ *9 Kasım 2026: Türkçe tasarım dili ve kanon, rafta YALNIZ İngilizce; çok dilli yapı — `RAF_KARARLARI.md` §4.* ~~**Önce Türkçe, sonra İngilizce** *(4 Ekim 2026, sahibi; 23 Eylül'deki "sadece İngilizce" kararının yerine).* İngilizce geçiş çeviri değil, **yeniden yazım** olacak — espri çevrilmez (bkz. gerekçe).~~ |
+| **Metin anahtarı sistemi** | ⚠ *9 Kasım 2026: KURULACAK (çok dilli yapı) — `RAF_KARARLARI.md` §4.* ~~**Kurulmayacak.** Metin JSON içinde kalır.~~ |
 | **Mekân** | **İstanbul.** Türk karakterler, Türk mekânlar. |
-| **Platform** | **Steam birinci, Android ikinci.** Aynı HTML; Electron + Capacitor. |
-| **Satış** | İlk 2-3 vaka bedava, gerisi **tek seferlik ödeme.** |
-| **Reklam / elmas / abonelik** | **Yok. Üçü de reddedildi.** — *Gevşetildi (16 Ekim 2026, sahibi): Android'de ödüllü reklamla üç şey — kozmetik kıyafet (gardırop), vaka başına **bir ek araştırma hakkı**, vaka bitince **kaçırılan ipuçları**. Aşağıda.* |
-| **Oyun ve ajans adı** | ⏳ açık. "Paravan" İngilizce'de çalışmıyor. |
+| **Platform** | ⚠ *9 Kasım 2026: mobil birinci (önce Android), Steam ileride — `RAF_KARARLARI.md` §11.* ~~**Steam birinci, Android ikinci.** Aynı HTML; Electron + Capacitor.~~ |
+| **Satış** | ⚠ *9 Kasım 2026: her sezon ayrı satılır, Vaka 1–2 bedava, sonrası kredi/reklam — `RAF_KARARLARI.md` §5–6.* ~~İlk 2-3 vaka bedava, gerisi **tek seferlik ödeme.**~~ |
+| **Reklam / elmas / abonelik** | ⚠ *9 Kasım 2026: kredi düzeni, yalnız ödüllü reklam, elmas/abonelik yine yok — `RAF_KARARLARI.md` §6.* ~~**Yok. Üçü de reddedildi.** — *Gevşetildi (16 Ekim 2026, sahibi): Android'de ödüllü reklamla üç şey — kozmetik kıyafet (gardırop), vaka başına **bir ek araştırma hakkı**, vaka bitince **kaçırılan ipuçları**. Aşağıda.*~~ |
+| **Oyun ve ajans adı** | ⚠ *9 Kasım 2026: raf "The Back Room: Story Choices"; Paravan'ın İngilizce adı açık — `RAF_KARARLARI.md` §11.* ~~⏳ açık. "Paravan" İngilizce'de çalışmıyor.~~ |
 
 ### Gerekçeler
 
@@ -65,7 +68,7 @@ bir anlatı-bulmaca oyunu ilk 30 günde 1.640 satış / 8.200 $.
 açılan özel seçenekler) sözleşmeyi doğrudan deler — *"düzgün insan olmak için para öde"*
 demeye gelir. `test_borc.js` dokuz vakada da tersini sınıyor.
 
-**Gardırop — reklamla açılan kıyafet (16 Ekim 2026, sahibinin kararı; Android aşamasında).**
+**Gardırop — reklamla açılan kıyafet (16 Ekim 2026, sahibinin kararı; Android aşamasında).** ⚠ *9 Kasım 2026: ilk sezonda kıyafet YOK, ikinci sezonda düşünülür; reklamlı işlemler artık kredi ile — `RAF_KARARLARI.md` §6.*
 Oyuncu ödüllü reklam izleyerek Peri ve Cengo için ek kıyafet açar. Yalnız **kozmetik**: hiçbir
 seçeneği, ipucunu, parayı, bağı değiştirmez — "seçim satma" kuralına dokunmaz. Yalnız **konuşma
 ekranındaki figürlerde** görünür; ara kareler hikâyenin kendi kıyafetiyle kalır (her kareyi iki

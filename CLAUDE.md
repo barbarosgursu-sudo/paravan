@@ -8,6 +8,10 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
 > ### ⬅️ VAKA 3 İÇİN: ÖNCE `sablon/vakalar/vaka3_baslangic.md` OKU (sonra DEVIR.md) — Vaka 2 dondu (16 Ekim 2026)
 >
+> ### 📚 YAYIN / MOBİL: `kaynak/RAF_KARARLARI.md` OKU (9 Kasım 2026) — oyun tek başına değil, "The Back Room"
+> ### adlı mobil kitap rafının ilk kitabı olarak çıkacak; platform, dil (rafta yalnız İngilizce), satış, reklam/kredi
+> ### kararları orada. `YENI_OYUN_CERCEVE.md` ile çelişirse o geçerli.
+>
 > ### 🖼️ RESİM ÜRETİMİ: `uretim/CLAUDE.md` OKU (Codex + yerel Claude düzeni, 6 Kasım 2026)
 >
 > ### ⬅️ YENİ OTURUM: ÖNCE `kaynak/DEVIR.md` OKU
@@ -402,7 +406,7 @@ Kalan tek iş:
   getirilmesi gerekir. `test_ses.js` müzik izinin geri sızmadığını kasten
   kolluyor — karar geri alınırsa o test de bilerek güncellenmeli.
 
-Sonrası Android aşaması (bilerek ertelendi): Capacitor, görselleri base64'ten
+Sonrası Android aşaması (bilerek ertelendi; 9 Kasım 2026'dan beri çerçevesi `kaynak/RAF_KARARLARI.md`): Capacitor, görselleri base64'ten
 çıkarma, donanım geri tuşu, erişilebilirlik, ve `kaynak/final_tablo_plani.md`'deki
 sezon sonu istatistik tablosu.
 
