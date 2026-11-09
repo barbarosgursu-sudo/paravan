@@ -244,7 +244,11 @@ SR = 44100
 ses = np.zeros(int(TOPLAM * SR) + SR, np.float32)
 for p in plan:
     raw = subprocess.check_output(['ffmpeg', '-v', 'error', '-i', p['ses'], '-f', 'f32le', '-ac', '1', '-ar', str(SR), '-'])
-    a = np.frombuffer(raw, np.float32); s0 = int(p['bas'] * SR); ses[s0:s0 + len(a)] += a
+    a = np.frombuffer(raw, np.float32).copy()
+    # satırlar aynı seviyede (ElevenLabs ile Kokoro karışınca da): RMS -20 dBFS, tepe -1 dB
+    rms = float(np.sqrt(np.mean(a[np.abs(a) > .01] ** 2))) if np.any(np.abs(a) > .01) else 0
+    if rms > 0: a *= min(10 ** (-20 / 20) / rms, .89 / max(1e-6, float(np.abs(a).max())))
+    s0 = int(p['bas'] * SR); ses[s0:s0 + len(a)] += a
 ses_yol = cikti + '.ses.wav'
 with wave.open(ses_yol, 'wb') as w:
     w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR)
