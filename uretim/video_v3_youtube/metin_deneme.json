@@ -1,5 +1,5 @@
 {
- "_not": "Vaka 3 girişinin ilk 10 satırı (kaynak/yeni/game_data.json → V3 sahneler.giris, satır 0–9), İngilizce. Sahne bilgisi (konuşan, ifade, kim ekranda) oyunun satırından aynen alındı; yalnız metin çevrildi.",
+ "_not": "Vaka 3 girişinin ilk 12 satırı (kaynak/yeni/game_data.json → V3 sahneler.giris, satır 0–11), İngilizce. Konuşan/ifade/kim ekranda oyunun satırından; yalnız metin çevrildi. Efekt alanları (hepsi isteğe bağlı): vurgu (kısa yaklaşma), sarsinti [satır başından sn], gergin (kenar karartması + soğuk renk), parilti [x,y ekran px, satır başından sn].",
  "sesler": {
   "anlatici": [
    "JBFqnCBsd6RMkjVDRZzb",
@@ -59,7 +59,12 @@
    "k": "peri",
    "sol": "peri.trenckot.kas",
    "sag": "cengo.haki.kas",
-   "m": "It's a disguise. A detective on a trail mustn't be recognized. It says so in the book."
+   "m": "It's a disguise. A detective on a trail mustn't be recognized. It says so in the book.",
+   "parilti": [
+    330,
+    1020,
+    0.2
+   ]
   },
   {
    "k": "cengo",
@@ -77,7 +82,11 @@
    "k": "not",
    "sol": "peri.trenckot.normal",
    "sag": "nadide.normal",
-   "m": "A knock at the door. On the threshold stands a tall, upright lady with snow-white hair. She carries a cane, but never lets it touch the floor."
+   "m": "A knock at the door. On the threshold stands a tall, upright lady with snow-white hair. She carries a cane, but never lets it touch the floor.",
+   "sarsinti": [
+    0.0,
+    0.35
+   ]
   },
   {
    "k": "nadide",
@@ -102,6 +111,20 @@
    "sol": "peri.trenckot.kas",
    "sag": "cengo.haki.gulen",
    "m": "The disguise works wonders. She knew you the second she walked in."
+  },
+  {
+   "k": "nadide",
+   "sol": "peri.trenckot.kas",
+   "sag": "nadide.normal",
+   "m": "I'm Nadide. Susam Pastry Shop is mine. My husband and I opened it forty-five years ago with a single counter. Now there are four shops."
+  },
+  {
+   "k": "nadide",
+   "sol": "peri.trenckot.kas",
+   "sag": "nadide.kirgin",
+   "gergin": true,
+   "m": "On Sunday night they robbed our main shop in Karaköy. The back window was smashed, the safe left open. The whole weekend's takings, gone.",
+   "vurgu": true
   }
  ]
 }
