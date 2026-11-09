@@ -104,7 +104,7 @@ Defter'den açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`*
 **AÇIK SORU (17 Ekim 2026, sahibi):** düğmenin yeri geçici. Kaçan ipuçlarının altında durunca oyuncu ipuçlarını
 izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse gitmez. Şimdilik böyle kalıyor, sonra düşünülecek.
 
-**Android aşamasına eklenenler (16 Ekim 2026, sahibinin kararı; başka bir oyunun ekranlarından).**
+**Android aşamasına eklenenler (16 Ekim 2026, sahibinin kararı; başka bir oyunun ekranlarından).** ⚠ *9 Kasım 2026: davet, karar istatistiği ve anı karşılaştırması ilk sürümden ÇIKARILDI (sunucu ister); rozetler kitabın kararı — `RAF_KARARLARI.md` §12.*
 - **Paylaş (web'de kuruldu, 17 Ekim 2026):** biten vaka afişli bir kartla paylaşılır; kart suçlu/karar/kasa
   taşımaz. Android'de kalan: anı karşılaştırması (bitirmiş arkadaşa kilitli) ve davet kodu. `CLAUDE.md` → "Paylaş".
 - **Arkadaş daveti:** davet eden de gelen de birer **ek araştırma hakkı** kazanır; haklar birikir,

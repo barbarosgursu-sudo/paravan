@@ -18,6 +18,8 @@ haberleri doğrular, yayınlar ya da yayınlamaz, sonucuna katlanır).
   kopyalayabilir**; kopyalandıktan sonra o kitabın malıdır. (Bedeli bilerek kabul edildi: bir kitapta bulunan
   hata ötekinde kendiliğinden düzelmez.)
 - **Türler serbest:** dedektiflik, gerilim, aşk, tarih… Ortak olan ruh: kararların bedeli var.
+- **Boyut (sahibi):** her kitap **8–10 sezon**, her sezon **8–10 vaka**. Paravan'da bir vaka ~**10–15 dakika**
+  (metin sayımı, 9 Kasım 2026: V1 ~130 satır, V2 ~150, V3 ~160 oyuncunun gördüğü yolda; vakalar uzuyor). Bir sezon ~1,5–2,5 saat.
 - **Eski Paravan** (dokuz vakalık ilk oyun) bir denemeydi; rafa girmez, yayınlanmaz. Rafın ilk kitabı **yeni Paravan**.
 - **Kitaplar arası bağ yok:** her kitap kendi evreninde.
 
@@ -85,7 +87,14 @@ haberleri doğrular, yayınlar ya da yayınlamaz, sonucuna katlanır).
 - Bir sezonu oynamak için öncekinin bitmesi şart. **Sonraki sezonun satın alma düğmesi, önceki sezon bitince görünür.**
 - **Raf paketi şimdilik yok** (rafta 3–4 kitap olunca, "şu anki kitaplar" diye açıkça yazılmış bir paket düşünülür;
   birkaç sezon birikince "bütün sezonlar" paketi de).
-- **Fiyat:** rakam sonra. Ülkeye göre fiyatlama kullanılır.
+- **Fiyat (ABD doları; öteki ülkeleri Google ayarlar):**
+  - **Tamamlanmamış sezon** (bütün vakaları henüz çıkmamış): **1,99 $**. Bu fiyattan alan, sonradan gelen vakaları da alır.
+  - **Tamamlanmış sezon** (8–10 vakanın hepsi çıkmış): **2,99 $**. Erken alan ucuza alır.
+  - 10 sezonun hepsini alan oyuncu kitaba yıllar içinde ~30 $ öder.
+  - Gerekçe: mobilde oyuncuların yalnız ~%2–5'i para öder; fiyatı düşürmek bu oranı pek değiştirmez.
+    Satın almayı belirleyen fiyat değil, ilk iki vakanın kalitesi (ilk satın alma seçeneği Vaka 2 → 3'te) ve reklamın yorgunluğu.
+  - **Satın alma ekranında dürüst karşılaştırma:** *"Bu sezon için yaklaşık 40 reklam yerine: tek seferlik 1,99 $"*. Baskı yok, yalnız bilgi.
+- Fiyat sonradan değiştirilebilir; önceden alanları etkilemez.
 - **Aile paylaşımı açık.**
 - **İade:** mağaza yönetir; iade edilen sezon reklamlı düzene döner, kayıt silinmez.
 - "Vaka sat, seçim satma" kuralı aynen.
@@ -129,6 +138,12 @@ haberleri doğrular, yayınlar ya da yayınlamaz, sonucuna katlanır).
 - **Reklam yüklenemezse** (ağ reklam göndermiyor ya da oyuncuda reklam engelleyici var): birkaç kez yeniden dener;
   yine gelmezse **günde en fazla 1 bedava kredi**.
 - Mağaza sayfasında "Reklam içerir" ve "Uygulama içi satın alma" etiketleri (zorunlu).
+
+**Reklam sayısı (hesap, 10 vakalık sezon, her şeyi reklamla açan oyuncu):** vaka başına ~5 (geçiş 1, +1 hak 1,
+kaçan ipucu ~2 — her biri ayrı reklam, vaka özeti 1). Sezon 1'de ~40 (Vaka 1–2 reklamsız), sonraki sezonlarda ~50.
+Her şeyi açan oyuncu ~her 3 dakikada bir reklam görür (kendi seçimi); yalnız geçişleri izleyen ~her 10–15 dakikada bir.
+Gelir kabaca: reklam başına ~0,5–2 sent; yalnız geçiş izleyen ~5–15 sent/sezon, her şeyi açan ~20–80 sent; sezonu
+alan ~2,50 $ (mağaza payından sonra). **Ana gelir satın almadan gelir;** reklam, satın almayacak oyuncudan küçük bir pay.
 
 ## 7. İNDİRME VE YER
 
@@ -179,7 +194,9 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
 ## 11. KİMLİK, HESAP, YAYIN
 
 - **Rafın sözü:** her kararın bir bedeli var · oyun seni yargılamaz, not vermez · kaybetmek yok ama her seçim bir
-  şey götürür. İngilizce tek cümleye dökülecek (örnek: *"Stories where every choice costs something."*).
+  şey götürür. **İngilizce cümlesi: *"No right answers. Only consequences."*** (Doğru cevap yok. Yalnız sonuçlar var.)
+- **Logo:** **aralık bir kapı, içeriden sızan ışık.** Küçükken seçilebilir, tek renkle çalışır, içinde yazı yok
+  (raf adı yanına ayrıca yazılır). Kapakların köşesindeki işaret ve (ikinci kitaptan sonra) uygulama simgesi.
 - **Uygulama adı:** **The Back Room: Story Choices** — yapı "Marka: tür" (marka akılda kalır, tür aramada bulunur;
   yalnız tür kelimelerinden ad reddedildi: akılda kalmaz, sahiplenilemez, Apple "kelime doldurma" sayabilir).
 - **Geliştirici adı:** **Back Room Interactive.** ("Neural Forge" elendi: türü anlatmıyor, yapay zekâyı öne çıkarıyor.)
@@ -193,7 +210,8 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
 - **Kabul edildi:** Apple'da kişisel hesapla satıcı adı olarak sahibinin **gerçek adı** görünür; AB'de "tüccar"
   bilgileri (ad, adres, telefon, e-posta) mağazada gösterilir. Adres için sanal ofis seçeneği muhasebeciye sorulabilir.
   Şirket konusu raf büyüyünce düşünülür.
-- **Platform sırası:** **mobil birinci, Steam ileride** (orada her kitap ayrı, peşin satılan oyun olarak düşünülebilir).
+- **Platform sırası:** **mobil birinci. Steam şimdilik gündem dışı** (sahibi: gündeme gelince konuşulur; orada her
+  kitap ayrı, peşin satılan oyun olur, reklam/kredi yok — ayrı satış düzeni gerekir).
   Mobilde **önce yalnız Android** (sahibinin Mac'i yok); iPhone sonra.
 - **Yayın sırası (Paravan):**
   1. Vaka 3 bitirilir.
@@ -202,12 +220,21 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
   4. Google'ın zorunlu **kapalı testi** (12 kişi, 14 gün) — test oyuncuları **internetteki test topluluklarından**.
   5. **Üç vakayla yayın**; sonraki vakalar güncellemeyle eklenir.
 
-## 12. AÇIK OLANLAR
+## 12. İLERİYE BIRAKILANLAR (ilk sürümde YOK)
 
-- Paravan'ın İngilizce adı (sahibi: "sonra düşünürüz").
-- Fiyat rakamları.
-- Rafın sözünün İngilizce tek cümlesi, logo.
-- Adların boşluk kontrolü.
-- Steam'in zamanı ve biçimi.
-- Çerçeve belgesindeki Android aşaması özellikleri (davet kodu, karar istatistiği, anı karşılaştırması, rozetler)
-  bu raf düzenine nasıl oturacak — konuşulmadı.
+Eski Android planındaki (`YENI_OYUN_CERCEVE.md`) sunucu gerektiren üç özellik ilk sürümden çıkarıldı:
+**arkadaş daveti**, **karar istatistiği** ("oyuncuların %38'i…"), **anı karşılaştırması**.
+Gerekçe: para olarak ucuz (Firebase gibi bir hizmet; birkaç bin oyuncuda bedava kota, on binlerce oyuncuda ~5–20 $/ay),
+ama kurmak ve bakmak, gizlilik (izin, mağaza beyanı, sunucuda "verilerimi sil"), hile (sahte davetle kredi) ve kesinti
+yükü getirir; "hesap yok, veri yok" kararını zorlar. Karar istatistiği az oyuncuyla anlamsız. Oyuncu sayısı belli olunca
+en çok işe yarayanla (öneri: karar istatistiği) başlanır.
+
+**Komik rozetler** ve **sezon sonu tablosu** (karşılaştırmasız hâli, `final_tablo_plani.md`) sunucu istemez; bunlar
+**her kitabın kendi kararı**, raf karışmaz. Paravan için ayrıca konuşulacak.
+
+## 13. AÇIK OLANLAR
+
+- **Paravan'ın İngilizce adı** — acelesi yok; üç vakanın İngilizcesi hazırlanırken karar verilir.
+- Adların (The Back Room: Story Choices, Back Room Interactive) mağaza / web adresi / marka kaydında boşluk kontrolü — iş, sahibi isteyince.
+- Paravan için komik rozetler ve sezon sonu tablosu.
+- Yeni vaka takvimi (eksik sezonu alan oyuncu bekleyecek; mağazada "yeni vaka her ay" gibi bir söz ancak üretim hızı oturunca yazılır).
