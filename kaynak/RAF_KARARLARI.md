@@ -25,7 +25,7 @@ haberleri doğrular, yayınlar ya da yayınlamaz, sonucuna katlanır).
 
 ## 1. RAF EKRANI
 
-- **Hava:** kitapçı rafı; ton **eski bir kitapçının arka odası** (sahaf). Raf sade ve nötr — her türün kapağı
+- **Hava:** kitapçı rafı; ton **eski bir kitapçı, aralık bir kapının ardı** (sahaf). Raf sade ve nötr — her türün kapağı
   yanında sırıtmamalı.
 - **Düzen:** üstte büyük "öne çıkan" kitap (en yeni ya da oyuncunun oynadığı), altında küçük kapaklı raf.
 - **Kapak:** her kitabı temsil eden bir **resim**, dikey (~2:3). Kitabın adı resmin içine çizdirilmez;
@@ -197,13 +197,28 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
   şey götürür. **İngilizce cümlesi: *"No right answers. Only consequences."*** (Doğru cevap yok. Yalnız sonuçlar var.)
 - **Logo:** **aralık bir kapı, içeriden sızan ışık.** Küçükken seçilebilir, tek renkle çalışır, içinde yazı yok
   (raf adı yanına ayrıca yazılır). Kapakların köşesindeki işaret ve (ikinci kitaptan sonra) uygulama simgesi.
-- **Uygulama adı:** **The Back Room: Story Choices** — yapı "Marka: tür" (marka akılda kalır, tür aramada bulunur;
-  yalnız tür kelimelerinden ad reddedildi: akılda kalmaz, sahiplenilemez, Apple "kelime doldurma" sayabilir).
-- **Geliştirici adı:** **Back Room Interactive.** ("Neural Forge" elendi: türü anlatmıyor, yapay zekâyı öne çıkarıyor.)
-- ⚠ **Adların mağazalarda, web adresinde ve marka kayıtlarında boş olup olmadığı KONTROL EDİLMEDİ.**
+- **Uygulama adı: Ajar: Story Choices** (KESİN, 9 Kasım 2026). "Ajar" = aralık (kapı); logoyla aynı şeyi söylüyor.
+  Yapı "Marka: tür" (marka akılda kalır, tür aramada bulunur; yalnız tür kelimelerinden ad reddedildi: akılda kalmaz,
+  sahiplenilemez, Apple "kelime doldurma" sayabilir).
+- **Geliştirici adı: Ajar Interactive.** ("Neural Forge" elendi: türü anlatmıyor, yapay zekâyı öne çıkarıyor.)
+- **Elenen adlar:** "The Back Room" (ünlü "The Backrooms" korku evrenine çok yakın — aramada korku oyunları çıkar,
+  karışıklık riski); "Threshold" (2024 tarihli tanınmış bir korku oyunu ve birkaç hikâye oyunu aynı adı taşıyor).
+- **Ad kontrolü (9 Kasım 2026, ön eleme — hukuki görüş değil):**
+  - Google Play: "Ajar" adlı oyun/hikâye uygulaması yok. App Store: oyun olmayan iki "AJAR" uygulaması var; Apple tam
+    adın benzersizliğini ister, "Ajar: Story Choices" kesin cevabı Apple panelinde alır.
+  - "Ajar Interactive / Ajar Games" adlı stüdyo yok.
+  - ABD (özet siteden, USPTO'nun kendisinden değil): sınıf 9'da eski "AJAR" markası ölü; geçerli "AR AJAR" sınıf 3/21 (ilgisiz).
+  - **TÜRKPATENT** (sahibi baktı): dört "ajar" kaydı, hepsi 05/25/29/30/35/40 (giyim, gıda, perakende); **9, 41, 28'de yok.**
+    İsteğe bağlı: "acar" araması (İngilizce okunuş benzer).
+  - **`ajarstories.com` boş** (sahibi baktı, Metunic: ilk yıl ~636 ₺, yenileme ~843 ₺). Yalnız `.com` yeter. `ajar.app` sonucu görülmedi.
+  - Bakılmadı: AB (EUIPO), sosyal medya hesap adları.
+- **Ad koruması:** adı kullanmaya başlamak (alan adı, yayın) önceki kullanım kanıtı oluşturur; Türkiye'de önceden iyi
+  niyetle kullanan aynı ölçüde kullanmaya devam edebilir. En sağlam yol: yayından önce/hemen sonra **TÜRKPATENT'e
+  sınıf 9 ve 41'de tescil başvurusu**; yurt dışı (Madrid) gelir başlayınca. Marka vekili isteğe bağlı.
 - **Simge:** ilk sürümde Paravan'ın görseli + köşede rafın küçük işareti; ikinci kitap gelince rafın simgesi.
   Alt başlık / ekran görüntüleri başlangıçta Paravan'ı anlatır.
-- **Web sayfası:** tek, sade sayfa — gizlilik politikası + kitaplar + mağaza bağlantıları; adresi rafın adıyla.
+- **Web sayfası:** tek, sade sayfa — gizlilik politikası + kitaplar + mağaza bağlantıları; adres **`ajarstories.com`**
+  (destek e-postası da oradan, örn. `support@ajarstories.com`).
 - **Hesap:** Google Play'de **kişisel hesap** (geliştirici adı seçilebilir). Şirket yok; sahibi Türkiye'de vergiye tabi
   (GVK 20/B mobil uygulama geliştiriciliği istisnası, özel banka hesabı + stopaj — **muhasebeciye danışılacak**;
   reklam gelirinin kapsama girip girmediği de sorulacak). ABD vergisi için W-8BEN.
@@ -235,6 +250,6 @@ en çok işe yarayanla (öneri: karar istatistiği) başlanır.
 ## 13. AÇIK OLANLAR
 
 - **Paravan'ın İngilizce adı** — acelesi yok; üç vakanın İngilizcesi hazırlanırken karar verilir.
-- Adların (The Back Room: Story Choices, Back Room Interactive) mağaza / web adresi / marka kaydında boşluk kontrolü — iş, sahibi isteyince.
+- Alan adının satın alınması ve TÜRKPATENT tescil başvurusu (sahibinin işi).
 - Paravan için komik rozetler ve sezon sonu tablosu.
 - Yeni vaka takvimi (eksik sezonu alan oyuncu bekleyecek; mağazada "yeni vaka her ay" gibi bir söz ancak üretim hızı oturunca yazılır).

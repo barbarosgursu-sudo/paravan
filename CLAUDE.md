@@ -8,7 +8,7 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
 > ### ⬅️ VAKA 3 İÇİN: ÖNCE `sablon/vakalar/vaka3_baslangic.md` OKU (sonra DEVIR.md) — Vaka 2 dondu (16 Ekim 2026)
 >
-> ### 📚 YAYIN / MOBİL: `kaynak/RAF_KARARLARI.md` OKU (9 Kasım 2026) — oyun tek başına değil, "The Back Room"
+> ### 📚 YAYIN / MOBİL: `kaynak/RAF_KARARLARI.md` OKU (9 Kasım 2026) — oyun tek başına değil, "Ajar"
 > ### adlı mobil kitap rafının ilk kitabı olarak çıkacak; platform, dil (rafta yalnız İngilizce), satış, reklam/kredi
 > ### kararları orada. `YENI_OYUN_CERCEVE.md` ile çelişirse o geçerli.
 >
