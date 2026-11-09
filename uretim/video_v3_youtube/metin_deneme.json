@@ -1,0 +1,107 @@
+{
+ "_not": "Vaka 3 girişinin ilk 10 satırı (kaynak/yeni/game_data.json → V3 sahneler.giris, satır 0–9), İngilizce. Sahne bilgisi (konuşan, ifade, kim ekranda) oyunun satırından aynen alındı; yalnız metin çevrildi.",
+ "sesler": {
+  "anlatici": [
+   "JBFqnCBsd6RMkjVDRZzb",
+   "George"
+  ],
+  "peri": [
+   "pFZP5JQG7iQjIQuC4Bku",
+   "Lily"
+  ],
+  "cengo": [
+   "N2lVS1w4EtoT3dr4eOWO",
+   "Callum"
+  ],
+  "nadide": [
+   "Xb7hH8MSUJpSbSDYk0k2",
+   "Alice"
+  ]
+ },
+ "kokoro": {
+  "anlatici": [
+   "bm_george",
+   0.95
+  ],
+  "peri": [
+   "af_bella",
+   1.0
+  ],
+  "cengo": [
+   "am_fenrir",
+   1.0
+  ],
+  "nadide": [
+   "bf_emma",
+   0.92
+  ]
+ },
+ "sahne": {
+  "arka": "A6",
+  "mekan": "Office · Day",
+  "set": "trenckot",
+  "cset": "haki"
+ },
+ "satirlar": [
+  {
+   "k": "not",
+   "sol": "peri.trenckot.normal",
+   "sag": "cengo.haki.normal",
+   "m": "Morning. The office. Peri sits at her desk in a beige trench coat, a scarf over her hair, big sunglasses pushed up on her forehead. Cengo stops in the doorway and stares."
+  },
+  {
+   "k": "cengo",
+   "sol": "peri.trenckot.normal",
+   "sag": "cengo.haki.kas",
+   "m": "What's with the getup? Did you come straight from a film set?"
+  },
+  {
+   "k": "peri",
+   "sol": "peri.trenckot.kas",
+   "sag": "cengo.haki.kas",
+   "m": "It's a disguise. A detective on a trail mustn't be recognized. It says so in the book."
+  },
+  {
+   "k": "cengo",
+   "sol": "peri.trenckot.kas",
+   "sag": "cengo.haki.gulen",
+   "m": "There's no case. Whose trail are you even on?"
+  },
+  {
+   "k": "peri",
+   "sol": "peri.trenckot.normal",
+   "sag": "cengo.haki.gulen",
+   "m": "Today's client. A detective comes prepared."
+  },
+  {
+   "k": "not",
+   "sol": "peri.trenckot.normal",
+   "sag": "nadide.normal",
+   "m": "A knock at the door. On the threshold stands a tall, upright lady with snow-white hair. She carries a cane, but never lets it touch the floor."
+  },
+  {
+   "k": "nadide",
+   "sol": "peri.trenckot.normal",
+   "sag": "nadide.normal",
+   "m": "Miss Peri! I've been a fan of yours for years."
+  },
+  {
+   "k": "peri",
+   "sol": "peri.trenckot.kas",
+   "sag": "nadide.normal",
+   "m": "That's not me."
+  },
+  {
+   "k": "nadide",
+   "sol": "peri.trenckot.kas",
+   "sag": "nadide.normal",
+   "m": "Of course, of course."
+  },
+  {
+   "k": "cengo",
+   "sol": "peri.trenckot.kas",
+   "sag": "cengo.haki.gulen",
+   "m": "The disguise works wonders. She knew you the second she walked in."
+  }
+ ]
+}
