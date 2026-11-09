@@ -22,8 +22,8 @@ girişle başlar ama durağan değil; İngilizce; üretim yerelde (bulut kartı 
   `python3 video_uret.py <metin.json> <ses klasörü> <çıktı.mp4>`; `--kare=5,14` yalnız o anların PNG'si (denetim).
   Yeni mekânda `ISIK`'a o arka planın lamba/huzme noktaları eklenir (yoksa ışık efekti yok, gerisi çalışır).
 - `deneme_30sn_elevenlabs.mp4`, `deneme_30sn_kokoro.mp4` — ilk 5 satır, iki ses seçeneği, ilk efekt seti.
-- `deneme_60sn_kokoro.mp4` — ilk 12 satır, bütün efektler. Sesler Kokoro; yalnız açılış anlatısı
-  (satır 0) ElevenLabs George (sahibinin seçimi, 9 Kasım). Ses klasöründe `000.mp3` + diğerleri `NNN.wav` — betik önce
+- `deneme_60sn.mp4` — ilk 12 satır, bütün efektler. Sesler Kokoro; yalnız açılış anlatısı
+  (satır 0) ElevenLabs George (sahibinin seçimi, 9 Kasım). Depodaki 5 Mbps (yükleme için betikle yeniden üret: crf 18 ≈ 145 MB). Ses klasöründe `000.mp3` + diğerleri `NNN.wav` — betik önce
   `.wav`'ı arar; her satır RMS −20 dBFS'e eşitlenir (iki motorun seviyesi farklı).
 
 Sesler — ElevenLabs: anlatıcı George, Peri Lily, Cengo Callum, Nadide Alice. Kokoro: bm_george, af_bella, am_fenrir, bf_emma.
