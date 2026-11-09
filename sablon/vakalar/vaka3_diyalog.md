@@ -294,7 +294,7 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 **YOL:** Alarm ortak kodla kapatıldı (Gizem ya da Ferruh) + Gizem döndüğünde kasanın başında lacivert önlüklü biri vardı (Kenan ya da Ferruh).
 **YOL:** Alarm ortak kodla kapatıldı (Gizem ya da Ferruh) + kasada 720.000 yoktu, cuma'nın parası cumartesi borca gitmişti; şifreyi bilen yalan söylüyor (Kenan ya da Ferruh).
 **YOL:** Kenan pazar gece Kadıköy'deydi + kasayı açabilen, lacivert önlük giyen kalan tek kişi Ferruh.
-**MASUM kenan:** Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi. Yalanı iş aradığı içindi.
+**MASUM kenan:** Kenan masumdu: pazar gece Kadıköy'de iş denemesindeydi.
 **MASUM gizem:** Gizem masumdu: o gece yalnız simit almaya gelmişti. İçeride lacivert önlüklü birini görüp fotoğrafını çekti.
 
 ## kanit

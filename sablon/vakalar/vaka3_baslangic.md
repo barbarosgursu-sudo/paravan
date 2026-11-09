@@ -109,7 +109,7 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 11 | 22 Eki 13:09 (adım 8: iş sayfası yayımlandı; sahibi bilgisayarda "başlat" diyecek) | 22 Eki 15:34 ("zamanı başlat"; adım 9 görsel üretimi) | 2 sa 25 dk |
 | 12 | 22 Eki 15:51 (adım 9: G1, G12–G18 onaylı; sıradaki G2) | 22 Eki 17:35 ("zamanı başlat") | 1 sa 44 dk |
 | 13 | 22 Eki 18:37 (adım 9: Aşama 1 tamam, Aşama 2'de G19–G24 onaylı; sıradaki G25) | 22 Eki 20:20 ("zamanı başlat") | 1 sa 43 dk |
-| 14 | 22 Eki 21:09 (adım 9: 45 görsel onaylı; kalan Aşama 2: G45–G48, sonra Aşama 3) | | |
+| 14 | 22 Eki 21:09 (adım 9: 45 görsel onaylı; kalan Aşama 2: G45–G48, sonra Aşama 3) | ölçülmedi | ölçülmedi — saat bundan sonra işletilmedi (sahibinin kararı, 9 Kas: "ölçülmedi yazılsın") |
 
 | adım (7. parça) | başladı | bitti | not |
 |---|---|---|---|
@@ -119,7 +119,18 @@ Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün an�
 | 5 Görselsiz tur + bulanık replik taraması | 17 Eki 15:11 | 17 Eki 15:37 | `arac_yeni_tur.js` V3'e açıldı (yollar kod/foto/borc/badem/cozmez); 9 tur (5 yol × 4 sonuç × 4 karar) temiz; `--hepsi` 140 satır; motor eki: satırda `cset` (Cengo unlu); 11 bulanık replik düzeltmesi (saat ifadeleri ×3, 'patron' → Ferruh ×2, Gizem'in istifa cümlesi, Cengo'nun kime'si…) |
 | 6–7 Onay 2, hikâye donar | 17 Eki 15:37 | 22 Eki 12:59 (sahibi: "hikâyeyi donmuş sayalım") | Vaka 2: 1 sa 56 dk. 16:11–16:18: sahibinin isteğiyle anlaşılırlık geçişi — 109 replik açıldı (kısa/şifreli cümleler: "Senin defterin ayrı", "Önce dükkân" gibi). 18 Eki notları: afiş esprisi, K53 (saklanma), K38 teyze cevabı, saat kuralı 5b, Cengo'nun dinleme yüzü, Gizem'in fotoğrafı bilerek — ayrıntı `DEVIR.md` |
 | 8 Görsel listesi + promptlar | 22 Eki 12:59 | 22 Eki 13:09 | sahibinin yeni düzeni: önce ana referanslar (onay), sonra referansa göre gruplu toplu üretim, 3 pencere paralel |
-| 9–10 Görseller, toplu işleme, yerleştirme | 22 Eki 15:34 | | sahibi bilgisayarda; Aşama 1 (G1–G11) önce |
-| 11 Görselli tur | | | |
-| 12–13 Onay 3, düzeltmeler | | | |
-| 14 Vaka donar | | | |
+| 9–10 Görseller, toplu işleme, yerleştirme | 22 Eki 15:34 | ölçülmedi | sahibi bilgisayarda; Aşama 1 (G1–G11) önce. 22 Eki 21:09'a kadar 2 sa 08 dk aktif; sonrası ölçülmedi (Codex + yerel Claude düzenine geçildi, `uretim/`) |
+| 11 Görselli tur | ölçülmedi | ölçülmedi | |
+| 12–13 Onay 3, düzeltmeler | ölçülmedi | 9 Kas | Onay 3 sahne sahne telefonda; satır–resim sözleşmesi (SR-A…L) bu turda yazıldı; son düzeltme: pembe önlük temizlendi (12 resim + kart G103, yalnız önlük) |
+| 14 Vaka donar | 9 Kas | 9 Kas | süre ölçülmedi. Sızıntı taraması (40 yol, 1406 ekran) temiz; son turlar (bütün yollar, tablet, 19 boy). "Vaka N'den başla" düğmesi **açık kalır** (sahibinin kararı) |
+
+### Toplam
+
+| bölüm | süre |
+|---|---|
+| 1–8 (form → görsel listesi; 17–22 Eki) | 5 sa 01 dk |
+| 9–10 görseller, 22 Eki 21:09'a kadar | 2 sa 08 dk |
+| 22 Eki 21:09 → 9 Kas (görsellerin çoğu, görselli tur, Onay 3, düzeltmeler, dondurma) | **ölçülmedi** |
+| **Ölçülen** | **≈ 7 sa 09 dk** (vakanın tamamı değil) |
+
+Takvimde: 17 Ekim → 9 Kasım, ~3,5 hafta. Vaka 4'te saat baştan sona işletilmeli (`RAF_KARARLARI.md` §11c).

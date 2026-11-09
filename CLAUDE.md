@@ -6,7 +6,9 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
-> ### ⬅️ VAKA 3 İÇİN: ÖNCE `sablon/vakalar/vaka3_baslangic.md` OKU (sonra DEVIR.md) — Vaka 2 dondu (16 Ekim 2026)
+> ### ✅ VAKA 3'ÜN TÜRKÇESİ DONDU (9 Kasım 2026) — Vaka 2 dondu (16 Ekim 2026)
+> ### Sıradaki iş `kaynak/RAF_KARARLARI.md` yayın sırasında (Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden); önce DEVIR.md.
+> ### Vaka 3'ün kayıtları: `sablon/vakalar/vaka3_baslangic.md` (süre tablosu dahil).
 >
 > ### 📚 YAYIN / MOBİL: `kaynak/RAF_KARARLARI.md` OKU (9 Kasım 2026) — oyun tek başına değil, "Ajar"
 > ### adlı mobil kitap rafının ilk kitabı olarak çıkacak; platform, dil (rafta yalnız İngilizce), satış, reklam/kredi

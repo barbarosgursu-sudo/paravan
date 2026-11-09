@@ -251,8 +251,8 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
 
 ## 11c. YENİ VAKA TAKVİMİ (9 Kasım 2026)
 
-- **Ölçülen hız:** Vaka 2 ~11 sa aktif, takvimde ~1 hafta (10–16 Ekim). Vaka 3 17 Ekim'de başladı, 9 Kasım'da Onay 3'te
-  (~3,5 hafta; görsel kuralları sıkılaştı, yeniden üretimler, yeni araçlar). Yayından sonra her vakaya İngilizce çeviri
+- **Ölçülen hız:** Vaka 2 ~11 sa aktif, takvimde ~1 hafta (10–16 Ekim). Vaka 3 17 Ekim'de başladı, 9 Kasım'da Türkçesi dondu
+  (~3,5 hafta; aktif süre yalnız ilk ~7 saatlik bölümde ölçüldü; görsel kuralları sıkılaştı, yeniden üretimler, yeni araçlar). Yayından sonra her vakaya İngilizce çeviri
   ve sahibinin geri çeviriyle anlam denetimi eklenir (vaka başına birkaç saat).
 - Darboğaz otomasyonun hızlandıramadığı yerler: sahibinin onayları ve oyunu baştan oynaması, görsel yeniden üretimi, çeviri denetimi.
 - **Hedef: haftada bir vaka ÜRETMEK. Söz: daha seyrek YAYINLAMAK** (örn. iki haftada bir). Fark stoka girer; aksayan

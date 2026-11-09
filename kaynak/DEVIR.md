@@ -8,7 +8,21 @@
 
 ---
 
-## 0000000000000000. ⬅️ 9 Kasım 2026 — Yayın planı konuşuldu: mobil kitap rafı (yalnız belge)
+## 00000000000000000. ⬅️ 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+
+- **Pembe önlük temizlendi:** Gizem temiz önlük veriyor ama 6 önlüklü figür + 6 ara kare (K45b, K45c, K50–K53) ve kart
+  G103 pekmezli/susamlıydı (kök sebep G3 istemi: "kenarlarına yer yer pekmez bulaşmış"). Yapay zekâsız, yalnız önlük
+  bölgesi temizlendi; resmin geri kalanı aynı. `onayli/` orijinaller de temiz; istemlere "## Düzeltme" notu; `uret.py`'de
+  önlük "yeni ve tertemiz". Betikler kalıcı değil (oturum geçici klasöründeydi); gerekirse yeniden yazılır.
+- **Sızıntı taraması** (40 yol, 1406 ekran) temiz; elle okumada tek aday: MASUM Kenan'daki "Yalanı iş aradığı içindi"
+  (`kenan_yalan` yalnız D ipucunda) — sahibinin onayıyla çıkarıldı.
+- **Son turlar** temiz: kod/foto/borç/Badem doğru, zayıf, Kenan'ı ve Gizem'i suçlama, tablet, 19 boy (bilinen tek bayrak 1280×650 seçim ekranı).
+- **"Vaka N'den başla" düğmesi AÇIK KALIR** (`VN_VAKA_ATLA = true`, sahibinin kararı; yayından önce yine kapanır).
+- Süre: 22 Eki 21:09'dan sonrası **ölçülmedi** (sahibinin kararı); ölçülen ≈ 7 sa 09 dk — `vaka3_baslangic.md` §2.
+- **Sıradaki iş:** `RAF_KARARLARI.md` yayın sırası — Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden; sonra İngilizce.
+  Sahibi başlatınca konuşulur (önce konuş, sonra yap).
+
+## 0000000000000000. 9 Kasım 2026 — Yayın planı konuşuldu: mobil kitap rafı (yalnız belge)
 
 Sahibiyle Play Store / App Store yolu fikir olarak konuşuldu; kararların tamamı **`kaynak/RAF_KARARLARI.md`**.
 Özet: tek mobil uygulama "Ajar: Story Choices" (geliştirici "Ajar Interactive", `ajarstories.com`), içinde bağımsız oyunlar (kitaplar), Paravan ilki. Türkçe
