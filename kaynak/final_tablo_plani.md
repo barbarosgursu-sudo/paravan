@@ -1,5 +1,8 @@
 # Sezon Sonu Tablosu — Plan
 
+> **⚠ 9 Kasım 2026:** bu plan ESKİ oyun içindi (eski oyun yayınlanmayacak). Yeni oyunun (Cover Story) sezon sonu
+> tablosu `RAF_KARARLARI.md` §12b'de: puan değil eylem→sonuç→bedel satırları + Peri'nin notu, karşılaştırma yok.
+
 **Durum: yazılmadı, bilerek ertelendi.** Android aşamasında devreye alınacak.
 Bu belge o günün kararlarını bugünden veriyor ki aradaki işler bize engel
 çıkarmasın.

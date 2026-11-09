@@ -112,7 +112,7 @@ izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse 
   `doğru` çözülür. Takip: Google Play Install Referrer.
 - **Karar istatistiği:** karardan sonra "Oyuncuların %38'i senin gibi karar verdi". Not vermez, sıralamaz.
   Plan: `kaynak/final_tablo_plani.md` (sezon sonu tablosu) ile birlikte; sunucu gerekir.
-- **Komik rozetler:** yalnız komik anlar için ("Pastaya oturdun", "Saadet Hanım'dan üç kez saklandın").
+- **Komik rozetler:** yalnız komik anlar için ("Pastaya oturdun", "Saadet Hanım'dan üç kez saklandın"). ⚠ *9 Kasım 2026: yalnız kazanılanlar görünür, liste/sayı yok, Play başarı sistemi yok — `RAF_KARARLARI.md` §12b.*
   İyi/kötü karar için rozet YOK — oyun not vermez.
 - **Reddedilenler:** günlük seri (hikâye oyununu angaryaya çevirir; günlük vaka yok) ve sıralama
   tablosu (sözleşme: "oyun not vermez, sıralama tablosu yok"; hız değil karar ölçülür).

@@ -258,10 +258,32 @@ yükü getirir; "hesap yok, veri yok" kararını zorlar. Karar istatistiği az o
 en çok işe yarayanla (öneri: karar istatistiği) başlanır.
 
 **Komik rozetler** ve **sezon sonu tablosu** (karşılaştırmasız hâli, `final_tablo_plani.md`) sunucu istemez; bunlar
-**her kitabın kendi kararı**, raf karışmaz. Paravan için ayrıca konuşulacak.
+**her kitabın kendi kararı**, raf karışmaz. Paravan için kararlar: §12b.
+
+## 12b. PARAVAN: ROZETLER VE SEZON SONU TABLOSU (9 Kasım 2026)
+
+**Rozetler** (yalnız komik anlar; iyi/kötü karar için rozet YOK — oyun not vermez):
+- **Yalnız kazanılan rozetler görünür.** Liste yok, sayı yok ("12'nin 3'ü" YOK), gri/kilitli kutu yok — gri bir rozetin
+  adı görülmemiş bir sahneyi söyler (Nurcan), sayı nottur. Oyuncu rozeti kazandığı an varlığını öğrenir.
+- Kazanınca ekranın kenarında küçük, sessiz bir not; birkaç saniyede kaybolur, akışı durdurmaz, dokunma istemez.
+- Defter'de **"Rozetler"** sayfası: yalnız kazanılanlar, hangi vakada kazanıldığıyla (komik anların albümü).
+- **Google Play başarı sistemi KULLANILMAZ** (bütün listeyi ve sayıyı kendisi gösterir, gizliler bile sayılır).
+- **Vaka başına en fazla bir-iki**, yalnız gerçekten komik bir an varsa; hiç olmayan vaka da olur.
+
+**Sezon sonu tablosu** (`final_tablo_plani.md`'deki "ne kadar ahlaki/kirli" isteğinin yerine; ruh hâli sınıflaması
+oyuncuya asla kelime olarak gösterilmez, oyun not vermez):
+- **Puan/grafik değil, sezonun dosyası:** her vaka bir satır, kalıp **eylem → sonuç → bedel**
+  (örn. *"Vaka 2 · Kayıp Gelinlik — Defne'yi suçladın. Parayı ona bıraktın. Düğün yapıldı; kasaya bir şey girmedi."*).
+  Defter → Anı'dan türetilebilir. Yargı yok.
+- Altında **Peri'nin sezon notu**, 3–4 değişkenle. Değişkenler yargı değil sezonun **sonucunu** anlatır (kasa dolu/boş,
+  Peri kimlerle bağ kurdu, kimlerle bozuştu). Yazar işi.
+- **Karşılaştırma YOK** (ilk sürüm). Yazarın tahmini yüzdelerini gerçek oyuncu verisi gibi göstermek yanıltıcı; aynı cihazdaki
+  önceki sezonlar tek kayıt yuvası yüzünden anlamsız. Gerçek veri sunucu gelince (karar istatistiğiyle) eklenir.
+- **Yer:** sezonun kapanış sahnesinden hemen sonra, ardından "rafta başka kitaplar" kartı. Defter'den yeniden açılır.
+- **Paylaşım:** "Sezon 1 bitti" kartı — yalnız sezon afişi + "Sen olsan ne yapardın?". Suçlu/karar/kasa karta girmez;
+  tablonun kendisi paylaşılmaz.
 
 ## 13. AÇIK OLANLAR
 
 - Alan adının satın alınması ve TÜRKPATENT tescil başvurusu (sahibinin işi).
-- Paravan için komik rozetler ve sezon sonu tablosu.
 - Yeni vaka takvimi (eksik sezonu alan oyuncu bekleyecek; mağazada "yeni vaka her ay" gibi bir söz ancak üretim hızı oturunca yazılır).
