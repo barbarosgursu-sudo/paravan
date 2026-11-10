@@ -104,9 +104,11 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
 // hata vermez (Vaka 2'nin yedi konuğu 16 Ekim'e kadar böyle kaldı; sahibi oynarken buldu).
 {
   const KIS = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "kisiler.json"), "utf-8"));
-  const GOR = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "gorseller.json"), "utf-8")).dosyalar;
+  const MAN = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "gorseller.json"), "utf-8"));
+  const GOR = MAN.dosyalar;
+  // Görselsiz aşamada (şablon 7. parça adım 5) portre de yer tutucu olabilir; görsel gelince dosyalar'a geçer.
   const eksik = KIS.kisiler.flatMap(x => [x.portre, ...(x.portre_katman || []).map(p => p.portre)])
-    .filter(p => p && !GOR[String(p).replace(".jpg", "")]);
+    .filter(p => p && !GOR[String(p).replace(".jpg", "")] && !(MAN.yer_tutucu || []).includes(p));
   k("künyedeki her portre gömülü", !eksik.length, eksik.join(", "));
   // Portre alanı hiç yazılmamış kişi de ☗ kalır; yukarıdaki süzgeç onu sessizce atlıyordu
   // (Vaka 3'ün yedi konuğu 6 Kasım'a kadar böyle kaldı).

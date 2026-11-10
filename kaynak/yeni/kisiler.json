@@ -271,6 +271,82 @@
       "portre": "portre_rustem",
       "tanisma": "borc_elden",
       "katmanlar": [{"kosul": "borc_elden", "tanim": "Eminönü'nde un toptancısı. Nadide Hanım'ın duvarındaki afişi bilir."}]
+    },
+    {
+      "id": "feraye",
+      "ad": "Feraye Hanım",
+      "portre": "portre_feraye",
+      "tanisma": "santaj_mesaji",
+      "katmanlar": [
+        {
+          "kosul": "santaj_mesaji",
+          "tanim": "Cihangir'de, Kuytu Kafe'de kahve falı bakar. Şantajla suçlanıyor; adını temizlememizi istiyor."
+        },
+        {
+          "kosul": "ilham_kaynak",
+          "tanim": "Cihangir'de, Kuytu Kafe'de kahve falı bakar. Şantajla suçlanıyor; adını temizlememizi istiyor. Sırları fala oturmadan önce bir nottan öğreniyor."
+        }
+      ]
+    },
+    {
+      "id": "tarik",
+      "ad": "Tarık Bey",
+      "portre": "portre_tarik",
+      "tanisma": "tarik_sucladi",
+      "katmanlar": [
+        {
+          "kosul": "tarik_sucladi",
+          "tanim": "Yaşam koçu. Feraye'yi sokak ortasında şantajcı ilan etti. Feraye ondan şüpheleniyor."
+        },
+        {
+          "kosul": "tarik_veresiye",
+          "tanim": "Yaşam koçu. Feraye'yi sokak ortasında şantajcı ilan etti. Feraye ondan şüpheleniyor. Kafeye borçlu."
+        },
+        {
+          "kosul": "tarik_odedi",
+          "tanim": "Yaşam koçu. Feraye'yi sokak ortasında şantajcı ilan etti. O da şantaj edildi; yirmi bin ödedi."
+        }
+      ]
+    },
+    {
+      "id": "rana",
+      "ad": "Rana",
+      "portre": "portre_rana",
+      "tanisma": "rana_bilir",
+      "katmanlar": [
+        {
+          "kosul": "rana_bilir",
+          "tanim": "Karşı kaldırımda tarot bakar. Feraye'nin eski çırağı; Feraye ondan şüpheleniyor."
+        },
+        {
+          "kosul": "rana_musteri",
+          "tanim": "Karşı kaldırımda tarot bakar. Feraye'nin eski çırağı; Feraye ondan şüpheleniyor. Feraye'nin müşterileri ona da tarot baktırıyor."
+        }
+      ]
+    },
+    {
+      "id": "sadik",
+      "ad": "Sadık",
+      "portre": "portre_sadik",
+      "tanisma": "santaj_mesaji",
+      "katmanlar": [
+        {"kosul": "santaj_mesaji", "tanim": "Kuytu'nun garsonu."},
+        {"kosul": "mesaj_cumle", "tanim": "Kuytu'nun garsonu. Feraye'nin masasına her gün kahve taşır."}
+      ]
+    },
+    {
+      "id": "zerrin",
+      "ad": "Zerrin",
+      "portre": "portre_zerrin",
+      "tanisma": "rana_giremez",
+      "katmanlar": [{"kosul": "rana_giremez", "tanim": "Kuytu Kafe'nin sahibi."}]
+    },
+    {
+      "id": "sebnem",
+      "ad": "Şebnem Hanım",
+      "portre": "portre_sebnem",
+      "tanisma": "tarik_odedi",
+      "katmanlar": [{"kosul": "tarik_odedi", "tanim": "Dizi oyuncusu, yemek programı sunuyor. Ona da şantaj mesajı gelmiş."}]
     }
   ],
   "defter": {
@@ -291,12 +367,19 @@
       "ferruh_soylesin": "Ferruh talebi kendi ağzıyla geri çekti. Merkez açık, maaşlar ödendi.",
       "nadideye_birak": "Karar Nadide Hanım'ındı. Merkez Badem oldu.",
       "ferruh_payi": "Ferruh'un sırrı bende ve Nadide Hanım'da. Gizem'in adı temizlenmedi."
+    },
+    "V4": {
+      "polise_ver": "Sadık polise teslim edildi. Cihangir'in sırları tutanakta.",
+      "uzaklastir": "Sadık gitti, Feraye kaldı. Kimse bir şey öğrenmedi.",
+      "dosya_sakla": "Cihangir'in sırları çekmecemde.",
+      "gercegi_soyle": "Kurbanlar gerçeği benden duydu. Feraye artık fal bakmıyor."
     }
   },
   "ani_ozet": {
     "_not": "Anı defterinde Peri notunun üstündeki hatırlatma. Yalnız kovalamacadaki itirafın söylediği (o sahne her yolda oynar); karara göre değişen hiçbir şey yazılmaz.",
     "V1": "Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.",
     "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.",
-    "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı."
+    "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı.",
+    "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi."
   }
 }

@@ -22,7 +22,13 @@
       "Sedat",
       "Ayla",
       "Rüstem",
-      "Orhan"
+      "Orhan",
+      "Feraye",
+      "Sadık",
+      "Tarık",
+      "Rana",
+      "Zerrin",
+      "Şebnem"
     ],
     "belirsiz": [],
     "belirsiz_istisna": {},
@@ -53,7 +59,11 @@
             "trenckot": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"],
             "simit": ["sinirli", "utanmis"],
             "onluklu": ["normal", "kas", "sasirmis", "utanmis", "simit_elinde", "simit_isiriyor"],
-            "trenckot_acik": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"]
+            "trenckot_acik": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "merakli", "kiskanc"],
+            "kase": ["normal", "kas", "merakli", "utanmis", "sinirli", "fincan"],
+            "kase_acik": ["normal", "kas", "merakli"],
+            "telveli": ["sinirli", "kas"],
+            "salli": ["kas", "sasirmis", "kiskanc"]
           }
         },
         "cengo": {
@@ -61,7 +71,9 @@
           "setler": {
             "takim": ["normal", "kas", "gulen", "yumusak", "buket"],
             "haki": ["normal", "kas", "gulen", "yumusak"],
-            "unlu": ["normal", "kas", "gulen", "yumusak"]
+            "unlu": ["normal", "kas", "gulen", "yumusak"],
+            "deri": ["normal", "kas", "gulen", "yumusak"],
+            "salli": ["kas", "gulen"]
           }
         },
         "hilmi": {"ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"]},
@@ -84,11 +96,31 @@
         "kenan": {"ad": "Kenan", "ifadeler": ["normal", "kizgin", "esniyor", "onluksuz"]},
         "gizem": {
           "ad": "Gizem",
-          "ifadeler": ["normal", "isveli", "kas", "korkmus", "telefon", "ofkeli", "suzuyor", "simit", "tabla"]
+          "ifadeler": [
+            "normal",
+            "isveli",
+            "kas",
+            "korkmus",
+            "telefon",
+            "ofkeli",
+            "suzuyor",
+            "simit",
+            "tabla",
+            "triko",
+            "triko_isveli",
+            "kirmizi",
+            "kirmizi_isveli"
+          ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
         "ayla": {"ad": "Ayla Hanım", "ifadeler": ["normal", "bakiyor"]},
-        "rustem": {"ad": "Rüstem Bey", "ifadeler": ["normal"]}
+        "rustem": {"ad": "Rüstem Bey", "ifadeler": ["normal"]},
+        "feraye": {"ad": "Feraye", "ifadeler": ["normal", "dertli", "ofkeli", "fal", "kacamak", "cokmus"]},
+        "sadik": {"ad": "Sadık", "ifadeler": ["normal", "kova", "itiraf"]},
+        "tarik": {"ad": "Tarık", "ifadeler": ["ofkeli", "normal", "utanmis"]},
+        "rana": {"ad": "Rana", "ifadeler": ["normal", "alayci"]},
+        "zerrin": {"ad": "Zerrin", "ifadeler": ["normal"]},
+        "sebnem": {"ad": "Şebnem", "ifadeler": ["gergin", "normal"]}
       },
       "sesler": {
         "ses": "Ses",
@@ -136,7 +168,16 @@
         "A26",
         "A27",
         "A28",
-        "A29"
+        "A29",
+        "A30",
+        "A30b",
+        "A30c",
+        "A30d",
+        "A31",
+        "A32",
+        "A33",
+        "A34",
+        "A35"
       ],
       "kareler": [
         "D1",
@@ -212,7 +253,29 @@
         "K55",
         "K56",
         "K40k",
-        "K57"
+        "K57",
+        "D11",
+        "D12",
+        "D13",
+        "K60",
+        "K61",
+        "K62",
+        "K63",
+        "K64",
+        "K65",
+        "K66",
+        "K67",
+        "K68",
+        "K69",
+        "K70",
+        "K71",
+        "K72",
+        "K73",
+        "K74",
+        "K75",
+        "K76",
+        "K77",
+        "K78"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -2840,6 +2903,1146 @@
               "bag": "yuksek",
               "cengo": "yumusak"
             }
+          ]
+        }
+      }
+    },
+    {
+      "id": "V4",
+      "tur": "omurga",
+      "sira": 4,
+      "belirir": null,
+      "baslik": "Falcı",
+      "arastirma": 3,
+      "ucret": 40000,
+      "giris_gorsel": "MASA_V4",
+      "setler": {"peri": "kase", "cengo": "deri"},
+      "truth": {
+        "ne_oldu": "Kuytu'nun garsonu Sadık, pencere önünde telefonla konuşulan sırları servis yaparken duyup iki yıldır Feraye'ye not başına 1.000 ₺'ye satıyor. Üç haftadır aynı sırlarla, Feraye'nin fal sözüyle, faturasız bir hattan şantaj mesajı atıyor; parayı raftaki yeşil kitaptan kapanışta topluyor.",
+        "neden": "Sırrın sahibi daha çok verir. Feraye'nin sözünü kullandı ki herkes falcıya baksın.",
+        "para": "Üç kurbandan yirmişer bin: Tarık Bey, Şebnem Hanım, adı geçmeyen bir müşteri. 60.000 ₺ Sadık'ın personel dolabında.",
+        "tarik": "Tarık her gün öğlenden beşe kafede; o da şantaj edildi, 20.000 ödedi. Şebnem'in sırrı akşam 20.30'da konuşuldu, o beşte çıkmıştı.",
+        "rana": "Rana iki yıldır kafeye giremiyor; kurbanlar ona tarot baktırdı ama sırlarını orada açmadı."
+      },
+      "facts": {
+        "santaj_mesaji": "Feraye'nin müşterilerine üç haftadır isimsiz mesaj geliyor: onun fal sözüyle başlıyor, sırlarını yazıyor, Kuytu'daki kitap rafında yeşil kitaba yirmi bin istiyor. Numara hep kapalı.",
+        "rana_bilir": "Feraye'ye göre sözünü ezbere bilen eski çırağı Rana; karşı kaldırımda tarot bakıyor, Feraye'nin müşterilerini istiyor.",
+        "rana_giremez": "Kafenin sahibi Zerrin, Rana'yı iki yıldır Kuytu'ya sokmuyor.",
+        "tarik_sucladi": "Mesaj yaşam koçu Tarık Bey'e de gelmiş; Feraye'yi sokakta şantajcı ilan etti. Feraye ondan şüpheleniyor.",
+        "pencere_cekim": "Kuytu bodrum katında; telefon yalnız pencere önünde çekiyor, herkes orada konuşuyor. Pencere önündeki masada her gün Tarık Bey oturuyor; servisi garson Sadık yapıyor.",
+        "raf_kor": "Kitap rafı kameranın görmediği tek köşe. Rafın dibinde Tarık Bey'in masası var; akşamları rafı garson Sadık topluyor.",
+        "tarik_sir": "Tarık Bey sabah beşte kalkmıyor, öğlene kadar uyuyor; \"sabah beş\" videolarını akşamdan çektiriyor. Bunu yalnız bir kez, Kuytu'da pencere önünde telefonda söylemiş; ne falda ne tarotta açmış.",
+        "tarik_odedi": "Tarık Bey geçen perşembe akşam altıda 20.000 ₺'yi yeşil kitaba koydu; cuma sabah zarf yoktu. Aynı mesaj dizi oyuncusu Şebnem Hanım'a da gelmiş.",
+        "mesaj_cumle": "Rana'ya göre mesajdaki sözü ezbere bilen iki kişi var: kendisi, bir de Feraye'nin masasına her gün kahve taşıyan garson.",
+        "rana_musteri": "Feraye'nin müşterileri faldan sonra karşıya geçip Rana'ya da tarot baktırıyor; Tarık Bey ile Şebnem Hanım da gitmiş.",
+        "tarik_veresiye": "Zerrin'e göre Tarık Bey üç aydır kafeye borç yazdırıyor; kitapları satmıyor.",
+        "sadik_aksam": "Zerrin akşam altıda çıkıyor; akşamları kafeyi garson Sadık çeviriyor, kapanışı da o yapıyor.",
+        "sebnem_aksam": "Şebnem Hanım'ın sırrı iki hafta önce salı akşamı 20.30'da, Kuytu'da pencere önünde telefonda konuşuldu. Tarık Bey o saatte yoktu; her gün beşte çıkar.",
+        "ilham_kaynak": "Feraye sırları fala oturmadan önce bir nottan öğreniyor. Notları kafede her gün olan biri getiriyor, not başına 1.000 ₺; Feraye adını vermiyor."
+      },
+      "knowledge": [
+        {
+          "turetilen": "telefondan_geliyor",
+          "baslik": "Sırlar fincandan değil, pencere önündeki telefonlardan geliyor.",
+          "ifade": {"all": ["pencere_cekim", "tarik_sir"]}
+        },
+        {
+          "turetilen": "kafede_kulak",
+          "baslik": "Feraye'nin \"ilhamı\" kafede kulak kabartan birinden.",
+          "ifade": {"all": ["ilham_kaynak", "tarik_sir"]}
+        },
+        {
+          "turetilen": "rana_masasi",
+          "baslik": "Rana sözü biliyor; kurbanlar da onun masasına oturmuş.",
+          "ifade": {"all": ["mesaj_cumle", "rana_musteri"]}
+        },
+        {
+          "turetilen": "tarotta_degil",
+          "baslik": "Tarık Bey sırrını tarot masasında açmamış.",
+          "ifade": {"all": ["rana_musteri", "tarik_sir"]}
+        },
+        {
+          "turetilen": "borclu_ama_odedi",
+          "baslik": "Tarık Bey borçlu, ama yirmi bini ödemiş.",
+          "ifade": {"all": ["tarik_odedi", "tarik_veresiye"]}
+        },
+        {
+          "turetilen": "kor_raf",
+          "baslik": "Zarf kameranın görmediği raftan alındı.",
+          "ifade": {"all": ["raf_kor", "tarik_odedi"]}
+        },
+        {
+          "turetilen": "aksamcilar",
+          "baslik": "Şebnem'in sırrı, kafede yalnız akşamcıların olduğu saatte konuşuldu.",
+          "ifade": {"all": ["sebnem_aksam", "sadik_aksam"]}
+        }
+      ],
+      "giris": [
+        {
+          "kosul": "varsayilan",
+          "metin": "Cihangir'de kırk yıldır kahve falı bakan Feraye Hanım'ın müşterilerine onun fal sözüyle başlayan şantaj mesajları geliyor. Yaşam koçu Tarık Bey onu sokakta şantajcı ilan etti. Feraye eski çırağı Rana'dan da Tarık'ın kendisinden de şüpheleniyor. Ücret kırk bin, şantajcı bulununca.",
+          "acilan": ["santaj_mesaji", "rana_bilir", "rana_giremez", "tarik_sucladi"]
+        }
+      ],
+      "clues": [
+        {
+          "id": "kuytu",
+          "ad": "Kuytu Kafe",
+          "tur": "Gözlem",
+          "ico": "◉",
+          "needs": [],
+          "reveals": ["pencere_cekim", "raf_kor"],
+          "text": "Kuytu'da telefon yalnız pencere önünde çekiyor; orada Tarık oturuyor, servisi Sadık yapıyor. Kitap rafı kameranın kör köşesi; akşamları rafı Sadık topluyor.",
+          "meta": "Kuytu'da telefon yalnız pencere önünde çekiyor; orada Tarık oturuyor, servisi Sadık yapıyor. Kitap rafı kameranın kör köşesi; akşamları rafı Sadık topluyor.",
+          "sahne": {
+            "arka": "A31",
+            "set": "kase",
+            "cset": "deri",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Cihangir. Dik bir yokuş; bir apartmanın altında, birkaç basamakla inilen bir kafe kapısı.",
+                "arka": "A31",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kapıda ince uzun, siyah önlüklü genç bir garson; elinde tepsi.",
+                "gir": "sadik",
+                "gi": "normal"
+              },
+              {
+                "k": "sadik",
+                "i": "normal",
+                "m": "Hoş geldiniz. Ben Sadık. Feraye Hanım'ın dedektifleri siz misiniz? Buyurun, içeri.",
+                "gir": "sadik",
+                "kime": "peri"
+              },
+              {
+                "k": "not",
+                "m": "Peri basamakları inip içeri giriyor: alçak tavanlı bir bodrum, sokağa bakan geniş bir pencere, önünde üç masa. Duvarda bir kitap rafı.",
+                "arka": "A30",
+                "mekan": true
+              },
+              {"k": "peri", "i": "merakli", "m": "Telefonum çekmiyor.", "gir": "sadik", "gi": "normal"},
+              {
+                "k": "sadik",
+                "i": "normal",
+                "m": "Burada çekmez, hanımefendi. Yalnız pencerenin önünde çeker; herkes konuşmaya oraya geçer.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Pencerenin önündeki masalarda kim oturur?"},
+              {
+                "k": "sadik",
+                "i": "normal",
+                "m": "Ortadakinde her gün Tarık Bey oturur, öğlenden beşe yazı yazar. Servisini ben yaparım.",
+                "kime": "cengo"
+              },
+              {
+                "k": "not",
+                "m": "Peri kitap rafının önüne geçip tavandaki kameraya bakıyor. Kamera tezgâha dönük; rafı görmüyor."
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Kamera rafı görmüyor. Rafın hemen dibinde de Tarık Bey'in masası var."
+              },
+              {
+                "k": "sadik",
+                "i": "normal",
+                "m": "Rafı akşamları ben toplarım. Kitaplar gün boyu dağılır, ben dizerim.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Feraye Abla nerede oturur?"},
+              {
+                "k": "sadik",
+                "i": "normal",
+                "m": "Arka köşede. Oradan pencere duyulmaz; kahvesini ben götürürüm.",
+                "kime": "cengo"
+              },
+              {
+                "k": "not",
+                "m": "Peri pencerenin önündeki masada kalmış boş bir fincanı alıp içine bakıyor.",
+                "peri": "fincan"
+              },
+              {"k": "peri", "i": "fincan", "m": "Kuş. Haber gelecek demek."},
+              {"k": "cengo", "i": "gulen", "m": "Hani fala inanmıyordun?", "kime": "peri"},
+              {"k": "peri", "i": "kas", "m": "İnanmam. Ama kuş."}
+            ]
+          }
+        },
+        {
+          "id": "tarik",
+          "ad": "Tarık Bey'le konuşmak",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["tarik_sir", "tarik_odedi"],
+          "text": "Tarık Bey'in sırrı: sabah beşte kalkmıyor, videolar akşamdan. Bunu yalnız kafede telefonda söylemiş. Perşembe yirmi bin ödemiş; Şebnem Hanım'a da mesaj gelmiş.",
+          "meta": "Tarık Bey'in sırrı: sabah beşte kalkmıyor, videolar akşamdan. Bunu yalnız kafede telefonda söylemiş. Perşembe yirmi bin ödemiş; Şebnem Hanım'a da mesaj gelmiş.",
+          "sahne": {
+            "arka": "A31",
+            "set": "kase",
+            "cset": "deri",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Kafenin önündeki yokuş. Topuzlu, sakallı, keten gömlekli bir adam, elinde yeşil bir smoothie, telefonuna konuşuyor.",
+                "gir": "tarik",
+                "gi": "ofkeli"
+              },
+              {
+                "k": "tarik",
+                "i": "ofkeli",
+                "m": "…ve o kadın sırrımı falında söyledi! Takipçilerim bilsin, Cihangir bilsin!"
+              },
+              {"k": "cengo", "i": "normal", "m": "Tarık Bey. Feraye Abla'nın işine bakıyoruz. Bir dakikanız var mı?"},
+              {"k": "tarik", "i": "ofkeli", "m": "O kadının işine mi? Siz de mi onun adamısınız?", "kime": "cengo"},
+              {"k": "cengo", "i": "gulen", "m": "Ben kimsenin adamı değilim. Ama bir smoothie'ye hayır demem."},
+              {
+                "k": "tarik",
+                "i": "normal",
+                "m": "Smoothie yok. Ama konuşalım; şu kadının ne olduğunu herkes bilsin.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "kas", "m": "Mesajda sırrınız yazıyor. Neymiş o sır?"},
+              {
+                "k": "tarik",
+                "i": "utanmis",
+                "m": "Ben sabah beşi hiç görmedim. Öğlene kadar uyurum; \"sabah beş\" videolarını akşamdan çekiyoruz.",
+                "kime": "peri"
+              },
+              {
+                "k": "tarik",
+                "i": "utanmis",
+                "m": "Perdeleri kapatıp lambayı sabah gibi yakıyoruz. Kitabımın adı da \"Sabah Beşte Kalk\"."
+              },
+              {
+                "k": "tarik",
+                "i": "utanmis",
+                "m": "Bunu bir kez söyledim, telefonda, o kafede, pencerenin önünde. Ne falda açtım ne o tarotçu kızın masasında."
+              },
+              {"k": "cengo", "i": "kas", "m": "Parayı ödediniz mi?"},
+              {
+                "k": "tarik",
+                "i": "ofkeli",
+                "m": "Geçen perşembe akşam altıda yeşil kitaba yirmi bin koydum. Cuma sabah zarf yoktu.",
+                "kime": "cengo"
+              },
+              {"k": "tarik", "i": "ofkeli", "m": "Aynı mesaj Şebnem Hanım'a da gelmiş. Dizideki aşçı. O da ödemiş."},
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Kafeye her gün öğlen geliyorsunuz. Kitabınızın adı da \"Sabah Beşte Kalk\".",
+                "gir": "tarik"
+              },
+              {
+                "k": "tarik",
+                "i": "utanmis",
+                "m": "Akşam beşte de kalkarım. Kafeden kalkıp eve uyumaya giderim.",
+                "kime": "peri"
+              },
+              {"k": "tarik", "i": "normal", "m": "(Peri'ye gülümseyerek) Siz bir videoma gelin. Işığınız çok güzel."},
+              {"k": "peri", "i": "kas", "m": "Akşamdan mı çekeceğiz?"}
+            ]
+          }
+        },
+        {
+          "id": "rana",
+          "ad": "Rana'nın dükkânı",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["mesaj_cumle", "rana_musteri"],
+          "text": "Mesajdaki sözü ezbere bilen iki kişi var: Rana ve Feraye'nin masasına kahve taşıyan garson. Feraye'nin müşterileri, Tarık ve Şebnem dahil, Rana'ya da tarot baktırıyor.",
+          "meta": "Mesajdaki sözü ezbere bilen iki kişi var: Rana ve Feraye'nin masasına kahve taşıyan garson. Feraye'nin müşterileri, Tarık ve Şebnem dahil, Rana'ya da tarot baktırıyor.",
+          "sahne": {
+            "arka": "A32",
+            "set": "kase",
+            "cset": "deri",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Kafenin karşısında küçük bir tarot dükkânı: mum ışığı, kadife örtülü bir masa. Camdan Kuytu'nun kapısı görünüyor.",
+                "arka": "A32",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Uzun düz siyah saçlı bir kadın masada kart karıştırıyor.",
+                "gir": "rana",
+                "gi": "normal"
+              },
+              {
+                "k": "rana",
+                "i": "normal",
+                "m": "Cengo. Yine mi kart? Geçen sefer ters çıkmıştı.",
+                "gir": "rana",
+                "kime": "cengo"
+              },
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "O yüzden bu sefer kart için gelmedim. Feraye Abla'nın işine bakıyoruz."
+              },
+              {
+                "k": "rana",
+                "i": "alayci",
+                "m": "Feraye benden şüpheleniyordur. Bunu bilmek için kart açmama gerek yok.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "kas", "m": "Mesaj şöyle başlıyor: \"Fincanında bir gölge var, gölge konuşur.\""},
+              {
+                "k": "rana",
+                "i": "normal",
+                "m": "Feraye'nin sözü, kelimesi kelimesine. Kırk yıldır her fala böyle başlar.",
+                "kime": "peri"
+              },
+              {
+                "k": "rana",
+                "i": "normal",
+                "m": "Ezbere bilen iki kişi tanırım: ben, bir de her gün onun masasına kahve taşıyan garson."
+              },
+              {"k": "cengo", "i": "kas", "m": "Kendini de saydın."},
+              {"k": "rana", "i": "alayci", "m": "Saymasam Feraye sayardı.", "kime": "cengo"},
+              {
+                "k": "rana",
+                "i": "normal",
+                "m": "Müşterileri faldan çıkınca karşıya, bana gelir. O yaşam koçu da geldi, dizideki aşçı da. Ama ben sır satmam."
+              },
+              {"k": "not", "m": "Peri masada açık duran bir karta eğiliyor: yıldırım çarpmış bir kule.", "kare": "D12"},
+              {"k": "peri", "i": "merakli", "m": "Bu kule yıkılıyor.", "kare": "D12"},
+              {"k": "rana", "i": "alayci", "m": "Tarota da mı inanmıyorsunuz?", "gir": "rana", "kime": "peri"},
+              {"k": "peri", "i": "kas", "m": "Hiçbirine inanmam. Ama yıkılıyor."}
+            ]
+          }
+        },
+        {
+          "id": "zerrin",
+          "ad": "Kafenin sahibi Zerrin",
+          "tur": "İfade",
+          "ico": "○",
+          "needs": [],
+          "reveals": ["tarik_veresiye", "sadik_aksam"],
+          "text": "Tarık Bey üç aydır kafeye borçlu. Zerrin altıda çıkıyor; akşamları kafeyi Sadık çeviriyor, kapanışı o yapıyor.",
+          "meta": "Tarık Bey üç aydır kafeye borçlu. Zerrin altıda çıkıyor; akşamları kafeyi Sadık çeviriyor, kapanışı o yapıyor.",
+          "sahne": {
+            "arka": "A31",
+            "set": "kase",
+            "cset": "deri",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {"k": "not", "m": "Sabah. Kuytu'nun basamakları.", "arka": "A31", "mekan": true},
+              {
+                "k": "not",
+                "m": "Tezgâhta kısa kır saçlı, kot önlüklü bir kadın kahve çekiyor; gözlüğü başının üstünde.",
+                "arka": "A30c",
+                "gir": "zerrin",
+                "gi": "normal"
+              },
+              {"k": "peri", "i": "normal", "m": "Zerrin Hanım? Feraye Hanım'ın işi için geldik.", "gir": "zerrin"},
+              {
+                "k": "zerrin",
+                "i": "normal",
+                "m": "Feraye anlattı. Sorun bakalım, öğütücü bitene kadar.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Tarık Bey'i anlat. Her gün buradaymış."},
+              {
+                "k": "zerrin",
+                "i": "normal",
+                "m": "Burada ama parası yok. Üç aydır veresiye yazdırıyor; kitapları satmıyor, smoothie'yi de bana yazdırıyor.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "merakli", "m": "Akşamları kafede kim kalıyor?"},
+              {
+                "k": "zerrin",
+                "i": "normal",
+                "m": "Ben altıda çıkarım. Akşamları kafeyi Sadık çevirir, kapanışı da o yapar.",
+                "kime": "peri"
+              },
+              {
+                "k": "not",
+                "m": "Tezgâhın arkasında fincan silen garson başını kaldırıp gülümsüyor.",
+                "gir": "sadik",
+                "gi": "normal"
+              },
+              {
+                "k": "sadik",
+                "i": "normal",
+                "m": "Kapanışta kapıyı ben kilitlerim. İçeride kimse kalmaz, merak etmeyin.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "gulen", "m": "Rana bu tarafa hiç geçmiyor mu?", "gir": "zerrin"},
+              {
+                "k": "zerrin",
+                "i": "normal",
+                "m": "Geçemez. İki yıl önce burada Feraye'nin müşterilerine kart dağıttı; o günden beri bu kapıdan girmez.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "normal", "m": "Kahveniz güzel kokuyor."},
+              {
+                "k": "zerrin",
+                "i": "normal",
+                "m": "Telvesi daha güzel kokar. Komşulara saksı için bedava veririm.",
+                "kime": "peri"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sebnem",
+          "ad": "Şebnem Hanım",
+          "tur": "İfade",
+          "ico": "○",
+          "needs": ["tarik_odedi"],
+          "reveals": ["sebnem_aksam"],
+          "text": "Şebnem Hanım'ın sırrı salı akşamı 20.30'da, Kuytu'da pencere önünde telefonda konuşuldu. Tarık Bey o saatte yoktu; beşte çıkar.",
+          "meta": "Şebnem Hanım'ın sırrı salı akşamı 20.30'da, Kuytu'da pencere önünde telefonda konuşuldu. Tarık Bey o saatte yoktu; beşte çıkar.",
+          "sahne": {
+            "arka": "A33",
+            "set": "kase",
+            "cset": "deri",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Bir dizi stüdyosu. Işıkların altında sahte bir mutfak; bakır tencerede dokunulmamış bir karnıyarık.",
+                "arka": "A33",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Çene hizasında küt saçlı, beyaz aşçı önlüklü bir kadın tencerenin başında; elinde tahta kaşık.",
+                "gir": "sebnem",
+                "gi": "gergin"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Şebnem Hanım. Setin çaycısı tanıdığım; bizi o içeri aldı.",
+                "gir": "sebnem"
+              },
+              {"k": "sebnem", "i": "gergin", "m": "Tarık mı söyledi? Kimseye söylemeyecekti.", "kime": "cengo"},
+              {"k": "peri", "i": "normal", "m": "Feraye Hanım'ın işine bakıyoruz. Size gelen mesajı soracağız."},
+              {
+                "k": "sebnem",
+                "i": "gergin",
+                "m": "Programda her yemeğe \"anneannemin tarifi\" diyorum. Yemekler köşedeki esnaf lokantasından geliyor.",
+                "kime": "peri"
+              },
+              {"k": "not", "m": "Peri tezgâhın altına eğiliyor: lokantanın boş alüminyum kabı.", "kare": "D13"},
+              {"k": "peri", "i": "kas", "m": "Kabını saklamayı bile unutmuşsunuz.", "kare": "D13"},
+              {
+                "k": "sebnem",
+                "i": "gergin",
+                "m": "Bunu bir kere söyledim, lokantaya, telefonda. Salı akşamı, sekiz buçukta, Kuytu'da pencerenin önünde.",
+                "gir": "sebnem",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "O saatte kafede kim vardı?"},
+              {
+                "k": "sebnem",
+                "i": "normal",
+                "m": "Kafe boştu. O yaşam koçu bile gitmişti; o hep beşte çıkar.",
+                "kime": "cengo"
+              },
+              {"k": "sebnem", "i": "normal", "m": "Ertesi hafta mesaj geldi. Ben de yirmi bini yeşil kitaba koydum."},
+              {"k": "cengo", "i": "gulen", "m": "Karnıyarık soğumuş. Ziyan olmasın, ben yerim."},
+              {"k": "sebnem", "i": "gergin", "m": "Yeme! O yarınki çekimin.", "kime": "cengo"}
+            ]
+          }
+        },
+        {
+          "id": "fal_masasi",
+          "ad": "Feraye'nin fal masası",
+          "tur": "Gözlem",
+          "ico": "◉",
+          "needs": [],
+          "reveals": ["ilham_kaynak"],
+          "text": "Feraye sırları fala oturmadan önce bir nottan öğreniyor; notları kafede her gün olan biri getiriyor, not başına bin lira. Adını vermiyor.",
+          "meta": "Feraye sırları fala oturmadan önce bir nottan öğreniyor; notları kafede her gün olan biri getiriyor, not başına bin lira. Adını vermiyor.",
+          "sahne": {
+            "arka": "A31",
+            "set": "kase",
+            "cset": "deri",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {"k": "not", "m": "Kuytu'nun basamakları.", "arka": "A31", "mekan": true},
+              {
+                "k": "not",
+                "m": "Kafenin arka köşesi: mor örtülü bir masa, ters kapanmış fincanlar, yanık bir mum. Feraye tek başına oturuyor.",
+                "arka": "A30b",
+                "gir": "feraye",
+                "gi": "dertli"
+              },
+              {
+                "k": "feraye",
+                "i": "dertli",
+                "m": "Bir hafta önce bu köşede sıra beklenirdi. Bugün kimse yok.",
+                "gir": "feraye",
+                "kime": "peri"
+              },
+              {"k": "peri", "i": "normal", "m": "Feraye Hanım. O sırları nereden biliyorsunuz?"},
+              {"k": "feraye", "i": "normal", "m": "Fincandan, kızım. Söyledim ya."},
+              {
+                "k": "not",
+                "m": "Feraye yüzüklerini parmağında çeviriyor; Peri'nin gözüne bakmıyor.",
+                "gir": "feraye",
+                "gi": "kacamak"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Yalan söylerken yüzüklerinizi çeviriyorsunuz. Fincan o kadar ayrıntı bilmez."
+              },
+              {
+                "k": "feraye",
+                "i": "cokmus",
+                "m": "…Bu kafede bir kulağım var. Her gün burada olan biri.",
+                "kime": "peri"
+              },
+              {"k": "feraye", "i": "cokmus", "m": "Fala oturmadan önce bana bir not bırakır. Not başına bin lira."},
+              {"k": "cengo", "i": "kas", "m": "Kim bu kulak, Feraye Abla?"},
+              {"k": "feraye", "i": "cokmus", "m": "Adını vermem. Verirsem ekmeğim biter.", "kime": "cengo"},
+              {
+                "k": "not",
+                "m": "Feraye konuyu değiştirmek için masadaki bir fincanı açıp içine bakıyor.",
+                "gir": "feraye",
+                "gi": "fal"
+              },
+              {"k": "feraye", "i": "fal", "m": "Bakın, bu fincanda bir kuş var. Haber gelecek.", "kime": "peri"},
+              {"k": "peri", "i": "merakli", "m": "(fincana eğilip) O kuş değil. Balık."},
+              {"k": "feraye", "i": "normal", "m": "Hani fala inanmıyordunuz?"},
+              {"k": "peri", "i": "kas", "m": "İnanmıyorum. Ama balık."}
+            ]
+          }
+        }
+      ],
+      "decisions": [
+        {
+          "id": "polise_ver",
+          "gate": "yok",
+          "kare": "K75",
+          "cengoBag": -1,
+          "para": -10000,
+          "etiket": "Sadık'ı polise teslim et",
+          "onizleme": "Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Feraye'nin notları da. Feraye Hanım 10.000 ₺ keser.",
+          "sonuc": "Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Feraye'nin notları da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücretten on bin kesti: \"Adımı temizleyin dedim, gömün demedim.\"",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo telefonundaki mahalle grubuna baktı. \"Tarık'ın kitabı en çok şimdi satar\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "uzaklastir",
+          "gate": "yok",
+          "kare": "K76",
+          "cengoBag": 0,
+          "para": 10000,
+          "etiket": "Sadık'ı sessizce uzaklaştır, Feraye'yi koru",
+          "onizleme": "Sadık Cihangir'den gider, kimseye bir şey söylenmez. Feraye Hanım 10.000 ₺ fazladan verir.",
+          "sonuc": "Sadık'a zarfları bıraktırıp onu Cihangir'den gönderdin. Zarfları sahiplerinin kapısına isimsiz bıraktın. Mesajlar kesildi, Feraye'nin müşterileri döndü; Feraye sana on bin fazladan verdi. Fincanları artık eskisi kadar bilmiyor.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Bir hafta sonra Cengo büroya haber getirdi: \"Sadık Moda'da bir kafede başlamış. Pencerenin önünde masaları varmış.\""
+            }
+          ]
+        },
+        {
+          "id": "dosya_sakla",
+          "gate": "yok",
+          "kare": "K77",
+          "cengoBag": -2,
+          "para": 20000,
+          "etiket": "Telefonu \"dosya\" olarak sakla",
+          "onizleme": "Sırların durduğu telefonu sen saklarsın; Sadık susman için 20.000 ₺ bırakır. Kurbanlar paralarını geri alamaz.",
+          "sonuc": "Faturasız telefonu çekmecene koydun; içinde üç kişinin sırrı. Sadık'ı bıraktın; Sadık susman için yirmi bin bıraktı. Feraye adının temizlendiğini sanıyor. Tarık Bey ile Şebnem Hanım paralarını geri alamadı; mesajlar kesildi ama bir yerde birinin bildiğini biliyorlar.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo çekmeceye baktı. \"O telefonu orada tutma. Bir gün biri de senin pencerenin önünde durur\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "gercegi_soyle",
+          "gate": "yok",
+          "kare": "K78",
+          "cengoBag": 2,
+          "para": 5000,
+          "etiket": "Kurbanlara gerçeği sen söyle",
+          "onizleme": "Zarfları sahiplerine sen götürür, sırlarının nasıl gittiğini anlatırsın; polis yok, sırlar duyulmaz. Feraye fal masasını kapatır. Şebnem Hanım 5.000 ₺ teşekkür bırakır.",
+          "sonuc": "Zarfları Tarık Bey'e, Şebnem Hanım'a ve üçüncü kurbana kendin götürdün; sırlarının fincandan değil Sadık'ın kulağından, oradan Feraye'nin masasına gittiğini anlattın. Polise kimse gitmedi, sırlar duyulmadı. Zerrin Sadık'ı kapıya koydu; Feraye fal masasını topladı. Şebnem Hanım sana beş bin teşekkür bıraktı.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo boynundaki nazar boncuğunu tutup baktı. \"Bunu yine de çıkarmam\" dedi."
+            }
+          ]
+        }
+      ],
+      "seeds": {},
+      "kim_yapti": {
+        "suclu": "sadik",
+        "supheliler": [
+          {
+            "id": "sadik",
+            "ad": "Sadık",
+            "gorunur": {"any": ["pencere_cekim", "raf_kor", "mesaj_cumle", "sadik_aksam", "ilham_kaynak"]}
+          },
+          {"id": "tarik", "ad": "Tarık Bey", "gorunur": "her_zaman"},
+          {"id": "rana", "ad": "Rana", "gorunur": "her_zaman"}
+        ],
+        "dogru_ciftler": [
+          ["pencere_cekim", "mesaj_cumle"],
+          ["pencere_cekim", "sebnem_aksam"],
+          ["raf_kor", "mesaj_cumle"],
+          ["raf_kor", "sebnem_aksam"],
+          ["ilham_kaynak", "mesaj_cumle"],
+          ["ilham_kaynak", "sebnem_aksam"],
+          ["tarik_sir", "mesaj_cumle"],
+          ["tarik_sir", "sebnem_aksam"]
+        ],
+        "ucret": {"dogru": 40000, "zayif": 30000, "yanlis": 20000},
+        "giris_grup": "Feraye Hanım'ın anlattıkları",
+        "kesinti": {
+          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Feraye Hanım {kesinti} kesti.",
+          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Feraye Hanım {kesinti} kesti."
+        },
+        "cozum": {
+          "yollar": [
+            "Sırlar kafede, pencere önündeki telefonlardan duyuldu (Tarık ya da Sadık) + mesajı Feraye'nin sözünü ezbere bilen biri yazdı (Rana ya da Sadık).",
+            "Feraye'ye not getiren kafede her gün olan biriydi (Tarık ya da Sadık) + mesajı Feraye'nin sözünü bilen biri yazdı (Rana ya da Sadık).",
+            "Tarık'ın sırrı tarota hiç çıkmadı, yalnız kafede telefonda söylendi (Tarık ya da Sadık) + sözü bilen Rana ya da Sadık.",
+            "Şebnem'in sırrı akşam söylendi; Tarık beşte çıkmıştı + pencere önünü duyan, Feraye'ye not getiren ya da Tarık'ın sırrını duyan kalan tek kişi Sadık."
+          ],
+          "masum": {
+            "tarik": "Tarık Bey masumdu: o da şantaj edilmişti; Sadık ondan da yirmi bin almıştı.",
+            "rana": "Rana masumdu: Feraye'nin sözünü bilmesi yetmişti. O sözü her gün kahve taşırken Sadık da ezberlemişti; sırları da pencere önünde o duymuştu."
+          }
+        },
+        "hikaye": [
+          "Kuytu Kafe bir bodrumdaydı; telefon yalnız pencerenin önünde çekiyordu, herkes konuşmaya oraya geçiyordu. Garson Sadık o masalara servis yaparken duyduklarını iki yıldır Feraye'ye not başına bin liraya satıyordu. Feraye fincanda \"görüyor\", ünü büyüyordu.",
+          "Beş hafta önce Tarık Bey pencerenin önünde kameramanına \"sabah beş\" videolarını akşamdan çekmelerini söyledi. Sadık duydu, Feraye'ye yazdı; Feraye Tarık'ın falında \"Güneş doğarken sen yatağındasın\" dedi. Tarık sonra karşıya geçip Rana'ya da tarot baktırdı, ama sırrını orada açmadı.",
+          "Üç hafta önce Sadık faturasız bir hattan mesaj atmaya başladı. Feraye'nin her gün kahve taşırken ezberlediği açılış sözünü kullandı; herkes falcıya baksın diye.",
+          "İki hafta önce, salı akşamı sekiz buçukta, Şebnem Hanım pencerenin önünde lokantaya yarınki karnıyarığı sipariş etti. Tarık beşte çıkmıştı; Zerrin altıda gitmişti. Akşamları kafeyi Sadık çeviriyordu.",
+          "Kurbanlar parayı raftaki yeşil kitaba bıraktı; kamera rafı görmüyordu. Sadık zarfları kapanışta toplayıp personel dolabına koydu, telefonu da her akşam kapanışta açıp mesajlara baktı. Rana ise iki yıldır kafeye giremiyordu; karşıdan bakıyordu."
+        ],
+        "kanit_ad": {
+          "santaj_mesaji": "Şantaj mesajı",
+          "rana_bilir": "Rana sözü bilir",
+          "tarik_sucladi": "Tarık'ın suçlaması",
+          "pencere_cekim": "Pencerede çeken telefon",
+          "raf_kor": "Kameranın kör köşesi",
+          "tarik_sir": "Tarık'ın sırrı",
+          "tarik_odedi": "Tarık'ın zarfı",
+          "mesaj_cumle": "Sözü ezbere bilenler",
+          "rana_musteri": "Rana'nın müşterileri",
+          "tarik_veresiye": "Tarık'ın veresiyesi",
+          "sadik_aksam": "Akşam vardiyası",
+          "sebnem_aksam": "Şebnem'in akşam telefonu",
+          "ilham_kaynak": "Feraye'nin notları"
+        }
+      },
+      "anahtarlar": {
+        "pencere_cekim": ["çekmiyor", "çekiyor", "pencere"],
+        "raf_kor": ["kamera", "kör"],
+        "tarik_sir": ["öğlene", "akşamdan"],
+        "tarik_odedi": ["perşembe", "zarf"],
+        "mesaj_cumle": ["kahve taşıyan"],
+        "rana_musteri": ["baktırıyor", "baktırdı"],
+        "tarik_veresiye": ["veresiye", "borç yazdır"],
+        "sadik_aksam": ["kapanış", "altıda"],
+        "sebnem_aksam": ["sekiz buçuk", "20.30"],
+        "ilham_kaynak": ["not bırak", "not başına", "notları"]
+      },
+      "sahneler": {
+        "giris": {
+          "arka": "A6",
+          "set": "kase",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla; Cengo'nun boynunda nazar boncuğu. Kapıda tombul, simsiyah saçlı, mor şallı bir kadın.",
+              "gir": "feraye",
+              "gi": "normal"
+            },
+            {"k": "cengo", "i": "gulen", "m": "Feraye Abla! Bak, taktığın boncuk hâlâ boynumda.", "gir": "feraye"},
+            {"k": "feraye", "i": "normal", "m": "Çıkarma oğlum. Kötü gözden korur.", "kime": "cengo"},
+            {
+              "k": "feraye",
+              "i": "normal",
+              "m": "Peri Hanım siz olmalısınız. Ben Feraye. Kırk yıldır Cihangir'de, Kuytu Kafe'de kahve falı bakarım.",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "normal", "m": "Buyurun, oturun Feraye Hanım. Derdinizi dinliyorum."},
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "Üç haftadır müşterilerime mesaj geliyor. Sırlarını yazıp para istiyorlar. Bakın.",
+              "kare": "D11"
+            },
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "\"Fincanında bir gölge var, gölge konuşur. Sırrın bende. Kuytu'daki rafta, yeşil kitaba yirmi bin bırak.\"",
+              "kare": "D11"
+            },
+            {
+              "k": "feraye",
+              "i": "ofkeli",
+              "m": "Bu benim sözüm! Kırk yıldır her fala böyle başlarım. O numarayı arayan çok oldu, hep kapalı.",
+              "gir": "feraye",
+              "kime": "peri"
+            },
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "Mesaj yaşam koçu Tarık Bey'e de gelmiş. Cuma sokak ortasında bana \"şantajcı\" diye bağırdı; müşterilerim kaçtı.",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "merakli", "m": "Bu sözü sizden başka kim bilir?"},
+            {
+              "k": "feraye",
+              "i": "ofkeli",
+              "m": "Eski çırağım Rana bilir. Karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor."
+            },
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "Belki de Tarık Bey'in kendisi yazdı. Adı ağızdan düşmesin diye bağırıyor."
+            },
+            {"k": "peri", "i": "kas", "m": "Peki siz o sırları nereden biliyorsunuz, Feraye Hanım?"},
+            {
+              "k": "feraye",
+              "i": "normal",
+              "m": "Fincandan, kızım. Kuytu'da herkes bilir; Zerrin de, garson Sadık da.",
+              "kime": "peri"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "(çay ocağından kahvelerle gelerek) Üç sade kahve. Fincanlar biraz çatlak, kusura bakmayın.",
+              "gir": "gizem",
+              "kime": "peri"
+            },
+            {
+              "k": "not",
+              "m": "Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor, açıp içine bakıyor.",
+              "gir": "feraye",
+              "gi": "fal"
+            },
+            {"k": "feraye", "i": "fal", "m": "Bir kadın görüyorum. Kırmızı.", "kime": "cengo"},
+            {
+              "k": "not",
+              "m": "Peri, farkında olmadan, eşarbına dokunuyor. Cengo bir an başını çeviriyor ve doğrudan bize bakıyor.",
+              "kare": "K60"
+            },
+            {"k": "peri", "i": "kas", "m": "Fala inanmam.", "gir": "feraye", "gi": "fal"},
+            {"k": "gizem", "i": "triko_isveli", "m": "Bana da bakar mısınız?", "gir": "gizem", "kime": "feraye"},
+            {"k": "feraye", "i": "normal", "m": "Sana bakmaya gerek yok kızım, yüzünde yazıyor.", "kime": "gizem"},
+            {
+              "k": "not",
+              "m": "Gizem fincanları toplayıp çay ocağına dönüyor. Büro ısınmış; Peri paltosunu çıkarıp askıya asıyor. Altında vücudu saran kısa siyah triko bir elbise. Bacak bacak üstüne atıyor.",
+              "kare": "K61",
+              "set": "kase_acik"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Gelelim işe. Ücretimiz kırk bin lira; şantajcıyı bulduğumuzda ödersiniz.",
+              "gir": "feraye"
+            },
+            {"k": "feraye", "i": "normal", "m": "Kırk bin, tamam. Üstüne bir fal da benden, bedava.", "kime": "peri"},
+            {"k": "peri", "i": "kas", "m": "Fal hariç."}
+          ]
+        },
+        "konusma": {
+          "arka": "A6",
+          "set": "kase_acik",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {"k": "not", "m": "Kapı kapanıyor. Peri fincanının dibine bakmamaya çalışıyor."},
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Feraye Abla'yı tanırım. Yalan söyleyecek kadın değil. Ama bir şey saklıyor."
+            },
+            {"k": "peri", "i": "merakli", "m": "Ne saklıyor?"},
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Sırları fincandan okumuyor. Fincanda o kadar ayrıntı olmaz. Ben de kahve içerim."
+            },
+            {"k": "peri", "i": "kas", "m": "Boynunda nazar boncuğuyla fala inanmadığını söylüyorsun."},
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Boncuğa inanırım, fincana inanmam. Boncuk bir şey söylemez, yalnız korur."
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Plan şu: önce kafeye gideriz, o kitap rafına bakarız. Sonra Tarık Bey'le ve Rana'yla konuşuruz.",
+              "arka": "A7"
+            },
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Rana'yı tanırım. Bir kere bana kart açtı, \"yakında para gelecek\" dedi."
+            },
+            {"k": "peri", "i": "merakli", "m": "Geldi mi?"},
+            {"k": "cengo", "i": "kas", "m": "Gitti. Kart ters çıkmış."},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kafenin sahibi Zerrin'le de konuşalım. Feraye Hanım'la da bir kez daha, bu sefer yalnız."
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Tarık Bey'i bulmak kolay. Her gün kafenin önündeki yokuşta telefonuna video çekiyor."
+            }
+          ]
+        },
+        "yuzlesme_dogru": {
+          "arka": "A30d",
+          "set": "kase",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.",
+              "kare": "K62"
+            },
+            {"k": "not", "m": "Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.", "gir": "sadik", "gi": "kova"},
+            {
+              "k": "zerrin",
+              "i": "normal",
+              "m": "Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor.",
+              "gir": "zerrin",
+              "kime": "sadik"
+            },
+            {"k": "cengo", "i": "kas", "m": "Kahvenin artığını mı satıyorsunuz?", "gir": "zerrin"},
+            {"k": "zerrin", "i": "normal", "m": "Bedava veriyoruz. Telve iyi gübredir.", "kime": "cengo"},
+            {"k": "not", "m": "Sadık kovayı boşaltıp tepsisiyle geri geliyor.", "gir": "sadik", "gi": "normal"},
+            {"k": "peri", "i": "normal", "m": "Sadık. Şantajcı sensin. Nasıl yaptığını da biliyorum.", "gir": "sadik"},
+            {
+              "k": "sadik",
+              "i": "normal",
+              "m": "(tepsiyi tutup gülümseyerek) Ben kahve taşırım, efendim.",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de seni gösteriyor."},
+            {"k": "peri", "i": "kas", "m": "Şantajcı bu odadaysa, telefonu da üstündedir. Numarayı arıyorum."},
+            {
+              "k": "not",
+              "m": "Peri numarayı arıyor. Sadık'ın önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.",
+              "kare": "K63"
+            },
+            {
+              "k": "not",
+              "m": "Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.",
+              "cik": true,
+              "kare": "K64"
+            }
+          ]
+        },
+        "yuzlesme_zayif": {
+          "arka": "A30d",
+          "set": "kase",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.",
+              "kare": "K62"
+            },
+            {"k": "not", "m": "Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.", "gir": "sadik", "gi": "kova"},
+            {
+              "k": "zerrin",
+              "i": "normal",
+              "m": "Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor.",
+              "gir": "zerrin",
+              "kime": "sadik"
+            },
+            {"k": "cengo", "i": "kas", "m": "Kahvenin artığını mı satıyorsunuz?", "gir": "zerrin"},
+            {"k": "zerrin", "i": "normal", "m": "Bedava veriyoruz. Telve iyi gübredir.", "kime": "cengo"},
+            {"k": "not", "m": "Sadık kovayı boşaltıp tepsisiyle geri geliyor.", "gir": "sadik", "gi": "normal"},
+            {"k": "peri", "i": "normal", "m": "Sadık. Şantajcı sensin.", "gir": "sadik"},
+            {
+              "k": "sadik",
+              "i": "normal",
+              "m": "İki yıldır burada çalışıyorum, efendim. Bir kahve fazlası almadım. Kanıtınız ne?",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "utanmis", "m": "…Elimde bir şey var ama sizi ikna edecek kadar değil."},
+            {"k": "tarik", "i": "ofkeli", "m": "Ben o numarayı yine arıyorum. Belki bu sefer açarlar!", "gir": "tarik"},
+            {
+              "k": "not",
+              "m": "Tarık numarayı arıyor. Sadık'ın önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.",
+              "kare": "K63"
+            },
+            {
+              "k": "not",
+              "m": "Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.",
+              "cik": true,
+              "kare": "K64"
+            }
+          ]
+        },
+        "yuzlesme_tarik": {
+          "arka": "A30d",
+          "set": "kase",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.",
+              "kare": "K62"
+            },
+            {"k": "not", "m": "Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.", "gir": "sadik", "gi": "kova"},
+            {
+              "k": "zerrin",
+              "i": "normal",
+              "m": "Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor.",
+              "gir": "zerrin",
+              "kime": "sadik"
+            },
+            {"k": "cengo", "i": "kas", "m": "Kahvenin artığını mı satıyorsunuz?", "gir": "zerrin"},
+            {"k": "zerrin", "i": "normal", "m": "Bedava veriyoruz. Telve iyi gübredir.", "kime": "cengo"},
+            {"k": "peri", "i": "kas", "m": "Tarık Bey. Mesajları siz yazdınız.", "gir": "tarik"},
+            {"k": "tarik", "i": "ofkeli", "m": "Ben mi? Ben de ödedim! Yirmi bin lira!", "kime": "peri"},
+            {
+              "k": "tarik",
+              "i": "ofkeli",
+              "m": "Bakın, o numarayı kaç kere aradım! (telefonunu uzatıp numaraya bir daha basarak)"
+            },
+            {"k": "not", "m": "Garsonun önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.", "kare": "K63"},
+            {
+              "k": "not",
+              "m": "Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.",
+              "cik": true,
+              "kare": "K64"
+            }
+          ]
+        },
+        "yuzlesme_rana": {
+          "arka": "A30d",
+          "set": "kase",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.",
+              "kare": "K62"
+            },
+            {"k": "not", "m": "Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.", "gir": "sadik", "gi": "kova"},
+            {
+              "k": "zerrin",
+              "i": "normal",
+              "m": "Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor.",
+              "gir": "zerrin",
+              "kime": "sadik"
+            },
+            {"k": "cengo", "i": "kas", "m": "Kahvenin artığını mı satıyorsunuz?", "gir": "zerrin"},
+            {"k": "zerrin", "i": "normal", "m": "Bedava veriyoruz. Telve iyi gübredir.", "kime": "cengo"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Rana. Feraye Hanım'ın sözünü ezbere biliyorsun. Mesajları sen yazdın.",
+              "gir": "rana"
+            },
+            {
+              "k": "rana",
+              "i": "alayci",
+              "m": "İki yıldır bu kapıdan girmedim. Bu akşam da Zerrin izin verdi diye buradayım.",
+              "kime": "peri"
+            },
+            {
+              "k": "rana",
+              "i": "alayci",
+              "m": "Ben yazsaydım o telefon benim çantamda olurdu. Ara Feraye, bakalım burada çalacak mı.",
+              "kime": "feraye"
+            },
+            {
+              "k": "feraye",
+              "i": "ofkeli",
+              "m": "Arıyorum. Kimin cebinde çalacak, görelim.",
+              "gir": "feraye",
+              "kime": "rana"
+            },
+            {"k": "not", "m": "Garsonun önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.", "kare": "K63"},
+            {
+              "k": "not",
+              "m": "Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.",
+              "cik": true,
+              "kare": "K64"
+            }
+          ]
+        },
+        "kovalamaca": {
+          "arka": "A30d",
+          "set": "kase",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Sadık arka kapıya koşuyor. Cengo peşinden atılırken Feraye'nin omzundan kayan mor şala dolanıyor, yüzüstü kapaklanıyor. Kalktığında şal başında, nazar boncuğu alnında.",
+              "kare": "K65",
+              "cset": "salli"
+            },
+            {"k": "cengo", "i": "kas", "m": "(şalın altından) Bir kadın görüyorum…", "kare": "K65"},
+            {"k": "peri", "i": "sinirli", "m": "Sus da koş, Cengo!", "kare": "K65"},
+            {
+              "k": "not",
+              "m": "Arka avlu. Sadık dolu telve bidonunu arkasına deviriyor; telve taşlara yayılıyor. Peri arkasından geliyor, çizmesiyle ıslak telveye basıp kayıyor ve yığının ortasına oturuyor. Bidonun kalanı üstüne boşalıyor.",
+              "arka": "A34",
+              "kare": "K66",
+              "set": "telveli",
+              "peri": "sinirli"
+            },
+            {"k": "peri", "i": "sinirli", "m": "(telvenin içinden) Kimse bana fal bakmasın.", "kare": "K66"},
+            {
+              "k": "not",
+              "m": "Cihangir merdivenleri. Sadık basamakları ikişer ikişer iniyor. Peri'nin çizmeleri telveden kayıyor; basamak yerine tırabzana yan oturup kayarak iniyor.",
+              "arka": "A35",
+              "kare": "K67"
+            },
+            {
+              "k": "not",
+              "m": "Kayarken Peri'nin çizmesinin biri ayağından fırlıyor, havada dönüyor ve aşağıdaki Sadık'ın kafasına iniyor. Sadık sendeleyip son basamaklarda düşüyor; cebinden bir telefon basamaklara savruluyor.",
+              "kare": "K68"
+            },
+            {
+              "k": "not",
+              "m": "Şallı Cengo yetişip Sadık'ın üstüne oturuyor. Peri tek çizmeyle tırabzanın dibine iniyor.",
+              "kare": "K69"
+            },
+            {"k": "peri", "i": "kas", "m": "Ben attığımı vururum.", "kare": "K69"},
+            {"k": "sadik", "i": "itiraf", "m": "Tamam. Ben yaptım.", "gir": "sadik"},
+            {
+              "k": "sadik",
+              "i": "itiraf",
+              "m": "İki yıldır Feraye Hanım'a not satıyorum. Kuytu'da telefon yalnız pencerede çeker; herkes orada konuşur."
+            },
+            {
+              "k": "sadik",
+              "i": "itiraf",
+              "m": "Ben de servis yaparken duyarım. Sır başına bin lira. Sonra düşündüm: sırrın sahibi daha çok verir."
+            },
+            {
+              "k": "sadik",
+              "i": "itiraf",
+              "m": "Feraye Hanım'ın sözünü her gün kahve taşırken ezberledim. Mesajları onunla yazdım, herkes falcıya baksın diye."
+            },
+            {
+              "k": "sadik",
+              "i": "itiraf",
+              "m": "Telefonu her akşam kapanışta açardım, mesajlara bakmak için. Bu akşam da açıktı."
+            },
+            {
+              "k": "sadik",
+              "i": "itiraf",
+              "m": "Tarık Bey'den, Şebnem Hanım'dan, bir kişiden daha yirmişer bin aldım. Hepsi personel dolabımda."
+            },
+            {"k": "not", "m": "Feraye nefes nefese merdivenden iniyor.", "gir": "feraye", "gi": "ofkeli"},
+            {"k": "feraye", "i": "ofkeli", "m": "Benim sözümle mi, Sadık? Ben sana ekmek verdim.", "kime": "sadik"},
+            {"k": "sadik", "i": "itiraf", "m": "Siz de benden sır aldınız, Feraye Hanım.", "kime": "feraye"},
+            {
+              "k": "not",
+              "m": "Feraye şalı Cengo'nun başından alıp Peri'nin telveli omuzlarına atıyor. Sonra Peri'nin elbisesindeki telveye eğiliyor.",
+              "kare": "K70",
+              "set": "salli",
+              "cset": "deri"
+            },
+            {"k": "feraye", "i": "fal", "m": "Burada uzun bir yol görüyorum…", "gir": "feraye", "kime": "peri"},
+            {"k": "peri", "i": "kas", "m": "Fala inanmam."}
+          ]
+        },
+        "kapanis": {
+          "arka": "A8",
+          "set": "salli",
+          "cset": "deri",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Büro. Peri Feraye'nin mor şalına sarınmış; saçında hâlâ telve, boynunda kırmızı eşarp. Cengo'nun boynunda nazar boncuğu."
+            },
+            {
+              "k": "not",
+              "m": "Kapı açılıyor. Gizem giriyor: kırmızı, vücudu saran bir elbiseyle.",
+              "kare": "K71",
+              "gir": "gizem",
+              "gi": "kirmizi"
+            },
+            {"k": "gizem", "i": "kirmizi", "m": "Üstüme çay döküldü. Çantamda bu vardı.", "kime": "peri", "kare": "K71"},
+            {"k": "peri", "i": "sasirmis", "m": "Çantanda neden kırmızı bir elbise var?", "gir": "gizem"},
+            {
+              "k": "gizem",
+              "i": "kirmizi_isveli",
+              "m": "Her kadının çantasında bir kırmızı elbise olur, tatlım.",
+              "kime": "peri"
+            },
+            {
+              "k": "not",
+              "m": "Cengo hiçbir şey demiyor. Gizem'e bakıyor, sonra Peri'nin boynundaki kırmızı eşarba.",
+              "kare": "K72"
+            },
+            {
+              "k": "peri",
+              "i": "kiskanc",
+              "m": "(alçak sesle, kendi kendine) Fala inanmıyorum.",
+              "gir": "gizem",
+              "gi": "kirmizi"
+            },
+            {
+              "k": "not",
+              "m": "Cengo nazar boncuğunu boynundan çıkarıp Peri'nin masasına bırakıyor.",
+              "bag": "dusuk",
+              "kare": "K73"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Bu sende dursun. Bana bir işe yaramadı.",
+              "bag": "dusuk",
+              "kime": "peri"
+            },
+            {
+              "k": "not",
+              "m": "Cengo çıkıyor. Gizem boncuğa bakıyor, sonra Peri'ye. Peri boncuğu çekmeceye koyuyor.",
+              "bag": "dusuk",
+              "gir": "gizem",
+              "gi": "kirmizi"
+            },
+            {
+              "k": "not",
+              "m": "Cengo Peri'nin soğumuş fincanını alıp tabağına kapatıyor, ters çeviriyor.",
+              "bag": "yuksek",
+              "kare": "K74"
+            },
+            {"k": "cengo", "i": "yumusak", "m": "Soğusun. Ben bakacağım.", "bag": "yuksek", "kime": "peri"},
+            {"k": "peri", "i": "kas", "m": "Fala inanmam.", "bag": "yuksek"},
+            {"k": "cengo", "i": "gulen", "m": "Biliyorum.", "bag": "yuksek"},
+            {"k": "not", "m": "Cengo fincanı açmıyor; Peri de açmasını istemiyor.", "bag": "yuksek", "kare": "K74"},
+            {"k": "gizem", "i": "kirmizi", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
           ]
         }
       }

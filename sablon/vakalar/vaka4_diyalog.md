@@ -25,28 +25,21 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Büro, sabah. Peri masada paltosuyla, Cengo içeride. Feraye kapıdan girer. Gizem çay ocağından kahvelerle gelir (girişte ilk kez ekranda), fal anında kalır. Çekicilik anı falın ardından: Peri paltoyu çıkarır.
 ⚙ K17: büro, 15–25 replik, şüpheli (Rana, Tarık) anılıyor, ücret kırk bin; ipucu bilgisi yok (telefonun çektiği yer, kamera, akşam saati, tarot müşterisi, not).
 
-*Sabah. Büro. Peri masada; deve tüyü kaşe palto, boynunda kırmızı ipek eşarp. Cengo kapının yanında, boynunda mavi bir nazar boncuğu.*
-*Kapı çalınıyor. Eşikte tombul, simsiyah kabarık saçlı bir kadın; omzunda mor kadife şal, her parmağında yüzük.* {gir: feraye, gi: normal}
+*Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla; Cengo'nun boynunda nazar boncuğu. Kapıda tombul, simsiyah saçlı, mor şallı bir kadın.* {gir: feraye, gi: normal}
 **CENGO [gulen]:** Feraye Abla! Bak, taktığın boncuk hâlâ boynumda. {gir: feraye}
 **FERAYE [normal]:** Çıkarma oğlum. Kötü gözden korur. {kime: cengo}
 **FERAYE [normal]:** Peri Hanım siz olmalısınız. Ben Feraye. Kırk yıldır Cihangir'de, Kuytu Kafe'de kahve falı bakarım. {kime: peri}
 **PERİ [normal]:** Buyurun, oturun Feraye Hanım. Derdinizi dinliyorum.
-**FERAYE [dertli]:** Üç haftadır müşterilerime mesaj geliyor. Sırlarını yazıp para istiyorlar. Bakın. {kime: peri}
-*Feraye telefonunu uzatıyor. Ekranda bir mesaj; gönderen, kayıtlı olmayan bir numara.* {kare: D11}
-**FERAYE [dertli]:** "Fincanında bir gölge var, gölge konuşur. Sırrın bende." {kare: D11}
-**FERAYE [dertli]:** "Kuytu'daki kitap rafına, yeşil kitabın arasına yirmi bin bırak." {kare: D11}
-**FERAYE [ofkeli]:** Bu benim sözüm! Kırk yıldır her fala böyle başlarım. Biri benim ağzımla yazmış. {gir: feraye}
-**CENGO [kas]:** O numarayı arayan oldu mu?
-**FERAYE [dertli]:** Aradılar. Hep kapalı. {kime: cengo}
+**FERAYE [dertli]:** Üç haftadır müşterilerime mesaj geliyor. Sırlarını yazıp para istiyorlar. Bakın. {kare: D11}
+**FERAYE [dertli]:** "Fincanında bir gölge var, gölge konuşur. Sırrın bende. Kuytu'daki rafta, yeşil kitaba yirmi bin bırak." {kare: D11}
+**FERAYE [ofkeli]:** Bu benim sözüm! Kırk yıldır her fala böyle başlarım. O numarayı arayan çok oldu, hep kapalı. {gir: feraye, kime: peri}
 **FERAYE [dertli]:** Mesaj yaşam koçu Tarık Bey'e de gelmiş. Cuma sokak ortasında bana "şantajcı" diye bağırdı; müşterilerim kaçtı. {kime: peri}
 **PERİ [merakli]:** Bu sözü sizden başka kim bilir?
-**FERAYE [ofkeli]:** Eski çırağım Rana bilir. Karşı kaldırımda tarot dükkânı açtı, benim müşterilerimi istiyor.
-**FERAYE [normal]:** Kafenin sahibi Zerrin onu iki yıldır içeri sokmuyor. O da karşıdan bakıyor.
+**FERAYE [ofkeli]:** Eski çırağım Rana bilir. Karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor.
 **FERAYE [dertli]:** Belki de Tarık Bey'in kendisi yazdı. Adı ağızdan düşmesin diye bağırıyor.
 **PERİ [kas]:** Peki siz o sırları nereden biliyorsunuz, Feraye Hanım?
 **FERAYE [normal]:** Fincandan, kızım. Kuytu'da herkes bilir; Zerrin de, garson Sadık da. {kime: peri}
-*Gizem çay ocağından üç fincan kahveyle geliyor; krem triko kazak, kot pantolon.* {gir: gizem, gi: triko}
-**GİZEM [triko]:** Üç sade kahve. Fincanlar biraz çatlak, kusura bakmayın. {kime: peri}
+**GİZEM [triko]:** *(çay ocağından kahvelerle gelerek)* Üç sade kahve. Fincanlar biraz çatlak, kusura bakmayın. {gir: gizem, kime: peri}
 *Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor, açıp içine bakıyor.* {gir: feraye, gi: fal}
 **FERAYE [fal]:** Bir kadın görüyorum. Kırmızı. {kime: cengo}
 *Peri, farkında olmadan, eşarbına dokunuyor. Cengo bir an başını çeviriyor ve doğrudan bize bakıyor.* {kare: K60}
