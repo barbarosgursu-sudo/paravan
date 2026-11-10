@@ -433,6 +433,6 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 4. ✅ Sırlar (10 Kasım 2026, sahibi): **Tarık Bey** *Sabah Beşte Kalk*'ın yazarı ama öğlene kadar uyuyor, "sabah beş"
    videoları akşamdan lambayla çekiliyor; **Şebnem Hanım** her yemeğe "anneannemin tarifi" diyor, yemekler esnaf
    lokantasından geliyor. Üçüncü kurban adsız, sırrı söylenmez.
-5. Kararlar: dürüst olan "Polise teslim et" Cengo'nun hoşuna gitmiyor ve parası eksi; öbür dürüst karar ("Kurbanlara
+5. ✅ (olduğu gibi) Kararlar: dürüst olan "Polise teslim et" Cengo'nun hoşuna gitmiyor ve parası eksi; öbür dürüst karar ("Kurbanlara
    gerçeği söyle") hoşuna gidiyor. Uygun mu?
 6. Diğer görünüşler (Feraye, Sadık, Tarık, Rana, Zerrin, Şebnem) — uygun mu?
