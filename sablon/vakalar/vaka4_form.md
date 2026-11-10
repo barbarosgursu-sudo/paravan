@@ -1,6 +1,6 @@
 # VAKA 4 FORMU — FALCI
 
-Şablon 6'ya göre. Durum: **TASLAK — Onay 1 bekliyor (10 Kasım 2026).**
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 10 Kasım 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 4 — FALCI" (Mavi Ay tipi = **Bilmece**).
 🟡 işaretli maddeler **kanona ekleme**: onayın olmadan yazılmaz (§18). 🟢 = görünüş/kıyafet önerisi.
@@ -416,12 +416,12 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 - [x] En az bir dürüst ve kazandıran karar var; kirli fark küçük
 - [x] Her kararın kısa sonucu var; kesinti açıklamaları var
 - [x] Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor
-- [ ] Yeni kanon onaylandı (3 madde — Onay 1)
+- [x] Yeni kanon onaylandı (3 madde, 10 Kasım)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı (Onay 1)
+- [x] Yeni yan karakterlerin görünüşü onaylandı (10 Kasım)
 - [x] Kural kitabıyla çelişen bir şey yok
 
-## Sahibine sorular *(Onay 1)*
+## Sahibine sorular *(Onay 1: hepsi cevaplandı, 10 Kasım 2026)*
 
 1. ✅ (a) Kanon 1: Cengo girişte boncukla mı gelsin (Feraye'yi tanır, boncuğu geçen yıl o taktı), yoksa Feraye boncuğu
    girişte mi taksın? *(Önerim: girişte boncukla gelir — tek set, daha az resim.)*
