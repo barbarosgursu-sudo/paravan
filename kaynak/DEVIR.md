@@ -8,7 +8,17 @@
 
 ---
 
-## 000000000000000000. ⬅️ 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+## 0000000000000000000. ⬅️ 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 bekliyor (görselsiz test)
+
+- Saat 12:49'da başladı (`sablon/vakalar/vaka4_baslangic.md` süre tablosu). Form onaylı (Onay 1, `vaka4_form.md`),
+  diyalog `vaka4_diyalog.md`, veri `yeni/game_data.json` V4 + künye + 80 yer tutucu (görsel yok).
+- Görselsiz tur: `node arac_yeni_tur.js [karar] [soz|aksam|ilham|cozmez4] [dogru|zayif|tarik|rana]` (araca V4 eklendi).
+  Sızıntı taraması temiz. Doğrulayıcıda iki kabul edilecek K8 uyarısı: "Polise teslim et" kararı para ve vicdanda
+  "uzaklaştır" ile "gerçeği söyle"nin gerisinde (Onay 1'de sahibi kararları olduğu gibi onayladı).
+- `test_yeni_v2.js`: görselsiz aşamada künye portresi de yer tutucu olabilir.
+- Sıradaki: sahibi Vaka 4'ü yayında oynar ("Vaka N'den başla" → Vaka 4), notları toplu verir (adım 6–7).
+
+## 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 Sahibinin kararı (yalnız belge, kod yazılmadı):
 - **Yeni sıra:** 1) **Vaka 4** sıfırdan, Vaka 3'ün kurallarıyla, saat baştan sona işler; 2) **Vaka 1 + 2** Vaka 3'ün

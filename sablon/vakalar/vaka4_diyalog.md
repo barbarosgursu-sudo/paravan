@@ -28,7 +28,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla; Cengo'nun boynunda nazar boncuğu. Kapıda tombul, simsiyah saçlı, mor şallı bir kadın.* {gir: feraye, gi: normal}
 **CENGO [gulen]:** Feraye Abla! Bak, taktığın boncuk hâlâ boynumda. {gir: feraye}
 **FERAYE [normal]:** Çıkarma oğlum. Kötü gözden korur. {kime: cengo}
-**FERAYE [normal]:** Peri Hanım siz olmalısınız. Ben Feraye. Kırk yıldır Cihangir'de, Kuytu Kafe'de kahve falı bakarım. {kime: peri}
+**FERAYE [normal]:** Dedektif hanım siz misiniz? Ben Feraye. Kırk yıldır Cihangir'de, Kuytu Kafe'de kahve falı bakarım. {kime: peri}
 **PERİ [normal]:** Buyurun, oturun Feraye Hanım. Derdinizi dinliyorum.
 **FERAYE [dertli]:** Üç haftadır müşterilerime mesaj geliyor. Sırlarını yazıp para istiyorlar. Bakın. {kare: D11}
 **FERAYE [dertli]:** "Fincanında bir gölge var, gölge konuşur. Sırrın bende. Kuytu'daki rafta, yeşil kitaba yirmi bin bırak." {kare: D11}
@@ -38,7 +38,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **FERAYE [ofkeli]:** Eski çırağım Rana bilir. Karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor.
 **FERAYE [dertli]:** Belki de Tarık Bey'in kendisi yazdı. Adı ağızdan düşmesin diye bağırıyor.
 **PERİ [kas]:** Peki siz o sırları nereden biliyorsunuz, Feraye Hanım?
-**FERAYE [normal]:** Fincandan, kızım. Kuytu'da herkes bilir; Zerrin de, garson Sadık da. {kime: peri}
+**FERAYE [normal]:** Fincandan, kızım. Kuytu'da sorun: Zerrin de söyler, garson Sadık da. {kime: peri}
 **GİZEM [triko]:** *(çay ocağından kahvelerle gelerek)* Üç sade kahve. Fincanlar biraz çatlak, kusura bakmayın. {gir: gizem, kime: peri}
 *Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor, açıp içine bakıyor.* {gir: feraye, gi: fal}
 **FERAYE [fal]:** Bir kadın görüyorum. Kırmızı. {kime: cengo}
@@ -59,7 +59,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Feraye Abla'yı tanırım. Yalan söyleyecek kadın değil. Ama bir şey saklıyor.
 **PERİ [merakli]:** Ne saklıyor?
 **CENGO [kas]:** Sırları fincandan okumuyor. Fincanda o kadar ayrıntı olmaz. Ben de kahve içerim.
-**PERİ [kas]:** Boynunda nazar boncuğuyla fala inanmadığını söylüyorsun.
+**PERİ [kas]:** Boynunuzda nazar boncuğuyla fala inanmadığınızı mı söylüyorsunuz?
 **CENGO [gulen]:** Boncuğa inanırım, fincana inanmam. Boncuk bir şey söylemez, yalnız korur.
 **PERİ [normal]:** Plan şu: önce kafeye gideriz, o kitap rafına bakarız. Sonra Tarık Bey'le ve Rana'yla konuşuruz. {arka: A7}
 **CENGO [gulen]:** Rana'yı tanırım. Bir kere bana kart açtı, "yakında para gelecek" dedi.
@@ -104,7 +104,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **TARIK [ofkeli]:** O kadının işine mi? Siz de mi onun adamısınız? {kime: cengo}
 **CENGO [gulen]:** Ben kimsenin adamı değilim. Ama bir smoothie'ye hayır demem.
 **TARIK [normal]:** Smoothie yok. Ama konuşalım; şu kadının ne olduğunu herkes bilsin. {kime: cengo}
-**PERİ [kas]:** Mesajda sırrınız yazıyor. Neymiş o sır?
+**PERİ [kas]:** Size gelen mesajda "Sırrın bende" yazıyor. Neymiş o sır?
 **TARIK [utanmis]:** Ben sabah beşi hiç görmedim. Öğlene kadar uyurum; "sabah beş" videolarını akşamdan çekiyoruz. {kime: peri}
 **TARIK [utanmis]:** Perdeleri kapatıp lambayı sabah gibi yakıyoruz. Kitabımın adı da "Sabah Beşte Kalk".
 **TARIK [utanmis]:** Bunu bir kez söyledim, telefonda, o kafede, pencerenin önünde. Ne falda açtım ne o tarotçu kızın masasında.
@@ -165,7 +165,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Bir dizi stüdyosu. Işıkların altında sahte bir mutfak; bakır tencerede dokunulmamış bir karnıyarık.* {arka: A33, mekan}
 *Çene hizasında küt saçlı, beyaz aşçı önlüklü bir kadın tencerenin başında; elinde tahta kaşık.* {gir: sebnem, gi: gergin}
 **CENGO [normal]:** Şebnem Hanım. Setin çaycısı tanıdığım; bizi o içeri aldı. {gir: sebnem}
-**ŞEBNEM [gergin]:** Tarık mı söyledi? Kimseye söylemeyecekti. {kime: cengo}
+**ŞEBNEM [gergin]:** Mesaj geldiğini Tarık mı söyledi? Kimseye söylemeyecekti. {kime: cengo}
 **PERİ [normal]:** Feraye Hanım'ın işine bakıyoruz. Size gelen mesajı soracağız.
 **ŞEBNEM [gergin]:** Programda her yemeğe "anneannemin tarifi" diyorum. Yemekler köşedeki esnaf lokantasından geliyor. {kime: peri}
 *Peri tezgâhın altına eğiliyor: lokantanın boş alüminyum kabı.* {kare: D13}
@@ -274,7 +274,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Sadık arka kapıya koşuyor. Cengo peşinden atılırken Feraye'nin omzundan kayan mor şala dolanıyor, yüzüstü kapaklanıyor. Kalktığında şal başında, nazar boncuğu alnında.* {kare: K65, cset: salli}
 **CENGO [kas]:** *(şalın altından)* Bir kadın görüyorum… {kare: K65}
-**PERİ [sinirli]:** Sus da koş, Cengo! {kare: K65}
+**PERİ [sinirli]:** Susun da koşun, Cengo! {kare: K65}
 *Arka avlu. Sadık dolu telve bidonunu arkasına deviriyor; telve taşlara yayılıyor. Peri arkasından geliyor, çizmesiyle ıslak telveye basıp kayıyor ve yığının ortasına oturuyor. Bidonun kalanı üstüne boşalıyor.* {arka: A34, kare: K66, set: telveli, peri: sinirli}
 **PERİ [sinirli]:** *(telvenin içinden)* Kimse bana fal bakmasın. {kare: K66}
 *Cihangir merdivenleri. Sadık basamakları ikişer ikişer iniyor. Peri'nin çizmeleri telveden kayıyor; basamak yerine tırabzana yan oturup kayarak iniyor.* {arka: A35, kare: K67}
@@ -346,8 +346,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar polise_ver
 ⚙ etiket: Sadık'ı polise teslim et
 
-**ÖNİZLEME:** Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Feraye'nin notları da. Feraye Hanım 10.000 ₺ keser.
-**SONUÇ:** Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Feraye'nin notları da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücretten on bin kesti: "Adımı temizleyin dedim, gömün demedim."
+**ÖNİZLEME:** Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Sadık'ın Feraye'ye not sattığı da. Feraye Hanım 10.000 ₺ keser.
+**SONUÇ:** Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Sadık'ın Feraye'ye not sattığı da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücretten on bin kesti: "Adımı temizleyin dedim, gömün demedim."
 **CENGO:** Cengo telefonundaki mahalle grubuna baktı. "Tarık'ın kitabı en çok şimdi satar" dedi.
 **DEFTER:** Sadık polise teslim edildi. Cihangir'in sırları tutanakta.
 
@@ -355,7 +355,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ etiket: Sadık'ı sessizce uzaklaştır, Feraye'yi koru
 
 **ÖNİZLEME:** Sadık Cihangir'den gider, kimseye bir şey söylenmez. Feraye Hanım 10.000 ₺ fazladan verir.
-**SONUÇ:** Sadık'a zarfları bıraktırıp onu Cihangir'den gönderdin. Zarfları sahiplerinin kapısına isimsiz bıraktın. Mesajlar kesildi, Feraye'nin müşterileri döndü; Feraye sana on bin fazladan verdi. Fincanları artık eskisi kadar bilmiyor.
+**SONUÇ:** Sadık'a zarfları bıraktırıp onu Cihangir'den gönderdin. Zarfları sahiplerinin kapısına isimsiz bıraktın. Mesajlar kesildi, Feraye'nin müşterileri döndü; Feraye sana on bin fazladan verdi. Feraye'nin fincanları artık eskisi kadar bilmiyor.
 **CENGO:** Bir hafta sonra Cengo büroya haber getirdi: "Sadık Moda'da bir kafede başlamış. Pencerenin önünde masaları varmış."
 **DEFTER:** Sadık gitti, Feraye kaldı. Kimse bir şey öğrenmedi.
 

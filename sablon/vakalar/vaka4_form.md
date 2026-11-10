@@ -113,7 +113,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 | tarik_sir | Tarık Bey sabah beşte kalkmıyor, öğlene kadar uyuyor; "sabah beş" videolarını akşamdan çektiriyor. Bunu yalnız bir kez, Kuytu'da pencere önünde telefonda söylemiş; ne falda ne tarotta açmış. | B |
 | tarik_odedi | Tarık Bey geçen perşembe akşam altıda 20.000 ₺'yi yeşil kitaba koydu; cuma sabah zarf yoktu. Aynı mesaj dizi oyuncusu Şebnem Hanım'a da gelmiş. | B |
 | mesaj_cumle | Mesajdaki sözü ezbere bilen iki kişi var: Rana, bir de Feraye'nin masasına her gün kahve taşıyan garson. | C |
-| rana_musteri | Feraye'nin müşterileri faldan sonra Rana'ya da tarot baktırıyor; Tarık Bey ile Şebnem Hanım da gitmiş. | C |
+| rana_musteri | Feraye'nin müşterileri faldan sonra Rana'ya da tarot baktırıyor; yaşam koçu Tarık Bey de gitmiş, dizideki bir aşçı da. *(Şebnem'in adı B'de duyulur; C'de adı geçmez.)* | C |
 | tarik_veresiye | Tarık Bey üç aydır kafeye borç yazdırıyor; kitapları satmıyor. | D |
 | sadik_aksam | Akşamları kafeyi Sadık kapatır; Zerrin altıda çıkar. | D |
 | sebnem_aksam | Şebnem Hanım'ın sırrı iki hafta önce salı akşamı 20.30'da, Kuytu'da pencere önünde telefonda konuşuldu. Tarık Bey o saatte yoktu; her gün beşte çıkar. | E |
