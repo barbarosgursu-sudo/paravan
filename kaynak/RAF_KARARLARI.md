@@ -230,7 +230,8 @@ Raf kitapçı, kitap yayınevinin kitabı: raf kitabın içini yazmaz, kitap raf
   Mobilde **önce yalnız Android** (sahibinin Mac'i yok); iPhone sonra.
 - **Yayın sırası (Paravan):**
   1. Vaka 3 bitirilir.
-  2. Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden yapılır.
+  2. **Vaka 4** sıfırdan, süre baştan sona ölçülerek (10 Kasım 2026, sahibinin kararı; `sablon/vakalar/vaka4_baslangic.md`).
+     Ardından Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden yapılır (iki vaka paralel). Vaka 4 stok olur.
   3. Üç vaka İngilizceye çevrilir.
   4. Google'ın zorunlu **kapalı testi** (12 kişi, 14 gün) — test oyuncuları **internetteki test topluluklarından**.
   5. **Üç vakayla yayın**; sonraki vakalar güncellemeyle eklenir.

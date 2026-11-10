@@ -8,7 +8,22 @@
 
 ---
 
-## 00000000000000000. ⬅️ 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+## 000000000000000000. ⬅️ 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+
+Sahibinin kararı (yalnız belge, kod yazılmadı):
+- **Yeni sıra:** 1) **Vaka 4** sıfırdan, Vaka 3'ün kurallarıyla, saat baştan sona işler; 2) **Vaka 1 + 2** Vaka 3'ün
+  kurallarına göre yeniden, resimleri iki pencerede paralel; 3) İngilizce; 4) kapalı test, yayın. Vaka 4 yayında stok olur.
+- **Başlarken:** `sablon/vakalar/vaka4_baslangic.md` (okuma sırası, konu = `YENI_OYUN_SEZON.md` → FALCI, genişletilmiş süre
+  tablosu: sahibi/makine ayrı + resim sayımları). Sahibi "Vaka 4'e başla" deyince saat o an başlar.
+- **Codex 2 kol denemesi** Vaka 4'ün resim aşamasında. `dongu.sh` kol desteği ve `AGENTS.md` kol başına kayıt **henüz yok**;
+  resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır.
+- **Vaka 4 bitince yeniden planlanır:** Vaka 1–2'nin paralel üretimi (iki pencere, pencere başına bir vaka; ortak yüz
+  referansları Vaka 3'ten, kıyafet temelleri vakaya özgü; gömme sırayla) ve sahibinin arkadaşının ikinci Claude hesabıyla
+  metin kolu (onaylar birlikte verilir). İkisi de Vaka 4'ün rakamlarına göre konuşulur; şimdilik belgeye yazılmadı.
+- Vaka 4'te yeni kural çıkarsa: Vaka 1–2 zaten yeniden yapılacağı için onları bekletmez; yalnız donmuş Vaka 3'ü etkiliyorsa
+  Vaka 3 ayrıca denetlenir.
+
+## 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 - **Pembe önlük temizlendi:** Gizem temiz önlük veriyor ama 6 önlüklü figür + 6 ara kare (K45b, K45c, K50–K53) ve kart
   G103 pekmezli/susamlıydı (kök sebep G3 istemi: "kenarlarına yer yer pekmez bulaşmış"). Yapay zekâsız, yalnız önlük
