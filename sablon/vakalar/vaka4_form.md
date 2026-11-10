@@ -300,7 +300,8 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 
 - **Peri (yeni, kural 15a):** 🟢 **uzun deve tüyü kaşe palto** (beli kuşaklı, yakası geniş), altında **vücudu saran kısa
   siyah triko elbise** (derin V dekolte, dizin üstünde); boynunda **kırmızı ipek eşarp** (vakanın tek kırmızı süsü
-  bu olsun diye ayakkabı: **diz üstü kahverengi süet çizme** — imza kırmızı stiletto bu vakada yok; sor); **büyük altın
+  bu olsun diye ayakkabı: **diz üstü kahverengi süet çizme** — imza kırmızı stiletto bu vakada yok; sahibinin kararı,
+  10 Kasım 2026); **büyük altın
   halka küpeler**; saç **açık, dalgalı**. Paltolu ve paltosuz (çekicilik anı) iki hâl.
 - **Cengo (yeni):** **eskimiş kahverengi deri ceket**, altında siyah tişört, kot, kahverengi bot; boynunda ince deri ipte
   **mavi nazar boncuğu** (Feraye'nin "korunmak için" taktığı 🟡); bileklik görünür; tel ceketin göğüs cebinde.
