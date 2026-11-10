@@ -48,7 +48,7 @@ bir şey eklemek kanona eklemektir (önce söyle, onay al).
 
 ## 4. Süre ölçümü
 
-Başlangıç = sahibinin "Vaka 4'e başla" dediği an. Saat yalnız sahibinin sözüyle işler ya da durur ("zamanı durdur" /
+**Başladı: 10 Kasım 2026, 12:49 (İstanbul).** Başlangıç = sahibinin "Vaka 4'e başla" dediği an. Saat yalnız sahibinin sözüyle işler ya da durur ("zamanı durdur" /
 "tekrar başlat"); aralar ara tablosuna yazılır, aktif süre = toplam − aralar (Vaka 3 §2 ile aynı). **Bu kez saat sonuna kadar
 işletilir.** Her adımın satırına iki süre yazılır:
 - **sahibi:** sahibinin bilfiil çalıştığı süre (onaylar, oynama, web'de resim üretimi, okuma),
@@ -63,7 +63,7 @@ Codex süresi (1 kol ve 2 kol ayrı, bekleme dahil). Kaynak: `uretim/v4/uretim_k
 
 | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 |---|---|---|---|---|---|
-| 1 Form | | | | | |
+| 1 Form | 10 Kas 12:49 | | | | konu soruları sahibine |
 | 2 Onay 1 | | | | | |
 | 3–4 Diyalog + veri + künye | | | | | |
 | 5 Görselsiz tur + taramalar | | | | | |
