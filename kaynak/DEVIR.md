@@ -17,9 +17,9 @@
   "uzaklaştır" ile "gerçeği söyle"nin gerisinde (Onay 1'de sahibi kararları olduğu gibi onayladı).
 - `test_yeni_v2.js`: görselsiz aşamada künye portresi de yer tutucu olabilir.
 - Saat 14:46–16:42 durdu (ara 1, 1 sa 56 dk); 16:42'de yeniden işliyor.
-- **Saat DURDU: 10 Kas 18:04** (ara 2). Onay 2 sürüyor: giriş notları işlendi (13 not); açık sorular: geri düğmesi
-  (sahne içinde de başa atıyor diyor, yeniden üretilemedi; hangi tuş/telefon sorusu cevapsız) ve Kim yaptı?'da tek kanıt
-  (kaç ipucu açıldığı soruldu). Son yayın GitHub'da zaman aşımına uğradı, yeniden başlatıldı (run 42838460615).
+- **Saat DURDU: 10 Kas 18:04** (ara 2). Onay 2 sürüyor: giriş notları işlendi (13 not). Geri düğmesi ve Kim yaptı?'daki
+  kanıt listesi sahibince denendi, sorun yok (eski yayın sürümünden kaynaklanmış olabilir: son yayın GitHub'da zaman
+  aşımına uğramıştı, yeniden başlatıldı).
 - Sıradaki: sahibi Vaka 4'ü yayında oynar ("Vaka N'den başla" → Vaka 4), notları toplu verir (adım 6–7).
 
 ## 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
