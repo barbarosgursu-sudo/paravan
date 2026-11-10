@@ -63,8 +63,8 @@ Codex süresi (1 kol ve 2 kol ayrı, bekleme dahil). Kaynak: `uretim/v4/uretim_k
 
 | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 |---|---|---|---|---|---|
-| 1 Form | 10 Kas 12:49 | | | | konu soruları sahibine |
-| 2 Onay 1 | | | | | |
+| 1 Form | 10 Kas 12:49 | 10 Kas 13:14 | | | konu soruları sahibine (soru-cevap ~sahibi); form `vaka4_form.md` |
+| 2 Onay 1 | 10 Kas 13:14 | | | | |
 | 3–4 Diyalog + veri + künye | | | | | |
 | 5 Görselsiz tur + taramalar | | | | | |
 | 6–7 Onay 2, hikâye donar | | | | | |
