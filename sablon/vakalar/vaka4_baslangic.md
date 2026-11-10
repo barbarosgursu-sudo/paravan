@@ -61,6 +61,7 @@ Codex süresi (1 kol ve 2 kol ayrı, bekleme dahil). Kaynak: `uretim/v4/uretim_k
 | ara | durdu | başladı | süre |
 |---|---|---|---|
 | 1 | 10 Kas 14:46 | 10 Kas 16:42 | 1 sa 56 dk |
+| 2 | 10 Kas 18:04 | | |
 
 | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 |---|---|---|---|---|---|
