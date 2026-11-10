@@ -245,12 +245,12 @@ deneme yapıyor, Sadık itirafta "her akşam kapanışta açardım" der.
 | 1 | Sadık arka kapıya; Cengo peşinden atılırken Feraye'nin fal şalına dolanır, yüzüstü kapaklanır; kalktığında şal başında, nazar boncuğu alnında: "falcı Cengo" | — | yeni |
 | 2 | Avlu: Sadık peşindekileri durdurmak için dolu telve bidonunu arkasına devirir; telve taşlara yayılır. Peri hemen arkasından gelir, çizmeyle ıslak telveye basar, kayar, yığının ortasına oturur; bidonun kalanı üstüne boşalır | telve yığınının içinde oturmuş, bacaklar palto eteğinden dışarı, elbise ve saç telveli, eşarp boynunda kıpkırmızı ve tertemiz; gururlu ve öfkeli | yeni |
 | 3 | Cihangir merdivenleri: Sadık basamakları ikişer iner. Peri'nin çizmeleri telveden kayıyor; basamak yerine tırabzana yan oturup kayarak iner | tırabzana yan oturmuş, bir bacak havada, palto uçuşuyor, telveli | yeni |
-| 4 | Kayarken Peri'nin çizmesinin biri ayağından fırlar, havada döner, aşağıdaki Sadık'ın kafasına iner. Sadık sendeler, son basamaklarda düşer; cebindeki faturasız telefon basamaklara savrulur. Cengo (şal başında) yetişip üstüne oturur. Peri tek çizmeyle iner: "Kasıtlıydı." | (bitişte) tek çizmeyle, tırabzanın dibinde, çenesi havada | yeni |
+| 4 | Kayarken Peri'nin çizmesinin biri ayağından fırlar, havada döner, aşağıdaki Sadık'ın kafasına iner. Sadık sendeler, son basamaklarda düşer; cebindeki faturasız telefon basamaklara savrulur. Cengo (şal başında) yetişip üstüne oturur. Peri tek çizmeyle iner: "Ben attığımı vururum." | (bitişte) tek çizmeyle, tırabzanın dibinde, çenesi havada | yeni |
 
 - **Peri'nin felaketi:** kahve telvesi — falcının vakasında Peri bir fincanın dibine döner.
 - **Cengo'nun komik anı:** şala dolanıp "falcı Cengo" olur: "Bir kadın görüyorum…" Peri: "Sus."
 - **Kaçanı yakalayan şans:** Peri'nin felaketinden: telve çizmeyi kaydırdı, çizme fırladı, Sadık'ın kafasına indi.
-  Peri gururunu korur: "Kasıtlıydı."
+  Peri gururunu korur: "Ben attığımı vururum."
 - **Temizlenme:** Feraye Peri'nin telveli elbisesine eğilir, fincan okur gibi: "Burada uzun bir yol görüyorum…" Peri:
   "Fala inanmam." Feraye mor şalını Peri'nin omuzlarına atar.
 - **İtiraf** (yakalanınca, her yolda aynı): "İki yıldır Feraye Hanım'a not satıyorum. Kuytu'da telefon yalnız pencerede
@@ -385,9 +385,8 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 ## 18. Kanon
 
 **Sezon kanonuna eklenecekler — onayın gerekiyor:**
-1. 🟡 **Cengo Feraye'yi tanır; nazar boncuğunu ona Feraye taktı** ("korunmak için", taslaktan). Öneri: Cengo girişte
-   boncukla gelir — Feraye geçen yıl takmış ("Feraye Abla!") — böylece Cengo'nun tek bir figür seti yeter. Yoksa Feraye
-   boncuğu girişte, falın ardından takar (Cengo'ya iki set gerekir: boncuksuz/boncuklu).
+1. ✅ **Cengo Feraye'yi tanır; nazar boncuğunu ona geçen yıl Feraye taktı** ("korunmak için"). Cengo girişe boncukla
+   gelir ("Feraye Abla!"); tek figür seti. *(Sahibinin kararı, 10 Kasım 2026.)*
 2. 🟡 **Gizem'in çantasında kırmızı bir elbise vardır** (onaylı, 10 Kasım). Sebep söylenmez: "Her kadının çantasında
    bir kırmızı elbise olur."
 3. 🟡 **Dördüncü duvar:** sezon kanonunda Vaka 4 için zaten yazılı; burada "bir kadın, kırmızı" anında, sözsüz, tek
