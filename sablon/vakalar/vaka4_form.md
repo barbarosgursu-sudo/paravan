@@ -389,8 +389,9 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 ## 18. Kanon
 
 **Sezon kanonuna eklenecekler — onayın gerekiyor:**
-1. ✅ **Cengo Feraye'yi tanır; nazar boncuğunu ona geçen yıl Feraye taktı** ("korunmak için"). Cengo girişe boncukla
-   gelir ("Feraye Abla!"); tek figür seti. *(Sahibinin kararı, 10 Kasım 2026.)*
+1. ✅ **Cengo Feraye'yi tanır; nazar boncuğunu ona Feraye vermişti** ("korunmak için"). Feraye gelmeden önce haber
+   verdi; Cengo boncuğu o gün, onun hatırına taktı ("Geleceğini haber verince senin boncuğu hemen boynuma taktım").
+   Vaka 1–3'te boncuk yok, bu yüzden. Tek figür seti. *(Sahibinin kararı, 10 Kasım 2026; Onay 2'de düzeltildi.)*
 2. 🟡 **Gizem'in çantasında kırmızı bir elbise vardır** (onaylı, 10 Kasım). Sebep söylenmez: "Her kadının çantasında
    bir kırmızı elbise olur."
 3. 🟡 **Dördüncü duvar:** sezon kanonunda Vaka 4 için zaten yazılı; burada "bir kadın, kırmızı" anında, sözsüz, tek

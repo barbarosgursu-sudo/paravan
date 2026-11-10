@@ -3577,12 +3577,17 @@
           "satirlar": [
             {
               "k": "not",
-              "m": "Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla; Cengo'nun boynunda nazar boncuğu. Kapıda tombul, simsiyah saçlı, mor şallı bir kadın.",
+              "m": "Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla. Kapı çalınıyor; Cengo açıyor. Eşikte tombul, simsiyah saçlı, mor şallı bir kadın.",
               "gir": "feraye",
               "gi": "normal"
             },
-            {"k": "cengo", "i": "gulen", "m": "Feraye Abla! Bak, taktığın boncuk hâlâ boynumda.", "gir": "feraye"},
-            {"k": "feraye", "i": "normal", "m": "Çıkarma oğlum. Kötü gözden korur.", "kime": "cengo"},
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Feraye Abla, hoş geldin! Geleceğini haber verince senin boncuğu hemen boynuma taktım.",
+              "gir": "feraye"
+            },
+            {"k": "feraye", "i": "normal", "m": "Aferin oğlum. Çıkarma, kötü gözden korur.", "kime": "cengo"},
             {
               "k": "feraye",
               "i": "normal",
@@ -3593,56 +3598,56 @@
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "Üç haftadır müşterilerime mesaj geliyor. Sırlarını yazıp para istiyorlar. Bakın.",
+              "m": "Üç haftadır müşterilerime mesaj geliyor. Sırlarını herkese yaymakla tehdit edip para istiyorlar. Bakın.",
               "kare": "D11"
             },
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "\"Fincanında bir gölge var, gölge konuşur. Sırrın bende. Kuytu'daki rafta, yeşil kitaba yirmi bin bırak.\"",
+              "m": "\"Fincanında bir gölge var, gölge konuşur. Kuytu'daki rafta yeşil kitaba yirmi bin bırak; yoksa sırrını herkes duyar.\"",
               "kare": "D11"
             },
             {
               "k": "feraye",
               "i": "ofkeli",
-              "m": "Bu benim sözüm! Kırk yıldır her fala böyle başlarım. O numarayı arayan çok oldu, hep kapalı.",
+              "m": "Bu benim sözüm! Kırk yıldır her fala böyle başlarım. Mesajdaki numarayı arayan çok oldu, hep kapalı.",
               "gir": "feraye",
               "kime": "peri"
             },
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "Mesaj yaşam koçu Tarık Bey'e de gelmiş. Cuma sokak ortasında bana \"şantajcı\" diye bağırdı; müşterilerim kaçtı.",
+              "m": "Mesaj, müşterim olan yaşam koçu Tarık Bey'e de gelmiş. Cuma sokakta bana \"şantajcı\" diye bağırdı, müşterilerim kaçtı.",
               "kime": "peri"
             },
-            {"k": "peri", "i": "merakli", "m": "Bu sözü sizden başka kim bilir?"},
+            {"k": "peri", "i": "merakli", "m": "Sizce bu sözü kullanıp müşterilerinize şantajı kim yapmış olabilir?"},
             {
               "k": "feraye",
               "i": "ofkeli",
-              "m": "Eski çırağım Rana bilir. Karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor."
+              "m": "Eski çırağım Rana. Bu sözü ezbere bilir; karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor."
             },
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "Belki de Tarık Bey'in kendisi yazdı. Adı ağızdan düşmesin diye bağırıyor."
+              "m": "Belki şantajcı Tarık Bey'in kendisi. Başkalarının parasını toplarken kimse ondan şüphelenmesin diye kendine de mesaj gelmiş gibi yapıyor."
             },
             {"k": "peri", "i": "kas", "m": "Peki siz o sırları nereden biliyorsunuz, Feraye Hanım?"},
             {
               "k": "feraye",
               "i": "normal",
-              "m": "Fincandan, kızım. Kuytu'da sorun: Zerrin de söyler, garson Sadık da.",
+              "m": "Fincandan, kızım. Kuytu Kafe'de sorun: sahibi Zerrin de söyler, garson Sadık da.",
               "kime": "peri"
             },
             {
               "k": "gizem",
               "i": "triko",
-              "m": "(çay ocağından kahvelerle gelerek) Üç sade kahve. Fincanlar biraz çatlak, kusura bakmayın.",
+              "m": "(çay ocağından kahvelerle gelerek) Üç sade kahve. Köpüksüz olmuş, kusura bakmayın.",
               "gir": "gizem",
               "kime": "peri"
             },
             {
               "k": "not",
-              "m": "Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor, açıp içine bakıyor.",
+              "m": "Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor. Fincan soğuyunca açıp içine bakıyor.",
               "gir": "feraye",
               "gi": "fal"
             },
@@ -3654,7 +3659,12 @@
             },
             {"k": "peri", "i": "kas", "m": "Fala inanmam.", "gir": "feraye", "gi": "fal"},
             {"k": "gizem", "i": "triko_isveli", "m": "Bana da bakar mısınız?", "gir": "gizem", "kime": "feraye"},
-            {"k": "feraye", "i": "normal", "m": "Sana bakmaya gerek yok kızım, yüzünde yazıyor.", "kime": "gizem"},
+            {
+              "k": "feraye",
+              "i": "normal",
+              "m": "Sana bakmaya gerek yok kızım. Kırmızı sana da yakışır.",
+              "kime": "gizem"
+            },
             {
               "k": "not",
               "m": "Gizem fincanları toplayıp çay ocağına dönüyor. Büro ısınmış; Peri paltosunu çıkarıp askıya asıyor. Altında vücudu saran kısa siyah triko bir elbise. Bacak bacak üstüne atıyor.",
@@ -3668,7 +3678,7 @@
               "gir": "feraye"
             },
             {"k": "feraye", "i": "normal", "m": "Kırk bin, tamam. Üstüne bir fal da benden, bedava.", "kime": "peri"},
-            {"k": "peri", "i": "kas", "m": "Fal hariç."}
+            {"k": "peri", "i": "kas", "m": "Anlaştık. Ama benim fincanıma bakmayın, ben fala inanmam."}
           ]
         },
         "konusma": {
