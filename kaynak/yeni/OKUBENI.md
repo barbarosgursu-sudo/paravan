@@ -165,6 +165,8 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
 
 ## Açık uyarılar (tasarım; sahibine soruldu)
 
+- **K8 (V4):** `polise_ver` (−10.000, bağ −1) hem `uzaklastir`'ın hem `gercegi_soyle`'nin gerisinde kalıyor; Onay 1'de
+  sahibi karar dağılımını olduğu gibi onayladı (10 Kasım 2026). Kabul edilmiş uyarı.
 - **K8:** `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem
   `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende de geçiyor.
 - K9 uyarısı kalktı: tohum yok (şablon, 8 Ekim 2026).

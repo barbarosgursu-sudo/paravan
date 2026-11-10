@@ -96,6 +96,8 @@ Konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — ye
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
 Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]`
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).
+Vaka 3: `[kod|foto|borc|badem|cozmez] [dogru|zayif|kenan|gizem]`; Vaka 4: `[soz|aksam|ilham|cozmez4] [dogru|zayif|tarik|rana]`
+(önceki vakalar hızlı oynanır). Sızıntı taraması: `node arac_sizinti_tur.js V4 40`.
 `--hepsi` eklenirse incelenen vakanın HER satırı `YENI_UI/satir/`'a görüntülenir ve `dokum.txt`'ye
 konuşan/kime/arka/kare/figür anahtarıyla dökülür — görselli tur denetimi (adım 11) bununla yapılır.
 **Kim yaptı? kanıtları kısa adla (18 Ekim 2026):** diyalogda `## kanit` (`**olgu_id:** Kısa ad`) → `kim_yapti.kanit_ad`.

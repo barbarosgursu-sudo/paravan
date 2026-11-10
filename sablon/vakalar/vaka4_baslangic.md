@@ -43,8 +43,8 @@ bir şey eklemek kanona eklemektir (önce söyle, onay al).
   (aynı resmi iki kolun almaması için kilit, kol başına ayrı log ve kayıt dosyası) ve `AGENTS.md` kayıt kuralı. Henüz
   YAZILMADI — resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır. Sahibi ayrıca kendi bilgisayarında
   `git pull` yapar, Codex'in güncel ve girişli olduğuna bakar, açık kalmış eski döngü olmadığından emin olur.
-- **Açık soru (sahibine):** `RAF_KARARLARI.md` §11c Vaka 4'ü **çeviri dahil** ölçmeyi söylüyor; yeni sırada İngilizce,
-  Vaka 1–2'den sonra. Vaka 4'ün çevirisi şimdi mi (ölçüm için) yoksa İngilizce aşamasında mı yapılacak — başlarken sor.
+- **Çeviri (cevaplandı, 10 Kasım 2026):** `RAF_KARARLARI.md` §11c Vaka 4'ü çeviri dahil ölçmeyi söylüyordu; sahibinin
+  kararı: Vaka 4'ün İngilizcesi **sonra**, İngilizce aşamasında yapılır. Bu ölçüm Türkçe metin + resimle sınırlı.
 
 ## 4. Süre ölçümü
 
