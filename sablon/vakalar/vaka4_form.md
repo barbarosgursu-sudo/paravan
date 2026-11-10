@@ -52,11 +52,11 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 | ne zaman | Sadık (garson) | Tarık Bey (yaşam koçu) | Rana (tarot falcısı) |
 |---|---|---|---|
 | 2 yıl önce | Kuytu'da işe başlar; Feraye'ye not satmaya başlar | — | Feraye'nin çırağıyken ondan ayrılır, karşıya tarot dükkânı açar; kafede Feraye'nin müşterilerine kart dağıtınca Zerrin onu kafeye **yasaklar** |
-| 5 hafta önce, öğleden sonra | Tarık'ın masasına servis yapar, konuşmayı duyar, Feraye'ye not verir | pencere önünde editörüne telefonda: "Bu kitabı da sen yaz, adım kapakta olsun yeter." | dükkânında |
-| 4 hafta önce | — | Feraye'nin falına oturur (ayda bir); Feraye: "Kalemin başkasının elinde." Tarık şaşırır; sonra karşıya geçip Rana'ya tarot baktırır (kitabından söz etmez) | Tarık'a tarot bakar |
+| 5 hafta önce, öğleden sonra | Tarık'ın masasına servis yapar, konuşmayı duyar, Feraye'ye not verir | pencere önünde kameramanına telefonda: "Yarınki 'güne beşte başla' videosunu bu akşam çekelim, ışığı yine sabah gibi yap." | dükkânında |
+| 4 hafta önce | — | Feraye'nin falına oturur (ayda bir); Feraye: "Güneş doğarken sen yatağındasın." Tarık şaşırır; sonra karşıya geçip Rana'ya tarot baktırır (sırrından söz etmez) | Tarık'a tarot bakar |
 | 3 hafta önce | faturasız hattan ilk mesajlar (Tarık, adı geçmeyen müşteri) | mesaj gelir | — |
 | 2 hafta önce, salı 20.30 | akşam vardiyası; kafede iki öğrenci ve Sadık | **yok** — her gün 9'dan 5'e kafede, beşte çıkar | dükkânı kapalı |
-| aynı an | Şebnem pencere önünde annesine telefonda: "Yarınki çekimin yemeğini yine sen pişir." Sadık duyar | — | — |
+| aynı an | Şebnem pencere önünde esnaf lokantasına telefonda: "Yarınki çekime üç porsiyon karnıyarık. Kaplarınızı değil, benim bakır tencereme koyun." Sadık duyar | — | — |
 | geçen hafta | Şebnem'e mesaj; Şebnem salı parayı bırakır, Sadık kapanışta alır | — | — |
 | geçen perşembe 18.00 | — | 20.000'i yeşil kitaba koyar | — |
 | perşembe 23.00 | kafeyi kapatır, zarfı alır, personel dolabına koyar; faturasız telefonu açıp mesajlara bakar | — | — |
@@ -98,7 +98,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 
 | | **Sadık** (suçlu) | **Tarık Bey** (şantaj edilen müşteri) | **Rana** (rakip falcı) |
 |---|---|---|---|
-| Kim | Kuytu'nun garsonu, 26; sessiz, kibar, görünmez; herkesin adını, kahvesini bilir | yaşam koçu, 40'larında; *"Sabah Beşte Kalk"* kitabının yazarı (kitabı başkası yazıyor); her gün 9–17 pencere masasında "yazıyor" | tarot falcısı, 30'larında; Feraye'nin eski çırağı; karşı kaldırımda tarot dükkânı |
+| Kim | Kuytu'nun garsonu, 26; sessiz, kibar, görünmez; herkesin adını, kahvesini bilir | yaşam koçu, 40'larında; *"Sabah Beşte Kalk"* kitabının yazarı (öğlene kadar uyuyor; "sabah beş" videoları akşamdan, lambayla çekiliyor); her gün 9–17 pencere masasında "yazıyor" | tarot falcısı, 30'larında; Feraye'nin eski çırağı; karşı kaldırımda tarot dükkânı |
 | Şüpheli gösteren iz | (gizli) pencere önünde servis yapar, Feraye'nin masasına kahve taşır, rafı akşamları o toplar | pencere masası rafın dibinde, her konuşmayı duyar; kafeye borçlu; Feraye onu suçluyor | Feraye'nin sözünü ezbere bilir; Feraye'ye kini var; Feraye'nin müşterileri (kurbanlar dahil) ona da tarot baktırıyor; Feraye onu suçluyor |
 | Aklayan kanıt | — | Şebnem'in sırrı akşam 20.30'da konuşuldu; Tarık beşte çıkmıştı | Tarık sırrını tarotta açmadı, yalnız Kuytu'da telefonda söyledi; Rana kafeye giremiyor (girişte) |
 | O hafta gerçekte | şantaj | kendisi şantaj edildi, 20.000 ödedi | dükkânında; camından kafeyi seyretti |
@@ -110,7 +110,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 |---|---|---|
 | pencere_cekim | Kuytu bodrum katında; telefon yalnız pencere önünde çekiyor, herkes orada konuşuyor. Pencere masası Tarık Bey'in; servisi Sadık yapıyor. | A |
 | raf_kor | Kitap rafı kameranın görmediği tek köşe. Rafın dibinde Tarık Bey'in masası var; akşamları rafı Sadık toplar. | A |
-| tarik_sir | Tarık Bey'in kitaplarını başkası yazıyor. Bunu yalnız bir kez, Kuytu'da pencere önünde telefonda söylemiş; ne falda ne tarotta açmış. | B |
+| tarik_sir | Tarık Bey sabah beşte kalkmıyor, öğlene kadar uyuyor; "sabah beş" videolarını akşamdan çektiriyor. Bunu yalnız bir kez, Kuytu'da pencere önünde telefonda söylemiş; ne falda ne tarotta açmış. | B |
 | tarik_odedi | Tarık Bey geçen perşembe akşam altıda 20.000 ₺'yi yeşil kitaba koydu; cuma sabah zarf yoktu. Aynı mesaj dizi oyuncusu Şebnem Hanım'a da gelmiş. | B |
 | mesaj_cumle | Mesajdaki sözü ezbere bilen iki kişi var: Rana, bir de Feraye'nin masasına her gün kahve taşıyan garson. | C |
 | rana_musteri | Feraye'nin müşterileri faldan sonra Rana'ya da tarot baktırıyor; Tarık Bey ile Şebnem Hanım da gitmiş. | C |
@@ -139,10 +139,11 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E). *İpucu adları yeni ad taşımaz (K18): Ze
   Peri masadaki boş bir fincana göz atar: "Kuş. Haber gelecek demek." Cengo: "Fala inanmıyordun?" Peri: "İnanmam. Kuş ama."
   *(İsteğe bağlı görüntü: arka kapıdan avludaki telve bidonu görünür; asıl kurulum yüzleşme açılışında.)*
 - **B.** Tarık kafenin önündeki yokuşta, elinde yeşil smoothie, öfkeli. Cengo'ya açılır (Peri'ye hava atar). Sırrını
-  utanarak söyler: "Kitaplarımı başkası yazıyor. Bunu bir kez söyledim, telefonda, orada, pencerenin önünde. Ne
+  utanarak söyler: "Ben sabah beşi hiç görmedim. Öğlene kadar uyurum; videoları akşamdan, perdeleri kapatıp çekiyoruz.
+  Bunu bir kez söyledim, telefonda, orada, pencerenin önünde. Ne
   Feraye'nin falında ağzımdan çıktı ne o tarotçu kızın masasında." Perşembe
   akşam altıda parayı koydu, cuma sabah yoktu. "Şebnem'e de gelmiş, dizideki aşçı. O da ödemiş." Peri: "Siz sabah beşte
-  kalkıyorsunuz, değil mi?" Tarık: "Beşte. …Akşam beşte de çıkarım kafeden."
+  kalkıyorsunuz, değil mi?" Tarık: "Beşte. …Akşam beşte. Kafeden çıkıp eve uyumaya giderim."
 - **C.** Rana'nın tarot dükkânı, mum ışığı, camdan Kuytu görünüyor. Cengo'yu tanır, kart açmayı teklif eder. Mesajı
   okur: "Feraye'nin sözü, kelimesi kelimesine. Ezbere bilen iki kişi tanırım: ben, bir de her gün onun masasına kahve
   taşıyan." Kinini saklamaz: "Beni kapı dışarı etti. Müşterileri faldan çıkınca bana geliyor, evet. O yaşam koçu da
@@ -150,8 +151,9 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E). *İpucu adları yeni ad taşımaz (K18): Ze
   resmine bakar: "Bu kule yıkılıyor." Rana: "Tarota da mı inanmıyorsunuz?" Peri: "Hiçbirine. Ama yıkılıyor."
 - **D.** Sabah, tezgâh. Zerrin kahve çekerken: Tarık Bey üç aydır veresiye ("kitapları satmıyor, smoothie'yi de bana
   yazdırıyor"); akşamları kafeyi Sadık kapatır, kendisi altıda çıkar. Sadık arkada fincan siler.
-- **E.** Dizi setinin mutfak dekoru. Şebnem Hanım kamera arkasında soğumuş bir yemeğin önünde. Cengo'nun setteki çaycı
-  tanıdığı onları içeri alır. Şebnem sırrını fısıldar: yemek programındaki yemekleri annesi pişiriyor. "Bunu bir kere
+- **E.** Dizi setinin mutfak dekoru. Şebnem Hanım bakır tencerede dokunulmamış bir karnıyarığın önünde; tezgâhın
+  altında lokantanın boş alüminyum kabı. Cengo'nun setteki çaycı tanıdığı onları içeri alır. Şebnem sırrını fısıldar:
+  programda her yemeğe "anneannemin tarifi" diyor, yemekler köşedeki esnaf lokantasından geliyor. "Bunu bir kere
   söyledim, salı akşamı, sekiz buçukta, Kuytu'da pencerenin önünde. Kafe boştu; o yaşam koçu bile gitmişti."
 - **F.** Feraye'nin köşesi: şal, fincanlar, mum. Peri sırları sorar; Feraye "fincandan" der. Peri yalanı okur (Feraye
   yüzüklerini çevirir). Feraye çöker: "Bir kulağım var bu kafede. Her gün burada olan biri. Fala oturmadan önce bir not
@@ -421,16 +423,16 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 
 ## Sahibine sorular *(Onay 1)*
 
-1. 🟡 Kanon 1: Cengo girişte boncukla mı gelsin (Feraye'yi tanır, boncuğu geçen yıl o taktı), yoksa Feraye boncuğu
+1. ✅ (a) Kanon 1: Cengo girişte boncukla mı gelsin (Feraye'yi tanır, boncuğu geçen yıl o taktı), yoksa Feraye boncuğu
    girişte mi taksın? *(Önerim: girişte boncukla gelir — tek set, daha az resim.)*
-2. 🟢 Peri: deve tüyü kaşe palto + kısa siyah triko elbise + **kırmızı eşarp** + altın halka küpe + açık dalgalı saç.
+2. ✅ (çizme) Peri: deve tüyü kaşe palto + kısa siyah triko elbise + **kırmızı eşarp** + altın halka küpe + açık dalgalı saç.
    Ayakkabı: imza kırmızı stiletto mu, yoksa bu vakada kahverengi çizme mi (fal "kırmızı" derken tek kırmızı eşarp
    olsun diye)? *(Önerim: çizme.)*
-3. Kapanışta Gizem kırmızı elbiseyle, Peri telveli ve şallı. Kural 15b'ye göre Peri her karede en gösterişli kadın;
+3. ✅ (a, istisna) Kapanışta Gizem kırmızı elbiseyle, Peri telveli ve şallı. Kural 15b'ye göre Peri her karede en gösterişli kadın;
    bu karede de mi (Gizem daha sade bir kırmızı elbise), yoksa şakanın gereği bu karede Gizem öne çıkabilir mi?
-4. Yanlış şüpheliler: **Tarık Bey** (yaşam koçu, kitaplarını başkası yazıyor) ve **Rana** (Feraye'nin eski çırağı,
-   tarot). Diğer kurban **Şebnem Hanım** (yemek programı sunuyor, yemekleri annesi pişiriyor). Sırlar bu hafiflikte —
-   uygun mu?
+4. ✅ Sırlar (10 Kasım 2026, sahibi): **Tarık Bey** *Sabah Beşte Kalk*'ın yazarı ama öğlene kadar uyuyor, "sabah beş"
+   videoları akşamdan lambayla çekiliyor; **Şebnem Hanım** her yemeğe "anneannemin tarifi" diyor, yemekler esnaf
+   lokantasından geliyor. Üçüncü kurban adsız, sırrı söylenmez.
 5. Kararlar: dürüst olan "Polise teslim et" Cengo'nun hoşuna gitmiyor ve parası eksi; öbür dürüst karar ("Kurbanlara
    gerçeği söyle") hoşuna gidiyor. Uygun mu?
 6. Diğer görünüşler (Feraye, Sadık, Tarık, Rana, Zerrin, Şebnem) — uygun mu?
