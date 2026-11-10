@@ -36,7 +36,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
   arasına 20.000 ₺ bırakmasını istiyor. Kurbanlardan yaşam koçu **Tarık Bey** cuma günü sokak ortasında Feraye'yi
   "şantajcı" ilan etti, mahallenin mesaj grubuna yazdı; Feraye'nin müşterileri kaçtı.
 - **Kim, neden:** **Sadık**, kafenin garsonu (26). Kuytu bodrum katında; telefon yalnız pencere önünde çekiyor, herkes
-  orada konuşuyor. Sadık iki yıldır duyduklarını Feraye'ye **not başına 1.000 ₺**'ye satıyor; Feraye fincanda "görüyor",
+  orada konuşuyor. Sadık iki yıldır duyduklarını Feraye'ye **not başına 100 ₺**'ye satıyor; Feraye fincanda "görüyor",
   ünü bu yüzden büyüdü ("Cihangir'in bilen falcısı"). Sadık bir gün düşündü: sırrın sahibi daha çok verir.
 - **Nasıl:** Sırları **kendi kulağıyla** duyar: pencere önündeki masalara kahve götürür, masa siler; telefondaki
   müşteri garsonu fark etmez (cihaz yok, kayıt yok). Faturasız bir hattan, Feraye'nin her gün kahve taşırken
@@ -117,7 +117,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 | tarik_veresiye | Tarık Bey üç aydır kafeye borç yazdırıyor; kitapları satmıyor. | D |
 | sadik_aksam | Akşamları kafeyi Sadık kapatır; Zerrin altıda çıkar. | D |
 | sebnem_aksam | Şebnem Hanım'ın sırrı iki hafta önce salı akşamı 20.30'da, Kuytu'da pencere önünde telefonda konuşuldu. Tarık Bey o saatte yoktu; her gün beşte çıkar. | E |
-| ilham_kaynak | Feraye sırları fala oturmadan önce bir nottan öğreniyor. Notları kafede her gün olan biri getiriyor, not başına 1.000 ₺; Feraye adını vermiyor. | F |
+| ilham_kaynak | Feraye sırları fala oturmadan önce bir nottan öğreniyor. Notları kafede her gün olan biri getiriyor, not başına 100 ₺; Feraye adını vermiyor. | F |
 
 ## 6. İpuçları (6 ipucu, 3 hak)
 
@@ -157,7 +157,7 @@ Peri 3 (A, D, F), Cengo 3 (B, C, E). *İpucu adları yeni ad taşımaz (K18): Ze
   söyledim, salı akşamı, sekiz buçukta, Kuytu'da pencerenin önünde. Kafe boştu; o yaşam koçu bile gitmişti."
 - **F.** Feraye'nin köşesi: şal, fincanlar, mum. Peri sırları sorar; Feraye "fincandan" der. Peri yalanı okur (Feraye
   yüzüklerini çevirir). Feraye çöker: "Bir kulağım var bu kafede. Her gün burada olan biri. Fala oturmadan önce bir not
-  bırakır, bin lira. Adını vermem; verirsem ekmeğim biter." Peri Feraye'nin önündeki fincanı düzeltir: "O kuş değil,
+  bırakır, yüz lira. Adını vermem; verirsem ekmeğim biter." Peri Feraye'nin önündeki fincanı düzeltir: "O kuş değil,
   balık." Feraye: "Fala inanmıyordunuz?" Peri: "İnanmıyorum. Ama balık."
 
 ## 7. Kanıt yolları
@@ -256,7 +256,7 @@ deneme yapıyor, Sadık itirafta "her akşam kapanışta açardım" der.
 - **Temizlenme:** Feraye Peri'nin telveli elbisesine eğilir, fincan okur gibi: "Burada uzun bir yol görüyorum…" Peri:
   "Fala inanmam." Feraye mor şalını Peri'nin omuzlarına atar.
 - **İtiraf** (yakalanınca, her yolda aynı): "İki yıldır Feraye Hanım'a not satıyorum. Kuytu'da telefon yalnız pencerede
-  çeker; herkes orada konuşur, ben de servis yaparım. Sır başına bin lira. Sonra düşündüm: sırrın sahibi daha çok verir.
+  çeker; herkes orada konuşur, ben de servis yaparım. Sır başına yüz lira. Sonra düşündüm: sırrın sahibi daha çok verir.
   Feraye Hanım'ın sözünü her gün kahve taşırken ezberledim; mesajları onunla yazdım ki herkes falcıya baksın. Telefonu
   her akşam kapanışta açardım, mesajlara bakmak için. Tarık Bey'den, Şebnem Hanım'dan, bir kişiden daha yirmişer bin
   aldım. Hepsi personel dolabımda."
@@ -379,7 +379,7 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 | 40.000 ₺ | vaka ücreti | V3 ile aynı: orta hâlli esnaf; Feraye'nin ünü iyi kazandırıyor |
 | 20.000 ₺ | şantaj başına istenen | hikâye içi; ücretin yarısı, kurbanların ödeyebileceği |
 | 60.000 ₺ | Sadık'ın dolabındaki para (3 kurban) | 3 × 20.000 |
-| 1.000 ₺ | Sadık'ın not başına aldığı (= bir fal) | Aralık 2025 haberine göre bazı işletmelerde kahve falı 1.000 ₺'ye çıkmış (İstiklal); eski haberlerde 100–300 ₺. Ünlü falcı, 2026: üst uç, makul. Kontrol 10 Kasım 2026 |
+| 100 ₺ | Sadık'ın not başına aldığı (sahibinin kararı, Onay 2) | bir falın küçük bir payı: Aralık 2025 haberine göre kahve falı 1.000 ₺'ye kadar çıkıyor (İstiklal); eski haberlerde 100–300 ₺. Kontrol 10 Kasım 2026 |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 | 10.000 ₺ | polis kararında Feraye'nin kesintisi | hikâye içi |
 | 10.000 ₺ | Feraye'nin "koru" kararındaki fazlası | hikâye içi |

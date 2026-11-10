@@ -155,7 +155,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [gulen]:** Rana bu tarafa hiç geçmiyor mu? {gir: zerrin}
 **ZERRİN [normal]:** Geçemez. İki yıl önce burada Feraye'nin müşterilerine kart dağıttı; o günden beri bu kapıdan girmez. {kime: cengo}
 **PERİ [normal]:** Kahveniz güzel kokuyor.
-**ZERRİN [normal]:** Telvesi daha güzel kokar. Komşulara saksı için bedava veririm. {kime: peri}
+**ZERRİN [normal]:** Telvesi daha güzel kokar. Komşulara, saksılarına gübre olsun diye bedava veririm. {kime: peri}
 
 ## ipucu sebnem
 ⚙ arka: A33 · figurler: peri, cengo · set: kase · cset: deri
@@ -190,7 +190,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Feraye yüzüklerini parmağında çeviriyor; Peri'nin gözüne bakmıyor.* {gir: feraye, gi: kacamak}
 **PERİ [kas]:** Yalan söylerken yüzüklerinizi çeviriyorsunuz. Fincan o kadar ayrıntı bilmez.
 **FERAYE [cokmus]:** …Bu kafede bir kulağım var. Her gün burada olan biri. {kime: peri}
-**FERAYE [cokmus]:** Fala oturmadan önce bana bir not bırakır. Not başına bin lira.
+**FERAYE [cokmus]:** Fala oturmadan önce bana bir not bırakır. Not başına yüz lira.
 **CENGO [kas]:** Kim bu kulak, Feraye Abla?
 **FERAYE [cokmus]:** Adını vermem. Verirsem ekmeğim biter. {kime: cengo}
 *Feraye konuyu değiştirmek için masadaki bir fincanı açıp içine bakıyor.* {gir: feraye, gi: fal}
@@ -283,7 +283,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Ben attığımı vururum. {kare: K69}
 **SADIK [itiraf]:** Tamam. Ben yaptım. {gir: sadik}
 **SADIK [itiraf]:** İki yıldır Feraye Hanım'a not satıyorum. Kuytu'da telefon yalnız pencerede çeker; herkes orada konuşur.
-**SADIK [itiraf]:** Ben de servis yaparken duyarım. Sır başına bin lira. Sonra düşündüm: sırrın sahibi daha çok verir.
+**SADIK [itiraf]:** Ben de servis yaparken duyarım. Sır başına yüz lira. Sonra düşündüm: sırrın sahibi daha çok verir.
 **SADIK [itiraf]:** Feraye Hanım'ın sözünü her gün kahve taşırken ezberledim. Mesajları onunla yazdım, herkes falcıya baksın diye.
 **SADIK [itiraf]:** Telefonu her akşam kapanışta açardım, mesajlara bakmak için. Bu akşam da açıktı.
 **SADIK [itiraf]:** Tarık Bey'den, Şebnem Hanım'dan, bir kişiden daha yirmişer bin aldım. Hepsi personel dolabımda.
@@ -337,7 +337,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## hikaye
 ⚙ "Dosyanın tamamı" ekranı: kaçan ipuçlarından en az birini reklamla izleyen oyuncuya vaka kapanınca bir kez gösterilir. Gerçekte ne oldu, olay sırasıyla; masumlar neredeydi.
 
-**HİKÂYE:** Kuytu Kafe bir bodrumdaydı; telefon yalnız pencerenin önünde çekiyordu, herkes konuşmaya oraya geçiyordu. Garson Sadık o masalara servis yaparken duyduklarını iki yıldır Feraye'ye not başına bin liraya satıyordu. Feraye fincanda "görüyor", ünü büyüyordu.
+**HİKÂYE:** Kuytu Kafe bir bodrumdaydı; telefon yalnız pencerenin önünde çekiyordu, herkes konuşmaya oraya geçiyordu. Garson Sadık o masalara servis yaparken duyduklarını iki yıldır Feraye'ye not başına yüz liraya satıyordu. Feraye fincanda "görüyor", ünü büyüyordu.
 **HİKÂYE:** Beş hafta önce Tarık Bey pencerenin önünde kameramanına "sabah beş" videolarını akşamdan çekmelerini söyledi. Sadık duydu, Feraye'ye yazdı; Feraye Tarık'ın falında "Güneş doğarken sen yatağındasın" dedi. Tarık sonra karşıya geçip Rana'ya da tarot baktırdı, ama sırrını orada açmadı.
 **HİKÂYE:** Üç hafta önce Sadık faturasız bir hattan mesaj atmaya başladı. Feraye'nin her gün kahve taşırken ezberlediği açılış sözünü kullandı; herkes falcıya baksın diye.
 **HİKÂYE:** İki hafta önce, salı akşamı sekiz buçukta, Şebnem Hanım pencerenin önünde lokantaya yarınki karnıyarığı sipariş etti. Tarık beşte çıkmıştı; Zerrin altıda gitmişti. Akşamları kafeyi Sadık çeviriyordu.

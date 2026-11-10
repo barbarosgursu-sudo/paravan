@@ -2918,7 +2918,7 @@
       "giris_gorsel": "MASA_V4",
       "setler": {"peri": "kase", "cengo": "deri"},
       "truth": {
-        "ne_oldu": "Kuytu'nun garsonu Sadık, pencere önünde telefonla konuşulan sırları servis yaparken duyup iki yıldır Feraye'ye not başına 1.000 ₺'ye satıyor. Üç haftadır aynı sırlarla, Feraye'nin fal sözüyle, faturasız bir hattan şantaj mesajı atıyor; parayı raftaki yeşil kitaptan kapanışta topluyor.",
+        "ne_oldu": "Kuytu'nun garsonu Sadık, pencere önünde telefonla konuşulan sırları servis yaparken duyup iki yıldır Feraye'ye not başına 100 ₺'ye satıyor. Üç haftadır aynı sırlarla, Feraye'nin fal sözüyle, faturasız bir hattan şantaj mesajı atıyor; parayı raftaki yeşil kitaptan kapanışta topluyor.",
         "neden": "Sırrın sahibi daha çok verir. Feraye'nin sözünü kullandı ki herkes falcıya baksın.",
         "para": "Üç kurbandan yirmişer bin: Tarık Bey, Şebnem Hanım, adı geçmeyen bir müşteri. 60.000 ₺ Sadık'ın personel dolabında.",
         "tarik": "Tarık her gün öğlenden beşe kafede; o da şantaj edildi, 20.000 ödedi. Şebnem'in sırrı akşam 20.30'da konuşuldu, o beşte çıkmıştı.",
@@ -2938,7 +2938,7 @@
         "tarik_veresiye": "Zerrin'e göre Tarık Bey üç aydır kafeye borç yazdırıyor; kitapları satmıyor.",
         "sadik_aksam": "Zerrin akşam altıda çıkıyor; akşamları kafeyi garson Sadık çeviriyor, kapanışı da o yapıyor.",
         "sebnem_aksam": "Şebnem Hanım'ın sırrı iki hafta önce salı akşamı 20.30'da, Kuytu'da pencere önünde telefonda konuşuldu. Tarık Bey o saatte yoktu; her gün beşte çıkar.",
-        "ilham_kaynak": "Feraye sırları fala oturmadan önce bir nottan öğreniyor. Notları kafede her gün olan biri getiriyor, not başına 1.000 ₺; Feraye adını vermiyor."
+        "ilham_kaynak": "Feraye sırları fala oturmadan önce bir nottan öğreniyor. Notları kafede her gün olan biri getiriyor, not başına 100 ₺; Feraye adını vermiyor."
       },
       "knowledge": [
         {
@@ -3287,7 +3287,7 @@
               {
                 "k": "zerrin",
                 "i": "normal",
-                "m": "Telvesi daha güzel kokar. Komşulara saksı için bedava veririm.",
+                "m": "Telvesi daha güzel kokar. Komşulara, saksılarına gübre olsun diye bedava veririm.",
                 "kime": "peri"
               }
             ]
@@ -3368,8 +3368,8 @@
           "ico": "◉",
           "needs": [],
           "reveals": ["ilham_kaynak"],
-          "text": "Feraye sırları fala oturmadan önce bir nottan öğreniyor; notları kafede her gün olan biri getiriyor, not başına bin lira. Adını vermiyor.",
-          "meta": "Feraye sırları fala oturmadan önce bir nottan öğreniyor; notları kafede her gün olan biri getiriyor, not başına bin lira. Adını vermiyor.",
+          "text": "Feraye sırları fala oturmadan önce bir nottan öğreniyor; notları kafede her gün olan biri getiriyor, not başına yüz lira. Adını vermiyor.",
+          "meta": "Feraye sırları fala oturmadan önce bir nottan öğreniyor; notları kafede her gün olan biri getiriyor, not başına yüz lira. Adını vermiyor.",
           "sahne": {
             "arka": "A31",
             "set": "kase",
@@ -3410,7 +3410,7 @@
                 "m": "…Bu kafede bir kulağım var. Her gün burada olan biri.",
                 "kime": "peri"
               },
-              {"k": "feraye", "i": "cokmus", "m": "Fala oturmadan önce bana bir not bırakır. Not başına bin lira."},
+              {"k": "feraye", "i": "cokmus", "m": "Fala oturmadan önce bana bir not bırakır. Not başına yüz lira."},
               {"k": "cengo", "i": "kas", "m": "Kim bu kulak, Feraye Abla?"},
               {"k": "feraye", "i": "cokmus", "m": "Adını vermem. Verirsem ekmeğim biter.", "kime": "cengo"},
               {
@@ -3534,7 +3534,7 @@
           }
         },
         "hikaye": [
-          "Kuytu Kafe bir bodrumdaydı; telefon yalnız pencerenin önünde çekiyordu, herkes konuşmaya oraya geçiyordu. Garson Sadık o masalara servis yaparken duyduklarını iki yıldır Feraye'ye not başına bin liraya satıyordu. Feraye fincanda \"görüyor\", ünü büyüyordu.",
+          "Kuytu Kafe bir bodrumdaydı; telefon yalnız pencerenin önünde çekiyordu, herkes konuşmaya oraya geçiyordu. Garson Sadık o masalara servis yaparken duyduklarını iki yıldır Feraye'ye not başına yüz liraya satıyordu. Feraye fincanda \"görüyor\", ünü büyüyordu.",
           "Beş hafta önce Tarık Bey pencerenin önünde kameramanına \"sabah beş\" videolarını akşamdan çekmelerini söyledi. Sadık duydu, Feraye'ye yazdı; Feraye Tarık'ın falında \"Güneş doğarken sen yatağındasın\" dedi. Tarık sonra karşıya geçip Rana'ya da tarot baktırdı, ama sırrını orada açmadı.",
           "Üç hafta önce Sadık faturasız bir hattan mesaj atmaya başladı. Feraye'nin her gün kahve taşırken ezberlediği açılış sözünü kullandı; herkes falcıya baksın diye.",
           "İki hafta önce, salı akşamı sekiz buçukta, Şebnem Hanım pencerenin önünde lokantaya yarınki karnıyarığı sipariş etti. Tarık beşte çıkmıştı; Zerrin altıda gitmişti. Akşamları kafeyi Sadık çeviriyordu.",
@@ -3959,7 +3959,7 @@
             {
               "k": "sadik",
               "i": "itiraf",
-              "m": "Ben de servis yaparken duyarım. Sır başına bin lira. Sonra düşündüm: sırrın sahibi daha çok verir."
+              "m": "Ben de servis yaparken duyarım. Sır başına yüz lira. Sonra düşündüm: sırrın sahibi daha çok verir."
             },
             {
               "k": "sadik",
