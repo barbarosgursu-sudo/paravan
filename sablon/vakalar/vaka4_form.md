@@ -310,7 +310,8 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 - **Cengo'nun felaket hâli:** Feraye'nin mor fal şalı başında, nazar boncuğu alnında.
 - **Kapanış:** Peri felaket kıyafetinin üstünde Feraye'nin mor şalı.
 - **Gizem:** girişte sade (krem triko kazak, kot pantolon; kırmızı yok); kapanışta **kırmızı, vücudu saran elbise**
-  (kural 15b: Peri yine en gösterişli — ama Peri o an telveli; bkz. sorular).
+  (kural 15b'ye **tek seferlik, bilinçli istisna**: kapanış karesinde Gizem öne çıkar, Peri telveli ve şallı geri
+  planda kalır; şakanın ve Peri'nin kıskançlığının gereği. Sahibinin kararı, 10 Kasım 2026. Başka hiçbir karede yok.)
 
 ## 15. Mekânlar
 
