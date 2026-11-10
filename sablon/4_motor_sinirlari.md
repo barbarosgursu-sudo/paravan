@@ -54,7 +54,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | 7 | ✓ **Bedava ipucu kalkar** (motor zaten destekliyor; yalnız veri) | 1. parça |
 | 8 | ✓ **Karar kapıları kapanır:** dört karar her zaman açık | 1. parça |
 | 9 | **Geri düğmesi:** geçici; yayından önce kapanır | — |
-| 10 | ✓ **Giriş denetimi (doğrulayıcıda K17):** büro, 15–25 replik, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
+| 10 | ✓ **Giriş denetimi (doğrulayıcıda K17):** büro, en az 15 satır, şüpheli adı, ücret, ipucu bilgisi sızmıyor | 1. parça, "Giriş" |
 | 11 | ✓ **İpucu adı denetimi:** addaki özel isimler, ipucu açılabilir olduğu anda duyulmuş mu | 1. parça, "Yanlış iz" |
 
 ## K17: giriş denetimi (tasarım)
@@ -64,7 +64,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 | # | ne | nasıl |
 |---|---|---|
 | 1 | Büro | arka plan, kanondaki büro görselleri listesinde mi |
-| 2 | Uzunluk | 15–25 replik |
+| 2 | Uzunluk | en az 15 satır; 45'i geçerse uyarı (10 Kasım 2026, kural 5c) |
 | 3 | Şüpheli | vakanın şüpheliler listesinden en az bir ad metinde geçiyor |
 | 4 | Ücret | vakanın ücreti (ör. "35.000") metinde geçiyor |
 | 5 | Sızıntı | ipucu olgularının anahtar kelimeleri metinde **geçmiyor** |

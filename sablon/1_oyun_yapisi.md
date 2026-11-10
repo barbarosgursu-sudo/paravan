@@ -20,7 +20,16 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) **vaka değildir**, vaka 
 ## Giriş (her vakada)
 
 1. **Yer:** büro. Müşteri kapıdan girer.
-2. **Uzunluk:** 15–25 replik (2–4 dakika).
+2. **Uzunluk ve açıklık** (sahibinin kararı, 10 Kasım 2026; Vaka 4 Onay 2'den): **en az 15 satır, üst sınır yok** —
+   45'i geçerse doğrulayıcı yalnız uyarır. Giriş **uzun ve açıklayıcı** yazılır: oyuncu ilk izlenimini buradan alır;
+   hiçbir şey anlamadan vakaya giren oyuncunun kafası karışır. **Açıklık kısalıktan önce gelir.** Gerekirse sahibi
+   kısaltır; ben baştan eksiksiz yazarım. Oyuncu ilk okumada, tahmin yürütmeden şunları anlar:
+   - müşteri kim, neden geldi, ne istiyor; ne oldu (olay adım adım);
+   - kim kimdir; her şüpheli neden şüpheli (sebep açıkça söylenir);
+   - karakterler birbirini nereden tanıyor, neyi nereden biliyor (kimse "nereden biliyor?" dedirtmez);
+   - tehdit, kayıp, istek gibi olayın özü cümlede açıkça yazılır, çıkarıma bırakılmaz;
+   - ücret ve ilk gidilecek yer.
+   Uzun replik bölünür (kural 5: ~110 harf); bölmek için satır eksiltilmez.
 3. **İçinde bulunması gerekenler:**
    - Müşteri kim, ne kaybetmiş, ne istiyor.
    - Ücret konuşulur (tutar fiyat tablosundan); peşin ödenmez, sonda ödenir (kural 25).

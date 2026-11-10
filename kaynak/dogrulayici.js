@@ -896,9 +896,9 @@ function girisMetni(vaka) {
   return [sahneMetni((vaka.sahneler || {}).giris), ...(vaka.giris || []).map(g => g.metin || "")].join(" ");
 }
 
-// KURAL 17 — Giriş (1. parça, "Giriş"): büro, 15–25 replik, şüpheli adı, ücret,
+// KURAL 17 — Giriş (1. parça, "Giriş"): büro, en az 15 satır (45'i geçerse uyarı, 10 Kasım 2026), şüpheli adı, ücret,
 // ipucu bilgisi önceden söylenmez. Kelime arar; dolaylı ele vermeyi yakalayamaz.
-function kural17_giris(game, hatalar) {
+function kural17_giris(game, hatalar, uyarilar = []) {
   const buro = new Set(((game.kanon || {}).sahne || {}).buro || []);
   for (const vaka of game.vakalar) {
     const ky = vaka.kim_yapti; if (!ky) continue;
@@ -908,7 +908,9 @@ function kural17_giris(game, hatalar) {
     if (!arkalar.length || arkalar.some(a => !buro.has(a)))
       hatalar.push(`[K17] ${yer}: giriş büroda geçmeli (kanon.sahne.buro: ${[...buro].join(", ") || "tanımsız"}); arka plan: ${arkalar.join(", ") || "yok"}.`);
     const n = s.satirlar.filter(x => x.m).length;
-    if (n < 15 || n > 25) hatalar.push(`[K17] ${yer}: ${n} replik; 15–25 olmalı.`);
+    if (n < 15) hatalar.push(`[K17] ${yer}: ${n} replik; en az 15 olmalı.`);
+    // Üst sınır yok (sahibinin kararı, 10 Kasım 2026: girişte açıklık kısalıktan önce gelir); çok uzunsa yalnız uyarı.
+    else if (n > 45) uyarilar.push(`[K17] ${yer}: ${n} replik; 45'i geçti — açıklık için gerekliyse kalabilir, sahibine göster.`);
     const metin = girisMetni(vaka);
     if (!(ky.supheliler || []).some(x => isimGeciyor(metin, x.ad.split(" ")[0])))
       hatalar.push(`[K17] ${yer}: hiçbir şüphelinin adı geçmiyor; en az biri anılmalı.`);
@@ -1066,7 +1068,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
   kural14_tanimsizOlgu(game, hatalar);
   kural15_sahne(game, hatalar, acilis);
   kural16_kararsizYol(game, hatalar);
-  kural17_giris(game, hatalar);
+  kural17_giris(game, hatalar, uyarilar);
   kural18_ipucuAdi(game, hatalar);
   kural19_kimYapti(game, hatalar);
 

@@ -24,6 +24,10 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
 ## Çalışma kuralları
 
+**Giriş uzun ve açıklayıcı yazılır (10 Kasım 2026, sahibinin kararı).** Oyuncu ilk izlenimi girişten alır; açıklık
+kısalıktan önce gelir. En az 15 satır, üst sınır yok (doğrulayıcı 45'i geçince yalnız uyarır); kısaltmayı gerekirse sahibi
+yapar. Vaka 1–2'nin yeniden yapımına uygulanır; Vaka 3'e dokunulmaz. Ayrıntı: `sablon/1_oyun_yapisi.md` → Giriş, kural 5c.
+
 **Replikler anlaşılır yazılır (17 Ekim 2026, sahibinin kararı).** Çok kısa, şifreli cümle yok; her replik ilk
 okumada kim/neyi/neden söylediğini taşır, ama telefondaki kutuya (~110 harf) sığar. Ayrıntı ve örnekler:
 `sablon/2_kural_kitabi.md` kural 5, `sablon/7_uretim_sureci.md` → bulanık replik taraması ("Fazla kısa mı?").

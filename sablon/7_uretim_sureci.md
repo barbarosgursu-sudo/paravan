@@ -60,6 +60,9 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
   kılıktayken afişini eleştirmekten kendini alamaz ("hep söylerdim"), Ferruh "Kime söylerdiniz efendim?" diye
   sıkıştırır. Şaka bir sahnede en çok dört replik sürer; sahne kapanışı ona geri dönebilir (callback).
 - **Ne istiyor?** Karakterin bu satırdaki niyeti (iltifat mı, iğne mi, yalan mı) belli mi?
+- **Giriş ilk okumada anlaşılıyor mu?** (10 Kasım 2026, sahibinin kararı; kural 5c, 1. parça "Giriş") Girişe ayrıca
+  sorulur: müşteri, olay, her şüphelinin şüphe sebebi, kimin neyi nereden bildiği, tehdidin/kaybın kendisi açıkça
+  söylendi mi? Satır sınırı yüzünden sıkıştırılan cümle yok mu? Yer açmak için bölünmesi gereken uzun replik bölünür.
 - **Fazla kısa mı?** (17 Ekim 2026, sahibinin kararı; kural kitabı 5) Replik tek başına okununca normal bir oyuncu
   ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
   "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Diyalog **baştan bu ölçüyle yazılır**;
@@ -157,7 +160,7 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 
 **Giriş (K17)**
 - Arka plan büro.
-- 15–25 replik.
+- En az 15 satır (üst sınır yok; 45'i geçerse uyarı — girişte açıklık kısalıktan önce gelir, kural 5c).
 - Formdaki şüphelinin adı metinde geçiyor.
 - Metindeki ücret formdaki ücretle aynı.
 - Bir ipucunun vereceği bilgi metinde geçmiyor (ipucu olgularının anahtar kelimeleriyle aranır).

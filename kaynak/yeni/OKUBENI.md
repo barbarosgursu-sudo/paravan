@@ -150,7 +150,7 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
   geçerli mi. Hiçbiri JS hatası vermezdi; tanımsız ifade sessizce eski sprite'ta kalırdı.
 - **K16 — Kararsız yol** (iki oyunda da): hakkı harcamanın her biçiminde en az bir karar
   açık kalmalı. Yeni oyunda kapı olmadığı için kendiliğinden geçer.
-- **K17 — Giriş** (`kim_yapti` olan vakada): büroda (`kanon.sahne.buro`), 15–25 replik,
+- **K17 — Giriş** (`kim_yapti` olan vakada): büroda (`kanon.sahne.buro`), en az 15 satır (45'i geçerse uyarı),
   bir şüphelinin adı geçiyor, ücret konuşuluyor (rakam ya da yazı), ipucu olgularının
   anahtar kelimeleri (`anahtarlar`) girişte geçmiyor. Kelime arar; dolaylı ele vermeyi
   yakalamaz — o, görselsiz testte sahibinde.
