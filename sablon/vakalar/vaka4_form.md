@@ -55,7 +55,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 | 5 hafta önce, öğleden sonra | Tarık'ın masasına servis yapar, konuşmayı duyar, Feraye'ye not verir | pencere önünde kameramanına telefonda: "Yarınki 'güne beşte başla' videosunu bu akşam çekelim, ışığı yine sabah gibi yap." | dükkânında |
 | 4 hafta önce | — | Feraye'nin falına oturur (ayda bir); Feraye: "Güneş doğarken sen yatağındasın." Tarık şaşırır; sonra karşıya geçip Rana'ya tarot baktırır (sırrından söz etmez) | Tarık'a tarot bakar |
 | 3 hafta önce | faturasız hattan ilk mesajlar (Tarık, adı geçmeyen müşteri) | mesaj gelir | — |
-| 2 hafta önce, salı 20.30 | akşam vardiyası; kafede iki öğrenci ve Sadık | **yok** — her gün 9'dan 5'e kafede, beşte çıkar | dükkânı kapalı |
+| 2 hafta önce, salı 20.30 | akşam vardiyası; kafede iki öğrenci ve Sadık | **yok** — her gün öğlenden beşe kafede, beşte çıkar | dükkânı kapalı |
 | aynı an | Şebnem pencere önünde esnaf lokantasına telefonda: "Yarınki çekime üç porsiyon karnıyarık. Kaplarınızı değil, benim bakır tencereme koyun." Sadık duyar | — | — |
 | geçen hafta | Şebnem'e mesaj; Şebnem salı parayı bırakır, Sadık kapanışta alır | — | — |
 | geçen perşembe 18.00 | — | 20.000'i yeşil kitaba koyar | — |
@@ -98,7 +98,7 @@ bilgi üstüne kurulu. Müşteri masum ama temiz değil: kendi küçük hilesi, 
 
 | | **Sadık** (suçlu) | **Tarık Bey** (şantaj edilen müşteri) | **Rana** (rakip falcı) |
 |---|---|---|---|
-| Kim | Kuytu'nun garsonu, 26; sessiz, kibar, görünmez; herkesin adını, kahvesini bilir | yaşam koçu, 40'larında; *"Sabah Beşte Kalk"* kitabının yazarı (öğlene kadar uyuyor; "sabah beş" videoları akşamdan, lambayla çekiliyor); her gün 9–17 pencere masasında "yazıyor" | tarot falcısı, 30'larında; Feraye'nin eski çırağı; karşı kaldırımda tarot dükkânı |
+| Kim | Kuytu'nun garsonu, 26; sessiz, kibar, görünmez; herkesin adını, kahvesini bilir | yaşam koçu, 40'larında; *"Sabah Beşte Kalk"* kitabının yazarı (öğlene kadar uyuyor; "sabah beş" videoları akşamdan, lambayla çekiliyor); her gün 12–17 pencere masasında "yazıyor" | tarot falcısı, 30'larında; Feraye'nin eski çırağı; karşı kaldırımda tarot dükkânı |
 | Şüpheli gösteren iz | (gizli) pencere önünde servis yapar, Feraye'nin masasına kahve taşır, rafı akşamları o toplar | pencere masası rafın dibinde, her konuşmayı duyar; kafeye borçlu; Feraye onu suçluyor | Feraye'nin sözünü ezbere bilir; Feraye'ye kini var; Feraye'nin müşterileri (kurbanlar dahil) ona da tarot baktırıyor; Feraye onu suçluyor |
 | Aklayan kanıt | — | Şebnem'in sırrı akşam 20.30'da konuşuldu; Tarık beşte çıkmıştı | Tarık sırrını tarotta açmadı, yalnız Kuytu'da telefonda söyledi; Rana kafeye giremiyor (girişte) |
 | O hafta gerçekte | şantaj | kendisi şantaj edildi, 20.000 ödedi | dükkânında; camından kafeyi seyretti |
@@ -379,7 +379,7 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 | 40.000 ₺ | vaka ücreti | V3 ile aynı: orta hâlli esnaf; Feraye'nin ünü iyi kazandırıyor |
 | 20.000 ₺ | şantaj başına istenen | hikâye içi; ücretin yarısı, kurbanların ödeyebileceği |
 | 60.000 ₺ | Sadık'ın dolabındaki para (3 kurban) | 3 × 20.000 |
-| 1.000 ₺ | Sadık'ın not başına aldığı | **tahmin:** Cihangir'de bir kahve falı ~1.000 ₺ (2026) — adım 3'ten önce internetle kontrol |
+| 1.000 ₺ | Sadık'ın not başına aldığı (= bir fal) | Aralık 2025 haberine göre bazı işletmelerde kahve falı 1.000 ₺'ye çıkmış (İstiklal); eski haberlerde 100–300 ₺. Ünlü falcı, 2026: üst uç, makul. Kontrol 10 Kasım 2026 |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 | 10.000 ₺ | polis kararında Feraye'nin kesintisi | hikâye içi |
 | 10.000 ₺ | Feraye'nin "koru" kararındaki fazlası | hikâye içi |
@@ -412,7 +412,7 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
 - [x] "Aha!" anı var (kahve taşıyan da sözü bilir + akşam sırrı)
 - [x] Zaman çizelgesi tutarlı (Tarık 17'de çıkar, Şebnem'in sırrı 20.30; Rana iki yıldır içeri girmedi; zarflar ve
       telefon kapanışta; yüzleşme kapanışta, telefon açık)
-- [ ] Her tutar fiyat tablosunda — fal fiyatı internetle kontrol edilecek (adım 3'ten önce)
+- [x] Her tutar fiyat tablosunda (fal fiyatı 10 Kasım'da kontrol edildi)
 - [x] En az bir dürüst ve kazandıran karar var; kirli fark küçük
 - [x] Her kararın kısa sonucu var; kesinti açıklamaları var
 - [x] Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor
