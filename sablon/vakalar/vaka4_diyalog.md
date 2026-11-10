@@ -23,7 +23,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## sahne giris
 ⚙ arka: A6 · figurler: peri, cengo · set: kase · cset: deri
 ⚙ akış: Büro, sabah. Peri masada paltosuyla, Cengo içeride. Feraye kapıdan girer. Gizem çay ocağından kahvelerle gelir (girişte ilk kez ekranda), fal anında kalır. Çekicilik anı falın ardından: Peri paltoyu çıkarır.
-⚙ K17: büro, 15–25 replik, şüpheli (Rana, Tarık) anılıyor, ücret kırk bin; ipucu bilgisi yok (telefonun çektiği yer, kamera, akşam saati, tarot müşterisi, not).
+⚙ K17: büro, en az 15 satır (üst sınır yok, kural 5c), şüpheli (Rana, Tarık) anılıyor, ücret kırk bin; ipucu bilgisi yok (telefonun çektiği yer, kamera, akşam saati, tarot müşterisi, not).
 
 *Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla. Kapı çalınıyor; Cengo açıyor. Eşikte tombul, simsiyah saçlı, mor şallı bir kadın.* {gir: feraye, gi: normal}
 **CENGO [gulen]:** Feraye Abla, hoş geldin! Geleceğini haber verince senin boncuğu hemen boynuma taktım. {gir: feraye}

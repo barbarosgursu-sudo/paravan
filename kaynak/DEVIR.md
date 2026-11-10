@@ -22,6 +22,26 @@
   aşımına uğramıştı, yeniden başlatıldı).
 - Sıradaki: sahibi Vaka 4'ü yayında oynar ("Vaka N'den başla" → Vaka 4), notları toplu verir (adım 6–7).
 
+**Yeni pencere için (10 Kasım 2026 akşam):**
+- **Saat durdurulmuş (18:04).** Sahibi "başla" deyince `vaka4_baslangic.md` ara tablosunda ara 2 kapanır, saat işler.
+  Aktif süre o ana kadar 3 sa 19 dk (adım dağılımı aynı belgede; 3–4 ile 5'in bölüşümü yaklaşık).
+- **Onay 2 nasıl yürüyor:** sahibi telefondan ekran görüntüsüyle not gönderir; satır üstünde konuşulur ("önceki/sonraki
+  10 satırı yaz" isteyebilir), öneri verilir, sahibinin seçtiği hâl not listesine yazılır; "yayına koy / güncelle" deyince
+  hepsi birlikte işlenir. Giriş bitti (13 not işli); **sahibi girişi yeniden inceleyecek** — yeni kural 5c (giriş uzun ve
+  açıklayıcı, en az 15 satır, üst sınır yok) Vaka 4'e henüz uygulanmadı, sahibinin kararı. Sıradaki: konuşma sahnesi ve
+  ipuçları.
+- **Değişiklik nereye yazılır:** replik, sahne, karar metni → `sablon/vakalar/vaka4_diyalog.md`, sonra
+  `node arac_diyalog.js ../sablon/vakalar/vaka4_diyalog.md V4`. **Yapı** (olgu metni `facts`, ipucu kartı `clues[].text/meta`,
+  çıkarım başlığı, `kim_yapti`, karar parası/bağ, `anahtarlar`) ve **künye** (`yeni/kisiler.json`) diyalogdan üretilmez:
+  `yeni/game_data.json` V4'te doğrudan değişir (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). İlk iskelet geçici bir
+  betikle kuruldu, depoda yok — yeniden kurmak gerekmez, veri artık tek kaynak. Aynı değişikliği `vaka4_form.md`'ye de
+  işle (örnek: "yüz lira" diyalogda, olguda, ipucu kartında, itirafta, hikâyede ve formun fiyat tablosunda değişti).
+- **Yayın kontrolü:** `main`'e push yayını tetikler (~2–10 dk). GitHub'ın "deploy" adımı bir kez zaman aşımına uğradı ve
+  sayfa eski kaldı. Şüphede: GitHub MCP `actions_list` → `list_workflow_runs` (pages build and deployment); `failure`
+  ise `actions_run_trigger` → `rerun_workflow_run`. Oturumdan github.io'ya doğrudan erişim yok.
+- **Resim aşamasından önce hatırlat:** Codex 2 kol desteği (`uretim/dongu.sh` kilit, kol başına log/kayıt, `AGENTS.md`)
+  henüz yazılmadı; sahibi "yap" deyince (`vaka4_baslangic.md` §3).
+
 ## 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 Sahibinin kararı (yalnız belge, kod yazılmadı):
