@@ -16,7 +16,7 @@
   Sızıntı taraması temiz. Doğrulayıcıda iki kabul edilecek K8 uyarısı: "Polise teslim et" kararı para ve vicdanda
   "uzaklaştır" ile "gerçeği söyle"nin gerisinde (Onay 1'de sahibi kararları olduğu gibi onayladı).
 - `test_yeni_v2.js`: görselsiz aşamada künye portresi de yer tutucu olabilir.
-- **Saat DURDU: 10 Kas 14:46** (sahibinin sözü; ara tablosunda). Sahibi "başla" deyince saat yeniden işler, ara süresi yazılır.
+- Saat 14:46–16:42 durdu (ara 1, 1 sa 56 dk); 16:42'de yeniden işliyor.
 - Sıradaki: sahibi Vaka 4'ü yayında oynar ("Vaka N'den başla" → Vaka 4), notları toplu verir (adım 6–7).
 
 ## 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
