@@ -358,7 +358,7 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
   gümüş ay kolyesi, elinde tarot destesi. Gotik-boho; çekici ama mat (Peri'yi gölgelemez).
 - **Zerrin:** 50'lerinde, kafe sahibi; kısa kır saç, gözlük başının üstünde, çizgili tişört üstüne kot önlük, kolları
   sıvalı, omzunda bez.
-- **Şebnem Hanım:** 40'larında, televizyon yüzü; bal sarısı fönlü saç, kalın makyaj, programın beyaz aşçı önlüğü
+- **Şebnem Hanım:** 40'larında, televizyon yüzü; açık kumral, çene hizasında küt kesim saç (Gizem'in bal rengi kâkülünden ayrılsın diye), kalın makyaj, programın beyaz aşçı önlüğü
   (yazısız), elinde dokunulmamış bir tahta kaşık.
 
 **Kişiler (künye):**
@@ -435,4 +435,4 @@ Sadık yakalandı; dolabında 60.000 ₺, cebinde faturasız telefon (üç kurba
    lokantasından geliyor. Üçüncü kurban adsız, sırrı söylenmez.
 5. ✅ (olduğu gibi) Kararlar: dürüst olan "Polise teslim et" Cengo'nun hoşuna gitmiyor ve parası eksi; öbür dürüst karar ("Kurbanlara
    gerçeği söyle") hoşuna gidiyor. Uygun mu?
-6. Diğer görünüşler (Feraye, Sadık, Tarık, Rana, Zerrin, Şebnem) — uygun mu?
+6. ✅ (önceki vakalara benzemesinler yeter) Diğer görünüşler (Feraye, Sadık, Tarık, Rana, Zerrin, Şebnem) — uygun mu?
