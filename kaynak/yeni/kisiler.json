@@ -396,10 +396,10 @@
       "portre": "portre_selim",
       "tanisma": "saat_degisti",
       "katmanlar": [
-        {"kosul": "saat_degisti", "tanim": "Muammer Bey'in ortağı, dükkânın tamircisi. O da vapurdaymış."},
+        {"kosul": "saat_degisti", "tanim": "Muammer Bey'in otuz yıllık tamircisi. O da vapurdaymış."},
         {
           "kosul": "usta_uc",
-          "tanim": "Muammer Bey'in ortağı, dükkânın tamircisi. O da vapurdaymış. Geçen ay ustaya aynı çantadan yaptırmış."
+          "tanim": "Muammer Bey'in otuz yıllık tamircisi. O da vapurdaymış. Geçen ay ustaya aynı çantadan yaptırmış."
         }
       ]
     },
@@ -449,6 +449,6 @@
     "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.",
     "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı.",
     "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi.",
-    "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık ortağı Selim almıştı: Muammer onu dükkândan çıkaracaktı, Selim otuz yılının karşılığını o saatte gördü."
+    "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü."
   }
 }

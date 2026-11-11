@@ -3,7 +3,7 @@
 Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 11 Kasım 2026, ortak).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslak Columbo (Ters) tipindeydi; **Bilmece**'ye çevrildi
-(ortağın kararı, 11 Kasım 2026): müşteri antikacı, saati ortağı alıyor, oyuncu suçluyu bilmiyor. Taslaktan kalanlar:
+(ortağın kararı, 11 Kasım 2026): müşteri antikacı, saati tamircisi alıyor, oyuncu suçluyu bilmiyor. Taslaktan kalanlar:
 Karaköy–Kadıköy vapuru, çaycı, martı besleyen çocuk, iskele görevlisi, "o sırada üst güvertedeydim" yalanı, Peri'yi deniz
 tutması, Cengo'nun simitçiyle pazarlığı, kararın üç ucu (gerçeği söyle / "buldum" de, iki taraftan para / saatin gerçek
 sahibini araştır), kıyafetler.
@@ -32,8 +32,8 @@ ikiziyle değişti, kutuda kopya saat var; müşteri hırsızlığı ancak alıc
   çantasında, kadife bir kutunun içindeydi. Yolda bir dalga çaycının tepsisini devirdi, çay Muammer'in pantolonuna döküldü;
   Muammer beş dakika lavaboya gitti, çanta koltukta kaldı. Kadıköy'de alıcının masasında kutuyu açtı: içinde **ucuz bir
   kopya** vardı. Çanta da onun çantası değildi: **tıpatıp aynısıydı**.
-- **Kim, neden:** **Selim**, Muammer'in otuz yıllık ortağı (58). Dükkânda alıp taşıyan, tamir eden hep o; satan, adını
-  duyuran Muammer. Muammer bu yıl dükkânı oğluna devredip Selim'i ortaklıktan çıkaracağını söyledi, eline "bir teşekkür"
+- **Kim, neden:** **Selim**, Muammer'in otuz yıllık tamircisi (58). Dükkânda alıp taşıyan, tamir eden hep o; satan, adını
+  duyuran Muammer. Muammer bu yıl dükkânı oğluna devredip Selim'e yol vereceğini söyledi, eline "bir teşekkür"
   verecekti. Selim otuz yılının karşılığını o saatte gördü.
 - **Nasıl:** Bir ay önce Kadıköy'deki deri ustasından "dükkâna yedek" diye çantanın ikizini yaptırdı. Kadıköy çarşısından
   kopya bir cep saati aldı, kadife kutuya koydu. Salı Muammer'le vapura bindi; "deniz tutar beni, üst güverteye çıkıyorum"
@@ -49,7 +49,7 @@ ikiziyle değişti, kutuda kopya saat var; müşteri hırsızlığı ancak alıc
 
 **Zaman çizelgesi**
 
-| ne zaman | Selim (ortak) | Kadir (çaycı) | Nedim Bey (koleksiyoncu) |
+| ne zaman | Selim (tamirci) | Kadir (çaycı) | Nedim Bey (koleksiyoncu) |
 |---|---|---|---|
 | 2 ay önce | — | — | dükkâna gelir, saati ister; Muammer satmaz |
 | 1 ay önce | İsmet Usta'ya ikiz çantayı ısmarlar ("dükkâna yedek") | — | dükkânda çantayı beğenir; o da İsmet Usta'ya bir tane ısmarlar |
@@ -82,7 +82,7 @@ susturmayı bilmez.
   - "Saat her gün öğleden sonra üçte çalar. Alıcıya göstermek için kurmuştum." *(yüzleşmenin kurulumu)*
   - Şüpheleri: "Çayı döken **çaycı**, Kadir. Kaza mıydı? Bir de **Nedim Bey**: saati iki kez istedi, satmadım. Salı aynı
     vapurdaydı. Tesadüf mü?"
-  - "Ortağım **Selim** de vapurdaydı; deniz tutar onu, bütün yol üst güvertede hava aldı." *(Selim suçlanmadan anılır.)*
+  - "Tamircim **Selim** de vapurdaydı; deniz tutar onu, bütün yol üst güvertede hava aldı." *(Selim suçlanmadan anılır.)*
 - **Adı anılan şüpheliler:** Kadir, Nedim Bey.
 - **Ücret konuşması:** Peri: "Kırk bin. İş bitince." Muammer: "Saat dönerse kırk bin, az bile."
 - **Çekicilik anı:** Peri vapurdan iner gibi rüzgârlı bir pencerenin önünde: zümrüt yeşili ince ipek elbise, topuklu;
@@ -95,7 +95,7 @@ susturmayı bilmez.
 
 | | **Selim** (suçlu) | **Kadir** (çaycı) | **Nedim Bey** (koleksiyoncu) |
 |---|---|---|---|
-| Kim | Muammer'in ortağı, 58; sessiz, elleri usta, tamirci | vapurun çaycısı, 40'larında; neşeli, her yolcuyu tanır; Cengo'nun tanıdığı | koleksiyoncu, 70'lerinde; şık, bastonlu, Moda'da oturur |
+| Kim | Muammer'in tamircisi, 58; sessiz, elleri usta | vapurun çaycısı, 40'larında; neşeli, her yolcuyu tanır; Cengo'nun tanıdığı | koleksiyoncu, 70'lerinde; şık, bastonlu, Moda'da oturur |
 | Şüpheli gösteren iz | (gizli) saatin yolculuğunu biliyordu; ikiz çantası var | çayı o döktü; saati önceden gördü, satılacağını biliyordu; çantanın başında o kaldı | saati istedi; aynı vapurdaydı; çantanın ikizini o da ısmarladı |
 | Aklayan kanıt | — | vapurdan hiç inmez; vapur arandı, çanta yok (C) | saatin salı yola çıkacağını bilmiyordu; çırak "kasada" dedi (D) |
 | O gün gerçekte | çantaları değiştirdi | çay dağıttı | üst güvertede martılara simit attı |
@@ -105,15 +105,15 @@ susturmayı bilmez.
 
 | kod | cümle | ipucu |
 |---|---|---|
-| cayci_bilen | Muammer Bey saati geçen salı vapurda çaycı Kadir'e gösterip "gelecek salı Kadıköy'e satmaya götürüyorum" demiş. Kadir'in dediğine göre bunu ondan başka yalnız ortağı Selim biliyordu. | A |
+| cayci_bilen | Muammer Bey saati geçen salı vapurda çaycı Kadir'e gösterip "gelecek salı Kadıköy'e satmaya götürüyorum" demiş. Kadir'in dediğine göre bunu ondan başka yalnız tamircisi Selim biliyordu. | A |
 | cay_dalga | Çay kazası bir tanker dalgasından: bütün salon sallandı. Kadir koltuğu silip bez almaya tezgâha döndü; çanta bir süre yalnız kaldı. | A |
 | ust_tek | Üst güvertede bütün yol tek bir adam vardı; çocuğa simit verdi. Selim de Nedim Bey de "üst güvertedeydim" diyor. | B |
-| vapur_arandi | Vapur Kadıköy'de baştan sona arandı; çanta yok, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden çantayla inenler: Muammer Bey, ortağı Selim, Nedim Bey. | C |
+| vapur_arandi | Vapur Kadıköy'de baştan sona arandı; çanta yok, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden çantayla inenler: Muammer Bey, tamircisi Selim, Nedim Bey. | C |
 | nedim_sali | Nedim Bey her salı Moda'daki kız kardeşine o vapurla gidiyor; bütün yol üst güvertede olduğunu söylüyor. | D |
 | kolek_kasada | Nedim Bey salı sabahı dükkâna gelip saati yine sormuş; çırak "kasada" demiş. Saatin o gün yola çıktığını bilmiyordu. | D |
 | canta_damga | Kalan çanta Muammer Bey'inkinin tıpatıp aynısı; içinde Kadıköy'deki deri ustası İsmet'in damgası. Kutudaki kopya saat çarşıda 750 ₺. | F |
 | saat_belgesiz | Muammer Bey saati iki ay önce bir hurdacıdan, belgesiz ve çok ucuza almış. | F |
-| usta_uc | İsmet Usta bu çantadan üç tane yapmış: Muammer Bey'e, ortağı Selim'e, bir de dükkânda çantayı görüp isteyen Nedim Bey'e. | E |
+| usta_uc | İsmet Usta bu çantadan üç tane yapmış: Muammer Bey'e, tamircisi Selim'e, bir de dükkânda çantayı görüp isteyen Nedim Bey'e. | E |
 
 ## 6. İpuçları (6 ipucu, 3 hak)
 
@@ -134,7 +134,7 @@ sahnede vapurun simitçisiyle simit pazarlığı yapar (vapurda 35 ₺): 30, 25,
 
 **Sahne özetleri**
 - **A.** Alt salon, çay tezgâhı. Kadir Cengo'ya sarılır. Peri bir direğe tutunmuş, yeşil. Kadir: dalga geldi, tepsi uçtu;
-  "Muammer Bey'e saati geçen hafta göstermişti, 'gelecek salı satıyorum' dedi. Ortağından başka bilen yok dedi, sen de
+  "Muammer Bey'e saati geçen hafta göstermişti, 'gelecek salı satıyorum' dedi. Tamircisinden başka bilen yok dedi, sen de
   bilme dedi." Bez almaya gittiğini kendisi söyler. Cengo simit pazarlığı (1. tur).
 - **B.** Üst güverte, martılar. Efe (8) annesiyle her salı aynı vapurda, martılara simit atıyor. Cengo martı taklidi yapar,
   çocuk güler. Annesi: "Bütün yol buradaydık. Yukarıda bir tek amca vardı, oğluma simit verdi." Peri korkuluğa
@@ -236,14 +236,14 @@ bir zil sesi gelir; Muammer: "Benim saatim!" Herkes döner, Selim merdivene koş
 
 ## 12. Kararlar *(gerçek artık biliniyor; dördü de açık)*
 
-Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate, Selim'e ve ortaklığa ne olacak. Kapağın içindeki kazıma
+Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate ve Selim'e ne olacak. Kapağın içindeki kazıma
 ("N.'ye, 1964") Peri'nin gözüne takılır (her yolda; karar ekranının girişi).
 
 | karar | kısa sonuç (karar ekranı) | eylem → sonuç → bedel | karar parası | bağ | Cengo'nun tavrı | Cengo satırı | anı defteri |
 |---|---|---|---|---|---|---|---|
-| **Muammer'e gerçeği söyle** | Saat Muammer'e döner, Selim'i dükkândan çıkarır; satış yapılınca Muammer 5.000 ₺ teşekkür bırakır. | Saati Muammer'e verdin, Selim'in yaptığını anlattın. Otuz yıllık ortaklık bir akşamda bitti; Selim tamir aletlerini toplayıp gitti. Muammer saati sattı, sana beş bin teşekkür bıraktı. | +5.000 | +1 | ilgilendirmez | "Otuz yıl. Bir saat için." | Muammer saatini aldı, Selim'i kaybetti. |
-| **"Vapurda bulduk" de** | Selim'in adı geçmez, ortaklık sürer; Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir. | Saati Muammer'e "vapurun bir köşesinde bulduk" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ortaklar ertesi gün yine aynı dükkânda; biri ötekinin sırrını, sen ikisinin sırrını biliyorsun. | +20.000 | −2 | hoşuna gitmez | "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy." | Saat bulundu. Kimin bulduğunu bir ben biliyorum. |
-| **Saatin gerçek sahibini bul** | Kazımanın izinden saatin Kuzguncuk'ta soyulan bir evden çıktığı anlaşılır; saat sahibine döner. Muammer 10.000 ₺ keser. | Kapaktaki "N.'ye, 1964"ün peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'le ortaklık da bitti. | −10.000 | +2 | hoşuna gider | Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzatır: "Al. Bu vakadan kazandığımız tek şey." | Saat sahibine döndü. Kasaya az para girdi. |
+| **Muammer'e gerçeği söyle** | Saat Muammer'e döner, Selim'i dükkândan çıkarır; satış yapılınca Muammer 5.000 ₺ teşekkür bırakır. | Saati Muammer'e verdin, Selim'in yaptığını anlattın. Selim'in otuz yılı bir akşamda bitti; tamir aletlerini toplayıp gitti. Muammer saati sattı, sana beş bin teşekkür bıraktı. | +5.000 | +1 | ilgilendirmez | "Otuz yıl. Bir saat için." | Muammer saatini aldı, Selim'i kaybetti. |
+| **"Vapurda bulduk" de** | Selim'in adı geçmez, Selim işinde kalır; Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir. | Saati Muammer'e "vapurun bir köşesinde bulduk" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; biri ötekinin sırrını, sen ikisinin sırrını biliyorsun. | +20.000 | −2 | hoşuna gitmez | "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy." | Saat bulundu. Kimin bulduğunu bir ben biliyorum. |
+| **Saatin gerçek sahibini bul** | Kazımanın izinden saatin Kuzguncuk'ta soyulan bir evden çıktığı anlaşılır; saat sahibine döner. Muammer 10.000 ₺ keser. | Kapaktaki "N.'ye, 1964"ün peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı. | −10.000 | +2 | hoşuna gider | Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzatır: "Al. Bu vakadan kazandığımız tek şey." | Saat sahibine döndü. Kasaya az para girdi. |
 | **Polise teslim et** | Selim yargılanır; saat delil olur, belgesiz olduğu ortaya çıkar, Muammer de ifade verir. Muammer 5.000 ₺ keser. | Selim'i polise teslim ettin. Saat emanete alındı; Muammer saati nereden aldığını açıklayamadı, o da ifade verdi. Satış yatı; Muammer ücretten beş bin kesti: "Sessiz olsun dedim, karakol olsun demedim." | −5.000 | −1 | hoşuna gitmez | "Saat emanette. Her gün üçte orada çalacak." | Selim polise teslim edildi. Saat emanette. |
 
 - Kirli seçenek en çok kazandırır, fark küçük (20.000 / 5.000). Dürüst ve kazandıran: "Muammer'e gerçeği söyle" (+5.000).
@@ -256,7 +256,7 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate, Selim'e ve ortaklı�
   "belgesiz olduğu ortaya çıkar" sonucunu söyler — karar sonucudur, ipucu olgusu değil; adım 5'te elle bakılacak.
 
 - **Anı özeti** (kural 21d): Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek
-  çalındı. Saati ortağı Selim almıştı: Muammer onu dükkândan çıkaracaktı, Selim otuz yılının karşılığını o saatte gördü.
+  çalındı. Saati tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü.
 
 ## 13. Kapanış
 
@@ -326,7 +326,7 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate, Selim'e ve ortaklı�
 | Muammer Bey | giriş | Çukurcuma'da antikacı. Çalar cep saati vapurda çalındı; bulmamızı istiyor. | `saat_belgesiz` → Saati bir hurdacıdan belgesiz ve ucuza almış. |
 | Kadir | giriş | Vapurun çaycısı. Çayı Muammer Bey'e o döktü; Muammer ondan şüpheleniyor. | `cayci_bilen` → Saatin satılacağını önceden biliyordu. |
 | Nedim Bey | giriş | Koleksiyoncu. Saati iki kez istemiş; aynı vapurdaymış. Muammer ondan şüpheleniyor. | `kolek_kasada` → Saatin o gün yolda olduğunu bilmiyordu. |
-| Selim | giriş (adı) | Muammer Bey'in ortağı. O da vapurdaymış. | `usta_uc` → Çantanın ikizi onda da var. |
+| Selim | giriş (adı) | Muammer Bey'in tamircisi. O da vapurdaymış. | `usta_uc` → Çantanın ikizi onda da var. |
 | İsmet Usta | E | Kadıköy çarşısında deri ustası. Dükkânın çantalarını o yapıyor. | — |
 
 ## 17. Fiyat tablosu

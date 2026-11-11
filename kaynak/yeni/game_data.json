@@ -4116,8 +4116,8 @@
       "giris_gorsel": "MASA_V5",
       "setler": {"peri": "ipek", "cengo": "balikci"},
       "truth": {
-        "ne_oldu": "Antikacı Muammer Bey'in çalar cep saati salı 14.00 Karaköy–Kadıköy vapurunda, o lavabodayken çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık ortağı Selim aldı: ikiz çantayı ustaya yaptırdı, kopya saati çarşıdan aldı; \"deniz tutar\" deyip üst güverteye çıkmadı, alt salonun arkasında bekledi.",
-        "neden": "Muammer dükkânı oğluna devredip Selim'i ortaklıktan çıkaracaktı. Selim otuz yılının karşılığını saatte gördü.",
+        "ne_oldu": "Antikacı Muammer Bey'in çalar cep saati salı 14.00 Karaköy–Kadıköy vapurunda, o lavabodayken çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim aldı: ikiz çantayı ustaya yaptırdı, kopya saati çarşıdan aldı; \"deniz tutar\" deyip üst güverteye çıkmadı, alt salonun arkasında bekledi.",
+        "neden": "Muammer dükkânı oğluna devredip otuz yıllık tamircisi Selim'e yol verecekti. Selim otuz yılının karşılığını saatte gördü.",
         "saat": "Muammer saati iki ay önce bir hurdacıdan belgesiz, çok ucuza aldı. Saat geçen kış Kuzguncuk'ta soyulan bir evden (Nermin Hanım, \"N.'ye, 1964\").",
         "kadir": "Çay kazası tanker dalgasından. Kadir koltuğu silip tezgâha döndü; vapurdan hiç inmez.",
         "nedim": "Nedim saati istiyordu ama o gün yola çıktığını bilmiyordu; bütün yol üst güvertede tek başınaydı, Efe'ye simit verdi."
@@ -4126,15 +4126,15 @@
         "saat_degisti": "Muammer Bey'in çalar cep saati salı Karaköy–Kadıköy vapurunda çalındı: o lavabodayken çantası tıpatıp aynısıyla değişmiş, kutuya ucuz bir kopya konmuş.",
         "kadir_dokdu": "Muammer Bey çaycı Kadir'den şüpheleniyor: çayı o döktü; Muammer lavaboya giderken koltuğu silmeye eğiliyordu.",
         "nedim_istedi": "Koleksiyoncu Nedim Bey saati iki kez istemiş, Muammer satmamış. Salı o da aynı vapurdaymış; \"bütün yol yukarıdaydım\" diyor. Muammer ondan şüpheleniyor.",
-        "cayci_bilen": "Muammer Bey saati geçen salı vapurda çaycı Kadir'e gösterip \"gelecek salı Kadıköy'e satmaya götürüyorum\" demiş. Kadir'e göre bunu ondan başka yalnız ortak Selim biliyordu.",
+        "cayci_bilen": "Muammer Bey saati geçen salı vapurda çaycı Kadir'e gösterip \"gelecek salı Kadıköy'e satmaya götürüyorum\" demiş. Kadir'e göre bunu ondan başka yalnız tamircisi Selim biliyordu.",
         "cay_dalga": "Çay kazası bir tanker dalgasından: bütün salon sallandı. Kadir koltuğu silip bez almaya tezgâha döndü; çanta bir süre yalnız kaldı.",
-        "ust_tek": "Üst güvertede bütün yol tek bir adam vardı; küçük bir çocuğa simit verdi. Hem ortak Selim hem Nedim Bey \"bütün yol yukarıdaydım\" diyor.",
-        "vapur_arandi": "Vapur Kadıköy'de baştan sona arandı; çanta yoktu, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden deri çantayla inenler: Muammer Bey, ortağı Selim, Nedim Bey.",
+        "ust_tek": "Üst güvertede bütün yol tek bir adam vardı; küçük bir çocuğa simit verdi. Hem tamirci Selim hem Nedim Bey \"bütün yol yukarıdaydım\" diyor.",
+        "vapur_arandi": "Vapur Kadıköy'de baştan sona arandı; çanta yoktu, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden deri çantayla inenler: Muammer Bey, tamircisi Selim, Nedim Bey.",
         "nedim_sali": "Nedim Bey her salı Moda'daki kız kardeşine o vapurla gidiyor; bütün yol üst güvertede olduğunu söylüyor.",
         "kolek_kasada": "Nedim Bey salı sabahı dükkâna gidip saati yine sormuş; çırak \"kasada\" demiş. Nedim saatin o gün yola çıktığını bilmiyordu.",
         "canta_damga": "Kalan çantanın astarında Kadıköy çarşısındaki bir deri ustasının damgası var. Kutudaki kopya saat çarşıda 750 ₺'ye satılıyor.",
         "saat_belgesiz": "Muammer Bey saati iki ay önce bir hurdacıdan, belgesiz ve değerinin çok altında almış.",
-        "usta_uc": "Deri ustası İsmet bu çantadan üç tane yapmış: yıllar önce Muammer Bey'e, geçen ay ortağı Selim'e (\"dükkâna yedek\"), iki hafta sonra da Nedim Bey'e."
+        "usta_uc": "Deri ustası İsmet bu çantadan üç tane yapmış: yıllar önce Muammer Bey'e, geçen ay tamircisi Selim'e (\"dükkâna yedek\"), iki hafta sonra da Nedim Bey'e."
       },
       "knowledge": [
         {
@@ -4178,8 +4178,8 @@
           "ico": "◈",
           "needs": [],
           "reveals": ["cayci_bilen", "cay_dalga"],
-          "text": "Muammer Bey saati geçen salı çaycı Kadir'e gösterip \"gelecek salı satıyorum\" demiş; bunu bir de ortağı Selim biliyormuş. Çay kazası dalgadan; Kadir bez almaya gidince çanta yalnız kaldı.",
-          "meta": "Muammer Bey saati geçen salı çaycı Kadir'e gösterip \"gelecek salı satıyorum\" demiş; bunu bir de ortağı Selim biliyormuş. Çay kazası dalgadan; Kadir bez almaya gidince çanta yalnız kaldı.",
+          "text": "Muammer Bey saati geçen salı çaycı Kadir'e gösterip \"gelecek salı satıyorum\" demiş; bunu bir de tamircisi Selim biliyormuş. Çay kazası dalgadan; Kadir bez almaya gidince çanta yalnız kaldı.",
+          "meta": "Muammer Bey saati geçen salı çaycı Kadir'e gösterip \"gelecek salı satıyorum\" demiş; bunu bir de tamircisi Selim biliyormuş. Çay kazası dalgadan; Kadir bez almaya gidince çanta yalnız kaldı.",
           "sahne": {
             "arka": "A42",
             "set": "ipek",
@@ -4239,7 +4239,7 @@
               {
                 "k": "kadir",
                 "i": "normal",
-                "m": "\"Gelecek salı bunu Kadıköy'e götürüp satıyorum\" dedi. \"Ortağımdan başka kimse bilmiyor, sen de unut\" dedi."
+                "m": "\"Gelecek salı bunu Kadıköy'e götürüp satıyorum\" dedi. \"Tamircimden başka kimse bilmiyor, sen de unut\" dedi."
               },
               {"k": "cengo", "i": "kas", "m": "Sen de unuttun."},
               {"k": "kadir", "i": "gulen", "m": "Unuttum. Size söyleyene kadar.", "kime": "cengo"},
@@ -4398,7 +4398,7 @@
               {
                 "k": "gorevli",
                 "i": "normal",
-                "m": "Üç beyefendi. Muammer Bey, ortağı Selim Bey, bir de bastonlu Nedim Bey. Üçü de buranın müdavimi.",
+                "m": "Üç beyefendi. Muammer Bey, tamircisi Selim Bey, bir de bastonlu Nedim Bey. Üçü de buranın müdavimi.",
                 "kime": "peri"
               },
               {
@@ -4501,8 +4501,8 @@
           "ico": "◈",
           "needs": ["canta_damga"],
           "reveals": ["usta_uc"],
-          "text": "Usta bu çantadan üç tane yapmış: Muammer Bey'e, ortağı Selim'e, bir de Nedim Bey'e.",
-          "meta": "Usta bu çantadan üç tane yapmış: Muammer Bey'e, ortağı Selim'e, bir de Nedim Bey'e.",
+          "text": "Usta bu çantadan üç tane yapmış: Muammer Bey'e, tamircisi Selim'e, bir de Nedim Bey'e.",
+          "meta": "Usta bu çantadan üç tane yapmış: Muammer Bey'e, tamircisi Selim'e, bir de Nedim Bey'e.",
           "sahne": {
             "arka": "A40",
             "set": "ipek",
@@ -4539,7 +4539,7 @@
               {
                 "k": "ismet",
                 "i": "normal",
-                "m": "Geçen ay ortağı Selim Bey geldi, \"dükkâna yedek\" dedi, aynısından istedi."
+                "m": "Geçen ay tamircisi Selim Bey geldi, \"dükkâna yedek\" dedi, aynısından istedi."
               },
               {
                 "k": "ismet",
@@ -4681,8 +4681,8 @@
           "cengoBag": 1,
           "para": 5000,
           "etiket": "Muammer'e gerçeği söyle",
-          "onizleme": "Saat Muammer'e döner; Selim'in yaptığını öğrenir, otuz yıllık ortaklık biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.",
-          "sonuc": "Saati Muammer'e verdin, Selim'in yaptığını anlattın. Otuz yıllık ortaklık bir akşamda bitti; Selim tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.",
+          "onizleme": "Saat Muammer'e döner; Selim'in yaptığını öğrenir, Selim'in otuz yılı biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.",
+          "sonuc": "Saati Muammer'e verdin, Selim'in yaptığını anlattın. Selim'in otuz yılı bir akşamda bitti; tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -4697,8 +4697,8 @@
           "cengoBag": -2,
           "para": 20000,
           "etiket": "\"Vapurda bulduk\" de, Selim'i koru",
-          "onizleme": "Selim'in adı geçmez, ortaklık sürer. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.",
-          "sonuc": "Saati Muammer'e \"vapurun bir köşesinde bulduk\" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ortaklar ertesi gün yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.",
+          "onizleme": "Selim'in adı geçmez, Selim işinde kalır. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.",
+          "sonuc": "Saati Muammer'e \"vapurun bir köşesinde bulduk\" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -4714,7 +4714,7 @@
           "para": -10000,
           "etiket": "Saatin gerçek sahibini bul",
           "onizleme": "Kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.",
-          "sonuc": "Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'le ortaklığı da bitti.",
+          "sonuc": "Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'i de dükkândan çıkardı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -4769,7 +4769,7 @@
           }
         },
         "hikaye": [
-          "Muammer Bey iki ay önce alaturka rakamlı, çalar bir cep saatini bir hurdacıdan belgesiz ve çok ucuza aldı; sormadı. Saati Kadıköy'deki bir alıcıya dört yüz bine satmaya karar verdi. Bu yıl dükkânı oğluna devredip otuz yıllık ortağı Selim'i ortaklıktan çıkaracağını da söyledi.",
+          "Muammer Bey iki ay önce alaturka rakamlı, çalar bir cep saatini bir hurdacıdan belgesiz ve çok ucuza aldı; sormadı. Saati Kadıköy'deki bir alıcıya dört yüz bine satmaya karar verdi. Bu yıl dükkânı oğluna devredip otuz yıllık tamircisi Selim'e yol vereceğini de söyledi.",
           "Selim geçen ay Kadıköy'deki deri ustası İsmet'e \"dükkâna yedek\" diye Muammer'in çantasının ikizini yaptırdı; çarşıdan da yedi yüz elli liraya bir kopya saat aldı. Nedim Bey de çantayı dükkânda görüp beğenmiş, ustadan bir tane ısmarlamıştı; bu bir tesadüftü.",
           "Geçen salı Muammer saati vapurda çaycı Kadir'e gösterip \"gelecek salı satıyorum\" dedi. Salı sabahı Nedim dükkâna uğrayıp saati yine sordu; çırak \"kasada\" dedi. Nedim saatin o gün yola çıktığını bilmiyordu.",
           "Salı ikide Muammer'le Selim vapura bindi. Selim \"deniz tutar\" deyip merdivene yürüdü ama yukarı çıkmadı; alt salonun arkasında, direğin dibine oturdu. Üst güvertede bütün yol yalnız Nedim vardı; küçük Efe'ye simit verdi, martıları beraber beslediler.",
@@ -4791,7 +4791,7 @@
         }
       },
       "anahtarlar": {
-        "cayci_bilen": ["gelecek salı", "ortağımdan başka"],
+        "cayci_bilen": ["gelecek salı", "tamircimden başka"],
         "cay_dalga": ["tanker", "bez almaya"],
         "ust_tek": ["tek bir amca", "tek bir adam", "bir tek amca"],
         "vapur_arandi": ["arandı", "aradık", "inmez"],
@@ -4896,13 +4896,13 @@
             {
               "k": "muammer",
               "i": "normal",
-              "m": "Ortağım Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı.",
+              "m": "Tamircim Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı.",
               "kime": "peri"
             },
             {
               "k": "muammer",
               "i": "normal",
-              "m": "Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır ortağımdır; dükkânın tamircisi odur."
+              "m": "Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır yanımda çalışır; dükkânın tamircisi odur."
             },
             {
               "k": "muammer",

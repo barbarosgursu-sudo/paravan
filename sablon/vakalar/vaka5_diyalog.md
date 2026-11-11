@@ -46,8 +46,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MUAMMER [normal]:** Bir de Nedim Bey var. Koleksiyoncu. Bu saati benden iki kez istedi; ikisinde de satmadım. {kime: cengo}
 **MUAMMER [ofkeli]:** Salı o da aynı vapurdaymış. Kadıköy'de iskelede karşılaştık; "bütün yol yukarıdaydım" dedi. Tesadüf mü?
 **PERİ [merakli]:** Vapurda tanıdığınız başka kim vardı?
-**MUAMMER [normal]:** Ortağım Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı. {kime: peri}
-**MUAMMER [normal]:** Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır ortağımdır; dükkânın tamircisi odur.
+**MUAMMER [normal]:** Tamircim Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı. {kime: peri}
+**MUAMMER [normal]:** Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır yanımda çalışır; dükkânın tamircisi odur.
 **MUAMMER [normal]:** Bir şey daha: saat çalar. Her gün öğleden sonra üçte. Alıcıya göstermek için ben kurmuştum.
 **MUAMMER [dertli]:** Polise gidemem; satışı sessiz yapıyordum. Saat geri gelsin, kimse de duymasın. Bütün istediğim bu.
 *Peri kalkıp pencereyi açıyor; içeri iskelenin rüzgârı doluyor. Hırkasını çıkarıp sandalyenin arkasına asıyor: altında askılı, zümrüt yeşili ince ipek bir elbise.* {kare: K79, set: ipek_acik}
@@ -92,7 +92,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **KADİR [normal]:** Koltuğu sildim, sonra bez almaya tezgâha döndüm. Çanta bir süre koltukta yalnız kaldı, doğru.
 **PERİ [merakli]:** Muammer Bey'i daha önce tanıyor muydunuz? {gir: kadir}
 **KADİR [normal]:** Her salı bu vapurdadır. Geçen salı saati çıkarıp bana gösterdi; ince işçilik, alaturka rakamlar. {kime: peri}
-**KADİR [normal]:** "Gelecek salı bunu Kadıköy'e götürüp satıyorum" dedi. "Ortağımdan başka kimse bilmiyor, sen de unut" dedi.
+**KADİR [normal]:** "Gelecek salı bunu Kadıköy'e götürüp satıyorum" dedi. "Tamircimden başka kimse bilmiyor, sen de unut" dedi.
 **CENGO [kas]:** Sen de unuttun.
 **KADİR [gulen]:** Unuttum. Size söyleyene kadar. {kime: cengo}
 *Başında simit tablasıyla genç bir simitçi tezgâhın yanından geçiyor.* {gir: simitci, gi: normal}
@@ -139,7 +139,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Çaycı Kadir de inmiş olabilir mi?
 **GÖREVLİ [normal]:** Kadir mi? Kadir akşama kadar vapurdan inmez. Orada yaşar o. {kime: cengo}
 **PERİ [merakli]:** O seferden çantayla inen birini hatırlıyor musunuz? {gir: gorevli}
-**GÖREVLİ [normal]:** Üç beyefendi. Muammer Bey, ortağı Selim Bey, bir de bastonlu Nedim Bey. Üçü de buranın müdavimi. {kime: peri}
+**GÖREVLİ [normal]:** Üç beyefendi. Muammer Bey, tamircisi Selim Bey, bir de bastonlu Nedim Bey. Üçü de buranın müdavimi. {kime: peri}
 **GÖREVLİ [normal]:** Üçünün de elinde kahverengi bir deri çanta vardı. Kimin hangisi, bilemem.
 **CENGO [gulen]:** Defterine çantaları da yazsaydın.
 **GÖREVLİ [normal]:** Ben vapur yazarım, çanta yazmam. {kime: cengo}
@@ -179,7 +179,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **İSMET [normal]:** *(damgaya bakıp)* Benim işim. İsmet. Elli yıldır bu damgayı vururum. {kime: peri}
 **CENGO [kas]:** Bu çantadan kaç tane yaptın, usta?
 **İSMET [normal]:** Bu modelden mi? Üç tane. İlkini yıllar önce Muammer Bey'e yaptım. {kime: cengo}
-**İSMET [normal]:** Geçen ay ortağı Selim Bey geldi, "dükkâna yedek" dedi, aynısından istedi.
+**İSMET [normal]:** Geçen ay tamircisi Selim Bey geldi, "dükkâna yedek" dedi, aynısından istedi.
 **İSMET [normal]:** İki hafta sonra Nedim Bey geldi. Muammer'in dükkânında görmüş, beğenmiş. Ona da yaptım.
 **PERİ [merakli]:** Üçü de tıpatıp aynı mı? {gir: ismet}
 **İSMET [normal]:** Benim elimden çıkan her şey tıpatıp aynıdır, hanımefendi. {kime: peri}
@@ -348,12 +348,12 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## ani
 ⚙ Anı defterinde vakanın hatırlatması. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği. 2–3 cümle.
 
-**ANI:** Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık ortağı Selim almıştı: Muammer onu dükkândan çıkaracaktı, Selim otuz yılının karşılığını o saatte gördü.
+**ANI:** Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü.
 
 ## hikaye
 ⚙ "Dosyanın tamamı" ekranı: kaçan ipuçlarından en az birini reklamla izleyen oyuncuya vaka kapanınca bir kez gösterilir. Gerçekte ne oldu, olay sırasıyla; masumlar neredeydi.
 
-**HİKÂYE:** Muammer Bey iki ay önce alaturka rakamlı, çalar bir cep saatini bir hurdacıdan belgesiz ve çok ucuza aldı; sormadı. Saati Kadıköy'deki bir alıcıya dört yüz bine satmaya karar verdi. Bu yıl dükkânı oğluna devredip otuz yıllık ortağı Selim'i ortaklıktan çıkaracağını da söyledi.
+**HİKÂYE:** Muammer Bey iki ay önce alaturka rakamlı, çalar bir cep saatini bir hurdacıdan belgesiz ve çok ucuza aldı; sormadı. Saati Kadıköy'deki bir alıcıya dört yüz bine satmaya karar verdi. Bu yıl dükkânı oğluna devredip otuz yıllık tamircisi Selim'e yol vereceğini de söyledi.
 **HİKÂYE:** Selim geçen ay Kadıköy'deki deri ustası İsmet'e "dükkâna yedek" diye Muammer'in çantasının ikizini yaptırdı; çarşıdan da yedi yüz elli liraya bir kopya saat aldı. Nedim Bey de çantayı dükkânda görüp beğenmiş, ustadan bir tane ısmarlamıştı; bu bir tesadüftü.
 **HİKÂYE:** Geçen salı Muammer saati vapurda çaycı Kadir'e gösterip "gelecek salı satıyorum" dedi. Salı sabahı Nedim dükkâna uğrayıp saati yine sordu; çırak "kasada" dedi. Nedim saatin o gün yola çıktığını bilmiyordu.
 **HİKÂYE:** Salı ikide Muammer'le Selim vapura bindi. Selim "deniz tutar" deyip merdivene yürüdü ama yukarı çıkmadı; alt salonun arkasında, direğin dibine oturdu. Üst güvertede bütün yol yalnız Nedim vardı; küçük Efe'ye simit verdi, martıları beraber beslediler.
@@ -362,16 +362,16 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar muammere_soyle
 ⚙ etiket: Muammer'e gerçeği söyle
 
-**ÖNİZLEME:** Saat Muammer'e döner; Selim'in yaptığını öğrenir, otuz yıllık ortaklık biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.
-**SONUÇ:** Saati Muammer'e verdin, Selim'in yaptığını anlattın. Otuz yıllık ortaklık bir akşamda bitti; Selim tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.
+**ÖNİZLEME:** Saat Muammer'e döner; Selim'in yaptığını öğrenir, Selim'in otuz yılı biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.
+**SONUÇ:** Saati Muammer'e verdin, Selim'in yaptığını anlattın. Selim'in otuz yılı bir akşamda bitti; tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.
 **CENGO:** Cengo dükkânın önünden geçerken vitrine baktı. "Otuz yıl. Bir saat için" dedi.
 **DEFTER:** Muammer saatini aldı, Selim'i kaybetti.
 
 ## karar vapurda_bulduk
 ⚙ etiket: "Vapurda bulduk" de, Selim'i koru
 
-**ÖNİZLEME:** Selim'in adı geçmez, ortaklık sürer. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.
-**SONUÇ:** Saati Muammer'e "vapurun bir köşesinde bulduk" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ortaklar ertesi gün yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.
+**ÖNİZLEME:** Selim'in adı geçmez, Selim işinde kalır. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.
+**SONUÇ:** Saati Muammer'e "vapurun bir köşesinde bulduk" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.
 **CENGO:** Cengo parayı saydı. "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy" dedi.
 **DEFTER:** Saat bulundu. Nasıl bulunduğunu bir ben biliyorum.
 
@@ -379,7 +379,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ etiket: Saatin gerçek sahibini bul
 
 **ÖNİZLEME:** Kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.
-**SONUÇ:** Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'le ortaklığı da bitti.
+**SONUÇ:** Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı.
 **CENGO:** Cengo, Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzattı. "Al. Bu vakadan kazandığımız bu" dedi.
 **DEFTER:** Saat sahibine döndü. Kasaya az para girdi.
 
