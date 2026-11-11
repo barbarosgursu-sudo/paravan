@@ -8,7 +8,39 @@
 
 ---
 
-## 000000000000000000000000. ⬅️ 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+## 0000000000000000000000000. ⬅️ 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+
+Ortak Vaka 5'i okuyup düzeltmeleri satır satır veriyor; her parti işlenip doğrulayıcı + iki derleme + testlerle gönderildi.
+Hikâye henüz donmadı (Onay 2 bitmedi).
+
+- **Selim artık ortak değil, Muammer'in otuz yıllık tamircisi** (513446b; ortağın kararı: "hem tamirci hem ortak absürt").
+  Sebep: Muammer dükkânı oğluna devredip Selim'e **yol verecekti**. Diyalog, form, olgu/ipucu metinleri, künye, karar
+  metinleri ve `anahtarlar` (`cayci_bilen`: "tamircimden başka") birlikte değişti. İpucu yapısı, kanıt çiftleri, `kim_yapti` aynı.
+- **Metin düzeltmeleri** (7d2edd6):
+  - Girişte Peri "Polise gittiniz mi?" diye sorar; Muammer'in "Polise gidemem…" satırı buna cevap olur.
+  - Cengo'nun "vapura bineceğiz" satırı "Boğaz gezintisi + simit" diye uzadı.
+  - Simitçi: "Karada otuz, denizde otuz beş, Moda'da yüz otuz beş."
+  - Görevlinin boynunda **düdük** var (ıslık değil).
+  - Görevli: "karaya yürüyüşe çıkmış". Peri "benzer bir çantayla inen" birini sorar.
+  - Cengo ile görevlinin defter şakası yenilendi.
+  - Derya'ya "rüzgârlı günlerde güverte boş kalır" satırı eklendi.
+  - Nedim'in iltifatı: "ipek size antika bir saat kadar yakışmış".
+- **Susam → yosun:** kovalamacada dalga Peri'nin üstüne **deniz yosunu** bırakır; martılar yosunlara saldırır.
+  - Peri'nin "Beni deniz tutmuyor. Deniz bana saldırıyor!" sözü dalga anından K86'ya (martı saldırısı) taşındı.
+  - Kapanış: "Martılar yosunları sevdi". Peri'nin saçında yosun.
+  - `islak` set tarifi, K84/K86 görsel tarifi (`gorseller.json` yer tutucu metni dahil) ve form da yosuna çevrildi.
+  - **Adım 8'de istem yazarken: susam değil yosun.**
+- **Selim'in itirafı:**
+  - "'Deniz tutar, yukarı çıkacağım' dedim; çıkmadım. Bir direğin dibinde fırsat kolladım."
+  - "Dükkânın bütün saatlerini ben kurarım; Muammer bunu bana sormadan kurmuş, çalacağından haberim yoktu. Çantadayken sesini de duymamışım."
+  - Form da buna göre (§zaman çizelgesi notu ve itiraf).
+- Kontroller: doğrulayıcı PASS (bilinen K8 uyarısı), derlemeler, testler geçti. **Tur ve sızıntı taraması bu düzeltmelerden
+  sonra yeniden koşulmadı** (yalnız metin; yeni olgu yok). Onay 2 bitince ikisi de koşulacak.
+- **Satır numarası:** ortak artık `sablon/vakalar/vaka5_diyalog.md` dosyasının **satır numarasını** kullanıyor (aşağıdaki
+  "sahne içi numara" notu eskidi). 4 satır eklendiği için numaralar 51'den sonra kaydı.
+- **Saat:** 3 ara yazıldı (`vaka5_baslangic.md`); saat 19:52'den beri işliyor.
+
+## 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 - **araç: Vaka 5 eklendi** — `arac_yeni_tur.js` yolları: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`
   (Vaka 1–4 önce hızlı oynanır). Barbaros'un genel iznine göre; aracın işleyişi değişmedi.
