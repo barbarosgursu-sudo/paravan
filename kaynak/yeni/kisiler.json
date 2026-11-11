@@ -347,6 +347,68 @@
       "portre": "portre_sebnem",
       "tanisma": "tarik_odedi",
       "katmanlar": [{"kosul": "tarik_odedi", "tanim": "Dizi oyuncusu, yemek programı sunuyor. Ona da şantaj mesajı gelmiş."}]
+    },
+    {
+      "id": "muammer",
+      "ad": "Muammer Bey",
+      "portre": "portre_muammer",
+      "tanisma": "saat_degisti",
+      "katmanlar": [
+        {"kosul": "saat_degisti", "tanim": "Çukurcuma'da antikacı. Çalar cep saati vapurda çalındı; bulmamızı istiyor."},
+        {
+          "kosul": "saat_belgesiz",
+          "tanim": "Çukurcuma'da antikacı. Çalar cep saati vapurda çalındı; bulmamızı istiyor. Saati bir hurdacıdan belgesiz ve ucuza almış."
+        }
+      ]
+    },
+    {
+      "id": "kadir",
+      "ad": "Kadir",
+      "portre": "portre_kadir",
+      "tanisma": "kadir_dokdu",
+      "katmanlar": [
+        {"kosul": "kadir_dokdu", "tanim": "Vapurun çaycısı. Çayı Muammer Bey'e o döktü; Muammer ondan şüpheleniyor."},
+        {
+          "kosul": "cayci_bilen",
+          "tanim": "Vapurun çaycısı. Çayı Muammer Bey'e o döktü; Muammer ondan şüpheleniyor. Saatin salı satılacağını önceden biliyordu."
+        }
+      ]
+    },
+    {
+      "id": "nedim",
+      "ad": "Nedim Bey",
+      "portre": "portre_nedim",
+      "tanisma": "nedim_istedi",
+      "katmanlar": [
+        {
+          "kosul": "nedim_istedi",
+          "tanim": "Koleksiyoncu. Saati iki kez istemiş; salı aynı vapurdaymış. Muammer ondan şüpheleniyor."
+        },
+        {
+          "kosul": "kolek_kasada",
+          "tanim": "Koleksiyoncu. Saati iki kez istemiş; salı aynı vapurdaymış. Muammer ondan şüpheleniyor. Saatin o gün yolda olduğunu bilmiyordu."
+        }
+      ]
+    },
+    {
+      "id": "selim",
+      "ad": "Selim",
+      "portre": "portre_selim",
+      "tanisma": "saat_degisti",
+      "katmanlar": [
+        {"kosul": "saat_degisti", "tanim": "Muammer Bey'in ortağı, dükkânın tamircisi. O da vapurdaymış."},
+        {
+          "kosul": "usta_uc",
+          "tanim": "Muammer Bey'in ortağı, dükkânın tamircisi. O da vapurdaymış. Geçen ay ustaya aynı çantadan yaptırmış."
+        }
+      ]
+    },
+    {
+      "id": "ismet",
+      "ad": "İsmet Usta",
+      "portre": "portre_ismet",
+      "tanisma": "usta_uc",
+      "katmanlar": [{"kosul": "usta_uc", "tanim": "Kadıköy çarşısında deri ustası. Muammer Bey'in çantasını o yapmış."}]
     }
   ],
   "defter": {
@@ -373,6 +435,12 @@
       "uzaklastir": "Sadık gitti, Feraye kaldı. Kimse bir şey öğrenmedi.",
       "dosya_sakla": "Cihangir'in sırları çekmecemde.",
       "gercegi_soyle": "Kurbanlar gerçeği benden duydu. Feraye artık fal bakmıyor."
+    },
+    "V5": {
+      "muammere_soyle": "Muammer saatini aldı, Selim'i kaybetti.",
+      "vapurda_bulduk": "Saat bulundu. Nasıl bulunduğunu bir ben biliyorum.",
+      "gercek_sahip": "Saat sahibine döndü. Kasaya az para girdi.",
+      "polise_teslim": "Selim polise teslim edildi. Saat emanette."
     }
   },
   "ani_ozet": {
@@ -380,6 +448,7 @@
     "V1": "Rıza Reis'in kırk yıllık teknesi Nazlı, Karaköy iskelesinden kayboldu. Oğlu Serkan almıştı: yedek anahtar ondaydı, cuma borcu vardı. Tekneyi bir dizi setine kiralamış, cumartesi geri getirecekti.",
     "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.",
     "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı.",
-    "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi."
+    "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi.",
+    "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık ortağı Selim almıştı: Muammer onu dükkândan çıkaracaktı, Selim otuz yılının karşılığını o saatte gördü."
   }
 }

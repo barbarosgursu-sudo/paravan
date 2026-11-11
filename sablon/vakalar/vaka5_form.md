@@ -109,7 +109,7 @@ susturmayı bilmez.
 | cay_dalga | Çay kazası bir tanker dalgasından: bütün salon sallandı. Kadir koltuğu silip bez almaya tezgâha döndü; çanta bir süre yalnız kaldı. | A |
 | ust_tek | Üst güvertede bütün yol tek bir adam vardı; çocuğa simit verdi. Selim de Nedim Bey de "üst güvertedeydim" diyor. | B |
 | vapur_arandi | Vapur Kadıköy'de baştan sona arandı; çanta yok, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden çantayla inenler: Muammer Bey, ortağı Selim, Nedim Bey. | C |
-| kolek_istedi | Nedim Bey saati iki kez istemiş; Muammer satmamış. Salı vapuru tesadüf diyor: her salı Moda'daki kız kardeşine gidiyor. | D |
+| nedim_sali | Nedim Bey her salı Moda'daki kız kardeşine o vapurla gidiyor; bütün yol üst güvertede olduğunu söylüyor. | D |
 | kolek_kasada | Nedim Bey salı sabahı dükkâna gelip saati yine sormuş; çırak "kasada" demiş. Saatin o gün yola çıktığını bilmiyordu. | D |
 | canta_damga | Kalan çanta Muammer Bey'inkinin tıpatıp aynısı; içinde Kadıköy'deki deri ustası İsmet'in damgası. Kutudaki kopya saat çarşıda 750 ₺. | F |
 | saat_belgesiz | Muammer Bey saati iki ay önce bir hurdacıdan, belgesiz ve çok ucuza almış. | F |
@@ -122,7 +122,7 @@ susturmayı bilmez.
 | A | Çaycı Kadir | vapurun alt salonu, çay tezgâhı | koşulsuz | cayci_bilen, cay_dalga | Cengo (tanıdık) |
 | B | Martı besleyen çocuk | vapurun üst güvertesi; Efe ve annesi Derya Hanım | koşulsuz | ust_tek | Cengo (çocuklar ona açılır) |
 | C | İskele görevlisi | Kadıköy iskelesi | koşulsuz | vapur_arandi | Peri (kural, kibarlık) |
-| D | Nedim Bey | Moda'daki evi, koleksiyon odası | koşulsuz (girişte anılır) | kolek_istedi, kolek_kasada | Peri (yalanı okur) |
+| D | Nedim Bey | Moda'daki evi, koleksiyon odası | koşulsuz (girişte anılır) | nedim_sali, kolek_kasada | Peri (yalanı okur) |
 | E | Deri ustası İsmet | Kadıköy çarşısında atölye | `canta_damga` | usta_uc | Cengo (pazarlık) |
 | F | Muammer'in dükkânı | Çukurcuma, dükkân ve kalan çanta | koşulsuz | canta_damga, saat_belgesiz | Peri (gözlem + Muammer'in yalanı) |
 
@@ -169,7 +169,7 @@ ikiz çanta yalnız Selim'de ve Nedim'de (E). Bilgi tarafı {Selim, Kadir}: saat
 - {Selim, Nedim}: ust_tek (B), vapur_arandi (C), usta_uc (E)
 - Çiftler (6): cayci_bilen / kolek_kasada × ust_tek / vapur_arandi / usta_uc
 
-**Zayıf kanıtlar:** her çiftin tek yarısı; ayrıca cay_dalga, kolek_istedi, canta_damga, saat_belgesiz.
+**Zayıf kanıtlar:** her çiftin tek yarısı; ayrıca cay_dalga, nedim_sali, canta_damga, saat_belgesiz.
 
 **6/3'ün sonucu:** E, F olmadan açılmaz. Oynanabilen **14** üçlünün **10'unda** doğru çift var (V4 ile aynı). Çözmeyen
 dördü: {B,C,F}, {A,D,F}, {B,E,F}, {C,E,F}. Selim her ipucunda anılır (A, B, C, D, E, F'nin her biri).
@@ -181,7 +181,7 @@ dördü: {B,C,F}, {A,D,F}, {B,E,F}, {C,E,F}. Selim her ipucunda anılır (A, B, 
 | ust_tek + vapur_arandi | Çanta karaya çıktı; "üst güvertedeydim" diyenlerden biri yalan söylüyor. |
 | canta_damga + usta_uc | İkiz çanta bir ay önce ısmarlanmış: iş planlıymış. |
 | cayci_bilen + cay_dalga | Çay kazası dalgadan, ama çanta beş dakika yalnız kaldı. |
-| kolek_istedi + kolek_kasada | Nedim Bey saati istiyordu, ama o gün yolda olduğunu bilmiyordu. |
+| nedim_sali + kolek_kasada | Nedim Bey saati istiyordu, ama o gün yolda olduğunu bilmiyordu. |
 | cayci_bilen + kolek_kasada | Saatin salı yola çıkacağını herkes bilmiyordu. |
 
 ## 9. "Aha!" anı

@@ -63,7 +63,11 @@
             "kase": ["normal", "kas", "merakli", "utanmis", "sinirli", "fincan"],
             "kase_acik": ["normal", "kas", "merakli"],
             "telveli": ["sinirli", "kas"],
-            "salli": ["kas", "sasirmis", "kiskanc"]
+            "salli": ["kas", "sasirmis", "kiskanc"],
+            "ipek": ["normal", "kas", "merakli", "utanmis", "yesil"],
+            "ipek_acik": ["normal", "kas"],
+            "islak": ["sinirli", "kas"],
+            "battaniye": ["normal", "kas"]
           }
         },
         "cengo": {
@@ -73,7 +77,9 @@
             "haki": ["normal", "kas", "gulen", "yumusak"],
             "unlu": ["normal", "kas", "gulen", "yumusak"],
             "deri": ["normal", "kas", "gulen", "yumusak"],
-            "salli": ["kas", "gulen"]
+            "salli": ["kas", "gulen"],
+            "balikci": ["normal", "kas", "gulen"],
+            "simitli": ["kas", "normal", "gulen", "yumusak"]
           }
         },
         "hilmi": {"ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"]},
@@ -120,7 +126,16 @@
         "tarik": {"ad": "Tarık", "ifadeler": ["ofkeli", "normal", "utanmis"]},
         "rana": {"ad": "Rana", "ifadeler": ["normal", "alayci"]},
         "zerrin": {"ad": "Zerrin", "ifadeler": ["normal"]},
-        "sebnem": {"ad": "Şebnem", "ifadeler": ["gergin", "normal"]}
+        "sebnem": {"ad": "Şebnem", "ifadeler": ["gergin", "normal"]},
+        "muammer": {"ad": "Muammer", "ifadeler": ["normal", "dertli", "ofkeli", "kacamak"]},
+        "selim": {"ad": "Selim", "ifadeler": ["normal", "gergin", "itiraf"]},
+        "kadir": {"ad": "Kadir", "ifadeler": ["normal", "alinmis", "gulen"]},
+        "nedim": {"ad": "Nedim", "ifadeler": ["normal", "alayci"]},
+        "derya": {"ad": "Derya", "ifadeler": ["normal"]},
+        "efe": {"ad": "Efe", "ifadeler": ["gulen", "normal"]},
+        "gorevli": {"ad": "Görevli", "ifadeler": ["normal"]},
+        "ismet": {"ad": "İsmet Usta", "ifadeler": ["normal"]},
+        "simitci": {"ad": "Simitçi", "ifadeler": ["normal", "ofkeli"]}
       },
       "sesler": {
         "ses": "Ses",
@@ -177,7 +192,14 @@
         "A32",
         "A33",
         "A34",
-        "A35"
+        "A35",
+        "A36",
+        "A37",
+        "A38",
+        "A39",
+        "A40",
+        "A41",
+        "A42"
       ],
       "kareler": [
         "D1",
@@ -275,7 +297,28 @@
         "K75",
         "K76",
         "K77",
-        "K78"
+        "K78",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "K79",
+        "K80",
+        "K81",
+        "K82",
+        "K83",
+        "K84",
+        "K85",
+        "K86",
+        "K87",
+        "K88",
+        "K89",
+        "K90",
+        "K91",
+        "K92",
+        "K93",
+        "K94",
+        "K95"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -4058,6 +4101,1198 @@
             {"k": "cengo", "i": "gulen", "m": "Biliyorum.", "bag": "yuksek"},
             {"k": "not", "m": "Cengo fincanı açmıyor; Peri de açmasını istemiyor.", "bag": "yuksek", "kare": "K74"},
             {"k": "gizem", "i": "kirmizi", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "V5",
+      "tur": "omurga",
+      "sira": 5,
+      "belirir": null,
+      "baslik": "Vapur",
+      "arastirma": 3,
+      "ucret": 40000,
+      "giris_gorsel": "MASA_V5",
+      "setler": {"peri": "ipek", "cengo": "balikci"},
+      "truth": {
+        "ne_oldu": "Antikacı Muammer Bey'in çalar cep saati salı 14.00 Karaköy–Kadıköy vapurunda, o lavabodayken çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık ortağı Selim aldı: ikiz çantayı ustaya yaptırdı, kopya saati çarşıdan aldı; \"deniz tutar\" deyip üst güverteye çıkmadı, alt salonun arkasında bekledi.",
+        "neden": "Muammer dükkânı oğluna devredip Selim'i ortaklıktan çıkaracaktı. Selim otuz yılının karşılığını saatte gördü.",
+        "saat": "Muammer saati iki ay önce bir hurdacıdan belgesiz, çok ucuza aldı. Saat geçen kış Kuzguncuk'ta soyulan bir evden (Nermin Hanım, \"N.'ye, 1964\").",
+        "kadir": "Çay kazası tanker dalgasından. Kadir koltuğu silip tezgâha döndü; vapurdan hiç inmez.",
+        "nedim": "Nedim saati istiyordu ama o gün yola çıktığını bilmiyordu; bütün yol üst güvertede tek başınaydı, Efe'ye simit verdi."
+      },
+      "facts": {
+        "saat_degisti": "Muammer Bey'in çalar cep saati salı Karaköy–Kadıköy vapurunda çalındı: o lavabodayken çantası tıpatıp aynısıyla değişmiş, kutuya ucuz bir kopya konmuş.",
+        "kadir_dokdu": "Muammer Bey çaycı Kadir'den şüpheleniyor: çayı o döktü; Muammer lavaboya giderken koltuğu silmeye eğiliyordu.",
+        "nedim_istedi": "Koleksiyoncu Nedim Bey saati iki kez istemiş, Muammer satmamış. Salı o da aynı vapurdaymış; \"bütün yol yukarıdaydım\" diyor. Muammer ondan şüpheleniyor.",
+        "cayci_bilen": "Muammer Bey saati geçen salı vapurda çaycı Kadir'e gösterip \"gelecek salı Kadıköy'e satmaya götürüyorum\" demiş. Kadir'e göre bunu ondan başka yalnız ortak Selim biliyordu.",
+        "cay_dalga": "Çay kazası bir tanker dalgasından: bütün salon sallandı. Kadir koltuğu silip bez almaya tezgâha döndü; çanta bir süre yalnız kaldı.",
+        "ust_tek": "Üst güvertede bütün yol tek bir adam vardı; küçük bir çocuğa simit verdi. Hem ortak Selim hem Nedim Bey \"bütün yol yukarıdaydım\" diyor.",
+        "vapur_arandi": "Vapur Kadıköy'de baştan sona arandı; çanta yoktu, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden deri çantayla inenler: Muammer Bey, ortağı Selim, Nedim Bey.",
+        "nedim_sali": "Nedim Bey her salı Moda'daki kız kardeşine o vapurla gidiyor; bütün yol üst güvertede olduğunu söylüyor.",
+        "kolek_kasada": "Nedim Bey salı sabahı dükkâna gidip saati yine sormuş; çırak \"kasada\" demiş. Nedim saatin o gün yola çıktığını bilmiyordu.",
+        "canta_damga": "Kalan çantanın astarında Kadıköy çarşısındaki bir deri ustasının damgası var. Kutudaki kopya saat çarşıda 750 ₺'ye satılıyor.",
+        "saat_belgesiz": "Muammer Bey saati iki ay önce bir hurdacıdan, belgesiz ve değerinin çok altında almış.",
+        "usta_uc": "Deri ustası İsmet bu çantadan üç tane yapmış: yıllar önce Muammer Bey'e, geçen ay ortağı Selim'e (\"dükkâna yedek\"), iki hafta sonra da Nedim Bey'e."
+      },
+      "knowledge": [
+        {
+          "turetilen": "biri_yalanci",
+          "baslik": "Çanta karaya çıktı; \"yukarıdaydım\" diyenlerden biri yalan söylüyor.",
+          "ifade": {"all": ["ust_tek", "vapur_arandi"]}
+        },
+        {
+          "turetilen": "planli_is",
+          "baslik": "İkiz çanta önceden ısmarlanmış: iş planlıymış.",
+          "ifade": {"all": ["canta_damga", "usta_uc"]}
+        },
+        {
+          "turetilen": "bes_dakika",
+          "baslik": "Çay kazası dalgadan, ama çanta beş dakika yalnız kaldı.",
+          "ifade": {"all": ["cayci_bilen", "cay_dalga"]}
+        },
+        {
+          "turetilen": "nedim_bilmiyordu",
+          "baslik": "Nedim Bey her salı o vapurda, ama o gün saatin yolda olduğunu bilmiyordu.",
+          "ifade": {"all": ["nedim_sali", "kolek_kasada"]}
+        },
+        {
+          "turetilen": "az_kisi_biliyordu",
+          "baslik": "Saatin salı yola çıkacağını herkes bilmiyordu.",
+          "ifade": {"all": ["cayci_bilen", "kolek_kasada"]}
+        }
+      ],
+      "giris": [
+        {
+          "kosul": "varsayilan",
+          "metin": "Antikacı Muammer Bey'in değerli çalar cep saati Kadıköy vapurunda, o lavabodayken çantası ikiziyle değiştirilerek çalındı. Çayı döken çaycı Kadir'den ve saati iki kez isteyen koleksiyoncu Nedim Bey'den şüpheleniyor. Ücret kırk bin, saat bulununca.",
+          "acilan": ["saat_degisti", "kadir_dokdu", "nedim_istedi"]
+        }
+      ],
+      "clues": [
+        {
+          "id": "vapur_cayci",
+          "ad": "Çaycı Kadir",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["cayci_bilen", "cay_dalga"],
+          "text": "Muammer Bey saati geçen salı çaycı Kadir'e gösterip \"gelecek salı satıyorum\" demiş; bunu bir de ortağı Selim biliyormuş. Çay kazası dalgadan; Kadir bez almaya gidince çanta yalnız kaldı.",
+          "meta": "Muammer Bey saati geçen salı çaycı Kadir'e gösterip \"gelecek salı satıyorum\" demiş; bunu bir de ortağı Selim biliyormuş. Çay kazası dalgadan; Kadir bez almaya gidince çanta yalnız kaldı.",
+          "sahne": {
+            "arka": "A42",
+            "set": "ipek",
+            "cset": "balikci",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Karaköy iskelesi. Bir vapur yanaşmış; martılar bacanın çevresinde dönüyor.",
+                "arka": "A42",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Vapurun alt salonu: sıra sıra ahşap koltuklar, ortada bir direk, köşede çay tezgâhı. Peri bir direğe tutunmuş, yüzü yeşile çalıyor.",
+                "arka": "A36",
+                "mekan": true,
+                "peri": "yesil"
+              },
+              {
+                "k": "not",
+                "m": "Tezgâhta tombul, kalın bıyıklı, beyaz ceketli bir çaycı; elinde ince belli bardaklarla dolu bir tepsi.",
+                "gir": "kadir",
+                "gi": "normal"
+              },
+              {
+                "k": "kadir",
+                "i": "normal",
+                "m": "Cengo! Gel bakalım, çayın hazır. Hanımefendiye de bir tane mi?",
+                "gir": "kadir",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "yesil", "m": "Bana çay değil, kara lazım."},
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Kadir, salı günkü çay kazasını soracağız. Muammer Bey'in üstüne döktüğün çay."
+              },
+              {
+                "k": "kadir",
+                "i": "alinmis",
+                "m": "Kaza değil, dalga! Bir tanker geçti, bütün salon sallandı. Tepsi elimden uçtu.",
+                "kime": "cengo"
+              },
+              {
+                "k": "kadir",
+                "i": "normal",
+                "m": "Koltuğu sildim, sonra bez almaya tezgâha döndüm. Çanta bir süre koltukta yalnız kaldı, doğru."
+              },
+              {"k": "peri", "i": "merakli", "m": "Muammer Bey'i daha önce tanıyor muydunuz?", "gir": "kadir"},
+              {
+                "k": "kadir",
+                "i": "normal",
+                "m": "Her salı bu vapurdadır. Geçen salı saati çıkarıp bana gösterdi; ince işçilik, alaturka rakamlar.",
+                "kime": "peri"
+              },
+              {
+                "k": "kadir",
+                "i": "normal",
+                "m": "\"Gelecek salı bunu Kadıköy'e götürüp satıyorum\" dedi. \"Ortağımdan başka kimse bilmiyor, sen de unut\" dedi."
+              },
+              {"k": "cengo", "i": "kas", "m": "Sen de unuttun."},
+              {"k": "kadir", "i": "gulen", "m": "Unuttum. Size söyleyene kadar.", "kime": "cengo"},
+              {
+                "k": "not",
+                "m": "Başında simit tablasıyla genç bir simitçi tezgâhın yanından geçiyor.",
+                "gir": "simitci",
+                "gi": "normal"
+              },
+              {"k": "cengo", "i": "gulen", "m": "Simit kaç?", "gir": "simitci"},
+              {"k": "simitci", "i": "normal", "m": "Otuz beş, abi.", "kime": "cengo"},
+              {"k": "cengo", "i": "kas", "m": "Karada otuz."},
+              {"k": "simitci", "i": "normal", "m": "Karada deniz yok, abi.", "kime": "cengo"},
+              {"k": "peri", "i": "yesil", "m": "Lütfen yiyecek bir şeyden söz etmeyin."}
+            ]
+          }
+        },
+        {
+          "id": "ust_guverte",
+          "ad": "Vapurun üst güvertesi",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["ust_tek"],
+          "text": "Üst güvertede bütün yol tek bir adam vardı; çocuğa simit verdi. Selim de Nedim Bey de \"yukarıdaydım\" diyor.",
+          "meta": "Üst güvertede bütün yol tek bir adam vardı; çocuğa simit verdi. Selim de Nedim Bey de \"yukarıdaydım\" diyor.",
+          "sahne": {
+            "arka": "A42",
+            "set": "ipek",
+            "cset": "balikci",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {"k": "not", "m": "Karaköy iskelesi. Vapur kalkmak üzere.", "arka": "A42", "mekan": true},
+              {
+                "k": "not",
+                "m": "Vapurun üst güvertesi. Rüzgâr sert; martılar korkuluğun üstünde asılı duruyor. Peri'nin saçı yüzüne yapışıyor.",
+                "arka": "A37",
+                "mekan": true,
+                "peri": "yesil"
+              },
+              {
+                "k": "not",
+                "m": "Sarı yağmurluklu küçük bir çocuk martılara simit atıyor. Yanında bereli, sportif bir kadın.",
+                "gir": "derya",
+                "gi": "normal"
+              },
+              {"k": "cengo", "i": "gulen", "m": "(kollarını açıp martı gibi bağırarak) Kiyaaa!", "gir": "derya"},
+              {"k": "efe", "i": "gulen", "m": "Bir daha yap! Bir daha!", "gir": "efe", "kime": "cengo"},
+              {
+                "k": "derya",
+                "i": "normal",
+                "m": "Efe, abiyi rahat bırak. Kusura bakmayın; her salı bu vapurdayız, martılar için.",
+                "gir": "derya",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "yesil", "m": "Geçen salı, ikide kalkan vapurda da burada mıydınız?"},
+              {
+                "k": "derya",
+                "i": "normal",
+                "m": "Bütün yol buradaydık. Efe martıları bırakmaz, ben de onu bırakmam.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Yukarıda sizden başka kim vardı?"},
+              {
+                "k": "derya",
+                "i": "normal",
+                "m": "Hava soğuktu. Bir tek amca vardı, bütün yol. Efe'ye simit verdi, beraber martılara attılar.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "merakli", "m": "Bir tek mi? Emin misiniz?"},
+              {
+                "k": "derya",
+                "i": "normal",
+                "m": "Eminim. Yakasını kaldırmıştı, yüzüne bakmadım. Ama başka kimse çıkmadı; kapı hep gözümün önündeydi.",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "İki kişi \"bütün yol yukarıdaydım\" diyor, Cengo. Burada bir kişi varmış."
+              },
+              {"k": "efe", "i": "normal", "m": "Abla, sen niye yeşilsin?", "gir": "efe", "kime": "peri"},
+              {"k": "peri", "i": "yesil", "m": "Ben yeşil değilim. Elbisem yeşil."},
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "(martılara simit atarak) Simitçiyi yirmi beşe indirdim. Martılar da benim gibi pazarlıkçı."
+              }
+            ]
+          }
+        },
+        {
+          "id": "kadikoy_iskele",
+          "ad": "Kadıköy iskelesi",
+          "tur": "İfade",
+          "ico": "○",
+          "needs": [],
+          "reveals": ["vapur_arandi"],
+          "text": "Vapur arandı, çanta karaya çıkmış. Kadir vapurdan inmez. Deri çantayla inenler: Muammer Bey, Selim, Nedim Bey.",
+          "meta": "Vapur arandı, çanta karaya çıkmış. Kadir vapurdan inmez. Deri çantayla inenler: Muammer Bey, Selim, Nedim Bey.",
+          "sahne": {
+            "arka": "A38",
+            "set": "ipek",
+            "cset": "balikci",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Kadıköy iskelesi. Turnikelerden insanlar akıyor; bir vapur yanaşıyor.",
+                "arka": "A38",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Lacivert yelekli, boynunda ıslık olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.",
+                "gir": "gorevli",
+                "gi": "normal"
+              },
+              {
+                "k": "peri",
+                "i": "normal",
+                "m": "İyi günler. Salı günü ikide Karaköy'den kalkan vapurda bir çanta kaybolmuş. Sahibi size gelmiş.",
+                "gir": "gorevli"
+              },
+              {
+                "k": "gorevli",
+                "i": "normal",
+                "m": "Muammer Bey. Hatırlıyorum; kıpkırmızıydı. Hanımefendi, siz otursanız iyi olur, renginiz gitmiş.",
+                "kime": "peri"
+              },
+              {
+                "k": "not",
+                "m": "Peri iskelenin bankına oturuyor; bacak bacak üstüne atıp ipek eteğini düzeltiyor.",
+                "peri": "yesil"
+              },
+              {"k": "peri", "i": "yesil", "m": "Teşekkür ederim. Vapuru aradınız mı?"},
+              {
+                "k": "gorevli",
+                "i": "normal",
+                "m": "Baştan sona aradık. Koltukların altı, can yelekleri, lavabolar. Çanta yoktu; karaya çıkmış.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Çaycı Kadir de inmiş olabilir mi?"},
+              {
+                "k": "gorevli",
+                "i": "normal",
+                "m": "Kadir mi? Kadir akşama kadar vapurdan inmez. Orada yaşar o.",
+                "kime": "cengo"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "O seferden çantayla inen birini hatırlıyor musunuz?",
+                "gir": "gorevli"
+              },
+              {
+                "k": "gorevli",
+                "i": "normal",
+                "m": "Üç beyefendi. Muammer Bey, ortağı Selim Bey, bir de bastonlu Nedim Bey. Üçü de buranın müdavimi.",
+                "kime": "peri"
+              },
+              {
+                "k": "gorevli",
+                "i": "normal",
+                "m": "Üçünün de elinde kahverengi bir deri çanta vardı. Kimin hangisi, bilemem."
+              },
+              {"k": "cengo", "i": "gulen", "m": "Defterine çantaları da yazsaydın."},
+              {"k": "gorevli", "i": "normal", "m": "Ben vapur yazarım, çanta yazmam.", "kime": "cengo"}
+            ]
+          }
+        },
+        {
+          "id": "nedim",
+          "ad": "Nedim Bey",
+          "tur": "İfade",
+          "ico": "○",
+          "needs": [],
+          "reveals": ["nedim_sali", "kolek_kasada"],
+          "text": "Nedim Bey her salı o vapurda. Salı sabahı dükkâna uğramış, çırak saatin kasada olduğunu söylemiş; o gün yolda olduğunu bilmiyordu.",
+          "meta": "Nedim Bey her salı o vapurda. Salı sabahı dükkâna uğramış, çırak saatin kasada olduğunu söylemiş; o gün yolda olduğunu bilmiyordu.",
+          "sahne": {
+            "arka": "A39",
+            "set": "ipek",
+            "cset": "balikci",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.",
+                "arka": "A39",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Gümüş saçları geriye taranmış, fularlı, bastonlu yaşlı bir bey.",
+                "gir": "nedim",
+                "gi": "normal"
+              },
+              {
+                "k": "nedim",
+                "i": "normal",
+                "m": "Muammer'in dedektifleri. Hoş geldiniz. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış.",
+                "gir": "nedim",
+                "kime": "peri"
+              },
+              {"k": "peri", "i": "kas", "m": "Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey."},
+              {
+                "k": "nedim",
+                "i": "alayci",
+                "m": "İki kez istedim, iki kez satmadı. Hâlâ istiyorum. Bunu saklamam.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Salı aynı vapurdaydınız."},
+              {
+                "k": "nedim",
+                "i": "normal",
+                "m": "Her salı o vapura binerim. Kız kardeşim Moda'da; her salı ona çaya giderim. Kırk yıldır.",
+                "kime": "cengo"
+              },
+              {"k": "nedim", "i": "normal", "m": "Bütün yol üst güvertedeydim. Bu yaşta deniz havası ilaçtır."},
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Saatin o gün Kadıköy'e satılmaya gittiğini biliyor muydunuz?",
+                "gir": "nedim"
+              },
+              {
+                "k": "nedim",
+                "i": "normal",
+                "m": "Bilseydim vapurda yanına oturur, alıcıdan önce davranırdım.",
+                "kime": "peri"
+              },
+              {
+                "k": "nedim",
+                "i": "normal",
+                "m": "Salı sabahı dükkâna uğradım, saati yine sordum. Çırak \"kasada, Muammer Bey satmıyor\" dedi."
+              },
+              {"k": "not", "m": "Peri Nedim'in yüzüne bakıyor. Bastonunun gümüş başı elinde kıpırdamıyor."},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Doğru söylüyorsunuz. Yalan söyleseydiniz bunu bu kadar keyifle anlatmazdınız."
+              },
+              {
+                "k": "not",
+                "m": "Odadaki bütün saatler aynı anda çalmaya başlıyor. Peri yerinden sıçrıyor.",
+                "kare": "D15"
+              },
+              {"k": "nedim", "i": "alayci", "m": "Öğlen oldu. Alışırsınız.", "gir": "nedim", "kime": "peri"},
+              {"k": "cengo", "i": "gulen", "m": "Bu evde uyumak nasıl oluyor?"},
+              {"k": "nedim", "i": "normal", "m": "Uyumuyorum. Saatleri dinliyorum.", "kime": "cengo"}
+            ]
+          }
+        },
+        {
+          "id": "deri_ustasi",
+          "ad": "Deri ustası",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": ["canta_damga"],
+          "reveals": ["usta_uc"],
+          "text": "Usta bu çantadan üç tane yapmış: Muammer Bey'e, ortağı Selim'e, bir de Nedim Bey'e.",
+          "meta": "Usta bu çantadan üç tane yapmış: Muammer Bey'e, ortağı Selim'e, bir de Nedim Bey'e.",
+          "sahne": {
+            "arka": "A40",
+            "set": "ipek",
+            "cset": "balikci",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Kadıköy çarşısı. Balıkçıların arasında dar bir kapı; içeride deri kokan küçük bir atölye. Tezgâhta yarım kalmış çantalar.",
+                "arka": "A40",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Deri önlüklü, gözlüğü burnunun ucunda yaşlı bir usta, bir kayışı dikiyor.",
+                "gir": "ismet",
+                "gi": "normal"
+              },
+              {"k": "peri", "i": "normal", "m": "Bu çanta sizin işiniz mi? İçinde bir damga var.", "gir": "ismet"},
+              {
+                "k": "ismet",
+                "i": "normal",
+                "m": "(damgaya bakıp) Benim işim. İsmet. Elli yıldır bu damgayı vururum.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Bu çantadan kaç tane yaptın, usta?"},
+              {
+                "k": "ismet",
+                "i": "normal",
+                "m": "Bu modelden mi? Üç tane. İlkini yıllar önce Muammer Bey'e yaptım.",
+                "kime": "cengo"
+              },
+              {
+                "k": "ismet",
+                "i": "normal",
+                "m": "Geçen ay ortağı Selim Bey geldi, \"dükkâna yedek\" dedi, aynısından istedi."
+              },
+              {
+                "k": "ismet",
+                "i": "normal",
+                "m": "İki hafta sonra Nedim Bey geldi. Muammer'in dükkânında görmüş, beğenmiş. Ona da yaptım."
+              },
+              {"k": "peri", "i": "merakli", "m": "Üçü de tıpatıp aynı mı?", "gir": "ismet"},
+              {
+                "k": "ismet",
+                "i": "normal",
+                "m": "Benim elimden çıkan her şey tıpatıp aynıdır, hanımefendi.",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "gulen", "m": "Şu cüzdan kaç?"},
+              {"k": "ismet", "i": "normal", "m": "Senin için iki bin.", "kime": "cengo"},
+              {"k": "cengo", "i": "kas", "m": "Bin?"},
+              {"k": "ismet", "i": "normal", "m": "İki bin beş yüz.", "kime": "cengo"},
+              {
+                "k": "peri",
+                "i": "normal",
+                "m": "(derin bir nefes alarak) Ayağımın altı ilk kez sallanmıyor. Burada biraz daha kalalım."
+              }
+            ]
+          }
+        },
+        {
+          "id": "dukkan_cukurcuma",
+          "ad": "Muammer'in dükkânı",
+          "tur": "Gözlem",
+          "ico": "◉",
+          "needs": [],
+          "reveals": ["canta_damga", "saat_belgesiz"],
+          "text": "Kalan çantada Kadıköy'de bir deri ustasının damgası var; kopya saat çarşıda 750 ₺. Muammer saati bir hurdacıdan belgesiz almış.",
+          "meta": "Kalan çantada Kadıköy'de bir deri ustasının damgası var; kopya saat çarşıda 750 ₺. Muammer saati bir hurdacıdan belgesiz almış.",
+          "sahne": {
+            "arka": "A41",
+            "set": "ipek",
+            "cset": "balikci",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Çukurcuma. Dar yokuşta, vitrininde bir gramofon olan tozlu bir dükkân.",
+                "arka": "A41",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Muammer tezgâhın arkasında; tezgâhta kahverengi deri bir çanta duruyor.",
+                "gir": "muammer",
+                "gi": "normal"
+              },
+              {
+                "k": "muammer",
+                "i": "normal",
+                "m": "Hoş geldiniz. İşte o çanta. Benimkinin aynısı; ama benimki değil.",
+                "gir": "muammer",
+                "kime": "peri"
+              },
+              {
+                "k": "not",
+                "m": "Dükkânın arkasında uzun boylu, kır kıvırcık saçlı bir adam bir sandalyenin bacağını yapıştırıyor.",
+                "gir": "selim",
+                "gi": "normal"
+              },
+              {
+                "k": "selim",
+                "i": "normal",
+                "m": "Hoş geldiniz. Kusura bakmayın, elim tutkallı.",
+                "gir": "selim",
+                "kime": "peri"
+              },
+              {
+                "k": "not",
+                "m": "Peri çantayı açıp içine eğiliyor. Astarın köşesinde deriye basılmış küçük bir damga.",
+                "kare": "D16"
+              },
+              {"k": "peri", "i": "merakli", "m": "İçinde bir damga var. Kadıköy'de bir deri ustasının.", "kare": "D16"},
+              {
+                "k": "muammer",
+                "i": "normal",
+                "m": "Benim çantamı da o yapmıştı. Kadıköy çarşısında, balıkçıların arasında.",
+                "gir": "muammer",
+                "kime": "peri"
+              },
+              {"k": "cengo", "i": "kas", "m": "Kutudaki kopyayı da sordum. Çarşıda yedi yüz elli liraya satıyorlar."},
+              {"k": "muammer", "i": "ofkeli", "m": "Yedi yüz elli lira! Benim saatimin yerine!", "kime": "cengo"},
+              {"k": "peri", "i": "kas", "m": "O saati nereden almıştınız, Muammer Bey?"},
+              {"k": "muammer", "i": "normal", "m": "Bir mezattan. Belgesiyle, faturasıyla.", "kime": "peri"},
+              {
+                "k": "not",
+                "m": "Muammer bıyığını iki parmağıyla düzeltiyor; Peri'nin gözüne bakmıyor.",
+                "gir": "muammer",
+                "gi": "kacamak"
+              },
+              {"k": "peri", "i": "kas", "m": "Yalan söylerken bıyığınızı düzeltiyorsunuz."},
+              {
+                "k": "muammer",
+                "i": "kacamak",
+                "m": "…Bir hurdacıdan aldım. İki ay önce. Belgesi yok. Değerinin çok altındaydı, sormadım.",
+                "kime": "peri"
+              },
+              {
+                "k": "selim",
+                "i": "normal",
+                "m": "(sandalyenin başından, başını kaldırmadan) Ben sana o gün de söylemiştim, Muammer.",
+                "gir": "selim",
+                "kime": "muammer"
+              },
+              {"k": "muammer", "i": "ofkeli", "m": "Sen sandalyene bak, Selim.", "kime": "selim"},
+              {"k": "cengo", "i": "gulen", "m": "Selim Bey, salı vapurda deniz tuttu mu sizi?"},
+              {
+                "k": "selim",
+                "i": "normal",
+                "m": "Her seferinde. Yukarı çıkıp hava alırım, yoksa yaşayamam.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "yesil", "m": "Ben de."}
+            ]
+          }
+        }
+      ],
+      "decisions": [
+        {
+          "id": "muammere_soyle",
+          "gate": "yok",
+          "kare": "K92",
+          "cengoBag": 1,
+          "para": 5000,
+          "etiket": "Muammer'e gerçeği söyle",
+          "onizleme": "Saat Muammer'e döner; Selim'in yaptığını öğrenir, otuz yıllık ortaklık biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.",
+          "sonuc": "Saati Muammer'e verdin, Selim'in yaptığını anlattın. Otuz yıllık ortaklık bir akşamda bitti; Selim tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo dükkânın önünden geçerken vitrine baktı. \"Otuz yıl. Bir saat için\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "vapurda_bulduk",
+          "gate": "yok",
+          "kare": "K93",
+          "cengoBag": -2,
+          "para": 20000,
+          "etiket": "\"Vapurda bulduk\" de, Selim'i koru",
+          "onizleme": "Selim'in adı geçmez, ortaklık sürer. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.",
+          "sonuc": "Saati Muammer'e \"vapurun bir köşesinde bulduk\" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ortaklar ertesi gün yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo parayı saydı. \"İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "gercek_sahip",
+          "gate": "yok",
+          "kare": "K94",
+          "cengoBag": 2,
+          "para": -10000,
+          "etiket": "Saatin gerçek sahibini bul",
+          "onizleme": "Kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.",
+          "sonuc": "Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'le ortaklığı da bitti.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo, Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzattı. \"Al. Bu vakadan kazandığımız bu\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "polise_teslim",
+          "gate": "yok",
+          "kare": "K95",
+          "cengoBag": -1,
+          "para": -5000,
+          "etiket": "Selim'i polise teslim et",
+          "onizleme": "Selim yargılanır; saat delil olarak emanete alınır, satış yatar. Muammer 5.000 ₺ keser.",
+          "sonuc": "Selim'i polise teslim ettin. Saat delil olarak emanete alındı; kapaktaki kazıma sorulunca saatin geçen kış Kuzguncuk'ta soyulan bir evden çıktığı anlaşıldı, Muammer de ifade verdi. Satış yattı. Muammer ücretten beş bin kesti: \"Sessiz olsun dedim, karakol olsun demedim.\"",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Cengo saatine baktı. \"Saat emanette. Her gün üçte orada çalacak\" dedi."}]
+        }
+      ],
+      "seeds": {},
+      "kim_yapti": {
+        "suclu": "selim",
+        "supheliler": [
+          {"id": "selim", "ad": "Selim", "gorunur": {"any": ["cayci_bilen", "ust_tek", "vapur_arandi", "usta_uc"]}},
+          {"id": "kadir", "ad": "Kadir", "gorunur": "her_zaman"},
+          {"id": "nedim", "ad": "Nedim Bey", "gorunur": "her_zaman"}
+        ],
+        "dogru_ciftler": [
+          ["cayci_bilen", "ust_tek"],
+          ["cayci_bilen", "vapur_arandi"],
+          ["cayci_bilen", "usta_uc"],
+          ["kolek_kasada", "ust_tek"],
+          ["kolek_kasada", "vapur_arandi"],
+          ["kolek_kasada", "usta_uc"]
+        ],
+        "ucret": {"dogru": 40000, "zayif": 30000, "yanlis": 20000},
+        "giris_grup": "Muammer Bey'in anlattıkları",
+        "kesinti": {
+          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Muammer Bey {kesinti} kesti.",
+          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Muammer Bey {kesinti} kesti."
+        },
+        "cozum": {
+          "yollar": [
+            "Saatin salı satılacağını iki kişi biliyordu (Kadir ya da Selim) + üst güvertede tek bir adam vardı, \"yukarıdaydım\" diyenlerden biri yalan söylüyordu (Selim ya da Nedim).",
+            "Saatin salı satılacağını iki kişi biliyordu (Kadir ya da Selim) + çanta karaya çıktı, çantayla inenler Muammer, Selim ve Nedim'di; Kadir vapurdan inmez.",
+            "Saatin salı satılacağını iki kişi biliyordu (Kadir ya da Selim) + çantanın ikizi yalnız Selim'de ve Nedim'de vardı.",
+            "Nedim saatin o gün yola çıktığını bilmiyordu + üst güvertede yalan söyleyen, çantayla karaya inen ya da çantanın ikizi olan kalan tek kişi Selim."
+          ],
+          "masum": {
+            "kadir": "Kadir masumdu: Muammer lavabodayken çantaları Selim değiştirmişti; Kadir'in payına düşen yalnız dökülen çaydı.",
+            "nedim": "Nedim Bey masumdu: saati istiyordu ama ona dokunmadı; saat Selim'in cebinde çaldı."
+          }
+        },
+        "hikaye": [
+          "Muammer Bey iki ay önce alaturka rakamlı, çalar bir cep saatini bir hurdacıdan belgesiz ve çok ucuza aldı; sormadı. Saati Kadıköy'deki bir alıcıya dört yüz bine satmaya karar verdi. Bu yıl dükkânı oğluna devredip otuz yıllık ortağı Selim'i ortaklıktan çıkaracağını da söyledi.",
+          "Selim geçen ay Kadıköy'deki deri ustası İsmet'e \"dükkâna yedek\" diye Muammer'in çantasının ikizini yaptırdı; çarşıdan da yedi yüz elli liraya bir kopya saat aldı. Nedim Bey de çantayı dükkânda görüp beğenmiş, ustadan bir tane ısmarlamıştı; bu bir tesadüftü.",
+          "Geçen salı Muammer saati vapurda çaycı Kadir'e gösterip \"gelecek salı satıyorum\" dedi. Salı sabahı Nedim dükkâna uğrayıp saati yine sordu; çırak \"kasada\" dedi. Nedim saatin o gün yola çıktığını bilmiyordu.",
+          "Salı ikide Muammer'le Selim vapura bindi. Selim \"deniz tutar\" deyip merdivene yürüdü ama yukarı çıkmadı; alt salonun arkasında, direğin dibine oturdu. Üst güvertede bütün yol yalnız Nedim vardı; küçük Efe'ye simit verdi, martıları beraber beslediler.",
+          "Yolun yarısında bir tanker dalgası Kadir'in tepsisini devirdi. Muammer lavaboya gitti; Kadir koltuğu silip bez almaya tezgâha döndü. Selim o boşlukta çantaları değiştirdi. Kadıköy'de kalabalıkla indi, Muammer'e \"yukarıdan iniyorum\" dedi. Kadir ise her zamanki gibi vapurdan hiç inmedi."
+        ],
+        "kanit_ad": {
+          "saat_degisti": "Değişen çanta",
+          "kadir_dokdu": "Çay kazası",
+          "nedim_istedi": "Nedim'in isteği",
+          "cayci_bilen": "Saatin satılacağını bilenler",
+          "cay_dalga": "Tanker dalgası",
+          "ust_tek": "Üst güvertedeki tek adam",
+          "vapur_arandi": "Vapurun araması",
+          "nedim_sali": "Nedim'in salı vapuru",
+          "kolek_kasada": "Çırağın sözü",
+          "canta_damga": "Ustanın damgası",
+          "saat_belgesiz": "Belgesiz saat",
+          "usta_uc": "Üç ikiz çanta"
+        }
+      },
+      "anahtarlar": {
+        "cayci_bilen": ["gelecek salı", "ortağımdan başka"],
+        "cay_dalga": ["tanker", "bez almaya"],
+        "ust_tek": ["tek bir amca", "tek bir adam", "bir tek amca"],
+        "vapur_arandi": ["arandı", "aradık", "inmez"],
+        "nedim_sali": ["kız kardeş"],
+        "kolek_kasada": ["kasada", "çırak"],
+        "canta_damga": ["damga"],
+        "saat_belgesiz": ["hurdacı", "belgesiz"],
+        "usta_uc": ["üç tane", "dükkâna yedek"]
+      },
+      "sahneler": {
+        "giris": {
+          "arka": "A6",
+          "set": "ipek",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Sabah. Büro. Peri masada; ince bir hırkanın altında zümrüt yeşili bir elbise. Cengo pencereden iskeleyi seyrediyor."
+            },
+            {
+              "k": "not",
+              "m": "Kapı çalınıyor. Eşikte papyonlu, tüvit yelekli, beyaz bıyıklı bir bey; elinde kadife bir kutu.",
+              "gir": "muammer",
+              "gi": "normal"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Paravan Dedektiflik? Ben Muammer. Çukurcuma'da otuz yıldır antikacıyım.",
+              "gir": "muammer",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "normal", "m": "Buyurun Muammer Bey, oturun. Sizi dinliyorum."},
+            {
+              "k": "muammer",
+              "i": "dertli",
+              "m": "Salı günü saat ikide Karaköy'den Kadıköy vapuruna bindim. Çantamda bir cep saati vardı.",
+              "kime": "peri"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "On dokuzuncu yüzyıldan, alaturka rakamlı, çalar bir cep saati. Kadıköy'deki bir alıcıya dört yüz bine satacaktım."
+            },
+            {
+              "k": "muammer",
+              "i": "dertli",
+              "m": "Yolun yarısında bir dalga geldi; çaycının tepsisi devrildi, bütün çay pantolonuma döküldü."
+            },
+            {
+              "k": "muammer",
+              "i": "dertli",
+              "m": "Beş dakika lavaboda temizlendim. Çanta koltukta kaldı. Döndüğümde yerindeydi."
+            },
+            {"k": "muammer", "i": "ofkeli", "m": "Kadıköy'de alıcının masasında kutuyu açtım. Bakın.", "kare": "D14"},
+            {"k": "not", "m": "Kadife kutunun içinde parlak, ucuz görünüşlü bir cep saati.", "kare": "D14"},
+            {
+              "k": "muammer",
+              "i": "ofkeli",
+              "m": "Bu benim saatim değil, çarşı malı bir kopya. Çanta da benim çantam değil: tıpatıp aynısı. Dükkânda duruyor.",
+              "gir": "muammer",
+              "kime": "peri"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Yani siz lavabodayken biri çantanızı ikiziyle değiştirmiş, içine de bu kopyayı koymuş.",
+              "kime": "muammer"
+            },
+            {
+              "k": "muammer",
+              "i": "dertli",
+              "m": "Öyle. İskeleye geri koştum, görevliye anlattım. Ama saat gitmişti.",
+              "kime": "cengo"
+            },
+            {"k": "peri", "i": "merakli", "m": "Kimden şüpheleniyorsunuz, Muammer Bey?"},
+            {
+              "k": "muammer",
+              "i": "ofkeli",
+              "m": "Çayı döken çaycıdan, Kadir'den. Kaza mıydı, bilmiyorum. Lavaboya giderken koltuğumu silmeye eğiliyordu.",
+              "kime": "peri"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Kadir'i tanırım. Her sabah onun vapurunda çay içerim. Kimsenin çantasına el sürmez.",
+              "kime": "muammer"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Bir de Nedim Bey var. Koleksiyoncu. Bu saati benden iki kez istedi; ikisinde de satmadım.",
+              "kime": "cengo"
+            },
+            {
+              "k": "muammer",
+              "i": "ofkeli",
+              "m": "Salı o da aynı vapurdaymış. Kadıköy'de iskelede karşılaştık; \"bütün yol yukarıdaydım\" dedi. Tesadüf mü?"
+            },
+            {"k": "peri", "i": "merakli", "m": "Vapurda tanıdığınız başka kim vardı?"},
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Ortağım Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı.",
+              "kime": "peri"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır ortağımdır; dükkânın tamircisi odur."
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Bir şey daha: saat çalar. Her gün öğleden sonra üçte. Alıcıya göstermek için ben kurmuştum."
+            },
+            {
+              "k": "muammer",
+              "i": "dertli",
+              "m": "Polise gidemem; satışı sessiz yapıyordum. Saat geri gelsin, kimse de duymasın. Bütün istediğim bu."
+            },
+            {
+              "k": "not",
+              "m": "Peri kalkıp pencereyi açıyor; içeri iskelenin rüzgârı doluyor. Hırkasını çıkarıp sandalyenin arkasına asıyor: altında askılı, zümrüt yeşili ince ipek bir elbise.",
+              "kare": "K79",
+              "set": "ipek_acik"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Siz de iyi korunmuşsunuz, hanımefendi. Bu ipek çok iyi bir dönemden kalma.",
+              "gir": "muammer",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Ben antika değilim, Muammer Bey."},
+            {"k": "peri", "i": "normal", "m": "Ücretimiz kırk bin lira. Saati bulduğumuzda ödersiniz."},
+            {"k": "muammer", "i": "normal", "m": "Saat geri gelirse kırk bin, az bile.", "kime": "peri"},
+            {"k": "cengo", "i": "gulen", "m": "O zaman vapura bineceğiz.", "kime": "peri"},
+            {"k": "peri", "i": "kas", "m": "Ben vapura binmem, Cengo. Beni deniz tutar."},
+            {"k": "cengo", "i": "gulen", "m": "İskele pencerenin dibinde, Peri."},
+            {"k": "peri", "i": "kas", "m": "Pencereden bakınca da tutuyor."}
+          ]
+        },
+        "konusma": {
+          "arka": "A6",
+          "set": "ipek_acik",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {"k": "not", "m": "Kapı kapanıyor. Peri pencereyi hemen kapatıyor."},
+            {"k": "cengo", "i": "kas", "m": "Kasımda ipek elbise. Vapura binileceğini bilseydin palto giyerdin."},
+            {"k": "peri", "i": "kas", "m": "Bugün vapura bineceğimi bilmiyordum. Bilseydim hiç gelmezdim."},
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Bu iş vapurda başladı, vapurda biter. Önce Kadir'e gideriz; o vapurda her şeyi görür."
+            },
+            {"k": "peri", "i": "normal", "m": "Üst güverteye de çıkalım. Yukarıda kim varmış, öğrenmemiz gerek."},
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Kadıköy iskelesinin görevlisiyle de konuşalım. O gün çantayı aramışlar mı, bakarız."
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Nedim Bey'i de ziyaret edelim. Saati bu kadar isteyen biri, bulunca ne yapar, merak ediyorum."
+            },
+            {"k": "cengo", "i": "gulen", "m": "Muammer'in dükkânına da gideriz. O kalan çantaya bir bakmak lazım."},
+            {"k": "peri", "i": "kas", "m": "Hepsini karada yapsak?"},
+            {"k": "cengo", "i": "gulen", "m": "Kadir karaya hiç inmez, Peri."}
+          ]
+        },
+        "yuzlesme_dogru": {
+          "arka": "A36",
+          "set": "ipek",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.",
+              "kare": "K80"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun.",
+              "gir": "muammer"
+            },
+            {
+              "k": "not",
+              "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
+              "gir": "simitci",
+              "gi": "normal"
+            },
+            {"k": "simitci", "i": "normal", "m": "Al abi, bedava. Yeter ki pazarlık etme.", "kime": "cengo"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Selim Bey. Saati siz aldınız. Çantaları siz değiştirdiniz.",
+              "gir": "selim"
+            },
+            {
+              "k": "selim",
+              "i": "normal",
+              "m": "Ben mi? Otuz yıl o dükkânda… Ben Muammer'in tamircisiyim, hanımefendi.",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor."},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Saat birazdan üç, Selim Bey. Muammer Bey'in saati her gün üçte çalar. Bakalım nerede çalacak."
+            },
+            {"k": "not", "m": "Selim elini ceketinin göğsüne bastırıyor.", "gir": "selim", "gi": "gergin"},
+            {
+              "k": "not",
+              "m": "Saat üç. Selim'in ceketinin iç cebinden ince, tiz bir zil sesi yükseliyor.",
+              "kare": "K81"
+            },
+            {"k": "muammer", "i": "ofkeli", "m": "Benim saatim!", "gir": "muammer", "kime": "selim"},
+            {"k": "not", "m": "Herkes Selim'e dönüyor. Selim merdivene koşuyor.", "cik": true, "kare": "K82"}
+          ]
+        },
+        "yuzlesme_zayif": {
+          "arka": "A36",
+          "set": "ipek",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.",
+              "kare": "K80"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun.",
+              "gir": "muammer"
+            },
+            {
+              "k": "not",
+              "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
+              "gir": "simitci",
+              "gi": "normal"
+            },
+            {"k": "simitci", "i": "normal", "m": "Al abi, bedava. Yeter ki pazarlık etme.", "kime": "cengo"},
+            {"k": "peri", "i": "normal", "m": "Selim Bey. Saati siz aldınız.", "gir": "selim"},
+            {
+              "k": "selim",
+              "i": "normal",
+              "m": "Beni deniz tutar, hanımefendi. Bütün yol yukarıdaydım. Kanıtınız ne?",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "utanmis", "m": "…Elimde bir şey var, ama sizi ikna edecek kadar değil."},
+            {
+              "k": "muammer",
+              "i": "dertli",
+              "m": "(kolundaki saate bakarak) Saat üç oldu. Benim saatim şimdi bir yerde çalıyordur…",
+              "gir": "muammer"
+            },
+            {"k": "not", "m": "Selim'in ceketinin iç cebinden ince, tiz bir zil sesi yükseliyor.", "kare": "K81"},
+            {"k": "muammer", "i": "ofkeli", "m": "Benim saatim!", "gir": "muammer", "kime": "selim"},
+            {"k": "not", "m": "Herkes Selim'e dönüyor. Selim merdivene koşuyor.", "cik": true, "kare": "K82"}
+          ]
+        },
+        "yuzlesme_kadir": {
+          "arka": "A36",
+          "set": "ipek",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.",
+              "kare": "K80"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun.",
+              "gir": "muammer"
+            },
+            {
+              "k": "not",
+              "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
+              "gir": "simitci",
+              "gi": "normal"
+            },
+            {"k": "simitci", "i": "normal", "m": "Al abi, bedava. Yeter ki pazarlık etme.", "kime": "cengo"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kadir. Çayı sen döktün, çantanın başında da sen kaldın. Saati sen aldın.",
+              "gir": "kadir"
+            },
+            {
+              "k": "kadir",
+              "i": "alinmis",
+              "m": "Ben mi? Yirmi yıldır bu vapurda bir kaşık eksik vermedim!",
+              "kime": "peri"
+            },
+            {
+              "k": "kadir",
+              "i": "alinmis",
+              "m": "(tepsiyi bırakıp kollarını açarak) Arayın beni! Ceplerim, tezgâhım, her yer sizin!"
+            },
+            {
+              "k": "not",
+              "m": "Saat üç. Selim'in ceketinin iç cebinden ince, tiz bir zil sesi yükseliyor.",
+              "kare": "K81"
+            },
+            {"k": "muammer", "i": "ofkeli", "m": "Benim saatim!", "gir": "muammer", "kime": "selim"},
+            {"k": "not", "m": "Herkes Selim'e dönüyor. Selim merdivene koşuyor.", "cik": true, "kare": "K82"}
+          ]
+        },
+        "yuzlesme_nedim": {
+          "arka": "A36",
+          "set": "ipek",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.",
+              "kare": "K80"
+            },
+            {
+              "k": "muammer",
+              "i": "normal",
+              "m": "Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun.",
+              "gir": "muammer"
+            },
+            {
+              "k": "not",
+              "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
+              "gir": "simitci",
+              "gi": "normal"
+            },
+            {"k": "simitci", "i": "normal", "m": "Al abi, bedava. Yeter ki pazarlık etme.", "kime": "cengo"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Nedim Bey. Saati istiyordunuz, aynı vapurdaydınız. Saati siz aldınız.",
+              "gir": "nedim"
+            },
+            {
+              "k": "nedim",
+              "i": "alayci",
+              "m": "Ben o saati alsaydım, hanımefendi, şimdi Moda'da duvarımda çalıyor olurdu.",
+              "kime": "peri"
+            },
+            {
+              "k": "nedim",
+              "i": "alayci",
+              "m": "(bastonuyla salonu göstererek) Saat üç olmak üzere. Dinleyin bakalım, nerede çalacak."
+            },
+            {
+              "k": "not",
+              "m": "Saat üç. Selim'in ceketinin iç cebinden ince, tiz bir zil sesi yükseliyor.",
+              "kare": "K81"
+            },
+            {"k": "muammer", "i": "ofkeli", "m": "Benim saatim!", "gir": "muammer", "kime": "selim"},
+            {"k": "not", "m": "Herkes Selim'e dönüyor. Selim merdivene koşuyor.", "cik": true, "kare": "K82"}
+          ]
+        },
+        "kovalamaca": {
+          "arka": "A36",
+          "set": "ipek",
+          "cset": "balikci",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Selim merdivene koşuyor. Cengo peşinden atılırken simitçiyle çarpışıyor; tabla havaya uçuyor. Simitler Cengo'nun koluna ve kasketine geçiyor.",
+              "kare": "K83",
+              "cset": "simitli"
+            },
+            {"k": "simitci", "i": "ofkeli", "m": "Abi, parasını ver!", "gir": "simitci", "kime": "cengo"},
+            {"k": "cengo", "i": "kas", "m": "Bedava dedin!", "kare": "K83"},
+            {
+              "k": "not",
+              "m": "Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; havadaki simitlerin susamı ıslak elbisesine yapışıyor.",
+              "arka": "A37",
+              "kare": "K84",
+              "set": "islak",
+              "peri": "sinirli"
+            },
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "(korkuluğa tutunarak) Beni deniz tutmuyor. Deniz bana saldırıyor.",
+              "kare": "K84"
+            },
+            {
+              "k": "not",
+              "m": "Vapur Karaköy'e yanaşıyor. Selim halat atılmadan iskeleye atlıyor. Peri arkasından atlıyor; topuğu iskelenin tahtaları arasına sıkışıyor. Ayakkabıyı orada bırakıp tek topukla koşuyor.",
+              "arka": "A42",
+              "kare": "K85"
+            },
+            {
+              "k": "not",
+              "m": "Peri'nin üstündeki susamın kokusunu alan martılar ona dalıyor. Peri çığlıkla koşarken Selim'in yanından geçiyor; sürü Selim'i de sarıyor. Selim saati korumak için ellerini göğsüne bastırıyor, bir halata takılıp düşüyor.",
+              "kare": "K86"
+            },
+            {
+              "k": "not",
+              "m": "Simitli Cengo yetişip Selim'in üstüne oturuyor. Peri tek ayakkabıyla, saçı darmadağın, çenesi havada duruyor.",
+              "kare": "K87"
+            },
+            {"k": "peri", "i": "kas", "m": "Martıları ben ayarladım.", "kare": "K87"},
+            {"k": "selim", "i": "itiraf", "m": "Tamam. Ben aldım.", "gir": "selim"},
+            {
+              "k": "selim",
+              "i": "itiraf",
+              "m": "Otuz yıl o dükkânda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti, beni çıkaracaktı."
+            },
+            {
+              "k": "selim",
+              "i": "itiraf",
+              "m": "Saati satacağını biliyordum. Çantanın ikizini yaptırdım, içine çarşıdan bir kopya koydum."
+            },
+            {
+              "k": "selim",
+              "i": "itiraf",
+              "m": "\"Deniz tutar\" deyip yukarı çıkmadım; alt salonun arkasında, direğin dibinde oturdum."
+            },
+            {
+              "k": "selim",
+              "i": "itiraf",
+              "m": "Çay dökülüp Muammer lavaboya gidince çantaları değiştirdim. Saati bu akşam satacaktım."
+            },
+            {"k": "selim", "i": "itiraf", "m": "Çaldığını unuttum. Susturmayı da bilmezdim; onu hep Muammer kurardı."},
+            {"k": "not", "m": "Muammer nefes nefese iskeleden koşarak geliyor.", "gir": "muammer", "gi": "ofkeli"},
+            {"k": "muammer", "i": "ofkeli", "m": "Otuz yıl, Selim! Otuz yılı bir saate mi değiştin?", "kime": "selim"},
+            {"k": "selim", "i": "itiraf", "m": "Sen otuz yılı bir teşekküre değiştin, Muammer.", "kime": "muammer"},
+            {
+              "k": "not",
+              "m": "Muammer saati Selim'in cebinden alıp kapağını açıyor. Peri omzunun üstünden eğiliyor: kapağın içine ince bir kazıma işlenmiş, bir harf ve bir yıl.",
+              "kare": "D17"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kapağın içinde bir kazıma var. Birine verilmiş bir hediye bu.",
+              "kare": "D17"
+            },
+            {
+              "k": "not",
+              "m": "Kadir vapurdan bir battaniye ve bir bardak sıcak çayla iniyor; battaniyeyi Peri'nin ıslak omuzlarına atıyor.",
+              "kare": "K88",
+              "set": "battaniye",
+              "cset": "simitli"
+            },
+            {
+              "k": "kadir",
+              "i": "normal",
+              "m": "İç şunu, hanımefendi. Rengin yerine gelsin.",
+              "gir": "kadir",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "normal", "m": "Karada beni deniz tutmuyor, Kadir Bey."}
+          ]
+        },
+        "kapanis": {
+          "arka": "A8",
+          "set": "battaniye",
+          "cset": "simitli",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında susam, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.",
+              "gir": "gizem",
+              "gi": "triko"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Her şeyi buradan izledim. Martılar sizi çok sevdi, tatlım.",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Martılar susamı sevdi, Gizem.", "gir": "gizem"},
+            {"k": "not", "m": "Cengo masanın kenarına ilişmiş; kasketinde hâlâ bir simit takılı.", "kare": "K89"},
+            {
+              "k": "gizem",
+              "i": "triko_isveli",
+              "m": "Simitçi abiye selam söyle, Cengo.",
+              "gir": "gizem",
+              "kime": "cengo"
+            },
+            {
+              "k": "not",
+              "m": "Cengo kasketindeki simidi çıkarıp Peri'nin masasına bırakıyor.",
+              "bag": "dusuk",
+              "kare": "K90"
+            },
+            {"k": "cengo", "i": "normal", "m": "Bu sana. Martılar görmesin.", "bag": "dusuk", "kime": "peri"},
+            {"k": "not", "m": "Cengo çıkıyor. Peri simide bakıyor, yemiyor.", "bag": "dusuk", "kare": "K90"},
+            {"k": "not", "m": "Cengo balıkçı yaka kazağını çıkarıp Peri'ye uzatıyor.", "bag": "yuksek", "kare": "K91"},
+            {"k": "cengo", "i": "yumusak", "m": "Islaksın. Giy bunu.", "bag": "yuksek", "kime": "peri"},
+            {
+              "k": "not",
+              "m": "Peri kazağı battaniyenin altından giyiyor; kollar ellerinden uzun.",
+              "bag": "yuksek",
+              "kare": "K91"
+            },
+            {"k": "peri", "i": "kas", "m": "Bu arada beni deniz tutmadı.", "bag": "yuksek"},
+            {"k": "cengo", "i": "gulen", "m": "Biliyorum.", "bag": "yuksek"},
+            {"k": "gizem", "i": "triko", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
           ]
         }
       }

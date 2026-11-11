@@ -25,6 +25,6 @@ Vaka 4 §4'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adı
 |---|---|---|---|---|---|
 | 1 Form | 11 Kas 14:01 | 11 Kas 14:09 | 0 | ~8 dk | form `vaka5_form.md`; 3 fiyat ⏳ |
 | 2 Onay 1 | 11 Kas 14:15 | 11 Kas 14:18 | ~3 dk (4 soru, hepsi uygun) | ~4 dk (fiyat kontrolü, işleme) | kanon 2 madde eklendi |
-| 3–4 Diyalog + veri + künye | | | | | |
+| 3–4 Diyalog + veri + künye | 11 Kas 14:19 | 11 Kas 14:27 | 0 | ~8 dk | diyalog 223 satır; iskelet betikle (scratchpad); K8 uyarısı (polis kararı) |
 | 5 Görselsiz tur + taramalar | | | | | |
 | 6–7 Onay 2, hikâye donar | | | | | |
