@@ -8,7 +8,26 @@
 
 ---
 
-## 000000000000000000000. ⬅️ 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+## 0000000000000000000000. ⬅️ 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU BARBAROS'TA
+
+**Kurulum (ortağın bilgisayarı, yalnız yerel — depoda değişiklik yok):**
+- Node.js 26.13 (LTS), Python 3.12, Git; depo `C:\Yazilim\paravan` (D: sürücüsü yok).
+- `araclar/` (Playwright 1.65) + Chromium (`npx playwright install chromium`); `PW` kalıcı kullanıcı değişkeni →
+  `C:/Yazilim/paravan/araclar/node_modules/playwright`.
+- Codex CLI 0.167.1 kurulu, **giriş yapılmadı** (resim aşamasında ortak kendi hesabıyla `codex login`).
+- `node dogrulayici.js yeni` PASS (4 uyarı), `node dogrulayici.js` PASS (5 uyarı), 27 test geçti.
+
+**Barbaros'un cevabını bekleyen iki soru (ortak iletti; cevap gelmeden iş başlamaz):**
+1. **Sıra değişikliği:** ortak, Vaka 4'ün resim aşamasını (adım 8–14) erteleyip önce **Vaka 5'in metnini** (adım 1–7)
+   yazmak istiyor. `RAF_KARARLARI.md` yayın sırası "önce Vaka 4, süre baştan sona" diyor. Vaka 4'ün saati zaten duruk
+   (10 Kas 18:04'ten beri) — dönünce kaldığı yerden işler, ölçüm bozulmaz ama gecikir.
+2. **Vaka 5'in tipi:** `YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR "Columbo tipi" (= Ters tip; oyuncu suçluyu baştan görür).
+   Ters tip ertelenmiş (`1_oyun_yapisi.md`, 17 Ekim) ve motor + doğrulayıcı işi ister ("kanıt seç" yüzleşmesi).
+   Seçenekler: (a) Vaka 3 gibi **Bilmece'ye çevir** (kod gerekmez), (b) Columbo'yu dene (önce motor işi).
+
+Cevap gelince bu bölüm güncellenir ya da silinir.
+
+## 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 Proje artık başka bir bilgisayarda, başka bir Claude hesabıyla, ortak bir kişi tarafından da yürütülüyor.
 Depo yine `barbarosgursu-sudo/paravan`; ortak, depoya "collaborator" olarak eklendi ve `main`'e gönderir.
