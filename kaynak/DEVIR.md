@@ -8,7 +8,7 @@
 
 ---
 
-## 00000000000000000000000. ⬅️ 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; BARBAROS'A BİR SORU
+## 00000000000000000000000. ⬅️ 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 **Durum:** Vaka 5 (Vapur, Bilmece) ortak tarafından yazılıyor. Saat 14:01'de başladı, işliyor
 (`sablon/vakalar/vaka5_baslangic.md` süre tablosu).
@@ -24,7 +24,11 @@
 **Barbaros'a soru (ortak soruyor):** Adım 5 (görselsiz tur) için `arac_yeni_tur.js`'e (gerekirse `arac_sizinti_tur.js`'e)
 Vaka 5'in yollarını eklemek gerekiyor — Vaka 4'e yapılanın aynısı. **Yeni bir vakayı mevcut test araçlarına eklemek gibi
 küçük, mekanik değişiklikler için ortağa genel izin verilsin mi?** Motor, arayüz, derleme ve kurallar yine Barbaros'ta.
-Cevap gelene kadar adım 5 bekliyor.
+
+**Barbaros'un cevabı (11 Kasım 2026): EVET — genel izin, bu sınırla.** Ortak, yeni bir vakayı **var olan** araç ve
+testlere ekleyebilir (yol listeleri, vaka adları, önceki vakanın kalıbıyla). Aracın **nasıl çalıştığını** değiştirmek,
+yeni araç yazmak, motor, arayüz ve derleme yine Barbaros'ta. Böyle bir commit'in mesajında "araç: Vaka N eklendi"
+yazar ki Barbaros görsün. → Adım 5 başlayabilir.
 
 ## 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
@@ -61,6 +65,9 @@ Depo yine `barbarosgursu-sudo/paravan`; ortak, depoya "collaborator" olarak ekle
   (`CLAUDE.md`, `sablon/`, sözleşmeler), kod ve altyapı değişiklikleri (motor, arayüz, araçlar, derleme),
   yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş çıkarsa Claude yapmaz;
   ne istendiğini kısaca yazar, ortak bunu Barbaros'a iletir.
+- **İstisna (11 Kasım 2026):** ortak, yeni bir vakayı **var olan** araç ve testlere ekleyebilir (yol listeleri, vaka
+  adları, önceki vakanın kalıbıyla); commit mesajında "araç: Vaka N eklendi" yazar. Aracın nasıl çalıştığını
+  değiştirmek ya da yeni araç yazmak yine Barbaros'ta.
 
 **Yeni bilgisayarda ilk kurulum (bir kez):** Git, Node.js, Python 3 kurulu olmalı. Depoda olmayan tarayıcı aracı
 (`araclar/`, Playwright + Chromium) yeniden kurulur: `npx playwright install chromium`. Resim üretimi için
