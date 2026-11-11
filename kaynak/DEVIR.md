@@ -29,7 +29,7 @@
   `clues[].text/meta`, çıkarım, `kim_yapti`, karar parası/bağ, `anahtarlar`) ve künye (`yeni/kisiler.json`) diyalogdan
   üretilmez: veride doğrudan (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). Hikâye değişirse `vaka5_form.md`'ye de işle.
 - **Her değişiklikten sonra:** `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js`, testler;
-  ses etkileyen yerde tur: `node arac_yeni_tur.js 0 vapur dogru` (yollar yukarıda). Sızıntı: `node arac_sizinti_tur.js V5 40`.
+  sahneyi etkileyen değişiklikte tur: `node arac_yeni_tur.js 0 vapur dogru` (yollar yukarıda). Sızıntı: `node arac_sizinti_tur.js V5 40`.
 - **Tuzak (ortağın bilgisayarı):** Claude'un kabuğu `PW` kullanıcı değişkenini görmüyor; tur araçlarından önce
   `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok).
 - **Saat işliyor** (14:01'den beri; adım 6–7 14:55'te başladı). Ortak "durdur" derse ara tablosuna yaz
