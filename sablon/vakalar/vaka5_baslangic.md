@@ -23,6 +23,7 @@ Vaka 4 §4'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adı
 | 1 | 11 Kas 15:12 | 11 Kas 15:41 | 29 dk |
 | 2 | 11 Kas 17:01 | 11 Kas 18:31 | 90 dk |
 | 3 | 11 Kas 18:49 | 11 Kas 19:52 | 63 dk |
+| 4 | 11 Kas 21:33 | | |
 
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
