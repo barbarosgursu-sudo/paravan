@@ -8,7 +8,18 @@
 
 ---
 
-## 00000000000000000000000. ⬅️ 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+## 000000000000000000000000. ⬅️ 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+
+- **araç: Vaka 5 eklendi** — `arac_yeni_tur.js` yolları: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`
+  (Vaka 1–4 önce hızlı oynanır). Barbaros'un genel iznine göre; aracın işleyişi değişmedi.
+  `CLAUDE.md`'deki tur komutu satırına V5 eklenmedi (CLAUDE.md Barbaros'ta) — eklemek istersen: Vaka 5 yolları yukarıda.
+- 6 tur hatasız (4 yol, 4 sonuç, bağ düşük/yüksek iki kapanış). Sızıntı `arac_sizinti_tur.js V5 40`: 1212 ekran temiz;
+  MASUM ve karar metinleri elle okundu (3. ve 4. kararın kazıma bilgisi kovalamacada, her yolda).
+- Bulanık replik taraması: 7 düzeltme (konuşmada Kadir'in vapurdan inmediği sızıyordu; Nedim'in nereden bildiği; kopya
+  saatin fiyatını kimin söylediği; İsmet'e çantanın gelişi; iki kısa replik açıldı). Cüzdan pazarlığı fiyat tablosuna girdi.
+- Sıradaki: **Onay 2** — ortak Vaka 5'i yayında oynar ("Vaka N'den başla" → Vaka 5), notları toplu verir.
+
+## 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 **Durum:** Vaka 5 (Vapur, Bilmece) ortak tarafından yazılıyor. Saat 14:01'de başladı, işliyor
 (`sablon/vakalar/vaka5_baslangic.md` süre tablosu).

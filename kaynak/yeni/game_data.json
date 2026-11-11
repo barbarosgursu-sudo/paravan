@@ -4441,7 +4441,7 @@
               {
                 "k": "nedim",
                 "i": "normal",
-                "m": "Muammer'in dedektifleri. Hoş geldiniz. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış.",
+                "m": "Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış.",
                 "gir": "nedim",
                 "kime": "peri"
               },
@@ -4521,6 +4521,7 @@
                 "gir": "ismet",
                 "gi": "normal"
               },
+              {"k": "not", "m": "Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor."},
               {"k": "peri", "i": "normal", "m": "Bu çanta sizin işiniz mi? İçinde bir damga var.", "gir": "ismet"},
               {
                 "k": "ismet",
@@ -4554,8 +4555,8 @@
               },
               {"k": "cengo", "i": "gulen", "m": "Şu cüzdan kaç?"},
               {"k": "ismet", "i": "normal", "m": "Senin için iki bin.", "kime": "cengo"},
-              {"k": "cengo", "i": "kas", "m": "Bin?"},
-              {"k": "ismet", "i": "normal", "m": "İki bin beş yüz.", "kime": "cengo"},
+              {"k": "cengo", "i": "kas", "m": "Bin lira olmaz mı, usta?"},
+              {"k": "ismet", "i": "normal", "m": "İki bin beş yüz. Pazarlık ettikçe artar.", "kime": "cengo"},
               {
                 "k": "peri",
                 "i": "normal",
@@ -4624,8 +4625,19 @@
                 "gir": "muammer",
                 "kime": "peri"
               },
-              {"k": "cengo", "i": "kas", "m": "Kutudaki kopyayı da sordum. Çarşıda yedi yüz elli liraya satıyorlar."},
-              {"k": "muammer", "i": "ofkeli", "m": "Yedi yüz elli lira! Benim saatimin yerine!", "kime": "cengo"},
+              {
+                "k": "muammer",
+                "i": "ofkeli",
+                "m": "Kutudaki kopyayı çırağa sordurdum: çarşıda yedi yüz elli liraya satıyorlarmış.",
+                "kime": "peri"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Dört yüz binlik saatin yerine yedi yüz elli liralık bir saat.",
+                "kime": "muammer"
+              },
+              {"k": "muammer", "i": "ofkeli", "m": "Bir de siz söylemeyin!", "kime": "cengo"},
               {"k": "peri", "i": "kas", "m": "O saati nereden almıştınız, Muammer Bey?"},
               {"k": "muammer", "i": "normal", "m": "Bir mezattan. Belgesiyle, faturasıyla.", "kime": "peri"},
               {
@@ -4656,7 +4668,7 @@
                 "m": "Her seferinde. Yukarı çıkıp hava alırım, yoksa yaşayamam.",
                 "kime": "cengo"
               },
-              {"k": "peri", "i": "yesil", "m": "Ben de."}
+              {"k": "peri", "i": "yesil", "m": "Beni de deniz tutar, Selim Bey. Sizi çok iyi anlıyorum."}
             ]
           }
         }
@@ -4951,7 +4963,7 @@
             },
             {"k": "cengo", "i": "gulen", "m": "Muammer'in dükkânına da gideriz. O kalan çantaya bir bakmak lazım."},
             {"k": "peri", "i": "kas", "m": "Hepsini karada yapsak?"},
-            {"k": "cengo", "i": "gulen", "m": "Kadir karaya hiç inmez, Peri."}
+            {"k": "cengo", "i": "gulen", "m": "Vapur da bir çeşit kara, Peri. Yüzen kara."}
           ]
         },
         "yuzlesme_dogru": {

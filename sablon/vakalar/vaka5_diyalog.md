@@ -73,7 +73,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [normal]:** Nedim Bey'i de ziyaret edelim. Saati bu kadar isteyen biri, bulunca ne yapar, merak ediyorum.
 **CENGO [gulen]:** Muammer'in dükkânına da gideriz. O kalan çantaya bir bakmak lazım.
 **PERİ [kas]:** Hepsini karada yapsak?
-**CENGO [gulen]:** Kadir karaya hiç inmez, Peri.
+**CENGO [gulen]:** Vapur da bir çeşit kara, Peri. Yüzen kara.
 
 ---
 
@@ -151,7 +151,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan}
 *Gümüş saçları geriye taranmış, fularlı, bastonlu yaşlı bir bey.* {gir: nedim, gi: normal}
-**NEDİM [normal]:** Muammer'in dedektifleri. Hoş geldiniz. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış. {gir: nedim, kime: peri}
+**NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış. {gir: nedim, kime: peri}
 **PERİ [kas]:** Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey.
 **NEDİM [alayci]:** İki kez istedim, iki kez satmadı. Hâlâ istiyorum. Bunu saklamam. {kime: peri}
 **CENGO [kas]:** Salı aynı vapurdaydınız.
@@ -174,6 +174,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Kadıköy çarşısı. Balıkçıların arasında dar bir kapı; içeride deri kokan küçük bir atölye. Tezgâhta yarım kalmış çantalar.* {arka: A40, mekan}
 *Deri önlüklü, gözlüğü burnunun ucunda yaşlı bir usta, bir kayışı dikiyor.* {gir: ismet, gi: normal}
+*Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.*
 **PERİ [normal]:** Bu çanta sizin işiniz mi? İçinde bir damga var. {gir: ismet}
 **İSMET [normal]:** *(damgaya bakıp)* Benim işim. İsmet. Elli yıldır bu damgayı vururum. {kime: peri}
 **CENGO [kas]:** Bu çantadan kaç tane yaptın, usta?
@@ -184,8 +185,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **İSMET [normal]:** Benim elimden çıkan her şey tıpatıp aynıdır, hanımefendi. {kime: peri}
 **CENGO [gulen]:** Şu cüzdan kaç?
 **İSMET [normal]:** Senin için iki bin. {kime: cengo}
-**CENGO [kas]:** Bin?
-**İSMET [normal]:** İki bin beş yüz. {kime: cengo}
+**CENGO [kas]:** Bin lira olmaz mı, usta?
+**İSMET [normal]:** İki bin beş yüz. Pazarlık ettikçe artar. {kime: cengo}
 **PERİ [normal]:** *(derin bir nefes alarak)* Ayağımın altı ilk kez sallanmıyor. Burada biraz daha kalalım.
 
 ## ipucu dukkan_cukurcuma
@@ -201,8 +202,9 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Peri çantayı açıp içine eğiliyor. Astarın köşesinde deriye basılmış küçük bir damga.* {kare: D16}
 **PERİ [merakli]:** İçinde bir damga var. Kadıköy'de bir deri ustasının. {kare: D16}
 **MUAMMER [normal]:** Benim çantamı da o yapmıştı. Kadıköy çarşısında, balıkçıların arasında. {gir: muammer, kime: peri}
-**CENGO [kas]:** Kutudaki kopyayı da sordum. Çarşıda yedi yüz elli liraya satıyorlar.
-**MUAMMER [ofkeli]:** Yedi yüz elli lira! Benim saatimin yerine! {kime: cengo}
+**MUAMMER [ofkeli]:** Kutudaki kopyayı çırağa sordurdum: çarşıda yedi yüz elli liraya satıyorlarmış. {kime: peri}
+**CENGO [kas]:** Dört yüz binlik saatin yerine yedi yüz elli liralık bir saat. {kime: muammer}
+**MUAMMER [ofkeli]:** Bir de siz söylemeyin! {kime: cengo}
 **PERİ [kas]:** O saati nereden almıştınız, Muammer Bey?
 **MUAMMER [normal]:** Bir mezattan. Belgesiyle, faturasıyla. {kime: peri}
 *Muammer bıyığını iki parmağıyla düzeltiyor; Peri'nin gözüne bakmıyor.* {gir: muammer, gi: kacamak}
@@ -212,7 +214,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MUAMMER [ofkeli]:** Sen sandalyene bak, Selim. {kime: selim}
 **CENGO [gulen]:** Selim Bey, salı vapurda deniz tuttu mu sizi?
 **SELİM [normal]:** Her seferinde. Yukarı çıkıp hava alırım, yoksa yaşayamam. {kime: cengo}
-**PERİ [yesil]:** Ben de.
+**PERİ [yesil]:** Beni de deniz tutar, Selim Bey. Sizi çok iyi anlıyorum.
 
 ---
 

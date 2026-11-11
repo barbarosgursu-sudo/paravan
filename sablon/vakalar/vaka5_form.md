@@ -338,6 +338,7 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate, Selim'e ve ortaklı�
 | 30.000 ₺ | Muammer'in hurdacıya ödediği | değerinin çok altında (bilerek) |
 | 750 ₺ | kopya saat | yeni üretim süs cep saati, çarşı fiyatı (~500–1.500 ₺; tahmin, kaynak bulunamadı) |
 | 35 / 30 / 25 ₺, bedava | Cengo'nun simit pazarlığı | İstanbul'da simit Eylül 2026'da 25'ten 30 ₺'ye çıktı (Evrensel, 26.09.2026); vapurda 35 ₺ |
+| 2.000 / 1.000 / 2.500 ₺ | İsmet Usta'nın cüzdanı ve Cengo'nun pazarlığı (şaka: pazarlık ettikçe artar) | el yapımı deri cüzdan, Kadıköy çarşısı (tahmin) |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 | 5.000 ₺ | Muammer'in teşekkürü | hikâye içi |
 | 15.000 + 5.000 ₺ | Selim'in susma payı + Muammer'in sevinci | hikâye içi; kural 26 (ücretin altında) |
