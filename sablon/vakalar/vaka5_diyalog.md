@@ -300,7 +300,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Simitli Cengo yetişip Selim'in üstüne oturuyor. Peri tek ayakkabıyla, saçı darmadağın, çenesi havada duruyor.* {kare: K87}
 **PERİ [kas]:** Martıları ben ayarladım. {kare: K87}
 **SELİM [itiraf]:** Tamam. Ben aldım. {gir: selim}
-**SELİM [itiraf]:** Otuz yıl o dükkânda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti, beni çıkaracaktı.
+**SELİM [itiraf]:** Otuz yıl o dükkânı sırtımda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti. Beni çıkaracaktı.
 **SELİM [itiraf]:** Saati satacağını biliyordum. Çantanın ikizini yaptırdım, içine çarşıdan bir kopya koydum.
 **SELİM [itiraf]:** "Deniz tutar, yukarı çıkacağım" dedim; çıkmadım. Alt salonun arkasında bir direğin dibinde fırsat kolladım.
 **SELİM [itiraf]:** Çay dökülüp Muammer lavaboya gidince çantaları değiştirdim. Saati bu akşam satacaktım.

@@ -229,7 +229,7 @@ bir zil sesi gelir; Muammer: "Benim saatim!" Herkes döner, Selim merdivene koş
 - **Kaçanı yakalayan şans:** Peri'nin felaketinden: yosunlar martıları çekti, martılar Selim'i durdurdu.
 - **Temizlenme:** Kadir vapurdan bir battaniye ve sıcak çay getirir, Peri'nin omzuna atar. Peri ilk kez yeşil değil:
   "Karada deniz tutmuyor."
-- **İtiraf** (her yolda aynı): "Otuz yıl o dükkânda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti, beni çıkaracaktı.
+- **İtiraf** (her yolda aynı): "Otuz yıl o dükkânı sırtımda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti. Beni çıkaracaktı.
   Saati satacağını biliyordum. Çantanın ikizini yaptırdım, içine bir kopya koydum. 'Deniz tutar, yukarı çıkacağım' dedim,
   çıkmadım; alt salonun arkasında bir direğin dibinde fırsat kolladım. Çay dökülünce çantaları değiştirdim. Bu akşam
   satacaktım. Dükkânın bütün saatlerini ben kurarım; Muammer bunu bana sormadan kurmuş, haberim yoktu. Çantadayken
