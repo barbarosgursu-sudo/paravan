@@ -45,7 +45,8 @@ Hikâye henüz donmadı (Onay 2 bitmedi).
   Cengo "simitçiyi yirmi beşe ikna ettim"; Selim "o dükkânı sırtımda taşıdım".
 - **Satır numarası:** ortak artık `sablon/vakalar/vaka5_diyalog.md` dosyasının **satır numarasını** kullanıyor (aşağıdaki
   "sahne içi numara" notu eskidi). 4 satır eklendiği için numaralar 51'den sonra kaydı.
-- **Saat:** 4 ara yazıldı (`vaka5_baslangic.md`); saat **11 Kasım 21:33'te durdu** (ara 4), ortak "başlat" deyince devam.
+- **Saat:** 5 ara yazıldı (`vaka5_baslangic.md`); saat **12 Kasım 00:34'te durdu** (ara 5), ortak "başlat" deyince devam.
+  12 Kas 00:31–00:34: ortak 47. satırı (Nedim'in "yukarıdaydım"ı) Selim'e söyletmeyi önerdi, sonra vazgeçti — metin aynı; baştan sona okuyup karar verecek.
 
 ## 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
