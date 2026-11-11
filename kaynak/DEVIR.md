@@ -19,6 +19,22 @@
   saatin fiyatını kimin söylediği; İsmet'e çantanın gelişi; iki kısa replik açıldı). Cüzdan pazarlığı fiyat tablosuna girdi.
 - Sıradaki: **Onay 2** — ortak Vaka 5'i yayında oynar ("Vaka N'den başla" → Vaka 5), notları toplu verir.
 
+**Yeni pencere için (Onay 2 düzeltmeleri, ortak yeni pencerede devam ediyor):**
+- **Ortağa cevap: basit ve kısa.** Ortak replikleri sahne sahne, sahne içinde 1'den başlayan satır numarasıyla görüyor
+  (ör. "İpucu: Nedim Bey, 11"). Liste veriden üretildi: `yeni/game_data.json` V5 → `sahneler` (giris, konusma,
+  yuzlesme_dogru/zayif/kadir/nedim, kovalamaca, kapanis) ve `clues[].sahne` (vapur_cayci, ust_guverte, kadikoy_iskele,
+  nedim, deri_ustasi, dukkan_cukurcuma); numara = `satirlar` dizisindeki sıra + 1 (sahne notları dahil).
+- **Değişiklik nereye:** replik, sahne notu, karar metni → `sablon/vakalar/vaka5_diyalog.md`, sonra
+  `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka5_diyalog.md V5`. Yapı (olgu metni `facts`, ipucu kartı
+  `clues[].text/meta`, çıkarım, `kim_yapti`, karar parası/bağ, `anahtarlar`) ve künye (`yeni/kisiler.json`) diyalogdan
+  üretilmez: veride doğrudan (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). Hikâye değişirse `vaka5_form.md`'ye de işle.
+- **Her değişiklikten sonra:** `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js`, testler;
+  ses etkileyen yerde tur: `node arac_yeni_tur.js 0 vapur dogru` (yollar yukarıda). Sızıntı: `node arac_sizinti_tur.js V5 40`.
+- **Tuzak (ortağın bilgisayarı):** Claude'un kabuğu `PW` kullanıcı değişkenini görmüyor; tur araçlarından önce
+  `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok).
+- **Saat işliyor** (14:01'den beri; adım 6–7 14:55'te başladı). Ortak "durdur" derse ara tablosuna yaz
+  (`vaka5_baslangic.md`). Onay 2'de ortağın oynama/inceleme süresi "ortak" sütununa.
+
 ## 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 **Durum:** Vaka 5 (Vapur, Bilmece) ortak tarafından yazılıyor. Saat 14:01'de başladı, işliyor
