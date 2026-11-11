@@ -67,8 +67,8 @@ ikiziyle değişti, kutuda kopya saat var; müşteri hırsızlığı ancak alıc
 
 **Çarşamba sabah:** Muammer büroya gelir. **Perşembe 14.45:** yüzleşme, Kadıköy–Karaköy vapurunda (Muammer "aynı vapur,
 aynı salon" diye herkesi toplar; Kadir zaten görevde). Selim saati perşembe akşamı Karaköy'de bir alıcıya satacak; saat
-iç cebinde. Saat **her gün 15.00'te çalar** (Muammer alıcıya göstermek için kurmuştu, kurgusu sekiz gün gider); Selim
-susturmayı bilmez.
+iç cebinde. Saat **her gün 15.00'te çalar** (Muammer alıcıya göstermek için kurmuştu, kurgusu sekiz gün gider). Dükkânın saatlerini hep
+Selim kurar; Muammer bunu ona sormadan kurmuştu, Selim çalacağını bilmiyor.
 
 ## 3. Giriş
 
@@ -220,19 +220,20 @@ bir zil sesi gelir; Muammer: "Benim saatim!" Herkes döner, Selim merdivene koş
 | vuruş | ne olur | Peri'nin pozu (erotik + gülünç) | ara kare |
 |---|---|---|---|
 | 1 | Selim merdivene; Cengo atılır, simitçiyle çarpışır, tabla havaya uçar; simitler Cengo'nun kolunu ve kasketini doldurur | — | yeni |
-| 2 | Üst güverte: Peri topuklularla peşinden çıkar; dalga bordayı aşar, Peri sırılsıklam; havadaki simitlerin susamı üstüne yapışır | korkuluğa tutunmuş, ıslak ipek elbise rüzgârda yapışmış, bir bacak havada, saç yüzünde, susamlı; öfkeli ve gururlu | yeni |
+| 2 | Üst güverte: Peri topuklularla peşinden çıkar; dalga bordayı aşar, Peri sırılsıklam; dalganın getirdiği yosunlar üstüne yapışır | korkuluğa tutunmuş, ıslak ipek elbise rüzgârda yapışmış, bir bacak havada, saç yüzünde, yosunlu; öfkeli ve gururlu | yeni |
 | 3 | Vapur Karaköy'e yanaşır, Selim iskeleye atlar; Peri atlar, topuğu iskele tahtalarının arasına sıkışır, ayakkabıyı bırakıp tek topukla koşar | tek ayakkabıyla, eteği tutarak koşarken, arkasında tahtaya saplanmış topuklu | yeni |
-| 4 | Peri'nin üstündeki susam ve simit kırıntısı martı sürüsünü çeker; sürü Peri'ye dalar, Peri çığlıkla Selim'in yanından geçer, martılar Selim'i de sarar; Selim saati korumak için ellerini göğsüne bastırır, bir halata takılıp düşer. Cengo (simitli) yetişir, üstüne oturur | (bitişte) martılardan kurtulmuş, saçı darmadağın, tek ayakkabılı, çenesi havada: "Martıları ben ayarladım." | yeni |
+| 4 | Peri'nin üstündeki yosunları gören martı sürüsü Peri'ye saldırır, Peri çığlıkla Selim'in yanından geçer, martılar Selim'i de sarar; Selim saati korumak için ellerini göğsüne bastırır, bir halata takılıp düşer. Cengo (simitli) yetişir, üstüne oturur | (bitişte) martılardan kurtulmuş, saçı darmadağın, tek ayakkabılı, çenesi havada: "Martıları ben ayarladım." | yeni |
 
-- **Peri'nin felaketi:** deniz suyu + simit susamı + martılar — vapur vakasının üç öğesi.
+- **Peri'nin felaketi:** deniz suyu + yosun + martılar — vapur vakasının üç öğesi.
 - **Cengo'nun komik anı:** kolunda ve kasketinde simitlerle "seyyar simitçi" olur; simitçi arkadan bağırır: "Parasını ver!"
-- **Kaçanı yakalayan şans:** Peri'nin felaketinden: susam martıları çekti, martılar Selim'i durdurdu.
+- **Kaçanı yakalayan şans:** Peri'nin felaketinden: yosunlar martıları çekti, martılar Selim'i durdurdu.
 - **Temizlenme:** Kadir vapurdan bir battaniye ve sıcak çay getirir, Peri'nin omzuna atar. Peri ilk kez yeşil değil:
   "Karada deniz tutmuyor."
 - **İtiraf** (her yolda aynı): "Otuz yıl o dükkânda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti, beni çıkaracaktı.
-  Saati satacağını biliyordum. Çantanın ikizini yaptırdım, içine bir kopya koydum. 'Deniz tutar' deyip yukarı çıkmadım,
-  arkada oturdum. Çay dökülünce çantaları değiştirdim. Bu akşam satacaktım. Saatin çaldığını unuttum; susturmayı da
-  bilmezdim, onu hep Muammer kurardı."
+  Saati satacağını biliyordum. Çantanın ikizini yaptırdım, içine bir kopya koydum. 'Deniz tutar, yukarı çıkacağım' dedim,
+  çıkmadım; alt salonun arkasında bir direğin dibinde fırsat kolladım. Çay dökülünce çantaları değiştirdim. Bu akşam
+  satacaktım. Dükkânın bütün saatlerini ben kurarım; Muammer bunu bana sormadan kurmuş, haberim yoktu. Çantadayken
+  sesini de duymamışım."
 
 ## 12. Kararlar *(gerçek artık biliniyor; dördü de açık)*
 
@@ -260,7 +261,7 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate ve Selim'e ne olacak.
 
 ## 13. Kapanış
 
-- **Sahne:** Büro, akşam. Peri battaniyeye sarınmış, tek ayakkabı, saçında susam. Gizem pencereden döner: "Her şeyi buradan
+- **Sahne:** Büro, akşam. Peri battaniyeye sarınmış, tek ayakkabı, saçında yosun. Gizem pencereden döner: "Her şeyi buradan
   izledim. Martılar sizi çok sevdi." Cengo'nun kasketinde hâlâ bir simit.
 - **Bağ düşükse (0 ve altı):** Cengo kasketindeki simidi Peri'nin masasına bırakır: "Bu sana. Martılar görmesin." Çıkar.
   Peri simide bakar, yemez.
@@ -272,7 +273,7 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate ve Selim'e ne olacak.
 - **Peri (yeni) 🟢:** **zümrüt yeşili ince ipek elbise** (askılı, diz üstü, dökümlü — denize yanlış seçilmiş), **ince
   topuklu siyah sandalet**, küçük inci küpe; saç açık, rüzgârda dağınık. Üstünde ince krem bir hırka (girişte çıkarır).
 - **Cengo (yeni):** **lacivert balıkçı yaka kazak**, kahverengi **kasket**, kot, bot; tel kazağın altında, gömlek cebinde.
-- **Peri'nin felaket kıyafeti:** aynı elbise sırılsıklam, susamlı, saç ıslak; tek ayakkabı. Kapanışta üstünde vapur
+- **Peri'nin felaket kıyafeti:** aynı elbise sırılsıklam, yosunlu, saç ıslak; tek ayakkabı. Kapanışta üstünde vapur
   battaniyesi (bağ yüksekse Cengo'nun kazağı).
 - **Cengo'nun felaket hâli:** kolunda ve kasketinde dizili simitler.
 - **Gizem:** sade (önceki kıyafeti ya da yeni sade bir kart; adım 8'de).
@@ -295,7 +296,7 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate ve Selim'e ne olacak.
 | tür | ne |
 |---|---|
 | Peri, ipek elbise | satırların istediği ifadeler + deniz tutmuş (yeşil) hâli |
-| Peri, felaket | ıslak susamlı öfkeli/utanmış; battaniyeli (kapanış) |
+| Peri, felaket | ıslak yosunlu öfkeli/utanmış; battaniyeli (kapanış) |
 | Cengo, balıkçı yaka + kasket | satırların istediği ifadeler + simitli hâl; kazaksız (bağ yüksek kapanış) |
 | Gizem | kapanış |
 | Muammer (yeni) | normal (gösterişli), öfkeli, yalanda (bıyık) |

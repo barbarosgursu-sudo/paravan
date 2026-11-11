@@ -7,7 +7,7 @@
 Yazım `vaka4_diyalog.md`'deki gibi. Vaka 5'in kıyafetleri (kıyafet hâli):
 - **Peri:** `ipek` (zümrüt yeşili ince ipek elbise, üstünde krem hırka, siyah topuklu sandalet — dışarıda),
   `ipek_acik` (hırka sandalyede: yalnız ipek elbise — yalnız büroda, giriş çekicilik anından sonra ve konuşma),
-  `islak` (kovalamaca: elbise sırılsıklam, susamlı, tek ayakkabı), `battaniye` (ıslak hâlin üstünde vapur battaniyesi —
+  `islak` (kovalamaca: elbise sırılsıklam, yosunlu, tek ayakkabı), `battaniye` (ıslak hâlin üstünde vapur battaniyesi —
   kovalamaca sonu ve kapanış).
 - **Cengo:** `balikci` (lacivert balıkçı yaka kazak, kahverengi kasket), `simitli` (kolunda ve kasketinde simitler — kovalamaca).
 - **Gizem:** `triko` (Vaka 4'teki sade kıyafet; yalnız kapanış).
@@ -49,13 +49,14 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MUAMMER [normal]:** Tamircim Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı. {kime: peri}
 **MUAMMER [normal]:** Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır yanımda çalışır; dükkânın tamircisi odur.
 **MUAMMER [normal]:** Bir şey daha: saat çalar. Her gün öğleden sonra üçte. Alıcıya göstermek için ben kurmuştum.
+**PERİ [merakli]:** Polise gittiniz mi, Muammer Bey?
 **MUAMMER [dertli]:** Polise gidemem; satışı sessiz yapıyordum. Saat geri gelsin, kimse de duymasın. Bütün istediğim bu.
 *Peri kalkıp pencereyi açıyor; içeri iskelenin rüzgârı doluyor. Hırkasını çıkarıp sandalyenin arkasına asıyor: altında askılı, zümrüt yeşili ince ipek bir elbise.* {kare: K79, set: ipek_acik}
 **MUAMMER [normal]:** Siz de iyi korunmuşsunuz, hanımefendi. Bu ipek çok iyi bir dönemden kalma. {gir: muammer, kime: peri}
 **PERİ [kas]:** Ben antika değilim, Muammer Bey.
 **PERİ [normal]:** Ücretimiz kırk bin lira. Saati bulduğumuzda ödersiniz.
 **MUAMMER [normal]:** Saat geri gelirse kırk bin, az bile. {kime: peri}
-**CENGO [gulen]:** O zaman vapura bineceğiz. {kime: peri}
+**CENGO [gulen]:** O zaman bugün vapurda bir Boğaz gezintisi yapacağız, Peri. Simit de alırız. {kime: peri}
 **PERİ [kas]:** Ben vapura binmem, Cengo. Beni deniz tutar.
 **CENGO [gulen]:** İskele pencerenin dibinde, Peri.
 **PERİ [kas]:** Pencereden bakınca da tutuyor.
@@ -99,7 +100,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [gulen]:** Simit kaç? {gir: simitci}
 **SİMİTÇİ [normal]:** Otuz beş, abi. {kime: cengo}
 **CENGO [kas]:** Karada otuz.
-**SİMİTÇİ [normal]:** Karada deniz yok, abi. {kime: cengo}
+**SİMİTÇİ [normal]:** Karada otuz, denizde otuz beş, Moda'da yüz otuz beş, abi. {kime: cengo}
 **PERİ [yesil]:** Lütfen yiyecek bir şeyden söz etmeyin.
 
 ## ipucu ust_guverte
@@ -118,7 +119,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Yukarıda sizden başka kim vardı?
 **DERYA [normal]:** Hava soğuktu. Bir tek amca vardı, bütün yol. Efe'ye simit verdi, beraber martılara attılar. {kime: cengo}
 **PERİ [merakli]:** Bir tek mi? Emin misiniz?
-**DERYA [normal]:** Eminim. Yakasını kaldırmıştı, yüzüne bakmadım. Ama başka kimse çıkmadı; kapı hep gözümün önündeydi. {kime: peri}
+**DERYA [normal]:** Eminim. Yakasını kaldırmıştı, yüzüne bakmadım. Ama başka kimse çıkmadı. {kime: peri}
+**DERYA [normal]:** Böyle rüzgârlı günlerde güverte boş kalır. Kapı da hep gözümün önündeydi.
 **PERİ [kas]:** İki kişi "bütün yol yukarıdaydım" diyor, Cengo. Burada bir kişi varmış.
 **EFE [normal]:** Abla, sen niye yeşilsin? {gir: efe, kime: peri}
 **PERİ [yesil]:** Ben yeşil değilim. Elbisem yeşil.
@@ -130,19 +132,19 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: çanta karaya çıktı, Kadir vapurdan inmez; çantayla inen üç kişi (Muammer, Selim, Nedim) — Selim ya da Nedim.
 
 *Kadıköy iskelesi. Turnikelerden insanlar akıyor; bir vapur yanaşıyor.* {arka: A38, mekan}
-*Lacivert yelekli, boynunda ıslık olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.* {gir: gorevli, gi: normal}
+*Lacivert yelekli, boynunda düdük olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.* {gir: gorevli, gi: normal}
 **PERİ [normal]:** İyi günler. Salı günü ikide Karaköy'den kalkan vapurda bir çanta kaybolmuş. Sahibi size gelmiş. {gir: gorevli}
 **GÖREVLİ [normal]:** Muammer Bey. Hatırlıyorum; kıpkırmızıydı. Hanımefendi, siz otursanız iyi olur, renginiz gitmiş. {kime: peri}
 *Peri iskelenin bankına oturuyor; bacak bacak üstüne atıp ipek eteğini düzeltiyor.* {peri: yesil}
 **PERİ [yesil]:** Teşekkür ederim. Vapuru aradınız mı?
-**GÖREVLİ [normal]:** Baştan sona aradık. Koltukların altı, can yelekleri, lavabolar. Çanta yoktu; karaya çıkmış. {kime: peri}
+**GÖREVLİ [normal]:** Baştan sona aradık. Koltukların altı, can yelekleri, lavabolar. Çanta yoktu; karaya yürüyüşe çıkmış. {kime: peri}
 **CENGO [kas]:** Çaycı Kadir de inmiş olabilir mi?
 **GÖREVLİ [normal]:** Kadir mi? Kadir akşama kadar vapurdan inmez. Orada yaşar o. {kime: cengo}
-**PERİ [merakli]:** O seferden çantayla inen birini hatırlıyor musunuz? {gir: gorevli}
+**PERİ [merakli]:** O seferden benzer bir çantayla inen birini hatırlıyor musunuz? {gir: gorevli}
 **GÖREVLİ [normal]:** Üç beyefendi. Muammer Bey, tamircisi Selim Bey, bir de bastonlu Nedim Bey. Üçü de buranın müdavimi. {kime: peri}
 **GÖREVLİ [normal]:** Üçünün de elinde kahverengi bir deri çanta vardı. Kimin hangisi, bilemem.
-**CENGO [gulen]:** Defterine çantaları da yazsaydın.
-**GÖREVLİ [normal]:** Ben vapur yazarım, çanta yazmam. {kime: cengo}
+**CENGO [gulen]:** Defterine çantaları da yazsaydın ya: "Kahverengi, deri, üç tane; biri hırsız."
+**GÖREVLİ [normal]:** Artık her şey elektronik; bu defteri bir ben okurum. Martıları sayıyorum: bugün kırk iki, biri topal. {kime: cengo}
 
 ## ipucu nedim
 ⚙ arka: A39 · figurler: peri, cengo · set: ipek · cset: balikci
@@ -151,7 +153,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan}
 *Gümüş saçları geriye taranmış, fularlı, bastonlu yaşlı bir bey.* {gir: nedim, gi: normal}
-**NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış. {gir: nedim, kime: peri}
+**NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. {gir: nedim, kime: peri}
+**NEDİM [normal]:** Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli.
 **PERİ [kas]:** Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey.
 **NEDİM [alayci]:** İki kez istedim, iki kez satmadı. Hâlâ istiyorum. Bunu saklamam. {kime: peri}
 **CENGO [kas]:** Salı aynı vapurdaydınız.
@@ -284,24 +287,25 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ## sahne kovalamaca
 ⚙ arka: A36 · figurler: peri, cengo · set: ipek · cset: balikci
-⚙ akış: Alt salon (Cengo simitçiyle çarpışır) → üst güverte (dalga, Peri ıslanır, susam) → vapur Karaköy'e yanaşır, iskele (topuk sıkışır) → Karaköy iskelesi (martılar, Selim düşer) → itiraf; Kadir battaniyeyle gelir, Muammer saati açar (kazıma).
-⚙ Her sonuçta aynı. Peri erotik + gülünç, felaketi deniz suyu + susam + martılar; Selim'i şans (Peri'nin peşindeki martılar) durdurur.
+⚙ akış: Alt salon (Cengo simitçiyle çarpışır) → üst güverte (dalga, Peri ıslanır, yosun) → vapur Karaköy'e yanaşır, iskele (topuk sıkışır) → Karaköy iskelesi (martılar, Selim düşer) → itiraf; Kadir battaniyeyle gelir, Muammer saati açar (kazıma).
+⚙ Her sonuçta aynı. Peri erotik + gülünç, felaketi deniz suyu + yosun + martılar; Selim'i şans (Peri'nin peşindeki martılar) durdurur.
 
 *Selim merdivene koşuyor. Cengo peşinden atılırken simitçiyle çarpışıyor; tabla havaya uçuyor. Simitler Cengo'nun koluna ve kasketine geçiyor.* {kare: K83, cset: simitli}
 **SİMİTÇİ [ofkeli]:** Abi, parasını ver! {gir: simitci, kime: cengo}
 **CENGO [kas]:** Bedava dedin! {kare: K83}
-*Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; havadaki simitlerin susamı ıslak elbisesine yapışıyor.* {arka: A37, kare: K84, set: islak, peri: sinirli}
-**PERİ [sinirli]:** *(korkuluğa tutunarak)* Beni deniz tutmuyor. Deniz bana saldırıyor. {kare: K84}
+*Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; dalganın getirdiği yosunlar ıslak elbisesine yapışıyor.* {arka: A37, kare: K84, set: islak, peri: sinirli}
 *Vapur Karaköy'e yanaşıyor. Selim halat atılmadan iskeleye atlıyor. Peri arkasından atlıyor; topuğu iskelenin tahtaları arasına sıkışıyor. Ayakkabıyı orada bırakıp tek topukla koşuyor.* {arka: A42, kare: K85}
-*Peri'nin üstündeki susamın kokusunu alan martılar ona dalıyor. Peri çığlıkla koşarken Selim'in yanından geçiyor; sürü Selim'i de sarıyor. Selim saati korumak için ellerini göğsüne bastırıyor, bir halata takılıp düşüyor.* {kare: K86}
+*Peri'nin üstündeki yosunları gören martılar ona saldırıyor. Peri çığlıkla koşarken Selim'in yanından geçiyor; sürü Selim'i de sarıyor. Selim saati korumak için ellerini göğsüne bastırıyor, bir halata takılıp düşüyor.* {kare: K86}
+**PERİ [sinirli]:** *(kollarını sallayarak)* Beni deniz tutmuyor. Deniz bana saldırıyor! {kare: K86}
 *Simitli Cengo yetişip Selim'in üstüne oturuyor. Peri tek ayakkabıyla, saçı darmadağın, çenesi havada duruyor.* {kare: K87}
 **PERİ [kas]:** Martıları ben ayarladım. {kare: K87}
 **SELİM [itiraf]:** Tamam. Ben aldım. {gir: selim}
 **SELİM [itiraf]:** Otuz yıl o dükkânda taşıdım, tamir ettim. Muammer dükkânı oğluna verecekti, beni çıkaracaktı.
 **SELİM [itiraf]:** Saati satacağını biliyordum. Çantanın ikizini yaptırdım, içine çarşıdan bir kopya koydum.
-**SELİM [itiraf]:** "Deniz tutar" deyip yukarı çıkmadım; alt salonun arkasında, direğin dibinde oturdum.
+**SELİM [itiraf]:** "Deniz tutar, yukarı çıkacağım" dedim; çıkmadım. Alt salonun arkasında bir direğin dibinde fırsat kolladım.
 **SELİM [itiraf]:** Çay dökülüp Muammer lavaboya gidince çantaları değiştirdim. Saati bu akşam satacaktım.
-**SELİM [itiraf]:** Çaldığını unuttum. Susturmayı da bilmezdim; onu hep Muammer kurardı.
+**SELİM [itiraf]:** Dükkânın bütün saatlerini ben kurarım. Muammer bunu bana sormadan kurmuş; çalacağından haberim yoktu.
+**SELİM [itiraf]:** Çantadayken sesini de duymamışım.
 *Muammer nefes nefese iskeleden koşarak geliyor.* {gir: muammer, gi: ofkeli}
 **MUAMMER [ofkeli]:** Otuz yıl, Selim! Otuz yılı bir saate mi değiştin? {kime: selim}
 **SELİM [itiraf]:** Sen otuz yılı bir teşekküre değiştin, Muammer. {kime: muammer}
@@ -397,9 +401,9 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ arka: A8 · figurler: peri, cengo · set: battaniye · cset: simitli
 ⚙ akış: Büro, akşam. Peri battaniyeye sarınmış masada, tek ayakkabılı. Gizem pencerenin önünde (iskeleyi gören pencere). Cengo masanın kenarında, kasketinde hâlâ bir simit. Bağın iki hâli (kural 12a, eşik +1).
 
-*Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında susam, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.* {gir: gizem, gi: triko}
+*Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında yosun, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.* {gir: gizem, gi: triko}
 **GİZEM [triko]:** Her şeyi buradan izledim. Martılar sizi çok sevdi, tatlım. {kime: peri}
-**PERİ [kas]:** Martılar susamı sevdi, Gizem. {gir: gizem}
+**PERİ [kas]:** Martılar yosunları sevdi, Gizem. {gir: gizem}
 *Cengo masanın kenarına ilişmiş; kasketinde hâlâ bir simit takılı.* {kare: K89}
 **GİZEM [triko_isveli]:** Simitçi abiye selam söyle, Cengo. {gir: gizem, kime: cengo}
 *Cengo kasketindeki simidi çıkarıp Peri'nin masasına bırakıyor.* {bag: dusuk, kare: K90}
@@ -436,9 +440,9 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka5_
 | K81 | Selim'in ceketinin iç cebi (yakın); eli göğsünde; zil sesi | yüzleşme (dört sonuç) |
 | K82 | Herkes Selim'e dönmüş; Selim merdivene koşuyor | yüzleşme kaçışı (dört sonuç) |
 | K83 | Cengo simitçiyle çarpışmış, tabla havada, simitler kolunda ve kasketinde | kovalamaca 1 |
-| K84 | Peri üst güvertede korkuluğa tutunmuş, dalga üstüne boşalmış, ıslak ipek elbise, susamlı, bir bacak havada | kovalamaca 2 |
+| K84 | Peri üst güvertede korkuluğa tutunmuş, dalga üstüne boşalmış, ıslak ipek elbise, yosunlu, bir bacak havada | kovalamaca 2 |
 | K85 | Peri'nin topuğu iskele tahtasına sıkışmış; Peri tek ayakkabıyla koşuyor, ileride Selim | kovalamaca 3 |
-| K86 | Martı sürüsü Peri'nin peşinde, Selim'i de sarmış; Selim halata takılıp düşüyor | kovalamaca 4 |
+| K86 | Martı sürüsü yosunlu Peri'nin peşinde, Selim'i de sarmış; Selim halata takılıp düşüyor | kovalamaca 4 |
 | K87 | Simitli Cengo Selim'in üstünde oturuyor; Peri tek ayakkabılı, saçı darmadağın, çenesi havada | kovalamaca sonu |
 | K88 | Kadir battaniyeyi Peri'nin ıslak omuzlarına atıyor, elinde çay | kovalamaca sonu |
 | K89 | Cengo masanın kenarında, kasketinde simit; Peri battaniyeli masada; Gizem pencerede | kapanış |

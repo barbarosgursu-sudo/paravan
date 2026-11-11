@@ -4252,7 +4252,12 @@
               {"k": "cengo", "i": "gulen", "m": "Simit kaç?", "gir": "simitci"},
               {"k": "simitci", "i": "normal", "m": "Otuz beş, abi.", "kime": "cengo"},
               {"k": "cengo", "i": "kas", "m": "Karada otuz."},
-              {"k": "simitci", "i": "normal", "m": "Karada deniz yok, abi.", "kime": "cengo"},
+              {
+                "k": "simitci",
+                "i": "normal",
+                "m": "Karada otuz, denizde otuz beş, Moda'da yüz otuz beş, abi.",
+                "kime": "cengo"
+              },
               {"k": "peri", "i": "yesil", "m": "Lütfen yiyecek bir şeyden söz etmeyin."}
             ]
           }
@@ -4313,8 +4318,13 @@
               {
                 "k": "derya",
                 "i": "normal",
-                "m": "Eminim. Yakasını kaldırmıştı, yüzüne bakmadım. Ama başka kimse çıkmadı; kapı hep gözümün önündeydi.",
+                "m": "Eminim. Yakasını kaldırmıştı, yüzüne bakmadım. Ama başka kimse çıkmadı.",
                 "kime": "peri"
+              },
+              {
+                "k": "derya",
+                "i": "normal",
+                "m": "Böyle rüzgârlı günlerde güverte boş kalır. Kapı da hep gözümün önündeydi."
               },
               {
                 "k": "peri",
@@ -4354,7 +4364,7 @@
               },
               {
                 "k": "not",
-                "m": "Lacivert yelekli, boynunda ıslık olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.",
+                "m": "Lacivert yelekli, boynunda düdük olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.",
                 "gir": "gorevli",
                 "gi": "normal"
               },
@@ -4379,7 +4389,7 @@
               {
                 "k": "gorevli",
                 "i": "normal",
-                "m": "Baştan sona aradık. Koltukların altı, can yelekleri, lavabolar. Çanta yoktu; karaya çıkmış.",
+                "m": "Baştan sona aradık. Koltukların altı, can yelekleri, lavabolar. Çanta yoktu; karaya yürüyüşe çıkmış.",
                 "kime": "peri"
               },
               {"k": "cengo", "i": "kas", "m": "Çaycı Kadir de inmiş olabilir mi?"},
@@ -4392,7 +4402,7 @@
               {
                 "k": "peri",
                 "i": "merakli",
-                "m": "O seferden çantayla inen birini hatırlıyor musunuz?",
+                "m": "O seferden benzer bir çantayla inen birini hatırlıyor musunuz?",
                 "gir": "gorevli"
               },
               {
@@ -4406,8 +4416,17 @@
                 "i": "normal",
                 "m": "Üçünün de elinde kahverengi bir deri çanta vardı. Kimin hangisi, bilemem."
               },
-              {"k": "cengo", "i": "gulen", "m": "Defterine çantaları da yazsaydın."},
-              {"k": "gorevli", "i": "normal", "m": "Ben vapur yazarım, çanta yazmam.", "kime": "cengo"}
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Defterine çantaları da yazsaydın ya: \"Kahverengi, deri, üç tane; biri hırsız.\""
+              },
+              {
+                "k": "gorevli",
+                "i": "normal",
+                "m": "Artık her şey elektronik; bu defteri bir ben okurum. Martıları sayıyorum: bugün kırk iki, biri topal.",
+                "kime": "cengo"
+              }
             ]
           }
         },
@@ -4441,9 +4460,14 @@
               {
                 "k": "nedim",
                 "i": "normal",
-                "m": "Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. Hanımefendi, bu ipek size Muammer'in bütün dükkânından çok yakışmış.",
+                "m": "Muammer'in dedektifleri. Aradı, geleceğinizi söyledi.",
                 "gir": "nedim",
                 "kime": "peri"
+              },
+              {
+                "k": "nedim",
+                "i": "normal",
+                "m": "Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli."
               },
               {"k": "peri", "i": "kas", "m": "Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey."},
               {
@@ -4909,6 +4933,7 @@
               "i": "normal",
               "m": "Bir şey daha: saat çalar. Her gün öğleden sonra üçte. Alıcıya göstermek için ben kurmuştum."
             },
+            {"k": "peri", "i": "merakli", "m": "Polise gittiniz mi, Muammer Bey?"},
             {
               "k": "muammer",
               "i": "dertli",
@@ -4930,7 +4955,12 @@
             {"k": "peri", "i": "kas", "m": "Ben antika değilim, Muammer Bey."},
             {"k": "peri", "i": "normal", "m": "Ücretimiz kırk bin lira. Saati bulduğumuzda ödersiniz."},
             {"k": "muammer", "i": "normal", "m": "Saat geri gelirse kırk bin, az bile.", "kime": "peri"},
-            {"k": "cengo", "i": "gulen", "m": "O zaman vapura bineceğiz.", "kime": "peri"},
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "O zaman bugün vapurda bir Boğaz gezintisi yapacağız, Peri. Simit de alırız.",
+              "kime": "peri"
+            },
             {"k": "peri", "i": "kas", "m": "Ben vapura binmem, Cengo. Beni deniz tutar."},
             {"k": "cengo", "i": "gulen", "m": "İskele pencerenin dibinde, Peri."},
             {"k": "peri", "i": "kas", "m": "Pencereden bakınca da tutuyor."}
@@ -5177,17 +5207,11 @@
             {"k": "cengo", "i": "kas", "m": "Bedava dedin!", "kare": "K83"},
             {
               "k": "not",
-              "m": "Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; havadaki simitlerin susamı ıslak elbisesine yapışıyor.",
+              "m": "Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; dalganın getirdiği yosunlar ıslak elbisesine yapışıyor.",
               "arka": "A37",
               "kare": "K84",
               "set": "islak",
               "peri": "sinirli"
-            },
-            {
-              "k": "peri",
-              "i": "sinirli",
-              "m": "(korkuluğa tutunarak) Beni deniz tutmuyor. Deniz bana saldırıyor.",
-              "kare": "K84"
             },
             {
               "k": "not",
@@ -5197,7 +5221,13 @@
             },
             {
               "k": "not",
-              "m": "Peri'nin üstündeki susamın kokusunu alan martılar ona dalıyor. Peri çığlıkla koşarken Selim'in yanından geçiyor; sürü Selim'i de sarıyor. Selim saati korumak için ellerini göğsüne bastırıyor, bir halata takılıp düşüyor.",
+              "m": "Peri'nin üstündeki yosunları gören martılar ona saldırıyor. Peri çığlıkla koşarken Selim'in yanından geçiyor; sürü Selim'i de sarıyor. Selim saati korumak için ellerini göğsüne bastırıyor, bir halata takılıp düşüyor.",
+              "kare": "K86"
+            },
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "(kollarını sallayarak) Beni deniz tutmuyor. Deniz bana saldırıyor!",
               "kare": "K86"
             },
             {
@@ -5220,14 +5250,19 @@
             {
               "k": "selim",
               "i": "itiraf",
-              "m": "\"Deniz tutar\" deyip yukarı çıkmadım; alt salonun arkasında, direğin dibinde oturdum."
+              "m": "\"Deniz tutar, yukarı çıkacağım\" dedim; çıkmadım. Alt salonun arkasında bir direğin dibinde fırsat kolladım."
             },
             {
               "k": "selim",
               "i": "itiraf",
               "m": "Çay dökülüp Muammer lavaboya gidince çantaları değiştirdim. Saati bu akşam satacaktım."
             },
-            {"k": "selim", "i": "itiraf", "m": "Çaldığını unuttum. Susturmayı da bilmezdim; onu hep Muammer kurardı."},
+            {
+              "k": "selim",
+              "i": "itiraf",
+              "m": "Dükkânın bütün saatlerini ben kurarım. Muammer bunu bana sormadan kurmuş; çalacağından haberim yoktu."
+            },
+            {"k": "selim", "i": "itiraf", "m": "Çantadayken sesini de duymamışım."},
             {"k": "not", "m": "Muammer nefes nefese iskeleden koşarak geliyor.", "gir": "muammer", "gi": "ofkeli"},
             {"k": "muammer", "i": "ofkeli", "m": "Otuz yıl, Selim! Otuz yılı bir saate mi değiştin?", "kime": "selim"},
             {"k": "selim", "i": "itiraf", "m": "Sen otuz yılı bir teşekküre değiştin, Muammer.", "kime": "muammer"},
@@ -5267,7 +5302,7 @@
           "satirlar": [
             {
               "k": "not",
-              "m": "Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında susam, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.",
+              "m": "Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında yosun, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.",
               "gir": "gizem",
               "gi": "triko"
             },
@@ -5277,7 +5312,7 @@
               "m": "Her şeyi buradan izledim. Martılar sizi çok sevdi, tatlım.",
               "kime": "peri"
             },
-            {"k": "peri", "i": "kas", "m": "Martılar susamı sevdi, Gizem.", "gir": "gizem"},
+            {"k": "peri", "i": "kas", "m": "Martılar yosunları sevdi, Gizem.", "gir": "gizem"},
             {"k": "not", "m": "Cengo masanın kenarına ilişmiş; kasketinde hâlâ bir simit takılı.", "kare": "K89"},
             {
               "k": "gizem",
