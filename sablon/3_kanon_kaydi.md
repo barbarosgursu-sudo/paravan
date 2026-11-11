@@ -15,8 +15,8 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 
 | kişi | bilinen |
 |---|---|
-| **Peri** | 37. Eski güzellik kraliçesi. Salonları ve kozmetik markası vardı. Avukatı hesapları boşaltıp kaçtı. Evi haczedildi. Elinde kalan tek şey Paravan Dedektiflik. |
-| **Cengo** | 34. Sokağı bilir, beş parasız. Avukat onu Paravan'ın bordrosuna yazmış; yedi yıl hesabına küçük bir maaş yatmış, hiç sormamış. Maaş kesilince büroya geldi. "Alacağı" var, gitmiyor. |
+| **Peri** | 37. Eski güzellik kraliçesi. Salonları ve kozmetik markası vardı. Avukatı hesapları boşaltıp kaçtı. Evi haczedildi. Elinde kalan tek şey Paravan Dedektiflik. Deniz tutar *(Vaka 5, ortağın onayı, 11 Kasım 2026)*. |
+| **Cengo** | 34. Sokağı bilir, beş parasız. Avukat onu Paravan'ın bordrosuna yazmış; yedi yıl hesabına küçük bir maaş yatmış, hiç sormamış. Maaş kesilince büroya geldi. "Alacağı" var, gitmiyor. Karaköy–Kadıköy vapurunun çaycısı Kadir'i tanır *(Vaka 5, 11 Kasım 2026)*. |
 | **Cengo'nun kızı** | 17. Annesiyle uzakta yaşıyor; Cengo uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. |
 | **Avukat** | Peri'yi dolandırıp kaçtı. Paravan'ı vergi için o kurdu, Cengo'yu bordroya o yazdı. Vaka 8'de döner. |
 | **Hilmi Bey** | İcra memuru, otuzlarında. Açılışta Peri'nin evini haczeder. Annesi bir zamanlar Peri'ye oy vermiş. |

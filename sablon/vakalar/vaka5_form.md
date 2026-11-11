@@ -1,13 +1,13 @@
 # VAKA 5 FORMU — VAPUR
 
-Şablon 6'ya göre. Durum: **TASLAK — Onay 1 bekliyor** (ortak onaylar; 11 Kasım 2026 rol ayrımı).
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 11 Kasım 2026, ortak).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslak Columbo (Ters) tipindeydi; **Bilmece**'ye çevrildi
 (ortağın kararı, 11 Kasım 2026): müşteri antikacı, saati ortağı alıyor, oyuncu suçluyu bilmiyor. Taslaktan kalanlar:
 Karaköy–Kadıköy vapuru, çaycı, martı besleyen çocuk, iskele görevlisi, "o sırada üst güvertedeydim" yalanı, Peri'yi deniz
 tutması, Cengo'nun simitçiyle pazarlığı, kararın üç ucu (gerçeği söyle / "buldum" de, iki taraftan para / saatin gerçek
 sahibini araştır), kıyafetler.
-🟡 = **kanona ekleme**, onay ister (§18). 🟢 = görünüş/kıyafet önerisi. ⏳ = fiyat, kontrol edilecek (§17).
+🟡 = kanona ekleme (§18, onaylandı). 🟢 = görünüş/kıyafet (onaylandı).
 
 **Önceki vakalardan ayrışma:** V1–V3'te bir şey çalındı, V4'te sır. Burada çalınan şey **yerinde duruyor gibi**: çanta
 ikiziyle değişti, kutuda kopya saat var; müşteri hırsızlığı ancak alıcının masasında fark ediyor. İlk kez olay yeri
@@ -77,7 +77,7 @@ susturmayı bilmez.
 - **Ne istiyor:** Saatin bulunması. "Polise gidemem; satışı sessiz yapıyordum. Saat dönsün, kimse duymasın."
 - **Ne saklıyor:** Saati belgesiz ve çok ucuza aldığını (F'de kısmen, 3. kararda tamamen).
 - **Girişte anlattıkları** (ipucu değil):
-  - Saat: 19. yüzyıl, alaturka rakamlı, çalar cep saati. Alıcı **400.000 ₺** verecekti ⏳.
+  - Saat: 19. yüzyıl, alaturka rakamlı, çalar cep saati. Alıcı **400.000 ₺** verecekti.
   - Salı 14.00 vapuru, çay kazası, beş dakika lavabo, Kadıköy'de alıcının masasında kopya. Çanta da onunkinin aynısı.
   - "Saat her gün öğleden sonra üçte çalar. Alıcıya göstermek için kurmuştum." *(yüzleşmenin kurulumu)*
   - Şüpheleri: "Çayı döken **çaycı**, Kadir. Kaza mıydı? Bir de **Nedim Bey**: saati iki kez istedi, satmadım. Salı aynı
@@ -130,8 +130,7 @@ Peri 3 (C, D, F), Cengo 3 (A, B, E). *İpucu adları yeni ad taşımaz (K18): "�
 Kadir ve Nedim girişte.*
 
 **Tekrar eden şakalar:** (1) Peri'yi deniz tutuyor; her vapur sahnesinde biraz daha yeşil, "tutmuyor" der. (2) Cengo her
-sahnede vapurun simitçisiyle simit pazarlığı yapar, her seferinde bir öncekinden ucuza koparır; sonunda simitçi ona
-bedava verir ⏳.
+sahnede vapurun simitçisiyle simit pazarlığı yapar (vapurda 35 ₺): 30, 25, sonunda simitçi ona bedava verir.
 
 **Sahne özetleri**
 - **A.** Alt salon, çay tezgâhı. Kadir Cengo'ya sarılır. Peri bir direğe tutunmuş, yeşil. Kadir: dalga geldi, tepsi uçtu;
@@ -335,10 +334,10 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate, Selim'e ve ortaklı�
 | tutar | ne | dayanak |
 |---|---|---|
 | 40.000 ₺ | vaka ücreti | V3–V4 ile aynı; antikacı, büyük satış |
-| 400.000 ₺ | alıcının saate verdiği | ⏳ 19. yy. alaturka rakamlı çalar cep saati; kontrol edilecek |
+| 400.000 ₺ | alıcının saate verdiği | Osmanlı pazarı için yapılmış saatler Türkiye müzayedelerinde ~100.000 ₺ (1908 tarihli saat, 100.800 ₺) ile 1 milyon ₺ üstü (tuğralı altın cep saati iddiası) arasında; çalar ve alaturka rakamlı iyi bir parça için orta değer. Kontrol 11 Kasım 2026 |
 | 30.000 ₺ | Muammer'in hurdacıya ödediği | değerinin çok altında (bilerek) |
-| 750 ₺ | kopya saat | ⏳ kontrol edilecek |
-| simit (her pazarlık turu) | Cengo'nun pazarlığı | ⏳ 2026 vapur simidi fiyatı; kontrol edilecek |
+| 750 ₺ | kopya saat | yeni üretim süs cep saati, çarşı fiyatı (~500–1.500 ₺; tahmin, kaynak bulunamadı) |
+| 35 / 30 / 25 ₺, bedava | Cengo'nun simit pazarlığı | İstanbul'da simit Eylül 2026'da 25'ten 30 ₺'ye çıktı (Evrensel, 26.09.2026); vapurda 35 ₺ |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 | 5.000 ₺ | Muammer'in teşekkürü | hikâye içi |
 | 15.000 + 5.000 ₺ | Selim'in susma payı + Muammer'in sevinci | hikâye içi; kural 26 (ücretin altında) |
@@ -347,9 +346,9 @@ Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate, Selim'e ve ortaklı�
 
 ## 18. Kanon
 
-**Sezon kanonuna eklenecek — onay gerekiyor:**
-1. 🟡 **Peri'yi deniz tutar.** (Taslakta var; sezon kanonuna girerse sonraki vakalarda da geçerli.)
-2. 🟡 **Cengo vapurun çaycısı Kadir'i tanır** (büro iskeleye bakıyor; Cengo her gün vapura çay içmeye biner).
+**Sezon kanonuna eklendi (ortağın onayı, 11 Kasım 2026; `3_kanon_kaydi.md`):**
+1. ✅ **Peri'yi deniz tutar.**
+2. ✅ **Cengo vapurun çaycısı Kadir'i tanır** (büro iskeleye bakıyor; Cengo vapura çay içmeye biner).
 
 **Vaka kanonu:** Muammer Bey ve Çukurcuma'daki dükkânı, Selim, Kadir, Nedim Bey (Moda), İsmet Usta, Efe ve Derya Hanım,
 iskele görevlisi, simitçi, Nermin Hanım (yalnız 3. kararda), çalar cep saati ("N.'ye, 1964").
@@ -365,18 +364,18 @@ iskele görevlisi, simitçi, Nermin Hanım (yalnız 3. kararda), çalar cep saat
 - [x] Defter cümleleri suçluyu söylemiyor
 - [x] "Aha!" anı var (üst güvertede tek adam + saati bilenler)
 - [x] Zaman çizelgesi tutarlı
-- [ ] Her tutar fiyat tablosunda — **3 fiyat ⏳ kontrol edilecek**
+- [x] Her tutar fiyat tablosunda (fiyatlar 11 Kasım'da kontrol edildi; kopya saat tahmin)
 - [x] En az bir dürüst ve kazandıran karar var; kirli fark küçük
 - [x] Her kararın kısa sonucu var; kesinti açıklamaları var
 - [x] Anı özeti yalnız itirafın söylediğini içeriyor
-- [ ] Yeni kanon onaylandı (2 madde 🟡)
+- [x] Yeni kanon onaylandı (2 madde)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı (🟢)
+- [x] Yeni yan karakterlerin görünüşü onaylandı
 - [x] Kural kitabıyla çelişen bir şey yok
 
-## Ortağa sorular *(Onay 1)*
+## Ortağa sorular *(Onay 1: hepsi "uygun", 11 Kasım 2026)*
 
-1. Kanon: Peri'yi deniz tutar; Cengo çaycı Kadir'i tanır — eklensin mi?
-2. Peri: zümrüt yeşili ipek elbise + siyah topuklu sandalet; Cengo: lacivert balıkçı yaka + kahverengi kasket — uygun mu?
-3. Yan karakterlerin görünüşleri (§16) uygun mu?
-4. Kararlar: dürüst olan "gerçek sahibi bul" para kaybettiriyor ama Cengo'nun hoşuna gidiyor — uygun mu?
+1. ✅ Kanon: Peri'yi deniz tutar; Cengo çaycı Kadir'i tanır — eklensin mi?
+2. ✅ Peri: zümrüt yeşili ipek elbise + siyah topuklu sandalet; Cengo: lacivert balıkçı yaka + kahverengi kasket — uygun mu?
+3. ✅ Yan karakterlerin görünüşleri (§16) uygun mu?
+4. ✅ Kararlar: dürüst olan "gerçek sahibi bul" para kaybettiriyor ama Cengo'nun hoşuna gidiyor — uygun mu?

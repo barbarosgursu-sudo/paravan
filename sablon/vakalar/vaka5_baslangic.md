@@ -24,7 +24,7 @@ Vaka 4 §4'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adı
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
 | 1 Form | 11 Kas 14:01 | 11 Kas 14:09 | 0 | ~8 dk | form `vaka5_form.md`; 3 fiyat ⏳ |
-| 2 Onay 1 | | | | | |
+| 2 Onay 1 | 11 Kas 14:15 | 11 Kas 14:18 | ~3 dk (4 soru, hepsi uygun) | ~4 dk (fiyat kontrolü, işleme) | kanon 2 madde eklendi |
 | 3–4 Diyalog + veri + künye | | | | | |
 | 5 Görselsiz tur + taramalar | | | | | |
 | 6–7 Onay 2, hikâye donar | | | | | |
