@@ -44,7 +44,7 @@ ikiziyle değişti, kutuda kopya saat var; müşteri hırsızlığı ancak alıc
   altında. Saat, geçen kış Kuzguncuk'ta soyulan bir evden çıkmıştı (sahibi **Nermin Hanım**, kocasının hatırası; kapağın
   içinde kazıma: "N.'ye, 1964"). Muammer sormadı. *(Yalnız F'de ve 3. kararda açılır.)*
 - **Nedim Bey'in yolu (yanlış iz):** Koleksiyoncu; saati iki kez istedi, Muammer satmadı. Aynı vapurdaydı: her salı
-  Moda'daki kız kardeşine gider. Bütün yol üst güvertede martılara simit attı.
+  Cihangir'deki kız kardeşine gider, ikideki vapurla Moda'ya döner. Bütün yol üst güvertede martılara simit attı.
 - **Kadir'in yolu (yanlış iz):** Vapurun çaycısı; çayı döken o. Muammer saati geçen salı ona göstermişti.
 
 **Zaman çizelgesi**
@@ -109,7 +109,7 @@ Selim kurar; Muammer bunu ona sormadan kurmuştu, Selim çalacağını bilmiyor.
 | cay_dalga | Çay kazası bir tanker dalgasından: bütün salon sallandı. Kadir koltuğu silip bez almaya tezgâha döndü; çanta bir süre yalnız kaldı. | A |
 | ust_tek | Üst güvertede bütün yol tek bir adam vardı; çocuğa simit verdi. Selim de Nedim Bey de "üst güvertedeydim" diyor. | B |
 | vapur_arandi | Vapur Kadıköy'de baştan sona arandı; çanta yok, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden çantayla inenler: Muammer Bey, tamircisi Selim, Nedim Bey. | C |
-| nedim_sali | Nedim Bey her salı Moda'daki kız kardeşine o vapurla gidiyor; bütün yol üst güvertede olduğunu söylüyor. | D |
+| nedim_sali | Nedim Bey her salı Cihangir'deki kız kardeşine gidip o vapurla Moda'ya dönüyor; bütün yol üst güvertede olduğunu söylüyor. | D |
 | kolek_kasada | Nedim Bey salı sabahı dükkâna gelip saati yine sormuş; çırak "kasada" demiş. Saatin o gün yola çıktığını bilmiyordu. | D |
 | canta_damga | Kalan çanta Muammer Bey'inkinin tıpatıp aynısı; içinde Kadıköy'deki deri ustası İsmet'in damgası. Kutudaki kopya saat çarşıda 750 ₺. | F |
 | saat_belgesiz | Muammer Bey saati iki ay önce bir hurdacıdan, belgesiz ve çok ucuza almış. | F |

@@ -158,7 +158,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey.
 **NEDİM [alayci]:** İki kez istedim, iki kez satmadı. Hâlâ istiyorum. Bunu saklamam. {kime: peri}
 **CENGO [kas]:** Salı aynı vapurdaydınız.
-**NEDİM [normal]:** Her salı o vapura binerim. Kız kardeşim Moda'da; her salı ona çaya giderim. Kırk yıldır. {kime: cengo}
+**NEDİM [normal]:** Her salı o vapura binerim. Kız kardeşim Cihangir'de; her salı ona çaya giderim. Kırk yıldır. {kime: cengo}
 **NEDİM [normal]:** Bütün yol üst güvertedeydim. Bu yaşta deniz havası ilaçtır.
 **PERİ [merakli]:** Saatin o gün Kadıköy'e satılmaya gittiğini biliyor muydunuz? {gir: nedim}
 **NEDİM [normal]:** Bilseydim vapurda yanına oturur, alıcıdan önce davranırdım. {kime: peri}

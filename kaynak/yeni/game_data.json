@@ -4130,7 +4130,7 @@
         "cay_dalga": "Çay kazası bir tanker dalgasından: bütün salon sallandı. Kadir koltuğu silip bez almaya tezgâha döndü; çanta bir süre yalnız kaldı.",
         "ust_tek": "Üst güvertede bütün yol tek bir adam vardı; küçük bir çocuğa simit verdi. Hem tamirci Selim hem Nedim Bey \"bütün yol yukarıdaydım\" diyor.",
         "vapur_arandi": "Vapur Kadıköy'de baştan sona arandı; çanta yoktu, karaya çıkmış. Çaycı Kadir vapurdan hiç inmez. O seferden deri çantayla inenler: Muammer Bey, tamircisi Selim, Nedim Bey.",
-        "nedim_sali": "Nedim Bey her salı Moda'daki kız kardeşine o vapurla gidiyor; bütün yol üst güvertede olduğunu söylüyor.",
+        "nedim_sali": "Nedim Bey her salı Cihangir'deki kız kardeşine gidip o vapurla Moda'ya dönüyor; bütün yol üst güvertede olduğunu söylüyor.",
         "kolek_kasada": "Nedim Bey salı sabahı dükkâna gidip saati yine sormuş; çırak \"kasada\" demiş. Nedim saatin o gün yola çıktığını bilmiyordu.",
         "canta_damga": "Kalan çantanın astarında Kadıköy çarşısındaki bir deri ustasının damgası var. Kutudaki kopya saat çarşıda 750 ₺'ye satılıyor.",
         "saat_belgesiz": "Muammer Bey saati iki ay önce bir hurdacıdan, belgesiz ve değerinin çok altında almış.",
@@ -4480,7 +4480,7 @@
               {
                 "k": "nedim",
                 "i": "normal",
-                "m": "Her salı o vapura binerim. Kız kardeşim Moda'da; her salı ona çaya giderim. Kırk yıldır.",
+                "m": "Her salı o vapura binerim. Kız kardeşim Cihangir'de; her salı ona çaya giderim. Kırk yıldır.",
                 "kime": "cengo"
               },
               {"k": "nedim", "i": "normal", "m": "Bütün yol üst güvertedeydim. Bu yaşta deniz havası ilaçtır."},
