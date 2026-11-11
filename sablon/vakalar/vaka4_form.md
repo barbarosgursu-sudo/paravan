@@ -1,6 +1,6 @@
 # VAKA 4 FORMU — FALCI
 
-Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 10 Kasım 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 10 Kasım 2026). Hikâye dondu (Onay 2, 11 Kasım 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
 Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 4 — FALCI" (Mavi Ay tipi = **Bilmece**).
 🟡 işaretli maddeler **kanona ekleme**: onayın olmadan yazılmaz (§18). 🟢 = görünüş/kıyafet önerisi.

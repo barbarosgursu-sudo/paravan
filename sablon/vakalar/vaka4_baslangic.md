@@ -69,7 +69,7 @@ Codex süresi (1 kol ve 2 kol ayrı, bekleme dahil). Kaynak: `uretim/v4/uretim_k
 | 2 Onay 1 | 10 Kas 13:14 | 10 Kas 14:12 | ~57 dk (soru-cevap, 10 konu) | ~10 dk (form düzeltmeleri) | dört itiraz (sözlük, Rana, telve, kedi) + altı soru |
 | 3–4 Diyalog + veri + künye | 10 Kas 14:12 | 10 Kas 14:23 | 0 | ~11 dk | diyalog 212 satır; veri iskeleti betikle (scratchpad), sahneler `arac_diyalog.js` ile |
 | 5 Görselsiz tur + taramalar | 10 Kas 14:23 | 10 Kas 14:40 | 0 | ~17 dk | 6 tur (4 yol, 4 yüzleşme, iki kapanış hâli) hatasız; bulanık tarama 8 düzeltme; sızıntı 40 yol/1319 ekran: 1 aday düzeltildi, sonra temiz |
-| 6–7 Onay 2, hikâye donar | 10 Kas 14:40 | | | | |
+| 6–7 Onay 2, hikâye donar | 10 Kas 14:40 | 11 Kas (onay) | ? | | giriş 13 not (10 Kas); kalanını sahibi saat dururken inceledi, 11 Kas sabah "onay" — **hikâye dondu**; inceleme süresi sahibine soruldu |
 | 8 Görsel listesi + istemler + kıyafet kartları | | | | | |
 | 9–10 Resimler (Codex), denetim, gömme | | | | | |
 | 11 Görselli tur | | | | | |

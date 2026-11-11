@@ -8,7 +8,13 @@
 
 ---
 
-## 0000000000000000000. ⬅️ 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 bekliyor (görselsiz test)
+## 00000000000000000000. ⬅️ 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
+
+- Sahibi resimsiz incelemeyi bitirdi ve onay verdi. Sıradaki adım 8: görsel listesi, kıyafet hâli tablosu, kıyafet
+  kartları, istemler (`7_uretim_sureci.md`). **Önce sahibine Codex 2 kol desteğini hatırlat** (aşağıda).
+- Saat hâlâ durdurulmuş (10 Kas 18:04); sahibinin inceleme süresi soruldu, cevaba göre "sahibi" sütununa yazılır.
+
+## 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 - Saat 12:49'da başladı (`sablon/vakalar/vaka4_baslangic.md` süre tablosu). Form onaylı (Onay 1, `vaka4_form.md`),
   diyalog `vaka4_diyalog.md`, veri `yeni/game_data.json` V4 + künye + 80 yer tutucu (görsel yok).
