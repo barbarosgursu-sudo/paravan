@@ -8,6 +8,31 @@
 
 ---
 
+## 000000000000000000000. ⬅️ 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+
+Proje artık başka bir bilgisayarda, başka bir Claude hesabıyla, ortak bir kişi tarafından da yürütülüyor.
+Depo yine `barbarosgursu-sudo/paravan`; ortak, depoya "collaborator" olarak eklendi ve `main`'e gönderir.
+
+**Kim neye karar verir (sahibinin kararı, 11 Kasım 2026):**
+- **Barbaros (sahibi) her şeyi yapabilir** — aşağıdaki iki listenin ikisindeki işleri de. Ortağın yetkisi onunkini daraltmaz.
+- **Ortak kendisi karar verir (işletme):** var olan kurallara göre vaka üretmek, hikâyeye yeni ayrıntı eklemek
+  (kanon), metin düzeltmek, resim üretmek, test/araç/derleme çalıştırmak, `main`'e göndermek.
+  Belgelerdeki "sahibine sor" kuralı bu işler için ortağa sorulur.
+- **Barbaros'a danışılır, ortak tek başına onaylamaz:** yeni kural yazmak ya da var olanı değiştirmek
+  (`CLAUDE.md`, `sablon/`, sözleşmeler), kod ve altyapı değişiklikleri (motor, arayüz, araçlar, derleme),
+  yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş çıkarsa Claude yapmaz;
+  ne istendiğini kısaca yazar, ortak bunu Barbaros'a iletir.
+
+**Yeni bilgisayarda ilk kurulum (bir kez):** Git, Node.js, Python 3 kurulu olmalı. Depoda olmayan tarayıcı aracı
+(`araclar/`, Playwright + Chromium) yeniden kurulur: `npx playwright install chromium`. Resim üretimi için
+ortağın kendi Codex erişimi gerekir (`uretim/CLAUDE.md`). Kurulumdan sonra `cd kaynak && node dogrulayici.js yeni`
+ve test döngüsü geçmeli.
+
+**İki kişi aynı depoda:** her oturumun başında `git pull`. Aynı anda aynı vakaya iki kişi dokunmaz.
+
+Bu ayrım, aşağıda "arkadaşın ikinci Claude hesabıyla metin kolu (onaylar birlikte verilir)" diye bekleyen planın
+yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağıdaki bölüm): Vaka 4, adım 8.
+
 ## 00000000000000000000. ⬅️ 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
 
 - Sahibi resimsiz incelemeyi bitirdi ve onay verdi. Sıradaki adım 8: görsel listesi, kıyafet hâli tablosu, kıyafet
