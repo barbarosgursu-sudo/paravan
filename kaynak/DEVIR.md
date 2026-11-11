@@ -20,13 +20,14 @@
 **İki soru — Barbaros'un cevapları (11 Kasım 2026):**
 1. **Sıra değişti: EVET.** Ortak, Vaka 4'ün resim aşamasını (adım 8–14) bekletip önce **Vaka 5'in metnini** (adım 1–7)
    yazar. Vaka 4'ün saati duruk kalır (10 Kas 18:04'ten beri); dönünce kaldığı yerden işler, ölçüm bozulmaz.
-   `RAF_KARARLARI.md`'deki "önce Vaka 4" sırası bu kararla değişti.
+   `RAF_KARARLARI.md` → Yayın sırası da buna göre güncellendi.
 2. **Vaka 5 Bilmece tipinde yazılır** (Vaka 1–4 gibi; kod gerekmez). `YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR'daki
    "Columbo tipi" (Ters tip) kullanılmaz; Ters tip ertelenmiş olarak kalır (`1_oyun_yapisi.md`, 17 Ekim).
    Vapur konusundan ne kalacağı ve Bilmece'ye nasıl çevrileceği hikâye işidir — ortak karar verir.
 
 **Dikkat (iki kişi aynı dosyada):** Vaka 5'in verisi de `yeni/game_data.json`'a yazılır. Barbaros bu arada Vaka 4'te
 çalışırsa aynı dosyaya dokunabilir — her oturumun başında `git pull`, göndermeden önce yine `git pull`.
+Vaka dosyalarını ayırmak (vaka başına ayrı veri/künye/görsel dosyası) konuşuldu; Barbaros: **şimdilik ayrılmayacak.**
 
 ## 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
