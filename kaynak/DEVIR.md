@@ -12,7 +12,8 @@
 
 - Sahibi resimsiz incelemeyi bitirdi ve onay verdi. Sıradaki adım 8: görsel listesi, kıyafet hâli tablosu, kıyafet
   kartları, istemler (`7_uretim_sureci.md`). **Önce sahibine Codex 2 kol desteğini hatırlat** (aşağıda).
-- Saat hâlâ durdurulmuş (10 Kas 18:04); sahibinin inceleme süresi soruldu, cevaba göre "sahibi" sütununa yazılır.
+- Saat hâlâ durdurulmuş (10 Kas 18:04; sahibinin isteğiyle durmuş kalıyor). İnceleme saat dururken 45 dk sürdü (sahibinin
+  beyanı) — aktif süreye eklenir: şimdiye kadar 3 sa 19 dk + 45 dk = **4 sa 04 dk**.
 
 ## 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
