@@ -8,7 +8,25 @@
 
 ---
 
-## 0000000000000000000000. ⬅️ 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+## 00000000000000000000000. ⬅️ 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; BARBAROS'A BİR SORU
+
+**Durum:** Vaka 5 (Vapur, Bilmece) ortak tarafından yazılıyor. Saat 14:01'de başladı, işliyor
+(`sablon/vakalar/vaka5_baslangic.md` süre tablosu).
+- **Adım 1–2:** form `vaka5_form.md`, Onay 1 ortakça verildi (4 soru, hepsi "uygun"). Konu: antikacı Muammer'in çalar cep
+  saati vapurda çantası ikiziyle değiştirilerek çalınır; şüpheliler çaycı Kadir, koleksiyoncu Nedim, suçlu ortak Selim.
+- **Kanon** (`3_kanon_kaydi.md`, ortağın onayı): Peri'yi deniz tutar; Cengo vapurun çaycısı Kadir'i tanır.
+- **Adım 3–4:** diyalog `vaka5_diyalog.md` (223 satır) → `yeni/game_data.json` V5, künye 5 kişi, 70 yer tutucu görsel
+  (A36–A42, D14–D17, K79–K95). Doğrulayıcı PASS; bir yeni K8 uyarısı: "Polise teslim et", "Muammer'e gerçeği söyle"nin
+  gerisinde (V4'teki gibi; ortak kararları olduğu gibi onayladı). İki derleme ve bütün testler geçti.
+- `kanon.sahne`'ye V5 figürleri, Peri setleri (`ipek`, `ipek_acik`, `islak`, `battaniye`; yeni ifade `yesil`) ve Cengo
+  setleri (`balikci`, `simitli`) eklendi.
+
+**Barbaros'a soru (ortak soruyor):** Adım 5 (görselsiz tur) için `arac_yeni_tur.js`'e (gerekirse `arac_sizinti_tur.js`'e)
+Vaka 5'in yollarını eklemek gerekiyor — Vaka 4'e yapılanın aynısı. **Yeni bir vakayı mevcut test araçlarına eklemek gibi
+küçük, mekanik değişiklikler için ortağa genel izin verilsin mi?** Motor, arayüz, derleme ve kurallar yine Barbaros'ta.
+Cevap gelene kadar adım 5 bekliyor.
+
+## 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 **Kurulum (ortağın bilgisayarı, yalnız yerel — depoda değişiklik yok):**
 - Node.js 26.13 (LTS), Python 3.12, Git; depo `C:\Yazilim\paravan` (D: sürücüsü yok).
