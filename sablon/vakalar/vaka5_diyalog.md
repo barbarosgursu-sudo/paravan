@@ -124,7 +124,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** İki kişi "bütün yol yukarıdaydım" diyor, Cengo. Burada bir kişi varmış.
 **EFE [normal]:** Abla, sen niye yeşilsin? {gir: efe, kime: peri}
 **PERİ [yesil]:** Ben yeşil değilim. Elbisem yeşil.
-**CENGO [gulen]:** *(martılara simit atarak)* Simitçiyi yirmi beşe indirdim. Martılar da benim gibi pazarlıkçı.
+**CENGO [gulen]:** *(martılara simit atarak)* Simitçiyi yirmi beşe ikna ettim. Martılar da benim gibi pazarlıkçı.
 
 ## ipucu kadikoy_iskele
 ⚙ arka: A38 · figurler: peri, cengo · set: ipek · cset: balikci
