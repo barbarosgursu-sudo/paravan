@@ -364,26 +364,26 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **HİKÂYE:** Yolun yarısında bir tanker dalgası Kadir'in tepsisini devirdi. Muammer lavaboya gitti; Kadir koltuğu silip bez almaya tezgâha döndü. Selim o boşlukta çantaları değiştirdi. Kadıköy'de kalabalıkla indi, Muammer'e "yukarıdan iniyorum" dedi. Kadir ise her zamanki gibi vapurdan hiç inmedi.
 
 ## karar muammere_soyle
-⚙ etiket: Muammer'e gerçeği söyle
+⚙ etiket: Saati Muammer'e bırak
 
-**ÖNİZLEME:** Saat Muammer'e döner; Selim'in yaptığını öğrenir, Selim'in otuz yılı biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.
-**SONUÇ:** Saati Muammer'e verdin, Selim'in yaptığını anlattın. Selim'in otuz yılı bir akşamda bitti; tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.
+**ÖNİZLEME:** Saat Muammer'de kalır, kazımayı sormazsın. Muammer Selim'i dükkândan çıkarır, saati satar; 5.000 ₺ teşekkür bırakır.
+**SONUÇ:** Saati Muammer'in elinde bıraktın; kapaktaki kazımayı bir daha sormadın. Muammer polise gitmedi; Selim'i o akşam dükkândan çıkardı, Selim tamir aletlerini toplayıp gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.
 **CENGO:** Cengo dükkânın önünden geçerken vitrine baktı. "Otuz yıl. Bir saat için" dedi.
-**DEFTER:** Muammer saatini aldı, Selim'i kaybetti.
+**DEFTER:** Muammer saatini sattı, Selim'i kaybetti.
 
 ## karar vapurda_bulduk
-⚙ etiket: "Vapurda bulduk" de, Selim'i koru
+⚙ etiket: "Aranızda kalsın" de, Selim'i koru
 
-**ÖNİZLEME:** Selim'in adı geçmez, Selim işinde kalır. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.
-**SONUÇ:** Saati Muammer'e "vapurun bir köşesinde bulduk" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.
+**ÖNİZLEME:** Muammer polise gitmez, Selim'i çıkarmaz; Selim de kazımayı unutur. Selim 15.000 ₺, Muammer 5.000 ₺ verir.
+**SONUÇ:** Muammer'e kapaktaki kazımayı hatırlattın: polis gelirse saatin nereden geldiği de sorulacaktı. Anlaştılar: Muammer Selim'i çıkarmadı, Selim kazımayı unuttu. Selim sana on beş bin bıraktı, Muammer beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; ikisi de ötekinin sırrını biliyor, sen ikisininkini.
 **CENGO:** Cengo parayı saydı. "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy" dedi.
-**DEFTER:** Saat bulundu. Nasıl bulunduğunu bir ben biliyorum.
+**DEFTER:** Selim dükkânda kaldı. İkisinin sırrını bir ben biliyorum.
 
 ## karar gercek_sahip
 ⚙ etiket: Saatin gerçek sahibini bul
 
-**ÖNİZLEME:** Kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.
-**SONUÇ:** Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı.
+**ÖNİZLEME:** Saati Muammer'den alır, kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.
+**SONUÇ:** Saati Muammer'in elinden aldın: "Bu kazıma bir gün birine sorulacak, Muammer Bey. Ben sorayım." Muammer itiraz edemedi. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı.
 **CENGO:** Cengo, Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzattı. "Al. Bu vakadan kazandığımız bu" dedi.
 **DEFTER:** Saat sahibine döndü. Kasaya az para girdi.
 

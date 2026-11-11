@@ -4702,11 +4702,11 @@
           "id": "muammere_soyle",
           "gate": "yok",
           "kare": "K92",
-          "cengoBag": 1,
+          "cengoBag": 0,
           "para": 5000,
-          "etiket": "Muammer'e gerçeği söyle",
-          "onizleme": "Saat Muammer'e döner; Selim'in yaptığını öğrenir, Selim'in otuz yılı biter. Satış yapılınca Muammer 5.000 ₺ teşekkür bırakır.",
-          "sonuc": "Saati Muammer'e verdin, Selim'in yaptığını anlattın. Selim'in otuz yılı bir akşamda bitti; tamir aletlerini toplayıp dükkândan gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.",
+          "etiket": "Saati Muammer'e bırak",
+          "onizleme": "Saat Muammer'de kalır, kazımayı sormazsın. Muammer Selim'i dükkândan çıkarır, saati satar; 5.000 ₺ teşekkür bırakır.",
+          "sonuc": "Saati Muammer'in elinde bıraktın; kapaktaki kazımayı bir daha sormadın. Muammer polise gitmedi; Selim'i o akşam dükkândan çıkardı, Selim tamir aletlerini toplayıp gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -4720,9 +4720,9 @@
           "kare": "K93",
           "cengoBag": -2,
           "para": 20000,
-          "etiket": "\"Vapurda bulduk\" de, Selim'i koru",
-          "onizleme": "Selim'in adı geçmez, Selim işinde kalır. Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir.",
-          "sonuc": "Saati Muammer'e \"vapurun bir köşesinde bulduk\" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; biri ötekinin ne yaptığını bilmiyor, sen ikisini de biliyorsun.",
+          "etiket": "\"Aranızda kalsın\" de, Selim'i koru",
+          "onizleme": "Muammer polise gitmez, Selim'i çıkarmaz; Selim de kazımayı unutur. Selim 15.000 ₺, Muammer 5.000 ₺ verir.",
+          "sonuc": "Muammer'e kapaktaki kazımayı hatırlattın: polis gelirse saatin nereden geldiği de sorulacaktı. Anlaştılar: Muammer Selim'i çıkarmadı, Selim kazımayı unuttu. Selim sana on beş bin bıraktı, Muammer beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; ikisi de ötekinin sırrını biliyor, sen ikisininkini.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -4737,8 +4737,8 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Saatin gerçek sahibini bul",
-          "onizleme": "Kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.",
-          "sonuc": "Kapaktaki kazımanın peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'i de dükkândan çıkardı.",
+          "onizleme": "Saati Muammer'den alır, kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.",
+          "sonuc": "Saati Muammer'in elinden aldın: \"Bu kazıma bir gün birine sorulacak, Muammer Bey. Ben sorayım.\" Muammer itiraz edemedi. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer ücretten on bin kesti: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'i de dükkândan çıkardı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",

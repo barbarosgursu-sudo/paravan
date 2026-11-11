@@ -237,17 +237,20 @@ bir zil sesi gelir; Muammer: "Benim saatim!" Herkes döner, Selim merdivene koş
 
 ## 12. Kararlar *(gerçek artık biliniyor; dördü de açık)*
 
-Selim yakalandı; saat cebinde. Muammer yolda. Soru: saate ve Selim'e ne olacak. Kapağın içindeki kazıma
-("N.'ye, 1964") Peri'nin gözüne takılır (her yolda; karar ekranının girişi).
+Selim yakalandı ve itiraf etti. Muammer yetişip itirafı duydu, saati Selim'in cebinden aldı; kapağın içindeki kazıma
+("N.'ye, 1964") Peri'nin gözüne takılır (her yolda; karar ekranının girişi). Yani karar anında Muammer her şeyi biliyor ve
+saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne olacak.
+*(Onay 2, 11 Kasım 2026, ortağın isteği: eski kararlar Muammer'in olayı bilmediğini varsayıyordu — "gerçeği söyle",
+"vapurda bulduk" — kovalamacayla çelişiyordu; kararlar buna göre yeniden yazıldı.)*
 
 | karar | kısa sonuç (karar ekranı) | eylem → sonuç → bedel | karar parası | bağ | Cengo'nun tavrı | Cengo satırı | anı defteri |
 |---|---|---|---|---|---|---|---|
-| **Muammer'e gerçeği söyle** | Saat Muammer'e döner, Selim'i dükkândan çıkarır; satış yapılınca Muammer 5.000 ₺ teşekkür bırakır. | Saati Muammer'e verdin, Selim'in yaptığını anlattın. Selim'in otuz yılı bir akşamda bitti; tamir aletlerini toplayıp gitti. Muammer saati sattı, sana beş bin teşekkür bıraktı. | +5.000 | +1 | ilgilendirmez | "Otuz yıl. Bir saat için." | Muammer saatini aldı, Selim'i kaybetti. |
-| **"Vapurda bulduk" de** | Selim'in adı geçmez, Selim işinde kalır; Selim susman için 15.000 ₺, Muammer sevinçten 5.000 ₺ verir. | Saati Muammer'e "vapurun bir köşesinde bulduk" diye verdin. Selim sana on beş bin bıraktı, Muammer sevinçten beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; biri ötekinin sırrını, sen ikisinin sırrını biliyorsun. | +20.000 | −2 | hoşuna gitmez | "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy." | Saat bulundu. Kimin bulduğunu bir ben biliyorum. |
-| **Saatin gerçek sahibini bul** | Kazımanın izinden saatin Kuzguncuk'ta soyulan bir evden çıktığı anlaşılır; saat sahibine döner. Muammer 10.000 ₺ keser. | Kapaktaki "N.'ye, 1964"ün peşine düştün. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer saatsiz kaldı, ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı. | −10.000 | +2 | hoşuna gider | Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzatır: "Al. Bu vakadan kazandığımız tek şey." | Saat sahibine döndü. Kasaya az para girdi. |
-| **Polise teslim et** | Selim yargılanır; saat delil olur, belgesiz olduğu ortaya çıkar, Muammer de ifade verir. Muammer 5.000 ₺ keser. | Selim'i polise teslim ettin. Saat emanete alındı; Muammer saati nereden aldığını açıklayamadı, o da ifade verdi. Satış yatı; Muammer ücretten beş bin kesti: "Sessiz olsun dedim, karakol olsun demedim." | −5.000 | −1 | hoşuna gitmez | "Saat emanette. Her gün üçte orada çalacak." | Selim polise teslim edildi. Saat emanette. |
+| **Saati Muammer'e bırak** | Saat Muammer'de kalır, kazımayı sormazsın. Muammer Selim'i çıkarır, saati satar; 5.000 ₺ teşekkür bırakır. | Saati Muammer'in elinde bıraktın; kazımayı bir daha sormadın. Muammer polise gitmedi; Selim'i o akşam dükkândan çıkardı. Muammer saati sattı, sana beş bin teşekkür bıraktı. | +5.000 | 0 | ilgilendirmez | "Otuz yıl. Bir saat için." | Muammer saatini sattı, Selim'i kaybetti. |
+| **"Aranızda kalsın" de** | Muammer polise gitmez, Selim'i çıkarmaz; Selim de kazımayı unutur. Selim 15.000 ₺, Muammer 5.000 ₺ verir. | Muammer'e kazımayı hatırlattın: polis gelirse saatin nereden geldiği de sorulacaktı. Anlaştılar. Selim on beş bin, Muammer beş bin verdi. Ertesi gün ikisi yine aynı dükkânda; ikisi de ötekinin sırrını biliyor, sen ikisininkini. | +20.000 | −2 | hoşuna gitmez | "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy." | Selim dükkânda kaldı. İkisinin sırrını bir ben biliyorum. |
+| **Saatin gerçek sahibini bul** | Saati Muammer'den alır, kazımanın izini sürersin; saat sahibine döner. Muammer 10.000 ₺ keser. | Saati Muammer'in elinden aldın: "Bu kazıma bir gün birine sorulacak. Ben sorayım." Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım saatini sana sarılarak geri aldı. Muammer ücretten on bin kesti, Selim'i de çıkardı. | −10.000 | +2 | hoşuna gider | Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzatır: "Al. Bu vakadan kazandığımız bu." | Saat sahibine döndü. Kasaya az para girdi. |
+| **Polise teslim et** | Selim yargılanır; saat delil olarak emanete alınır, satış yatar. Muammer 5.000 ₺ keser. | Selim'i polise teslim ettin. Saat emanete alındı; kazıma sorulunca saatin Kuzguncuk'ta soyulan bir evden çıktığı anlaşıldı, Muammer de ifade verdi. Satış yattı; Muammer ücretten beş bin kesti: "Sessiz olsun dedim, karakol olsun demedim." | −5.000 | −1 | hoşuna gitmez | "Saat emanette. Her gün üçte orada çalacak." | Selim polise teslim edildi. Saat emanette. |
 
-- Kirli seçenek en çok kazandırır, fark küçük (20.000 / 5.000). Dürüst ve kazandıran: "Muammer'e gerçeği söyle" (+5.000).
+- Kirli seçenek en çok kazandırır, fark küçük (20.000 / 5.000). Göz yummak kazandırır ama Cengo'yu ısıtmaz (bağ 0).
   Dürüst ve kaybettiren: "Saatin gerçek sahibini bul" (−10.000), Cengo'nun hoşuna gider.
 - Cengo satırları yan yana: biri hüzün, biri espri, biri jest, biri kara espri. "Doğru cevap" çıkmaz.
 - **Kasaya giren en az:** yanlış suçlama (20.000) + gerçek sahip (−10.000) = 10.000 ₺. Eksiye düşmez. En çok karar parası

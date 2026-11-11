@@ -36,6 +36,13 @@ Hikâye henüz donmadı (Onay 2 bitmedi).
   - Form da buna göre (§zaman çizelgesi notu ve itiraf).
 - Kontroller: doğrulayıcı PASS (bilinen K8 uyarısı), derlemeler, testler geçti. **Tur ve sızıntı taraması bu düzeltmelerden
   sonra yeniden koşulmadı** (yalnız metin; yeni olgu yok). Onay 2 bitince ikisi de koşulacak.
+- **Kararlar yeniden yazıldı (ortağın isteği):** eski metinler Muammer'in olayı bilmediğini varsayıyordu ("Muammer'e gerçeği
+  söyle", "vapurda bulduk"), oysa kovalamacada Muammer itirafı duyuyor ve saati Selim'in cebinden alıyor. Yeni hâl:
+  `muammere_soyle` = "Saati Muammer'e bırak" (göz yum; **bağ +1 → 0**), `vapurda_bulduk` = "'Aranızda kalsın' de"
+  (kazıma kozuyla susma anlaşması), `gercek_sahip` = saati Muammer'den alıp sahibine götür, `polise_teslim` aynı.
+  Kimlikler (id) ve paralar aynı; K92/K93 tarifleri güncellendi. K8 uyarısı (polis kararı) sürüyor.
+- Diğer küçük düzeltmeler: Nedim'in kız kardeşi Cihangir'de (Moda'da oturup Moda'ya vapurla gitmesi çelişiyordu);
+  Cengo "simitçiyi yirmi beşe ikna ettim"; Selim "o dükkânı sırtımda taşıdım".
 - **Satır numarası:** ortak artık `sablon/vakalar/vaka5_diyalog.md` dosyasının **satır numarasını** kullanıyor (aşağıdaki
   "sahne içi numara" notu eskidi). 4 satır eklendiği için numaralar 51'den sonra kaydı.
 - **Saat:** 3 ara yazıldı (`vaka5_baslangic.md`); saat 19:52'den beri işliyor.
