@@ -67,7 +67,10 @@
             "ipek": ["normal", "kas", "merakli", "utanmis", "yesil"],
             "ipek_acik": ["normal", "kas"],
             "islak": ["sinirli", "kas"],
-            "battaniye": ["normal", "kas"]
+            "battaniye": ["normal", "kas"],
+            "mesai": ["normal", "kas", "merakli", "sasirmis", "utanmis"],
+            "gullu": ["sinirli", "kas"],
+            "tul": ["normal", "kas", "yumusak"]
           }
         },
         "cengo": {
@@ -79,7 +82,10 @@
             "deri": ["normal", "kas", "gulen", "yumusak"],
             "salli": ["kas", "gulen"],
             "balikci": ["normal", "kas", "gulen"],
-            "simitli": ["kas", "normal", "gulen", "yumusak"]
+            "simitli": ["kas", "normal", "gulen", "yumusak"],
+            "utulu": ["normal", "kas", "gulen", "yumusak", "sinirli"],
+            "duvakli": ["kas", "yumusak"],
+            "buruk": ["normal", "yumusak"]
           }
         },
         "hilmi": {"ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"]},
@@ -115,7 +121,8 @@
             "triko",
             "triko_isveli",
             "kirmizi",
-            "kirmizi_isveli"
+            "kirmizi_isveli",
+            "triko_telefon"
           ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
@@ -135,7 +142,14 @@
         "efe": {"ad": "Efe", "ifadeler": ["gulen", "normal"]},
         "gorevli": {"ad": "Görevli", "ifadeler": ["normal"]},
         "ismet": {"ad": "İsmet Usta", "ifadeler": ["normal"]},
-        "simitci": {"ad": "Simitçi", "ifadeler": ["normal", "ofkeli"]}
+        "simitci": {"ad": "Simitçi", "ifadeler": ["normal", "ofkeli"]},
+        "eylul": {"ad": "Eylül", "ifadeler": ["sevincli", "kiskanc", "gulen", "uzgun", "normal"]},
+        "haldun": {"ad": "Haldun", "ifadeler": ["dertli", "normal", "yumusak"]},
+        "muzeyyen": {"ad": "Müzeyyen", "ifadeler": ["normal", "uzgun", "gergin", "itiraf"]},
+        "jale": {"ad": "Jale", "ifadeler": ["soguk", "kacamak", "ofkeli", "normal"]},
+        "recep": {"ad": "Kapıcı", "ifadeler": ["normal", "gulen"]},
+        "dilek": {"ad": "Kalfa", "ifadeler": ["normal", "heyecanli"]},
+        "tahsin": {"ad": "Tahsin Usta", "ifadeler": ["gulen", "normal"]}
       },
       "sesler": {
         "ses": "Ses",
@@ -143,7 +157,8 @@
         "boyaci": "Set boyacısı",
         "tuba_tel": "Tuba (telefonda)",
         "nedime": "Nedime",
-        "garson": "Garson"
+        "garson": "Garson",
+        "fotografci": "Fotoğrafçı"
       },
       "arkalar": [
         "A1",
@@ -199,7 +214,14 @@
         "A39",
         "A40",
         "A41",
-        "A42"
+        "A42",
+        "A43",
+        "A44",
+        "A45",
+        "A46",
+        "A47",
+        "A48",
+        "A49"
       ],
       "kareler": [
         "D1",
@@ -318,7 +340,28 @@
         "K92",
         "K93",
         "K94",
-        "K95"
+        "K95",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "K96",
+        "K97",
+        "K98",
+        "K99",
+        "K100",
+        "K101",
+        "K102",
+        "K103",
+        "K104",
+        "K105",
+        "K106",
+        "K107",
+        "K108",
+        "K109",
+        "K110",
+        "K111",
+        "K112"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -5339,6 +5382,1413 @@
             },
             {"k": "peri", "i": "kas", "m": "Bu arada beni deniz tutmadı.", "bag": "yuksek"},
             {"k": "cengo", "i": "gulen", "m": "Biliyorum.", "bag": "yuksek"},
+            {"k": "gizem", "i": "triko", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
+          ]
+        }
+      }
+    },
+    {
+      "id": "V6",
+      "tur": "omurga",
+      "sira": 6,
+      "belirir": null,
+      "baslik": "İsimsiz Mektuplar",
+      "arastirma": 3,
+      "ucret": 40000,
+      "giris_gorsel": "MASA_V6",
+      "setler": {"peri": "mesai", "cengo": "utulu"},
+      "truth": {
+        "ne_oldu": "Gamze'ye düğününden önce üç isimsiz mektup geldi: \"Bu düğün olursa herkes öğrenir.\" Mektupları annesi, emekli terzi Müzeyyen Hanım yazdı: kendi kalıp kâğıdına; ilk ikisini sabah postayı alırken kutuya, üçüncüsünü provada gelinliğin torbasına koydu.",
+        "neden": "Haldun'un İzmir tayini: düğünden sonra Gamze'yi ve Eylül'ü götürecekti. Müzeyyen tek kalacak, Eylül okulunu yarıda bırakacak, babasını göremeyecekti. Mektupların bir sırrı yok, blöf.",
+        "jale": "Gamze gelinliği bilmeden Haldun'un eski eşi Jale'nin atölyesine ısmarladı; Jale tanıdı, borçlu olduğu için sustu. Tarihi sipariş günü, ilk mektuptan üç gün sonra öğrendi.",
+        "cengo": "Eylül tarihi o gece babasına yazdı. Cengo her cumartesi apartmanın karşısındaki bankta kızını uzaktan izliyor; provada yoktu.",
+        "eylul": "Eylül'ü Cengo'ya Müzeyyen gönderdi: bulamayacağını sandı, bir de kız babasını görsün istedi."
+      },
+      "facts": {
+        "mektup_geldi": "Gamze'ye (Eylül'ün annesi) üç isimsiz mektup geldi: \"Bu düğün olursa herkes öğrenir.\" İlki üç hafta önce bir salı sabahı, ikincisi de apartmanın posta kutusundan; üçüncüsü cumartesi gelinlik provasında torbanın cebinden çıktı. Gamze düğünü iptal etmek üzere.",
+        "cengo_suphe": "Gamze mektupların Cengo'dan geldiğini düşünüyor: \"Baban bu düğünü istemez.\"",
+        "jale_suphe": "Haldun Bey eski eşi Jale Hanım'dan şüpheleniyor: boşanırken \"seni rahat bırakmam\" demiş. Jale'nin Kadıköy'de bir gelinlik atölyesi var.",
+        "tarih_sofra": "Düğünün tarihi pazartesi akşamı sofrada konuşuldu: Gamze, Haldun Bey, Eylül ve Müzeyyen Hanım. Eylül sofradan kalkıp tarihi babası Cengo'ya yazdı. İlk mektup ertesi sabah geldi.",
+        "izmir_tayin": "Haldun Bey'in İzmir'deki görevi düğünden bir hafta sonra başlıyor; düğün ertelenirse tayin başkasına gidiyor.",
+        "bank_adam": "Kasketli bir adam aylardır her cumartesi sabahı apartmanın karşısındaki bankta oturup kapıya bakıyor; Eylül dershaneye çıkınca o da kalkıyor. Bu adam Cengo.",
+        "posta_elden": "Mektuplar pulsuz, elle kutuya atılmış. Postayı her sabah ilk Müzeyyen Hanım alır; birinci mektubu o buldu, ikincisini kapıcı.",
+        "prova_torba": "Üçüncü mektup cumartesi provada torbaya girdi. Gelin kabindeydi; torbayı o gün yalnız iki kişi tuttu: atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım.",
+        "jale_siparis": "Gelinlik siparişi ilk mektuptan üç gün sonra, bir cuma verildi; Jale Hanım düğünün tarihini o gün öğrendi. Haldun Bey'le iki yıldır konuşmuyor.",
+        "jale_gizli": "Gamze'nin gelinliği Jale Hanım'ın atölyesinde dikiliyor. Jale gelini tanıyınca sustu: atölye borçta, siparişe ihtiyacı var. Gamze bunu bilmiyor.",
+        "jale_soz": "Mektuptaki \"herkes öğrenir\" sözü, Jale Hanım'ın boşanırken Haldun Bey'e söylediği söz: \"Herkes öğrenecek.\" Gamze bunu annesi Müzeyyen Hanım'a anlatmış.",
+        "kalip_kagit": "Mektuplar terzi kalıp kâğıdına yazılmış; kırtasiyede satılmaz, terzilerde ve gelinlik atölyelerinde olur. Müzeyyen Hanım yıllarca terzilik yapmış."
+      },
+      "knowledge": [
+        {
+          "turetilen": "ilk_aksam",
+          "baslik": "İlk mektubu yazan, düğünün tarihini ilk akşam biliyordu.",
+          "ifade": {"all": ["tarih_sofra", "jale_siparis"]}
+        },
+        {
+          "turetilen": "terzi_eli",
+          "baslik": "Mektupları yazan, hem terzi kâğıdına hem gelinliğin torbasına el uzatabiliyordu.",
+          "ifade": {"all": ["prova_torba", "kalip_kagit"]}
+        },
+        {
+          "turetilen": "kapinin_yolu",
+          "baslik": "Mektuplar postayla gelmedi; yazan bu kapının yolunu biliyor.",
+          "ifade": {"all": ["bank_adam", "posta_elden"]}
+        },
+        {
+          "turetilen": "soz_tarih",
+          "baslik": "Mektuptaki söz Jale Hanım'ın, ama ilk mektup onun bilmediği bir tarihten sonra geldi.",
+          "ifade": {"all": ["jale_soz", "jale_siparis"]}
+        },
+        {
+          "turetilen": "gelin_bilmiyor",
+          "baslik": "Gelin, gelinliğini kimin diktiğini bilmiyor.",
+          "ifade": {"all": ["jale_gizli", "prova_torba"]}
+        }
+      ],
+      "giris": [
+        {
+          "kosul": "varsayilan",
+          "metin": "Cengo'nun kızı Eylül büroya geldi: annesi Gamze'nin düğününü üç isimsiz mektup bozmak üzere. Gamze mektupları Cengo'nun yazdığını, damat Haldun Bey eski eşi Jale Hanım'ın yazdığını düşünüyor. Eylül, Gizem'le hemen anlaştı; Peri'yi kıskandı. Ücret kırk bin, Haldun Bey ödüyor.",
+          "acilan": ["mektup_geldi", "cengo_suphe", "jale_suphe"]
+        }
+      ],
+      "clues": [
+        {
+          "id": "haldun",
+          "ad": "Haldun Bey",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["tarih_sofra", "izmir_tayin"],
+          "text": "Düğünün tarihi pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül, Müzeyyen Hanım. Eylül tarihi o gece babasına yazdı; ilk mektup ertesi sabah geldi. Haldun'un İzmir tayini bekletilmiyor.",
+          "meta": "Düğünün tarihi pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül, Müzeyyen Hanım. Eylül tarihi o gece babasına yazdı; ilk mektup ertesi sabah geldi. Haldun'un İzmir tayini bekletilmiyor.",
+          "sahne": {
+            "arka": "A43",
+            "set": "mesai",
+            "cset": "utulu",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Altunizade. Bir banka şubesinin camlı müdür odası; masada bir deste düğün davetiyesi.",
+                "arka": "A43",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Gri takımlı, kır şakaklı bir adam; kravatı gevşek, alnı terli.",
+                "gir": "haldun",
+                "gi": "dertli"
+              },
+              {
+                "k": "haldun",
+                "i": "dertli",
+                "m": "Eylül'ün dediği dedektifler. Buyurun. (Cengo'ya) Cengo Bey… Merhaba.",
+                "gir": "haldun",
+                "kime": "cengo"
+              },
+              {"k": "cengo", "i": "kas", "m": "Merhaba, Haldun Bey. Tebrikler. Galiba.", "kime": "haldun"},
+              {
+                "k": "haldun",
+                "i": "dertli",
+                "m": "Saklayacak bir şeyim yok. Olsa söylerdim. Gamze bana inanmıyor.",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Düğünün tarihini ne zaman belirlediniz, Haldun Bey?",
+                "gir": "haldun",
+                "kime": "haldun"
+              },
+              {
+                "k": "haldun",
+                "i": "normal",
+                "m": "Üç hafta önce, bir pazartesi akşamı. Gamze'nin evinde, sofrada.",
+                "kime": "peri"
+              },
+              {
+                "k": "haldun",
+                "i": "normal",
+                "m": "Sofrada dört kişiydik: Gamze, ben, Eylül ve Gamze'nin annesi Müzeyyen Hanım."
+              },
+              {
+                "k": "haldun",
+                "i": "normal",
+                "m": "Tarihi o akşam konuştuk, kimseye söylemedik. Davetiyeler bile geçen hafta basıldı."
+              },
+              {"k": "haldun", "i": "dertli", "m": "Ertesi sabah ilk mektup kutudaydı."},
+              {"k": "peri", "i": "merakli", "m": "Sofradan başka duyan olabilir mi?", "kime": "haldun"},
+              {
+                "k": "haldun",
+                "i": "normal",
+                "m": "Eylül tatlıdan önce kalktı, babasına mesaj yazdı. \"Babam bilmeli\" dedi.",
+                "kime": "peri"
+              },
+              {
+                "k": "cengo",
+                "i": "yumusak",
+                "m": "Yazdı, doğru. \"Annem evleniyor, baba\" diye. O gece okudum.",
+                "kime": "peri"
+              },
+              {"k": "not", "m": "Peri bir Cengo'ya, bir Haldun'a bakıyor."},
+              {
+                "k": "haldun",
+                "i": "yumusak",
+                "m": "İzmir'deki görevim düğünden bir hafta sonra başlıyor. Ertelersek tayini başkasına verirler.",
+                "kime": "peri"
+              },
+              {
+                "k": "haldun",
+                "i": "yumusak",
+                "m": "Gamze'yle Eylül'e orada güzel bir hayat kurmak istiyorum. Bütün suçum bu."
+              },
+              {"k": "cengo", "i": "kas", "m": "Eylül'e de sordunuz mu, İzmir'de güzel mi diye?", "kime": "haldun"},
+              {"k": "haldun", "i": "dertli", "m": "Sordum. \"Sorun değil\" dedi.", "kime": "cengo"},
+              {"k": "peri", "i": "kas", "m": "Bu ailede herkes \"sorun değil\" diyor.", "kime": "cengo"}
+            ]
+          }
+        },
+        {
+          "id": "kapici",
+          "ad": "Apartmanın kapıcısı",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["bank_adam", "posta_elden"],
+          "text": "Kasketli bir adam aylardır her cumartesi karşıdaki bankta oturup kapıya bakıyor: Cengo. Mektuplar pulsuz, elle kutuya atılmış; postayı her sabah ilk Müzeyyen Hanım alıyor.",
+          "meta": "Kasketli bir adam aylardır her cumartesi karşıdaki bankta oturup kapıya bakıyor: Cengo. Mektuplar pulsuz, elle kutuya atılmış; postayı her sabah ilk Müzeyyen Hanım alıyor.",
+          "sahne": {
+            "arka": "A44",
+            "set": "mesai",
+            "cset": "utulu",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Üsküdar, Doğancılar. Eski bir apartmanın kapısı. Karşı kaldırımda, bir ağacın altında yeşil bir bank.",
+                "arka": "A44",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.",
+                "gir": "recep",
+                "gi": "normal"
+              },
+              {
+                "k": "peri",
+                "i": "normal",
+                "m": "İyi günler. Bu apartmana gelen mektupları soracaktık.",
+                "gir": "recep",
+                "kime": "recep"
+              },
+              {"k": "not", "m": "Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.", "gir": "recep", "gi": "gulen"},
+              {"k": "recep", "i": "gulen", "m": "Sen değil misin şu bankın adamı?", "kime": "cengo"},
+              {"k": "peri", "i": "sasirmis", "m": "Hangi bankın?", "kime": "recep"},
+              {
+                "k": "recep",
+                "i": "normal",
+                "m": "Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar.",
+                "kime": "peri"
+              },
+              {
+                "k": "recep",
+                "i": "normal",
+                "m": "Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o."
+              },
+              {
+                "k": "cengo",
+                "i": "yumusak",
+                "m": "Benim. Cumartesileri, Eylül dershaneye çıkarken. Uzaktan bakıyorum, o kadar.",
+                "kime": "peri"
+              },
+              {"k": "peri", "i": "kas", "m": "(banka bakarak) Buradan kapı çok iyi görünüyor, Cengo.", "kime": "cengo"},
+              {"k": "peri", "i": "merakli", "m": "Mektuplar nasıl geldi, efendim? Postacı mı getirdi?", "kime": "recep"},
+              {"k": "recep", "i": "normal", "m": "Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış.", "kime": "peri"},
+              {
+                "k": "recep",
+                "i": "normal",
+                "m": "Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü."
+              },
+              {"k": "recep", "i": "normal", "m": "İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken."},
+              {"k": "cengo", "i": "kas", "m": "Mektubu kutuya atanı gören olmadı mı?", "kime": "recep"},
+              {
+                "k": "recep",
+                "i": "gulen",
+                "m": "Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta.",
+                "kime": "cengo"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın.",
+                "kime": "cengo"
+              }
+            ]
+          }
+        },
+        {
+          "id": "kalfa",
+          "ad": "Atölyenin kalfası",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["prova_torba"],
+          "text": "Cumartesi provada gelin kabindeydi; torbayı yalnız atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım tuttu.",
+          "meta": "Cumartesi provada gelin kabindeydi; torbayı yalnız atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım tuttu.",
+          "sahne": {
+            "arka": "A45",
+            "set": "mesai",
+            "cset": "utulu",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Kadıköy, Bahariye. Vitrininde beyaz tüller asılı dar bir gelinlik atölyesi.",
+                "arka": "A45",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "İçeride mankenler, askılarda gelinlikler. Boynunda mezura, ağzında toplu iğneler olan genç bir kalfa.",
+                "gir": "dilek",
+                "gi": "normal"
+              },
+              {
+                "k": "not",
+                "m": "Kalfa Peri'yi görünce ağzındaki iğneleri yere düşürüyor.",
+                "gir": "dilek",
+                "gi": "heyecanli"
+              },
+              {
+                "k": "dilek",
+                "i": "heyecanli",
+                "m": "Siz Peri Hanım'sınız! Güzellik kraliçesi! Annemle sizi televizyonda izlerdik!",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Eskiden, canım. Şimdi dedektifim. Geçen cumartesiki provayı soracağız.",
+                "kime": "dilek"
+              },
+              {
+                "k": "dilek",
+                "i": "normal",
+                "m": "Gamze Hanım'ın provası. Torbadan mektup çıktı diye ağladı, kadıncağız.",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Gelinliği torbaya kim koydu? Gelin o sırada neredeydi?",
+                "kime": "dilek"
+              },
+              {
+                "k": "dilek",
+                "i": "normal",
+                "m": "Gelin kabindeydi, perdenin arkasında üstünü değiştiriyordu.",
+                "kime": "peri"
+              },
+              {"k": "dilek", "i": "normal", "m": "Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu."},
+              {
+                "k": "dilek",
+                "i": "normal",
+                "m": "Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi."
+              },
+              {"k": "cengo", "i": "kas", "m": "Sen neredeydin?", "kime": "dilek"},
+              {
+                "k": "dilek",
+                "i": "normal",
+                "m": "Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "merakli", "m": "Patronunuz kim?", "kime": "dilek"},
+              {"k": "dilek", "i": "normal", "m": "Jale Hanım. Atölye onun.", "kime": "peri"},
+              {"k": "peri", "i": "sasirmis", "m": "Jale Hanım mı? Haldun Bey'in eski eşi?", "kime": "dilek"},
+              {"k": "dilek", "i": "heyecanli", "m": "Ay! Bilmiyordum! Gelin de bilmiyordur herhalde.", "kime": "peri"},
+              {"k": "cengo", "i": "gulen", "m": "Bu düğünde bilenler bilmeyenlerden az.", "kime": "peri"}
+            ]
+          }
+        },
+        {
+          "id": "jale",
+          "ad": "Jale Hanım",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["jale_siparis", "jale_gizli"],
+          "text": "Gamze'nin gelinliği Jale'nin atölyesinde; Jale gelini tanıyıp sustu, borcu var. Düğünün tarihini sipariş günü, ilk mektuptan üç gün sonra öğrendi.",
+          "meta": "Gamze'nin gelinliği Jale'nin atölyesinde; Jale gelini tanıyıp sustu, borcu var. Düğünün tarihini sipariş günü, ilk mektuptan üç gün sonra öğrendi.",
+          "sahne": {
+            "arka": "A46",
+            "set": "mesai",
+            "cset": "utulu",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Fenerbahçe. Denize bakan bir çay bahçesi; masalarda ince belli bardaklar.",
+                "arka": "A46",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kısa kızıl saçlı, sade siyah elbiseli bir kadın; bileğinde bir iğnelik, önünde bir çay.",
+                "gir": "jale",
+                "gi": "soguk"
+              },
+              {
+                "k": "jale",
+                "i": "soguk",
+                "m": "Haldun mu gönderdi sizi? Mektupları ben yazdım sanıyor, değil mi?",
+                "gir": "jale",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "normal",
+                "m": "Kimse bir şey sanmıyor, Jale Hanım. Soruyoruz. Gelin Gamze Hanım'ı tanıyor musunuz?",
+                "kime": "jale"
+              },
+              {
+                "k": "not",
+                "m": "Jale çay bardağını tabağının içinde çeviriyor; Peri'nin gözüne bakmıyor.",
+                "gir": "jale",
+                "gi": "kacamak"
+              },
+              {"k": "jale", "i": "kacamak", "m": "Tanımam. Hiç görmedim.", "kime": "peri"},
+              {"k": "peri", "i": "kas", "m": "Yalan söylerken bardağı çeviriyorsunuz, Jale Hanım.", "kime": "jale"},
+              {
+                "k": "jale",
+                "i": "kacamak",
+                "m": "…Tanıyorum. Gelinliğini ben dikiyorum. Bahariye'deki atölye benim.",
+                "kime": "peri"
+              },
+              {
+                "k": "jale",
+                "i": "soguk",
+                "m": "Sipariş vermeye geldiğinde tanıdım: Haldun'un nişanlısı. Sustum. Atölye borçta; bu siparişe ihtiyacım vardı."
+              },
+              {
+                "k": "jale",
+                "i": "soguk",
+                "m": "Gamze gelinliğini kimin diktiğini bilmiyor. Öğrenirse bırakır gider, ben de batarım."
+              },
+              {"k": "peri", "i": "merakli", "m": "Düğünün tarihini ne zaman öğrendiniz?", "kime": "jale"},
+              {
+                "k": "jale",
+                "i": "normal",
+                "m": "Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze \"beş hafta sonra cumartesi\" dedi.",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş.",
+                "kime": "cengo"
+              },
+              {
+                "k": "jale",
+                "i": "soguk",
+                "m": "Haldun'la iki yıldır konuşmuyoruz. Tarihi ondan duymadım, kimseden duymadım.",
+                "kime": "peri"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Boşanırken Haldun Bey'e \"seni rahat bırakmam\" demişsiniz.",
+                "kime": "jale"
+              },
+              {
+                "k": "jale",
+                "i": "ofkeli",
+                "m": "Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum.",
+                "kime": "cengo"
+              },
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Bu çay bahçesinde herkes bir şey saklıyor. Ben de simit sakladım, cebimde.",
+                "kime": "peri"
+              }
+            ]
+          }
+        },
+        {
+          "id": "anneanne",
+          "ad": "Eylül'ün anneannesi",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["jale_soz"],
+          "text": "Müzeyyen Hanım'a göre mektuptaki \"herkes öğrenir\" sözü, Jale'nin boşanırken Haldun'a söylediği söz.",
+          "meta": "Müzeyyen Hanım'a göre mektuptaki \"herkes öğrenir\" sözü, Jale'nin boşanırken Haldun'a söylediği söz.",
+          "sahne": {
+            "arka": "A47",
+            "set": "mesai",
+            "cset": "utulu",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Üsküdar. Apartmanın üst katında bir salon: masalarda dantel örtüler, vitrinde porselen fincanlar.",
+                "arka": "A47",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kısa gümüş saçlı, bordo hırkalı bir kadın; boynunda zincirli gözlük, elinde bir tepsi börek.",
+                "gir": "muzeyyen",
+                "gi": "normal"
+              },
+              {
+                "k": "muzeyyen",
+                "i": "normal",
+                "m": "Cengo! Oğlum! Gel, gel; börek yeni çıktı.",
+                "gir": "muzeyyen",
+                "kime": "cengo"
+              },
+              {"k": "cengo", "i": "gulen", "m": "Müzeyyen anne. Ellerine sağlık.", "kime": "muzeyyen"},
+              {
+                "k": "muzeyyen",
+                "i": "normal",
+                "m": "Bu hanım kim? Eylül anlattı: \"Babamın yanında çok güzel bir kadın var\" dedi.",
+                "kime": "cengo"
+              },
+              {"k": "peri", "i": "kas", "m": "Peri. Ortağıyım. Sadece ortağı.", "kime": "muzeyyen"},
+              {
+                "k": "muzeyyen",
+                "i": "normal",
+                "m": "Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu.",
+                "kime": "peri"
+              },
+              {"k": "muzeyyen", "i": "normal", "m": "Damadım olarak çok severdim onu. Hâlâ da severim."},
+              {"k": "peri", "i": "kas", "m": "On sekizinde, Cengo? Ben on sekizimde taç takıyordum.", "kime": "cengo"},
+              {"k": "cengo", "i": "kas", "m": "Ben de bebek bezi bağlıyordum. İkisi de zor iş.", "kime": "peri"},
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Mektupları siz de gördünüz mü, Müzeyyen Hanım?",
+                "gir": "muzeyyen",
+                "kime": "muzeyyen"
+              },
+              {
+                "k": "muzeyyen",
+                "i": "uzgun",
+                "m": "Gördüm. Kızım ağlıyor, ben ağlıyorum. Ama bir sözüne takıldım.",
+                "kime": "peri"
+              },
+              {
+                "k": "muzeyyen",
+                "i": "uzgun",
+                "m": "Mektupta \"herkes öğrenir\" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş."
+              },
+              {
+                "k": "muzeyyen",
+                "i": "normal",
+                "m": "\"Herkes öğrenecek\" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın."
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "(ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?",
+                "kime": "muzeyyen"
+              },
+              {"k": "muzeyyen", "i": "normal", "m": "Hiç görmedim. Görmek de istemem.", "kime": "cengo"},
+              {"k": "peri", "i": "kas", "m": "Cengo, gömleğine börek döküyorsun.", "kime": "cengo"},
+              {"k": "cengo", "i": "gulen", "m": "Dökmüyorum. Havada yakalıyorum.", "kime": "peri"}
+            ]
+          }
+        },
+        {
+          "id": "matbaa",
+          "ad": "Mektuplar",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["kalip_kagit"],
+          "text": "Mektuplar terzi kalıp kâğıdına yazılmış: terzilerde ve gelinlikçilerde olur. Müzeyyen Hanım yıllarca terzilik yapmış.",
+          "meta": "Mektuplar terzi kalıp kâğıdına yazılmış: terzilerde ve gelinlikçilerde olur. Müzeyyen Hanım yıllarca terzilik yapmış.",
+          "sahne": {
+            "arka": "A48",
+            "set": "mesai",
+            "cset": "utulu",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Karaköy. Mürekkep kokan küçük bir matbaa; köşede eski bir baskı makinesi.",
+                "arka": "A48",
+                "mekan": true
+              },
+              {"k": "not", "m": "Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.", "gir": "tahsin", "gi": "gulen"},
+              {
+                "k": "tahsin",
+                "i": "gulen",
+                "m": "Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun?",
+                "gir": "tahsin",
+                "kime": "cengo"
+              },
+              {"k": "cengo", "i": "kas", "m": "Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak.", "kime": "tahsin"},
+              {
+                "k": "tahsin",
+                "i": "gulen",
+                "m": "On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu.",
+                "kime": "peri"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Bizim büronun camındaki yazı da ters okunuyor. Demek ondan.",
+                "kime": "cengo"
+              },
+              {
+                "k": "not",
+                "m": "Tahsin mektubu ışığa tutuyor; kâğıdın içinde ince, noktalı çizgiler beliriyor.",
+                "kare": "D20"
+              },
+              {
+                "k": "tahsin",
+                "i": "normal",
+                "m": "Bu kâğıt kırtasiyede satılmaz. Kalıp kâğıdı bu: ince, noktalı.",
+                "kare": "D20"
+              },
+              {
+                "k": "tahsin",
+                "i": "normal",
+                "m": "Terziler kullanır, gelinlikçiler kullanır. Elbisenin kalıbını bunun üstüne çizerler.",
+                "gir": "tahsin",
+                "kime": "peri"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Müzeyyen anne yıllarca terzilik yaptı. Gamze'nin bütün elbiselerini o dikerdi.",
+                "kime": "peri"
+              },
+              {"k": "peri", "i": "merakli", "m": "Jale Hanım'ın da gelinlik atölyesi var, Cengo.", "kime": "cengo"},
+              {
+                "k": "not",
+                "m": "Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.",
+                "gir": "gizem",
+                "gi": "triko_telefon"
+              },
+              {
+                "k": "gizem",
+                "i": "triko_telefon",
+                "m": "Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı.",
+                "gir": "gizem",
+                "kime": "peri"
+              },
+              {"k": "gizem", "i": "triko_telefon", "m": "\"Babam o kadınla gezmeye mi gitti?\" diyor."},
+              {"k": "peri", "i": "kas", "m": "İşe gittik. Öyle yaz.", "kime": "gizem"},
+              {
+                "k": "gizem",
+                "i": "triko_isveli",
+                "m": "(yazarak) \"Gezmeye gitti. Ama ben de gittim.\"",
+                "kime": "peri"
+              },
+              {"k": "peri", "i": "kas", "m": "Ama bu yalan.", "kime": "gizem"},
+              {"k": "gizem", "i": "triko_isveli", "m": "Şimdi geldim ya, tatlım. Doğru oldu.", "kime": "peri"}
+            ]
+          }
+        }
+      ],
+      "decisions": [
+        {
+          "id": "yazani_soyle",
+          "gate": "yok",
+          "kare": "K106",
+          "cengoBag": -1,
+          "para": 0,
+          "etiket": "Haldun'a ve Gamze'ye yazanı söyle",
+          "onizleme": "Müzeyyen'in adını verirsin. Haldun ücreti tam öder; düğün olur, Gamze annesiyle küser.",
+          "sonuc": "Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo düğün fotoğrafına baktı, en arka masayı gösterdi. \"Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "kendisi_soylesin",
+          "gate": "yok",
+          "kare": "K107",
+          "cengoBag": 2,
+          "para": -10000,
+          "etiket": "Müzeyyen kendisi söylesin",
+          "onizleme": "Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gideceği için 10.000 ₺ keser.",
+          "sonuc": "Mektubu Müzeyyen'e geri verdin: \"Düğünden önceki akşam, sofrada, siz söyleyeceksiniz.\" Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücretten on bin kesti: \"Bir hafta bekledim, şimdi bir yıl bekleyeceğim.\"",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo bileğindeki bilekliği çevirdi. \"Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "parasini_al",
+          "gate": "yok",
+          "kare": "K108",
+          "cengoBag": -2,
+          "para": 15000,
+          "etiket": "Adını verme, parasını al",
+          "onizleme": "Haldun'a \"yazan bulundu, bir daha yazmayacak\" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir.",
+          "sonuc": "Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini bir zarfa koyup sana verdi. Düğün oldu; Gamze mektupları kimin yazdığını hiç öğrenmedi.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo zarfa dokunmadı. \"Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "cengoya_birak",
+          "gate": "yok",
+          "kare": "K109",
+          "cengoBag": 1,
+          "para": -5000,
+          "etiket": "Başarıyı Cengo'ya bırak",
+          "onizleme": "Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 5.000 ₺ keser.",
+          "sonuc": "Haldun'un ve Eylül'ün önünde \"Dosyayı Cengo Bey çözdü\" dedin. Cengo adı vermedi: \"Bir daha mektup gelmeyecek, kefili benim.\" Haldun ad duymadığı için beş bin kesti. Eylül babasına sarıldı: \"Biliyordum.\" Sonra Peri'ye baktı: \"Sen de yardım ettin herhalde.\" Düğün oldu; İzmir'e gittiler.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo ütülü gömleğinin kollarını sıvadı. \"Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm\" dedi."
+            }
+          ]
+        }
+      ],
+      "seeds": {},
+      "kim_yapti": {
+        "suclu": "muzeyyen",
+        "supheliler": [
+          {
+            "id": "muzeyyen",
+            "ad": "Müzeyyen Hanım",
+            "gorunur": {"any": ["tarih_sofra", "posta_elden", "prova_torba", "jale_soz", "kalip_kagit"]}
+          },
+          {"id": "cengo", "ad": "Cengo", "gorunur": "her_zaman"},
+          {"id": "jale", "ad": "Jale Hanım", "gorunur": "her_zaman"}
+        ],
+        "dogru_ciftler": [
+          ["tarih_sofra", "prova_torba"],
+          ["tarih_sofra", "kalip_kagit"],
+          ["jale_siparis", "prova_torba"],
+          ["jale_siparis", "kalip_kagit"]
+        ],
+        "ucret": {"dogru": 40000, "zayif": 30000, "yanlis": 20000},
+        "giris_grup": "Eylül'ün anlattıkları",
+        "kesinti": {
+          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Haldun Bey {kesinti} kesti.",
+          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Haldun Bey {kesinti} kesti."
+        },
+        "cozum": {
+          "yollar": [
+            "Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği torbayı yalnız iki kişi tuttu (Müzeyyen ya da Jale).",
+            "Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + mektuplar terzi kalıp kâğıdına yazılmıştı (Müzeyyen ya da Jale).",
+            "Jale tarihi ilk mektuptan üç gün sonra öğrendi + torbayı tutan kalan tek kişi Müzeyyen'di.",
+            "Jale tarihi ilk mektuptan üç gün sonra öğrendi + kalıp kâğıdı kullanan kalan tek kişi, terzi Müzeyyen'di."
+          ],
+          "masum": {
+            "cengo": "Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.",
+            "jale": "Jale Hanım masumdu: gelinliği dikiyor, kim olduğunu saklıyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu."
+          }
+        },
+        "hikaye": [
+          "Gamze, Haldun Bey'le evlenmeye karar verdi. Haldun'un İzmir'e tayini çıkmıştı; düğünden sonra Gamze'yi ve Eylül'ü götürecekti. Gamze'nin annesi, emekli terzi Müzeyyen Hanım üst katta tek kalacaktı; Eylül de okulunu yarıda bırakacak, babası Cengo'yu bir daha göremeyecekti.",
+          "Düğünün tarihi üç hafta önce bir pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül ve Müzeyyen. Eylül sofradan kalkıp tarihi babasına yazdı. Ertesi sabah Müzeyyen postayı alırken, kendi kalıp kâğıdına yazdığı ilk mektubu kutuya koydu ve \"buldum\" diye kızına götürdü.",
+          "O cuma Gamze gelinliğini, bilmeden, Haldun'un eski eşi Jale'nin Bahariye'deki atölyesine ısmarladı. Jale gelini tanıdı ama sustu: atölye borçtaydı. Düğünün tarihini de o gün öğrendi. \"Herkes öğrenecek\" sözünü iki yıl önce boşanırken söylemişti; Müzeyyen bunu kızından duymuş, mektuba yazmıştı.",
+          "İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin torbasına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.",
+          "Mektuplar Gamze'yi düğünü iptal etmenin eşiğine getirdi. Müzeyyen bir şey daha yaptı: torununa \"Baban dedektif, git ona\" dedi. Cengo'nun bulamayacağını sanıyordu; bir de kız babasını görsün istiyordu."
+        ],
+        "kanit_ad": {
+          "mektup_geldi": "Üç isimsiz mektup",
+          "cengo_suphe": "Gamze'nin şüphesi",
+          "jale_suphe": "Haldun'un şüphesi",
+          "tarih_sofra": "Sofradaki tarih",
+          "izmir_tayin": "İzmir tayini",
+          "bank_adam": "Banktaki adam",
+          "posta_elden": "Pulsuz mektuplar",
+          "prova_torba": "Torbayı tutanlar",
+          "jale_siparis": "Siparişin günü",
+          "jale_gizli": "Atölyenin sırrı",
+          "jale_soz": "Mektuptaki söz",
+          "kalip_kagit": "Kalıp kâğıdı"
+        }
+      },
+      "anahtarlar": {
+        "tarih_sofra": ["babasına mesaj", "sofrada dört"],
+        "izmir_tayin": ["bir hafta sonra başlıyor", "başkasına verirler"],
+        "bank_adam": ["bankın adamı"],
+        "posta_elden": ["pulsuz", "ilk Müzeyyen"],
+        "prova_torba": ["askıyı tuttu", "makas almaya"],
+        "jale_siparis": ["sipariş günü", "üç hafta önceki cuma"],
+        "jale_gizli": ["atölye borçta", "gelinliğini ben dikiyorum"],
+        "jale_soz": ["aynı söz", "aynısını demiş"],
+        "kalip_kagit": ["kırtasiyede satılmaz", "noktalı"]
+      },
+      "sahneler": {
+        "giris": {
+          "arka": "A6",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu."
+            },
+            {
+              "k": "not",
+              "m": "Kapı açılıyor. Cengo giriyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı."
+            },
+            {"k": "peri", "i": "sasirmis", "m": "Cengo? Bu gömlek ne? Kim öldü?", "kime": "cengo"},
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma.",
+              "kime": "peri"
+            },
+            {
+              "k": "not",
+              "m": "Peri masadan kalkıyor; Cengo'yu baştan aşağı süzüp gömleğinin yakasını iki parmağıyla düzeltiyor.",
+              "kare": "K96"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Yakan yamuk. Seni ilk kez ütülü görüyorum; gelen çok önemli biri olmalı.",
+              "kare": "K96"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum.",
+              "kime": "peri"
+            },
+            {"k": "not", "m": "Peri masasına dönüyor. Kapı çalınıyor."},
+            {
+              "k": "not",
+              "m": "Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.",
+              "gir": "eylul",
+              "gi": "sevincli"
+            },
+            {"k": "eylul", "i": "sevincli", "m": "Baba!", "gir": "eylul", "kime": "cengo"},
+            {"k": "not", "m": "Kız koşup Cengo'ya sarılıyor. Peri'nin elindeki dergi yere düşüyor.", "kare": "K97"},
+            {"k": "peri", "i": "sasirmis", "m": "Baba mı? Cengo, senin bir kızın mı var?", "kare": "K97"},
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Eylül. On altı yaşında. Annesiyle Üsküdar'da oturuyor.",
+              "kime": "peri"
+            },
+            {"k": "eylul", "i": "kiskanc", "m": "Baba, bu hanım kim?", "gir": "eylul", "kime": "cengo"},
+            {"k": "cengo", "i": "kas", "m": "Peri. Ortağım. Bu büroyu beraber işletiyoruz.", "kime": "eylul"},
+            {"k": "eylul", "i": "kiskanc", "m": "Sadece ortak mı?", "kime": "cengo"},
+            {"k": "peri", "i": "kas", "m": "Sadece ortak, Eylül. Hoş geldin.", "kime": "eylul"},
+            {
+              "k": "not",
+              "m": "Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.",
+              "gir": "eylul",
+              "gi": "kiskanc"
+            },
+            {"k": "not", "m": "Gizem çay ocağından elinde bir tepsiyle geliyor.", "gir": "gizem", "gi": "triko"},
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Misafir mi var? Çay benden. Sen kimsin, güzelim?",
+              "gir": "gizem",
+              "kime": "eylul"
+            },
+            {"k": "eylul", "i": "gulen", "m": "Eylül. Cengo'nun kızıyım.", "gir": "eylul", "kime": "gizem"},
+            {
+              "k": "gizem",
+              "i": "triko_isveli",
+              "m": "Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden.",
+              "gir": "gizem",
+              "kime": "eylul"
+            },
+            {"k": "eylul", "i": "gulen", "m": "Sen iyisin, abla.", "gir": "eylul", "kime": "gizem"},
+            {
+              "k": "gizem",
+              "i": "triko_isveli",
+              "m": "(Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma.",
+              "gir": "gizem",
+              "kime": "eylul"
+            },
+            {"k": "peri", "i": "kas", "m": "Ben kimseye öyle bakmıyorum, Gizem.", "kime": "gizem"},
+            {"k": "cengo", "i": "normal", "m": "Otur kızım. Anlat bakalım, ne oldu?", "gir": "eylul", "kime": "eylul"},
+            {
+              "k": "eylul",
+              "i": "uzgun",
+              "m": "Annem evleniyor, baba. Haldun amcayla. İki hafta sonra, cumartesi.",
+              "kime": "cengo"
+            },
+            {
+              "k": "eylul",
+              "i": "uzgun",
+              "m": "Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim."
+            },
+            {"k": "eylul", "i": "normal", "m": "Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar."},
+            {
+              "k": "not",
+              "m": "Eylül masaya üç zarf koyuyor. Her birinde katlanmış ince bir kâğıt; kurşun kalemle, büyük harflerle yazılmış.",
+              "kare": "D18"
+            },
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Üçünde de aynı şey yazıyor: \"Bu düğün olursa herkes öğrenir.\" Pul yok, gönderen yok.",
+              "kare": "D18"
+            },
+            {"k": "peri", "i": "merakli", "m": "Nereden geldiler, Eylül?", "gir": "eylul", "kime": "eylul"},
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan.",
+              "kime": "peri"
+            },
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş."
+            },
+            {
+              "k": "eylul",
+              "i": "uzgun",
+              "m": "Annem düğünü iptal etmek istiyor. Haldun amcaya \"ne saklıyorsun\" diye bağırıyor; o da \"hiçbir şey\" diyor."
+            },
+            {"k": "peri", "i": "merakli", "m": "Mektupları kimin yazdığını düşünüyorlar?", "kime": "eylul"},
+            {
+              "k": "eylul",
+              "i": "uzgun",
+              "m": "Annem \"babandır\" diyor: \"Baban bu düğünü istemez.\" Ben inanmıyorum. O yüzden sana geldim, baba.",
+              "kime": "cengo"
+            },
+            {
+              "k": "cengo",
+              "i": "sinirli",
+              "m": "Ben mi? Ben annene mektup mu yazacağım? Bir şey diyeceksem yüzüne söylerim.",
+              "kime": "eylul"
+            },
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Haldun amca da eski karısı Jale Hanım'dan şüpheleniyor. Boşanırken \"seni rahat bırakmam\" demiş.",
+              "kime": "peri"
+            },
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Jale Hanım'ın da Kadıköy'de bir gelinlik atölyesi varmış. Haldun amca bunu söyleyince annem bir tuhaf oldu."
+            },
+            {"k": "peri", "i": "merakli", "m": "Evde başka kimin haberi var bu mektuplardan?", "kime": "eylul"},
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Anneannemin. Bizim apartmanda, üst katta oturuyor; çok üzülüyor. Bu büronun adresini bana o verdi.",
+              "kime": "peri"
+            },
+            {
+              "k": "eylul",
+              "i": "sevincli",
+              "m": "\"Baban dedektif, git ona\" dedi. Sen dedektifsin baba. Sen bulursun.",
+              "kime": "cengo"
+            },
+            {"k": "not", "m": "Cengo Peri'ye bakıyor. Peri bir an susuyor."},
+            {"k": "peri", "i": "kas", "m": "Baban bu büronun en iyi dedektifidir, Eylül.", "kime": "eylul"},
+            {"k": "not", "m": "Eylül, Cengo'nun bileğindeki renkli boncuklu bilekliği görüyor.", "kare": "D19"},
+            {"k": "peri", "i": "merakli", "m": "O bileklik hep bileğinde, Cengo. Hep soracaktım.", "kare": "D19"},
+            {
+              "k": "eylul",
+              "i": "sevincli",
+              "m": "Ben yaptım! Yedi yaşındayken. Hâlâ takıyorsun, baba!",
+              "gir": "eylul",
+              "kime": "cengo"
+            },
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Parayı Haldun amca ödeyecek. \"Kim yazdıysa bulsunlar, ne isterlerse veririm\" dedi.",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "normal", "m": "Ücretimiz kırk bin lira. İş bitince ödenir.", "kime": "eylul"},
+            {"k": "cengo", "i": "kas", "m": "Kızımın işinden para alınmaz, Peri.", "kime": "peri"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kızından değil, Cengo. Haldun Bey'den. Yarın Üsküdar'dan başlarız.",
+              "kime": "cengo"
+            },
+            {
+              "k": "eylul",
+              "i": "kiskanc",
+              "m": "Babam nereden başlarsak oradan başlarız.",
+              "gir": "eylul",
+              "kime": "peri"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız.",
+              "gir": "gizem",
+              "kime": "eylul"
+            },
+            {"k": "eylul", "i": "gulen", "m": "Tamam, abla.", "gir": "eylul", "kime": "gizem"},
+            {
+              "k": "not",
+              "m": "Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.",
+              "gir": "eylul",
+              "gi": "kiskanc"
+            }
+          ]
+        },
+        "konusma": {
+          "arka": "A6",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {"k": "not", "m": "Kapı kapanıyor. Peri Cengo'ya dönüyor."},
+            {"k": "peri", "i": "kas", "m": "Büyük dedektif, ha?", "kime": "cengo"},
+            {"k": "cengo", "i": "kas", "m": "Paravan Dedektiflik'in bordrosundayım. Yalan değil.", "kime": "peri"},
+            {"k": "peri", "i": "kas", "m": "Yedi yıl maaş aldın, bir tane dosya açmadın."},
+            {"k": "cengo", "i": "gulen", "m": "Bu ilk dosyam."},
+            {"k": "peri", "i": "merakli", "m": "Bir kızın olduğunu bana neden hiç söylemedin, Cengo?"},
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Söyleyecek bir şey yoktu. Uzaktan bakıyorum, o kadar. Hadi işe dönelim."
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Önce Haldun Bey'le konuşalım. Düğünün tarihi ne zaman konuşulmuş, mektuplar ne zaman başlamış, öğrenelim."
+            },
+            {"k": "cengo", "i": "normal", "m": "Apartmana da gideriz. Kapıcılar her şeyi görür."},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Gelinliğin dikildiği atölyeye gidelim; üçüncü mektup orada çıktı. Jale Hanım'ı da bulalım."
+            },
+            {"k": "cengo", "i": "kas", "m": "Eylül'ün anneannesine de uğrarız. Börekleri iyidir, hâlâ tadı damağımda."},
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Mektupları da Karaköy'deki eski ustama gösteririm. Matbaacıdır; kâğıttan anlar."
+            },
+            {"k": "not", "m": "Gizem içeri giriyor; elinde telefonu.", "gir": "gizem", "gi": "triko_telefon"},
+            {
+              "k": "gizem",
+              "i": "triko_telefon",
+              "m": "Eylül vapurdan yazdı: \"Babam bugün yemek yedi mi?\"",
+              "gir": "gizem",
+              "kime": "cengo"
+            },
+            {"k": "cengo", "i": "yumusak", "m": "Yedim. Simit yedim.", "kime": "gizem"},
+            {
+              "k": "gizem",
+              "i": "triko_telefon",
+              "m": "Bir de şunu yazmış: \"O kadın hâlâ babamın yanında mı?\"",
+              "kime": "cengo"
+            },
+            {"k": "peri", "i": "kas", "m": "\"O kadın\" kim?", "kime": "gizem"},
+            {
+              "k": "gizem",
+              "i": "triko_isveli",
+              "m": "Sensin, tatlım. (yazarak) \"Yanında. Ama ben de buradayım.\"",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Harika. On altı yaşında bir kız beni kıskanıyor.", "kime": "gizem"},
+            {"k": "cengo", "i": "gulen", "m": "Seni ilk kez biri sevmedi, Peri. Alışırsın.", "kime": "peri"}
+          ]
+        },
+        "yuzlesme_dogru": {
+          "arka": "A45",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.",
+              "kare": "K98"
+            },
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
+              "gir": "jale",
+              "kime": "muzeyyen"
+            },
+            {
+              "k": "not",
+              "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
+              "gir": "muzeyyen",
+              "gi": "normal"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "normal",
+              "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
+              "kime": "cengo"
+            },
+            {"k": "peri", "i": "normal", "m": "Mektupları kim yazdı, biliyorum. Söylemeye geldim.", "kime": "muzeyyen"},
+            {"k": "peri", "i": "kas", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
+            {
+              "k": "muzeyyen",
+              "i": "gergin",
+              "m": "Ben mi? Ben o kızın gelinliğini kendi elimle dikmek isterdim…",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor.", "kime": "muzeyyen"},
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
+              "kime": "muzeyyen"
+            },
+            {"k": "not", "m": "Müzeyyen torbayı askıdan kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
+          ]
+        },
+        "yuzlesme_zayif": {
+          "arka": "A45",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.",
+              "kare": "K98"
+            },
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
+              "gir": "jale",
+              "kime": "muzeyyen"
+            },
+            {
+              "k": "not",
+              "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
+              "gir": "muzeyyen",
+              "gi": "normal"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "normal",
+              "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
+              "kime": "cengo"
+            },
+            {"k": "peri", "i": "normal", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
+            {
+              "k": "muzeyyen",
+              "i": "normal",
+              "m": "Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?",
+              "kime": "peri"
+            },
+            {
+              "k": "peri",
+              "i": "utanmis",
+              "m": "…Elimde bir şey var, ama sizi ikna edecek kadar değil.",
+              "kime": "muzeyyen"
+            },
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
+              "kime": "muzeyyen"
+            },
+            {"k": "not", "m": "Müzeyyen torbayı askıdan kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
+          ]
+        },
+        "yuzlesme_cengo": {
+          "arka": "A45",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.",
+              "kare": "K98"
+            },
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
+              "gir": "jale",
+              "kime": "muzeyyen"
+            },
+            {
+              "k": "not",
+              "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
+              "gir": "muzeyyen",
+              "gi": "normal"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "normal",
+              "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
+              "kime": "cengo"
+            },
+            {"k": "peri", "i": "kas", "m": "Cengo. Mektupları sen yazdın.", "kime": "cengo"},
+            {
+              "k": "cengo",
+              "i": "sinirli",
+              "m": "Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım.",
+              "kime": "peri"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam."
+            },
+            {
+              "k": "not",
+              "m": "Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.",
+              "gir": "muzeyyen",
+              "gi": "gergin"
+            },
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
+              "kime": "muzeyyen"
+            },
+            {"k": "not", "m": "Müzeyyen torbayı askıdan kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
+          ]
+        },
+        "yuzlesme_jale": {
+          "arka": "A45",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.",
+              "kare": "K98"
+            },
+            {
+              "k": "jale",
+              "i": "soguk",
+              "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
+              "gir": "jale",
+              "kime": "muzeyyen"
+            },
+            {
+              "k": "not",
+              "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
+              "gir": "muzeyyen",
+              "gi": "normal"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "normal",
+              "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
+              "kime": "cengo"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız.",
+              "gir": "jale",
+              "kime": "jale"
+            },
+            {
+              "k": "jale",
+              "i": "ofkeli",
+              "m": "Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım?",
+              "kime": "peri"
+            },
+            {
+              "k": "jale",
+              "i": "ofkeli",
+              "m": "(torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün."
+            },
+            {"k": "not", "m": "Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
+          ]
+        },
+        "kovalamaca": {
+          "arka": "A49",
+          "set": "mesai",
+          "cset": "utulu",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Müzeyyen torbayla Bahariye Caddesi'ne fırlıyor. Cengo peşinden atılırken kapıdaki duvaklı mankenle çarpışıyor; duvak başına geçiyor.",
+              "kare": "K100",
+              "cset": "duvakli"
+            },
+            {"k": "cengo", "i": "kas", "m": "Görmüyorum! Peri, ben hiçbir şey görmüyorum!", "kare": "K100"},
+            {
+              "k": "not",
+              "m": "Torbanın fermuarı açılıyor; gelinliğin uzun kuyruğu kaldırıma yayılıyor. Peri kuyruğa basıp kayıyor, bir çiçekçinin kovalarının arasına düşüyor.",
+              "arka": "A49",
+              "kare": "K101",
+              "set": "gullu",
+              "peri": "sinirli"
+            },
+            {
+              "k": "not",
+              "m": "Bir düğün fotoğrafçısı flaşını patlatıyor; ıslak, güllere bulanmış Peri'yi gelin sanmış.",
+              "kare": "K102"
+            },
+            {"k": "fotografci", "m": "Gelin hanım, buraya bakın! Harika! Bir daha!", "kare": "K102"},
+            {"k": "peri", "i": "sinirli", "m": "Ben gelin değilim!", "kare": "K102"},
+            {
+              "k": "not",
+              "m": "Kuyruğun ucu Peri'nin ayağına dolanmış. Peri doğrulunca kuyruk geriliyor; torba Müzeyyen'i geri çekiyor, Müzeyyen bir banka oturuveriyor. Duvaklı Cengo yetişip torbayı tutuyor.",
+              "kare": "K103"
+            },
+            {"k": "teyze", "m": "(Peri'yle Cengo'yu göstererek) Allah bir yastıkta kocatsın, evladım!", "kare": "K103"},
+            {"k": "not", "m": "Peri kuyruğun ucu elinde, güllü, çenesi havada duruyor.", "kare": "K104"},
+            {"k": "peri", "i": "kas", "m": "Kuyruğu ben tuttum.", "kare": "K104"},
+            {
+              "k": "not",
+              "m": "Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.",
+              "gir": "muzeyyen",
+              "gi": "gergin"
+            },
+            {
+              "k": "not",
+              "m": "Kalfa atölyeden koşarak geliyor; elinde bir havlu ve tül bir şal. Şalı Peri'nin ıslak omuzlarına atıyor.",
+              "kare": "K105",
+              "set": "tul"
+            },
+            {
+              "k": "dilek",
+              "i": "heyecanli",
+              "m": "Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı.",
+              "gir": "dilek",
+              "kime": "peri"
+            },
+            {
+              "k": "not",
+              "m": "Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.",
+              "gir": "jale",
+              "gi": "soguk"
+            },
+            {"k": "jale", "i": "soguk", "m": "Etek ıslak. Kurur.", "kime": "peri"},
+            {"k": "peri", "i": "kas", "m": "Ben de kururum, Jale Hanım.", "kime": "jale"},
+            {
+              "k": "not",
+              "m": "Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.",
+              "cik": true
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Tamam. Ben yazdım. Hepsini ben yazdım.",
+              "gir": "muzeyyen",
+              "kime": "peri"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak."
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo.",
+              "kime": "cengo"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim."
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum.",
+              "kime": "peri"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum."
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "\"Herkes öğrenir\" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok."
+            },
+            {"k": "muzeyyen", "i": "itiraf", "m": "Bugün de dördüncüsünü koymuştum. Jale \"açıyorum\" deyince korktum."},
+            {"k": "not", "m": "Müzeyyen hırkasının cebinden katlanmış kâğıdı çıkarıp Peri'ye uzatıyor.", "kare": "D21"},
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Eylül'ü sana ben gönderdim, Cengo. Bulamazsın sandım.",
+              "gir": "muzeyyen",
+              "kime": "cengo"
+            },
+            {"k": "muzeyyen", "i": "itiraf", "m": "Bir de kız babasını görsün istedim."},
+            {"k": "cengo", "i": "yumusak", "m": "Buldum ama, Müzeyyen anne.", "kime": "muzeyyen"}
+          ]
+        },
+        "kapanis": {
+          "arka": "A8",
+          "set": "tul",
+          "cset": "buruk",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş."
+            },
+            {"k": "not", "m": "Gizem elinde çay tepsisi ve telefonuyla geliyor.", "gir": "gizem", "gi": "triko_telefon"},
+            {
+              "k": "gizem",
+              "i": "triko_telefon",
+              "m": "Eylül yazdı: \"Gizem abla, babama söyle; cumartesi bankta oturmasın, eve gelsin.\"",
+              "gir": "gizem",
+              "kime": "cengo"
+            },
+            {"k": "not", "m": "Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.", "kare": "K110"},
+            {
+              "k": "gizem",
+              "i": "triko_isveli",
+              "m": "Bir de şunu yazmış: \"O kadın gelmesin.\"",
+              "gir": "gizem",
+              "kime": "peri"
+            },
+            {"k": "peri", "i": "kas", "m": "Ben bir şey demedim ki.", "kime": "gizem"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Neden söylemedin, Cengo? Bir kızın olduğunu.",
+              "bag": "dusuk",
+              "kime": "cengo"
+            },
+            {"k": "cengo", "i": "normal", "m": "Sen de hiç sormadın, Peri.", "bag": "dusuk", "kime": "peri"},
+            {
+              "k": "not",
+              "m": "Cengo ceketini alıp çıkıyor. Peri saçındaki gül yaprağını çöpe atıyor.",
+              "bag": "dusuk",
+              "kare": "K111"
+            },
+            {"k": "not", "m": "Peri saçındaki gül yaprağını alıp Cengo'ya uzatıyor.", "bag": "yuksek", "kare": "K112"},
+            {"k": "peri", "i": "yumusak", "m": "Cengo, ben…", "bag": "yuksek", "kime": "cengo"},
+            {"k": "peri", "i": "yumusak", "m": "…gömleğin çok güzel ütülenmişti.", "bag": "yuksek", "kime": "cengo"},
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "(yaprağı gömleğinin cebine koyarak) Kızım için.",
+              "bag": "yuksek",
+              "kime": "peri"
+            },
             {"k": "gizem", "i": "triko", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
           ]
         }

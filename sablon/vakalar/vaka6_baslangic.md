@@ -35,3 +35,4 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 | 0 Konu seçimi | 12 Kas 17:57 | 12 Kas 17:57 | ~2 dk | ~3 dk | öneri seçildi; 4 soru cevaplandı; isimler Claude'a |
 | 1 Form | 12 Kas 18:00 | 12 Kas 18:11 | 0 | ~11 dk | form `vaka6_form.md`; 5 kanon önerisi 🟡; Cengo şüpheli (motor izin veriyor) |
 | 2 Onay 1 | 12 Kas 18:12 | 12 Kas 18:27 | ~2 dk (5 soru; 1'i düzeltmeyle) | ~8 dk (işleme) | Eylül 16 (Cengo baba olduğunda reşit), Cengo–Gamze evliydi; ek: Eylül Peri'yi kıskanır, Gizem'in rolü büyür; kanon 6 madde |
+| 3–4 Diyalog + veri + künye | 12 Kas 18:28 | 12 Kas 18:41 | 0 | ~45 dk | diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 |

@@ -152,7 +152,7 @@ kimlikle tanıyor (`motor_yeni.js`); künye kartı yok (sabit karakter). Adım 3
 | B | Apartmanın kapıcısı | Üsküdar, apartman önü ve karşıdaki bank | koşulsuz | bank_adam, posta_elden | Cengo (kapıcılar ona açılır) |
 | C | Atölyenin kalfası | Kadıköy, Bahariye'deki gelinlik atölyesi | koşulsuz | prova_torba | Peri (kalfa onu tanır: eski güzellik kraliçesi) |
 | D | Jale Hanım | Fenerbahçe, sahildeki çay bahçesi | koşulsuz (girişte anılır) | jale_siparis, jale_gizli | Peri (yalanı okur) |
-| E | Müzeyyen Hanım | Üsküdar, üst kat, dikiş odası | koşulsuz (girişte anılır) | jale_soz | Cengo (eski aile; Müzeyyen onu "oğlum" diye karşılar) |
+| E | Müzeyyen Hanım | Üsküdar, üst kat, salon | koşulsuz (girişte anılır) | jale_soz | Cengo (eski aile; Müzeyyen onu "oğlum" diye karşılar) |
 | F | Mektuplar | Karaköy, Tahsin Usta'nın matbaası | koşulsuz | kalip_kagit | Cengo (adamı) |
 
 Peri 3 (A, C, D), Cengo 3 (B, E, F). *İpucu adları yeni ad taşımaz (K18): "kapıcı", "kalfa" adsız; Haldun, Jale,
@@ -184,7 +184,7 @@ senden çok yazıyor." Peri, Cengo'nun bir kızı olduğunu ona neden söylemedi
   "Atölye benim. Gelini tanıdım, sustum. Borcum var; bu siparişe ihtiyacım vardı." Tarih: "Sipariş günü öğrendim,
   defterde yazıyor: ilk mektuptan üç gün sonra." "Herkes öğrenecek" sözünü sorunca: "Söyledim, evet. Kızgındım. İki
   yıl önceydi."
-- **E.** Üst kat, dikiş odası: makine, kumaşlar, kalıplar. Müzeyyen Cengo'yu "oğlum" diye karşılar, börek koyar; Peri
+- **E.** Üst kat, salon: dantel örtüler, porselenler (dikişe dair bir şey görünmez: terziliği F'de söylenir). Müzeyyen Cengo'yu "oğlum" diye karşılar, börek koyar; Peri
   Cengo'nun on yedi yaşındaki hâlini dinler (komedi motoru). Müzeyyen, Gamze'den duyduğunu anlatır: Jale boşanırken
   "herkes öğrenecek" demiş. "Mektupta aynı söz." Cengo böreği yer, gömleğine damlatmamaya çalışır.
 - **F.** Karaköy, matbaa. Tahsin Usta mektubu ışığa tutar: "Bu kâğıt kırtasiyede satılmaz. Kalıp kâğıdı; terzide,
@@ -300,14 +300,14 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 | karar | kısa sonuç (karar ekranı) | eylem → sonuç → bedel | karar parası | bağ | Cengo'nun tavrı | Cengo satırı | anı defteri |
 |---|---|---|---|---|---|---|---|
 | **Haldun'a ve Gamze'ye yazanı söyle** | Müzeyyen'in adını verirsin. Haldun ücreti tam öder; düğün olur, Gamze annesiyle konuşmaz. | Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler. | 0 | −1 | hoşuna gitmez | "Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?" | Yazanın adını verdim. Anneanne en arka masadaydı. |
-| **Müzeyyen kendisi söylesin** | Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun beklediği için 5.000 ₺ keser. | Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun bir hafta beklediği için ücretten beş bin kesti. | −5.000 | +2 | hoşuna gider | "Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim." | Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da. |
+| **Müzeyyen kendisi söylesin** | Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gideceği için 10.000 ₺ keser. | Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücretten on bin kesti: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim." | −10.000 | +2 | hoşuna gider | "Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim." | Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da. |
 | **Adını verme, parasını al** | Haldun'a "yazan bulundu, bir daha yazmayacak" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir. | Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini zarfa koyup sana verdi. Düğün oldu; Gamze kimin yazdığını hiç öğrenmedi. | +15.000 | −2 | hoşuna gitmez | "Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim." | Adını vermedim. Müzeyyen'in parası kasada. |
-| **Başarıyı Cengo'ya bırak** | Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 10.000 ₺ keser. | Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek; kefili benim." Haldun ad duymadığı için on bin kesti. Eylül babasına sarıldı: "Biliyordum." Peri'ye de bir bakış attı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler. | −10.000 | +1 | hoşuna gider | Ütülü gömleğinin kollarını sıvar: "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm." | Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı. |
+| **Başarıyı Cengo'ya bırak** | Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 5.000 ₺ keser. | Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek; kefili benim." Haldun ad duymadığı için beş bin kesti. Eylül babasına sarıldı: "Biliyordum." Peri'ye de bir bakış attı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler. | −5.000 | +1 | hoşuna gider | Ütülü gömleğinin kollarını sıvar: "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm." | Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı. |
 
 - Kirli seçenek en çok kazandırır, fark küçük (15.000). Dürüst ve kazandırmayan: "yazanı söyle" (0, ama Cengo'yu kırar).
-  Dürüst ve kaybettiren: "kendisi söylesin" (−5.000, Cengo'nun hoşuna gider).
+  Dürüst ve kaybettiren: "kendisi söylesin" (−10.000, Cengo'nun hoşuna gider). *(Adım 4'te tutarlar "başarı Cengo'ya" ile yer değiştirdi: doğrulayıcı K8, bir karar ötekini iki eksende de geçiyordu.)*
 - Cengo satırları yan yana: biri sitem, biri sevinç, biri tiksinti, biri gurur + takılma. "Doğru cevap" çıkmaz.
-- **Kasaya giren en az:** yanlış suçlama (20.000) + başarı Cengo'ya (−10.000) = 10.000 ₺. Eksiye düşmez. En çok karar
+- **Kasaya giren en az:** yanlış suçlama (20.000) + kendisi söylesin (−10.000) = 10.000 ₺. Eksiye düşmez. En çok karar
   parası (15.000) ücretin (40.000) altında.
 - **Sızıntı notu:** karar metinleri yalnız itirafın söylediğini anar (İzmir, okul, kalıp kâğıdı, torba, 4. mektup).
   Kapıcı, bank, Jale'nin borcu karar metinlerine girmez.
@@ -349,7 +349,7 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 | Üsküdar, apartmanın önü ve karşıdaki bank | yeni |
 | Gelinlik atölyesi (Bahariye; mankenler, tül) — ipucu C ve yüzleşme | yeni |
 | Fenerbahçe, sahil çay bahçesi | yeni |
-| Müzeyyen'in dikiş odası (üst kat) | yeni |
+| Müzeyyen'in salonu (üst kat) | yeni |
 | Matbaa (Karaköy) | yeni |
 | Bahariye Caddesi, çiçekçi (kovalamaca) | yeni |
 
@@ -395,9 +395,9 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 |---|---|---|
 | 40.000 ₺ | vaka ücreti (Haldun öder) | V3–V5 ile aynı |
 | 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
-| 5.000 ₺ | "kendisi söylesin"de Haldun'un kesintisi | hikâye içi |
+| 10.000 ₺ | "kendisi söylesin"de Haldun'un kesintisi | hikâye içi |
 | 15.000 ₺ | Müzeyyen'in susma parası | hikâye içi; emekli birikimi; kural 26 (ücretin altında) |
-| 10.000 ₺ | "başarı Cengo'ya"da Haldun'un kesintisi | hikâye içi |
+| 5.000 ₺ | "başarı Cengo'ya"da Haldun'un kesintisi | hikâye içi |
 
 Başka tutar metne girmez.
 
@@ -415,7 +415,7 @@ Müzeyyen Hanım, Jale Hanım.
 5. Gizem Cengo'nun kızını bu vakada öğrenir; Eylül ile Gizem çok iyi anlaşır (Eylül ona "abla" der, mesajlaşırlar).
 6. Eylül Peri'yi kıskanır.
 
-**Vaka kanonu:** Eylül'lerin apartmanı (Üsküdar, Doğancılar), Müzeyyen'in dikiş odası, Haldun'un İzmir tayini, Jale'nin
+**Vaka kanonu:** Eylül'lerin apartmanı (Üsküdar, Doğancılar), Müzeyyen'in salonu, Haldun'un İzmir tayini, Jale'nin
 Bahariye'deki atölyesi, kapıcı Recep Efendi, kalfa Dilek, Tahsin Usta (Karaköy matbaası).
 **Kapanan açık nokta:** Cengo'nun kızının adı (Eylül).
 

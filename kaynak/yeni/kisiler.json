@@ -409,6 +409,60 @@
       "portre": "portre_ismet",
       "tanisma": "usta_uc",
       "katmanlar": [{"kosul": "usta_uc", "tanim": "Kadıköy çarşısında deri ustası. Muammer Bey'in çantasını o yapmış."}]
+    },
+    {
+      "id": "eylul",
+      "ad": "Eylül",
+      "portre": "portre_eylul",
+      "tanisma": "mektup_geldi",
+      "katmanlar": [
+        {
+          "kosul": "mektup_geldi",
+          "tanim": "Cengo'nun kızı, 16 yaşında. Annesinin düğünü için babasından yardım istedi."
+        }
+      ]
+    },
+    {
+      "id": "haldun",
+      "ad": "Haldun Bey",
+      "portre": "portre_haldun",
+      "tanisma": "mektup_geldi",
+      "katmanlar": [
+        {"kosul": "mektup_geldi", "tanim": "Eylül'ün annesi Gamze'yle evlenecek. Ücreti o ödüyor."},
+        {
+          "kosul": "izmir_tayin",
+          "tanim": "Eylül'ün annesi Gamze'yle evlenecek. Ücreti o ödüyor. İzmir'deki görevi düğünden bir hafta sonra başlıyor."
+        }
+      ]
+    },
+    {
+      "id": "jale",
+      "ad": "Jale Hanım",
+      "portre": "portre_jale",
+      "tanisma": "jale_suphe",
+      "katmanlar": [
+        {
+          "kosul": "jale_suphe",
+          "tanim": "Haldun Bey'in eski eşi; Kadıköy'de gelinlik atölyesi var. Haldun ondan şüpheleniyor."
+        },
+        {
+          "kosul": "jale_gizli",
+          "tanim": "Haldun Bey'in eski eşi; Kadıköy'de gelinlik atölyesi var. Haldun ondan şüpheleniyor. Gamze'nin gelinliği onun atölyesinde; sustu."
+        }
+      ]
+    },
+    {
+      "id": "muzeyyen",
+      "ad": "Müzeyyen Hanım",
+      "portre": "portre_muzeyyen",
+      "tanisma": "mektup_geldi",
+      "katmanlar": [
+        {"kosul": "mektup_geldi", "tanim": "Eylül'ün anneannesi; aynı apartmanda, üst katta oturuyor."},
+        {
+          "kosul": "kalip_kagit",
+          "tanim": "Eylül'ün anneannesi; aynı apartmanda, üst katta oturuyor. Yıllarca terzilik yapmış."
+        }
+      ]
     }
   ],
   "defter": {
@@ -441,6 +495,12 @@
       "vapurda_bulduk": "Selim dükkânda kaldı. İkisinin sırrını bir ben biliyorum.",
       "gercek_sahip": "Saat sahibine döndü. Kasaya az para girdi.",
       "polise_teslim": "Selim polise teslim edildi. Saat emanette."
+    },
+    "V6": {
+      "yazani_soyle": "Yazanın adını verdim. Anneanne en arka masadaydı.",
+      "kendisi_soylesin": "Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da.",
+      "parasini_al": "Adını vermedim. Müzeyyen'in parası kasada.",
+      "cengoya_birak": "Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı."
     }
   },
   "ani_ozet": {
@@ -449,6 +509,7 @@
     "V2": "Defne'nin gelinliği, düğüne üç gün kala Lâl Hanım'ın atölyesinden kayboldu. Defne kendisi almıştı: annesinin beş yüz kişilik düğünü yerine cuma sabahı Kerem'le iki şahitle evlenecekti. Gelinlik Kurtuluş'ta bir terzideydi, kuyruğu kesiliyordu.",
     "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı.",
     "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi.",
-    "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü."
+    "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü.",
+    "V6": "Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için babasından yardım istedi. Mektupları anneannesi Müzeyyen Hanım yazmıştı: düğünden sonra kızı ve torunu İzmir'e gidecekti, o tek kalacaktı."
   }
 }

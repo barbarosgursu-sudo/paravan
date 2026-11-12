@@ -49,8 +49,8 @@ const clue = (g, id) => v1(g).clues.find(c => c.id === id);
   k("tanımsız konuşan → K15", hataVar(sessiz(g), "[K15]", "komiser"));
 }
 {
-  const g = kopya(G); v1(g).decisions[0].kare = "K99";
-  k("karara bağlı tanımsız kare → K15", hataVar(sessiz(g), "[K15]", "K99"));
+  const g = kopya(G); v1(g).decisions[0].kare = "K999";
+  k("karara bağlı tanımsız kare → K15", hataVar(sessiz(g), "[K15]", "K999"));
 }
 {
   const a = kopya(ACILIS); a.sahneler[0].satirlar.push({ k: "cengo", i: "agliyor", m: "deneme" });
