@@ -6,7 +6,7 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
-> ### 👥 ROL AYRIMI (11 Kasım 2026): iş bir ortakla paylaşıldı — kim neye karar verir: `kaynak/DEVIR.md` en üst bölüm.
+> ### 👥 ROL AYRIMI (11 Kasım 2026): iş bir ortakla paylaşıldı — kim neye karar verir: `kaynak/DEVIR.md` → "11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ" bölümü.
 >
 > ### ✅ VAKA 3'ÜN TÜRKÇESİ DONDU (9 Kasım 2026) — Vaka 2 dondu (16 Ekim 2026)
 > ### YENİ PLAN (12 Kasım 2026, sahibinin kararı): Vaka 6, 7, 8 resimsiz yazılır ve onaylanır (hikâye donar); gerekirse

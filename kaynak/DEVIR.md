@@ -22,6 +22,11 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 **Vaka 6:** ortak yazacak. Claude'un önerisi `sablon/vakalar/vaka6_oneri.md` (ONAYLANMADI); **bütün kararlar ortağın**
 (Barbaros, 12 Kasım 2026). Ortak öneriyi değiştirir/seçer, sonra formu doldurur.
 
+**Ortak başlarken (sırayla):** `git pull` → bu bölüm → `sablon/vakalar/vaka6_oneri.md` → `sablon/3_kanon_kaydi.md`
+(kural G) → `sablon/vakalar/vaka6_baslangic.md` açılır (süre tablosu, Vaka 5'inki gibi; saat başlar) → form
+`sablon/vakalar/vaka6_form.md` (`6_vaka_formu.md`; yeni: §2 kişi tablosu, §12 "kim neyi biliyor") → adım 2'den 7'ye
+(`7_uretim_sureci.md`), **resimsiz** (adım 8 ve sonrası yok). Kim neye karar verir: aşağıda "İŞ ARKADAŞA DEVREDİLDİ".
+
 **Barbaros'un cevapları (12 Kasım 2026):**
 - **Vaka 4'ün resimleri şimdi yapılmıyor** (ortak da başlamasın). Vaka 8'den sonra, yeni kurallara göre ortaya çıkan
   duruma bakılıp yapılacak.
@@ -48,6 +53,7 @@ Ortak düzeltmeleri bitirdi ve "metin ve senaryo tamam" dedi. Rol ayrımına gö
    değişmez (değişirse forma dönülür). → *Cevap:* **EVET, dondu** — Barbaros'un itirazı yok (12 Kasım 2026).
 2. **Sıradaki iş:** `RAF_KARARLARI.md:236`'ya göre Vaka 4'ün resim aşaması (adım 8–14), Vaka 5'in resimleri ondan sonra.
    Vaka 4'ün resimlerini **kim** yapacak, Barbaros mu, ortak mı? Ortak yapacaksa önce `codex login` (kendi hesabı). → *Cevap:* **Ortak yapacak** (Barbaros, 12 Kasım 2026). Önce `codex login`.
+   **⚠ Sonradan değişti (12 Kasım, yeni plan):** Vaka 4'ün resimleri şimdi YAPILMIYOR; Vaka 8'den sonraya kaldı (en üst bölüm).
 3. **V5 K8 uyarısı** ("Saati Muammer'e bırak", "Polise teslim et"in iki eksende de önünde): ortak kararları bilerek böyle bıraktı
    (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:* **EVET, kabul edilmiş uyarı** (Barbaros, 12 Kasım 2026); `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı. Kararların etkisi zaten yeniden konuşuluyor (`sablon/TASLAK_tekrar_onleme.md` §8).
 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 5'in yolları** eklensin mi: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`?
@@ -193,9 +199,9 @@ ve test döngüsü geçmeli.
 **İki kişi aynı depoda:** her oturumun başında `git pull`. Aynı anda aynı vakaya iki kişi dokunmaz.
 
 Bu ayrım, aşağıda "arkadaşın ikinci Claude hesabıyla metin kolu (onaylar birlikte verilir)" diye bekleyen planın
-yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağıdaki bölüm): Vaka 4, adım 8.
+yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağıdaki bölüm): Vaka 4, adım 8. **⚠ Eskidi — sıradaki iş en üst bölümde (12 Kasım yeni plan).**
 
-## 00000000000000000000. ⬅️ 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
+## 00000000000000000000. 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
 
 - Sahibi resimsiz incelemeyi bitirdi ve onay verdi. Sıradaki adım 8: görsel listesi, kıyafet hâli tablosu, kıyafet
   kartları, istemler (`7_uretim_sureci.md`). **Önce sahibine Codex 2 kol desteğini hatırlat** (aşağıda).

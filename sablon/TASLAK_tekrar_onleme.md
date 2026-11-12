@@ -218,7 +218,7 @@ iki suçlu, yanlış izin başka bir şey saklaması, kovalananın başkası olm
 5. Belgelere işleme: Barbaros onaylayınca — `1_oyun_yapisi.md` (Tohum yok), doğrulayıcı K19, `7_uretim_sureci.md` adım 1
    (hayvan sorusu, sezon tablosu), `3_kanon_kaydi.md` (taç fiyatı, hayvan), `YENI_OYUN_SEZON.md`. Kod işi Barbaros'un alanında.
 
-**Aynı gün ayrıca:** ortağın 4 sorusu cevaplandı (`kaynak/DEVIR.md`): V5 dondu, V4 resimlerini ortak yapacak,
+**Aynı gün ayrıca:** ortağın 4 sorusu cevaplandı (`kaynak/DEVIR.md`): V5 dondu, V4 resimlerini ortak yapacak (sonradan: V8'den sonraya kaldı),
 V5 K8 kabul, `CLAUDE.md`'ye V5 tur yolları eklendi.
 
 ## 10. Ek: konuşmanın ayrıntıları (örnekler, gerekçeler)
@@ -317,7 +317,7 @@ sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Karar
 
 **Ortağın Barbaros'la karara bağlamak istediği:** bu dördünden hangileri, hangi sezonda, hangi sırayla.
 
-## 12. ORTAĞIN ÖNERİSİ — VAKA 5 DERSLERİ, ONAYLANMADI (12 Kasım 2026)
+## 12. ORTAĞIN ÖNERİSİ — VAKA 5 DERSLERİ (12 Kasım 2026) · ✅ KARARA BAĞLANDI: A, B, C, G geçerli; D, E, F iptal
 
 > Ortak, Vaka 5'te en çok nerede takıldığını Claude'la çıkardı ve kural olarak öneriyor. **Barbaros onaylar ya da onaylamaz.**
 > Onaylanırsa işleneceği yerler: `6_vaka_formu` (A, C), `7_uretim_sureci.md` adım 1/3/5 (B, D, E, F), ortak için kanon özeti (G).
