@@ -185,3 +185,38 @@ geldiğini söylemeli. Ancak böyle oyuncu önceki kararların anlamını ve de�
 
 **Belgelere işlenirken değişecekler (not):** `1_oyun_yapisi.md` "Tohum yok" kuralı ve doğrulayıcı K19 (tohumu hata sayar);
 taç fiyatı kanona girer (sahibinin kararı); duvar/vitrin/haber için yeni görseller; hangi vakalara uygulanacağı (V1–5 dondu).
+
+## 9. Devam etmek için (yeni oturum buradan başlar)
+
+**Çalışma biçimi (Barbaros'un isteği):**
+- Her şey **basit ve kısa** anlatılır; her seferinde söyletilmez.
+- **Önce konuş, sonra yap:** bu taslaktaki hiçbir şey Barbaros "yaz" demeden şablona, kanona, koda ya da veriye işlenmez.
+- Konular **tek tek** konuşulur; her adımda seçenekler listelenir, Barbaros seçer, buraya yazılır.
+
+**Konuşmanın kökü — tekrara düşmenin 10 sebebi (12 Kasım 2026):**
+1. şablon her vakada aynı · 2. kurallar içeriden suçluya itiyor · 3. açılış hep "müşteri bir şeyini kaybetti" ·
+4. vakalar kısa · 5. ton dar · 6. bütüne bakan yok · 7. ayrışma notu tek eksene bakıyor · 8. iki yazar ·
+9. hız (ilk fikir) · 10. yapay zekâ "ortalama" çözüme gider.
+Varılan sonuç: önce vakaları tek tek değil, **sezon tablosuyla** düşünmek (6–10'u doğrudan çözer). Tablonun beş başlığı:
+ne oldu · suçlu kim · neden yaptı · yanlış iz · karar (§1). Sebep 1 için önerilen "ayar düğmeleri" (şüpheli sayısı 2–4,
+iki suçlu, yanlış izin başka bir şey saklaması, kovalananın başkası olması, olayın Peri'nin başına gelmesi) ve
+"yan yana iki vaka aynı seçimi yapmaz, bir seçim sezonda en çok iki kez" kuralı konuşuldu; **onaylanmadı**.
+
+**Öneri olarak kaldı, onaylanmadı:**
+- Sezonun vaka sayısı: plan 8, 10 seçenek; sayı sezon kapanırken (2,99 $'a geçerken) kesinleşir.
+- Sonraki sezonlar: "3 sezon planla, gerisine veriyle (bitirme ve satın alma oranı) karar ver."
+- V6–8 kaba dağılımı (Barbaros "şimdi vakalara değil, önce şablona" dedi, bekliyor):
+  V6 yanlış anlama/birini korumak · V7 sahte parça, suçlu müşterinin kendisi, gurur · V8 dolandırıcılık, dışarıdan + içeriden yardımcı.
+  Not: kanonda V6 = Cengo'nun kızı, V7 = Peri'nin tacı müzayedede, V8 = avukat döner.
+  V8 taslağının kararı V7'ninkine benziyor; değişmesi önerildi.
+
+**Açık kalanlar (Barbaros: "şimdilik açık kalsın"):**
+1. Gerçekten iki açık dosya — Barbaros emin değil (çok kod, oyunu karmaşıklaştırabilir).
+2. Vaka 1–5'in kararları yeni etkilere (haber, ipucu, duvar…) bağlansın mı, hangisi neye?
+3. Sezonun vaka sayısı.
+4. Büro hayvanı hangi hayvan, adı, kimin, ilk hangi vakada.
+5. Belgelere işleme: Barbaros onaylayınca — `1_oyun_yapisi.md` (Tohum yok), doğrulayıcı K19, `7_uretim_sureci.md` adım 1
+   (hayvan sorusu, sezon tablosu), `3_kanon_kaydi.md` (taç fiyatı, hayvan), `YENI_OYUN_SEZON.md`. Kod işi Barbaros'un alanında.
+
+**Aynı gün ayrıca:** ortağın 4 sorusu cevaplandı (`kaynak/DEVIR.md`): V5 dondu, V4 resimlerini ortak yapacak,
+V5 K8 kabul, `CLAUDE.md`'ye V5 tur yolları eklendi.
