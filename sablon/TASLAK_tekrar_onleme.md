@@ -316,3 +316,34 @@ sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Karar
 - Eksi: "kaybetme yok" (yakalanma oyuncuyu sıkıştırmamalı); Nurcan (seçenekler bilinmeyeni ele vermemeli); resim yükü artar.
 
 **Ortağın Barbaros'la karara bağlamak istediği:** bu dördünden hangileri, hangi sezonda, hangi sırayla.
+
+## 12. ORTAĞIN ÖNERİSİ — VAKA 5 DERSLERİ, ONAYLANMADI (12 Kasım 2026)
+
+> Ortak, Vaka 5'te en çok nerede takıldığını Claude'la çıkardı ve kural olarak öneriyor. **Barbaros onaylar ya da onaylamaz.**
+> Onaylanırsa işleneceği yerler: `6_vaka_formu` (A, C), `7_uretim_sureci.md` adım 1/3/5 (B, D, E, F), ortak için kanon özeti (G).
+
+**Zaman nereye gitti (saat tablosu ve commit'lerden):** aktif ~5 sa. Yazım (adım 1–5) ~1 sa; Onay 2 ~4 sa — bunun ~2 saati
+okuma/oynama (düzeltme yok), ~1,5 saati düzeltmelerin satır satır işlenmesi. Zaman yazmaya değil, okuyup hata bulmaya gitti.
+
+**Düzeltilenler (önem sırasıyla):**
+1. Karakter mantığı: Selim hem ortak hem tamirci ("absürt") → tamirci oldu; 5 dosya değişti, en pahalı düzeltme.
+2. Kararlar son sahneyle çelişiyordu: Muammer'in bilmediği varsayılmış, oysa kovalamacada itirafı duyuyor → 4 karar yeniden.
+3. Yer çelişkisi: Nedim Moda'da oturup Moda'ya vapurla gidiyordu → kız kardeşi Cihangir'de.
+4. Fiziksel olay: dalga susam getirmez → yosun.
+5. Sorusuz cevap: "Polise gidemem" sorulmadan geliyordu → Peri'nin sorusu eklendi.
+6. İnandırıcılık: "üst güvertede tek adam" havada kalıyordu → "rüzgârlı günlerde güverte boş" eklendi.
+7. İtiraf boşluğu: Selim saati neden susturmadı → Muammer ona sormadan kurmuş.
+8. Küçük sözcük ve espriler (düdük/ıslık, simitçi fiyatı, defter şakası, Nedim'in iltifatı).
+Süreçte: satır numarası sahne içinden dosya satırına geçti; büronun yeri gibi temel kanon ortağın önünde değildi.
+
+**Önerilen kurallar:**
+- **A. Rol kontrolü (formda):** her kişinin işi ile olaydaki rolü birbirine uyuyor mu? → 1
+- **B. "Kim neyi biliyor" listesi:** kararlar yazılmadan önce, son sahneden sonra her kişinin ne bildiği listelenir; karar
+  metni ona göre yazılır. → 2
+- **C. Harita kontrolü:** her kişinin oturduğu yer, gittiği yer ve oraya nasıl gittiği tutarlı mı? → 3
+- **D. Aksiyon gerçekte olur mu:** kovalamaca ve şakalardaki fiziksel olaylar bir kez bu soruyla okunur. → 4
+- **E. Her cevabın sorusu olur:** bilgi veren satırdan önce biri onu sormuş olmalı. → 5
+- **F. Şaşırtıcı bilginin gerekçesi:** kilit ipucu bilgisi ("tek adam vardı") neden öyle olduğunu da söyler. → 6
+- **G. Ortağa kısa kanon özeti:** okumaya başlamadan önce yarım sayfa (büro nerede, kim kimdir, dönen figürler). → süreç
+
+**Barbaros'un cevabı:** *(A–G için onay / ret / değişiklik)*

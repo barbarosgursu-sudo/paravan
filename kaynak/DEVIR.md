@@ -8,7 +8,14 @@
 
 ---
 
-## 00000000000000000000000000. ⬅️ 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+## 000000000000000000000000000. ⬅️ 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (onay bekliyor)
+
+`sablon/TASLAK_tekrar_onleme.md` sonuna ortak iki not ekledi, ikisi de **onaylanmadı**:
+- **§11:** dört yeni oyun biçimi (ters vaka, saatli vaka, yalan bulma, kılık) konuşuldu; karar Barbaros'la.
+- **§12:** Vaka 5 dersleri → yedi kural önerisi (A–G: rol kontrolü, "kim neyi biliyor" listesi, harita kontrolü, aksiyon
+  gerçekliği, her cevabın sorusu, şaşırtıcı bilginin gerekçesi, ortağa kanon özeti). Cevap §12'nin sonuna.
+
+## 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 Ortak düzeltmeleri bitirdi ve "metin ve senaryo tamam" dedi. Rol ayrımına göre hikâye onayı ortakta, bu yüzden adım 7 kapandı.
 - **Son kontrol (12 Kas):** `dogrulayici.js yeni` PASS (5 uyarı: 4 eski + V5 K8), eski oyun PASS, iki derleme, bütün testler geçti.
