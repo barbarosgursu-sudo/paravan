@@ -29,6 +29,7 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 
 | ara | durdu | başladı | süre |
 |---|---|---|---|
+| 1 | 12 Kas 19:15 | | |
 
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
