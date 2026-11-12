@@ -16,9 +16,9 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | kişi | bilinen |
 |---|---|
 | **Peri** | 37. Eski güzellik kraliçesi. Salonları ve kozmetik markası vardı. Avukatı hesapları boşaltıp kaçtı. Evi haczedildi. Elinde kalan tek şey Paravan Dedektiflik. Deniz tutar *(Vaka 5, ortağın onayı, 11 Kasım 2026)*. |
-| **Cengo** | 34. Sokağı bilir, beş parasız. Avukat onu Paravan'ın bordrosuna yazmış; yedi yıl hesabına küçük bir maaş yatmış, hiç sormamış. Maaş kesilince büroya geldi. "Alacağı" var, gitmiyor. Karaköy–Kadıköy vapurunun çaycısı Kadir'i tanır *(Vaka 5, 11 Kasım 2026)*. |
-| **Cengo'nun kızı** | 17. Annesiyle uzakta yaşıyor; Cengo uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. Adı **Eylül**; annesiyle şehrin öbür yakasında, Üsküdar'da yaşıyor *(Vaka 6, ortağın kararı, 12 Kasım 2026)*. |
-| **Gamze** | Eylül'ün annesi. Haldun Bey'le evlenecek. *(Vaka 6, 12 Kasım 2026.)* |
+| **Cengo** | 34. Sokağı bilir, beş parasız. Avukat onu Paravan'ın bordrosuna yazmış; yedi yıl hesabına küçük bir maaş yatmış, hiç sormamış. Maaş kesilince büroya geldi. "Alacağı" var, gitmiyor. Karaköy–Kadıköy vapurunun çaycısı Kadir'i tanır *(Vaka 5, 11 Kasım 2026)*. 18 yaşında baba oldu; Eylül'ün annesi Gamze ile evlendi, sonra ayrıldılar (sebebi açık nokta). Eylül'e "dedektiflik bürosunda çalışıyorum" demiş (bordro yüzünden yalan değil). Aylardır cumartesi sabahları Eylül'ün apartmanının karşısındaki bankta oturup onu uzaktan izliyor *(Vaka 6, ortağın onayı, 12 Kasım 2026)*. |
+| **Cengo'nun kızı** | 16 *(ilk taslakta 17'ydi; ortak 12 Kasım 2026'da düzeltti: Cengo baba olduğunda reşit olsun)*. Annesiyle uzakta yaşıyor; Cengo uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. Adı **Eylül**; annesiyle şehrin öbür yakasında, Üsküdar'da yaşıyor *(Vaka 6, ortağın kararı, 12 Kasım 2026)*. Peri'yi kıskanır; Gizem'le çok iyi anlaşır, ona "abla" der, mesajlaşırlar *(Vaka 6, 12 Kasım 2026)*. |
+| **Gamze** | Eylül'ün annesi, Cengo'nun eski eşi. Haldun Bey'le evlenecek. *(Vaka 6, 12 Kasım 2026.)* |
 | **Haldun Bey** | Gamze'nin evleneceği adam (damat). *(Vaka 6, 12 Kasım 2026.)* |
 | **Müzeyyen Hanım** | Gamze'nin annesi, Eylül'ün anneannesi. *(Vaka 6, 12 Kasım 2026.)* |
 | **Jale Hanım** | Haldun Bey'in eski eşi. *(Vaka 6, 12 Kasım 2026.)* |
@@ -42,7 +42,7 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; Peri onu **kasada biriken parayla** geri alabilir. |
 | **Büro anahtarı** | Peri'nin anahtarı kapıyı açmaz. |
 | **Tel** | Cengo'nun göğüs cebinde hep bir tel vardır. Kilit açar. |
-| **Bileklik** | Cengo'nun bileğinde renkli boncuklu ucuz bir bileklik: kızının. Vaka 6'ya kadar kimse sormaz. |
+| **Bileklik** | Cengo'nun bileğinde renkli boncuklu ucuz bir bileklik: kızının. Vaka 6'ya kadar kimse sormaz. Eylül yedi yaşındayken yaptı *(Vaka 6, 12 Kasım 2026)*. |
 
 ## Dünya
 
@@ -68,6 +68,7 @@ Her oyuncu için aynıdır; kararlar değiştirmez.
 - Ev sahibinin adı, yaşı, tuhaflığı → Vaka 2
 - ~~Yan karakterin adı, kişiliği, çırak mı garson mu~~ → Gizem, tezgâhtar, hazırcevap (17 Ekim 2026)
 - ~~Cengo'nun kızının adı~~ → Eylül (Vaka 6, 12 Kasım 2026)
+- Cengo ile Gamze'nin neden ayrıldığı → ileride
 - Avukatın adı ve Cengo'yla bağlantısı → Vaka 8
 
 ---

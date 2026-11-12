@@ -12,7 +12,7 @@ biliyor") → form `vaka6_form.md`. Örnek form: `vaka5_form.md`.
 
 - **Konu: "İsimsiz Mektuplar" (Üsküdar)**, `vaka6_oneri.md`'deki öneri olduğu gibi seçildi.
 - **İsimler:** ortak Claude'a bıraktı. Sabit karakterlerin ve önceki vakaların isimleri değişmez.
-  - **Eylül:** Cengo'nun 17 yaşındaki kızı (müşteri).
+  - **Eylül:** Cengo'nun kızı, 16 yaşında (müşteri; Onay 1'de 17'den düzeltildi).
   - **Gamze:** Eylül'ün annesi, evlenecek kişi.
   - **Haldun Bey:** damat; isimsiz mektuplar ona geliyor.
   - **Müzeyyen Hanım:** Gamze'nin annesi, yani Eylül'ün anneannesi (suçlu).
@@ -34,4 +34,4 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 |---|---|---|---|---|---|
 | 0 Konu seçimi | 12 Kas 17:57 | 12 Kas 17:57 | ~2 dk | ~3 dk | öneri seçildi; 4 soru cevaplandı; isimler Claude'a |
 | 1 Form | 12 Kas 18:00 | 12 Kas 18:11 | 0 | ~11 dk | form `vaka6_form.md`; 5 kanon önerisi 🟡; Cengo şüpheli (motor izin veriyor) |
-| 2 Onay 1 | | | | | 5 soru ortağa |
+| 2 Onay 1 | 12 Kas 18:12 | 12 Kas 18:27 | ~2 dk (5 soru; 1'i düzeltmeyle) | ~8 dk (işleme) | Eylül 16 (Cengo baba olduğunda reşit), Cengo–Gamze evliydi; ek: Eylül Peri'yi kıskanır, Gizem'in rolü büyür; kanon 6 madde |

@@ -1,18 +1,19 @@
 # VAKA 6 FORMU — İSİMSİZ MEKTUPLAR
 
-Şablon 6'ya göre. Durum: **TASLAK, Onay 1 bekliyor (ortak).** Sorular en altta.
+Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 12 Kasım 2026, ortak)** — iki düzeltmeyle: Cengo baba olduğunda reşitti (Eylül 16'ya
+indi), Gamze ile evlenmişlerdi. Ortağın eki: Eylül Peri'yi kıskanır; Gizem'in rolü büyür, Eylül'le çok iyi anlaşır.
 
 Kaynak: `vaka6_oneri.md` (ortağın seçimi, 12 Kasım 2026) ve `kaynak/YENI_OYUN_SEZON.md` → Vaka 6 (öneri b: Cengo'nun
 kızı). Sezon taslağından kalanlar: Peri'nin Cengo'yu ilk kez "başkasının gözünden" görmesi (komedi motoru), Peri kot +
 gömlek + at kuyruğu ("mesai dışı"), Cengo kızı için ütülü gömlek, bağ yüksekse Peri bir şey söylemek üzere olur ve
 söylemez.
-🟡 = kanona ekleme (§18, onay bekliyor). 🟢 = görünüş/kıyafet (onay bekliyor).
+🟡 = kanona ekleme (§18, onaylandı). 🟢 = görünüş/kıyafet (onaylandı).
 
 **Önceki vakalardan ayrışma** (`TASLAK_tekrar_onleme.md` §1): olay **tehdit** (V1–5'te çalınma ya da sır), neden
 **sevgi** (para değil), yanlış izlerden biri **Cengo'nun kendisi**, öbürü gerçekten şüpheli davranan ama **başka bir şey
 saklayan** biri (yeni yanlış iz türü), semt Üsküdar–Kadıköy. Kalan tekrar: suçlu yine müşterinin yakını.
 
-**Çocuk kuralı (kural 16):** Eylül 17 yaşında. Hiçbir çekicilik anı, poz ya da flört Eylül'ün olduğu sahnede ya da
+**Çocuk kuralı (kural 16):** Eylül 16 yaşında. Hiçbir çekicilik anı, poz ya da flört Eylül'ün olduğu sahnede ya da
 karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş ve kapanışta.
 
 ---
@@ -33,7 +34,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
   konuşulduktan sonra eve üç isimsiz mektup geldi: "BU DÜĞÜN OLURSA HERKES ÖĞRENİR." Büyük harfler, kurşun kalem, pul
   yok. Haldun "saklayacak bir şeyim yok" diyor; Gamze inanmıyor, düğünü iptal etmek üzere.
 - **Kim, neden:** **Müzeyyen Hanım** (60), Gamze'nin annesi, Eylül'ün anneannesi; emekli terzi. Haldun'un İzmir'e tayini
-  çıktı; düğünden sonra Gamze'yi ve Eylül'ü götürecek. Eylül lise son sınıfta, okulunu bırakacak. Müzeyyen bu yaşta tek
+  çıktı; düğünden sonra Gamze'yi ve Eylül'ü götürecek. Eylül 11. sınıfta, okulunu yarıda bırakacak. Müzeyyen bu yaşta tek
   kalacak; Eylül de babası Cengo'yu bir daha göremeyecek. Söylese kimse dinlemezdi. Düğün ertelensin, İzmir işi
   bozulsun istedi. Mektupların bir sırrı yok: blöf.
 - **Nasıl:** Tarihi sofrada duydu. Mektupları kendi kalıp kâğıdına (terzi kâğıdı) yazdı. İlk ikisini sabah postayı
@@ -52,7 +53,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
 
 | kişi | işi | olaydaki rolü | işi rolüne uyuyor mu? | oturduğu yer | olay günü nereden nereye, nasıl gitti |
 |---|---|---|---|---|---|
-| Eylül (17) | lise son sınıf öğrencisi | müşteri (yardım isteyen) | evet; reşit değil, ücreti Haldun öder | Üsküdar, Doğancılar; annesiyle, 2. kat | giriş günü okuldan sonra Üsküdar–Karaköy vapuruyla büroya |
+| Eylül (16) | lise 11. sınıf öğrencisi | müşteri (yardım isteyen) | evet; reşit değil, ücreti Haldun öder | Üsküdar, Doğancılar; annesiyle, 2. kat | giriş günü okuldan sonra Üsküdar–Karaköy vapuruyla büroya |
 | Gamze (35) | eczane çalışanı (Üsküdar) | gelin; mektupları alan | evet | aynı daire | ekranda yok; provada kabinde |
 | Haldun Bey (48) | bankacı, şube müdürü; İzmir'e tayini çıktı | damat; ücreti öder | evet (tayin İzmir'in sebebi) | Altunizade | ipucu A'da kendi şubesindeki odasında |
 | Müzeyyen Hanım (60) | emekli terzi | suçlu | evet: kalıp kâğıdı onun mesleğinden; provaya gelinin annesi olarak gider | aynı apartman, üst kat | sabahları postayı kutudan alır (merdiven); provaya Gamze'yle Üsküdar'dan Kadıköy'e vapurla |
@@ -84,14 +85,21 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
 
 - **Önce (Eylül gelmeden):** Büro, öğleden sonra. Peri "mesai dışı": kot, gömlek, at kuyruğu, ayakları masada; Cengo
   ütülü bir gömlekle gelir, saçı taranmış. **Çekicilik anı burada:** Peri masadan kalkıp onu süzer, gömleğinin yakasını
-  düzeltir: "Kim öldü?" Cengo: "Kimse. Biri gelecek." Kapı çalar.
-- **Müşteri:** **Eylül**, 17. Kapıdan girer, Cengo'ya "Baba!" diye sarılır. Peri donar: Cengo'nun kızı olduğunu bilmiyordu.
+  düzeltir: "Kim öldü?" Cengo: "Kimse. Biri gelecek." Peri masasına döner. Kapı çalar. *(Eylül girmeden çekicilik
+  anı biter; Eylül'lü karede poz yok.)*
+- **Müşteri:** **Eylül**, 16. Kapıdan girer, Cengo'ya "Baba!" diye sarılır. Peri donar: Cengo'nun kızı olduğunu bilmiyordu.
+- **Eylül Peri'yi kıskanır** (ortağın isteği): Peri'yi baştan aşağı süzer: "Baba, bu hanım kim?" Cengo: "Ortağım." Eylül:
+  "Sadece ortak mı?" Peri'ye soğuk ve kısa cevaplar verir, hep babasının koluna girer; Peri ne dese "Babam bilir" der.
+  Peri hayatında ilk kez birinin onu sevmemesine şaşırır.
+- **Gizem ile Eylül hemen anlaşır:** Gizem çay getirir; Eylül ona ısınır ("Sen kimsin?" "Gizem. Çay benden, laf benden.").
+  Gizem Eylül'ün kıskançlığını hemen görür, ona göz kırpar: "Peri Hanım herkese öyle bakar, takma." Eylül güler; Peri
+  bozulur. Eylül büroda yalnız Gizem'e "abla" der.
 - **Ne istiyor:** Annesinin düğünü kurtarılsın; mektupları yazan bulunsun. "Sen dedektifsin baba. Bul."
 - **Ne saklıyor:** hiçbir şey. Cengo saklıyor: dedektif olmadığını (Peri bir an Cengo'yu ele verecek gibi olur, vermez:
   "Büronun en iyi dedektifi." — komedi motoru).
 - **Girişte anlattıkları** (ipucu değil):
   - Annesi Gamze, Haldun amcayla iki hafta sonra cumartesi evleniyor. Düğünden sonra İzmir'e taşınacaklar: Haldun'un
-    tayini çıktı. Eylül son sınıfta okul değiştirecek. ("Sorun değil" der; değil gibi söyler.)
+    tayini çıktı. Eylül 11. sınıfta okul değiştirecek. ("Sorun değil" der; değil gibi söyler.)
   - Üç mektup geldi: "Bu düğün olursa herkes öğrenir." Pul yok. İlk ikisi apartmanın posta kutusundan çıktı. Üçüncüsü
     cumartesi Kadıköy'deki gelinlik provasında, gelinliğin torbasının cebinden.
   - Annesi düğünü iptal etmek üzere: "Ne saklıyorsun Haldun?" Haldun "hiçbir şey" diyor.
@@ -104,6 +112,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
 - **Adı anılan şüpheliler:** Cengo (Gamze'nin şüphesi), Jale Hanım (Haldun'un şüphesi).
 - **Ücret konuşması:** Eylül: "Haldun amca ödeyecek; 'kim yazdıysa bulun' dedi." Peri: "Kırk bin. İş bitince." Cengo:
   "Kızımın işinden para alınmaz." Peri: "Kızından değil. Haldun Bey'den."
+- **Eylül'ü vapura Gizem götürür:** "Ben bırakırım, iskele dibimizde." Giderken Eylül Gizem'e numarasını verir.
 - **Espri (Peri–Cengo):** Eylül gidince Peri: "Büyük dedektif, ha?" Cengo: "Paravan Dedektiflik'in bordrosundayım. Yalan
   değil." Peri: "Yedi yıl maaş aldın, bir dosya açmadın." Cengo: "Bu ilk dosyam."
 - **Nasıl bitiyor:** İş kabul. İlk yer Üsküdar, Eylül'lerin apartmanı.
@@ -149,9 +158,16 @@ kimlikle tanıyor (`motor_yeni.js`); künye kartı yok (sabit karakter). Adım 3
 Peri 3 (A, C, D), Cengo 3 (B, E, F). *İpucu adları yeni ad taşımaz (K18): "kapıcı", "kalfa" adsız; Haldun, Jale,
 Müzeyyen girişte anılıyor; "Mektuplar" girişte.*
 
-**Tekrar eden şakalar:** (1) Herkes Cengo'yu başka anlatır: kapıcı "o bankın adamı", Müzeyyen "benim oğlum, on yedisinde
+**Tekrar eden şakalar:** (1) Herkes Cengo'yu başka anlatır: kapıcı "o bankın adamı", Müzeyyen "benim damadım, on sekizinde
 babaydı", Tahsin Usta "Karaköy'ün en kötü çırağı". Peri her seferinde not alır. (2) Cengo ütülü gömleği buruşmasın diye
-hiçbir yere oturmaz, hep ayakta; Peri her sahnede ona yer gösterir.
+hiçbir yere oturmaz, hep ayakta; Peri her sahnede ona yer gösterir. (3) **Eylül Gizem'e yazar** (ortağın isteği: Gizem'in
+rolü büyür): Gizem'in telefonuna Eylül'den mesaj gelir, Gizem yüksek sesle okur: "Babam yemek yedi mi?", "O kadın hâlâ
+babamın yanında mı?" Gizem cevabı da yüksek sesle yazar: "Yanında. Ama ben de buradayım." Peri her seferinde bozulur.
+Mesajlar ipucu bilgisi taşımaz (yalnız kıskançlık ve şefkat).
+
+**Konuşma sahnesi (büro, girişten sonra):** Peri ve Cengo plan yapar; Gizem araya girer. Gizem Cengo'ya: "Kızın bana
+senden çok yazıyor." Peri, Cengo'nun bir kızı olduğunu ona neden söylemediğini sorar; Gizem: "Bana da söylemedi, ben
+çay ocağıyım, normal. Siz ortaksınız." İlk gidilecek yerler konuşulur.
 
 **Sahne özetleri**
 - **A.** Haldun'un odası, masada düğün davetiyeleri. Terli, kravatı gevşek. "Saklayacak bir şeyim yok; olsa söylerdim."
@@ -173,7 +189,8 @@ hiçbir yere oturmaz, hep ayakta; Peri her sahnede ona yer gösterir.
   "herkes öğrenecek" demiş. "Mektupta aynı söz." Cengo böreği yer, gömleğine damlatmamaya çalışır.
 - **F.** Karaköy, matbaa. Tahsin Usta mektubu ışığa tutar: "Bu kâğıt kırtasiyede satılmaz. Kalıp kâğıdı; terzide,
   gelinlikçide olur." Cengo: "Gamze'nin annesi terziydi. Gamze'nin düğün elbisesini o dikecekti." Peri: "Jale Hanım'ın
-  da gelinlik atölyesi var." Tahsin Usta Cengo'nun çıraklığını anlatır (şaka 1).
+  da gelinlik atölyesi var." Tahsin Usta Cengo'nun çıraklığını anlatır (şaka 1). **Gizem de gelir** (matbaa büronun iki
+  sokak ötesi): Tahsin Usta'ya çay getirmiştir, ustayı pastaneden tanır. Eylül'ün mesajını okur (şaka 3).
 
 ## 7. Kanıt yolları
 
@@ -256,8 +273,8 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
 - **Temizlenme:** Kalfa Dilek atölyeden havlu ve bir tül şal getirir; Peri şala sarınır. Jale gelinliği kontrol eder:
   "Etek ıslak. Kururu." (Gelinlik zarar görmez.)
 - **Müzeyyen hor görülmez** (kural 18): kovalamacada düşmez, yaralanmaz, alay edilmez; sonunda kendisi oturur.
-- **İtiraf** (bankta, Peri ve Cengo'ya; her yolda aynı): "Haldun ikisini de İzmir'e götürecek. Eylül son sınıfta,
-  okulunu bırakacak. Ben bu yaşta tek kalacağım; sen de kızını bir daha göremeyeceksin, Cengo. Söylesem kimse
+- **İtiraf** (bankta, Peri ve Cengo'ya; her yolda aynı): "Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında
+  her şeyi bırakacak. Ben bu yaşta tek kalacağım; sen de kızını bir daha göremeyeceksin, Cengo. Söylesem kimse
   dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim. Tarihi sofrada duydum; ertesi sabah ilk mektubu kutuya
   ben koydum. Kâğıt benim kalıp kâğıdım. Provada torbaya ben koydum; bugün dördüncüsünü koydum. 'Herkes öğrenir'
   sözünü Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok." Torbanın cebinden dördüncü mektubu çıkarıp Peri'ye
@@ -274,6 +291,7 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
 | Müzeyyen | yakalandığını; Peri ile Cengo'nun bildiğini; Gamze'nin bilmediğini | itiraf |
 | Jale | Müzeyyen'in, torbayı açmak isteyince torbayla kaçtığını; mektubu görmedi, itirafı duymadı. Atölyesinin sırrını Peri'nin bildiğini | yüzleşme, kovalamacadan sonra atölye |
 | Dilek | kovalamacayı gördü; ne olduğunu bilmiyor | kovalamaca |
+| Gizem | yalnız Eylül'ün mesajlarını; yazanı bilmiyor | büro, mesajlar |
 | Gamze, Haldun, Eylül | hiçbir şey: yazanı bilmiyorlar, cuma olanları görmediler | — |
 
 Yani karar anında soru: **Haldun'a, Gamze'ye ve Eylül'e ne söylenecek, ve başarı kimin olacak.** Jale bir şey sezdi ama
@@ -282,9 +300,9 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 | karar | kısa sonuç (karar ekranı) | eylem → sonuç → bedel | karar parası | bağ | Cengo'nun tavrı | Cengo satırı | anı defteri |
 |---|---|---|---|---|---|---|---|
 | **Haldun'a ve Gamze'ye yazanı söyle** | Müzeyyen'in adını verirsin. Haldun ücreti tam öder; düğün olur, Gamze annesiyle konuşmaz. | Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler. | 0 | −1 | hoşuna gitmez | "Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?" | Yazanın adını verdim. Anneanne en arka masadaydı. |
-| **Müzeyyen kendisi söylesin** | Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun beklediği için 5.000 ₺ keser. | Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun bir hafta beklediği için ücretten beş bin kesti. | −5.000 | +2 | hoşuna gider | "Eylül bir yıl daha Üsküdar'da. Cumartesileri bank yine benim." | Anneanne kendisi söyledi. Eylül bir yıl daha Üsküdar'da. |
+| **Müzeyyen kendisi söylesin** | Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun beklediği için 5.000 ₺ keser. | Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun bir hafta beklediği için ücretten beş bin kesti. | −5.000 | +2 | hoşuna gider | "Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim." | Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da. |
 | **Adını verme, parasını al** | Haldun'a "yazan bulundu, bir daha yazmayacak" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir. | Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini zarfa koyup sana verdi. Düğün oldu; Gamze kimin yazdığını hiç öğrenmedi. | +15.000 | −2 | hoşuna gitmez | "Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim." | Adını vermedim. Müzeyyen'in parası kasada. |
-| **Başarıyı Cengo'ya bırak** | Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 10.000 ₺ keser. | Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek; kefili benim." Haldun ad duymadığı için on bin kesti. Eylül babasına sarıldı: "Biliyordum." Düğün oldu; İzmir'e gittiler. | −10.000 | +1 | hoşuna gider | Ütülü gömleğinin kollarını sıvar: "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm." | Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı. |
+| **Başarıyı Cengo'ya bırak** | Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 10.000 ₺ keser. | Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek; kefili benim." Haldun ad duymadığı için on bin kesti. Eylül babasına sarıldı: "Biliyordum." Peri'ye de bir bakış attı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler. | −10.000 | +1 | hoşuna gider | Ütülü gömleğinin kollarını sıvar: "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm." | Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı. |
 
 - Kirli seçenek en çok kazandırır, fark küçük (15.000). Dürüst ve kazandırmayan: "yazanı söyle" (0, ama Cengo'yu kırar).
   Dürüst ve kaybettiren: "kendisi söylesin" (−5.000, Cengo'nun hoşuna gider).
@@ -301,7 +319,9 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 ## 13. Kapanış
 
 - **Sahne:** Büro, akşam. Peri tül şala sarınmış, saçında hâlâ bir gül yaprağı. Cengo'nun gömleği artık buruşuk. Gizem
-  çay getirir: "Cengo'nun kızı mı varmış? Bana kimse bir şey söylemiyor." Cengo bileğindeki bilekliği çevirir.
+  çay getirir, telefonu elinde: "Eylül yazdı: 'Gizem abla, babama söyle, cumartesi bankta oturmasın, eve gelsin.'"
+  Cengo bileğindeki bilekliği çevirir. Gizem devam eder: "Bir de: 'O kadın da gelmesin.'" Peri: "Ben bir şey demedim."
+  *(Her kararda aynı: cumartesi düğünden önce; Eylül kimin yazdığını bilmiyor.)*
 - **Bağ düşükse (0 ve altı):** Peri: "Neden söylemedin? Bir kızın olduğunu." Cengo: "Sormadın." Ceketini alır, çıkar.
   Peri saçındaki gül yaprağını çöpe atar.
 - **Bağ yüksekse (+1 ve üstü):** Peri saçından gül yaprağını alır, Cengo'ya uzatır: "Cengo, ben…" Durur. "…gömleğin çok
@@ -340,8 +360,8 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 | Peri, mesai dışı | satırların istediği ifadeler; çekicilik anı yalnız Eylül'süz karede |
 | Peri, felaket | ıslak, güllü, öfkeli/gururlu; tül şallı (kapanış) |
 | Cengo, ütülü gömlek | satırların istediği ifadeler + duvaklı hâl; buruşuk gömlek (kapanış) |
-| Gizem | kapanış |
-| Eylül (yeni) | normal, sevinçli (babasına sarılırken), üzgün (İzmir'den söz ederken) |
+| Gizem | giriş, konuşma, F (matbaa), kapanış; telefonla (Eylül'ün mesajları) |
+| Eylül (yeni) | normal, sevinçli (babasına sarılırken), üzgün (İzmir'den söz ederken), kıskanç (Peri'yi süzerken), gülen (Gizem'le) |
 | Müzeyyen Hanım (yeni) | normal (sıcak), yüzleşmede gergin, bankta (itiraf) |
 | Jale Hanım (yeni) | normal (soğuk), yalanda (bardağı çevirir), öfkeli (yüzleşme) |
 | Haldun Bey (yeni) | normal (terli), yumuşamış (İzmir) |
@@ -349,7 +369,7 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 | Ara kareler | kovalamaca 4, karar 4, temizlenme 1, kapanış, yüzleşme karesi |
 
 **Yeni yan karakterlerin görünüşü 🟢** (öncekilerden ayrışır):
-- **Eylül (17):** uzun koyu kahve saç, açık; kot ceket, siyah tişört, sırt çantası; bileğinde Cengo'nunkinin eşi
+- **Eylül (16):** uzun koyu kahve saç, açık; kot ceket, siyah tişört, sırt çantası; bileğinde Cengo'nunkinin eşi
   boncuklu bileklik. Kural 16: her zaman masum, yaşına uygun.
 - **Müzeyyen Hanım (60):** kısa gümüş saç, yuvarlak yüz, boynunda zincirli gözlük; bordo örgü hırka, elinde dikiş
   çantası.
@@ -364,7 +384,7 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 
 | kişi | ne zaman çıkar | kart metni | bilgi artınca |
 |---|---|---|---|
-| Eylül | giriş | Cengo'nun kızı, 17. Annesinin düğünü için babasından yardım istedi. | — |
+| Eylül | giriş | Cengo'nun kızı, 16. Annesinin düğünü için babasından yardım istedi. | — |
 | Haldun Bey | giriş | Eylül'ün annesiyle evlenecek. Mektuplar ona; ücreti o ödüyor. | `izmir_tayin` → İzmir tayini düğünden bir hafta sonra başlıyor. |
 | Jale Hanım | giriş | Haldun Bey'in eski eşi; Kadıköy'de gelinlik atölyesi var. Haldun ondan şüpheleniyor. | `jale_gizli` → Gamze'nin gelinliği onun atölyesinde; sustu. |
 | Müzeyyen Hanım | giriş | Eylül'ün anneannesi; aynı apartmanda, üst katta oturuyor. | `kalip_kagit` → Yıllarca terzilik yapmış. |
@@ -386,12 +406,14 @@ Başka tutar metne girmez.
 **Sezon kanonuna eklendi (ortağın kararı, 12 Kasım 2026; `3_kanon_kaydi.md`):** Eylül, Üsküdar; Gamze, Haldun Bey,
 Müzeyyen Hanım, Jale Hanım.
 
-**Eklenmesi önerilen (onay bekliyor) 🟡:**
-1. Cengo, Eylül doğduğunda 17 yaşındaydı; Gamze ile evlenmediler. *(Yaşlardan çıkıyor: Cengo 34, Eylül 17.)*
+**Eklendi (Onay 1, ortak, 12 Kasım 2026) ✅:**
+1. **Eylül 16 yaşında** (17 değil); Cengo baba olduğunda 18'di, reşitti. **Cengo ile Gamze evlenmişlerdi**, sonra
+   ayrıldılar (ayrılığın sebebi açık nokta; bu vakada anılmaz).
 2. Eylül babasını dedektif sanıyor çünkü Cengo ona "dedektiflik bürosunda çalışıyorum" dedi (bordro yüzünden yalan değil).
 3. Cengo aylardır cumartesi sabahları Eylül'ün apartmanının karşısındaki bankta oturup onu uzaktan izliyor.
 4. Boncuklu bilekliği Eylül yedi yaşındayken yaptı.
-5. Gizem Cengo'nun kızını bu vakada öğrenir.
+5. Gizem Cengo'nun kızını bu vakada öğrenir; Eylül ile Gizem çok iyi anlaşır (Eylül ona "abla" der, mesajlaşırlar).
+6. Eylül Peri'yi kıskanır.
 
 **Vaka kanonu:** Eylül'lerin apartmanı (Üsküdar, Doğancılar), Müzeyyen'in dikiş odası, Haldun'un İzmir tayini, Jale'nin
 Bahariye'deki atölyesi, kapıcı Recep Efendi, kalfa Dilek, Tahsin Usta (Karaköy matbaası).
@@ -413,16 +435,16 @@ Bahariye'deki atölyesi, kapıcı Recep Efendi, kalfa Dilek, Tahsin Usta (Karak�
 - [x] En az bir dürüst karar var; kirli fark küçük
 - [x] Her kararın kısa sonucu var; kesinti açıklamaları var
 - [x] Anı özeti yalnız itirafın söylediğini içeriyor
-- [ ] Yeni kanon onaylandı (5 madde, §18)
+- [x] Yeni kanon onaylandı (6 madde, §18; 1. madde düzeltildi)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı
+- [x] Yeni yan karakterlerin görünüşü onaylandı
 - [x] Kural kitabıyla çelişen bir şey yok (çocuk kuralı başta yazılı)
 
-## Ortağa sorular *(Onay 1)*
+## Ortağa sorular *(Onay 1, 12 Kasım 2026: 2–5 uygun; 1 düzeltmeyle)*
 
-1. Kanon (§18'deki 5 madde) eklensin mi?
-2. Peri: dar kot + düğümlü beyaz gömlek + spor ayakkabı + at kuyruğu; Cengo: ütülü açık mavi gömlek — uygun mu?
-3. Yan karakterlerin görünüşleri (§16) uygun mu?
-4. Kararlar: dürüst olan "kendisi söylesin" para kaybettiriyor ama Cengo'nun hoşuna gidiyor; "başarıyı Cengo'ya bırak"
+1. ✅ Kanon eklensin — düzeltme: Cengo baba olduğunda reşit (Eylül 16), Gamze ile evliydiler.
+2. ✅ Peri: dar kot + düğümlü beyaz gömlek + spor ayakkabı + at kuyruğu; Cengo: ütülü açık mavi gömlek — uygun mu?
+3. ✅ Yan karakterlerin görünüşleri (§16) uygun mu?
+4. ✅ Kararlar: dürüst olan "kendisi söylesin" para kaybettiriyor ama Cengo'nun hoşuna gidiyor; "başarıyı Cengo'ya bırak"
    da para kaybettiriyor — uygun mu?
-5. Cengo'nun şüpheli olması (Peri onu suçlayabilir) uygun mu?
+5. ✅ Cengo'nun şüpheli olması (Peri onu suçlayabilir) uygun mu?

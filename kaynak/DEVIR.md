@@ -28,7 +28,8 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 (`7_uretim_sureci.md`), **resimsiz** (adım 8 ve sonrası yok). Kim neye karar verir: aşağıda "İŞ ARKADAŞA DEVREDİLDİ".
 
 **Vaka 6 başladı (12 Kasım 2026, 17:57; ortak):** "İsimsiz Mektuplar" seçildi. Kız Eylül (Üsküdar); Gamze, Haldun Bey,
-Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı (`vaka6_form.md`), Onay 1 ortakta.
+Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). Sıradaki: diyalog (adım 3–4).
+**Barbaros'a bilgi:** ortak kanonda Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda reşit olsun; Cengo 34 kaldı); Cengo ile Gamze evliymiş. Yaş oyun metninde geçmiyordu. `YENI_OYUN_SEZON.md`'deki "on yedi" eski kaldı.
 Kayıt: `sablon/vakalar/vaka6_baslangic.md`.
 
 **Barbaros'un cevapları (12 Kasım 2026):**
