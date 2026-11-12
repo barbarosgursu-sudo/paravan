@@ -6095,7 +6095,7 @@
           ],
           "masum": {
             "cengo": "Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.",
-            "jale": "Jale Hanım masumdu: gelinliği dikiyor, kim olduğunu saklıyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu."
+            "jale": "Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu."
           }
         },
         "hikaye": [
@@ -6144,7 +6144,7 @@
             },
             {
               "k": "not",
-              "m": "Kapı açılıyor. Cengo giriyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı."
+              "m": "Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı."
             },
             {"k": "peri", "i": "sasirmis", "m": "Cengo? Bu gömlek ne? Kim öldü?", "kime": "cengo"},
             {
@@ -6641,7 +6641,7 @@
             },
             {
               "k": "not",
-              "m": "Bir düğün fotoğrafçısı flaşını patlatıyor; ıslak, güllere bulanmış Peri'yi gelin sanmış.",
+              "m": "Bir düğün fotoğrafçısı koşup flaşını ıslak, güllere bulanmış Peri'ye patlatıyor.",
               "kare": "K102"
             },
             {"k": "fotografci", "m": "Gelin hanım, buraya bakın! Harika! Bir daha!", "kare": "K102"},
@@ -6707,6 +6707,11 @@
             {
               "k": "muzeyyen",
               "i": "itiraf",
+              "m": "Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum."
+            },
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
               "m": "Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim."
             },
             {
@@ -6752,7 +6757,7 @@
             {
               "k": "gizem",
               "i": "triko_telefon",
-              "m": "Eylül yazdı: \"Gizem abla, babama söyle; cumartesi bankta oturmasın, eve gelsin.\"",
+              "m": "Eylül yazdı: \"Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım.\"",
               "gir": "gizem",
               "kime": "cengo"
             },

@@ -254,7 +254,7 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
 
 - **Dosya çözüldü:** yolların sade dili (§7); masumlar *(yalnız yüzleşme + itirafın söylediği)*:
   *Cengo masumdu: bankta kızını izliyordu; mektupları Müzeyyen Hanım yazmıştı.* ·
-  *Jale Hanım masumdu: gelini tanıyıp susmuştu, o kadar; torbadaki mektubu Müzeyyen Hanım koymuştu.*
+  *Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.*
 - **Kesinti:** zayıf → "Anlaşılan ücret 40.000 ₺. Kanıtın zayıf kaldı; Haldun Bey 10.000 ₺ kesti." · yanlış →
   "Anlaşılan ücret 40.000 ₺. Masum birini suçladın; Haldun Bey 20.000 ₺ kesti."
 
@@ -274,7 +274,7 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
   "Etek ıslak. Kururu." (Gelinlik zarar görmez.)
 - **Müzeyyen hor görülmez** (kural 18): kovalamacada düşmez, yaralanmaz, alay edilmez; sonunda kendisi oturur.
 - **İtiraf** (bankta, Peri ve Cengo'ya; her yolda aynı): "Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında
-  her şeyi bırakacak. Ben bu yaşta tek kalacağım; sen de kızını bir daha göremeyeceksin, Cengo. Söylesem kimse
+  her şeyi bırakacak. Ben bu yaşta tek kalacağım; sen de kızını bir daha göremeyeceksin, Cengo. Her cumartesi bankta oturduğunu yukarıdan görüyorum. Söylesem kimse
   dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim. Tarihi sofrada duydum; ertesi sabah ilk mektubu kutuya
   ben koydum. Kâğıt benim kalıp kâğıdım. Provada torbaya ben koydum; bugün dördüncüsünü koydum. 'Herkes öğrenir'
   sözünü Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok." Torbanın cebinden dördüncü mektubu çıkarıp Peri'ye
@@ -319,7 +319,7 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 ## 13. Kapanış
 
 - **Sahne:** Büro, akşam. Peri tül şala sarınmış, saçında hâlâ bir gül yaprağı. Cengo'nun gömleği artık buruşuk. Gizem
-  çay getirir, telefonu elinde: "Eylül yazdı: 'Gizem abla, babama söyle, cumartesi bankta oturmasın, eve gelsin.'"
+  çay getirir, telefonu elinde: "Eylül yazdı: 'Gizem abla, babama söyle, cumartesi sabah eve gelsin, kahvaltı yapalım.'"
   Cengo bileğindeki bilekliği çevirir. Gizem devam eder: "Bir de: 'O kadın da gelmesin.'" Peri: "Ben bir şey demedim."
   *(Her kararda aynı: cumartesi düğünden önce; Eylül kimin yazdığını bilmiyor.)*
 - **Bağ düşükse (0 ve altı):** Peri: "Neden söylemedin? Bir kızın olduğunu." Cengo: "Sormadın." Ceketini alır, çıkar.

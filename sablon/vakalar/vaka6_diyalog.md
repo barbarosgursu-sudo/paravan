@@ -29,7 +29,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Cengo, Jale) anılıyor, Müzeyyen suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (sofrada kim vardı, Eylül'ün mesajı, bank, torbayı kim tuttu, sipariş günü, kalıp kâğıdı, "herkes öğrenecek" sözü).
 
 *Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.*
-*Kapı açılıyor. Cengo giriyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.*
+*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.*
 **PERİ [sasirmis]:** Cengo? Bu gömlek ne? Kim öldü? {kime: cengo}
 **CENGO [kas]:** Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma. {kime: peri}
 *Peri masadan kalkıyor; Cengo'yu baştan aşağı süzüp gömleğinin yakasını iki parmağıyla düzeltiyor.* {kare: K96}
@@ -325,7 +325,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Müzeyyen torbayla Bahariye Caddesi'ne fırlıyor. Cengo peşinden atılırken kapıdaki duvaklı mankenle çarpışıyor; duvak başına geçiyor.* {kare: K100, cset: duvakli}
 **CENGO [kas]:** Görmüyorum! Peri, ben hiçbir şey görmüyorum! {kare: K100}
 *Torbanın fermuarı açılıyor; gelinliğin uzun kuyruğu kaldırıma yayılıyor. Peri kuyruğa basıp kayıyor, bir çiçekçinin kovalarının arasına düşüyor.* {arka: A49, kare: K101, set: gullu, peri: sinirli}
-*Bir düğün fotoğrafçısı flaşını patlatıyor; ıslak, güllere bulanmış Peri'yi gelin sanmış.* {kare: K102}
+*Bir düğün fotoğrafçısı koşup flaşını ıslak, güllere bulanmış Peri'ye patlatıyor.* {kare: K102}
 **FOTOĞRAFÇI:** Gelin hanım, buraya bakın! Harika! Bir daha! {kare: K102}
 **PERİ [sinirli]:** Ben gelin değilim! {kare: K102}
 *Kuyruğun ucu Peri'nin ayağına dolanmış. Peri doğrulunca kuyruk geriliyor; torba Müzeyyen'i geri çekiyor, Müzeyyen bir banka oturuveriyor. Duvaklı Cengo yetişip torbayı tutuyor.* {kare: K103}
@@ -342,6 +342,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MÜZEYYEN [itiraf]:** Tamam. Ben yazdım. Hepsini ben yazdım. {gir: muzeyyen, kime: peri}
 **MÜZEYYEN [itiraf]:** Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak.
 **MÜZEYYEN [itiraf]:** Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo. {kime: cengo}
+**MÜZEYYEN [itiraf]:** Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum.
 **MÜZEYYEN [itiraf]:** Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim.
 **MÜZEYYEN [itiraf]:** Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum. {kime: peri}
 **MÜZEYYEN [itiraf]:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum.
@@ -368,7 +369,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + torbayı tutan kalan tek kişi Müzeyyen'di.
 **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + kalıp kâğıdı kullanan kalan tek kişi, terzi Müzeyyen'di.
 **MASUM cengo:** Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.
-**MASUM jale:** Jale Hanım masumdu: gelinliği dikiyor, kim olduğunu saklıyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.
+**MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.
 
 ## kanit
 ⚙ Kim yaptı? ekranında kanıtın kısa adı. Ad olgunun kendi metninde olanı söyler, fazlasını değil (Nurcan): kişiyi suçlamaz, olayı adlandırır. 2–4 kelime.
@@ -440,7 +441,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.*
 *Gizem elinde çay tepsisi ve telefonuyla geliyor.* {gir: gizem, gi: triko_telefon}
-**GİZEM [triko_telefon]:** Eylül yazdı: "Gizem abla, babama söyle; cumartesi bankta oturmasın, eve gelsin." {gir: gizem, kime: cengo}
+**GİZEM [triko_telefon]:** Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım." {gir: gizem, kime: cengo}
 *Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.* {kare: K110}
 **GİZEM [triko_isveli]:** Bir de şunu yazmış: "O kadın gelmesin." {gir: gizem, kime: peri}
 **PERİ [kas]:** Ben bir şey demedim ki. {kime: gizem}

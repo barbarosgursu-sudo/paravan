@@ -12,11 +12,13 @@
 //   (Vaka 1, 2 ve 3 önce hızlı oynanır: V3 → V4 geçişi de böylece denenir.)
 //   Vaka 5: node arac_yeni_tur.js [karar_sırası] [vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]
 //   (Vaka 1–4 önce hızlı oynanır: V4 → V5 geçişi de böylece denenir.)
+//   Vaka 6: node arac_yeni_tur.js [karar_sırası] [sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]
+//   (Vaka 1–5 önce hızlı oynanır: V5 → V6 geçişi de böylece denenir.)
 //   --tablet (herhangi bir yerde): Pixel 5 yerine dikey tablet (800×1280) — yeni_arayuz.css'teki
 //   tablet eşiği (min-width:600px, min-height:1050px) devreye girer; tam sayfa görüntü alır.
 //   --cihaz: seçilen her anda 19 ekran boyunda (telefon, tablet dikey/yatay, bilgisayar) görüntü alır
 //   ve yerleşimi ölçer — ayrıntı arac_cihaz.js; çıktı YENI_UI/cihaz/ (karşılaştırma sayfaları + bayraklar).
-//   --hepsi: incelenen vakanın (V1–V5) HER konuşma satırının görüntüsünü YENI_UI/satir/'a yazar
+//   --hepsi: incelenen vakanın (V1–V6) HER konuşma satırının görüntüsünü YENI_UI/satir/'a yazar
 //   (JPEG) ve satir/dokum.txt'ye satır satır döker: konuşan, kime, arka plan, kare, soldaki/sağdaki
 //   figürün sprite anahtarı, metin. Görselli tur denetimi (adım 11) bununla yapılır.
 // Yazı tipi (Google Fonts) ve ses dosyası yükleme hataları çevrimdışı ortamda
@@ -39,7 +41,9 @@ const YOL3 = ["kod", "foto", "borc", "badem", "cozmez"].includes(YOL) ? YOL : nu
 const YOL4 = ["soz", "aksam", "ilham", "cozmez4"].includes(YOL) ? YOL : null;
 // Vaka 5: yol adı vapur|iskele|usta|cozmez5 verilirse Vaka 1–4 hızlı oynanır, sonra Vaka 5.
 const YOL5 = ["vapur", "iskele", "usta", "cozmez5"].includes(YOL) ? YOL : null;
-const VAKA = YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
+// Vaka 6: yol adı sofra|siparis|kagit|cozmez6 verilirse Vaka 1–5 hızlı oynanır, sonra Vaka 6.
+const YOL6 = ["sofra", "siparis", "kagit", "cozmez6"].includes(YOL) ? YOL : null;
+const VAKA = YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
 (async () => {
   const b = await chromium.launch(ORTAM.tarayici());
   const cihaz = TABLET ? { viewport: { width: 800, height: 1280 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true } : devices['Pixel 5'];
@@ -149,7 +153,7 @@ const VAKA = YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
     await p.click('.buton:has-text("Devam et")');
     gorulen = [];
     const bagY = await p.evaluate(() => oyun.bagYuksek());
-    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz', V3: 'Gizem tabladan', V4: 'Soğusun', V5: 'Islaksın' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp', V3: 'Ben çıkıyorum', V4: 'Bu sende dursun', V5: 'Bu sana. Martılar' }[vid];
+    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz', V3: 'Gizem tabladan', V4: 'Soğusun', V5: 'Islaksın', V6: 'Cengo, ben' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp', V3: 'Ben çıkıyorum', V4: 'Bu sende dursun', V5: 'Bu sana. Martılar', V6: 'Neden söylemedin' }[vid];
     console.log(`[${vid}] kapanış`, await vnOyna(vid + '_kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri', 'Hiç unutmadım', 'Geçen hafta elime', 'Siz evlenseniz', 'Takım yarın']),
       '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith(sicak)) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith(soguk)) ? 'soğuk satırlar' : 'iki hâl yok',
       '· kasa', await p.evaluate(() => oyun.durum.para));
@@ -184,8 +188,22 @@ const VAKA = YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
                     iskele: ['Nedim Bey', 'Kadıköy iskelesi', 'Vapurun üst güvertesi'],
                     usta: ["Muammer'in dükkânı", 'Deri ustası', 'Çaycı Kadir'],
                     cozmez5: ['Vapurun üst güvertesi', 'Kadıköy iskelesi', "Muammer'in dükkânı"] }[YOL5] || [];
+  // Vaka 6 yolları (form §7): sofra = Haldun + kalfa + kapıcı (aha, A+C); siparis = Jale + mektuplar + anneanne (D+F);
+  // kagit = mektuplar + Haldun + Jale (A+F); cozmez6 = kapıcı + anneanne + kalfa (bilgi tarafı yok: zayıf/yanlış için).
+  const V6_SIRA = { sofra: ['Haldun Bey', 'Atölyenin kalfası', 'Apartmanın kapıcısı'],
+                    siparis: ['Jale Hanım', 'Mektuplar', "Eylül'ün anneannesi"],
+                    kagit: ['Mektuplar', 'Haldun Bey', 'Jale Hanım'],
+                    cozmez6: ['Apartmanın kapıcısı', "Eylül'ün anneannesi", 'Atölyenin kalfası'] }[YOL6] || [];
   incelenen = VAKA;
-  if (VAKA === 'V5') {
+  if (VAKA === 'V6') {
+    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
+    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
+    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
+    await vakaOyna('V4', ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'], 0, 'dogru');
+    await vakaOyna('V5', ['Çaycı Kadir', 'Vapurun üst güvertesi', 'Kadıköy iskelesi'], 0, 'dogru');
+    await foto('masa_v6'); await tasmaBak('masa_v6');
+    await vakaOyna('V6', V6_SIRA, KARAR, SONUC);
+  } else if (VAKA === 'V5') {
     await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
     await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
     await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
