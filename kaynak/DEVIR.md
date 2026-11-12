@@ -8,7 +8,26 @@
 
 ---
 
-## 0000000000000000000000000. ⬅️ 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+## 00000000000000000000000000. ⬅️ 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+
+Ortak düzeltmeleri bitirdi ve "metin ve senaryo tamam" dedi. Rol ayrımına göre hikâye onayı ortakta, bu yüzden adım 7 kapandı.
+- **Son kontrol (12 Kas):** `dogrulayici.js yeni` PASS (5 uyarı: 4 eski + V5 K8), eski oyun PASS, iki derleme, bütün testler geçti.
+  4 tur hatasız: `0 vapur dogru`, `1 iskele zayif`, `2 usta kadir`, `3 cozmez5 nedim` (bağ düşük ve yüksek kapanış ikisi de görüldü).
+  Sızıntı `arac_sizinti_tur.js V5 40`: 1212 ekran temiz; MASUM ve karar metinleri elle okundu, ipucu bilgisi yok
+  (hurdacı/belge anılmıyor; kazıma ve "saatin nereden geldiği" kovalamacadaki kazımadan çıkıyor).
+- **Süre:** metin aşaması toplam ~4 sa 58 dk (`vaka5_baslangic.md` §2). Saat bu satırla birlikte durdu; resim aşamasında yeniden başlar.
+
+**Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
+1. **Vaka 5'in hikâyesi dondu.** Barbaros oynayıp itiraz etmek isterse şimdi etmeli; dondu kabul edilirse adım 8'den sonra hikâye
+   değişmez (değişirse forma dönülür). → *Cevap:*
+2. **Sıradaki iş:** `RAF_KARARLARI.md:236`'ya göre Vaka 4'ün resim aşaması (adım 8–14), Vaka 5'in resimleri ondan sonra.
+   Vaka 4'ün resimlerini **kim** yapacak, Barbaros mu, ortak mı? Ortak yapacaksa önce `codex login` (kendi hesabı). → *Cevap:*
+3. **V5 K8 uyarısı** ("Saati Muammer'e bırak", "Polise teslim et"in iki eksende de önünde): ortak kararları bilerek böyle bıraktı
+   (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:*
+4. **`CLAUDE.md`'deki tur komutu satırına Vaka 5'in yolları** eklensin mi: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`?
+   `CLAUDE.md` Barbaros'ta, ortak eklemedi. → *Cevap:*
+
+## 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 Ortak Vaka 5'i okuyup düzeltmeleri satır satır veriyor; her parti işlenip doğrulayıcı + iki derleme + testlerle gönderildi.
 Hikâye henüz donmadı (Onay 2 bitmedi).
@@ -45,7 +64,7 @@ Hikâye henüz donmadı (Onay 2 bitmedi).
   Cengo "simitçiyi yirmi beşe ikna ettim"; Selim "o dükkânı sırtımda taşıdım".
 - **Satır numarası:** ortak artık `sablon/vakalar/vaka5_diyalog.md` dosyasının **satır numarasını** kullanıyor (aşağıdaki
   "sahne içi numara" notu eskidi). 4 satır eklendiği için numaralar 51'den sonra kaydı.
-- **Saat:** 5 ara yazıldı (`vaka5_baslangic.md`); saat **12 Kasım 10:02'den beri işliyor** (ara 5 kapandı). Ortak "durdur" deyince yeni ara açılır.
+- **Saat:** 5 ara yazıldı (`vaka5_baslangic.md`); 12 Kasım 10:02'de yeniden başladı, 10:27'de adım 7 bitince metin aşaması kapandı.
   12 Kas 00:31–00:34: ortak 47. satırı (Nedim'in "yukarıdaydım"ı) Selim'e söyletmeyi önerdi, sonra vazgeçti — metin aynı; baştan sona okuyup karar verecek.
 
 ## 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
