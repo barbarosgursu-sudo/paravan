@@ -67,10 +67,6 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
   ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
   "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Diyalog **baştan bu ölçüyle yazılır**;
   tarama yalnız kaçanı yakalar. Vaka 3'te sahibi bunu Onay 2'den önce istedi, 109 replik sonradan açıldı.
-- **Bu cevabın sorusu var mı?** (E, 12 Kasım 2026, sahibinin onayı; Vaka 6'dan itibaren) Bilgi veren satır ya bir
-  soruya cevaptır ya da **neden kendiliğinden söylendiği bellidir** (itiraf, laf kaçırma, Cengo'nun ağzından kaçan,
-  övünme). Sorgu-cevaba çevirmek şart değil; havada duran bilgi şart değil. (Vaka 5: "Polise gidemem" sorulmadan
-  geliyordu → Peri'nin "Polise gittiniz mi?" sorusu eklendi.)
 - **Şaşırtıcı bilginin gerekçesi var mı?** (F, 12 Kasım 2026) Kilit ipucu bilgisi ("üst güvertede tek adam vardı")
   neden öyle olduğunu da söyler ("rüzgârlı günlerde güverte boş kalır"). Gerekçe ipucunun kendisinden fazlasını
   söylemez (Nurcan).

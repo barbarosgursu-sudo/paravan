@@ -10,8 +10,8 @@
 
 ## 0000000000000000000000000000. ⬅️ 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
-**Ortağın yedi kuralı (TASLAK §12) onaylandı, Vaka 6'dan itibaren geçerli:** A, B, C, D, F olduğu gibi; E yumuşatılmış
-(soru ya da kendiliğinden söylenme sebebi); G yeni belge değil, Onay 2'den önce `3_kanon_kaydi.md` okunur. İşlendi:
+**Ortağın yedi kuralı (TASLAK §12) onaylandı, Vaka 6'dan itibaren geçerli:** A, B, C, D, F olduğu gibi; **E iptal** (önce
+yumuşatılmış onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge değil, Onay 2'den önce `3_kanon_kaydi.md` okunur. İşlendi:
 `6_vaka_formu.md` (§2 kişi tablosu, §11, §12 "kim neyi biliyor", §19), `7_uretim_sureci.md` (adım 6, bulanık replik taraması).
 
 **YENİ PLAN (önceki sırayı değiştirir; `RAF_KARARLARI.md` yayın sırası buna göre okunur):**

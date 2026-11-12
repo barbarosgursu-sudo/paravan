@@ -348,9 +348,9 @@ Süreçte: satır numarası sahne içinden dosya satırına geçti; büronun yer
 
 **Barbaros'un cevabı (12 Kasım 2026): ONAYLANDI, Vaka 6'dan itibaren geçerli.**
 - **A, B, C, D, F olduğu gibi.**
-- **E yumuşatıldı:** bilgi veren satır ya bir soruya cevaptır ya da neden kendiliğinden söylendiği bellidir (itiraf,
-  laf kaçırma, Cengo'nun ağzından kaçan). Kesin "önce soru" kuralı diyaloğu sorgu-cevaba çevirirdi.
+- **E İPTAL (12 Kasım 2026, Barbaros):** önce yumuşatılmış hâliyle (soru ya da kendiliğinden söylenme sebebi) onaylanmıştı;
+  aynı gün geri alındı. Şimdilik bununla ilgili bir kontrol yapılmıyor.
 - **G yeni belge değil:** ortak Onay 2'den önce zaten var olan `3_kanon_kaydi.md`'yi okur (iki belge zamanla kayardı).
 - **İşlendi:** `6_vaka_formu.md` §2 kişi tablosu (A, C), §11 (D), §12 "kim neyi biliyor" (B), §19 kontrol listesi;
-  `7_uretim_sureci.md` adım 6 (G) ve bulanık replik taraması (B, D, E, F).
+  `7_uretim_sureci.md` adım 6 (G) ve bulanık replik taraması (B, D, F).
 - Vaka 1–4 yeni plana göre bu kurallarla yeniden geçirilecek (`kaynak/DEVIR.md` en üst bölüm).
