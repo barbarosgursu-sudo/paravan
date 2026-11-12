@@ -19,13 +19,17 @@ Ortak düzeltmeleri bitirdi ve "metin ve senaryo tamam" dedi. Rol ayrımına gö
 
 **Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
 1. **Vaka 5'in hikâyesi dondu.** Barbaros oynayıp itiraz etmek isterse şimdi etmeli; dondu kabul edilirse adım 8'den sonra hikâye
-   değişmez (değişirse forma dönülür). → *Cevap:*
+   değişmez (değişirse forma dönülür). → *Cevap:* **EVET, dondu** — Barbaros'un itirazı yok (12 Kasım 2026).
 2. **Sıradaki iş:** `RAF_KARARLARI.md:236`'ya göre Vaka 4'ün resim aşaması (adım 8–14), Vaka 5'in resimleri ondan sonra.
-   Vaka 4'ün resimlerini **kim** yapacak, Barbaros mu, ortak mı? Ortak yapacaksa önce `codex login` (kendi hesabı). → *Cevap:*
+   Vaka 4'ün resimlerini **kim** yapacak, Barbaros mu, ortak mı? Ortak yapacaksa önce `codex login` (kendi hesabı). → *Cevap:* **Ortak yapacak** (Barbaros, 12 Kasım 2026). Önce `codex login`.
 3. **V5 K8 uyarısı** ("Saati Muammer'e bırak", "Polise teslim et"in iki eksende de önünde): ortak kararları bilerek böyle bıraktı
-   (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:*
+   (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:* **EVET, kabul edilmiş uyarı** (Barbaros, 12 Kasım 2026); `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı. Kararların etkisi zaten yeniden konuşuluyor (`sablon/TASLAK_tekrar_onleme.md` §8).
 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 5'in yolları** eklensin mi: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`?
-   `CLAUDE.md` Barbaros'ta, ortak eklemedi. → *Cevap:*
+   `CLAUDE.md` Barbaros'ta, ortak eklemedi. → *Cevap:* **EVET** — eklendi (Barbaros, 12 Kasım 2026).
+
+**Ortağa not (12 Kasım 2026):** Barbaros ile tekrarı önleme üzerine bir konuşma sürüyor — vaka/karakter/sezon seçenekleri ve
+**kararların gerçek bir etkisi olması** (haber, bedava ipucu, dönen ipucu, büronun duvarı…). Taslak, ONAYLANMADI:
+`sablon/TASLAK_tekrar_onleme.md`. Vaka 4 ve 5'i etkilemez; kurallar Vaka 6'dan itibaren düşünülüyor. Okuyabilirsin.
 
 ## 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
