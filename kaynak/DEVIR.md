@@ -19,6 +19,9 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 2. Bu sırada yeni kural gerekirse eklenir (şablona, sahibinin onayıyla).
 3. Sonra **başa dönülür: Vaka 1, 2, 3, 4** yeni kurallara göre yeniden geçirilir.
 
+**Vaka 6:** ortak yazacak. Claude'un önerisi `sablon/vakalar/vaka6_oneri.md` (ONAYLANMADI); **bütün kararlar ortağın**
+(Barbaros, 12 Kasım 2026). Ortak öneriyi değiştirir/seçer, sonra formu doldurur.
+
 **Barbaros'un cevapları (12 Kasım 2026):**
 - **Vaka 4'ün resimleri şimdi yapılmıyor** (ortak da başlamasın). Vaka 8'den sonra, yeni kurallara göre ortaya çıkan
   duruma bakılıp yapılacak.
