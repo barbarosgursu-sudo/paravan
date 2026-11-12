@@ -281,3 +281,38 @@ Kısmen: 1 (şablon), 3 (açılış) · Çözmez, görünür kılar: 2 (içeride
 ### 10h. Karar uyarısı (K8) — basit açıklama
 Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin
 sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
+
+## 11. ORTAĞIN NOTU — ONAYLANMADI (12 Kasım 2026)
+
+> Ortak taslağı Claude'la baştan okudu (çeşit listeleri, ölçü, kararların etkisi, yeni oyun biçimleri). Sonra §7c'de
+> "henüz konuşulmayanlar" diye kalan dört biçimi tek tek konuştu. **Hiçbiri onaylanmadı.** Ortak: "Barbaros Bey ile karar
+> vereceğiz." Aşağıdaki örnekler Claude'un; kanon değil. Kod işleri Barbaros'un alanında.
+
+**Ters vaka** — Oyuncu suçluyu baştan görür, Peri görmez; iş "kim?" değil "nasıl kanıtlarım?" (Columbo).
+- Örnek: Vaka 5'in ilk taslağı (`kaynak/YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR); V3 ve V8 taslakları da bu tipteydi.
+- Zaten ertelenmişti (17 Ekim, `1_oyun_yapisi.md`: ayrı bir deneme vakasıyla sınanacak).
+- Kod: yüzleşme "kişi seç" yerine "kanıt seç"; motor ve doğrulayıcı işi.
+- Artı: formül çözülemez; oyuncu bilir, Peri bilmez gerilimi; "suçlu müşterinin kendisi" seçeneğine uyar.
+- Eksi: Kim yaptı? ekranı çalışmaz; Nurcan kuralı zorlaşır (Peri bilmediğini söylememeli); kararın anlamı değişir.
+
+**Saatli vaka** — Vakanın son saati var; her ipucu farklı zaman yer (bugün her ipucu eşit, bir hak).
+- Örnek: nikâh akşam 8'de, saat 12; yakın kuyumcu 1 saat, Adalar'daki tanık 3 saat. Saat dolunca yüzleşme.
+- Kod: ipucu başına bedel, ekranda saat, süre bitince geçiş.
+- Artı: seçim gerçek bedel taşır; gerilim ve komedi (vapur kaçar); hikâyeye kendiliğinden oturur.
+- Eksi: "ekonomi kirletmeye zorlamaz" kuralı sınanmalı; reklamın +1 hakkı +1 saat mi olur; çözülebilirlik yeniden test.
+
+**Yalan bulma** — Tanık konuşurken bir cümle yalan; oyuncu o cümleyi seçip elindeki ipucuyla çürütür (bugün Peri kendisi yapıyor).
+- Örnek: Selim "bütün yol üst güvertedeydim" der → oyuncu "Üst güvertedeki tek adam"ı seçer → Peri itiraz eder.
+  Yanlış seçimde Peri bocalar; oyun kaybedilmez.
+- Kod: konuşma içinde ipucu seçimi, doğru/yanlış iki devam, yanlışın küçük bedeli.
+- Artı: ipucu yalnız toplanmaz, kullanılır; kalıptan tahmini zorlaştırır; Peri'nin "anladım" anını oyuncu yaşar.
+- Eksi: "kaybetme yok" (bedel küçük: para ya da Cengo'nun lafı); Nurcan (açılmamış ipucu seçenekte görünmez); yazı yükü artar.
+
+**Kılık** — Peri ya da Cengo başka biri kılığına girer; sorulan soruya oyuncu cevap seçer. Doğru → bilgi; yanlış → kılık açığa çıkar.
+- Örnek (gece hayatı): Peri gazinoya yeni şarkıcı kılığında girer; "daha önce nerede çıktın?" sorusunun doğru cevabı
+  daha önceki bir ipucunda öğrenilmiş. Yanlışta kapı dışarı, Cengo kapıda; ipucu kaçar ya da pahalıya gelir.
+- Kod: konuşma içinde seçenek ve iki devam. Yalan bulmayla ortak altyapı: biri yapılırsa öteki kolaylaşır.
+- Artı: doğal komedi; yeni kıyafet ve mekân (kıyafet ilkesine uyar); ipuçlarını kullanmayı öğretir.
+- Eksi: "kaybetme yok" (yakalanma oyuncuyu sıkıştırmamalı); Nurcan (seçenekler bilinmeyeni ele vermemeli); resim yükü artar.
+
+**Ortağın Barbaros'la karara bağlamak istediği:** bu dördünden hangileri, hangi sezonda, hangi sırayla.
