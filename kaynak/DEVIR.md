@@ -27,6 +27,10 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 `sablon/vakalar/vaka6_form.md` (`6_vaka_formu.md`; yeni: §2 kişi tablosu, §12 "kim neyi biliyor") → adım 2'den 7'ye
 (`7_uretim_sureci.md`), **resimsiz** (adım 8 ve sonrası yok). Kim neye karar verir: aşağıda "İŞ ARKADAŞA DEVREDİLDİ".
 
+**Vaka 6 başladı (12 Kasım 2026, 17:57; ortak):** "İsimsiz Mektuplar" seçildi. Kız Eylül (Üsküdar); Gamze, Haldun Bey,
+Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Sıradaki: form `vaka6_form.md`.
+Kayıt: `sablon/vakalar/vaka6_baslangic.md`.
+
 **Barbaros'un cevapları (12 Kasım 2026):**
 - **Vaka 4'ün resimleri şimdi yapılmıyor** (ortak da başlamasın). Vaka 8'den sonra, yeni kurallara göre ortaya çıkan
   duruma bakılıp yapılacak.

@@ -1,4 +1,8 @@
-# Vaka 6 — Claude'un önerisi (12 Kasım 2026) · ONAYLANMADI
+# Vaka 6 — Claude'un önerisi (12 Kasım 2026) · ORTAK SEÇTİ: "İsimsiz Mektuplar"
+
+> **Ortağın kararı (12 Kasım 2026, 17:57):** "İsimsiz Mektuplar" seçildi. Kız: **Eylül**, annesiyle Üsküdar'da (öbür
+> yaka). Anne **Gamze**, damat **Haldun Bey**, anneanne **Müzeyyen Hanım**, damadın eski eşi **Jale Hanım**; hepsi kanona
+> girdi. Büro hayvanı yok (sonraki bir vakaya). Kayıt ve saat: `vaka6_baslangic.md`.
 
 > Barbaros'un isteğiyle yazıldı. **Bütün kararlar ortağın** (Barbaros, 12 Kasım 2026). Ortak değiştirir, seçer ya da
 > reddeder; sonra formu (`6_vaka_formu.md`) doldurur. Formda yeni kurallar var: §2 kişi tablosu (A, C), §12 "kim neyi
