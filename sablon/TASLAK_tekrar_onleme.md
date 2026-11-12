@@ -220,3 +220,64 @@ iki suçlu, yanlış izin başka bir şey saklaması, kovalananın başkası olm
 
 **Aynı gün ayrıca:** ortağın 4 sorusu cevaplandı (`kaynak/DEVIR.md`): V5 dondu, V4 resimlerini ortak yapacak,
 V5 K8 kabul, `CLAUDE.md`'ye V5 tur yolları eklendi.
+
+## 10. Ek: konuşmanın ayrıntıları (örnekler, gerekçeler)
+
+Yukarıdaki bölümler kararları tutar; bu bölüm o kararlara giden örnekleri ve gerekçeleri tutar.
+
+### 10a. Sonraki sezonlar sıkıcılaşır mı?
+- Cevap: önlem alınmazsa evet. Raf ölçeği kitap başına 8–10 sezon × 8–10 vaka = 60–100 vaka; tekrar kaçınılmaz.
+- **Asıl tehlike oyuncunun formülü çözmesi:** suçluyu kanıttan değil kalıptan bulmak. V1–5'te ipucu-dışı bir işaret var:
+  müşterinin (ya da birinin) suçladığı kişi hemen hep masum çıkıyor (V1 Kemal, V2 Lâl, V3'te Ferruh'un suçladığı Gizem).
+- İlke: amaç "hiçbir şeyi tekrarlama" değil (imkânsız), **"tahmin edilebilir biçimde tekrarlama"**. Suçlunun şüphe
+  sırasındaki yeri döner (bazen en şüpheli gerçekten suçlu, bazen hiç akla gelmeyen, bazen müşteri). Tablo kitap boyu tutulur.
+- Uzun dizileri ayakta tutan üç şey: (1) formül gizli kalır, (2) her sezon bir yenilik (dünya, oyun biçimi, iplik),
+  (3) karakterler değişir — "kavuşmazlar" kuralı 8–10 sezon aynı noktada donarsa o da tekrara döner (ayrıca konuşulmalı).
+- Not: Vaka 5'in metni ~4,5–5 saatte çıktı; darboğaz hız değil çeşitlilik.
+
+### 10b. Sebep 1 (şablon sabit) — konuşulan seçenekler
+- A: şablon aynen, yalnız içi değişir (sorunu çözmez) · B: ayar düğmeleri (önerilen) · C: vaka tipleri dönüşümlü (motor işi).
+- Öneri: B + sezonda bir kez C. "İki suçlu" ve "değişken şüpheli sayısı" Kim yaptı? ekranında motor değişikliği isteyebilir — bakılmadı.
+
+### 10c. Sezon tablosunun hangi sebebi çözdüğü
+Doğrudan: 6 (bütüne bakan yok), 7 (ayrışma tek eksen), 8 (iki yazar) · Çözer: 9 (hız), 10 (yapay zekâ ortalaması) ·
+Kısmen: 1 (şablon), 3 (açılış) · Çözmez, görünür kılar: 2 (içeriden suçlu), 4 (kısa vaka), 5 (dar ton).
+
+### 10d. Yeni oyun biçimlerinin örnekleri (yalnız örnek, kanon değil)
+- **Önceki karar geri döner:** V1'de Serkan'ı babasından korumuşsan V6'da "Bana bir iyilik borçlusun dedin, işte geldim";
+  anlatmışsan "Beni ele verdin, ama sayende babamla barıştım." Üç büyüklük konuşuldu: küçük (tek satır: Rıza selam verir/
+  yüzünü çevirir), orta (bir kişinin tavrı ya da bedava ipucu), büyük (vaka başka başlar). **Barbaros: yalnız ipucu olarak.**
+- **Cengo'nun gözünden:** Peri hasta, yataktan çıkamaz; Cengo vakayı tek başına çözer, Peri telefonda akıl verir; solda Cengo durur.
+- **Tek vaka, iki iz:** aynı gün iki müşteri — kaybolan köpek ve çalınan yüzük; sonunda köpek yüzüğü yutmuş. Oyun için tek vaka.
+- **İki açık dosya:** oyuncu iki vaka arasında gidip gelir, hakkını hangisine harcayacağını seçer.
+- Henüz konuşulmayanlar: ters vaka, saatli vaka (her ipucu zaman yer), yalan bulma, kılık (yanlış cevap açığa çıkarır).
+
+### 10e. Kararı tamamen kaldırma fikri (Barbaros sordu)
+Öneri: suçlu + iki kanıt seçilir, sonuç doğru/yanlışa göre otomatik çıkar, karar ekranı yok.
+- Kazanç: sadeleşir, yazı azalır.
+- Kayıp: oyunun kimliği ("ahlaki tercih"), "oyun not vermez" kuralına ters düşer (doğru = iyi son), paylaşım kartının
+  "Sen olsan ne yapardın?"ı boşa düşer, Cengo bağı beslenmez.
+- Sonuç (Barbaros): **karar kalır, ama etkisi muhakkak düzeltilir.** Ara yol olarak "4 yerine 2 karar" anıldı, karar verilmedi.
+
+### 10f. Benzer oyunlar araştırması (kaynaklarla)
+- **Sherlock Holmes: Crimes & Punishments** — suçlu bulunur, sonra ayrı ahlaki karar (teslim et/affet); sonuç sonra mektupla
+  gelir. Eleştiri: kurbanlar sevimsiz, affetmek kolay seçim. https://www.avclub.com/crimes-and-punishments-the-danger-of-the-infallibl ·
+  https://www.destructoid.com/reviews/review-sherlock-holmes-crimes-and-punishments/
+- **Telltale (The Walking Dead)** — "X bunu hatırlayacak"; hikâye pek değişmez, oyuncu fark edince kandırılmış hisseder.
+  https://www.denofgeek.com/games/the-walking-dead-false-promises-telltale/ ·
+  https://new.eludamos.org/index.php/eludamos/article/download/vol9no1-2/9-1-2/23554
+- **Papers, Please** — iyilik para kaybettirir, para ailenin giderine gider; çok güçlü ama bize uymaz (gider/kaybetme yok).
+  https://www.gamedeveloper.com/design/what-games-can-learn-from-the-engagement-layers-of-papers-please
+- **Mobil hikâye oyunları (Choices, Episode)** — ilişki puanı yeterince yüksekse özel sahne açar; Cengo bağına benzer, fark: bağ bir şey AÇAR.
+- Dersler: yalnız "hatırlıyor" demek yetmez (Telltale); sonucu sonra göstermek ucuz ve etkili (Sherlock); bağ bir şey açsın (mobil).
+
+### 10g. Yeni oyun biçimlerinin kod yükü (koda bakıldı, 12 Kasım 2026)
+- Önceki karar geri döner: az kod. `motor.js` kararı `seeds["_karar_<vaka>"]` olarak tutuyor; ipucu/karar metni `metinSec`
+  ile koşullu olabiliyor. Konuşma satırı yalnız `bag` ile süzülüyor (`yeni_arayuz.js → vnBagSuz`). İpucu olarak dönmesi
+  için `bedelsiz_kosul` zaten var (`motor.js`). Engel kural: "Tohum yok" + doğrulayıcı K19.
+- Cengo/Gizem'in gözünden: orta kod. Konuşma ekranı Peri'yi ana kişi kuruyor (`yeni_arayuz.js`, ~40 yer: `sol: "peri"`, levha "Peri").
+- Tek vaka iki iz: kod yok. İki açık dosya: çok kod (`motor.js` tek `aktif` vaka).
+
+### 10h. Karar uyarısı (K8) — basit açıklama
+Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin
+sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
