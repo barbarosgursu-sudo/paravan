@@ -23,6 +23,17 @@ Hikâye değişecekse önce form değişir.
 - **Nasıl:**
 - **Zaman çizelgesi:** saat saat. Her şüphelinin o anda **nerede olduğu ve ne gördüğü** yazılır.
 
+**Kişi tablosu (12 Kasım 2026, sahibinin onayı; Vaka 6'dan itibaren — kural A ve C).** Vakadaki her kişi
+(müşteri, şüpheliler, yan kişiler) bir satır:
+
+| kişi | işi | olaydaki rolü | işi rolüne uyuyor mu? | oturduğu yer | olay günü nereden nereye, nasıl gitti |
+|---|---|---|---|---|---|
+
+- **Rol kontrolü (A):** kişinin işi ile olaydaki rolü birbirine uyuyor mu; iki rol aynı kişide absürt mü?
+  (Vaka 5: Selim hem ortak hem tamirciydi — en pahalı düzeltme, 5 dosya.)
+- **Harita kontrolü (C):** oturduğu yer, gittiği yer ve oraya nasıl gittiği tutarlı mı? (Vaka 5: Nedim Moda'da
+  oturup Moda'ya vapurla gidiyordu.)
+
 ## 3. Giriş *(kurallar: 1. parça, "Giriş")*
 
 - **Müşteri:** kim, ne istiyor
@@ -98,12 +109,24 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 | 3 | | | |
 | 4 | | | |
 
+- **Gerçekte olur mu? (D, 12 Kasım 2026):** her vuruştaki fiziksel olay (ve vakanın fiziksel şakaları) bir kez bu
+  soruyla okunur. (Vaka 5: dalga susam getirmez → yosun.)
+
 - **Peri'nin felaketi:** (vakanın konusundan çıkar)
 - **Cengo'nun komik anı:**
 - **Kaçanı yakalayan şans:**
 - **Temizlenme anı:**
 
 ## 12. Kararlar (4)
+
+**Önce: kim neyi biliyor (B, 12 Kasım 2026; Vaka 6'dan itibaren).** Kararlar yazılmadan ÖNCE, son sahneden
+(kovalamaca + itiraf) sonra her kişinin ne bildiği listelenir. Karar metinleri, Cengo satırları ve kapanış bu listeye
+göre yazılır; listede olmayan bilgiyi kimse bilmez, listede olanı kimse bilmiyormuş gibi davranmaz. (Vaka 5: kararlar
+Muammer'in olayı bilmediğini varsayıyordu, oysa kovalamacada itirafı duymuştu → 4 karar yeniden yazıldı.)
+
+| kişi | son sahneden sonra ne biliyor | nereden (hangi sahne/satır) |
+|---|---|---|
+
 
 | karar | kısa sonuç (karar ekranında, tek cümle) | eylem → sonuç → bedel | karar parası (ücrete ek) | bağ | Cengo satırı | anı defteri | ara kare |
 |---|---|---|---|---|---|---|
@@ -172,6 +195,9 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] Defter cümleleri suçluyu söylemiyor
 - [ ] "Aha!" anı var
 - [ ] Zaman çizelgesinde çelişki yok (kim nerede, ne gördü)
+- [ ] Kişi tablosu dolu: her kişinin işi rolüne uyuyor (A), oturduğu/gittiği yer ve yolu tutarlı (C)
+- [ ] Kovalamacadaki ve şakalardaki fiziksel olaylar gerçekte olabilir (D)
+- [ ] "Kim neyi biliyor" listesi yazıldı; kararlar, Cengo satırları ve kapanış ona uyuyor (B)
 - [ ] Her tutar fiyat tablosunda
 - [ ] En az bir dürüst karar var
 - [ ] Her kararın kısa sonucu var; ücret kesintilerinin açıklaması var (kural 22a)

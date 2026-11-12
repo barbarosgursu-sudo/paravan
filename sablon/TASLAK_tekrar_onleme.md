@@ -346,4 +346,11 @@ Süreçte: satır numarası sahne içinden dosya satırına geçti; büronun yer
 - **F. Şaşırtıcı bilginin gerekçesi:** kilit ipucu bilgisi ("tek adam vardı") neden öyle olduğunu da söyler. → 6
 - **G. Ortağa kısa kanon özeti:** okumaya başlamadan önce yarım sayfa (büro nerede, kim kimdir, dönen figürler). → süreç
 
-**Barbaros'un cevabı:** *(A–G için onay / ret / değişiklik)*
+**Barbaros'un cevabı (12 Kasım 2026): ONAYLANDI, Vaka 6'dan itibaren geçerli.**
+- **A, B, C, D, F olduğu gibi.**
+- **E yumuşatıldı:** bilgi veren satır ya bir soruya cevaptır ya da neden kendiliğinden söylendiği bellidir (itiraf,
+  laf kaçırma, Cengo'nun ağzından kaçan). Kesin "önce soru" kuralı diyaloğu sorgu-cevaba çevirirdi.
+- **G yeni belge değil:** ortak Onay 2'den önce zaten var olan `3_kanon_kaydi.md`'yi okur (iki belge zamanla kayardı).
+- **İşlendi:** `6_vaka_formu.md` §2 kişi tablosu (A, C), §11 (D), §12 "kim neyi biliyor" (B), §19 kontrol listesi;
+  `7_uretim_sureci.md` adım 6 (G) ve bulanık replik taraması (B, D, E, F).
+- Vaka 1–4 yeni plana göre bu kurallarla yeniden geçirilecek (`kaynak/DEVIR.md` en üst bölüm).

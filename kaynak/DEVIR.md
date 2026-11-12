@@ -8,7 +8,23 @@
 
 ---
 
-## 000000000000000000000000000. ⬅️ 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (onay bekliyor)
+## 0000000000000000000000000000. ⬅️ 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+
+**Ortağın yedi kuralı (TASLAK §12) onaylandı, Vaka 6'dan itibaren geçerli:** A, B, C, D, F olduğu gibi; E yumuşatılmış
+(soru ya da kendiliğinden söylenme sebebi); G yeni belge değil, Onay 2'den önce `3_kanon_kaydi.md` okunur. İşlendi:
+`6_vaka_formu.md` (§2 kişi tablosu, §11, §12 "kim neyi biliyor", §19), `7_uretim_sureci.md` (adım 6, bulanık replik taraması).
+
+**YENİ PLAN (önceki sırayı değiştirir; `RAF_KARARLARI.md` yayın sırası buna göre okunur):**
+1. **Vaka 6, 7, 8** yazılır — **resimsiz**; üçünün de onayı (Onay 2'ye kadar, hikâye donar) yapılır.
+2. Bu sırada yeni kural gerekirse eklenir (şablona, sahibinin onayıyla).
+3. Sonra **başa dönülür: Vaka 1, 2, 3, 4** yeni kurallara göre yeniden geçirilir.
+
+**Açık sorular (Barbaros'a):**
+- Vaka 4'ün resim aşaması (ortak yapacaktı) şimdi mi yürüsün, yoksa Vaka 4 yeniden geçirildikten sonraya mı kalsın?
+  (Yeniden geçirmede metin değişirse önceden üretilen resimler boşa gider.)
+- Vaka 5 de başa dönüşte yeniden geçirilecekler arasında mı? (Yeni kurallar Vaka 5'in derslerinden çıktı; düzeltmeleri zaten içinde.)
+
+: ORTAĞIN İKİ NOTU (onay bekliyor)
 
 `sablon/TASLAK_tekrar_onleme.md` sonuna ortak iki not ekledi, ikisi de **onaylanmadı**:
 - **§11:** dört yeni oyun biçimi (ters vaka, saatli vaka, yalan bulma, kılık) konuşuldu; karar Barbaros'la.

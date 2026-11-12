@@ -11,7 +11,7 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu). Satır–resim sözleşmesi (5. parça C0): her satırın gerçek muhatabı `kime`/`gir` ile (SR-A, konuk–konuk SR-G); ifade satırın duygusundan seçilir, eldeki yüzlerden değil (SR-I); sahne notu yalnız o an görüleni söyler (SR-H) | ben | otomatik denetimden geçer |
 | 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
 | 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** ve **sızıntı taraması** (aşağıda) | ben | hata yok; iki tarama bitti, düzeltmeler veride |
-| 6 | **Onay 2 — görselsiz test:** sahibi oynar. Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
+| 6 | **Onay 2 — görselsiz test:** sahibi oynar. Okuyan, vakaya başlamadan önce `3_kanon_kaydi.md`'yi okur (büro nerede, kim kimdir, dönen figürler; kural G, 12 Kasım 2026). Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
 | 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve her karar/ara/kapanış karesi için kıyafet hâli, SR-B), **ifade/nesne ayrımı** (SR-D), `arac_satir_resim.js` bayraklarının **hepsi kapalı** (SR-E). İlk figürden önce **kıyafet kartları** tek sayfada sahibine (5. parça I, SR-C) | ben | bayrak kalmadı; kıyafet kartları onaylı |
 | 9 | **Görseller** üretilir; **toplu gönderilir** (aşağıda) | sahibi | — |
@@ -67,6 +67,17 @@ gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) 
   ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
   "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Diyalog **baştan bu ölçüyle yazılır**;
   tarama yalnız kaçanı yakalar. Vaka 3'te sahibi bunu Onay 2'den önce istedi, 109 replik sonradan açıldı.
+- **Bu cevabın sorusu var mı?** (E, 12 Kasım 2026, sahibinin onayı; Vaka 6'dan itibaren) Bilgi veren satır ya bir
+  soruya cevaptır ya da **neden kendiliğinden söylendiği bellidir** (itiraf, laf kaçırma, Cengo'nun ağzından kaçan,
+  övünme). Sorgu-cevaba çevirmek şart değil; havada duran bilgi şart değil. (Vaka 5: "Polise gidemem" sorulmadan
+  geliyordu → Peri'nin "Polise gittiniz mi?" sorusu eklendi.)
+- **Şaşırtıcı bilginin gerekçesi var mı?** (F, 12 Kasım 2026) Kilit ipucu bilgisi ("üst güvertede tek adam vardı")
+  neden öyle olduğunu da söyler ("rüzgârlı günlerde güverte boş kalır"). Gerekçe ipucunun kendisinden fazlasını
+  söylemez (Nurcan).
+- **Gerçekte olur mu?** (D, 12 Kasım 2026) Kovalamacadaki ve şakalardaki fiziksel olay gerçek dünyada olabilir mi?
+  (Vaka 5: dalga susam getirmez → yosun.) Form §11'de bir kez bakılır, diyalogda yeniden.
+- **Bilmediğini biliyor mu?** (B, 12 Kasım 2026) Karar metni, Cengo satırı ve kapanış formdaki "kim neyi biliyor"
+  listesine uyuyor mu?
 - **Neden kaçıyor?** (17 Ekim 2026, sahibinin kararı; 1. parça "Yüzleşme sahneleri") Her yüzleşmede suçlunun paniği
   somut bir tetikleyiciye bağlı mı: kanıt yalanını çürütüyor ya da sakladığı şey tehlikeye giriyor? "His mi?", "Neredeydin?",
   "Fırına bakayım" gibi cevabı kolay bir sözle kaçış yazılmaz. Vaka 3'te üç yüzleşme bu yüzden yeniden yazıldı.
