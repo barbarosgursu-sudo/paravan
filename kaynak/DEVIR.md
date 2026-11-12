@@ -19,12 +19,12 @@
 2. Bu sırada yeni kural gerekirse eklenir (şablona, sahibinin onayıyla).
 3. Sonra **başa dönülür: Vaka 1, 2, 3, 4** yeni kurallara göre yeniden geçirilir.
 
-**Açık sorular (Barbaros'a):**
-- Vaka 4'ün resim aşaması (ortak yapacaktı) şimdi mi yürüsün, yoksa Vaka 4 yeniden geçirildikten sonraya mı kalsın?
-  (Yeniden geçirmede metin değişirse önceden üretilen resimler boşa gider.)
-- Vaka 5 de başa dönüşte yeniden geçirilecekler arasında mı? (Yeni kurallar Vaka 5'in derslerinden çıktı; düzeltmeleri zaten içinde.)
+**Barbaros'un cevapları (12 Kasım 2026):**
+- **Vaka 4'ün resimleri şimdi yapılmıyor** (ortak da başlamasın). Vaka 8'den sonra, yeni kurallara göre ortaya çıkan
+  duruma bakılıp yapılacak.
+- **Vaka 5:** belki incelenir; çıkan hatalara göre yeniden geçirilip geçirilmeyeceğine o zaman karar verilir.
 
-: ORTAĞIN İKİ NOTU (onay bekliyor)
+## 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
 
 `sablon/TASLAK_tekrar_onleme.md` sonuna ortak iki not ekledi, ikisi de **onaylanmadı**:
 - **§11:** dört yeni oyun biçimi (ters vaka, saatli vaka, yalan bulma, kılık) konuşuldu; karar Barbaros'la.
