@@ -33,3 +33,5 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
 | 0 Konu seçimi | 12 Kas 17:57 | 12 Kas 17:57 | ~2 dk | ~3 dk | öneri seçildi; 4 soru cevaplandı; isimler Claude'a |
+| 1 Form | 12 Kas 18:00 | 12 Kas 18:11 | 0 | ~11 dk | form `vaka6_form.md`; 5 kanon önerisi 🟡; Cengo şüpheli (motor izin veriyor) |
+| 2 Onay 1 | | | | | 5 soru ortağa |
