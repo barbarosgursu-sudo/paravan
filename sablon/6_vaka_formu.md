@@ -109,9 +109,6 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 | 3 | | | |
 | 4 | | | |
 
-- **Gerçekte olur mu? (D, 12 Kasım 2026):** her vuruştaki fiziksel olay (ve vakanın fiziksel şakaları) bir kez bu
-  soruyla okunur. (Vaka 5: dalga susam getirmez → yosun.)
-
 - **Peri'nin felaketi:** (vakanın konusundan çıkar)
 - **Cengo'nun komik anı:**
 - **Kaçanı yakalayan şans:**
@@ -196,7 +193,6 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] "Aha!" anı var
 - [ ] Zaman çizelgesinde çelişki yok (kim nerede, ne gördü)
 - [ ] Kişi tablosu dolu: her kişinin işi rolüne uyuyor (A), oturduğu/gittiği yer ve yolu tutarlı (C)
-- [ ] Kovalamacadaki ve şakalardaki fiziksel olaylar gerçekte olabilir (D)
 - [ ] "Kim neyi biliyor" listesi yazıldı; kararlar, Cengo satırları ve kapanış ona uyuyor (B)
 - [ ] Her tutar fiyat tablosunda
 - [ ] En az bir dürüst karar var

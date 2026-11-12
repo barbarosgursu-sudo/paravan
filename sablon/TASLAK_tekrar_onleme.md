@@ -347,10 +347,11 @@ Süreçte: satır numarası sahne içinden dosya satırına geçti; büronun yer
 - **G. Ortağa kısa kanon özeti:** okumaya başlamadan önce yarım sayfa (büro nerede, kim kimdir, dönen figürler). → süreç
 
 **Barbaros'un cevabı (12 Kasım 2026): ONAYLANDI, Vaka 6'dan itibaren geçerli.**
-- **A, B, C, D, F olduğu gibi.**
+- **A, B, C olduğu gibi.**
 - **E İPTAL (12 Kasım 2026, Barbaros):** önce yumuşatılmış hâliyle (soru ya da kendiliğinden söylenme sebebi) onaylanmıştı;
   aynı gün geri alındı. Şimdilik bununla ilgili bir kontrol yapılmıyor.
+- **D ve F İPTAL (12 Kasım 2026, Barbaros):** önce olduğu gibi onaylanmıştı; aynı gün geri alındı, şablondan çıkarıldı.
 - **G yeni belge değil:** ortak Onay 2'den önce zaten var olan `3_kanon_kaydi.md`'yi okur (iki belge zamanla kayardı).
-- **İşlendi:** `6_vaka_formu.md` §2 kişi tablosu (A, C), §11 (D), §12 "kim neyi biliyor" (B), §19 kontrol listesi;
-  `7_uretim_sureci.md` adım 6 (G) ve bulanık replik taraması (B, D, F).
+- **İşlendi:** `6_vaka_formu.md` §2 kişi tablosu (A, C), §12 "kim neyi biliyor" (B), §19 kontrol listesi;
+  `7_uretim_sureci.md` adım 6 (G) ve bulanık replik taraması (B).
 - Vaka 1–4 yeni plana göre bu kurallarla yeniden geçirilecek (`kaynak/DEVIR.md` en üst bölüm).
