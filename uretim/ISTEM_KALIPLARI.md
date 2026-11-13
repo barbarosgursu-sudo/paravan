@@ -158,6 +158,11 @@ istendiği için kayma bütün Cengo setine geçti. Peri'nin kartı (tek kişi, 
   cümlesinin TAMAMI ("Karikatür değil…" dahil). Çekicilik satırı yine yok (§9).
 - **Kartı referans alan her istemde:** "Kart YALNIZ kıyafetin kesimi, boyu ve rengi içindir; kartın çizim tarzını, ışığını, yüzünü
   ve pozunu ALMA." Tarz ve yüz birinci referanstan (boyalı onaylı resim).
+- **Boya dokusu yüzde, kumaş pürüzsüz (13 Kasım 2026, sahibi G18 ve Eylül'de buldu):** "görünür fırça darbesi, dokulu boya" vurgusu
+  düz ve açık renk geniş kumaşta (gömlek, kot) köşeli kırışık / buruşturulmuş kâğıt dokusu yapıyor. Tarz vurgusu yazılırken şöyle
+  ayrılır: "boya dokusu yüzde, saçta ve ışıkta; kumaş pürüzsüz, yumuşak geçişli". Ütülü kıyafete ayrıca "kusursuz ütülü, pürüzsüz";
+  buruşuk kıyafete "doğal kumaş kırışığı, yumuşak kıvrım; folyo/kâğıt gibi köşeli değil". "Sıcak altın ışık" saçı açabilir:
+  koyu saçlı karakterde "ışık saçın rengini açmasın" yazılır (G18'de saç kızıla çalan kahve çıktı).
 - **Yazılımla denetim:** `kaynak/arac_tarz.py` (CLIP tarz puanı, LoRA ve Vaka 1–3 çapası) her resimde gözden önce; kural `uretim/CLAUDE.md` → Denetim 0.
 - **Denetimde tarz maddesi:** her yeni temel ve kart, aynı karakterin eski onaylı resmiyle ve eski konuklarla yan yana; kontur
   kalınlığı, boya dokusu, ışığın sıcaklığı ve yüz eskilerden ayrılıyorsa reddedilir (A.7). Kart da bu denetime girer.

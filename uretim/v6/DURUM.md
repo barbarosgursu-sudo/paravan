@@ -1,5 +1,11 @@
 # Vaka 6 — üretim durumu
 
+**13 Kasım 2026, ~19:45 — GÜN SONU. Yarın Oğuz Bey'in bilgisayarında, onun hesabıyla devam (Barbaros "kurulumla başla" deyince
+`uretim/KURULUM_ORTAK.md`).** G18 (Cengo temeli, 3. deneme) ve G6 (Eylül, kumaş ayarıyla 4. deneme) sahibince ONAYLI. Eylül'ün
+G42–G45'i aynı ayarla yeniden üretildi → `uretilen/`'de, DENETLENMEDİ (araç + göz + sahibine tek sayfa). Sıradaki: G34–G41 (Cengo
+ifadeleri), G47–G60 (konuklar), kareler G61–G85 — hepsi araçtan geçerek; parti sonunda tek sayfa sahibine. Kumaş dersi
+`ISTEM_KALIPLARI.md` §11'de.
+
 **13 Kasım 2026, 19:30 — DURAKLADI (sahibi: ChatGPT 5 saatlik kota %93).** Döngü çalışmıyor. Kaldığımız yer:
 - **Tarz aracı** `kaynak/arac_tarz.py` hazır, sınav GEÇTİ (kaymış 8/8, iyi 42/42), `dongu.sh`'a bağlı; kural `uretim/CLAUDE.md` → Denetim 0.
 - **Sahibince onaylı temeller:** G2 (Cengo ütülü kart), G86 (buruşuk kart, 3. deneme), G6 (Eylül, 3. deneme). Onaylı ifadeler: G42–G46

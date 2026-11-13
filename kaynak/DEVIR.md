@@ -12,6 +12,8 @@
 
 **Oğuz Bey (Barbaros, 13 Kasım akşam): Vaka 8'in metin üretimine devam edebilir.**
 
+**Yarın (14 Kasım):** resim üretimi Oğuz Bey'in bilgisayarında ve hesabıyla sürer; Barbaros "kurulumla başla" deyince önce kurulum, sonra üretim. Durum: `uretim/v6/DURUM.md` en üst.
+
 **Kurulum notu (yalnız Barbaros isteyince):** Barbaros Oğuz Bey'in bilgisayarının başına geçip "resim üretim programlarını
 kurdurt" dediğinde `uretim/KURULUM_ORTAK.md`'yi ona adım adım uygulat. Kurulumu yalnız Barbaros yapar; Oğuz Bey'in oturumlarında
 bu konuyu açma (Barbaros, 13 Kasım).
