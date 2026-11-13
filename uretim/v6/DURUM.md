@@ -1,5 +1,19 @@
 # Vaka 6 — üretim durumu
 
+**13 Kasım 2026, 19:30 — DURAKLADI (sahibi: ChatGPT 5 saatlik kota %93).** Döngü çalışmıyor. Kaldığımız yer:
+- **Tarz aracı** `kaynak/arac_tarz.py` hazır, sınav GEÇTİ (kaymış 8/8, iyi 42/42), `dongu.sh`'a bağlı; kural `uretim/CLAUDE.md` → Denetim 0.
+- **Sahibince onaylı temeller:** G2 (Cengo ütülü kart), G86 (buruşuk kart, 3. deneme), G6 (Eylül, 3. deneme). Onaylı ifadeler: G42–G46
+  (Eylül ×4, Haldun dertli) + öncekiler. `onayli/`'de toplam 38.
+- **Bekleyen:** `uretilen/G18.png` (Cengo temeli, 3. deneme: saç koyu, gömlek pürüzsüz). Araç ŞÜPHELİ (+0,004) — bilinen sınır: düz,
+  pürüzsüz açık gömlek gövde puanını düşürüyor; gözle çapaya (v3 G4) çok yakın. **Sahibinin kararı bekleniyor.** G18 onaylanmadan
+  Cengo ifadeleri (G34–G41) ve Cengo'lu kareler başlamaz.
+- **Açık soru (sahibi):** Eylül'ün kot ceketinde köşeli fırça dokusu var (G6, G42–G45); kabul mü, yeniden mi?
+- **Ders:** "görünür fırça darbesi, dokulu boya" vurgusu düz kumaşta kırışık/kâğıt dokusu yapıyor (G18 1. deneme, G86 1. deneme).
+  Kural taslağı: doku yüz/saç/ışıkta, kumaş "pürüzsüz, yumuşak geçişli". `ISTEM_KALIPLARI.md`'ye henüz yazılmadı.
+- **Araç için not:** figürde tarz puanı gövdeden; düz geniş kumaşta yanlış ŞÜPHELİ verebilir → yüz+gövde birlikte düşünülmeli (sonraki iş).
+- Yeniden başlarken: `cd uretim && KOL=2 DONGU_LOG=<scratchpad> ./dongu.sh 6` (kilit/ içindeki eski G42, G44 kilitleri başlangıçta silinir).
+
+
 **13 Kasım 2026, ~17:20 — DÖNGÜ DURDU (sahibi: önce farkın sebebi). Teşhis:** (1) Cengo kartı G2 kendisi kaydı: iki kişi
 yan yana, yatay 3:2, küçük tam boy figür, "ölçü resmi" → katalog çizimi (kalın kontur, düz boya, soğuk ışık, yüz C1'den uzak). Peri
 kartı G1 tek kişi dikey, kaymadı. (2) G18 kartı 3. referans aldı; aynı kişi aynı kıyafette olduğu için tarzı karttan kopyaladı

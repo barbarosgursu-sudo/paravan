@@ -173,7 +173,7 @@ boyutta görünmeyen ret sebeplerinin hepsi büyütünce çıktı. Büyütme: `m
 12. **Satırlar:** istemin `## Satırlar` bölümündeki (yoksa `arac_satir_resim.js` çıktısındaki) HER satıra uyuyor mu —
     yüz, el, jest; dinleyen figür konuşan gibi görünmüyor mu. Elde nesne yalnız metnin getirdiği satırlarda mı (SR-D);
     bakış satırın söylediği yere mi (SR-I).
-13. **Kıyafet kartı:** kıyafet onaylı karttaki gibi mi — boy, kesim, açık/kapalı hâli (SR-B, SR-C).
+13. **Kıyafet kartı:** kıyafet onaylı karttaki gibi mi — boy, kesim, açık/kapalı hâli (SR-B, SR-C). **Kumaş yüzeyi de (13 Kasım 2026, sahibi G18'de buldu):** ütülü kıyafet pürüzsüz mü (her yerde küçük köşeli kırışık = buruşturulmuş kâğıt/folyo dokusu → ret), buruşuk kıyafet kumaş gibi yumuşak kıvrımlı mı. Gövdeyi büyütüp bak.
 14. **Kardeşler:** aynı kişinin onaylı ifadeleriyle yan yana; yüz ve poz onlardan açıkça ayrılıyor mu (SR-J).
 15. **Çekicilik (Peri ve Gizem; sahibi, 8 Kasım 2026):** yeni resim, o karakterin eski onaylı resimleriyle yan yana;
     çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan
