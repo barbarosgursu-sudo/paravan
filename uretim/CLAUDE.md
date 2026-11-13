@@ -132,7 +132,12 @@ Sahibi web'de temeli üretirken döngü temele bağlı OLMAYAN resimlerle sürer
 - 3. kez reddedilecek resim (son düzeltme notuyla),
 - iki kez güvenlik filtresine takılan resim (`## ENGELLENDİ`),
 - emin olamadığın resim (kuşkunu yaz).
-Döngü bitince sahibine TEK seferde ver: her resmin istemi ve referansları, sırayla ve tam yollarıyla. Sahibi web
+Döngü bitince sahibine TEK seferde ver: her resmin istemi ve referansları, sırayla ve tam yollarıyla.
+**Web paketinde zemin rengi resim olarak verilir (13 Kasım 2026, sahibi: "web'de üretilen resimler kolay kesilsin").**
+Figür ve kart paketlerine EN SONA o resmin zemininin düz renk örneği eklenir ve istemin zemin satırına şu cümle konur:
+"Arka plan rengi son referanstaki düz renk ile BİREBİR aynı (<HEX>); başka ton, geçiş ya da gölge yok." Örnekler
+(`uretim/referanslar/`, renkler V6 onaylı resimlerinden ölçüldü): `zemin_gri_mavi.png` #778393 · `zemin_acik_bej.png`
+#F0E8D9 · `zemin_acik_gri.png` #D4D4D4 (kıyafet kartı). Paket dosyası `v<N>/WEB_G<n>.md`; yollar Windows biçiminde tam yol. Sahibi web
 ChatGPT'de üretip `uretilen/G<n>.png` olarak koyar; sen denetlersin. Sahibi onaylı bir resimde hata bulursa onay
 geri alınır, ret gibi işlenir; söylediği hata buraya kural olarak yazılır.
 
