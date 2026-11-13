@@ -171,6 +171,8 @@ değişmeli. K1 (isim sızıntısı) ikisini de tarar.
   bilerek böyle bıraktı, Barbaros kabul etti (12 Kasım 2026). Kabul edilmiş uyarı.
 - **K8:** `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem
   `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende de geçiyor.
+- **K17 (V6):** giriş 56 satır (45'i geçiyor); Eylül'ün kıskançlığı ve Gizem girişi uzattı. Ortak bilerek böyle
+  bıraktı, Barbaros kabul etti (13 Kasım 2026). Kabul edilmiş uyarı.
 - K9 uyarısı kalktı: tohum yok (şablon, 8 Ekim 2026).
 
 ## Vaka 2 ile gelenler (10 Ekim 2026)

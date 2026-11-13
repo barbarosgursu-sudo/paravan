@@ -31,9 +31,9 @@ ortakta; adım 7 kapandı. Plana göre (aşağıda "YENİ PLAN") Vaka 6 **resims
    Cengo cumartesileri bankta kızını izler; bileklik Eylül'ün yedi yaşındaki işi; Eylül Peri'yi kıskanır, Gizem'le anlaşır
    (`3_kanon_kaydi.md`). `YENI_OYUN_SEZON.md`'deki "on yedi" güncellensin mi? → *Cevap (13 Kas):* evet — iki satırda 17 → 16 yapıldı.
 3. **V6 K17 uyarısı** (giriş 56 replik; Eylül'ün kıskançlığı ve Gizem girişi uzattı): kabul edilmiş uyarı sayılsın mı?
-   → *Cevap:*
+   → *Cevap (13 Kas):* kabul; `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı.
 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 6'nın yolları** eklensin mi:
-   `Vaka 6: [sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]`? → *Cevap:*
+   `Vaka 6: [sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]`? → *Cevap (13 Kas):* eklensin — eklendi.
 5. **`test_yeni_v1.js`:** "tanımsız kare" örneği `K99` → `K999` yapıldı (V6 ile K99 gerçek kare oldu). Uygun mu? → *Cevap (13 Kas):* uygun.
 6. **Sıradaki:** plana göre Vaka 7 (taç müzayedede). Ortak mı yazacak? → *Cevap (13 Kas):* evet, Vaka 7'yi Oğuz Bey yazacak.
 
