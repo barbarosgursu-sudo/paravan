@@ -1,4 +1,4 @@
-# Vaka 6 — resim listesi (YARIM: Parti 1 = temeller)
+# Vaka 6 — resim listesi (TAM: Parti 1–3, 85 numara)
 
 13 Kasım 2026. Bu liste henüz TAM DEĞİL. Parti 1 yalnız hiçbir onaya bağlı olmayan **temeller**: Peri ve Cengo'nun kıyafet
 kartları, yeni yetişkin konukların temel figürleri (her biri iki zeminle, H4) ve mekânlar. Sahibi bunları gündüz onaylar;
@@ -26,7 +26,7 @@ bej · Haldun, Dilek açık bej / gri-mavi. Kartlar açık gri (kesilmez).
 | G3 / G3z | figür | Müzeyyen Hanım, normal (temel) | `muzeyyen.normal` | üretilecek (eski red1) |
 | G4 / G4z | figür | Jale Hanım, normal (temel) | `jale.normal` | G4 üretildi (denetlenmedi), G4z üretilecek |
 | G5 / G5z | figür | Haldun Bey, normal (temel) | `haldun.normal` | üretilecek (eski red1: mendil) |
-| G6 | figür | Eylül, normal (temel) — istemi Parti 3'te (16 yaş, kural 16) | `eylul.normal` | yazılmadı |
+| G6 / G6z | figür | Eylül, normal (temel; kural 16) — açık bej / gri-mavi | `eylul.normal` | Parti 3 |
 | G7 / G7z | figür | Recep Efendi (kapıcı), normal | `recep.normal` | üretilecek (eski red1) |
 | G8 / G8z | figür | Dilek (kalfa), normal | `dilek.normal` | üretilecek (eski red1) |
 | G9 / G9z | figür | Tahsin Usta, normal | `tahsin.normal` | üretilecek (eski red1) |
@@ -50,3 +50,44 @@ Parti 3'e eklenen **11 yeni resim**: `muzeyyen.tepsi`, `muzeyyen.tepsi_uzgun`, `
 hırkasına koyuyor), `K114` (Jale ıslak eteğe bakıyor). Gizem'in `triko`/`triko_isveli`'si V4'ten hazır, V6'da artık kullanılmıyor; `muzeyyen.uzgun` da hiçbir satırda kalmadı, listeden çıktı (yerine `tepsi_uzgun`). Oyunda ~80 resim.
 Değişen tarif: `D18` (Eylül zarfları masaya koyuyor), `K110`, `K112` (Cengo yaprağı alıp cebine koyar, 3 satır). Recep'in temeli (G7)
 artık eli boş; süpürge `recep.supurge`'de. Salonda (G14) ikinci tepsi yok. "Kanıtınız ne?" → `muzeyyen.gergin`. Güncel liste: `satir_resim.md`.
+
+## Parti 3 (13 Kasım 2026 akşam; istemler yazıldı, `istem_kontrol.sh` çıkış 0)
+
+Tam tablo (tür, anahtar, referans): `sablon/vakalar/vaka6_gorsel.md`. Sahibi "başla" dedi; dört soruda önerilen yol uygulandı:
+1. **Tül şallı Peri, güllü Peri, duvaklı Cengo için ayrı kart YOK** — G1/G2 kartı + istemde hâl (SR-B).
+2. **Eylül'ün kartı G26**, G6 onaylanınca (K97, K107, K109'da görünüyor).
+3. **`peri.gullu.sinirli/kas` üretilmedi** — hiçbir satırda görünmüyor (kareler örtüyor; `satir_resim.md`). `cengo.buruk.yumusak`
+   da satırda yok, üretilmedi. İkisi `gorseller.json → yer_tutucu`'da kalır (ekrana çıkmaz). Sahibi isterse eklenir.
+4. **Sıra:** temeller (G6, G22–G23) → ifadeler → kareler; referansı hazır olmayan döngüde bekler.
+
+**Bulgu:** Gizem'in V4 `triko` kıyafeti hiç çizilmemiş (V4–V5 resimsiz). Bu yüzden G22 (kart) + G23/G23z (temel = `triko_telefon`),
+G24–G25 ondan. V4'e de geçer.
+
+| # | ne | anahtar | bekler |
+|---|---|---|---|
+| G6 / G6z | Eylül temel (iki zemin) | `eylul.normal` | — |
+| G22 | Gizem triko kıyafet kartı | — | — |
+| G23 / G23z | Gizem triko, telefonla (temel, iki zemin) | `gizem.triko_telefon` | G22 |
+| G24, G25 | Gizem tepsi; tepsi + telefon | `gizem.triko_tepsi`, `…_tepsi_telefon` | G23 |
+| G26 | Eylül kıyafet kartı | — | G6 |
+| G27–G30 | Peri mesai: kas, merakli, sasirmis, utanmis | `peri.mesai.*` | — (baş kırpığı `referanslar/peri_mesai_bas.png` hazır) |
+| G31–G33 | Peri tül: normal, kas, yumusak | `peri.tul.*` | — |
+| G34–G38 | Cengo ütülü: kas, gulen, yumusak, sinirli, borek | `cengo.utulu.*` | — |
+| G39–G40 | Cengo duvaklı: kas, yumusak | `cengo.duvakli.*` | — |
+| G41 | Cengo buruşuk: normal | `cengo.buruk.normal` | — |
+| G42–G45 | Eylül: sevincli, kiskanc, gulen, uzgun | `eylul.*` | G6 |
+| G46–G47 | Haldun: dertli, yumusak | `haldun.*` | — |
+| G48–G51 | Müzeyyen: tepsi, tepsi_uzgun, gergin, itiraf | `muzeyyen.*` | — |
+| G52–G56 | Jale: soguk, kacamak, ofkeli, makbuz, uzaniyor | `jale.*` | — |
+| G57–G60 | Recep gulen, supurge · Dilek heyecanli · Tahsin gulen | | — |
+| G61–G64 | detay D18–D21 | | G61: G26 |
+| G65–G75 | K96–K105 (K99j dahil) | | K97: G26 |
+| G76–G79 | karar kareleri K106–K109 (SR-K: SONUÇ'un anı) | | K107, K109: G26 |
+| G80–G84 | K110–K114 | | K110, K112: G23 |
+| G85 | kart afişi | `KART_V6` | `referanslar/serit_kart_v6.jpg` (G6 onaylanınca) |
+
+**Kıyafet hâli tablosu (SR-B):** giriş, ipuçları, yüzleşme → Peri `mesai`, Cengo `utulu` · kovalamaca (K100–K104, K113) → Peri
+ıslak-güllü mesai, Cengo duvaklı · K105'ten sonra (bank, itiraf, K114) → Peri `tul`, Cengo duvaklı · karar kareleri (karar günü) →
+Peri `mesai` (kuru), Cengo `utulu` · kapanış (K110–K112) → Peri `tul`, Cengo `buruk`, Gizem `triko`.
+
+**Zemin notu:** G23z ya da G6z seçilirse o karakterin varyant istemlerinde (G24–G25 / G42–G45) zemin satırı üretimden önce düzeltilir.
