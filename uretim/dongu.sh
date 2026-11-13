@@ -65,6 +65,13 @@ kol() {
     else sonuc=uretilemedi; fi
     printf 'G%s\t%s\t%s\t%s\t%s\t%s\n' "$n" "$k" "$(date -d @$b +%H:%M:%S)" "$(date -d @$e +%H:%M:%S)" "$((e-b))" "$sonuc" >> "$LOG/zaman.tsv"
     echo "kol$k: G$n $sonuc $(date +%H:%M) ($((e-b)) sn)"
+    # Yazılımla tarz denetimi (13 Kasım 2026, sahibi): her yeni resim gözden önce arac_tarz.py'den geçer; sonuç kayda düşer.
+    # KALDI/ŞÜPHELİ resim onaylanmaz (uretim/CLAUDE.md → Denetim 0). Döngü resmi taşımaz; kararı denetleyen verir.
+    if [ "$sonuc" = uretildi ]; then
+      tz=$(cd ../../kaynak && python arac_tarz.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
+      echo "kol$k: G$n TARZ: ${tz:-araç çalışmadı}"
+      printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${tz:-araç çalışmadı}" >> "$LOG/tarz.tsv"
+    fi
     rmdir "kilit/G$n"
     [ "$sonuc" = SINIR ] && { echo "kol$k: kota/hız sınırı, $BEKLE sn bekliyor (log: $LOG/codex_G$n.log)"; sleep "$BEKLE"; }
   done

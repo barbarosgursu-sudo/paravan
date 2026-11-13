@@ -158,6 +158,7 @@ istendiği için kayma bütün Cengo setine geçti. Peri'nin kartı (tek kişi, 
   cümlesinin TAMAMI ("Karikatür değil…" dahil). Çekicilik satırı yine yok (§9).
 - **Kartı referans alan her istemde:** "Kart YALNIZ kıyafetin kesimi, boyu ve rengi içindir; kartın çizim tarzını, ışığını, yüzünü
   ve pozunu ALMA." Tarz ve yüz birinci referanstan (boyalı onaylı resim).
+- **Yazılımla denetim:** `kaynak/arac_tarz.py` (CLIP tarz puanı, LoRA ve Vaka 1–3 çapası) her resimde gözden önce; kural `uretim/CLAUDE.md` → Denetim 0.
 - **Denetimde tarz maddesi:** her yeni temel ve kart, aynı karakterin eski onaylı resmiyle ve eski konuklarla yan yana; kontur
   kalınlığı, boya dokusu, ışığın sıcaklığı ve yüz eskilerden ayrılıyorsa reddedilir (A.7). Kart da bu denetime girer.
 

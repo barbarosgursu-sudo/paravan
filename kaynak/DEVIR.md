@@ -8,6 +8,18 @@
 
 ---
 
+## 0000000000000000000000000000000. ⬅️ 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+
+**Oğuz Bey (Barbaros, 13 Kasım akşam): Vaka 8'in metin üretimine devam edebilir.**
+
+**Kurulum notu (yalnız Barbaros isteyince):** Barbaros Oğuz Bey'in bilgisayarının başına geçip "resim üretim programlarını
+kurdurt" dediğinde `uretim/KURULUM_ORTAK.md`'yi ona adım adım uygulat. Kurulumu yalnız Barbaros yapar; Oğuz Bey'in oturumlarında
+bu konuyu açma (Barbaros, 13 Kasım).
+
+**Vaka 6 resimleri:** tarz kayması bulundu (Cengo kartı → bütün Cengo seti; teşhis `uretim/v6/DURUM.md`). Kural `ISTEM_KALIPLARI.md`
+§11. Yeni temeller G2, G86, G6 Barbaros'un onayını bekliyor. Her resmi yazılımla tarz denetiminden geçirecek araç
+(`kaynak/arac_tarz.py`, PyTorch) yazılıyor; araç sınavı geçmeden döngü yeniden başlamaz.
+
 ## 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 **Barbaros'un kararı (13 Kasım):** Vaka 6'nın resimlerine geçildi (dünkü "V6–8 resimsiz" planının istisnası) ve aynı iş

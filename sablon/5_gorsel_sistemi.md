@@ -391,6 +391,7 @@ PNG, adı `G<n>.png`. Onaylı resim silinmez.
   yeniden tarif edilmez (sözlü tarif üreticiye her seferinde farklı okunur); yalnız "kart nasılsa öyle" ve o satırın hâli
   (açık/kapalı, lekeli) yazılır.
 - Kart değişirse o kıyafetin bütün figürleri listelenir ve sahibine sorulur.
+- **Tarz denetimi yazılımla (13 Kasım 2026):** her resim gözden önce `kaynak/arac_tarz.py`'den geçer; KALDI/ŞÜPHELİ onaylanmaz (`uretim/CLAUDE.md` → Denetim 0).
 - **Kart tarz taşımaz (13 Kasım 2026):** kart tek kişi ve dikeydir; kartı referans alan istem "kartın çizim tarzını alma" der, tarz ve yüz boyalı onaylı resimden gelir (`uretim/ISTEM_KALIPLARI.md` §11; V6'da Cengo kartı katalog çizimine kaydı, bütün set ondan kaydı).
 - Vaka 3 kaydı: Peri'nin trençkotu **uzun, diz altına iner** (sahibinin seçtiği ölçü: un deposu karesi, 8 Kasım 2026).
 

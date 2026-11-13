@@ -143,6 +143,17 @@ geri alınır, ret gibi işlenir; söylediği hata buraya kural olarak yazılır
 
 ## Denetim (her resim)
 
+**0. Yazılımla tarz denetimi — HER resimde, gözden ÖNCE (13 Kasım 2026, sahibi: "benim gözle görüp onaylamamdan önce bu işin
+yazılımsal olarak yapılması gerekiyor; yoksa gene aynı durumla tekrar üretmek zorunda kalırız").** `cd kaynak && python
+arac_tarz.py --uretim v<N> G<n>` (döngü her üretimden sonra kendisi koşar, sonuç `$DONGU_LOG/tarz.tsv` ve kol çıktısında).
+- **KALDI** (tarz puanı < 0) → ret; `## Düzeltme`: tarz (boyalı, sıcak ışık, dokulu; kalın kontur/düz boya yok).
+- **ŞÜPHELİ** (0–0,02) → onaylanmaz; aynı düzeltmeyle yeniden üretilir. İki kez ŞÜPHELİ kalırsa sahibine sorulur (görüntüyle).
+- **GEÇTİ** → aşağıdaki A ve B denetimi. Kayda `G<n> tarz GEÇTİ (+0,0xx)` yazılır; bu satırı olmayan resim onaylı sayılmaz.
+- Sahibine yalnız GEÇTİ olanlar gider. Çapa: Peri/Cengo LoRA resimleri (`uretim/referanslar/tarz_capa/`), konuk Gizem, Müjgan,
+  Defne, Tolga, Kenan, Ferruh; mekân Vaka 1–3'ün bütün arka planları; kare Vaka 1–3'ün kareleri (sahibinin seçimi).
+- **Kör nokta:** hafif "soluk / fazla gerçekçi" kayma (eski Eylül G6) puana yansımayabilir → A.7 gözle tarz maddesi kalır.
+- Araç değişirse önce `python arac_tarz.py --sinav` → "SINAV GEÇTİ" (kaymış 8 resim yakalanır, 42 iyi resim geçer).
+
 `prompts/G<n>.md`'yi, resmi ve referanslarını aç. Önce bütün olarak bak, sonra şüpheli bölgeleri 2–4 kat büyüt
 (eller, ayaklar ve ayakkabı, tişört ve göğüs, cihaz ekranı ve tuşları, tabelalar, kadraj kenarları). Vaka 3'te küçük
 boyutta görünmeyen ret sebeplerinin hepsi büyütünce çıktı. Büyütme: `magick <resim> -crop WxH+X+Y -resize 300% <çıktı>`.
