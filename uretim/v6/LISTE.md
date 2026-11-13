@@ -91,3 +91,10 @@ G24–G25 ondan. V4'e de geçer.
 Peri `mesai` (kuru), Cengo `utulu` · kapanış (K110–K112) → Peri `tul`, Cengo `buruk`, Gizem `triko`.
 
 **Zemin notu:** G23z ya da G6z seçilirse o karakterin varyant istemlerinde (G24–G25 / G42–G45) zemin satırı üretimden önce düzeltilir.
+
+## §11 yeniden üretim (13 Kasım 2026 akşam, sahibinin kararı: "farklı stil olan her şey yeniden üretilecek")
+
+Teşhis `DURUM.md`'de. Kart tarz taşıdı: eski G2 (iki hâl yan yana) → G18 → G34–G39. **G2 = ütülü kart (tek kişi, dikey), G86 = buruşuk
+kart (yeni numara)**; G18 yeni kartla ve v3 G4'ün yüz/tarzıyla; G34–G41 yeni temelden; G41 ve K110–K112 G86'yı alır. Eylül G6 tarz için
+yeniden (ikinci tarz örneği Dilek G8). Eski resimler `red/*_stil.png`, eski istemler `prompts_eski/`. **Sahibi temelleri (G2, G86, G18,
+G6) görüp onaylamadan onlara bağlı resim üretilmez.**

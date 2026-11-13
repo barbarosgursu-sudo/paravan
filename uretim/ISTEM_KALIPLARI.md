@@ -148,6 +148,19 @@ Satır–resim sözleşmesi (`sablon/5_gorsel_sistemi.md` C0) istemde şöyle g�
 - **Ayırt edici:** yeni ifadede "Bu ifadeyi <kardeş ifade>'den ayıran: …" satırı (yüz rengi, ağız, eller). (SR-J)
 - **Kare:** tek an; "aynı anda" iki ardışık eylem yazılmaz (uzatıyor + bölüyor). Karar karesi SONUÇ metninin anı. (SR-D, SR-K)
 
+## 11. Kart tarzı taşımaz; tarz her zaman boyalı onaylı resimden (13 Kasım 2026, sahibi: "farklı stil olan her şey yeniden üretilecek")
+
+V6'da Cengo'nun kartı G2 (iki kişi yan yana, yatay 3:2, küçük tam boy, "ölçü resmi") katalog çizimine kaydı: kalın kontur, düz
+boya, soğuk stüdyo ışığı, başka bir yüz. G18 (temel) kartı referans alınca tarzı da karttan kopyaladı; ifadeler G18'in "aynısı"
+istendiği için kayma bütün Cengo setine geçti. Peri'nin kartı (tek kişi, dikey) kaymadı. Kurallar:
+- **Kart tek kişi, dikey 2:3.** İki hâl iki ayrı kart (yan yana iki figür yok).
+- **Kartta da tarz:** yüz/tarz referansı olarak karakterin BOYALI onaylı resmi (Cengo: `v3/onayli/G4.png`) + tarz örneği + §3
+  cümlesinin TAMAMI ("Karikatür değil…" dahil). Çekicilik satırı yine yok (§9).
+- **Kartı referans alan her istemde:** "Kart YALNIZ kıyafetin kesimi, boyu ve rengi içindir; kartın çizim tarzını, ışığını, yüzünü
+  ve pozunu ALMA." Tarz ve yüz birinci referanstan (boyalı onaylı resim).
+- **Denetimde tarz maddesi:** her yeni temel ve kart, aynı karakterin eski onaylı resmiyle ve eski konuklarla yan yana; kontur
+  kalınlığı, boya dokusu, ışığın sıcaklığı ve yüz eskilerden ayrılıyorsa reddedilir (A.7). Kart da bu denetime girer.
+
 ---
 
 ## Neden (Vaka 3, 6 Kasım 2026)

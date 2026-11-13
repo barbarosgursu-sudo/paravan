@@ -1,5 +1,14 @@
 # Vaka 6 — üretim durumu
 
+**13 Kasım 2026, ~17:20 — DÖNGÜ DURDU (sahibi: önce farkın sebebi). Teşhis:** (1) Cengo kartı G2 kendisi kaydı: iki kişi
+yan yana, yatay 3:2, küçük tam boy figür, "ölçü resmi" → katalog çizimi (kalın kontur, düz boya, soğuk ışık, yüz C1'den uzak). Peri
+kartı G1 tek kişi dikey, kaymadı. (2) G18 kartı 3. referans aldı; aynı kişi aynı kıyafette olduğu için tarzı karttan kopyaladı
+(V3 G4 kartsızdı, boyalı). (3) Varyantlar G18'in "AYNISI" → G34–G39 hepsi kaymış. (4) Eylül G6: istem Müzeyyen'le aynı, sonuç daha
+gerçekçi/soluk; kesin sebep yok. (5) Model değişikliği ayırt edilemiyor (PNG metaverisi iki dönemde de yalnız "gpt-image");
+konuk yüzleri, Peri, Gizem, mekânlar eski tarzda → genel kayma yok. Karşılaştırma sayfaları scratchpad'de.
+
+**13 Kasım 2026, 17:00 — PARTİ 3 SÜRÜYOR; STİL SORUSU SAHİBİNDE.** Sahibi "eskilerden farklı" dedi; karşılaştırıldı: Cengo (G18 ve ondan çizilenler G34, G35, G37) kalın kontur, düz boya, soğuk ışık, farklı yüz; eski Cengo sıcak, boyalı. Eylül G6 daha gerçekçi ve soluk. Peri ve Gizem eskilere yakın. Cengo'ya ya da Eylül'e bağlı 26 istem `prompts_bekle/`'ye alındı (döngü görmez); karar gelince geri taşınır. Döngü konuk ifadeleri ve Cengo'suz karelerle sürüyor.
+
 **13 Kasım 2026, 14:49 — PARTİ 1 BİTTİ; SAHİBİ ONAYLADI (14:52, "Onaylıyorum").** 14:21–14:47 (2 kol). `onayli/`'de 16 resim
 (G1, G2 kart; G3, G4, G5, G7, G8, G9 temel; G10–G16 mekân). Onay sayfası: `yanyana/parti1_onay.jpg` (eski konuklar ve
 V1–V5'in bütün mekânları altında, karşılaştırma için). Codex çalışması: 24 (+ sabahki G4) → 16 onay + 6 zemin denemesi

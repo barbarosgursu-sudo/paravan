@@ -154,7 +154,7 @@ boyutta görünmeyen ret sebeplerinin hepsi büyütünce çıktı. Büyütme: `m
 4. İki kol, iki el, beşer parmak. Kalabalık sahnede kolları kişi kişi say.
 5. İstemde olmayan nesne, yazı, harf, rakam, logo, filigran yok.
 6. Kadraj ve oran istemdeki gibi; zemin düz ve H4'teki renk.
-7. Tarz öbür onaylılarla aynı (yarı gerçekçi boyalı; anime, 3B, fotoğraf değil).
+7. Tarz öbür onaylılarla aynı (yarı gerçekçi boyalı; anime, 3B, fotoğraf değil). **Temel ve kartta zorunlu:** aynı karakterin eski onaylı resmi ve eski konuklarla yan yana bak; kontur kalınlığı, boya dokusu, ışık sıcaklığı, yüz (§11).
 8. Çıplaklık yok; kumaşın altından meme ucu belirmiyor (büyüt).
 9. Fiziksel olabilirlik: oturan/dayanan figür mobilyanın içinden ya da arkasından geçmiyor; dirsek gerçekten masada.
 10. Sayım: "TAM n kişi" tutuyor; aynı karakter iki kez yok.
@@ -230,5 +230,6 @@ fazla boşluğu kırp). Şeritte dekolte olmamalı.
 | İki yan karakter birbirine benziyor | "X'e benzemiyor" + ayırıcı özellik (ince bıyık / gür pala bıyık) |
 | Yeni karakter eski birine benziyor | başı silinmiş tarz gövdesi; yüzü ayırt edici çizgilerle tarif et |
 | Boy, bakış, kesim, saç | H. Görsel standart + `arac_yanyana.js` |
+| Kart katalog çizimine kayıyor, figür tarzı karttan alıyor (V6 G2 → G18 → bütün Cengo seti; 13 Kasım, sahibi fark etti) | `ISTEM_KALIPLARI.md` §11: kart tek kişi dikey + boyalı yüz referansı + tam §3 cümlesi; kartı alan istemde "kartın çizim tarzını alma"; denetimde temel/kart eski onaylılarla yan yana (tarz) |
 | Çizgi roman / karikatür tarzı, kalın kontur (v3 ilk G1, G4; 6 Kasım, sahibi fark etti) | Eski düzen gibi: Peri, Cengo ve bütün ifade/varyant istemlerinde tarz paragrafı YOK (boyalı referanslar taşır). Yeni karakterde tarz paragrafı + sonda `tarz_ornek_kadin/erkek.jpg` + "Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur… Karikatür değil" cümlesi. Yeni istem yazarken önce `v3_eski/prompts/` ile karşılaştır |
 | Dağınık saç telleri zemine taşıyor → kesimden sonra teller arasında zemin halesi kalıyor (v3 G1, G4) | istemde "saçın dış çizgisi toplu; zemine taşan ince tel yok" (eşarplıysa "saçın tamamı eşarbın içinde"). Hale tek başına RET SEBEBİ DEĞİL: gömmede yalnız baş kutusunda temizlenir (`5_gorsel_sistemi.md` → F "Hale temizliği yöntemi"; Vaka 1–2'de böyle yapıldı). **Peri ve Cengo istisna (sahibi, 6 Kasım):** saçları eskisi gibi dağınık kalır; onlara bu satır yazılmaz, hale gömmede temizlenir |
