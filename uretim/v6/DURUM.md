@@ -59,6 +59,13 @@ arada olursa not düşülür (fark o zaman iki parçadan toplanır).
 | an | saat | ChatGPT 5 sa (kalan) | ChatGPT haftalık (kalan) | Claude oturum (kullanılan) | Claude haftalık (kullanılan) | not |
 |---|---|---|---|---|---|---|
 | Parti 1 öncesi (başlangıç) | 13 Kas 14:18 | %92 (sıfırlanma ~17:09) | %99 (6 gün 21 sa) | %52 (sıfırlanma 16:00) | %7 (sıfırlanma Cuma 11:00) | ChatGPT Plus, Claude Pro. ChatGPT'deki %8 sabahki 7 deneme resminden; Claude'daki %52 bu oturumun bayrak/kural işi |
+| Parti 1 sonrası | 13 Kas 14:51 | %68 (sıfırlanma ~17:09) | %95 | %78 (sıfırlanma 16:00) | %11 | sıfırlanma arada olmadı |
+| **Parti 1 farkı** | 14:18–14:51 | **%24** | **%4** | **%26** | **%4** | 24 Codex çalışması (16 onay + 6 zemin denemesi + 4 boşa) |
+
+**Okuma (Parti 1):** ChatGPT 5 saatlik kotada Codex çalışması başına ~%1,0 (sabahki ölçüm ~%1,2 ile uyumlu); haftalıkta 24 resim
+%4 → haftada ~600 resim sığar. Onaylı resim başına ~%1,5 (boşa ve zemin denemeleriyle). Claude: denetim + kural işi oturumun
+%26'sı, haftanın %4'ü (bu sürede bayrak sonrası kural yazımı da var; saf denetim daha az). Vaka 6'nın ~92 resmi için tahmin:
+ChatGPT 5 saatlikte ~1,5 dolum (gece ikinci dolumda döngü bekler), haftalıkta ~%15.
 
 ## Geçmiş
 
