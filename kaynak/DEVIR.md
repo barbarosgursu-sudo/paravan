@@ -35,11 +35,12 @@ denetle → temelleri Barbaros'a onaya.
 
 **Barbaros'a açık sorular (üretimi bekletmiyor):**
 1. Konuk kıyafet kartı altı konuğa mı, yalnız karede görünenlere mi (Müzeyyen, Jale, Dilek)? — Parti 2'den önce.
+   → *Cevap (13 Kas):* **yalnız üçüne** (kota); sonradan kareye giren olursa kartı o zaman. İki zemin kuralı olduğu gibi kalır
+   ("şimdilik kurallar neyse o"). `uretim/v6/LISTE.md`'ye yazıldı.
 2. `uretim/v6/satir_resim.md`'deki 29 bayrak ve Müzeyyen'in iki satırı (börek tepsisi pozu; "Kanıtınız ne?" güler yüzle) —
    Parti 3'ten (ifadeler, kareler) önce.
 
-**Bu bilgisayarda yerel not:** `git stash` içinde "eski yerel Vaka 5 değişiklikleri" duruyor (13 Kas; GitHub'daki Vaka 5
-daha yeni olduğu için kenara alındı). Gerekmiyorsa Barbaros'a sorup `git stash drop`.
+**Bu bilgisayarda yerel not:** "eski yerel Vaka 5 değişiklikleri" stash'i Barbaros'un isteğiyle silindi (13 Kas).
 
 ## 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 

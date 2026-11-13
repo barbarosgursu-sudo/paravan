@@ -7,8 +7,9 @@ kararlar, Eylül, Gizem'in yeni ifadesi, kart afişi) yazılır. Numaralar SABİ
 yazılınca `sablon/vakalar/vaka6_gorsel.md`'ye aynı numaralarla geçer.
 
 **Sıra (sahibiyle konuşuldu, 13 Kasım 2026):** Peri/Cengo'da kart → temel figür (yüz sabit, kıyafet yeni). Konukta temel figür
-→ kart (yüzü temel belirler; kart belden aşağısını tamamlar; Vaka 3'te böyle onaylandı). Açık karar: konuk kartı altı
-konuğa mı, yalnız karede görünenlere mi (Müzeyyen, Jale, Dilek) — Parti 2'den önce sahibine sorulacak.
+→ kart (yüzü temel belirler; kart belden aşağısını tamamlar; Vaka 3'te böyle onaylandı). **Konuk kartı yalnız
+karede görünenlere: Müzeyyen, Jale, Dilek** (Barbaros, 13 Kasım 2026; kota). Haldun, Recep, Tahsin yalnız figürde (uyluktan
+kesik) görünür, kartları boşa olur; biri sonradan kareye girerse kartı o zaman üretilir.
 
 **Zeminler (H4):** asıl / aday (`G<n>z`). Müzeyyen (kül sarısı), Jale (kızıl), Recep (kır), Tahsin (beyaz) gri-mavi / açık
 bej · Haldun, Dilek açık bej / gri-mavi. Kartlar açık gri (kesilmez).
