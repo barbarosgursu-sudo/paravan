@@ -284,7 +284,7 @@ rüzgârda saçı dağılmış. Cengo — **balıkçı yaka kazak**, kasket.
 | | öneri |
 |---|---|
 | **a** | Cengo bir zamanlar umut vadeden bir **futbolcuydu**; bir sakatlık değil, bir arkadaşını korumak için verdiği bir karar kariyerini bitirdi. Müşteri o arkadaş. |
-| **b** | Cengo'nun **bir kızı** var; annesiyle anlaşarak uzaktan bakıyor. Kızı on yedi yaşında, babasını büyük bir dedektif sanıyor ve yardım istemeye geliyor. |
+| **b** | Cengo'nun **bir kızı** var; annesiyle anlaşarak uzaktan bakıyor. Kızı on altı yaşında *(13 Kasım 2026: 17 → 16, Vaka 6 kanonu)*, babasını büyük bir dedektif sanıyor ve yardım istemeye geliyor. |
 | **c** | Cengo bir **pavyon şarkıcısıydı**; sahne adı hâlâ semtte efsane. Müşteri, o sahne adını kullanan bir taklitçiyi bulmak istiyor. |
 
 **Komedi motoru:** Peri'nin Cengo'yu ilk kez "başkasının gözünden" görmesi. Cengo'nun
@@ -374,7 +374,7 @@ Eski oyun 63 görseldi. Düşürmenin iki yolu (sahibinin kararı):
 | konu | karar |
 |---|---|
 | **Vakalar** | **Sekizi de kalıyor.** Yazarken değişebilir. |
-| **Cengo'nun sırrı (V6)** | **b — uzaktaki kızı.** On yedi yaşında bir kızı var; annesiyle anlaşarak uzaktan bakıyor. Kızı onu büyük bir dedektif sanıyor ve yardım istemeye geliyor. |
+| **Cengo'nun sırrı (V6)** | **b — uzaktaki kızı.** On altı yaşında bir kızı var *(13 Kasım 2026: 17 → 16)*; annesiyle anlaşarak uzaktan bakıyor. Kızı onu büyük bir dedektif sanıyor ve yardım istemeye geliyor. |
 | **Para hedefi (V7)** | **Güzellik kraliçesi tacı.** Haczedilip satılmış; müzayedede karşısına çıkar. |
 | **Yan karakter (V3)** | **Pastanenin genç kadın çalışanı** — çırak/garson ayrımı V3 yazılırken. **Yetişkin: yirmili yaşlarının ortası** (her görsel ve metinde açıkça belirtilir). Güzel, alımlı; kıyafetlerinde zaman zaman dekolte olabilir. Adı ve kişiliği V3 ile birlikte yazılır. |
 | **Görsel sayısı** | **~96 kalıyor.** Her vakada ikisi de yeni kıyafet, dörder ifade. |
