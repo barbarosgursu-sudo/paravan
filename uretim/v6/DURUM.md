@@ -6,6 +6,8 @@ V1–V5'in bütün mekânları altında, karşılaştırma için). Codex çalı�
 (gerekli) + 4 boşa (G3z, G4z ikinci kez — `dongu.sh` düzeltildi; G2 ret: bileklik yanlış bilekte; G11 ret: eski sokak
 kalıbı + saat). Ret notları istemlerin sonunda (`## Düzeltme`).
 
+**Parti 3 zemin seçimleri:** Eylül **açık bej** (G6; G6z gri-mavide saçta mavi iz) · Gizem triko **açık bej** (G23z seçildi → `onayli/G23.png`; gri-mavide saç kenarında mavi bant; krem kazak bejde delinmedi). G24–G25 istemleri açık beje çevrildi.
+
 **Zemin seçimleri (H4; bu karakterin BÜTÜN ifadeleri bu zeminle):** Müzeyyen gri-mavi (G3), Jale gri-mavi (G4), Haldun
 açık bej (G5; gri-mavide gözlük camı mavi kalıyor), Recep **açık bej** (G7z seçildi → `onayli/G7.png`; gri-mavide saçta
 iz), Dilek açık bej (G8; G8z'nin mezurasında rakam), Tahsin **açık bej** (G9z seçildi → `onayli/G9.png`; beyaz saçta mavi
