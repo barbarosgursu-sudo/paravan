@@ -1,6 +1,6 @@
 # VAKA 6 FORMU — İSİMSİZ MEKTUPLAR
 
-Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 12 Kasım 2026, ortak)** — iki düzeltmeyle: Cengo baba olduğunda reşitti (Eylül 16'ya
+Şablon 6'ya göre. Durum: **HİKÂYE DONDU (Onay 2, 13 Kasım 2026, ortak)**; Onay 1 (12 Kasım 2026) — iki düzeltmeyle: Cengo baba olduğunda reşitti (Eylül 16'ya
 indi), Gamze ile evlenmişlerdi. Ortağın eki: Eylül Peri'yi kıskanır; Gizem'in rolü büyür, Eylül'le çok iyi anlaşır.
 
 Kaynak: `vaka6_oneri.md` (ortağın seçimi, 12 Kasım 2026) ve `kaynak/YENI_OYUN_SEZON.md` → Vaka 6 (öneri b: Cengo'nun

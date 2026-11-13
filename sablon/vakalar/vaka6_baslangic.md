@@ -25,17 +25,19 @@ biliyor") → form `vaka6_form.md`. Örnek form: `vaka5_form.md`.
 
 Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır.
 
-**Başladı: 12 Kasım 2026, 17:57 (İstanbul)**, ortağın konuyu seçip soruları cevapladığı an.
+**Başladı: 12 Kasım 2026, 20:57 (İstanbul)** *(13 Kas düzeltmesi: ilk kayıtlar UTC ile yazılmıştı, hepsi +3 saat düzeltildi; süreler değişmedi)*, ortağın konuyu seçip soruları cevapladığı an.
 
 | ara | durdu | başladı | süre |
 |---|---|---|---|
-| 1 | 12 Kas 19:15 | 13 Kas 08:30 | 795 dk |
+| 1 | 12 Kas 22:15 | 13 Kas 08:30 | 615 dk |
 
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
-| 0 Konu seçimi | 12 Kas 17:57 | 12 Kas 17:57 | ~2 dk | ~3 dk | öneri seçildi; 4 soru cevaplandı; isimler Claude'a |
-| 1 Form | 12 Kas 18:00 | 12 Kas 18:11 | 0 | ~11 dk | form `vaka6_form.md`; 5 kanon önerisi 🟡; Cengo şüpheli (motor izin veriyor) |
-| 2 Onay 1 | 12 Kas 18:12 | 12 Kas 18:27 | ~2 dk (5 soru; 1'i düzeltmeyle) | ~8 dk (işleme) | Eylül 16 (Cengo baba olduğunda reşit), Cengo–Gamze evliydi; ek: Eylül Peri'yi kıskanır, Gizem'in rolü büyür; kanon 6 madde |
-| 3–4 Diyalog + veri + künye | 12 Kas 18:28 | 12 Kas 18:41 | 0 | ~13 dk | diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 |
-| 5 Görselsiz tur + taramalar | 12 Kas 18:43 | 12 Kas 19:02 | 0 | ~19 dk | araca V6 eklendi (genel izin); 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek iki kapanış) hatasız, kasa hesapları tutuyor; sızıntı 40 yol/1294 ekran temiz; elle okumada 2 sızıntı düzeldi (Jale'nin MASUM satırı; bank itirafa girdi, Eylül'ün mesajından çıktı); bulanık tarama 2 netleştirme |
-| 6–7 Onay 2, hikâye donar | 13 Kas 08:30 | | | | ortak oynuyor/okuyor (saat ortağın sözüyle 08:30'dan işliyor) |
+| 0 Konu seçimi | 12 Kas 20:57 | 12 Kas 20:57 | ~2 dk | ~3 dk | öneri seçildi; 4 soru cevaplandı; isimler Claude'a |
+| 1 Form | 12 Kas 21:00 | 12 Kas 21:11 | 0 | ~11 dk | form `vaka6_form.md`; 5 kanon önerisi 🟡; Cengo şüpheli (motor izin veriyor) |
+| 2 Onay 1 | 12 Kas 21:12 | 12 Kas 21:27 | ~2 dk (5 soru; 1'i düzeltmeyle) | ~8 dk (işleme) | Eylül 16 (Cengo baba olduğunda reşit), Cengo–Gamze evliydi; ek: Eylül Peri'yi kıskanır, Gizem'in rolü büyür; kanon 6 madde |
+| 3–4 Diyalog + veri + künye | 12 Kas 21:28 | 12 Kas 21:41 | 0 | ~13 dk | diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 |
+| 5 Görselsiz tur + taramalar | 12 Kas 21:43 | 12 Kas 22:02 | 0 | ~19 dk | araca V6 eklendi (genel izin); 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek iki kapanış) hatasız, kasa hesapları tutuyor; sızıntı 40 yol/1294 ekran temiz; elle okumada 2 sızıntı düzeldi (Jale'nin MASUM satırı; bank itirafa girdi, Eylül'ün mesajından çıktı); bulanık tarama 2 netleştirme |
+| 6–7 Onay 2, hikâye donar | 13 Kas 08:30 | 13 Kas 10:26 | ~1 sa 56 dk (ortak okudu, 8 satır düzeltti; ortak + makine birlikte) | | Jale atölyeyi altı ay önce aldı, kutular kilitsiz, Müzeyyen'in iki repliği; son kontrol: doğrulayıcı PASS, 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek) hatasız, sızıntı 40 yol/1294 ekran temiz. **Hikâye dondu.** |
+
+**Metin aşaması (adım 0–7) toplam: ~3 sa 14 dk** (12 Kas 20:57 → 13 Kas 10:26, 1 ara = 615 dk düşüldü). Saat durdu.

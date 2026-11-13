@@ -8,7 +8,36 @@
 
 ---
 
-## 0000000000000000000000000000. ⬅️ 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+## 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+
+Ortak Onay 2'de Vaka 6'yı denetledi, 8 satır düzeltti ve "metin ve senaryo tamam" dedi. Rol ayrımına göre hikâye onayı
+ortakta; adım 7 kapandı. Plana göre (aşağıda "YENİ PLAN") Vaka 6 **resimsiz** kalır.
+- **Vaka:** "İsimsiz Mektuplar" (Üsküdar–Kadıköy). Cengo'nun kızı Eylül (16) annesinin düğününü bozan isimsiz mektuplar
+  için babasına gelir. Suçlu anneanne Müzeyyen (sevgi: İzmir'e taşınma); yanlış izler Cengo'nun kendisi (bankta kızını
+  izliyor) ve Haldun'un eski eşi Jale (gelinliği o dikiyor, saklıyor). Ayrıntı: `sablon/vakalar/vaka6_form.md`,
+  metin: `sablon/vakalar/vaka6_diyalog.md`.
+- **Son kontrol (13 Kas):** `dogrulayici.js yeni` PASS (6 uyarı: 5 eski + V6 K17), eski oyun PASS, iki derleme, 26 test
+  geçti. 4 tur hatasız: `1 sofra dogru`, `2 siparis zayif`, `0 kagit cengo`, `3 cozmez6 jale` (bağ düşük ve yüksek
+  kapanış ikisi de görüldü). Sızıntı `arac_sizinti_tur.js V6 40`: 1294 ekran temiz; MASUM ve karar metinleri elle okundu
+  (adım 5'te 2 sızıntı düzeltildi: Jale'nin MASUM satırı; bank itirafa girdi).
+- **Süre:** metin aşaması toplam ~3 sa 14 dk (`vaka6_baslangic.md` §2). Saat durdu.
+- **Saat kaydı düzeltmesi:** 12 Kasım'daki V6 saatleri UTC ile yazılmıştı (Git Bash `TZ=Europe/Istanbul`'u tanımıyor);
+  hepsi +3 saat düzeltildi. Doğru saat için kabukta yalnız `date` kullanılır. V5 kayıtları doğru.
+
+**Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
+1. **Vaka 6'nın hikâyesi dondu.** Barbaros okuyup itiraz etmek isterse şimdi etmeli. → *Cevap:*
+2. **Kanon değişikliği:** ortak Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda 18'di, reşit); Cengo ile
+   Gamze evliymiş, sonra ayrılmışlar (sebebi açık nokta). Yeni kanon: Eylül, Gamze, Haldun Bey, Müzeyyen Hanım, Jale Hanım;
+   Cengo cumartesileri bankta kızını izler; bileklik Eylül'ün yedi yaşındaki işi; Eylül Peri'yi kıskanır, Gizem'le anlaşır
+   (`3_kanon_kaydi.md`). `YENI_OYUN_SEZON.md`'deki "on yedi" güncellensin mi? → *Cevap:*
+3. **V6 K17 uyarısı** (giriş 56 replik; Eylül'ün kıskançlığı ve Gizem girişi uzattı): kabul edilmiş uyarı sayılsın mı?
+   → *Cevap:*
+4. **`CLAUDE.md`'deki tur komutu satırına Vaka 6'nın yolları** eklensin mi:
+   `Vaka 6: [sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]`? → *Cevap:*
+5. **`test_yeni_v1.js`:** "tanımsız kare" örneği `K99` → `K999` yapıldı (V6 ile K99 gerçek kare oldu). Uygun mu? → *Cevap:*
+6. **Sıradaki:** plana göre Vaka 7 (taç müzayedede). Ortak mı yazacak? → *Cevap:*
+
+## 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 **Ortağın yedi kuralı (TASLAK §12) onaylandı, Vaka 6'dan itibaren geçerli:** A, B, C olduğu gibi; **D, E, F iptal** (önce
 onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge değil, Onay 2'den önce `3_kanon_kaydi.md` okunur. İşlendi:
@@ -27,8 +56,8 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 `sablon/vakalar/vaka6_form.md` (`6_vaka_formu.md`; yeni: §2 kişi tablosu, §12 "kim neyi biliyor") → adım 2'den 7'ye
 (`7_uretim_sureci.md`), **resimsiz** (adım 8 ve sonrası yok). Kim neye karar verir: aşağıda "İŞ ARKADAŞA DEVREDİLDİ".
 
-**Vaka 6 başladı (12 Kasım 2026, 17:57; ortak):** "İsimsiz Mektuplar" seçildi. Kız Eylül (Üsküdar); Gamze, Haldun Bey,
-Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). **Adım 3–4 bitti:** diyalog + veri + künye; doğrulayıcı PASS (yeni uyarı: V6 girişi 56 replik, K17). **Adım 5 bitti** (görselsiz tur, sızıntı ve bulanık tarama temiz). Sıradaki: **Onay 2** — ortak Vaka 6'yı oynar. Saat 12 Kas 19:15'te durdu, **13 Kas 08:30'da yeniden başladı** (ortağın sözüyle; ara 1 = 795 dk). Onay 2 sürüyor.
+**Vaka 6 başladı (12 Kasım 2026, 20:57; ortak):** "İsimsiz Mektuplar" seçildi. Kız Eylül (Üsküdar); Gamze, Haldun Bey,
+Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). **Adım 3–4 bitti:** diyalog + veri + künye; doğrulayıcı PASS (yeni uyarı: V6 girişi 56 replik, K17). **Adım 5 bitti** (görselsiz tur, sızıntı ve bulanık tarama temiz). Sıradaki: **Onay 2** — ortak Vaka 6'yı oynar. Saat 12 Kas 22:15'te durdu, **13 Kas 08:30'da yeniden başladı** (ortağın sözüyle; ara 1 = 615 dk). Onay 2 sürüyor.
 **araç: Vaka 6 eklendi** — `arac_yeni_tur.js` yolları: `[sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]` (Vaka 1–5 önce hızlı oynanır). `CLAUDE.md`'deki tur komutu satırına V6 eklenmedi (CLAUDE.md Barbaros'ta) — eklemek istersen yollar burada.
 **Barbaros'a bilgi:** `test_yeni_v1.js` "tanımsız kare" örneği `K99` idi; V6 ile K99 gerçek kare oldu, örnek `K999` yapıldı (yalnız örnek numarası).
 **Barbaros'a bilgi:** ortak kanonda Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda reşit olsun; Cengo 34 kaldı); Cengo ile Gamze evliymiş. Yaş oyun metninde geçmiyordu. `YENI_OYUN_SEZON.md`'deki "on yedi" eski kaldı.
