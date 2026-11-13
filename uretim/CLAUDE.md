@@ -137,8 +137,8 @@ Döngü bitince sahibine TEK seferde ver: her resmin istemi ve referansları, s�
 Figür ve kart paketlerine EN SONA o resmin zemininin düz renk örneği eklenir ve istemin zemin satırına şu cümle konur:
 "Arka plan rengi son referanstaki düz renk ile BİREBİR aynı (<HEX>); başka ton, geçiş ya da gölge yok." Örnekler
 (`uretim/referanslar/`, renkler V6 onaylı resimlerinden ölçüldü): `zemin_gri_mavi.png` #778393 · `zemin_acik_bej.png`
-#F0E8D9 · `zemin_acik_gri.png` #D4D4D4 (kıyafet kartı). Paket dosyası `v<N>/WEB_G<n>.md`; yollar Windows biçiminde tam yol. Sahibi web
-ChatGPT'de üretip `uretilen/G<n>.png` olarak koyar; sen denetlersin. Sahibi onaylı bir resimde hata bulursa onay
+#F0E8D9 · `zemin_acik_gri.png` #D4D4D4 (kıyafet kartı). Paket dosyası `v<N>/WEB_G<n>.md`; yollar Windows biçiminde tam yol.
+Sahibi web ChatGPT'de üretip `uretilen/G<n>.png` olarak koyar; sen denetlersin. Sahibi onaylı bir resimde hata bulursa onay
 geri alınır, ret gibi işlenir; söylediği hata buraya kural olarak yazılır.
 
 ## Denetim (her resim)
