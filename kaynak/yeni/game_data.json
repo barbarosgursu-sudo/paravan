@@ -5411,7 +5411,7 @@
         "tarih_sofra": "Düğünün tarihi pazartesi akşamı sofrada konuşuldu: Gamze, Haldun Bey, Eylül ve Müzeyyen Hanım. Eylül sofradan kalkıp tarihi babası Cengo'ya yazdı. İlk mektup ertesi sabah geldi.",
         "izmir_tayin": "Haldun Bey'in İzmir'deki görevi düğünden bir hafta sonra başlıyor; düğün ertelenirse tayin başkasına gidiyor.",
         "bank_adam": "Kasketli bir adam aylardır her cumartesi sabahı apartmanın karşısındaki bankta oturup kapıya bakıyor; Eylül dershaneye çıkınca o da kalkıyor. Bu adam Cengo.",
-        "posta_elden": "Mektuplar pulsuz, elle kutuya atılmış. Postayı her sabah ilk Müzeyyen Hanım alır; birinci mektubu o buldu, ikincisini kapıcı.",
+        "posta_elden": "Mektuplar pulsuz, elle kutuya atılmış; kutular kilitsiz. Postayı her sabah ilk Müzeyyen Hanım alır; birinci mektubu o buldu, ikincisini kapıcı.",
         "prova_torba": "Üçüncü mektup cumartesi provada torbaya girdi. Gelin kabindeydi; torbayı o gün yalnız iki kişi tuttu: atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım.",
         "jale_siparis": "Gelinlik siparişi ilk mektuptan üç gün sonra, bir cuma verildi; Jale Hanım düğünün tarihini o gün öğrendi. Haldun Bey'le iki yıldır konuşmuyor.",
         "jale_gizli": "Gamze'nin gelinliği Jale Hanım'ın atölyesinde dikiliyor. Jale gelini tanıyınca sustu: atölye borçta, siparişe ihtiyacı var. Gamze bunu bilmiyor.",
@@ -5611,7 +5611,11 @@
                 "i": "normal",
                 "m": "Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü."
               },
-              {"k": "recep", "i": "normal", "m": "İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken."},
+              {
+                "k": "recep",
+                "i": "normal",
+                "m": "İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular."
+              },
               {"k": "cengo", "i": "kas", "m": "Mektubu kutuya atanı gören olmadı mı?", "kime": "recep"},
               {
                 "k": "recep",
@@ -5705,7 +5709,7 @@
                 "kime": "cengo"
               },
               {"k": "peri", "i": "merakli", "m": "Patronunuz kim?", "kime": "dilek"},
-              {"k": "dilek", "i": "normal", "m": "Jale Hanım. Atölye onun.", "kime": "peri"},
+              {"k": "dilek", "i": "normal", "m": "Jale Hanım. Atölyeyi alalı altı ay oldu.", "kime": "peri"},
               {"k": "peri", "i": "sasirmis", "m": "Jale Hanım mı? Haldun Bey'in eski eşi?", "kime": "dilek"},
               {"k": "dilek", "i": "heyecanli", "m": "Ay! Bilmiyordum! Gelin de bilmiyordur herhalde.", "kime": "peri"},
               {"k": "cengo", "i": "gulen", "m": "Bu düğünde bilenler bilmeyenlerden az.", "kime": "peri"}
@@ -5763,9 +5767,10 @@
               {
                 "k": "jale",
                 "i": "kacamak",
-                "m": "…Tanıyorum. Gelinliğini ben dikiyorum. Bahariye'deki atölye benim.",
+                "m": "…Tanıyorum. Gelinliği ben dikiyorum. Bahariye'deki atölyeyi daha altı ay önce aldım.",
                 "kime": "peri"
               },
+              {"k": "jale", "i": "kacamak", "m": "Kader işte, hepimizi bir araya getirdi."},
               {
                 "k": "jale",
                 "i": "soguk",
@@ -5807,6 +5812,7 @@
                 "m": "Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum.",
                 "kime": "cengo"
               },
+              {"k": "jale", "i": "ofkeli", "m": "Kader bana Haldun'un eşinin gelinliğini de diktirdi."},
               {
                 "k": "cengo",
                 "i": "gulen",
@@ -5864,7 +5870,12 @@
                 "m": "Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu.",
                 "kime": "peri"
               },
-              {"k": "muzeyyen", "i": "normal", "m": "Damadım olarak çok severdim onu. Hâlâ da severim."},
+              {
+                "k": "muzeyyen",
+                "i": "normal",
+                "m": "Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim."
+              },
+              {"k": "muzeyyen", "i": "normal", "m": "Ama şimdi keşke o güzel günlere geri dönsek."},
               {"k": "peri", "i": "kas", "m": "On sekizinde, Cengo? Ben on sekizimde taç takıyordum.", "kime": "cengo"},
               {"k": "cengo", "i": "kas", "m": "Ben de bebek bezi bağlıyordum. İkisi de zor iş.", "kime": "peri"},
               {
@@ -6127,7 +6138,7 @@
         "posta_elden": ["pulsuz", "ilk Müzeyyen"],
         "prova_torba": ["askıyı tuttu", "makas almaya"],
         "jale_siparis": ["sipariş günü", "üç hafta önceki cuma"],
-        "jale_gizli": ["atölye borçta", "gelinliğini ben dikiyorum"],
+        "jale_gizli": ["atölye borçta", "Gelinliği ben dikiyorum"],
         "jale_soz": ["aynı söz", "aynısını demiş"],
         "kalip_kagit": ["kırtasiyede satılmaz", "noktalı"]
       },
@@ -6212,7 +6223,13 @@
               "gir": "gizem",
               "kime": "eylul"
             },
-            {"k": "eylul", "i": "gulen", "m": "Sen iyisin, abla.", "gir": "eylul", "kime": "gizem"},
+            {
+              "k": "eylul",
+              "i": "gulen",
+              "m": "Teşekkür ederim, Gizem abla. Ne kadar iyisin.",
+              "gir": "eylul",
+              "kime": "gizem"
+            },
             {
               "k": "gizem",
               "i": "triko_isveli",
@@ -6357,7 +6374,7 @@
             {"k": "peri", "i": "kas", "m": "Büyük dedektif, ha?", "kime": "cengo"},
             {"k": "cengo", "i": "kas", "m": "Paravan Dedektiflik'in bordrosundayım. Yalan değil.", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Yedi yıl maaş aldın, bir tane dosya açmadın."},
-            {"k": "cengo", "i": "gulen", "m": "Bu ilk dosyam."},
+            {"k": "cengo", "i": "gulen", "m": "Eylül benim ilk dosyam."},
             {"k": "peri", "i": "merakli", "m": "Bir kızın olduğunu bana neden hiç söylemedin, Cengo?"},
             {
               "k": "cengo",
@@ -6439,12 +6456,7 @@
             },
             {"k": "peri", "i": "normal", "m": "Mektupları kim yazdı, biliyorum. Söylemeye geldim.", "kime": "muzeyyen"},
             {"k": "peri", "i": "kas", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
-            {
-              "k": "muzeyyen",
-              "i": "gergin",
-              "m": "Ben mi? Ben o kızın gelinliğini kendi elimle dikmek isterdim…",
-              "kime": "peri"
-            },
+            {"k": "muzeyyen", "i": "gergin", "m": "Ben mi? Kızımın mutluluğunu en çok ben isterim…", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor.", "kime": "muzeyyen"},
             {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
             {

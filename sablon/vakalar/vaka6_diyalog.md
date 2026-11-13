@@ -50,7 +50,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **GİZEM [triko]:** Misafir mi var? Çay benden. Sen kimsin, güzelim? {gir: gizem, kime: eylul}
 **EYLÜL [gulen]:** Eylül. Cengo'nun kızıyım. {gir: eylul, kime: gizem}
 **GİZEM [triko_isveli]:** Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden. {gir: gizem, kime: eylul}
-**EYLÜL [gulen]:** Sen iyisin, abla. {gir: eylul, kime: gizem}
+**EYLÜL [gulen]:** Teşekkür ederim, Gizem abla. Ne kadar iyisin. {gir: eylul, kime: gizem}
 **GİZEM [triko_isveli]:** *(Eylül'e göz kırparak)* Peri Hanım herkese öyle bakar, takma. {gir: gizem, kime: eylul}
 **PERİ [kas]:** Ben kimseye öyle bakmıyorum, Gizem. {kime: gizem}
 **CENGO [normal]:** Otur kızım. Anlat bakalım, ne oldu? {gir: eylul, kime: eylul}
@@ -93,7 +93,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Büyük dedektif, ha? {kime: cengo}
 **CENGO [kas]:** Paravan Dedektiflik'in bordrosundayım. Yalan değil. {kime: peri}
 **PERİ [kas]:** Yedi yıl maaş aldın, bir tane dosya açmadın.
-**CENGO [gulen]:** Bu ilk dosyam.
+**CENGO [gulen]:** Eylül benim ilk dosyam.
 **PERİ [merakli]:** Bir kızın olduğunu bana neden hiç söylemedin, Cengo?
 **CENGO [yumusak]:** Söyleyecek bir şey yoktu. Uzaktan bakıyorum, o kadar. Hadi işe dönelim.
 **PERİ [normal]:** Önce Haldun Bey'le konuşalım. Düğünün tarihi ne zaman konuşulmuş, mektuplar ne zaman başlamış, öğrenelim.
@@ -155,7 +155,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [merakli]:** Mektuplar nasıl geldi, efendim? Postacı mı getirdi? {kime: recep}
 **RECEP [normal]:** Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış. {kime: peri}
 **RECEP [normal]:** Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü.
-**RECEP [normal]:** İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken.
+**RECEP [normal]:** İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular.
 **CENGO [kas]:** Mektubu kutuya atanı gören olmadı mı? {kime: recep}
 **RECEP [gulen]:** Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta. {kime: cengo}
 **PERİ [kas]:** Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın. {kime: cengo}
@@ -178,7 +178,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Sen neredeydin? {kime: dilek}
 **DİLEK [normal]:** Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm. {kime: cengo}
 **PERİ [merakli]:** Patronunuz kim? {kime: dilek}
-**DİLEK [normal]:** Jale Hanım. Atölye onun. {kime: peri}
+**DİLEK [normal]:** Jale Hanım. Atölyeyi alalı altı ay oldu. {kime: peri}
 **PERİ [sasirmis]:** Jale Hanım mı? Haldun Bey'in eski eşi? {kime: dilek}
 **DİLEK [heyecanli]:** Ay! Bilmiyordum! Gelin de bilmiyordur herhalde. {kime: peri}
 **CENGO [gulen]:** Bu düğünde bilenler bilmeyenlerden az. {kime: peri}
@@ -195,7 +195,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Jale çay bardağını tabağının içinde çeviriyor; Peri'nin gözüne bakmıyor.* {gir: jale, gi: kacamak}
 **JALE [kacamak]:** Tanımam. Hiç görmedim. {kime: peri}
 **PERİ [kas]:** Yalan söylerken bardağı çeviriyorsunuz, Jale Hanım. {kime: jale}
-**JALE [kacamak]:** …Tanıyorum. Gelinliğini ben dikiyorum. Bahariye'deki atölye benim. {kime: peri}
+**JALE [kacamak]:** …Tanıyorum. Gelinliği ben dikiyorum. Bahariye'deki atölyeyi daha altı ay önce aldım. {kime: peri}
+**JALE [kacamak]:** Kader işte, hepimizi bir araya getirdi.
 **JALE [soguk]:** Sipariş vermeye geldiğinde tanıdım: Haldun'un nişanlısı. Sustum. Atölye borçta; bu siparişe ihtiyacım vardı.
 **JALE [soguk]:** Gamze gelinliğini kimin diktiğini bilmiyor. Öğrenirse bırakır gider, ben de batarım.
 **PERİ [merakli]:** Düğünün tarihini ne zaman öğrendiniz? {kime: jale}
@@ -204,6 +205,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **JALE [soguk]:** Haldun'la iki yıldır konuşmuyoruz. Tarihi ondan duymadım, kimseden duymadım. {kime: peri}
 **CENGO [kas]:** Boşanırken Haldun Bey'e "seni rahat bırakmam" demişsiniz. {kime: jale}
 **JALE [ofkeli]:** Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum. {kime: cengo}
+**JALE [ofkeli]:** Kader bana Haldun'un eşinin gelinliğini de diktirdi.
 **CENGO [gulen]:** Bu çay bahçesinde herkes bir şey saklıyor. Ben de simit sakladım, cebimde. {kime: peri}
 
 ## ipucu anneanne
@@ -218,7 +220,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MÜZEYYEN [normal]:** Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi. {kime: cengo}
 **PERİ [kas]:** Peri. Ortağıyım. Sadece ortağı. {kime: muzeyyen}
 **MÜZEYYEN [normal]:** Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu. {kime: peri}
-**MÜZEYYEN [normal]:** Damadım olarak çok severdim onu. Hâlâ da severim.
+**MÜZEYYEN [normal]:** Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim.
+**MÜZEYYEN [normal]:** Ama şimdi keşke o güzel günlere geri dönsek.
 **PERİ [kas]:** On sekizinde, Cengo? Ben on sekizimde taç takıyordum. {kime: cengo}
 **CENGO [kas]:** Ben de bebek bezi bağlıyordum. İkisi de zor iş. {kime: peri}
 **PERİ [merakli]:** Mektupları siz de gördünüz mü, Müzeyyen Hanım? {gir: muzeyyen, kime: muzeyyen}
@@ -267,7 +270,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo}
 **PERİ [normal]:** Mektupları kim yazdı, biliyorum. Söylemeye geldim. {kime: muzeyyen}
 **PERİ [kas]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen}
-**MÜZEYYEN [gergin]:** Ben mi? Ben o kızın gelinliğini kendi elimle dikmek isterdim… {kime: peri}
+**MÜZEYYEN [gergin]:** Ben mi? Kızımın mutluluğunu en çok ben isterim… {kime: peri}
 **PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor. {kime: muzeyyen}
 *Jale elinde makbuzla dönüyor.* {gir: jale, gi: soguk}
 **JALE [soguk]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen}

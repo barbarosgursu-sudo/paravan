@@ -42,7 +42,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
   "Herkes öğrenir" sözünü Gamze'nin anlattığı bir sözden aldı: Jale boşanırken Haldun'a böyle demiş.
 - **Eylül'ü Cengo'ya gönderen de o:** "Baban dedektif, git ona." Cengo'nun bulamayacağını sandı; bir de torunu babasını
   görsün istedi. *(İtirafta açılır.)*
-- **Jale Hanım'ın yolu (yanlış iz):** Haldun'un eski eşi (44), Kadıköy Bahariye'de gelinlik atölyesi var. Boşanırken
+- **Jale Hanım'ın yolu (yanlış iz):** Haldun'un eski eşi (44), Kadıköy Bahariye'deki gelinlik atölyesini altı ay önce aldı *(Onay 2, ortak)*. Boşanırken
   "herkes öğrenecek" demişti. Gamze gelinliği, bilmeden, **Jale'nin atölyesine** ısmarladı (internetten buldu). Jale
   gelini tanıdı, sustu: atölye borçta, siparişe ihtiyacı var. Saklayan, yalan söyleyen o; ama mektupları o yazmadı.
 - **Cengo'nun yolu (yanlış iz):** Eylül tarihi o gece ona mesajla yazdı. Cengo aylardır her cumartesi sabahı apartmanın
@@ -137,7 +137,7 @@ kimlikle tanıyor (`motor_yeni.js`); künye kartı yok (sabit karakter). Adım 3
 | tarih_sofra | Düğünün tarihi pazartesi akşamı sofrada konuşuldu: Gamze, Haldun Bey, Eylül ve Müzeyyen Hanım. Eylül sofradan kalkıp tarihi babasına yazdı. İlk mektup ertesi sabah geldi. | A |
 | izmir_tayin | Haldun Bey'in İzmir tayini düğünden bir hafta sonra başlıyor. Ertelenirse tayin başkasına gidiyor. | A |
 | bank_adam | Kasketli bir adam aylardır her cumartesi sabahı apartmanın karşısındaki bankta oturup kapıya bakıyor; Eylül çıkınca o da kalkıyor. | B |
-| posta_elden | Mektuplar pulsuz, elle kutuya atılmış. Postayı her sabah ilk Müzeyyen Hanım alır; ikinci mektubu kutuda kapıcı bulmuş. | B |
+| posta_elden | Mektuplar pulsuz, elle kutuya atılmış; kutular kilitsiz *(Onay 2)*. Postayı her sabah ilk Müzeyyen Hanım alır; ikinci mektubu kutuda kapıcı bulmuş. | B |
 | prova_torba | Üçüncü mektup cumartesi provada torbaya girdi. Gamze kabindeydi; torbayı o gün yalnız iki kişi tuttu: atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım. | C |
 | jale_siparis | Gelinlik siparişi ilk mektuptan üç gün sonra verildi; Jale Hanım düğünün tarihini o gün öğrendi. Haldun Bey'le iki yıldır konuşmuyor. | D |
 | jale_gizli | Jale Hanım gelini tanıyınca sustu: atölye borçta, siparişe ihtiyacı var. Gamze gelinliğini kimin diktiğini bilmiyor. | D |
