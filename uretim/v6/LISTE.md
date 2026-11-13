@@ -37,6 +37,11 @@ bej · Haldun, Dilek açık bej / gri-mavi. Kartlar açık gri (kesilmez).
 | G14 | arka plan | Müzeyyen'in salonu | `A47` | üretilecek |
 | G15 | arka plan | Karaköy matbaası | `A48` | üretilecek |
 | G16 | arka plan | Bahariye Caddesi, çiçekçi (kovalamaca) | `A49` | üretilecek |
+| G17 | figür | Peri, mesai dışı, normal (temel; karttan G1) | `peri.mesai.normal` | Parti 2 |
+| G18 | figür | Cengo, ütülü, normal (temel; karttan G2) | `cengo.utulu.normal` | Parti 2 |
+| G19 | kıyafet kartı | Müzeyyen (temelden G3) | — | Parti 2 |
+| G20 | kıyafet kartı | Jale (temelden G4) | — | Parti 2 |
+| G21 | kıyafet kartı | Dilek (temelden G8) | — | Parti 2 |
 
 **Bayraklar KAPANDI (13 Kasım 2026, SR-M; sahibinin kararı: kuralla, en az soru; onaylı sözler değişmez, çözüm resimle).** 29 bayrağın 12'si
 motor kuralıyla (Peri'nin `kime`si ekrana gelir), gerisi SR-M ile; sahibine soru kalmadı; diyalogda yalnız etiketler değişti (söz farkı 0).

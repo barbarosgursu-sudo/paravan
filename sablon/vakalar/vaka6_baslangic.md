@@ -54,3 +54,4 @@ listesi) 13 Kas ~12:00–15:00 arasında saat dışında yapıldı (~3 sa makine
 | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 |---|---|---|---|---|---|
 | 8 Görsel — Parti 1 (temeller, 20 resim) | 13 Kas 14:21 | 13 Kas 14:49 | onay 14:52 | ~28 dk (24 Codex) | "başla" 14:20; öncesinde 13 Kas öğleden sonra bayraklar kuralla kapandı (SR-M) |
+| 8 Görsel — Parti 2 (Peri/Cengo temeli + 3 konuk kartı) | 13 Kas 15:39 | 13 Kas 15:49 | | ~10 dk (5 Codex) | G17 filtreye takıldı → web |

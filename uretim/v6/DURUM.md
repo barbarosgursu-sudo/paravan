@@ -18,6 +18,14 @@ yer dönüyorsa farklı açı; `istem_kontrol.sh` `Kompozisyon:` arar). `dongu.s
 **Sıradaki:** sahibinin onayı → Parti 2 (Peri/Cengo temel figürleri karttan; Müzeyyen, Jale, Dilek kıyafet kartları) ve
 Parti 3 (ifadeler, kareler, 11 ek resim, Eylül G6). İstemleri yazılmadı; §7a ve SR-M ile yazılacak.
 
+**13 Kasım 2026, 15:49 — PARTİ 2: 4/5 ONAYLI, G17 WEB'DE.** 15:39 istemler yazıldı (G17–G21), 15:43–15:49 üretim (2 kol, 5
+Codex çalışması). Onaylı: G18 (Cengo ütülü temel), G19/G20/G21 (Müzeyyen, Jale, Dilek kartları). **G17 (Peri mesai temeli)
+iki kez güvenlik filtresine takıldı** (output: sexual) → web paketi `WEB_G17.md` sahibine verildi; sonuç
+`uretilen/G17.png` olarak gelince denetlenir. Web'de de takılırsa sahibine sorulacak: çekiciliği bir kademe hafifletmek mi,
+yalnız pozu değiştirmek mi (§9 "çekicilik eskilerden az olmasın" ile çatışıyor). Not: eski Cengo resimlerinde bileklik
+tutarsız (haki sol, takım sağ); bu vakada sol bilekte sabit. `istem_kontrol.sh`: Peri/Cengo artık "yeni karakter"
+sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
+
 ## Yeni pencerede "başla" denince
 
 1. `git pull` (yalnız `main`). Okuma: kök `CLAUDE.md` → `kaynak/DEVIR.md` en üst bölüm → `uretim/CLAUDE.md` → bu dosya →
@@ -61,6 +69,7 @@ arada olursa not düşülür (fark o zaman iki parçadan toplanır).
 | Parti 1 öncesi (başlangıç) | 13 Kas 14:18 | %92 (sıfırlanma ~17:09) | %99 (6 gün 21 sa) | %52 (sıfırlanma 16:00) | %7 (sıfırlanma Cuma 11:00) | ChatGPT Plus, Claude Pro. ChatGPT'deki %8 sabahki 7 deneme resminden; Claude'daki %52 bu oturumun bayrak/kural işi |
 | Parti 1 sonrası | 13 Kas 14:51 | %68 (sıfırlanma ~17:09) | %95 | %78 (sıfırlanma 16:00) | %11 | sıfırlanma arada olmadı |
 | **Parti 1 farkı** | 14:18–14:51 | **%24** | **%4** | **%26** | **%4** | 24 Codex çalışması (16 onay + 6 zemin denemesi + 4 boşa) |
+| Parti 2 öncesi | 13 Kas 15:39 | %68 (1 sa 30 dk) | %95 | %83 (sıfırlanma 16:00) | %11 | Parti 1 sonrası yalnız yazışma: Claude oturum +%5 |
 
 **Okuma (Parti 1):** ChatGPT 5 saatlik kotada Codex çalışması başına ~%1,0 (sabahki ölçüm ~%1,2 ile uyumlu); haftalıkta 24 resim
 %4 → haftada ~600 resim sığar. Onaylı resim başına ~%1,5 (boşa ve zemin denemeleriyle). Claude: denetim + kural işi oturumun

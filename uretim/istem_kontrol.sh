@@ -33,7 +33,7 @@ for f in "$@"; do
       grep -qE 'açık bej|gri-mavi' <<<"$zemin" || eksik+=("zemin satırı yok ya da renk açık bej/gri-mavi değil (H4)")
       grep -q 'yeşil' <<<"$zemin"      && eksik+=("yeşil zemin (H4: Vaka 4'ten sonra yok)")
       has 'Çıplaklık yok'              || eksik+=("çıplaklık satırı yok")
-      if grep -q 'tarz_govde_' <<<"$refs"; then   # yeni karakter temeli (§4)
+      if grep -q 'tarz_govde_' <<<"$refs" && ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then   # yeni karakter temeli (§4); Peri/Cengo yeni değil
         has 'benzemiyor'               || eksik+=("yeni karakter: 'X'e benzemiyor' satırı yok (D-4, BIRIKIM §8.7)")
         has 'Son referans YALNIZ'      || eksik+=("tarz örneği cümlesi yok (§3)")
         grep -q '^- zemin denemesi:' "$f" || eksik+=("yeni temel: '- zemin denemesi: G<n>z' satırı yok (H4 iki zemin)")
