@@ -1,0 +1,49 @@
+# G4z — Jale Hanım, normal (temel) — ZEMİN DENEMESİ (açık bej)
+
+- tür: figür · anahtar: `jale.normal`
+- önce hazır olmalı: yok
+- zemin denemesi: asıl G4 (gri-mavi); bu dosya yalnız zemin rengiyle ayrılır (H4)
+
+## Referanslar (bu sırayla ekle; istemdeki "birinci referans" = 1.)
+
+1. `../referanslar/tarz_govde_kadin.jpg` — YALNIZ tarz, ölçek, kadraj (başı silik)
+2. `../referanslar/tarz_ornek_kadin.jpg` — YALNIZ çizim tarzı örneği (kişi, kıyafet, poz alınmaz)
+
+## Satırlar
+
+`arac_satir_resim.js` (13 Kasım 2026, V6 dört yol). Codex bu bölümü istem metnine katmaz.
+
+- **jale**: Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze "beş hafta sonra cumartesi" dedi.
+- **peri**: İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş.  _(dinliyor)_
+
+## Kontrol
+
+Kısa KIZIL saç · keskin elmacık kemikleri · SADE siyah elbise (dekolte yok, gösterişsiz) · bileğinde iğnelik · soğuk, mesafeli · zemin açık bej
+
+## İstem
+
+```text
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+
+Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
+
+Jale Hanım: kırk dört yaşında, uzun boylu, ince bir kadın. Kısa, düz, ense hizasında kesilmiş KIZIL saç. Keskin elmacık kemikleri, ince dudaklar, dik bir duruş. Sade, uzun kollu, yakası kapalı, dizin altına inen düz siyah bir elbise; süs yok. Sol bileğinde bir terzi iğneliği (küçük, yastık gibi kumaş bir iğnelik, üstünde birkaç toplu iğne). Peri'ye (uzun dalgalı kızıl-kahve saç) ve Saadet'e (kıvırcık topuzlu kızıl saç, bordo kadife elbise, dolgun) benzemiyor.
+
+Poz: TAM İKİ KOL, İKİ EL. Kollarını gövdesinin önünde gevşekçe kavuşturmuş; iğnelikli sol bileği üstte, iğnelik görünüyor.
+
+Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
+
+İfade: soğuk, mesafeli, kibar ama sıcak değil; dudakları kapalı, hafif kalkık bir kaş.
+
+Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
+
+Kadraj: DİKEY 4:5. Tek kişi, ayakta, kadrajın ortasında. Uyluk ortasından yukarısı; başın tepesinin üstünde ince bir boşluk. Arka plan: düz, tek renk açık bej; gölgesiz, dokusuz, lekesiz, renk geçişi yok (bilgisayarda doldurulmuş tek renk gibi); hiçbir nesne yok.
+
+Çıplaklık yok.
+
+Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur, yumuşak gölgeler, yüz çiziminin gerçekçiliği, renkler ve ölçek onun gibi olsun. Oradaki kişinin yüzünü, saçını, kıyafetini ve pozunu ALMA. Karikatür değil: doğal yüz oranları, abartısız ifade.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+
+Görselin oranı TAM 4:5, dikey (1122×1402).
+```

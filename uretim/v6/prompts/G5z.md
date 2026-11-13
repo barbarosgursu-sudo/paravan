@@ -1,0 +1,51 @@
+# G5z — Haldun Bey, normal (temel) — ZEMİN DENEMESİ (gri-mavi)
+
+- tür: figür · anahtar: `haldun.normal`
+- önce hazır olmalı: yok
+- zemin denemesi: asıl G5 (açık bej); bu dosya yalnız zemin rengiyle ayrılır (H4)
+
+## Referanslar (bu sırayla ekle; istemdeki "birinci referans" = 1.)
+
+1. `../referanslar/tarz_govde_erkek.jpg` — YALNIZ tarz, ölçek, kadraj (başı silik)
+2. `../referanslar/tarz_ornek_erkek.jpg` — YALNIZ çizim tarzı örneği (kişi, kıyafet, poz alınmaz)
+
+## Satırlar
+
+`arac_satir_resim.js` (13 Kasım 2026, V6 dört yol). Codex bu bölümü istem metnine katmaz.
+
+- **haldun**: Üç hafta önce, bir pazartesi akşamı. Gamze'nin evinde, sofrada.
+- **haldun**: Sofrada dört kişiydik: Gamze, ben, Eylül ve Gamze'nin annesi Müzeyyen Hanım.
+- **haldun**: Tarihi o akşam konuştuk, kimseye söylemedik. Davetiyeler bile geçen hafta basıldı.
+- **haldun**: Eylül tatlıdan önce kalktı, babasına mesaj yazdı. "Babam bilmeli" dedi.
+
+## Kontrol
+
+Kır ŞAKAKLAR · ince çerçeveli gözlük · GRİ takım, gevşek kravat · elleri BOŞ (mendil yok) · bankacı, sinsi değil · zemin gri-mavi
+
+## İstem
+
+```text
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+
+Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
+
+Haldun Bey: kırk sekiz yaşında, orta boylu, düzgün bir adam. Koyu kahve saçı kısa ve düzgün taranmış, şakakları KIR. İnce metal çerçeveli gözlük. Temiz traşlı. Gri takım elbise, beyaz gömlek, lacivert kravat gevşetilmiş, gömleğin üst düğmesi açık. Tolga'ya (yelekli, tabletli, genç) ve Bülent'e (kırmızı yelekli genç adam) benzemiyor.
+
+Poz: TAM İKİ KOL, İKİ EL. İki eli gövdesinin önünde, parmak uçları birbirine değiyor; bir şey açıklıyor gibi. Elleri boş.
+
+Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
+
+İfade: nazik, biraz gergin, terli; zoraki, yorgun bir gülümseme.
+
+Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
+
+Kadraj: DİKEY 4:5. Tek kişi, ayakta, kadrajın ortasında. Uyluk ortasından yukarısı; başın tepesinin üstünde ince bir boşluk. Arka plan: düz, tek renk gri-mavi; gölgesiz, dokusuz, lekesiz, renk geçişi yok (bilgisayarda doldurulmuş tek renk gibi); hiçbir nesne yok.
+
+Çıplaklık yok.
+
+Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur, yumuşak gölgeler, yüz çiziminin gerçekçiliği, renkler ve ölçek onun gibi olsun. Oradaki kişinin yüzünü, saçını, kıyafetini ve pozunu ALMA. Karikatür değil: doğal yüz oranları, abartısız ifade.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+
+Görselin oranı TAM 4:5, dikey (1122×1402).
+```

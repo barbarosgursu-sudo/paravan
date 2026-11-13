@@ -371,14 +371,21 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 **Yeni yan karakterlerin görünüşü 🟢** (öncekilerden ayrışır):
 - **Eylül (16):** uzun koyu kahve saç, açık; kot ceket, siyah tişört, sırt çantası; bileğinde Cengo'nunkinin eşi
   boncuklu bileklik. Kural 16: her zaman masum, yaşına uygun.
-- **Müzeyyen Hanım (60):** kısa gümüş saç, yuvarlak yüz, boynunda zincirli gözlük; bordo örgü hırka, elinde dikiş
-  çantası.
+- **Müzeyyen Hanım (60):** ince, uzun boylu; kısa, kül sarısı boyalı mizanpli saç; lacivert puantiyeli elbise, üstünde
+  ince, düz lacivert hırka (cepli); inci kolye; gözlük yok. Elinde dikişe dair hiçbir şey yok (Nurcan: terziliği ipucu
+  `kalip_kagit` söyler). *(13 Kasım 2026, Barbaros: ilk tarif Nadide'ye çok benzedi — gümüş saç, örgü hırka, zincirli
+  gözlük; değiştirildi.)*
 - **Jale Hanım (44):** kısa kızıl saç, keskin elmacık kemikleri; sade siyah elbise, bileğinde iğnelik. Kural 15b:
   Peri'den gösterişsiz.
 - **Haldun Bey (48):** kır şakaklı, ince çerçeveli gözlük; gri takım, gevşek kravat, alnı terli.
-- **Recep Efendi (kapıcı):** 60'larında, yün yelek, elinde süpürge.
-- **Dilek (kalfa):** 20'lerinin başı, ağzında toplu iğneler, boynunda mezura.
-- **Tahsin Usta:** 70'lerinde, mürekkepli önlük, kalın gözlük.
+- **Recep Efendi (kapıcı):** 60'larında, tombul; kısa kıvırcık kır saç, bıyık ve sakal yok; koyu yeşil yün yelek, elinde
+  süpürge.
+- **Dilek (kalfa):** 20'lerinin başı; kısa, kâküllü siyah saç; hardal kazak üstüne açık pembe önlük; ağzında toplu
+  iğneler, boynunda beyaz mezura.
+- **Tahsin Usta:** 70'lerinde, ince uzun; gür, dalgalı, geriye taranmış beyaz saç, temiz traşlı (sakal yok); mürekkepli
+  önlük, kalın gözlük.
+- *(13 Kasım 2026, Barbaros: Recep, Dilek ve Tahsin'in ilk resimleri Rıza/Ferruh, Gülsüm ve Sarkis/Rıza'ya benzedi;
+  ayırt edici çizgiler eklendi. Metinde geçen eşya — yelek, süpürge, iğneler, mezura, önlük, gözlük — korundu.)*
 
 **Kişiler (künye):**
 

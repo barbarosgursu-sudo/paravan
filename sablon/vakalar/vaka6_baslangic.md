@@ -41,3 +41,16 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 | 6–7 Onay 2, hikâye donar | 13 Kas 08:30 | 13 Kas 10:26 | ~1 sa 56 dk (ortak okudu, 8 satır düzeltti; ortak + makine birlikte) | | Jale atölyeyi altı ay önce aldı, kutular kilitsiz, Müzeyyen'in iki repliği; son kontrol: doğrulayıcı PASS, 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek) hatasız, sızıntı 40 yol/1294 ekran temiz. **Hikâye dondu.** |
 
 **Metin aşaması (adım 0–7) toplam: ~3 sa 14 dk** (12 Kas 20:57 → 13 Kas 10:26, 1 ara = 615 dk düşüldü). Saat durdu.
+
+## 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+
+Plan "Vaka 6–8 resimsiz" diyordu; Barbaros 13 Kasım'da Vaka 6'nın resimlerine geçilmesine karar verdi: hem vaka için hem de
+gece Codex üretim kanalını (2 kol, kota ölçümü) denemek için. Düzen: gündüz temeller üretilir, Barbaros onaylar; gece kalan
+resimler Codex'le, sabah üretilemeyenler vaka vaka Barbaros'a (web). Ayrıntı: `uretim/v6/DURUM.md`, `uretim/v6/LISTE.md`.
+
+Saat resim aşamasında Barbaros'un sözüyle işler. Adım 8'in hazırlığı (kuralların okunması, istemler, satır aracı, kontrol
+listesi) 13 Kas ~12:00–15:00 arasında saat dışında yapıldı (~3 sa makine; kuralların yarım uygulanması yüzünden 7 resim boşa).
+
+| adım (7. parça) | başladı | bitti | sahibi | makine | not |
+|---|---|---|---|---|---|
+| 8 Görsel — Parti 1 (temeller, 20 resim) | | | | | yeni pencerede "başla" ile |

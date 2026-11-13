@@ -14,6 +14,7 @@ Bir çizgi oyunun resimlerini üretiyorsun. Türkçe, kısa yanıt ver.
 | `uretilen/` | senin çıktın | `G<n>.png` YAZ; buradakini referans VERME |
 | `red/` | reddedilenler | DOKUNMA, referans VERME |
 | `uretim_kaydi.md` | kayıt | sonuna satır EKLE |
+| `kayit/kol<k>.md` | paralel kolun kaydı | komut bu dosyayı adlandırırsa kaydı `uretim_kaydi.md` yerine BURAYA ekle (yoksa oluştur) |
 
 Önceki resimlerden referans yalnız `onayli/`'den olur. Bu klasörün dışındaki hiçbir dosyaya yazma. Git komutu
 çalıştırma. Talimat dosyalarına (AGENTS.md, CLAUDE.md) not yazma. Özet ya da başka ek dosya yazma.

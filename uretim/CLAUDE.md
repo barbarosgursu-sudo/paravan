@@ -13,10 +13,16 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
 
 | karakter | sabit |
 |---|---|
-| Peri | kırmızı stiletto (görünüyorsa HER resimde), çorap yok |
+| Peri | kırmızı stiletto (görünüyorsa HER resimde), çorap yok — **istisna:** vakanın formu başka ayakkabı yazıyorsa o (Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı) |
 | Cengo | haki ceket, renkli boncuklu bileklik |
 | Ferruh | kalem gibi ince bıyık, bordo papyon |
 | Gizem | bal rengi kâküllü saç, çil |
+| Müzeyyen (V6) | kısa kül sarısı mizanpli saç, ince uzun, lacivert puantiyeli elbise + ince lacivert hırka, inci kolye, gözlük yok |
+| Jale (V6) | kısa düz kızıl saç, sade siyah elbise, bileğinde iğnelik |
+| Haldun (V6) | kır şakaklar, ince çerçeveli gözlük, gri takım, gevşek lacivert kravat |
+| Recep (V6) | tombul, kısa kıvırcık kır saç, bıyık/sakal yok, koyu yeşil yün yelek |
+| Dilek (V6) | kısa kâküllü siyah saç, hardal kazak + açık pembe önlük, beyaz mezura, ağzında iğneler |
+| Tahsin (V6) | ince uzun, gür dalgalı beyaz saç, temiz traşlı, kalın gözlük, mürekkepli önlük |
 
 Yeni vakada yeni karakter → buraya eklenir (sahibinin onayıyla).
 
@@ -69,13 +75,44 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
    (SR-B); kıyafet **kartı** referans verilir, kıyafet sözle tarif edilmez (SR-C, 5. parça I); ifade figürü nesnesiz,
    nesneli poz ayrı anahtar, kare tek an (SR-D); bakışın yönü/hedefi ve ifadeyi kardeşlerinden ayıran şey yazılır
    (SR-I, SR-J); karar karesi SONUÇ metninin asıl anı (SR-K).
+9. **Yeni karakter eski BÜTÜN figürlerle yan yana karşılaştırılır (13 Kasım 2026, sahibi).** İstemden önce
+   `kaynak/yeni_gorsel/figur_*_normal.webp` temas sayfası + önceki vakaların formlarındaki tarifler. Formdaki tarif de
+   benzetebilir (V6'da Müzeyyen = Nadide, Dilek = Gülsüm, Tahsin = Sarkis/Rıza çıktı): benzerse sahibine yeni görünüş öner,
+   metinde geçen eşyayı koru. İstemde "X'e (ayırıcı özelliği) benzemiyor" yazılır. Benzerlik `istem_kontrol.sh`'ın
+   yakalayamadığı şeydir.
+10. **Elde yalnız metindeki nesne (SR-D):** temel figüre de "rahat dursun" diye mendil, makas, bez verilmez; `## Satırlar`'da
+   geçmiyorsa eller boş.
 
 ## Komut: `vaka <N> resimlerini üret`  (asıl komut — döngü sahibine sormadan yürür)
 
-**Döngüyü arka planda başlat:** `cd uretim && DONGU_LOG=<scratchpad> ./dongu.sh <N>` (run_in_background). Betik referansı hazır
-olan her resmi sırayla Codex'e ürettirir (`codex exec --approve-for-me … < /dev/null`; stdin kapalı değilse Codex takılır),
-kuyruk boşalınca çıkar. Aynı anda ikinci bir Codex çalıştırma. **Durdurmak için `touch uretim/v<N>/DUR`** (TaskStop
-Windows'ta kabuğu öldürmez; sonra kalan `codex`/`bash` süreci var mı bak). Döngü çalışırken sen:
+**Önce kontrol listesi (13 Kasım 2026, sahibinin isteği):** `cd uretim && ./istem_kontrol.sh v<N>/prompts/*.md` — çıkış 0
+olmadan üretim başlatılmaz. Döngü de her istemi bundan geçirir; geçmeyeni ÜRETMEZ (`$DONGU_LOG/kontrolden_gecmedi.txt`).
+Liste mekanik olanı yakalar (Satırlar, zemin, iki zemin denemesi, "X'e benzemiyor", kart referansı, dekolteli referans,
+5 referans sınırı); anlam (yüz satıra uyuyor mu, Nurcan, eski karakterlere benzerlik) yine elle okunur.
+
+**Döngüyü arka planda başlat:** `cd uretim && KOL=2 DONGU_LOG=<scratchpad, /c/… biçiminde> ./dongu.sh <N>` (run_in_background).
+Betik referansı hazır olan her resmi Codex'e ürettirir (`codex exec --approve-for-me … < /dev/null`; stdin kapalı değilse
+Codex takılır), kuyruk boşalınca çıkar. `KOL=2`: iki Codex aynı anda, her biri bir resmi kilitler (`kilit/`), kayıt kol başına
+`kayit/kol<k>.md`. Süre ve sonuç `$DONGU_LOG/zaman.tsv`'ye yazılır. `SADECE="3 3z 10"` yalnız o numaraları üretir.
+Kota/hız sınırı mesajında kol `BEKLE` sn (varsayılan 900) bekleyip sürer. Döngü çalışırken ikinci bir döngü başlatma.
+**Durdurmak için `touch uretim/v<N>/DUR`** (TaskStop Windows'ta kabuğu öldürmez; sonra kalan `codex`/`bash` süreci var mı bak).
+
+**Ölçüm (13 Kasım 2026, ChatGPT Plus):** resim başına ~95–115 sn; 2 kolda resim başına süre aynı (iş iki katı). Kota:
+resim başına 5 saatlik sınırın ~%1,2'si (~80 resim / 5 saat), haftalık sınırın çok azı. Sınırı hız değil 5 saatlik kota
+koyuyor: 2 kol ~1 sa 10 dk'da doldurur, sonra döngü bekler. Gecede (~10 sa) ~160 resim. Kota dolunca Codex'in verdiği
+mesaj henüz görülmedi; ilk gece `zaman.tsv`'deki SINIR satırına ve logda mesajın metnine bak, `sinir_mi` desenini düzelt.
+
+**Tuzak (13 Kasım 2026):** döngüyü sahte Codex'le denerken PATH'e Windows yolu (`C:/…`) verme — iki nokta PATH'i böler,
+gerçek Codex çalışır ve kota harcar. Deneme kopyası klasörünü (`v99`) komut sonunda `rm -rf` ile silme: içinde gerçek
+resim olabilir (o gün 4 resim böyle silindi, `~/.codex/generated_images/`'tan geri alındı — Codex her resmin kopyasını
+orada tutar).
+
+**İki zemin denemesi (H4):** her yeni karakter temeli için `G<n>.md` (asıl zemin) ve `G<n>z.md` (aday zemin) istemi olur;
+ikisi üretilir, `arac_kes.js` + `arac_yanyana.js` ile kesilip başı büyütülür, saç kenarı temiz olan seçilir. Seçilen
+`onayli/G<n>.png` olur (z seçildiyse o dosya `G<n>.png` adıyla); öbürü `red/`'e. O karakterin bütün ifadeleri o zemini alır
+(istemlerine o renk yazılır).
+
+Döngü çalışırken sen:
 1. `uretilen/`'e geleni denetle (aşağıda). Onayladıkça yeni resimlerin önü açılır; döngü çıktıysa yeniden başlat.
    Codex 5 dakikadan uzun beklerse: `uretim_kaydi.md`'nin sahibine bak (BIRIKIM §3.4).
 2. Temel onaylanınca gereken baş kırpığını/şeridi hazırla (`referanslar/`); hazırlanmayan referansı bekleyen resim döngüye girmez.

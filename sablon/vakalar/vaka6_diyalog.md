@@ -214,7 +214,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: mektuptaki söz Jale'nin sözü (yanıltır). Müzeyyen'i gösteren bilgi yok: terziliği yalnız F'de söylenir; salonda dikişe dair hiçbir şey görünmez (Nurcan, görsel).
 
 *Üsküdar. Apartmanın üst katında bir salon: masalarda dantel örtüler, vitrinde porselen fincanlar.* {arka: A47, mekan}
-*Kısa gümüş saçlı, bordo hırkalı bir kadın; boynunda zincirli gözlük, elinde bir tepsi börek.* {gir: muzeyyen, gi: normal}
+*Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.* {gir: muzeyyen, gi: normal}
 **MÜZEYYEN [normal]:** Cengo! Oğlum! Gel, gel; börek yeni çıktı. {gir: muzeyyen, kime: cengo}
 **CENGO [gulen]:** Müzeyyen anne. Ellerine sağlık. {kime: muzeyyen}
 **MÜZEYYEN [normal]:** Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi. {kime: cengo}

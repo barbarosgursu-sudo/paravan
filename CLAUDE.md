@@ -6,6 +6,9 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
+> ### 🖼️ VAKA 6 RESİMLERİ (13 Kasım 2026): Parti 1 hazır — sahibi "başla" deyince `uretim/v6/DURUM.md` adımları.
+> ### Codex 2 kolla (`KOL=2 ./dongu.sh 6`); her istem önce `uretim/istem_kontrol.sh`'tan geçer, geçmeyen üretilmez.
+>
 > ### 👥 ROL AYRIMI (11 Kasım 2026): iş bir ortakla paylaşıldı — kim neye karar verir: `kaynak/DEVIR.md` → "11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ" bölümü.
 >
 > ### ✅ VAKA 3'ÜN TÜRKÇESİ DONDU (9 Kasım 2026) — Vaka 2 dondu (16 Ekim 2026)

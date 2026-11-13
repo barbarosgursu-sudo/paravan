@@ -317,6 +317,15 @@ denetimi buna göre yapar. (Vaka 3 dersi: 67 resim tek tek onaylandı, oyunda bo
 | Sedat | 0,92 |
 | Ayla | 1,00 |
 | Rüstem | 0,95 |
+| Müzeyyen (V6) | 1,00 |
+| Jale (V6) | 1,00 |
+| Haldun (V6) | 1,02 |
+| Eylül (V6) | 0,94 |
+| Recep (V6) | 0,94 |
+| Dilek (V6) | 0,92 |
+| Tahsin (V6) | 1,00 |
+
+*(V6 satırları 13 Kasım 2026'da formdaki boy tarifinden konan başlangıç değerleri; temel onayında `arac_yanyana.js --oran` ile ölçülüp düzeltilir.)*
 
 Yeni karakter tabloya önce eklenir, sonra istemi yazılır.
 

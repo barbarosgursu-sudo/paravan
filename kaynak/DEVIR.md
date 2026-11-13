@@ -8,6 +8,39 @@
 
 ---
 
+## 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+
+**Barbaros'un kararı (13 Kasım):** Vaka 6'nın resimlerine geçildi (dünkü "V6–8 resimsiz" planının istisnası) ve aynı iş
+Codex'in gece üretim kanalının denemesi. Hedef düzen: gündüz bütün vakaların temelleri üretilir, Barbaros onaylar; gece
+kalan resimler Codex'le üretilir ve denetlenir; sabah Codex'in üretemediği (filtre) resimler vaka vaka Barbaros'a, o web'de
+üretir; akşam döngü kalandan sürer.
+
+**Yeni pencerede Barbaros "başla" deyince:** `uretim/v6/DURUM.md` → "Yeni pencerede başla denince" adımlarını harfiyen uygula.
+Özet: `git pull` → kök `CLAUDE.md`, bu bölüm, `uretim/CLAUDE.md`, `uretim/v6/DURUM.md`, `LISTE.md` → `./istem_kontrol.sh
+v6/prompts/*.md` (çıkış 0) → saat satırı (`vaka6_baslangic.md` §3) → `KOL=2 ./dongu.sh 6` arka planda → gelen her resmi
+denetle → temelleri Barbaros'a onaya.
+
+**Bugün yapılanlar:**
+- `uretim/dongu.sh` paralel kol (`KOL=2`, kilit, kol başına kayıt `kayit/kol<k>.md`, `zaman.tsv`, kota beklemesi, `SADECE`).
+- `uretim/istem_kontrol.sh`: istem kontrol listesi; döngü geçmeyen istemi üretmez. Sebep: ilk 13 istem kuralların yarısıyla
+  yazıldı (Satırlar, iki zemin, "benzemiyor", boy tablosu atlandı), 7 resim boşa gitti. Barbaros: "kuralları baştan tam
+  uygulamayacaksan her şeyi iki kere üretmek zorunda kalacağız."
+- Ölçüm (ChatGPT Plus): resim ~95–115 sn, 2 kolda süre aynı; resim başına 5 saatlik kotanın ~%1,2'si → gecede ~160 resim.
+  Ayrıntı `uretim/CLAUDE.md` → "Ölçüm".
+- Görünüş değişti (Barbaros onayı): Müzeyyen (Nadide'ye benziyordu; dikiş çantası da Nurcan sızıntısıydı), Recep, Dilek,
+  Tahsin — `vaka6_form.md` §16, `vaka6_diyalog.md` (Müzeyyen'in tarif satırı), veri yeniden yazıldı; doğrulayıcı PASS,
+  iki derleme, testler geçti, eski `index.html` aynı.
+- `5_gorsel_sistemi.md` H2'ye V6 karakterleri (başlangıç değerleri), `uretim/CLAUDE.md`'ye kural 9–10 (eski karakterlerle
+  karşılaştırma, elde yalnız metindeki nesne) ve yeni karakter sabitleri.
+
+**Barbaros'a açık sorular (üretimi bekletmiyor):**
+1. Konuk kıyafet kartı altı konuğa mı, yalnız karede görünenlere mi (Müzeyyen, Jale, Dilek)? — Parti 2'den önce.
+2. `uretim/v6/satir_resim.md`'deki 29 bayrak ve Müzeyyen'in iki satırı (börek tepsisi pozu; "Kanıtınız ne?" güler yüzle) —
+   Parti 3'ten (ifadeler, kareler) önce.
+
+**Bu bilgisayarda yerel not:** `git stash` içinde "eski yerel Vaka 5 değişiklikleri" duruyor (13 Kas; GitHub'daki Vaka 5
+daha yeni olduğu için kenara alındı). Gerekmiyorsa Barbaros'a sorup `git stash drop`.
+
 ## 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 Ortak Onay 2'de Vaka 6'yı denetledi, 8 satır düzeltti ve "metin ve senaryo tamam" dedi. Rol ayrımına göre hikâye onayı
