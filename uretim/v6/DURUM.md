@@ -26,6 +26,16 @@ BAŞLAMADI — sahibi yeni pencerede "başla" diyecek.
 | haftalık kota | 7 resim < %1 |
 | hız sınırı / kota mesajı | görülmedi |
 
+## Kota kaydı — Vaka 6 üretimi (sahibinin isteği, 13 Kasım 2026)
+
+Amaç: bir vakanın resimlerinin iki aboneliğin kotasından ne kadar yediğini görmek. Her parti başında ve sonunda sahibi iki
+ekranın değerini verir (ChatGPT → Ayarlar → Kullanım; Claude → Ayarlar → Kullanım), buraya satır eklenir. Sıfırlanma
+arada olursa not düşülür (fark o zaman iki parçadan toplanır).
+
+| an | saat | ChatGPT 5 sa (kalan) | ChatGPT haftalık (kalan) | Claude oturum (kullanılan) | Claude haftalık (kullanılan) | not |
+|---|---|---|---|---|---|---|
+| Parti 1 öncesi (başlangıç) | 13 Kas 14:18 | %92 (sıfırlanma ~17:09) | %99 (6 gün 21 sa) | %52 (sıfırlanma 16:00) | %7 (sıfırlanma Cuma 11:00) | ChatGPT Plus, Claude Pro. ChatGPT'deki %8 sabahki 7 deneme resminden; Claude'daki %52 bu oturumun bayrak/kural işi |
+
 ## Geçmiş
 
 - 12:08–12:12: G3, G4, G5, G10 kazara 2 kolla (bkz. `uretim_kaydi.md`). 12:14–12:18: G7, G8, G9 1 kolla.
