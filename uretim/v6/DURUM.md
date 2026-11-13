@@ -7,7 +7,9 @@
 - **Bekleyen:** `uretilen/G18.png` (Cengo temeli, 3. deneme: saç koyu, gömlek pürüzsüz). Araç ŞÜPHELİ (+0,004) — bilinen sınır: düz,
   pürüzsüz açık gömlek gövde puanını düşürüyor; gözle çapaya (v3 G4) çok yakın. **Sahibinin kararı bekleniyor.** G18 onaylanmadan
   Cengo ifadeleri (G34–G41) ve Cengo'lu kareler başlamaz.
-- **Açık soru (sahibi):** Eylül'ün kot ceketinde köşeli fırça dokusu var (G6, G42–G45); kabul mü, yeniden mi?
+- **Kota yenilenince ilk iş (sahibi, 13 Kasım 19:35):** Eylül'ü G18'de işe yarayan ayarla yeniden üret: kot ceket ve pantolonda fırça
+  dokusu bir tık AZ, kumaş pürüzsüz ve yumuşak geçişli; boya dokusu yüzde ve saçta; saç koyu kahve kalsın. Sıra: önce G6 (temel) →
+  sahibine çapayla yan yana → onaylanırsa G42–G45 (4 ifade) aynı notla yeniden. Eski onaylılar `red/*_kot.png`'ye taşınır.
 - **Ders:** "görünür fırça darbesi, dokulu boya" vurgusu düz kumaşta kırışık/kâğıt dokusu yapıyor (G18 1. deneme, G86 1. deneme).
   Kural taslağı: doku yüz/saç/ışıkta, kumaş "pürüzsüz, yumuşak geçişli". `ISTEM_KALIPLARI.md`'ye henüz yazılmadı.
 - **Araç için not:** figürde tarz puanı gövdeden; düz geniş kumaşta yanlış ŞÜPHELİ verebilir → yüz+gövde birlikte düşünülmeli (sonraki iş).
