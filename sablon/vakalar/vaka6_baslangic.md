@@ -29,7 +29,7 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 
 | ara | durdu | başladı | süre |
 |---|---|---|---|
-| 1 | 12 Kas 19:15 | | |
+| 1 | 12 Kas 19:15 | 13 Kas 08:30 | 795 dk |
 
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
@@ -38,3 +38,4 @@ Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma *
 | 2 Onay 1 | 12 Kas 18:12 | 12 Kas 18:27 | ~2 dk (5 soru; 1'i düzeltmeyle) | ~8 dk (işleme) | Eylül 16 (Cengo baba olduğunda reşit), Cengo–Gamze evliydi; ek: Eylül Peri'yi kıskanır, Gizem'in rolü büyür; kanon 6 madde |
 | 3–4 Diyalog + veri + künye | 12 Kas 18:28 | 12 Kas 18:41 | 0 | ~13 dk | diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 |
 | 5 Görselsiz tur + taramalar | 12 Kas 18:43 | 12 Kas 19:02 | 0 | ~19 dk | araca V6 eklendi (genel izin); 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek iki kapanış) hatasız, kasa hesapları tutuyor; sızıntı 40 yol/1294 ekran temiz; elle okumada 2 sızıntı düzeldi (Jale'nin MASUM satırı; bank itirafa girdi, Eylül'ün mesajından çıktı); bulanık tarama 2 netleştirme |
+| 6–7 Onay 2, hikâye donar | 13 Kas 08:30 | | | | ortak oynuyor/okuyor (saat ortağın sözüyle 08:30'dan işliyor) |

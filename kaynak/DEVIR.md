@@ -28,7 +28,7 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 (`7_uretim_sureci.md`), **resimsiz** (adım 8 ve sonrası yok). Kim neye karar verir: aşağıda "İŞ ARKADAŞA DEVREDİLDİ".
 
 **Vaka 6 başladı (12 Kasım 2026, 17:57; ortak):** "İsimsiz Mektuplar" seçildi. Kız Eylül (Üsküdar); Gamze, Haldun Bey,
-Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). **Adım 3–4 bitti:** diyalog + veri + künye; doğrulayıcı PASS (yeni uyarı: V6 girişi 56 replik, K17). **Adım 5 bitti** (görselsiz tur, sızıntı ve bulanık tarama temiz). Sıradaki: **Onay 2** — ortak Vaka 6'yı oynar. **Saat duruk** (12 Kas 19:15, ortağın sözüyle; ara 1).
+Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). **Adım 3–4 bitti:** diyalog + veri + künye; doğrulayıcı PASS (yeni uyarı: V6 girişi 56 replik, K17). **Adım 5 bitti** (görselsiz tur, sızıntı ve bulanık tarama temiz). Sıradaki: **Onay 2** — ortak Vaka 6'yı oynar. Saat 12 Kas 19:15'te durdu, **13 Kas 08:30'da yeniden başladı** (ortağın sözüyle; ara 1 = 795 dk). Onay 2 sürüyor.
 **araç: Vaka 6 eklendi** — `arac_yeni_tur.js` yolları: `[sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]` (Vaka 1–5 önce hızlı oynanır). `CLAUDE.md`'deki tur komutu satırına V6 eklenmedi (CLAUDE.md Barbaros'ta) — eklemek istersen yollar burada.
 **Barbaros'a bilgi:** `test_yeni_v1.js` "tanımsız kare" örneği `K99` idi; V6 ile K99 gerçek kare oldu, örnek `K999` yapıldı (yalnız örnek numarası).
 **Barbaros'a bilgi:** ortak kanonda Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda reşit olsun; Cengo 34 kaldı); Cengo ile Gamze evliymiş. Yaş oyun metninde geçmiyordu. `YENI_OYUN_SEZON.md`'deki "on yedi" eski kaldı.
