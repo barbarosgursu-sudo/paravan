@@ -18,7 +18,12 @@ yer dönüyorsa farklı açı; `istem_kontrol.sh` `Kompozisyon:` arar). `dongu.s
 **Sıradaki:** sahibinin onayı → Parti 2 (Peri/Cengo temel figürleri karttan; Müzeyyen, Jale, Dilek kıyafet kartları) ve
 Parti 3 (ifadeler, kareler, 11 ek resim, Eylül G6). İstemleri yazılmadı; §7a ve SR-M ile yazılacak.
 
-**13 Kasım 2026, 15:49 — PARTİ 2: 4/5 ONAYLI, G17 WEB'DE.** 15:39 istemler yazıldı (G17–G21), 15:43–15:49 üretim (2 kol, 5
+**13 Kasım 2026, ~16:00 — PARTİ 2: 5/5 ONAYLI (G17 sahibi web'de üretti, denetimden geçti).** ⚠ GÖMME NOTU: G17'de mavi kot
+gri-mavi zemine benziyor; `arac_kes --profil peri` kotu deliyor (kırıntı 1858 px). `konuk_beyaz_delik` eşiği kotu koruyor
+(65 px) ama Peri'nin sabit çerçevesini kullanmıyor → gömmeden önce `arac_kes.js`'e Peri çerçevesi + beyaz_delik eşiği
+(ör. `peri_beyaz_delik` profili) eklenmeli. Aynı sorun Parti 3'teki bütün `peri.mesai.*` ifadelerinde olacak; zemin
+gri-mavi kalır (kızıl saç), çözüm kesimde.
+(önceki durum:) **15:49 — PARTİ 2: 4/5 ONAYLI, G17 WEB'DE.** 15:39 istemler yazıldı (G17–G21), 15:43–15:49 üretim (2 kol, 5
 Codex çalışması). Onaylı: G18 (Cengo ütülü temel), G19/G20/G21 (Müzeyyen, Jale, Dilek kartları). **G17 (Peri mesai temeli)
 iki kez güvenlik filtresine takıldı** (output: sexual) → web paketi `WEB_G17.md` sahibine verildi; sonuç
 `uretilen/G17.png` olarak gelince denetlenir. Web'de de takılırsa sahibine sorulacak: çekiciliği bir kademe hafifletmek mi,
