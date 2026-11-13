@@ -14,7 +14,6 @@
 `arac_satir_resim.js` (13 Kasım 2026, V6 dört yol). Codex bu bölümü istem metnine katmaz.
 
 - **jale**: Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze "beş hafta sonra cumartesi" dedi.
-- **peri**: İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş.  _(dinliyor)_
 
 ## Kontrol
 

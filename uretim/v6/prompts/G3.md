@@ -18,23 +18,6 @@
 - **muzeyyen**: Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?
 - **peri**: Mektupları kim yazdı, biliyorum. Söylemeye geldim.  _(dinliyor)_
 - **peri**: Müzeyyen Hanım. Mektupları siz yazdınız.  _(dinliyor)_
-- *anlatı*: Kısa gümüş saçlı, bordo hırkalı bir kadın; boynunda zincirli gözlük, elinde bir tepsi börek.  _(dinliyor)_
-- **muzeyyen**: Cengo! Oğlum! Gel, gel; börek yeni çıktı.
-- **cengo**: Müzeyyen anne. Ellerine sağlık.  _(dinliyor)_
-- **muzeyyen**: Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi.
-- **peri**: Peri. Ortağıyım. Sadece ortağı.  _(dinliyor)_
-- **muzeyyen**: Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu.
-- **muzeyyen**: Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim.
-- **muzeyyen**: Ama şimdi keşke o güzel günlere geri dönsek.
-- **peri**: On sekizinde, Cengo? Ben on sekizimde taç takıyordum.  _(dinliyor)_
-- **peri**: Mektupları siz de gördünüz mü, Müzeyyen Hanım?  _(dinliyor)_
-- **muzeyyen**: "Herkes öğrenecek" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın.
-- **cengo**: (ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?  _(dinliyor)_
-- **muzeyyen**: Hiç görmedim. Görmek de istemem.
-- **peri**: Cengo, gömleğine börek döküyorsun.  _(dinliyor)_
-- **muzeyyen**: Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?
-- **peri**: …Elimde bir şey var, ama sizi ikna edecek kadar değil.  _(dinliyor)_
-- **peri**: Cengo. Mektupları sen yazdın.  _(dinliyor)_
 
 ## Kontrol
 

@@ -13,10 +13,9 @@
 
 `arac_satir_resim.js` (13 Kasım 2026, V6 dört yol). Codex bu bölümü istem metnine katmaz.
 
-- *anlatı*: Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.  _(dinliyor)_
-- **peri**: İyi günler. Bu apartmana gelen mektupları soracaktık.  _(dinliyor)_
 - **recep**: Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar.
 - **recep**: Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o.
+- **peri**: Mektuplar nasıl geldi, efendim? Postacı mı getirdi?  _(dinliyor)_
 - **recep**: Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış.
 - **recep**: Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü.
 - **recep**: İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular.
@@ -24,7 +23,7 @@
 
 ## Kontrol
 
-Kısa KIVIRCIK kır saç · BIYIK ve SAKAL YOK · tombul · KOYU YEŞİL yün yelek · elinde süpürge · Rıza\'ya (kasket, sakal) ve Ferruh\'a (bıyık, papyon) benzemiyor · zemin açık bej
+Kısa KIVIRCIK kır saç · BIYIK ve SAKAL YOK · tombul · KOYU YEŞİL yün yelek · eller BOŞ (süpürge yok) · Rıza\'ya (kasket, sakal) ve Ferruh\'a (bıyık, papyon) benzemiyor · zemin açık bej
 
 ## İstem
 
@@ -35,7 +34,7 @@ Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı 
 
 Recep Efendi: altmışlarında, kısa boylu, TOMBUL, yuvarlak yüzlü, güler yüzlü bir apartman kapıcısı. Kısa, sık, KIVIRCIK kır saç. Temiz traşlı: BIYIK YOK, SAKAL YOK. Gür kaşlar, kırmızımsı yanaklar. Açık bej, düz bir gömlek, üstünde düğmeli, KOYU YEŞİL bir yün yelek; koyu kahve kumaş pantolon. Rıza'ya (kasketli, sakallı, lacivert yelekli yaşlı adam) ve Ferruh'a (bıyıklı, papyonlu) benzemiyor.
 
-Poz: TAM İKİ KOL, İKİ EL. İki eliyle uzun saplı bir sokak süpürgesini önünde dik tutuyor; süpürgenin başı kadrajın altında kalıyor.
+Poz: TAM İKİ KOL, İKİ EL. Kolları iki yanında rahat, elleri BOŞ; elinde süpürge ya da başka hiçbir nesne yok.
 
 Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
 

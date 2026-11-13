@@ -70,8 +70,10 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
   parmağıyla işaret ediyorsa konuşan o sanılır — Vaka 3, Gizem konuşurken Peri'nin işaret eden figürü).
    - **Gömmeden sonra:** bütün yollar `--hepsi` ile oynanır, araç yeniden çalışır; her bayrak ve her satırın ekranı
   metniyle okunur, sonuç sahibine tablo hâlinde verilir (satır · metin · uyuyor/uymuyor · neden).
-8. **Satır–resim sözleşmesi SR-A…L (sahibi, 8 Kasım 2026): `sablon/5_gorsel_sistemi.md` C0.** İstem yazmadan önce:
-   bayrakların hepsi kapalı (SR-E; "kısmen uyuyor" da sahibine); kıyafet hâli tablosu var ve karenin referansı o hâlden
+8. **Satır–resim sözleşmesi SR-A…M (sahibi, 8 Kasım 2026): `sablon/5_gorsel_sistemi.md` C0.** İstem yazmadan önce:
+   bayrakların hepsi kapalı (SR-E). **13 Kasım'dan beri kuralla (SR-M):** araç OTO/İŞ/SOR ayırır; İŞ'i sen diyalogda kurala
+   göre YALNIZ ETİKETLE çözersin (`[ifade]`, `{kare}`, `{gi}`; onaylı söz değişmez, gerekirse yeni poz/kare; `arac_diyalog.js`; sonra `node arac_soz_farki.js <diyalog>` "söz farkı 0" demeli), tur + araç yeniden koşar, İŞ sıfırlanana dek; sahibine yalnız SOR ve yeni resim
+   sayısı gider. Komut: `node arac_satir_resim.js <dokum…> --vaka V<N> --karar ../sablon/vakalar/vaka<N>_bayrak.md`; kıyafet hâli tablosu var ve karenin referansı o hâlden
    (SR-B); kıyafet **kartı** referans verilir, kıyafet sözle tarif edilmez (SR-C, 5. parça I); ifade figürü nesnesiz,
    nesneli poz ayrı anahtar, kare tek an (SR-D); bakışın yönü/hedefi ve ifadeyi kardeşlerinden ayıran şey yazılır
    (SR-I, SR-J); karar karesi SONUÇ metninin asıl anı (SR-K).

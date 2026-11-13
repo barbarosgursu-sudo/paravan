@@ -38,6 +38,10 @@ bej · Haldun, Dilek açık bej / gri-mavi. Kartlar açık gri (kesilmez).
 | G15 | arka plan | Karaköy matbaası | `A48` | üretilecek |
 | G16 | arka plan | Bahariye Caddesi, çiçekçi (kovalamaca) | `A49` | üretilecek |
 
-**Parti 3'ten önce kapanacak (SR-E, sahibine):** `satir_resim.md`'deki 29 bayrak (EYLEM 8, JEST 9, HİTAP 12) ve Müzeyyen'in
-iki satırı: girişte elinde börek tepsisi (nesneli ayrı poz gerekir) ve "Ben mi, kızım? … Kanıtınız ne?" satırının
-`normal` (güler) yüzle eşleşmesi (`gergin` uygun).
+**Bayraklar KAPANDI (13 Kasım 2026, SR-M; sahibinin kararı: kuralla, en az soru; onaylı sözler değişmez, çözüm resimle).** 29 bayrağın 12'si
+motor kuralıyla (Peri'nin `kime`si ekrana gelir), gerisi SR-M ile; sahibine soru kalmadı; diyalogda yalnız etiketler değişti (söz farkı 0).
+Parti 3'e eklenen **11 yeni resim**: `muzeyyen.tepsi`, `muzeyyen.tepsi_uzgun`, `cengo.utulu.borek`, `gizem.triko_tepsi`,
+`gizem.triko_tepsi_telefon`, `recep.supurge`, `jale.makbuz`, `jale.uzaniyor`, `K99j` (Jale yolunun kaçışı), `K113` (Müzeyyen kâğıdı
+hırkasına koyuyor), `K114` (Jale ıslak eteğe bakıyor). Gizem'in `triko`/`triko_isveli`'si V4'ten hazır, V6'da artık kullanılmıyor; `muzeyyen.uzgun` da hiçbir satırda kalmadı, listeden çıktı (yerine `tepsi_uzgun`). Oyunda ~80 resim.
+Değişen tarif: `D18` (Eylül zarfları masaya koyuyor), `K110`, `K112` (Cengo yaprağı alıp cebine koyar, 3 satır). Recep'in temeli (G7)
+artık eli boş; süpürge `recep.supurge`'de. Salonda (G14) ikinci tepsi yok. "Kanıtınız ne?" → `muzeyyen.gergin`. Güncel liste: `satir_resim.md`.

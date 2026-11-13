@@ -258,7 +258,10 @@ function vnSatirGoster(satir){
   const konukMu = x => !!x && x !== "peri" && x !== "cengo" && !!SAHNE_KANON.figurler[x];
   const konukKonuga = konukMu(k) && konukMu(satir.kime) && satir.kime !== k;
   if(konukKonuga){ vn.mevcut.add(k); vn.mevcut.add(satir.kime); vn.sol = k; vn.sag = satir.kime; }
-  else if(k === "peri") vn.sol = "peri";
+  // Peri birine konuşuyorsa ({kime: x}) o kişi sağa gelir — sahnedeyse (SR-A; 13 Kasım 2026, sahibinin kararı:
+  // hitap bayrakları kuralla kapanır). Cengo→Peri'nin aynası; ekrandaki konuk o satırda çekilir, konuşunca döner.
+  else if(k === "peri"){ vn.sol = "peri";
+    if(satir.kime && satir.kime !== "peri" && vn.mevcut.has(satir.kime) && SAHNE_KANON.figurler[satir.kime]) vn.sag = satir.kime; }
   else if(k === "cengo" && konukVar && satir.kime !== "peri"){ vn.sol = "cengo"; vn.mevcut.add(k); }
   else if(figur){ vn.mevcut.add(k); vn.sag = k; if(k === "cengo" || vn.sol === k) vn.sol = "peri"; }
   // Konuk satırında kime: karşısındaki (solda) kim olsun — "Kızım…" Peri'ye.

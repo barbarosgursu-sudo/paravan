@@ -83,7 +83,7 @@
             "salli": ["kas", "gulen"],
             "balikci": ["normal", "kas", "gulen"],
             "simitli": ["kas", "normal", "gulen", "yumusak"],
-            "utulu": ["normal", "kas", "gulen", "yumusak", "sinirli"],
+            "utulu": ["normal", "kas", "gulen", "yumusak", "sinirli", "borek"],
             "duvakli": ["kas", "yumusak"],
             "buruk": ["normal", "yumusak"]
           }
@@ -122,7 +122,9 @@
             "triko_isveli",
             "kirmizi",
             "kirmizi_isveli",
-            "triko_telefon"
+            "triko_telefon",
+            "triko_tepsi",
+            "triko_tepsi_telefon"
           ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
@@ -145,9 +147,9 @@
         "simitci": {"ad": "Simitçi", "ifadeler": ["normal", "ofkeli"]},
         "eylul": {"ad": "Eylül", "ifadeler": ["sevincli", "kiskanc", "gulen", "uzgun", "normal"]},
         "haldun": {"ad": "Haldun", "ifadeler": ["dertli", "normal", "yumusak"]},
-        "muzeyyen": {"ad": "Müzeyyen", "ifadeler": ["normal", "uzgun", "gergin", "itiraf"]},
-        "jale": {"ad": "Jale", "ifadeler": ["soguk", "kacamak", "ofkeli", "normal"]},
-        "recep": {"ad": "Kapıcı", "ifadeler": ["normal", "gulen"]},
+        "muzeyyen": {"ad": "Müzeyyen", "ifadeler": ["normal", "gergin", "itiraf", "tepsi", "tepsi_uzgun"]},
+        "jale": {"ad": "Jale", "ifadeler": ["soguk", "kacamak", "ofkeli", "normal", "makbuz", "uzaniyor"]},
+        "recep": {"ad": "Kapıcı", "ifadeler": ["normal", "gulen", "supurge"]},
         "dilek": {"ad": "Kalfa", "ifadeler": ["normal", "heyecanli"]},
         "tahsin": {"ad": "Tahsin Usta", "ifadeler": ["gulen", "normal"]}
       },
@@ -361,7 +363,10 @@
         "K109",
         "K110",
         "K111",
-        "K112"
+        "K112",
+        "K99j",
+        "K113",
+        "K114"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -5574,7 +5579,7 @@
                 "k": "not",
                 "m": "Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.",
                 "gir": "recep",
-                "gi": "normal"
+                "gi": "supurge"
               },
               {
                 "k": "peri",
@@ -5847,11 +5852,11 @@
                 "k": "not",
                 "m": "Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.",
                 "gir": "muzeyyen",
-                "gi": "normal"
+                "gi": "tepsi"
               },
               {
                 "k": "muzeyyen",
-                "i": "normal",
+                "i": "tepsi",
                 "m": "Cengo! Oğlum! Gel, gel; börek yeni çıktı.",
                 "gir": "muzeyyen",
                 "kime": "cengo"
@@ -5859,23 +5864,23 @@
               {"k": "cengo", "i": "gulen", "m": "Müzeyyen anne. Ellerine sağlık.", "kime": "muzeyyen"},
               {
                 "k": "muzeyyen",
-                "i": "normal",
+                "i": "tepsi",
                 "m": "Bu hanım kim? Eylül anlattı: \"Babamın yanında çok güzel bir kadın var\" dedi.",
                 "kime": "cengo"
               },
               {"k": "peri", "i": "kas", "m": "Peri. Ortağıyım. Sadece ortağı.", "kime": "muzeyyen"},
               {
                 "k": "muzeyyen",
-                "i": "normal",
+                "i": "tepsi",
                 "m": "Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu.",
                 "kime": "peri"
               },
               {
                 "k": "muzeyyen",
-                "i": "normal",
+                "i": "tepsi",
                 "m": "Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim."
               },
-              {"k": "muzeyyen", "i": "normal", "m": "Ama şimdi keşke o güzel günlere geri dönsek."},
+              {"k": "muzeyyen", "i": "tepsi", "m": "Ama şimdi keşke o güzel günlere geri dönsek."},
               {"k": "peri", "i": "kas", "m": "On sekizinde, Cengo? Ben on sekizimde taç takıyordum.", "kime": "cengo"},
               {"k": "cengo", "i": "kas", "m": "Ben de bebek bezi bağlıyordum. İkisi de zor iş.", "kime": "peri"},
               {
@@ -5887,29 +5892,29 @@
               },
               {
                 "k": "muzeyyen",
-                "i": "uzgun",
+                "i": "tepsi_uzgun",
                 "m": "Gördüm. Kızım ağlıyor, ben ağlıyorum. Ama bir sözüne takıldım.",
                 "kime": "peri"
               },
               {
                 "k": "muzeyyen",
-                "i": "uzgun",
+                "i": "tepsi_uzgun",
                 "m": "Mektupta \"herkes öğrenir\" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş."
               },
               {
                 "k": "muzeyyen",
-                "i": "normal",
+                "i": "tepsi",
                 "m": "\"Herkes öğrenecek\" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın."
               },
               {
                 "k": "cengo",
-                "i": "kas",
+                "i": "borek",
                 "m": "(ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?",
                 "kime": "muzeyyen"
               },
-              {"k": "muzeyyen", "i": "normal", "m": "Hiç görmedim. Görmek de istemem.", "kime": "cengo"},
+              {"k": "muzeyyen", "i": "tepsi", "m": "Hiç görmedim. Görmek de istemem.", "kime": "cengo"},
               {"k": "peri", "i": "kas", "m": "Cengo, gömleğine börek döküyorsun.", "kime": "cengo"},
-              {"k": "cengo", "i": "gulen", "m": "Dökmüyorum. Havada yakalıyorum.", "kime": "peri"}
+              {"k": "cengo", "i": "borek", "m": "Dökmüyorum. Havada yakalıyorum.", "kime": "peri"}
             ]
           }
         },
@@ -5984,25 +5989,25 @@
                 "k": "not",
                 "m": "Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.",
                 "gir": "gizem",
-                "gi": "triko_telefon"
+                "gi": "triko_tepsi_telefon"
               },
               {
                 "k": "gizem",
-                "i": "triko_telefon",
+                "i": "triko_tepsi_telefon",
                 "m": "Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı.",
                 "gir": "gizem",
                 "kime": "peri"
               },
-              {"k": "gizem", "i": "triko_telefon", "m": "\"Babam o kadınla gezmeye mi gitti?\" diyor."},
+              {"k": "gizem", "i": "triko_tepsi_telefon", "m": "\"Babam o kadınla gezmeye mi gitti?\" diyor."},
               {"k": "peri", "i": "kas", "m": "İşe gittik. Öyle yaz.", "kime": "gizem"},
               {
                 "k": "gizem",
-                "i": "triko_isveli",
+                "i": "triko_tepsi_telefon",
                 "m": "(yazarak) \"Gezmeye gitti. Ama ben de gittim.\"",
                 "kime": "peri"
               },
               {"k": "peri", "i": "kas", "m": "Ama bu yalan.", "kime": "gizem"},
-              {"k": "gizem", "i": "triko_isveli", "m": "Şimdi geldim ya, tatlım. Doğru oldu.", "kime": "peri"}
+              {"k": "gizem", "i": "triko_tepsi_telefon", "m": "Şimdi geldim ya, tatlım. Doğru oldu.", "kime": "peri"}
             ]
           }
         }
@@ -6207,10 +6212,10 @@
               "gir": "eylul",
               "gi": "kiskanc"
             },
-            {"k": "not", "m": "Gizem çay ocağından elinde bir tepsiyle geliyor.", "gir": "gizem", "gi": "triko"},
+            {"k": "not", "m": "Gizem çay ocağından elinde bir tepsiyle geliyor.", "gir": "gizem", "gi": "triko_tepsi"},
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "triko_tepsi",
               "m": "Misafir mi var? Çay benden. Sen kimsin, güzelim?",
               "gir": "gizem",
               "kime": "eylul"
@@ -6218,7 +6223,7 @@
             {"k": "eylul", "i": "gulen", "m": "Eylül. Cengo'nun kızıyım.", "gir": "eylul", "kime": "gizem"},
             {
               "k": "gizem",
-              "i": "triko_isveli",
+              "i": "triko_tepsi",
               "m": "Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden.",
               "gir": "gizem",
               "kime": "eylul"
@@ -6232,7 +6237,7 @@
             },
             {
               "k": "gizem",
-              "i": "triko_isveli",
+              "i": "triko_tepsi",
               "m": "(Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma.",
               "gir": "gizem",
               "kime": "eylul"
@@ -6250,7 +6255,12 @@
               "i": "uzgun",
               "m": "Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim."
             },
-            {"k": "eylul", "i": "normal", "m": "Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar."},
+            {
+              "k": "eylul",
+              "i": "normal",
+              "m": "Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar.",
+              "kare": "D18"
+            },
             {
               "k": "not",
               "m": "Eylül masaya üç zarf koyuyor. Her birinde katlanmış ince bir kâğıt; kurşun kalemle, büyük harflerle yazılmış.",
@@ -6350,7 +6360,7 @@
             },
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "triko_tepsi",
               "m": "Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız.",
               "gir": "gizem",
               "kime": "eylul"
@@ -6416,7 +6426,7 @@
             {"k": "peri", "i": "kas", "m": "\"O kadın\" kim?", "kime": "gizem"},
             {
               "k": "gizem",
-              "i": "triko_isveli",
+              "i": "triko_telefon",
               "m": "Sensin, tatlım. (yazarak) \"Yanında. Ama ben de buradayım.\"",
               "kime": "peri"
             },
@@ -6458,10 +6468,10 @@
             {"k": "peri", "i": "kas", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
             {"k": "muzeyyen", "i": "gergin", "m": "Ben mi? Kızımın mutluluğunu en çok ben isterim…", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor.", "kime": "muzeyyen"},
-            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
             {
               "k": "jale",
-              "i": "soguk",
+              "i": "makbuz",
               "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
               "kime": "muzeyyen"
             },
@@ -6501,7 +6511,7 @@
             {"k": "peri", "i": "normal", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
             {
               "k": "muzeyyen",
-              "i": "normal",
+              "i": "gergin",
               "m": "Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?",
               "kime": "peri"
             },
@@ -6511,10 +6521,10 @@
               "m": "…Elimde bir şey var, ama sizi ikna edecek kadar değil.",
               "kime": "muzeyyen"
             },
-            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
             {
               "k": "jale",
-              "i": "soguk",
+              "i": "makbuz",
               "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
               "kime": "muzeyyen"
             },
@@ -6569,10 +6579,10 @@
               "gir": "muzeyyen",
               "gi": "gergin"
             },
-            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "soguk"},
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
             {
               "k": "jale",
-              "i": "soguk",
+              "i": "makbuz",
               "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
               "kime": "muzeyyen"
             },
@@ -6624,10 +6634,10 @@
             },
             {
               "k": "jale",
-              "i": "ofkeli",
+              "i": "uzaniyor",
               "m": "(torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün."
             },
-            {"k": "not", "m": "Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
+            {"k": "not", "m": "Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.", "cik": true, "kare": "K99j"}
           ]
         },
         "kovalamaca": {
@@ -6670,7 +6680,8 @@
               "k": "not",
               "m": "Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.",
               "gir": "muzeyyen",
-              "gi": "gergin"
+              "gi": "gergin",
+              "kare": "K113"
             },
             {
               "k": "not",
@@ -6689,10 +6700,11 @@
               "k": "not",
               "m": "Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.",
               "gir": "jale",
-              "gi": "soguk"
+              "gi": "soguk",
+              "kare": "K114"
             },
-            {"k": "jale", "i": "soguk", "m": "Etek ıslak. Kurur.", "kime": "peri"},
-            {"k": "peri", "i": "kas", "m": "Ben de kururum, Jale Hanım.", "kime": "jale"},
+            {"k": "jale", "i": "soguk", "m": "Etek ıslak. Kurur.", "kime": "peri", "kare": "K114"},
+            {"k": "peri", "i": "kas", "m": "Ben de kururum, Jale Hanım.", "kime": "jale", "kare": "K114"},
             {
               "k": "not",
               "m": "Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.",
@@ -6765,10 +6777,15 @@
               "k": "not",
               "m": "Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş."
             },
-            {"k": "not", "m": "Gizem elinde çay tepsisi ve telefonuyla geliyor.", "gir": "gizem", "gi": "triko_telefon"},
+            {
+              "k": "not",
+              "m": "Gizem elinde çay tepsisi ve telefonuyla geliyor.",
+              "gir": "gizem",
+              "gi": "triko_tepsi_telefon"
+            },
             {
               "k": "gizem",
-              "i": "triko_telefon",
+              "i": "triko_tepsi_telefon",
               "m": "Eylül yazdı: \"Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım.\"",
               "gir": "gizem",
               "kime": "cengo"
@@ -6776,7 +6793,7 @@
             {"k": "not", "m": "Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.", "kare": "K110"},
             {
               "k": "gizem",
-              "i": "triko_isveli",
+              "i": "triko_tepsi_telefon",
               "m": "Bir de şunu yazmış: \"O kadın gelmesin.\"",
               "gir": "gizem",
               "kime": "peri"
@@ -6797,16 +6814,24 @@
               "kare": "K111"
             },
             {"k": "not", "m": "Peri saçındaki gül yaprağını alıp Cengo'ya uzatıyor.", "bag": "yuksek", "kare": "K112"},
-            {"k": "peri", "i": "yumusak", "m": "Cengo, ben…", "bag": "yuksek", "kime": "cengo"},
-            {"k": "peri", "i": "yumusak", "m": "…gömleğin çok güzel ütülenmişti.", "bag": "yuksek", "kime": "cengo"},
+            {"k": "peri", "i": "yumusak", "m": "Cengo, ben…", "bag": "yuksek", "kime": "cengo", "kare": "K112"},
+            {
+              "k": "peri",
+              "i": "yumusak",
+              "m": "…gömleğin çok güzel ütülenmişti.",
+              "bag": "yuksek",
+              "kime": "cengo",
+              "kare": "K112"
+            },
             {
               "k": "cengo",
               "i": "yumusak",
               "m": "(yaprağı gömleğinin cebine koyarak) Kızım için.",
               "bag": "yuksek",
-              "kime": "peri"
+              "kime": "peri",
+              "kare": "K112"
             },
-            {"k": "gizem", "i": "triko", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
+            {"k": "gizem", "i": "triko_tepsi_telefon", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
           ]
         }
       }

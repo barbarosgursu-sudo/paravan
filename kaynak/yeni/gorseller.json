@@ -595,7 +595,6 @@
     "haldun.normal",
     "haldun.yumusak",
     "muzeyyen.normal",
-    "muzeyyen.uzgun",
     "muzeyyen.gergin",
     "muzeyyen.itiraf",
     "jale.soguk",
@@ -611,7 +610,18 @@
     "portre_eylul",
     "portre_haldun",
     "portre_muzeyyen",
-    "portre_jale"
+    "portre_jale",
+    "cengo.utulu.borek",
+    "gizem.triko_tepsi",
+    "gizem.triko_tepsi_telefon",
+    "muzeyyen.tepsi",
+    "muzeyyen.tepsi_uzgun",
+    "recep.supurge",
+    "jale.makbuz",
+    "jale.uzaniyor",
+    "K99j",
+    "K113",
+    "K114"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -707,10 +717,13 @@
     "K109": "karar: başarı Cengo'ya",
     "K110": "kapanış: Cengo bilekliğini çeviriyor; Peri şallı; Gizem telefonla",
     "K111": "kapanış: gül yaprağı çöpte, Cengo çıkıyor",
-    "K112": "kapanış: Peri gül yaprağını Cengo'ya uzatıyor",
+    "K112": "kapanış: Peri gül yaprağını Cengo'ya uzatıyor, Cengo alıp cebine koyuyor",
     "portre_eylul": "Eylül (portre)",
     "portre_haldun": "Haldun Bey (portre)",
     "portre_muzeyyen": "Müzeyyen Hanım (portre)",
-    "portre_jale": "Jale Hanım (portre)"
+    "portre_jale": "Jale Hanım (portre)",
+    "K99j": "yüzleşme (Jale yolu): Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor",
+    "K113": "kovalamaca: Müzeyyen torbanın cebinden kâğıdı alıp hırkasının cebine koyuyor",
+    "K114": "kovalamaca sonu: Jale torbayı Cengo'dan alıp gelinliğin ıslak eteğine bakıyor"
   }
 }

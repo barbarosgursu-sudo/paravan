@@ -1,53 +1,42 @@
 # Satır → resim uyumu — V6
 
-Kaynak: dokum/0_sofra_dogru.txt, dokum/1_siparis_zayif.txt, dokum/2_kagit_cengo.txt, dokum/3_cozmez6_jale.txt · 250 farklı satır.
+Kaynak: arac_yeni_tur.js --hepsi, dört yol (0 sofra dogru, 1 siparis zayif, 2 kagit cengo, 3 cozmez6 jale), 13 Kasım 2026 · 250 farklı satır.
 Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER satıra uymalı. Uymuyorsa ayrı ifade/kare gerekir.
+Bayraklar kuralla ayıklanır (`sablon/5_gorsel_sistemi.md` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
 
-## Bayraklar (aday — gözle karar ver)
+**Özet:** OTO 18 · İŞ 0 · SOR 0
+
+## Bayraklar — OTO
 
 | tür | sahne | satır | not |
 |---|---|---|---|
-| EYLEM | V6_giris | not: Peri masasına dönüyor. Kapı çalınıyor. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| EYLEM | V6_giris | not: Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| JEST | V6_giris | gizem: (Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma. | figür: gizem.triko_isveli |
-| HİTAP | V6_giris | peri: Ben kimseye öyle bakmıyorum, Gizem. | gizem ekranda değil; ekranda: peri.mesai.kas, eylul.gulen |
-| JEST | V6_giris | eylul: Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar. | figür: eylul.normal |
-| EYLEM | V6_giris | not: Kapı kapanıyor. Peri Cengo'ya dönüyor. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| EYLEM | V6_giris | not: Gizem içeri giriyor; elinde telefonu. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| JEST | V6_giris | gizem: Sensin, tatlım. (yazarak) "Yanında. Ama ben de buradayım." | figür: gizem.triko_isveli |
-| JEST | V6_ipucu | haldun: Eylül'ün dediği dedektifler. Buyurun. (Cengo'ya) Cengo Bey… Merhaba. | figür: haldun.dertli |
-| HİTAP | V6_ipucu | peri: Bu ailede herkes "sorun değil" diyor. | cengo ekranda değil; ekranda: peri.mesai.kas, haldun.dertli |
-| JEST | V6_ipucu | peri: (banka bakarak) Buradan kapı çok iyi görünüyor, Cengo. | figür: peri.mesai.kas |
-| HİTAP | V6_ipucu | peri: Mektuplar nasıl geldi, efendim? Postacı mı getirdi? | recep ekranda değil; ekranda: peri.mesai.merakli, cengo.utulu.yumusak |
-| HİTAP | V6_ipucu | peri: Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın. | cengo ekranda değil; ekranda: peri.mesai.kas, recep.gulen |
-| EYLEM | V6_yuzlesme | not: Jale elinde makbuzla dönüyor. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| EYLEM | V6_yuzlesme | not: Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| EYLEM | V6_yuzlesme | not: Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| HİTAP | V6_kapanis | peri: Neden söylemedin, Cengo? Bir kızın olduğunu. | cengo ekranda değil; ekranda: peri.tul.normal, gizem.triko_isveli |
-| HİTAP | V6_ipucu | peri: İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş. | cengo ekranda değil; ekranda: peri.mesai.kas, jale.normal |
-| HİTAP | V6_ipucu | peri: Bizim büronun camındaki yazı da ters okunuyor. Demek ondan. | cengo ekranda değil; ekranda: peri.mesai.kas, tahsin.gulen |
-| EYLEM | V6_ipucu | not: Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu. | figür bu eylemi göstermez; kare ya da uygun figür gerekir |
-| JEST | V6_ipucu | gizem: (yazarak) "Gezmeye gitti. Ama ben de gittim." | figür: gizem.triko_isveli |
-| HİTAP | V6_ipucu | peri: On sekizinde, Cengo? Ben on sekizimde taç takıyordum. | cengo ekranda değil; ekranda: peri.mesai.kas, muzeyyen.normal |
-| JEST | V6_ipucu | cengo: (ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne? | figür: cengo.utulu.kas |
-| HİTAP | V6_ipucu | peri: Cengo, gömleğine börek döküyorsun. | cengo ekranda değil; ekranda: peri.mesai.kas, muzeyyen.normal |
-| HİTAP | V6_kapanis | peri: Cengo, ben… | cengo ekranda değil; ekranda: peri.tul.yumusak, gizem.triko_isveli |
-| HİTAP | V6_kapanis | peri: …gömleğin çok güzel ütülenmişti. | cengo ekranda değil; ekranda: peri.tul.yumusak, gizem.triko_isveli |
-| JEST | V6_kapanis | cengo: (yaprağı gömleğinin cebine koyarak) Kızım için. | figür: cengo.buruk.yumusak |
-| HİTAP | V6_yuzlesme | peri: Cengo. Mektupları sen yazdın. | cengo ekranda değil; ekranda: peri.mesai.kas, muzeyyen.normal |
-| JEST | V6_yuzlesme | jale: (torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. | figür: jale.ofkeli |
+| EYLEM | V6_giris | not: Peri masasına dönüyor. Kapı çalınıyor. | SR-M1: giriş/çıkış, bakış — figür ve ifadesi taşır |
+| EYLEM | V6_giris | not: Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor. | SR-M1: giriş/çıkış, bakış — figür ve ifadesi taşır |
+| EYLEM | V6_giris | not: Gizem çay ocağından elinde bir tepsiyle geliyor. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| JEST | V6_giris | gizem: (Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma. | SR-M2: yüz/bakış/ses jesti, ifade taşır (gizem.triko_tepsi) |
+| EYLEM | V6_giris | not: Kapı kapanıyor. Peri Cengo'ya dönüyor. | SR-M1: giriş/çıkış, bakış — figür ve ifadesi taşır |
+| EYLEM | V6_giris | not: Gizem içeri giriyor; elinde telefonu. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| JEST | V6_giris | gizem: Sensin, tatlım. (yazarak) "Yanında. Ama ben de buradayım." | SR-M4: figür nesneyi gösteriyor (gizem.triko_telefon) |
+| JEST | V6_ipucu | haldun: Eylül'ün dediği dedektifler. Buyurun. (Cengo'ya) Cengo Bey… Merhaba. | SR-M3: parantez yalnız hitap işareti |
+| EYLEM | V6_ipucu | not: Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| JEST | V6_ipucu | peri: (banka bakarak) Buradan kapı çok iyi görünüyor, Cengo. | SR-M2: yüz/bakış/ses jesti, ifade taşır (peri.mesai.kas) |
+| EYLEM | V6_yuzlesme | not: Jale elinde makbuzla dönüyor. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| EYLEM | V6_yuzlesme | not: Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor. | SR-M1: giriş/çıkış, bakış — figür ve ifadesi taşır |
+| EYLEM | V6_kapanis | not: Gizem elinde çay tepsisi ve telefonuyla geliyor. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| EYLEM | V6_ipucu | not: Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| JEST | V6_ipucu | gizem: (yazarak) "Gezmeye gitti. Ama ben de gittim." | SR-M4: figür nesneyi gösteriyor (gizem.triko_tepsi_telefon) |
+| EYLEM | V6_ipucu | not: Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek. | SR-M4: ekrandaki figür nesneyi gösteriyor |
+| JEST | V6_ipucu | cengo: (ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne? | SR-M4: figür nesneyi gösteriyor (cengo.utulu.borek) |
+| JEST | V6_yuzlesme | jale: (torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. | SR-M4: figür nesneyi gösteriyor (jale.uzaniyor) |
 
 ## Resim → satırlar
 
-### cengo.buruk.normal (3 satır)
+### cengo.buruk.normal (4 satır)
 
 - *anlatı*: Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.  _(dinliyor)_
 - **gizem**: Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım."  _(dinliyor)_
+- **peri**: Neden söylemedin, Cengo? Bir kızın olduğunu.  _(dinliyor)_
 - **cengo**: Sen de hiç sormadın, Peri.
-
-### cengo.buruk.yumusak (1 satır)
-
-- **cengo**: (yaprağı gömleğinin cebine koyarak) Kızım için.
 
 ### cengo.duvakli.kas (5 satır)
 
@@ -61,6 +50,13 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 
 - **cengo**: Buldum ama, Müzeyyen anne.
 
+### cengo.utulu.borek (4 satır)
+
+- **cengo**: (ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?
+- **muzeyyen**: Hiç görmedim. Görmek de istemem.  _(dinliyor)_
+- **peri**: Cengo, gömleğine börek döküyorsun.  _(dinliyor)_
+- **cengo**: Dökmüyorum. Havada yakalıyorum.
+
 ### cengo.utulu.gulen (8 satır)
 
 - **cengo**: Eylül benim ilk dosyam.
@@ -70,9 +66,9 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **cengo**: Bu çay bahçesinde herkes bir şey saklıyor. Ben de simit sakladım, cebimde.
 - **cengo**: Müzeyyen anne. Ellerine sağlık.
 - **muzeyyen**: Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi.  _(dinliyor)_
-- **cengo**: Dökmüyorum. Havada yakalıyorum.
+- **peri**: On sekizinde, Cengo? Ben on sekizimde taç takıyordum.  _(dinliyor)_
 
-### cengo.utulu.kas (22 satır)
+### cengo.utulu.kas (23 satır)
 
 - **cengo**: Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma.
 - **cengo**: Peri. Ortağım. Bu büroyu beraber işletiyoruz.
@@ -85,19 +81,20 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **cengo**: Merhaba, Haldun Bey. Tebrikler. Galiba.
 - **cengo**: Eylül'e de sordunuz mu, İzmir'de güzel mi diye?
 - **haldun**: Sordum. "Sorun değil" dedi.  _(dinliyor)_
+- **peri**: Bu ailede herkes "sorun değil" diyor.  _(dinliyor)_
 - **cengo**: Sen neredeydin?
 - **dilek**: Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm.  _(dinliyor)_
 - **cengo**: Mektubu kutuya atanı gören olmadı mı?
 - **recep**: Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta.  _(dinliyor)_
+- **peri**: Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın.  _(dinliyor)_
 - **cengo**: Boşanırken Haldun Bey'e "seni rahat bırakmam" demişsiniz.
 - **jale**: Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum.  _(dinliyor)_
 - **jale**: Kader bana Haldun'un eşinin gelinliğini de diktirdi.  _(dinliyor)_
 - **cengo**: Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak.
+- **peri**: Bizim büronun camındaki yazı da ters okunuyor. Demek ondan.  _(dinliyor)_
 - **cengo**: Ben de bebek bezi bağlıyordum. İkisi de zor iş.
-- **cengo**: (ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?
-- **muzeyyen**: Hiç görmedim. Görmek de istemem.  _(dinliyor)_
 
-### cengo.utulu.normal (27 satır)
+### cengo.utulu.normal (28 satır)
 
 - *anlatı*: Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.  _(dinliyor)_
 - *anlatı*: Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.  _(dinliyor)_
@@ -105,7 +102,6 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **cengo**: Otur kızım. Anlat bakalım, ne oldu?
 - **eylul**: Annem evleniyor, baba. Haldun amcayla. İki hafta sonra, cumartesi.  _(dinliyor)_
 - **eylul**: Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim.  _(dinliyor)_
-- **eylul**: Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar.  _(dinliyor)_
 - **eylul**: Annem "babandır" diyor: "Baban bu düğünü istemez." Ben inanmıyorum. O yüzden sana geldim, baba.  _(dinliyor)_
 - *anlatı*: Kapı kapanıyor. Peri Cengo'ya dönüyor.  _(dinliyor)_
 - **peri**: Büyük dedektif, ha?  _(dinliyor)_
@@ -120,12 +116,14 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **recep**: Sen değil misin şu bankın adamı?  _(dinliyor)_
 - **muzeyyen**: Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?  _(dinliyor)_
 - *anlatı*: Fenerbahçe. Denize bakan bir çay bahçesi; masalarda ince belli bardaklar.  _(dinliyor)_
+- **peri**: İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş.  _(dinliyor)_
 - *anlatı*: Karaköy. Mürekkep kokan küçük bir matbaa; köşede eski bir baskı makinesi.  _(dinliyor)_
 - **tahsin**: Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun?  _(dinliyor)_
 - **cengo**: Müzeyyen anne yıllarca terzilik yaptı. Gamze'nin bütün elbiselerini o dikerdi.
 - **peri**: Jale Hanım'ın da gelinlik atölyesi var, Cengo.  _(dinliyor)_
 - *anlatı*: Üsküdar. Apartmanın üst katında bir salon: masalarda dantel örtüler, vitrinde porselen fincanlar.  _(dinliyor)_
 - **muzeyyen**: Cengo! Oğlum! Gel, gel; börek yeni çıktı.  _(dinliyor)_
+- **peri**: Cengo. Mektupları sen yazdın.  _(dinliyor)_
 
 ### cengo.utulu.sinirli (5 satır)
 
@@ -135,7 +133,7 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **eylul**: Ben yaptım! Yedi yaşındayken. Hâlâ takıyorsun, baba!  _(dinliyor)_
 - **cengo**: Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım.
 
-### cengo.utulu.yumusak (15 satır)
+### cengo.utulu.yumusak (14 satır)
 
 - **cengo**: Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum.
 - *anlatı*: Peri masasına dönüyor. Kapı çalınıyor.  _(dinliyor)_
@@ -150,7 +148,6 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - *anlatı*: Peri bir Cengo'ya, bir Haldun'a bakıyor.  _(dinliyor)_
 - **cengo**: Benim. Cumartesileri, Eylül dershaneye çıkarken. Uzaktan bakıyorum, o kadar.
 - **peri**: (banka bakarak) Buradan kapı çok iyi görünüyor, Cengo.  _(dinliyor)_
-- **peri**: Mektuplar nasıl geldi, efendim? Postacı mı getirdi?  _(dinliyor)_
 - **cengo**: Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam.
 
 ### dilek.heyecanli (5 satır)
@@ -175,13 +172,12 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **dilek**: Jale Hanım. Atölyeyi alalı altı ay oldu.
 - **peri**: Jale Hanım mı? Haldun Bey'in eski eşi?  _(dinliyor)_
 
-### eylul.gulen (7 satır)
+### eylul.gulen (6 satır)
 
 - **eylul**: Eylül. Cengo'nun kızıyım.
 - **gizem**: Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden.  _(dinliyor)_
 - **eylul**: Teşekkür ederim, Gizem abla. Ne kadar iyisin.
 - **gizem**: (Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma.  _(dinliyor)_
-- **peri**: Ben kimseye öyle bakmıyorum, Gizem.  _(dinliyor)_
 - **cengo**: Otur kızım. Anlat bakalım, ne oldu?  _(dinliyor)_
 - **eylul**: Tamam, abla.
 
@@ -197,9 +193,8 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **gizem**: Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız.  _(dinliyor)_
 - *anlatı*: Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.  _(dinliyor)_
 
-### eylul.normal (10 satır)
+### eylul.normal (9 satır)
 
-- **eylul**: Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar.
 - **peri**: Nereden geldiler, Eylül?  _(dinliyor)_
 - **eylul**: İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan.
 - **eylul**: Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş.
@@ -228,46 +223,44 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **eylul**: Annem "babandır" diyor: "Baban bu düğünü istemez." Ben inanmıyorum. O yüzden sana geldim, baba.
 - **cengo**: Ben mi? Ben annene mektup mu yazacağım? Bir şey diyeceksem yüzüne söylerim.  _(dinliyor)_
 
-### gizem.triko (6 satır)
-
-- *anlatı*: Gizem çay ocağından elinde bir tepsiyle geliyor.  _(dinliyor)_
-- **gizem**: Misafir mi var? Çay benden. Sen kimsin, güzelim?
-- **eylul**: Eylül. Cengo'nun kızıyım.  _(dinliyor)_
-- **gizem**: Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız.
-- **eylul**: Tamam, abla.  _(dinliyor)_
-- **gizem**: Hıh.
-
-### gizem.triko_isveli (13 satır)
-
-- **gizem**: Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden.
-- **eylul**: Teşekkür ederim, Gizem abla. Ne kadar iyisin.  _(dinliyor)_
-- **gizem**: (Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma.
-- **gizem**: Sensin, tatlım. (yazarak) "Yanında. Ama ben de buradayım."
-- **peri**: Harika. On altı yaşında bir kız beni kıskanıyor.  _(dinliyor)_
-- **gizem**: Bir de şunu yazmış: "O kadın gelmesin."
-- **peri**: Ben bir şey demedim ki.  _(dinliyor)_
-- **peri**: Neden söylemedin, Cengo? Bir kızın olduğunu.  _(dinliyor)_
-- **gizem**: (yazarak) "Gezmeye gitti. Ama ben de gittim."
-- **peri**: Ama bu yalan.  _(dinliyor)_
-- **gizem**: Şimdi geldim ya, tatlım. Doğru oldu.
-- **peri**: Cengo, ben…  _(dinliyor)_
-- **peri**: …gömleğin çok güzel ütülenmişti.  _(dinliyor)_
-
-### gizem.triko_telefon (11 satır)
+### gizem.triko_telefon (7 satır)
 
 - *anlatı*: Gizem içeri giriyor; elinde telefonu.  _(dinliyor)_
 - **gizem**: Eylül vapurdan yazdı: "Babam bugün yemek yedi mi?"
 - **cengo**: Yedim. Simit yedim.  _(dinliyor)_
 - **gizem**: Bir de şunu yazmış: "O kadın hâlâ babamın yanında mı?"
 - **peri**: "O kadın" kim?  _(dinliyor)_
+- **gizem**: Sensin, tatlım. (yazarak) "Yanında. Ama ben de buradayım."
+- **peri**: Harika. On altı yaşında bir kız beni kıskanıyor.  _(dinliyor)_
+
+### gizem.triko_tepsi (9 satır)
+
+- *anlatı*: Gizem çay ocağından elinde bir tepsiyle geliyor.  _(dinliyor)_
+- **gizem**: Misafir mi var? Çay benden. Sen kimsin, güzelim?
+- **eylul**: Eylül. Cengo'nun kızıyım.  _(dinliyor)_
+- **gizem**: Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden.
+- **eylul**: Teşekkür ederim, Gizem abla. Ne kadar iyisin.  _(dinliyor)_
+- **gizem**: (Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma.
+- **peri**: Ben kimseye öyle bakmıyorum, Gizem.  _(dinliyor)_
+- **gizem**: Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız.
+- **eylul**: Tamam, abla.  _(dinliyor)_
+
+### gizem.triko_tepsi_telefon (12 satır)
+
 - *anlatı*: Gizem elinde çay tepsisi ve telefonuyla geliyor.  _(dinliyor)_
 - **gizem**: Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım."
+- **gizem**: Bir de şunu yazmış: "O kadın gelmesin."
+- **peri**: Ben bir şey demedim ki.  _(dinliyor)_
 - *anlatı*: Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.  _(dinliyor)_
 - **gizem**: Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı.
 - **gizem**: "Babam o kadınla gezmeye mi gitti?" diyor.
 - **peri**: İşe gittik. Öyle yaz.  _(dinliyor)_
+- **gizem**: (yazarak) "Gezmeye gitti. Ama ben de gittim."
+- **peri**: Ama bu yalan.  _(dinliyor)_
+- **gizem**: Şimdi geldim ya, tatlım. Doğru oldu.
+- **gizem**: Hıh.
 
-### haldun.dertli (9 satır)
+### haldun.dertli (8 satır)
 
 - *anlatı*: Gri takımlı, kır şakaklı bir adam; kravatı gevşek, alnı terli.  _(dinliyor)_
 - **haldun**: Eylül'ün dediği dedektifler. Buyurun. (Cengo'ya) Cengo Bey… Merhaba.
@@ -277,7 +270,6 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **haldun**: Ertesi sabah ilk mektup kutudaydı.
 - **peri**: Sofradan başka duyan olabilir mi?  _(dinliyor)_
 - **haldun**: Sordum. "Sorun değil" dedi.
-- **peri**: Bu ailede herkes "sorun değil" diyor.  _(dinliyor)_
 
 ### haldun.normal (4 satır)
 
@@ -300,27 +292,25 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **jale**: …Tanıyorum. Gelinliği ben dikiyorum. Bahariye'deki atölyeyi daha altı ay önce aldım.
 - **jale**: Kader işte, hepimizi bir araya getirdi.
 
-### jale.normal (2 satır)
+### jale.makbuz (2 satır)
+
+- *anlatı*: Jale elinde makbuzla dönüyor.  _(dinliyor)_
+- **jale**: Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.
+
+### jale.normal (1 satır)
 
 - **jale**: Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze "beş hafta sonra cumartesi" dedi.
-- **peri**: İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş.  _(dinliyor)_
 
-### jale.ofkeli (4 satır)
+### jale.ofkeli (3 satır)
 
 - **jale**: Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum.
 - **jale**: Kader bana Haldun'un eşinin gelinliğini de diktirdi.
 - **jale**: Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım?
-- **jale**: (torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.
 
-### jale.soguk (17 satır)
+### jale.soguk (12 satır)
 
 - **jale**: Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.
 - *anlatı*: Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.  _(dinliyor)_
-- *anlatı*: Jale elinde makbuzla dönüyor.  _(dinliyor)_
-- **jale**: Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.
-- *anlatı*: Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.  _(dinliyor)_
-- **jale**: Etek ıslak. Kurur.
-- **peri**: Ben de kururum, Jale Hanım.  _(dinliyor)_
 - *anlatı*: Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.  _(dinliyor)_
 - *anlatı*: Kısa kızıl saçlı, sade siyah elbiseli bir kadın; bileğinde bir iğnelik, önünde bir çay.  _(dinliyor)_
 - **jale**: Haldun mu gönderdi sizi? Mektupları ben yazdım sanıyor, değil mi?
@@ -332,12 +322,17 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **cengo**: Boşanırken Haldun Bey'e "seni rahat bırakmam" demişsiniz.  _(dinliyor)_
 - **peri**: Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız.  _(dinliyor)_
 
-### muzeyyen.gergin (5 satır)
+### jale.uzaniyor (1 satır)
+
+- **jale**: (torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.
+
+### muzeyyen.gergin (6 satır)
 
 - **muzeyyen**: Ben mi? Kızımın mutluluğunu en çok ben isterim…
 - **peri**: Elimde iki kanıt var. İkisi de sizi gösteriyor.  _(dinliyor)_
 - **jale**: Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.  _(dinliyor)_
-- *anlatı*: Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.  _(dinliyor)_
+- **muzeyyen**: Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?
+- **peri**: …Elimde bir şey var, ama sizi ikna edecek kadar değil.  _(dinliyor)_
 - *anlatı*: Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.  _(dinliyor)_
 
 ### muzeyyen.itiraf (12 satır)
@@ -355,14 +350,17 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **muzeyyen**: Bir de kız babasını görsün istedim.
 - **cengo**: Buldum ama, Müzeyyen anne.  _(dinliyor)_
 
-### muzeyyen.normal (22 satır)
+### muzeyyen.normal (5 satır)
 
 - **jale**: Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.  _(dinliyor)_
 - *anlatı*: Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.  _(dinliyor)_
 - **muzeyyen**: Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?
 - **peri**: Mektupları kim yazdı, biliyorum. Söylemeye geldim.  _(dinliyor)_
 - **peri**: Müzeyyen Hanım. Mektupları siz yazdınız.  _(dinliyor)_
-- *anlatı*: Kısa gümüş saçlı, bordo hırkalı bir kadın; boynunda zincirli gözlük, elinde bir tepsi börek.  _(dinliyor)_
+
+### muzeyyen.tepsi (12 satır)
+
+- *anlatı*: Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.  _(dinliyor)_
 - **muzeyyen**: Cengo! Oğlum! Gel, gel; börek yeni çıktı.
 - **cengo**: Müzeyyen anne. Ellerine sağlık.  _(dinliyor)_
 - **muzeyyen**: Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi.
@@ -370,24 +368,15 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **muzeyyen**: Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu.
 - **muzeyyen**: Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim.
 - **muzeyyen**: Ama şimdi keşke o güzel günlere geri dönsek.
-- **peri**: On sekizinde, Cengo? Ben on sekizimde taç takıyordum.  _(dinliyor)_
 - **peri**: Mektupları siz de gördünüz mü, Müzeyyen Hanım?  _(dinliyor)_
 - **muzeyyen**: "Herkes öğrenecek" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın.
 - **cengo**: (ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?  _(dinliyor)_
 - **muzeyyen**: Hiç görmedim. Görmek de istemem.
-- **peri**: Cengo, gömleğine börek döküyorsun.  _(dinliyor)_
-- **muzeyyen**: Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?
-- **peri**: …Elimde bir şey var, ama sizi ikna edecek kadar değil.  _(dinliyor)_
-- **peri**: Cengo. Mektupları sen yazdın.  _(dinliyor)_
 
-### muzeyyen.uzgun (2 satır)
+### muzeyyen.tepsi_uzgun (2 satır)
 
 - **muzeyyen**: Gördüm. Kızım ağlıyor, ben ağlıyorum. Ama bir sözüne takıldım.
 - **muzeyyen**: Mektupta "herkes öğrenir" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş.
-
-### peri.gullu.kas (1 satır)
-
-- *anlatı*: Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.  _(dinliyor)_
 
 ### peri.mesai.kas (58 satır)
 
@@ -531,7 +520,7 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - *anlatı*: Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.  _(dinliyor)_
 - **tahsin**: On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu.  _(dinliyor)_
 - *anlatı*: Üsküdar. Apartmanın üst katında bir salon: masalarda dantel örtüler, vitrinde porselen fincanlar.  _(dinliyor)_
-- *anlatı*: Kısa gümüş saçlı, bordo hırkalı bir kadın; boynunda zincirli gözlük, elinde bir tepsi börek.  _(dinliyor)_
+- *anlatı*: Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.  _(dinliyor)_
 - **muzeyyen**: Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?  _(dinliyor)_
 
 ### peri.mesai.sasirmis (10 satır)
@@ -551,12 +540,9 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 
 - **peri**: …Elimde bir şey var, ama sizi ikna edecek kadar değil.
 
-### peri.tul.kas (12 satır)
+### peri.tul.kas (9 satır)
 
 - **dilek**: Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı.  _(dinliyor)_
-- *anlatı*: Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.  _(dinliyor)_
-- **jale**: Etek ıslak. Kurur.  _(dinliyor)_
-- **peri**: Ben de kururum, Jale Hanım.
 - *anlatı*: Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.  _(dinliyor)_
 - **muzeyyen**: Tamam. Ben yazdım. Hepsini ben yazdım.  _(dinliyor)_
 - **muzeyyen**: Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak.  _(dinliyor)_
@@ -574,46 +560,46 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 - **peri**: Neden söylemedin, Cengo? Bir kızın olduğunu.
 - **cengo**: Sen de hiç sormadın, Peri.  _(dinliyor)_
 
-### peri.tul.yumusak (4 satır)
+### peri.tul.yumusak (1 satır)
 
-- **peri**: Cengo, ben…
-- **peri**: …gömleğin çok güzel ütülenmişti.
-- **cengo**: (yaprağı gömleğinin cebine koyarak) Kızım için.  _(dinliyor)_
 - **gizem**: Hıh.  _(dinliyor)_
 
-### recep.gulen (5 satır)
+### recep.gulen (4 satır)
 
 - *anlatı*: Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.  _(dinliyor)_
 - **recep**: Sen değil misin şu bankın adamı?
 - **peri**: Hangi bankın?  _(dinliyor)_
 - **recep**: Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta.
-- **peri**: Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın.  _(dinliyor)_
 
-### recep.normal (8 satır)
+### recep.normal (7 satır)
 
-- *anlatı*: Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.  _(dinliyor)_
-- **peri**: İyi günler. Bu apartmana gelen mektupları soracaktık.  _(dinliyor)_
 - **recep**: Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar.
 - **recep**: Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o.
+- **peri**: Mektuplar nasıl geldi, efendim? Postacı mı getirdi?  _(dinliyor)_
 - **recep**: Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış.
 - **recep**: Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü.
 - **recep**: İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular.
 - **cengo**: Mektubu kutuya atanı gören olmadı mı?  _(dinliyor)_
 
-### tahsin.gulen (5 satır)
+### recep.supurge (2 satır)
+
+- *anlatı*: Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.  _(dinliyor)_
+- **peri**: İyi günler. Bu apartmana gelen mektupları soracaktık.  _(dinliyor)_
+
+### tahsin.gulen (4 satır)
 
 - *anlatı*: Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.  _(dinliyor)_
 - **tahsin**: Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun?
 - **cengo**: Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak.  _(dinliyor)_
 - **tahsin**: On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu.
-- **peri**: Bizim büronun camındaki yazı da ters okunuyor. Demek ondan.  _(dinliyor)_
 
 ### tahsin.normal (1 satır)
 
 - **tahsin**: Terziler kullanır, gelinlikçiler kullanır. Elbisenin kalıbını bunun üstüne çizerler.
 
-### KARE D18 (2 satır)
+### KARE D18 (3 satır)
 
+- **eylul**: Sorun değil. (çantasından üç zarf çıkararak) Asıl sorun bunlar.
 - *anlatı*: Eylül masaya üç zarf koyuyor. Her birinde katlanmış ince bir kâğıt; kurşun kalemle, büyük harflerle yazılmış.
 - **eylul**: Üçünde de aynı şey yazıyor: "Bu düğün olursa herkes öğrenir." Pul yok, gönderen yok.
 
@@ -668,9 +654,22 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 
 - *anlatı*: Cengo ceketini alıp çıkıyor. Peri saçındaki gül yaprağını çöpe atıyor.
 
-### KARE K112 (1 satır)
+### KARE K112 (4 satır)
 
 - *anlatı*: Peri saçındaki gül yaprağını alıp Cengo'ya uzatıyor.
+- **peri**: Cengo, ben…
+- **peri**: …gömleğin çok güzel ütülenmişti.
+- **cengo**: (yaprağı gömleğinin cebine koyarak) Kızım için.
+
+### KARE K113 (1 satır)
+
+- *anlatı*: Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.
+
+### KARE K114 (3 satır)
+
+- *anlatı*: Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.
+- **jale**: Etek ıslak. Kurur.
+- **peri**: Ben de kururum, Jale Hanım.
 
 ### KARE K96 (2 satır)
 
@@ -686,8 +685,11 @@ Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER sat
 
 - *anlatı*: Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.
 
-### KARE K99 (2 satır)
+### KARE K99 (1 satır)
 
 - *anlatı*: Müzeyyen torbayı askıdan kapıp kapıya koşuyor.
+
+### KARE K99j (1 satır)
+
 - *anlatı*: Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.
 
