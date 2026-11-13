@@ -53,4 +53,4 @@ listesi) 13 Kas ~12:00–15:00 arasında saat dışında yapıldı (~3 sa makine
 
 | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 |---|---|---|---|---|---|
-| 8 Görsel — Parti 1 (temeller, 20 resim) | 13 Kas 14:21 | 13 Kas 14:49 | | | "başla" 14:20; öncesinde 13 Kas öğleden sonra bayraklar kuralla kapandı (SR-M) |
+| 8 Görsel — Parti 1 (temeller, 20 resim) | 13 Kas 14:21 | 13 Kas 14:49 | onay 14:53 | ~28 dk (24 Codex) | "başla" 14:20; öncesinde 13 Kas öğleden sonra bayraklar kuralla kapandı (SR-M) |

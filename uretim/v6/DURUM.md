@@ -1,6 +1,6 @@
 # Vaka 6 — üretim durumu
 
-**13 Kasım 2026, 14:49 — PARTİ 1 BİTTİ, SAHİBİNİN ONAYINI BEKLİYOR.** 14:21–14:47 (2 kol). `onayli/`'de 16 resim
+**13 Kasım 2026, 14:49 — PARTİ 1 BİTTİ; SAHİBİ ONAYLADI (14:53, "Onaylıyorum").** 14:21–14:47 (2 kol). `onayli/`'de 16 resim
 (G1, G2 kart; G3, G4, G5, G7, G8, G9 temel; G10–G16 mekân). Onay sayfası: `yanyana/parti1_onay.jpg` (eski konuklar ve
 V1–V5'in bütün mekânları altında, karşılaştırma için). Codex çalışması: 24 (+ sabahki G4) → 16 onay + 6 zemin denemesi
 (gerekli) + 4 boşa (G3z, G4z ikinci kez — `dongu.sh` düzeltildi; G2 ret: bileklik yanlış bilekte; G11 ret: eski sokak
