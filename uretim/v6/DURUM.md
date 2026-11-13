@@ -18,7 +18,7 @@ yer dönüyorsa farklı açı; `istem_kontrol.sh` `Kompozisyon:` arar). `dongu.s
 **Sıradaki:** sahibinin onayı → Parti 2 (Peri/Cengo temel figürleri karttan; Müzeyyen, Jale, Dilek kıyafet kartları) ve
 Parti 3 (ifadeler, kareler, 11 ek resim, Eylül G6). İstemleri yazılmadı; §7a ve SR-M ile yazılacak.
 
-**13 Kasım 2026, ~16:00 — PARTİ 2: 5/5 ONAYLI (G17 sahibi web'de üretti, denetimden geçti).** ⚠ GÖMME NOTU: G17'de mavi kot
+**13 Kasım 2026, ~16:00 — PARTİ 2: 5/5 ONAYLI; SAHİBİ TOPLU ONAYLADI.** (G17 sahibi web'de üretti.) ⚠ GÖMME NOTU: G17'de mavi kot
 gri-mavi zemine benziyor; `arac_kes --profil peri` kotu deliyor (kırıntı 1858 px). `konuk_beyaz_delik` eşiği kotu koruyor
 (65 px) ama Peri'nin sabit çerçevesini kullanmıyor → gömmeden önce `arac_kes.js`'e Peri çerçevesi + beyaz_delik eşiği
 (ör. `peri_beyaz_delik` profili) eklenmeli. Aynı sorun Parti 3'teki bütün `peri.mesai.*` ifadelerinde olacak; zemin
