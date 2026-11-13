@@ -49,6 +49,7 @@ for f in "$@"; do
     "arka plan")
       has 'Yarı gerçekçi dijital'      || eksik+=("tarz paragrafı yok (§1)")
       has 'İnsan yok'                  || eksik+=("'İnsan yok' satırı yok (§7)")
+      grep -q 'Kompozisyon:' "$f"      || eksik+=("'Kompozisyon:' satırı yok — eski mekân kalıbı tekrar eder (§7a)")
       ;;
     "kıyafet kartı")
       has 'TAM BOY'                    || eksik+=("kart TAM BOY değil (I)")

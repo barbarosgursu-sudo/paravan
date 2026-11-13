@@ -86,6 +86,25 @@ mekân düz ve sıradan çıktı (sahibi fark etti). İstemde saat "sabah" yazı
 İstem: tarz paragrafı → `Mekân: …` ZENGİN ve somut (malzeme, renk, lamba, çini, pencereden ne görünüyor; İstanbul) →
 yasak nesneler adıyla → "İnsan yok; kadraj boş bir sahne gibi, figürler sonradan önüne konacak (ortası açık)." →
 yazı yasağı → `Görselin oranı TAM 3:4, dikey (1086×1448).`
+**7a. Kompozisyon tekrar etmez (13 Kasım 2026, sahibi: "üretilen sokak resimleri önceki vakalardakine çok benzer olmamalı").**
+Referans resim (`tarz_sokak.jpg`, `tarz_mekan_ic.jpg`) ışıkla birlikte KOMPOZİSYONU da taşıyor: Vaka 3–5'in sokaklarının
+4–5'i aynı kare (ortada uzaklaşan arnavut kaldırımı, ucunda deniz + güneş diski + vapur + cami silüeti), iç mekânların
+çoğu ortadan uzaklaşan koridor. V6'nın ilk G11'i de aynısıydı (saat "sabah" iken gün batımı). Her mekân isteminde:
+- **`Kompozisyon:` satırı** — kamera nerede durur, nereye bakar; ön, orta, arka planda ne var. Metnin istediği an
+  (ör. "bankta oturup kapıya bakar") kompozisyonu belirler.
+- Referans satırı: "yalnız boya dokusu ve sıcak renk; KOMPOZİSYONUNU ALMA".
+- **Yasak olan öğe değil, TEKRAR** (sahibi, aynı gün: "deniz ve cami resimlerde olabilir; sorun her resmin aynı ve
+  benzer çıkması"). Deniz, cami, vapur, gün batımı serbest. Tekrar eden kurgu yasak: ortada uzaklaşan sokak/koridor +
+  ucunda ufuk, her seferinde. Bir vakada bu kurgu en çok bir kez; yoksa kamera başka yere konur (cepheye karşıdan,
+  çapraz, yukarıdan, köşeden). Işık sıcak kalır (§7), saat istemdeki gibi (sabah istenmişse gün batımı değil).
+- **Yeni mekân ve manzara eski vakaların resimlerine BENZEMEZ** (sahibi, aynı gün: "önceki vakalardaki resimlerle benzer
+  olmamalı üreteceğimiz mekânlar ve manzaralar. Sadece aynı yerleri anlatıyorsak benzer olsun, o da farklı bir açıdan
+  olmalı"). Aynı yer (büro, han koridoru, iskele) dönüyorsa yer tanınır ama kamera eski resimlerinkinden FARKLI açıda
+  durur; istemde hangi eski resme (`arka_aN`) göre neyin değiştiği yazılır.
+- İstemden önce eski mekânların temas sayfası açılır (`magick montage kaynak/yeni_gorsel/arka_*.webp …`); aynı kurguda
+  eski mekân varsa başka açı seçilir. **Denetimde** yeni mekân bu sayfayla yan yana konur; benzeyen reddedilir.
+- `istem_kontrol.sh` arka plan isteminde `Kompozisyon:` arar.
+
 Duvardaki portre/afiş: duygu abartısız ("zarif, abartısız bir gülümseme"); "göz kamaştırıcı gülümseme" karikatür sırıtış verdi.
 
 ## 8. Ara kare, detay, kart afişi

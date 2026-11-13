@@ -31,6 +31,9 @@ uretilebilir() {
     n=$(basename "$f" .md); n=${n#G}
     if [ -n "$SADECE" ]; then case " $SADECE " in *" $n "*) ;; *) continue ;; esac; fi
     [ -f "onayli/G$n.png" ] || [ -f "uretilen/G$n.png" ] || [ -d "kilit/G$n" ] && continue
+    # İki zemin (H4): G<k> ile G<k>z'den biri seçilip onayli/G<k>.png olunca öbürü (red/'e taşınmış olsa da) üretilmez.
+    # 13 Kasım 2026: bu satır yokken seçilmeyen G3z ve G4z yeniden üretildi (2 resim boşa kota).
+    case "$n" in *z) [ -f "onayli/G${n%z}.png" ] && continue ;; esac
     grep -q '^## ENGELLENDİ' "$f" && continue
     if ! "$KONTROL" "$f" > /dev/null 2>&1; then
       grep -qx "G$n" "$LOG/kontrolden_gecmedi.txt" 2>/dev/null || { echo "G$n" >> "$LOG/kontrolden_gecmedi.txt"; echo "G$n kontrol listesinden geçmedi, üretilmiyor: $("$KONTROL" "$f" | tail -n +2 | tr '\n' ' ')" >&2; }

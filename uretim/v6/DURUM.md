@@ -1,7 +1,22 @@
 # Vaka 6 — üretim durumu
 
-**13 Kasım 2026, öğleden sonra.** Parti 1 (temeller, 20 resim) istemleri hazır ve `istem_kontrol.sh`'tan geçti. Üretim
-BAŞLAMADI — sahibi yeni pencerede "başla" diyecek.
+**13 Kasım 2026, 14:49 — PARTİ 1 BİTTİ, SAHİBİNİN ONAYINI BEKLİYOR.** 14:21–14:47 (2 kol). `onayli/`'de 16 resim
+(G1, G2 kart; G3, G4, G5, G7, G8, G9 temel; G10–G16 mekân). Onay sayfası: `yanyana/parti1_onay.jpg` (eski konuklar ve
+V1–V5'in bütün mekânları altında, karşılaştırma için). Codex çalışması: 24 (+ sabahki G4) → 16 onay + 6 zemin denemesi
+(gerekli) + 4 boşa (G3z, G4z ikinci kez — `dongu.sh` düzeltildi; G2 ret: bileklik yanlış bilekte; G11 ret: eski sokak
+kalıbı + saat). Ret notları istemlerin sonunda (`## Düzeltme`).
+
+**Zemin seçimleri (H4; bu karakterin BÜTÜN ifadeleri bu zeminle):** Müzeyyen gri-mavi (G3), Jale gri-mavi (G4), Haldun
+açık bej (G5; gri-mavide gözlük camı mavi kalıyor), Recep **açık bej** (G7z seçildi → `onayli/G7.png`; gri-mavide saçta
+iz), Dilek açık bej (G8; G8z'nin mezurasında rakam), Tahsin **açık bej** (G9z seçildi → `onayli/G9.png`; beyaz saçta mavi
+iz). Boy ölçüsü (`arac_yanyana --oran`): Müzeyyen, Jale, Haldun, Recep, Tahsin ~0,65 (oran 1,00); Dilek ~0,59 (0,90) —
+H2 tablosuyla gömmede kesinleşir. Baş kırpıkları: `referanslar/<kim>_bas.png` (6 karakter).
+
+**Bugün çıkan kurallar:** `ISTEM_KALIPLARI.md` §7a (mekân kompozisyonu tekrar etmez; yeni mekân eskilere benzemez, aynı
+yer dönüyorsa farklı açı; `istem_kontrol.sh` `Kompozisyon:` arar). `dongu.sh` seçilmeyen zemini üretmez.
+
+**Sıradaki:** sahibinin onayı → Parti 2 (Peri/Cengo temel figürleri karttan; Müzeyyen, Jale, Dilek kıyafet kartları) ve
+Parti 3 (ifadeler, kareler, 11 ek resim, Eylül G6). İstemleri yazılmadı; §7a ve SR-M ile yazılacak.
 
 ## Yeni pencerede "başla" denince
 
@@ -25,6 +40,15 @@ BAŞLAMADI — sahibi yeni pencerede "başla" diyecek.
 | 5 saatlik kota | 7 resim = %8 → resim başına ~%1,2 (~80 resim / 5 sa) |
 | haftalık kota | 7 resim < %1 |
 | hız sınırı / kota mesajı | görülmedi |
+
+## ✅ YAPILDI (13 Kasım 14:45) — dongu.sh: seçilmeyen zemin artık üretilmiyor (`case *z` satırı; sahte kilitler silindi)
+
+## (kayıt) dongu.sh: seçilmeyen zemin yeniden üretiliyordu (13 Kasım 2026, sahibi: "sakın unutma")
+
+İki zeminden seçilmeyen `red/`'e taşınınca döngü onu "üretilmemiş" sayıp YENİDEN üretti (G3z, G4z: 2 resim boşa kota).
+Sebep: `uretilebilir()` yalnız `onayli/` ve `uretilen/`'e bakıyor. Düzeltme (döngü BİTİNCE; çalışan betik dosyası
+değiştirilmez): `G<n>` ya da `G<n>z`'den biri `onayli/`'deyse öbürü üretilmez. O zamana kadar her seçimde seçilmeyenin
+`kilit/` klasörü elle açılır (`mkdir kilit/G<n>z`); düzeltmeden sonra bu sahte kilitler silinir.
 
 ## Kota kaydı — Vaka 6 üretimi (sahibinin isteği, 13 Kasım 2026)
 
