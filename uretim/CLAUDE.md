@@ -37,6 +37,12 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
 
 Yeni vakada yeni karakter → buraya eklenir (sahibinin onayıyla).
 
+**Mekân sabiti — büro kapısı (Barbaros, 14 Kasım 2026; V6 G90–G92):** büronun kapısı hanın üçüncü kat koridoruna açılır
+(krem, sıvası dökülmüş duvar; siyah-beyaz karo; kemerli tavan) — kapının ardı ASLA sokak, ağaç, gökyüzü değil. `buro_gunduz.jpg`
+kapıdan içeri bakar ve kapı duvarını göstermez; kapının açık göründüğü her karede referans `v6/referanslar/buro_koridor.jpg`
+(büro + koridor yan yana) ve ardındaki koridor istemde sözle de yazılır. Gelen kişi (eşikte, içeri giriyor): kamera büronun İÇİNDE,
+kapıya bakar; kişi eşikte, arkasında koridor.
+
 ---
 
 ## Komut: `istemleri hazırla <N>`

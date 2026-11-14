@@ -1,5 +1,11 @@
 # Vaka 6 — üretim durumu
 
+**14 Kasım 2026, ~23:50 — KAPI İÇİN 11 RESİM ÜRETİLDİ VE ONAYLANDI (Barbaros'un bilgisayarı).** G46, G65, G87–G95 `onayli/`'de,
+el onayları `el_onay.md`'de. Ret: G46 (2. düzeltme; el gövdede ama avuç açık — sahibi bu hâliyle onayladı), G90–G92 (kapının ardı
+sokaktı, G91/G92'de kamera kapıdaydı → `referanslar/buro_koridor.jpg` + `## Düzeltme 1`; kural `uretim/CLAUDE.md` → Mekân sabiti).
+Bilinen: G90'da Cengo'nun cebinde telefon (ekranı görünmüyor), sahibi kalsın dedi. **Sıradaki:** göm (yalnız bu 11) → aşağıdaki
+bağlama etiketlerini diyaloğa yaz → `node arac_kapi.js V6 resim` GEÇTİ.
+
 **14 Kasım 2026, gece — KAPI İÇİN 11 RESİM (sahibi Barbaros kendi bilgisayarında üretiyor).** Vaka 6 kapıdan (`kaynak/arac_kapi.js V6 resim`)
 geçmiyor; kalan bulguların hepsi resim istiyor. İstemler hazır, `istem_kontrol.sh` çıkış 0, referansların hepsi onaylı:
 G87 (açılış, dergi), G88 (Haldun odası üç kişi), G89 (bank üç kişi), G90 (Eylül kapıda), G91 (Cengo kapıda), G92 (Eylül eşikte),

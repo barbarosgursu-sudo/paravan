@@ -1,7 +1,5 @@
 # El onayı — kural 5
 
-Sahibinin onayı (Barbaros, 14 Kasım 2026): "69'u onayla" — Claude el sayfalarına baktı, G65 hariç hepsi doğru.
-
 El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kendi kolunda ve doğru
 (sağ/sol) olduğu görülen resimler. Onay sahibinindir (kendisi bakar ya da bakanın sonucunu onaylar). İmza resmin kendisinin; resim değişirse onay düşer, yeniden bakılır.
 
@@ -36,7 +34,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G43 4871e2b19930
 - G44 aea595b6a146
 - G45 2a6c2d6c2e2f
-- G46 d26d006db482
+- G46 52387b855624
 - G47 6e614f9b3eb3
 - G48 8e39c87eb67b
 - G49 f33a022071be
@@ -55,6 +53,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G62 ffdfc5a4b120
 - G63 290340448726
 - G64 6021ad1b8ae4
+- G65 fa241b02a359
 - G66 017237122f83
 - G67 d0d99390ad9c
 - G68 877efaaa4f65
@@ -74,3 +73,12 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G82 cfd51073fd93
 - G83 dc62054fe016
 - G84 fb4b0af4e0a5
+- G87 e48696e5ed6c
+- G88 b12f0dc3a1fc
+- G89 701da10a595f
+- G90 bfebb354d848
+- G91 d48f420803c0
+- G92 d0d92addb20d
+- G93 6d70e89139ea
+- G94 8a0c13694e66
+- G95 393d7dae9147
