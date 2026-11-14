@@ -18,7 +18,7 @@ ifadeleri), G47–G60 (konuklar), kareler G61–G85 — hepsi araçtan geçerek;
   sahibine çapayla yan yana → onaylanırsa G42–G45 (4 ifade) aynı notla yeniden. Eski onaylılar `red/*_kot.png`'ye taşınır.
 - **Ders:** "görünür fırça darbesi, dokulu boya" vurgusu düz kumaşta kırışık/kâğıt dokusu yapıyor (G18 1. deneme, G86 1. deneme).
   Kural taslağı: doku yüz/saç/ışıkta, kumaş "pürüzsüz, yumuşak geçişli". `ISTEM_KALIPLARI.md`'ye henüz yazılmadı.
-- **Araç için not:** figürde tarz puanı gövdeden; düz geniş kumaşta yanlış ŞÜPHELİ verebilir → yüz+gövde birlikte düşünülmeli (sonraki iş).
+- **Araç için not:** figürde tarz puanı gövdeden; düz geniş kumaşta yanlış ŞÜPHELİ verebilir (yüzü katmak denendi, işe yaramadı — 14 Kasım notu).
 - Yeniden başlarken: `cd uretim && KOL=2 DONGU_LOG=<scratchpad> ./dongu.sh 6` (kilit/ içindeki eski G42, G44 kilitleri başlangıçta silinir).
 
 
@@ -72,7 +72,17 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 4. Sonra döngü: `cd uretim && KOL=2 DONGU_LOG=<kayıt klasörü> ./dongu.sh 6` (Oğuz Bey'in bilgisayarında `/c/Yazilim/paravan_log`).
    Sırada: G34–G41 (Cengo ifadeleri; G18 onaylı), G47–G60 (konuklar), kareler G61–G85, kart afişi G85. Her resim: araç → göz →
    onay; KALDI/ŞÜPHELİ onaylanmaz (bilinen istisna: düz açık gömlek puanı düşürür, gözle karar). Parti sonu tek sayfa sahibine.
-5. Açık işler: tarz aracında figür puanına yüzü de katmak; `uretim/v6/red/` kurulumdan sonra depodan çıkarılacak.
+5. Açık işler: `uretim/v6/red/` kurulumdan sonra depodan çıkarılacak. ("Tarz puanına yüzü katmak" kapandı, aşağıda.)
+
+**14 Kasım 2026 — tarz aracı onarıldı, YÜZ ARACI eklendi (sahibinin isteği).**
+- `arac_tarz.py`: yüz kırpığı x0 kadar sağa kayıyordu (kartlarda boş gri, figürde yarım yüz ölçülüyordu). Düzeltildi; sınav yine
+  GEÇTİ. Düzeltilmiş kırpıkla V6'nın onaylı kartlarının hepsi geçiyor, kaymış G2 hâlâ kalıyor → onaylar geçerli, gözle yeniden
+  denetim gerekmedi. Figür kararı gövdeden verildiği için hatadan etkilenmemişti.
+- Yüz tarz puanını figür kararına katmak denendi ve BIRAKILDI: kaymış Cengo yüzleri (+0,000…+0,051) onaylılarla
+  (+0,047…+0,081) iç içe. G18 tipi "düz gömlek ŞÜPHELİ" yine gözle karar.
+- Yeni `kaynak/arac_yuz.py` (OpenCV YuNet + SFace): Peri, Cengo, Gizem kimlik kapısı, `dongu.sh`'a bağlı, kural `uretim/CLAUDE.md` → 0b.
+  Sınav GEÇTİ: V6 onaylıları (çapa dışı) en düşük 0,736; yabancıların en yükseği 0,657.
+- Bekleyen G42–G45 (Eylül): tarz GEÇTİ (gövde +0,035…+0,070); Eylül yüz aracının kapsamında değil → göz denetimi sırada.
 
 ## Ölçüm (13 Kasım, deneme)
 

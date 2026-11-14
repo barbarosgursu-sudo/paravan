@@ -71,6 +71,10 @@ kol() {
       tz=$(cd ../../kaynak && python arac_tarz.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
       echo "kol$k: G$n TARZ: ${tz:-araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${tz:-araç çalışmadı}" >> "$LOG/tarz.tsv"
+      # Yazılımla yüz (kimlik) denetimi (14 Kasım 2026, sahibi): Peri, Cengo, Gizem figür/kartında kapı; karede yalnız bilgi.
+      yz=$(cd ../../kaynak && python arac_yuz.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
+      echo "kol$k: G$n ${yz:-YÜZ araç çalışmadı}"
+      printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${yz:-YÜZ araç çalışmadı}" >> "$LOG/yuz.tsv"
     fi
     rmdir "kilit/G$n"
     [ "$sonuc" = SINIR ] && { echo "kol$k: kota/hız sınırı, $BEKLE sn bekliyor (log: $LOG/codex_G$n.log)"; sleep "$BEKLE"; }

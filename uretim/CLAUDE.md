@@ -153,6 +153,21 @@ arac_tarz.py --uretim v<N> G<n>` (döngü her üretimden sonra kendisi koşar, s
   Defne, Tolga, Kenan, Ferruh; mekân Vaka 1–3'ün bütün arka planları; kare Vaka 1–3'ün kareleri (sahibinin seçimi).
 - **Kör nokta:** hafif "soluk / fazla gerçekçi" kayma (eski Eylül G6) puana yansımayabilir → A.7 gözle tarz maddesi kalır.
 - Araç değişirse önce `python arac_tarz.py --sinav` → "SINAV GEÇTİ" (kaymış 8 resim yakalanır, 42 iyi resim geçer).
+- Figürde tarz kararı GÖVDEDEN verilir; yüz tarz puanı karara katılmaz (14 Kasım ölçümü: kaymış Cengo yüzleri onaylılarla aynı
+  aralıkta, yani yüz o kaymayı göstermiyor). Kartta tarz puanı yüz kırpığından okunur.
+
+**0b. Yazılımla yüz (kimlik) denetimi — Peri, Cengo, Gizem (14 Kasım 2026, sahibi: "ilerleyen vakalarda Peri ve Cengo'nun yüzü
+bozulabilir").** `cd kaynak && python arac_yuz.py --uretim v<N> G<n>` (döngü tarz denetiminin hemen ardından kendisi koşar, sonuç
+`$DONGU_LOG/yuz.tsv`). Yüz tanıma modeliyle resimdeki yüzü karakterin çapasıyla karşılaştırır (LoRA + oyundaki sprite'lar + Vaka 3
+onaylıları; V6 ve sonrası bilerek çapada değil).
+- Figür ve kart: **KALDI** (< 0,66, başka karaktere daha yakın ya da yüz bulunamadı) → ret, `## Düzeltme`: yüz referanstaki
+  gibi. **ŞÜPHELİ** (0,66–0,70) → onaylanmaz, yeniden üretilir; iki kez ŞÜPHELİ kalırsa sahibine. **GEÇTİ** → göz denetimi.
+- İki araç da koşar ve ikisinin sonucu kayda yazılır; ikisinden de GEÇTİ almayan resim göz denetimine geçmez. Kayıt satırı:
+  `G<n> tarz GEÇTİ (+0,0xx) · yüz GEÇTİ (0,8xx)`.
+- Kare (çok kişi): kapı DEĞİL, araç bulduğu yüzleri ve en yakın karakteri bilgi olarak basar; karar A.2'de gözle.
+- Bilinen sınır: uç ifadeler (gözler kapalı, yüz buruşuk, yüz kısmen kapalı) puanı düşürür. Yüz gözle karakterse sahibine sorulur.
+- Sonradan tekrar çıkan konuk olursa önceki vakadaki resimleri çapaya eklenir (sahibi, 14 Kasım); yeni konuklara kimlik denetimi yok.
+- Araç değişirse önce `python arac_yuz.py --sinav` → "SINAV GEÇTİ".
 
 `prompts/G<n>.md`'yi, resmi ve referanslarını aç. Önce bütün olarak bak, sonra şüpheli bölgeleri 2–4 kat büyüt
 (eller, ayaklar ve ayakkabı, tişört ve göğüs, cihaz ekranı ve tuşları, tabelalar, kadraj kenarları). Vaka 3'te küçük

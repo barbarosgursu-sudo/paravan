@@ -12,3 +12,6 @@ referans/
 araclar/
 # Resim üretiminde reddedilen resimler — yalnız yerelde
 uretim/*/red/
+# Yüz denetim aracının modelleri (arac_yuz.py ilk çalıştırmada indirir, ~39 MB)
+uretim/referanslar/yuz_model/
+__pycache__/

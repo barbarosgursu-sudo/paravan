@@ -87,8 +87,10 @@ def parcalar(yol, tur):
     rgb, a = maske_ve_rgb(im)
     x0, y0, x1, y1 = kutu(a)
     hb = max(int((y1 - y0) * (0.12 if tur == "kart" else 0.21)), 24)
+    # xs bütün genişlikte aranır, yani zaten mutlak sütundur; x0 eklenmez (14 Kasım 2026: eklendiği için yüz kırpığı x0 kadar
+    # sağa kayıyordu — kartlarda boş gri, figürlerde yarım yüz ya da yalnız saç ölçülüyordu).
     xs = np.where(a[y0:y0 + hb].any(axis=0))[0]
-    bx0, bx1 = (x0 + xs.min(), x0 + xs.max() + 1) if len(xs) else (x0, x1)
+    bx0, bx1 = (xs.min(), xs.max() + 1) if len(xs) else (x0, x1)
     return {"govde": kare_kirp(rgb, x0, y0, x1, y1), "yuz": kare_kirp(rgb, bx0, y0, bx1, y0 + hb)}
 
 def lora_yuz(yol):

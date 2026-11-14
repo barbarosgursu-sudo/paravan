@@ -61,9 +61,10 @@ Barbaros bilgisayarını götürmüyor; elle taşınacak bir şey YOK. `git pull
 python -m pip install pillow numpy
 python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 python -m pip install open_clip_torch
+python -m pip install opencv-python
 ```
-(PyTorch CPU sürümü; ekran kartı gerekmez. İndirme birkaç yüz MB.)
-**Doğrula:** `python -c "import PIL, numpy, torch, torchvision, open_clip; print(torch.__version__)"`
+(PyTorch CPU sürümü; ekran kartı gerekmez. İndirme birkaç yüz MB. `opencv-python` yüz denetim aracı için, 14 Kasım 2026.)
+**Doğrula:** `python -c "import PIL, numpy, torch, torchvision, open_clip, cv2; print(torch.__version__, cv2.__version__)"`
 
 ## 5. Tarz denetim aracı (ilk çalıştırmada modeli indirir)
 
@@ -71,6 +72,11 @@ python -m pip install open_clip_torch
 indirir (birkaç dakika; "HF_TOKEN" uyarısı zararsız). Çapa resimleri depoda (`uretim/referanslar/tarz_capa/`).
 **Doğrula:** `cd /c/Yazilim/paravan/kaynak && python arac_tarz.py --sinav` → son satır **"SINAV GEÇTİ"** (kaymış 8/8, iyi 42/42).
 Geçmezse `git pull`'un tamamlandığını ve `tarz_sinav/`'da 8 dosya olduğunu kontrol et.
+
+**Yüz denetim aracı (14 Kasım 2026):** `kaynak/arac_yuz.py` ilk koşuşta iki küçük yüz modelini (~39 MB, OpenCV'nin resmî deposu)
+`uretim/referanslar/yuz_model/`'e indirir (depoya girmez). Çapa: Peri/Cengo LoRA resimleri, oyundaki sprite'lar, Vaka 3 onaylıları.
+**Doğrula:** `python arac_yuz.py --sinav` → son satır **"SINAV GEÇTİ"** (çapa sayıları: peri 105, cengo 52, gizem 18).
+Vaka 3'ün onaylıları (`uretim/v3/onayli/`) bu bilgisayarda yoksa çapa küçülür ve sınav sonucu değişebilir — önce onu kontrol et.
 
 ## 6. Döngü (Git Bash'te)
 
