@@ -96,4 +96,13 @@ Döngüyü sahte Codex'le denerken PATH'e Windows yolu (`C:/…`) VERME (`uretim
 
 ## Kayıt
 
-- (henüz kurulmadı) — kurulumdan sonra: `uretim/v6/red/`'i depodan çıkar (1. adım).
+- **14 Kasım 2026 — kuruldu.** Codex **Barbaros'un ChatGPT hesabıyla** (sahibi, 14 Kas; belgedeki "Oğuz Bey'in hesabı" yerine — ileride
+  değişebilir). Sürümler: Codex CLI 0.167.0, ImageMagick 7.1.2-34, Pillow 13.0, numpy 2.5, PyTorch 2.15 (CPU), OpenCV 5.0. Tarz, yüz,
+  zemin sınavları GEÇTİ; doğrulayıcı iki oyunda PASS, testler geçti. Deneme: G47 üretildi (87 sn), TARZ ve YÜZ GEÇTİ, onaylandı.
+  `uretim/v6/red/` depodan çıkarıldı (diskte duruyor).
+  **Tuzak:** Claude masaüstü uygulaması Windows'ta paket olarak çalışıyor; içinden `npm install -g` ile kurulan Codex gerçekte
+  `AppData\Local\Packages\Claude_…\LocalCache\Roaming\npm`'e yazılıyor. Codex'in "elevated" korumalı alan kurulumu uygulamanın dışında
+  çalıştığı için o yolu bulamıyor ("Belirtilen yol yok", `codex doctor`: "provisioning is incomplete"). Çözüm: Codex'i bir kez de
+  Başlat → `cmd`'den (uygulamanın dışından) aynı sürümle kur: `npm install -g @openai/codex@0.167.0`. Bu bilgisayarda yönetici
+  yükseltmesi soru sormadan yapılıyor; izin penceresi çıkmaz. `magick` yeni kabukta PATH'e girer; açık kabukta tam yol:
+  `/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/magick.exe`. PowerShell betik çalıştırmayı kapalı tutuyor (`.ps1` yerine `.cmd`).
