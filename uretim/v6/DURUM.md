@@ -82,7 +82,8 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
   (+0,047…+0,081) iç içe. G18 tipi "düz gömlek ŞÜPHELİ" yine gözle karar.
 - Yeni `kaynak/arac_yuz.py` (OpenCV YuNet + SFace): Peri, Cengo, Gizem kimlik kapısı, `dongu.sh`'a bağlı, kural `uretim/CLAUDE.md` → 0b.
   Sınav GEÇTİ: V6 onaylıları (çapa dışı) en düşük 0,736; yabancıların en yükseği 0,657.
-- Bekleyen G42–G45 (Eylül): tarz GEÇTİ (gövde +0,035…+0,070); Eylül yüz aracının kapsamında değil → göz denetimi sırada.
+- G42–G45 (Eylül, kumaş ayarıyla): tarz GEÇTİ (gövde +0,035…+0,070); göz denetimi GEÇTİ (eller 5'er parmak, bileklik sol bilekte
+  G6 gibi, kesim kırıntı ≤2 px, bakış Peri'ye). Sahibine sayfa: `yanyana/parti3_eylul_onay.jpg` (üstte yeni, altta eski kot). Sahibinin onayı bekleniyor.
 
 ## Ölçüm (13 Kasım, deneme)
 
