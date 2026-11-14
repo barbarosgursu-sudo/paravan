@@ -18,7 +18,8 @@ from PIL import Image
 
 URL = 'https://huggingface.co/onnx-community/BiRefNet-ONNX/resolve/main/onnx/model.onnx'
 MODEL = os.environ.get('PARAVAN_YZ_MODEL') or os.path.join(os.path.expanduser('~'), '.cache', 'paravan', 'birefnet.onnx')
-KALINTI_UZAK = float(os.environ.get('KALINTI_UZAK', 22))   # zemine bu kadar yakın kenar pikseli = kalıntı
+KALINTI_UZAK = float(os.environ.get('KALINTI_UZAK', 22))
+DUZ = float(os.environ.get('KALINTI_DUZ', 2.5))   # zemine bu kadar yakın kenar pikseli = kalıntı
 
 def profil_cerceve(ad):
     js = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'arac_kes.js'), encoding='utf-8').read()
@@ -48,6 +49,20 @@ def genislet(m, n):
         g = m.copy(); g[1:] |= m[:-1]; g[:-1] |= m[1:]; g[:, 1:] |= m[:, :-1]; g[:, :-1] |= m[:, 1:]; m = g
     return m
 
+def kalinti_say(rgba, Z):
+    # Kalıntı: görünür (a>0.5), rengi zemine yakın VE düz (5×5 komşulukta parlaklık sapması < 2,5)
+    # pikseller. Zemin dümdüz tek renktir; zemine benzeyen kumaş (mavi kot, bej kazak, duvak) dokulu ve gölgelidir —
+    # düzlük şartı olmadan kapı onları kalıntı sanıyordu (V6'da 11 yanlış alarm).
+    F, a = rgba[..., :3].astype(np.float32), rgba[..., 3].astype(np.float32) / 255.0
+    L = F.mean(-1); k = 2
+    pad = np.pad(L, k, mode='edge'); acc = np.zeros_like(L); acc2 = np.zeros_like(L)
+    for dy in range(2 * k + 1):
+        for dx in range(2 * k + 1):
+            w = pad[dy:dy + L.shape[0], dx:dx + L.shape[1]]; acc += w; acc2 += w * w
+    n = (2 * k + 1) ** 2; std = np.sqrt(np.maximum(acc2 / n - (acc / n) ** 2, 0))
+    # Figürün HER yerinde (kapalı cep: kol arası) — yalnız kenarda değil.
+    return int(((a > 0.5) & (np.sqrt(((F - Z) ** 2).sum(-1)) < KALINTI_UZAK) & (std < DUZ)).sum())
+
 def kes(girdi, cikti, profil, genis=False, onizleme=None, sess=None):
     im = Image.open(girdi).convert('RGB'); W, H = im.size
     I = np.asarray(im, np.float32)
@@ -56,9 +71,7 @@ def kes(girdi, cikti, profil, genis=False, onizleme=None, sess=None):
     alfa[alfa < 0.02] = 0
     aa = np.clip(alfa, 1e-3, 1)[..., None]
     F = np.where(alfa[..., None] > 0.98, I, np.clip((I - (1 - aa) * Z) / aa, 0, 255))
-    # Kalıntı ölçümü: görünür (a>0.3) ve saydama 3 px yakın piksellerden rengi zemine yakın olanlar.
-    kenar = genislet(alfa < 0.3, 3) & (alfa > 0.3)
-    kalinti = int((kenar & (np.sqrt(((F - Z) ** 2).sum(-1)) < KALINTI_UZAK)).sum())
+    kalinti = kalinti_say(np.dstack([F, alfa * 255]), Z)
     x0, x1 = (0, W - 1) if genis else profil_cerceve(profil)
     o = Image.fromarray(np.dstack([F, alfa * 255]).round().astype(np.uint8), 'RGBA').crop((x0, 0, x1 + 1, H))
     sc = min(1, 700 / H)
@@ -67,6 +80,12 @@ def kes(girdi, cikti, profil, genis=False, onizleme=None, sess=None):
     if onizleme:
         z = Image.new('RGBA', o.size, (51, 170, 102, 255)); z.alpha_composite(o); z.save(onizleme)
     return o.size, kalinti, tuple(int(v) for v in Z)
+
+if __name__ == '__main__' and len(sys.argv) > 1 and sys.argv[1] == '--olc':
+    # python arac_kes_yz.py --olc <kaynak.png> <kesilmis.webp> : var olan bir kesimin kalıntısını ölçer (eski kesimler için)
+    src = np.asarray(Image.open(sys.argv[2]).convert('RGB'), np.float32); W = src.shape[1]
+    Z = np.concatenate([src[5:40, 5:40].reshape(-1, 3), src[5:40, W - 40:W - 5].reshape(-1, 3)]).mean(0)
+    print('KALINTI', kalinti_say(np.asarray(Image.open(sys.argv[3]).convert('RGBA'), np.float32), Z)); sys.exit(0)
 
 if __name__ == '__main__':
     arg = sys.argv[1:]
