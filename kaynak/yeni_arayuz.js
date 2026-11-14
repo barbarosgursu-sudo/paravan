@@ -267,6 +267,8 @@ function vnSatirGoster(satir){
   // Konuk satırında kime: karşısındaki (solda) kim olsun — "Kızım…" Peri'ye.
   if(k !== "peri" && k !== "cengo" && satir.kime === "peri") vn.sol = "peri";
   if(k !== "peri" && k !== "cengo" && satir.kime === "cengo" && vn.mevcut.has("cengo")) vn.sol = "cengo";
+  // Anlatıda kime: <konuk> — solda o konuk dursun (sağdakinin karşısında; "Eylül… Gizem'le çıkıyor"). 14 Kasım 2026.
+  if(k === "not" && konukMu(satir.kime) && satir.kime !== vn.sag && vn.mevcut.has(satir.kime)) vn.sol = satir.kime;
   if(figur && satir.i) vn.ifade[k] = satir.i;
   // peri: Peri konuşmuyorken de ifadesi değişebilir (Hilmi Bey tacı okurken Peri onu çoktan kavramış).
   if(satir.peri) vn.ifade.peri = satir.peri;

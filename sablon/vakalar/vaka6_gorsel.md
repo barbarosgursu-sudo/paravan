@@ -91,5 +91,8 @@ Kaynak: `uretim/v6/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac
 | G82 | ara kare | Kapanış (bağ yüksek): Peri gül yaprağını uzatıyor, Cengo alıyor; Gizem arkada | `K112` | buro_aksam.jpg, peri_mesai_bas.png, G1.png, G86.png, G23.png | Parti 3 |
 | G83 | ara kare | Kovalamaca (ipucu): Müzeyyen torbanın cebinden kâğıdı alıp hırkasının cebine koyuyor | `K113` | G16.png, peri_mesai_bas.png, G1.png, G18.png, G19.png | Parti 3 |
 | G84 | ara kare | Kovalamaca sonu: Jale torbayı Cengo'dan alıp ıslak eteğe bakıyor | `K114` | G16.png, peri_mesai_bas.png, G1.png, G18.png, serit_jale_dilek.jpg | Parti 3 |
+| G87 | ara kare | Giriş açılışı: Peri ayakları masada, dergi okuyor (yalnız) — 14 Kas, yayında bulundu | `K115` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png | Ek (14 Kas) |
+| G88 | ara kare | Haldun'un odası: Peri bir Cengo'ya, bir Haldun'a bakıyor | `K116` | G10.png, peri_mesai_bas.png, G1.png, G18.png, G5.png | Ek (14 Kas) |
+| G89 | ara kare | Bankta Müzeyyen, Peri, Cengo; Jale ve kalfa uzaklaşıyor | `K117` | G16.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Ek (14 Kas) |
 | G85 | kart afişi | Kart afişi: İsimsiz Mektuplar | `KART_V6` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_kart_v6.jpg | Parti 3 |
 | G86 | kıyafet kartı | Cengo, buruşuk gömlek (kıyafet kartı, tek kişi) | — | G4.png, cengo_beden.jpg, tarz_ornek_erkek.jpg | Parti 3 (§11 ile yeniden) |

@@ -91,6 +91,10 @@ Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılı
   `--hepsi` ile → `node arac_satir_resim.js <dokum…> --vaka V<N>`. **İŞ** bayrakları yazara gider; sözle çözülecek olan
   (nesneyi bırakan cümle, netleşen hitap…) şimdi sözle çözülür. **SOR** bayrakları burada sahibine GİTMEZ — hikâye dondukça
   bir kısmı kendiliğinden kalkar; kalanlar adım 8'de bir kez sorulur. Hikâye donduktan sonra yalnız etiket ve resimle (SR-M).
+  Aynı turda iki liste daha burada kapanır (14 Kasım 2026, V6 açılışı yayında bulununca): aracın **DURUŞ** ve **İLK GÖRME**
+  bayrakları, ve turun `satir/adi_gecen_yok.txt`'si (anlatıda adı geçen ama ekranda olmayan kişi). V6'da bu liste "metin işi"
+  diye resimlerden sonraya kaldı ve yayına çıktı; artık hikâye donmadan biri bile açık kalmaz. Üç kişiyi birden anan satır
+  kare ister — o kare görsel listesine (adım 8) baştan girer.
 - **İstem yazarken:** görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`, her yolun `satir/`'ını kopyala) →
   `node arac_satir_resim.js <dokum…> --vaka V<N>`. Her figür/kare isteminin `## Satırlar` bölümüne o resmin satırları
   konur. Bir yüz hepsine uymuyorsa (ör. güler yüz + suçlanma satırı) AYRI ifade istenir. EYLEM bayraklı anlatı satırı

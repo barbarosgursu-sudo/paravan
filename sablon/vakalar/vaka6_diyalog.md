@@ -28,8 +28,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Büro, öğleden sonra. Peri ayakları masada. Cengo ütülü gömlekle girer. Çekicilik anı (Eylül gelmeden), Peri masasına döner, kapı çalar, Eylül girer. Gizem çay ocağından tepsiyle gelir. Eylül sonunda Gizem'le çıkar.
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Cengo, Jale) anılıyor, Müzeyyen suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (sofrada kim vardı, Eylül'ün mesajı, bank, torbayı kim tuttu, sipariş günü, kalıp kâğıdı, "herkes öğrenecek" sözü).
 
-*Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.*
-*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.*
+*Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.* {gizle: cengo}
+*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.* {gir: cengo}
 **PERİ [sasirmis]:** Cengo? Bu gömlek ne? Kim öldü? {kime: cengo}
 **CENGO [kas]:** Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma. {kime: peri}
 *Peri masadan kalkıyor; Cengo'yu baştan aşağı süzüp gömleğinin yakasını iki parmağıyla düzeltiyor.* {kare: K96}
@@ -71,7 +71,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [merakli]:** Evde başka kimin haberi var bu mektuplardan? {kime: eylul}
 **EYLÜL [normal]:** Anneannemin. Bizim apartmanda, üst katta oturuyor; çok üzülüyor. Bu büronun adresini bana o verdi. {kime: peri}
 **EYLÜL [sevincli]:** "Baban dedektif, git ona" dedi. Sen dedektifsin baba. Sen bulursun. {kime: cengo}
-*Cengo Peri'ye bakıyor. Peri bir an susuyor.*
+*Cengo Peri'ye bakıyor. Peri bir an susuyor.* {gir: cengo, kime: peri}
 **PERİ [kas]:** Baban bu büronun en iyi dedektifidir, Eylül. {kime: eylul}
 *Eylül, Cengo'nun bileğindeki renkli boncuklu bilekliği görüyor.* {kare: D19}
 **PERİ [merakli]:** O bileklik hep bileğinde, Cengo. Hep soracaktım. {kare: D19}
@@ -83,7 +83,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **EYLÜL [kiskanc]:** Babam nereden başlarsak oradan başlarız. {gir: eylul, kime: peri}
 **GİZEM [triko_tepsi]:** Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız. {gir: gizem, kime: eylul}
 **EYLÜL [gulen]:** Tamam, abla. {gir: eylul, kime: gizem}
-*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {gir: eylul, gi: kiskanc}
+*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {gir: eylul, gi: kiskanc, kime: gizem}
 
 ## sahne konusma
 ⚙ arka: A6 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -145,7 +145,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Üsküdar, Doğancılar. Eski bir apartmanın kapısı. Karşı kaldırımda, bir ağacın altında yeşil bir bank.* {arka: A44, mekan}
 *Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.* {gir: recep, gi: supurge}
 **PERİ [normal]:** İyi günler. Bu apartmana gelen mektupları soracaktık. {gir: recep, kime: recep}
-*Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.* {gir: recep, gi: gulen}
+*Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.* {gir: recep, gi: gulen, kime: cengo}
 **RECEP [gulen]:** Sen değil misin şu bankın adamı? {kime: cengo}
 **PERİ [sasirmis]:** Hangi bankın? {kime: recep}
 **RECEP [normal]:** Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar. {kime: peri}
@@ -302,7 +302,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Cengo. Mektupları sen yazdın. {kime: cengo}
 **CENGO [sinirli]:** Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım. {kime: peri}
 **CENGO [yumusak]:** Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam.
-*Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.* {gir: muzeyyen, gi: gergin}
+*Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.* {gir: muzeyyen, gi: gergin, kime: cengo}
 *Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz}
 **JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen}
 *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}

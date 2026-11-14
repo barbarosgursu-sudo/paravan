@@ -5588,7 +5588,13 @@
                 "gir": "recep",
                 "kime": "recep"
               },
-              {"k": "not", "m": "Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.", "gir": "recep", "gi": "gulen"},
+              {
+                "k": "not",
+                "m": "Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.",
+                "gir": "recep",
+                "gi": "gulen",
+                "kime": "cengo"
+              },
               {"k": "recep", "i": "gulen", "m": "Sen değil misin şu bankın adamı?", "kime": "cengo"},
               {"k": "peri", "i": "sasirmis", "m": "Hangi bankın?", "kime": "recep"},
               {
@@ -6156,11 +6162,13 @@
           "satirlar": [
             {
               "k": "not",
-              "m": "Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu."
+              "m": "Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.",
+              "gizle": "cengo"
             },
             {
               "k": "not",
-              "m": "Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı."
+              "m": "Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.",
+              "gir": "cengo"
             },
             {"k": "peri", "i": "sasirmis", "m": "Cengo? Bu gömlek ne? Kim öldü?", "kime": "cengo"},
             {
@@ -6326,7 +6334,7 @@
               "m": "\"Baban dedektif, git ona\" dedi. Sen dedektifsin baba. Sen bulursun.",
               "kime": "cengo"
             },
-            {"k": "not", "m": "Cengo Peri'ye bakıyor. Peri bir an susuyor."},
+            {"k": "not", "m": "Cengo Peri'ye bakıyor. Peri bir an susuyor.", "gir": "cengo", "kime": "peri"},
             {"k": "peri", "i": "kas", "m": "Baban bu büronun en iyi dedektifidir, Eylül.", "kime": "eylul"},
             {"k": "not", "m": "Eylül, Cengo'nun bileğindeki renkli boncuklu bilekliği görüyor.", "kare": "D19"},
             {"k": "peri", "i": "merakli", "m": "O bileklik hep bileğinde, Cengo. Hep soracaktım.", "kare": "D19"},
@@ -6370,7 +6378,8 @@
               "k": "not",
               "m": "Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.",
               "gir": "eylul",
-              "gi": "kiskanc"
+              "gi": "kiskanc",
+              "kime": "gizem"
             }
           ]
         },
@@ -6577,7 +6586,8 @@
               "k": "not",
               "m": "Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.",
               "gir": "muzeyyen",
-              "gi": "gergin"
+              "gi": "gergin",
+              "kime": "cengo"
             },
             {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
             {

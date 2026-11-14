@@ -88,6 +88,7 @@ G24–G25 ondan. V4'e de geçer.
 | G76–G79 | karar kareleri K106–K109 (SR-K: SONUÇ'un anı) | | K107, K109: G26 |
 | G80–G84 | K110–K114 | | K110, K112: G23 |
 | G85 | kart afişi | `KART_V6` | `referanslar/serit_kart_v6.jpg` (G6 onaylanınca) |
+| G87–G89 | **Ek (14 Kasım 2026, sahibinin onayı):** K115 açılış (Peri dergi okuyor, yalnız), K116 (Peri–Cengo–Haldun), K117 (bankta üçü) | `K115`–`K117` | — (referansların hepsi onaylı) |
 
 **Kıyafet hâli tablosu (SR-B):** giriş, ipuçları, yüzleşme → Peri `mesai`, Cengo `utulu` · kovalamaca (K100–K104, K113) → Peri
 ıslak-güllü mesai, Cengo duvaklı · K105'ten sonra (bank, itiraf, K114) → Peri `tul`, Cengo duvaklı · karar kareleri (karar günü) →

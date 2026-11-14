@@ -1,5 +1,12 @@
 # Vaka 6 — üretim durumu
 
+**14 Kasım 2026, gece — EK: 3 KARE (G87–G89).** Sahibi yayında açılışta hata buldu (Peri "ayakları masada, dergi okuyor" derken ayakta;
+Cengo anlatı onu getirmeden ekranda). Satır–resim aracına DURUŞ ve İLK GÖRME denetimleri eklendi, dört yol yeniden tarandı. Beş satır
+yalnız etiketle düzeldi (gömüldü). Üç satır yeni kare istiyor: istemler `prompts/G87–G89.md`, `istem_kontrol.sh` çıkış 0, referanslar
+onaylı. Döngü: `SADECE="87 88 89" KOL=2 ./dongu.sh 6` (ya da tek tek). **Gömünce diyaloğa bağla** (`vaka6_diyalog.md`, sonra
+`arac_diyalog.js`): açılış satırı `{gizle: cengo, kare: K115}` · "Peri bir Cengo'ya, bir Haldun'a bakıyor." `{kare: K116}` ·
+"Jale torbayla… Bankta Müzeyyen, Peri ve Cengo kalıyor." `{cik, kare: K117}`. Kare yokken etiket konmaz (yayında gri kutu çıkar).
+
 **14 Kasım 2026, akşam — GÖMÜLDÜ.** `arac_paket.js --yaz` (profil: Peri mesai/tül `peri_mavi`, Müzeyyen/Jale ve G39/G40 `konuk_beyaz_delik`; `--genis G17,G29,G32`). Boy: muzeyyen 0,65 · jale 0,65 · haldun 0,67 · eylul 0,61 · recep 0,61 · dilek 0,60 · tahsin 0,65. `kart_v6.webp` (G85), `masa_v6.webp`, 4 portre (Eylül, Haldun, Müzeyyen, Jale). Doğrulayıcı (iki oyun) PASS, iki derleme, testler geçti; `arac_yeni_tur.js 0 sofra dogru --hepsi` JS hatası/taşma yok. Bilerek yer tutucu: `peri.gullu.sinirli/kas`, `cengo.buruk.yumusak` (satırda yok). Turun adı-geçen-ekranda-yok adayları (metin işi, sahibine): satır 044, 056, 090, 116, 157.
 
 **14 Kasım 2026, ~17:15 — PARTİ 3 ÜRETİMİ BİTTİ.** `onayli/`'de 86/86 — LİSTE TAMAM. G55 (Jale, makbuz) iki denemede tarz ŞÜPHELİ kaldı, sahibi gözle onayladı. Cengo G34–G37, G39–G41 araç KALDI/ŞÜPHELİ, sahibi gözle onayladı (düz açık gömlek sınırı). Gömme notu: G39/G40 (duvaklı) `konuk_beyaz_delik` profiliyle kesilir. Ayrıntı `uretim_kaydi.md` sonu. Sıradaki: `göm` (`uretim/CLAUDE.md` → Komut: göm).
