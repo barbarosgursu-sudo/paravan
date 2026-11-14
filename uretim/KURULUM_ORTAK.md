@@ -18,19 +18,17 @@ PyTorch 2.15 (CPU) + torchvision 0.29 · open_clip_torch 4.2 · Git 2.55 · Code
 Git Bash'te: `cd /c/Yazilim/paravan && git pull origin main` (yalnız `main`).
 **Doğrula:** `git log --oneline -1` → Barbaros'un bilgisayarındakiyle aynı commit (Barbaros `git log --oneline -1` ile söyler).
 
-## 1. Klasör yapısı — GitHub'la GELMEYEN parçalar
+## 1. Klasör yapısı — hepsi GitHub'dan gelir (14 Kasım 2026)
 
-Depo (`git pull`) her şeyi getirir; şunlar bilerek depoda değil, elle kurulur:
+Barbaros bilgisayarını götürmüyor; elle taşınacak bir şey YOK. `git pull` her şeyi getirir:
+- tarz çapası `uretim/referanslar/tarz_capa/` ve sınav resimleri `uretim/referanslar/tarz_sinav/` (kalıcı, depoda);
+- `uretim/v6/red/` **GEÇİCİ olarak depoda** (normalde `.gitignore`'da; Barbaros'un isteğiyle `git add -f` ile eklendi, ~72 MB).
+  **Kurulum bitince depodan sil, diskte kalsın:** `git rm -r --cached uretim/v6/red && git commit -m "red/ yeniden yalnız yerelde" &&
+  git push origin HEAD:main`. Bunu yapmayı unutma — "Kayıt"a yazılır.
+- döngü kayıt klasörü depo DIŞINDA oluşturulur: Git Bash'te `mkdir -p /c/Yazilim/paravan_log`.
+- `C:\lora\` ve `uretim/v3/red/` GEREKMEZ.
 
-| ne | nereye | nasıl |
-|---|---|---|
-| `uretim/v6/red/` (reddedilenler, ~72 MB; tarz aracının sınavı buradaki `*_stil.png`'yi okur) | `C:\Yazilim\paravan\uretim\v6\red\` | Barbaros'un bilgisayarından USB/Drive ile **bütün klasör** |
-| `uretim/v3/red/` (~127 MB) | — | GEREKMEZ (eski vaka) |
-| döngü kayıt klasörü (`DONGU_LOG`) | `C:\Yazilim\paravan_log\` (depo DIŞINDA) | `mkdir C:\Yazilim\paravan_log` |
-| `kaynak/YENI_UI/` | — | araçlar kendisi üretir |
-| `C:\lora\` | — | GEREKMEZ (tarz çapası depoda: `uretim/referanslar/tarz_capa/`) |
-
-**Doğrula:** `ls /c/Yazilim/paravan/uretim/v6/red/*_stil.png | wc -l` → en az 8.
+**Doğrula:** `ls /c/Yazilim/paravan/uretim/referanslar/tarz_sinav | wc -l` → 8 · `ls /c/Yazilim/paravan/uretim/v6/red | wc -l` → 40.
 
 ## 2. Codex: giriş + bu proje için ayar (resimleri Codex üretir)
 
@@ -67,7 +65,7 @@ python -m pip install open_clip_torch
 `kaynak/arac_tarz.py` ilk koşuşta CLIP modelini (ViT-B-32, ~600 MB) Hugging Face'ten `%USERPROFILE%\.cache\huggingface` altına
 indirir (birkaç dakika; "HF_TOKEN" uyarısı zararsız). Çapa resimleri depoda (`uretim/referanslar/tarz_capa/`).
 **Doğrula:** `cd /c/Yazilim/paravan/kaynak && python arac_tarz.py --sinav` → son satır **"SINAV GEÇTİ"** (kaymış 8/8, iyi 42/42).
-Geçmezse 1. adımdaki `red/` kopyasını kontrol et.
+Geçmezse `git pull`'un tamamlandığını ve `tarz_sinav/`'da 8 dosya olduğunu kontrol et.
 
 ## 6. Döngü (Git Bash'te)
 
@@ -85,4 +83,4 @@ Döngüyü sahte Codex'le denerken PATH'e Windows yolu (`C:/…`) VERME (`uretim
 
 ## Kayıt
 
-- (henüz kurulmadı)
+- (henüz kurulmadı) — kurulumdan sonra: `uretim/v6/red/`'i depodan çıkar (1. adım).

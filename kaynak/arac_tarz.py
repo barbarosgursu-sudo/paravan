@@ -244,8 +244,10 @@ def yaz(s):
 # ---------------------------------------------------------------- sınav
 def sinav(capa):
     U = os.path.join(DEPO, "uretim")
-    kotu = [(os.path.join(U, "v6", "red", f"G{n}_stil.png"), "figur", "cengo") for n in (18, 34, 35, 36, 37, 38, 39)]
-    kotu += [(os.path.join(U, "v6", "red", "G2_stil.png"), "kart", "cengo")]
+    # Kaymış örnekler depoda (red/ GitHub'a gitmez; 14 Kasım 2026'da ortağın bilgisayarı için buraya alındı).
+    TS = os.path.join(U, "referanslar", "tarz_sinav")
+    kotu = [(os.path.join(TS, f"G{n}_stil.webp"), "figur", "cengo") for n in (18, 34, 35, 36, 37, 38, 39)]
+    kotu += [(os.path.join(TS, "G2_stil.webp"), "kart", "cengo")]
     iyi = [(os.path.join(U, "v3", "onayli", f"G{n}.png"), "figur", k) for n, k in
            [(1, "peri"), (2, "peri"), (3, "peri"), (4, "cengo"), (5, "cengo"), (6, None), (7, None), (8, None), (9, None), (12, None), (13, None), (14, None)]]
     iyi += [(os.path.join(U, "v6", "onayli", f"G{n}.png"), "figur", k) for n, k in
@@ -253,7 +255,7 @@ def sinav(capa):
              (3, None), (4, None), (5, None), (7, None), (8, None), (9, None), (23, None), (24, None), (25, None)]]
     iyi += [(os.path.join(U, "v6", "onayli", f"G{n}.png"), "mekan", None) for n in range(10, 17)]
     iyi += [(os.path.join(U, "v3", "onayli", f"G{n}.png"), "mekan", None) for n in (10, 11, 15, 16, 17, 18)]
-    bilinen = [(os.path.join(U, "v6", "red", "G6_stil.png"), "figur", None)]
+    bilinen = [(os.path.join(U, "v6", "red", "G6_stil.png"), "figur", None)]   # yalnız Barbaros'un bilgisayarında; yoksa atlanır
     sonuc = {}
     for ad, kume in (("KAYMIŞ (yakalanmalı)", kotu), ("İYİ (geçmeli)", iyi), ("BİLİNEN KÖR NOKTA (bilgi)", bilinen)):
         print(f"— {ad} —")
