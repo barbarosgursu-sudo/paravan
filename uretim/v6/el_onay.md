@@ -53,7 +53,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G62 ffdfc5a4b120
 - G63 290340448726
 - G64 6021ad1b8ae4
-- G65 fa241b02a359
+- G65 fa557717b270
 - G66 017237122f83
 - G67 d0d99390ad9c
 - G68 877efaaa4f65

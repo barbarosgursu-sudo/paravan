@@ -11,6 +11,9 @@
 > **Ortaktan not (14 Kasım 2026 gece, Barbaros'a):** (1) Sahnede tek kişi varken artık ortada duruyor; ikinci kişi gelince
 > kaymadan, anında yanlara geçiyor (`f8dfc4e`, `yeni_arayuz.js/.css`, `.vn-figurler.tek`). (2) Açılıştaki dergi resmine (G87)
 > dokunmadık; senin üretmeni bekliyoruz. Bizde yarım iş yok; her şey `main`'de.
+> (3) **G65 değişti:** senin onayladığın G65'te yakadaki elin avuç içi görünmüyordu (ortak istedi: sol el, avuç içi bize
+> dönük). İstemde `## Düzeltme 2`, yeni G65 onaylı ve gömülü (`ara_k96.webp`, el onayı yazıldı). Seninki `red/G65_red2.png`.
+> Kalan 10 resmi (G46, G87–G95) gömme sende; G65'i yeniden gömme.
 
 ## 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 
