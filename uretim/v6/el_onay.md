@@ -1,0 +1,76 @@
+# El onayı — kural 5
+
+Sahibinin onayı (Barbaros, 14 Kasım 2026): "69'u onayla" — Claude el sayfalarına baktı, G65 hariç hepsi doğru.
+
+El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kendi kolunda ve doğru
+(sağ/sol) olduğu görülen resimler. Onay sahibinindir (kendisi bakar ya da bakanın sonucunu onaylar). İmza resmin kendisinin; resim değişirse onay düşer, yeniden bakılır.
+
+- G3 3a50251992d0
+- G4 805b6d46c038
+- G5 aefedf6aaa65
+- G6 b7806e92110e
+- G7 0c1834f77821
+- G8 6d56c1e627fd
+- G9 b4edf69cc339
+- G17 1bd48f74e99b
+- G18 ba51936b5fed
+- G23 33ebd7f9d076
+- G24 5b0ef96eeb3e
+- G25 b5ee51e48575
+- G27 19ab8a143ff6
+- G28 88c0b5472a35
+- G29 cbb9e6dd357e
+- G30 a8fff552efa1
+- G31 ad59bdd8f0ac
+- G32 11ea94b06b9f
+- G33 2026cc73640f
+- G34 17ceb2343ce5
+- G35 631a5612abc1
+- G36 dc560fe4620a
+- G37 a0e6b4ac3bda
+- G38 5dfd4832be8a
+- G39 ed092062e233
+- G40 0f9c43faba8b
+- G41 dfec1428596e
+- G42 4371c3e35e2e
+- G43 4871e2b19930
+- G44 aea595b6a146
+- G45 2a6c2d6c2e2f
+- G46 d26d006db482
+- G47 6e614f9b3eb3
+- G48 8e39c87eb67b
+- G49 f33a022071be
+- G50 28828d502573
+- G51 b3ee97dd6ab9
+- G52 d8fc3e44b892
+- G53 de3dacc4e773
+- G54 2b57b96752b7
+- G55 154aa92ebc04
+- G56 88e5a79948e7
+- G57 683bc7d8a67d
+- G58 5974c375974c
+- G59 169f7bce742e
+- G60 1c442b9b840b
+- G61 15213b57dd87
+- G62 ffdfc5a4b120
+- G63 290340448726
+- G64 6021ad1b8ae4
+- G66 017237122f83
+- G67 d0d99390ad9c
+- G68 877efaaa4f65
+- G69 64509febd70a
+- G70 f37000929e24
+- G71 9cd28715c4f8
+- G72 326a3b5313bc
+- G73 f13273af472a
+- G74 78ecd9fc3ef7
+- G75 c00950697aa3
+- G76 cdf8a7ccab68
+- G77 c5b813689e29
+- G78 2909ff0bd561
+- G79 82ad933b5032
+- G80 9c3c869043db
+- G81 7150a54814d8
+- G82 cfd51073fd93
+- G83 dc62054fe016
+- G84 fb4b0af4e0a5

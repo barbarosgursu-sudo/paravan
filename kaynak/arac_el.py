@@ -159,7 +159,7 @@ if __name__ == '__main__':
         if not gs: sys.exit('hangi resimler? python arac_el.py --onay V6 G65 G66 …')
         on = onaylar(N); on.update({g: imza(kaynak(N, g)) for g in gs})
         f = onay_dosya(N)
-        bas = '# El onayı — kural 5\n\nEl sayfasına (python kaynak/arac_el.py --sayfa V%d G<n>) bakılıp her elin kendi kolunda ve doğru\n(sağ/sol) olduğu görülen resimler. İmza resmin kendisinin; resim değişirse onay düşer, yeniden bakılır.\n\n' % N
+        bas = '# El onayı — kural 5\n\nEl sayfasına (python kaynak/arac_el.py --sayfa V%d G<n>) bakılıp her elin kendi kolunda ve doğru\n(sağ/sol) olduğu görülen resimler. Onay sahibinindir (kendisi bakar ya da bakanın sonucunu onaylar). İmza resmin kendisinin; resim değişirse onay düşer, yeniden bakılır.\n\n' % N
         open(f, 'w', encoding='utf-8').write(bas + ''.join(f'- {g} {on[g]}\n' for g in sorted(on, key=lambda x: int(x[1:]))))
         print('onaylandı:', ' '.join(gs))
     elif kip == '--kapi':
@@ -173,7 +173,10 @@ if __name__ == '__main__':
             i = imza(f)
             if (say.get(g) or [None])[0] != i:   # kişi sayısı: resim başına bir kez (imzayla önbellek)
                 _, _, _, b = incele(N, g); say[g] = [i, b]; json.dump(say, open(sf, 'w'), ensure_ascii=False)
-            for x in say[g][1]: print(f'K5 | {g} | {x}'); kotu += 1
+            # Onaylanmış (imzası tutan) resimde otomatik kişi sayısı uyarısı da kapanır: onaylayan kişi sayıyı da gördü
+            # (araç sarılan iki kişiyi tek, mankeni kişi sayabiliyor — V6 G66, G70, G77).
+            if on.get(g) != i:
+                for x in say[g][1]: print(f'K5 | {g} | {x}'); kotu += 1
             if on.get(g) != imza(f):
                 print(f'K5 | {g} | el sayfasına bakılmadı ya da resim değişti — python arac_el.py --sayfa V{N} {g}, bak, sonra --onay'); kotu += 1
         sys.exit(1 if kotu else 0)
