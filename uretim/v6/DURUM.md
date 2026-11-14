@@ -64,18 +64,15 @@ yalnız pozu değiştirmek mi (§9 "çekicilik eskilerden az olmasın" ile çat�
 tutarsız (haki sol, takım sağ); bu vakada sol bilekte sabit. `istem_kontrol.sh`: Peri/Cengo artık "yeni karakter"
 sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 
-## Yeni pencerede "başla" denince
+## Yeni pencerede devam edince (14 Kasım 2026)
 
-1. `git pull` (yalnız `main`). Okuma: kök `CLAUDE.md` → `kaynak/DEVIR.md` en üst bölüm → `uretim/CLAUDE.md` → bu dosya →
-   `LISTE.md`. Resim kuralları: `uretim/ISTEM_KALIPLARI.md`, `uretim/v3_eski/BIRIKIM.md`, `sablon/5_gorsel_sistemi.md`.
-2. `cd uretim && ./istem_kontrol.sh v6/prompts/*.md` → çıkış 0 olmalı.
-3. Saat: `sablon/vakalar/vaka6_baslangic.md` §2'ye "8 Görsel (Parti 1)" satırının başlangıcını yaz (İstanbul saati).
-4. Döngü (arka planda): `cd uretim && KOL=2 DONGU_LOG=<scratchpad, /c/… biçiminde> ./dongu.sh 6`. Üretilecek: G1, G2, G3,
-   G3z, G4z, G5, G5z, G7, G7z, G8, G8z, G9, G9z, G10–G16 (20 resim; G4 zaten `uretilen/`'de). ~15 dk, 5 saatlik kotanın ~%24'ü.
-5. Gelen her resmi denetle (`uretim/CLAUDE.md` → Denetim; kartlarda tam boy, yüz, ayakkabı). Temel figürlerde iki zemini
-   `arac_kes.js` + `arac_yanyana.js` ile kesip saç kenarı temiz olanı seç; boy ölçüsünü not et (H2).
-6. **Temeller sahibine onaya:** onaylarsan `onayli/`'ye; tek sayfada yan yana (eski karakterlerle de) göster. Takılan temel
-   HEMEN sahibine (web paketi). Bitince DURUM ve vaka6_baslangic güncelle, commit, `git push origin HEAD:main`.
+1. `git pull` (yalnız `main`). Oku: kök `CLAUDE.md` → `kaynak/DEVIR.md` en üst → `uretim/CLAUDE.md` → bu dosyanın en üstü → `LISTE.md`.
+2. Oğuz Bey'in bilgisayarındaysa ve kurulum yapılmadıysa: Barbaros "kurulumla başla" deyince `uretim/KURULUM_ORTAK.md`.
+3. İlk iş: `uretilen/G42–G45` (Eylül, yeniden üretim) denetimi → sahibine çapayla tek sayfa.
+4. Sonra döngü: `cd uretim && KOL=2 DONGU_LOG=<kayıt klasörü> ./dongu.sh 6` (Oğuz Bey'in bilgisayarında `/c/Yazilim/paravan_log`).
+   Sırada: G34–G41 (Cengo ifadeleri; G18 onaylı), G47–G60 (konuklar), kareler G61–G85, kart afişi G85. Her resim: araç → göz →
+   onay; KALDI/ŞÜPHELİ onaylanmaz (bilinen istisna: düz açık gömlek puanı düşürür, gözle karar). Parti sonu tek sayfa sahibine.
+5. Açık işler: tarz aracında figür puanına yüzü de katmak; `uretim/v6/red/` kurulumdan sonra depodan çıkarılacak.
 
 ## Ölçüm (13 Kasım, deneme)
 
