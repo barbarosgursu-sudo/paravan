@@ -1,5 +1,9 @@
 # Vaka 6 — üretim durumu
 
+**14 Kasım 2026, ~15:10 — KURULUM YAPILDI, ÜRETİM OĞUZ BEY'DE.** Oğuz Bey'in bilgisayarına kuruldu (`../KURULUM_ORTAK.md` → Kayıt);
+Codex Barbaros'un hesabıyla. Deneme G47 (Haldun, umutlu) üretildi, araç + göz denetiminden geçti, `onayli/`'de. Bu belgede "sahibi"
+artık Oğuz Bey (`kaynak/DEVIR.md` en üst). Aşağıdaki "Oğuz Bey'in hesabıyla / Barbaros kurulumla başla deyince" sözleri eskidi.
+
 **13 Kasım 2026, ~19:45 — GÜN SONU. Yarın Oğuz Bey'in bilgisayarında, onun hesabıyla devam (Barbaros "kurulumla başla" deyince
 `uretim/KURULUM_ORTAK.md`).** G18 (Cengo temeli, 3. deneme) ve G6 (Eylül, kumaş ayarıyla 4. deneme) sahibince ONAYLI. Eylül'ün
 G42–G45'i aynı ayarla yeniden üretildi → `uretilen/`'de, DENETLENMEDİ (araç + göz + sahibine tek sayfa). Sıradaki: G34–G41 (Cengo
@@ -67,7 +71,7 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 ## Yeni pencerede devam edince (14 Kasım 2026)
 
 1. `git pull` (yalnız `main`). Oku: kök `CLAUDE.md` → `kaynak/DEVIR.md` en üst → `uretim/CLAUDE.md` → bu dosyanın en üstü → `LISTE.md`.
-2. Oğuz Bey'in bilgisayarındaysa ve kurulum yapılmadıysa: Barbaros "kurulumla başla" deyince `uretim/KURULUM_ORTAK.md`.
+2. Kurulum yapıldı (14 Kasım 2026, Oğuz Bey'in bilgisayarı). Yeniden gerekirse `uretim/KURULUM_ORTAK.md`.
 3. İlk iş: `uretilen/G42–G45` (Eylül, yeniden üretim) denetimi → sahibine çapayla tek sayfa.
 4. Sonra döngü: `cd uretim && KOL=2 DONGU_LOG=<kayıt klasörü> ./dongu.sh 6` (Oğuz Bey'in bilgisayarında `/c/Yazilim/paravan_log`).
    Sırada: G34–G41 (Cengo ifadeleri; G18 onaylı), G47–G60 (konuklar), kareler G61–G85, kart afişi G85. Her resim: araç → göz →
@@ -116,6 +120,9 @@ değiştirilmez): `G<n>` ya da `G<n>z`'den biri `onayli/`'deyse öbürü üretil
 `kilit/` klasörü elle açılır (`mkdir kilit/G<n>z`); düzeltmeden sonra bu sahte kilitler silinir.
 
 ## Kota kaydı — Vaka 6 üretimi (sahibinin isteği, 13 Kasım 2026)
+
+**14 Kasım 2026:** üretim Oğuz Bey'in bilgisayarına geçti ama ChatGPT hesabı aynı (Barbaros'unki) — yeni satırlar öncekilerle
+toplanabilir. Claude sütunları artık Oğuz Bey'in Claude hesabı: öncekilerle toplanmaz.
 
 Amaç: bir vakanın resimlerinin iki aboneliğin kotasından ne kadar yediğini görmek. Her parti başında ve sonunda sahibi iki
 ekranın değerini verir (ChatGPT → Ayarlar → Kullanım; Claude → Ayarlar → Kullanım), buraya satır eklenir. Sıfırlanma

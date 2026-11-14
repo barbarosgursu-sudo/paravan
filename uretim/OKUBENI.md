@@ -7,7 +7,8 @@ Her şey GitHub'da durur; bilgisayar kapalıyken telefondan (bulut Claude) da g�
 
 | Kim | Ne yapar |
 |---|---|
-| **Sahibi** | Yerel Claude'a `vaka N resimlerini üret` der; takılınca sorulana cevap verir. Son karar onun. |
+| **Oğuz Bey** (14 Kasım 2026'dan beri) | Üretimi yürütür: yerel Claude'a `vaka N resimlerini üret` der; takılınca sorulana cevap verir; resim onayında son karar onun. Web'de üretilecekleri Barbaros'un ChatGPT hesabıyla üretir. |
+| **Barbaros** | Kurallar: yeni kural ya da kural değişikliği, kod ve altyapı ona danışılır. Codex/ChatGPT hesabı onun. |
 | **Codex** | İstemlerden resim üretir → `uretilen/`. Yerel Claude çalıştırır. Kuralları: `AGENTS.md` |
 | **Yerel Claude** | Denetler, onaylar ya da düzeltme notuyla reddeder, oyuna gömer, GitHub'a gönderir. Kuralları: `CLAUDE.md` |
 | **Bulut Claude** | Bilgisayar kapalıyken: istem yazar, onaylıları inceler, oyunu düzeltir. Resim üretemez. |

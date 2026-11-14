@@ -1,9 +1,10 @@
 # Resim üretimi — Oğuz Bey'in bilgisayarına kurulum
 
-13 Kasım 2026, Barbaros'un isteği: resim üretimi genelde Oğuz Bey'in bilgisayarında, **Oğuz Bey'in ChatGPT hesabıyla** yapılacak;
-orada da bu bilgisayardaki programlar ve `Paravan` klasörünün yapısı kurulacak. **Kurulumu yalnız Barbaros yapar.** Claude bu
-dosyayı ancak Barbaros o bilgisayarın başında "kurulumla başla" / "resim üretim programlarını kurdurt" deyince açar; Oğuz Bey'in
-oturumlarında bu konuyu kendiliğinden açmaz. Adımları sırayla uygulat; her adımın sonundaki **Doğrula** geçmeden sonrakine geçme.
+**✅ KURULDU (14 Kasım 2026) — en alttaki Kayıt.** Bu belge yeniden kurulum gerekirse diye duruyor.
+
+13 Kasım 2026, Barbaros'un isteği: resim üretimi Oğuz Bey'in bilgisayarında yapılacak; **hesap Barbaros'un ChatGPT hesabı**
+(14 Kasım 2026 kararı; ilk plan Oğuz Bey'in hesabıydı, ileride değişebilir). Orada da bu bilgisayardaki programlar ve `Paravan`
+klasörünün yapısı kurulur. Adımları sırayla uygulat; her adımın sonundaki **Doğrula** geçmeden sonrakine geçme.
 Bitince en alttaki "Kayıt"a tarih + "kuruldu" yaz, commit → `git push origin HEAD:main`.
 
 **Üretim düzeni Barbaros'un bilgisayarındakiyle BİREBİR aynı (sahibi, 14 Kasım 2026):** üretimi Claude Code başlatır ve yürütür —
@@ -37,7 +38,8 @@ Barbaros bilgisayarını götürmüyor; elle taşınacak bir şey YOK. `git pull
 
 ## 2. Codex: giriş + bu proje için ayar (resimleri Codex üretir)
 
-1. PowerShell'de `codex login` → tarayıcıda **Oğuz Bey'in** ChatGPT hesabıyla giriş (Plus ya da üstü; resim kotası bu hesaptan düşer).
+0. Codex'i Başlat → `cmd`'den (Claude uygulamasının DIŞINDAN) kur: `npm install -g @openai/codex@0.167.0` — Kayıt'taki tuzak.
+1. `codex login` → tarayıcıda **Barbaros'un** ChatGPT hesabıyla giriş (Plus ya da üstü; resim kotası bu hesaptan düşer).
 2. Codex'in ayar dosyasına (`%USERPROFILE%\.codex\config.toml`; yoksa oluştur) bu iki bölümü ekle — döngü Codex'i soru soramadan
    (`codex exec … < /dev/null`) çalıştırır; proje "güvenilir" değilse takılır ya da reddeder:
    ```
@@ -48,7 +50,7 @@ Barbaros bilgisayarını götürmüyor; elle taşınacak bir şey YOK. `git pull
    trust_level = "trusted"
    ```
 3. Bir kez elle dene (kota harcamaz): Git Bash'te `cd /c/Yazilim/paravan/uretim/v6 && codex exec --approve-for-me "Yalnız 'hazır' yaz." < /dev/null`
-**Doğrula:** `codex login status` → Oğuz Bey'in hesabı; 3. adım "hazır" ile biter, izin sorusunda takılmaz.
+**Doğrula:** `codex login status` → "Logged in using ChatGPT" (Barbaros'un hesabı); 3. adım "hazır" ile biter, izin sorusunda takılmaz.
 
 ## 3. ImageMagick (kırpma, şerit, karşılaştırma sayfaları — `magick` komutu)
 
@@ -89,10 +91,10 @@ Döngüyü sahte Codex'le denerken PATH'e Windows yolu (`C:/…`) VERME (`uretim
 ## 7. Son kontrol ve tek resimlik deneme
 
 - `cd /c/Yazilim/paravan/kaynak && node dogrulayici.js yeni && node dogrulayici.js` → ikisi de PASS.
-- Barbaros'un onayıyla TEK resim: `cd /c/Yazilim/paravan/uretim && KOL=1 SADECE="47" DONGU_LOG=/c/Yazilim/paravan_log ./dongu.sh 6`
+- Oğuz Bey'in onayıyla TEK resim: `cd /c/Yazilim/paravan/uretim && KOL=1 SADECE="47" DONGU_LOG=/c/Yazilim/paravan_log ./dongu.sh 6`
   → `uretilen/G47.png` gelir, çıktıda `G47 TARZ: …` satırı görünür. Resim `uretim/CLAUDE.md` → Denetim ile denetlenir.
-- Kota kaydı: Oğuz Bey'in hesabının ChatGPT → Ayarlar → Kullanım değerleri `uretim/v6/DURUM.md` → Kota kaydı tablosuna yazılır
-  (hesap değişti: önceki satırlarla toplanmaz).
+- Kota kaydı: Barbaros'un hesabının ChatGPT → Ayarlar → Kullanım değerleri `uretim/v6/DURUM.md` → Kota kaydı tablosuna yazılır
+  (hesap 13 Kasım'dakiyle aynı: önceki satırlarla toplanabilir).
 
 ## Kayıt
 

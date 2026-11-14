@@ -11,7 +11,9 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
 - **Üretim nerede (sahibi, 14 Kasım 2026):** resim ÜRETİMİ (döngü, Codex) yalnız Oğuz Bey'in bilgisayarında yapılır. Barbaros'un
   bilgisayarında (`D:\Yazilim\paravan`) yalnız üretim hattının tasarımı yapılır: araçlar, kurallar, istem kalıpları, denetim. Hat
   "resimleri düzgün üretebiliriz" noktasına gelince Oğuz Bey'in bilgisayarına kurulur (`KURULUM_ORTAK.md`), üretim oradan sürer.
-  Barbaros'un bilgisayarında döngü başlatılmaz.
+  Barbaros'un bilgisayarında döngü başlatılmaz. **Kuruldu (14 Kasım 2026);** Codex ve web ChatGPT Barbaros'un hesabıyla.
+- **Bu belgede "sahibi" (14 Kasım 2026'dan beri):** üretimi yürüten kişi = **Oğuz Bey** — temel onayı, resim onayı/reddi, web
+  listesi, tarz soruları ona gider. Yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst).
 
 ## Karakter sabitleri (her istemde yazılır, her denetimde aranır)
 

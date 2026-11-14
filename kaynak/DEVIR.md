@@ -8,9 +8,23 @@
 
 ---
 
-## 0000000000000000000000000000000. ⬅️ 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+## 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+
+**Barbaros'un kararı (14 Kasım 2026):**
+- Vaka metinlerini ve resimleri bundan sonra yalnız **Oğuz Bey** üretir, Oğuz Bey'in bilgisayarında (`C:\Yazilim\paravan`).
+  Barbaros vaka üretmez ve kendi bilgisayarında Codex kullanmaz.
+- Codex ve web ChatGPT için **Barbaros'un hesabı** kullanılır. Bu şimdilik böyle, ileride değişebilir.
+- Belgelerde "sahibine onaya / sahibine sor" yazan üretim işlerinin hepsi Oğuz Bey'e gider: temel onayı, resim onayı/reddi,
+  web listesi (filtreye takılanlar), tarz soruları.
+- Barbaros'a danışılan işler değişmedi: yeni kural ya da kural değişikliği, kod ve altyapı, yayın (aşağıda 11 Kasım rol ayrımı).
+- Bekleyen işler: G2, G86 ve G6 temellerini artık Oğuz Bey onaylar.
+- Kurulum 14 Kasım'da yapıldı, G47 denemesi onaylı (`uretim/KURULUM_ORTAK.md` → Kayıt).
+
+## 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
 **Oğuz Bey (Barbaros, 13 Kasım akşam): Vaka 8'in metin üretimine devam edebilir.**
+
+**⚠ Eskidi (14 Kasım): kurulum yapıldı, hesap Barbaros'unki, onaylar Oğuz Bey'de — bkz. en üst bölüm.**
 
 **Yarın (14 Kasım):** resim üretimi Oğuz Bey'in bilgisayarında ve hesabıyla sürer; Barbaros "kurulumla başla" deyince önce kurulum, sonra üretim. Durum: `uretim/v6/DURUM.md` en üst.
 
@@ -263,6 +277,9 @@ yazar ki Barbaros görsün. → Adım 5 başlayabilir.
 Vaka dosyalarını ayırmak (vaka başına ayrı veri/künye/görsel dosyası) konuşuldu; Barbaros: **şimdilik ayrılmayacak.**
 
 ## 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+
+**⚠ 14 Kasım'da genişledi:** bütün üretim (metin + resim) Oğuz Bey'de, Codex/ChatGPT hesabı Barbaros'un — bkz. en üst bölüm.
+Aşağıdaki "Barbaros'a danışılır" listesi geçerli.
 
 Proje artık başka bir bilgisayarda, başka bir Claude hesabıyla, ortak bir kişi tarafından da yürütülüyor.
 Depo yine `barbarosgursu-sudo/paravan`; ortak, depoya "collaborator" olarak eklendi ve `main`'e gönderir.

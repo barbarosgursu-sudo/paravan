@@ -6,8 +6,8 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
-> ### 🖼️ VAKA 6 RESİMLERİ (14 Kasım 2026): Parti 3 sürüyor — durum `uretim/v6/DURUM.md` en üst. Üretim artık Oğuz Bey'in
-> ### bilgisayarında ve hesabıyla; Barbaros "kurulumla başla" deyince `uretim/KURULUM_ORTAK.md`. Her resim önce `kaynak/arac_tarz.py`
+> ### 🖼️ VAKA 6 RESİMLERİ (14 Kasım 2026): Parti 3 sürüyor — durum `uretim/v6/DURUM.md` en üst. Üretim (metin + resim) Oğuz
+> ### Bey'in bilgisayarında, Barbaros'un Codex hesabıyla; kurulum yapıldı (14 Kas, `kaynak/DEVIR.md` en üst). Her resim önce `kaynak/arac_tarz.py`
 > ### (yazılımla tarz denetimi), sonra göz (`uretim/CLAUDE.md` → Denetim 0). İstemler `uretim/istem_kontrol.sh`'tan geçer.
 >
 > ### 👥 ROL AYRIMI (11 Kasım 2026): iş bir ortakla paylaşıldı — kim neye karar verir: `kaynak/DEVIR.md` → "11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ" bölümü.
