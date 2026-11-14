@@ -19,6 +19,8 @@
 - Barbaros'a danışılan işler değişmedi: yeni kural ya da kural değişikliği, kod ve altyapı, yayın (aşağıda 11 Kasım rol ayrımı).
 - G2, G86 ve G6 temelleri 13 Kasım akşamı Barbaros'ça ONAYLANDI (`uretim/v6/DURUM.md`); aşağıdaki "onayını bekliyor" eskidi.
 - Kurulum 14 Kasım'da yapıldı, G47 denemesi onaylı (`uretim/KURULUM_ORTAK.md` → Kayıt).
+- **Sıradaki iş:** Vaka 6 resimlerinin kalanı (46 resim, döngü) — güncel durum ve komut `uretim/v6/DURUM.md` en üst blok.
+  Metin tarafında: Vaka 8'in metni (13 Kasım akşam izni, aşağıda).
 
 ## 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
@@ -33,7 +35,7 @@ kurdurt" dediğinde `uretim/KURULUM_ORTAK.md`'yi ona adım adım uygulat. Kurulu
 bu konuyu açma (Barbaros, 13 Kasım).
 
 **Vaka 6 resimleri:** tarz kayması bulundu (Cengo kartı → bütün Cengo seti; teşhis `uretim/v6/DURUM.md`). Kural `ISTEM_KALIPLARI.md`
-§11. Yeni temeller G2, G86, G6 Barbaros'un onayını bekliyor. Her resmi yazılımla tarz denetiminden geçirecek araç
+§11. Yeni temeller G2, G86, G6 Barbaros'un onayını bekliyor (⚠ eskidi: 13 Kas akşamı onaylandı). Her resmi yazılımla tarz denetiminden geçirecek araç
 (`kaynak/arac_tarz.py`, PyTorch) yazılıyor; araç sınavı geçmeden döngü yeniden başlamaz.
 
 ## 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR

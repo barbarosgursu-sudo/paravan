@@ -10,11 +10,11 @@ Bitince en alttaki "Kayıt"a tarih + "kuruldu" yaz, commit → `git push origin 
 **Üretim düzeni Barbaros'un bilgisayarındakiyle BİREBİR aynı (sahibi, 14 Kasım 2026):** üretimi Claude Code başlatır ve yürütür —
 `uretim/dongu.sh` arka planda, Codex komut satırından (`codex exec`); Codex masaüstü uygulaması KULLANILMAZ. Sahibi üretimi ekranda
 izlemez: her resimden sonra döngü `arac_tarz.py`'yi koşar, Claude denetler (`uretim/CLAUDE.md` → Denetim 0, A, B) ve sahibine yan
-yana sayfa gösterir; temeller tek tek, parti sonu tek sayfa. Tek fark hesap/kota (Oğuz Bey'in ChatGPT hesabı).
+yana sayfa gösterir; temeller tek tek, parti sonu tek sayfa. Hesap/kota da aynı (Barbaros'un ChatGPT hesabı, 14 Kasım 2026).
 
 **Ortağın bilgisayarında zaten olanlar** (11 Kasım 2026, `kaynak/DEVIR.md`): Node.js 26.13, Python 3.12, Git (Git Bash), depo
 `C:\Yazilim\paravan` (D: sürücüsü YOK — bütün yollarda `D:\Yazilim` yerine `C:\Yazilim`; Git Bash'te `/c/Yazilim/paravan`),
-Playwright + Chromium (`araclar/`), Codex CLI 0.167.1 (**giriş yapılmamış**).
+Playwright + Chromium (`araclar/`), Codex CLI 0.167.1 (**giriş yapılmamış**). — 11 Kasım hâli; şimdiki hâl en alttaki Kayıt'ta.
 
 **Barbaros'un bilgisayarında (referans, 13 Kasım 2026):** ImageMagick 7.1.2-34 · Python 3.12.10 · Pillow 13.0 · numpy 2.5 ·
 PyTorch 2.15 (CPU) + torchvision 0.29 · open_clip_torch 4.2 · Git 2.55 · Codex CLI 0.167.0 · Node 26.13.

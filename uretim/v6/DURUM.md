@@ -1,8 +1,14 @@
 # Vaka 6 — üretim durumu
 
-**14 Kasım 2026, ~15:10 — KURULUM YAPILDI, ÜRETİM OĞUZ BEY'DE.** Oğuz Bey'in bilgisayarına kuruldu (`../KURULUM_ORTAK.md` → Kayıt);
-Codex Barbaros'un hesabıyla. Deneme G47 (Haldun, umutlu) üretildi, araç + göz denetiminden geçti, `onayli/`'de. Bu belgede "sahibi"
-artık Oğuz Bey (`kaynak/DEVIR.md` en üst). Aşağıdaki "Oğuz Bey'in hesabıyla / Barbaros kurulumla başla deyince" sözleri eskidi.
+**14 Kasım 2026, ~15:30 — GÜNCEL DURUM (bu blok geçerli; aşağıdaki 13 Kasım blokları GEÇMİŞ).**
+- **Kurulum yapıldı:** Oğuz Bey'in bilgisayarı (`../KURULUM_ORTAK.md` → Kayıt). Codex Barbaros'un hesabıyla. Bu belgede "sahibi"
+  artık Oğuz Bey (`kaynak/DEVIR.md` en üst). Aşağıdaki "Oğuz Bey'in hesabıyla / Barbaros kurulumla başla deyince" sözleri eskidi.
+- **`onayli/`'de 39 resim.** Temeller hepsi onaylı: G2, G86 (Cengo kartları), G18 (Cengo temeli), G6 (Eylül) ve Parti 1–2'ninkiler.
+  Eylül ifadeleri G42–G45 onaylı (14 Kas). Deneme G47 (Haldun, umutlu) üretildi, araç + göz geçti, onaylı. `uretilen/` boş.
+- **Kalan 46 resim + 1 web:** G34–G41 (Cengo ifadeleri), G48–G60 (konuk ifadeleri), G61–G84 (kareler), G85 (kart afişi).
+  G26 (Eylül kıyafet kartı) iki kez filtreye takıldı → `WEB_LISTESI.md`; zorunlu değil, açık soru orada (kart mı, G6 yeter mi).
+- **Sıradaki iş:** döngü — `cd uretim && KOL=2 DONGU_LOG=/c/Yazilim/paravan_log ./dongu.sh 6` (arka planda). Her resim araç → göz
+  → onay; parti sonunda Oğuz Bey'e tek sayfa.
 
 **13 Kasım 2026, ~19:45 — GÜN SONU. Yarın Oğuz Bey'in bilgisayarında, onun hesabıyla devam (Barbaros "kurulumla başla" deyince
 `uretim/KURULUM_ORTAK.md`).** G18 (Cengo temeli, 3. deneme) ve G6 (Eylül, kumaş ayarıyla 4. deneme) sahibince ONAYLI. Eylül'ün
@@ -72,11 +78,11 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 
 1. `git pull` (yalnız `main`). Oku: kök `CLAUDE.md` → `kaynak/DEVIR.md` en üst → `uretim/CLAUDE.md` → bu dosyanın en üstü → `LISTE.md`.
 2. Kurulum yapıldı (14 Kasım 2026, Oğuz Bey'in bilgisayarı). Yeniden gerekirse `uretim/KURULUM_ORTAK.md`.
-3. İlk iş: `uretilen/G42–G45` (Eylül, yeniden üretim) denetimi → sahibine çapayla tek sayfa.
-4. Sonra döngü: `cd uretim && KOL=2 DONGU_LOG=<kayıt klasörü> ./dongu.sh 6` (Oğuz Bey'in bilgisayarında `/c/Yazilim/paravan_log`).
+3. ~~İlk iş: `uretilen/G42–G45` denetimi~~ — yapıldı, onaylı (14 Kas).
+4. Döngü: `cd uretim && KOL=2 DONGU_LOG=<kayıt klasörü> ./dongu.sh 6` (Oğuz Bey'in bilgisayarında `/c/Yazilim/paravan_log`).
    Sırada: G34–G41 (Cengo ifadeleri; G18 onaylı), G47–G60 (konuklar), kareler G61–G85, kart afişi G85. Her resim: araç → göz →
    onay; KALDI/ŞÜPHELİ onaylanmaz (bilinen istisna: düz açık gömlek puanı düşürür, gözle karar). Parti sonu tek sayfa sahibine.
-5. Açık işler: `uretim/v6/red/` kurulumdan sonra depodan çıkarılacak. ("Tarz puanına yüzü katmak" kapandı, aşağıda.)
+5. ~~`uretim/v6/red/` depodan çıkarılacak~~ — yapıldı (14 Kas, diskte duruyor). ("Tarz puanına yüzü katmak" kapandı, aşağıda.)
 
 **14 Kasım 2026 — tarz aracı onarıldı, YÜZ ARACI eklendi (sahibinin isteği).**
 - `arac_tarz.py`: yüz kırpığı x0 kadar sağa kayıyordu (kartlarda boş gri, figürde yarım yüz ölçülüyordu). Düzeltildi; sınav yine

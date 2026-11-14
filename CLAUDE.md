@@ -10,7 +10,8 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 > ### Bey'in bilgisayarında, Barbaros'un Codex hesabıyla; kurulum yapıldı (14 Kas, `kaynak/DEVIR.md` en üst). Her resim önce `kaynak/arac_tarz.py`
 > ### (yazılımla tarz denetimi), sonra göz (`uretim/CLAUDE.md` → Denetim 0). İstemler `uretim/istem_kontrol.sh`'tan geçer.
 >
-> ### 👥 ROL AYRIMI (11 Kasım 2026): iş bir ortakla paylaşıldı — kim neye karar verir: `kaynak/DEVIR.md` → "11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ" bölümü.
+> ### 👥 ROL AYRIMI (11 Kasım 2026; 14 Kasım'da genişledi): bütün üretim (metin + resim) Oğuz Bey'de, kurallar Barbaros'ta —
+> ### `kaynak/DEVIR.md` en üst bölüm ve "11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ" bölümü.
 >
 > ### ✅ VAKA 3'ÜN TÜRKÇESİ DONDU (9 Kasım 2026) — Vaka 2 dondu (16 Ekim 2026)
 > ### YENİ PLAN (12 Kasım 2026, sahibinin kararı): Vaka 6, 7, 8 resimsiz yazılır ve onaylanır (hikâye donar); gerekirse
