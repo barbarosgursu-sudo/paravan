@@ -73,7 +73,9 @@ denetle → temelleri Barbaros'a onaya.
    değişmesin, değişecekse resim üretilsin." Yapıldı: kural **SR-M** (`5_gorsel_sistemi.md`), motor kuralı (Peri'nin `kime`si sahnedeyse
    sağa gelir, `yeni_arayuz.js`; V1–V5'i de etkiler), `arac_satir_resim.js` bayrakları OTO/İŞ/SOR ayırır. V6 diyaloğunda yalnız
    etiketler değişti (söz farkı 0, makineyle sınandı); 11 yeni resim (`uretim/v6/LISTE.md`).
-   **Barbaros'a öneri (açık):** SR-M8 — araç hikâye donmadan önce (adım 5) de koşsun ki sözle çözülecek olan o zaman çözülsün.
+   **Barbaros'a öneri:** SR-M8 — araç hikâye donmadan önce (adım 5) de koşsun ki sözle çözülecek olan o zaman çözülsün.
+   → *Cevap (14 Kas):* kabul; adım 5'te yalnız İŞ yazara, SOR adım 8'de sahibine. Vaka 7'den itibaren. `7_uretim_sureci.md`
+   (adım 5 ve Satır–resim uyumu) ile `5_gorsel_sistemi.md` M8'e yazıldı.
 
 **Bu bilgisayarda yerel not:** "eski yerel Vaka 5 değişiklikleri" stash'i Barbaros'un isteğiyle silindi (13 Kas).
 

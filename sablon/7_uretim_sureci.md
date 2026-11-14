@@ -10,7 +10,7 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 | 2 | **Onay 1:** form | sahibi | "onay" |
 | 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu). Satır–resim sözleşmesi (5. parça C0): her satırın gerçek muhatabı `kime`/`gir` ile (SR-A, konuk–konuk SR-G); ifade satırın duygusundan seçilir, eldeki yüzlerden değil (SR-I); sahne notu yalnız o an görüleni söyler (SR-H) | ben | otomatik denetimden geçer |
 | 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
-| 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması** ve **sızıntı taraması** (aşağıda) | ben | hata yok; iki tarama bitti, düzeltmeler veride |
+| 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması**, **sızıntı taraması** ve **erken satır–resim taraması** (SR-M8, aşağıda) | ben | hata yok; üç tarama bitti, düzeltmeler veride |
 | 6 | **Onay 2 — görselsiz test:** sahibi oynar. Okuyan, vakaya başlamadan önce `3_kanon_kaydi.md`'yi okur (büro nerede, kim kimdir, dönen figürler; kural G, 12 Kasım 2026). Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
 | 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
 | 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve her karar/ara/kapanış karesi için kıyafet hâli, SR-B), **ifade/nesne ayrımı** (SR-D), `arac_satir_resim.js` bayraklarının **hepsi kapalı** (SR-E). İlk figürden önce **kıyafet kartları** tek sayfada sahibine (5. parça I, SR-C) | ben | bayrak kalmadı; kıyafet kartları onaylı |
@@ -87,6 +87,10 @@ Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılı
 
 **Satır–resim uyumu ZORUNLU (sahibi, 6 Kasım 2026).** Her metin, gösterildiği resimle uyumlu olmalı ve resim bunu bilerek
 üretilir. Üç aşama, araç `kaynak/arac_satir_resim.js` (tur dökümünden her resmin göründüğü satırları ve riskli satırları basar):
+- **Hikâye donmadan önce (adım 5; SR-M8, 14 Kasım 2026, sahibinin kararı; Vaka 7'den itibaren):** görselsiz tur bütün yollarda
+  `--hepsi` ile → `node arac_satir_resim.js <dokum…> --vaka V<N>`. **İŞ** bayrakları yazara gider; sözle çözülecek olan
+  (nesneyi bırakan cümle, netleşen hitap…) şimdi sözle çözülür. **SOR** bayrakları burada sahibine GİTMEZ — hikâye dondukça
+  bir kısmı kendiliğinden kalkar; kalanlar adım 8'de bir kez sorulur. Hikâye donduktan sonra yalnız etiket ve resimle (SR-M).
 - **İstem yazarken:** görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`, her yolun `satir/`'ını kopyala) →
   `node arac_satir_resim.js <dokum…> --vaka V<N>`. Her figür/kare isteminin `## Satırlar` bölümüne o resmin satırları
   konur. Bir yüz hepsine uymuyorsa (ör. güler yüz + suçlanma satırı) AYRI ifade istenir. EYLEM bayraklı anlatı satırı
