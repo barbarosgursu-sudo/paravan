@@ -65,29 +65,30 @@ const VAKA = YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2"
   if (HEPSI) fs.mkdirSync(SDIR, { recursive: true });
   // İki figürün ekranda kaç piksel üst üste bindiği: her figür tek başına (arka plan ve öbür figür gizli) saydam zeminde
   // görüntülenir, iki görüntünün ikisinde de dolu olan pikseller sayılır. Çift başına bir kez (önbellek binme{}).
-  const ustUste = async () => {
-    const fig = await p.$('#vnFig'); if (!fig) return 0;
-    const al = async gizle => {
-      await p.evaluate(g => { document.documentElement.style.background = 'transparent'; document.body.style.background = 'transparent';
-        for (const id of ['vnArka', g]) { const e = document.getElementById(id); if (e) { e.dataset.kapiGiz = e.style.visibility; e.style.visibility = 'hidden'; } }
-        const sh = document.getElementById('vnSahne'); if (sh) { sh.dataset.kapiBg = sh.style.background; sh.style.background = 'transparent'; } }, gizle);
-      const buf = await fig.screenshot({ omitBackground: true, type: 'png' });
-      await p.evaluate(g => { for (const id of ['vnArka', g]) { const e = document.getElementById(id); if (e) e.style.visibility = e.dataset.kapiGiz || ''; }
-        const sh = document.getElementById('vnSahne'); if (sh) sh.style.background = sh.dataset.kapiBg || '';
-        document.documentElement.style.background = ''; document.body.style.background = ''; }, gizle);
-      return buf.toString('base64');
-    };
-    const a = await al('vnSag'), b2 = await al('vnSol');
-    return p.evaluate(async ([x, y]) => {
-      const yukle = u => new Promise(r => { const i = new Image(); i.onload = () => r(i); i.src = 'data:image/png;base64,' + u; });
-      const [i1, i2] = await Promise.all([yukle(x), yukle(y)]);
-      const c = document.createElement('canvas'); c.width = i1.width; c.height = i1.height; const g = c.getContext('2d');
-      g.drawImage(i1, 0, 0); const d1 = g.getImageData(0, 0, c.width, c.height).data;
-      g.clearRect(0, 0, c.width, c.height); g.drawImage(i2, 0, 0); const d2 = g.getImageData(0, 0, c.width, c.height).data;
-      let n = 0; for (let k = 3; k < d1.length; k += 4) if (d1[k] > 128 && d2[k] > 128) n++;
-      return n;
-    }, [a, b2]);
-  };
+  const ustUste = async () => p.evaluate(() => {
+    // Her figürün resmi ekrandaki kutusuna (aynalıysa aynalı) ayrı bir tuvale çizilir; ikisinde de dolu olan pikseller sayılır.
+    const fig = document.getElementById('vnFig'), R = fig.getBoundingClientRect();
+    const W = Math.round(R.width), H = Math.round(R.height); if (!W || !H) return 0;
+    const ciz = id => { const e = document.getElementById(id), img = e && !e.hidden && e.querySelector('img'); if (!img || !img.complete) return null;
+      const r = img.getBoundingClientRect(); let ayna = false;
+      for (let n = img; n && n !== fig; n = n.parentElement) { const t = getComputedStyle(n).transform; if (t && t !== 'none' && parseFloat(t.slice(7)) < 0) ayna = !ayna; }
+      const c = document.createElement('canvas'); c.width = W; c.height = H; const g = c.getContext('2d');
+      if (ayna) { g.translate(r.left - R.left + r.width, r.top - R.top); g.scale(-1, 1); g.drawImage(img, 0, 0, r.width, r.height); }
+      else g.drawImage(img, r.left - R.left, r.top - R.top, r.width, r.height);
+      return g.getImageData(0, 0, W, H).data; };
+    const a = ciz('vnSol'), b = ciz('vnSag'); if (!a || !b) return 0;
+    // Öndeki figür: sağdaki (DOM'da sonra), sol .ustte ise sol. Sayılan: öndekinin TEN renkli pikseli (el, kol) arkadakinin
+    // üstüne geliyor — dokunuyormuş gibi görünen el (V6 Haldun'un eli Peri'nin kolunda). Kumaş kumaşa binmesi sayılmaz.
+    const solOnde = document.getElementById('vnSol').classList.contains('ustte');
+    const on = solOnde ? a : b, arka = solOnde ? b : a;
+    let n = 0;
+    for (let k = 0; k < on.length; k += 4) {
+      if (on[k + 3] < 200 || arka[k + 3] < 128) continue;
+      const r = on[k], g = on[k + 1], bb = on[k + 2];
+      if (r > 95 && g > 40 && bb > 20 && r > g && r > bb && r - g > 15 && r - Math.min(g, bb) > 15) n++;
+    }
+    return n;
+  });
   const satirFoto = async ad => {
     await p.waitForTimeout(250);
     const d = await p.evaluate(() => {

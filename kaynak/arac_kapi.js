@@ -91,7 +91,8 @@ const arka = (komut, a, env) => new Promise(r => { const c = spawn(komut, a, { c
   const sonuc = await Promise.all(isler);
   const siz = sonuc.pop();
   if (siz.status !== 0) B('sızıntı', 'arac_sizinti_tur.js ' + VAKA, siz.out.trim().split('\n').filter(l => /sızıntı|SIZINTI|✗/i.test(l)).slice(0, 5).join(' / ') || 'çıkış ' + siz.status);
-  sonuc.forEach((r, i) => { if (r.status !== 0 || /JS hatası|HATA/.test(r.out.split('\n').slice(-15).join('\n'))) B('tur', yollar[i].join(' '), r.out.trim().split('\n').slice(-4).join(' / ')); });
+  // Tur: JS hatası, yatay taşma ya da turun kendisi çökerse (✗ satırları). "Adı geçen ekranda yok" K2'de sayılır.
+  sonuc.forEach((r, i) => { if (r.status !== 0) B('tur', yollar[i].join(' '), r.out.trim().split('\n').filter(l => /✗|TUR HATASI/.test(l)).slice(0, 4).join(' / ') || 'çıkış ' + r.status); });
   const dosya = (i, f) => path.join(tmp, 'y' + i, 'satir', f);
   // 4) satır–resim aracı: İŞ ve SOR sıfır olmalı (K10 bu araçta)
   const dokumlar = yollar.map((_, i) => dosya(i, 'dokum.txt')).filter(f => fs.existsSync(f));
@@ -137,11 +138,13 @@ function denetle(g) {
     // K1
     if (!duz && !r.ekran) B2('K1', 'ekran etiketi yok — {ekran: …} yazılmalı (önceki satırdan taşınıyor)');
     // K2 (a) anlatıda anılan ekranda
-    if (anlati && !duz) for (const id of anilan) if (!ekran.includes(id)) B2('K2', `anlatı ${id}'i anıyor, ekranda değil (ekranda: ${ekran.join(', ') || 'kimse'})`);
+    if (anlati && !duz) for (const id of anilan) if (!ekran.includes(id)) B2('K2', `anlatı ${id} kişisini anıyor, ekranda değil (ekranda: ${ekran.join(', ') || 'kimse'})`);
     // K2 (b) ekrandaki herkes anılıyor / konuşuyor / hitap ediliyor
     if (!duz) {
       let izinli = new Set(anilan);
-      if (!anlati) { izinli.add(r.k); if (r.kime) izinli.add(r.kime); const o = r.onceki; if (o && !anlati && o.k !== 'not') { izinli.add(o.k); if (o.kime) izinli.add(o.kime); } }
+      if (!anlati) { izinli.add(r.k); if (r.kime) izinli.add(r.kime);
+        // kime yazılmamışsa: aynı kişinin süren konuşması — geriye doğru ilk hitaba ya da öteki konuşana kadar bakılır
+        if (!r.kime) for (let o = r.onceki; o && o.k !== 'not'; o = o.onceki) { if (o.k !== r.k) { izinli.add(o.k); break; } if (o.kime) { izinli.add(o.kime); break; } } }
       if (anlati && !anilan.length && r.gir) izinli.add(r.gir);
       if (anlati && !anilan.length && !r.gir) izinli = new Set(ekran); // kimseyi anmayan anlatı (kapı çalınıyor): ekran serbest
       for (const id of ekran) if (!izinli.has(id)) B2('K2', `${id} ekranda ama bu satırda anılmıyor, konuşmuyor, hitap edilmiyor`);
@@ -157,7 +160,7 @@ function denetle(g) {
     if (!duz) for (const id of ekran) {
       const yazili = (id === r.k && r.i) || (r.gir === id && r.gi) || (id === 'peri' && r.peri) || (id === 'cengo' && r.cengo) ||
         String(r.yuz || '').split('+').some(p => p.trim().startsWith(id + '.'));
-      if (!yazili) B2('K8', `${id}'in yüzü bu satırda yazılı değil (önceki satırdan taşınıyor: ${id === fid(r.sol) ? r.sol : r.sag})`);
+      if (!yazili) B2('K8', `${id}: yüzü bu satırda yazılı değil (önceki satırdan taşınıyor: ${id === fid(r.sol) ? r.sol : r.sag})`);
     }
     // K9 (hedef ekranda)
     if (!r.kare) for (const m of String(r.m).matchAll(BAK)) {
@@ -177,13 +180,13 @@ function resimDenetle(g) {
     const figs = [r.sol, r.sag].filter(x => x && x !== '-');
     figs.forEach(f => kullanilan.add(f));
     // K11
-    if (figs.length === 2 && r.binme > Number(process.env.BINME_ESIK || 500)) B2('K11', `${figs.join(' ve ')} ekranda ${r.binme} px üst üste biniyor`);
+    if (figs.length === 2 && r.binme > Number(process.env.BINME_ESIK || 200)) B2('K11', `${figs.join(' ve ')} — öndekinin eli ötekinin üstünde (${r.binme} px), dokunuyormuş gibi`);
     for (const f of figs) {
       const id = fid(f), p = poz[f], obur = figs.map(fid).find(x => x !== id);
       if (!p) continue; // poz kaydı eksikliği aşağıda bir kez
       // K3
-      if (p.hedef) { const hedef = p.hedef === 'muhatap' ? (r.k === id ? r.kime : r.k) : p.hedef;
-        if (hedef && obur !== hedef) B2('K3', `${f} pozu ${p.hedef === 'muhatap' ? 'muhatabına (' + hedef + ')' : hedef + "'e"} yöneliyor, karşısında ${obur || 'kimse'} var`); }
+      if (p.hedef) { const hedef = p.hedef === 'muhatap' ? (r.k === id ? r.kime : r.k === 'not' ? '' : r.k) : p.hedef;
+        if (hedef && obur !== hedef) B2('K3', `${f} pozu ${p.hedef === 'muhatap' ? 'muhatabına (' + hedef + ')' : hedef + ' kişisine'} yöneliyor, karşısında ${obur || 'kimse'} var`); }
       // K12
       if (p.konusur && r.k !== id) B2('K12', `${f} konuşur gibi, ama bu satırda ${r.k === 'not' ? 'anlatı var' : r.k + ' konuşuyor'}`);
     }
