@@ -64,9 +64,10 @@ python -m pip install pillow numpy
 python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 python -m pip install open_clip_torch
 python -m pip install opencv-python
+python -m pip install onnxruntime
 ```
 (PyTorch CPU sürümü; ekran kartı gerekmez. İndirme birkaç yüz MB. `opencv-python` yüz denetim aracı için, 14 Kasım 2026.)
-**Doğrula:** `python -c "import PIL, numpy, torch, torchvision, open_clip, cv2; print(torch.__version__, cv2.__version__)"`
+**Doğrula:** `python -c "import PIL, numpy, torch, torchvision, open_clip, cv2, onnxruntime; print(torch.__version__, cv2.__version__)"`
 
 ## 5. Tarz denetim aracı (ilk çalıştırmada modeli indirir)
 
