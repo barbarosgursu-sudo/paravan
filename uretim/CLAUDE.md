@@ -8,6 +8,10 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
 - **Başlarken:** `git pull`. Sonra `uretim/v<N>/DURUM.md`'yi oku.
 - **Bitirirken ve döngüde ara ara:** `DURUM.md`'yi güncelle → commit → `git push origin HEAD:main`. Yalnız `main`.
 - Sahibi bir kural söylerse (ör. "Peri'nin ayakkabısı hep kırmızı") onu BU dosyaya yaz; hafızaya değil.
+- **Üretim nerede (sahibi, 14 Kasım 2026):** resim ÜRETİMİ (döngü, Codex) yalnız Oğuz Bey'in bilgisayarında yapılır. Barbaros'un
+  bilgisayarında (`D:\Yazilim\paravan`) yalnız üretim hattının tasarımı yapılır: araçlar, kurallar, istem kalıpları, denetim. Hat
+  "resimleri düzgün üretebiliriz" noktasına gelince Oğuz Bey'in bilgisayarına kurulur (`KURULUM_ORTAK.md`), üretim oradan sürer.
+  Barbaros'un bilgisayarında döngü başlatılmaz.
 
 ## Karakter sabitleri (her istemde yazılır, her denetimde aranır)
 
