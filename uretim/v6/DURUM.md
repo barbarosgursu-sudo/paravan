@@ -1,5 +1,9 @@
 # Vaka 6 — üretim durumu
 
+**14 Kasım 2026, akşam — GÖMÜLDÜ.** `arac_paket.js --yaz` (profil: Peri mesai/tül `peri_mavi`, Müzeyyen/Jale ve G39/G40 `konuk_beyaz_delik`; `--genis G17,G29,G32`). Boy: muzeyyen 0,65 · jale 0,65 · haldun 0,67 · eylul 0,61 · recep 0,61 · dilek 0,60 · tahsin 0,65. `kart_v6.webp` (G85), `masa_v6.webp`, 4 portre (Eylül, Haldun, Müzeyyen, Jale). Doğrulayıcı (iki oyun) PASS, iki derleme, testler geçti; `arac_yeni_tur.js 0 sofra dogru --hepsi` JS hatası/taşma yok. Bilerek yer tutucu: `peri.gullu.sinirli/kas`, `cengo.buruk.yumusak` (satırda yok). Turun adı-geçen-ekranda-yok adayları (metin işi, sahibine): satır 044, 056, 090, 116, 157.
+
+**14 Kasım 2026, ~17:15 — PARTİ 3 ÜRETİMİ BİTTİ.** `onayli/`'de 86/86 — LİSTE TAMAM. G55 (Jale, makbuz) iki denemede tarz ŞÜPHELİ kaldı, sahibi gözle onayladı. Cengo G34–G37, G39–G41 araç KALDI/ŞÜPHELİ, sahibi gözle onayladı (düz açık gömlek sınırı). Gömme notu: G39/G40 (duvaklı) `konuk_beyaz_delik` profiliyle kesilir. Ayrıntı `uretim_kaydi.md` sonu. Sıradaki: `göm` (`uretim/CLAUDE.md` → Komut: göm).
+
 **14 Kasım 2026, ~15:30 — GÜNCEL DURUM (bu blok geçerli; aşağıdaki 13 Kasım blokları GEÇMİŞ).**
 - **Kurulum yapıldı:** Oğuz Bey'in bilgisayarı (`../KURULUM_ORTAK.md` → Kayıt). Codex Barbaros'un hesabıyla. Bu belgede "sahibi"
   artık Oğuz Bey (`kaynak/DEVIR.md` en üst). Aşağıdaki "Oğuz Bey'in hesabıyla / Barbaros kurulumla başla deyince" sözleri eskidi.
