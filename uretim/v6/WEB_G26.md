@@ -40,4 +40,6 @@ tarz G6 gibi boyalı (katalog çizimi değil, §11) · zemin #D4D4D4.
 
 ## Sonuç
 
-- (henüz denenmedi)
+- **14 Kasım 2026, 15:31 — web'de üretildi (filtreye takılmadı), denetlendi, Oğuz Bey ONAYLADI → `onayli/G26.png`.**
+  Tarz aracı GEÇTİ (+0,113). Küçük farklar kabul: ayakkabı çok koyu kahveye çalan siyah, zemin #CFCFCF, belden aşağısı biraz pürüzsüz.
+  Sayfa: `yanyana/G26_onay.jpg`.

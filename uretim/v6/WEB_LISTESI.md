@@ -9,3 +9,4 @@ gerekli mi (kurala göre kareye giren konuğun kartı), yoksa G6 yeter mi?
 
 **Karar (Oğuz Bey, 14 Kasım 2026):** web'de, yetişkin gövde referansı olmadan bir kez denenir → paket `WEB_G26.md`.
 Yine takılırsa G26 üretilmez, kareler G6 ile sürer.
+**Sonuç (14 Kasım 2026):** web'de üretildi, Oğuz Bey onayladı → `onayli/G26.png` (`WEB_G26.md`). KAPANDI.

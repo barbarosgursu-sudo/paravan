@@ -3,10 +3,10 @@
 **14 Kasım 2026, ~15:30 — GÜNCEL DURUM (bu blok geçerli; aşağıdaki 13 Kasım blokları GEÇMİŞ).**
 - **Kurulum yapıldı:** Oğuz Bey'in bilgisayarı (`../KURULUM_ORTAK.md` → Kayıt). Codex Barbaros'un hesabıyla. Bu belgede "sahibi"
   artık Oğuz Bey (`kaynak/DEVIR.md` en üst). Aşağıdaki "Oğuz Bey'in hesabıyla / Barbaros kurulumla başla deyince" sözleri eskidi.
-- **`onayli/`'de 39 resim.** Temeller hepsi onaylı: G2, G86 (Cengo kartları), G18 (Cengo temeli), G6 (Eylül) ve Parti 1–2'ninkiler.
+- **`onayli/`'de 40 resim** (G26 Eylül kartı web'de üretildi, 14 Kas onaylı). Temeller hepsi onaylı: G2, G86 (Cengo kartları), G18 (Cengo temeli), G6 (Eylül) ve Parti 1–2'ninkiler.
   Eylül ifadeleri G42–G45 onaylı (14 Kas). Deneme G47 (Haldun, umutlu) üretildi, araç + göz geçti, onaylı. `uretilen/` boş.
 - **Kalan 46 resim + 1 web:** G34–G41 (Cengo ifadeleri), G48–G60 (konuk ifadeleri), G61–G84 (kareler), G85 (kart afişi).
-  G26 (Eylül kıyafet kartı) iki kez filtreye takıldı → `WEB_LISTESI.md`; zorunlu değil, açık soru orada (kart mı, G6 yeter mi).
+  G26 (Eylül kıyafet kartı) web'de üretildi ve onaylandı (14 Kas). Eylül'lü kareler (G61, G66, G77, G79) hâlâ G6'ya bağlı.
 - **Sıradaki iş:** döngü — `cd uretim && KOL=2 DONGU_LOG=/c/Yazilim/paravan_log ./dongu.sh 6` (arka planda). Her resim araç → göz
   → onay; parti sonunda Oğuz Bey'e tek sayfa.
 
