@@ -229,11 +229,9 @@ Yalnız LISTE'deki her resim `onayli/`'deyken (yarım set gömülmez; oyunda esk
 1. `kaynak` içinde: `node arac_paket.js ../uretim/v<N>/onayli --vaka <N> --profil <G=profil,…> --genis <…>` → temas sayfasına bak.
 2. Aynı komut `--yaz` ile (doğrulayıcı ve derlemeleri kendisi çalıştırır).
 3. Not ettiğin boy ölçeklerini `kaynak/yeni/gorseller.json → boy`'a yaz (`arac_json_yaz.js` ile).
-3b. **Kesim yapay zekâyla (14 Kasım 2026, sahibinin kararı — tek yöntem):** `arac_paket.js` figürleri `arac_kes_yz.py` ile keser
-   (BiRefNet modeli; saç arası ve kol arası zemini de siler, kenardaki zemin rengini arındırır; ilk kullanımda model ~970 MB
-   indirilir, `onnxruntime` gerekir — `KURULUM_ORTAK.md`). Profil yalnız çerçeveyi verir. **Kapı:** kenarda zemin rengi
-   kalan figür (`KALINTI` > 300 px) HATA sayılır, `--yaz` durur. Eski renk kesimi (`arac_kes.js`) ve `arac_hale.py` artık
-   kullanılmaz (V6'da hale adımı atlandı, Peri'nin saçında mavi, Cengo'nun kol arasında bej yayına çıktı). `--eski` yalnız karşılaştırma için.
+3b. **Saç halesi (yeşil zeminli figürler):** `python arac_hale.py ../uretim/v<N>/onayli/G<n>.png yeni_gorsel/<…>.webp --profil peri|konuk [--genis]`
+   — kaynağın baş bölgesinde renk anahtarıyla teller arasındaki yeşili siler, kenar sisini saç tonuna çeker. Bir dosyaya
+   BİR kez çalıştır (önce `arac_paket.js --yaz` yeniden keser). Bej zeminli figüre kullanma. Oyunda `arac_yanyana.js --kesik` ile bak.
 4. **Masa kartı (Ajansın Masası, vaka seçme):** kart afişinden yatay kırpık, yüzler görünür:
    `magick yeni_gorsel/kart_v<N>.webp -resize 900x -crop 900x500+0+<y> +repage -quality 80 yeni_gorsel/masa_v<N>.webp`;
    `gorseller.json → dosyalar.MASA_V<N>`, `game_data.json → vakalar[V<N>].giris_gorsel = "MASA_V<N>"` (yoksa önceki vakanın

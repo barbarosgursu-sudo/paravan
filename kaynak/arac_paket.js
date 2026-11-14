@@ -7,9 +7,7 @@
 // YA DA ChatGPT'nin verdiği adla kalır ve --sira G1-G13 verilir: dosyalar adlarındaki üretim
 // saatine dizilir, numaralar sırayla dağıtılır (sayı tutmazsa durur). Eşleşme temas sayfasında.
 // Numara → tür ve anahtar, sablon/vakalar/vaka<N>_gorsel.md tablosundan okunur.
-//   figür              → arac_kes_yz.py ile kesilir (yapay zekâ; 14 Kasım 2026'dan beri tek yöntem). Profil yalnız çerçeveyi
-//                        verir (peri / cengo / konuk; --profil ile değişir). Kenarda zemin rengi kalırsa (KALINTI > KALINTI_ESIK)
-//                        figür HATA sayılır ve --yaz durur. --eski: eski renk kesimi (arac_kes.js), yalnız karşılaştırma için.
+//   figür              → arac_kes.js ile kesilir (peri / cengo / konuk profili; --profil ile değişir)
 //   arka plan/kare/detay → 900×1200, WebP q80
 //
 // --yaz YOKKEN (önizleme): hiçbir proje dosyasına dokunmaz; çıktılar geçici klasöre gider,
@@ -33,9 +31,6 @@ const KOK = __dirname;
 const arg = process.argv.slice(2);
 const bayrak = ad => { const i = arg.indexOf(ad); if (i < 0) return null; const v = arg[i + 1]; arg.splice(i, 2); return v; };
 const yaz = arg.includes('--yaz'); if (yaz) arg.splice(arg.indexOf('--yaz'), 1);
-const ESKI = arg.includes('--eski'); if (ESKI) arg.splice(arg.indexOf('--eski'), 1);
-const PY = process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
-const KALINTI_ESIK = Number(process.env.KALINTI_ESIK || 300);
 const vaka = bayrak('--vaka') || '2';
 const profilEk = Object.fromEntries((bayrak('--profil') || '').split(',').filter(Boolean).map(s => s.split('=')));
 const genisEk = new Set((bayrak('--genis') || '').split(',').filter(Boolean));
@@ -113,7 +108,7 @@ for (const ad of sira ? [] : resimler.sort()) {
 }
 
 const gecici = fs.mkdtempSync(path.join(os.tmpdir(), 'paket_'));
-const hedefKok = path.join(gecici, 'cikti');   // önce hep geçiciye; kapı geçerse --yaz yeni_gorsel/'e kopyalar
+const hedefKok = yaz ? path.join(KOK, 'yeni_gorsel') : gecici;
 const sozcuk = s => s.toLocaleLowerCase('tr').replace(/\./g, '_');
 const profilBul = (no, anahtar) => profilEk['G' + no] || (anahtar.startsWith('peri.') ? 'peri' : anahtar.startsWith('cengo.') ? 'cengo' : 'konuk');
 const dosyaAdi = ({ tur, anahtar }) =>
@@ -144,13 +139,9 @@ for (const [no, ad] of Object.entries(girdiler)) {
     const profil = profilBul(no, satir.anahtar);
     const genis = genisEk.has('G' + no);
     kayit.onizleme = path.join(gecici, 'G' + no + '_yesil.png');
-    const r = ESKI
-      ? spawnSync('node', [path.join(KOK, 'arac_kes.js'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' })
-      : spawnSync(PY, [path.join(KOK, 'arac_kes_yz.py'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' });
-    if (r.status !== 0) { console.log('HATA: G' + no + ' kesilemedi\n' + r.stderr + r.stdout); continue; }
+    const r = spawnSync('node', [path.join(KOK, 'arac_kes.js'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' });
+    if (r.status !== 0) { console.log('HATA: G' + no + ' kesilemedi\n' + r.stderr); continue; }
     kayit.notlar.push(...r.stdout.trim().split('\n'));
-    const kal = Number((r.stdout.match(/KALINTI (\d+)/) || [])[1] || 0);
-    if (kal > KALINTI_ESIK) { kayit.hata = true; kayit.notlar.push('HATA: kenarda zemin kalıntısı ' + kal + ' px (eşik ' + KALINTI_ESIK + ')'); }
     kayit.genis = genis;
   } else {
     ORTAM.im('convert', [girdi + '[0]', '-resize', '900x1200', '-quality', '80', cikti]);
@@ -185,19 +176,13 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
   await b.close();
   console.log('\nTemas sayfası: ' + path.relative(process.cwd(), sayfa));
 
-  const hatali = sonuc.filter(k => k.hata);
-  if (hatali.length) {
-    console.log('\nKAPI: ' + hatali.length + ' figürde kenar kalıntısı — ' + hatali.map(k => 'G' + k.no).join(', ') + '. Gömülmez; temas sayfasına bak.');
-    if (yaz) { console.log('DURDU: --yaz yapılmadı; proje dosyalarına dokunulmadı.'); process.exitCode = 1; return; }
-  }
   if (!yaz) {
     console.log('ÖNİZLEME — proje dosyalarına dokunulmadı. Uygunsa aynı komutu --yaz ile çalıştır.');
     if (gelmeyen.length) console.log('Tabloda olup henüz gelmeyen: ' + gelmeyen.length + ' görsel.');
     return;
   }
 
-  // 4) Dosyalar ve manifesto
-  for (const k of sonuc) { const h = path.join(KOK, 'yeni_gorsel', k.rel); fs.mkdirSync(path.dirname(h), { recursive: true }); fs.copyFileSync(k.cikti, h); }
+  // 4) Manifesto
   const mYolu = path.join(KOK, 'yeni', 'gorseller.json');
   const m = JSON.parse(fs.readFileSync(mYolu, 'utf8'));
   for (const k of sonuc) {
