@@ -8,8 +8,8 @@
 // saatine dizilir, numaralar sırayla dağıtılır (sayı tutmazsa durur). Eşleşme temas sayfasında.
 // Numara → tür ve anahtar, sablon/vakalar/vaka<N>_gorsel.md tablosundan okunur.
 //   figür              → arac_kes_yz.py ile kesilir (yapay zekâ; 14 Kasım 2026'dan beri tek yöntem). Profil yalnız çerçeveyi
-//                        verir (peri / cengo / konuk; --profil ile değişir). Kenarda zemin rengi kalırsa (KALINTI > KALINTI_ESIK)
-//                        figür HATA sayılır ve --yaz durur. --eski: eski renk kesimi (arac_kes.js), yalnız karşılaştırma için.
+//                        verir (peri / cengo / konuk; --profil ile değişir). --eski: eski renk kesimi (arac_kes.js), yalnız
+//                        karşılaştırma için; --yaz ile gömülmez. Düz zemin rengi ölçüsü (KALINTI) yalnız uyarıdır.
 //   arka plan/kare/detay → 900×1200, WebP q80
 //
 // --yaz YOKKEN (önizleme): hiçbir proje dosyasına dokunmaz; çıktılar geçici klasöre gider,
@@ -35,7 +35,7 @@ const bayrak = ad => { const i = arg.indexOf(ad); if (i < 0) return null; const 
 const yaz = arg.includes('--yaz'); if (yaz) arg.splice(arg.indexOf('--yaz'), 1);
 const ESKI = arg.includes('--eski'); if (ESKI) arg.splice(arg.indexOf('--eski'), 1);
 const PY = process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
-const KALINTI_ESIK = Number(process.env.KALINTI_ESIK || 300);
+const KALINTI_ESIK = Number(process.env.KALINTI_ESIK || 1000);
 const vaka = bayrak('--vaka') || '2';
 const profilEk = Object.fromEntries((bayrak('--profil') || '').split(',').filter(Boolean).map(s => s.split('=')));
 const genisEk = new Set((bayrak('--genis') || '').split(',').filter(Boolean));
@@ -149,8 +149,11 @@ for (const [no, ad] of Object.entries(girdiler)) {
       : spawnSync(PY, [path.join(KOK, 'arac_kes_yz.py'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' });
     if (r.status !== 0) { console.log('HATA: G' + no + ' kesilemedi\n' + r.stderr + r.stdout); continue; }
     kayit.notlar.push(...r.stdout.trim().split('\n'));
+    // Kapı yöntemdir: yalnız yapay zekâ kesimi gömülür (renk kesimi saç arası/kol arası zemini bırakıyordu). KALINTI ölçüsü
+    // (düz, zemin renginde piksel) yalnız UYARI: zemine benzeyen kumaşı da sayıyor, karışık hale pikselini kaçırıyor (14 Kas ölçümü).
+    if (ESKI) { kayit.hata = true; kayit.notlar.push('HATA: renk kesimi (--eski) gömülmez — yalnız karşılaştırma için'); }
     const kal = Number((r.stdout.match(/KALINTI (\d+)/) || [])[1] || 0);
-    if (kal > KALINTI_ESIK) { kayit.hata = true; kayit.notlar.push('HATA: kenarda zemin kalıntısı ' + kal + ' px (eşik ' + KALINTI_ESIK + ')'); }
+    if (kal > KALINTI_ESIK) kayit.notlar.push('UYARI: düz zemin rengi ' + kal + ' px — temas sayfasında koyu zeminde bak');
     kayit.genis = genis;
   } else {
     ORTAM.im('convert', [girdi + '[0]', '-resize', '900x1200', '-quality', '80', cikti]);
@@ -176,7 +179,7 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
     '</div><figcaption><b>G' + k.no + '</b> ' + k.anahtar + '<br><small>' + k.ad + '</small></figcaption></figure>';
   await p.setContent('<style>body{margin:0;padding:12px;background:#222;color:#eee;font:14px sans-serif;display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:12px}' +
     'figure{margin:0;background:#333;padding:6px;border-radius:6px}.ikili{display:flex;gap:6px}img{height:300px}' +
-    '.bas{width:200px;height:300px;background-size:260% auto;background-position:50% 6%;background-repeat:no-repeat;background-color:#3a6}</style>' +
+    '.bas{width:200px;height:300px;background-size:260% auto;background-position:50% 6%;background-repeat:no-repeat;background-color:#1e1e1e}</style>' +
     sonuc.map(hucre).join(''));
   await p.waitForTimeout(300);
   const sayfa = path.join(KOK, 'YENI_UI', 'paket_' + path.basename(path.resolve(klasor)) + '.png');
@@ -187,7 +190,7 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
 
   const hatali = sonuc.filter(k => k.hata);
   if (hatali.length) {
-    console.log('\nKAPI: ' + hatali.length + ' figürde kenar kalıntısı — ' + hatali.map(k => 'G' + k.no).join(', ') + '. Gömülmez; temas sayfasına bak.');
+    console.log('\nKAPI: ' + hatali.length + ' figür gömülemez — ' + hatali.map(k => 'G' + k.no).join(', ') + '. Gömülmez; temas sayfasına bak.');
     if (yaz) { console.log('DURDU: --yaz yapılmadı; proje dosyalarına dokunulmadı.'); process.exitCode = 1; return; }
   }
   if (!yaz) {
