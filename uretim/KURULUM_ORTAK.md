@@ -78,6 +78,8 @@ Geçmezse `git pull`'un tamamlandığını ve `tarz_sinav/`'da 8 dosya olduğunu
 **Doğrula:** `python arac_yuz.py --sinav` → son satır **"SINAV GEÇTİ"** (çapa sayıları: peri 105, cengo 52, gizem 18).
 Vaka 3'ün onaylıları (`uretim/v3/onayli/`) bu bilgisayarda yoksa çapa küçülür ve sınav sonucu değişebilir — önce onu kontrol et.
 
+**Zemin aracı (14 Kasım 2026):** `python arac_zemin.py --sinav` → **"SINAV GEÇTİ"** (ek paket gerekmez).
+
 ## 6. Döngü (Git Bash'te)
 
 `uretim/dongu.sh` Git Bash ister (`timeout`, `date -d`, `mkdir` kilidi). Her yeni resim gelince `arac_tarz.py`'yi kendisi koşar.

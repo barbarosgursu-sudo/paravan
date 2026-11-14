@@ -6,6 +6,8 @@
 # Mekanik olarak yakalanabilenleri yakalar; anlamı (satırlara uyuyor mu, Nurcan) yine istemi yazan okur.
 set -u
 hata=0
+# Zemin adayları tek kaynaktan (14 Kasım 2026): uretim/referanslar/zeminler.tsv (arac_zemin.py de oradan okur).
+ZEMINLER=$(tail -n +2 "$(dirname "$0")/referanslar/zeminler.tsv" | cut -f1 | paste -sd'|')
 for f in "$@"; do
   eksik=()
   ad=$(basename "$f" .md)
@@ -29,14 +31,26 @@ for f in "$@"; do
                                        || eksik+=("## Satırlar bölümü yok ya da boş (ISTEM_KALIPLARI §10, SR-E)")
       has 'TAM İKİ KOL'                || eksik+=("'TAM İKİ KOL, İKİ EL' yok (H6)")
       has 'Başın açısı'                || eksik+=("bakış satırı yok (H3)")
-      zemin=$(grep -o 'Arka plan: düz, tek renk [^;]*' <<<"$istem")
-      grep -qE 'açık bej|gri-mavi' <<<"$zemin" || eksik+=("zemin satırı yok ya da renk açık bej/gri-mavi değil (H4)")
+      zemin=$(grep -o 'Arka plan: düz, tek renk [^;]*' <<<"$istem" | head -1 | sed 's/Arka plan: düz, tek renk //')
+      grep -qxE "$ZEMINLER" <<<"$zemin" || eksik+=("zemin satırı yok ya da renk zeminler.tsv'de değil: '$zemin' (H4)")
       grep -q 'yeşil' <<<"$zemin"      && eksik+=("yeşil zemin (H4: Vaka 4'ten sonra yok)")
+      # Kıyafetin zemini arac_zemin.py ile seçilir ve v<N>/zemin.tsv'ye yazılır (14 Kasım 2026); istem ona uymalı.
+      # Zemin denemesi çifti (G<n> ve G<n>z, '- zemin denemesi:' satırı) bilerek iki renklidir → atlanır.
+      ztsv="$(dirname "$(dirname "$f")")/zemin.tsv"
+      anahtar=$(grep -m1 '^- tür:' "$f" | grep -o 'anahtar: `[^`]*`' | sed 's/anahtar: `//; s/`$//')
+      if ! grep -q '^- zemin denemesi:' "$f"; then
+        beklenen=$([ -f "$ztsv" ] && tail -n +2 "$ztsv" | awk -F'\t' -v a="$anahtar" 'index(a,$1)==1 && length($1)>n {n=length($1); z=$2} END{print z}')
+        yeni_konuk_temeli=$(grep -q 'tarz_govde_' <<<"$refs" && ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik" && echo 1)
+        if [ -z "$beklenen" ] && [ -n "$yeni_konuk_temeli" ]; then
+          [ "$zemin" = "açık bej" ] || eksik+=("yeni konuk temeli zemin.tsv'den önce gelir → varsayılan 'açık bej' olmalı (H4)")
+        elif [ -z "$beklenen" ]; then eksik+=("kıyafet zemin.tsv'de yok ('$anahtar'): önce kaynak/arac_zemin.py --kiyafet … --yaz")
+        elif [ "$beklenen" != "$zemin" ]; then eksik+=("zemin '$zemin', ama zemin.tsv bu kıyafete '$beklenen' diyor")
+        fi
+      fi
       has 'Çıplaklık yok'              || eksik+=("çıplaklık satırı yok")
       if grep -q 'tarz_govde_' <<<"$refs" && ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then   # yeni karakter temeli (§4); Peri/Cengo yeni değil
         has 'benzemiyor'               || eksik+=("yeni karakter: 'X'e benzemiyor' satırı yok (D-4, BIRIKIM §8.7)")
         has 'Son referans YALNIZ'      || eksik+=("tarz örneği cümlesi yok (§3)")
-        grep -q '^- zemin denemesi:' "$f" || eksik+=("yeni temel: '- zemin denemesi: G<n>z' satırı yok (H4 iki zemin)")
       fi
       if grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then
         grep -qi 'kıyafet kartı' <<<"$refs" || eksik+=("Peri/Cengo figürü: kıyafet kartı referansı yok (SR-C)")

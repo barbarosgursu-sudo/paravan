@@ -20,6 +20,7 @@
 //   konuk_beyaz_delik  konuk_beyaz + delik doldurma tol 4 (beyaz gömlek, kol arası zemin)
 //   konuk_sag   konuk, zemin rengi sağ kenardan (el sol kenara uzanıyorsa)
 //   peri_beyaz  peri çerçevesi · delik kapalı · kenar tol 8, hale tol 20, zemin 40 px içeriden (krema, beyaz örtü)
+//   peri_mavi   peri çerçevesi · gri-mavi zeminde mavi kot: zemin tek renk, kenar 10, delik 4, hale 25, alt kenar tohum değil
 //
 // --genis : el, parmak vb. çerçeveden taşıyorsa görsel TAM GENİŞLİKTE kesilir; ekranda
 //           standart kutuya hizalanıp taşar. Araç gereken CSS'i basar.
@@ -58,6 +59,10 @@ const PROFILLER = {
   // refIc: zemin rengi kenardan 40 px içeriden okunur — bu üreticinin kenarları ~5 birim
   // daha açık, dar toleransta o fark zemini parça parça bırakıyordu (G13).
   peri_beyaz: { x0: 120, x1: 1034, kenarTol: Number(process.env.KENAR_BEYAZ || 8), delik: process.env.DELIK_BEYAZ !== "0", delikTol: Number(process.env.DELIKTOL_BEYAZ || 5), yenidenTol: 0, haleTol: Number(process.env.HALE_BEYAZ || 20), refIc: 40, aynali: true },
+  // peri_mavi: Peri, gri-mavi zeminde zemine yakın mavi giysi (Vaka 6 mesai seti: mavi kot; 14 Kasım 2026).
+  // peri profili kotu delik sanıp siliyordu (G17'de 1858 px kırıntı). Peri çerçevesi + konuk_beyaz_delik'in dar ayarları:
+  // zemin köşelerden TEK renk (refSabit; kol kenara değince satır örneği bozulmasın), delik tol 4, kenar 10, hale 25.
+  peri_mavi: { x0: 120, x1: 1034, kenarTol: Number(process.env.KENAR_MAVI || 10), delik: true, delikTol: Number(process.env.DELIKTOL_MAVI || 4), yenidenTol: 0, haleTol: Number(process.env.HALE_MAVI || 25), refIc: 40, refSabit: true, altTohumYok: true, aynali: true },
 };
 
 const arg = process.argv.slice(2);
@@ -93,7 +98,9 @@ const P = { ...PROFILLER[profilAd] };
     const komsu = n => [n - 1, n + 1, n - W, n + W];
     const gecerli = (n, m) => m >= 0 && m < W * H && Math.abs((m % W) - (n % W)) <= 1;
     // 1) kenardan taşkın doldurma
-    const q = []; for (let px = 0; px < W; px++) { q.push(px); q.push((H - 1) * W + px); } for (let py = 0; py < H; py++) { q.push(py * W); q.push(py * W + W - 1); }
+    // altTohumYok: figür uyluktan kesik, alt kenarda zemin değil giysi var; zemine yakın giysi (mavi kot) alttan yeniyordu.
+    // Bacak arasındaki zemin bu durumda kapalı boşluk olarak (adım 2) silinir.
+    const q = []; for (let px = 0; px < W; px++) { q.push(px); if (!P.altTohumYok) q.push((H - 1) * W + px); } for (let py = 0; py < H; py++) { q.push(py * W); q.push(py * W + W - 1); }
     while (q.length) { const n = q.pop(); if (bg[n]) continue; if (dist(n * 4, ref(n % W, (n / W) | 0)) > P.kenarTol) continue; bg[n] = 1; for (const m of komsu(n)) if (gecerli(n, m) && !bg[m]) q.push(m); }
     // 2) kapalı boşluklar (kol ile bel arası vb.): arka plana yakın, büyük bileşenler
     let delik = 0;

@@ -158,6 +158,76 @@ def degerlendir(yol, tur, kim, capa, haric=None):
         s["karar"] = "GEÇTİ"
     return s
 
+# ---------------------------------------------------------------- konuk: vaka içi kimlik + eski karakterlere benzerlik
+# (14 Kasım 2026, sahibi: "yeni konuklar sonraki vakalarda muhtemelen kullanılmayacak"). Konuğun çapası AYNI VAKADAKİ kendi onaylı
+# figürleri (temel + onaylanmış ifadeler). Ölçüm (V3 + V6): kendi resimlerine en yakın benzerlik en düşük 0,744; başka konuğa en
+# yüksek 0,719 (Eylül–Dilek) → karar en yakın resme göre: başka bir konuk daha yakınsa KALDI; < 0,60 KALDI; 0,60–0,70 ŞÜPHELİ.
+# Temel (çapası olmayan ilk resim) için kimlik kapısı yok; onun yerine ESKİ karakterlere (oyundaki figür ve sprite'lar) benzerlik
+# UYARISI basılır (uretim/CLAUDE.md kural 9). Ölçüm: reddedilen eski Müzeyyen Nadide'ye 0,768; onaylı Müzeyyen 0,748, Recep
+# Ferruh'a 0,724 → kapı değil, yalnız "yan yana bak" uyarısı (0,70 üstü).
+KONUK_KALMA, KONUK_GECME, ESKI_UYARI = 0.60, 0.70, 0.70
+
+def vaka_konuklari(vaka_dir, haric):
+    sys.path.insert(0, KOK)
+    from arac_tarz import istemden
+    kisi = {}
+    for f in glob.glob(os.path.join(vaka_dir, "onayli", "G*.png")):
+        if os.path.normcase(f) == os.path.normcase(haric):
+            continue
+        tur, kim = istemden(f)
+        if tur in ("figur", "kart") and kim and kim not in ("peri", "cengo", "gizem"):
+            y = yuzler(f)
+            if y:
+                kisi.setdefault(kim, []).append(y[0][1])
+    return kisi
+
+_ESKI = {}
+def eski_karakterler():
+    if not _ESKI:
+        dosyalar = sorted(glob.glob(os.path.join(YG, "figur_*.webp")) + glob.glob(os.path.join(YG, "sprite", "*.webp")))
+        imza = hashlib.md5("|".join(os.path.basename(f) for f in dosyalar).encode()).hexdigest()[:10]
+        yol = os.path.join(CIKTI, f"eski_yuz_{imza}.npz")
+        if os.path.exists(yol):
+            _ESKI.update(np.load(yol, allow_pickle=True)["eski"].item())
+        else:
+            for f in dosyalar:
+                ad = os.path.basename(f)
+                k = re.sub(r"\.webp$", "", ad.split("_")[1] if ad.startswith("figur_") else ad.split("_")[0])
+                y = yuzler(f)
+                if y:
+                    _ESKI.setdefault(k, []).append(y[0][1])
+            os.makedirs(CIKTI, exist_ok=True)
+            np.savez(yol, eski=np.array(dict(_ESKI), dtype=object))
+    return _ESKI
+
+def degerlendir_konuk(yol, tur, kim):
+    s = {"dosya": yol, "tur": tur, "kim": kim}
+    y = yuzler(yol)
+    if not y:
+        s["karar"] = "KALDI"; s["olcu"] = "yüz bulunamadı (yüz kapalı, profil ya da çok küçük olabilir — gözle bak)"; return s
+    v = y[0][1]
+    vaka_dir = os.path.dirname(os.path.dirname(os.path.abspath(yol)))
+    kisi = vaka_konuklari(vaka_dir, yol)
+    if kim not in kisi:
+        en = sorted(((max(float(v @ w) for w in l), k) for k, l in eski_karakterler().items() if k != kim), reverse=True)[:3]
+        s["karar"] = "GEÇTİ"
+        s["olcu"] = "temel (vakada çapası yok, kimlik kapısı yok); eski karakterlere en yakın: " + ", ".join(f"{k} {p:.3f}" for p, k in en)
+        if en and en[0][0] >= ESKI_UYARI:
+            s["olcu"] += f" — UYARI: eski karakter {en[0][1]} ile yüz benzerliği ≥ {ESKI_UYARI}, yan yana bak (kural 9)"
+        return s
+    kendi = max(float(v @ w) for w in kisi[kim])
+    yab = max(((max(float(v @ w) for w in l), k) for k, l in kisi.items() if k != kim), default=(0.0, "-"))
+    s["olcu"] = f"benzerlik {kendi:.3f} (vakadaki {len(kisi[kim])} onaylı {kim} resmi; kalma < {KONUK_KALMA}, geçme ≥ {KONUK_GECME}; en yakın başka konuk {yab[1]} {yab[0]:.3f})"
+    if yab[0] > kendi:
+        s["karar"] = "KALDI"; s["olcu"] += f" — yüz daha çok {yab[1]} resimlerine yakın"
+    elif kendi < KONUK_KALMA:
+        s["karar"] = "KALDI"
+    elif kendi < KONUK_GECME:
+        s["karar"] = "ŞÜPHELİ"
+    else:
+        s["karar"] = "GEÇTİ"
+    return s
+
 def yaz(s):
     print(f"YÜZ {s['karar']:7s} {os.path.basename(s['dosya'])} [{s['tur']}/{s['kim']}] — {s['olcu']}")
 
@@ -210,7 +280,18 @@ def sinav(capa):
                     if p >= GECME:
                         print(f"  HATA: bir {j} yüzü {k} diye geçiyor ({p:.3f})"); hata += 1
     print("  yabancıların en yükseği: " + ", ".join(f"{k} {v:.3f}" for k, v in en_yuksek.items()) + f" (geçme ≥ {GECME})")
-    # 4) bilgi: tarzı kaymış Cengo seti
+    # 4) konuklar, vaka içi: V3 ve V6'nın onaylı konuk figürlerinin hepsi (kendisi hariç) GEÇMELİ
+    print("— KONUKLAR, VAKA İÇİ (kendisi hariç; hepsi geçmeli) —")
+    for v in ("v3", "v6"):
+        for f in sorted(glob.glob(os.path.join(U, v, "onayli", "G*.png"))):
+            tur, kim = istemden(f)
+            if tur == "figur" and kim and kim not in capa:
+                s = degerlendir_konuk(f, tur, kim)
+                if s["karar"] != "GEÇTİ":
+                    print("  HATA", end=" "); yaz(s); hata += 1
+                elif "UYARI" in s["olcu"] or "temel" not in s["olcu"]:
+                    print(f"  {v}", end=" "); yaz(s)
+    # 5) bilgi: tarzı kaymış Cengo seti
     print("— BİLGİ: tarzı kaymış Cengo (kimlik değil tarz kaymıştı; çoğu burada geçer) —")
     for f in sorted(glob.glob(os.path.join(U, "referanslar", "tarz_sinav", "*.webp"))):
         yaz(degerlendir(f, "kart" if "G2_" in f else "figur", "cengo", capa))
@@ -246,10 +327,11 @@ def main():
         tur, kim = a.tur or tur or "figur", a.kim or kim
         if tur == "kare":
             yaz(degerlendir(f, "kare", kim, capa)); continue
-        if kim not in capa:
-            print(f"YÜZ -       {os.path.basename(f)} — denetlenecek karakter değil ({kim or 'bilinmiyor'}); yalnız Peri, Cengo, Gizem")
+        if not kim:
+            print(f"YÜZ -       {os.path.basename(f)} — kişi istemden okunamadı; --kim ver")
             continue
-        s = degerlendir(f, tur, kim, capa); yaz(s)
+        s = degerlendir(f, tur, kim, capa) if kim in capa else degerlendir_konuk(f, tur, kim)
+        yaz(s)
         en_kotu = max(en_kotu, {"GEÇTİ": 0, "ŞÜPHELİ": 1, "KALDI": 2}[s["karar"]])
     sys.exit(en_kotu)
 

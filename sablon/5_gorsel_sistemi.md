@@ -353,9 +353,25 @@ temizlendi); bej zemindeki karakterlerde (Cengo, Kenan, Sedat) hale çıkmadı.
 
 Yeşil zemin artık kullanılmaz (kızıl saçın karşıtı; karışımı göze batıyor).
 
-**Zemin denemesi (her yeni karakter temeli ve her yeni kıyafet temeli):** temel istemi iki zeminle (tablodaki + bir
-aday) üret, ikisini `arac_kes.js` + `arac_yanyana.js` ile oyunda kesip başı büyüt; saç kenarı temiz olanı seç. O
-karakterin bütün ifadeleri o zemini alır. Hâlâ hale kalırsa gömmede `arac_hale.py` (yalnız yeşil zemin için yazıldı;
+**14 Kasım 2026'dan beri (sahibinin kararı): zemin KIYAFETE göre yazılımla seçilir — yukarıdaki tablo yalnız tarihî kayıttır.**
+Sebep: tablo saça bakıyordu; V6'da Peri'nin mesai kıyafeti (krem gömlek + mavi kot) gri-mavi zemine kondu, kesimde kot zeminle
+birlikte silindi. Araç `kaynak/arac_zemin.py`; zeminler tek listede: `uretim/referanslar/zeminler.tsv` — yalnız DENENMİŞ iki
+zemin, açık bej → gri-mavi (sıra saç halesi tecrübesinden). Her zemin için figürün yüzde kaçının zemine kesim toleransı kadar
+yakın olduğu ölçülür; riski %5'in altındaki ilk zemin seçilir.
+- **İkisi de riskliyse KIYAFET değişir, zemin değil** (sahibinin kararı, 14 Kasım 2026: "yeni bir kıyafet giydiririz, bu kadar
+  uğraşacak bir şey yok"). Araç çakışan rengi ve figürdeki yerini basar; kıyafetin o parçası iki zeminden de uzak bir renkle
+  değiştirilir (kıyafet kanondur: sahibi/ortak karar verir), kart yeniden üretilir, araç yeniden koşar. Yeni zemin rengi eklenmez.
+- **Peri, Cengo (önce kıyafet kartı gelir, SR-C):** kart onaylanınca `python arac_zemin.py --uretim v<N> G<kart> --kiyafet
+  peri.<kıyafet> --yaz` → karar `uretim/v<N>/zemin.tsv`'ye yazılır; o kıyafetin bütün istemleri bu zemini alır.
+- **Konuk (kartı temelden sonra gelir):** temel açık bej zeminde üretilir; onaylanınca araç temelde koşar. Bej riskliyse temel
+  önerilen zeminde BİR kez daha üretilir; ikisi de riskliyse kıyafet değişir (yukarıda). (Eskiden her temel iki zeminle üretiliyordu; şimdi yalnız gerektiğinde.)
+- `istem_kontrol.sh` istemin zeminini `zemin.tsv`'yle karşılaştırır; uymayan istem üretilmez. Zemin adları zeminler.tsv'den.
+- Gri-mavi açık/sıcak saçta mavi hale bıraktı (V6: Eylül, Recep, Tahsin, Gizem) → gri-mavi seçilip saç açıksa bej ile deneme.
+- Kesim profili de zemine göre: bej → `peri`/`cengo`/`konuk`; öbürleri → dar profil `peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`
+  (araç basar).
+
+**Zemin denemesi (yukarıdaki durumlarda):** temel istemi iki zeminle üret, ikisini `arac_kes.js` + `arac_yanyana.js` ile oyunda
+kesip başı büyüt; saç kenarı temiz olanı seç. O kıyafetin bütün ifadeleri o zemini alır. Hâlâ hale kalırsa gömmede `arac_hale.py` (yalnız yeşil zemin için yazıldı;
 başka zeminde kullanmadan önce eşiğini dene).
 
 Aynı karakterin bütün ifadeleri aynı zeminde. **Renk düzeltmesi yapılmaz:** renk yanlışsa resim yeniden üretilir.

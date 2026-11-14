@@ -85,6 +85,17 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 - G42–G45 (Eylül, kumaş ayarıyla): tarz GEÇTİ (gövde +0,035…+0,070); göz denetimi GEÇTİ (eller 5'er parmak, bileklik sol bilekte
   G6 gibi, kesim kırıntı ≤2 px, bakış Peri'ye). Sahibine sayfa: `yanyana/parti3_eylul_onay.jpg` (üstte yeni, altta eski kot). **Sahibi ONAYLADI (14 Kasım, "Onaylıyorum") → `onayli/`.**
 
+**14 Kasım 2026 (öğleden sonra) — HAT TASARIMI: kesim, zemin, konuk kimliği (sahibinin onayıyla; üretim bu bilgisayarda YAPILMAZ).**
+- `arac_kes.js` yeni profil `peri_mavi` (gri-mavi zeminde mavi kot): V6'nın 8 Peri figürü (G17, G27–G33) temiz kesiliyor
+  (kırıntı ≤ 100 px; eski `peri` profili G17'de 1858 px kot siliyordu). Gömmede Peri mesai/tül seti bu profille kesilir.
+- Yeni `kaynak/arac_zemin.py` + `uretim/referanslar/zeminler.tsv` (yalnız denenmiş iki zemin: bej, gri-mavi): zemin kıyafete
+  göre seçilir, karar `v<N>/zemin.tsv`; `istem_kontrol.sh` istemi ona göre denetler. İkisi de riskliyse KIYAFET değişir (sahibi);
+  Peri'nin V6 mesai kıyafeti bu durumda (araç böyle der) — V6'da üretildi ve `peri_mavi` ile kesiliyor, yeniden üretilmez. V6'nın kararları `v6/zemin.tsv`'ye kayıt
+  olarak yazıldı (araçtan önce elle seçilmişlerdi). Sınav GEÇTİ (V6'nın 11 bilinen sonucu).
+- `arac_yuz.py`: konuklar da vaka içinde denetleniyor (çapa: aynı vakadaki kendi onaylıları); yeni temelde eski karakterlere
+  benzerlik uyarısı. Sınav GEÇTİ.
+- "İfadeyi temeline göre tarz/renk kayması" denendi, bırakıldı (ölçü ayırmıyor) → gözde.
+
 ## Ölçüm (13 Kasım, deneme)
 
 | | |

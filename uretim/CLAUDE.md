@@ -113,10 +113,13 @@ gerçek Codex çalışır ve kota harcar. Deneme kopyası klasörünü (`v99`) k
 resim olabilir (o gün 4 resim böyle silindi, `~/.codex/generated_images/`'tan geri alındı — Codex her resmin kopyasını
 orada tutar).
 
-**İki zemin denemesi (H4):** her yeni karakter temeli için `G<n>.md` (asıl zemin) ve `G<n>z.md` (aday zemin) istemi olur;
-ikisi üretilir, `arac_kes.js` + `arac_yanyana.js` ile kesilip başı büyütülür, saç kenarı temiz olan seçilir. Seçilen
-`onayli/G<n>.png` olur (z seçildiyse o dosya `G<n>.png` adıyla); öbürü `red/`'e. O karakterin bütün ifadeleri o zemini alır
-(istemlerine o renk yazılır).
+**Zemin seçimi (H4, 14 Kasım 2026'dan beri yazılımla):** zemin kıyafete göre `kaynak/arac_zemin.py` ile seçilir, karar
+`v<N>/zemin.tsv`'ye yazılır, `istem_kontrol.sh` istemleri ona göre denetler. Peri/Cengo: kıyafet kartı onaylanınca, istemden
+önce. Yeni konuk: temel açık bej zeminde üretilir, onaylanınca araç temelde koşar (`--yaz`); bej riskliyse temel önerilen
+zeminde bir kez daha üretilir. O kıyafetin bütün ifadeleri o zemini alır. Araç "KIYAFET DEĞİŞMELİ" derse (iki zemin de
+riskli) zemin değil kıyafet değişir: çakışan parçayı sahibine/ortağa sor, kartı yeniden üret (sahibi, 14 Kasım 2026).
+**Zemin denemesi** (`G<n>.md` + `G<n>z.md`, ikisi üretilir, kesilip başı büyütülür, saç kenarı temiz olan seçilir; seçilen
+`onayli/G<n>.png`, öbürü `red/`) yalnız araç gri-mavi seçip saç açıksa. Kesim profilini de araç basar (gömmede o kullanılır).
 
 Döngü çalışırken sen:
 1. `uretilen/`'e geleni denetle (aşağıda). Onayladıkça yeni resimlerin önü açılır; döngü çıktıysa yeniden başlat.
@@ -170,7 +173,13 @@ onaylıları; V6 ve sonrası bilerek çapada değil).
   `G<n> tarz GEÇTİ (+0,0xx) · yüz GEÇTİ (0,8xx)`.
 - Kare (çok kişi): kapı DEĞİL, araç bulduğu yüzleri ve en yakın karakteri bilgi olarak basar; karar A.2'de gözle.
 - Bilinen sınır: uç ifadeler (gözler kapalı, yüz buruşuk, yüz kısmen kapalı) puanı düşürür. Yüz gözle karakterse sahibine sorulur.
-- Sonradan tekrar çıkan konuk olursa önceki vakadaki resimleri çapaya eklenir (sahibi, 14 Kasım); yeni konuklara kimlik denetimi yok.
+- **Konuk (14 Kasım 2026):** çapa AYNI vakadaki kendi onaylı figürleri (temel + onaylı ifadeler). Başka konuğa daha yakınsa
+  KALDI, < 0,60 KALDI, 0,60–0,70 ŞÜPHELİ. Temelde kimlik kapısı yok; onun yerine eski karakterlere (oyundaki bütün figür ve
+  sprite'lar) yüz benzerliği basılır, ≥ 0,70 ise **UYARI: yan yana bak (kural 9)** — kapı değil (onaylı Müzeyyen Nadide'ye
+  0,748, Recep Ferruh'a 0,724 çıkıyor; görünüşle ayrıldılar). Sonraki vakada tekrar çıkan konuk olursa önceki vakadaki
+  resimleri çapaya eklenir (sahibi, 14 Kasım).
+- Denenip BIRAKILAN (14 Kasım): ifadeyi temeline CLIP benzerliği ya da renk doygunluğuyla karşılaştırıp "soluk/kaymış" yakalamak —
+  poz ve bilerek değişen ifade (unlu yüz) ölçüyü bastırıyor, onaylılarla kaymışlar iç içe. Bu kayma gözle (A.7, A.14).
 - Araç değişirse önce `python arac_yuz.py --sinav` → "SINAV GEÇTİ".
 
 `prompts/G<n>.md`'yi, resmi ve referanslarını aç. Önce bütün olarak bak, sonra şüpheli bölgeleri 2–4 kat büyüt
