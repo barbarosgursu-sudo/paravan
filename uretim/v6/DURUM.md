@@ -1,11 +1,11 @@
 # Vaka 6 — üretim durumu
 
-**14 Kasım 2026, gece — EK: 3 KARE (G87–G89).** Sahibi yayında açılışta hata buldu (Peri "ayakları masada, dergi okuyor" derken ayakta;
+**14 Kasım 2026, gece — EK: 4 KARE (G87–G90).** Sahibi yayında açılışta hata buldu (Peri "ayakları masada, dergi okuyor" derken ayakta;
 Cengo anlatı onu getirmeden ekranda). Satır–resim aracına DURUŞ ve İLK GÖRME denetimleri eklendi, dört yol yeniden tarandı. Beş satır
-yalnız etiketle düzeldi (gömüldü). Üç satır yeni kare istiyor: istemler `prompts/G87–G89.md`, `istem_kontrol.sh` çıkış 0, referanslar
-onaylı. Döngü: `SADECE="87 88 89" KOL=2 ./dongu.sh 6` (ya da tek tek). **Gömünce diyaloğa bağla** (`vaka6_diyalog.md`, sonra
+yalnız etiketle düzeldi (gömüldü). Dört satır yeni kare istiyor: istemler `prompts/G87–G90.md`, `istem_kontrol.sh` çıkış 0, referanslar
+onaylı. Döngü: `SADECE="87 88 89 90" KOL=2 ./dongu.sh 6` (ya da tek tek). **Gömünce diyaloğa bağla** (`vaka6_diyalog.md`, sonra
 `arac_diyalog.js`): açılış satırı `{gizle: cengo, kare: K115}` · "Peri bir Cengo'ya, bir Haldun'a bakıyor." `{kare: K116}` ·
-"Jale torbayla… Bankta Müzeyyen, Peri ve Cengo kalıyor." `{cik, kare: K117}`. Kare yokken etiket konmaz (yayında gri kutu çıkar).
+"Jale torbayla… Bankta Müzeyyen, Peri ve Cengo kalıyor." `{cik, kare: K117}` · "Eylül babasına sarılıp Gizem'le çıkıyor…" `{gir: eylul, gi: kiskanc, kime: gizem, kare: K118}`. Kare yokken etiket konmaz (yayında gri kutu çıkar).
 
 **14 Kasım 2026, akşam — GÖMÜLDÜ.** `arac_paket.js --yaz` (profil: Peri mesai/tül `peri_mavi`, Müzeyyen/Jale ve G39/G40 `konuk_beyaz_delik`; `--genis G17,G29,G32`). Boy: muzeyyen 0,65 · jale 0,65 · haldun 0,67 · eylul 0,61 · recep 0,61 · dilek 0,60 · tahsin 0,65. `kart_v6.webp` (G85), `masa_v6.webp`, 4 portre (Eylül, Haldun, Müzeyyen, Jale). Doğrulayıcı (iki oyun) PASS, iki derleme, testler geçti; `arac_yeni_tur.js 0 sofra dogru --hepsi` JS hatası/taşma yok. Bilerek yer tutucu: `peri.gullu.sinirli/kas`, `cengo.buruk.yumusak` (satırda yok). Turun adı-geçen-ekranda-yok adayları (metin işi, sahibine): satır 044, 056, 090, 116, 157.
 
