@@ -37,6 +37,8 @@ const NESNE = /(elinde|alıp|koyuyor|uzatıyor|uzatarak|çıkarıp|çıkarıyor|
 // Duruş / uğraş (14 Kasım 2026): figürün pozu bunu göstermez, kare ya da pozlu figür ister. HAREKET'ten önce bakılır
 // (V6 açılışı: "Peri ayakları masada, bir dergi okuyor" ayakta, eli boş figürle gösterildi; EYLEM listesinde yoktu).
 const DURUS = /(ayakları|ayağını|bacak bacak|okuyor|okurken|yazıyor|yazarken|uzanmış|uzanıyor|yatıyor|yatmış|uyuyor|uyukl|eğilmiş|eğiliyor|diz çök|kucağında|sigara|içiyor|yudumlu|karıştırıyor|örüyor|dikiyor|ütülüyor|siliyor|süpür|yıkıyor|pişiriyor|dergi|gazete|kitap)/u;
+// İLK GÖRME için: anlatı figürü sahneye getiriyor mu (katlanmış yazıyla).
+const GELIS = /(kapi|esik|duruyor|giriyor|geliyor|beliriyor|iceri|yaklasiyor|cikip geliyor|bekliyor)/u;
 // SR-M2: yüz, bakış, ses jesti — ifade taşır.
 const YUZ = /(göz kırp|bakarak|bakıp|gülümse|gülerek|iç çek|kaşlarını|omuz silk|başını sall|fısılda|alçak sesle|sesi titre|yüzüne bakmadan|dişlerinin arasından)/u;
 // SR-M3: parantez yalnız hitap işareti: "(Cengo'ya)", "(Eylül'e)".
@@ -76,7 +78,7 @@ for (const d of arg) {
     if (ad + '|' + arka !== bolum) { bolum = ad + '|' + arka; anilan = new Set(); onceki = new Set(); bekleyen = new Map(); }
     const metinK = katla(m);
     const simdi = new Set(kare ? [] : [sol, sag].map(figAd).filter(f => !ANILMAZ.has(f)));
-    if (k === 'not') for (const [f, ilk] of bekleyen) if (ilk !== anahtar && metinK.split(/[.;:!?]\s+/).some(c => c.trim().startsWith(f))) {
+    if (k === 'not') for (const [f, ilk] of bekleyen) if (ilk !== anahtar && metinK.split(/[.;:!?]\s+/).some(c => c.trim().startsWith(f) && GELIS.test(c))) {
       const ka = ilk + '|' + f; if (!ilkGorme.has(ka)) ilkGorme.set(ka, [f, satirlar.get(ilk), m]); bekleyen.delete(f);
     }
     [k, kime].forEach(f => { if (f) { anilan.add(f); bekleyen.delete(f); } });
