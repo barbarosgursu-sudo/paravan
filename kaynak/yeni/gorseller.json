@@ -357,7 +357,16 @@
     "portre_eylul": "portre/portre_eylul.webp",
     "portre_haldun": "portre/portre_haldun.webp",
     "portre_muzeyyen": "portre/portre_muzeyyen.webp",
-    "portre_jale": "portre/portre_jale.webp"
+    "portre_jale": "portre/portre_jale.webp",
+    "K115": "ara_k115.webp",
+    "K116": "ara_k116.webp",
+    "K117": "ara_k117.webp",
+    "K118": "ara_k118.webp",
+    "K119": "ara_k119.webp",
+    "K120": "ara_k120.webp",
+    "K121": "ara_k121.webp",
+    "K122": "ara_k122.webp",
+    "K123": "ara_k123.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [
@@ -739,7 +748,6 @@
     "eylul.kiskanc",
     "eylul.gulen",
     "eylul.uzgun",
-    "haldun.dertli",
     "haldun.yumusak",
     "muzeyyen.tepsi",
     "muzeyyen.tepsi_uzgun",
@@ -753,6 +761,7 @@
     "recep.gulen",
     "recep.supurge",
     "dilek.heyecanli",
-    "tahsin.gulen"
+    "tahsin.gulen",
+    "haldun.dertli"
   ]
 }

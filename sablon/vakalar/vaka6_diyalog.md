@@ -28,15 +28,15 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Büro, öğleden sonra. Peri ayakları masada. Cengo ütülü gömlekle girer. Çekicilik anı (Eylül gelmeden), Peri masasına döner, kapı çalar, Eylül girer. Gizem çay ocağından tepsiyle gelir. Eylül sonunda Gizem'le çıkar.
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Cengo, Jale) anılıyor, Müzeyyen suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (sofrada kim vardı, Eylül'ün mesajı, bank, torbayı kim tuttu, sipariş günü, kalıp kâğıdı, "herkes öğrenecek" sözü).
 
-*Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.* {gizle: cengo, ekran: peri, yuz: peri.normal}
-*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.* {gir: cengo, ekran: cengo, yuz: cengo.normal}
+*Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.* {gizle: cengo, kare: K115}
+*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.* {gir: cengo, kare: K119}
 **PERİ [sasirmis]:** Cengo? Bu gömlek ne? Kim öldü? {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 **CENGO [kas]:** Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 *Peri masadan kalkıyor; Cengo'yu baştan aşağı süzüp gömleğinin yakasını iki parmağıyla düzeltiyor.* {kare: K96}
 **PERİ [kas]:** Yakan yamuk. Seni ilk kez ütülü görüyorum; gelen çok önemli biri olmalı. {kare: K96}
 **CENGO [yumusak]:** Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 *Peri masasına dönüyor. Kapı çalınıyor.* {ekran: peri, yuz: peri.kas}
-*Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.* {gir: eylul, gi: sevincli, ekran: eylul}
+*Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.* {gir: eylul, gi: sevincli, kare: K120}
 **EYLÜL [sevincli]:** Baba! {gir: eylul, kime: cengo, ekran: cengo+eylul, yuz: cengo.yumusak}
 *Kız koşup Cengo'ya sarılıyor. Peri'nin elindeki dergi yere düşüyor.* {kare: K97}
 **PERİ [sasirmis]:** Baba mı? Cengo, senin bir kızın mı var? {kare: K97}
@@ -45,7 +45,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Peri. Ortağım. Bu büroyu beraber işletiyoruz. {kime: eylul, ekran: cengo+eylul, yuz: eylul.kiskanc}
 **EYLÜL [kiskanc]:** Sadece ortak mı? {kime: cengo, ekran: cengo+eylul, yuz: cengo.kas}
 **PERİ [kas]:** Sadece ortak, Eylül. Hoş geldin. {kime: eylul, ekran: peri+eylul, yuz: eylul.kiskanc}
-*Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.* {gir: eylul, gi: kiskanc, ekran: peri+eylul, yuz: peri.kas}
+*Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.* {gir: eylul, gi: kiskanc, kare: K121}
 *Gizem çay ocağından elinde bir tepsiyle geliyor.* {gir: gizem, gi: triko_tepsi, ekran: gizem}
 **GİZEM [triko_tepsi]:** Misafir mi var? Çay benden. Sen kimsin, güzelim? {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.kiskanc}
 **EYLÜL [gulen]:** Eylül. Cengo'nun kızıyım. {gir: eylul, kime: gizem, ekran: eylul+gizem, yuz: gizem.triko_tepsi}
@@ -83,7 +83,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **EYLÜL [kiskanc]:** Babam nereden başlarsak oradan başlarız. {gir: eylul, kime: peri, ekran: peri+eylul, yuz: peri.kas}
 **GİZEM [triko_tepsi]:** Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız. {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.kiskanc}
 **EYLÜL [gulen]:** Tamam, abla. {gir: eylul, kime: gizem, ekran: eylul+gizem, yuz: gizem.triko_tepsi}
-*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {gir: eylul, gi: kiskanc, kime: gizem, ekran: peri+eylul, yuz: peri.kas}
+*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {kare: K118}
 
 ## sahne konusma
 ⚙ arka: A6 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -130,7 +130,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [merakli]:** Sofradan başka duyan olabilir mi? {kime: haldun, ekran: peri+haldun, yuz: haldun.normal}
 **HALDUN [normal]:** Eylül tatlıdan önce kalktı, babasına mesaj yazdı. "Babam bilmeli" dedi. {kime: peri, ekran: peri+haldun, yuz: peri.merakli}
 **CENGO [yumusak]:** Yazdı, doğru. "Annem evleniyor, baba" diye. O gece okudum. {kime: peri, ekran: peri+cengo, yuz: peri.merakli}
-*Peri bir Cengo'ya, bir Haldun'a bakıyor.* {ekran: peri+cengo, yuz: peri.merakli+cengo.yumusak}
+*Peri bir Cengo'ya, bir Haldun'a bakıyor.* {kare: K116}
 **HALDUN [yumusak]:** İzmir'deki görevim düğünden bir hafta sonra başlıyor. Ertelersek tayini başkasına verirler. {kime: peri, ekran: peri+haldun, yuz: peri.merakli}
 **HALDUN [yumusak]:** Gamze'yle Eylül'e orada güzel bir hayat kurmak istiyorum. Bütün suçum bu. {ekran: peri+haldun, yuz: peri.merakli}
 **CENGO [kas]:** Eylül'e de sordunuz mu, İzmir'de güzel mi diye? {kime: haldun, ekran: cengo+haldun, yuz: haldun.yumusak}
@@ -145,7 +145,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Üsküdar, Doğancılar. Eski bir apartmanın kapısı. Karşı kaldırımda, bir ağacın altında yeşil bir bank.* {arka: A44, mekan}
 *Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.* {gir: recep, gi: supurge, ekran: recep}
 **PERİ [normal]:** İyi günler. Bu apartmana gelen mektupları soracaktık. {gir: recep, kime: recep, ekran: peri+recep, yuz: recep.supurge}
-*Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.* {gir: recep, gi: gulen, kime: cengo, ekran: cengo+recep, yuz: cengo.normal}
+*Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.* {gir: recep, gi: gulen, kare: K122}
 **RECEP [gulen]:** Sen değil misin şu bankın adamı? {kime: cengo, ekran: cengo+recep, yuz: cengo.normal}
 **PERİ [sasirmis]:** Hangi bankın? {kime: recep, ekran: peri+recep, yuz: recep.gulen}
 **RECEP [normal]:** Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar. {kime: peri, ekran: peri+recep, yuz: peri.normal}
@@ -317,7 +317,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
 **PERİ [kas]:** Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız. {gir: jale, kime: jale, ekran: peri+jale, yuz: jale.soguk}
 **JALE [ofkeli]:** Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım? {kime: peri, ekran: peri+jale, yuz: peri.kas}
-**JALE [uzaniyor]:** *(torbaya uzanarak)* Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. {ekran: peri+jale, yuz: peri.kas}
+**JALE [uzaniyor]:** *(torbaya uzanarak)* Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. {kare: K123}
 *Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.* {cik, kare: K99j}
 
 ## sahne kovalamaca
@@ -341,7 +341,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.* {gir: jale, gi: soguk, kare: K114}
 **JALE [soguk]:** Etek ıslak. Kurur. {kime: peri, kare: K114}
 **PERİ [kas]:** Ben de kururum, Jale Hanım. {kime: jale, kare: K114}
-*Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.* {cik, ekran: peri+jale, yuz: peri.kas+jale.soguk}
+*Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.* {cik, kare: K117}
 **MÜZEYYEN [itiraf]:** Tamam. Ben yazdım. Hepsini ben yazdım. {gir: muzeyyen, kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
 **MÜZEYYEN [itiraf]:** Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak. {ekran: peri+muzeyyen, yuz: peri.kas}
 **MÜZEYYEN [itiraf]:** Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo. {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.kas}
@@ -493,6 +493,15 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka6_
 | K113 | kovalamaca, bank: Müzeyyen torbanın cebinden katlanmış kâğıdı alıp hırkasının cebine koyuyor; Peri ve Cengo kuyrukla uğraşıyor (yazı görünmez) | kovalamaca |
 | K114 | kovalamaca sonu: Jale torbayı Cengo'dan almış, gelinliğin ıslak eteğine bakıyor; Peri tül şallı, ıslak; duvaklı Cengo, kalfa (üç satır) | kovalamaca sonu |
 | K112 | Peri gül yaprağını Cengo'ya uzatıyor, Cengo alıp gömleğinin cebine koyuyor; Gizem arkada, elinde tepsi ve telefon (üç satır) | kapanış (bağ yüksek) |
+| K115 | Giriş açılışı: Peri ayakları masada, dergi okuyor (yalnız) | giriş |
+| K116 | Haldun'un odası: Peri bir Cengo'ya, bir Haldun'a bakıyor | Haldun |
+| K117 | Bankta Müzeyyen, Peri, Cengo; Jale ve kalfa uzaklaşıyor | kovalamaca sonu |
+| K118 | Eylül Gizem'le çıkıyor, kapıda dönüp Peri'ye bakıyor; Cengo arkasında | giriş sonu |
+| K119 | Cengo büronun açık kapısının önünde, ütülü gömlekle (yalnız) | giriş |
+| K120 | Eylül eşikte, sırt çantalı (yalnız) | giriş |
+| K121 | Eylül Peri'yi süzüp babasının koluna giriyor | giriş |
+| K122 | Apartman önü: kapıcı süpürgeyi duvara dayıyor, Cengo'ya gülümsüyor | apartman |
+| K123 | Atölye: Jale gelinlik torbasının fermuarına uzanıyor; Müzeyyen yanında, Peri geride | yüzleşme (Jale yolu) |
 | Peri `mesai` | normal, kas, merakli, sasirmis, utanmis | her yerde |
 | Peri `gullu` | sinirli, kas | kovalamaca |
 | Peri `tul` | normal, kas, yumusak | kovalamaca sonu, kapanış |

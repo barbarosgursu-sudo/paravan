@@ -94,9 +94,9 @@ Kaynak: `uretim/v6/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac
 | G87 | ara kare | Giriş açılışı: Peri ayakları masada, dergi okuyor (yalnız) — 14 Kas, yayında bulundu | `K115` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png | Ek (14 Kas) |
 | G88 | ara kare | Haldun'un odası: Peri bir Cengo'ya, bir Haldun'a bakıyor | `K116` | G10.png, peri_mesai_bas.png, G1.png, G18.png, G5.png | Ek (14 Kas) |
 | G89 | ara kare | Bankta Müzeyyen, Peri, Cengo; Jale ve kalfa uzaklaşıyor | `K117` | G16.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Ek (14 Kas) |
-| G90 | ara kare | Giriş sonu: Eylül Gizem'le çıkıyor, kapıda dönüp Peri'ye bakıyor | `K118` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png, G18.png, serit_eylul_gizem.jpg | Ek (14 Kas) |
-| G91 | ara kare | Giriş: Cengo kapının önünde, ütülü gömlekle (yalnız) | `K119` | buro_gunduz.jpg, G18.png, G2.png | Ek (14 Kas, kapı) |
-| G92 | ara kare | Giriş: Eylül eşikte (yalnız) | `K120` | buro_gunduz.jpg, G6.png, G26.png | Ek (14 Kas, kapı) |
+| G90 | ara kare | Giriş sonu: Eylül Gizem'le çıkıyor, kapıda dönüp Peri'ye bakıyor | `K118` | buro_koridor.jpg, peri_mesai_bas.png, G1.png, G18.png, serit_eylul_gizem.jpg | Ek (14 Kas) |
+| G91 | ara kare | Giriş: Cengo kapının önünde, ütülü gömlekle (yalnız) | `K119` | buro_koridor.jpg, G18.png, G2.png | Ek (14 Kas, kapı) |
+| G92 | ara kare | Giriş: Eylül eşikte (yalnız) | `K120` | buro_koridor.jpg, G6.png, G26.png | Ek (14 Kas, kapı) |
 | G93 | ara kare | Giriş: Eylül Peri'yi süzüp babasının koluna giriyor | `K121` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png, G18.png, G6.png | Ek (14 Kas, kapı) |
 | G94 | ara kare | Apartman: kapıcı süpürgeyi duvara dayıyor | `K122` | G11.png, G7.png, G18.png | Ek (14 Kas, kapı) |
 | G95 | ara kare | Yüzleşme (Jale yolu): Jale torbaya uzanıyor | `K123` | G12.png, peri_mesai_bas.png, G1.png, serit_muzeyyen_jale_dilek.jpg | Ek (14 Kas, kapı) |

@@ -366,7 +366,16 @@
         "K112",
         "K99j",
         "K113",
-        "K114"
+        "K114",
+        "K115",
+        "K116",
+        "K117",
+        "K118",
+        "K119",
+        "K120",
+        "K121",
+        "K122",
+        "K123"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -5573,12 +5582,7 @@
                 "ekran": "peri+cengo",
                 "yuz": "peri.merakli"
               },
-              {
-                "k": "not",
-                "m": "Peri bir Cengo'ya, bir Haldun'a bakıyor.",
-                "ekran": "peri+cengo",
-                "yuz": "peri.merakli+cengo.yumusak"
-              },
+              {"k": "not", "m": "Peri bir Cengo'ya, bir Haldun'a bakıyor.", "kare": "K116"},
               {
                 "k": "haldun",
                 "i": "yumusak",
@@ -5663,9 +5667,7 @@
                 "m": "Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.",
                 "gir": "recep",
                 "gi": "gulen",
-                "kime": "cengo",
-                "ekran": "cengo+recep",
-                "yuz": "cengo.normal"
+                "kare": "K122"
               },
               {
                 "k": "recep",
@@ -6551,15 +6553,13 @@
               "k": "not",
               "m": "Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.",
               "gizle": "cengo",
-              "ekran": "peri",
-              "yuz": "peri.normal"
+              "kare": "K115"
             },
             {
               "k": "not",
               "m": "Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.",
               "gir": "cengo",
-              "ekran": "cengo",
-              "yuz": "cengo.normal"
+              "kare": "K119"
             },
             {
               "k": "peri",
@@ -6602,7 +6602,7 @@
               "m": "Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.",
               "gir": "eylul",
               "gi": "sevincli",
-              "ekran": "eylul"
+              "kare": "K120"
             },
             {
               "k": "eylul",
@@ -6661,8 +6661,7 @@
               "m": "Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.",
               "gir": "eylul",
               "gi": "kiskanc",
-              "ekran": "peri+eylul",
-              "yuz": "peri.kas"
+              "kare": "K121"
             },
             {
               "k": "not",
@@ -6948,11 +6947,7 @@
             {
               "k": "not",
               "m": "Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.",
-              "gir": "eylul",
-              "gi": "kiskanc",
-              "kime": "gizem",
-              "ekran": "peri+eylul",
-              "yuz": "peri.kas"
+              "kare": "K118"
             }
           ]
         },
@@ -7396,8 +7391,7 @@
               "k": "jale",
               "i": "uzaniyor",
               "m": "(torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.",
-              "ekran": "peri+jale",
-              "yuz": "peri.kas"
+              "kare": "K123"
             },
             {"k": "not", "m": "Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.", "cik": true, "kare": "K99j"}
           ]
@@ -7473,8 +7467,7 @@
               "k": "not",
               "m": "Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.",
               "cik": true,
-              "ekran": "peri+jale",
-              "yuz": "peri.kas+jale.soguk"
+              "kare": "K117"
             },
             {
               "k": "muzeyyen",
