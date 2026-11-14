@@ -14,7 +14,8 @@
 //        İŞ   — kural ne yapılacağını söylüyor; yazar (Claude) diyalogda uygular, araç yeniden koşar.
 //        SOR  — kural karar veremedi; yalnız bunlar sahibine gider.
 //      Türler: EYLEM (anlatıda eylem/nesne, kare yok), JEST (replikte parantez), KONUŞAN (konuşan ekranda değil),
-//      HİTAP (`kime` ekranda değil).
+//      HİTAP (`kime` ekranda değil), DURUŞ (anlatıda duruş/uğraş, figür bunu göstermiyor; 14 Kasım 2026),
+//      İLK GÖRME (figür ekranda ama sahnede adı henüz geçmedi, SR-L; 14 Kasım 2026).
 //   --karar: sahibinin "kalsın" dediği satırlar (dosyada `- kalsın: <satırın başı>`); bir daha sorulmaz.
 const fs = require('fs'), path = require('path');
 const arg = process.argv.slice(2);
@@ -33,6 +34,9 @@ const EYLEM = /(yiyor|yiyip|uzatıyor|uzatarak|kesiyor|çömel|masanın altına|
 const HAREKET = /(giriyor|geliyor|dönüyor|çıkıyor|kapanıyor|çalınıyor|kalıyor|süzüyor|bakıyor|oturuyor|koşuyor|koluna giriyor|yürüyor|susuyor|duruyor)/u;
 // Nesne işareti: elde bir şey var ya da el değiştiriyor.
 const NESNE = /(elinde|alıp|koyuyor|uzatıyor|uzatarak|çıkarıp|çıkarıyor|tutuyor|bırakıp|bırakıyor|veriyor|atıyor|yiyor|yiyip|takıyor)/u;
+// Duruş / uğraş (14 Kasım 2026): figürün pozu bunu göstermez, kare ya da pozlu figür ister. HAREKET'ten önce bakılır
+// (V6 açılışı: "Peri ayakları masada, bir dergi okuyor" ayakta, eli boş figürle gösterildi; EYLEM listesinde yoktu).
+const DURUS = /(ayakları|ayağını|bacak bacak|okuyor|okurken|yazıyor|yazarken|uzanmış|uzanıyor|yatıyor|yatmış|uyuyor|uyukl|eğilmiş|eğiliyor|diz çök|kucağında|sigara|içiyor|yudumlu|karıştırıyor|örüyor|dikiyor|ütülüyor|siliyor|süpür|yıkıyor|pişiriyor|dergi|gazete|kitap)/u;
 // SR-M2: yüz, bakış, ses jesti — ifade taşır.
 const YUZ = /(göz kırp|bakarak|bakıp|gülümse|gülerek|iç çek|kaşlarını|omuz silk|başını sall|fısılda|alçak sesle|sesi titre|yüzüne bakmadan|dişlerinin arasından)/u;
 // SR-M3: parantez yalnız hitap işareti: "(Cengo'ya)", "(Eylül'e)".
@@ -46,7 +50,11 @@ const figurNesneyiTasir = (figurler, metin) => {
 };
 
 const satirlar = new Map(); // anahtar: konuşan+metin → kayıt
+const ilkGorme = new Map(); // SR-L: anahtar → [figür, satır kaydı]
+const figAd = x => x.replace(/^sol:/, '').split('.')[0];
+const ANILMAZ = new Set(['-', '', 'teyze', 'fotografci']);
 for (const d of arg) {
+  let bolum = '', anilan = new Set(), onceki = new Set(), bekleyen = new Map();
   for (const ln of fs.readFileSync(d, 'utf8').split(/\r?\n/)) {
     const p = ln.split(' | '); if (p.length < 6) continue;
     const [noAd, kimRaw, arkaRaw, solRaw, sagRaw] = p; const m = p.slice(5).join(' | ');
@@ -61,6 +69,20 @@ for (const d of arg) {
     const anahtar = k + '|' + m;
     if (!satirlar.has(anahtar)) satirlar.set(anahtar, { ad, k, kime: kime || '', m, arka, kare, sol, sag, cekik, gorulen: new Set() });
     satirlar.get(anahtar).gorulen.add(`${sol}·${sag}·${kare}`);
+    // SR-L: sahne (vaka bölümü + arka plan) içinde sırayla. Figür adı geçmeden ekrana geldiyse "bekleyen" olur; o konuşur ya
+    // da ona hitap edilirse bekleme biter (dedektiflerin mekâna gelişi, tarifle giren konuk: sorun yok). Ama ondan önce bir
+    // anlatı cümlesi ONUNLA başlıyorsa ("Cengo kapının önünde duruyor") anlatı onu ekrana sonradan getiriyor demektir:
+    // figür erken gösterildi. Kare satırında figürlere bakılmaz (kare kendi resmi).
+    if (ad + '|' + arka !== bolum) { bolum = ad + '|' + arka; anilan = new Set(); onceki = new Set(); bekleyen = new Map(); }
+    const metinK = katla(m);
+    const simdi = new Set(kare ? [] : [sol, sag].map(figAd).filter(f => !ANILMAZ.has(f)));
+    if (k === 'not') for (const [f, ilk] of bekleyen) if (ilk !== anahtar && metinK.split(/[.;:!?]\s+/).some(c => c.trim().startsWith(f))) {
+      const ka = ilk + '|' + f; if (!ilkGorme.has(ka)) ilkGorme.set(ka, [f, satirlar.get(ilk), m]); bekleyen.delete(f);
+    }
+    [k, kime].forEach(f => { if (f) { anilan.add(f); bekleyen.delete(f); } });
+    for (const f of simdi) if (!onceki.has(f) && !anilan.has(f) && !metinK.includes(f)) bekleyen.set(f, anahtar);
+    for (const f of simdi) if (metinK.includes(f)) { anilan.add(f); if (bekleyen.get(f) !== anahtar) bekleyen.delete(f); }
+    if (!kare) onceki = simdi;
   }
 }
 
@@ -80,7 +102,8 @@ for (const s of satirlar.values()) {
   ekle('ARKA ' + s.arka, yazi);
   const ekranda = [s.sol, s.sag].map(x => x.split('.')[0]);
   const figurler = [s.sol, s.sag].filter(x => x && x !== '-');
-  if (s.k === 'not' && !s.kare && EYLEM.test(s.m)) {
+  if (s.k === 'not' && !s.kare && DURUS.test(s.m) && !figurNesneyiTasir(figurler, s.m)) B('DURUŞ', 'İŞ', s, 'duruş/uğraş figürde görünmüyor — kare bağla ya da pozlu figür (SR-F/SR-M5); anlatı yalnız ortamı anlatıyorsa kalsın');
+  else if (s.k === 'not' && !s.kare && EYLEM.test(s.m)) {
     const nesne = NESNE.test(s.m);
     if (!nesne && HAREKET.test(s.m)) B('EYLEM', 'OTO', s, 'SR-M1: giriş/çıkış, bakış — figür ve ifadesi taşır');
     else if (/bırak/u.test(s.m) && !/(alıp|uzat)/u.test(s.m)) B('EYLEM', 'OTO', s, 'SR-M5/SR-B: nesneyi bırakma satırı — nesne burada biter');
@@ -99,6 +122,7 @@ for (const s of satirlar.values()) {
   if (s.k !== 'not' && s.kime && !s.kare && !s.cekik && !ekranda.includes(s.kime)) B('HİTAP', 'İŞ', s, `SR-M6: ${s.kime} sahnede değil ya da motor getiremedi — gir ekle ya da kime'yi düzelt; ekranda: ${s.sol}, ${s.sag}`);
 }
 
+for (const [f, s, sonra] of ilkGorme.values()) B('İLK GÖRME', 'İŞ', s, `SR-L: ${f} bu satırda ekranda, ama anlatı onu sonra getiriyor ("${sonra.slice(0, 60)}…") — gir'i o satıra taşı`);
 const say = (sinif, t) => bayrak.filter(b => b[1] === sinif && (!t || b[0] === t)).length;
 let o = `# Satır → resim uyumu${VAKA ? ' — ' + VAKA : ''}\n\nKaynak: ${arg.map(a => path.basename(path.dirname(a)) + '/' + path.basename(a)).join(', ')} · ${satirlar.size} farklı satır.\n` +
   `Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER satıra uymalı. Uymuyorsa ayrı ifade/kare gerekir.\n` +
@@ -118,7 +142,7 @@ for (const key of sira) {
 }
 fs.mkdirSync(path.dirname(CIKTI), { recursive: true });
 fs.writeFileSync(CIKTI, o);
-const tur = s => ['EYLEM', 'JEST', 'KONUŞAN', 'HİTAP'].map(t => `${t} ${say(s, t)}`).join(', ');
+const tur = s => ['EYLEM', 'DURUŞ', 'JEST', 'KONUŞAN', 'HİTAP', 'İLK GÖRME'].map(t => `${t} ${say(s, t)}`).join(', ');
 console.log(`${satirlar.size} satır · ${resim.size} resim anahtarı`);
 console.log(`bayrak: OTO ${say('OTO')} (${tur('OTO')}) · İŞ ${say('İŞ')} (${tur('İŞ')}) · SOR ${say('SOR')}`);
 console.log('Yazıldı: ' + CIKTI);
