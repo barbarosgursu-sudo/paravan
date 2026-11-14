@@ -1,0 +1,30 @@
+{
+  "_not": "arac_shorts.js ayarı. Sesler: Edge TTS (ücretsiz, hesapsız). Türkçe ana dilli iki ses var: tr-TR-AhmetNeural (erkek), tr-TR-EmelNeural (kadın). Karakterler hız ve perdeyle ayrılır. Çok dilli sesler de Türkçe okur ama aksanlı olabilir (en-US-AvaMultilingualNeural, it-IT-GiuseppeMultilingualNeural...). Bir karakterin sesi bir kez seçilir, bütün vakalarda aynı kalır. Denemek için: node arac_shorts.js --ses-dene",
+  "sesler": {
+    "anlatici": { "ses": "tr-TR-AhmetNeural", "hiz": "+0%", "perde": "-10Hz" },
+    "peri":     { "ses": "tr-TR-EmelNeural",  "hiz": "+2%", "perde": "+0Hz" },
+    "cengo":    { "ses": "tr-TR-AhmetNeural", "hiz": "+8%", "perde": "+6Hz" },
+    "nadide":   { "ses": "tr-TR-EmelNeural",  "hiz": "-12%", "perde": "-12Hz" },
+    "ferruh":   { "ses": "tr-TR-AhmetNeural", "hiz": "+0%", "perde": "-2Hz" },
+    "kenan":    { "ses": "tr-TR-AhmetNeural", "hiz": "-4%", "perde": "-16Hz" },
+    "gizem":    { "ses": "tr-TR-EmelNeural",  "hiz": "+8%", "perde": "+10Hz" },
+    "sedat":    { "ses": "tr-TR-AhmetNeural", "hiz": "+4%", "perde": "+12Hz" },
+    "rustem":   { "ses": "tr-TR-AhmetNeural", "hiz": "-10%", "perde": "-20Hz" },
+    "ayla":     { "ses": "tr-TR-EmelNeural",  "hiz": "-4%", "perde": "-6Hz" }
+  },
+  "zaman": {
+    "fps": 30,
+    "bas_bosluk": 0.25,
+    "satir_arasi": 0.3,
+    "gecis": 0.35,
+    "son_kare_en_az": 3.0
+  },
+  "son_kare": {
+    "baslik": "PARAVAN",
+    "alt_baslik": "DEDEKTİFLİK",
+    "cagri": "Şimdi oyna",
+    "baglanti": "barbarosgursu-sudo.github.io/paravan/yeni"
+  },
+  "muzik_seviye": 0.22,
+  "hedef_sure": [28, 55]
+}

@@ -15,3 +15,11 @@ uretim/*/red/
 # Yüz denetim aracının modelleri (arac_yuz.py ilk çalıştırmada indirir, ~39 MB)
 uretim/referanslar/yuz_model/
 __pycache__/
+# Shorts hattı (arac_shorts.js): videolar, ara dosyalar, müzik, ses denemeleri yalnız yerelde.
+# shorts/vN/denetim.json (spoiler damgası) depoya girer.
+shorts/**/*.mp4
+shorts/**/*.srt
+shorts/**/*_yukleme.txt
+shorts/*/_is/
+shorts/muzik/
+shorts/ses_deneme/

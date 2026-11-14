@@ -210,6 +210,12 @@ numara verir; numara `sablon/vakalar/vakaN_gorsel.md` tablosundan tür ve anahta
 keser, gömer, manifestoyu günceller, doğrulayıcı + iki derlemeyi koşar ve eski `index.html`'in
 değişmediğini md5 ile sınar. Saç halesi, yazı taraması ve boy insana kalır. Test değil, araç.
 
+**YouTube Shorts (14 Kasım 2026, sahibinin kararı): `sablon/8_shorts.md`.** Vaka başına 2–3 tanıtım videosu,
+seslendirmeli (Edge TTS, ücretsiz), altyazısız, çözüm yok. Senaryo `sablon/vakalar/vakaN_shorts.md`; araç
+`cd kaynak && node arac_shorts.js N --denetle | --onayla | [video] [--onizle]`. **Spoiler denetimi en başta:** damgasız ya da
+damgadan sonra değişmiş video için ses/görüntü üretilmez (`shorts/vN/denetim.json`). Sesler ve son kare `kaynak/shorts_ayar.json`.
+Videolar, müzik ve ara dosyalar depoya girmez. Örnek: Vaka 3 (üç video). Üretimi Oğuz Bey yapar.
+
 **UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — oyunu Pixel 5'te
 gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi,
 kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
