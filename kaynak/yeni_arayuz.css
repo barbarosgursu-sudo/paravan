@@ -61,6 +61,11 @@
 .vn-figur.sol.konuk{aspect-ratio:1102/1402;max-width:78%;height:105%;margin-left:-16%;margin-right:-8%;flex-shrink:0}
 .vn-figur.sag{aspect-ratio:1102/1402;max-width:78%;height:105%;margin-left:-8%;margin-right:-16%;flex-shrink:0}
 .vn-figur[hidden]{display:none}
+/* Tek kişi (yalnız sol ya da yalnız sağ görünür): ortada. Küçük figürün satır içi left/right:0'ı da ortaya çekilir. */
+.vn-figurler.tek{justify-content:center}
+.vn-figurler.tek .vn-figur{margin-left:0;margin-right:0}
+.vn-figurler.tek .vn-figur img[style]{left:50% !important;right:auto !important;transform:translateX(-50%)}
+.vn-figurler.tek .vn-figur.sol img[style]{transform:translateX(-50%) scaleX(-1)}
 .vn-figur.pasif{filter:brightness(.62) saturate(.75)}
 .vn-figur.aktif{filter:brightness(1.04);z-index:2}
 .vn-figurler.aksam .vn-figur{filter:brightness(.8) sepia(.18) saturate(.9)}

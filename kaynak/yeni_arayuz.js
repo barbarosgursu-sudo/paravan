@@ -236,6 +236,8 @@ function vnFigurCiz(satir){
   const solKim = solCengo ? "cengo" : solKonuk || "peri";
   sol.classList.toggle("aktif", k === solKim); sol.classList.toggle("pasif", k !== solKim);
   sag.classList.toggle("aktif", !!kim && k === kim); sag.classList.toggle("pasif", !(kim && k === kim));
+  // Sahnede tek kişi: ortada durur (sahibinin kararı, 14 Kasım 2026). Geçiş kaymasız, anında.
+  sol.parentElement.classList.toggle("tek", sol.hidden !== sag.hidden);
 }
 
 function vnSatirGoster(satir){
