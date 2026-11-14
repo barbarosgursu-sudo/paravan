@@ -208,6 +208,8 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
     m.yer_tutucu = m.yer_tutucu.filter(x => x !== k.anahtar);
     if (m.yer_tutucu_metin) delete m.yer_tutucu_metin[k.anahtar];
     if (k.genis && !m.genis.includes(k.anahtar)) m.genis.push(k.anahtar);
+    // Kapı K6: hangi figür yapay zekâ kesimiyle gömüldü.
+    if (k.tur === 'figur') { m.kesim_yz = (m.kesim_yz || []).filter(x => x !== k.anahtar); if (!ESKI) m.kesim_yz.push(k.anahtar); }
   }
   fs.writeFileSync(mYolu, jsonYaz(m) + '\n');
   console.log('Manifesto güncellendi: ' + sonuc.length + ' görsel; yer tutucu kalan ' + m.yer_tutucu.length);

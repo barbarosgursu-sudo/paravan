@@ -27,7 +27,8 @@ const ORTAM = require('./arac_ortam.js');
 const { chromium, devices } = ORTAM.playwright();
 const path = require('path'), fs = require('fs');
 const SAYFA = path.join(__dirname, '..', 'yeni', 'index.html');
-const OUT = path.join(__dirname, 'YENI_UI'); fs.mkdirSync(OUT, { recursive: true });
+// TUR_CIKTI: başka çıktı klasörü (kapı aracı turları paralel koşar, her biri kendi klasörüne).
+const OUT = process.env.TUR_CIKTI || path.join(__dirname, 'YENI_UI'); fs.mkdirSync(OUT, { recursive: true });
 for (const f of fs.readdirSync(OUT)) fs.rmSync(path.join(OUT, f), { recursive: true });
 const TABLET = process.argv.includes('--tablet'), CIHAZ = process.argv.includes('--cihaz') && require('./arac_cihaz.js');
 const HEPSI = process.argv.includes('--hepsi');
@@ -60,8 +61,33 @@ const VAKA = YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2"
     if (CIHAZ) await CIHAZ.tara(p, ad); };
   const tasmaBak = async yer => { const w = await p.evaluate(() => document.documentElement.scrollWidth - innerWidth); if (w > 0) tasma.push(yer+':'+w); };
   // --hepsi: incelenen vakanın her satırı → satir/NNN_ad.jpg + dokum.txt
-  let incelenen = null, sn = 0; const SDIR = path.join(OUT, 'satir'), dokum = [], adsiz = [];
+  let incelenen = null, sn = 0; const SDIR = path.join(OUT, 'satir'), dokum = [], adsiz = [], kayit = [], binme = {};
   if (HEPSI) fs.mkdirSync(SDIR, { recursive: true });
+  // İki figürün ekranda kaç piksel üst üste bindiği: her figür tek başına (arka plan ve öbür figür gizli) saydam zeminde
+  // görüntülenir, iki görüntünün ikisinde de dolu olan pikseller sayılır. Çift başına bir kez (önbellek binme{}).
+  const ustUste = async () => {
+    const fig = await p.$('#vnFig'); if (!fig) return 0;
+    const al = async gizle => {
+      await p.evaluate(g => { document.documentElement.style.background = 'transparent'; document.body.style.background = 'transparent';
+        for (const id of ['vnArka', g]) { const e = document.getElementById(id); if (e) { e.dataset.kapiGiz = e.style.visibility; e.style.visibility = 'hidden'; } }
+        const sh = document.getElementById('vnSahne'); if (sh) { sh.dataset.kapiBg = sh.style.background; sh.style.background = 'transparent'; } }, gizle);
+      const buf = await fig.screenshot({ omitBackground: true, type: 'png' });
+      await p.evaluate(g => { for (const id of ['vnArka', g]) { const e = document.getElementById(id); if (e) e.style.visibility = e.dataset.kapiGiz || ''; }
+        const sh = document.getElementById('vnSahne'); if (sh) sh.style.background = sh.dataset.kapiBg || '';
+        document.documentElement.style.background = ''; document.body.style.background = ''; }, gizle);
+      return buf.toString('base64');
+    };
+    const a = await al('vnSag'), b2 = await al('vnSol');
+    return p.evaluate(async ([x, y]) => {
+      const yukle = u => new Promise(r => { const i = new Image(); i.onload = () => r(i); i.src = 'data:image/png;base64,' + u; });
+      const [i1, i2] = await Promise.all([yukle(x), yukle(y)]);
+      const c = document.createElement('canvas'); c.width = i1.width; c.height = i1.height; const g = c.getContext('2d');
+      g.drawImage(i1, 0, 0); const d1 = g.getImageData(0, 0, c.width, c.height).data;
+      g.clearRect(0, 0, c.width, c.height); g.drawImage(i2, 0, 0); const d2 = g.getImageData(0, 0, c.width, c.height).data;
+      let n = 0; for (let k = 3; k < d1.length; k += 4) if (d1[k] > 128 && d2[k] > 128) n++;
+      return n;
+    }, [a, b2]);
+  };
   const satirFoto = async ad => {
     await p.waitForTimeout(250);
     const d = await p.evaluate(() => {
@@ -79,6 +105,12 @@ const VAKA = YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2"
     if (d.yok.length) adsiz.push(`${String(sn + 1).padStart(3, '0')} ${ad} | ekranda yok: ${d.yok.join(', ')} | ${d.m}`);
     const no = String(++sn).padStart(3, '0');
     await p.screenshot({ path: `${SDIR}/${no}_${ad}.jpg`, type: 'jpeg', quality: 55 });
+    // Kapı aracı için tam kayıt (satir.jsonl): satırın bütün etiketleri + ekranda kim var + iki figür üst üste biniyor mu.
+    const ek = await p.evaluate(() => { const s = window.__satir || {}; const o = {}; for (const k of Object.keys(s)) if (typeof s[k] !== 'object') o[k] = s[k]; return o; });
+    const solK = d.sol.replace(/^sol:/, ''), anahtar = solK + '|' + d.sag;
+    if (!d.kare && !d.cekilmis && d.sol !== '-' && d.sag !== '-' && !(anahtar in binme)) binme[anahtar] = await ustUste();
+    kayit.push(JSON.stringify({ no, ad, ...ek, k: d.k, m: d.m, arka: d.arka, kare: d.kare, cekilmis: d.cekilmis, sol: solK, solCengo: d.sol.startsWith('sol:'), sag: d.sag,
+      binme: (!d.kare && !d.cekilmis && d.sol !== '-' && d.sag !== '-') ? binme[anahtar] : 0 }));
     dokum.push(`${no} ${ad} | ${d.k}${d.kime ? '→' + d.kime : ''} | ${d.arka}${d.kare ? ' KARE ' + d.kare : ''} | sol ${d.cekilmis ? '(çekik) ' : ''}${d.sol} | sağ ${d.sag} | ${d.m}`);
   };
   // VN'i bitene kadar oynat
@@ -236,6 +268,7 @@ const VAKA = YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2"
   if (tasma.length || hata.length) process.exitCode = 1;
   if (HEPSI) { fs.writeFileSync(path.join(SDIR, 'dokum.txt'), dokum.join('\n') + '\n'); console.log('satır görüntüsü', sn, '→ YENI_UI/satir/');
     fs.writeFileSync(path.join(SDIR, 'adi_gecen_yok.txt'), adsiz.join('\n') + '\n');
+    fs.writeFileSync(path.join(SDIR, 'satir.jsonl'), kayit.join('\n') + '\n');
     console.log(adsiz.length ? '⚑ anlatıda adı geçen ama ekranda olmayan: ' + adsiz.length + ' satır (aday; satir/adi_gecen_yok.txt)\n  ' + adsiz.join('\n  ') : '✓ anlatıda adı geçen herkes ekranda'); }
   if (CIHAZ) await CIHAZ.rapor(b, OUT);
   await b.close();

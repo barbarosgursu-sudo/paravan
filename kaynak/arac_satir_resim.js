@@ -29,7 +29,7 @@ const kucuk = s => String(s).toLocaleLowerCase('tr');
 const katla = s => kucuk(s).replace(/ç/g, 'c').replace(/ğ/g, 'g').replace(/ı/g, 'i').replace(/ö/g, 'o').replace(/ş/g, 's').replace(/ü/g, 'u');
 
 // Eylem anlatısı (kare yoksa bakılır).
-const EYLEM = /(yiyor|yiyip|uzatıyor|uzatarak|kesiyor|çömel|masanın altına|giriyor|geliyor|koşuyor|oturuyor|bağlıyor|silkeliyor|çıkarıp|çıkarıyor|ısır|esniyor|açıyor|takıyor|itiyor|bırakıp|bırakıyor|deviriyor|düşüyor|kayıyor|kapaklan|dağıtıyor|bölüyor|koyuyor|dönüyor|iniyor|bakakal|gösteriyor|fışkır|saklan|öksür|el sall|selam|alıp|tutuyor|veriyor|atıyor|elinde)/u;
+const EYLEM = /(dayıyor|dayayıp|indiriyor|yiyor|yiyip|uzatıyor|uzatarak|kesiyor|çömel|masanın altına|giriyor|geliyor|koşuyor|oturuyor|bağlıyor|silkeliyor|çıkarıp|çıkarıyor|ısır|esniyor|açıyor|takıyor|itiyor|bırakıp|bırakıyor|deviriyor|düşüyor|kayıyor|kapaklan|dağıtıyor|bölüyor|koyuyor|dönüyor|iniyor|bakakal|gösteriyor|fışkır|saklan|öksür|el sall|selam|alıp|tutuyor|veriyor|atıyor|elinde)/u;
 // SR-M1: yalnız yer değiştirme / bakış / ses — figürün girip çıkması ve ifadesi taşır.
 const HAREKET = /(giriyor|geliyor|dönüyor|çıkıyor|kapanıyor|çalınıyor|kalıyor|süzüyor|bakıyor|oturuyor|koşuyor|koluna giriyor|yürüyor|susuyor|duruyor)/u;
 // Nesne işareti: elde bir şey var ya da el değiştiriyor.
@@ -108,7 +108,7 @@ for (const s of satirlar.values()) {
   else if (s.k === 'not' && !s.kare && EYLEM.test(s.m)) {
     const nesne = NESNE.test(s.m);
     if (!nesne && HAREKET.test(s.m)) B('EYLEM', 'OTO', s, 'SR-M1: giriş/çıkış, bakış — figür ve ifadesi taşır');
-    else if (/bırak/u.test(s.m) && !/(alıp|uzat)/u.test(s.m)) B('EYLEM', 'OTO', s, 'SR-M5/SR-B: nesneyi bırakma satırı — nesne burada biter');
+    else if (/(bırak|dayıyor|dayayıp|indiriyor)/u.test(s.m) && !/(alıp|uzat)/u.test(s.m)) B('EYLEM', figurNesneyiTasir(figurler, s.m) ? 'OTO' : 'İŞ', s, 'kural 10 (14 Kasım 2026): nesne bırakıldığı satırda HÂLÂ görünür (elde ya da bırakıldığı yerde) — nesneli poz ya da kare; bir sonraki satırda biter');
     else if (nesne && figurNesneyiTasir(figurler, s.m)) B('EYLEM', 'OTO', s, 'SR-M4: ekrandaki figür nesneyi gösteriyor');
     else B('EYLEM', 'İŞ', s, 'SR-M5: nesne ipucuysa ya da konuşmada "şimdi burada" anılıyorsa nesneli poz/kare; değilse nesneyi anlatıdan çıkar');
   }

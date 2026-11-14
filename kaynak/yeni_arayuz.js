@@ -204,7 +204,7 @@ function vnFigurCiz(satir){
     }
   }
   // Peri
-  const periVar = !solCengo && !solKonuk && vn.mevcut.has("peri");
+  const periVar = !solCengo && !solKonuk && vn.mevcut.has("peri") && !vn.yalniz;
   if(!solCengo && !solKonuk) sol.hidden = !periVar;
   if(periVar){
     const anahtar = "peri." + vn.set + "." + (vn.ifade.peri || "normal");
@@ -273,6 +273,19 @@ function vnSatirGoster(satir){
   // peri: Peri konuşmuyorken de ifadesi değişebilir (Hilmi Bey tacı okurken Peri onu çoktan kavramış).
   if(satir.peri) vn.ifade.peri = satir.peri;
   if(satir.cengo) vn.ifade.cengo = satir.cengo;   // dinleyen Cengo'nun yüzü
+  // yuz: "peri.kas+eylul.uzgun" — dinleyenlerin (konuşmayanların) yüzü bu satırda (kural 8, 14 Kasım 2026).
+  if(satir.yuz) for(const p of String(satir.yuz).split("+")){ const [kim, ...if_] = p.trim().split("."); if(kim && if_.length) vn.ifade[kim] = if_.join("."); }
+  // ekran: "peri+cengo" / "cengo+eylul" / "eylul" — bu satırda ekranda TAM olarak kim var (kural 1, 14 Kasım 2026). Yukarıdaki
+  // bütün yerleşimi ezer; önceki satırdan hiçbir şey taşınmaz. İlk ad solda (Peri varsa hep o), ikinci sağda; tek ad sağda
+  // (Peri tekse solda). Eski vakalar bu etiketi kullanmaz, onların düzeni değişmez.
+  vn.yalniz = false;
+  if(satir.ekran){
+    const e = String(satir.ekran).split("+").map(x => x.trim()).filter(Boolean);
+    e.forEach(x => vn.mevcut.add(x));
+    if(e.length >= 2){ vn.sol = e[0]; vn.sag = e[1]; }
+    else if(e[0] === "peri"){ vn.sol = "peri"; vn.sag = null; }
+    else { vn.sag = e[0]; vn.sol = "peri"; vn.yalniz = true; }
+  }
   if(satir.kasa){ vn.kasaGorunur = vnKasaGorunur = true; vnKasaTazele(); }
   vnKareGoster(satir.kare || null);
   // mekan: yeri tanıtan anlatı satırı — figürler çekilir, arka plan çıplak görünür
