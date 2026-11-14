@@ -34,7 +34,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G43 4871e2b19930
 - G44 aea595b6a146
 - G45 2a6c2d6c2e2f
-- G46 52387b855624
+- G46 4a516c8ea8ee
 - G47 6e614f9b3eb3
 - G48 8e39c87eb67b
 - G49 f33a022071be
@@ -53,7 +53,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G62 ffdfc5a4b120
 - G63 290340448726
 - G64 6021ad1b8ae4
-- G65 fa241b02a359
+- G65 fa557717b270
 - G66 017237122f83
 - G67 d0d99390ad9c
 - G68 877efaaa4f65

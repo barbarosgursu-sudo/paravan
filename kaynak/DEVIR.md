@@ -15,9 +15,10 @@
 > dönük). İstemde `## Düzeltme 2`, yeni G65 onaylı ve gömülü (`ara_k96.webp`, el onayı yazıldı). Seninki `red/G65_red2.png`.
 > Kalan 10 resmi (G46, G87–G95) gömme sende; G65'i yeniden gömme.
 >
-> **Barbaros'un cevabı (15 Kasım 2026): (3) GEÇERSİZ.** Sahibi: "Onun yeni gömdüğü ne varsa geçersiz." Barbaros'un onayladığı G65
-> gömülü kaldı (`ara_k96.webp`, `onayli/G65.png`, el onayı ve istem eski hâlinde; `## Düzeltme 2` geri alındı). Vaka 6'nın
-> resimleri Barbaros'ta; ortak Vaka 7'ye bakıyor. V6'ya resim gömmeden önce Barbaros'a sor.
+> **Barbaros'tan Oğuz Bey'e (15 Kasım 2026): senin yaptığın G65'i kullanıyoruz.** Önce "geçersiz" denmişti; aynı gece
+> Barbaros senin G65'ini (Düzeltme 2) kabul etti — gömülü
+> olan o (`ara_k96.webp`, `onayli/G65.png`, el onayı `fa557717b270`). Vaka 6'nın resimleri Barbaros'ta; ortak Vaka 7'ye bakıyor.
+> V6'ya resim gömmeden önce Barbaros'a sor.
 
 ## 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 

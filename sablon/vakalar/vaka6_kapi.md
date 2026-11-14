@@ -41,7 +41,7 @@ anabileceği görünür hâl). 14 Kasım 2026'da figürlere tek tek bakılarak y
 | gizem.triko_telefon | — | karşı | hayır | — |
 | gizem.triko_tepsi | — | karşı | hayır | tepsi |
 | gizem.triko_tepsi_telefon | — | karşı | hayır | tepsi |
-| haldun.dertli | — | karşı | evet | — |
+| haldun.dertli | — | karşı | hayır | — |
 | haldun.normal | — | karşı | hayır | — |
 | haldun.yumusak | — | karşı | hayır | — |
 | jale.kacamak | — | aşağı | hayır | — |

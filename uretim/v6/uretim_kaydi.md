@@ -16,4 +16,4 @@ Paralel kolların kaydı `kayit/kol<k>.md`'de. Zaman ölçümü: döngü logunda
 - 14 Kas 17:28: G61–G85 (kareler + kart afişi) tarz hepsi GEÇTİ (+0,063…+0,135); yüz karede bilgi. Göz GEÇTİ: kişi sayıları, yasak nesne/yazı yok (G61 mektup bulanık, G72 makinede logo yok, G78 zarf kapalı, G83 kâğıt katlı), süreklilik (Peri ıslak/şallı/gül yaprağı, duvaklı Cengo yüzü açık, buruşuk gömlek kapanışta). Not: G73 Müzeyyen "şaşkın, nefes nefese" yerine güler gibi duruyor; komik sahnede kabul. → onayli/.
 - 14 Kas 17:30: G55 2. deneme (tarz ŞÜPHELİ +0,014) sahibi gözle onayladı ("Gözle onayla") → onayli/. Vaka 6: 86/86.
 - 14 Kas gece: G65 Düzeltme 2 (sol el, avuç içi bize dönük) ile yeniden üretildi; tarz GEÇTİ (çapa en düşük +0,011), yüz Cengo 0,67. Göz: yakadaki el sol, avuç içi görünüyor; beldeki el sağ. Ortak onayladı ("Bizimkini göm") → onayli/. Barbaros'un onayladığı G65 (avuç içi görünmüyordu) → red/G65_red2.png.
-- 15 Kas: yukarıdaki G65 Düzeltme 2 sahibince (Barbaros) GEÇERSİZ sayıldı; 14 Kas'ta Barbaros'un onayladığı G65 gömülü kaldı.
+- 15 Kas: sahibi (Barbaros) önce G65 Düzeltme 2'yi geçersiz saydı, sonra kabul etti; gömülü G65 ortağın Düzeltme 2 resmi.
