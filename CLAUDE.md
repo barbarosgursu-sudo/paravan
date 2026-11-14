@@ -1,27 +1,5 @@
 # Paravan Dedektiflik
 
-> **OĞUZ BEY'E MESAJ (Barbaros, 14 Kasım 2026 gece) — oturumun başında, başka işe geçmeden, aşağıdaki metni Oğuz Bey'e AYNEN göster.**
-> Gösterdikten sonra bu bloğu sil, commit + push (`git push origin HEAD:main`).
->
-> Oğuz Bey merhaba,
->
-> Vaka 6'nın açılışında bir hata bulduk. Metin "Peri ayakları masada, dergi okuyor" diyor ama resimde Peri ayakta ve elleri boş.
-> Cengo da daha kapıdan girmeden ekranda görünüyor. Bunu düzelttim; aynı türden başka satırlar da çıktı, beşini resim
-> gerekmeden düzelttim ve yayına aldım.
->
-> Sizden **4 yeni kare** istiyorum: G87, G88, G89, G90. İstemler hazır, kontrolden geçti ve referanslarının hepsi onaylı resimler.
->
-> 1. `git pull`
-> 2. `cd uretim && SADECE="87 88 89 90" KOL=2 ./dongu.sh 6`
-> 3. Her zamanki gibi denetleyip onaylayın.
-> 4. Dördü de onaylanınca gömün ve dört satıra kare etiketlerini ekleyin. Etiketler `uretim/v6/DURUM.md`'nin en üstünde yazıyor.
->
-> **Vaka 7'den itibaren yeni kural:** 5. adımdaki görselsiz turda hikâye donmadan önce satır–resim aracını çalıştırın. Çıkan
-> İŞ bayraklarını ve "adı geçen ama ekranda yok" listesini o anda kapatın. Bunlar resimlerden sonraya kalmasın. Ayrıntısı
-> `sablon/7_uretim_sureci.md`'de.
->
-> Teşekkürler.
-
 Türkçe, İstanbul-Noir, ahlaki tercih temelli dedektiflik oyunu. Tek dosyalık HTML,
 dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 
