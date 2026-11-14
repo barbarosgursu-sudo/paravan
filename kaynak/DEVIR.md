@@ -8,6 +8,10 @@
 
 ---
 
+> **Ortaktan not (14 Kasım 2026 gece, Barbaros'a):** (1) Sahnede tek kişi varken artık ortada duruyor; ikinci kişi gelince
+> kaymadan, anında yanlara geçiyor (`f8dfc4e`, `yeni_arayuz.js/.css`, `.vn-figurler.tek`). (2) Açılıştaki dergi resmine (G87)
+> dokunmadık; senin üretmeni bekliyoruz. Bizde yarım iş yok; her şey `main`'de.
+
 ## 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 
 - **Kapı** (`kaynak/arac_kapi.js`, sahibinin kararı): vaka kaydedilmeden önce 13 kural + eski denetimler kendiliğinden koşar. Vaka 6 ve
