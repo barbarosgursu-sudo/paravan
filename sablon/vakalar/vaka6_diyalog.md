@@ -28,87 +28,87 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Büro, öğleden sonra. Peri ayakları masada. Cengo ütülü gömlekle girer. Çekicilik anı (Eylül gelmeden), Peri masasına döner, kapı çalar, Eylül girer. Gizem çay ocağından tepsiyle gelir. Eylül sonunda Gizem'le çıkar.
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Cengo, Jale) anılıyor, Müzeyyen suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (sofrada kim vardı, Eylül'ün mesajı, bank, torbayı kim tuttu, sipariş günü, kalıp kâğıdı, "herkes öğrenecek" sözü).
 
-*Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.* {gizle: cengo}
-*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.* {gir: cengo}
-**PERİ [sasirmis]:** Cengo? Bu gömlek ne? Kim öldü? {kime: cengo}
-**CENGO [kas]:** Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma. {kime: peri}
+*Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.* {gizle: cengo, ekran: peri, yuz: peri.normal}
+*Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.* {gir: cengo, ekran: cengo, yuz: cengo.normal}
+**PERİ [sasirmis]:** Cengo? Bu gömlek ne? Kim öldü? {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
+**CENGO [kas]:** Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 *Peri masadan kalkıyor; Cengo'yu baştan aşağı süzüp gömleğinin yakasını iki parmağıyla düzeltiyor.* {kare: K96}
 **PERİ [kas]:** Yakan yamuk. Seni ilk kez ütülü görüyorum; gelen çok önemli biri olmalı. {kare: K96}
-**CENGO [yumusak]:** Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum. {kime: peri}
-*Peri masasına dönüyor. Kapı çalınıyor.*
-*Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.* {gir: eylul, gi: sevincli}
-**EYLÜL [sevincli]:** Baba! {gir: eylul, kime: cengo}
+**CENGO [yumusak]:** Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+*Peri masasına dönüyor. Kapı çalınıyor.* {ekran: peri, yuz: peri.kas}
+*Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.* {gir: eylul, gi: sevincli, ekran: eylul}
+**EYLÜL [sevincli]:** Baba! {gir: eylul, kime: cengo, ekran: cengo+eylul, yuz: cengo.yumusak}
 *Kız koşup Cengo'ya sarılıyor. Peri'nin elindeki dergi yere düşüyor.* {kare: K97}
 **PERİ [sasirmis]:** Baba mı? Cengo, senin bir kızın mı var? {kare: K97}
-**CENGO [yumusak]:** Eylül. On altı yaşında. Annesiyle Üsküdar'da oturuyor. {kime: peri}
-**EYLÜL [kiskanc]:** Baba, bu hanım kim? {gir: eylul, kime: cengo}
-**CENGO [kas]:** Peri. Ortağım. Bu büroyu beraber işletiyoruz. {kime: eylul}
-**EYLÜL [kiskanc]:** Sadece ortak mı? {kime: cengo}
-**PERİ [kas]:** Sadece ortak, Eylül. Hoş geldin. {kime: eylul}
-*Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.* {gir: eylul, gi: kiskanc}
-*Gizem çay ocağından elinde bir tepsiyle geliyor.* {gir: gizem, gi: triko_tepsi}
-**GİZEM [triko_tepsi]:** Misafir mi var? Çay benden. Sen kimsin, güzelim? {gir: gizem, kime: eylul}
-**EYLÜL [gulen]:** Eylül. Cengo'nun kızıyım. {gir: eylul, kime: gizem}
-**GİZEM [triko_tepsi]:** Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden. {gir: gizem, kime: eylul}
-**EYLÜL [gulen]:** Teşekkür ederim, Gizem abla. Ne kadar iyisin. {gir: eylul, kime: gizem}
-**GİZEM [triko_tepsi]:** *(Eylül'e göz kırparak)* Peri Hanım herkese öyle bakar, takma. {gir: gizem, kime: eylul}
-**PERİ [kas]:** Ben kimseye öyle bakmıyorum, Gizem. {kime: gizem}
-**CENGO [normal]:** Otur kızım. Anlat bakalım, ne oldu? {gir: eylul, kime: eylul}
-**EYLÜL [uzgun]:** Annem evleniyor, baba. Haldun amcayla. İki hafta sonra, cumartesi. {kime: cengo}
-**EYLÜL [uzgun]:** Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim.
+**CENGO [yumusak]:** Eylül. On altı yaşında. Annesiyle Üsküdar'da oturuyor. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
+**EYLÜL [kiskanc]:** Baba, bu hanım kim? {gir: eylul, kime: cengo, ekran: cengo+eylul, yuz: cengo.yumusak}
+**CENGO [kas]:** Peri. Ortağım. Bu büroyu beraber işletiyoruz. {kime: eylul, ekran: cengo+eylul, yuz: eylul.kiskanc}
+**EYLÜL [kiskanc]:** Sadece ortak mı? {kime: cengo, ekran: cengo+eylul, yuz: cengo.kas}
+**PERİ [kas]:** Sadece ortak, Eylül. Hoş geldin. {kime: eylul, ekran: peri+eylul, yuz: eylul.kiskanc}
+*Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.* {gir: eylul, gi: kiskanc, ekran: peri+eylul, yuz: peri.kas}
+*Gizem çay ocağından elinde bir tepsiyle geliyor.* {gir: gizem, gi: triko_tepsi, ekran: gizem}
+**GİZEM [triko_tepsi]:** Misafir mi var? Çay benden. Sen kimsin, güzelim? {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.kiskanc}
+**EYLÜL [gulen]:** Eylül. Cengo'nun kızıyım. {gir: eylul, kime: gizem, ekran: eylul+gizem, yuz: gizem.triko_tepsi}
+**GİZEM [triko_tepsi]:** Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden. {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.gulen}
+**EYLÜL [gulen]:** Teşekkür ederim, Gizem abla. Ne kadar iyisin. {gir: eylul, kime: gizem, ekran: eylul+gizem, yuz: gizem.triko_tepsi}
+**GİZEM [triko_tepsi]:** *(Eylül'e göz kırparak)* Peri Hanım herkese öyle bakar, takma. {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.gulen}
+**PERİ [kas]:** Ben kimseye öyle bakmıyorum, Gizem. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
+**CENGO [normal]:** Otur kızım. Anlat bakalım, ne oldu? {gir: eylul, kime: eylul, ekran: cengo+eylul, yuz: eylul.gulen}
+**EYLÜL [uzgun]:** Annem evleniyor, baba. Haldun amcayla. İki hafta sonra, cumartesi. {kime: cengo, ekran: cengo+eylul, yuz: cengo.normal}
+**EYLÜL [uzgun]:** Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim. {ekran: cengo+eylul, yuz: cengo.normal}
 **EYLÜL [normal]:** Sorun değil. *(çantasından üç zarf çıkararak)* Asıl sorun bunlar. {kare: D18}
 *Eylül masaya üç zarf koyuyor. Her birinde katlanmış ince bir kâğıt; kurşun kalemle, büyük harflerle yazılmış.* {kare: D18}
 **EYLÜL [normal]:** Üçünde de aynı şey yazıyor: "Bu düğün olursa herkes öğrenir." Pul yok, gönderen yok. {kare: D18}
-**PERİ [merakli]:** Nereden geldiler, Eylül? {gir: eylul, kime: eylul}
-**EYLÜL [normal]:** İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan. {kime: peri}
-**EYLÜL [normal]:** Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş.
-**EYLÜL [uzgun]:** Annem düğünü iptal etmek istiyor. Haldun amcaya "ne saklıyorsun" diye bağırıyor; o da "hiçbir şey" diyor.
-**PERİ [merakli]:** Mektupları kimin yazdığını düşünüyorlar? {kime: eylul}
-**EYLÜL [uzgun]:** Annem "babandır" diyor: "Baban bu düğünü istemez." Ben inanmıyorum. O yüzden sana geldim, baba. {kime: cengo}
-**CENGO [sinirli]:** Ben mi? Ben annene mektup mu yazacağım? Bir şey diyeceksem yüzüne söylerim. {kime: eylul}
-**EYLÜL [normal]:** Haldun amca da eski karısı Jale Hanım'dan şüpheleniyor. Boşanırken "seni rahat bırakmam" demiş. {kime: peri}
-**EYLÜL [normal]:** Jale Hanım'ın da Kadıköy'de bir gelinlik atölyesi varmış. Haldun amca bunu söyleyince annem bir tuhaf oldu.
-**PERİ [merakli]:** Evde başka kimin haberi var bu mektuplardan? {kime: eylul}
-**EYLÜL [normal]:** Anneannemin. Bizim apartmanda, üst katta oturuyor; çok üzülüyor. Bu büronun adresini bana o verdi. {kime: peri}
-**EYLÜL [sevincli]:** "Baban dedektif, git ona" dedi. Sen dedektifsin baba. Sen bulursun. {kime: cengo}
-*Cengo Peri'ye bakıyor. Peri bir an susuyor.* {gir: cengo, kime: peri}
-**PERİ [kas]:** Baban bu büronun en iyi dedektifidir, Eylül. {kime: eylul}
+**PERİ [merakli]:** Nereden geldiler, Eylül? {gir: eylul, kime: eylul, ekran: peri+eylul, yuz: eylul.normal}
+**EYLÜL [normal]:** İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan. {kime: peri, ekran: peri+eylul, yuz: peri.merakli}
+**EYLÜL [normal]:** Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş. {ekran: peri+eylul, yuz: peri.merakli}
+**EYLÜL [uzgun]:** Annem düğünü iptal etmek istiyor. Haldun amcaya "ne saklıyorsun" diye bağırıyor; o da "hiçbir şey" diyor. {ekran: peri+eylul, yuz: peri.merakli}
+**PERİ [merakli]:** Mektupları kimin yazdığını düşünüyorlar? {kime: eylul, ekran: peri+eylul, yuz: eylul.uzgun}
+**EYLÜL [uzgun]:** Annem "babandır" diyor: "Baban bu düğünü istemez." Ben inanmıyorum. O yüzden sana geldim, baba. {kime: cengo, ekran: cengo+eylul, yuz: cengo.normal}
+**CENGO [sinirli]:** Ben mi? Ben annene mektup mu yazacağım? Bir şey diyeceksem yüzüne söylerim. {kime: eylul, ekran: cengo+eylul, yuz: eylul.uzgun}
+**EYLÜL [normal]:** Haldun amca da eski karısı Jale Hanım'dan şüpheleniyor. Boşanırken "seni rahat bırakmam" demiş. {kime: peri, ekran: peri+eylul, yuz: peri.merakli}
+**EYLÜL [normal]:** Jale Hanım'ın da Kadıköy'de bir gelinlik atölyesi varmış. Haldun amca bunu söyleyince annem bir tuhaf oldu. {ekran: peri+eylul, yuz: peri.merakli}
+**PERİ [merakli]:** Evde başka kimin haberi var bu mektuplardan? {kime: eylul, ekran: peri+eylul, yuz: eylul.normal}
+**EYLÜL [normal]:** Anneannemin. Bizim apartmanda, üst katta oturuyor; çok üzülüyor. Bu büronun adresini bana o verdi. {kime: peri, ekran: peri+eylul, yuz: peri.merakli}
+**EYLÜL [sevincli]:** "Baban dedektif, git ona" dedi. Sen dedektifsin baba. Sen bulursun. {kime: cengo, ekran: cengo+eylul, yuz: cengo.normal}
+*Cengo Peri'ye bakıyor. Peri bir an susuyor.* {gir: cengo, kime: peri, ekran: peri+cengo, yuz: peri.merakli+cengo.normal}
+**PERİ [kas]:** Baban bu büronun en iyi dedektifidir, Eylül. {kime: eylul, ekran: peri+eylul, yuz: eylul.normal}
 *Eylül, Cengo'nun bileğindeki renkli boncuklu bilekliği görüyor.* {kare: D19}
 **PERİ [merakli]:** O bileklik hep bileğinde, Cengo. Hep soracaktım. {kare: D19}
-**EYLÜL [sevincli]:** Ben yaptım! Yedi yaşındayken. Hâlâ takıyorsun, baba! {gir: eylul, kime: cengo}
-**EYLÜL [normal]:** Parayı Haldun amca ödeyecek. "Kim yazdıysa bulsunlar, ne isterlerse veririm" dedi. {kime: peri}
-**PERİ [normal]:** Ücretimiz kırk bin lira. İş bitince ödenir. {kime: eylul}
-**CENGO [kas]:** Kızımın işinden para alınmaz, Peri. {kime: peri}
-**PERİ [kas]:** Kızından değil, Cengo. Haldun Bey'den. Yarın Üsküdar'dan başlarız. {kime: cengo}
-**EYLÜL [kiskanc]:** Babam nereden başlarsak oradan başlarız. {gir: eylul, kime: peri}
-**GİZEM [triko_tepsi]:** Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız. {gir: gizem, kime: eylul}
-**EYLÜL [gulen]:** Tamam, abla. {gir: eylul, kime: gizem}
-*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {gir: eylul, gi: kiskanc, kime: gizem}
+**EYLÜL [sevincli]:** Ben yaptım! Yedi yaşındayken. Hâlâ takıyorsun, baba! {gir: eylul, kime: cengo, ekran: cengo+eylul, yuz: cengo.normal}
+**EYLÜL [normal]:** Parayı Haldun amca ödeyecek. "Kim yazdıysa bulsunlar, ne isterlerse veririm" dedi. {kime: peri, ekran: peri+eylul, yuz: peri.merakli}
+**PERİ [normal]:** Ücretimiz kırk bin lira. İş bitince ödenir. {kime: eylul, ekran: peri+eylul, yuz: eylul.normal}
+**CENGO [kas]:** Kızımın işinden para alınmaz, Peri. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
+**PERİ [kas]:** Kızından değil, Cengo. Haldun Bey'den. Yarın Üsküdar'dan başlarız. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
+**EYLÜL [kiskanc]:** Babam nereden başlarsak oradan başlarız. {gir: eylul, kime: peri, ekran: peri+eylul, yuz: peri.kas}
+**GİZEM [triko_tepsi]:** Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız. {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.kiskanc}
+**EYLÜL [gulen]:** Tamam, abla. {gir: eylul, kime: gizem, ekran: eylul+gizem, yuz: gizem.triko_tepsi}
+*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {gir: eylul, gi: kiskanc, kime: gizem, ekran: peri+eylul, yuz: peri.kas}
 
 ## sahne konusma
 ⚙ arka: A6 · figurler: peri, cengo · set: mesai · cset: utulu
 ⚙ akış: Eylül ve Gizem çıkmış; büroda Peri ve Cengo. Plan: Haldun Bey, apartman, atölye, Jale Hanım, anneanne, Karaköy'deki matbaacı. Sonunda Gizem iskeleden döner, telefonunda Eylül'ün mesajı (şaka 3, birinci basamak). İpucu adlarındaki kişiler (Haldun, Jale, anneanne) girişte duyuldu (K18).
 
-*Kapı kapanıyor. Peri Cengo'ya dönüyor.*
-**PERİ [kas]:** Büyük dedektif, ha? {kime: cengo}
-**CENGO [kas]:** Paravan Dedektiflik'in bordrosundayım. Yalan değil. {kime: peri}
-**PERİ [kas]:** Yedi yıl maaş aldın, bir tane dosya açmadın.
-**CENGO [gulen]:** Eylül benim ilk dosyam.
-**PERİ [merakli]:** Bir kızın olduğunu bana neden hiç söylemedin, Cengo?
-**CENGO [yumusak]:** Söyleyecek bir şey yoktu. Uzaktan bakıyorum, o kadar. Hadi işe dönelim.
-**PERİ [normal]:** Önce Haldun Bey'le konuşalım. Düğünün tarihi ne zaman konuşulmuş, mektuplar ne zaman başlamış, öğrenelim.
-**CENGO [normal]:** Apartmana da gideriz. Kapıcılar her şeyi görür.
-**PERİ [normal]:** Gelinliğin dikildiği atölyeye gidelim; üçüncü mektup orada çıktı. Jale Hanım'ı da bulalım.
-**CENGO [kas]:** Eylül'ün anneannesine de uğrarız. Börekleri iyidir, hâlâ tadı damağımda.
-**CENGO [normal]:** Mektupları da Karaköy'deki eski ustama gösteririm. Matbaacıdır; kâğıttan anlar.
-*Gizem içeri giriyor; elinde telefonu.* {gir: gizem, gi: triko_telefon}
-**GİZEM [triko_telefon]:** Eylül vapurdan yazdı: "Babam bugün yemek yedi mi?" {gir: gizem, kime: cengo}
-**CENGO [yumusak]:** Yedim. Simit yedim. {kime: gizem}
-**GİZEM [triko_telefon]:** Bir de şunu yazmış: "O kadın hâlâ babamın yanında mı?" {kime: cengo}
-**PERİ [kas]:** "O kadın" kim? {kime: gizem}
-**GİZEM [triko_telefon]:** Sensin, tatlım. *(yazarak)* "Yanında. Ama ben de buradayım." {kime: peri}
-**PERİ [kas]:** Harika. On altı yaşında bir kız beni kıskanıyor. {kime: gizem}
-**CENGO [gulen]:** Seni ilk kez biri sevmedi, Peri. Alışırsın. {kime: peri}
+*Kapı kapanıyor. Peri Cengo'ya dönüyor.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
+**PERİ [kas]:** Büyük dedektif, ha? {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
+**CENGO [kas]:** Paravan Dedektiflik'in bordrosundayım. Yalan değil. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**PERİ [kas]:** Yedi yıl maaş aldın, bir tane dosya açmadın. {ekran: peri+cengo, yuz: cengo.kas}
+**CENGO [gulen]:** Eylül benim ilk dosyam. {ekran: peri+cengo, yuz: peri.kas}
+**PERİ [merakli]:** Bir kızın olduğunu bana neden hiç söylemedin, Cengo? {ekran: peri+cengo, yuz: cengo.gulen}
+**CENGO [yumusak]:** Söyleyecek bir şey yoktu. Uzaktan bakıyorum, o kadar. Hadi işe dönelim. {ekran: peri+cengo, yuz: peri.merakli}
+**PERİ [normal]:** Önce Haldun Bey'le konuşalım. Düğünün tarihi ne zaman konuşulmuş, mektuplar ne zaman başlamış, öğrenelim. {ekran: peri+cengo, yuz: cengo.yumusak}
+**CENGO [normal]:** Apartmana da gideriz. Kapıcılar her şeyi görür. {ekran: peri+cengo, yuz: peri.normal}
+**PERİ [normal]:** Gelinliğin dikildiği atölyeye gidelim; üçüncü mektup orada çıktı. Jale Hanım'ı da bulalım. {ekran: peri+cengo, yuz: cengo.normal}
+**CENGO [kas]:** Eylül'ün anneannesine de uğrarız. Börekleri iyidir, hâlâ tadı damağımda. {ekran: peri+cengo, yuz: peri.normal}
+**CENGO [normal]:** Mektupları da Karaköy'deki eski ustama gösteririm. Matbaacıdır; kâğıttan anlar. {ekran: peri+cengo, yuz: peri.normal}
+*Gizem içeri giriyor; elinde telefonu.* {gir: gizem, gi: triko_telefon, ekran: gizem}
+**GİZEM [triko_telefon]:** Eylül vapurdan yazdı: "Babam bugün yemek yedi mi?" {gir: gizem, kime: cengo, ekran: cengo+gizem, yuz: cengo.normal}
+**CENGO [yumusak]:** Yedim. Simit yedim. {kime: gizem, ekran: cengo+gizem, yuz: gizem.triko_telefon}
+**GİZEM [triko_telefon]:** Bir de şunu yazmış: "O kadın hâlâ babamın yanında mı?" {kime: cengo, ekran: cengo+gizem, yuz: cengo.yumusak}
+**PERİ [kas]:** "O kadın" kim? {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_telefon}
+**GİZEM [triko_telefon]:** Sensin, tatlım. *(yazarak)* "Yanında. Ama ben de buradayım." {kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**PERİ [kas]:** Harika. On altı yaşında bir kız beni kıskanıyor. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_telefon}
+**CENGO [gulen]:** Seni ilk kez biri sevmedi, Peri. Alışırsın. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 
 ---
 
@@ -118,24 +118,24 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: tarihi ilk akşam bilenler sofradaki dört kişi ve Eylül'ün yazdığı babası — Müzeyyen ya da Cengo (Jale yok). İzmir tayini herkesi ilgilendirir.
 
 *Altunizade. Bir banka şubesinin camlı müdür odası; masada bir deste düğün davetiyesi.* {arka: A43, mekan}
-*Gri takımlı, kır şakaklı bir adam; kravatı gevşek, alnı terli.* {gir: haldun, gi: dertli}
-**HALDUN [dertli]:** Eylül'ün dediği dedektifler. Buyurun. *(Cengo'ya)* Cengo Bey… Merhaba. {gir: haldun, kime: cengo}
-**CENGO [kas]:** Merhaba, Haldun Bey. Tebrikler. Galiba. {kime: haldun}
-**HALDUN [dertli]:** Saklayacak bir şeyim yok. Olsa söylerdim. Gamze bana inanmıyor. {kime: peri}
-**PERİ [merakli]:** Düğünün tarihini ne zaman belirlediniz, Haldun Bey? {gir: haldun, kime: haldun}
-**HALDUN [normal]:** Üç hafta önce, bir pazartesi akşamı. Gamze'nin evinde, sofrada. {kime: peri}
-**HALDUN [normal]:** Sofrada dört kişiydik: Gamze, ben, Eylül ve Gamze'nin annesi Müzeyyen Hanım.
-**HALDUN [normal]:** Tarihi o akşam konuştuk, kimseye söylemedik. Davetiyeler bile geçen hafta basıldı.
-**HALDUN [dertli]:** Ertesi sabah ilk mektup kutudaydı.
-**PERİ [merakli]:** Sofradan başka duyan olabilir mi? {kime: haldun}
-**HALDUN [normal]:** Eylül tatlıdan önce kalktı, babasına mesaj yazdı. "Babam bilmeli" dedi. {kime: peri}
-**CENGO [yumusak]:** Yazdı, doğru. "Annem evleniyor, baba" diye. O gece okudum. {kime: peri}
-*Peri bir Cengo'ya, bir Haldun'a bakıyor.*
-**HALDUN [yumusak]:** İzmir'deki görevim düğünden bir hafta sonra başlıyor. Ertelersek tayini başkasına verirler. {kime: peri}
-**HALDUN [yumusak]:** Gamze'yle Eylül'e orada güzel bir hayat kurmak istiyorum. Bütün suçum bu.
-**CENGO [kas]:** Eylül'e de sordunuz mu, İzmir'de güzel mi diye? {kime: haldun}
-**HALDUN [dertli]:** Sordum. "Sorun değil" dedi. {kime: cengo}
-**PERİ [kas]:** Bu ailede herkes "sorun değil" diyor. {kime: cengo}
+*Gri takımlı, kır şakaklı bir adam; kravatı gevşek, alnı terli.* {gir: haldun, gi: dertli, ekran: haldun}
+**HALDUN [dertli]:** Eylül'ün dediği dedektifler. Buyurun. *(Cengo'ya)* Cengo Bey… Merhaba. {gir: haldun, kime: cengo, ekran: cengo+haldun, yuz: cengo.normal}
+**CENGO [kas]:** Merhaba, Haldun Bey. Tebrikler. Galiba. {kime: haldun, ekran: cengo+haldun, yuz: haldun.normal}
+**HALDUN [dertli]:** Saklayacak bir şeyim yok. Olsa söylerdim. Gamze bana inanmıyor. {kime: peri, ekran: peri+haldun, yuz: peri.normal}
+**PERİ [merakli]:** Düğünün tarihini ne zaman belirlediniz, Haldun Bey? {gir: haldun, kime: haldun, ekran: peri+haldun, yuz: haldun.normal}
+**HALDUN [normal]:** Üç hafta önce, bir pazartesi akşamı. Gamze'nin evinde, sofrada. {kime: peri, ekran: peri+haldun, yuz: peri.merakli}
+**HALDUN [normal]:** Sofrada dört kişiydik: Gamze, ben, Eylül ve Gamze'nin annesi Müzeyyen Hanım. {ekran: peri+haldun, yuz: peri.merakli}
+**HALDUN [normal]:** Tarihi o akşam konuştuk, kimseye söylemedik. Davetiyeler bile geçen hafta basıldı. {ekran: peri+haldun, yuz: peri.merakli}
+**HALDUN [dertli]:** Ertesi sabah ilk mektup kutudaydı. {ekran: peri+haldun, yuz: peri.merakli}
+**PERİ [merakli]:** Sofradan başka duyan olabilir mi? {kime: haldun, ekran: peri+haldun, yuz: haldun.normal}
+**HALDUN [normal]:** Eylül tatlıdan önce kalktı, babasına mesaj yazdı. "Babam bilmeli" dedi. {kime: peri, ekran: peri+haldun, yuz: peri.merakli}
+**CENGO [yumusak]:** Yazdı, doğru. "Annem evleniyor, baba" diye. O gece okudum. {kime: peri, ekran: peri+cengo, yuz: peri.merakli}
+*Peri bir Cengo'ya, bir Haldun'a bakıyor.* {ekran: peri+cengo, yuz: peri.merakli+cengo.yumusak}
+**HALDUN [yumusak]:** İzmir'deki görevim düğünden bir hafta sonra başlıyor. Ertelersek tayini başkasına verirler. {kime: peri, ekran: peri+haldun, yuz: peri.merakli}
+**HALDUN [yumusak]:** Gamze'yle Eylül'e orada güzel bir hayat kurmak istiyorum. Bütün suçum bu. {ekran: peri+haldun, yuz: peri.merakli}
+**CENGO [kas]:** Eylül'e de sordunuz mu, İzmir'de güzel mi diye? {kime: haldun, ekran: cengo+haldun, yuz: haldun.yumusak}
+**HALDUN [dertli]:** Sordum. "Sorun değil" dedi. {kime: cengo, ekran: cengo+haldun, yuz: cengo.kas}
+**PERİ [kas]:** Bu ailede herkes "sorun değil" diyor. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
 
 ## ipucu kapici
 ⚙ arka: A44 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -143,22 +143,22 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: bank Cengo'yu gösterir, masum açıklaması var (kızını izliyor). Postayı ilk Müzeyyen alır: masum açıklaması var (her sabahki işi). Kimse bırakanı görmedi.
 
 *Üsküdar, Doğancılar. Eski bir apartmanın kapısı. Karşı kaldırımda, bir ağacın altında yeşil bir bank.* {arka: A44, mekan}
-*Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.* {gir: recep, gi: supurge}
-**PERİ [normal]:** İyi günler. Bu apartmana gelen mektupları soracaktık. {gir: recep, kime: recep}
-*Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.* {gir: recep, gi: gulen, kime: cengo}
-**RECEP [gulen]:** Sen değil misin şu bankın adamı? {kime: cengo}
-**PERİ [sasirmis]:** Hangi bankın? {kime: recep}
-**RECEP [normal]:** Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar. {kime: peri}
-**RECEP [normal]:** Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o.
-**CENGO [yumusak]:** Benim. Cumartesileri, Eylül dershaneye çıkarken. Uzaktan bakıyorum, o kadar. {kime: peri}
-**PERİ [kas]:** *(banka bakarak)* Buradan kapı çok iyi görünüyor, Cengo. {kime: cengo}
-**PERİ [merakli]:** Mektuplar nasıl geldi, efendim? Postacı mı getirdi? {kime: recep}
-**RECEP [normal]:** Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış. {kime: peri}
-**RECEP [normal]:** Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü.
-**RECEP [normal]:** İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular.
-**CENGO [kas]:** Mektubu kutuya atanı gören olmadı mı? {kime: recep}
-**RECEP [gulen]:** Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta. {kime: cengo}
-**PERİ [kas]:** Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın. {kime: cengo}
+*Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.* {gir: recep, gi: supurge, ekran: recep}
+**PERİ [normal]:** İyi günler. Bu apartmana gelen mektupları soracaktık. {gir: recep, kime: recep, ekran: peri+recep, yuz: recep.supurge}
+*Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.* {gir: recep, gi: gulen, kime: cengo, ekran: cengo+recep, yuz: cengo.normal}
+**RECEP [gulen]:** Sen değil misin şu bankın adamı? {kime: cengo, ekran: cengo+recep, yuz: cengo.normal}
+**PERİ [sasirmis]:** Hangi bankın? {kime: recep, ekran: peri+recep, yuz: recep.gulen}
+**RECEP [normal]:** Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar. {kime: peri, ekran: peri+recep, yuz: peri.normal}
+**RECEP [normal]:** Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o. {ekran: peri+recep, yuz: peri.normal}
+**CENGO [yumusak]:** Benim. Cumartesileri, Eylül dershaneye çıkarken. Uzaktan bakıyorum, o kadar. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
+**PERİ [kas]:** *(banka bakarak)* Buradan kapı çok iyi görünüyor, Cengo. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
+**PERİ [merakli]:** Mektuplar nasıl geldi, efendim? Postacı mı getirdi? {kime: recep, ekran: peri+recep, yuz: recep.normal}
+**RECEP [normal]:** Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış. {kime: peri, ekran: peri+recep, yuz: peri.merakli}
+**RECEP [normal]:** Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü. {ekran: peri+recep, yuz: peri.merakli}
+**RECEP [normal]:** İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular. {ekran: peri+recep, yuz: peri.merakli}
+**CENGO [kas]:** Mektubu kutuya atanı gören olmadı mı? {kime: recep, ekran: cengo+recep, yuz: recep.normal}
+**RECEP [gulen]:** Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta. {kime: cengo, ekran: cengo+recep, yuz: cengo.kas}
+**PERİ [kas]:** Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
 
 ## ipucu kalfa
 ⚙ arka: A45 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -166,22 +166,22 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: torbayı yalnız iki kişi tuttu: atölyenin sahibi Jale ve gelinin annesi Müzeyyen. Cengo provada yoktu.
 
 *Kadıköy, Bahariye. Vitrininde beyaz tüller asılı dar bir gelinlik atölyesi.* {arka: A45, mekan}
-*İçeride mankenler, askılarda gelinlikler. Boynunda mezura, ağzında toplu iğneler olan genç bir kalfa.* {gir: dilek, gi: normal}
-*Kalfa Peri'yi görünce ağzındaki iğneleri yere düşürüyor.* {gir: dilek, gi: heyecanli}
-**DİLEK [heyecanli]:** Siz Peri Hanım'sınız! Güzellik kraliçesi! Annemle sizi televizyonda izlerdik! {kime: peri}
-**PERİ [kas]:** Eskiden, canım. Şimdi dedektifim. Geçen cumartesiki provayı soracağız. {kime: dilek}
-**DİLEK [normal]:** Gamze Hanım'ın provası. Torbadan mektup çıktı diye ağladı, kadıncağız. {kime: peri}
-**PERİ [merakli]:** Gelinliği torbaya kim koydu? Gelin o sırada neredeydi? {kime: dilek}
-**DİLEK [normal]:** Gelin kabindeydi, perdenin arkasında üstünü değiştiriyordu. {kime: peri}
-**DİLEK [normal]:** Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu.
-**DİLEK [normal]:** Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi.
-**CENGO [kas]:** Sen neredeydin? {kime: dilek}
-**DİLEK [normal]:** Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm. {kime: cengo}
-**PERİ [merakli]:** Patronunuz kim? {kime: dilek}
-**DİLEK [normal]:** Jale Hanım. Atölyeyi alalı altı ay oldu. {kime: peri}
-**PERİ [sasirmis]:** Jale Hanım mı? Haldun Bey'in eski eşi? {kime: dilek}
-**DİLEK [heyecanli]:** Ay! Bilmiyordum! Gelin de bilmiyordur herhalde. {kime: peri}
-**CENGO [gulen]:** Bu düğünde bilenler bilmeyenlerden az. {kime: peri}
+*İçeride mankenler, askılarda gelinlikler. Boynunda mezura, ağzında toplu iğneler olan genç bir kalfa.* {gir: dilek, gi: normal, ekran: dilek}
+*Kalfa Peri'yi görünce ağzındaki iğneleri yere düşürüyor.* {gir: dilek, gi: heyecanli, ekran: peri+dilek, yuz: peri.normal}
+**DİLEK [heyecanli]:** Siz Peri Hanım'sınız! Güzellik kraliçesi! Annemle sizi televizyonda izlerdik! {kime: peri, ekran: peri+dilek, yuz: peri.normal}
+**PERİ [kas]:** Eskiden, canım. Şimdi dedektifim. Geçen cumartesiki provayı soracağız. {kime: dilek, ekran: peri+dilek, yuz: dilek.heyecanli}
+**DİLEK [normal]:** Gamze Hanım'ın provası. Torbadan mektup çıktı diye ağladı, kadıncağız. {kime: peri, ekran: peri+dilek, yuz: peri.kas}
+**PERİ [merakli]:** Gelinliği torbaya kim koydu? Gelin o sırada neredeydi? {kime: dilek, ekran: peri+dilek, yuz: dilek.normal}
+**DİLEK [normal]:** Gelin kabindeydi, perdenin arkasında üstünü değiştiriyordu. {kime: peri, ekran: peri+dilek, yuz: peri.merakli}
+**DİLEK [normal]:** Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu. {ekran: peri+dilek, yuz: peri.merakli}
+**DİLEK [normal]:** Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi. {ekran: peri+dilek, yuz: peri.merakli}
+**CENGO [kas]:** Sen neredeydin? {kime: dilek, ekran: cengo+dilek, yuz: dilek.normal}
+**DİLEK [normal]:** Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm. {kime: cengo, ekran: cengo+dilek, yuz: cengo.kas}
+**PERİ [merakli]:** Patronunuz kim? {kime: dilek, ekran: peri+dilek, yuz: dilek.normal}
+**DİLEK [normal]:** Jale Hanım. Atölyeyi alalı altı ay oldu. {kime: peri, ekran: peri+dilek, yuz: peri.merakli}
+**PERİ [sasirmis]:** Jale Hanım mı? Haldun Bey'in eski eşi? {kime: dilek, ekran: peri+dilek, yuz: dilek.normal}
+**DİLEK [heyecanli]:** Ay! Bilmiyordum! Gelin de bilmiyordur herhalde. {kime: peri, ekran: peri+dilek, yuz: peri.normal}
+**CENGO [gulen]:** Bu düğünde bilenler bilmeyenlerden az. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 
 ## ipucu jale
 ⚙ arka: A46 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -189,24 +189,24 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: Jale tarihi sipariş günü (ilk mektuptan üç gün sonra) öğrendi — tarihi ilk akşam bilen Müzeyyen ya da Cengo. Atölyenin sırrı Jale'yi şüpheli gösterir, masum açıklaması var (borç).
 
 *Fenerbahçe. Denize bakan bir çay bahçesi; masalarda ince belli bardaklar.* {arka: A46, mekan}
-*Kısa kızıl saçlı, sade siyah elbiseli bir kadın; bileğinde bir iğnelik, önünde bir çay.* {gir: jale, gi: soguk}
-**JALE [soguk]:** Haldun mu gönderdi sizi? Mektupları ben yazdım sanıyor, değil mi? {gir: jale, kime: peri}
-**PERİ [normal]:** Kimse bir şey sanmıyor, Jale Hanım. Soruyoruz. Gelin Gamze Hanım'ı tanıyor musunuz? {kime: jale}
-*Jale çay bardağını tabağının içinde çeviriyor; Peri'nin gözüne bakmıyor.* {gir: jale, gi: kacamak}
-**JALE [kacamak]:** Tanımam. Hiç görmedim. {kime: peri}
-**PERİ [kas]:** Yalan söylerken bardağı çeviriyorsunuz, Jale Hanım. {kime: jale}
-**JALE [kacamak]:** …Tanıyorum. Gelinliği ben dikiyorum. Bahariye'deki atölyeyi daha altı ay önce aldım. {kime: peri}
-**JALE [kacamak]:** Kader işte, hepimizi bir araya getirdi.
-**JALE [soguk]:** Sipariş vermeye geldiğinde tanıdım: Haldun'un nişanlısı. Sustum. Atölye borçta; bu siparişe ihtiyacım vardı.
-**JALE [soguk]:** Gamze gelinliğini kimin diktiğini bilmiyor. Öğrenirse bırakır gider, ben de batarım.
-**PERİ [merakli]:** Düğünün tarihini ne zaman öğrendiniz? {kime: jale}
-**JALE [normal]:** Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze "beş hafta sonra cumartesi" dedi. {kime: peri}
-**PERİ [kas]:** İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş. {kime: cengo}
-**JALE [soguk]:** Haldun'la iki yıldır konuşmuyoruz. Tarihi ondan duymadım, kimseden duymadım. {kime: peri}
-**CENGO [kas]:** Boşanırken Haldun Bey'e "seni rahat bırakmam" demişsiniz. {kime: jale}
-**JALE [ofkeli]:** Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum. {kime: cengo}
-**JALE [ofkeli]:** Kader bana Haldun'un eşinin gelinliğini de diktirdi.
-**CENGO [gulen]:** Bu çay bahçesinde herkes bir şey saklıyor. Ben de simit sakladım, cebimde. {kime: peri}
+*Kısa kızıl saçlı, sade siyah elbiseli bir kadın; bileğinde bir iğnelik, önünde bir çay.* {gir: jale, gi: soguk, ekran: jale}
+**JALE [soguk]:** Haldun mu gönderdi sizi? Mektupları ben yazdım sanıyor, değil mi? {gir: jale, kime: peri, ekran: peri+jale, yuz: peri.normal}
+**PERİ [normal]:** Kimse bir şey sanmıyor, Jale Hanım. Soruyoruz. Gelin Gamze Hanım'ı tanıyor musunuz? {kime: jale, ekran: peri+jale, yuz: jale.soguk}
+*Jale çay bardağını tabağının içinde çeviriyor; Peri'nin gözüne bakmıyor.* {gir: jale, gi: kacamak, ekran: peri+jale, yuz: peri.normal}
+**JALE [kacamak]:** Tanımam. Hiç görmedim. {kime: peri, ekran: peri+jale, yuz: peri.normal}
+**PERİ [kas]:** Yalan söylerken bardağı çeviriyorsunuz, Jale Hanım. {kime: jale, ekran: peri+jale, yuz: jale.kacamak}
+**JALE [kacamak]:** …Tanıyorum. Gelinliği ben dikiyorum. Bahariye'deki atölyeyi daha altı ay önce aldım. {kime: peri, ekran: peri+jale, yuz: peri.kas}
+**JALE [kacamak]:** Kader işte, hepimizi bir araya getirdi. {ekran: peri+jale, yuz: peri.kas}
+**JALE [soguk]:** Sipariş vermeye geldiğinde tanıdım: Haldun'un nişanlısı. Sustum. Atölye borçta; bu siparişe ihtiyacım vardı. {ekran: peri+jale, yuz: peri.kas}
+**JALE [soguk]:** Gamze gelinliğini kimin diktiğini bilmiyor. Öğrenirse bırakır gider, ben de batarım. {ekran: peri+jale, yuz: peri.kas}
+**PERİ [merakli]:** Düğünün tarihini ne zaman öğrendiniz? {kime: jale, ekran: peri+jale, yuz: jale.soguk}
+**JALE [normal]:** Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze "beş hafta sonra cumartesi" dedi. {kime: peri, ekran: peri+jale, yuz: peri.merakli}
+**PERİ [kas]:** İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
+**JALE [soguk]:** Haldun'la iki yıldır konuşmuyoruz. Tarihi ondan duymadım, kimseden duymadım. {kime: peri, ekran: peri+jale, yuz: peri.kas}
+**CENGO [kas]:** Boşanırken Haldun Bey'e "seni rahat bırakmam" demişsiniz. {kime: jale, ekran: cengo+jale, yuz: jale.soguk}
+**JALE [ofkeli]:** Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum. {kime: cengo, ekran: cengo+jale, yuz: cengo.kas}
+**JALE [ofkeli]:** Kader bana Haldun'un eşinin gelinliğini de diktirdi. {ekran: cengo+jale, yuz: cengo.kas}
+**CENGO [gulen]:** Bu çay bahçesinde herkes bir şey saklıyor. Ben de simit sakladım, cebimde. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 
 ## ipucu anneanne
 ⚙ arka: A47 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -214,24 +214,24 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: mektuptaki söz Jale'nin sözü (yanıltır). Müzeyyen'i gösteren bilgi yok: terziliği yalnız F'de söylenir; salonda dikişe dair hiçbir şey görünmez (Nurcan, görsel).
 
 *Üsküdar. Apartmanın üst katında bir salon: masalarda dantel örtüler, vitrinde porselen fincanlar.* {arka: A47, mekan}
-*Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.* {gir: muzeyyen, gi: tepsi}
-**MÜZEYYEN [tepsi]:** Cengo! Oğlum! Gel, gel; börek yeni çıktı. {gir: muzeyyen, kime: cengo}
-**CENGO [gulen]:** Müzeyyen anne. Ellerine sağlık. {kime: muzeyyen}
-**MÜZEYYEN [tepsi]:** Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi. {kime: cengo}
-**PERİ [kas]:** Peri. Ortağıyım. Sadece ortağı. {kime: muzeyyen}
-**MÜZEYYEN [tepsi]:** Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu. {kime: peri}
-**MÜZEYYEN [tepsi]:** Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim.
-**MÜZEYYEN [tepsi]:** Ama şimdi keşke o güzel günlere geri dönsek.
-**PERİ [kas]:** On sekizinde, Cengo? Ben on sekizimde taç takıyordum. {kime: cengo}
-**CENGO [kas]:** Ben de bebek bezi bağlıyordum. İkisi de zor iş. {kime: peri}
-**PERİ [merakli]:** Mektupları siz de gördünüz mü, Müzeyyen Hanım? {gir: muzeyyen, kime: muzeyyen}
-**MÜZEYYEN [tepsi_uzgun]:** Gördüm. Kızım ağlıyor, ben ağlıyorum. Ama bir sözüne takıldım. {kime: peri}
-**MÜZEYYEN [tepsi_uzgun]:** Mektupta "herkes öğrenir" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş.
-**MÜZEYYEN [tepsi]:** "Herkes öğrenecek" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın.
-**CENGO [borek]:** *(ağzı börekle dolu)* Jale Hanım'ı tanır mısın, Müzeyyen anne? {kime: muzeyyen}
-**MÜZEYYEN [tepsi]:** Hiç görmedim. Görmek de istemem. {kime: cengo}
-**PERİ [kas]:** Cengo, gömleğine börek döküyorsun. {kime: cengo}
-**CENGO [borek]:** Dökmüyorum. Havada yakalıyorum. {kime: peri}
+*Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.* {gir: muzeyyen, gi: tepsi, ekran: muzeyyen}
+**MÜZEYYEN [tepsi]:** Cengo! Oğlum! Gel, gel; börek yeni çıktı. {gir: muzeyyen, kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
+**CENGO [gulen]:** Müzeyyen anne. Ellerine sağlık. {kime: muzeyyen, ekran: cengo+muzeyyen, yuz: muzeyyen.tepsi}
+**MÜZEYYEN [tepsi]:** Bu hanım kim? Eylül anlattı: "Babamın yanında çok güzel bir kadın var" dedi. {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.gulen}
+**PERİ [kas]:** Peri. Ortağıyım. Sadece ortağı. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.tepsi}
+**MÜZEYYEN [tepsi]:** Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu. {kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [tepsi]:** Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim. {ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [tepsi]:** Ama şimdi keşke o güzel günlere geri dönsek. {ekran: peri+muzeyyen, yuz: peri.kas}
+**PERİ [kas]:** On sekizinde, Cengo? Ben on sekizimde taç takıyordum. {kime: cengo, ekran: peri+cengo, yuz: cengo.gulen}
+**CENGO [kas]:** Ben de bebek bezi bağlıyordum. İkisi de zor iş. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**PERİ [merakli]:** Mektupları siz de gördünüz mü, Müzeyyen Hanım? {gir: muzeyyen, kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.tepsi}
+**MÜZEYYEN [tepsi_uzgun]:** Gördüm. Kızım ağlıyor, ben ağlıyorum. Ama bir sözüne takıldım. {kime: peri, ekran: peri+muzeyyen, yuz: peri.merakli}
+**MÜZEYYEN [tepsi_uzgun]:** Mektupta "herkes öğrenir" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş. {ekran: peri+muzeyyen, yuz: peri.merakli}
+**MÜZEYYEN [tepsi]:** "Herkes öğrenecek" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın. {ekran: peri+muzeyyen, yuz: peri.merakli}
+**CENGO [borek]:** *(ağzı börekle dolu)* Jale Hanım'ı tanır mısın, Müzeyyen anne? {kime: muzeyyen, ekran: cengo+muzeyyen, yuz: muzeyyen.tepsi}
+**MÜZEYYEN [tepsi]:** Hiç görmedim. Görmek de istemem. {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.borek}
+**PERİ [kas]:** Cengo, gömleğine börek döküyorsun. {kime: cengo, ekran: peri+cengo, yuz: cengo.borek}
+**CENGO [borek]:** Dökmüyorum. Havada yakalıyorum. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 
 ## ipucu matbaa
 ⚙ arka: A48 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -239,23 +239,23 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: kalıp kâğıdı terzide ve gelinlikçide olur — Müzeyyen (terzi; Cengo söyler) ya da Jale (gelinlik atölyesi; girişte).
 
 *Karaköy. Mürekkep kokan küçük bir matbaa; köşede eski bir baskı makinesi.* {arka: A48, mekan}
-*Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.* {gir: tahsin, gi: gulen}
-**TAHSİN [gulen]:** Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun? {gir: tahsin, kime: cengo}
-**CENGO [kas]:** Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak. {kime: tahsin}
-**TAHSİN [gulen]:** On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu. {kime: peri}
-**PERİ [kas]:** Bizim büronun camındaki yazı da ters okunuyor. Demek ondan. {kime: cengo}
+*Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.* {gir: tahsin, gi: gulen, ekran: tahsin}
+**TAHSİN [gulen]:** Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun? {gir: tahsin, kime: cengo, ekran: cengo+tahsin, yuz: cengo.normal}
+**CENGO [kas]:** Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak. {kime: tahsin, ekran: cengo+tahsin, yuz: tahsin.normal}
+**TAHSİN [gulen]:** On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu. {kime: peri, ekran: peri+tahsin, yuz: peri.normal}
+**PERİ [kas]:** Bizim büronun camındaki yazı da ters okunuyor. Demek ondan. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
 *Tahsin mektubu ışığa tutuyor; kâğıdın içinde ince, noktalı çizgiler beliriyor.* {kare: D20}
 **TAHSİN [normal]:** Bu kâğıt kırtasiyede satılmaz. Kalıp kâğıdı bu: ince, noktalı. {kare: D20}
-**TAHSİN [normal]:** Terziler kullanır, gelinlikçiler kullanır. Elbisenin kalıbını bunun üstüne çizerler. {gir: tahsin, kime: peri}
-**CENGO [normal]:** Müzeyyen anne yıllarca terzilik yaptı. Gamze'nin bütün elbiselerini o dikerdi. {kime: peri}
-**PERİ [merakli]:** Jale Hanım'ın da gelinlik atölyesi var, Cengo. {kime: cengo}
-*Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.* {gir: gizem, gi: triko_tepsi_telefon}
-**GİZEM [triko_tepsi_telefon]:** Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı. {gir: gizem, kime: peri}
-**GİZEM [triko_tepsi_telefon]:** "Babam o kadınla gezmeye mi gitti?" diyor.
-**PERİ [kas]:** İşe gittik. Öyle yaz. {kime: gizem}
-**GİZEM [triko_tepsi_telefon]:** *(yazarak)* "Gezmeye gitti. Ama ben de gittim." {kime: peri}
-**PERİ [kas]:** Ama bu yalan. {kime: gizem}
-**GİZEM [triko_tepsi_telefon]:** Şimdi geldim ya, tatlım. Doğru oldu. {kime: peri}
+**TAHSİN [normal]:** Terziler kullanır, gelinlikçiler kullanır. Elbisenin kalıbını bunun üstüne çizerler. {gir: tahsin, kime: peri, ekran: peri+tahsin, yuz: peri.kas}
+**CENGO [normal]:** Müzeyyen anne yıllarca terzilik yaptı. Gamze'nin bütün elbiselerini o dikerdi. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**PERİ [merakli]:** Jale Hanım'ın da gelinlik atölyesi var, Cengo. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
+*Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.* {gir: gizem, gi: triko_tepsi_telefon, ekran: gizem}
+**GİZEM [triko_tepsi_telefon]:** Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.merakli}
+**GİZEM [triko_tepsi_telefon]:** "Babam o kadınla gezmeye mi gitti?" diyor. {ekran: peri+gizem, yuz: peri.merakli}
+**PERİ [kas]:** İşe gittik. Öyle yaz. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi_telefon}
+**GİZEM [triko_tepsi_telefon]:** *(yazarak)* "Gezmeye gitti. Ama ben de gittim." {kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**PERİ [kas]:** Ama bu yalan. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi_telefon}
+**GİZEM [triko_tepsi_telefon]:** Şimdi geldim ya, tatlım. Doğru oldu. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
 
 ---
 
@@ -265,15 +265,15 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Oyuncu hangi doğru çifti seçtiyse seçsin aynı sahne; kanıtı adıyla anmaz.
 
 *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal}
-**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo}
-**PERİ [normal]:** Mektupları kim yazdı, biliyorum. Söylemeye geldim. {kime: muzeyyen}
-**PERİ [kas]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen}
-**MÜZEYYEN [gergin]:** Ben mi? Kızımın mutluluğunu en çok ben isterim… {kime: peri}
-**PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor. {kime: muzeyyen}
-*Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz}
-**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
+**PERİ [normal]:** Mektupları kim yazdı, biliyorum. Söylemeye geldim. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.normal}
+**PERİ [kas]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.normal}
+**MÜZEYYEN [gergin]:** Ben mi? Kızımın mutluluğunu en çok ben isterim… {kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
+**PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.gergin}
+*Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz, ekran: jale}
+**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
 *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
 
 ## sahne yuzlesme_zayif
@@ -281,14 +281,14 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Ortak açılış; Peri inandıramaz; Jale döner, torbayı açmak ister; Müzeyyen kaçar.
 
 *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal}
-**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo}
-**PERİ [normal]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen}
-**MÜZEYYEN [gergin]:** Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne? {kime: peri}
-**PERİ [utanmis]:** …Elimde bir şey var, ama sizi ikna edecek kadar değil. {kime: muzeyyen}
-*Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz}
-**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
+**PERİ [normal]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.normal}
+**MÜZEYYEN [gergin]:** Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne? {kime: peri, ekran: peri+muzeyyen, yuz: peri.normal}
+**PERİ [utanmis]:** …Elimde bir şey var, ama sizi ikna edecek kadar değil. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.gergin}
+*Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz, ekran: jale}
+**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
 *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
 
 ## sahne yuzlesme_cengo
@@ -296,15 +296,15 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Ortak açılış; Peri Cengo'yu suçlar, Cengo kendini savunur (bank); Müzeyyen başını çevirir; Jale döner, torbayı açmak ister; Müzeyyen kaçar.
 
 *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal}
-**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo}
-**PERİ [kas]:** Cengo. Mektupları sen yazdın. {kime: cengo}
-**CENGO [sinirli]:** Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım. {kime: peri}
-**CENGO [yumusak]:** Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam.
-*Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.* {gir: muzeyyen, gi: gergin, kime: cengo}
-*Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz}
-**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
+**PERİ [kas]:** Cengo. Mektupları sen yazdın. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
+**CENGO [sinirli]:** Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**CENGO [yumusak]:** Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam. {ekran: peri+cengo, yuz: peri.kas}
+*Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.* {gir: muzeyyen, gi: gergin, kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.yumusak}
+*Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz, ekran: jale}
+**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
 *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
 
 ## sahne yuzlesme_jale
@@ -312,12 +312,12 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Ortak açılış; Peri Jale'yi arkadan çağırır; Jale kendini savunur, torbayı kendisi açmak ister; Müzeyyen torbayı kapıp kaçar.
 
 *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal}
-**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo}
-**PERİ [kas]:** Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız. {gir: jale, kime: jale}
-**JALE [ofkeli]:** Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım? {kime: peri}
-**JALE [uzaniyor]:** *(torbaya uzanarak)* Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+**MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
+**PERİ [kas]:** Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız. {gir: jale, kime: jale, ekran: peri+jale, yuz: jale.soguk}
+**JALE [ofkeli]:** Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım? {kime: peri, ekran: peri+jale, yuz: peri.kas}
+**JALE [uzaniyor]:** *(torbaya uzanarak)* Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. {ekran: peri+jale, yuz: peri.kas}
 *Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.* {cik, kare: K99j}
 
 ## sahne kovalamaca
@@ -337,24 +337,24 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Kuyruğu ben tuttum. {kare: K104}
 *Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.* {gir: muzeyyen, gi: gergin, kare: K113}
 *Kalfa atölyeden koşarak geliyor; elinde bir havlu ve tül bir şal. Şalı Peri'nin ıslak omuzlarına atıyor.* {kare: K105, set: tul}
-**DİLEK [heyecanli]:** Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı. {gir: dilek, kime: peri}
+**DİLEK [heyecanli]:** Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı. {gir: dilek, kime: peri, ekran: peri+dilek, yuz: peri.kas}
 *Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.* {gir: jale, gi: soguk, kare: K114}
 **JALE [soguk]:** Etek ıslak. Kurur. {kime: peri, kare: K114}
 **PERİ [kas]:** Ben de kururum, Jale Hanım. {kime: jale, kare: K114}
-*Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.* {cik}
-**MÜZEYYEN [itiraf]:** Tamam. Ben yazdım. Hepsini ben yazdım. {gir: muzeyyen, kime: peri}
-**MÜZEYYEN [itiraf]:** Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak.
-**MÜZEYYEN [itiraf]:** Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo. {kime: cengo}
-**MÜZEYYEN [itiraf]:** Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum.
-**MÜZEYYEN [itiraf]:** Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim.
-**MÜZEYYEN [itiraf]:** Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum. {kime: peri}
-**MÜZEYYEN [itiraf]:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum.
-**MÜZEYYEN [itiraf]:** "Herkes öğrenir" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok.
-**MÜZEYYEN [itiraf]:** Bugün de dördüncüsünü koymuştum. Jale "açıyorum" deyince korktum.
+*Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.* {cik, ekran: peri+jale, yuz: peri.kas+jale.soguk}
+**MÜZEYYEN [itiraf]:** Tamam. Ben yazdım. Hepsini ben yazdım. {gir: muzeyyen, kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [itiraf]:** Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak. {ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [itiraf]:** Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo. {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.kas}
+**MÜZEYYEN [itiraf]:** Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum. {ekran: cengo+muzeyyen, yuz: cengo.kas}
+**MÜZEYYEN [itiraf]:** Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim. {ekran: cengo+muzeyyen, yuz: cengo.kas}
+**MÜZEYYEN [itiraf]:** Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum. {kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [itiraf]:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum. {ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [itiraf]:** "Herkes öğrenir" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok. {ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [itiraf]:** Bugün de dördüncüsünü koymuştum. Jale "açıyorum" deyince korktum. {ekran: peri+muzeyyen, yuz: peri.kas}
 *Müzeyyen hırkasının cebinden katlanmış kâğıdı çıkarıp Peri'ye uzatıyor.* {kare: D21}
-**MÜZEYYEN [itiraf]:** Eylül'ü sana ben gönderdim, Cengo. Bulamazsın sandım. {gir: muzeyyen, kime: cengo}
-**MÜZEYYEN [itiraf]:** Bir de kız babasını görsün istedim.
-**CENGO [yumusak]:** Buldum ama, Müzeyyen anne. {kime: muzeyyen}
+**MÜZEYYEN [itiraf]:** Eylül'ü sana ben gönderdim, Cengo. Bulamazsın sandım. {gir: muzeyyen, kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.kas}
+**MÜZEYYEN [itiraf]:** Bir de kız babasını görsün istedim. {ekran: cengo+muzeyyen, yuz: cengo.kas}
+**CENGO [yumusak]:** Buldum ama, Müzeyyen anne. {kime: muzeyyen, ekran: cengo+muzeyyen, yuz: muzeyyen.itiraf}
 
 ---
 
@@ -442,20 +442,20 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ arka: A8 · figurler: peri, cengo · set: tul · cset: buruk
 ⚙ akış: Büro, akşam. Peri tül şala sarınmış masada, saçında bir gül yaprağı. Cengo masanın kenarında, gömleği buruşuk. Gizem çay getirir, Eylül'ün mesajını okur (şaka 3, üçüncü basamak; her kararda aynı: cumartesi düğünden önce, Eylül yazanı bilmiyor). Bağın iki hâli (kural 12a, eşik +1).
 
-*Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.*
-*Gizem elinde çay tepsisi ve telefonuyla geliyor.* {gir: gizem, gi: triko_tepsi_telefon}
-**GİZEM [triko_tepsi_telefon]:** Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım." {gir: gizem, kime: cengo}
+*Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
+*Gizem elinde çay tepsisi ve telefonuyla geliyor.* {gir: gizem, gi: triko_tepsi_telefon, ekran: gizem}
+**GİZEM [triko_tepsi_telefon]:** Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım." {gir: gizem, kime: cengo, ekran: cengo+gizem, yuz: cengo.normal}
 *Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.* {kare: K110}
-**GİZEM [triko_tepsi_telefon]:** Bir de şunu yazmış: "O kadın gelmesin." {gir: gizem, kime: peri}
-**PERİ [kas]:** Ben bir şey demedim ki. {kime: gizem}
-**PERİ [normal]:** Neden söylemedin, Cengo? Bir kızın olduğunu. {bag: dusuk, kime: cengo}
-**CENGO [normal]:** Sen de hiç sormadın, Peri. {bag: dusuk, kime: peri}
+**GİZEM [triko_tepsi_telefon]:** Bir de şunu yazmış: "O kadın gelmesin." {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**PERİ [kas]:** Ben bir şey demedim ki. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi_telefon}
+**PERİ [normal]:** Neden söylemedin, Cengo? Bir kızın olduğunu. {bag: dusuk, kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
+**CENGO [normal]:** Sen de hiç sormadın, Peri. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.normal}
 *Cengo ceketini alıp çıkıyor. Peri saçındaki gül yaprağını çöpe atıyor.* {bag: dusuk, kare: K111}
 *Peri saçındaki gül yaprağını alıp Cengo'ya uzatıyor.* {bag: yuksek, kare: K112}
 **PERİ [yumusak]:** Cengo, ben… {bag: yuksek, kime: cengo, kare: K112}
 **PERİ [yumusak]:** …gömleğin çok güzel ütülenmişti. {bag: yuksek, kime: cengo, kare: K112}
 **CENGO [yumusak]:** *(yaprağı gömleğinin cebine koyarak)* Kızım için. {bag: yuksek, kime: peri, kare: K112}
-**GİZEM [triko_tepsi_telefon]:** Hıh. {bag: yuksek, gir: gizem, kime: peri}
+**GİZEM [triko_tepsi_telefon]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
 
 ---
 

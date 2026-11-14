@@ -5483,74 +5483,141 @@
                 "k": "not",
                 "m": "Gri takımlı, kır şakaklı bir adam; kravatı gevşek, alnı terli.",
                 "gir": "haldun",
-                "gi": "dertli"
+                "gi": "dertli",
+                "ekran": "haldun"
               },
               {
                 "k": "haldun",
                 "i": "dertli",
                 "m": "Eylül'ün dediği dedektifler. Buyurun. (Cengo'ya) Cengo Bey… Merhaba.",
                 "gir": "haldun",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+haldun",
+                "yuz": "cengo.normal"
               },
-              {"k": "cengo", "i": "kas", "m": "Merhaba, Haldun Bey. Tebrikler. Galiba.", "kime": "haldun"},
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Merhaba, Haldun Bey. Tebrikler. Galiba.",
+                "kime": "haldun",
+                "ekran": "cengo+haldun",
+                "yuz": "haldun.normal"
+              },
               {
                 "k": "haldun",
                 "i": "dertli",
                 "m": "Saklayacak bir şeyim yok. Olsa söylerdim. Gamze bana inanmıyor.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+haldun",
+                "yuz": "peri.normal"
               },
               {
                 "k": "peri",
                 "i": "merakli",
                 "m": "Düğünün tarihini ne zaman belirlediniz, Haldun Bey?",
                 "gir": "haldun",
-                "kime": "haldun"
+                "kime": "haldun",
+                "ekran": "peri+haldun",
+                "yuz": "haldun.normal"
               },
               {
                 "k": "haldun",
                 "i": "normal",
                 "m": "Üç hafta önce, bir pazartesi akşamı. Gamze'nin evinde, sofrada.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "haldun",
                 "i": "normal",
-                "m": "Sofrada dört kişiydik: Gamze, ben, Eylül ve Gamze'nin annesi Müzeyyen Hanım."
+                "m": "Sofrada dört kişiydik: Gamze, ben, Eylül ve Gamze'nin annesi Müzeyyen Hanım.",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "haldun",
                 "i": "normal",
-                "m": "Tarihi o akşam konuştuk, kimseye söylemedik. Davetiyeler bile geçen hafta basıldı."
+                "m": "Tarihi o akşam konuştuk, kimseye söylemedik. Davetiyeler bile geçen hafta basıldı.",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
               },
-              {"k": "haldun", "i": "dertli", "m": "Ertesi sabah ilk mektup kutudaydı."},
-              {"k": "peri", "i": "merakli", "m": "Sofradan başka duyan olabilir mi?", "kime": "haldun"},
+              {
+                "k": "haldun",
+                "i": "dertli",
+                "m": "Ertesi sabah ilk mektup kutudaydı.",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Sofradan başka duyan olabilir mi?",
+                "kime": "haldun",
+                "ekran": "peri+haldun",
+                "yuz": "haldun.normal"
+              },
               {
                 "k": "haldun",
                 "i": "normal",
                 "m": "Eylül tatlıdan önce kalktı, babasına mesaj yazdı. \"Babam bilmeli\" dedi.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "cengo",
                 "i": "yumusak",
                 "m": "Yazdı, doğru. \"Annem evleniyor, baba\" diye. O gece okudum.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.merakli"
               },
-              {"k": "not", "m": "Peri bir Cengo'ya, bir Haldun'a bakıyor."},
+              {
+                "k": "not",
+                "m": "Peri bir Cengo'ya, bir Haldun'a bakıyor.",
+                "ekran": "peri+cengo",
+                "yuz": "peri.merakli+cengo.yumusak"
+              },
               {
                 "k": "haldun",
                 "i": "yumusak",
                 "m": "İzmir'deki görevim düğünden bir hafta sonra başlıyor. Ertelersek tayini başkasına verirler.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "haldun",
                 "i": "yumusak",
-                "m": "Gamze'yle Eylül'e orada güzel bir hayat kurmak istiyorum. Bütün suçum bu."
+                "m": "Gamze'yle Eylül'e orada güzel bir hayat kurmak istiyorum. Bütün suçum bu.",
+                "ekran": "peri+haldun",
+                "yuz": "peri.merakli"
               },
-              {"k": "cengo", "i": "kas", "m": "Eylül'e de sordunuz mu, İzmir'de güzel mi diye?", "kime": "haldun"},
-              {"k": "haldun", "i": "dertli", "m": "Sordum. \"Sorun değil\" dedi.", "kime": "cengo"},
-              {"k": "peri", "i": "kas", "m": "Bu ailede herkes \"sorun değil\" diyor.", "kime": "cengo"}
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Eylül'e de sordunuz mu, İzmir'de güzel mi diye?",
+                "kime": "haldun",
+                "ekran": "cengo+haldun",
+                "yuz": "haldun.yumusak"
+              },
+              {
+                "k": "haldun",
+                "i": "dertli",
+                "m": "Sordum. \"Sorun değil\" dedi.",
+                "kime": "cengo",
+                "ekran": "cengo+haldun",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Bu ailede herkes \"sorun değil\" diyor.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.kas"
+              }
             ]
           }
         },
@@ -5579,66 +5646,127 @@
                 "k": "not",
                 "m": "Yün yelekli yaşlı bir kapıcı, elinde süpürge, kapının önünü süpürüyor.",
                 "gir": "recep",
-                "gi": "supurge"
+                "gi": "supurge",
+                "ekran": "recep"
               },
               {
                 "k": "peri",
                 "i": "normal",
                 "m": "İyi günler. Bu apartmana gelen mektupları soracaktık.",
                 "gir": "recep",
-                "kime": "recep"
+                "kime": "recep",
+                "ekran": "peri+recep",
+                "yuz": "recep.supurge"
               },
               {
                 "k": "not",
                 "m": "Kapıcı Cengo'yu görünce süpürgeyi duvara dayıyor.",
                 "gir": "recep",
                 "gi": "gulen",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+recep",
+                "yuz": "cengo.normal"
               },
-              {"k": "recep", "i": "gulen", "m": "Sen değil misin şu bankın adamı?", "kime": "cengo"},
-              {"k": "peri", "i": "sasirmis", "m": "Hangi bankın?", "kime": "recep"},
+              {
+                "k": "recep",
+                "i": "gulen",
+                "m": "Sen değil misin şu bankın adamı?",
+                "kime": "cengo",
+                "ekran": "cengo+recep",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "peri",
+                "i": "sasirmis",
+                "m": "Hangi bankın?",
+                "kime": "recep",
+                "ekran": "peri+recep",
+                "yuz": "recep.gulen"
+              },
               {
                 "k": "recep",
                 "i": "normal",
                 "m": "Şu karşıdaki bankın. Kasketli bir adam aylardır her cumartesi sabahı orada oturur, bu kapıya bakar.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+recep",
+                "yuz": "peri.normal"
               },
               {
                 "k": "recep",
                 "i": "normal",
-                "m": "Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o."
+                "m": "Eylül kızımız dershaneye çıkınca o da kalkar gider. Bugün kasketi yok, gömlek giymiş; ama bu o.",
+                "ekran": "peri+recep",
+                "yuz": "peri.normal"
               },
               {
                 "k": "cengo",
                 "i": "yumusak",
                 "m": "Benim. Cumartesileri, Eylül dershaneye çıkarken. Uzaktan bakıyorum, o kadar.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.normal"
               },
-              {"k": "peri", "i": "kas", "m": "(banka bakarak) Buradan kapı çok iyi görünüyor, Cengo.", "kime": "cengo"},
-              {"k": "peri", "i": "merakli", "m": "Mektuplar nasıl geldi, efendim? Postacı mı getirdi?", "kime": "recep"},
-              {"k": "recep", "i": "normal", "m": "Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış.", "kime": "peri"},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "(banka bakarak) Buradan kapı çok iyi görünüyor, Cengo.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.yumusak"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Mektuplar nasıl geldi, efendim? Postacı mı getirdi?",
+                "kime": "recep",
+                "ekran": "peri+recep",
+                "yuz": "recep.normal"
+              },
               {
                 "k": "recep",
                 "i": "normal",
-                "m": "Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü."
+                "m": "Postacı getirmedi. Pulsuzdu; biri elle kutuya atmış.",
+                "kime": "peri",
+                "ekran": "peri+recep",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "recep",
                 "i": "normal",
-                "m": "İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular."
+                "m": "Postayı her sabah ilk Müzeyyen Hanım alır, üst kattaki. Birincisini o buldu, Gamze Hanım'a götürdü.",
+                "ekran": "peri+recep",
+                "yuz": "peri.merakli"
               },
-              {"k": "cengo", "i": "kas", "m": "Mektubu kutuya atanı gören olmadı mı?", "kime": "recep"},
+              {
+                "k": "recep",
+                "i": "normal",
+                "m": "İkincisini ben buldum, çarşamba sabahı. Kutulara gazete koyarken. Kilitsizdir bizim kutular.",
+                "ekran": "peri+recep",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Mektubu kutuya atanı gören olmadı mı?",
+                "kime": "recep",
+                "ekran": "cengo+recep",
+                "yuz": "recep.normal"
+              },
               {
                 "k": "recep",
                 "i": "gulen",
                 "m": "Ben görmedim. Benim bu kapıda gördüğüm bir tek sensin, bankta.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+recep",
+                "yuz": "cengo.kas"
               },
               {
                 "k": "peri",
                 "i": "kas",
                 "m": "Herkes seni başka bir yerden tanıyor, Cengo. Burada da bankın adamısın.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.kas"
               }
             ]
           }
@@ -5668,62 +5796,127 @@
                 "k": "not",
                 "m": "İçeride mankenler, askılarda gelinlikler. Boynunda mezura, ağzında toplu iğneler olan genç bir kalfa.",
                 "gir": "dilek",
-                "gi": "normal"
+                "gi": "normal",
+                "ekran": "dilek"
               },
               {
                 "k": "not",
                 "m": "Kalfa Peri'yi görünce ağzındaki iğneleri yere düşürüyor.",
                 "gir": "dilek",
-                "gi": "heyecanli"
+                "gi": "heyecanli",
+                "ekran": "peri+dilek",
+                "yuz": "peri.normal"
               },
               {
                 "k": "dilek",
                 "i": "heyecanli",
                 "m": "Siz Peri Hanım'sınız! Güzellik kraliçesi! Annemle sizi televizyonda izlerdik!",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+dilek",
+                "yuz": "peri.normal"
               },
               {
                 "k": "peri",
                 "i": "kas",
                 "m": "Eskiden, canım. Şimdi dedektifim. Geçen cumartesiki provayı soracağız.",
-                "kime": "dilek"
+                "kime": "dilek",
+                "ekran": "peri+dilek",
+                "yuz": "dilek.heyecanli"
               },
               {
                 "k": "dilek",
                 "i": "normal",
                 "m": "Gamze Hanım'ın provası. Torbadan mektup çıktı diye ağladı, kadıncağız.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+dilek",
+                "yuz": "peri.kas"
               },
               {
                 "k": "peri",
                 "i": "merakli",
                 "m": "Gelinliği torbaya kim koydu? Gelin o sırada neredeydi?",
-                "kime": "dilek"
+                "kime": "dilek",
+                "ekran": "peri+dilek",
+                "yuz": "dilek.normal"
               },
               {
                 "k": "dilek",
                 "i": "normal",
                 "m": "Gelin kabindeydi, perdenin arkasında üstünü değiştiriyordu.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+dilek",
+                "yuz": "peri.merakli"
               },
-              {"k": "dilek", "i": "normal", "m": "Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu."},
               {
                 "k": "dilek",
                 "i": "normal",
-                "m": "Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi."
+                "m": "Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu.",
+                "ekran": "peri+dilek",
+                "yuz": "peri.merakli"
               },
-              {"k": "cengo", "i": "kas", "m": "Sen neredeydin?", "kime": "dilek"},
+              {
+                "k": "dilek",
+                "i": "normal",
+                "m": "Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi.",
+                "ekran": "peri+dilek",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Sen neredeydin?",
+                "kime": "dilek",
+                "ekran": "cengo+dilek",
+                "yuz": "dilek.normal"
+              },
               {
                 "k": "dilek",
                 "i": "normal",
                 "m": "Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+dilek",
+                "yuz": "cengo.kas"
               },
-              {"k": "peri", "i": "merakli", "m": "Patronunuz kim?", "kime": "dilek"},
-              {"k": "dilek", "i": "normal", "m": "Jale Hanım. Atölyeyi alalı altı ay oldu.", "kime": "peri"},
-              {"k": "peri", "i": "sasirmis", "m": "Jale Hanım mı? Haldun Bey'in eski eşi?", "kime": "dilek"},
-              {"k": "dilek", "i": "heyecanli", "m": "Ay! Bilmiyordum! Gelin de bilmiyordur herhalde.", "kime": "peri"},
-              {"k": "cengo", "i": "gulen", "m": "Bu düğünde bilenler bilmeyenlerden az.", "kime": "peri"}
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Patronunuz kim?",
+                "kime": "dilek",
+                "ekran": "peri+dilek",
+                "yuz": "dilek.normal"
+              },
+              {
+                "k": "dilek",
+                "i": "normal",
+                "m": "Jale Hanım. Atölyeyi alalı altı ay oldu.",
+                "kime": "peri",
+                "ekran": "peri+dilek",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "sasirmis",
+                "m": "Jale Hanım mı? Haldun Bey'in eski eşi?",
+                "kime": "dilek",
+                "ekran": "peri+dilek",
+                "yuz": "dilek.normal"
+              },
+              {
+                "k": "dilek",
+                "i": "heyecanli",
+                "m": "Ay! Bilmiyordum! Gelin de bilmiyordur herhalde.",
+                "kime": "peri",
+                "ekran": "peri+dilek",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Bu düğünde bilenler bilmeyenlerden az.",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.normal"
+              }
             ]
           }
         },
@@ -5752,83 +5945,141 @@
                 "k": "not",
                 "m": "Kısa kızıl saçlı, sade siyah elbiseli bir kadın; bileğinde bir iğnelik, önünde bir çay.",
                 "gir": "jale",
-                "gi": "soguk"
+                "gi": "soguk",
+                "ekran": "jale"
               },
               {
                 "k": "jale",
                 "i": "soguk",
                 "m": "Haldun mu gönderdi sizi? Mektupları ben yazdım sanıyor, değil mi?",
                 "gir": "jale",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+jale",
+                "yuz": "peri.normal"
               },
               {
                 "k": "peri",
                 "i": "normal",
                 "m": "Kimse bir şey sanmıyor, Jale Hanım. Soruyoruz. Gelin Gamze Hanım'ı tanıyor musunuz?",
-                "kime": "jale"
+                "kime": "jale",
+                "ekran": "peri+jale",
+                "yuz": "jale.soguk"
               },
               {
                 "k": "not",
                 "m": "Jale çay bardağını tabağının içinde çeviriyor; Peri'nin gözüne bakmıyor.",
                 "gir": "jale",
-                "gi": "kacamak"
+                "gi": "kacamak",
+                "ekran": "peri+jale",
+                "yuz": "peri.normal"
               },
-              {"k": "jale", "i": "kacamak", "m": "Tanımam. Hiç görmedim.", "kime": "peri"},
-              {"k": "peri", "i": "kas", "m": "Yalan söylerken bardağı çeviriyorsunuz, Jale Hanım.", "kime": "jale"},
+              {
+                "k": "jale",
+                "i": "kacamak",
+                "m": "Tanımam. Hiç görmedim.",
+                "kime": "peri",
+                "ekran": "peri+jale",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Yalan söylerken bardağı çeviriyorsunuz, Jale Hanım.",
+                "kime": "jale",
+                "ekran": "peri+jale",
+                "yuz": "jale.kacamak"
+              },
               {
                 "k": "jale",
                 "i": "kacamak",
                 "m": "…Tanıyorum. Gelinliği ben dikiyorum. Bahariye'deki atölyeyi daha altı ay önce aldım.",
-                "kime": "peri"
-              },
-              {"k": "jale", "i": "kacamak", "m": "Kader işte, hepimizi bir araya getirdi."},
-              {
-                "k": "jale",
-                "i": "soguk",
-                "m": "Sipariş vermeye geldiğinde tanıdım: Haldun'un nişanlısı. Sustum. Atölye borçta; bu siparişe ihtiyacım vardı."
+                "kime": "peri",
+                "ekran": "peri+jale",
+                "yuz": "peri.kas"
               },
               {
                 "k": "jale",
-                "i": "soguk",
-                "m": "Gamze gelinliğini kimin diktiğini bilmiyor. Öğrenirse bırakır gider, ben de batarım."
+                "i": "kacamak",
+                "m": "Kader işte, hepimizi bir araya getirdi.",
+                "ekran": "peri+jale",
+                "yuz": "peri.kas"
               },
-              {"k": "peri", "i": "merakli", "m": "Düğünün tarihini ne zaman öğrendiniz?", "kime": "jale"},
+              {
+                "k": "jale",
+                "i": "soguk",
+                "m": "Sipariş vermeye geldiğinde tanıdım: Haldun'un nişanlısı. Sustum. Atölye borçta; bu siparişe ihtiyacım vardı.",
+                "ekran": "peri+jale",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "jale",
+                "i": "soguk",
+                "m": "Gamze gelinliğini kimin diktiğini bilmiyor. Öğrenirse bırakır gider, ben de batarım.",
+                "ekran": "peri+jale",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Düğünün tarihini ne zaman öğrendiniz?",
+                "kime": "jale",
+                "ekran": "peri+jale",
+                "yuz": "jale.soguk"
+              },
               {
                 "k": "jale",
                 "i": "normal",
                 "m": "Sipariş günü. Defterimde yazıyor: üç hafta önceki cuma. Gamze \"beş hafta sonra cumartesi\" dedi.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+jale",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "peri",
                 "i": "kas",
                 "m": "İlk mektup o haftanın salı sabahı gelmiş, Cengo. Jale Hanım tarihi üç gün sonra öğrenmiş.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.normal"
               },
               {
                 "k": "jale",
                 "i": "soguk",
                 "m": "Haldun'la iki yıldır konuşmuyoruz. Tarihi ondan duymadım, kimseden duymadım.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+jale",
+                "yuz": "peri.kas"
               },
               {
                 "k": "cengo",
                 "i": "kas",
                 "m": "Boşanırken Haldun Bey'e \"seni rahat bırakmam\" demişsiniz.",
-                "kime": "jale"
+                "kime": "jale",
+                "ekran": "cengo+jale",
+                "yuz": "jale.soguk"
               },
               {
                 "k": "jale",
                 "i": "ofkeli",
                 "m": "Demişimdir. İki yıl önceydi, kızgındım. Şimdi tek derdim borcum.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+jale",
+                "yuz": "cengo.kas"
               },
-              {"k": "jale", "i": "ofkeli", "m": "Kader bana Haldun'un eşinin gelinliğini de diktirdi."},
+              {
+                "k": "jale",
+                "i": "ofkeli",
+                "m": "Kader bana Haldun'un eşinin gelinliğini de diktirdi.",
+                "ekran": "cengo+jale",
+                "yuz": "cengo.kas"
+              },
               {
                 "k": "cengo",
                 "i": "gulen",
                 "m": "Bu çay bahçesinde herkes bir şey saklıyor. Ben de simit sakladım, cebimde.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.kas"
               }
             ]
           }
@@ -5858,69 +6109,143 @@
                 "k": "not",
                 "m": "Kısa kül sarısı saçlı, ince uzun bir kadın; lacivert puantiyeli elbisesinin üstünde ince bir hırka, elinde bir tepsi börek.",
                 "gir": "muzeyyen",
-                "gi": "tepsi"
+                "gi": "tepsi",
+                "ekran": "muzeyyen"
               },
               {
                 "k": "muzeyyen",
                 "i": "tepsi",
                 "m": "Cengo! Oğlum! Gel, gel; börek yeni çıktı.",
                 "gir": "muzeyyen",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+muzeyyen",
+                "yuz": "cengo.normal"
               },
-              {"k": "cengo", "i": "gulen", "m": "Müzeyyen anne. Ellerine sağlık.", "kime": "muzeyyen"},
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Müzeyyen anne. Ellerine sağlık.",
+                "kime": "muzeyyen",
+                "ekran": "cengo+muzeyyen",
+                "yuz": "muzeyyen.tepsi"
+              },
               {
                 "k": "muzeyyen",
                 "i": "tepsi",
                 "m": "Bu hanım kim? Eylül anlattı: \"Babamın yanında çok güzel bir kadın var\" dedi.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+muzeyyen",
+                "yuz": "cengo.gulen"
               },
-              {"k": "peri", "i": "kas", "m": "Peri. Ortağıyım. Sadece ortağı.", "kime": "muzeyyen"},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Peri. Ortağıyım. Sadece ortağı.",
+                "kime": "muzeyyen",
+                "ekran": "peri+muzeyyen",
+                "yuz": "muzeyyen.tepsi"
+              },
               {
                 "k": "muzeyyen",
                 "i": "tepsi",
                 "m": "Bu oğlan on sekizinde babaydı, biliyor musunuz? Gamze'yle evlendiklerinde ikisi de çocuktu.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+muzeyyen",
+                "yuz": "peri.kas"
               },
               {
                 "k": "muzeyyen",
                 "i": "tepsi",
-                "m": "Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim."
+                "m": "Damadım olarak çok severim onu. Hâlâ da severim. Çok gençtiler; hiç istememiştim.",
+                "ekran": "peri+muzeyyen",
+                "yuz": "peri.kas"
               },
-              {"k": "muzeyyen", "i": "tepsi", "m": "Ama şimdi keşke o güzel günlere geri dönsek."},
-              {"k": "peri", "i": "kas", "m": "On sekizinde, Cengo? Ben on sekizimde taç takıyordum.", "kime": "cengo"},
-              {"k": "cengo", "i": "kas", "m": "Ben de bebek bezi bağlıyordum. İkisi de zor iş.", "kime": "peri"},
+              {
+                "k": "muzeyyen",
+                "i": "tepsi",
+                "m": "Ama şimdi keşke o güzel günlere geri dönsek.",
+                "ekran": "peri+muzeyyen",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "On sekizinde, Cengo? Ben on sekizimde taç takıyordum.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.gulen"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Ben de bebek bezi bağlıyordum. İkisi de zor iş.",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.kas"
+              },
               {
                 "k": "peri",
                 "i": "merakli",
                 "m": "Mektupları siz de gördünüz mü, Müzeyyen Hanım?",
                 "gir": "muzeyyen",
-                "kime": "muzeyyen"
+                "kime": "muzeyyen",
+                "ekran": "peri+muzeyyen",
+                "yuz": "muzeyyen.tepsi"
               },
               {
                 "k": "muzeyyen",
                 "i": "tepsi_uzgun",
                 "m": "Gördüm. Kızım ağlıyor, ben ağlıyorum. Ama bir sözüne takıldım.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+muzeyyen",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "muzeyyen",
                 "i": "tepsi_uzgun",
-                "m": "Mektupta \"herkes öğrenir\" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş."
+                "m": "Mektupta \"herkes öğrenir\" yazıyor. Gamze anlattı: o Jale denen kadın boşanırken Haldun'a aynısını demiş.",
+                "ekran": "peri+muzeyyen",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "muzeyyen",
                 "i": "tepsi",
-                "m": "\"Herkes öğrenecek\" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın."
+                "m": "\"Herkes öğrenecek\" demiş. Aynı söz. Ben bir şey demiyorum; siz bakın.",
+                "ekran": "peri+muzeyyen",
+                "yuz": "peri.merakli"
               },
               {
                 "k": "cengo",
                 "i": "borek",
                 "m": "(ağzı börekle dolu) Jale Hanım'ı tanır mısın, Müzeyyen anne?",
-                "kime": "muzeyyen"
+                "kime": "muzeyyen",
+                "ekran": "cengo+muzeyyen",
+                "yuz": "muzeyyen.tepsi"
               },
-              {"k": "muzeyyen", "i": "tepsi", "m": "Hiç görmedim. Görmek de istemem.", "kime": "cengo"},
-              {"k": "peri", "i": "kas", "m": "Cengo, gömleğine börek döküyorsun.", "kime": "cengo"},
-              {"k": "cengo", "i": "borek", "m": "Dökmüyorum. Havada yakalıyorum.", "kime": "peri"}
+              {
+                "k": "muzeyyen",
+                "i": "tepsi",
+                "m": "Hiç görmedim. Görmek de istemem.",
+                "kime": "cengo",
+                "ekran": "cengo+muzeyyen",
+                "yuz": "cengo.borek"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Cengo, gömleğine börek döküyorsun.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.borek"
+              },
+              {
+                "k": "cengo",
+                "i": "borek",
+                "m": "Dökmüyorum. Havada yakalıyorum.",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.kas"
+              }
             ]
           }
         },
@@ -5945,26 +6270,45 @@
                 "arka": "A48",
                 "mekan": true
               },
-              {"k": "not", "m": "Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.", "gir": "tahsin", "gi": "gulen"},
+              {
+                "k": "not",
+                "m": "Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.",
+                "gir": "tahsin",
+                "gi": "gulen",
+                "ekran": "tahsin"
+              },
               {
                 "k": "tahsin",
                 "i": "gulen",
                 "m": "Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun?",
                 "gir": "tahsin",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "cengo+tahsin",
+                "yuz": "cengo.normal"
               },
-              {"k": "cengo", "i": "kas", "m": "Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak.", "kime": "tahsin"},
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak.",
+                "kime": "tahsin",
+                "ekran": "cengo+tahsin",
+                "yuz": "tahsin.normal"
+              },
               {
                 "k": "tahsin",
                 "i": "gulen",
                 "m": "On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+tahsin",
+                "yuz": "peri.normal"
               },
               {
                 "k": "peri",
                 "i": "kas",
                 "m": "Bizim büronun camındaki yazı da ters okunuyor. Demek ondan.",
-                "kime": "cengo"
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.kas"
               },
               {
                 "k": "not",
@@ -5982,38 +6326,81 @@
                 "i": "normal",
                 "m": "Terziler kullanır, gelinlikçiler kullanır. Elbisenin kalıbını bunun üstüne çizerler.",
                 "gir": "tahsin",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+tahsin",
+                "yuz": "peri.kas"
               },
               {
                 "k": "cengo",
                 "i": "normal",
                 "m": "Müzeyyen anne yıllarca terzilik yaptı. Gamze'nin bütün elbiselerini o dikerdi.",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.kas"
               },
-              {"k": "peri", "i": "merakli", "m": "Jale Hanım'ın da gelinlik atölyesi var, Cengo.", "kime": "cengo"},
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Jale Hanım'ın da gelinlik atölyesi var, Cengo.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.normal"
+              },
               {
                 "k": "not",
                 "m": "Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.",
                 "gir": "gizem",
-                "gi": "triko_tepsi_telefon"
+                "gi": "triko_tepsi_telefon",
+                "ekran": "gizem"
               },
               {
                 "k": "gizem",
                 "i": "triko_tepsi_telefon",
                 "m": "Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı.",
                 "gir": "gizem",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+gizem",
+                "yuz": "peri.merakli"
               },
-              {"k": "gizem", "i": "triko_tepsi_telefon", "m": "\"Babam o kadınla gezmeye mi gitti?\" diyor."},
-              {"k": "peri", "i": "kas", "m": "İşe gittik. Öyle yaz.", "kime": "gizem"},
+              {
+                "k": "gizem",
+                "i": "triko_tepsi_telefon",
+                "m": "\"Babam o kadınla gezmeye mi gitti?\" diyor.",
+                "ekran": "peri+gizem",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "İşe gittik. Öyle yaz.",
+                "kime": "gizem",
+                "ekran": "peri+gizem",
+                "yuz": "gizem.triko_tepsi_telefon"
+              },
               {
                 "k": "gizem",
                 "i": "triko_tepsi_telefon",
                 "m": "(yazarak) \"Gezmeye gitti. Ama ben de gittim.\"",
-                "kime": "peri"
+                "kime": "peri",
+                "ekran": "peri+gizem",
+                "yuz": "peri.kas"
               },
-              {"k": "peri", "i": "kas", "m": "Ama bu yalan.", "kime": "gizem"},
-              {"k": "gizem", "i": "triko_tepsi_telefon", "m": "Şimdi geldim ya, tatlım. Doğru oldu.", "kime": "peri"}
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Ama bu yalan.",
+                "kime": "gizem",
+                "ekran": "peri+gizem",
+                "yuz": "gizem.triko_tepsi_telefon"
+              },
+              {
+                "k": "gizem",
+                "i": "triko_tepsi_telefon",
+                "m": "Şimdi geldim ya, tatlım. Doğru oldu.",
+                "kime": "peri",
+                "ekran": "peri+gizem",
+                "yuz": "peri.kas"
+              }
             ]
           }
         }
@@ -6163,19 +6550,32 @@
             {
               "k": "not",
               "m": "Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.",
-              "gizle": "cengo"
+              "gizle": "cengo",
+              "ekran": "peri",
+              "yuz": "peri.normal"
             },
             {
               "k": "not",
               "m": "Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.",
-              "gir": "cengo"
+              "gir": "cengo",
+              "ekran": "cengo",
+              "yuz": "cengo.normal"
             },
-            {"k": "peri", "i": "sasirmis", "m": "Cengo? Bu gömlek ne? Kim öldü?", "kime": "cengo"},
+            {
+              "k": "peri",
+              "i": "sasirmis",
+              "m": "Cengo? Bu gömlek ne? Kim öldü?",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
             {
               "k": "cengo",
               "i": "kas",
               "m": "Kimse ölmedi. Biri gelecek. Gömlek de ütülü, sakın buruşturma.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
             },
             {
               "k": "not",
@@ -6192,76 +6592,161 @@
               "k": "cengo",
               "i": "yumusak",
               "m": "Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
             },
-            {"k": "not", "m": "Peri masasına dönüyor. Kapı çalınıyor."},
+            {"k": "not", "m": "Peri masasına dönüyor. Kapı çalınıyor.", "ekran": "peri", "yuz": "peri.kas"},
             {
               "k": "not",
               "m": "Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.",
               "gir": "eylul",
-              "gi": "sevincli"
+              "gi": "sevincli",
+              "ekran": "eylul"
             },
-            {"k": "eylul", "i": "sevincli", "m": "Baba!", "gir": "eylul", "kime": "cengo"},
+            {
+              "k": "eylul",
+              "i": "sevincli",
+              "m": "Baba!",
+              "gir": "eylul",
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.yumusak"
+            },
             {"k": "not", "m": "Kız koşup Cengo'ya sarılıyor. Peri'nin elindeki dergi yere düşüyor.", "kare": "K97"},
             {"k": "peri", "i": "sasirmis", "m": "Baba mı? Cengo, senin bir kızın mı var?", "kare": "K97"},
             {
               "k": "cengo",
               "i": "yumusak",
               "m": "Eylül. On altı yaşında. Annesiyle Üsküdar'da oturuyor.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
             },
-            {"k": "eylul", "i": "kiskanc", "m": "Baba, bu hanım kim?", "gir": "eylul", "kime": "cengo"},
-            {"k": "cengo", "i": "kas", "m": "Peri. Ortağım. Bu büroyu beraber işletiyoruz.", "kime": "eylul"},
-            {"k": "eylul", "i": "kiskanc", "m": "Sadece ortak mı?", "kime": "cengo"},
-            {"k": "peri", "i": "kas", "m": "Sadece ortak, Eylül. Hoş geldin.", "kime": "eylul"},
+            {
+              "k": "eylul",
+              "i": "kiskanc",
+              "m": "Baba, bu hanım kim?",
+              "gir": "eylul",
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.yumusak"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Peri. Ortağım. Bu büroyu beraber işletiyoruz.",
+              "kime": "eylul",
+              "ekran": "cengo+eylul",
+              "yuz": "eylul.kiskanc"
+            },
+            {
+              "k": "eylul",
+              "i": "kiskanc",
+              "m": "Sadece ortak mı?",
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Sadece ortak, Eylül. Hoş geldin.",
+              "kime": "eylul",
+              "ekran": "peri+eylul",
+              "yuz": "eylul.kiskanc"
+            },
             {
               "k": "not",
               "m": "Eylül Peri'yi baştan aşağı süzüyor; babasının koluna giriyor.",
               "gir": "eylul",
-              "gi": "kiskanc"
+              "gi": "kiskanc",
+              "ekran": "peri+eylul",
+              "yuz": "peri.kas"
             },
-            {"k": "not", "m": "Gizem çay ocağından elinde bir tepsiyle geliyor.", "gir": "gizem", "gi": "triko_tepsi"},
+            {
+              "k": "not",
+              "m": "Gizem çay ocağından elinde bir tepsiyle geliyor.",
+              "gir": "gizem",
+              "gi": "triko_tepsi",
+              "ekran": "gizem"
+            },
             {
               "k": "gizem",
               "i": "triko_tepsi",
               "m": "Misafir mi var? Çay benden. Sen kimsin, güzelim?",
               "gir": "gizem",
-              "kime": "eylul"
+              "kime": "eylul",
+              "ekran": "gizem+eylul",
+              "yuz": "eylul.kiskanc"
             },
-            {"k": "eylul", "i": "gulen", "m": "Eylül. Cengo'nun kızıyım.", "gir": "eylul", "kime": "gizem"},
+            {
+              "k": "eylul",
+              "i": "gulen",
+              "m": "Eylül. Cengo'nun kızıyım.",
+              "gir": "eylul",
+              "kime": "gizem",
+              "ekran": "eylul+gizem",
+              "yuz": "gizem.triko_tepsi"
+            },
             {
               "k": "gizem",
               "i": "triko_tepsi",
               "m": "Cengo'nun kızı mı? Bu büroda bana kimse bir şey söylemiyor. Ben Gizem; çay benden, laf benden.",
               "gir": "gizem",
-              "kime": "eylul"
+              "kime": "eylul",
+              "ekran": "gizem+eylul",
+              "yuz": "eylul.gulen"
             },
             {
               "k": "eylul",
               "i": "gulen",
               "m": "Teşekkür ederim, Gizem abla. Ne kadar iyisin.",
               "gir": "eylul",
-              "kime": "gizem"
+              "kime": "gizem",
+              "ekran": "eylul+gizem",
+              "yuz": "gizem.triko_tepsi"
             },
             {
               "k": "gizem",
               "i": "triko_tepsi",
               "m": "(Eylül'e göz kırparak) Peri Hanım herkese öyle bakar, takma.",
               "gir": "gizem",
-              "kime": "eylul"
+              "kime": "eylul",
+              "ekran": "gizem+eylul",
+              "yuz": "eylul.gulen"
             },
-            {"k": "peri", "i": "kas", "m": "Ben kimseye öyle bakmıyorum, Gizem.", "kime": "gizem"},
-            {"k": "cengo", "i": "normal", "m": "Otur kızım. Anlat bakalım, ne oldu?", "gir": "eylul", "kime": "eylul"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Ben kimseye öyle bakmıyorum, Gizem.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_tepsi"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Otur kızım. Anlat bakalım, ne oldu?",
+              "gir": "eylul",
+              "kime": "eylul",
+              "ekran": "cengo+eylul",
+              "yuz": "eylul.gulen"
+            },
             {
               "k": "eylul",
               "i": "uzgun",
               "m": "Annem evleniyor, baba. Haldun amcayla. İki hafta sonra, cumartesi.",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.normal"
             },
             {
               "k": "eylul",
               "i": "uzgun",
-              "m": "Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim."
+              "m": "Düğünden sonra İzmir'e taşınıyoruz; Haldun amcanın tayini çıktı. Ben de okulumu değiştireceğim.",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.normal"
             },
             {
               "k": "eylul",
@@ -6280,62 +6765,116 @@
               "m": "Üçünde de aynı şey yazıyor: \"Bu düğün olursa herkes öğrenir.\" Pul yok, gönderen yok.",
               "kare": "D18"
             },
-            {"k": "peri", "i": "merakli", "m": "Nereden geldiler, Eylül?", "gir": "eylul", "kime": "eylul"},
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Nereden geldiler, Eylül?",
+              "gir": "eylul",
+              "kime": "eylul",
+              "ekran": "peri+eylul",
+              "yuz": "eylul.normal"
+            },
             {
               "k": "eylul",
               "i": "normal",
               "m": "İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
             {
               "k": "eylul",
               "i": "normal",
-              "m": "Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş."
+              "m": "Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş.",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
             {
               "k": "eylul",
               "i": "uzgun",
-              "m": "Annem düğünü iptal etmek istiyor. Haldun amcaya \"ne saklıyorsun\" diye bağırıyor; o da \"hiçbir şey\" diyor."
+              "m": "Annem düğünü iptal etmek istiyor. Haldun amcaya \"ne saklıyorsun\" diye bağırıyor; o da \"hiçbir şey\" diyor.",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
-            {"k": "peri", "i": "merakli", "m": "Mektupları kimin yazdığını düşünüyorlar?", "kime": "eylul"},
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Mektupları kimin yazdığını düşünüyorlar?",
+              "kime": "eylul",
+              "ekran": "peri+eylul",
+              "yuz": "eylul.uzgun"
+            },
             {
               "k": "eylul",
               "i": "uzgun",
               "m": "Annem \"babandır\" diyor: \"Baban bu düğünü istemez.\" Ben inanmıyorum. O yüzden sana geldim, baba.",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.normal"
             },
             {
               "k": "cengo",
               "i": "sinirli",
               "m": "Ben mi? Ben annene mektup mu yazacağım? Bir şey diyeceksem yüzüne söylerim.",
-              "kime": "eylul"
+              "kime": "eylul",
+              "ekran": "cengo+eylul",
+              "yuz": "eylul.uzgun"
             },
             {
               "k": "eylul",
               "i": "normal",
               "m": "Haldun amca da eski karısı Jale Hanım'dan şüpheleniyor. Boşanırken \"seni rahat bırakmam\" demiş.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
             {
               "k": "eylul",
               "i": "normal",
-              "m": "Jale Hanım'ın da Kadıköy'de bir gelinlik atölyesi varmış. Haldun amca bunu söyleyince annem bir tuhaf oldu."
+              "m": "Jale Hanım'ın da Kadıköy'de bir gelinlik atölyesi varmış. Haldun amca bunu söyleyince annem bir tuhaf oldu.",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
-            {"k": "peri", "i": "merakli", "m": "Evde başka kimin haberi var bu mektuplardan?", "kime": "eylul"},
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Evde başka kimin haberi var bu mektuplardan?",
+              "kime": "eylul",
+              "ekran": "peri+eylul",
+              "yuz": "eylul.normal"
+            },
             {
               "k": "eylul",
               "i": "normal",
               "m": "Anneannemin. Bizim apartmanda, üst katta oturuyor; çok üzülüyor. Bu büronun adresini bana o verdi.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
             {
               "k": "eylul",
               "i": "sevincli",
               "m": "\"Baban dedektif, git ona\" dedi. Sen dedektifsin baba. Sen bulursun.",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.normal"
             },
-            {"k": "not", "m": "Cengo Peri'ye bakıyor. Peri bir an susuyor.", "gir": "cengo", "kime": "peri"},
-            {"k": "peri", "i": "kas", "m": "Baban bu büronun en iyi dedektifidir, Eylül.", "kime": "eylul"},
+            {
+              "k": "not",
+              "m": "Cengo Peri'ye bakıyor. Peri bir an susuyor.",
+              "gir": "cengo",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.merakli+cengo.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Baban bu büronun en iyi dedektifidir, Eylül.",
+              "kime": "eylul",
+              "ekran": "peri+eylul",
+              "yuz": "eylul.normal"
+            },
             {"k": "not", "m": "Eylül, Cengo'nun bileğindeki renkli boncuklu bilekliği görüyor.", "kare": "D19"},
             {"k": "peri", "i": "merakli", "m": "O bileklik hep bileğinde, Cengo. Hep soracaktım.", "kare": "D19"},
             {
@@ -6343,43 +6882,77 @@
               "i": "sevincli",
               "m": "Ben yaptım! Yedi yaşındayken. Hâlâ takıyorsun, baba!",
               "gir": "eylul",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+eylul",
+              "yuz": "cengo.normal"
             },
             {
               "k": "eylul",
               "i": "normal",
               "m": "Parayı Haldun amca ödeyecek. \"Kim yazdıysa bulsunlar, ne isterlerse veririm\" dedi.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+eylul",
+              "yuz": "peri.merakli"
             },
-            {"k": "peri", "i": "normal", "m": "Ücretimiz kırk bin lira. İş bitince ödenir.", "kime": "eylul"},
-            {"k": "cengo", "i": "kas", "m": "Kızımın işinden para alınmaz, Peri.", "kime": "peri"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Ücretimiz kırk bin lira. İş bitince ödenir.",
+              "kime": "eylul",
+              "ekran": "peri+eylul",
+              "yuz": "eylul.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Kızımın işinden para alınmaz, Peri.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
             {
               "k": "peri",
               "i": "kas",
               "m": "Kızından değil, Cengo. Haldun Bey'den. Yarın Üsküdar'dan başlarız.",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.kas"
             },
             {
               "k": "eylul",
               "i": "kiskanc",
               "m": "Babam nereden başlarsak oradan başlarız.",
               "gir": "eylul",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+eylul",
+              "yuz": "peri.kas"
             },
             {
               "k": "gizem",
               "i": "triko_tepsi",
               "m": "Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız.",
               "gir": "gizem",
-              "kime": "eylul"
+              "kime": "eylul",
+              "ekran": "gizem+eylul",
+              "yuz": "eylul.kiskanc"
             },
-            {"k": "eylul", "i": "gulen", "m": "Tamam, abla.", "gir": "eylul", "kime": "gizem"},
+            {
+              "k": "eylul",
+              "i": "gulen",
+              "m": "Tamam, abla.",
+              "gir": "eylul",
+              "kime": "gizem",
+              "ekran": "eylul+gizem",
+              "yuz": "gizem.triko_tepsi"
+            },
             {
               "k": "not",
               "m": "Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.",
               "gir": "eylul",
               "gi": "kiskanc",
-              "kime": "gizem"
+              "kime": "gizem",
+              "ekran": "peri+eylul",
+              "yuz": "peri.kas"
             }
           ]
         },
@@ -6389,58 +6962,149 @@
           "cset": "utulu",
           "figurler": ["peri", "cengo"],
           "satirlar": [
-            {"k": "not", "m": "Kapı kapanıyor. Peri Cengo'ya dönüyor."},
-            {"k": "peri", "i": "kas", "m": "Büyük dedektif, ha?", "kime": "cengo"},
-            {"k": "cengo", "i": "kas", "m": "Paravan Dedektiflik'in bordrosundayım. Yalan değil.", "kime": "peri"},
-            {"k": "peri", "i": "kas", "m": "Yedi yıl maaş aldın, bir tane dosya açmadın."},
-            {"k": "cengo", "i": "gulen", "m": "Eylül benim ilk dosyam."},
-            {"k": "peri", "i": "merakli", "m": "Bir kızın olduğunu bana neden hiç söylemedin, Cengo?"},
+            {
+              "k": "not",
+              "m": "Kapı kapanıyor. Peri Cengo'ya dönüyor.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal+cengo.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Büyük dedektif, ha?",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Paravan Dedektiflik'in bordrosundayım. Yalan değil.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Yedi yıl maaş aldın, bir tane dosya açmadın.",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.kas"
+            },
+            {"k": "cengo", "i": "gulen", "m": "Eylül benim ilk dosyam.", "ekran": "peri+cengo", "yuz": "peri.kas"},
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Bir kızın olduğunu bana neden hiç söylemedin, Cengo?",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.gulen"
+            },
             {
               "k": "cengo",
               "i": "yumusak",
-              "m": "Söyleyecek bir şey yoktu. Uzaktan bakıyorum, o kadar. Hadi işe dönelim."
+              "m": "Söyleyecek bir şey yoktu. Uzaktan bakıyorum, o kadar. Hadi işe dönelim.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.merakli"
             },
             {
               "k": "peri",
               "i": "normal",
-              "m": "Önce Haldun Bey'le konuşalım. Düğünün tarihi ne zaman konuşulmuş, mektuplar ne zaman başlamış, öğrenelim."
+              "m": "Önce Haldun Bey'le konuşalım. Düğünün tarihi ne zaman konuşulmuş, mektuplar ne zaman başlamış, öğrenelim.",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.yumusak"
             },
-            {"k": "cengo", "i": "normal", "m": "Apartmana da gideriz. Kapıcılar her şeyi görür."},
-            {
-              "k": "peri",
-              "i": "normal",
-              "m": "Gelinliğin dikildiği atölyeye gidelim; üçüncü mektup orada çıktı. Jale Hanım'ı da bulalım."
-            },
-            {"k": "cengo", "i": "kas", "m": "Eylül'ün anneannesine de uğrarız. Börekleri iyidir, hâlâ tadı damağımda."},
             {
               "k": "cengo",
               "i": "normal",
-              "m": "Mektupları da Karaköy'deki eski ustama gösteririm. Matbaacıdır; kâğıttan anlar."
+              "m": "Apartmana da gideriz. Kapıcılar her şeyi görür.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
             },
-            {"k": "not", "m": "Gizem içeri giriyor; elinde telefonu.", "gir": "gizem", "gi": "triko_telefon"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Gelinliğin dikildiği atölyeye gidelim; üçüncü mektup orada çıktı. Jale Hanım'ı da bulalım.",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Eylül'ün anneannesine de uğrarız. Börekleri iyidir, hâlâ tadı damağımda.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Mektupları da Karaköy'deki eski ustama gösteririm. Matbaacıdır; kâğıttan anlar.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "not",
+              "m": "Gizem içeri giriyor; elinde telefonu.",
+              "gir": "gizem",
+              "gi": "triko_telefon",
+              "ekran": "gizem"
+            },
             {
               "k": "gizem",
               "i": "triko_telefon",
               "m": "Eylül vapurdan yazdı: \"Babam bugün yemek yedi mi?\"",
               "gir": "gizem",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+gizem",
+              "yuz": "cengo.normal"
             },
-            {"k": "cengo", "i": "yumusak", "m": "Yedim. Simit yedim.", "kime": "gizem"},
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Yedim. Simit yedim.",
+              "kime": "gizem",
+              "ekran": "cengo+gizem",
+              "yuz": "gizem.triko_telefon"
+            },
             {
               "k": "gizem",
               "i": "triko_telefon",
               "m": "Bir de şunu yazmış: \"O kadın hâlâ babamın yanında mı?\"",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+gizem",
+              "yuz": "cengo.yumusak"
             },
-            {"k": "peri", "i": "kas", "m": "\"O kadın\" kim?", "kime": "gizem"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "\"O kadın\" kim?",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_telefon"
+            },
             {
               "k": "gizem",
               "i": "triko_telefon",
               "m": "Sensin, tatlım. (yazarak) \"Yanında. Ama ben de buradayım.\"",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
             },
-            {"k": "peri", "i": "kas", "m": "Harika. On altı yaşında bir kız beni kıskanıyor.", "kime": "gizem"},
-            {"k": "cengo", "i": "gulen", "m": "Seni ilk kez biri sevmedi, Peri. Alışırsın.", "kime": "peri"}
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Harika. On altı yaşında bir kız beni kıskanıyor.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_telefon"
+            },
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Seni ilk kez biri sevmedi, Peri. Alışırsın.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            }
           ]
         },
         "yuzlesme_dogru": {
@@ -6459,30 +7123,66 @@
               "i": "soguk",
               "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
               "gir": "jale",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.normal"
             },
             {
               "k": "not",
               "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
               "gir": "muzeyyen",
-              "gi": "normal"
+              "gi": "normal",
+              "ekran": "jale+muzeyyen",
+              "yuz": "jale.soguk"
             },
             {
               "k": "muzeyyen",
               "i": "normal",
               "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.normal"
             },
-            {"k": "peri", "i": "normal", "m": "Mektupları kim yazdı, biliyorum. Söylemeye geldim.", "kime": "muzeyyen"},
-            {"k": "peri", "i": "kas", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
-            {"k": "muzeyyen", "i": "gergin", "m": "Ben mi? Kızımın mutluluğunu en çok ben isterim…", "kime": "peri"},
-            {"k": "peri", "i": "kas", "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor.", "kime": "muzeyyen"},
-            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Mektupları kim yazdı, biliyorum. Söylemeye geldim.",
+              "kime": "muzeyyen",
+              "ekran": "peri+muzeyyen",
+              "yuz": "muzeyyen.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Müzeyyen Hanım. Mektupları siz yazdınız.",
+              "kime": "muzeyyen",
+              "ekran": "peri+muzeyyen",
+              "yuz": "muzeyyen.normal"
+            },
+            {
+              "k": "muzeyyen",
+              "i": "gergin",
+              "m": "Ben mi? Kızımın mutluluğunu en çok ben isterim…",
+              "kime": "peri",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor.",
+              "kime": "muzeyyen",
+              "ekran": "peri+muzeyyen",
+              "yuz": "muzeyyen.gergin"
+            },
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz", "ekran": "jale"},
             {
               "k": "jale",
               "i": "makbuz",
               "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.gergin"
             },
             {"k": "not", "m": "Müzeyyen torbayı askıdan kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
           ]
@@ -6503,39 +7203,58 @@
               "i": "soguk",
               "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
               "gir": "jale",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.normal"
             },
             {
               "k": "not",
               "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
               "gir": "muzeyyen",
-              "gi": "normal"
+              "gi": "normal",
+              "ekran": "jale+muzeyyen",
+              "yuz": "jale.soguk"
             },
             {
               "k": "muzeyyen",
               "i": "normal",
               "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.normal"
             },
-            {"k": "peri", "i": "normal", "m": "Müzeyyen Hanım. Mektupları siz yazdınız.", "kime": "muzeyyen"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Müzeyyen Hanım. Mektupları siz yazdınız.",
+              "kime": "muzeyyen",
+              "ekran": "peri+muzeyyen",
+              "yuz": "muzeyyen.normal"
+            },
             {
               "k": "muzeyyen",
               "i": "gergin",
               "m": "Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.normal"
             },
             {
               "k": "peri",
               "i": "utanmis",
               "m": "…Elimde bir şey var, ama sizi ikna edecek kadar değil.",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "peri+muzeyyen",
+              "yuz": "muzeyyen.gergin"
             },
-            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz", "ekran": "jale"},
             {
               "k": "jale",
               "i": "makbuz",
               "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.gergin"
             },
             {"k": "not", "m": "Müzeyyen torbayı askıdan kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
           ]
@@ -6556,45 +7275,66 @@
               "i": "soguk",
               "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
               "gir": "jale",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.normal"
             },
             {
               "k": "not",
               "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
               "gir": "muzeyyen",
-              "gi": "normal"
+              "gi": "normal",
+              "ekran": "jale+muzeyyen",
+              "yuz": "jale.soguk"
             },
             {
               "k": "muzeyyen",
               "i": "normal",
               "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.normal"
             },
-            {"k": "peri", "i": "kas", "m": "Cengo. Mektupları sen yazdın.", "kime": "cengo"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Cengo. Mektupları sen yazdın.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
             {
               "k": "cengo",
               "i": "sinirli",
               "m": "Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
             },
             {
               "k": "cengo",
               "i": "yumusak",
-              "m": "Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam."
+              "m": "Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
             },
             {
               "k": "not",
               "m": "Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.",
               "gir": "muzeyyen",
               "gi": "gergin",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.yumusak"
             },
-            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz"},
+            {"k": "not", "m": "Jale elinde makbuzla dönüyor.", "gir": "jale", "gi": "makbuz", "ekran": "jale"},
             {
               "k": "jale",
               "i": "makbuz",
               "m": "Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.gergin"
             },
             {"k": "not", "m": "Müzeyyen torbayı askıdan kapıp kapıya koşuyor.", "cik": true, "kare": "K99"}
           ]
@@ -6615,37 +7355,49 @@
               "i": "soguk",
               "m": "Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.",
               "gir": "jale",
-              "kime": "muzeyyen"
+              "kime": "muzeyyen",
+              "ekran": "jale+muzeyyen",
+              "yuz": "muzeyyen.normal"
             },
             {
               "k": "not",
               "m": "Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.",
               "gir": "muzeyyen",
-              "gi": "normal"
+              "gi": "normal",
+              "ekran": "jale+muzeyyen",
+              "yuz": "jale.soguk"
             },
             {
               "k": "muzeyyen",
               "i": "normal",
               "m": "Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.normal"
             },
             {
               "k": "peri",
               "i": "kas",
               "m": "Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız.",
               "gir": "jale",
-              "kime": "jale"
+              "kime": "jale",
+              "ekran": "peri+jale",
+              "yuz": "jale.soguk"
             },
             {
               "k": "jale",
               "i": "ofkeli",
               "m": "Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım?",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+jale",
+              "yuz": "peri.kas"
             },
             {
               "k": "jale",
               "i": "uzaniyor",
-              "m": "(torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün."
+              "m": "(torbaya uzanarak) Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.",
+              "ekran": "peri+jale",
+              "yuz": "peri.kas"
             },
             {"k": "not", "m": "Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.", "cik": true, "kare": "K99j"}
           ]
@@ -6704,7 +7456,9 @@
               "i": "heyecanli",
               "m": "Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı.",
               "gir": "dilek",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+dilek",
+              "yuz": "peri.kas"
             },
             {
               "k": "not",
@@ -6718,63 +7472,102 @@
             {
               "k": "not",
               "m": "Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.",
-              "cik": true
+              "cik": true,
+              "ekran": "peri+jale",
+              "yuz": "peri.kas+jale.soguk"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
               "m": "Tamam. Ben yazdım. Hepsini ben yazdım.",
               "gir": "muzeyyen",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
-              "m": "Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak."
+              "m": "Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak.",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
               "m": "Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo.",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
-              "m": "Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum."
+              "m": "Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum.",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
-              "m": "Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim."
+              "m": "Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim.",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
               "m": "Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum.",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
-              "m": "Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum."
+              "m": "Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum.",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
             },
             {
               "k": "muzeyyen",
               "i": "itiraf",
-              "m": "\"Herkes öğrenir\" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok."
+              "m": "\"Herkes öğrenir\" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok.",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
             },
-            {"k": "muzeyyen", "i": "itiraf", "m": "Bugün de dördüncüsünü koymuştum. Jale \"açıyorum\" deyince korktum."},
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Bugün de dördüncüsünü koymuştum. Jale \"açıyorum\" deyince korktum.",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
+            },
             {"k": "not", "m": "Müzeyyen hırkasının cebinden katlanmış kâğıdı çıkarıp Peri'ye uzatıyor.", "kare": "D21"},
             {
               "k": "muzeyyen",
               "i": "itiraf",
               "m": "Eylül'ü sana ben gönderdim, Cengo. Bulamazsın sandım.",
               "gir": "muzeyyen",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.kas"
             },
-            {"k": "muzeyyen", "i": "itiraf", "m": "Bir de kız babasını görsün istedim."},
-            {"k": "cengo", "i": "yumusak", "m": "Buldum ama, Müzeyyen anne.", "kime": "muzeyyen"}
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Bir de kız babasını görsün istedim.",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "cengo.kas"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Buldum ama, Müzeyyen anne.",
+              "kime": "muzeyyen",
+              "ekran": "cengo+muzeyyen",
+              "yuz": "muzeyyen.itiraf"
+            }
           ]
         },
         "kapanis": {
@@ -6785,20 +7578,25 @@
           "satirlar": [
             {
               "k": "not",
-              "m": "Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş."
+              "m": "Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal+cengo.normal"
             },
             {
               "k": "not",
               "m": "Gizem elinde çay tepsisi ve telefonuyla geliyor.",
               "gir": "gizem",
-              "gi": "triko_tepsi_telefon"
+              "gi": "triko_tepsi_telefon",
+              "ekran": "gizem"
             },
             {
               "k": "gizem",
               "i": "triko_tepsi_telefon",
               "m": "Eylül yazdı: \"Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım.\"",
               "gir": "gizem",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "cengo+gizem",
+              "yuz": "cengo.normal"
             },
             {"k": "not", "m": "Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.", "kare": "K110"},
             {
@@ -6806,17 +7604,36 @@
               "i": "triko_tepsi_telefon",
               "m": "Bir de şunu yazmış: \"O kadın gelmesin.\"",
               "gir": "gizem",
-              "kime": "peri"
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.normal"
             },
-            {"k": "peri", "i": "kas", "m": "Ben bir şey demedim ki.", "kime": "gizem"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Ben bir şey demedim ki.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_tepsi_telefon"
+            },
             {
               "k": "peri",
               "i": "normal",
               "m": "Neden söylemedin, Cengo? Bir kızın olduğunu.",
               "bag": "dusuk",
-              "kime": "cengo"
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
             },
-            {"k": "cengo", "i": "normal", "m": "Sen de hiç sormadın, Peri.", "bag": "dusuk", "kime": "peri"},
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Sen de hiç sormadın, Peri.",
+              "bag": "dusuk",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
             {
               "k": "not",
               "m": "Cengo ceketini alıp çıkıyor. Peri saçındaki gül yaprağını çöpe atıyor.",
@@ -6841,7 +7658,16 @@
               "kime": "peri",
               "kare": "K112"
             },
-            {"k": "gizem", "i": "triko_tepsi_telefon", "m": "Hıh.", "bag": "yuksek", "gir": "gizem", "kime": "peri"}
+            {
+              "k": "gizem",
+              "i": "triko_tepsi_telefon",
+              "m": "Hıh.",
+              "bag": "yuksek",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.normal"
+            }
           ]
         }
       }
