@@ -6,6 +6,11 @@ dosyayı ancak Barbaros o bilgisayarın başında "kurulumla başla" / "resim ü
 oturumlarında bu konuyu kendiliğinden açmaz. Adımları sırayla uygulat; her adımın sonundaki **Doğrula** geçmeden sonrakine geçme.
 Bitince en alttaki "Kayıt"a tarih + "kuruldu" yaz, commit → `git push origin HEAD:main`.
 
+**Üretim düzeni Barbaros'un bilgisayarındakiyle BİREBİR aynı (sahibi, 14 Kasım 2026):** üretimi Claude Code başlatır ve yürütür —
+`uretim/dongu.sh` arka planda, Codex komut satırından (`codex exec`); Codex masaüstü uygulaması KULLANILMAZ. Sahibi üretimi ekranda
+izlemez: her resimden sonra döngü `arac_tarz.py`'yi koşar, Claude denetler (`uretim/CLAUDE.md` → Denetim 0, A, B) ve sahibine yan
+yana sayfa gösterir; temeller tek tek, parti sonu tek sayfa. Tek fark hesap/kota (Oğuz Bey'in ChatGPT hesabı).
+
 **Ortağın bilgisayarında zaten olanlar** (11 Kasım 2026, `kaynak/DEVIR.md`): Node.js 26.13, Python 3.12, Git (Git Bash), depo
 `C:\Yazilim\paravan` (D: sürücüsü YOK — bütün yollarda `D:\Yazilim` yerine `C:\Yazilim`; Git Bash'te `/c/Yazilim/paravan`),
 Playwright + Chromium (`araclar/`), Codex CLI 0.167.1 (**giriş yapılmamış**).
