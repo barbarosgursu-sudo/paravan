@@ -8,6 +8,15 @@
 
 ---
 
+## 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
+
+- **Kapı** (`kaynak/arac_kapi.js`, sahibinin kararı): vaka kaydedilmeden önce 13 kural + eski denetimler kendiliğinden koşar. Vaka 6 ve
+  sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama
+  **Vaka 6 kapıdan geçince açılacak** (`.claude/settings.json` henüz yok). Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle").
+- **Vaka 6 kalan:** 11 resim (G87–G95, G65 ve G46 yeniden) — **Barbaros kendi bilgisayarında üretiyor** (Oğuz Bey'e mesaj kaldırıldı).
+  Ayrıntı ve bağlama etiketleri `uretim/v6/DURUM.md` en üst. Üretim artık iki bilgisayarda da olabilir (`uretim/CLAUDE.md` başı).
+- Figür kesimi yapay zekâyla (`arac_kes_yz.py`, tek yöntem); el denetimi `arac_el.py` (onayı sahibi verir).
+
 ## 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 **Barbaros'un kararı (14 Kasım 2026):**

@@ -8,12 +8,17 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
 - **Başlarken:** `git pull`. Sonra `uretim/v<N>/DURUM.md`'yi oku.
 - **Bitirirken ve döngüde ara ara:** `DURUM.md`'yi güncelle → commit → `git push origin HEAD:main`. Yalnız `main`.
 - Sahibi bir kural söylerse (ör. "Peri'nin ayakkabısı hep kırmızı") onu BU dosyaya yaz; hafızaya değil.
-- **Üretim nerede (sahibi, 14 Kasım 2026):** resim ÜRETİMİ (döngü, Codex) yalnız Oğuz Bey'in bilgisayarında yapılır. Barbaros'un
-  bilgisayarında (`D:\Yazilim\paravan`) yalnız üretim hattının tasarımı yapılır: araçlar, kurallar, istem kalıpları, denetim. Hat
-  "resimleri düzgün üretebiliriz" noktasına gelince Oğuz Bey'in bilgisayarına kurulur (`KURULUM_ORTAK.md`), üretim oradan sürer.
-  Barbaros'un bilgisayarında döngü başlatılmaz. **Kuruldu (14 Kasım 2026);** Codex ve web ChatGPT Barbaros'un hesabıyla.
-- **Bu belgede "sahibi" (14 Kasım 2026'dan beri):** üretimi yürüten kişi = **Oğuz Bey** — temel onayı, resim onayı/reddi, web
-  listesi, tarz soruları ona gider. Yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst).
+- **Üretim nerede (Barbaros, 14 Kasım 2026 gece — öncekinin yerine):** resim üretimi (döngü, Codex) **Oğuz Bey'in ya da Barbaros'un**
+  bilgisayarında yapılır; ikisi aynı numarayı aynı anda üretmesin (hangisinin ürettiği `DURUM.md` en üstte yazılır). Codex ve web
+  ChatGPT Barbaros'un hesabıyla.
+- **Bu belgede "sahibi":** o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros) — temel onayı, resim onayı/reddi, **el onayı**,
+  web listesi, tarz soruları ona gider. Yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst).
+- **İlk iş — bu bilgisayar hazır mı (her oturumda, üretimden önce):**
+  1. `python -c "import onnxruntime, PIL, numpy, torch, open_clip"` hata vermemeli; verirse `KURULUM_ORTAK.md`'deki eksik `pip install`
+     satırını sahibine söyle (kendin kurma). `onnxruntime` kesim (`arac_kes_yz.py`) ve el denetimi (`arac_el.py`) için şart.
+  2. `codex --version` çalışmalı ve Codex girişli olmalı (`codex login status`); değilse sahibine söyle, döngüyü başlatma.
+  3. İlk kullanımda modeller kendiliğinden iner (~1,3 GB: kesim ve el modelleri) — internet gerekir, birkaç dakika sürer.
+  Eksik varsa üretime başlama; sahibine eksik listesini ver.
 
 ## Karakter sabitleri (her istemde yazılır, her denetimde aranır)
 
@@ -128,7 +133,8 @@ Döngü çalışırken sen:
    Codex 5 dakikadan uzun beklerse: `uretim_kaydi.md`'nin sahibine bak (BIRIKIM §3.4).
 2. Temel onaylanınca gereken baş kırpığını/şeridi hazırla (`referanslar/`); hazırlanmayan referansı bekleyen resim döngüye girmez.
 3. Birkaç resimde bir `DURUM.md` → commit → push.
-4. Üretilecek ve denetlenecek resim kalmayınca dur. LISTE'nin hepsi `onayli/`'deyse `göm`'e geç.
+4. Üretilecek ve denetlenecek resim kalmayınca dur. LISTE'nin hepsi `onayli/`'deyse `göm`'e geç. Gömmeden sonra `DURUM.md`'deki
+   bağlama etiketlerini diyaloğa yaz ve `cd kaynak && node arac_kapi.js V<N> resim` — **GEÇTİ demeden vaka bitmiş sayılmaz.**
 
 **Temeller önce, takılan temel HEMEN sahibine (sahibi, 8 Kasım 2026).** Her vakada üretim temellerle başlar: her
 kıyafetin temel figürü (ve ondan baş kırpığı çıkacak her resim), mekân temelleri. İlk iş yalnız temelleri üretmek ve
@@ -183,6 +189,13 @@ onaylıları; V6 ve sonrası bilerek çapada değil).
 - Denenip BIRAKILAN (14 Kasım): ifadeyi temeline CLIP benzerliği ya da renk doygunluğuyla karşılaştırıp "soluk/kaymış" yakalamak —
   poz ve bilerek değişen ifade (unlu yüz) ölçüyü bastırıyor, onaylılarla kaymışlar iç içe. Bu kayma gözle (A.7, A.14).
 - Araç değişirse önce `python arac_yuz.py --sinav` → "SINAV GEÇTİ".
+
+**0c. El denetimi — kişi görünen HER resimde (14 Kasım 2026, kural 5; V6 K96'da Peri'nin iki SAĞ eli iki kez gözden kaçtı).**
+`cd kaynak && python arac_el.py --sayfa V<N> G<n>` → `kaynak/YENI_UI/el/G<n>.jpg`: her kişinin SOL kolu mavi, SAĞ kolu kırmızı çizili,
+her el büyütülmüş ve hangi kolda olduğu yazılı; ayrıca istemin "TAM n kişi"siyle sayım. Bak: sol kolun ucunda SOL el, sağ kolun ucunda
+SAĞ el mi (başparmağın yönü), fazla/eksik el var mı. Doğruysa sayfayı sahibine göster ya da sonucu söyle; **onayı sahibi verir**
+(kendisi bakar ya da "onayla" der) → `python arac_el.py --onay V<N> G<n>`. Onaysız resim kapıdan (`arac_kapi.js`) geçmez; resim
+değişirse onay düşer. Kişi sayısı uyarısı yanlış alarm olabilir (sarılan iki kişi tek, manken kişi sayılır) — gözle karar verilir.
 
 `prompts/G<n>.md`'yi, resmi ve referanslarını aç. Önce bütün olarak bak, sonra şüpheli bölgeleri 2–4 kat büyüt
 (eller, ayaklar ve ayakkabı, tişört ve göğüs, cihaz ekranı ve tuşları, tabelalar, kadraj kenarları). Vaka 3'te küçük
