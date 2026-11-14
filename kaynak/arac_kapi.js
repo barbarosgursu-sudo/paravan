@@ -150,7 +150,7 @@ function denetle(g) {
       for (const id of ekran) if (!izinli.has(id)) B2('K2', `${id} ekranda ama bu satırda anılmıyor, konuşmuyor, hitap edilmiyor`);
     }
     // K4
-    if (anlati && !r.kare && YER.test(katla(r.m))) B2('K4', `yer sözü ("${katla(r.m).match(YER)[1]}") — kare ister`);
+    if (anlati && !duz && YER.test(katla(r.m))) B2('K4', `yer sözü ("${katla(r.m).match(YER)[1]}") — kare ister`);
     // K7
     if (anlati && !duz && r.gir && !(r.onceki && ekrandakiler(r.onceki).includes(r.gir))) {
       const fazla = ekran.filter(id => id !== r.gir && !anilan.includes(id));
