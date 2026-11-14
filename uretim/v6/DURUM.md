@@ -1,11 +1,18 @@
 # Vaka 6 — üretim durumu
 
-**14 Kasım 2026, gece — EK: 4 KARE (G87–G90).** Sahibi yayında açılışta hata buldu (Peri "ayakları masada, dergi okuyor" derken ayakta;
-Cengo anlatı onu getirmeden ekranda). Satır–resim aracına DURUŞ ve İLK GÖRME denetimleri eklendi, dört yol yeniden tarandı. Beş satır
-yalnız etiketle düzeldi (gömüldü). Dört satır yeni kare istiyor: istemler `prompts/G87–G90.md`, `istem_kontrol.sh` çıkış 0, referanslar
-onaylı. Döngü: `SADECE="87 88 89 90" KOL=2 ./dongu.sh 6` (ya da tek tek). **Gömünce diyaloğa bağla** (`vaka6_diyalog.md`, sonra
-`arac_diyalog.js`): açılış satırı `{gizle: cengo, kare: K115}` · "Peri bir Cengo'ya, bir Haldun'a bakıyor." `{kare: K116}` ·
-"Jale torbayla… Bankta Müzeyyen, Peri ve Cengo kalıyor." `{cik, kare: K117}` · "Eylül babasına sarılıp Gizem'le çıkıyor…" `{gir: eylul, gi: kiskanc, kime: gizem, kare: K118}`. Kare yokken etiket konmaz (yayında gri kutu çıkar).
+**14 Kasım 2026, gece — KAPI İÇİN 11 RESİM (sahibi Barbaros kendi bilgisayarında üretiyor).** Vaka 6 kapıdan (`kaynak/arac_kapi.js V6 resim`)
+geçmiyor; kalan bulguların hepsi resim istiyor. İstemler hazır, `istem_kontrol.sh` çıkış 0, referansların hepsi onaylı:
+G87 (açılış, dergi), G88 (Haldun odası üç kişi), G89 (bank üç kişi), G90 (Eylül kapıda), G91 (Cengo kapıda), G92 (Eylül eşikte),
+G93 (Eylül babasının koluna), G94 (kapıcı süpürgeyi dayıyor), G95 (Jale torbaya uzanıyor); **yeniden:** G65 (Peri'nin iki sağ eli)
+ve G46 (Haldun'un uzanan eli) — eskileri `red/`'de, istemlerin sonunda `## Düzeltme 1`.
+Komut: `cd uretim && SADECE="46 65 87 88 89 90 91 92 93 94 95" KOL=2 ./dongu.sh 6`. Her resim: tarz + yüz aracı, göz, ve **el sayfası**
+(`cd kaynak && python arac_el.py --sayfa V6 G<n>` → bakılır → sahibi onaylarsa `--onay V6 G<n>`).
+**Gömünce diyaloğa bağla** (`sablon/vakalar/vaka6_diyalog.md` → `arac_diyalog.js`; kare satırında `ekran`/`yuz` silinir):
+açılış satırı `{gizle: cengo, kare: K115}` · "Cengo kapının önünde duruyor…" `{gir: cengo, kare: K119}` · "Eşikte sırt çantalı…"
+`{gir: eylul, gi: sevincli, kare: K120}` · "Eylül Peri'yi baştan aşağı süzüyor…" `{gir: eylul, gi: kiskanc, kare: K121}` · "Eylül babasına
+sarılıp Gizem'le çıkıyor…" `{kare: K118}` · "Peri bir Cengo'ya, bir Haldun'a bakıyor." `{kare: K116}` · "Kapıcı Cengo'yu görünce…"
+`{gir: recep, gi: gulen, kare: K122}` · "JALE [uzaniyor]: (torbaya uzanarak)…" `{kare: K123}` · "Jale torbayla… Bankta…" `{cik, kare: K117}`.
+Sonra `node arac_kapi.js V6 resim` GEÇTİ demeli; demezse rapor `kaynak/YENI_UI/kapi_V6_resim.md`.
 
 **14 Kasım 2026, akşam — GÖMÜLDÜ.** `arac_paket.js --yaz` (profil: Peri mesai/tül `peri_mavi`, Müzeyyen/Jale ve G39/G40 `konuk_beyaz_delik`; `--genis G17,G29,G32`). Boy: muzeyyen 0,65 · jale 0,65 · haldun 0,67 · eylul 0,61 · recep 0,61 · dilek 0,60 · tahsin 0,65. `kart_v6.webp` (G85), `masa_v6.webp`, 4 portre (Eylül, Haldun, Müzeyyen, Jale). Doğrulayıcı (iki oyun) PASS, iki derleme, testler geçti; `arac_yeni_tur.js 0 sofra dogru --hepsi` JS hatası/taşma yok. Bilerek yer tutucu: `peri.gullu.sinirli/kas`, `cengo.buruk.yumusak` (satırda yok). Turun adı-geçen-ekranda-yok adayları (metin işi, sahibine): satır 044, 056, 090, 116, 157.
 

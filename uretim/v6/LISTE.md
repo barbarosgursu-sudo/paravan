@@ -89,6 +89,7 @@ G24–G25 ondan. V4'e de geçer.
 | G80–G84 | K110–K114 | | K110, K112: G23 |
 | G85 | kart afişi | `KART_V6` | `referanslar/serit_kart_v6.jpg` (G6 onaylanınca) |
 | G87–G90 | **Ek (14 Kasım 2026, sahibinin onayı):** K115 açılış (Peri dergi okuyor, yalnız), K116 (Peri–Cengo–Haldun), K117 (bankta üçü), K118 (Eylül Gizem'le çıkıyor; şerit `referanslar/serit_eylul_gizem.jpg`) | `K115`–`K118` | — (referansların hepsi onaylı) |
+| G91–G95 + G46, G65 yeniden | **Kapı (14 Kasım 2026 gece):** K119 Cengo kapıda, K120 Eylül eşikte, K121 Eylül babasının koluna, K122 kapıcı süpürgeyi dayıyor, K123 Jale torbaya uzanıyor; G65 (Peri'nin iki sağ eli) ve G46 (Haldun'un uzanan eli) `## Düzeltme 1` ile yeniden | `K119`–`K123` | eski G65/G46 `red/`'de |
 
 **Kıyafet hâli tablosu (SR-B):** giriş, ipuçları, yüzleşme → Peri `mesai`, Cengo `utulu` · kovalamaca (K100–K104, K113) → Peri
 ıslak-güllü mesai, Cengo duvaklı · K105'ten sonra (bank, itiraf, K114) → Peri `tul`, Cengo duvaklı · karar kareleri (karar günü) →

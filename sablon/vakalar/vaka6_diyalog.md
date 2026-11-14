@@ -239,10 +239,10 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: kalıp kâğıdı terzide ve gelinlikçide olur — Müzeyyen (terzi; Cengo söyler) ya da Jale (gelinlik atölyesi; girişte).
 
 *Karaköy. Mürekkep kokan küçük bir matbaa; köşede eski bir baskı makinesi.* {arka: A48, mekan}
-*Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.* {gir: tahsin, gi: gulen, ekran: tahsin}
+*Mürekkepli önlüklü, kalın gözlüklü yaşlı bir usta.* {gir: tahsin, gi: normal, ekran: tahsin}
 **TAHSİN [gulen]:** Cengo! Karaköy'ün en kötü çırağı! Hâlâ yaşıyor musun? {gir: tahsin, kime: cengo, ekran: cengo+tahsin, yuz: cengo.normal}
 **CENGO [kas]:** Yaşıyorum, usta. Sana bir kâğıt getirdim. Bir bak. {kime: tahsin, ekran: cengo+tahsin, yuz: tahsin.normal}
-**TAHSİN [gulen]:** On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu. {kime: peri, ekran: peri+tahsin, yuz: peri.normal}
+**TAHSİN [normal]:** On beşindeyken bir afişin harflerini ters dizmişti, hanımefendi. Bütün semt ters okudu. {kime: peri, ekran: peri+tahsin, yuz: peri.normal}
 **PERİ [kas]:** Bizim büronun camındaki yazı da ters okunuyor. Demek ondan. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
 *Tahsin mektubu ışığa tutuyor; kâğıdın içinde ince, noktalı çizgiler beliriyor.* {kare: D20}
 **TAHSİN [normal]:** Bu kâğıt kırtasiyede satılmaz. Kalıp kâğıdı bu: ince, noktalı. {kare: D20}
