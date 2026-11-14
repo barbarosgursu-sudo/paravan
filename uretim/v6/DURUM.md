@@ -1,5 +1,10 @@
 # Vaka 6 — üretim durumu
 
+**15 Kasım 2026, gece — GÖMÜLDÜ, KAPIDA YALNIZ K11 KALDI (Barbaros'un bilgisayarı).** 11 kapı resmi gömülü ve diyaloğa bağlı (K115–K123).
+G46 Düzeltme 3 ile yeniden (eller yanda, ağız kapalı), `vaka6_kapi.md` poz kaydı `haldun.dertli` konuşmuyor → K12 kapandı. G65: ortağın
+Düzeltme 2 resmi (sahibi kabul etti). `arac_kapi.js V6 resim` → DURDU, 2 bulgu: K11, satır 119–120 (Üsküdar apartman, Peri ve Recep):
+Peri'nin dirseği Recep'in koluna biniyor (268 px). İki resim de bu partiden değil; yerleşim sorunu. Sahibinin kararı bekleniyor.
+
 **14 Kasım 2026, ~23:50 — KAPI İÇİN 11 RESİM ÜRETİLDİ VE ONAYLANDI (Barbaros'un bilgisayarı).** G46, G65, G87–G95 `onayli/`'de,
 el onayları `el_onay.md`'de. Ret: G46 (2. düzeltme; el gövdede ama avuç açık — sahibi bu hâliyle onayladı), G90–G92 (kapının ardı
 sokaktı, G91/G92'de kamera kapıdaydı → `referanslar/buro_koridor.jpg` + `## Düzeltme 1`; kural `uretim/CLAUDE.md` → Mekân sabiti).
