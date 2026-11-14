@@ -5,10 +5,15 @@
   artık Oğuz Bey (`kaynak/DEVIR.md` en üst). Aşağıdaki "Oğuz Bey'in hesabıyla / Barbaros kurulumla başla deyince" sözleri eskidi.
 - **`onayli/`'de 40 resim** (G26 Eylül kartı web'de üretildi, 14 Kas onaylı). Temeller hepsi onaylı: G2, G86 (Cengo kartları), G18 (Cengo temeli), G6 (Eylül) ve Parti 1–2'ninkiler.
   Eylül ifadeleri G42–G45 onaylı (14 Kas). Deneme G47 (Haldun, umutlu) üretildi, araç + göz geçti, onaylı. `uretilen/` boş.
-- **Kalan 46 resim + 1 web:** G34–G41 (Cengo ifadeleri), G48–G60 (konuk ifadeleri), G61–G84 (kareler), G85 (kart afişi).
+- **Kalan 46 resim:** G34–G41 (Cengo ifadeleri), G48–G60 (konuk ifadeleri), G61–G84 (kareler), G85 (kart afişi).
+  14 Kas ~15:45 denetlendi: 46 istemin hepsi `istem_kontrol.sh`'tan geçiyor (çıkış 0), referanslarının hepsi yerinde, `kilit/` boş.
   G26 (Eylül kıyafet kartı) web'de üretildi ve onaylandı (14 Kas). Eylül'lü kareler (G61, G66, G77, G79) hâlâ G6'ya bağlı.
 - **Sıradaki iş:** döngü — `cd uretim && KOL=2 DONGU_LOG=/c/Yazilim/paravan_log ./dongu.sh 6` (arka planda). Her resim araç → göz
   → onay; parti sonunda Oğuz Bey'e tek sayfa.
+- **Bu bilgisayarda bilinmesi gereken:** `magick` ImageMagick kurulmadan önce açılmış Claude uygulamasının kabuklarında PATH'te
+  yok → tam yol `"/c/Program Files/ImageMagick-7.1.2-Q16-HDRI/magick.exe"` ya da uygulamayı yeniden başlat. Python `python`
+  (`python3` Microsoft Store kısayolu). PowerShell `.ps1` çalıştırmıyor; görünür pencere gerekirse `.cmd`. Codex 0.167.0, iki
+  yerde kurulu (Kayıt'taki tuzak) — güncellenirse ikisi de (uygulamanın içinden ve Başlat → `cmd`'den) aynı sürüme.
 
 **13 Kasım 2026, ~19:45 — GÜN SONU. Yarın Oğuz Bey'in bilgisayarında, onun hesabıyla devam (Barbaros "kurulumla başla" deyince
 `uretim/KURULUM_ORTAK.md`).** G18 (Cengo temeli, 3. deneme) ve G6 (Eylül, kumaş ayarıyla 4. deneme) sahibince ONAYLI. Eylül'ün
@@ -80,7 +85,7 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 2. Kurulum yapıldı (14 Kasım 2026, Oğuz Bey'in bilgisayarı). Yeniden gerekirse `uretim/KURULUM_ORTAK.md`.
 3. ~~İlk iş: `uretilen/G42–G45` denetimi~~ — yapıldı, onaylı (14 Kas).
 4. Döngü: `cd uretim && KOL=2 DONGU_LOG=<kayıt klasörü> ./dongu.sh 6` (Oğuz Bey'in bilgisayarında `/c/Yazilim/paravan_log`).
-   Sırada: G34–G41 (Cengo ifadeleri; G18 onaylı), G47–G60 (konuklar), kareler G61–G85, kart afişi G85. Her resim: araç → göz →
+   Sırada: G34–G41 (Cengo ifadeleri; G18 onaylı), G48–G60 (konuklar; G47 onaylı), kareler G61–G84, kart afişi G85. Her resim: araç → göz →
    onay; KALDI/ŞÜPHELİ onaylanmaz (bilinen istisna: düz açık gömlek puanı düşürür, gözle karar). Parti sonu tek sayfa sahibine.
 5. ~~`uretim/v6/red/` depodan çıkarılacak~~ — yapıldı (14 Kas, diskte duruyor). ("Tarz puanına yüzü katmak" kapandı, aşağıda.)
 
@@ -95,7 +100,7 @@ sayılmıyor. Parti 2 sahibinin toplu onayını bekliyor (G17 gelince).
 - G42–G45 (Eylül, kumaş ayarıyla): tarz GEÇTİ (gövde +0,035…+0,070); göz denetimi GEÇTİ (eller 5'er parmak, bileklik sol bilekte
   G6 gibi, kesim kırıntı ≤2 px, bakış Peri'ye). Sahibine sayfa: `yanyana/parti3_eylul_onay.jpg` (üstte yeni, altta eski kot). **Sahibi ONAYLADI (14 Kasım, "Onaylıyorum") → `onayli/`.**
 
-**14 Kasım 2026 (öğleden sonra) — HAT TASARIMI: kesim, zemin, konuk kimliği (sahibinin onayıyla; üretim bu bilgisayarda YAPILMAZ).**
+**14 Kasım 2026 (öğleden sonra) — HAT TASARIMI: kesim, zemin, konuk kimliği (sahibinin onayıyla; Barbaros'un bilgisayarında yapıldı — orada üretim YAPILMAZ; üretim Oğuz Bey'in bilgisayarında).**
 - `arac_kes.js` yeni profil `peri_mavi` (gri-mavi zeminde mavi kot): V6'nın 8 Peri figürü (G17, G27–G33) temiz kesiliyor
   (kırıntı ≤ 100 px; eski `peri` profili G17'de 1858 px kot siliyordu). Gömmede Peri mesai/tül seti bu profille kesilir.
 - Yeni `kaynak/arac_zemin.py` + `uretim/referanslar/zeminler.tsv` (yalnız denenmiş iki zemin: bej, gri-mavi): zemin kıyafete

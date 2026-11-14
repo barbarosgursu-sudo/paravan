@@ -1,5 +1,8 @@
 # Vaka 6 — resim listesi (TAM: Parti 1–3, 85 numara)
 
+> **Durum sütunu 13 Kasım hâlidir, güncellenmiyor.** Bir resmin güncel durumu: `onayli/G<n>.png` varsa onaylı; yoksa üretilecek.
+> Özet ve sıradaki iş: `DURUM.md` en üst blok (14 Kasım: 40 onaylı, 46 kalan).
+
 13 Kasım 2026. Bu liste henüz TAM DEĞİL. Parti 1 yalnız hiçbir onaya bağlı olmayan **temeller**: Peri ve Cengo'nun kıyafet
 kartları, yeni yetişkin konukların temel figürleri (her biri iki zeminle, H4) ve mekânlar. Sahibi bunları gündüz onaylar;
 ardından Parti 2 (Peri/Cengo temel figürleri karttan, konuk kıyafet kartları temelden) ve Parti 3 (ifadeler, kareler,
