@@ -17,7 +17,7 @@
 - Belgelerde "sahibine onaya / sahibine sor" yazan üretim işlerinin hepsi Oğuz Bey'e gider: temel onayı, resim onayı/reddi,
   web listesi (filtreye takılanlar), tarz soruları.
 - Barbaros'a danışılan işler değişmedi: yeni kural ya da kural değişikliği, kod ve altyapı, yayın (aşağıda 11 Kasım rol ayrımı).
-- Bekleyen işler: G2, G86 ve G6 temellerini artık Oğuz Bey onaylar.
+- G2, G86 ve G6 temelleri 13 Kasım akşamı Barbaros'ça ONAYLANDI (`uretim/v6/DURUM.md`); aşağıdaki "onayını bekliyor" eskidi.
 - Kurulum 14 Kasım'da yapıldı, G47 denemesi onaylı (`uretim/KURULUM_ORTAK.md` → Kayıt).
 
 ## 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
