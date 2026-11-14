@@ -222,8 +222,8 @@ daralmayı kaldırır. `arac_akis_denetim.js`'in kardeşi: o dar ve derin (karar
 yüzeyleri yan yana), bu geniş ve sığ (vakanın tamamı akış sırasıyla).
 
 **Yeni oyunun karakter görselini kesmek için (14 Kasım 2026'dan beri yapay zekâyla, tek yöntem)** `cd kaynak && python arac_kes_yz.py <girdi> <çıktı.webp> --profil peri|cengo|konuk… [--genis]`
-— BiRefNet modeli; saç ve kol arasındaki zemini siler, kenardan zemin rengini arındırır, `KALINTI` sayısını uyarı olarak basar (`arac_paket.js`
-yalnız bu yöntemle kesileni gömer). Profil yalnız çerçeveyi verir. Eski renk kesimi (aşağıdaki `arac_kes.js`) yalnız karşılaştırma için:
+— BiRefNet modeli; saç ve kol arasındaki zemini siler, kenardan zemin rengini arındırır, `KALINTI` sayısını basar (`arac_paket.js`
+bunu kapı olarak okur). Profil yalnız çerçeveyi verir. Eski renk kesimi (aşağıdaki `arac_kes.js`) yalnız karşılaştırma için:
 `node arac_kes.js <girdi> <çıktı.webp> --profil peri|saten|cengo [--genis]`
 — arka planı saydamlar, karakterin SABİT çerçevesiyle kırpar (yoksa ifade değişince
 karakter ekranda zıplar). Profiller ve gerekçeleri `YENI_OYUN_GORSEL_PROMPTLARI.md`

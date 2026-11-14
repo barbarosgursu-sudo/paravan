@@ -232,7 +232,7 @@ Yalnız LISTE'deki her resim `onayli/`'deyken (yarım set gömülmez; oyunda esk
 3b. **Kesim yapay zekâyla (14 Kasım 2026, sahibinin kararı — tek yöntem):** `arac_paket.js` figürleri `arac_kes_yz.py` ile keser
    (BiRefNet modeli; saç arası ve kol arası zemini de siler, kenardaki zemin rengini arındırır; ilk kullanımda model ~970 MB
    indirilir, `onnxruntime` gerekir — `KURULUM_ORTAK.md`). Profil yalnız çerçeveyi verir. **Kapı:** kenarda zemin rengi
-   yalnız bu yöntemle kesilmiş figür gömülür (`--eski` ile `--yaz` durur); düz zemin rengi ölçüsü (`KALINTI`) yalnız uyarı. Eski renk kesimi (`arac_kes.js`) ve `arac_hale.py` artık
+   kalan figür (`KALINTI` > 300 px) HATA sayılır, `--yaz` durur. Eski renk kesimi (`arac_kes.js`) ve `arac_hale.py` artık
    kullanılmaz (V6'da hale adımı atlandı, Peri'nin saçında mavi, Cengo'nun kol arasında bej yayına çıktı). `--eski` yalnız karşılaştırma için.
 4. **Masa kartı (Ajansın Masası, vaka seçme):** kart afişinden yatay kırpık, yüzler görünür:
    `magick yeni_gorsel/kart_v<N>.webp -resize 900x -crop 900x500+0+<y> +repage -quality 80 yeni_gorsel/masa_v<N>.webp`;
