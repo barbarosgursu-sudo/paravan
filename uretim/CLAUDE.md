@@ -202,6 +202,18 @@ her el büyütülmüş ve hangi kolda olduğu yazılı; ayrıca istemin "TAM n k
 SAĞ el mi (başparmağın yönü), fazla/eksik el var mı. Doğruysa sayfayı sahibine göster ya da sonucu söyle; **onayı sahibi verir**
 (kendisi bakar ya da "onayla" der) → `python arac_el.py --onay V<N> G<n>`. Onaysız resim kapıdan (`arac_kapi.js`) geçmez; resim
 değişirse onay düşer. Kişi sayısı uyarısı yanlış alarm olabilir (sarılan iki kişi tek, manken kişi sayılır) — gözle karar verilir.
+- **Nesne tutan el: zorunlu yakın bakış (15 Kasım 2026, sahibi; V6 G25 ve G80 69 resimlik toplu onayda kaçtı).** Nesne tutan HER el
+  (tepsi, telefon, kutu, kâğıt) el sayfasından ayrıca 4–5 kat büyütülür: `magick <resim> -crop WxH+X+Y +repage -resize 500% <çıktı>`.
+  Bakılan: (1) başparmak görünüyor ve doğru tarafta mı, (2) beş parmak sayılıyor mu, (3) el bir ön kola bağlı mı, (4) nesnenin
+  kenarında fazla parmak var mı. Başparmak görünmüyorsa resim onaylanmaz, istemde §12 (`ISTEM_KALIPLARI.md`) kalıbıyla yeniden üretilir.
+  Nesne tutan eller topluca onaylanmaz; büyütülmüş görüntü sahibine resim resim gösterilir. Bu bakışı yapan Claude kendi okumasında
+  kuşkuluysa ("sol el gibi") bunu söyler, "doğru" demez.
+- **Denenip BIRAKILAN (15 Kasım 2026): yazılımla sağ/sol el.** DWPose kol tarafı × MediaPipe Hands el sınıfı (sağ/sol), ayrıca
+  ayna sınavı (aynalanan kırpıkta etiket dönmeli) ve 3B noktalardan el yönü. Sınav: bilinen 5 yanlış el (`v6/red/G65_red2`,
+  `G25_red1`, `G80_red1–3`) ve V3+V6 onaylılarının ~560 eli. En iyi ayarda 5 yanlıştan 2–3'ü yakalandı (biri hiç bulunamadı, biri
+  "sol" sanıldı), vaka başına 10–23 bayrak çıktı ve bayrakların hemen hepsi yanlış alarmdı: kırpıkta başka kişinin eli (DWPose kolu
+  bir kişiye, eli ötekine bağlıyor), kenetli eller, kolun ucunda çanta sapı / zarf / tül. 3B yön sinyali tutarsız. Boyalı resimde
+  sağ/sol hâlâ gözün işi; yukarıdaki yakın bakış ve `ISTEM_KALIPLARI.md` §12 bu yüzden var. Model yeniden denenecekse önce bu sınav.
 
 `prompts/G<n>.md`'yi, resmi ve referanslarını aç. Önce bütün olarak bak, sonra şüpheli bölgeleri 2–4 kat büyüt
 (eller, ayaklar ve ayakkabı, tişört ve göğüs, cihaz ekranı ve tuşları, tabelalar, kadraj kenarları). Vaka 3'te küçük

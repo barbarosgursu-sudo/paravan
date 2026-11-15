@@ -167,6 +167,18 @@ istendiği için kayma bütün Cengo setine geçti. Peri'nin kartı (tek kişi, 
 - **Denetimde tarz maddesi:** her yeni temel ve kart, aynı karakterin eski onaylı resmiyle ve eski konuklarla yan yana; kontur
   kalınlığı, boya dokusu, ışığın sıcaklığı ve yüz eskilerden ayrılıyorsa reddedilir (A.7). Kart da bu denetime girer.
 
+## 12. Nesne tutan el (15 Kasım 2026, sahibi: V6 G25 ve G80'de Gizem'in tepsi eli sol kolun ucunda SAĞ eldi)
+
+Üretici, kameraya YAKIN koldaki doğal eli çiziyor: G80'de tepsi uzaktaki sol elde istendi, iki düzeltmede de yakın sağ el çıktı;
+tepsi yakın ele verilince ilk seferde tuttu. Avuç yukarı taşıma pozu başparmağı saklıyor; G25'in ilk düzeltmesinde el dört parmaklı
+çıktı. Kurallar:
+- **Nesne yakın elde.** Tutulan nesne (tepsi, telefon, kutu, kâğıt) sahnenin izin verdiği ölçüde kameraya YAKIN kolun elinde istenir.
+  Figür kadrajın sağına dönükse yakın kol SAĞ kol, soluna dönükse SOL kol. Metin hangi eli söylemiyorsa el seçimi buna göre yapılır.
+- **Kenardan kavrama.** Tepsi ve kutu avuç yukarı taşınmaz; kenarından kavranır: "BAŞPARMAK tepsinin ÜSTÜNDE, açıkça görünür; DÖRT
+  parmak ALTINDA; elde TAM BEŞ parmak".
+- **İki el adıyla.** Her el hangi kolun ucundaysa o adla yazılır ("SAĞ eli tepsiyi, SOL eli telefonu tutuyor"). Sonuna "İki el
+  birbirinin aynası (biri sol, biri sağ); iki sağ el YOK" eklenir.
+
 ---
 
 ## Neden (Vaka 3, 6 Kasım 2026)
