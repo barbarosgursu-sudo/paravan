@@ -1,3 +1,9 @@
+**15 Kasım 2026, ~11:15 — ONAY 3 RESİMLERİ GÖMÜLDÜ (Barbaros'un bilgisayarı).** G73, G74, G90 Düzeltme 2 ile yeniden üretildi,
+tarz GEÇTİ (+0,113 / +0,125 / +0,104), göz: Müzeyyen G73'te korkmuş, G74'te gergin, eller kucakta (cepte değil); G90'da Gizem'in elleri
+boş, tepsi masada, Cengo kapıya/Eylül'e bakıyor. El onayı sahibinden (`el_onay.md`). Yalnız bu üçü gömüldü (K103, K104, K118);
+doğrulayıcı (iki oyun) PASS, iki derleme, testler, `arac_kapi.js V6 resim` GEÇTİ. Eskiler `red/G73_red1`, `G74_red1`, `G90_red2`.
+Bilinen: torba G73'te fermuarlı gelinlik kılıfı, G74'te bez kese (eski onaylı G74'te de farklıydı). **Sıradaki:** sızıntı + tablet + 19 boy.
+
 **15 Kasım 2026, öğle — ONAY 3 NOTLARI (sahibi oynadı) → 3 RESİM YENİDEN, 2 METİN ONARIMI.**
 - **Metin (yapıldı, veride):** satır 86 "Gizem tepsiyi masaya bırakıyor. …" (Gizem vapura tepsiyle çıkıyordu); matbaa satır 253 ikiye bölündü:
   "Büro boştu. Kâğıt işi varsa Cengo'yu Tahsin Usta'da bulursun, belliydi." + "Susam'dayken Tahsin Usta'nın çayını her sabah ben getirirdim. …"

@@ -61,8 +61,8 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G70 f37000929e24
 - G71 9cd28715c4f8
 - G72 326a3b5313bc
-- G73 f13273af472a
-- G74 78ecd9fc3ef7
+- G73 50c51a0e87b5
+- G74 6f6ef0314922
 - G75 c00950697aa3
 - G76 cdf8a7ccab68
 - G77 c5b813689e29
@@ -76,7 +76,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 - G87 e48696e5ed6c
 - G88 b12f0dc3a1fc
 - G89 701da10a595f
-- G90 bfebb354d848
+- G90 b40c3afe6e98
 - G91 d48f420803c0
 - G92 d0d92addb20d
 - G93 6d70e89139ea
