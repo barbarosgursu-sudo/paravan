@@ -271,13 +271,13 @@ rulo tuvali çekip çerçeve odasının kapısından fırlar.
 
 | sonuç | ücret | yüzleşme (özet) |
 |---|---|---|
-| Nesrin, doğru kanıt | 50.000 ₺ | Peri iki kanıtı sayar: aslıyla iki hafta baş başa kalan ve bu kopyayı yapabilecek el. Nesrin: "Ben yalnız çerçeveledim." Peri: "Kopyacı onarım izini bile kopyalamış. Onarımı siz yaptınız, Nesrin Hanım." Kaan girer: "On beşi alıyorum." Nesrin rulo tuvali kapar, kaçar. |
+| Nesrin, doğru kanıt | 50.000 ₺ | Peri iki kanıtı sayar: aslıyla iki hafta baş başa kalan ve bu kopyayı yapabilecek el. Nesrin: "Ben yalnız çerçeveledim." Peri: "Aslıyla baş başa kalan da, bu kopyayı yapabilecek el de sizsiniz." *(adım 5: sızıntı — onarım izi yalnız A'da, onarım yalnız D'de)* Kaan girer: "On beşi alıyorum." Nesrin rulo tuvali kapar, kaçar. |
 | Nesrin, zayıf kanıt | 40.000 ₺ | Nesrin: "Otuz yıldır tablo onarırım; her tabloyu ben mi değiştirdim?" Peri tutturamaz. Kaan girer: "On beşi alıyorum." Nesrin kapar, kaçar. |
 | Şükrü | 30.000 ₺ | Peri Şükrü'yü suçlar. Şükrü: "Para aldım, evet. Bir rapor için. Kopya için değil; ben o tabloyu bir saat gördüm, sonra İzmir'deydim." Vedat kızarır. Kaan girer: "On beşi alıyorum." Nesrin kapar, kaçar. |
 | Vedat | 30.000 ₺ | Vedat: "Kendi tablomu kopyalatıp kendi adımla mı satayım? Sahte çıkarsa beni yakarlar!" Ağzından kaçar: "Ben yalnız onarttım!" Kaan girer: "On beşi alıyorum." Nesrin kapar, kaçar. |
 
 - **Dosya çözüldü:** yolların sade dili (§7); masumlar *(yalnız yüzleşme + itirafın söylediği)*:
-  *Şükrü Bey masumdu: para aldı ama yalnız onarımı gizlemek için; tabloyu Nesrin Hanım değiştirmişti.* ·
+  *Şükrü Bey masumdu: raporu önceden yazdı, o kadar; tabloyu Nesrin Hanım değiştirmişti.* *(adım 5: "para" itirafta yok)* ·
   *Vedat Bey masumdu: tabloyu onartıp sakladı, o kadar; kopyayı Nesrin Hanım yapmıştı.*
 - **Kesinti:** zayıf → "Anlaşılan ücret 50.000 ₺. Kanıtın zayıf kaldı; Süheyla Hanım 10.000 ₺ kesti." · yanlış →
   "Anlaşılan ücret 50.000 ₺. Masum birini suçladın; Süheyla Hanım 20.000 ₺ kesti."

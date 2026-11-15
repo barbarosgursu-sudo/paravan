@@ -432,7 +432,8 @@
         "K148",
         "K149",
         "K150",
-        "K151"
+        "K151",
+        "K152"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -7818,7 +7819,7 @@
               },
               {
                 "k": "not",
-                "m": "Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam; elinde mor ışıklı bir lamba.",
+                "m": "Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam.",
                 "gir": "kaan",
                 "gi": "normal",
                 "ekran": "kaan"
@@ -7901,7 +7902,7 @@
               {
                 "k": "kaan",
                 "i": "heyecanli",
-                "m": "Evet! Ama Şükrü Bey'in raporu \"onarım görmemiş\" diyor. (raporu tutarak) Otuz yıllık uzman, ha?",
+                "m": "Evet! Ama Şükrü Bey'in raporu \"onarım görmemiş\" diyor. Otuz yıllık uzman, ha?",
                 "kime": "cengo",
                 "ekran": "cengo+kaan",
                 "yuz": "cengo.normal"
@@ -8050,14 +8051,7 @@
                 "ekran": "peri+sukru",
                 "yuz": "sukru.kirgin"
               },
-              {
-                "k": "not",
-                "m": "Şükrü bardağını yavaşça masaya bırakıyor.",
-                "gir": "sukru",
-                "gi": "dik",
-                "ekran": "peri+sukru",
-                "yuz": "peri.kas"
-              },
+              {"k": "not", "m": "Şükrü bir an susuyor.", "gir": "sukru", "gi": "dik", "ekran": "sukru"},
               {
                 "k": "sukru",
                 "i": "dik",
@@ -8108,7 +8102,7 @@
               },
               {
                 "k": "not",
-                "m": "Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam; elinde bir anahtar halkası.",
+                "m": "Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.",
                 "gir": "ercan",
                 "gi": "normal",
                 "ekran": "ercan"
@@ -8151,8 +8145,7 @@
                 "m": "Ercan etrafına bakıp sesini alçaltıyor.",
                 "gir": "ercan",
                 "gi": "fisilti",
-                "ekran": "cengo+ercan",
-                "yuz": "cengo.kas"
+                "ekran": "ercan"
               },
               {
                 "k": "ercan",
@@ -8193,7 +8186,6 @@
                 "ekran": "peri+ercan",
                 "yuz": "peri.merakli"
               },
-              {"k": "not", "m": "Peri defterine yazıyor.", "gir": "peri", "ekran": "peri+cengo", "yuz": "cengo.kas"},
               {
                 "k": "peri",
                 "i": "kas",
@@ -8244,7 +8236,7 @@
               },
               {
                 "k": "not",
-                "m": "Bordo kadife ceketli, kel, kısa kır sakallı, kalın siyah gözlüklü iri bir adam; elinde bir koli bandı.",
+                "m": "Bordo kadife ceketli, kel, kısa kır sakallı, kalın siyah gözlüklü iri bir adam.",
                 "gir": "vedat",
                 "gi": "sakaci",
                 "ekran": "vedat"
@@ -8308,11 +8300,10 @@
               },
               {
                 "k": "not",
-                "m": "Vedat koli bandını bırakıp bir kutunun üstüne oturuyor.",
+                "m": "Vedat bir an susuyor; omuzları düşüyor.",
                 "gir": "vedat",
                 "gi": "yakalanmis",
-                "ekran": "peri+vedat",
-                "yuz": "peri.kas"
+                "ekran": "vedat"
               },
               {
                 "k": "vedat",
@@ -8339,7 +8330,7 @@
               {
                 "k": "cengo",
                 "i": "kas",
-                "m": "Raporu yazan Şükrü Bey'e de bir şey verdiniz mi?",
+                "m": "Şükrü Bey raporuna \"onarım görmemiş\" yazdı. O da mı bilmiyordu?",
                 "kime": "vedat",
                 "ekran": "cengo+vedat",
                 "yuz": "vedat.yakalanmis"
@@ -8359,14 +8350,6 @@
                 "kime": "vedat",
                 "ekran": "peri+vedat",
                 "yuz": "vedat.sakaci"
-              },
-              {
-                "k": "not",
-                "m": "Vedat koli bandını yeniden alıyor; bir kutuyu kapatmaya uğraşıyor.",
-                "gir": "vedat",
-                "gi": "yakalanmis",
-                "ekran": "peri+vedat",
-                "yuz": "peri.kas"
               }
             ]
           }
@@ -8450,13 +8433,13 @@
                 "m": "Nesrin sigarasından uzun bir nefes çekiyor.",
                 "gir": "nesrin",
                 "gi": "sigara",
-                "ekran": "cengo+nesrin",
-                "yuz": "cengo.normal"
+                "ekran": "nesrin"
               },
               {
                 "k": "nesrin",
                 "i": "sigara",
                 "m": "Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı.",
+                "kime": "cengo",
                 "ekran": "cengo+nesrin",
                 "yuz": "cengo.normal"
               },
@@ -8464,6 +8447,7 @@
                 "k": "nesrin",
                 "i": "soguk",
                 "m": "Sahibi ya. Kim ne der.",
+                "kime": "cengo",
                 "ekran": "cengo+nesrin",
                 "yuz": "cengo.normal"
               },
@@ -8485,12 +8469,11 @@
               },
               {
                 "k": "not",
-                "m": "Nesrin sigarasını söndürüp kalkıyor.",
+                "m": "Nesrin içeri dönüyor.",
                 "cik": true,
                 "gir": "nesrin",
                 "gi": "normal",
-                "ekran": "cengo+nesrin",
-                "yuz": "cengo.yumusak"
+                "ekran": "nesrin"
               },
               {
                 "k": "cengo",
@@ -8526,7 +8509,7 @@
               },
               {
                 "k": "not",
-                "m": "Yün bereli, gür kır favorili, kareli gömleğinin üstünde şişme yelek giymiş iri bir adam; elinde bir deste kartpostal.",
+                "m": "Yün bereli, gür kır favorili, kareli gömleğinin üstünde şişme yelek giymiş iri bir adam.",
                 "gir": "necmi",
                 "gi": "normal",
                 "ekran": "necmi"
@@ -8542,7 +8525,7 @@
               },
               {
                 "k": "not",
-                "m": "Necmi Peri'yi görünce kartpostalları düşürüyor.",
+                "m": "Necmi Peri'yi görünce donup kalıyor.",
                 "gir": "necmi",
                 "gi": "heyecanli",
                 "ekran": "peri+necmi",
@@ -8551,7 +8534,7 @@
               {
                 "k": "necmi",
                 "i": "heyecanli",
-                "m": "Kraliçe! 2009! Bekleyin! (desteden bir kartpostal çekip uzatarak) Tacınızın fotoğrafı, bende kartpostal!",
+                "m": "Kraliçe! 2009! Bekleyin! Tacınızın fotoğrafı, bende kartpostal!",
                 "kime": "peri",
                 "ekran": "peri+necmi",
                 "yuz": "peri.normal"
@@ -8582,7 +8565,7 @@
               {
                 "k": "cengo",
                 "i": "kas",
-                "m": "Böyle kalsın, Necmi abi. Sen bana bir eski tuval söyle. Son haftalarda kim aldı?",
+                "m": "Böyle kalsın, Necmi abi. Süheyla Hanım'ın müzayede evinden son haftalarda sana kim geldi, ne aldı?",
                 "kime": "necmi",
                 "ekran": "cengo+necmi",
                 "yuz": "necmi.normal"
@@ -8592,13 +8575,12 @@
                 "m": "Necmi tezgâhın altından buruşuk bir defter çıkarıp sayfalarını çeviriyor.",
                 "gir": "necmi",
                 "gi": "defter",
-                "ekran": "cengo+necmi",
-                "yuz": "cengo.kas"
+                "ekran": "necmi"
               },
               {
                 "k": "necmi",
                 "i": "defter",
-                "m": "İki hafta önce, pazar. Şu boyda, yirmilerden kalma kötü bir manzara. Üstüne boyamak için alırlar.",
+                "m": "İki hafta önce, pazar. Bir eski tuval: şu boyda, yirmilerden kalma kötü bir manzara. Üstüne boyamak için alırlar.",
                 "kime": "cengo",
                 "ekran": "cengo+necmi",
                 "yuz": "cengo.kas"
@@ -8613,7 +8595,7 @@
               {
                 "k": "peri",
                 "i": "merakli",
-                "m": "Hangi evin?",
+                "m": "O hesapla kim alışveriş yapar?",
                 "kime": "necmi",
                 "ekran": "peri+necmi",
                 "yuz": "necmi.defter"
@@ -8621,7 +8603,7 @@
               {
                 "k": "necmi",
                 "i": "normal",
-                "m": "Süheyla Hanım'ın müzayede evinin. O hesapla benden yıllardır iki kişi alır: Şükrü Bey ve Nesrin Hanım.",
+                "m": "Süheyla Hanım'ın evinin hesabıyla benden yıllardır iki kişi alır: Şükrü Bey ve Nesrin Hanım.",
                 "kime": "peri",
                 "ekran": "peri+necmi",
                 "yuz": "peri.merakli"
@@ -8645,7 +8627,7 @@
               {
                 "k": "peri",
                 "i": "kas",
-                "m": "(kartpostalı çantasına koyarak) Doksan lira, Cengo. Deftere yaz.",
+                "m": "Doksan lira, Cengo. Deftere yaz.",
                 "kime": "cengo",
                 "ekran": "peri+cengo",
                 "yuz": "cengo.kas"
@@ -8760,7 +8742,7 @@
             "Kopyanın eski tuvalini evin hesabıyla yalnız iki kişi alabilirdi (Nesrin ya da Şükrü) + Şükrü tabloyu bir saat gördü, sonra İzmir'deydi; kalan Nesrin'di."
           ],
           "masum": {
-            "sukru": "Şükrü Bey masumdu: para aldı ama yalnız onarımı gizleyen rapor için; tabloyu Nesrin Hanım değiştirmişti.",
+            "sukru": "Şükrü Bey masumdu: raporu önceden yazdı, o kadar; tabloyu Nesrin Hanım değiştirmişti.",
             "vedat": "Vedat Bey masumdu: tabloyu gizlice onarttı, o kadar; kopyayı Nesrin Hanım yapmıştı."
           }
         },
@@ -8844,7 +8826,7 @@
               "m": "Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.",
               "gir": "suheyla",
               "gi": "normal",
-              "ekran": "suheyla"
+              "kare": "K152"
             },
             {
               "k": "suheyla",
@@ -9006,13 +8988,6 @@
               "kare": "K126"
             },
             {
-              "k": "not",
-              "m": "Peri kataloğu kapatıyor.",
-              "gir": "peri",
-              "ekran": "peri+suheyla",
-              "yuz": "suheyla.normal"
-            },
-            {
               "k": "peri",
               "i": "normal",
               "m": "Ücretimiz elli bin lira. İş bitince ödenir.",
@@ -9041,7 +9016,7 @@
             {
               "k": "suheyla",
               "i": "normal",
-              "m": "Nasıl isterseniz. Akşam yedi. (kapıdan çıkarken) Hiç geç kalmayın.",
+              "m": "Nasıl isterseniz. Akşam yedi. Hiç geç kalmayın.",
               "cik": true,
               "kime": "peri",
               "ekran": "peri+suheyla",
@@ -9058,8 +9033,9 @@
             {
               "k": "not",
               "m": "Kapı kapanıyor. Cengo masadaki kataloğu açıp on dört numaraya bakıyor.",
-              "ekran": "peri+cengo",
-              "yuz": "peri.normal+cengo.normal"
+              "gir": "cengo",
+              "ekran": "cengo",
+              "yuz": "cengo.normal"
             },
             {
               "k": "cengo",
@@ -9086,7 +9062,7 @@
               "ekran": "peri+cengo",
               "yuz": "peri.merakli"
             },
-            {"k": "not", "m": "Peri bir deftere bir şeyler yazıp çiziyor.", "ekran": "peri+cengo", "yuz": "cengo.gulen"},
+            {"k": "not", "m": "Peri bir deftere bir şeyler yazıp çiziyor.", "ekran": "peri", "yuz": "peri.kas"},
             {
               "k": "peri",
               "i": "kas",
@@ -9241,18 +9217,12 @@
             {
               "k": "peri",
               "i": "kas",
-              "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor. Kopyacı onarım izini bile kopyalamış; onarımı siz yaptınız.",
+              "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor. Aslıyla baş başa kalan da, bu kopyayı yapabilecek el de sizsiniz.",
               "kime": "nesrin",
               "ekran": "peri+nesrin",
               "yuz": "nesrin.soguk"
             },
-            {
-              "k": "not",
-              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
-              "gir": "kaan",
-              "gi": "normal",
-              "ekran": "kaan"
-            },
+            {"k": "not", "m": "Kaan içeri giriyor.", "gir": "kaan", "gi": "normal", "ekran": "kaan"},
             {
               "k": "kaan",
               "i": "normal",
@@ -9331,13 +9301,7 @@
               "ekran": "peri+nesrin",
               "yuz": "nesrin.soguk"
             },
-            {
-              "k": "not",
-              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
-              "gir": "kaan",
-              "gi": "normal",
-              "ekran": "kaan"
-            },
+            {"k": "not", "m": "Kaan içeri giriyor.", "gir": "kaan", "gi": "normal", "ekran": "kaan"},
             {
               "k": "kaan",
               "i": "normal",
@@ -9420,16 +9384,9 @@
               "m": "Vedat kızarıp yüzünü tabloya çeviriyor.",
               "gir": "vedat",
               "gi": "yakalanmis",
-              "ekran": "peri+vedat",
-              "yuz": "peri.kas"
+              "ekran": "vedat"
             },
-            {
-              "k": "not",
-              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
-              "gir": "kaan",
-              "gi": "normal",
-              "ekran": "kaan"
-            },
+            {"k": "not", "m": "Kaan içeri giriyor.", "gir": "kaan", "gi": "normal", "ekran": "kaan"},
             {
               "k": "kaan",
               "i": "normal",
@@ -9502,17 +9459,11 @@
             {
               "k": "vedat",
               "i": "yakalanmis",
-              "m": "Ben yalnız onarttım! (ağzını kapatarak) …Yani.",
+              "m": "Ben yalnız onarttım! …Yani.",
               "ekran": "peri+vedat",
               "yuz": "peri.kas"
             },
-            {
-              "k": "not",
-              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
-              "gir": "kaan",
-              "gi": "normal",
-              "ekran": "kaan"
-            },
+            {"k": "not", "m": "Kaan içeri giriyor.", "gir": "kaan", "gi": "normal", "ekran": "kaan"},
             {
               "k": "kaan",
               "i": "normal",
@@ -9711,7 +9662,7 @@
             {
               "k": "gizem",
               "i": "triko_tepsi",
-              "m": "Elbisem bir müzayedeye gitti, altın olup döndü. (Peri'nin kulağının arkasını göstererek) Burada hâlâ altın var, Peri Hanım.",
+              "m": "Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım.",
               "gir": "gizem",
               "kime": "peri",
               "ekran": "peri+gizem",

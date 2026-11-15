@@ -741,7 +741,8 @@
     "ercan.fisilti",
     "necmi.normal",
     "necmi.heyecanli",
-    "necmi.defter"
+    "necmi.defter",
+    "K152"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -856,7 +857,8 @@
     "K149": "sus: Peri elinde tacıyla, arkada alkışlayan salon",
     "K150": "sus payı: Süheyla tacı kutusuyla Peri'ye uzatıyor",
     "K151": "Cengo masaya buruşuk paraları sayıyor; koltuğunun altında taç kutusu",
-    "MASA_V7": "Masada Süheyla Hanım'ın kataloğu ve bir büyüteç"
+    "MASA_V7": "Masada Süheyla Hanım'ın kataloğu ve bir büyüteç",
+    "K152": "Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız)"
   },
   "kesim_yz": [
     "muzeyyen.normal",

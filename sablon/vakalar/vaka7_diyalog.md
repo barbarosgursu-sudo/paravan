@@ -36,7 +36,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade. {kime: peri, ekran: peri+cengo, yuz: peri.sasirmis}
 **PERİ [kas]:** Papyonun yamuk. {ekran: peri+cengo, yuz: cengo.kas}
 **CENGO [kas]:** Gelin de öyle dedi. Böyle kalsın. {ekran: peri+cengo, yuz: peri.kas}
-*Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.* {gir: suheyla, gi: normal, ekran: suheyla}
+*Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.* {gir: suheyla, gi: normal, kare: K152}
 **SÜHEYLA [normal]:** Paravan Dedektiflik? Süheyla. Nişantaşı'nda bir müzayede evim var. Vaktim az. {gir: suheyla, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 *Süheyla Peri'yi baştan aşağı süzüyor.* {gir: suheyla, gi: suzuyor, ekran: peri+suheyla, yuz: peri.normal}
 **SÜHEYLA [suzuyor]:** Sizi bir yerden tanıyorum. Kozmetik reklamı mı? {kime: peri, ekran: peri+suheyla, yuz: peri.normal}
@@ -60,24 +60,23 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Açık sayfada bir fotoğraf: kadife bir yastığın üstünde kristal taşlı gümüş bir taç. Altında: "14. Güzellik yarışması tacı, 2009."* {kare: D23}
 *Peri sayfaya bakıp kalıyor. Cengo Peri'ye bakıyor.* {kare: K126}
 **SÜHEYLA [normal]:** On dört de bu akşam satılıyor. Kim alır bilmem; eski bir güzellik kraliçesinin tacıymış. {kime: peri, kare: K126}
-*Peri kataloğu kapatıyor.* {gir: peri, ekran: peri+suheyla, yuz: suheyla.normal}
 **PERİ [normal]:** Ücretimiz elli bin lira. İş bitince ödenir. {kime: suheyla, ekran: peri+suheyla, yuz: suheyla.normal}
 **SÜHEYLA [sert]:** İş satış başlamadan bitecek. Akşam yedide misafirim olarak gelin; kimse dedektif olduğunuzu bilmesin. {kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 **SÜHEYLA [suzuyor]:** Gece elbisesi şart. *(Cengo'ya bakıp)* Smokin hazır, görüyorum. {kime: cengo, ekran: cengo+suheyla, yuz: cengo.kas}
 *Süheyla Cengo'nun papyonuna uzanıyor; Cengo bir adım geri çekiliyor.* {kare: K127}
 **CENGO [kas]:** Böyle kalsın, Süheyla Hanım. {kime: suheyla, kare: K127}
-**SÜHEYLA [normal]:** Nasıl isterseniz. Akşam yedi. *(kapıdan çıkarken)* Hiç geç kalmayın. {cik, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
+**SÜHEYLA [normal]:** Nasıl isterseniz. Akşam yedi. Hiç geç kalmayın. {cik, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 
 ## sahne konusma
 ⚙ arka: A6 · figurler: peri, cengo · set: manto · cset: smokin
 ⚙ akış: Süheyla çıkmış; büroda Peri ve Cengo. Cengo taçtan söz eder; Peri geçiştirir. Kasa hesabı (şaka 2). Gizem askıda bir elbiseyle gelir; Peri paravanın arkasında değişir, çıkar: çekicilik anı. Plan: depo, Şükrü, Vedat, Nesrin; Cengo: vale, Feriköy. İpucu adlarındaki kişiler (Şükrü, Vedat, Nesrin) girişte duyuldu (K18).
 
-*Kapı kapanıyor. Cengo masadaki kataloğu açıp on dört numaraya bakıyor.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
+*Kapı kapanıyor. Cengo masadaki kataloğu açıp on dört numaraya bakıyor.* {gir: cengo, ekran: cengo, yuz: cengo.normal}
 **CENGO [yumusak]:** Senin tacın, değil mi Peri? Ona neden söylemedin? {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 **PERİ [kas]:** Müşteri tablo için geldi, Cengo. Benim tacım beni ilgilendirir. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 **PERİ [merakli]:** Kasada ne var? {ekran: peri+cengo, yuz: cengo.yumusak}
 **CENGO [gulen]:** Senin sandığından az, benim sandığımdan çok. {kime: peri, ekran: peri+cengo, yuz: peri.merakli}
-*Peri bir deftere bir şeyler yazıp çiziyor.* {ekran: peri+cengo, yuz: cengo.gulen}
+*Peri bir deftere bir şeyler yazıp çiziyor.* {ekran: peri, yuz: peri.kas}
 **PERİ [kas]:** Gece elbisesi lazım. Hacizde hepsi gitti. Bir elbise kiralamak ne tutar? {kime: cengo, ekran: peri+cengo, yuz: cengo.gulen}
 **CENGO [kas]:** Kiralamaya gerek yok. Gizem! {ekran: peri+cengo, yuz: peri.kas}
 *Gizem çay ocağından geliyor; elinde askıda gece mavisi saten bir elbise.* {gir: gizem, gi: triko_aski, ekran: gizem}
@@ -103,7 +102,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: kopyayı yapacak eller Nesrin ya da Şükrü (Vedat yok). Rapor yalanı Şükrü'yü gösterir, masum açıklaması var (onarımı gizlemek; B, C).
 
 *Nişantaşı. Müzayede evinin deposu: raflarda çerçeveler, ortada bir sehpada yaldız çerçeveli bir Boğaz manzarası.* {arka: A50, mekan}
-*Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam; elinde mor ışıklı bir lamba.* {gir: kaan, gi: normal, ekran: kaan}
+*Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam.* {gir: kaan, gi: normal, ekran: kaan}
 **KAAN [heyecanli]:** Süheyla Hanım'ın misafirleri! Kaan, baş eksper. Siz… sizi bir yerden… {gir: kaan, kime: peri, ekran: peri+kaan, yuz: peri.normal}
 **PERİ [kas]:** Bir yerden, evet. Tabloya bakacaktık, Kaan Bey. {kime: kaan, ekran: peri+kaan, yuz: kaan.heyecanli}
 *Kaan ışıkları kısıyor, mor lambayı tablonun üstünde gezdiriyor. Tablonun her yeri aynı, düz bir renkte parlıyor.* {kare: D24}
@@ -115,7 +114,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Kaan lambayı tablonun sağ alt köşesine tutuyor.* {kare: D25}
 **KAAN [ciddi]:** Şuna bakın. Köşede bir yırtık onarımının izi var. Kopyacı onarımın izini bile kopyalamış. {kare: D25}
 **CENGO [normal]:** Yani aslı yırtılmış, onarılmış. {kime: kaan, ekran: cengo+kaan, yuz: kaan.ciddi}
-**KAAN [heyecanli]:** Evet! Ama Şükrü Bey'in raporu "onarım görmemiş" diyor. *(raporu tutarak)* Otuz yıllık uzman, ha? {kime: cengo, ekran: cengo+kaan, yuz: cengo.normal}
+**KAAN [heyecanli]:** Evet! Ama Şükrü Bey'in raporu "onarım görmemiş" diyor. Otuz yıllık uzman, ha? {kime: cengo, ekran: cengo+kaan, yuz: cengo.normal}
 **PERİ [kas]:** Süheyla Hanım'a bunu ben söylerim, Kaan Bey. Şimdilik kimseye bir şey demeyin. {kime: kaan, ekran: peri+kaan, yuz: kaan.heyecanli}
 **KAAN [normal]:** Söz. *(Peri'ye bakarak)* Sizi bir yerden tanıyorum, eminim. {kime: peri, ekran: peri+kaan, yuz: peri.kas}
 **CENGO [gulen]:** Herkes onu bir yerden tanıyor. Kimse nereden tanıdığını bilmiyor. {kime: kaan, ekran: cengo+kaan, yuz: kaan.normal}
@@ -141,7 +140,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **ŞÜKRÜ [kirgin]:** Bu eve otuz yıl verdim. Süheyla'yı çocukken kucağımda taşırdım. Ortaklık beklemedim; bir teşekkür bekledim. {kime: peri, ekran: peri+sukru, yuz: peri.merakli}
 **ŞÜKRÜ [kirgin]:** Üç ay önce baş eksper diye yirmi sekiz yaşında bir çocuk getirdi. {ekran: peri+sukru, yuz: peri.merakli}
 **PERİ [kas]:** Kırgın bir adam yanlış bir rapora kolay imza atar, Şükrü Bey. {kime: sukru, ekran: peri+sukru, yuz: sukru.kirgin}
-*Şükrü bardağını yavaşça masaya bırakıyor.* {gir: sukru, gi: dik, ekran: peri+sukru, yuz: peri.kas}
+*Şükrü bir an susuyor.* {gir: sukru, gi: dik, ekran: sukru}
 **ŞÜKRÜ [dik]:** Bu evde hepimizin bir rakamı var, Peri Hanım. Sizin de vardır. {kime: peri, ekran: peri+sukru, yuz: peri.kas}
 **PERİ [sasirmis]:** Adımı biliyorsunuz. {kime: sukru, ekran: peri+sukru, yuz: sukru.dik}
 **ŞÜKRÜ [normal]:** Süheyla söyledi. Hemşire olduğunuzu söylemedi; onu ben bildim. {kime: peri, ekran: peri+sukru, yuz: peri.sasirmis}
@@ -152,18 +151,17 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: zarf Vedat ile Şükrü'yü gösterir (rüşvet; masum açıklaması var: onarımı gizlemek). Paket içeri girdi: kime verildiği görülmedi.
 
 *Nişantaşı. Müzayede evinin kapısı; kaldırımda küçük bir vale kulübesi.* {arka: A52, mekan}
-*Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam; elinde bir anahtar halkası.* {gir: ercan, gi: normal, ekran: ercan}
+*Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.* {gir: ercan, gi: normal, ekran: ercan}
 **ERCAN [gulen]:** Karaköy otoparkının Cengo'su! Smokin mi o? {gir: ercan, kime: cengo, ekran: cengo+ercan, yuz: cengo.normal}
 **CENGO [kas]:** Kiralık, Ercan. Pazartesi iade. {kime: ercan, ekran: cengo+ercan, yuz: ercan.gulen}
 **ERCAN [gulen]:** Papyonun yamuk ama. Düzelteyim mi? {kime: cengo, ekran: cengo+ercan, yuz: cengo.kas}
 **CENGO [kas]:** Böyle kalsın. Sana bir şey soracağım. Bu kapıdan son üç haftada ne girdi, ne çıktı? {kime: ercan, ekran: cengo+ercan, yuz: ercan.gulen}
-*Ercan etrafına bakıp sesini alçaltıyor.* {gir: ercan, gi: fisilti, ekran: cengo+ercan, yuz: cengo.kas}
+*Ercan etrafına bakıp sesini alçaltıyor.* {gir: ercan, gi: fisilti, ekran: ercan}
 **ERCAN [fisilti]:** Üç hafta önce, bir salı. Vedat Bey arabasını bıraktı; tam şurada Şükrü Bey'e kalın bir zarf verdi. {kime: cengo, ekran: cengo+ercan, yuz: cengo.kas}
 **ERCAN [fisilti]:** Ben zarf tanırım, Cengo. Otuz yıldır bahşişi zarfla alırım. O zarf bahşiş değildi. {ekran: cengo+ercan, yuz: cengo.kas}
 **PERİ [merakli]:** Sonra ne oldu? {gir: ercan, kime: ercan, ekran: peri+ercan, yuz: ercan.fisilti}
 **ERCAN [fisilti]:** Aynı gün Vedat Bey bagajdan büyük, düz bir paket çıkardı; battaniyeye sarılıydı. Arka kapıdan içeri taşıdı. {kime: peri, ekran: peri+ercan, yuz: peri.merakli}
 **ERCAN [normal]:** On dakika sonra eli boş döndü. Kime verdi, görmedim; arka kapının içi bana görünmez. {ekran: peri+ercan, yuz: peri.merakli}
-*Peri defterine yazıyor.* {gir: peri, ekran: peri+cengo, yuz: cengo.kas}
 **PERİ [kas]:** Zarf Şükrü Bey'e, paket içeriye. Vedat Bey çok meşgul bir adam. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
 **ERCAN [gulen]:** *(Peri'ye)* Hanımefendi, sizin arabanız hangisi? {kime: peri, ekran: peri+ercan, yuz: peri.kas}
 **PERİ [kas]:** Metroyla geldik. {kime: ercan, ekran: peri+ercan, yuz: ercan.gulen}
@@ -174,7 +172,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: aslıyla haftalarca kalanlar Vedat (yıllarca duvarında) ve Nesrin (iki hafta). Vedat'ın fırçası yok (yalnız el tarafında aklanır).
 
 *Maçka. Geniş bir salon; her yerde taşınma kutuları. Duvarda, etrafı solmuş boyanın ortasında solmamış bir dikdörtgen; üstünde bir çivi.* {arka: A53, mekan}
-*Bordo kadife ceketli, kel, kısa kır sakallı, kalın siyah gözlüklü iri bir adam; elinde bir koli bandı.* {gir: vedat, gi: sakaci, ekran: vedat}
+*Bordo kadife ceketli, kel, kısa kır sakallı, kalın siyah gözlüklü iri bir adam.* {gir: vedat, gi: sakaci, ekran: vedat}
 **VEDAT [sakaci]:** Süheyla mı gönderdi? *(Peri'ye)* Durun, sizi tanıdım: hava durumu! Akşam yağmur var mı? {gir: vedat, kime: peri, ekran: peri+vedat, yuz: peri.normal}
 **PERİ [kas]:** Fırtına var, Vedat Bey. Tablonuz bu duvarda mı asılıydı? {kime: vedat, ekran: peri+vedat, yuz: vedat.sakaci}
 **VEDAT [sakaci]:** Kırk yıl. Babamdan kaldı. Lizbon'a götüremem; orada nem çok, Hüsnü Faik sevmez. {kime: peri, ekran: peri+vedat, yuz: peri.kas}
@@ -182,14 +180,13 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Vedat bir an duvardaki dikdörtgene bakıyor, sonra Peri'ye gülüyor.* {gir: vedat, gi: kacamak, ekran: peri+vedat, yuz: peri.merakli}
 **VEDAT [kacamak]:** İnmedi. Süheyla fotoğraf çekerken bir indi, o kadar. {kime: peri, ekran: peri+vedat, yuz: peri.merakli}
 **PERİ [kas]:** Yalan söylerken o duvara bakıyorsunuz, Vedat Bey. Bir şey söyleyecekseniz şimdi söyleyin. {kime: vedat, ekran: peri+vedat, yuz: vedat.kacamak}
-*Vedat koli bandını bırakıp bir kutunun üstüne oturuyor.* {gir: vedat, gi: yakalanmis, ekran: peri+vedat, yuz: peri.kas}
+*Vedat bir an susuyor; omuzları düşüyor.* {gir: vedat, gi: yakalanmis, ekran: vedat}
 **VEDAT [yakalanmis]:** Düştü. Üç hafta önce, bir pazar. Çivi çıktı, tablo sehpanın köşesine geldi. Köşesi yırtıldı. {kime: peri, ekran: peri+vedat, yuz: peri.kas}
 **VEDAT [yakalanmis]:** Onarılmış bir Hüsnü Faik iki milyon eder, onarılmamışı altı. Katalog çoktan basılmıştı. {ekran: peri+vedat, yuz: peri.kas}
 **VEDAT [yakalanmis]:** Kimse duymasın diye Nesrin Hanım'a gizlice onarttım. Tablo iki hafta ondaydı. Sonra tabloyu müzayedeye ben teslim ettim. {ekran: peri+vedat, yuz: peri.kas}
-**CENGO [kas]:** Raporu yazan Şükrü Bey'e de bir şey verdiniz mi? {kime: vedat, ekran: cengo+vedat, yuz: vedat.yakalanmis}
+**CENGO [kas]:** Şükrü Bey raporuna "onarım görmemiş" yazdı. O da mı bilmiyordu? {kime: vedat, ekran: cengo+vedat, yuz: vedat.yakalanmis}
 **VEDAT [sakaci]:** Şükrü'ye mi? Ben kimseye para vermem; ben reklamcıyım. Ben para alırım. {kime: cengo, ekran: cengo+vedat, yuz: cengo.kas}
 **PERİ [kas]:** Kimse paradan söz etmedi, Vedat Bey. {kime: vedat, ekran: peri+vedat, yuz: vedat.sakaci}
-*Vedat koli bandını yeniden alıyor; bir kutuyu kapatmaya uğraşıyor.* {gir: vedat, gi: yakalanmis, ekran: peri+vedat, yuz: peri.kas}
 
 ## ipucu nesrin
 ⚙ arka: A54 · figurler: peri, cengo · set: gala · cset: smokin
@@ -205,12 +202,12 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Biliyorum, Nesrin Hanım. Bilerek giydim. {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
 **CENGO [normal]:** Hüsnü Faik'i siz çerçevelemişsiniz. Bir şey dikkatinizi çekti mi? {kime: nesrin, ekran: cengo+nesrin, yuz: nesrin.soguk}
 **NESRİN [sigara]:** Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
-*Nesrin sigarasından uzun bir nefes çekiyor.* {gir: nesrin, gi: sigara, ekran: cengo+nesrin, yuz: cengo.normal}
-**NESRİN [sigara]:** Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı. {ekran: cengo+nesrin, yuz: cengo.normal}
-**NESRİN [soguk]:** Sahibi ya. Kim ne der. {ekran: cengo+nesrin, yuz: cengo.normal}
+*Nesrin sigarasından uzun bir nefes çekiyor.* {gir: nesrin, gi: sigara, ekran: nesrin}
+**NESRİN [sigara]:** Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
+**NESRİN [soguk]:** Sahibi ya. Kim ne der. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
 **PERİ [merakli]:** Yarım saat tablonun başında ne yaptı? {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
 **NESRİN [soguk]:** Bilmem. Ben çıktım. Bazı adamlar babalarından kalanın başında uzun durur. {kime: peri, ekran: peri+nesrin, yuz: peri.merakli}
-*Nesrin sigarasını söndürüp kalkıyor.* {cik, gir: nesrin, gi: normal, ekran: cengo+nesrin, yuz: cengo.yumusak}
+*Nesrin içeri dönüyor.* {cik, gir: nesrin, gi: normal, ekran: nesrin}
 **CENGO [normal]:** Bu kadın az konuşuyor, ama konuşunca hep birini gösteriyor. {kime: peri, ekran: peri+cengo, yuz: peri.merakli}
 
 ## ipucu tuval
@@ -219,23 +216,23 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: tuvali evin hesabıyla alanlar Şükrü ya da Nesrin (Vedat yok).
 
 *Feriköy Antika Pazarı. Açık hava; tezgâhlarda eski çerçeveler, kartpostallar, lambalar.* {arka: A55, mekan}
-*Yün bereli, gür kır favorili, kareli gömleğinin üstünde şişme yelek giymiş iri bir adam; elinde bir deste kartpostal.* {gir: necmi, gi: normal, ekran: necmi}
+*Yün bereli, gür kır favorili, kareli gömleğinin üstünde şişme yelek giymiş iri bir adam.* {gir: necmi, gi: normal, ekran: necmi}
 **NECMİ [normal]:** Cengo, gel bakalım. Bu kılık ne? {gir: necmi, kime: cengo, ekran: cengo+necmi, yuz: cengo.normal}
-*Necmi Peri'yi görünce kartpostalları düşürüyor.* {gir: necmi, gi: heyecanli, ekran: peri+necmi, yuz: peri.normal}
-**NECMİ [heyecanli]:** Kraliçe! 2009! Bekleyin! *(desteden bir kartpostal çekip uzatarak)* Tacınızın fotoğrafı, bende kartpostal! {kime: peri, ekran: peri+necmi, yuz: peri.normal}
+*Necmi Peri'yi görünce donup kalıyor.* {gir: necmi, gi: heyecanli, ekran: peri+necmi, yuz: peri.normal}
+**NECMİ [heyecanli]:** Kraliçe! 2009! Bekleyin! Tacınızın fotoğrafı, bende kartpostal! {kime: peri, ekran: peri+necmi, yuz: peri.normal}
 **PERİ [sevincli]:** Sonunda biri tanıdı. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 *Peri kartpostalı alıp arkasını çeviriyor; köşede kurşun kalemle bir fiyat.* {kare: D26}
 **PERİ [sasirmis]:** Yüz lira mı? {kare: D26}
 **NECMİ [normal]:** Size doksan. Siz kraliçesiniz. *(Cengo'ya)* Papyonun yamuk, oğlum; gel düzelteyim. {gir: necmi, kime: cengo, ekran: cengo+necmi, yuz: cengo.normal}
-**CENGO [kas]:** Böyle kalsın, Necmi abi. Sen bana bir eski tuval söyle. Son haftalarda kim aldı? {kime: necmi, ekran: cengo+necmi, yuz: necmi.normal}
-*Necmi tezgâhın altından buruşuk bir defter çıkarıp sayfalarını çeviriyor.* {gir: necmi, gi: defter, ekran: cengo+necmi, yuz: cengo.kas}
-**NECMİ [defter]:** İki hafta önce, pazar. Şu boyda, yirmilerden kalma kötü bir manzara. Üstüne boyamak için alırlar. {kime: cengo, ekran: cengo+necmi, yuz: cengo.kas}
+**CENGO [kas]:** Böyle kalsın, Necmi abi. Süheyla Hanım'ın müzayede evinden son haftalarda sana kim geldi, ne aldı? {kime: necmi, ekran: cengo+necmi, yuz: necmi.normal}
+*Necmi tezgâhın altından buruşuk bir defter çıkarıp sayfalarını çeviriyor.* {gir: necmi, gi: defter, ekran: necmi}
+**NECMİ [defter]:** İki hafta önce, pazar. Bir eski tuval: şu boyda, yirmilerden kalma kötü bir manzara. Üstüne boyamak için alırlar. {kime: cengo, ekran: cengo+necmi, yuz: cengo.kas}
 **NECMİ [defter]:** O gün tezgâhta oğlum vardı. Alan adını yazdırmamış; "evin hesabına" demiş. {ekran: cengo+necmi, yuz: cengo.kas}
-**PERİ [merakli]:** Hangi evin? {kime: necmi, ekran: peri+necmi, yuz: necmi.defter}
-**NECMİ [normal]:** Süheyla Hanım'ın müzayede evinin. O hesapla benden yıllardır iki kişi alır: Şükrü Bey ve Nesrin Hanım. {kime: peri, ekran: peri+necmi, yuz: peri.merakli}
+**PERİ [merakli]:** O hesapla kim alışveriş yapar? {kime: necmi, ekran: peri+necmi, yuz: necmi.defter}
+**NECMİ [normal]:** Süheyla Hanım'ın evinin hesabıyla benden yıllardır iki kişi alır: Şükrü Bey ve Nesrin Hanım. {kime: peri, ekran: peri+necmi, yuz: peri.merakli}
 **CENGO [kas]:** Hangisi aldı, oğlun hatırlamıyor mu? {kime: necmi, ekran: cengo+necmi, yuz: necmi.normal}
 **NECMİ [normal]:** Oğlan telefondan başını kaldırmaz. Bizim oğlan değil, telefon satıyor. {kime: cengo, ekran: cengo+necmi, yuz: cengo.kas}
-**PERİ [kas]:** *(kartpostalı çantasına koyarak)* Doksan lira, Cengo. Deftere yaz. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
+**PERİ [kas]:** Doksan lira, Cengo. Deftere yaz. {kime: cengo, ekran: peri+cengo, yuz: cengo.kas}
 **CENGO [gulen]:** Taç hesabından mı düşeyim? Bir böbreğim var, Peri; ikincisi lazım değil. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 
 ---
@@ -252,8 +249,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Şükrü papyonunu düzeltiyor; Nesrin elindeki çerçeveyi rafa bırakıyor.* {kare: K133}
 **PERİ [kas]:** Nesrin Hanım. Tabloyu siz değiştirdiniz. {gir: nesrin, kime: nesrin, ekran: peri+nesrin, yuz: nesrin.normal}
 **NESRİN [soguk]:** Ben yalnız çerçeveledim. {kime: peri, ekran: peri+nesrin, yuz: peri.kas}
-**PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor. Kopyacı onarım izini bile kopyalamış; onarımı siz yaptınız. {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
-*Kaan elinde bir kadife örtüyle içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
+**PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor. Aslıyla baş başa kalan da, bu kopyayı yapabilecek el de sizsiniz. {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
+*Kaan içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
 **KAAN [normal]:** Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım. {kime: nesrin, ekran: nesrin+kaan, yuz: nesrin.soguk}
 *Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.* {cik, kare: K134}
 
@@ -269,7 +266,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [normal]:** Nesrin Hanım. Tabloyu siz değiştirdiniz. {gir: nesrin, kime: nesrin, ekran: peri+nesrin, yuz: nesrin.normal}
 **NESRİN [soguk]:** Otuz yıldır tablo onarırım, hanımefendi. Bu evden geçen her tabloyu ben mi değiştirdim? Kanıtınız ne? {kime: peri, ekran: peri+nesrin, yuz: peri.normal}
 **PERİ [utanmis]:** …Elimde bir şey var, ama sizi ikna edecek kadar değil. {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
-*Kaan elinde bir kadife örtüyle içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
+*Kaan içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
 **KAAN [normal]:** Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım. {kime: nesrin, ekran: nesrin+kaan, yuz: nesrin.soguk}
 *Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.* {cik, kare: K134}
 
@@ -285,8 +282,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Şükrü Bey. Tabloyu siz değiştirdiniz. {gir: sukru, kime: sukru, ekran: peri+sukru, yuz: sukru.normal}
 **ŞÜKRÜ [dik]:** Para aldım, evet. Bir rapor için. Kopya için değil. {kime: peri, ekran: peri+sukru, yuz: peri.kas}
 **ŞÜKRÜ [kirgin]:** Ben o tabloyu bir saat gördüm, Peri Hanım. Sonra iki hafta İzmir'deydim. Otuz yılımı bir kopyaya mı satarım? {ekran: peri+sukru, yuz: peri.kas}
-*Vedat kızarıp yüzünü tabloya çeviriyor.* {gir: vedat, gi: yakalanmis, ekran: peri+vedat, yuz: peri.kas}
-*Kaan elinde bir kadife örtüyle içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
+*Vedat kızarıp yüzünü tabloya çeviriyor.* {gir: vedat, gi: yakalanmis, ekran: vedat}
+*Kaan içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
 **KAAN [normal]:** Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım. {kime: nesrin, ekran: nesrin+kaan, yuz: nesrin.soguk}
 *Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.* {cik, kare: K134}
 
@@ -301,8 +298,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Şükrü papyonunu düzeltiyor; Nesrin elindeki çerçeveyi rafa bırakıyor.* {kare: K133}
 **PERİ [kas]:** Siz, Vedat Bey. Tabloyu siz değiştirdiniz. {kime: vedat, ekran: peri+vedat, yuz: vedat.yakalanmis}
 **VEDAT [ofkeli]:** Ben mi? Kendi tablomu kopyalatıp kendi adımla mı satayım? Sahte çıkarsa beni yakarlar! {kime: peri, ekran: peri+vedat, yuz: peri.kas}
-**VEDAT [yakalanmis]:** Ben yalnız onarttım! *(ağzını kapatarak)* …Yani. {ekran: peri+vedat, yuz: peri.kas}
-*Kaan elinde bir kadife örtüyle içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
+**VEDAT [yakalanmis]:** Ben yalnız onarttım! …Yani. {ekran: peri+vedat, yuz: peri.kas}
+*Kaan içeri giriyor.* {gir: kaan, gi: normal, ekran: kaan}
 **KAAN [normal]:** Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım. {kime: nesrin, ekran: nesrin+kaan, yuz: nesrin.soguk}
 *Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.* {cik, kare: K134}
 
@@ -358,7 +355,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **YOL:** Kopyayı bu evde yalnız iki el yapabilirdi (Nesrin ya da Şükrü) + Şükrü tabloyu bir saat gördü, sonra iki hafta İzmir'deydi; kalan Nesrin'di.
 **YOL:** Kopyanın eski tuvalini evin hesabıyla yalnız iki kişi alabilirdi (Nesrin ya da Şükrü) + aslıyla haftalarca baş başa kalanlar tablonun sahibi ve onu onaran kişiydi (Nesrin ya da Vedat).
 **YOL:** Kopyanın eski tuvalini evin hesabıyla yalnız iki kişi alabilirdi (Nesrin ya da Şükrü) + Şükrü tabloyu bir saat gördü, sonra İzmir'deydi; kalan Nesrin'di.
-**MASUM sukru:** Şükrü Bey masumdu: para aldı ama yalnız onarımı gizleyen rapor için; tabloyu Nesrin Hanım değiştirmişti.
+**MASUM sukru:** Şükrü Bey masumdu: raporu önceden yazdı, o kadar; tabloyu Nesrin Hanım değiştirmişti.
 **MASUM vedat:** Vedat Bey masumdu: tabloyu gizlice onarttı, o kadar; kopyayı Nesrin Hanım yapmıştı.
 
 ## kanit
@@ -431,7 +428,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Gece. Büro. Peri masasında; elbisesi hâlâ pırıl pırıl, eldivensiz. Cengo masanın kenarında, smokinli, papyonu yamuk.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Gizem elinde bir çay tepsisiyle geliyor.* {gir: gizem, gi: triko_tepsi, ekran: gizem}
-**GİZEM [triko_tepsi]:** Elbisem bir müzayedeye gitti, altın olup döndü. *(Peri'nin kulağının arkasını göstererek)* Burada hâlâ altın var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**GİZEM [triko_tepsi]:** Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
 **PERİ [kas]:** Kalsın, Gizem. Elli beş verdiler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
 **GİZEM [triko_tepsi]:** Satmadın ama. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
 **PERİ [kas]:** Kraliçeler kendini elli beşe satmaz. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
@@ -488,6 +485,7 @@ kodlardan sonra: A50, D22, K124.
 | K144 | Kaan pamuk ve masa örtüsüyle; Peri yüzünü siliyor, eldivenleri çıkarmış, elbise pırıl pırıl | kovalamaca sonu |
 | K145 | çerçeve odası: Nesrin taburede, Peri ve Cengo karşısında, Cengo'nun elinde rulo | itiraf |
 | K146 | papyon Cengo'nun cebinde, Cengo kapıdan çıkıyor; Peri kulak arkasını siliyor | kapanış (bağ düşük) |
+| K152 | Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız) | giriş |
 | K147 | Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle | kapanış (bağ yüksek) |
 | K148–K151 | dört kararın ara karesi (ihbar: örtülü vitrin; sus: Peri'nin elinde taç, alkışlayan salon; sus payı: Süheyla tacı kutusuyla uzatıyor; Cengo: buruşuk paralar, Cengo'nun koltuğunda kutu) | kararlar |
 | Peri `manto` | normal, kas, sasirmis, merakli | giriş, konuşma başı |
