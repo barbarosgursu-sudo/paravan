@@ -1,4 +1,6 @@
-**15 Kasım 2026 — VAKA 6 KAPISI GEÇTİ (`arac_kapi.js V6 resim`).** K11 (Peri'nin dirseği Recep'in kolunda, 268 px) yerleşimle çözüldü: Recep iki kişilik sahnede %7 sağa kayar (`gorseller.json → sola` eksi değer = sağa; üç pozuna da aynı değer). Tek başınayken kayma uygulanmaz, ortada durur (`yeni_arayuz.css` `.tek`). Resim değişmedi.
+**15 Kasım 2026 — VAKA 6 KAPISI GEÇTİ (`arac_kapi.js V6 resim`).** K11 (Peri'nin dirseği Recep'in kolunda, 268 px) yerleşimle çözüldü: Recep iki kişilik sahnede %7 sağa kayar (`gorseller.json → sola` eksi değer = sağa; üç pozuna da aynı değer). Tek başınayken kayma uygulanmaz, ortada durur (`yeni_arayuz.css` `.tek`). Resim değişmedi. Doğrulayıcı, iki derleme, testler geçti; yayında.
+**Sıradaki:** sahibi Onay 3'ü (görselli test) oynuyor. Yeni pencerede ilk iş sızıntı taraması + tablet + 19 ekran boyu denetimi (`kaynak/DEVIR.md` en üst). Sonra Onay 3 notları → düzeltme → sızıntı bir kez daha → Vaka 6 donar.
+(Aşağıdaki "KAPIDA YALNIZ K11 KALDI" bölümü bununla kapandı.)
 
 # Vaka 6 — üretim durumu
 

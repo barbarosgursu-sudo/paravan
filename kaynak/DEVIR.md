@@ -20,6 +20,32 @@
 > olan o (`ara_k96.webp`, `onayli/G65.png`, el onayı `fa557717b270`). Vaka 6'nın resimleri Barbaros'ta; ortak Vaka 7'ye bakıyor.
 > V6'ya resim gömmeden önce Barbaros'a sor.
 
+## 0000000000000000000000000000000000. ⬅️ 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR
+
+**Durum.** Vaka 6'nın bütün resimleri gömülü ve diyaloğa bağlı; `cd kaynak && node arac_kapi.js V6 resim` → **GEÇTİ**. Son bulgu
+K11'di (Üsküdar apartman, Peri'nin dirseği Recep'in kolunda): yerleşimle çözüldü — Recep iki kişilik sahnede %7 sağa kayar
+(`gorseller.json → sola`, eksi değer = sağa; tek kişiyken `.tek` sıfırlar). G65: Oğuz Bey'in Düzeltme 2 resmi gömülü. Her şey `main`'de.
+Üretim sürecinde (`sablon/7_uretim_sureci.md`) adım 11 bitti; **adım 12 (Onay 3, görselli test) sahibinde** — Barbaros oynuyor.
+
+**"Yeni pencerede devam edelim" denince — sahibine sormadan bu iki denetimi koş (Barbaros'un isteği, 15 Kasım 2026):**
+1. **Sızıntı taraması** (adım 14'ün ön koşulu): `cd kaynak && node arac_sizinti_tur.js V6 40` — çıkış 1 = sızıntı. Sonra
+   `kaynak/YENI_UI/sizinti_okuma.txt`'yi elle oku (Nurcan; "Dosya çözüldü", `## cozum` ve karar metinleri yalnız her yolda oynayan
+   sahneleri anar — CLAUDE.md). Bulguyu sahibine kısa liste olarak ver; metin değiştirme "önce konuş" kuralına tabi.
+2. **Ekran boyu denetimi** (yeni resimler girdi): `node arac_yeni_tur.js sofra dogru --tablet` (tablet dikey, eşik tutmazsa hata
+   basar) ve `node arac_yeni_tur.js sofra dogru --cihaz` (~3 dk, 19 boy; çıktı `YENI_UI/cihaz/`, bayraklar `bayraklar.txt`). Bayraklar
+   ADAY'dır: karşılaştırma sayfasına göz at; bilinen tek bayrak 1280×650 seçim ekranı. Gerekirse öteki yollar (`siparis|kagit|cozmez6`).
+   Uzun komutları arka planda koş.
+Sonuçları `uretim/v6/DURUM.md` en üste yaz, commit + push (`main`).
+
+**Sonra:** sahibinin Onay 3 notları → resim düzeltmeleri (adım 13) → sızıntı taraması bir kez daha → **Vaka 6 donar** (adım 14).
+
+**Açık, sahibine sorulacak (kendiliğinden yapma):**
+- **Kapı commit bağlantısı:** `.claude/kapi_hook.js` yazılı, "Vaka 6 kapıdan geçince açılacak" denmişti; `.claude/settings.json` hâlâ yok.
+  Açmak commit davranışını değiştirir → Barbaros'a sor. Ondan sonra GitHub yayın koruması (sahibi: "sonra ekle").
+- Yerelde gereksiz bir stash var (Barbaros'un bilgisayarı: `stash@{0}` "origin hali…", içeriği ortağın commit'inde) — silinebilir.
+- `kaynak/arac_el.py` `YENI_UI/el/sayim.json`'u `encoding='utf-8'` olmadan yazıyor; Windows'ta Türkçe harfte bozuluyor
+  (`PYTHONUTF8=1` ile koşulursa sorun yok). Onarım küçük; kod değişikliği olduğu için sor.
+
 ## 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 
 - **Kapı** (`kaynak/arac_kapi.js`, sahibinin kararı): vaka kaydedilmeden önce 13 kural + eski denetimler kendiliğinden koşar. Vaka 6 ve

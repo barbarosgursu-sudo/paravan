@@ -17,3 +17,4 @@ Paralel kolların kaydı `kayit/kol<k>.md`'de. Zaman ölçümü: döngü logunda
 - 14 Kas 17:30: G55 2. deneme (tarz ŞÜPHELİ +0,014) sahibi gözle onayladı ("Gözle onayla") → onayli/. Vaka 6: 86/86.
 - 14 Kas gece: G65 Düzeltme 2 (sol el, avuç içi bize dönük) ile yeniden üretildi; tarz GEÇTİ (çapa en düşük +0,011), yüz Cengo 0,67. Göz: yakadaki el sol, avuç içi görünüyor; beldeki el sağ. Ortak onayladı ("Bizimkini göm") → onayli/. Barbaros'un onayladığı G65 (avuç içi görünmüyordu) → red/G65_red2.png.
 - 15 Kas: sahibi (Barbaros) önce G65 Düzeltme 2'yi geçersiz saydı, sonra kabul etti; gömülü G65 ortağın Düzeltme 2 resmi.
+- 15 Kas: K11 yerleşimle çözüldü (Recep %7 sağa); `arac_kapi.js V6 resim` GEÇTİ. Sahibi Onay 3'ü oynuyor.
