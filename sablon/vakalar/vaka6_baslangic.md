@@ -55,4 +55,10 @@ listesi) 13 Kas ~12:00–15:00 arasında saat dışında yapıldı (~3 sa makine
 |---|---|---|---|---|---|
 | 8 Görsel — Parti 1 (temeller, 20 resim) | 13 Kas 14:21 | 13 Kas 14:49 | onay 14:52 | ~28 dk (24 Codex) | "başla" 14:20; öncesinde 13 Kas öğleden sonra bayraklar kuralla kapandı (SR-M) |
 | 8 Görsel — Parti 2 (Peri/Cengo temeli + 3 konuk kartı) | 13 Kas 15:39 | 13 Kas 15:49 | | ~10 dk (5 Codex) | G17 filtreye takıldı → web |
-| 8 Görsel — Parti 3 (ifadeler, kareler, 11 ek, Eylül; 67 istem) | 13 Kas 16:20 | | | | istemler 15:55–16:18 (üretici betik `uretim/v6/uret_istem_parti3.py`); sahibi dışarıda, döngü sahibine sormadan |
+| 8 Görsel — Parti 3 (ifadeler, kareler, 11 ek, Eylül; 67 istem) | 13 Kas 16:20 | 14 Kas ~17:15 | | | istemler 15:55–16:18 (üretici betik `uretim/v6/uret_istem_parti3.py`); sahibi dışarıda, döngü sahibine sormadan |
+| 9–10 Kontrol, kesim, gömme | 14 Kas akşam | 14 Kas akşam | | | 86/86 onaylı, `arac_paket.js --yaz` (`uretim/v6/DURUM.md`) |
+| 11 Görselli tur + kapı | 14 Kas gece | 15 Kas sabah | | | kapı için 11 ek resim (G46, G65, G87–G95); K11 yerleşimle; `arac_kapi.js V6 resim` GEÇTİ |
+| 12 Onay 3 (görselli test) | 15 Kas sabah | 15 Kas öğle | Barbaros oynadı | | 3 not: 2 metin onarımı (satır 86, 253), 3 resim |
+| 13 Görsel düzeltmeleri | 15 Kas 10:59 | 15 Kas 11:20 | onay ~11:15 | ~7 dk (3 Codex, 2 kol) | G73, G74, G90 Düzeltme 2; gömüldü (K103, K104, K118), kapı GEÇTİ |
+| 14 Vaka donar | 15 Kas 11:20 | 15 Kas 11:40 | | ~20 dk | sızıntı 40 yol/1294 ekran temiz, elle okuma temiz; tablet geçti; 19 boyda tek bayrak (bilinen 1280×650 seçim). **Vaka 6 dondu.** |
+

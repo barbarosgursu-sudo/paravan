@@ -6,8 +6,8 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
-> ### ✅ VAKA 6 KAPIDAN GEÇTİ (15 Kasım 2026): bütün resimler gömülü, `arac_kapi.js V6 resim` → GEÇTİ. Sahibi Onay 3'ü
-> ### (görselli test) oynuyor. **Yeni pencerede ilk iş:** sızıntı taraması + tablet + 19 ekran boyu denetimi — `kaynak/DEVIR.md` en üst.
+> ### ✅ VAKA 6 DONDU (15 Kasım 2026, adım 14): Onay 3 düzeltmeleri gömüldü, kapı GEÇTİ, sızıntı taraması temiz, tablet ve
+> ### 19 ekran boyu denetimi geçti. Sıradaki iş sahibinde — `kaynak/DEVIR.md` en üst.
 > ### Durum `uretim/v6/DURUM.md` en üst. Vaka 7 üretimi Oğuz Bey'de. Her resim önce `kaynak/arac_tarz.py`
 > ### (yazılımla tarz denetimi), sonra göz (`uretim/CLAUDE.md` → Denetim 0). İstemler `uretim/istem_kontrol.sh`'tan geçer.
 >

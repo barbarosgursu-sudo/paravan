@@ -1,3 +1,8 @@
+**15 Kasım 2026, 11:40 — VAKA 6 DONDU (adım 14).** Sızıntı taraması (`arac_sizinti_tur.js V6 40`): 40 yol, 1294 ekran, birebir sızıntı
+yok, JS hatası yok; `sizinti_okuma.txt` elle okundu — MASUM satırları ve dört kararın bütün yüzeyleri yalnız yüzleşme + kovalamaca
+itirafının söylediğini anıyor. Tablet (`arac_yeni_tur.js 0 sofra dogru --tablet`): taşma ve JS hatası yok. 19 boy (`--cihaz`, 64 an):
+tek bayrak, bilinen 1280×650 seçim ekranı. Not: DEVIR'deki komutta karar numarası (`0`) eksikti, tur ilk denemede düştü; düzeltildi.
+
 **15 Kasım 2026, ~11:15 — ONAY 3 RESİMLERİ GÖMÜLDÜ (Barbaros'un bilgisayarı).** G73, G74, G90 Düzeltme 2 ile yeniden üretildi,
 tarz GEÇTİ (+0,113 / +0,125 / +0,104), göz: Müzeyyen G73'te korkmuş, G74'te gergin, eller kucakta (cepte değil); G90'da Gizem'in elleri
 boş, tepsi masada, Cengo kapıya/Eylül'e bakıyor. El onayı sahibinden (`el_onay.md`). Yalnız bu üçü gömüldü (K103, K104, K118);

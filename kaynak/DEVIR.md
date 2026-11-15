@@ -20,7 +20,15 @@
 > olan o (`ara_k96.webp`, `onayli/G65.png`, el onayı `fa557717b270`). Vaka 6'nın resimleri Barbaros'ta; ortak Vaka 7'ye bakıyor.
 > V6'ya resim gömmeden önce Barbaros'a sor.
 
-## 0000000000000000000000000000000000. ⬅️ 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR
+## 00000000000000000000000000000000000. ⬅️ 15 Kasım 2026, 11:40 — VAKA 6 DONDU
+
+G73, G74, G90 (Onay 3 notları, `## Düzeltme 2`) yeniden üretildi, sahibi onayladı, gömüldü (K103, K104, K118); `arac_kapi.js V6 resim`
+GEÇTİ. Aşağıdaki iki denetim koşuldu: sızıntı 40 yol/1294 ekran temiz, `sizinti_okuma.txt` elle okundu, temiz; tablet geçti; 19 boyda
+yalnız bilinen 1280×650 seçim bayrağı. Süre tablosu `sablon/vakalar/vaka6_baslangic.md` §3 (adım 9–14). **Vaka 6 dondu.**
+Tur komutunun doğrusu: `node arac_yeni_tur.js 0 sofra dogru --tablet|--cihaz` (ilk argüman karar numarası; aşağıdaki komutta eksik).
+**Sıradaki:** sahibinin kararı (Vaka 7 Oğuz Bey'de; Vaka 8 ya da Vaka 1–4'ün yeni kurallara göre geçirilmesi).
+
+## 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 **Durum.** Vaka 6'nın bütün resimleri gömülü ve diyaloğa bağlı; `cd kaynak && node arac_kapi.js V6 resim` → **GEÇTİ**. Son bulgu
 K11'di (Üsküdar apartman, Peri'nin dirseği Recep'in kolunda): yerleşimle çözüldü — Recep iki kişilik sahnede %7 sağa kayar
