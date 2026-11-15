@@ -73,7 +73,21 @@
             "tul": ["normal", "kas", "yumusak"],
             "gala": ["normal", "kas", "merakli", "sasirmis", "sevincli", "utanmis", "yumusak"],
             "altin": ["sinirli", "kas"],
-            "altin_temiz": ["normal", "kas", "yumusak"]
+            "altin_temiz": ["normal", "kas", "yumusak"],
+            "manto7": [
+              "normal",
+              "kas",
+              "sinirli",
+              "utanmis",
+              "kagit",
+              "cuzdan",
+              "sasirmis",
+              "merakli",
+              "aci",
+              "telefon",
+              "islak",
+              "tel"
+            ]
           }
         },
         "cengo": {
@@ -246,7 +260,9 @@
         "A54",
         "A55",
         "A56",
-        "A57"
+        "A57",
+        "A58",
+        "A59"
       ],
       "kareler": [
         "D1",
@@ -436,7 +452,7 @@
         "K152",
         "K153"
       ],
-      "buro": ["A6", "A6b", "A7", "A8"]
+      "buro": ["A6", "A6b", "A7", "A8", "A58", "A59"]
     }
   },
   "ekonomi": {"baslangic_kasa": 4250, "gider": {}, "borc_faizi": 0},
@@ -8782,8 +8798,8 @@
       },
       "sahneler": {
         "giris": {
-          "arka": "A6",
-          "set": "manto",
+          "arka": "A58",
+          "set": "manto7",
           "cset": "smokin",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -9026,8 +9042,8 @@
           ]
         },
         "konusma": {
-          "arka": "A6",
-          "set": "manto",
+          "arka": "A58",
+          "set": "manto7",
           "cset": "smokin",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -9642,7 +9658,7 @@
           ]
         },
         "kapanis": {
-          "arka": "A8",
+          "arka": "A59",
           "set": "altin_temiz",
           "cset": "smokin",
           "figurler": ["peri", "cengo"],
@@ -9654,33 +9670,20 @@
               "yuz": "peri.normal+cengo.normal"
             },
             {"k": "not", "m": "Peri kadife bir kutuyu açıp tacı masaya koyuyor; takmıyor, bakıyor.", "kare": "K153"},
-            {
-              "k": "not",
-              "m": "Gizem elinde bir çay tepsisiyle geliyor.",
-              "gir": "gizem",
-              "gi": "triko_tepsi",
-              "ekran": "gizem"
-            },
+            {"k": "not", "m": "Gizem içeri geliyor.", "gir": "gizem", "gi": "triko", "ekran": "gizem"},
             {
               "k": "gizem",
-              "i": "triko_tepsi",
+              "i": "triko",
               "m": "Takmayacak mısınız, Peri Hanım?",
               "gir": "gizem",
               "kime": "peri",
               "ekran": "peri+gizem",
               "yuz": "peri.normal"
             },
-            {
-              "k": "peri",
-              "i": "yumusak",
-              "m": "Sonra.",
-              "kime": "gizem",
-              "ekran": "peri+gizem",
-              "yuz": "gizem.triko_tepsi"
-            },
+            {"k": "peri", "i": "yumusak", "m": "Sonra.", "kime": "gizem", "ekran": "peri+gizem", "yuz": "gizem.triko"},
             {
               "k": "gizem",
-              "i": "triko_tepsi",
+              "i": "triko",
               "m": "Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım.",
               "kime": "peri",
               "ekran": "peri+gizem",
@@ -9692,23 +9695,16 @@
               "m": "Kalsın, Gizem. Elli beş verdiler.",
               "kime": "gizem",
               "ekran": "peri+gizem",
-              "yuz": "gizem.triko_tepsi"
+              "yuz": "gizem.triko"
             },
-            {
-              "k": "gizem",
-              "i": "triko_tepsi",
-              "m": "Satmadın ama.",
-              "kime": "peri",
-              "ekran": "peri+gizem",
-              "yuz": "peri.kas"
-            },
+            {"k": "gizem", "i": "triko", "m": "Satmadın ama.", "kime": "peri", "ekran": "peri+gizem", "yuz": "peri.kas"},
             {
               "k": "peri",
               "i": "kas",
               "m": "Kraliçeler kendini elli beşe satmaz.",
               "kime": "gizem",
               "ekran": "peri+gizem",
-              "yuz": "gizem.triko_tepsi"
+              "yuz": "gizem.triko"
             },
             {
               "k": "cengo",
@@ -9735,7 +9731,7 @@
             {"k": "cengo", "i": "yumusak", "m": "Bekliyordum.", "bag": "yuksek", "kime": "peri", "kare": "K147"},
             {
               "k": "gizem",
-              "i": "triko_tepsi",
+              "i": "triko",
               "m": "Hıh.",
               "bag": "yuksek",
               "gir": "gizem",

@@ -85,3 +85,5 @@ ile okunur (TZ verme).
 | 7 Hikâye düzeltmesi (taç) | 15 Kas 14:37 | 15 Kas 14:45 | ~2 dk (5 soru) | ~8 dk | Barbaros'un taç kararına göre: taç her yolda Peri'ye geçer (ihbar: Süheyla katalog fiyatına satar, "eksiği benden"; sus: Cengo kasa yetmezse diye bekler; Cengo'ya bırak: Cengo büroda verir). Kapanışa taç (yeni kare K153; kodsuz, her yolda aynı). Fiyat ~200.000 ₺ (metne girmez). Doğrulayıcı PASS, testler geçti, **kapı V7 hikaye GEÇTİ**. Vaka henüz donmadı |
 
 **Durum (15 Kas 14:55):** son hâl kaydedildi; ortak onayı **Barbaros'un** vermesini istedi; **vaka henüz dondurulmuyor** (ortağın kararı) (`kaynak/DEVIR.md` en üst).
+
+**Resimler (15 Kas 15:34, ortağın kararı):** Vaka 7'nin bütün resimleri baştan yapılacak; önceki vakaların hazır resimleri kaldırıldı (büro A6/A8 → A58/A59, Peri `manto` → `manto7`, Gizem kapanışta `triko`, tepsi anlatıdan çıktı). Tur dökümünde gerçek resim yok; doğrulayıcı PASS, testler ve kapı GEÇTİ.

@@ -5,7 +5,7 @@
 `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka7_diyalog.md V7`.
 
 Yazım `vaka6_diyalog.md`'deki gibi. Vaka 7'nin kıyafetleri (kıyafet hâli):
-- **Peri:** `manto` (sabit kırmızı manto — yalnız giriş), `gala` (Gizem'in balo elbisesi: **gece mavisi** saten, ona dar ve
+- **Peri:** `manto7` (kırmızı manto, Vaka 7 için yeniden çizilecek — yalnız giriş), `gala` (Gizem'in balo elbisesi: **gece mavisi** saten, ona dar ve
   kısa, derin yaka ve sırt, yüksek yırtmaç; dirseği geçen siyah saten eldiven; topuz; ince pırlanta kolye; siyah stiletto),
   `altin` (kovalamaca: aynı elbise, baştan aşağı yaldız ve vernik, eldivenler altın, topuz dağılmış), `altin_temiz` (yüzü
   silinmiş, eldivensiz, elbise pırıl pırıl, kulak arkasında yaldız — kovalamaca sonu, kararlar, kapanış).
@@ -15,7 +15,7 @@ Yazım `vaka6_diyalog.md`'deki gibi. Vaka 7'nin kıyafetleri (kıyafet hâli):
   `smokin_tepsi` (elinde şampanya tepsisi — kovalamaca).
 - **Gizem:** `triko` (sade kıyafet); yeni ifade `triko_aski` (elinde askıda bir elbise).
 
-**Görselsiz test için yer tutucu:** Vaka 7'nin bütün yeni görselleri gri "görsel yok" kutusuyla görünür.
+**Görselsiz test için yer tutucu:** Vaka 7'nin **bütün** görselleri gri "görsel yok" kutusuyla görünür. Ortağın kararı (15 Kas): Vaka 7'nin resimleri baştan yapılır, önceki vakaların hazır resmi kullanılmaz → büro A6/A8 yerine A58/A59, Peri `manto` yerine `manto7`, Gizem `triko_tepsi` yerine `triko`.
 
 **Kasa rakamı hiçbir satırda söylenmez** (oyuncuya göre değişir). Taç fiyatı ~200.000 ₺ (ortak, 15 Kas): metinde rakamla geçmez.
 
@@ -26,7 +26,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ---
 
 ## sahne giris
-⚙ arka: A6 · figurler: peri, cengo · set: manto · cset: smokin
+⚙ arka: A58 · figurler: peri, cengo · set: manto7 · cset: smokin
 ⚙ akış: Büro, pazar, öğleden önce. Peri masada, kırmızı mantosuyla. Cengo dün geceki düğünden kiralık smokinle gelir. Kapı çalar, Süheyla girer; Peri'yi tanımaz (şaka 1). Tablo, şüpheler, Nesrin anılır. Katalog masada açılır: 14 numara, taç. Peri donar, söylemez. Süheyla Cengo'nun papyonuna uzanır (şaka 3). Ücret elli bin. Süheyla çıkar.
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Şükrü, Vedat) anılıyor, Nesrin suçlanmadan anılıyor, ücret elli bin; ipucu bilgisi yok (UV, kopya, onarım, yırtık, zarf, İzmir, Feriköy tuvali, eller, dün gece depo).
 
@@ -68,7 +68,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SÜHEYLA [normal]:** Nasıl isterseniz. Akşam yedi. Hiç geç kalmayın. {cik, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 
 ## sahne konusma
-⚙ arka: A6 · figurler: peri, cengo · set: manto · cset: smokin
+⚙ arka: A58 · figurler: peri, cengo · set: manto7 · cset: smokin
 ⚙ akış: Süheyla çıkmış; büroda Peri ve Cengo. Cengo taçtan söz eder; Peri geçiştirir. Kasa hesabı (şaka 2). Gizem askıda bir elbiseyle gelir; Peri paravanın arkasında değişir, çıkar: çekicilik anı. Plan: depo, Şükrü, Vedat, Nesrin; Cengo: vale, Feriköy. İpucu adlarındaki kişiler (Şükrü, Vedat, Nesrin) girişte duyuldu (K18).
 
 *Kapı kapanıyor. Cengo masadaki kataloğu açıp on dört numaraya bakıyor.* {gir: cengo, ekran: cengo, yuz: cengo.normal}
@@ -423,24 +423,24 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ---
 
 ## sahne kapanis
-⚙ arka: A8 · figurler: peri, cengo · set: altin_temiz · cset: smokin
+⚙ arka: A59 · figurler: peri, cengo · set: altin_temiz · cset: smokin
 ⚙ akış: Büro, gece. Peri hâlâ pırıl pırıl elbisesiyle, kulak arkasında yaldız. Cengo smokinle, papyon yamuk. Gizem çay getirir, yaldızı gösterir. Taç her yolda Peri'de (Barbaros'un kararı, ortağın cevapları 15 Kas): Peri tacı masaya koyar, takmaz; kapanış her kararda aynı, kod gerekmez. Bağın iki hâli (kural 12a, eşik +1).
 
 *Gece. Büro. Peri masasında; elbisesi hâlâ pırıl pırıl, eldivensiz. Cengo masanın kenarında, smokinli, papyonu yamuk.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Peri kadife bir kutuyu açıp tacı masaya koyuyor; takmıyor, bakıyor.* {kare: K153}
-*Gizem elinde bir çay tepsisiyle geliyor.* {gir: gizem, gi: triko_tepsi, ekran: gizem}
-**GİZEM [triko_tepsi]:** Takmayacak mısınız, Peri Hanım? {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
-**PERİ [yumusak]:** Sonra. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
-**GİZEM [triko_tepsi]:** Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım. {kime: peri, ekran: peri+gizem, yuz: peri.normal}
-**PERİ [kas]:** Kalsın, Gizem. Elli beş verdiler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
-**GİZEM [triko_tepsi]:** Satmadın ama. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
-**PERİ [kas]:** Kraliçeler kendini elli beşe satmaz. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
+*Gizem içeri geliyor.* {gir: gizem, gi: triko, ekran: gizem}
+**GİZEM [triko]:** Takmayacak mısınız, Peri Hanım? {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**PERİ [yumusak]:** Sonra. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+**GİZEM [triko]:** Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım. {kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**PERİ [kas]:** Kalsın, Gizem. Elli beş verdiler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+**GİZEM [triko]:** Satmadın ama. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**PERİ [kas]:** Kraliçeler kendini elli beşe satmaz. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
 **CENGO [normal]:** Smokin yarın iade. Papyonu da veririm. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.normal}
 *Cengo papyonunu çözüp cebine koyuyor, ceketini alıp çıkıyor. Peri kulağının arkasındaki yaldızı siliyor.* {bag: dusuk, kare: K146}
 *Peri kalkıp Cengo'nun önüne geçiyor; papyonuna uzanıyor. Bütün gün kaçan Cengo bu kez kıpırdamıyor.* {bag: yuksek, kare: K147}
 **PERİ [yumusak]:** Bütün gün yamuktu. {bag: yuksek, kime: cengo, kare: K147}
 **CENGO [yumusak]:** Bekliyordum. {bag: yuksek, kime: peri, kare: K147}
-**GİZEM [triko_tepsi]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.yumusak}
+**GİZEM [triko]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.yumusak}
 
 ---
 
@@ -458,6 +458,8 @@ kodlardan sonra: A50, D22, K124.
 | A54 | müzayede evinin arka avlusu: kediler, çöp konteyneri | nesrin |
 | A55 | Feriköy Antika Pazarı: açık hava, tezgâhlarda eski çerçeveler, kartpostallar, lambalar | tuval |
 | A56 | çerçeve odası: yaldız kovaları, vernik, çerçeveler, kilitli arka kapı | kovalamaca, itiraf |
+| A58 | büro, gündüz (Vaka 7 için yeniden; eski A6 kullanılmaz) | giriş, konuşma |
+| A59 | büro, gece (Vaka 7 için yeniden; eski A8 kullanılmaz) | kapanış |
 | A57 | müzayede salonu: kristal avize, sandalyeler, kürsü, boş kaide, vitrinde taç (14), misafirler | kovalamaca |
 | D22 | masada açık katalog, Süheyla'nın eli üstünde (yazı okunmaz) | giriş |
 | D23 | katalog sayfası: kadife yastıkta kristal taşlı gümüş taç; altında "14" (başka yazı okunmaz) | giriş |
@@ -492,13 +494,13 @@ kodlardan sonra: A50, D22, K124.
 | K153 | büro, gece: Peri masada, elbisesiyle; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor) | kapanış |
 | K147 | Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle | kapanış (bağ yüksek) |
 | K148–K151 | dört kararın ara karesi (ihbar: boşalan salon, Süheyla kadife kutuyu Peri'nin önüne koyuyor; sus: Peri'nin elinde taç, alkışlayan salon; sus payı: Süheyla tacı kutusuyla uzatıyor; Cengo: buruşuk paralar, Cengo'nun koltuğunda kutu) | kararlar |
-| Peri `manto` | normal, kas, sasirmis, merakli | giriş, konuşma başı |
+| Peri `manto7` | normal, kas, sasirmis, merakli | giriş, konuşma başı |
 | Peri `gala` | normal, kas, merakli, sasirmis, sevincli, utanmis | konuşma sonu, ipuçları, yüzleşmeler |
 | Peri `altin` | sinirli, kas | kovalamaca |
 | Peri `altin_temiz` | normal, kas, yumusak | kovalamaca sonu, itiraf, kapanış |
 | Cengo `smokin` | normal, kas, gulen, yumusak | her yerde |
 | Cengo `smokin_tepsi` | kas | kovalamaca |
-| Gizem | triko, triko_aski (elinde askıda elbise; yeni), triko_tepsi | konuşma, kapanış |
+| Gizem | triko, triko_aski (elinde askıda elbise; yeni) | konuşma, kapanış |
 | Süheyla | normal, suzuyor, endiseli, sert | giriş |
 | Kaan | normal, heyecanli, ciddi (UV lambasıyla) | tablo, yüzleşme, kovalamaca |
 | Şükrü | normal, dik, kirgin | sukru, yüzleşme |

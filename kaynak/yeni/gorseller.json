@@ -497,7 +497,9 @@
     "A54": {"ad": "Müzayede · arka avlu", "grup": "muzayede"},
     "A55": {"ad": "Feriköy · antika pazarı", "grup": "ferikoy"},
     "A56": {"ad": "Müzayede · çerçeve odası", "grup": "muzayede"},
-    "A57": {"ad": "Müzayede · salon", "grup": "muzayede"}
+    "A57": {"ad": "Müzayede · salon", "grup": "muzayede"},
+    "A58": {"ad": "Büro · gündüz (V7)", "grup": "buro_gunduz"},
+    "A59": {"ad": "Büro · akşam (V7)", "grup": "buro_aksam", "aksam": true}
   },
   "yer_tutucu": [
     "A30",
@@ -743,7 +745,21 @@
     "necmi.heyecanli",
     "necmi.defter",
     "K152",
-    "K153"
+    "K153",
+    "A58",
+    "A59",
+    "peri.manto7.normal",
+    "peri.manto7.kas",
+    "peri.manto7.sinirli",
+    "peri.manto7.utanmis",
+    "peri.manto7.kagit",
+    "peri.manto7.cuzdan",
+    "peri.manto7.sasirmis",
+    "peri.manto7.merakli",
+    "peri.manto7.aci",
+    "peri.manto7.telefon",
+    "peri.manto7.islak",
+    "peri.manto7.tel"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -860,7 +876,9 @@
     "K151": "Cengo masaya buruşuk paraları sayıyor; koltuğunun altında taç kutusu",
     "MASA_V7": "Masada Süheyla Hanım'ın kataloğu ve bir büyüteç",
     "K152": "Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız)",
-    "K153": "büro, gece: Peri masada; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor)"
+    "K153": "büro, gece: Peri masada; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor)",
+    "A58": "büro, gündüz (Vaka 7 için yeniden)",
+    "A59": "büro, gece (Vaka 7 için yeniden)"
   },
   "kesim_yz": [
     "muzeyyen.normal",
