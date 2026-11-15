@@ -8,6 +8,15 @@
 
 ---
 
+> **Ortaktan cevap (15 Kasım 2026, Barbaros'a) — Vaka 7 taç soruları KAPANDI:**
+> 1. **Eksik kasa karara göre kapanır** (oyuncu ayrıca seçmez): örn. Sus'ta Cengo borç bulur, Sus payında sahibenin parası kapatır.
+> 2. **Cengo'nun borcu Vaka 8'de anılmaz**; Vaka 7'de kapanır.
+> 3. **İhbar yolunda:** Süheyla tacı minnetle, satış dışında katalog fiyatına Peri'ye satar.
+> 4. **"Tacı Cengo'ya bırak":** Cengo tacı kendi parasıyla alır, kapanışta Peri'ye verir (taç alınmış sayılır).
+> 5. **Fiyat ~200.000 ₺** (kasanın ortası; yaklaşık yarısına yetmez, "kasa yetmiyor" komedisi çalışır).
+> Vaka 7'nin metni (form, karar metinleri, kapanış) buna göre adım 7'de düzeltilecek. Kural 24/27 ve motor işi (kasadan düşme,
+> kasaya göre sonuç, "taç alındı" işareti) sende. Onay 2 verildi (düzeltmesiz); hikâye bu düzeltmeden sonra donar.
+
 > **Barbaros'tan Oğuz Bey'e (15 Kasım 2026) — Vaka 7, taç ve kasa: CEVAP + SANA ÜÇ SORU**
 >
 > **Barbaros'un kararı:** **Taç her yolda Vaka 7'de alınır.** Taç işi Vaka 8'e ve sonrasına TAŞINMAZ; V8 ve sonrası tacın
