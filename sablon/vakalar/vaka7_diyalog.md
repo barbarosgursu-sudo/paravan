@@ -424,7 +424,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ## sahne kapanis
 ⚙ arka: A59 · figurler: peri, cengo · set: altin_temiz · cset: smokin
-⚙ akış: Büro, gece. Peri hâlâ pırıl pırıl elbisesiyle, kulak arkasında yaldız. Cengo smokinle, papyon yamuk. Gizem çay getirir, yaldızı gösterir. Taç her yolda Peri'de (Barbaros'un kararı, ortağın cevapları 15 Kas): Peri tacı masaya koyar, takmaz; kapanış her kararda aynı, kod gerekmez. Bağın iki hâli (kural 12a, eşik +1).
+⚙ akış: Büro, gece. Peri hâlâ pırıl pırıl elbisesiyle, kulak arkasında yaldız. Cengo smokinle, papyon yamuk. Gizem gelir, yaldızı gösterir. Taç her yolda Peri'de (Barbaros'un kararı, ortağın cevapları 15 Kas): Peri tacı masaya koyar, takmaz; kapanış her kararda aynı, kod gerekmez. Bağın iki hâli (kural 12a, eşik +1).
 
 *Gece. Büro. Peri masasında; elbisesi hâlâ pırıl pırıl, eldivensiz. Cengo masanın kenarında, smokinli, papyonu yamuk.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Peri kadife bir kutuyu açıp tacı masaya koyuyor; takmıyor, bakıyor.* {kare: K153}
