@@ -17,7 +17,7 @@ Yazım `vaka6_diyalog.md`'deki gibi. Vaka 7'nin kıyafetleri (kıyafet hâli):
 
 **Görselsiz test için yer tutucu:** Vaka 7'nin bütün yeni görselleri gri "görsel yok" kutusuyla görünür.
 
-**Kasa rakamı hiçbir satırda söylenmez** (oyuncuya göre değişir). Taç fiyatı ❓ Barbaros'ta: metinde rakamla geçmez.
+**Kasa rakamı hiçbir satırda söylenmez** (oyuncuya göre değişir). Taç fiyatı ~200.000 ₺ (ortak, 15 Kas): metinde rakamla geçmez.
 
 Her satır için kontrol sorusu: *ekranda kim var, kime bakıyor, yüzü bu satıra uyuyor mu,
 metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekranda (tek kişi `gir`, kalabalık kare).
@@ -391,16 +391,16 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar ihbar
 ⚙ etiket: İhbar et
 
-**ÖNİZLEME:** Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; taç bu akşam satılmaz.
-**SONUÇ:** Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı; vitrindeki on dört numaranın üstüne bir örtü çekildi.
-**CENGO:** Cengo örtülü vitrine baktı. "Taç kaçmaz, Peri. On dört numara; ezberledim" dedi.
-**DEFTER:** Her şeyi söyledim. Satış durdu, taç örtüldü.
+**ÖNİZLEME:** Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; Süheyla tacı sana satış dışında, katalog fiyatına verir.
+**SONUÇ:** Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı; gecenin sonunda on dört numarayı kutusuyla önüne koydu: "Katalog fiyatı. Eksiği olursa benden." Taç senin oldu.
+**CENGO:** Cengo kutuya baktı. "Satışı sen durdurdun, tacı kadın sana getirdi. On dört numarayı boşuna ezberlememişim" dedi.
+**DEFTER:** Her şeyi söyledim. Satış durdu; Süheyla tacı bana sattı.
 
 ## karar sus
 ⚙ etiket: Sus
 
 **ÖNİZLEME:** Süheyla'ya "tablo sağlam" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın.
-**SONUÇ:** Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Satış sürdü. On dört numarada elini kaldırdın; kimse karşı çıkmadı, taç senin oldu. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.
+**SONUÇ:** Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo bir köşede telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.
 **CENGO:** Cengo alkışlayan salona baktı. "Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma" dedi.
 **DEFTER:** Sustum. Taç bende, kopya bir duvarda.
 
@@ -415,20 +415,23 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar cengoya_birak
 ⚙ etiket: Tacı Cengo'ya bırak
 
-**ÖNİZLEME:** Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendisi alır; payına kasadan 10.000 ₺ koyarsın.
-**SONUÇ:** Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı; eksik kalan on bini sen kasadan tamamladın. Taç kutusuyla Cengo'nun koltuğunun altında.
-**CENGO:** Cengo kutuyu koltuğunun altına sıkıştırdı. "Taç bende kalsın. Alacağıma sayarım" dedi.
-**DEFTER:** Tacı Cengo aldı; adamlarından topladı. Taç onda.
+**ÖNİZLEME:** Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır; payına kasadan 10.000 ₺ koyarsın.
+**SONUÇ:** Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı; senin on binin de en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.
+**CENGO:** Cengo kutuyu koltuğunun altına sıkıştırdı. "Büroda veririm. Burada takarsan yine heykel sanarlar" dedi.
+**DEFTER:** Tacı Cengo aldı; adamlarından topladı. Büroda bana verdi.
 
 ---
 
 ## sahne kapanis
 ⚙ arka: A8 · figurler: peri, cengo · set: altin_temiz · cset: smokin
-⚙ akış: Büro, gece. Peri hâlâ pırıl pırıl elbisesiyle, kulak arkasında yaldız. Cengo smokinle, papyon yamuk. Gizem çay getirir, yaldızı gösterir. **Kodsuz yedek** (form §13): taç kapanışta anılmaz, karar sonuç ekranında ve ara karesinde kalır; her kararda aynı. Bağın iki hâli (kural 12a, eşik +1). ❓ Taç kimde olduğuna göre kapanış (form §13 "önerilen") Barbaros'un kod kararını bekliyor.
+⚙ akış: Büro, gece. Peri hâlâ pırıl pırıl elbisesiyle, kulak arkasında yaldız. Cengo smokinle, papyon yamuk. Gizem çay getirir, yaldızı gösterir. Taç her yolda Peri'de (Barbaros'un kararı, ortağın cevapları 15 Kas): Peri tacı masaya koyar, takmaz; kapanış her kararda aynı, kod gerekmez. Bağın iki hâli (kural 12a, eşik +1).
 
 *Gece. Büro. Peri masasında; elbisesi hâlâ pırıl pırıl, eldivensiz. Cengo masanın kenarında, smokinli, papyonu yamuk.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
+*Peri kadife bir kutuyu açıp tacı masaya koyuyor; takmıyor, bakıyor.* {kare: K153}
 *Gizem elinde bir çay tepsisiyle geliyor.* {gir: gizem, gi: triko_tepsi, ekran: gizem}
-**GİZEM [triko_tepsi]:** Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**GİZEM [triko_tepsi]:** Takmayacak mısınız, Peri Hanım? {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**PERİ [yumusak]:** Sonra. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
+**GİZEM [triko_tepsi]:** Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım. {kime: peri, ekran: peri+gizem, yuz: peri.normal}
 **PERİ [kas]:** Kalsın, Gizem. Elli beş verdiler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
 **GİZEM [triko_tepsi]:** Satmadın ama. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
 **PERİ [kas]:** Kraliçeler kendini elli beşe satmaz. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi}
@@ -486,8 +489,9 @@ kodlardan sonra: A50, D22, K124.
 | K145 | çerçeve odası: Nesrin taburede, Peri ve Cengo karşısında, Cengo'nun elinde rulo | itiraf |
 | K146 | papyon Cengo'nun cebinde, Cengo kapıdan çıkıyor; Peri kulak arkasını siliyor | kapanış (bağ düşük) |
 | K152 | Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız) | giriş |
+| K153 | büro, gece: Peri masada, elbisesiyle; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor) | kapanış |
 | K147 | Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle | kapanış (bağ yüksek) |
-| K148–K151 | dört kararın ara karesi (ihbar: örtülü vitrin; sus: Peri'nin elinde taç, alkışlayan salon; sus payı: Süheyla tacı kutusuyla uzatıyor; Cengo: buruşuk paralar, Cengo'nun koltuğunda kutu) | kararlar |
+| K148–K151 | dört kararın ara karesi (ihbar: boşalan salon, Süheyla kadife kutuyu Peri'nin önüne koyuyor; sus: Peri'nin elinde taç, alkışlayan salon; sus payı: Süheyla tacı kutusuyla uzatıyor; Cengo: buruşuk paralar, Cengo'nun koltuğunda kutu) | kararlar |
 | Peri `manto` | normal, kas, sasirmis, merakli | giriş, konuşma başı |
 | Peri `gala` | normal, kas, merakli, sasirmis, sevincli, utanmis | konuşma sonu, ipuçları, yüzleşmeler |
 | Peri `altin` | sinirli, kas | kovalamaca |

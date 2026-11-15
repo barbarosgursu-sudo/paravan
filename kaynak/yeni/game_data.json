@@ -433,7 +433,8 @@
         "K149",
         "K150",
         "K151",
-        "K152"
+        "K152",
+        "K153"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -8652,12 +8653,12 @@
           "cengoBag": 1,
           "para": 0,
           "etiket": "İhbar et",
-          "onizleme": "Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; taç bu akşam satılmaz.",
-          "sonuc": "Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı; vitrindeki on dört numaranın üstüne bir örtü çekildi.",
+          "onizleme": "Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; Süheyla tacı sana satış dışında, katalog fiyatına verir.",
+          "sonuc": "Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı; gecenin sonunda on dört numarayı kutusuyla önüne koydu: \"Katalog fiyatı. Eksiği olursa benden.\" Taç senin oldu.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo örtülü vitrine baktı. \"Taç kaçmaz, Peri. On dört numara; ezberledim\" dedi."
+              "metin": "Cengo kutuya baktı. \"Satışı sen durdurdun, tacı kadın sana getirdi. On dört numarayı boşuna ezberlememişim\" dedi."
             }
           ]
         },
@@ -8669,7 +8670,7 @@
           "para": 15000,
           "etiket": "Sus",
           "onizleme": "Süheyla'ya \"tablo sağlam\" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın.",
-          "sonuc": "Ruloyu Nesrin'e geri verdin, Süheyla'ya \"tablo sağlam\" dedin. Satış sürdü. On dört numarada elini kaldırdın; kimse karşı çıkmadı, taç senin oldu. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.",
+          "sonuc": "Ruloyu Nesrin'e geri verdin, Süheyla'ya \"tablo sağlam\" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo bir köşede telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -8700,12 +8701,12 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Tacı Cengo'ya bırak",
-          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendisi alır; payına kasadan 10.000 ₺ koyarsın.",
-          "sonuc": "Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: \"Nakit getiren alır.\" Cengo buruşuk paraları masaya saydı; eksik kalan on bini sen kasadan tamamladın. Taç kutusuyla Cengo'nun koltuğunun altında.",
+          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır; payına kasadan 10.000 ₺ koyarsın.",
+          "sonuc": "Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: \"Nakit getiren alır.\" Cengo buruşuk paraları masaya saydı; senin on binin de en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo kutuyu koltuğunun altına sıkıştırdı. \"Taç bende kalsın. Alacağıma sayarım\" dedi."
+              "metin": "Cengo kutuyu koltuğunun altına sıkıştırdı. \"Büroda veririm. Burada takarsan yine heykel sanarlar\" dedi."
             }
           ]
         }
@@ -9652,6 +9653,7 @@
               "ekran": "peri+cengo",
               "yuz": "peri.normal+cengo.normal"
             },
+            {"k": "not", "m": "Peri kadife bir kutuyu açıp tacı masaya koyuyor; takmıyor, bakıyor.", "kare": "K153"},
             {
               "k": "not",
               "m": "Gizem elinde bir çay tepsisiyle geliyor.",
@@ -9662,8 +9664,24 @@
             {
               "k": "gizem",
               "i": "triko_tepsi",
-              "m": "Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım.",
+              "m": "Takmayacak mısınız, Peri Hanım?",
               "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "yumusak",
+              "m": "Sonra.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_tepsi"
+            },
+            {
+              "k": "gizem",
+              "i": "triko_tepsi",
+              "m": "Elbisem bir müzayedeye gitti, altın olup döndü. Kulağınızın arkasında hâlâ altın var, Peri Hanım.",
               "kime": "peri",
               "ekran": "peri+gizem",
               "yuz": "peri.normal"

@@ -327,40 +327,33 @@ Yani karar anında soru: **Süheyla'ya ne söylenecek, tablo ve taç ne olacak.*
 
 | karar | kısa sonuç (karar ekranı) | eylem → sonuç → bedel | karar parası | bağ | Cengo'nun tavrı | Cengo satırı | anı defteri |
 |---|---|---|---|---|---|---|---|
-| **İhbar et** | Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; taç bu akşam satılmaz. | Ruloyu Süheyla'ya verdin; kopyayı, onarımı, zarfı, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler; Şükrü otuz yıl sonra kapıdan papyonunu çözerek çıktı; Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Vitrindeki 14 numara örtüldü. | 0 | +1 | hoşuna gider | "Taç kaçmaz, Peri. On dört numara; ezberledim." | Her şeyi söyledim. Satış durdu, taç örtüldü. |
-| **Sus** | Süheyla'ya "tablo sağlam" dersin; ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın. ❓ | Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Satış sürdü. On dört numarada elini kaldırdın, kimse karşı çıkmadı; taç senin oldu. Kopya altı buçuk milyona satıldı; alıcı alkışlandı. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı. | +15.000 | −2 | hoşuna gitmez | "Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma." | Sustum. Taç bende, kopya bir duvarda. |
+| **İhbar et** | Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; Süheyla tacı sana satış dışında, katalog fiyatına verir. *(adım 7)* | Ruloyu Süheyla'ya verdin; kopyayı, onarımı, zarfı, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler; Şükrü otuz yıl sonra kapıdan papyonunu çözerek çıktı; Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı, 14'ü kutusuyla önüne koydu: "Katalog fiyatı. Eksiği olursa benden." | 0 | +1 | hoşuna gider | "Satışı sen durdurdun, tacı kadın sana getirdi. On dört numarayı boşuna ezberlememişim." | Her şeyi söyledim. Satış durdu; Süheyla tacı bana sattı. |
+| **Sus** | Süheyla'ya "tablo sağlam" dersin; ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın. | Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcı alkışlandı. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı. | +15.000 | −2 | hoşuna gitmez | "Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma." | Sustum. Taç bende, kopya bir duvarda. |
 | **Sus payı** | Süheyla'ya yalnız sen söylersin; tablo sessizce satıştan çekilir. Susman için Süheyla tacı sana alır. | Ruloyu Süheyla'ya köşede, kimse duymadan verdin. Süheyla tabloyu "satıcının isteğiyle" satıştan çekti; polis yok, gazete yok. Nesrin'e ertesi sabah çıkış verildi, Şükrü emekliye ayrıldı. On dört numarada Süheyla kendi elini kaldırdı, tacı kutusuyla sana uzattı: "Bu akşam burada hiçbir şey olmadı." | 0 (taç hediye) | −1 | hoşuna gitmez | "Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?" | Susmamın karşılığı taç. Süheyla aldı. |
-| **Tacı Cengo'ya bırak** | Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendisi alır; payına kasadan 10.000 ₺ koyarsın. ❓ | Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı, eksik kalanı sen kasadan tamamladın. Taç Cengo'nun kucağında kutusuyla. | −10.000 | +2 | hoşuna gider | Kutuyu koltuğunun altına sıkıştırır: "Taç bende kalsın. Alacağıma sayarım." | Tacı Cengo aldı; adamlarından topladı. Taç onda. |
+| **Tacı Cengo'ya bırak** | Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır; payına kasadan 10.000 ₺ koyarsın. | Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı; senin on binin en üstteydi. Taç Cengo'nun koltuğunun altında kutusuyla. | −10.000 | +2 | hoşuna gider | Kutuyu koltuğunun altına sıkıştırır: "Büroda veririm. Burada takarsan yine heykel sanarlar." | Tacı Cengo aldı; adamlarından topladı. Büroda bana verdi. |
 
 - Kirli seçenek ("sus") en çok parayı getirir (+15.000), fark küçük; taç da gelir ama alıcı sahte bir tabloya servet
-  öder. Dürüst ve kazandıran: "ihbar" (0, Cengo'nun hoşuna gider, taç yok). Dürüst ve kaybettiren: "Cengo'ya bırak"
-  (−10.000, en yüksek bağ, taç Cengo'da). "Sus payı" taç getirir, para getirmez.
+  öder. Dürüst ve kazandıran: "ihbar" (0, Cengo'nun hoşuna gider, taç Süheyla'dan). Dürüst ve kaybettiren: "Cengo'ya bırak"
+  (−10.000, en yüksek bağ, taçı Cengo alır, büroda Peri'ye verir). "Sus payı" taç getirir, para getirmez.
 - Cengo satırları yan yana: biri teselli, biri iğne, biri sitem, biri gurur + alacak şakası. "Doğru cevap" çıkmaz.
 - **Kasaya giren en az:** yanlış suçlama (30.000) + Cengo'ya bırak (−10.000) = 20.000 ₺. Eksiye düşmez. En çok karar
   parası (15.000) ücretin (50.000) altında.
 - **Sızıntı notu:** karar metinleri yalnız itirafın ve yüzleşmenin söylediğini anar (onarım, zarf/rüşvet, Feriköy
   tuvali, 15'in arkalığı, rulo). Vale, UV lambası, "dün gece depoda" karar metinlerine girmez. *("Zarf" itirafta yok:
   itiraf "Şükrü raporu önceden yazmış" der. Karar metninde "zarfı" yerine "rüşveti" yazılır — adım 3'te bakılır.)*
-- **❓ Barbaros'a (taç ve kasa; `DEVIR.md` en üst):** (1) "Sus"ta taç kasadaki parayla alınıyor: motor kasaya bağlı
-  sonuç bilmiyor; kural 24 (gider yok) ile 27 çatışıyor — taç alınınca kasa düşer mi, kasa yetmezse ne olur? (2) "Cengo'ya
-  bırak"ta Cengo'nun topladığı para kasa dışı (onun borcu); kural 24'e uyar mı? (3) İhbar eden oyuncu tacı sonra (V8'de)
-  alabilir mi? (4) Taç fiyatı kanona girer (sezon taslağı §8): önerim açılış 60.000 ₺, satış ~80.000 ₺.
+- **✅ Taç (15 Kasım 2026; Barbaros'un kararı + ortağın cevapları, `DEVIR.md` en üst):** taç her yolda V7'de alınır.
+  Kasa yetmezse eksik karara göre kapanır (sus: Cengo bulur; sus payı: Süheyla öder; ihbar: Süheyla "eksiği benden";
+  Cengo'ya bırak: Cengo'nun parası). Cengo'nun borcu V8'de anılmaz. Fiyat ~200.000 ₺. Kural 24/27 ve motor (kasadan düşme,
+  "taç alındı" işareti) Barbaros'ta; metin kasaya bakmadan her hâlde doğru.
 - **Anı özeti** (kural 21d): Nişantaşı'ndaki müzayede evinin sahibesi Süheyla Hanım, satışın en değerli tablosunun
   sahte olduğundan şüphelendi. Tabloyu evin restoratörü Nesrin Hanım kopyasıyla değiştirmişti: otuz yıl önce satıcının
   babası onun adını batırmıştı. Aynı akşam katalogda Peri'nin tacı vardı.
 
 ## 13. Kapanış
 
-**İki seçenek (❓ motor):** motor kapanışı yalnız bağa göre seçiyor; karara (taç kimde) göre seçmiyor (`vnBagSuz`).
-
-- **Önerilen (kod gerekir — Barbaros):** Büro, gece. Peri hâlâ elbisesiyle, kulak arkasında yaldız. Gizem çay getirir.
-  - *Taç Peri'de (sus, sus payı):* Peri tacı masaya koyar, takmaz; uzun uzun bakar. Gizem: "Takmayacak mısınız?" Peri:
-    "Sonra."
-  - *Taç Cengo'da:* Cengo kutuyu açar, tacı şaka olsun diye kendi başına koyar, smokinle. Peri: "Yakışmadı." Cengo:
-    "Alacağım var."
-  - *Taç yok (ihbar):* Gizem kâğıttan bir taç yapmış, Peri'nin başına koyar: "Geçici." Peri çıkarmaz.
-- **Kodsuz yedek:** taç yalnız karar sonuç ekranında ve ara karesinde görünür; kapanış her kararda aynı: Gizem Peri'nin
-  kulak arkasındaki yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
+**Taç her yolda Peri'de (adım 7, 15 Kas):** kapanış her kararda aynı, kod gerekmez. Büro, gece. Peri kadife kutuyu açıp tacı
+masaya koyar, takmaz; bakar (yeni kare K153). Gizem çay getirir: "Takmayacak mısınız, Peri Hanım?" Peri: "Sonra." Ardından
+Gizem yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
 - **Bağ düşükse (0 ve altı):** Cengo papyonu çözer, cebine koyar: "Pazartesi iade." Ceketini alıp çıkar. Peri kulak
   arkasını siler.
 - **Bağ yüksekse (+1 ve üstü):** Peri kalkar, Cengo'nun papyonunu düzeltir; bütün gün kaçan Cengo bu kez kıpırdamaz.
@@ -452,7 +445,7 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
 | 15.000 ₺ | "sus"ta Süheyla'nın primi | hikâye içi; kural 26 (ücretin altında) |
 | 10.000 ₺ | "Cengo'ya bırak"ta Peri'nin payı | hikâye içi |
 | 100 ₺ | Necmi'nin kartpostalı | bitpazarı fiyatı (şaka) |
-| 60.000 / ~80.000 ₺ | tacın açılışı / satışı | ❓ öneri; taç fiyatı kanona girer (Barbaros) |
+| ~200.000 ₺ | tacın fiyatı | ortak, 15 Kas (kasanın ortası); **metne girmez**; kanona Barbaros'un kural işiyle girer |
 | 50.000 / 55.000 ₺ | "altın kadın" şaka teklifleri | şaka; gerçek satış değil |
 
 Başka tutar metne girmez. *Rüşvet tutarı ve tuval fiyatı metne girmez.*
@@ -472,7 +465,7 @@ Başka tutar metne girmez. *Rüşvet tutarı ve tuval fiyatı metne girmez.*
 
 **Vaka kanonu:** Süheyla Hanım'ın müzayede evi (Nişantaşı), Hüsnü Faik (hayalî ressam) ve "Boğaz'da Akşam", İrfan Bey
 (ölmüş koleksiyoner), Nesrin, Şükrü, Vedat, Kaan, vale Ercan, Feriköy'de Necmi.
-**Kapanan açık nokta:** yok (taç ayrıntısı eklenir). **Açık kalan (Barbaros):** taç–kasa (§12 ❓).
+**Kapanan açık nokta:** yok (taç ayrıntısı eklenir). **Açık kalan (Barbaros):** taç kararı verildi (§12 ✅); kural 24/27 ve motor işi Barbaros'ta.
 
 ## 19. Kontrol
 
@@ -493,7 +486,7 @@ Başka tutar metne girmez. *Rüşvet tutarı ve tuval fiyatı metne girmez.*
 - [x] Yeni kanon onaylandı (§18; 1–4 kanona yazıldı, 5. madde kural 24 yüzünden Barbaros'ta)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
 - [x] Yeni yan karakterlerin görünüşü onaylandı (Onay 1)
-- [x] Kural kitabıyla çelişen bir şey yok — **❓ taç–kasa (kural 24/27) Barbaros'ta**
+- [x] Kural kitabıyla çelişen bir şey yok — taç kararı verildi; kural 24/27 metni Barbaros'ta
 
 ## Ortağa sorular *(Onay 1, 15 Kasım 2026: hepsi ✅)*
 

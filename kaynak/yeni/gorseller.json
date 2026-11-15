@@ -742,7 +742,8 @@
     "necmi.normal",
     "necmi.heyecanli",
     "necmi.defter",
-    "K152"
+    "K152",
+    "K153"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -853,12 +854,13 @@
     "K145": "çerçeve odası: Nesrin taburede, Peri ve Cengo karşısında, Cengo'nun elinde rulo",
     "K146": "papyon Cengo'nun cebinde, Cengo kapıdan çıkıyor; Peri kulak arkasını siliyor",
     "K147": "Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle",
-    "K148": "ihbar: vitrindeki 14 numaranın üstüne örtü çekilmiş; boşalan salon",
+    "K148": "ihbar: boşalan salon; Süheyla kadife kutuyu Peri’nin önüne koyuyor",
     "K149": "sus: Peri elinde tacıyla, arkada alkışlayan salon",
     "K150": "sus payı: Süheyla tacı kutusuyla Peri'ye uzatıyor",
     "K151": "Cengo masaya buruşuk paraları sayıyor; koltuğunun altında taç kutusu",
     "MASA_V7": "Masada Süheyla Hanım'ın kataloğu ve bir büyüteç",
-    "K152": "Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız)"
+    "K152": "Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız)",
+    "K153": "büro, gece: Peri masada; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor)"
   },
   "kesim_yz": [
     "muzeyyen.normal",
