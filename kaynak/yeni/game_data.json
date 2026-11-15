@@ -70,7 +70,10 @@
             "battaniye": ["normal", "kas"],
             "mesai": ["normal", "kas", "merakli", "sasirmis", "utanmis"],
             "gullu": ["sinirli", "kas"],
-            "tul": ["normal", "kas", "yumusak"]
+            "tul": ["normal", "kas", "yumusak"],
+            "gala": ["normal", "kas", "merakli", "sasirmis", "sevincli", "utanmis", "yumusak"],
+            "altin": ["sinirli", "kas"],
+            "altin_temiz": ["normal", "kas", "yumusak"]
           }
         },
         "cengo": {
@@ -85,7 +88,9 @@
             "simitli": ["kas", "normal", "gulen", "yumusak"],
             "utulu": ["normal", "kas", "gulen", "yumusak", "sinirli", "borek"],
             "duvakli": ["kas", "yumusak"],
-            "buruk": ["normal", "yumusak"]
+            "buruk": ["normal", "yumusak"],
+            "smokin": ["normal", "kas", "gulen", "yumusak", "sinirli"],
+            "smokin_tepsi": ["kas"]
           }
         },
         "hilmi": {"ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"]},
@@ -124,7 +129,8 @@
             "kirmizi_isveli",
             "triko_telefon",
             "triko_tepsi",
-            "triko_tepsi_telefon"
+            "triko_tepsi_telefon",
+            "triko_aski"
           ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
@@ -151,7 +157,14 @@
         "jale": {"ad": "Jale", "ifadeler": ["soguk", "kacamak", "ofkeli", "normal", "makbuz", "uzaniyor"]},
         "recep": {"ad": "Kapıcı", "ifadeler": ["normal", "gulen", "supurge"]},
         "dilek": {"ad": "Kalfa", "ifadeler": ["normal", "heyecanli"]},
-        "tahsin": {"ad": "Tahsin Usta", "ifadeler": ["gulen", "normal"]}
+        "tahsin": {"ad": "Tahsin Usta", "ifadeler": ["gulen", "normal"]},
+        "suheyla": {"ad": "Süheyla", "ifadeler": ["normal", "suzuyor", "endiseli", "sert"]},
+        "kaan": {"ad": "Kaan", "ifadeler": ["normal", "heyecanli", "ciddi"]},
+        "sukru": {"ad": "Şükrü", "ifadeler": ["normal", "dik", "kirgin"]},
+        "vedat": {"ad": "Vedat", "ifadeler": ["sakaci", "kacamak", "yakalanmis", "ofkeli"]},
+        "nesrin": {"ad": "Nesrin", "ifadeler": ["sigara", "soguk", "normal", "itiraf"]},
+        "ercan": {"ad": "Vale", "ifadeler": ["normal", "gulen", "fisilti"]},
+        "necmi": {"ad": "Necmi", "ifadeler": ["normal", "heyecanli", "defter"]}
       },
       "sesler": {
         "ses": "Ses",
@@ -160,7 +173,9 @@
         "tuba_tel": "Tuba (telefonda)",
         "nedime": "Nedime",
         "garson": "Garson",
-        "fotografci": "Fotoğrafçı"
+        "fotografci": "Fotoğrafçı",
+        "ikram_sefi": "İkram şefi",
+        "misafir": "Misafir"
       },
       "arkalar": [
         "A1",
@@ -223,7 +238,15 @@
         "A46",
         "A47",
         "A48",
-        "A49"
+        "A49",
+        "A50",
+        "A51",
+        "A52",
+        "A53",
+        "A54",
+        "A55",
+        "A56",
+        "A57"
       ],
       "kareler": [
         "D1",
@@ -375,7 +398,41 @@
         "K120",
         "K121",
         "K122",
-        "K123"
+        "K123",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D27",
+        "K124",
+        "K125",
+        "K126",
+        "K127",
+        "K128",
+        "K129",
+        "K130",
+        "K131",
+        "K132",
+        "K133",
+        "K134",
+        "K135",
+        "K136",
+        "K137",
+        "K138",
+        "K139",
+        "K140",
+        "K141",
+        "K142",
+        "K143",
+        "K144",
+        "K145",
+        "K146",
+        "K147",
+        "K148",
+        "K149",
+        "K150",
+        "K151"
       ],
       "buro": ["A6", "A6b", "A7", "A8"]
     }
@@ -7667,6 +7724,2055 @@
               "kime": "peri",
               "ekran": "peri+gizem",
               "yuz": "peri.normal"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "V7",
+      "tur": "omurga",
+      "sira": 7,
+      "belirir": null,
+      "baslik": "Açık Artırma",
+      "arastirma": 3,
+      "ucret": 50000,
+      "giris_gorsel": "MASA_V7",
+      "setler": {"peri": "manto", "cengo": "smokin"},
+      "truth": {
+        "ne_oldu": "Süheyla Hanım'ın satışındaki Hüsnü Faik tablosu kopyayla değiştirildi. Evin restoratörü Nesrin, satıcı Vedat'ın gizlice onarttığı tabloyu onarırken aslının karşısında kopyasını yaptı; kopyayı Vedat'a verdi, aslını 15 numaralı boş çerçevenin arkalığına gerdi.",
+        "neden": "Öç: otuz yıl önce Vedat'ın babası İrfan Bey Nesrin'in bir yıllık emeğini ödemedi, 'tablomu bozdu' deyip adını batırdı. Kopya İrfan'ın oğlunun adıyla satılsın, bir gün anlaşılsın istedi.",
+        "sukru": "Patronuna kırgın Şükrü, Vedat'tan para alıp yırtığı gördüğü tablo için 'onarım görmemiş' raporunu önceden yazdı; Nesrin'i önerdi. Onarım boyunca İzmir'deydi; kopyadan habersiz.",
+        "vedat": "Tablo evde düşüp yırtıldı; Vedat değer kaybını saklamak için gizlice onarttı, rüşveti verdi. Fırça tutmaz; kopyadan habersiz.",
+        "tac": "Katalogda 14 numara Peri'nin 2009 tarihli tacı (icra satışından bir tüccar getirmiş)."
+      },
+      "facts": {
+        "tablo_suphe": "Süheyla Hanım'ın bu akşamki satışının yıldızı Hüsnü Faik'in \"Boğaz'da Akşam\" tablosu. Süheyla tabloyu iki ay önce Vedat Bey'in evinde fotoğrafladı; bu sabah karşılaştırınca çatlaklar fotoğraftakiyle aynı değil. Onarım mı, sahte mi bilmiyor. Tabloyu depoda evin restoratörü Nesrin Hanım çerçeveledi.",
+        "sukru_suphe": "Tablonun kondisyon raporunu evin otuz yıllık uzmanı Şükrü Bey imzaladı: \"Onarım görmemiş.\" Üç aydır Süheyla Hanım'a küs; Süheyla genç Kaan'ı baş eksper yaptı.",
+        "vedat_suphe": "Tablonun satıcısı Vedat Bey, koleksiyoner İrfan Bey'in oğlu. Tabloyu müzayede evine kendisi getirdi; Lizbon'a taşınıyor, çok acelesi var.",
+        "kopya_eli": "Tablonun tamamı yeni boya; çatlaklar çatlak verniğiyle yapılmış. Onarım değil, kopya: aslının karşısında haftalarca çalışılmış. Bu evde böyle bir kopyayı yapacak iki el var: restoratör Nesrin Hanım ve gençliğinde kopya ressamlığı yapmış Şükrü Bey.",
+        "rapor_yalan": "Kopyanın köşesinde bir yırtık onarımının izi var; kopyacı onu bile kopyalamış. Yani aslı onarım görmüş. Şükrü Bey'in raporu \"onarım görmemiş\" diyor.",
+        "rapor_evde": "Şükrü Bey raporu tablo yırtıkken, Vedat Bey'in evinde bir saatte yazdı. Ertesi gün iki haftalığına İzmir'e gitti; döndüğünde tablo depodaydı, kasasını hiç açmadı.",
+        "sukru_kirgin": "Şükrü Bey otuz yıldır bu evde; ortaklık değil, bir teşekkür bekledi. Süheyla Hanım üç ay önce yirmi sekiz yaşındaki Kaan'ı baş eksper yaptı.",
+        "zarf": "Üç hafta önce bir salı, Vedat Bey müzayede evinin kapısında Şükrü Bey'e kalın bir zarf verdi.",
+        "arka_kapi": "Aynı gün Vedat Bey arabasından battaniyeye sarılı büyük, düz bir paketi arka kapıdan içeri taşıdı; on dakika sonra eli boş döndü.",
+        "onarim_nesrin": "Tablo üç hafta önce Vedat Bey'in evinde düştü, köşesi yırtıldı. Vedat Bey onu gizlice Nesrin Hanım'a onarttı; tablo iki hafta onda kaldı. Öncesinde yıllarca Vedat Bey'in duvarındaydı.",
+        "vedat_gece": "Vedat Bey dün gece depoya geldi, tablonun başında yarım saat yalnız kaldı.",
+        "eski_tuval": "İki hafta önce biri Feriköy'de Necmi'nin tezgâhından tablonun boyunda, 1920'lerden kalma eski bir tuval aldı; adını yazdırmadı, \"evin hesabına\" dedi. O hesapla Necmi'den yıllardır yalnız iki kişi alışveriş yapar: Şükrü Bey ve Nesrin Hanım."
+      },
+      "knowledge": [
+        {
+          "turetilen": "rusvet_onarim",
+          "baslik": "Şükrü Bey'e verilen para sahteliğin değil, raporda gizlenen onarımın parası.",
+          "ifade": {"all": ["zarf", "rapor_yalan"]}
+        },
+        {
+          "turetilen": "aslin_karsisi",
+          "baslik": "Kopya aslının karşısında yapıldı; aslıyla haftalarca baş başa kalan biri yaptı.",
+          "ifade": {"all": ["kopya_eli", "onarim_nesrin"]}
+        },
+        {
+          "turetilen": "firca_hesap",
+          "baslik": "Kopyayı yapan hem fırça tutuyor hem evin hesabını kullanabiliyor.",
+          "ifade": {"all": ["kopya_eli", "eski_tuval"]}
+        },
+        {
+          "turetilen": "rapor_gormeden",
+          "baslik": "Şükrü Bey onarılmamış bir tablo için \"onarım görmemiş\" yazdı ve onarımdan sonra tabloyu hiç görmedi.",
+          "ifade": {"all": ["rapor_evde", "rapor_yalan"]}
+        },
+        {
+          "turetilen": "vedat_sakliyor",
+          "baslik": "Vedat Bey tablosunun etrafında dolaşıyor; bir şey saklıyor.",
+          "ifade": {"all": ["arka_kapi", "vedat_gece"]}
+        }
+      ],
+      "giris": [
+        {
+          "kosul": "varsayilan",
+          "metin": "Nişantaşı'nda müzayede evi olan Süheyla Hanım büroya geldi: bu akşamki satışın yıldızı Hüsnü Faik tablosunun çatlakları katalog fotoğrafına uymuyor; onarım mı, sahte mi bilmiyor. Raporu imzalayan Şükrü Bey'den ve satıcı Vedat Bey'den şüpheleniyor. Katalogda 14 numara Peri'nin tacı; Peri söylemedi. Ücret elli bin.",
+          "acilan": ["tablo_suphe", "sukru_suphe", "vedat_suphe"]
+        }
+      ],
+      "clues": [
+        {
+          "id": "tablo",
+          "ad": "Tablo",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["kopya_eli", "rapor_yalan"],
+          "text": "UV ışığında tablonun tamamı yeni boya: onarım değil, aslının karşısında yapılmış bir kopya. Bu evde bunu yapacak iki el var: Nesrin Hanım ve Şükrü Bey. Kopyacı köşedeki onarım izini bile kopyalamış; raporsa \"onarım görmemiş\" diyor.",
+          "meta": "UV ışığında tablonun tamamı yeni boya: onarım değil, aslının karşısında yapılmış bir kopya. Bu evde bunu yapacak iki el var: Nesrin Hanım ve Şükrü Bey. Kopyacı köşedeki onarım izini bile kopyalamış; raporsa \"onarım görmemiş\" diyor.",
+          "sahne": {
+            "arka": "A50",
+            "set": "gala",
+            "cset": "smokin",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Nişantaşı. Müzayede evinin deposu: raflarda çerçeveler, ortada bir sehpada yaldız çerçeveli bir Boğaz manzarası.",
+                "arka": "A50",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam; elinde mor ışıklı bir lamba.",
+                "gir": "kaan",
+                "gi": "normal",
+                "ekran": "kaan"
+              },
+              {
+                "k": "kaan",
+                "i": "heyecanli",
+                "m": "Süheyla Hanım'ın misafirleri! Kaan, baş eksper. Siz… sizi bir yerden…",
+                "gir": "kaan",
+                "kime": "peri",
+                "ekran": "peri+kaan",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Bir yerden, evet. Tabloya bakacaktık, Kaan Bey.",
+                "kime": "kaan",
+                "ekran": "peri+kaan",
+                "yuz": "kaan.heyecanli"
+              },
+              {
+                "k": "not",
+                "m": "Kaan ışıkları kısıyor, mor lambayı tablonun üstünde gezdiriyor. Tablonun her yeri aynı, düz bir renkte parlıyor.",
+                "kare": "D24"
+              },
+              {
+                "k": "kaan",
+                "i": "ciddi",
+                "m": "Bakın. Eski boya bu ışıkta lekeli parlar, yeni boya düz parlar. Bunun her yeri düz.",
+                "kare": "D24"
+              },
+              {
+                "k": "kaan",
+                "i": "ciddi",
+                "m": "Çatlaklar da yaşın çatlağı değil; çatlak verniğiyle verilmiş. Bu tablo onarım görmemiş; baştan sona yeniden yapılmış. Kopya.",
+                "gir": "kaan",
+                "kime": "peri",
+                "ekran": "peri+kaan",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "kaan",
+                "i": "ciddi",
+                "m": "Fotoğraftan da yapılmamış. Fırça izleri birebir. Biri aslının karşısında haftalarca çalışmış.",
+                "ekran": "peri+kaan",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Böyle bir kopyayı kim yapabilir, Kaan Bey?",
+                "kime": "kaan",
+                "ekran": "peri+kaan",
+                "yuz": "kaan.ciddi"
+              },
+              {
+                "k": "kaan",
+                "i": "normal",
+                "m": "Bu evde iki el var. Restoratörümüz Nesrin Hanım. Bir de Şükrü Bey: gençliğinde Beyoğlu'nda kopya ressamıymış.",
+                "kime": "peri",
+                "ekran": "peri+kaan",
+                "yuz": "peri.merakli"
+              },
+              {"k": "not", "m": "Kaan lambayı tablonun sağ alt köşesine tutuyor.", "kare": "D25"},
+              {
+                "k": "kaan",
+                "i": "ciddi",
+                "m": "Şuna bakın. Köşede bir yırtık onarımının izi var. Kopyacı onarımın izini bile kopyalamış.",
+                "kare": "D25"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Yani aslı yırtılmış, onarılmış.",
+                "kime": "kaan",
+                "ekran": "cengo+kaan",
+                "yuz": "kaan.ciddi"
+              },
+              {
+                "k": "kaan",
+                "i": "heyecanli",
+                "m": "Evet! Ama Şükrü Bey'in raporu \"onarım görmemiş\" diyor. (raporu tutarak) Otuz yıllık uzman, ha?",
+                "kime": "cengo",
+                "ekran": "cengo+kaan",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Süheyla Hanım'a bunu ben söylerim, Kaan Bey. Şimdilik kimseye bir şey demeyin.",
+                "kime": "kaan",
+                "ekran": "peri+kaan",
+                "yuz": "kaan.heyecanli"
+              },
+              {
+                "k": "kaan",
+                "i": "normal",
+                "m": "Söz. (Peri'ye bakarak) Sizi bir yerden tanıyorum, eminim.",
+                "kime": "peri",
+                "ekran": "peri+kaan",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Herkes onu bir yerden tanıyor. Kimse nereden tanıdığını bilmiyor.",
+                "kime": "kaan",
+                "ekran": "cengo+kaan",
+                "yuz": "kaan.normal"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sukru",
+          "ad": "Şükrü Bey",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["rapor_evde", "sukru_kirgin"],
+          "text": "Şükrü Bey raporu tablo yırtıkken Vedat Bey'in evinde bir saatte yazdı; ertesi gün iki haftalığına İzmir'e gitti, döndüğünde kasayı açmadı. Otuz yıldır evde; yerine genç Kaan baş eksper oldu.",
+          "meta": "Şükrü Bey raporu tablo yırtıkken Vedat Bey'in evinde bir saatte yazdı; ertesi gün iki haftalığına İzmir'e gitti, döndüğünde kasayı açmadı. Otuz yıldır evde; yerine genç Kaan baş eksper oldu.",
+          "sahne": {
+            "arka": "A51",
+            "set": "gala",
+            "cset": "smokin",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Teşvikiye. Eski bir lokanta; köşede beyaz örtülü bir masa.",
+                "arka": "A51",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kahverengi tüvit takımlı, kusursuz bordo papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.",
+                "gir": "sukru",
+                "gi": "normal",
+                "ekran": "sukru"
+              },
+              {
+                "k": "sukru",
+                "i": "normal",
+                "m": "Süheyla'nın misafirleri. Buyurun. (Peri'ye) Sizi bir dizide görmüştüm. Hemşireydiniz.",
+                "gir": "sukru",
+                "kime": "peri",
+                "ekran": "peri+sukru",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Hiç hemşire olmadım, Şükrü Bey. Ama size iyi gelecek bir sorum var.",
+                "kime": "sukru",
+                "ekran": "peri+sukru",
+                "yuz": "sukru.normal"
+              },
+              {"k": "not", "m": "Şükrü Cengo'nun papyonuna uzanıyor; Cengo geri çekiliyor.", "kare": "K130"},
+              {"k": "sukru", "i": "normal", "m": "Papyon böyle bağlanmaz, delikanlı.", "kare": "K130"},
+              {"k": "cengo", "i": "kas", "m": "Biliyorum. Böyle kalsın.", "kare": "K130"},
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Hüsnü Faik'in raporunu siz imzaladınız. \"Onarım görmemiş.\" Tabloyu ne zaman incelediniz?",
+                "kime": "sukru",
+                "ekran": "peri+sukru",
+                "yuz": "sukru.normal"
+              },
+              {
+                "k": "sukru",
+                "i": "dik",
+                "m": "Üç hafta önce. Vedat Bey'in Maçka'daki evinde, duvardan indirip baktım. Bir saat. Raporu orada yazdım.",
+                "kime": "peri",
+                "ekran": "peri+sukru",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "sukru",
+                "i": "normal",
+                "m": "Ertesi gün İzmir'e gittim; bir koleksiyonun değerlemesi, iki hafta sürdü.",
+                "ekran": "peri+sukru",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "sukru",
+                "i": "normal",
+                "m": "Döndüğümde tablo depodaydı, kasasında. Açmadım. Raporum dosyadaydı; gerek görmedim.",
+                "ekran": "peri+sukru",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Otuz yıllık uzman tabloya bir daha bakmaz mı?",
+                "kime": "sukru",
+                "ekran": "cengo+sukru",
+                "yuz": "sukru.normal"
+              },
+              {
+                "k": "sukru",
+                "i": "kirgin",
+                "m": "Otuz yıllık uzmanın yerine artık Kaan bakıyor, delikanlı.",
+                "kime": "cengo",
+                "ekran": "cengo+sukru",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "sukru",
+                "i": "kirgin",
+                "m": "Bu eve otuz yıl verdim. Süheyla'yı çocukken kucağımda taşırdım. Ortaklık beklemedim; bir teşekkür bekledim.",
+                "kime": "peri",
+                "ekran": "peri+sukru",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "sukru",
+                "i": "kirgin",
+                "m": "Üç ay önce baş eksper diye yirmi sekiz yaşında bir çocuk getirdi.",
+                "ekran": "peri+sukru",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Kırgın bir adam yanlış bir rapora kolay imza atar, Şükrü Bey.",
+                "kime": "sukru",
+                "ekran": "peri+sukru",
+                "yuz": "sukru.kirgin"
+              },
+              {
+                "k": "not",
+                "m": "Şükrü bardağını yavaşça masaya bırakıyor.",
+                "gir": "sukru",
+                "gi": "dik",
+                "ekran": "peri+sukru",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "sukru",
+                "i": "dik",
+                "m": "Bu evde hepimizin bir rakamı var, Peri Hanım. Sizin de vardır.",
+                "kime": "peri",
+                "ekran": "peri+sukru",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "sasirmis",
+                "m": "Adımı biliyorsunuz.",
+                "kime": "sukru",
+                "ekran": "peri+sukru",
+                "yuz": "sukru.dik"
+              },
+              {
+                "k": "sukru",
+                "i": "normal",
+                "m": "Süheyla söyledi. Hemşire olduğunuzu söylemedi; onu ben bildim.",
+                "kime": "peri",
+                "ekran": "peri+sukru",
+                "yuz": "peri.sasirmis"
+              }
+            ]
+          }
+        },
+        {
+          "id": "vale",
+          "ad": "Vale",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["zarf", "arka_kapi"],
+          "text": "Üç hafta önce Vedat Bey kapıda Şükrü Bey'e kalın bir zarf verdi. Aynı gün battaniyeli büyük bir paketi arka kapıdan içeri taşıdı, eli boş döndü.",
+          "meta": "Üç hafta önce Vedat Bey kapıda Şükrü Bey'e kalın bir zarf verdi. Aynı gün battaniyeli büyük bir paketi arka kapıdan içeri taşıdı, eli boş döndü.",
+          "sahne": {
+            "arka": "A52",
+            "set": "gala",
+            "cset": "smokin",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Nişantaşı. Müzayede evinin kapısı; kaldırımda küçük bir vale kulübesi.",
+                "arka": "A52",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam; elinde bir anahtar halkası.",
+                "gir": "ercan",
+                "gi": "normal",
+                "ekran": "ercan"
+              },
+              {
+                "k": "ercan",
+                "i": "gulen",
+                "m": "Karaköy otoparkının Cengo'su! Smokin mi o?",
+                "gir": "ercan",
+                "kime": "cengo",
+                "ekran": "cengo+ercan",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Kiralık, Ercan. Pazartesi iade.",
+                "kime": "ercan",
+                "ekran": "cengo+ercan",
+                "yuz": "ercan.gulen"
+              },
+              {
+                "k": "ercan",
+                "i": "gulen",
+                "m": "Papyonun yamuk ama. Düzelteyim mi?",
+                "kime": "cengo",
+                "ekran": "cengo+ercan",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Böyle kalsın. Sana bir şey soracağım. Bu kapıdan son üç haftada ne girdi, ne çıktı?",
+                "kime": "ercan",
+                "ekran": "cengo+ercan",
+                "yuz": "ercan.gulen"
+              },
+              {
+                "k": "not",
+                "m": "Ercan etrafına bakıp sesini alçaltıyor.",
+                "gir": "ercan",
+                "gi": "fisilti",
+                "ekran": "cengo+ercan",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "ercan",
+                "i": "fisilti",
+                "m": "Üç hafta önce, bir salı. Vedat Bey arabasını bıraktı; tam şurada Şükrü Bey'e kalın bir zarf verdi.",
+                "kime": "cengo",
+                "ekran": "cengo+ercan",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "ercan",
+                "i": "fisilti",
+                "m": "Ben zarf tanırım, Cengo. Otuz yıldır bahşişi zarfla alırım. O zarf bahşiş değildi.",
+                "ekran": "cengo+ercan",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Sonra ne oldu?",
+                "gir": "ercan",
+                "kime": "ercan",
+                "ekran": "peri+ercan",
+                "yuz": "ercan.fisilti"
+              },
+              {
+                "k": "ercan",
+                "i": "fisilti",
+                "m": "Aynı gün Vedat Bey bagajdan büyük, düz bir paket çıkardı; battaniyeye sarılıydı. Arka kapıdan içeri taşıdı.",
+                "kime": "peri",
+                "ekran": "peri+ercan",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "ercan",
+                "i": "normal",
+                "m": "On dakika sonra eli boş döndü. Kime verdi, görmedim; arka kapının içi bana görünmez.",
+                "ekran": "peri+ercan",
+                "yuz": "peri.merakli"
+              },
+              {"k": "not", "m": "Peri defterine yazıyor.", "gir": "peri", "ekran": "peri+cengo", "yuz": "cengo.kas"},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Zarf Şükrü Bey'e, paket içeriye. Vedat Bey çok meşgul bir adam.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "ercan",
+                "i": "gulen",
+                "m": "(Peri'ye) Hanımefendi, sizin arabanız hangisi?",
+                "kime": "peri",
+                "ekran": "peri+ercan",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Metroyla geldik.",
+                "kime": "ercan",
+                "ekran": "peri+ercan",
+                "yuz": "ercan.gulen"
+              }
+            ]
+          }
+        },
+        {
+          "id": "vedat",
+          "ad": "Vedat Bey",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["onarim_nesrin"],
+          "text": "Tablo üç hafta önce evde düştü, köşesi yırtıldı. Vedat Bey onu gizlice Nesrin Hanım'a onarttı; tablo iki hafta onda kaldı.",
+          "meta": "Tablo üç hafta önce evde düştü, köşesi yırtıldı. Vedat Bey onu gizlice Nesrin Hanım'a onarttı; tablo iki hafta onda kaldı.",
+          "sahne": {
+            "arka": "A53",
+            "set": "gala",
+            "cset": "smokin",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Maçka. Geniş bir salon; her yerde taşınma kutuları. Duvarda, etrafı solmuş boyanın ortasında solmamış bir dikdörtgen; üstünde bir çivi.",
+                "arka": "A53",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Bordo kadife ceketli, kel, kısa kır sakallı, kalın siyah gözlüklü iri bir adam; elinde bir koli bandı.",
+                "gir": "vedat",
+                "gi": "sakaci",
+                "ekran": "vedat"
+              },
+              {
+                "k": "vedat",
+                "i": "sakaci",
+                "m": "Süheyla mı gönderdi? (Peri'ye) Durun, sizi tanıdım: hava durumu! Akşam yağmur var mı?",
+                "gir": "vedat",
+                "kime": "peri",
+                "ekran": "peri+vedat",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Fırtına var, Vedat Bey. Tablonuz bu duvarda mı asılıydı?",
+                "kime": "vedat",
+                "ekran": "peri+vedat",
+                "yuz": "vedat.sakaci"
+              },
+              {
+                "k": "vedat",
+                "i": "sakaci",
+                "m": "Kırk yıl. Babamdan kaldı. Lizbon'a götüremem; orada nem çok, Hüsnü Faik sevmez.",
+                "kime": "peri",
+                "ekran": "peri+vedat",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Tablo son aylarda bu duvardan hiç indi mi?",
+                "kime": "vedat",
+                "ekran": "peri+vedat",
+                "yuz": "vedat.sakaci"
+              },
+              {
+                "k": "not",
+                "m": "Vedat bir an duvardaki dikdörtgene bakıyor, sonra Peri'ye gülüyor.",
+                "gir": "vedat",
+                "gi": "kacamak",
+                "ekran": "peri+vedat",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "vedat",
+                "i": "kacamak",
+                "m": "İnmedi. Süheyla fotoğraf çekerken bir indi, o kadar.",
+                "kime": "peri",
+                "ekran": "peri+vedat",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Yalan söylerken o duvara bakıyorsunuz, Vedat Bey. Bir şey söyleyecekseniz şimdi söyleyin.",
+                "kime": "vedat",
+                "ekran": "peri+vedat",
+                "yuz": "vedat.kacamak"
+              },
+              {
+                "k": "not",
+                "m": "Vedat koli bandını bırakıp bir kutunun üstüne oturuyor.",
+                "gir": "vedat",
+                "gi": "yakalanmis",
+                "ekran": "peri+vedat",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "vedat",
+                "i": "yakalanmis",
+                "m": "Düştü. Üç hafta önce, bir pazar. Çivi çıktı, tablo sehpanın köşesine geldi. Köşesi yırtıldı.",
+                "kime": "peri",
+                "ekran": "peri+vedat",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "vedat",
+                "i": "yakalanmis",
+                "m": "Onarılmış bir Hüsnü Faik iki milyon eder, onarılmamışı altı. Katalog çoktan basılmıştı.",
+                "ekran": "peri+vedat",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "vedat",
+                "i": "yakalanmis",
+                "m": "Kimse duymasın diye Nesrin Hanım'a gizlice onarttım. Tablo iki hafta ondaydı. Sonra tabloyu müzayedeye ben teslim ettim.",
+                "ekran": "peri+vedat",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Raporu yazan Şükrü Bey'e de bir şey verdiniz mi?",
+                "kime": "vedat",
+                "ekran": "cengo+vedat",
+                "yuz": "vedat.yakalanmis"
+              },
+              {
+                "k": "vedat",
+                "i": "sakaci",
+                "m": "Şükrü'ye mi? Ben kimseye para vermem; ben reklamcıyım. Ben para alırım.",
+                "kime": "cengo",
+                "ekran": "cengo+vedat",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Kimse paradan söz etmedi, Vedat Bey.",
+                "kime": "vedat",
+                "ekran": "peri+vedat",
+                "yuz": "vedat.sakaci"
+              },
+              {
+                "k": "not",
+                "m": "Vedat koli bandını yeniden alıyor; bir kutuyu kapatmaya uğraşıyor.",
+                "gir": "vedat",
+                "gi": "yakalanmis",
+                "ekran": "peri+vedat",
+                "yuz": "peri.kas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nesrin",
+          "ad": "Nesrin Hanım",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["vedat_gece"],
+          "text": "Nesrin Hanım'a göre Vedat Bey dün gece depoya gelip tablonun başında yarım saat yalnız kaldı.",
+          "meta": "Nesrin Hanım'a göre Vedat Bey dün gece depoya gelip tablonun başında yarım saat yalnız kaldı.",
+          "sahne": {
+            "arka": "A54",
+            "set": "gala",
+            "cset": "smokin",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Müzayede evinin arka avlusu. Duvar dibinde kediler, köşede bir çöp konteyneri.",
+                "arka": "A54",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; sigara içiyor, kedilere bakıyor.",
+                "gir": "nesrin",
+                "gi": "sigara",
+                "ekran": "nesrin"
+              },
+              {
+                "k": "not",
+                "m": "Cengo hiçbir şey demeden yanına oturuyor, kendi sigarasını yakıyor. Bir süre ikisi de konuşmuyor.",
+                "kare": "K131"
+              },
+              {
+                "k": "nesrin",
+                "i": "sigara",
+                "m": "Kediler sizi sevdi. Herkesi sevmezler.",
+                "kime": "cengo",
+                "kare": "K131"
+              },
+              {"k": "cengo", "i": "yumusak", "m": "Simit kokuyorum.", "kime": "nesrin", "kare": "K131"},
+              {
+                "k": "nesrin",
+                "i": "soguk",
+                "m": "(Peri'ye bakarak) Elbiseniz size dar, hanımefendi.",
+                "gir": "nesrin",
+                "kime": "peri",
+                "ekran": "peri+nesrin",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Biliyorum, Nesrin Hanım. Bilerek giydim.",
+                "kime": "nesrin",
+                "ekran": "peri+nesrin",
+                "yuz": "nesrin.soguk"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Hüsnü Faik'i siz çerçevelemişsiniz. Bir şey dikkatinizi çekti mi?",
+                "kime": "nesrin",
+                "ekran": "cengo+nesrin",
+                "yuz": "nesrin.soguk"
+              },
+              {
+                "k": "nesrin",
+                "i": "sigara",
+                "m": "Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona.",
+                "kime": "cengo",
+                "ekran": "cengo+nesrin",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "not",
+                "m": "Nesrin sigarasından uzun bir nefes çekiyor.",
+                "gir": "nesrin",
+                "gi": "sigara",
+                "ekran": "cengo+nesrin",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "nesrin",
+                "i": "sigara",
+                "m": "Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı.",
+                "ekran": "cengo+nesrin",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "nesrin",
+                "i": "soguk",
+                "m": "Sahibi ya. Kim ne der.",
+                "ekran": "cengo+nesrin",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Yarım saat tablonun başında ne yaptı?",
+                "kime": "nesrin",
+                "ekran": "peri+nesrin",
+                "yuz": "nesrin.soguk"
+              },
+              {
+                "k": "nesrin",
+                "i": "soguk",
+                "m": "Bilmem. Ben çıktım. Bazı adamlar babalarından kalanın başında uzun durur.",
+                "kime": "peri",
+                "ekran": "peri+nesrin",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "not",
+                "m": "Nesrin sigarasını söndürüp kalkıyor.",
+                "cik": true,
+                "gir": "nesrin",
+                "gi": "normal",
+                "ekran": "cengo+nesrin",
+                "yuz": "cengo.yumusak"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Bu kadın az konuşuyor, ama konuşunca hep birini gösteriyor.",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.merakli"
+              }
+            ]
+          }
+        },
+        {
+          "id": "tuval",
+          "ad": "Eski tuval",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["eski_tuval"],
+          "text": "İki hafta önce biri Feriköy'den tablonun boyunda eski bir tuval aldı, \"evin hesabına\" yazdırdı. O hesapla yalnız Şükrü Bey ve Nesrin Hanım alışveriş yapar.",
+          "meta": "İki hafta önce biri Feriköy'den tablonun boyunda eski bir tuval aldı, \"evin hesabına\" yazdırdı. O hesapla yalnız Şükrü Bey ve Nesrin Hanım alışveriş yapar.",
+          "sahne": {
+            "arka": "A55",
+            "set": "gala",
+            "cset": "smokin",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Feriköy Antika Pazarı. Açık hava; tezgâhlarda eski çerçeveler, kartpostallar, lambalar.",
+                "arka": "A55",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Yün bereli, gür kır favorili, kareli gömleğinin üstünde şişme yelek giymiş iri bir adam; elinde bir deste kartpostal.",
+                "gir": "necmi",
+                "gi": "normal",
+                "ekran": "necmi"
+              },
+              {
+                "k": "necmi",
+                "i": "normal",
+                "m": "Cengo, gel bakalım. Bu kılık ne?",
+                "gir": "necmi",
+                "kime": "cengo",
+                "ekran": "cengo+necmi",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "not",
+                "m": "Necmi Peri'yi görünce kartpostalları düşürüyor.",
+                "gir": "necmi",
+                "gi": "heyecanli",
+                "ekran": "peri+necmi",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "necmi",
+                "i": "heyecanli",
+                "m": "Kraliçe! 2009! Bekleyin! (desteden bir kartpostal çekip uzatarak) Tacınızın fotoğrafı, bende kartpostal!",
+                "kime": "peri",
+                "ekran": "peri+necmi",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "sevincli",
+                "m": "Sonunda biri tanıdı.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "not",
+                "m": "Peri kartpostalı alıp arkasını çeviriyor; köşede kurşun kalemle bir fiyat.",
+                "kare": "D26"
+              },
+              {"k": "peri", "i": "sasirmis", "m": "Yüz lira mı?", "kare": "D26"},
+              {
+                "k": "necmi",
+                "i": "normal",
+                "m": "Size doksan. Siz kraliçesiniz. (Cengo'ya) Papyonun yamuk, oğlum; gel düzelteyim.",
+                "gir": "necmi",
+                "kime": "cengo",
+                "ekran": "cengo+necmi",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Böyle kalsın, Necmi abi. Sen bana bir eski tuval söyle. Son haftalarda kim aldı?",
+                "kime": "necmi",
+                "ekran": "cengo+necmi",
+                "yuz": "necmi.normal"
+              },
+              {
+                "k": "not",
+                "m": "Necmi tezgâhın altından buruşuk bir defter çıkarıp sayfalarını çeviriyor.",
+                "gir": "necmi",
+                "gi": "defter",
+                "ekran": "cengo+necmi",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "necmi",
+                "i": "defter",
+                "m": "İki hafta önce, pazar. Şu boyda, yirmilerden kalma kötü bir manzara. Üstüne boyamak için alırlar.",
+                "kime": "cengo",
+                "ekran": "cengo+necmi",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "necmi",
+                "i": "defter",
+                "m": "O gün tezgâhta oğlum vardı. Alan adını yazdırmamış; \"evin hesabına\" demiş.",
+                "ekran": "cengo+necmi",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Hangi evin?",
+                "kime": "necmi",
+                "ekran": "peri+necmi",
+                "yuz": "necmi.defter"
+              },
+              {
+                "k": "necmi",
+                "i": "normal",
+                "m": "Süheyla Hanım'ın müzayede evinin. O hesapla benden yıllardır iki kişi alır: Şükrü Bey ve Nesrin Hanım.",
+                "kime": "peri",
+                "ekran": "peri+necmi",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Hangisi aldı, oğlun hatırlamıyor mu?",
+                "kime": "necmi",
+                "ekran": "cengo+necmi",
+                "yuz": "necmi.normal"
+              },
+              {
+                "k": "necmi",
+                "i": "normal",
+                "m": "Oğlan telefondan başını kaldırmaz. Bizim oğlan değil, telefon satıyor.",
+                "kime": "cengo",
+                "ekran": "cengo+necmi",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "(kartpostalı çantasına koyarak) Doksan lira, Cengo. Deftere yaz.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.kas"
+              },
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Taç hesabından mı düşeyim? Bir böbreğim var, Peri; ikincisi lazım değil.",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.kas"
+              }
+            ]
+          }
+        }
+      ],
+      "decisions": [
+        {
+          "id": "ihbar",
+          "gate": "yok",
+          "kare": "K148",
+          "cengoBag": 1,
+          "para": 0,
+          "etiket": "İhbar et",
+          "onizleme": "Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; taç bu akşam satılmaz.",
+          "sonuc": "Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı; vitrindeki on dört numaranın üstüne bir örtü çekildi.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo örtülü vitrine baktı. \"Taç kaçmaz, Peri. On dört numara; ezberledim\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "sus",
+          "gate": "yok",
+          "kare": "K149",
+          "cengoBag": -2,
+          "para": 15000,
+          "etiket": "Sus",
+          "onizleme": "Süheyla'ya \"tablo sağlam\" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın.",
+          "sonuc": "Ruloyu Nesrin'e geri verdin, Süheyla'ya \"tablo sağlam\" dedin. Satış sürdü. On dört numarada elini kaldırdın; kimse karşı çıkmadı, taç senin oldu. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo alkışlayan salona baktı. \"Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "sus_payi",
+          "gate": "yok",
+          "kare": "K150",
+          "cengoBag": -1,
+          "para": 0,
+          "etiket": "Sus payı",
+          "onizleme": "Süheyla'ya yalnız sen söylersin; tablo sessizce satıştan çekilir. Susman için Süheyla tacı sana alır.",
+          "sonuc": "Ruloyu Süheyla'ya bir köşede, kimse duymadan verdin. Süheyla tabloyu \"satıcının isteğiyle\" satıştan çekti; polis yok, gazete yok. Nesrin'e ertesi sabah çıkış verildi, Şükrü emekliye ayrıldı. On dört numarada Süheyla kendi elini kaldırdı, tacı kutusuyla sana uzattı: \"Bu akşam burada hiçbir şey olmadı.\"",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo kutuya dokunmadı. \"Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?\" dedi."
+            }
+          ]
+        },
+        {
+          "id": "cengoya_birak",
+          "gate": "yok",
+          "kare": "K151",
+          "cengoBag": 2,
+          "para": -10000,
+          "etiket": "Tacı Cengo'ya bırak",
+          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendisi alır; payına kasadan 10.000 ₺ koyarsın.",
+          "sonuc": "Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: \"Nakit getiren alır.\" Cengo buruşuk paraları masaya saydı; eksik kalan on bini sen kasadan tamamladın. Taç kutusuyla Cengo'nun koltuğunun altında.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Cengo kutuyu koltuğunun altına sıkıştırdı. \"Taç bende kalsın. Alacağıma sayarım\" dedi."
+            }
+          ]
+        }
+      ],
+      "seeds": {},
+      "kim_yapti": {
+        "suclu": "nesrin",
+        "supheliler": [
+          {
+            "id": "nesrin",
+            "ad": "Nesrin Hanım",
+            "gorunur": {"any": ["kopya_eli", "onarim_nesrin", "eski_tuval", "vedat_gece", "rapor_evde"]}
+          },
+          {"id": "sukru", "ad": "Şükrü Bey", "gorunur": "her_zaman"},
+          {"id": "vedat", "ad": "Vedat Bey", "gorunur": "her_zaman"}
+        ],
+        "dogru_ciftler": [
+          ["kopya_eli", "onarim_nesrin"],
+          ["kopya_eli", "rapor_evde"],
+          ["eski_tuval", "onarim_nesrin"],
+          ["eski_tuval", "rapor_evde"]
+        ],
+        "ucret": {"dogru": 50000, "zayif": 40000, "yanlis": 30000},
+        "giris_grup": "Süheyla'nın anlattıkları",
+        "kesinti": {
+          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Süheyla Hanım {kesinti} kesti.",
+          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Süheyla Hanım {kesinti} kesti."
+        },
+        "cozum": {
+          "yollar": [
+            "Kopyayı bu evde yalnız iki el yapabilirdi (Nesrin ya da Şükrü) + aslıyla haftalarca baş başa kalanlar tablonun sahibi ve onu iki hafta onaran kişiydi (Nesrin ya da Vedat).",
+            "Kopyayı bu evde yalnız iki el yapabilirdi (Nesrin ya da Şükrü) + Şükrü tabloyu bir saat gördü, sonra iki hafta İzmir'deydi; kalan Nesrin'di.",
+            "Kopyanın eski tuvalini evin hesabıyla yalnız iki kişi alabilirdi (Nesrin ya da Şükrü) + aslıyla haftalarca baş başa kalanlar tablonun sahibi ve onu onaran kişiydi (Nesrin ya da Vedat).",
+            "Kopyanın eski tuvalini evin hesabıyla yalnız iki kişi alabilirdi (Nesrin ya da Şükrü) + Şükrü tabloyu bir saat gördü, sonra İzmir'deydi; kalan Nesrin'di."
+          ],
+          "masum": {
+            "sukru": "Şükrü Bey masumdu: para aldı ama yalnız onarımı gizleyen rapor için; tabloyu Nesrin Hanım değiştirmişti.",
+            "vedat": "Vedat Bey masumdu: tabloyu gizlice onarttı, o kadar; kopyayı Nesrin Hanım yapmıştı."
+          }
+        },
+        "hikaye": [
+          "Otuz yıl önce restoratör Nesrin, koleksiyoner İrfan Bey'in tablolarını bir yıl onardı. İrfan Bey parasını ödemedi, üstüne \"tablomu bozdu\" diye adını batırdı; Nesrin'in atölyesi kapandı. Yıllar sonra Süheyla Hanım onu müzayede evine aldı.",
+          "İrfan Bey'in oğlu Vedat, Lizbon'a taşınmadan babasından kalan Hüsnü Faik tablosunu Süheyla'nın satışına verdi. Katalog basıldıktan sonra tablo evde duvardan düştü, köşesi yırtıldı. Onarılmış tablo çok az eder; Vedat bunu saklamaya karar verdi.",
+          "Vedat evin otuz yıllık uzmanı Şükrü Bey'i çağırdı. Patronuna kırgın Şükrü yırtığı gördü, para alıp \"onarım görmemiş\" raporunu önceden yazdı ve Nesrin'i önerdi; ertesi gün iki haftalığına İzmir'e gitti. Vedat tabloyu arka kapıdan Nesrin'e teslim etti.",
+          "Nesrin aynı tabloyu tanıdı. İki hafta geceleri çerçeve odasında çalıştı: aslını onardı, Feriköy'den evin hesabına aldığı eski bir tuvale aslının karşısında kopyasını yaptı, onarım izini bile kopyaladı. Kopyayı Vedat'a verdi; aslını 15 numaralı boş çerçevenin arkalığına gerdi.",
+          "Vedat kopyayı bilmeden müzayedeye teslim etti; satıştan önceki gece onarım fark edilir mi diye depoya inip tablonun başında bekledi. Satış sabahı Süheyla çatlakların fotoğraftakine benzemediğini gördü ve Peri'ye geldi."
+        ],
+        "kanit_ad": {
+          "tablo_suphe": "Farklı çatlaklar",
+          "sukru_suphe": "Şükrü'nün raporu",
+          "vedat_suphe": "Satıcının acelesi",
+          "kopya_eli": "Kopyayı yapacak eller",
+          "rapor_yalan": "Kopyalanan onarım izi",
+          "rapor_evde": "Raporun yazıldığı gün",
+          "sukru_kirgin": "Otuz yıllık kırgınlık",
+          "zarf": "Kapıdaki zarf",
+          "arka_kapi": "Battaniyeli paket",
+          "onarim_nesrin": "Gizli onarım",
+          "vedat_gece": "Dün geceki ziyaret",
+          "eski_tuval": "Feriköy'deki tuval"
+        }
+      },
+      "anahtarlar": {
+        "kopya_eli": ["düz parlar", "iki el var"],
+        "rapor_yalan": ["izini bile kopyalamış"],
+        "rapor_evde": ["İzmir'e gittim", "Açmadım"],
+        "sukru_kirgin": ["bir teşekkür bekledim"],
+        "zarf": ["kalın bir zarf"],
+        "arka_kapi": ["battaniyeye sarılıydı", "eli boş döndü"],
+        "onarim_nesrin": ["gizlice onarttım", "iki hafta ondaydı"],
+        "vedat_gece": ["yarım saat yalnız"],
+        "eski_tuval": ["evin hesabına", "yirmilerden"]
+      },
+      "sahneler": {
+        "giris": {
+          "arka": "A6",
+          "set": "manto",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Pazar sabahı. Büro. Peri kırmızı mantosuyla masasında, bir gazetenin bulmacasını çözüyor.",
+              "kare": "K124"
+            },
+            {
+              "k": "not",
+              "m": "Kapı açılıyor. Cengo eşikte: üstünde bol bir siyah smokin, papyonu yamuk, gözleri uykusuz.",
+              "gir": "cengo",
+              "kare": "K125"
+            },
+            {
+              "k": "peri",
+              "i": "sasirmis",
+              "m": "Cengo? Evlendin mi?",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.sasirmis"
+            },
+            {"k": "peri", "i": "kas", "m": "Papyonun yamuk.", "ekran": "peri+cengo", "yuz": "cengo.kas"},
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Gelin de öyle dedi. Böyle kalsın.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.",
+              "gir": "suheyla",
+              "gi": "normal",
+              "ekran": "suheyla"
+            },
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Paravan Dedektiflik? Süheyla. Nişantaşı'nda bir müzayede evim var. Vaktim az.",
+              "gir": "suheyla",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "not",
+              "m": "Süheyla Peri'yi baştan aşağı süzüyor.",
+              "gir": "suheyla",
+              "gi": "suzuyor",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "suheyla",
+              "i": "suzuyor",
+              "m": "Sizi bir yerden tanıyorum. Kozmetik reklamı mı?",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Biraz daha büyük bir şey, Süheyla Hanım. Buyurun, oturun.",
+              "kime": "suheyla",
+              "ekran": "peri+suheyla",
+              "yuz": "suheyla.suzuyor"
+            },
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Bu akşam sekizde satışımız var. Yıldızı bir tablo: Hüsnü Faik, \"Boğaz'da Akşam\", 1928.",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Altı ile sekiz milyon arası bekliyoruz. Satıcısı Vedat Bey. Babası İrfan Bey koleksiyonerdi.",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Tabloda bir sorun mu var?",
+              "kime": "suheyla",
+              "ekran": "peri+suheyla",
+              "yuz": "suheyla.normal"
+            },
+            {
+              "k": "suheyla",
+              "i": "endiseli",
+              "m": "Tabloyu iki ay önce Vedat Bey'in Maçka'daki evinde kendim fotoğrafladım. Katalog o fotoğrafla basıldı.",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "suheyla",
+              "i": "endiseli",
+              "m": "Bu sabah depoda tabloyu fotoğrafla büyüteçle karşılaştırdım. Çatlaklar fotoğraftakiyle aynı değil.",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "suheyla",
+              "i": "endiseli",
+              "m": "Bir onarım mı gördü, yoksa sahte mi; bilemiyorum. Sahteyse aslı nerede, onu da bilmiyorum.",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Polise neden gitmiyorsunuz, Süheyla Hanım?",
+              "kime": "suheyla",
+              "ekran": "cengo+suheyla",
+              "yuz": "suheyla.endiseli"
+            },
+            {
+              "k": "suheyla",
+              "i": "sert",
+              "m": "Polis gelirse satış iptal olur. Bir müzayede evinde sahte tablo çıktı mı, otuz yıllık ev bir akşamda biter.",
+              "kime": "cengo",
+              "ekran": "cengo+suheyla",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Kimden şüpheleniyorsunuz?",
+              "kime": "suheyla",
+              "ekran": "peri+suheyla",
+              "yuz": "suheyla.sert"
+            },
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Tablonun kondisyon raporunu evin uzmanı Şükrü Bey imzaladı: \"Onarım görmemiş\" diyor.",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "suheyla",
+              "i": "sert",
+              "m": "Otuz yıldır yanımda. Ama üç aydır bana küs; genç Kaan'ı baş eksper yaptım diye.",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Bir de Vedat Bey. Tabloyu evime kendisi getirdi. Lizbon'a taşınıyor; çok acelesi var.",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Tabloya depoda başka kim dokundu?",
+              "kime": "suheyla",
+              "ekran": "peri+suheyla",
+              "yuz": "suheyla.normal"
+            },
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Evin restoratörü Nesrin Hanım çerçeveye koydu; bütün lotları o hazırlar. O bir şey görmemiş.",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "not",
+              "m": "Süheyla çantasından kalın bir katalog çıkarıp masaya bırakıyor; katalog bir sayfada açık kalıyor.",
+              "kare": "D22"
+            },
+            {"k": "suheyla", "i": "normal", "m": "Kataloğu bırakıyorum. Tablo son sayfada.", "kare": "D22"},
+            {
+              "k": "not",
+              "m": "Açık sayfada bir fotoğraf: kadife bir yastığın üstünde kristal taşlı gümüş bir taç. Altında: \"14. Güzellik yarışması tacı, 2009.\"",
+              "kare": "D23"
+            },
+            {"k": "not", "m": "Peri sayfaya bakıp kalıyor. Cengo Peri'ye bakıyor.", "kare": "K126"},
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "On dört de bu akşam satılıyor. Kim alır bilmem; eski bir güzellik kraliçesinin tacıymış.",
+              "kime": "peri",
+              "kare": "K126"
+            },
+            {
+              "k": "not",
+              "m": "Peri kataloğu kapatıyor.",
+              "gir": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "suheyla.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Ücretimiz elli bin lira. İş bitince ödenir.",
+              "kime": "suheyla",
+              "ekran": "peri+suheyla",
+              "yuz": "suheyla.normal"
+            },
+            {
+              "k": "suheyla",
+              "i": "sert",
+              "m": "İş satış başlamadan bitecek. Akşam yedide misafirim olarak gelin; kimse dedektif olduğunuzu bilmesin.",
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "suheyla",
+              "i": "suzuyor",
+              "m": "Gece elbisesi şart. (Cengo'ya bakıp) Smokin hazır, görüyorum.",
+              "kime": "cengo",
+              "ekran": "cengo+suheyla",
+              "yuz": "cengo.kas"
+            },
+            {"k": "not", "m": "Süheyla Cengo'nun papyonuna uzanıyor; Cengo bir adım geri çekiliyor.", "kare": "K127"},
+            {"k": "cengo", "i": "kas", "m": "Böyle kalsın, Süheyla Hanım.", "kime": "suheyla", "kare": "K127"},
+            {
+              "k": "suheyla",
+              "i": "normal",
+              "m": "Nasıl isterseniz. Akşam yedi. (kapıdan çıkarken) Hiç geç kalmayın.",
+              "cik": true,
+              "kime": "peri",
+              "ekran": "peri+suheyla",
+              "yuz": "peri.normal"
+            }
+          ]
+        },
+        "konusma": {
+          "arka": "A6",
+          "set": "manto",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Kapı kapanıyor. Cengo masadaki kataloğu açıp on dört numaraya bakıyor.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal+cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Senin tacın, değil mi Peri? Ona neden söylemedin?",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Müşteri tablo için geldi, Cengo. Benim tacım beni ilgilendirir.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.yumusak"
+            },
+            {"k": "peri", "i": "merakli", "m": "Kasada ne var?", "ekran": "peri+cengo", "yuz": "cengo.yumusak"},
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Senin sandığından az, benim sandığımdan çok.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.merakli"
+            },
+            {"k": "not", "m": "Peri bir deftere bir şeyler yazıp çiziyor.", "ekran": "peri+cengo", "yuz": "cengo.gulen"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Gece elbisesi lazım. Hacizde hepsi gitti. Bir elbise kiralamak ne tutar?",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.gulen"
+            },
+            {"k": "cengo", "i": "kas", "m": "Kiralamaya gerek yok. Gizem!", "ekran": "peri+cengo", "yuz": "peri.kas"},
+            {
+              "k": "not",
+              "m": "Gizem çay ocağından geliyor; elinde askıda gece mavisi saten bir elbise.",
+              "gir": "gizem",
+              "gi": "triko_aski",
+              "ekran": "gizem"
+            },
+            {
+              "k": "gizem",
+              "i": "triko_aski",
+              "m": "Lise mezuniyet balomdan kaldı. Bana balo, sana müzayede, Peri Hanım.",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Senin bedenin bana olur mu, Gizem?",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_aski"
+            },
+            {
+              "k": "gizem",
+              "i": "triko_aski",
+              "m": "Olmaz. Ama çok güzel olmaz.",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Peri elbiseyi alıp köşedeki paravanın arkasına geçiyor. Bir süre sonra çıkıyor: saten ona dar ve kısa gelmiş, yırtmaç yukarıda; boynunda ince bir pırlanta kolye, kollarında dirseği geçen siyah eldivenler.",
+              "kare": "K128",
+              "set": "gala"
+            },
+            {"k": "not", "m": "Cengo'nun ağzı açık kalıyor.", "kare": "K128"},
+            {"k": "gizem", "i": "triko", "m": "Bende bu kadar dar durmuyordu.", "kare": "K128"},
+            {"k": "not", "m": "Peri Cengo'nun çenesini bir parmağıyla kapatıyor.", "kare": "K129"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kolyeyi hacizde mantonun cebine saklamıştım. Bir tek o kaldı.",
+              "kare": "K129"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Önce depoya, tabloya bakalım. Sonra Şükrü Bey'le Vedat Bey'i bulalım.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Nesrin Hanım'la ben konuşurum. Müzayede evinin kapısında Ercan diye bir vale var; eski Karaköy otoparkından tanırım. Kapıdan ne girdiyse görür.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Bugün pazar; Feriköy'de antika pazarı kurulur. Eski tablo işi varsa Necmi bilir.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "(defterine bakarak) Gizem'in elbisesi bedava. Senin smokinin depozitosu ne kadar, Cengo?",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.kas"
+            },
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Taç için mi hesap yapıyorsun? Depozitoyu kaybedersek ben düğünlere yine giderim.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            }
+          ]
+        },
+        "yuzlesme_dogru": {
+          "arka": "A50",
+          "set": "gala",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Müzayede evinin deposu; yukarıdan kadeh sesleri geliyor. Şükrü raporlarıyla, Vedat tablosunun başında, Nesrin bir rafın önünde; köşede yaldızlı, boş, büyük bir çerçeve duruyor.",
+              "kare": "K132"
+            },
+            {
+              "k": "vedat",
+              "i": "sakaci",
+              "m": "Siz de mi tabloya veda etmeye geldiniz?",
+              "gir": "vedat",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Tabloyu kimin değiştirdiğini biliyorum. Söylemeye geldim.",
+              "kime": "vedat",
+              "ekran": "peri+vedat",
+              "yuz": "vedat.sakaci"
+            },
+            {
+              "k": "vedat",
+              "i": "yakalanmis",
+              "m": "Değiştirmek mi? Ne değiştirmesi?",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {"k": "not", "m": "Şükrü papyonunu düzeltiyor; Nesrin elindeki çerçeveyi rafa bırakıyor.", "kare": "K133"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Nesrin Hanım. Tabloyu siz değiştirdiniz.",
+              "gir": "nesrin",
+              "kime": "nesrin",
+              "ekran": "peri+nesrin",
+              "yuz": "nesrin.normal"
+            },
+            {
+              "k": "nesrin",
+              "i": "soguk",
+              "m": "Ben yalnız çerçeveledim.",
+              "kime": "peri",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Elimde iki kanıt var. İkisi de sizi gösteriyor. Kopyacı onarım izini bile kopyalamış; onarımı siz yaptınız.",
+              "kime": "nesrin",
+              "ekran": "peri+nesrin",
+              "yuz": "nesrin.soguk"
+            },
+            {
+              "k": "not",
+              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
+              "gir": "kaan",
+              "gi": "normal",
+              "ekran": "kaan"
+            },
+            {
+              "k": "kaan",
+              "i": "normal",
+              "m": "Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım.",
+              "kime": "nesrin",
+              "ekran": "nesrin+kaan",
+              "yuz": "nesrin.soguk"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.",
+              "cik": true,
+              "kare": "K134"
+            }
+          ]
+        },
+        "yuzlesme_zayif": {
+          "arka": "A50",
+          "set": "gala",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Müzayede evinin deposu; yukarıdan kadeh sesleri geliyor. Şükrü raporlarıyla, Vedat tablosunun başında, Nesrin bir rafın önünde; köşede yaldızlı, boş, büyük bir çerçeve duruyor.",
+              "kare": "K132"
+            },
+            {
+              "k": "vedat",
+              "i": "sakaci",
+              "m": "Siz de mi tabloya veda etmeye geldiniz?",
+              "gir": "vedat",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Tabloyu kimin değiştirdiğini biliyorum. Söylemeye geldim.",
+              "kime": "vedat",
+              "ekran": "peri+vedat",
+              "yuz": "vedat.sakaci"
+            },
+            {
+              "k": "vedat",
+              "i": "yakalanmis",
+              "m": "Değiştirmek mi? Ne değiştirmesi?",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {"k": "not", "m": "Şükrü papyonunu düzeltiyor; Nesrin elindeki çerçeveyi rafa bırakıyor.", "kare": "K133"},
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Nesrin Hanım. Tabloyu siz değiştirdiniz.",
+              "gir": "nesrin",
+              "kime": "nesrin",
+              "ekran": "peri+nesrin",
+              "yuz": "nesrin.normal"
+            },
+            {
+              "k": "nesrin",
+              "i": "soguk",
+              "m": "Otuz yıldır tablo onarırım, hanımefendi. Bu evden geçen her tabloyu ben mi değiştirdim? Kanıtınız ne?",
+              "kime": "peri",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "utanmis",
+              "m": "…Elimde bir şey var, ama sizi ikna edecek kadar değil.",
+              "kime": "nesrin",
+              "ekran": "peri+nesrin",
+              "yuz": "nesrin.soguk"
+            },
+            {
+              "k": "not",
+              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
+              "gir": "kaan",
+              "gi": "normal",
+              "ekran": "kaan"
+            },
+            {
+              "k": "kaan",
+              "i": "normal",
+              "m": "Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım.",
+              "kime": "nesrin",
+              "ekran": "nesrin+kaan",
+              "yuz": "nesrin.soguk"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.",
+              "cik": true,
+              "kare": "K134"
+            }
+          ]
+        },
+        "yuzlesme_sukru": {
+          "arka": "A50",
+          "set": "gala",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Müzayede evinin deposu; yukarıdan kadeh sesleri geliyor. Şükrü raporlarıyla, Vedat tablosunun başında, Nesrin bir rafın önünde; köşede yaldızlı, boş, büyük bir çerçeve duruyor.",
+              "kare": "K132"
+            },
+            {
+              "k": "vedat",
+              "i": "sakaci",
+              "m": "Siz de mi tabloya veda etmeye geldiniz?",
+              "gir": "vedat",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Tabloyu kimin değiştirdiğini biliyorum. Söylemeye geldim.",
+              "kime": "vedat",
+              "ekran": "peri+vedat",
+              "yuz": "vedat.sakaci"
+            },
+            {
+              "k": "vedat",
+              "i": "yakalanmis",
+              "m": "Değiştirmek mi? Ne değiştirmesi?",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {"k": "not", "m": "Şükrü papyonunu düzeltiyor; Nesrin elindeki çerçeveyi rafa bırakıyor.", "kare": "K133"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Şükrü Bey. Tabloyu siz değiştirdiniz.",
+              "gir": "sukru",
+              "kime": "sukru",
+              "ekran": "peri+sukru",
+              "yuz": "sukru.normal"
+            },
+            {
+              "k": "sukru",
+              "i": "dik",
+              "m": "Para aldım, evet. Bir rapor için. Kopya için değil.",
+              "kime": "peri",
+              "ekran": "peri+sukru",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "sukru",
+              "i": "kirgin",
+              "m": "Ben o tabloyu bir saat gördüm, Peri Hanım. Sonra iki hafta İzmir'deydim. Otuz yılımı bir kopyaya mı satarım?",
+              "ekran": "peri+sukru",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Vedat kızarıp yüzünü tabloya çeviriyor.",
+              "gir": "vedat",
+              "gi": "yakalanmis",
+              "ekran": "peri+vedat",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
+              "gir": "kaan",
+              "gi": "normal",
+              "ekran": "kaan"
+            },
+            {
+              "k": "kaan",
+              "i": "normal",
+              "m": "Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım.",
+              "kime": "nesrin",
+              "ekran": "nesrin+kaan",
+              "yuz": "nesrin.soguk"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.",
+              "cik": true,
+              "kare": "K134"
+            }
+          ]
+        },
+        "yuzlesme_vedat": {
+          "arka": "A50",
+          "set": "gala",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Müzayede evinin deposu; yukarıdan kadeh sesleri geliyor. Şükrü raporlarıyla, Vedat tablosunun başında, Nesrin bir rafın önünde; köşede yaldızlı, boş, büyük bir çerçeve duruyor.",
+              "kare": "K132"
+            },
+            {
+              "k": "vedat",
+              "i": "sakaci",
+              "m": "Siz de mi tabloya veda etmeye geldiniz?",
+              "gir": "vedat",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Tabloyu kimin değiştirdiğini biliyorum. Söylemeye geldim.",
+              "kime": "vedat",
+              "ekran": "peri+vedat",
+              "yuz": "vedat.sakaci"
+            },
+            {
+              "k": "vedat",
+              "i": "yakalanmis",
+              "m": "Değiştirmek mi? Ne değiştirmesi?",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.normal"
+            },
+            {"k": "not", "m": "Şükrü papyonunu düzeltiyor; Nesrin elindeki çerçeveyi rafa bırakıyor.", "kare": "K133"},
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Siz, Vedat Bey. Tabloyu siz değiştirdiniz.",
+              "kime": "vedat",
+              "ekran": "peri+vedat",
+              "yuz": "vedat.yakalanmis"
+            },
+            {
+              "k": "vedat",
+              "i": "ofkeli",
+              "m": "Ben mi? Kendi tablomu kopyalatıp kendi adımla mı satayım? Sahte çıkarsa beni yakarlar!",
+              "kime": "peri",
+              "ekran": "peri+vedat",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "vedat",
+              "i": "yakalanmis",
+              "m": "Ben yalnız onarttım! (ağzını kapatarak) …Yani.",
+              "ekran": "peri+vedat",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Kaan elinde bir kadife örtüyle içeri giriyor.",
+              "gir": "kaan",
+              "gi": "normal",
+              "ekran": "kaan"
+            },
+            {
+              "k": "kaan",
+              "i": "normal",
+              "m": "Nesrin Hanım, on beşi vitrine alıyorum. Alıcı arkasını görmek istedi; kadifeyi açacağım.",
+              "kime": "nesrin",
+              "ekran": "nesrin+kaan",
+              "yuz": "nesrin.soguk"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin köşedeki boş çerçeveye atılıyor, kadife arkalığı yırtıyor, içinden rulo bir tuval çekip çerçeve odasının kapısından fırlıyor.",
+              "cik": true,
+              "kare": "K134"
+            }
+          ]
+        },
+        "kovalamaca": {
+          "arka": "A56",
+          "set": "gala",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Nesrin ruloyla çerçeve odasının arka kapısına koşuyor, kolu çekiyor: kapı kilitli.",
+              "arka": "A56",
+              "kare": "K135"
+            },
+            {
+              "k": "not",
+              "m": "Cengo öbür kapıdan salona dolaşmaya koşuyor. İkram şefi onu yakalayıp eline bir şampanya tepsisi tutuşturuyor.",
+              "kare": "K136",
+              "cset": "smokin_tepsi"
+            },
+            {"k": "ikram_sefi", "m": "Sen! Üç numara masa, çabuk!", "kare": "K136"},
+            {"k": "cengo", "i": "kas", "m": "Ben garson değilim!", "kare": "K136"},
+            {
+              "k": "not",
+              "m": "Peri çerçeve odasına dalıyor; topuklusu yere dökülmüş taze verniğe basıyor, kayıyor, bir yaldız kovasının içine düşüyor. Odada altın bir bulut.",
+              "kare": "K137",
+              "set": "altin",
+              "peri": "sinirli"
+            },
+            {"k": "peri", "i": "sinirli", "m": "Planlamıştım.", "kare": "K137"},
+            {"k": "not", "m": "Nesrin geri dönüp Peri'nin yanından salona kaçıyor.", "kare": "K138"},
+            {
+              "k": "not",
+              "m": "Salon: kristal avize, sıra sıra sandalyeler, kürsü; vitrinlerde lotlar. Peri baştan aşağı altın, Nesrin'i görmek için boş bir kaidenin üstüne tırmanıyor.",
+              "arka": "A57",
+              "kare": "K139"
+            },
+            {"k": "misafir", "m": "Ay, ne güzel heykel! Bunu da mı satacaklar?", "kare": "K139"},
+            {"k": "not", "m": "Kürsüde tokmağını deneyen Kaan dönüp kaideye bakıyor.", "kare": "K140"},
+            {"k": "kaan", "i": "heyecanli", "m": "Katalog dışı lot! Altın kadın! Açılış elli bin!", "kare": "K140"},
+            {"k": "misafir", "m": "Elli beş!", "kare": "K140"},
+            {
+              "k": "not",
+              "m": "Peri kımıldamıyor; bir eli belinde, öbürü havada. Göz ucuyla yanındaki vitrine bakıyor: on dört numara, tacı.",
+              "kare": "K141"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin misafirlerin arasından kaidenin yanından geçiyor. Peri altın eldivenli eliyle bileğini yakalıyor.",
+              "kare": "K142"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Satılık değilim, Nesrin Hanım. Siz de bir yere gidemezsiniz.",
+              "kare": "K142"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin duruyor. Cengo tepsiyle yetişiyor; tepsiyi bir misafire verip ruloyu Nesrin'in elinden alıyor.",
+              "kare": "K143",
+              "cset": "smokin"
+            },
+            {"k": "misafir", "m": "(Cengo'nun cebine bir bahşiş sıkıştırarak) Teşekkürler, evladım.", "kare": "K143"},
+            {"k": "cengo", "i": "kas", "m": "(bahşişi cebine koyarak) Rica ederim.", "kare": "K143"},
+            {
+              "k": "not",
+              "m": "Kaan elinde alkollü pamuk ve bir masa örtüsüyle koşuyor. Peri yüzünü siliyor, altın eldivenlerini çıkarıyor; elbise hâlâ pırıl pırıl.",
+              "kare": "K144",
+              "set": "altin_temiz"
+            },
+            {
+              "k": "kaan",
+              "i": "heyecanli",
+              "m": "Yaldız alkolle çıkar! Elbise çıkmaz ama. Çok yakıştı, sizi şimdi tanıdım!",
+              "gir": "kaan",
+              "kime": "peri",
+              "ekran": "peri+kaan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Şimdi mi, Kaan Bey?",
+              "kime": "kaan",
+              "ekran": "peri+kaan",
+              "yuz": "kaan.heyecanli"
+            },
+            {
+              "k": "not",
+              "m": "Çerçeve odası. Kapı kapalı. Nesrin bir tabureye oturmuş; Peri ve Cengo karşısında.",
+              "arka": "A56",
+              "kare": "K145"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Otuz yıl önce kendi atölyem vardı. İrfan Bey'in, Vedat'ın babasının, koleksiyonunu bir yıl onardım.",
+              "gir": "nesrin",
+              "kime": "peri",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Parasını vermedi. Üstüne \"tablomu bozdu\" dedi. Beyoğlu'nda kimse bana iş vermedi; atölyem kapandı.",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Üç hafta önce oğlu aynı tabloyu bana getirdi; gizlice onarayım diye. Beni Şükrü Bey önermiş; raporu da önceden yazmış.",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Kader ayağıma getirdi. İki hafta geceleri burada çalıştım. Aslını onardım; Feriköy'den aldığım eski bir tuvale kopyasını yaptım.",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Kopyayı Vedat'a verdim. Aslını on beşin arkasına gerdim; bu gece lotlar yüklenirken çıkaracaktım.",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Kopya İrfan'ın oğlunun adıyla satılsın, bir gün anlaşılsın, onun da adı benimki gibi batsın istedim. Para istemedim.",
+              "kime": "cengo",
+              "ekran": "cengo+nesrin",
+              "yuz": "cengo.yumusak"
+            },
+            {
+              "k": "not",
+              "m": "Nesrin ruloyu Cengo'nun elinden alıp masanın üstünde açıyor: Boğaz'da bir akşam, köşesinde ince bir onarım.",
+              "kare": "D27"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Otuz yıl beklediniz.",
+              "kime": "nesrin",
+              "ekran": "cengo+nesrin",
+              "yuz": "nesrin.itiraf"
+            },
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Bekleyen ben değildim, oğlum. Tablo bekledi.",
+              "kime": "cengo",
+              "ekran": "cengo+nesrin",
+              "yuz": "cengo.yumusak"
+            }
+          ]
+        },
+        "kapanis": {
+          "arka": "A8",
+          "set": "altin_temiz",
+          "cset": "smokin",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Gece. Büro. Peri masasında; elbisesi hâlâ pırıl pırıl, eldivensiz. Cengo masanın kenarında, smokinli, papyonu yamuk.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal+cengo.normal"
+            },
+            {
+              "k": "not",
+              "m": "Gizem elinde bir çay tepsisiyle geliyor.",
+              "gir": "gizem",
+              "gi": "triko_tepsi",
+              "ekran": "gizem"
+            },
+            {
+              "k": "gizem",
+              "i": "triko_tepsi",
+              "m": "Elbisem bir müzayedeye gitti, altın olup döndü. (Peri'nin kulağının arkasını göstererek) Burada hâlâ altın var, Peri Hanım.",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kalsın, Gizem. Elli beş verdiler.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_tepsi"
+            },
+            {
+              "k": "gizem",
+              "i": "triko_tepsi",
+              "m": "Satmadın ama.",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kraliçeler kendini elli beşe satmaz.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko_tepsi"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Smokin yarın iade. Papyonu da veririm.",
+              "bag": "dusuk",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "not",
+              "m": "Cengo papyonunu çözüp cebine koyuyor, ceketini alıp çıkıyor. Peri kulağının arkasındaki yaldızı siliyor.",
+              "bag": "dusuk",
+              "kare": "K146"
+            },
+            {
+              "k": "not",
+              "m": "Peri kalkıp Cengo'nun önüne geçiyor; papyonuna uzanıyor. Bütün gün kaçan Cengo bu kez kıpırdamıyor.",
+              "bag": "yuksek",
+              "kare": "K147"
+            },
+            {"k": "peri", "i": "yumusak", "m": "Bütün gün yamuktu.", "bag": "yuksek", "kime": "cengo", "kare": "K147"},
+            {"k": "cengo", "i": "yumusak", "m": "Bekliyordum.", "bag": "yuksek", "kime": "peri", "kare": "K147"},
+            {
+              "k": "gizem",
+              "i": "triko_tepsi",
+              "m": "Hıh.",
+              "bag": "yuksek",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.yumusak"
             }
           ]
         }

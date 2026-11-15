@@ -313,7 +313,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Nesrin ruloyla çerçeve odasının arka kapısına koşuyor, kolu çekiyor: kapı kilitli.* {arka: A56, kare: K135}
 *Cengo öbür kapıdan salona dolaşmaya koşuyor. İkram şefi onu yakalayıp eline bir şampanya tepsisi tutuşturuyor.* {kare: K136, cset: smokin_tepsi}
-**İKRAM ŞEFİ:** Sen! Üç numara masa, çabuk! {kare: K136}
+**İKRAM_ŞEFİ:** Sen! Üç numara masa, çabuk! {kare: K136}
 **CENGO [kas]:** Ben garson değilim! {kare: K136}
 *Peri çerçeve odasına dalıyor; topuklusu yere dökülmüş taze verniğe basıyor, kayıyor, bir yaldız kovasının içine düşüyor. Odada altın bir bulut.* {kare: K137, set: altin, peri: sinirli}
 **PERİ [sinirli]:** Planlamıştım. {kare: K137}

@@ -463,6 +463,68 @@
           "tanim": "Eylül'ün anneannesi; aynı apartmanda, üst katta oturuyor. Yıllarca terzilik yapmış."
         }
       ]
+    },
+    {
+      "id": "suheyla",
+      "ad": "Süheyla Hanım",
+      "portre": "portre_suheyla",
+      "tanisma": "tablo_suphe",
+      "katmanlar": [
+        {
+          "kosul": "tablo_suphe",
+          "tanim": "Nişantaşı'nda müzayede evinin sahibesi. Bu akşamki satışın tablosundan şüpheleniyor."
+        }
+      ]
+    },
+    {
+      "id": "sukru",
+      "ad": "Şükrü Bey",
+      "portre": "portre_sukru",
+      "tanisma": "sukru_suphe",
+      "katmanlar": [
+        {"kosul": "sukru_suphe", "tanim": "Evin otuz yıllık uzmanı. Tablonun raporunu o imzaladı: \"onarım görmemiş.\""},
+        {
+          "kosul": "sukru_kirgin",
+          "tanim": "Evin otuz yıllık uzmanı. Tablonun raporunu o imzaladı: \"onarım görmemiş.\" Ortaklık bekledi; yerine genç Kaan baş eksper oldu."
+        },
+        {
+          "kosul": "rapor_evde",
+          "tanim": "Evin otuz yıllık uzmanı. Tablonun raporunu o imzaladı: \"onarım görmemiş.\" Tablo onarılırken iki hafta İzmir'deydi."
+        }
+      ]
+    },
+    {
+      "id": "vedat",
+      "ad": "Vedat Bey",
+      "portre": "portre_vedat",
+      "tanisma": "vedat_suphe",
+      "katmanlar": [
+        {"kosul": "vedat_suphe", "tanim": "Tablonun satıcısı; babası koleksiyoner İrfan Bey'di. Lizbon'a taşınıyor."},
+        {
+          "kosul": "onarim_nesrin",
+          "tanim": "Tablonun satıcısı; babası koleksiyoner İrfan Bey'di. Lizbon'a taşınıyor. Yırtılan tabloyu gizlice onarttı."
+        }
+      ]
+    },
+    {
+      "id": "kaan",
+      "ad": "Kaan",
+      "portre": "portre_kaan",
+      "tanisma": "sukru_suphe",
+      "katmanlar": [{"kosul": "sukru_suphe", "tanim": "Evin yeni baş eksperi; Süheyla Hanım onu üç ay önce aldı."}]
+    },
+    {
+      "id": "nesrin",
+      "ad": "Nesrin Hanım",
+      "portre": "portre_nesrin",
+      "tanisma": "tablo_suphe",
+      "katmanlar": [
+        {"kosul": "tablo_suphe", "tanim": "Evin restoratörü. Tabloyu depoda o çerçeveledi."},
+        {
+          "kosul": "onarim_nesrin",
+          "tanim": "Evin restoratörü. Tabloyu depoda o çerçeveledi. Tabloyu iki hafta o onardı."
+        }
+      ]
     }
   ],
   "defter": {
@@ -501,6 +563,12 @@
       "kendisi_soylesin": "Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da.",
       "parasini_al": "Adını vermedim. Müzeyyen'in parası kasada.",
       "cengoya_birak": "Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı."
+    },
+    "V7": {
+      "ihbar": "Her şeyi söyledim. Satış durdu, taç örtüldü.",
+      "sus": "Sustum. Taç bende, kopya bir duvarda.",
+      "sus_payi": "Susmamın karşılığı taç. Süheyla aldı.",
+      "cengoya_birak": "Tacı Cengo aldı; adamlarından topladı. Taç onda."
     }
   },
   "ani_ozet": {
@@ -510,6 +578,7 @@
     "V3": "Susam Pastanesi'nin Karaköy'deki merkezi bir pazar gecesi soyuldu; kurucusu Nadide Hanım hırsızı bulmamızı istedi. Soyan, dükkânı yöneten Ferruh'tu: Susam batıyordu, kasadaki parayı bir un çuvalına saklayıp sigortadan yedi yüz yirmi bin alacaktı. Suçu tezgâhtar Gizem'e yıkacaktı.",
     "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi.",
     "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü.",
-    "V6": "Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için babasından yardım istedi. Mektupları anneannesi Müzeyyen Hanım yazmıştı: düğünden sonra kızı ve torunu İzmir'e gidecekti, o tek kalacaktı."
+    "V6": "Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için babasından yardım istedi. Mektupları anneannesi Müzeyyen Hanım yazmıştı: düğünden sonra kızı ve torunu İzmir'e gidecekti, o tek kalacaktı.",
+    "V7": "Nişantaşı'ndaki müzayede evinin sahibesi Süheyla Hanım, satışın en değerli tablosunun sahte olduğundan şüphelendi. Tabloyu evin restoratörü Nesrin Hanım kopyasıyla değiştirmişti: otuz yıl önce satıcının babası onun adını batırmıştı. Aynı akşam katalogda Peri'nin tacı vardı."
   }
 }
