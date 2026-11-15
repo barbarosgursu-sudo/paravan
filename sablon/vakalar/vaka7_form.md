@@ -1,6 +1,6 @@
 # VAKA 7 FORMU — AÇIK ARTIRMA
 
-Şablon 6'ya göre. Durum: **ONAY 1 BEKLİYOR** (ortak). Kaynak: `vaka7_baslangic.md` §1a (son plan, 15 Kasım 2026) ve
+Şablon 6'ya göre. Durum: **ONAY 1 VERİLDİ (15 Kasım 2026, ortak; düzeltmesiz)** — sıradaki: diyalog (adım 3). Kaynak: `vaka7_baslangic.md` §1a (son plan, 15 Kasım 2026) ve
 `kaynak/YENI_OYUN_SEZON.md` → Vaka 7. Ortağın 15 Kasım seçimleri: isimler (Set A), 4. karar "Tacı Cengo'ya bırak",
 kovalamaca "yaldız + heykel".
 🟡 = kanona ekleme (onay ister). 🟢 = görünüş/kıyafet (onay ister). ❓ = Barbaros'a açık soru (kod/kural; `kaynak/DEVIR.md`
@@ -490,17 +490,17 @@ Başka tutar metne girmez. *Rüşvet tutarı ve tuval fiyatı metne girmez.*
 - [x] En az bir dürüst karar var; kirli fark küçük (15.000)
 - [x] Her kararın kısa sonucu var; kesinti açıklamaları var
 - [x] Anı özeti yalnız itirafın söylediğini içeriyor (taç girişte her yolda görülür)
-- [ ] Yeni kanon onaylandı (5 madde, §18) — **Onay 1'de**
+- [x] Yeni kanon onaylandı (§18; 1–4 kanona yazıldı, 5. madde kural 24 yüzünden Barbaros'ta)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı — **Onay 1'de**
+- [x] Yeni yan karakterlerin görünüşü onaylandı (Onay 1)
 - [x] Kural kitabıyla çelişen bir şey yok — **❓ taç–kasa (kural 24/27) Barbaros'ta**
 
-## Ortağa sorular *(Onay 1)*
+## Ortağa sorular *(Onay 1, 15 Kasım 2026: hepsi ✅)*
 
-1. Ücret 50.000 ₺ (V6'da 40.000) uygun mu?
-2. Kanon eklemeleri (§18, 5 madde) uygun mu?
-3. Peri'nin elbisesi Gizem'in balo elbisesi (zümrüt yeşili, dar); Cengo kiralık smokin (dün geceki düğün garsonluğundan)
+1. ✅ Ücret 50.000 ₺ (V6'da 40.000) uygun mu?
+2. ✅ Kanon eklemeleri (§18, 5 madde) uygun mu?
+3. ✅ Peri'nin elbisesi Gizem'in balo elbisesi (zümrüt yeşili, dar); Cengo kiralık smokin (dün geceki düğün garsonluğundan)
    — uygun mu?
-4. Yan karakterlerin görünüşleri (§16) uygun mu?
-5. Kararlar: "sus" +15.000 ve taç; "sus payı" taç hediye; "ihbar" 0; "Cengo'ya bırak" −10.000 ve taç Cengo'da — uygun mu?
-6. Kapanış: taç Barbaros'un kod kararına kadar "kodsuz yedek" ile mi yazılsın?
+4. ✅ Yan karakterlerin görünüşleri (§16) uygun mu?
+5. ✅ Kararlar: "sus" +15.000 ve taç; "sus payı" taç hediye; "ihbar" 0; "Cengo'ya bırak" −10.000 ve taç Cengo'da — uygun mu?
+6. ✅ Kapanış: taç Barbaros'un kod kararına kadar "kodsuz yedek" ile mi yazılsın?

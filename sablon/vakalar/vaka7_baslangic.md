@@ -75,3 +75,4 @@ ile okunur (TZ verme).
 |---|---|---|---|---|---|
 | 0 Konu seçimi | 14 Kas 15:41 | 15 Kas 02:00 | ölçülmedi | ölçülmedi | öneri sohbette; ortak eksperi değiştirdi (rüşvet, patrona kırgın) |
 | 1 Form | 15 Kas 11:30 | 15 Kas 11:54 | ~3 dk (3 soru) | ~21 dk | ayrı oturumda; isimler Set A, 4. karar "Tacı Cengo'ya bırak", kovalamaca yaldız + heykel; taç sorusu DEVIR'e |
+| 2 Onay 1 | 15 Kas 11:54 | 15 Kas 11:55 | ~1 dk | — | düzeltmesiz "Onay"; kanon §18 madde 1–4 yazıldı, 5. madde Barbaros'ta (kural 24) |
