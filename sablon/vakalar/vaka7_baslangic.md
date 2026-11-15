@@ -78,3 +78,4 @@ ile okunur (TZ verme).
 | 0 Konu seçimi | 14 Kas 15:41 | 15 Kas 02:00 | ölçülmedi | ölçülmedi | öneri sohbette; ortak eksperi değiştirdi (rüşvet, patrona kırgın) |
 | 1 Form | 15 Kas 11:30 | 15 Kas 11:54 | ~3 dk (3 soru) | ~21 dk | ayrı oturumda; isimler Set A, 4. karar "Tacı Cengo'ya bırak", kovalamaca yaldız + heykel; taç sorusu DEVIR'e |
 | 2 Onay 1 | 15 Kas 11:54 | 15 Kas 11:55 | ~1 dk | — | düzeltmesiz "Onay"; kanon §18 madde 1–4 yazıldı, 5. madde Barbaros'ta (kural 24) |
+| 3 Diyalog | 15 Kas 12:07 | 15 Kas 12:16 | ~1 dk (renk sorusu) | ~8 dk | `vaka7_diyalog.md` (252 satır); `arac_diyalog.js` ayrıştırması geçti (scratchpad'de V7 taslağıyla; gerçek veri adım 4'te). Elbise zümrüt → gece mavisi (V5 tekrarı; ortak onayladı; form + kanon düzeltildi) |

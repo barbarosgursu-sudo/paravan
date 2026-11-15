@@ -121,7 +121,7 @@ suçlu yine "içeriden".
 - **Ücret konuşması:** Süheyla: "Elli bin. Satış başlamadan cevap isterim." Peri: "İş bitince." Süheyla: "Satıştan
   önce bitecek."
 - **Çekicilik anı (konuşma sahnesinde, Süheyla gidince):** Gizem bir askı getirir: lise mezuniyet balosundan kalma
-  zümrüt yeşili saten elbise. "Bana balo, sana müzayede." Peri paravanın arkasından çıkar: elbise ona dar ve kısa
+  gece mavisi saten elbise. "Bana balo, sana müzayede." Peri paravanın arkasından çıkar: elbise ona dar ve kısa
   gelmiş, yırtmaç yukarıda. Cengo'nun ağzı açık kalır. Gizem: "Bende bu kadar dar durmuyordu." Peri Cengo'nun
   çenesini parmağıyla kapatır. 🟢
 - **Espri (Peri–Cengo):** Peri hesap yapar: "Kasada ne var, Cengo?" Cengo: "Senin sandığından az, benim sandığımdan
@@ -368,7 +368,7 @@ Yani karar anında soru: **Süheyla'ya ne söylenecek, tablo ve taç ne olacak.*
 
 ## 14. Kıyafet
 
-- **Peri (yeni) 🟢:** girişte sabit kırmızı manto. Sonra **Gizem'in mezuniyet balosu elbisesi**: zümrüt yeşili saten,
+- **Peri (yeni) 🟢:** girişte sabit kırmızı manto. Sonra **Gizem'in mezuniyet balosu elbisesi**: gece mavisi saten,
   ona dar ve kısa; derin yaka ve sırt dekoltesi, yüksek yırtmaç; dirseği geçen **siyah saten eldiven**; saç **topuz**;
   boynunda ince **pırlanta kolye** — hacizden kurtardığı tek mücevher 🟡; siyah stiletto. Kural: dekolte tabanda.
 - **Cengo (yeni) 🟢:** **kiralık siyah smokin** (bir beden büyük, kolları uzun), beyaz gömlek, **yamuk siyah papyon**,
@@ -499,7 +499,7 @@ Başka tutar metne girmez. *Rüşvet tutarı ve tuval fiyatı metne girmez.*
 
 1. ✅ Ücret 50.000 ₺ (V6'da 40.000) uygun mu?
 2. ✅ Kanon eklemeleri (§18, 5 madde) uygun mu?
-3. ✅ Peri'nin elbisesi Gizem'in balo elbisesi (zümrüt yeşili, dar); Cengo kiralık smokin (dün geceki düğün garsonluğundan)
+3. ✅ Peri'nin elbisesi Gizem'in balo elbisesi (gece mavisi, dar); Cengo kiralık smokin (dün geceki düğün garsonluğundan)
    — uygun mu?
 4. ✅ Yan karakterlerin görünüşleri (§16) uygun mu?
 5. ✅ Kararlar: "sus" +15.000 ve taç; "sus payı" taç hediye; "ihbar" 0; "Cengo'ya bırak" −10.000 ve taç Cengo'da — uygun mu?
