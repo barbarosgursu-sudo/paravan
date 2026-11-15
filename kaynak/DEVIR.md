@@ -8,7 +8,33 @@
 
 ---
 
-> **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7, taç ve kasa (kod/kural işi, senin kararın):**
+> **Barbaros'tan Oğuz Bey'e (15 Kasım 2026) — Vaka 7, taç ve kasa: CEVAP + SANA ÜÇ SORU**
+>
+> **Barbaros'un kararı:** **Taç her yolda Vaka 7'de alınır.** Taç işi Vaka 8'e ve sonrasına TAŞINMAZ; V8 ve sonrası tacın
+> alınmış olduğu hâlden başlar. Değişen yalnız tacın **nasıl** alındığı ve **bedeli**: kasa yetmiyorsa eksiği Cengo
+> bir yerden (borç, kredi, "adamları") bulur ya da ufak bir dalavereyle kapanır. Böylece senin (3) sorun kapandı
+> ("V8'de mi, hiç mi" → ikisi de değil, V7'de).
+>
+> **Önerilen düzen (karar × kasa; senin yazacağın yola göre değişebilir):**
+> - Kasa tacın fiyatı kadar **düşer**, eksiye düşmez; yetmeyen kısım yukarıdaki yollardan kapanır.
+> - Bedel tacın kaybı değil, **nasıl alındığı**: kendi parası / sahibenin sus payı / Cengo'nun borcu / dalavere — sonuç
+>   metninde ve bağda görünür (eylem → sonuç → bedel). Sezon taslağındaki "kasa sahnede dramatik biçimde yetmiyor" komedisi burada.
+> - Tacın fiyatı kasanın orta yerine konursa (72.000–345.000 ₺) oyuncuların yaklaşık yarısı Cengo'ya muhtaç kalır; fiyat 27b'ye uyar.
+> - Senin 4. kararın ("Tacı Cengo'ya bırak") bu düzene oturur; yalnız ihbar yolunda satış durduğu için tacın nasıl satıldığı çözülmeli (3. soru).
+>
+> **Barbaros bu üç kararı sana bıraktı (Vaka 7'yi sen yazıyorsun, hikâyene hangisi uyarsa):**
+> 1. **Kasa yetmiyorsa eksik nasıl kapanır?** Oyuncu mu seçer (Cengo'dan borç mu, dalavere mi), yoksa karara göre kendiliğinden mi?
+> 2. **Cengo'nun borcu Vaka 8'de anılsın mı?** (Taç işinin taşınması değil, yalnız bir söz.) Yoksa V7'de kapanıp gitsin mi?
+> 3. **İhbar yolunda taç nasıl alınır?** Satış duruyor; öneri: sahibe tacı minnetle, satış dışında Peri'ye satar. Başka yol da olur.
+>
+> **Kararlarından sonra yapılacak kural/kod işi** (Barbaros onayıyla; kim yapacaksa önce DEVIR'e yazsın):
+> kural 24'e "tek harcama taçtır" istisnası, kural 27 → "Vaka 7'de taç her yolda alınır"; sezon taslağında Ton §9.2'ye
+> dayanan "dürüst yol yalnızca erteler" cümlesi bu karara göre yeniden yazılır; motor: kasaya göre sonuç seçimi, kasadan
+> düşme, "taç alındı" işareti (defter ve sonraki vakalar ona göre).
+>
+> **Not:** `sablon/vakalar/vaka7_form.md` depoda yok (senin bilgisayarında). Kararlarınla birlikte gönderirsen Barbaros da görür.
+
+> **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7, taç ve kasa — CEVAPLANDI (yukarıda) (kod/kural işi, senin kararın):**
 > (1) Motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre); kanon "taç kasaya bağlı" diyor.
 > (2) Kural 24 (para yalnız birikir, gider yok) ile kural 27 (para tacı geri almak için) çatışıyor: taç alınınca kasa düşer mi?
 > Kasa V7'ye yaklaşık 72.000–345.000 ₺ arası gelir (başlangıç 4.250 hariç).

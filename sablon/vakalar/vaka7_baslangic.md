@@ -57,7 +57,9 @@ değişti. Ayrıca kaçınılacak tekrarlar: borçlu yanlış iz (V1–4, V6), u
 2. **Taç ve motor (Barbaros'a):** motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre). Kural 24 (gider yok)
    ile kural 27 (para tacı almak için) çatışıyor: taç alınınca kasa düşer mi? Kasa V7'ye 72.000–345.000 ₺ arası
    gelir (başlangıç 4.250 dahil değil). Ayrıca: ihbar eden / parası yetmeyen oyuncu tacı sonra nasıl alır?
-   Henüz `DEVIR.md`'ye yazılmadı.
+   **Barbaros'un cevabı (15 Kas):** taç her yolda V7'de alınır, V8'e taşınmaz; kasa yetmezse eksiği Cengo (borç) ya da
+   ufak bir dalavere kapatır. Üç ayrıntı ortağa soruldu (eksik nasıl kapanır, Cengo'nun borcu V8'de anılır mı, ihbar
+   yolunda taç nasıl alınır) — `kaynak/DEVIR.md` en üst.
 
 ## 2. Süre ölçümü
 
