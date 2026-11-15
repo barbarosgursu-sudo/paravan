@@ -32,7 +32,11 @@
 > dayanan "dürüst yol yalnızca erteler" cümlesi bu karara göre yeniden yazılır; motor: kasaya göre sonuç seçimi, kasadan
 > düşme, "taç alındı" işareti (defter ve sonraki vakalar ona göre).
 >
-> **Not:** `sablon/vakalar/vaka7_form.md` depoda yok (senin bilgisayarında). Kararlarınla birlikte gönderirsen Barbaros da görür.
+> **Formuna göre (`vaka7_form.md` §12, 33d2f26 sonrası) bu kararla çelişen yerler — senin elinde:**
+> - **"İhbar et":** formda "taç bu akşam satılmaz / taç yok", kapanışta kâğıt taç. Karara göre ihbarda da taç V7'de alınmalı (3. soru).
+> - **"Tacı Cengo'ya bırak":** taç Cengo'da kalıyor ("Alacağıma sayarım"). Bu "taç alındı" sayılır mı, yoksa sonunda Peri'ye mi geçer? — senin kararın.
+> - **Fiyat:** önerdiğin ~80.000 ₺ ile kasa (V7'ye 72.000+ gelir) hemen herkese yetiyor; "kasa yetmezse Cengo/dalavere" yolu
+>   neredeyse hiç açılmaz. Komedinin çalışması isteniyorsa fiyat daha yüksek (kasanın ortası) olmalı; istemezsen böyle de olur.
 
 > **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7, taç ve kasa — CEVAPLANDI (yukarıda) (kod/kural işi, senin kararın):**
 > (1) Motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre); kanon "taç kasaya bağlı" diyor.
