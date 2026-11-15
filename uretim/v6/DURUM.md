@@ -1,3 +1,5 @@
+**15 Kasım 2026 — VAKA 6 KAPISI GEÇTİ (`arac_kapi.js V6 resim`).** K11 (Peri'nin dirseği Recep'in kolunda, 268 px) yerleşimle çözüldü: Recep iki kişilik sahnede %7 sağa kayar (`gorseller.json → sola` eksi değer = sağa; üç pozuna da aynı değer). Tek başınayken kayma uygulanmaz, ortada durur (`yeni_arayuz.css` `.tek`). Resim değişmedi.
+
 # Vaka 6 — üretim durumu
 
 **15 Kasım 2026, gece — GÖMÜLDÜ, KAPIDA YALNIZ K11 KALDI (Barbaros'un bilgisayarı).** 11 kapı resmi gömülü ve diyaloğa bağlı (K115–K123).

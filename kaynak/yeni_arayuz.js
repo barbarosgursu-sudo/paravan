@@ -227,9 +227,10 @@ function vnFigurCiz(satir){
       const stil = olcek < 1 ? ` style="position:absolute;left:0;bottom:0;height:${olcek*100}%"` : "";
       sag.innerHTML = src ? `<img alt="${vnHtml(vnAd(kim))}"${stil} src="${src}">` : vnYerTutucu(anahtar, kim);
       sag.dataset.src = anahtar;
-      // sola: eli ekranın sağ kenarından taşan poz (Tolga'nın "Ben mi canım?" eli) biraz sola kayar.
+      // sola: eli ekranın sağ kenarından taşan poz (Tolga'nın "Ben mi canım?" eli) biraz sola kayar;
+      // eksi değer sağa kaydırır (Recep: Peri'nin dirseği koluna biniyordu). Tek kişiyken .css'te sıfırlanır.
       const sola = (YG.sola||{})[anahtar];
-      sag.style.transform = sola ? `translateX(-${sola}%)` : "";
+      sag.style.transform = sola ? `translateX(${-sola}%)` : "";
     }
   }
   const k = satir.k;

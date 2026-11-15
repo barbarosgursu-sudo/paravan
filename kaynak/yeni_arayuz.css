@@ -64,6 +64,7 @@
 /* Tek kişi (yalnız sol ya da yalnız sağ görünür): ortada. Küçük figürün satır içi left/right:0'ı da ortaya çekilir. */
 .vn-figurler.tek{justify-content:center}
 .vn-figurler.tek .vn-figur{margin-left:0;margin-right:0}
+.vn-figurler.tek .vn-figur.sag{transform:none !important} /* `sola` kaydırması yalnız iki kişiyken */
 .vn-figurler.tek .vn-figur img[style]{left:50% !important;right:auto !important;transform:translateX(-50%)}
 .vn-figurler.tek .vn-figur.sol img[style]{transform:translateX(-50%) scaleX(-1)}
 .vn-figur.pasif{filter:brightness(.62) saturate(.75)}

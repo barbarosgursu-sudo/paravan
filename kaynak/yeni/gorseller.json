@@ -391,8 +391,8 @@
     "peri.tul.kas"
   ],
   "tam": ["K9"],
-  "sola": {"tolga.sinirli": 18},
-  "_not_sola": "Sağdaki figürün eli ekranın sağ kenarından taşıyorsa figür genişliğinin yüzdesi kadar sola kayar (yeni_arayuz.js vnFigurCiz).",
+  "sola": {"tolga.sinirli": 18, "recep.normal": -7, "recep.gulen": -7, "recep.supurge": -7},
+  "_not_sola": "Sağdaki figürün eli ekranın sağ kenarından taşıyorsa figür genişliğinin yüzdesi kadar sola kayar; eksi değer sağa kaydırır (Recep: Peri'nin dirseği koluna biniyordu, kapı K11, 15 Kasım 2026). Aynı figürün bütün pozlarına aynı değer verilir, yoksa ifade değişince zıplar. Sahnede tek kişiyken uygulanmaz (yeni_arayuz.js vnFigurCiz, .css .tek).",
   "kapak": {"V1": "A9", "V2": "A15", "V3": "A23d", "V4": "A31", "V5": "A42", "V6": "A44"},
   "_not_kapak": "Paylaş kartının (davet) arka planı, vaka başına. Suçluyu, itirafı ya da kararı gösteren kare seçilmez (Nurcan); vakanın ilk sahnelerinde görülen bir yer olsun. Her omurga vakada zorunlu (test_yeni_arayuz.js).",
   "kart": {"V1": "KART_V1", "V2": "KART_V2", "V3": "KART_V3", "V6": "KART_V6"},
