@@ -8,6 +8,14 @@
 
 ---
 
+> **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7, taç ve kasa (kod/kural işi, senin kararın):**
+> (1) Motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre); kanon "taç kasaya bağlı" diyor.
+> (2) Kural 24 (para yalnız birikir, gider yok) ile kural 27 (para tacı geri almak için) çatışıyor: taç alınınca kasa düşer mi?
+> Kasa V7'ye yaklaşık 72.000–345.000 ₺ arası gelir (başlangıç 4.250 hariç).
+> (3) İhbar eden ya da parası yetmeyen oyuncu tacı sonra nasıl alır (V8'de mi, hiç mi)?
+> (4) Yeni 4. karar "Tacı Cengo'ya bırak": Peri ihbar eder, Cengo "adamlarından" borç toplayıp taca kendisi teklif verir;
+> taç kasa dışı parayla alınır. Kural 24'e uyar mı? Form `sablon/vakalar/vaka7_form.md` §12 ve §18'de açık soru olarak duruyor.
+
 > **Ortaktan not (14 Kasım 2026 gece, Barbaros'a):** (1) Sahnede tek kişi varken artık ortada duruyor; ikinci kişi gelince
 > kaymadan, anında yanlara geçiyor (`f8dfc4e`, `yeni_arayuz.js/.css`, `.vn-figurler.tek`). (2) Açılıştaki dergi resmine (G87)
 > dokunmadık; senin üretmeni bekliyoruz. Bizde yarım iş yok; her şey `main`'de.
