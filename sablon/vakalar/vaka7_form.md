@@ -1,6 +1,6 @@
 # VAKA 7 FORMU — AÇIK ARTIRMA
 
-Şablon 6'ya göre. Durum: **ONAY 1 VERİLDİ (15 Kasım 2026, ortak; düzeltmesiz)** — sıradaki: diyalog (adım 3). Kaynak: `vaka7_baslangic.md` §1a (son plan, 15 Kasım 2026) ve
+Şablon 6'ya göre. Durum: **ONAY 2 VERİLDİ (15 Kasım 2026, ortak; düzeltmesiz)** — sıradaki: taç kararına göre adım 7 (DEVIR en üst, üç soru). Kaynak: `vaka7_baslangic.md` §1a (son plan, 15 Kasım 2026) ve
 `kaynak/YENI_OYUN_SEZON.md` → Vaka 7. Ortağın 15 Kasım seçimleri: isimler (Set A), 4. karar "Tacı Cengo'ya bırak",
 kovalamaca "yaldız + heykel".
 🟡 = kanona ekleme (onay ister). 🟢 = görünüş/kıyafet (onay ister). ❓ = Barbaros'a açık soru (kod/kural; `kaynak/DEVIR.md`
