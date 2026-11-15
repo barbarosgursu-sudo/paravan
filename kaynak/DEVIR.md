@@ -8,6 +8,13 @@
 
 ---
 
+> **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7 SON HÂLİ HAZIR, ONAYINI BEKLİYOR:**
+> Adım 7 bitti (c3c47bf): taç her yolda Peri'ye geçiyor (ihbar: Süheyla katalog fiyatına satar, "eksiği benden"; sus: kasa
+> yetmezse diye Cengo telefonla bekler; sus payı: Süheyla alır; Cengo'ya bırak: Cengo kendi parasıyla alır, büroda verir).
+> Kapanışa taç eklendi (Peri tacı masaya koyar, takmaz; yeni kare K153; kodsuz, her yolda aynı). Fiyat ~200.000 ₺, metne girmez.
+> Doğrulayıcı PASS, testler geçti, kapı V7 hikaye GEÇTİ. **Ortak, son "tamam"ı (hikâyenin donması) senin vermeni istiyor.**
+> Resimsiz oyna (`yeni/index.html`, Vaka 7), notların varsa tek liste; yoksa "tamam" → hikâye donar.
+
 > **Ortaktan cevap (15 Kasım 2026, Barbaros'a) — Vaka 7 taç soruları KAPANDI:**
 > 1. **Eksik kasa karara göre kapanır** (oyuncu ayrıca seçmez): örn. Sus'ta Cengo borç bulur, Sus payında sahibenin parası kapatır.
 > 2. **Cengo'nun borcu Vaka 8'de anılmaz**; Vaka 7'de kapanır.
