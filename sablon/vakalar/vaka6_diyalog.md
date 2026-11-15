@@ -83,7 +83,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **EYLÜL [kiskanc]:** Babam nereden başlarsak oradan başlarız. {gir: eylul, kime: peri, ekran: peri+eylul, yuz: peri.kas}
 **GİZEM [triko_tepsi]:** Seni vapura ben bırakırım, Eylül; iskele dibimizde. Numaranı da ver, yazışırız. {gir: gizem, kime: eylul, ekran: gizem+eylul, yuz: eylul.kiskanc}
 **EYLÜL [gulen]:** Tamam, abla. {gir: eylul, kime: gizem, ekran: eylul+gizem, yuz: gizem.triko_tepsi}
-*Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.* {kare: K118}
+*Gizem tepsiyi masaya bırakıyor. Eylül babasına sarılıp Gizem'le çıkıyor; kapıda dönüp Peri'ye bir kez daha bakıyor.* {kare: K118}
 
 ## sahne konusma
 ⚙ arka: A6 · figurler: peri, cengo · set: mesai · cset: utulu
@@ -250,7 +250,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [normal]:** Müzeyyen anne yıllarca terzilik yaptı. Gamze'nin bütün elbiselerini o dikerdi. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 **PERİ [merakli]:** Jale Hanım'ın da gelinlik atölyesi var, Cengo. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 *Gizem içeri giriyor; elinde bir tepsi çay, öbür elinde telefonu.* {gir: gizem, gi: triko_tepsi_telefon, ekran: gizem}
-**GİZEM [triko_tepsi_telefon]:** Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.merakli}
+**GİZEM [triko_tepsi_telefon]:** Büro boştu. Kâğıt işi varsa Cengo'yu Tahsin Usta'da bulursun, belliydi. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.merakli}
+**GİZEM [triko_tepsi_telefon]:** Susam'dayken Tahsin Usta'nın çayını her sabah ben getirirdim. Eylül de yine yazdı. {ekran: peri+gizem, yuz: peri.merakli}
 **GİZEM [triko_tepsi_telefon]:** "Babam o kadınla gezmeye mi gitti?" diyor. {ekran: peri+gizem, yuz: peri.merakli}
 **PERİ [kas]:** İşe gittik. Öyle yaz. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko_tepsi_telefon}
 **GİZEM [triko_tepsi_telefon]:** *(yazarak)* "Gezmeye gitti. Ama ben de gittim." {kime: peri, ekran: peri+gizem, yuz: peri.kas}
@@ -496,7 +497,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka6_
 | K115 | Giriş açılışı: Peri ayakları masada, dergi okuyor (yalnız) | giriş |
 | K116 | Haldun'un odası: Peri bir Cengo'ya, bir Haldun'a bakıyor | Haldun |
 | K117 | Bankta Müzeyyen, Peri, Cengo; Jale ve kalfa uzaklaşıyor | kovalamaca sonu |
-| K118 | Eylül Gizem'le çıkıyor, kapıda dönüp Peri'ye bakıyor; Cengo arkasında | giriş sonu |
+| K118 | Tepsi masada; Eylül Gizem'le çıkıyor, kapıda dönüp Peri'ye bakıyor; Cengo arkasında ona bakıyor | giriş sonu |
 | K119 | Cengo büronun açık kapısının önünde, ütülü gömlekle (yalnız) | giriş |
 | K120 | Eylül eşikte, sırt çantalı (yalnız) | giriş |
 | K121 | Eylül Peri'yi süzüp babasının koluna giriyor | giriş |

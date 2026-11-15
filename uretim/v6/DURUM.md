@@ -1,3 +1,13 @@
+**15 Kasım 2026, öğle — ONAY 3 NOTLARI (sahibi oynadı) → 3 RESİM YENİDEN, 2 METİN ONARIMI.**
+- **Metin (yapıldı, veride):** satır 86 "Gizem tepsiyi masaya bırakıyor. …" (Gizem vapura tepsiyle çıkıyordu); matbaa satır 253 ikiye bölündü:
+  "Büro boştu. Kâğıt işi varsa Cengo'yu Tahsin Usta'da bulursun, belliydi." + "Susam'dayken Tahsin Usta'nın çayını her sabah ben getirirdim. …"
+  (Gizem matbaa planını duymamıştı; "pastane" Susam'ı hatırlatmıyordu). Sahibi iki cümleyi onayladı.
+- **Resim (Barbaros üretecek):** G90 `## Düzeltme 2` (Gizem'in elleri boş, tepsi masada; Cengo Eylül'e bakıyor), G73 ve G74 `## Düzeltme 2`
+  (Müzeyyen gülmüyor: korkmuş / gergin; G74'te eli cebe gitmiyor — K113'ün işi). `istem_kontrol.sh` çıkış 0. Eski üç resim `onayli/`'den
+  çıkarıldı (`git rm`); `red/` yerel olduğu için eskiler git geçmişinde: `git show 8ad960a:uretim/v6/onayli/G90.png > red/G90_red2.png`
+  (G73, G74 → `_red1`). Komut: `cd uretim && SADECE="73 74 90" KOL=2 ./dongu.sh 6` → göz + el sayfası → göm (K103, K104, K118).
+- **Sonra (sahibinin sırası):** gömülünce sızıntı taraması (`arac_sizinti_tur.js V6 40`) + tablet + 19 ekran boyu (`kaynak/DEVIR.md` en üst) → Vaka 6 donar.
+
 **15 Kasım 2026 — VAKA 6 KAPISI GEÇTİ (`arac_kapi.js V6 resim`).** K11 (Peri'nin dirseği Recep'in kolunda, 268 px) yerleşimle çözüldü: Recep iki kişilik sahnede %7 sağa kayar (`gorseller.json → sola` eksi değer = sağa; üç pozuna da aynı değer). Tek başınayken kayma uygulanmaz, ortada durur (`yeni_arayuz.css` `.tek`). Resim değişmedi. Doğrulayıcı, iki derleme, testler geçti; yayında.
 **Sıradaki:** sahibi Onay 3'ü (görselli test) oynuyor. Yeni pencerede ilk iş sızıntı taraması + tablet + 19 ekran boyu denetimi (`kaynak/DEVIR.md` en üst). Sonra Onay 3 notları → düzeltme → sızıntı bir kez daha → Vaka 6 donar.
 (Aşağıdaki "KAPIDA YALNIZ K11 KALDI" bölümü bununla kapandı.)

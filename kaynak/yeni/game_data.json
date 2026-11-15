@@ -6358,9 +6358,16 @@
               {
                 "k": "gizem",
                 "i": "triko_tepsi_telefon",
-                "m": "Tahsin Usta'nın çayı; pastanedeyken her sabah ben getirirdim. Eylül de yine yazdı.",
+                "m": "Büro boştu. Kâğıt işi varsa Cengo'yu Tahsin Usta'da bulursun, belliydi.",
                 "gir": "gizem",
                 "kime": "peri",
+                "ekran": "peri+gizem",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "gizem",
+                "i": "triko_tepsi_telefon",
+                "m": "Susam'dayken Tahsin Usta'nın çayını her sabah ben getirirdim. Eylül de yine yazdı.",
                 "ekran": "peri+gizem",
                 "yuz": "peri.merakli"
               },
@@ -6946,7 +6953,7 @@
             },
             {
               "k": "not",
-              "m": "Eylül babasına sarılıp Gizem'le çıkıyor. Kapıda dönüp Peri'ye bir kez daha bakıyor.",
+              "m": "Gizem tepsiyi masaya bırakıyor. Eylül babasına sarılıp Gizem'le çıkıyor; kapıda dönüp Peri'ye bir kez daha bakıyor.",
               "kare": "K118"
             }
           ]

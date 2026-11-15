@@ -26,6 +26,8 @@
 K11'di (Üsküdar apartman, Peri'nin dirseği Recep'in kolunda): yerleşimle çözüldü — Recep iki kişilik sahnede %7 sağa kayar
 (`gorseller.json → sola`, eksi değer = sağa; tek kişiyken `.tek` sıfırlar). G65: Oğuz Bey'in Düzeltme 2 resmi gömülü. Her şey `main`'de.
 Üretim sürecinde (`sablon/7_uretim_sureci.md`) adım 11 bitti; **adım 12 (Onay 3, görselli test) sahibinde** — Barbaros oynuyor.
+**Güncelleme (15 Kasım öğle): Onay 3 bitti** — 3 not; 2 metin onarımı yapıldı, G73/G74/G90 `## Düzeltme 2` ile Barbaros'ta yeniden
+üretimde (`uretim/v6/DURUM.md` en üst). **Sahibinin sırası: aşağıdaki iki denetim bu üç resim GÖMÜLDÜKTEN SONRA koşulur.**
 
 **"Yeni pencerede devam edelim" denince — sahibine sormadan bu iki denetimi koş (Barbaros'un isteği, 15 Kasım 2026):**
 1. **Sızıntı taraması** (adım 14'ün ön koşulu): `cd kaynak && node arac_sizinti_tur.js V6 40` — çıkış 1 = sızıntı. Sonra
