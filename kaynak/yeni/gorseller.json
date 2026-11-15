@@ -870,7 +870,6 @@
     "cengo.utulu.normal",
     "gizem.triko_telefon",
     "gizem.triko_tepsi",
-    "gizem.triko_tepsi_telefon",
     "peri.mesai.kas",
     "peri.mesai.merakli",
     "peri.mesai.sasirmis",
@@ -904,6 +903,7 @@
     "recep.supurge",
     "dilek.heyecanli",
     "tahsin.gulen",
-    "haldun.dertli"
+    "haldun.dertli",
+    "gizem.triko_tepsi_telefon"
   ]
 }

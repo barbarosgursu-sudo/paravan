@@ -1,3 +1,11 @@
+**15 Kasım 2026, ~12:30 — DONDUKTAN SONRA İKİ EL DÜZELTMESİ (sahibi buldu): G25, G80.** Gizem'in tepsi eli sol kolun ucunda SAĞ eldi.
+G25: Düzeltme 1 (4 parmak çıktı) → Düzeltme 2 (tepsi kenarından kavranıyor, başparmak üstte) onaylı. G80: Düzeltme 1–2 yine sağ el →
+Düzeltme 3 (sahibinin kararı: tepsi kameraya yakın SAĞ elde, telefon sol elde); telefonun kenarındaki fazla işaret parmağı rötuşla
+silindi (düz duvar zemini; rötuşsuz hâli `red/G80_rotus_oncesi.png`). Eskiler `red/G25_red1–2`, `red/G80_red1–3`. El onayları
+sahibinden. Gömüldü (`gizem.triko_tepsi_telefon`, K110); doğrulayıcı, iki derleme, testler, `arac_kapi.js V6 resim` GEÇTİ.
+Bilinen (Windows): `arac_el.py --kapi` önbelleği (`YENI_UI/el/sayim.json`) varsayılan kodlamayla yazılıyor; Türkçe uyarıda bozulur →
+`PYTHONUTF8=1` ile koş, bozuksa önbelleği sil. `yeni/index.html` yazımı ara ara kilitleniyor (UNKNOWN open) — yeniden koşunca geçiyor.
+
 **15 Kasım 2026, 11:40 — VAKA 6 DONDU (adım 14).** Sızıntı taraması (`arac_sizinti_tur.js V6 40`): 40 yol, 1294 ekran, birebir sızıntı
 yok, JS hatası yok; `sizinti_okuma.txt` elle okundu — MASUM satırları ve dört kararın bütün yüzeyleri yalnız yüzleşme + kovalamaca
 itirafının söylediğini anıyor. Tablet (`arac_yeni_tur.js 0 sofra dogru --tablet`): taşma ve JS hatası yok. 19 boy (`--cihaz`, 64 an):
