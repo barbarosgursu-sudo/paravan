@@ -74,4 +74,4 @@ ile okunur (TZ verme).
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
 | 0 Konu seçimi | 14 Kas 15:41 | 15 Kas 02:00 | ölçülmedi | ölçülmedi | öneri sohbette; ortak eksperi değiştirdi (rüşvet, patrona kırgın) |
-| 1 Form | 15 Kas 11:30 | | | | ayrı oturumda; önce isimler, 4. karar, kovalamaca sorulur |
+| 1 Form | 15 Kas 11:30 | 15 Kas 11:54 | ~3 dk (3 soru) | ~21 dk | ayrı oturumda; isimler Set A, 4. karar "Tacı Cengo'ya bırak", kovalamaca yaldız + heykel; taç sorusu DEVIR'e |
