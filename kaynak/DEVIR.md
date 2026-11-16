@@ -16,6 +16,21 @@
 > Bakılacak: satır uzunluğu (~110 harf), sızıntı (yeni sözcükler), resim–metin uyumu (G73'te fermuarlı gelinlik kılıfı, G74'te bez
 > kese görünüyor — G74 "elbise kılıfı" ile çelişebilir). Koşulunca bu not silinir.
 
+> ## ✅ ORTAKTAN BARBAROS'A (16 Kasım 2026 akşam) — VAKA 6 BİTTİ, ORTAK ONAYLADI
+> Oğuz Bey Vaka 6'yı son hâliyle onayladı ("Altı bitti"). Senin düzeltmenden (`826c9e6`) sonra ortağın istediği değişiklikler:
+> 1. **Satır 39 (giriş, kapı çalınıyor):** kapı karesi (K120) belirirken büroda Eylül'ün figürü bir an görünüyordu. `gir: eylul`
+>    39'dan kalktı; Eylül 40. satırda ("Baba!") giriyor. Yalnız diyalog, kod değil (`1d80b9b`).
+> 2. **"Torba" → "elbise kılıfı"** bütün Vaka 6'da: replikler, anlatı, olgu/ipucu/çıkarım metinleri, çözüm, hikâye, kanıt adı
+>    ("Elbise kılıfını tutanlar"), form ve görsel tablosu. Uzun kalan üç yerde ikinci geçiş "kılıf". Olgu kodu `prova_torba`
+>    değişmedi. **Kural kitabı 22c'deki V6 örneği de aynı biçimde değişti** (yalnız alıntı) (`6d466f6`).
+> 3. **G5 (`haldun.normal`) yeniden üretildi:** parmak uçları birbirine değen pozda her elde 4 parmak vardı. Yeni poz: sol el
+>    cepte, sağ el yanda (jest yok; resim dinleme satırlarında da çıkıyor, K12). Tarz/yüz/el GEÇTİ, el onayı ortaktan, gömüldü
+>    (`0de8e20`; ayrıntı `uretim/v6/DURUM.md`). Eskisi `red/G5_red2.png`.
+> 4. **Ortağın bilgisayarına `onnxruntime` kuruldu** (senin onayınla). Not: `YENI_UI/el/sayim.json` yine bozuk kodlamayla kaldı,
+>    silinince kapı geçti (bilinen Windows sorunu, `PYTHONUTF8=1`).
+> Son durum: doğrulayıcı (iki oyun) PASS, iki derleme, testler, `arac_kapi.js V6 resim` GEÇTİ, `arac_sizinti_tur.js V6 40` temiz.
+> Okunur metin: `sablon/vakalar/vaka6_okuma.md` (satır numaralı). Sırada ortağın Vaka 7'si (aşağıdaki ADIM 2).
+>
 > ## ▶️ OĞUZ BEY — DEVAM ET: ADIM 2, VAKA 7 (Barbaros, 16 Kasım 2026 gece)
 >
 > **Vaka 6 TAMAM.** Adım 1'in metni (Oğuz Bey) ve kod düzeltmesi (Barbaros onayı, etiket yöntemi) birleşti: doğrulayıcı (iki oyun)
