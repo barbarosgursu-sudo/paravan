@@ -8703,7 +8703,7 @@
           "cengoBag": -2,
           "para": 15000,
           "etiket": "Sus",
-          "onizleme": "Süheyla'ya \"tablo sağlam\" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın.",
+          "onizleme": "Süheyla'ya \"tablo sağlam\" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı açık artırmada sen alırsın.",
           "sonuc": "Ruloyu Nesrin'e geri verdin, Süheyla'ya \"tablo sağlam\" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo bir köşede telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.",
           "cengo_sonuc": [
             {
@@ -8735,7 +8735,7 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Tacı Cengo'ya bırak",
-          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır; payına kasadan 10.000 ₺ koyarsın.",
+          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır.",
           "sonuc": "Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: \"Nakit getiren alır.\" Cengo buruşuk paraları masaya saydı; senin on binin de en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.",
           "cengo_sonuc": [
             {

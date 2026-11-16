@@ -17,7 +17,7 @@ Yazım `vaka6_diyalog.md`'deki gibi. Vaka 7'nin kıyafetleri (kıyafet hâli):
 
 **Görselsiz test için yer tutucu:** Vaka 7'nin **bütün** görselleri gri "görsel yok" kutusuyla görünür. Ortağın kararı (15 Kas): Vaka 7'nin resimleri baştan yapılır, önceki vakaların hazır resmi kullanılmaz → büro A6/A8 yerine A58/A59, Peri `manto` yerine `manto7`, Gizem `triko_tepsi` yerine `triko`.
 
-**Kasa rakamı hiçbir satırda söylenmez** (oyuncuya göre değişir). Taç fiyatı ~200.000 ₺ (ortak, 15 Kas): metinde rakamla geçmez.
+**Kasa yok** (16 Kasım 2026): para yalnız hikâyede, her kararın parası kendi sahnesinde görünür ve orada biter (kural 24). Taç fiyatı ~200.000 ₺ (ortak, 15 Kas): metinde rakamla geçmez.
 
 Her satır için kontrol sorusu: *ekranda kim var, kime bakıyor, yüzü bu satıra uyuyor mu,
 metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekranda (tek kişi `gir`, kalabalık kare).
@@ -393,7 +393,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar sus
 ⚙ etiket: Sus
 
-**ÖNİZLEME:** Süheyla'ya "tablo sağlam" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı kasadaki parayla alırsın.
+**ÖNİZLEME:** Süheyla'ya "tablo sağlam" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı açık artırmada sen alırsın.
 **SONUÇ:** Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo bir köşede telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.
 **CENGO:** Cengo alkışlayan salona baktı. "Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma" dedi.
 **DEFTER:** Sustum. Taç bende, kopya bir duvarda.
@@ -409,7 +409,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar cengoya_birak
 ⚙ etiket: Tacı Cengo'ya bırak
 
-**ÖNİZLEME:** Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır; payına kasadan 10.000 ₺ koyarsın.
+**ÖNİZLEME:** Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır.
 **SONUÇ:** Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı; senin on binin de en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.
 **CENGO:** Cengo kutuyu koltuğunun altına sıkıştırdı. "Büroda veririm. Burada takarsan yine heykel sanarlar" dedi.
 **DEFTER:** Tacı Cengo aldı; adamlarından topladı. Büroda bana verdi.

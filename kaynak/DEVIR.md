@@ -40,11 +40,11 @@
 >    parayla? "Cengo'ya bırak"ta da "senin on binin" nereden? Claude'un önerisi: Peri'nin parası Süheyla'nın ödediği elli bin ücret,
 >    eksiği Cengo kapatır. Karar senin; para kendi sahnesinde görünür ve orada biter (kural 24), rakam fiyat tablosunda olmalı (27c).
 >
-> *Barbaros'ta (Oğuz Bey'in işi değil, bilgi için):*
-> 6. Konuşma sahnesindeki kasa şakası (*"Kasada ne var?" / "Senin sandığından az, benim sandığımdan çok."*) — kasa burada büronun
->    para kutusu; kalsın mı değişsin mi, Barbaros karar verecek.
-> 7. Onarım ("yap" bekliyor): diyalog başındaki "Kasa rakamı hiçbir satırda söylenmez" notu; ekranda görünmeyen iki ÖNİZLEME'deki
->    "kasadaki parayla", "kasadan 10.000 ₺"; kural kitabı 24'ün örneği ("Haldun ücretten keser" → "Haldun ücreti öder").
+> 6. **Konuşma sahnesindeki kasa şakası — senin kararın** (Barbaros sana bıraktı, 16 Kas): *"Kasada ne var?" / "Senin sandığından
+>    az, benim sandığımdan çok."* Kasa burada büronun para kutusu (hikâye eşyası, ekran göstergesi değil). Kalsın ya da değişsin;
+>    5. maddedeki cevabınla (tacın parası) uyumlu olsun.
+> 7. ✅ **Onarım yapıldı (16 Kas, Claude):** diyalog başındaki kasa notu ("Kasa yok… kural 24"); iki ÖNİZLEME'den kasa sözü çıktı
+>    ("tacı açık artırmada sen alırsın", "Cengo tacı … kendi parasıyla alır"); kural kitabı 24'ün örneği "Haldun ücreti öder".
 >
 > *Uyanlar (dokunma):* taç her yolda V7'de alınıyor (27); kirli seçeneğin cazibesi hikâyede (prim, taç — 26); sigara yok (19a);
 > her satırda `ekran` var; `## ucret` yok, ücret kademeleri eşit; kısa kanıt adları ve anı özeti tamam.
