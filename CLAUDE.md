@@ -25,6 +25,9 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 >
 > ### 🖼️ RESİM ÜRETİMİ: `uretim/CLAUDE.md` OKU (Codex + yerel Claude düzeni, 6 Kasım 2026)
 >
+> ### 🔁 KARAR ANI YENİLENDİ, KASA KALKTI (16 Kasım 2026): karar sahnede, Cengo söylenmeyen kanıtı söyler, "Dosya kapandı" kartı;
+> ### kurallar ve kod `main`'de. Vaka 6 gözden geçirildi; Oğuz Bey'in 7 repliği bekleniyor. Ayrıntı `kaynak/DEVIR.md` en üst.
+>
 > ### ⬅️ YENİ OTURUM: ÖNCE `kaynak/DEVIR.md` OKU
 > Bu dosya kalıcı bilgidir (sözleşmeler, tuzaklar, komutlar). `DEVIR.md` ise **oturum
 > durumudur**: en son ne yapıldı, sahibi hangi soruya cevap bekliyor, sıradaki iş ne.
@@ -112,7 +115,7 @@ Vaka 6: `[sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]`
 konuşan/kime/arka/kare/figür anahtarıyla dökülür — görselli tur denetimi (adım 11) bununla yapılır.
 **Kim yaptı? kanıtları kısa adla (18 Ekim 2026):** diyalogda `## kanit` (`**olgu_id:** Kısa ad`) → `kim_yapti.kanit_ad`.
 Liste düz, tam metin ▾ ile; sonuç ekranı ✓/✗ + "Elindeydi". Ad olgunun metninden fazlasını söylemez (Nurcan). Adı olmayan vaka tam metne düşer.
-**"Dosya çözüldü" de Nurcan yüzeyidir (20 Ekim 2026, sahibi buldu):** yalnız oyuncunun ELİNDEKİ kanıt anılır — açılmamış
+**"Dosya çözüldü" (16 Kasım 2026'dan beri "Dosya kapandı" kartı + Cengo'nun kanıt satırı) de Nurcan yüzeyidir (20 Ekim 2026, sahibi buldu):** yalnız oyuncunun ELİNDEKİ kanıt anılır — açılmamış
 ipucunun olgusu orada basılırsa hem sızıntı olur hem reklamlı "kaçan ipucu"nu bedavaya açar. Seçim `motor_yeni.js → cozumYolu()`;
 `test_yeni_kimyapti.js` her ipucu alt kümesi × şüpheli × çifti sınar.
 Aynı kural suçlamadan sonraki METİNLERE de uyar (22 Ekim 2026): `## cozum` MASUM satırları ve karar ÖNİZLEME/SONUÇ/CENGO yalnız
@@ -122,7 +125,7 @@ oynar, her ekranda bilinmeyen olgu arar (çıkış 1 = sızıntı) ve `YENI_UI/s
 Şablon 7. parça adım 5 ve 14. Test değil, araç.
 Defter de vaka başına (17 Ekim 2026): Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın
 **anı özetini** (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi
-suçladığını, kararını, kasayı ve Peri'nin notunu basar (`yeni_arayuz.js → defterZincir, defterAni`).
+suçladığını, kararını ve Peri'nin notunu basar (kasa 16 Kasım 2026'da kalktı) (`yeni_arayuz.js → defterZincir, defterAni`).
 Künye (Kişiler) yalnız içinde bulunulan vakanın kişilerini gösterir (`yeni_arayuz.js → vnKisiGorunur`);
 portre `python3 arac_portre.py <figür> yeni_gorsel/portre/portre_<id>.webp`. Deneme reklamı (`reklamGoster`,
 +1 hak ve kaçırılan ipuçları) ve test için vaka düğmeleri (`VN_VAKA_ATLA`, yayından önce `false`):

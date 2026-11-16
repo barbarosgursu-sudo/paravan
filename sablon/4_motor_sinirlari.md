@@ -21,7 +21,7 @@ Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gere
 - **Araştırma:** ipucu listesi, hak sayısı, ipucu sahnesi, "deftere düştü" kartı. Bedava ipucu yok.
 - **Olgu ve defter:** ipucu açılınca olgular gelir; olgular birleşince deftere bir cümle yazılır (suçluyu söylemez).
 - **Kim yaptı?:** yalnız adı duyulan şüpheliler ve eldeki olgular; tek hak; üç sonuç; sonuca göre yüzleşme sahnesi.
-- *(16 Kasım 2026: aşağıdaki karar/sonuç/kasa düzeni sahibinin kararıyla değişecek — 2. parça kural 22a–d ve 24; kod henüz bugünkü hâlde.)*
+- *(16 Kasım 2026: aşağıdaki karar ekranı / sonuç sayfası / kasa düzeni KALKTI — kod değişti (14bbf84). Bugünkü akış: kovalamaca → karar sahnesi → sonuç sahnesi → Cengo büroda → Dosya kapandı kartı → kapanış; kasa yok. 2. parça kural 22a–d ve 24, `kaynak/DEVIR.md` en üst.)*
 - **Karar ekranı:** kapı yok, dört karar açık. Her seçenekte kısa sonuç, kasaya girecek toplam, Cengo'nun tavrı; ücret kesildiyse sebebi üstte.
 - **Sonuç:** kararın ara karesi, Cengo satırı, anı defteri notu, ücret + karar parası. Cengo göstergesi (alev) yok.
 - **Defter:** Zincir yalnız içinde bulunulan vaka; Anı biten her vaka için özet + kimi suçladın/karar/kasa + Peri'nin notu (`yeni_arayuz.js` → `defterZincir`, `defterAni`). Suçlama vaka bitince `_suclama_<vaka>` tohumunda kalır (`motor_yeni.js`).
