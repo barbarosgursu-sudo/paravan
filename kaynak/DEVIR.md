@@ -8,6 +8,13 @@
 
 ---
 
+> **Ortaktan not (16 Kasım 2026, Barbaros'a) — YENİ KURAL İSTEĞİ: SİGARA YOK.**
+> Ortağın kararı: bu seride **hiçbir yerde sigara içilmez**; sigarayla ilgili hiçbir konu geçmez (metin, sahne notu, ifade/poz adı,
+> kare tarifi) ve **sigara içen resim yapılmaz**. Ortak bunun **kural hâline getirilmesini** istiyor (kural kitabı + görsel sistemi;
+> istersen doğrulayıcıya "sigara/tütün/izmarit" taraması). Yapılan: Vaka 7'deki tek örnek (Nesrin ipucu, arka avlu: Nesrin ve
+> Cengo sigara içiyordu) değiştirildi — artık bir basamakta oturup kedilere bakıyorlar; `nesrin.sigara` ifadesi silindi. Yeni oyunun
+> verisinde (V1–V7) ve şablonlarda başka sigara geçmiyor (16 Kas taraması).
+
 > **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7 SON HÂLİ KAYDEDİLDİ, ONAYINI BEKLİYOR (DONMADI):**
 > Adım 7 bitti (c3c47bf): taç her yolda Peri'ye geçiyor (ihbar: Süheyla katalog fiyatına satar, "eksiği benden"; sus: kasa
 > yetmezse diye Cengo telefonla bekler; sus payı: Süheyla alır; Cengo'ya bırak: Cengo kendi parasıyla alır, büroda verir).

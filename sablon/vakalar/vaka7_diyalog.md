@@ -190,20 +190,20 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ## ipucu nesrin
 ⚙ arka: A54 · figurler: peri, cengo · set: gala · cset: smokin
-⚙ akış: Müzayede evinin arka avlusu: kediler, bir çöp konteyneri. Nesrin sigara içiyor. Cengo yanına oturur, kendi sigarasını yakar; uzun sessizlik. Nesrin Peri'yi sevmez. "Ben çerçeveledim, o kadar." Kendiliğinden: dün gece Vedat depoda yarım saat yalnız kaldı.
+⚙ akış: Müzayede evinin arka avlusu: kediler, bir çöp konteyneri. Nesrin bir basamakta oturmuş, kedilere bakıyor. Cengo yanına oturur, kediler ona sokulur; uzun sessizlik. Nesrin Peri'yi sevmez. "Ben çerçeveledim, o kadar." Kendiliğinden: dün gece Vedat depoda yarım saat yalnız kaldı.
 ⚙ Kural 21c: Nesrin'i gösteren bilgi yok (onarımı söylemez; söylerse yalan değil, susar). Dün gece depo Vedat'ı gösterir (yanıltır).
 
 *Müzayede evinin arka avlusu. Duvar dibinde kediler, köşede bir çöp konteyneri.* {arka: A54, mekan}
-*Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; sigara içiyor, kedilere bakıyor.* {gir: nesrin, gi: sigara, ekran: nesrin}
-*Cengo hiçbir şey demeden yanına oturuyor, kendi sigarasını yakıyor. Bir süre ikisi de konuşmuyor.* {kare: K131}
-**NESRİN [sigara]:** Kediler sizi sevdi. Herkesi sevmezler. {kime: cengo, kare: K131}
+*Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.* {gir: nesrin, gi: normal, ekran: nesrin}
+*Cengo hiçbir şey demeden yanına oturuyor; kediler ona sokuluyor. Bir süre ikisi de konuşmuyor.* {kare: K131}
+**NESRİN [normal]:** Kediler sizi sevdi. Herkesi sevmezler. {kime: cengo, kare: K131}
 **CENGO [yumusak]:** Simit kokuyorum. {kime: nesrin, kare: K131}
 **NESRİN [soguk]:** *(Peri'ye bakarak)* Elbiseniz size dar, hanımefendi. {gir: nesrin, kime: peri, ekran: peri+nesrin, yuz: peri.normal}
 **PERİ [kas]:** Biliyorum, Nesrin Hanım. Bilerek giydim. {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
 **CENGO [normal]:** Hüsnü Faik'i siz çerçevelemişsiniz. Bir şey dikkatinizi çekti mi? {kime: nesrin, ekran: cengo+nesrin, yuz: nesrin.soguk}
-**NESRİN [sigara]:** Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
-*Nesrin sigarasından uzun bir nefes çekiyor.* {gir: nesrin, gi: sigara, ekran: nesrin}
-**NESRİN [sigara]:** Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
+**NESRİN [normal]:** Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
+*Nesrin bir an susuyor; gözü kedilerde.* {gir: nesrin, gi: normal, ekran: nesrin}
+**NESRİN [normal]:** Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
 **NESRİN [soguk]:** Sahibi ya. Kim ne der. {kime: cengo, ekran: cengo+nesrin, yuz: cengo.normal}
 **PERİ [merakli]:** Yarım saat tablonun başında ne yaptı? {kime: nesrin, ekran: peri+nesrin, yuz: nesrin.soguk}
 **NESRİN [soguk]:** Bilmem. Ben çıktım. Bazı adamlar babalarından kalanın başında uzun durur. {kime: peri, ekran: peri+nesrin, yuz: peri.merakli}
@@ -474,7 +474,7 @@ kodlardan sonra: A50, D22, K124.
 | K128 | Peri paravanın arkasından gece mavisi dar satenle çıkıyor; Cengo'nun ağzı açık; Gizem askıyla | konuşma, çekicilik |
 | K129 | Peri parmağıyla Cengo'nun çenesini kapatıyor | konuşma |
 | K130 | lokanta: Şükrü Cengo'nun papyonuna uzanıyor, Cengo geri çekiliyor; Peri | sukru |
-| K131 | arka avlu: Nesrin ve Cengo yan yana sigara içiyor, kediler; Peri biraz geride | nesrin |
+| K131 | arka avlu: Nesrin ve Cengo bir basamakta yan yana oturuyor, kediler Cengo'ya sokulmuş; Peri biraz geride | nesrin |
 | K132 | akşam depo: Şükrü raporlarla, Vedat tablonun başında, Nesrin raf önünde, köşede boş çerçeve; Peri ve Cengo kapıda | yüzleşme açılışı (dört sonuç) |
 | K133 | Şükrü papyonunu düzeltiyor, Nesrin çerçeveyi rafa bırakıyor | yüzleşme |
 | K134 | Nesrin boş çerçevenin arkalığını yırtıp rulo tuvali çekiyor, kapıya koşuyor; Kaan elinde kadife örtüyle donmuş | yüzleşme kaçışı (dört sonuç) |
@@ -505,7 +505,7 @@ kodlardan sonra: A50, D22, K124.
 | Kaan | normal, heyecanli, ciddi (UV lambasıyla) | tablo, yüzleşme, kovalamaca |
 | Şükrü | normal, dik, kirgin | sukru, yüzleşme |
 | Vedat | sakaci (koli bandıyla), kacamak, yakalanmis, ofkeli | vedat, yüzleşme |
-| Nesrin | sigara, soguk, normal, itiraf | nesrin, yüzleşme, itiraf |
+| Nesrin | normal, soguk, itiraf | nesrin, yüzleşme, itiraf |
 | Ercan (vale) | normal, gulen, fisilti | vale |
 | Necmi | normal, heyecanli, defter | tuval |
 | İkram şefi, misafirler | ses (kare üstünde) | kovalamaca |

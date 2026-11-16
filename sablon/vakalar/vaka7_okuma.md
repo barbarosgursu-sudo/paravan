@@ -162,18 +162,18 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 
 ## 3e. İpucu — Nesrin Hanım
 
-> **Açıklama:** Müzayede evinin arka avlusu: kediler, bir çöp konteyneri. Nesrin sigara içiyor. Cengo yanına oturur, kendi sigarasını yakar; uzun sessizlik. Nesrin Peri'yi sevmez. "Ben çerçeveledim, o kadar." Kendiliğinden: dün gece Vedat depoda yarım saat yalnız kaldı.
+> **Açıklama:** Müzayede evinin arka avlusu: kediler, bir çöp konteyneri. Nesrin bir basamakta oturmuş, kedilere bakıyor. Cengo yanına oturur, kediler ona sokulur; uzun sessizlik. Nesrin Peri'yi sevmez. "Ben çerçeveledim, o kadar." Kendiliğinden: dün gece Vedat depoda yarım saat yalnız kaldı.
 
 `196` *Müzayede evinin arka avlusu. Duvar dibinde kediler, köşede bir çöp konteyneri.*  
-`197` *Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; sigara içiyor, kedilere bakıyor.*  
-`198` *Cengo hiçbir şey demeden yanına oturuyor, kendi sigarasını yakıyor. Bir süre ikisi de konuşmuyor.*  
+`197` *Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.*  
+`198` *Cengo hiçbir şey demeden yanına oturuyor; kediler ona sokuluyor. Bir süre ikisi de konuşmuyor.*  
 `199` **NESRİN:** Kediler sizi sevdi. Herkesi sevmezler.  
 `200` **CENGO:** Simit kokuyorum.  
 `201` **NESRİN:** *(Peri'ye bakarak)* Elbiseniz size dar, hanımefendi.  
 `202` **PERİ:** Biliyorum, Nesrin Hanım. Bilerek giydim.  
 `203` **CENGO:** Hüsnü Faik'i siz çerçevelemişsiniz. Bir şey dikkatinizi çekti mi?  
 `204` **NESRİN:** Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona.  
-`205` *Nesrin sigarasından uzun bir nefes çekiyor.*  
+`205` *Nesrin bir an susuyor; gözü kedilerde.*  
 `206` **NESRİN:** Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı.  
 `207` **NESRİN:** Sahibi ya. Kim ne der.  
 `208` **PERİ:** Yarım saat tablonun başında ne yaptı?  

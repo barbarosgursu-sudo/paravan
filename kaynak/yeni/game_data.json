@@ -176,7 +176,7 @@
         "kaan": {"ad": "Kaan", "ifadeler": ["normal", "heyecanli", "ciddi"]},
         "sukru": {"ad": "Şükrü", "ifadeler": ["normal", "dik", "kirgin"]},
         "vedat": {"ad": "Vedat", "ifadeler": ["sakaci", "kacamak", "yakalanmis", "ofkeli"]},
-        "nesrin": {"ad": "Nesrin", "ifadeler": ["sigara", "soguk", "normal", "itiraf"]},
+        "nesrin": {"ad": "Nesrin", "ifadeler": ["soguk", "normal", "itiraf"]},
         "ercan": {"ad": "Vale", "ifadeler": ["normal", "gulen", "fisilti"]},
         "necmi": {"ad": "Necmi", "ifadeler": ["normal", "heyecanli", "defter"]}
       },
@@ -8394,19 +8394,19 @@
               },
               {
                 "k": "not",
-                "m": "Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; sigara içiyor, kedilere bakıyor.",
+                "m": "Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.",
                 "gir": "nesrin",
-                "gi": "sigara",
+                "gi": "normal",
                 "ekran": "nesrin"
               },
               {
                 "k": "not",
-                "m": "Cengo hiçbir şey demeden yanına oturuyor, kendi sigarasını yakıyor. Bir süre ikisi de konuşmuyor.",
+                "m": "Cengo hiçbir şey demeden yanına oturuyor; kediler ona sokuluyor. Bir süre ikisi de konuşmuyor.",
                 "kare": "K131"
               },
               {
                 "k": "nesrin",
-                "i": "sigara",
+                "i": "normal",
                 "m": "Kediler sizi sevdi. Herkesi sevmezler.",
                 "kime": "cengo",
                 "kare": "K131"
@@ -8439,7 +8439,7 @@
               },
               {
                 "k": "nesrin",
-                "i": "sigara",
+                "i": "normal",
                 "m": "Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona.",
                 "kime": "cengo",
                 "ekran": "cengo+nesrin",
@@ -8447,14 +8447,14 @@
               },
               {
                 "k": "not",
-                "m": "Nesrin sigarasından uzun bir nefes çekiyor.",
+                "m": "Nesrin bir an susuyor; gözü kedilerde.",
                 "gir": "nesrin",
-                "gi": "sigara",
+                "gi": "normal",
                 "ekran": "nesrin"
               },
               {
                 "k": "nesrin",
-                "i": "sigara",
+                "i": "normal",
                 "m": "Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı.",
                 "kime": "cengo",
                 "ekran": "cengo+nesrin",

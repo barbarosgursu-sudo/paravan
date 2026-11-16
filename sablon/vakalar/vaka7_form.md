@@ -60,7 +60,7 @@ suçlu yine "içeriden".
 | kişi | işi | olaydaki rolü | işi rolüne uyuyor mu? | oturduğu yer | olay günü nereden nereye, nasıl gitti |
 |---|---|---|---|---|---|
 | Süheyla Hanım (55) | müzayede evinin sahibesi (babasından kaldı) | müşteri | evet: kataloğu ve fotoğrafı o yaptı | Nişantaşı | sabah evden büroya taksiyle (Karaköy), sonra eve; akşam salonda |
-| Nesrin Hanım (58) | evin restoratörü (çerçeve, temizlik, onarım) | suçlu | evet: onarım ve kopya mesleğinin işi; çerçeve odasının anahtarı onda | Cihangir | gün boyu müzayede evinde (lotları hazırlıyor); arka avluda sigara |
+| Nesrin Hanım (58) | evin restoratörü (çerçeve, temizlik, onarım) | suçlu | evet: onarım ve kopya mesleğinin işi; çerçeve odasının anahtarı onda | Cihangir | gün boyu müzayede evinde (lotları hazırlıyor); arka avluda, kedilerin yanında |
 | Şükrü Bey (64) | evin kıdemli uzmanı | yanlış iz (rüşvet) | evet: rapor onun imzası | Teşvikiye | öğlen her pazar oturduğu lokantada (yürür); akşam depoda |
 | Vedat Bey (50) | reklam ajansı sahibi | satıcı, yanlış iz (hasarı gizledi) | evet: tablo babasından | Maçka | gündüz evinde (boş duvarın önünde); akşam müzayede evine arabayla (vale) |
 | Kaan (28) | evin yeni baş eksperi | tanık (A); akşam müzayedeci | evet: UV lambası, rapor okur | — (yazılmaz) | depoda; akşam kürsüde |
@@ -160,7 +160,7 @@ suçlu yine "içeriden".
 | B | Şükrü Bey | Teşvikiye, her pazar oturduğu lokantanın köşe masası | koşulsuz (girişte anılır) | rapor_evde, sukru_kirgin | Peri (iki eski "saray"lı, kibar düello) |
 | C | Vale | müzayede evinin önü, vale kulübesi | koşulsuz | zarf, arka_kapi | Cengo (Ercan'ı eski Karaköy otoparkından tanır) |
 | D | Vedat Bey | Maçka, dairesi: boş duvarda solmamış dikdörtgen | koşulsuz (girişte anılır) | onarim_nesrin | Peri (yalanı okur) |
-| E | Nesrin Hanım | müzayede evinin arka avlusu, sigara molası | koşulsuz (girişte anılır) | vedat_gece | Cengo (sigara, sessizlik) |
+| E | Nesrin Hanım | müzayede evinin arka avlusu, kedilerin yanında | koşulsuz (girişte anılır) | vedat_gece | Cengo (kediler, sessizlik) |
 | F | Eski tuval | Feriköy Antika Pazarı, Necmi'nin tezgâhı | koşulsuz | eski_tuval | Cengo (adamı) |
 
 Peri 3 (A, B, D), Cengo 3 (C, E, F). *İpucu adları yeni ad taşımaz (K18): "Tablo", "Vale", "Eski tuval" adsız;
@@ -201,7 +201,7 @@ bakar, kapatır; Cengo görür, bir şey demez. Gizem: "Taç kimin?" Peri: "Bir 
   sanır. Önce inkâr, sonra Peri yalanı okur (Vedat hep şakaya vurur, gözü duvara kayar). Kabul: "Düştü. Köşesi yırtıldı.
   Onarılmış Hüsnü Faik iki milyon eder, onarılmamış altı. Gizlice Nesrin Hanım'a onarttım; iki hafta ondaydı." Rüşveti
   inkâr eder: "Şükrü'ye mi? Ben kimseye para vermem; reklamcıyım, ben para alırım."
-- **E.** Arka avlu, kediler, çöp konteyneri. Nesrin sigara içiyor; Cengo yanına oturur, kendi sigarasını yakar, uzun
+- **E.** Arka avlu, kediler, çöp konteyneri. Nesrin bir basamakta oturmuş, kedilere bakıyor; Cengo yanına oturur, kediler ona sokulur, uzun
   sessizlik (Cengo'nun yolu). Nesrin onu sever, Peri'den hoşlanmaz ("Elbiseniz size dar."). Tabloyu sorunca: "Ben
   çerçeveledim, o kadar." Sonra kendiliğinden: "Vedat Bey dün gece geldi, tablonun başında yarım saat yalnız kaldı.
   Sahibi ya; kim ne der." *(Vedat'a iter: istediği bu.)*
@@ -397,7 +397,7 @@ Gizem yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
 | Cengo, smokin | satırların istediği ifadeler; tepsiyle; papyonu düzeltilirken (kapanış) |
 | Gizem | konuşma, kapanış; elinde askı (elbise) |
 | Süheyla Hanım (yeni) | normal (keskin), şaşkın (taç sayfası açılırken fark etmez), kararlarda |
-| Nesrin Hanım (yeni) | normal (soğuk), sigara (E), yüzleşmede gergin, itiraf (ruloyu açarken) |
+| Nesrin Hanım (yeni) | normal (soğuk), yüzleşmede gergin, itiraf (ruloyu açarken) |
 | Şükrü Bey (yeni) | normal (kibar), kırgın (B), yüzleşme |
 | Vedat Bey (yeni) | normal (şakacı), yakalanmış (D), yüzleşme |
 | Kaan (yeni) | normal (heyecanlı), UV lambasıyla, kürsüde tokmakla |
