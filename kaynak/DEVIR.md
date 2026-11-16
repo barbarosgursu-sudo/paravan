@@ -8,6 +8,40 @@
 
 ---
 
+> **Barbaros'un kararı (16 Kasım 2026) — KARAR ANI YENİDEN TASARLANIYOR, KASA KALKIYOR. Henüz UYGULANMADI.**
+> Sebep (sahibi): kasanın bir anlamı yok (yalnız birikiyor, hiçbir şeye bağlanmıyor); karar ekranı oyuncu için boş ve karmaşık
+> (dört kart × önizleme + "Kasaya …" + Cengo tavrı = tablo karşılaştırması; sonuç seçmeden okunuyor).
+> Taslak (Vaka 6'nın gerçek ekranları ve resimleriyle, zayıf kanıt yolu): `sablon/taslak_karar/vaka6_akis.jpg` (önerilen akış baştan
+> sona, onaylandı) ve `vaka6_simdi_oneri.jpg` (bugünkü ile yan yana).
+>
+> **Kararlar (hepsi sahibinin, 16 Kas):**
+> 1. **Karar sahnenin içinde.** İtiraftan sonra konuşma ekranı kesilmez; kararı **sahnedeki biri sorar** (V6: Müzeyyen bankta).
+>    Seçenekler Peri'nin ağzından kısa cümleler, açılıştaki "Peri ne desin?" seçim kutusuyla. **Rakam, Cengo tavrı, önizleme yok.**
+> 2. **Sonuç sahnede.** Bugünkü SONUÇ paragrafı karar karesinin (V6: K106) üstünde anlatı satırlarına bölünür; Cengo satırı büroda
+>    kendi ağzından.
+> 3. **Cengo yalnız söylenmeyen doğru kanıtı söyler** (büroda, kapanıştan önce): yalnız oyuncunun ELİNDE olup suçlamada kullanmadığı
+>    doğru kanıt (bugünkü "Elindeydi"). **Açılmamış ipucu asla anılmaz** (20 Ekim kuralı korunur; reklamlı "kaçan ipucu" da korunur).
+>    Doğru kişi + sağlam kanıtta konuşmaz. Bugünkü ücret kesintisinin yerine bu. Örnek (V6, zayıf): "Torbayı o gün iki kişi tuttu,
+>    Peri. Sofradaki tarihle onu söyleseydin kadın 'kanıtınız ne?' diyemezdi."
+> 4. **Kart kalır:** "Dosya kapandı" kartı = ✓/✗ kanıt listesi + Elindeydi + Peri'nin anı cümlesi + Devam / Arkadaşına öner.
+>    Seçim mantığı bugünkü `cozumYolu()` (testli).
+> 5. **Kasa tamamen kalkar:** ücret, karar parası, kasa göstergesi, hesap kutusu, Anı'daki "Kasaya" satırı. **Para yalnız hikâyede:**
+>    her kararın parası kendi sahnesinde görünür ve orada biter (ör. Haldun'un kesintisi bir replik). Kirli seçeneğin cazibesi
+>    Peri'nin bir derdine çare olmasından gelir (Peri'nin parasızlığı hikâyede ara ara hatırlatılır).
+> 6. **Taç her yolda V7'de alınır, kasadan düşmez** (kasa yok). V7 metni zaten kasadan bağımsız; kural 24/27 için yazılan motor planı
+>    (kasadan düşme, "taç alındı" işareti) **iptal**.
+> 7. **Kalkan ekranlar:** "Dosya çözüldü" sayfası, karar menüsü, sonuç sayfası.
+>
+> **Uygulama sırası (her adım ayrıca sahibinin "yap"ıyla):**
+> - **Kurallar (Barbaros):** kural 22a, F bölümü (24–27c), 26 yeniden yazılır ("para yalnız hikâyede"; "kirli seçenek Peri'nin bir
+>   derdine çare olur"); 1. parça "Karar" ve 5. parça satır–resim kurallarına karar sahnesi eklenir; `sablon/vakalar` form şablonu.
+> - **Oğuz Bey (metin):** her vaka için kararı soran kişi + repliği, Peri'nin seçenek cümleleri, SONUÇ'un sahne satırları, Cengo'nun
+>   "Elindeydi" satırı (her doğru kanıt için bir), rakam geçen karar metinlerinin sahneye çevrilmesi.
+> - **Kod:** `motor_yeni.js` (ücret/kasa kalkar), `yeni_arayuz.js` (karar → konuşma seçimi, sonuç sahnesi, kapanış kartı, kasa
+>   göstergesi/hesap kutusu/Anı kasası kalkar), doğrulayıcı (ikilem denetimi para yerine), testler. Eski oyun (`motor.js`, `index.html`)
+>   etkilenmez.
+> - **Sıra:** önce **Vaka 6** (resimleri tam) → tutarsa V7, V8 bu düzenle → V1–V5 yeniden geçirilir.
+
 > **Ortaktan not (16 Kasım 2026, Barbaros'a) — YENİ KURAL İSTEĞİ: SİGARA YOK.**
 > Ortağın kararı: bu seride **hiçbir yerde sigara içilmez**; sigarayla ilgili hiçbir konu geçmez (metin, sahne notu, ifade/poz adı,
 > kare tarifi) ve **sigara içen resim yapılmaz**. Ortak bunun **kural hâline getirilmesini** istiyor (kural kitabı + görsel sistemi;
