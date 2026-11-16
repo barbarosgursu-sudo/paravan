@@ -103,10 +103,10 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 
 > **Mekân (A51):** Teşvikiye: eski bir lokanta, beyaz örtülü köşe masa
 
-> **Açıklama:** Teşvikiye, eski bir lokantanın köşe masası, beyaz örtü. Şükrü yalnız, kusursuz bordo papyonuyla. Peri'yi "hemşire" sanır (şaka 1). Cengo'nun papyonuna uzanır (şaka 3). Raporu evde bir saatte yazdı; ertesi gün İzmir, iki hafta; döndüğünde kasayı açmadı. Kırgınlığı. Rüşveti kabul etmez.
+> **Açıklama:** Teşvikiye, eski bir lokantanın köşe masası, beyaz örtü. Şükrü yalnız, kusursuz koyu yeşil papyonuyla. Peri'yi "hemşire" sanır (şaka 1). Cengo'nun papyonuna uzanır (şaka 3). Raporu evde bir saatte yazdı; ertesi gün İzmir, iki hafta; döndüğünde kasayı açmadı. Kırgınlığı. Rüşveti kabul etmez.
 
 `135` *Teşvikiye. Eski bir lokanta; köşede beyaz örtülü bir masa.*  
-`136` *Kahverengi tüvit takımlı, kusursuz bordo papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.*  
+`136` *Kahverengi tüvit takımlı, kusursuz koyu yeşil papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.*  
 `137` **ŞÜKRÜ:** Süheyla'nın misafirleri. Buyurun. *(Peri'ye)* Sizi bir dizide görmüştüm. Hemşireydiniz.  
 `138` **PERİ:** Hiç hemşire olmadım, Şükrü Bey. Ama size iyi gelecek bir sorum var.  
 `139` *Şükrü Cengo'nun papyonuna uzanıyor; Cengo geri çekiliyor.*  
@@ -133,7 +133,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Nişantaşı, müzayede evinin kapısı; kaldırımda bir vale kulübesi. Ercan Cengo'yu tanır, smokinine güler. Üç hafta önce: Vedat Şükrü'ye zarf verdi; aynı gün battaniyeli bir paketi arka kapıdan içeri taşıdı, boş döndü. Peri yanında, deftere yazar.
 
 `161` *Nişantaşı. Müzayede evinin kapısı; kaldırımda küçük bir vale kulübesi.*  
-`162` *Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.*  
+`162` *Siyah vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.*  
 `163` **ERCAN:** Karaköy otoparkının Cengo'su! Smokin mi o?  
 `164` **CENGO:** Kiralık, Ercan. Pazartesi iade.  
 `165` **ERCAN:** Papyonun yamuk ama. Düzelteyim mi?  

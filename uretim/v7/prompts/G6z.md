@@ -1,0 +1,58 @@
+# G6z — Şükrü Bey, normal (temel) — ZEMİN DENEMESİ (açık bej)
+
+- tür: figür · anahtar: `sukru.normal`
+- önce hazır olmalı: yok
+- zemin denemesi: asıl G6 (gri-mavi); bu dosya yalnız zemin rengiyle ayrılır (H4)
+
+## Referanslar (bu sırayla ekle; istemdeki "birinci referans" = 1.)
+
+1. `../referanslar/tarz_govde_erkek.jpg` — YALNIZ tarz, ölçek, kadraj (başı silik)
+2. `../referanslar/tarz_ornek_erkek.jpg` — YALNIZ çizim tarzı örneği (kişi, kıyafet, poz alınmaz)
+
+## Satırlar
+
+`arac_satir_resim.js` (16 Kasım 2026, V7 dört yol: 0 el dogru, 1 izmir zayif, 2 tuval sukru, 3 cozmez7 vedat). Codex bu bölümü istem metnine katmaz.
+
+- *anlatı*: Kahverengi tüvit takımlı, kusursuz koyu yeşil papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.  _(dinliyor)_
+- **sukru**: Süheyla'nın misafirleri. Buyurun. (Peri'ye) Sizi bir dizide görmüştüm. Hemşireydiniz.
+- **peri**: Hiç hemşire olmadım, Şükrü Bey. Ama size iyi gelecek bir sorum var.  _(dinliyor)_
+- **peri**: Hüsnü Faik'in raporunu siz imzaladınız. "Onarım görmemiş." Tabloyu ne zaman incelediniz?  _(dinliyor)_
+- **sukru**: Ertesi gün İzmir'e gittim; bir koleksiyonun değerlemesi, iki hafta sürdü.
+- **sukru**: Döndüğümde tablo depodaydı, kasasında. Açmadım. Raporum dosyadaydı; gerek görmedim.
+- **cengo**: Otuz yıllık uzman tabloya bir daha bakmaz mı?  _(dinliyor)_
+- **sukru**: Süheyla söyledi. Hemşire olduğunuzu söylemedi; onu ben bildim.
+- **peri**: Şükrü Bey. Tabloyu siz değiştirdiniz.  _(dinliyor)_
+
+## Kontrol
+
+UFAK TEFEK, ince · çok ince KIR bıyık, kalın kır kaşlar, seyrek geriye yatık saç · kahverengi TÜVİT üç parça · KOYU YEŞİL puantiyeli papyon (BORDO DEĞİL) · yelek cebinde altın zincir · eller boş · Ferruh'a benzemiyor · zemin açık bej
+
+## İstem
+
+```text
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+
+Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
+
+Şükrü Bey: altmış dört yaşında, UFAK TEFEK, ince, kibar, eski usul bir müzayede uzmanı. Geriye yatırılmış, seyrek, düz KIR saç; KALIN, gür kır kaşlar; çok İNCE, düzgün kesilmiş kır bir bıyık; temiz traşlı çene. Gözlük yok. Kahverengi, ince desenli TÜVİT üç parça takım (ceket, yelek, pantolon), beyaz gömlek; boynunda kusursuz bağlanmış KOYU YEŞİL, ince beyaz puantiyeli bir PAPYON. Yeleğin cebinden ince bir altın zincir sarkıyor; zincirin ucundaki küçük büyüteç cepte. Ferruh'a (tombul, gür kır saçlı, lacivert ceketli, BORDO papyonlu iri adam) benzemiyor: Şükrü küçük ve zayıf, papyonu koyu yeşil, takımı kahverengi tüvit. Kenan'a ve Haldun'a benzemiyor.
+
+Poz: TAM İKİ KOL, İKİ EL. İki eli önünde, belinin hizasında hafifçe birleşmiş; elleri boş.
+
+Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
+
+İfade: kibar, ölçülü, hafif mesafeli; dudaklarında belli belirsiz, nazik bir gülümseme; çenesi hafif yukarıda, ağırbaşlı.
+
+Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
+
+Boya dokusu yüzde, saçta ve ışıkta; kumaş pürüzsüz, yumuşak geçişli.
+
+Kadraj: DİKEY 4:5. Tek kişi, ayakta, kadrajın ortasında. Uyluk ortasından yukarısı; başın tepesinin üstünde ince bir boşluk. Arka plan: düz, tek renk açık bej; gölgesiz, dokusuz, lekesiz, renk geçişi yok (bilgisayarda doldurulmuş tek renk gibi); hiçbir nesne yok.
+
+Çıplaklık yok.
+
+Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur, yumuşak gölgeler, yüz çiziminin gerçekçiliği, renkler ve ölçek onun gibi olsun. Oradaki kişinin yüzünü, saçını, kıyafetini ve pozunu ALMA. Karikatür değil: doğal yüz oranları, abartısız ifade.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+
+Görselin oranı TAM 4:5, dikey (1122×1402).
+```

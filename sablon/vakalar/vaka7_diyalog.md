@@ -129,11 +129,11 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ## ipucu sukru
 ⚙ arka: A51 · figurler: peri, cengo · set: gala · cset: smokin
-⚙ akış: Teşvikiye, eski bir lokantanın köşe masası, beyaz örtü. Şükrü yalnız, kusursuz bordo papyonuyla. Peri'yi "hemşire" sanır (şaka 1). Cengo'nun papyonuna uzanır (şaka 3). Raporu evde bir saatte yazdı; ertesi gün İzmir, iki hafta; döndüğünde kasayı açmadı. Kırgınlığı. Rüşveti kabul etmez.
+⚙ akış: Teşvikiye, eski bir lokantanın köşe masası, beyaz örtü. Şükrü yalnız, kusursuz koyu yeşil papyonuyla. Peri'yi "hemşire" sanır (şaka 1). Cengo'nun papyonuna uzanır (şaka 3). Raporu evde bir saatte yazdı; ertesi gün İzmir, iki hafta; döndüğünde kasayı açmadı. Kırgınlığı. Rüşveti kabul etmez.
 ⚙ Kural 21c: Şükrü tabloyu bir saat gördü, iki hafta İzmir'deydi — aslıyla haftalarca kalan Nesrin ya da Vedat. Kırgınlık Şükrü'yü gösterir (yanıltır).
 
 *Teşvikiye. Eski bir lokanta; köşede beyaz örtülü bir masa.* {arka: A51, mekan}
-*Kahverengi tüvit takımlı, kusursuz bordo papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.* {gir: sukru, gi: normal, ekran: sukru}
+*Kahverengi tüvit takımlı, kusursuz koyu yeşil papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.* {gir: sukru, gi: normal, ekran: sukru}
 **ŞÜKRÜ [normal]:** Süheyla'nın misafirleri. Buyurun. *(Peri'ye)* Sizi bir dizide görmüştüm. Hemşireydiniz. {gir: sukru, kime: peri, ekran: peri+sukru, yuz: peri.normal}
 **PERİ [kas]:** Hiç hemşire olmadım, Şükrü Bey. Ama size iyi gelecek bir sorum var. {kime: sukru, ekran: peri+sukru, yuz: sukru.normal}
 *Şükrü Cengo'nun papyonuna uzanıyor; Cengo geri çekiliyor.* {kare: K130}
@@ -159,7 +159,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: zarf Vedat ile Şükrü'yü gösterir (rüşvet; masum açıklaması var: onarımı gizlemek). Paket içeri girdi: kime verildiği görülmedi.
 
 *Nişantaşı. Müzayede evinin kapısı; kaldırımda küçük bir vale kulübesi.* {arka: A52, mekan}
-*Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.* {gir: ercan, gi: normal, ekran: ercan}
+*Siyah vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.* {gir: ercan, gi: normal, ekran: ercan}
 **ERCAN [gulen]:** Karaköy otoparkının Cengo'su! Smokin mi o? {gir: ercan, kime: cengo, ekran: cengo+ercan, yuz: cengo.normal}
 **CENGO [kas]:** Kiralık, Ercan. Pazartesi iade. {kime: ercan, ekran: cengo+ercan, yuz: ercan.gulen}
 **ERCAN [gulen]:** Papyonun yamuk ama. Düzelteyim mi? {kime: cengo, ekran: cengo+ercan, yuz: cengo.kas}

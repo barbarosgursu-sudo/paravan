@@ -412,12 +412,12 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
 - **Nesrin Hanım (58):** ince, kemikli yüz; uzun kır saç **tek örgü**, omzundan önde; gözlüğü başının üstünde; siyah
   sade elbise üstünde boya lekeli **lacivert iş önlüğü**; parmak uçları boyalı.
 - **Şükrü Bey (64):** ufak tefek; ince kır bıyık, kalın kır kaşlar, geriye yatırılmış seyrek saç; kahverengi tüvit
-  takım, **kusursuz bordo papyon**; yelek cebinden zincirli büyüteç (lup).
+  takım, **kusursuz koyu yeşil papyon** (ince beyaz puantiyeli; Ferruh bordo papyonlu olduğu için — ortak, 16 Kas); yelek cebinden zincirli büyüteç (lup).
 - **Vedat Bey (50):** iri, kel; kısa kır sakal; bordo kadife ceket, beyaz boğazlı kazak; kalın siyah çerçeveli gözlük
   (Haldun'un incesinden ayrışır).
 - **Kaan (28):** uzun, ince; perçemli kahverengi saç; dar lacivert takım, beyaz spor ayakkabı; elinde mor ışıklı UV
   lambası; akşam kürsüde tokmak.
-- **Ercan (vale, 40'lar):** jöleli, geriye taranmış siyah saç, sinekkaydı tıraş; kırmızı vale yeleği, beyaz eldiven,
+- **Ercan (vale, 40'lar):** kırk yaşında, tıknaz; jöleli, geriye taranmış siyah saç, ince siyah bıyık; siyah, altın düğmeli vale yeleği (Bülent kırmızı yelekli olduğu için — ortak, 16 Kas), beyaz eldiven,
   elinde anahtar halkası.
 - **Necmi (50'ler):** iri, gür kır favoriler; yün bere, bol kareli oduncu gömleği, üstünde kolsuz şişme yelek; elinde
   eski kartpostallar.
