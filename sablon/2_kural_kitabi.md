@@ -24,7 +24,7 @@ girişe gitti: satır sınırına sığdırmak için sıkıştırılan cümleler
 8. **Atışma:** son sözü sırayla alırlar; her vakada ikisi de en az bir kez "kaybeder". Kavga işin üstündedir, kişiliğin değil.
 9. **İkisi de gerekli:** bazı ipuçlarını Peri'nin yolu (kural, kibarlık), bazılarını Cengo'nun yolu (tanıdık, kurnazlık) açar.
 10. **Kavuşmazlar.** Yakınlık sözde değil eylemde: bakış, yarım kalan laf, uzatılan ceket.
-11. **Cengo bağının değeri görünmez.** Sayı, çubuk ya da alev olarak ekranda yer almaz. **İstisna (sahibinin kararı, 8 Ekim 2026):** karar ekranında her seçeneğin altında Cengo'nun **tavrı** yazılır ("Cengo'nun hoşuna gider" / "Cengo'yu ilgilendirmez" / "Cengo'nun hoşuna gitmez"); oyuncu yönü bilir, sayıyı bilmez.
+11. **Cengo bağının değeri görünmez.** Sayı, çubuk, alev ya da söz olarak ekranda yer almaz. *(8 Ekim 2026'daki istisna — karar ekranında "Cengo'nun hoşuna gider / gitmez" — 16 Kasım 2026'da sahibinin kararıyla kalktı: karar artık sahnede, seçeneklerin altında hiçbir şey yazmaz; kural 22a.)*
 12a. **Bağ kapanışta görünür.** Her vakanın kapanış sahnesinde 2–3 replik bağa göre iki hâlde yazılır: düşükse soğuk, yüksekse sıcak. **Eşik:** bağ +1 ve üstü sıcak, 0 ve altı soğuk (kapanış anındaki bağ; kararın etkisi dahil).
 12. **Sıcaklık onay değildir.** Bağ yükseldikçe kirli bir karar Cengo'yu daha çok kırar.
 13. **Dördüncü duvar:** seyrek, ilk vakalarda yok; sonra vaka başına en çok bir kez, yalnız Cengo.
@@ -39,6 +39,7 @@ girişe gitti: satır sınırına sığdırmak için sıkıştırılan cümleler
 17. **Suç olur, vahşet olmaz.** Ölüm sahnelenmez, vakanın merkezinde yas durmaz.
 18. **Hakaretin yönü yukarıdır.** Zayıf, yoksul, hasta biri şakanın hedefi olmaz.
 19. **Mavi Ay'dan yalnız yapı alınır.** Adlar, replikler, sahneler, bölüm kurguları alınmaz.
+19a. **Sigara yok** (ortağın isteği, sahibinin onayı, 16 Kasım 2026; bütün seri). Hiçbir yerde sigara içilmez ve sigarayla ilgili hiçbir konu geçmez: replik, sahne notu, ipucu, olgu, ifade/poz adı, kare tarifi, istem. Sigara içen ya da kadrajında sigara, izmarit, kül tablası, çakmak, puro, pipo, nargile bulunan resim yapılmaz (5. parça A). Bir karakterin "dışarıda bekleme", "mola" anı sigarasız kurulur (V7: Nesrin ile Cengo basamakta oturup kedilere bakar).
 
 ## D. Bilgi (sızıntı kuralı)
 
@@ -46,27 +47,26 @@ girişe gitti: satır sınırına sığdırmak için sıkıştırılan cümleler
 21. **Oyun cevabı söylemez.** Hiçbir ekran "suçlu X" demez; bunu oyuncu "Kim yaptı?"da söyler.
 21a. **Defter yalnız ara bulgu yazar.** Olgular birleşince deftere yazılan cümle ("Tekne sette") suçluyu asla söylemez.
 21c. **Hiçbir ipucu suçluyu tek başına göstermez** (sahibinin görselsiz testi, 8 Ekim 2026). Adı, ona özgü bir eşya ya da itiraf tek ipucunda verilmez; her ipucunun bilgisi en az iki şüpheliye uyar ya da masum bir açıklaması vardır. Suçlu, en az iki ipucunun birleşmesiyle bulunur (K19 denetler: hiçbir doğru kanıt çifti tek ipucundan çıkmaz).
-21d. **Anı özeti yalnız herkesin duyduğunu yazar** (sahibinin isteği, 17 Ekim 2026). Anı defterinde her biten vakanın üstünde 2–3 cümlelik hatırlatma durur (müşteri ve kayıp, kim almıştı, neden). Yalnız her yolda oynayan itiraf sahnesinin söylediği girer: bir ipucunda kalmış ayrıntı ya da karara göre değişen sonuç girmez. Kimi suçladığın, kararın ve kasaya giren oyunun kendi kaydından yazılır.
+21d. **Anı özeti yalnız herkesin duyduğunu yazar** (sahibinin isteği, 17 Ekim 2026). Anı defterinde her biten vakanın üstünde 2–3 cümlelik hatırlatma durur (müşteri ve kayıp, kim almıştı, neden). Yalnız her yolda oynayan itiraf sahnesinin söylediği girer: bir ipucunda kalmış ayrıntı ya da karara göre değişen sonuç girmez. Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, kural 24).
 21b. **Kilit açarak bulunan kanıt** (Cengo'nun teli) "Kim yaptı?"da geçerlidir; mahkemede geçmemesi yalnız espri olarak kullanılır.
 
 ## E. Karar
 
 22. **Oyun not vermez.** Karar metni: eylem → sonuç → bedel. "Doğru olanı yaptın" gibi hüküm cümlesi yok.
-22a. **Oyuncu seçmeden önce sonucu bilir** (sahibinin kararı, 8 Ekim 2026). Karar ekranında her seçeneğin altında üç şey yazar: tek cümlelik kısa sonuç, kasaya girecek toplam para (ücret + karar parası) ve Cengo'nun tavrı (kural 11). Ücret kesildiyse sebebi ekranın üstünde yazılır; kararın kendi parası kısa sonucun içinde söylenir. Her rakamın nereden geldiği görünür. Ayrıntı ve bedel seçimden sonra, sonuç ekranında anlatılır.
+22a. **Karar sahnenin içindedir** (sahibinin kararı, 16 Kasım 2026; 8 Ekim'deki "oyuncu seçmeden önce sonucu bilir" kuralının yerine). İtiraftan sonra konuşma ekranı kesilmez; ayrı karar ekranı, "Dosya çözüldü" sayfası, sonuç sayfası yoktur. Kararı **sahnedeki biri sorar** (V6: Müzeyyen bankta "Şimdi ne olacak, kızım?"); soran ve dinleyen ekrandadır (5. parça SR-A). Seçenekler **Peri'nin ağzından kısa cümlelerdir**, konuşma kutusundaki seçimle gelir ("Peri ne yapsın?"). Seçeneğin altında hiçbir şey yazmaz: **sonuç önizlemesi, rakam, Cengo'nun tavrı yok.** Seçenek cümlesi ne yapılacağını açıkça söyler (kural 5); sonucu söylemez. Taslak: `sablon/taslak_karar/vaka6_akis.jpg`.
+22b. **Sonuç sahnede gösterilir.** Seçimden sonra SONUÇ anlatı satırlarına bölünür, karar karesinin (5. parça SR-K) üstünde akar; bedel de orada görünür (eylem → sonuç → bedel, kural 22). Cengo'nun karar satırı (bağ etkisi, kural 23) kendi ağzından, kendisi ekrandayken söylenir (V6: büroda).
+22c. **Cengo söylenmeyen doğru kanıtı söyler** (sahibinin kararı, 16 Kasım 2026). Kapanıştan önce, büroda, Cengo yalnız oyuncunun **elinde olup** suçlamada kullanmadığı doğru kanıtı anar (bugünkü "Elindeydi"; seçimi `cozumYolu()` yapar). **Açılmamış ipucunun bilgisi asla anılmaz** (kural 20; reklamlı "kaçan ipucu" da bunun için korunur). Doğru kişi + sağlam kanıtta Cengo bu konuyu açmaz. Yanlış kişi suçlandıysa da aynı kural: elindeki doğru kanıt. Yazar her doğru kanıt için bir Cengo satırı yazar. Örnek (V6, zayıf): "Torbayı o gün iki kişi tuttu, Peri. Sofradaki tarihle onu söyleseydin kadın 'kanıtınız ne?' diyemezdi."
+22d. **Dosya kapandı kartı.** Vakanın sonunda, kapanış sahnesinden önce tek bir kart: sonuç başlığı (sağlam / zayıf / yanlış), oyuncunun kanıtları ✓/✗, "Elindeydi", yanlışsa suçlananın neden masum olduğu (`## cozum` MASUM satırı), Peri'nin anı cümlesi, "Devam" ve "Arkadaşına öner". Rakam yok.
 23. **Cengo'nun tepkisi ahlaka değil duruma göredir.** Dört kararın Cengo satırları yan yana okununca "doğru cevap" çıkmamalı.
 
 ## F. Para
 
-*(Sahibinin kararı, 8 Ekim 2026: para iyi hissettirmeli, hesap yaptırmamalı.)*
+*(Sahibinin kararı, 16 Kasım 2026: kasanın bir anlamı yoktu — yalnız birikiyor, hiçbir şeye bağlanmıyordu. Kasa tamamen kalktı. 8 Ekim'deki kasa düzeni — ücret + karar parası = kasaya giren — geçmişte kaldı.)*
 
-24. **Para yalnız birikir.** Gider, kira, borç, taksit, faiz yok. Kasa hiç eksiye düşmez.
-25. **İki ayrı para:**
-    - **Ücret:** Kim yaptı? sonucuna göre (tam / küçük kesinti / büyük kesinti).
-    - **Karar parası:** ücretin üstüne eklenen ya da düşülen tutar (çoğu karar 0).
-    - Kasaya giren = ücret + karar parası.
-    - **Ücret peşin alınmaz:** girişte konuşulur, vaka sonunda ödenir.
-26. **Kirli seçenek biraz daha çok kazandırır** (cazibe). Dürüst seçenek de kazandırır; fark küçüktür.
-27. **Biriken paranın amacı:** Vaka 7'de Peri'nin tacını geri almak.
+24. **Para yalnız hikâyededir.** Ekranda kasa, ücret, karar parası, hesap kutusu, "Kasaya …" yok; oyunun saydığı bir para yok. Para sahnede yaşar: kim kime ne veriyor, kim neyi kesiyor, kim borç topluyor. **Her kararın parası kendi sahnesinde görünür ve orada biter** (ör. V6: Haldun ücretten keser — "Bir hafta bekledim, şimdi bir yıl bekleyeceğim"; Müzeyyen zarfı uzatır). Kaybetme yok: para hiçbir yolu kapatmaz.
+25. **Ücret hikâyenin parçasıdır.** Girişte konuşulabilir (tutar fiyat tablosundan, kural 27c); sonda ödenip ödenmediği ya da kesildiği sahnede söylenir. Zayıf ya da yanlış suçlamanın bedeli artık ücret kesintisi değildir: sahnede duyulur (yüzleşme) ve Cengo söylenmeyen doğru kanıtı söyler (kural 22c).
+26. **Kirli seçenek Peri'nin bir derdine çare olur** (cazibe; rakamla değil hikâyeyle). Peri'nin parasızlığı (haciz, taç, faturalar) hikâyede ara ara hatırlatılır ki "parasını al" gibi bir seçenek rakamsız da çekici görünsün. Dürüst seçeneğin de bir karşılığı vardır; "doğru cevap" çıkmaz (kural 23).
+27. **Taç her yolda Vaka 7'de alınır** (sahibinin kararı, 15–16 Kasım 2026). Karar yalnız **nasıl** alındığını ve bedelini değiştirir (kimin parasıyla, kime borçlu kalarak). Taç Vaka 8'e ve sonrasına taşınmaz; nasıl alındığı sonraki vakalarda anılmaz. Kasa olmadığı için taç bir hesaptan düşmez.
 27b. **Her tutar gerçek hayata uygundur:** o yılın İstanbul fiyatları. Vaka ücreti, kararların getirdiği para ve metinde geçen her tutar (kira, balık, kiralama, rüşvet…) buna uyar.
 27c. **Her vakanın fiyat tablosu vardır:** metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır. Tabloda olmayan tutar metne giremez (denetimde kontrol edilir).
 
@@ -76,7 +76,7 @@ girişe gitti: satır sınırına sığdırmak için sıkıştırılan cümleler
 
 ## H. Vakalar arası
 
-28. Vakalar arasında yalnız para, Cengo bağı ve sabit sezon hikâyesi taşınır. Tohum yok (1. parça).
+28. Vakalar arasında yalnız Cengo bağı ve sabit sezon hikâyesi taşınır (para kalktı, kural 24). Tohum yok (1. parça).
 
 ---
 

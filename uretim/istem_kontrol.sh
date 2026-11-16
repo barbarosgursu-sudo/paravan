@@ -24,6 +24,8 @@ for f in "$@"; do
   has 'Görselin oranı TAM'            || eksik+=("oran satırı yok")
   n_ref=$(grep -c . <<<"$refs"); [ "$n_ref" -le 5 ] || eksik+=("referans 5'ten fazla (D-2)")
   grep -qiE 'peri_beden|L1_peri|L14_|L9_|L19_|L25_|poz_peri_|peri_kirmizi' <<<"$refs" && eksik+=("dekolteli Peri referansı (BIRIKIM §4, §7)")
+  # Sigara yok (16 Kasım 2026, kural 19a): istem sigarayı hiç anmaz — "sigara yok" demek bile üreticiye onu hatırlatır.
+  grep -qiE 'sigara|izmarit|kül tablası|tütün|puro|pipo|nargile|çakmak|cigar|smok' <<<"$istem" && eksik+=("istemde sigara/tütün sözü var (kural 19a)")
 
   case "$tur" in
     figür)

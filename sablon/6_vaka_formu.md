@@ -90,15 +90,20 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 
 ## 10. Kim yaptı? ve yüzleşme
 
-| sonuç | alınan ücret | yüzleşme sahnesi (özet, 4–6 replik) |
-|---|---|---|
-| Doğru kişi, doğru kanıt | tam | |
-| Doğru kişi, zayıf kanıt | | |
-| Yanlış kişi (şüpheli 2) | | |
-| Yanlış kişi (şüpheli 3) | | |
+| sonuç | yüzleşme sahnesi (özet, 4–6 replik) |
+|---|---|
+| Doğru kişi, doğru kanıt | |
+| Doğru kişi, zayıf kanıt | |
+| Yanlış kişi (şüpheli 2) | |
+| Yanlış kişi (şüpheli 3) | |
 
-- **Dosya çözüldü:** suçluyu kanıtlayan yollar (sade dille) ve her yanlış şüphelinin neden masum olduğu.
-- **Kesinti açıklaması:** ücret kesilirse karar ekranında çıkan cümle (zayıf / yanlış), müşterinin ağzından sebebiyle.
+- **Dosya kapandı kartı** (kural 22d): suçluyu kanıtlayan yollar (sade dille) ve her yanlış şüphelinin neden masum olduğu.
+- **Cengo'nun söylenmeyen kanıt satırları** (kural 22c, 16 Kasım 2026): suçluyu kanıtlayan **her doğru kanıt için bir**
+  Cengo satırı (büroda, kapanıştan önce). Oyuncu o kanıtı elinde tutup kullanmadıysa çıkar. Kanıtın kendi bilgisinden
+  fazlasını söylemez. (Eski "kesinti açıklaması" kalktı — kasa yok.)
+
+| doğru kanıt (olgu) | Cengo satırı |
+|---|---|
 
 ## 11. Kovalamaca
 
@@ -125,10 +130,15 @@ Muammer'in olayı bilmediğini varsayıyordu, oysa kovalamacada itirafı duymuş
 |---|---|---|
 
 
-| karar | kısa sonuç (karar ekranında, tek cümle) | eylem → sonuç → bedel | karar parası (ücrete ek) | bağ | Cengo satırı | anı defteri | ara kare |
-|---|---|---|---|---|---|---|
+**Kararı kim soruyor** (kural 22a, 16 Kasım 2026): itiraftan sonra sahnede kalan biri; replik ve ekranda kim var.
 
-- En az bir dürüst karar. Kirli karar biraz daha çok kazandırır.
+- **Soran ve repliği:**
+
+| karar | Peri'nin seçenek cümlesi (kısa, ne yapacağını söyler) | sonuç sahnesi: eylem → sonuç → bedel (anlatı satırları) | para sahnede (kim kime ne verdi/kesti; yoksa —) | bağ | Cengo satırı (büroda, kendi ağzından) | anı defteri | ara kare |
+|---|---|---|---|---|---|---|---|
+
+- En az bir dürüst karar. Kirli karar Peri'nin bir derdine çare olur (kural 26; rakamla değil hikâyeyle).
+- Seçenek altında hiçbir şey yazmaz: önizleme, rakam, Cengo tavrı yok (kural 22a).
 - Cengo satırları yan yana okununca "doğru cevap" çıkmaz.
 - **Anı özeti** (bütün kararlarda aynı, anı defterinde Peri'nin notunun üstünde; kural 21d): 2–3 cümle —
   müşteri ve kayıp, kim almıştı, neden. Yalnız her yolda oynayan itirafın (kovalamaca) söylediği;
@@ -196,7 +206,9 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] "Kim neyi biliyor" listesi yazıldı; kararlar, Cengo satırları ve kapanış ona uyuyor (B)
 - [ ] Her tutar fiyat tablosunda
 - [ ] En az bir dürüst karar var
-- [ ] Her kararın kısa sonucu var; ücret kesintilerinin açıklaması var (kural 22a)
+- [ ] Kararı sahnedeki biri soruyor; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b)
+- [ ] Her doğru kanıt için Cengo'nun satırı var; yalnız o kanıtın bilgisini söylüyor (kural 22c)
+- [ ] Sigara yok (kural 19a)
 - [ ] Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor (kural 21d)
 - [ ] Yeni kanon varsa onaylandı
 - [ ] Künye kartları yazıldı, denetim aracından geçti

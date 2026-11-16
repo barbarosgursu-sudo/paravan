@@ -33,7 +33,10 @@
 > 7. **Kalkan ekranlar:** "Dosya çözüldü" sayfası, karar menüsü, sonuç sayfası.
 >
 > **Uygulama sırası (her adım ayrıca sahibinin "yap"ıyla):**
-> - **Kurallar (Barbaros):** kural 22a, F bölümü (24–27c), 26 yeniden yazılır ("para yalnız hikâyede"; "kirli seçenek Peri'nin bir
+> - ✅ **Kurallar YAZILDI (16 Kas):** 2. parça 11, 21d, 22a–d (yeni), F bölümü 24–27 (yeniden), 28, 19a (sigara); 1. parça Kim yaptı?/Karar/
+>   Defter/Vakalar arası; 3. parça taç; 4. parçaya "değişecek" notu; 5. parça A (sigara), SR-K, E.13; 6. parça form (karar tablosu,
+>   Cengo kanıt satırları); 7. parça denetim. **Kod henüz eski düzende** (kasa, karar ekranı) — kod adımı ayrı "yap" bekliyor.
+> - ~~**Kurallar (Barbaros):**~~ kural 22a, F bölümü (24–27c), 26 yeniden yazılır ("para yalnız hikâyede"; "kirli seçenek Peri'nin bir
 >   derdine çare olur"); 1. parça "Karar" ve 5. parça satır–resim kurallarına karar sahnesi eklenir; `sablon/vakalar` form şablonu.
 > - **Oğuz Bey (metin):** her vaka için kararı soran kişi + repliği, Peri'nin seçenek cümleleri, SONUÇ'un sahne satırları, Cengo'nun
 >   "Elindeydi" satırı (her doğru kanıt için bir), rakam geçen karar metinlerinin sahneye çevrilmesi.
@@ -42,6 +45,8 @@
 >   etkilenmez.
 > - **Sıra:** önce **Vaka 6** (resimleri tam) → tutarsa V7, V8 bu düzenle → V1–V5 yeniden geçirilir.
 
+> ✅ **Barbaros onayladı (16 Kas): kural 19a yazıldı** (2. parça; 5. parça A ve E.13; `uretim/CLAUDE.md`; `istem_kontrol.sh` istemde
+> sigara/tütün sözünü yakalar). Doğrulayıcıya metin taraması henüz yok (kod adımında eklenebilir).
 > **Ortaktan not (16 Kasım 2026, Barbaros'a) — YENİ KURAL İSTEĞİ: SİGARA YOK.**
 > Ortağın kararı: bu seride **hiçbir yerde sigara içilmez**; sigarayla ilgili hiçbir konu geçmez (metin, sahne notu, ifade/poz adı,
 > kare tarifi) ve **sigara içen resim yapılmaz**. Ortak bunun **kural hâline getirilmesini** istiyor (kural kitabı + görsel sistemi;

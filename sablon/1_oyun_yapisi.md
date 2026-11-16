@@ -28,11 +28,11 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) **vaka değildir**, vaka 
    - kim kimdir; her şüpheli neden şüpheli (sebep açıkça söylenir);
    - karakterler birbirini nereden tanıyor, neyi nereden biliyor (kimse "nereden biliyor?" dedirtmez);
    - tehdit, kayıp, istek gibi olayın özü cümlede açıkça yazılır, çıkarıma bırakılmaz;
-   - ücret ve ilk gidilecek yer.
+   - ücret (hikâye içinde, kural 25) ve ilk gidilecek yer.
    Uzun replik bölünür (kural 5: ~110 harf); bölmek için satır eksiltilmez.
 3. **İçinde bulunması gerekenler:**
    - Müşteri kim, ne kaybetmiş, ne istiyor.
-   - Ücret konuşulur (tutar fiyat tablosundan); peşin ödenmez, sonda ödenir (kural 25).
+   - Ücret konuşulabilir (tutar fiyat tablosundan); ekranda rakam olarak tutulmaz (kural 24–25).
    - Şüphelilerden en az biri adıyla anılır; oyuncunun aklına ilk şüphe düşer.
    - Peri'nin vakadaki kıyafeti ilk kez görünür (kural 15a); çekicilik anı burada olur.
    - Peri ile Cengo arasında bir espri ya da atışma olur.
@@ -84,12 +84,12 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
 | seçim | sonuç |
 |---|---|
 | Doğru kişi, doğru kanıt | Suç kanıtlanır. |
-| Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz. Ücretin küçük bir kısmı alınamaz. |
-| Yanlış kişi | Masum biri suçlanır. Ücretin büyük bir kısmı alınamaz. Gerçek yine ortaya çıkar. |
+| Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz (yüzleşmede duyulur). Sonda Cengo elindeki doğru kanıtı söyler (kural 22c). |
+| Yanlış kişi | Masum biri suçlanır. Gerçek yine ortaya çıkar. Sonda Cengo elindeki doğru kanıtı söyler (kural 22c). |
 
 - **Ekranda ne görünür:** yalnız oyuncunun **şüphelenmek için sebebi olan** kişiler (biri onu suçladı, ipucunda karşılaştı ya da onu işaret eden bir olguyu biliyor; adının geçmesi yetmez) ve elindeki olgular. Suçlu, hakkını bitiren her oyuncunun ekranında görünür; erken suçlayan göremeyebilir. *(Sahibinin görselsiz testi, 9 Ekim 2026.)*
 - Bir kişi bir olgu yüzünden görünür hâle geliyorsa, o olgunun geldiği sahnede bağ **söylenir** ("Evde kim var?" "Bir oğlu var."), oyuncuya bırakılmaz.
-- **"Dosya çözüldü" ekranı:** kovalamacadan sonra, karardan önce. Sonuç (sağlam / zayıf / yanlış), oyuncunun kanıtları, yanlışsa suçlananın neden masum olduğu ve suçluyu kanıtlayan bütün yollar sade dille yazılır. Gerçek zaten ortaya çıktığı için sızıntı değildir.
+- **"Dosya kapandı" kartı** (16 Kasım 2026; eski "Dosya çözüldü" ekranının yerine): vakanın sonunda, kapanış sahnesinden önce. Sonuç (sağlam / zayıf / yanlış), oyuncunun kanıtları ✓/✗, "Elindeydi", yanlışsa suçlananın neden masum olduğu ve Peri'nin anı cümlesi (kural 22d). Yalnız oyuncunun elindeki kanıt anılır (20 Ekim kuralı).
 - **Tek hak:** oyuncu bir kez suçlar.
 - **Yüzleşme sahneleri:** her vaka 4 kısa sahne yazar (4–6 replik):
   - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.
@@ -98,7 +98,7 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
   - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
 - **Panik ve kaçışın somut sebebi olur** (sahibinin kararı, 17 Ekim 2026). Suçlu "Bir his", "Neredeydin?" gibi zayıf bir sözle kaçmaz. Kaçışı bir tetikleyici başlatır: ya kanıt yalanını çürütür (doğru kanıt), ya da **sakladığı şey tehlikeye girer** (biri, farkında olmadan, onun sakladığı yeri arayacağını söyler). Oyuncu kovalamacada "ha, bu yüzden kaçtı" diyebilmeli. Vaka 3: Nadide "Yarın eksper dükkânı arayacak, depodaki un çuvallarına kadar" der; para o çuvaldadır, Ferruh depoya koşar.
 - **Yüzleşmenin yeri:** dört sahne de kovalamacanın başladığı yerde geçer. Şüpheli orada değilse yüzleşme telefonla ya da onu oraya getiren bir sebeple yapılır.
-- **Bedel yalnız paradır:** daha az kazanılır. Kasa yine de eksiye düşmez. Kesintinin sebebi karar ekranının üstünde, müşterinin ağzından yazılır ("Masum birini suçladın; Rıza Reis 15.000 ₺ kesti").
+- **Bedel sahnededir** (16 Kasım 2026; kasa kalktı): zayıf ya da yanlış suçlama yüzleşmede duyulur, sonda Cengo elindeki doğru kanıtı söyler (kural 22c). Ücret kesintisi ekranda rakam olarak yok; müşteri isterse sahnede söyler.
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
 - **Oyun hiçbir durumda bitmez.**
@@ -107,14 +107,14 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
 
 - 4 seçenek vardır. Doğru ya da yanlış cevap yoktur.
 - **Kapı yok:** dört karar her zaman açıktır. Gerçek yüzleşmede ortaya çıktığı için hepsi seçilebilir. Araştırmanın karşılığı Kim yaptı? ekranındadır.
-- **Oyuncu seçmeden önce bilir** (kural 22a): her seçeneğin altında tek cümlelik kısa sonuç, kasaya girecek toplam para ve Cengo'nun tavrı ("hoşuna gider / ilgilendirmez / hoşuna gitmez"; sayı yok, kural 11).
-- Seçimden sonra: eylem → sonuç → bedel.
+- **Karar sahnenin içinde** (kural 22a, 16 Kasım 2026): itiraftan sonra sahnedeki biri sorar, Peri'nin ağzından kısa seçenekler gelir. Önizleme, rakam, Cengo tavrı yok.
+- Seçimden sonra sonuç sahnede: eylem → sonuç → bedel (kural 22b). Ardından Cengo'nun söylenmeyen doğru kanıtı (22c), "Dosya kapandı" kartı (22d), kapanış sahnesi.
 - Oyun oyuncuya not vermez.
 
 ## Defter
 
 - **Zincir:** yalnız **içinde bulunulan** vakanın olguları ve çıkarımları (açık vaka yoksa son biten vaka). Önceki vakalar burada görünmez — künyedeki kuralın aynısı: geçmiş vakalar geçmişte kaldı. *(Sahibinin isteği, 17 Ekim 2026.)*
-- **Anı:** biten her vaka için bir kayıt, sırayla: **anı özeti** (2–3 cümle, kural 21d) → oyuncunun izi (kimi suçladı · sonucu, kararı, kasaya giren) → Peri'nin karara göre notu. Anı, vakalar arası tek geriye bakış yeridir.
+- **Anı:** biten her vaka için bir kayıt, sırayla: **anı özeti** (2–3 cümle, kural 21d) → oyuncunun izi (kimi suçladı · sonucu, kararı) → Peri'nin karara göre notu. Anı, vakalar arası tek geriye bakış yeridir.
 
 ## İki vaka tipi
 
@@ -125,14 +125,14 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
 
 Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır:
 
-- **Para (kasa)** ve **Cengo bağı:** sistemler, vakadan vakaya sürer.
+- **Cengo bağı:** sistem, vakadan vakaya sürer. (Para/kasa 16 Kasım 2026'da kalktı; para yalnız hikâyede, kural 24.)
 - **Sabit sezon hikâyesi:** Peri'nin geçmişi (dolandırıcı avukat, haczedilen taç). Her oyuncu için aynıdır; oyuncunun kararı değiştirmez.
 
 **Tohum yok:** bir vakadaki karar başka bir vakanın metnini, kişilerini ya da olaylarını değiştirmez. (Vaka 1'in tohumları silindi; doğrulayıcı K19 tohumu hata sayar.)
 
 ## Değişmez ilkeler
 
-- **Kaybetme yok.** Kasa hiç eksiye düşmez; gider ve borç yok.
+- **Kaybetme yok.** Hiçbir sonuç bir yolu kapatmaz; kasa yok, para yalnız hikâyede (kural 24).
 - **Her durumda en az bir dürüst seçenek açıktır.**
 - **Her vakada bir "aha!" anı vardır:** oyuncuyu yanıltan bir iz ve onu çözen bir kanıt.
 

@@ -39,7 +39,7 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | nesne | bilinen |
 |---|---|
 | **Kırmızı manto** | Peri'nin evden çıkardığı tek giysi. |
-| **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; Peri onu **kasada biriken parayla** geri alabilir. 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*. |
+| **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (kural 27; 16 Kasım 2026'da kasa kalktı, "kasada biriken parayla" geçersiz). 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*. |
 | **Pırlanta kolye** | Peri hacizden ince bir pırlanta kolyeyi kurtarmıştı (giysi değil; manto "tek giysi" kalır) *(Vaka 7, 15 Kasım 2026)*. |
 | **Büro anahtarı** | Peri'nin anahtarı kapıyı açmaz. |
 | **Tel** | Cengo'nun göğüs cebinde hep bir tel vardır. Kilit açar. |
@@ -76,7 +76,7 @@ Her oyuncu için aynıdır; kararlar değiştirmez.
 
 ## Sahibine sorular
 
-1. ✓ *Karar: a (kasaya bağlı).* **Taç ve para.** Vaka 7'de taç müzayedede. Peri onu kasadaki parayla mı alır (oyuncunun biriktirdiğine bağlı), yoksa sonuç sabit mi?
+1. ✓ *Karar: a (kasaya bağlı) — 16 Kasım 2026'da geçersiz: kasa kalktı, taç her yolda alınır (2. parça kural 27).* **Taç ve para.** Vaka 7'de taç müzayedede. Peri onu kasadaki parayla mı alır (oyuncunun biriktirdiğine bağlı), yoksa sonuç sabit mi?
    - a) Kasaya bağlı: oyuncu sezon boyu para biriktirmenin anlamını görür. *(önerim; para zaten vakalar arası taşınıyor)*
    - b) Sabit: her oyuncu için aynı.
 2. ✓ *Karar: borç yok, ev sahibi yalnız komedi.* **Ev sahibi borcu.** Sezon belgesine göre Vaka 2'den itibaren ay sonu giderine taksit eklenir (15.000 ₺). Kalsın mı? *(önerim: kalsın; para baskısını sezon boyu canlı tutar)*

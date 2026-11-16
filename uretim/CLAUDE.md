@@ -43,6 +43,10 @@ kapıdan içeri bakar ve kapı duvarını göstermez; kapının açık göründ�
 (büro + koridor yan yana) ve ardındaki koridor istemde sözle de yazılır. Gelen kişi (eşikte, içeri giriyor): kamera büronun İÇİNDE,
 kapıya bakar; kişi eşikte, arkasında koridor.
 
+**Sigara yok (Barbaros, 16 Kasım 2026; kural 19a, bütün seri):** hiçbir resimde sigara içilmez; kadrajda sigara, izmarit, kül tablası,
+çakmak, puro, pipo, nargile, duman olmaz. İstem bunları hiç anmaz ("sigara yok" bile yazılmaz); `istem_kontrol.sh` yakalar. Denetimde
+(5. parça E.13) yakın bakışla aranır.
+
 ---
 
 ## Komut: `istemleri hazırla <N>`
