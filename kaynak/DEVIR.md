@@ -8,7 +8,17 @@
 
 ---
 
-> ## 📌 OĞUZ BEY'E — SIRADAKİ İŞ (Barbaros, 16 Kasım 2026 akşam). SIRA ÖNEMLİ: önce Vaka 6, sonra Vaka 7.
+> ## ▶️ OĞUZ BEY — DEVAM ET: ADIM 2, VAKA 7 (Barbaros, 16 Kasım 2026 gece)
+>
+> **Vaka 6 TAMAM.** Adım 1'in metni (Oğuz Bey) ve kod düzeltmesi (Barbaros onayı, etiket yöntemi) birleşti: doğrulayıcı (iki oyun)
+> PASS, iki derleme (eski `index.html` birebir aynı), testler, **`arac_kapi.js V6 resim` GEÇTİ**, `arac_sizinti_tur.js V6 40` temiz
+> (`826c9e6`). Sızıntı okumasını sahibi gerekli görmedi (satırlar defalarca denendi). İki onayın ayrıntısı hemen aşağıda.
+>
+> **Şimdi sıradaki: aşağıdaki "ADIM 2 — Vaka 7" listesi** (madde 1–4 ve 5–6). Vaka 7'de Cengo'nun 4 karar satırını ve 4 kanıt satırını
+> **etiketli** yaz: `**CENGO [ifade]:** … {yuz: peri.x}` ve `## cengo_kanit` altında `**olgu [ifade]:** … {yuz: peri.x}` (örnek:
+> `vaka6_diyalog.md`). İfadeyi V7 kapanışının Cengo/Peri setinde **resmi olan** ifadelerden seç; olmayan ifade kapıda durur
+> (V6'da `cengo.buruk.yumusak` böyle durdu). Madde 5 (tacın parası) ve 6 (kasa şakası) hâlâ senin kararın.
+> Başlamadan önce kendi bilgisayarında: `pip install onnxruntime` (Barbaros onayladı).
 >
 > ✅ **ADIM 1 METNİ YAZILDI (16 Kasım 2026, Oğuz Bey):** Cengo'nun 4 karar satırı replik oldu (kasa sözü yok), 3 kanıt satırı
 > (`tarih_sofra`, `kalip_kagit`, `jale_siparis`) eklendi; "Parasını al" defteri "Müzeyyen'in zarfını aldım" oldu. Doğrulayıcı PASS,
@@ -35,7 +45,7 @@
 > 2. **Oğuz Bey'in bilgisayarına `onnxruntime` yükleyelim mi?** El denetimi aracı (`arac_el.py`) için gerekli; yüklü olmadığı için
 >    kapıda K5 bulgusu çıkıyor (`ModuleNotFoundError: No module named 'onnxruntime'`). Yükleme: `pip install onnxruntime`.
 >
-> **ADIM 1 — Vaka 6'da kalan 7 replik** (ayrıntı aşağıda, "Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6" bölümü, madde 4–5).
+> ✅ ~~**ADIM 1 — Vaka 6'da kalan 7 replik**~~ (BİTTİ, 16 Kasım 2026; ayrıntı aşağıda, "Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6" bölümü, madde 4–5).
 > Hepsi `sablon/vakalar/vaka6_diyalog.md`'de:
 > - **Cengo'nun 4 karar satırı** (her `## karar …` altındaki `**CENGO:**`): anlatı biçiminden ("Cengo … dedi") çıkıp **büroda, Cengo'nun
 >   kendi ağzından replik** olur. **Kasa sözü geçmez** ("Parasını al": *"Kasaya koy, ben görmeyeyim"* değişmeli); kesinti de yok.

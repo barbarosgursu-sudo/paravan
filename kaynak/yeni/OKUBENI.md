@@ -36,8 +36,9 @@ node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | duk
 Akış (şablon, `sablon/1_oyun_yapisi.md`): açılış sahneleri → masa → giriş + konuşma
 sahnesi → araştırma (ipucu açılınca sahnesi oynar, ardından "Deftere düştü" kartı) →
 **Kim yaptı?** (şüpheli + iki kanıt, tek hak) → **yüzleşme** (sonuca göre dört sahneden
-biri) → **kovalamaca** → karar ekranı (dört karar her zaman açık) → sonuç (kararın
-karesi, Cengo satırı, anı defteri, ücret + karar parası) → kapanış sahnesi (bağa göre
+biri) → **kovalamaca** → **karar sahnesi** (16 Kasım 2026'dan beri: sahnedeki biri sorar,
+"Peri ne yapsın?" seçimi; kasa yok) → **sonuç sahnesi** (karar karesinin üstünde) → **Cengo büroda**
+(karar repliği + söylenmeyen doğru kanıt, kural 22c) → **Dosya kapandı** kartı → kapanış sahnesi (bağa göre
 iki hâl) → masa.
 
 **Motor eki `kaynak/motor_yeni.js`** (`OyunYeni extends Oyun`): Kim yaptı?, sonda
@@ -119,7 +120,13 @@ Satırda isteğe bağlı sahne değişiklikleri:
 **Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`; vakanın anı özeti `ani_ozet.V1`.
 Anı sekmesindeki "Suçladığın" ve "Kasaya" satırları motorun `_suclama_<vaka>` tohumundan (`"şüpheli:sonuç"`) okunur; bu tohumdan önceki kayıtlarda o iki satır çıkmaz.
 
-**Karar:** `onizleme` = karar ekranındaki tek cümlelik kısa sonuç (kural 22a); `para` = **karar parası** (ücretin üstüne eklenen ya da düşülen; çoğu 0),
+**Karar (16 Kasım 2026):** `secenek` = Peri'nin seçim cümlesi (diyalogda `**SEÇENEK:**`); `cengo_sonuc` = Cengo'nun büroda satırı;
+`cengo_replik: { i, yuz }` varsa o satır **Cengo'nun repliği** olarak oynar (`k: "cengo", kime: "peri"`, `i` Cengo'nun ifadesi, `yuz`
+dinleyen Peri'nin yüzü) — diyalogda **etiketli** `**CENGO [ifade]:** metin {yuz: peri.x}` yazar. Etiketsiz `**CENGO:**` → `cengo_replik`
+yok → eski düzende anlatı satırı (V1–V5, V7 yeniden geçirilene dek). `kim_yapti.cengo_kanit: { olgu: metin }` ve
+`kim_yapti.cengo_kanit_replik: { olgu: { i, yuz } }` aynı biçimden gelir (`## cengo_kanit` → `**olgu [ifade]:** metin {yuz: peri.x}`);
+ifade kapanış setinde VAR olmalı (`gorseller.json`), yoksa kapı (K6, poz kaydı) durur.
+**Eski alanlar:** `onizleme` = eski karar ekranındaki tek cümlelik kısa sonuç (artık gösterilmez, isteğe bağlı); `para` = **karar parası** (hikâye rakamı; kasa yok),
 `gate: "yok"` (kapı yok), `seed_yaz` yok (tohum yok).
 
 **Vaka — Kim yaptı?:**

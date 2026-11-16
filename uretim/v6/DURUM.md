@@ -1,3 +1,8 @@
+**16 Kasım 2026, gece — YENİ KARAR DÜZENİ: VAKA 6 TAMAM.** Oğuz Bey'in 7 repliği (Cengo'nun 4 karar + 3 kanıt satırı) ve kod
+düzeltmesi (Barbaros onayı): Cengo'nun satırları etiketli (`**CENGO [ifade]:** … {yuz: peri.x}`), büroda Cengo'nun repliği olarak
+oynuyor. İfadeler: Cengo `buruk.normal` (yumusak kesilmemiş), Peri `tul.kas`/`tul.normal`. Doğrulayıcı, iki derleme, testler,
+`arac_kapi.js V6 resim` GEÇTİ, `arac_sizinti_tur.js V6 40` temiz. Yeni resim yok. Sıradaki: Vaka 7 (`kaynak/DEVIR.md` en üst).
+
 **15 Kasım 2026, ~12:30 — DONDUKTAN SONRA İKİ EL DÜZELTMESİ (sahibi buldu): G25, G80.** Gizem'in tepsi eli sol kolun ucunda SAĞ eldi.
 G25: Düzeltme 1 (4 parmak çıktı) → Düzeltme 2 (tepsi kenarından kavranıyor, başparmak üstte) onaylı. G80: Düzeltme 1–2 yine sağ el →
 Düzeltme 3 (sahibinin kararı: tepsi kameraya yakın SAĞ elde, telefon sol elde); telefonun kenarındaki fazla işaret parmağı rötuşla

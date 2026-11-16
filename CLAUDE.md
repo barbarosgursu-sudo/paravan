@@ -26,7 +26,8 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 > ### 🖼️ RESİM ÜRETİMİ: `uretim/CLAUDE.md` OKU (Codex + yerel Claude düzeni, 6 Kasım 2026)
 >
 > ### 🔁 KARAR ANI YENİLENDİ, KASA KALKTI (16 Kasım 2026): karar sahnede, Cengo söylenmeyen kanıtı söyler, "Dosya kapandı" kartı;
-> ### kurallar ve kod `main`'de. Vaka 6 gözden geçirildi; Oğuz Bey'in 7 repliği bekleniyor. Ayrıntı `kaynak/DEVIR.md` en üst.
+> ### kurallar ve kod `main`'de. **Vaka 6 yeni düzende TAMAM** (Cengo satırları etiketli replik: `**CENGO [ifade]:** … {yuz: peri.x}`);
+> ### sırada Oğuz Bey'in Vaka 7'si (adım 2). Ayrıntı `kaynak/DEVIR.md` en üst.
 >
 > ### ⬅️ YENİ OTURUM: ÖNCE `kaynak/DEVIR.md` OKU
 > Bu dosya kalıcı bilgidir (sözleşmeler, tuzaklar, komutlar). `DEVIR.md` ise **oturum

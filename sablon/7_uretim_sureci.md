@@ -188,6 +188,8 @@ Geçmeyen vaka bir sonraki adıma geçmez.
 - En az bir dürüst karar her yolda açık.
 - Kararı sahnedeki biri soruyor; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b). Önizleme ve rakam yok.
 - Her doğru kanıt için Cengo'nun söylenmeyen kanıt satırı var; açılmamış ipucunu anmıyor (kural 22c).
+- Cengo'nun karar ve kanıt satırları **etiketli**: `**CENGO [ifade]:** … {yuz: peri.x}` / `**olgu [ifade]:** … {yuz: peri.x}` —
+  ifade kapanış setinde var olan bir resim (`arac_kapi.js … resim` K2/K8/K6 bunu yakalar).
 - Anı özeti var: diyalogda `## ani` yoksa `arac_diyalog.js` yazmaz, `test_yeni_arayuz.js` de eksiği yakalar. İçeriği (yalnız itirafın söylediği, kural 21d) bulanık replik taramasında okunur.
 - Kasa yok; para yalnız hikâyede, her kararın parası kendi sahnesinde bitiyor (kural 24). Tohum yok.
 - Sigara yok: metinde, sahne notunda, ifade adında, istemde (kural 19a).
