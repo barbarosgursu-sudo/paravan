@@ -54,12 +54,14 @@
 | `e66c93b` | **Arşiv 2:** `kaynak/gorsel_stil_sozlesmesi.md` ve `kaynak/cengo_bag_mekanigi.md` `arsiv/kaynak/`'e. İçlerindeki iki işe yarar kural ham listede: **2123** (resim yanlış gösteremez — kanondaki yara/topallık/yaş yokmuş gibi çizilmez, gizlenecekse kadraj dışında; silinmez) ve **2204** (Cengo bağı küçük adımlarla, ±1/±2). Ham araç arşivdekini eski adıyla okur, kimlikler değişmedi (önce/sonra karşılaştırıldı: aynı). |
 | `6d25b2f` | **OKUBENI bölündü:** `kaynak/OKUBENI.md`'nin eski oyuna ait satır 142–1146'sı (açık uyarılar, kapatılan tuzaklar, sızıntı, ekonomi, eski vakalar) `arsiv/kaynak/OKUBENI_eski_oyun.md`'ye; ortak kısım kaldı (derleme, dosyalar, geliştirici modu, testler, doğrulayıcı kuralları, koşullu metin, kayıt, ses, Android). Ham liste önce/sonra karşılaştırıldı: **kaybolan 0**, yeni 2 (taşıma notları). Doğrulayıcı ve `test_yedek.js` geçti. |
 
+| (bu commit) | **Etiket önerisi, bütün ham liste** (sahibinin isteği, 16 Kasım gece: "belge belge değil, ham listeden satır satır"; emin olunmayan satır KURAL sayılır, sahibine yalnız kural olmayanlar gruplu gösterilir). `ETIKET_ONERI.tsv` (her `id` → KURAL / KAYIT / ESKİ OYUN + sebep), `ETIKET_KONTROL.md` (sahibinin okuyacağı gruplu liste). Sayım: 3.585 = 1.611 KURAL + 1.379 KAYIT + 595 ESKİ OYUN; atlanan yok. **Sahibinin onayı bekleniyor**; onaylanınca `ETIKET.tsv` olur. |
+
 **Ham listenin şu anki hâli: 3.585 kayıt, 36 dosya** (yukarıdaki son commit). Bu, iş bitince yapılacak yeniden çıkarmanın
 **karşılaştırma tabanıdır** (bkz. §6).
 
 ## 4. Plan — dört adım (sahibi planı gördü; "tam olarak ne" diye sordu, aşağıdaki gibi anlatıldı)
 
-**Adım 1 — Etiketleme (SIRADAKİ).** Ham listedeki her kayda bir etiket önerilir:
+**Adım 1 — Etiketleme (ÖNERİ HAZIR, SAHİBİNİN KONTROLÜNDE — §3 son satır).** Ham listedeki her kayda bir etiket önerilir:
 - **KURAL** — yapılması ya da yapılmaması gereken bir şey;
 - **ESKİ OYUN** — yalnız eski oyuna ait (asıl listeye girmez, kayıt için ham listede kalır);
 - **KAYIT** — geçmiş, açıklama, örnek, gerekçe; kural değil.
