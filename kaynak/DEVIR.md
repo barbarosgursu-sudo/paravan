@@ -17,6 +17,10 @@
 > `k: "not"` (anlatı) olarak basıyor; satır artık Cengo'nun repliği. Öneri: `k: "cengo", kime: "peri", yuz: "peri.normal"` (eski V1–V5
 > anlatı satırlarını bozmamak için ya vaka başına ya da `**CENGO [ifade]:** … {…}` etiketiyle). `cengoKanitSatirlari` satırlarına da
 > `yuz` eklenirse K8 kapanır. Bu iş bitince Vaka 6 tamam.
+> **❓ Oğuz Bey senden iki onay istiyor (16 Kasım 2026):**
+> 1. **Yukarıdaki kod düzeltmesine onay** verir misin? (Karar CENGO satırı Cengo'nun repliği olarak gösterilsin, kanıt satırlarına `yuz`.)
+> 2. **Oğuz Bey'in bilgisayarına `onnxruntime` yükleyelim mi?** El denetimi aracı (`arac_el.py`) için gerekli; yüklü olmadığı için
+>    kapıda K5 bulgusu çıkıyor (`ModuleNotFoundError: No module named 'onnxruntime'`). Yükleme: `pip install onnxruntime`.
 >
 > **ADIM 1 — Vaka 6'da kalan 7 replik** (ayrıntı aşağıda, "Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6" bölümü, madde 4–5).
 > Hepsi `sablon/vakalar/vaka6_diyalog.md`'de:
