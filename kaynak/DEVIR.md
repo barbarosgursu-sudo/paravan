@@ -8,6 +8,50 @@
 
 ---
 
+> ## 📌 OĞUZ BEY'E — SIRADAKİ İŞ (Barbaros, 16 Kasım 2026 akşam). SIRA ÖNEMLİ: önce Vaka 6, sonra Vaka 7.
+>
+> **ADIM 1 — Vaka 6'da kalan 7 replik** (ayrıntı aşağıda, "Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6" bölümü, madde 4–5).
+> Hepsi `sablon/vakalar/vaka6_diyalog.md`'de:
+> - **Cengo'nun 4 karar satırı** (her `## karar …` altındaki `**CENGO:**`): anlatı biçiminden ("Cengo … dedi") çıkıp **büroda, Cengo'nun
+>   kendi ağzından replik** olur. **Kasa sözü geçmez** ("Parasını al": *"Kasaya koy, ben görmeyeyim"* değişmeli); kesinti de yok.
+> - **Cengo'nun 3 kanıt satırı** (`## cengo_kanit`): `tarih_sofra` (Sofradaki tarih), `kalip_kagit` (Kalıp kâğıdı), `jale_siparis`
+>   (Siparişin günü). Satır **yalnız kendi kanıtını** anar, öbür kanıtı anmaz (kural 22c). Örnek: `prova_torba` satırı.
+> - Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6`, sonra `node arac_kapi.js V6 resim` (bugün
+>   8 bulgu veriyor, hepsi bu Cengo satırlarından: K2/K8 — yüz ve hitap yazılınca kapanır) ve `node arac_sizinti_tur.js V6 40`.
+>
+> **ADIM 2 — Vaka 7'yi Vaka 6'nın yeni düzenine getir** (`sablon/vakalar/vaka7_diyalog.md`; Claude'un 16 Kasım karşılaştırması). Vaka 6
+> örnek alınır: `## sahne karar_soru`, `**SEÇENEK:**`, `## cengo_kanit`. Kurallar: 2. parça 22a–d, 24–27.
+>
+> *Eksikler (yeni karar düzeni istiyor):*
+> 1. **Kararı soran kişi + repliği** (`## sahne karar_soru`, ⚙ satırında `secim_kare`). İtiraf çerçeve odasında; ekranda Nesrin, Peri,
+>    Cengo. Formdaki soru: "Süheyla'ya ne söylenecek, tablo ve taç ne olacak?" Öneri: Nesrin sorar (soran ekranda olmalı, SR-A).
+>    Seçim anı için bir kare gerekir (resim listesine ekle).
+> 2. **Peri'nin 4 seçenek cümlesi** (her kararın `**SEÇENEK:**` satırı; kısa, ne yapılacağını söyler, sonucu söylemez). Şu an
+>    seçim kutusunda yalnız karar adları çıkıyor (İhbar et / Sus / Sus payı / Tacı Cengo'ya bırak).
+> 3. **Cengo'nun 4 karar satırı, kendi ağzından, büroda.** Şu an anlatı biçiminde ve müzayede evine göre: "alkışlayan salona baktı",
+>    "**Büroda** veririm" — Cengo artık zaten büroda konuşuyor (kapanışın mekânı A59). `arac_kapi.js V7 hikaye` bugün bunlardan
+>    11 bulgu veriyor (K2/K8), satırlar replik olunca kapanır.
+> 4. **Cengo'nun 4 kanıt satırı** (`## cengo_kanit`, hiç yok): `kopya_eli` (Kopyayı yapacak eller), `onarim_nesrin` (Gizli onarım),
+>    `rapor_evde` (Raporun yazıldığı gün), `eski_tuval` (Feriköy'deki tuval). Her satır yalnız kendi kanıtını anar (kural 22c).
+>
+> *Kasa kalktığı için sorunlu:*
+> 5. **Tacın parası — senin cevabın gerekiyor (en önemlisi).** "Sus" yolunda Peri tacı açık artırmada kendisi alıyor, "kasa yetmezse
+>    diye" Cengo telefonla bekliyor. Kasa yok ve Peri hacizde her şeyini kaybetmiş (konuşma sahnesi) — ~200.000 ₺'lik taç hangi
+>    parayla? "Cengo'ya bırak"ta da "senin on binin" nereden? Claude'un önerisi: Peri'nin parası Süheyla'nın ödediği elli bin ücret,
+>    eksiği Cengo kapatır. Karar senin; para kendi sahnesinde görünür ve orada biter (kural 24), rakam fiyat tablosunda olmalı (27c).
+>
+> *Barbaros'ta (Oğuz Bey'in işi değil, bilgi için):*
+> 6. Konuşma sahnesindeki kasa şakası (*"Kasada ne var?" / "Senin sandığından az, benim sandığımdan çok."*) — kasa burada büronun
+>    para kutusu; kalsın mı değişsin mi, Barbaros karar verecek.
+> 7. Onarım ("yap" bekliyor): diyalog başındaki "Kasa rakamı hiçbir satırda söylenmez" notu; ekranda görünmeyen iki ÖNİZLEME'deki
+>    "kasadaki parayla", "kasadan 10.000 ₺"; kural kitabı 24'ün örneği ("Haldun ücretten keser" → "Haldun ücreti öder").
+>
+> *Uyanlar (dokunma):* taç her yolda V7'de alınıyor (27); kirli seçeneğin cazibesi hikâyede (prim, taç — 26); sigara yok (19a);
+> her satırda `ekran` var; `## ucret` yok, ücret kademeleri eşit; kısa kanıt adları ve anı özeti tamam.
+>
+> Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka7_diyalog.md V7`, `node arac_kapi.js V7 hikaye`,
+> `node arac_sizinti_tur.js V7 40`. **DEVIR'i güncelleyince bu bölümdeki biten maddeleri işaretle.**
+
 > ✅ **Ücret kesintisi kalktı (16 Kasım 2026, sahibinin kararı):** kasa yok, kesintinin anlamı kalmadı — **müşteri girişte söylediği
 > ücreti öder.** V6: "kendisi söylesin" SONUÇ → *Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."*; "Cengo'ya
 > bırak" SONUÇ'tan "Haldun ad duymadığı için beş bin kesti." silindi; iki ÖNİZLEME'den "₺ keser" çıktı. V6 ve V7'de `## ucret` bölümü
