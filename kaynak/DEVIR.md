@@ -8,6 +8,16 @@
 
 ---
 
+> **Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6: YAZILACAK 12 REPLİK.** Önce ikiniz Vaka 6'yı gözden geçirin
+> (eklenecek / çıkarılacak / rahatsız eden), sonra devam. Yeni karar düzeni (aşağıdaki not) için gereken replikler,
+> hepsi `sablon/vakalar/vaka6_diyalog.md`'de:
+> 1. **Müzeyyen — kararı soran cümle (1).** `## sahne karar_soru`. Şu an örnek: "Şimdi ne olacak, kızım? Haldun'a, Gamze'ye söyleyecek misin?"
+> 2. **Peri — dört seçenek cümlesi (4).** Her `## karar …` altında `**SEÇENEK:**`. Şu an örnekler duruyor.
+> 3. **Cengo — karar satırı (4).** Her kararın `**CENGO:**` satırı; şu an anlatı ("Cengo … dedi"), büroda kendi ağzından replik olacak.
+> 4. **Cengo — kanıt satırı (3).** `## cengo_kanit` altında: `tarih_sofra` (Sofradaki tarih), `kalip_kagit` (Kalıp kâğıdı),
+>    `jale_siparis` (Siparişin günü). Satır **yalnız o kanıtı** anar, öbür kanıtı anmaz (kural 22c). `prova_torba` yazıldı.
+> Toplam 12. Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6` (Barbaros denetimleri koşar).
+
 > **Barbaros'un kararı (16 Kasım 2026) — KARAR ANI YENİDEN TASARLANIYOR, KASA KALKIYOR. Henüz UYGULANMADI.**
 > Sebep (sahibi): kasanın bir anlamı yok (yalnız birikiyor, hiçbir şeye bağlanmıyor); karar ekranı oyuncu için boş ve karmaşık
 > (dört kart × önizleme + "Kasaya …" + Cengo tavrı = tablo karşılaştırması; sonuç seçmeden okunuyor).
