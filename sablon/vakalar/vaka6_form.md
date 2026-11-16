@@ -38,7 +38,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
   kalacak; Eylül de babası Cengo'yu bir daha göremeyecek. Söylese kimse dinlemezdi. Düğün ertelensin, İzmir işi
   bozulsun istedi. Mektupların bir sırrı yok: blöf.
 - **Nasıl:** Tarihi sofrada duydu. Mektupları kendi kalıp kâğıdına (terzi kâğıdı) yazdı. İlk ikisini sabah postayı
-  alırken kutuya kendi koydu; üçüncüsünü gelinlik provasında, Jale makas almaya arkaya gidince gelinliğin torbasına koydu.
+  alırken kutuya kendi koydu; üçüncüsünü gelinlik provasında, Jale makas almaya arkaya gidince gelinliğin elbise kılıfına koydu.
   "Herkes öğrenir" sözünü Gamze'nin anlattığı bir sözden aldı: Jale boşanırken Haldun'a böyle demiş.
 - **Eylül'ü Cengo'ya gönderen de o:** "Baban dedektif, git ona." Cengo'nun bulamayacağını sandı; bir de torunu babasını
   görsün istedi. *(İtirafta açılır.)*
@@ -57,7 +57,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
 | Gamze (35) | eczane çalışanı (Üsküdar) | gelin; mektupları alan | evet | aynı daire | ekranda yok; provada kabinde |
 | Haldun Bey (48) | bankacı, şube müdürü; İzmir'e tayini çıktı | damat; ücreti öder | evet (tayin İzmir'in sebebi) | Altunizade | ipucu A'da kendi şubesindeki odasında |
 | Müzeyyen Hanım (60) | emekli terzi | suçlu | evet: kalıp kâğıdı onun mesleğinden; provaya gelinin annesi olarak gider | aynı apartman, üst kat | sabahları postayı kutudan alır (merdiven); provaya Gamze'yle Üsküdar'dan Kadıköy'e vapurla |
-| Jale Hanım (44) | gelinlik atölyesi sahibi | yanlış iz | evet: torbaya onun eli değer, kalıp kâğıdı atölyesinde de var | Kadıköy, Fenerbahçe | atölyesi Bahariye'de; yürür |
+| Jale Hanım (44) | gelinlik atölyesi sahibi | yanlış iz | evet: elbise kılıfına onun eli değer, kalıp kâğıdı atölyesinde de var | Kadıköy, Fenerbahçe | atölyesi Bahariye'de; yürür |
 | Cengo (34) | büro | yanlış iz + araştıran | — (sabit karakter) | (kanonda yok, yazılmaz) | cumartesileri Karaköy'den Üsküdar'a vapurla, banka |
 | Recep Efendi | apartmanın kapıcısı | tanık (B) | evet | apartmanın bodrumu | — |
 | Dilek | atölyenin kalfası | tanık (C) | evet | — | — |
@@ -76,10 +76,10 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
 | cuma (3 gün sonra) | — | Gamze gelinliği atölyesine ısmarlar; Jale tarihi ve gelini o gün öğrenir, susar | — |
 | 2 hafta önce, çarşamba sabah | 2. mektubu kutuya koyar; kapıcı onu kutuda bulur | — | — |
 | geçen cumartesi 9.00–10.00 | — | — | karşıdaki bankta; Eylül dershaneye çıkınca kalkar |
-| geçen cumartesi 11.00 | provada askıyı tutar; Jale gidince torbaya 3. mektubu koyar | gelinliği torbaya koyar, makas almaya arkaya gider | Karaköy'e döner |
+| geçen cumartesi 11.00 | provada askıyı tutar; Jale gidince elbise kılıfına 3. mektubu koyar | gelinliği elbise kılıfına koyar, makas almaya arkaya gider | Karaköy'e döner |
 | prova sonu | — | — | — |
-| **pazartesi** | | Gamze torbanın cebinde mektubu bulmuştu; "düğün iptal" der | Eylül okuldan sonra büroya gelir (giriş) |
-| **cuma 18.00** | gelinliği teslim almaya atölyeye gelir; 4. mektubu torbaya koyar | torbayı son kez kontrol edecek | yüzleşme |
+| **pazartesi** | | Gamze elbise kılıfının cebinde mektubu bulmuştu; "düğün iptal" der | Eylül okuldan sonra büroya gelir (giriş) |
+| **cuma 18.00** | gelinliği teslim almaya atölyeye gelir; 4. mektubu elbise kılıfına koyar | elbise kılıfını son kez kontrol edecek | yüzleşme |
 
 ## 3. Giriş
 
@@ -101,7 +101,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
   - Annesi Gamze, Haldun amcayla iki hafta sonra cumartesi evleniyor. Düğünden sonra İzmir'e taşınacaklar: Haldun'un
     tayini çıktı. Eylül 11. sınıfta okul değiştirecek. ("Sorun değil" der; değil gibi söyler.)
   - Üç mektup geldi: "Bu düğün olursa herkes öğrenir." Pul yok. İlk ikisi apartmanın posta kutusundan çıktı. Üçüncüsü
-    cumartesi Kadıköy'deki gelinlik provasında, gelinliğin torbasının cebinden.
+    cumartesi Kadıköy'deki gelinlik provasında, gelinliğin elbise kılıfının cebinden.
   - Annesi düğünü iptal etmek üzere: "Ne saklıyorsun Haldun?" Haldun "hiçbir şey" diyor.
   - Şüpheler: "Annem 'babandır' diyor: 'Baban düğünü istemez.' Ben inanmıyorum, o yüzden sana geldim." · "Haldun amca
     da eski karısı **Jale Hanım**'dan şüpheleniyor. Boşanırken 'seni rahat bırakmam' demiş. Onun da Kadıköy'de bir
@@ -123,7 +123,7 @@ karede geçmez. Eylül ipucu sahnelerine ve kovalamacaya girmez; yalnız giriş 
 |---|---|---|---|
 | Kim | Gamze'nin annesi, emekli terzi, 60; sıcak, börekçi, keskin gözlü | Haldun'un eski eşi, gelinlik atölyesi sahibi, 44; sert, gururlu | Eylül'ün babası |
 | Şüpheli gösteren iz | (gizli) tarihi biliyordu; terzi; provadaydı | "herkes öğrenecek" demişti; gelinlik onun atölyesinde; saklıyor | tarihi biliyordu; aylardır evin karşısında bankta oturuyor |
-| Aklayan kanıt | — | tarihi ilk mektuptan üç gün sonra öğrendi (D) | torbaya dokunmadı, provada yoktu (C); kalıp kâğıdı onda yok (F) |
+| Aklayan kanıt | — | tarihi ilk mektuptan üç gün sonra öğrendi (D) | elbise kılıfına dokunmadı, provada yoktu (C); kalıp kâğıdı onda yok (F) |
 | O gün gerçekte | mektupları yazdı ve bıraktı | siparişe muhtaç, sustu | kızını uzaktan izledi |
 | Görünüşü 🟢 | §16 | §16 | sabit (bu vaka: ütülü gömlek) |
 
@@ -138,7 +138,7 @@ kimlikle tanıyor (`motor_yeni.js`); künye kartı yok (sabit karakter). Adım 3
 | izmir_tayin | Haldun Bey'in İzmir tayini düğünden bir hafta sonra başlıyor. Ertelenirse tayin başkasına gidiyor. | A |
 | bank_adam | Kasketli bir adam aylardır her cumartesi sabahı apartmanın karşısındaki bankta oturup kapıya bakıyor; Eylül çıkınca o da kalkıyor. | B |
 | posta_elden | Mektuplar pulsuz, elle kutuya atılmış; kutular kilitsiz *(Onay 2)*. Postayı her sabah ilk Müzeyyen Hanım alır; ikinci mektubu kutuda kapıcı bulmuş. | B |
-| prova_torba | Üçüncü mektup cumartesi provada torbaya girdi. Gamze kabindeydi; torbayı o gün yalnız iki kişi tuttu: atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım. | C |
+| prova_torba | Üçüncü mektup cumartesi provada elbise kılıfına girdi. Gamze kabindeydi; elbise kılıfını o gün yalnız iki kişi tuttu: atölyenin sahibi Jale Hanım ve gelinin annesi Müzeyyen Hanım. | C |
 | jale_siparis | Gelinlik siparişi ilk mektuptan üç gün sonra verildi; Jale Hanım düğünün tarihini o gün öğrendi. Haldun Bey'le iki yıldır konuşmuyor. | D |
 | jale_gizli | Jale Hanım gelini tanıyınca sustu: atölye borçta, siparişe ihtiyacı var. Gamze gelinliğini kimin diktiğini bilmiyor. | D |
 | jale_soz | Mektuptaki "herkes öğrenir" sözü, Jale Hanım'ın boşanırken Haldun Bey'e söylediği söz. Gamze bunu annesine anlatmış. | E |
@@ -177,7 +177,7 @@ senden çok yazıyor." Peri, Cengo'nun bir kızı olduğunu ona neden söylemedi
   kalkar. Cengo çaresiz kabul eder: "Cumartesileri. Eylül dershaneye çıkarken." Kapıcı: "Mektuplar pulsuz. Postayı her
   sabah Müzeyyen Hanım alır; ikincisini ben buldum, çarşamba." Peri bankı süzer: "Buradan kapı iyi görünüyor."
 - **C.** Bahariye, atölye: mankenler, tül, askılar. Kalfa Dilek Peri'yi tanır, heyecanlanır, ağzındaki iğneleri düşürür.
-  Cumartesi provasını anlatır: "Gelin kabindeydi. Torbaya patron koydu, annesi askıyı tuttu; patron makas almaya
+  Cumartesi provasını anlatır: "Gelin kabindeydi. Elbise kılıfına patron koydu, annesi askıyı tuttu; patron makas almaya
   gitti, sonra döndü. Başka eli değen yok." "Patron kim?" "Jale Hanım." Peri: "Haldun Bey'in eski eşi?" Dilek: "Ay,
   bilmiyordum."
 - **D.** Fenerbahçe, sahil çay bahçesi. Jale soğuk ve kibar; Peri yalanı okur (Jale bardağı çevirir). Sonunda kabul:
@@ -194,15 +194,15 @@ senden çok yazıyor." Peri, Cengo'nun bir kızı olduğunu ona neden söylemedi
 
 ## 7. Kanıt yolları
 
-**Mantık:** Mektupları yazan iki şeye sahipti: **tarihi ilk akşam bilmek** ve **terzi kâğıdına, gelinliğin torbasına
+**Mantık:** Mektupları yazan iki şeye sahipti: **tarihi ilk akşam bilmek** ve **terzi kâğıdına, gelinliğin elbise kılıfına
 el uzatabilmek**. Bilgi tarafı {Müzeyyen, Cengo}: tarihi sofradakiler ve Eylül'ün yazdığı babası biliyordu (A); Jale
-tarihi üç gün sonra öğrendi (D). El tarafı {Müzeyyen, Jale}: torbayı yalnız ikisi tuttu (C); kalıp kâğıdı terzide ve
+tarihi üç gün sonra öğrendi (D). El tarafı {Müzeyyen, Jale}: elbise kılıfını yalnız ikisi tuttu (C); kalıp kâğıdı terzide ve
 gelinlikçide (F). Kesişim: Müzeyyen.
 
 **Suçluyu tam kanıtlayan yollar:**
-- **Yol 1 ("aha!"):** A + C — tarihi bilenler Müzeyyen ya da Cengo; torbayı tutanlar Müzeyyen ya da Jale.
+- **Yol 1 ("aha!"):** A + C — tarihi bilenler Müzeyyen ya da Cengo; elbise kılıfını tutanlar Müzeyyen ya da Jale.
 - **Yol 2:** A + F — tarihi bilenler; terzi kâğıdı.
-- **Yol 3:** D + C — Jale tarihi bilmiyordu; torbayı tutan kalan tek kişi.
+- **Yol 3:** D + C — Jale tarihi bilmiyordu; elbise kılıfını tutan kalan tek kişi.
 - **Yol 4:** D + F.
 
 **Kim yaptı?'da doğru kanıt çiftleri (Müzeyyen için):** bir {Müzeyyen, Cengo} olgusu × bir {Müzeyyen, Jale} olgusu.
@@ -221,7 +221,7 @@ yanıltır. Müzeyyen her ipucunda anılır (A, B, C, E, F; D'de Jale "gelinin a
 | gerekir | cümle |
 |---|---|
 | tarih_sofra + jale_siparis | İlk mektubu yazan, düğünün tarihini ilk akşam biliyordu. |
-| prova_torba + kalip_kagit | Mektupları yazan, hem terzi kâğıdına hem gelinliğin torbasına el uzatabiliyordu. |
+| prova_torba + kalip_kagit | Mektupları yazan, hem terzi kâğıdına hem gelinliğin elbise kılıfına el uzatabiliyordu. |
 | bank_adam + posta_elden | Mektuplar postayla gelmedi; yazan bu kapının yolunu biliyor. |
 | jale_soz + jale_siparis | Mektuptaki söz Jale Hanım'ın, ama ilk mektup onun bilmediği bir tarihten sonra geldi. |
 | jale_gizli + prova_torba | Gelin, gelinliğini kimin diktiğini bilmiyor. |
@@ -230,7 +230,7 @@ yanıltır. Müzeyyen her ipucunda anılır (A, B, C, E, F; D'de Jale "gelinin a
 
 - **Yanıltan iz (iki tane):** Evin karşısındaki bankta aylardır oturan kasketli adam: Cengo. Mektuptaki söz Jale'nin
   sözü; gelinlik onun atölyesinde ve bunu saklıyor.
-- **Çözen kanıt:** Torbayı yalnız iki kişi tuttu, tarihi ilk akşam yalnız sofradakiler bildi. İkisinde de olan tek kişi
+- **Çözen kanıt:** Elbise kılıfını yalnız iki kişi tuttu, tarihi ilk akşam yalnız sofradakiler bildi. İkisinde de olan tek kişi
   anneanne.
 
 ## 10. Kim yaptı? ve yüzleşme
@@ -239,22 +239,22 @@ Yer: **Cuma 18.00, Bahariye'deki atölye.** Müzeyyen gelinliği teslim almaya g
 Peri ve Cengo "son bir şey sormaya" gelir. Gamze, Haldun, Eylül yok. Ekranda: Jale ve Cengo her zaman; Müzeyyen ilk
 ipucundan sonra.
 
-**Ortak açılış (dört yüzleşmede aynı):** Jale gelinliği torbaya koymuş, makbuzu yazmaya arkaya gider. Müzeyyen torbanın
+**Ortak açılış (dört yüzleşmede aynı):** Jale gelinliği elbise kılıfına koymuş, makbuzu yazmaya arkaya gider. Müzeyyen elbise kılıfının
 başında. Cengo ayakta (gömlek). Peri: "Mektupları kim yazdı, biliyorum."
 
-**Panik tetikleyici (her yolda somut):** Jale makbuzla döner: "Cumartesiden beri hiçbir torbayı kontrol etmeden teslim
-etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine koymuştu. Torbayı kapar, kapıdan fırlar.
+**Panik tetikleyici (her yolda somut):** Jale makbuzla döner: "Cumartesiden beri hiçbir elbise kılıfını kontrol etmeden teslim
+etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce elbise kılıfının cebine koymuştu. Elbise kılıfını kapar, kapıdan fırlar.
 
 | sonuç | ücret | yüzleşme (özet) |
 |---|---|---|
-| Müzeyyen, doğru kanıt | 40.000 ₺ | Peri iki kanıtı sayar: sofra ve torba. Müzeyyen: "Ben mi? Ben bu kızın gelinliğini dikmek isterdim…" Peri: "Kalıp kâğıdınız da sizin, Müzeyyen Hanım." Jale makbuzla döner, torbayı açmak ister; Müzeyyen kapar, kaçar. |
+| Müzeyyen, doğru kanıt | 40.000 ₺ | Peri iki kanıtı sayar: sofra ve elbise kılıfı. Müzeyyen: "Ben mi? Ben bu kızın gelinliğini dikmek isterdim…" Peri: "Kalıp kâğıdınız da sizin, Müzeyyen Hanım." Jale makbuzla döner, elbise kılıfını açmak ister; Müzeyyen kapar, kaçar. |
 | Müzeyyen, zayıf kanıt | 30.000 ₺ | Müzeyyen: "Kızım, ben altmış yaşında bir kadınım. Kâğıt kalem…" Peri tutturamaz. Jale döner: "Açıyorum." Müzeyyen kapar, kaçar. |
 | Cengo | 20.000 ₺ | Peri Cengo'yu suçlar. Cengo: "Ben mi? Ben mektup yazmam, Peri; ben bankta otururum. Kızım beni görmesin diye." Müzeyyen başını çevirir. Jale döner: "Açıyorum." Müzeyyen kapar, kaçar. |
-| Jale | 20.000 ₺ | Jale: "Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım?" Torbayı alır: "Şimdi açıyorum, görün." Müzeyyen torbayı elinden kapar, kaçar. |
+| Jale | 20.000 ₺ | Jale: "Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım?" Elbise kılıfını alır: "Şimdi açıyorum, görün." Müzeyyen elbise kılıfını elinden kapar, kaçar. |
 
 - **Dosya çözüldü:** yolların sade dili (§7); masumlar *(yalnız yüzleşme + itirafın söylediği)*:
   *Cengo masumdu: bankta kızını izliyordu; mektupları Müzeyyen Hanım yazmıştı.* ·
-  *Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.*
+  *Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; elbise kılıfına mektubu Müzeyyen Hanım koymuştu.*
 - **Kesinti:** zayıf → "Anlaşılan ücret 40.000 ₺. Kanıtın zayıf kaldı; Haldun Bey 10.000 ₺ kesti." · yanlış →
   "Anlaşılan ücret 40.000 ₺. Masum birini suçladın; Haldun Bey 20.000 ₺ kesti."
 
@@ -262,10 +262,10 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
 
 | vuruş | ne olur | Peri'nin pozu (erotik + gülünç) | ara kare |
 |---|---|---|---|
-| 1 | Müzeyyen torbayla kapıdan çıkar; Cengo peşinden atılır, kapıdaki duvaklı mankenle çarpışır, duvak başına geçer | — | yeni |
-| 2 | Torbanın fermuarı açılır, gelinliğin uzun kuyruğu kaldırıma yayılır; Peri kuyruğa basar, kayar, çiçekçinin kovalarına düşer: su ve gül yaprakları | çiçek kovalarının arasında, ıslak gömlek (altında siyah atlet), bacaklar havada, at kuyruğu dağılmış, saçında güller; öfkeli ve gururlu | yeni |
+| 1 | Müzeyyen elbise kılıfıyla kapıdan çıkar; Cengo peşinden atılır, kapıdaki duvaklı mankenle çarpışır, duvak başına geçer | — | yeni |
+| 2 | Elbise kılıfının fermuarı açılır, gelinliğin uzun kuyruğu kaldırıma yayılır; Peri kuyruğa basar, kayar, çiçekçinin kovalarına düşer: su ve gül yaprakları | çiçek kovalarının arasında, ıslak gömlek (altında siyah atlet), bacaklar havada, at kuyruğu dağılmış, saçında güller; öfkeli ve gururlu | yeni |
 | 3 | Bir düğün fotoğrafçısı Peri'yi gelin sanar, flaş patlatır: "Gelin hanım, buraya!" Peri poz verir gibi kalır | ıslak, güllü, bir eli belinde, öbürüyle fotoğrafçıyı itiyor: "Ben gelin değilim!" | yeni |
-| 4 | Kuyruğun ucu Peri'nin ayağına dolanmıştır; Peri doğrulunca kuyruk gerilir, torba Müzeyyen'i geri çeker, Müzeyyen bir banka oturuverir. Duvaklı Cengo yetişir, torbayı tutar | (bitişte) kuyruğun ucu elinde, güllü, çenesi havada: "Kuyruğu ben tuttum." | yeni |
+| 4 | Kuyruğun ucu Peri'nin ayağına dolanmıştır; Peri doğrulunca kuyruk gerilir, elbise kılıfı Müzeyyen'i geri çeker, Müzeyyen bir banka oturuverir. Duvaklı Cengo yetişir, elbise kılıfını tutar | (bitişte) kuyruğun ucu elinde, güllü, çenesi havada: "Kuyruğu ben tuttum." | yeni |
 
 - **Peri'nin felaketi:** gelinlik kuyruğu + çiçekçinin suyu + gül yaprakları — düğün vakasının üç öğesi.
 - **Cengo'nun komik anı:** başında duvak; geçen bir teyze "Allah bir yastıkta kocatsın" der, Peri'yi ve onu gösterir.
@@ -276,8 +276,8 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
 - **İtiraf** (bankta, Peri ve Cengo'ya; her yolda aynı): "Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında
   her şeyi bırakacak. Ben bu yaşta tek kalacağım; sen de kızını bir daha göremeyeceksin, Cengo. Her cumartesi bankta oturduğunu yukarıdan görüyorum. Söylesem kimse
   dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim. Tarihi sofrada duydum; ertesi sabah ilk mektubu kutuya
-  ben koydum. Kâğıt benim kalıp kâğıdım. Provada torbaya ben koydum; bugün dördüncüsünü koydum. 'Herkes öğrenir'
-  sözünü Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok." Torbanın cebinden dördüncü mektubu çıkarıp Peri'ye
+  ben koydum. Kâğıt benim kalıp kâğıdım. Provada elbise kılıfına ben koydum; bugün dördüncüsünü koydum. 'Herkes öğrenir'
+  sözünü Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok." Elbise kılıfının cebinden dördüncü mektubu çıkarıp Peri'ye
   verir. Sonra Cengo'ya: "Eylül'ü sana ben gönderdim. Bulamazsın sandım. Bir de kız babasını görsün istedim."
 
 ## 12. Kararlar *(gerçek artık biliniyor; dördü de açık)*
@@ -289,7 +289,7 @@ etmiyorum. Açıyorum." Müzeyyen dördüncü mektubu az önce torbanın cebine 
 | Peri | her şeyi: yazan Müzeyyen, nedeni, Eylül'ü onun gönderdiği; 4. mektup elinde | itiraf (bankta) |
 | Cengo | Peri'nin bildiği her şey | itiraf |
 | Müzeyyen | yakalandığını; Peri ile Cengo'nun bildiğini; Gamze'nin bilmediğini | itiraf |
-| Jale | Müzeyyen'in, torbayı açmak isteyince torbayla kaçtığını; mektubu görmedi, itirafı duymadı. Atölyesinin sırrını Peri'nin bildiğini | yüzleşme, kovalamacadan sonra atölye |
+| Jale | Müzeyyen'in, elbise kılıfını açmak isteyince elbise kılıfıyla kaçtığını; mektubu görmedi, itirafı duymadı. Atölyesinin sırrını Peri'nin bildiğini | yüzleşme, kovalamacadan sonra atölye |
 | Dilek | kovalamacayı gördü; ne olduğunu bilmiyor | kovalamaca |
 | Gizem | yalnız Eylül'ün mesajlarını; yazanı bilmiyor | büro, mesajlar |
 | Gamze, Haldun, Eylül | hiçbir şey: yazanı bilmiyorlar, cuma olanları görmediler | — |
@@ -309,7 +309,7 @@ kendi sırrı yüzünden susar (her kararda aynı; yazılmaz).
 - Cengo satırları yan yana: biri sitem, biri sevinç, biri tiksinti, biri gurur + takılma. "Doğru cevap" çıkmaz.
 - **Kasaya giren en az:** yanlış suçlama (20.000) + kendisi söylesin (−10.000) = 10.000 ₺. Eksiye düşmez. En çok karar
   parası (15.000) ücretin (40.000) altında.
-- **Sızıntı notu:** karar metinleri yalnız itirafın söylediğini anar (İzmir, okul, kalıp kâğıdı, torba, 4. mektup).
+- **Sızıntı notu:** karar metinleri yalnız itirafın söylediğini anar (İzmir, okul, kalıp kâğıdı, elbise kılıfı, 4. mektup).
   Kapıcı, bank, Jale'nin borcu karar metinlerine girmez.
 
 - **Anı özeti** (kural 21d): Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için
@@ -428,13 +428,13 @@ Bahariye'deki atölyesi, kapıcı Recep Efendi, kalfa Dilek, Tahsin Usta (Karak�
 
 ## 19. Kontrol
 
-- [x] Giriş kurallarına uyuyor (Cengo ve Jale şüpheli olarak anılıyor; Müzeyyen suçlanmadan anılıyor; sofra, torbayı
+- [x] Giriş kurallarına uyuyor (Cengo ve Jale şüpheli olarak anılıyor; Müzeyyen suçlanmadan anılıyor; sofra, elbise kılıfını
       tutanlar, kalıp kâğıdı, bank geçmiyor)
 - [x] 3 şüpheli; Cengo ve Jale'nin izi ve aklanması var
 - [x] Suçluyu kanıtlayan en az 2 yol var (4 çift)
 - [x] Hiçbir ipucu suçluyu tek başına göstermiyor: A, D → {Müzeyyen, Cengo}; C, F → {Müzeyyen, Jale}; B, E → yanıltır
 - [x] Defter cümleleri suçluyu söylemiyor
-- [x] "Aha!" anı var (bank ve Jale'nin sözü yanıltır; sofra + torba çözer)
+- [x] "Aha!" anı var (bank ve Jale'nin sözü yanıltır; sofra + elbise kılıfı çözer)
 - [x] Zaman çizelgesi tutarlı
 - [x] Kişi tablosu dolu (A, C)
 - [x] "Kim neyi biliyor" listesi yazıldı; kararlar ve kapanış ona uyuyor (B)

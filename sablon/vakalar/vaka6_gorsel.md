@@ -62,7 +62,7 @@ Kaynak: `uretim/v6/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac
 | G53 | figür | Jale Hanım, kaçamak (bardağı çeviriyor) | `jale.kacamak` | G4.png | Parti 3 |
 | G54 | figür | Jale Hanım, öfkeli | `jale.ofkeli` | G4.png | Parti 3 |
 | G55 | figür | Jale Hanım, elinde makbuz | `jale.makbuz` | G4.png | Parti 3 |
-| G56 | figür | Jale Hanım, öfkeli, torbaya uzanıyor | `jale.uzaniyor` | G4.png | Parti 3 |
+| G56 | figür | Jale Hanım, öfkeli, elbise kılıfına uzanıyor | `jale.uzaniyor` | G4.png | Parti 3 |
 | G57 | figür | Recep Efendi, gülüyor (tanıdı) | `recep.gulen` | G7.png | Parti 3 |
 | G58 | figür | Recep Efendi, elinde süpürge | `recep.supurge` | G7.png | Parti 3 |
 | G59 | figür | Dilek, heyecanlı (Peri'yi tanıdı) | `dilek.heyecanli` | G8.png | Parti 3 |
@@ -74,8 +74,8 @@ Kaynak: `uretim/v6/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac
 | G65 | ara kare | Giriş: Peri Cengo'nun yakasını düzeltiyor (çekicilik anı, Eylül yok) | `K96` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png, G18.png | Parti 3 |
 | G66 | ara kare | Giriş: Eylül Cengo'ya sarılıyor, Peri'nin dergisi düşüyor | `K97` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png, G18.png, G6.png | Parti 3 |
 | G67 | ara kare | Yüzleşme açılışı: cuma akşamı atölye | `K98` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Parti 3 |
-| G68 | ara kare | Yüzleşme kaçışı: Müzeyyen torbayı askıdan kapıp kapıya koşuyor | `K99` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Parti 3 |
-| G69 | ara kare | Yüzleşme kaçışı (Jale yolu): Müzeyyen torbayı Jale'nin elinden kapıyor | `K99j` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Parti 3 |
+| G68 | ara kare | Yüzleşme kaçışı: Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor | `K99` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Parti 3 |
+| G69 | ara kare | Yüzleşme kaçışı (Jale yolu): Müzeyyen elbise kılıfını Jale'nin elinden kapıyor | `K99j` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Parti 3 |
 | G70 | ara kare | Kovalamaca 1: Cengo duvaklı mankenle çarpışıyor | `K100` | G16.png, G18.png, G12.png, G19.png | Parti 3 |
 | G71 | ara kare | Kovalamaca 2: Peri gelinlik kuyruğuna basıp çiçekçinin kovalarına düşüyor | `K101` | G16.png, peri_mesai_bas.png, G1.png, G19.png | Parti 3 |
 | G72 | ara kare | Kovalamaca 3: fotoğrafçı flaş patlatıyor, 'Ben gelin değilim!' | `K102` | G16.png, peri_mesai_bas.png, G1.png | Parti 3 |
@@ -89,8 +89,8 @@ Kaynak: `uretim/v6/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac
 | G80 | ara kare | Kapanış: Cengo masanın kenarında bilekliğini çeviriyor; Peri şallı; Gizem tepsi ve telefonla | `K110` | buro_aksam.jpg, peri_mesai_bas.png, G1.png, G86.png, G23.png | Parti 3 |
 | G81 | ara kare | Kapanış (bağ düşük): Cengo ceketini alıp çıkıyor, Peri gül yaprağını çöpe atıyor | `K111` | buro_aksam.jpg, peri_mesai_bas.png, G1.png, G86.png | Parti 3 |
 | G82 | ara kare | Kapanış (bağ yüksek): Peri gül yaprağını uzatıyor, Cengo alıyor; Gizem arkada | `K112` | buro_aksam.jpg, peri_mesai_bas.png, G1.png, G86.png, G23.png | Parti 3 |
-| G83 | ara kare | Kovalamaca (ipucu): Müzeyyen torbanın cebinden kâğıdı alıp hırkasının cebine koyuyor | `K113` | G16.png, peri_mesai_bas.png, G1.png, G18.png, G19.png | Parti 3 |
-| G84 | ara kare | Kovalamaca sonu: Jale torbayı Cengo'dan alıp ıslak eteğe bakıyor | `K114` | G16.png, peri_mesai_bas.png, G1.png, G18.png, serit_jale_dilek.jpg | Parti 3 |
+| G83 | ara kare | Kovalamaca (ipucu): Müzeyyen elbise kılıfının cebinden kâğıdı alıp hırkasının cebine koyuyor | `K113` | G16.png, peri_mesai_bas.png, G1.png, G18.png, G19.png | Parti 3 |
+| G84 | ara kare | Kovalamaca sonu: Jale elbise kılıfını Cengo'dan alıp ıslak eteğe bakıyor | `K114` | G16.png, peri_mesai_bas.png, G1.png, G18.png, serit_jale_dilek.jpg | Parti 3 |
 | G87 | ara kare | Giriş açılışı: Peri ayakları masada, dergi okuyor (yalnız) — 14 Kas, yayında bulundu | `K115` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png | Ek (14 Kas) |
 | G88 | ara kare | Haldun'un odası: Peri bir Cengo'ya, bir Haldun'a bakıyor | `K116` | G10.png, peri_mesai_bas.png, G1.png, G18.png, G5.png | Ek (14 Kas) |
 | G89 | ara kare | Bankta Müzeyyen, Peri, Cengo; Jale ve kalfa uzaklaşıyor | `K117` | G16.png, peri_mesai_bas.png, G1.png, G18.png, serit_muzeyyen_jale_dilek.jpg | Ek (14 Kas) |
@@ -99,6 +99,6 @@ Kaynak: `uretim/v6/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac
 | G92 | ara kare | Giriş: Eylül eşikte (yalnız) | `K120` | buro_koridor.jpg, G6.png, G26.png | Ek (14 Kas, kapı) |
 | G93 | ara kare | Giriş: Eylül Peri'yi süzüp babasının koluna giriyor | `K121` | buro_gunduz.jpg, peri_mesai_bas.png, G1.png, G18.png, G6.png | Ek (14 Kas, kapı) |
 | G94 | ara kare | Apartman: kapıcı süpürgeyi duvara dayıyor | `K122` | G11.png, G7.png, G18.png | Ek (14 Kas, kapı) |
-| G95 | ara kare | Yüzleşme (Jale yolu): Jale torbaya uzanıyor | `K123` | G12.png, peri_mesai_bas.png, G1.png, serit_muzeyyen_jale_dilek.jpg | Ek (14 Kas, kapı) |
+| G95 | ara kare | Yüzleşme (Jale yolu): Jale elbise kılıfına uzanıyor | `K123` | G12.png, peri_mesai_bas.png, G1.png, serit_muzeyyen_jale_dilek.jpg | Ek (14 Kas, kapı) |
 | G85 | kart afişi | Kart afişi: İsimsiz Mektuplar | `KART_V6` | G12.png, peri_mesai_bas.png, G1.png, G18.png, serit_kart_v6.jpg | Parti 3 |
 | G86 | kıyafet kartı | Cengo, buruşuk gömlek (kıyafet kartı, tek kişi) | — | G4.png, cengo_beden.jpg, tarz_ornek_erkek.jpg | Parti 3 (§11 ile yeniden) |

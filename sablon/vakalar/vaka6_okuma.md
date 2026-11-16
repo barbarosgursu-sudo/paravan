@@ -41,7 +41,7 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 `61` **EYLÜL:** Üçünde de aynı şey yazıyor: "Bu düğün olursa herkes öğrenir." Pul yok, gönderen yok.  
 `62` **PERİ:** Nereden geldiler, Eylül?  
 `63` **EYLÜL:** İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan.  
-`64` **EYLÜL:** Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş.  
+`64` **EYLÜL:** Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin elbise kılıfının cebindeymiş.  
 `65` **EYLÜL:** Annem düğünü iptal etmek istiyor. Haldun amcaya "ne saklıyorsun" diye bağırıyor; o da "hiçbir şey" diyor.  
 `66` **PERİ:** Mektupları kimin yazdığını düşünüyorlar?  
 `67` **EYLÜL:** Annem "babandır" diyor: "Baban bu düğünü istemez." Ben inanmıyorum. O yüzden sana geldim, baba.  
@@ -145,11 +145,11 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 `170` *Kalfa Peri'yi görünce ağzındaki iğneleri yere düşürüyor.*  
 `171` **DİLEK:** Siz Peri Hanım'sınız! Güzellik kraliçesi! Annemle sizi televizyonda izlerdik!  
 `172` **PERİ:** Eskiden, canım. Şimdi dedektifim. Geçen cumartesiki provayı soracağız.  
-`173` **DİLEK:** Gamze Hanım'ın provası. Torbadan mektup çıktı diye ağladı, kadıncağız.  
-`174` **PERİ:** Gelinliği torbaya kim koydu? Gelin o sırada neredeydi?  
+`173` **DİLEK:** Gamze Hanım'ın provası. Elbise kılıfından mektup çıktı diye ağladı, kadıncağız.  
+`174` **PERİ:** Gelinliği elbise kılıfına kim koydu? Gelin o sırada neredeydi?  
 `175` **DİLEK:** Gelin kabindeydi, perdenin arkasında üstünü değiştiriyordu.  
-`176` **DİLEK:** Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu.  
-`177` **DİLEK:** Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi.  
+`176` **DİLEK:** Gelinliği elbise kılıfına patron koydu. Gelinin annesi de askıyı tuttu.  
+`177` **DİLEK:** Patron makas almaya arkaya gitti, sonra dönüp elbise kılıfını kapattı. O ikisinden başka kılıfa el değmedi.  
 `178` **CENGO:** Sen neredeydin?  
 `179` **DİLEK:** Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm.  
 `180` **PERİ:** Patronunuz kim?  
@@ -232,92 +232,92 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 
 ## 4a. Yüzleşme — doğru suçlama
 
-> **Açıklama:** Cuma 18.00, Bahariye'deki atölye. Ortak açılış: gelinlik askıda, torbasının içinde; Müzeyyen teslim almaya gelmiş; Jale makbuzu yazmaya arkaya geçer. Suçlama; Jale döner, torbayı açmak ister; Müzeyyen torbayı kapıp kaçar.
+> **Açıklama:** Cuma 18.00, Bahariye'deki atölye. Ortak açılış: gelinlik askıda, elbise kılıfının içinde; Müzeyyen teslim almaya gelmiş; Jale makbuzu yazmaya arkaya geçer. Suçlama; Jale döner, elbise kılıfını açmak ister; Müzeyyen elbise kılıfını kapıp kaçar.
 
-`268` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
-`269` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.  
-`270` *Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.*  
+`268` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
+`269` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın.  
+`270` *Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.*  
 `271` **MÜZEYYEN:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?  
 `272` **PERİ:** Mektupları kim yazdı, biliyorum. Söylemeye geldim.  
 `273` **PERİ:** Müzeyyen Hanım. Mektupları siz yazdınız.  
 `274` **MÜZEYYEN:** Ben mi? Kızımın mutluluğunu en çok ben isterim…  
 `275` **PERİ:** Elimde iki kanıt var. İkisi de sizi gösteriyor.  
 `276` *Jale elinde makbuzla dönüyor.*  
-`277` **JALE:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.  
-`278` *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.*  
+`277` **JALE:** Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Açıyorum.  
+`278` *Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor.*  
 
 ## 4b. Yüzleşme — zayıf kanıtla
 
-> **Açıklama:** Ortak açılış; Peri inandıramaz; Jale döner, torbayı açmak ister; Müzeyyen kaçar.
+> **Açıklama:** Ortak açılış; Peri inandıramaz; Jale döner, elbise kılıfını açmak ister; Müzeyyen kaçar.
 
-`284` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
-`285` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.  
-`286` *Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.*  
+`284` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
+`285` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın.  
+`286` *Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.*  
 `287` **MÜZEYYEN:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?  
 `288` **PERİ:** Müzeyyen Hanım. Mektupları siz yazdınız.  
 `289` **MÜZEYYEN:** Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne?  
 `290` **PERİ:** …Elimde bir şey var, ama sizi ikna edecek kadar değil.  
 `291` *Jale elinde makbuzla dönüyor.*  
-`292` **JALE:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.  
-`293` *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.*  
+`292` **JALE:** Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Açıyorum.  
+`293` *Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor.*  
 
 ## 4c. Yüzleşme — yanlış suçlama (Cengo'lu)
 
-> **Açıklama:** Ortak açılış; Peri Cengo'yu suçlar, Cengo kendini savunur (bank); Müzeyyen başını çevirir; Jale döner, torbayı açmak ister; Müzeyyen kaçar.
+> **Açıklama:** Ortak açılış; Peri Cengo'yu suçlar, Cengo kendini savunur (bank); Müzeyyen başını çevirir; Jale döner, elbise kılıfını açmak ister; Müzeyyen kaçar.
 
-`299` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
-`300` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.  
-`301` *Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.*  
+`299` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
+`300` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın.  
+`301` *Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.*  
 `302` **MÜZEYYEN:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?  
 `303` **PERİ:** Cengo. Mektupları sen yazdın.  
 `304` **CENGO:** Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım.  
 `305` **CENGO:** Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam.  
 `306` *Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.*  
 `307` *Jale elinde makbuzla dönüyor.*  
-`308` **JALE:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum.  
-`309` *Müzeyyen torbayı askıdan kapıp kapıya koşuyor.*  
+`308` **JALE:** Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Açıyorum.  
+`309` *Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor.*  
 
 ## 4d. Yüzleşme — Jale suçlanırsa (yanlış)
 
-> **Açıklama:** Ortak açılış; Peri Jale'yi arkadan çağırır; Jale kendini savunur, torbayı kendisi açmak ister; Müzeyyen torbayı kapıp kaçar.
+> **Açıklama:** Ortak açılış; Peri Jale'yi arkadan çağırır; Jale kendini savunur, elbise kılıfını kendisi açmak ister; Müzeyyen elbise kılıfını kapıp kaçar.
 
-`315` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
-`316` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın.  
-`317` *Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.*  
+`315` *Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.*  
+`316` **JALE:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın.  
+`317` *Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.*  
 `318` **MÜZEYYEN:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum?  
 `319` **PERİ:** Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız.  
 `320` **JALE:** Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım?  
-`321` **JALE:** *(torbaya uzanarak)* Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.  
-`322` *Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.*  
+`321` **JALE:** *(kılıfa uzanarak)* Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.  
+`322` *Müzeyyen elbise kılıfını Jale'nin elinden kapıp kapıya koşuyor.*  
 
 ## 5. Kovalamaca ve itiraf
 
-> **Açıklama:** Atölyenin kapısı (Cengo duvaklı mankenle çarpışır) → Bahariye Caddesi (kuyruk açılır, Peri çiçekçinin kovalarına düşer) → fotoğrafçı Peri'yi gelin sanar → kuyruk gerilir, Müzeyyen banka oturur; Cengo torbayı tutar, teyze → Müzeyyen torbanın cebinden bir şey alıp hırkasına koyar → kalfa şal getirir, Jale torbayı alıp atölyeye döner → itiraf (bankta, Peri ve Cengo'ya).
+> **Açıklama:** Atölyenin kapısı (Cengo duvaklı mankenle çarpışır) → Bahariye Caddesi (kuyruk açılır, Peri çiçekçinin kovalarına düşer) → fotoğrafçı Peri'yi gelin sanar → kuyruk gerilir, Müzeyyen banka oturur; Cengo elbise kılıfını tutar, teyze → Müzeyyen elbise kılıfının cebinden bir şey alıp hırkasına koyar → kalfa şal getirir, Jale elbise kılıfını alıp atölyeye döner → itiraf (bankta, Peri ve Cengo'ya).
 
-`329` *Müzeyyen torbayla Bahariye Caddesi'ne fırlıyor. Cengo peşinden atılırken kapıdaki duvaklı mankenle çarpışıyor; duvak başına geçiyor.*  
+`329` *Müzeyyen elbise kılıfıyla Bahariye Caddesi'ne fırlıyor. Cengo peşinden atılırken kapıdaki duvaklı mankenle çarpışıyor; duvak başına geçiyor.*  
 `330` **CENGO:** Görmüyorum! Peri, ben hiçbir şey görmüyorum!  
-`331` *Torbanın fermuarı açılıyor; gelinliğin uzun kuyruğu kaldırıma yayılıyor. Peri kuyruğa basıp kayıyor, bir çiçekçinin kovalarının arasına düşüyor.*  
+`331` *Elbise kılıfının fermuarı açılıyor; gelinliğin uzun kuyruğu kaldırıma yayılıyor. Peri kuyruğa basıp kayıyor, bir çiçekçinin kovalarının arasına düşüyor.*  
 `332` *Bir düğün fotoğrafçısı koşup flaşını ıslak, güllere bulanmış Peri'ye patlatıyor.*  
 `333` **FOTOĞRAFÇI:** Gelin hanım, buraya bakın! Harika! Bir daha!  
 `334` **PERİ:** Ben gelin değilim!  
-`335` *Kuyruğun ucu Peri'nin ayağına dolanmış. Peri doğrulunca kuyruk geriliyor; torba Müzeyyen'i geri çekiyor, Müzeyyen bir banka oturuveriyor. Duvaklı Cengo yetişip torbayı tutuyor.*  
+`335` *Kuyruğun ucu Peri'nin ayağına dolanmış. Peri doğrulunca kuyruk geriliyor; elbise kılıfı Müzeyyen'i geri çekiyor, Müzeyyen bir banka oturuveriyor. Duvaklı Cengo yetişip kılıfı tutuyor.*  
 `336` **TEYZE:** *(Peri'yle Cengo'yu göstererek)* Allah bir yastıkta kocatsın, evladım!  
 `337` *Peri kuyruğun ucu elinde, güllü, çenesi havada duruyor.*  
 `338` **PERİ:** Kuyruğu ben tuttum.  
-`339` *Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.*  
+`339` *Müzeyyen elbise kılıfının cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.*  
 `340` *Kalfa atölyeden koşarak geliyor; elinde bir havlu ve tül bir şal. Şalı Peri'nin ıslak omuzlarına atıyor.*  
 `341` **DİLEK:** Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı.  
-`342` *Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.*  
+`342` *Jale arkadan geliyor; elbise kılıfını Cengo'dan alıp gelinliğin eteğine bakıyor.*  
 `343` **JALE:** Etek ıslak. Kurur.  
 `344` **PERİ:** Ben de kururum, Jale Hanım.  
-`345` *Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.*  
+`345` *Jale elbise kılıfıyla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.*  
 `346` **MÜZEYYEN:** Tamam. Ben yazdım. Hepsini ben yazdım.  
 `347` **MÜZEYYEN:** Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak.  
 `348` **MÜZEYYEN:** Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo.  
 `349` **MÜZEYYEN:** Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum.  
 `350` **MÜZEYYEN:** Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim.  
 `351` **MÜZEYYEN:** Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum.  
-`352` **MÜZEYYEN:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum.  
+`352` **MÜZEYYEN:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü elbise kılıfına ben koydum.  
 `353` **MÜZEYYEN:** "Herkes öğrenir" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok.  
 `354` **MÜZEYYEN:** Bugün de dördüncüsünü koymuştum. Jale "açıyorum" deyince korktum.  
 `355` *Müzeyyen hırkasının cebinden katlanmış kâğıdı çıkarıp Peri'ye uzatıyor.*  
@@ -331,19 +331,19 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 
 ## 7. Cengo'nun söylenmeyen kanıt satırları (YENİ düzen)
 
-`373` **prova_torba:** Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi.  
+`373` **prova_torba:** Elbise kılıfını o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi.  
 `374` **tarih_sofra:** Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı?  
 `375` **kalip_kagit:** Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi.  
 `376` **jale_siparis:** Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı.  
 
 ## 8. Dosya kapandı kartı (çözüm)
 
-`383` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği torbayı yalnız iki kişi tuttu (Müzeyyen ya da Jale).  
+`383` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği elbise kılıfını yalnız iki kişi tuttu (Müzeyyen ya da Jale).  
 `384` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + mektuplar terzi kalıp kâğıdına yazılmıştı (Müzeyyen ya da Jale).  
-`385` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + torbayı tutan kalan tek kişi Müzeyyen'di.  
+`385` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + elbise kılıfını tutan kalan tek kişi Müzeyyen'di.  
 `386` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + kalıp kâğıdı kullanan kalan tek kişi, terzi Müzeyyen'di.  
 `387` **MASUM cengo:** Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.  
-`388` **MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.  
+`388` **MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; elbise kılıfına mektubu Müzeyyen Hanım koymuştu.  
 
 ## 9. Kanıt adları (Kim yaptı?)
 
@@ -354,7 +354,7 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 `397` **izmir_tayin:** İzmir tayini  
 `398` **bank_adam:** Banktaki adam  
 `399` **posta_elden:** Pulsuz mektuplar  
-`400` **prova_torba:** Torbayı tutanlar  
+`400` **prova_torba:** Elbise kılıfını tutanlar  
 `401` **jale_siparis:** Siparişin günü  
 `402` **jale_gizli:** Atölyenin sırrı  
 `403` **jale_soz:** Mektuptaki söz  
@@ -369,7 +369,7 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 `414` **HİKÂYE:** Gamze, Haldun Bey'le evlenmeye karar verdi. Haldun'un İzmir'e tayini çıkmıştı; düğünden sonra Gamze'yi ve Eylül'ü götürecekti. Gamze'nin annesi, emekli terzi Müzeyyen Hanım üst katta tek kalacaktı; Eylül de okulunu yarıda bırakacak, babası Cengo'yu bir daha göremeyecekti.  
 `415` **HİKÂYE:** Düğünün tarihi üç hafta önce bir pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül ve Müzeyyen. Eylül sofradan kalkıp tarihi babasına yazdı. Ertesi sabah Müzeyyen postayı alırken, kendi kalıp kâğıdına yazdığı ilk mektubu kutuya koydu ve "buldum" diye kızına götürdü.  
 `416` **HİKÂYE:** O cuma Gamze gelinliğini, bilmeden, Haldun'un eski eşi Jale'nin Bahariye'deki atölyesine ısmarladı. Jale gelini tanıdı ama sustu: atölye borçtaydı. Düğünün tarihini de o gün öğrendi. "Herkes öğrenecek" sözünü iki yıl önce boşanırken söylemişti; Müzeyyen bunu kızından duymuş, mektuba yazmıştı.  
-`417` **HİKÂYE:** İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin torbasına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.  
+`417` **HİKÂYE:** İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin elbise kılıfına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.  
 `418` **HİKÂYE:** Mektuplar Gamze'yi düğünü iptal etmenin eşiğine getirdi. Müzeyyen bir şey daha yaptı: torununa "Baban dedektif, git ona" dedi. Cengo'nun bulamayacağını sanıyordu; bir de kız babasını görsün istiyordu.  
 
 ## 12a. Karar — Yazanı söyle

@@ -26,7 +26,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## sahne giris
 ⚙ arka: A6 · figurler: peri, cengo · set: mesai · cset: utulu
 ⚙ akış: Büro, öğleden sonra. Peri ayakları masada. Cengo ütülü gömlekle girer. Çekicilik anı (Eylül gelmeden), Peri masasına döner, kapı çalar, Eylül girer. Gizem çay ocağından tepsiyle gelir. Eylül sonunda Gizem'le çıkar.
-⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Cengo, Jale) anılıyor, Müzeyyen suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (sofrada kim vardı, Eylül'ün mesajı, bank, torbayı kim tuttu, sipariş günü, kalıp kâğıdı, "herkes öğrenecek" sözü).
+⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Cengo, Jale) anılıyor, Müzeyyen suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (sofrada kim vardı, Eylül'ün mesajı, bank, elbise kılıfını kim tuttu, sipariş günü, kalıp kâğıdı, "herkes öğrenecek" sözü).
 
 *Öğleden sonra. Büro. Peri ayakları masada, bir dergi okuyor: dar bir kot, belde düğümlü beyaz bir gömlek, at kuyruğu.* {gizle: cengo, kare: K115}
 *Cengo kapının önünde duruyor: kolalı, ütülü açık mavi bir gömlek, taranmış saç, cilalı ayakkabı.* {gir: cengo, kare: K119}
@@ -61,7 +61,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **EYLÜL [normal]:** Üçünde de aynı şey yazıyor: "Bu düğün olursa herkes öğrenir." Pul yok, gönderen yok. {kare: D18}
 **PERİ [merakli]:** Nereden geldiler, Eylül? {gir: eylul, kime: eylul, ekran: peri+eylul, yuz: eylul.normal}
 **EYLÜL [normal]:** İlki üç hafta önce bir salı sabahı apartmanın posta kutusundan çıktı. İkincisi de kutudan. {kime: peri, ekran: peri+eylul, yuz: peri.merakli}
-**EYLÜL [normal]:** Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin torbasının cebindeymiş. {ekran: peri+eylul, yuz: peri.merakli}
+**EYLÜL [normal]:** Üçüncüsü geçen cumartesi Kadıköy'de, annemin gelinlik provasında. Gelinliğin elbise kılıfının cebindeymiş. {ekran: peri+eylul, yuz: peri.merakli}
 **EYLÜL [uzgun]:** Annem düğünü iptal etmek istiyor. Haldun amcaya "ne saklıyorsun" diye bağırıyor; o da "hiçbir şey" diyor. {ekran: peri+eylul, yuz: peri.merakli}
 **PERİ [merakli]:** Mektupları kimin yazdığını düşünüyorlar? {kime: eylul, ekran: peri+eylul, yuz: eylul.uzgun}
 **EYLÜL [uzgun]:** Annem "babandır" diyor: "Baban bu düğünü istemez." Ben inanmıyorum. O yüzden sana geldim, baba. {kime: cengo, ekran: cengo+eylul, yuz: cengo.normal}
@@ -163,18 +163,18 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## ipucu kalfa
 ⚙ arka: A45 · figurler: peri, cengo · set: mesai · cset: utulu
 ⚙ akış: Kadıköy, Bahariye. Vitrininde tüller olan dar bir gelinlik atölyesi; içeride mankenler, askılarda gelinlikler. Kalfa vitrinde bir mankenin duvağını iğneliyor; Peri'yi tanır.
-⚙ Kural 21c: torbayı yalnız iki kişi tuttu: atölyenin sahibi Jale ve gelinin annesi Müzeyyen. Cengo provada yoktu.
+⚙ Kural 21c: elbise kılıfını yalnız iki kişi tuttu: atölyenin sahibi Jale ve gelinin annesi Müzeyyen. Cengo provada yoktu.
 
 *Kadıköy, Bahariye. Vitrininde beyaz tüller asılı dar bir gelinlik atölyesi.* {arka: A45, mekan}
 *İçeride mankenler, askılarda gelinlikler. Boynunda mezura, ağzında toplu iğneler olan genç bir kalfa.* {gir: dilek, gi: normal, ekran: dilek}
 *Kalfa Peri'yi görünce ağzındaki iğneleri yere düşürüyor.* {gir: dilek, gi: heyecanli, ekran: peri+dilek, yuz: peri.normal}
 **DİLEK [heyecanli]:** Siz Peri Hanım'sınız! Güzellik kraliçesi! Annemle sizi televizyonda izlerdik! {kime: peri, ekran: peri+dilek, yuz: peri.normal}
 **PERİ [kas]:** Eskiden, canım. Şimdi dedektifim. Geçen cumartesiki provayı soracağız. {kime: dilek, ekran: peri+dilek, yuz: dilek.heyecanli}
-**DİLEK [normal]:** Gamze Hanım'ın provası. Torbadan mektup çıktı diye ağladı, kadıncağız. {kime: peri, ekran: peri+dilek, yuz: peri.kas}
-**PERİ [merakli]:** Gelinliği torbaya kim koydu? Gelin o sırada neredeydi? {kime: dilek, ekran: peri+dilek, yuz: dilek.normal}
+**DİLEK [normal]:** Gamze Hanım'ın provası. Elbise kılıfından mektup çıktı diye ağladı, kadıncağız. {kime: peri, ekran: peri+dilek, yuz: peri.kas}
+**PERİ [merakli]:** Gelinliği elbise kılıfına kim koydu? Gelin o sırada neredeydi? {kime: dilek, ekran: peri+dilek, yuz: dilek.normal}
 **DİLEK [normal]:** Gelin kabindeydi, perdenin arkasında üstünü değiştiriyordu. {kime: peri, ekran: peri+dilek, yuz: peri.merakli}
-**DİLEK [normal]:** Gelinliği torbaya patron koydu. Gelinin annesi de askıyı tuttu. {ekran: peri+dilek, yuz: peri.merakli}
-**DİLEK [normal]:** Patron makas almaya arkaya gitti, sonra dönüp torbayı kapattı. O ikisinden başka torbaya el değmedi. {ekran: peri+dilek, yuz: peri.merakli}
+**DİLEK [normal]:** Gelinliği elbise kılıfına patron koydu. Gelinin annesi de askıyı tuttu. {ekran: peri+dilek, yuz: peri.merakli}
+**DİLEK [normal]:** Patron makas almaya arkaya gitti, sonra dönüp elbise kılıfını kapattı. O ikisinden başka kılıfa el değmedi. {ekran: peri+dilek, yuz: peri.merakli}
 **CENGO [kas]:** Sen neredeydin? {kime: dilek, ekran: cengo+dilek, yuz: dilek.normal}
 **DİLEK [normal]:** Vitrinde, mankenin duvağını iğneliyordum. Hepsini oradan gördüm. {kime: cengo, ekran: cengo+dilek, yuz: cengo.kas}
 **PERİ [merakli]:** Patronunuz kim? {kime: dilek, ekran: peri+dilek, yuz: dilek.normal}
@@ -262,94 +262,94 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ## sahne yuzlesme_dogru
 ⚙ arka: A45 · figurler: peri, cengo · set: mesai · cset: utulu
-⚙ akış: Cuma 18.00, Bahariye'deki atölye. Ortak açılış: gelinlik askıda, torbasının içinde; Müzeyyen teslim almaya gelmiş; Jale makbuzu yazmaya arkaya geçer. Suçlama; Jale döner, torbayı açmak ister; Müzeyyen torbayı kapıp kaçar.
+⚙ akış: Cuma 18.00, Bahariye'deki atölye. Ortak açılış: gelinlik askıda, elbise kılıfının içinde; Müzeyyen teslim almaya gelmiş; Jale makbuzu yazmaya arkaya geçer. Suçlama; Jale döner, elbise kılıfını açmak ister; Müzeyyen elbise kılıfını kapıp kaçar.
 ⚙ Oyuncu hangi doğru çifti seçtiyse seçsin aynı sahne; kanıtı adıyla anmaz.
 
-*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
 **PERİ [normal]:** Mektupları kim yazdı, biliyorum. Söylemeye geldim. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.normal}
 **PERİ [kas]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.normal}
 **MÜZEYYEN [gergin]:** Ben mi? Kızımın mutluluğunu en çok ben isterim… {kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
 **PERİ [kas]:** Elimde iki kanıt var. İkisi de sizi gösteriyor. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.gergin}
 *Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz, ekran: jale}
-**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
-*Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
+**JALE [makbuz]:** Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
+*Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
 
 ## sahne yuzlesme_zayif
 ⚙ arka: A45 · figurler: peri, cengo · set: mesai · cset: utulu
-⚙ akış: Ortak açılış; Peri inandıramaz; Jale döner, torbayı açmak ister; Müzeyyen kaçar.
+⚙ akış: Ortak açılış; Peri inandıramaz; Jale döner, elbise kılıfını açmak ister; Müzeyyen kaçar.
 
-*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
 **PERİ [normal]:** Müzeyyen Hanım. Mektupları siz yazdınız. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.normal}
 **MÜZEYYEN [gergin]:** Ben mi, kızım? Ben altmış yaşında bir kadınım. Kanıtınız ne? {kime: peri, ekran: peri+muzeyyen, yuz: peri.normal}
 **PERİ [utanmis]:** …Elimde bir şey var, ama sizi ikna edecek kadar değil. {kime: muzeyyen, ekran: peri+muzeyyen, yuz: muzeyyen.gergin}
 *Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz, ekran: jale}
-**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
-*Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
+**JALE [makbuz]:** Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
+*Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
 
 ## sahne yuzlesme_cengo
 ⚙ arka: A45 · figurler: peri, cengo · set: mesai · cset: utulu
-⚙ akış: Ortak açılış; Peri Cengo'yu suçlar, Cengo kendini savunur (bank); Müzeyyen başını çevirir; Jale döner, torbayı açmak ister; Müzeyyen kaçar.
+⚙ akış: Ortak açılış; Peri Cengo'yu suçlar, Cengo kendini savunur (bank); Müzeyyen başını çevirir; Jale döner, elbise kılıfını açmak ister; Müzeyyen kaçar.
 
-*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
 **PERİ [kas]:** Cengo. Mektupları sen yazdın. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 **CENGO [sinirli]:** Ben mi? Ben mektup yazmam, Peri. Ben bankta otururum; kızım beni görmesin diye uzaktan bakarım. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 **CENGO [yumusak]:** Bu düğünü istemesem Gamze'ye gider, yüzüne söylerdim. Kızımın annesini korkutmam. {ekran: peri+cengo, yuz: peri.kas}
 *Müzeyyen başını çeviriyor; Cengo'nun yüzüne bakmıyor.* {gir: muzeyyen, gi: gergin, kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.yumusak}
 *Jale elinde makbuzla dönüyor.* {gir: jale, gi: makbuz, ekran: jale}
-**JALE [makbuz]:** Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
-*Müzeyyen torbayı askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
+**JALE [makbuz]:** Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Açıyorum. {kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.gergin}
+*Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor.* {cik, kare: K99}
 
 ## sahne yuzlesme_jale
 ⚙ arka: A45 · figurler: peri, cengo · set: mesai · cset: utulu
-⚙ akış: Ortak açılış; Peri Jale'yi arkadan çağırır; Jale kendini savunur, torbayı kendisi açmak ister; Müzeyyen torbayı kapıp kaçar.
+⚙ akış: Ortak açılış; Peri Jale'yi arkadan çağırır; Jale kendini savunur, elbise kılıfını kendisi açmak ister; Müzeyyen elbise kılıfını kapıp kaçar.
 
-*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, torbasının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
-**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse torbaya dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
-*Jale arkaya geçiyor. Müzeyyen torbanın başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
+*Cuma akşamı. Bahariye'deki atölye. Gelinlik askıda, elbise kılıfının içinde. Müzeyyen Hanım teslim almaya gelmiş; Jale tezgâhta, kalfa vitrinde.* {kare: K98}
+**JALE [soguk]:** Makbuzu arkada yazıp geliyorum. Kimse elbise kılıfına dokunmasın. {gir: jale, kime: muzeyyen, ekran: jale+muzeyyen, yuz: muzeyyen.normal}
+*Jale arkaya geçiyor. Müzeyyen elbise kılıfının başında bekliyor.* {gir: muzeyyen, gi: normal, ekran: jale+muzeyyen, yuz: jale.soguk}
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
 **PERİ [kas]:** Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız. {gir: jale, kime: jale, ekran: peri+jale, yuz: jale.soguk}
 **JALE [ofkeli]:** Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım? {kime: peri, ekran: peri+jale, yuz: peri.kas}
-**JALE [uzaniyor]:** *(torbaya uzanarak)* Cumartesiden beri hiçbir torbayı içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. {kare: K123}
-*Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor.* {cik, kare: K99j}
+**JALE [uzaniyor]:** *(kılıfa uzanarak)* Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. {kare: K123}
+*Müzeyyen elbise kılıfını Jale'nin elinden kapıp kapıya koşuyor.* {cik, kare: K99j}
 
 ## sahne kovalamaca
 ⚙ arka: A49 · figurler: peri, cengo · set: mesai · cset: utulu
-⚙ akış: Atölyenin kapısı (Cengo duvaklı mankenle çarpışır) → Bahariye Caddesi (kuyruk açılır, Peri çiçekçinin kovalarına düşer) → fotoğrafçı Peri'yi gelin sanar → kuyruk gerilir, Müzeyyen banka oturur; Cengo torbayı tutar, teyze → Müzeyyen torbanın cebinden bir şey alıp hırkasına koyar → kalfa şal getirir, Jale torbayı alıp atölyeye döner → itiraf (bankta, Peri ve Cengo'ya).
+⚙ akış: Atölyenin kapısı (Cengo duvaklı mankenle çarpışır) → Bahariye Caddesi (kuyruk açılır, Peri çiçekçinin kovalarına düşer) → fotoğrafçı Peri'yi gelin sanar → kuyruk gerilir, Müzeyyen banka oturur; Cengo elbise kılıfını tutar, teyze → Müzeyyen elbise kılıfının cebinden bir şey alıp hırkasına koyar → kalfa şal getirir, Jale elbise kılıfını alıp atölyeye döner → itiraf (bankta, Peri ve Cengo'ya).
 ⚙ Her sonuçta aynı. Peri erotik + gülünç, felaketi gelinlik kuyruğu + çiçekçinin suyu + gül yaprakları; Müzeyyen'i şans (Peri'nin ayağına dolanan kuyruk) durdurur. Kural 18: Müzeyyen düşmez, alay edilmez; kendisi oturur. Jale ve kalfa itirafı duymaz (kim neyi biliyor, form §12).
 
-*Müzeyyen torbayla Bahariye Caddesi'ne fırlıyor. Cengo peşinden atılırken kapıdaki duvaklı mankenle çarpışıyor; duvak başına geçiyor.* {kare: K100, cset: duvakli}
+*Müzeyyen elbise kılıfıyla Bahariye Caddesi'ne fırlıyor. Cengo peşinden atılırken kapıdaki duvaklı mankenle çarpışıyor; duvak başına geçiyor.* {kare: K100, cset: duvakli}
 **CENGO [kas]:** Görmüyorum! Peri, ben hiçbir şey görmüyorum! {kare: K100}
-*Torbanın fermuarı açılıyor; gelinliğin uzun kuyruğu kaldırıma yayılıyor. Peri kuyruğa basıp kayıyor, bir çiçekçinin kovalarının arasına düşüyor.* {arka: A49, kare: K101, set: gullu, peri: sinirli}
+*Elbise kılıfının fermuarı açılıyor; gelinliğin uzun kuyruğu kaldırıma yayılıyor. Peri kuyruğa basıp kayıyor, bir çiçekçinin kovalarının arasına düşüyor.* {arka: A49, kare: K101, set: gullu, peri: sinirli}
 *Bir düğün fotoğrafçısı koşup flaşını ıslak, güllere bulanmış Peri'ye patlatıyor.* {kare: K102}
 **FOTOĞRAFÇI:** Gelin hanım, buraya bakın! Harika! Bir daha! {kare: K102}
 **PERİ [sinirli]:** Ben gelin değilim! {kare: K102}
-*Kuyruğun ucu Peri'nin ayağına dolanmış. Peri doğrulunca kuyruk geriliyor; torba Müzeyyen'i geri çekiyor, Müzeyyen bir banka oturuveriyor. Duvaklı Cengo yetişip torbayı tutuyor.* {kare: K103}
+*Kuyruğun ucu Peri'nin ayağına dolanmış. Peri doğrulunca kuyruk geriliyor; elbise kılıfı Müzeyyen'i geri çekiyor, Müzeyyen bir banka oturuveriyor. Duvaklı Cengo yetişip kılıfı tutuyor.* {kare: K103}
 **TEYZE:** *(Peri'yle Cengo'yu göstererek)* Allah bir yastıkta kocatsın, evladım! {kare: K103}
 *Peri kuyruğun ucu elinde, güllü, çenesi havada duruyor.* {kare: K104}
 **PERİ [kas]:** Kuyruğu ben tuttum. {kare: K104}
-*Müzeyyen torbanın cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.* {gir: muzeyyen, gi: gergin, kare: K113}
+*Müzeyyen elbise kılıfının cebinden katlanmış bir kâğıt alıp hırkasının cebine koyuyor.* {gir: muzeyyen, gi: gergin, kare: K113}
 *Kalfa atölyeden koşarak geliyor; elinde bir havlu ve tül bir şal. Şalı Peri'nin ıslak omuzlarına atıyor.* {kare: K105, set: tul}
 **DİLEK [heyecanli]:** Peri Hanım, böyle bile çok güzelsiniz. Fotoğrafçı haklıydı. {gir: dilek, kime: peri, ekran: peri+dilek, yuz: peri.kas}
-*Jale arkadan geliyor; torbayı Cengo'dan alıp gelinliğin eteğine bakıyor.* {gir: jale, gi: soguk, kare: K114}
+*Jale arkadan geliyor; elbise kılıfını Cengo'dan alıp gelinliğin eteğine bakıyor.* {gir: jale, gi: soguk, kare: K114}
 **JALE [soguk]:** Etek ıslak. Kurur. {kime: peri, kare: K114}
 **PERİ [kas]:** Ben de kururum, Jale Hanım. {kime: jale, kare: K114}
-*Jale torbayla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.* {cik, kare: K117}
+*Jale elbise kılıfıyla, kalfa arkasından, atölyeye dönüyor. Bankta Müzeyyen, Peri ve Cengo kalıyor.* {cik, kare: K117}
 **MÜZEYYEN [itiraf]:** Tamam. Ben yazdım. Hepsini ben yazdım. {gir: muzeyyen, kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
 **MÜZEYYEN [itiraf]:** Haldun ikisini de İzmir'e götürecek. Eylül okulunun ortasında her şeyi bırakacak. {ekran: peri+muzeyyen, yuz: peri.kas}
 **MÜZEYYEN [itiraf]:** Ben bu yaşta tek kalacağım. Sen de kızını bir daha göremeyeceksin, Cengo. {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.kas}
 **MÜZEYYEN [itiraf]:** Her cumartesi karşıdaki bankta oturup onu beklediğini yukarıdan görüyorum, oğlum. {ekran: cengo+muzeyyen, yuz: cengo.kas}
 **MÜZEYYEN [itiraf]:** Söylesem kimse dinlemezdi. Düğün ertelensin, tayin başkasına gitsin istedim. {ekran: cengo+muzeyyen, yuz: cengo.kas}
 **MÜZEYYEN [itiraf]:** Tarihi sofrada duydum. Ertesi sabah postayı alırken ilk mektubu kutuya ben koydum. {kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
-**MÜZEYYEN [itiraf]:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü torbaya ben koydum. {ekran: peri+muzeyyen, yuz: peri.kas}
+**MÜZEYYEN [itiraf]:** Kâğıt benim kalıp kâğıdım. Provada Jale arkaya gidince üçüncüsünü elbise kılıfına ben koydum. {ekran: peri+muzeyyen, yuz: peri.kas}
 **MÜZEYYEN [itiraf]:** "Herkes öğrenir" lafını Gamze'nin anlattığından aldım. Kimsenin bir sırrı yok. {ekran: peri+muzeyyen, yuz: peri.kas}
 **MÜZEYYEN [itiraf]:** Bugün de dördüncüsünü koymuştum. Jale "açıyorum" deyince korktum. {ekran: peri+muzeyyen, yuz: peri.kas}
 *Müzeyyen hırkasının cebinden katlanmış kâğıdı çıkarıp Peri'ye uzatıyor.* {kare: D21}
@@ -370,7 +370,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 22c: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Örnek (taslak); diğer doğru
 ⚙ kanıtların satırı Oğuz Bey'de (yoksa Cengo susar, kart yine gösterir). Biçim: **olgu [Cengo ifadesi]:** metin {yuz: peri.x}.
 
-**prova_torba [normal]:** Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi. {yuz: peri.kas}
+**prova_torba [normal]:** Elbise kılıfını o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi. {yuz: peri.kas}
 **tarih_sofra [normal]:** Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı? {yuz: peri.kas}
 **kalip_kagit [normal]:** Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi. {yuz: peri.kas}
 **jale_siparis [normal]:** Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı. {yuz: peri.kas}
@@ -380,12 +380,12 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## cozum
 ⚙ "Dosya çözüldü" ekranı. YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: neden masum (yalnız yüzleşme + itirafın söylediği).
 
-**YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği torbayı yalnız iki kişi tuttu (Müzeyyen ya da Jale).
+**YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği elbise kılıfını yalnız iki kişi tuttu (Müzeyyen ya da Jale).
 **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + mektuplar terzi kalıp kâğıdına yazılmıştı (Müzeyyen ya da Jale).
-**YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + torbayı tutan kalan tek kişi Müzeyyen'di.
+**YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + elbise kılıfını tutan kalan tek kişi Müzeyyen'di.
 **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + kalıp kâğıdı kullanan kalan tek kişi, terzi Müzeyyen'di.
 **MASUM cengo:** Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.
-**MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.
+**MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; elbise kılıfına mektubu Müzeyyen Hanım koymuştu.
 
 ## kanit
 ⚙ Kim yaptı? ekranında kanıtın kısa adı. Ad olgunun kendi metninde olanı söyler, fazlasını değil (Nurcan): kişiyi suçlamaz, olayı adlandırır. 2–4 kelime.
@@ -397,7 +397,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **izmir_tayin:** İzmir tayini
 **bank_adam:** Banktaki adam
 **posta_elden:** Pulsuz mektuplar
-**prova_torba:** Torbayı tutanlar
+**prova_torba:** Elbise kılıfını tutanlar
 **jale_siparis:** Siparişin günü
 **jale_gizli:** Atölyenin sırrı
 **jale_soz:** Mektuptaki söz
@@ -414,7 +414,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **HİKÂYE:** Gamze, Haldun Bey'le evlenmeye karar verdi. Haldun'un İzmir'e tayini çıkmıştı; düğünden sonra Gamze'yi ve Eylül'ü götürecekti. Gamze'nin annesi, emekli terzi Müzeyyen Hanım üst katta tek kalacaktı; Eylül de okulunu yarıda bırakacak, babası Cengo'yu bir daha göremeyecekti.
 **HİKÂYE:** Düğünün tarihi üç hafta önce bir pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül ve Müzeyyen. Eylül sofradan kalkıp tarihi babasına yazdı. Ertesi sabah Müzeyyen postayı alırken, kendi kalıp kâğıdına yazdığı ilk mektubu kutuya koydu ve "buldum" diye kızına götürdü.
 **HİKÂYE:** O cuma Gamze gelinliğini, bilmeden, Haldun'un eski eşi Jale'nin Bahariye'deki atölyesine ısmarladı. Jale gelini tanıdı ama sustu: atölye borçtaydı. Düğünün tarihini de o gün öğrendi. "Herkes öğrenecek" sözünü iki yıl önce boşanırken söylemişti; Müzeyyen bunu kızından duymuş, mektuba yazmıştı.
-**HİKÂYE:** İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin torbasına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.
+**HİKÂYE:** İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin elbise kılıfına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.
 **HİKÂYE:** Mektuplar Gamze'yi düğünü iptal etmenin eşiğine getirdi. Müzeyyen bir şey daha yaptı: torununa "Baban dedektif, git ona" dedi. Cengo'nun bulamayacağını sanıyordu; bir de kız babasını görsün istiyordu.
 
 ## karar yazani_soyle
@@ -495,20 +495,20 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka6_
 | D21 | Müzeyyen'in elinde katlanmış ince bir kâğıt, Peri'ye uzatıyor (yazı görünmez) | kovalamaca sonu |
 | K96 | Peri Cengo'nun gömleğinin yakasını düzeltiyor, onu süzüyor (Eylül yok) | giriş, çekicilik |
 | K97 | Eylül Cengo'ya sarılmış; Peri'nin elinden dergi düşüyor | giriş |
-| K98 | Cuma akşamı atölye: gelinlik torbası askıda; Müzeyyen başında, Jale tezgâhta, kalfa vitrinde; Peri ve Cengo kapıda | yüzleşme açılışı (dört sonuç) |
-| K99 | Müzeyyen torbayı askıdan kapıp kapıya koşuyor; Jale elinde makbuz | yüzleşme kaçışı (doğru, zayıf, cengo) |
-| K99j | Müzeyyen torbayı Jale'nin elinden kapıp kapıya koşuyor; Jale'nin eli torbanın boşalan yerinde (makbuz yok) | yüzleşme kaçışı (dört sonuç) |
+| K98 | Cuma akşamı atölye: gelinliğin elbise kılıfı askıda; Müzeyyen başında, Jale tezgâhta, kalfa vitrinde; Peri ve Cengo kapıda | yüzleşme açılışı (dört sonuç) |
+| K99 | Müzeyyen elbise kılıfını askıdan kapıp kapıya koşuyor; Jale elinde makbuz | yüzleşme kaçışı (doğru, zayıf, cengo) |
+| K99j | Müzeyyen elbise kılıfını Jale'nin elinden kapıp kapıya koşuyor; Jale'nin eli elbise kılıfının boşalan yerinde (makbuz yok) | yüzleşme kaçışı (dört sonuç) |
 | K100 | Cengo duvaklı mankenle çarpışmış, duvak başında | kovalamaca 1 |
 | K101 | Peri çiçekçinin kovalarının arasına düşmüş, ıslak gömlek (altında siyah atlet), güller, bacaklar havada | kovalamaca 2 |
 | K102 | fotoğrafçı flaş patlatıyor; Peri ıslak, güllü, bir eli belinde, öbürüyle itiyor | kovalamaca 3 |
-| K103 | kuyruk gerilmiş, Müzeyyen bankta oturuyor, duvaklı Cengo torbayı tutuyor; bir teyze gösteriyor | kovalamaca 4 |
+| K103 | kuyruk gerilmiş, Müzeyyen bankta oturuyor, duvaklı Cengo elbise kılıfını tutuyor; bir teyze gösteriyor | kovalamaca 4 |
 | K104 | Peri kuyruğun ucu elinde, güllü, çenesi havada | kovalamaca sonu |
 | K105 | kalfa tül şalı Peri'nin omuzlarına atıyor | kovalamaca sonu |
 | K106–K109 | dört kararın ara karesi | kararlar |
 | K110 | Cengo masanın kenarında bilekliğini çeviriyor; Peri şallı; Gizem elinde tepsi ve telefon | kapanış |
 | K111 | gül yaprağı çöpte; Cengo kapıdan çıkıyor | kapanış (bağ düşük) |
-| K113 | kovalamaca, bank: Müzeyyen torbanın cebinden katlanmış kâğıdı alıp hırkasının cebine koyuyor; Peri ve Cengo kuyrukla uğraşıyor (yazı görünmez) | kovalamaca |
-| K114 | kovalamaca sonu: Jale torbayı Cengo'dan almış, gelinliğin ıslak eteğine bakıyor; Peri tül şallı, ıslak; duvaklı Cengo, kalfa (üç satır) | kovalamaca sonu |
+| K113 | kovalamaca, bank: Müzeyyen elbise kılıfının cebinden katlanmış kâğıdı alıp hırkasının cebine koyuyor; Peri ve Cengo kuyrukla uğraşıyor (yazı görünmez) | kovalamaca |
+| K114 | kovalamaca sonu: Jale elbise kılıfını Cengo'dan almış, gelinliğin ıslak eteğine bakıyor; Peri tül şallı, ıslak; duvaklı Cengo, kalfa (üç satır) | kovalamaca sonu |
 | K112 | Peri gül yaprağını Cengo'ya uzatıyor, Cengo alıp gömleğinin cebine koyuyor; Gizem arkada, elinde tepsi ve telefon (üç satır) | kapanış (bağ yüksek) |
 | K115 | Giriş açılışı: Peri ayakları masada, dergi okuyor (yalnız) | giriş |
 | K116 | Haldun'un odası: Peri bir Cengo'ya, bir Haldun'a bakıyor | Haldun |
@@ -518,7 +518,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka6_
 | K120 | Eylül eşikte, sırt çantalı (yalnız) | giriş |
 | K121 | Eylül Peri'yi süzüp babasının koluna giriyor | giriş |
 | K122 | Apartman önü: kapıcı süpürgeyi duvara dayıyor, Cengo'ya gülümsüyor | apartman |
-| K123 | Atölye: Jale gelinlik torbasının fermuarına uzanıyor; Müzeyyen yanında, Peri geride | yüzleşme (Jale yolu) |
+| K123 | Atölye: Jale gelinliğin elbise kılıfının fermuarına uzanıyor; Müzeyyen yanında, Peri geride | yüzleşme (Jale yolu) |
 | Peri `mesai` | normal, kas, merakli, sasirmis, utanmis | her yerde |
 | Peri `gullu` | sinirli, kas | kovalamaca |
 | Peri `tul` | normal, kas, yumusak | kovalamaca sonu, kapanış |
@@ -529,7 +529,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka6_
 | Eylül | sevincli, kiskanc, gulen, uzgun, normal | giriş (kural 16: yalnız masum) |
 | Haldun | dertli, normal, yumusak | haldun |
 | Müzeyyen | normal, tepsi (elinde börek tepsisi, güler), tepsi_uzgun (tepsi, üzgün), uzgun, gergin, itiraf | anneanne, yüzleşme, kovalamaca |
-| Jale | soguk, kacamak, ofkeli, normal, makbuz (elinde makbuz, soğuk), uzaniyor (öfkeli, eli torbaya uzanmış) | jale, yüzleşme, kovalamaca |
+| Jale | soguk, kacamak, ofkeli, normal, makbuz (elinde makbuz, soğuk), uzaniyor (öfkeli, eli elbise kılıfına uzanmış) | jale, yüzleşme, kovalamaca |
 | Recep (kapıcı) | normal, gulen, supurge (elinde süpürge) | kapici |
 | Dilek (kalfa) | normal, heyecanli | kalfa, kovalamaca |
 | Tahsin Usta | gulen, normal | matbaa |
