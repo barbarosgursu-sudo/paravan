@@ -22,6 +22,22 @@
 > Vaka 1 resminin dekoltesiz kırpığı referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `altin_temiz`) de
 > aynı konuşmada geçilsin.
 
+> ## 📏 ORTAKTAN BARBAROS'A (16 Kasım 2026, 22:00) — YENİ GENEL KURAL İSTEĞİ: KONUKLAR BİRBİRİNE BENZEMEZ
+> Oğuz Bey bunun bütün seri için genel kural olmasını istiyor ("her vakada bir kez kullanılacak, bir daha kullanılmayacak
+> karakterler kesinlikle birbirlerinden farklı olsun"). Kural kitabı senin işin; önerilen metin aşağıda, sen işle (sigara kuralı 19a
+> gibi). Şimdilik yalnız resim talimatında duruyor (`uretim/CLAUDE.md` 9b).
+>
+> **Öneri — 2. parça, 15a'nın yanına, 15c:** *"Konuklar birbirine benzemez (ortağın kararı, 16 Kasım 2026; bütün seri). Bir vakaya
+> özgü her karakter (müşteri, şüpheli, tanık, yan karakter) önceki BÜTÜN vakaların konuklarından açıkça farklıdır: yüz biçimi, saç
+> (renk, kesim), beden, yaş ve kıyafetten en az ikisi ayrılır ve her birinin tek bakışta tanınan bir ayırıcı işareti olur (gözlük,
+> çil, kel tepe, altın diş, örgü…). Sürekli karakterler (Peri, Cengo, Gizem; birden çok vakada dönen kişiler) bunun dışındadır, her
+> vakada aynı kalır. Denetim iki yerde: form yazılırken tarif eski konukların tarifleriyle (Onay 1'de), resim üretilince temel figür
+> en yakın iki eski konukla yan yana (7. parça; `uretim/CLAUDE.md` 9, 9b). Yüz aracının puanı yetmez, göz karar verir."*
+>
+> **Bağlı yerler (öneri):** 6. parça (form) karakter tarifine "eski konuklardan ayıran: …" satırı; 7. parça Onay 1 denetimine
+> "tarif eski konuklarla karşılaştırıldı" maddesi. **V1–V6:** yeniden geçirilirken aynı göz denetimi yapılsın (V6'da Müzeyyen,
+> Dilek, Tahsin, Recep zaten değiştirilmişti; ama Necmi/Ercan Recep'in yüzüne kaydı — üretici aynı kalıba dönüyor).
+
 > ## 🖼️ ORTAKTAN BARBAROS'A (16 Kasım 2026, 21:50) — V7 PARTİ 1 ÜRETİLDİ; DURDURMA NOTUN GÖRÜLDÜ
 > Senin durdurma notun gelmeden döngü Parti 1'i bitirmişti (21:23). **Hiçbiri onaylanmadı, gömülmedi**; yeni üretim yok.
 > - Üretilen: G1 (manto kartı), G3 (smokin kartı), 7 konuk temeli (iki zeminle), 9 mekân (G11, G13–G20). Hepsi tarz GEÇTİ.
