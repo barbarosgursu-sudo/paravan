@@ -14,7 +14,8 @@
    Peri'ye konuşuyorsa satıra `kime: peri` yazılır: Cengo eskisi gibi sağa geçer.
    Konuk satırında `kime: peri|cengo` solda kimin duracağını seçer (yoksa sol değişmez).
    Konuk satırında `kime: <başka konuk>` (SR-G, 8 Kasım 2026): konuşan konuk SOLA geçer (aynalı),
-   hitap edilen sağda; Peri o satırda ekranda değil. Peri/Cengo konuşunca ya da soldaki konuk
+   hitap edilen sağda; Peri o satırda ekranda değil. Aynı iki kişi karşılıklı konuşmayı sürdürürse
+   yerleri sabit kalır, yalnız konuşan aydınlanır (16 Kasım 2026; `ekran` etiketinin sırası o an ezilmez). Peri/Cengo konuşunca ya da soldaki konuk
    `kime`siz konuşunca sol yine Peri'ye döner. */
 
 /* Yeni oyunun motoru (motor_yeni.js, derlemede bu dosyadan hemen önce gömülür).
@@ -243,6 +244,9 @@ function vnFigurCiz(satir){
 
 function vnSatirGoster(satir){
   const $ = id => document.getElementById(id);
+  // Önceki satırın yerleşimi (aşağıdaki kurallar vn.sol/vn.sag'ı değiştirmeden önce) — ekran çifti sabitliği için.
+  const onceSol = vn.sol, onceSag = vn.sag, onceYalniz = vn.yalniz;
+  const onceMevcut = new Set(vn.mevcut), onceVar = x => onceMevcut.has(x);
   if(satir.set){ vn.set = satir.set; vnSonSet = satir.set; }
   if(satir.cset) vn.cset = satir.cset;   // Cengo'nun kıyafeti satır ortasında değişir (Vaka 3: un bulutu)
   if(satir.arka) vnArkaKoy(satir.arka, vn.hizli);
@@ -285,7 +289,12 @@ function vnSatirGoster(satir){
   if(satir.ekran){
     const e = String(satir.ekran).split("+").map(x => x.trim()).filter(Boolean);
     e.forEach(x => vn.mevcut.add(x));
-    if(e.length >= 2){ vn.sol = e[0]; vn.sag = e[1]; }
+    // Aynı iki kişi önceki satırda da ekrandaysa yerleri sabit kalır; yalnız konuşan aydınlanır (SR-G, 16 Kasım 2026,
+    // sahibinin kararı: Gizem ↔ Eylül her satırda yer değiştiriyordu). Peri hep solda, ona dokunulmaz.
+    const ayniCift = e.length >= 2 && !e.includes("peri") && onceSol === e[1] && onceSag === e[0]
+      && onceVar(e[0]) && onceVar(e[1]) && !onceYalniz;
+    if(ayniCift){ vn.sol = onceSol; vn.sag = onceSag; }
+    else if(e.length >= 2){ vn.sol = e[0]; vn.sag = e[1]; }
     else if(e[0] === "peri"){ vn.sol = "peri"; vn.sag = null; }
     else { vn.sag = e[0]; vn.sol = "peri"; vn.yalniz = true; }
   }
