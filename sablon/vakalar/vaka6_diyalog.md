@@ -368,12 +368,12 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ## cengo_kanit
 ⚙ Kural 22c: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Örnek (taslak); diğer doğru
-⚙ kanıtların satırı Oğuz Bey'de (yoksa Cengo susar, kart yine gösterir).
+⚙ kanıtların satırı Oğuz Bey'de (yoksa Cengo susar, kart yine gösterir). Biçim: **olgu [Cengo ifadesi]:** metin {yuz: peri.x}.
 
-**prova_torba:** Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi.
-**tarih_sofra:** Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı?
-**kalip_kagit:** Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi.
-**jale_siparis:** Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı.
+**prova_torba [normal]:** Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi. {yuz: peri.kas}
+**tarih_sofra [normal]:** Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı? {yuz: peri.kas}
+**kalip_kagit [normal]:** Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi. {yuz: peri.kas}
+**jale_siparis [normal]:** Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı. {yuz: peri.kas}
 
 ---
 
@@ -423,7 +423,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SEÇENEK:** “Haldun'a da Gamze'ye de söyleyeceğim.”
 **ÖNİZLEME:** Müzeyyen'in adını verirsin. Düğün olur, Gamze annesiyle küser.
 **SONUÇ:** Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.
-**CENGO:** Kadın yalnız kalmaktan korktu, Peri. Adını söylerken onu da söyledin mi?
+**CENGO [normal]:** Kadın yalnız kalmaktan korktu, Peri. Adını söylerken onu da söyledin mi? {yuz: peri.kas}
 **DEFTER:** Yazanın adını verdim. Anneanne en arka masadaydı.
 
 ## karar kendisi_soylesin
@@ -432,7 +432,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SEÇENEK:** “Düğünden önceki akşam siz söyleyeceksiniz.”
 **ÖNİZLEME:** Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gider.
 **SONUÇ:** Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."
-**CENGO:** Eylül okul bitene kadar Üsküdar'da. Cumartesileri o bank yine benim, Peri.
+**CENGO [normal]:** Eylül okul bitene kadar Üsküdar'da. Cumartesileri o bank yine benim, Peri. {yuz: peri.normal}
 **DEFTER:** Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da.
 
 ## karar parasini_al
@@ -441,7 +441,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SEÇENEK:** “Adınızı vermem. Ama bu iş bedava olmaz.”
 **ÖNİZLEME:** Haldun'a "yazan bulundu, bir daha yazmayacak" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir.
 **SONUÇ:** Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini bir zarfa koyup sana verdi. Düğün oldu; Gamze mektupları kimin yazdığını hiç öğrenmedi.
-**CENGO:** O zarf anneannenin kenara koyduğu para. Al ama bana gösterme, Peri; ben görmedim.
+**CENGO [normal]:** O zarf anneannenin kenara koyduğu para. Al ama bana gösterme, Peri; ben görmedim. {yuz: peri.kas}
 **DEFTER:** Adını vermedim. Müzeyyen'in zarfını aldım.
 
 ## karar cengoya_birak
@@ -450,7 +450,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SEÇENEK:** “Buna Cengo karar versin.”
 **ÖNİZLEME:** Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir.
 **SONUÇ:** Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek, kefili benim." Eylül babasına sarıldı: "Biliyordum." Sonra Peri'ye baktı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler.
-**CENGO:** Kızım beni büyük dedektif sandı. Sen de bir dakika öyle sandın, Peri; yüzünden gördüm.
+**CENGO [normal]:** Kızım beni büyük dedektif sandı. Sen de bir dakika öyle sandın, Peri; yüzünden gördüm. {yuz: peri.normal}
 **DEFTER:** Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı.
 
 ---

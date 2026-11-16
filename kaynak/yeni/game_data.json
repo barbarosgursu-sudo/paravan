@@ -6500,7 +6500,8 @@
           "onizleme": "Müzeyyen'in adını verirsin. Düğün olur, Gamze annesiyle küser.",
           "sonuc": "Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.",
           "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Kadın yalnız kalmaktan korktu, Peri. Adını söylerken onu da söyledin mi?"}],
-          "secenek": "“Haldun'a da Gamze'ye de söyleyeceğim.”"
+          "secenek": "“Haldun'a da Gamze'ye de söyleyeceğim.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.kas"}
         },
         {
           "id": "kendisi_soylesin",
@@ -6517,7 +6518,8 @@
               "metin": "Eylül okul bitene kadar Üsküdar'da. Cumartesileri o bank yine benim, Peri."
             }
           ],
-          "secenek": "“Düğünden önceki akşam siz söyleyeceksiniz.”"
+          "secenek": "“Düğünden önceki akşam siz söyleyeceksiniz.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
         },
         {
           "id": "parasini_al",
@@ -6534,7 +6536,8 @@
               "metin": "O zarf anneannenin kenara koyduğu para. Al ama bana gösterme, Peri; ben görmedim."
             }
           ],
-          "secenek": "“Adınızı vermem. Ama bu iş bedava olmaz.”"
+          "secenek": "“Adınızı vermem. Ama bu iş bedava olmaz.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.kas"}
         },
         {
           "id": "cengoya_birak",
@@ -6551,7 +6554,8 @@
               "metin": "Kızım beni büyük dedektif sandı. Sen de bir dakika öyle sandın, Peri; yüzünden gördüm."
             }
           ],
-          "secenek": "“Buna Cengo karar versin.”"
+          "secenek": "“Buna Cengo karar versin.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
         }
       ],
       "seeds": {},
@@ -6612,6 +6616,12 @@
           "tarih_sofra": "Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı?",
           "kalip_kagit": "Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi.",
           "jale_siparis": "Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı."
+        },
+        "cengo_kanit_replik": {
+          "prova_torba": {"i": "normal", "yuz": "peri.kas"},
+          "tarih_sofra": {"i": "normal", "yuz": "peri.kas"},
+          "kalip_kagit": {"i": "normal", "yuz": "peri.kas"},
+          "jale_siparis": {"i": "normal", "yuz": "peri.kas"}
         }
       },
       "anahtarlar": {

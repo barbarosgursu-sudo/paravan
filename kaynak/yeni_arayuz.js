@@ -809,8 +809,8 @@ function dosyaKartiIcerik(){
 
 // Kural 22c: Cengo yalnız ELDEKİ ama söylenmeyen doğru kanıtı söyler; metni yoksa susar.
 function cengoKanitSatirlari(ky, eksik){
-  const m = ky.cengo_kanit || {};
-  return eksik.filter(id => m[id]).map(id => ({ k: "cengo", m: m[id], kime: "peri", ekran: "peri+cengo" }));
+  const m = ky.cengo_kanit || {}, r = ky.cengo_kanit_replik || {};
+  return eksik.filter(id => m[id]).map(id => ({ k: "cengo", ...(r[id] || {}), m: m[id], kime: "peri", ekran: "peri+cengo" }));
 }
 
 /* Kasa şeridi: eski arayüzün ekranlarının üstündeki kasa çubuğu. Kasa yok (16 Kasım 2026, kural 24). */
@@ -840,7 +840,9 @@ kararVerFaz = function(id){
     satirlar: sonucParcala(r.sonuc).map(m => ({ k: "not", m, ...(d.kare ? { kare: d.kare } : {}) })) };
   // Cengo, büroda (kapanışın mekânı ve kıyafetleri): karar satırı + söylenmeyen doğru kanıt.
   const cengoSatirlar = [
-    ...(r.cengoSatir ? [{ k: "not", m: r.cengoSatir, ekran: "peri+cengo" }] : []),
+    // Etiketli satır (`**CENGO [ifade]:**`, veride d.cengo_replik) Cengo'nun repliği; etiketsiz eski satır anlatı.
+    ...(r.cengoSatir ? [d.cengo_replik ? { k: "cengo", ...d.cengo_replik, m: r.cengoSatir, kime: "peri", ekran: "peri+cengo" }
+                                      : { k: "not", m: r.cengoSatir, ekran: "peri+cengo" }] : []),
     ...(kart ? cengoKanitSatirlari(v.kim_yapti, kart.eksik) : []) ];
   const cengoSahne = cengoSatirlar.length ? { arka: kp.arka, set: kp.set, cset: kp.cset, figurler: ["peri", "cengo"], satirlar: cengoSatirlar } : null;
   sahneZinciri([sonucSahne, cengoSahne], dosyaKartiGoster, v.baslik);

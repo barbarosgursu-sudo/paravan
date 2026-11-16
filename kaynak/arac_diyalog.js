@@ -69,7 +69,11 @@ for (const ham of md) {
     continue;
   }
   if (hedef.tur === "cengo_kanit") {
-    if ((m = s.match(/^\*\*([a-z0-9_]+):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
+    // **olgu [ifade]:** metin {yuz: peri.x} — etiketli satır Cengo'nun ifadesini ve dinleyen Peri'nin yüzünü taşır (16 Kasım 2026).
+    if ((m = s.match(/^\*\*([a-z0-9_]+)(?:\s*\[(\w+)\])?:\*\*\s*(.+?)\s*(?:\{([^}]*)\})?$/))) {
+      hedef.metin[m[1]] = m[3].trim();
+      if (m[2]) (hedef.replik = hedef.replik || {})[m[1]] = { i: m[2], ...(m[4] ? ayar(m[4]) : {}) };
+    }
     else hatalar.push(`${satirNo}: cengo_kanit bölümünde tanınmayan satır`);
     continue;
   }
@@ -89,7 +93,12 @@ for (const ham of md) {
     continue;
   }
   if (hedef.tur === "karar") {
-    if ((m = s.match(/^\*\*(ÖNİZLEME|SEÇENEK|SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
+    // **CENGO [ifade]:** metin {yuz: peri.x} → Cengo'nun büroda repliği (16 Kasım 2026, etiket yöntemi);
+    // etiketsiz **CENGO:** eski düzende anlatı satırı kalır (V1–V5 yeniden geçirilene dek).
+    if ((m = s.match(/^\*\*CENGO\s*\[(\w+)\]:\*\*\s*(.+?)\s*(?:\{([^}]*)\})?$/))) {
+      hedef.metin.CENGO = m[2].trim(); hedef.cengoReplik = { i: m[1], ...(m[3] ? ayar(m[3]) : {}) };
+    }
+    else if ((m = s.match(/^\*\*(ÖNİZLEME|SEÇENEK|SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
     else hatalar.push(`${satirNo}: karar bölümünde tanınmayan satır`);
     continue;
   }
@@ -139,6 +148,7 @@ for (const [id, h] of Object.entries(kararlar)) {
   if (h.metin["SEÇENEK"]) d.secenek = h.metin["SEÇENEK"]; else delete d.secenek;
   d.sonuc = h.metin["SONUÇ"];
   d.cengo_sonuc = [{ kosul: "varsayilan", metin: h.metin.CENGO }];
+  if (h.cengoReplik) d.cengo_replik = h.cengoReplik; else delete d.cengo_replik;
   K.defter[vakaId][id] = h.metin.DEFTER;
 }
 if (v.kim_yapti) {
@@ -161,7 +171,8 @@ if (v.kim_yapti) {
   if (cengoKanitMetin) {
     for (const id of Object.keys(cengoKanitMetin.metin)) if (!(v.facts || {})[id]) hatalar.push(`cengo_kanit '${id}' bir olgu değil`);
     v.kim_yapti.cengo_kanit = cengoKanitMetin.metin;
-  } else delete v.kim_yapti.cengo_kanit;
+    if (cengoKanitMetin.replik) v.kim_yapti.cengo_kanit_replik = cengoKanitMetin.replik; else delete v.kim_yapti.cengo_kanit_replik;
+  } else { delete v.kim_yapti.cengo_kanit; delete v.kim_yapti.cengo_kanit_replik; }
   if (!aniMetin || !aniMetin.metin.ani) hatalar.push("'## ani' bölümü (ANI) yok");
   else { K.ani_ozet = K.ani_ozet || {}; K.ani_ozet[vakaId] = aniMetin.metin.ani; }
 }

@@ -101,6 +101,8 @@ Olgular birleşince deftere yazılan ara bulgular. **Suçluyu asla söylemez.**
 - **Cengo'nun söylenmeyen kanıt satırları** (kural 22c, 16 Kasım 2026): suçluyu kanıtlayan **her doğru kanıt için bir**
   Cengo satırı (büroda, kapanıştan önce). Oyuncu o kanıtı elinde tutup kullanmadıysa çıkar. Kanıtın kendi bilgisinden
   fazlasını söylemez. (Eski "kesinti açıklaması" kalktı — kasa yok.)
+  Diyalogda (`## cengo_kanit`): `**olgu [Cengo'nun ifadesi]:** metin {yuz: peri.x}` — ifade ve Peri'nin yüzü yazılır
+  (satır Cengo'nun repliği, Peri dinler; kapıda K8).
 
 | doğru kanıt (olgu) | Cengo satırı |
 |---|---|
@@ -140,6 +142,8 @@ Muammer'in olayı bilmediğini varsayıyordu, oysa kovalamacada itirafı duymuş
 - En az bir dürüst karar. Kirli karar Peri'nin bir derdine çare olur (kural 26; rakamla değil hikâyeyle).
 - Seçenek altında hiçbir şey yazmaz: önizleme, rakam, Cengo tavrı yok (kural 22a).
 - Cengo satırları yan yana okununca "doğru cevap" çıkmaz.
+- Diyalogda Cengo satırı **etiketli** yazılır: `**CENGO [ifade]:** metin {yuz: peri.x}` → büroda Cengo'nun repliği (16 Kasım 2026).
+  Etiketsiz `**CENGO:**` eski düzendir (anlatı satırı; V1–V5 yeniden geçirilene dek).
 - **Anı özeti** (bütün kararlarda aynı, anı defterinde Peri'nin notunun üstünde; kural 21d): 2–3 cümle —
   müşteri ve kayıp, kim almıştı, neden. Yalnız her yolda oynayan itirafın (kovalamaca) söylediği;
   karara göre değişen hiçbir şey yazılmaz. Diyalogda `## ani` bölümüne gider.

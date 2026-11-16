@@ -17,7 +17,20 @@
 > `k: "not"` (anlatı) olarak basıyor; satır artık Cengo'nun repliği. Öneri: `k: "cengo", kime: "peri", yuz: "peri.normal"` (eski V1–V5
 > anlatı satırlarını bozmamak için ya vaka başına ya da `**CENGO [ifade]:** … {…}` etiketiyle). `cengoKanitSatirlari` satırlarına da
 > `yuz` eklenirse K8 kapanır. Bu iş bitince Vaka 6 tamam.
-> **❓ Oğuz Bey senden iki onay istiyor (16 Kasım 2026):**
+> ✅ **İKİ ONAY VERİLDİ VE UYGULANDI (16 Kasım 2026 gece, Barbaros):**
+> 1. **Karar satırı Cengo'nun repliği — etiket yöntemi.** Diyalogda `**CENGO [ifade]:** metin {yuz: peri.x}` yazılırsa satır büroda
+>    Cengo'nun repliği olur (`k: "cengo", kime: "peri"`; veride `decisions[].cengo_replik`). Etiketsiz `**CENGO:**` eski düzende anlatı
+>    kalır (V1–V5, V7 yeniden geçirilene dek). Kanıt satırları da aynı: `**olgu [ifade]:** metin {yuz: peri.x}` (veride
+>    `kim_yapti.cengo_kanit_replik`). Kod `arac_diyalog.js`, `yeni_arayuz.js → kararVerFaz, cengoKanitSatirlari`; biçim
+>    `sablon/6_vaka_formu.md`. **V6'nın 8 satırına ifade ve Peri'nin yüzü Claude tarafından yazıldı — Oğuz Bey bakıp beğenmezse
+>    değiştirsin:** kapanışta Cengo `buruk` setinde kapıdan geçen tek ifade `normal` (`yumusak` kesilmemiş, poz tablosunda yok), Peri `tul`'da `kas`/`normal`/`yumusak`.
+>    Seçilen: yazani_soyle normal / peri.kas · kendisi_soylesin normal / peri.normal · parasini_al normal / peri.kas ·
+>    cengoya_birak normal / peri.normal · dört kanıt satırı normal / peri.kas.
+>    **Oğuz Bey'e not (V7, adım 2):** Cengo'nun karar ve kanıt satırlarını bu etiketle yaz, yüz ifadelerini kapanışın setinde
+>    VAR olanlardan seç (`gorseller.json`).
+> 2. **`onnxruntime` yüklensin: EVET.** Oğuz Bey kendi bilgisayarında `pip install onnxruntime` koşsun (bu oturumun kabında da kuruldu).
+>
+> ~~**❓ Oğuz Bey senden iki onay istiyor (16 Kasım 2026):**~~
 > 1. **Yukarıdaki kod düzeltmesine onay** verir misin? (Karar CENGO satırı Cengo'nun repliği olarak gösterilsin, kanıt satırlarına `yuz`.)
 > 2. **Oğuz Bey'in bilgisayarına `onnxruntime` yükleyelim mi?** El denetimi aracı (`arac_el.py`) için gerekli; yüklü olmadığı için
 >    kapıda K5 bulgusu çıkıyor (`ModuleNotFoundError: No module named 'onnxruntime'`). Yükleme: `pip install onnxruntime`.
