@@ -8,6 +8,20 @@
 
 ---
 
+> ## 🛑 OĞUZ BEY'E — VAKA 7 RESİMLERİ DURSUN (Barbaros, 16 Kasım 2026 gece). ÖNCE BARBAROS'LA PERİ'NİN KIYAFETİ KONUŞULACAK.
+>
+> **Barbaros'un talimatı:** Vaka 7'nin resimlerine **Barbaros'la Peri'nin kıyafetini konuşmadan başlanmaz.** Döngü çalışıyorsa durdur
+> (`touch uretim/v7/DUR`; kalan `codex`/`bash` süreci var mı bak). Üretilmiş resim varsa onaylama, gömme; olduğu yerde beklesin.
+> Konuşma bitince Barbaros "başla" der ve kararlar buraya yazılır; o zamana kadar V7'de istem yazmak serbest, üretmek değil.
+>
+> **Konuşulacak (Barbaros'un sorusu):** kırmızı manto açılışta ve Vaka 1'de var, V2–V6'da hiç yok; V7'de geri dönüyor. Kanonda
+> "Peri'nin evden çıkardığı tek giysi" — yani aynı manto, Vaka 1'deki gibi görünmeli. Ama G1 kartı (`uretim/v7/prompts/G1.md`) Vaka
+> 1'deki resimden farklı tarif ediyor: **düğmeli, önü kapalı, kapaklı cepli**; Vaka 1'deki manto (`kaynak/yeni_gorsel/sprite/
+> peri_manto_normal.webp`) **kruvaze, yalnız kuşakla bağlı, geniş yakası açık, kapaksız cepli, altında V yakalı krem saten bluz**.
+> Bu hâliyle üretilirse oyuncu başka bir manto görür. Claude'un önerisi: G1, Vaka 1'deki mantoya göre düzeltilsin (biçim için
+> Vaka 1 resminin dekoltesiz kırpığı referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `altin_temiz`) de
+> aynı konuşmada geçilsin.
+
 > ## ✍️ ORTAKTAN BARBAROS'A (16 Kasım 2026 gece) — VAKA 7 YENİ DÜZENE GEÇTİ (ADIM 2, madde 1–6)
 > Senaryo aynı; yalnız V6'nın yeni düzeni uygulandı (`sablon/vakalar/vaka7_diyalog.md`):
 > 1. **Kararı Nesrin sorar** (`## sahne karar_soru`, çerçeve odası, itiraftan hemen sonra): "Rulo sizde, hanımefendi. Satış

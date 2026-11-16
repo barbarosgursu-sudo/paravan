@@ -1,3 +1,6 @@
+**🛑 16 Kasım 2026, gece — VAKA 7 ÜRETİMİ DURDU (Barbaros'un talimatı).** Barbaros'la Peri'nin kıyafeti (önce kırmızı manto, G1)
+konuşulmadan Vaka 7'nin resimlerine devam edilmez. Döngü çalışıyorsa `touch uretim/v7/DUR`. Ayrıntı `kaynak/DEVIR.md` en üst.
+
 **16 Kasım 2026, gece — VAKA 7 ÜRETİMİ BAŞLADI (Oğuz Bey'in bilgisayarında; Barbaros aynı numaraları üretmesin).**
 Parti 1 (temeller): `LISTE.md`. Kartlar (G1–G3) ve mekânlar (G11–G20) istem kontrolünden geçti, döngüye verildi. Konuk temelleri
 (G4–G10, iki zeminle) görselsiz tur bitince (`## Satırlar` için) yazılacak. Görünüş kararları (ortak): Şükrü'nün papyonu koyu
