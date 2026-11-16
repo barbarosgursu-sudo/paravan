@@ -10,6 +10,14 @@
 
 > ## 📌 OĞUZ BEY'E — SIRADAKİ İŞ (Barbaros, 16 Kasım 2026 akşam). SIRA ÖNEMLİ: önce Vaka 6, sonra Vaka 7.
 >
+> ✅ **ADIM 1 METNİ YAZILDI (16 Kasım 2026, Oğuz Bey):** Cengo'nun 4 karar satırı replik oldu (kasa sözü yok), 3 kanıt satırı
+> (`tarih_sofra`, `kalip_kagit`, `jale_siparis`) eklendi; "Parasını al" defteri "Müzeyyen'in zarfını aldım" oldu. Doğrulayıcı PASS,
+> testler geçti, `arac_sizinti_tur.js V6 40` temiz. **Barbaros'a kod isteği:** `arac_kapi.js V6 resim` 11 bulgu veriyor (K2 3, K8 8;
+> K5 1 = bu bilgisayarda `onnxruntime` yok). Sebep metin değil kod: `yeni_arayuz.js → kararVerFaz` karar CENGO satırını hâlâ
+> `k: "not"` (anlatı) olarak basıyor; satır artık Cengo'nun repliği. Öneri: `k: "cengo", kime: "peri", yuz: "peri.normal"` (eski V1–V5
+> anlatı satırlarını bozmamak için ya vaka başına ya da `**CENGO [ifade]:** … {…}` etiketiyle). `cengoKanitSatirlari` satırlarına da
+> `yuz` eklenirse K8 kapanır. Bu iş bitince Vaka 6 tamam.
+>
 > **ADIM 1 — Vaka 6'da kalan 7 replik** (ayrıntı aşağıda, "Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6" bölümü, madde 4–5).
 > Hepsi `sablon/vakalar/vaka6_diyalog.md`'de:
 > - **Cengo'nun 4 karar satırı** (her `## karar …` altındaki `**CENGO:**`): anlatı biçiminden ("Cengo … dedi") çıkıp **büroda, Cengo'nun

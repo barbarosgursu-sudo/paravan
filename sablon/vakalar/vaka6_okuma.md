@@ -332,98 +332,101 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 ## 7. Cengo'nun söylenmeyen kanıt satırları (YENİ düzen)
 
 `373` **prova_torba:** Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi.  
+`374` **tarih_sofra:** Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı?  
+`375` **kalip_kagit:** Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi.  
+`376` **jale_siparis:** Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı.  
 
 ## 8. Dosya kapandı kartı (çözüm)
 
-`380` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği torbayı yalnız iki kişi tuttu (Müzeyyen ya da Jale).  
-`381` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + mektuplar terzi kalıp kâğıdına yazılmıştı (Müzeyyen ya da Jale).  
-`382` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + torbayı tutan kalan tek kişi Müzeyyen'di.  
-`383` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + kalıp kâğıdı kullanan kalan tek kişi, terzi Müzeyyen'di.  
-`384` **MASUM cengo:** Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.  
-`385` **MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.  
+`383` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği torbayı yalnız iki kişi tuttu (Müzeyyen ya da Jale).  
+`384` **YOL:** Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + mektuplar terzi kalıp kâğıdına yazılmıştı (Müzeyyen ya da Jale).  
+`385` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + torbayı tutan kalan tek kişi Müzeyyen'di.  
+`386` **YOL:** Jale tarihi ilk mektuptan üç gün sonra öğrendi + kalıp kâğıdı kullanan kalan tek kişi, terzi Müzeyyen'di.  
+`387` **MASUM cengo:** Cengo masumdu: bankta yalnız kızını uzaktan izliyordu; mektupları Müzeyyen Hanım yazmıştı.  
+`388` **MASUM jale:** Jale Hanım masumdu: gelinlik onun atölyesinde dikiliyordu, o kadar; torbaya mektubu Müzeyyen Hanım koymuştu.  
 
 ## 9. Kanıt adları (Kim yaptı?)
 
-`390` **mektup_geldi:** Üç isimsiz mektup  
-`391` **cengo_suphe:** Gamze'nin şüphesi  
-`392` **jale_suphe:** Haldun'un şüphesi  
-`393` **tarih_sofra:** Sofradaki tarih  
-`394` **izmir_tayin:** İzmir tayini  
-`395` **bank_adam:** Banktaki adam  
-`396` **posta_elden:** Pulsuz mektuplar  
-`397` **prova_torba:** Torbayı tutanlar  
-`398` **jale_siparis:** Siparişin günü  
-`399` **jale_gizli:** Atölyenin sırrı  
-`400` **jale_soz:** Mektuptaki söz  
-`401` **kalip_kagit:** Kalıp kâğıdı  
+`393` **mektup_geldi:** Üç isimsiz mektup  
+`394` **cengo_suphe:** Gamze'nin şüphesi  
+`395` **jale_suphe:** Haldun'un şüphesi  
+`396` **tarih_sofra:** Sofradaki tarih  
+`397` **izmir_tayin:** İzmir tayini  
+`398` **bank_adam:** Banktaki adam  
+`399` **posta_elden:** Pulsuz mektuplar  
+`400` **prova_torba:** Torbayı tutanlar  
+`401` **jale_siparis:** Siparişin günü  
+`402` **jale_gizli:** Atölyenin sırrı  
+`403` **jale_soz:** Mektuptaki söz  
+`404` **kalip_kagit:** Kalıp kâğıdı  
 
 ## 10. Anı özeti (defter)
 
-`406` **ANI:** Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için babasından yardım istedi. Mektupları anneannesi Müzeyyen Hanım yazmıştı: düğünden sonra kızı ve torunu İzmir'e gidecekti, o tek kalacaktı.  
+`409` **ANI:** Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için babasından yardım istedi. Mektupları anneannesi Müzeyyen Hanım yazmıştı: düğünden sonra kızı ve torunu İzmir'e gidecekti, o tek kalacaktı.  
 
 ## 11. Hikâye notu
 
-`411` **HİKÂYE:** Gamze, Haldun Bey'le evlenmeye karar verdi. Haldun'un İzmir'e tayini çıkmıştı; düğünden sonra Gamze'yi ve Eylül'ü götürecekti. Gamze'nin annesi, emekli terzi Müzeyyen Hanım üst katta tek kalacaktı; Eylül de okulunu yarıda bırakacak, babası Cengo'yu bir daha göremeyecekti.  
-`412` **HİKÂYE:** Düğünün tarihi üç hafta önce bir pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül ve Müzeyyen. Eylül sofradan kalkıp tarihi babasına yazdı. Ertesi sabah Müzeyyen postayı alırken, kendi kalıp kâğıdına yazdığı ilk mektubu kutuya koydu ve "buldum" diye kızına götürdü.  
-`413` **HİKÂYE:** O cuma Gamze gelinliğini, bilmeden, Haldun'un eski eşi Jale'nin Bahariye'deki atölyesine ısmarladı. Jale gelini tanıdı ama sustu: atölye borçtaydı. Düğünün tarihini de o gün öğrendi. "Herkes öğrenecek" sözünü iki yıl önce boşanırken söylemişti; Müzeyyen bunu kızından duymuş, mektuba yazmıştı.  
-`414` **HİKÂYE:** İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin torbasına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.  
-`415` **HİKÂYE:** Mektuplar Gamze'yi düğünü iptal etmenin eşiğine getirdi. Müzeyyen bir şey daha yaptı: torununa "Baban dedektif, git ona" dedi. Cengo'nun bulamayacağını sanıyordu; bir de kız babasını görsün istiyordu.  
+`414` **HİKÂYE:** Gamze, Haldun Bey'le evlenmeye karar verdi. Haldun'un İzmir'e tayini çıkmıştı; düğünden sonra Gamze'yi ve Eylül'ü götürecekti. Gamze'nin annesi, emekli terzi Müzeyyen Hanım üst katta tek kalacaktı; Eylül de okulunu yarıda bırakacak, babası Cengo'yu bir daha göremeyecekti.  
+`415` **HİKÂYE:** Düğünün tarihi üç hafta önce bir pazartesi akşamı sofrada konuşuldu: Gamze, Haldun, Eylül ve Müzeyyen. Eylül sofradan kalkıp tarihi babasına yazdı. Ertesi sabah Müzeyyen postayı alırken, kendi kalıp kâğıdına yazdığı ilk mektubu kutuya koydu ve "buldum" diye kızına götürdü.  
+`416` **HİKÂYE:** O cuma Gamze gelinliğini, bilmeden, Haldun'un eski eşi Jale'nin Bahariye'deki atölyesine ısmarladı. Jale gelini tanıdı ama sustu: atölye borçtaydı. Düğünün tarihini de o gün öğrendi. "Herkes öğrenecek" sözünü iki yıl önce boşanırken söylemişti; Müzeyyen bunu kızından duymuş, mektuba yazmıştı.  
+`417` **HİKÂYE:** İkinci mektubu Müzeyyen yine kutuya bıraktı; bu kez kapıcı buldu. Geçen cumartesi provada Jale makas almaya arkaya gidince, askıyı tutan Müzeyyen üçüncüsünü gelinliğin torbasına koydu. Aynı saatte Cengo, her cumartesi olduğu gibi, apartmanın karşısındaki bankta kızının dershaneye çıkışını izliyordu.  
+`418` **HİKÂYE:** Mektuplar Gamze'yi düğünü iptal etmenin eşiğine getirdi. Müzeyyen bir şey daha yaptı: torununa "Baban dedektif, git ona" dedi. Cengo'nun bulamayacağını sanıyordu; bir de kız babasını görsün istiyordu.  
 
 ## 12a. Karar — Yazanı söyle
 
 > **Düğme:** Haldun'a ve Gamze'ye yazanı söyle
 
-`420` **SEÇENEK:** “Haldun'a da Gamze'ye de söyleyeceğim.”  
-`421` **ÖNİZLEME:** Müzeyyen'in adını verirsin. Düğün olur, Gamze annesiyle küser.  
-`422` **SONUÇ:** Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.  
-`423` **CENGO:** Cengo düğün fotoğrafına baktı, en arka masayı gösterdi. "Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?" dedi.  
-`424` **DEFTER:** Yazanın adını verdim. Anneanne en arka masadaydı.  
+`423` **SEÇENEK:** “Haldun'a da Gamze'ye de söyleyeceğim.”  
+`424` **ÖNİZLEME:** Müzeyyen'in adını verirsin. Düğün olur, Gamze annesiyle küser.  
+`425` **SONUÇ:** Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.  
+`426` **CENGO:** Kadın yalnız kalmaktan korktu, Peri. Adını söylerken onu da söyledin mi?  
+`427` **DEFTER:** Yazanın adını verdim. Anneanne en arka masadaydı.  
 
 ## 12b. Karar — Kendisi söylesin
 
 > **Düğme:** Müzeyyen kendisi söylesin
 
-`429` **SEÇENEK:** “Düğünden önceki akşam siz söyleyeceksiniz.”  
-`430` **ÖNİZLEME:** Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gider.  
-`431` **SONUÇ:** Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."  
-`432` **CENGO:** Cengo bileğindeki bilekliği çevirdi. "Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim" dedi.  
-`433` **DEFTER:** Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da.  
+`432` **SEÇENEK:** “Düğünden önceki akşam siz söyleyeceksiniz.”  
+`433` **ÖNİZLEME:** Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gider.  
+`434` **SONUÇ:** Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."  
+`435` **CENGO:** Eylül okul bitene kadar Üsküdar'da. Cumartesileri o bank yine benim, Peri.  
+`436` **DEFTER:** Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da.  
 
 ## 12c. Karar — Parasını al
 
 > **Düğme:** Adını verme, parasını al
 
-`438` **SEÇENEK:** “Adınızı vermem. Ama bu iş bedava olmaz.”  
-`439` **ÖNİZLEME:** Haldun'a "yazan bulundu, bir daha yazmayacak" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir.  
-`440` **SONUÇ:** Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini bir zarfa koyup sana verdi. Düğün oldu; Gamze mektupları kimin yazdığını hiç öğrenmedi.  
-`441` **CENGO:** Cengo zarfa dokunmadı. "Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim" dedi.  
-`442` **DEFTER:** Adını vermedim. Müzeyyen'in parası kasada.  
+`441` **SEÇENEK:** “Adınızı vermem. Ama bu iş bedava olmaz.”  
+`442` **ÖNİZLEME:** Haldun'a "yazan bulundu, bir daha yazmayacak" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir.  
+`443` **SONUÇ:** Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini bir zarfa koyup sana verdi. Düğün oldu; Gamze mektupları kimin yazdığını hiç öğrenmedi.  
+`444` **CENGO:** O zarf anneannenin kenara koyduğu para. Al ama bana gösterme, Peri; ben görmedim.  
+`445` **DEFTER:** Adını vermedim. Müzeyyen'in zarfını aldım.  
 
 ## 12d. Karar — Cengo'ya bırak
 
 > **Düğme:** Başarıyı Cengo'ya bırak
 
-`447` **SEÇENEK:** “Buna Cengo karar versin.”  
-`448` **ÖNİZLEME:** Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir.  
-`449` **SONUÇ:** Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek, kefili benim." Eylül babasına sarıldı: "Biliyordum." Sonra Peri'ye baktı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler.  
-`450` **CENGO:** Cengo ütülü gömleğinin kollarını sıvadı. "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm" dedi.  
-`451` **DEFTER:** Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı.  
+`450` **SEÇENEK:** “Buna Cengo karar versin.”  
+`451` **ÖNİZLEME:** Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir.  
+`452` **SONUÇ:** Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek, kefili benim." Eylül babasına sarıldı: "Biliyordum." Sonra Peri'ye baktı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler.  
+`453` **CENGO:** Kızım beni büyük dedektif sandı. Sen de bir dakika öyle sandın, Peri; yüzünden gördüm.  
+`454` **DEFTER:** Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı.  
 
 ## 13. Kapanış
 
 > **Açıklama:** Büro, akşam. Peri tül şala sarınmış masada, saçında bir gül yaprağı. Cengo masanın kenarında, gömleği buruşuk. Gizem çay getirir, Eylül'ün mesajını okur (şaka 3, üçüncü basamak; her kararda aynı: cumartesi düğünden önce, Eylül yazanı bilmiyor). Bağın iki hâli (kural 12a, eşik +1).
 
-`459` *Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.*  
-`460` *Gizem elinde çay tepsisi ve telefonuyla geliyor.*  
-`461` **GİZEM:** Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım."  
-`462` *Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.*  
-`463` **GİZEM:** Bir de şunu yazmış: "O kadın gelmesin."  
-`464` **PERİ:** Ben bir şey demedim ki.  
-`465` **PERİ:** Neden söylemedin, Cengo? Bir kızın olduğunu.  *(bağ düşükse)*  
-`466` **CENGO:** Sen de hiç sormadın, Peri.  *(bağ düşükse)*  
-`467` *Cengo ceketini alıp çıkıyor. Peri saçındaki gül yaprağını çöpe atıyor.*  *(bağ düşükse)*  
-`468` *Peri saçındaki gül yaprağını alıp Cengo'ya uzatıyor.*  *(bağ yüksekse)*  
-`469` **PERİ:** Cengo, ben…  *(bağ yüksekse)*  
-`470` **PERİ:** …gömleğin çok güzel ütülenmişti.  *(bağ yüksekse)*  
-`471` **CENGO:** *(yaprağı gömleğinin cebine koyarak)* Kızım için.  *(bağ yüksekse)*  
-`472` **GİZEM:** Hıh.  *(bağ yüksekse)*  
+`462` *Akşam. Büro. Peri atölyenin tül şalına sarınmış; saçında hâlâ bir gül yaprağı. Cengo'nun gömleği buruşmuş.*  
+`463` *Gizem elinde çay tepsisi ve telefonuyla geliyor.*  
+`464` **GİZEM:** Eylül yazdı: "Gizem abla, babama söyle; cumartesi sabah eve gelsin, kahvaltı yapalım."  
+`465` *Cengo masanın kenarında, bileğindeki boncuklu bilekliği çeviriyor.*  
+`466` **GİZEM:** Bir de şunu yazmış: "O kadın gelmesin."  
+`467` **PERİ:** Ben bir şey demedim ki.  
+`468` **PERİ:** Neden söylemedin, Cengo? Bir kızın olduğunu.  *(bağ düşükse)*  
+`469` **CENGO:** Sen de hiç sormadın, Peri.  *(bağ düşükse)*  
+`470` *Cengo ceketini alıp çıkıyor. Peri saçındaki gül yaprağını çöpe atıyor.*  *(bağ düşükse)*  
+`471` *Peri saçındaki gül yaprağını alıp Cengo'ya uzatıyor.*  *(bağ yüksekse)*  
+`472` **PERİ:** Cengo, ben…  *(bağ yüksekse)*  
+`473` **PERİ:** …gömleğin çok güzel ütülenmişti.  *(bağ yüksekse)*  
+`474` **CENGO:** *(yaprağı gömleğinin cebine koyarak)* Kızım için.  *(bağ yüksekse)*  
+`475` **GİZEM:** Hıh.  *(bağ yüksekse)*  

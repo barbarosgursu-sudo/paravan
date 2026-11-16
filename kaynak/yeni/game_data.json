@@ -6499,12 +6499,7 @@
           "etiket": "Haldun'a ve Gamze'ye yazanı söyle",
           "onizleme": "Müzeyyen'in adını verirsin. Düğün olur, Gamze annesiyle küser.",
           "sonuc": "Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo düğün fotoğrafına baktı, en arka masayı gösterdi. \"Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?\" dedi."
-            }
-          ],
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Kadın yalnız kalmaktan korktu, Peri. Adını söylerken onu da söyledin mi?"}],
           "secenek": "“Haldun'a da Gamze'ye de söyleyeceğim.”"
         },
         {
@@ -6519,7 +6514,7 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo bileğindeki bilekliği çevirdi. \"Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim\" dedi."
+              "metin": "Eylül okul bitene kadar Üsküdar'da. Cumartesileri o bank yine benim, Peri."
             }
           ],
           "secenek": "“Düğünden önceki akşam siz söyleyeceksiniz.”"
@@ -6536,7 +6531,7 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo zarfa dokunmadı. \"Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim\" dedi."
+              "metin": "O zarf anneannenin kenara koyduğu para. Al ama bana gösterme, Peri; ben görmedim."
             }
           ],
           "secenek": "“Adınızı vermem. Ama bu iş bedava olmaz.”"
@@ -6553,7 +6548,7 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo ütülü gömleğinin kollarını sıvadı. \"Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm\" dedi."
+              "metin": "Kızım beni büyük dedektif sandı. Sen de bir dakika öyle sandın, Peri; yüzünden gördüm."
             }
           ],
           "secenek": "“Buna Cengo karar versin.”"
@@ -6612,7 +6607,12 @@
           "jale_soz": "Mektuptaki söz",
           "kalip_kagit": "Kalıp kâğıdı"
         },
-        "cengo_kanit": {"prova_torba": "Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın \"kanıtınız ne?\" diyemezdi."}
+        "cengo_kanit": {
+          "prova_torba": "Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın \"kanıtınız ne?\" diyemezdi.",
+          "tarih_sofra": "Tarihi ilk akşam yalnız sofradakiler bildi, Peri. Bir de Eylül'ün yazdığı ben. Ben yazmadıysam kim kaldı?",
+          "kalip_kagit": "Mektuplar terzi kalıp kâğıdına yazılmıştı, Peri. Onu söyleseydin kimse inkâr edemezdi.",
+          "jale_siparis": "Jale Hanım tarihi ilk mektuptan üç gün sonra öğrendi, Peri. Bilmediği günü yazamazdı."
+        }
       },
       "anahtarlar": {
         "tarih_sofra": ["babasına mesaj", "sofrada dört"],
