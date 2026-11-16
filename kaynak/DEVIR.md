@@ -8,15 +8,22 @@
 
 ---
 
-> **Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6: YAZILACAK 12 REPLİK.** Önce ikiniz Vaka 6'yı gözden geçirin
-> (eklenecek / çıkarılacak / rahatsız eden), sonra devam. Yeni karar düzeni (aşağıdaki not) için gereken replikler,
-> hepsi `sablon/vakalar/vaka6_diyalog.md`'de:
-> 1. **Müzeyyen — kararı soran cümle (1).** `## sahne karar_soru`. Şu an örnek: "Şimdi ne olacak, kızım? Haldun'a, Gamze'ye söyleyecek misin?"
-> 2. **Peri — dört seçenek cümlesi (4).** Her `## karar …` altında `**SEÇENEK:**`. Şu an örnekler duruyor.
-> 3. **Cengo — karar satırı (4).** Her kararın `**CENGO:**` satırı; şu an anlatı ("Cengo … dedi"), büroda kendi ağzından replik olacak.
-> 4. **Cengo — kanıt satırı (3).** `## cengo_kanit` altında: `tarih_sofra` (Sofradaki tarih), `kalip_kagit` (Kalıp kâğıdı),
->    `jale_siparis` (Siparişin günü). Satır **yalnız o kanıtı** anar, öbür kanıtı anmaz (kural 22c). `prova_torba` yazıldı.
-> Toplam 12. Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6` (Barbaros denetimleri koşar).
+> **Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6: YENİ KARAR DÜZENİ İÇİN REPLİKLER.** Önce ikiniz Vaka 6'yı gözden geçirin
+> (eklenecek / çıkarılacak / rahatsız eden), sonra devam. Hepsi `sablon/vakalar/vaka6_diyalog.md`'de.
+>
+> **Gözden geçirilecek (Claude yazdı, taslaktaki örnek; beğenmezseniz değiştirin) — 6 replik:**
+> 1. **Müzeyyen, kararı soran cümle** (`## sahne karar_soru`): "Şimdi ne olacak, kızım? Haldun'a, Gamze'ye söyleyecek misin?"
+> 2. **Peri, 4 seçenek cümlesi** (her `## karar …` altında `**SEÇENEK:**`).
+> 3. **Cengo, 1 kanıt satırı** (`## cengo_kanit` → `prova_torba`): "Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın
+>    'kanıtınız ne?' diyemezdi."
+>
+> **Yeni yazılacak — 7 replik:**
+> 4. **Cengo, 4 karar satırı** (her kararın `**CENGO:**` satırı). Şu an Oğuz Bey'in eski satırları, anlatı biçiminde
+>    ("Cengo düğün fotoğrafına baktı… dedi"); büroda Cengo'nun **kendi ağzından replik** olarak yeniden yazılacak.
+> 5. **Cengo, 3 kanıt satırı** (`## cengo_kanit` altında, yok): `tarih_sofra` (Sofradaki tarih), `kalip_kagit` (Kalıp kâğıdı),
+>    `jale_siparis` (Siparişin günü). Satır **yalnız o kanıtı** anar, öbür kanıtı anmaz (kural 22c).
+>
+> Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6` (Barbaros denetimleri koşar).
 
 > **Barbaros'un kararı (16 Kasım 2026) — KARAR ANI YENİDEN TASARLANIYOR, KASA KALKIYOR. Henüz UYGULANMADI.**
 > Sebep (sahibi): kasanın bir anlamı yok (yalnız birikiyor, hiçbir şeye bağlanmıyor); karar ekranı oyuncu için boş ve karmaşık
