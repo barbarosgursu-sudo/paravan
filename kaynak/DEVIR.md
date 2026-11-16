@@ -24,13 +24,17 @@
 > Denetim: `arac_diyalog.js` geçti, doğrulayıcı (iki oyun) PASS (V7 K8 uyarısı önceden de vardı), testler geçti, **`arac_kapi.js V7 hikaye`
 > GEÇTİ** (eski 11 K2/K8 bulgusu kapandı), `arac_sizinti_tur.js V7 40` temiz (1371 ekran). Cengo/Peri ifadeleri kapanış setinin tablosundan (V7 resimleri henüz yok).
 
-> ## ⏰ BARBAROS'A HATIRLATMA (16 Kasım 2026): VAKA 6 KAPISI YENİDEN KOŞULACAK
+> ## 🖼️ OĞUZ BEY'E — VAKA 6: G74 (K104) YENİDEN ÜRETİLECEK (Barbaros, 16 Kasım 2026)
 >
-> Oğuz Bey 16 Kasım'da Vaka 6'da "torba" → "elbise kılıfı" yaptı (`6d466f6`; metin, olgu, ipucu, çıkarım, kanıt adı, form, görsel
-> tablosu) ve Eylül'ün girişini bir satır kaydırdı (`1d80b9b`). Commit'lerde denetim notu yok. Barbaros "sonra yapalım" dedi. Koşulacak:
-> `cd kaynak && node dogrulayici.js yeni`, testler, `node arac_kapi.js V6 resim`, `node arac_sizinti_tur.js V6 40`.
-> Bakılacak: satır uzunluğu (~110 harf), sızıntı (yeni sözcükler), resim–metin uyumu (G73'te fermuarlı gelinlik kılıfı, G74'te bez
-> kese görünüyor — G74 "elbise kılıfı" ile çelişebilir). Koşulunca bu not silinir.
+> "Torba" → "elbise kılıfı" sonrası (kapı ve sızıntı temizdi; Barbaros'un önceki hatırlatması böylece kapandı) tek sorun resimde:
+> **G73'te (K103) Cengo büyük beyaz elbise kılıfını tutuyor, bir sonraki kare G74'te (K104, "Kuyruğu ben tuttum") kucağında küçük bej
+> bez kese var.** Hem art arda iki karede süreklilik bozuk (SR-B/SR-D) hem metinle çelişiyor; kapı resmin içindeki nesneye bakmadığı
+> için yakalamadı. Barbaros'un kararı: **G74 yeniden üretilir.**
+> - İstem: `uretim/v6/prompts/G74.md` → **`## Düzeltme 3`** yazıldı (Cengo G73'teki gibi uzun beyaz, fermuarı açık gelinlik kılıfını
+>   tutar; kese/torba yok; referansa `onayli/G73.png`). İstemin `## Kontrol` ve gövdesindeki "torba" sözü Düzeltme 3 ile geçersiz.
+> - Komut: `cd uretim && ./istem_kontrol.sh v6/prompts/G74.md` → `SADECE="74" KOL=1 ./dongu.sh 6`. Eskisi `red/G74_red2.png`.
+> - Denetim: tarz, el (nesne tutan el yakın bakış), göz — Müzeyyen gergin (Düzeltme 2), kılıf G73'tekiyle aynı. Gömme K104;
+>   sonra doğrulayıcı, iki derleme, testler, `arac_kapi.js V6 resim`. `uretim/v6/DURUM.md`'ye yaz. Bitince bu not silinir.
 
 > ## ✅ ORTAKTAN BARBAROS'A (16 Kasım 2026 akşam) — VAKA 6 BİTTİ, ORTAK ONAYLADI
 > Oğuz Bey Vaka 6'yı son hâliyle onayladı ("Altı bitti"). Senin düzeltmenden (`826c9e6`) sonra ortağın istediği değişiklikler:
