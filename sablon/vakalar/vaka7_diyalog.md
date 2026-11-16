@@ -313,7 +313,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **İKRAM_ŞEFİ:** Sen! Üç numara masa, çabuk! {kare: K136}
 **CENGO [kas]:** Ben garson değilim! {kare: K136}
 *Peri çerçeve odasına dalıyor; topuklusu yere dökülmüş taze verniğe basıyor, kayıyor, bir yaldız kovasının içine düşüyor. Odada altın bir bulut.* {kare: K137, set: altin, peri: sinirli}
-**PERİ [sinirli]:** Planlamıştım. {kare: K137}
+**PERİ [sinirli]:** Yıldız tozu her yerde beni bulur. {kare: K137}
 *Nesrin geri dönüp Peri'nin yanından salona kaçıyor.* {kare: K138}
 *Salon: kristal avize, sıra sıra sandalyeler, kürsü; vitrinlerde lotlar. Peri baştan aşağı altın, Nesrin'i görmek için boş bir kaidenin üstüne tırmanıyor.* {arka: A57, kare: K139}
 **MİSAFİR:** Ay, ne güzel heykel! Bunu da mı satacaklar? {kare: K139}

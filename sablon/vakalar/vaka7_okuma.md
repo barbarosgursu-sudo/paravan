@@ -279,7 +279,7 @@ Teknik etiketler ({…}) çıkarıldı. *Eğik yazı* = sahne anlatısı.
 `313` **İKRAM_ŞEFİ:** Sen! Üç numara masa, çabuk!  
 `314` **CENGO:** Ben garson değilim!  
 `315` *Peri çerçeve odasına dalıyor; topuklusu yere dökülmüş taze verniğe basıyor, kayıyor, bir yaldız kovasının içine düşüyor. Odada altın bir bulut.*  
-`316` **PERİ:** Planlamıştım.  
+`316` **PERİ:** Yıldız tozu her yerde beni bulur.  
 `317` *Nesrin geri dönüp Peri'nin yanından salona kaçıyor.*  
 `318` *Salon: kristal avize, sıra sıra sandalyeler, kürsü; vitrinlerde lotlar. Peri baştan aşağı altın, Nesrin'i görmek için boş bir kaidenin üstüne tırmanıyor.*  
 `319` **MİSAFİR:** Ay, ne güzel heykel! Bunu da mı satacaklar?  
