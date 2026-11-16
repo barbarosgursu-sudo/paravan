@@ -18,6 +18,14 @@ Yazım `vaka6_diyalog.md`'deki gibi. Vaka 7'nin kıyafetleri (kıyafet hâli):
 **Görselsiz test için yer tutucu:** Vaka 7'nin **bütün** görselleri gri "görsel yok" kutusuyla görünür. Ortağın kararı (15 Kas): Vaka 7'nin resimleri baştan yapılır, önceki vakaların hazır resmi kullanılmaz → büro A6/A8 yerine A58/A59, Peri `manto` yerine `manto7`, Gizem `triko_tepsi` yerine `triko`.
 
 **Kasa yok** (16 Kasım 2026): para yalnız hikâyede, her kararın parası kendi sahnesinde görünür ve orada biter (kural 24). Taç fiyatı ~200.000 ₺ (ortak, 15 Kas): metinde rakamla geçmez.
+**Tacın parası (ortak, 16 Kasım 2026):** Peri'nin parası Süheyla'nın ödediği elli bin ücret; eksiğini Cengo kapatır (sus: telefonla
+toplar; Cengo'ya bırak: adamlarından toplar; ihbar: Süheyla "eksiği benden"; sus payı: Süheyla alır). Konuşma sahnesindeki
+"Kasada ne var?" şakası kalır (ortak, 16 Kas): kasa burada büronun para kutusu, hikâye eşyası.
+
+**Vaka 6'nın yeni düzeni** (16 Kasım 2026; kural 22a–d): kararı Nesrin sorar (`## sahne karar_soru`, seçim karesi K154), Peri'nin
+4 `**SEÇENEK:**` cümlesi, Cengo'nun karar ve kanıt satırları büroda kendi ağzından, etiketli (`**CENGO [ifade]:** … {yuz: peri.x}`,
+`## cengo_kanit`). İfadeler kapanış setinden: Cengo `smokin` (normal, kas, gulen, yumusak), Peri `altin_temiz` (normal, kas, yumusak).
+Giriş satırı 39: Süheyla kapı karesi (K152) belirirken büroda görünmesin diye `gir` 40. satırda (V6 satır 39 dersi).
 
 Her satır için kontrol sorusu: *ekranda kim var, kime bakıyor, yüzü bu satıra uyuyor mu,
 metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekranda (tek kişi `gir`, kalabalık kare).
@@ -36,7 +44,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade. {kime: peri, ekran: peri+cengo, yuz: peri.sasirmis}
 **PERİ [kas]:** Papyonun yamuk. {ekran: peri+cengo, yuz: cengo.kas}
 **CENGO [kas]:** Gelin de öyle dedi. Böyle kalsın. {ekran: peri+cengo, yuz: peri.kas}
-*Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.* {gir: suheyla, gi: normal, kare: K152}
+*Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.* {kare: K152}
 **SÜHEYLA [normal]:** Paravan Dedektiflik? Süheyla. Nişantaşı'nda bir müzayede evim var. Vaktim az. {gir: suheyla, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 *Süheyla Peri'yi baştan aşağı süzüyor.* {gir: suheyla, gi: suzuyor, ekran: peri+suheyla, yuz: peri.normal}
 **SÜHEYLA [suzuyor]:** Sizi bir yerden tanıyorum. Kozmetik reklamı mı? {kime: peri, ekran: peri+suheyla, yuz: peri.normal}
@@ -342,6 +350,24 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ---
 
+## sahne karar_soru
+⚙ arka: A56 · figurler: peri, cengo, nesrin · set: altin_temiz · cset: smokin · secim_kare: K154
+⚙ Kural 22a: kararı sahnedeki biri sorar — itiraftan hemen sonra, çerçeve odasında Nesrin. Soru formdaki gibi: Süheyla'ya ne
+⚙ söylenecek, tablo ne olacak (taç Peri'nin seçeneklerinde). Nesrin tacı bilmez; yalnız tabloyu ve satışı sorar.
+
+**NESRİN [itiraf]:** Rulo sizde, hanımefendi. Satış sekizde başlıyor. Süheyla Hanım'a ne diyeceksiniz? {kime: peri, ekran: peri+nesrin, yuz: peri.kas}
+
+## cengo_kanit
+⚙ Kural 22c: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Satır yalnız kendi kanıtını
+⚙ anar, çiftin öbür kanıtını anmaz. Biçim: **olgu [Cengo ifadesi]:** metin {yuz: peri.x}.
+
+**kopya_eli [normal]:** O kopyayı bu evde yalnız iki el yapabilirdi, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi. {yuz: peri.kas}
+**onarim_nesrin [normal]:** Tablo iki hafta gizlice Nesrin Hanım'ın elindeydi, Peri. Onu söyleseydin kimse inkâr edemezdi. {yuz: peri.kas}
+**rapor_evde [normal]:** Şükrü Bey tabloyu bir saat gördü, sonra iki hafta İzmir'deydi, Peri. Bir saatte kopya yapılmaz. {yuz: peri.kas}
+**eski_tuval [normal]:** Feriköy'deki eski tuvali evin hesabına yalnız iki kişi alabilirdi, Peri. Necmi abinin defteri yalan söylemez. {yuz: peri.kas}
+
+---
+
 ## cozum
 ⚙ "Dosya çözüldü" ekranı. YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: neden masum (yalnız yüzleşme + itirafın söylediği).
 
@@ -385,33 +411,37 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar ihbar
 ⚙ etiket: İhbar et
 
+**SEÇENEK:** “Ruloyu Süheyla Hanım'a vereceğim, her şeyi anlatacağım.”
 **ÖNİZLEME:** Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; Süheyla tacı sana satış dışında, katalog fiyatına verir.
-**SONUÇ:** Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı; gecenin sonunda on dört numarayı kutusuyla önüne koydu: "Katalog fiyatı. Eksiği olursa benden." Taç senin oldu.
-**CENGO:** Cengo kutuya baktı. "Satışı sen durdurdun, tacı kadın sana getirdi. On dört numarayı boşuna ezberlememişim" dedi.
+**SONUÇ:** Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı; gecenin sonunda on dört numarayı kutusuyla önüne koydu: "Katalog fiyatı. Elli bin ücretiniz içinde, eksiği benden." Taç senin oldu.
+**CENGO [gulen]:** Satışı sen durdurdun, tacı da kadın kendi getirdi, Peri. On dört numarayı boşuna ezberlememişim. {yuz: peri.normal}
 **DEFTER:** Her şeyi söyledim. Satış durdu; Süheyla tacı bana sattı.
 
 ## karar sus
 ⚙ etiket: Sus
 
+**SEÇENEK:** “Ruloyu size geri veriyorum. Süheyla Hanım'a tablo sağlam diyeceğim.”
 **ÖNİZLEME:** Süheyla'ya "tablo sağlam" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı açık artırmada sen alırsın.
-**SONUÇ:** Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo bir köşede telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.
-**CENGO:** Cengo alkışlayan salona baktı. "Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma" dedi.
+**SONUÇ:** Ruloyu Nesrin'e geri verdin, Süheyla'ya "tablo sağlam" dedin. Süheyla elli bin ücretini satıştan önce eline verdi. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin. Elli bin yetmedi; eksiğini Cengo bir köşede telefonla topladı. Taç senin oldu. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.
+**CENGO [normal]:** Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun, Peri. Takınca bana bakma. {yuz: peri.kas}
 **DEFTER:** Sustum. Taç bende, kopya bir duvarda.
 
 ## karar sus_payi
 ⚙ etiket: Sus payı
 
+**SEÇENEK:** “Süheyla Hanım'a yalnız ben söyleyeceğim. Susmamın bedelini de ondan isteyeceğim.”
 **ÖNİZLEME:** Süheyla'ya yalnız sen söylersin; tablo sessizce satıştan çekilir. Susman için Süheyla tacı sana alır.
 **SONUÇ:** Ruloyu Süheyla'ya bir köşede, kimse duymadan verdin. Süheyla tabloyu "satıcının isteğiyle" satıştan çekti; polis yok, gazete yok. Nesrin'e ertesi sabah çıkış verildi, Şükrü emekliye ayrıldı. On dört numarada Süheyla kendi elini kaldırdı, tacı kutusuyla sana uzattı: "Bu akşam burada hiçbir şey olmadı."
-**CENGO:** Cengo kutuya dokunmadı. "Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?" dedi.
+**CENGO [normal]:** Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı? {yuz: peri.kas}
 **DEFTER:** Susmamın karşılığı taç. Süheyla aldı.
 
 ## karar cengoya_birak
 ⚙ etiket: Tacı Cengo'ya bırak
 
-**ÖNİZLEME:** Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır.
-**SONUÇ:** Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı; senin on binin de en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.
-**CENGO:** Cengo kutuyu koltuğunun altına sıkıştırdı. "Büroda veririm. Burada takarsan yine heykel sanarlar" dedi.
+**SEÇENEK:** “Her şeyi anlatacağım. On dört numarayı da Cengo'ya bırakıyorum.”
+**ÖNİZLEME:** Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi topladığı parayla alır.
+**SONUÇ:** Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Süheyla elli bin ücretini ödedi; sen de hepsini Cengo'ya verdin. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: "Nakit getiren alır." Cengo buruşuk paraları masaya saydı; senin elli binin en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.
+**CENGO [yumusak]:** Kutu senin, Peri. Orada takarsan yine heykel sanarlardı; burada kimse görmez. {yuz: peri.yumusak}
 **DEFTER:** Tacı Cengo aldı; adamlarından topladı. Büroda bana verdi.
 
 ---
@@ -486,6 +516,7 @@ kodlardan sonra: A50, D22, K124.
 | K146 | papyon Cengo'nun cebinde, Cengo kapıdan çıkıyor; Peri kulak arkasını siliyor | kapanış (bağ düşük) |
 | K152 | Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız) | giriş |
 | K153 | büro, gece: Peri masada, elbisesiyle; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor) | kapanış |
+| K154 | çerçeve odası: Nesrin taburede, masada açık rulo tuval; Peri (eldivensiz, pırıl pırıl elbise) ve Cengo (smokin) karşısında | karar sorusu, seçim anı |
 | K147 | Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle | kapanış (bağ yüksek) |
 | K148–K151 | dört kararın ara karesi (ihbar: boşalan salon, Süheyla kadife kutuyu Peri'nin önüne koyuyor; sus: Peri'nin elinde taç, alkışlayan salon; sus payı: Süheyla tacı kutusuyla uzatıyor; Cengo: buruşuk paralar, Cengo'nun koltuğunda kutu) | kararlar |
 | Peri `manto7` | normal, kas, sasirmis, merakli | giriş, konuşma başı |

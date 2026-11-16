@@ -437,13 +437,12 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
 | tutar | ne | dayanak |
 |---|---|---|
 | 50.000 ₺ | vaka ücreti (Süheyla öder) | öneri: V3–V6 40.000; müşteri sezonun en varlıklısı |
-| 10.000 / 20.000 ₺ | Kim yaptı? kesintisi (zayıf / yanlış) | ücretin içinden |
 | 6–8 milyon ₺ | tablonun tahmini değeri (onarım görmemiş) | 2026 erken Cumhuriyet yağlı boya müzayede fiyatları |
 | ~2 milyon ₺ (Vedat'ın ağzından "iki milyon") | onarılmış hâli | onarım değeri belirgin düşürür; Vedat abartır |
 | 250.000 ₺ | Şükrü'nün rüşveti | **metne girmez** (Şükrü "hepimizin bir rakamı var" der); yalnız forma |
 | 6,5 milyon ₺ | "sus"ta kopyanın satış fiyatı | tahminin içinde |
 | 15.000 ₺ | "sus"ta Süheyla'nın primi | hikâye içi; kural 26 (ücretin altında) |
-| 10.000 ₺ | "Cengo'ya bırak"ta Peri'nin payı | hikâye içi |
+| 50.000 ₺ | tacın parasında Peri'nin payı (sus, Cengo'ya bırak): Süheyla'nın ödediği ücret; ihbarda katalog fiyatının içinde | ortak, 16 Kas (kasa kalktı; eksiği Cengo ya da Süheyla kapatır) |
 | 100 ₺ | Necmi'nin kartpostalı | bitpazarı fiyatı (şaka) |
 | ~200.000 ₺ | tacın fiyatı | ortak, 15 Kas (kasanın ortası); **metne girmez**; kanona Barbaros'un kural işiyle girer |
 | 50.000 / 55.000 ₺ | "altın kadın" şaka teklifleri | şaka; gerçek satış değil |

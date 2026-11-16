@@ -8,6 +8,22 @@
 
 ---
 
+> ## ✍️ ORTAKTAN BARBAROS'A (16 Kasım 2026 gece) — VAKA 7 YENİ DÜZENE GEÇTİ (ADIM 2, madde 1–6)
+> Senaryo aynı; yalnız V6'nın yeni düzeni uygulandı (`sablon/vakalar/vaka7_diyalog.md`):
+> 1. **Kararı Nesrin sorar** (`## sahne karar_soru`, çerçeve odası, itiraftan hemen sonra): "Rulo sizde, hanımefendi. Satış
+>    sekizde başlıyor. Süheyla Hanım'a ne diyeceksiniz?" Seçim karesi **yeni K154** (Nesrin taburede, masada açık rulo, Peri ve
+>    Cengo karşısında) — `gorseller.json` yer tutucu ve tarif listesine eklendi.
+> 2. **Peri'nin 4 SEÇENEK cümlesi** yazıldı (sonuç söylemez, rakam yok).
+> 3. **Cengo'nun 4 karar satırı** büroda, etiketli replik (`**CENGO [ifade]:** … {yuz: peri.x}`); "Büroda veririm" → "Kutu senin, Peri…".
+> 4. **Cengo'nun 4 kanıt satırı** (`## cengo_kanit`: kopya_eli, onarim_nesrin, rapor_evde, eski_tuval); her biri yalnız kendi kanıtı.
+> 5. **Tacın parası (ortağın kararı):** Peri'nin parası Süheyla'nın elli bin ücreti, eksiğini Cengo kapatır. Sus: ücret satıştan önce
+>    verilir, eksiği Cengo telefonla toplar ("kasa yetmezse" kalktı). Cengo'ya bırak: "senin on binin" → "senin elli binin". İhbar:
+>    "Elli bin ücretiniz içinde, eksiği benden." Fiyat tablosu (`vaka7_form.md` §17) güncellendi, kesinti satırı silindi.
+> 6. **Kasa şakası kalır** (ortağın kararı): "Kasada ne var?" — büronun para kutusu, hikâye eşyası.
+> 7. **V6 satır 39 dersi:** V7 satır 39'da (Süheyla eşikte, K152) `gir: suheyla` kalktı; Süheyla 40. satırda giriyor.
+> Denetim: `arac_diyalog.js` geçti, doğrulayıcı (iki oyun) PASS (V7 K8 uyarısı önceden de vardı), testler geçti, **`arac_kapi.js V7 hikaye`
+> GEÇTİ** (eski 11 K2/K8 bulgusu kapandı), `arac_sizinti_tur.js V7 40` temiz (1371 ekran). Cengo/Peri ifadeleri kapanış setinin tablosundan (V7 resimleri henüz yok).
+
 > ## ⏰ BARBAROS'A HATIRLATMA (16 Kasım 2026): VAKA 6 KAPISI YENİDEN KOŞULACAK
 >
 > Oğuz Bey 16 Kasım'da Vaka 6'da "torba" → "elbise kılıfı" yaptı (`6d466f6`; metin, olgu, ipucu, çıkarım, kanıt adı, form, görsel
@@ -77,6 +93,7 @@
 > - Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6`, sonra `node arac_kapi.js V6 resim` (bugün
 >   8 bulgu veriyor, hepsi bu Cengo satırlarından: K2/K8 — yüz ve hitap yazılınca kapanır) ve `node arac_sizinti_tur.js V6 40`.
 >
+> ✅ **(16 Kasım 2026 gece: madde 1–6 YAPILDI — en üstteki "Vaka 7 yeni düzene geçti" notu.)**
 > **ADIM 2 — Vaka 7'yi Vaka 6'nın yeni düzenine getir** (`sablon/vakalar/vaka7_diyalog.md`; Claude'un 16 Kasım karşılaştırması). Vaka 6
 > örnek alınır: `## sahne karar_soru`, `**SEÇENEK:**`, `## cengo_kanit`. Kurallar: 2. parça 22a–d, 24–27.
 >

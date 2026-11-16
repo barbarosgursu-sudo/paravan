@@ -8697,13 +8697,15 @@
           "para": 0,
           "etiket": "İhbar et",
           "onizleme": "Süheyla'ya her şeyi söylersin. Satış durur, polis gelir; Süheyla tacı sana satış dışında, katalog fiyatına verir.",
-          "sonuc": "Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı; gecenin sonunda on dört numarayı kutusuyla önüne koydu: \"Katalog fiyatı. Eksiği olursa benden.\" Taç senin oldu.",
+          "sonuc": "Ruloyu Süheyla'ya verdin; kopyayı, gizli onarımı, Şükrü'nün raporunu, Nesrin'i anlattın. Süheyla satışı durdurup polisi çağırdı. Nesrin'i götürdüler. Şükrü otuz yıl sonra papyonunu çözerek kapıdan çıktı. Vedat'ın tablosu dava bitene kadar emanette. Misafirler dağıldı. Süheyla tacın sahibini aradı; gecenin sonunda on dört numarayı kutusuyla önüne koydu: \"Katalog fiyatı. Elli bin ücretiniz içinde, eksiği benden.\" Taç senin oldu.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo kutuya baktı. \"Satışı sen durdurdun, tacı kadın sana getirdi. On dört numarayı boşuna ezberlememişim\" dedi."
+              "metin": "Satışı sen durdurdun, tacı da kadın kendi getirdi, Peri. On dört numarayı boşuna ezberlememişim."
             }
-          ]
+          ],
+          "secenek": "“Ruloyu Süheyla Hanım'a vereceğim, her şeyi anlatacağım.”",
+          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"}
         },
         {
           "id": "sus",
@@ -8713,13 +8715,15 @@
           "para": 15000,
           "etiket": "Sus",
           "onizleme": "Süheyla'ya \"tablo sağlam\" dersin, ruloyu Nesrin'e geri verirsin. Satış sürer, Süheyla 15.000 ₺ prim verir; tacı açık artırmada sen alırsın.",
-          "sonuc": "Ruloyu Nesrin'e geri verdin, Süheyla'ya \"tablo sağlam\" dedin. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin, taç senin oldu. Kasa yetmezse diye Cengo bir köşede telefonu elinde bekledi. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.",
+          "sonuc": "Ruloyu Nesrin'e geri verdin, Süheyla'ya \"tablo sağlam\" dedin. Süheyla elli bin ücretini satıştan önce eline verdi. Satış sürdü. On dört numarada elini kaldırdın; fiyat çıktıkça indirmedin. Elli bin yetmedi; eksiğini Cengo bir köşede telefonla topladı. Taç senin oldu. Kopya altı buçuk milyona satıldı; alıcıyı alkışladılar. Süheyla gecenin sonunda sana on beş bin prim verdi. Nesrin ruloyu önlüğünün altına koyup arka kapıdan çıktı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo alkışlayan salona baktı. \"Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun. Takınca bana bakma\" dedi."
+              "metin": "Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun, Peri. Takınca bana bakma."
             }
-          ]
+          ],
+          "secenek": "“Ruloyu size geri veriyorum. Süheyla Hanım'a tablo sağlam diyeceğim.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.kas"}
         },
         {
           "id": "sus_payi",
@@ -8730,12 +8734,9 @@
           "etiket": "Sus payı",
           "onizleme": "Süheyla'ya yalnız sen söylersin; tablo sessizce satıştan çekilir. Susman için Süheyla tacı sana alır.",
           "sonuc": "Ruloyu Süheyla'ya bir köşede, kimse duymadan verdin. Süheyla tabloyu \"satıcının isteğiyle\" satıştan çekti; polis yok, gazete yok. Nesrin'e ertesi sabah çıkış verildi, Şükrü emekliye ayrıldı. On dört numarada Süheyla kendi elini kaldırdı, tacı kutusuyla sana uzattı: \"Bu akşam burada hiçbir şey olmadı.\"",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo kutuya dokunmadı. \"Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?\" dedi."
-            }
-          ]
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?"}],
+          "secenek": "“Süheyla Hanım'a yalnız ben söyleyeceğim. Susmamın bedelini de ondan isteyeceğim.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.kas"}
         },
         {
           "id": "cengoya_birak",
@@ -8744,14 +8745,16 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Tacı Cengo'ya bırak",
-          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi parasıyla alır.",
-          "sonuc": "Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: \"Nakit getiren alır.\" Cengo buruşuk paraları masaya saydı; senin on binin de en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.",
+          "onizleme": "Süheyla'ya her şeyi söylersin, satış durur. Cengo tacı sahibinden kendi topladığı parayla alır.",
+          "sonuc": "Ruloyu Süheyla'ya verdin, her şeyi anlattın; satış durdu, polis geldi. Süheyla elli bin ücretini ödedi; sen de hepsini Cengo'ya verdin. Cengo bir köşede telefona sarıldı: Kadir'den, Tahsin Usta'dan, Recep Efendi'den, Gizem'in kumbarasından. Süheyla tacın sahibini aradı: \"Nakit getiren alır.\" Cengo buruşuk paraları masaya saydı; senin elli binin en üstteydi. Taç kutusuyla Cengo'nun koltuğunun altında.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo kutuyu koltuğunun altına sıkıştırdı. \"Büroda veririm. Burada takarsan yine heykel sanarlar\" dedi."
+              "metin": "Kutu senin, Peri. Orada takarsan yine heykel sanarlardı; burada kimse görmez."
             }
-          ]
+          ],
+          "secenek": "“Her şeyi anlatacağım. On dört numarayı da Cengo'ya bırakıyorum.”",
+          "cengo_replik": {"i": "yumusak", "yuz": "peri.yumusak"}
         }
       ],
       "seeds": {},
@@ -8806,6 +8809,18 @@
           "onarim_nesrin": "Gizli onarım",
           "vedat_gece": "Dün geceki ziyaret",
           "eski_tuval": "Feriköy'deki tuval"
+        },
+        "cengo_kanit": {
+          "kopya_eli": "O kopyayı bu evde yalnız iki el yapabilirdi, Peri. Onu söyleseydin kadın \"kanıtınız ne?\" diyemezdi.",
+          "onarim_nesrin": "Tablo iki hafta gizlice Nesrin Hanım'ın elindeydi, Peri. Onu söyleseydin kimse inkâr edemezdi.",
+          "rapor_evde": "Şükrü Bey tabloyu bir saat gördü, sonra iki hafta İzmir'deydi, Peri. Bir saatte kopya yapılmaz.",
+          "eski_tuval": "Feriköy'deki eski tuvali evin hesabına yalnız iki kişi alabilirdi, Peri. Necmi abinin defteri yalan söylemez."
+        },
+        "cengo_kanit_replik": {
+          "kopya_eli": {"i": "normal", "yuz": "peri.kas"},
+          "onarim_nesrin": {"i": "normal", "yuz": "peri.kas"},
+          "rapor_evde": {"i": "normal", "yuz": "peri.kas"},
+          "eski_tuval": {"i": "normal", "yuz": "peri.kas"}
         }
       },
       "anahtarlar": {
@@ -8864,8 +8879,6 @@
             {
               "k": "not",
               "m": "Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.",
-              "gir": "suheyla",
-              "gi": "normal",
               "kare": "K152"
             },
             {
@@ -9677,6 +9690,23 @@
               "kime": "cengo",
               "ekran": "cengo+nesrin",
               "yuz": "cengo.yumusak"
+            }
+          ]
+        },
+        "karar_soru": {
+          "arka": "A56",
+          "set": "altin_temiz",
+          "cset": "smokin",
+          "secim_kare": "K154",
+          "figurler": ["peri", "cengo", "nesrin"],
+          "satirlar": [
+            {
+              "k": "nesrin",
+              "i": "itiraf",
+              "m": "Rulo sizde, hanımefendi. Satış sekizde başlıyor. Süheyla Hanım'a ne diyeceksiniz?",
+              "kime": "peri",
+              "ekran": "peri+nesrin",
+              "yuz": "peri.kas"
             }
           ]
         },
