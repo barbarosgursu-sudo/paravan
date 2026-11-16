@@ -2734,13 +2734,18 @@ function vnArkaKoy(kod, anlik){
 }
 
 function vnKareGoster(kod){
-  const eski = document.querySelector(".vn-kare"); if(eski) eski.remove();
+  const eski = document.querySelector(".vn-kare");
+  // Aynı kare üst üste satırlarda sürüyorsa resim yerinde kalır, yalnız yazı değişir (16 Kasım 2026, sahibinin kararı:
+  // silinip yeniden belirirken arkadaki sahne bir an görünüyordu — V6 D18, Eylül'ün zarfları).
+  if(eski && kod && eski.dataset.kod === kod) return;
+  if(eski) eski.remove();
   if(!kod) return;
   const src = vnGorsel(kod);
   const yt = !src && (YG.yer_tutucu||[]).includes(kod);
   if(!src && !yt) return;
   const d = document.createElement("div");
   d.className = "vn-kare";
+  d.dataset.kod = kod;
   d.innerHTML = yt ? vnYerTutucuAlan(kod) : (YG.tam||[]).includes(kod)
     ? `<img class="dolgu" alt="" src="${src}"><img class="tam" alt="" src="${src}">`
     : `<img class="kaplama" alt="" src="${src}">`;

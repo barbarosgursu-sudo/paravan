@@ -8,6 +8,10 @@
 
 ---
 
+> ✅ **Aynı kare üst üste satırlarda kalır (16 Kasım 2026, sahibinin kararı):** V6 D18'de (Eylül'ün zarfları) kare her satırda
+> silinip yeniden beliriyor, arada büro bir an görünüyordu. Artık aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir
+> (`yeni_arayuz.js → vnKareGoster`, kare kodu `data-kod`'da). Bütün vakalara uyar; farklı kareye ya da karesiz satıra geçiş eskisi gibi.
+
 > ✅ **Karşılıklı konuşmada yerler sabit (16 Kasım 2026, sahibinin kararı; `86db39d`):** V6 girişinde Gizem ↔ Eylül her satırda
 > yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). Artık aynı iki kişi bir önceki satırda da ekrandaysa
 > yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js`
