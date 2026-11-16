@@ -5,7 +5,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V6 G<n>) bakılıp her elin kend
 
 - G3 3a50251992d0
 - G4 805b6d46c038
-- G5 aefedf6aaa65
+- G5 7a12e03ad1fe
 - G6 b7806e92110e
 - G7 0c1834f77821
 - G8 6d56c1e627fd

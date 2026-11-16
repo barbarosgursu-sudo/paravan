@@ -882,7 +882,6 @@
   "kesim_yz": [
     "muzeyyen.normal",
     "jale.normal",
-    "haldun.normal",
     "eylul.normal",
     "recep.normal",
     "dilek.normal",
@@ -925,6 +924,7 @@
     "dilek.heyecanli",
     "tahsin.gulen",
     "haldun.dertli",
-    "gizem.triko_tepsi_telefon"
+    "gizem.triko_tepsi_telefon",
+    "haldun.normal"
   ]
 }

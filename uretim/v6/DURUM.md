@@ -1,3 +1,9 @@
+**16 Kasım 2026, akşam — G5 YENİDEN (Oğuz Bey buldu, bu bilgisayarda üretildi).** Haldun'un parmak uçları birbirine değen pozunda
+her elde 4 parmak vardı. Düzeltme 1: sol el pantolon cebinde, sağ el yanında sarkıyor, başparmak görünür; jest yok (resim dinleme
+satırlarında da görünüyor, K12). Referans `referanslar/haldun_bas.png`. G5 tarz GEÇTİ (+0,064) · yüz GEÇTİ (0,893); el sayfası doğru
+(sağ kolda sağ el), el onayı Oğuz Bey'den. Eski `red/G5_red2.png`. Gömüldü (`haldun.normal`); doğrulayıcı, iki derleme, testler,
+`arac_kapi.js V6 resim` GEÇTİ (önce `YENI_UI/el/sayim.json` bozuk kodlamayla kalmıştı, silinip yeniden koşuldu).
+
 **16 Kasım 2026, gece — YENİ KARAR DÜZENİ: VAKA 6 TAMAM.** Oğuz Bey'in 7 repliği (Cengo'nun 4 karar + 3 kanıt satırı) ve kod
 düzeltmesi (Barbaros onayı): Cengo'nun satırları etiketli (`**CENGO [ifade]:** … {yuz: peri.x}`), büroda Cengo'nun repliği olarak
 oynuyor. İfadeler: Cengo `buruk.normal` (yumusak kesilmemiş), Peri `tul.kas`/`tul.normal`. Doğrulayıcı, iki derleme, testler,
