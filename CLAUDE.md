@@ -29,6 +29,9 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 > ### kurallar ve kod `main`'de. **Vaka 6 yeni düzende TAMAM** (Cengo satırları etiketli replik: `**CENGO [ifade]:** … {yuz: peri.x}`);
 > ### sırada Oğuz Bey'in Vaka 7'si (adım 2). Ayrıntı `kaynak/DEVIR.md` en üst.
 >
+> ### 📚 KURALLAR TEK DOSYADA TOPLANIYOR (16 Kasım 2026, Barbaros; yarım): `sablon/kurallar/PLAN.md`. O iş bitene kadar
+> ### mevcut belgeler geçerli. Eski oyunun 18 belgesi `arsiv/`'e taşındı (aşağıdaki atıfların bir kısmı artık `arsiv/` altında).
+>
 > ### ⬅️ YENİ OTURUM: ÖNCE `kaynak/DEVIR.md` OKU
 > Bu dosya kalıcı bilgidir (sözleşmeler, tuzaklar, komutlar). `DEVIR.md` ise **oturum
 > durumudur**: en son ne yapıldı, sahibi hangi soruya cevap bekliyor, sıradaki iş ne.
