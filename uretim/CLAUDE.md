@@ -103,6 +103,12 @@ gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. K
    benzetebilir (V6'da Müzeyyen = Nadide, Dilek = Gülsüm, Tahsin = Sarkis/Rıza çıktı): benzerse sahibine yeni görünüş öner,
    metinde geçen eşyayı koru. İstemde "X'e (ayırıcı özelliği) benzemiyor" yazılır. Benzerlik `istem_kontrol.sh`'ın
    yakalayamadığı şeydir.
+9b. **Vakaya özgü her karakter, önceki vakaların BÜTÜN konuklarından açıkça farklıdır (ortak, 16 Kasım 2026: "sadece vaka 7
+   için özel ürettiğin kişiler tamamıyla diğer karakterlerden farklı olacak"; Peri, Cengo, Gizem gibi sürekli karakterler hariç).**
+   Yüz aracının uyarısı (≥ 0,70) yetmez: V7 Parti 1'de 0,64–0,68 puanlı Necmi ve Ercan gözle Recep'in yüzüydü, Kaan Bülent'in.
+   Temel üretilince her yeni konuk, aracın bulduğu en yakın İKİ eski konukla yan yana konur ve gözle bakılır (yüz biçimi, saç,
+   beden, yaş); benzerse ortağa yeni görünüş önerilir. Üretici "neşeli yaşlı esnaf", "yakışıklı genç" gibi kalıp yüzlere kayar:
+   istemde yüz biçimi (uzun/köşeli/yuvarlak), saç rengi ve bir ayırıcı işaret (gözlük, çil, altın diş, kel tepe) açıkça yazılır.
 10. **Elde yalnız metindeki nesne (SR-D):** temel figüre de "rahat dursun" diye mendil, makas, bez verilmez; `## Satırlar`'da
    geçmiyorsa eller boş.
 

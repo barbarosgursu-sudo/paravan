@@ -82,7 +82,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Nişantaşı, müzayede evinin deposu: raflarda çerçeveler, ortada sehpada tablo. Kaan, UV lambasıyla. Peri'yi tanımaz ama hayran. UV: yeni boya, çatlak verniği, kopya. Kim yapabilir: Nesrin ve Şükrü. Köşede onarım izi kopyalanmış; rapor yalan. Peri "Süheyla Hanım'a ben söylerim" der.
 
 `112` *Nişantaşı. Müzayede evinin deposu: raflarda çerçeveler, ortada bir sehpada yaldız çerçeveli bir Boğaz manzarası.*  
-`113` *Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam.*  
+`113` *Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli, gözlüklü genç bir adam.*  
 `114` **KAAN:** Süheyla Hanım'ın misafirleri! Kaan, baş eksper. Siz… sizi bir yerden…  
 `115` **PERİ:** Bir yerden, evet. Tabloya bakacaktık, Kaan Bey.  
 `116` *Kaan ışıkları kısıyor, mor lambayı tablonun üstünde gezdiriyor. Tablonun her yeri aynı, düz bir renkte parlıyor.*  

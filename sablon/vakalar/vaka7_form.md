@@ -411,15 +411,15 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
   Peri'den gösterişsiz.
 - **Nesrin Hanım (58):** ince, kemikli yüz; uzun kır saç **tek örgü**, omzundan önde; gözlüğü başının üstünde; siyah
   sade elbise üstünde boya lekeli **lacivert iş önlüğü**; parmak uçları boyalı.
-- **Şükrü Bey (64):** ufak tefek; ince kır bıyık, kalın kır kaşlar, geriye yatırılmış seyrek saç; kahverengi tüvit
+- **Şükrü Bey (64):** ufak tefek; tepesi kel, yanlarda kısa beyaz saç; ince, uzun, sert yüz, dar dudaklar, gülmez; ince kır bıyık, kalın kır kaşlar (Ferruh ve Tahsin’den ayrılsın — ortak, 16 Kas); kahverengi tüvit
   takım, **kusursuz koyu yeşil papyon** (ince beyaz puantiyeli; Ferruh bordo papyonlu olduğu için — ortak, 16 Kas); yelek cebinden zincirli büyüteç (lup).
 - **Vedat Bey (50):** iri, kel; kısa kır sakal; bordo kadife ceket, beyaz boğazlı kazak; kalın siyah çerçeveli gözlük
   (Haldun'un incesinden ayrışır).
-- **Kaan (28):** uzun, ince; perçemli kahverengi saç; dar lacivert takım, beyaz spor ayakkabı; elinde mor ışıklı UV
+- **Kaan (28):** uzun, ince, çocuksu yüzlü; alna düşen perçemli AÇIK KUMRAL saç, yuvarlak kemik çerçeveli gözlük, çil (Bülent ve Cengo’dan ayrılsın — ortak, 16 Kas); dar lacivert takım, beyaz spor ayakkabı; elinde mor ışıklı UV
   lambası; akşam kürsüde tokmak.
-- **Ercan (vale, 40'lar):** kırk yaşında, tıknaz; jöleli, geriye taranmış siyah saç, ince siyah bıyık; siyah, altın düğmeli vale yeleği (Bülent kırmızı yelekli olduğu için — ortak, 16 Kas), beyaz eldiven,
+- **Ercan (vale, 40'lar):** kırk yaşında, UZUN ve sırık gibi İNCE; uzun, köşeli yüz, çökük yanaklar, kemerli burun, bıyıksız; jöleli, geriye taranmış siyah saç (Recep, Ferruh ve Bülent’ten ayrılsın — ortak, 16 Kas); siyah, altın düğmeli vale yeleği (Bülent kırmızı yelekli olduğu için — ortak, 16 Kas), beyaz eldiven,
   elinde anahtar halkası.
-- **Necmi (50'ler):** iri, gür kır favoriler; yün bere, bol kareli oduncu gömleği, üstünde kolsuz şişme yelek; elinde
+- **Necmi (50'ler):** iri; yüzü uzun ve kemikli, kalın siyah kaşlar, iri burun, çene traşlı, güldüğünde bir altın diş (Recep ve Rıza’dan ayrılsın — ortak, 16 Kas); gür kır favoriler; hardal yün bere, bol kareli oduncu gömleği, üstünde kolsuz şişme yelek; elinde
   eski kartpostallar.
 
 **Kişiler (künye):**

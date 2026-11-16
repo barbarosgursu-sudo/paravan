@@ -17,3 +17,11 @@ desen `smoke|smoking` oldu.
 - **Benzerlik uyarıları (kural 9, gözle bakıldı):** Kaan ↔ Cengo yüz 0,72 (ikisi de uzun boylu, koyu kahve saçlı; Kaan traşlı ve
   genç); Ercan ↔ Ferruh 0,745 (ikisi de tıknaz, bıyıklı; Ercan siyah jöleli saçlı, Ferruh kır); Süheyla (G4z) ↔ Ayla 0,70 (ayrılıyor).
 - Zemin seçimi onaydan sonra (`arac_zemin.py`, H4), sonra baş kırpıkları ve Parti 2.
+
+**16 Kasım 2026, 21:50 — DÖRT KONUK YENİDEN YAZILDI (ortağın kuralı: vakaya özgü karakterler eski konuklardan tamamen farklı;
+`uretim/CLAUDE.md` 9b).** Gözle karşılaştırmada Kaan = Bülent/Cengo, Ercan ve Necmi = Recep, Şükrü = Ferruh/Tahsin arası çıktı.
+Ortağın seçtiği yeni görünüşler (form §16 ve diyalog güncel): **Kaan** açık kumral perçemli, yuvarlak kemik gözlüklü, çilli, çocuksu
+(diyalog satır 113'e "gözlüklü" eklendi) · **Ercan** uzun, sırık gibi ince, köşeli yüzlü, bıyıksız · **Necmi** yüzü uzun ve kemikli,
+kalın siyah kaşlar, altın diş · **Şükrü** tepesi kel, sert yüz, gülmüyor. Eski resimler `red/G6*_red1`, `G8*`, `G9*`, `G10*`.
+İstemler kontrolden geçti (çıkış 0). **ÜRETİLMEDİ:** Barbaros'un durdurma talimatı sürüyor (en üst); "başla" deyince
+`SADECE="6 6z 8 8z 9 9z 10 10z"` ile üretilir. Süheyla, Nesrin, Vedat ayrışıyor (değişmedi).

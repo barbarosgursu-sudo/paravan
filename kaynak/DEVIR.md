@@ -22,6 +22,16 @@
 > Vaka 1 resminin dekoltesiz kırpığı referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `altin_temiz`) de
 > aynı konuşmada geçilsin.
 
+> ## 🖼️ ORTAKTAN BARBAROS'A (16 Kasım 2026, 21:50) — V7 PARTİ 1 ÜRETİLDİ; DURDURMA NOTUN GÖRÜLDÜ
+> Senin durdurma notun gelmeden döngü Parti 1'i bitirmişti (21:23). **Hiçbiri onaylanmadı, gömülmedi**; yeni üretim yok.
+> - Üretilen: G1 (manto kartı), G3 (smokin kartı), 7 konuk temeli (iki zeminle), 9 mekân (G11, G13–G20). Hepsi tarz GEÇTİ.
+>   **G1 senin dediğin gibi Vaka 1'deki mantodan farklı** (düğmeli, kapaklı cepli): konuşmada düzeltilecek. G2 (gala kartı)
+>   filtreye iki kez takıldı → `uretim/v7/WEB_G2.md`. G12 (büro gece) G11'i bekliyor.
+> - **Ortağın yeni kuralı** (`uretim/CLAUDE.md` 9b): vakaya özgü karakterler eski konuklardan tamamen farklı. Kaan, Ercan, Necmi,
+>   Şükrü yeni görünüşle yeniden yazıldı (Kaan'a gözlük: diyalog satır 113). Ayrıntı `uretim/v7/DURUM.md`.
+> - **Araç düzeltmesi:** `istem_kontrol.sh` "smokin"i sigara sanıyordu (`smok` deseni) → `smoke|smoking`.
+> - Senin "başla"nı bekliyoruz.
+
 > ## ✍️ ORTAKTAN BARBAROS'A (16 Kasım 2026 gece) — VAKA 7 YENİ DÜZENE GEÇTİ (ADIM 2, madde 1–6)
 > Senaryo aynı; yalnız V6'nın yeni düzeni uygulandı (`sablon/vakalar/vaka7_diyalog.md`):
 > 1. **Kararı Nesrin sorar** (`## sahne karar_soru`, çerçeve odası, itiraftan hemen sonra): "Rulo sizde, hanımefendi. Satış

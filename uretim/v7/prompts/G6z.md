@@ -25,7 +25,7 @@
 
 ## Kontrol
 
-UFAK TEFEK, ince · çok ince KIR bıyık, kalın kır kaşlar, seyrek geriye yatık saç · kahverengi TÜVİT üç parça · KOYU YEŞİL puantiyeli papyon (BORDO DEĞİL) · yelek cebinde altın zincir · eller boş · Ferruh'a benzemiyor · zemin açık bej
+UFAK TEFEK, zayıf · tepesi KEL, yanlarda kısa BEYAZ saç · ince uzun SERT yüz, GÜLMÜYOR · çok ince kır bıyık, kalın kır kaşlar · Tahsin'e ve Ferruh'a benzemiyor · kahverengi TÜVİT üç parça · KOYU YEŞİL puantiyeli papyon (BORDO DEĞİL) · yelek cebinde altın zincir · eller boş · Ferruh'a benzemiyor · zemin açık bej
 
 ## İstem
 
@@ -34,13 +34,13 @@ Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. 
 
 Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
 
-Şükrü Bey: altmış dört yaşında, UFAK TEFEK, ince, kibar, eski usul bir müzayede uzmanı. Geriye yatırılmış, seyrek, düz KIR saç; KALIN, gür kır kaşlar; çok İNCE, düzgün kesilmiş kır bir bıyık; temiz traşlı çene. Gözlük yok. Kahverengi, ince desenli TÜVİT üç parça takım (ceket, yelek, pantolon), beyaz gömlek; boynunda kusursuz bağlanmış KOYU YEŞİL, ince beyaz puantiyeli bir PAPYON. Yeleğin cebinden ince bir altın zincir sarkıyor; zincirin ucundaki küçük büyüteç cepte. Ferruh'a (tombul, gür kır saçlı, lacivert ceketli, BORDO papyonlu iri adam) benzemiyor: Şükrü küçük ve zayıf, papyonu koyu yeşil, takımı kahverengi tüvit. Kenan'a ve Haldun'a benzemiyor.
+Şükrü Bey: altmış dört yaşında, UFAK TEFEK, zayıf, kuru, eski usul bir müzayede uzmanı. Başının TEPESİ tamamen KEL ve parlak; yalnız şakaklarda ve ensede kısa, düzgün kesilmiş BEYAZ saç. İNCE, UZUN, SERT bir yüz: çökük yanaklar, sivri bir çene, DAR, ince, gülmeyen dudaklar; KALIN, gür kır kaşlar; dudağının üstünde çok İNCE, düzgün kesilmiş kır bir bıyık; çene traşlı. Gözlük yok. Tahsin'e (gür dalgalı beyaz saçlı, kalın gözlüklü, önlüklü yaşlı usta) benzemiyor. Kahverengi, ince desenli TÜVİT üç parça takım (ceket, yelek, pantolon), beyaz gömlek; boynunda kusursuz bağlanmış KOYU YEŞİL, ince beyaz puantiyeli bir PAPYON. Yeleğin cebinden ince bir altın zincir sarkıyor; zincirin ucundaki küçük büyüteç cepte. Ferruh'a (tombul, gür kır saçlı, lacivert ceketli, BORDO papyonlu iri adam) benzemiyor: Şükrü küçük ve zayıf, papyonu koyu yeşil, takımı kahverengi tüvit. Kenan'a ve Haldun'a benzemiyor.
 
 Poz: TAM İKİ KOL, İKİ EL. İki eli önünde, belinin hizasında hafifçe birleşmiş; elleri boş.
 
 Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
 
-İfade: kibar, ölçülü, hafif mesafeli; dudaklarında belli belirsiz, nazik bir gülümseme; çenesi hafif yukarıda, ağırbaşlı.
+İfade: kibar ama mesafeli, ağırbaşlı ve kuru; GÜLÜMSEMİYOR, dudakları dümdüz kapalı; çenesi hafif yukarıda, bakışı ölçücü.
 
 Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
 

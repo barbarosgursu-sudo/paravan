@@ -110,7 +110,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: kopyayı yapacak eller Nesrin ya da Şükrü (Vedat yok). Rapor yalanı Şükrü'yü gösterir, masum açıklaması var (onarımı gizlemek; B, C).
 
 *Nişantaşı. Müzayede evinin deposu: raflarda çerçeveler, ortada bir sehpada yaldız çerçeveli bir Boğaz manzarası.* {arka: A50, mekan}
-*Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam.* {gir: kaan, gi: normal, ekran: kaan}
+*Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli, gözlüklü genç bir adam.* {gir: kaan, gi: normal, ekran: kaan}
 **KAAN [heyecanli]:** Süheyla Hanım'ın misafirleri! Kaan, baş eksper. Siz… sizi bir yerden… {gir: kaan, kime: peri, ekran: peri+kaan, yuz: peri.normal}
 **PERİ [kas]:** Bir yerden, evet. Tabloya bakacaktık, Kaan Bey. {kime: kaan, ekran: peri+kaan, yuz: kaan.heyecanli}
 *Kaan ışıkları kısıyor, mor lambayı tablonun üstünde gezdiriyor. Tablonun her yeri aynı, düz bir renkte parlıyor.* {kare: D24}
