@@ -34,7 +34,9 @@ const kayitlar = [];
 const kimlik = (dosya, metin) => crypto.createHash('md5').update(dosya + '\n' + metin.replace(/\s+/g, ' ').trim()).digest('hex').slice(0, 10);
 
 for (const dosya of BELGELER) {
-  const satirlar = fs.readFileSync(path.join(KOK, dosya), 'utf8').split('\n');
+  // Arşive taşınan belge (arsiv/<yol>) eski adıyla okunur: kayıt kimliği değişmesin.
+  const yer = fs.existsSync(path.join(KOK, dosya)) ? path.join(KOK, dosya) : path.join(KOK, 'arsiv', dosya);
+  const satirlar = fs.readFileSync(yer, 'utf8').split('\n');
   const baslik = [];            // [düzey] = başlık
   let kod = false, blok = null; // blok = { satir, metin[] , tur }
   const bitir = () => {
