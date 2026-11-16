@@ -8,6 +8,14 @@
 
 ---
 
+> ✅ **Karşılıklı konuşmada yerler sabit (16 Kasım 2026, sahibinin kararı; `86db39d`):** V6 girişinde Gizem ↔ Eylül her satırda
+> yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). Artık aynı iki kişi bir önceki satırda da ekrandaysa
+> yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js`
+> (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G. Yalnız `ekran` etiketli vakalara (V6, V7) uyar.
+> V6 tarandı: bu türden başka yer kalmadı. Kalan taraf değiştirmeler (Cengo konukla solda, Peri konuşunca sağda; tek görünen
+> konuk karşısına biri gelince sola) **sahibince sorunsuz bulundu, dokunulmayacak.** V1–V5'te iki örnek var (V4: Rana ↔ Feraye,
+> Feraye ↔ Sadık; eski `kime` düzeni) — **bilerek düzeltilmedi**, o vakalar zaten yeni kurallara göre yeniden geçirilecek.
+
 > ✅ **Gözden geçirme bitti (16 Kasım 2026, Barbaros + Oğuz Bey):** aşağıdaki 6 replik **onaylandı**; Vaka 6'nın geri kalanı
 > **uygun**, eklenecek/çıkarılacak bir şey yok. **Kalan tek iş: 7 yeni replik (4 ve 5), Oğuz Bey yazacak.**
 
