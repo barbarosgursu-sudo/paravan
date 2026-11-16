@@ -4,7 +4,7 @@
 > her madde, tablo satırı ve paragraf asıl metniyle, kelimesi kelimesine; özet yok, ayıklama yok. Bu yüzden kural olmayan
 > satırlar da (açıklama, geçmiş, örnek) burada. Ayıklama sonraki adımda, sahibiyle birlikte yapılır.
 
-**Toplam: 3583 kayıt, 36 dosya.**
+**Toplam: 3585 kayıt, 36 dosya.**
 
 | dosya | kayıt |
 |---|---|
@@ -33,7 +33,7 @@
 | `kaynak/cengo_bag_mekanigi.md` | 83 |
 | `kaynak/dogrulayici_sozlesmesi.md` | 63 |
 | `kaynak/veri_format_sozlesmesi.md` | 32 |
-| `kaynak/OKUBENI.md` | 412 |
+| `kaynak/OKUBENI.md` | 414 |
 | `kaynak/yeni/OKUBENI.md` | 57 |
 | `sablon/vakalar/vaka2_baslangic.md` | 103 |
 | `sablon/vakalar/vaka3_baslangic.md` | 59 |
@@ -11411,1710 +11411,17 @@ for t in test_*.js; do node $t; done
 > V1'de öğrenilen bir olgu V5'te kaynak açardı. Bu ayrım olmadan "önceki vakada
 > bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
 
-**2374** · `18506cb61f` · satır 144 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Açık uyarılar (tasarım kararı bekliyor)
+**2374** · `5c801a5063` · satır 145 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eski oyunun vakaları ve ekonomisi
 
-> - **K7 · V3, V6 ve YAN-B**: oyuncu hiçbir noktada iki kaynak arasında seçim
->   yapmak zorunda kalmıyor. Üçü de **kabul edilmiş**, çünkü üçü de zincir:
->   V3 düz bir teşhis zinciri (ağırlığı İlyas'ı ne yapacağında), V6 final
->   (ağırlığı kimi ele vereceğinde), YAN-B ise dolandırıcının izi → sorumluluk
->   → avukat kırıntısı (ağırlığı Nadire'ye ne yapacağında). Araştırma seçimi bu
->   üç vakanın konusu değil.
+> Eski oyunun (dokuz vaka) açık uyarıları, kapatılan tuzakları, sızıntı ve ekonomi notları, vaka vaka tasarım kayıtları
+> 16 Kasım 2026'da `arsiv/kaynak/OKUBENI_eski_oyun.md`'ye taşındı (kuralları ham listede: `sablon/kurallar/HAM.md`).
 
-**2375** · `7210c308cd` · satır 150 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Açık uyarılar (tasarım kararı bekliyor)
-
-> - **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
->   Derinlik ödülü olarak makul; dokunulmadı.
-
-**2376** · `5fad83a108` · satır 152 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Açık uyarılar (tasarım kararı bekliyor)
-
-> - **K9**: 6 tohum yazılıp hiç okunmuyor. Üçü (`cavit_guven`, `v2_karar`,
->   `v4_karar`) itibar sistemine bağlandı; kalanlar ya Sezon 2 ipi
->   (`peri_yuzlesti`, `adres_kime`) ya da henüz karşılığı yazılmamış. Silinmedi — bunlar ekonominin
->   ihtiyaç duyacağı şeyler (hangi kararı verdin → itibar → müşteri ücreti;
->   `cavit_guven` → hangi işler sana geliyor). Ekonomi turunda bağlanacak.
-
-**2377** · `a4ed078805` · satır 160 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **V1/cengo_baglanti** bedelsiz yapıldı: needs'i iki kaynak istiyor, kendisi
->   de hak istiyordu; yanlış sırada harcayan oyuncu listede görüp açamıyordu.
-
-**2378** · `852b1851ba` · satır 162 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **V1/sigorta_yazisi → V4 köprüsü.** V4'ün girişi *"Peri o ödemeyi Kaya'nın
->   KAYITLARINA bakarken görmüştü"* diyor. Bunu tetikleyen koşul
->   `olay_yeri_acildi` idi — oysa o kaynak polis fotoğraflarından ibaret ve
->   banka kayıtlarına erişim sağlamaz. Köprü artık **sigorta dosyası**: ölüm
->   soruşturması yürüten sigorta hesap dökümlerini ister, ve dosyayı Peri'ye
->   veren Cavit'in kendisi. Kaynağın metni de bunu söylüyor — *"Dosya kalın:
->   poliçe, ekspertiz notları, ve Kaya'nın son bir yıllık hesap dökümleri"* —
->   ve meta Cavit'in neden ayıklamadığını açıklıyor: acelesi vardı.
-
-**2379** · `eeaf0b23c9` · satır 170 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **V1/sigorta_yazisi** bedelsiz yapıldı: üç haktan birini yiyordu ama
->   karşılığında girişte zaten söylenen şeyi tekrarlıyordu; açtığı olgu
->   (`sigorta_sorusturma`) hiçbir çıkarımda kullanılmıyor. Sigorta eksperi
->   zaten Peri'yi tutan taraf, dosyayı ona vermesi doğal. Metni de keskinleşti:
->   artık ödemenin donduğunu ve "bağımsız uzman raporu" beklendiğini söylüyor —
->   yani oyuncuya kendi rolünü anlatıyor (Cavit'in satın aldığı şey imza).
->   V1'de hâlâ 4 ücretli kaynak / 3 hak var; seçim baskısı korundu.
-
-**2380** · `eb5cfca9d0` · satır 177 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **V3/foto_goster** bedelsiz yapıldı: iki açılış kaynağı (`cavit_brief`,
->   `mahalle_yokla`) aynı kapıya çıkıyor. İkisini birden alan oyuncu — ki bu
->   doğal bir hamle — teşhise yetişemiyor ve elinde yalnızca "tanığı lekele"
->   kalıyordu. Artık 10 yolun hepsinde 4 karar da açık.
-
-**2381** · `ec3fd4161d` · satır 181 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **V6/zincir_ozet** V5'teki komplo çözümüne bağlandı; çözemeyen oyuncu
->   `eldekiler` ile boşluğun kendisiyle yüzleşiyor.
-
-**2382** · `a1b4190dcf` · satır 183 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **V6'da susmak ikiye ayrıldı**: `sus_bilerek` (zinciri kurdu, söylemedi —
->   sert sonuç, vicdan −1) ve `boslukla_kapat` (kuramadı, suçlayacak delili
->   yok — mahkûmiyet ve ceza YOK). Kapılar `zincir_tam` ve `{not: zincir_tam}`
->   olduğu için ikisi asla birlikte sunulmuyor; başka seçeneği olmayan oyuncuya
->   ahlaki fatura kesilmiyor.
-
-**2383** · `56ef089f1e` · satır 188 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **İstatistik paneli yalnızca SUNULAN kararları gösteriyor** ve oranları o
->   kümede 100'e ölçekliyor. Tek seçenek varsa panel hiç görünmüyor — dağılım
->   diye bir şey yoktur. Eskiden oyuncunun hiç göremediği seçeneklerin oranı da
->   gösteriliyordu.
-
-**2384** · `faec8a8da5` · satır 192 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Doğrulayıcı kuralları › Kapatılan tuzaklar
-
-> - **Son ekranı `hepsi` anahtarı**: eşlemede `hepsini_ifsa` yazıyordu ama karar
->   `final_karar: "hepsi"` yazıyor. O final cümlesi hiç görünmüyormuş.
-
-**2385** · `4b4757b7ba` · satır 197 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> Doğrulayıcının K10'u yalnızca **kaynak** metinlerine bakıyordu. Karar
-> sonuçları, defter notları ve giriş varyantları denetimsizdi — bu sınıftaki
-> hataları bugüne kadar hep elle, tek tek bulduk.
-
-**2386** · `f84bafdf33` · satır 201 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> `test_sizinti.js` artık **yapısal** bir tarama da yapıyor. Mantığı şu:
-> koşullu bir metnin **varsayılan** varyantı, hiçbir koşul sağlanmadığında
-> gösterilendir — yani o yüzeyi gören **en az bilgili** oyuncunun okuduğu şey.
-> Soru: o oyuncunun elinde ne olduğu **kesin**?
-
-**2387** · `09ac5d6c23` · satır 206 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> Her yüzeyin kendi garantisi var:
-
-**2388** · `8a7d60b05b` · satır 208 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> | Yüzey | Garanti |
-
-**2389** · `3c97c0201e` · satır 210 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> | Kaynak metni/meta | `needs` + `reveals` (kaynağın kendisi o bilgiyi veriyor) |
-
-**2390** · `4c5f1762a4` · satır 211 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> | Karar sonucu | kararın `gate`'i |
-
-**2391** · `52da8a3e52` · satır 212 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> | Defter notu | ait olduğu kararın `gate`'i |
-
-**2392** · `84089bd0b1` · satır 213 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> | Giriş | `giris.acilan` |
-
-**2393** · `165f1fc187` · satır 215 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> Havuz üç şekilde genişliyor, üçü de gerçek yanlış alarmları kapatmak için
-> eklendi:
-
-**2394** · `bc2e9f89ac` · satır 218 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> 1. **Türetme geriye** — türetilmiş olguya sahipsen bileşenlerine de sahipsin.
-
-**2395** · `837c988763` · satır 219 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> 2. **Türetme ileriye** — bileşenlerin hepsine sahipsen türetilmişe de
->    sahipsin. Bu olmadan `foto_goster`'ın kendi metni sızıntı sayılıyordu:
->    kaynak `foto_teshis` veriyor, `iten_ilyas` ondan türüyor.
-
-**2396** · `c6b364c98e` · satır 222 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> 3. **Zincir boyunca** — bir olguyu üreten kaynak açılmış olmalı, o hâlde onun
->    `needs`'i ve diğer `reveals`'ı da elde demektir. Bu olmadan zincirin
->    sonundaki kaynaklar yanlış alarm veriyordu: `ceyda_derin`'e ulaşmak
->    `iliski_gor`'dan geçiyor, o da `cinayet_sebep`'i veriyor. Aynı olguyu
->    birden çok kaynak üretiyorsa yalnızca **ortak** garantiler sayılıyor —
->    yoksa denetim gevşer.
-
-**2397** · `a2eecd9099` · satır 229 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde
-
-> Tarama 15 bulguyla başladı, 14'ü yanlış alarmdı; havuz doğru kurulunca
-> sıfıra indi. Negatif testle doğrulandı: düzeltilen bir sızıntı geri konunca
-> bekçi anında yakalıyor.
-
-**2398** · `3c8b8137e6` · satır 235 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
-
-> | Nerede | Söylenen | Oyuncunun bilmediği |
-
-**2399** · `7c585fc185` · satır 237 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
-
-> | `V3/tanigi_lekele` sonuç + defter | "**Doğruyu söyleyen** kadını lekeledin" | Tanığın doğru söylediğini hiç doğrulamamış olabilir |
-
-**2400** · `dd77f45cae` · satır 238 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
-
-> | `V3/foto_goster` **meta** | "İlyas — **V2'deki** o silik tahsildar" | V2'de o kaynağı açmamış olabilir |
-
-**2401** · `f72c42305a` · satır 239 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
-
-> | `V5/cavit_ilyas_ilgi` **başlık** | "Cavit neden **İlyas'ı** önemsiyor?" | İlyas'ı hiç teşhis etmemiş olabilir |
-
-**2402** · `996731bc89` · satır 240 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
-
-> | `V5/ilyas_gecmis` **başlık** | "**İlyas ile Cavit'in** geçmişi" | Aralarında bağ olduğunu bilmiyor |
-
-**2403** · `158b6455be` · satır 242 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
-
-> `tanigi_lekele` üç bilgi durumuna ayrıldı: teşhis eden ("doğruyu söyleyen
-> kadını lekeledin"), tanığı dinleyip doğrulamayan ("doğru söyleyip
-> söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin"), hiç dinlemeyen ("kadını
-> hiç dinlemeden yazdın").
-
-**2404** · `dc2645113a` · satır 249 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › Başlıklar da koşullu olabiliyor
-
-> Kaynak `ad` alanı artık `metinSec`'ten geçiyor. Sebep: **araştırma ekranında
-> açmadan önce görünen tek şey başlık.** "Cavit neden İlyas'ı önemsiyor?" başlığı
-> İlyas'ı hiç teşhis etmemiş oyuncuya ilişkinin varlığını peşinen söylüyordu;
-> "İlyas ile Cavit'in geçmişi" ise kaynağın bulacağı şeyi başlıkta veriyordu.
-> Bilmeyen oyuncu artık "Cavit'in telaşı nereden?" ve "Cavit'in eski dosyaları"
-> görüyor.
-
-**2405** · `2d18737617` · satır 256 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › Başlıklar da koşullu olabiliyor
-
-> `test_sizinti` artık başlıkları da tarıyor — bu yüzey tamamen denetimsizdi.
-
-**2406** · `3c8b8137e6-2` · satır 260 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | Nerede | Söylenen | Oyuncunun bilmediği |
-
-**2407** · `09e95edd38` · satır 262 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | `V3/cavite_teslim` sonuç + defter | "onu kullanan adamın kucağına attın" | Cavit'in İlyas'ı kullandığı (V5 bilgisi) |
-
-**2408** · `7df5f2c493` · satır 263 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | `V6` giriş (varsayılan) | "karısının onu aldattığını" | Ceyda–Cavit ilişkisi |
-
-**2409** · `a526e11a9e` · satır 264 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | `V6` giriş (orta) | "aldatıldığını" | Aynı |
-
-**2410** · `86e655df5c` · satır 265 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | `V6/eldekiler` | "bu bir kaza değildi — eminsin" | Hiç şüphesi olmayabilir |
-
-**2411** · `f6469970aa` · satır 266 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | `V6/kaya_izi` **meta** | "bir çocuğu yaşatırken" | V4'ü oynamamış olabilir |
-
-**2412** · `30a020cda7` · satır 267 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> | `V6/hepsini_ifsa` | "aile, **çocuk**, belki Cengo" | Aynı |
-
-**2413** · `037e53be2b` · satır 269 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
-
-> Metnin kendisi koşulluyken **meta'nın koşulsuz kalması** iki kez tekrarladı
-> (`V6/kaya_izi`). Varyant eklerken her iki alanı da gözden geçirmek gerekiyor.
-
-**2414** · `576ff0cd3f` · satır 274 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> Karar ekranı Peri'nin cebinden çıkan parayı da **"ÜCRET −35.000 ₺"** diye
-> gösteriyordu. Bu, ahlakın doğrudan satın alındığı hissini veriyordu: sanki
-> vicdanın fiyatı var ve oyuncu onu ödüyor.
-
-**2415** · `7ad2f88348` · satır 278 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> Artık her gider kendi adıyla görünüyor (`decisions[].bedel_adi`):
-
-**2416** · `c456063243` · satır 280 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | Karar | Tutar | Ad |
-
-**2417** · `5a4553ae2b` · satır 282 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `YAN-B/tam_sahip_cik` | −40.000 ₺ | Nadire'nin zararı |
-
-**2418** · `caac9310cd` · satır 283 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `YAN-B/gercegi_soyle` | −18.000 ₺ | Nadire'ye bırakılan |
-
-**2419** · `81d7b914b4` · satır 284 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `YAN-B/sadece_coz` | −8.000 ₺ | Takip masrafı |
-
-**2420** · `ad9c748a61` · satır 285 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `YAN-C/aylayi_uyar` | −15.000 ₺ | Ayla'nın taşınma parası |
-
-**2421** · `8ae55ca6a0` · satır 286 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `V4/aileye_soyle` | −10.000 ₺ | Aileye bırakılan |
-
-**2422** · `1916280417` · satır 287 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `V4/sessiz_coz` | −35.000 ₺ | Tedavi katkısı |
-
-**2423** · `957c7e2f32` · satır 288 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> | `V6/cavit_ver` | −20.000 ₺ | Tahsil edilemeyen hesap |
-
-**2424** · `f86434ebc5` · satır 290 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> Rakam aynı, anlamı başka: *"TEDAVİ KATKISI −35.000 ₺"* bir fatura,
-> *"ÜCRET −35.000 ₺"* bir fiyat etiketi. Hem karar ekranında hem sonuçtaki
-> hesap kutusunda kullanılıyor.
-
-**2425** · `29375454a3` · satır 294 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Eksi tutarların gerçek bir adı var
-
-> `test_ekonomi` her eksi tutarın adı olmasını ve hiçbir adın "ücret"
-> dememesini şart koşuyor — yeni bir cepten-ödeme eklendiğinde test hatırlatır.
-
-**2426** · `d56959d1ba` · satır 299 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor
-
-> Dürüst rotada Cengo aylarca eline tam para geçmeden çalışıyor, ama ilişki
-> yüksek bitiyor. İlişkiyi düşürmek yanlış olurdu — sadakat gerçek. Eksik olan
-> şey **faturanın görünmemesiydi**.
-
-**2427** · `c4a3940c77` · satır 303 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor
-
-> `durum.gecmis` iki sayaç tutuyor: `cengoAcikAy` ve `cengoAlacak`. Final ekranı
-> ilişki kademesinin hemen altına ekliyor:
-
-**2428** · `19fc498fa1` · satır 306 · alıntı · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor
-
-> > **Cengo mesleki bir vedayla ayrıldı; yollar ayrıldı.**
-> > *Ama 4 ay eline tam para geçmedi. Birikmiş alacağı **95.800 ₺**. Sana bir kez
-> > bile sormadı.*
-
-**2429** · `f6a8104824` · satır 310 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor
-
-> İkisi birbirini çürütmüyor; ikisi birden doğru ve ağırlık orada.
-
-**2430** · `ca22fdda8d` · satır 312 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor
-
-> **Alacak, kriz eşiğinden bağımsız.** Kriz bayrağı kalemin yarıdan fazlası açık
-> kalınca yanıyor; alacak ise ne kadar eksik ödendiyse o kadar birikiyor.
-> Cengo'ya ücretinin %80'ini ödemek "ödedim" değildir.
-
-**2431** · `a6f1afb5ee` · satır 318 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor › Final mührü artık geri alınamıyor
-
-> `cavit_ver`, Cengo zaten "Yakın"sa ilişkiyi "Bağlı"ya mühürlüyor. Mühür kriz
-> hesabından **önce** vuruluyordu: aynı ay Cengo'ya ödenemezse kriz −1'i onu
-> hemen geri alıyor, "Bağlı" sessizce "Yakın"a düşüyordu. Mühür artık krizden
-> sonra vuruluyor — hangi kademede olduğuna karar anında bakılıyor, ama sonuç
-> ayın muhasebesiyle silinmiyor.
-
-**2432** · `40bd246a85` · satır 324 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Cengo: sadakat ve alacak birlikte görünüyor › Final mührü artık geri alınamıyor
-
-> Kayıt şeması 3 → 4.
-
-**2433** · `d8510efe12` · satır 330 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
-
-> İki zaman kanıtı vardı ve **ikisi de tek başına zayıftı**: kırık kol saati ne
-> zaman *durduğunu* kanıtlar, ölümü değil — üstelik sahnelenmesi en kolay delil
-> odur. Komşunun ifadesinde ise saat hiç yoktu. Buna rağmen Cengo ikisinden
-> matematiksel bir kesinlik çıkarıyordu ("kırk dakika önce yerde bulmuş oluyor").
-
-**2434** · `6f2b4aea4b` · satır 335 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
-
-> Çözüm ayrı ayrı yamamak değil, **ikisini kenetlemek** oldu. Komşu artık saat
-> veriyor ("haberlerden sonraydı — on bir gibi"), olay yeri metni saatin
-> kesinliğini geri alıyor ("düşerken kırılmış olabilir, öncesinde de"). Cengo'nun
-> cümlesi de bilgiye göre ikiye ayrıldı:
-
-**2435** · `3f27589d31` · satır 340 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
-
-> | Oyuncu | Cengo ne diyor |
-
-**2436** · `267923896f` · satır 342 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
-
-> | Komşuyu dinledi | "İki şey aynı saati gösteriyor, bir kişi başka saati." |
-
-**2437** · `8d6d409a22` · satır 343 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
-
-> | Dinlemedi | "Saat kırılabilir, yanılabilir — ama yanılan saat mi, kadın mı?" |
-
-**2438** · `a5a0040908` · satır 345 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
-
-> Kesinlik değil **ağırlık**. Dedektiflik zaten bu: tek başına hiçbir şey ifade
-> etmeyen iki şeyin üst üste binmesi.
-
-**2439** · `b323ad28d4` · satır 350 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Sigorta neden "bağımsız" raporu kabul ediyor
-
-> Uzmanı lehtarın avukatı seçiyor ve parasını o ödüyor. Sigortanın bunu neden
-> bağımsız sayacağı açıklanmıyordu. İki yol vardı: ya sigorta Peri'yi atamış
-> olacaktı (V1'in bütün güç dengesini bozardı), ya da boşluk gerçek olacaktı.
-
-**2440** · `09f8f42760` · satır 354 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Sigorta neden "bağımsız" raporu kabul ediyor
-
-> İkincisi seçildi çünkü oyunun tezini güçlendiriyor: **sistem kanmıyor, sistem
-> suç ortağı.**
-
-**2441** · `66a70c1be6` · satır 357 · alıntı · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Sigorta neden "bağımsız" raporu kabul ediyor
-
-> > *"Poliçe, lehtarın kendi uzmanını tutmasına izin veriyor — sigorta da bunu
-> > biliyor. Kimse kanmıyor; herkesin işine geliyor."*
-
-**2442** · `14fa5e8e60` · satır 362 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Aylık %10 ne
-
-> Aylık %10 yıllık ~%214 eder; banka değil. Ama tefeci de değil — oyundaki borç
-> bir kredi değil, **ödenmemiş faturaların birikmesi**. Görünmeyen bir tefeci
-> yaratmak yerine var olan mekanik açıklandı (prolog):
-
-**2443** · `f0fb6f8fff` · satır 366 · alıntı · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Aylık %10 ne
-
-> > *"Bu şehirde gecikmenin fiyatı ağır: ödenmeyen her fatura kendi cezasını
-> > yazar, her ay biraz daha."*
-
-**2444** · `ce3fe9cc0f` · satır 369 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › Aylık %10 ne
-
-> Hiç sahneye çıkmayan bir tehdit, tehdit olmaz.
-
-**2445** · `ffad88451f` · satır 373 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › İki sıçrama kapandı
-
-> - **V1'de reddeden oyuncunun V3'ü.** Dosyanın kaza olarak kapandığı
->   varsayılıyordu ama o oyuncu imzalamamıştı. Yeni giriş varyantı: *"Kaza
->   raporunu başka bir uzmana imzalatmış… madem başkası imzaladı, Cavit neden
->   hâlâ bu kadar tedirgin?"* Koşulu `ilk_karar` tohumu — **bugüne kadar hiçbir
->   yerde okunmuyordu** (K9: 7 → 6).
-
-**2446** · `75bb59523c` · satır 378 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Anlatı zemini (3. inceleme turu) › İki sıçrama kapandı
-
-> - **V5'te gözlemden kesinliğe atlama.** Cavit'i Ceyda'nın kapısında görmek
->   "sevgililer + cinayetin mimarı" demeye yetmiyordu. Meta ikiye ayrıldı:
->   İlyas'ın geçmişini bilmeyene *"Bu bir sebep olabilir — ama sebep, fail demek
->   değil"*, bilene *"ikisi yan yana gelince ortaya bir sebep çıkıyor"*.
-
-**2447** · `d16295df98` · satır 385 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir
-> kısmı kalan oyuncuya yalan söyler; *"kasam boş"* diyen bir defter notu
-> 200.000 ₺'si olana yalan söyler.
-
-**2448** · `3125ab91e2` · satır 389 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> **Kural: metnin işi EYLEMİ anlatmak, DURUMU değil.** Rakamı hesap kutusu zaten
-> gösteriyor. Temizlenenler:
-
-**2449** · `90b3468cc3` · satır 392 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | Nerede | Eski | Sorun |
-
-**2450** · `b158fe1ecb` · satır 394 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | `YAN-C/adresi_ver` ×3 | "parayı aldın, **borç kapandı**" | Geç oynanırsa borcun bir kısmı kalıyor |
-
-**2451** · `3e49fd9c98` · satır 395 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | `V6/sus_bilerek` | "**ajans yaşar** … ajans bu ay **rahat**" | 500.000 ₺ borçluya yalan |
-
-**2452** · `4db6a695c9` · satır 396 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | `V5/oyunu_surdur` | "bu ay **ajans rahat**" | Aynı |
-
-**2453** · `cb7876acc1` · satır 397 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | `V4/sessiz_coz` | "**Peri de beş parasız**" | Oyuncunun 200.000 ₺'si olabilir |
-
-**2454** · `48afb7ecae` · satır 398 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | `YAN-B/tam_sahip_cik` | "Peri **beş parasız** olsa da" | Aynı |
-
-**2455** · `2435c36a72` · satır 399 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | defter `V1/temiz_rapor` | "**borç biraz nefes aldı**" | O anda borç SIFIR |
-
-**2456** · `563d5a6026` · satır 400 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | defter `YAN-C/isi_reddet` | "**kasam boş**" | Sabit iddia |
-
-**2457** · `90df2c0710` · satır 401 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | prolog 4 | "Borç ensemde. **Kasa boş**." | Oyun 65.000 ₺ / 0 borç ile başlıyor |
-
-**2458** · `02a72eae2d` · satır 402 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> | prolog 3 | "**ödeyecek param bile yok**" | Cengo gider listesinde, ödeniyor |
-
-**2459** · `173a937f32` · satır 404 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> Serbest kalanlar: **olay** bildiren cümleler ("para geldi", "para biter",
-> "para akar") ve **başkasının** parasızlığı (Cengo, Ceyda, Nadire). Bir de
-> `V1/temiz_rapor`'un kendi sonucu: V1'e herkes aynı durumdan giriyor
-> (65.000 ₺, borç yok), o yüzden "ajans nefes alır" orada her zaman doğru.
-
-**2460** · `d0149ede35` · satır 409 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> `test_sizinti.js` bunu kalıcı olarak bekliyor — yasak kalıpların listesi ve
-> bilinçli istisnalar orada. Bekçiyi yazarken benim gözden kaçırdığım bir
-> tanesini (`V5/oyunu_surdur`) hemen yakaladı.
-
-**2461** · `ed3498ab9d` · satır 413 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı
-
-> **Kalıp listesi elle tutuluyor ve iki inceleme turunda büyüdü.** 3. turda üç
-> defter notu daha kaçtığı görüldü — *"kasada para yok"* (5.925 ₺ varken),
-> *"borcum kapandı"* (borç sıfırken), *"borcumu büyüttüm"* (parası olan
-> oyuncuda borç oluşmaz). Üçü de eylem anlatan hâline çevrildi ve kalıp listesine
-> eklendi. Liste tamam olduğunu iddia etmiyor; her yeni metinde göz gerekiyor.
-
-**2462** · `f83279a468` · satır 421 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı › İki defter notu koşullu oldu
-
-> Aynı düzeltme sırasında iki Nurcan kırılması da çıktı:
-
-**2463** · `358645b348` · satır 423 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı › İki defter notu koşullu oldu
-
-> - **`V1/temiz_rapor`** "o merdivende bir şey doğru değildi" diyordu — hiç
->   araştırmayan oyuncu böyle bir şey görmedi. Artık iki varyant.
-
-**2464** · `38c7adb4cc` · satır 425 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sabit finansal iddia yasağı › İki defter notu koşullu oldu
-
-> - **`YAN-C/isi_reddet`** "kadın hâlâ orada" diyordu — aranan kişinin kadın
->   olduğunu ve nerede olduğunu bilmeyen oyuncuya. Artık üç varyant: adresi
->   bulan, sadece ismi öğrenen, hiç bakmayan.
-
-**2465** · `a2306e2eda` · satır 431 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> Doğrulayıcının 10 kuralı **yapıya** bakar. Ama oynanışta bulunan hataların
-> çoğu yapı olarak geçerli, **anlam olarak yanlış**: metin, oyuncunun o an
-> sahip olmadığı bir olguyu varsayıyor. Şema doğrulaması bunu göremez.
-
-**2466** · `1528646135` · satır 435 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> Bu test oyunu uçtan uca, farklı bilgi derinliklerinde oynar ve her ekranda
-> gösterilen metni oyuncunun O ANDAKİ bilgisiyle karşılaştırır.
-
-**2467** · `1df13b3c50` · satır 438 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> Oynanan gidişatlar:
-
-**2468** · `75788124d3` · satır 440 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> | Gidişat | Ne yakalar |
-
-**2469** · `00160f2368` · satır 442 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> | En az bilgi (hiç araştırma yok) | sonuç/defter metinlerinin varsaydığı bilgi |
-
-**2470** · `dc21968497` · satır 443 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> | Tam araştırma | normal akışta sızıntı |
-
-**2471** · `12b73ae335` · satır 444 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> | Her şey (yan vakalar dahil) | yan vaka metinleri |
-
-**2472** · `57df12bb4b` · satır 445 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> | V4 savsaklandı ama komplo çözüldü | V6'nın V4 bilgisini hediye etmesi |
-
-**2473** · `1a5215761c` · satır 446 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> | V1 savsaklandı, gerisi derin | erken savsaklamanın sonraki vakalara etkisi |
-
-**2474** · `9a27cc5a42` · satır 448 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> **İma sözlüğü** elle yazılır ve bilinçli olarak dardır: "şu kelime geçiyorsa
-> şu olgulardan biri bilinmeli". Böylece yanlış alarm üretmez; yakaladığı her
-> şey gerçek sızıntıdır. Bir vaka kendi konusunu tanıtıyorsa `haric` ile
-> muaf tutulur (örn. V4'ün girişi isimsiz ödemeyi zaten tanıtır).
-
-**2475** · `2f5cdbd659` · satır 453 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sızıntı testi (test_sizinti.js)
-
-> Test ayrıca `_durum_matrisi.txt` üretir: her gidişatta her ekranda ne yazdığının
-> tam dökümü. Otomatik kural her şeyi yakalayamaz; bu dosya **elle okunmak
-> içindir** ve oynamadan gözden geçirmeyi mümkün kılar.
-
-**2476** · `18b297ffa6` · satır 459 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> **Para bir skor değil, bir kısıt.** Biriktirilip maksimize edilmez; bittiğinde
-> seçenekler kapanır. Batmak oyunu bitirmez — düzgün olma hakkını elinden alır.
-> Kaybetme durumu **yok**.
-
-**2477** · `ff78b2ce76` · satır 463 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> Rakamlar 2026 seviyelerine göre (`game_data.json` → `ekonomi`):
-
-**2478** · `a495810e82` · satır 465 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | Kalem | Tutar | Dayanak |
-
-**2479** · `be200668d1` · satır 467 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | Başlangıç kasası | 65.000 ₺ | bir aylık gideri ancak karşılıyor |
-
-**2480** · `2592ea4418` · satır 468 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | Ofis kirası | 22.000 ₺ | İstanbul ortalaması 75.450 ₺; Paravan arka sokakta, dökük |
-
-**2481** · `4c958d463d` · satır 469 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | Cengo'ya elden ödeme | 28.075 ₺ | 2026 **net** asgari ücret, birebir |
-
-**2482** · `68463c1679` · satır 470 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | İşletme | 9.000 ₺ | elektrik, telefon, yakıt |
-
-**2483** · `8d8fd3a363` · satır 471 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | **Aylık toplam** | **59.075 ₺** | |
-
-**2484** · `a1704751a6` · satır 472 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> | Borç faizi | %10 / ay | tefeci; borç varsa her omurga vakada biner |
-
-**2485** · `622d02e4fb` · satır 474 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> Vaka ücretleri gerçek dedektiflik fiyatlarına dayanıyor: aldatma araştırması
-> 20–50 bin, kayıp kişi 40–100 bin, günlük 4–9 bin ₺.
-
-**2486** · `386d6e760d` · satır 477 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi
-
-> **Neden net ücret, işveren maliyeti değil:** resmî çalışanda 2026 toplam
-> işveren maliyeti ~40.214 ₺. Paravan bir **paravan şirket**; Cengo'ya elden
-> ödeme yapılıyor, bu yüzden nakit çıkışı net tutar kadar. Kalem adı bunu
-> söylüyor ki rakamın hangi muhasebe kaleminden geldiği belirsiz kalmasın.
-> Cengo resmîleştirilirse aylık gider ~71.214 ₺ olur ve tüm denge yeniden
-> ayarlanmalıdır.
-
-**2487** · `512fc250f7` · satır 486 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Kurallar
-
-> - **Sabit giderler yalnızca OMURGA vaka bitince kesilir.** Bir omurga vaka bir
->   ay demek; yan iş aynı ayın içinde yapılır, ikinci kira ödetmez. Bu yan
->   işleri finansal olarak anlamlı kılar.
-
-**2488** · `2f9b56f391` · satır 489 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Kurallar
-
-> - **Kasa asla eksiye düşmez**; eksik kısım borca yazılır (`paraDus`).
-
-**2489** · `8ac89a72ee` · satır 490 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Kurallar
-
-> - Kaynaklar `ucret` taşıyabilir (muhbire ödeme, kayıt satın alma). Kasa
->   yetmiyorsa kaynak kapanır — yoksulluk bilgiye erişimi kısıtlar.
-
-**2490** · `49f2b72a52` · satır 492 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Kurallar
-
-> - Kararlar `para` taşır: kararın net parasal sonucu.
-
-**2491** · `5a9c879e71` · satır 496 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Arayüz
-
-> - **Kasa şeridi** her ekranda: tutar + anlamı ("bir aylık gideri ancak
->   karşılıyor"). Çıplak sayı baskıyı okunmaz yapar, sayısız gösterge körleştirir.
-
-**2492** · `deb9c5eb92` · satır 498 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Arayüz
-
-> - **Karar ekranında rakam YOK**, niteliksel etiket var: "tam ücret",
->   "ücretin bir kısmı", "ödeme yok", "cebinden çıkar". Kesin tutar görünürse
->   ahlaki seçim hesap işine döner.
-
-**2493** · `ce692d52c9` · satır 501 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Arayüz
-
-> - **Sonuç ekranında tam döküm**: ücret, araştırma masrafı, kalem kalem
->   giderler, faiz, kasa ve borç.
-
-**2494** · `ea494e6c32` · satır 506 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> Para ve vicdan eksenleri **ters sıralanmalı**. Bir seçenek hem daha çok para
-> hem daha çok vicdan getiriyorsa o bir ikilem değil, doğru cevaptır.
-
-**2495** · `a336bc7ac7` · satır 509 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> V1 bunun ilk örneği. Eski vicdan değerleri (−1, 0, +1, +1) para eklenince
-> baskın seçenek üretiyordu: `gizli_kaz` hem para getiriyor hem +1 vicdan,
-> `reddet`i (aynı +1, sıfır para) anlamsız kılıyordu. Yeni sıralama:
-
-**2496** · `8a807d430c` · satır 513 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> | Karar | Para | Vicdan |
-
-**2497** · `70ff07a1ce` · satır 515 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> | Temiz rapor ver (göm) | 65.000 ₺ | −1 |
-
-**2498** · `d339c5765e` · satır 516 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> | Raporu ver, sessizce kaz | 45.000 ₺ | 0 |
-
-**2499** · `88458170aa` · satır 517 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> | Şüpheni Cavit'e söyle | 25.000 ₺ | +1 |
-
-**2500** · `873a7c3c33` · satır 518 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> | İşi reddet | 0 ₺ | +2 |
-
-**2501** · `4b71991845` · satır 520 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Baskınlık kuralı (K8)
-
-> K8 ayrıca göreli ödünleşimi kontrol eder: en çok kazandıran seçenek aynı
-> zamanda en vicdanlısı olamaz. 65.000 yerine 0 almak da bir bedeldir.
-
-**2502** · `20828df79c` · satır 525 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> V2'nin müşterisi Nesrin gazeteden gelen bir yürüyen müşteri: "tanıdık, kadın
-> ve **ucuz** bir kapı" aradığı için Peri'ye geldi. Bu yüzden ücret düşük —
-> anlaşılan ücret 18.000 ₺, aldatma araştırması bandının (20–50 bin) altı.
-
-**2503** · `bd8492fcdd` · satır 529 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> | Karar | Para | Vicdan | Neden o kadar |
-
-**2504** · `c327ce2341` · satır 531 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> | Parayı al, kuru rapor ver | 18.000 ₺ | −1 | Sözleşme neyse o; pazarlık da yok teşekkür de |
-
-**2505** · `67ee76411b` · satır 532 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> | Rahatlatıcı bir yalan kur | 18.000 ₺ | −1 | Ücreti eksiksiz öder — **yalan fazladan kuruş getirmez** |
-
-**2506** · `31e41773f1` · satır 533 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> | Nesrin'e her şeyi anlat | 14.000 ₺ | 0 | İş bitti ama iş artık hukuki; kalan para avukata gidiyor |
-
-**2507** · `1b19b92085` · satır 534 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> | Sadece 'aldatmıyor' de | 10.000 ₺ | +1 | Kuşkusu bitmediği için işi bitmiş saymıyor; kaporayı bırakıp gerisini tutuyor |
-
-**2508** · `7146aa6e6a` · satır 536 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> İki −1 seçeneğin parası **kasten eşit**: K8 eşit vicdanda para farkını
-> baskınlık sayar, ama asıl sebep tematik — yalan söylemek Peri'ye hiçbir şey
-> kazandırmıyor, sadece bir şey kaybettiriyor.
-
-**2509** · `b0aadad8f5` · satır 540 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> **V2 tasarım gereği zararlı bir ay.** En iyi ihtimalle 18.000 ₺ giriyor,
-> 59.075 ₺ çıkıyor: oyuncu V2'den her hâlükârda daha fakir çıkar (V1'i temiz
-> oynayan 70.925 → 29.850; reddeden 5.925 → 38.665 ₺ borç). Tez şu: dürüst
-> müvekkil kirayı ödemez. Rahatlama hemen sonra gelen **YAN-A** ile geliyor —
-> yan vakalarda sabit gider kesilmiyor.
-
-**2510** · `00ae0c5634` · satır 546 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> Dikkat: masa sıralı. V1 → V2 → (YAN-A) → V3 → V4 → (YAN-B) → V5 → V6.
-> `masadakiVakalar()` yan vakayı yalnızca `belirir.sonra === son tamamlanan`
-> iken gösteriyor; omurgaya geçen oyuncu onu **kalıcı olarak** kaybediyor.
-> Yan vakayı önce oynamak omurgayı düşürmüyor.
-
-**2511** · `bbc0cbc662` · satır 551 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> Bu kayıp kasıtlı — ama söylenmezse tuzak. Masadaki yan iş kartı artık şunu
-> yazıyor: *"Beklemez — büyük dosyaya dönersen başkasına gider."*
-
-**2512** · `07f873fe76` · satır 554 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V2 — kıtlık ayı
-
-> Eski yazı (*"İstersen bak — zaman ve para senden gider"*) uyarı eksikliğinden
-> daha kötüydü: yan vakalarda sabit gider **kesilmiyor** ve yan iş ücret
-> getiriyor, yani cümle oyuncuyu tam ters yöne itiyordu. Oyunun deyimi
-> "metinle uyar, engelleme" (bkz. "Bu karar geri alınamaz."), o yüzden onay
-> kutusu değil kart yazısı seçildi. `test_yana.js` hem düşme davranışını hem
-> kartın uyarıyı taşıdığını kilitliyor.
-
-**2513** · `b7cc7e8002` · satır 563 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> Müşteri yine Cavit ve istediği şey V1'dekinden ağır: doğruyu söyleyen yaşlı
-> bir kadını "güvenilmez" diye rapor ettirmek. Vicdanın fiyatı da ona göre
-> yükseliyor — V1'in tavanı 65.000 ₺ idi, V3'ün tavanı 85.000 ₺.
-
-**2514** · `bd8492fcdd-2` · satır 567 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | Karar | Para | Vicdan | Neden o kadar |
-
-**2515** · `7ee3afcb1f` · satır 569 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | Tanığı 'güvenilmez' diye rapor et | 85.000 ₺ | −2 | Cavit'in sipariş ettiği tek şey buydu: dosyayı kapatan belge |
-
-**2516** · `5c244faf3e` · satır 570 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | İlyas'ı Cavit'e teslim et | 70.000 ₺ | −1 | Rapor yazılmadı, ama Cavit aldığı şeye daha çok değer veriyor |
-
-**2517** · `21e9866cb9` · satır 571 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | Kendine sakla, koz yap | 40.000 ₺ | +1 | Ortada rapor yok, sadece bir görüntü; ücretin bir kısmını tutar |
-
-**2518** · `0c99961b4d` · satır 572 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | İlyas'ı polise ver | 0 ₺ | +2 | Sonuç metninin kendi sözü: Cavit "ödemeyi keser" |
-
-**2519** · `908aad4ff7` · satır 574 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> `tanigi_lekele` tek kapısız karar (`gate: "yok"`). Yani hiç araştırmayan
-> oyuncunun önünde yalnızca **en çok kazandıran ve en kirli** seçenek duruyor.
-> Bakmamak para kazandırıyor — tez tam olarak bu.
-
-**2520** · `17c9c7d194` · satır 578 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> Üç aylık eğri (yan vakalar hariç, başlangıç 65.000 ₺):
-
-**2521** · `3550372648` · satır 580 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | Yol | V1 | V2 | V3 |
-
-**2522** · `776c083ea6` · satır 582 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | En kirli | 70.925 ₺ | 29.850 ₺ | 55.775 ₺ |
-
-**2523** · `f8cb24a9d2` · satır 583 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | Orta | 50.925 ₺ | 9.850 ₺ | 20.775 ₺ |
-
-**2524** · `cf4514b991` · satır 584 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | Koz tutan | 50.925 ₺ | 9.850 ₺ | 10.148 ₺ borç |
-
-**2525** · `9e997d1f9c` · satır 585 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
-
-> | En temiz | 5.925 ₺ | 47.465 ₺ borç | 117.194 ₺ borç |
-
-**2526** · `19a0a5148b` · satır 589 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Karar önizlemesi motorun hesabını tekrar eder
-
-> Karar ekranındaki "ay sonunda …" satırı `Math.max(0, kalan)` basıyordu; kasa
-> eksiye düşemediği için bu, 37.225 ₺'lik bir çukuru **"ay sonunda 0 ₺"** diye
-> gösteriyordu. Artık motorun kapanış sırasını birebir taklit ediyor —
-> önce sabit giderler, sonra borcun **tamamına** faiz — ve ikinci bir satırda
-> oluşacak borcu yazıyor ("borç 40.948 ₺"). Zaten borçlu oyuncuda uyarı
-> "borca girersin" değil "borcun büyür" oluyor.
-
-**2527** · `461c917db7` · satır 596 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Karar önizlemesi motorun hesabını tekrar eder
-
-> İki hesabın aynı kalmasını `test_ekonomi.js` kilitliyor: motorun kapanış
-> sırası değişirse test patlar ve arayüzün de güncellenmesi gerektiğini söyler.
-
-**2528** · `a69dd8ced3` · satır 601 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Eline geçen para borcu kapatır
-
-> Kasa ve borç iki ayrı sayaç gibi işliyordu: oyuncu 30.925 ₺ kasa **ve** büyüyen
-> 33.000 ₺ borçla dolaşabiliyordu, borçtan çıkışın hiçbir yolu yoktu. Artık
-> kapanış sırası şöyle: kararın parası → sabit giderler → borcun tamamına faiz →
-> **kalan kasa borcu kapatır**. Alacaklı sormaz, alır. Yan işlerde de geçerli.
-
-**2529** · `e0a491619a` · satır 606 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ekonomi › Eline geçen para borcu kapatır
-
-> Bu, borcu bir cezadan gerçekten tırmanılabilir bir çukura çevirdi ve YAN-C'yi
-> mümkün kıldı — o düzeltme olmadan 120.000 ₺ kazanmak borcu kapatmıyordu.
-
-**2530** · `355afec08b` · satır 611 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> Omurgayla hiçbir ilgisi yok. Borç **80.000 ₺**'yi geçince masaya düşer ve
-> `belirir.sonra: "her"` olduğu için koşul sürdükçe orada kalır; masa kartı da
-> bunu yazar ("Gitmiyor. Ne zaman dönsen orada"). Kirli oynayan oyuncu bu vakayı
-> hiç görmez.
-
-**2531** · `19def3d8ce` · satır 616 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> **Omurga bitince masaya düşmez.** Sezon bittiğinde borç eşiği ne kadar aşılmış olursa
-> olsun yan iş listelenmiyor; yoksa "Dava Kapandı" ekranı yan işin arkasında kalıyor ve
-> finalin Cengo mührü (`cavit_ver` → "Bağlı") sonraki kararla siliniyordu.
-
-**2532** · `1a263fcb94` · satır 620 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> Hulki adında bir adam tek bir şey ister: bir adres. Ödeyeceği rakam bir adres
-> için değil, bir adresin sessizliği için. Peri'yi nereden bulduğu vakanın
-> kalbi — Cengo'nun bedelsiz sorusu onu açar: *"Bu herif senin borcunu nereden
-> biliyor?"* Borç, öğrenilecek bir şey değil; duyulur. Artık bir fiyatın var ve
-> fiyatını sen koymadın.
-
-**2533** · `bba5dec983` · satır 626 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | Karar | Para | Vicdan | Kapı |
-
-**2534** · `b4bc7ea962` · satır 628 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | Adresi ver, parayı al | +120.000 ₺ | −2 | `ayla_yeri` |
-
-**2535** · `aa384f0318` · satır 629 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | Yanlış adres ver, kaporayı al | +40.000 ₺ | 0 | `kadin_adi` |
-
-**2536** · `8094f62175` · satır 630 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | İşi reddet | 0 ₺ | +1 | yok |
-
-**2537** · `a6091fc21a` · satır 631 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | Ayla'yı bul ve uyar | **−15.000 ₺** | +2 | `ayla_yeri` |
-
-**2538** · `07663ae261` · satır 633 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> Oyunun **cebinden ödeten ilk kararı** bu. K8'in kuralı zaten "vicdan
-> yükseldikçe para düşer" diyordu; en vicdanlı seçenek sıfırın da altına iniyor.
-
-**2539** · `ee766e1958` · satır 636 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> **Bütçe kasten yetmiyor.** Hak 3, ücretli kaynak 4 (`hulki_kim`, `adli_kayit`,
-> `izi_sur`, `ayla_kim`); ismi sormak ve Cengo'nun sorusu bedelsiz. Hiç
-> araştırmayanın önünde tek seçenek kalıyor: reddetmek. Para istiyorsan bakmak
-> zorundasın.
-
-**2540** · `c97de8f9f6` · satır 641 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> **İsmi sormak neden bedelsiz:** 2. inceleme turunda şu yakalandı — borçlu
-> oyuncunun elektriği kesik olduğu için hakkı 2'ye iniyordu ve ismi sormak
-> bunun birini yiyordu. Sonuç: ya kadının neden saklandığını öğreniyordu ya
-> adresini buluyordu, ikisini birden asla. *"İlginç bir noir belirsizliği
-> olabilir; fakat informed moral choice açısından sert."* Haklıydı — bu vakanın
-> hedef kitlesi zaten borçlu oyuncu.
-
-**2541** · `0190c8d6f9` · satır 648 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> İsmi sormak bedelsizleşince bütçe her şeye yetti ve seçim baskısı kalktı
-> (K7 uyarı verdi). Onun yerine dördüncü bir ücretli kaynak geldi: **`ayla_kim`**
-> — prosedür değil, insan. *"Üç yıldır aynı işte, aynı semtte. Kimseyle
-> görüşmüyor."* Adresi yine satabilirsin, ama `adresi_ver`'in metni artık bunu
-> biliyor: *"kim olduğunu öğrenmiştin, yine de yazdın."*
-
-**2542** · `4bc9f7d5a6` · satır 654 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> Yeni denge:
-
-**2543** · `bfdcee8e53` · satır 656 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | | Hak | Adres + uzaklaştırma kararı | Her şey |
-
-**2544** · `a7551b50cf` · satır 658 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | Elektrik var | 3 | 70 / 150 yol | **0** |
-
-**2545** · `bf123b6151` · satır 659 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> | Elektrik kesik | 2 | 8 / 60 yol | **0** |
-
-**2546** · `7b1c9708ec` · satır 661 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> Yani bilinçli ahlaki karar artık borçlu oyuncuya da açık, ama kimse her şeyi
-> öğrenemiyor — bir şeyi mutlaka atlıyorsun.
-
-**2547** · `a83cfe3631` · satır 664 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-C "Adres" — borç tetikli vaka
-
-> Borç 117.194 ₺ iken `adresi_ver` borcu sıfırlıyor ve geriye **3.000 ₺**
-> bırakıyor. Kadını sattın ve hâlâ beş parasızsın — kurtuluş değil, takas.
-
-**2548** · `fe83114ee4` · satır 669 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri
-
-> Yan iş, sabit gider kesmediği için gelen para doğrudan nefes demek. V2'den
-> 47.465 ₺ borçla çıkan oyuncu burada borcunu neredeyse kapatabiliyor.
-
-**2549** · `bd8492fcdd-3` · satır 672 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri
-
-> | Karar | Para | Vicdan | Neden o kadar |
-
-**2550** · `c8b449f68a` · satır 674 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri
-
-> | Sevil'e 'biliyorum' diye çık | 65.000 ₺ | −1 | Ücret + fazlası: sırrını bilen bir kişi daha var |
-
-**2551** · `1b0856a458` · satır 675 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri
-
-> | Tehdidi çöz, geçmişe dokunma | 45.000 ₺ | 0 | Anlaşılan ücret; iş yapıldı |
-
-**2552** · `5045c3f323` · satır 676 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri
-
-> | Sevil'in işini geri çevir | 12.000 ₺ | +1 | Yapılan iş kadarı; asıl ücreti eline almadın |
-
-**2553** · `1b862b6e08` · satır 677 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri
-
-> | Cengo'ya bırak, karışma | 0 ₺ | +2 | Arkadaşının kendi defteri için fatura kesilmez |
-
-**2554** · `d3fb48b757` · satır 681 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › K8'in yakaladığı gerçek çelişki
-
-> `sessiz_coz` ve `isi_gecevir` **ikisi de +1 vicdandaydı**. Biri işi çözüp para
-> getiriyor, öteki geri çevirip getirmiyor — yani aynı ahlak, daha çok para.
-> `isi_gecevir`'i seçmek için hiçbir sebep kalmıyordu. Bu, para eklenmeden de
-> var olan bir tasarım hatasıydı; K8 onu para eklenince görünür kıldı.
-
-**2555** · `6dae6bb28f` · satır 686 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › K8'in yakaladığı gerçek çelişki
-
-> Çözüm `sessiz_coz`'ü **0**'a indirmek oldu: bir yabancının derdini para
-> karşılığı çözmek ve fazlasını sormamak **meslek**, erdem değil. İşi
-> Cengo'nun hatırına geri çevirmek ise 33.000 ₺'lik bir erdem.
-
-**2556** · `8e0adaa899` · satır 692 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
-
-> `sessiz_coz`'ün kapısı `tehdit_kim`; oyuncu Cengo'nun geçmişini **hiç
-> öğrenmeden** bu kararı verebiliyor. Eski metin ona "kapalı defter kapalı
-> kaldı" diyordu — olmayan bir sırrı ele veriyordu. Üç varyant:
-
-**2557** · `f27ca094cb` · satır 696 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
-
-> | Bilgi | Metin |
-
-**2558** · `50e5b200a7` · satır 698 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
-
-> | `gecmis_tam` | "Cengo'nun onun yerine neyi üstlendiğini biliyorsun — ve söylemedin." |
-
-**2559** · `53f5ff21fd` · satır 699 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
-
-> | `gecmis_sezildi` | "İkisi arasında bir şey olduğunu sezdin ama üstüne gitmedin." |
-
-**2560** · `63e45048f6` · satır 700 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
-
-> | varsayılan | "Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da." |
-
-**2561** · `5465ad960c` · satır 704 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
-
-> Borçlu oyuncunun elektriği kesik olduğu için YAN-A'da **2 değil 1** araştırma
-> hakkı var. Bu, iki dalın yalnızca birine yetiyor:
-
-**2562** · `e0fd1735f4` · satır 707 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
-
-> | Harcadığın hak | Açılan kararlar |
-
-**2563** · `24629bca11` · satır 709 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
-
-> | `tehdit_arastir` | sessiz_coz (45.000 ₺) · isi_gecevir (12.000 ₺) |
-
-**2564** · `6ea925005f` · satır 710 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
-
-> | `eski_kayit` (+ bedelsiz `cengo_cumle`) | biliyorum_cik (65.000 ₺) · cengoya_birak (0 ₺) |
-
-**2565** · `fefefc1371` · satır 712 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
-
-> Yani en çok kazandıran seçenek (65.000 ₺) ancak Cengo'nun geçmişini kurcalayan
-> oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarasını
-> açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
-> ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
-
-**2566** · `ed6ff66f81` · satır 719 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> `V1/gizli_kaz` oyuncuya bir söz veriyordu — *"bir yandan kendine dosya
-> açarsın"*, defterde *"Bir şeyin ucundan tutuyorum, daha bırakmayacağım"* —
-> ama `gizli_dosya` tohumu hiçbir yerde okunmuyordu. **O dosya hiç açılmıyordu.**
-
-**2567** · `c2844649b7` · satır 723 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> Üstelik seçenek mekanik olarak en akıllı hamleydi. Sezon boyu değeri (V1 +
-> V3 + V5'in en yüksek ücretleri, itibar çarpanı dahil) şöyleydi:
-
-**2568** · `3b16fac96c` · satır 726 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | V1 kararı | Eskiden | Vicdan | Basamak farkı |
-
-**2569** · `2f1b9eb7cf` · satır 728 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Temiz rapor | 230.000 ₺ | −1 | — |
-
-**2570** · `63a9f4d2fb` · satır 729 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Sessizce kaz | **210.000 ₺** | 0 | **20.000 ₺** |
-
-**2571** · `49c3af5742` · satır 730 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Cavit'e söyle | 140.500 ₺ | +1 | 69.500 ₺ |
-
-**2572** · `361464b5b4` · satır 731 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Reddet | 115.500 ₺ | +2 | 25.000 ₺ |
-
-**2573** · `cc8387ee0e` · satır 733 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> Birinci vicdan puanı 20.000 ₺, ikincisi 69.500 ₺. Merdiven çarpıktı: `gizli_kaz`
-> neredeyse bedava bir vicdan puanı satıyor, üstelik Cavit'in güvenini ve
-> dolayısıyla sonraki ücretleri koruyordu.
-
-**2574** · `a1b0dc4d56` · satır 737 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> **Çözüm dosyayı gerçek yapmak oldu, iki yüzüyle:**
-
-**2575** · `c67abe2cd1` · satır 739 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> - V5'teki `dosya_donus` kaynağı **bedelsizleşiyor** — o dosyaya yeniden
->   bakmak hak yemez, çünkü zaten tutuyordun.
-
-**2576** · `dc41840911` · satır 741 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> - Ama Cavit seziyor: V5 ücreti **×0.85**. *"Cavit senin bir şeyler
->   biriktirdiğini seziyor; eli sıkılaştı."*
-
-**2577** · `cdbeb92665` · satır 744 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | V1 kararı | Şimdi | Vicdan | Basamak farkı |
-
-**2578** · `2f1b9eb7cf-2` · satır 746 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Temiz rapor | 230.000 ₺ | −1 | — |
-
-**2579** · `c87e4e8cc6` · satır 747 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Sessizce kaz | 198.000 ₺ | 0 | 32.000 ₺ **+1 araştırma hakkı** |
-
-**2580** · `630b1270eb` · satır 748 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Cavit'e söyle | 140.500 ₺ | +1 | 57.500 ₺ |
-
-**2581** · `361464b5b4-2` · satır 749 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> | Reddet | 115.500 ₺ | +2 | 25.000 ₺ |
-
-**2582** · `19b77105fe` · satır 751 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek
-
-> Artık bedava vicdan puanı değil, gerçek bir takas: **bir araştırma hakkı
-> kazan, 32.000 ₺ kaybet, ve müşterin senden şüphelenmeye başlasın.**
-
-**2583** · `b23cfb51b9` · satır 756 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek › Koşullu bedelsizlik
-
-> Bunun için kaynaklara `bedelsiz_kosul` eklendi: koşul sağlandığında kaynak
-> bedelsizleşiyor. Motor `bedelsizMi()` üzerinden karar veriyor, arayüz de aynı
-> yöntemi kullanıyor — "bedava" etiketi motorun gerçekten uygulayacağı şeyi
-> söylüyor.
-
-**2584** · `4695527016` · satır 761 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Gizli dosya artık gerçek › Koşullu bedelsizlik
-
-> **Doğrulayıcı bu koşulu görmez ve kaynağı ücretli sayar.** Bu bilinçli: bütçe
-> denetimi her zaman zor durumu sınamalı.
-
-**2585** · `dfbdf003db` · satır 766 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> Tohumlar yazılıp hiç okunmuyordu — V1'de Cavit'e doğruyu söylemekle
-> söylememek sonraki hiçbir şeyi etkilemiyordu. Artık etkiliyor.
-
-**2586** · `3c6c44135a` · satır 769 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> Vakaya `ucret_etkisi` eklenebiliyor:
-
-**2587** · `7a3c67d5af` · satır 771 · kod · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-```json
-"ucret_etkisi": [
-  { "kosul": {"seed":"cavit_guven","esit":false}, "carpan": 0.7,
-    "metin": "Cavit sana eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor." }
-]
-```
-
-**2588** · `3364879f9f` · satır 778 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> | Vaka | Koşul | Çarpan |
-
-**2589** · `2ece6c99f6` · satır 780 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> | V3, V5 | `cavit_guven = false` | **×0.70** — Cavit'in güvenini kaybettin |
-
-**2590** · `edffcb49d4` · satır 781 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> | V5 | `v4_karar = "koz"` | **×1.15** — Kaya'nın gizli parası elinde bir koz |
-
-**2591** · `91a700a9e8` · satır 782 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> | YAN-A | `v2_karar = "hersey"` | **×0.80** — konuştuğun duyuldu, sır müşterisi pazarlık eder |
-
-**2592** · `2e11048ce9` · satır 784 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir
-
-> Etkiler **birleşiyor**: güven yok + koz var → ×0.80.
-
-**2593** · `7e5de243c6` · satır 788 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir › Neden VAKA düzeyinde, karar düzeyinde değil
-
-> Karar düzeyinde ölçeklemek K8'in para/vicdan merdivenini bozardı. Vaka
-> düzeyinde ölçeklemek pozitif bir sabitle çarpmak demek; sıralamayı koruyor,
-> yani K8'in statik analizi geçerli kalıyor. Vakanın tamamı zenginleşiyor ya da
-> fakirleşiyor, kararlar arası ödünleşim aynı duruyor. `test_itibar` bunu her
-> çarpan değeri için doğruluyor.
-
-**2594** · `ac54069e15` · satır 794 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir › Neden VAKA düzeyinde, karar düzeyinde değil
-
-> **Yalnızca POZİTİF ücret ölçekleniyor.** İtibarını kaybetmek, Peri'nin kendi
-> cebinden ödediğini ucuzlatmaz — YAN-B'nin −40.000 ₺'si her hâlükârda 40.000 ₺.
-
-**2595** · `a0e2870c27` · satır 799 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir › Oyuncu bunu karar vermeden ÖNCE görüyor
-
-> Karar ekranında ücret satırlarının üstünde bir kutu: *"▼ %30 Cavit sana
-> eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor."* Sonuç ekranındaki
-> hesapta da satır *"anlaşılan 85.000 ₺, itibar ×0.70"* diyor. Önizleme ile
-> motorun uyguladığı rakamın aynı olması `test_itibar`'da kilitli.
-
-**2596** · `3285312f09` · satır 804 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › İtibar: geçmiş kararlar ücreti değiştirir › Oyuncu bunu karar vermeden ÖNCE görüyor
-
-> K9 uyarısı 12 → **9** ölü tohuma indi.
-
-**2597** · `71188aceb0` · satır 808 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> | Karar | Para | Vicdan | Metnin kendi sözü |
-
-**2598** · `6d10fea342` · satır 810 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> | Belli etme, oyunu sürdür | +80.000 ₺ | −2 | "**Para akar**, güvenliktesin" |
-
-**2599** · `23db5e8210` · satır 811 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> | Cavit'in dediğini yap, kazma | +55.000 ₺ | −1 | "**Para geldi.** Neyi temizlediğini hiç öğrenmedin" |
-
-**2600** · `1367c968f6` · satır 812 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> | Ceyda'yı hedef al | +30.000 ₺ | 0 | İstediğini yapmadın, ücret kırpıldı |
-
-**2601** · `74085ce5c4` · satır 813 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> | Sessizce kanıt biriktir | +15.000 ₺ | +1 | Ne vur ne teslim ol — az iş, az ücret |
-
-**2602** · `2e631deb15` · satır 814 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> | Bildiğini Cavit'in yüzüne vur | 0 ₺ | +2 | "**Para biter**, artık sen de bir tehditsin" |
-
-**2603** · `2809b27894` · satır 816 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> Rakamları ben koymadım, metinler söylüyordu. `test_v5` o cümlelerle rakamı
-> birbirine bağlıyor: "Para akar" diyen karar en çok kazandıran olmalı, "Para
-> biter" diyen sıfır olmalı.
-
-**2604** · `3d1db61322` · satır 820 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
-
-> **Ayı kârla kapatan tek seçenek `oyunu_surdur`** — yani her şeyi bilip örtmek.
-
-**2605** · `b52b2b6422` · satır 824 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik › V5'te İKİ çift eşitlik vardı
-
-> `cavite_vur` ile `kanit_biriktir` ikisi de +1; `oyunu_surdur` ile `kazma` ikisi
-> de −1 idi. Her iki çiftte de biri para getiriyor öteki getirmiyor. Ayrım
-> metinlerde zaten vardı:
-
-**2606** · `fdbe2e2523` · satır 828 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik › V5'te İKİ çift eşitlik vardı
-
-> - **Bilerek örtmek, bakmamaktan ağır.** `oyunu_surdur`'un kapısı `tam_resim`
->   (bilmeden seçilemiyor), `kazma`'nınki "yok" (bilmeyenin seçeneği).
->   −2 ve −1.
-
-**2607** · `ea9b77a873` · satır 831 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik › V5'te İKİ çift eşitlik vardı
-
-> - **Parayı kaybetmeyi göze almak, para akarken kanıt biriktirmekten ağır.**
->   +2 ve +1.
-
-**2608** · `f0966a9e0f` · satır 836 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> Eskiden zinciri çözemeyen **herkes** tek bir zorunlu kapanışa düşüyordu ve
-> metin ona *"Kimseyi ele vermedin çünkü verecek kimsen yoktu"* diyordu.
-> İlyas'ı katil olarak bilen oyuncu için bu düpedüz yalandı: verecek biri vardı.
-
-**2609** · `02096a1640` · satır 840 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> | Durum | Ne biliyor | Ne sunuluyor |
-
-**2610** · `233d39f572` · satır 842 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> | **A** | Hiçbir şey; peşine hiç düşmedi | Dosyayı kapat |
-
-**2611** · `4419cab4c2` · satır 843 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> | **B** | Bir şeyin tutmadığını gördü, isim yok | Dosyayı kapat *(farklı metin)* |
-
-**2612** · `644d64de95` · satır 844 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> | **C** | **İlyas'ın ittiğini biliyor** | **İlyas'ı ele ver** · **sus** |
-
-**2613** · `83790574c0` · satır 845 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> | **D** | Zincirin tamamı | Dört seçenek |
-
-**2614** · `8949bac8c3` · satır 847 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış
-
-> C artık gerçek bir ikilemle karşılaşıyor: elindeki tek ismi verir ya da gömer.
-> Gömerse Cavit ödüyor (+70.000 ₺) — **neden bu kadar kolay ödediğini bilmeden.**
-
-**2615** · `fb0a9297e1` · satır 852 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › Kapı neden tohumla açılıyor
-
-> Kararların kapıları **dar** bilgi kümesiyle çalışır: yalnızca o vakanın kendi
-> olguları. `iten_ilyas` V3'ün olgusu, V6'nın değil — doğrudan kapı olarak
-> kullanılamaz. `iten_biliniyor` tohumu tam bu iş için V3'te zaten yazılıyordu
-> ama bugüne kadar hiçbir yerde okunmuyordu. Artık okunuyor.
-
-**2616** · `b07373d191` · satır 859 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
-
-> - **A**: "Peşine düşmedin, o yüzden verecek kimsen de olmadı."
-
-**2617** · `a23fd7ac7b` · satır 860 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
-
-> - **B**: "Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok."
-
-**2618** · `8c6ffc675d` · satır 861 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
-
-> - **C**: "Elindeki tek ismi verdin… onu oraya kimin sürdüğünü sen de hiç
->   öğrenemedin." — **Cavit, Ceyda, "mimar" kelimeleri geçmiyor.**
-
-**2619** · `9edd52d311` · satır 863 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
-
-> - **D**: "asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir."
-
-**2620** · `4b3d15b448` · satır 865 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
-
-> Son ekran da ayrışıyor: zinciri bilmeyene *"mimarlar gölgede kaldı"*
-> denmiyor, çünkü mimarların varlığını bilmiyor.
-
-**2621** · `8fc32bfaf2` · satır 870 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> Kapılar doğruydu ama **anlatı C'yi tanımıyordu**: B ile C aynı giriş metnini
-> okuyordu, C'de İlyas'ın bilindiği hiç söylenmiyordu, sonraki ekranda İlyas
-> birden seçenek olarak beliriyordu. Üç düzeltme:
-
-**2622** · `4918d6c032` · satır 874 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> **1. C'nin kendi girişi var:**
-
-**2623** · `56605bbfcc` · satır 875 · alıntı · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> > *"Elinde bir isim var: İlyas. Kaya'yı iten adam. Onu o merdivene kimin
-> > sürdüğünü bilmiyorsun — o kapıyı hiç aralamadın."*
-
-**2624** · `49687b7ff4` · satır 878 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> **2. `eldekiler` özeti de C'yi tanıyor:** *"Ortada bir isim var: İlyas… ama bir
-> tetikçinin arkasında biri olur ve o yer boş."* Meta'sı da değişiyor:
-> *"Verecek bir adın var ama verecek bir hikâyen yok."*
-
-**2625** · `0ccf0c041d` · satır 882 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> **3. Cavit'in teklifi artık KARARDAN ÖNCE kuruluyor.** `sus_bilerek`
-> +70.000 ₺ getiriyor ve oyuncu paranın nereden geldiğini karardan *sonra*
-> öğreniyordu. Artık girişte:
-
-**2626** · `888114e545` · satır 886 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> | Durum | Zarf |
-
-**2627** · `8527e88be7` · satır 888 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> | C | *"Bu iş kapanırsa senindir." **Neden bu kadar cömert olduğunu sormadın.*** |
-
-**2628** · `84e86152b8` · satır 889 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> | D | *"Bu iş kapanırsa senindir." Saymadın; ağırlığından belli.* |
-
-**2629** · `23c9b00aea` · satır 890 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> | A, B | yok (susma seçenekleri de yok) |
-
-**2630** · `8c03f908e4` · satır 892 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> C'nin cümlesi kararın kendisi: cömertliğin sebebini bilmeden gömüyorsun.
-
-**2631** · `b68f61a50e` · satır 894 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> Üç defter notu da ayrıştı — `sus_bilerek` ("Her şeyi bilip sustum" → "Bir adım
-> vardı, onu gömdüm"), `ilyas_ver` ("Mimarlar gölgede kaldı" → "Arkasında biri
-> var mıydı, hiç öğrenemedim"), `hepsini_ifsa` ("O çocuk, o aile" → V4 bilgisine
-> koşullu).
-
-**2632** · `3421523eb3` · satır 899 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
-
-> `test_v6` dört girişi, zarfın yerini ve C metninin sızdırmadığını kilitliyor.
-
-**2633** · `cb4a9fc089` · satır 903 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> V6'nın da müşterisi yok; bu Peri'nin kendi son sorusu. Para burada bir ücret
-> değil, **kararın sonucu**:
-
-**2634** · `8a807d430c-2` · satır 906 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | Karar | Para | Vicdan |
-
-**2635** · `a7a54ba2c3` · satır 908 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | Hiçbirini verme, sus | +70.000 ₺ | −1 |
-
-**2636** · `4dba51ddbc` · satır 909 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | İlyas'ı ele ver | 0 ₺ | 0 |
-
-**2637** · `0dbab73ece` · satır 910 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | Ceyda'yı ele ver | 0 ₺ | 0 |
-
-**2638** · `17043ecab5` · satır 911 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | Dosyayı kapat | 0 ₺ | 0 |
-
-**2639** · `f3d8086936` · satır 912 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | Hepsini ifşa et | 0 ₺ | 0 |
-
-**2640** · `8c767f7f0d` · satır 913 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> | Cavit'i ele ver | −20.000 ₺ | +1 |
-
-**2641** · `b36a7075ff` · satır 915 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> Dört seçeneğin sıfırda eşit olması bir boşluk değil, bir iddia: **parayı
-> değiştiren tek şey susmak (ödüllendiriliyor) ve hamini vermek
-> (cezalandırılıyor).** Metinler de bunu söylüyordu — `sus_bilerek` "ajans
-> yaşar", `cavit_ver` "o senin geçim kaynağındı, ajans batabilir".
-
-**2642** · `ddda0c3f74` · satır 920 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
-
-> Bu sayede V6'da hiçbir vicdan değeri değiştirilmedi; finalin ahlaki dengesi
-> yazıldığı gibi duruyor.
-
-**2643** · `8fd51b92c5` · satır 925 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var › K8'in bilmediği bir şey
-
-> `boslukla_kapat`'ın kapısı `{not: zincir_tam}`, diğer beşininki `zincir_tam`.
-> Yani oyuncuya **asla birlikte sunulmuyorlar**; aralarında "baskınlık" diye bir
-> şey olamaz. K8 bunu bilmiyor. Şu an ikisi de sıfırda olduğu için sorun
-> çıkmıyor, ama biri değişirse yanlış alarm verir. `test_v6` kapının bu hâlini
-> kilitliyor.
-
-**2644** · `64b7f03c24` · satır 933 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sezonun tam eğrisi
-
-> Üç gidişat, yan işler önce alınarak (aylık gider 59.075 ₺):
-
-**2645** · `af0d0eec3b` · satır 935 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sezonun tam eğrisi
-
-> | | Bitiş | Cengo |
-
-**2646** · `f29fa4cfda` · satır 937 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sezonun tam eğrisi
-
-> | En kirli | 118.550 ₺ kasa, hiç borca girmedi | **−12** (gitti) |
-
-**2647** · `14eb296fa8` · satır 938 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sezonun tam eğrisi
-
-> | Orta | 92.207 ₺ borç | −1 |
-
-**2648** · `623f0ef5dc` · satır 939 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sezonun tam eğrisi
-
-> | En temiz | 140.030 ₺ borç | **+1** |
-
-**2649** · `152e76d8c1` · satır 941 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sezonun tam eğrisi
-
-> Dikkat çeken şey en temiz yolun Cengo'yu yalnızca +1'de bitirmesi: vicdanlı
-> kararlar bağı yükseltiyor ama **ödeyemediğin her ay bir düşürüyor.** Cengo'ya
-> iyi davranmakla Cengo'ya ödeyebilmek aynı şey değil.
-
-**2650** · `bba2765801` · satır 947 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> V4'ün **müşterisi yok.** Cengo'nun eski dosyalarda bulduğu bir kâğıt var ve
-> Peri merakına uyuyor. Ücret ödeyen kimse olmadığı için para ancak ipi
-> **çekmeyerek** ya da bildiğini kendine saklayarak geliyor — yani ayın kalanını
-> ödeyen işlere ayırarak.
-
-**2651** · `bd8492fcdd-4` · satır 952 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> | Karar | Para | Vicdan | Neden o kadar |
-
-**2652** · `830f735874` · satır 954 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> | Bilgiyi kendine sakla, koz yap | +25.000 ₺ | −2 | Ayın kalanı ödeyen işlere gitti; bildiğin de cebinde |
-
-**2653** · `1605e01c6a` · satır 955 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> | Boş ver, bu ipi çekme | +18.000 ₺ | −1 | Ay boş geçmedi, küçük işlerle idare ettin |
-
-**2654** · `cc89898f90` · satır 956 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> | 'Artık gelmeyecek' de | 0 ₺ | +1 | Ne aldın ne verdin |
-
-**2655** · `9cd1c6a1e2` · satır 957 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> | Aileye gerçeği söyle | −10.000 ₺ | +2 | O haberi verip elin boş çıkamazsın |
-
-**2656** · `028c2f56e8` · satır 958 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> | Kimliği sakla, sessizce çözüm ara | −35.000 ₺ | +3 | Tedavinin devamını kendi kasandan üstlendin |
-
-**2657** · `59c5d20ae3` · satır 960 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay
-
-> V4 omurga vaka, yani ay kapanıyor ve sabit giderler kesiliyor. **En kârlı
-> seçenek bile ayı zararla bitiriyor** (25.000 ₺ girdi, 59.075 ₺ çıktı).
-
-**2658** · `17ade43600` · satır 965 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay › Üçüncü kez aynı çelişki
-
-> `aileye_soyle` ile `sessiz_coz` **ikisi de +2 idi.** Biri gerçeği söyleyip
-> çekiliyor, öteki kimliği saklayıp tedavinin devamını kendi cebinden
-> üstleniyor. `sessiz_coz` **+3**'e çıktı; kendi metni zaten
-> *"Onurlu ama sana pahalı — Peri de beş parasız"* diyordu.
-
-**2659** · `55802d2e22` · satır 970 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › V4 "Küçük Hasta" — müşterisi olmayan ay › Üçüncü kez aynı çelişki
-
-> Bu, yan vakalardaki ikisiyle birlikte **üçüncü** örnek. Vicdan değerleri
-> başlangıçta kabaca "iyi / çok iyi" diye konmuş, ince ayrım yapılmamış; para
-> ekseni eklenince hepsi tek tek görünür oldu. K8'in asıl işi buymuş.
-
-**2660** · `119be88221` · satır 976 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> İki yan iş birbirinin aynası. YAN-A nefes aldırır; YAN-B **hiçbir seçeneğinde
-> para kazandırmaz.**
-
-**2661** · `139aa9e3cc` · satır 979 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> Sebebi vakanın kendisi: Nadire beş parasız, ve onu batıran Peri. Ondan ücret
-> almak düşünülemez. En iyi ihtimal sıfır; gerisi Peri'nin cebinden çıkıyor.
-
-**2662** · `bd8492fcdd-5` · satır 982 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> | Karar | Para | Vicdan | Neden o kadar |
-
-**2663** · `ea04e11091` · satır 984 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> | Geçiştir, kendini koru | 0 ₺ | −2 | Hiçbir şey vermedin, hiçbir şey de almadın |
-
-**2664** · `44af4ae908` · satır 985 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> | Sadece dolandırıcıyı çöz | −8.000 ₺ | +1 | Adamın peşine düşmek para yedi, onu sen karşıladın |
-
-**2665** · `89ddb9ca79` · satır 986 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> | Geçmişle yüzleş, gerçeği söyle | −18.000 ₺ | +2 | O cümleden sonra kadına masraf yazamazsın |
-
-**2666** · `6f55b27f74` · satır 987 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> | Nadire'ye tam sahip çık | −40.000 ₺ | +3 | Kaybettiğinin bir kısmını kendi kasandan kapattın |
-
-**2667** · `75539af94d` · satır 989 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
-
-> Oyunun tek "kaçmak bedava, doğru olan pahalı" vakası. `gecistir`'in sıfırı bir
-> ödül değil, yalnızca maliyetin yokluğu — ve vicdan ekseninde oyunun en dibi.
-
-**2668** · `1b7e1bc7b6` · satır 994 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka › Yine K8, yine gerçek bir çelişki
-
-> `tam_sahip_cik` ile `gercegi_soyle` **ikisi de +2 idi.** Biri yalnızca itiraf,
-> öteki itiraf **artı** kadının zararını kendi cebinden kapatmak. Aynı vicdan
-> değerinde farklı para, K8'e göre baskınlık — ve haklı: sözle sahiplenmek ile
-> parayla sahiplenmek aynı şey değil.
-
-**2669** · `f486254ee6` · satır 999 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka › Yine K8, yine gerçek bir çelişki
-
-> `tam_sahip_cik` **+3**'e çıktı. Kararın kendi metni bunu zaten söylüyordu:
-> *"Suçunu sahiplenmenin en pahalı, en dürüst hali."*
-
-**2670** · `73ee4ced41` · satır 1002 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › YAN-B "Enkaz" — kazanç kapısı olmayan vaka › Yine K8, yine gerçek bir çelişki
-
-> `test_yanb`'deki "tam_sahip_cik +2" iddiası da sabit sayıdan kurtarıldı:
-> artık bağı verideki değer kadar yükselttiğini ve YAN-B'nin en vicdanlı kararı
-> olduğunu doğruluyor.
-
-**2671** · `c2285bf70c` · satır 1008 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> Borç bir sayı olarak kalırsa kimseyi sıkmaz. **Ödenmeyen her gider kaleminin
-> kendi sonucu var.** Hangi kalemin açık kaldığı, ödeme sırasından çıkıyor
-> (`game_data.json` → `ekonomi.gider` yazılış sırası):
-
-**2672** · `946bd0a29e` · satır 1012 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> **Ofis kirası → Cengo'ya elden ödeme → İşletme (elektrik)**
-
-**2673** · `8d953d1cf5` · satır 1014 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> Yani para azaldıkça önce ışıklar söner, sonra Cengo'nun eline geçen kalmaz,
-> en son ev sahibi harekete geçer.
-
-**2674** · `0a131f2bc4` · satır 1017 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> | Açık kalan | Sonuç | Mekanik |
-
-**2675** · `f3be821afd` · satır 1019 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> | İşletme | Elektrik kesildi | Sonraki vakalarda araştırma hakkı **−1** (bkz. çekirdek kaynak) |
-
-**2676** · `653895d47a` · satır 1020 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> | Cengo'ya ödeme | "Cengo'nun eline geçmedi" | `cengoBag` **−1**, her açık kalan ayda yeniden |
-
-**2677** · `2a4caa27aa` · satır 1021 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları
-
-> | Ofis kirası | Ev sahibi icraya verdi | Aylık giderlere **12.000 ₺** takip masrafı eklenir |
-
-**2678** · `82126ba816` · satır 1025 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Aylık gider TEK KAYNAK
-
-> `oyun.aylikGiderler()` — hem motor keserken hem arayüz önizlerken buradan
-> okuyor. İkisi ayrı hesaplanıyordu ve **icra takip masrafı önizlemeye
-> girmiyordu**: karar ekranı "ay sonunda borç 246.425 ₺" derken gerçek sonuç
-> 259.625 ₺ çıkıyordu. Fark 13.200 ₺ (12.000 masraf + 1.200 faizi).
-
-**2679** · `83ac13deea` · satır 1030 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Aylık gider TEK KAYNAK
-
-> Bu, ekonominin en güvenilmesi gereken yerinde bir yalandı: oyuncu ahlaki
-> tercihini yanlış rakamla yapıyordu.
-
-**2680** · `0338fb8895` · satır 1033 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Aylık gider TEK KAYNAK
-
-> **`test_ekonomi`'nin "önizleme motorla aynı" testi bu hatayı kaçırmıştı**,
-> çünkü hiç icra senaryosu denemiyordu. Artık deniyor. Test yazarken "hangi
-> durumu denemiyorum" sorusu, "ne iddia ediyorum" kadar önemli.
-
-**2681** · `981fa978a3` · satır 1039 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> 3. inceleme turunun en ciddi bulgusu: elektrik kesikken V3'te dürüst oynamaya
-
-**2682** · `bc45e2a539` · satır 1040 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> çalışan oyuncunun elinde **yalnızca "tanığı 'güvenilmez' diye rapor et"**
-> kalıyordu. Yani oyun ona *"yanlış araştırdın, şimdi doğru söyleyen kadını
-> lekele"* diyordu. YAN-B'de de bir yol yalnızca "geçiştir"e düşüyordu.
-
-**2683** · `eedcfe7925` · satır 1044 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> Sebep tabanda değildi: **çekirdek zincir tam olarak cezalı bütçe kadar
-> tutuyordu**, yani doğal bir fazladan tıklamaya pay yoktu.
-
-**2684** · `1a84367b4d` · satır 1047 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> Üç katmanlı çözüm:
-
-**2685** · `680bd8cc51` · satır 1049 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> **1. Müvekkilin kendi anlattığı bedelsiz, ayak işi ücretli.** Bu kural artık
-> dört yerde geçerli: `YAN-C/kimi_ariyor` (Hulki ismi veriyor),
-> `V3/cavit_brief` (Cavit ne istediğini anlatıyor), `YAN-B/nadire_dinle`
-> (Nadire derdini anlatıyor), `V1/sigorta_yazisi` (dosya zaten elinde). Karşında
-> oturan insanı dinlemek bir araştırma günü yemez.
-
-**2686** · `4c2ca681bf` · satır 1055 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> **2. Çekirdek işaretleri:** `V3/foto_goster` ve `YAN-B/dolandirici_iz` de
-> `cekirdek: true` oldu.
-
-**2687** · `740738a73e` · satır 1058 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> **3. Ceza artık uyarlanabilir.** `_kirletmeyeZorlarMi()` cezalı bütçeyle
-> bütçeyi harcamanın **her** biçimini deniyor; herhangi bir yolda oyuncunun
-> elinde yalnızca vicdanı eksi kararlar kalıyorsa **ceza uygulanmıyor.**
-
-**2688** · `be7476716e` · satır 1062 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | Vaka | Tam bütçe | Elektrik kesik |
-
-**2689** · `3ff5923b2e` · satır 1064 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | V1 | 3 | 2 |
-
-**2690** · `e3d8b2e3a2` · satır 1065 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | V2 | 4 | 3 |
-
-**2691** · `22ee1ba1c2` · satır 1066 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | V3 | 4 | 3 |
-
-**2692** · `d5f4595400` · satır 1067 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | YAN-A | 2 | 1 |
-
-**2693** · `8175777282` · satır 1068 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | YAN-B | 2 | 1 |
-
-**2694** · `16bcd9db81` · satır 1069 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | YAN-C | 3 | 2 |
-
-**2695** · `b052c3c3d2` · satır 1070 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | V4 | 4 | **4** — ceza kirletmeye zorlardı |
-
-**2696** · `053e0c6ee1` · satır 1071 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | V5 | 5 | **5** — aynı |
-
-**2697** · `deb5bbbef2` · satır 1072 · tablo · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> | V6 | 1 | 1 (taban) |
-
-**2698** · `0a2ebd6b2b` · satır 1074 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> Sabit bir "pay" eklemek yerine sonucu ölçüyoruz: asıl kural bu, ve içerik
-> değiştikçe kendini koruyor. Vakalar küçük (≤7 kaynak), arama 13 ms sürüyor.
-
-**2699** · `b930374f0a` · satır 1077 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
-
-> `test_borc` bunu yasa olarak tutuyor: **dokuz vakanın her birinde, bütçeyi
-> harcamanın her biçiminde, vicdanı eksi olmayan en az bir karar açık kalmalı.**
-> Bu bekçi yazılır yazılmaz incelemecinin ulaşamadığı iki vakayı daha (V4 ve V5)
-> yakaladı.
-
-**2700** · `2b776924de` · satır 1084 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> Krizler araştırma **genişliğini** kısabilir, ama bir vakanın başlığını anlamlı
-> kılan tek delili erişilemez kılamaz. Aksi halde ekonomik ceza, anlatı
-> içeriğini elinden alır.
-
-**2701** · `595ad163df` · satır 1088 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> Bir kaynağa `cekirdek: true` konur. Elektrik kesikken araştırma hakkı şöyle
-> hesaplanır:
-
-**2702** · `c170537204` · satır 1091 · kod · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-```
-hak = max( max(1, çekirdeğe ulaşmanın maliyeti),  tam bütçe − 1 )
-```
-
-**2703** · `7a236a4c3a` · satır 1095 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> Maliyet **gerçek motorla** ölçülüyor (doğrulayıcının K6'da yaptığı gibi):
-> needs zincirini ve bedelsiz kaynakları kendiliğinden doğru sayıyor. Ceza yoksa
-> hesap hiç çalıştırılmıyor — hem gereksiz hem de aramanın kurduğu kopyalar
-> `vakaBaslat` çağırdığı için özyinelemeye yol açardı. Kopyaların krizi boş
-> olduğundan arama kendiliğinden sonlanıyor.
-
-**2704** · `a1f5d9f534` · satır 1101 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> Şu an tek çekirdek: **V6/`kaya_izi`** — "Kaya Biliyor muydu" vakasının tek yeni
-> delili. Eskiden onu koruyan şey tesadüftü (taban 1 ile çekirdeğin maliyeti 1
-> çakışıyordu); bütçe 2 olsaydı koruma çalışmayacaktı. Artık hesap yapılıyor:
-> bütçe 3 olsa ceza yine uygulanır (3 → 2) ama çekirdek erişilebilir kalır.
-
-**2705** · `da10550013` · satır 1106 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> **Eşik: kalemin yarıdan fazlası açık kalmalı.** Kirasının dörtte üçünü ödeyen
-> kiracı icraya verilmez. Bu eşik olmadan tek kötü ay üç krizi birden
-> patlatıyordu ve tırmanma diye bir şey kalmıyordu.
-
-**2706** · `8e02795a5c` · satır 1110 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> **Hiçbiri oyunu bitirmez ve hepsi geri alınabilir:** kalem ödendiği ay sonuç
-> kalkar. Yan işler ay kapatmadığı için kriz de değerlendirmez.
-
-**2707** · `02c19be384` · satır 1113 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> Cezanın vakayı kilitlememesi `test_borc.js`'te korunuyor: elektrik kesikken de
-> dokuz vakanın her birinde, bütçeyi harcamanın her biçiminde en az bir karar
-> açık kalıyor.
-
-**2708** · `407ccda150` · satır 1117 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> Oyuncu üç yerde görüyor: sonuç ekranında kriz kutusu (yeni patlayan), kasa
-> şeridinde rozet (süren), araştırma ekranında sönük noktanın sebebi.
-
-**2709** · `2ccc1e0580` · satır 1120 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
-
-> **Kriz metinleri iki yerde duruyor** — motorda `KRIZLER`, arayüzde
-> `KRIZ_METIN` — çünkü arayüz motordan okuyamıyor. İkisinin ayrışmasını
-> `test_borc.js` yakalıyor.
-
-**2710** · `2e1c3579d6` · satır 1126 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Testler ve ekonomi
-
-> `test_yana`, `test_yanb`, `test_softlock` vakaların İÇERİK mantığını sınıyor
-> (türetme, kapı, karar), ekonomiyi değil. Kasa boşken elektrik kesiliyor ve
-> araştırma hakkı azalıyor; bu gerçek bir davranış ama o testlerin ölçtüğü şey
-> değil. Hepsi artık `varlikli()` ile başlıyor — ajans ödeyebilir durumda, vaka
-> tam bütçeyle sınanıyor.
-
-**2711** · `a67ee9c46d` · satır 1134 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Koşul dilinde borç
-
-> `ifadeCalistir` artık beşinci bir argüman alıyor: kasa (`{para, borc}`).
-> `{borc_en_az: 80000}` terimi bunu okuyor — `cengoBag_en_az` ile simetrik.
-
-**2712** · `6959a6f865` · satır 1137 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Koşul dilinde borç
-
-> Motor içinde koşullar **yalnızca `this._kos()` üzerinden** değerlendiriliyor.
-> Sebebi şu: kasayı geçirmeyi unutan bir çağrı hata vermez, koşul sessizce
-> yanlış döner ve metin hiç görünmez. Tek kapı, unutulacak yer bırakmıyor.
-
-**2713** · `2ea07734c0` · satır 1143 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Borcun sonuçları › Kalan
-
-> Dokuz vakanın **40 kararının hepsinde** `para` yazılı; K8 hepsinde çalışıyor.
-> Yan vakaların sabit gider kesmemesi özellikle önemli: V2, V4 ve temiz oynanan V3
-> zararlı aylar, nefes alma yeri yan işler.
-
-**2714** · `3b1c68be6e` · satır 1149 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
+**2375** · `3b1c68be6e` · satır 150 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
 
 > Tek yuva, otomatik. Motorda `durumAl()` / `durumYukle()`, arayüzde
 > `localStorage` (`paravan_kayit_v1`).
 
-**2715** · `4e1cecd35a` · satır 1152 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
+**2376** · `4e1cecd35a` · satır 153 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
 
 > Kaydedilen **yalnızca girdilerdir**: tohumlar, tamamlanan vakalar, kalıcı
 > olgular ve aktif vakada açılmış kaynakların id'leri. Türetilmiş `knowledge`,
@@ -13122,29 +11429,29 @@ hak = max( max(1, çekirdeğe ulaşmanın maliyeti),  tam bütçe − 1 )
 > üretilir. Böylece eski bir kayıt oyuncunun hak etmediği bir olguyu geri
 > getiremez; Nurcan kuralı kayıt üzerinden delinmez.
 
-**2716** · `d218df2eff` · satır 1158 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
+**2377** · `d218df2eff` · satır 159 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
 
 > Yükleme, kaynakları kaydedildikleri sırayla yeniden açar. Tekrar oynatma aynı
 > zamanda doğrulamadır: veri değiştiyse ya da kayıt kurcalandıysa bir adım
 > "kilitli" döner ve kayıt tümden reddedilir, eski durum geri konur.
 
-**2717** · `f2e2a51c9c` · satır 1162 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
+**2378** · `f2e2a51c9c` · satır 163 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
 
 > **Karar verilir verilmez yazılır.** Oyuncu uygulamayı kapatıp kararı geri
 > alamaz — "geri alınamaz karar" oyunun çekirdeği, kayıt sistemi onu delmemeli.
 > Bu yüzden tek yuva var, elle kayıt ve çoklu slot yok.
 
-**2718** · `ec611a2987` · satır 1166 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
+**2379** · `ec611a2987` · satır 167 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kayıt sistemi
 
 > `localStorage` yoksa (gizli sekme, kısıtlı WebView) kayıt sessizce devre dışı
 > kalır, oyun oynanmaya devam eder. İzole dev testi (🛠 → vakaya atla) ana kaydı
 > kirletmez.
 
-**2719** · `0beb764b19` · satır 1172 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2380** · `0beb764b19` · satır 173 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > Altyapı kuruldu. Sipariş metinleri: `ses_promptlari.md`.
 
-**2720** · `93f2dd526a` · satır 1174 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2381** · `93f2dd526a` · satır 175 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > **Şu an depoda geçici sentetik sesler var** (`ses/*.wav`, ~3 MB) — gerçek
 > parçalar değil, geliştirme sırasında duyarak test edebilmek için. Ayrıntı:
@@ -13152,118 +11459,118 @@ hak = max( max(1, çekirdeğe ulaşmanın maliyeti),  tam bütçe − 1 )
 > `prolog.mp3` konduğu anda geçici `prolog.wav` devre dışı kalır, kodda hiçbir
 > şey değişmez.
 
-**2721** · `99e41bf77f` · satır 1180 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2382** · `99e41bf77f` · satır 181 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > Dosyalar depo kökündeki `ses/` klasörüne konur; `index.html`'e **gömülmez**
 > (gömülürse dosya 15 MB'ı aşar, müzik akıtılamaz, ilk açılış yavaşlar).
 > Beklenen adlar `build_html.js` içindeki `MUZIK` ve `EFEKT` haritalarında:
 
-**2722** · `88963a7340` · satır 1184 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2383** · `88963a7340` · satır 185 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - müzik: `prolog` `masa` `giris` `arastirma` `karar` `sonuc` `huzun` `final`
 
-**2723** · `2384e5c797` · satır 1185 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2384** · `2384e5c797` · satır 186 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - efekt: `efekt_dokun` `efekt_kaynak` `efekt_kilit` `efekt_muhur` `efekt_alev`
 
-**2724** · `ee36d5c054` · satır 1187 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2385** · `ee36d5c054` · satır 188 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > Uzantı sırası `SES_UZANTILAR = [".mp3", ".wav"]`. Bulunan uzantı akılda tutulur,
 > her ses için yalnızca bir kez aranır.
 
-**2725** · `81b4f1033e` · satır 1190 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2386** · `81b4f1033e` · satır 191 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > Davranış:
 
-**2726** · `9a00f6381c` · satır 1192 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2387** · `9a00f6381c` · satır 193 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - **Dosya yoksa oyun sessiz devam eder.** Eksik dosya bir kez denenir, işaretlenir,
 >   bir daha istenmez. Bir parçanın eksikliği diğerlerini etkilemez.
 
-**2727** · `810897fcde` · satır 1194 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2388** · `810897fcde` · satır 195 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - **Otomatik çalma kilidi:** tarayıcı ve Android WebView kullanıcı dokunmadan ses
 >   çaldırmaz. İlk dokunuşta kilit açılır, bekleyen parça başlar. `play()` reddi
 >   `NotAllowedError` ise kilit (dokunuş bekleniyor), değilse dosya eksik sayılır —
 >   ikisi karıştırılırsa tek eksik dosya bütün müziği susturur.
 
-**2728** · `4e0c26705f` · satır 1198 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2389** · `4e0c26705f` · satır 199 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - **Çapraz geçiş:** sahne değişince parça 700 ms'de karşılıklı kısılıp açılır.
 
-**2729** · `92bf321309` · satır 1199 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2390** · `92bf321309` · satır 200 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - **Ses tercihi kayıt yuvasından ayrıdır** (`paravan_ses_v1`): "baştan başla"
 >   oyunu sıfırlar ama ses tercihini silmez.
 
-**2730** · `4a1dbdc23a` · satır 1201 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2391** · `4a1dbdc23a` · satır 202 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - Kanıt ekranı müziği değiştirmez — kısa bir ekran, kesinti rahatsız eder.
 
-**2731** · `e37a9878f5` · satır 1202 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
+**2392** · `e37a9878f5` · satır 203 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Ses
 
 > - V4 `huzun`, V6 `final`; diğer tüm vakalar aynı `arastirma` parçasını çalar.
 >   Vakaya göre değişseydi oyuncu daha hiçbir şey bulmadan "bu vakada iş kötü"
 >   bilgisini duyardı (bkz. `ses_promptlari.md` — Sesin Nurcan Kuralı).
 
-**2732** · `5adca42874` · satır 1208 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kalan iş
+**2393** · `5adca42874` · satır 209 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Kalan iş
 
 > - Gerçek ses parçalarının üretilip `ses/` klasörüne `.mp3` olarak konması,
 >   ardından geçici `.wav` dosyalarının ve `ses/GECICI.md`'nin silinmesi.
 
-**2733** · `aa76dacb7c` · satır 1213 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
+**2394** · `aa76dacb7c` · satır 214 · paragraf · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
 
 > Oyun Android'e Capacitor ile paketlenecek (WebView; motor ve veri olduğu gibi
 > taşınır). O aşamada yapılacaklar — **HTML sürümü bitmeden ellenmeyecek**:
 
-**2734** · `cba398646f` · satır 1216 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
+**2395** · `cba398646f` · satır 217 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
 
 > - Görseller base64'ten çıkıp `gorseller/*.jpg` olacak. Tüm arayüz `GORSELLER[ad]`
 >   üzerinden gittiği için değişen tek şey o haritanın değerleri; oyun kodu aynı kalır.
 
-**2735** · `1ca29afe8b` · satır 1218 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
+**2396** · `1ca29afe8b` · satır 219 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
 
 > - Donanım geri tuşu mevcut `geriDon()`'a bağlanacak (şu an geri tuşu uygulamadan çıkar).
 
-**2736** · `36cc64944b` · satır 1219 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
+**2397** · `36cc64944b` · satır 220 · madde · PARAVAN DEDEKTİFLİK — Kaynak Dosyalar › Sonraki aşama: Android
 
 > - Manifest, ikon, açılış ekranı, paket adı.
 
 
 ## kaynak/yeni/OKUBENI.md
 
-**2737** · `67db523c91` · satır 3 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo)
+**2398** · `67db523c91` · satır 3 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > Bu klasör yeni oyunun verisidir. Eski oyunun (dokuz vaka, `kaynak/game_data.json`)
 > verisine **dokunulmaz**; o hâlâ yayındaki `index.html`'in kaynağı.
 
-**2738** · `dd06e3fcd4` · satır 6 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
+**2399** · `dd06e3fcd4` · satır 6 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > | dosya | ne |
 
-**2739** · `ac2dca8f6c` · satır 8 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
+**2400** · `ac2dca8f6c` · satır 8 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > | `game_data.json` | kanon, ekonomi, vakalar (V1, V2) |
 
-**2740** · `9a354c59de` · satır 9 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
+**2401** · `9a354c59de` · satır 9 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > | `acilis.json` | açılış: dört konuşma sahnesi (haciz → manto → Cengo → kapı çalar) |
 
-**2741** · `9253391caf` · satır 10 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
+**2402** · `9253391caf` · satır 10 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > | `kisiler.json` | künye (`kisiler`), anı defteri notu (`defter.<vaka>.<karar>`), anı özeti (`ani_ozet.<vaka>`, diyalogdaki `## ani`) |
 
-**2742** · `8468b63e13` · satır 11 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
+**2403** · `8468b63e13` · satır 11 · tablo · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > | `prolog.json` | boş; eski araçlar okuyabilsin diye duruyor |
 
-**2743** · `bcf8bd262a` · satır 13 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo)
+**2404** · `bcf8bd262a` · satır 13 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo)
 
 > Kaynak metin: Vaka 2 için `sablon/vakalar/vaka2_diyalog.md` (`… arac_diyalog.js ../sablon/vakalar/vaka2_diyalog.md V2`). Vaka 1 için `sablon/vakalar/vaka1_diyalog.md` (sahneler, karar metinleri, anı
 > defteri, anı özeti) — veriye `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`
 > yazar; **elle düzenlenmez.** Açılış için `kaynak/YENI_VAKA_1.md` → `acilis.json`.
 
-**2744** · `7200a50655` · satır 19 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Komutlar
+**2405** · `7200a50655` · satır 19 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Komutlar
 
 ```
 cd kaynak
@@ -13273,18 +11580,18 @@ node test_yeni_v2.js              # her vakanın araştırma ekonomisi: hak aç�
 cd yeni && node ../arac_okuma.js V1   # düz okuma (sahneleri değil, düz 'text'i basar)
 ```
 
-**2745** · `e492fddb76` · satır 27 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Komutlar
+**2406** · `e492fddb76` · satır 27 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Komutlar
 
 > Motor, doğrulayıcı ve araçlar **aynen** devralındı (`YENI_OYUN_CERCEVE.md` §3).
 
-**2746** · `936623e1e0` · satır 31 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2407** · `936623e1e0` · satır 31 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 ```
 node build_html.js yeni           # → depo kökü yeni/index.html
 node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | dukkan)
 ```
 
-**2747** · `1ae3a6064b` · satır 36 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2408** · `1ae3a6064b` · satır 36 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > Akış (şablon, `sablon/1_oyun_yapisi.md`): açılış sahneleri → masa → giriş + konuşma
 > sahnesi → araştırma (ipucu açılınca sahnesi oynar, ardından "Deftere düştü" kartı) →
@@ -13294,14 +11601,14 @@ node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | duk
 > (karar repliği + söylenmeyen doğru kanıt, kural 22c) → **Dosya kapandı** kartı → kapanış sahnesi (bağa göre
 > iki hâl) → masa.
 
-**2748** · `c464bb40a4` · satır 44 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2409** · `c464bb40a4` · satır 44 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > **Motor eki `kaynak/motor_yeni.js`** (`OyunYeni extends Oyun`): Kim yaptı?, sonda
 > ödenen ücret, suçlamanın kaydı. `motor.js`'e dokunmaz (o eski sayfaya da gömülü ve eski
 > sayfa birebir aynı çıkmalı). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak
 > sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
 
-**2749** · `e952d9e711` · satır 49 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2410** · `e952d9e711` · satır 49 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün fonksiyonlarını sarar
 > (`prologGoster`, `vakaAc`, `kaynakAcFaz`, `arastirmaFazi`, `kararFazi`, `kararVerFaz`,
@@ -13310,7 +11617,7 @@ node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | duk
 > Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
 > seçime kadar sarar, seçimi atlamaz. **GEÇİCİ:** "◂ Geri" düğmesi (sahibinin gözden geçirmesi için, 7 Ekim 2026) satır satır geri gider; sahnenin ilk satırında zincirdeki önceki sahnenin başına döner (açılış, giriş+konuşma). Oyun durumunu geri almaz (ipucu, karar, para). Kapatmak: `yeni_arayuz.js` → `VN_GERI = false`.
 
-**2750** · `aba4feed13` · satır 56 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2411** · `aba4feed13` · satır 56 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > **Sahne kaydı (9 Ekim 2026, sahibinin isteği):** her konuşma akışı (açılış, giriş, ipucu,
 > yüzleşme+kovalamaca, kapanış) `akisBaslat` ile başlar; hangi sahnede ve kaçıncı satırda
@@ -13319,13 +11626,13 @@ node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | duk
 > (arka plan, kıyafet, figürler) aynı gelir. Kayıt motor durumuyla tutarsızsa yok sayılır. Akış
 > bitince silinir. Sonuç ekranında kapatılırsa kapanış sahnesinden sürer.
 
-**2751** · `f9aa069216` · satır 63 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2412** · `f9aa069216` · satır 63 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > **Tarayıcı iletişim kutusu yok:** claude.ai artifact çerçevesi `confirm()`/`alert()`ı engelliyor (kutu çıkmıyor, `confirm` "hayır" döner). Eski sayfanın "Baştan başla"sı bu yüzden hiçbir şey yapmıyordu; yeni oyunda `yenidenBasla` sayfa içi onay ekranıyla değiştirildi. Yeni bir onay/uyarı eklerken iletişim kutusu kullanma. Ruh hâli görseli ve istatistik paneli yeni
 > sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔
 > derleyici eşlemesini sınar.
 
-**2752** · `9759ce371e` · satır 67 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2413** · `9759ce371e` · satır 67 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > **Tema (6 Ekim 2026, sahibinin kararı):** bütün ekranlar konuşma ekranının dilinde —
 > kâğıt zemin, koyu mürekkep, kalın kontur, ofset gölge, Nunito + Shrikhand
@@ -13333,7 +11640,7 @@ node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | duk
 > `yeni_arayuz.css`'in ikinci bloğu eski CSS değişkenlerini yeniden tanımlar ve sabit
 > renkli kuralları ezer.
 
-**2753** · `9289766f3c` · satır 73 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
+**2414** · `9289766f3c` · satır 73 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Sayfa ve konuşma ekranı
 
 > **Batma uyarısı yok (sahibinin kararı):** kasa şeridi yalnız kasa ve borcu gösterir;
 > karar seçeneklerinin altındaki "yeni iş gelmezse batarsın / açık verirsin / borca
@@ -13341,15 +11648,15 @@ node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | duk
 > `arac_yeni_tur.js` karar ekranında bu cümleleri arar; `test_yeni_arayuz.js` eski
 > karar ekranının temizlenen sınıf adlarını hâlâ ürettiğini sınar.
 
-**2754** · `ca02b347ad` · satır 81 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2415** · `ca02b347ad` · satır 81 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > Eski veri formatı (`veri_format_sozlesmesi.md`) aynen geçerli; üstüne:
 
-**2755** · `f8977e8d9e` · satır 83 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2416** · `f8977e8d9e` · satır 83 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **`kanon.sahne`** — konuşma ekranının görsel seti. Doğrulayıcı K15 her satırı buna karşı denetler.
 
-**2756** · `c93738b548` · satır 84 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2417** · `c93738b548` · satır 84 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 ```
 figurler: { peri: { setler: { manto: [ifadeler], balikli: [...] } },
@@ -13359,22 +11666,22 @@ arkalar:  ["A1", ...]     // arka plan kodları (YENI_VAKA_1.md görsel planı)
 kareler:  ["D1", "K1", ...]   // detay ve ara kareler
 ```
 
-**2757** · `72b99720f3` · satır 92 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2418** · `72b99720f3` · satır 92 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **Sahne** — vaka içinde `sahneler.{giris, konusma, donus, kapanis}`, her ipucunda
 > `sahne`, açılışta `acilis.json → sahneler[]`:
 
-**2758** · `136ab8ebe2` · satır 94 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2419** · `136ab8ebe2` · satır 94 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 ```
 { arka: "A6", figurler: ["peri","cengo"], set: "manto", satirlar: [SATIR, ...] }
 ```
 
-**2759** · `46d914a4af` · satır 98 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2420** · `46d914a4af` · satır 98 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **Satır:**
 
-**2760** · `2078334183` · satır 99 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2421** · `2078334183` · satır 99 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 ```
 { k: "peri", i: "kas", m: "Ne oldu?" }       // konuşan, ifade (verilmezse önceki kalır), metin
@@ -13382,60 +11689,60 @@ kareler:  ["D1", "K1", ...]   // detay ve ara kareler
 { k: "ses", m: "Tel lazım mı?" }             // figürü olmayan konuşan; ifade almaz
 ```
 
-**2761** · `5f4f0578a9` · satır 104 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2422** · `5f4f0578a9` · satır 104 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > Satırda isteğe bağlı sahne değişiklikleri:
 
-**2762** · `d2ff1e34ef` · satır 106 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2423** · `d2ff1e34ef` · satır 106 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | alan | anlamı |
 
-**2763** · `96b6a75f78` · satır 108 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2424** · `96b6a75f78` · satır 108 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `arka: "A5b"` | arka plan değişir (aynı yer+saat çapraz geçiş, değilse karartma — taslaktaki kural) |
 
-**2764** · `4076619f90` · satır 109 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2425** · `4076619f90` · satır 109 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `kare: "K8"` | tam ekran ara kare / detay; figürler çekilir |
 
-**2765** · `b4a048dcea` · satır 110 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2426** · `b4a048dcea` · satır 110 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `set: "balikli"` | Peri'nin kıyafet seti değişir (sonraki ifadeler o setten seçilir) |
 
-**2766** · `d37a92ec64` · satır 111 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2427** · `d37a92ec64` · satır 111 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar; `gi` girenin ilk ifadesi; `gizle: "cengo"` figürü ekrandan çeker (konuşunca döner) |
 
-**2767** · `9b8dbf5fe5` · satır 112 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2428** · `9b8dbf5fe5` · satır 112 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `kime: "peri"` | konuk varken Cengo Peri'ye konuşuyor: sağa geçer. Yoksa Cengo konuk varken SOLA geçer (aynalı), konuk sağda kalır. Konuk satırında `kime: peri\|cengo` solda kimin duracağını seçer. Anlatı satırında da `kime: peri\|cengo\|<konuk>` solda kimin duracağını seçer (konuk: sağdakinin karşısında, aynalı; 14 Kasım 2026) |
 
-**2768** · `b525739a50` · satır 113 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2429** · `b525739a50` · satır 113 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
 
-**2769** · `671b8db5e8` · satır 114 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2430** · `671b8db5e8` · satır 114 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `peri: "tac"` | konuşan başkayken Peri'nin (dinleyen) ifadesi; K15 set kuralıyla denetler |
 
-**2770** · `4c780eebfc` · satır 115 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2431** · `4c780eebfc` · satır 115 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `mekan: true` | mekân karesi: figürler çekilir, arka plan çıplak görünür (yeri tanıtan anlatı satırı) |
 
-**2771** · `9301ec6632` · satır 116 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2432** · `9301ec6632` · satır 116 · tablo · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > | `bag: "yuksek"` / `"dusuk"` | satır yalnız o bağ hâlinde oynar (kapanış; eşik +1, `motor_yeni.js` → `BAG_ESIK`) |
 
-**2772** · `75f1637799` · satır 118 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2433** · `75f1637799` · satır 118 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **Seçim:** `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
 
-**2773** · `380e934f13` · satır 120 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2434** · `380e934f13` · satır 120 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`; vakanın anı özeti `ani_ozet.V1`.
 > Anı sekmesindeki "Suçladığın" ve "Kasaya" satırları motorun `_suclama_<vaka>` tohumundan (`"şüpheli:sonuç"`) okunur; bu tohumdan önceki kayıtlarda o iki satır çıkmaz.
 
-**2774** · `cce16b51c4` · satır 123 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2435** · `cce16b51c4` · satır 123 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **Karar (16 Kasım 2026):** `secenek` = Peri'nin seçim cümlesi (diyalogda `**SEÇENEK:**`); `cengo_sonuc` = Cengo'nun büroda satırı;
 > `cengo_replik: { i, yuz }` varsa o satır **Cengo'nun repliği** olarak oynar (`k: "cengo", kime: "peri"`, `i` Cengo'nun ifadesi, `yuz`
@@ -13446,11 +11753,11 @@ kareler:  ["D1", "K1", ...]   // detay ve ara kareler
 > **Eski alanlar:** `onizleme` = eski karar ekranındaki tek cümlelik kısa sonuç (artık gösterilmez, isteğe bağlı); `para` = **karar parası** (hikâye rakamı; kasa yok),
 > `gate: "yok"` (kapı yok), `seed_yaz` yok (tohum yok).
 
-**2775** · `bacddd5e2f` · satır 132 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2436** · `bacddd5e2f` · satır 132 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > **Vaka — Kim yaptı?:**
 
-**2776** · `9a614d109a` · satır 133 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2437** · `9a614d109a` · satır 133 · kod · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 ```
 kim_yapti: {
@@ -13464,42 +11771,42 @@ sahneler: { giris, konusma, yuzlesme_dogru, yuzlesme_zayif, yuzlesme_<masum id>,
 anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızıntı araması
 ```
 
-**2777** · `16ef41d294` · satır 144 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
+**2438** · `16ef41d294` · satır 144 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Eski formata eklenenler
 
 > Girişte anlatılan olgular `giris[].acilan`'da (ipucu değil). `ekonomi.gider` boş (para
 > yalnız birikir). Ücret Vaka 1'de bilerek `vaka.ucret`'te de duruyor (masa kartı).
 
-**2778** · `b0e8a25f31` · satır 149 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Düz metin ile sahne
+**2439** · `b0e8a25f31` · satır 149 · paragraf · YENİ OYUN VERİSİ (Peri & Cengo) › Düz metin ile sahne
 
 > İpucunun `text`/`meta`'sı **düz okuma biçimi** (eski arayüz, `arac_okuma.js`, K5/K10);
 > `sahne` **oynanan biçim**. İkisi aynı içeriğin iki hâli — birinde değişen ötekinde de
 > değişmeli. K1 (isim sızıntısı) ikisini de tarar.
 
-**2779** · `5e4711ff0c` · satır 155 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
+**2440** · `5e4711ff0c` · satır 155 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
 
 > - **K15 — Sahne satırı** (yalnız `kanon.sahne` olan veride): konuşan tanımlı mı, ifade
 >   o figürün (Peri için o anki setin) sprite'ı mı, arka plan/kare listede mi, `bag`
 >   geçerli mi. Hiçbiri JS hatası vermezdi; tanımsız ifade sessizce eski sprite'ta kalırdı.
 
-**2780** · `463d49d3c7` · satır 158 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
+**2441** · `463d49d3c7` · satır 158 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
 
 > - **K16 — Kararsız yol** (iki oyunda da): hakkı harcamanın her biçiminde en az bir karar
 >   açık kalmalı. Yeni oyunda kapı olmadığı için kendiliğinden geçer.
 
-**2781** · `ff9a1c3e24` · satır 160 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
+**2442** · `ff9a1c3e24` · satır 160 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
 
 > - **K17 — Giriş** (`kim_yapti` olan vakada): büroda (`kanon.sahne.buro`), en az 15 satır (45'i geçerse uyarı),
 >   bir şüphelinin adı geçiyor, ücret konuşuluyor (rakam ya da yazı), ipucu olgularının
 >   anahtar kelimeleri (`anahtarlar`) girişte geçmiyor. Kelime arar; dolaylı ele vermeyi
 >   yakalamaz — o, görselsiz testte sahibinde.
 
-**2782** · `f4770d9c89` · satır 164 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
+**2443** · `f4770d9c89` · satır 164 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
 
 > - **K18 — İpucu adı:** addaki özel isimler (kesmeli kelime ya da ilk kelime dışında büyük
 >   harfle başlayan) ipucu açılabilir olduğunda duyulmuş olmalı (giriş, konuşma, needs
 >   zincirindeki ipuçlarının sahne ve olguları; Peri ve Cengo her zaman bilinir).
 
-**2783** · `95e0ce0bcd` · satır 167 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
+**2444** · `95e0ce0bcd` · satır 167 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Doğrulayıcıya eklenen kurallar
 
 > - **K19 — Kim yaptı?:** 3 şüpheli, suçlu her yolda görünür, kanıt çiftleri olgu, ücret
 >   sırası, dört yüzleşme sahnesi, 4 karar, kapı/tohum/bedava ipucu yok, ipucu > hak,
@@ -13507,55 +11814,55 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   hiçbir doğru çift tek ipucundan çıkmaz (kural 21c), her kararın `onizleme`si ve her
 >   ücret kesintisinin açıklaması (`kesinti`) var (kural 22a).
 
-**2784** · `fc3df347b4` · satır 175 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
+**2445** · `fc3df347b4` · satır 175 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
 
 > - **K8 (V4):** `polise_ver` (−10.000, bağ −1) hem `uzaklastir`'ın hem `gercegi_soyle`'nin gerisinde kalıyor; Onay 1'de
 >   sahibi karar dağılımını olduğu gibi onayladı (10 Kasım 2026). Kabul edilmiş uyarı.
 
-**2785** · `d9a3bf9629` · satır 177 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
+**2446** · `d9a3bf9629` · satır 177 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
 
 > - **K8 (V5):** `polise_teslim` (−5.000, bağ −1) `muammere_soyle`'nin (+5.000, bağ 0) iki eksende de gerisinde; ortak
 >   bilerek böyle bıraktı, Barbaros kabul etti (12 Kasım 2026). Kabul edilmiş uyarı.
 
-**2786** · `abf57ea0c0` · satır 179 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
+**2447** · `abf57ea0c0` · satır 179 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
 
 > - **K8:** `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem
 >   `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende de geçiyor.
 
-**2787** · `6b90893573` · satır 181 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
+**2448** · `6b90893573` · satır 181 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
 
 > - **K17 (V6):** giriş 56 satır (45'i geçiyor); Eylül'ün kıskançlığı ve Gizem girişi uzattı. Ortak bilerek böyle
 >   bıraktı, Barbaros kabul etti (13 Kasım 2026). Kabul edilmiş uyarı.
 
-**2788** · `9807340f92` · satır 183 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
+**2449** · `9807340f92` · satır 183 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Açık uyarılar (tasarım; sahibine soruldu)
 
 > - K9 uyarısı kalktı: tohum yok (şablon, 8 Ekim 2026).
 
-**2789** · `f222781ad2` · satır 187 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
+**2450** · `f222781ad2` · satır 187 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
 
 > - **Kıyafet seti sahne başında:** diyalogda `⚙ … · set: tayyor · cset: takim`. `set` Peri'nin, `cset`
 >   Cengo'nun seti (`kanon.sahne.figurler.cengo.setler`). Cengo'nun sprite anahtarı set varsa
 >   `cengo.<set>.<ifade>`, yoksa `cengo.<ifade>` (Vaka 1). K15 ikisini de denetler.
 >   Satırda `{cset: unlu}` Cengo'nun setini sahne ortasında değiştirir (Vaka 3, 17 Ekim 2026; Peri'nin `set`'inin kardeşi).
 
-**2790** · `9076583206` · satır 191 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
+**2451** · `9076583206` · satır 191 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
 
 > - **Görselsiz test, arka plan ve kare de yer tutucu olabilir:** `gorseller.json` → `yer_tutucu`
 >   listesindeki kod gri bir alan olarak çizilir; üstünde `yer_tutucu_metin`'deki açıklama yazar.
 >   Görsel gelince kod `dosyalar`'a eklenir, iki listeden silinir (`test_yeni_arayuz.js` bayatı yakalar).
 
-**2791** · `850b02453b` · satır 194 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
+**2452** · `850b02453b` · satır 194 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
 
 > - **Diyaloğa yeni kare eklerken üç yer** (18 Ekim 2026, K53): `game_data.json → kanon.sahne.kareler` (arac_diyalog.js
 >   bunu YAZMAZ; eksikse K15 BLOCKED der), `gorseller.json → yer_tutucu` + `yer_tutucu_metin`, ve vakanın diyalog
 >   dosyasındaki görsel tablosu. Kanon listesine `arac_json_yaz.js` ile yaz. Doğrulayıcı ile derlemeyi `&&` ile zincirle:
 >   `;` ile yazınca BLOCKED veri yine `yeni/index.html`'e derlendi.
 
-**2792** · `2a469ce392` · satır 198 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
+**2453** · `2a469ce392` · satır 198 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
 
 > - `arac_diyalog.js` konuşan adındaki â/î/û'yu da düzler ("LÂL" → `lal`).
 
-**2793** · `f7c8db96b7` · satır 199 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
+**2454** · `f7c8db96b7` · satır 199 · madde · YENİ OYUN VERİSİ (Peri & Cengo) › Vaka 2 ile gelenler (10 Ekim 2026)
 
 > - **GEÇİCİ "Vaka N'den başla" (10 Ekim 2026, sahibinin testi için):** "Baştan başla" onay ekranında
 >   her sonraki omurga vakası için bir düğme. Önceki vakalar motorda kendiliğinden oynanır (her ipucu,
@@ -13564,123 +11871,123 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 
 ## sablon/vakalar/vaka2_baslangic.md
 
-**2794** · `5ba44a9964` · satır 3 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için)
+**2455** · `5ba44a9964` · satır 3 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için)
 
 > Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, aynı araçlarla,
 > **daha hızlı** üretilecek. Sahibi süreyi ölçüyor: Vaka 2'nin süresi, sonraki vakalar için ölçü.
 
-**2795** · `6abe896ba2` · satır 8 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2456** · `6abe896ba2` · satır 8 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 1. `CLAUDE.md` (kalıcı kurallar, tuzaklar, komutlar)
 
-**2796** · `e288a69655` · satır 9 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2457** · `e288a69655` · satır 9 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 2. **bu dosya**
 
-**2797** · `95f87f39ef` · satır 10 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2458** · `95f87f39ef` · satır 10 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 3. `sablon/` — 7 parça, sırayla (özellikle `5_gorsel_sistemi.md` C ve F, `7_uretim_sureci.md`)
 
-**2798** · `f9dfd509f9` · satır 11 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2459** · `f9dfd509f9` · satır 11 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 4. Örnek olarak: `sablon/vakalar/vaka1_form.md`, `vaka1_diyalog.md`, `vaka1_gorsel.md`
 
-**2799** · `daed259348` · satır 12 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2460** · `daed259348` · satır 12 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 5. Gerekirse geçmiş: `sablon/vakalar/vaka1_gorsel_devir.md` (Vaka 1 görsel işinin tamamı)
 
-**2800** · `1761fc7d12` · satır 16 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2461** · `1761fc7d12` · satır 16 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > - **Başlangıç = sahibinin "Vaka 2'ye başla" dediği an.** Tarih ve saati aşağıdaki tabloya yaz.
 
-**2801** · `b3ac02a7f2` · satır 17 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2462** · `b3ac02a7f2` · satır 17 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > - Her adım bittiğinde (özellikle her **Onay**) tarihi ve saati yaz. Sona kadar doldur.
 
-**2802** · `c50f906581` · satır 18 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2463** · `c50f906581` · satır 18 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > - Sahibi sonunda bu tabloya bakacak; adım adım ne kadar sürdü görünmeli.
 
-**2803** · `dd5a5b6c38` · satır 20 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2464** · `dd5a5b6c38` · satır 20 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | adım (7. parça) | başladı | bitti | not |
 
-**2804** · `8e50998956` · satır 22 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2465** · `8e50998956` · satır 22 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 1 Form | 10 Eki 16:52 (TSİ) | 10 Eki 17:02 | başlangıç = "Vaka 2'ye başla" |
 
-**2805** · `89b820a36b` · satır 23 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2466** · `89b820a36b` · satır 23 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 2 Onay 1 | 10 Eki 17:02 | 10 Eki 17:23 | onay; tek ek: kadınlar en çekici hâlde |
 
-**2806** · `40c9e69003` · satır 24 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2467** · `40c9e69003` · satır 24 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 3–4 Diyalog + veri + künye | 10 Eki 17:23 | 10 Eki ~17:33 | doğrulayıcı PASS; künye aracı temiz; bağ: "nikâhtan sonra" +2 (K8) |
 
-**2807** · `8de2fe14c9` · satır 25 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2468** · `8de2fe14c9` · satır 25 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 5 Görselsiz tur | 10 Eki ~17:33 | 10 Eki 17:44 | araçlar V2'ye açıldı (Cengo kıyafet seti, gri arka plan/kare, tur, `test_yeni_v2.js`); 6 yol temiz; satır satır ekran denetimi, 6 düzeltme |
 
-**2808** · `029a998c5d` · satır 26 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2469** · `029a998c5d` · satır 26 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 6–7 Onay 2, hikâye donar | 10 Eki 17:44 | 10 Eki 19:40 | 22 metin notu (hepsi bulanık replik; hikâye değişmedi); soğuk kapanış belirginleşti (+K32); geçici "Vaka 2'den başla" düğmesi |
 
-**2809** · `e13a4a0194` · satır 27 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2470** · `e13a4a0194` · satır 27 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 8 Görsel listesi + promptlar | 10 Eki 19:40 | 10 Eki 19:44 | 59 görsel, `vaka2_gorsel.md`; 29 referans `vaka2_referans/` |
 
-**2810** · `430005b1ee` · satır 28 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2471** · `430005b1ee` · satır 28 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 9–10 Görseller, kontrol, yerleştirme | 11 Eki 09:17 (TSİ) | 16 Eki 16:47 | **Başlangıç = sahibinin yeni pencereye ilk mesajı verdiği an** (sahibinin kararı); o saati yaz. 10 Eki 19:44'ten o ana kadar ara, toplama girmez. İşleme `arac_paket.js` ile |
 
-**2811** · `34a487a69c` · satır 29 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2472** · `34a487a69c` · satır 29 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 11 Görselli tur | 16 Eki 16:58 | 16 Eki 17:40 | `arac_yeni_tur.js --hepsi` yazıldı (her satır görüntü + döküm); 4 yol × 4 sonuç × 4 karar + soğuk kapanış; 7 sahne düzeltmesi (konuk girişi ×3, K20, Kısası, K31 etiketi, Tolga eli); `--cihaz` temiz (bilinen tek bayrak) |
 
-**2812** · `e515d2c17d` · satır 30 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2473** · `e515d2c17d` · satır 30 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 12–13 Onay 3, düzeltmeler | 16 Eki 17:40 | 16 Eki 19:52 | sahibinin tek notu: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU) + 4 yeni görsel (K33, K34, K35, `lal.kilif`), 4 tanıtım satırına `gir`; iki küçük soru "kalsın" |
 
-**2813** · `5455d5f360` · satır 31 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
+**2474** · `5455d5f360` · satır 31 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü
 
 > | 14 Vaka donar | 16 Eki 19:52 | 16 Eki 20:10 | geçici düğme kapandı; 8 son tur (bütün yollar, tablet, 19 boy) temiz |
 
-**2814** · `03abd1c686` · satır 35 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2475** · `03abd1c686` · satır 35 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | bölüm | süre |
 
-**2815** · `5d9d45eab2` · satır 37 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2476** · `5d9d45eab2` · satır 37 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 1–8 (form → görsel listesi, 10 Eki) | 2 sa 52 dk |
 
-**2816** · `07fa3d0b8a` · satır 38 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2477** · `07fa3d0b8a` · satır 38 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 9–10 görseller (11 Eki 277 dk + 16 Eki 16:33–16:58 25 dk) | 5 sa 02 dk |
 
-**2817** · `f8dbcdde98` · satır 39 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2478** · `f8dbcdde98` · satır 39 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 11 görselli tur | 42 dk |
 
-**2818** · `ad0ffe1c9a` · satır 40 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2479** · `ad0ffe1c9a` · satır 40 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 12–13 Onay 3 + 4 ek görsel | 2 sa 12 dk |
 
-**2819** · `2fb041f406` · satır 41 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2480** · `2fb041f406` · satır 41 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 14 dondurma | 18 dk |
 
-**2820** · `865e7b0b24` · satır 42 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2481** · `865e7b0b24` · satır 42 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | **Toplam** | **≈ 11 sa 06 dk** |
 
-**2821** · `3d6b32aaa5` · satır 44 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2482** · `3d6b32aaa5` · satır 44 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > Ölçülmeyen: G13'ün Gemini'de üretimi (12 Eki sabahı, birkaç dakika). Önceki tahmin 7–10 saatti;
 > aşan kısım Onay 3'te sonradan istenen 4 görsel (~1,5 sa). Vaka 3'te "adı geçen kişi ekranda"
 > kuralı adım 3 ve 8'de uygulanırsa bu süre baştan görsel listesine girer, Onay 3'e kalmaz.
 > Görseller vakanın yarısına yakın (5 sa) — en büyük kalem.
 
-**2822** · `ae3300f00f` · satır 49 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2483** · `ae3300f00f` · satır 49 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Adım 9–10 sohbet sohbet (sahibinin isteği: üretim süresi de ölçülür).** Sahibi "Sohbet N'e
 > başlıyorum" deyince **üretim başladı** yazılır; görselleri gönderince **üretim bitti**; paket
@@ -13688,307 +11995,307 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da tablodan okunur; sahibi
 > "ara" demedikçe çalışma süresidir.
 
-**2823** · `22e88dcda9` · satır 55 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2484** · `22e88dcda9` · satır 55 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | sohbet | görseller | üretim başladı | üretim bitti | işleme bitti | not |
 
-**2824** · `c19343d93a` · satır 57 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2485** · `c19343d93a` · satır 57 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 1 Peri | G1–G13 | 11 Eki 09:17 | 11 Eki 09:46 | 11 Eki 10:00 | G8–G9 Grok'ta (912×1136, araç büyüttü; ölçek tuttu). G1 boydan geldi → elle kırpıldı. Krema/örtü için `peri_beyaz` kesim profili eklendi. G10–13 boyun cebi elle temizlendi. Sonra sahibi çorap bandını kaldırttı: G8–G12 Grok'ta yeniden (bantsız) gömüldü; G13 limite takıldı; 12 Oct 07:56'te **Gemini**'de üretilip gömüldü (geçici G12 kaldırıldı) |
 
-**2825** · `2c84608af5` · satır 58 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2486** · `2c84608af5` · satır 58 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 2 Cengo | G14–G18 | 11 Eki 10:54 | 11 Eki 11:05 | 11 Eki 11:08 | hepsi ChatGPT; G14 önce ayrı kontrol edildi. G15–G16'da beyaz yaka ucu zeminle gidiyordu → `cengo_beyaz` profili. Saç halesi baş kutusunda elle. Düzeltme promptu gerekmedi |
 
-**2826** · `de562b2041` · satır 59 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2487** · `de562b2041` · satır 59 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 3 Müjgan | G19–G21 | 11 Eki ~11:08 (Sohbet 2 bitince; ayrıca bildirilmedi) | 11 Eki 11:20 | 11 Eki 11:23 | G19 önce ayrı kontrol: saç bal-kumraldı, metin "platin" diyor → bir düzeltme. G21'de sola uzanan el satırın zemin örneğini bozdu → `konuk_sag` profili. Boy 0.82 (uzun boylu) |
 
-**2827** · `92c8ddf883` · satır 60 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2488** · `92c8ddf883` · satır 60 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 4 Defne | G22–G25 | 11 Eki 11:25 | 11 Eki 11:32 | 11 Eki 11:38 | G22 önce ayrı kontrol; düzeltme yok. Koyu saçın kıvrımındaki bej hale elle (ten korunarak; ilk denemede G24'ün göz akı da gidiyordu). Boy 0.80 |
 
-**2828** · `870f97c25a` · satır 61 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2489** · `870f97c25a` · satır 61 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 5 Lâl | G26–G28 | 11 Eki 12:01 | 11 Eki 12:10 | 11 Eki 12:13 | G26 önce ayrı kontrol. Üçünde de gözlük sapında yazı benzeri iz → elle silindi (düz siyah yüzey). G28 parmağı sol kenarda → `konuk_sag`. Boy 0.80 |
 
-**2829** · `c16b74db6b` · satır 62 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2490** · `c16b74db6b` · satır 62 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 6 Tolga | G29–G30 | 11 Eki 12:14 | 11 Eki 12:19 | 11 Eki 12:21 | G29 önce ayrı kontrol; düzeltme yok. Kesim varsayılan `konuk`. Boy 0.90. G30'un havadaki eli sağ figür yuvasında ekran dışında kalıyor (adım 11'de bak) |
 
-**2830** · `dd029a5e77` · satır 63 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2491** · `dd029a5e77` · satır 63 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | tekli konuklar | G31–G34 | 11 Eki ~12:21 (Sohbet 6 bitince) | 11 Eki 12:28 | 11 Eki 12:32 | sıra karışık geldi (3.=Saadet, 4.=Sarkis), görselden düzeltildi. Beyaz gömlek/bez için `konuk_beyaz`. Gülsüm ve Saadet saç halesi elle. Boy: Gülsüm 0.80, Bülent 0.94, Sarkis 0.80, Saadet 0.72 |
 
-**2831** · `79045fcf21` · satır 64 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2492** · `79045fcf21` · satır 64 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 7 Atölye | G35–G37, G44 | 11 Eki 12:34 | 11 Eki 12:44 | 11 Eki ~12:50 | G35 önce ayrı kontrol. G44: siyah uzun kol Lâl'i çağrıştırıyordu (satır Gülsüm'ün) → bir düzeltme |
 
-**2832** · `43270ca92b` · satır 65 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2493** · `43270ca92b` · satır 65 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 8 Otel | G40 → G41, G42 | 11 Eki 13:12 | 11 Eki ~13:19 | 11 Eki 13:22 | G40 önce ayrı kontrol: pasta 4 kattı → bir düzeltme (5 kat). G42 buzdolabındaki marka levhaları elle silindi |
 
-**2833** · `01af18b5c7` · satır 66 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2494** · `01af18b5c7` · satır 66 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | 9 Terzi | G43 → G45 | 11 Eki 13:23 | 11 Eki ~13:28 | 11 Eki 13:29 | G43 önce ayrı kontrol; düzeltme yok |
 
-**2834** · `498843e5b8` · satır 67 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2495** · `498843e5b8` · satır 67 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | Sokak, Salon | G38, G39 | 11 Eki 13:31 | 11 Eki ~13:34 | 11 Eki 13:36 | vale kürsüsündeki küçük rozet elle silindi; plakalar görünmüyor |
 
-**2835** · `dda82ef815` · satır 68 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2496** · `dda82ef815` · satır 68 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > | kareler (her biri ayrı sohbet) | G46–G59 | 11 Eki 13:38 (K19) | | | |
 
-**2836** · `bec4a886b1` · satır 69 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2497** · `bec4a886b1` · satır 69 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K19 | G46 | 11 Eki 13:38 | | 11 Eki 13:46 | Cengo eksikti (metin "Cengo kravatına bakıyor") → bir düzeltme |
 
-**2837** · `6d32d407c7` · satır 70 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2498** · `6d32d407c7` · satır 70 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K20 | G47 | | | 11 Eki 13:55 | ilk hâlde masanın açık yüzü kapıya bakıyordu (Saadet Peri'yi görürdü) → kamera masanın arkasına alındı, ön panel kapalı |
 
-**2838** · `d31ee6e8c5` · satır 71 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2499** · `d31ee6e8c5` · satır 71 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K21 | G48 | | | 11 Eki 14:02 | düzeltme yok; 6 kişi, eller doğru |
 
-**2839** · `b7f5214767` · satır 72 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2500** · `b7f5214767` · satır 72 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K22 | G49 | | | 11 Eki 14:09 | düzeltme yok |
 
-**2840** · `8acc86459c` · satır 73 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2501** · `8acc86459c` · satır 73 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K23 | G50 | 16 Eki 16:34 | 16 Eki ~16:45 | 16 Eki 16:47 | 11 Eki: ChatGPT reddetti. 16 Eki: hem Grok hem ChatGPT üretti; sahibi **ChatGPT'ninkini** seçti (mutfak G42'yle aynı, Peri satırdaki gibi sinirli; Grok'unkinde köprü kırmızı Golden Gate'ti). Pasta oturulmuş değil yıkılmış — kabul. Buzdolabındaki 4 marka levhası elle silindi |
 
-**2841** · `c716a1429e` · satır 74 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2502** · `c716a1429e` · satır 74 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K24 | G51 | 11 Eki 14:40 | | 11 Eki 14:44 | ayakkabılar yeşildi → bir düzeltme (kırmızı stiletto) |
 
-**2842** · `3b6d3e55d1` · satır 75 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2503** · `3b6d3e55d1` · satır 75 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K25 | G52 | | | 11 Eki 14:50 | düzeltme yok |
 
-**2843** · `626d25035d` · satır 76 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2504** · `626d25035d` · satır 76 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K26 | G53 | | | 11 Eki 14:55 | düzeltme yok |
 
-**2844** · `cbd46cf933` · satır 77 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2505** · `cbd46cf933` · satır 77 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K27 | G54 | | | 11 Eki 15:00 | düzeltme yok |
 
-**2845** · `17f7cd8d63` · satır 78 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2506** · `17f7cd8d63` · satır 78 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K28 | G55 | | | 11 Eki 15:05 | düzeltme yok |
 
-**2846** · `d4f1bc91a0` · satır 79 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2507** · `d4f1bc91a0` · satır 79 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K29 | G56 | 11 Eki 15:34 | | 11 Eki 15:39 | düzeltme yok |
 
-**2847** · `6ea6dc53ce` · satır 80 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2508** · `6ea6dc53ce` · satır 80 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K30 | G57 | | | 11 Eki 15:43 | düzeltme yok |
 
-**2848** · `c9e79469d0` · satır 81 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2509** · `c9e79469d0` · satır 81 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > |   K31, K32 | G58, G59 | | | 11 Eki 15:52 | düzeltme yok (K32'de tepsi örtüsü çizgili, K20'de dantelli — küçük fark, kabul) |
 
-**2849** · `d5f3bfa469` · satır 83 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2510** · `d5f3bfa469` · satır 83 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 8:** 11 Ekim 15:55 → 16 Ekim 16:33 (sahibinin yeni pencereye ilk mesajı). Arada G13 Gemini'de üretildi (12 Eki 07:56); LoRA denemesi ve 16 Ekim cihaz düzeni oturumu süreye girmez. Ara toplama girmez.
 
-**2850** · `4bd4a7c1da` · satır 85 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2511** · `4bd4a7c1da` · satır 85 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 7:** 11 Ekim 15:55'te K32'den sonra gün kapandı (sahibi). Kalan G13 ve K23 yarın Grok'ta. Ara toplama girmez.
 
-**2851** · `1d2e8a379a` · satır 87 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2512** · `1d2e8a379a` · satır 87 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 6:** 11 Ekim 15:07'te K28'den sonra ara verildi (sahibi). Ara toplama girmez. Süre 11 Oct 15:34'te (K29) yeniden başladı.
 
-**2852** · `c6fd956365` · satır 89 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2513** · `c6fd956365` · satır 89 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 5:** 11 Ekim 14:15'te K22'den sonra gün kapandı (sahibi). Ara toplama girmez. Süre 11 Oct 14:40'te (K24) yeniden başladı.
 
-**2853** · `566ff93116` · satır 91 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2514** · `566ff93116` · satır 91 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 4:** 11 Ekim 12:56'te Sohbet 7 (Atölye) bitince ara verildi (sahibi). Ara toplama girmez; sahibi başladığını haber verince süre yeniden başlar. Süre 13:12'te yeniden başladı.
 
-**2854** · `d4479a81ff` · satır 93 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2515** · `d4479a81ff` · satır 93 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 3:** 11 Ekim 11:39'te Sohbet 4 bitip Sohbet 5'ten (Lâl) önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 5'e başlıyorum" deyince süre yeniden başlar. Süre 11 Oct 12:01'te yeniden başladı.
 
-**2855** · `85a8548a71` · satır 95 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2516** · `85a8548a71` · satır 95 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara 2:** 11 Ekim 10:23'te Sohbet 1 bitip Sohbet 2'den önce ara verildi (sahibi). Ara toplama girmez; sahibi "Sohbet 2'ye başlıyorum" deyince süre yeniden başlar. Süre 11 Ekim 10:54'te yeniden başladı.
 
-**2856** · `e9f4b3cbe7` · satır 97 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
+**2517** · `e9f4b3cbe7` · satır 97 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 1. Süre ölçümü › Toplam (aralar ve "sayılmaz" işler hariç)
 
 > **Ara:** 10 Ekim 19:44'te ara verildi (sahibi). Ara süresi toplama girmez; yeniden başlanınca saat yazılır. Aradan sonra 19:54'te G1'in (Peri, tayyör) promptu ve referansları sahibine verildi; sahibinin isteğiyle **süreden sayılmaz**. Toplu görsel işleme aracının (`kaynak/arac_paket.js`) yazımı da sahibinin isteğiyle **süreden sayılmaz**; kalan 59 görsel bu araçla, paket paket işlenir.
 
-**2857** · `f4468f331e` · satır 101 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2518** · `f4468f331e` · satır 101 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > Vaka 1'de vaktin çoğu **Onay 3'te**, sahibinin oynarken tek tek bulduğu görsel sorunlarına gitti.
 > Hepsi baştan önlenebilirdi:
 
-**2858** · `de49393768` · satır 104 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2519** · `de49393768` · satır 104 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | sorun (Vaka 1) | Vaka 2'de nasıl önlenir |
 
-**2859** · `8fbcff6afd` · satır 106 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2520** · `8fbcff6afd` · satır 106 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Cengo konuğa konuşurken Peri'ye bakıyor gibi | diyalogda her Cengo satırı için kime konuştuğu belli; `{kime: peri}` |
 
-**2860** · `660b5150e9` · satır 107 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2521** · `660b5150e9` · satır 107 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Konuk Peri'ye konuşurken Cengo karşısında | konuk satırında `{kime: peri}` |
 
-**2861** · `dec5a83dc7` · satır 108 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2522** · `dec5a83dc7` · satır 108 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | İki Cengo aynı ekranda | görselli turda satır satır denetim (aşağıda §4) |
 
-**2862** · `eae6290dc7` · satır 109 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2523** · `eae6290dc7` · satır 109 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Dinleyenin yüzü bir önceki satırdan kalmış (kızgın Peri) | her yeni olay/kişi girişinde `{peri: …}` / `{cengo: …}` |
 
-**2863** · `44e1f79261` · satır 110 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2524** · `44e1f79261` · satır 110 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Kızgın konuk sahneye "zaten kızgın" giriyor | anlatı satırında `{mekan}`, konuk ilk konuştuğu satırda `{gir: x, gi: …}` |
 
-**2864** · `15f31819cc` · satır 111 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2525** · `15f31819cc` · satır 111 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Uzun konuşma hep aynı arka planda | ≈15 satırı geçen konuşmaya 2. açı; durum değişince (kapı açıldı, manto asıldı) yeni arka plan |
 
-**2865** · `58fa5f1432` · satır 112 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2526** · `58fa5f1432` · satır 112 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Kovalamacada karelerin sırası/kişisi yanlış | her vuruş bir kare, metinle aynı sıra; sahneden ayrılan figür karede yok (`{gizle: cengo}`) |
 
-**2866** · `65908e0e12` · satır 113 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2527** · `65908e0e12` · satır 113 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Islanan/kirlenen Peri sonraki satırda kuru | durum sürekliliği: ara hâl figürü baştan listede |
 
-**2867** · `24e996cdd4` · satır 114 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2528** · `24e996cdd4` · satır 114 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Metin bir nesne anıyor, ekranda yok (telefon, istavrit, tel) | satır → görsel tablosunda her nesne için figür ya da kare |
 
-**2868** · `e7aa19ec68` · satır 115 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2529** · `e7aa19ec68` · satır 115 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Figürü olmayan konuşan (boyacı, asistan) | ya figür ya o satırda ilgili kare; iki boş figür kalmaz |
 
-**2869** · `b1a53519fa` · satır 116 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2530** · `b1a53519fa` · satır 116 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Yanlış kıyafetle sahne (önlüklü Kemal borç istemeye) | konuk her sahnede o sahneye uygun hâlde; gerekirse ikinci kıyafet |
 
-**2870** · `683167490a` · satır 117 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2531** · `683167490a` · satır 117 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Saçta grilik (kesim halesi) | her figür gönderilmeden önce saç kenarı büyütülüp temizlenir (§4) |
 
-**2871** · `b7e49fcc5b` · satır 118 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2532** · `b7e49fcc5b` · satır 118 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Konuk çok büyük/küçük | ekranda Peri'nin yanında boy ayarı (`boy`), sahibine göstermeden önce |
 
-**2872** · `17a8299f2e` · satır 119 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2533** · `17a8299f2e` · satır 119 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Görsel oranı karışık | her prompta oran satırı (figür 4:5, sahne 3:4) |
 
-**2873** · `eab8659a91` · satır 120 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2534** · `eab8659a91` · satır 120 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Künye boş kaldı | künye veri adımında yazılır (adım 4), sonradan değil |
 
-**2874** · `57518af360` · satır 121 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2535** · `57518af360` · satır 121 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Promptlar mekânla çelişiyor (olmayan askı, yanlış masa) | prompt yazmadan önce referans görsele bakılır; mekândaki eşyalar adıyla sayılır |
 
-**2875** · `51fecd0796` · satır 122 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
+**2536** · `51fecd0796` · satır 122 · tablo · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 2. Vaka 1'de zaman nereye gitti (tekrarlanmayacak)
 
 > | Referans dosyaları sonradan istendi | her prompt **referans dosyalarıyla birlikte** gönderilir (`referans/G<n>-<sıra>_ad.png`) |
 
-**2876** · `02c494b7f4` · satır 126 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2537** · `02c494b7f4` · satır 126 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > **Form (adım 1):** 6. parçanın bütün başlıkları + **künye tablosu** + yeni yan karakterlerin
 > görünüş önerisi (benzerlerinden ayrışsın). Görünüş, formla birlikte Onay 1'de onaylanır —
 > görsel aşamasında ayrıca sormaya gerek kalmaz.
 
-**2877** · `6db14d4c28` · satır 130 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2538** · `6db14d4c28` · satır 130 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > **Diyalog (adım 3):** her satır için baştan yaz: konuşan, ifade, **kime** (konuk varsa), dinleyenin
 > yüzü değişiyorsa işareti, arka plan/açı, kare. Satır → görsel tablosu diyalogla birlikte biter.
 > Kontrol sorusu her satırda: "Ekranda kim var, kime bakıyor, yüzü bu satıra uyuyor mu, metnin
 > andığı nesne görünüyor mu?"
 
-**2878** · `6f8dc422a6` · satır 135 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2539** · `6f8dc422a6` · satır 135 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > **Veri (adım 4):** `arac_diyalog.js <dosya> V2`; künye `yeni/kisiler.json`;
 > `node arac_kunye_denetim.js yeni` temiz.
 
-**2879** · `1362873514` · satır 138 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2540** · `1362873514` · satır 138 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > **Araçları Vaka 2'ye aç (adım 5'ten önce, ~1 saat):**
 
-**2880** · `68b29406bd` · satır 139 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2541** · `68b29406bd` · satır 139 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > - `arac_yeni_tur.js` şu an yalnız Vaka 1'i oynuyor → Vaka 2'yi de oynasın.
 
-**2881** · `084dfd2f60` · satır 140 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2542** · `084dfd2f60` · satır 140 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > - Vaka 1 → Vaka 2 geçişini dene (V1 bitince V2 açılıyor mu, kayıt doğru mu).
 
-**2882** · `a900914fa5` · satır 141 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2543** · `a900914fa5` · satır 141 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > - `test_yeni_v1.js`'in Vaka 2 kardeşi gerekiyorsa yaz.
 
-**2883** · `d3e5503257` · satır 143 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2544** · `d3e5503257` · satır 143 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > **Görsel listesi (adım 8):** tek seferde ve EKSİKSİZ: figürler (her ifade), konuk ikinci hâlleri,
 > ara kareler (kovalamacanın her vuruşu), ek açılar, durum hâlleri (ıslak/kirli), nesneli pozlar.
 > Her prompt: kalıp (5. parça D) + oran satırı + numaralı referans dosyaları hazır.
 
-**2884** · `9a238cff1e` · satır 147 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
+**2545** · `9a238cff1e` · satır 147 · paragraf · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 3. Adım adım ne yapacaksın (7. parçaya ek)
 
 > **Görsel gelince (adım 10):** sahibine göndermeden ÖNCE: kes, saç kenarını büyütüp temizle (yalnız
 > baş kutusu; gümüş nesneleri koru), ekranda Peri'nin yanında boyuna bak, yazı/harf tara, ilgili
 > satırda ekran görüntüsü al. Sahibine yalnız oyundaki son hâli gönder.
 
-**2885** · `4949a92cb8` · satır 153 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2546** · `4949a92cb8` · satır 153 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Ekranda kaç figür var, aynı figür iki kez var mı?
 
-**2886** · `98bf747eb9` · satır 154 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2547** · `98bf747eb9` · satır 154 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Konuşan kim, karşısında kim; kime konuşuyorsa o mu karşısında?
 
-**2887** · `2bc4f050b2` · satır 155 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2548** · `2bc4f050b2` · satır 155 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Dinleyenin yüzü bu satıra uyuyor mu (önceki satırdan kalmış mı)?
 
-**2888** · `11fb2bc582` · satır 156 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2549** · `11fb2bc582` · satır 156 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Metinde anılan nesne/hareket görünüyor mu?
 
-**2889** · `9e4f61b3dc` · satır 157 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2550** · `9e4f61b3dc` · satır 157 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Arka plan/açı hikâyedeki duruma uyuyor mu (kapı açık mı, kim ayrıldı)?
 
-**2890** · `1298891daa` · satır 158 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2551** · `1298891daa` · satır 158 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Saç kenarı temiz mi, boy doğru mu?
 
-**2891** · `03809979bd` · satır 159 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
+**2552** · `03809979bd` · satır 159 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
 > - Yer etiketi doğru mu (ara sokak / iskele)?
 
-**2892** · `edaf558065` · satır 163 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
+**2553** · `edaf558065` · satır 163 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
 
 > - Çok basit, kısa Türkçe; bir adımda dur, eksikleri tek tek konuş.
 
-**2893** · `21a83b9ca5` · satır 164 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
+**2554** · `21a83b9ca5` · satır 164 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
 
 > - Kanona ekleme → önce sor (nereye ne). Metindeki küçük netleştirmeleri önerip uygula.
 
-**2894** · `f730ef49c7` · satır 165 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
+**2555** · `f730ef49c7` · satır 165 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
 
 > - Commit doğrudan `main`'e ve oturumun dalına. Her değişiklikten sonra: doğrulayıcı, iki
 >   derleme (eski `index.html` md5 aynı), testler, gerekiyorsa tur.
 
-**2895** · `3daa8801fd` · satır 167 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
+**2556** · `3daa8801fd` · satır 167 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
 
 > - **Görsel sorunu anında söylenir (11 Ekim, Vaka 2 Sohbet 1 dersi).** Sahibi üretim sırasında bir
 >   sorun görürse (fazla ayrıntı, tutarsız kıyafet, el, yazı) o an yazar — özellikle sonraki
@@ -13996,7 +12303,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   düzelmezse zincirle yayılır: Vaka 2'de G8'de doğan çorap bandı G9–G13'e geçti; 5 görsel yeniden
 >   üretildi, G13 limite takıldı (~20 dk kayıp).
 
-**2896** · `bc765847db` · satır 172 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
+**2557** · `bc765847db` · satır 172 · madde · VAKA 2 — BAŞLANGIÇ (yeni pencere için) › 5. Sahibiyle çalışma biçimi
 
 > - **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta
 >   istenmemiş bir ayrıntı görürse gömmeden önce sorar ve düzeltme promptunu verir. Otomatik rötuşa
@@ -14005,81 +12312,81 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 
 ## sablon/vakalar/vaka3_baslangic.md
 
-**2897** · `1b95b6f6e9` · satır 3 · paragraf · VAKA 3 — BAŞLANGIÇ (yeni pencere için)
+**2558** · `1b95b6f6e9` · satır 3 · paragraf · VAKA 3 — BAŞLANGIÇ (yeni pencere için)
 
 > Vaka 3, Vaka 2 ile aynı şablonla üretilir; Vaka 2'nin ölçümünden çıkan **iki hızlandırma
 > kuralı** bu vakada ilk kez uygulanır. Kurallar ve gerekçe: `sablon/7_uretim_sureci.md` →
 > "Hızlandırma kuralları".
 
-**2898** · `bfffd9884c` · satır 9 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2559** · `bfffd9884c` · satır 9 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 1. `CLAUDE.md`
 
-**2899** · `7c90f6df3b` · satır 10 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2560** · `7c90f6df3b` · satır 10 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 2. **bu dosya**
 
-**2900** · `758371fb3e` · satır 11 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2561** · `758371fb3e` · satır 11 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 3. `sablon/` — 7 parça, sırayla (özellikle `7_uretim_sureci.md` → Hızlandırma kuralları)
 
-**2901** · `6b58907669` · satır 12 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2562** · `6b58907669` · satır 12 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 4. `sablon/vakalar/vaka2_baslangic.md` §2–5 (Vaka 1 dersleri, görselli tur denetimi, çalışma biçimi)
 
-**2902** · `7f2bfcffbb` · satır 13 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2563** · `7f2bfcffbb` · satır 13 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 5. Örnek olarak: `sablon/vakalar/vaka2_form.md`, `vaka2_diyalog.md`, `vaka2_gorsel.md`
 
-**2903** · `9674109ef0` · satır 17 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2564** · `9674109ef0` · satır 17 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Tip: Bilmece (17 Ekim, sahibinin kararı)** — Vaka 1 ve 2 gibi; oyuncu da suçluyu bilmez. Taslak
 >   (`kaynak/YENI_OYUN_SEZON.md` → "VAKA 3 — SİMİT SOYGUNU") Columbo tipi yazıyor; konu oradan alınır, tip
 >   Bilmece'ye çevrilir. Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`1_oyun_yapisi.md`).
 
-**2904** · `dc3aa2513f` · satır 20 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2565** · `dc3aa2513f` · satır 20 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Konu: Simit Soygunu (17 Ekim, sahibinin onayı).** Yan karakter **Gizem**: pastanenin tezgâhtarı, yirmili
 >   yaşlarının ortası, hazırcevap, seksi ve işveli; Cengo'yla atışır, Peri'yi zaman zaman kıskançlık krizine sokar.
 >   Masum; soygun gecesinin tek gerçek tanığı; vakadan sonra büroya yerleşir. Kanon: `3_kanon_kaydi.md`.
 
-**2905** · `3abb6d1048` · satır 23 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2566** · `3abb6d1048` · satır 23 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Peri her zaman üstün (17 Ekim, sahibinin kararı):** Vaka 2 kuralı sürer — Peri vakadaki kadınların içinde
 >   her zaman en gösterişli ve seksi olandır; Gizem'le yan yana Peri çok daha alımlı görünür. Kıskançlık bundan
 >   doğar: Peri üstün olduğu hâlde huzursuzlanır. Görsel promptlarına (adım 8) baştan konur.
 
-**2906** · `0c20b49e4c` · satır 26 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2567** · `0c20b49e4c` · satır 26 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Gizem referans seti (17 Ekim):** Vaka 3'te yok — önce temel figür tek başına, onaydan sonra ifadeler.
 >   Vaka 3 bitince sahibiyle karar: küçük set (8–10) ya da tam set (25, Peri/Cengo gibi). Vaka süresine girmez.
 
-**2907** · `23e7c19c16` · satır 29 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2568** · `23e7c19c16` · satır 29 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Bulanık replik taraması** (adım 5'in sonu): Onay 2'den önce her replik "kime, neyi,
 >   nereden biliyor, espri, sıra, niyet" sorularıyla okunur; düzeltmeler sahibine tek listede
 >   verilir. Ölçü: Vaka 2'de Onay 2 = 1 sa 56 dk, 22 not.
 
-**2908** · `aea050e360` · satır 32 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2569** · `aea050e360` · satır 32 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Toplu görsel işleme** (adım 9–10): görseller sohbet sohbet gelir, paket hâlinde işlenir,
 >   sahibine oyundaki son hâli tek seferde gösterilir.
 
-**2909** · `be96b15f72` · satır 34 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2570** · `be96b15f72` · satır 34 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Görsel–metin uyum denetimi** (adım 11, Onay 3'ten önce): görselli tur bütün yollarda; her ekran
 >   altındaki metinle yan yana okunur (kim var, kime konuşuyor, yüz satıra uyuyor mu, anılan şey
 >   görünüyor mu, süreklilik, yer/zaman, kenardan taşan jest, Nurcan). Bulunanlar tek listede.
 >   Ayrıntı: `7_uretim_sureci.md` → Hızlandırma kuralları.
 
-**2910** · `b4180b2780` · satır 38 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2571** · `b4180b2780` · satır 38 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Görsel iş sayfası aynı biçimde (11 Ekim, sahibinin kararı).** Adım 8'de `vaka2_sayfa/`
 >   kopyalanıp `vaka3_sayfa/` yapılır, `uret.py`'deki liste Vaka 3'e göre yazılır, sayfa
 >   yayımlanır ve bağlantısı sahibine verilir. Sahibi sohbetleri sayfanın sırasıyla yürütür;
 >   süre tablosu ve `DEVIR.md` de o sırayı kullanır. Ayrıntı: `5_gorsel_sistemi.md` D-6.
 
-**2911** · `38cd609fc2` · satır 42 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2572** · `38cd609fc2` · satır 42 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Temel görsel önce, tek başına; türevler onaydan sonra.** Ayrıca Vaka 2'nin bütün görsel
 >   dersleri (kıyafet sabiti kayması, külotlu çorap, sayı, şehir, marka izi, kalabalıkta kişi
@@ -14087,7 +12394,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   listesi 10–12) ve F'de (kesim profilleri, hale, rötuş sınırı). Prompt yazarken D tablosundaki
 >   önlemler promptlara baştan konur.
 
-**2912** · `3f61b33d3c` · satır 47 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2573** · `3f61b33d3c` · satır 47 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Görsel sorunu anında söylenir (11 Ekim, Vaka 2 Sohbet 1 dersi).** Sahibi üretim sırasında bir
 >   sorun görürse (fazla ayrıntı, tutarsız kıyafet, el, yazı) o an yazar — özellikle sonraki
@@ -14095,26 +12402,26 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   düzelmezse zincirle yayılır: Vaka 2'de G8'de doğan çorap bandı G9–G13'e geçti; 5 görsel yeniden
 >   üretildi, G13 limite takıldı (~20 dk kayıp).
 
-**2913** · `868c6a6457` · satır 52 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2574** · `868c6a6457` · satır 52 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Adı geçen kişi ekranda mı (16 Ekim, sahibinin kararı — ZORUNLU):** anlatı satırında adı geçen
 >   her kişi o satırda ekranda; tek kişi → `{gir: x}`, iki kişiden fazlası ya da grup → kare.
 >   Diyalogda (adım 3), görsel listesinde (adım 8) ve turda (`--hepsi` → `adi_gecen_yok.txt`)
 >   denetlenir. `7_uretim_sureci.md` → Görsel–metin uyum denetimi.
 
-**2914** · `ee43574cb1` · satır 56 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2575** · `ee43574cb1` · satır 56 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **3 araştırma hakkı + reklamla +1 (16 Ekim, sahibinin kararı):** formda 3 hak; **3 hakla `doğru` yolu
 >   şart** (`test_yeni_v2.js` sınar), 4. ipucu resmi genişletir. Reklam düğmesi hak bitince çıkar;
 >   kapanıştan sonra "Kaçırdığın ipuçları". Ayrıntı `kaynak/YENI_OYUN_CERCEVE.md`.
 
-**2915** · `b83702d82b` · satır 59 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2576** · `b83702d82b` · satır 59 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Künye vaka başına (16 Ekim):** künyede yalnız o vakanın kişileri (+ Peri, Cengo). Her konuşan kişiye
 >   künye kaydı (adı olan herkes; Vaka 2'de Saadet unutulmuştu) ve portre. Önceki vakadan dönen kişi
 >   için `tanisma` dizi olur.
 
-**2916** · `37d67e0e0f` · satır 62 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2577** · `37d67e0e0f` · satır 62 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Defter vaka başına + anı özeti (17 Ekim, sahibinin isteği):** Zincir sekmesi yalnız içinde bulunulan
 >   vakayı gösterir. Anı sekmesinde her biten vakanın üstünde 2–3 cümlelik **anı özeti** durur
@@ -14122,7 +12429,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   Formda §12'nin altına yazılır, diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider;
 >   bölüm yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`.
 
-**2917** · `1411d386f0` · satır 67 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2578** · `1411d386f0` · satır 67 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Paylaş kartı (17 Ekim):** her vakaya iki şey gerekir.
 >   (1) **Kapak** (`gorseller.json → kapak`, zorunlu, yedek): ipucu sahnelerinde geçen bir ARKA PLAN; yüzleşme/
@@ -14131,17 +12438,17 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   listesine eklenir, promptu `sablon/kart_sayfa/uret.py`'ye yazılır; kurallar `5_gorsel_sistemi.md` → **G**.
 >   `giris` varsayılanının ilk cümlesi paylaşım mesajına girer: sızıntısız ve tek başına anlaşılır olsun.
 
-**2918** · `a9c2ab7b32` · satır 73 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2579** · `a9c2ab7b32` · satır 73 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Kıyafet:** hikâye gerektirirse vaka içinde değişebilir (her yeni kıyafet = ifade seti, ~6–8 figür).
 
-**2919** · `ba73bc7ea4` · satır 74 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2580** · `ba73bc7ea4` · satır 74 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Künye portresi (16 Ekim, sahibi buldu: Vaka 2'nin yedi konuğunda yoktu):** her yeni kişinin figürü
 >   gömülünce `python3 arac_portre.py <figür_normal> yeni_gorsel/portre/portre_<id>.webp` + `gorseller.json`.
 >   `test_yeni_v2.js` eksik portreyi yakalar.
 
-**2920** · `7885afeb5c` · satır 77 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2581** · `7885afeb5c` · satır 77 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Peri poz kütüphanesi (16 Ekim):** `sablon/peri_poz/` — L1 yüz, L22/L25 oturur-bacak bacak üstünde,
 >   L16 işaret eden, L13/L24 arkadan… Adım 8'de her Peri promptuna uygun L eklenir (en çok 5 referans).
@@ -14150,18 +12457,18 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   Yeni kıyafette temel figür C1 + G14-1 (+ poz C) ile; ifadeler o temelin düzenlemesi (D-1). Kıyafet V1/V2
 >   ile aynıysa oyundaki figür referanstır. Adım 8'de her Peri/Cengo kartına hangi L/C'nin gireceğini yaz.
 
-**2921** · `92638060dd` · satır 83 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2582** · `92638060dd` · satır 83 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **ChatGPT reddederse (16 Ekim, sahibinin kararı):** aynı promptu ChatGPT'nin düşünen kipinde
 >   ver; kendisi yumuşatıp yeniden dener (Vaka 2 K23 böyle çıktı). Olmazsa Grok. `5_gorsel_sistemi.md` D-5.
 
-**2922** · `0a44d1ddf8` · satır 85 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
+**2583** · `0a44d1ddf8` · satır 85 · madde · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 1. Bu vakada yeni olan
 
 > - **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta
 >   istenmemiş bir ayrıntı görürse gömmeden önce sorar ve düzeltme promptunu verir. Otomatik rötuşa
 >   (ör. bant/nesne silme) ancak yüzey düzse girer; yeniden üretim çoğu zaman daha kısadır.
 
-**2923** · `c7ff62f3e3` · satır 91 · paragraf · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2584** · `c7ff62f3e3` · satır 91 · paragraf · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > Başlangıç = sahibinin "Vaka 3'e başla" dediği an. Her adımın bitişi yazılır; aralar toplama girmez.
 > Sahibi "zamanı durdur" / "tekrar başlat" der; aralar aşağıdaki ara tablosuna yazılır (17 Ekim, sahibinin isteği):
@@ -14169,214 +12476,214 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > Saat yalnız sahibinin sözüyle işler ya da durur; yazılan saat o sözün anıdır, ekran görüntüsünden tahmin edilmez
 > (18 Eki: "başlat" dendi ama çalışılamadı → aynı anda yeni ara açıldı).
 
-**2924** · `938af19724` · satır 97 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2585** · `938af19724` · satır 97 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | ara | durdu | başladı | süre |
 
-**2925** · `d620f821cf` · satır 99 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2586** · `d620f821cf` · satır 99 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 1 | 17 Eki 15:40 (Onay 2 öncesi) | 17 Eki 16:11 | 31 dk |
 
-**2926** · `019429ead9` · satır 100 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2587** · `019429ead9` · satır 100 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 2 | 17 Eki 16:18 (Onay 2 öncesi) | 17 Eki 17:09 | 51 dk |
 
-**2927** · `dba4a4002c` · satır 101 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2588** · `dba4a4002c` · satır 101 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 3 | 17 Eki 17:41 (Onay 2 sırasında) | 17 Eki 17:57 | 16 dk |
 
-**2928** · `f52c82a9f2` · satır 102 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2589** · `f52c82a9f2` · satır 102 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 4 | 17 Eki 18:09 (Onay 2 sırasında) | 18 Eki ~09:14 (sahibinin ekran görüntüleri 09:13; afiş esprisi) | ~15 sa 05 dk |
 
-**2929** · `912d6cf2d1` · satır 103 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2590** · `912d6cf2d1` · satır 103 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 5 | 18 Eki 10:11 (Onay 2 sırasında; afiş esprisi + kapanış K53 bitti, adım 8 başlamadı) | 18 Eki 11:26 ("saati başlat") | 1 sa 15 dk |
 
-**2930** · `64350d3e20` · satır 104 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2591** · `64350d3e20` · satır 104 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 6 | 18 Eki 11:26 (sahibi başlattıktan sonra çalışamadı; aynı anda durduruldu) | 18 Eki 13:33 | 2 sa 07 dk |
 
-**2931** · `bb038271cf` · satır 105 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2592** · `bb038271cf` · satır 105 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 7 | 18 Eki 14:38 (mola; Onay 2 sırasında) | 18 Eki 20:32 | 5 sa 54 dk |
 
-**2932** · `e011e89420` · satır 106 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2593** · `e011e89420` · satır 106 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 8 | 18 Eki 20:51 (Onay 2 sırasında; Gizem'in fotoğrafı bitti) | 18 Eki ~21:25 ("zamanı başlat"; kanıt ekranı sorusu) | ~34 dk |
 
-**2933** · `931e73ecbb` · satır 107 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2594** · `931e73ecbb` · satır 107 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 9 | 18 Eki 21:41 (Onay 2 sırasında; kanıt ekranı bitti, sahibi inceliyor) | 18 Eki 21:46 ("tekrar başlat") | 5 dk |
 
-**2934** · `25c3855988` · satır 108 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2595** · `25c3855988` · satır 108 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 10 | 18 Eki 21:48 (Onay 2 sırasında; V1/V2 kısa ad kararı yarına) | 22 Eki 12:59 ("zamanı başlat"; hikâye donmuş sayıldı, adım 8) | ~3 gün 15 sa 11 dk (aradaki işler — kanıt sızıntısı, sahne sızıntıları, tarama aracı — saat dururken yapıldı, sayılmadı) |
 
-**2935** · `9f0d1e1b79` · satır 109 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2596** · `9f0d1e1b79` · satır 109 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 11 | 22 Eki 13:09 (adım 8: iş sayfası yayımlandı; sahibi bilgisayarda "başlat" diyecek) | 22 Eki 15:34 ("zamanı başlat"; adım 9 görsel üretimi) | 2 sa 25 dk |
 
-**2936** · `dfb41da61d` · satır 110 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2597** · `dfb41da61d` · satır 110 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 12 | 22 Eki 15:51 (adım 9: G1, G12–G18 onaylı; sıradaki G2) | 22 Eki 17:35 ("zamanı başlat") | 1 sa 44 dk |
 
-**2937** · `f6b2c10f5f` · satır 111 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2598** · `f6b2c10f5f` · satır 111 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 13 | 22 Eki 18:37 (adım 9: Aşama 1 tamam, Aşama 2'de G19–G24 onaylı; sıradaki G25) | 22 Eki 20:20 ("zamanı başlat") | 1 sa 43 dk |
 
-**2938** · `99b975ffd4` · satır 112 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2599** · `99b975ffd4` · satır 112 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 14 | 22 Eki 21:09 (adım 9: 45 görsel onaylı; kalan Aşama 2: G45–G48, sonra Aşama 3) | ölçülmedi | ölçülmedi — saat bundan sonra işletilmedi (sahibinin kararı, 9 Kas: "ölçülmedi yazılsın") |
 
-**2939** · `8471844179` · satır 114 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2600** · `8471844179` · satır 114 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | adım (7. parça) | başladı | bitti | not |
 
-**2940** · `3ac136bebe` · satır 116 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2601** · `3ac136bebe` · satır 116 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 1 Form | 17 Eki 14:19 (TSİ) | 17 Eki 14:30 | başlangıç = "Vaka 3'e başlayalım"; müşteri aile dışı (V1 baba–oğul tekrarı olmasın) |
 
-**2941** · `f381604dee` · satır 117 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2602** · `f381604dee` · satır 117 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 2 Onay 1 | 17 Eki 14:30 | 17 Eki 15:03 | onay; düzeltmeler: çek → elden borç, afiş = Nadide'nin imzalı hayran afişi, Peri kitaba göre dedektif kılığında, "Tabii, tabii" |
 
-**2942** · `c39def7c07` · satır 118 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2603** · `c39def7c07` · satır 118 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 3–4 Diyalog + veri + künye | 17 Eki 15:03 | 17 Eki 15:11 | doğrulayıcı PASS; testler geçti (V3: 9/14 küme çözer); künye aracı temiz; kapak testi görselsiz aşamada yer tutucuyu kabul eder |
 
-**2943** · `bf21a96163` · satır 119 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2604** · `bf21a96163` · satır 119 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 5 Görselsiz tur + bulanık replik taraması | 17 Eki 15:11 | 17 Eki 15:37 | `arac_yeni_tur.js` V3'e açıldı (yollar kod/foto/borc/badem/cozmez); 9 tur (5 yol × 4 sonuç × 4 karar) temiz; `--hepsi` 140 satır; motor eki: satırda `cset` (Cengo unlu); 11 bulanık replik düzeltmesi (saat ifadeleri ×3, 'patron' → Ferruh ×2, Gizem'in istifa cümlesi, Cengo'nun kime'si…) |
 
-**2944** · `c8df11c9d8` · satır 120 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2605** · `c8df11c9d8` · satır 120 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 6–7 Onay 2, hikâye donar | 17 Eki 15:37 | 22 Eki 12:59 (sahibi: "hikâyeyi donmuş sayalım") | Vaka 2: 1 sa 56 dk. 16:11–16:18: sahibinin isteğiyle anlaşılırlık geçişi — 109 replik açıldı (kısa/şifreli cümleler: "Senin defterin ayrı", "Önce dükkân" gibi). 18 Eki notları: afiş esprisi, K53 (saklanma), K38 teyze cevabı, saat kuralı 5b, Cengo'nun dinleme yüzü, Gizem'in fotoğrafı bilerek — ayrıntı `DEVIR.md` |
 
-**2945** · `e515487396` · satır 121 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2606** · `e515487396` · satır 121 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 8 Görsel listesi + promptlar | 22 Eki 12:59 | 22 Eki 13:09 | sahibinin yeni düzeni: önce ana referanslar (onay), sonra referansa göre gruplu toplu üretim, 3 pencere paralel |
 
-**2946** · `4d1d5f6465` · satır 122 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2607** · `4d1d5f6465` · satır 122 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 9–10 Görseller, toplu işleme, yerleştirme | 22 Eki 15:34 | ölçülmedi | sahibi bilgisayarda; Aşama 1 (G1–G11) önce. 22 Eki 21:09'a kadar 2 sa 08 dk aktif; sonrası ölçülmedi (Codex + yerel Claude düzenine geçildi, `uretim/`) |
 
-**2947** · `dc44943a9a` · satır 123 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2608** · `dc44943a9a` · satır 123 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 11 Görselli tur | ölçülmedi | ölçülmedi | |
 
-**2948** · `080a1e4c0b` · satır 124 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2609** · `080a1e4c0b` · satır 124 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 12–13 Onay 3, düzeltmeler | ölçülmedi | 9 Kas | Onay 3 sahne sahne telefonda; satır–resim sözleşmesi (SR-A…L) bu turda yazıldı; son düzeltme: pembe önlük temizlendi (12 resim + kart G103, yalnız önlük) |
 
-**2949** · `bcf87812b9` · satır 125 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
+**2610** · `bcf87812b9` · satır 125 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü
 
 > | 14 Vaka donar | 9 Kas | 9 Kas | süre ölçülmedi. Sızıntı taraması (40 yol, 1406 ekran) temiz; son turlar (bütün yollar, tablet, 19 boy). "Vaka N'den başla" düğmesi **açık kalır** (sahibinin kararı) |
 
-**2950** · `8012014c0f` · satır 129 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
+**2611** · `8012014c0f` · satır 129 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
 
 > | bölüm | süre |
 
-**2951** · `3cdf8d6543` · satır 131 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
+**2612** · `3cdf8d6543` · satır 131 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
 
 > | 1–8 (form → görsel listesi; 17–22 Eki) | 5 sa 01 dk |
 
-**2952** · `10059d552e` · satır 132 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
+**2613** · `10059d552e` · satır 132 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
 
 > | 9–10 görseller, 22 Eki 21:09'a kadar | 2 sa 08 dk |
 
-**2953** · `7da4e2b8a7` · satır 133 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
+**2614** · `7da4e2b8a7` · satır 133 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
 
 > | 22 Eki 21:09 → 9 Kas (görsellerin çoğu, görselli tur, Onay 3, düzeltmeler, dondurma) | **ölçülmedi** |
 
-**2954** · `c1223d8c32` · satır 134 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
+**2615** · `c1223d8c32` · satır 134 · tablo · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
 
 > | **Ölçülen** | **≈ 7 sa 09 dk** (vakanın tamamı değil) |
 
-**2955** · `cd8610b376` · satır 136 · paragraf · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
+**2616** · `cd8610b376` · satır 136 · paragraf · VAKA 3 — BAŞLANGIÇ (yeni pencere için) › 2. Süre ölçümü › Toplam
 
 > Takvimde: 17 Ekim → 9 Kasım, ~3,5 hafta. Vaka 4'te saat baştan sona işletilmeli (`RAF_KARARLARI.md` §11c).
 
 
 ## sablon/vakalar/vaka4_baslangic.md
 
-**2956** · `34e965a1c7` · satır 3 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
+**2617** · `34e965a1c7` · satır 3 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
 
 > Vaka 4, Vaka 3'ün bütün kurallarıyla **sıfırdan** üretilen ilk vakadır. İki amacı var (sahibinin kararı, 10 Kasım 2026):
 
-**2957** · `72da04310b` · satır 4 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
+**2618** · `72da04310b` · satır 4 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
 
 > 1. Vaka 3'ten çıkan kurallar yeni bir vakada çalışıyor mu, yeni kural çıkıyor mu, görmek.
 
-**2958** · `123d2fb0bd` · satır 5 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
+**2619** · `123d2fb0bd` · satır 5 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
 
 > 2. **Süreyi baştan sona ölçmek** (Vaka 3'te ölçülmedi). Vaka 1–2'nin yeniden yapımı ve sezon takvimi bu rakamla planlanır.
 
-**2959** · `41c43d4139` · satır 7 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
+**2620** · `41c43d4139` · satır 7 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için)
 
 > Vaka 4 yalnız sahibinin Claude hesabıyla yürür (ikinci kişi/hesap yok). Bittikten sonra sonuçlara göre yeniden planlanır.
 
-**2960** · `9e2fcbfb48` · satır 11 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2621** · `9e2fcbfb48` · satır 11 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 1. `CLAUDE.md`
 
-**2961** · `0c02f6dbc7` · satır 12 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2622** · `0c02f6dbc7` · satır 12 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 2. **bu dosya**
 
-**2962** · `70a5cad1dc` · satır 13 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2623** · `70a5cad1dc` · satır 13 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 3. `kaynak/DEVIR.md` en üst bölüm
 
-**2963** · `2356d55df4` · satır 14 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2624** · `2356d55df4` · satır 14 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 4. `sablon/` — 7 parça, sırayla (özellikle `7_uretim_sureci.md`: adımlar, hızlandırma kuralları, bulanık replik taraması,
 >    sızıntı taraması; `5_gorsel_sistemi.md` C0 SR-A…L, H, I)
 
-**2964** · `e4857a8f65` · satır 16 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2625** · `e4857a8f65` · satır 16 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 5. Örnek: `sablon/vakalar/vaka3_form.md`, `vaka3_diyalog.md`, `vaka3_gorsel.md`, `vaka3_baslangic.md` §1 (Vaka 3'te yeni olanlar)
 
-**2965** · `378d4c99ef` · satır 17 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
+**2626** · `378d4c99ef` · satır 17 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 0. Okuma sırası
 
 > 6. Resim aşamasında: `uretim/CLAUDE.md`, `uretim/ISTEM_KALIPLARI.md`
 
-**2966** · `48cfdb87fc` · satır 21 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 1. Konu (taslak — Onay 1'de sahibiyle kesinleşir)
+**2627** · `48cfdb87fc` · satır 21 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 1. Konu (taslak — Onay 1'de sahibiyle kesinleşir)
 
 > Kaynak: `kaynak/YENI_OYUN_SEZON.md` → **"VAKA 4 — FALCI"** (Cihangir'de kahve falcısı, şantaj suçlaması, kafenin garsonu;
 > komedi motoru, dördüncü duvar, kararın düğümü, kıyafetler orada). Taslakta "Mavi Ay tipi" yazıyor = Vaka 1–2 gibi **Bilmece**
 > (`1_oyun_yapisi.md`; Ters tip ertelendi). Taslaktaki her ayrıntı forma girmeden önce sahibine sorulur; taslakta olmayan
 > bir şey eklemek kanona eklemektir (önce söyle, onay al).
 
-**2967** · `e7cb8bd0eb` · satır 28 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
+**2628** · `e7cb8bd0eb` · satır 28 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
 
 > - Adım 3'te diyalog satır–resim sözleşmesiyle yazılır: `kime`/`gir`, ifade satırın duygusundan, sahne başına `⚙ akış:` notu,
 >   sahne notu yalnız o an görüleni söyler (SR-A…L, kural 4a).
 
-**2968** · `4a4aae95ae` · satır 30 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
+**2629** · `4a4aae95ae` · satır 30 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
 
 > - Anlaşılır replik (kural 5), yüzleşmede somut panik sebebi, saatte "kala" yok (5b), Kim yaptı? kısa kanıt adları (`## kanit`),
 >   anı özeti (`## ani`, kural 21d), masum/karar metni yalnız her yolda oynayan sahneleri anar.
 
-**2969** · `a08ce3298c` · satır 32 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
+**2630** · `a08ce3298c` · satır 32 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
 
 > - Adım 8: kıyafet hâli tablosu, ifade/nesne ayrımı, `arac_satir_resim.js` bayrakları kapalı, **kıyafet kartları** önce
 >   sahibine (taslakta Peri kaşe palto, Cengo deri ceket → yeni kartlar; yüz için Vaka 3'teki baş kırpıkları kullanılır).
 >   Yalnız satırların istediği ifade üretilir. Zemin saçtan da uzak (Vaka 4'ten itibaren, `5_gorsel_sistemi.md` H4).
 
-**2970** · `6cefe97736` · satır 35 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
+**2631** · `6cefe97736` · satır 35 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
 
 > - Resimler Codex + yerel Claude düzeniyle (`uretim/CLAUDE.md`): `istemleri hazırla 4` → `vaka 4 resimlerini üret`.
 
-**2971** · `5213856d33` · satır 36 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
+**2632** · `5213856d33` · satır 36 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
 
 > - Bitişte: sızıntı taraması, bütün yollar `--hepsi`, tablet, 19 boy, kart afişi, masa kartı, künye portreleri.
 
-**2972** · `f6423c7cfa` · satır 40 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 3. Bu vakada yeni olan
+**2633** · `f6423c7cfa` · satır 40 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 3. Bu vakada yeni olan
 
 > - **Ölçüm genişledi** (§4): sahibinin süresi ile makine süresi ayrı; resim aşamasında sayımlar.
 
-**2973** · `3aa52d436b` · satır 41 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 3. Bu vakada yeni olan
+**2634** · `3aa52d436b` · satır 41 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 3. Bu vakada yeni olan
 
 > - **Codex 2 kolla denenir** (resim aşaması). Amaç: hesabın aynı anda kaç resim isteğini kabul ettiğini, hız sınırı olup
 >   olmadığını görmek; Vaka 1–2 paralel üretiminin kol sayısı buna göre seçilir. **Ön koşul:** `uretim/dongu.sh`'ye kol desteği
@@ -14384,480 +12691,480 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   YAZILMADI — resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır. Sahibi ayrıca kendi bilgisayarında
 >   `git pull` yapar, Codex'in güncel ve girişli olduğuna bakar, açık kalmış eski döngü olmadığından emin olur.
 
-**2974** · `8418ea683a` · satır 46 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 3. Bu vakada yeni olan
+**2635** · `8418ea683a` · satır 46 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 3. Bu vakada yeni olan
 
 > - **Çeviri (cevaplandı, 10 Kasım 2026):** `RAF_KARARLARI.md` §11c Vaka 4'ü çeviri dahil ölçmeyi söylüyordu; sahibinin
 >   kararı: Vaka 4'ün İngilizcesi **sonra**, İngilizce aşamasında yapılır. Bu ölçüm Türkçe metin + resimle sınırlı.
 
-**2975** · `1bf4ee80a9` · satır 51 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2636** · `1bf4ee80a9` · satır 51 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > **Başladı: 10 Kasım 2026, 12:49 (İstanbul).** Başlangıç = sahibinin "Vaka 4'e başla" dediği an. Saat yalnız sahibinin sözüyle işler ya da durur ("zamanı durdur" /
 > "tekrar başlat"); aralar ara tablosuna yazılır, aktif süre = toplam − aralar (Vaka 3 §2 ile aynı). **Bu kez saat sonuna kadar
 > işletilir.** Her adımın satırına iki süre yazılır:
 
-**2976** · `a1e87a1b47` · satır 54 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2637** · `a1e87a1b47` · satır 54 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > - **sahibi:** sahibinin bilfiil çalıştığı süre (onaylar, oynama, web'de resim üretimi, okuma),
 
-**2977** · `853833a9d5` · satır 55 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2638** · `853833a9d5` · satır 55 · madde · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > - **makine:** sahibi beklemeden Claude/Codex'in çalıştığı süre (yazım, turlar, Codex üretimi, denetim).
 
-**2978** · `2fc620b3ea` · satır 56 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2639** · `2fc620b3ea` · satır 56 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > Kesin ayrılamayan yerde tahmin yazılır ve "~" konur.
 
-**2979** · `8d1048ca0d` · satır 58 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2640** · `8d1048ca0d` · satır 58 · paragraf · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > Resim aşamasında ayrıca: resim sayısı (liste), Codex çağrısı, ret, filtre engeli, web'de üretilen; resim başına ortalama
 > Codex süresi (1 kol ve 2 kol ayrı, bekleme dahil). Kaynak: `uretim/v4/uretim_kaydi.md` + döngü logu.
 
-**2980** · `e65a7abd18` · satır 61 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2641** · `e65a7abd18` · satır 61 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | ara | durdu | başladı | süre |
 
-**2981** · `689b64ddb7` · satır 63 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2642** · `689b64ddb7` · satır 63 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 1 | 10 Kas 14:46 | 10 Kas 16:42 | 1 sa 56 dk |
 
-**2982** · `23d2e7cfe0` · satır 64 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2643** · `23d2e7cfe0` · satır 64 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 2 | 10 Kas 18:04 | | |
 
-**2983** · `4ecb955f71` · satır 66 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2644** · `4ecb955f71` · satır 66 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 
-**2984** · `e4bcfa1e27` · satır 68 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2645** · `e4bcfa1e27` · satır 68 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 1 Form | 10 Kas 12:49 | 10 Kas 13:14 | | | konu soruları sahibine (soru-cevap ~sahibi); form `vaka4_form.md` |
 
-**2985** · `1828d4530e` · satır 69 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2646** · `1828d4530e` · satır 69 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 2 Onay 1 | 10 Kas 13:14 | 10 Kas 14:12 | ~57 dk (soru-cevap, 10 konu) | ~10 dk (form düzeltmeleri) | dört itiraz (sözlük, Rana, telve, kedi) + altı soru |
 
-**2986** · `24d1f334cf` · satır 70 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2647** · `24d1f334cf` · satır 70 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 3–4 Diyalog + veri + künye | 10 Kas 14:12 | 10 Kas 14:23 | 0 | ~11 dk | diyalog 212 satır; veri iskeleti betikle (scratchpad), sahneler `arac_diyalog.js` ile |
 
-**2987** · `2cea0bfc65` · satır 71 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2648** · `2cea0bfc65` · satır 71 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 5 Görselsiz tur + taramalar | 10 Kas 14:23 | 10 Kas 14:40 | 0 | ~17 dk | 6 tur (4 yol, 4 yüzleşme, iki kapanış hâli) hatasız; bulanık tarama 8 düzeltme; sızıntı 40 yol/1319 ekran: 1 aday düzeltildi, sonra temiz |
 
-**2988** · `e60b9134cd` · satır 72 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2649** · `e60b9134cd` · satır 72 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 6–7 Onay 2, hikâye donar | 10 Kas 14:40 | 11 Kas (onay) | 1 sa 28 dk + 45 dk | ~15 dk (notları işleme) | giriş 13 not (10 Kas, saat işlerken 1 sa 28 dk); kalanını sahibi saat dururken inceledi (**45 dk**, sahibinin beyanı; ara 2'nin içinde ama aktif süreye eklenir); 11 Kas sabah "onay" — **hikâye dondu** |
 
-**2989** · `b14aeb307e` · satır 73 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2650** · `b14aeb307e` · satır 73 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 8 Görsel listesi + istemler + kıyafet kartları | | | | | |
 
-**2990** · `9a20b83e4e` · satır 74 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2651** · `9a20b83e4e` · satır 74 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 9–10 Resimler (Codex), denetim, gömme | | | | | |
 
-**2991** · `52ae851385` · satır 75 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2652** · `52ae851385` · satır 75 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 11 Görselli tur | | | | | |
 
-**2992** · `47ce0fcdf5` · satır 76 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2653** · `47ce0fcdf5` · satır 76 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 12–13 Onay 3, düzeltmeler | | | | | |
 
-**2993** · `032b5d0363` · satır 77 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2654** · `032b5d0363` · satır 77 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | 14 Vaka donar (sızıntı taraması, son turlar) | | | | | |
 
-**2994** · `67db26cd27` · satır 79 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2655** · `67db26cd27` · satır 79 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | resim sayımı | değer |
 
-**2995** · `17fd42edc0` · satır 81 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2656** · `17fd42edc0` · satır 81 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | listedeki resim | |
 
-**2996** · `74c4b56672` · satır 82 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2657** · `74c4b56672` · satır 82 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | Codex çağrısı | |
 
-**2997** · `ce8836c094` · satır 83 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2658** · `ce8836c094` · satır 83 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | ret | |
 
-**2998** · `3d0aefd9c4` · satır 84 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2659** · `3d0aefd9c4` · satır 84 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | filtre engeli / web'de üretilen | |
 
-**2999** · `b6b4f0d6e2` · satır 85 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2660** · `b6b4f0d6e2` · satır 85 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | resim başına Codex süresi, 1 kol | |
 
-**3000** · `7c3270613e` · satır 86 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2661** · `7c3270613e` · satır 86 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | resim başına Codex süresi, 2 kol | |
 
-**3001** · `b306415f99` · satır 87 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
+**2662** · `b306415f99` · satır 87 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü
 
 > | hız sınırı görüldü mü | |
 
-**3002** · `763048e1fb` · satır 91 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
+**2663** · `763048e1fb` · satır 91 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
 
 > | bölüm | sahibi | makine | takvim |
 
-**3003** · `ae0f6c1a41` · satır 93 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
+**2664** · `ae0f6c1a41` · satır 93 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
 
 > | metin (1–7) | | | |
 
-**3004** · `fc182fbc3d` · satır 94 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
+**2665** · `fc182fbc3d` · satır 94 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
 
 > | resim (8–11) | | | |
 
-**3005** · `e3d2280bda` · satır 95 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
+**2666** · `e3d2280bda` · satır 95 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
 
 > | Onay 3 → donma (12–14) | | | |
 
-**3006** · `f4de88b1b9` · satır 96 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
+**2667** · `f4de88b1b9` · satır 96 · tablo · VAKA 4 — BAŞLANGIÇ (yeni pencere için) › 4. Süre ölçümü › Toplam
 
 > | **toplam** | | | |
 
 
 ## sablon/vakalar/vaka5_baslangic.md
 
-**3007** · `662a1dd14a` · satır 3 · paragraf · VAKA 5 — BAŞLANGIÇ
+**2668** · `662a1dd14a` · satır 3 · paragraf · VAKA 5 — BAŞLANGIÇ
 
 > Vaka 5 ortağın yazdığı ilk vakadır (Barbaros'un kararı, 11 Kasım 2026: önce Vaka 5'in metni, adım 1–7; Bilmece tipi).
 > Vaka 4'ün resim aşaması bu arada bekler; Vaka 4'ün saati duruk.
 
-**3008** · `fa799b21bd` · satır 8 · paragraf · VAKA 5 — BAŞLANGIÇ › 0. Okuma sırası
+**2669** · `fa799b21bd` · satır 8 · paragraf · VAKA 5 — BAŞLANGIÇ › 0. Okuma sırası
 
 > `vaka4_baslangic.md` §0 ile aynı. Örnek form: `vaka4_form.md`.
 
-**3009** · `dbd37367ea` · satır 12 · paragraf · VAKA 5 — BAŞLANGIÇ › 1. Konu
+**2670** · `dbd37367ea` · satır 12 · paragraf · VAKA 5 — BAŞLANGIÇ › 1. Konu
 
 > Kaynak: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslaktaki Columbo (Ters) tipi kullanılmaz; konu Bilmece'ye
 > çevrildi (ortağın kararı, 11 Kasım 2026): müşteri antikacı, suçlu ortağı, oyuncu suçluyu bilmez. Ayrıntı `vaka5_form.md`.
 
-**3010** · `102ec847a6` · satır 17 · paragraf · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2671** · `102ec847a6` · satır 17 · paragraf · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > Vaka 4 §4'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır.
 
-**3011** · `a0ddcfc8ca` · satır 19 · paragraf · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2672** · `a0ddcfc8ca` · satır 19 · paragraf · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Başladı: 11 Kasım 2026, 14:01 (İstanbul)** — ortağın "forma başla" dediği an.
 
-**3012** · `ee4b04ce0c` · satır 21 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2673** · `ee4b04ce0c` · satır 21 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | ara | durdu | başladı | süre |
 
-**3013** · `7e2286c71e` · satır 23 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2674** · `7e2286c71e` · satır 23 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 1 | 11 Kas 15:12 | 11 Kas 15:41 | 29 dk |
 
-**3014** · `9c4601d9a1` · satır 24 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2675** · `9c4601d9a1` · satır 24 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 2 | 11 Kas 17:01 | 11 Kas 18:31 | 90 dk |
 
-**3015** · `00eac4cb4d` · satır 25 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2676** · `00eac4cb4d` · satır 25 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 3 | 11 Kas 18:49 | 11 Kas 19:52 | 63 dk |
 
-**3016** · `9ac477f809` · satır 26 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2677** · `9ac477f809` · satır 26 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 4 | 11 Kas 21:33 | 12 Kas 00:31 | 178 dk |
 
-**3017** · `55574dc805` · satır 27 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2678** · `55574dc805` · satır 27 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 5 | 12 Kas 00:34 | 12 Kas 10:02 | 568 dk |
 
-**3018** · `eb9f0b692b` · satır 29 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2679** · `eb9f0b692b` · satır 29 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | adım (7. parça) | başladı | bitti | ortak | makine | not |
 
-**3019** · `b20e34dc1e` · satır 31 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2680** · `b20e34dc1e` · satır 31 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 1 Form | 11 Kas 14:01 | 11 Kas 14:09 | 0 | ~8 dk | form `vaka5_form.md`; 3 fiyat ⏳ |
 
-**3020** · `ac41ae5ee9` · satır 32 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2681** · `ac41ae5ee9` · satır 32 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 2 Onay 1 | 11 Kas 14:15 | 11 Kas 14:18 | ~3 dk (4 soru, hepsi uygun) | ~4 dk (fiyat kontrolü, işleme) | kanon 2 madde eklendi |
 
-**3021** · `b57863d708` · satır 33 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2682** · `b57863d708` · satır 33 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 3–4 Diyalog + veri + künye | 11 Kas 14:19 | 11 Kas 14:27 | 0 | ~8 dk | diyalog 223 satır; iskelet betikle (scratchpad); K8 uyarısı (polis kararı) |
 
-**3022** · `e4ebf7589c` · satır 34 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2683** · `e4ebf7589c` · satır 34 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 5 Görselsiz tur + taramalar | 11 Kas 14:39 | 11 Kas 14:55 | 0 | ~16 dk | araca V5 eklendi (Barbaros'un genel izni); 6 tur (4 yol, 4 sonuç, iki kapanış hâli) hatasız; bulanık tarama 7 düzeltme; sızıntı 40 yol/1212 ekran temiz |
 
-**3023** · `0c9324d2b1` · satır 35 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2684** · `0c9324d2b1` · satır 35 · tablo · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 6–7 Onay 2, hikâye donar | 11 Kas 14:55 | 12 Kas 10:27 | ~4 sa 4 dk (ortak + makine birlikte; aralar düşüldü, ayrı ölçülmedi) | | ortak oynadı, düzeltmeler satır satır; Selim tamirciye döndü, susam → yosun, kararlar yeniden yazıldı. Son kontrol: doğrulayıcı PASS, 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek) hatasız, sızıntı 40 yol/1212 ekran temiz + elle okundu. **Hikâye dondu.** |
 
-**3024** · `c1e5dcb7e1` · satır 37 · paragraf · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
+**2685** · `c1e5dcb7e1` · satır 37 · paragraf · VAKA 5 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Metin aşaması (adım 1–7) toplam: ~4 sa 58 dk** (11 Kas 14:01 → 12 Kas 10:27, 5 ara = 928 dk düşüldü).
 
 
 ## sablon/vakalar/vaka6_baslangic.md
 
-**3025** · `4c073dd3af` · satır 3 · paragraf · VAKA 6 — BAŞLANGIÇ
+**2686** · `4c073dd3af` · satır 3 · paragraf · VAKA 6 — BAŞLANGIÇ
 
 > Vaka 6'yı ortak yazar (Barbaros, 12 Kasım 2026: bütün kararlar ortağın). Yeni plana göre **resimsiz**: adım 1–7,
 > hikâye donunca biter. Bilmece tipi.
 
-**3026** · `d177a35235` · satır 8 · paragraf · VAKA 6 — BAŞLANGIÇ › 0. Okuma sırası
+**2687** · `d177a35235` · satır 8 · paragraf · VAKA 6 — BAŞLANGIÇ › 0. Okuma sırası
 
 > `vaka6_oneri.md` → `../3_kanon_kaydi.md` (kural G) → `../6_vaka_formu.md` (yeni: §2 kişi tablosu, §12 "kim neyi
 > biliyor") → form `vaka6_form.md`. Örnek form: `vaka5_form.md`.
 
-**3027** · `76f09952df` · satır 13 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2688** · `76f09952df` · satır 13 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Konu: "İsimsiz Mektuplar" (Üsküdar)**, `vaka6_oneri.md`'deki öneri olduğu gibi seçildi.
 
-**3028** · `2d9f18b8c5` · satır 14 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2689** · `2d9f18b8c5` · satır 14 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **İsimler:** ortak Claude'a bıraktı. Sabit karakterlerin ve önceki vakaların isimleri değişmez.
 
-**3029** · `5936e57f1d` · satır 15 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2690** · `5936e57f1d` · satır 15 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Eylül:** Cengo'nun kızı, 16 yaşında (müşteri; Onay 1'de 17'den düzeltildi).
 
-**3030** · `831442016d` · satır 16 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2691** · `831442016d` · satır 16 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Gamze:** Eylül'ün annesi, evlenecek kişi.
 
-**3031** · `0f4d3105e4` · satır 17 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2692** · `0f4d3105e4` · satır 17 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Haldun Bey:** damat; isimsiz mektuplar ona geliyor.
 
-**3032** · `d33cefbacd` · satır 18 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2693** · `d33cefbacd` · satır 18 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Müzeyyen Hanım:** Gamze'nin annesi, yani Eylül'ün anneannesi (suçlu).
 
-**3033** · `4246d701b2` · satır 19 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2694** · `4246d701b2` · satır 19 · alt madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Jale Hanım:** Haldun Bey'in eski eşi (yanlış iz).
 
-**3034** · `67ddad99fe` · satır 20 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2695** · `67ddad99fe` · satır 20 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Yer:** Eylül annesiyle şehrin öbür yakasında, Üsküdar'da yaşıyor.
 
-**3035** · `337e25012e` · satır 21 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2696** · `337e25012e` · satır 21 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Kanon:** anne, damat, anneanne (ve Jale Hanım) yetişkin olarak kanona girer.
 
-**3036** · `31b0e7a581` · satır 22 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
+**2697** · `31b0e7a581` · satır 22 · madde · VAKA 6 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 > - **Büro hayvanı / garip öğe:** bu vakada yok, sonraki bir vakaya kalıyor.
 
-**3037** · `9744246ac7` · satır 26 · paragraf · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2698** · `9744246ac7` · satır 26 · paragraf · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır.
 
-**3038** · `7390bac1d3` · satır 28 · paragraf · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2699** · `7390bac1d3` · satır 28 · paragraf · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Başladı: 12 Kasım 2026, 20:57 (İstanbul)** *(13 Kas düzeltmesi: ilk kayıtlar UTC ile yazılmıştı, hepsi +3 saat düzeltildi; süreler değişmedi)*, ortağın konuyu seçip soruları cevapladığı an.
 
-**3039** · `14fffbc679` · satır 30 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2700** · `14fffbc679` · satır 30 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | ara | durdu | başladı | süre |
 
-**3040** · `f9b0f92625` · satır 32 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2701** · `f9b0f92625` · satır 32 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 1 | 12 Kas 22:15 | 13 Kas 08:30 | 615 dk |
 
-**3041** · `a142b7f0c4` · satır 34 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2702** · `a142b7f0c4` · satır 34 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | adım (7. parça) | başladı | bitti | ortak | makine | not |
 
-**3042** · `aeddbd9ec4` · satır 36 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2703** · `aeddbd9ec4` · satır 36 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 0 Konu seçimi | 12 Kas 20:57 | 12 Kas 20:57 | ~2 dk | ~3 dk | öneri seçildi; 4 soru cevaplandı; isimler Claude'a |
 
-**3043** · `929dc73367` · satır 37 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2704** · `929dc73367` · satır 37 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 1 Form | 12 Kas 21:00 | 12 Kas 21:11 | 0 | ~11 dk | form `vaka6_form.md`; 5 kanon önerisi 🟡; Cengo şüpheli (motor izin veriyor) |
 
-**3044** · `4f7706c06a` · satır 38 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2705** · `4f7706c06a` · satır 38 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 2 Onay 1 | 12 Kas 21:12 | 12 Kas 21:27 | ~2 dk (5 soru; 1'i düzeltmeyle) | ~8 dk (işleme) | Eylül 16 (Cengo baba olduğunda reşit), Cengo–Gamze evliydi; ek: Eylül Peri'yi kıskanır, Gizem'in rolü büyür; kanon 6 madde |
 
-**3045** · `59f1f482bc` · satır 39 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2706** · `59f1f482bc` · satır 39 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 3–4 Diyalog + veri + künye | 12 Kas 21:28 | 12 Kas 21:41 | 0 | ~13 dk | diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 |
 
-**3046** · `159cc337ee` · satır 40 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2707** · `159cc337ee` · satır 40 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 5 Görselsiz tur + taramalar | 12 Kas 21:43 | 12 Kas 22:02 | 0 | ~19 dk | araca V6 eklendi (genel izin); 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek iki kapanış) hatasız, kasa hesapları tutuyor; sızıntı 40 yol/1294 ekran temiz; elle okumada 2 sızıntı düzeldi (Jale'nin MASUM satırı; bank itirafa girdi, Eylül'ün mesajından çıktı); bulanık tarama 2 netleştirme |
 
-**3047** · `87de01b77f` · satır 41 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2708** · `87de01b77f` · satır 41 · tablo · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 6–7 Onay 2, hikâye donar | 13 Kas 08:30 | 13 Kas 10:26 | ~1 sa 56 dk (ortak okudu, 8 satır düzeltti; ortak + makine birlikte) | | Jale atölyeyi altı ay önce aldı, kutular kilitsiz, Müzeyyen'in iki repliği; son kontrol: doğrulayıcı PASS, 4 tur (4 yol, 4 sonuç, bağ düşük/yüksek) hatasız, sızıntı 40 yol/1294 ekran temiz. **Hikâye dondu.** |
 
-**3048** · `d09134c33c` · satır 43 · paragraf · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
+**2709** · `d09134c33c` · satır 43 · paragraf · VAKA 6 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Metin aşaması (adım 0–7) toplam: ~3 sa 14 dk** (12 Kas 20:57 → 13 Kas 10:26, 1 ara = 615 dk düşüldü). Saat durdu.
 
-**3049** · `8ea4cbae96` · satır 47 · paragraf · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2710** · `8ea4cbae96` · satır 47 · paragraf · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > Plan "Vaka 6–8 resimsiz" diyordu; Barbaros 13 Kasım'da Vaka 6'nın resimlerine geçilmesine karar verdi: hem vaka için hem de
 > gece Codex üretim kanalını (2 kol, kota ölçümü) denemek için. Düzen: gündüz temeller üretilir, Barbaros onaylar; gece kalan
 > resimler Codex'le, sabah üretilemeyenler vaka vaka Barbaros'a (web). Ayrıntı: `uretim/v6/DURUM.md`, `uretim/v6/LISTE.md`.
 
-**3050** · `e3e5cd9628` · satır 51 · paragraf · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2711** · `e3e5cd9628` · satır 51 · paragraf · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > Saat resim aşamasında Barbaros'un sözüyle işler. Adım 8'in hazırlığı (kuralların okunması, istemler, satır aracı, kontrol
 > listesi) 13 Kas ~12:00–15:00 arasında saat dışında yapıldı (~3 sa makine; kuralların yarım uygulanması yüzünden 7 resim boşa).
 
-**3051** · `4c76011d89` · satır 54 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2712** · `4c76011d89` · satır 54 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | adım (7. parça) | başladı | bitti | sahibi | makine | not |
 
-**3052** · `8fbc908280` · satır 56 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2713** · `8fbc908280` · satır 56 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 8 Görsel — Parti 1 (temeller, 20 resim) | 13 Kas 14:21 | 13 Kas 14:49 | onay 14:52 | ~28 dk (24 Codex) | "başla" 14:20; öncesinde 13 Kas öğleden sonra bayraklar kuralla kapandı (SR-M) |
 
-**3053** · `05ebd9184d` · satır 57 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2714** · `05ebd9184d` · satır 57 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 8 Görsel — Parti 2 (Peri/Cengo temeli + 3 konuk kartı) | 13 Kas 15:39 | 13 Kas 15:49 | | ~10 dk (5 Codex) | G17 filtreye takıldı → web |
 
-**3054** · `280e38c738` · satır 58 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2715** · `280e38c738` · satır 58 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 8 Görsel — Parti 3 (ifadeler, kareler, 11 ek, Eylül; 67 istem) | 13 Kas 16:20 | 14 Kas ~17:15 | | | istemler 15:55–16:18 (üretici betik `uretim/v6/uret_istem_parti3.py`); sahibi dışarıda, döngü sahibine sormadan |
 
-**3055** · `2f6fc86ccc` · satır 59 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2716** · `2f6fc86ccc` · satır 59 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 9–10 Kontrol, kesim, gömme | 14 Kas akşam | 14 Kas akşam | | | 86/86 onaylı, `arac_paket.js --yaz` (`uretim/v6/DURUM.md`) |
 
-**3056** · `f3b38418a1` · satır 60 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2717** · `f3b38418a1` · satır 60 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 11 Görselli tur + kapı | 14 Kas gece | 15 Kas sabah | | | kapı için 11 ek resim (G46, G65, G87–G95); K11 yerleşimle; `arac_kapi.js V6 resim` GEÇTİ |
 
-**3057** · `0af8665de0` · satır 61 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2718** · `0af8665de0` · satır 61 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 12 Onay 3 (görselli test) | 15 Kas sabah | 15 Kas öğle | Barbaros oynadı | | 3 not: 2 metin onarımı (satır 86, 253), 3 resim |
 
-**3058** · `7dd9142ea4` · satır 62 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2719** · `7dd9142ea4` · satır 62 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 13 Görsel düzeltmeleri | 15 Kas 10:59 | 15 Kas 11:20 | onay ~11:15 | ~7 dk (3 Codex, 2 kol) | G73, G74, G90 Düzeltme 2; gömüldü (K103, K104, K118), kapı GEÇTİ |
 
-**3059** · `2a937a83da` · satır 63 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
+**2720** · `2a937a83da` · satır 63 · tablo · VAKA 6 — BAŞLANGIÇ › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)
 
 > | 14 Vaka donar | 15 Kas 11:20 | 15 Kas 11:40 | | ~20 dk | sızıntı 40 yol/1294 ekran temiz, elle okuma temiz; tablet geçti; 19 boyda tek bayrak (bilinen 1280×650 seçim). **Vaka 6 dondu.** |
 
 
 ## sablon/vakalar/vaka7_baslangic.md
 
-**3060** · `3c5c0cb364` · satır 3 · paragraf · VAKA 7 — BAŞLANGIÇ
+**2721** · `3c5c0cb364` · satır 3 · paragraf · VAKA 7 — BAŞLANGIÇ
 
 > Vaka 7'yi Oğuz Bey yazar (Barbaros, 13 Kasım 2026). Plana göre **resimsiz**: adım 1–7, hikâye donunca biter.
 > Mavi Ay (bilmece) tipi. Sezon taslağı: `kaynak/YENI_OYUN_SEZON.md` → Vaka 7.
 
-**3061** · `7e3c05b778` · satır 8 · paragraf · VAKA 7 — BAŞLANGIÇ › 0. Okuma sırası
+**2722** · `7e3c05b778` · satır 8 · paragraf · VAKA 7 — BAŞLANGIÇ › 0. Okuma sırası
 
 > `../3_kanon_kaydi.md` (kural G) → `../6_vaka_formu.md` → form `vaka7_form.md`. Örnek form: `vaka6_form.md`.
 
-**3062** · `962c44ffa3` · satır 12 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2723** · `962c44ffa3` · satır 12 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Konu: "Açık Artırma" (Nişantaşı).** Müzayede evinin sahibesi, akşamki satışın en değerli parçası olan saray cep
 >   saatinin sahte olduğundan şüphelenir; polise gidemez (satış iptal, itibar). Katalogda 14 numara **Peri'nin tacı**
 >   (hacizden). Peri müşteriye söylemez; vaka boyunca hem saati araştırır hem taca teklif vermenin hesabını yapar.
 
-**3063** · `84969bee69` · satır 15 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2724** · `84969bee69` · satır 15 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Suçlu: saati onaran usta.** Onarırken kopya yaptı, aslını kendinde tuttu. Neden para değil: koleksiyonerin
 >   dedesi saati yıllar önce ustanın babasından yok pahasına almış; usta ailesinin eşyasını geri alıyor (Peri'nin aynası).
 
-**3064** · `dbab0d56ca` · satır 17 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2725** · `dbab0d56ca` · satır 17 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Yanlış iz 1: eksper.** Belgeyi o imzaladı; saatte tamir izini gördü, koleksiyonerden para alıp "orijinal, onarım
 >   görmemiş" yazdı. **Neden: patronuna kırgın** — otuz yıl çalıştı, ortaklık verilmedi, sahibe genç bir eksper aldı
 >   (ortağın seçimi, 14 Kas). Sahtecilikten habersiz.
 
-**3065** · `4133621de0` · satır 20 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2726** · `4133621de0` · satır 20 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Yanlış iz 2: satıcı koleksiyoner.** Borçlu, parayı bu akşam istiyor; saat dedesinden. Tamiri saklamak için eksperi
 >   ayarladı. Sahtecilikten habersiz.
 
-**3066** · `a8c3848365` · satır 22 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2727** · `a8c3848365` · satır 22 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Ortadaki dönüş:** Peri rüşveti bulur, "buldum" sanır; rüşvetin tamiri gizlemek için verildiğini anlar → "Tamiri kim
 >   yaptı?" ustaya götürür.
 
-**3067** · `bf48aaf3eb` · satır 24 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2728** · `bf48aaf3eb` · satır 24 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Karar (sezon taslağı):** ihbar et / sus / sus payı. Taç kasaya bağlı (kanon, karar a).
 
-**3068** · `f76de8da71` · satır 25 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2729** · `f76de8da71` · satır 25 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Akşam:** Peri gece elbisesi + eldiven + eski günlerden tek mücevher; Cengo kiralık smokin, papyon yamuk.
 
-**3069** · `1768ea4d1a` · satır 26 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2730** · `1768ea4d1a` · satır 26 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Kapanışta bağ yüksekse:** papyon düzeltilir.
 
-**3070** · `32e00ff73a` · satır 27 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
+**2731** · `32e00ff73a` · satır 27 · madde · VAKA 7 — BAŞLANGIÇ › 1. Konu ve ortağın kararları (14–15 Kasım 2026, sohbette)
 
 > - **Açık:** eksperin tacı haciz için düşük değerlemesi (önerildi, seçilmedi); taca rakip teklif veren (önerildi,
 >   seçilmedi); isimler (sorulacak); ihbar eden / parası yetmeyen oyuncu tacı sonra nasıl alır (Barbaros'a soru).
 
-**3071** · `975cb20364` · satır 32 · paragraf · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2732** · `975cb20364` · satır 32 · paragraf · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > V5 ile çakışma (cep saati, kopya, tamirci suçlu, koleksiyoncu, kapak kazıması, "yok pahasına alınmış eşya") yüzünden
 > değişti. Ayrıca kaçınılacak tekrarlar: borçlu yanlış iz (V1–4, V6), usta dükkânında ipucu sahnesi (V2, V5, V6).
 
-**3072** · `a7501175e7` · satır 35 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2733** · `a7501175e7` · satır 35 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Müşteri:** Nişantaşı'nda müzayede evinin sahibesi. Akşamki satışın en değerli parçası eski bir **yağlı boya tablo**;
 >   sahte olduğundan şüpheleniyor, polise gidemez (satış iptal). Katalogda 14 numara **Peri'nin tacı**; Peri müşteriye söylemez.
 
-**3073** · `7b89c255b3` · satır 37 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2734** · `7b89c255b3` · satır 37 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Satıcı (yanlış iz):** tablonun hasarını satıştan önce gizlice **onarttı** (onarılmış tablo değer kaybeder).
 
-**3074** · `e5b0329a90` · satır 38 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2735** · `e5b0329a90` · satır 38 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Restoratör (suçlu):** onarırken **kopyayla değiştirdi**, aslını tuttu. Neden **öç**: yıllar önce satıcının
 >   **babası** onu kazıkladı.
 
-**3075** · `014ff56f87` · satır 40 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2736** · `014ff56f87` · satır 40 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Tablo uzmanı (yanlış iz):** onarımı bildiği hâlde satıcıdan **rüşvet** alıp "onarım görmemiş" yazdı; patronuna
 >   kırgın (otuz yıl, ortaklık yok). Sahtelikten habersiz.
 
-**3076** · `ca597f1c54` · satır 42 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2737** · `ca597f1c54` · satır 42 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Akış:** Peri önce uzmandan şüphelenir, rüşveti bulur → rüşvet onarımı gizlemek içinmiş → "Onarımı kim yaptı?" →
 >   restoratör; yüzleşmede aslı ondan çıkar.
 
-**3077** · `bffc014daf` · satır 44 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2738** · `bffc014daf` · satır 44 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Akşam, karar (tablo satışa çıkmadan):** ihbar et (satış durur, taç o gün yok) / sus (satış sürer, kasa yetiyorsa
 >   taç) / sus payı (sahibe tabloyu sessizce çeker, Peri o parayla tacı alır). 4. karar formda bulunacak.
 
-**3078** · `1260f63210` · satır 46 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2739** · `1260f63210` · satır 46 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Kapanış:** taç alındıysa Peri ona bakar; alınamadıysa şaka. Bağ yüksekse papyon düzeltilir.
 
-**3079** · `ceaae553e0` · satır 47 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2740** · `ceaae553e0` · satır 47 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - Kıyafet sezon taslağından: Peri gece elbisesi + eldiven + tek mücevher; Cengo kiralık smokin, papyon yamuk.
 
-**3080** · `bfcbc735ee` · satır 48 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
+**2741** · `bfcbc735ee` · satır 48 · madde · VAKA 7 — BAŞLANGIÇ › 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
 > - **Metin ve senaryo yeni sekmede (ayrı oturumda) yazılır** (ortak, 15 Kas).
 
-**3081** · `a4cdeb7612` · satır 52 · paragraf · VAKA 7 — BAŞLANGIÇ › 1b. Formdan önce açık (15 Kas 02:05, ortak "yarın bakarız" dedi)
+**2742** · `a4cdeb7612` · satır 52 · paragraf · VAKA 7 — BAŞLANGIÇ › 1b. Formdan önce açık (15 Kas 02:05, ortak "yarın bakarız" dedi)
 
 > *(1. madde §1a ile kapandı: tablo + restoratör seçildi.)*
 
-**3082** · `3daccbb27a` · satır 54 · madde · VAKA 7 — BAŞLANGIÇ › 1b. Formdan önce açık (15 Kas 02:05, ortak "yarın bakarız" dedi)
+**2743** · `3daccbb27a` · satır 54 · madde · VAKA 7 — BAŞLANGIÇ › 1b. Formdan önce açık (15 Kas 02:05, ortak "yarın bakarız" dedi)
 
 > 1. **V5 tekrarı:** V5'te de çalınan saat, suçlu tamirci. Öneri (ortağa sorulu, cevap yok): sahte parça **eski bir
 >    yağlı boya tablo** (Boğaz manzarası), suçlu tabloyu temizleyen **restoratör kadın**, ressam dedesi; tablo dedesinden
 >    yok pahasına alınmış. Rüşvet = restorasyonu gizlemek; ilk iz arkadaki etiket/imza farkı.
 
-**3083** · `8478e850b8` · satır 57 · madde · VAKA 7 — BAŞLANGIÇ › 1b. Formdan önce açık (15 Kas 02:05, ortak "yarın bakarız" dedi)
+**2744** · `8478e850b8` · satır 57 · madde · VAKA 7 — BAŞLANGIÇ › 1b. Formdan önce açık (15 Kas 02:05, ortak "yarın bakarız" dedi)
 
 > 2. **Taç ve motor (Barbaros'a):** motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre). Kural 24 (gider yok)
 >    ile kural 27 (para tacı almak için) çatışıyor: taç alınınca kasa düşer mi? Kasa V7'ye 72.000–345.000 ₺ arası
@@ -14866,72 +13173,72 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >    ufak bir dalavere kapatır. Üç ayrıntı ortağa soruldu (eksik nasıl kapanır, Cengo'nun borcu V8'de anılır mı, ihbar
 >    yolunda taç nasıl alınır) — `kaynak/DEVIR.md` en üst.
 
-**3084** · `ddc83a1ddb` · satır 66 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2745** · `ddc83a1ddb` · satır 66 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > Saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır. Saat kabukta düz `date`
 > ile okunur (TZ verme).
 
-**3085** · `35bc277c53` · satır 69 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2746** · `35bc277c53` · satır 69 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Başladı: 15 Kasım 2026, 02:00 (İstanbul)**, ortağın "bu haliyle yazabiliriz, başlayalım" dediği an. Konu konuşması
 > 14 Kasım öğleden sonra başlamıştı (sohbet, aralıklı; ölçülmedi).
 
-**3086** · `90293746f5` · satır 72 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2747** · `90293746f5` · satır 72 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | ara | durdu | başladı | süre |
 
-**3087** · `d3f219e36e` · satır 74 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2748** · `d3f219e36e` · satır 74 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 1 | 15 Kas 02:05 | 15 Kas 11:30 | 9 sa 25 dk |
 
-**3088** · `0395490a7a` · satır 76 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2749** · `0395490a7a` · satır 76 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | adım (7. parça) | başladı | bitti | ortak | makine | not |
 
-**3089** · `26c14d892a` · satır 78 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2750** · `26c14d892a` · satır 78 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 0 Konu seçimi | 14 Kas 15:41 | 15 Kas 02:00 | ölçülmedi | ölçülmedi | öneri sohbette; ortak eksperi değiştirdi (rüşvet, patrona kırgın) |
 
-**3090** · `48e4d7d162` · satır 79 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2751** · `48e4d7d162` · satır 79 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 1 Form | 15 Kas 11:30 | 15 Kas 11:54 | ~3 dk (3 soru) | ~21 dk | ayrı oturumda; isimler Set A, 4. karar "Tacı Cengo'ya bırak", kovalamaca yaldız + heykel; taç sorusu DEVIR'e |
 
-**3091** · `b0fe8f55fb` · satır 80 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2752** · `b0fe8f55fb` · satır 80 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 2 Onay 1 | 15 Kas 11:54 | 15 Kas 11:55 | ~1 dk | — | düzeltmesiz "Onay"; kanon §18 madde 1–4 yazıldı, 5. madde Barbaros'ta (kural 24) |
 
-**3092** · `1c22a8bb57` · satır 81 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2753** · `1c22a8bb57` · satır 81 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 3 Diyalog | 15 Kas 12:07 | 15 Kas 12:16 | ~1 dk (renk sorusu) | ~8 dk | `vaka7_diyalog.md` (252 satır); `arac_diyalog.js` ayrıştırması geçti (scratchpad'de V7 taslağıyla; gerçek veri adım 4'te). Elbise zümrüt → gece mavisi (V5 tekrarı; ortak onayladı; form + kanon düzeltildi) |
 
-**3093** · `06c17df589` · satır 82 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2754** · `06c17df589` · satır 82 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 4 Veri + künye | 15 Kas 12:17 | 15 Kas 12:22 | 0 | ~5 dk | V7 `game_data.json`'a (yapı betikle), sahneler `arac_diyalog.js` ile; künye 5 kart (Süheyla, Şükrü, Vedat, Kaan, Nesrin), `arac_kunye_denetim.js` temiz; 43 yer tutucu metni; kapak A52. `dogrulayici.js` PASS; yeni uyarı K8: "ihbar" "sus payı"nı iki eksende geçiyor (motor tacı saymıyor — taç sorusuyla Barbaros'ta). Kapı V7: yollar tablosu ve `vaka7_kapi.md` yok (adım 5'te) |
 
-**3094** · `209f3d58fe` · satır 83 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2755** · `209f3d58fe` · satır 83 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 5 Görselsiz tur + taramalar | 15 Kas 12:30 | 15 Kas 13:03 | 0 | ~33 dk | V7 araçlara eklendi (`arac_yeni_tur.js` yollar el/izmir/tuval/cozmez7, `arac_kapi.js` YOLLAR 5 yol, `vaka7_kapi.md` eş sözler). Sızıntı 40 yol/1301 ekran: birebir yok; elle okumada 2 bulgu düzeltildi (doğru yüzleşmede onarım izi + onarım; Şükrü'nün MASUM satırında "para"). Bulanık: 2 "nereden biliyor" (Cengo'nun Necmi'ye tuval sorusu, Vedat'a rüşvet sorusu). Satır–resim 36 bulgu düzeltildi (nesne/jest anlatıdan çıktı, ekran tekleşti, yeni kare K152). **Kapı V7 hikaye GEÇTİ** |
 
-**3095** · `939eec41b9` · satır 84 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2756** · `939eec41b9` · satır 84 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 6 Onay 2 | 15 Kas 13:03 | 15 Kas 14:30 | ~87 dk (oynama; aralık ölçülmedi) | — | düzeltmesiz "Onay 2'yi veriyorum". Hikâye henüz donmadı: Barbaros'un taç kararı (taç her yolda V7'de alınır, DEVIR en üst) ihbar ve "Tacı Cengo'ya bırak" yollarıyla çelişiyor; üç soru ortakta |
 
-**3096** · `f2c4745b52` · satır 85 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2757** · `f2c4745b52` · satır 85 · tablo · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > | 7 Hikâye düzeltmesi (taç) | 15 Kas 14:37 | 15 Kas 14:45 | ~2 dk (5 soru) | ~8 dk | Barbaros'un taç kararına göre: taç her yolda Peri'ye geçer (ihbar: Süheyla katalog fiyatına satar, "eksiği benden"; sus: Cengo kasa yetmezse diye bekler; Cengo'ya bırak: Cengo büroda verir). Kapanışa taç (yeni kare K153; kodsuz, her yolda aynı). Fiyat ~200.000 ₺ (metne girmez). Doğrulayıcı PASS, testler geçti, **kapı V7 hikaye GEÇTİ**. Vaka henüz donmadı |
 
-**3097** · `b435b71488` · satır 87 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2758** · `b435b71488` · satır 87 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Durum (15 Kas 14:55):** son hâl kaydedildi; ortak onayı **Barbaros'un** vermesini istedi; **vaka henüz dondurulmuyor** (ortağın kararı) (`kaynak/DEVIR.md` en üst).
 
-**3098** · `040e8bfbf2` · satır 89 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
+**2759** · `040e8bfbf2` · satır 89 · paragraf · VAKA 7 — BAŞLANGIÇ › 2. Süre ölçümü
 
 > **Resimler (15 Kas 15:34, ortağın kararı):** Vaka 7'nin bütün resimleri baştan yapılacak; önceki vakaların hazır resimleri kaldırıldı (büro A6/A8 → A58/A59, Peri `manto` → `manto7`, Gizem kapanışta `triko`, tepsi anlatıdan çıktı). Tur dökümünde gerçek resim yok; doğrulayıcı PASS, testler ve kapı GEÇTİ.
 
 
 ## kaynak/DEVIR.md
 
-**3099** · `a6eb4d558c` · satır 3 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2760** · `a6eb4d558c` · satır 3 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > Bir sohbet penceresinden ötekine devir. **Önce `CLAUDE.md`'yi oku** (sözleşmeler,
 > > tuzaklar, komutlar orada). Bu belge onun üstüne yalnız **oturum durumunu** koyar:
@@ -14939,11 +13246,11 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > >
 > > Bu belge tarihlidir. İş ilerledikçe **güncellenir ya da silinir**.
 
-**3100** · `71904d5bf7` · satır 9 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2761** · `71904d5bf7` · satır 9 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > ---
 
-**3101** · `87fa3662e9` · satır 11 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2762** · `87fa3662e9` · satır 11 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ## 🛑 OĞUZ BEY'E — VAKA 7 RESİMLERİ DURSUN (Barbaros, 16 Kasım 2026 gece). ÖNCE BARBAROS'LA PERİ'NİN KIYAFETİ KONUŞULACAK.
 > >
@@ -14959,7 +13266,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > Vaka 1 resminin dekoltesiz kırpığı referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `altin_temiz`) de
 > > aynı konuşmada geçilsin.
 
-**3102** · `bcfefcc9ca` · satır 25 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2763** · `bcfefcc9ca` · satır 25 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ## 📏 ORTAKTAN BARBAROS'A (16 Kasım 2026, 22:00) — YENİ GENEL KURAL İSTEĞİ: KONUKLAR BİRBİRİNE BENZEMEZ
 > > Oğuz Bey bunun bütün seri için genel kural olmasını istiyor ("her vakada bir kez kullanılacak, bir daha kullanılmayacak
@@ -14977,7 +13284,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > "tarif eski konuklarla karşılaştırıldı" maddesi. **V1–V6:** yeniden geçirilirken aynı göz denetimi yapılsın (V6'da Müzeyyen,
 > > Dilek, Tahsin, Recep zaten değiştirilmişti; ama Necmi/Ercan Recep'in yüzüne kaydı — üretici aynı kalıba dönüyor).
 
-**3103** · `0765ef8266` · satır 41 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2764** · `0765ef8266` · satır 41 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ## 🖼️ ORTAKTAN BARBAROS'A (16 Kasım 2026, 21:50) — V7 PARTİ 1 ÜRETİLDİ; DURDURMA NOTUN GÖRÜLDÜ
 > > Senin durdurma notun gelmeden döngü Parti 1'i bitirmişti (21:23). **Hiçbiri onaylanmadı, gömülmedi**; yeni üretim yok.
@@ -14989,7 +13296,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > - **Araç düzeltmesi:** `istem_kontrol.sh` "smokin"i sigara sanıyordu (`smok` deseni) → `smoke|smoking`.
 > > - Senin "başla"nı bekliyoruz.
 
-**3104** · `53797b2b86` · satır 51 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2765** · `53797b2b86` · satır 51 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ## ✍️ ORTAKTAN BARBAROS'A (16 Kasım 2026 gece) — VAKA 7 YENİ DÜZENE GEÇTİ (ADIM 2, madde 1–6)
 > > Senaryo aynı; yalnız V6'nın yeni düzeni uygulandı (`sablon/vakalar/vaka7_diyalog.md`):
@@ -15007,7 +13314,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > Denetim: `arac_diyalog.js` geçti, doğrulayıcı (iki oyun) PASS (V7 K8 uyarısı önceden de vardı), testler geçti, **`arac_kapi.js V7 hikaye`
 > > GEÇTİ** (eski 11 K2/K8 bulgusu kapandı), `arac_sizinti_tur.js V7 40` temiz (1371 ekran). Cengo/Peri ifadeleri kapanış setinin tablosundan (V7 resimleri henüz yok).
 
-**3105** · `aefef066c2` · satır 67 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2766** · `aefef066c2` · satır 67 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ## 🖼️ OĞUZ BEY'E — VAKA 6: G74 (K104) YENİDEN ÜRETİLECEK (Barbaros, 16 Kasım 2026)
 > >
@@ -15021,7 +13328,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > - Denetim: tarz, el (nesne tutan el yakın bakış), göz — Müzeyyen gergin (Düzeltme 2), kılıf G73'tekiyle aynı. Gömme K104;
 > >   sonra doğrulayıcı, iki derleme, testler, `arac_kapi.js V6 resim`. `uretim/v6/DURUM.md`'ye yaz. Bitince bu not silinir.
 
-**3106** · `a7ef828507` · satır 79 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2767** · `a7ef828507` · satır 79 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ## ✅ ORTAKTAN BARBAROS'A (16 Kasım 2026 akşam) — VAKA 6 BİTTİ, ORTAK ONAYLADI
 > > Oğuz Bey Vaka 6'yı son hâliyle onayladı ("Altı bitti"). Senin düzeltmenden (`826c9e6`) sonra ortağın istediği değişiklikler:
@@ -15118,7 +13425,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka7_diyalog.md V7`, `node arac_kapi.js V7 hikaye`,
 > > `node arac_sizinti_tur.js V7 40`. **DEVIR'i güncelleyince bu bölümdeki biten maddeleri işaretle.**
 
-**3107** · `ff5927def2` · satır 174 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2768** · `ff5927def2` · satır 174 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ✅ **Ücret kesintisi kalktı (16 Kasım 2026, sahibinin kararı):** kasa yok, kesintinin anlamı kalmadı — **müşteri girişte söylediği
 > > ücreti öder.** V6: "kendisi söylesin" SONUÇ → *Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."*; "Cengo'ya
@@ -15128,13 +13435,13 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > bırakıldı** (yeniden geçirilecekler; o zaman `## ucret` silinir, kademeler eşitlenir). Sızıntı taraması V6 40 temiz.
 > > ✅ **Kare ekrandayken yer etiketi gizli (aynı gün):** sofra karesinin üstünde "Büro · akşam" yazıyordu (`vnKareGoster`).
 
-**3108** · `7dfcebbad9` · satır 182 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2769** · `7dfcebbad9` · satır 182 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ✅ **Aynı kare üst üste satırlarda kalır (16 Kasım 2026, sahibinin kararı):** V6 D18'de (Eylül'ün zarfları) kare her satırda
 > > silinip yeniden beliriyor, arada büro bir an görünüyordu. Artık aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir
 > > (`yeni_arayuz.js → vnKareGoster`, kare kodu `data-kod`'da). Bütün vakalara uyar; farklı kareye ya da karesiz satıra geçiş eskisi gibi.
 
-**3109** · `824ac200bd` · satır 186 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2770** · `824ac200bd` · satır 186 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ✅ **Karşılıklı konuşmada yerler sabit (16 Kasım 2026, sahibinin kararı; `86db39d`):** V6 girişinde Gizem ↔ Eylül her satırda
 > > yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). Artık aynı iki kişi bir önceki satırda da ekrandaysa
@@ -15144,12 +13451,12 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > konuk karşısına biri gelince sola) **sahibince sorunsuz bulundu, dokunulmayacak.** V1–V5'te iki örnek var (V4: Rana ↔ Feraye,
 > > Feraye ↔ Sadık; eski `kime` düzeni) — **bilerek düzeltilmedi**, o vakalar zaten yeni kurallara göre yeniden geçirilecek.
 
-**3110** · `09b8548903` · satır 194 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2771** · `09b8548903` · satır 194 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ✅ **Gözden geçirme bitti (16 Kasım 2026, Barbaros + Oğuz Bey):** aşağıdaki 6 replik **onaylandı**; Vaka 6'nın geri kalanı
 > > **uygun**, eklenecek/çıkarılacak bir şey yok. **Kalan tek iş: 7 yeni replik (4 ve 5), Oğuz Bey yazacak.**
 
-**3111** · `d4ddaeff4b` · satır 197 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2772** · `d4ddaeff4b` · satır 197 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6: YENİ KARAR DÜZENİ İÇİN REPLİKLER.** Önce ikiniz Vaka 6'yı gözden geçirin
 > > (eklenecek / çıkarılacak / rahatsız eden), sonra devam. Hepsi `sablon/vakalar/vaka6_diyalog.md`'de.
@@ -15170,7 +13477,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > >
 > > Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6` (Barbaros denetimleri koşar).
 
-**3112** · `d9bc1e35a0` · satır 216 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2773** · `d9bc1e35a0` · satır 216 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Barbaros'un kararı (16 Kasım 2026) — KARAR ANI YENİDEN TASARLANIYOR, KASA KALKIYOR. Henüz UYGULANMADI.**
 > > Sebep (sahibi): kasanın bir anlamı yok (yalnız birikiyor, hiçbir şeye bağlanmıyor); karar ekranı oyuncu için boş ve karmaşık
@@ -15223,7 +13530,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > >   etkilenmez.
 > > - **Sıra:** önce **Vaka 6** (resimleri tam) → tutarsa V7, V8 bu düzenle → V1–V5 yeniden geçirilir.
 
-**3113** · `012ff58606` · satır 267 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2774** · `012ff58606` · satır 267 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > ✅ **Barbaros onayladı (16 Kas): kural 19a yazıldı** (2. parça; 5. parça A ve E.13; `uretim/CLAUDE.md`; `istem_kontrol.sh` istemde
 > > sigara/tütün sözünü yakalar). Doğrulayıcıya metin taraması henüz yok (kod adımında eklenebilir).
@@ -15234,7 +13541,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > Cengo sigara içiyordu) değiştirildi — artık bir basamakta oturup kedilere bakıyorlar; `nesrin.sigara` ifadesi silindi. Yeni oyunun
 > > verisinde (V1–V7) ve şablonlarda başka sigara geçmiyor (16 Kas taraması).
 
-**3114** · `3fdf05817a` · satır 276 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2775** · `3fdf05817a` · satır 276 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7 SON HÂLİ KAYDEDİLDİ, ONAYINI BEKLİYOR (DONMADI):**
 > > Adım 7 bitti (c3c47bf): taç her yolda Peri'ye geçiyor (ihbar: Süheyla katalog fiyatına satar, "eksiği benden"; sus: kasa
@@ -15243,7 +13550,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > Doğrulayıcı PASS, testler geçti, kapı V7 hikaye GEÇTİ. **Ortak senin onayını istiyor. Vaka henüz DONDURULMUYOR** (ortağın
 > > kararı); onayın donma demek değil. Resimsiz oyna (`yeni/index.html`, Vaka 7), notların varsa tek liste.
 
-**3115** · `13072da676` · satır 283 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2776** · `13072da676` · satır 283 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Ortaktan cevap (15 Kasım 2026, Barbaros'a) — Vaka 7 taç soruları KAPANDI:**
 > > 1. **Eksik kasa karara göre kapanır** (oyuncu ayrıca seçmez): örn. Sus'ta Cengo borç bulur, Sus payında sahibenin parası kapatır.
@@ -15254,7 +13561,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > Vaka 7'nin metni (form, karar metinleri, kapanış) buna göre adım 7'de düzeltilecek. Kural 24/27 ve motor işi (kasadan düşme,
 > > kasaya göre sonuç, "taç alındı" işareti) sende. Onay 2 verildi (düzeltmesiz); hikâye bu düzeltmeden sonra donar.
 
-**3116** · `318a363a07` · satır 292 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2777** · `318a363a07` · satır 292 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Barbaros'tan Oğuz Bey'e (15 Kasım 2026) — Vaka 7, taç ve kasa: CEVAP + SANA ÜÇ SORU**
 > >
@@ -15286,7 +13593,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > - **Fiyat:** önerdiğin ~80.000 ₺ ile kasa (V7'ye 72.000+ gelir) hemen herkese yetiyor; "kasa yetmezse Cengo/dalavere" yolu
 > >   neredeyse hiç açılmaz. Komedinin çalışması isteniyorsa fiyat daha yüksek (kasanın ortası) olmalı; istemezsen böyle de olur.
 
-**3117** · `08a34e3279` · satır 322 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2778** · `08a34e3279` · satır 322 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7, taç ve kasa — CEVAPLANDI (yukarıda) (kod/kural işi, senin kararın):**
 > > (1) Motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre); kanon "taç kasaya bağlı" diyor.
@@ -15296,7 +13603,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > (4) Yeni 4. karar "Tacı Cengo'ya bırak": Peri ihbar eder, Cengo "adamlarından" borç toplayıp taca kendisi teklif verir;
 > > taç kasa dışı parayla alınır. Kural 24'e uyar mı? Form `sablon/vakalar/vaka7_form.md` §12 ve §18'de açık soru olarak duruyor.
 
-**3118** · `4acf4d9898` · satır 330 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
+**2779** · `4acf4d9898` · satır 330 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam)
 
 > > **Ortaktan not (14 Kasım 2026 gece, Barbaros'a):** (1) Sahnede tek kişi varken artık ortada duruyor; ikinci kişi gelince
 > > kaymadan, anında yanlara geçiyor (`f8dfc4e`, `yeni_arayuz.js/.css`, `.vn-figurler.tek`). (2) Açılıştaki dergi resmine (G87)
@@ -15310,7 +13617,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > > olan o (`ara_k96.webp`, `onayli/G65.png`, el onayı `fa557717b270`). Vaka 6'nın resimleri Barbaros'ta; ortak Vaka 7'ye bakıyor.
 > > V6'ya resim gömmeden önce Barbaros'a sor.
 
-**3119** · `f857068d1e` · satır 344 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000000. ⬅️ 15 Kasım 2026, 11:40 — VAKA 6 DONDU
+**2780** · `f857068d1e` · satır 344 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000000. ⬅️ 15 Kasım 2026, 11:40 — VAKA 6 DONDU
 
 > G73, G74, G90 (Onay 3 notları, `## Düzeltme 2`) yeniden üretildi, sahibi onayladı, gömüldü (K103, K104, K118); `arac_kapi.js V6 resim`
 > GEÇTİ. Aşağıdaki iki denetim koşuldu: sızıntı 40 yol/1294 ekran temiz, `sizinti_okuma.txt` elle okundu, temiz; tablet geçti; 19 boyda
@@ -15318,7 +13625,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > Tur komutunun doğrusu: `node arac_yeni_tur.js 0 sofra dogru --tablet|--cihaz` (ilk argüman karar numarası; aşağıdaki komutta eksik).
 > **Sıradaki:** sahibinin kararı (Vaka 7 Oğuz Bey'de; Vaka 8 ya da Vaka 1–4'ün yeni kurallara göre geçirilmesi).
 
-**3120** · `0ec9db1ad8` · satır 352 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2781** · `0ec9db1ad8` · satır 352 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > **Durum.** Vaka 6'nın bütün resimleri gömülü ve diyaloğa bağlı; `cd kaynak && node arac_kapi.js V6 resim` → **GEÇTİ**. Son bulgu
 > K11'di (Üsküdar apartman, Peri'nin dirseği Recep'in kolunda): yerleşimle çözüldü — Recep iki kişilik sahnede %7 sağa kayar
@@ -15327,178 +13634,178 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > **Güncelleme (15 Kasım öğle): Onay 3 bitti** — 3 not; 2 metin onarımı yapıldı, G73/G74/G90 `## Düzeltme 2` ile Barbaros'ta yeniden
 > üretimde (`uretim/v6/DURUM.md` en üst). **Sahibinin sırası: aşağıdaki iki denetim bu üç resim GÖMÜLDÜKTEN SONRA koşulur.**
 
-**3121** · `c658e9a9be` · satır 359 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2782** · `c658e9a9be` · satır 359 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > **"Yeni pencerede devam edelim" denince — sahibine sormadan bu iki denetimi koş (Barbaros'un isteği, 15 Kasım 2026):**
 
-**3122** · `717e4a3c80` · satır 360 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2783** · `717e4a3c80` · satır 360 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > 1. **Sızıntı taraması** (adım 14'ün ön koşulu): `cd kaynak && node arac_sizinti_tur.js V6 40` — çıkış 1 = sızıntı. Sonra
 >    `kaynak/YENI_UI/sizinti_okuma.txt`'yi elle oku (Nurcan; "Dosya çözüldü", `## cozum` ve karar metinleri yalnız her yolda oynayan
 >    sahneleri anar — CLAUDE.md). Bulguyu sahibine kısa liste olarak ver; metin değiştirme "önce konuş" kuralına tabi.
 
-**3123** · `3e6f6dfd38` · satır 363 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2784** · `3e6f6dfd38` · satır 363 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > 2. **Ekran boyu denetimi** (yeni resimler girdi): `node arac_yeni_tur.js sofra dogru --tablet` (tablet dikey, eşik tutmazsa hata
 >    basar) ve `node arac_yeni_tur.js sofra dogru --cihaz` (~3 dk, 19 boy; çıktı `YENI_UI/cihaz/`, bayraklar `bayraklar.txt`). Bayraklar
 >    ADAY'dır: karşılaştırma sayfasına göz at; bilinen tek bayrak 1280×650 seçim ekranı. Gerekirse öteki yollar (`siparis|kagit|cozmez6`).
 >    Uzun komutları arka planda koş.
 
-**3124** · `96badaccb2` · satır 367 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2785** · `96badaccb2` · satır 367 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > Sonuçları `uretim/v6/DURUM.md` en üste yaz, commit + push (`main`).
 
-**3125** · `84284e927c` · satır 369 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2786** · `84284e927c` · satır 369 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > **Sonra:** sahibinin Onay 3 notları → resim düzeltmeleri (adım 13) → sızıntı taraması bir kez daha → **Vaka 6 donar** (adım 14).
 
-**3126** · `bc5d85d93e` · satır 371 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2787** · `bc5d85d93e` · satır 371 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > **Açık, sahibine sorulacak (kendiliğinden yapma):**
 
-**3127** · `902bdb19c7` · satır 372 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2788** · `902bdb19c7` · satır 372 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > - **Kapı commit bağlantısı:** `.claude/kapi_hook.js` yazılı, "Vaka 6 kapıdan geçince açılacak" denmişti; `.claude/settings.json` hâlâ yok.
 >   Açmak commit davranışını değiştirir → Barbaros'a sor. Ondan sonra GitHub yayın koruması (sahibi: "sonra ekle").
 
-**3128** · `72fafdcd9e` · satır 374 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2789** · `72fafdcd9e` · satır 374 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > - Yerelde gereksiz bir stash var (Barbaros'un bilgisayarı: `stash@{0}` "origin hali…", içeriği ortağın commit'inde) — silinebilir.
 
-**3129** · `3d624789b9` · satır 375 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
+**2790** · `3d624789b9` · satır 375 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000000. 15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ; SAHİBİ ONAY 3'Ü OYNUYOR (kapandı, üstte)
 
 > - `kaynak/arac_el.py` `YENI_UI/el/sayim.json`'u `encoding='utf-8'` olmadan yazıyor; Windows'ta Türkçe harfte bozuluyor
 >   (`PYTHONUTF8=1` ile koşulursa sorun yok). Onarım küçük; kod değişikliği olduğu için sor.
 
-**3130** · `ce7d51848d` · satır 380 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
+**2791** · `ce7d51848d` · satır 380 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 
 > - **Kapı** (`kaynak/arac_kapi.js`, sahibinin kararı): vaka kaydedilmeden önce 13 kural + eski denetimler kendiliğinden koşar. Vaka 6 ve
 >   sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama
 >   **Vaka 6 kapıdan geçince açılacak** (`.claude/settings.json` henüz yok). Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle").
 
-**3131** · `d23a1b80e9` · satır 383 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
+**2792** · `d23a1b80e9` · satır 383 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 
 > - **Vaka 6 kalan:** 11 resim (G87–G95, G65 ve G46 yeniden) — **Barbaros kendi bilgisayarında üretiyor** (Oğuz Bey'e mesaj kaldırıldı).
 >   Ayrıntı ve bağlama etiketleri `uretim/v6/DURUM.md` en üst. Üretim artık iki bilgisayarda da olabilir (`uretim/CLAUDE.md` başı).
 
-**3132** · `44df10632c` · satır 385 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
+**2793** · `44df10632c` · satır 385 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000000. ⬅️ 14 Kasım 2026 gece — KAPI + VAKA 6'NIN SON 11 RESMİ
 
 > - Figür kesimi yapay zekâyla (`arac_kes_yz.py`, tek yöntem); el denetimi `arac_el.py` (onayı sahibi verir).
 
-**3133** · `7b1b30e07b` · satır 389 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2794** · `7b1b30e07b` · satır 389 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > **Barbaros'un kararı (14 Kasım 2026):**
 
-**3134** · `1844aeba10` · satır 390 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2795** · `1844aeba10` · satır 390 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - Vaka metinlerini ve resimleri bundan sonra yalnız **Oğuz Bey** üretir, Oğuz Bey'in bilgisayarında (`C:\Yazilim\paravan`).
 >   Barbaros vaka üretmez ve kendi bilgisayarında Codex kullanmaz.
 
-**3135** · `e38dff2222` · satır 392 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2796** · `e38dff2222` · satır 392 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - Codex ve web ChatGPT için **Barbaros'un hesabı** kullanılır. Bu şimdilik böyle, ileride değişebilir.
 
-**3136** · `8a93e46ad2` · satır 393 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2797** · `8a93e46ad2` · satır 393 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - Belgelerde "sahibine onaya / sahibine sor" yazan üretim işlerinin hepsi Oğuz Bey'e gider: temel onayı, resim onayı/reddi,
 >   web listesi (filtreye takılanlar), tarz soruları.
 
-**3137** · `1842004785` · satır 395 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2798** · `1842004785` · satır 395 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - Barbaros'a danışılan işler değişmedi: yeni kural ya da kural değişikliği, kod ve altyapı, yayın (aşağıda 11 Kasım rol ayrımı).
 
-**3138** · `110a12103c` · satır 396 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2799** · `110a12103c` · satır 396 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - G2, G86 ve G6 temelleri 13 Kasım akşamı Barbaros'ça ONAYLANDI (`uretim/v6/DURUM.md`); aşağıdaki "onayını bekliyor" eskidi.
 
-**3139** · `5de9e525f7` · satır 397 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2800** · `5de9e525f7` · satır 397 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - Kurulum 14 Kasım'da yapıldı, G47 denemesi onaylı (`uretim/KURULUM_ORTAK.md` → Kayıt).
 
-**3140** · `a74cd4a1fd` · satır 398 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
+**2801** · `a74cd4a1fd` · satır 398 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 > - **Sıradaki iş:** Vaka 6 resimlerinin kalanı (46 resim, döngü) — güncel durum ve komut `uretim/v6/DURUM.md` en üst blok.
 >   Metin tarafında: Vaka 8'in metni (13 Kasım akşam izni, aşağıda).
 
-**3141** · `30e881cc4e` · satır 403 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+**2802** · `30e881cc4e` · satır 403 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
 > **Oğuz Bey (Barbaros, 13 Kasım akşam): Vaka 8'in metin üretimine devam edebilir.**
 
-**3142** · `afff987d6a` · satır 405 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+**2803** · `afff987d6a` · satır 405 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
 > **⚠ Eskidi (14 Kasım): kurulum yapıldı, hesap Barbaros'unki, onaylar Oğuz Bey'de — bkz. en üst bölüm.**
 
-**3143** · `e10617fe92` · satır 407 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+**2804** · `e10617fe92` · satır 407 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
 > **Yarın (14 Kasım):** resim üretimi Oğuz Bey'in bilgisayarında ve hesabıyla sürer; Barbaros "kurulumla başla" deyince önce kurulum, sonra üretim. Durum: `uretim/v6/DURUM.md` en üst.
 
-**3144** · `65e77d5c00` · satır 409 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+**2805** · `65e77d5c00` · satır 409 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
 > **Kurulum notu (yalnız Barbaros isteyince):** Barbaros Oğuz Bey'in bilgisayarının başına geçip "resim üretim programlarını
 > kurdurt" dediğinde `uretim/KURULUM_ORTAK.md`'yi ona adım adım uygulat. Kurulumu yalnız Barbaros yapar; Oğuz Bey'in oturumlarında
 > bu konuyu açma (Barbaros, 13 Kasım).
 
-**3145** · `4fbf1a720a` · satır 413 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
+**2806** · `4fbf1a720a` · satır 413 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000000. 13 Kasım 2026 akşam — TARZ DENETİMİ ARACI + (Barbaros isteyince) ORTAK BİLGİSAYARA KURULUM
 
 > **Vaka 6 resimleri:** tarz kayması bulundu (Cengo kartı → bütün Cengo seti; teşhis `uretim/v6/DURUM.md`). Kural `ISTEM_KALIPLARI.md`
 > §11. Yeni temeller G2, G86, G6 Barbaros'un onayını bekliyor (⚠ eskidi: 13 Kas akşamı onaylandı). Her resmi yazılımla tarz denetiminden geçirecek araç
 > (`kaynak/arac_tarz.py`, PyTorch) yazılıyor; araç sınavı geçmeden döngü yeniden başlamaz.
 
-**3146** · `316ef4eb05` · satır 419 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2807** · `316ef4eb05` · satır 419 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > **Barbaros'un kararı (13 Kasım):** Vaka 6'nın resimlerine geçildi (dünkü "V6–8 resimsiz" planının istisnası) ve aynı iş
 > Codex'in gece üretim kanalının denemesi. Hedef düzen: gündüz bütün vakaların temelleri üretilir, Barbaros onaylar; gece
 > kalan resimler Codex'le üretilir ve denetlenir; sabah Codex'in üretemediği (filtre) resimler vaka vaka Barbaros'a, o web'de
 > üretir; akşam döngü kalandan sürer.
 
-**3147** · `e3ce4691b5` · satır 424 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2808** · `e3ce4691b5` · satır 424 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > **Yeni pencerede Barbaros "başla" deyince:** `uretim/v6/DURUM.md` → "Yeni pencerede başla denince" adımlarını harfiyen uygula.
 > Özet: `git pull` → kök `CLAUDE.md`, bu bölüm, `uretim/CLAUDE.md`, `uretim/v6/DURUM.md`, `LISTE.md` → `./istem_kontrol.sh
 > v6/prompts/*.md` (çıkış 0) → saat satırı (`vaka6_baslangic.md` §3) → `KOL=2 ./dongu.sh 6` arka planda → gelen her resmi
 > denetle → temelleri Barbaros'a onaya.
 
-**3148** · `8c6b27a584` · satır 429 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2809** · `8c6b27a584` · satır 429 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > **Bugün yapılanlar:**
 
-**3149** · `cd24700fe8` · satır 430 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2810** · `cd24700fe8` · satır 430 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > - `uretim/dongu.sh` paralel kol (`KOL=2`, kilit, kol başına kayıt `kayit/kol<k>.md`, `zaman.tsv`, kota beklemesi, `SADECE`).
 
-**3150** · `7daa142749` · satır 431 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2811** · `7daa142749` · satır 431 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > - `uretim/istem_kontrol.sh`: istem kontrol listesi; döngü geçmeyen istemi üretmez. Sebep: ilk 13 istem kuralların yarısıyla
 >   yazıldı (Satırlar, iki zemin, "benzemiyor", boy tablosu atlandı), 7 resim boşa gitti. Barbaros: "kuralları baştan tam
 >   uygulamayacaksan her şeyi iki kere üretmek zorunda kalacağız."
 
-**3151** · `b19415d2b5` · satır 434 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2812** · `b19415d2b5` · satır 434 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > - Ölçüm (ChatGPT Plus): resim ~95–115 sn, 2 kolda süre aynı; resim başına 5 saatlik kotanın ~%1,2'si → gecede ~160 resim.
 >   Ayrıntı `uretim/CLAUDE.md` → "Ölçüm".
 
-**3152** · `ffffbf7f49` · satır 436 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2813** · `ffffbf7f49` · satır 436 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > - Görünüş değişti (Barbaros onayı): Müzeyyen (Nadide'ye benziyordu; dikiş çantası da Nurcan sızıntısıydı), Recep, Dilek,
 >   Tahsin — `vaka6_form.md` §16, `vaka6_diyalog.md` (Müzeyyen'in tarif satırı), veri yeniden yazıldı; doğrulayıcı PASS,
 >   iki derleme, testler geçti, eski `index.html` aynı.
 
-**3153** · `873d679b1c` · satır 439 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2814** · `873d679b1c` · satır 439 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > - `5_gorsel_sistemi.md` H2'ye V6 karakterleri (başlangıç değerleri), `uretim/CLAUDE.md`'ye kural 9–10 (eski karakterlerle
 >   karşılaştırma, elde yalnız metindeki nesne) ve yeni karakter sabitleri.
 
-**3154** · `ea8d84f02d` · satır 442 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2815** · `ea8d84f02d` · satır 442 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > **Barbaros'a açık sorular (üretimi bekletmiyor):**
 
-**3155** · `c8a202e477` · satır 443 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2816** · `c8a202e477` · satır 443 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > 1. Konuk kıyafet kartı altı konuğa mı, yalnız karede görünenlere mi (Müzeyyen, Jale, Dilek)? — Parti 2'den önce.
 >    → *Cevap (13 Kas):* **yalnız üçüne** (kota); sonradan kareye giren olursa kartı o zaman. İki zemin kuralı olduğu gibi kalır
 >    ("şimdilik kurallar neyse o"). `uretim/v6/LISTE.md`'ye yazıldı.
 
-**3156** · `410c54e4ec` · satır 446 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2817** · `410c54e4ec` · satır 446 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > 2. `uretim/v6/satir_resim.md`'deki 29 bayrak ve Müzeyyen'in iki satırı (börek tepsisi pozu; "Kanıtınız ne?" güler yüzle) —
 >    Parti 3'ten (ifadeler, kareler) önce.
@@ -15510,106 +13817,106 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >    → *Cevap (14 Kas):* kabul; adım 5'te yalnız İŞ yazara, SOR adım 8'de sahibine. Vaka 7'den itibaren. `7_uretim_sureci.md`
 >    (adım 5 ve Satır–resim uyumu) ile `5_gorsel_sistemi.md` M8'e yazıldı.
 
-**3157** · `ad18a6eafa` · satır 456 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
+**2818** · `ad18a6eafa` · satır 456 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000000. ⬅️ 13 Kasım 2026 öğleden sonra — VAKA 6 RESİMLERİ: PARTİ 1 HAZIR, "BAŞLA" BEKLİYOR
 
 > **Bu bilgisayarda yerel not:** "eski yerel Vaka 5 değişiklikleri" stash'i Barbaros'un isteğiyle silindi (13 Kas).
 
-**3158** · `240de5b9af` · satır 460 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2819** · `240de5b9af` · satır 460 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > Ortak Onay 2'de Vaka 6'yı denetledi, 8 satır düzeltti ve "metin ve senaryo tamam" dedi. Rol ayrımına göre hikâye onayı
 > ortakta; adım 7 kapandı. Plana göre (aşağıda "YENİ PLAN") Vaka 6 **resimsiz** kalır.
 
-**3159** · `ec4fe961b5` · satır 462 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2820** · `ec4fe961b5` · satır 462 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > - **Vaka:** "İsimsiz Mektuplar" (Üsküdar–Kadıköy). Cengo'nun kızı Eylül (16) annesinin düğününü bozan isimsiz mektuplar
 >   için babasına gelir. Suçlu anneanne Müzeyyen (sevgi: İzmir'e taşınma); yanlış izler Cengo'nun kendisi (bankta kızını
 >   izliyor) ve Haldun'un eski eşi Jale (gelinliği o dikiyor, saklıyor). Ayrıntı: `sablon/vakalar/vaka6_form.md`,
 >   metin: `sablon/vakalar/vaka6_diyalog.md`.
 
-**3160** · `422b56221e` · satır 466 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2821** · `422b56221e` · satır 466 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > - **Son kontrol (13 Kas):** `dogrulayici.js yeni` PASS (6 uyarı: 5 eski + V6 K17), eski oyun PASS, iki derleme, 26 test
 >   geçti. 4 tur hatasız: `1 sofra dogru`, `2 siparis zayif`, `0 kagit cengo`, `3 cozmez6 jale` (bağ düşük ve yüksek
 >   kapanış ikisi de görüldü). Sızıntı `arac_sizinti_tur.js V6 40`: 1294 ekran temiz; MASUM ve karar metinleri elle okundu
 >   (adım 5'te 2 sızıntı düzeltildi: Jale'nin MASUM satırı; bank itirafa girdi).
 
-**3161** · `cfb01dba27` · satır 470 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2822** · `cfb01dba27` · satır 470 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > - **Süre:** metin aşaması toplam ~3 sa 14 dk (`vaka6_baslangic.md` §2). Saat durdu.
 
-**3162** · `cb5e36ada2` · satır 471 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2823** · `cb5e36ada2` · satır 471 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > - **Saat kaydı düzeltmesi:** 12 Kasım'daki V6 saatleri UTC ile yazılmıştı (Git Bash `TZ=Europe/Istanbul`'u tanımıyor);
 >   hepsi +3 saat düzeltildi. Doğru saat için kabukta yalnız `date` kullanılır. V5 kayıtları doğru.
 
-**3163** · `69f710f6d7` · satır 474 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2824** · `69f710f6d7` · satır 474 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > **Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
 
-**3164** · `617eaaa67f` · satır 475 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2825** · `617eaaa67f` · satır 475 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 1. **Vaka 6'nın hikâyesi dondu.** Barbaros okuyup itiraz etmek isterse şimdi etmeli. → *Cevap (13 Kas):* itirazı yok.
 
-**3165** · `a514360786` · satır 476 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2826** · `a514360786` · satır 476 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 2. **Kanon değişikliği:** ortak Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda 18'di, reşit); Cengo ile
 >    Gamze evliymiş, sonra ayrılmışlar (sebebi açık nokta). Yeni kanon: Eylül, Gamze, Haldun Bey, Müzeyyen Hanım, Jale Hanım;
 >    Cengo cumartesileri bankta kızını izler; bileklik Eylül'ün yedi yaşındaki işi; Eylül Peri'yi kıskanır, Gizem'le anlaşır
 >    (`3_kanon_kaydi.md`). `YENI_OYUN_SEZON.md`'deki "on yedi" güncellensin mi? → *Cevap (13 Kas):* evet — iki satırda 17 → 16 yapıldı.
 
-**3166** · `79436351d1` · satır 480 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2827** · `79436351d1` · satır 480 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 3. **V6 K17 uyarısı** (giriş 56 replik; Eylül'ün kıskançlığı ve Gizem girişi uzattı): kabul edilmiş uyarı sayılsın mı?
 >    → *Cevap (13 Kas):* kabul; `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı.
 
-**3167** · `211cab8f52` · satır 482 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2828** · `211cab8f52` · satır 482 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 6'nın yolları** eklensin mi:
 >    `Vaka 6: [sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]`? → *Cevap (13 Kas):* eklensin — eklendi.
 
-**3168** · `a04b34f84d` · satır 484 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2829** · `a04b34f84d` · satır 484 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 5. **`test_yeni_v1.js`:** "tanımsız kare" örneği `K99` → `K999` yapıldı (V6 ile K99 gerçek kare oldu). Uygun mu? → *Cevap (13 Kas):* uygun.
 
-**3169** · `29d66e57f5` · satır 485 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2830** · `29d66e57f5` · satır 485 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000000. ⬅️ 13 Kasım 2026, 10:26 — ✅ VAKA 6'NIN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 6. **Sıradaki:** plana göre Vaka 7 (taç müzayedede). Ortak mı yazacak? → *Cevap (13 Kas):* evet, Vaka 7'yi Oğuz Bey yazacak.
 
-**3170** · `12b245966c` · satır 489 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2831** · `12b245966c` · satır 489 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > **Ortağın yedi kuralı (TASLAK §12) onaylandı, Vaka 6'dan itibaren geçerli:** A, B, C olduğu gibi; **D, E, F iptal** (önce
 > onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge değil, Onay 2'den önce `3_kanon_kaydi.md` okunur. İşlendi:
 > `6_vaka_formu.md` (§2 kişi tablosu, §12 "kim neyi biliyor", §19), `7_uretim_sureci.md` (adım 6, bulanık replik taraması).
 
-**3171** · `37fdeb7db1` · satır 493 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2832** · `37fdeb7db1` · satır 493 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > **YENİ PLAN (önceki sırayı değiştirir; `RAF_KARARLARI.md` yayın sırası buna göre okunur):**
 
-**3172** · `4f0ef173be` · satır 494 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2833** · `4f0ef173be` · satır 494 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > 1. **Vaka 6, 7, 8** yazılır — **resimsiz**; üçünün de onayı (Onay 2'ye kadar, hikâye donar) yapılır.
 
-**3173** · `560b994fcd` · satır 495 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2834** · `560b994fcd` · satır 495 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > 2. Bu sırada yeni kural gerekirse eklenir (şablona, sahibinin onayıyla).
 
-**3174** · `e97f99a7fd` · satır 496 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2835** · `e97f99a7fd` · satır 496 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > 3. Sonra **başa dönülür: Vaka 1, 2, 3, 4** yeni kurallara göre yeniden geçirilir.
 
-**3175** · `6aad333e11` · satır 498 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2836** · `6aad333e11` · satır 498 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > **Vaka 6:** ortak yazacak. Claude'un önerisi `sablon/vakalar/vaka6_oneri.md` (ONAYLANMADI); **bütün kararlar ortağın**
 > (Barbaros, 12 Kasım 2026). Ortak öneriyi değiştirir/seçer, sonra formu doldurur.
 
-**3176** · `9c6fbd7512` · satır 501 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2837** · `9c6fbd7512` · satır 501 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > **Ortak başlarken (sırayla):** `git pull` → bu bölüm → `sablon/vakalar/vaka6_oneri.md` → `sablon/3_kanon_kaydi.md`
 > (kural G) → `sablon/vakalar/vaka6_baslangic.md` açılır (süre tablosu, Vaka 5'inki gibi; saat başlar) → form
 > `sablon/vakalar/vaka6_form.md` (`6_vaka_formu.md`; yeni: §2 kişi tablosu, §12 "kim neyi biliyor") → adım 2'den 7'ye
 > (`7_uretim_sureci.md`), **resimsiz** (adım 8 ve sonrası yok). Kim neye karar verir: aşağıda "İŞ ARKADAŞA DEVREDİLDİ".
 
-**3177** · `51d7ec2f05` · satır 506 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2838** · `51d7ec2f05` · satır 506 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > **Vaka 6 başladı (12 Kasım 2026, 20:57; ortak):** "İsimsiz Mektuplar" seçildi. Kız Eylül (Üsküdar); Gamze, Haldun Bey,
 > Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). **Adım 3–4 bitti:** diyalog + veri + künye; doğrulayıcı PASS (yeni uyarı: V6 girişi 56 replik, K17). **Adım 5 bitti** (görselsiz tur, sızıntı ve bulanık tarama temiz). Sıradaki: **Onay 2** — ortak Vaka 6'yı oynar. Saat 12 Kas 22:15'te durdu, **13 Kas 08:30'da yeniden başladı** (ortağın sözüyle; ara 1 = 615 dk). Onay 2 sürüyor.
@@ -15618,167 +13925,167 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > **Barbaros'a bilgi:** ortak kanonda Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda reşit olsun; Cengo 34 kaldı); Cengo ile Gamze evliymiş. Yaş oyun metninde geçmiyordu. `YENI_OYUN_SEZON.md`'deki "on yedi" eski kaldı.
 > Kayıt: `sablon/vakalar/vaka6_baslangic.md`.
 
-**3178** · `91a9f44b07` · satır 513 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2839** · `91a9f44b07` · satır 513 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > **Barbaros'un cevapları (12 Kasım 2026):**
 
-**3179** · `94953ebf56` · satır 514 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2840** · `94953ebf56` · satır 514 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > - **Vaka 4'ün resimleri şimdi yapılmıyor** (ortak da başlamasın). Vaka 8'den sonra, yeni kurallara göre ortaya çıkan
 >   duruma bakılıp yapılacak.
 
-**3180** · `085434ccb3` · satır 516 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
+**2841** · `085434ccb3` · satır 516 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000000. 12 Kasım 2026 — YENİ PLAN (Barbaros'un kararı) + VAKA 5 DERSLERİ ONAYLANDI
 
 > - **Vaka 5:** belki incelenir; çıkan hatalara göre yeniden geçirilip geçirilmeyeceğine o zaman karar verilir.
 
-**3181** · `ae34545e98` · satır 520 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
+**2842** · `ae34545e98` · satır 520 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
 
 > `sablon/TASLAK_tekrar_onleme.md` sonuna ortak iki not ekledi, ikisi de **onaylanmadı**:
 
-**3182** · `a98bc26e6d` · satır 521 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
+**2843** · `a98bc26e6d` · satır 521 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
 
 > - **§11:** dört yeni oyun biçimi (ters vaka, saatli vaka, yalan bulma, kılık) konuşuldu; karar Barbaros'la.
 
-**3183** · `c2b48be9c0` · satır 522 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
+**2844** · `c2b48be9c0` · satır 522 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
 
 > - **§12:** Vaka 5 dersleri → yedi kural önerisi (A–G: rol kontrolü, "kim neyi biliyor" listesi, harita kontrolü, aksiyon
 >   gerçekliği, her cevabın sorusu, şaşırtıcı bilginin gerekçesi, ortağa kanon özeti). Cevap §12'nin sonuna.
 
-**3184** · `c439d1d799` · satır 527 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2845** · `c439d1d799` · satır 527 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > Ortak düzeltmeleri bitirdi ve "metin ve senaryo tamam" dedi. Rol ayrımına göre hikâye onayı ortakta, bu yüzden adım 7 kapandı.
 
-**3185** · `4c9dcb5b0b` · satır 528 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2846** · `4c9dcb5b0b` · satır 528 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > - **Son kontrol (12 Kas):** `dogrulayici.js yeni` PASS (5 uyarı: 4 eski + V5 K8), eski oyun PASS, iki derleme, bütün testler geçti.
 >   4 tur hatasız: `0 vapur dogru`, `1 iskele zayif`, `2 usta kadir`, `3 cozmez5 nedim` (bağ düşük ve yüksek kapanış ikisi de görüldü).
 >   Sızıntı `arac_sizinti_tur.js V5 40`: 1212 ekran temiz; MASUM ve karar metinleri elle okundu, ipucu bilgisi yok
 >   (hurdacı/belge anılmıyor; kazıma ve "saatin nereden geldiği" kovalamacadaki kazımadan çıkıyor).
 
-**3186** · `03708a1709` · satır 532 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2847** · `03708a1709` · satır 532 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > - **Süre:** metin aşaması toplam ~4 sa 58 dk (`vaka5_baslangic.md` §2). Saat bu satırla birlikte durdu; resim aşamasında yeniden başlar.
 
-**3187** · `69f710f6d7-2` · satır 534 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2848** · `69f710f6d7-2` · satır 534 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > **Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
 
-**3188** · `a0bdc61cc1` · satır 535 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2849** · `a0bdc61cc1` · satır 535 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 1. **Vaka 5'in hikâyesi dondu.** Barbaros oynayıp itiraz etmek isterse şimdi etmeli; dondu kabul edilirse adım 8'den sonra hikâye
 >    değişmez (değişirse forma dönülür). → *Cevap:* **EVET, dondu** — Barbaros'un itirazı yok (12 Kasım 2026).
 
-**3189** · `c3b869cce6` · satır 537 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2850** · `c3b869cce6` · satır 537 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 2. **Sıradaki iş:** `RAF_KARARLARI.md:236`'ya göre Vaka 4'ün resim aşaması (adım 8–14), Vaka 5'in resimleri ondan sonra.
 >    Vaka 4'ün resimlerini **kim** yapacak, Barbaros mu, ortak mı? Ortak yapacaksa önce `codex login` (kendi hesabı). → *Cevap:* **Ortak yapacak** (Barbaros, 12 Kasım 2026). Önce `codex login`.
 >    **⚠ Sonradan değişti (12 Kasım, yeni plan):** Vaka 4'ün resimleri şimdi YAPILMIYOR; Vaka 8'den sonraya kaldı (en üst bölüm).
 
-**3190** · `5b6d670c9b` · satır 540 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2851** · `5b6d670c9b` · satır 540 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 3. **V5 K8 uyarısı** ("Saati Muammer'e bırak", "Polise teslim et"in iki eksende de önünde): ortak kararları bilerek böyle bıraktı
 >    (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:* **EVET, kabul edilmiş uyarı** (Barbaros, 12 Kasım 2026); `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı. Kararların etkisi zaten yeniden konuşuluyor (`sablon/TASLAK_tekrar_onleme.md` §8).
 
-**3191** · `56f9e42f65` · satır 542 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2852** · `56f9e42f65` · satır 542 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 5'in yolları** eklensin mi: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`?
 >    `CLAUDE.md` Barbaros'ta, ortak eklemedi. → *Cevap:* **EVET** — eklendi (Barbaros, 12 Kasım 2026).
 
-**3192** · `e3a41af9a5` · satır 545 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
+**2853** · `e3a41af9a5` · satır 545 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000000. 12 Kasım 2026, 10:27 — ✅ VAKA 5'İN HİKÂYESİ DONDU (adım 7 bitti) · BARBAROS'UN ONAYI BEKLENİYOR
 
 > **Ortağa not (12 Kasım 2026):** Barbaros ile tekrarı önleme üzerine bir konuşma sürüyor — vaka/karakter/sezon seçenekleri ve
 > **kararların gerçek bir etkisi olması** (haber, bedava ipucu, dönen ipucu, büronun duvarı…). Taslak, ONAYLANMADI:
 > `sablon/TASLAK_tekrar_onleme.md`. Vaka 4 ve 5'i etkilemez; kurallar Vaka 6'dan itibaren düşünülüyor. Okuyabilirsin.
 
-**3193** · `a43559e656` · satır 551 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2854** · `a43559e656` · satır 551 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > Ortak Vaka 5'i okuyup düzeltmeleri satır satır veriyor; her parti işlenip doğrulayıcı + iki derleme + testlerle gönderildi.
 > Hikâye henüz donmadı (Onay 2 bitmedi).
 
-**3194** · `138e59a39a` · satır 554 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2855** · `138e59a39a` · satır 554 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Selim artık ortak değil, Muammer'in otuz yıllık tamircisi** (513446b; ortağın kararı: "hem tamirci hem ortak absürt").
 >   Sebep: Muammer dükkânı oğluna devredip Selim'e **yol verecekti**. Diyalog, form, olgu/ipucu metinleri, künye, karar
 >   metinleri ve `anahtarlar` (`cayci_bilen`: "tamircimden başka") birlikte değişti. İpucu yapısı, kanıt çiftleri, `kim_yapti` aynı.
 
-**3195** · `5442c97be9` · satır 557 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2856** · `5442c97be9` · satır 557 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Metin düzeltmeleri** (7d2edd6):
 
-**3196** · `27ac24fe35` · satır 558 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2857** · `27ac24fe35` · satır 558 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Girişte Peri "Polise gittiniz mi?" diye sorar; Muammer'in "Polise gidemem…" satırı buna cevap olur.
 
-**3197** · `54c1ba8df4` · satır 559 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2858** · `54c1ba8df4` · satır 559 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Cengo'nun "vapura bineceğiz" satırı "Boğaz gezintisi + simit" diye uzadı.
 
-**3198** · `12bb2c67c6` · satır 560 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2859** · `12bb2c67c6` · satır 560 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Simitçi: "Karada otuz, denizde otuz beş, Moda'da yüz otuz beş."
 
-**3199** · `2aca1b78c7` · satır 561 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2860** · `2aca1b78c7` · satır 561 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Görevlinin boynunda **düdük** var (ıslık değil).
 
-**3200** · `07b67c360c` · satır 562 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2861** · `07b67c360c` · satır 562 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Görevli: "karaya yürüyüşe çıkmış". Peri "benzer bir çantayla inen" birini sorar.
 
-**3201** · `f99da9faba` · satır 563 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2862** · `f99da9faba` · satır 563 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Cengo ile görevlinin defter şakası yenilendi.
 
-**3202** · `266ef2cfe8` · satır 564 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2863** · `266ef2cfe8` · satır 564 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Derya'ya "rüzgârlı günlerde güverte boş kalır" satırı eklendi.
 
-**3203** · `ef15d55695` · satır 565 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2864** · `ef15d55695` · satır 565 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Nedim'in iltifatı: "ipek size antika bir saat kadar yakışmış".
 
-**3204** · `c4c91fbc6d` · satır 566 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2865** · `c4c91fbc6d` · satır 566 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Susam → yosun:** kovalamacada dalga Peri'nin üstüne **deniz yosunu** bırakır; martılar yosunlara saldırır.
 
-**3205** · `51d1277c79` · satır 567 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2866** · `51d1277c79` · satır 567 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Peri'nin "Beni deniz tutmuyor. Deniz bana saldırıyor!" sözü dalga anından K86'ya (martı saldırısı) taşındı.
 
-**3206** · `bcf87849bf` · satır 568 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2867** · `bcf87849bf` · satır 568 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Kapanış: "Martılar yosunları sevdi". Peri'nin saçında yosun.
 
-**3207** · `86e68429ff` · satır 569 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2868** · `86e68429ff` · satır 569 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - `islak` set tarifi, K84/K86 görsel tarifi (`gorseller.json` yer tutucu metni dahil) ve form da yosuna çevrildi.
 
-**3208** · `e480a93593` · satır 570 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2869** · `e480a93593` · satır 570 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Adım 8'de istem yazarken: susam değil yosun.**
 
-**3209** · `54ded2a819` · satır 571 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2870** · `54ded2a819` · satır 571 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Selim'in itirafı:**
 
-**3210** · `486701d74f` · satır 572 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2871** · `486701d74f` · satır 572 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - "'Deniz tutar, yukarı çıkacağım' dedim; çıkmadım. Bir direğin dibinde fırsat kolladım."
 
-**3211** · `67fb2b3c9c` · satır 573 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2872** · `67fb2b3c9c` · satır 573 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - "Dükkânın bütün saatlerini ben kurarım; Muammer bunu bana sormadan kurmuş, çalacağından haberim yoktu. Çantadayken sesini de duymamışım."
 
-**3212** · `f2cf0c09c0` · satır 574 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2873** · `f2cf0c09c0` · satır 574 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Form da buna göre (§zaman çizelgesi notu ve itiraf).
 
-**3213** · `8196916cc9` · satır 575 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2874** · `8196916cc9` · satır 575 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Kontroller: doğrulayıcı PASS (bilinen K8 uyarısı), derlemeler, testler geçti. **Tur ve sızıntı taraması bu düzeltmelerden
 >   sonra yeniden koşulmadı** (yalnız metin; yeni olgu yok). Onay 2 bitince ikisi de koşulacak.
 
-**3214** · `3955aca1d6` · satır 577 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2875** · `3955aca1d6` · satır 577 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Kararlar yeniden yazıldı (ortağın isteği):** eski metinler Muammer'in olayı bilmediğini varsayıyordu ("Muammer'e gerçeği
 >   söyle", "vapurda bulduk"), oysa kovalamacada Muammer itirafı duyuyor ve saati Selim'in cebinden alıyor. Yeni hâl:
@@ -15786,257 +14093,257 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   (kazıma kozuyla susma anlaşması), `gercek_sahip` = saati Muammer'den alıp sahibine götür, `polise_teslim` aynı.
 >   Kimlikler (id) ve paralar aynı; K92/K93 tarifleri güncellendi. K8 uyarısı (polis kararı) sürüyor.
 
-**3215** · `006147cf98` · satır 582 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2876** · `006147cf98` · satır 582 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - Diğer küçük düzeltmeler: Nedim'in kız kardeşi Cihangir'de (Moda'da oturup Moda'ya vapurla gitmesi çelişiyordu);
 >   Cengo "simitçiyi yirmi beşe ikna ettim"; Selim "o dükkânı sırtımda taşıdım".
 
-**3216** · `c139711408` · satır 584 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2877** · `c139711408` · satır 584 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Satır numarası:** ortak artık `sablon/vakalar/vaka5_diyalog.md` dosyasının **satır numarasını** kullanıyor (aşağıdaki
 >   "sahne içi numara" notu eskidi). 4 satır eklendiği için numaralar 51'den sonra kaydı.
 
-**3217** · `ef796b66f9` · satır 586 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
+**2878** · `ef796b66f9` · satır 586 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
 > - **Saat:** 5 ara yazıldı (`vaka5_baslangic.md`); 12 Kasım 10:02'de yeniden başladı, 10:27'de adım 7 bitince metin aşaması kapandı.
 >   12 Kas 00:31–00:34: ortak 47. satırı (Nedim'in "yukarıdaydım"ı) Selim'e söyletmeyi önerdi, sonra vazgeçti — metin aynı; baştan sona okuyup karar verecek.
 
-**3218** · `b61a65fb6c` · satır 591 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2879** · `b61a65fb6c` · satır 591 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - **araç: Vaka 5 eklendi** — `arac_yeni_tur.js` yolları: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`
 >   (Vaka 1–4 önce hızlı oynanır). Barbaros'un genel iznine göre; aracın işleyişi değişmedi.
 >   `CLAUDE.md`'deki tur komutu satırına V5 eklenmedi (CLAUDE.md Barbaros'ta) — eklemek istersen: Vaka 5 yolları yukarıda.
 
-**3219** · `da4ca562d6` · satır 594 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2880** · `da4ca562d6` · satır 594 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - 6 tur hatasız (4 yol, 4 sonuç, bağ düşük/yüksek iki kapanış). Sızıntı `arac_sizinti_tur.js V5 40`: 1212 ekran temiz;
 >   MASUM ve karar metinleri elle okundu (3. ve 4. kararın kazıma bilgisi kovalamacada, her yolda).
 
-**3220** · `300c79265f` · satır 596 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2881** · `300c79265f` · satır 596 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - Bulanık replik taraması: 7 düzeltme (konuşmada Kadir'in vapurdan inmediği sızıyordu; Nedim'in nereden bildiği; kopya
 >   saatin fiyatını kimin söylediği; İsmet'e çantanın gelişi; iki kısa replik açıldı). Cüzdan pazarlığı fiyat tablosuna girdi.
 
-**3221** · `87723a2a12` · satır 598 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2882** · `87723a2a12` · satır 598 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - Sıradaki: **Onay 2** — ortak Vaka 5'i yayında oynar ("Vaka N'den başla" → Vaka 5), notları toplu verir.
 
-**3222** · `8a9bcbd1ad` · satır 600 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2883** · `8a9bcbd1ad` · satır 600 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > **Yeni pencere için (Onay 2 düzeltmeleri, ortak yeni pencerede devam ediyor):**
 
-**3223** · `acb5564ad2` · satır 601 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2884** · `acb5564ad2` · satır 601 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - **Ortağa cevap: basit ve kısa.** Ortak replikleri sahne sahne, sahne içinde 1'den başlayan satır numarasıyla görüyor
 >   (ör. "İpucu: Nedim Bey, 11"). Liste veriden üretildi: `yeni/game_data.json` V5 → `sahneler` (giris, konusma,
 >   yuzlesme_dogru/zayif/kadir/nedim, kovalamaca, kapanis) ve `clues[].sahne` (vapur_cayci, ust_guverte, kadikoy_iskele,
 >   nedim, deri_ustasi, dukkan_cukurcuma); numara = `satirlar` dizisindeki sıra + 1 (sahne notları dahil).
 
-**3224** · `686816b210` · satır 605 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2885** · `686816b210` · satır 605 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - **Değişiklik nereye:** replik, sahne notu, karar metni → `sablon/vakalar/vaka5_diyalog.md`, sonra
 >   `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka5_diyalog.md V5`. Yapı (olgu metni `facts`, ipucu kartı
 >   `clues[].text/meta`, çıkarım, `kim_yapti`, karar parası/bağ, `anahtarlar`) ve künye (`yeni/kisiler.json`) diyalogdan
 >   üretilmez: veride doğrudan (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). Hikâye değişirse `vaka5_form.md`'ye de işle.
 
-**3225** · `0e37a22e7c` · satır 609 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2886** · `0e37a22e7c` · satır 609 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - **Her değişiklikten sonra:** `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js`, testler;
 >   sahneyi etkileyen değişiklikte tur: `node arac_yeni_tur.js 0 vapur dogru` (yollar yukarıda). Sızıntı: `node arac_sizinti_tur.js V5 40`.
 
-**3226** · `89d3481fef` · satır 611 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2887** · `89d3481fef` · satır 611 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - **Tuzak (ortağın bilgisayarı):** Claude'un kabuğu `PW` kullanıcı değişkenini görmüyor; tur araçlarından önce
 >   `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok).
 
-**3227** · `63cd8e525f` · satır 613 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
+**2888** · `63cd8e525f` · satır 613 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000000. 11 Kasım 2026, 14:55 — VAKA 5: ADIM 5 BİTTİ → ONAY 2 (ortak oynar)
 
 > - **Saat işliyor** (14:01'den beri; adım 6–7 14:55'te başladı). Ortak "durdur" derse ara tablosuna yaz
 >   (`vaka5_baslangic.md`). Onay 2'de ortağın oynama/inceleme süresi "ortak" sütununa.
 
-**3228** · `1586803a01` · satır 618 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2889** · `1586803a01` · satır 618 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > **Durum:** Vaka 5 (Vapur, Bilmece) ortak tarafından yazılıyor. Saat 14:01'de başladı, işliyor
 > (`sablon/vakalar/vaka5_baslangic.md` süre tablosu).
 
-**3229** · `e282b5d697` · satır 620 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2890** · `e282b5d697` · satır 620 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > - **Adım 1–2:** form `vaka5_form.md`, Onay 1 ortakça verildi (4 soru, hepsi "uygun"). Konu: antikacı Muammer'in çalar cep
 >   saati vapurda çantası ikiziyle değiştirilerek çalınır; şüpheliler çaycı Kadir, koleksiyoncu Nedim, suçlu ortak Selim.
 
-**3230** · `770fca85a9` · satır 622 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2891** · `770fca85a9` · satır 622 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > - **Kanon** (`3_kanon_kaydi.md`, ortağın onayı): Peri'yi deniz tutar; Cengo vapurun çaycısı Kadir'i tanır.
 
-**3231** · `d2a23b6f05` · satır 623 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2892** · `d2a23b6f05` · satır 623 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > - **Adım 3–4:** diyalog `vaka5_diyalog.md` (223 satır) → `yeni/game_data.json` V5, künye 5 kişi, 70 yer tutucu görsel
 >   (A36–A42, D14–D17, K79–K95). Doğrulayıcı PASS; bir yeni K8 uyarısı: "Polise teslim et", "Muammer'e gerçeği söyle"nin
 >   gerisinde (V4'teki gibi; ortak kararları olduğu gibi onayladı). İki derleme ve bütün testler geçti.
 
-**3232** · `57180e391c` · satır 626 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2893** · `57180e391c` · satır 626 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > - `kanon.sahne`'ye V5 figürleri, Peri setleri (`ipek`, `ipek_acik`, `islak`, `battaniye`; yeni ifade `yesil`) ve Cengo
 >   setleri (`balikci`, `simitli`) eklendi.
 
-**3233** · `cfdceb856a` · satır 629 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2894** · `cfdceb856a` · satır 629 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > **Barbaros'a soru (ortak soruyor):** Adım 5 (görselsiz tur) için `arac_yeni_tur.js`'e (gerekirse `arac_sizinti_tur.js`'e)
 > Vaka 5'in yollarını eklemek gerekiyor — Vaka 4'e yapılanın aynısı. **Yeni bir vakayı mevcut test araçlarına eklemek gibi
 > küçük, mekanik değişiklikler için ortağa genel izin verilsin mi?** Motor, arayüz, derleme ve kurallar yine Barbaros'ta.
 
-**3234** · `9b618d57ce` · satır 633 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
+**2895** · `9b618d57ce` · satır 633 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000000. 11 Kasım 2026 öğleden sonra — VAKA 5: ADIM 1–4 BİTTİ; ARAÇ İZNİ VERİLDİ
 
 > **Barbaros'un cevabı (11 Kasım 2026): EVET — genel izin, bu sınırla.** Ortak, yeni bir vakayı **var olan** araç ve
 > testlere ekleyebilir (yol listeleri, vaka adları, önceki vakanın kalıbıyla). Aracın **nasıl çalıştığını** değiştirmek,
 > yeni araç yazmak, motor, arayüz ve derleme yine Barbaros'ta. Böyle bir commit'in mesajında "araç: Vaka N eklendi"
 > yazar ki Barbaros görsün. → Adım 5 başlayabilir.
 
-**3235** · `1a735ce1d5` · satır 640 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2896** · `1a735ce1d5` · satır 640 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > **Kurulum (ortağın bilgisayarı, yalnız yerel — depoda değişiklik yok):**
 
-**3236** · `dbf6b89ef3` · satır 641 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2897** · `dbf6b89ef3` · satır 641 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > - Node.js 26.13 (LTS), Python 3.12, Git; depo `C:\Yazilim\paravan` (D: sürücüsü yok).
 
-**3237** · `d5affb0a5c` · satır 642 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2898** · `d5affb0a5c` · satır 642 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > - `araclar/` (Playwright 1.65) + Chromium (`npx playwright install chromium`); `PW` kalıcı kullanıcı değişkeni →
 >   `C:/Yazilim/paravan/araclar/node_modules/playwright`.
 
-**3238** · `f25f71119c` · satır 644 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2899** · `f25f71119c` · satır 644 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > - Codex CLI 0.167.1 kurulu, **giriş yapılmadı** (resim aşamasında ortak kendi hesabıyla `codex login`).
 
-**3239** · `6c1a35f917` · satır 645 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2900** · `6c1a35f917` · satır 645 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > - `node dogrulayici.js yeni` PASS (4 uyarı), `node dogrulayici.js` PASS (5 uyarı), 27 test geçti.
 
-**3240** · `fa310a5540` · satır 647 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2901** · `fa310a5540` · satır 647 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > **İki soru — Barbaros'un cevapları (11 Kasım 2026):**
 
-**3241** · `f32f685e53` · satır 648 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2902** · `f32f685e53` · satır 648 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > 1. **Sıra değişti: EVET.** Ortak, Vaka 4'ün resim aşamasını (adım 8–14) bekletip önce **Vaka 5'in metnini** (adım 1–7)
 >    yazar. Vaka 4'ün saati duruk kalır (10 Kas 18:04'ten beri); dönünce kaldığı yerden işler, ölçüm bozulmaz.
 >    `RAF_KARARLARI.md` → Yayın sırası da buna göre güncellendi.
 
-**3242** · `8e86d9f5f8` · satır 651 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2903** · `8e86d9f5f8` · satır 651 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > 2. **Vaka 5 Bilmece tipinde yazılır** (Vaka 1–4 gibi; kod gerekmez). `YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR'daki
 >    "Columbo tipi" (Ters tip) kullanılmaz; Ters tip ertelenmiş olarak kalır (`1_oyun_yapisi.md`, 17 Ekim).
 >    Vapur konusundan ne kalacağı ve Bilmece'ye nasıl çevrileceği hikâye işidir — ortak karar verir.
 
-**3243** · `d2b98d353e` · satır 655 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
+**2904** · `d2b98d353e` · satır 655 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
 > **Dikkat (iki kişi aynı dosyada):** Vaka 5'in verisi de `yeni/game_data.json`'a yazılır. Barbaros bu arada Vaka 4'te
 > çalışırsa aynı dosyaya dokunabilir — her oturumun başında `git pull`, göndermeden önce yine `git pull`.
 > Vaka dosyalarını ayırmak (vaka başına ayrı veri/künye/görsel dosyası) konuşuldu; Barbaros: **şimdilik ayrılmayacak.**
 
-**3244** · `b120171bfb` · satır 661 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2905** · `b120171bfb` · satır 661 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > **⚠ 14 Kasım'da genişledi:** bütün üretim (metin + resim) Oğuz Bey'de, Codex/ChatGPT hesabı Barbaros'un — bkz. en üst bölüm.
 > Aşağıdaki "Barbaros'a danışılır" listesi geçerli.
 
-**3245** · `35b84d9c51` · satır 664 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2906** · `35b84d9c51` · satır 664 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > Proje artık başka bir bilgisayarda, başka bir Claude hesabıyla, ortak bir kişi tarafından da yürütülüyor.
 > Depo yine `barbarosgursu-sudo/paravan`; ortak, depoya "collaborator" olarak eklendi ve `main`'e gönderir.
 
-**3246** · `518f4d107f` · satır 667 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2907** · `518f4d107f` · satır 667 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > **Kim neye karar verir (sahibinin kararı, 11 Kasım 2026):**
 
-**3247** · `94b32b9714` · satır 668 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2908** · `94b32b9714` · satır 668 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > - **Barbaros (sahibi) her şeyi yapabilir** — aşağıdaki iki listenin ikisindeki işleri de. Ortağın yetkisi onunkini daraltmaz.
 
-**3248** · `5f97fb6f4c` · satır 669 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2909** · `5f97fb6f4c` · satır 669 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > - **Ortak kendisi karar verir (işletme):** var olan kurallara göre vaka üretmek, hikâyeye yeni ayrıntı eklemek
 >   (kanon), metin düzeltmek, resim üretmek, test/araç/derleme çalıştırmak, `main`'e göndermek.
 >   Belgelerdeki "sahibine sor" kuralı bu işler için ortağa sorulur.
 
-**3249** · `e46a098962` · satır 672 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2910** · `e46a098962` · satır 672 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > - **Barbaros'a danışılır, ortak tek başına onaylamaz:** yeni kural yazmak ya da var olanı değiştirmek
 >   (`CLAUDE.md`, `sablon/`, sözleşmeler), kod ve altyapı değişiklikleri (motor, arayüz, araçlar, derleme),
 >   yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş çıkarsa Claude yapmaz;
 >   ne istendiğini kısaca yazar, ortak bunu Barbaros'a iletir.
 
-**3250** · `8ccbfa28ac` · satır 676 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2911** · `8ccbfa28ac` · satır 676 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > - **İstisna (11 Kasım 2026):** ortak, yeni bir vakayı **var olan** araç ve testlere ekleyebilir (yol listeleri, vaka
 >   adları, önceki vakanın kalıbıyla); commit mesajında "araç: Vaka N eklendi" yazar. Aracın nasıl çalıştığını
 >   değiştirmek ya da yeni araç yazmak yine Barbaros'ta.
 
-**3251** · `838fdb8ce8` · satır 680 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2912** · `838fdb8ce8` · satır 680 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > **Yeni bilgisayarda ilk kurulum (bir kez):** Git, Node.js, Python 3 kurulu olmalı. Depoda olmayan tarayıcı aracı
 > (`araclar/`, Playwright + Chromium) yeniden kurulur: `npx playwright install chromium`. Resim üretimi için
 > ortağın kendi Codex erişimi gerekir (`uretim/CLAUDE.md`). Kurulumdan sonra `cd kaynak && node dogrulayici.js yeni`
 > ve test döngüsü geçmeli.
 
-**3252** · `a7eeed533d` · satır 685 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2913** · `a7eeed533d` · satır 685 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > **İki kişi aynı depoda:** her oturumun başında `git pull`. Aynı anda aynı vakaya iki kişi dokunmaz.
 
-**3253** · `aaa4b53651` · satır 687 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
+**2914** · `aaa4b53651` · satır 687 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
 > Bu ayrım, aşağıda "arkadaşın ikinci Claude hesabıyla metin kolu (onaylar birlikte verilir)" diye bekleyen planın
 > yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağıdaki bölüm): Vaka 4, adım 8. **⚠ Eskidi — sıradaki iş en üst bölümde (12 Kasım yeni plan).**
 
-**3254** · `8f985d7605` · satır 692 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000. 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
+**2915** · `8f985d7605` · satır 692 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000. 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
 
 > - Sahibi resimsiz incelemeyi bitirdi ve onay verdi. Sıradaki adım 8: görsel listesi, kıyafet hâli tablosu, kıyafet
 >   kartları, istemler (`7_uretim_sureci.md`). **Önce sahibine Codex 2 kol desteğini hatırlat** (aşağıda).
 
-**3255** · `db54381411` · satır 694 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000. 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
+**2916** · `db54381411` · satır 694 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000000. 11 Kasım 2026 sabah — VAKA 4: ONAY 2 VERİLDİ, hikâye dondu (adım 7 bitti)
 
 > - Saat hâlâ durdurulmuş (10 Kas 18:04; sahibinin isteğiyle durmuş kalıyor). İnceleme saat dururken 45 dk sürdü (sahibinin
 >   beyanı) — aktif süreye eklenir: şimdiye kadar 3 sa 19 dk + 45 dk = **4 sa 04 dk**.
 
-**3256** · `e7229204e3` · satır 699 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2917** · `e7229204e3` · satır 699 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - Saat 12:49'da başladı (`sablon/vakalar/vaka4_baslangic.md` süre tablosu). Form onaylı (Onay 1, `vaka4_form.md`),
 >   diyalog `vaka4_diyalog.md`, veri `yeni/game_data.json` V4 + künye + 80 yer tutucu (görsel yok).
 
-**3257** · `bfb7d67258` · satır 701 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2918** · `bfb7d67258` · satır 701 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - Görselsiz tur: `node arac_yeni_tur.js [karar] [soz|aksam|ilham|cozmez4] [dogru|zayif|tarik|rana]` (araca V4 eklendi).
 >   Sızıntı taraması temiz. Doğrulayıcıda iki kabul edilecek K8 uyarısı: "Polise teslim et" kararı para ve vicdanda
 >   "uzaklaştır" ile "gerçeği söyle"nin gerisinde (Onay 1'de sahibi kararları olduğu gibi onayladı).
 
-**3258** · `e7a18ce76c` · satır 704 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2919** · `e7a18ce76c` · satır 704 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - `test_yeni_v2.js`: görselsiz aşamada künye portresi de yer tutucu olabilir.
 
-**3259** · `7e2fee4861` · satır 705 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2920** · `7e2fee4861` · satır 705 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - Saat 14:46–16:42 durdu (ara 1, 1 sa 56 dk); 16:42'de yeniden işliyor.
 
-**3260** · `eab1c571e6` · satır 706 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2921** · `eab1c571e6` · satır 706 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - **Saat DURDU: 10 Kas 18:04** (ara 2). Onay 2 sürüyor: giriş notları işlendi (13 not). Geri düğmesi ve Kim yaptı?'daki
 >   kanıt listesi sahibince denendi, sorun yok (eski yayın sürümünden kaynaklanmış olabilir: son yayın GitHub'da zaman
 >   aşımına uğramıştı, yeniden başlatıldı).
 
-**3261** · `e07f472b0f` · satır 709 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2922** · `e07f472b0f` · satır 709 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - Sıradaki: sahibi Vaka 4'ü yayında oynar ("Vaka N'den başla" → Vaka 4), notları toplu verir (adım 6–7).
 
-**3262** · `40e77da16a` · satır 711 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2923** · `40e77da16a` · satır 711 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > **Yeni pencere için (10 Kasım 2026 akşam):**
 
-**3263** · `69a3bf330b` · satır 712 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2924** · `69a3bf330b` · satır 712 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - **Saat durdurulmuş (18:04).** Sahibi "başla" deyince `vaka4_baslangic.md` ara tablosunda ara 2 kapanır, saat işler.
 >   Aktif süre o ana kadar 3 sa 19 dk (adım dağılımı aynı belgede; 3–4 ile 5'in bölüşümü yaklaşık).
 
-**3264** · `b720d4b1a9` · satır 714 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2925** · `b720d4b1a9` · satır 714 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - **Onay 2 nasıl yürüyor:** sahibi telefondan ekran görüntüsüyle not gönderir; satır üstünde konuşulur ("önceki/sonraki
 >   10 satırı yaz" isteyebilir), öneri verilir, sahibinin seçtiği hâl not listesine yazılır; "yayına koy / güncelle" deyince
@@ -16044,7 +14351,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   açıklayıcı, en az 15 satır, üst sınır yok) Vaka 4'e henüz uygulanmadı, sahibinin kararı. Sıradaki: konuşma sahnesi ve
 >   ipuçları.
 
-**3265** · `9707a9e273` · satır 719 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2926** · `9707a9e273` · satır 719 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - **Değişiklik nereye yazılır:** replik, sahne, karar metni → `sablon/vakalar/vaka4_diyalog.md`, sonra
 >   `node arac_diyalog.js ../sablon/vakalar/vaka4_diyalog.md V4`. **Yapı** (olgu metni `facts`, ipucu kartı `clues[].text/meta`,
@@ -16053,77 +14360,77 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   betikle kuruldu, depoda yok — yeniden kurmak gerekmez, veri artık tek kaynak. Aynı değişikliği `vaka4_form.md`'ye de
 >   işle (örnek: "yüz lira" diyalogda, olguda, ipucu kartında, itirafta, hikâyede ve formun fiyat tablosunda değişti).
 
-**3266** · `42f2193c19` · satır 725 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2927** · `42f2193c19` · satır 725 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - **Yayın kontrolü:** `main`'e push yayını tetikler (~2–10 dk). GitHub'ın "deploy" adımı bir kez zaman aşımına uğradı ve
 >   sayfa eski kaldı. Şüphede: GitHub MCP `actions_list` → `list_workflow_runs` (pages build and deployment); `failure`
 >   ise `actions_run_trigger` → `rerun_workflow_run`. Oturumdan github.io'ya doğrudan erişim yok.
 
-**3267** · `de065ea033` · satır 728 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
+**2928** · `de065ea033` · satır 728 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000000. 10 Kasım 2026 öğleden sonra — VAKA 4: Onay 2 (görselsiz test)
 
 > - **Resim aşamasından önce hatırlat:** Codex 2 kol desteği (`uretim/dongu.sh` kilit, kol başına log/kayıt, `AGENTS.md`)
 >   henüz yazılmadı; sahibi "yap" deyince (`vaka4_baslangic.md` §3).
 
-**3268** · `81ef0ed542` · satır 733 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+**2929** · `81ef0ed542` · satır 733 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 > Sahibinin kararı (yalnız belge, kod yazılmadı):
 
-**3269** · `91da1df44c` · satır 734 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+**2930** · `91da1df44c` · satır 734 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 > - **Yeni sıra:** 1) **Vaka 4** sıfırdan, Vaka 3'ün kurallarıyla, saat baştan sona işler; 2) **Vaka 1 + 2** Vaka 3'ün
 >   kurallarına göre yeniden, resimleri iki pencerede paralel; 3) İngilizce; 4) kapalı test, yayın. Vaka 4 yayında stok olur.
 
-**3270** · `5c7f0112d3` · satır 736 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+**2931** · `5c7f0112d3` · satır 736 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 > - **Başlarken:** `sablon/vakalar/vaka4_baslangic.md` (okuma sırası, konu = `YENI_OYUN_SEZON.md` → FALCI, genişletilmiş süre
 >   tablosu: sahibi/makine ayrı + resim sayımları). Sahibi "Vaka 4'e başla" deyince saat o an başlar.
 
-**3271** · `75063e5584` · satır 738 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+**2932** · `75063e5584` · satır 738 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 > - **Codex 2 kol denemesi** Vaka 4'ün resim aşamasında. `dongu.sh` kol desteği ve `AGENTS.md` kol başına kayıt **henüz yok**;
 >   resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır.
 
-**3272** · `46d762d1e9` · satır 740 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+**2933** · `46d762d1e9` · satır 740 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 > - **Vaka 4 bitince yeniden planlanır:** Vaka 1–2'nin paralel üretimi (iki pencere, pencere başına bir vaka; ortak yüz
 >   referansları Vaka 3'ten, kıyafet temelleri vakaya özgü; gömme sırayla) ve sahibinin arkadaşının ikinci Claude hesabıyla
 >   metin kolu (onaylar birlikte verilir). İkisi de Vaka 4'ün rakamlarına göre konuşulur; şimdilik belgeye yazılmadı.
 
-**3273** · `f5eee5800b` · satır 743 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
+**2934** · `f5eee5800b` · satır 743 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000000. 10 Kasım 2026 — SIRA DEĞİŞTİ: önce VAKA 4 (ölçüm vakası)
 
 > - Vaka 4'te yeni kural çıkarsa: Vaka 1–2 zaten yeniden yapılacağı için onları bekletmez; yalnız donmuş Vaka 3'ü etkiliyorsa
 >   Vaka 3 ayrıca denetlenir.
 
-**3274** · `4e4ce9617e` · satır 748 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+**2935** · `4e4ce9617e` · satır 748 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 > - **Pembe önlük temizlendi:** Gizem temiz önlük veriyor ama 6 önlüklü figür + 6 ara kare (K45b, K45c, K50–K53) ve kart
 >   G103 pekmezli/susamlıydı (kök sebep G3 istemi: "kenarlarına yer yer pekmez bulaşmış"). Yapay zekâsız, yalnız önlük
 >   bölgesi temizlendi; resmin geri kalanı aynı. `onayli/` orijinaller de temiz; istemlere "## Düzeltme" notu; `uret.py`'de
 >   önlük "yeni ve tertemiz". Betikler kalıcı değil (oturum geçici klasöründeydi); gerekirse yeniden yazılır.
 
-**3275** · `fa0ef61017` · satır 752 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+**2936** · `fa0ef61017` · satır 752 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 > - **Sızıntı taraması** (40 yol, 1406 ekran) temiz; elle okumada tek aday: MASUM Kenan'daki "Yalanı iş aradığı içindi"
 >   (`kenan_yalan` yalnız D ipucunda) — sahibinin onayıyla çıkarıldı.
 
-**3276** · `237c24f194` · satır 754 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+**2937** · `237c24f194` · satır 754 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 > - **Son turlar** temiz: kod/foto/borç/Badem doğru, zayıf, Kenan'ı ve Gizem'i suçlama, tablet, 19 boy (bilinen tek bayrak 1280×650 seçim ekranı).
 
-**3277** · `a0bfd166e7` · satır 755 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+**2938** · `a0bfd166e7` · satır 755 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 > - **"Vaka N'den başla" düğmesi AÇIK KALIR** (`VN_VAKA_ATLA = true`, sahibinin kararı; yayından önce yine kapanır).
 
-**3278** · `5bc8cf2f82` · satır 756 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+**2939** · `5bc8cf2f82` · satır 756 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 > - Süre: 22 Eki 21:09'dan sonrası **ölçülmedi** (sahibinin kararı); ölçülen ≈ 7 sa 09 dk — `vaka3_baslangic.md` §2.
 
-**3279** · `b6699ba9af` · satır 757 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
+**2940** · `b6699ba9af` · satır 757 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000000. 9 Kasım 2026 akşam — ✅✅ VAKA 3'ÜN TÜRKÇESİ DONDU (adım 14)
 
 > - **Sıradaki iş:** `RAF_KARARLARI.md` yayın sırası — Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden; sonra İngilizce.
 >   Sahibi başlatınca konuşulur (önce konuş, sonra yap).
 
-**3280** · `5338cd3cdf` · satır 762 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000. 9 Kasım 2026 — Yayın planı konuşuldu: mobil kitap rafı (yalnız belge)
+**2941** · `5338cd3cdf` · satır 762 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000000. 9 Kasım 2026 — Yayın planı konuşuldu: mobil kitap rafı (yalnız belge)
 
 > Sahibiyle Play Store / App Store yolu fikir olarak konuşuldu; kararların tamamı **`kaynak/RAF_KARARLARI.md`**.
 > Özet: tek mobil uygulama "Ajar: Story Choices" (geliştirici "Ajar Interactive", `ajarstories.com`), içinde bağımsız oyunlar (kitaplar), Paravan ilki. Türkçe
@@ -16137,7 +14444,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > Takvim: hedef haftada bir vaka üretmek, söz daha seyrek (Vaka 4–5 ölçülünce); yayından önce ve her zaman 1–2 vaka stok.
 > Vaka 4 ve 5'te süre çeviri dahil ölçülecek (`RAF_KARARLARI.md` §11c).
 
-**3281** · `d3919e2aad` · satır 776 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2942** · `d3919e2aad` · satır 776 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > **Durum tek cümle:** aşağıdaki listedeki bütün resimler üretildi, denetlendi (eller omuzdan ele), gömüldü ve diyaloğa
 > bağlandı; ek olarak K40k (Kenan yolunun kaçışı, Kenan önlüksüz) ve `gizem.tabla` (G94). G1, G2, G3, G27, G28, G72, G92
@@ -16146,15 +14453,15 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > Kalıcı kurallar bu gün eklendi: `uretim/CLAUDE.md` "Temeller önce, takılan temel HEMEN sahibine" ve denetim 15 (çekicilik);
 > web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
 
-**3282** · `1d45b2a625` · satır 783 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2943** · `1d45b2a625` · satır 783 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > **Sonra, sahibi telefonda oynarken (8 Kasım gece):**
 
-**3283** · `373c2d9668` · satır 784 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2944** · `373c2d9668` · satır 784 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > - Kasa satırında ("Kasanın kapağında tek çizik yok") dinleyen Ferruh `gi: normal` — önceki panik yüzünü taşımıyordu.
 
-**3284** · `a5e2de1182` · satır 785 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2945** · `a5e2de1182` · satır 785 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > - **Dükkân girişi yeniden kuruldu:** yeni dış cephe **A23d** (G95, "Karaköy · Susam Pastanesi önü", grup susam; ipucu
 >   dukkan sahnesinin başlangıç arkası) → Ferruh kapıda karşılıyor → "Peri içeri adım atıyor… kendi afişi" satırında arka
@@ -16162,19 +14469,19 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   (test_yeni_arayuz kapak ipucu sahnesinin başlangıç arkasında olmalı diyor; afişsiz olduğu için de uygun).
 >   A23d'nin ışığı sabah/akşam arası belirsiz; sahibine soruldu, cevap gelmedi.
 
-**3285** · `5f75cf3588` · satır 790 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2946** · `5f75cf3588` · satır 790 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > - **Yeni kural SR-L — mekân ve olay akışı mantıklı** (`5_gorsel_sistemi.md` C0; `7_uretim_sureci.md` bulanık replik
 >   taraması "Akış: kim nerede, ne sırayla?"; diyalogda sahne başına `⚙ akış:` notu). Sözleşme artık SR-A…L.
 
-**3286** · `4fb5cc294c` · satır 792 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2947** · `4fb5cc294c` · satır 792 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > - **Peri %23 büyük çiziliyordu** ("Tamam. Ben yaptım." satırında Ferruh bir baş kısa görünüyordu): `peri.simit.sinirli`,
 >   `peri.simit.utanmis`, `peri.onluklu.utanmis` dar yeniden kesilmiş ama `gorseller.json → genis` listesinde kalmıştı;
 >   listeden çıkarıldı. `build_html.js yeni` artık geniş liste ↔ kesim genişliğini iki yönde de denetliyor, uyuşmazsa durur.
 >   A23d'nin ışığı olduğu gibi kalır (sahibi).
 
-**3287** · `ea32d5be7f` · satır 796 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2948** · `ea32d5be7f` · satır 796 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > - **K45 (önlük sahnesi, 5 satır tek kare):** Gizem susamı 5. satırdan önce yiyordu, Peri'nin bir ayakkabısı elindeydi,
 >   "önlüğü bağlıyor" resimde yoktu (sahibi). Metin: "Gizem **kolundaki** pembe tezgâh önlüğünü…" (K43'te önlük kolunda; eski
@@ -16182,29 +14489,29 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   anı, yeni G96 (K45b) bağlama + susam; ikisi gömülü, 5. satır `kare: K45b`. Ardından G97 (K45c): 6. satır
 >   imalathanede kare, önlük bölümü `arka: A25`; 122→123 yer geçişi sahibinin kararıyla kaldı. Ayrıntı `uretim/v3/DURUM.md`.
 
-**3288** · `761e80035b` · satır 801 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2949** · `761e80035b` · satır 801 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > - Sahibi Onay 3'ü telefonda sahne sahne sürdürüyor; bulduğu her şey bu kurallarla çözülür (önce konuş, sonra yap).
 
-**3289** · `71904d5bf7-2` · satır 803 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
+**2950** · `71904d5bf7-2` · satır 803 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
 > ---
 
-**3290** · `dcc8c1f72b` · satır 807 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2951** · `dcc8c1f72b` · satır 807 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > **Durum tek cümle:** sahibi Onay 3'te Vaka 3 ekranlarını tek tek gösterdi; kurallar birlikte bağlandı ve belgelere
 > yazıldı (`sablon/5_gorsel_sistemi.md` C0 SR-A…K ve I. Kıyafet kartı; `2_kural_kitabi.md` 4a; `7_uretim_sureci.md`
 > adım 3/8/11 ve "Satır–resim uyumu"; `uretim/CLAUDE.md` madde 8 ve denetim 12–14; `uretim/ISTEM_KALIPLARI.md` §10).
 > Aşağıdaki işlerin **hiçbiri yapılmadı**; sahibine sırayla sor, "yap" demeden başlama.
 
-**3291** · `7813215af6` · satır 812 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2952** · `7813215af6` · satır 812 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > **Kod/araç — YAPILDI (8 Kasım):** motor konuk–konuk düzeni (`{kime: <konuk>}` → konuşan solda aynalı, hitap edilen
 > sağda; `yeni_arayuz.js` + `.css`; eski `index.html` md5 aynı, V3 `kod dogru` turu hatasız) ve `arac_satir_resim.js`
 > HİTAP bayrağı (`kime`si ekranda olmayan satır). Replikte adı geçen kişi bayrağı **yapılmadı**: sahnede olmayan birinden
 > söz serbest (sahibinin kararı), bayrak gürültü olurdu.
 
-**3292** · `3fd4071fa5` · satır 817 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2953** · `3fd4071fa5` · satır 817 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > **Vaka 3 metin — YAPILDI (8 Kasım, 756121f).** Ayrıca 227 ve 238 Nadide → `kime: ferruh` (Ferruh'a adıyla
 > seslenir). 250 (Gizem yolu, "Bu fotoğrafı yarın sabah eksper görecek") `kime: peri` kaldı — Ferruh'a seslenmiyor.
@@ -16213,74 +14520,74 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > doğru koşuyor."); 192 Rüstem: "elindeki hesap makinesini bırakıp" → "hesap makinesi elinde ayağa kalkıyor";
 > 379'dan sonra yeni anlatı: *"Gizem simit tablasını masaya bırakıyor."*
 
-**3293** · `d5e286f2c0` · satır 824 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2954** · `d5e286f2c0` · satır 824 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > **Vaka 3 resim (onaylı):**
 
-**3294** · `ad46c88500` · satır 825 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2955** · `ad46c88500` · satır 825 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - Kıyafet kartları tek sayfada (önce bunlar). Peri trençkotu **uzun, diz altı** (ölçü: un deposu karesi).
 
-**3295** · `1167ccb434` · satır 826 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2956** · `1167ccb434` · satır 826 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - Peri trençkot **kapalı** ve **açık** setleri (7 ifade + pozlar). Hâl tablosu: büro 22–39 kapalı; büro 40–46 ve
 >   konuşma sahnesi açık; A23 dükkân açık; A26 arka sokak kapalı; A27 Tophane kapalı; A25 imalathane açık; A28 Badem açık;
 >   A29 toptancı açık; A23b akşam yüzleşmeleri açık.
 
-**3296** · `ee4f5a120f` · satır 829 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2957** · `ee4f5a120f` · satır 829 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - Peri `onluklu.simit_elinde` (396) ve `onluklu.simit_isiriyor` (397).
 
-**3297** · `34a3b88b39` · satır 830 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2958** · `34a3b88b39` · satır 830 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - **Önlüklü Peri baştan (8 Kasım, sahibi):** önlük GÖĞÜSLÜ ve tam (boyun askılı, kalp yaka — dekolte biraz görünür,
 >   diz üstüne iner); önlük takıldıktan sonra da saçında, yüzünde, göğsünde, bacaklarında pekmez VE susam. Kart G103.
 >   Yeniden üretilecek onaylılar: G3, G26–G29 (önlüklü figürler), G58 (K45, önlüğün bağlandığı kare), G63–G66 (K50–K53).
 
-**3298** · `d2155c0653` · satır 833 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2959** · `d2155c0653` · satır 833 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - **Kıyafet kartları G101–G111** (`uretim/v3/onayli/`): HEPSİ onaylı (8 Kasım; G103 göğüslü önlükle ikinci denemede). Bel altı seçimleri sahibince
 >   onaylandı (Cengo kahverengi bot, Kenan/Ferruh koyu pantolon + siyah ayakkabı, Nadide koyu kahve alçak topuk, Sedat
 >   siyah iş botu, Ayla siyah pantolon).
 
-**3299** · `792a1b391f` · satır 836 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2960** · `792a1b391f` · satır 836 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - Gizem: korkmuş telefonsuz (136, 137, 139), telefonu öne/aşağı bırakırken (249), öfkeli (272), Peri'yi baştan aşağı
 >   süzerken (129), tek simit uzatıyor (392, tablasız).
 
-**3300** · `34485264e6` · satır 838 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2961** · `34485264e6` · satır 838 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - Kenan: esniyor (154; koyu halka için mevcut gölge yeter), önlüksüz-önlük elinde-öfkeli (236–237).
 
-**3301** · `add9952265` · satır 839 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2962** · `add9952265` · satır 839 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - `ferruh.bembeyaz` (240; `terli`/`alingan`dan ayrılmalı). Sedat tableti açık, ekrana bakıyor (ekran kameraya dönük
 >   değil). Ayla bakışı aşağıda, Cengo'nun ellerinde.
 
-**3302** · `9855b50791` · satır 841 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2963** · `9855b50791` · satır 841 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > - Kareler: K40a (herkes Ferruh'a dönmüş, telefonsuz, 239), K40b (aynı an, telefon elden ele, 251); K46–K49 yeniden —
 >   SONUÇ metninin anı, Cengo unlu (anlar istemden önce sahibine); Kenan hamur kesiyor (imalathane girişi); Peri masanın
 >   altından çıkıyor (383, K53 açısı); Cengo Peri'nin kulağına fısıldıyor; Peri afişi yüzü duvara dönük koyuyor (387);
 >   kısa trençkotlu bütün kareler (tur sonrası sayılacak).
 
-**3303** · `71904d5bf7-3` · satır 846 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
+**2964** · `71904d5bf7-3` · satır 846 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 > ---
 
-**3304** · `7378c473df` · satır 850 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2965** · `7378c473df` · satır 850 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > **Durum tek cümle:** Vaka 3'ün 68 resmi (G68 = `ferruh.alingan`, sonradan eklendi) eski tarzla ve "dünkü ayarlarla"
 > (Peri ve Gizem dekolteli) yeniden üretildi, oyuna gömüldü, dört yol görselli turla denetlendi, `main`'de ve yayında.
 > Ayrıntı ve sayım: `uretim/v3/DURUM.md`. Resim düzeni: `uretim/CLAUDE.md`, istem kalıpları: `uretim/ISTEM_KALIPLARI.md`.
 
-**3305** · `1f48e70e17` · satır 854 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2966** · `1f48e70e17` · satır 854 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > - **Yeni araçlar:** `kaynak/arac_hale.py` (saç halesi; yeşil zemin varsayılan, `--zemin bej` koyu saçlı bej zeminli figür),
 >   `kaynak/arac_satir_resim.js` (tur dökümünden resim→satır listesi ve EYLEM/JEST/KONUŞAN bayrakları),
 >   `uretim/dongu.sh` (Codex üretim döngüsü; durdurmak için `touch uretim/v<N>/DUR`).
 
-**3306** · `6821631e3c` · satır 857 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2967** · `6821631e3c` · satır 857 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > - **Sahibinin kalıcı kararları (6–7 Kasım):** tarz = eski resimler (Peri/Cengo/varyant istemlerinde tarz paragrafı YOK);
 >   Peri ve Gizem dekolteli (§9); Peri ve Cengo'nun saçı dağınık, hale gömmede temizlenir; **satır–resim uyumu zorunlu**
@@ -16288,87 +14595,87 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   zemin saçtan da uzak** (kızıl/açık saç → gri-mavi, yeşil yok, temelde iki zemin denemesi — `5_gorsel_sistemi.md` H4);
 >   her vakaya kendi **masa kartı** (`MASA_V<N>`, kart afişinden yatay kırpık).
 
-**3307** · `917ae68332` · satır 862 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2968** · `917ae68332` · satır 862 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > - **Bu bilgisayarda araç ortamı:** `PW=D:/Yazilim/paravan/araclar/node_modules/playwright`,
 >   `CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe`, `PYTHONIOENCODING=utf-8`.
 
-**3308** · `8f33c37763` · satır 864 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2969** · `8f33c37763` · satır 864 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > - **Açık kalan (sahibine sorulmadı, isteğe bağlı):** `YENI_UI/satir_resim.md`'deki 5 EYLEM / 10 JEST bayrağı küçük jest farkları
 >   (ör. "Cengo ceketindeki unu silkeliyor", "(yarım simidi ısırarak)"); bilerek bırakıldı.
 
-**3309** · `be36d53056` · satır 866 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2970** · `be36d53056` · satır 866 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > - **Sıradaki adım (şablon 7. parça):** Vaka 3 için adım 12–14 — Onay 3 (sahibi oyunu oynar), düzeltmeler, vaka donar.
 >   Ardından Vaka 4: `istemleri hazırla 4` yeni kurallarla.
 
-**3310** · `71904d5bf7-4` · satır 869 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
+**2971** · `71904d5bf7-4` · satır 869 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000000. ⬅️ 7 Kasım 2026 — Vaka 3 resimleri YENİDEN üretildi (Codex + yerel Claude), gömüldü, yayında
 
 > ---
 
-**3311** · `fbd4ed6d45` · satır 873 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2972** · `fbd4ed6d45` · satır 873 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > **Durum tek cümle:** sahibi 67 görseli ChatGPT'de baştan üretti, kontrollerini masaüstünde yaptı ve GitHub web'den
 > yükledi; 67'si de `yeni/index.html`'de. Sıradaki: adım 11 (görselli tur, bütün yollar) ve Onay 3.
 
-**3312** · `0a739d17a4` · satır 875 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2973** · `0a739d17a4` · satır 875 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > - **Klasörler:** yeni set `sablon/vakalar/vaka3_gelen/` (G1–G67). Eski onaylı set + red/ham dosyalar
 >   `vaka3_gelen_eski/`. 15 dosya (G1–G3, G9, G19–G29) eskisiyle birebir aynı — sahibi bilerek tuttu.
 
-**3313** · `bf4c9166e9` · satır 877 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2974** · `bf4c9166e9` · satır 877 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > - **Yükleme yolu (sahibi için):** github.com → `…/upload/main/<klasör>`; tek seferde ~10 dosya (67 PNG birden
 >   "file is too large" verdi).
 
-**3314** · `9d5bc0c443` · satır 879 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2975** · `9d5bc0c443` · satır 879 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > - **Kesim:** Ferruh (G7, G37, G38) ve Gizem (G9, G40–G42) beyaz gömlekli → yeni profil `konuk_beyaz_delik`
 >   (`arac_kes.js`: delik tol 4 + zemin köşelerden tek renk, `refSabit`; kenara değen kol satırın zemin örneğini
 >   bozuyordu). Peri G2, G20, G25, G28, G29 `--genis`. Komut:
 >   `node arac_paket.js ../sablon/vakalar/vaka3_gelen --vaka 3 --profil G7=konuk_beyaz_delik,… --genis G2,G20,G25,G28,G29 --yaz`
 
-**3315** · `2645e89fec` · satır 883 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2976** · `2645e89fec` · satır 883 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > - **Kart afişi** G67 → `yeni_gorsel/kart_v3.webp`, `gorseller.json → kart.V3` (araç "kart afişi" türünü tanımıyor; elle).
 
-**3316** · `ca562721a5` · satır 884 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2977** · `ca562721a5` · satır 884 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > - **Boy (5 Kas, sahibinin seçimi "küçült"):** nadide .74, ferruh .74, kenan .76, gizem .68, sedat .70, ayla .72, rustem .74. Bu konuklar dizden kesik çizildiği için 0.8 civarı ekranda fark etmiyor (genişliğe takılıyor); etkisi ~0.75 altında başlıyor. Rüstem ekranda görülmedi (borc yolu).
 
-**3317** · `7d9c150fd8` · satır 885 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
+**2978** · `7d9c150fd8` · satır 885 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000000. ⬅️ 5 Kasım 2026 — Vaka 3 görselleri BAŞTAN üretildi ve gömüldü (adım 9–10 bitti)
 
 > - `yeni/index.html` 15,8 MB → 25,1 MB.
 
-**3318** · `2066f9d3be` · satır 889 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
+**2979** · `2066f9d3be` · satır 889 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
 
 > **Durum tek cümle:** hikâye donmuş sayıldı (sahibi, 22 Eki 12:59); görsel listesi ve promptlar hazır, **iş sayfası:
 > https://claude.ai/artifact/HowknAwGDJxYk21EawvJju** (67 görsel). Ara 14 açık (22 Eki 21:09); "başlat" deyince kapat. 45 görsel onaylı (G1–G44, G9 yenilendi); kalan Aşama 2: G45–G48. Aşama 2: G19–G24 onaylı, sıradaki G25. Onaylı: G1, G12–G18 (`vaka3_gelen/`; G17 tente yazısı rötuşlu, ham G17_ham). Onaylı ayrıca G2–G6, G9, G13–G18. G7 Ferruh ve G8 Kenan ikinci denemede onaylandı. G12 Sedat ve G14 Rüstem ikinci denemede onaylandı (G14 hesap makinesindeki iz rötuşlu). Susam dörtlüsü şeridi hazır (`ref/serit_susam_dortlu.jpg`, K39 ve afişte). **Aşama 1 TAMAM (G1–G11 + G12–G18 onaylı, 22 Eki).** Aşama 2 (G19–G48) başladı. (yüzleri eski yan karakterlerin kopyası çıktı; tarz referansları artık başı silinmiş `tarz_govde_*`, D-3).
 
-**3319** · `c9f1b0407c` · satır 891 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
+**2980** · `c9f1b0407c` · satır 891 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
 
 > - **Yeni düzen (sahibinin isteği):** Aşama 1 = ana referanslar G1–G11 (Peri trençkot/felaket/önlüklü, Cengo haki/unlu, Nadide,
 >   Ferruh, Kenan, Gizem, A23 Susam, A25 imalathane) tek pencerede → Claude hepsini onaylar → Aşama 2 (G19–G48) gruplar
 >   üç ChatGPT penceresinde paralel, 8–10 görsel birikince toplu gelir, Claude toplu değerlendirir → Aşama 3 kareler + afiş (G49–G67).
 >   "Beklemeden" G12–G18 (Sedat, Ayla, Rüstem, A26–A29) hiçbir onaya bağlı değil.
 
-**3320** · `4a01be5496` · satır 895 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
+**2981** · `4a01be5496` · satır 895 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
 
 > - **Yapıldı (22 Eki):** "Susam dörtlüsü şeridi" (Nadide, Ferruh, Kenan, Gizem bej zeminde tek görsel; V2 kart `ref/`
 >   yöntemi) → `vaka3_sayfa/ref/` + K39 (G52) ve afiş (G67) kartlarına dosya referansı olarak eklenir, sayfa yeniden yayımlanır.
 
-**3321** · `eb906bc077` · satır 897 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
+**2982** · `eb906bc077` · satır 897 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
 
 > - **Kaynak:** `sablon/vakalar/vaka3_sayfa/uret.py` (promptlar) → `python3 uret.py` → `veri.js`, `vaka3_gorseller.html`, `../vaka3_gorsel.md`
 >   (arac_paket.js'in okuduğu tablo). Elle değil, uret.py'de değiştir; aynı dosya yoluyla yeniden yayımla.
 
-**3322** · `81dca76a7c` · satır 899 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
+**2983** · `81dca76a7c` · satır 899 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000000. 22 Ekim 2026 — Vaka 3 adım 8 bitti, görsel üretimi başlıyor (SAAT DURUK: ara 14, 22 Eki 21:09'den beri)
 
 > - **Nurcan dikkat:** D8 (kayıt cihazı) ve D9 (Gizem'in fotoğrafı) önlüğün sahibini ele vermemeli (kol, gömlek, beden, papyon görünmez);
 >   afişte önlük yok, şüpheliler eşit.
 
-**3323** · `4d96caf484` · satır 904 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2984** · `4d96caf484` · satır 904 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > **Durum tek cümle:** Vaka 3 adım 1–5 bitti (17 Ekim); **Onay 2 açık** — sahibi oynuyor, notlarını tek tek veriyor.
 > Adım 8 (görsel listesi + promptlar, `vaka3_gorsel.md` + `vaka3_sayfa/`) **başlamadı**; Onay 2 kapanınca başlar.
@@ -16381,11 +14688,11 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > Sahibinin onayıyla yalnız yüzleşme + itirafın söylediğine indirildi. V1 sete_gotur / susmayi_sat'taki "beyaz boya / lüks yat"
 > bilerek kaldı (çaycı sezdiriyor; espri). Kural: masum açıklaması ve karar metni yalnız HER YOLDA oynayan sahnelerin söylediğini anar. Tarama artık araç: `arac_sizinti_tur.js` (her vakadan sonra; şablon 7. parça adım 5 ve 14). V1/V2'de kısa ad yok → tam metin + "0 / 2" sayacı — önerildi (V1: 13, V2: 15 kanıt; yalnız ad, kod hazır); sahibi YARIN karar verecek.
 
-**3324** · `f09829061f` · satır 915 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2985** · `f09829061f` · satır 915 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > **Bu pencerede (18 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı):**
 
-**3325** · `e1aaae01c0` · satır 916 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2986** · `e1aaae01c0` · satır 916 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Dükkân sahnesi, afiş esprisi** yeniden yazıldı: Peri "Değilim" der, hemen afişin ışığını eleştirir
 >   ("hep söylerdim"); Ferruh "Kime söylerdiniz efendim?"; Cengo "Gizli görev yine bitti. Bu sefer kendin
@@ -16393,143 +14700,143 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   "Tekrar eden şaka büyüyor mu?". (`vaka3_form.md`'deki eski "Afişte gözlük yok" Onay 1 kaydıdır, bilerek
 >   değişmedi; sahnelerin tek kaynağı diyalog dosyası.)
 
-**3326** · `95dc5c46a3` · satır 921 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2987** · `95dc5c46a3` · satır 921 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Kapanış, saklanma:** Peri masanın altına girerken **K53** karesi (V2 K20'nin açısı: kapıda simit tablalı
 >   Gizem + unlu Cengo, masanın altında pembe önlüklü Peri; Peri'nin yüzü eli ağzında, gözler iri). Yeni kare →
 >   adım 8'de prompt yazılacak. Kural: `7_uretim_sureci.md` → "Saklanan kişi".
 
-**3327** · `33cd1681ed` · satır 924 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2988** · `33cd1681ed` · satır 924 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Gizem sahnesi:** "Hepsi susamlı teyzeciğim" K38 karesinde kalır (kare kalkınca Peri karşısında görünüyordu).
 >   Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı". Aynı sahnede Gizem gece olanları anlatırken Cengo'nun
 >   dinleme yüzü `kas` (önceki satırdan "gülen" kalıyordu).
 
-**3328** · `eb6dfa5242` · satır 927 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2989** · `eb6dfa5242` · satır 927 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Saat "kala" ile geriye sayılmaz** (kural kitabı 5b, bütün vakalar): Vaka 3'te "on bire … kala", "gece yarısına beş
 >   kala" dijitale çevrildi; cihazdan okunanlar ekrandaki gibi. "Buçuk", "çeyrek geçe" doğru — Vaka 2 olduğu gibi kalır (sahibi).
 
-**3329** · `884d0bc2c4` · satır 929 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2990** · `884d0bc2c4` · satır 929 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Gizem'in fotoğrafı bilerek çekilir** (sahibinin onayı): "teyzelere atacaktım" zayıftı; Gizem kasanın başında birini görünce
 >   telefonla çeker, tablayı elinden bırakmamış. D9 = önde tablayı tutan eli. Fotoğraf yol 3'ün ve Gizem'in masumluğunun kanıtı —
 >   kamera (D8) dükkâna gitmeyen oyuncuya ulaşmaz, o yüzden kalkamaz.
 
-**3330** · `ce7672f023` · satır 932 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2991** · `ce7672f023` · satır 932 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Yeni kare eklerken üç yer** (`kanon.sahne.kareler` dahil): `kaynak/yeni/OKUBENI.md`.
 
-**3331** · `8763460602` · satır 933 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
+**2992** · `8763460602` · satır 933 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000000. ⬅️ 18 Ekim 2026 — Vaka 3 Onay 2 sürüyor (SAAT DURUK: ara 10, 21:48'den beri)
 
 > - **Açık, sahibine soruldu:** Vaka 2'deki aynı kalıp (`vaka2_diyalog.md:349`, Lâl gelirken Peri masanın arkasında,
 >   `gizle` aynı satırda) — Vaka 2 donmuş, dokunulmadı; sahibi isterse.
 
-**3332** · `4808913a56` · satır 938 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
+**2993** · `4808913a56` · satır 938 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 > **Durum tek cümle:** Vaka 3'ün çerçevesi sahibiyle konuşuldu; süre ölçümü ve form henüz başlamadı.
 > Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 1 (form, `vaka3_form.md`).
 
-**3333** · `2794aa8ed5` · satır 941 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
+**2994** · `2794aa8ed5` · satır 941 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 > - **Tip: Bilmece** (Vaka 1–2 gibi). Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`1_oyun_yapisi.md`).
 
-**3334** · `e23bc43898` · satır 942 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
+**2995** · `e23bc43898` · satır 942 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 > - **Konu: Simit Soygunu** (`YENI_OYUN_SEZON.md`), Bilmece'ye çevrilmiş hâli: pastane sahibi sigorta için kendi
 >   dükkânını sahte soyduruyor; oyuncu da bilmiyor. Taslak şüpheliler: sahip (suçlu), ortak/müdür (yanıltan iz),
 >   Gizem (masum, tek gerçek tanık). Kararlar taslaktaki üçlü.
 
-**3335** · `55e3667e29` · satır 945 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
+**2996** · `55e3667e29` · satır 945 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 > - **Yan karakter: Gizem** — tezgâhtar, yirmili yaşlarının ortası, hazırcevap, seksi ve işveli; Cengo'yla atışır,
 >   Peri'yi zaman zaman kıskançlık krizine sokar; vakadan sonra büroya yerleşir (`3_kanon_kaydi.md`).
 
-**3336** · `03ace4e7a3` · satır 947 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
+**2997** · `03ace4e7a3` · satır 947 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 > - **Peri her zaman Gizem'den üstün** (Vaka 2 kuralı sürer; promptlara baştan).
 
-**3337** · `e080be2371` · satır 948 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
+**2998** · `e080be2371` · satır 948 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000000. 17 Ekim 2026 — Vaka 3 kararları (Vaka 3 BAŞLADI 14:19; durum yukarıda)
 
 > - **Gizem referans seti:** şimdi yok. Vaka 3'te önce temel figür; Vaka 3 bitince sahibiyle karar: küçük set
 >   (8–10) ya da tam set (25). Ölçü: Cengo setinde C2–C25 ≈ 62 dk (commit saatleri, ~2,5 dk/görsel).
 
-**3338** · `245306db78` · satır 953 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**2999** · `245306db78` · satır 953 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > **Durum tek cümle:** Web'de paylaşım kuruldu ve iki vakanın da afişli kartı gömülü. Cengo referans seti de
 > **bitti** (17 Ekim, C1–C25 → `sablon/cengo_poz/` + dizin). Sıradaki iş: **Vaka 3** (aşağıdaki bölüm).
 
-**3339** · `700ae70e1a` · satır 956 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**3000** · `700ae70e1a` · satır 956 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > - **Ne var:** biten vakada "Arkadaşına öner" (kapanış sonrası ekran — kaçan ipucu yoksa "Dosya kapandı" — ve
 >   Defter → Anı). Kart 1080×1920 tarayıcıda çizilir: vakanın afişi + altta KÜÇÜK kutu (vaka no/adı, "Sen olsan
 >   ne yapardın?") + bağlantı. Giriş cümlesi ve "Ben bu dosyayı kapattım." kartta değil, paylaşım metninde.
 >   Ayrıntı ve sözleşme: `CLAUDE.md` → "Paylaş". Bağlantı önizlemesi (`og:`, `yeni/paylas.jpg`) hazır.
 
-**3340** · `5357317e74` · satır 960 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**3001** · `5357317e74` · satır 960 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > - **Sahibinin kararları (17 Ekim):** "önce resim, yazı az" (kutu küçük); afişler eğlenceli ve hareketli, Peri ile
 >   Cengo'nun kendine özgü pozu var; Vaka 2 afişi balo salonunda. Yalnız `main`'e push (CLAUDE.md).
 
-**3341** · `1370124cac` · satır 962 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**3002** · `1370124cac` · satır 962 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > - **Afişler:** `KART_V1` (iskele: Peri yürüyor, Cengo martıdan eğiliyor) ve `KART_V2` (balo salonu: Cengo
 >   Peri'yi dansa davet ediyor). İş sayfası https://claude.ai/artifact/FoLWwgaEXNtLnqBV4HCBFG, üreticisi
 >   `sablon/kart_sayfa/uret.py` (5 referans: mekân, Peri, Cengo, konuk şeridi, L19 yalnız poz). Yeni vakanın
 >   afişi nasıl yazılır: `sablon/5_gorsel_sistemi.md` → **G. Kart afişi**.
 
-**3342** · `a7cbf0ff2e` · satır 966 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**3003** · `a7cbf0ff2e` · satır 966 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > - **Kabul edilen sapma:** `KART_V2`'de Peri'nin ceketinin altında yeşil üst (prompt "bluz yok" diyordu); ipucu
 >   değil, kaldı. Sahibi isterse aynı sohbette düzelttirir.
 
-**3343** · `26ba5f96dd` · satır 968 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**3004** · `26ba5f96dd` · satır 968 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > - **Sahibine hâlâ sorulmadı (düşük öncelik):** afişi olmayan vakanın yedek kapağı (V1 = A9, V2 = A15 — artık
 >   yalnız yedek) ve önizleme açıklaması ("İstanbul'da bir dedektiflik oyunu. İpucunu topla, suçluyu bul,
 >   kararı sen ver.") Claude'un seçimi.
 
-**3344** · `0d6c045ab6` · satır 971 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
+**3005** · `0d6c045ab6` · satır 971 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000000. 17 Ekim 2026 — Paylaş + kart afişleri (BİTTİ; açık iş yok)
 
 > - **Sıradaki (Android):** anı karşılaştırması (bitirmiş arkadaşa kilitli kart), davet kodu (+1 hak).
 
-**3345** · `06aaf4504a` · satır 975 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
+**3006** · `06aaf4504a` · satır 975 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
 
 > - **Zincir vaka başına:** Vaka 2'de Vaka 1'in olguları görünüyordu; artık yalnız içinde bulunulan vaka.
 
-**3346** · `b8ef10dfa3` · satır 976 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
+**3007** · `b8ef10dfa3` · satır 976 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
 
 > - **Anı zenginleşti:** her biten vakada anı özeti (2–3 cümle) + kimi suçladın · karar · kasa + Peri'nin notu.
 >   Yeni kural 21d (`2_kural_kitabi.md`); formda §12 altı, diyalogda `## ani` (zorunlu, `arac_diyalog.js` yoksa
 >   yazmaz). Vaka 3'te yazılacak: `vaka3_baslangic.md` §1.
 
-**3347** · `deccaebb67` · satır 979 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
+**3008** · `deccaebb67` · satır 979 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
 
 > - **Eski dallar:** Android aşamasında sahibi toplu silecek; liste `CLAUDE.md` sonunda (hatırlat).
 
-**3348** · `71904d5bf7-5` · satır 981 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
+**3009** · `71904d5bf7-5` · satır 981 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
 
 > ---
 
-**3349** · `902bf4c0e1` · satır 985 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı
+**3010** · `902bf4c0e1` · satır 985 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı
 
 > **Durum tek cümle:** Vaka 2 **dondu** (adım 14, ≈11 sa 06 dk). Sıradaki iki iş, sırayla:
 > **(1) Cengo referans seti C1–C25** (**BİTTİ 17 Ekim** — `sablon/cengo_poz/`), **(2) Vaka 3** (sahibi
 > "Vaka 3'e başla" deyince; o an saat `sablon/vakalar/vaka3_baslangic.md` §2'ye yazılır).
 
-**3350** · `e6d556c483` · satır 990 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Yeni pencerede ilk iş
+**3011** · `e6d556c483` · satır 990 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Yeni pencerede ilk iş
 
 > 1. `CLAUDE.md` → 2. **bu bölüm** → 3. `sablon/vakalar/vaka3_baslangic.md` (bütün yeni kurallar orada
 >    özetli) → 4. `sablon/` 7 parça.
 
-**3351** · `d339cf5d75` · satır 992 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Yeni pencerede ilk iş
+**3012** · `d339cf5d75` · satır 992 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Yeni pencerede ilk iş
 
 > 2. Cengo seti **bitti** (17 Ekim): `sablon/cengo_poz/` C1–C25 + `OKUBENI.md` dizini. Yapılacak iş yok;
 >    sahibi "Vaka 3'e başla" deyince başla. Kullanım: her yeni Cengo temel figürü C1 (yüz) + G14-1 (beden),
 >    zor pozda uygun C "YALNIZ poz için"; ifadeler vakanın temel figürünün düzenlemesi (D-1); kıyafet V1/V2
 >    ile aynıysa oyundaki figür referanstır. Adım 8'de her Cengo kartına hangi C'nin gireceğini Claude yazar.
 
-**3352** · `0d7f5202fd` · satır 998 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3013** · `0d7f5202fd` · satır 998 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Vaka 2 bitti:** K23 gömüldü (ChatGPT düşünen kip; reddedilen 2 + kabul edilen prompt
 >   `vaka2_gorsel.md` sonunda). Adım 11 görselli tur (`arac_yeni_tur.js --hepsi`: her satır görüntü +
@@ -16537,82 +14844,82 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >   Onay 3: sahibinin notuyla **4 yeni görsel** (K33 son prova, K34 herkes Defne'ye dönüyor, K35
 >   kumaşçının adamı, `lal.kilif`). Vaka dondu; süre tablosu `vaka2_baslangic.md` §1.
 
-**3353** · `3b8e1f6065` · satır 1003 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3014** · `3b8e1f6065` · satır 1003 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Yeni kurallar (şablonda):** anlatıda adı geçen herkes ekranda (tek kişi `gir`, kalabalık kare —
 >   `7_uretim_sureci.md`); ChatGPT reddederse düşünen kip, sonra Grok (`5_gorsel_sistemi.md` D-5);
 >   en çok 5 referans (D-2); her yeni kişiye künye portresi (`arac_portre.py`).
 
-**3354** · `37e0706237` · satır 1006 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3015** · `37e0706237` · satır 1006 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Peri poz/kıyafet kütüphanesi:** `sablon/peri_poz/` L1–L25 + dizin. L1 = her temel Peri'de yüz
 >   referansı; zor pozda uygun L "YALNIZ poz için".
 
-**3355** · `5ad10602ee` · satır 1008 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3016** · `5ad10602ee` · satır 1008 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Künye:** Vaka 2'nin 7 kişisine portre + **Saadet Hanım** eklendi (sahibinin onayıyla metin).
 >   Künye artık **yalnız içinde bulunulan vakanın kişilerini** gösterir (Peri, Cengo her vakada;
 >   Hilmi Bey yalnız açılışın). Eski kişi dönerse `tanisma` dizi olur. Test: eksik portre yakalanır.
 
-**3356** · `3e53c6fca2` · satır 1011 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3017** · `3e53c6fca2` · satır 1011 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Test aşaması düğmeleri:** "Baştan başla" penceresinde her vakaya düğme (`VN_VAKA_ATLA = true`).
 >   **Yayından önce `false`.**
 
-**3357** · `2651b115e6` · satır 1013 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3018** · `2651b115e6` · satır 1013 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Deneme reklamı (web; Android'de gerçek ödüllü reklam):** araştırma hakkı **bitince** "Reklam izle
 >   · +1 araştırma hakkı" (vaka başına bir; `reklamHakAl`, kayıtta); kapanıştan sonra **"Kaçırdığın
 >   ipuçları"** (her biri reklamla, olgu vermez). Kural: her vaka reklamsız 3 hakla `doğru` çözülür
 >   (`test_yeni_v2.js`). Vaka 2'den itibaren **3 hak** (Vaka 1: 4).
 
-**3358** · `6ddfb0fec3` · satır 1017 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3019** · `6ddfb0fec3` · satır 1017 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - **Kararlar (`kaynak/YENI_OYUN_CERCEVE.md`):** reklam yasağı gevşetildi — Android'de gardırop
 >   (kozmetik kıyafet, yalnız figürlerde), +1 hak, kaçırılan ipuçları; arkadaş daveti (+1 hak),
 >   karar istatistiği, komik rozetler. **Reddedildi:** günlük seri, sıralama tablosu.
 
-**3359** · `b0db42b681` · satır 1020 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
+**3020** · `b0db42b681` · satır 1020 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 
 > - Hikâyenin gerektirdiği kıyafet değişimi vaka içinde serbest (Vaka 2'deki gibi).
 
-**3360** · `7dd518e50b` · satır 1023 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Sahibinin kararları (bu oturum, kısa)
+**3021** · `7dd518e50b` · satır 1023 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Sahibinin kararları (bu oturum, kısa)
 
 > Defne itirafta gülümsüyor → kalsın. Kremalı Peri'nin itirafta sinirli yüzü ve G2–G7 tutam → kalsın.
 > Nedime/garson/kumaşçının adamı künyeye girmez. Son `?v=` = 38.
 
-**3361** · `71904d5bf7-6` · satır 1026 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Sahibinin kararları (bu oturum, kısa)
+**3022** · `71904d5bf7-6` · satır 1026 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000000. ⬅️ YENİ PENCERE BURADAN BAŞLAR — 16 Ekim 2026 akşamı › Sahibinin kararları (bu oturum, kısa)
 
 > ---
 
-**3362** · `ec1ec26985` · satır 1030 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026)
+**3023** · `ec1ec26985` · satır 1030 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026)
 
 > **Durum tek cümle:** Sahibi oyuna tabletten baktı; yeni oyunun (`/yeni/`) düzeni telefon dışı
 > ekranlara uyarlandı, çok boylu denetim aracı yazıldı. **Açık iş yok, sahibi bir şey beklemiyor.**
 > Vaka 2'nin durumu (aşağıdaki bölüm) bu oturumda **değişmedi** — oradan devam edilir.
 > Kurallar ve tuzaklar `CLAUDE.md` → **"Tablet düzeni"** ve `--cihaz` paragrafında; burada yalnız iz.
 
-**3363** · `55ee07f093` · satır 1036 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3024** · `55ee07f093` · satır 1036 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > Sahibinin sırayla bildirdiği sorunlar ve çözümleri — hepsi `kaynak/yeni_arayuz.css`:
 
-**3364** · `8da7eb5c73` · satır 1037 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3025** · `8da7eb5c73` · satır 1037 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > 1. **Dikey tablette sahne çok uzun, yanlar kesik** (`edfee06`). Sabit 480 px sütun 800×1280'de
 >    sahneyi 480×1070 yapıyordu; 3:4 arka plan iki yandan ~%40 kesiliyor, Müjgan/Cengo kadrajdan
 >    taşıyordu. `.vn` genişliği `max(480px,56dvh)`.
 
-**3365** · `b97fa48251` · satır 1040 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3026** · `b97fa48251` · satır 1040 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > 2. **Tablette yazı küçük** (`49e083d`, `689fc01`). Konuşma ekranı elle ~%30; masa/araştırma/kart/
 >    karar/sonuç ekranları `#app > :not(.vn){zoom:1.3}`; Kişiler paneli `.vn`'i kaplar.
 
-**3366** · `8e6bc70876` · satır 1042 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3027** · `8e6bc70876` · satır 1042 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > 3. **Yatay tablette diğer ekranlar küçük** (`9a76947`). Aynı zoom, `min-width:1000px` ve
 >    `min-height:700px`'te. Konuşma ekranı yatayda **bilerek 480 px'te** (genişlerse üst/alt kesilir).
 
-**3367** · `36b3b23176` · satır 1044 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3028** · `36b3b23176` · satır 1044 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > 4. **Yatay tablette Lâl ve Defne kısa** (`32b5bf2`). Asıl kök: `gorseller.json → boy` ölçekleri
 >    telefonda ayarlandı ve telefonda figürler genişliğe takılıp küçülüyor, ölçek neredeyse görünmüyor;
@@ -16620,7 +14927,7 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >    (393/498) kilitlendi, yüksekliği container birimleriyle. **Pixel 5 görüntüleri piksel piksel aynı.**
 >    Sahibinin tableti yatayda tarayıcı çubuğuyla **1280×650** — hata yalnız o boyda belirgindi.
 
-**3368** · `245c9b7195` · satır 1049 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3029** · `245c9b7195` · satır 1049 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > 5. **Araçlar:** `arac_yeni_tur.js --tablet` (`f6db231`, 800×1280, tam sayfa) ve **`--cihaz`**
 >    (`c05c12c`, `kaynak/arac_cihaz.js`): oyun bir kez oynanır, seçilen her anda 19 ekran boyunda
@@ -16628,51 +14935,51 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 >    Düzeltmelerden önceki derlemeye karşı koşuldu: Lâl/Defne/Müjgan/Gülsüm/Rıza boy sapmasını ve
 >    tablet arka plan kesimini cihaz cihaz yakaladı.
 
-**3369** · `268715ac73` · satır 1054 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
+**3030** · `268715ac73` · satır 1054 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Ne yapıldı (8 commit, hepsi `main`, eski `index.html` her adımda md5 ile aynı)
 
 > 6. **Yatay telefon** (`d42dc87`): araç sahnenin ~170 px'e indiğini buldu; sahibi üç seçenekten
 >    **"Telefonu dikey çevir" uyarısını** seçti (`body::before`, alçak + yatay + dokunmatik ekran).
 
-**3370** · `b8417badb0` · satır 1058 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
+**3031** · `b8417badb0` · satır 1058 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
 
 > - Her cihaza ayrı ayar **yapılmaz**; kurallar orana dayalı, denetim taklitle (`--cihaz`).
 
-**3371** · `b7e957032b` · satır 1059 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
+**3032** · `b7e957032b` · satır 1059 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
 
 > - Yatay telefon için ayrı düzen **yok**, uyarı var.
 
-**3372** · `fc038c52d4` · satır 1060 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
+**3033** · `fc038c52d4` · satır 1060 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
 
 > - Yatay tablette konuşma ekranının dar kalması kabul (yalnız diğer ekranlar büyüdü).
 
-**3373** · `3c660f34d9` · satır 1061 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
+**3034** · `3c660f34d9` · satır 1061 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Sahibinin kararları (bu oturum)
 
 > - Sahibi değişikliği görmek için adrese `?v=N` ekliyor (önbellek); son verilen `?v=30`.
 
-**3374** · `bb7a4416f7` · satır 1064 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
+**3035** · `bb7a4416f7` · satır 1064 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
 
 > - **Yeni vaka / yeni görsel / düzen değişikliğinden sonra** `node arac_yeni_tur.js 0 ortu dogru --cihaz`
 >   (~3–5 dk). Güncel derlemede tek bayrak: 1280×650 seçim ekranında arka planın ~%51'i (göze batmıyor).
 
-**3375** · `5a2464b306` · satır 1066 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
+**3036** · `5a2464b306` · satır 1066 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
 
 > - Yeni konuk boyu (`boy`) ayarlanırken artık her ekranda telefondaki oran geçerli — telefonda bak yeter,
 >   ama `--cihaz` boy sapmasını yine sınar.
 
-**3376** · `6195af6b1a` · satır 1068 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
+**3037** · `6195af6b1a` · satır 1068 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
 
 > - Düz tur (`arac_yeni_tur.js`, `--cihaz`sız) `YENI_UI/`'yi siler — `cihaz/` sayfaları da gider.
 
-**3377** · `eb4085ef0d` · satır 1069 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
+**3038** · `eb4085ef0d` · satır 1069 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
 
 > - Gözlenen, dokunulmayan: `arac_yeni_tur.js 0 defne dogru` "bu yolda doğru sonucu verecek seçim yok"
 >   der (Vaka 2 notundaki bilinen durum, aşağıda).
 
-**3378** · `71904d5bf7-7` · satır 1072 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
+**3039** · `71904d5bf7-7` · satır 1072 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00000. CİHAZ DÜZENİ — tablet, yatay, çok boy (16 Ekim 2026) › Bundan sonra dikkat
 
 > ---
 
-**3379** · `b2cf0498fc` · satır 1076 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte)
+**3040** · `b2cf0498fc` · satır 1076 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte)
 
 > **Durum tek cümle:** Vaka 2'nin hikâyesi dondu (Onay 2 tamam); **adım 9–10 sürüyor** — sahibi
 > ChatGPT'de **Sohbet 1'i (Peri, G1–G13)** üretiyor, bitince 13 görseli **tek seferde** bu pencereye
@@ -16684,17 +14991,17 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > başlıyorum" der, görselleri gönderir; ChatGPT dosya adındaki saatlerle karşılaştır). Sahibi "ara"
 > demedikçe sohbetler arası boşluk çalışma süresidir.
 
-**3380** · `5c7768d29d` · satır 1087 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Okuma sırası
+**3041** · `5c7768d29d` · satır 1087 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Okuma sırası
 
 > 1. `CLAUDE.md` · 2. **bu bölüm** · 3. `sablon/vakalar/vaka2_baslangic.md` (§2 Vaka 1 dersleri,
 
-**3381** · `a0e9eb1d88` · satır 1088 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Okuma sırası
+**3042** · `a0e9eb1d88` · satır 1088 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Okuma sırası
 
 > §4 görselli tur denetimi, §5 çalışma biçimi) · 4. `sablon/7_uretim_sureci.md` → **Hızlandırma
 > kuralları** · 5. `sablon/5_gorsel_sistemi.md` E–F (kontrol listesi, kesim) · 6. `sablon/vakalar/vaka2_gorsel.md`
 > (59 görselin listesi, promptlar, sohbet sırası) · 7. gerekirse `vaka1_gorsel_devir.md` §5–6 (elle iş tarifleri, saç halesi).
 
-**3382** · `af0393a49a` · satır 1093 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sahibinin iş sayfası
+**3043** · `af0393a49a` · satır 1093 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sahibinin iş sayfası
 
 > Görsel iş listesi (59 prompt, kopyala/indir/Yapıldı): https://claude.ai/artifact/DhL2uDY7LHzMLqo8FQ5fXQ
 > Üreticisi `sablon/vakalar/vaka2_sayfa/uret.py`. Sohbet sırası (iş sayfası): 1 Peri (G1–13) · 2 Cengo (G14–18) ·
@@ -16702,11 +15009,11 @@ anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızı
 > (G31–34, her biri ayrı) · 7 Atölye (G35–37, G44) · 8 Otel (G40–42) · 9 Terzi (G43, G45) · Sokak (G38) ·
 > Salon (G39) · kareler en son (G46–59, her biri ayrı sohbet).
 
-**3383** · `6ffca32293` · satır 1100 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3044** · `6ffca32293` · satır 1100 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > Sahibi dosyaları **ChatGPT'nin verdiği adla** gönderir ve "Sohbet 1, G1–G13" yazar.
 
-**3384** · `f7651c726f` · satır 1101 · kod · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3045** · `f7651c726f` · satır 1101 · kod · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 ```
 mkdir -p <scratchpad>/paket_s1 && (dosyaları oraya koy)
@@ -16714,61 +15021,61 @@ cd kaynak
 node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİZLEME, projeye dokunmaz
 ```
 
-**3385** · `1ba1713841` · satır 1106 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3046** · `1ba1713841` · satır 1106 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 1. Konsoldaki `G1 ← dosya adı` eşleşmesine ve **temas sayfasına** (`kaynak/YENI_UI/paket_paket_s1.png`)
 >    bak: sıra doğru mu (her kartın ifadesi `vaka2_gorsel.md`'deki satırla tutuyor mu)?
 
-**3386** · `8c537ba604` · satır 1108 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3047** · `8c537ba604` · satır 1108 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > - **Bilinmeyen:** yüklenen dosyaların adı korunuyor mu henüz görülmedi. Ad değişmişse araç
 >      "dosya tarihine göre dizildi" der → sırayı görselden tek tek doğrula; gerekirse dosyaları
 >      `G1.png…` diye adlandırıp `--sira`sız çalıştır.
 
-**3387** · `90f1b1f448` · satır 1111 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3048** · `90f1b1f448` · satır 1111 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 2. Her görsele **kontrol listesi** (`5_gorsel_sistemi.md` E): iki kol iki el / beşer parmak,
 >    kıyafet promptla tutuyor mu (kartın `bak` satırı), oran, **yazı/harf** (büyütüp), Nurcan.
 >    Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
 
-**3388** · `a7bd4b3e83` · satır 1114 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3049** · `a7bd4b3e83` · satır 1114 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 3. Kesim sorunları: zemine yakın renk silinirse (Peri'nin **beyaz masa örtüsü G10–13**, beyaz
 >    gömlekler) `--profil` ile değiştir. Dikkat: `cengo` profilinin çerçevesi Peri'ninkinden farklı;
 >    Peri'ye delik doldurmasız bir profil gerekirse `arac_kes.js` PROFILLER'e `peri` çerçeveli,
 >    `delik:false` bir profil ekle. El çerçeveden taşarsa `--genis G<n>`.
 
-**3389** · `9f43528c77` · satır 1118 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3050** · `9f43528c77` · satır 1118 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 4. Sorunlu görsel → sahibine **tek listede** düzeltme promptu (o sohbette "şunu düzelt").
 
-**3390** · `66b83e07b3` · satır 1119 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3051** · `66b83e07b3` · satır 1119 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 5. Hepsi iyi → aynı komut **`--yaz`** ile: yeni_gorsel/'e yazar, `gorseller.json` günceller,
 >    doğrulayıcı + iki derleme koşar, eski `index.html` md5 aynı mı bakar (`bc871463456171ae79f25847a2b962ad`).
 
-**3391** · `e781518765` · satır 1121 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3052** · `e781518765` · satır 1121 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 6. **Elle:** saç halesi (yalnız baş kutusu; tarif `vaka1_gorsel_devir.md` §6), yeni konuğun
 >    **boyu** (`gorseller.json` → `boy`; araç boysuzları söyler; kadınlar ~0.76–0.82).
 
-**3392** · `8ca50c8a7c` · satır 1123 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3053** · `8ca50c8a7c` · satır 1123 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 7. Görselli tur: `node arac_yeni_tur.js 0 ortu dogru` (yollar: `ortu|vale|terzi|defne`,
 >    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 
-**3393** · `c9cc6aa114` · satır 1125 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
+**3054** · `c9cc6aa114` · satır 1125 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Paket gelince ne yapılır (her sohbet için aynı)
 
 > 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
 
-**3394** · `a5e5eb91e0` · satır 1128 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅✅ 16 Ekim 20:10: VAKA 2 DONDU (adım 14)
+**3055** · `a5e5eb91e0` · satır 1128 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅✅ 16 Ekim 20:10: VAKA 2 DONDU (adım 14)
 
 > Toplam ≈ 11 sa 06 dk (tablo: `sablon/vakalar/vaka2_baslangic.md` §1). 63 görsel (59 + Onay 3'te 4). Test aşaması
 > (sahibinin isteği, 16 Eki 20:20): "Baştan başla" penceresinde **her vakaya düğme** ("Vaka N · Başlık (test)",
 > Vaka 1 dahil, açılış atlanır) — `VN_VAKA_ATLA = true`. Yeni vaka eklenince düğmesi kendiliğinden çıkar.
 > **Yayından önce `false` yapılır.** **Sıradaki iş: Vaka 3** — sahibi "Vaka 3'e başla" deyince `sablon/vakalar/vaka3_baslangic.md`.
 
-**3395** · `af53fdeec0` · satır 1134 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅ 16 Ekim 19:31: Onay 3 sürüyor — sahibinin ilk notu uygulandı
+**3056** · `af53fdeec0` · satır 1134 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅ 16 Ekim 19:31: Onay 3 sürüyor — sahibinin ilk notu uygulandı
 
 > Sahibi: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU, `7_uretim_sureci.md`), `--hepsi` aday listesi,
 > dört yeni görsel üretilip gömüldü: K33 son prova (4 açılış), K34 herkes Defne'ye dönüyor (7 satır), K35 atölye
@@ -16776,7 +15083,7 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > `gir`. ChatGPT en çok 5 referans alıyor (kural `5_gorsel_sistemi.md` D-2). Sahibinin kararı (16 Eki): Defne itirafında
 > Peri'nin sinirli yüzü ve G2–G7'deki tutam **kalıyor**. Sırada: sahibinin Onay 3'teki öbür notları.
 
-**3396** · `56b1128b4c` · satır 1141 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅ 16 Ekim 17:40: adım 11 bitti — sırada Onay 3 (sahibi görsellere bakar)
+**3057** · `56b1128b4c` · satır 1141 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅ 16 Ekim 17:40: adım 11 bitti — sırada Onay 3 (sahibi görsellere bakar)
 
 > `arac_yeni_tur.js --hepsi` her satırı `YENI_UI/satir/`'a görüntüler + `dokum.txt`. Bütün yollar ve dört karar koşuldu,
 > bağ düşük (karar 3) soğuk kapanış da. Düzeltilen: kapıdaki konuk anlatı satırında görünür (Müjgan, Lâl ×2), Saadet
@@ -16785,13 +15092,13 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > Sahibine sorulan, karar bekleyen: kumaşçının adamı hiç görünmüyor; Lâl'in elbise kılıfı görünmüyor; Defne'nin
 > itirafında Peri'nin yüzü sinirli kalıyor (kremalı sette `normal` yok); G2–G7 yüze düşen tutam.
 
-**3397** · `c5a62f5362` · satır 1149 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅ 16 Ekim 16:47: K23 gömüldü — 59/59, adım 9–10 bitti
+**3058** · `c5a62f5362` · satır 1149 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ✅ 16 Ekim 16:47: K23 gömüldü — 59/59, adım 9–10 bitti
 
 > Sahibi K23'ü hem Grok'ta hem ChatGPT'de üretti; ChatGPT'ninki seçildi (buzdolabı levhaları elle silindi).
 > `yer_tutucu` boş. **Sırada adım 11: görselli tur, bütün yollar + `--cihaz`** (aşağıdaki notlar hâlâ geçerli:
 > Tolga G30'un eli, `defne dogru` yolu yok).
 
-**3398** · `3d74759ed1` · satır 1154 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ⏸ Ara (11 Eki 15:55) — eski not
+**3059** · `3d74759ed1` · satır 1154 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ⏸ Ara (11 Eki 15:55) — eski not
 
 > Gömülü: G1–G49, G51–G59 (58/59). G13 Gemini'de üretildi (12 Eki). **Bekleyen yalnız K23** (G50;
 > ChatGPT reddetti) — Grok'ta orijinal promptla.
@@ -16799,7 +15106,7 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > saati `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
 > `arac_yeni_tur.js 0 defne dogru` yolu yok.
 
-**3399** · `14a2f4a60d` · satır 1160 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ⏸ Ara (11 Eki 15:55) — eski not
+**3060** · `14a2f4a60d` · satır 1160 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › ⏸ Ara (11 Eki 15:55) — eski not
 
 > **16 Ekim notu:** K23'ün Grok denemesi 12 Ekim'den beri kayda geçmedi — yeni pencere **ilk iş sahibine
 > sorsun** (denendi mi, görsel var mı). 12 Ekim'deki LoRA / Forge (yerel üretim) işi Vaka 2'nin yolu
@@ -16807,60 +15114,60 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > süresine girmez. 16 Ekim cihaz düzeni oturumu da girmez (bkz. en üst bölüm). Adım 11 turunda
 > `--cihaz` da koşulsun (CLAUDE.md).
 
-**3400** · `f54ae6e7e0` · satır 1167 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3061** · `f54ae6e7e0` · satır 1167 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,…,G13=peri_beyaz --genis G3,G8 --yaz`
 > (dosyalar sahibinden `G1.png…` adıyla geldi, `--sira`sız). Öğrenilenler — sonraki paketler için:
 
-**3401** · `df0f34d33e` · satır 1169 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3062** · `df0f34d33e` · satır 1169 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - **G1 boydan (ayakkabıya kadar) geldi**; öbürleri uyluk ortasından. Ölçek 1.58 kat küçüktü → G1 elle
 >   kırpılıp 1122×1402'ye büyütüldü (baş tepesi/etek ucu aralığı G2–G7 ile eşlendi). Temel görselin
 >   kadrajı tutmazsa önce bunu ölç: baş tepesi–etek ucu aralığı setle aynı mı?
 
-**3402** · `894ad3eebc` · satır 1172 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3063** · `894ad3eebc` · satır 1172 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - **`peri_beyaz` profili** (`arac_kes.js`): beyaz krema ve masa örtüsü `peri` profilinde zeminle
 >   birlikte siliniyordu (kenar tol 28, hale tol 60). Yeni profil: kenar 8, hale 20, delik tol 5, zemin
 >   rengi kenardan 40 px içeriden okunur (bu üreticinin kenar sütunları ~5 birim açık; dar tolde
 >   zemini parça parça bırakıyordu). Beyaz giysili her Peri setinde bunu kullan.
 
-**3403** · `e5d5b13474` · satır 1176 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3064** · `e5d5b13474` · satır 1176 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - **Krema rengi zemine ~6 birim uzak** → renkle genel hale temizliği kremayı yer. G10–13'te topuz
 >   altı / boyun yanındaki zemin cebi yalnız küçük bir kutuda (sprite x 235–345, y 88–170) silindi;
 >   yeni G9'da el–yüz arası ve ense arkası ayrı kutularla.
 
-**3404** · `78f75f9dbb` · satır 1179 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3065** · `78f75f9dbb` · satır 1179 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - **Grok çıktısı** 912×1136 geldi; araç 1122×1402'ye büyüttü, ölçek ve parlaklık setle tuttu.
 
-**3405** · `3a56355d79` · satır 1180 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3066** · `3a56355d79` · satır 1180 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - **Çorap bandı (sahibinin kararı: kaldır).** İlk G8–G13'te çorabın üst bandı görünüyordu (bazısında
 >   tek, G9'da iki bacak). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" promptuyla
 >   yeniden üretildi (Grok, 912×1136) ve gömüldü. Otomatik rötuş denendi, olmadı (bant etek ucuna
 >   yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönme.
 
-**3406** · `32e78704f5` · satır 1184 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3067** · `32e78704f5` · satır 1184 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - ⚠️ **AÇIK: G13 (`peri.ortulu.utanmis`) yeniden üretilemedi** (ChatGPT yapmıyor, Grok limiti doldu).
 >   Geçici: `gorseller.json` → `takma` ile G12'nin (`peri.ortulu.sasirmis`) karesi görünüyor; bantlı eski
 >   sprite silindi. Sahibi G13'ü getirince: `arac_paket.js <klasör> --vaka 2 --profil G13=peri_beyaz --yaz`,
 >   sonra `takma`'daki satırı sil, boyun cebini temizle (aşağıdaki kutu).
 
-**3407** · `a1e301dd68` · satır 1188 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
+**3068** · `a1e301dd68` · satır 1188 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 1 (Peri, G1–G13) — gömüldü (11 Eki 10:00)
 
 > - Hâlâ sorulmadı (beğeni): G2–G7'de yüze düşen tutam ("tek tutam bile düşmüyor" denmişti).
 
-**3408** · `046f14459e` · satır 1191 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 2 (Cengo, G14–G18) — gömüldü (11 Eki 11:08)
+**3069** · `046f14459e` · satır 1191 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 2 (Cengo, G14–G18) — gömüldü (11 Eki 11:08)
 
 > `node arac_paket.js <paket> --vaka 2 --profil G14=cengo_beyaz,…,G18=cengo_beyaz --yaz`. Yeni profil
 > **`cengo_beyaz`** (`arac_kes.js`): yaka ucu zemine değince `cengo` (kenar 28) onu yiyordu; kenar 10,
 > hale 25, zemin 40 px içeriden. Saç halesi (üstte açık bej kıvrımlar): baş kutusunda (sprite y 0–115)
 > zemine <38 uzak opak pikseller silindi — koyu saçta güvenli; açık saçlı karakterde yapma.
 
-**3409** · `703f211508` · satır 1197 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 3 (Müjgan, G19–G21) — gömüldü (11 Eki 11:23)
+**3070** · `703f211508` · satır 1197 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 3 (Müjgan, G19–G21) — gömüldü (11 Eki 11:23)
 
 > G19 bir kez düzeltildi (saç platin değildi; metin "platin saçlı" diyor). Yeni profil **`konuk_sag`**:
 > `arac_kes.js` zemin rengini satırın SOL kenarından okuyor; el sol kenara uzanınca o satırda zemin
@@ -16868,7 +15175,7 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > okunur. El SAĞ kenara uzanırsa tersini düşün. Platin saçın kenarı biraz tırtıklı — kabul edildi.
 > Boy: `mujgan` 0.82.
 
-**3410** · `50d00dd82d` · satır 1204 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 4 (Defne, G22–G25) — gömüldü (11 Eki 11:38)
+**3071** · `50d00dd82d` · satır 1204 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 4 (Defne, G22–G25) — gömüldü (11 Eki 11:38)
 
 > Varsayılan `konuk` profili beyaz gömleği ve bej pantolonu temiz kesti. Koyu kıvırcık saçta bej hale:
 > koyu saça komşu, zemine <30 uzak opak pikseller silindi (boyun altında yalnız dış kenar). **Ten
@@ -16876,19 +15183,19 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > Boy: `defne` 0.80. Not: `arac_yeni_tur.js 0 defne dogru` yolu yok ("dogru sonucu verecek seçim
 > yok"); `defne zayif` çalışıyor.
 
-**3411** · `7f605cf8f6` · satır 1211 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 5 (Lâl, G26–G28) — gömüldü (11 Eki 12:13)
+**3072** · `7f605cf8f6` · satır 1211 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 5 (Lâl, G26–G28) — gömüldü (11 Eki 12:13)
 
 > Üretici gözlüğün sapına (menteşe yanı) her seferinde marka yazısı benzeri bir iz koydu; düz siyah
 > yüzeyde, dikeyde koyu komşulardan medyanla dolduruldu (kaynak `ozgun/` scratchpad'de). Gözlük/kalem/saat
 > gibi markalı olabilen nesnelerde sapı ve kenarı büyütüp tara. G28 → `konuk_sag`. Boy `lal` 0.80.
 
-**3412** · `684fdbbea7` · satır 1216 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 6 (Tolga, G29–G30) — gömüldü (11 Eki 12:21)
+**3073** · `684fdbbea7` · satır 1216 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 6 (Tolga, G29–G30) — gömüldü (11 Eki 12:21)
 
 > Düzeltme yok; `konuk` profili temiz. Boy `tolga` 0.90. **Adım 11'de bak:** G30'un ("Ben mi canım?")
 > havadaki açık eli, sağ figür yuvasında ekranın sağ kenarından taşıyor — jest kayboluyor. Çare
 > `genis` listesi ya da yuva kaydırma (arayüz işi), görsel değil.
 
-**3413** · `f335b13684` · satır 1221 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Tekli konuklar (G31–G34) — gömüldü (11 Eki 12:32)
+**3074** · `f335b13684` · satır 1221 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Tekli konuklar (G31–G34) — gömüldü (11 Eki 12:32)
 
 > Sahibi dört görseli tek mesajda gönderdi; 3. ve 4. sırası tablonun tersiydi — **numarayı mesaj
 > sırasından değil görselden doğrula**. Yeni profil **`konuk_beyaz`** (beyaz gömlek: varsayılan
@@ -16897,19 +15204,19 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > komşu, zemine <32 uzak pikseller 8 tur aşındırıldı. Mezuralarda çentik/rakam benzeri işaretler var;
 > mezuranın doğası, oyun boyutunda okunmuyor — kabul.
 
-**3414** · `0beaf4460f` · satır 1229 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 7 (Atölye) — gömüldü (11 Eki 12:46)
+**3075** · `0beaf4460f` · satır 1229 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 7 (Atölye) — gömüldü (11 Eki 12:46)
 
 > G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) düzeltilip gömüldü (12:49):** ilk hâlinde örtüyü kaldıran el siyah uzun kollu ve
 > kolunda toplu iğneler — Lâl'in kıyafetini çağrıştırıyor; oysa satır Gülsüm'ün ("Sabah geldim…
 > Kaldırdım: çıplak", ipucu gulsum). Düzeltme: dolgun çıplak kol, kısa kollu siyah tişört, gri önlük (Gülsüm).
 
-**3415** · `5977783ec9` · satır 1234 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 8 (Otel, G40–G42) — gömüldü (11 Eki 13:22)
+**3076** · `5977783ec9` · satır 1234 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sohbet 8 (Otel, G40–G42) — gömüldü (11 Eki 13:22)
 
 > G40: pasta dört katlıydı (metin "beş katlı") → düzeltildi. G42: buzdolabının üstünde 3–4 küçük marka
 > levhası vardı; düz çelik yüzey, satır satır yatay ara değerle silindi (kaynak `ozgun/G42.png`). Mutfak,
 > araç, cihaz gibi markalı olabilen nesnelerde levha/rozet ara.
 
-**3416** · `fc51883153` · satır 1239 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Kareler — ders (K19, 11 Eki)
+**3077** · `fc51883153` · satır 1239 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Kareler — ders (K19, 11 Eki)
 
 > Kare promptu birden çok kişi sayınca üretici kenardaki kişiyi düşürebiliyor (K19'da Cengo yoktu).
 > **K23 (G50) ertelendi (11 Eki 14:14):** ChatGPT reddetti. Sahibi yarın **Grok**'ta deneyecek — **ORİJİNAL promptla** (sahibinin kararı: yumuşatılmış
@@ -16919,55 +15226,55 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > Saklanma/görme içeren karede **kim kimi görüyor** geometrisini kur (K20: kamera masanın arkasında, ön panel kapalı → seyirci Peri'yi görür, Saadet görmez).
 > Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) aç, adı geçen herkes var mı say.
 
-**3417** · `754e548382` · satır 1248 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sonra
+**3078** · `754e548382` · satır 1248 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sonra
 
 > - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
 >   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı
 >   hesapla** (aralar ve "sayılmaz" işler hariç) — sahibi bununla vaka başına süreyi tahmin edecek
 >   (önceki tahmin: 7–10 saat).
 
-**3418** · `7f36f6646e` · satır 1252 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sonra
+**3079** · `7f36f6646e` · satır 1252 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sonra
 
 > - Yayından önce: geçici "Vaka 2'den başla" düğmesini kapat (`yeni_arayuz.js` → `VN_VAKA_ATLA = false`).
 
-**3419** · `a903d3561f` · satır 1253 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sonra
+**3080** · `a903d3561f` · satır 1253 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Sonra
 
 > - Vaka 3: `sablon/vakalar/vaka3_baslangic.md` hazır (iki yeni kural: **bulanık replik taraması**
 >   Onay 2'den önce, **toplu görsel işleme**). Sahibi "Vaka 3'e başla" deyince başlar.
 
-**3420** · `9174b5e7b8` · satır 1257 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3081** · `9174b5e7b8` · satır 1257 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - Görsel sayısı **azaltılmaz** (çok görsel oyunu güzelleştiriyor).
 
-**3421** · `159c6ccd98` · satır 1258 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3082** · `159c6ccd98` · satır 1258 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - **İfade ızgarası yok** (bir istekte birkaç ifade → çözünürlük düşüyor).
 
-**3422** · `a27218a0aa` · satır 1259 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3083** · `a27218a0aa` · satır 1259 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - **Ücretli üretim (API) yok**, şimdilik; ChatGPT/Grok sohbetinde elle üretim.
 
-**3423** · `8982a9df1e` · satır 1260 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3084** · `8982a9df1e` · satır 1260 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - **Her vakada Peri ve Cengo yeni kıyafet** giyer → kıyafet kütüphanesi tutulmaz.
 
-**3424** · `5ef915a344` · satır 1261 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3085** · `5ef915a344` · satır 1261 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - Görseller sohbet sohbet, **toplu** gelir; adlandırmayı araç yapar (`--sira`).
 
-**3425** · `d24dd76825` · satır 1262 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3086** · `d24dd76825` · satır 1262 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - `arac_paket.js` yazımı ve G1 hazırlığı Vaka 2 süresine **sayılmaz**.
 
-**3426** · `971441f206` · satır 1263 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3087** · `971441f206` · satır 1263 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > - Platform/tür sohbeti yapıldı (Choices benzeri platform, gazeteci/avukat gibi türler) — karar yok, iş yok.
 
-**3427** · `71904d5bf7-8` · satır 1265 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
+**3088** · `71904d5bf7-8` · satır 1265 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0000. VAKA 2 — DEVİR (11 Ekim 2026) — ARŞİV (Vaka 2 dondu; güncel durum en üstte) › Bu oturumda alınan kararlar (sahibinin)
 
 > ---
 
-**3428** · `1c4d71cbda` · satır 1269 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+**3089** · `1c4d71cbda` · satır 1269 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
 > - **10 Ekim akşam: Onay 2 tamam, hikâye dondu.** 22 metin notu uygulandı (hepsi diyalogda), soğuk
 >   kapanış belirginleşti (+K32). **Adım 8 bitti:** 59 görsel, promptlar `sablon/vakalar/vaka2_gorsel.md`,
@@ -16976,7 +15283,7 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 >   Geçici "Vaka 2'den başla" düğmesi açık (`VN_VAKA_ATLA`), yayından önce kapanacak.
 >   **19:44'te ara verildi.** Yeniden başlanınca süre tablosuna (`vaka2_baslangic.md` §1) başlangıç saati yazılır.
 
-**3429** · `5f7c606af8` · satır 1276 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+**3090** · `5f7c606af8` · satır 1276 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
 > - **10 Ekim akşam: adım 1–5 bitti.** Form Onay 1 aldı (`vaka2_form.md`; kadın karakterler en çekici
 >   hâlde). Diyalog `vaka2_diyalog.md`, veri `yeni/game_data.json` V2, künye yazıldı. Araçlar Vaka 2'ye
@@ -16984,34 +15291,34 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 >   (`node arac_yeni_tur.js 0 ortu dogru`), `test_yeni_v2.js`. **Sırada: Onay 2 — sahibi görselsiz oynar.**
 >   Süre tablosu: `sablon/vakalar/vaka2_baslangic.md` §1.
 
-**3430** · `e05f80a4d8` · satır 1282 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+**3091** · `e05f80a4d8` · satır 1282 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
 > - **Vaka 1 bitti** (görseller, Onay 3 notları, künye). Kalıp oldu.
 
-**3431** · `2c4945046f` · satır 1283 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+**3092** · `2c4945046f` · satır 1283 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
 > - **Sıradaki iş: Vaka 2.** Yeni pencerede önce **`sablon/vakalar/vaka2_baslangic.md`** oku:
 >   okuma sırası, süre ölçüm tablosu, Vaka 1'de zamanın nereye gittiği ve nasıl önleneceği,
 >   adım adım yapılacaklar, görselli tur denetimi.
 
-**3432** · `1b4ec0cc64` · satır 1286 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+**3093** · `1b4ec0cc64` · satır 1286 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
 > - Sahibi Vaka 2'nin süresini ölçüyor: "Vaka 2'ye başla" dediği an başlangıç.
 
-**3433** · `71904d5bf7-9` · satır 1288 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
+**3094** · `71904d5bf7-9` · satır 1288 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 000. VAKA 2 — EN GÜNCEL DURUM (10 Ekim 2026)
 
 > ---
 
-**3434** · `8fb32357b5` · satır 1292 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3095** · `8fb32357b5` · satır 1292 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > > Yeni oyun artık **`sablon/`** klasöründeki yapım şablonuyla üretiliyor (7 parça + `vakalar/`).
 > > Aşağıdaki §0 şablondan önceki durumdur; Vaka 1 verisi forma göre **yeniden yapılacak.**
 
-**3435** · `d5d683c2be` · satır 1295 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3096** · `d5d683c2be` · satır 1295 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Şablon dondu.** Vaka 1 formu (`sablon/vakalar/vaka1_form.md`) **Onay 1 aldı.**
 
-**3436** · `dbeff63c68` · satır 1296 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3097** · `dbeff63c68` · satır 1296 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Motor işleri bitti (8 Ekim):** `kaynak/motor_yeni.js` (Kim yaptı?, ücret sonda, kayıt),
 >   `yeni_arayuz.js` (Kim yaptı? ekranı → yüzleşme → kovalamaca → karar; kapanışta `bag` satırları;
@@ -17020,264 +15327,264 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 >   sonuçlarında "ücretin tamamı geldi" ve tohum cümleleri duruyor, yüzleşmeler geçici, ipuçları
 >   formdaki 5'e değil eski 7'ye göre. Bunlar diyalog adımının işi.
 
-**3437** · `008829eb7c` · satır 1302 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3098** · `008829eb7c` · satır 1302 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Diyalog yazıldı (8 Ekim):** `sablon/vakalar/vaka1_diyalog.md` tek kaynak; `arac_diyalog.js`
 >   veriye yazar. 5 ipucu / 4 hak, bedava yok; Kemal figürsüz (ses). Altı yol turda temiz.
 
-**3438** · `87647ba665` · satır 1304 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3099** · `87647ba665` · satır 1304 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Onay 2 TAMAM (9 Ekim): hikâye dondu.** Sahibinin görselsiz test notlarıyla yapılanlar —
 >   kural 21c, kural 22a (kısa sonuç, kasaya giden, Cengo'nun tavrı, kesinti sebebi), gri yer
 >   tutucu, iki adımlı Kim yaptı?, Dosya çözüldü ekranı, satırdan sürdürme, Sahneyi geç onarımı.
 
-**3439** · `cef8ace9c0` · satır 1307 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3100** · `cef8ace9c0` · satır 1307 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Görsel işi yeni pencerede: önce `sablon/vakalar/vaka1_gorsel_devir.md` oku.**
 
-**3440** · `5d549eaa92` · satır 1308 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3101** · `5d549eaa92` · satır 1308 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **9 Ekim: Vaka 1'in 11 görseli oyunda** (figürler G1–G6, kareler K15–K18, detay D4). Sırada Onay 3.
 
-**3441** · `3a18c47abc` · satır 1309 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3102** · `3a18c47abc` · satır 1309 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Sıradaki iş: adım 8, görseller.** Liste ve 11 prompt: `sablon/vakalar/vaka1_gorsel.md`
 >   (numaralı referanslarla sahibine gönderildi). Görsel geldikçe: kontrol (dosyanın sonu),
 >   figürse `arac_kes.js`, göm, `gorseller.json` → `yer_tutucu`'dan çıkar, tur. Sonra Onay 3.
 
-**3442** · `d444d04654` · satır 1312 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3103** · `d444d04654` · satır 1312 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - Tur: `node arac_yeni_tur.js [karar] [set|dukkan] [dogru|zayif|kemal|tuba]`.
 
-**3443** · `503f62fc51` · satır 1313 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3104** · `503f62fc51` · satır 1313 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > - **Sahibiyle çalışma biçimi:** çok basit ve kısa yaz, Türkçe kelime kullan; bir adımda dur,
 >   eksikleri tek tek konuş; yalnız Vaka 1 üzerinde çalış.
 
-**3444** · `71904d5bf7-10` · satır 1316 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
+**3105** · `71904d5bf7-10` · satır 1316 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 00. ŞABLON VE VAKA 1 — EN GÜNCEL DURUM (8 Ekim 2026)
 
 > ---
 
-**3445** · `ca4d5e77a2` · satır 1320 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3106** · `ca4d5e77a2` · satır 1320 · alıntı · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > > Aşağıdaki §1 ve sonrası **eski oyunun** (dokuz vaka, `index.html`) 23 Eylül durumudur;
 > > eski oyun o günden beri değişmedi. Şu an üzerinde çalışılan **yeni oyun** (Peri & Cengo,
 > > Mavi Ay tonu). Kalıcı bilgi `CLAUDE.md` + `kaynak/yeni/OKUBENI.md`'de.
 
-**3446** · `6e85bff68e` · satır 1326 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3107** · `6e85bff68e` · satır 1326 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > | Kaynak metin | `YENI_VAKA_1.md` (açılış + Vaka 1), `YENI_OYUN_SEZON.md` (sezon kuralları), `YENI_OYUN_TON.md` |
 
-**3447** · `950bcbb160` · satır 1327 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3108** · `950bcbb160` · satır 1327 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > | Veri | `kaynak/yeni/` — `node dogrulayici.js yeni` PASS (3 uyarı: K8 ×2, K9) |
 
-**3448** · `4366c9b9f2` · satır 1328 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3109** · `4366c9b9f2` · satır 1328 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > | Sayfa | `node build_html.js yeni` → `yeni/index.html` (yayında `…/paravan/yeni/`), tema yeni, batma uyarısı yok |
 
-**3449** · `71e669a4c1` · satır 1329 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3110** · `71e669a4c1` · satır 1329 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > | Görsel | Vaka 1: **49/49** (`YENI_OYUN_GORSEL_PROMPTLARI.md`, son bölümler kovalamaca K10–K12) |
 
-**3450** · `f10ee3c16c` · satır 1330 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3111** · `f10ee3c16c` · satır 1330 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > | Test | 24/24 (+ test_bozuk); `arac_yeni_tur.js` iki yolu da temiz oynuyor |
 
-**3451** · `66dd713d3f` · satır 1332 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3112** · `66dd713d3f` · satır 1332 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > **Son yapılanlar:** konuşma ekranı oyunda; bütün ekranlar yeni temada; kovalamaca dört
 > kareye çıktı (simit → Peri çarşafta → balık kasası → yakalama); sezon kuralları
 > "Peri'nin felaketi" ve "Kovalamaca".
 
-**3452** · `98dc6e0252` · satır 1336 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3113** · `98dc6e0252` · satır 1336 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > **Sahibine açık sorular:**
 
-**3453** · `d3fdecfe2b` · satır 1337 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3114** · `d3fdecfe2b` · satır 1337 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > - **K8 uyarısı:** `sete_gotur` iki kararı hem para hem bağda geçiyor (`yeni/OKUBENI.md`).
 
-**3454** · `933ec6b42f` · satır 1338 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3115** · `933ec6b42f` · satır 1338 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > - **Künye (Kişiler paneli) boş** — metinleri sahibinin onayıyla yazılacak.
 
-**3455** · `72ab10c808` · satır 1339 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3116** · `72ab10c808` · satır 1339 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > - Ruh hâli görseli / istatistik paneli yeni sayfada yok (eski açık sorular).
 
-**3456** · `be83caecf5` · satır 1340 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3117** · `be83caecf5` · satır 1340 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > - Cengo'nun "sinirli" sprite'ı yok (normal'e takma).
 
-**3457** · `e6fa6c2256` · satır 1342 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3118** · `e6fa6c2256` · satır 1342 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > **Sıradaki iş:** Vaka 2'yi kâğıt üstünde yazmak (`YENI_OYUN_SEZON.md` sırası); kovalamacayı
 > karardan önceki doruğa koymak önerildi.
 
-**3458** · `f7bface545` · satır 1345 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3119** · `f7bface545` · satır 1345 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > **Duran kurallar (sahibinin):** doğrudan `main`; her prompta referans resimleri numaralı
 > ve aynı mesajda; mantolu Peri'nin altında siyah kalem etek, ayakkabıları kırmızı stiletto;
 > Peri'nin dekoltesi asla azaltılmaz; yan karakterlere ana karakter referans verilmez; yeni
 > kanon eklemeden önce sor.
 
-**3459** · `71904d5bf7-11` · satır 1350 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
+**3120** · `71904d5bf7-11` · satır 1350 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 0. YENİ OYUN — EN GÜNCEL DURUM (7 Ekim 2026)
 
 > ---
 
-**3460** · `948d400044` · satır 1354 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3121** · `948d400044` · satır 1354 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > Her şey **`main`**'de ve push edilmiş; çalışma ağacı temiz. Son commit'in hash'i burada TUTULMUYOR — kendine işaret eden bir hash `--amend`'de anında yanlışlanıyor (bu nota bir kez öyle yazıldı). `git log --oneline -5` doğrusunu söyler.
 
-**3461** · `924f256837` · satır 1358 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3122** · `924f256837` · satır 1358 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > | Doğrulayıcı | **PASS (5 uyarı)** — 14 kural |
 
-**3462** · `753ff017a2` · satır 1359 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3123** · `753ff017a2` · satır 1359 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > | Test | **22/22** (+ `test_bozuk.js`, çıkış 0, gösteri betiği) |
 
-**3463** · `5ba919bb13` · satır 1360 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3124** · `5ba919bb13` · satır 1360 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > | Görsel | **63/63** gömülü |
 
-**3464** · `1d270a75a0` · satır 1361 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3125** · `1d270a75a0` · satır 1361 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > | Tarayıcı turu | dokuz vakayı da oynuyor, hata yok |
 
-**3465** · `962ea7f778` · satır 1362 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3126** · `962ea7f778` · satır 1362 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > | İçerik | 9 vaka · 48 ipucu · 67 olgu · 40 karar |
 
-**3466** · `7502026af4` · satır 1364 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3127** · `7502026af4` · satır 1364 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > **Cache uyarısı:** GitHub Pages `index.html`'i `max-age=600` ile sunuyor. Sahibi
 > değişikliği göremezse **`?v=8`** gibi bir sorgu eki ver.
 
-**3467** · `71904d5bf7-12` · satır 1367 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
+**3128** · `71904d5bf7-12` · satır 1367 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 1. NEREDE DURUYORUZ
 
 > ---
 
-**3468** · `414cb81181` · satır 1371 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit)
+**3129** · `414cb81181` · satır 1371 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit)
 
 > Oturum "akışta çelişki var mı" sorusuyla başladı ve **sistematik bir metin
 > denetimine** dönüştü. **Dokuz vakanın dokuzu da** (V1–V6 omurga, YAN-A/B/C yan)
 > taze göz incelemesinden geçirildi ve düzeltildi. **Metin incelemesi bitti.**
 
-**3469** · `5f99e1644e` · satır 1377 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
+**3130** · `5f99e1644e` · satır 1377 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
 
 > 1. `node arac_okuma.js V3 > /tmp/v3.txt` — vakanın tam dökümü
 
-**3470** · `51d6450876` · satır 1378 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
+**3131** · `51d6450876` · satır 1378 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
 
 > 2. `kaynak/inceleme_brief_v3.md` — ChatGPT'ye brief (format sözlüğü + sözleşmeler
 
-**3471** · `c9227cc242` · satır 1379 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
+**3132** · `c9227cc242` · satır 1379 · alt madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
 
 > + o vakaya özgü uyarılar + önceki turun karnesi)
 
-**3472** · `598a7fc5ec` · satır 1380 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
+**3133** · `598a7fc5ec` · satır 1380 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
 
 > 3. Rapor gelince **her maddeyi veriye/motora karşı doğrula**, sonra ayıkla
 
-**3473** · `11cb7fc9ed` · satır 1381 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
+**3134** · `11cb7fc9ed` · satır 1381 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
 
 > 4. Geçerli olanları uygula, geçmeyenlerin gerekçesini bir sonraki brief'e yaz
 
-**3474** · `c30033d80f` · satır 1383 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
+**3135** · `c30033d80f` · satır 1383 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yöntem — tekrar kurulabilir
 
 > Altı brief `kaynak/inceleme_brief_v1..v6.md` olarak duruyor. **Yan vakalar için
 > aynı kalıbı kullan.**
 
-**3475** · `4e6f726863` · satır 1388 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3136** · `4e6f726863` · satır 1388 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | tur | uygulanan | yanlış çıkan |
 
-**3476** · `9a01a5eafa` · satır 1390 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3137** · `9a01a5eafa` · satır 1390 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | V1 | 3 | 3 *(ikisi benim brief hatam: prolog verilmemişti, finans kuralı fazla geniş yazılmıştı)* |
 
-**3477** · `e99617ad17` · satır 1391 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3138** · `e99617ad17` · satır 1391 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | V2 | 5 | 0 |
 
-**3478** · `4c2f117ce2` · satır 1392 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3139** · `4c2f117ce2` · satır 1392 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | V3 | 5 | 3 |
 
-**3479** · `13eb60f60b` · satır 1393 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3140** · `13eb60f60b` · satır 1393 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | V4 | 7 | 1 |
 
-**3480** · `1479cd6614` · satır 1394 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3141** · `1479cd6614` · satır 1394 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | V5 | 6 + **kanıt eklendi** | 1 |
 
-**3481** · `fb8b707683` · satır 1395 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3142** · `fb8b707683` · satır 1395 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | V6 | 4 | 2 *(biri `arac_okuma`'nın basım hatası)* |
 
-**3482** · `d4537c138d` · satır 1396 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3143** · `d4537c138d` · satır 1396 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > | YAN-A/B/C *(tek tur)* | 14 | **0** |
 
-**3483** · `9e4b056716` · satır 1398 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3144** · `9e4b056716` · satır 1398 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > Yan tur üçü birden okundu: `OKUBENI` YAN-A ile YAN-B'yi *"birbirinin aynası"*
 > diye tanımlıyor (biri nefes aldırır, öteki hiçbir seçeneğinde para kazandırmaz) —
 > ayrı turlarda o karşılaştırma kaybolurdu. **Dokuz turun içinde yanlış alarmsız
 > tek tur bu oldu.**
 
-**3484** · `e5a2585997` · satır 1403 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3145** · `e5a2585997` · satır 1403 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > Yan turun iki asıl bulgusu:
 
-**3485** · `70b0c70834` · satır 1405 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3146** · `70b0c70834` · satır 1405 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > - **YAN-A'da olgu, ipucundan fazlasını söylüyordu** — V3/`tarif_yara`'nın kardeşi.
 >   Cengo'nun tek cümlesi *"onun yerine içeri girdim"*i kanıtlıyor, *"suç onundu"*yu
 >   değil. Olgu metni / çıkarım başlığı / ipucu metası cümleye indirildi; **kimlikler
 >   değişmedi**, o yüzden kapı, tohum ve test etkilenmedi.
 
-**3486** · `1c386349fd` · satır 1409 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3147** · `1c386349fd` · satır 1409 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > - **YAN-C/`isi_reddet` "Temiz kaldın" diyordu** ve karar gerçekten `ruh=temiz`'di —
 >   motorun iç sınıflaması kelimesi kelimesine ekrana sızmıştı.
 
-**3487** · `5d2e6cc277` · satır 1412 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
+**3148** · `5d2e6cc277` · satır 1412 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Tur tur bilanço
 
 > Aynı olgunun künye yüzeyinde ikinci bir aşım çıktı, raporda yoktu: *"sevdiği
 > kadın"* / *"eski sevgilisi"*. **Yazar gerçeğinde bile yok** (`truth`'ta Sevil'in
 > geliş sebebi "sırrı bilen tek güvenilir kişi"). Sezon boyu kovalanan "sevgili"
 > fazla söylemesinin son yuvasıydı; ikisi de kaldırıldı.
 
-**3488** · `344434a533` · satır 1419 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Kanona eklenen tek şey (sahibinin onayıyla)
+**3149** · `344434a533` · satır 1419 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Kanona eklenen tek şey (sahibinin onayıyla)
 
 > **V5'e Cavit'i cinayete bağlayan kanıt.** Vakanın adı "Cavit'in maskesi düşüyor"du
 > ama düşüren kanıt yoktu: eski dava dosyası yalnız **kaldıracı** gösteriyordu.
 > Sahibi üç şekilden **B**'yi (sokak yolu) seçti.
 
-**3489** · `6bbb322645` · satır 1423 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Kanona eklenen tek şey (sahibinin onayıyla)
+**3150** · `6bbb322645` · satır 1423 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Kanona eklenen tek şey (sahibinin onayıyla)
 
 > Yeni ipucu `cengo_mahalle_donus` (**bedelsiz**, needs `ilyas_mahkum`): Cengo
 > mahalleye dönüyor, kahvede biri hatırlıyor — ölümden bir hafta önce İlyas *"bir iş
 > var, tahsilat değil; onu yapınca eski defter kapanıyor"* demiş. Yeni olgu
 > `ilyas_son_is`. `cavit_azmettiren` artık üç olgunun kesişiminden doğuyor.
 
-**3490** · `2720b7556d` · satır 1428 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Kanona eklenen tek şey (sahibinin onayıyla)
+**3151** · `2720b7556d` · satır 1428 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Kanona eklenen tek şey (sahibinin onayıyla)
 
 > **Bağladığı kanon:** İlyas'ın ölümden bir hafta önce kahvede konuştuğu artık
 > sabit. Ekonomi korundu (adım bedelsiz, `tam_resim` yine aynı 5 ödemeyle geliyor).
 
-**3491** · `a70d9115f7` · satır 1433 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Sezon boyu yapılan iki büyük geri çekme
+**3152** · `a70d9115f7` · satır 1433 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Sezon boyu yapılan iki büyük geri çekme
 
 > **"Evde ağır" kaldırıldı (V4).** İfade üç yerde geçiyordu ve hiçbiri öncesini
 > kurmuyordu — dahası `kaya_cevre` tam tersini söylüyor (*"iyi kalpli, sessiz,
 > kimseye yük olmayan"*). Boşluk değil çelişkiydi. Sahibi kurmak yerine kaldırmayı
 > seçti; kurmak Ceyda'nın "mağdur mu" okumasını güçlendirirdi.
 
-**3492** · `68caf9ef93` · satır 1438 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Sezon boyu yapılan iki büyük geri çekme
+**3153** · `68caf9ef93` · satır 1438 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Sezon boyu yapılan iki büyük geri çekme
 
 > **"Sevgili" yedi yüzeyde "gizlice yakın" oldu (V5+V6).** Perde arkasındaki giriş
 > gizli yakınlık gösteriyor, sevgililiği kanıtlamıyor.
@@ -17286,86 +15593,86 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > Kaya'nın kendi el yazısını getiriyor (*"karısıyla aralarının açıldığını görmüş,
 > sebebini bulamamış"*). Gözlem + kocanın kendi kalemi = hak edilmiş adlandırma.
 
-**3493** · `3f2f7be3b4` · satır 1447 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3154** · `3f2f7be3b4` · satır 1447 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > `arac_akis_denetim.js` yeni yazıldı (40 kararın bütün yüzeyleri yan yana) ve
 > `arac_okuma.js` yeni yazıldı (bir vakayı baştan sona okunur hâlde). İkisi de
 > kullanıldıkça kör noktaları çıktı:
 
-**3494** · `d126b9dd1e` · satır 1451 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3155** · `d126b9dd1e` · satır 1451 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | kör nokta | sonucu |
 
-**3495** · `237807ab9d` · satır 1453 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3156** · `237807ab9d` · satır 1453 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | Cengo ekranda susarken defterde konuşuyor | V2/`kuru_rapor` çelişkisi yakalandı |
 
-**3496** · `43f6e26f1f` · satır 1454 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3157** · `43f6e26f1f` · satır 1454 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | `meta` koşullu varyant olabiliyor | üç varyant `[object Object]` basıyordu |
 
-**3497** · `895bea48bb` · satır 1455 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3158** · `895bea48bb` · satır 1455 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | ipucu `ad`'ı da varyant olabiliyor | iki başlık `[object Object]` |
 
-**3498** · `4ceb877897` · satır 1456 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3159** · `4ceb877897` · satır 1456 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | prolog basılmıyordu | inceleme "açılış Peri'yi kurmuyor" dedi, yanlıştı |
 
-**3499** · `a669739b91` · satır 1457 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3160** · `a669739b91` · satır 1457 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | `DEĞİL` parantezsiz basılıyordu | inceleme yanlış bir **P0** bildirdi |
 
-**3500** · `217061351d` · satır 1458 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3161** · `217061351d` · satır 1458 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | sessizlik kalıbı fazla harfiydi + atıf cümle sınırına takılıyordu | YAN-A/`cengoya_birak` çelişkisi kaçmıştı |
 
-**3501** · `1a04d1d9e4` · satır 1459 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3162** · `1a04d1d9e4` · satır 1459 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | `HUKUM` yalnız "en adil"i tanıyordu | YAN-B "en pahalı, **en dürüst** hali" göremedi |
 
-**3502** · `c653bfcfef` · satır 1460 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3163** · `c653bfcfef` · satır 1460 · tablo · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > | ruh hâli etiketi hiç taranmıyordu | YAN-C "Temiz kaldın" göremedi |
 
-**3503** · `5108f649cc` · satır 1462 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
+**3164** · `5108f649cc` · satır 1462 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Araçlara eklenen beş kör nokta
 
 > Son üçü düzeltildi ve negatif sınandı (eski metinler geçici geri konunca araç
 > yakaladı). Türkçe tuzağının yeni bir yüzü de burada çıktı: **JS'in `\b` sınırı
 > "ğ"yi harf saymıyor**, yani `/\bsordu\b/` **"sorduğu"** ile eşleşiyor. Sınır
 > Türkçe harf kümesiyle elle kuruldu.
 
-**3504** · `8f36a6a574` · satır 1469 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yeni korumalar
+**3165** · `8f36a6a574` · satır 1469 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yeni korumalar
 
 > **K14 (Tanımsız olgu)** — doğrulayıcının 14. kuralı. Ayrıntısı §3.2'de.
 
-**3505** · `0704acfc63` · satır 1471 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yeni korumalar
+**3166** · `0704acfc63` · satır 1471 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › Yeni korumalar
 
 > `test_yedek.js` — `game_data.json` ↔ `vaka2-6/yan_a-b` eşlemesi. Kural belgede
 > yazılıydı ama denetlenmiyordu: **yedi yedeğin yedisi de kaymıştı** (22–80 satır).
 > Hepsi yeniden üretildi. Negatif sınandı.
 
-**3506** · `60f334c569` · satır 1477 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › CLAUDE.md'ye yazılan dört tuzak
+**3167** · `60f334c569` · satır 1477 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › CLAUDE.md'ye yazılan dört tuzak
 
 > kapıya boru sokma · doğrulayıcı testlerin içinde de çalışıyor · yedek dosya
 > senkronu · tarayıcı turunda `text=` seçicisi kullanma (+ tur "karar düğmesi yok"
 > derse önce motora sor)
 
-**3507** · `71904d5bf7-13` · satır 1481 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › CLAUDE.md'ye yazılan dört tuzak
+**3168** · `71904d5bf7-13` · satır 1481 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 2. BU OTURUMDA NE OLDU (33 commit) › CLAUDE.md'ye yazılan dört tuzak
 
 > ---
 
-**3508** · `d292bf1775` · satır 1485 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK
+**3169** · `d292bf1775` · satır 1485 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK
 
 > Önceki iki soru sahibince **ikisi de "uygula"** diye cevaplandı (23 Eylül 2026).
 
-**3509** · `0378c33e3c` · satır 1489 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.1 · `boslugu_kabul` — silindi
+**3170** · `0378c33e3c` · satır 1489 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.1 · `boslugu_kabul` — silindi
 
 > V6/`eldekiler` bu adla bir olgu "açıyordu" ama olgunun hiçbir yerde gövdesi yoktu:
 > 67 olgunun tek istisnası. Motor onu bilinen kümesine ekliyor, ekranda hiçbir şey
 > görünmüyordu — sessiz bir no-op.
 
-**3510** · `c80b1c32b0` · satır 1493 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.1 · `boslugu_kabul` — silindi
+**3171** · `c80b1c32b0` · satır 1493 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.1 · `boslugu_kabul` — silindi
 
 > `reveals`'tan silindi, metin yazılmadı. Gerekçe: olgu hiçbir çıkarımı beslemiyor,
 > hiçbir kapıyı açmıyor, hiçbir künye katmanını tetiklemiyordu — yazılsa bile oyunda
@@ -17373,61 +15680,61 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > ve bu meşrudur: hiçbir şey açmayan, yalnız oyuncuya elindekini saydıran bir ipucu.
 > Motor ve doğrulayıcı her yerde `c.reveals || []` okuyor, boş dizi güvenli.
 
-**3511** · `5cf70121c4` · satır 1501 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
+**3172** · `5cf70121c4` · satır 1501 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
 
 > `reveals`/`acilan` ile açılan her olgunun bir gövdesi olmalı: ya `vaka.facts`'te bir
 > metni, ya bir `knowledge.turetilen` karşılığı. Yoksa **hata** — uyarı değil, çünkü bu
 > bir tasarım kararı olamaz.
 
-**3512** · `203e780eaf` · satır 1505 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
+**3173** · `203e780eaf` · satır 1505 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
 
 > Tuttuğu şey: `ilyas_yuzu` yerine `ilyas_yuz` yazmak. Eskiden doğrulayıcı geçerdi,
 > oyun çalışırdı, ipucu açılırdı ve olgu buharlaşırdı — ona bağlı çıkarım hiç doğmaz,
 > o çıkarıma bağlı karar hiç açılmaz, vakanın yarısı sessizce kapanırdı.
 
-**3513** · `42c00a8a66` · satır 1509 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
+**3174** · `42c00a8a66` · satır 1509 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
 
 > **`needs` bilerek denetlenmiyor:** bir ipucu önceki vakadan taşınan kalıcı bir olguyu
 > ya da bir tohumu isteyebilir; orada "bu vakada tanımlı değil" demek yanlış pozitif
 > üretirdi. `reveals`/`acilan` ise BEYANDIR — bu vakanın açtığını söyler.
 
-**3514** · `66ff61795a` · satır 1513 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
+**3175** · `66ff61795a` · satır 1513 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
 
 > Negatif sınandı ve `test_bozuk.js`'e **TEST 8** olarak eklendi (tek harflik yazım
 > hatası → BLOCKED). Betik artık yedi senaryo basıyor.
 
-**3515** · `71904d5bf7-14` · satır 1516 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
+**3176** · `71904d5bf7-14` · satır 1516 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 3. AÇIK SORU YOK › 3.2 · K14 (Tanımsız olgu) — eklendi
 
 > ---
 
-**3516** · `9b250607e5` · satır 1522 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
+**3177** · `9b250607e5` · satır 1522 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
 
 > Sahibi Mavi Ay (*Moonlighting*) tonunda, **İngilizce**, İstanbul'da geçen yeni bir oyun
 > yapmaya karar verdi. Kararların tamamı ve gerekçeleri: **`YENI_OYUN_CERCEVE.md`**.
 
-**3517** · `4450474a76` · satır 1525 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
+**3178** · `4450474a76` · satır 1525 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
 
 > Özet: sadece İngilizce (orijinal, çeviri değil) · İstanbul kalıyor · Steam birinci,
 > Android ikinci · ilk 2-3 vaka bedava, gerisi tek ödeme · reklam/elmas/abonelik yok ·
 > metin anahtarı sistemi kurulmayacak.
 
-**3518** · `e83d84141d` · satır 1529 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
+**3179** · `e83d84141d` · satır 1529 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
 
 > Motor, doğrulayıcı, araçlar ve yöntem aynen devralınıyor (~7.100 satır). Yeniden
 > yazılacak olan hikâye (~3.500 satır) ve iki yeni ekran: konuşma (atışma) ve sahnede
 > ipucu arama.
 
-**3519** · `4bb2eb9b26` · satır 1533 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
+**3180** · `4bb2eb9b26` · satır 1533 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
 
 > **Sıradaki iş: tek bir vakayı kâğıt üstünde baştan sona yazmak.** Kod yok.
 
-**3520** · `d309c67553` · satır 1535 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
+**3181** · `d309c67553` · satır 1535 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
 
 > **Mevcut Türkçe sezon elde duruyor** — yayınlanıp yayınlanmayacağına karar verilmedi.
 > Aşağıdaki maddeler onun açık işleri; yeni oyun onları geçersiz kılmıyor ama
 > önceliklendirme değişti.
 
-**3521** · `4fd0cda63c` · satır 1541 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › ✅ Dokuz vakanın metin incelemesi BİTTİ
+**3182** · `4fd0cda63c` · satır 1541 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › ✅ Dokuz vakanın metin incelemesi BİTTİ
 
 > Yan turda sorulan iki sert soruya cevap veriye uydu, **hiçbiri değişmedi:**
 > `isi_reddet` gerçek bir kaçış (kapısız, 0 ₺, batmak game-over değil —
@@ -17435,14 +15742,14 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 > fikri; YAN-B'nin bütün seçeneklerinin para kaybettirmesi ceza değil, aynanın
 > kendisi.
 
-**3522** · `82fac6b094` · satır 1548 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🔴 Ses — DEVIR'in eski notundaki "tek gerçek eksik"
+**3183** · `82fac6b094` · satır 1548 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🔴 Ses — DEVIR'in eski notundaki "tek gerçek eksik"
 
 > `ses/` içindeki **5 dosya sentetik yer tutucu** (12 kHz bip). Sipariş metinleri
 > `ses_promptlari.md` BÖLÜM 2'de. Efekt müzik değil; Suno/Udio üretemez, metinden
 > efekt üreten araç ya da freesound gibi kütüphane gerekiyor. `test_ses.js` üç yeri
 > eşliyor (EFEKT tablosu, `efektCal` çağrıları, `ses/` klasörü).
 
-**3523** · `6f18845ca3` · satır 1554 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
+**3184** · `6f18845ca3` · satır 1554 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
 
 > - **Ahlak cetveli.** Dokuz vakanın dokuzunda da vicdan düşerse para artıyor.
 >   Testten çıkan teşhis: bu bir gözden kaçma değil **zorunluluk** — aynı vicdan +
@@ -17451,13 +15758,13 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 >   tohumlar) ama karar anında görünmüyor. İnceleme "karar kartında stratejik yön
 >   göster, sayılaştırma" öneriyor. V6'da dört karar zaten 0/0'da düzleşiyor.
 
-**3524** · `362572591c` · satır 1560 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
+**3185** · `362572591c` · satır 1560 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
 
 > - **Ceyda'nın üç "A mı B mi"si** (V5). Fikir sözleşme gereği doğru ama üçüncü
 >   tekrarda oyuncu yazarın elini görüyor. V6'da aynı belirsizlik kararın bedeline
 >   dönüştüğü için orada çalışıyor.
 
-**3525** · `e3d445a48c` · satır 1563 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
+**3186** · `e3d445a48c` · satır 1563 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
 
 > - **İki hüküm kalıbı**: *"Umarım doğru olanı yaptım"* (V2), *"Doğrusu buydu"* (V3).
 >   `arac_akis_denetim.js --bayrak` ikisini de bayrakla basıyor. Üçüncüsü
@@ -17465,257 +15772,1962 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 >   üstüne, Nadire'nin suçlamadığı kurulmuşken suçlama varmış gibi bir geçmiş
 >   yaratıyordu. Artık *"Beni suçlamasan bile"*.
 
-**3526** · `60da5659ae` · satır 1568 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
+**3187** · `60da5659ae` · satır 1568 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
 
 > - **"Peri'nin boğazı düğümlendi"** (V4) — oyuncuya ne hissedeceğini söylüyor.
 
-**3527** · `66b1392401` · satır 1569 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
+**3188** · `66b1392401` · satır 1569 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟡 İncelemelerden kalan, sahibinin karar vermediği
 
 > - **`cengo_yoldas` yeniden üretimi** — PAKET 8 siparişi duruyor ama **gerek
 >   kalmadı**: kareler takas edilerek çözüldü. Sipariş kaydı tarihsel.
 
-**3528** · `aad4bf7f1c` · satır 1573 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟢 Eski açık işler (değişmedi)
+**3189** · `aad4bf7f1c` · satır 1573 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟢 Eski açık işler (değişmedi)
 
 > - Paket 5 görselleri (4: kriz kutusu + sezon sonu) — slot veride açılmamış
 
-**3529** · `cfe9f90fd2` · satır 1574 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟢 Eski açık işler (değişmedi)
+**3190** · `cfe9f90fd2` · satır 1574 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟢 Eski açık işler (değişmedi)
 
 > - K10 kör noktası — doğrulayıcı yalnız varsayılan metin varyantını denetliyor
 
-**3530** · `ddedf6d3ca` · satır 1575 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟢 Eski açık işler (değişmedi)
+**3191** · `ddedf6d3ca` · satır 1575 · madde · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › 🟢 Eski açık işler (değişmedi)
 
 > - Cengo satırı / anı defteri tekrarı — `gecistir`, `oyunu_surdur`
 >   (`cengoya_birak` yan turda kapandı: Cengo'ya atfedilen cümle defterden çıktı)
 
-**3531** · `f2f141802d` · satır 1579 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › ⚪ Sonraki faz
+**3192** · `f2f141802d` · satır 1579 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › ⚪ Sonraki faz
 
 > Android: Capacitor, görselleri base64'ten çıkarma, donanım geri tuşu,
 > erişilebilirlik, `final_tablo_plani.md`'deki sezon sonu istatistik tablosu.
 
-**3532** · `71904d5bf7-15` · satır 1582 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › ⚪ Sonraki faz
+**3193** · `71904d5bf7-15` · satır 1582 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 4. SIRADAKİ İŞLER › ⚪ Sonraki faz
 
 > ---
 
-**3533** · `55875b42bd` · satır 1586 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
+**3194** · `55875b42bd` · satır 1586 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
 > **Kısa konuş.** Bu oturumda sahibi dört kez "basit ve kısaca anlat" dedi. Uzun
 > tablo ve çok maddeli cevap işe yaramıyor; **iki-üç cümle + bir soru** çalışıyor.
 
-**3534** · `5310430df6` · satır 1589 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
+**3195** · `5310430df6` · satır 1589 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
 > **"Senin fikrin nedir?" diye sorar.** Seçenek listesi sunmak yerine **bir tane
 > öner ve gerekçesini tek cümlede söyle.** Bu oturumda beş kez böyle ilerledi.
 
-**3535** · `57c4660fd6` · satır 1592 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
+**3196** · `57c4660fd6` · satır 1592 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
 > **Kanona ekleme yapmadan önce onay al** — nereye ne ekleyeceğini söyle, onaylasın,
 > sonra yap. Bu oturumda bir kez işledi (V5 kanıtı) ve şekli sahibi seçti.
 
-**3536** · `1a1e69599a` · satır 1595 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
+**3197** · `1a1e69599a` · satır 1595 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
 > **Taslak → oku → uygula.** Her seferinde taslakta bir hata yakalandı.
 
-**3537** · `88a68ceb50` · satır 1597 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
+**3198** · `88a68ceb50` · satır 1597 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
 > **Sahibinin prozasına dokunma.** Onun cümlesini değiştirmek öneriyle olur.
 
-**3538** · `71904d5bf7-16` · satır 1599 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
+**3199** · `71904d5bf7-16` · satır 1599 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
 > ---
 
-**3539** · `74d3ae599f` · satır 1603 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
+**3200** · `74d3ae599f` · satır 1603 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
 
 > **Önce motora sor, sonra inan.** İnceleme üç kez "bu bozuk" dedi ve üçü de
 > doğruydu; ama iki kez de yanlış alarm verdi ve ikisi de ancak **motoru
 > çalıştırınca** çürütülebildi (`boslukla_kapat` kapısı, `%100` paneli).
 
-**3540** · `218c8d07ee` · satır 1607 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
+**3201** · `218c8d07ee` · satır 1607 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
 
 > **Tuhaf görünen şey kasıtlı olabilir.** `vedat_yuz`'ü "gizli tuzak" sanıp bedelsiz
 > yaptım; `test_v2b.js` kırıldı ve testin kendi yorumu tasarımı yazıyordu:
 > *"gerçek seçim: tam gerçek (güç) vs Vedat'a acıma (empati). İkisi birden değil."*
 > **Değiştirmeden önce ilgili teste bak.**
 
-**3541** · `bf9087be41` · satır 1612 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
+**3202** · `bf9087be41` · satır 1612 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
 
 > **Kendi aracına da şüpheyle bak.** İki yanlış alarmdan biri verinin değil
 > `arac_okuma.js`'in hatasıydı. Bir teşhiste de kendi "düzeltmem" hatayı büyüttü
 > (tur döngüsünün frenini 8'den 4'e düşürdüm).
 
-**3542** · `51e8ff8b2a` · satır 1616 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
+**3203** · `51e8ff8b2a` · satır 1616 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
 
 > **Geri çekme, ekleme kadar iş görür.** Bu oturumda uygulanan 30 düzeltmenin
 > büyük çoğunluğu **cümle kısaltmaktı** — "kimseye söylememiş" → "desteği veren
 > oydu", "Adalet geldi" → "Hepsi düştü". Yeni kanon yalnız bir kez eklendi.
 
-**3543** · `0fe6770203` · satır 1620 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
+**3204** · `0fe6770203` · satır 1620 · paragraf · DEVİR NOTU — 23 Eylül 2026 (en üst bölüm: 16 Ekim 2026 akşam) › 6. BU OTURUMDA ISIRAN DERSLER
 
 > **Aynı kök, farklı yüzey.** V4'teki altı sızıntının hepsi tek bir sebeptendi:
 > vaka "bunu kim biliyordu?" sorusunu cevaplıyordu, oysa o soru V5'in. Bir bulgu
 > bulduğunda **kardeşlerini ara.**
 
 
+## kaynak/OKUBENI.md
+
+**3205** · `cde9937fff` · satır 3 · alıntı · Eski oyun — vakalar ve ekonomi (arşiv)
+
+> > `kaynak/OKUBENI.md`'den 16 Kasım 2026'da taşındı (eski satır 142–1146). Eski oyun yayınlanmayacak; yeni iş buna dayanmaz.
+
+**3206** · `18506cb61f` · satır 7 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Açık uyarılar (tasarım kararı bekliyor)
+
+> - **K7 · V3, V6 ve YAN-B**: oyuncu hiçbir noktada iki kaynak arasında seçim
+>   yapmak zorunda kalmıyor. Üçü de **kabul edilmiş**, çünkü üçü de zincir:
+>   V3 düz bir teşhis zinciri (ağırlığı İlyas'ı ne yapacağında), V6 final
+>   (ağırlığı kimi ele vereceğinde), YAN-B ise dolandırıcının izi → sorumluluk
+>   → avukat kırıntısı (ağırlığı Nadire'ye ne yapacağında). Araştırma seçimi bu
+>   üç vakanın konusu değil.
+
+**3207** · `7210c308cd` · satır 13 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Açık uyarılar (tasarım kararı bekliyor)
+
+> - **K6 · V2/mahalle_konus**: kaçıran oyuncunun elinde 4 karardan 3'ü kalıyor.
+>   Derinlik ödülü olarak makul; dokunulmadı.
+
+**3208** · `5fad83a108` · satır 15 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Açık uyarılar (tasarım kararı bekliyor)
+
+> - **K9**: 6 tohum yazılıp hiç okunmuyor. Üçü (`cavit_guven`, `v2_karar`,
+>   `v4_karar`) itibar sistemine bağlandı; kalanlar ya Sezon 2 ipi
+>   (`peri_yuzlesti`, `adres_kime`) ya da henüz karşılığı yazılmamış. Silinmedi — bunlar ekonominin
+>   ihtiyaç duyacağı şeyler (hangi kararı verdin → itibar → müşteri ücreti;
+>   `cavit_guven` → hangi işler sana geliyor). Ekonomi turunda bağlanacak.
+
+**3209** · `a4ed078805` · satır 23 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **V1/cengo_baglanti** bedelsiz yapıldı: needs'i iki kaynak istiyor, kendisi
+>   de hak istiyordu; yanlış sırada harcayan oyuncu listede görüp açamıyordu.
+
+**3210** · `852b1851ba` · satır 25 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **V1/sigorta_yazisi → V4 köprüsü.** V4'ün girişi *"Peri o ödemeyi Kaya'nın
+>   KAYITLARINA bakarken görmüştü"* diyor. Bunu tetikleyen koşul
+>   `olay_yeri_acildi` idi — oysa o kaynak polis fotoğraflarından ibaret ve
+>   banka kayıtlarına erişim sağlamaz. Köprü artık **sigorta dosyası**: ölüm
+>   soruşturması yürüten sigorta hesap dökümlerini ister, ve dosyayı Peri'ye
+>   veren Cavit'in kendisi. Kaynağın metni de bunu söylüyor — *"Dosya kalın:
+>   poliçe, ekspertiz notları, ve Kaya'nın son bir yıllık hesap dökümleri"* —
+>   ve meta Cavit'in neden ayıklamadığını açıklıyor: acelesi vardı.
+
+**3211** · `eeaf0b23c9` · satır 33 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **V1/sigorta_yazisi** bedelsiz yapıldı: üç haktan birini yiyordu ama
+>   karşılığında girişte zaten söylenen şeyi tekrarlıyordu; açtığı olgu
+>   (`sigorta_sorusturma`) hiçbir çıkarımda kullanılmıyor. Sigorta eksperi
+>   zaten Peri'yi tutan taraf, dosyayı ona vermesi doğal. Metni de keskinleşti:
+>   artık ödemenin donduğunu ve "bağımsız uzman raporu" beklendiğini söylüyor —
+>   yani oyuncuya kendi rolünü anlatıyor (Cavit'in satın aldığı şey imza).
+>   V1'de hâlâ 4 ücretli kaynak / 3 hak var; seçim baskısı korundu.
+
+**3212** · `eb5cfca9d0` · satır 40 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **V3/foto_goster** bedelsiz yapıldı: iki açılış kaynağı (`cavit_brief`,
+>   `mahalle_yokla`) aynı kapıya çıkıyor. İkisini birden alan oyuncu — ki bu
+>   doğal bir hamle — teşhise yetişemiyor ve elinde yalnızca "tanığı lekele"
+>   kalıyordu. Artık 10 yolun hepsinde 4 karar da açık.
+
+**3213** · `ec3fd4161d` · satır 44 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **V6/zincir_ozet** V5'teki komplo çözümüne bağlandı; çözemeyen oyuncu
+>   `eldekiler` ile boşluğun kendisiyle yüzleşiyor.
+
+**3214** · `a1b4190dcf` · satır 46 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **V6'da susmak ikiye ayrıldı**: `sus_bilerek` (zinciri kurdu, söylemedi —
+>   sert sonuç, vicdan −1) ve `boslukla_kapat` (kuramadı, suçlayacak delili
+>   yok — mahkûmiyet ve ceza YOK). Kapılar `zincir_tam` ve `{not: zincir_tam}`
+>   olduğu için ikisi asla birlikte sunulmuyor; başka seçeneği olmayan oyuncuya
+>   ahlaki fatura kesilmiyor.
+
+**3215** · `56ef089f1e` · satır 51 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **İstatistik paneli yalnızca SUNULAN kararları gösteriyor** ve oranları o
+>   kümede 100'e ölçekliyor. Tek seçenek varsa panel hiç görünmüyor — dağılım
+>   diye bir şey yoktur. Eskiden oyuncunun hiç göremediği seçeneklerin oranı da
+>   gösteriliyordu.
+
+**3216** · `faec8a8da5` · satır 55 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Kapatılan tuzaklar
+
+> - **Son ekranı `hepsi` anahtarı**: eşlemede `hepsini_ifsa` yazıyordu ama karar
+>   `final_karar: "hepsi"` yazıyor. O final cümlesi hiç görünmüyormuş.
+
+**3217** · `4b4757b7ba` · satır 60 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> Doğrulayıcının K10'u yalnızca **kaynak** metinlerine bakıyordu. Karar
+> sonuçları, defter notları ve giriş varyantları denetimsizdi — bu sınıftaki
+> hataları bugüne kadar hep elle, tek tek bulduk.
+
+**3218** · `f84bafdf33` · satır 64 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> `test_sizinti.js` artık **yapısal** bir tarama da yapıyor. Mantığı şu:
+> koşullu bir metnin **varsayılan** varyantı, hiçbir koşul sağlanmadığında
+> gösterilendir — yani o yüzeyi gören **en az bilgili** oyuncunun okuduğu şey.
+> Soru: o oyuncunun elinde ne olduğu **kesin**?
+
+**3219** · `09ac5d6c23` · satır 69 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> Her yüzeyin kendi garantisi var:
+
+**3220** · `8a7d60b05b` · satır 71 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> | Yüzey | Garanti |
+
+**3221** · `3c97c0201e` · satır 73 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> | Kaynak metni/meta | `needs` + `reveals` (kaynağın kendisi o bilgiyi veriyor) |
+
+**3222** · `4c5f1762a4` · satır 74 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> | Karar sonucu | kararın `gate`'i |
+
+**3223** · `52da8a3e52` · satır 75 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> | Defter notu | ait olduğu kararın `gate`'i |
+
+**3224** · `84089bd0b1` · satır 76 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> | Giriş | `giris.acilan` |
+
+**3225** · `165f1fc187` · satır 78 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> Havuz üç şekilde genişliyor, üçü de gerçek yanlış alarmları kapatmak için
+> eklendi:
+
+**3226** · `bc2e9f89ac` · satır 81 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> 1. **Türetme geriye** — türetilmiş olguya sahipsen bileşenlerine de sahipsin.
+
+**3227** · `837c988763` · satır 82 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> 2. **Türetme ileriye** — bileşenlerin hepsine sahipsen türetilmişe de
+>    sahipsin. Bu olmadan `foto_goster`'ın kendi metni sızıntı sayılıyordu:
+>    kaynak `foto_teshis` veriyor, `iten_ilyas` ondan türüyor.
+
+**3228** · `c6b364c98e` · satır 85 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> 3. **Zincir boyunca** — bir olguyu üreten kaynak açılmış olmalı, o hâlde onun
+>    `needs`'i ve diğer `reveals`'ı da elde demektir. Bu olmadan zincirin
+>    sonundaki kaynaklar yanlış alarm veriyordu: `ceyda_derin`'e ulaşmak
+>    `iliski_gor`'dan geçiyor, o da `cinayet_sebep`'i veriyor. Aynı olguyu
+>    birden çok kaynak üretiyorsa yalnızca **ortak** garantiler sayılıyor —
+>    yoksa denetim gevşer.
+
+**3229** · `a2eecd9099` · satır 92 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde
+
+> Tarama 15 bulguyla başladı, 14'ü yanlış alarmdı; havuz doğru kurulunca
+> sıfıra indi. Negatif testle doğrulandı: düzeltilen bir sızıntı geri konunca
+> bekçi anında yakalıyor.
+
+**3230** · `3c8b8137e6` · satır 98 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
+
+> | Nerede | Söylenen | Oyuncunun bilmediği |
+
+**3231** · `7c585fc185` · satır 100 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
+
+> | `V3/tanigi_lekele` sonuç + defter | "**Doğruyu söyleyen** kadını lekeledin" | Tanığın doğru söylediğini hiç doğrulamamış olabilir |
+
+**3232** · `dd77f45cae` · satır 101 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
+
+> | `V3/foto_goster` **meta** | "İlyas — **V2'deki** o silik tahsildar" | V2'de o kaynağı açmamış olabilir |
+
+**3233** · `f72c42305a` · satır 102 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
+
+> | `V5/cavit_ilyas_ilgi` **başlık** | "Cavit neden **İlyas'ı** önemsiyor?" | İlyas'ı hiç teşhis etmemiş olabilir |
+
+**3234** · `996731bc89` · satır 103 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
+
+> | `V5/ilyas_gecmis` **başlık** | "**İlyas ile Cavit'in** geçmişi" | Aralarında bağ olduğunu bilmiyor |
+
+**3235** · `158b6455be` · satır 105 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 3. inceleme turunda kapatılan sızıntılar
+
+> `tanigi_lekele` üç bilgi durumuna ayrıldı: teşhis eden ("doğruyu söyleyen
+> kadını lekeledin"), tanığı dinleyip doğrulamayan ("doğru söyleyip
+> söylemediğini hiç öğrenmedin — öğrenmemeyi seçtin"), hiç dinlemeyen ("kadını
+> hiç dinlemeden yazdın").
+
+**3236** · `dc2645113a` · satır 112 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › Başlıklar da koşullu olabiliyor
+
+> Kaynak `ad` alanı artık `metinSec`'ten geçiyor. Sebep: **araştırma ekranında
+> açmadan önce görünen tek şey başlık.** "Cavit neden İlyas'ı önemsiyor?" başlığı
+> İlyas'ı hiç teşhis etmemiş oyuncuya ilişkinin varlığını peşinen söylüyordu;
+> "İlyas ile Cavit'in geçmişi" ise kaynağın bulacağı şeyi başlıkta veriyordu.
+> Bilmeyen oyuncu artık "Cavit'in telaşı nereden?" ve "Cavit'in eski dosyaları"
+> görüyor.
+
+**3237** · `2d18737617` · satır 119 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › Başlıklar da koşullu olabiliyor
+
+> `test_sizinti` artık başlıkları da tarıyor — bu yüzey tamamen denetimsizdi.
+
+**3238** · `3c8b8137e6-2` · satır 123 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | Nerede | Söylenen | Oyuncunun bilmediği |
+
+**3239** · `09e95edd38` · satır 125 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | `V3/cavite_teslim` sonuç + defter | "onu kullanan adamın kucağına attın" | Cavit'in İlyas'ı kullandığı (V5 bilgisi) |
+
+**3240** · `7df5f2c493` · satır 126 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | `V6` giriş (varsayılan) | "karısının onu aldattığını" | Ceyda–Cavit ilişkisi |
+
+**3241** · `a526e11a9e` · satır 127 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | `V6` giriş (orta) | "aldatıldığını" | Aynı |
+
+**3242** · `86e655df5c` · satır 128 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | `V6/eldekiler` | "bu bir kaza değildi — eminsin" | Hiç şüphesi olmayabilir |
+
+**3243** · `f6469970aa` · satır 129 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | `V6/kaya_izi` **meta** | "bir çocuğu yaşatırken" | V4'ü oynamamış olabilir |
+
+**3244** · `30a020cda7` · satır 130 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> | `V6/hepsini_ifsa` | "aile, **çocuk**, belki Cengo" | Aynı |
+
+**3245** · `037e53be2b` · satır 132 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Nurcan denetimi artık TÜM metin yüzeylerinde › 2. inceleme turunda kapatılan sızıntılar
+
+> Metnin kendisi koşulluyken **meta'nın koşulsuz kalması** iki kez tekrarladı
+> (`V6/kaya_izi`). Varyant eklerken her iki alanı da gözden geçirmek gerekiyor.
+
+**3246** · `576ff0cd3f` · satır 137 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> Karar ekranı Peri'nin cebinden çıkan parayı da **"ÜCRET −35.000 ₺"** diye
+> gösteriyordu. Bu, ahlakın doğrudan satın alındığı hissini veriyordu: sanki
+> vicdanın fiyatı var ve oyuncu onu ödüyor.
+
+**3247** · `7ad2f88348` · satır 141 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> Artık her gider kendi adıyla görünüyor (`decisions[].bedel_adi`):
+
+**3248** · `c456063243` · satır 143 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | Karar | Tutar | Ad |
+
+**3249** · `5a4553ae2b` · satır 145 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `YAN-B/tam_sahip_cik` | −40.000 ₺ | Nadire'nin zararı |
+
+**3250** · `caac9310cd` · satır 146 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `YAN-B/gercegi_soyle` | −18.000 ₺ | Nadire'ye bırakılan |
+
+**3251** · `81d7b914b4` · satır 147 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `YAN-B/sadece_coz` | −8.000 ₺ | Takip masrafı |
+
+**3252** · `ad9c748a61` · satır 148 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `YAN-C/aylayi_uyar` | −15.000 ₺ | Ayla'nın taşınma parası |
+
+**3253** · `8ae55ca6a0` · satır 149 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `V4/aileye_soyle` | −10.000 ₺ | Aileye bırakılan |
+
+**3254** · `1916280417` · satır 150 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `V4/sessiz_coz` | −35.000 ₺ | Tedavi katkısı |
+
+**3255** · `957c7e2f32` · satır 151 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> | `V6/cavit_ver` | −20.000 ₺ | Tahsil edilemeyen hesap |
+
+**3256** · `f86434ebc5` · satır 153 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> Rakam aynı, anlamı başka: *"TEDAVİ KATKISI −35.000 ₺"* bir fatura,
+> *"ÜCRET −35.000 ₺"* bir fiyat etiketi. Hem karar ekranında hem sonuçtaki
+> hesap kutusunda kullanılıyor.
+
+**3257** · `29375454a3` · satır 157 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Eksi tutarların gerçek bir adı var
+
+> `test_ekonomi` her eksi tutarın adı olmasını ve hiçbir adın "ücret"
+> dememesini şart koşuyor — yeni bir cepten-ödeme eklendiğinde test hatırlatır.
+
+**3258** · `d56959d1ba` · satır 162 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor
+
+> Dürüst rotada Cengo aylarca eline tam para geçmeden çalışıyor, ama ilişki
+> yüksek bitiyor. İlişkiyi düşürmek yanlış olurdu — sadakat gerçek. Eksik olan
+> şey **faturanın görünmemesiydi**.
+
+**3259** · `c4a3940c77` · satır 166 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor
+
+> `durum.gecmis` iki sayaç tutuyor: `cengoAcikAy` ve `cengoAlacak`. Final ekranı
+> ilişki kademesinin hemen altına ekliyor:
+
+**3260** · `19fc498fa1` · satır 169 · alıntı · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor
+
+> > **Cengo mesleki bir vedayla ayrıldı; yollar ayrıldı.**
+> > *Ama 4 ay eline tam para geçmedi. Birikmiş alacağı **95.800 ₺**. Sana bir kez
+> > bile sormadı.*
+
+**3261** · `f6a8104824` · satır 173 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor
+
+> İkisi birbirini çürütmüyor; ikisi birden doğru ve ağırlık orada.
+
+**3262** · `ca22fdda8d` · satır 175 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor
+
+> **Alacak, kriz eşiğinden bağımsız.** Kriz bayrağı kalemin yarıdan fazlası açık
+> kalınca yanıyor; alacak ise ne kadar eksik ödendiyse o kadar birikiyor.
+> Cengo'ya ücretinin %80'ini ödemek "ödedim" değildir.
+
+**3263** · `a6f1afb5ee` · satır 181 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor › Final mührü artık geri alınamıyor
+
+> `cavit_ver`, Cengo zaten "Yakın"sa ilişkiyi "Bağlı"ya mühürlüyor. Mühür kriz
+> hesabından **önce** vuruluyordu: aynı ay Cengo'ya ödenemezse kriz −1'i onu
+> hemen geri alıyor, "Bağlı" sessizce "Yakın"a düşüyordu. Mühür artık krizden
+> sonra vuruluyor — hangi kademede olduğuna karar anında bakılıyor, ama sonuç
+> ayın muhasebesiyle silinmiyor.
+
+**3264** · `40bd246a85` · satır 187 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Cengo: sadakat ve alacak birlikte görünüyor › Final mührü artık geri alınamıyor
+
+> Kayıt şeması 3 → 4.
+
+**3265** · `d8510efe12` · satır 193 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
+
+> İki zaman kanıtı vardı ve **ikisi de tek başına zayıftı**: kırık kol saati ne
+> zaman *durduğunu* kanıtlar, ölümü değil — üstelik sahnelenmesi en kolay delil
+> odur. Komşunun ifadesinde ise saat hiç yoktu. Buna rağmen Cengo ikisinden
+> matematiksel bir kesinlik çıkarıyordu ("kırk dakika önce yerde bulmuş oluyor").
+
+**3266** · `6f2b4aea4b` · satır 198 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
+
+> Çözüm ayrı ayrı yamamak değil, **ikisini kenetlemek** oldu. Komşu artık saat
+> veriyor ("haberlerden sonraydı — on bir gibi"), olay yeri metni saatin
+> kesinliğini geri alıyor ("düşerken kırılmış olabilir, öncesinde de"). Cengo'nun
+> cümlesi de bilgiye göre ikiye ayrıldı:
+
+**3267** · `3f27589d31` · satır 203 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
+
+> | Oyuncu | Cengo ne diyor |
+
+**3268** · `267923896f` · satır 205 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
+
+> | Komşuyu dinledi | "İki şey aynı saati gösteriyor, bir kişi başka saati." |
+
+**3269** · `8d6d409a22` · satır 206 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
+
+> | Dinlemedi | "Saat kırılabilir, yanılabilir — ama yanılan saat mi, kadın mı?" |
+
+**3270** · `a5a0040908` · satır 208 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Saat ve komşu artık birbirini destekliyor
+
+> Kesinlik değil **ağırlık**. Dedektiflik zaten bu: tek başına hiçbir şey ifade
+> etmeyen iki şeyin üst üste binmesi.
+
+**3271** · `b323ad28d4` · satır 213 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Sigorta neden "bağımsız" raporu kabul ediyor
+
+> Uzmanı lehtarın avukatı seçiyor ve parasını o ödüyor. Sigortanın bunu neden
+> bağımsız sayacağı açıklanmıyordu. İki yol vardı: ya sigorta Peri'yi atamış
+> olacaktı (V1'in bütün güç dengesini bozardı), ya da boşluk gerçek olacaktı.
+
+**3272** · `09f8f42760` · satır 217 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Sigorta neden "bağımsız" raporu kabul ediyor
+
+> İkincisi seçildi çünkü oyunun tezini güçlendiriyor: **sistem kanmıyor, sistem
+> suç ortağı.**
+
+**3273** · `66a70c1be6` · satır 220 · alıntı · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Sigorta neden "bağımsız" raporu kabul ediyor
+
+> > *"Poliçe, lehtarın kendi uzmanını tutmasına izin veriyor — sigorta da bunu
+> > biliyor. Kimse kanmıyor; herkesin işine geliyor."*
+
+**3274** · `14fa5e8e60` · satır 225 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Aylık %10 ne
+
+> Aylık %10 yıllık ~%214 eder; banka değil. Ama tefeci de değil — oyundaki borç
+> bir kredi değil, **ödenmemiş faturaların birikmesi**. Görünmeyen bir tefeci
+> yaratmak yerine var olan mekanik açıklandı (prolog):
+
+**3275** · `f0fb6f8fff` · satır 229 · alıntı · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Aylık %10 ne
+
+> > *"Bu şehirde gecikmenin fiyatı ağır: ödenmeyen her fatura kendi cezasını
+> > yazar, her ay biraz daha."*
+
+**3276** · `ce3fe9cc0f` · satır 232 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › Aylık %10 ne
+
+> Hiç sahneye çıkmayan bir tehdit, tehdit olmaz.
+
+**3277** · `ffad88451f` · satır 236 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › İki sıçrama kapandı
+
+> - **V1'de reddeden oyuncunun V3'ü.** Dosyanın kaza olarak kapandığı
+>   varsayılıyordu ama o oyuncu imzalamamıştı. Yeni giriş varyantı: *"Kaza
+>   raporunu başka bir uzmana imzalatmış… madem başkası imzaladı, Cavit neden
+>   hâlâ bu kadar tedirgin?"* Koşulu `ilk_karar` tohumu — **bugüne kadar hiçbir
+>   yerde okunmuyordu** (K9: 7 → 6).
+
+**3278** · `75bb59523c` · satır 241 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Anlatı zemini (3. inceleme turu) › İki sıçrama kapandı
+
+> - **V5'te gözlemden kesinliğe atlama.** Cavit'i Ceyda'nın kapısında görmek
+>   "sevgililer + cinayetin mimarı" demeye yetmiyordu. Meta ikiye ayrıldı:
+>   İlyas'ın geçmişini bilmeyene *"Bu bir sebep olabilir — ama sebep, fail demek
+>   değil"*, bilene *"ikisi yan yana gelince ortaya bir sebep çıkıyor"*.
+
+**3279** · `d16295df98` · satır 248 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> Ekonomi dinamik, metinler sabit. *"Borç kapandı"* diyen bir cümle, borcunun bir
+> kısmı kalan oyuncuya yalan söyler; *"kasam boş"* diyen bir defter notu
+> 200.000 ₺'si olana yalan söyler.
+
+**3280** · `3125ab91e2` · satır 252 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> **Kural: metnin işi EYLEMİ anlatmak, DURUMU değil.** Rakamı hesap kutusu zaten
+> gösteriyor. Temizlenenler:
+
+**3281** · `90b3468cc3` · satır 255 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | Nerede | Eski | Sorun |
+
+**3282** · `b158fe1ecb` · satır 257 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | `YAN-C/adresi_ver` ×3 | "parayı aldın, **borç kapandı**" | Geç oynanırsa borcun bir kısmı kalıyor |
+
+**3283** · `3e49fd9c98` · satır 258 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | `V6/sus_bilerek` | "**ajans yaşar** … ajans bu ay **rahat**" | 500.000 ₺ borçluya yalan |
+
+**3284** · `4db6a695c9` · satır 259 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | `V5/oyunu_surdur` | "bu ay **ajans rahat**" | Aynı |
+
+**3285** · `cb7876acc1` · satır 260 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | `V4/sessiz_coz` | "**Peri de beş parasız**" | Oyuncunun 200.000 ₺'si olabilir |
+
+**3286** · `48afb7ecae` · satır 261 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | `YAN-B/tam_sahip_cik` | "Peri **beş parasız** olsa da" | Aynı |
+
+**3287** · `2435c36a72` · satır 262 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | defter `V1/temiz_rapor` | "**borç biraz nefes aldı**" | O anda borç SIFIR |
+
+**3288** · `563d5a6026` · satır 263 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | defter `YAN-C/isi_reddet` | "**kasam boş**" | Sabit iddia |
+
+**3289** · `90df2c0710` · satır 264 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | prolog 4 | "Borç ensemde. **Kasa boş**." | Oyun 65.000 ₺ / 0 borç ile başlıyor |
+
+**3290** · `02a72eae2d` · satır 265 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> | prolog 3 | "**ödeyecek param bile yok**" | Cengo gider listesinde, ödeniyor |
+
+**3291** · `173a937f32` · satır 267 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> Serbest kalanlar: **olay** bildiren cümleler ("para geldi", "para biter",
+> "para akar") ve **başkasının** parasızlığı (Cengo, Ceyda, Nadire). Bir de
+> `V1/temiz_rapor`'un kendi sonucu: V1'e herkes aynı durumdan giriyor
+> (65.000 ₺, borç yok), o yüzden "ajans nefes alır" orada her zaman doğru.
+
+**3292** · `d0149ede35` · satır 272 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> `test_sizinti.js` bunu kalıcı olarak bekliyor — yasak kalıpların listesi ve
+> bilinçli istisnalar orada. Bekçiyi yazarken benim gözden kaçırdığım bir
+> tanesini (`V5/oyunu_surdur`) hemen yakaladı.
+
+**3293** · `ed3498ab9d` · satır 276 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı
+
+> **Kalıp listesi elle tutuluyor ve iki inceleme turunda büyüdü.** 3. turda üç
+> defter notu daha kaçtığı görüldü — *"kasada para yok"* (5.925 ₺ varken),
+> *"borcum kapandı"* (borç sıfırken), *"borcumu büyüttüm"* (parası olan
+> oyuncuda borç oluşmaz). Üçü de eylem anlatan hâline çevrildi ve kalıp listesine
+> eklendi. Liste tamam olduğunu iddia etmiyor; her yeni metinde göz gerekiyor.
+
+**3294** · `f83279a468` · satır 284 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı › İki defter notu koşullu oldu
+
+> Aynı düzeltme sırasında iki Nurcan kırılması da çıktı:
+
+**3295** · `358645b348` · satır 286 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı › İki defter notu koşullu oldu
+
+> - **`V1/temiz_rapor`** "o merdivende bir şey doğru değildi" diyordu — hiç
+>   araştırmayan oyuncu böyle bir şey görmedi. Artık iki varyant.
+
+**3296** · `38c7adb4cc` · satır 288 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Sabit finansal iddia yasağı › İki defter notu koşullu oldu
+
+> - **`YAN-C/isi_reddet`** "kadın hâlâ orada" diyordu — aranan kişinin kadın
+>   olduğunu ve nerede olduğunu bilmeyen oyuncuya. Artık üç varyant: adresi
+>   bulan, sadece ismi öğrenen, hiç bakmayan.
+
+**3297** · `a2306e2eda` · satır 294 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> Doğrulayıcının 10 kuralı **yapıya** bakar. Ama oynanışta bulunan hataların
+> çoğu yapı olarak geçerli, **anlam olarak yanlış**: metin, oyuncunun o an
+> sahip olmadığı bir olguyu varsayıyor. Şema doğrulaması bunu göremez.
+
+**3298** · `1528646135` · satır 298 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> Bu test oyunu uçtan uca, farklı bilgi derinliklerinde oynar ve her ekranda
+> gösterilen metni oyuncunun O ANDAKİ bilgisiyle karşılaştırır.
+
+**3299** · `1df13b3c50` · satır 301 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> Oynanan gidişatlar:
+
+**3300** · `75788124d3` · satır 303 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> | Gidişat | Ne yakalar |
+
+**3301** · `00160f2368` · satır 305 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> | En az bilgi (hiç araştırma yok) | sonuç/defter metinlerinin varsaydığı bilgi |
+
+**3302** · `dc21968497` · satır 306 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> | Tam araştırma | normal akışta sızıntı |
+
+**3303** · `12b73ae335` · satır 307 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> | Her şey (yan vakalar dahil) | yan vaka metinleri |
+
+**3304** · `57df12bb4b` · satır 308 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> | V4 savsaklandı ama komplo çözüldü | V6'nın V4 bilgisini hediye etmesi |
+
+**3305** · `1a5215761c` · satır 309 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> | V1 savsaklandı, gerisi derin | erken savsaklamanın sonraki vakalara etkisi |
+
+**3306** · `9a27cc5a42` · satır 311 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> **İma sözlüğü** elle yazılır ve bilinçli olarak dardır: "şu kelime geçiyorsa
+> şu olgulardan biri bilinmeli". Böylece yanlış alarm üretmez; yakaladığı her
+> şey gerçek sızıntıdır. Bir vaka kendi konusunu tanıtıyorsa `haric` ile
+> muaf tutulur (örn. V4'ün girişi isimsiz ödemeyi zaten tanıtır).
+
+**3307** · `2f5cdbd659` · satır 316 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sızıntı testi (test_sizinti.js)
+
+> Test ayrıca `_durum_matrisi.txt` üretir: her gidişatta her ekranda ne yazdığının
+> tam dökümü. Otomatik kural her şeyi yakalayamaz; bu dosya **elle okunmak
+> içindir** ve oynamadan gözden geçirmeyi mümkün kılar.
+
+**3308** · `18b297ffa6` · satır 322 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> **Para bir skor değil, bir kısıt.** Biriktirilip maksimize edilmez; bittiğinde
+> seçenekler kapanır. Batmak oyunu bitirmez — düzgün olma hakkını elinden alır.
+> Kaybetme durumu **yok**.
+
+**3309** · `ff78b2ce76` · satır 326 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> Rakamlar 2026 seviyelerine göre (`game_data.json` → `ekonomi`):
+
+**3310** · `a495810e82` · satır 328 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | Kalem | Tutar | Dayanak |
+
+**3311** · `be200668d1` · satır 330 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | Başlangıç kasası | 65.000 ₺ | bir aylık gideri ancak karşılıyor |
+
+**3312** · `2592ea4418` · satır 331 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | Ofis kirası | 22.000 ₺ | İstanbul ortalaması 75.450 ₺; Paravan arka sokakta, dökük |
+
+**3313** · `4c958d463d` · satır 332 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | Cengo'ya elden ödeme | 28.075 ₺ | 2026 **net** asgari ücret, birebir |
+
+**3314** · `68463c1679` · satır 333 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | İşletme | 9.000 ₺ | elektrik, telefon, yakıt |
+
+**3315** · `8d8fd3a363` · satır 334 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | **Aylık toplam** | **59.075 ₺** | |
+
+**3316** · `a1704751a6` · satır 335 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> | Borç faizi | %10 / ay | tefeci; borç varsa her omurga vakada biner |
+
+**3317** · `622d02e4fb` · satır 337 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> Vaka ücretleri gerçek dedektiflik fiyatlarına dayanıyor: aldatma araştırması
+> 20–50 bin, kayıp kişi 40–100 bin, günlük 4–9 bin ₺.
+
+**3318** · `386d6e760d` · satır 340 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi
+
+> **Neden net ücret, işveren maliyeti değil:** resmî çalışanda 2026 toplam
+> işveren maliyeti ~40.214 ₺. Paravan bir **paravan şirket**; Cengo'ya elden
+> ödeme yapılıyor, bu yüzden nakit çıkışı net tutar kadar. Kalem adı bunu
+> söylüyor ki rakamın hangi muhasebe kaleminden geldiği belirsiz kalmasın.
+> Cengo resmîleştirilirse aylık gider ~71.214 ₺ olur ve tüm denge yeniden
+> ayarlanmalıdır.
+
+**3319** · `512fc250f7` · satır 349 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Kurallar
+
+> - **Sabit giderler yalnızca OMURGA vaka bitince kesilir.** Bir omurga vaka bir
+>   ay demek; yan iş aynı ayın içinde yapılır, ikinci kira ödetmez. Bu yan
+>   işleri finansal olarak anlamlı kılar.
+
+**3320** · `2f9b56f391` · satır 352 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Kurallar
+
+> - **Kasa asla eksiye düşmez**; eksik kısım borca yazılır (`paraDus`).
+
+**3321** · `8ac89a72ee` · satır 353 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Kurallar
+
+> - Kaynaklar `ucret` taşıyabilir (muhbire ödeme, kayıt satın alma). Kasa
+>   yetmiyorsa kaynak kapanır — yoksulluk bilgiye erişimi kısıtlar.
+
+**3322** · `49f2b72a52` · satır 355 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Kurallar
+
+> - Kararlar `para` taşır: kararın net parasal sonucu.
+
+**3323** · `5a9c879e71` · satır 359 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Arayüz
+
+> - **Kasa şeridi** her ekranda: tutar + anlamı ("bir aylık gideri ancak
+>   karşılıyor"). Çıplak sayı baskıyı okunmaz yapar, sayısız gösterge körleştirir.
+
+**3324** · `deb9c5eb92` · satır 361 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Arayüz
+
+> - **Karar ekranında rakam YOK**, niteliksel etiket var: "tam ücret",
+>   "ücretin bir kısmı", "ödeme yok", "cebinden çıkar". Kesin tutar görünürse
+>   ahlaki seçim hesap işine döner.
+
+**3325** · `ce692d52c9` · satır 364 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Arayüz
+
+> - **Sonuç ekranında tam döküm**: ücret, araştırma masrafı, kalem kalem
+>   giderler, faiz, kasa ve borç.
+
+**3326** · `ea494e6c32` · satır 369 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> Para ve vicdan eksenleri **ters sıralanmalı**. Bir seçenek hem daha çok para
+> hem daha çok vicdan getiriyorsa o bir ikilem değil, doğru cevaptır.
+
+**3327** · `a336bc7ac7` · satır 372 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> V1 bunun ilk örneği. Eski vicdan değerleri (−1, 0, +1, +1) para eklenince
+> baskın seçenek üretiyordu: `gizli_kaz` hem para getiriyor hem +1 vicdan,
+> `reddet`i (aynı +1, sıfır para) anlamsız kılıyordu. Yeni sıralama:
+
+**3328** · `8a807d430c` · satır 376 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> | Karar | Para | Vicdan |
+
+**3329** · `70ff07a1ce` · satır 378 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> | Temiz rapor ver (göm) | 65.000 ₺ | −1 |
+
+**3330** · `d339c5765e` · satır 379 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> | Raporu ver, sessizce kaz | 45.000 ₺ | 0 |
+
+**3331** · `88458170aa` · satır 380 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> | Şüpheni Cavit'e söyle | 25.000 ₺ | +1 |
+
+**3332** · `873a7c3c33` · satır 381 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> | İşi reddet | 0 ₺ | +2 |
+
+**3333** · `4b71991845` · satır 383 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Baskınlık kuralı (K8)
+
+> K8 ayrıca göreli ödünleşimi kontrol eder: en çok kazandıran seçenek aynı
+> zamanda en vicdanlısı olamaz. 65.000 yerine 0 almak da bir bedeldir.
+
+**3334** · `20828df79c` · satır 388 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> V2'nin müşterisi Nesrin gazeteden gelen bir yürüyen müşteri: "tanıdık, kadın
+> ve **ucuz** bir kapı" aradığı için Peri'ye geldi. Bu yüzden ücret düşük —
+> anlaşılan ücret 18.000 ₺, aldatma araştırması bandının (20–50 bin) altı.
+
+**3335** · `bd8492fcdd` · satır 392 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> | Karar | Para | Vicdan | Neden o kadar |
+
+**3336** · `c327ce2341` · satır 394 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> | Parayı al, kuru rapor ver | 18.000 ₺ | −1 | Sözleşme neyse o; pazarlık da yok teşekkür de |
+
+**3337** · `67ee76411b` · satır 395 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> | Rahatlatıcı bir yalan kur | 18.000 ₺ | −1 | Ücreti eksiksiz öder — **yalan fazladan kuruş getirmez** |
+
+**3338** · `31e41773f1` · satır 396 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> | Nesrin'e her şeyi anlat | 14.000 ₺ | 0 | İş bitti ama iş artık hukuki; kalan para avukata gidiyor |
+
+**3339** · `1b19b92085` · satır 397 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> | Sadece 'aldatmıyor' de | 10.000 ₺ | +1 | Kuşkusu bitmediği için işi bitmiş saymıyor; kaporayı bırakıp gerisini tutuyor |
+
+**3340** · `7146aa6e6a` · satır 399 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> İki −1 seçeneğin parası **kasten eşit**: K8 eşit vicdanda para farkını
+> baskınlık sayar, ama asıl sebep tematik — yalan söylemek Peri'ye hiçbir şey
+> kazandırmıyor, sadece bir şey kaybettiriyor.
+
+**3341** · `b0aadad8f5` · satır 403 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> **V2 tasarım gereği zararlı bir ay.** En iyi ihtimalle 18.000 ₺ giriyor,
+> 59.075 ₺ çıkıyor: oyuncu V2'den her hâlükârda daha fakir çıkar (V1'i temiz
+> oynayan 70.925 → 29.850; reddeden 5.925 → 38.665 ₺ borç). Tez şu: dürüst
+> müvekkil kirayı ödemez. Rahatlama hemen sonra gelen **YAN-A** ile geliyor —
+> yan vakalarda sabit gider kesilmiyor.
+
+**3342** · `00ae0c5634` · satır 409 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> Dikkat: masa sıralı. V1 → V2 → (YAN-A) → V3 → V4 → (YAN-B) → V5 → V6.
+> `masadakiVakalar()` yan vakayı yalnızca `belirir.sonra === son tamamlanan`
+> iken gösteriyor; omurgaya geçen oyuncu onu **kalıcı olarak** kaybediyor.
+> Yan vakayı önce oynamak omurgayı düşürmüyor.
+
+**3343** · `bbc0cbc662` · satır 414 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> Bu kayıp kasıtlı — ama söylenmezse tuzak. Masadaki yan iş kartı artık şunu
+> yazıyor: *"Beklemez — büyük dosyaya dönersen başkasına gider."*
+
+**3344** · `07f873fe76` · satır 417 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V2 — kıtlık ayı
+
+> Eski yazı (*"İstersen bak — zaman ve para senden gider"*) uyarı eksikliğinden
+> daha kötüydü: yan vakalarda sabit gider **kesilmiyor** ve yan iş ücret
+> getiriyor, yani cümle oyuncuyu tam ters yöne itiyordu. Oyunun deyimi
+> "metinle uyar, engelleme" (bkz. "Bu karar geri alınamaz."), o yüzden onay
+> kutusu değil kart yazısı seçildi. `test_yana.js` hem düşme davranışını hem
+> kartın uyarıyı taşıdığını kilitliyor.
+
+**3345** · `b7cc7e8002` · satır 426 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> Müşteri yine Cavit ve istediği şey V1'dekinden ağır: doğruyu söyleyen yaşlı
+> bir kadını "güvenilmez" diye rapor ettirmek. Vicdanın fiyatı da ona göre
+> yükseliyor — V1'in tavanı 65.000 ₺ idi, V3'ün tavanı 85.000 ₺.
+
+**3346** · `bd8492fcdd-2` · satır 430 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | Karar | Para | Vicdan | Neden o kadar |
+
+**3347** · `7ee3afcb1f` · satır 432 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | Tanığı 'güvenilmez' diye rapor et | 85.000 ₺ | −2 | Cavit'in sipariş ettiği tek şey buydu: dosyayı kapatan belge |
+
+**3348** · `5c244faf3e` · satır 433 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | İlyas'ı Cavit'e teslim et | 70.000 ₺ | −1 | Rapor yazılmadı, ama Cavit aldığı şeye daha çok değer veriyor |
+
+**3349** · `21e9866cb9` · satır 434 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | Kendine sakla, koz yap | 40.000 ₺ | +1 | Ortada rapor yok, sadece bir görüntü; ücretin bir kısmını tutar |
+
+**3350** · `0c99961b4d` · satır 435 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | İlyas'ı polise ver | 0 ₺ | +2 | Sonuç metninin kendi sözü: Cavit "ödemeyi keser" |
+
+**3351** · `908aad4ff7` · satır 437 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> `tanigi_lekele` tek kapısız karar (`gate: "yok"`). Yani hiç araştırmayan
+> oyuncunun önünde yalnızca **en çok kazandıran ve en kirli** seçenek duruyor.
+> Bakmamak para kazandırıyor — tez tam olarak bu.
+
+**3352** · `17c9c7d194` · satır 441 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> Üç aylık eğri (yan vakalar hariç, başlangıç 65.000 ₺):
+
+**3353** · `3550372648` · satır 443 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | Yol | V1 | V2 | V3 |
+
+**3354** · `776c083ea6` · satır 445 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | En kirli | 70.925 ₺ | 29.850 ₺ | 55.775 ₺ |
+
+**3355** · `f8cb24a9d2` · satır 446 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | Orta | 50.925 ₺ | 9.850 ₺ | 20.775 ₺ |
+
+**3356** · `cf4514b991` · satır 447 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | Koz tutan | 50.925 ₺ | 9.850 ₺ | 10.148 ₺ borç |
+
+**3357** · `9e997d1f9c` · satır 448 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › V3 — kirli paranın en yüksek olduğu ay
+
+> | En temiz | 5.925 ₺ | 47.465 ₺ borç | 117.194 ₺ borç |
+
+**3358** · `19a0a5148b` · satır 452 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Karar önizlemesi motorun hesabını tekrar eder
+
+> Karar ekranındaki "ay sonunda …" satırı `Math.max(0, kalan)` basıyordu; kasa
+> eksiye düşemediği için bu, 37.225 ₺'lik bir çukuru **"ay sonunda 0 ₺"** diye
+> gösteriyordu. Artık motorun kapanış sırasını birebir taklit ediyor —
+> önce sabit giderler, sonra borcun **tamamına** faiz — ve ikinci bir satırda
+> oluşacak borcu yazıyor ("borç 40.948 ₺"). Zaten borçlu oyuncuda uyarı
+> "borca girersin" değil "borcun büyür" oluyor.
+
+**3359** · `461c917db7` · satır 459 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Karar önizlemesi motorun hesabını tekrar eder
+
+> İki hesabın aynı kalmasını `test_ekonomi.js` kilitliyor: motorun kapanış
+> sırası değişirse test patlar ve arayüzün de güncellenmesi gerektiğini söyler.
+
+**3360** · `a69dd8ced3` · satır 464 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Eline geçen para borcu kapatır
+
+> Kasa ve borç iki ayrı sayaç gibi işliyordu: oyuncu 30.925 ₺ kasa **ve** büyüyen
+> 33.000 ₺ borçla dolaşabiliyordu, borçtan çıkışın hiçbir yolu yoktu. Artık
+> kapanış sırası şöyle: kararın parası → sabit giderler → borcun tamamına faiz →
+> **kalan kasa borcu kapatır**. Alacaklı sormaz, alır. Yan işlerde de geçerli.
+
+**3361** · `e0a491619a` · satır 469 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Ekonomi › Eline geçen para borcu kapatır
+
+> Bu, borcu bir cezadan gerçekten tırmanılabilir bir çukura çevirdi ve YAN-C'yi
+> mümkün kıldı — o düzeltme olmadan 120.000 ₺ kazanmak borcu kapatmıyordu.
+
+**3362** · `355afec08b` · satır 474 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> Omurgayla hiçbir ilgisi yok. Borç **80.000 ₺**'yi geçince masaya düşer ve
+> `belirir.sonra: "her"` olduğu için koşul sürdükçe orada kalır; masa kartı da
+> bunu yazar ("Gitmiyor. Ne zaman dönsen orada"). Kirli oynayan oyuncu bu vakayı
+> hiç görmez.
+
+**3363** · `19def3d8ce` · satır 479 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> **Omurga bitince masaya düşmez.** Sezon bittiğinde borç eşiği ne kadar aşılmış olursa
+> olsun yan iş listelenmiyor; yoksa "Dava Kapandı" ekranı yan işin arkasında kalıyor ve
+> finalin Cengo mührü (`cavit_ver` → "Bağlı") sonraki kararla siliniyordu.
+
+**3364** · `1a263fcb94` · satır 483 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> Hulki adında bir adam tek bir şey ister: bir adres. Ödeyeceği rakam bir adres
+> için değil, bir adresin sessizliği için. Peri'yi nereden bulduğu vakanın
+> kalbi — Cengo'nun bedelsiz sorusu onu açar: *"Bu herif senin borcunu nereden
+> biliyor?"* Borç, öğrenilecek bir şey değil; duyulur. Artık bir fiyatın var ve
+> fiyatını sen koymadın.
+
+**3365** · `bba5dec983` · satır 489 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | Karar | Para | Vicdan | Kapı |
+
+**3366** · `b4bc7ea962` · satır 491 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | Adresi ver, parayı al | +120.000 ₺ | −2 | `ayla_yeri` |
+
+**3367** · `aa384f0318` · satır 492 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | Yanlış adres ver, kaporayı al | +40.000 ₺ | 0 | `kadin_adi` |
+
+**3368** · `8094f62175` · satır 493 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | İşi reddet | 0 ₺ | +1 | yok |
+
+**3369** · `a6091fc21a` · satır 494 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | Ayla'yı bul ve uyar | **−15.000 ₺** | +2 | `ayla_yeri` |
+
+**3370** · `07663ae261` · satır 496 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> Oyunun **cebinden ödeten ilk kararı** bu. K8'in kuralı zaten "vicdan
+> yükseldikçe para düşer" diyordu; en vicdanlı seçenek sıfırın da altına iniyor.
+
+**3371** · `ee766e1958` · satır 499 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> **Bütçe kasten yetmiyor.** Hak 3, ücretli kaynak 4 (`hulki_kim`, `adli_kayit`,
+> `izi_sur`, `ayla_kim`); ismi sormak ve Cengo'nun sorusu bedelsiz. Hiç
+> araştırmayanın önünde tek seçenek kalıyor: reddetmek. Para istiyorsan bakmak
+> zorundasın.
+
+**3372** · `c97de8f9f6` · satır 504 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> **İsmi sormak neden bedelsiz:** 2. inceleme turunda şu yakalandı — borçlu
+> oyuncunun elektriği kesik olduğu için hakkı 2'ye iniyordu ve ismi sormak
+> bunun birini yiyordu. Sonuç: ya kadının neden saklandığını öğreniyordu ya
+> adresini buluyordu, ikisini birden asla. *"İlginç bir noir belirsizliği
+> olabilir; fakat informed moral choice açısından sert."* Haklıydı — bu vakanın
+> hedef kitlesi zaten borçlu oyuncu.
+
+**3373** · `0190c8d6f9` · satır 511 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> İsmi sormak bedelsizleşince bütçe her şeye yetti ve seçim baskısı kalktı
+> (K7 uyarı verdi). Onun yerine dördüncü bir ücretli kaynak geldi: **`ayla_kim`**
+> — prosedür değil, insan. *"Üç yıldır aynı işte, aynı semtte. Kimseyle
+> görüşmüyor."* Adresi yine satabilirsin, ama `adresi_ver`'in metni artık bunu
+> biliyor: *"kim olduğunu öğrenmiştin, yine de yazdın."*
+
+**3374** · `4bc9f7d5a6` · satır 517 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> Yeni denge:
+
+**3375** · `bfdcee8e53` · satır 519 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | | Hak | Adres + uzaklaştırma kararı | Her şey |
+
+**3376** · `a7551b50cf` · satır 521 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | Elektrik var | 3 | 70 / 150 yol | **0** |
+
+**3377** · `bf123b6151` · satır 522 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> | Elektrik kesik | 2 | 8 / 60 yol | **0** |
+
+**3378** · `7b1c9708ec` · satır 524 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> Yani bilinçli ahlaki karar artık borçlu oyuncuya da açık, ama kimse her şeyi
+> öğrenemiyor — bir şeyi mutlaka atlıyorsun.
+
+**3379** · `a83cfe3631` · satır 527 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-C "Adres" — borç tetikli vaka
+
+> Borç 117.194 ₺ iken `adresi_ver` borcu sıfırlıyor ve geriye **3.000 ₺**
+> bırakıyor. Kadını sattın ve hâlâ beş parasızsın — kurtuluş değil, takas.
+
+**3380** · `fe83114ee4` · satır 532 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri
+
+> Yan iş, sabit gider kesmediği için gelen para doğrudan nefes demek. V2'den
+> 47.465 ₺ borçla çıkan oyuncu burada borcunu neredeyse kapatabiliyor.
+
+**3381** · `bd8492fcdd-3` · satır 535 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri
+
+> | Karar | Para | Vicdan | Neden o kadar |
+
+**3382** · `c8b449f68a` · satır 537 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri
+
+> | Sevil'e 'biliyorum' diye çık | 65.000 ₺ | −1 | Ücret + fazlası: sırrını bilen bir kişi daha var |
+
+**3383** · `1b0856a458` · satır 538 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri
+
+> | Tehdidi çöz, geçmişe dokunma | 45.000 ₺ | 0 | Anlaşılan ücret; iş yapıldı |
+
+**3384** · `5045c3f323` · satır 539 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri
+
+> | Sevil'in işini geri çevir | 12.000 ₺ | +1 | Yapılan iş kadarı; asıl ücreti eline almadın |
+
+**3385** · `1b862b6e08` · satır 540 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri
+
+> | Cengo'ya bırak, karışma | 0 ₺ | +2 | Arkadaşının kendi defteri için fatura kesilmez |
+
+**3386** · `d3fb48b757` · satır 544 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › K8'in yakaladığı gerçek çelişki
+
+> `sessiz_coz` ve `isi_gecevir` **ikisi de +1 vicdandaydı**. Biri işi çözüp para
+> getiriyor, öteki geri çevirip getirmiyor — yani aynı ahlak, daha çok para.
+> `isi_gecevir`'i seçmek için hiçbir sebep kalmıyordu. Bu, para eklenmeden de
+> var olan bir tasarım hatasıydı; K8 onu para eklenince görünür kıldı.
+
+**3387** · `6dae6bb28f` · satır 549 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › K8'in yakaladığı gerçek çelişki
+
+> Çözüm `sessiz_coz`'ü **0**'a indirmek oldu: bir yabancının derdini para
+> karşılığı çözmek ve fazlasını sormamak **meslek**, erdem değil. İşi
+> Cengo'nun hatırına geri çevirmek ise 33.000 ₺'lik bir erdem.
+
+**3388** · `8e0adaa899` · satır 555 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
+
+> `sessiz_coz`'ün kapısı `tehdit_kim`; oyuncu Cengo'nun geçmişini **hiç
+> öğrenmeden** bu kararı verebiliyor. Eski metin ona "kapalı defter kapalı
+> kaldı" diyordu — olmayan bir sırrı ele veriyordu. Üç varyant:
+
+**3389** · `f27ca094cb` · satır 559 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
+
+> | Bilgi | Metin |
+
+**3390** · `50e5b200a7` · satır 561 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
+
+> | `gecmis_tam` | "Cengo'nun onun yerine neyi üstlendiğini biliyorsun — ve söylemedin." |
+
+**3391** · `53f5ff21fd` · satır 562 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
+
+> | `gecmis_sezildi` | "İkisi arasında bir şey olduğunu sezdin ama üstüne gitmedin." |
+
+**3392** · `63e45048f6` · satır 563 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Sessiz çözümün sonucu koşullu
+
+> | varsayılan | "Kadının neden bu kadar korktuğunu hiç öğrenmedin — sormadın da." |
+
+**3393** · `5465ad960c` · satır 567 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
+
+> Borçlu oyuncunun elektriği kesik olduğu için YAN-A'da **2 değil 1** araştırma
+> hakkı var. Bu, iki dalın yalnızca birine yetiyor:
+
+**3394** · `e0fd1735f4` · satır 570 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
+
+> | Harcadığın hak | Açılan kararlar |
+
+**3395** · `24629bca11` · satır 572 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
+
+> | `tehdit_arastir` | sessiz_coz (45.000 ₺) · isi_gecevir (12.000 ₺) |
+
+**3396** · `6ea925005f` · satır 573 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
+
+> | `eski_kayit` (+ bedelsiz `cengo_cumle`) | biliyorum_cik (65.000 ₺) · cengoya_birak (0 ₺) |
+
+**3397** · `fefefc1371` · satır 575 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-A "Kapalı Defter" — nefes alma yeri › Karanlıkta tek iplik
+
+> Yani en çok kazandıran seçenek (65.000 ₺) ancak Cengo'nun geçmişini kurcalayan
+> oyuncunun önüne çıkıyor, ve o dalda orta yol yok: ya arkadaşının yarasını
+> açarsın ya hiç para almazsın. Kimse bunu tasarlamadı — krizin bütçeyi kısması
+> ile kapıların dizilişi çarpıştı. Kalsın: oyunun tezi tam olarak bu.
+
+**3398** · `ed6ff66f81` · satır 582 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> `V1/gizli_kaz` oyuncuya bir söz veriyordu — *"bir yandan kendine dosya
+> açarsın"*, defterde *"Bir şeyin ucundan tutuyorum, daha bırakmayacağım"* —
+> ama `gizli_dosya` tohumu hiçbir yerde okunmuyordu. **O dosya hiç açılmıyordu.**
+
+**3399** · `c2844649b7` · satır 586 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> Üstelik seçenek mekanik olarak en akıllı hamleydi. Sezon boyu değeri (V1 +
+> V3 + V5'in en yüksek ücretleri, itibar çarpanı dahil) şöyleydi:
+
+**3400** · `3b16fac96c` · satır 589 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | V1 kararı | Eskiden | Vicdan | Basamak farkı |
+
+**3401** · `2f1b9eb7cf` · satır 591 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Temiz rapor | 230.000 ₺ | −1 | — |
+
+**3402** · `63a9f4d2fb` · satır 592 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Sessizce kaz | **210.000 ₺** | 0 | **20.000 ₺** |
+
+**3403** · `49c3af5742` · satır 593 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Cavit'e söyle | 140.500 ₺ | +1 | 69.500 ₺ |
+
+**3404** · `361464b5b4` · satır 594 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Reddet | 115.500 ₺ | +2 | 25.000 ₺ |
+
+**3405** · `cc8387ee0e` · satır 596 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> Birinci vicdan puanı 20.000 ₺, ikincisi 69.500 ₺. Merdiven çarpıktı: `gizli_kaz`
+> neredeyse bedava bir vicdan puanı satıyor, üstelik Cavit'in güvenini ve
+> dolayısıyla sonraki ücretleri koruyordu.
+
+**3406** · `a1b0dc4d56` · satır 600 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> **Çözüm dosyayı gerçek yapmak oldu, iki yüzüyle:**
+
+**3407** · `c67abe2cd1` · satır 602 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> - V5'teki `dosya_donus` kaynağı **bedelsizleşiyor** — o dosyaya yeniden
+>   bakmak hak yemez, çünkü zaten tutuyordun.
+
+**3408** · `dc41840911` · satır 604 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> - Ama Cavit seziyor: V5 ücreti **×0.85**. *"Cavit senin bir şeyler
+>   biriktirdiğini seziyor; eli sıkılaştı."*
+
+**3409** · `cdbeb92665` · satır 607 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | V1 kararı | Şimdi | Vicdan | Basamak farkı |
+
+**3410** · `2f1b9eb7cf-2` · satır 609 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Temiz rapor | 230.000 ₺ | −1 | — |
+
+**3411** · `c87e4e8cc6` · satır 610 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Sessizce kaz | 198.000 ₺ | 0 | 32.000 ₺ **+1 araştırma hakkı** |
+
+**3412** · `630b1270eb` · satır 611 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Cavit'e söyle | 140.500 ₺ | +1 | 57.500 ₺ |
+
+**3413** · `361464b5b4-2` · satır 612 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> | Reddet | 115.500 ₺ | +2 | 25.000 ₺ |
+
+**3414** · `19b77105fe` · satır 614 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek
+
+> Artık bedava vicdan puanı değil, gerçek bir takas: **bir araştırma hakkı
+> kazan, 32.000 ₺ kaybet, ve müşterin senden şüphelenmeye başlasın.**
+
+**3415** · `b23cfb51b9` · satır 619 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek › Koşullu bedelsizlik
+
+> Bunun için kaynaklara `bedelsiz_kosul` eklendi: koşul sağlandığında kaynak
+> bedelsizleşiyor. Motor `bedelsizMi()` üzerinden karar veriyor, arayüz de aynı
+> yöntemi kullanıyor — "bedava" etiketi motorun gerçekten uygulayacağı şeyi
+> söylüyor.
+
+**3416** · `4695527016` · satır 624 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Gizli dosya artık gerçek › Koşullu bedelsizlik
+
+> **Doğrulayıcı bu koşulu görmez ve kaynağı ücretli sayar.** Bu bilinçli: bütçe
+> denetimi her zaman zor durumu sınamalı.
+
+**3417** · `dfbdf003db` · satır 629 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> Tohumlar yazılıp hiç okunmuyordu — V1'de Cavit'e doğruyu söylemekle
+> söylememek sonraki hiçbir şeyi etkilemiyordu. Artık etkiliyor.
+
+**3418** · `3c6c44135a` · satır 632 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> Vakaya `ucret_etkisi` eklenebiliyor:
+
+**3419** · `7a3c67d5af` · satır 634 · kod · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+```json
+"ucret_etkisi": [
+  { "kosul": {"seed":"cavit_guven","esit":false}, "carpan": 0.7,
+    "metin": "Cavit sana eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor." }
+]
+```
+
+**3420** · `3364879f9f` · satır 641 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> | Vaka | Koşul | Çarpan |
+
+**3421** · `2ece6c99f6` · satır 643 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> | V3, V5 | `cavit_guven = false` | **×0.70** — Cavit'in güvenini kaybettin |
+
+**3422** · `edffcb49d4` · satır 644 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> | V5 | `v4_karar = "koz"` | **×1.15** — Kaya'nın gizli parası elinde bir koz |
+
+**3423** · `91a700a9e8` · satır 645 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> | YAN-A | `v2_karar = "hersey"` | **×0.80** — konuştuğun duyuldu, sır müşterisi pazarlık eder |
+
+**3424** · `2e11048ce9` · satır 647 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir
+
+> Etkiler **birleşiyor**: güven yok + koz var → ×0.80.
+
+**3425** · `7e5de243c6` · satır 651 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir › Neden VAKA düzeyinde, karar düzeyinde değil
+
+> Karar düzeyinde ölçeklemek K8'in para/vicdan merdivenini bozardı. Vaka
+> düzeyinde ölçeklemek pozitif bir sabitle çarpmak demek; sıralamayı koruyor,
+> yani K8'in statik analizi geçerli kalıyor. Vakanın tamamı zenginleşiyor ya da
+> fakirleşiyor, kararlar arası ödünleşim aynı duruyor. `test_itibar` bunu her
+> çarpan değeri için doğruluyor.
+
+**3426** · `ac54069e15` · satır 657 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir › Neden VAKA düzeyinde, karar düzeyinde değil
+
+> **Yalnızca POZİTİF ücret ölçekleniyor.** İtibarını kaybetmek, Peri'nin kendi
+> cebinden ödediğini ucuzlatmaz — YAN-B'nin −40.000 ₺'si her hâlükârda 40.000 ₺.
+
+**3427** · `a0e2870c27` · satır 662 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir › Oyuncu bunu karar vermeden ÖNCE görüyor
+
+> Karar ekranında ücret satırlarının üstünde bir kutu: *"▼ %30 Cavit sana
+> eskisi gibi güvenmiyor — işi veriyor, parasını kırpıyor."* Sonuç ekranındaki
+> hesapta da satır *"anlaşılan 85.000 ₺, itibar ×0.70"* diyor. Önizleme ile
+> motorun uyguladığı rakamın aynı olması `test_itibar`'da kilitli.
+
+**3428** · `3285312f09` · satır 667 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › İtibar: geçmiş kararlar ücreti değiştirir › Oyuncu bunu karar vermeden ÖNCE görüyor
+
+> K9 uyarısı 12 → **9** ölü tohuma indi.
+
+**3429** · `71188aceb0` · satır 671 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> | Karar | Para | Vicdan | Metnin kendi sözü |
+
+**3430** · `6d10fea342` · satır 673 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> | Belli etme, oyunu sürdür | +80.000 ₺ | −2 | "**Para akar**, güvenliktesin" |
+
+**3431** · `23db5e8210` · satır 674 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> | Cavit'in dediğini yap, kazma | +55.000 ₺ | −1 | "**Para geldi.** Neyi temizlediğini hiç öğrenmedin" |
+
+**3432** · `1367c968f6` · satır 675 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> | Ceyda'yı hedef al | +30.000 ₺ | 0 | İstediğini yapmadın, ücret kırpıldı |
+
+**3433** · `74085ce5c4` · satır 676 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> | Sessizce kanıt biriktir | +15.000 ₺ | +1 | Ne vur ne teslim ol — az iş, az ücret |
+
+**3434** · `2e631deb15` · satır 677 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> | Bildiğini Cavit'in yüzüne vur | 0 ₺ | +2 | "**Para biter**, artık sen de bir tehditsin" |
+
+**3435** · `2809b27894` · satır 679 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> Rakamları ben koymadım, metinler söylüyordu. `test_v5` o cümlelerle rakamı
+> birbirine bağlıyor: "Para akar" diyen karar en çok kazandıran olmalı, "Para
+> biter" diyen sıfır olmalı.
+
+**3436** · `3d1db61322` · satır 683 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik
+
+> **Ayı kârla kapatan tek seçenek `oyunu_surdur`** — yani her şeyi bilip örtmek.
+
+**3437** · `b52b2b6422` · satır 687 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik › V5'te İKİ çift eşitlik vardı
+
+> `cavite_vur` ile `kanit_biriktir` ikisi de +1; `oyunu_surdur` ile `kazma` ikisi
+> de −1 idi. Her iki çiftte de biri para getiriyor öteki getirmiyor. Ayrım
+> metinlerde zaten vardı:
+
+**3438** · `fdbe2e2523` · satır 691 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik › V5'te İKİ çift eşitlik vardı
+
+> - **Bilerek örtmek, bakmamaktan ağır.** `oyunu_surdur`'un kapısı `tam_resim`
+>   (bilmeden seçilemiyor), `kazma`'nınki "yok" (bilmeyenin seçeneği).
+>   −2 ve −1.
+
+**3439** · `ea9b77a873` · satır 694 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › V5 "Kim Kimi" — Cavit'in ödediği şey sessizlik › V5'te İKİ çift eşitlik vardı
+
+> - **Parayı kaybetmeyi göze almak, para akarken kanıt biriktirmekten ağır.**
+>   +2 ve +1.
+
+**3440** · `f0966a9e0f` · satır 699 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> Eskiden zinciri çözemeyen **herkes** tek bir zorunlu kapanışa düşüyordu ve
+> metin ona *"Kimseyi ele vermedin çünkü verecek kimsen yoktu"* diyordu.
+> İlyas'ı katil olarak bilen oyuncu için bu düpedüz yalandı: verecek biri vardı.
+
+**3441** · `02096a1640` · satır 703 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> | Durum | Ne biliyor | Ne sunuluyor |
+
+**3442** · `233d39f572` · satır 705 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> | **A** | Hiçbir şey; peşine hiç düşmedi | Dosyayı kapat |
+
+**3443** · `4419cab4c2` · satır 706 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> | **B** | Bir şeyin tutmadığını gördü, isim yok | Dosyayı kapat *(farklı metin)* |
+
+**3444** · `644d64de95` · satır 707 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> | **C** | **İlyas'ın ittiğini biliyor** | **İlyas'ı ele ver** · **sus** |
+
+**3445** · `83790574c0` · satır 708 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> | **D** | Zincirin tamamı | Dört seçenek |
+
+**3446** · `8949bac8c3` · satır 710 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış
+
+> C artık gerçek bir ikilemle karşılaşıyor: elindeki tek ismi verir ya da gömer.
+> Gömerse Cavit ödüyor (+70.000 ₺) — **neden bu kadar kolay ödediğini bilmeden.**
+
+**3447** · `fb0a9297e1` · satır 715 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › Kapı neden tohumla açılıyor
+
+> Kararların kapıları **dar** bilgi kümesiyle çalışır: yalnızca o vakanın kendi
+> olguları. `iten_ilyas` V3'ün olgusu, V6'nın değil — doğrudan kapı olarak
+> kullanılamaz. `iten_biliniyor` tohumu tam bu iş için V3'te zaten yazılıyordu
+> ama bugüne kadar hiçbir yerde okunmuyordu. Artık okunuyor.
+
+**3448** · `b07373d191` · satır 722 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
+
+> - **A**: "Peşine düşmedin, o yüzden verecek kimsen de olmadı."
+
+**3449** · `a23fd7ac7b` · satır 723 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
+
+> - **B**: "Baktın, sordun, bir şeyin tutmadığını gördün — ama elinde bir isim yok."
+
+**3450** · `8c6ffc675d` · satır 724 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
+
+> - **C**: "Elindeki tek ismi verdin… onu oraya kimin sürdüğünü sen de hiç
+>   öğrenemedin." — **Cavit, Ceyda, "mimar" kelimeleri geçmiyor.**
+
+**3451** · `9edd52d311` · satır 726 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
+
+> - **D**: "asıl mimar Cavit ve belki asıl akıl Ceyda paçayı kurtarabilir."
+
+**3452** · `4b3d15b448` · satır 728 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › Metinler dört durumu da ayırıyor
+
+> Son ekran da ayrışıyor: zinciri bilmeyene *"mimarlar gölgede kaldı"*
+> denmiyor, çünkü mimarların varlığını bilmiyor.
+
+**3453** · `8fc32bfaf2` · satır 733 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> Kapılar doğruydu ama **anlatı C'yi tanımıyordu**: B ile C aynı giriş metnini
+> okuyordu, C'de İlyas'ın bilindiği hiç söylenmiyordu, sonraki ekranda İlyas
+> birden seçenek olarak beliriyordu. Üç düzeltme:
+
+**3454** · `4918d6c032` · satır 737 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> **1. C'nin kendi girişi var:**
+
+**3455** · `56605bbfcc` · satır 738 · alıntı · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> > *"Elinde bir isim var: İlyas. Kaya'yı iten adam. Onu o merdivene kimin
+> > sürdüğünü bilmiyorsun — o kapıyı hiç aralamadın."*
+
+**3456** · `49687b7ff4` · satır 741 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> **2. `eldekiler` özeti de C'yi tanıyor:** *"Ortada bir isim var: İlyas… ama bir
+> tetikçinin arkasında biri olur ve o yer boş."* Meta'sı da değişiyor:
+> *"Verecek bir adın var ama verecek bir hikâyen yok."*
+
+**3457** · `0ccf0c041d` · satır 745 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> **3. Cavit'in teklifi artık KARARDAN ÖNCE kuruluyor.** `sus_bilerek`
+> +70.000 ₺ getiriyor ve oyuncu paranın nereden geldiğini karardan *sonra*
+> öğreniyordu. Artık girişte:
+
+**3458** · `888114e545` · satır 749 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> | Durum | Zarf |
+
+**3459** · `8527e88be7` · satır 751 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> | C | *"Bu iş kapanırsa senindir." **Neden bu kadar cömert olduğunu sormadın.*** |
+
+**3460** · `84e86152b8` · satır 752 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> | D | *"Bu iş kapanırsa senindir." Saymadın; ağırlığından belli.* |
+
+**3461** · `23c9b00aea` · satır 753 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> | A, B | yok (susma seçenekleri de yok) |
+
+**3462** · `8c03f908e4` · satır 755 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> C'nin cümlesi kararın kendisi: cömertliğin sebebini bilmeden gömüyorsun.
+
+**3463** · `b68f61a50e` · satır 757 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> Üç defter notu da ayrıştı — `sus_bilerek` ("Her şeyi bilip sustum" → "Bir adım
+> vardı, onu gömdüm"), `ilyas_ver` ("Mimarlar gölgede kaldı" → "Arkasında biri
+> var mıydı, hiç öğrenemedim"), `hepsini_ifsa` ("O çocuk, o aile" → V4 bilgisine
+> koşullu).
+
+**3464** · `3421523eb3` · satır 762 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 — dört bilgi durumu, dört ayrı kapanış › C'nin kendi anlatısı (3. inceleme turu)
+
+> `test_v6` dört girişi, zarfın yerini ve C metninin sızdırmadığını kilitliyor.
+
+**3465** · `cb4a9fc089` · satır 766 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> V6'nın da müşterisi yok; bu Peri'nin kendi son sorusu. Para burada bir ücret
+> değil, **kararın sonucu**:
+
+**3466** · `8a807d430c-2` · satır 769 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | Karar | Para | Vicdan |
+
+**3467** · `a7a54ba2c3` · satır 771 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | Hiçbirini verme, sus | +70.000 ₺ | −1 |
+
+**3468** · `4dba51ddbc` · satır 772 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | İlyas'ı ele ver | 0 ₺ | 0 |
+
+**3469** · `0dbab73ece` · satır 773 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | Ceyda'yı ele ver | 0 ₺ | 0 |
+
+**3470** · `17043ecab5` · satır 774 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | Dosyayı kapat | 0 ₺ | 0 |
+
+**3471** · `f3d8086936` · satır 775 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | Hepsini ifşa et | 0 ₺ | 0 |
+
+**3472** · `8c767f7f0d` · satır 776 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> | Cavit'i ele ver | −20.000 ₺ | +1 |
+
+**3473** · `b36a7075ff` · satır 778 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> Dört seçeneğin sıfırda eşit olması bir boşluk değil, bir iddia: **parayı
+> değiştiren tek şey susmak (ödüllendiriliyor) ve hamini vermek
+> (cezalandırılıyor).** Metinler de bunu söylüyordu — `sus_bilerek` "ajans
+> yaşar", `cavit_ver` "o senin geçim kaynağındı, ajans batabilir".
+
+**3474** · `ddda0c3f74` · satır 783 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var
+
+> Bu sayede V6'da hiçbir vicdan değeri değiştirilmedi; finalin ahlaki dengesi
+> yazıldığı gibi duruyor.
+
+**3475** · `8fd51b92c5` · satır 788 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V6 "Kaya Biliyor muydu" — finalde ücret yok, sonuç var › K8'in bilmediği bir şey
+
+> `boslukla_kapat`'ın kapısı `{not: zincir_tam}`, diğer beşininki `zincir_tam`.
+> Yani oyuncuya **asla birlikte sunulmuyorlar**; aralarında "baskınlık" diye bir
+> şey olamaz. K8 bunu bilmiyor. Şu an ikisi de sıfırda olduğu için sorun
+> çıkmıyor, ama biri değişirse yanlış alarm verir. `test_v6` kapının bu hâlini
+> kilitliyor.
+
+**3476** · `64b7f03c24` · satır 796 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sezonun tam eğrisi
+
+> Üç gidişat, yan işler önce alınarak (aylık gider 59.075 ₺):
+
+**3477** · `af0d0eec3b` · satır 798 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sezonun tam eğrisi
+
+> | | Bitiş | Cengo |
+
+**3478** · `f29fa4cfda` · satır 800 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sezonun tam eğrisi
+
+> | En kirli | 118.550 ₺ kasa, hiç borca girmedi | **−12** (gitti) |
+
+**3479** · `14eb296fa8` · satır 801 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sezonun tam eğrisi
+
+> | Orta | 92.207 ₺ borç | −1 |
+
+**3480** · `623f0ef5dc` · satır 802 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Sezonun tam eğrisi
+
+> | En temiz | 140.030 ₺ borç | **+1** |
+
+**3481** · `152e76d8c1` · satır 804 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Sezonun tam eğrisi
+
+> Dikkat çeken şey en temiz yolun Cengo'yu yalnızca +1'de bitirmesi: vicdanlı
+> kararlar bağı yükseltiyor ama **ödeyemediğin her ay bir düşürüyor.** Cengo'ya
+> iyi davranmakla Cengo'ya ödeyebilmek aynı şey değil.
+
+**3482** · `bba2765801` · satır 810 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> V4'ün **müşterisi yok.** Cengo'nun eski dosyalarda bulduğu bir kâğıt var ve
+> Peri merakına uyuyor. Ücret ödeyen kimse olmadığı için para ancak ipi
+> **çekmeyerek** ya da bildiğini kendine saklayarak geliyor — yani ayın kalanını
+> ödeyen işlere ayırarak.
+
+**3483** · `bd8492fcdd-4` · satır 815 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> | Karar | Para | Vicdan | Neden o kadar |
+
+**3484** · `830f735874` · satır 817 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> | Bilgiyi kendine sakla, koz yap | +25.000 ₺ | −2 | Ayın kalanı ödeyen işlere gitti; bildiğin de cebinde |
+
+**3485** · `1605e01c6a` · satır 818 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> | Boş ver, bu ipi çekme | +18.000 ₺ | −1 | Ay boş geçmedi, küçük işlerle idare ettin |
+
+**3486** · `cc89898f90` · satır 819 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> | 'Artık gelmeyecek' de | 0 ₺ | +1 | Ne aldın ne verdin |
+
+**3487** · `9cd1c6a1e2` · satır 820 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> | Aileye gerçeği söyle | −10.000 ₺ | +2 | O haberi verip elin boş çıkamazsın |
+
+**3488** · `028c2f56e8` · satır 821 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> | Kimliği sakla, sessizce çözüm ara | −35.000 ₺ | +3 | Tedavinin devamını kendi kasandan üstlendin |
+
+**3489** · `59c5d20ae3` · satır 823 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay
+
+> V4 omurga vaka, yani ay kapanıyor ve sabit giderler kesiliyor. **En kârlı
+> seçenek bile ayı zararla bitiriyor** (25.000 ₺ girdi, 59.075 ₺ çıktı).
+
+**3490** · `17ade43600` · satır 828 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay › Üçüncü kez aynı çelişki
+
+> `aileye_soyle` ile `sessiz_coz` **ikisi de +2 idi.** Biri gerçeği söyleyip
+> çekiliyor, öteki kimliği saklayıp tedavinin devamını kendi cebinden
+> üstleniyor. `sessiz_coz` **+3**'e çıktı; kendi metni zaten
+> *"Onurlu ama sana pahalı — Peri de beş parasız"* diyordu.
+
+**3491** · `55802d2e22` · satır 833 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › V4 "Küçük Hasta" — müşterisi olmayan ay › Üçüncü kez aynı çelişki
+
+> Bu, yan vakalardaki ikisiyle birlikte **üçüncü** örnek. Vicdan değerleri
+> başlangıçta kabaca "iyi / çok iyi" diye konmuş, ince ayrım yapılmamış; para
+> ekseni eklenince hepsi tek tek görünür oldu. K8'in asıl işi buymuş.
+
+**3492** · `119be88221` · satır 839 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> İki yan iş birbirinin aynası. YAN-A nefes aldırır; YAN-B **hiçbir seçeneğinde
+> para kazandırmaz.**
+
+**3493** · `139aa9e3cc` · satır 842 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> Sebebi vakanın kendisi: Nadire beş parasız, ve onu batıran Peri. Ondan ücret
+> almak düşünülemez. En iyi ihtimal sıfır; gerisi Peri'nin cebinden çıkıyor.
+
+**3494** · `bd8492fcdd-5` · satır 845 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> | Karar | Para | Vicdan | Neden o kadar |
+
+**3495** · `ea04e11091` · satır 847 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> | Geçiştir, kendini koru | 0 ₺ | −2 | Hiçbir şey vermedin, hiçbir şey de almadın |
+
+**3496** · `44af4ae908` · satır 848 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> | Sadece dolandırıcıyı çöz | −8.000 ₺ | +1 | Adamın peşine düşmek para yedi, onu sen karşıladın |
+
+**3497** · `89ddb9ca79` · satır 849 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> | Geçmişle yüzleş, gerçeği söyle | −18.000 ₺ | +2 | O cümleden sonra kadına masraf yazamazsın |
+
+**3498** · `6f55b27f74` · satır 850 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> | Nadire'ye tam sahip çık | −40.000 ₺ | +3 | Kaybettiğinin bir kısmını kendi kasandan kapattın |
+
+**3499** · `75539af94d` · satır 852 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka
+
+> Oyunun tek "kaçmak bedava, doğru olan pahalı" vakası. `gecistir`'in sıfırı bir
+> ödül değil, yalnızca maliyetin yokluğu — ve vicdan ekseninde oyunun en dibi.
+
+**3500** · `1b7e1bc7b6` · satır 857 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka › Yine K8, yine gerçek bir çelişki
+
+> `tam_sahip_cik` ile `gercegi_soyle` **ikisi de +2 idi.** Biri yalnızca itiraf,
+> öteki itiraf **artı** kadının zararını kendi cebinden kapatmak. Aynı vicdan
+> değerinde farklı para, K8'e göre baskınlık — ve haklı: sözle sahiplenmek ile
+> parayla sahiplenmek aynı şey değil.
+
+**3501** · `f486254ee6` · satır 862 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka › Yine K8, yine gerçek bir çelişki
+
+> `tam_sahip_cik` **+3**'e çıktı. Kararın kendi metni bunu zaten söylüyordu:
+> *"Suçunu sahiplenmenin en pahalı, en dürüst hali."*
+
+**3502** · `73ee4ced41` · satır 865 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › YAN-B "Enkaz" — kazanç kapısı olmayan vaka › Yine K8, yine gerçek bir çelişki
+
+> `test_yanb`'deki "tam_sahip_cik +2" iddiası da sabit sayıdan kurtarıldı:
+> artık bağı verideki değer kadar yükselttiğini ve YAN-B'nin en vicdanlı kararı
+> olduğunu doğruluyor.
+
+**3503** · `c2285bf70c` · satır 871 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> Borç bir sayı olarak kalırsa kimseyi sıkmaz. **Ödenmeyen her gider kaleminin
+> kendi sonucu var.** Hangi kalemin açık kaldığı, ödeme sırasından çıkıyor
+> (`game_data.json` → `ekonomi.gider` yazılış sırası):
+
+**3504** · `946bd0a29e` · satır 875 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> **Ofis kirası → Cengo'ya elden ödeme → İşletme (elektrik)**
+
+**3505** · `8d953d1cf5` · satır 877 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> Yani para azaldıkça önce ışıklar söner, sonra Cengo'nun eline geçen kalmaz,
+> en son ev sahibi harekete geçer.
+
+**3506** · `0a131f2bc4` · satır 880 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> | Açık kalan | Sonuç | Mekanik |
+
+**3507** · `f3be821afd` · satır 882 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> | İşletme | Elektrik kesildi | Sonraki vakalarda araştırma hakkı **−1** (bkz. çekirdek kaynak) |
+
+**3508** · `653895d47a` · satır 883 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> | Cengo'ya ödeme | "Cengo'nun eline geçmedi" | `cengoBag` **−1**, her açık kalan ayda yeniden |
+
+**3509** · `2a4caa27aa` · satır 884 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları
+
+> | Ofis kirası | Ev sahibi icraya verdi | Aylık giderlere **12.000 ₺** takip masrafı eklenir |
+
+**3510** · `82126ba816` · satır 888 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Aylık gider TEK KAYNAK
+
+> `oyun.aylikGiderler()` — hem motor keserken hem arayüz önizlerken buradan
+> okuyor. İkisi ayrı hesaplanıyordu ve **icra takip masrafı önizlemeye
+> girmiyordu**: karar ekranı "ay sonunda borç 246.425 ₺" derken gerçek sonuç
+> 259.625 ₺ çıkıyordu. Fark 13.200 ₺ (12.000 masraf + 1.200 faizi).
+
+**3511** · `83ac13deea` · satır 893 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Aylık gider TEK KAYNAK
+
+> Bu, ekonominin en güvenilmesi gereken yerinde bir yalandı: oyuncu ahlaki
+> tercihini yanlış rakamla yapıyordu.
+
+**3512** · `0338fb8895` · satır 896 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Aylık gider TEK KAYNAK
+
+> **`test_ekonomi`'nin "önizleme motorla aynı" testi bu hatayı kaçırmıştı**,
+> çünkü hiç icra senaryosu denemiyordu. Artık deniyor. Test yazarken "hangi
+> durumu denemiyorum" sorusu, "ne iddia ediyorum" kadar önemli.
+
+**3513** · `981fa978a3` · satır 902 · madde · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> 3. inceleme turunun en ciddi bulgusu: elektrik kesikken V3'te dürüst oynamaya
+
+**3514** · `bc45e2a539` · satır 903 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> çalışan oyuncunun elinde **yalnızca "tanığı 'güvenilmez' diye rapor et"**
+> kalıyordu. Yani oyun ona *"yanlış araştırdın, şimdi doğru söyleyen kadını
+> lekele"* diyordu. YAN-B'de de bir yol yalnızca "geçiştir"e düşüyordu.
+
+**3515** · `eedcfe7925` · satır 907 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> Sebep tabanda değildi: **çekirdek zincir tam olarak cezalı bütçe kadar
+> tutuyordu**, yani doğal bir fazladan tıklamaya pay yoktu.
+
+**3516** · `1a84367b4d` · satır 910 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> Üç katmanlı çözüm:
+
+**3517** · `680bd8cc51` · satır 912 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> **1. Müvekkilin kendi anlattığı bedelsiz, ayak işi ücretli.** Bu kural artık
+> dört yerde geçerli: `YAN-C/kimi_ariyor` (Hulki ismi veriyor),
+> `V3/cavit_brief` (Cavit ne istediğini anlatıyor), `YAN-B/nadire_dinle`
+> (Nadire derdini anlatıyor), `V1/sigorta_yazisi` (dosya zaten elinde). Karşında
+> oturan insanı dinlemek bir araştırma günü yemez.
+
+**3518** · `4c2ca681bf` · satır 918 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> **2. Çekirdek işaretleri:** `V3/foto_goster` ve `YAN-B/dolandirici_iz` de
+> `cekirdek: true` oldu.
+
+**3519** · `740738a73e` · satır 921 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> **3. Ceza artık uyarlanabilir.** `_kirletmeyeZorlarMi()` cezalı bütçeyle
+> bütçeyi harcamanın **her** biçimini deniyor; herhangi bir yolda oyuncunun
+> elinde yalnızca vicdanı eksi kararlar kalıyorsa **ceza uygulanmıyor.**
+
+**3520** · `be7476716e` · satır 925 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | Vaka | Tam bütçe | Elektrik kesik |
+
+**3521** · `3ff5923b2e` · satır 927 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | V1 | 3 | 2 |
+
+**3522** · `e3d8b2e3a2` · satır 928 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | V2 | 4 | 3 |
+
+**3523** · `22ee1ba1c2` · satır 929 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | V3 | 4 | 3 |
+
+**3524** · `d5f4595400` · satır 930 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | YAN-A | 2 | 1 |
+
+**3525** · `8175777282` · satır 931 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | YAN-B | 2 | 1 |
+
+**3526** · `16bcd9db81` · satır 932 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | YAN-C | 3 | 2 |
+
+**3527** · `b052c3c3d2` · satır 933 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | V4 | 4 | **4** — ceza kirletmeye zorlardı |
+
+**3528** · `053e0c6ee1` · satır 934 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | V5 | 5 | **5** — aynı |
+
+**3529** · `deb5bbbef2` · satır 935 · tablo · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> | V6 | 1 | 1 (taban) |
+
+**3530** · `0a2ebd6b2b` · satır 937 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> Sabit bir "pay" eklemek yerine sonucu ölçüyoruz: asıl kural bu, ve içerik
+> değiştikçe kendini koruyor. Vakalar küçük (≤7 kaynak), arama 13 ms sürüyor.
+
+**3531** · `b930374f0a` · satır 940 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Ekonomi seçenekleri daraltır, KİRLETMEYE ZORLAMAZ
+
+> `test_borc` bunu yasa olarak tutuyor: **dokuz vakanın her birinde, bütçeyi
+> harcamanın her biçiminde, vicdanı eksi olmayan en az bir karar açık kalmalı.**
+> Bu bekçi yazılır yazılmaz incelemecinin ulaşamadığı iki vakayı daha (V4 ve V5)
+> yakaladı.
+
+**3532** · `2b776924de` · satır 947 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> Krizler araştırma **genişliğini** kısabilir, ama bir vakanın başlığını anlamlı
+> kılan tek delili erişilemez kılamaz. Aksi halde ekonomik ceza, anlatı
+> içeriğini elinden alır.
+
+**3533** · `595ad163df` · satır 951 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> Bir kaynağa `cekirdek: true` konur. Elektrik kesikken araştırma hakkı şöyle
+> hesaplanır:
+
+**3534** · `c170537204` · satır 954 · kod · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+```
+hak = max( max(1, çekirdeğe ulaşmanın maliyeti),  tam bütçe − 1 )
+```
+
+**3535** · `7a236a4c3a` · satır 958 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> Maliyet **gerçek motorla** ölçülüyor (doğrulayıcının K6'da yaptığı gibi):
+> needs zincirini ve bedelsiz kaynakları kendiliğinden doğru sayıyor. Ceza yoksa
+> hesap hiç çalıştırılmıyor — hem gereksiz hem de aramanın kurduğu kopyalar
+> `vakaBaslat` çağırdığı için özyinelemeye yol açardı. Kopyaların krizi boş
+> olduğundan arama kendiliğinden sonlanıyor.
+
+**3536** · `a1f5d9f534` · satır 964 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> Şu an tek çekirdek: **V6/`kaya_izi`** — "Kaya Biliyor muydu" vakasının tek yeni
+> delili. Eskiden onu koruyan şey tesadüftü (taban 1 ile çekirdeğin maliyeti 1
+> çakışıyordu); bütçe 2 olsaydı koruma çalışmayacaktı. Artık hesap yapılıyor:
+> bütçe 3 olsa ceza yine uygulanır (3 → 2) ama çekirdek erişilebilir kalır.
+
+**3537** · `da10550013` · satır 969 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> **Eşik: kalemin yarıdan fazlası açık kalmalı.** Kirasının dörtte üçünü ödeyen
+> kiracı icraya verilmez. Bu eşik olmadan tek kötü ay üç krizi birden
+> patlatıyordu ve tırmanma diye bir şey kalmıyordu.
+
+**3538** · `8e02795a5c` · satır 973 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> **Hiçbiri oyunu bitirmez ve hepsi geri alınabilir:** kalem ödendiği ay sonuç
+> kalkar. Yan işler ay kapatmadığı için kriz de değerlendirmez.
+
+**3539** · `02c19be384` · satır 976 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> Cezanın vakayı kilitlememesi `test_borc.js`'te korunuyor: elektrik kesikken de
+> dokuz vakanın her birinde, bütçeyi harcamanın her biçiminde en az bir karar
+> açık kalıyor.
+
+**3540** · `407ccda150` · satır 980 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> Oyuncu üç yerde görüyor: sonuç ekranında kriz kutusu (yeni patlayan), kasa
+> şeridinde rozet (süren), araştırma ekranında sönük noktanın sebebi.
+
+**3541** · `2ccc1e0580` · satır 983 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Çekirdek kaynak: cezanın silemeyeceği delil
+
+> **Kriz metinleri iki yerde duruyor** — motorda `KRIZLER`, arayüzde
+> `KRIZ_METIN` — çünkü arayüz motordan okuyamıyor. İkisinin ayrışmasını
+> `test_borc.js` yakalıyor.
+
+**3542** · `2e1c3579d6` · satır 989 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Testler ve ekonomi
+
+> `test_yana`, `test_yanb`, `test_softlock` vakaların İÇERİK mantığını sınıyor
+> (türetme, kapı, karar), ekonomiyi değil. Kasa boşken elektrik kesiliyor ve
+> araştırma hakkı azalıyor; bu gerçek bir davranış ama o testlerin ölçtüğü şey
+> değil. Hepsi artık `varlikli()` ile başlıyor — ajans ödeyebilir durumda, vaka
+> tam bütçeyle sınanıyor.
+
+**3543** · `a67ee9c46d` · satır 997 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Koşul dilinde borç
+
+> `ifadeCalistir` artık beşinci bir argüman alıyor: kasa (`{para, borc}`).
+> `{borc_en_az: 80000}` terimi bunu okuyor — `cengoBag_en_az` ile simetrik.
+
+**3544** · `6959a6f865` · satır 1000 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Koşul dilinde borç
+
+> Motor içinde koşullar **yalnızca `this._kos()` üzerinden** değerlendiriliyor.
+> Sebebi şu: kasayı geçirmeyi unutan bir çağrı hata vermez, koşul sessizce
+> yanlış döner ve metin hiç görünmez. Tek kapı, unutulacak yer bırakmıyor.
+
+**3545** · `2ea07734c0` · satır 1006 · paragraf · Eski oyun — vakalar ve ekonomi (arşiv) › Borcun sonuçları › Kalan
+
+> Dokuz vakanın **40 kararının hepsinde** `para` yazılı; K8 hepsinde çalışıyor.
+> Yan vakaların sabit gider kesmemesi özellikle önemli: V2, V4 ve temiz oynanan V3
+> zararlı aylar, nefes alma yeri yan işler.
+
+
 ## kaynak/arac_kapi.js
 
-**3544** · `3167a19775` · satır 12 · program
+**3546** · `3167a19775` · satır 12 · program
 
 > K1  Ekran metinden gelir: her satırda {ekran: …} yazılı (kare/mekân satırı hariç); önceki satırdan hiçbir şey taşınmaz.
 
-**3545** · `b9bcc98226` · satır 13 · program
+**3547** · `b9bcc98226` · satır 13 · program
 
 > K2  İki yönlü: anlatıda adı/eş sözü geçen herkes ekranda; ekrandaki herkes o satırda anılıyor, konuşuyor ya da hitap ediliyor.
 
-**3546** · `257ffd19cb` · satır 14 · program
+**3548** · `257ffd19cb` · satır 14 · program
 
 > K3  Poz bir kişiye yöneliyorsa (sarılma, uzanma, dokunma) o kişi karşıda.
 
-**3547** · `1c0140024f` · satır 15 · program
+**3549** · `1c0140024f` · satır 15 · program
 
 > K4  "Eşikte", "kapıda", "uzakta" gibi yer sözü kare ister.
 
-**3548** · `3227b49cd8` · satır 16 · program
+**3550** · `3227b49cd8` · satır 16 · program
 
 > K5  El: her el bir kola bağlı, sağ/sol doğru — el sayfasına bakılmış ve onaylanmış olmalı (arac_el.py).
 
-**3549** · `b2405c2c22` · satır 17 · program
+**3551** · `b2405c2c22` · satır 17 · program
 
 > K6  Saç ve kol arasında zemin kalmaz: figür yapay zekâ kesimiyle gömülmüş olmalı.
 
-**3550** · `ce8fffe6a6` · satır 18 · program
+**3552** · `ce8fffe6a6` · satır 18 · program
 
 > K7  Yeni geleni anlatan satırda ekranda yalnız o (ve satırın andığı kişi).
 
-**3551** · `eaad5a814f` · satır 19 · program
+**3553** · `eaad5a814f` · satır 19 · program
 
 > K8  Dinleyenin yüzü de satırdan gelir: ekrandaki herkesin ifadesi o satırda yazılı ([ifade], gi, yuz, peri, cengo).
 
-**3552** · `593d7ae51c` · satır 20 · program
+**3554** · `593d7ae51c` · satır 20 · program
 
 > K9  "X'e bakıyor" → X ekranda ve bakanın pozu karşıya bakıyor.
 
-**3553** · `0b514b2c35` · satır 21 · program
+**3555** · `0b514b2c35` · satır 21 · program
 
 > K10 Nesne bırakıldığı satırda hâlâ görünür (satır–resim aracı İŞ sayar).
 
-**3554** · `2d8d73e41f` · satır 22 · program
+**3556** · `2d8d73e41f` · satır 22 · program
 
 > K11 İki figür üst üste binmez (ekranda ölçülür).
 
-**3555** · `e6c1d4540f` · satır 23 · program
+**3557** · `e6c1d4540f` · satır 23 · program
 
 > K12 Konuşur gibi poz yalnız konuşma satırında, konuşanda.
 
-**3556** · `0c38894bba` · satır 24 · program
+**3558** · `0c38894bba` · satır 24 · program
 
 > K13 Metnin söylediği görünüş (terli, ıslak, yaralı…) o figürde görünür (poz kaydında yazılı).
 
 
 ## uretim/istem_kontrol.sh
 
-**3557** · `14779461ce` · satır 21 · program
+**3559** · `14779461ce` · satır 21 · program
 
 > ## Kontrol bölümü yok
 
-**3558** · `ff46343a79` · satır 22 · program
+**3560** · `ff46343a79` · satır 22 · program
 
 > ## İstem bölümü yok
 
-**3559** · `339ebd4bae` · satır 23 · program
+**3561** · `339ebd4bae` · satır 23 · program
 
 > yazı yasağı satırı yok
 
-**3560** · `1f79556308` · satır 24 · program
+**3562** · `1f79556308` · satır 24 · program
 
 > oran satırı yok
 
-**3561** · `e74b6c73fd` · satır 25 · program
+**3563** · `e74b6c73fd` · satır 25 · program
 
 > referans 5'ten fazla (D-2)
 
-**3562** · `9e3ba0d75d` · satır 26 · program
+**3564** · `9e3ba0d75d` · satır 26 · program
 
 > dekolteli Peri referansı (BIRIKIM §4, §7)
 
-**3563** · `d7c14d0cec` · satır 28 · program
+**3565** · `d7c14d0cec` · satır 28 · program
 
 > istemde sigara/tütün sözü var (kural 19a)
 
-**3564** · `19b3860903` · satır 33 · program
+**3566** · `19b3860903` · satır 33 · program
 
 > ## Satırlar bölümü yok ya da boş (ISTEM_KALIPLARI §10, SR-E)
 
-**3565** · `7765d621b0` · satır 34 · program
+**3567** · `7765d621b0` · satır 34 · program
 
 > 'TAM İKİ KOL, İKİ EL' yok (H6)
 
-**3566** · `f48ae976f3` · satır 35 · program
+**3568** · `f48ae976f3` · satır 35 · program
 
 > bakış satırı yok (H3)
 
-**3567** · `0be2102364` · satır 37 · program
+**3569** · `0be2102364` · satır 37 · program
 
 > zemin satırı yok ya da renk zeminler.tsv'de değil: '$zemin' (H4)
 
-**3568** · `47b63e9ff1` · satır 38 · program
+**3570** · `47b63e9ff1` · satır 38 · program
 
 > yeşil zemin (H4: Vaka 4'ten sonra yok)
 
-**3569** · `281b219e7d` · satır 47 · program
+**3571** · `281b219e7d` · satır 47 · program
 
 > yeni konuk temeli zemin.tsv'den önce gelir → varsayılan 'açık bej' olmalı (H4)
 
-**3570** · `058984a360` · satır 48 · program
+**3572** · `058984a360` · satır 48 · program
 
 > kıyafet zemin.tsv'de yok ('$anahtar'): önce kaynak/arac_zemin.py --kiyafet … --yaz
 
-**3571** · `12d0cf57ff` · satır 49 · program
+**3573** · `12d0cf57ff` · satır 49 · program
 
 > zemin '$zemin', ama zemin.tsv bu kıyafete '$beklenen' diyor
 
-**3572** · `275c4b98f5` · satır 52 · program
+**3574** · `275c4b98f5` · satır 52 · program
 
 > çıplaklık satırı yok
 
-**3573** · `a2480b643f` · satır 54 · program
+**3575** · `a2480b643f` · satır 54 · program
 
 > yeni karakter: 'X'e benzemiyor' satırı yok (D-4, BIRIKIM §8.7)
 
-**3574** · `c21314c9e3` · satır 55 · program
+**3576** · `c21314c9e3` · satır 55 · program
 
 > tarz örneği cümlesi yok (§3)
 
-**3575** · `c54dcc7a09` · satır 58 · program
+**3577** · `c54dcc7a09` · satır 58 · program
 
 > Peri/Cengo figürü: kıyafet kartı referansı yok (SR-C)
 
-**3576** · `cca6d663c0` · satır 62 · program
+**3578** · `cca6d663c0` · satır 62 · program
 
 > ## Satırlar bölümü yok (SR-D, SR-K)
 
-**3577** · `c1ed343a2f` · satır 63 · program
+**3579** · `c1ed343a2f` · satır 63 · program
 
 > tarz paragrafı yok (§1)
 
-**3578** · `c1ed343a2f-2` · satır 66 · program
+**3580** · `c1ed343a2f-2` · satır 66 · program
 
 > tarz paragrafı yok (§1)
 
-**3579** · `fb64c144b3` · satır 67 · program
+**3581** · `fb64c144b3` · satır 67 · program
 
 > 'İnsan yok' satırı yok (§7)
 
-**3580** · `ec084bc960` · satır 68 · program
+**3582** · `ec084bc960` · satır 68 · program
 
 > 'Kompozisyon:' satırı yok — eski mekân kalıbı tekrar eder (§7a)
 
-**3581** · `dfb482eeab` · satır 71 · program
+**3583** · `dfb482eeab` · satır 71 · program
 
 > kart TAM BOY değil (I)
 
-**3582** · `56d7373c98` · satır 72 · program
+**3584** · `56d7373c98` · satır 72 · program
 
 > kartta çekicilik satırı var (I, §9)
 
-**3583** · `6a01b2f567` · satır 75 · program
+**3585** · `6a01b2f567` · satır 75 · program
 
 > tür okunamadı: '- tür:' satırı

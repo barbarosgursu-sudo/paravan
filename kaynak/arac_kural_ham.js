@@ -23,6 +23,8 @@ const BELGELER = [
   'sablon/vakalar/vaka2_baslangic.md', 'sablon/vakalar/vaka3_baslangic.md', 'sablon/vakalar/vaka4_baslangic.md',
   'sablon/vakalar/vaka5_baslangic.md', 'sablon/vakalar/vaka6_baslangic.md', 'sablon/vakalar/vaka7_baslangic.md',
   'kaynak/DEVIR.md',
+  // Bölünüp arşive taşınan parça: kayıtları eski belgenin adıyla yazılır (kimlik değişmesin).
+  { yol: 'arsiv/kaynak/OKUBENI_eski_oyun.md', etiket: 'kaynak/OKUBENI.md' },
 ];
 // Programın içinde yazılı kurallar: yalnız kural satırları alınır.
 const PROGRAMLAR = [
@@ -33,9 +35,11 @@ const PROGRAMLAR = [
 const kayitlar = [];
 const kimlik = (dosya, metin) => crypto.createHash('md5').update(dosya + '\n' + metin.replace(/\s+/g, ' ').trim()).digest('hex').slice(0, 10);
 
-for (const dosya of BELGELER) {
+for (const belge of BELGELER) {
+  const dosya = typeof belge === 'string' ? belge : belge.etiket;
   // Arşive taşınan belge (arsiv/<yol>) eski adıyla okunur: kayıt kimliği değişmesin.
-  const yer = fs.existsSync(path.join(KOK, dosya)) ? path.join(KOK, dosya) : path.join(KOK, 'arsiv', dosya);
+  const yer = typeof belge !== 'string' ? path.join(KOK, belge.yol)
+    : fs.existsSync(path.join(KOK, dosya)) ? path.join(KOK, dosya) : path.join(KOK, 'arsiv', dosya);
   const satirlar = fs.readFileSync(yer, 'utf8').split('\n');
   const baslik = [];            // [düzey] = başlık
   let kod = false, blok = null; // blok = { satir, metin[] , tur }
