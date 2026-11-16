@@ -8,6 +8,9 @@
 
 ---
 
+> ✅ **Gözden geçirme bitti (16 Kasım 2026, Barbaros + Oğuz Bey):** aşağıdaki 6 replik **onaylandı**; Vaka 6'nın geri kalanı
+> **uygun**, eklenecek/çıkarılacak bir şey yok. **Kalan tek iş: 7 yeni replik (4 ve 5), Oğuz Bey yazacak.**
+
 > **Barbaros'tan Oğuz Bey'e (16 Kasım 2026) — VAKA 6: YENİ KARAR DÜZENİ İÇİN REPLİKLER.** Önce ikiniz Vaka 6'yı gözden geçirin
 > (eklenecek / çıkarılacak / rahatsız eden), sonra devam. Hepsi `sablon/vakalar/vaka6_diyalog.md`'de.
 >
