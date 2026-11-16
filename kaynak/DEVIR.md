@@ -8,6 +8,14 @@
 
 ---
 
+> ✅ **Ücret kesintisi kalktı (16 Kasım 2026, sahibinin kararı):** kasa yok, kesintinin anlamı kalmadı — **müşteri girişte söylediği
+> ücreti öder.** V6: "kendisi söylesin" SONUÇ → *Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."*; "Cengo'ya
+> bırak" SONUÇ'tan "Haldun ad duymadığı için beş bin kesti." silindi; iki ÖNİZLEME'den "₺ keser" çıktı. V6 ve V7'de `## ucret` bölümü
+> silindi, `kim_yapti.ucret` kademeleri eşit (dogru = zayif = yanlis), `kesinti` yok. `arac_diyalog.js`: `## ucret` isteğe bağlı.
+> Kural: 2. parça 25, 1. parça "Bedel sahnededir". Sus payı / prim (kesinti değil) kaldı. **V1–V5'teki kesinti metinleri bilerek
+> bırakıldı** (yeniden geçirilecekler; o zaman `## ucret` silinir, kademeler eşitlenir). Sızıntı taraması V6 40 temiz.
+> ✅ **Kare ekrandayken yer etiketi gizli (aynı gün):** sofra karesinin üstünde "Büro · akşam" yazıyordu (`vnKareGoster`).
+
 > ✅ **Aynı kare üst üste satırlarda kalır (16 Kasım 2026, sahibinin kararı):** V6 D18'de (Eylül'ün zarfları) kare her satırda
 > silinip yeniden beliriyor, arada büro bir an görünüyordu. Artık aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir
 > (`yeni_arayuz.js → vnKareGoster`, kare kodu `data-kod`'da). Bütün vakalara uyar; farklı kareye ya da karesiz satıra geçiş eskisi gibi.

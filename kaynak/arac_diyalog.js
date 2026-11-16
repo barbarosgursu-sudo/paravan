@@ -142,7 +142,10 @@ for (const [id, h] of Object.entries(kararlar)) {
   K.defter[vakaId][id] = h.metin.DEFTER;
 }
 if (v.kim_yapti) {
-  if (!ucretMetin || !ucretMetin.metin.zayif || !ucretMetin.metin.yanlis) hatalar.push("'## ucret' bölümü (ZAYIF, YANLIS) yok");
+  // '## ucret' isteğe bağlı (16 Kasım 2026, sahibinin kararı: kasa kalktı, müşteri söylediği ücreti öder, kesinti yok).
+  // Bölüm yoksa kesinti açıklaması silinir; ücret kademeleri eşit değilse doğrulayıcı K19 yakalar.
+  if (!ucretMetin) delete v.kim_yapti.kesinti;
+  else if (!ucretMetin.metin.zayif || !ucretMetin.metin.yanlis) hatalar.push("'## ucret' bölümü eksik (ZAYIF, YANLIS)");
   else v.kim_yapti.kesinti = { zayif: ucretMetin.metin.zayif, yanlis: ucretMetin.metin.yanlis };
   if (!cozumMetin || !cozumMetin.metin.yollar.length) hatalar.push("'## cozum' bölümü (YOL) yok");
   else v.kim_yapti.cozum = cozumMetin.metin;

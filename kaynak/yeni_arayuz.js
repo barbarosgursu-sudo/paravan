@@ -167,6 +167,9 @@ function vnKareGoster(kod){
   // silinip yeniden belirirken arkadaki sahne bir an görünüyordu — V6 D18, Eylül'ün zarfları).
   if(eski && kod && eski.dataset.kod === kod) return;
   if(eski) eski.remove();
+  // Kare ekrandayken yer etiketi gizlenir: etiket arka planın yeridir, karenin değil (16 Kasım 2026, sahibinin kararı —
+  // V6 sofra karesinin üstünde "Büro · akşam" yazıyordu).
+  const mekan = document.getElementById("vnMekan"); if(mekan) mekan.style.visibility = "";
   if(!kod) return;
   const src = vnGorsel(kod);
   const yt = !src && (YG.yer_tutucu||[]).includes(kod);
@@ -178,6 +181,7 @@ function vnKareGoster(kod){
     ? `<img class="dolgu" alt="" src="${src}"><img class="tam" alt="" src="${src}">`
     : `<img class="kaplama" alt="" src="${src}">`;
   document.getElementById("vnSahne").insertBefore(d, document.getElementById("vnMekan"));
+  if(mekan) mekan.style.visibility = "hidden";
 }
 
 function vnFigurCiz(satir){

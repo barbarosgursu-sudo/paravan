@@ -6514,8 +6514,8 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Müzeyyen kendisi söylesin",
-          "onizleme": "Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gideceği için 10.000 ₺ keser.",
-          "sonuc": "Mektubu Müzeyyen'e geri verdin: \"Düğünden önceki akşam, sofrada, siz söyleyeceksiniz.\" Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücretten on bin kesti: \"Bir hafta bekledim, şimdi bir yıl bekleyeceğim.\"",
+          "onizleme": "Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gider.",
+          "sonuc": "Mektubu Müzeyyen'e geri verdin: \"Düğünden önceki akşam, sofrada, siz söyleyeceksiniz.\" Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücreti ödedi: \"Bir hafta bekledim, şimdi bir yıl bekleyeceğim.\"",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -6548,8 +6548,8 @@
           "cengoBag": 1,
           "para": -5000,
           "etiket": "Başarıyı Cengo'ya bırak",
-          "onizleme": "Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 5.000 ₺ keser.",
-          "sonuc": "Haldun'un ve Eylül'ün önünde \"Dosyayı Cengo Bey çözdü\" dedin. Cengo adı vermedi: \"Bir daha mektup gelmeyecek, kefili benim.\" Haldun ad duymadığı için beş bin kesti. Eylül babasına sarıldı: \"Biliyordum.\" Sonra Peri'ye baktı: \"Sen de yardım ettin herhalde.\" Düğün oldu; İzmir'e gittiler.",
+          "onizleme": "Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir.",
+          "sonuc": "Haldun'un ve Eylül'ün önünde \"Dosyayı Cengo Bey çözdü\" dedin. Cengo adı vermedi: \"Bir daha mektup gelmeyecek, kefili benim.\" Eylül babasına sarıldı: \"Biliyordum.\" Sonra Peri'ye baktı: \"Sen de yardım ettin herhalde.\" Düğün oldu; İzmir'e gittiler.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -6577,12 +6577,8 @@
           ["jale_siparis", "prova_torba"],
           ["jale_siparis", "kalip_kagit"]
         ],
-        "ucret": {"dogru": 40000, "zayif": 30000, "yanlis": 20000},
+        "ucret": {"dogru": 40000, "zayif": 40000, "yanlis": 40000},
         "giris_grup": "Eylül'ün anlattıkları",
-        "kesinti": {
-          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Haldun Bey {kesinti} kesti.",
-          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Haldun Bey {kesinti} kesti."
-        },
         "cozum": {
           "yollar": [
             "Düğünün tarihini ilk akşam yalnız sofradakiler ve Eylül'ün yazdığı babası biliyordu (Müzeyyen ya da Cengo) + üçüncü mektubun girdiği torbayı yalnız iki kişi tuttu (Müzeyyen ya da Jale).",
@@ -8767,12 +8763,8 @@
           ["eski_tuval", "onarim_nesrin"],
           ["eski_tuval", "rapor_evde"]
         ],
-        "ucret": {"dogru": 50000, "zayif": 40000, "yanlis": 30000},
+        "ucret": {"dogru": 50000, "zayif": 50000, "yanlis": 50000},
         "giris_grup": "Süheyla'nın anlattıkları",
-        "kesinti": {
-          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Süheyla Hanım {kesinti} kesti.",
-          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Süheyla Hanım {kesinti} kesti."
-        },
         "cozum": {
           "yollar": [
             "Kopyayı bu evde yalnız iki el yapabilirdi (Nesrin ya da Şükrü) + aslıyla haftalarca baş başa kalanlar tablonun sahibi ve onu iki hafta onaran kişiydi (Nesrin ya da Vedat).",

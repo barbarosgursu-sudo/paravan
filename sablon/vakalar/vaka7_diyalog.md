@@ -342,12 +342,6 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ---
 
-## ucret
-⚙ Karar ekranının üstünde, ücret kesildiyse çıkan açıklama. `{anlasilan}` ve `{kesinti}` tutarla dolar.
-
-**ZAYIF:** Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Süheyla Hanım {kesinti} kesti.
-**YANLIS:** Anlaşılan ücret {anlasilan}. Masum birini suçladın; Süheyla Hanım {kesinti} kesti.
-
 ## cozum
 ⚙ "Dosya çözüldü" ekranı. YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: neden masum (yalnız yüzleşme + itirafın söylediği).
 

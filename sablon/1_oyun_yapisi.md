@@ -98,7 +98,7 @@ Oyuncu önce bir şüpheli, sonra iki kanıt seçer (iki ayrı ekran). Kanıt ya
   - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
 - **Panik ve kaçışın somut sebebi olur** (sahibinin kararı, 17 Ekim 2026). Suçlu "Bir his", "Neredeydin?" gibi zayıf bir sözle kaçmaz. Kaçışı bir tetikleyici başlatır: ya kanıt yalanını çürütür (doğru kanıt), ya da **sakladığı şey tehlikeye girer** (biri, farkında olmadan, onun sakladığı yeri arayacağını söyler). Oyuncu kovalamacada "ha, bu yüzden kaçtı" diyebilmeli. Vaka 3: Nadide "Yarın eksper dükkânı arayacak, depodaki un çuvallarına kadar" der; para o çuvaldadır, Ferruh depoya koşar.
 - **Yüzleşmenin yeri:** dört sahne de kovalamacanın başladığı yerde geçer. Şüpheli orada değilse yüzleşme telefonla ya da onu oraya getiren bir sebeple yapılır.
-- **Bedel sahnededir** (16 Kasım 2026; kasa kalktı): zayıf ya da yanlış suçlama yüzleşmede duyulur, sonda Cengo elindeki doğru kanıtı söyler (kural 22c). Ücret kesintisi ekranda rakam olarak yok; müşteri isterse sahnede söyler.
+- **Bedel sahnededir** (16 Kasım 2026; kasa kalktı): zayıf ya da yanlış suçlama yüzleşmede duyulur, sonda Cengo elindeki doğru kanıtı söyler (kural 22c). Ücret kesintisi yok: müşteri girişte söylediği ücreti öder (16 Kasım 2026).
 - **Bedel o vakada kalır:** sonraki vakalara taşınmaz, kimse küsmez.
 - **Cengo bağı etkilenmez:** bağ yalnız ahlaki kararlara bağlıdır.
 - **Oyun hiçbir durumda bitmez.**

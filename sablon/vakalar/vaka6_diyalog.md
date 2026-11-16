@@ -374,12 +374,6 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ---
 
-## ucret
-⚙ Karar ekranının üstünde, ücret kesildiyse çıkan açıklama. `{anlasilan}` ve `{kesinti}` tutarla dolar.
-
-**ZAYIF:** Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Haldun Bey {kesinti} kesti.
-**YANLIS:** Anlaşılan ücret {anlasilan}. Masum birini suçladın; Haldun Bey {kesinti} kesti.
-
 ## cozum
 ⚙ "Dosya çözüldü" ekranı. YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: neden masum (yalnız yüzleşme + itirafın söylediği).
 
@@ -433,8 +427,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ etiket: Müzeyyen kendisi söylesin
 
 **SEÇENEK:** “Düğünden önceki akşam siz söyleyeceksiniz.”
-**ÖNİZLEME:** Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gideceği için 10.000 ₺ keser.
-**SONUÇ:** Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücretten on bin kesti: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."
+**ÖNİZLEME:** Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gider.
+**SONUÇ:** Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücreti ödedi: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."
 **CENGO:** Cengo bileğindeki bilekliği çevirdi. "Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim" dedi.
 **DEFTER:** Anneanne kendisi söyledi. Eylül okul bitene kadar Üsküdar'da.
 
@@ -451,8 +445,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ etiket: Başarıyı Cengo'ya bırak
 
 **SEÇENEK:** “Buna Cengo karar versin.”
-**ÖNİZLEME:** Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 5.000 ₺ keser.
-**SONUÇ:** Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek, kefili benim." Haldun ad duymadığı için beş bin kesti. Eylül babasına sarıldı: "Biliyordum." Sonra Peri'ye baktı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler.
+**ÖNİZLEME:** Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir.
+**SONUÇ:** Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek, kefili benim." Eylül babasına sarıldı: "Biliyordum." Sonra Peri'ye baktı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler.
 **CENGO:** Cengo ütülü gömleğinin kollarını sıvadı. "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm" dedi.
 **DEFTER:** Başarıyı Cengo'ya bıraktım. Kızı ona sarıldı.
 
