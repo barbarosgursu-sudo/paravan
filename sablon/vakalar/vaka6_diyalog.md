@@ -418,7 +418,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ etiket: Haldun'a ve Gamze'ye yazanı söyle
 
 **SEÇENEK:** “Haldun'a da Gamze'ye de söyleyeceğim.”
-**ÖNİZLEME:** Müzeyyen'in adını verirsin. Haldun ücreti tam öder; düğün olur, Gamze annesiyle küser.
+**ÖNİZLEME:** Müzeyyen'in adını verirsin. Düğün olur, Gamze annesiyle küser.
 **SONUÇ:** Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.
 **CENGO:** Cengo düğün fotoğrafına baktı, en arka masayı gösterdi. "Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?" dedi.
 **DEFTER:** Yazanın adını verdim. Anneanne en arka masadaydı.

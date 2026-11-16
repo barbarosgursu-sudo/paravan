@@ -43,6 +43,8 @@
 > **Yeni yazılacak — 7 replik:**
 > 4. **Cengo, 4 karar satırı** (her kararın `**CENGO:**` satırı). Şu an Oğuz Bey'in eski satırları, anlatı biçiminde
 >    ("Cengo düğün fotoğrafına baktı… dedi"); büroda Cengo'nun **kendi ağzından replik** olarak yeniden yazılacak.
+>    **Kasa sözü geçmesin** (16 Kas, Barbaros): "Parasını al" satırındaki *"Kasaya koy, ben görmeyeyim"* kasa kalktığı için değişmeli;
+>    kesinti de yok (müşteri söylediği ücreti öder).
 > 5. **Cengo, 3 kanıt satırı** (`## cengo_kanit` altında, yok): `tarih_sofra` (Sofradaki tarih), `kalip_kagit` (Kalıp kâğıdı),
 >    `jale_siparis` (Siparişin günü). Satır **yalnız o kanıtı** anar, öbür kanıtı anmaz (kural 22c).
 >
