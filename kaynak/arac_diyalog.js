@@ -4,7 +4,9 @@
 // değiştirmeden hikâyeyi değiştiremez").
 //
 // Kullanım:  cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md [V1]
-// Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,onizleme,sonuc,cengo_sonuc}
+// Yazar:     yeni/game_data.json  → vaka.sahneler.*, clues[].sahne, decisions[].{etiket,secenek,onizleme,sonuc,cengo_sonuc}
+//            sahne karar_soru (16 Kasım 2026, kural 22a): kararı soran sahne; seçim kutusu arayüzce sonuna eklenir
+//            (⚙ secim_kare: seçim sırasında görünen kare). vaka.kim_yapti.cengo_kanit → ## cengo_kanit (kural 22c)
 //            yeni/kisiler.json    → defter.<vaka>.<karar>, ani_ozet.<vaka> (## ani bölümü)
 //            vaka.kim_yapti.hikaye → "Dosyanın tamamı" ekranı (## hikaye bölümü, 17 Ekim 2026)
 //            vaka.kim_yapti.kanit_ad → kanıtların kısa adı (## kanit bölümü, 18 Ekim 2026; yoksa tam metin görünür)
@@ -29,13 +31,15 @@ const temiz = s => s.replace(/\*\(([^)]*)\)\*/g, "($1)").trim();   // *(yutkunar
 
 const hatalar = [];
 const sahneler = {}, ipuclari = {}, kararlar = {};
-let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null, aniMetin = null, hikayeMetin = null, kanitMetin = null;
+let hedef = null, satirNo = 0, ucretMetin = null, cozumMetin = null, aniMetin = null, hikayeMetin = null, kanitMetin = null, cengoKanitMetin = null;
 for (const ham of md) {
   satirNo++;
   const s = ham.trim();
   let m;
   if (s === "## cozum") { hedef = { tur: "cozum", ayar: {}, metin: { yollar: [], masum: {} } }; cozumMetin = hedef; continue; }
   if (s === "## kanit") { hedef = { tur: "kanit", ayar: {}, metin: {} }; kanitMetin = hedef; continue; }
+  // 16 Kasım 2026 (kural 22c): her doğru kanıt için Cengo'nun satırı — oyuncu o kanıtı elinde tutup kullanmadıysa söyler.
+  if (s === "## cengo_kanit") { hedef = { tur: "cengo_kanit", ayar: {}, metin: {} }; cengoKanitMetin = hedef; continue; }
   if (s === "## ani") { hedef = { tur: "ani", ayar: {}, metin: {} }; aniMetin = hedef; continue; }
   if (s === "## hikaye") { hedef = { tur: "hikaye", ayar: {}, metin: { paragraflar: [] } }; hikayeMetin = hedef; continue; }
   if (s === "## ucret") { hedef = { tur: "ucret", ayar: {}, metin: {} }; ucretMetin = hedef; continue; }
@@ -48,7 +52,7 @@ for (const ham of md) {
   if (!hedef || !s) continue;
   if (s.startsWith("⚙")) {                          // ⚙ arka: A6 · figurler: peri, cengo
     for (const parca of s.slice(1).split("·")) {
-      const mm = parca.trim().match(/^(arka|figurler|etiket|set|cset):\s*(.+)$/);
+      const mm = parca.trim().match(/^(arka|figurler|etiket|set|cset|secim_kare):\s*(.+)$/);
       if (mm) hedef.ayar[mm[1]] = mm[1] === "figurler" ? mm[2].split(",").map(x => x.trim()) : mm[2].trim();
     }
     continue;
@@ -62,6 +66,11 @@ for (const ham of md) {
   if (hedef.tur === "hikaye") {
     if ((m = s.match(/^\*\*HİKÂYE:\*\*\s*(.+)$/))) hedef.metin.paragraflar.push(m[1].trim());
     else hatalar.push(`${satirNo}: hikâye bölümünde tanınmayan satır`);
+    continue;
+  }
+  if (hedef.tur === "cengo_kanit") {
+    if ((m = s.match(/^\*\*([a-z0-9_]+):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
+    else hatalar.push(`${satirNo}: cengo_kanit bölümünde tanınmayan satır`);
     continue;
   }
   if (hedef.tur === "kanit") {
@@ -80,7 +89,7 @@ for (const ham of md) {
     continue;
   }
   if (hedef.tur === "karar") {
-    if ((m = s.match(/^\*\*(ÖNİZLEME|SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
+    if ((m = s.match(/^\*\*(ÖNİZLEME|SEÇENEK|SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
     else hatalar.push(`${satirNo}: karar bölümünde tanınmayan satır`);
     continue;
   }
@@ -103,6 +112,7 @@ for (const ham of md) {
 // set: sahnenin başındaki Peri kıyafeti; cset: Cengo'nun (Vaka 2'den itibaren her vakada yeni).
 const sahneYap = h => ({ ...(h.ayar.arka ? { arka: h.ayar.arka } : {}),
   ...(h.ayar.set ? { set: h.ayar.set } : {}), ...(h.ayar.cset ? { cset: h.ayar.cset } : {}),
+  ...(h.ayar.secim_kare ? { secim_kare: h.ayar.secim_kare } : {}),
   figurler: h.ayar.figurler || ["peri", "cengo"], satirlar: h.satirlar });
 
 const vYol = path.join(__dirname, "yeni", "game_data.json"), kYol = path.join(__dirname, "yeni", "kisiler.json");
@@ -121,9 +131,12 @@ K.defter = K.defter || {}; K.defter[vakaId] = {};
 for (const [id, h] of Object.entries(kararlar)) {
   const d = v.decisions.find(x => x.id === id);
   if (!d) { hatalar.push(`karar '${id}' veride yok`); continue; }
-  for (const alan of ["ÖNİZLEME", "SONUÇ", "CENGO", "DEFTER"]) if (!h.metin[alan]) hatalar.push(`karar '${id}': ${alan} yok`);
+  // ÖNİZLEME 16 Kasım 2026'dan beri gösterilmez (kural 22a) ve isteğe bağlıdır; SEÇENEK Peri'nin ağzından seçim cümlesi
+  // (yoksa etiket görünür).
+  for (const alan of ["SONUÇ", "CENGO", "DEFTER"]) if (!h.metin[alan]) hatalar.push(`karar '${id}': ${alan} yok`);
   if (h.ayar.etiket) d.etiket = h.ayar.etiket;
-  d.onizleme = h.metin["ÖNİZLEME"];
+  if (h.metin["ÖNİZLEME"]) d.onizleme = h.metin["ÖNİZLEME"]; else delete d.onizleme;
+  if (h.metin["SEÇENEK"]) d.secenek = h.metin["SEÇENEK"]; else delete d.secenek;
   d.sonuc = h.metin["SONUÇ"];
   d.cengo_sonuc = [{ kosul: "varsayilan", metin: h.metin.CENGO }];
   K.defter[vakaId][id] = h.metin.DEFTER;
@@ -142,6 +155,10 @@ if (v.kim_yapti) {
     for (const id of Object.keys(kanitMetin.metin)) if (!(v.facts || {})[id]) hatalar.push(`kanıt adı '${id}' bir olgu değil`);
     v.kim_yapti.kanit_ad = kanitMetin.metin;
   }
+  if (cengoKanitMetin) {
+    for (const id of Object.keys(cengoKanitMetin.metin)) if (!(v.facts || {})[id]) hatalar.push(`cengo_kanit '${id}' bir olgu değil`);
+    v.kim_yapti.cengo_kanit = cengoKanitMetin.metin;
+  } else delete v.kim_yapti.cengo_kanit;
   if (!aniMetin || !aniMetin.metin.ani) hatalar.push("'## ani' bölümü (ANI) yok");
   else { K.ani_ozet = K.ani_ozet || {}; K.ani_ozet[vakaId] = aniMetin.metin.ani; }
 }

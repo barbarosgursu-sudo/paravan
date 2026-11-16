@@ -6504,7 +6504,8 @@
               "kosul": "varsayilan",
               "metin": "Cengo düğün fotoğrafına baktı, en arka masayı gösterdi. \"Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?\" dedi."
             }
-          ]
+          ],
+          "secenek": "“Haldun'a da Gamze'ye de söyleyeceğim.”"
         },
         {
           "id": "kendisi_soylesin",
@@ -6520,7 +6521,8 @@
               "kosul": "varsayilan",
               "metin": "Cengo bileğindeki bilekliği çevirdi. \"Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim\" dedi."
             }
-          ]
+          ],
+          "secenek": "“Düğünden önceki akşam siz söyleyeceksiniz.”"
         },
         {
           "id": "parasini_al",
@@ -6536,7 +6538,8 @@
               "kosul": "varsayilan",
               "metin": "Cengo zarfa dokunmadı. \"Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim\" dedi."
             }
-          ]
+          ],
+          "secenek": "“Adınızı vermem. Ama bu iş bedava olmaz.”"
         },
         {
           "id": "cengoya_birak",
@@ -6552,7 +6555,8 @@
               "kosul": "varsayilan",
               "metin": "Cengo ütülü gömleğinin kollarını sıvadı. \"Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm\" dedi."
             }
-          ]
+          ],
+          "secenek": "“Buna Cengo karar versin.”"
         }
       ],
       "seeds": {},
@@ -6611,7 +6615,8 @@
           "jale_gizli": "Atölyenin sırrı",
           "jale_soz": "Mektuptaki söz",
           "kalip_kagit": "Kalıp kâğıdı"
-        }
+        },
+        "cengo_kanit": {"prova_torba": "Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın \"kanıtınız ne?\" diyemezdi."}
       },
       "anahtarlar": {
         "tarih_sofra": ["babasına mesaj", "sofrada dört"],
@@ -7642,6 +7647,23 @@
               "kime": "muzeyyen",
               "ekran": "cengo+muzeyyen",
               "yuz": "muzeyyen.itiraf"
+            }
+          ]
+        },
+        "karar_soru": {
+          "arka": "A49",
+          "set": "tul",
+          "cset": "duvakli",
+          "secim_kare": "K117",
+          "figurler": ["peri", "cengo", "muzeyyen"],
+          "satirlar": [
+            {
+              "k": "muzeyyen",
+              "i": "itiraf",
+              "m": "Şimdi ne olacak, kızım? Haldun'a, Gamze'ye söyleyecek misin?",
+              "kime": "peri",
+              "ekran": "peri+muzeyyen",
+              "yuz": "peri.kas"
             }
           ]
         },

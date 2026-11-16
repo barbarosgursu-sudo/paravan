@@ -119,11 +119,23 @@ const VAKA = YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3"
     dokum.push(`${no} ${ad} | ${d.k}${d.kime ? '→' + d.kime : ''} | ${d.arka}${d.kare ? ' KARE ' + d.kare : ''} | sol ${d.cekilmis ? '(çekik) ' : ''}${d.sol} | sağ ${d.sag} | ${d.m}`);
   };
   // VN'i bitene kadar oynat
-  const vnOyna = async (ad, fotoAnlar = []) => {
+  // kararNo: karar seçimi (16 Kasım 2026, kural 22a — konuşmanın içinde) gelirse hangi seçenek seçilir.
+  const vnOyna = async (ad, fotoAnlar = [], kararNo = 0) => {
     let i = 0;
     while (await p.$('.vn')) {
       const sec = await p.$('#vnSecim0');
-      if (sec) { await foto(ad + '_secim'); await sec.click(); continue; }
+      if (sec) {
+        const kararMi = await p.evaluate(() => !!(vn && vn.secimde && vn.secimOge && vn.secimOge.karar));
+        if (kararMi) {
+          const say = await p.$$eval('.vn-secim', x => x.length);
+          console.log(`[${ad}] karar seçimi: ${say} seçenek`);
+          await foto(ad + '_karar'); await tasmaBak('karar');
+          const yasak = await p.evaluate(() => /₺|Kasa|hoşuna git/.test(document.querySelector('.vn-secimler').innerText));
+          if (yasak) hata.push(ad + ': karar seçiminde rakam ya da Cengo tavrı var (kural 22a)');
+          await p.click('#vnSecim' + kararNo); continue;
+        }
+        await foto(ad + '_secim'); await sec.click(); continue;
+      }
       const t = await p.evaluate(() => (document.querySelector('.vn-replik')||{}).textContent || '');
       gorulen.push(t);
       if (HEPSI && incelenen && ad.startsWith(incelenen)) await satirFoto(ad);
@@ -177,23 +189,21 @@ const VAKA = YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3"
     await p.click('.buton:has-text("Evet, suçla")');
     console.log(`[${vid}] suçlama`, secim.kim, secim.kanit.join('+'), '→', await p.evaluate(() => oyun.durum.aktif.suclama.sonuc));
     console.log(`[${vid}] yüzleşme+kovalamaca`, await vnOyna(vid + '_yuzlesme', ['Babana söyleyecek', 'Ben mi?', 'His mi?', '(Cengo bir adım', 'Babam mı?', 'Akşam yemeği',
-      'Kızım?', 'Ben mi canım?', 'Defne yalınayak', 'Peri, Defne', 'Peri kremalı', 'Buketi tutan', 'Tamam. Ben aldım', 'Garson Peri']));
-    await foto(vid + '_cozum'); await tasmaBak('cozum');
-    await p.click('.buton:has-text("Karara geç")');
-    await foto(vid + '_kararlar'); await tasmaBak('kararlar');
-    // Batma uyarısı yeni oyunda yok (sahibinin kararı): karar ekranında ve şeritte aranır.
-    const batma = await p.evaluate(() => /batars|açık verirsin|borca girersin|giderini karşılamıyor|kasa boş/.test(document.body.innerText));
-    if (batma) hata.push(vid + ': karar ekranında batma uyarısı var');
-    const kararlar = await p.$$('.karar'); console.log(`[${vid}] karar sayısı`, kararlar.length);
-    await kararlar[karar].click();
-    await foto(vid + '_sonuc'); await tasmaBak('sonuc');
-    await p.click('.buton:has-text("Devam et")');
+      'Kızım?', 'Ben mi canım?', 'Defne yalınayak', 'Peri, Defne', 'Peri kremalı', 'Buketi tutan', 'Tamam. Ben aldım', 'Garson Peri',
+      'Şimdi ne olacak', 'Haldun\'a ve Gamze', 'Torbayı o gün'], karar), '(karar, sonuç ve Cengo dahil)');
+    // Karar sahnede (16 Kasım 2026): yüzleşme → kovalamaca → karar seçimi → sonuç → Cengo → "Dosya kapandı" kartı.
+    if (!(await p.$('#dosyaDevam'))) throw new Error(vid + ': karardan sonra "Dosya kapandı" kartı yok');
+    await foto(vid + '_dosya'); await tasmaBak('dosya');
+    // Kasa yok: kartta rakam, "Kasa", batma uyarısı aranır.
+    const kasaIzi = await p.evaluate(() => /₺|Kasa|batars|borca girersin|kasa boş/.test(document.body.innerText));
+    if (kasaIzi) hata.push(vid + ': Dosya kapandı kartında kasa/rakam izi var');
+    await p.click('#dosyaDevam');
     gorulen = [];
     const bagY = await p.evaluate(() => oyun.bagYuksek());
     const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz', V3: 'Gizem tabladan', V4: 'Soğusun', V5: 'Islaksın', V6: 'Cengo, ben', V7: 'Bütün gün yamuktu' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp', V3: 'Ben çıkıyorum', V4: 'Bu sende dursun', V5: 'Bu sana. Martılar', V6: 'Neden söylemedin', V7: 'Smokin yarın iade' }[vid];
     console.log(`[${vid}] kapanış`, await vnOyna(vid + '_kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri', 'Hiç unutmadım', 'Geçen hafta elime', 'Siz evlenseniz', 'Takım yarın']),
       '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith(sicak)) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith(soguk)) ? 'soğuk satırlar' : 'iki hâl yok',
-      '· kasa', await p.evaluate(() => oyun.durum.para));
+      '· kasa (görünmez, değişmemeli)', await p.evaluate(() => oyun.durum.para));
     await foto(vid + '_son');
     // Kaçırılan ipuçları ekranı (reklamla izlenir; deneme reklamı) — varsa masaya dön.
     if (await p.$('#kacanDon')) { await foto(vid + '_kacan'); await p.click('#kacanDon'); await p.waitForTimeout(200); }

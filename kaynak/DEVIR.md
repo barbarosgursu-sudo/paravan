@@ -22,7 +22,8 @@
 > 3. **Cengo yalnız söylenmeyen doğru kanıtı söyler** (büroda, kapanıştan önce): yalnız oyuncunun ELİNDE olup suçlamada kullanmadığı
 >    doğru kanıt (bugünkü "Elindeydi"). **Açılmamış ipucu asla anılmaz** (20 Ekim kuralı korunur; reklamlı "kaçan ipucu" da korunur).
 >    Doğru kişi + sağlam kanıtta konuşmaz. Bugünkü ücret kesintisinin yerine bu. Örnek (V6, zayıf): "Torbayı o gün iki kişi tuttu,
->    Peri. Sofradaki tarihle onu söyleseydin kadın 'kanıtınız ne?' diyemezdi."
+>    Peri. Onu söyleseydin kadın 'kanıtınız ne?' diyemezdi." (Satır yalnız kendi kanıtını anar; ilk örnekteki
+>    "Sofradaki tarihle" sızıntı taramasında yakalandı.)
 > 4. **Kart kalır:** "Dosya kapandı" kartı = ✓/✗ kanıt listesi + Elindeydi + Peri'nin anı cümlesi + Devam / Arkadaşına öner.
 >    Seçim mantığı bugünkü `cozumYolu()` (testli).
 > 5. **Kasa tamamen kalkar:** ücret, karar parası, kasa göstergesi, hesap kutusu, Anı'daki "Kasaya" satırı. **Para yalnız hikâyede:**
@@ -40,7 +41,20 @@
 >   derdine çare olur"); 1. parça "Karar" ve 5. parça satır–resim kurallarına karar sahnesi eklenir; `sablon/vakalar` form şablonu.
 > - **Oğuz Bey (metin):** her vaka için kararı soran kişi + repliği, Peri'nin seçenek cümleleri, SONUÇ'un sahne satırları, Cengo'nun
 >   "Elindeydi" satırı (her doğru kanıt için bir), rakam geçen karar metinlerinin sahneye çevrilmesi.
-> - **Kod:** `motor_yeni.js` (ücret/kasa kalkar), `yeni_arayuz.js` (karar → konuşma seçimi, sonuç sahnesi, kapanış kartı, kasa
+> - ✅ **Kod YAZILDI (16 Kas):** `motor_yeni.js` kararVer kasayı değiştirmez (ücret/karar parası veride hikâye rakamı olarak durur);
+>   `yeni_arayuz.js` yüzleşme → kovalamaca → **karar sahnesi** (`kararSahnesi`: veride `sahneler.karar_soru` varsa soran satırlar,
+>   sonda "Peri ne yapsın?" seçimi; seçenek = kararın `SEÇENEK` satırı, yoksa etiket) → **sonuç sahnesi** (veride `sahneler.sonuc_<karar>`
+>   varsa o, yoksa SONUÇ ~110 harflik anlatı satırlarına bölünür, karar karesinin üstünde) → **Cengo büroda** (karar satırı + kural 22c:
+>   `## cengo_kanit` → `kim_yapti.cengo_kanit[olgu]`, yalnız eldeki söylenmeyen doğru kanıt) → **Dosya kapandı kartı** (✓/✗, Elindeydi,
+>   anı cümlesi, Devam, Arkadaşına öner) → kapanış → kaçan ipuçları. Kasa göstergesi, hesap kutusu, Anı'daki "Kasaya" kalktı.
+>   `arac_diyalog.js`: `## sahne karar_soru` (⚙ `secim_kare`), karar `**SEÇENEK:**` (ÖNİZLEME artık isteğe bağlı), `## cengo_kanit`.
+>   Araçlar: `arac_yeni_tur.js` (karar seçimini konuşmada yapar, kartı arar, rakam/tavır izi arar), `arac_sizinti_tur.js` (kart,
+>   karar sahnesi, sonuç ve Cengo sahnelerinin bütün satırları). **V6'ya taslaktaki örnek metin girdi** (Müzeyyen'in sorusu, 4 SEÇENEK,
+>   `prova_torba` için Cengo satırı) — son hâli Oğuz Bey'de; öbür doğru kanıtların (tarih_sofra, kalip_kagit, jale tarihi) Cengo satırı
+>   yok, o yollarda Cengo susar. Öbür vakalar (V1–V5, V7) metin gelene dek yedekle çalışır: soran yok, seçenek = etiket, Cengo susar.
+>   Denetim: doğrulayıcı (iki oyun) PASS, iki derleme, testler (test_yeni_kimyapti: "karar kasayı değiştirmiyor"), V1→V6 tarayıcı turu
+>   (zayıf yol, `--hepsi`) temiz, `arac_sizinti_tur.js V6 40` temiz (1366 ekran).
+> - ~~**Kod:** `motor_yeni.js` (ücret/kasa kalkar), `yeni_arayuz.js` (karar → konuşma seçimi, sonuç sahnesi, kapanış kartı, kasa
 >   göstergesi/hesap kutusu/Anı kasası kalkar), doğrulayıcı (ikilem denetimi para yerine), testler. Eski oyun (`motor.js`, `index.html`)
 >   etkilenmez.
 > - **Sıra:** önce **Vaka 6** (resimleri tam) → tutarsa V7, V8 bu düzenle → V1–V5 yeniden geçirilir.

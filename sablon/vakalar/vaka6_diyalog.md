@@ -359,6 +359,21 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ---
 
+## sahne karar_soru
+⚙ arka: A49 · figurler: peri, cengo, muzeyyen · set: tul · cset: duvakli · secim_kare: K117
+⚙ 16 Kasım 2026 (kural 22a): kararı sahnedeki biri sorar; seçim kutusu ("Peri ne yapsın?") arayüzce eklenir, seçenekler
+⚙ kararların SEÇENEK satırları. Metin taslaktaki örnek (sahibi akışı onayladı); son hâlini Oğuz Bey yazar.
+
+**MÜZEYYEN [itiraf]:** Şimdi ne olacak, kızım? Haldun'a, Gamze'ye söyleyecek misin? {kime: peri, ekran: peri+muzeyyen, yuz: peri.kas}
+
+## cengo_kanit
+⚙ Kural 22c: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Örnek (taslak); diğer doğru
+⚙ kanıtların satırı Oğuz Bey'de (yoksa Cengo susar, kart yine gösterir).
+
+**prova_torba:** Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın "kanıtınız ne?" diyemezdi.
+
+---
+
 ## ucret
 ⚙ Karar ekranının üstünde, ücret kesildiyse çıkan açıklama. `{anlasilan}` ve `{kesinti}` tutarla dolar.
 
@@ -408,6 +423,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar yazani_soyle
 ⚙ etiket: Haldun'a ve Gamze'ye yazanı söyle
 
+**SEÇENEK:** “Haldun'a da Gamze'ye de söyleyeceğim.”
 **ÖNİZLEME:** Müzeyyen'in adını verirsin. Haldun ücreti tam öder; düğün olur, Gamze annesiyle küser.
 **SONUÇ:** Haldun'a ve Gamze'ye dördüncü mektubu verip yazanın adını söyledin. Düğün oldu. Gamze düğünde annesiyle tek kelime konuşmadı; Müzeyyen en arka masada oturdu. Bir hafta sonra İzmir'e gittiler.
 **CENGO:** Cengo düğün fotoğrafına baktı, en arka masayı gösterdi. "Kadın yalnız kalmaktan korktu, Peri. Onu da söyledin mi?" dedi.
@@ -416,6 +432,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar kendisi_soylesin
 ⚙ etiket: Müzeyyen kendisi söylesin
 
+**SEÇENEK:** “Düğünden önceki akşam siz söyleyeceksiniz.”
 **ÖNİZLEME:** Müzeyyen'e düğünden önceki akşama kadar süre verirsin; kendisi söyler. Haldun İzmir'e tek gideceği için 10.000 ₺ keser.
 **SONUÇ:** Mektubu Müzeyyen'e geri verdin: "Düğünden önceki akşam, sofrada, siz söyleyeceksiniz." Söyledi. Gamze ağladı, sonra annesine sarıldı. Haldun İzmir'e tek gitti; Gamze ve Eylül okul bitene kadar Üsküdar'da kalacak. Haldun ücretten on bin kesti: "Bir hafta bekledim, şimdi bir yıl bekleyeceğim."
 **CENGO:** Cengo bileğindeki bilekliği çevirdi. "Eylül okul bitene kadar Üsküdar'da. Cumartesileri bank yine benim" dedi.
@@ -424,6 +441,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar parasini_al
 ⚙ etiket: Adını verme, parasını al
 
+**SEÇENEK:** “Adınızı vermem. Ama bu iş bedava olmaz.”
 **ÖNİZLEME:** Haldun'a "yazan bulundu, bir daha yazmayacak" dersin, adını vermezsin. Müzeyyen susman için 15.000 ₺ verir.
 **SONUÇ:** Haldun'a yazanın bulunduğunu, bir daha yazmayacağını söyledin; adını vermedin. Haldun sormadı, ücreti ödedi. Müzeyyen kenara koyduğu on beş bini bir zarfa koyup sana verdi. Düğün oldu; Gamze mektupları kimin yazdığını hiç öğrenmedi.
 **CENGO:** Cengo zarfa dokunmadı. "Anneannenin kenara koyduğu para. Kasaya koy, ben görmeyeyim" dedi.
@@ -432,6 +450,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ## karar cengoya_birak
 ⚙ etiket: Başarıyı Cengo'ya bırak
 
+**SEÇENEK:** “Buna Cengo karar versin.”
 **ÖNİZLEME:** Haldun'a ve Eylül'e mektupları Cengo'nun çözdüğünü söylersin; kime ne söyleneceğine o karar verir. Ad verilmediği için Haldun 5.000 ₺ keser.
 **SONUÇ:** Haldun'un ve Eylül'ün önünde "Dosyayı Cengo Bey çözdü" dedin. Cengo adı vermedi: "Bir daha mektup gelmeyecek, kefili benim." Haldun ad duymadığı için beş bin kesti. Eylül babasına sarıldı: "Biliyordum." Sonra Peri'ye baktı: "Sen de yardım ettin herhalde." Düğün oldu; İzmir'e gittiler.
 **CENGO:** Cengo ütülü gömleğinin kollarını sıvadı. "Kızım beni büyük dedektif sandı. Sen de bir dakika sandın; gördüm" dedi.

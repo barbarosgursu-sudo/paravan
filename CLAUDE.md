@@ -86,7 +86,7 @@ bilinçli kararı, düzeltilecek hata değil. `hata` = oyun kırılır ve paketl
 `cd kaynak && node dogrulayici.js yeni` onu denetler — argümansız çağrı eski oyunu denetler.
 Yeni oyun **yapım şablonuyla** üretilir: `sablon/` (7 parça + `vakalar/`). Şablon ile bu
 dosya çelişirse yeni oyun için şablon geçerlidir. Yeni oyunun motor eki `kaynak/motor_yeni.js`
-(Kim yaptı?, ücret sonda) — `motor.js`'e dokunulmaz, eski sayfa birebir aynı kalmalı.
+(Kim yaptı?; 16 Kasım 2026'dan beri kasa yok, karar sahnede — `sablon/2_kural_kitabi.md` 22a–d, 24) — `motor.js`'e dokunulmaz, eski sayfa birebir aynı kalmalı.
 Doğrulayıcı yeni oyunda ayrıca K17 (giriş), K18 (ipucu adı), K19 (Kim yaptı?) çalıştırır.
 Veri JSON'unu elle değil `arac_json_yaz.js` ile yaz (kısa, okunur biçim).
 Sahne satırı biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Vaka metni

@@ -98,11 +98,11 @@ for (const sonuc of ["dogru", "zayif", "yanlis"]) {
         if (a !== b && o.suclamaSonucu(KY.suclu, [a, b]) === "zayif") kanit = [a, b];
     }
     o.suclama(kim, kanit);
-    const once = o.durum.para;
+    // Kasa yok (16 Kasım 2026, kural 24): ne ücret ne karar parası oyunun parasını değiştirir.
+    const once = o.durum.para, borcOnce = o.durum.borc;
     const r = o.kararVer(d.id);
-    const bekle = once + KY.ucret[sonuc] + (d.para || 0);
-    if (r.hata || o.durum.para !== bekle || o.durum.para < 0 || o.durum.borc !== 0) {
-      k(`${sonuc} + ${d.id}: kasa = önce + ücret + karar parası, eksi/borç yok`, false);
+    if (r.hata || o.durum.para !== once || o.durum.borc !== borcOnce) {
+      k(`${sonuc} + ${d.id}: karar kasayı değiştirmiyor (kasa yok)`, false);
     }
     // Anı defteri vaka bitince kimi suçladığını bu tohumdan okur (aktif silinir).
     if (o.durum.seeds["_suclama_" + V.id] !== kim + ":" + sonuc) {
@@ -110,7 +110,7 @@ for (const sonuc of ["dogru", "zayif", "yanlis"]) {
     }
   }
 }
-k("her sonuç × her karar: kasa = önce + ücret + karar parası, eksi ve borç yok", true);
+k("her sonuç × her karar: karar kasayı değiştirmiyor (kasa yok, kural 24)", true);
 k("her sonuç × her karar: suçlama `_suclama_<vaka>` tohumunda (anı defteri)", true);
 
 console.log("\n=== Kayıt ===");

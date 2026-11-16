@@ -84,11 +84,18 @@ const { chromium } = ORTAM.playwright();
       kyOnay(); bak("onay", app(), a.bilinen, v);
       oyun.suclama(s.id, [kn[i], kn[j]]);
       const sonuc = a.suclama.sonuc;
-      cozumEkrani(); bak("çözüm/" + sonuc, app(), a.bilinen, v);
-      kararEkrani(); bak("karar/" + sonuc, app(), a.bilinen, v); panel("/suçlamadan sonra");
+      // 16 Kasım 2026 (kural 22a–d): "Dosya çözüldü" ve karar menüsü yok; karar sahnede, kart sonda.
+      const metinDiv = h => { const x = document.createElement("div"); x.innerHTML = h; return x.textContent; };
+      bak("dosya kartı/" + sonuc, metinDiv(dosyaKartiIcerik().html), a.bilinen, v);
+      kararEkrani();   // karar sahnesi: soran satırlar + seçenekler (sahnenin kuyruğundan bütünüyle okunur)
+      bak("karar sahnesi/" + sonuc, [vn ? vn.tamMetin : "", ...(vn ? vn.kuyruk : []).map(x => x.m || (x.secenekler || []).map(o => o.m).join(" | "))].join(" "), a.bilinen, v);
+      panel("/suçlamadan sonra");
       const ds = oyun.acikKararlar(); const d = ds[Math.floor(rnd() * ds.length)];
       const bilinenOnce = new Set(a.bilinen);
-      kararVerFaz(d.id); bak("karar sonucu", app(), bilinenOnce, v);
+      kararVerFaz(d.id);
+      // Sonuç ve Cengo sahneleri: her sahnenin bütün satırları okunur, sonra geçilir; en sonda kart.
+      for (let g = 0; vn && g < 10; g++) { bak("karar sonucu (sahne)", [vn.tamMetin, ...vn.kuyruk.map(x => x.m || "")].join(" "), bilinenOnce, v); vnGec(); }
+      bak("karar sonucu (kart)", app(), bilinenOnce, v);
       kacanEkrani(vid); bak("kaçan ekranı", app(), bilinenOnce, v);
       const dd = document.createElement("div"); dd.innerHTML = defterAni(); bak("anı defteri", dd.textContent, bilinenOnce, v);
       panel("/vaka bitti");

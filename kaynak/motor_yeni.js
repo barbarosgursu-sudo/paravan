@@ -1,7 +1,7 @@
 // ============================================================================
 // YENİ OYUN MOTORU EKİ (Peri & Cengo) — motor.js'in ÜSTÜNE, ona dokunmadan.
 // Şablon: sablon/1_oyun_yapisi.md ("Kim yaptı? ekranı", "Karar") ve
-// sablon/2_kural_kitabi.md kural 24–25 (para yalnız birikir; ücret sonda).
+// sablon/2_kural_kitabi.md kural 22a–d ve 24 (karar sahnede; kasa yok, para yalnız hikâyede).
 //
 // Neden ayrı dosya: motor.js eski oyunun sayfasına da gömülüyor ve o sayfa
 // derlemede BİREBİR aynı çıkmalı. Yeni oyunun kuralları burada yaşar; eski
@@ -103,18 +103,20 @@ class OyunYeni extends Oyun {
     return a.vaka.decisions.map(d => ({ id: d.id, etiket: d.etiket }));
   }
 
-  // Ücret sonda ödenir (kural 25): kasaya giren = ücret + karar parası.
+  // KASA YOK (sahibinin kararı, 16 Kasım 2026; 2. parça kural 24): para yalnız hikâyede. Ücret ve
+  // karar parası veride hikâyenin rakamı olarak durabilir ama kasaya girmez; taban motorun para
+  // hesabı (karar parası, giderler) karardan sonra geri alınır. durum.para hiç değişmez.
   kararVer(id) {
     const a = this.durum.aktif, ky = this._ky();
     if (!ky) return super.kararVer(id);
     if (!a.suclama) return { hata: "önce Kim yaptı?" };
     if (!a.vaka.decisions.some(d => d.id === id)) return { hata: "karar yok" };
-    const sonuc = a.suclama.sonuc, ucret = ky.ucret[sonuc];
+    const sonuc = a.suclama.sonuc;
     const bagOnce = this.durum.cengoBag;
-    this.durum.para += ucret;
+    const paraOnce = this.durum.para, borcOnce = this.durum.borc;
     const r = super.kararVer(id);
-    if (r.hata) { this.durum.para -= ucret; return r; }
-    r.ekonomi.ucret = ucret;
+    if (r.hata) return r;
+    this.durum.para = paraOnce; this.durum.borc = borcOnce;
     r.ekonomi.suclama = sonuc;
     // Anı defteri vaka bittikten sonra kimi suçladığını hatırlatır; aktif silindiği için tohumda.
     this.durum.seeds["_suclama_" + a.id] = a.suclama.supheli + ":" + sonuc;

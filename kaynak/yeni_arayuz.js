@@ -128,10 +128,10 @@ function sahneOynat(sahne, sonra, baslik, onceki, devam){
    giyilince sonraki sahne de mantolu başlar; kasa bir kez görününce kalır). */
 let vnSonSet = null, vnKasaGorunur = false;
 
+/* Kasa yok (sahibinin kararı, 16 Kasım 2026; kural 24): gösterge hiç görünmez. Satırlardaki eski
+   {kasa} etiketi zararsız kalır. */
 function vnKasaTazele(){
-  const el = document.getElementById("vnKasa"); if(!el) return;
-  el.hidden = !vn.kasaGorunur;
-  if(vn.kasaGorunur) el.textContent = "Kasa " + tl(oyun.durum.para);
+  const el = document.getElementById("vnKasa"); if(el) el.hidden = true;
 }
 
 function vnArkaKoy(kod, anlik){
@@ -325,8 +325,10 @@ function vnSatirGoster(satir){
 
 function vnSecimGoster(oge){
   vn.secimde = true;
-  vnKareGoster(null);
-  document.getElementById("vnFig").classList.remove("cekilmis");
+  vnKareGoster(oge.kare || null);   // karar seçimi bir karenin üstünde durabilir (V6: bankta üçü, K117)
+  document.getElementById("vnFig").classList.toggle("cekilmis", !!oge.kare);
+  // Sahnenin ilk öğesi seçimse (karar sahnesinde soran satırı yok) figürler henüz çizilmedi.
+  if(!document.getElementById("vnSol").dataset.src && !document.getElementById("vnSag").dataset.src) vnFigurCiz({});
   document.getElementById("vnPlakaSol").hidden = true;
   document.getElementById("vnPlakaSag").hidden = true;
   const kap = document.createElement("div"); kap.className = "vn-secimler";
@@ -342,6 +344,8 @@ function vnSecimGoster(oge){
 }
 
 function vnSecimYap(oge, n){
+  // Karar seçimi (kural 22a): sahne burada biter, seçilen karar akışın sonrasına gider (kararVerFaz).
+  if(oge.karar){ vn.secimde = false; vnKararId = oge.secenekler[n].karar; vn.kuyruk = []; vnBitir(); return; }
   vn.secimde = false; vn.secimler.push(n);
   vn.kuyruk.unshift(...(oge.secenekler[n].satirlar || []));
   if(!vn.hizli) vnIlerle();
@@ -401,9 +405,12 @@ function vnGec(){
   if(!vn) return;
   clearInterval(vn.yaziyor); vn.yaziyor = null;
   const sec = oge => { vn.secimler.push(0); vn.kuyruk.unshift(...((oge.secenekler[0] || {}).satirlar || [])); };
+  // Karar seçimi atlanmaz: oyuncu seçer (kural 22a).
+  if(vn.secimde && vn.secimOge && vn.secimOge.karar) return;
   if(vn.secimde){ vn.secimde = false; sec(vn.secimOge); }
   while(vn.kuyruk.length){
     const s = vn.kuyruk.shift(); vn.adim++;
+    if(s.secim && s.karar){ vn.secimOge = s; vnSecimGoster(s); return; }
     if(s.secim){ sec(s); continue; }
     if(s.set){ vn.set = s.set; vnSonSet = s.set; }
     if(s.cset) vn.cset = s.cset;
@@ -476,7 +483,8 @@ function vnAkisKur(tur, ek){
     const c = v.clues.find(x => x.id === ek.ipucu); if(!c) return null;
     return { sahneler: [c.sahne], sonra: () => ipucuKarti(c, { meta: c.meta }, c.reveals || []), baslik: v.baslik + " · " + c.ad };
   }
-  if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca], sonra: cozumEkrani, baslik: v.baslik };
+  // Yüzleşme → kovalamaca → karar sahnesi (16 Kasım 2026, kural 22a): sahne kesilmez, seçim konuşmanın içinde.
+  if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca, kararSahnesi(v)], sonra: () => kararVerFaz(vnKararId), baslik: v.baslik };
   if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: () => kacanEkrani(v.id), baslik: v.baslik };
   return null;
 }
@@ -696,22 +704,75 @@ function kySucla(){
   akisBaslat("yuzlesme", { vaka: a.id, sahne: r.sahne });
 }
 
-/* "Dosya çözüldü" (sahibinin görselsiz testi, 9 Ekim 2026): kovalamacadan sonra, karardan önce.
-   Oyuncu suçlamasının neden tam, zayıf ya da yanlış olduğunu ve suçluyu gösteren yolları görür.
-   Suçlamadan sonra gelir ama NURCAN YÜZEYİDİR (sahibi, 20 Ekim 2026): yalnız oyuncunun elindeki kanıtlar
-   adıyla ya da metniyle anılır. Açılmamış ipucunun olgusu burada basılırsa hem sızıntı olur hem de
-   reklamla izlenen "kaçan ipuçları"nı bedavaya açar. */
+/* ---------- Karar anı (sahibinin kararı, 16 Kasım 2026; 2. parça kural 22a–d) ----------
+   Eskiden: "Dosya çözüldü" sayfası → dört kartlı karar menüsü (önizleme, "Kasaya …", Cengo'nun tavrı) →
+   sonuç sayfası + hesap kutusu. Şimdi sahne kesilmez:
+   kovalamaca → KARAR SAHNESİ (sahnedeki biri sorar, Peri'nin ağzından seçenekler; rakam/tavır/önizleme yok)
+   → SONUÇ SAHNESİ (SONUÇ anlatı satırlarına bölünür, karar karesinin üstünde)
+   → CENGO, BÜRODA (karar satırı + söylenmeyen doğru kanıt, kural 22c)
+   → DOSYA KAPANDI KARTI (✓/✗, Elindeydi, Peri'nin anı cümlesi) → kapanış sahnesi → kaçan ipuçları.
+   Taslak: sablon/taslak_karar/vaka6_akis.jpg. */
+let vnKararId = null;
+
+// Bir sahnenin SONUNDAKİ arka plan ve Cengo kıyafeti (karar sahnesi kovalamacanın bittiği yerde açılır).
+function sahneSonu(sahne){
+  let arka = sahne && sahne.arka, cset = sahne && sahne.cset;
+  for(const x of (sahne && sahne.satirlar) || []){ if(x.arka) arka = x.arka; if(x.cset) cset = x.cset; }
+  return { arka, cset };
+}
+
+// Karar sahnesi: veride `sahneler.karar_soru` varsa onun satırları (soran ve repliği), sonunda seçim kutusu.
+// Yoksa (Oğuz Bey'in metni gelmemiş vaka) kovalamacanın bittiği yerde yalnız seçim kutusu.
+function kararSahnesi(v){
+  const s = v.sahneler || {}, soru = s.karar_soru, son = sahneSonu(s.kovalamaca);
+  const secim = { secim: "Peri ne yapsın?", karar: true, kare: (soru && soru.secim_kare) || null,
+    secenekler: (v.decisions || []).map(d => ({ m: d.secenek || d.etiket, karar: d.id })) };
+  return { arka: (soru && soru.arka) || son.arka, cset: (soru && soru.cset) || son.cset,
+    ...(soru && soru.set ? { set: soru.set } : {}),
+    figurler: (soru && soru.figurler) || ["peri", "cengo"],
+    satirlar: [...((soru && soru.satirlar) || []), secim] };
+}
+
+// Suçlama yapılmış ama akış kaydı yok (sayfa kapandı): karar sahnesi yeniden açılır.
+function kararEkrani(){
+  const a = oyun.durum.aktif;
+  if(!a.vaka.kim_yapti){                         // eski tip vaka: batma uyarısı temizlenir
+    _eskiKararFazi();
+    document.querySelectorAll(".karar .bedel .sonuc").forEach(el => el.remove());
+    document.querySelectorAll(".karar .bedel .kalan").forEach(el => el.classList.remove("kotu", "dar", "iyi"));
+    return;
+  }
+  vnKararId = null;
+  sahneZinciri([kararSahnesi(a.vaka)], () => kararVerFaz(vnKararId), a.vaka.baslik);
+}
+
+// SONUÇ metnini ~110 harflik anlatı satırlarına böler (kural 5). Cümle sonunda böler; tırnağın içini bölmez.
+function sonucParcala(metin){
+  const cumleler = String(metin || "").match(/[^.!?…]+(?:[.!?…]+["”»']?|$)/g) || [];
+  const tirnakAcik = x => ((x.match(/"/g) || []).length % 2) === 1;
+  const parca = []; let cur = "";
+  for(const c0 of cumleler){
+    const c = c0.trim(); if(!c) continue;
+    if(cur && !tirnakAcik(cur) && (cur + " " + c).length > 110){ parca.push(cur); cur = c; }
+    else cur = cur ? cur + " " + c : c;
+  }
+  if(cur) parca.push(cur);
+  // Çok kısa son parça ("Düğün oldu.") öncekine eklenir.
+  if(parca.length > 1 && parca[parca.length-1].length < 40 && parca[parca.length-2].length + parca[parca.length-1].length < 150)
+    parca.splice(-2, 2, parca[parca.length-2] + " " + parca[parca.length-1]);
+  return parca;
+}
+
+// "Dosya kapandı" kartı (kural 22d). NURCAN (20 Ekim 2026): yalnız oyuncunun elindeki kanıtlar adıyla ya da
+// metniyle anılır; açılmamış ipucunun olgusu basılırsa hem sızıntı olur hem reklamlı "kaçan ipuçları" bedavaya açılır.
+// Karardan ÖNCE kurulur (karardan sonra aktif vaka yok).
 const KY_SONUC_BASLIK = { dogru: "Doğru kişi, sağlam kanıt", zayif: "Doğru kişi, zayıf kanıt", yanlis: "Yanlış kişi" };
-function cozumEkrani(){
+function dosyaKartiIcerik(){
   const a = oyun.durum.aktif, ky = a.vaka.kim_yapti, sc = a.suclama, f = a.vaka.facts;
   const ad = id => (ky.supheliler.find(x => x.id === id) || {}).ad || id;
   const cz = ky.cozum || { masum: {} };
-  // 18 Ekim 2026: aynı paragraf iki kez basılmaz. Seçilen kanıtlar adla, ✓ (doğru çiftte) / ✗;
-  // altta yalnız EKSİK olan, adı ve tam metniyle.
   const adi = id => vnHtml(kyAd(id) || f[id]);
-  let h = ust() + '<div class="faz ky">';
-  h += `<div class="baslik"><div class="no">Dosya çözüldü</div><h1 style="font-size:24px">${KY_SONUC_BASLIK[sc.sonuc]}</h1></div>`;
-  // Ada ek koymuyoruz (ünlü uyumu her adda tutmaz).
+  let h = `<h1 style="font-size:24px">${KY_SONUC_BASLIK[sc.sonuc]}</h1></div>`;
   const ozet = sc.sonuc === "dogru" ? `Suçlu doğru: ${ad(ky.suclu)}. Kanıtların da sağlam.`
              : sc.sonuc === "zayif" ? `Suçlu doğru: ${ad(ky.suclu)}. Ama kanıtların onu suça bağlamadı.`
              : (cz.masum[sc.supheli] || `${ad(sc.supheli)} masumdu.`);
@@ -725,78 +786,59 @@ function cozumEkrani(){
     for(const id of yol.eksik) h += `<div class="ky-eksik">${kyAd(id) ? `<b>${vnHtml(kyAd(id))}</b>` : ""}<div>${vnHtml(f[id])}</div></div>`;
   } else if(sc.sonuc !== "dogru" && !yol.eldeCiftVar)
     h += `<div class="ky-eksik">Elindeki kanıtlar onu suça bağlamaya yetmiyordu. Eksik parça, açmadığın bir ipucundaydı.</div>`;
-  h += `<button class="buton" onclick="kararEkrani()">Karara geç →</button></div>`;
-  app.innerHTML = h; scrollUst();
+  return { html: h, eksik: yol.eksik };
 }
 
-/* Karar ekranı: dört karar her zaman açık (kapı yok). Para yalnız birikir;
-   gider, "ay sonunda", batma yok (kural 24). Ücret Kim yaptı?'nın sonucundan gelir,
-   karar parası varsa kararın altında yazar. */
-function kararEkrani(){
-  const a = oyun.durum.aktif;
-  if(!a.vaka.kim_yapti){                         // eski tip vaka: batma uyarısı temizlenir
-    _eskiKararFazi();
-    document.querySelectorAll(".karar .bedel .sonuc").forEach(el => el.remove());
-    document.querySelectorAll(".karar .bedel .kalan").forEach(el => el.classList.remove("kotu", "dar", "iyi"));
-    return;
-  }
-  const ucret = a.vaka.kim_yapti.ucret[a.suclama.sonuc];
-  let h = ust() + '<div class="faz">';
-  h += `<div class="baslik"><div class="no">Karar</div><h1 style="font-size:22px">Ne yapacaksın?</h1></div>`;
-  h += `<div class="uyari">Bu karar geri alınamaz.</div>`;
-  // Ücret kesildiyse sebebi (kural 22a): anlaşılan rakamla ekrandaki rakam arasındaki fark açıklanır.
-  const ky = a.vaka.kim_yapti, sonuc = a.suclama.sonuc;
-  if(ucret < ky.ucret.dogru && (ky.kesinti || {})[sonuc])
-    h += `<div class="ky-kesinti">${vnHtml(ky.kesinti[sonuc].replace("{anlasilan}", tl(ky.ucret.dogru)).replace("{kesinti}", tl(ky.ucret.dogru - ucret)))}</div>`;
-  // Kural 22a: seçmeden önce kısa sonuç, kasaya girecek toplam ve Cengo'nun tavrı (kural 11: yön, sayı değil).
-  for(const k of oyun.acikKararlar()){
-    const d = v6Karar(k.id);
-    h += `<div class="karar" onclick="kararVerFaz('${k.id}')"><div class="et">${vnHtml(k.etiket)}</div>
-      ${d.onizleme ? `<div class="ky-onizleme">${vnHtml(d.onizleme)}</div>` : ""}
-      <div class="ky-alt"><span class="ky-kasa">Kasaya <b>${tl(ucret + (d.para || 0))}</b></span>
-      <span class="ky-cengo">${CENGO_TAVIR(d.cengoBag || 0)}</span></div></div>`;
-  }
-  h += '</div>';
-  app.innerHTML = h; scrollUst();
+// Kural 22c: Cengo yalnız ELDEKİ ama söylenmeyen doğru kanıtı söyler; metni yoksa susar.
+function cengoKanitSatirlari(ky, eksik){
+  const m = ky.cengo_kanit || {};
+  return eksik.filter(id => m[id]).map(id => ({ k: "cengo", m: m[id], kime: "peri", ekran: "peri+cengo" }));
 }
-/* Kasa şeridi: yalnız kasa ve (varsa) borç. Eski şerit kasayı ay sonu giderine
-   oranlayıp "bu ayın giderini karşılamıyor / kasa boş" diyordu — batma uyarısı. */
-kasaSerit = function(){
-  const k = oyun.kasaDurumu();
-  if(!k.aylikGider) return "";
-  return `<div class="kasa-serit">
-    <span>Kasa <span class="tutar">${tl(k.para)}</span>${k.borc ? ` · <span class="borc">borç ${tl(k.borc)}</span>` : ""}</span>
-    ${krizRozetleri()}
-  </div>`;
-};
 
-// Karar sonucu: ruh hâli görseli yerine kararın kendi karesi; "Devam et" kapanış
-// sahnesini oynatır. İstatistik paneli yok (yeni veride oran yazılmadı; açık soru).
+/* Kasa şeridi: eski arayüzün ekranlarının üstündeki kasa çubuğu. Kasa yok (16 Kasım 2026, kural 24). */
+kasaSerit = function(){ return ""; };
+
+let vnDosyaKarti = null;
 kararVerFaz = function(id){
-  const vid = oyun.durum.aktif.id;
-  const v = oyun.durum.aktif.vaka;
+  const a = oyun.durum.aktif;
+  if(!a || !id){ kararEkrani(); return; }
+  const vid = a.id, v = a.vaka;
   const d = v.decisions.find(x => x.id === id) || {};
-  const acilan = oyun.durum.aktif.acilanKaynaklar;
+  const acilan = a.acilanKaynaklar;
   const kacan = (v.clues || []).filter(c => c.sahne && !acilan.has(c.id)).map(c => c.id);
+  const kart = v.kim_yapti ? dosyaKartiIcerik() : null;   // karardan önce (aktif vaka henüz duruyor)
   const r = oyun.kararVer(id);
   if(r.hata){ alert(r.hata); return; }
   kacanYaz(kacan.length ? { vaka: vid, ipuclari: kacan, izlenen: [] } : null);
   kayitYaz();
   efektCal('muhur');
-  const not = defterNotu(vid, id);
-  const kare = d.kare && vnGorsel(d.kare);
-  vnKapanis = (v.sahneler || {}).kapanis ? { vaka: vid } : null;
-  // Sonuç ekranında kapatılırsa açınca kapanıştan sürsün (sonuç metni yeniden kurulamaz).
-  if(vnKapanis) try{ localStorage.setItem(SAHNE_YER_ANAHTAR, JSON.stringify({ tur: "kapanis", vaka: vid, n: 0, adim: 0, set: "manto", kasa: true })); }catch(e){}
-  let h = ust() + '<div class="faz">';
-  if(kare) h += `<div class="gorsel-cerceve giris-gorsel karar-kare"><img src="${kare}" alt=""></div>`;
-  h += `<div class="sonuc-kutu"><h3>Sonuç</h3><p>${r.sonuc}</p></div>`;
-  if(r.cengoSatir) h += `<div class="cengo-satir">${r.cengoSatir}</div>`;
-  if(not) h += `<div class="defter-not">${not}</div>`;
-  h += v.kim_yapti ? yeniHesapKutusu(r.ekonomi) : hesapKutusu(r.ekonomi);
-  h += `<button class="buton" onclick="vnKapanisOynat()">Devam et</button></div>`;
-  app.innerHTML = h; scrollUst();
+  const s = v.sahneler || {}, kp = s.kapanis || {};
+  vnKapanis = s.kapanis ? { vaka: vid } : null;
+  // Sonuç ya da kartta kapatılırsa açınca kapanıştan sürer (sonuç yeniden kurulamaz).
+  if(vnKapanis) try{ localStorage.setItem(SAHNE_YER_ANAHTAR, JSON.stringify({ tur: "kapanis", vaka: vid, n: 0, adim: 0, set: "manto", kasa: false })); }catch(e){}
+  vnDosyaKarti = { vid, baslik: v.baslik, html: kart ? kart.html : "", not: defterNotu(vid, id) };
+  // Sonuç sahnesi: veride `sahneler.sonuc_<karar>` varsa o; yoksa SONUÇ anlatı satırlarına bölünür, karar karesinin üstünde.
+  const sonucSahne = s["sonuc_" + id] || { arka: kp.arka || sahneSonu(s.kovalamaca).arka, cset: kp.cset, figurler: ["peri", "cengo"],
+    satirlar: sonucParcala(r.sonuc).map(m => ({ k: "not", m, ...(d.kare ? { kare: d.kare } : {}) })) };
+  // Cengo, büroda (kapanışın mekânı ve kıyafetleri): karar satırı + söylenmeyen doğru kanıt.
+  const cengoSatirlar = [
+    ...(r.cengoSatir ? [{ k: "not", m: r.cengoSatir, ekran: "peri+cengo" }] : []),
+    ...(kart ? cengoKanitSatirlari(v.kim_yapti, kart.eksik) : []) ];
+  const cengoSahne = cengoSatirlar.length ? { arka: kp.arka, set: kp.set, cset: kp.cset, figurler: ["peri", "cengo"], satirlar: cengoSatirlar } : null;
+  sahneZinciri([sonucSahne, cengoSahne], dosyaKartiGoster, v.baslik);
 };
+
+function dosyaKartiGoster(){
+  const k = vnDosyaKarti; vnDosyaKarti = null;
+  if(!k){ vnKapanisOynat(); return; }
+  let h = ust() + '<div class="faz ky dosya-karti">';
+  h += `<div class="baslik"><div class="no">${vnHtml(k.baslik)} · Dosya kapandı</div>${k.html || "</div>"}`;
+  if(k.not) h += `<div class="defter-not">${k.not}</div>`;
+  h += `<button class="buton" id="dosyaDevam" onclick="vnKapanisOynat()">Devam →</button>`;
+  if(paylasilabilir(k.vid)) h += `<button class="buton ikincil paylas-dugme" onclick="paylasAc('${k.vid}')">Arkadaşına öner</button>`;
+  h += '</div>';
+  app.innerHTML = h; scrollUst();
+}
 /* ---------- Ödüllü reklam (DENEME) — YENI_OYUN_CERCEVE.md, 16 Ekim 2026 ----------
    Web sayfasında gerçek reklam yok: bu pencere reklamı taklit eder (sayaç, sonra "Ödülü al").
    Android aşamasında reklamGoster'ın içi gerçek ödüllü reklam SDK'sıyla değişir; çağıranlar aynı kalır.
@@ -881,23 +923,11 @@ function kacanIzle(id){
   if((k.izlenen || []).includes(id)) oynat(); else reklamGoster(oynat);
 }
 
-/* Kural 11 istisnası: karar ekranında Cengo'nun tavrı — yön, sayı değil. */
-const CENGO_TAVIR = b => b > 0 ? "Cengo'nun hoşuna gider" : b < 0 ? "Cengo'nun hoşuna gitmez" : "Cengo'yu ilgilendirmez";
 
 /* Cengo bağı ekranda görünmez: sayı, alev, kelime yok (kural kitabı 11). Bağ yalnız
    kapanışın iki hâlinde hissedilir (12a). Eski arayüzün göstergesi bu sayfada boş döner. */
 cengoGosterge = function(){ return ""; };
 
-/* Para yalnız birikir (kural 24–25): ücret + karar parası = kasaya giren. */
-const KY_SONUC_AD = { dogru: "kanıt tam", zayif: "kanıt zayıftı", yanlis: "yanlış kişi suçlandı" };
-function yeniHesapKutusu(e){
-  let h = '<div class="hesap">';
-  h += `<div class="satir gelir"><span>Vaka ücreti<em class="acik" style="color:var(--sonuk)">${KY_SONUC_AD[e.suclama] || ""}</em></span><b>${tl(e.ucret)}</b></div>`;
-  if(e.kararPara) h += `<div class="satir ${e.kararPara > 0 ? "gelir" : "gider"}"><span>Kararın getirdiği</span><b>${tl(e.kararPara)}</b></div>`;
-  h += '<div class="ayrac"></div>';
-  h += `<div class="sonuc-satir"><span>Kasa</span><span>${tl(e.para)}</span></div></div>`;
-  return h;
-}
 let vnKapanis = null;
 function vnKapanisOynat(){
   const k = vnKapanis; vnKapanis = null;
@@ -1030,7 +1060,7 @@ defterZincir = function(){
 
 /* Anı defteri: Peri'nin notunun üstünde vakanın kısa hatırlatması (kisiler.json → ani_ozet; yalnız
    kovalamacadaki itirafın söylediği, o sahne her yolda oynar) ve altında oyuncunun kendi izi:
-   kimi suçladı, hangi kararı verdi, kasaya ne girdi. Suçlama motorun tohumundan
+   kimi suçladı, hangi kararı verdi (kasa yok, 16 Kasım 2026). Suçlama motorun tohumundan
    (`_suclama_<vaka>` = "şüpheli:sonuç"); eski kayıtta yoksa o parça yazılmaz. */
 const ANI_SUCLAMA = { dogru: "kanıt sağlam", zayif: "kanıt zayıf", yanlis: "masumdu" };
 defterAni = function(){
@@ -1051,7 +1081,6 @@ defterAni = function(){
     const sup = ky && ky.supheliler.find(x => x.id === sc[0]);
     if(sup && ANI_SUCLAMA[sc[1]]) iz.push(`Suçladığın: ${vnHtml(sup.ad)} · ${ANI_SUCLAMA[sc[1]]}`);
     if(d) iz.push(`Kararın: «${vnHtml(d.etiket)}»`);
-    if(d && sup && ky.ucret[sc[1]] != null) iz.push(`Kasaya: ${tl(ky.ucret[sc[1]] + (d.para || 0))}`);
     if(!ozet && !not && !iz.length) continue;
     h += `<div class="defter-kayit"><div class="v">${vnHtml(v.baslik)}</div>${
       ozet ? `<div class="ani-ozet">${vnHtml(ozet)}</div>` : ""}${
