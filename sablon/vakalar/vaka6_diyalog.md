@@ -36,7 +36,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Yakan yamuk. Seni ilk kez ütülü görüyorum; gelen çok önemli biri olmalı. {kare: K96}
 **CENGO [yumusak]:** Önemli. Ben ne dersem onayla, Peri. Başka bir şey istemiyorum. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 *Peri masasına dönüyor. Kapı çalınıyor.* {ekran: peri, yuz: peri.kas}
-*Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.* {gir: eylul, gi: sevincli, kare: K120}
+*Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.* {kare: K120}
 **EYLÜL [sevincli]:** Baba! {gir: eylul, kime: cengo, ekran: cengo+eylul, yuz: cengo.yumusak}
 *Kız koşup Cengo'ya sarılıyor. Peri'nin elindeki dergi yere düşüyor.* {kare: K97}
 **PERİ [sasirmis]:** Baba mı? Cengo, senin bir kızın mı var? {kare: K97}

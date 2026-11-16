@@ -6690,13 +6690,7 @@
               "yuz": "peri.kas"
             },
             {"k": "not", "m": "Peri masasına dönüyor. Kapı çalınıyor.", "ekran": "peri", "yuz": "peri.kas"},
-            {
-              "k": "not",
-              "m": "Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.",
-              "gir": "eylul",
-              "gi": "sevincli",
-              "kare": "K120"
-            },
+            {"k": "not", "m": "Eşikte sırt çantalı, kot ceketli, uzun koyu saçlı bir genç kız.", "kare": "K120"},
             {
               "k": "eylul",
               "i": "sevincli",
