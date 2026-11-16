@@ -8,6 +8,14 @@
 
 ---
 
+> ## ⏰ BARBAROS'A HATIRLATMA (16 Kasım 2026): VAKA 6 KAPISI YENİDEN KOŞULACAK
+>
+> Oğuz Bey 16 Kasım'da Vaka 6'da "torba" → "elbise kılıfı" yaptı (`6d466f6`; metin, olgu, ipucu, çıkarım, kanıt adı, form, görsel
+> tablosu) ve Eylül'ün girişini bir satır kaydırdı (`1d80b9b`). Commit'lerde denetim notu yok. Barbaros "sonra yapalım" dedi. Koşulacak:
+> `cd kaynak && node dogrulayici.js yeni`, testler, `node arac_kapi.js V6 resim`, `node arac_sizinti_tur.js V6 40`.
+> Bakılacak: satır uzunluğu (~110 harf), sızıntı (yeni sözcükler), resim–metin uyumu (G73'te fermuarlı gelinlik kılıfı, G74'te bez
+> kese görünüyor — G74 "elbise kılıfı" ile çelişebilir). Koşulunca bu not silinir.
+
 > ## ▶️ OĞUZ BEY — DEVAM ET: ADIM 2, VAKA 7 (Barbaros, 16 Kasım 2026 gece)
 >
 > **Vaka 6 TAMAM.** Adım 1'in metni (Oğuz Bey) ve kod düzeltmesi (Barbaros onayı, etiket yöntemi) birleşti: doğrulayıcı (iki oyun)
