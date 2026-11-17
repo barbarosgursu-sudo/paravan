@@ -4,6 +4,31 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
+> ## ▶️ YENİ PENCERE: BURADAN BAŞLA (17 Kasım 2026)
+> **Durum:** Adım 1 (etiketleme) BİTTİ. Adım 2 (birleştirme) BİTTİ — yalnız sahibinin **41 sorusu** cevap bekliyor:
+> `sablon/kurallar/adim2/SORULAR.md` (her soruda Claude'un önerisi var; sahibi "öneriler tamam" ya da numara + istediği der).
+> **Sıradaki iş, sırayla:**
+> 1. Sahibinden 41 sorunun cevabını al (dosyayı ona gönder ya da hatırlat; uzun anlatma).
+> 2. Cevapları kurallara işle: her `celiski_<KOD>.md` sorusu → ilgili `kural_<KOD>.md` maddesi düzeltilir, haritada `CELISKI-…` hedefi
+>    kural koduna ya da `ESKIDI`'ye çevrilir. Sonra `node sablon/kurallar/adim2/kapsam.js sablon/kurallar/adim2` → `hata: 0` ve
+>    CELISKI sayısı 0 olmalı. Cevap kodu/belgeyi değiştiriyorsa (ör. soru 19–21 doğrulayıcı K19, soru 24 kapı bağlantısı) o iş AYRI:
+>    sahibine söyle, onayla yap (CLAUDE.md "önce konuş").
+> 3. Adım 3: 16 `kural_<KOD>.md` → tek `KURALLAR.md` (konu sırasıyla; kural kodları korunur). Program iki şeyi sayar (§4 Adım 3).
+>    Konular arası tekrarlar (ör. sigara SINIR'da ve ISTEM'de) o sırada birleştirilir; her birleştirme ikinci gözle denetlenir.
+>    Sonra öbür belgelerden kural metinleri çıkarılır, yerine kural kodu konur — **sahibinin onayıyla, en sonda, bir seferde.**
+>    Kırık atıflar (§5) da o sırada düzelir.
+> 4. Adım 4: uygulayıcılar (§4).
+>
+> **Adım 2 nasıl yapıldı (aynı yöntem adım 3'te de kullanılabilir):** 1.725 KURAL satırı (`adim2/KURAL_SATIRLAR.tsv`) iki Claude ile 16
+> konuya ayrıldı (`adim2/KONULAR.md`, `konu.tsv`). Her konu için bir Claude birleştirdi (`TALIMAT_BIRLESTIR.md` → `kural_<KOD>.md`,
+> `harita_<KOD>.tsv` = her kaynak satır → kural kodu / YOK / ESKIDI / CELISKI, `celiski_<KOD>.md`); bağımsız ikinci Claude denetledi
+> (`TALIMAT_DENETIM.md` → `denetim_<KOD>.md`); üçüncüsü sorunları işledi (`TALIMAT_DUZELT.md` → `duzeltme_<KOD>.md`). Program
+> (`kapsam.js`) her satırın haritada ve her hedefin kural dosyasında olduğunu saydı: **687 kural, 17 YOK, 10 ESKIDI, 41 çelişki, hata 0.**
+> ⚠ TALIMAT dosyalarındaki yollar eski pencerenin geçici klasörünü (`/tmp/claude-0/…/scratchpad/b2`) gösterir; yeni pencerede
+> `sablon/kurallar/adim2/` kullan (dosyalar aynı adla orada).
+> Ajanlar kullanım sınırına iki kez takıldı (kaldıkları yerden sürdürüldü); büyük işte ara ara `main`'e kaydet.
+> Sahibi binlerce satırı okuyamaz ("Tamam demekten başka çarem yok"): ona yalnız ayrışan/çelişen yerler, tek cümleyle, önerili gider.
+
 ---
 
 ## 0. Sahibiyle konuşma biçimi (ZORUNLU)
@@ -57,6 +82,8 @@
 | (bu commit) | **Etiket önerisi, bütün ham liste** (sahibinin isteği, 16 Kasım gece: "belge belge değil, ham listeden satır satır"; emin olunmayan satır KURAL sayılır, sahibine yalnız kural olmayanlar gruplu gösterilir). `ETIKET_ONERI.tsv` (her `id` → KURAL / KAYIT / ESKİ OYUN + sebep), `ETIKET_KONTROL.md` (sahibinin okuyacağı gruplu liste). Sayım: 3.585 = 1.611 KURAL + 1.379 KAYIT + 595 ESKİ OYUN; atlanan yok. **Sahibinin onayı bekleniyor**; onaylanınca `ETIKET.tsv` olur. |
 | (bu commit) | **İkinci göz** (sahibi binlerce satırı okuyamaz; 16 Kasım gece onayıyla): bağımsız bir Claude, öneriyi görmeden aynı 3.585 satırı etiketledi (talimat: aynı tanımlar). 207 satırda ayrıştık (114'ünde o KURAL dedi, 93'ünde ben). **Birleştirme kuralı: ikimizden biri KURAL dediyse KURAL** — hiçbir kural kaybolmaz; fazlası adım 2'de (birleştirme) ayıklanır. `ETIKET_ONERI.tsv` son sütun `ikinci_goz` onun etiketi. Sonuç: 1.725 KURAL. **Sahibi onayladı → `ETIKET.tsv`** (sözü: "Tamam demekten başka çarem yok" — binlerce satırı okuyamıyor; adım 2–4 de sahibine satır okutmadan, yalnız ayrışan ya da anlam değiştiren yerler sorularak yürümeli). Kalan risk: ikimizin de kural saymadığı bir kural (iki bağımsız okumada kaçmış olmalı). |
 
+| `1458482`…`46032b2` | **Adım 2** (sahibi "yap" dedi, 16 Kasım gece): konu ataması, 16 konunun birleştirilmesi, bağımsız denetim, düzeltme, kapsam sayımı (687 kural, hata 0), sahibine 41 soru (`adim2/SORULAR.md`). Hepsi `sablon/kurallar/adim2/`. |
+
 **Ham listenin şu anki hâli: 3.585 kayıt, 36 dosya** (yukarıdaki son commit). Bu, iş bitince yapılacak yeniden çıkarmanın
 **karşılaştırma tabanıdır** (bkz. §6).
 
@@ -74,7 +101,7 @@ yeniden yazılmaz, silinmez. Sonra öbür belgeler (öneri sırası: 1. parça, 
 `CLAUDE.md`, 4. parça, 8. parça, TASLAK, RAF/TON/SEZON/ÇERÇEVE, `uretim/AGENTS.md`, `v3_eski`, vaka başlangıçları, OKUBENI'ler,
 doğrulayıcı/veri sözleşmeleri, en son `DEVIR.md` — 445 kaydın çoğu geçmiş).
 
-**Adım 2 — Birleştirme.** KURAL etiketlilerden aynı şeyi söyleyenler yan yana, asıl metinleriyle gösterilir; sahibi "birleşsin"
+**Adım 2 — Birleştirme (BİTTİ 17 Kasım; yalnız 41 soru cevap bekliyor — en üstteki kutu).** KURAL etiketlilerden aynı şeyi söyleyenler yan yana, asıl metinleriyle gösterilir; sahibi "birleşsin"
 derse tek kural olur. **Gruplama yok:** her ayrı kural kendi satırında (taslaktaki hata tekrarlanmaz). Sadeleştirilen metin
 eskisiyle yan yana onaylanır.
 

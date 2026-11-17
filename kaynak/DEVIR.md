@@ -12,7 +12,7 @@
 > **Önce `sablon/kurallar/PLAN.md`'yi baştan sona oku** (neden, sahibiyle anlaşma, yapılanlar, plan, bulgular, bekleyen sorular).
 > Kısaca: kurallar 34 belgeye dağılmış ve çoğu kendiliğinden uygulanmıyor (G4 Süheyla = V6 Jale bu yüzden geçti). Ham liste
 > çıkarıldı (`sablon/kurallar/HAM.md`, 3.585 kayıt), eski oyunun 18 belgesi `arsiv/`'e taşındı, `kaynak/OKUBENI.md` bölündü.
-> **Sıradaki adım: etiketleme, kural kitabından başlayarak** (PLAN §4). Sahibiyle en basit, en kısa Türkçe. Oğuz Bey etkilenmez.
+> **Durum (17 Kasım):** adım 1 (etiketleme) ve adım 2 (birleştirme, 687 kural) bitti; sahibinin 41 sorusu bekliyor (`sablon/kurallar/adim2/SORULAR.md`). **PLAN.md en üstteki kutudan devam.** Sahibiyle en basit, en kısa Türkçe. Oğuz Bey etkilenmez.
 
 > ## 🛑 OĞUZ BEY'E — VAKA 7 RESİMLERİ DURSUN (Barbaros, 16 Kasım 2026 gece). ÖNCE BARBAROS'LA PERİ'NİN KIYAFETİ KONUŞULACAK.
 >
