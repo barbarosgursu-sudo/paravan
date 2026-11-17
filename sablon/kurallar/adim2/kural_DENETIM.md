@@ -106,7 +106,7 @@ Karakter sabitleri görünüyorsa her resimde denetlenir, uymazsa ret. Örnek: P
 *Kaynak:* 466, 1118, 1305, 1509, 1510
 
 ### DENETIM-21 Yüz yönü ve bakış
-Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun yönü: Vaka 3 metni "istemin dediği yöne; kalıp 'burun kadrajın soluna'" der, bugünkü `uretim/CLAUDE.md` koşulsuz "burun kadrajın soluna" der — bkz. CELISKI-DENETIM-3. Kontrol listesinde: "Bakış yönü doğru mu?" Sebep: G4 ilk geldiğinde neredeyse profildi (uzaktaki göz burun kemerinin arkasında kalmıştı); G50'de Peri'nin yüzü profile yakındı ve gözlük gözüne inmişti — afişteki yüzle tanındığı için onaylandı ve sahibine bildirildi.
+Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun **her resimde** kadrajın soluna bakar (koşulsuz; Vaka 3'teki "istemin dediği yöne" koşulu kalktı — sahibinin kararı, 17 Kasım 2026, çelişki sorusu 5). Kontrol listesinde: "Bakış yönü doğru mu?" Sebep: G4 ilk geldiğinde neredeyse profildi (uzaktaki göz burun kemerinin arkasında kalmıştı); G50'de Peri'nin yüzü profile yakındı ve gözlük gözüne inmişti — afişteki yüzle tanındığı için onaylandı ve sahibine bildirildi.
 *Kaynak:* 463, 1119, 1308, 1511
 
 ### DENETIM-22 Eller ve kollar (göz)
@@ -202,8 +202,11 @@ Temeller önce (sahibi, 8 Kasım 2026): her vakada üretim temellerle başlar �
 *Kaynak:* 1090
 
 ### DENETIM-42 Filtreye iki kez takılan resim web listesine
-Döngü sırasında iki kez güvenlik filtresine takılan resim (`## ENGELLENDİ`) `WEB_LISTESI.md`'ye yazılır, döngü sürer; sahibi web ChatGPT'de üretir. (Üçüncü kez reddedilecek ve emin olunamayan resimde ne yapılacağı çelişkili: bkz. CELISKI-DENETIM-1.)
-*Kaynak:* 1091, 1093, 1273
+Döngü sırasında iki kez güvenlik filtresine takılan resim (`## ENGELLENDİ`) `WEB_LISTESI.md`'ye yazılır, döngü sürer; sahibi web ChatGPT'de üretir.
+- Temel olmayan bir resim **3. kez reddedilecekse** (son düzeltme notuyla) ya da onaylamaktan **emin olunamıyorsa** (kuşkusuyla) yine
+  `WEB_LISTESI.md`'ye yazılır; döngü durmaz, sahibine sorulmaz, sonda tek listede verilir. (Vaka 3'teki "dur, sahibine sor" düzeni kalktı —
+  sahibinin kararı, 17 Kasım 2026, çelişki sorusu 3. Temel için DENETIM-41: o an sahibine.)
+*Kaynak:* 1091, 1092, 1093, 1094, 1273
 
 ### DENETIM-43 Web paketi
 Web'e giden resim için sahibine her resmin istemi (tam metin) ve referansları, sırayla ve tam yollarıyla verilir (Vaka 3 G64'te böyle yapıldı); döngü sonunda TEK seferde (takılan temel için DENETIM-41: o an). Paket dosyası `v<N>/WEB_G<n>.md`; yollar Windows biçiminde tam yol. **Zemin rengi resim olarak verilir** (13 Kasım 2026, sahibi: "web'de üretilen resimler kolay kesilsin"): figür ve kart paketlerine EN SONA o resmin zemininin düz renk örneği eklenir ve istemin zemin satırına şu cümle konur: "Arka plan rengi son referanstaki düz renk ile BİREBİR aynı (<HEX>); başka ton, geçiş ya da gölge yok." Örnekler (`uretim/referanslar/`, renkler V6 onaylı resimlerinden ölçüldü): `zemin_gri_mavi.png` #778393 · `zemin_acik_bej.png` #F0E8D9 · `zemin_acik_gri.png` #D4D4D4 (kıyafet kartı). Sahibi web ChatGPT'de üretip `uretilen/G<n>.png` olarak koyar; Claude denetler.
@@ -218,7 +221,7 @@ ChatGPT'nin reddettiği resim Grok'ta orijinal istemle denenir; Grok da reddeder
 *Kaynak:* 3059
 
 ### DENETIM-46 Sondaki rapor
-Sonda sahibine kısa tablo: onaylanan / reddedilen (nedeni) / Codex'te ENGELLENDİ yazan (`## ENGELLENDİ`) ve yolu **web** olup henüz gelmeyen → "bunları web'de yap". Sahibi "ne kaldı" diye sorduğunda bağımlılık zinciri gösterilir: hangi resim hangi onayı bekliyor. (Sondaki "Codex'e `üret` yaz" cümlesi için bkz. CELISKI-DENETIM-2.)
+Sonda sahibine kısa tablo: onaylanan / reddedilen (nedeni) / Codex'te ENGELLENDİ yazan (`## ENGELLENDİ`) ve yolu **web** olup henüz gelmeyen → "bunları web'de yap". Sahibi "ne kaldı" diye sorduğunda bağımlılık zinciri gösterilir: hangi resim hangi onayı bekliyor. Raporun sonunda "Codex'e `üret` yaz" denmez — o Vaka 3'ün elle düzeniydi, döngüde kalktı (17 Kasım 2026, çelişki sorusu 4).
 *Kaynak:* 1338, 1521
 
 ### DENETIM-47 Vaka sonunda sayım

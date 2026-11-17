@@ -8,6 +8,8 @@ Bedava vaka sayısı.
 
 **Soru:** Sezon belgesindeki "gerekirse 3. vaka da bedava" seçeneği, rafın sabit "ilk iki vaka reklamsız" sözüyle kalktı mı?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 25):** Kalksın. Rafın sözü sabit: ilk iki vaka reklamsız. İşlendi.
+
 ### CELISKI-RAF-2
 Yeni vaka gelince tek seferlik kart.
 - **Taraf A** — `RAF_KARARLARI.md` §9 (1640): güncellemeden sonraki ilk açılışta bir kez küçük kart ("Rafa yeni bir kitap geldi"); **yalnız yeni kitap/sezon için**.
@@ -15,3 +17,5 @@ Yeni vaka gelince tek seferlik kart.
 - İkisi aynı belgede; hiçbiri ötekinin yerine geçtiğini söylemiyor.
 
 **Soru:** Yeni vaka gelince (yeni kitap ya da sezon değilken) tek seferlik kart çıkar mı?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 26):** Evet. İşlendi.

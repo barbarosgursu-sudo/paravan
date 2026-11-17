@@ -8,7 +8,11 @@
 - **Soru:** Cengo'nun her istemde yazılacak sabiti "haki ceket" mi olsun, yoksa ceket her vakanın kıyafetine bırakılıp sabitte yalnız bileklik mi kalsın?
 - **Ek soru (kapsam):** Ton belgesindeki kıyafet (ceket, gömlek, kot, kravat) Vaka 1'in temel kıyafeti mi, her vakada değişen mi; "görünüşü sabittir" yalnız yüz, saç, tel ve bileklik için mi?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 17):** Yüz, saç, tel ve bileklik aynı kalır. Ceket ve öbür kıyafetler her vakada değişir; "haki ceket" yalnız o vakanın kıyafetiydi. İşlendi.
+
 ### CELISKI-KAR-2
 - **Taraf A:** Ton belgesi (taslak) Cengo'nun kurulumu: "Neden hâlâ Peri'nin yanında olduğunu kimse bilmiyor." — *Kaynak:* 1737
 - **Taraf B:** Kanon kaydı: avukat onu Paravan'ın bordrosuna yazmış, maaş kesilince büroya geldi; "alacağı" var, gitmiyor. — *Kaynak:* 241
 - **Soru:** "Neden yanında olduğu bilinmiyor" kuralı düştü mü (kanondaki "alacağı var" sebep yeterli mi), yoksa alacağın ötesinde bilinmeyen bir sebep mi kalmalı?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 18):** Kalksın. Kanonda sebebi yazılı: alacağı var. İşlendi.

@@ -6,5 +6,7 @@
 - Not: Ton belgesinin başı §9–11 dışını "öneri, kanon değil" diye niteliyor ve B daha yeni tarihli; ama hiçbir metin A'nın yerine geçtiğini açıkça söylemiyor.
 - **Soru:** Ton belgesindeki "bir replik bir satırı geçiyorsa bölünür" kuralı kural 5 ile (4 satır/~110 harf) kalktı sayılıp belgeden silinsin mi?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 33):** Anlaşılır replik (senin 17 Ekim kararın). "Kısa replik" kalkar. İşlendi.
+
 ## Not (resmî çelişki değil)
 1801 (görsel ton: "gece ve yağmur değil, gün ışığı ve kalabalık") ile CLAUDE.md'nin ilk satırındaki "İstanbul-Noir" tanımı ters düşüyor gibi; o satır konu dosyamda yok, yalnız bilgi için.

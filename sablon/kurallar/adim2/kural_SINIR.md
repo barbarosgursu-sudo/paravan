@@ -17,7 +17,7 @@ Peri seksi ve çekicidir; eski bir güzellik kraliçesi olduğu için güzel ve 
 - **Hedef:** Google Play'in izin verdiği ve görsel üreticilerin üretebildiği en yüksek seviye. ChatGPT reddederse Grok denenir.
 - **Bedeli:** Play yaş sınıflandırması büyük ihtimalle 16+ olur (yasak değil, kitle daralır).
 - Sınırı SINIR-6 ve SINIR-7'dir.
-- 4 Ekim kuralının ayrıntıları (kapalı yakada üst düğmeler açık, iç bluz aynı derinlikte; her Peri istemine bu satır) bu kuralda yok; kalıp kalmayacağı açık soru: CELISKI-SINIR-1.
+- Kapalı yakalı parça (tayyör, kazak, gömlek) yazılsa bile Peri'nin **üst düğmeleri açık**, iç bluz aynı derinlikte çizilir; bu satır her Peri istemine yazılır (4 Ekim kuralının bu ayrıntısı sürer; "dekolte asla azaltılmaz" ile uyumlu — ISTEM-21) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 32).
 *Kaynak:* 191, 1859, 1860, 1861, 1863
 
 ### SINIR-4 Peri her zaman en seksi kadın

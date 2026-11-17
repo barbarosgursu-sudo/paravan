@@ -4,3 +4,5 @@
   Yeni düzenin "Yapma" listesi (1150) yalnız istem metnini değiştirmeyi yasaklıyor, `referanslar/`'ı anmıyor.
 - Yeni belge eski Vaka 3 belgesini "geçmiş ve gerekçeler" diye anıyor ama bu yasağı açıkça kaldırmıyor.
 - Soru: Eski Vaka 3'teki "yerel Claude `referanslar/`'a dokunmaz" yasağı kalktı mı, yoksa baş kırpığı hazırlamak dışında (ör. var olan referansı değiştirmemek) hâlâ geçerli mi?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 2):** Evet, baş kırpığını koyar. Var olan dosyayı değiştirmez. İşlendi.

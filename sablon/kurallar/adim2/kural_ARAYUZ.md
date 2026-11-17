@@ -64,13 +64,15 @@ Aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir (`yeni_aray
 *Kaynak:* 2769
 
 ### ARAYUZ-16 Figür yerleşimi
-- Ekranda en çok iki figür: Peri ve bir konuk. Peri solda, sağda **tek** konuk (Cengo ya da konuk — sahnede olan ve en son konuşan). Üç kişilik sahnede sağdaki kişi değişir. (Bu düzen `ekran` etiketli vakalarda (V6, V7) ARAYUZ-17'deki kayıtla tutmuyor — orada Peri'siz iki konuk karşılıklı durabiliyor, Cengo konukla solda durabiliyor: bkz. CELISKI-ARAYUZ-1.)
+- Ekranda en çok iki figür.
+- **Eski `kime` düzeni (V1–V5):** Peri solda, sağda **tek** konuk (Cengo ya da konuk — sahnede olan ve en son konuşan); üç kişilik sahnede sağdaki kişi değişir. Bu düzen yalnız V1–V5'e aittir.
+- **`ekran` düzeni (V6'dan beri):** ARAYUZ-17 geçerli — Peri'siz iki konuk karşılıklı durabilir, Cengo konukla solda durabilir. (Sahibinin kararı, 17 Kasım 2026, çelişki sorusu 1.)
 - Konuşan aydınlanır, dinleyen kararır.
 - Sahnede tek kişi varken ortada durur; ikinci kişi gelince kaymadan, anında yanlara geçer (`yeni_arayuz.js/.css`, `.vn-figurler.tek`; `f8dfc4e`, 14 Kasım 2026).
 *Kaynak:* 286, 304, 2410, 2779
 
 ### ARAYUZ-17 Karşılıklı konuşmada yerler sabit
-Aynı iki kişi bir önceki satırda da ekrandaysa yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js` (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G; `86db39d`. Yalnız `ekran` etiketli vakalara (V6, V7) uyar (ARAYUZ-16 ile ilişkisi: CELISKI-ARAYUZ-1). Sebep: V6 girişinde Gizem ↔ Eylül her satırda yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). (Sahibinin kararı, 16 Kasım 2026.)
+Aynı iki kişi bir önceki satırda da ekrandaysa yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js` (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G; `86db39d`. `ekran` etiketli vakalara (V6'dan beri) uyar; eski "Peri solda, sağda tek konuk" düzeni yalnız V1–V5'indir (ARAYUZ-16; 17 Kasım 2026). Sebep: V6 girişinde Gizem ↔ Eylül her satırda yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). (Sahibinin kararı, 16 Kasım 2026.)
 - V6 tarandı: bu türden başka yer kalmadı.
 - Kalan taraf değiştirmeler (Cengo konukla solda, Peri konuşunca sağda; tek görünen konuk karşısına biri gelince sola) sahibince sorunsuz bulundu, **dokunulmayacak**.
 - V1–V5'teki iki örnek (V4: Rana ↔ Feraye, Feraye ↔ Sadık; eski `kime` düzeni) **bilerek düzeltilmedi**; o vakalar yeni kurallara göre yeniden geçirilecek.

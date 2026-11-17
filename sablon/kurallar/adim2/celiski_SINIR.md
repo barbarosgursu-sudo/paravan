@@ -8,3 +8,5 @@
   açıkça değişti; ama düğme ve "her isteme bu satır" ayrıntıları ne açıkça iptal edildi ne yeni kurala alındı. (No 3119, ISTEM: "Peri'nin
   dekoltesi asla azaltılmaz" hâlâ duruyor.)
 - **Soru:** Kapalı yakalı kıyafette üst düğmelerin açık çizilmesi ve bunun her Peri istemine yazılması kuralı hâlâ geçerli mi?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 32):** Evet. "Dekolte asla azaltılmaz" kuralıyla uyumlu. İşlendi.

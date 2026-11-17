@@ -7,6 +7,8 @@ Güvenlik filtresinin asıl sebebi ne, ve riskli karede "seksi" yazılır mı?
 Hiçbiri öbürünün yerine geçtiğini söylemiyor (farklı üreticilerde bulunmuş olabilir).
 **Soru:** Riskli (felaket/komedi) Peri karesinde "seksi" sözcüğü yazılsın mı, yoksa Ekim'deki gibi çıkarılıp "aile dostu" çerçeve mi kullanılsın?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 9):** Evet, yazılır. Filtrenin asıl sebebi referanstaki dekolte, kelime değil (Vaka 3 deneyi). İşlendi.
+
 ### CELISKI-ISTEM-2
 Kıyafet istemde sözle tarif edilir mi?
 - **A (SR-C ve kıyafet kartı, 8 Kasım 2026, sahibinin kararı):** kıyafeti istemde sözle yeniden tarif etmek yasak; kart referans verilir, yalnız "kart nasılsa öyle" ve o satırın hâli (açık/kapalı, lekeli) yazılır. Gerekçe: istem "kısa trençkot" dedi, bir kare uzun çizdi; sahibi uzunu seçti, bütün set yenilendi. — no 379, 557 (ayrıca ISTEM_KALIPLARI §10 "Kıyafet: sözle tarif yok")
@@ -14,11 +16,15 @@ Kıyafet istemde sözle tarif edilir mi?
 Not: referanslar dekoltesiz olmak zorunda ve kart "V yakalı" hafif dekolteyle çiziliyor; bu yüzden B'nin dekolte gerekçesi kart düzeninde de geçerli olabilir. Karakter sabitlerinin (kırmızı stiletto, çorap yok) her istemde yazılması H6'da A ile aynı belgede duruyor; çelişki tam kıyafet tarifinde.
 **Soru:** Kartı referans alan figür/kare isteminde kıyafet yalnız "kart nasılsa öyle" diye mi geçsin, yoksa ayrıntıları (özellikle kartta hafif yazılan dekolte) yine sözle de yazılsın mı?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 10):** Hayır, kart referans verilir. Yalnız kartta görünmeyen dekolte derinliği ve o satırın hâli (açık, lekeli) yazılır. İşlendi.
+
 ### CELISKI-ISTEM-3
 Konuk figürünün oranı.
 - **A (5_gorsel_sistemi A tablosu):** Figür boyutu: Peri ve Cengo 1122×1402 (4:5), **konuk 1086×1448** (3:4). — no 346
 - **B (H1, 6 Kasım 2026, "herkes için aynı"; oran satırı 9 Ekim):** figür 4:5 dikey, istemin oran satırı her figürde "TAM 4:5, dikey (1122×1402)". — no 502, 441
 **Soru:** Konuk figürü de 4:5 (1122×1402) mi üretilir ve A tablosundaki "konuk 1086×1448" düzeltilsin mi?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 11):** 4:5, herkesle aynı. Eski tablodaki konuk ölçüsü düzeltilir. İşlendi.
 
 ### CELISKI-ISTEM-4
 Açılıp kapanan kıyafetin kartı.
@@ -27,6 +33,8 @@ Açılıp kapanan kıyafetin kartı.
 B daha yeni ve gerekçeli, ama A'nın yerine geçtiğini açıkça yazmıyor; ikisi aynı belgede (5_gorsel_sistemi I) yan yana duruyor.
 **Soru:** I bölümündeki "iki hâli aynı kartta yan yana" maddesi kalksın ve yerine "iki hâl iki ayrı kart" mı yazılsın?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 12):** İki ayrı kart (13 Kasım kararı). İşlendi.
+
 ### CELISKI-ISTEM-5
 Konuk kıyafet kartı kimlere üretilir?
 - **A (5_gorsel_sistemi I, 8 Kasım 2026, sahibinin kararı; SR-C):** ilk figürden önce vakadaki her kıyafet için kart: "Peri, Cengo ve her konuğun kıyafeti." — no 553
@@ -34,11 +42,15 @@ Konuk kıyafet kartı kimlere üretilir?
 B yalnız Vaka 6 için verilmiş bir cevap; A'nın genel kuralını değiştirdiğini söylemiyor.
 **Soru:** Konuk kıyafet kartı sonraki vakalarda da yalnız karede görünen konuklara mı üretilsin, yoksa genel kural "her konuğun kıyafeti" mi kalsın?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 13):** Her konuğa (genel kural). Vaka 6'daki "yalnız karedekiler" o vakanın kotasıydı. İşlendi.
+
 ### CELISKI-ISTEM-6
 Varyantın 1. referansı dekoltesiz temelde ne?
 - **A (uretim/CLAUDE.md, `istemleri hazırla`):** "Varyantta referans = onaylı temelin baş kırpığı + kapalı gövde. Onaylı temel dekolteliyse bütün hâliyle referans verilmez." Koşulsuz okunursa dekoltesiz temelde de baş kırpığı. — no 1064
 - **B (ISTEM_KALIPLARI §5):** "1. `onayli/G<temel>.png` (dekolteliyse baş kırpığı + kapalı gövde)" — dekoltesizse bütün temel görsel. — no 1197
 **Soru:** Dekoltesiz bir temelin varyantında 1. referans bütün onaylı temel mi, yoksa yine baş kırpığı + kapalı gövde mi?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 14):** Evet, bütün resim. Baş kırpığı yalnız dekolteli temelde kullanılır. İşlendi.
 
 ### CELISKI-ISTEM-7
 Peri'nin bacağında çorap.
@@ -47,8 +59,12 @@ Peri'nin bacağında çorap.
 B daha yeni, ama A'yı iptal ettiğini ya da A'nın artık yalnız başka kadınlara uygulandığını açıkça söylemiyor.
 **Soru:** "Bacak görünen her kadına külotlu çorap" kuralı Peri dışındaki kadınlar için mi geçerli, yoksa kalktı mı?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 15):** Hayır, Peri'de çorap yok. Kural öbür kadınlar için kalır. İşlendi.
+
 ### CELISKI-ISTEM-8
 Figür zemininin rengi.
 - **A (5_gorsel_sistemi A tablosu):** Figür: "karakter, düz bej zemin". — no 346
 - **B (H4 ve istem_kontrol.sh, 6–7 ve 14 Kasım 2026):** zemin kıyafete ve saça göre `arac_zemin.py` ile seçilir, `zemin.tsv`'ye yazılır, renk adları `zeminler.tsv`'den (ör. kızıl/açık saç → gri-mavi); yalnız yeni konuk temelinin varsayılanı "açık bej". — no 540, 2967, 3569
 **Soru:** A tablosundaki "düz bej zemin" "düz tek renk zemin (renk H4'e göre)" diye düzeltilsin mi?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 16):** Hayır, zemin kıyafete göre programla seçilir. Eski "bej" yazısı düzeltilir. İşlendi.

@@ -61,7 +61,7 @@
 164	YAPI-36	
 165	YAPI-29	
 166	YAPI-9	
-204	YAPI-15,CELISKI-3	1822 ile çelişki (bedel/yalnız espri) CELISKI-3'e ayrıldı.
+204	YAPI-15	1822 ile çelişki (bedel/yalnız espri) CELISKI-3'e ayrıldı.
 205	YAPI-38	
 206	YAPI-23	
 207	YAPI-24	
@@ -122,15 +122,15 @@
 709	YAPI-12	
 710	YAPI-17	
 932	YAPI-38	
-980	YAPI-46,CELISKI-4	Taslak (12 Kasım, kasa kalkmadan önce); para ölçütü 212/2773 karşısında CELISKI-4.
+980	YAPI-46	Taslak (12 Kasım, kasa kalkmadan önce); para ölçütü 212/2773 karşısında CELISKI-4.
 1017	YAPI-11	
 1018	YAPI-12	
 1019	YAPI-11	
 1698	YAPI-41	
 1703	YAPI-41	
 1704	YAPI-39,YAPI-42	
-1705	YAPI-42,CELISKI-1	Örnekteki "kasaya bir şey girmedi" kasa kalktıktan sonra → CELISKI-1.
-1706	YAPI-42,CELISKI-1	"kasa dolu/boş" değişkeni → CELISKI-1.
+1705	YAPI-42	Örnekteki "kasaya bir şey girmedi" kasa kalktıktan sonra → CELISKI-1.
+1706	YAPI-42	"kasa dolu/boş" değişkeni → CELISKI-1.
 1724	YAPI-36,YAPI-37,YAPI-38,YAPI-45	Listedeki Nurcan kuralı BILGI konusunda; diğerleri YAPI-36,37,38,45.
 1792	YAPI-40	
 1793	YAPI-38	
@@ -138,9 +138,9 @@
 1795	YAPI-40	
 1807	YAPI-36	
 1810	YOK	Yalnız başlık ("Sayıların kuralları"); maddelerinden 1815 → YAPI-33/34.
-1815	YAPI-33,YAPI-34,CELISKI-2	Ay sonu gideri (35.000 ₺) kasa kalktıktan sonra yaşıyor mu belirsiz → CELISKI-2.
+1815	YAPI-33,YAPI-34	Ay sonu gideri (35.000 ₺) kasa kalktıktan sonra yaşıyor mu belirsiz → CELISKI-2.
 1816	YAPI-36,YAPI-37	
-1822	YAPI-15,CELISKI-3	"Cengo'nun teli hep bir bedel taşır" — 204'teki "yalnız espri" ile çelişki CELISKI-3'e ayrıldı.
+1822	YAPI-15	"Cengo'nun teli hep bir bedel taşır" — 204'teki "yalnız espri" ile çelişki CELISKI-3'e ayrıldı.
 1856	YAPI-3	
 1865	YAPI-20	
 1868	YAPI-20	

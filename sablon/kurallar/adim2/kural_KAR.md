@@ -44,13 +44,13 @@ Sahibinin kararı, 10 Ekim 2026. Eski güzellik kraliçesi olduğu için vakadak
 ### KAR-7 Cengo'nun kişiliği
 - **Cengo 34 yaşında** (sahibinin kararı, 4 Ekim 2026; eski oyunda 38).
 - **Özü: içgüdü.** Plan yapmaz, kokuyu alır. Haklı çıktığı kadar yanılır; yanıldığında bile ayağa kalkmanın bir yolunu bulur.
-- Serseri ruhlu, sokağı bilen, pervasız, beş parasız. (Neden hâlâ Peri'nin yanında olduğu konusu: bkz. CELISKI-KAR-2.)
+- Serseri ruhlu, sokağı bilen, pervasız, beş parasız. Peri'nin yanında olmasının sebebi kanonda yazılı: alacağı var (KAR-28); eski taslaktaki "neden yanında olduğunu kimse bilmiyor" sözü kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 18).
 - **Her şeyin bir "adamı" var:** çilingir, kâtip, balıkçı, eski bir bilardo rakibi. Adamların yarısı ona borçlu, yarısına o borçlu; hangisi hangisi, kendisi de unutmuş.
 - **Lafla girer, lafla çıkar:** yakalandığı her yerde bir hikâyesi hazır; hikâyeler giderek saçmalaşır ve bazen tutar.
 - **Kendini fazla beğenir:** "Bende bir his var" diye başlayan her cümle oyuncuyu tedirgin etmeli.
 - **Güçlü yanı: insanlar ona açılır.** Peri'nin kapısı kapalı kalan yerde Cengo çay içip çıkar.
 - **Asla soytarı olmaz.** Esprisi bir zırhtır; altında bir şey olduğunu oyuncu arada bir görür, Cengo hemen kapatır.
-- Görünüşü sabittir (KAR-24; kıyafetin bu sabite girip girmediği için bkz. CELISKI-KAR-1).
+- Görünüşünde sabit olan: yüz, saç, tel ve bileklik (KAR-24). Ceket ve öbür kıyafetler her vakada değişir (KAR-22) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17).
 - Geçmişi: eski oyundaki hapis sırrı (bir kadının yerine hapis yatması) **kalktı** (sahibinin kararı, 4 Ekim 2026). Yerine yeni, hafif bir sır: tek bir vakada açılır, hüzünlüdür ama yıkıcı değildir, sonra ton geri gelir. Sır: uzaktaki kızı (KAR-29).
 *Kaynak:* 182, 1736, 1739, 1740, 1741, 1742, 1743, 1838, 1840
 
@@ -128,12 +128,12 @@ Bağ küçük adımlarla (±1/±2) değişir — yavaş, inandırıcı birikim. 
 ## Görünüş (metin tarafı)
 
 ### KAR-22 Her vakada yeni kıyafet
-Peri ve Cengo her vakada yeni kıyafet giyer. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (kural 15a); çekicilik anı burada olur. Cengo'nun sabit görünüşüyle ilişkisi için bkz. CELISKI-KAR-1.
+Peri ve Cengo her vakada yeni kıyafet giyer. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (kural 15a); çekicilik anı burada olur. Cengo'da sabit kalan yalnız yüz, saç, tel ve bileklik; ceket dahil kıyafet değişir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17).
 *Kaynak:* 193, 102
 
 ### KAR-23 Karakter sabitleri (her istemde yazılır, her denetimde aranır)
 - Peri: kırmızı stiletto (görünüyorsa HER resimde), çorap yok — istisna: vakanın formu başka ayakkabı yazıyorsa o (Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı).
-- Cengo: renkli boncuklu bileklik; ceket için bkz. CELISKI-KAR-1 (`uretim/CLAUDE.md` "haki ceket" yazıyor).
+- Cengo: renkli boncuklu bileklik. Ceket sabit değil — `uretim/CLAUDE.md`'deki "haki ceket" yalnız Vaka 3'ün kıyafetiydi; ceket vakanın formundan gelir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17).
 - Ferruh: kalem gibi ince bıyık, bordo papyon.
 - Gizem: bal rengi kâküllü saç, çil.
 - Müzeyyen (V6): kısa kül sarısı mizanpli saç, ince uzun, lacivert puantiyeli elbise + ince lacivert hırka, inci kolye, gözlük yok.
@@ -146,11 +146,11 @@ Yeni vakada yeni karakter bu tabloya (`uretim/CLAUDE.md`) sahibinin onayıyla ek
 *Kaynak:* 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1497, 1498, 1499
 
 ### KAR-24 Cengo'nun görünüşü
-Sahibinin kararı, 5 Ekim 2026. Mavi Ay'daki David'in tarzının **ruhu** alınır, ayrıntısı Cengo'nun (Ton §10). Kıyafet maddeleri (ceket, gömlek, kot, kravat) için bkz. CELISKI-KAR-1:
-- Bitpazarından, bir beden büyük, buruşuk **açık kahverengi takım ceketi**; kolları dirseğe kadar sıvalı (bkz. CELISKI-KAR-1).
-- **Beyaz gömlek**, üst iki düğmesi açık, yakası yamuk (bkz. CELISKI-KAR-1).
-- **Koyu kot** — takımın pantolonu değil; uyumsuzluk kasıtlı (bkz. CELISKI-KAR-1).
-- **Kravatı takmıyor ama atmıyor:** koyu bordo, ucu ceketin cebinden sarkıyor ("Gerekirse takarım.") (bkz. CELISKI-KAR-1).
+Sahibinin kararı, 5 Ekim 2026. Mavi Ay'daki David'in tarzının **ruhu** alınır, ayrıntısı Cengo'nun (Ton §10). Kıyafet maddeleri (ceket, gömlek, kot, kravat) ilk tariftir ve **her vakada değişir**; sabit kalan yüz, saç, tel ve bileklik (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17):
+- Bitpazarından, bir beden büyük, buruşuk **açık kahverengi takım ceketi**; kolları dirseğe kadar sıvalı
+- **Beyaz gömlek**, üst iki düğmesi açık, yakası yamuk
+- **Koyu kot** — takımın pantolonu değil; uyumsuzluk kasıtlı
+- **Kravatı takmıyor ama atmıyor:** koyu bordo, ucu ceketin cebinden sarkıyor ("Gerekirse takarım.")
 - **Tel:** göğüs cebinden telin ucu görünür (açılıştaki kilit; kapanışta teli Peri'ye verir, cebinde hep yenisi olur).
 - **Bileklik:** bileğinde renkli boncuklu, ucuz bir bileklik — kızının (Eylül yedi yaşındayken yaptı; Vaka 6, 12 Kasım 2026). Vaka 6'ya kadar kimse sormaz, açıklanmaz. Boncuklarda harf yok.
 - Siyah, dağınık, hafif kıvırcık saç; iki üç günlük sakal; kalın kaşlar, koyu kahve gözler; hınzır yarım gülümseme. Peri'den yarım baş uzun.

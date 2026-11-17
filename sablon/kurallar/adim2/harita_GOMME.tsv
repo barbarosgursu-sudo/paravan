@@ -1,20 +1,20 @@
-27	GOMME-1,GOMME-2,CELISKI-3	
+27	GOMME-1,GOMME-2	
 28	GOMME-6,GOMME-5	
 69	GOMME-11	eski oyunun hattı
 348	GOMME-10	
 475	GOMME-1	
 476	GOMME-3	
 477	GOMME-4	
-478	GOMME-4,CELISKI-1	YZ kesimi kol arası zemini siler; elle temizlik adımının geçerliliği soruldu
+478	GOMME-4	YZ kesimi kol arası zemini siler; elle temizlik adımının geçerliliği soruldu
 479	GOMME-9	
-480	GOMME-5,CELISKI-1	'kesim aracı hale bırakır' öncülü eski renk kesimine ait; soruldu
+480	GOMME-5	'kesim aracı hale bırakır' öncülü eski renk kesimine ait; soruldu
 481	GOMME-2	profiller eski renk kesimine ait; arac_kes.js yalnız karşılaştırma için kaldığından kayıt olarak korundu
 482	GOMME-2	aynı
 483	GOMME-2	aynı
 484	GOMME-3	
-485	GOMME-5,CELISKI-1	yöntem renk kesimi dönemine ait; soruldu
+485	GOMME-5	yöntem renk kesimi dönemine ait; soruldu
 486	GOMME-15	
-487	GOMME-13,CELISKI-2	0.76-0.82 / 0.72 aralığı tabloyla çelişiyor
+487	GOMME-13	0.76-0.82 / 0.72 aralığı tabloyla çelişiyor
 488	GOMME-14	
 489	GOMME-12	
 490	GOMME-21	
@@ -53,30 +53,30 @@
 538	GOMME-18	
 539	GOMME-18	
 541	GOMME-19	
-542	GOMME-20,CELISKI-3	dar profil ayrımının YZ kesiminde geçerliliği soruldu
+542	GOMME-20	dar profil ayrımının YZ kesiminde geçerliliği soruldu
 543	GOMME-19,GOMME-2	arac_kes.js ile kesme ve gömmede arac_hale.py kısmı 1144 ile eskidi (artık kullanılmaz); arac_hale.py eşik notu GOMME-2'de kayıt
 544	GOMME-20	
 728	GOMME-7	
 730	GOMME-6	
-1084	GOMME-16,GOMME-17,GOMME-18,GOMME-19,GOMME-20,CELISKI-3	"Kesim profilini de araç basar" kısmı CELISKI-3
+1084	GOMME-16,GOMME-17,GOMME-18,GOMME-19,GOMME-20	"Kesim profilini de araç basar" kısmı CELISKI-3
 1140	GOMME-8	
 1141	GOMME-8	
 1142	GOMME-8	
 1143	GOMME-8	
-1144	GOMME-1,GOMME-2,CELISKI-3	
+1144	GOMME-1,GOMME-2	
 1145	GOMME-28	
 1146	GOMME-8,GOMME-21,GOMME-12	
 1200	ESKIDI	saç rengine göre zemin (kızıl/açık/beyaz giysi→gri-mavi, koyu→bej) ve her temelde iki zeminle deneme; 536 ('14 Kasım 2026'dan beri kıyafete göre yazılımla… tablo yalnız tarihî kayıt') ve 539 ('Eskiden her temel iki zeminle üretiliyordu; şimdi yalnız gerektiğinde') ile eskidi. 'Yeşil kullanılmaz' GOMME-16'da
-2531	GOMME-5,CELISKI-1	
+2531	GOMME-5	
 2532	GOMME-7,GOMME-13	
-2545	GOMME-7,GOMME-5,CELISKI-1	
+2545	GOMME-7,GOMME-5	
 2551	GOMME-7	
 2580	GOMME-12	
 2793	GOMME-1	
 3001	GOMME-21,GOMME-23,GOMME-25	'Yalnız main'e push' git kuralı; bu konu dışı, CLAUDE.md'de duruyor (SUREC)
 3036	GOMME-13	
 3049	GOMME-2	Vaka 2 arşivi; renk kesimi iş akışı, kayıt olarak korundu
-3052	GOMME-5,GOMME-13,CELISKI-1,CELISKI-2	
+3052	GOMME-5,GOMME-13	
 3074	GOMME-5,GOMME-6,GOMME-2	
 3085	GOMME-6	
 3551	GOMME-1	

@@ -327,11 +327,11 @@ Android ↔ iPhone kayıt taşıma şimdilik yok (satın almalar da platformlar 
 ## I. Yeni içerik duyurusu
 
 ### RAF-75 "Yeni" işareti
-Kapakta "Yeni" / "Yeni sezon" işareti; kitap bir kez açılınca kaybolur. Yeni vaka gelince de bu işaret kullanılır; tek seferlik kartın (RAF-76) yeni vakada da çıkıp çıkmadığı açık: bkz. CELISKI-RAF-2.
+Kapakta "Yeni" / "Yeni sezon" işareti; kitap bir kez açılınca kaybolur. Yeni vaka gelince de bu işaret kullanılır; tek seferlik kart (RAF-76) da çıkar.
 *Kaynak:* 1639, 1694
 
 ### RAF-76 Tek seferlik "yeni kitap" kartı
-Güncellemeden sonraki ilk açılışta bir kez küçük kart ("Rafa yeni bir kitap geldi"); yalnız yeni kitap/sezon için (yeni vakada da çıkar mı, bkz. CELISKI-RAF-2).
+Güncellemeden sonraki ilk açılışta bir kez küçük kart ("Rafa yeni bir kitap geldi"). Yeni kitap/sezon için, ve **yeni vaka gelince de** (bir kez, "yeni vaka geldi") (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 26).
 *Kaynak:* 1640
 
 ### RAF-77 Bildirim yok
@@ -472,7 +472,7 @@ Mağazada "Yeni vakalar düzenli olarak eklenir." denir, tarih verilmez.
 *Kaynak:* 1694
 
 ### RAF-108 Bedava vakaların yazımı
-Bedava vakalar hafif, hızlı, eğlenceli ve tek başına tatmin edici olur; ücretli kısımda zor Columbo vakaları durur. İlk iki vaka hem tek başına tatmin etmeli hem devamını merak ettirmeli; 2'nin sonunda bir iplik ucu açılır ki oyuncu devamını merak etsin. CERCEVE §8'deki "Hangi vakanın bedava olacağı bir yazım kararıdır" sözü satış kararıdır ve RAF_KARARLARI ile değişti (bedava olanlar sabit Vaka 1–2, RAF-48, RAF-58). SEZON belgesindeki "gerekirse 3" için bkz. CELISKI-RAF-1.
+Bedava vakalar hafif, hızlı, eğlenceli ve tek başına tatmin edici olur; ücretli kısımda zor Columbo vakaları durur. İlk iki vaka hem tek başına tatmin etmeli hem devamını merak ettirmeli; 2'nin sonunda bir iplik ucu açılır ki oyuncu devamını merak etsin. CERCEVE §8'deki "Hangi vakanın bedava olacağı bir yazım kararıdır" sözü satış kararıdır ve RAF_KARARLARI ile değişti (bedava olanlar sabit Vaka 1–2, RAF-48, RAF-58). SEZON belgesindeki "gerekirse 3. vaka da bedava" seçeneği kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 25).
 *Kaynak:* 2033, 2062, 1855
 
 ## M. İleriye bırakılanlar ve reddedilenler

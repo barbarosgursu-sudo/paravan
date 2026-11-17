@@ -28,13 +28,13 @@ söylediği şey kural hâline getirilir.
   sözleşmeler), kod ve altyapı (motor, arayüz, araçlar, derleme), yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş
   çıkarsa Claude yapmaz; ne istendiğini kısaca yazar, ortak Barbaros'a iletir. Codex/ChatGPT hesabı Barbaros'undur. Bu liste 14 Kasım'da
   da değişmedi.
-- **14 Kasım 2026'dan beri bütün üretim (vaka metni + resim) Oğuz Bey'de:** Barbaros vaka üretmez (aşağıdaki "üretimin yeri" ve
-  "sahibi" maddeleriyle ilişkisi: CELISKI-SUREC-4). Codex ve web ChatGPT için Barbaros'un
+- **14 Kasım 2026'dan beri bütün üretim (vaka metni + resim) Oğuz Bey'de:** Barbaros vaka üretmez — ama Barbaros da resim üretimini yürütebilir (aşağıda "üretimin yeri"
+  ve "sahibi") (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 41). Codex ve web ChatGPT için Barbaros'un
   hesabı kullanılır (şimdilik; ileride değişebilir). Oğuz Bey üretimi yürütür: yerel Claude'a `vaka N resimlerini üret` der, takılınca
-  sorulana cevap verir, resim onayında son karar onundur (bkz. CELISKI-SUREC-4), web'de üretilecekleri Barbaros'un ChatGPT hesabıyla üretir.
+  sorulana cevap verir, Oğuz Bey'in yürüttüğü oturumda resim onayında son karar onundur, web'de üretilecekleri Barbaros'un ChatGPT hesabıyla üretir.
 - **Resim üretiminin yeri (Barbaros, 14 Kasım 2026 gece — öncekinin yerine):** döngü/Codex Oğuz Bey'in ya da Barbaros'un bilgisayarında
   yapılır; ikisi aynı numarayı aynı anda üretmez, hangisinin ürettiği `DURUM.md` en üstte yazılır.
-- **"Sahibi" (resim üretiminde):** o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros; bkz. CELISKI-SUREC-4). Temel onayı, resim onayı/reddi, el onayı,
+- **"Sahibi" (resim üretiminde):** o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros); resim onayında son söz ondadır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 41). Temel onayı, resim onayı/reddi, el onayı,
   web listesi (filtreye takılanlar), tarz soruları ona gider; yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst).
 - **Yerel Claude:** denetler, onaylar ya da düzeltme notuyla reddeder, oyuna gömer, GitHub'a gönderir; kuralları `uretim/CLAUDE.md`.
 - **Bulut Claude:** bilgisayar kapalıyken istem yazar, onaylıları inceler, oyunu düzeltir; resim üretemez.
@@ -56,8 +56,8 @@ Sahibinin duran talimatı: değişiklik doğrudan `main`'e commit edilip push ed
 (17 Ekim 2026). Harness başka dal adı verse de sormadan `git push origin HEAD:main`. Oturum sonu denetimi "dalda gönderilmemiş commit
 var" derse yan dal push EDİLMEZ; yerelde `git fetch origin main && git checkout -B main origin/main` ile `main`'e geçilir. Her üretim
 adımının sonunda değişiklikler `main`'e gönderilir. Resim üretiminde: bitirirken ve döngüde ara ara `DURUM.md` güncellenir → commit →
-`git push origin HEAD:main`. `red/` klasörü GitHub'a gitmez (.gitignore). (Vaka 2 başlangıç belgesindeki "oturumun dalına da" sözü için
-bkz. CELISKI-SUREC-1.)
+`git push origin HEAD:main`. `red/` klasörü GitHub'a gitmez (.gitignore). Vaka 2 başlangıç belgesindeki "oturumun dalına da" sözü
+kalktı: yalnız `main` (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 38).
 *Kaynak:* 9, 692, 1033, 1151, 2555
 
 ### SUREC-8 İki kişi aynı depoda: `git pull`
@@ -157,13 +157,14 @@ ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve he
 adım 8'in **çıktısıdır**: `vakaN_gorsel.md` biter bitmez üretilir, yayımlanır, bağlantısı sahibine ve `DEVIR.md`'ye yazılır. Sahibi
 sohbetleri **sayfadaki sırayla** yürütür; süre tablosu, `DEVIR.md` ve belgelerdeki sohbet bölümlemesi sayfayla aynı tutulur (Vaka 2'de
 "7 = G35–G45" diyen belge sayfayla ayrışmıştı). Sohbet sırası değişirse önce sayfa, sonra belgeler. Ayrıntı: `5_gorsel_sistemi.md` D-6.
-(Codex düzeniyle ilişkisi açık: CELISKI-SUREC-3.)
+**Codex düzeninde (Vaka 4'ten beri) bu madde yalnız web'de üretilecek resimler için geçerlidir**; öbür resimleri Codex döngüsü üretir
+(SUREC-32), sohbet sırası ve sayfa onlar için yok. 7. parçanın adım 8–9'u ve D-6 buna göre yazılır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 40).
 *Kaynak:* 416, 417, 418, 419, 420, 421, 731, 2571
 
 ### SUREC-21 Adım 9–10: Üretim ve toplu işleme
 Adım 9: görseller üretilir (sahibi) ve **toplu gönderilir**. Adım 10: kontrol, kesim, yerleştirme (5. parça, kontrol listesi) Claude'ca,
 **toplu işlenir**; ölçüt her görselin gömülü olması. Görseller sohbet sohbet gelir, paket hâlinde işlenir, sahibine oyundaki son hâli tek
-seferde gösterilir. (Codex düzeniyle ilişkisi: CELISKI-SUREC-3.)
+seferde gösterilir. Codex düzeninde adım 9'u döngü yapar (SUREC-32); sohbet sohbet üretim yalnız web'deki resimler için kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 40).
 *Kaynak:* 684, 685, 2569
 
 ### SUREC-22 Temel görsel önce, türevler onaydan sonra
@@ -175,8 +176,8 @@ listesinden geçirip "doğru, devam" ya da düzeltme promptu verir; türevler on
 "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır. Sahibi "üret" dediğinde hiçbir resim (temel) hazır değilse bu
 söylenir ve önce "kontrol et" istenir. Vaka 2'nin bütün görsel dersleri (kıyafet sabiti kayması, külotlu çorap, sayı, şehir, marka izi,
 kalabalıkta kişi düşmesi, kim kimi görüyor, red) `5_gorsel_sistemi.md` D (bilinen hatalar tablosu), E (kontrol listesi 10–12) ve F'de
-(kesim profilleri, hale, rötuş sınırı); prompt yazarken D tablosundaki önlemler promptlara baştan konur. (Sohbet/yapıştırma düzeninin
-Codex düzeniyle ilişkisi: CELISKI-SUREC-3.)
+(kesim profilleri, hale, rötuş sınırı); prompt yazarken D tablosundaki önlemler promptlara baştan konur. Temel önce kuralı Codex düzeninde de
+sürer (DENETIM-41); sohbet/yapıştırma ayrıntısı yalnız web'deki resimler için kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 40).
 *Kaynak:* 712, 1356, 1488, 2572
 
 ### SUREC-23 Gizem referans seti
@@ -257,7 +258,7 @@ yok (şimdilik; ChatGPT/Grok sohbetinde elle üretim); her vakada Peri ve Cengo 
 2. Yerel Claude'a **`vaka N resimlerini üret`**; yerel Claude kendi döngüsünü yürütür: Codex'i çalıştırır → gelen resmi denetler → onaylar
    ya da düzeltme notuyla yeniden ürettirir → ara ara GitHub'a gönderir.
 3. Hepsi onaylanınca resimleri oyuna gömer, testleri çalıştırır, gönderir.
-Vaka 4'ten beri resimler bu düzenle (`uretim/CLAUDE.md`). (Adım 8–9 ve iş sayfasıyla ilişkisi: CELISKI-SUREC-3.)
+Vaka 4'ten beri resimler bu düzenle (`uretim/CLAUDE.md`). Adım 8–9 bu düzene göre yazılır; iş sayfası yalnız web'deki resimler için (SUREC-20) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 40).
 *Kaynak:* 1270, 1271, 1272, 2631
 
 ### SUREC-33 Resim oturumunda okunacaklar
@@ -270,7 +271,7 @@ gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Codex deneyimi). Türkçe, 
   (sahibi bir oturumda dört kez "basit ve kısaca anlat" dedi). Kısa Türkçe ister; resim üretimini "kontrol et" ve "üret" komutlarıyla yönetir.
 - Bir adımda dur, eksikleri tek tek konuş.
 - "Senin fikrin nedir?" diye sorar: seçenek listesi yerine **bir tane öner, gerekçesini tek cümlede söyle** (bir oturumda beş kez böyle
-  ilerledi). (Tekrar önleme taslağında "seçenekler listelenir, Barbaros seçer" deniyor — bkz. CELISKI-SUREC-2.)
+  ilerledi). Bu genel kuraldır; tekrar önleme taslağındaki "seçenekler listelenir, Barbaros seçer" kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 39).
 - **Taslak → oku → uygula** (her seferinde taslakta bir hata yakalandı).
 - **Sahibinin prozasına dokunma**; onun cümlesini değiştirmek öneriyle olur.
 - Değişiklikler kafadan değil, veriye bakarak yapılır (BIRIKIM §4.2).

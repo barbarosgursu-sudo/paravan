@@ -171,9 +171,10 @@ El, jest, nesne ekran kenarından taşıp kaybolmaz (Vaka 2: Tolga "Ben mi canı
 ### SATIR-35 Yalnız satırların istediği ifade ve poz üretilir
 Kıyafet başına sayı (sahibinin kararı, 8 Kasım 2026 — 8 Ekim kararının yerine): yalnız satırların istediği ifade ve poz üretilir. Bir ifadenin vakada hiçbir satırı yoksa (`arac_satir_resim.js` → "Resim → satırlar" listesinde boşsa) üretilmez. Eski "Peri'nin her kıyafetinde yedi ifadenin hepsi" kuralı kalktı (Vaka 3'te altı resim hiçbir satırda kullanılmadan üretildi; biri filtreye takılıp sahibine web'de iş çıkardı).
 - **Peri:** tavan yok; satırların istediği her ifade + vakanın gerektirdiği her nesneli ve hareketli poz. Aynı görsel bir sahnede art arda çok tekrar ederse yeni poz üretilir (o da satırlardan çıkar).
-- **Cengo:** satırların istediği ifadeler (genelde normal, kas, gülen, yumuşak) + vaka gerektirirse fazlası.
-- Konuklar, arka planlar, ara kareler, detaylar görsel listesinde ayrıca yer alır. (Konuk ifade sayısı ve Cengo'nun "4 ifade" satırı: çelişki dosyası.)
-*Kaynak:* 371, 372, 373, 645
+- **Cengo:** satırların istediği ifadeler (genelde normal, kas, gülen, yumuşak) + vaka gerektirirse fazlası. Her vakada sabit "4 ifade" üretilmez; vaka formundaki "Cengo: 4 ifade" satırı buna göre düzeltilir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 28).
+- **Konuk:** en az 1 ifade; "gerekirse 2–3" yalnız tahmindir, üst sınır değil — satırlar daha çok isterse üretilir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 29).
+- Konuklar, arka planlar, ara kareler, detaylar görsel listesinde ayrıca yer alır.
+*Kaynak:* 371, 372, 373, 645, 370, 646
 
 ### SATIR-36 Cengo satırı etiketli replik olarak yazılır
 Diyalogda Cengo satırı **etiketli** yazılır: `**CENGO [ifade]:** metin {yuz: peri.x}` → büroda Cengo'nun repliği (16 Kasım 2026). Etiketsiz `**CENGO:**` eski düzendir (anlatı satırı; V1–V5 yeniden geçirilene dek).

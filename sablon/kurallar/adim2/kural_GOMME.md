@@ -29,11 +29,14 @@ Eski renk kesimi (`arac_kes.js`) ve `arac_hale.py` artık kullanılmaz (14 Kası
 
 ### GOMME-4 Kesimde kaybolan ya da kalan zemin
 - Zemine yakın renkte nesne (beyaz kâğıt gibi) kesimde kaybolabilir → elle maske.
-- Kol ile gövde arasında kalan bej boşluk → elle temizlenir. (YZ kesimiyle ilişkisi: CELISKI-GOMME-1.)
+- Kol ile gövde arasında zemin kalmışsa → yeniden kesilir ya da yeniden üretilir (YZ kesimi bu zemini siler; elle temizlik adımı kalktı —
+  17 Kasım 2026, çelişki sorusu 6). Eski renk kesimi döneminde elle temizlenirdi.
 *Kaynak:* 477, 478
 
-### GOMME-5 Saç kenarı (hale) denetimi ve elle temizlik
-Her figürde, sahibine göndermeden önce saç kenarı büyütülüp temizlenir (§4) (Vaka 1'de "saçta grilik" zaman kaybettirdi). Saç halesi araca değil insana kalır. (YZ kesiminden sonraki geçerliliği: CELISKI-GOMME-1.)
+### GOMME-5 Saç kenarı (hale) denetimi
+Her figürde, sahibine göndermeden önce saç kenarı **büyütülüp bakılır** (Vaka 1'de "saçta grilik" zaman kaybettirdi); bu bakış insana kalır.
+Hale kalmışsa resim **yeniden kesilir ya da yeniden üretilir**; elle temizlik artık bir adım değil (YZ kesimi saç arasındaki zemini siler;
+sahibinin kararı, 17 Kasım 2026, çelişki sorusu 6). Aşağıdaki elle temizlik yöntemi eski renk kesimi dönemine ait, kayıt olarak durur:
 - Renk kesimi kıvırcık/dağınık saçın arasında bej hale bırakır. Yeşil önizlemede (temas sayfası) başı büyütüp bak; hale varsa yalnız **baş kutusunda** temizle.
 - Kır saçta dikkat (temizlik saçı da siler). Gümüş/beyaz nesneler (balık, tel, kâğıt, pul) temizlikte silinebilir: kutunun dışında bırak, sonra büyütüp var mı bak. Siyah saçta açık şerit kalır → kenarı koyulaştır.
 - Yöntem: koyu saçta, koyu saça komşu ve zemine <30 uzak opak pikseller silinir; **ten çevresi korunur** (korumasız denemede göz akı da gitmişti). Kızıl saç ten rengine yakın (Saadet'in saçı `hale_koyu`nun ten korumasına takıldı): orada yalnız baş kutusunda saydama komşu pikseller birkaç tur aşındırılır (Saadet: y<170, zemine <32 uzak, 8 tur). Krema zemine ~6 birim uzak: renkle genel temizlik kremayı yer, yalnız küçük kutuda çalış.
@@ -84,7 +87,7 @@ Her figürlü kişinin yüzü portreye kırpılır (`yeni_gorsel/portre/`): her 
 - Yerel Claude temel figürü onaylamadan önce `arac_yanyana.js --oran` ile boyu ölçüp ayarlar. Yeni konuk eklenince ekranda Peri'nin yanında bakılır (sahibine göstermeden önce); araç boysuz konuğu söyler.
 - Telefonda bakmak yeter (16 Ekim 2026'dan beri her ekranda telefondaki oran geçerli); `--cihaz` boy sapmasını yine sınar.
 - Tablo (Peri'ye göre): Peri 1,00; Cengo 1,00; Nadide 0,98; Ferruh 0,98; Kenan 1,02; Gizem 0,93; Sedat 0,92; Ayla 1,00; Rüstem 0,95; Müzeyyen (V6) 1,00; Jale (V6) 1,00; Haldun (V6) 1,02; Eylül (V6) 0,94; Recep (V6) 0,94; Dilek (V6) 0,92; Tahsin (V6) 1,00.
-- Kadın yan karakterler için eski aralık (0.76–0.82, çok kısa/tombul 0.72): CELISKI-GOMME-2.
+- Kadın yan karakterler için eski aralık (0.76–0.82, çok kısa/tombul 0.72) **kalktı**; boyu yalnız bu tablo belirler (17 Kasım 2026, çelişki sorusu 7).
 *Kaynak:* 487, 504, 505, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 524, 2532, 3036, 3052
 
 ### GOMME-14 Uzanan kol, elde nesne
@@ -121,7 +124,8 @@ Yalnız araç gri-mavi seçip saç açıksa (gri-mavi açık/sıcak saçta mavi 
 ### GOMME-20 Aynı zemin, renk düzeltmesi yok; kesim profili zemine göre
 - Aynı karakterin (aynı kıyafetin) bütün ifadeleri aynı zeminde.
 - Renk düzeltmesi yapılmaz: renk yanlışsa resim yeniden üretilir.
-- Kesim profili zemine göre seçilir ve araç basar (gömmede o kullanılır): bej → `peri`/`cengo`/`konuk`; öbürleri → dar profil `peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`. (YZ kesiminde "profil yalnız çerçeveyi verir" — GOMME-1; bu ayrımın hâlâ anlamı: CELISKI-GOMME-3.)
+- Kesim profilinin adı kalır ama **yalnız karakterin çerçevesini** belirler (GOMME-1). Zemine göre "dar profil" seçimi (`peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`)
+  ve eski renk ayarları kalktı — renk kesimi dönemine aitti (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 8).
 *Kaynak:* 542, 544, 1084
 
 ### GOMME-21 Kart afişi: genel

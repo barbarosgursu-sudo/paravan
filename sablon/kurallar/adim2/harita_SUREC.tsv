@@ -1,8 +1,8 @@
 7	SUREC-1	
-9	SUREC-7,CELISKI-1	
+9	SUREC-7	
 171	SUREC-2	
 341	SUREC-18	
-416	SUREC-20,CELISKI-3	
+416	SUREC-20	
 417	SUREC-20	
 418	SUREC-20	
 419	SUREC-20	
@@ -20,7 +20,7 @@
 681	SUREC-16	
 682	SUREC-17	
 683	SUREC-19	
-684	SUREC-21,CELISKI-3	
+684	SUREC-21	
 685	SUREC-21	
 686	SUREC-24	
 687	SUREC-25	
@@ -33,9 +33,9 @@
 694	SUREC-27	
 697	SUREC-15	soru listesi bu satırda yok (sonraki satırlarda, 7. parçada); kuralda atıfla korunuyor
 711	SUREC-15	
-712	SUREC-22,CELISKI-3	
+712	SUREC-22	
 729	SUREC-24	
-731	SUREC-20,CELISKI-3	
+731	SUREC-20	
 732	SUREC-31	
 733	SUREC-10	
 763	SUREC-16	
@@ -47,7 +47,7 @@
 770	SUREC-28	
 771	SUREC-28	
 936	SUREC-1	
-937	SUREC-34,CELISKI-2	
+937	SUREC-34	
 1023	SUREC-16	
 1024	SUREC-38	
 1025	SUREC-38	A, B, C'nin içeriği bu satırda yok (başka konulara düşen satırlar); yalnız "olduğu gibi" kararı korunuyor
@@ -56,16 +56,16 @@
 1032	SUREC-8	
 1033	SUREC-7	
 1034	SUREC-3	
-1035	SUREC-4,CELISKI-4	"öncekinin yerine" diyor: 2795'teki "yalnız Oğuz Bey'in bilgisayarında, Barbaros kendi bilgisayarında Codex kullanmaz" kısmının yerine geçti
-1036	SUREC-4,CELISKI-4	
+1035	SUREC-4	"öncekinin yerine" diyor: 2795'teki "yalnız Oğuz Bey'in bilgisayarında, Barbaros kendi bilgisayarında Codex kullanmaz" kısmının yerine geçti
+1036	SUREC-4	
 1147	SUREC-9	
 1151	SUREC-7	
-1265	SUREC-4,CELISKI-4	
+1265	SUREC-4	
 1266	SUREC-4	
 1268	SUREC-4	
 1269	SUREC-4	
-1270	SUREC-32,CELISKI-3	
-1271	SUREC-32,CELISKI-3	
+1270	SUREC-32	
+1271	SUREC-32	
 1272	SUREC-32	
 1356	SUREC-22	
 1483	SUREC-34	
@@ -80,14 +80,14 @@
 2539	SUREC-13	
 2544	SUREC-19	
 2553	SUREC-34	
-2555	SUREC-9,SUREC-7,CELISKI-1	"ve oturumun dalına" kısmı 9 ile çelişiyor
+2555	SUREC-9,SUREC-7	"ve oturumun dalına" kısmı 9 ile çelişiyor
 2567	SUREC-23	
 2568	SUREC-15	
 2569	SUREC-21	
 2571	SUREC-20	
 2572	SUREC-22	
 2584	SUREC-30	
-2631	SUREC-32,CELISKI-3	
+2631	SUREC-32	
 2632	SUREC-26	
 2633	SUREC-30	
 2636	SUREC-30	
@@ -101,9 +101,9 @@
 2762	SUREC-40	
 2772	ESKIDI	tek seferlik iş emri (Vaka 6'nın 13 repliği); kök CLAUDE.md 16 Kasım: "Vaka 6 yeni düzende TAMAM" — tamamlandı. Kalıcı parçalar (Cengo karar satırı kendi ağzından, kasa yok/kesinti yok, kanıt satırı yalnız o kanıtı anar — kural 22c) YAPI kurallarında (YAPI-25, 22b/22c bölümleri) duruyor
 2783	SUREC-27,SUREC-1	
-2795	SUREC-4,CELISKI-4	"yalnız Oğuz Bey'in bilgisayarında; Barbaros kendi bilgisayarında Codex kullanmaz" kısmı 1035 ("öncekinin yerine", 14 Kas gece) ile eskidi; "metin+resim üretimi Oğuz Bey'de" kısmı kuralda
+2795	SUREC-4	"yalnız Oğuz Bey'in bilgisayarında; Barbaros kendi bilgisayarında Codex kullanmaz" kısmı 1035 ("öncekinin yerine", 14 Kas gece) ile eskidi; "metin+resim üretimi Oğuz Bey'de" kısmı kuralda
 2796	SUREC-4	
-2797	SUREC-4,CELISKI-4	"hepsi Oğuz Bey'e" kısmı 1036 ile genişledi: o oturumda üretimi yürüten kişiye (Oğuz Bey ya da Barbaros)
+2797	SUREC-4	"hepsi Oğuz Bey'e" kısmı 1036 ile genişledi: o oturumda üretimi yürüten kişiye (Oğuz Bey ya da Barbaros)
 2798	SUREC-4	
 2805	SUREC-6	
 2823	SUREC-30	
@@ -128,6 +128,6 @@
 3083	SUREC-31	
 3104	SUREC-34	"yalnız Vaka 1 üzerinde çalış" 8 Ekim dönemine bağlı olarak korunuyor
 3194	SUREC-34	
-3195	SUREC-34,CELISKI-2	
+3195	SUREC-34	
 3197	SUREC-34	
 3198	SUREC-34	

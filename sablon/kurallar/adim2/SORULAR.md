@@ -1,6 +1,8 @@
 # Sahibine sorular — birbirini tutmayan kurallar (41)
 
 Her soruda iki belge farklı şey söylüyor. Her birine önerimi yazdım.
+**CEVAPLANDI (17 Kasım 2026): sahibi "41 kuraldaki önerilerini onaylıyorum" dedi; hepsi kurallara işlendi.**
+
 **"Öneriler tamam"** dersen hepsi önerildiği gibi olur. Farklı istediğin varsa numarasını ve ne istediğini söyle.
 
 ## Ekran ve resim

@@ -25,7 +25,7 @@
 64	KOD-22	
 76	KOD-18	
 282	KOD-51	
-302	KOD-50,CELISKI-5	"açılışta sahne düzeyinde"
+302	KOD-50	"açılışta sahne düzeyinde"
 303	KOD-38	
 307	KOD-52	
 308	KOD-18	
@@ -54,11 +54,11 @@
 746	KOD-74	
 747	KOD-69	
 749	KOD-67	
-750	KOD-75,CELISKI-1,CELISKI-2	
+750	KOD-75	
 751	KOD-75	
 752	KOD-35,KOD-75	
 753	KOD-76	
-754	KOD-77,CELISKI-3	
+754	KOD-77	
 755	KOD-78	
 756	KOD-77	
 758	KOD-66	
@@ -107,7 +107,7 @@
 2290	KOD-63	
 2292	KOD-63	
 2293	KOD-81	
-2295	KOD-81,CELISKI-4	"6 omurga + 2 yan" sayısı
+2295	KOD-81	"6 omurga + 2 yan" sayısı
 2297	KOD-81	
 2299	KOD-82	
 2301	KOD-83	
@@ -169,7 +169,7 @@
 2387	KOD-19	
 2388	KOD-19	Orijinal "bütün müziği susturur" → "bütün sesi susturur" (müzik söküldü, 76).
 2390	KOD-19	
-2398	KOD-36,CELISKI-4	"dokuz vaka"
+2398	KOD-36	"dokuz vaka"
 2404	KOD-38	
 2409	KOD-36	
 2411	KOD-50	
@@ -191,17 +191,17 @@
 2431	KOD-41	
 2432	KOD-41	
 2433	KOD-43	
-2434	KOD-43,CELISKI-3	"Kasaya" satırı
-2435	KOD-44,CELISKI-1	
+2434	KOD-43	"Kasaya" satırı
+2435	KOD-44	
 2436	YOK	"Vaka — Kim yaptı?:" başlığı; içerik 2437 → KOD-45.
-2437	KOD-45,CELISKI-2	
-2438	KOD-46,CELISKI-3	"para yalnız birikir"
+2437	KOD-45	
+2438	KOD-46	"para yalnız birikir"
 2439	KOD-47	
 2440	KOD-66	
 2441	KOD-67	
 2442	KOD-68	
 2443	KOD-69	
-2444	KOD-70,CELISKI-1,CELISKI-3	onizleme şartı CELISKI-KOD-1, "kasa eksiye düşmez" şartı CELISKI-KOD-3; kesinti şartı CELISKI-KOD-2 ile ilgili
+2444	KOD-70	onizleme şartı CELISKI-KOD-1, "kasa eksiye düşmez" şartı CELISKI-KOD-3; kesinti şartı CELISKI-KOD-2 ile ilgili
 2445	KOD-71	
 2446	KOD-71	
 2447	KOD-71	
@@ -210,7 +210,7 @@
 2451	KOD-48	
 2452	KOD-6,KOD-38,KOD-49	
 2453	KOD-38	
-2791	KOD-35,CELISKI-6	"açılacak" 14 Kasım durumu; Vaka 6 kapıdan geçti → CELISKI-KOD-6
+2791	KOD-35	"açılacak" 14 Kasım durumu; Vaka 6 kapıdan geçti → CELISKI-KOD-6
 2886	KOD-3,KOD-32	
 2887	KOD-33	
 2912	KOD-33	

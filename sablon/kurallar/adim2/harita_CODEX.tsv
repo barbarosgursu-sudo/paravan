@@ -11,7 +11,7 @@
 1083	CODEX-23	
 1085	YOK	"Döngü çalışırken sen:" yalnız listeye giriş cümlesi; içeriği CODEX-24'te
 1086	CODEX-24,CODEX-13	
-1087	CODEX-24,CELISKI-CODEX-1	eski 1506 "`referanslar/`'a dokunma" yasağıyla çelişki: CELISKI-CODEX-1
+1087	CODEX-24	eski 1506 "`referanslar/`'a dokunma" yasağıyla çelişki: CELISKI-CODEX-1
 1088	CODEX-24	
 1089	CODEX-24	
 1150	CODEX-25	
@@ -46,7 +46,7 @@
 1487	CODEX-17	
 1501	CODEX-2,CODEX-13	
 1502	CODEX-18	
-1506	CODEX-3,CODEX-25,CELISKI-CODEX-1	"`referanslar/`'a dokunma" yasağı yeni düzende baş kırpığı hazırlama (1087) ile çelişiyor; açıkça iptal edilmemiş → CELISKI-CODEX-1, CODEX-25'te atıfla korundu
+1506	CODEX-3,CODEX-25	"`referanslar/`'a dokunma" yasağı yeni düzende baş kırpığı hazırlama (1087) ile çelişiyor; açıkça iptal edilmemiş → CELISKI-CODEX-1, CODEX-25'te atıfla korundu
 1524	CODEX-1	"çizgi animasyon" ifadesi CODEX-1'de parantezle korundu
 1525	CODEX-3	prompts/LISTE.md eski Vaka 3 yeri; CODEX-3'te not olarak korundu, yeni yer CODEX-20
 1526	CODEX-3,CODEX-4	

@@ -136,7 +136,7 @@ Tek vakalık karar, genel kural olarak yazılmadı: Vaka 7'de (15 Kasım 2026, o
 ### SEZON-19 Konuklar birbirine benzemez
 Bir vakaya özgü her karakter (müşteri, şüpheli, tanık, yan karakter) önceki vakaların BÜTÜN konuklarından açıkça farklıdır (ortağın kararı,
 16 Kasım 2026, bütün seri: "sadece vaka 7 için özel ürettiğin kişiler tamamıyla diğer karakterlerden farklı olacak"). Sürekli karakterler (Peri,
-Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir. Benzer yan karakterler yaş, yapı, saç, bıyıkla ayrışır (üç yaşlı bıyıklı balıkçı olmaz).
+Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir: onların **yüzü ve kimliği aynı kalır; kıyafet, saç ve takı vakaya göre değişir** (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 30). Benzer yan karakterler yaş, yapı, saç, bıyıkla ayrışır (üç yaşlı bıyıklı balıkçı olmaz).
 - Vaka formu onaya gitmeden kontrol edilir: yeni yan karakterlerin görünüşü onaylandı ve benzerlerinden ayrışıyor.
 - Yüz aracının uyarısı (≥ 0,70) yetmez, göz karar verir: V7 Parti 1'de 0,64–0,68 puanlı Necmi ve Ercan gözle Recep'in yüzüydü, Kaan Bülent'in.
   Temel üretilince her yeni konuk, aracın bulduğu en yakın İKİ eski konukla yan yana konur ve gözle bakılır (yüz biçimi, saç, beden, yaş);
@@ -174,9 +174,10 @@ Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `kaynak/
 Hikâye gerektirirse kıyafet vaka içinde değişebilir (Vaka 2'deki gibi; 16 Ekim 2026). Her yeni kıyafet = bir ifade seti (Vaka 3 notunda ~6–8 figür).
 *Kaynak:* 2579, 3020
 
-### SEZON-24 Görsel sayısı azaltılmaz
-Görsel sayısı azaltılmaz — çok görsel oyunu güzelleştiriyor (sahibinin kararı, 11 Ekim 2026). 4 Ekim 2026 kararı: ~96 görsel kalıyor; her vakada
-Peri ile Cengo yeni kıyafet, dörder ifade.
+### SEZON-24 Görsel sayısını satırlar belirler
+Görsel sayısını satırlar belirler (SATIR-35): satırın istemediği ifade üretilmez, istediği de esirgenmez. Eski "görsel sayısı azaltılmaz"
+(11 Ekim 2026) ve "~96 görsel, her vakada Peri ile Cengo için dörder ifade" (4 Ekim 2026) kuralları kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 31). Her vakada Peri ile Cengo
+yeni kıyafet giyer (SEZON-22).
 *Kaynak:* 1971, 3081
 
 ### SEZON-25 Barbaros'a anlatım biçimi

@@ -9,12 +9,16 @@
 
 **Soru:** Temel olmayan bir resim 3. kez reddedilecekse ya da emin olunamıyorsa döngü durup sahibine mi sorulur, yoksa `WEB_LISTESI.md`'ye yazılıp döngü sonunda mı verilir?
 
+**Cevap (sahibi, 17 Kasım 2026; soru 3):** Hayır. Web listesine yazılır, üretim sürer, sonda tek listede gelir (bugünkü düzen). İşlendi.
+
 ### CELISKI-DENETIM-2
 Sondaki raporun kapanışı.
 - **Vaka 3 düzeni:** rapor tablosundan sonra sahibine "Codex'e `üret` yaz" denir (elle tetiklenen Codex). — 1338, 1521
 - **Bugünkü döngü:** Codex döngüyle sahibine sormadan yürür; döngü bitince sahibine web paketleri tek seferde verilir (1095); "Codex'e üret yaz" adımı geçmiyor.
 
 **Soru:** Döngü düzeninde sondaki raporun "Codex'e `üret` yaz" kapanışı hâlâ geçerli mi, yoksa yalnız Vaka 3'ün elle düzenine mi aitti?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 4):** Kalksın. Eski Vaka 3 düzeniydi. İşlendi.
 
 ### CELISKI-DENETIM-3
 Yüzde burnun yönü.
@@ -23,3 +27,5 @@ Yüzde burnun yönü.
 - Bugünkü metnin yalnız kısaltma mı, yoksa koşulu bilerek mi kaldırdığı yazmıyor.
 
 **Soru:** Burun her resimde kadrajın soluna mı bakmalı, yoksa istem başka yön isterse o yöne mi?
+
+**Cevap (sahibi, 17 Kasım 2026; soru 5):** Evet, her resimde sola (bugünkü kural). İşlendi.

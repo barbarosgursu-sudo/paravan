@@ -154,7 +154,7 @@ Deneme kopyası klasörü (`v99`) komut sonunda `rm -rf` ile silinmez: içinde g
 ### CODEX-24 Döngü çalışırken yerel Claude'un işi
 1. `uretilen/`'e geleni denetler. Onayladıkça yeni resimlerin önü açılır; döngü çıktıysa yeniden başlatır. (Codex 5 dk'dan uzun beklerse: CODEX-13.)
 2. Temel onaylanınca gereken baş kırpığını/şeridi hazırlar (`referanslar/`); hazırlanmayan referansı bekleyen resim döngüye girmez.
-   (Eski Vaka 3 talimatındaki "`referanslar/`'a dokunma" yasağıyla ilişkisi: CELISKI-CODEX-1.)
+   `referanslar/`'a yalnız yeni dosya (baş kırpığı, şerit) koyar; var olan dosyayı değiştirmez (17 Kasım 2026, çelişki sorusu 2).
 3. Birkaç resimde bir `DURUM.md` → commit → push.
 4. Üretilecek ve denetlenecek resim kalmayınca durur. LISTE'nin hepsi `onayli/`'deyse `göm`'e geçer. Gömmeden sonra `DURUM.md`'deki bağlama
    etiketlerini diyaloğa yazar ve `cd kaynak && node arac_kapi.js V<N> resim` koşar — GEÇTİ demeden vaka bitmiş sayılmaz.
@@ -162,6 +162,6 @@ Deneme kopyası klasörü (`v99`) komut sonunda `rm -rf` ile silinmez: içinde g
 
 ### CODEX-25 Yerel Claude resim üretmez, istem metnini değiştirmez
 Yerel Claude resim üretmez (Codex üretir). `prompts/`'taki istem metnini değiştirmez; istem dosyasına yalnız sonuna `## Düzeltme` eklenir.
-Eski Vaka 3 talimatı ayrıca "`referanslar/`'a dokunma" diyordu; yeni düzende yerel Claude baş kırpığını/şeridi `referanslar/`'a hazırlar
-(CODEX-24 madde 2) — hangisinin geçerli olduğu sahibine soruluyor: CELISKI-CODEX-1.
+`referanslar/`'taki var olan dosyayı değiştirmez; oraya yalnız baş kırpığı/şerit gibi yeni dosya koyar (CODEX-24 madde 2). Eski Vaka 3
+talimatının "`referanslar/`'a dokunma" yasağı bu kadarıyla kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 2).
 *Kaynak:* 1150, 1506

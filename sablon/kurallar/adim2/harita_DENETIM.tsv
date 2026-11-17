@@ -24,10 +24,10 @@
 559	DENETIM-1	
 1077	DENETIM-49	
 1090	DENETIM-41	
-1091	DENETIM-42,CELISKI-1	"sahibine sormadan devam et" kısmı v3 kuralıyla çelişiyor
-1092	CELISKI-1	3. kez reddedilecek resim: WEB_LISTESI'ne yaz, sorma (v3: dur, sor)
+1091	DENETIM-42	"sahibine sormadan devam et" kısmı v3 kuralıyla çelişiyor
+1092	DENETIM-42	3. kez reddedilecek resim: WEB_LISTESI'ne yaz, sorma (v3: dur, sor)
 1093	DENETIM-42	
-1094	CELISKI-1	emin olunamayan resim: WEB_LISTESI'ne kuşkuyla yaz (v3: onaylama, sahibine söyle)
+1094	DENETIM-42	emin olunamayan resim: WEB_LISTESI'ne kuşkuyla yaz (v3: onaylama, sahibine söyle)
 1095	DENETIM-43,DENETIM-40	
 1096	DENETIM-1	
 1097	DENETIM-2	
@@ -50,7 +50,7 @@
 1116	YOK	yalnız bölüm başlığı ("A. İstemle karşılaştır"); kural dosyasında başlık olarak duruyor
 1117	DENETIM-18	
 1118	DENETIM-19,DENETIM-20	
-1119	DENETIM-21,CELISKI-3	koşulsuz "burun kadrajın soluna"; v3 satırları istemin yönüne bağlıyor — çelişki dosyasında
+1119	DENETIM-21	koşulsuz "burun kadrajın soluna"; v3 satırları istemin yönüne bağlıyor — çelişki dosyasında
 1120	DENETIM-22	
 1121	DENETIM-23	
 1122	DENETIM-24	
@@ -73,11 +73,11 @@
 1139	DENETIM-39	
 1230	DENETIM-1	
 1231	DENETIM-25	
-1273	DENETIM-42,DENETIM-43,CELISKI-1	"sahibine soru sormaz; 3. ret de listeye" kısmı v3 kuralıyla çelişiyor
+1273	DENETIM-42,DENETIM-43	"sahibine soru sormaz; 3. ret de listeye" kısmı v3 kuralıyla çelişiyor
 1303	DENETIM-18	
 1304	DENETIM-19	
 1305	DENETIM-20	satır "geriye dönük bakıldı:" ile bitiyor, devamı başka satırlarda; geriye dönük bakış bilgisi korundu
-1308	DENETIM-21,CELISKI-3	"istemin dediği yöne / istem öyle diyorsa" koşulu; bugünkü metin koşulsuz — çelişki dosyasında
+1308	DENETIM-21	"istemin dediği yöne / istem öyle diyorsa" koşulu; bugünkü metin koşulsuz — çelişki dosyasında
 1309	DENETIM-22	
 1310	DENETIM-23	
 1311	DENETIM-24	"düz açık bej zemin" ayrıntısı ESKIDI: 5_gorsel_sistemi.md H4 "Vaka 4'ten itibaren" ve "14 Kasım 2026'dan beri … tablo yalnız tarihî kayıttır" diyerek zemini değiştirdi; kural H4 rengini anar
@@ -91,28 +91,28 @@
 1325	DENETIM-38	
 1326	DENETIM-39	
 1327	DENETIM-39	
-1328	CELISKI-1	"3. kez reddedilecekse dur, sahibine sor" (G67'de iki kez işletildi; örnekler başka satırlarda)
-1332	CELISKI-1	"emin değilsen onaylama, sahibine söyle" — zamanlaması yeni döngüyle çelişiyor
+1328	ESKIDI	"3. kez reddedilecekse dur, sahibine sor" (G67'de iki kez işletildi; örnekler başka satırlarda)
+1332	DENETIM-42	"emin değilsen onaylama, sahibine söyle" — zamanlaması yeni döngüyle çelişiyor
 1336	DENETIM-40	
 1337	DENETIM-44	
-1338	DENETIM-46,CELISKI-2	"Codex'e üret yaz" kapanışı çelişki dosyasında
+1338	DENETIM-46	"Codex'e üret yaz" kapanışı çelişki dosyasında
 1503	DENETIM-43	
 1504	DENETIM-47	
 1507	DENETIM-15	
 1508	DENETIM-18	
 1509	DENETIM-19,DENETIM-20	
 1510	DENETIM-20	
-1511	DENETIM-21,CELISKI-3	"istemin dediği yöne / istem öyle diyorsa" koşulu; bugünkü metin koşulsuz — çelişki dosyasında
+1511	DENETIM-21	"istemin dediği yöne / istem öyle diyorsa" koşulu; bugünkü metin koşulsuz — çelişki dosyasında
 1512	DENETIM-22	
 1513	DENETIM-23	
 1514	DENETIM-24	"düz açık bej zemin" ayrıntısı ESKIDI (H4, bkz. 1311)
 1515	DENETIM-25	
 1516	DENETIM-26	
 1517	DENETIM-38	
-1518	DENETIM-39,CELISKI-1	"3. kez reddedilecekse durdur, sahibine sor" kısmı çelişki dosyasında
-1519	CELISKI-1	"emin değilsen onaylama; sahibine söyle" — zamanlaması yeni döngüyle çelişiyor
+1518	DENETIM-39	"3. kez reddedilecekse durdur, sahibine sor" kısmı çelişki dosyasında
+1519	DENETIM-42	"emin değilsen onaylama; sahibine söyle" — zamanlaması yeni döngüyle çelişiyor
 1520	DENETIM-44	
-1521	DENETIM-46,CELISKI-2	"Codex'e üret yaz" kapanışı çelişki dosyasında
+1521	DENETIM-46	"Codex'e üret yaz" kapanışı çelişki dosyasında
 2556	DENETIM-50	
 2557	DENETIM-51,DENETIM-52	
 2573	DENETIM-50	2556 ile aynı metin

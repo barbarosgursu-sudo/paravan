@@ -21,7 +21,7 @@ Son kare: vakanın kapak resmi bulanık ve karanlık; üstünde PARAVAN / DEDEKT
 *Kaynak:* 786
 
 ### SHORTS-6 Süre
-Video kısadır; üst sınır 55 sn (alt sınır için CELISKI-SHORTS-1: 28 mi 30 mu). Araç önce süreyi tahmin eder, üretimde gerçek süreyi basar.
+Süre **28–55 sn** (araç bununla ölçer; girişteki "30–55" düzeltilir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 27)). Araç önce süreyi tahmin eder, üretimde gerçek süreyi basar.
 *Kaynak:* 780, 787
 
 ### SHORTS-7 Video tipleri ve kapanış soruları

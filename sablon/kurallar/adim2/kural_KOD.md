@@ -178,7 +178,7 @@ Sahibinin kararı: `cd kaynak && node arac_sizinti_tur.js [VN] [tur]` (ör. `V5 
 *Kaynak:* 2927, 3127
 
 ### KOD-35 Kapı (arac_kapi.js)
-Sahibinin kararı: vaka kaydedilmeden önce `kaynak/arac_kapi.js` 13 kural + eski denetimleri kendiliğinden koşar; Vaka 6 ve sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama Vaka 6 kapıdan geçince açılacak (`.claude/settings.json` henüz yok) — 14 Kasım 2026 durumu; Vaka 6 15 Kasım'da kapıdan geçti, bağlantının açılıp açılmadığı için bkz. CELISKI-KOD-6. Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). `arac_kapi.js … resim` K2/K8/K6, Cengo satırlarındaki ifadenin kapanış setinde olmamasını yakalar (KOD-75).
+Sahibinin kararı: vaka kaydedilmeden önce `kaynak/arac_kapi.js` 13 kural + eski denetimleri kendiliğinden koşar; Vaka 6 ve sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) **açık olmalı**: kapı her commit'te kendiliğinden çalışır, geçmezse commit olmaz (`.claude/settings.json` ile bağlanır) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 24). (14 Kasım'da "Vaka 6 kapıdan geçince açılacak" deniyordu; Vaka 6 15 Kasım'da geçti.) Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). `arac_kapi.js … resim` K2/K8/K6, Cengo satırlarındaki ifadenin kapanış setinde olmamasını yakalar (KOD-75).
 *Kaynak:* 2791, 752
 
 ## D. Yeni oyunun verisi ve derlemesi
@@ -234,14 +234,14 @@ Diyalogda `⚙ … · set: tayyor · cset: takim`: `set` Peri'nin, `cset` Cengo'
 
 ### KOD-43 Seçim ve karar alanları
 - Seçim: `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`.
-- Karar: `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`; anı özeti `ani_ozet.V1`. Anı sekmesindeki "Suçladığın" (ve "Kasaya") satırları motorun `_suclama_<vaka>` tohumundan (`"şüpheli:sonuç"`) okunur; bu tohumdan önceki kayıtlarda bu satırlar çıkmaz. (Kasa satırı için bkz. CELISKI-KOD-3.)
+- Karar: `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`; anı özeti `ani_ozet.V1`. Anı sekmesindeki "Suçladığın" satırı motorun `_suclama_<vaka>` tohumundan (`"şüpheli:sonuç"`) okunur; bu tohumdan önceki kayıtlarda bu satır çıkmaz. Anı'da "Kasaya" satırı yok — kasa kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 21).
 *Kaynak:* 2433, 2434
 
 ### KOD-44 Karar alanları (16 Kasım 2026 düzeni)
 - `secenek` = Peri'nin seçim cümlesi (diyalogda `**SEÇENEK:**`); `cengo_sonuc` = Cengo'nun büroda satırı.
 - `cengo_replik: { i, yuz }` varsa o satır Cengo'nun repliği olarak oynar (`k: "cengo", kime: "peri"`, `i` Cengo'nun ifadesi, `yuz` dinleyen Peri'nin yüzü); diyalogda etiketli `**CENGO [ifade]:** metin {yuz: peri.x}`. Etiketsiz `**CENGO:**` → `cengo_replik` yok → eski düzende anlatı satırı (V1–V5, V7 yeniden geçirilene dek).
 - `kim_yapti.cengo_kanit: { olgu: metin }` ve `kim_yapti.cengo_kanit_replik: { olgu: { i, yuz } }` aynı biçimden gelir (`## cengo_kanit` → `**olgu [ifade]:** metin {yuz: peri.x}`).
-- Eski alanlar: `onizleme` = eski karar ekranındaki tek cümlelik kısa sonuç (artık gösterilmez; isteğe bağlı — bkz. CELISKI-KOD-1); `para` = karar parası (hikâye rakamı; kasa yok); `gate: "yok"` (kapı yok); `seed_yaz` yok (tohum yok).
+- Eski alanlar: `onizleme` = eski karar ekranındaki tek cümlelik kısa sonuç (artık gösterilmez; zorunlu değil, doğrulayıcı da istemez (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19)); `para` = karar parası (hikâye rakamı; kasa yok); `gate: "yok"` (kapı yok); `seed_yaz` yok (tohum yok).
 *Kaynak:* 2435
 
 ### KOD-45 Kim yaptı? veri şeması
@@ -251,16 +251,16 @@ kim_yapti: {
   supheliler: [ { id, ad, gorunur: "her_zaman" | <ifade> } ],   // ekranda ne zaman görünür
   dogru_ciftler: [ [<olgu|ifade>, <olgu|ifade>], ... ],          // suçu kanıtlayan iki olgu
   ucret: { dogru, zayif, yanlis },                                // sonda ödenir
-  kesinti: { zayif, yanlis }   // karar ekranının üstü; {anlasilan} {kesinti} tutarla dolar (diyalogda '## ucret')
+  // kesinti: { zayif, yanlis } — ESKİ: karar ekranının üstündeki ücret kesintisi açıklamasıydı; kesinti yok, zorunlu değil
 }
 sahneler: { giris, konusma, yuzlesme_dogru, yuzlesme_zayif, yuzlesme_<masum id>, kovalamaca, kapanis }
 anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızıntı araması
 ```
-(`kesinti`'nin karar ekranında tutarla gösterilmesi için bkz. CELISKI-KOD-2.)
+Ücret kesintisi ve açıklaması kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 20).
 *Kaynak:* 2437, 332
 
 ### KOD-46 Girişte açılan olgular ve ücret alanı
-Girişte anlatılan olgular `giris[].acilan`'da (ipucu değil). `ekonomi.gider` boş (para yalnız birikir — kasa kalktığı için bkz. CELISKI-KOD-3). Ücret Vaka 1'de bilerek `vaka.ucret`'te de duruyor (masa kartı).
+Girişte anlatılan olgular `giris[].acilan`'da (ipucu değil). `ekonomi.gider` boş (kasa yok; oyun para saymaz (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 21)). Ücret Vaka 1'de bilerek `vaka.ucret`'te de duruyor (masa kartı).
 *Kaynak:* 2438
 
 ### KOD-47 Düz metin ile sahne aynı içeriğin iki hâli
@@ -281,7 +281,7 @@ Arka plan ve kare de yer tutucu olabilir: `gorseller.json` → `yer_tutucu` list
 - Yükleme kaynakları kaydedildikleri sırayla yeniden açar; bu aynı zamanda doğrulamadır: veri değiştiyse ya da kayıt kurcalandıysa bir adım "kilitli" döner, kayıt tümden reddedilir, eski durum geri konur.
 - Karar verilir verilmez yazılır; oyuncu uygulamayı kapatıp kararı geri alamaz ("geri alınamaz karar" çekirdektir). Bu yüzden tek yuva; elle kayıt ve çoklu slot yok.
 - `localStorage` yoksa (gizli sekme, kısıtlı WebView) kayıt sessizce devre dışı kalır, oyun sürer. İzole dev testi (🛠 → vakaya atla) ana kaydı kirletmez.
-- Sahne kaydı (yeni oyun; 9 Ekim 2026, sahibinin isteği): her konuşma akışı (açılış, giriş, ipucu, yüzleşme+kovalamaca, kapanış) `akisBaslat` ile başlar; sahne ve satır ayrı anahtarda (`paravan_yeni_kayit_v1_sahne`). Açınca sahne o satıra kadar yazı/geçiş beklemeden yeniden oynatılır (`vnSar`), seçimler kaydedildiği gibi yapılır; görüntü (arka plan, kıyafet, figürler) aynı gelir. Kayıt motor durumuyla tutarsızsa yok sayılır. Akış bitince silinir. Sonuç ekranında kapatılırsa kapanış sahnesinden sürer. (4. parçanın "açılışta sahne düzeyinde" ifadesi için bkz. CELISKI-KOD-5.)
+- Sahne kaydı (yeni oyun; 9 Ekim 2026, sahibinin isteği): her konuşma akışı (açılış, giriş, ipucu, yüzleşme+kovalamaca, kapanış) `akisBaslat` ile başlar; sahne ve satır ayrı anahtarda (`paravan_yeni_kayit_v1_sahne`). Açınca sahne o satıra kadar yazı/geçiş beklemeden yeniden oynatılır (`vnSar`), seçimler kaydedildiği gibi yapılır; görüntü (arka plan, kıyafet, figürler) aynı gelir. Kayıt motor durumuyla tutarsızsa yok sayılır. Akış bitince silinir. Sonuç ekranında kapatılırsa kapanış sahnesinden sürer. Sahne ve satır düzeyinde kayıt **her konuşma akışında** geçerlidir, yalnız açılışta değil (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 23).
 *Kaynak:* 302, 2375, 2376, 2377, 2378, 2379, 2411
 
 ## E. Motor sınırları
@@ -377,10 +377,11 @@ Arama `toLocaleLowerCase("tr")` ile. Biri tutmazsa hata, derleme durur (45 üst�
 *Kaynak:* 747, 2443
 
 ### KOD-70 K19 — Kim yaptı? yapısı
-3 şüpheli; suçlu her yolda görünür; kanıt çiftleri olgu; ücret sırası; dört yüzleşme sahnesi; 4 karar; kapı/tohum/bedava ipucu yok; ipucu > hak; hak içinde en az 2 farklı doğru kanıt çifti; hiçbir doğru çift tek ipucundan çıkmaz (kural 21c); her ücret kesintisinin açıklaması (`kesinti`) var (kural 22a). Ayrıca K19 metni: her kararın `onizleme`si var ve en kötü durumda kasa eksiye düşmez — bu ikisi için bkz. CELISKI-KOD-1 ve CELISKI-KOD-3. Üretim denetiminde ayrıca: suçluyu kanıtlayan en az 2 ipucu yolu var (742).
+3 şüpheli; suçlu her yolda görünür; kanıt çiftleri olgu; ücret sırası; dört yüzleşme sahnesi; 4 karar; kapı/tohum/bedava ipucu yok; ipucu > hak; hak içinde en az 2 farklı doğru kanıt çifti; hiçbir doğru çift tek ipucundan çıkmaz (kural 21c); K19 artık `kesinti` açıklaması, karar `onizleme`si ve "kasa eksiye düşmez" denetimi **istemez** — üçü de 16 Kasım düzeniyle kalktı (kesinti, önizleme, kasa yok) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–21). Üretim denetiminde ayrıca: suçluyu kanıtlayan en az 2 ipucu yolu var (742).
 *Kaynak:* 2444, 742, 743
 
 ### KOD-71 Kabul edilmiş / açık uyarılar (yeni oyun)
+(K8 yeni oyunda kalktı — para yok, YAPI-46; aşağıdaki üç K8 maddesi kayıt olarak durur. Sahibinin kararı, 17 Kasım 2026, çelişki sorusu 37.)
 - K8 (V4): `polise_ver` (−10.000, bağ −1) hem `uzaklastir`'ın hem `gercegi_soyle`'nin gerisinde; Onay 1'de sahibi karar dağılımını olduğu gibi onayladı (10 Kasım 2026). Kabul edildi.
 - K8 (V5): `polise_teslim` (−5.000, bağ −1) `muammere_soyle`'nin (+5.000, bağ 0) iki eksende de gerisinde; ortak bilerek bıraktı, Barbaros kabul etti (12 Kasım 2026). Kabul edildi.
 - K8: `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende geçiyor (sahibine soruldu).
@@ -404,7 +405,7 @@ Defter cümleleri suçluyu söylemez. Hak edilmemiş bilgi sızmaz (isim, olgu, 
 *Kaynak:* 745, 746
 
 ### KOD-75 Karar sahnede; Cengo satırları
-- Kararı sahnedeki biri sorar; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b). Önizleme ve rakam yok (bkz. CELISKI-KOD-1, CELISKI-KOD-2).
+- Kararı sahnedeki biri sorar; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b). Önizleme, kesinti ve rakam yok (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–20).
 - Her doğru kanıt için Cengo'nun söylenmeyen kanıt satırı var; açılmamış ipucunu anmaz (kural 22c).
 - Cengo'nun karar ve kanıt satırları etiketli: `**CENGO [ifade]:** … {yuz: peri.x}` / `**olgu [ifade]:** … {yuz: peri.x}`; ifade kapanış setinde (`gorseller.json`) var olan bir resim olmalı, yoksa kapı (`arac_kapi.js … resim` K2/K8/K6, poz kaydı) durur.
 *Kaynak:* 750, 751, 752
@@ -442,7 +443,7 @@ KANON = {
   tohum_isimleri: { "iten_biliniyor": { "true": ["İlyas"] } }  // K1: tohumun hangi değerinde hangi isimler biliniyor; koşulu bu tohum olan varyant o ismi serbestçe anabilir
 }
 ```
-(Vaka sayısı için bkz. CELISKI-KOD-4.)
+Vaka sayısı: 6 omurga + **3** yan (dokuz vaka: V1–V6, YAN-A, YAN-B, YAN-C); sözleşmedeki "6 omurga + 2 yan" düzeltilir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 22).
 *Kaynak:* 2293, 2295, 2297
 
 ### KOD-82 VAKA şeması

@@ -82,7 +82,7 @@
 1637	RAF-73	
 1638	RAF-74	
 1639	RAF-75	
-1640	RAF-76,CELISKI-2	"yalnız yeni kitap/sezon için" 1694 ile çelişiyor → CELISKI-2.
+1640	RAF-76	"yalnız yeni kitap/sezon için" 1694 ile çelişiyor → CELISKI-2.
 1641	RAF-77	
 1642	RAF-78	
 1643	RAF-79	
@@ -121,7 +121,7 @@
 1691	RAF-105	
 1692	RAF-106	
 1693	RAF-104	
-1694	RAF-75,RAF-107,CELISKI-2	"yeni vaka gelince tek seferlik kart" 1640 ile çelişiyor → CELISKI-2.
+1694	RAF-75,RAF-107	"yeni vaka gelince tek seferlik kart" 1640 ile çelişiyor → CELISKI-2.
 1696	RAF-109	
 1697	RAF-110	
 1702	RAF-111	
@@ -129,7 +129,7 @@
 1839	ESKIDI	"Önce Türkçe, sonra İngilizce yeniden yazım" kararı CERCEVE §2'ye dayanıyor; o satır 9 Kasım 2026'da RAF_KARARLARI §4 ile açıkça değişti (1990, 1548). Yerine: RAF-27, RAF-28, RAF-30.
 1845	RAF-99	Tarih 4 Ekim 2026 kararı; 9 Kasım kararıyla aynı yönde.
 1846	ESKIDI	"İngilizce ad ertelendi" kararı 9 Kasım 2026'da kesinleşti (1683, 1996: "Cover Story: An Istanbul Mystery"). Yerine: RAF-98.
-1855	RAF-108,CELISKI-1	Hikâye kısmı RAF-108'de; "1 ve 2 (gerekirse 3)" bedava vaka sayısı RAF-48/58 ile çelişiyor → CELISKI-1.
+1855	RAF-108	Hikâye kısmı RAF-108'de; "1 ve 2 (gerekirse 3)" bedava vaka sayısı RAF-48/58 ile çelişiyor → CELISKI-1.
 1976	RAF-1	
 1977	RAF-6	
 1979	RAF-7	"İngilizce" sözü eskidi (1976: dil kararı RAF_KARARLARI ile değişti); yerine RAF-27/28.

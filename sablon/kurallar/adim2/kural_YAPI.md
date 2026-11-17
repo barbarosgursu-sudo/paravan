@@ -98,9 +98,9 @@ Sonuca göre yüzleşme sahnesi oynar (YAPI-16).
 
 ### YAPI-15 Kilit açarak bulunan kanıt
 - Kilit açarak bulunan kanıt (Cengo'nun teli) "Kim yaptı?"da geçerlidir.
-- Hikâyede kuralın tarafı: delil hukuka uygun olmalı; kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak bulunan şey yarar. Cengo'nun teli bu yüzden hep bir bedel taşır (Ton §9, 5 Ekim 2026, "tekrarlanan espri" başlığı altında); bu, Peri'nin kuralı ile Cengo'nun içgüdüsü arasındaki kavganın gerçek hayattaki dayanağıdır.
+- Hikâyede kuralın tarafı: delil hukuka uygun olmalı; kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak bulunan şey yarar. Bu, Peri'nin kuralı ile Cengo'nun içgüdüsü arasındaki kavganın gerçek hayattaki dayanağıdır (Ton §9, 5 Ekim 2026, "tekrarlanan espri").
 - Kural 21b: mahkemede geçmemesi yalnız espri olarak kullanılır.
-- Bu iki söz ("hep bir bedel taşır" / "yalnız espri") arasındaki fark çözülmedi: bkz. CELISKI-YAPI-3.
+- Hikâyede gerçek bir bedel **değildir**; Ton taslağındaki "Cengo'nun teli hep bir bedel taşır" sözü kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 34).
 *Kaynak:* 204, 1822
 
 ### YAPI-16 Dört yüzleşme sahnesi
@@ -215,7 +215,7 @@ Kural 27b; sahibinin kuralı, 5 Ekim 2026. Her tutar o yılın İstanbul fiyatla
 *Kaynak:* 216, 1815
 
 ### YAPI-34 Her vakanın fiyat tablosu
-Kural 27c. Her vaka kendi fiyat (referans) tablosunu taşır (ilki `YENI_VAKA_1.md`'de; formda §17). Metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır; tabloda olmayan tutar metne giremez (denetimde ve form kontrolünde aranır: "Her tutar fiyat tablosunda"). Ay sonu gideri de bu tabloya göre kurulur (Ekim 2026: 35.000 ₺) — bkz. CELISKI-YAPI-2.
+Kural 27c. Her vaka kendi fiyat (referans) tablosunu taşır (ilki `YENI_VAKA_1.md`'de; formda §17). Metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır; tabloda olmayan tutar metne giremez (denetimde ve form kontrolünde aranır: "Her tutar fiyat tablosunda"). Eski "ay sonu gideri (Ekim 2026: 35.000 ₺)" tablodan kalktı — oyun para saymaz (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 36).
 *Kaynak:* 217, 652, 664, 1815
 
 ### YAPI-35 Taç her yolda Vaka 7'de alınır
@@ -263,9 +263,9 @@ Komedi "not vermez" kuralını yeni bir yerden deler: Cengo'nun esprisi gizli bi
 
 ### YAPI-42 Sezon sonu tablosu: puan değil, sezonun dosyası
 9 Kasım 2026 raf kararı (`final_tablo_plani.md`'deki "ne kadar ahlaki/kirli" isteğinin yerine; ruh hâli sınıflaması oyuncuya asla kelime olarak gösterilmez, oyun not vermez).
-- Puan/grafik değil: her vaka bir satır, kalıp **eylem → sonuç → bedel** (örn. "Vaka 2 · Kayıp Gelinlik — Defne'yi suçladın. Parayı ona bıraktın. Düğün yapıldı; kasaya bir şey girmedi."). Defter → Anı'dan türetilebilir. Yargı yok.
-- Altında **Peri'nin sezon notu**, 3–4 değişkenle. Değişkenler yargı değil sezonun sonucunu anlatır (kasa dolu/boş, Peri kimlerle bağ kurdu, kimlerle bozuştu). Yazar işi.
-- Kasa geçen örnek ve değişken: bkz. CELISKI-YAPI-1.
+- Puan/grafik değil: her vaka bir satır, kalıp **eylem → sonuç → bedel** (örn. "Vaka 2 · Kayıp Gelinlik — Defne'yi suçladın. Parayı ona bıraktın. Düğün yapıldı."). Defter → Anı'dan türetilebilir. Yargı yok.
+- Altında **Peri'nin sezon notu**, 3–4 değişkenle. Değişkenler yargı değil sezonun sonucunu anlatır (Peri kimlerle bağ kurdu, kimlerle bozuştu). Yazar işi.
+- Kasa geçmez: eski örnekteki "kasaya bir şey girmedi" ve "kasa dolu/boş" değişkeni kalktı — kasa yok (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 35).
 *Kaynak:* 1704, 1705, 1706
 
 ### YAPI-43 Vakalar arasında yalnız Cengo bağı ve sabit sezon hikâyesi taşınır
@@ -282,7 +282,7 @@ Dallanma YOK (Chapters dallanır, biz dallanmayız): kararlar birleşir; değiş
 
 ### YAPI-46 Karar uyarısı (K8)
 Taslak (`TASLAK_tekrar_onleme.md`, 12 Kasım 2026; kasa kalkmadan önce yazıldı). Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
-16 Kasım 2026'da kasa ve karar parası ekrandan kalktı (YAPI-31); bu uyarının para ölçütünün kalıp kalmadığı açık: bkz. CELISKI-YAPI-4.
+16 Kasım 2026'da kasa ve karar parası ekrandan kalktı (YAPI-31). Bu yüzden K8 **yeni oyunda kalkar** (para yok); eski oyunda kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 37).
 *Kaynak:* 980
 
 ### YAPI-47 "Dosyanın tamamı"
