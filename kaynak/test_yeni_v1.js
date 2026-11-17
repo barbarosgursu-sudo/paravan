@@ -124,11 +124,12 @@ console.log("\n=== K19 Kim yaptı? ===");
 }
 {
   const g = kopya(G); delete v1(g).decisions[0].onizleme;
-  k("kısa sonucu olmayan karar → K19 (kural 22a)", hataVar(sessiz(g), "[K19]", "22a"));
+  // 17 Kasım 2026 (sahibinin kararı): önizleme, kesinti açıklaması ve kasa denetimi kalktı — artık hata VERMEMELİ.
+  k("kısa sonucu olmayan karar artık K19 hatası değil (önizleme kalktı)", !hataVar(sessiz(g), "[K19]", "onizleme"));
 }
 {
   const g = kopya(G); delete v1(g).kim_yapti.kesinti.yanlis;
-  k("açıklamasız ücret kesintisi → K19 (kural 22a)", hataVar(sessiz(g), "[K19]", "kesinti"));
+  k("açıklamasız ücret kesintisi artık K19 hatası değil (kesinti kalktı)", !hataVar(sessiz(g), "[K19]", "kesinti"));
 }
 {
   // Kural 21c: tek ipucunun kendi iki olgusunu doğru çift yap → yakalanmalı.
@@ -138,7 +139,7 @@ console.log("\n=== K19 Kim yaptı? ===");
 }
 {
   const g = kopya(G); v1(g).decisions[0].para = -(v1(g).kim_yapti.ucret.yanlis + 1);
-  k("kasayı eksiye düşürebilen karar → K19", hataVar(sessiz(g), "[K19]", "eksi"));
+  k("eksi paralı karar artık K19 hatası değil (kasa kalktı)", !hataVar(sessiz(g), "[K19]", "eksi"));
 }
 {
   const g = kopya(G); v1(g).sahneler.kapanis.satirlar.push({ k: "peri", m: "deneme", bag: "orta" });

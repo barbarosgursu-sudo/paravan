@@ -615,6 +615,8 @@ function kural7_secim(game, hatalar, uyarilar) {
 // ---------------------------------------------------------------------------
 function kural8_baskinlik(game, hatalar, uyarilar) {
   for (const vaka of game.vakalar) {
+    // Yeni oyunda (Kim yaptı? olan vaka) K8 yok: para yalnız hikâyede, oyun saymaz (sahibinin kararı, 17 Kasım 2026).
+    if (vaka.kim_yapti) continue;
     const kararlar = (vaka.decisions || []).filter(d => d.para !== undefined);
     if (kararlar.length < 2) continue;                       // ekonomi yok → atla
 
@@ -984,8 +986,8 @@ function kural19_kimYapti(game, hatalar) {
     const u = ky.ucret || {};
     if (!(u.dogru >= u.zayif && u.zayif >= u.yanlis && u.yanlis >= 0))
       hatalar.push(`[K19] ${yer}: ücret sırası dogru ≥ zayif ≥ yanlis ≥ 0 olmalı.`);
-    for (const k of ["zayif", "yanlis"]) if (u[k] < u.dogru && !((ky.kesinti || {})[k] || "").trim())
-      hatalar.push(`[K19] ${yer}: '${k}' ücret kesintisinin açıklaması (kesinti.${k}) yok — kural 22a.`);
+    // Ücret kesintisi açıklaması (kesinti), karar önizlemesi ve "kasa eksiye düşmez" denetimi 16 Kasım 2026 düzeniyle
+    // kalktı (karar sahnede, kasa yok); sahibinin kararı, 17 Kasım 2026.
     // Kısa kanıt adları (18 Ekim 2026): varsa ipucundan gelen her olgunun adı olmalı, yoksa
     // liste yarısı ad yarısı paragraf olur. Yoksa (V1, V2) ekran tam metne düşer.
     if (ky.kanit_ad) {
@@ -1007,12 +1009,9 @@ function kural19_kimYapti(game, hatalar) {
     if (dec.length !== 4) hatalar.push(`[K19] ${vaka.id}: ${dec.length} karar; şablon 4 ister.`);
     for (const d of dec) {
       if (d.gate !== "yok") hatalar.push(`[K19] ${vaka.id}/${d.id}: kararda kapı olmaz (gate: "yok").`);
-      if (typeof d.onizleme !== "string" || !d.onizleme.trim()) hatalar.push(`[K19] ${vaka.id}/${d.id}: karar ekranındaki kısa sonuç (onizleme) yok — kural 22a.`);
       if (d.seed_yaz && Object.keys(d.seed_yaz).length) hatalar.push(`[K19] ${vaka.id}/${d.id}: tohum yazılmaz (vakalar arası bağ yok).`);
     }
     if (Object.keys(vaka.seeds || {}).length) hatalar.push(`[K19] ${vaka.id}: vaka tohumu tanımlı; tohum yok.`);
-    const enAz = Math.min(0, ...dec.map(d => d.para || 0));
-    if ((u.yanlis || 0) + enAz < 0) hatalar.push(`[K19] ${vaka.id}: en kötü durumda (yanlış kişi + en pahalı karar) kasaya eksi girer.`);
     for (const c of vaka.clues || []) if (c.bedelsiz) hatalar.push(`[K19] ${vaka.id}/${c.id}: bedava ipucu yok; her ipucu bir hak harcar.`);
     if ((vaka.arastirma ?? 3) >= (vaka.clues || []).length) hatalar.push(`[K19] ${vaka.id}: ipucu sayısı haktan fazla olmalı.`);
     if (!OyunYeni) continue;
