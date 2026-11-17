@@ -26,3 +26,29 @@ Açılıp kapanan kıyafetin kartı.
 - **B (ISTEM_KALIPLARI §11, 13 Kasım 2026; 5_gorsel_sistemi I'daki 13 Kasım maddesi):** kart tek kişi, dikey 2:3; **iki hâl iki ayrı kart** (yan yana iki figür yok). Gerekçe: V6'da iki kişili yatay Cengo kartı (G2) katalog çizimine kaydı. — no 1226, 560
 B daha yeni ve gerekçeli, ama A'nın yerine geçtiğini açıkça yazmıyor; ikisi aynı belgede (5_gorsel_sistemi I) yan yana duruyor.
 **Soru:** I bölümündeki "iki hâli aynı kartta yan yana" maddesi kalksın ve yerine "iki hâl iki ayrı kart" mı yazılsın?
+
+### CELISKI-ISTEM-5
+Konuk kıyafet kartı kimlere üretilir?
+- **A (5_gorsel_sistemi I, 8 Kasım 2026, sahibinin kararı; SR-C):** ilk figürden önce vakadaki her kıyafet için kart: "Peri, Cengo ve her konuğun kıyafeti." — no 553
+- **B (DEVIR, 13 Kasım 2026, sahibinin cevabı; Vaka 6 Parti 2 için sorulan soru):** yalnız karede görünen üç konuğa (Müzeyyen, Jale, Dilek), gerekçe kota; sonradan kareye giren olursa kartı o zaman; `uretim/v6/LISTE.md`'ye yazıldı. — no 2816
+B yalnız Vaka 6 için verilmiş bir cevap; A'nın genel kuralını değiştirdiğini söylemiyor.
+**Soru:** Konuk kıyafet kartı sonraki vakalarda da yalnız karede görünen konuklara mı üretilsin, yoksa genel kural "her konuğun kıyafeti" mi kalsın?
+
+### CELISKI-ISTEM-6
+Varyantın 1. referansı dekoltesiz temelde ne?
+- **A (uretim/CLAUDE.md, `istemleri hazırla`):** "Varyantta referans = onaylı temelin baş kırpığı + kapalı gövde. Onaylı temel dekolteliyse bütün hâliyle referans verilmez." Koşulsuz okunursa dekoltesiz temelde de baş kırpığı. — no 1064
+- **B (ISTEM_KALIPLARI §5):** "1. `onayli/G<temel>.png` (dekolteliyse baş kırpığı + kapalı gövde)" — dekoltesizse bütün temel görsel. — no 1197
+**Soru:** Dekoltesiz bir temelin varyantında 1. referans bütün onaylı temel mi, yoksa yine baş kırpığı + kapalı gövde mi?
+
+### CELISKI-ISTEM-7
+Peri'nin bacağında çorap.
+- **A (5_gorsel_sistemi D tablosu; DEVIR Vaka 2, Sohbet 1 (Peri, G1–G13), 11 Ekim 2026, sahibinin kararı):** bacak görünen her kadın görselinde "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor"; karar Peri'nin G8–G13 resimlerinde alındı. — no 452, 3066
+- **B (H6, 6 Kasım 2026; Vaka 3 BIRIKIM):** Peri'nin sabiti "çorap yok"; sahnelerde "ÇORAP YOK". — no 551, 1429, 1427 (ayrıca uretim/CLAUDE.md karakter sabitleri, no 1042 — KAR konusunda)
+B daha yeni, ama A'yı iptal ettiğini ya da A'nın artık yalnız başka kadınlara uygulandığını açıkça söylemiyor.
+**Soru:** "Bacak görünen her kadına külotlu çorap" kuralı Peri dışındaki kadınlar için mi geçerli, yoksa kalktı mı?
+
+### CELISKI-ISTEM-8
+Figür zemininin rengi.
+- **A (5_gorsel_sistemi A tablosu):** Figür: "karakter, düz bej zemin". — no 346
+- **B (H4 ve istem_kontrol.sh, 6–7 ve 14 Kasım 2026):** zemin kıyafete ve saça göre `arac_zemin.py` ile seçilir, `zemin.tsv`'ye yazılır, renk adları `zeminler.tsv`'den (ör. kızıl/açık saç → gri-mavi); yalnız yeni konuk temelinin varsayılanı "açık bej". — no 540, 2967, 3569
+**Soru:** A tablosundaki "düz bej zemin" "düz tek renk zemin (renk H4'e göre)" diye düzeltilsin mi?

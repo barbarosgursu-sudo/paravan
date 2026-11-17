@@ -30,3 +30,10 @@
 - Yeni OKUBENI: her konuşma akışı (açılış, giriş, ipucu, yüzleşme+kovalamaca, kapanış) sahne ve satır düzeyinde kaydedilir (2411).
 **Soru:** Sahne düzeyinde kayıt bütün akışlarda mı geçerli (302 eskimiş mi), yoksa 302'deki "açılışta" "açınca" (oyunu yeniden açınca) mı demek?
 *Kaynak:* 302, 2411
+
+### CELISKI-KOD-6 Kapının commit bağlantısı açıldı mı?
+- Bekliyor: "Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama Vaka 6 kapıdan geçince açılacak (`.claude/settings.json` henüz yok)" (2791, 14 Kasım 2026).
+- Koşul gerçekleşti: "15 Kasım 2026 — VAKA 6 KAPIDAN GEÇTİ" (2783'ün başlığı; CLAUDE.md de "kapı GEÇTİ" diyor). Depoda hâlâ yalnız `.claude/kapi_hook.js` var, `.claude/settings.json` yok.
+- Hiçbir metin bağlantının açıldığını ya da ertelendiğini söylemiyor; bu yüzden çözülmedi.
+**Soru:** Vaka 6 kapıdan geçtiğine göre kapının commit bağlantısı (`.claude/settings.json`) şimdi açılsın mı?
+*Kaynak:* 2791, 2783

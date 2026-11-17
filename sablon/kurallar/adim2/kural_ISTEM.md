@@ -14,7 +14,7 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 | Arka plan | mekân, insansız | 900×1200 |
 | Ara kare | tam ekran an (kovalamaca, karar sonucu) | 900×1200 |
 | Detay | yakın çekim nesne (kilit, pruva) | 900×1200 |
-| Figür | karakter, düz bej zemin, uyluk ortasından yukarı | Peri ve Cengo 1122×1402, konuk 1086×1448 (konuk ölçüsü için bkz. CELISKI-ISTEM-3) |
+| Figür | karakter, düz bej zemin (zemin rengi seçimi: ISTEM-7; "bej" için bkz. CELISKI-ISTEM-8), uyluk ortasından yukarı | Peri ve Cengo 1122×1402, konuk 1086×1448 (konuk ölçüsü için bkz. CELISKI-ISTEM-3) |
 | Kart afişi | paylaşım kartı: vakanın kadrosu + mekânı, ipucusuz (bkz. 5_gorsel_sistemi G) | dikey 9:16 (ChatGPT ~941×1672) |
 *Kaynak:* 343, 344, 345, 346, 347
 
@@ -35,7 +35,8 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 
 ### ISTEM-6 Baş açısı ve bakış: burun-kulak geometrisi
 - Sol/sağ talimatı yanak/kaş ile değil burun-kulak geometrisiyle yazılır. "Sağ yanağını görüyoruz" tutmadı; "burnu kadrajın sağına baksın, kulağı solunda kalsın" ilk seferde tuttu.
-- Her figür isteminde aynı satır (H3): "Başın açısı: burnu kadrajın soluna bakıyor (kulağı kadrajın sağında kalıyor); yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil."
+- Her figür isteminde aynı satır (H3, aynen): "Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil."
+- Vaka 3'te (BIRIKIM §6.1, işe yarayanlar) satır kulakla da yazılmıştı: "Başın açısı: burnu kadrajın soluna bakıyor, kulağı kadrajın sağında kalıyor; yüzü üç çeyrek. Kameraya bakmıyor."
 - Gerekçe: oyunda Peri solda aynalanır, konuk sağda durur; bu satırla ikisi birbirine bakar.
 - Yüz profile dönüyorsa: "üç çeyrek, İKİ göz de açıkça görünsün" (Vaka 3'te en sık bozulanlardan biri profil yüzdü).
 - `istem_kontrol.sh` figürde "Başın açısı" yoksa geçirmez.
@@ -102,7 +103,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 
 ### ISTEM-14 Varyant (aynı karakter, başka ifade)
 - Kıyafet başına tek temel görsel: önce nötr görsel üretilir; diğer ifadeler hep onun düzenlemesidir. Yüz, ölçek ve kıyafet sabit kalır. Ölçek kayarsa: temel görsel 1. referans.
-- Referanslar: 1. `onayli/G<temel>.png`; onaylı temel dekolteliyse bütün hâliyle verilmez, onun baş kırpığı + kapalı gövde verilir (baş kırpığını temel onaylanınca yerel Claude hazırlar, `referanslar/`). Gerekirse 2. poz (`poz_cengo_*` ya da `poz_*.jpg`, "YALNIZ poz").
+- Referanslar: 1. `onayli/G<temel>.png`; onaylı temel dekolteliyse bütün hâliyle verilmez, onun baş kırpığı + kapalı gövde verilir (baş kırpığını temel onaylanınca yerel Claude hazırlar, `referanslar/`). Gerekirse 2. poz (`poz_cengo_*` ya da `poz_*.jpg`, "YALNIZ poz"). İki kaynak ayrışıyor: ISTEM_KALIPLARI §5 baş kırpığını yalnız dekolteli temelde ister; uretim/CLAUDE.md ise varyantın referansını koşulsuz "onaylı temelin baş kırpığı + kapalı gövde" diye yazar — dekoltesiz temelde hangisi: CELISKI-ISTEM-6.
 - Tarz paragrafı YOK, tarz örneği cümlesi YOK.
 - İstem: "Birinci referans görseldeki X'in AYNISI: aynı yüz, saç, kıyafet ve takılar; aynı çizim tarzı, aynı düz <renk> arka plan, aynı ölçek ve kadraj. Değişen tek şey poz ve ifade." → poz → bakış → ifade → kadraj + zemin → çıplaklık → yazı yasağı → oran.
 *Kaynak:* 411, 1197, 1419, 1420, 1064, 433, 450
@@ -115,7 +116,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 *Kaynak:* 2536, 3119, 1347, 412, 3563, 1149
 
 ### ISTEM-16 Referanslarda dekolte yok — zorunlu
-- Güvenlik filtresinin engelinin asıl sebebi referans resimdeki görünür dekolte (Vaka 3 deneyi G1, G2, G9); metindeki "seksi", "dekolte", "vücudu saran", "çekici" tek başına engel sebebi değildi. Bir tane dekolteli referans bile yetiyor; referansların HEPSİ dekoltesiz olmalı. (Sebep konusundaki ayrılık: CELISKI-ISTEM-1.)
+- Vaka 3 deneyinde (G1, G2, G9; BIRIKIM §4.2) bulunan: engelin asıl sebebi referans resimdeki görünür dekolte; metindeki "seksi", "dekolte", "vücudu saran", "çekici" tek başına engel sebebi değildi (uretim/CLAUDE.md de "Güvenlik filtresi metne değil referans resimdeki dekolteye bakıyor" der). Ekim 2026'daki ChatGPT bulgusu ise sebebi çoğu zaman sözcüklerde görür; bu ayrılık açık: CELISKI-ISTEM-1. Kural sebepten bağımsız: bir tane dekolteli referans bile yetiyor; referansların HEPSİ dekoltesiz olmalı.
 - Kanıtlar: çekicilik satırını yumuşatmak işe yaramadı (0/4); "kişinin dekoltesi, vücudu saran" metni dekolteli referansla engellendi, aynı metin kapalı referansla geçti. Vaka içinde onaylı dekolteli Peri resimleri (G1–G3) sahne referansı olarak kullanıldığında G49–G67'nin çoğu yine geçti: tek dekolteli referans her zaman engellemiyor ama riski artırıyor; sahnelerde de baş kırpığı + kapalı gövde güvenli yol.
 - Kadın karakterin referansı: yalnız baş kırpığı (çeneden yukarısı, yaka yok) + kapalı giyimli tarz gövdesi (`uretim/referanslar/tarz_govde_kadin.jpg`). Dekolteli kıyafette referans = baş kırpığı + `tarz_govde_kadin.jpg`, bütün figür değil (`v3/referanslar/peri_*_bas.png`). Poz referansları da kapalı giyimle ya da başı silik gövdeyle verilir.
 - Ortak referanslar (`uretim/referanslar/`: Peri ve Cengo baş kırpıkları, kapalı giyimli tarz gövdeleri kadın/erkek/iri erkek, büro ve tarz mekânları) hepsi dekoltesiz; vakaya özgü referanslar o vakanın `referanslar/` klasöründe.
@@ -124,15 +125,15 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 *Kaynak:* 1061, 1062, 1063, 1066, 1285, 1391, 1392, 1395, 1438, 1443, 1479, 1213, 1153, 3564
 
 ### ISTEM-17 Kıyafet kartının istemi
-- 8 Kasım 2026, sahibinin kararı (SR-C). Görsel listesinden sonra, ilk figürden önce vakadaki her kıyafet için tek bir ölçü resmi üretilir: boy, kesim, renk, aksesuar; açılıp kapanan kıyafette iki hâl de (trençkot kapalı / açık). Peri, Cengo ve konukların kıyafeti (hangi konuklar: ISTEM-18). Kartlar önce sahibine gider.
+- 8 Kasım 2026, sahibinin kararı (SR-C). Görsel listesinden sonra, ilk figürden önce vakadaki her kıyafet için tek bir ölçü resmi üretilir: boy, kesim, renk, aksesuar; açılıp kapanan kıyafette iki hâl de (trençkot kapalı / açık). Peri, Cengo ve her konuğun kıyafeti (Vaka 6'da yalnız karede görünen konuklara üretildi: ISTEM-18; genel kural olup olmadığı: CELISKI-ISTEM-5). Kartlar önce sahibine gider.
 - Kart TAM BOY: baştan ayakkabıya, önden, düz duruş, nötr yüz, düz zemin (figür uyluktan kesildiği için boy ve etek/trençkot uzunluğu ancak tam boyda görünür). Tek kişi, dikey 2:3 (13 Kasım 2026). İki hâlin nasıl verileceği: CELISKI-ISTEM-4.
 - Kartta çekicilik satırı YAZILMAZ (sahibi, 8 Kasım 2026); dekolte hafif yazılır: "derin V dekolte" yerine "V yakalı", "göbeği açık" yerine "göbeği hafif açık". Gerekçe: tam boyda derin dekolte + mini elbise + çıplak bacak + "seksi" bir araya gelince çıktı filtresi engelledi (G101, sexual, output); uyluktan kesik figürde bu sorun çıkmıyordu. Kart yalnız kıyafetin ölçüsünü taşır; çekicilik ve dekolte figür ve kare istemlerinde yazılmaya devam eder.
 - Kart tarz taşımaz ama kendisi de boyalı tarzda üretilir (13 Kasım 2026, sahibi: "farklı stil olan her şey yeniden üretilecek"; V6'da Cengo kartı G2 — iki kişi yan yana, yatay 3:2, küçük tam boy — katalog çizimine kaydı): yüz/tarz referansı olarak karakterin BOYALI onaylı resmi (Cengo: `v3/onayli/G4.png`) + tarz örneği + tarz örneği cümlesinin TAMAMI ("Karikatür değil…" dahil).
 - `istem_kontrol.sh` kartta "TAM BOY" yoksa ya da "Çekicilik" varsa geçirmez.
 *Kaynak:* 553, 554, 555, 1217, 1226, 1227, 560, 3583, 3584, 2630
 
-### ISTEM-18 Konuk kıyafet kartı yalnız karede görünenlere
-Konuk kıyafet kartı yalnız karede görünen konuklara üretilir (13 Kasım 2026, sahibinin cevabı, Vaka 6: Müzeyyen, Jale, Dilek — kota yüzünden); sonradan kareye giren olursa kartı o zaman.
+### ISTEM-18 Vaka 6 kararı: konuk kıyafet kartı yalnız karede görünenlere
+Vaka 6'da (Parti 2'den önce sorulan soru; 13 Kasım 2026, sahibinin cevabı) konuk kıyafet kartı altı konuğa değil, yalnız karede görünen üçüne (Müzeyyen, Jale, Dilek) üretildi — gerekçe kota; sonradan kareye giren olursa kartı o zaman. Karar `uretim/v6/LISTE.md`'ye yazıldı. Kaynak bunu yalnız Vaka 6 için söylüyor; ISTEM-17'deki "her konuğun kıyafeti" ile ilişkisi: CELISKI-ISTEM-5.
 *Kaynak:* 2816
 
 ### ISTEM-19 Kartı referans alan istem
@@ -142,7 +143,7 @@ Konuk kıyafet kartı yalnız karede görünen konuklara üretilir (13 Kasım 20
 
 ### ISTEM-20 Karakter sabitleri her istemde
 - Karakter sabitleri her istemde tek tek yeniden yazılır; referansa güvenilmez (Vaka 2 K24, G19: ayakkabı yeşil, saç kumral çıktı). Ör. "kırmızı stiletto", "platin saç".
-- Peri: HER istemde "kırmızı stiletto" (Vaka 3'te ayakkabı siyah çıktı) ve "çorap yok" (sahnelerde "ÇORAP YOK"). Mantolu Peri'nin altında siyah kalem etek (sahibinin duran kuralı, 7 Ekim 2026).
+- Peri: HER istemde "kırmızı stiletto" (Vaka 3'te ayakkabı siyah çıktı) ve "çorap yok" (sahnelerde "ÇORAP YOK"). Ayakkabının istisnası (vakanın formu başka ayakkabı yazıyorsa o: Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı) ve sabitler tablosu: KAR-23 (uretim/CLAUDE.md, karakter sabitleri). "Çorap yok" ile ISTEM-38'in ilişkisi: CELISKI-ISTEM-7. Mantolu Peri'nin altında siyah kalem etek (sahibinin duran kuralı, 7 Ekim 2026).
 - Kıyafet sabitleri kalıpta 8. sırada (vakaya göre: etek, ayakkabı rengi…). Karakter sabitleri listesi CLAUDE.md'de durmalı (Vaka 3'te tek sabit Peri'nin kırmızı stilettosuydu; diğer karakterlerde benzeri tutulur).
 *Kaynak:* 551, 1157, 1492, 1496, 451, 3119, 437
 
@@ -229,7 +230,7 @@ Detay karede elin sahibinin kıyafeti yazılır (Gülsüm: kısa kollu tişört,
 *Kaynak:* 458
 
 ### ISTEM-38 Çorap
-Bacak görünen her kadın görselinde: "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor" (Vaka 2 G8–G13; sahibinin kararı: bant kaldırılır). Otomatik rötuş denendi, olmadı (bant etek ucuna yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönülmez. (Peri için "çorap yok": ISTEM-20.)
+Bacak görünen her kadın görselinde: "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor" (Vaka 2 G8–G13; sahibinin kararı: bant kaldırılır). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" istemiyle yeniden üretildi (Grok, 912×1136). Otomatik rötuş denendi, olmadı (bant etek ucuna yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönülmez. Not: bu kararın doğduğu G8–G13 Peri'nin resimleriydi (Vaka 2, Sohbet 1); sonradan Peri için "çorap yok" sabiti kondu (ISTEM-20) ve hiçbir kaynak birinin öbürünü iptal ettiğini söylemiyor: CELISKI-ISTEM-7.
 *Kaynak:* 452, 3066
 
 ### ISTEM-39 Yorgun göz

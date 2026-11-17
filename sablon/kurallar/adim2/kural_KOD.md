@@ -18,7 +18,7 @@ node dogrulayici.js && node build_html.js     # doğrulayıcı geçmezse derleme
 for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçmeli
 ```
 Yeni oyunda her değişiklikten sonra: `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js`, testler. Sahneyi etkileyen
-değişiklikte ayrıca tur (`node arac_yeni_tur.js 0 vapur dogru` gibi, yollar KOD-28'de) ve sızıntı taraması (`node arac_sizinti_tur.js V5 40`).
+değişiklikte ayrıca tur (`node arac_yeni_tur.js 0 vapur dogru` gibi, yollar KOD-27'de) ve sızıntı taraması (`node arac_sizinti_tur.js V5 40`).
 *Kaynak:* 10, 11, 2326, 2350, 2886
 
 ### KOD-4 Doğrulayıcı ne zaman çalışır, ne çıktı verir
@@ -178,7 +178,7 @@ Sahibinin kararı: `cd kaynak && node arac_sizinti_tur.js [VN] [tur]` (ör. `V5 
 *Kaynak:* 2927, 3127
 
 ### KOD-35 Kapı (arac_kapi.js)
-Sahibinin kararı: vaka kaydedilmeden önce `kaynak/arac_kapi.js` 13 kural + eski denetimleri kendiliğinden koşar; Vaka 6 ve sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama Vaka 6 kapıdan geçince açılacak (`.claude/settings.json` henüz yok). Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). `arac_kapi.js … resim` K2/K8/K6, Cengo satırlarındaki ifadenin kapanış setinde olmamasını yakalar (KOD-52).
+Sahibinin kararı: vaka kaydedilmeden önce `kaynak/arac_kapi.js` 13 kural + eski denetimleri kendiliğinden koşar; Vaka 6 ve sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama Vaka 6 kapıdan geçince açılacak (`.claude/settings.json` henüz yok) — 14 Kasım 2026 durumu; Vaka 6 15 Kasım'da kapıdan geçti, bağlantının açılıp açılmadığı için bkz. CELISKI-KOD-6. Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). `arac_kapi.js … resim` K2/K8/K6, Cengo satırlarındaki ifadenin kapanış setinde olmamasını yakalar (KOD-75).
 *Kaynak:* 2791, 752
 
 ## D. Yeni oyunun verisi ve derlemesi
@@ -347,7 +347,7 @@ Bir olgu adı (`facts` anahtarı ya da `knowledge.turetilen`) yalnız tek bir va
 *Kaynak:* 45, 2290, 2292, 2364, 2369
 
 ### KOD-64 K13 — Varyant sırası
-Varyant sırası AZALAN eşik olmalı ve sonda `varsayilan` bulunmalı. `metinSec` ilk tutanı döndürür; sıra bozulursa sıcak varyant hiç görünmez, `varsayilan` yoksa satır sessizce boşalır; ikisi de hata vermez.
+(Cengo satırının üç kuralından biri.) Cengo satırının (`cengo_sonuc`) sıcaklık varyantlarının (soğuk/varsayılan/sıcak; Cengo bağı eşiğine göre) sırası AZALAN eşik olmalı ve sonda `varsayilan` bulunmalı. Öbür iki kural KAR'da: kararın öncesindeki bağa bakar (KAR-18), sıcaklık onay değildir (KAR-17). `metinSec` ilk tutanı döndürür; sıra bozulursa sıcak varyant hiç görünmez, `varsayilan` yoksa satır sessizce boşalır; ikisi de hata vermez.
 *Kaynak:* 41
 
 ### KOD-65 K14 — Tanımsız olgu, hata
@@ -377,7 +377,7 @@ Arama `toLocaleLowerCase("tr")` ile. Biri tutmazsa hata, derleme durur (45 üst�
 *Kaynak:* 747, 2443
 
 ### KOD-70 K19 — Kim yaptı? yapısı
-3 şüpheli; suçlu her yolda görünür; kanıt çiftleri olgu; ücret sırası; dört yüzleşme sahnesi; 4 karar; kapı/tohum/bedava ipucu yok; ipucu > hak; hak içinde en az 2 farklı doğru kanıt çifti (suçluyu kanıtlayan en az 2 ipucu yolu); hiçbir doğru çift tek ipucundan çıkmaz (kural 21c); her ücret kesintisinin açıklaması (`kesinti`) var (kural 22a). Ayrıca K19 metni: her kararın `onizleme`si var ve en kötü durumda kasa eksiye düşmez — bu ikisi için bkz. CELISKI-KOD-1 ve CELISKI-KOD-3.
+3 şüpheli; suçlu her yolda görünür; kanıt çiftleri olgu; ücret sırası; dört yüzleşme sahnesi; 4 karar; kapı/tohum/bedava ipucu yok; ipucu > hak; hak içinde en az 2 farklı doğru kanıt çifti; hiçbir doğru çift tek ipucundan çıkmaz (kural 21c); her ücret kesintisinin açıklaması (`kesinti`) var (kural 22a). Ayrıca K19 metni: her kararın `onizleme`si var ve en kötü durumda kasa eksiye düşmez — bu ikisi için bkz. CELISKI-KOD-1 ve CELISKI-KOD-3. Üretim denetiminde ayrıca: suçluyu kanıtlayan en az 2 ipucu yolu var (742).
 *Kaynak:* 2444, 742, 743
 
 ### KOD-71 Kabul edilmiş / açık uyarılar (yeni oyun)

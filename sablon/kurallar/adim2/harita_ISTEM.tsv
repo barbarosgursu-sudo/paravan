@@ -4,7 +4,7 @@
 343	ISTEM-3	
 344	ISTEM-3	
 345	ISTEM-3	
-346	ISTEM-3,CELISKI-3	
+346	ISTEM-3,CELISKI-3,CELISKI-8	
 347	ISTEM-3	
 350	ISTEM-5,ISTEM-6	
 379	ISTEM-19,CELISKI-2	'kıyafet sözle yeniden tarif edilmez' kısmı çelişkide; SR-C örneği (kısa trençkot/uzun) çelişki dosyasında
@@ -33,7 +33,7 @@
 449	ISTEM-30	
 450	ISTEM-14	
 451	ISTEM-20,CELISKI-2	
-452	ISTEM-38	
+452	ISTEM-38,CELISKI-7	
 453	ISTEM-33	
 454	ISTEM-34	
 455	ISTEM-28	
@@ -45,11 +45,11 @@
 502	ISTEM-5,CELISKI-3	
 503	ISTEM-5	
 525	ISTEM-6	
-526	ISTEM-6	
+526	ISTEM-6	H3 satırı ISTEM-6'da aynen; BIRIKIM'in kulaklı biçimi (1423) ayrı madde
 527	ISTEM-6	
-540	ISTEM-7,ISTEM-52	
-551	ISTEM-9,ISTEM-20,ISTEM-27,ISTEM-31	H6 sabit satır listesi; bakış/zemin/oran/yazı kısımları ISTEM-6/7/4/28'de
-553	ISTEM-17	
+540	ISTEM-7,ISTEM-52,CELISKI-8	
+551	ISTEM-9,ISTEM-20,ISTEM-27,ISTEM-31,CELISKI-7	H6 sabit satır listesi; bakış/zemin/oran/yazı kısımları ISTEM-6/7/4/28'de
+553	ISTEM-17,CELISKI-5	
 554	ISTEM-17,CELISKI-4	'iki hâli aynı kartta yan yana' kısmı çelişkide
 555	ISTEM-17	
 557	ISTEM-19,CELISKI-2	'kıyafet sözle yeniden tarif edilmez' kısmı çelişkide; SR-C örneği (kısa trençkot/uzun) çelişki dosyasında
@@ -58,7 +58,7 @@
 1061	ISTEM-16	
 1062	ISTEM-16	
 1063	ISTEM-11,ISTEM-16	
-1064	ISTEM-14	
+1064	ISTEM-14,CELISKI-6	
 1065	CELISKI-2	
 1066	ISTEM-16	
 1067	ISTEM-1	
@@ -70,7 +70,7 @@
 1154	ISTEM-22	
 1155	ISTEM-28	
 1156	ISTEM-29	
-1157	ISTEM-20	
+1157	ISTEM-20	Ayakkabı istisnası (Vaka 4 çizme, Vaka 6 spor ayakkabı) no 1042'de (KAR-23); ISTEM-20 oraya bağlandı
 1158	ISTEM-31	
 1159	ISTEM-6	
 1160	ISTEM-39	
@@ -103,7 +103,7 @@
 1194	ISTEM-10	
 1195	ISTEM-10	
 1196	ISTEM-12,ISTEM-13	
-1197	ISTEM-14	
+1197	ISTEM-14,CELISKI-6	
 1198	ISTEM-5,ISTEM-7	aday renk listesindeki 'orta yeşil' düştü: H4/istem_kontrol 'Vaka 4'ten sonra yeşil yok' ve renkler artık zeminler.tsv'den
 1199	ISTEM-5	
 1201	ISTEM-45,ISTEM-46	
@@ -145,9 +145,9 @@
 1424	ISTEM-5	
 1425	YOK	yalnız başlık ('Sahnelerde:'); alt maddeleri 1426-1428
 1426	ISTEM-35	
-1427	ISTEM-35	
+1427	ISTEM-35,CELISKI-7	
 1428	ISTEM-21,ISTEM-35	
-1429	ISTEM-29	
+1429	ISTEM-29,CELISKI-7	
 1430	ISTEM-28	
 1431	ISTEM-41	
 1432	ISTEM-42	
@@ -179,12 +179,12 @@
 2581	ISTEM-11	Peri poz kütüphanesi kısmı (L1 yüz, L22/L25, L16, L13/L24; her Peri promptuna uygun L) ESKIDI: no 1063 eski L referanslarını kullanılmaz ilan etti; Cengo kısmı kural
 2582	ISTEM-25	
 2630	ISTEM-7,ISTEM-17,ISTEM-51	kartta Peri kaşe palto/Cengo deri ceket ve yüz için Vaka 3 baş kırpıkları Vaka 4'e özgü örnek; kural içine genel hâliyle girdi
-2816	ISTEM-18	
+2816	ISTEM-18,CELISKI-5	Vaka 6'ya özgü karar olarak yazıldı (genel kural değil)
 2869	ISTEM-56	
-2967	ISTEM-7,ISTEM-9,ISTEM-21,ISTEM-44,ISTEM-51,ISTEM-57	
+2967	ISTEM-7,ISTEM-9,ISTEM-21,ISTEM-44,ISTEM-51,ISTEM-57,CELISKI-8	
 3012	ISTEM-11	
 3015	ESKIDI	Peri L1–L25 poz kütüphanesi (L1 her temel Peri'de yüz) — no 1063: 'Peri'nin eski referansları (L*, peri_*, poz_peri_*) HEPSİ dekolteli — kullanılmaz'; yerine peri_bas.jpg + tarz_govde_kadin (ISTEM-11)
-3066	ISTEM-38	
+3066	ISTEM-38,CELISKI-7	
 3077	ISTEM-25,ISTEM-35,ISTEM-36	11 Ekim K23 ertelemesi (Grok'ta orijinal promptla; yedek yumuşatılmış prompt: kamera yandan göğüs hizası, Peri pastanın alt katına oturmuş, ref G42+G8) ESKIDI: 16 Ekim kararı (no 415) 'önce düşünen kip' yolunu koydu ve K23 öyle üretildi; 'Claude kendiliğinden yumuşatmaz' kısmı ISTEM-25'te
 3082	ISTEM-54	
 3119	ISTEM-12,ISTEM-15,ISTEM-20,ISTEM-21	'doğrudan main' ve 'yeni kanon eklemeden önce sor' kısımları bu konunun değil (SUREC/KAR), orada kural olarak duruyor; burada tekrarlanmadı
@@ -198,7 +198,7 @@
 3566	ISTEM-51	
 3567	ISTEM-31	
 3568	ISTEM-6	
-3569	ISTEM-7	
+3569	ISTEM-7,CELISKI-8	
 3570	ISTEM-7	
 3571	ISTEM-7	
 3572	ISTEM-7	
