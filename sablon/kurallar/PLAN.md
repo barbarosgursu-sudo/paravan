@@ -5,7 +5,13 @@
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
 > ## ▶️ YENİ PENCERE: BURADAN BAŞLA (17 Kasım 2026)
-> **Durum:** Adım 1 (etiketleme) BİTTİ. Adım 2 (birleştirme) BİTTİ — yalnız sahibinin **41 sorusu** cevap bekliyor:
+> **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
+> kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında
+> "Cevap" satırı). Kod: doğrulayıcı K19'dan önizleme/kesinti/kasa denetimi kalktı, K8 yeni oyunda çalışmaz (`d3b4c7d`). Kapı commit
+> bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
+> **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
+>
+> **Eski durum:** Adım 1 (etiketleme) BİTTİ. Adım 2 (birleştirme) BİTTİ — yalnız sahibinin **41 sorusu** cevap bekliyor:
 > `sablon/kurallar/adim2/SORULAR.md` (her soruda Claude'un önerisi var; sahibi "öneriler tamam" ya da numara + istediği der).
 > **Sıradaki iş, sırayla:**
 > 1. Sahibinden 41 sorunun cevabını al (dosyayı ona gönder ya da hatırlat; uzun anlatma).
