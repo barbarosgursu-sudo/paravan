@@ -8,11 +8,16 @@
 
 ---
 
+> ### 🔑 YETKİ (17 Kasım 2026, Barbaros'un kararı): **Oğuz Bey'in hesabı Paravan'da HER ŞEYE yetkili** — kod, kurallar (kural
+> toplama işi dahil), metin, resim, yayın; Barbaros'a danışmadan karar verir ve yapar. Sebep: Barbaros'un haftalık sınırı doldu (Cuma
+> sıfırlanır); kural toplama işini Oğuz Bey'in hesabıyla sürdürecek. Aşağıdaki "kurallar Barbaros'ta / Barbaros'a danışılır" sözleri bu
+> kararla askıda; Barbaros geri alana dek geçerli. Kural işi: `sablon/kurallar/PLAN.md` en üst kutu.
+>
 > ## 📚 BARBAROS İLE — KURALLARI TEK DOSYADA TOPLAMA (16 Kasım 2026 akşam) — KRİTİK, YARIM, AYRI PENCEREDE SÜRECEK
 > **Önce `sablon/kurallar/PLAN.md`'yi baştan sona oku** (neden, sahibiyle anlaşma, yapılanlar, plan, bulgular, bekleyen sorular).
 > Kısaca: kurallar 34 belgeye dağılmış ve çoğu kendiliğinden uygulanmıyor (G4 Süheyla = V6 Jale bu yüzden geçti). Ham liste
 > çıkarıldı (`sablon/kurallar/HAM.md`, 3.585 kayıt), eski oyunun 18 belgesi `arsiv/`'e taşındı, `kaynak/OKUBENI.md` bölündü.
-> **Durum (17 Kasım):** adım 1 (etiketleme) ve adım 2 (birleştirme, 687 kural) bitti; sahibinin 41 sorusu bekliyor (`sablon/kurallar/adim2/SORULAR.md`). **PLAN.md en üstteki kutudan devam.** Sahibiyle en basit, en kısa Türkçe. Oğuz Bey etkilenmez.
+> **Durum (17 Kasım akşam):** adım 1 ve adım 2 bitti; 41 soru cevaplandı ve işlendi (çelişki 0). Sıradaki adım 3 (tek `KURALLAR.md`). Açık tek soru PLAN.md'de (Cengo'nun saçı). **PLAN.md en üstteki kutudan devam.** Sahibiyle en basit, en kısa Türkçe. Oğuz Bey etkilenmez.
 
 > ## 🛑 OĞUZ BEY'E — VAKA 7 RESİMLERİ DURSUN (Barbaros, 16 Kasım 2026 gece). ÖNCE BARBAROS'LA PERİ'NİN KIYAFETİ KONUŞULACAK.
 >

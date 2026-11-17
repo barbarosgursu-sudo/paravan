@@ -21,6 +21,8 @@ söylediği şey kural hâline getirilir.
 *Kaynak:* 1034, 1484
 
 ### SUREC-4 Rol ayrımı: kim neye karar verir
+- **17 Kasım 2026 (Barbaros'un kararı): Oğuz Bey'in hesabı her şeye yetkili** — kod, kurallar, metin, resim, yayın; aşağıdaki
+  "Barbaros'a danışılır" listesi Barbaros geri alana dek askıda.
 - **Barbaros (sahibi) her şeyi yapabilir**; ortağın yetkisi onunkini daraltmaz (11 Kasım 2026).
 - **Ortak (Oğuz Bey) kendisi karar verir (işletme):** var olan kurallara göre vaka üretmek, hikâyeye yeni ayrıntı eklemek (kanon), metin
   düzeltmek, resim üretmek, test/araç/derleme çalıştırmak, `main`'e göndermek. Belgelerdeki "sahibine sor" bu işler için ortağa sorulur.

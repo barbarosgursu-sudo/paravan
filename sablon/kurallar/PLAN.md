@@ -11,6 +11,13 @@
 > bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
 > **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
 >
+> **Açık tek soru (sahibine soruldu, cevap yok):** soru 17 "Cengo'nun saçı her vakada aynı" ile soru 30 / SEZON-22 "Peri ve Cengo'nun
+> saçı her vakada değişir" (Ekim kararı) birbirini tutmuyor. Öneri: Cengo'nun saçı da değişebilir; sabit yalnız yüz, tel, bileklik.
+> Onaylanırsa `adim2/kural_KAR.md` KAR-7, KAR-22, KAR-24'teki "yüz, saç, tel ve bileklik" → "yüz, tel ve bileklik".
+>
+> **Yetki (17 Kasım akşam):** Barbaros'un sınırı doldu (Cuma sıfırlanır); işi Oğuz Bey'in hesabıyla sürdürecek. O hesap her şeye
+> yetkili (kod dahil).
+>
 > **Eski durum:** Adım 1 (etiketleme) BİTTİ. Adım 2 (birleştirme) BİTTİ — yalnız sahibinin **41 sorusu** cevap bekliyor:
 > `sablon/kurallar/adim2/SORULAR.md` (her soruda Claude'un önerisi var; sahibi "öneriler tamam" ya da numara + istediği der).
 > **Sıradaki iş, sırayla:**
@@ -43,7 +50,8 @@
   şekilde cevapla." Uzun, ayrıntılı, teknik cevaplara iki kez tepki verdi ("o kadar uzun yazıyorsun ki okuyamıyorum bile",
   "hiçbir şey anlamadım"). Tablo, dosya yolu, kod adı yalnız gerektiğinde.
 - **Önce konuş, sonra yap.** Her adımda ne yapılacağını söyle, "yap" dendikten sonra yap.
-- **Kural işi Barbaros'ta.** Oğuz Bey kurallarla ilgilenmiyor; bu iş için ona bir şey iletilmez (sahibi: "Oğuz Bey'in görmesi
+- **17 Kasım 2026'dan beri (Barbaros'un kararı): kural işi Oğuz Bey'in hesabıyla da yürür; o hesap her şeye yetkili** (kod, kural,
+  metin, resim, yayın). Bu bölümdeki konuşma biçimi onunla çalışırken de geçerli. Eski not: **Kural işi Barbaros'ta.** Oğuz Bey kurallarla ilgilenmiyor; bu iş için ona bir şey iletilmez (sahibi: "Oğuz Bey'in görmesi
   önemli değil… Oğuz Bey kurallarla ilgilenmiyor").
 
 ## 1. Neden başladı

@@ -12,7 +12,8 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
   bilgisayarında yapılır; ikisi aynı numarayı aynı anda üretmesin (hangisinin ürettiği `DURUM.md` en üstte yazılır). Codex ve web
   ChatGPT Barbaros'un hesabıyla.
 - **Bu belgede "sahibi":** o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros) — temel onayı, resim onayı/reddi, **el onayı**,
-  web listesi, tarz soruları ona gider. Yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst).
+  web listesi, tarz soruları ona gider. Yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst). **17 Kasım 2026'dan beri Oğuz Bey'in hesabı kurallar
+  dahil her şeye yetkili (Barbaros'un kararı; kök `CLAUDE.md` en üst).**
 - **İlk iş — bu bilgisayar hazır mı (her oturumda, üretimden önce):**
   1. `python -c "import onnxruntime, PIL, numpy, torch, open_clip"` hata vermemeli; verirse `KURULUM_ORTAK.md`'deki eksik `pip install`
      satırını sahibine söyle (kendin kurma). `onnxruntime` kesim (`arac_kes_yz.py`) ve el denetimi (`arac_el.py`) için şart.
