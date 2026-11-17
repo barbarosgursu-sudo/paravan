@@ -1,0 +1,65 @@
+552	CODEX-17	
+1037	CODEX-19	
+1038	CODEX-19	
+1039	CODEX-19	
+1040	CODEX-19	
+1056	CODEX-20	sondaki "Kurallar:" yalnız sonraki listeye giriş
+1057	CODEX-21	
+1058	CODEX-21	
+1059	CODEX-21	
+1081	CODEX-22	
+1083	CODEX-23	
+1085	YOK	"Döngü çalışırken sen:" yalnız listeye giriş cümlesi; içeriği CODEX-24'te
+1086	CODEX-24,CODEX-13	
+1087	CODEX-24	
+1088	CODEX-24	
+1089	CODEX-24	
+1150	CODEX-25	
+1241	CODEX-1	
+1243	CODEX-3	
+1244	CODEX-3	
+1245	CODEX-3	
+1246	CODEX-3,CODEX-4	
+1247	CODEX-3,CODEX-4	
+1248	CODEX-3,CODEX-12	
+1249	CODEX-3,CODEX-12	
+1250	CODEX-4,CODEX-5	
+1251	CODEX-6	
+1252	CODEX-7	
+1253	CODEX-7	
+1254	CODEX-7	
+1255	CODEX-8	
+1256	CODEX-9	
+1257	CODEX-10	
+1258	CODEX-11	
+1259	CODEX-12	
+1260	CODEX-14	
+1261	CODEX-15	
+1262	CODEX-16	
+1267	CODEX-1	
+1357	CODEX-4	
+1363	CODEX-12	
+1364	CODEX-13	
+1366	CODEX-12	
+1367	CODEX-12	
+1396	CODEX-10	
+1487	CODEX-17	
+1501	CODEX-2,CODEX-13	
+1502	CODEX-18	
+1506	CODEX-3,CODEX-25	
+1524	CODEX-1	"çizgi animasyon" ifadesi CODEX-1'de parantezle korundu
+1525	CODEX-3	prompts/LISTE.md eski Vaka 3 yeri; CODEX-3'te not olarak korundu, yeni yer CODEX-20
+1526	CODEX-3,CODEX-4	
+1527	CODEX-3,CODEX-4,CODEX-17	G<n>.webp/.jpg/.png uzantı serbestliği CODEX-7 ve CODEX-17'de eski Vaka 3 bilgisi olarak korundu
+1528	CODEX-4	
+1529	CODEX-3,CODEX-9,CODEX-15	
+1530	CODEX-6	
+1531	CODEX-7	"G<n>.*" (her uzantı) CODEX-7'de korundu
+1532	CODEX-7	"yol web ise atla" kısmı ESKIDI: 1396 (sahibinin v4 kararı, 4 Kasım 2026) "Kesin web yolu yok" diyerek kaldırdı; ENGELLENDİ kısmı CODEX-7'de
+1533	CODEX-7	
+1534	CODEX-8	"oran satırındaki dikey orana en yakın boyut" yeni AGENTS.md'de yok; şüpheli olduğu için korundu
+1535	CODEX-9	
+1536	CODEX-10	
+1537	CODEX-11	
+1538	CODEX-12	"eski kayıtları değiştirme", "istemi sonradan yeniden kurma", "bitince sahibine yazamadım de" ayrıntıları korundu
+1539	CODEX-14,CODEX-15,CODEX-16	

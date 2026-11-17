@@ -1,0 +1,123 @@
+74	DENETIM-52	
+461	DENETIM-19	
+462	DENETIM-24	
+463	DENETIM-21	
+464	DENETIM-22	
+465	DENETIM-23	
+466	DENETIM-20	
+467	DENETIM-33	
+468	DENETIM-34	
+469	DENETIM-30	
+470	DENETIM-28	
+471	DENETIM-29	
+472	DENETIM-17	
+473	DENETIM-17	472'nin devamı (örnek)
+474	DENETIM-35	
+545	DENETIM-36	
+546	DENETIM-36	
+547	DENETIM-36	
+548	DENETIM-36	
+549	DENETIM-36	
+550	DENETIM-36	
+556	DENETIM-48	
+558	DENETIM-48	
+559	DENETIM-1	
+1077	DENETIM-49	
+1090	DENETIM-41	
+1091	DENETIM-42,CELISKI-1	"sahibine sormadan devam et" kısmı v3 kuralıyla çelişiyor
+1092	CELISKI-1	3. kez reddedilecek resim: WEB_LISTESI'ne yaz, sorma (v3: dur, sor)
+1093	DENETIM-42	
+1094	CELISKI-1	emin olunamayan resim: WEB_LISTESI'ne kuşkuyla yaz (v3: onaylama, sahibine söyle)
+1095	DENETIM-43,DENETIM-40	
+1096	DENETIM-1	
+1097	DENETIM-2	
+1098	DENETIM-2	
+1099	DENETIM-2	
+1100	DENETIM-3	
+1101	DENETIM-4	
+1102	DENETIM-6	
+1103	DENETIM-5	
+1104	DENETIM-7	
+1105	DENETIM-8	
+1106	DENETIM-9	
+1107	DENETIM-10	
+1108	DENETIM-11	
+1109	DENETIM-12	
+1111	DENETIM-6	
+1112	DENETIM-13	
+1113	DENETIM-14	
+1115	DENETIM-15	
+1116	YOK	yalnız bölüm başlığı ("A. İstemle karşılaştır"); kural dosyasında başlık olarak duruyor
+1117	DENETIM-18	
+1118	DENETIM-19,DENETIM-20	
+1119	DENETIM-21	"burun kadrajın soluna" kalıp olarak korundu; v3 satırları "istem öyle diyorsa" koşulunu ekliyor, birleşik metin "istemin dediği yöne; kalıp soluna"
+1120	DENETIM-22	
+1121	DENETIM-23	
+1122	DENETIM-24	
+1123	DENETIM-25	
+1124	DENETIM-26	
+1125	DENETIM-27	
+1126	DENETIM-28	
+1127	DENETIM-29	
+1128	DENETIM-30	
+1129	DENETIM-31	
+1130	DENETIM-32	
+1131	DENETIM-33	
+1132	DENETIM-36	
+1133	DENETIM-36	
+1134	DENETIM-36	
+1135	DENETIM-36	
+1136	DENETIM-37	
+1137	YOK	yalnız bölüm başlığı ("Karar")
+1138	DENETIM-38	
+1139	DENETIM-39	
+1230	DENETIM-1	
+1231	DENETIM-25	
+1273	DENETIM-42,DENETIM-43,CELISKI-1	"sahibine soru sormaz; 3. ret de listeye" kısmı v3 kuralıyla çelişiyor
+1303	DENETIM-18	
+1304	DENETIM-19	
+1305	DENETIM-20	satır "geriye dönük bakıldı:" ile bitiyor, devamı başka satırlarda; geriye dönük bakış bilgisi korundu
+1308	DENETIM-21	
+1309	DENETIM-22	
+1310	DENETIM-23	
+1311	DENETIM-24	"düz açık bej zemin" ayrıntısı ESKIDI: 5_gorsel_sistemi.md H4 "Vaka 4'ten itibaren" ve "14 Kasım 2026'dan beri … tablo yalnız tarihî kayıttır" diyerek zemini değiştirdi; kural H4 rengini anar
+1312	DENETIM-25	
+1313	DENETIM-26	
+1314	DENETIM-27	
+1315	DENETIM-28	
+1316	DENETIM-29	
+1317	DENETIM-15	
+1324	DENETIM-16	
+1325	DENETIM-38	
+1326	DENETIM-39	
+1327	DENETIM-39	
+1328	CELISKI-1	"3. kez reddedilecekse dur, sahibine sor" (G67'de iki kez işletildi; örnekler başka satırlarda)
+1332	CELISKI-1	"emin değilsen onaylama, sahibine söyle" — zamanlaması yeni döngüyle çelişiyor
+1336	DENETIM-40	
+1337	DENETIM-44	
+1338	DENETIM-46,CELISKI-2	"Codex'e üret yaz" kapanışı çelişki dosyasında
+1503	DENETIM-43	
+1504	DENETIM-47	
+1507	DENETIM-15	
+1508	DENETIM-18	
+1509	DENETIM-19,DENETIM-20	
+1510	DENETIM-20	
+1511	DENETIM-21	
+1512	DENETIM-22	
+1513	DENETIM-23	
+1514	DENETIM-24	"düz açık bej zemin" ayrıntısı ESKIDI (H4, bkz. 1311)
+1515	DENETIM-25	
+1516	DENETIM-26	
+1517	DENETIM-38	
+1518	DENETIM-39,CELISKI-1	"3. kez reddedilecekse durdur, sahibine sor" kısmı çelişki dosyasında
+1519	CELISKI-1	"emin değilsen onaylama; sahibine söyle" — zamanlaması yeni döngüyle çelişiyor
+1520	DENETIM-44	
+1521	DENETIM-46,CELISKI-2	"Codex'e üret yaz" kapanışı çelişki dosyasında
+2556	DENETIM-50	
+2557	DENETIM-51,DENETIM-52	
+2573	DENETIM-50	2556 ile aynı metin
+2583	DENETIM-51,DENETIM-52	2557 ile aynı metin
+3048	DENETIM-19,DENETIM-20,DENETIM-22,DENETIM-23,DENETIM-24,DENETIM-31,DENETIM-33,DENETIM-34	Vaka 2 arşiv notundaki kontrol listesi özeti; "Peri en gösterişli kadın (kural 15b)" DENETIM-33'e eklendi
+3059	DENETIM-45	satırın geri kalanı (G50/K23 bekliyor, gömülü sayısı, adım 11'de bakılacaklar: Tolga G30 eli, defne dogru yolu yok, saati vaka2_baslangic §1'e yaz) Vaka 2'ye özgü arşiv durumu, kural değil — düştü
+3072	DENETIM-23	marka izi ve tarama kuralı alındı; "G28 → konuk_sag, boy lal 0.80" Vaka 2'ye özgü kayıt (gömme verisi), denetim kuralı değil — düştü
+3550	DENETIM-13	

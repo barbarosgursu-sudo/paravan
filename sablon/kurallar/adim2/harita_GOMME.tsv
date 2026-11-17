@@ -1,0 +1,82 @@
+27	GOMME-1,GOMME-2	
+28	GOMME-6,GOMME-5	
+69	GOMME-11	eski oyunun hattı
+348	GOMME-10	
+475	GOMME-1	
+476	GOMME-3	
+477	GOMME-4	
+478	GOMME-4,CELISKI-1	YZ kesimi kol arası zemini siler; elle temizlik adımının geçerliliği soruldu
+479	GOMME-9	
+480	GOMME-5,CELISKI-1	'kesim aracı hale bırakır' öncülü eski renk kesimine ait; soruldu
+481	GOMME-2	profiller eski renk kesimine ait; arac_kes.js yalnız karşılaştırma için kaldığından kayıt olarak korundu
+482	GOMME-2	aynı
+483	GOMME-2	aynı
+484	GOMME-3	
+485	GOMME-5,CELISKI-1	yöntem renk kesimi dönemine ait; soruldu
+486	GOMME-15	
+487	GOMME-13,CELISKI-2	0.76-0.82 / 0.72 aralığı tabloyla çelişiyor
+488	GOMME-14	
+489	GOMME-12	
+490	GOMME-21	
+491	GOMME-22	
+495	GOMME-23	
+496	GOMME-24	
+497	GOMME-25	
+498	GOMME-26	
+499	GOMME-27	
+500	GOMME-27	
+501	GOMME-29	
+504	GOMME-13	
+505	GOMME-13	
+507	GOMME-13	boy tablosu satırı
+508	GOMME-13	boy tablosu satırı
+509	GOMME-13	boy tablosu satırı
+510	GOMME-13	boy tablosu satırı
+511	GOMME-13	boy tablosu satırı
+512	GOMME-13	boy tablosu satırı
+513	GOMME-13	boy tablosu satırı
+514	GOMME-13	boy tablosu satırı
+515	GOMME-13	boy tablosu satırı
+516	GOMME-13	boy tablosu satırı
+517	GOMME-13	boy tablosu satırı
+518	GOMME-13	boy tablosu satırı
+519	GOMME-13	boy tablosu satırı
+520	GOMME-13	boy tablosu satırı
+521	GOMME-13	boy tablosu satırı
+522	GOMME-13	boy tablosu satırı
+524	GOMME-13	
+528	GOMME-16	'Renk karaktere göre seçilir' 536 ile eskidi (kıyafete göre yazılımla)
+529	GOMME-16	'zemin saçtan da uzak' kuralı 536 ile eskidi (tablo tarihî kayıt); Vaka 3 hale dersi bej→gri-mavi sırasının gerekçesi olarak korundu
+535	GOMME-16	
+536	GOMME-16	
+537	GOMME-17	
+538	GOMME-18	
+539	GOMME-18	
+541	GOMME-19	
+542	GOMME-20	
+543	GOMME-19,GOMME-2	arac_kes.js ile kesme ve gömmede arac_hale.py kısmı 1144 ile eskidi (artık kullanılmaz); arac_hale.py eşik notu GOMME-2'de kayıt
+544	GOMME-20	
+728	GOMME-7	
+730	GOMME-6	
+1084	GOMME-16,GOMME-17,GOMME-18,GOMME-19,GOMME-20	
+1140	GOMME-8	
+1141	GOMME-8	
+1142	GOMME-8	
+1143	GOMME-8	
+1144	GOMME-1,GOMME-2	
+1145	GOMME-28	
+1146	GOMME-8,GOMME-21,GOMME-12	
+1200	ESKIDI	saç rengine göre zemin (kızıl/açık/beyaz giysi→gri-mavi, koyu→bej) ve her temelde iki zeminle deneme; 536 ('14 Kasım 2026'dan beri kıyafete göre yazılımla… tablo yalnız tarihî kayıt') ve 539 ('Eskiden her temel iki zeminle üretiliyordu; şimdi yalnız gerektiğinde') ile eskidi. 'Yeşil kullanılmaz' GOMME-16'da
+2531	GOMME-5,CELISKI-1	
+2532	GOMME-7,GOMME-13	
+2545	GOMME-7,GOMME-5,CELISKI-1	
+2551	GOMME-7	
+2580	GOMME-12	
+2793	GOMME-1	
+3001	GOMME-21,GOMME-23,GOMME-25	'Yalnız main'e push' git kuralı; bu konu dışı, CLAUDE.md'de duruyor (SUREC)
+3036	GOMME-13	
+3049	GOMME-2	Vaka 2 arşivi; renk kesimi iş akışı, kayıt olarak korundu
+3052	GOMME-5,GOMME-13,CELISKI-1,CELISKI-2	
+3074	GOMME-5,GOMME-6,GOMME-2	
+3085	GOMME-6	
+3551	GOMME-1	

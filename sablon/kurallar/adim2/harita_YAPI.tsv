@@ -1,0 +1,168 @@
+46	YAPI-37	test_borc.js eski oyunun dokuz vakası için; yeni oyunda kasa yok.
+47	YAPI-36	"düzgün olma hakkını daraltır" eski oyun için korundu; yeni oyunda 164 "hiçbir sonuç yolu kapatmaz; kasa yok".
+48	YAPI-38,YAPI-39	
+81	YAPI-1	
+82	YAPI-2	
+83	YAPI-1	
+84	YAPI-1	
+85	YAPI-1,YAPI-5	
+86	YAPI-1,YAPI-13	
+87	YAPI-1,YAPI-16	
+88	YAPI-1,YAPI-19	
+89	YAPI-1,YAPI-22	
+90	YAPI-1	
+91	YAPI-6	
+98	YOK	Yalnız alt maddelerin başlığı ("İçinde bulunması gerekenler:"); içerik 99–101 → YAPI-6.
+99	YAPI-6	
+100	YAPI-6,YAPI-32	
+101	YAPI-6	
+107	YAPI-6	
+108	YAPI-19	
+109	YAPI-19	
+112	YAPI-20	
+113	YAPI-19	
+114	YAPI-19	
+117	YAPI-4	
+118	YAPI-5	
+119	YAPI-5	
+120	YAPI-5	
+122	YAPI-4	
+123	YAPI-4	
+124	YAPI-7	
+125	YAPI-7	
+126	YAPI-8	
+127	YAPI-6	
+131	YAPI-13	
+133	YAPI-14	
+134	YAPI-14	
+135	YAPI-14	
+138	YAPI-26	
+139	YAPI-13	
+140	YAPI-16	
+141	YAPI-16	
+142	YAPI-16	
+143	YAPI-16	
+144	YAPI-16	
+145	YAPI-17	
+146	YAPI-18	
+147	YAPI-21,YAPI-32	
+148	YAPI-21	
+150	YAPI-21	
+151	YAPI-22	
+152	YAPI-22	
+153	YAPI-23	
+154	YAPI-24	
+155	YAPI-38	
+158	YAPI-3	
+159	YAPI-3	
+160	YAPI-43	
+161	YAPI-43	
+163	YAPI-44	
+164	YAPI-36	
+165	YAPI-29	
+166	YAPI-9	
+204	YAPI-15	
+205	YAPI-38	
+206	YAPI-23	
+207	YAPI-24	
+208	YAPI-25	Örnek "Elbise kılıfını…"; 2773'teki "Torbayı…" varyantı da notla yazıldı.
+209	YAPI-26	
+212	YAPI-31	CELISKI-1 ve CELISKI-2 bu kurala karşı yazıldı; kural kendisi tartışmasız (16 Kasım kararı).
+213	YAPI-32	
+214	YAPI-30	
+215	YAPI-35	
+216	YAPI-33	
+217	YAPI-34	
+218	YAPI-39	
+219	YAPI-43,YAPI-44	
+220	YOK	Ayraç (---).
+293	YAPI-1	
+294	YAPI-5	
+296	YAPI-13,YAPI-14	
+297	YAPI-1	4. parçadaki eski karar ekranı/sonuç sayfası/kasa düzeninin KALKTIĞI notu; bugünkü akış YAPI-1'e alındı.
+570	YAPI-3	
+571	YAPI-5	
+572	YAPI-32	
+573	YAPI-4	
+577	YAPI-10	
+578	YAPI-11	
+579	YAPI-11	
+580	YAPI-11	
+581	YAPI-11	
+584	YAPI-6	
+589	YAPI-6	
+592	YAPI-7	
+593	YAPI-7	
+596	YAPI-13	
+599	YAPI-5	
+600	YAPI-5	
+601	YAPI-8	
+602	YAPI-8	
+603	YAPI-8	
+613	YAPI-26	
+614	YAPI-25	
+625	YAPI-12	
+627	YAPI-23	
+629	YAPI-27	
+630	YAPI-29,YAPI-30	
+631	YAPI-23	
+636	YAPI-47	
+652	YAPI-34	
+655	YAPI-6	
+656	YAPI-4,YAPI-7	
+657	YAPI-8	
+660	YAPI-9	
+661	YAPI-10	
+662	YAPI-11	
+663	YAPI-12	
+664	YAPI-34	
+665	YAPI-29	
+666	YAPI-23,YAPI-24	
+667	YAPI-25	
+709	YAPI-12	
+710	YAPI-17	
+932	YAPI-38	
+980	YAPI-46	
+1017	YAPI-11	
+1018	YAPI-12	
+1019	YAPI-11	
+1698	YAPI-41	
+1703	YAPI-41	
+1704	YAPI-39,YAPI-42	
+1705	YAPI-42,CELISKI-1	Örnekteki "kasaya bir şey girmedi" kasa kalktıktan sonra → CELISKI-1.
+1706	YAPI-42,CELISKI-1	"kasa dolu/boş" değişkeni → CELISKI-1.
+1724	YAPI-36,YAPI-37,YAPI-38,YAPI-45	Listedeki Nurcan kuralı BILGI konusunda; diğerleri YAPI-36,37,38,45.
+1792	YAPI-40	
+1793	YAPI-38	
+1794	YAPI-40	
+1795	YAPI-40	
+1807	YAPI-36	
+1810	YOK	Yalnız başlık ("Sayıların kuralları"); maddelerinden 1815 → YAPI-33/34.
+1815	YAPI-33,YAPI-34,CELISKI-2	Ay sonu gideri (35.000 ₺) kasa kalktıktan sonra yaşıyor mu belirsiz → CELISKI-2.
+1816	YAPI-36,YAPI-37	
+1822	YAPI-15	"Cengo'nun teli hep bir bedel taşır" hikâye/espri tarafı olarak 204 ile birleştirildi (204: oyunda geçerli, mahkemede geçmemesi yalnız espri).
+1856	YAPI-3	
+1865	YAPI-20	
+1868	YAPI-20	
+1869	YAPI-20	
+1870	YAPI-20	
+1871	YAPI-19	
+1872	YAPI-19	
+1873	YAPI-19	
+1874	YAPI-20	
+1875	YAPI-19	
+1876	YAPI-19	V1'de kovalamacanın araştırmanın ortasında olması tarihçe notu olarak korundu; şablon (109) yerini karardan önce koyuyor ve 1876 da sonraki vakalar için bunu öneriyor.
+2031	YAPI-3	
+2032	YAPI-3	
+2044	YAPI-36,YAPI-37,YAPI-38,YAPI-45	Giriş cümlesi; listedeki Nurcan kuralı (2045) BILGI konusunda.
+2046	YAPI-37	
+2047	YAPI-36	
+2048	YAPI-38,YAPI-39	
+2049	YAPI-45	"değişen şey bilgi/para/bağ/tohum": para (161) ve tohum (163) açıkça kalktı; kuralda not olarak yazıldı.
+2408	YAPI-1	
+2575	YAPI-5	
+2768	YAPI-32	
+2773	YAPI-23,YAPI-24,YAPI-25,YAPI-26,YAPI-28,YAPI-30,YAPI-31,YAPI-35	Uygulama sırası/kod ayrıntıları YAPI-23..28,31; düşen: V6 örneğindeki "Haldun'un kesintisi bir replik" ifadesi — aynı gün kural 25 (213, 2768) kesintiyi açıkça kaldırdı. Ayrıca bkz. CELISKI-1.
+2776	YAPI-35	Madde 1 "eksik kasa karara göre kapanır" kasa kalktığı için "tacın parası karara göre bulunur, oyuncu ayrıca seçmez" diye aktarıldı; madde 5'teki gerekçe ("kasanın ortası; yarısına yetmez, kasa yetmiyor komedisi") kasa kalktığı için düştü, fiyat (~200.000 ₺) korundu. Motor işi (kasadan düşme, taç alındı işareti) 2773 ile iptal.
+2777	YAPI-35	Kasa ile ilgili öneriler (kasa tacın fiyatı kadar düşer, eksiye düşmez; fiyat kasanın ortası 72.000–345.000; kural 24'e "tek harcama taçtır" istisnası; motor: kasaya göre sonuç, kasadan düşme, taç alındı işareti; sezon taslağındaki "dürüst yol yalnızca erteler" cümlesinin yeniden yazımı; ortağa sorulan üç soru ve formdaki çelişki listesi) ESKIDI: 2776 cevapladı, 2773 kasayı ve motor planını kaldırdı. Kalan: taç her yolda V7'de, V8 tacın alınmış hâlinden başlar, bedel nasıl alındığıdır.
+2778	ESKIDI	Ortağın 15 Kasım soruları (kasa–taç çatışması, kural 24/27, ihbar yolu, "Tacı Cengo'ya bırak") 2776 ile cevaplandı; kasa 16 Kasım'da kalktı ve kasadan düşme planı iptal edildi (2773). Kalan olgu (4. karar "Tacı Cengo'ya bırak") YAPI-35'te. Düşen: kasanın V7'ye 72.000–345.000 ₺ gelmesi, başlangıç 4.250 — kasa yok.
