@@ -17,13 +17,15 @@ Peri seksi ve çekicidir; eski bir güzellik kraliçesi olduğu için güzel ve 
 - **Hedef:** Google Play'in izin verdiği ve görsel üreticilerin üretebildiği en yüksek seviye. ChatGPT reddederse Grok denenir.
 - **Bedeli:** Play yaş sınıflandırması büyük ihtimalle 16+ olur (yasak değil, kitle daralır).
 - Sınırı SINIR-6 ve SINIR-7'dir.
+- 4 Ekim kuralının ayrıntıları (kapalı yakada üst düğmeler açık, iç bluz aynı derinlikte; her Peri istemine bu satır) bu kuralda yok; kalıp kalmayacağı açık soru: CELISKI-SINIR-1.
 *Kaynak:* 191, 1859, 1860, 1861, 1863
 
 ### SINIR-4 Peri her zaman en seksi kadın
-Peri her resimde, vakadaki kadınların içinde her zaman en gösterişli ve seksi olandır; dekolte istenir (Vaka 2 kuralı, 17 Ekim 2026'da Vaka 3 için
-sürdürüldü; 6 Kasım 2026 "dünkü ayarlar"). Başka bir kadınla (ör. Gizem) yan yana Peri çok daha alımlı görünür. Vaka 3'te kıskançlık bundan
+Peri her resimde, vakadaki kadınların içinde her zaman en gösterişli ve seksi olandır; dekolte istenir. Asıl kural: kural 15b, sahibinin kararı,
+10 Ekim 2026 (KAR-6, no 192); 17 Ekim 2026'da Vaka 3 için sürdürüldü; 6 Kasım 2026 "dünkü ayarlar". Aynı karede Peri açıkça daha alımlı
+görünür (ışık, duruş, kıyafet); öbür kadınlar çekici kalır ama onu gölgede bırakmaz. Başka bir kadınla (ör. Gizem) yan yana Peri çok daha alımlı görünür. Vaka 3'te kıskançlık bundan
 doğar: Peri üstün olduğu hâlde huzursuzlanır. Görsel istemlerine (adım 8) baştan konur.
-*Kaynak:* 1210, 2566, 2997
+*Kaynak:* 1210, 2566, 2997 (asıl hâli 192, KAR konusunda, KAR-6)
 
 ### SINIR-5 Dekolte felaket sahnesinde de bozulmaz
 Peri'nin felaketinde (kirlenen sahnede) de dekolte temel setteki ayarda görünür.
@@ -35,13 +37,15 @@ Peri'nin felaketinde (kirlenen sahnede) de dekolte temel setteki ayarda görün�
 
 ### SINIR-7 Reşit olmayan hiç kimse bu çerçeveye girmez
 Reşit olmayan hiç kimse — Cengo'nun kızı dahil — çekicilik çerçevesine hiçbir zaman girmez. Cengo'nun kızı reşit değildir; görselde ve metinde
-çocuk/ergen olarak, tamamen masum çizilir; hiçbir romantik ya da cinsel çerçeveye girmez. Yan karakterle ilgili dekolte kararı yalnızca yan karakter
-içindir.
+çocuk/ergen olarak, tamamen masum çizilir; hiçbir romantik ya da cinsel çerçeveye girmez. V3 yan karakterine (pastanenin yetişkin, yirmili
+yaşlarının ortasındaki genç kadın çalışanı; no 1970, KAR konusunda) verilen "zaman zaman dekolte olabilir" izni yalnız onun içindir; Cengo'nun
+kızına uzanmaz.
 *Kaynak:* 194, 1862, 1973
 
-### SINIR-8 Kovalamacada Peri: erotik ve gülünç, ama acısız
+### SINIR-8 Kovalamaca: Peri erotik ve gülünç; sahnede acı, tehlike, aşağılanma yok
 Kovalamacada Peri mümkün olduğunca erotik ve kışkırtıcı pozlarda (çekicilik kuralının en üst seviyesi) ve gülünç durumlarda görünür; ikisi aynı
-karede. Peri gururunu korumaya çalışır. Sınır: acı, tehlike, aşağılanma yok (çıplaklık ve cinsel eylem: SINIR-6).
+karede. Peri gururunu korumaya çalışır.
+Kovalamacanın tamamında (yalnız Peri için değil, herkes için) sınır: acı, tehlike, aşağılanma yok; çıplaklık ve cinsel eylem de yok (SINIR-6).
 *Kaynak:* 111, 115
 
 ### SINIR-9 Suç olur, vahşet olmaz

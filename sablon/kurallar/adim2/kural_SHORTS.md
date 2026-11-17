@@ -95,8 +95,8 @@ Ekranda **en çok iki figür** olur. Peri ya da Cengo solda (aynalı, sağa baka
 Konuşan aydınlık, dinleyen loş görünür. Anlatıcı konuşurken figürlerin hepsi aynı ışıktadır.
 *Kaynak:* 823
 
-### SHORTS-19 Senaryo dosyası ve video başlığı
-Senaryo `sablon/vakalar/vakaN_shorts.md`'dedir. Her video `## video <n> · <Tip>` başlığıyla açılır; altında `⚙ baslik:` (YouTube başlığı, ör. "… Kim yaptı? #shorts"), `⚙ aciklama:` (YouTube açıklaması; spoiler denetiminden geçer) ve `⚙ set: … · cset: … · muzik: muzik/<dosya>.mp3` satırları durur. Her konuşma satırı `- <konuşan>: <söz> | <ayarlar>` biçimindedir. Örnek:
+### SHORTS-19 Senaryo dosyası (örnek biçim)
+Senaryo `sablon/vakalar/vakaN_shorts.md`'dedir. Dosyanın biçimi kaynaktaki şu örnekteki gibidir (kaynak yalnız örneği verir; genel biçim kuralı yazmaz):
 ```
 ## video 1 · Kanca
 ⚙ baslik: Karaköy'de bir pastane soyuldu. Kim yaptı? #shorts

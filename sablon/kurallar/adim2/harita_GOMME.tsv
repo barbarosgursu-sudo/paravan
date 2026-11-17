@@ -1,4 +1,4 @@
-27	GOMME-1,GOMME-2	
+27	GOMME-1,GOMME-2,CELISKI-3	
 28	GOMME-6,GOMME-5	
 69	GOMME-11	eski oyunun hattı
 348	GOMME-10	
@@ -46,24 +46,24 @@
 522	GOMME-13	boy tablosu satırı
 524	GOMME-13	
 528	GOMME-16	'Renk karaktere göre seçilir' 536 ile eskidi (kıyafete göre yazılımla)
-529	GOMME-16	'zemin saçtan da uzak' kuralı 536 ile eskidi (tablo tarihî kayıt); Vaka 3 hale dersi bej→gri-mavi sırasının gerekçesi olarak korundu
+529	GOMME-16	'zemin saçtan da uzak' kuralı 536 ile eskidi (tablo tarihî kayıt); Vaka 3 hale dersi GOMME-16'da ayrı madde olarak korundu (bej→gri-mavi sırasının gerekçesi değil)
 535	GOMME-16	
 536	GOMME-16	
 537	GOMME-17	
 538	GOMME-18	
 539	GOMME-18	
 541	GOMME-19	
-542	GOMME-20	
+542	GOMME-20,CELISKI-3	dar profil ayrımının YZ kesiminde geçerliliği soruldu
 543	GOMME-19,GOMME-2	arac_kes.js ile kesme ve gömmede arac_hale.py kısmı 1144 ile eskidi (artık kullanılmaz); arac_hale.py eşik notu GOMME-2'de kayıt
 544	GOMME-20	
 728	GOMME-7	
 730	GOMME-6	
-1084	GOMME-16,GOMME-17,GOMME-18,GOMME-19,GOMME-20	
+1084	GOMME-16,GOMME-17,GOMME-18,GOMME-19,GOMME-20,CELISKI-3	"Kesim profilini de araç basar" kısmı CELISKI-3
 1140	GOMME-8	
 1141	GOMME-8	
 1142	GOMME-8	
 1143	GOMME-8	
-1144	GOMME-1,GOMME-2	
+1144	GOMME-1,GOMME-2,CELISKI-3	
 1145	GOMME-28	
 1146	GOMME-8,GOMME-21,GOMME-12	
 1200	ESKIDI	saç rengine göre zemin (kızıl/açık/beyaz giysi→gri-mavi, koyu→bej) ve her temelde iki zeminle deneme; 536 ('14 Kasım 2026'dan beri kıyafete göre yazılımla… tablo yalnız tarihî kayıt') ve 539 ('Eskiden her temel iki zeminle üretiliyordu; şimdi yalnız gerektiğinde') ile eskidi. 'Yeşil kullanılmaz' GOMME-16'da

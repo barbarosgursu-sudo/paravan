@@ -50,7 +50,7 @@
 1116	YOK	yalnız bölüm başlığı ("A. İstemle karşılaştır"); kural dosyasında başlık olarak duruyor
 1117	DENETIM-18	
 1118	DENETIM-19,DENETIM-20	
-1119	DENETIM-21	"burun kadrajın soluna" kalıp olarak korundu; v3 satırları "istem öyle diyorsa" koşulunu ekliyor, birleşik metin "istemin dediği yöne; kalıp soluna"
+1119	DENETIM-21,CELISKI-3	koşulsuz "burun kadrajın soluna"; v3 satırları istemin yönüne bağlıyor — çelişki dosyasında
 1120	DENETIM-22	
 1121	DENETIM-23	
 1122	DENETIM-24	
@@ -77,7 +77,7 @@
 1303	DENETIM-18	
 1304	DENETIM-19	
 1305	DENETIM-20	satır "geriye dönük bakıldı:" ile bitiyor, devamı başka satırlarda; geriye dönük bakış bilgisi korundu
-1308	DENETIM-21	
+1308	DENETIM-21,CELISKI-3	"istemin dediği yöne / istem öyle diyorsa" koşulu; bugünkü metin koşulsuz — çelişki dosyasında
 1309	DENETIM-22	
 1310	DENETIM-23	
 1311	DENETIM-24	"düz açık bej zemin" ayrıntısı ESKIDI: 5_gorsel_sistemi.md H4 "Vaka 4'ten itibaren" ve "14 Kasım 2026'dan beri … tablo yalnız tarihî kayıttır" diyerek zemini değiştirdi; kural H4 rengini anar
@@ -102,7 +102,7 @@
 1508	DENETIM-18	
 1509	DENETIM-19,DENETIM-20	
 1510	DENETIM-20	
-1511	DENETIM-21	
+1511	DENETIM-21,CELISKI-3	"istemin dediği yöne / istem öyle diyorsa" koşulu; bugünkü metin koşulsuz — çelişki dosyasında
 1512	DENETIM-22	
 1513	DENETIM-23	
 1514	DENETIM-24	"düz açık bej zemin" ayrıntısı ESKIDI (H4, bkz. 1311)

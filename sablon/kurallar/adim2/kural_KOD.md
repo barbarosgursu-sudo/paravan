@@ -373,7 +373,7 @@ Arama `toLocaleLowerCase("tr")` ile. Biri tutmazsa hata, derleme durur (45 üst�
 *Kaynak:* 325, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 735, 736, 737, 738, 739, 2442
 
 ### KOD-69 K18 — İpucu adı
-Ipucu adındaki özel isimler (kesmeli kelime ya da ilk kelime dışında büyük harfle başlayan) ipucu açılabilir olduğu anda oyuncunun duyduğu adlar arasında olmalı (giriş, konuşma, `needs` zincirindeki ipuçlarının sahne ve olguları; Peri ve Cengo her zaman bilinir).
+İpucu adındaki özel isimler (kesmeli kelime ya da ilk kelime dışında büyük harfle başlayan) ipucu açılabilir olduğu anda oyuncunun duyduğu adlar arasında olmalı (giriş, konuşma, `needs` zincirindeki ipuçlarının sahne ve olguları; Peri ve Cengo her zaman bilinir).
 *Kaynak:* 747, 2443
 
 ### KOD-70 K19 — Kim yaptı? yapısı

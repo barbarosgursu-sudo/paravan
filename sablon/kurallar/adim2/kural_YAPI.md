@@ -98,7 +98,9 @@ Sonuca göre yüzleşme sahnesi oynar (YAPI-16).
 
 ### YAPI-15 Kilit açarak bulunan kanıt
 - Kilit açarak bulunan kanıt (Cengo'nun teli) "Kim yaptı?"da geçerlidir.
-- Hikâyede kuralın tarafı: delil hukuka uygun olmalı; kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak bulunan şey yarar. Cengo'nun teli bu yüzden (hikâyede) hep bir bedel taşır; bu, Peri'nin kuralı ile Cengo'nun içgüdüsü arasındaki kavganın gerçek hayattaki dayanağıdır. Mahkemede geçmemesi yalnız espri olarak kullanılır (tekrarlanan espri, sahibinin kararı 5 Ekim 2026).
+- Hikâyede kuralın tarafı: delil hukuka uygun olmalı; kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak bulunan şey yarar. Cengo'nun teli bu yüzden hep bir bedel taşır (Ton §9, 5 Ekim 2026, "tekrarlanan espri" başlığı altında); bu, Peri'nin kuralı ile Cengo'nun içgüdüsü arasındaki kavganın gerçek hayattaki dayanağıdır.
+- Kural 21b: mahkemede geçmemesi yalnız espri olarak kullanılır.
+- Bu iki söz ("hep bir bedel taşır" / "yalnız espri") arasındaki fark çözülmedi: bkz. CELISKI-YAPI-3.
 *Kaynak:* 204, 1822
 
 ### YAPI-16 Dört yüzleşme sahnesi
@@ -222,6 +224,7 @@ Kural 27; sahibinin kararı, 15–16 Kasım 2026.
 - Taç Vaka 8'e ve sonrasına taşınmaz; V8 ve sonrası tacın alınmış olduğu hâlden başlar; nasıl alındığı sonraki vakalarda anılmaz.
 - Kasa olmadığı için taç bir hesaptan düşmez. Kasadan düşme, kasaya göre sonuç seçimi ve "taç alındı" işareti için yazılan motor planı iptal.
 - Vaka 7'nin ortakla kararlaştırılan ayrıntıları (15 Kasım 2026): tacın parası karara göre bulunur, oyuncu ayrıca seçmez (örn. Sus'ta Cengo borç bulur, Sus payında sahibenin parası kapatır); Cengo'nun borcu Vaka 8'de anılmaz, Vaka 7'de kapanır; ihbar yolunda Süheyla tacı minnetle, satış dışında katalog fiyatına Peri'ye satar; "Tacı Cengo'ya bırak" kararında Cengo tacı kendi parasıyla alır, kapanışta Peri'ye verir (taç alınmış sayılır); fiyat ~200.000 ₺.
+- Bekleyen kural işi (15 Kasım 2026, Barbaros onayıyla; kim yapacaksa önce DEVIR'e yazar): sezon taslağında Ton §9.2'ye dayanan "dürüst yol yalnızca erteler" cümlesi taç kararına göre yeniden yazılır.
 *Kaynak:* 215, 2776, 2777, 2773
 
 ### YAPI-36 Kaybetme yok
@@ -278,7 +281,8 @@ Dallanma YOK (Chapters dallanır, biz dallanmayız): kararlar birleşir; değiş
 *Kaynak:* 1724, 2044, 2049
 
 ### YAPI-46 Karar uyarısı (K8)
-Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
+Taslak (`TASLAK_tekrar_onleme.md`, 12 Kasım 2026; kasa kalkmadan önce yazıldı). Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
+16 Kasım 2026'da kasa ve karar parası ekrandan kalktı (YAPI-31); bu uyarının para ölçütünün kalıp kalmadığı açık: bkz. CELISKI-YAPI-4.
 *Kaynak:* 980
 
 ### YAPI-47 "Dosyanın tamamı"

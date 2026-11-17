@@ -56,11 +56,11 @@
 1032	SUREC-8	
 1033	SUREC-7	
 1034	SUREC-3	
-1035	SUREC-4	"öncekinin yerine" diyor: 2795'teki "yalnız Oğuz Bey'in bilgisayarında, Barbaros kendi bilgisayarında Codex kullanmaz" kısmının yerine geçti
-1036	SUREC-4	
+1035	SUREC-4,CELISKI-4	"öncekinin yerine" diyor: 2795'teki "yalnız Oğuz Bey'in bilgisayarında, Barbaros kendi bilgisayarında Codex kullanmaz" kısmının yerine geçti
+1036	SUREC-4,CELISKI-4	
 1147	SUREC-9	
 1151	SUREC-7	
-1265	SUREC-4	
+1265	SUREC-4,CELISKI-4	
 1266	SUREC-4	
 1268	SUREC-4	
 1269	SUREC-4	
@@ -99,11 +99,11 @@
 2698	SUREC-30	
 2745	SUREC-30	
 2762	SUREC-40	
-2772	SUREC-41	iş emri; kök CLAUDE.md'ye göre tamamlandı, yine de korunuyor
+2772	ESKIDI	tek seferlik iş emri (Vaka 6'nın 13 repliği); kök CLAUDE.md 16 Kasım: "Vaka 6 yeni düzende TAMAM" — tamamlandı. Kalıcı parçalar (Cengo karar satırı kendi ağzından, kasa yok/kesinti yok, kanıt satırı yalnız o kanıtı anar — kural 22c) YAPI kurallarında (YAPI-25, 22b/22c bölümleri) duruyor
 2783	SUREC-27,SUREC-1	
-2795	SUREC-4	"yalnız Oğuz Bey'in bilgisayarında; Barbaros kendi bilgisayarında Codex kullanmaz" kısmı 1035 ("öncekinin yerine", 14 Kas gece) ile eskidi; "metin+resim üretimi Oğuz Bey'de" kısmı kuralda
+2795	SUREC-4,CELISKI-4	"yalnız Oğuz Bey'in bilgisayarında; Barbaros kendi bilgisayarında Codex kullanmaz" kısmı 1035 ("öncekinin yerine", 14 Kas gece) ile eskidi; "metin+resim üretimi Oğuz Bey'de" kısmı kuralda
 2796	SUREC-4	
-2797	SUREC-4	"hepsi Oğuz Bey'e" kısmı 1036 ile genişledi: o oturumda üretimi yürüten kişiye (Oğuz Bey ya da Barbaros)
+2797	SUREC-4,CELISKI-4	"hepsi Oğuz Bey'e" kısmı 1036 ile genişledi: o oturumda üretimi yürüten kişiye (Oğuz Bey ya da Barbaros)
 2798	SUREC-4	
 2805	SUREC-6	
 2823	SUREC-30	

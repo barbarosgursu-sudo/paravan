@@ -119,7 +119,7 @@ Tasarım ve yazım dili Türkçedir; Türkçe metin kanondur. Hikâyenin gerçek
 *Kaynak:* 1576, 1990
 
 ### RAF-28 Rafta yalnız İngilizce
-Rafta yalnız İngilizce sürüm yayınlanır. Türkçe sürüm yayınlanmaz; sahibinin çalışma kopyası olarak kalır, onunla test eder (9 Kasım 2026; eski "önce Türkçe, sonra İngilizce" ve 23 Eylül'deki "sadece İngilizce" kararlarının yerine).
+Rafta yalnız İngilizce sürüm yayınlanır. Türkçe sürüm yayınlanmaz; sahibinin çalışma kopyası olarak kalır, onunla test eder (9 Kasım 2026; 4 Ekim'deki "önce Türkçe, sonra İngilizce" kararının yerine — o da 23 Eylül'deki "sadece İngilizce"nin yerine geçmişti).
 *Kaynak:* 1577, 1990
 
 ### RAF-29 İngilizceye vaka vaka geçiş, ses rehberi
@@ -327,11 +327,11 @@ Android ↔ iPhone kayıt taşıma şimdilik yok (satın almalar da platformlar 
 ## I. Yeni içerik duyurusu
 
 ### RAF-75 "Yeni" işareti
-Kapakta "Yeni" / "Yeni sezon" işareti; kitap bir kez açılınca kaybolur. Yeni vaka gelince de bu işaret ve tek seferlik kart (RAF-76) kullanılır.
+Kapakta "Yeni" / "Yeni sezon" işareti; kitap bir kez açılınca kaybolur. Yeni vaka gelince de bu işaret kullanılır; tek seferlik kartın (RAF-76) yeni vakada da çıkıp çıkmadığı açık: bkz. CELISKI-RAF-2.
 *Kaynak:* 1639, 1694
 
 ### RAF-76 Tek seferlik "yeni kitap" kartı
-Güncellemeden sonraki ilk açılışta bir kez küçük kart ("Rafa yeni bir kitap geldi"); yalnız yeni kitap/sezon için.
+Güncellemeden sonraki ilk açılışta bir kez küçük kart ("Rafa yeni bir kitap geldi"); yalnız yeni kitap/sezon için (yeni vakada da çıkar mı, bkz. CELISKI-RAF-2).
 *Kaynak:* 1640
 
 ### RAF-77 Bildirim yok
@@ -472,7 +472,7 @@ Mağazada "Yeni vakalar düzenli olarak eklenir." denir, tarih verilmez.
 *Kaynak:* 1694
 
 ### RAF-108 Bedava vakaların yazımı
-Bedava vakalar hafif, hızlı, eğlenceli ve tek başına tatmin edici olur; ücretli kısımda zor Columbo vakaları durur. İlk iki vaka hem tek başına tatmin etmeli hem devamını merak ettirmeli; 2'nin sonunda bir iplik ucu açılır ki oyuncu devamını merak etsin. Hangi vakanın bedava olacağı bir yazım kararıdır (bedava vaka sayısı için bkz. CELISKI-RAF-1).
+Bedava vakalar hafif, hızlı, eğlenceli ve tek başına tatmin edici olur; ücretli kısımda zor Columbo vakaları durur. İlk iki vaka hem tek başına tatmin etmeli hem devamını merak ettirmeli; 2'nin sonunda bir iplik ucu açılır ki oyuncu devamını merak etsin. CERCEVE §8'deki "Hangi vakanın bedava olacağı bir yazım kararıdır" sözü satış kararıdır ve RAF_KARARLARI ile değişti (bedava olanlar sabit Vaka 1–2, RAF-48, RAF-58). SEZON belgesindeki "gerekirse 3" için bkz. CELISKI-RAF-1.
 *Kaynak:* 2033, 2062, 1855
 
 ## M. İleriye bırakılanlar ve reddedilenler

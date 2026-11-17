@@ -1,7 +1,7 @@
 # ARAYUZ — arayüz kuralları (birleştirilmiş)
 
 ### ARAYUZ-1 Tablet düzeni: genel çerçeve
-Yalnız yeni oyun, `kaynak/yeni_arayuz.css` (Ekim 2026). Sorun: dikey tablette sabit 480 px sütun sahneyi 1:2'den uzun yapıyordu; 3:4 arka plan iki yandan ~%40 kesiliyor, figürler kadrajdan taşıyordu. Aşağıdaki kurallar (ARAYUZ-2…5) birlikte çözüyor; birini bozma.
+Yalnız yeni oyun, `kaynak/yeni_arayuz.css` (Ekim 2026). Sorun: dikey tablette sabit 480 px sütun sahneyi 1:2'den uzun yapıyordu; 3:4 arka plan iki yandan ~%40 kesiliyor, figürler kadrajdan taşıyordu. Üç kural (ARAYUZ-2, -3, -4) birlikte çözüyor; birini bozma. ARAYUZ-5 (figür kilidi) aynı listede duran ek kuraldır, o da bozulmamalı.
 Eski oyunun sayfası bu kurallara girmez (CSS yalnız `build_html.js yeni`'de gömülür).
 *Kaynak:* 16, 22
 
@@ -47,7 +47,7 @@ Kasa artık Anı'da basılmaz: kasa 16 Kasım 2026'da kalktı (kural 24).
 *Kaynak:* 157, 300, 2577, 3007
 
 ### ARAYUZ-12 Anı özeti nasıl yazılır
-Anı sekmesinde her biten vakanın üstünde 2–3 cümlelik anı özeti durur: müşteri ve kayıp, kim almıştı, neden — yalnız kovalamacadaki itirafın söylediği (kural 21d, `2_kural_kitabi.md`). Formda §12'nin altına yazılır; diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider. Bölüm zorunlu: yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`. (Vaka 3'ten itibaren yazılır: `vaka3_baslangic.md` §1.)
+Anı sekmesinde her biten vakanın üstünde 2–3 cümlelik anı özeti durur: müşteri ve kayıp, kim almıştı, neden — yalnız kovalamacadaki itirafın söylediği (kural 21d, `2_kural_kitabi.md`). Formda §12'nin altına yazılır; diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider. Bölüm zorunlu: yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`. (Vaka 3 başlangıç notunda istendi: `vaka3_baslangic.md` §1; örnek Vaka 2'de.)
 *Kaynak:* 2577, 3007
 
 ### ARAYUZ-13 Konuşma ekranı: arka plan
@@ -64,13 +64,13 @@ Aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir (`yeni_aray
 *Kaynak:* 2769
 
 ### ARAYUZ-16 Figür yerleşimi
-- Ekranda en çok iki figür. Peri solda, sağda **tek** konuk (Cengo ya da konuk — sahnede olan ve en son konuşan). Üç kişilik sahnede sağdaki kişi değişir.
+- Ekranda en çok iki figür: Peri ve bir konuk. Peri solda, sağda **tek** konuk (Cengo ya da konuk — sahnede olan ve en son konuşan). Üç kişilik sahnede sağdaki kişi değişir. (Bu düzen `ekran` etiketli vakalarda (V6, V7) ARAYUZ-17'deki kayıtla tutmuyor — orada Peri'siz iki konuk karşılıklı durabiliyor, Cengo konukla solda durabiliyor: bkz. CELISKI-ARAYUZ-1.)
 - Konuşan aydınlanır, dinleyen kararır.
 - Sahnede tek kişi varken ortada durur; ikinci kişi gelince kaymadan, anında yanlara geçer (`yeni_arayuz.js/.css`, `.vn-figurler.tek`; `f8dfc4e`, 14 Kasım 2026).
 *Kaynak:* 286, 304, 2410, 2779
 
 ### ARAYUZ-17 Karşılıklı konuşmada yerler sabit
-Aynı iki kişi bir önceki satırda da ekrandaysa yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js` (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G; `86db39d`. Yalnız `ekran` etiketli vakalara (V6, V7) uyar. Sebep: V6 girişinde Gizem ↔ Eylül her satırda yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). (Sahibinin kararı, 16 Kasım 2026.)
+Aynı iki kişi bir önceki satırda da ekrandaysa yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js` (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G; `86db39d`. Yalnız `ekran` etiketli vakalara (V6, V7) uyar (ARAYUZ-16 ile ilişkisi: CELISKI-ARAYUZ-1). Sebep: V6 girişinde Gizem ↔ Eylül her satırda yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). (Sahibinin kararı, 16 Kasım 2026.)
 - V6 tarandı: bu türden başka yer kalmadı.
 - Kalan taraf değiştirmeler (Cengo konukla solda, Peri konuşunca sağda; tek görünen konuk karşısına biri gelince sola) sahibince sorunsuz bulundu, **dokunulmayacak**.
 - V1–V5'teki iki örnek (V4: Rana ↔ Feraye, Feraye ↔ Sadık; eski `kime` düzeni) **bilerek düzeltilmedi**; o vakalar yeni kurallara göre yeniden geçirilecek.
@@ -168,6 +168,6 @@ Web sayfasında gerçek reklam yok; `yeni_arayuz.js → reklamGoster` 5 saniyeli
 "Baştan başla" onay ekranında her sonraki omurga vakası için bir düğme (10 Ekim 2026, sahibinin testi için). Önceki vakalar motorda kendiliğinden oynanır (her ipucu, doğru suçlama, ilk karar). Şimdilik AÇIK KALIR (`VN_VAKA_ATLA = true`, sahibinin kararı, 9 Kasım 2026); **yayından önce** `yeni_arayuz.js` → `VN_VAKA_ATLA = false`.
 *Kaynak:* 2454, 2938, 3017, 3079
 
-### ARAYUZ-38 G65 ve Vaka 6 resimleri (devir notu; konusu GOMME)
+### ARAYUZ-38 G65 ve Vaka 6 resimleri (devir notu; konusu GOMME — GOMME birleştiricisine bildirilmeli)
 Oğuz Bey'in G65'i (Düzeltme 2: sol el, avuç içi bize dönük) kullanılır — gömülü olan o (`ara_k96.webp`, `onayli/G65.png`, el onayı `fa557717b270`); G65 yeniden gömülmez (Barbaros, 15 Kasım 2026; önce "geçersiz" denmişti, aynı gece kabul edildi). Vaka 6'nın resimleri Barbaros'ta; V6'ya resim gömmeden önce Barbaros'a sor. Açılıştaki dergi resmine (G87) dokunulmadı; kalan 10 resmi (G46, G87–G95) gömme Barbaros'ta (14 Kasım 2026 durumu).
 *Kaynak:* 2779

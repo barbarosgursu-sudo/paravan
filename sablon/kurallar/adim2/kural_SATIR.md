@@ -39,7 +39,7 @@ Sesi olan ama figürü olmayan biri (boyacı, asistan, telefon) konuşurken ya f
 *Kaynak:* 406, 720, 2529
 
 ### SATIR-7 SR-B Süreklilik ve kıyafet hâli tablosu
-Sahne içinde kıyafet hâli (açık trençkot), çıkarılan şey (önlük) ve elde tutulan nesne (tabla, yarım simit) sürer — dinleyen için de. Bir nesne bırakılıyorsa bu metinde söylenir. Durum da sürer: ıslandı, kirlendi, balık pulu, manto çıkarıldı/asıldı — sonraki satırlarda figür de o hâlde; gerekirse ara hâl figürü üretilir (ıslak Peri) ve bu ara hâl figürü görsel listesine baştan girer. Kıyafet, saç, takı sahneden sahneye aynı kalır; bir önceki olay (pastaya oturma) görselde izini taşır. Konuk her sahnede o sahneye uygun hâldedir; gerekirse ikinci kıyafet üretilir (Vaka 1: önlüklü Kemal borç istemeye geldi). Sahneler arası doğal geçiş serbesttir (dışarıda kapalı, içeride açık; satır gerekmez), ama her sahnenin ve her karar/ara/kapanış karesinin kıyafet hâli görsel listesinde önceden yazılır (**kıyafet hâli tablosu**); karenin referansı o hâlden seçilir. Hatalı örnekler: trençkot açılınca figür kapalı; Kenan önlüğünü çıkarınca yine önlüklü; karar karelerinde haki değil unlu Cengo.
+Sahne içinde kıyafet hâli (açık trençkot), çıkarılan şey (önlük) ve elde tutulan nesne (tabla, yarım simit) sürer — dinleyen için de. Bir nesne bırakılıyorsa bu metinde söylenir. Durum da sürer: ıslandı, kirlendi, balık pulu, manto çıkarıldı/asıldı — sonraki satırlarda figür de o hâlde; gerekirse ara hâl figürü üretilir (ıslak Peri) ve bu ara hâl figürü görsel listesine baştan girer. Kıyafet, saç, takı sahneden sahneye aynı kalır; bir önceki olay (pastaya oturma) görselde izini taşır. Konuk her sahnede o sahneye uygun hâldedir; gerekirse ikinci kıyafet üretilir (Vaka 1: önlüklü Kemal borç istemeye geldi). Sahneler arası doğal geçiş serbesttir (dışarıda kapalı, içeride açık; satır gerekmez), ama her sahnenin ve her karar/ara/kapanış karesinin kıyafet hâli görsel listesinde önceden yazılır (**kıyafet hâli tablosu**); karenin referansı o hâlden seçilir. Hatalı örnekler: trençkot açılınca figür kapalı; Kenan önlüğünü çıkarınca yine önlüklü; karar karelerinde unlu değil haki Cengo.
 *Kaynak:* 6, 378, 409, 724, 2527, 2530, 1076
 
 ### SATIR-8 SR-C Kıyafet kartı (satır tarafı)
@@ -68,7 +68,7 @@ Sahibinin kararı (13 Kasım 2026): "en az karar bana gelsin; onayladığımız 
 *Kaynak:* 389, 1076, 2817
 
 ### SATIR-12 SR-M8 Hikâye donmadan önce satır–resim aracı (adım 5)
-Sahibinin kararı (14 Kasım 2026; Vaka 7'den itibaren; Barbaros'un önerisi kabul edildi). Hikâye donmadan önce (adım 5, görselsiz tur) bütün yollarda `--hepsi` ile tur koşar, araç bir kez çalışır: `node arac_satir_resim.js <dokum…> --vaka V<N>`. **İŞ** bayrakları yazara gider; sözle çözülecek olan (nesneyi bırakan cümle, netleşen hitap…) şimdi sözle çözülür. **SOR** bayrakları bu turda sahibine GİTMEZ — hikâye dondukça bir kısmı kendiliğinden kalkar; kalanlar adım 8'de bir kez sorulur. Hikâye donduktan sonra yalnız etiket ve resimle (SR-M). Aynı turda iki liste daha kapanır (14 Kasım 2026, V6 açılışı yayında bulununca): aracın **DURUŞ** ve **İLK GÖRME** bayrakları, ve turun `satir/adi_gecen_yok.txt`'si. V6'da bu liste "metin işi" diye resimlerden sonraya kaldı ve yayına çıktı; artık hikâye donmadan biri bile açık kalmaz. Üç kişiyi birden anan satır kare ister — o kare görsel listesine (adım 8) baştan girer.
+Sahibinin kararı (14 Kasım 2026; Vaka 7'den itibaren; Barbaros'a götürülen öneri kabul edildi). Hikâye donmadan önce (adım 5, görselsiz tur) bütün yollarda `--hepsi` ile tur koşar, araç bir kez çalışır: `node arac_satir_resim.js <dokum…> --vaka V<N>`. **İŞ** bayrakları yazara gider; sözle çözülecek olan (nesneyi bırakan cümle, netleşen hitap…) şimdi sözle çözülür. **SOR** bayrakları bu turda sahibine GİTMEZ — hikâye dondukça bir kısmı kendiliğinden kalkar; kalanlar adım 8'de bir kez sorulur. Hikâye donduktan sonra yalnız etiket ve resimle (SR-M). Aynı turda iki liste daha kapanır (14 Kasım 2026, V6 açılışı yayında bulununca): aracın **DURUŞ** ve **İLK GÖRME** bayrakları, ve turun `satir/adi_gecen_yok.txt`'si. V6'da bu liste "metin işi" diye resimlerden sonraya kaldı ve yayına çıktı; artık hikâye donmadan biri bile açık kalmaz. Üç kişiyi birden anan satır kare ister — o kare görsel listesine (adım 8) baştan girer.
 *Kaynak:* 389, 714, 2817
 
 ### SATIR-13 SR-F İpucu taşıyan eylem her zaman görünür
@@ -85,7 +85,7 @@ Her replik ifadesini **anlamına göre** seçer: ifade satırın duygusuna göre
 
 ### SATIR-16 Dinleyenin yüzü de satıra uyar
 Dinleyenin ifadesi de uyar: konuşmadığı satırda da hikâyeye uygun durur (tacı tutan Peri gibi). Konuşmayan dinleyenin yüzü değişecekse `{peri: ifade}` / `{cengo: ifade}` yazılır (önceki yüz kalmasın); her yeni olay/kişi girişinde bu işaret konur (Vaka 1: dinleyenin yüzü bir önceki satırdan kalmıştı — kızgın Peri). Kapı K8 (Vaka 6 ve sonrası): ekrandaki herkesin ifadesi o satırda yazılı olur (`[ifade]`, `gi`, `yuz`, `peri`, `cengo`).
-*Kaynak:* 396, 404, 2523, 3553
+*Kaynak:* 396, 404, 2523, 3553 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-17 SR-J Her ifade kardeşlerinden ayırt edilir
 İstemde ifadeyi ötekilerden neyin ayırdığı yazılır: yeni ifadede "Bu ifadeyi <kardeş ifade>'den ayıran: …" satırı (yüz rengi, ağız, eller). Denetimde aynı kişinin ifadeleri yan yana konur, benzeyen kabul edilmez. Hatalı örnek: `ferruh.terli` ≈ `ferruh.alingan` → "yüzü bembeyaz" karşılıksız.
@@ -101,11 +101,11 @@ Karar karesi SONUÇ metninin asıl anını gösterir (bedeli yaşayan kişiler k
 
 ### SATIR-20 Adı geçen herkes ekranda (iki yönlü)
 ZORUNLU (16 Ekim 2026, sahibinin kararı): anlatı satırında adı geçen her kişi (ya da grup: nedimeler, annesi, misafirler) o satırda ekranda olmalı. Tek kişiyse figürü `{gir: x}` ile o satırda girer (yeri tanıtan `{mekan}` satırı bile olsa); ekranda aynı anda yalnız iki figür durabildiği için iki kişiden fazlası ya da grup → kare. Kapı K2 (Vaka 6 ve sonrası) iki yönlüdür: anlatıda adı ya da eş sözü geçen herkes ekranda; ekrandaki herkes o satırda anılıyor, konuşuyor ya da hitap ediliyor. Denetim üç adımda: diyalog yazılırken (adım 3: kişi sayan her anlatı satırına `gir` ya da kare), görsel listesinde (adım 8: kalabalık anlatan her satıra kare) ve turda (adım 11: `arac_yeni_tur.js … --hepsi` `satir/adi_gecen_yok.txt`'ye aday listesi yazar; grup adlarını ve akrabalık sözlerini — "annesi" — yakalamaz, onlara gözle bakılır). Vaka 7'den beri bu liste hikâye donmadan kapanır (SATIR-12). Köken: Vaka 2'de sahibi Onay 3'te buldu ("yazıda bahsedilen kişiler görünmüyor"): son prova açılışları, "Bütün nedimeler Defne'ye dönüyor", "Gelme anne!" → K33 (son prova, 4 açılış), K34 (herkes Defne'ye dönüyor, 7 satır), K35 (atölye kapısında kumaşçının adamı), `lal.kilif` sonradan üretildi; Gülsüm/Bülent/Defne/Tolga tanıtım satırında `gir` aldı.
-*Kaynak:* 719, 2574, 3014, 3056, 3547
+*Kaynak:* 719, 2574, 3014, 3056, 3547 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-21 Yeni gelen: `{mekan}`, `{gir, gi}` ve yalnız gelen ekranda
 Yer tanıtılırken konuk henüz görünmemeliyse anlatı satırında `{mekan}`; konuk ilk konuştuğu satırda `{gir: x, gi: ifade}` ile ilk yüzüyle girer (anlatı satırında "öfkeli giriyor" gibi). Böylece kızgın konuk sahneye "zaten kızgın" girmez (Vaka 1 dersi). Kapı K7 (Vaka 6 ve sonrası): yeni geleni anlatan satırda ekranda yalnız o (ve satırın andığı kişi) olur.
-*Kaynak:* 402, 405, 2524, 3552
+*Kaynak:* 402, 405, 2524, 3552 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-22 Sahneden ayrılan ve saklanan kişi
 `{gizle: cengo}`: figür sahneden ayrıldı (koşup gitti); konuşunca geri gelir. Sahneden ayrılan figür kareye girmez. Saklanan kişi (masanın altı, kapı arkası) **ara kareyle** gösterilir: kapıda gelen, masanın altında saklanan aynı karede (Vaka 2 K20, Vaka 3 K53 — aynı açı, tekrar eden şaka). Anlatı + gelenin ilk repliği o karede; figür düzeninde `gizle` ile yapılırsa saklanan, adı geçtiği satırda ekranda olmaz (18 Ekim, sahibinin kararı).
@@ -131,8 +131,8 @@ Diyalog yazılırken her satır için baştan yazılır: konuşan, ifade, `kime`
 `## Satırlar` **bütün vakalarda**, her figür ve karenin isteminde zorunludur (8 Kasım 2026, sahibinin kararı, 5. parça C0). Görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`, her yolun `satir/`'ını kopyala) → `node arac_satir_resim.js <dokum…> --vaka V<N>`. İstem dosyasında `## Kontrol`'den önce o resmin satırları konur (konuşan: metin; dinliyorsa işaretli). İstemin ifade ve poz satırları bu satırların HEPSİNE uyacak biçimde yazılır; bir satır uymazsa istem bölünür (SR-D). EYLEM bayraklı anlatı satırı (yiyor, uzatıyor, kesiyor…) kare ister ya da diyalogda o satıra uygun kare/figür bağlanır. JEST bayraklı replik ("(papyonunu düzelterek)", parantezli sahne yönü) konuşanın figürünün pozuna yazılır. Her satır şu soruyla okunur: *bu pozdaki her nesne ve hareket BU satırda metinde var mı; metindeki her kişi ve şey ekranda mı?* Codex bu bölümü istem metnine KATMAZ (yalnız `## İstem` gider); yerel Claude yazarken ve denetlerken okur. İstem yazılmadan önce her bayrak kapanır (SR-E, SATIR-10). (Not: 8 Kasım metnindeki "figür/kare bağlanır ya da sahibi 'kalsın' der; 'kısmen uyuyor' da sahibine gider" 13 Kasım'dan beri SR-M düzeniyle işler: sahibine yalnız SOR gider.)
 *Kaynak:* 715, 1073, 1218
 
-### SATIR-28 Satır–resim uyumu zorunlu: üç aşama
-(Sahibi, 6 Kasım 2026.) Her metin, gösterildiği resimle uyumlu olmalı ve resim bunu bilerek üretilir. Araç: `kaynak/arac_satir_resim.js` (tur dökümünden her resmin göründüğü satırları ve riskli satırları basar). Aşamalar: hikâye donmadan önce (SATIR-12), istem yazarken (SATIR-27), denetimde (SATIR-29), gömmeden sonra (SATIR-30).
+### SATIR-28 Satır–resim uyumu zorunlu: dört aşama
+(Sahibi, 6 Kasım 2026.) Her metin, gösterildiği resimle uyumlu olmalı ve resim bunu bilerek üretilir. Araç: `kaynak/arac_satir_resim.js` (tur dökümünden her resmin göründüğü satırları ve riskli satırları basar). Aşamalar (kaynak "üç aşama" der — istem, denetim, gömme; 14 Kasım 2026'da SR-M8 hikâye donmadan önceki aşamayı ekledi, böylece dört): hikâye donmadan önce (SATIR-12), istem yazarken (SATIR-27), denetimde (SATIR-29), gömmeden sonra (SATIR-30).
 *Kaynak:* 713, 1071, 1072
 
 ### SATIR-29 Resim denetiminde satırlarla okuma
@@ -181,24 +181,24 @@ Diyalogda Cengo satırı **etiketli** yazılır: `**CENGO [ifade]:** metin {yuz:
 
 ### SATIR-37 Kapı K1: ekran metinden gelir
 Kapı (`kaynak/arac_kapi.js`, 14 Kasım 2026, sahibinin kararı; Vaka 6 ve sonrası): her satırda `{ekran: …}` yazılı olur (kare/mekân satırı hariç); önceki satırdan hiçbir şey taşınmaz.
-*Kaynak:* 3546
+*Kaynak:* 3546 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-38 Kapı K3: yönelen pozun hedefi karşıda
 Poz bir kişiye yöneliyorsa (sarılma, uzanma, dokunma) o kişi karşıda durur. (Kapı, Vaka 6 ve sonrası.)
-*Kaynak:* 3548
+*Kaynak:* 3548 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-39 Kapı K4: uzak yer sözü kare ister
 "Eşikte", "kapıda", "uzakta" gibi yer sözü kare ister. (Kapı, Vaka 6 ve sonrası.)
-*Kaynak:* 3549
+*Kaynak:* 3549 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-40 Kapı K11: figürler üst üste binmez
 İki figür üst üste binmez (ekranda ölçülür). (Kapı, Vaka 6 ve sonrası.)
-*Kaynak:* 3556
+*Kaynak:* 3556 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-41 Kapı K12: konuşur gibi poz yalnız konuşanda
 Konuşur gibi poz yalnız konuşma satırında, konuşanda kullanılır. (Kapı, Vaka 6 ve sonrası.)
-*Kaynak:* 3557
+*Kaynak:* 3557 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ### SATIR-42 Kapı K13: metnin söylediği görünüş figürde
 Metnin söylediği görünüş (terli, ıslak, yaralı…) o figürde görünür; poz kaydında yazılı olur. (Kapı, Vaka 6 ve sonrası.)
-*Kaynak:* 3558
+*Kaynak:* 3558 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)

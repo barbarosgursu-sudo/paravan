@@ -15,3 +15,11 @@ Sondaki raporun kapanışı.
 - **Bugünkü döngü:** Codex döngüyle sahibine sormadan yürür; döngü bitince sahibine web paketleri tek seferde verilir (1095); "Codex'e üret yaz" adımı geçmiyor.
 
 **Soru:** Döngü düzeninde sondaki raporun "Codex'e `üret` yaz" kapanışı hâlâ geçerli mi, yoksa yalnız Vaka 3'ün elle düzenine mi aitti?
+
+### CELISKI-DENETIM-3
+Yüzde burnun yönü.
+- **Vaka 3 düzeni (`uretim/v3_eski/`):** burun istemin dediği yöne bakar; kalıp "burun kadrajın soluna" / "burun kadrajın soluna (istem öyle diyorsa)". — 1308, 1511
+- **Bugünkü denetim (`uretim/CLAUDE.md`):** koşulsuz "burun kadrajın soluna". — 1119
+- Bugünkü metnin yalnız kısaltma mı, yoksa koşulu bilerek mi kaldırdığı yazmıyor.
+
+**Soru:** Burun her resimde kadrajın soluna mı bakmalı, yoksa istem başka yön isterse o yöne mi?

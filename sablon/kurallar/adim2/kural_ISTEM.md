@@ -98,7 +98,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 
 ### ISTEM-13 Birbirine benzeyebilecek karakterler: "X'e benzemiyor"
 İki karakteri ayırmak için istemde açıkça "X'e benzemiyor" yazılır ve ayırıcı özellik verilir. Örnekler: Ferruh/Rüstem (ince bıyık / gür beyaz pala bıyık), Kenan/Sedat (dolgun sakal / sakalsız bebek yüzü); işe yaradı. Yeni karakter eski birine benziyorsa: başı silinmiş tarz gövdesi + yüz ayırt edici çizgilerle + "pozunu alma" (ISTEM-12). `istem_kontrol.sh` yeni karakter temelinde "benzemiyor" yoksa geçirmez.
-*Kaynak:* 1166, 1500, 459, 3575
+*Kaynak:* 1166, 1500, 459, 1167, 1196, 3575
 
 ### ISTEM-14 Varyant (aynı karakter, başka ifade)
 - Kıyafet başına tek temel görsel: önce nötr görsel üretilir; diğer ifadeler hep onun düzenlemesidir. Yüz, ölçek ve kıyafet sabit kalır. Ölçek kayarsa: temel görsel 1. referans.
@@ -121,7 +121,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 - Ortak referanslar (`uretim/referanslar/`: Peri ve Cengo baş kırpıkları, kapalı giyimli tarz gövdeleri kadın/erkek/iri erkek, büro ve tarz mekânları) hepsi dekoltesiz; vakaya özgü referanslar o vakanın `referanslar/` klasöründe.
 - Erkek karakterlerde açık göğüs sorun çıkarmadı.
 - `istem_kontrol.sh` dekolteli Peri referansını (peri_beden, L1_peri, L14_, L9_, L19_, L25_, poz_peri_, peri_kirmizi) geçirmez.
-*Kaynak:* 1061, 1062, 1066, 1285, 1391, 1392, 1395, 1438, 1443, 1479, 1213, 1153, 3564
+*Kaynak:* 1061, 1062, 1063, 1066, 1285, 1391, 1392, 1395, 1438, 1443, 1479, 1213, 1153, 3564
 
 ### ISTEM-17 Kıyafet kartının istemi
 - 8 Kasım 2026, sahibinin kararı (SR-C). Görsel listesinden sonra, ilk figürden önce vakadaki her kıyafet için tek bir ölçü resmi üretilir: boy, kesim, renk, aksesuar; açılıp kapanan kıyafette iki hâl de (trençkot kapalı / açık). Peri, Cengo ve konukların kıyafeti (hangi konuklar: ISTEM-18). Kartlar önce sahibine gider.
@@ -218,7 +218,7 @@ Pencere görünen mekânda: "pencereden İstanbul: eski apartmanlar, uzakta mina
 ### ISTEM-35 Kalabalık kare
 - Kare promptunda kişi sayısı yazılır: "Kadrajda TAM n kişi: …" (K19'da kenardaki Cengo düştü); gelince metindeki kare satırıyla (`vakaN_diyalog.md` → `{kare: Kn}`) sayılır, adı geçen herkes var mı bakılır.
 - Her kişi için parantez içinde referans numarası ve kıyafet özeti. Örnek: "Peri (ikinci referans; kısa bej trençkot kemeri bağlı, krem eşarp, güneş gözlüğü alnında, kırmızı stiletto, ÇORAP YOK)". Peri varsa "en gösterişli kadın" satırı (ISTEM-21); her elin işi.
-*Kaynak:* 456, 1209, 1426, 1427, 3077
+*Kaynak:* 456, 1209, 1426, 1427, 1428, 3077
 
 ### ISTEM-36 Kim kimi görüyor
 Saklanma/gizlilik karesinde kamera ve engel tarif edilir ("kamera masanın arkasında, ön panel kapalı" → seyirci Peri'yi görür, Saadet görmez; K20'de masanın açık yüzü kapıya dönmüştü).

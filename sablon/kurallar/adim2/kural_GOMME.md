@@ -33,7 +33,7 @@ Eski renk kesimi (`arac_kes.js`) ve `arac_hale.py` artık kullanılmaz (14 Kası
 *Kaynak:* 477, 478
 
 ### GOMME-5 Saç kenarı (hale) denetimi ve elle temizlik
-Her figürde, sahibine göndermeden önce saç kenarı büyütülüp bakılır (Vaka 1'de "saçta grilik" zaman kaybettirdi). Saç halesi araca değil insana kalır. (YZ kesiminden sonraki geçerliliği: CELISKI-GOMME-1.)
+Her figürde, sahibine göndermeden önce saç kenarı büyütülüp temizlenir (§4) (Vaka 1'de "saçta grilik" zaman kaybettirdi). Saç halesi araca değil insana kalır. (YZ kesiminden sonraki geçerliliği: CELISKI-GOMME-1.)
 - Renk kesimi kıvırcık/dağınık saçın arasında bej hale bırakır. Yeşil önizlemede (temas sayfası) başı büyütüp bak; hale varsa yalnız **baş kutusunda** temizle.
 - Kır saçta dikkat (temizlik saçı da siler). Gümüş/beyaz nesneler (balık, tel, kâğıt, pul) temizlikte silinebilir: kutunun dışında bırak, sonra büyütüp var mı bak. Siyah saçta açık şerit kalır → kenarı koyulaştır.
 - Yöntem: koyu saçta, koyu saça komşu ve zemine <30 uzak opak pikseller silinir; **ten çevresi korunur** (korumasız denemede göz akı da gitmişti). Kızıl saç ten rengine yakın (Saadet'in saçı `hale_koyu`nun ten korumasına takıldı): orada yalnız baş kutusunda saydama komşu pikseller birkaç tur aşındırılır (Saadet: y<170, zemine <32 uzak, 8 tur). Krema zemine ~6 birim uzak: renkle genel temizlik kremayı yer, yalnız küçük kutuda çalış.
@@ -98,11 +98,12 @@ Düz yüzeyde (gözlük sapı, çelik kapak, rozet) satır satır yatay ara değ
 ### GOMME-16 Zemin: özellik ve yazılımla seçim
 - Zemin düz, tek renk, gölgesiz; üstünde hiçbir nesne yok.
 - 14 Kasım 2026'dan beri (sahibinin kararı) zemin KIYAFETE göre yazılımla seçilir: `kaynak/arac_zemin.py`. Saça bakan eski tablo yalnız tarihî kayıttır (V6'da Peri'nin mesai kıyafeti — krem gömlek + mavi kot — gri-mavi zemine kondu, kesimde kot zeminle birlikte silindi).
-- Zeminler tek listede: `uretim/referanslar/zeminler.tsv` — yalnız DENENMİŞ iki zemin, sırasıyla açık bej → gri-mavi (sıra saç halesi tecrübesinden: Vaka 3'te kızıl/bal dağınık saç yeşil zeminde kesilince teller arasında zeytin-yeşil sis kaldı, `arac_hale.py` ile ancak temizlendi; bej zemindeki Cengo, Kenan, Sedat'ta hale çıkmadı). Zemin adları zeminler.tsv'den.
+- Zeminler tek listede: `uretim/referanslar/zeminler.tsv` — yalnız DENENMİŞ iki zemin, sırasıyla açık bej → gri-mavi (sıra saç halesi tecrübesinden; kaynak hangi tecrübe olduğunu söylemiyor — gri-mavinin açık saçta hale bıraktığı V6 olayı için bkz. GOMME-19). Zemin adları zeminler.tsv'den.
+- Zeminin saça yakın olmaması dersi (6 Kasım 2026 kuralının gerekçesi; o kural artık tarihî kayıt): Vaka 3'te kızıl/bal dağınık saç yeşil zeminde kesilince teller arasında zeytin-yeşil sis kaldı, `arac_hale.py` ile ancak temizlendi; bej zemindeki Cengo, Kenan, Sedat'ta hale çıkmadı.
 - Yeşil zemin artık kullanılmaz (kızıl saçın karşıtı; karışımı göze batıyor).
 - Her zemin için figürün yüzde kaçının zemine kesim toleransı kadar yakın olduğu ölçülür; riski %5'in altındaki ilk zemin seçilir.
 - Karar `uretim/v<N>/zemin.tsv`'ye yazılır; `istem_kontrol.sh` istemin zeminini onunla karşılaştırır, uymayan istem üretilmez.
-*Kaynak:* 528, 529, 535, 536, 1084
+*Kaynak:* 528, 529, 535, 536, 540, 1084
 
 ### GOMME-17 İki zemin de riskliyse kıyafet değişir
 İki zemin de riskliyse (araç "KIYAFET DEĞİŞMELİ" der) zemin değil KIYAFET değişir (sahibinin kararı, 14 Kasım 2026: "yeni bir kıyafet giydiririz, bu kadar uğraşacak bir şey yok"). Araç çakışan rengi ve figürdeki yerini basar; kıyafetin o parçası iki zeminden de uzak bir renkle değiştirilir (kıyafet kanondur: çakışan parça sahibine/ortağa sorulur, onlar karar verir), kart yeniden üretilir, araç yeniden koşar. Yeni zemin rengi eklenmez.
@@ -120,7 +121,7 @@ Yalnız araç gri-mavi seçip saç açıksa (gri-mavi açık/sıcak saçta mavi 
 ### GOMME-20 Aynı zemin, renk düzeltmesi yok; kesim profili zemine göre
 - Aynı karakterin (aynı kıyafetin) bütün ifadeleri aynı zeminde.
 - Renk düzeltmesi yapılmaz: renk yanlışsa resim yeniden üretilir.
-- Kesim profili zemine göre seçilir ve araç basar (gömmede o kullanılır): bej → `peri`/`cengo`/`konuk`; öbürleri → dar profil `peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`.
+- Kesim profili zemine göre seçilir ve araç basar (gömmede o kullanılır): bej → `peri`/`cengo`/`konuk`; öbürleri → dar profil `peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`. (YZ kesiminde "profil yalnız çerçeveyi verir" — GOMME-1; bu ayrımın hâlâ anlamı: CELISKI-GOMME-3.)
 *Kaynak:* 542, 544, 1084
 
 ### GOMME-21 Kart afişi: genel

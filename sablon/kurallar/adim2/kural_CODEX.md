@@ -70,12 +70,13 @@ Filtre dışı bir hatada bir kez yeniden denenir; olmazsa sıradakine geçilir.
 *Kaynak:* 1258, 1537
 
 ### CODEX-12 Üretim kaydı (`uretim_kaydi.md`)
-- Her üretim çağrısından hemen sonra (engellenen, hatayla biten ve yeniden denemeler dahil) `uretim_kaydi.md`'deki mevcut tabloya aynı sütun
-  sırası ve biçimiyle bir satır EKLENİR; eski kayıtlar değiştirilmez. Sütunlar: G no | araç/model | araca giden TAM istem (kısaltmadan; satır
-  sonları `<br>` ile) | referanslar ve sırası | boyut/kalite | istem `prompts/G<n>.md`'den aynen mi alındı, çevrildi mi, değiştirildi mi (ne
-  eklendi/çıkarıldı) | sonuç (üretildi / engellendi / hata + varsa mesaj).
-- İstem sonradan dosyadan yeniden kurulmaz; gerçekten araca gönderilen tam metin kaydedilir. Bildirilmeyen model/ayar tahmin edilmez,
-  "bildirilmedi" yazılır.
+- Her üretim çağrısından hemen sonra (engellenen, hatayla biten ve yeniden denemeler dahil) `uretim_kaydi.md` tablosuna bir satır EKLENİR.
+  Sütunlar: G no | araç/model | araca giden TAM istem (kısaltmadan; satır sonları `<br>` ile) | referanslar ve sırası | boyut/kalite |
+  istem `prompts/G<n>.md`'den aynen mi alındı | sonuç (üretildi / engellendi / hata + varsa mesaj).
+  Eski Vaka 3 talimatı ayrıca şunları söylüyordu: satır mevcut tabloya aynı sütun sırası ve biçimiyle eklenir, eski kayıtlar değiştirilmez;
+  "aynen mi" sütununda ayrıca çevrildi mi, değiştirildi mi (ne eklendi/çıkarıldı) yazılır (eski Vaka 3 talimatı).
+- İstem sonradan dosyadan yeniden kurulmaz; gerçekten araca gönderilen tam metin kaydedilir (eski Vaka 3 talimatı). Bildirilmeyen model/ayar
+  tahmin edilmez, "bildirilmedi" yazılır.
 - Kayda NORMAL izinle, dosyanın SONUNA ekleyerek yazılır (dosya silinip yeniden oluşturulmaz). Yazılamazsa yükseltilmiş izne geçilmez;
   satır `kayit_bekleyen.md`'ye yazılır, üretime devam edilir ve bitince sahibine "kayıt dosyasına yazamadım" denir (bu son cümle eski Vaka 3
   talimatında). Bu kural Vaka 3'teki yavaşlamadan sonra AGENTS.md 8. maddeye eklendi.
@@ -100,8 +101,8 @@ Codex beğenmediği resmi yeniden üretmez; onayı yerel Claude verir.
 Codex resme yazı, filigran, imza eklemez.
 *Kaynak:* 1262, 1539
 
-### CODEX-17 Onaylı resim dosyası
-Onaylı resim PNG'dir, adı `G<n>.png`; onaylı resim silinmez. (Vaka 3'te web'den gelenler `.webp`/`.jpg`, Codex'inkiler `.png` idi; ders:
+### CODEX-17 Resim dosyası PNG, onaylı resim silinmez
+Resim dosyası PNG'dir, adı `G<n>.png` (görsel standart H7). Onaylı resim silinmez. (Vaka 3'te web'den gelenler `.webp`/`.jpg`, Codex'inkiler `.png` idi; ders:
 mümkünse hepsi `.png` tutulur, araç uyumu kolaylaşır.)
 *Kaynak:* 552, 1487, 1527
 
@@ -153,12 +154,14 @@ Deneme kopyası klasörü (`v99`) komut sonunda `rm -rf` ile silinmez: içinde g
 ### CODEX-24 Döngü çalışırken yerel Claude'un işi
 1. `uretilen/`'e geleni denetler. Onayladıkça yeni resimlerin önü açılır; döngü çıktıysa yeniden başlatır. (Codex 5 dk'dan uzun beklerse: CODEX-13.)
 2. Temel onaylanınca gereken baş kırpığını/şeridi hazırlar (`referanslar/`); hazırlanmayan referansı bekleyen resim döngüye girmez.
+   (Eski Vaka 3 talimatındaki "`referanslar/`'a dokunma" yasağıyla ilişkisi: CELISKI-CODEX-1.)
 3. Birkaç resimde bir `DURUM.md` → commit → push.
 4. Üretilecek ve denetlenecek resim kalmayınca durur. LISTE'nin hepsi `onayli/`'deyse `göm`'e geçer. Gömmeden sonra `DURUM.md`'deki bağlama
    etiketlerini diyaloğa yazar ve `cd kaynak && node arac_kapi.js V<N> resim` koşar — GEÇTİ demeden vaka bitmiş sayılmaz.
 *Kaynak:* 1086, 1087, 1088, 1089
 
 ### CODEX-25 Yerel Claude resim üretmez, istem metnini değiştirmez
-Yerel Claude resim üretmez (Codex üretir). `prompts/`'taki istem metnine ve `referanslar/`'a dokunmaz; istem dosyasına yalnız sonuna
-`## Düzeltme` eklenir.
+Yerel Claude resim üretmez (Codex üretir). `prompts/`'taki istem metnini değiştirmez; istem dosyasına yalnız sonuna `## Düzeltme` eklenir.
+Eski Vaka 3 talimatı ayrıca "`referanslar/`'a dokunma" diyordu; yeni düzende yerel Claude baş kırpığını/şeridi `referanslar/`'a hazırlar
+(CODEX-24 madde 2) — hangisinin geçerli olduğu sahibine soruluyor: CELISKI-CODEX-1.
 *Kaynak:* 1150, 1506

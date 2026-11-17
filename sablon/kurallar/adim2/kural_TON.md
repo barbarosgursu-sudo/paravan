@@ -10,24 +10,27 @@ Oyuncuyu kandıran, hile yapan gizem yok. Hile yapan bir gizem komediyi de öld�
 *Kaynak:* 173, 1715
 
 ### TON-3 Hafif ama bedelli
-Bedel utanç, para, gurur, bir dostluk ya da bir fırsattır (ör. kiranın yarısı); ölüm, hapis, yıkım değil. Komedi bedeli silmez: kararlar hâlâ bir şeye mal olur. Hafif ≠ önemsiz. Sezon komedidir; acı, tehlike, aşağılanma yok.
+Bedel utanç, para, gurur ya da bir fırsattır; ölüm ya da hapis değil (kural kitabı 3).
+Taslaktan ekler (`YENI_OYUN_TON.md` §1 ve `YENI_OYUN_SEZON.md` §0 taslağı; öneri, sahibi onaylamadan kanon değil): bedel listesinde ayrıca "bir dostluk" ve "kiranın yarısı"; eski oyundaki "yıkım" da yok. Komedi bedeli silmez: kararlar hâlâ bir şeye mal olur. Hafif ≠ önemsiz. Sezon komedidir; acı, tehlike, aşağılanma yok.
 *Kaynak:* 174, 1722, 1725, 1866
 
 ### TON-4 Hava ve mizah
 Hava sıcak, hızlı, şehirlidir (eski oyunun kasveti, yası, borç batağı değil). Mizah taşıyıcı kolondur. Peri gururunu korumaya çalışır ("Planlamıştım.").
-(`YENI_OYUN_TON.md` §1 tablosu ve `YENI_OYUN_SEZON.md` §0.)
+(`YENI_OYUN_TON.md` §1 tablosu ve `YENI_OYUN_SEZON.md` §0 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1718, 1723, 1866
 
 ### TON-5 Her vaka kendi içinde kapanır
 Vakalar birbirine zincirli tek büyük cinayet değil; her biri kendi içinde kapanan hafif vakalardır.
+(`YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1719
 
 ### TON-6 Cengo her sahnede konuşur
 Eski oyunda Cengo çoğu kararda susuyordu (40 kararın 23'ünde); yeni oyunda her sahnede ağzı açıktır.
+(`YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1721
 
 ### TON-7 Anlatıcı yok
-Sahne, diyalog ve kısa, tarafsız sahne notları. Eski oyunun açılışındaki Peri'nin iç sesi kalkar (sahibinin kararı, 4 Ekim 2026, Ton §11). "Nasıl oynanır" kartı da yok: oyuncu hikâyeyi sahnelerin içinde görür; konuşma, seçim (ve kasa) ekranlarını oynayarak öğrenir.
+Sahne, diyalog ve kısa, tarafsız sahne notları. Eski oyunun açılışındaki Peri'nin iç sesi kalkar (sahibinin kararı, 4 Ekim 2026, Ton §11). "Nasıl oynanır" kartı da yok: oyuncu hikâyeyi sahnelerin içinde görür; konuşma ve seçim ekranlarını oynayarak öğrenir. (1879'daki "kasa ekranı" eskidi: kasa 16 Kasım 2026'da kalktı, CLAUDE.md.)
 *Kaynak:* 175, 1843, 1879
 
 ### TON-8 Sahne notu yalnız o an görüleni söyler
@@ -53,7 +56,7 @@ Her vakanın girişinde Peri ile Cengo arasında bir espri ya da atışma olur.
 *Kaynak:* 103
 
 ### TON-12 Saat "kala" ile geriye sayılmaz
-Sahibinin kararı, 18 Ekim 2026; bütün vakalar (kural kitabı 5b). "Sekiz buçuğa çeyrek kala", "dokuza yarım saat kala", "sekiz buçuğa yirmi kala", "on bire on dört kala" gibi geriye sayan söyleyiş yazılmaz; o saat dijital ekrandan okunur gibi söylenir: "sekiz on beşte", "sekiz otuzda", "on kırk altı". "Buçuk", "çeyrek geçe", "on geçe" doğru ve serbesttir ("sekiz buçukta", "sekizi çeyrek geçe"). Kamera, alarm, telefon gibi bir cihazdan okunan saat her zaman ekrandaki gibi söylenir ("son kayıt on kırk altı"). Yazılı yüzeylerde (ipucu metni, olgu) rakam: "22.46'da". Taramada sorulur: "Saat 'kala' ile mi söyleniyor?" Uygulama: Vaka 3'te "on bire … kala", "gece yarısına beş kala" dijitale çevrildi; Vaka 2 olduğu gibi kalır (sahibi: orada yalnız "buçuk/çeyrek geçe" var).
+Sahibinin kararı, 18 Ekim 2026; bütün vakalar (kural kitabı 5b). "Sekiz buçuğa çeyrek kala", "dokuza yarım saat kala", "sekiz buçuğa yirmi kala", "on bire on dört kala" gibi geriye sayan söyleyiş yazılmaz; o saat dijital ekrandan okunur gibi söylenir: "sekiz on beşte", "sekiz otuzda", "on kırk altı". "Buçuk", "çeyrek geçe", "on geçe" doğru ve serbesttir ("sekiz buçukta", "sekizi çeyrek geçe"). Kamera, alarm, telefon gibi bir cihazdan okunan saat her zaman ekrandaki gibi söylenir ("son kayıt on kırk altı"). Yazılı yüzeylerde (ipucu metni, olgu) rakam: "22.46'da". Taramada sorulur: "Saat 'kala' ile mi söyleniyor?" Uygulama: Vaka 3'te "on bire … kala", "gece yarısına beş kala" dijitale çevrildi; Vaka 2 olduğu gibi kalır (sahibinin kararı; "buçuk", "çeyrek geçe" doğrudur).
 *Kaynak:* 180, 704, 2629, 2989
 
 ### TON-13 Dördüncü duvar seyrek ve yalnız Cengo
@@ -71,7 +74,7 @@ Her replik şu sorulardan geçer (`sablon/7_uretim_sureci.md`, hızlandırma kur
 *Kaynak:* 698, 700, 701, 703, 706
 
 ### TON-15 Espri açıklanmaz, kurulumu önce gelir
-Espri açıklanmaz ama kurulumu görünür olur. Taramada sorulur: espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
+Espri açıklanmaz ama kurulumu görünür olur (sahibinin kararı, 17 Ekim 2026; kural kitabı 5). Taramada sorulur: espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
 *Kaynak:* 177, 702
 
 ### TON-16 Tekrar eden şaka büyür
@@ -96,6 +99,7 @@ Peri ile Cengo birbirlerini aşağılamazlar; birbirleriyle uğraşırlar. (Ton 
 
 ### TON-21 Görsel ton: gün ışığı ve kalabalık
 Gece ve yağmur değil, gün ışığı ve kalabalık: İstanbul'un gürültülü, renkli, pazarlıklı yüzü. Ayrıntısı yeni görsel stil sözleşmesinde.
+(`YENI_OYUN_TON.md` §8 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1801
 
 ### TON-22 Paravan'ın yasal durumu tekrarlanan espridir

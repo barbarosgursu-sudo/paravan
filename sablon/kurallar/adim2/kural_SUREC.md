@@ -28,12 +28,13 @@ söylediği şey kural hâline getirilir.
   sözleşmeler), kod ve altyapı (motor, arayüz, araçlar, derleme), yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş
   çıkarsa Claude yapmaz; ne istendiğini kısaca yazar, ortak Barbaros'a iletir. Codex/ChatGPT hesabı Barbaros'undur. Bu liste 14 Kasım'da
   da değişmedi.
-- **14 Kasım 2026'dan beri bütün üretim (vaka metni + resim) Oğuz Bey'de:** Barbaros vaka üretmez. Codex ve web ChatGPT için Barbaros'un
+- **14 Kasım 2026'dan beri bütün üretim (vaka metni + resim) Oğuz Bey'de:** Barbaros vaka üretmez (aşağıdaki "üretimin yeri" ve
+  "sahibi" maddeleriyle ilişkisi: CELISKI-SUREC-4). Codex ve web ChatGPT için Barbaros'un
   hesabı kullanılır (şimdilik; ileride değişebilir). Oğuz Bey üretimi yürütür: yerel Claude'a `vaka N resimlerini üret` der, takılınca
-  sorulana cevap verir, resim onayında son karar onundur, web'de üretilecekleri Barbaros'un ChatGPT hesabıyla üretir.
+  sorulana cevap verir, resim onayında son karar onundur (bkz. CELISKI-SUREC-4), web'de üretilecekleri Barbaros'un ChatGPT hesabıyla üretir.
 - **Resim üretiminin yeri (Barbaros, 14 Kasım 2026 gece — öncekinin yerine):** döngü/Codex Oğuz Bey'in ya da Barbaros'un bilgisayarında
   yapılır; ikisi aynı numarayı aynı anda üretmez, hangisinin ürettiği `DURUM.md` en üstte yazılır.
-- **"Sahibi" (resim üretiminde):** o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros). Temel onayı, resim onayı/reddi, el onayı,
+- **"Sahibi" (resim üretiminde):** o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros; bkz. CELISKI-SUREC-4). Temel onayı, resim onayı/reddi, el onayı,
   web listesi (filtreye takılanlar), tarz soruları ona gider; yeni kural ya da kural değişikliği Barbaros'a sorulur (`kaynak/DEVIR.md` en üst).
 - **Yerel Claude:** denetler, onaylar ya da düzeltme notuyla reddeder, oyuna gömer, GitHub'a gönderir; kuralları `uretim/CLAUDE.md`.
 - **Bulut Claude:** bilgisayar kapalıyken istem yazar, onaylıları inceler, oyunu düzeltir; resim üretemez.
@@ -109,9 +110,11 @@ hâlinde verilir; sahibi Onay 2'ye temizlenmiş metinle başlar ve notlarını s
 ### SUREC-16 Adım 6: Onay 2 — görselsiz test
 Sahibi oynar. Okuyan, vakaya başlamadan önce `3_kanon_kaydi.md`'yi okur (büro nerede, kim kimdir, dönen figürler; kural G, 12 Kasım 2026;
 ortağın önerisindeki "yarım sayfalık kanon özeti" yeni belge olarak yazılmadı, iki belge zamanla kayacağı için var olan kanon kaydı
-kullanılır). Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre. Elle (makinenin yapamadığı)
-bakılanlar: espri tutuyor mu, çekicilik seviyesi, görsel kalitesi; girişte suçlu dolaylı yoldan ele veriliyor mu, çekicilik anı ve espri
-tutuyor mu, giriş ilk gidilecek yer belli olarak bitiyor mu. Ölçüt: notlar tek listede.
+kullanılır). Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre. Girişte de sahibi Onay 2'de
+bakar: suçlu dolaylı yoldan ele veriliyor mu, çekicilik anı ve espri tutuyor mu, giriş ilk gidilecek yer belli olarak bitiyor mu. Ölçüt:
+notlar tek listede.
+Genel olarak elle (makinenin yapamadığı) bakılanlar: espri tutuyor mu, çekicilik seviyesi, görsel kalitesi (bu liste yalnız Onay 2'ye
+bağlı değil; görsel kalitesine görselsiz testte bakılamaz).
 Yürüyüş (Vaka 4, 10 Kasım 2026): sahibi telefondan ekran görüntüsüyle not gönderir; satır üstünde konuşulur ("önceki/sonraki 10 satırı yaz"
 isteyebilir), öneri verilir, sahibinin seçtiği hâl not listesine yazılır; "yayına koy / güncelle" deyince hepsi birlikte işlenir. (Vaka 4
 kaydı: giriş bitti, 13 not işli; sahibi girişi yeniden inceleyecek — kural 5c Vaka 4'e henüz uygulanmadı, sahibinin kararı; sıradaki
@@ -172,7 +175,8 @@ listesinden geçirip "doğru, devam" ya da düzeltme promptu verir; türevler on
 "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır. Sahibi "üret" dediğinde hiçbir resim (temel) hazır değilse bu
 söylenir ve önce "kontrol et" istenir. Vaka 2'nin bütün görsel dersleri (kıyafet sabiti kayması, külotlu çorap, sayı, şehir, marka izi,
 kalabalıkta kişi düşmesi, kim kimi görüyor, red) `5_gorsel_sistemi.md` D (bilinen hatalar tablosu), E (kontrol listesi 10–12) ve F'de
-(kesim profilleri, hale, rötuş sınırı); prompt yazarken D tablosundaki önlemler promptlara baştan konur.
+(kesim profilleri, hale, rötuş sınırı); prompt yazarken D tablosundaki önlemler promptlara baştan konur. (Sohbet/yapıştırma düzeninin
+Codex düzeniyle ilişkisi: CELISKI-SUREC-3.)
 *Kaynak:* 712, 1356, 1488, 2572
 
 ### SUREC-23 Gizem referans seti
@@ -315,19 +319,6 @@ resmindeki manto (`kaynak/yeni_gorsel/sprite/peri_manto_normal.webp`) kruvaze, y
 altında V yakalı krem saten bluz. Claude'un önerisi: G1 Vaka 1'deki mantoya göre düzeltilsin (biçim için Vaka 1 resminin dekoltesiz kırpığı
 referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `altin_temiz`) de aynı konuşmada geçilir.
 *Kaynak:* 2762
-
-### SUREC-41 Vaka 6 yeni karar düzeni replikleri (Barbaros'tan Oğuz Bey'e, 16 Kasım 2026)
-Önce ikisi Vaka 6'yı gözden geçirir (eklenecek / çıkarılacak / rahatsız eden), sonra devam; hepsi `sablon/vakalar/vaka6_diyalog.md`'de.
-Gözden geçirilecek (Claude yazdı, beğenilmezse değişir) — 6 replik: Müzeyyen'in kararı soran cümlesi (`## sahne karar_soru`: "Şimdi ne
-olacak, kızım? Haldun'a, Gamze'ye söyleyecek misin?"); Peri'nin 4 seçenek cümlesi (her `## karar …` altında `**SEÇENEK:**`); Cengo'nun 1
-kanıt satırı (`## cengo_kanit` → `prova_torba`: "Torbayı o gün iki kişi tuttu, Peri. Onu söyleseydin kadın 'kanıtınız ne?' diyemezdi.").
-Yeni yazılacak — 7 replik: Cengo'nun 4 karar satırı (her kararın `**CENGO:**` satırı) anlatı biçiminden ("Cengo düğün fotoğrafına baktı…
-dedi") büroda Cengo'nun **kendi ağzından replik**e çevrilir; **kasa sözü geçmez** (kasa kalktı: "Parasını al" satırındaki "Kasaya koy, ben
-görmeyeyim" değişmeli); kesinti yok (müşteri söylediği ücreti öder). Cengo'nun 3 kanıt satırı (`## cengo_kanit` altında): `tarih_sofra`
-(Sofradaki tarih), `kalip_kagit` (Kalıp kâğıdı), `jale_siparis` (Siparişin günü); satır **yalnız o kanıtı** anar, öbürünü anmaz (kural 22c).
-Yazınca: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka6_diyalog.md V6` (Barbaros denetimleri koşar). (Kök CLAUDE.md 16 Kasım:
-"Vaka 6 yeni düzende TAMAM".)
-*Kaynak:* 2772
 
 ### SUREC-42 Test için vaka düğmeleri
 Vaka 2 donduktan sonra (sahibinin isteği, 16 Eki 20:20): "Baştan başla" penceresinde her vakaya düğme ("Vaka N · Başlık (test)", Vaka 1

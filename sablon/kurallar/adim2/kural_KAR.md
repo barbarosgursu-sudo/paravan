@@ -50,7 +50,7 @@ Sahibinin kararı, 10 Ekim 2026. Eski güzellik kraliçesi olduğu için vakadak
 - **Kendini fazla beğenir:** "Bende bir his var" diye başlayan her cümle oyuncuyu tedirgin etmeli.
 - **Güçlü yanı: insanlar ona açılır.** Peri'nin kapısı kapalı kalan yerde Cengo çay içip çıkar.
 - **Asla soytarı olmaz.** Esprisi bir zırhtır; altında bir şey olduğunu oyuncu arada bir görür, Cengo hemen kapatır.
-- Görünüşü sabittir (KAR-24).
+- Görünüşü sabittir (KAR-24; kıyafetin bu sabite girip girmediği için bkz. CELISKI-KAR-1).
 - Geçmişi: eski oyundaki hapis sırrı (bir kadının yerine hapis yatması) **kalktı** (sahibinin kararı, 4 Ekim 2026). Yerine yeni, hafif bir sır: tek bir vakada açılır, hüzünlüdür ama yıkıcı değildir, sonra ton geri gelir. Sır: uzaktaki kızı (KAR-29).
 *Kaynak:* 182, 1736, 1739, 1740, 1741, 1742, 1743, 1838, 1840
 
@@ -128,7 +128,7 @@ Bağ küçük adımlarla (±1/±2) değişir — yavaş, inandırıcı birikim. 
 ## Görünüş (metin tarafı)
 
 ### KAR-22 Her vakada yeni kıyafet
-Peri ve Cengo her vakada yeni kıyafet giyer. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (kural 15a); çekicilik anı burada olur.
+Peri ve Cengo her vakada yeni kıyafet giyer. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (kural 15a); çekicilik anı burada olur. Cengo'nun sabit görünüşüyle ilişkisi için bkz. CELISKI-KAR-1.
 *Kaynak:* 193, 102
 
 ### KAR-23 Karakter sabitleri (her istemde yazılır, her denetimde aranır)
@@ -146,12 +146,12 @@ Yeni vakada yeni karakter bu tabloya (`uretim/CLAUDE.md`) sahibinin onayıyla ek
 *Kaynak:* 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1497, 1498, 1499
 
 ### KAR-24 Cengo'nun görünüşü
-Sahibinin kararı, 5 Ekim 2026. Mavi Ay'daki David'in tarzının **ruhu** alınır, ayrıntısı Cengo'nun (Ton §10):
-- Bitpazarından, bir beden büyük, buruşuk **açık kahverengi takım ceketi**; kolları dirseğe kadar sıvalı (ceket için bkz. CELISKI-KAR-1).
-- **Beyaz gömlek**, üst iki düğmesi açık, yakası yamuk.
-- **Koyu kot** — takımın pantolonu değil; uyumsuzluk kasıtlı.
-- **Kravatı takmıyor ama atmıyor:** koyu bordo, ucu ceketin cebinden sarkıyor ("Gerekirse takarım.").
-- **Tel:** göğüs cebinde hep bir tel vardır, ucu görünür; kilit açar (açılıştaki kilit). Kapanışta teli Peri'ye verir, cebinde hep yenisi olur.
+Sahibinin kararı, 5 Ekim 2026. Mavi Ay'daki David'in tarzının **ruhu** alınır, ayrıntısı Cengo'nun (Ton §10). Kıyafet maddeleri (ceket, gömlek, kot, kravat) için bkz. CELISKI-KAR-1:
+- Bitpazarından, bir beden büyük, buruşuk **açık kahverengi takım ceketi**; kolları dirseğe kadar sıvalı (bkz. CELISKI-KAR-1).
+- **Beyaz gömlek**, üst iki düğmesi açık, yakası yamuk (bkz. CELISKI-KAR-1).
+- **Koyu kot** — takımın pantolonu değil; uyumsuzluk kasıtlı (bkz. CELISKI-KAR-1).
+- **Kravatı takmıyor ama atmıyor:** koyu bordo, ucu ceketin cebinden sarkıyor ("Gerekirse takarım.") (bkz. CELISKI-KAR-1).
+- **Tel:** göğüs cebinden telin ucu görünür (açılıştaki kilit; kapanışta teli Peri'ye verir, cebinde hep yenisi olur).
 - **Bileklik:** bileğinde renkli boncuklu, ucuz bir bileklik — kızının (Eylül yedi yaşındayken yaptı; Vaka 6, 12 Kasım 2026). Vaka 6'ya kadar kimse sormaz, açıklanmaz. Boncuklarda harf yok.
 - Siyah, dağınık, hafif kıvırcık saç; iki üç günlük sakal; kalın kaşlar, koyu kahve gözler; hınzır yarım gülümseme. Peri'den yarım baş uzun.
 - **İfadeler:** normal (hınzır), kaşı kalkık, gülen, **yumuşak** (ilk gülmediği, "elektrik" anları). Göz kırpan dördüncü duvar görseli Vaka 4'te.
@@ -182,7 +182,7 @@ Peri'nin geçmişi (dolandırıcı avukat, haczedilen taç) sabit sezon hikâyes
 *Kaynak:* 241
 
 ### KAR-29 Cengo'nun kızı: Eylül
-Cengo'nun sırrı (V6, sahibinin kararı 4 Ekim 2026, seçenek b — uzaktaki kızı). Adı **Eylül** *(ortağın kararı, 12 Kasım 2026)*. **16 yaşında** (ilk taslakta 17'ydi; ortak 12 Kasım 2026'da düzeltti — Cengo baba olduğunda reşit olsun; sezon belgesinde 13 Kasım 2026 tarihiyle 17 → 16). Annesiyle anlaşarak uzakta, şehrin öbür yakasında, Üsküdar'da yaşıyor; Cengo uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor ve (V6'da) yardım istemeye geliyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. Peri'yi kıskanır; Gizem'le çok iyi anlaşır, ona "abla" der, mesajlaşırlar *(Vaka 6, 12 Kasım 2026)*.
+Cengo'nun sırrı (V6, sahibinin kararı 4 Ekim 2026, seçenek b — uzaktaki kızı). Adı **Eylül** *(ortağın kararı, 12 Kasım 2026)*. **16 yaşında** (ilk taslakta 17'ydi; ortak 12 Kasım 2026'da düzeltti — Cengo baba olduğunda reşit olsun; sezon belgesinde 13 Kasım 2026 tarihiyle 17 → 16). Annesiyle uzakta, şehrin öbür yakasında, Üsküdar'da yaşıyor; Cengo, annesiyle anlaşarak, uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor ve (V6'da) yardım istemeye geliyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. Peri'yi kıskanır; Gizem'le çok iyi anlaşır, ona "abla" der, mesajlaşırlar *(Vaka 6, 12 Kasım 2026)*.
 *Kaynak:* 242, 1968
 
 ### KAR-30 Eylül'ün ailesi ve V6 çevresi
@@ -226,7 +226,7 @@ Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan 
 
 ### KAR-37 Taç
 - Peri'nin eski hayatından geri alınacak şey (sahibinin kararı, 4 Ekim 2026: güzellik kraliçesi tacı; haczedilip satılmış, müzayedede karşısına çıkar).
-- Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (kural 27). 16 Kasım 2026'da kasa kalktı; "kasada biriken parayla" (para hedefi anlamı) geçersiz.
+- Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (kural 27). 16 Kasım 2026'da kasa kalktı; "kasada biriken parayla" geçersiz.
 - 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*.
 *Kaynak:* 256, 1844, 1969
 

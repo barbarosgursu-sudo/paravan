@@ -1,0 +1,3 @@
+# Düzeltme — SHORTS
+- SHORTS-19 uydurma (örnekten çıkarılmış genel biçim hükümleri, "YouTube başlığı" açıklaması; kaynak 824) → düzeltildi: genel kalıp cümleleri ve "(YouTube başlığı…)" çıkarıldı, kural "biçim kaynaktaki örnekteki gibidir" diye girip yalnız örneği veriyor; başlık "Senaryo dosyası (örnek biçim)" oldu. (arac_shorts.js ayrıştırıcısı da baslik/aciklama/set/cset/muzik'i tek ⚙ satırında ya da ayrı satırlarda kabul ediyor; zorunlu kalıp yok.)
+- Not (sorun değil): 8_shorts.md satır 6 ve 134–135 KURAL_SATIRLAR.tsv'de yok → dokunulmadı: satır kümesi dışı, uydurma olurdu; çıkarım aşamasına bildirilmeli.

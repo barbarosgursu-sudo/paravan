@@ -2,7 +2,9 @@
 
 Durum notu: `sablon/TASLAK_tekrar_onleme.md` kaynaklı kurallar (867–971) o dosyada "sahibi onayladı" diye duruyor; dosyanın başlığı
 ise "TASLAK — ONAYLANMADI, Barbaros 'yaz' deyince şablona/kanona/koda işlenir" diyor (12 Kasım 2026). Aşağıda her birinin yanına
-bu durum yazıldı.
+bu durum yazıldı: her birinde "*Durum:* taslak" satırı var (Barbaros "yaz" demedi; dosyadaki "sahibi onayladı"
+taslak içindeki onaydır, yürürlük değil). Taslağın kapsamı: Vaka 5 bundan etkilenmez (Barbaros: "Vaka 5 bu şekilde kalsın"); kurallar Vaka 6'dan
+itibaren düşünülüyor; §8 notu: hangi vakalara uygulanacağı açık, V1–5 dondu.
 
 ### SEZON-1 Sezon 1'in çatısı
 Sezon 1 **sekiz vaka**dır (sahibinin kararı, 4 Ekim 2026: "sekizi de kalıyor"; yazarken değişebilir). Her vaka kendi içinde kapanır.
@@ -15,10 +17,12 @@ Vakaları birbirine bağlayan iplikler kararlarla ilerler:
 ### SEZON-2 Her sezonun ipliği farklı gruptan
 Her sezonun ipliği farklı bir gruptan seçilir: Peri, Cengo, büro, dış tehdit, garip. Gerekçe: S2 de "Peri bir şeyini geri alır,
 Cengo'nun sırrı açılır" diye kurulursa kalıp tekrar eder. (Sahibi onayladı, 12 Kasım 2026; taslak dosyasında.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 884
 
 ### SEZON-3 Doğaüstüne yaklaşanın mantıklı açıklaması olur
-Doğaüstüne yaklaşan (iplik ya da öğe) sonunda mantıklı bir açıklamaya bağlanır; oyun gerçekçidir. (Taslak, 12 Kasım 2026.)
+Garip grubundan seçilen sezon ipliğinde doğaüstüne yaklaşan her şey sonunda mantıklı bir açıklamaya bağlanır; oyun gerçekçidir. (Taslak, 12 Kasım 2026.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 894
 
 ### SEZON-4 Gerçekçi + garip harmanı
@@ -29,15 +33,18 @@ Oyun gerçekçi kalır; arada bir **garip vaka** gelir, bazı vakaların içinde
 - gerisi tamamen gerçekçi;
 - iki garip vaka yan yana gelmez;
 - aynı garip öğe sezonda iki kez kullanılmaz (iki papağan, iki ikiz yok).
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 867, 868, 869, 870, 871, 872, 873
 
 ### SEZON-5 Semt ve çevre sınırı
 Bir semt bir sezonda en çok iki vakada; bir çevre bir sezonda en çok iki vakada kullanılır. (Sahibi onayladı, 12 Kasım 2026; taslak dosyasında.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 899
 
 ### SEZON-6 Dönen figürler aynı espriyi tekrarlamaz
 Dönen figürün her dönüşünde hâlinde bir şey değişir (ör. ev sahibi bir gün yardım ister, bir gün müşteri olur); "ev sahibi gelir, Peri
 saklanır" gibi aynı espri her dönüşte yapılmaz. Bir figür üst üste iki vakada görünmez — Gizem hariç (o büroda). (Sahibi onayladı, 12 Kasım 2026.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 875
 
 ### SEZON-7 Büroya gelen hayvan
@@ -45,6 +52,7 @@ Sahibinin gözdesi: büroya gelen bir hayvan (kedi ya da martı gibi; hangi hayv
 düzensiz/tesadüfi görünür (sahibi, 12 Kasım 2026). Hangi vakalarda görüneceğini **yazar seçer**; her oyuncu aynısını görür (oyun rastgele
 seçmez, kod gerekmez). **Her yeni vakanın formunda (adım 1) sahibine sorulur: "Bu vakada hayvan görünsün mü?"**; cevap forma yazılır.
 Belgelere işlenirken yeri: `sablon/7_uretim_sureci.md` adım 1 ve vaka formu.
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 877
 
 ### SEZON-8 Sezonun yeniliği (yeni oyun biçimi)
@@ -56,12 +64,14 @@ Sezon 1'de yeni oyun biçimi yok; S2'den itibaren sezon başına bir tane; önce
 - **Gizem'in gözünden vaka: olmalı**; ayrıca Gizem olaylara daha çok katılmalı. Not: "ana kişi"yi ayarlanabilir yapmak tek iş, Cengo ve Gizem'i birlikte çözer.
 - **Tek vaka, içinde iki iz** (kod yok): **olur.**
 - **Gerçekten iki açık dosya** (çok kod; motor aynı anda tek vaka açar): sahibi emin değil, oyunu karmaşıklaştırabilir — **bekliyor.**
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 900, 902, 903, 904, 905, 906
 
 ### SEZON-9 Kararın etkisi görünür olmalı
 Sahibi (12 Kasım 2026): vaka sonundaki kararların oyuna gerçek bir etkisi yok gibi (Cengo'nun hoşuna gidiyor/gitmiyor, az/çok para — hiçbiri
 hissedilmiyor). Karar kalır, ama etkisi muhakkak düzeltilir; etkisi görünmezse karar ekranı yalnız karmaşıklaştırır (Barbaros'un sonucu).
 Ara yol olarak "4 yerine 2 karar" anıldı; karar verilmedi.
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 908, 971
 
 ### SEZON-10 Kararın etkisinin üç yolu
@@ -69,6 +79,7 @@ Sahibinin onayladığı üçlü (12 Kasım 2026; taslakta):
 1. Karardan sonraki vakada kısa bir haber (Sherlock'un mektubu gibi): "Rıza Reis oğluyla barıştı."
 2. Cengo bağı yüksekse bir ipucu bedava açılır.
 3. Eski bir kararın sonucu sonraki bir vakada ipucu olarak döner (bkz. SEZON-8: yalnız ipucu olarak).
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 916, 917, 918, 919
 
 ### SEZON-11 Oyuncu etkinin hangi karardan geldiğini anlar
@@ -79,38 +90,45 @@ ve değerini görür (Telltale'in hatasının tersi). Bağlantıyı gösterme yo
 3. Dönen ipucu eski kararı hatırlatır: "🔓 Serkan yardım ediyor. Vaka 1'de onu babasından korumuştun."
 4. Anı defteri bağlantıyı kaydeder: "Bu kararın sonucu: Vaka 4'te Serkan sana yardım etti."
 5. Karar anında küçük uyarı: "Bu kararın sonucu ileride karşına çıkabilir."
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 920, 921, 922, 923, 924, 925, 926
 
 ### SEZON-12 Büronun duvarı
 Her kararın izi büronun duvarında birikir (teşekkür kartı, nikâh fotoğrafı, gazete kupürü); büroya her dönüşte görünür. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 928
 
 ### SEZON-13 Taç vitrinde
 Taç bir antikacının vitrininde, fiyatıyla durur; Peri her geçişte bakar → para Vaka 1'den itibaren anlam taşır. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 929
 
 ### SEZON-14 Gizem de karara tepki verir
 Gizem de karara tepki verir ve Cengo'yla farklı düşünebilir (biri beğenir, öteki beğenmez) → "doğru cevap" hissi oluşmaz. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 930
 
 ### SEZON-15 Sezon sonu özeti
 Sezon sonunda "Senin İstanbul'un" özeti: kararların kime ne yaptığı. Plan zaten var: `kaynak/final_tablo_plani.md`. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 931
 
 ### SEZON-16 Sezon tablosuyla düşünülür
-Vakalar tek tek değil, **sezon tablosuyla** düşünülür (tekrara düşmenin 10 sebebinden 6–10'u doğrudan çözer). Tablonun beş başlığı: ne oldu ·
-suçlu kim · neden yaptı · yanlış iz · karar. Tablo kitap boyu tutulur. Konuşulan ama **onaylanmayan** öneriler: ayar düğmeleri (şüpheli sayısı 2–4,
+Vakalar tek tek değil, **sezon tablosuyla** düşünülür (tekrara düşmenin 10 sebebinden 6–10'u doğrudan çözer: 6 bütüne bakan yok, 7 ayrışma notu tek eksene bakıyor, 8 iki yazar, 9 hız/ilk fikir, 10 yapay zekâ "ortalama" çözüme gider). Tablonun beş başlığı: ne oldu ·
+suçlu kim · neden yaptı · yanlış iz · karar. Tablo kitap boyu tutulur. Konuşulan ama **onaylanmayan** öneriler: sebep 1 (şablon her vakada aynı) için önerilen ayar düğmeleri (şüpheli sayısı 2–4,
 iki suçlu, yanlış izin başka bir şey saklaması, kovalananın başkası olması, olayın Peri'nin başına gelmesi) ve "yan yana iki vaka aynı seçimi yapmaz,
 bir seçim sezonda en çok iki kez" kuralı.
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 942, 957
 
 ### SEZON-17 Tahmin edilebilir tekrar olmaz
 Amaç "hiçbir şeyi tekrarlama" değil (imkânsız), **"tahmin edilebilir biçimde tekrarlama"**mak. Suçlunun şüphe sırasındaki yeri döner: bazen en
 şüpheli gerçekten suçlu, bazen hiç akla gelmeyen, bazen müşteri.
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 957
 
-### SEZON-18 Yeni vaka eski vakaların kalıbını tekrarlamaz
-Yeni vakanın planı önceki vakalarla çakışıyorsa değiştirilir. Örnek (Vaka 7, 15 Kasım 2026, ortağın kararı): ilk plan V5 ile çakıştığı için
+### SEZON-18 Vaka 7'nin planı eski vakaların kalıbından kaçtı (örnek)
+Tek vakalık karar, genel kural olarak yazılmadı: Vaka 7'de (15 Kasım 2026, ortağın kararı) ilk plan V5 ile çakıştığı için
 (cep saati, kopya, tamirci suçlu, koleksiyoncu, kapak kazıması, "yok pahasına alınmış eşya") değişti; ayrıca kaçınılan tekrarlar: borçlu yanlış iz
 (V1–4, V6), usta dükkânında ipucu sahnesi (V2, V5, V6).
 *Kaynak:* 2732
@@ -163,4 +181,5 @@ Peri ile Cengo yeni kıyafet, dörder ifade.
 
 ### SEZON-25 Barbaros'a anlatım biçimi
 Barbaros'la konuşurken her şey **basit ve kısa** anlatılır; her seferinde söyletilmez (Barbaros'un isteği).
+*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 935

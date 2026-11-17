@@ -27,7 +27,7 @@ Sahibinin görselsiz testi, 8 Ekim 2026. Suçlunun adı, ona özgü bir eşya ya
 *Kaynak:* 201, 295, 604, 659
 
 ### BILGI-7 Anı özeti yalnız herkesin duyduğunu yazar (kural 21d)
-Sahibinin isteği, 17 Ekim 2026. Anı defterinde her biten vakanın üstünde (Peri'nin notunun üstünde) 2–3 cümlelik hatırlatma durur: müşteri ve kayıp, kim almıştı, neden. Bütün kararlarda aynıdır. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği girer; bir ipucunda kalmış ayrıntı ya da karara göre değişen sonuç girmez. Diyalogda `## ani` bölümüne yazılır. Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, kural 24). Vaka formu onaya gitmeden "Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor" kontrolü işaretlenir.
+Sahibinin isteği, 17 Ekim 2026. Anı defterinde her biten vakanın üstünde (Peri'nin notunun üstünde) 2–3 cümlelik hatırlatma durur: müşteri ve kayıp, kim almıştı, neden. Bütün kararlarda aynıdır. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği girer; bir ipucunda kalmış ayrıntı ya da karara göre değişen hiçbir şey (sonuç dahil) girmez. Diyalogda `## ani` bölümüne yazılır. Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, kural 24). Vaka formu onaya gitmeden "Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor" kontrolü işaretlenir.
 *Kaynak:* 203, 634, 669
 
 ### BILGI-8 Künye de Nurcan yüzeyidir
@@ -90,8 +90,8 @@ Her görsel, bağlı clue'nun `reveals`ine etiketlenir. Görsel bir kanon yüzü
 (Paravan rozetleri ve sezon sonu tablosu, 9 Kasım 2026.) Yalnız kazanılan rozetler görünür. Liste yok, sayı yok ("12'nin 3'ü" YOK), gri/kilitli kutu yok — gri bir rozetin adı görülmemiş bir sahneyi söyler (Nurcan), sayı nottur. Oyuncu rozeti kazandığı an varlığını öğrenir.
 *Kaynak:* 1699
 
-### BILGI-22 Sızıntı onarımı: geri çekme, ekleme kadar iş görür
-Sızıntı düzeltmelerinin büyük çoğunluğu cümle kısaltmaktır ("kimseye söylememiş" → "desteği veren oydu", "Adalet geldi" → "Hepsi düştü"). (Kayıt: o oturumdaki 30 düzeltmede yeni kanon yalnız bir kez eklendi.)
+### BILGI-22 Onarım: geri çekme, ekleme kadar iş görür
+Geri çekme, ekleme kadar iş görür: bir düzeltmenin çoğu zaman yolu cümleyi kısaltmaktır ("kimseye söylememiş" → "desteği veren oydu", "Adalet geldi" → "Hepsi düştü"). (Kayıt, DEVIR.md 23 Eylül 2026 oturumu: uygulanan 30 düzeltmenin büyük çoğunluğu cümle kısaltmaktı; yeni kanon yalnız bir kez eklendi.)
 *Kaynak:* 3203
 
 ### BILGI-23 Bir sızıntı bulunca kardeşlerini ara

@@ -82,7 +82,7 @@
 1637	RAF-73	
 1638	RAF-74	
 1639	RAF-75	
-1640	RAF-76	
+1640	RAF-76,CELISKI-2	"yalnız yeni kitap/sezon için" 1694 ile çelişiyor → CELISKI-2.
 1641	RAF-77	
 1642	RAF-78	
 1643	RAF-79	
@@ -121,7 +121,7 @@
 1691	RAF-105	
 1692	RAF-106	
 1693	RAF-104	
-1694	RAF-75,RAF-107	
+1694	RAF-75,RAF-107,CELISKI-2	"yeni vaka gelince tek seferlik kart" 1640 ile çelişiyor → CELISKI-2.
 1696	RAF-109	
 1697	RAF-110	
 1702	RAF-111	
@@ -133,7 +133,7 @@
 1976	RAF-1	
 1977	RAF-6	
 1979	RAF-7	"İngilizce" sözü eskidi (1976: dil kararı RAF_KARARLARI ile değişti); yerine RAF-27/28.
-1990	RAF-27,RAF-28,RAF-30	Üstü çizili eski karar ("önce Türkçe sonra İngilizce; çeviri değil yeniden yazım, espri çevrilmez") açıkça eskidi; 23 Eylül "sadece İngilizce" de eskidi.
+1990	RAF-27,RAF-28,RAF-30	Üstü çizili eski karar ("önce Türkçe sonra İngilizce; çeviri değil yeniden yazım, espri çevrilmez") açıkça eskidi; 23 Eylül "sadece İngilizce"yi 4 Ekim kararı değiştirmişti; 9 Kasım 4 Ekim kararının yerine geçti.
 1991	RAF-32	Üstü çizili "kurulmayacak, metin JSON içinde kalır" açıkça kalktı (1581).
 1993	RAF-101	Üstü çizili "Steam birinci, Android ikinci; Electron + Capacitor" açıkça eskidi.
 1994	RAF-37	Üstü çizili "ilk 2-3 vaka bedava, gerisi tek seferlik ödeme" açıkça eskidi; yeni satırdaki "Vaka 1–2 bedava, sonrası kredi/reklam" RAF-47/48'de.
@@ -150,6 +150,6 @@
 2011	RAF-111	Rozet ayrıntılarının geri kalanı (§12b, kenarda sessiz not, Defter sayfası) bu konunun dışındaki satırlarda.
 2012	RAF-113	
 2033	RAF-108	
-2062	RAF-108,CELISKI-1	"Hangi vakanın bedava olacağı yazım kararı" CELISKI-1'de anıldı.
+2062	RAF-108	"Hangi vakanın bedava olacağı yazım kararı" satış kararı; RAF_KARARLARI ile kalktı (1548, 1976) — RAF-108'de kalktı diye işaretli.
 2394	RAF-102	
 3019	RAF-51,RAF-52,RAF-64,RAF-109,RAF-111,RAF-113	DEVIR özet satırı; aynı kararların tekrarı. "Reklam yasağı gevşetildi" bilgisi 9 Kasım'da kredi düzenine geçti.

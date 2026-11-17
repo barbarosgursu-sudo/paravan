@@ -16,3 +16,9 @@
 - **B (no 1270, 1271, 2631, `uretim/OKUBENI.md`, Vaka 4'ten beri):** `istemleri hazırla N` → `vaka N resimlerini üret`; resimleri yerel Claude Codex döngüsüyle üretir, denetler, gömer; web yalnız filtreye takılanlar için.
 - B, A'nın yerine geçtiğini açıkça söylemiyor; 7. parçanın adım tablosu ve D-6 hâlâ A'yı yazıyor.
 - **Soru:** Codex düzeninde iş sayfası (D-6) ve "sohbet sırası / temel görseli sohbete tek yapıştır" kuralları hâlâ zorunlu mu, yoksa adım 8–9 Codex döngüsüne göre yeniden mi yazılmalı?
+
+### CELISKI-SUREC-4
+- **A (no 2795, 2797, 1265; `DEVIR.md` 14 Kasım 2026, `uretim/OKUBENI.md`):** bütün üretim (metin + resim) Oğuz Bey'de; Barbaros vaka üretmez; üretim onayları (temel, resim onayı/reddi, web listesi, tarz) Oğuz Bey'e gider, resim onayında son karar onundur.
+- **B (no 1035, 1036; `uretim/CLAUDE.md`, 14 Kasım 2026 gece):** resim üretimi Oğuz Bey'in ya da Barbaros'un bilgisayarında yapılır; "sahibi" = o oturumda üretimi yürüten kişi (Oğuz Bey ya da Barbaros), onaylar ona gider.
+- 1035'teki "öncekinin yerine" yalnız üretimin YERİNİ (hangi bilgisayar, Barbaros'un Codex kullanması) açıkça değiştiriyor; Barbaros'un üretimi yürütüp yürütemeyeceğini ve resim onayında son sözü açıkça çözmüyor.
+- **Soru:** Barbaros da resim üretimini yürütebilir mi, ve o oturumda resim onayında son söz Oğuz Bey'de mi yoksa üretimi yürüten kişide mi?

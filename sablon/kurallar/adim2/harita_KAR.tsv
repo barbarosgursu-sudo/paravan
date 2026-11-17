@@ -5,7 +5,7 @@
 149	KAR-19	
 162	KAR-26	
 181	KAR-5	
-182	KAR-7	"Görünüşü sabittir" KAR-7'de, ayrıntı KAR-24
+182	KAR-7,CELISKI-1	"Görünüşü sabittir" KAR-7'de, ayrıntı KAR-24; "sabit"in kıyafeti kapsayıp kapsamadığı CELISKI-1
 183	KAR-8	
 184	KAR-9	
 185	KAR-10	
@@ -13,7 +13,7 @@
 187	KAR-16	
 188	KAR-17	
 192	KAR-6	
-193	KAR-22	
+193	KAR-22,CELISKI-1	her vakada yeni kıyafet ile sabit Cengo kıyafeti arasındaki gerilim CELISKI-1
 210	KAR-20	
 232	KAR-2	
 233	KAR-2	
@@ -86,9 +86,9 @@
 1743	KAR-7	hapis sırrı 1840 ile kalktı, KAR-7'de yazıldı
 1745	KAR-24	
 1746	KAR-24,CELISKI-1	
-1747	KAR-24	
-1748	KAR-24	
-1749	KAR-24	
+1747	KAR-24,CELISKI-1	kıyafet kalemi: CELISKI-1 kapsamı
+1748	KAR-24,CELISKI-1	kıyafet kalemi: CELISKI-1 kapsamı
+1749	KAR-24,CELISKI-1	kıyafet kalemi: CELISKI-1 kapsamı
 1750	KAR-24	
 1751	KAR-24	
 1752	KAR-24	
@@ -114,7 +114,7 @@
 1838	KAR-5,KAR-7	
 1840	KAR-7	"sırrın ne olduğu birlikte yazılacak" açık sorusu 1968 ile kapandı
 1841	KAR-34	örnekler (kapıcı, emekli zabıt kâtibi) düştü: yalnız örnekti, karar Gizem oldu; "kim/adı/tuhaflığı" açık sorusu Gizem ile kapandı
-1844	KAR-37	"para hedefi" anlamı 256'daki kasa kalktı notuyla eskidi, KAR-37'de yazıldı
+1844	KAR-37	"para hedefi" adı KAR-37'de geri alınacak şey olarak yazıldı; kasa kalkınca bu adın düşüp düşmediği kaynakta yazmıyor
 1852	KAR-10,KAR-14	
 1968	KAR-29	
 1969	KAR-37	

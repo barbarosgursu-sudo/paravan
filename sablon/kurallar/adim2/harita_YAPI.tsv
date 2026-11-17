@@ -61,13 +61,13 @@
 164	YAPI-36	
 165	YAPI-29	
 166	YAPI-9	
-204	YAPI-15	
+204	YAPI-15,CELISKI-3	1822 ile çelişki (bedel/yalnız espri) CELISKI-3'e ayrıldı.
 205	YAPI-38	
 206	YAPI-23	
 207	YAPI-24	
 208	YAPI-25	Örnek "Elbise kılıfını…"; 2773'teki "Torbayı…" varyantı da notla yazıldı.
 209	YAPI-26	
-212	YAPI-31	CELISKI-1 ve CELISKI-2 bu kurala karşı yazıldı; kural kendisi tartışmasız (16 Kasım kararı).
+212	YAPI-31	CELISKI-1, CELISKI-2 ve CELISKI-4 bu kurala karşı yazıldı; kural kendisi tartışmasız (16 Kasım kararı).
 213	YAPI-32	
 214	YAPI-30	
 215	YAPI-35	
@@ -122,7 +122,7 @@
 709	YAPI-12	
 710	YAPI-17	
 932	YAPI-38	
-980	YAPI-46	
+980	YAPI-46,CELISKI-4	Taslak (12 Kasım, kasa kalkmadan önce); para ölçütü 212/2773 karşısında CELISKI-4.
 1017	YAPI-11	
 1018	YAPI-12	
 1019	YAPI-11	
@@ -140,7 +140,7 @@
 1810	YOK	Yalnız başlık ("Sayıların kuralları"); maddelerinden 1815 → YAPI-33/34.
 1815	YAPI-33,YAPI-34,CELISKI-2	Ay sonu gideri (35.000 ₺) kasa kalktıktan sonra yaşıyor mu belirsiz → CELISKI-2.
 1816	YAPI-36,YAPI-37	
-1822	YAPI-15	"Cengo'nun teli hep bir bedel taşır" hikâye/espri tarafı olarak 204 ile birleştirildi (204: oyunda geçerli, mahkemede geçmemesi yalnız espri).
+1822	YAPI-15,CELISKI-3	"Cengo'nun teli hep bir bedel taşır" — 204'teki "yalnız espri" ile çelişki CELISKI-3'e ayrıldı.
 1856	YAPI-3	
 1865	YAPI-20	
 1868	YAPI-20	
@@ -164,5 +164,5 @@
 2768	YAPI-32	
 2773	YAPI-23,YAPI-24,YAPI-25,YAPI-26,YAPI-28,YAPI-30,YAPI-31,YAPI-35	Uygulama sırası/kod ayrıntıları YAPI-23..28,31; düşen: V6 örneğindeki "Haldun'un kesintisi bir replik" ifadesi — aynı gün kural 25 (213, 2768) kesintiyi açıkça kaldırdı. Ayrıca bkz. CELISKI-1.
 2776	YAPI-35	Madde 1 "eksik kasa karara göre kapanır" kasa kalktığı için "tacın parası karara göre bulunur, oyuncu ayrıca seçmez" diye aktarıldı; madde 5'teki gerekçe ("kasanın ortası; yarısına yetmez, kasa yetmiyor komedisi") kasa kalktığı için düştü, fiyat (~200.000 ₺) korundu. Motor işi (kasadan düşme, taç alındı işareti) 2773 ile iptal.
-2777	YAPI-35	Kasa ile ilgili öneriler (kasa tacın fiyatı kadar düşer, eksiye düşmez; fiyat kasanın ortası 72.000–345.000; kural 24'e "tek harcama taçtır" istisnası; motor: kasaya göre sonuç, kasadan düşme, taç alındı işareti; sezon taslağındaki "dürüst yol yalnızca erteler" cümlesinin yeniden yazımı; ortağa sorulan üç soru ve formdaki çelişki listesi) ESKIDI: 2776 cevapladı, 2773 kasayı ve motor planını kaldırdı. Kalan: taç her yolda V7'de, V8 tacın alınmış hâlinden başlar, bedel nasıl alındığıdır.
+2777	YAPI-35	Kasa ile ilgili öneriler (kasa tacın fiyatı kadar düşer, eksiye düşmez; fiyat kasanın ortası 72.000–345.000; kural 24'e "tek harcama taçtır" istisnası; motor: kasaya göre sonuç, kasadan düşme, taç alındı işareti; ortağa sorulan üç soru ve formdaki çelişki listesi) ESKIDI: 2776 cevapladı, 2773 kasayı ve motor planını kaldırdı. Kalan: taç her yolda V7'de, V8 tacın alınmış hâlinden başlar, bedel nasıl alındığıdır. "Dürüst yol yalnızca erteler" cümlesinin yeniden yazımı bekleyen iş olarak YAPI-35'te (2773 iptal etmiyor).
 2778	ESKIDI	Ortağın 15 Kasım soruları (kasa–taç çatışması, kural 24/27, ihbar yolu, "Tacı Cengo'ya bırak") 2776 ile cevaplandı; kasa 16 Kasım'da kalktı ve kasadan düşme planı iptal edildi (2773). Kalan olgu (4. karar "Tacı Cengo'ya bırak") YAPI-35'te. Düşen: kasanın V7'ye 72.000–345.000 ₺ gelmesi, başlangıç 4.250 — kasa yok.

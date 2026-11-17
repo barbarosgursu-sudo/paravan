@@ -1,0 +1,4 @@
+# Düzeltme — CODEX
+- CODEX-25 (eski "`referanslar/`'a dokunma" yasağı güncel kural gibi, CODEX-24 madde 2 ile çelişik) → çelişki açıldı: CELISKI-CODEX-1 (1506 ↔ 1087; eski belge "geçmiş" diye anılıyor ama yasak açıkça kaldırılmamış, ESKIDI demek çözmek olurdu). CODEX-25'ten yasak çıkarıldı, eski talimat olarak atıfla korundu; CODEX-24 madde 2'ye atıf; harita 1506 ve 1087'ye çelişki kodu eklendi.
+- CODEX-12 (yalnız 1538'de olan ayrıntılar işaretsiz) → düzeltildi: aynı sütun sırası/biçim, eski kayıtlar değiştirilmez, çevrildi/değiştirildi sütunu, istemi sonradan yeniden kurmama "(eski Vaka 3 talimatı)" diye işaretlendi; harita 1538 notu güncellendi.
+- CODEX-17 (552'nin PNG kuralı onaylı resme daraltılmış) → düzeltildi: "Resim dosyası PNG'dir, adı `G<n>.png` (görsel standart H7). Onaylı resim silinmez."; başlık da uyarlandı.

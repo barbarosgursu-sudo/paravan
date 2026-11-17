@@ -11,3 +11,9 @@ Konuğun ekran boyu değerleri.
 - **Taraf A:** kadın yan karakterler genellikle 0.76–0.82, çok kısa/tombul 0.72 (`gorseller.json → boy`). Kaynak: 487, 3052.
 - **Taraf B (6 Kasım 2026 görsel standardı, H2):** resimde herkes aynı yükseklikte çizilir, boyu tablo belirler; tablodaki kadınlar 0,92–1,00 (Gizem 0,93, Ayla 1,00, Jale 1,00, Eylül 0,94, Dilek 0,92). Kaynak: 504, 507–522. H2 eski aralığın yerine geçtiğini açıkça söylemiyor.
 - **Soru:** "Kadınlar 0.76–0.82, kısa/tombul 0.72" aralığı H2 tablosuyla birlikte kalkmış sayılsın mı, yoksa ayrı bir ölçekte (eski resimler için) hâlâ geçerli mi?
+
+### CELISKI-GOMME-3
+Zemine göre kesim profili (dar profil) yapay zekâ kesiminde hâlâ anlamlı mı?
+- **Taraf A (profil zemine göre, dar profil):** kesim profili zemine göre seçilir ve araç basar, gömmede o kullanılır: bej → `peri`/`cengo`/`konuk`; öbürleri → dar profil `peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`. Kaynak: 542, 1084.
+- **Taraf B (profil yalnız çerçeve):** 14 Kasım 2026'dan beri tek yöntem `arac_kes_yz.py`; "Profil yalnız çerçeveyi verir"; renk kesimi (`arac_kes.js`, kenar tol / hale / delik ayarları) artık kullanılmaz. Kaynak: 27, 1144. Taraf B, zemine göre profil seçimini açıkça kaldırmıyor.
+- **Soru:** Yapay zekâ kesiminde zemine göre profil seçimi (`peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik` gibi "dar" profiller) hâlâ bir kural mı, yoksa profil artık yalnız karakterin çerçevesini mi belirliyor?

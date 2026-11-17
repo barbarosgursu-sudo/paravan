@@ -19,7 +19,7 @@ Sahibine yalnız tarz denetiminden GEÇTİ alan resimler gider. Çapa (sahibinin
 *Kaynak:* 1100
 
 ### DENETIM-4 Tarz aracının kör noktası
-Hafif "soluk / fazla gerçekçi" kayma (eski Eylül G6) puana yansımayabilir; bu yüzden gözle tarz maddesi (DENETIM-24, A.7) kalır.
+Hafif "soluk / fazla gerçekçi" kayma (eski Eylül G6) puana yansımayabilir; bu yüzden gözle tarz maddesi (DENETIM-25, A.7) kalır.
 *Kaynak:* 1101
 
 ### DENETIM-5 Tarz kararı figürde gövdeden, kartta yüzden
@@ -106,7 +106,7 @@ Karakter sabitleri görünüyorsa her resimde denetlenir, uymazsa ret. Örnek: P
 *Kaynak:* 466, 1118, 1305, 1509, 1510
 
 ### DENETIM-21 Yüz yönü ve bakış
-Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun istemin dediği yöne bakar; kalıp "burun kadrajın soluna". Kontrol listesinde: "Bakış yönü doğru mu?" Sebep: G4 ilk geldiğinde neredeyse profildi (uzaktaki göz burun kemerinin arkasında kalmıştı); G50'de Peri'nin yüzü profile yakındı ve gözlük gözüne inmişti — afişteki yüzle tanındığı için onaylandı ve sahibine bildirildi.
+Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun yönü: Vaka 3 metni "istemin dediği yöne; kalıp 'burun kadrajın soluna'" der, bugünkü `uretim/CLAUDE.md` koşulsuz "burun kadrajın soluna" der — bkz. CELISKI-DENETIM-3. Kontrol listesinde: "Bakış yönü doğru mu?" Sebep: G4 ilk geldiğinde neredeyse profildi (uzaktaki göz burun kemerinin arkasında kalmıştı); G50'de Peri'nin yüzü profile yakındı ve gözlük gözüne inmişti — afişteki yüzle tanındığı için onaylandı ve sahibine bildirildi.
 *Kaynak:* 463, 1119, 1308, 1511
 
 ### DENETIM-22 Eller ve kollar (göz)
