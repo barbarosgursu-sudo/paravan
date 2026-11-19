@@ -527,7 +527,12 @@
         "K193",
         "K194",
         "K195",
-        "MASA_V8"
+        "MASA_V8",
+        "K196",
+        "K197",
+        "K198",
+        "K199",
+        "K200"
       ],
       "buro": ["A6", "A6b", "A7", "A8", "A58", "A59", "A60", "A71"]
     }
@@ -10000,7 +10005,7 @@
               },
               {
                 "k": "not",
-                "m": "Nevzat kızarıyor, gözlüğünü takıp çıkarıyor.",
+                "m": "Nevzat kızarıyor, gözlerini kaçırıyor.",
                 "gir": "nevzat",
                 "gi": "utangac",
                 "ekran": "nevzat"
@@ -10072,7 +10077,7 @@
               },
               {
                 "k": "not",
-                "m": "Mor saçlı, küt kâküllü, boynunda kulaklık bir kadın elinde klipsli bir defterle koşturuyor.",
+                "m": "Mor saçlı, küt kâküllü, ince bir kadın koşturuyor.",
                 "gir": "pinar",
                 "gi": "telasli",
                 "ekran": "pinar"
@@ -10179,7 +10184,7 @@
               {
                 "k": "fikret",
                 "i": "huysuz",
-                "m": "Kapalıyız. (Cengo'yu süzerek) Şoför müsün, kaptan mı? Otur, çorba var.",
+                "m": "Kapalıyız. Sen şoför müsün, kaptan mı? Otur, çorba var.",
                 "gir": "fikret",
                 "kime": "cengo",
                 "ekran": "cengo+fikret",
@@ -10195,7 +10200,7 @@
               },
               {
                 "k": "not",
-                "m": "Fikret Peri'ye bakıp kaşlarını çatıyor.",
+                "m": "Fikret Peri'yi görünce gülüyor.",
                 "gir": "fikret",
                 "gi": "guler",
                 "ekran": "peri+fikret",
@@ -10296,7 +10301,7 @@
               },
               {
                 "k": "not",
-                "m": "Kasketli, yün hırkalı, çok kambur, ufak tefek yaşlı bir adam; kalın camlı gözlüğü gözlerini kocaman gösteriyor.",
+                "m": "Kasketli, yün hırkalı, çok kambur, ufak tefek yaşlı bir adam.",
                 "gir": "yusuf",
                 "gi": "normal",
                 "ekran": "yusuf"
@@ -10404,7 +10409,6 @@
                 "arka": "A65",
                 "mekan": true
               },
-              {"k": "not", "m": "Cengo kulübenin önünde bir an duruyor.", "ekran": "cengo", "yuz": "cengo.yumusak"},
               {
                 "k": "cengo",
                 "i": "yumusak",
@@ -10522,19 +10526,8 @@
                 "arka": "A66",
                 "mekan": true
               },
-              {
-                "k": "not",
-                "m": "Peri aynanın önünde gözlüğünü düzeltiyor. Telefonu çalıyor.",
-                "ekran": "peri",
-                "yuz": "peri.normal"
-              },
-              {
-                "k": "gizem_tel",
-                "m": "Peri Hanım! Pınar'la mesajlaşıyoruz. Dedikodu var.",
-                "kime": "peri",
-                "ekran": "peri",
-                "yuz": "peri.normal"
-              },
+              {"k": "not", "m": "Peri aynanın önünde. Telefonu çalıyor.", "ekran": "peri", "yuz": "peri.normal"},
+              {"k": "gizem_tel", "m": "Peri Hanım! Pınar'la mesajlaşıyoruz. Dedikodu var.", "kare": "K199"},
               {
                 "k": "peri",
                 "i": "merakli",
@@ -10545,20 +10538,17 @@
               {
                 "k": "gizem_tel",
                 "m": "On dakika önce. Önemli değil. Kulisteki çiçekleri kim bırakıyor, biliyor musunuz?",
-                "ekran": "peri",
-                "yuz": "peri.merakli"
+                "kare": "K199"
               },
               {
                 "k": "gizem_tel",
                 "m": "Nevzat Bey. Her çekim gecesi geliyor, köşede oturup Bahar Hanım'ı izliyor. Yıllardır.",
-                "ekran": "peri",
-                "yuz": "peri.merakli"
+                "kare": "K199"
               },
               {
                 "k": "gizem_tel",
                 "m": "Kimse bilmesin istiyormuş. Çiçeklere kart koymuyor. Romantik değil mi?",
-                "ekran": "peri",
-                "yuz": "peri.merakli"
+                "kare": "K199"
               },
               {"k": "not", "m": "Peri buketten bir çiçek alıp kokluyor.", "kare": "K163"},
               {
@@ -10567,7 +10557,7 @@
                 "m": "Romantik, Gizem. Ama bir muhasebeci için tehlikeli bir sır.",
                 "kare": "K163"
               },
-              {"k": "gizem_tel", "m": "Neden?", "ekran": "peri", "yuz": "peri.yumusak"},
+              {"k": "gizem_tel", "m": "Neden?", "kare": "K199"},
               {
                 "k": "peri",
                 "i": "kas",
@@ -10657,7 +10647,7 @@
             "Vekâlet iki kişideydi (Fikret ya da Tarkan) + Fikret'in vekâleti firma kurulmadan bir yıl önce iptal edilmişti; kalan Tarkan'dı."
           ],
           "masum": {
-            "nevzat": "Nevzat Bey masumdu: o geceler başka yerdeydi; şifresini \"avukata\" kendi vermişti.",
+            "nevzat": "Nevzat Bey masumdu: o geceler stüdyodaydı; parayı çeken, kendini avukat diye tanıtan Ozan'dı.",
             "fikret": "Fikret Usta masumdu: isimsiz notları o yazmıştı, Bahar Hanım'ı uyarmak için."
           }
         },
@@ -10719,10 +10709,9 @@
             },
             {
               "k": "not",
-              "m": "Cengo kapıdan giriyor, elinde iki simit.",
+              "m": "Kapı açılıyor. Cengo eşikte, kendi ceketiyle; elinde iki simit.",
               "gir": "cengo",
-              "ekran": "peri+cengo",
-              "yuz": "cengo.normal"
+              "kare": "K196"
             },
             {
               "k": "cengo",
@@ -11038,10 +11027,8 @@
             },
             {
               "k": "not",
-              "m": "Gizem çay ocağından geliyor; elinde Bahar'ın masada unuttuğu tanıtım çantası.",
-              "gir": "gizem",
-              "gi": "triko",
-              "ekran": "gizem"
+              "m": "Gizem çay ocağından geliyor; elinde masada unutulmuş bir tanıtım çantası.",
+              "kare": "K197"
             },
             {
               "k": "gizem",
@@ -11197,10 +11184,7 @@
             {
               "k": "not",
               "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
-              "gir": "tarkan",
-              "gi": "normal",
-              "ekran": "peri+tarkan",
-              "yuz": "tarkan.normal",
+              "kare": "K200",
               "set": "manto8"
             },
             {
@@ -11290,10 +11274,7 @@
             {
               "k": "not",
               "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
-              "gir": "tarkan",
-              "gi": "normal",
-              "ekran": "peri+tarkan",
-              "yuz": "tarkan.normal",
+              "kare": "K200",
               "set": "manto8"
             },
             {
@@ -11376,10 +11357,7 @@
             {
               "k": "not",
               "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
-              "gir": "nevzat",
-              "gi": "gergin",
-              "ekran": "peri+nevzat",
-              "yuz": "nevzat.gergin",
+              "kare": "K200",
               "set": "manto8"
             },
             {
@@ -11466,10 +11444,7 @@
             {
               "k": "not",
               "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
-              "gir": "fikret",
-              "gi": "huysuz",
-              "ekran": "peri+fikret",
-              "yuz": "fikret.huysuz",
+              "kare": "K200",
               "set": "manto8"
             },
             {
@@ -11507,14 +11482,7 @@
               "yuz": "peri.kas"
             },
             {"k": "not", "m": "Bahar elindeki kavanozu tezgâha bırakıp Fikret'e bakıyor.", "kare": "K172"},
-            {
-              "k": "not",
-              "m": "Tarkan bir adım geri çekiliyor.",
-              "gir": "tarkan",
-              "gi": "normal",
-              "ekran": "peri+tarkan",
-              "yuz": "peri.kas"
-            },
+            {"k": "not", "m": "Tarkan bir adım geri çekiliyor.", "gir": "tarkan", "gi": "normal", "ekran": "tarkan"},
             {
               "k": "peri",
               "i": "kas",
@@ -11684,8 +11652,7 @@
               "m": "Nihat bir süre susuyor. Sonra gözü iskelenin ucundaki tekneye kayıyor.",
               "gir": "nihat",
               "gi": "normal",
-              "ekran": "peri+nihat",
-              "yuz": "peri.kas"
+              "ekran": "nihat"
             },
             {
               "k": "nihat",
@@ -11741,14 +11708,8 @@
               "m": "Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.",
               "kare": "K187"
             },
-            {
-              "k": "not",
-              "m": "Cengo şoför kasketini çıkarıp askıya asıyor; kendi eski ceketini giyiyor.",
-              "gir": "cengo",
-              "ekran": "peri+cengo",
-              "yuz": "peri.normal"
-            },
-            {"k": "not", "m": "Gizem elinde bir bardak çayla geliyor.", "gir": "gizem", "gi": "triko", "ekran": "gizem"},
+            {"k": "not", "m": "Cengo şoför kasketini askıya asmış; üstünde kendi eski ceketi.", "kare": "K198"},
+            {"k": "not", "m": "Gizem içeri geliyor.", "gir": "gizem", "gi": "triko", "ekran": "gizem"},
             {
               "k": "gizem",
               "i": "triko",

@@ -38,6 +38,7 @@ if (N < 6) { console.log(`${VAKA}: kapı Vaka 6 ve sonrasına uygulanır (sahibi
 const YOLLAR = {
   V6: [['0', 'sofra', 'dogru'], ['2', 'siparis', 'zayif'], ['0', 'kagit', 'cengo'], ['3', 'cozmez6', 'jale']],
   V7: [['0', 'el', 'dogru'], ['1', 'izmir', 'dogru'], ['2', 'tuval', 'zayif'], ['3', 'cozmez7', 'sukru'], ['0', 'cozmez7', 'vedat']],
+  V8: [['0', 'sifre', 'dogru'], ['1', 'studyo', 'dogru'], ['2', 'iptal', 'zayif'], ['3', 'cozmez8', 'nevzat'], ['0', 'cozmez8', 'fikret']],
 };
 const katla = s => String(s).toLocaleLowerCase('tr');
 const md5 = b => crypto.createHash('md5').update(b).digest('hex');

@@ -16,6 +16,7 @@
 //   (Vaka 1–5 önce hızlı oynanır: V5 → V6 geçişi de böylece denenir.)
 //   Vaka 7: node arac_yeni_tur.js [karar_sırası] [el|izmir|tuval|cozmez7] [dogru|zayif|sukru|vedat]
 //   (Vaka 1–6 önce hızlı oynanır: V6 → V7 geçişi de böylece denenir.)
+//   Vaka 8: node arac_yeni_tur.js [karar_sırası] [sifre|studyo|iptal|cozmez8] [dogru|zayif|nevzat|fikret]
 //   --tablet (herhangi bir yerde): Pixel 5 yerine dikey tablet (800×1280) — yeni_arayuz.css'teki
 //   tablet eşiği (min-width:600px, min-height:1050px) devreye girer; tam sayfa görüntü alır.
 //   --cihaz: seçilen her anda 19 ekran boyunda (telefon, tablet dikey/yatay, bilgisayar) görüntü alır
@@ -48,7 +49,9 @@ const YOL5 = ["vapur", "iskele", "usta", "cozmez5"].includes(YOL) ? YOL : null;
 const YOL6 = ["sofra", "siparis", "kagit", "cozmez6"].includes(YOL) ? YOL : null;
 // Vaka 7: yol adı el|izmir|tuval|cozmez7 verilirse Vaka 1–6 hızlı oynanır, sonra Vaka 7.
 const YOL7 = ["el", "izmir", "tuval", "cozmez7"].includes(YOL) ? YOL : null;
-const VAKA = YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
+// Vaka 8: yol adı sifre|studyo|iptal|cozmez8 verilirse Vaka 1–7 hızlı oynanır, sonra Vaka 8.
+const YOL8 = ["sifre", "studyo", "iptal", "cozmez8"].includes(YOL) ? YOL : null;
+const VAKA = YOL8 ? "V8" : YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
 (async () => {
   const b = await chromium.launch(ORTAM.tarayici());
   const cihaz = TABLET ? { viewport: { width: 800, height: 1280 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true } : devices['Pixel 5'];
@@ -166,6 +169,8 @@ const VAKA = YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3"
     }
     await foto(vid + '_arastirma_son');
     await p.click('.buton:has-text("Kim yaptı?")');
+    // Kim yaptı?'dan önceki sahne (V8 "ters köşe", 19 Kasım 2026): varsa önce o oynar.
+    if (await p.$('.vn')) console.log(`[${vid}] ters köşe`, await vnOyna(vid + '_ters', ['Peri paravanın arkasında donup']));
     await foto(vid + '_kimyapti'); await tasmaBak('kimyapti');
     // İstenen sonucu verecek şüpheli + iki kanıtı motordan bul (yol neyi açtıysa onunla).
     const secim = await p.evaluate(istek => {
@@ -200,7 +205,7 @@ const VAKA = YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3"
     await p.click('#dosyaDevam');
     gorulen = [];
     const bagY = await p.evaluate(() => oyun.bagYuksek());
-    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz', V3: 'Gizem tabladan', V4: 'Soğusun', V5: 'Islaksın', V6: 'Cengo, ben', V7: 'Bütün gün yamuktu' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp', V3: 'Ben çıkıyorum', V4: 'Bu sende dursun', V5: 'Bu sana. Martılar', V6: 'Neden söylemedin', V7: 'Smokin yarın iade' }[vid];
+    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz', V3: 'Gizem tabladan', V4: 'Soğusun', V5: 'Islaksın', V6: 'Cengo, ben', V7: 'Bütün gün yamuktu', V8: 'Cengo, ben' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp', V3: 'Ben çıkıyorum', V4: 'Bu sende dursun', V5: 'Bu sana. Martılar', V6: 'Neden söylemedin', V7: 'Smokin yarın iade', V8: 'Alacağım hâlâ' }[vid];
     console.log(`[${vid}] kapanış`, await vnOyna(vid + '_kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri', 'Hiç unutmadım', 'Geçen hafta elime', 'Siz evlenseniz', 'Takım yarın']),
       '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith(sicak)) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith(soguk)) ? 'soğuk satırlar' : 'iki hâl yok',
       '· kasa (görünmez, değişmemeli)', await p.evaluate(() => oyun.durum.para));
@@ -247,8 +252,24 @@ const VAKA = YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3"
                     izmir: ['Tablo', 'Şükrü Bey', 'Nesrin Hanım'],
                     tuval: ['Eski tuval', 'Vedat Bey', 'Nesrin Hanım'],
                     cozmez7: ['Vale', 'Nesrin Hanım', 'Şükrü Bey'] }[YOL7] || [];
+  // Vaka 8 yolları (form §7): sifre = Nevzat + posta kutusu + Emir (aha, A+D); studyo = Nevzat + stüdyo + kulis (A+B);
+  // iptal = posta kutusu + Fikret + kulis (D+C); cozmez8 = Fikret + Emir + kulis (şifre/vekâlet çifti yok: zayıf/yanlış için).
+  const V8_SIRA = { sifre: ['Nevzat Bey', 'Posta kutusu', 'Emir'],
+                    studyo: ['Nevzat Bey', 'Stüdyo', 'Kulis'],
+                    iptal: ['Posta kutusu', 'Fikret Usta', 'Kulis'],
+                    cozmez8: ['Fikret Usta', 'Emir', 'Kulis'] }[YOL8] || [];
   incelenen = VAKA;
-  if (VAKA === 'V7') {
+  if (VAKA === 'V8') {
+    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
+    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
+    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
+    await vakaOyna('V4', ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'], 0, 'dogru');
+    await vakaOyna('V5', ['Çaycı Kadir', 'Vapurun üst güvertesi', 'Kadıköy iskelesi'], 0, 'dogru');
+    await vakaOyna('V6', ['Haldun Bey', 'Atölyenin kalfası', 'Apartmanın kapıcısı'], 0, 'dogru');
+    await vakaOyna('V7', ['Tablo', 'Vedat Bey', 'Vale'], 0, 'dogru');
+    await foto('masa_v8'); await tasmaBak('masa_v8');
+    await vakaOyna('V8', V8_SIRA, KARAR, SONUC);
+  } else if (VAKA === 'V7') {
     await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
     await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
     await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');

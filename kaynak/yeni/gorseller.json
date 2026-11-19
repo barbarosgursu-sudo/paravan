@@ -897,7 +897,12 @@
     "K193",
     "K194",
     "K195",
-    "MASA_V8"
+    "MASA_V8",
+    "K196",
+    "K197",
+    "K198",
+    "K199",
+    "K200"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -1077,7 +1082,12 @@
     "K193": "Vaka 8 karar karesi",
     "K194": "Vaka 8 karar karesi",
     "K195": "Vaka 8 karar karesi",
-    "MASA_V8": "Masada Bahar Hanım'ın reçel kavanozu ve kadife kutu"
+    "MASA_V8": "Masada Bahar Hanım'ın reçel kavanozu ve kadife kutu",
+    "K196": "büro kapısı: Cengo eşikte, kendi ceketiyle, elinde iki simit (yalnız)",
+    "K197": "Gizem çay ocağından, elinde tanıtım çantası (önlük, kep, gözlük görünür)",
+    "K198": "büro, gece: askıda şoför kasketi, Cengo kendi ceketiyle",
+    "K199": "kulis: Peri aynanın önünde telefonla konuşuyor (yalnız; telefondaki Gizem'in sesi)",
+    "K200": "atölye: Peri paravanın arkasından mantoyla çıkıyor; herkes ona dönmüş"
   },
   "kesim_yz": [
     "muzeyyen.normal",

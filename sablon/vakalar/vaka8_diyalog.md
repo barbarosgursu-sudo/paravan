@@ -41,7 +41,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ K17: büro, en az 15 satır, şüpheliler (Nevzat, Fikret, Tarkan) anılıyor; ipucu bilgisi yok (şifrenin kime verildiği, stüdyo geceleri, iptal belgesi, posta kutusu, vekâletin kimlerde olduğu, Emir'in otoparkı).
 
 *Sabah. Büro. Peri kırmızı mantosuyla masasında; mantonun kuşağı çözük, uçları sarkıyor. Masada kapalı, kadife bir kutu.* {kare: K155}
-*Cengo kapıdan giriyor, elinde iki simit.* {gir: cengo, ekran: peri+cengo, yuz: cengo.normal}
+*Kapı açılıyor. Cengo eşikte, kendi ceketiyle; elinde iki simit.* {gir: cengo, kare: K196}
 **CENGO [normal]:** Kuşağın çözük, Peri. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 **PERİ [kas]:** Biliyorum. Bugün bağlamak istemedim. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 *Kapı çalınıyor. Eşikte platin beyaz kısa saçlı, çiçekli kaftanlı, iri yapılı bir kadın; elinde bir kavanoz reçel.* {kare: K156}
@@ -88,7 +88,7 @@ serbest (SR-A). Sigara yok (19a).
 **CENGO [normal]:** Sonra hesabıma para yatmaya başladı. Ben de sormadım. Adam beni hiç görmedi; kimliğimi gördü, o kadar. {ekran: peri+cengo, yuz: peri.merakli}
 **CENGO [gulen]:** Bahar Hanım ona şoför arıyor. O şoför benim. {ekran: peri+cengo, yuz: peri.merakli}
 **PERİ [kas]:** Ya beni? Beni görürse tanır. {kime: cengo, ekran: peri+cengo, yuz: cengo.gulen}
-*Gizem çay ocağından geliyor; elinde Bahar'ın masada unuttuğu tanıtım çantası.* {gir: gizem, gi: triko, ekran: gizem}
+*Gizem çay ocağından geliyor; elinde masada unutulmuş bir tanıtım çantası.* {kare: K197}
 **GİZEM [triko]:** Kılık lazım, Peri Hanım. Bahar Hanım'ın çantasında önlük, kep, bir de gözlük var. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
 **PERİ [kas]:** Ben aşçı mı olacağım, Gizem? {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
 **GİZEM [triko]:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
@@ -118,7 +118,7 @@ serbest (SR-A). Sigara yok (19a).
 *Nevzat ekranı çeviriyor: alt alta üç ödeme satırı.* {kare: D28}
 **NEVZAT [gergin]:** Üçü de benim şifremle. Üçü de gece ikide. Ama bu odadan değil; dışarıdan bağlanmışlar. {kare: D28}
 **PERİ [merakli]:** Şifrenizi bilen başka biri var mı? {kime: nevzat, ekran: peri+nevzat, yuz: nevzat.gergin}
-*Nevzat kızarıyor, gözlüğünü takıp çıkarıyor.* {gir: nevzat, gi: utangac, ekran: nevzat}
+*Nevzat kızarıyor, gözlerini kaçırıyor.* {gir: nevzat, gi: utangac, ekran: nevzat}
 **NEVZAT [utangac]:** Bir kişiye verdim. Tarkan Bey'e. Denetim için istedi. {kime: peri, ekran: peri+nevzat, yuz: peri.merakli}
 **NEVZAT [utangac]:** Bahar Hanım'ın avukatına güvenmezsem kime güveneceğim? Yani şifreyi iki kişi biliyor: ben ve o. {ekran: peri+nevzat, yuz: peri.merakli}
 *Peri masadaki bir yığın taksi fişine bakıyor.* {kare: D29}
@@ -133,7 +133,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: yalnız Nevzat'ı aklar; kimseyi göstermez.
 
 *Maslak. Televizyon stüdyosu: ışıkların altında bir mutfak dekoru, kameralar.* {arka: A62, mekan}
-*Mor saçlı, küt kâküllü, boynunda kulaklık bir kadın elinde klipsli bir defterle koşturuyor.* {gir: pinar, gi: telasli, ekran: pinar}
+*Mor saçlı, küt kâküllü, ince bir kadın koşturuyor.* {gir: pinar, gi: telasli, ekran: pinar}
 **PINAR [telasli]:** Yeni yardımcı sen misin? Tezgâha, çabuk! Soğanlar doğranacak, kamera açık! {gir: pinar, kime: peri, ekran: peri+pinar, yuz: peri.normal}
 *Peri kameranın önünde soğan doğruyor; gözlerinden yaşlar süzülüyor.* {kare: K160}
 **PERİ [utanmis]:** Ağlamıyorum. Soğan. {kare: K160}
@@ -153,9 +153,9 @@ serbest (SR-A). Sigara yok (19a).
 
 *Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, aralarında çerçeveli bir belge.* {arka: A63, mekan}
 *Beyaz uzun saçını at kuyruğu yapmış, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.* {gir: fikret, gi: huysuz, ekran: fikret}
-**FİKRET [huysuz]:** Kapalıyız. *(Cengo'yu süzerek)* Şoför müsün, kaptan mı? Otur, çorba var. {gir: fikret, kime: cengo, ekran: cengo+fikret, yuz: cengo.normal}
+**FİKRET [huysuz]:** Kapalıyız. Sen şoför müsün, kaptan mı? Otur, çorba var. {gir: fikret, kime: cengo, ekran: cengo+fikret, yuz: cengo.normal}
 **CENGO [gulen]:** Çorbaya hayır demem, usta. {kime: fikret, ekran: cengo+fikret, yuz: fikret.huysuz}
-*Fikret Peri'ye bakıp kaşlarını çatıyor.* {gir: fikret, gi: guler, ekran: peri+fikret, yuz: peri.kas}
+*Fikret Peri'yi görünce gülüyor.* {gir: fikret, gi: guler, ekran: peri+fikret, yuz: peri.kas}
 **FİKRET [guler]:** Kraliçe! Önlük sana yakışmamış, kızım. {kime: peri, ekran: peri+fikret, yuz: peri.kas}
 **PERİ [kas]:** Planlamıştım. Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta? {kime: fikret, ekran: peri+fikret, yuz: fikret.guler}
 **FİKRET [huysuz]:** Ben bırakıyorum. Adımı yazmadım; yazsam okumaz, bana küs. {kime: peri, ekran: peri+fikret, yuz: peri.kas}
@@ -173,7 +173,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: vekâlet {Fikret, Tarkan} — tek başına kimseyi göstermez.
 
 *Mecidiyeköy. Dar bir kargo dükkânı; duvar boyu numaralı posta kutuları.* {arka: A64, mekan}
-*Kasketli, yün hırkalı, çok kambur, ufak tefek yaşlı bir adam; kalın camlı gözlüğü gözlerini kocaman gösteriyor.* {gir: yusuf, gi: normal, ekran: yusuf}
+*Kasketli, yün hırkalı, çok kambur, ufak tefek yaşlı bir adam.* {gir: yusuf, gi: normal, ekran: yusuf}
 **YUSUF [normal]:** Hanım kızım, kargo mu? Paket ağırsa şu delikanlı taşısın. {gir: yusuf, kime: peri, ekran: peri+yusuf, yuz: peri.kas}
 *Cengo hiçbir şey sormadan tezgâhın arkasındaki kolileri rafa diziyor.* {kare: K161}
 **YUSUF [gulen]:** Şoför de çalışkanmış. Ne arıyorsunuz, söyleyin bakalım. {kare: K161}
@@ -194,7 +194,6 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: yöntemi gösterir, kişiyi değil. "Sesi genç" ters köşenin habercisi; kimseyi göstermez.
 
 *Karaköy. Bir otopark; girişte küçük bir görevli kulübesi.* {arka: A65, mekan}
-*Cengo kulübenin önünde bir an duruyor.* {ekran: cengo, yuz: cengo.yumusak}
 **CENGO [yumusak]:** Yedi yıl bu kulübede oturdum, Peri. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 *Turuncu yelekli, kıvırcık siyah saçlı, diş telli, sıska bir genç kulübeden fırlıyor.* {gir: emir, gi: gulen, ekran: emir}
 **EMİR [gulen]:** Abi, park mı? Şoförsün, bilirsin; anahtarı bırak, ben çekerim. {gir: emir, kime: cengo, ekran: cengo+emir, yuz: cengo.yumusak}
@@ -216,15 +215,15 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: Nevzat'ın sakladığı şey (aşk) — kimseyi göstermez, Nevzat'ı yalnız "saklayan" yapar.
 
 *Maslak. Stüdyonun kulisi: ampullü bir ayna, sandalyede bir önlük, masada kartsız bir buket.* {arka: A66, mekan}
-*Peri aynanın önünde gözlüğünü düzeltiyor. Telefonu çalıyor.* {ekran: peri, yuz: peri.normal}
-**GİZEM_TEL:** Peri Hanım! Pınar'la mesajlaşıyoruz. Dedikodu var. {kime: peri, ekran: peri, yuz: peri.normal}
+*Peri aynanın önünde. Telefonu çalıyor.* {ekran: peri, yuz: peri.normal}
+**GİZEM_TEL:** Peri Hanım! Pınar'la mesajlaşıyoruz. Dedikodu var. {kare: K199}
 **PERİ [merakli]:** Pınar'ı ne zaman tanıdın, Gizem? {ekran: peri, yuz: peri.merakli}
-**GİZEM_TEL:** On dakika önce. Önemli değil. Kulisteki çiçekleri kim bırakıyor, biliyor musunuz? {ekran: peri, yuz: peri.merakli}
-**GİZEM_TEL:** Nevzat Bey. Her çekim gecesi geliyor, köşede oturup Bahar Hanım'ı izliyor. Yıllardır. {ekran: peri, yuz: peri.merakli}
-**GİZEM_TEL:** Kimse bilmesin istiyormuş. Çiçeklere kart koymuyor. Romantik değil mi? {ekran: peri, yuz: peri.merakli}
+**GİZEM_TEL:** On dakika önce. Önemli değil. Kulisteki çiçekleri kim bırakıyor, biliyor musunuz? {kare: K199}
+**GİZEM_TEL:** Nevzat Bey. Her çekim gecesi geliyor, köşede oturup Bahar Hanım'ı izliyor. Yıllardır. {kare: K199}
+**GİZEM_TEL:** Kimse bilmesin istiyormuş. Çiçeklere kart koymuyor. Romantik değil mi? {kare: K199}
 *Peri buketten bir çiçek alıp kokluyor.* {kare: K163}
 **PERİ [yumusak]:** Romantik, Gizem. Ama bir muhasebeci için tehlikeli bir sır. {kare: K163}
-**GİZEM_TEL:** Neden? {ekran: peri, yuz: peri.yumusak}
+**GİZEM_TEL:** Neden? {kare: K199}
 **PERİ [kas]:** Gece nerede olduğunu söyleyemeyen adama herkes başka bir şey yakıştırır. {ekran: peri, yuz: peri.kas}
 
 ---
@@ -254,7 +253,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kanıtı adıyla anmaz ("şifre ve vekâlet" — iki olgunun ortak dili, hangi çift seçilirse seçilsin doğru).
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {gir: tarkan, gi: normal, ekran: peri+tarkan, yuz: tarkan.normal, set: manto8}
+*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Bunu bana Nihat Kora yaptı. Bütün paramla gitti. {ekran: peri+bahar, yuz: bahar.sasirmis}
@@ -271,7 +270,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ akış: Ortak açılış; Peri Tarkan'ı suçlar ama tutturamaz; Tarkan "vekâlet bende, işim bu". Peri Nihat'ın adını anar; telefon titrer; kaçar.
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {gir: tarkan, gi: normal, ekran: peri+tarkan, yuz: tarkan.normal, set: manto8}
+*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Tarkan Bey. Bahar Hanım'ın parasını siz çektiniz. {gir: tarkan, kime: tarkan, ekran: peri+tarkan, yuz: tarkan.normal}
@@ -287,7 +286,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ akış: Ortak açılış; Peri Nevzat'ı suçlar; Nevzat kekeler: "o geceler stüdyodaydım"; Bahar ona bakar; Nevzat susar. Tarkan "muhasebe bulundu" diye ceketini alır; Peri Nihat'ın adını anar; telefon titrer; Tarkan kaçar.
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {gir: nevzat, gi: gergin, ekran: peri+nevzat, yuz: nevzat.gergin, set: manto8}
+*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Nevzat Bey. Ödemeler sizin şifrenizle çıktı. Parayı siz çektiniz. {gir: nevzat, kime: nevzat, ekran: peri+nevzat, yuz: nevzat.gergin}
@@ -304,13 +303,13 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ akış: Ortak açılış; Peri Fikret'i suçlar; Fikret bağırır: "Ben uyardım! Notları ben yazdım." Bahar donar. Tarkan geri çekilir; Peri Nihat'ın adını anar; telefon titrer; kaçar.
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {gir: fikret, gi: huysuz, ekran: peri+fikret, yuz: fikret.huysuz, set: manto8}
+*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Fikret Usta. Bu yöntemi bilen biri yaptı. Siz biliyordunuz. {gir: fikret, kime: fikret, ekran: peri+fikret, yuz: fikret.huysuz}
 **FİKRET [ofkeli]:** Ben uyardım! Notları ben yazdım! "Avukatına güvenme" dedim, kimse dinlemedi! {kime: peri, ekran: peri+fikret, yuz: peri.kas}
 *Bahar elindeki kavanozu tezgâha bırakıp Fikret'e bakıyor.* {kare: K172}
-*Tarkan bir adım geri çekiliyor.* {gir: tarkan, gi: normal, ekran: peri+tarkan, yuz: peri.kas}
+*Tarkan bir adım geri çekiliyor.* {gir: tarkan, gi: normal, ekran: tarkan}
 **PERİ [kas]:** Avukattan söz açılmışken, Tarkan Bey: bu yöntemi bana Nihat Kora diye biri öğretti. Tanır mısınız? {kime: tarkan, ekran: peri+tarkan, yuz: tarkan.normal}
 *Tarkan'ın yüzü bembeyaz oluyor. Elindeki telefon titriyor; ekranda bir isim: "N."* {kare: D33}
 **TARKAN [panik]:** Ben… arabayı getireyim. {cik, kime: cengo, ekran: cengo+tarkan, yuz: cengo.kas}
@@ -348,7 +347,7 @@ serbest (SR-A). Sigara yok (19a).
 **TARKAN [itiraf]:** Adım Tarkan değil, Ozan. Avukat da değilim; onun adamıyım. {gir: tarkan, kime: peri, ekran: peri+tarkan, yuz: peri.kas}
 **TARKAN [itiraf]:** Yıllarca evrakını taşıdım. Paravan'ın kâğıtlarını da ben taşıdım; sizi o yüzden tanıdım, Perihan Hanım. {ekran: peri+tarkan, yuz: peri.kas}
 **TARKAN [itiraf]:** Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım; payımı almaya geliyordum. {ekran: peri+tarkan, yuz: peri.kas}
-*Nihat bir süre susuyor. Sonra gözü iskelenin ucundaki tekneye kayıyor.* {gir: nihat, gi: normal, ekran: peri+nihat, yuz: peri.kas}
+*Nihat bir süre susuyor. Sonra gözü iskelenin ucundaki tekneye kayıyor.* {gir: nihat, gi: normal, ekran: nihat}
 **NİHAT [normal]:** Senin paran hâlâ teknede, Perihan. Valizde. Hiç harcamadım. {kime: peri, ekran: peri+nihat, yuz: peri.kas}
 **CENGO [kas]:** Benim maaşım da mı oradan yatıyordu? {kime: nihat, ekran: cengo+nihat, yuz: nihat.normal}
 **NİHAT [normal]:** Senin maaşın şirketin süsüydü, delikanlı. Seni hiç görmedim. Kimliğin yeterdi. {kime: cengo, ekran: cengo+nihat, yuz: cengo.kas}
@@ -379,7 +378,7 @@ serbest (SR-A). Sigara yok (19a).
 **YOL:** Ödemeler için şifre lazımdı; şifreyi iki kişi biliyordu (Nevzat ya da Tarkan) + firmayı kurmak için vekâlet lazımdı; vekâlet iki kişideydi (Fikret ya da Tarkan). İkisinde de olan tek kişi Tarkan'dı.
 **YOL:** Şifreyi iki kişi biliyordu (Nevzat ya da Tarkan) + ödeme gecelerinde Nevzat sabaha kadar stüdyodaydı; kalan Tarkan'dı.
 **YOL:** Vekâlet iki kişideydi (Fikret ya da Tarkan) + Fikret'in vekâleti firma kurulmadan bir yıl önce iptal edilmişti; kalan Tarkan'dı.
-**MASUM nevzat:** Nevzat Bey masumdu: o geceler başka yerdeydi; şifresini "avukata" kendi vermişti.
+**MASUM nevzat:** Nevzat Bey masumdu: o geceler stüdyodaydı; parayı çeken, kendini avukat diye tanıtan Ozan'dı.
 **MASUM fikret:** Fikret Usta masumdu: isimsiz notları o yazmıştı, Bahar Hanım'ı uyarmak için.
 
 ## kanit
@@ -452,8 +451,8 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Sezon finali (kural 12a, eşik +1). Kanon: manto "evden çıkardığı tek giysi".
 
 *Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.* {kare: K187}
-*Cengo şoför kasketini çıkarıp askıya asıyor; kendi eski ceketini giyiyor.* {gir: cengo, ekran: peri+cengo, yuz: peri.normal}
-*Gizem elinde bir bardak çayla geliyor.* {gir: gizem, gi: triko, ekran: gizem}
+*Cengo şoför kasketini askıya asmış; üstünde kendi eski ceketi.* {kare: K198}
+*Gizem içeri geliyor.* {gir: gizem, gi: triko, ekran: gizem}
 **GİZEM [triko]:** Saçınızda hâlâ reçel var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
 **PERİ [kas]:** Vişne, Gizem. Bahar Hanım'ın markası. Çok iyi tutuyor. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
 **GİZEM [triko]:** Sezon başında da bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
@@ -531,6 +530,11 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | K189 | Peri Cengo'nun ceket yakasını düzeltiyor, Cengo kıpırdamıyor | kapanış (bağ yüksek) |
 | K190 | masadaki telefon çalıyor; ikisi de telefona bakıyor | kapanış (bağ yüksek) |
 | K191 | Cengo kapıyı açık bırakmış; Peri telefonda; Gizem arkada | kapanış (bağ yüksek) |
+| K196 | büro kapısı: Cengo eşikte, kendi ceketiyle, elinde iki simit (yalnız) | giriş |
+| K197 | Gizem çay ocağından, elinde tanıtım çantası (önlük, kep, gözlük görünür) | konuşma |
+| K198 | büro, gece: askıda şoför kasketi, Cengo kendi ceketiyle | kapanış |
+| K199 | kulis: Peri aynanın önünde telefonla konuşuyor (yalnız; telefondaki Gizem'in sesi) | kulis |
+| K200 | atölye: Peri paravanın arkasından mantoyla çıkıyor; herkes ona dönmüş | yüzleşme açılışı (dört sonuç) |
 | K192–K195 | dört kararın ara karesi (polis: ağı kesen polisler, mühürlenen valiz; anlaş: tekne karanlığa çıkıyor, Peri'nin elinde ağır çanta; oyun: Peri Nihat'ın elini sıkarken telefon kulağında; Ozan'ı bırak: Ozan yokuşa koşuyor, Nihat ağda) | kararlar |
 | Peri `manto8` | normal, kas, sinirli, merakli, sevincli, utanmis, sasirmis, yumusak | giriş, konuşma, yüzleşmeler |
 | Peri `kilik` | normal, kas, merakli, utanmis, yumusak, sasirmis, sinirli | ipuçları, ters köşe |
