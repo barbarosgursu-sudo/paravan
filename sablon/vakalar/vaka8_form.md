@@ -42,7 +42,7 @@
   görünsün diye **gerçek bir kişiyi bordroya** yazdı: Karaköy'deki otoparkta çalışan genç **Emir**'in kimlik fotokopisini
   otopark müdüründen aldı (Cengo'nun yıllar önceki hikâyesinin aynısı 🟡). (4) Ödemeleri, "denetim için" muhasebeciden
   aldığı şifreyle, gece uzaktan gönderdi.
-- **Muhasebeci Orhan Bey'in yolu (yanlış iz 1):** 47, Bahar'ın yıllardır muhasebecisi; ona gizlice âşık. Şifresini
+- **Muhasebeci Nevzat Bey'in yolu (yanlış iz 1):** 47, Bahar'ın yıllardır muhasebecisi; ona gizlice âşık. Şifresini
   Tarkan'a kendi verdi ("Bahar Hanım'ın avukatına güvenmezsem kime güveneceğim?"). Ödemeler onun şifresiyle çıktığı için
   bütün izler onu gösteriyor. Sakladığı şey para değil: her çekim gecesi stüdyoda sabaha kadar Bahar'ın yanında kalıyor,
   kimse bilmesin istiyor.
@@ -61,7 +61,7 @@
 |---|---|---|---|---|---|
 | Bahar Hanım (52) | televizyon aşçısı, marka sahibi | müşteri | evet | Moda | sabah taksiyle büroya (Karaköy); öğlen stüdyo (Maslak); akşam lansman (Kurtuluş'taki mutfak atölyesi) |
 | "Tarkan Bey" / Ozan (34) | sahte avukat; Nihat'ın adamı | suçlu | evet: vekâlet ve şirket kurma onun işi gibi görünür | Nişantaşı'nda kiralık daire (sahte adres) | gün boyu "yolda" (telefon); akşam lansmana arabayla, şoförlü |
-| Orhan Bey (47) | Bahar'ın muhasebecisi | yanlış iz (şifre) | evet: şifre ve ödemeler onun işi | Kurtuluş (atölyenin üstü) | gün boyu atölyede |
+| Nevzat Bey (47) | Bahar'ın muhasebecisi | yanlış iz (şifre) | evet: şifre ve ödemeler onun işi | Kurtuluş (atölyenin üstü) | gün boyu atölyede |
 | Fikret Usta (63) | Samatya'da küçük lokanta | yanlış iz (notlar, eski vekâlet) | evet: eski ortak, vekâleti vardı | Samatya | gün boyu lokantasında |
 | Nihat Kora (55) | Peri'yi dolandıran avukat | suçlunun patronu | evet | Yeniköy'de kiralık yalı (saklanıyor) | gün boyu yalıda; gece tekneyle kaçacak |
 | Emir (22) | Karaköy otoparkında görevli | tanık (bordrodaki hayalet) | evet | Kasımpaşa | gün boyu otoparkta |
@@ -76,12 +76,12 @@
 
 **Zaman çizelgesi**
 
-| ne zaman | Tarkan / Ozan (suçlu) | Orhan | Fikret |
+| ne zaman | Tarkan / Ozan (suçlu) | Nevzat | Fikret |
 |---|---|---|---|
 | yıllar önce | Nihat'ın evrak adamı; Paravan'ın kâğıtlarını taşır | — | başka bir "avukat" onu soyar; lokanta kapanır; vekâletini iptal ettirir |
 | 3 ay önce | Bahar'ın programına konuk olur; vekâlet alır | — | Tarkan'ı televizyonda görür |
 | 2 ay önce | Kavanoz Ambalaj'ı kurar (vekâletle); adresi Yusuf'un posta kutusu; Emir'i bordroya yazar | — | ilk isimsiz notu Bahar'ın kapısına bırakır |
-| 5 hafta önce | "denetim için" Orhan'dan şifreyi alır | şifreyi verir | — |
+| 5 hafta önce | "denetim için" Nevzat'tan şifreyi alır | şifreyi verir | — |
 | son 4 hafta, üç çekim gecesi, 02.00 | ödemeleri uzaktan gönderir | o gecelerin üçünde de sabaha kadar stüdyoda | iki not daha |
 | dün | bankadan Bahar'a telefon | — | — |
 | **bugün 10.00** | Bahar büroya gelir (giriş) | | |
@@ -107,14 +107,14 @@
   - Üç ödeme, "Kavanoz Ambalaj" diye bir firmaya; böyle bir firmayla hiç çalışmadı. Talimatlarda imzası var, o atmadı.
   - **Bordro:** "Muhasebe listesinde bir de şoför var, Emir diye. Benim şoförüm yok ki!" — Peri ile Cengo bakışır.
     Cengo alçak sesle: "Ben de bir bordrodaydım." *(sabit sezon hikâyesi; her yolda)*
-  - **Şüpheler:** "Muhasebecim Orhan Bey; ödemeler onun şifresiyle çıkmış." · "Eski ortağım Fikret; kapıma isimsiz notlar
+  - **Şüpheler:** "Muhasebecim Nevzat Bey; ödemeler onun şifresiyle çıkmış." · "Eski ortağım Fikret; kapıma isimsiz notlar
     bırakıyor. 'Avukatına güvenme' diyor; kıskançlık." · "Avukatım Tarkan Bey; her işimi o yürütüyor, vekâletim onda.
     Ona söyledim, 'hallederim' dedi. Hep yolda; yüzünü üç aydır iki kez gördüm."
   - "Bu akşam lansman, Kurtuluş'taki atölyemde. Tarkan Bey de gelecek."
 - **Peri'nin tanıması (her yolda):** Peri vekâlet, hayalet firma, bordrodaki yabancı… sayar; yüzü değişir. Bahar gidince
   Cengo'ya: "Vekâlet. Olmayan firma. Bordroda tanımadığın biri. Bunu bana yaptılar, Cengo." Cengo: "Bize." Peri: "Bu
   adam benim avukatım. Adını değiştirmiş." *(Peri ve Cengo Tarkan'ı Nihat sanır; oyuncu da.)*
-- **Adı anılan şüpheliler:** Orhan Bey, Fikret Usta, Tarkan Bey.
+- **Adı anılan şüpheliler:** Nevzat Bey, Fikret Usta, Tarkan Bey.
 - **Ücret konuşması:** Bahar: "Elli bin. Bir de ömür boyu reçel." Peri: "Reçel pazarlığa girmez."
 - **Çekicilik anı:** plan sahnesinde (konuşma, Bahar gidince). Gizem: "Avukat sizi tanır, Peri Hanım. Kılık lazım."
   Gizem Bahar'ın bıraktığı tanıtım çantasından şef önlüğü, kep ve iri gözlük çıkarır; Peri paravanın arkasından **aşçı
@@ -127,7 +127,7 @@
 
 ## 4. Şüpheliler
 
-| | **Tarkan Bey / Ozan** (suçlu) | **Orhan Bey** | **Fikret Usta** |
+| | **Tarkan Bey / Ozan** (suçlu) | **Nevzat Bey** | **Fikret Usta** |
 |---|---|---|---|
 | Kim | "avukat", 34; kibar, gülümser, telefonu elinden düşmez | muhasebeci, 47; titiz, utangaç, Bahar'ın yanında kekeler | eski ortak, 63; huysuz, gür sesli, iyi kalpli |
 | Şüpheli gösteren iz | vekâlet onda; hep "yolda"; yöntem Peri'ninkinin aynısı | ödemeler onun şifresiyle; gece mesaisi saklıyor | isimsiz notlar; eski vekâleti; Bahar'a küs; yöntemi biliyor (eski kurban) |
@@ -140,31 +140,31 @@
 
 | kod | cümle | ipucu |
 |---|---|---|
-| sifre_iki | Üç ödeme de Orhan Bey'in şifresiyle, gece ikide, atölye dışından gönderilmiş. Orhan Bey şifresini bir kişiye vermiş: "denetim için" Tarkan Bey'e. Şifreyi bilen iki kişi var. | A |
-| orhan_saklar | Orhan Bey'in masasında her çekim gecesine ait taksi fişleri var; nereye gittiğini söylemiyor, kızarıyor. | A |
-| odeme_gecesi | Ödemelerin yapıldığı üç çekim gecesinde Orhan Bey sabaha kadar stüdyodaydı; Bahar Hanım'ın kulisinde, yapım asistanının gözü önünde. | B |
+| sifre_iki | Üç ödeme de Nevzat Bey'in şifresiyle, gece ikide, atölye dışından gönderilmiş. Nevzat Bey şifresini bir kişiye vermiş: "denetim için" Tarkan Bey'e. Şifreyi bilen iki kişi var. | A |
+| nevzat_saklar | Nevzat Bey'in masasında her çekim gecesine ait taksi fişleri var; nereye gittiğini söylemiyor, kızarıyor. | A |
+| odeme_gecesi | Ödemelerin yapıldığı üç çekim gecesinde Nevzat Bey sabaha kadar stüdyodaydı; Bahar Hanım'ın kulisinde, yapım asistanının gözü önünde. | B |
 | ortak_kurban | Fikret Usta'yı yıllar önce başka bir "avukat" aynı yöntemle soydu: vekâlet, olmayan firmalar. İsimsiz notları o bırakıyor. | C |
 | ortak_iptal | Fikret Usta'nın Bahar Hanım'dan aldığı eski vekâlet, Kavanoz Ambalaj kurulmadan bir yıl önce noterde iptal edilmiş; belgesi lokantanın duvarında çerçeveli. | C |
 | kurulus_vekalet | Kavanoz Ambalaj Bahar Hanım adına vekâletle kurulmuş; adresi bir posta kutusu. Bahar Hanım'ın vekâlet verdiği iki kişi var: eski ortağı Fikret Usta ve avukatı Tarkan Bey. | D |
 | bordro_genc | Bordrodaki Emir, Karaköy otoparkında görevli; şirketi hiç görmemiş. Kimliğini otopark müdürüne vermiş; işe telefonla alınmış. Telefondaki "avukat bey"in sesi gençmiş. | E |
-| orhan_ask | Orhan Bey çekim gecelerinde Bahar Hanım'ı izlemeye gidiyor; yıllardır ona âşık. Kimse bilmesin istiyor. | F |
+| nevzat_ask | (Gizem'in Pınar'dan duyduğu) Nevzat Bey çekim gecelerinde Bahar Hanım'ı izlemeye gidiyor; yıllardır ona âşık. Kimse bilmesin istiyor. | F |
 
 ## 6. İpuçları (6 ipucu, 3 hak)
 
 | # | ad | yer / kişi | açılma koşulu | olgular | yol |
 |---|---|---|---|---|---|
-| A | Orhan Bey | Kurtuluş, atölyenin üstündeki muhasebe odası | koşulsuz (girişte anılır) | sifre_iki, orhan_saklar | Peri (kılıkta; Orhan kekeler) |
+| A | Nevzat Bey | Kurtuluş, atölyenin üstündeki muhasebe odası | koşulsuz (girişte anılır) | sifre_iki, nevzat_saklar | Peri (kılıkta; Nevzat kekeler) |
 | B | Stüdyo | Maslak, programın stüdyosu; yapım asistanı Pınar | koşulsuz | odeme_gecesi | Peri (Pınar onu "yeni yardımcı" sanır, çekime sokar) |
 | C | Fikret Usta | Samatya, lokantası | koşulsuz (girişte anılır) | ortak_kurban, ortak_iptal | Cengo (iki yorgun adam, rakı yok: çay ve balık çorbası) |
 | D | Posta kutusu | Mecidiyeköy, Yusuf Efendi'nin kargo dükkânı | koşulsuz | kurulus_vekalet | Cengo (Yusuf'un kutularını taşır) |
 | E | Emir | Karaköy, Cengo'nun eski otoparkı | koşulsuz (girişte anılır) | bordro_genc | Cengo (kendi geçmişi) |
-| F | Kulis | Maslak, stüdyonun kulisi; Orhan'ın bıraktığı çiçek | koşulsuz | orhan_ask | Peri (Gizem telefonda dedikodu) |
+| F | Kulis | Maslak, stüdyonun kulisi; Nevzat'ın bıraktığı çiçek | koşulsuz | nevzat_ask | Peri (Gizem telefonda dedikodu) |
 
 Peri 3 (A, B, F), Cengo 3 (C, D, E). *İpucu adlarında yeni ad yok (K18): "Stüdyo", "Posta kutusu", "Kulis" adsız;
-Orhan, Fikret, Emir girişte anılıyor.*
+Nevzat, Fikret, Emir girişte anılıyor.*
 
 **Tekrar eden şakalar** (her dönüşte bir basamak):
-1. **Herkes Peri'nin kılığına inanır, kimse kılığa uymaz:** Orhan onu "yeni stajyer" sanıp kahve ister → Pınar onu
+1. **Herkes Peri'nin kılığına inanır, kimse kılığa uymaz:** Nevzat onu "yeni stajyer" sanıp kahve ister → Pınar onu
    çekime sokar, Peri kamera önünde soğan doğrar ve ağlar → Yusuf Efendi "Hanım kızım, kargo mu?" → Fikret tanır:
    "Kraliçe! Önlük sana yakışmamış." Peri: "Planlamıştım."
 2. **Tarkan'ın telefonları:** Cengo şoför olarak arabada; Tarkan her sahnede ona bir şey buyurur ("Kuru temizlemeyi al",
@@ -178,11 +178,11 @@ Orhan, Fikret, Emir girişte anılıyor.*
 aynada kendine selam verir.
 
 **Sahne özetleri**
-- **A.** Muhasebe odası, klasörler, hesap makinesi. Orhan Peri'yi stajyer sanar, kahve ister (şaka 1). Ekranı gösterir:
+- **A.** Muhasebe odası, klasörler, hesap makinesi. Nevzat Peri'yi stajyer sanar, kahve ister (şaka 1). Ekranı gösterir:
   "Üçü de benim şifremle, gece ikide; ama buradan değil, dışarıdan." Şifreyi kime verdi? Kızarır: "Tarkan Bey'e. Denetim
   için. Bahar Hanım'ın avukatına güvenmezsem…" Masasında taksi fişleri; nereye gittiğini sorunca susar, kekeler.
 - **B.** Stüdyo, tezgâh, ışıklar. Pınar kulaklıkla koşturur, Peri'yi "yeni yardımcı" sanıp kameranın önüne iter (şaka 1:
-  soğan, gözyaşı). Mola: Pınar defterine bakar: "O üç gece mi? Çekim sabaha kadar sürdü. Orhan Bey kulisteydi, hep orada;
+  soğan, gözyaşı). Mola: Pınar defterine bakar: "O üç gece mi? Çekim sabaha kadar sürdü. Nevzat Bey kulisteydi, hep orada;
   ışıkları kapattık, hâlâ oradaydı."
 - **C.** Samatya, küçük lokanta, duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân). Fikret Cengo'yu sever,
   Peri'yi tanır (şaka 1, doruk). Notları kabul eder: "Ben yazdım. Bana da aynısını yaptılar; bir 'avukat', vekâlet,
@@ -194,30 +194,30 @@ aynada kendine selam verir.
 - **E.** Karaköy otoparkı, kulübe, Cengo'nun eski yeri. Emir genç, turuncu yelekli, kulaklarına kadar gülen. Bordrodan
   habersiz: "Maaş mı? Bir şey yatıyor, sormadım." Cengo donar: kendini görür. Emir: "Telefonla bir avukat bey aradı,
   kimliğimi müdür verdi. Sesi benim gibi gençti." Cengo kartını bırakır: "Bir gün sorarsan, beni ara."
-- **F.** Stüdyo kulisi, ayna, çiçekler. Gizem telefonda (Pınar'la mesajlaşıyor; dedikodu): "Orhan Bey her çekim gecesi
+- **F.** Stüdyo kulisi, ayna, çiçekler. Gizem telefonda (Pınar'la mesajlaşıyor; dedikodu): "Nevzat Bey her çekim gecesi
   gelip Bahar Hanım'ı izliyormuş. Çiçekleri o bırakıyor; kartsız." Peri çiçeği koklar.
 
 ## 7. Kanıt yolları
 
-**Mantık:** Paralar iki kilidi açan biriyle çıktı: **şifre** (ödemeler Orhan'ın şifresiyle) ve **vekâlet** (Kavanoz
-Ambalaj Bahar adına vekâletle kuruldu). Şifre tarafı {Orhan, Tarkan} (A); Orhan o gecelerde stüdyodaydı (B). Vekâlet
+**Mantık:** Paralar iki kilidi açan biriyle çıktı: **şifre** (ödemeler Nevzat'ın şifresiyle) ve **vekâlet** (Kavanoz
+Ambalaj Bahar adına vekâletle kuruldu). Şifre tarafı {Nevzat, Tarkan} (A); Nevzat o gecelerde stüdyodaydı (B). Vekâlet
 tarafı {Fikret, Tarkan} (D); Fikret'in vekâleti şirketten önce iptal edilmişti (C). Kesişim: Tarkan.
 
 **Suçluyu tam kanıtlayan yollar:**
 - **Yol 1 ("aha!"):** A + D — şifreyi bilen ikiden biri, vekâleti olan ikiden biri; ikisinde de olan tek kişi.
-- **Yol 2:** A + B — şifreyi bilen iki kişiden Orhan o gece stüdyodaydı.
+- **Yol 2:** A + B — şifreyi bilen iki kişiden Nevzat o gece stüdyodaydı.
 - **Yol 3:** D + C — vekâleti olan iki kişiden Fikret'inki iptal edilmişti.
 
 **Kim yaptı?'da doğru kanıt çiftleri (Tarkan için):** sifre_iki + kurulus_vekalet · sifre_iki + odeme_gecesi ·
 kurulus_vekalet + ortak_iptal.
 
-**Zayıf kanıtlar:** her çiftin tek yarısı; ayrıca orhan_saklar, ortak_kurban, bordro_genc, orhan_ask.
+**Zayıf kanıtlar:** her çiftin tek yarısı; ayrıca nevzat_saklar, ortak_kurban, bordro_genc, nevzat_ask.
 
 **6/3'ün sonucu:** bütün ipuçları koşulsuz. 20 üçlünün **10'unda** doğru çift var (V7'de 12). Çözen: {A,D,x} 4, {A,B,x}
 3 daha, {C,D,x} 3 daha. E ve F yalnız yanıltır (E yöntemi gösterir, kişiyi değil). ❓ Onay 1: oran düşük bulunursa F'ye
 odeme_gecesi'nin eşi bir olgu verilip 12'ye çıkarılabilir.
 
-**Ortadaki dönüş:** girişte Peri yöntemi tanır ve Tarkan'ı kendi avukatı sanır (her yolda). Kanıtlar Orhan'ı (şifre) ve
+**Ortadaki dönüş:** girişte Peri yöntemi tanır ve Tarkan'ı kendi avukatı sanır (her yolda). Kanıtlar Nevzat'ı (şifre) ve
 Fikret'i (notlar, eski kurban: yöntemi biliyor — "taklitçi mi?") gösterir. **Ters köşe (sabit sahne, Kim yaptı?'dan
 hemen önce):** Tarkan atölyeye girer; Peri paravanın arkasından bakar: **bambaşka biri.** "Bu o değil." Peri'nin
 kesinliği yıkılır; üç şüpheli yeniden eşitlenir.
@@ -226,15 +226,15 @@ kesinliği yıkılır; üç şüpheli yeniden eşitlenir.
 
 | gerekir | cümle |
 |---|---|
-| sifre_iki + odeme_gecesi | Ödemeler Orhan Bey'in şifresiyle çıktı, ama o geceler Orhan Bey bilgisayarın başında değildi. |
+| sifre_iki + odeme_gecesi | Ödemeler Nevzat Bey'in şifresiyle çıktı, ama o geceler Nevzat Bey bilgisayarın başında değildi. |
 | kurulus_vekalet + ortak_iptal | Firmayı kuran vekâlet, iptal edilmiş olan değil; hâlâ geçerli olan. |
 | sifre_iki + kurulus_vekalet | Parayı çeken hem şifreyi biliyordu hem Bahar Hanım adına imza atabiliyordu. |
 | ortak_kurban + bordro_genc | Bu yöntemi bilen biri var; bordrodaki genç onun kurbanlarından. |
-| orhan_saklar + orhan_ask | Orhan Bey'in gece sakladığı şey para değil. |
+| nevzat_saklar + nevzat_ask | Nevzat Bey'in gece sakladığı şey para değil. |
 
 ## 9. "Aha!" anı
 
-- **Yanıltan iz (iki tane):** şifresi kullanılan, gece bir şey saklayan Orhan. Yöntemi bilen, tehdit gibi notlar
+- **Yanıltan iz (iki tane):** şifresi kullanılan, gece bir şey saklayan Nevzat. Yöntemi bilen, tehdit gibi notlar
   bırakan, Bahar'a küs eski ortak Fikret. Üstüne Peri'nin kendi önyargısı: "Bu benim avukatım" — ters köşede yıkılır.
 - **Çözen kanıt:** paralar şifre ve vekâlet ister; ikisine birden sahip tek kişi "avukat".
 
@@ -245,7 +245,7 @@ kavanoz kuleleri. Cengo şoför üniformasıyla Tarkan'ı kapıya getirir. Peri 
 soyunma paravanı; Peri adını taşıyan büroya göndermeyle). Tarkan girer; Peri aralıktan bakar. Genç, sarı saçlı, kaşında
 iz: **Nihat değil.** Peri Cengo'ya fısıldar: "Bu o değil." Cengo: "Yöntem aynı ama." Peri: "Yöntem çalınabilir."
 
-Yer: **19.20, atölyenin mutfağı.** Bahar, Orhan, Fikret (Bahar notları için çağırdı), Tarkan; Peri kılığını çıkarır
+Yer: **19.20, atölyenin mutfağı.** Bahar, Nevzat, Fikret (Bahar notları için çağırdı), Tarkan; Peri kılığını çıkarır
 (mantoyla), Cengo kasketini.
 
 **Ortak açılış (dört yüzleşmede aynı):** Peri: "Bu yöntemi ben bilirim. Vekâlet, olmayan firma, bordroda bir yabancı.
@@ -258,10 +258,10 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 |---|---|
 | Tarkan, doğru kanıt | Peri iki kilidi sayar: şifre ve vekâlet; ikisi de yalnız onda. Tarkan gülümser: "Ben avukatım, Perihan Hanım." Peri: "Bana Perihan yalnız bir kişi derdi." Tarkan'ın gülümsemesi düşer; telefon titrer. Kapıya koşar. |
 | Tarkan, zayıf kanıt | Tarkan: "Vekâlet bende, evet; işim bu. Şifre? Bana verdiler." Peri tutturamaz. Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
-| Orhan | Orhan kızarır, kekeler: "Ben o geceler… stüdyodaydım." Bahar ona bakar; Orhan susar. Tarkan "Muhasebe bulundu" diye ceketini alır; Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
+| Nevzat | Nevzat kızarır, kekeler: "Ben o geceler… stüdyodaydım." Bahar ona bakar; Nevzat susar. Tarkan "Muhasebe bulundu" diye ceketini alır; Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
 | Fikret | Fikret bağırır: "Ben uyardım! Notları ben yazdım; avukatına güvenme dedim!" Bahar donar. Tarkan geri çekilir; Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
 
-- **Dosya kapandı** (yalnız yüzleşme + itirafın söylediği): *Orhan Bey masumdu: şifresini "avukata" kendi vermişti.* ·
+- **Dosya kapandı** (yalnız yüzleşme + itirafın söylediği): *Nevzat Bey masumdu: şifresini "avukata" kendi vermişti.* ·
   *Fikret Usta masumdu: notları o yazmıştı, uyarmak için.* *(stüdyo ve iptal belgesi burada geçmez — ipucu olgusu.)*
 - **Ücret:** her sonuçta 50.000 ₺ (kural 25: kesinti yok).
 
@@ -304,8 +304,8 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 | Cengo | Peri'nin bildiği her şey; ayrıca kimliğinin nasıl alındığını (Emir'den, E oynandıysa) — karar metinleri bunu anmaz | itiraf, giriş |
 | Ozan | yakalandığını, Peri ile Cengo'nun her şeyi bildiğini | itiraf |
 | Nihat | aynısı; Peri'nin onu tanıdığını | kovalamaca, itiraf |
-| Bahar | yüzleşmeyi: Tarkan'ın kaçtığını, Nihat'ın adını; Orhan ve Fikret'in yola göre söylediklerini. Yalıda olanı bilmez | yüzleşme |
-| Orhan, Fikret | Bahar'ın bildiği kadar | yüzleşme |
+| Bahar | yüzleşmeyi: Tarkan'ın kaçtığını, Nihat'ın adını; Nevzat ve Fikret'in yola göre söylediklerini. Yalıda olanı bilmez | yüzleşme |
+| Nevzat, Fikret | Bahar'ın bildiği kadar | yüzleşme |
 
 **Kararı kim soruyor:** **Nihat**, ağın içinden, sakin, eski avukat sesiyle: "Paranın yarısı senin, Perihan. Bu akşam
 burada hiçbir şey olmadı. Ne dersin?" Ekranda: Peri, Nihat ve Ozan (ağda), Cengo ipin başında.
@@ -381,7 +381,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 | Cengo, şoför | satırların istediği ifadeler; direksiyonda; ip başında |
 | Cengo, kendi ceketi | kapanış |
 | Gizem | konuşma, kapanış |
-| Konuklar | Bahar, Tarkan/Ozan, Orhan, Fikret, Nihat, Emir, Pınar, Yusuf |
+| Konuklar | Bahar, Tarkan/Ozan, Nevzat, Fikret, Nihat, Emir, Pınar, Yusuf |
 | Ara kareler | kovalamaca 4, karar 4 (SONUÇ), ters köşe (paravan aralığı), itiraf (ağ), kapanış telefon |
 
 **Yeni konukların görünüşü 🟢** (15c: eski konukların hepsinden ayrışır):
@@ -392,7 +392,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 - **Tarkan / Ozan (34):** ince, orta boy; **kare çene**, **açık sarı, kısa, yandan ayrık** saç; **sol kaşında ince yara
   izi**; lacivert yelekli takım, altın kol düğmeleri; telefonu hep elinde. *Ayıran:* sarı saç + kaş izi (Kaan açık kumral
   perçemli gözlüklü; Ercan siyah jöleli).
-- **Orhan Bey (47):** kısa, tombul, yuvarlak yüz; **koyu kahve, yağlı, alnına düşen tek perçem**; **kalın kara bıyık**;
+- **Nevzat Bey (47):** kısa, tombul, yuvarlak yüz; **koyu kahve, yağlı, alnına düşen tek perçem**; **kalın kara bıyık**;
   ince metal gözlük boynunda zincirle; beyaz gömlek, **kollarında siyah kolluk**, kulağında kurşun kalem. *Ayıran:*
   kolluk + kalın bıyık (Recep tombul ama kır kıvırcık, bıyıksız).
 - **Fikret Usta (63):** uzun, iri kemikli, geniş omuzlu; **beyaz uzun saç at kuyruğu**, temiz traşlı; çatık beyaz kaşlar;
@@ -414,7 +414,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 |---|---|---|---|
 | Bahar Hanım | giriş | Televizyonun aşçısı; bu akşam markasının lansmanı. Şirketinden para çekiliyor. | — |
 | Tarkan Bey | giriş | Bahar Hanım'ın avukatı; vekâleti onda. Hep yolda. | — |
-| Orhan Bey | giriş | Bahar Hanım'ın muhasebecisi. Ödemeler onun şifresiyle çıkmış. | `orhan_ask` → Çekim gecelerinde Bahar Hanım'ı izlemeye gidiyor. |
+| Nevzat Bey | giriş | Bahar Hanım'ın muhasebecisi. Ödemeler onun şifresiyle çıkmış. | `nevzat_ask` → Çekim gecelerinde Bahar Hanım'ı izlemeye gidiyor. |
 | Fikret Usta | giriş | Bahar Hanım'ın eski lokanta ortağı; kapısına isimsiz notlar bırakıyor. | `ortak_kurban` → Yıllar önce aynı yöntemle soyuldu. |
 | Emir | giriş (adı) / E | Bordroda şoför görünen genç; Bahar Hanım onu tanımıyor. | `bordro_genc` → Karaköy otoparkında görevli; şirketi hiç görmemiş. |
 
@@ -439,7 +439,7 @@ Başka tutar metne girmez. Para yalnız hikâyede (kural 24): kasa yok.
 3. **Ozan:** Nihat'ın evrak adamı; Paravan'ın kâğıtlarını o taşıdı, Peri'yi tanır.
 4. **Taç büroda, kadife kutusunda** (V8 tacın alınmış olduğu hâlden başlar; nasıl alındığı anılmaz).
 
-**Vaka kanonu:** Bahar Hanım ve "Bahar'ın Kilerinden", Orhan, Fikret, Emir, Pınar, Yusuf Efendi, Kavanoz Ambalaj,
+**Vaka kanonu:** Bahar Hanım ve "Bahar'ın Kilerinden", Nevzat, Fikret, Emir, Pınar, Yusuf Efendi, Kavanoz Ambalaj,
 Yeniköy'deki yalı.
 **Kapanan açık noktalar:** avukatın adı ve Cengo'yla bağlantısı.
 **Sezon 2'ye kalan:** Nihat'ın ve Peri'nin parasının akıbeti karara bağlı → sonraki vakalarda anılmaz (kural 28).
@@ -448,13 +448,13 @@ Yeniköy'deki yalı.
 
 - [x] Giriş kurallarına uyuyor (üç şüpheli anılıyor; suçlu ele verilmiyor — Peri'nin "bu benim avukatım" sanısı yanlış
       bir yönlendirme, kanıt değil)
-- [x] 3 şüpheli; Orhan ve Fikret'in izi ve aklanması var
+- [x] 3 şüpheli; Nevzat ve Fikret'in izi ve aklanması var
 - [x] Suçluyu kanıtlayan en az 2 yol var (3)
-- [x] Hiçbir ipucu suçluyu tek başına göstermiyor: A → {Orhan, Tarkan}; D → {Fikret, Tarkan}; B, C yalnız aklar; E, F
+- [x] Hiçbir ipucu suçluyu tek başına göstermiyor: A → {Nevzat, Tarkan}; D → {Fikret, Tarkan}; B, C yalnız aklar; E, F
       yanıltır
 - [x] Defter cümleleri suçluyu söylemiyor
 - [x] "Aha!" anı var (şifre × vekâlet) + ters köşe
-- [x] Zaman çizelgesi tutarlı (ödeme geceleri Orhan stüdyoda; iptal şirketten bir yıl önce)
+- [x] Zaman çizelgesi tutarlı (ödeme geceleri Nevzat stüdyoda; iptal şirketten bir yıl önce)
 - [x] Kişi tablosu dolu (A, C)
 - [x] "Kim neyi biliyor" listesi yazıldı; kararlar ve kapanış ona uyuyor (B)
 - [x] Her tutar fiyat tablosunda (yalnız ücret metinde)
@@ -472,7 +472,7 @@ Yeniköy'deki yalı.
 
 ## Ortağa sorular *(Onay 1, 19 Kasım 2026: hepsi ✅)*
 
-1. İsimler uygun mu? (Bahar, Tarkan/Ozan, Orhan, Fikret, **Nihat Kora**, Emir, Pınar, Yusuf)
+1. İsimler uygun mu? (Bahar, Tarkan/Ozan, Nevzat, Fikret, **Nihat Kora**, Emir, Pınar, Yusuf)
 2. Kanon eklemeleri (§18, 4 madde) uygun mu?
 3. Kıyafetler (§14) ve konuk görünüşleri (§16) uygun mu?
 4. Kovalamaca: Cengo suçluyu kendi arabasında patronuna sürer, Peri bagajda reçele bulanır, ikisi balıkçı ağına düşer —

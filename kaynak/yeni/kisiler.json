@@ -525,6 +525,64 @@
           "tanim": "Evin restoratörü. Tabloyu depoda o çerçeveledi. Tabloyu iki hafta o onardı."
         }
       ]
+    },
+    {
+      "id": "bahar",
+      "ad": "Bahar Hanım",
+      "portre": "portre_bahar",
+      "tanisma": "odeme_suphe",
+      "katmanlar": [
+        {
+          "kosul": "odeme_suphe",
+          "tanim": "Televizyonun aşçısı; bu akşam markasının lansmanı. Şirketinden para çekiliyor."
+        }
+      ]
+    },
+    {
+      "id": "tarkan",
+      "ad": "Tarkan Bey",
+      "portre": "portre_tarkan",
+      "tanisma": "tarkan_suphe",
+      "katmanlar": [{"kosul": "tarkan_suphe", "tanim": "Bahar Hanım'ın avukatı; vekâleti onda. Hep yolda."}]
+    },
+    {
+      "id": "nevzat",
+      "ad": "Nevzat Bey",
+      "portre": "portre_nevzat",
+      "tanisma": "nevzat_suphe",
+      "katmanlar": [
+        {"kosul": "nevzat_suphe", "tanim": "Bahar Hanım'ın muhasebecisi. Ödemeler onun şifresiyle çıkmış."},
+        {
+          "kosul": "nevzat_ask",
+          "tanim": "Bahar Hanım'ın muhasebecisi. Ödemeler onun şifresiyle çıkmış. Çekim gecelerinde Bahar Hanım'ı izlemeye gidiyor."
+        }
+      ]
+    },
+    {
+      "id": "fikret",
+      "ad": "Fikret Usta",
+      "portre": "portre_fikret",
+      "tanisma": "fikret_suphe",
+      "katmanlar": [
+        {"kosul": "fikret_suphe", "tanim": "Bahar Hanım'ın eski lokanta ortağı; kapısına isimsiz notlar bırakıyor."},
+        {
+          "kosul": "ortak_kurban",
+          "tanim": "Bahar Hanım'ın eski lokanta ortağı; kapısına isimsiz notlar bırakıyor. Yıllar önce aynı yöntemle soyuldu."
+        }
+      ]
+    },
+    {
+      "id": "emir",
+      "ad": "Emir",
+      "portre": "portre_emir",
+      "tanisma": "odeme_suphe",
+      "katmanlar": [
+        {"kosul": "odeme_suphe", "tanim": "Bordroda şoför görünen genç; Bahar Hanım onu tanımıyor."},
+        {
+          "kosul": "bordro_genc",
+          "tanim": "Bordroda şoför görünen genç; Bahar Hanım onu tanımıyor. Karaköy'de otopark görevlisi; şirketi hiç görmemiş."
+        }
+      ]
     }
   ],
   "defter": {
@@ -569,6 +627,12 @@
       "sus": "Sustum. Taç bende, kopya bir duvarda.",
       "sus_payi": "Susmamın karşılığı taç. Süheyla aldı.",
       "cengoya_birak": "Tacı Cengo aldı; adamlarından topladı. Büroda bana verdi."
+    },
+    "V8": {
+      "polis": "İkisini de polise verdim. Param bir valizde, mühürlü.",
+      "anlas": "Payımı aldım, sustum. İkisi gitti; Bahar kaybetti.",
+      "oyun": "Anlaştım, sonra ikisini de verdim. Polise yalan söyledik.",
+      "ozan_birak": "Ozan'ı bıraktım, Nihat'ı verdim. Param gitti. Ozan bir yerde."
     }
   },
   "ani_ozet": {
@@ -579,6 +643,7 @@
     "V4": "Cihangir'de kahve falı bakan Feraye Hanım şantajcı diye suçlanınca adını temizlememizi istedi. Şantajcı kafenin garsonu Sadık'tı: pencere önünde telefonla konuşulan sırları duyup Feraye'ye not olarak satıyordu. Sonra aynı sırlarla, Feraye'nin sözünü kullanarak sahiplerinden yirmişer bin istedi.",
     "V5": "Antikacı Muammer Bey'in çalar cep saati, Kadıköy vapurunda çantası ikiziyle değiştirilerek çalındı. Saati otuz yıllık tamircisi Selim almıştı: Muammer ona yol verecekti, Selim otuz yılının karşılığını o saatte gördü.",
     "V6": "Cengo'nun kızı Eylül, annesinin düğününü bozmak üzere olan isimsiz mektuplar için babasından yardım istedi. Mektupları anneannesi Müzeyyen Hanım yazmıştı: düğünden sonra kızı ve torunu İzmir'e gidecekti, o tek kalacaktı.",
-    "V7": "Nişantaşı'ndaki müzayede evinin sahibesi Süheyla Hanım, satışın en değerli tablosunun sahte olduğundan şüphelendi. Tabloyu evin restoratörü Nesrin Hanım kopyasıyla değiştirmişti: otuz yıl önce satıcının babası onun adını batırmıştı. Aynı akşam katalogda Peri'nin tacı vardı."
+    "V7": "Nişantaşı'ndaki müzayede evinin sahibesi Süheyla Hanım, satışın en değerli tablosunun sahte olduğundan şüphelendi. Tabloyu evin restoratörü Nesrin Hanım kopyasıyla değiştirmişti: otuz yıl önce satıcının babası onun adını batırmıştı. Aynı akşam katalogda Peri'nin tacı vardı.",
+    "V8": "Televizyonun aşçısı Bahar Hanım'ın şirketinden para çekiliyordu. Çeken, \"avukat\" Tarkan Bey'di; gerçek adı Ozan'dı, Peri'yi dolandıran Nihat Kora'nın adamıydı. Peri ikisini aynı gece, Yeniköy'de bir iskelede yakaladı."
   }
 }

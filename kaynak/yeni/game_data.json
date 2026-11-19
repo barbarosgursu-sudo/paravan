@@ -87,7 +87,11 @@
               "telefon",
               "islak",
               "tel"
-            ]
+            ],
+            "manto8": ["normal", "kas", "sinirli", "merakli", "sevincli", "utanmis", "sasirmis", "yumusak"],
+            "kilik": ["normal", "kas", "merakli", "utanmis", "yumusak", "sasirmis", "sinirli"],
+            "recel": ["sinirli", "kas"],
+            "manto8_son": ["normal", "kas", "yumusak", "utanmis", "sinirli"]
           }
         },
         "cengo": {
@@ -104,7 +108,10 @@
             "duvakli": ["kas", "yumusak"],
             "buruk": ["normal", "yumusak"],
             "smokin": ["normal", "kas", "gulen", "yumusak", "sinirli"],
-            "smokin_tepsi": ["kas"]
+            "smokin_tepsi": ["kas"],
+            "sofor": ["normal", "kas", "gulen", "yumusak"],
+            "sofor_dugmesiz": ["kas", "gulen", "yumusak"],
+            "ceket8": ["normal", "kas", "gulen", "yumusak", "sinirli"]
           }
         },
         "hilmi": {"ad": "Hilmi Bey", "ifadeler": ["ciddi", "gulen", "uzatir"]},
@@ -178,7 +185,15 @@
         "vedat": {"ad": "Vedat", "ifadeler": ["sakaci", "kacamak", "yakalanmis", "ofkeli"]},
         "nesrin": {"ad": "Nesrin", "ifadeler": ["soguk", "normal", "itiraf"]},
         "ercan": {"ad": "Vale", "ifadeler": ["normal", "gulen", "fisilti"]},
-        "necmi": {"ad": "Necmi", "ifadeler": ["normal", "heyecanli", "defter"]}
+        "necmi": {"ad": "Necmi", "ifadeler": ["normal", "heyecanli", "defter"]},
+        "bahar": {"ad": "Bahar", "ifadeler": ["gulen", "sasirmis", "endiseli", "sert", "normal"]},
+        "tarkan": {"ad": "Tarkan", "ifadeler": ["normal", "gulen", "panik", "itiraf"]},
+        "nihat": {"ad": "Nihat", "ifadeler": ["sasirmis", "normal", "pazarlik"]},
+        "nevzat": {"ad": "Nevzat", "ifadeler": ["normal", "gergin", "utangac"]},
+        "fikret": {"ad": "Fikret", "ifadeler": ["huysuz", "guler", "huzunlu", "ofkeli"]},
+        "pinar": {"ad": "Pınar", "ifadeler": ["telasli", "normal", "defter"]},
+        "yusuf": {"ad": "Yusuf", "ifadeler": ["normal", "gulen"]},
+        "emir": {"ad": "Emir", "ifadeler": ["gulen", "sasirmis", "normal"]}
       },
       "sesler": {
         "ses": "Ses",
@@ -189,7 +204,9 @@
         "garson": "Garson",
         "fotografci": "Fotoğrafçı",
         "ikram_sefi": "İkram şefi",
-        "misafir": "Misafir"
+        "misafir": "Misafir",
+        "gizem_tel": "Gizem (telefonda)",
+        "telefon": "Telefondaki ses"
       },
       "arkalar": [
         "A1",
@@ -262,7 +279,19 @@
         "A56",
         "A57",
         "A58",
-        "A59"
+        "A59",
+        "A60",
+        "A61",
+        "A62",
+        "A63",
+        "A64",
+        "A65",
+        "A66",
+        "A67",
+        "A68",
+        "A69",
+        "A70",
+        "A71"
       ],
       "kareler": [
         "D1",
@@ -450,9 +479,57 @@
         "K150",
         "K151",
         "K152",
-        "K153"
+        "K153",
+        "D28",
+        "D29",
+        "D30",
+        "D31",
+        "D32",
+        "D33",
+        "K155",
+        "K156",
+        "K157",
+        "K158",
+        "K159",
+        "K160",
+        "K161",
+        "K162",
+        "K163",
+        "K164",
+        "K165",
+        "K166",
+        "K167",
+        "K168",
+        "K169",
+        "K170",
+        "K171",
+        "K172",
+        "K173",
+        "K174",
+        "K175",
+        "K176",
+        "K177",
+        "K178",
+        "K179",
+        "K180",
+        "K181",
+        "K182",
+        "K183",
+        "K184",
+        "K185",
+        "K186",
+        "K187",
+        "K188",
+        "K189",
+        "K190",
+        "K191",
+        "K192",
+        "K193",
+        "K194",
+        "K195",
+        "MASA_V8"
       ],
-      "buro": ["A6", "A6b", "A7", "A8", "A58", "A59"]
+      "buro": ["A6", "A6b", "A7", "A8", "A58", "A59", "A60", "A71"]
     }
   },
   "ekonomi": {"baslangic_kasa": 4250, "gider": {}, "borc_faizi": 0},
@@ -9782,6 +9859,1965 @@
             },
             {"k": "peri", "i": "yumusak", "m": "Bütün gün yamuktu.", "bag": "yuksek", "kime": "cengo", "kare": "K147"},
             {"k": "cengo", "i": "yumusak", "m": "Bekliyordum.", "bag": "yuksek", "kime": "peri", "kare": "K147"},
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Hıh.",
+              "bag": "yuksek",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.yumusak"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "V8",
+      "tur": "omurga",
+      "sira": 8,
+      "belirir": null,
+      "baslik": "İade",
+      "arastirma": 3,
+      "ucret": 50000,
+      "giris_gorsel": "MASA_V8",
+      "setler": {"peri": "manto8", "cengo": "ceket8"},
+      "truth": {
+        "ne_oldu": "Bahar Hanım'ın şirketinden 'Kavanoz Ambalaj' adlı hayalet bir firmaya üç kez para çekildi. Çeken, kendini avukat Tarkan diye tanıtan Ozan'dı: Peri'yi dolandıran avukat Nihat Kora'nın adamı. Vekâletle firmayı kurdu, Emir'i bordroya yazdı, Nevzat'tan aldığı şifreyle ödemeleri gece dışarıdan gönderdi.",
+        "neden": "Kendi payı: lansman gecesi yatırımcı parası girince hesabı boşaltıp Yeniköy'deki yalıda Nihat'tan payını alacaktı; Nihat tekneyle kaçacaktı.",
+        "nevzat": "Şifresini 'denetim için' avukata kendi verdi. Ödeme gecelerinde stüdyoda, yıllardır âşık olduğu Bahar'ı izliyordu.",
+        "fikret": "Aynı yöntemle yıllar önce soyulmuştu. Vekâletini bir yıl önce iptal ettirdi; notları Bahar'ı uyarmak için yazdı."
+      },
+      "facts": {
+        "odeme_suphe": "Bahar Hanım'ın şirketinden son bir ayda üç kez \"Kavanoz Ambalaj\" diye bir firmaya para çıktı. Bahar böyle bir firmayla hiç çalışmadı; talimatlardaki imzayı o atmadı. Muhasebe listesinde tanımadığı bir şoför var: Emir.",
+        "nevzat_suphe": "Muhasebeci Nevzat Bey yıllardır Bahar Hanım'ın yanında. Ödemeler onun şifresiyle çıkmış.",
+        "fikret_suphe": "Bahar Hanım'ın eski ortağı Fikret Usta kapısına isimsiz notlar bırakıyor: \"Avukatına güvenme.\" Bahar ona küs.",
+        "tarkan_suphe": "Avukat Tarkan Bey Bahar Hanım'ın her işini yürütüyor; vekâleti onda. Bahar'ın programına konuk olmuştu. Hep yolda; Bahar üç ayda yüzünü iki kez gördü.",
+        "sifre_iki": "Üç ödeme de Nevzat Bey'in şifresiyle, gece ikide, atölye dışından gönderilmiş. Nevzat Bey şifresini bir kişiye vermiş: \"denetim için\" Tarkan Bey'e. Şifreyi bilen iki kişi var.",
+        "nevzat_saklar": "Nevzat Bey'in masasında bir yığın gece taksi fişi var; nereye gittiğini söylemiyor, kızarıyor.",
+        "odeme_gecesi": "Ödemelerin yapıldığı üç gece stüdyoda çekim sabaha kadar sürdü. Nevzat Bey üçünde de sabaha kadar kulisteydi; yapım asistanı Pınar onu gördü.",
+        "ortak_kurban": "Fikret Usta'yı yıllar önce başka bir \"avukat\" aynı yöntemle soydu: vekâlet, olmayan firmalar. Lokantası gitti. İsimsiz notları o bırakıyor.",
+        "ortak_iptal": "Fikret Usta'nın Bahar Hanım'dan aldığı eski vekâlet, bir yıl önce noterde iptal edilmiş; belgesi lokantanın duvarında çerçeveli.",
+        "kurulus_vekalet": "Kavanoz Ambalaj Bahar Hanım adına vekâletle açılmış; adresi Mecidiyeköy'de bir posta kutusu. Bahar Hanım'ın vekâlet verdiği iki kişi var: eski ortağı Fikret Usta ve avukatı Tarkan Bey.",
+        "bordro_genc": "Bordrodaki Emir, Karaköy'de bir otoparkta görevli; şirketi hiç görmemiş, ehliyeti bile yok. Kimliğini otopark müdürü vermiş; işe telefonla alınmış. Telefondaki \"avukat bey\"in sesi gençmiş.",
+        "nevzat_ask": "Gizem'in yapım asistanı Pınar'dan duyduğuna göre Nevzat Bey her çekim gecesi stüdyoya gelip köşeden Bahar Hanım'ı izliyor; kulisteki kartsız çiçekleri o bırakıyor. Yıllardır ona âşık; kimse bilmesin istiyor."
+      },
+      "knowledge": [
+        {
+          "turetilen": "sifre_baskasi",
+          "baslik": "Ödemeler Nevzat Bey'in şifresiyle çıktı, ama o geceler Nevzat Bey bilgisayarın başında değildi.",
+          "ifade": {"all": ["sifre_iki", "odeme_gecesi"]}
+        },
+        {
+          "turetilen": "gecerli_vekalet",
+          "baslik": "Firmayı kuran vekâlet, iptal edilmiş olan değil; hâlâ geçerli olan.",
+          "ifade": {"all": ["kurulus_vekalet", "ortak_iptal"]}
+        },
+        {
+          "turetilen": "iki_kilit",
+          "baslik": "Parayı çeken hem şifreyi biliyordu hem Bahar Hanım adına imza atabiliyordu.",
+          "ifade": {"all": ["sifre_iki", "kurulus_vekalet"]}
+        },
+        {
+          "turetilen": "yontem_bilen",
+          "baslik": "Bu yöntemi bilen biri var; bordrodaki genç onun kurbanlarından.",
+          "ifade": {"all": ["ortak_kurban", "bordro_genc"]}
+        },
+        {
+          "turetilen": "nevzat_sir",
+          "baslik": "Nevzat Bey'in gece sakladığı şey para değil.",
+          "ifade": {"all": ["nevzat_saklar", "nevzat_ask"]}
+        }
+      ],
+      "giris": [
+        {
+          "kosul": "varsayilan",
+          "metin": "Televizyonun aşçısı Bahar Hanım büroya geldi: bu akşam kendi markasının lansmanı, ama şirketinden olmayan bir tedarikçiye üç kez para çıkmış, talimatlarda onun atmadığı imza var. Muhasebecisi Nevzat Bey'den, eski ortağı Fikret Usta'dan ve avukatı Tarkan Bey'den şüpheleniyor. Bordroda tanımadığı bir şoför var. Peri yöntemi tanıdı. Ücret elli bin.",
+          "acilan": ["odeme_suphe", "nevzat_suphe", "fikret_suphe", "tarkan_suphe"]
+        }
+      ],
+      "clues": [
+        {
+          "id": "nevzat",
+          "ad": "Nevzat Bey",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["sifre_iki", "nevzat_saklar"],
+          "text": "Üç ödeme de Nevzat Bey'in şifresiyle, gece ikide, dışarıdan gönderilmiş. Şifreyi \"denetim için\" Tarkan Bey'e vermiş; şifreyi bilen iki kişi var. Masasında gece taksi fişleri; nereye gittiğini söylemiyor.",
+          "meta": "Üç ödeme de Nevzat Bey'in şifresiyle, gece ikide, dışarıdan gönderilmiş. Şifreyi \"denetim için\" Tarkan Bey'e vermiş; şifreyi bilen iki kişi var. Masasında gece taksi fişleri; nereye gittiğini söylemiyor.",
+          "sahne": {
+            "arka": "A61",
+            "set": "kilik",
+            "cset": "sofor",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Kurtuluş. Mutfak atölyesinin üstünde dar bir muhasebe odası: raflarda klasörler, masada hesap makinesi.",
+                "arka": "A61",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kollarında siyah kolluk, kulağında kurşun kalem, kalın bıyıklı, tombul bir adam; gözlüğü boynunda zincirle sarkıyor.",
+                "gir": "nevzat",
+                "gi": "normal",
+                "ekran": "nevzat"
+              },
+              {
+                "k": "nevzat",
+                "i": "normal",
+                "m": "Yeni stajyer misiniz? Şekersiz bir kahve, lütfen.",
+                "gir": "nevzat",
+                "kime": "peri",
+                "ekran": "peri+nevzat",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Kahveyi sonra yaparım, Nevzat Bey. Bahar Hanım ödemelere bakmamı istedi.",
+                "kime": "nevzat",
+                "ekran": "peri+nevzat",
+                "yuz": "nevzat.normal"
+              },
+              {"k": "not", "m": "Nevzat ekranı çeviriyor: alt alta üç ödeme satırı.", "kare": "D28"},
+              {
+                "k": "nevzat",
+                "i": "gergin",
+                "m": "Üçü de benim şifremle. Üçü de gece ikide. Ama bu odadan değil; dışarıdan bağlanmışlar.",
+                "kare": "D28"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Şifrenizi bilen başka biri var mı?",
+                "kime": "nevzat",
+                "ekran": "peri+nevzat",
+                "yuz": "nevzat.gergin"
+              },
+              {
+                "k": "not",
+                "m": "Nevzat kızarıyor, gözlüğünü takıp çıkarıyor.",
+                "gir": "nevzat",
+                "gi": "utangac",
+                "ekran": "nevzat"
+              },
+              {
+                "k": "nevzat",
+                "i": "utangac",
+                "m": "Bir kişiye verdim. Tarkan Bey'e. Denetim için istedi.",
+                "kime": "peri",
+                "ekran": "peri+nevzat",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "nevzat",
+                "i": "utangac",
+                "m": "Bahar Hanım'ın avukatına güvenmezsem kime güveneceğim? Yani şifreyi iki kişi biliyor: ben ve o.",
+                "ekran": "peri+nevzat",
+                "yuz": "peri.merakli"
+              },
+              {"k": "not", "m": "Peri masadaki bir yığın taksi fişine bakıyor.", "kare": "D29"},
+              {"k": "peri", "i": "merakli", "m": "Bunlar ne, Nevzat Bey? Hepsi gece.", "kare": "D29"},
+              {
+                "k": "nevzat",
+                "i": "utangac",
+                "m": "İş… İşle ilgili değil. Yani işle ilgili de değil. Kahveniz soğumasın.",
+                "kime": "peri",
+                "ekran": "peri+nevzat",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Kahveyi siz istemiştiniz.",
+                "kime": "nevzat",
+                "ekran": "peri+nevzat",
+                "yuz": "nevzat.utangac"
+              },
+              {
+                "k": "nevzat",
+                "i": "gergin",
+                "m": "Doğru. Ben… ben yaparım.",
+                "kime": "peri",
+                "ekran": "peri+nevzat",
+                "yuz": "peri.kas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "studyo",
+          "ad": "Stüdyo",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["odeme_gecesi"],
+          "text": "Ödeme gecelerinin üçünde de çekim sabaha kadar sürdü; Nevzat Bey üçünde de kulisteydi.",
+          "meta": "Ödeme gecelerinin üçünde de çekim sabaha kadar sürdü; Nevzat Bey üçünde de kulisteydi.",
+          "sahne": {
+            "arka": "A62",
+            "set": "kilik",
+            "cset": "sofor",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Maslak. Televizyon stüdyosu: ışıkların altında bir mutfak dekoru, kameralar.",
+                "arka": "A62",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Mor saçlı, küt kâküllü, boynunda kulaklık bir kadın elinde klipsli bir defterle koşturuyor.",
+                "gir": "pinar",
+                "gi": "telasli",
+                "ekran": "pinar"
+              },
+              {
+                "k": "pinar",
+                "i": "telasli",
+                "m": "Yeni yardımcı sen misin? Tezgâha, çabuk! Soğanlar doğranacak, kamera açık!",
+                "gir": "pinar",
+                "kime": "peri",
+                "ekran": "peri+pinar",
+                "yuz": "peri.normal"
+              },
+              {"k": "not", "m": "Peri kameranın önünde soğan doğruyor; gözlerinden yaşlar süzülüyor.", "kare": "K160"},
+              {"k": "peri", "i": "utanmis", "m": "Ağlamıyorum. Soğan.", "kare": "K160"},
+              {
+                "k": "pinar",
+                "i": "normal",
+                "m": "Mola! (Peri'ye) İyiydin. Ağlaman çok gerçekti.",
+                "gir": "pinar",
+                "kime": "peri",
+                "ekran": "peri+pinar",
+                "yuz": "peri.utanmis"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Gerçekti. Bir şey soracağım: geçen ay üç gece geç saate kadar çekim var mıydı?",
+                "kime": "pinar",
+                "ekran": "peri+pinar",
+                "yuz": "pinar.normal"
+              },
+              {"k": "not", "m": "Pınar defterini karıştırıyor.", "gir": "pinar", "gi": "defter", "ekran": "pinar"},
+              {
+                "k": "pinar",
+                "i": "defter",
+                "m": "Üç gece, evet. Çekim sabaha kadar sürdü. Tarihler bunlar.",
+                "kime": "peri",
+                "ekran": "peri+pinar",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "pinar",
+                "i": "defter",
+                "m": "Nevzat Bey üçünde de buradaydı. Kulisteydi, ışıkları kapattık, hâlâ oradaydı.",
+                "ekran": "peri+pinar",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Muhasebeci bir yemek çekiminde sabaha kadar ne yapar?",
+                "kime": "pinar",
+                "ekran": "peri+pinar",
+                "yuz": "pinar.defter"
+              },
+              {
+                "k": "pinar",
+                "i": "normal",
+                "m": "Bilmem. Bahar Hanım'ı izler. Kimseyi rahatsız etmez; çay da getirir.",
+                "kime": "peri",
+                "ekran": "peri+pinar",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "pinar",
+                "i": "telasli",
+                "m": "Mola bitti! Yardımcı, maydanoz!",
+                "kime": "peri",
+                "ekran": "peri+pinar",
+                "yuz": "peri.merakli"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fikret",
+          "ad": "Fikret Usta",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["ortak_kurban", "ortak_iptal"],
+          "text": "İsimsiz notları Fikret Usta yazıyor: yıllar önce aynı yöntemle soyuldu. Bahar Hanım'ın eski vekâletini bir yıl önce noterde iptal ettirmiş.",
+          "meta": "İsimsiz notları Fikret Usta yazıyor: yıllar önce aynı yöntemle soyuldu. Bahar Hanım'ın eski vekâletini bir yıl önce noterde iptal ettirmiş.",
+          "sahne": {
+            "arka": "A63",
+            "set": "kilik",
+            "cset": "sofor",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, aralarında çerçeveli bir belge.",
+                "arka": "A63",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Beyaz uzun saçını at kuyruğu yapmış, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.",
+                "gir": "fikret",
+                "gi": "huysuz",
+                "ekran": "fikret"
+              },
+              {
+                "k": "fikret",
+                "i": "huysuz",
+                "m": "Kapalıyız. (Cengo'yu süzerek) Şoför müsün, kaptan mı? Otur, çorba var.",
+                "gir": "fikret",
+                "kime": "cengo",
+                "ekran": "cengo+fikret",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "cengo",
+                "i": "gulen",
+                "m": "Çorbaya hayır demem, usta.",
+                "kime": "fikret",
+                "ekran": "cengo+fikret",
+                "yuz": "fikret.huysuz"
+              },
+              {
+                "k": "not",
+                "m": "Fikret Peri'ye bakıp kaşlarını çatıyor.",
+                "gir": "fikret",
+                "gi": "guler",
+                "ekran": "peri+fikret",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "fikret",
+                "i": "guler",
+                "m": "Kraliçe! Önlük sana yakışmamış, kızım.",
+                "kime": "peri",
+                "ekran": "peri+fikret",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Planlamıştım. Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta?",
+                "kime": "fikret",
+                "ekran": "peri+fikret",
+                "yuz": "fikret.guler"
+              },
+              {
+                "k": "fikret",
+                "i": "huysuz",
+                "m": "Ben bırakıyorum. Adımı yazmadım; yazsam okumaz, bana küs.",
+                "kime": "peri",
+                "ekran": "peri+fikret",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "fikret",
+                "i": "huzunlu",
+                "m": "Bana da aynısını yaptılar. Bir \"avukat\", bir vekâlet, olmayan firmalar. Lokantam gitti.",
+                "ekran": "peri+fikret",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "fikret",
+                "i": "huzunlu",
+                "m": "O Tarkan'ı televizyonda görünce tanıdım. Yüzünü değil, konuşmasını. \"Markanızı ben korurum.\"",
+                "ekran": "peri+fikret",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Bahar Hanım'ın vekâleti sizde de var mı? Eskiden ortaktınız.",
+                "kime": "fikret",
+                "ekran": "cengo+fikret",
+                "yuz": "fikret.huzunlu"
+              },
+              {"k": "not", "m": "Fikret duvardaki çerçeveyi gösteriyor: noter mühürlü bir kâğıt.", "kare": "D30"},
+              {
+                "k": "fikret",
+                "i": "huysuz",
+                "m": "Vardı. Bir yıl önce noterde iptal ettirdim. Bir daha kimse kimsenin adına imza atmasın diye astım.",
+                "kare": "D30"
+              },
+              {
+                "k": "peri",
+                "i": "yumusak",
+                "m": "Bahar Hanım'a bunu neden söylemediniz?",
+                "kime": "fikret",
+                "ekran": "peri+fikret",
+                "yuz": "fikret.huysuz"
+              },
+              {
+                "k": "fikret",
+                "i": "huzunlu",
+                "m": "Söyleseydim \"kıskanıyorsun\" derdi. Belki kıskanıyorum da. Ama soyulmasını istemem.",
+                "kime": "peri",
+                "ekran": "peri+fikret",
+                "yuz": "peri.yumusak"
+              }
+            ]
+          }
+        },
+        {
+          "id": "posta",
+          "ad": "Posta kutusu",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["kurulus_vekalet"],
+          "text": "Kavanoz Ambalaj Mecidiyeköy'de bir posta kutusu; Bahar Hanım adına vekâletle açılmış. Vekâlet verilen iki kişi: Fikret Usta ve Tarkan Bey.",
+          "meta": "Kavanoz Ambalaj Mecidiyeköy'de bir posta kutusu; Bahar Hanım adına vekâletle açılmış. Vekâlet verilen iki kişi: Fikret Usta ve Tarkan Bey.",
+          "sahne": {
+            "arka": "A64",
+            "set": "kilik",
+            "cset": "sofor",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Mecidiyeköy. Dar bir kargo dükkânı; duvar boyu numaralı posta kutuları.",
+                "arka": "A64",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Kasketli, yün hırkalı, çok kambur, ufak tefek yaşlı bir adam; kalın camlı gözlüğü gözlerini kocaman gösteriyor.",
+                "gir": "yusuf",
+                "gi": "normal",
+                "ekran": "yusuf"
+              },
+              {
+                "k": "yusuf",
+                "i": "normal",
+                "m": "Hanım kızım, kargo mu? Paket ağırsa şu delikanlı taşısın.",
+                "gir": "yusuf",
+                "kime": "peri",
+                "ekran": "peri+yusuf",
+                "yuz": "peri.kas"
+              },
+              {"k": "not", "m": "Cengo hiçbir şey sormadan tezgâhın arkasındaki kolileri rafa diziyor.", "kare": "K161"},
+              {
+                "k": "yusuf",
+                "i": "gulen",
+                "m": "Şoför de çalışkanmış. Ne arıyorsunuz, söyleyin bakalım.",
+                "kare": "K161"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "\"Kavanoz Ambalaj\" diye bir firma, Yusuf Efendi. Adresi sizin dükkân görünüyor.",
+                "kime": "yusuf",
+                "ekran": "cengo+yusuf",
+                "yuz": "yusuf.gulen"
+              },
+              {
+                "k": "yusuf",
+                "i": "normal",
+                "m": "Kırk iki numara. Ona hiç mektup gelmez. Kutu boş durur, kirası düzenli yatar.",
+                "kime": "cengo",
+                "ekran": "cengo+yusuf",
+                "yuz": "cengo.normal"
+              },
+              {"k": "not", "m": "Yusuf tezgâhın altından kalın bir defter çıkarıp bir sayfayı açıyor.", "kare": "D31"},
+              {
+                "k": "yusuf",
+                "i": "normal",
+                "m": "Kutuyu açan kâğıt bu. Vekâletle açılmış; Bahar Hanım adına. Bahar Hanım televizyondaki mi?",
+                "kare": "D31"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Vekâlette kimin adı var?",
+                "kime": "yusuf",
+                "ekran": "peri+yusuf",
+                "yuz": "yusuf.normal"
+              },
+              {
+                "k": "yusuf",
+                "i": "normal",
+                "m": "Gözlerim iyi görmez, kızım. Ama noter yazısını buraya iliştirmişler; sen oku.",
+                "kime": "peri",
+                "ekran": "peri+yusuf",
+                "yuz": "peri.merakli"
+              },
+              {"k": "not", "m": "Peri iliştirilmiş kâğıda eğiliyor.", "kare": "D32"},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Bahar Hanım iki kişiye vekâlet vermiş: eski ortağı Fikret Usta'ya ve avukatı Tarkan Bey'e.",
+                "kime": "cengo",
+                "kare": "D32"
+              },
+              {
+                "k": "cengo",
+                "i": "kas",
+                "m": "Hangisinin eli değmiş, kâğıt söylemiyor mu?",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.kas"
+              },
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Söylemiyor. Kâğıt yalnız \"vekil\" diyor.",
+                "kime": "cengo",
+                "ekran": "peri+cengo",
+                "yuz": "cengo.kas"
+              }
+            ]
+          }
+        },
+        {
+          "id": "emir",
+          "ad": "Emir",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["bordro_genc"],
+          "text": "Bordrodaki Emir Karaköy'de otopark görevlisi; şirketi hiç görmemiş. Kimliğini müdür vermiş; telefondaki \"avukat bey\"in sesi gençmiş.",
+          "meta": "Bordrodaki Emir Karaköy'de otopark görevlisi; şirketi hiç görmemiş. Kimliğini müdür vermiş; telefondaki \"avukat bey\"in sesi gençmiş.",
+          "sahne": {
+            "arka": "A65",
+            "set": "kilik",
+            "cset": "sofor",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Karaköy. Bir otopark; girişte küçük bir görevli kulübesi.",
+                "arka": "A65",
+                "mekan": true
+              },
+              {"k": "not", "m": "Cengo kulübenin önünde bir an duruyor.", "ekran": "cengo", "yuz": "cengo.yumusak"},
+              {
+                "k": "cengo",
+                "i": "yumusak",
+                "m": "Yedi yıl bu kulübede oturdum, Peri.",
+                "kime": "peri",
+                "ekran": "peri+cengo",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "not",
+                "m": "Turuncu yelekli, kıvırcık siyah saçlı, diş telli, sıska bir genç kulübeden fırlıyor.",
+                "gir": "emir",
+                "gi": "gulen",
+                "ekran": "emir"
+              },
+              {
+                "k": "emir",
+                "i": "gulen",
+                "m": "Abi, park mı? Şoförsün, bilirsin; anahtarı bırak, ben çekerim.",
+                "gir": "emir",
+                "kime": "cengo",
+                "ekran": "cengo+emir",
+                "yuz": "cengo.yumusak"
+              },
+              {
+                "k": "cengo",
+                "i": "normal",
+                "m": "Emir sen misin? Bir şirkette şoför görünüyorsun, biliyor musun?",
+                "kime": "emir",
+                "ekran": "cengo+emir",
+                "yuz": "emir.gulen"
+              },
+              {
+                "k": "emir",
+                "i": "sasirmis",
+                "m": "Ben mi? Ben ehliyetsizim abi.",
+                "kime": "cengo",
+                "ekran": "cengo+emir",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "emir",
+                "i": "normal",
+                "m": "Ama hesabıma bir şey yatıyor, iki aydır. Sormadım. Yatıyorsa yatsın dedim.",
+                "ekran": "cengo+emir",
+                "yuz": "cengo.normal"
+              },
+              {
+                "k": "not",
+                "m": "Cengo bir an hiçbir şey demiyor.",
+                "gir": "cengo",
+                "ekran": "cengo",
+                "yuz": "cengo.yumusak"
+              },
+              {
+                "k": "peri",
+                "i": "yumusak",
+                "m": "Kimliğini kime verdin, Emir?",
+                "kime": "emir",
+                "ekran": "peri+emir",
+                "yuz": "emir.normal"
+              },
+              {
+                "k": "emir",
+                "i": "normal",
+                "m": "Müdüre. Bir avukat bey telefonla aramış, \"sigorta için\" demiş. Ben görmedim, müdür verdi.",
+                "kime": "peri",
+                "ekran": "peri+emir",
+                "yuz": "peri.yumusak"
+              },
+              {
+                "k": "emir",
+                "i": "normal",
+                "m": "Bir kere ben açtım telefonu. Sesi benim gibi gençti. Kibar ama.",
+                "ekran": "peri+emir",
+                "yuz": "peri.yumusak"
+              },
+              {"k": "not", "m": "Cengo cebinden buruşuk bir kart çıkarıp Emir'in avucuna koyuyor.", "kare": "K162"},
+              {
+                "k": "cengo",
+                "i": "yumusak",
+                "m": "Bir gün \"bu para nereden geliyor\" diye sorarsan, beni ara.",
+                "kime": "emir",
+                "kare": "K162"
+              },
+              {
+                "k": "emir",
+                "i": "gulen",
+                "m": "\"Paravan Dedektiflik.\" Abi, sen dedektif misin?",
+                "kime": "cengo",
+                "kare": "K162"
+              },
+              {"k": "cengo", "i": "kas", "m": "Bordroda öyle yazıyor.", "kime": "emir", "kare": "K162"}
+            ]
+          }
+        },
+        {
+          "id": "kulis",
+          "ad": "Kulis",
+          "tur": "İfade",
+          "ico": "◈",
+          "needs": [],
+          "reveals": ["nevzat_ask"],
+          "text": "Nevzat Bey her çekim gecesi gelip Bahar Hanım'ı izliyor; kartsız çiçekleri o bırakıyor. Yıllardır ona âşık.",
+          "meta": "Nevzat Bey her çekim gecesi gelip Bahar Hanım'ı izliyor; kartsız çiçekleri o bırakıyor. Yıllardır ona âşık.",
+          "sahne": {
+            "arka": "A66",
+            "set": "kilik",
+            "cset": "sofor",
+            "figurler": ["peri", "cengo"],
+            "satirlar": [
+              {
+                "k": "not",
+                "m": "Maslak. Stüdyonun kulisi: ampullü bir ayna, sandalyede bir önlük, masada kartsız bir buket.",
+                "arka": "A66",
+                "mekan": true
+              },
+              {
+                "k": "not",
+                "m": "Peri aynanın önünde gözlüğünü düzeltiyor. Telefonu çalıyor.",
+                "ekran": "peri",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "gizem_tel",
+                "m": "Peri Hanım! Pınar'la mesajlaşıyoruz. Dedikodu var.",
+                "kime": "peri",
+                "ekran": "peri",
+                "yuz": "peri.normal"
+              },
+              {
+                "k": "peri",
+                "i": "merakli",
+                "m": "Pınar'ı ne zaman tanıdın, Gizem?",
+                "ekran": "peri",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "gizem_tel",
+                "m": "On dakika önce. Önemli değil. Kulisteki çiçekleri kim bırakıyor, biliyor musunuz?",
+                "ekran": "peri",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "gizem_tel",
+                "m": "Nevzat Bey. Her çekim gecesi geliyor, köşede oturup Bahar Hanım'ı izliyor. Yıllardır.",
+                "ekran": "peri",
+                "yuz": "peri.merakli"
+              },
+              {
+                "k": "gizem_tel",
+                "m": "Kimse bilmesin istiyormuş. Çiçeklere kart koymuyor. Romantik değil mi?",
+                "ekran": "peri",
+                "yuz": "peri.merakli"
+              },
+              {"k": "not", "m": "Peri buketten bir çiçek alıp kokluyor.", "kare": "K163"},
+              {
+                "k": "peri",
+                "i": "yumusak",
+                "m": "Romantik, Gizem. Ama bir muhasebeci için tehlikeli bir sır.",
+                "kare": "K163"
+              },
+              {"k": "gizem_tel", "m": "Neden?", "ekran": "peri", "yuz": "peri.yumusak"},
+              {
+                "k": "peri",
+                "i": "kas",
+                "m": "Gece nerede olduğunu söyleyemeyen adama herkes başka bir şey yakıştırır.",
+                "ekran": "peri",
+                "yuz": "peri.kas"
+              }
+            ]
+          }
+        }
+      ],
+      "decisions": [
+        {
+          "id": "polis",
+          "gate": "yok",
+          "kare": "K192",
+          "cengoBag": 1,
+          "para": 0,
+          "etiket": "İkisini de polise teslim et",
+          "secenek": "“Polisi arıyorum, Nihat. İkiniz de.”",
+          "sonuc": "Peri telefonu açtı. Polis geldi, ağı kesip Nihat'ı ve Ozan'ı götürdü. Bahar'ın parası bankada kaldı; yatırımcı gece imzaladı, lansman sürdü. Bahar elli bini ertesi sabah, bir kasa reçelle büroya getirdi. Teknedeki valiz delil diye mühürlendi. Peri'nin parası dava bitene kadar orada; belki hiç gelmeyecek.",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Paranı mühürlediler, adamı götürdüler. Ben ikincisine razıyım, Peri."}],
+          "cengo_replik": {"i": "gulen", "yuz": "peri.yumusak"}
+        },
+        {
+          "id": "anlas",
+          "gate": "yok",
+          "kare": "K193",
+          "cengoBag": -2,
+          "para": 0,
+          "etiket": "Anlaş, payını al, sus",
+          "secenek": "“Yarısını alıyorum. Sonra beni hiç görmediniz.”",
+          "sonuc": "Cengo ağı açtı. Nihat valizden Peri'nin payını sayıp eline verdi; Ozan'la tekneye binip karanlığa çıktılar. O gece Bahar'ın hesabı boşaldı. Yatırımcı ertesi sabah çekildi; lansman ertelendi, kavanozlar depoya kaldı. Bahar elli bini yine de ödedi: \"Siz elinizden geleni yaptınız.\" Peri'nin çantası ağırdı.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Paran geldi, Peri. Bahar Hanım'ın reçelleri depoda kaldı. Ben bir süre reçel yemem."
+            }
+          ],
+          "cengo_replik": {"i": "sinirli", "yuz": "peri.utanmis"}
+        },
+        {
+          "id": "oyun",
+          "gate": "yok",
+          "kare": "K194",
+          "cengoBag": -1,
+          "para": 0,
+          "etiket": "Anlaşır gibi yap, sonra teslim et",
+          "secenek": "“Anlaştık, Nihat.”",
+          "sonuc": "Peri valizden payını aldı, Nihat'ın ağın arasından uzanan elini sıktı. Sonra telefonu açtı. Polis ikisini ağdan çıkardı; Nihat arkasından bağırdı: \"Sözünü bozdun, Perihan!\" Bahar'ın parası kurtuldu, lansman sürdü. Polis Peri'nin kucağındaki çantayı sordu. Peri \"Lansman reçeli\" dedi; Cengo başını salladı.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Ona kendi oyununu oynadın. Polise yalanı ben de söyledim; ortağız artık, Peri."
+            }
+          ],
+          "cengo_replik": {"i": "kas", "yuz": "peri.sinirli"}
+        },
+        {
+          "id": "ozan_birak",
+          "gate": "yok",
+          "kare": "K195",
+          "cengoBag": 2,
+          "para": 0,
+          "etiket": "Adamı bırak, avukatı teslim et",
+          "secenek": "“Sen git, Ozan. O kalıyor.”",
+          "sonuc": "Cengo ağı açtı, Ozan'ı çekip çıkardı. Ozan arkasına bakmadan yokuşa koştu. Polis Nihat'ı götürdü; Bahar'ın parası kurtuldu, lansman sürdü. Peri'nin parası Nihat'ın davasına karıştı; hiç geri gelmeyecek. Ozan'ın nereye gittiğini kimse bilmiyor. Belki bir gün başka birinin kapısını çalar.",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Bir gence şans verdin, Peri. Bana da biri vermişti, bir bordroda."}],
+          "cengo_replik": {"i": "yumusak", "yuz": "peri.yumusak"}
+        }
+      ],
+      "seeds": {},
+      "kim_yapti": {
+        "suclu": "tarkan",
+        "supheliler": [
+          {"id": "tarkan", "ad": "Tarkan Bey", "gorunur": "her_zaman"},
+          {"id": "nevzat", "ad": "Nevzat Bey", "gorunur": "her_zaman"},
+          {"id": "fikret", "ad": "Fikret Usta", "gorunur": "her_zaman"}
+        ],
+        "dogru_ciftler": [["sifre_iki", "kurulus_vekalet"], ["sifre_iki", "odeme_gecesi"], ["kurulus_vekalet", "ortak_iptal"]],
+        "ucret": {"dogru": 50000, "zayif": 50000, "yanlis": 50000},
+        "giris_grup": "Bahar'ın anlattıkları",
+        "cozum": {
+          "yollar": [
+            "Ödemeler için şifre lazımdı; şifreyi iki kişi biliyordu (Nevzat ya da Tarkan) + firmayı kurmak için vekâlet lazımdı; vekâlet iki kişideydi (Fikret ya da Tarkan). İkisinde de olan tek kişi Tarkan'dı.",
+            "Şifreyi iki kişi biliyordu (Nevzat ya da Tarkan) + ödeme gecelerinde Nevzat sabaha kadar stüdyodaydı; kalan Tarkan'dı.",
+            "Vekâlet iki kişideydi (Fikret ya da Tarkan) + Fikret'in vekâleti firma kurulmadan bir yıl önce iptal edilmişti; kalan Tarkan'dı."
+          ],
+          "masum": {
+            "nevzat": "Nevzat Bey masumdu: o geceler başka yerdeydi; şifresini \"avukata\" kendi vermişti.",
+            "fikret": "Fikret Usta masumdu: isimsiz notları o yazmıştı, Bahar Hanım'ı uyarmak için."
+          }
+        },
+        "hikaye": [
+          "Avukat Nihat Kora, Peri'nin hesaplarını boşaltıp yurt dışına kaçmıştı. Yıllarca evrakını taşıyan adamı Ozan, yöntemini ezbere biliyordu: genel vekâlet, vekâletle kurulan hayalet firmalar, gerçek görünsünler diye bordroya yazılan gerçek kişiler. Nihat dönünce yeni bir av seçtiler; Ozan \"Avukat Tarkan\" olarak öne çıktı, Nihat Yeniköy'de kiralık bir yalıda saklandı.",
+          "Tarkan, kendi markasını kuran televizyon aşçısı Bahar Hanım'ın programına konuk oldu ve vekâletini aldı. Vekâletle \"Kavanoz Ambalaj\" diye bir firma kurdu; adresi Mecidiyeköy'de bir posta kutusuydu. Firmanın bordrosuna, Karaköy otoparkındaki genç Emir'i yazdı; kimliğini müdürden telefonla almıştı.",
+          "Muhasebeci Nevzat Bey, \"denetim için\" isteyen avukata şifresini kendi verdi. Tarkan üç çekim gecesi, gece ikide, o şifreyle dışarıdan ödeme gönderdi. O gecelerin üçünde de Nevzat stüdyodaydı: yıllardır âşık olduğu Bahar Hanım'ı kuliste izliyor, kimse bilmesin istiyordu.",
+          "Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının duvarına asmıştı. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan \"Avukatına güvenme\" diye notlar bıraktı. Herkes onları tehdit sandı.",
+          "Lansman gecesi yatırımcının parası girecek, Tarkan hesabı boşaltıp payını almak için Nihat'a gidecekti. Bahar ödemeleri bankadan öğrendi ve Peri'ye geldi."
+        ],
+        "kanit_ad": {
+          "odeme_suphe": "Olmayan tedarikçi",
+          "nevzat_suphe": "Muhasebecinin şifresi",
+          "fikret_suphe": "İsimsiz notlar",
+          "tarkan_suphe": "Avukatın vekâleti",
+          "sifre_iki": "Şifreyi bilenler",
+          "nevzat_saklar": "Gece taksi fişleri",
+          "odeme_gecesi": "Ödeme geceleri",
+          "ortak_kurban": "Fikret'in eski yarası",
+          "ortak_iptal": "Duvardaki noter belgesi",
+          "kurulus_vekalet": "Posta kutusunun kâğıdı",
+          "bordro_genc": "Bordrodaki genç",
+          "nevzat_ask": "Kartsız çiçekler"
+        },
+        "cengo_kanit": {
+          "sifre_iki": "Şifreyi bilen iki kişiydi, Peri. Biri o adamdı. Onu söyleseydin \"kanıtınız ne\" diyemezdi.",
+          "kurulus_vekalet": "Firmayı vekâletle açmışlar, Peri. Vekâlet kimdeydi, Yusuf Efendi'nin kâğıdı yazıyordu.",
+          "odeme_gecesi": "Nevzat Bey o geceler kulisteydi, Peri. Para kendi kendine çıkmadı.",
+          "ortak_iptal": "Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Duvarda asılıydı."
+        },
+        "cengo_kanit_replik": {
+          "sifre_iki": {"i": "normal", "yuz": "peri.kas"},
+          "kurulus_vekalet": {"i": "normal", "yuz": "peri.kas"},
+          "odeme_gecesi": {"i": "kas", "yuz": "peri.utanmis"},
+          "ortak_iptal": {"i": "normal", "yuz": "peri.kas"}
+        }
+      },
+      "anahtarlar": {
+        "sifre_iki": ["denetim için", "dışarıdan bağlanmışlar"],
+        "nevzat_saklar": ["taksi fişi"],
+        "odeme_gecesi": ["sabaha kadar sürdü", "hâlâ oradaydı"],
+        "ortak_kurban": ["Lokantam gitti"],
+        "ortak_iptal": ["noterde iptal"],
+        "kurulus_vekalet": ["Kırk iki numara", "vekâletle açılmış"],
+        "bordro_genc": ["ehliyetsizim", "benim gibi gençti"],
+        "nevzat_ask": ["kart koymuyor", "köşede oturup"]
+      },
+      "sahneler": {
+        "giris": {
+          "arka": "A60",
+          "set": "manto8",
+          "cset": "ceket8",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Sabah. Büro. Peri kırmızı mantosuyla masasında; mantonun kuşağı çözük, uçları sarkıyor. Masada kapalı, kadife bir kutu.",
+              "kare": "K155"
+            },
+            {
+              "k": "not",
+              "m": "Cengo kapıdan giriyor, elinde iki simit.",
+              "gir": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Kuşağın çözük, Peri.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Biliyorum. Bugün bağlamak istemedim.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "not",
+              "m": "Kapı çalınıyor. Eşikte platin beyaz kısa saçlı, çiçekli kaftanlı, iri yapılı bir kadın; elinde bir kavanoz reçel.",
+              "kare": "K156"
+            },
+            {
+              "k": "bahar",
+              "i": "gulen",
+              "m": "Paravan Dedektiflik? Ben Bahar. Eli boş gelinmez, vişne reçeli.",
+              "gir": "bahar",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "not",
+              "m": "Bahar Peri'yi görünce olduğu yerde kalıyor.",
+              "gir": "bahar",
+              "gi": "sasirmis",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "bahar",
+              "i": "sasirmis",
+              "m": "Siz… kozmetik reklamlarındaki kraliçe! Perihan!",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "sevincli",
+              "m": "Sonunda biri tanıdı, Cengo.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.gulen"
+            },
+            {
+              "k": "bahar",
+              "i": "gulen",
+              "m": "Ben de sizin kremi kullanırdım. Kırışıklık için.",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.sevincli"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Kullanırdınız? Buyurun, Bahar Hanım, oturun.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.gulen"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Sizi ben tanıdım. Televizyonda yemek yapıyorsunuz. Gizem programınızı hiç kaçırmaz.",
+              "kime": "bahar",
+              "ekran": "cengo+bahar",
+              "yuz": "bahar.gulen"
+            },
+            {
+              "k": "bahar",
+              "i": "normal",
+              "m": "On iki yıldır. Bu akşam da ilk kez kendi markamı açıyorum: kavanozda sos, reçel.",
+              "kime": "cengo",
+              "ekran": "cengo+bahar",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "bahar",
+              "i": "endiseli",
+              "m": "Ama şirketin hesabından para çıkıyor. Son bir ayda üç kez.",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "bahar",
+              "i": "endiseli",
+              "m": "\"Kavanoz Ambalaj\" diye bir tedarikçiye gitmiş. Ben böyle bir firmayla hiç çalışmadım.",
+              "ekran": "peri+bahar",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "bahar",
+              "i": "sert",
+              "m": "Ödeme talimatlarında benim imzam var. Ben atmadım.",
+              "ekran": "peri+bahar",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Polise neden gitmiyorsunuz?",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sert"
+            },
+            {
+              "k": "bahar",
+              "i": "endiseli",
+              "m": "Lansman bu akşam. Yatırımcının parası bu gece giriyor. Polis gelirse kaçar, televizyon da duyar.",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Kimden şüpheleniyorsunuz?",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.endiseli"
+            },
+            {
+              "k": "bahar",
+              "i": "normal",
+              "m": "Muhasebecim Nevzat Bey. Ödemeler onun şifresiyle çıkmış. Yıllardır yanımda ama…",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "bahar",
+              "i": "sert",
+              "m": "Bir de Fikret. Eski ortağım; ilk lokantamı birlikte açmıştık. Kapıma isimsiz notlar bırakıyor.",
+              "ekran": "peri+bahar",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "bahar",
+              "i": "sert",
+              "m": "\"Avukatına güvenme\" yazıyor. Kıskançlık.",
+              "ekran": "peri+bahar",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Avukatınız kim?",
+              "kime": "bahar",
+              "ekran": "cengo+bahar",
+              "yuz": "bahar.sert"
+            },
+            {
+              "k": "bahar",
+              "i": "normal",
+              "m": "Tarkan Bey. Her işimi o yürütüyor; vekâletim onda. Programıma konuk oldu, öyle tanıştık.",
+              "kime": "cengo",
+              "ekran": "cengo+bahar",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "bahar",
+              "i": "normal",
+              "m": "Ona söyledim, \"hallederim\" dedi. Ama hep yolda. Üç ayda yüzünü iki kez gördüm.",
+              "ekran": "cengo+bahar",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "bahar",
+              "i": "sasirmis",
+              "m": "Bir tuhaflık daha: muhasebe listesinde bir şoför var, Emir diye. Benim şoförüm yok ki!",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.merakli"
+            },
+            {"k": "not", "m": "Peri ile Cengo birbirine bakıyor.", "kare": "K157"},
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "(alçak sesle) Ben de bir bordrodaydım, Peri.",
+              "kime": "peri",
+              "kare": "K157"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Ücretimiz elli bin lira, Bahar Hanım. İş bitince ödenir.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "bahar",
+              "i": "gulen",
+              "m": "Elli bin. Bir de ömür boyu reçel.",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Reçel pazarlığa girmez.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.gulen"
+            },
+            {
+              "k": "bahar",
+              "i": "normal",
+              "m": "Lansman akşam yedide, Kurtuluş'taki atölyemde. Tarkan Bey de gelecek. Ona bir de şoför bulmam lazım.",
+              "cik": true,
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.kas"
+            }
+          ]
+        },
+        "konusma": {
+          "arka": "A60",
+          "set": "manto8",
+          "cset": "ceket8",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {"k": "not", "m": "Kapı kapanıyor. Peri kalkıp pencereye gidiyor.", "ekran": "peri", "yuz": "peri.normal"},
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Vekâlet. Olmayan bir firma. Bordroda kimsenin tanımadığı biri.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Bunu bana yaptılar, Cengo. Adım adım, aynısını.",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Bize. Bordrodaki ben değil miydim?",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.sinirli"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Bu Tarkan Bey benim avukatım. Nihat Kora. Adını değiştirmiş, dönmüş.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Seni dolandıran adam, benim de yedi yıllık patronum. Hiç görmediğim patronum.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "merakli",
+              "m": "Hiç mi görmedin? Seni bordroya nasıl yazdı?",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.kas"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Karaköy'de otoparkta çalışıyordum. Müdür bir gün kimliğimin fotokopisini istedi, \"sigorta için\" dedi.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Sonra hesabıma para yatmaya başladı. Ben de sormadım. Adam beni hiç görmedi; kimliğimi gördü, o kadar.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Bahar Hanım ona şoför arıyor. O şoför benim.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Ya beni? Beni görürse tanır.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.gulen"
+            },
+            {
+              "k": "not",
+              "m": "Gizem çay ocağından geliyor; elinde Bahar'ın masada unuttuğu tanıtım çantası.",
+              "gir": "gizem",
+              "gi": "triko",
+              "ekran": "gizem"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Kılık lazım, Peri Hanım. Bahar Hanım'ın çantasında önlük, kep, bir de gözlük var.",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Ben aşçı mı olacağım, Gizem?",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz.",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.",
+              "kare": "K158",
+              "set": "kilik"
+            },
+            {"k": "not", "m": "Cengo elindeki simidi düşürüyor.", "kare": "K158"},
+            {"k": "cengo", "i": "gulen", "m": "Ben bu aşçıya her şeyi yedirirdim.", "kare": "K158"},
+            {"k": "peri", "i": "kas", "m": "Sen önce şoför ol, Cengo.", "kare": "K158"},
+            {
+              "k": "cengo",
+              "i": "gulen",
+              "m": "Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.",
+              "kare": "K159",
+              "cset": "sofor"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Avukat sizi sesinizden tanımasın, Peri Hanım.",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Ben onu sesinden tanırım, Gizem. O beni görmeyecek.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Ben Nevzat Bey'e giderim. Bahar Hanım'ın çekimleri Maslak'taki stüdyoda; oraya da bakarım.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Ben Fikret Usta'yı bulurum. Bir de o \"Kavanoz Ambalaj\"ın kapısı nerede, bakarım.",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Bir de Emir'i bulayım. Bordrodaki o çocuk benim gibi bir şeyi bilmiyordur.",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            }
+          ]
+        },
+        "ters_kose": {
+          "arka": "A67",
+          "set": "kilik",
+          "cset": "sofor",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Akşam. Kurtuluş'ta Bahar'ın mutfak atölyesi: tezgâhlarda kavanozdan kuleler, köşede bir soyunma paravanı.",
+              "arka": "A67",
+              "kare": "K164"
+            },
+            {
+              "k": "not",
+              "m": "Peri paravanın arkasına saklanmış. Kapıda Cengo, kasketiyle, bir adama kapıyı açıyor.",
+              "kare": "K165"
+            },
+            {"k": "cengo", "i": "normal", "m": "Buyurun, Tarkan Bey. Atölye burası.", "kare": "K165"},
+            {
+              "k": "not",
+              "m": "Kare: paravanın aralığından. Lacivert yelekli takımlı, açık sarı saçlı, kaşında ince bir iz olan genç bir adam; telefonu elinde, gülümsüyor.",
+              "kare": "K166"
+            },
+            {"k": "tarkan", "i": "gulen", "m": "Bahar Hanım! Büyük gece. Yatırımcımız dokuzda burada.", "kare": "K166"},
+            {"k": "not", "m": "Peri paravanın arkasında donup kalıyor.", "kare": "K167"},
+            {"k": "peri", "i": "sasirmis", "m": "(fısıldayarak) Cengo. Bu o değil.", "kare": "K167"},
+            {"k": "not", "m": "Cengo paravanın yanına geliyor, sesini alçaltıyor.", "kare": "K168"},
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Nasıl değil? Vekâlet, firma, bordro. Yöntem aynı ama.",
+              "kime": "peri",
+              "kare": "K168"
+            },
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Yöntem çalınabilir, Cengo. Bu adamı hayatımda hiç görmedim.",
+              "kime": "cengo",
+              "kare": "K168"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "O zaman baştan düşün, Peri. Bu odadaki üç kişiden hangisi?",
+              "kime": "peri",
+              "kare": "K168"
+            }
+          ]
+        },
+        "yuzlesme_dogru": {
+          "arka": "A67",
+          "set": "manto8",
+          "cset": "sofor",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.",
+              "kare": "K169"
+            },
+            {
+              "k": "not",
+              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "gir": "tarkan",
+              "gi": "normal",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.normal",
+              "set": "manto8"
+            },
+            {
+              "k": "bahar",
+              "i": "sasirmis",
+              "m": "Perihan? Siz yardımcı değil miydiniz?",
+              "gir": "bahar",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Bunu bana Nihat Kora yaptı. Bütün paramla gitti.",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Tarkan Bey. Bahar Hanım'ın parasını siz çektiniz.",
+              "gir": "tarkan",
+              "kime": "tarkan",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Paranın çıkması için iki şey lazımdı: şifre ve vekâlet. İkisi de yalnız sizde vardı.",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.normal"
+            },
+            {
+              "k": "tarkan",
+              "i": "gulen",
+              "m": "Ben avukatım, Perihan Hanım. Bana her şeyi verirler.",
+              "kime": "peri",
+              "ekran": "peri+tarkan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Bana Perihan yalnız bir kişi derdi.",
+              "kime": "tarkan",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.gulen"
+            },
+            {
+              "k": "not",
+              "m": "Tarkan'ın gülümsemesi düşüyor. Elindeki telefon titriyor; ekranda bir isim: \"N.\"",
+              "kare": "D33"
+            },
+            {
+              "k": "tarkan",
+              "i": "panik",
+              "m": "Ben… arabayı getireyim.",
+              "cik": true,
+              "kime": "cengo",
+              "ekran": "cengo+tarkan",
+              "yuz": "cengo.kas"
+            },
+            {"k": "not", "m": "Tarkan kapıya koşuyor.", "kare": "K170"}
+          ]
+        },
+        "yuzlesme_zayif": {
+          "arka": "A67",
+          "set": "manto8",
+          "cset": "sofor",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.",
+              "kare": "K169"
+            },
+            {
+              "k": "not",
+              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "gir": "tarkan",
+              "gi": "normal",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.normal",
+              "set": "manto8"
+            },
+            {
+              "k": "bahar",
+              "i": "sasirmis",
+              "m": "Perihan? Siz yardımcı değil miydiniz?",
+              "gir": "bahar",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Tarkan Bey. Bahar Hanım'ın parasını siz çektiniz.",
+              "gir": "tarkan",
+              "kime": "tarkan",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.normal"
+            },
+            {
+              "k": "tarkan",
+              "i": "gulen",
+              "m": "Vekâlet bende, evet; işim bu. Kanıtınız ne, hanımefendi?",
+              "kime": "peri",
+              "ekran": "peri+tarkan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "utanmis",
+              "m": "Elimde bir şey var, ama sizi köşeye sıkıştıracak kadar değil.",
+              "kime": "tarkan",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.gulen"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Yalnız şunu bilin: bu yöntemi bana Nihat Kora diye biri öğretti. Bütün paramla.",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.gulen"
+            },
+            {
+              "k": "not",
+              "m": "Tarkan'ın gülümsemesi düşüyor. Elindeki telefon titriyor; ekranda bir isim: \"N.\"",
+              "kare": "D33"
+            },
+            {
+              "k": "tarkan",
+              "i": "panik",
+              "m": "Ben… arabayı getireyim.",
+              "cik": true,
+              "kime": "cengo",
+              "ekran": "cengo+tarkan",
+              "yuz": "cengo.kas"
+            },
+            {"k": "not", "m": "Tarkan kapıya koşuyor.", "kare": "K170"}
+          ]
+        },
+        "yuzlesme_nevzat": {
+          "arka": "A67",
+          "set": "manto8",
+          "cset": "sofor",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.",
+              "kare": "K169"
+            },
+            {
+              "k": "not",
+              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "gir": "nevzat",
+              "gi": "gergin",
+              "ekran": "peri+nevzat",
+              "yuz": "nevzat.gergin",
+              "set": "manto8"
+            },
+            {
+              "k": "bahar",
+              "i": "sasirmis",
+              "m": "Perihan? Siz yardımcı değil miydiniz?",
+              "gir": "bahar",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Nevzat Bey. Ödemeler sizin şifrenizle çıktı. Parayı siz çektiniz.",
+              "gir": "nevzat",
+              "kime": "nevzat",
+              "ekran": "peri+nevzat",
+              "yuz": "nevzat.gergin"
+            },
+            {
+              "k": "nevzat",
+              "i": "utangac",
+              "m": "Ben mi? Ben o geceler… Ben o geceler stüdyodaydım.",
+              "kime": "peri",
+              "ekran": "peri+nevzat",
+              "yuz": "peri.kas"
+            },
+            {"k": "not", "m": "Bahar dönüp Nevzat'a bakıyor. Nevzat kızarıp susuyor.", "kare": "K171"},
+            {
+              "k": "tarkan",
+              "i": "gulen",
+              "m": "Demek muhasebe bulundu. Ben de yatırımcıyı karşılayayım.",
+              "gir": "tarkan",
+              "kime": "bahar",
+              "ekran": "bahar+tarkan",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Bir dakika, Tarkan Bey. Bu yöntemi bana Nihat Kora diye biri öğretti. Tanır mısınız?",
+              "gir": "tarkan",
+              "kime": "tarkan",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.gulen"
+            },
+            {
+              "k": "not",
+              "m": "Tarkan'ın gülümsemesi düşüyor. Elindeki telefon titriyor; ekranda bir isim: \"N.\"",
+              "kare": "D33"
+            },
+            {
+              "k": "tarkan",
+              "i": "panik",
+              "m": "Ben… arabayı getireyim.",
+              "cik": true,
+              "kime": "cengo",
+              "ekran": "cengo+tarkan",
+              "yuz": "cengo.kas"
+            },
+            {"k": "not", "m": "Tarkan kapıya koşuyor.", "kare": "K170"}
+          ]
+        },
+        "yuzlesme_fikret": {
+          "arka": "A67",
+          "set": "manto8",
+          "cset": "sofor",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.",
+              "kare": "K169"
+            },
+            {
+              "k": "not",
+              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "gir": "fikret",
+              "gi": "huysuz",
+              "ekran": "peri+fikret",
+              "yuz": "fikret.huysuz",
+              "set": "manto8"
+            },
+            {
+              "k": "bahar",
+              "i": "sasirmis",
+              "m": "Perihan? Siz yardımcı değil miydiniz?",
+              "gir": "bahar",
+              "kime": "peri",
+              "ekran": "peri+bahar",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "normal",
+              "m": "Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı.",
+              "kime": "bahar",
+              "ekran": "peri+bahar",
+              "yuz": "bahar.sasirmis"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Fikret Usta. Bu yöntemi bilen biri yaptı. Siz biliyordunuz.",
+              "gir": "fikret",
+              "kime": "fikret",
+              "ekran": "peri+fikret",
+              "yuz": "fikret.huysuz"
+            },
+            {
+              "k": "fikret",
+              "i": "ofkeli",
+              "m": "Ben uyardım! Notları ben yazdım! \"Avukatına güvenme\" dedim, kimse dinlemedi!",
+              "kime": "peri",
+              "ekran": "peri+fikret",
+              "yuz": "peri.kas"
+            },
+            {"k": "not", "m": "Bahar elindeki kavanozu tezgâha bırakıp Fikret'e bakıyor.", "kare": "K172"},
+            {
+              "k": "not",
+              "m": "Tarkan bir adım geri çekiliyor.",
+              "gir": "tarkan",
+              "gi": "normal",
+              "ekran": "peri+tarkan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Avukattan söz açılmışken, Tarkan Bey: bu yöntemi bana Nihat Kora diye biri öğretti. Tanır mısınız?",
+              "kime": "tarkan",
+              "ekran": "peri+tarkan",
+              "yuz": "tarkan.normal"
+            },
+            {
+              "k": "not",
+              "m": "Tarkan'ın yüzü bembeyaz oluyor. Elindeki telefon titriyor; ekranda bir isim: \"N.\"",
+              "kare": "D33"
+            },
+            {
+              "k": "tarkan",
+              "i": "panik",
+              "m": "Ben… arabayı getireyim.",
+              "cik": true,
+              "kime": "cengo",
+              "ekran": "cengo+tarkan",
+              "yuz": "cengo.kas"
+            },
+            {"k": "not", "m": "Tarkan kapıya koşuyor.", "kare": "K170"}
+          ]
+        },
+        "kovalamaca": {
+          "arka": "A68",
+          "set": "manto8",
+          "cset": "sofor",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Atölyenin önü, gece. Tarkan siyah bir arabanın arka kapısını açıp içeri atlıyor. Direksiyonda kasketiyle Cengo.",
+              "arka": "A68",
+              "kare": "K173"
+            },
+            {"k": "tarkan", "i": "panik", "m": "Sür! Yeniköy'e, yalıya!", "kare": "K173"},
+            {"k": "cengo", "i": "kas", "m": "Başüstüne, beyim.", "kare": "K173"},
+            {
+              "k": "not",
+              "m": "Peri koşarak geliyor; mantosunu ön koltuğa fırlatıyor, Bahar'ın önlüğünü kapıp kapanmakta olan bagaja, lansman kasalarının arasına atlıyor.",
+              "kare": "K174",
+              "set": "kilik"
+            },
+            {"k": "peri", "i": "sinirli", "m": "Planlamıştım.", "kare": "K174"},
+            {
+              "k": "not",
+              "m": "Sahil yolu, gece. Boğaz'ın ışıkları. Araba virajları hızla alıyor.",
+              "arka": "A69",
+              "kare": "K175"
+            },
+            {
+              "k": "tarkan",
+              "i": "panik",
+              "m": "(telefonda) Geliyorum. Payımı hazırla, tekneyi çalıştır.",
+              "kare": "K175"
+            },
+            {"k": "cengo", "i": "normal", "m": "Emniyet kemeriniz, beyim.", "kare": "K175"},
+            {
+              "k": "not",
+              "m": "Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; gözlüğü yamuk, saçı kıpkırmızı.",
+              "kare": "K176",
+              "set": "recel",
+              "peri": "sinirli"
+            },
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Bahar Hanım'ın reçeli gerçekten çok iyi. Her yerime işledi.",
+              "kare": "K176"
+            },
+            {
+              "k": "not",
+              "m": "Yeniköy. Boğaz kıyısında beyaz bir yalı; önünde uzun, ahşap bir iskele, ucunda bir tekne.",
+              "arka": "A70",
+              "kare": "K177"
+            },
+            {
+              "k": "not",
+              "m": "Tarkan arabadan fırlayıp iskeleye koşuyor. Yalının kapısından beyaz keten takımlı, gümüş saçlı, elinde deri bir valizle bir adam çıkıyor.",
+              "kare": "K178"
+            },
+            {
+              "k": "not",
+              "m": "Bagaj açılıyor; Peri reçel damlayarak doğruluyor, bagajın kapağına basıp ayağa kalkıyor, adamı gösteriyor.",
+              "kare": "K179"
+            },
+            {"k": "nihat", "i": "sasirmis", "m": "Perihan?", "kare": "K179"},
+            {
+              "k": "peri",
+              "i": "sinirli",
+              "m": "Nihat. Üç aydır seni arıyordum. Bir reçel kavanozunun içinden çıkacağımı söyleselerdi inanmazdım.",
+              "kare": "K179"
+            },
+            {
+              "k": "not",
+              "m": "Nihat ile Tarkan tekneye koşuyor. İskelede Peri'nin bıraktığı reçel izine basıyorlar; ikisi de kayıyor, birbirine çarpıyor, iskelenin ucundaki balıkçı ağına birlikte düşüyor. Ağ üstlerine kapanıyor.",
+              "kare": "K180"
+            },
+            {
+              "k": "not",
+              "m": "Cengo ağın ipini iskelenin babasına sıkıca bağlıyor. Eldiveni reçelli, ceketinin bir düğmesi kopmuş.",
+              "kare": "K181",
+              "cset": "sofor_dugmesiz"
+            },
+            {"k": "cengo", "i": "gulen", "m": "İkisi bir torbada, beyim. Bahşiş?", "kare": "K181"},
+            {
+              "k": "not",
+              "m": "Peri Cengo'nun koluna tutunmuş, kaymamaya çalışıyor; reçelli, saçı dağınık, gülüyor.",
+              "kare": "K182"
+            },
+            {"k": "peri", "i": "kas", "m": "Kimse kımıldamasın. Bu iskele benden kaygan.", "kare": "K182"},
+            {
+              "k": "not",
+              "m": "Cengo yalının bahçesinden bir hortum çekiyor. Peri önlüğü çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan mantoyu getirip omzuna koyuyor; saçında hâlâ reçel.",
+              "kare": "K183",
+              "set": "manto8_son"
+            },
+            {
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Mantonu hep ön koltuğa atıyorsun. Ben de hep getiriyorum.",
+              "gir": "cengo",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "yumusak",
+              "m": "Bu sefer kuşağını da getir.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.yumusak"
+            },
+            {
+              "k": "not",
+              "m": "İskele. Ağın içinde Nihat ile Tarkan yan yana oturuyor; Peri ve Cengo karşılarında.",
+              "kare": "K184"
+            },
+            {
+              "k": "tarkan",
+              "i": "itiraf",
+              "m": "Adım Tarkan değil, Ozan. Avukat da değilim; onun adamıyım.",
+              "gir": "tarkan",
+              "kime": "peri",
+              "ekran": "peri+tarkan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "tarkan",
+              "i": "itiraf",
+              "m": "Yıllarca evrakını taşıdım. Paravan'ın kâğıtlarını da ben taşıdım; sizi o yüzden tanıdım, Perihan Hanım.",
+              "ekran": "peri+tarkan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "tarkan",
+              "i": "itiraf",
+              "m": "Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım; payımı almaya geliyordum.",
+              "ekran": "peri+tarkan",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Nihat bir süre susuyor. Sonra gözü iskelenin ucundaki tekneye kayıyor.",
+              "gir": "nihat",
+              "gi": "normal",
+              "ekran": "peri+nihat",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "nihat",
+              "i": "normal",
+              "m": "Senin paran hâlâ teknede, Perihan. Valizde. Hiç harcamadım.",
+              "kime": "peri",
+              "ekran": "peri+nihat",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "cengo",
+              "i": "kas",
+              "m": "Benim maaşım da mı oradan yatıyordu?",
+              "kime": "nihat",
+              "ekran": "cengo+nihat",
+              "yuz": "nihat.normal"
+            },
+            {
+              "k": "nihat",
+              "i": "normal",
+              "m": "Senin maaşın şirketin süsüydü, delikanlı. Seni hiç görmedim. Kimliğin yeterdi.",
+              "kime": "cengo",
+              "ekran": "cengo+nihat",
+              "yuz": "cengo.kas"
+            }
+          ]
+        },
+        "karar_soru": {
+          "arka": "A70",
+          "set": "manto8_son",
+          "cset": "sofor_dugmesiz",
+          "secim_kare": "K186",
+          "figurler": ["peri", "cengo", "nihat"],
+          "satirlar": [
+            {"k": "not", "m": "Nihat ağın içinden, eski avukat sesiyle konuşuyor.", "kare": "K185"},
+            {
+              "k": "nihat",
+              "i": "pazarlik",
+              "m": "Paranın yarısı senin, Perihan. Bu akşam burada hiçbir şey olmadı. Ne dersin?",
+              "kime": "peri",
+              "kare": "K185"
+            }
+          ]
+        },
+        "kapanis": {
+          "arka": "A71",
+          "set": "manto8_son",
+          "cset": "ceket8",
+          "figurler": ["peri", "cengo"],
+          "satirlar": [
+            {
+              "k": "not",
+              "m": "Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.",
+              "kare": "K187"
+            },
+            {
+              "k": "not",
+              "m": "Cengo şoför kasketini çıkarıp askıya asıyor; kendi eski ceketini giyiyor.",
+              "gir": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "peri.normal"
+            },
+            {"k": "not", "m": "Gizem elinde bir bardak çayla geliyor.", "gir": "gizem", "gi": "triko", "ekran": "gizem"},
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Saçınızda hâlâ reçel var, Peri Hanım.",
+              "gir": "gizem",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "peri",
+              "i": "kas",
+              "m": "Vişne, Gizem. Bahar Hanım'ın markası. Çok iyi tutuyor.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko"
+            },
+            {
+              "k": "gizem",
+              "i": "triko",
+              "m": "Sezon başında da bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama.",
+              "kime": "peri",
+              "ekran": "peri+gizem",
+              "yuz": "peri.kas"
+            },
+            {
+              "k": "peri",
+              "i": "yumusak",
+              "m": "O sabah her şey bağlıydı, Gizem. Sonra hepsi çözüldü.",
+              "kime": "gizem",
+              "ekran": "peri+gizem",
+              "yuz": "gizem.triko"
+            },
+            {
+              "k": "cengo",
+              "i": "normal",
+              "m": "Alacağım hâlâ duruyor, haberin olsun. Patron bulundu ama maaşı yok.",
+              "bag": "dusuk",
+              "kime": "peri",
+              "ekran": "peri+cengo",
+              "yuz": "peri.yumusak"
+            },
+            {
+              "k": "not",
+              "m": "Cengo kapıdan çıkıyor. Peri kavanozu açıp tek başına bir kaşık reçel yiyor.",
+              "bag": "dusuk",
+              "kare": "K188"
+            },
+            {
+              "k": "not",
+              "m": "Peri kalkıp Cengo'nun önüne geçiyor; ceketinin yakasını düzeltiyor. Cengo kıpırdamıyor.",
+              "bag": "yuksek",
+              "kare": "K189"
+            },
+            {"k": "peri", "i": "yumusak", "m": "Cengo, ben…", "bag": "yuksek", "kime": "cengo", "kare": "K189"},
+            {"k": "not", "m": "Masadaki telefon çalıyor. İkisi de telefona bakıyor.", "bag": "yuksek", "kare": "K190"},
+            {"k": "peri", "i": "normal", "m": "(telefonu açarak) Paravan Dedektiflik.", "bag": "yuksek", "kare": "K190"},
+            {
+              "k": "telefon",
+              "m": "İyi akşamlar. Bir işim var. Yarın sabah gelebilir miyim?",
+              "bag": "yuksek",
+              "kare": "K190"
+            },
+            {
+              "k": "not",
+              "m": "Peri Cengo'ya bakıyor. Cengo gülümseyip kapıya gidiyor, kapıyı açık bırakıyor.",
+              "bag": "yuksek",
+              "kare": "K191"
+            },
             {
               "k": "gizem",
               "i": "triko",
