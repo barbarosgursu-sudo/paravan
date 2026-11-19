@@ -4,14 +4,26 @@ Her vaka bu formu doldurarak başlar. Diyalog, veri ve görsel bu formdan türet
 **Form onaylanmadan diyalog yazılmaz, görsel üretilmez.**
 Hikâye değişecekse önce form değişir.
 
+**Güncel kurallar (19 Kasım 2026, Vaka 7'den sonra işlendi):** kasa yok, para yalnız hikâyede (kural 24, 25) · karar
+sahnede, soran var, Cengo söylenmeyen kanıtı söyler (22a–d) · sigara yok (19a) · konuklar birbirine benzemez (15c) ·
+replik anlaşılır, telefon kutusuna sığar (~110 harf, kural 5) · Peri ve Cengo'nun ifade sayısını satırlar belirler, sabit
+"4 ifade" yok · teliyle bulunan kanıtın mahkemede geçmemesi yalnız espri (21b) · taç Vaka 7'de alındı, sonraki vakalarda
+nasıl alındığı anılmaz (27).
+
 ---
+
+## 0. Önceki vakalardan ayrışma
+
+Önceki bütün vakaların olay, suçlu, neden, yanlış iz ve kararıyla karşılaştırılır (`TASLAK_tekrar_onleme.md` §1 tablosu).
+Hangi tekrardan kaçınıldığı, hangisinin bilerek kaldığı yazılır. Usta dükkânında ipucu, borçlu yanlış iz gibi bilinen
+kalıplar adıyla anılır (Vaka 7 örnek).
 
 ## 1. Kimlik
 
 | | |
 |---|---|
 | Vaka no ve adı | |
-| Tip | Bilmece |
+| Tip | Bilmece *(Ters tip ertelendi — 1. parça "İki vaka tipi"; kullanılacaksa ortak karar verir ve formda yazılır)* |
 | İpucu / hak | (Vaka 1: 5/4 · Vaka 2: 6/3) — Vaka 2'den itibaren 3 hak; **3 hakla `doğru` yolu şart** (Android'de +1 hak reklamla, 16 Ekim 2026) |
 | Vaka ücreti | (fiyat tablosundan) |
 | Süre hedefi | 15–25 dakika |
@@ -54,6 +66,7 @@ Hikâye değişecekse önce form değişir.
 | Onu aklayan kanıt | — | | |
 | O gece gerçekte ne yaptı | | | |
 | Görünüşü (figür için) | | | |
+| Eski konuklardan ayıran (15c) | | | |
 
 ## 5. Olgular
 
@@ -175,8 +188,13 @@ Muammer'in olayı bilmediğini varsayıyordu, oysa kovalamacada itirafı duymuş
 |---|---|---|---|
 
 - Peri ve Cengo: yalnız satırların istediği ifade ve pozlar (5. parça B, 8 Kasım 2026); Peri için tavan yok.
-- Cengo: 4 ifade + vaka gerektirirse.
-- Konuklar, arka planlar, ara kareler, detaylar.
+- Cengo: yalnız satırların istediği ifadeler (sabit "4 ifade" yok — sahibi, 17 Kasım 2026, soru 28). Yüzü, saçı, teli
+  ve bilekliği aynı kalır; kıyafeti değişir.
+- Konuklar: 2–3 ifade tahmindir, üst sınır değil; satırlar isterse daha çok (soru 29).
+- **Yeni konukların görünüşü (15c):** her konuk için yaş, saç rengi ve kesimi, yüz biçimi, beden, kıyafet ve tek bakışta
+  tanınan **ayırıcı işaret** yazılır; altına "eski konuklardan ayıran: …" satırı. Önceki bütün vakaların konuk tarifleriyle
+  karşılaştırılır (en yakın ikisi adıyla anılır).
+- Arka planlar, ara kareler, detaylar. Yeni mekân eski vakaların mekânlarına benzemez (SEZON-21).
 
 **Kişiler (künye):** vakada tanışılan her kişi için kart.
 
@@ -190,7 +208,8 @@ Kart yalnız o olgunun söylediğini söyler (Nurcan kuralı); `node arac_kunye_
 | tutar | ne | dayanak |
 |---|---|---|
 
-Metinde geçen her tutar burada yazılı olmalı.
+Metinde geçen her tutar burada yazılı olmalı. Para yalnız hikâyededir: kasa, ay sonu gideri, kesinti yok (kural 24, 25;
+sahibi, 17 Kasım 2026, soru 35–36). Tutar sahnede yaşar: kim kime ne verdi.
 
 ## 18. Kanon
 
@@ -216,5 +235,8 @@ Metinde geçen her tutar burada yazılı olmalı.
 - [ ] Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor (kural 21d)
 - [ ] Yeni kanon varsa onaylandı
 - [ ] Künye kartları yazıldı, denetim aracından geçti
-- [ ] Yeni yan karakterlerin görünüşü onaylandı ve benzerlerinden ayrışıyor
+- [ ] Yeni yan karakterlerin görünüşü onaylandı ve benzerlerinden ayrışıyor: tarif önceki BÜTÜN konuklarla
+      karşılaştırıldı, en az iki özellik farklı, ayırıcı işaret var (15c)
+- [ ] Önceki vakalardan ayrışma yazıldı (§0)
+- [ ] Replikler anlaşılır ve telefon kutusuna sığıyor (~110 harf, kural 5)
 - [ ] Kural kitabıyla çelişen bir şey yok

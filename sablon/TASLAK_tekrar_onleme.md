@@ -13,9 +13,13 @@
 | V3 Simit | hasılat çalındı | müşterinin ortağı | dükkân batıyor | Kenan: yalan söylüyor · Gizem: Ferruh suçluyor | sigortaya gerçek mi, dükkânı kurtarmak mı |
 | V4 Falcı | şantaj (sır çalındı) | kafenin garsonu | para | Tarık: müşteri suçluyor, borçlu · Rana: müşteri suçluyor, kini var | polis mi (sırlar duyulur), sessizce kapatmak mı |
 | V5 Vapur | saat çalındı | müşterinin tamircisi | işten çıkarılacaktı | Kadir: çantanın başında kaldı · Nedim: saati istiyordu | saat müşteride mi kalsın, gerçek sahibine mi |
+| V6 Mektuplar *(19 Kas eklendi)* | tehdit (isimsiz mektuplar) | müşterinin anneannesi | sevgi: torunu ve kızı uzağa gitmesin (blöf) | Jale: eski eş, yalan söylüyor · Cengo: gizlice apartmanın önünde | kime söyleyeceksin, kim söylesin |
+| V7 Açık Artırma *(19 Kas eklendi)* | sahte tablo (kopyayla değiştirildi) | evin restoratörü (çalışan) | öç: satıcının babası onu batırdı | Şükrü: rüşvet aldı · Vedat: hasarı gizledi — ikisi başka şey saklıyor | ihbar mı, sus mu, sus payı mı (taç her yolda gelir) |
 
-**Tekrarlar:** suçlu hep içeriden/yakın (5/5) · neden çoğu para (3/5) · çoğu çalınma/kayıp (4/5) ·
-yanlış iz çoğu "biri suçluyor" (5/6) · karar hep "gerçeği söyle mi, ört mü".
+**Tekrarlar:** suçlu hep içeriden/yakın (7/7) · neden çoğu para (3/7; V6 sevgi, V7 öç) · çoğu çalınma/kayıp (4/7) ·
+yanlış iz çoğu "biri suçluyor" (5/6; V6–V7'de "başka şey saklıyor") · karar hep "gerçeği söyle mi, ört mü".
+**V8 için kullanılmamışlar (19 Kas):** suçlu dışarıdan yabancı · neden dolandırıcılık/hırs · olay dolandırıcılık · müşteri
+genç ya da yalnız yaşayan · karar "Peri'nin çıkarı mı müşteri mi" (V8 taslağı zaten bunu kuruyor).
 
 ## 2. Kullanılmamış seçenekler (sahibi: korku ve kayıp insan HARİÇ hepsi olabilir)
 

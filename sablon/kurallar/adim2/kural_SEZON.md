@@ -143,7 +143,7 @@ Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir: onların **yüzü v
   benzerse ortağa yeni görünüş önerilir.
 - Üretici "neşeli yaşlı esnaf", "yakışıklı genç" gibi kalıp yüzlere kayar: istemde yüz biçimi (uzun/köşeli/yuvarlak), saç rengi ve bir ayırıcı
   işaret (gözlük, çil, altın diş, kel tepe) açıkça yazılır.
-- **Öneri (16 Kasım 2026, ortaktan Barbaros'a; kural kitabına henüz işlenmedi — 2. parça 15c):** yüz biçimi, saç (renk, kesim), beden, yaş ve
+- **Kural kitabına 15c olarak işlendi (19 Kasım 2026, Oğuz Bey; önceki öneri metni):** yüz biçimi, saç (renk, kesim), beden, yaş ve
   kıyafetten en az ikisi ayrılır; her konuğun tek bakışta tanınan bir ayırıcı işareti olur (gözlük, çil, kel tepe, altın diş, örgü…). Denetim iki
   yerde: form yazılırken tarif eski konukların tarifleriyle (Onay 1'de), resim üretilince temel figür en yakın iki eski konukla yan yana (7. parça;
   `uretim/CLAUDE.md` 9, 9b). Bağlı yerler: 6. parça karakter tarifine "eski konuklardan ayıran: …" satırı; 7. parça Onay 1 denetimine "tarif eski
