@@ -11,6 +11,12 @@
 > bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
 > **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
 >
+> ### 🖼️ VAKA 1–5 RESİMLERİ (19 Kasım 2026, Barbaros'un kararı): metinler yeni kurallara göre geçirildikten sonra **yalnız yeni
+> metne uymayan resimler** yeniden üretilir (satır–resim denetimi ve kapı hangilerini işaretlerse). Yeni üretilenler eski, uyan
+> resimlerden **farklı görünmemeli**: aynı yüz, saç, kıyafet, ölçek, zemin ve çizim tarzı. Yol: eski onaylı resim 1. referans (yüz/tarz),
+> o kıyafetin kıyafet kartı eski resimden çıkarılır, her yeni resim `arac_tarz.py` ile eski setle karşılaştırılır ve oyunda eski
+> komşularıyla yan yana konup bakılır.
+>
 > **▶️ ANLAŞILAN SIRA (19 Kasım 2026, sahibi: "bu şekilde ilerleyelim", haftalık sınır yenilenince başlanır):** üretim (Barbaros ve
 > Oğuz Bey) kural işinin bitmesini beklemesin. (1) Sahibinin onayladığı 41 kararın + Cengo'nun saçı kararının KISA listesi üretimin
 > okuduğu belgelerin en üstüne konur (`uretim/CLAUDE.md`, kök `CLAUDE.md`, gerekirse `sablon/` parçaları) — karar metni

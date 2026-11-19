@@ -13,6 +13,12 @@
 > sıfırlanır); kural toplama işini Oğuz Bey'in hesabıyla sürdürecek. Aşağıdaki "kurallar Barbaros'ta / Barbaros'a danışılır" sözleri bu
 > kararla askıda; Barbaros geri alana dek geçerli. Kural işi: `sablon/kurallar/PLAN.md` en üst kutu.
 >
+> ### 🖼️ VAKA 1–5 RESİMLERİ (19 Kasım 2026, Barbaros'un kararı): metinler yeni kurallara göre geçirildikten sonra **yalnız yeni
+> metne uymayan resimler** yeniden üretilir (satır–resim denetimi ve kapı hangilerini işaretlerse). Yeni üretilenler eski, uyan
+> resimlerden **farklı görünmemeli**: aynı yüz, saç, kıyafet, ölçek, zemin ve çizim tarzı. Yol: eski onaylı resim 1. referans (yüz/tarz),
+> o kıyafetin kıyafet kartı eski resimden çıkarılır, her yeni resim `arac_tarz.py` ile eski setle karşılaştırılır ve oyunda eski
+> komşularıyla yan yana konup bakılır.
+>
 > ## 📚 BARBAROS İLE — KURALLARI TEK DOSYADA TOPLAMA (16 Kasım 2026 akşam) — KRİTİK, YARIM, AYRI PENCEREDE SÜRECEK
 > **Önce `sablon/kurallar/PLAN.md`'yi baştan sona oku** (neden, sahibiyle anlaşma, yapılanlar, plan, bulgular, bekleyen sorular).
 > Kısaca: kurallar 34 belgeye dağılmış ve çoğu kendiliğinden uygulanmıyor (G4 Süheyla = V6 Jale bu yüzden geçti). Ham liste
