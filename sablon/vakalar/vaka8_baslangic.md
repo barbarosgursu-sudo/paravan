@@ -24,6 +24,27 @@ sütunları eski düzen; yeni düzen 6. parça §12).
   adı ve Cengo'yla bağlantısı → Vaka 8.** Bilinen: avukat Peri'nin hesaplarını boşaltıp kaçtı; Paravan'ı vergi için o kurdu;
   Cengo'yu bordroya o yazdı (yedi yıl küçük maaş, Cengo hiç sormadı).
 
+## 1a. ✅ ORTAĞIN SEÇTİĞİ ANA HAT (19 Kasım 2026) — §1'deki taslağın yerine geçer
+
+- **Tip: Bilmece.** Oyuncu da Peri de suçluyu bilmez. **Cengo bağı:** otopark. **Müşteri:** televizyon aşçısı.
+- **Temel hikâye:** Ünlü bir televizyon aşçısı kendi markasını kuruyor. Yeni ve çok güvendiği avukatı her işini yürütüyor.
+  Şirketin hesabından para eksiliyor, aşçı kimin aldığını bilmiyor; kimseye güvenemediği için Peri'ye geliyor.
+- **Vurucu noktalar:**
+  - Üç şüpheli: muhasebeci, eski ortak, herkesin en çok güvendiği yeni avukat.
+  - Ortadaki dönüş: Peri şirketin bordrosunda hiç gelmeyen, gerçek bir kişi görür — tam Cengo'nun hikâyesi. Yöntemi tanır:
+    bu avukat onu dolandıran adam, yalnız adı değişmiş.
+  - Cengo'nun sırrı: avukat Cengo'nun kimliğini yıllar önce Karaköy'deki otoparktan almıştı, yüzünü hiç görmedi; bu
+    yüzden Cengo onun şoförü olarak yanına girebilir.
+  - Peri saklanmak zorunda: avukat onu tanır. Peri kılık değiştirir, paravanın arkasına girer (komedi).
+  - Dolandırıcıyı dolandırmak: Peri ile Cengo ilk kez aynı planda, eşit oynar.
+  - Kovalamaca: havaalanı yolunda; Cengo direksiyonda, avukat arka koltukta.
+- **Karar:** polise ver (aşçı kurtulur, Peri'nin parası gelmez) / anlaş, payını al, sus (Peri parasını alır, aşçı kaybeder) /
+  kendi tuzağını ona kur / 4. karar formda bulunur.
+- **Final:** büroda gece. Peri kırmızı mantoda, kuşağı çözük; sezon başladığı yerde kapanır. Bağ yüksekse Peri bir şey
+  söylemek üzereyken telefon çalar: yeni bir müşteri. Kavuşmazlar, Sezon 2'nin kapısı açılır.
+- **Sohbette önerilen, henüz seçilmeyen:** yöntem = vekâletname + hayalet şirketlere gerçek kişileri bordroya yazmak;
+  "tuzak" kararında öç = para avukatın kurduğu şirkete (Paravan) akar + ertesi sabah kapısında Hilmi Bey (haciz aynası).
+
 ## 2. Vaka 7'den gelen bağlar ve dersler
 
 - **Taç alındı** (kural 27): V8 tacın Peri'de olduğu hâlden başlar; **nasıl alındığı anılmaz**. Cengo'nun borcu anılmaz.
