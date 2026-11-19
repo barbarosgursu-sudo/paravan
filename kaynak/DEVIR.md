@@ -8,6 +8,16 @@
 
 ---
 
+> ## ✍️ ORTAKTAN BARBAROS'A (19 Kasım 2026, 22:05) — VAKA 8 BAŞLADI, ONAY 1 VERİLDİ
+> - **Kurallar (V7'den sonra):** kural kitabına **15c** (konuklar birbirine benzemez; soru 30 sözüyle) işlendi; 6. parça
+>   güncellendi (§0 önceki vakalardan ayrışma, "eski konuklardan ayıran" satırı, kasa yok, sabit "4 ifade" yok);
+>   `TASLAK_tekrar_onleme.md` §1'e V6–V7 eklendi.
+> - **Vaka 8 "İade"** (Bilmece): suçlu Peri'nin avukatı değil, onun adamı "Avukat Tarkan" (Ozan); kovalamacada patronu
+>   **Nihat Kora**'ya götürür, ikisi birlikte yakalanır; kararı Nihat sorar. Kayıt: `sablon/vakalar/vaka8_baslangic.md`,
+>   form `vaka8_form.md` (Onay 1 ✅). **Kanona girdi:** avukatın adı Nihat Kora; Cengo'yu tanımaz, kimliğini otoparktan
+>   aldılar; Ozan; taç büroda. Sıradaki: diyalog (adım 3).
+> - **Sana not:** Nihat'ın ve Peri'nin parasının akıbeti karara bağlı → kural 28 gereği Sezon 2'de anılmaz.
+
 > ### 🔑 YETKİ (17 Kasım 2026, Barbaros'un kararı): **Oğuz Bey'in hesabı Paravan'da HER ŞEYE yetkili** — kod, kurallar (kural
 > toplama işi dahil), metin, resim, yayın; Barbaros'a danışmadan karar verir ve yapar. Sebep: Barbaros'un haftalık sınırı doldu (Cuma
 > sıfırlanır); kural toplama işini Oğuz Bey'in hesabıyla sürdürecek. Aşağıdaki "kurallar Barbaros'ta / Barbaros'a danışılır" sözleri bu
