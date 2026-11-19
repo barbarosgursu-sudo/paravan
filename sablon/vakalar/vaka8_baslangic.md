@@ -45,6 +45,29 @@ sütunları eski düzen; yeni düzen 6. parça §12).
 - **Sohbette önerilen, henüz seçilmeyen:** yöntem = vekâletname + hayalet şirketlere gerçek kişileri bordroya yazmak;
   "tuzak" kararında öç = para avukatın kurduğu şirkete (Paravan) akar + ertesi sabah kapısında Hilmi Bey (haciz aynası).
 
+## 1b. ✅ YENİ ANA HAT (19 Kasım 2026, ortağın kararı) — §1a'nın suçlusunu ve sonunu değiştirir
+
+- **Suçlu:** Peri'yi dolandıran avukat DEĞİL; onun adına çalışan, kendini avukat diye tanıtan **adamı** (sahte avukat).
+  Yöntem birebir aynı; Peri ile Cengo onu kendi avukatları sanır.
+- **Giriş:** aşçının sos ve reçel markası, lansman bir hafta sonra; hesaptan "ambalaj tedarikçisine" üç ödeme, tedarikçi yok.
+  Şüpheliler: muhasebeci, eski ortak, yeni avukat (hep telefonda, hep "yolda").
+- **Gelişme:** Peri yöntemi tanır (vekâletname, hayalet şirketler, bordroda hiç gelmeyen genç "şoför"). Peri saklanır, kılık
+  değiştirir; Cengo avukatın şoförü olur. Yanlış izler: muhasebecinin şifresi (aşçıya âşık, şifreyi kendi verdi); eski
+  ortağın tehdit sanılan uyarıları (o da eski bir kurban). **Ters köşe:** Peri "avukatı" görür — bambaşka biri.
+  **Kim yaptı?:** muhasebeci / eski ortak / sahte avukat.
+- **Sonuç:** sahte avukat kaçar; kovalamacada (Cengo direksiyonda, Peri kılığında, ikisi de rezil) farkında olmadan onları
+  patronunun saklandığı yere (Boğaz'da yalı ya da tekne) götürür. Kapıda Peri'yi dolandıran avukat. İkisi birlikte, şansla,
+  aynı anda yakalanır. Adam itiraf eder: avukatın adamıdır, yöntemi ondan öğrendi. Avukat Peri'nin parasının yerini
+  ağzından kaçırır. **Kararı avukat sorar:** "Paranın yarısı senin, Peri. Bu akşam burada hiçbir şey olmadı."
+- **Dört karar:**
+  1. **İkisini de polise teslim et:** aşçının parası kurtulur; Peri'nin parası dava bitene kadar bağlı kalır, belki hiç gelmez.
+  2. **Anlaş, payını al, sus:** Peri parasının bir kısmını geri alır; aşçının parası avukatta kalır, ikisi kaçar.
+  3. **Anlaşır gibi yap, parayı al, sonra ikisini de teslim et:** dolandırıcıyı kendi oyunuyla dolandırır. Bedeli: polis
+     paranın nereden geldiğini sorar; Peri ile Cengo yalan söylemek zorunda kalır, Peri de sözünü bozan biri olur.
+  4. **Adamı bırak, avukatı teslim et:** adam daha çok genç; Peri ona bir şans tanır. Aşçının parası kurtulur, Peri'nin
+     parası ise hiç geri gelmez. Bedeli: o genç bir gün başka birini dolandırabilir.
+- **Final:** büroda gece; Peri kırmızı mantoda, kuşağı çözük. Bağ yüksekse söylenecekken telefon çalar: yeni müşteri.
+
 ## 2. Vaka 7'den gelen bağlar ve dersler
 
 - **Taç alındı** (kural 27): V8 tacın Peri'de olduğu hâlden başlar; **nasıl alındığı anılmaz**. Cengo'nun borcu anılmaz.
