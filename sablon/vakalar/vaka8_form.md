@@ -35,8 +35,8 @@
 - **Kim, neden:** **"Avukat Tarkan Bey"** — gerçek adı **Ozan** (34). Avukat değil; Peri'yi dolandıran avukat
   **Nihat Kora**'nın 🟡 adamı. Yıllarca Nihat'ın evrakını taşıdı, yöntemini ondan öğrendi (Paravan'ın kâğıtlarını da o
   taşımıştı; Peri'yi tanır). Nihat yurt dışından dönünce yeni bir av seçti; Ozan "avukat" kılığında öne çıktı, Nihat
-  arkada kaldı. **Neden:** Nihat'ın payı ve kendi payı; bu gece yatırımcı parası girince hesabı boşaltıp birlikte
-  kaçacaklar.
+  arkada kaldı. **Neden:** kendi payı. Bu gece yatırımcı parası girince hesabı boşaltacak, Yeniköy'deki yalıya gidip
+  Nihat'tan payını alacak; Nihat tekneyle kaçacak.
 - **Nasıl (yöntem — Peri'ye yapılanın aynısı 🟡):** (1) Bahar'ın programına konuk oldu, "markanızı ben korurum" dedi,
   **genel vekâlet** aldı. (2) Vekâletle Bahar adına **hayalet şirketler** kurdu (Kavanoz Ambalaj). (3) Şirket gerçek
   görünsün diye **gerçek bir kişiyi bordroya** yazdı: Karaköy'deki otoparkta çalışan genç **Emir**'in kimlik fotokopisini
@@ -169,7 +169,7 @@ Orhan, Fikret, Emir girişte anılıyor.*
    "Kraliçe! Önlük sana yakışmamış." Peri: "Planlamıştım."
 2. **Tarkan'ın telefonları:** Cengo şoför olarak arabada; Tarkan her sahnede ona bir şey buyurur ("Kuru temizlemeyi al",
    "Arabayı yıkat", "Bana bir kavanoz reçel"), Cengo her seferinde "Başüstüne, beyim" der, sonra Peri'ye fısıldar.
-   Son dönüşte: "Akşam beni havaalanına bırakacaksın." Cengo: "Bırakırım, beyim." *(Kovalamacayı hazırlar.)*
+   Son dönüşte: "Lansmandan sonra beni Yeniköy'e götüreceksin." Cengo: "Götürürüm, beyim." *(Kovalamacayı hazırlar.)*
 3. **Bahar herkese yemek yedirir:** her ipucunda biri Bahar'ın reçelinden bir kavanoz çıkarır; Cengo her birinden yer;
    son dönüşte üniformanın düğmesi kopar.
 
@@ -278,8 +278,8 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 
 | vuruş | ne olur | Peri'nin pozu (erotik + gülünç) | ara kare |
 |---|---|---|---|
-| 1 | Tarkan atölyeden fırlar, kendi arabasına atlar — direksiyonda şoförü Cengo. "Sür! Havaalanına!" Cengo: "Başüstüne, beyim." (şaka 2'nin doruğu) Peri arkadan koşar, kapanmakta olan bagaja, lansman kasalarının arasına atlar | bagaja yarı girmiş, bacakları dışarıda, önlük uçuşuyor, bir eli kasada | yeni |
-| 2 | Sahil yolu. Tarkan telefonda: "Havaalanı değil, Yeniköy'e. Patron yalıda." Cengo direksiyonda yüzünü buruşturmadan sürer. Bagajda her virajda kavanozlar kırılır: Peri baştan aşağı vişne reçeli | bagajda, kasaların içinde yan yatmış; önlük, kollar, bacaklar kıpkırmızı reçel; gözlük yamuk; öfkeli ve gururlu: "Planlamıştım." | yeni |
+| 1 | Tarkan atölyeden fırlar, kendi arabasına atlar — direksiyonda şoförü Cengo. "Sür! Yeniköy'e, yalıya!" Cengo: "Başüstüne, beyim." (şaka 2'nin doruğu) Peri arkadan koşar, kapanmakta olan bagaja, lansman kasalarının arasına atlar | bagaja yarı girmiş, bacakları dışarıda, önlük uçuşuyor, bir eli kasada | yeni |
+| 2 | Sahil yolu. Tarkan telefonda: "Geliyorum. Payımı hazırla, tekneyi çalıştır." Cengo direksiyonda yüzünü buruşturmadan sürer. Bagajda her virajda kavanozlar kırılır: Peri baştan aşağı vişne reçeli | bagajda, kasaların içinde yan yatmış; önlük, kollar, bacaklar kıpkırmızı reçel; gözlük yamuk; öfkeli ve gururlu: "Planlamıştım." | yeni |
 | 3 | Yalının önü. Tarkan arabadan iner, iskeleye koşar; yalıdan valizli bir adam çıkar: **Nihat.** Peri bagajdan doğrulur, reçelli, iskeleye; Nihat onu görür, donar: "Perihan?" | bagajın kapağında ayakta, reçel damlıyor, bir eli belinde, öbürü Nihat'ı gösteriyor | yeni |
 | 4 | İkisi tekneye koşar; iskelede Peri'nin reçel izine basıp kayarlar, birbirine çarpar, iskelenin ucundaki balıkçı ağına birlikte düşerler; ağ kapanır. Cengo ağın ipini bağlar: "İkisi bir torbada, beyim." | iskelede, kaymamak için Cengo'nun koluna tutunmuş, reçelli, saçı dağılmış, zafer gülüşü | yeni |
 
@@ -291,7 +291,7 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 - **Temizlenme:** yalının bahçe hortumu (V1'deki çaycının hortumuna sezon sonu selamı); Peri önlüğü çıkarır, Cengo
   arabadan mantoyu getirir, omzuna koyar. Saçında reçel kalır (kapanışa kadar).
 - **İtiraf** (iskelede, ağın içinden; her yolda aynı): Ozan: "Adım Tarkan değil, Ozan. Avukat da değilim; onun adamıyım.
-  Yıllarca evrakını taşıdım, Paravan'ınkini de. Yöntemi ondan öğrendim. Bu gece para girince boşaltıp gidecektik."
+  Yıllarca evrakını taşıdım, Paravan'ınkini de. Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım; payımı almaya geliyordum."
   Nihat susar, sonra ağzından kaçar: "Perihan'ın parası hâlâ teknede, valizde." *(Peri'nin parasının yeri burada açılır.)*
 
 ## 12. Kararlar *(gerçek artık biliniyor; yalı iskelesi, 20.20)*
