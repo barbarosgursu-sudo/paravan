@@ -11,6 +11,14 @@
 > bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
 > **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
 >
+> **⚠ ADIM 4'TE UNUTMA — KONUK BENZERLİĞİ (19 Kasım 2026, sahibi "son adımda unutmayalım" dedi):** yüzü silinmiş tarz referansı
+> (ISTEM-12) aynen kalır. Üstüne iki otomatik denetim, adım 4'ün İLK işlerinden: (1) **üretimden önce** her yeni konuğun görünüş
+> tablosu (yaş, saç rengi, saç kesimi, yüz biçimi, beden, ayırıcı işaret) önceki vakaların BÜTÜN konuklarıyla program tarafından
+> karşılaştırılır; ≥2 özellik aynıysa istem üretime girmez; (2) **üretimden sonra** yalnız yüze değil saça ve genel görünüşe bakan
+> araç; bilinen benzer çiftlerle sınanır (Süheyla–Jale, Necmi–Recep, Kaan–Bülent, Müzeyyen–Nadide), yakalayamazsa güvenilmez.
+> Ayrıntı §7 madde 1. Sahibine sunuldu; adım 4'te uygulamadan önce kısa onayı alınır. Aracın yüz modeli bulut kabında inmiyor —
+> Oğuz Bey'in ya da Barbaros'un bilgisayarında denenir.
+>
 > **Cengo'nun saçı (19 Kasım 2026, sahibinin cevabı):** değişmez, her vakada aynı. KAR ve SEZON-19/22 işlendi. Açık soru kalmadı.
 >
 > **Yetki (17 Kasım akşam):** Barbaros'un sınırı doldu (Cuma sıfırlanır); işi Oğuz Bey'in hesabıyla sürdürecek. O hesap her şeye
