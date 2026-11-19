@@ -104,3 +104,4 @@ ile okunur (TZ verme).
 | 0 Konu seçimi | 19 Kas 20:59 | 19 Kas 21:43 | sohbet (~45 dk) | — | kurallar V7'den sonra güncellendi (6. parça, 15c, tekrar tablosu); ana hat §1b |
 | 1 Form | 19 Kas 21:44 | 19 Kas 21:55 | 0 | ~11 dk | `vaka8_form.md`; isimler öneri; 4 kanon önerisi 🟡; doğru üçlü 10/20 |
 | 2 Onay 1 | 19 Kas 21:55 | 19 Kas 22:02 | ~5 dk (1 düzeltme) | ~2 dk | kovalamacada Yeniköy (payını almaya); "Onay"; kanon §18 madde 1–4 yazıldı |
+| 3 Diyalog | 19 Kas 22:06 | 19 Kas 22:45 | 0 | ~39 dk | `vaka8_diyalog.md` (250 satır); `arac_diyalog.js` ayrıştırması geçti (scratchpad, V8 taslağıyla; gerçek veri adım 4). Ters köşe sahnesi (`ters_kose`) için kod eki gerekiyor: Kim yaptı? ekranından önce oynamalı |
