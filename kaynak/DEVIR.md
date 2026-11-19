@@ -8,6 +8,12 @@
 
 ---
 
+> ## ✍️ ORTAKTAN NOT (20 Kasım 2026, 02:55) — VAKA 8 ONAY 2 DÜZELTMELERİ
+> - Yüzleşme ve kovalamacada ortağın satır düzeltmeleri (263, 295, 326, 337–353, 362, 418–434) işlendi. Peri artık mantosuyla
+>   bagaja atlıyor; reçelli mantoyu çıkarınca Cengo yedek mantoyu getiriyor (`recel`, `manto8_son` tanımı buna göre). Ağa düşüş
+>   artık Peri'nin fırlattığı kavanozla. Nihat "yarısı" değil "teknedeki para senin" diyor; kararlarda pay yerine bütün para.
+> - Doğrulayıcı, testler, kapı (V8 hikâye) ve sızıntı taraması geçti; okuma metni yenilendi. Onay 2 sürüyor.
+
 > ## ✍️ ORTAKTAN BARBAROS'A (19 Kasım 2026, 22:05) — VAKA 8 BAŞLADI, ONAY 1 VERİLDİ
 > - **Kurallar (V7'den sonra):** kural kitabına **15c** (konuklar birbirine benzemez; soru 30 sözüyle) işlendi; 6. parça
 >   güncellendi (§0 önceki vakalardan ayrışma, "eski konuklardan ayıran" satırı, kasa yok, sabit "4 ifade" yok);

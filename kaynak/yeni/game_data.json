@@ -10582,7 +10582,7 @@
           "para": 0,
           "etiket": "İkisini de polise teslim et",
           "secenek": "“Polisi arıyorum, Nihat. İkiniz de.”",
-          "sonuc": "Peri telefonu açtı. Polis geldi, ağı kesip Nihat'ı ve Ozan'ı götürdü. Bahar'ın parası bankada kaldı; yatırımcı gece imzaladı, lansman sürdü. Bahar elli bini ertesi sabah, bir kasa reçelle büroya getirdi. Teknedeki valiz delil diye mühürlendi. Peri'nin parası dava bitene kadar orada; belki hiç gelmeyecek.",
+          "sonuc": "Peri telefonu açtı. Polis geldi, ağı kesip Nihat'ı ve Ozan'ı götürdü. Bahar'ın parası bankada kaldı; yatırımcı gece imzaladı, lansman sürdü. Bahar elli bini ertesi sabah, bir kasa reçelle büroya getirdi. Teknedeki valiz delil diye mühürlendi. Peri'nin parası dava bitince ya gelecek ya da hiç gelmeyecek.",
           "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Paranı mühürlediler, adamı götürdüler. Ben ikincisine razıyım, Peri."}],
           "cengo_replik": {"i": "gulen", "yuz": "peri.yumusak"}
         },
@@ -10593,8 +10593,8 @@
           "cengoBag": -2,
           "para": 0,
           "etiket": "Anlaş, payını al, sus",
-          "secenek": "“Yarısını alıyorum. Sonra beni hiç görmediniz.”",
-          "sonuc": "Cengo ağı açtı. Nihat valizden Peri'nin payını sayıp eline verdi; Ozan'la tekneye binip karanlığa çıktılar. O gece Bahar'ın hesabı boşaldı. Yatırımcı ertesi sabah çekildi; lansman ertelendi, kavanozlar depoya kaldı. Bahar elli bini yine de ödedi: \"Siz elinizden geleni yaptınız.\" Peri'nin çantası ağırdı.",
+          "secenek": "“Parayı alıyorum. Sonra beni hiç görmediniz.”",
+          "sonuc": "Cengo ağı açtı. Nihat parayı Peri'ye verdi; Ozan'la tekneye binip karanlığa çıktılar. O gece Bahar'ın hesabı boşaldı. Yatırımcı ertesi sabah çekildi; lansman ertelendi, kavanozlar depoya kaldı. Bahar elli bini yine de ödedi: \"Siz elinizden geleni yaptınız.\" Peri'nin çantası ağırdı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -10611,7 +10611,7 @@
           "para": 0,
           "etiket": "Anlaşır gibi yap, sonra teslim et",
           "secenek": "“Anlaştık, Nihat.”",
-          "sonuc": "Peri valizden payını aldı, Nihat'ın ağın arasından uzanan elini sıktı. Sonra telefonu açtı. Polis ikisini ağdan çıkardı; Nihat arkasından bağırdı: \"Sözünü bozdun, Perihan!\" Bahar'ın parası kurtuldu, lansman sürdü. Polis Peri'nin kucağındaki çantayı sordu. Peri \"Lansman reçeli\" dedi; Cengo başını salladı.",
+          "sonuc": "Peri parayı aldı, Nihat'ın ağın arasından uzanan elini sıktı. Sonra telefonu açtı. Polis ikisini ağdan çıkardı; Nihat arkasından bağırdı: \"Sözünü bozdun, Perihan!\" Bahar'ın parası kurtuldu, lansman sürdü. Polis Peri'nin kucağındaki çantayı sordu. Peri \"Lansman reçeli\" dedi; Cengo başını salladı.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
@@ -11242,7 +11242,7 @@
             {
               "k": "peri",
               "i": "sinirli",
-              "m": "Bana Perihan yalnız bir kişi derdi.",
+              "m": "Benim adımı nereden biliyorsunuz!",
               "kime": "tarkan",
               "ekran": "peri+tarkan",
               "yuz": "tarkan.gulen"
@@ -11402,7 +11402,7 @@
             {
               "k": "tarkan",
               "i": "gulen",
-              "m": "Demek muhasebe bulundu. Ben de yatırımcıyı karşılayayım.",
+              "m": "Demek suçlu bulundu. Ben de yatırımcıyı karşılayayım.",
               "gir": "tarkan",
               "kime": "bahar",
               "ekran": "bahar+tarkan",
@@ -11528,9 +11528,8 @@
             {"k": "cengo", "i": "kas", "m": "Başüstüne, beyim.", "kare": "K173"},
             {
               "k": "not",
-              "m": "Peri koşarak geliyor; mantosunu ön koltuğa fırlatıyor, Bahar'ın önlüğünü kapıp kapanmakta olan bagaja, lansman kasalarının arasına atlıyor.",
-              "kare": "K174",
-              "set": "kilik"
+              "m": "Peri koşarak geliyor; Cengo'nun onu görüp otomatik açtığı bagaja, lansman kasalarının arasına atlıyor.",
+              "kare": "K174"
             },
             {"k": "peri", "i": "sinirli", "m": "Planlamıştım.", "kare": "K174"},
             {
@@ -11548,7 +11547,7 @@
             {"k": "cengo", "i": "normal", "m": "Emniyet kemeriniz, beyim.", "kare": "K175"},
             {
               "k": "not",
-              "m": "Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; gözlüğü yamuk, saçı kıpkırmızı.",
+              "m": "Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; mantosu da saçı da kıpkırmızı.",
               "kare": "K176",
               "set": "recel",
               "peri": "sinirli"
@@ -11579,12 +11578,12 @@
             {
               "k": "peri",
               "i": "sinirli",
-              "m": "Nihat. Üç aydır seni arıyordum. Bir reçel kavanozunun içinden çıkacağımı söyleselerdi inanmazdım.",
+              "m": "Nihat. Üç aydır seni arıyordum. Seni reçel kavanozlarının arasında bulacağımı söyleselerdi inanmazdım.",
               "kare": "K179"
             },
             {
               "k": "not",
-              "m": "Nihat ile Tarkan tekneye koşuyor. İskelede Peri'nin bıraktığı reçel izine basıyorlar; ikisi de kayıyor, birbirine çarpıyor, iskelenin ucundaki balıkçı ağına birlikte düşüyor. Ağ üstlerine kapanıyor.",
+              "m": "Nihat ile Tarkan tekneye koşuyor. Peri bir reçel kavanozunu fırlatıyor. Kavanoz kaçanların önünde kırılıyor; ikisi de reçele basıp kayıyor, birbirine çarpıyor, iskelenin ucundaki balıkçı ağına birlikte düşüyorlar. Ağ üstlerine kapanıyor.",
               "kare": "K180"
             },
             {
@@ -11599,17 +11598,17 @@
               "m": "Peri Cengo'nun koluna tutunmuş, kaymamaya çalışıyor; reçelli, saçı dağınık, gülüyor.",
               "kare": "K182"
             },
-            {"k": "peri", "i": "kas", "m": "Kimse kımıldamasın. Bu iskele benden kaygan.", "kare": "K182"},
+            {"k": "peri", "i": "kas", "m": "Cengo, balık mı tutuyorsun?", "kare": "K182"},
             {
               "k": "not",
-              "m": "Cengo yalının bahçesinden bir hortum çekiyor. Peri önlüğü çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan mantoyu getirip omzuna koyuyor; saçında hâlâ reçel.",
+              "m": "Cengo yalının bahçesinden bir hortum çekiyor. Peri reçelli mantoyu çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan yedek bir manto getirip omzuna koyuyor; saçında hâlâ reçel.",
               "kare": "K183",
               "set": "manto8_son"
             },
             {
               "k": "cengo",
               "i": "yumusak",
-              "m": "Mantonu hep ön koltuğa atıyorsun. Ben de hep getiriyorum.",
+              "m": "Mantonun lazım olacağını tahmin etmiştim.",
               "gir": "cengo",
               "kime": "peri",
               "ekran": "peri+cengo",
@@ -11618,7 +11617,7 @@
             {
               "k": "peri",
               "i": "yumusak",
-              "m": "Bu sefer kuşağını da getir.",
+              "m": "Bu sefer kuşağı da lazım.",
               "kime": "cengo",
               "ekran": "peri+cengo",
               "yuz": "cengo.yumusak"
@@ -11647,7 +11646,7 @@
             {
               "k": "tarkan",
               "i": "itiraf",
-              "m": "Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım; payımı almaya geliyordum.",
+              "m": "Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım. Beni affedin, Perihan Hanım.",
               "ekran": "peri+tarkan",
               "yuz": "peri.kas"
             },
@@ -11661,7 +11660,7 @@
             {
               "k": "nihat",
               "i": "normal",
-              "m": "Senin paran hâlâ teknede, Perihan. Valizde. Hiç harcamadım.",
+              "m": "Teknede çok para var, Perihan. Kaybettiklerini karşılamaz ama yine de çok.",
               "kime": "peri",
               "ekran": "peri+nihat",
               "yuz": "peri.kas"
@@ -11669,7 +11668,7 @@
             {
               "k": "cengo",
               "i": "kas",
-              "m": "Benim maaşım da mı oradan yatıyordu?",
+              "m": "Benim maaşlarım da mı orada?",
               "kime": "nihat",
               "ekran": "cengo+nihat",
               "yuz": "nihat.normal"
@@ -11677,7 +11676,7 @@
             {
               "k": "nihat",
               "i": "normal",
-              "m": "Senin maaşın şirketin süsüydü, delikanlı. Seni hiç görmedim. Kimliğin yeterdi.",
+              "m": "Her şirkete gerektiğinde kovulacak biri de lazım.",
               "kime": "cengo",
               "ekran": "cengo+nihat",
               "yuz": "cengo.kas"
@@ -11695,7 +11694,7 @@
             {
               "k": "nihat",
               "i": "pazarlik",
-              "m": "Paranın yarısı senin, Perihan. Bu akşam burada hiçbir şey olmadı. Ne dersin?",
+              "m": "Teknedeki para senin, Perihan. Bu akşam burada hiçbir şey olmadı. Ne dersin?",
               "kime": "peri",
               "kare": "K185"
             }

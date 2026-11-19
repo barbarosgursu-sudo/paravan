@@ -8,8 +8,8 @@ Yazım `vaka7_diyalog.md`'deki gibi. Vaka 8'in kıyafetleri (kıyafet hâli):
 - **Peri:** `manto8` (Vaka 1'deki kırmızı manto birebir: kruvaze, geniş açık yaka, kapaksız cepler, altında V yakalı krem
   saten bluz; **kuşak çözük, uçları sarkık**; dar siyah kalem etek, siyah stiletto; saç açık, dalgalı), `kilik` (aşçı
   yardımcısı: mantonun üstünden beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah çerçeveli gözlük burnunun ucunda;
-  manto yakası ve bacak açıkta), `recel` (kovalamaca: kılık baştan aşağı vişne reçeli, kep yok, gözlük yamuk, saçta
-  reçel), `manto8_son` (temizlenmiş: önlüksüz, manto, saçta reçel — kovalamaca sonu, karar, kapanış).
+  manto yakası ve bacak açıkta), `recel` (kovalamaca: `manto8` baştan aşağı vişne reçeli, saçta
+  reçel), `manto8_son` (temizlenmiş: Cengo'nun getirdiği yedek manto, aynısı; saçta reçel — kovalamaca sonu, karar, kapanış).
 - **Cengo:** `sofor` (lacivert iki sıra düğmeli şoför ceketi, kasket, beyaz eldiven, bir beden dar; tel cepte; bileklik),
   `sofor_dugmesiz` (son reçelden sonra bir düğme kopuk — kovalamaca ve karar), `ceket8` (kapanış: kendi ceketi,
   Vaka 1 temel setindeki ceket).
@@ -260,7 +260,7 @@ serbest (SR-A). Sigara yok (19a).
 **PERİ [kas]:** Tarkan Bey. Bahar Hanım'ın parasını siz çektiniz. {gir: tarkan, kime: tarkan, ekran: peri+tarkan, yuz: tarkan.normal}
 **PERİ [kas]:** Paranın çıkması için iki şey lazımdı: şifre ve vekâlet. İkisi de yalnız sizde vardı. {ekran: peri+tarkan, yuz: tarkan.normal}
 **TARKAN [gulen]:** Ben avukatım, Perihan Hanım. Bana her şeyi verirler. {kime: peri, ekran: peri+tarkan, yuz: peri.kas}
-**PERİ [sinirli]:** Bana Perihan yalnız bir kişi derdi. {kime: tarkan, ekran: peri+tarkan, yuz: tarkan.gulen}
+**PERİ [sinirli]:** Benim adımı nereden biliyorsunuz! {kime: tarkan, ekran: peri+tarkan, yuz: tarkan.gulen}
 *Tarkan'ın gülümsemesi düşüyor. Elindeki telefon titriyor; ekranda bir isim: "N."* {kare: D33}
 **TARKAN [panik]:** Ben… arabayı getireyim. {cik, kime: cengo, ekran: cengo+tarkan, yuz: cengo.kas}
 *Tarkan kapıya koşuyor.* {kare: K170}
@@ -292,7 +292,7 @@ serbest (SR-A). Sigara yok (19a).
 **PERİ [kas]:** Nevzat Bey. Ödemeler sizin şifrenizle çıktı. Parayı siz çektiniz. {gir: nevzat, kime: nevzat, ekran: peri+nevzat, yuz: nevzat.gergin}
 **NEVZAT [utangac]:** Ben mi? Ben o geceler… Ben o geceler stüdyodaydım. {kime: peri, ekran: peri+nevzat, yuz: peri.kas}
 *Bahar dönüp Nevzat'a bakıyor. Nevzat kızarıp susuyor.* {kare: K171}
-**TARKAN [gulen]:** Demek muhasebe bulundu. Ben de yatırımcıyı karşılayayım. {gir: tarkan, kime: bahar, ekran: bahar+tarkan, yuz: bahar.sasirmis}
+**TARKAN [gulen]:** Demek suçlu bulundu. Ben de yatırımcıyı karşılayayım. {gir: tarkan, kime: bahar, ekran: bahar+tarkan, yuz: bahar.sasirmis}
 **PERİ [kas]:** Bir dakika, Tarkan Bey. Bu yöntemi bana Nihat Kora diye biri öğretti. Tanır mısınız? {gir: tarkan, kime: tarkan, ekran: peri+tarkan, yuz: tarkan.gulen}
 *Tarkan'ın gülümsemesi düşüyor. Elindeki telefon titriyor; ekranda bir isim: "N."* {kare: D33}
 **TARKAN [panik]:** Ben… arabayı getireyim. {cik, kime: cengo, ekran: cengo+tarkan, yuz: cengo.kas}
@@ -317,40 +317,40 @@ serbest (SR-A). Sigara yok (19a).
 
 ## sahne kovalamaca
 ⚙ arka: A68 · figurler: peri, cengo · set: manto8 · cset: sofor
-⚙ akış: Tarkan arabaya atlar; direksiyonda Cengo. "Yeniköy'e, yalıya!" Peri mantoyu arabaya atıp önlükle kapanmakta olan bagaja, lansman kasalarının arasına atlar (`kilik`). Sahil yolu: Tarkan telefonda payını ister; bagajda kavanozlar kırılır, Peri reçel olur (`recel`). Yalı: Tarkan iskeleye koşar; yalıdan valizli Nihat çıkar. Peri bagajdan doğrulur; Nihat: "Perihan?" İkisi tekneye koşar; reçel izine basıp kayar, birbirine çarpar, balıkçı ağına düşer. Cengo ipi bağlar. Hortum: Peri temizlenir, manto omzunda (`manto8_son`). Cengo'nun düğmesi kopmuş. İtiraf iskelede, ağın içinden.
-⚙ Her sonuçta aynı. Peri erotik + gülünç; felaketi vişne reçeli (müşterinin markası). Şans: reçel izi. Kural 18: kimse yaralanmaz, alay edilmez; ağ yumuşak, ikisi kıpırdamadan durur. Bahar, Nevzat, Fikret itirafı duymaz.
+⚙ akış: Tarkan arabaya atlar; direksiyonda Cengo. "Yeniköy'e, yalıya!" Cengo bagajı açar, Peri mantosuyla lansman kasalarının arasına atlar. Sahil yolu: Tarkan telefonda payını ister; bagajda kavanozlar kırılır, Peri reçel olur (`recel`). Yalı: Tarkan iskeleye koşar; yalıdan valizli Nihat çıkar. Peri bagajdan doğrulur; Nihat: "Perihan?" İkisi tekneye koşar; Peri bir kavanoz fırlatır, kırılan reçele basıp kayarlar, birbirine çarpar, balıkçı ağına düşer. Cengo ipi bağlar. Hortum: Peri reçelli mantoyu çıkarıp temizlenir, Cengo yedek mantoyu omzuna koyar (`manto8_son`). Cengo'nun düğmesi kopmuş. İtiraf iskelede, ağın içinden.
+⚙ Her sonuçta aynı. Peri erotik + gülünç; felaketi vişne reçeli (müşterinin markası). Şans: fırlatılan reçel kavanozu. Kural 18: kimse yaralanmaz, alay edilmez; ağ yumuşak, ikisi kıpırdamadan durur. Bahar, Nevzat, Fikret itirafı duymaz.
 
 *Atölyenin önü, gece. Tarkan siyah bir arabanın arka kapısını açıp içeri atlıyor. Direksiyonda kasketiyle Cengo.* {arka: A68, kare: K173}
 **TARKAN [panik]:** Sür! Yeniköy'e, yalıya! {kare: K173}
 **CENGO [kas]:** Başüstüne, beyim. {kare: K173}
-*Peri koşarak geliyor; mantosunu ön koltuğa fırlatıyor, Bahar'ın önlüğünü kapıp kapanmakta olan bagaja, lansman kasalarının arasına atlıyor.* {kare: K174, set: kilik}
+*Peri koşarak geliyor; Cengo'nun onu görüp otomatik açtığı bagaja, lansman kasalarının arasına atlıyor.* {kare: K174}
 **PERİ [sinirli]:** Planlamıştım. {kare: K174}
 *Sahil yolu, gece. Boğaz'ın ışıkları. Araba virajları hızla alıyor.* {arka: A69, kare: K175}
 **TARKAN [panik]:** *(telefonda)* Geliyorum. Payımı hazırla, tekneyi çalıştır. {kare: K175}
 **CENGO [normal]:** Emniyet kemeriniz, beyim. {kare: K175}
-*Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; gözlüğü yamuk, saçı kıpkırmızı.* {kare: K176, set: recel, peri: sinirli}
+*Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; mantosu da saçı da kıpkırmızı.* {kare: K176, set: recel, peri: sinirli}
 **PERİ [sinirli]:** Bahar Hanım'ın reçeli gerçekten çok iyi. Her yerime işledi. {kare: K176}
 *Yeniköy. Boğaz kıyısında beyaz bir yalı; önünde uzun, ahşap bir iskele, ucunda bir tekne.* {arka: A70, kare: K177}
 *Tarkan arabadan fırlayıp iskeleye koşuyor. Yalının kapısından beyaz keten takımlı, gümüş saçlı, elinde deri bir valizle bir adam çıkıyor.* {kare: K178}
 *Bagaj açılıyor; Peri reçel damlayarak doğruluyor, bagajın kapağına basıp ayağa kalkıyor, adamı gösteriyor.* {kare: K179}
 **NİHAT [sasirmis]:** Perihan? {kare: K179}
-**PERİ [sinirli]:** Nihat. Üç aydır seni arıyordum. Bir reçel kavanozunun içinden çıkacağımı söyleselerdi inanmazdım. {kare: K179}
-*Nihat ile Tarkan tekneye koşuyor. İskelede Peri'nin bıraktığı reçel izine basıyorlar; ikisi de kayıyor, birbirine çarpıyor, iskelenin ucundaki balıkçı ağına birlikte düşüyor. Ağ üstlerine kapanıyor.* {kare: K180}
+**PERİ [sinirli]:** Nihat. Üç aydır seni arıyordum. Seni reçel kavanozlarının arasında bulacağımı söyleselerdi inanmazdım. {kare: K179}
+*Nihat ile Tarkan tekneye koşuyor. Peri bir reçel kavanozunu fırlatıyor. Kavanoz kaçanların önünde kırılıyor; ikisi de reçele basıp kayıyor, birbirine çarpıyor, iskelenin ucundaki balıkçı ağına birlikte düşüyorlar. Ağ üstlerine kapanıyor.* {kare: K180}
 *Cengo ağın ipini iskelenin babasına sıkıca bağlıyor. Eldiveni reçelli, ceketinin bir düğmesi kopmuş.* {kare: K181, cset: sofor_dugmesiz}
 **CENGO [gulen]:** İkisi bir torbada, beyim. Bahşiş? {kare: K181}
 *Peri Cengo'nun koluna tutunmuş, kaymamaya çalışıyor; reçelli, saçı dağınık, gülüyor.* {kare: K182}
-**PERİ [kas]:** Kimse kımıldamasın. Bu iskele benden kaygan. {kare: K182}
-*Cengo yalının bahçesinden bir hortum çekiyor. Peri önlüğü çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan mantoyu getirip omzuna koyuyor; saçında hâlâ reçel.* {kare: K183, set: manto8_son}
-**CENGO [yumusak]:** Mantonu hep ön koltuğa atıyorsun. Ben de hep getiriyorum. {gir: cengo, kime: peri, ekran: peri+cengo, yuz: peri.kas}
-**PERİ [yumusak]:** Bu sefer kuşağını da getir. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
+**PERİ [kas]:** Cengo, balık mı tutuyorsun? {kare: K182}
+*Cengo yalının bahçesinden bir hortum çekiyor. Peri reçelli mantoyu çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan yedek bir manto getirip omzuna koyuyor; saçında hâlâ reçel.* {kare: K183, set: manto8_son}
+**CENGO [yumusak]:** Mantonun lazım olacağını tahmin etmiştim. {gir: cengo, kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**PERİ [yumusak]:** Bu sefer kuşağı da lazım. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 *İskele. Ağın içinde Nihat ile Tarkan yan yana oturuyor; Peri ve Cengo karşılarında.* {kare: K184}
 **TARKAN [itiraf]:** Adım Tarkan değil, Ozan. Avukat da değilim; onun adamıyım. {gir: tarkan, kime: peri, ekran: peri+tarkan, yuz: peri.kas}
 **TARKAN [itiraf]:** Yıllarca evrakını taşıdım. Paravan'ın kâğıtlarını da ben taşıdım; sizi o yüzden tanıdım, Perihan Hanım. {ekran: peri+tarkan, yuz: peri.kas}
-**TARKAN [itiraf]:** Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım; payımı almaya geliyordum. {ekran: peri+tarkan, yuz: peri.kas}
+**TARKAN [itiraf]:** Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım. Beni affedin, Perihan Hanım. {ekran: peri+tarkan, yuz: peri.kas}
 *Nihat bir süre susuyor. Sonra gözü iskelenin ucundaki tekneye kayıyor.* {gir: nihat, gi: normal, ekran: nihat}
-**NİHAT [normal]:** Senin paran hâlâ teknede, Perihan. Valizde. Hiç harcamadım. {kime: peri, ekran: peri+nihat, yuz: peri.kas}
-**CENGO [kas]:** Benim maaşım da mı oradan yatıyordu? {kime: nihat, ekran: cengo+nihat, yuz: nihat.normal}
-**NİHAT [normal]:** Senin maaşın şirketin süsüydü, delikanlı. Seni hiç görmedim. Kimliğin yeterdi. {kime: cengo, ekran: cengo+nihat, yuz: cengo.kas}
+**NİHAT [normal]:** Teknede çok para var, Perihan. Kaybettiklerini karşılamaz ama yine de çok. {kime: peri, ekran: peri+nihat, yuz: peri.kas}
+**CENGO [kas]:** Benim maaşlarım da mı orada? {kime: nihat, ekran: cengo+nihat, yuz: nihat.normal}
+**NİHAT [normal]:** Her şirkete gerektiğinde kovulacak biri de lazım. {kime: cengo, ekran: cengo+nihat, yuz: cengo.kas}
 
 ---
 
@@ -359,7 +359,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 22a: kararı sahnedeki biri sorar — itiraftan hemen sonra, iskelede, ağın içinden Nihat. Ekranda Peri, Nihat ve Ozan (ağda), Cengo ipin başında.
 
 *Nihat ağın içinden, eski avukat sesiyle konuşuyor.* {kare: K185}
-**NİHAT [pazarlik]:** Paranın yarısı senin, Perihan. Bu akşam burada hiçbir şey olmadı. Ne dersin? {kime: peri, kare: K185}
+**NİHAT [pazarlik]:** Teknedeki para senin, Perihan. Bu akşam burada hiçbir şey olmadı. Ne dersin? {kime: peri, kare: K185}
 
 ## cengo_kanit
 ⚙ Kural 22c: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Satır yalnız kendi kanıtını
@@ -415,15 +415,15 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ etiket: İkisini de polise teslim et
 
 **SEÇENEK:** “Polisi arıyorum, Nihat. İkiniz de.”
-**SONUÇ:** Peri telefonu açtı. Polis geldi, ağı kesip Nihat'ı ve Ozan'ı götürdü. Bahar'ın parası bankada kaldı; yatırımcı gece imzaladı, lansman sürdü. Bahar elli bini ertesi sabah, bir kasa reçelle büroya getirdi. Teknedeki valiz delil diye mühürlendi. Peri'nin parası dava bitene kadar orada; belki hiç gelmeyecek.
+**SONUÇ:** Peri telefonu açtı. Polis geldi, ağı kesip Nihat'ı ve Ozan'ı götürdü. Bahar'ın parası bankada kaldı; yatırımcı gece imzaladı, lansman sürdü. Bahar elli bini ertesi sabah, bir kasa reçelle büroya getirdi. Teknedeki valiz delil diye mühürlendi. Peri'nin parası dava bitince ya gelecek ya da hiç gelmeyecek.
 **CENGO [gulen]:** Paranı mühürlediler, adamı götürdüler. Ben ikincisine razıyım, Peri. {yuz: peri.yumusak}
-**DEFTER:** İkisini de polise verdim. Param bir valizde, mühürlü.
+**DEFTER:** İkisini de polise verdim. Paralar bir valizde, mühürlü.
 
 ## karar anlas
 ⚙ etiket: Anlaş, payını al, sus
 
-**SEÇENEK:** “Yarısını alıyorum. Sonra beni hiç görmediniz.”
-**SONUÇ:** Cengo ağı açtı. Nihat valizden Peri'nin payını sayıp eline verdi; Ozan'la tekneye binip karanlığa çıktılar. O gece Bahar'ın hesabı boşaldı. Yatırımcı ertesi sabah çekildi; lansman ertelendi, kavanozlar depoya kaldı. Bahar elli bini yine de ödedi: "Siz elinizden geleni yaptınız." Peri'nin çantası ağırdı.
+**SEÇENEK:** “Parayı alıyorum. Sonra beni hiç görmediniz.”
+**SONUÇ:** Cengo ağı açtı. Nihat parayı Peri'ye verdi; Ozan'la tekneye binip karanlığa çıktılar. O gece Bahar'ın hesabı boşaldı. Yatırımcı ertesi sabah çekildi; lansman ertelendi, kavanozlar depoya kaldı. Bahar elli bini yine de ödedi: "Siz elinizden geleni yaptınız." Peri'nin çantası ağırdı.
 **CENGO [sinirli]:** Paran geldi, Peri. Bahar Hanım'ın reçelleri depoda kaldı. Ben bir süre reçel yemem. {yuz: peri.utanmis}
 **DEFTER:** Payımı aldım, sustum. İkisi gitti; Bahar kaybetti.
 
@@ -431,7 +431,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ etiket: Anlaşır gibi yap, sonra teslim et
 
 **SEÇENEK:** “Anlaştık, Nihat.”
-**SONUÇ:** Peri valizden payını aldı, Nihat'ın ağın arasından uzanan elini sıktı. Sonra telefonu açtı. Polis ikisini ağdan çıkardı; Nihat arkasından bağırdı: "Sözünü bozdun, Perihan!" Bahar'ın parası kurtuldu, lansman sürdü. Polis Peri'nin kucağındaki çantayı sordu. Peri "Lansman reçeli" dedi; Cengo başını salladı.
+**SONUÇ:** Peri parayı aldı, Nihat'ın ağın arasından uzanan elini sıktı. Sonra telefonu açtı. Polis ikisini ağdan çıkardı; Nihat arkasından bağırdı: "Sözünü bozdun, Perihan!" Bahar'ın parası kurtuldu, lansman sürdü. Polis Peri'nin kucağındaki çantayı sordu. Peri "Lansman reçeli" dedi; Cengo başını salladı.
 **CENGO [kas]:** Ona kendi oyununu oynadın. Polise yalanı ben de söyledim; ortağız artık, Peri. {yuz: peri.sinirli}
 **DEFTER:** Anlaştım, sonra ikisini de verdim. Polise yalan söyledik.
 
@@ -518,7 +518,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | K177 | Yeniköy: yalı ve iskele, gece (kişisiz) | kovalamaca 3 |
 | K178 | Tarkan iskeleye koşuyor; yalıdan valizli, beyaz keten takımlı Nihat çıkıyor | kovalamaca 3 |
 | K179 | reçelli Peri bagaj kapağında ayakta, Nihat'ı gösteriyor; Nihat donmuş | kovalamaca 3 |
-| K180 | Nihat ve Tarkan reçel izinde kayıp birbirine çarpıyor, balıkçı ağına düşüyor | kovalamaca 4 |
+| K180 | Peri'nin fırlattığı kavanozun reçelinde Nihat ve Tarkan kayıp birbirine çarpıyor, balıkçı ağına düşüyor | kovalamaca 4 |
 | K181 | Cengo ağın ipini iskele babasına bağlıyor; eldiveni reçelli, bir düğmesi kopuk | kovalamaca 4 |
 | K182 | reçelli Peri Cengo'nun koluna tutunmuş, gülüyor | kovalamaca 4 |
 | K183 | bahçe hortumu: Peri yüzünü yıkıyor; Cengo mantoyu omzuna koyuyor | kovalamaca sonu |
