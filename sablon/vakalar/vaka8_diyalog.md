@@ -94,7 +94,7 @@ serbest (SR-A). Sigara yok (19a).
 **GİZEM [triko]:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
 *Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.* {kare: K158, set: kilik}
 *Cengo elindeki simidi düşürüyor.* {kare: K158}
-**CENGO [gulen]:** Ben bu aşçıya her şeyi yedirirdim. {kare: K158}
+**CENGO [gulen]:** *(sırıtarak)* Olmuş mu şimdi bu? Ahçı mı olmuş? {kare: K158}
 **PERİ [kas]:** Sen önce şoför ol, Cengo. {kare: K158}
 **CENGO [gulen]:** Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 *Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.* {kare: K159, cset: sofor}

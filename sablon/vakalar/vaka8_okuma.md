@@ -84,7 +84,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `94` **GİZEM:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz.  
 `95` *Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.*  
 `96` *Cengo elindeki simidi düşürüyor.*  
-`97` **CENGO:** Ben bu aşçıya her şeyi yedirirdim.  
+`97` **CENGO:** *(sırıtarak)* Olmuş mu şimdi bu? Ahçı mı olmuş?  
 `98` **PERİ:** Sen önce şoför ol, Cengo.  
 `99` **CENGO:** Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim.  
 `100` *Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.*  
