@@ -22,7 +22,8 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | **Haldun Bey** | Gamze'nin evleneceği adam (damat). *(Vaka 6, 12 Kasım 2026.)* |
 | **Müzeyyen Hanım** | Gamze'nin annesi, Eylül'ün anneannesi. *(Vaka 6, 12 Kasım 2026.)* |
 | **Jale Hanım** | Haldun Bey'in eski eşi. *(Vaka 6, 12 Kasım 2026.)* |
-| **Avukat** | Peri'yi dolandırıp kaçtı. Paravan'ı vergi için o kurdu, Cengo'yu bordroya o yazdı. Vaka 8'de döner. |
+| **Avukat** | Peri'yi dolandırıp kaçtı. Paravan'ı vergi için o kurdu, Cengo'yu bordroya o yazdı. Vaka 8'de döner. Adı **Nihat Kora**, 55; Peri'ye "Perihan" der. Yöntemi: genel vekâlet, vekâletle hayalet şirketler, şirket gerçek görünsün diye gerçek kişileri bordroya yazmak. Cengo'yu tanımaz: Cengo Karaköy'deki otoparkta çalışırken kimlik fotokopisini müdürden aldılar, yüzünü hiç görmedi *(Vaka 8, ortağın onayı, 19 Kasım 2026)*. |
+| **Ozan** | Nihat Kora'nın evrak adamı; Paravan'ın kâğıtlarını o taşıdı, Peri'yi tanır *(Vaka 8, 19 Kasım 2026)*. |
 | **Hilmi Bey** | İcra memuru, otuzlarında. Açılışta Peri'nin evini haczeder. Annesi bir zamanlar Peri'ye oy vermiş. |
 | **Ev sahibi** | Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan saklanır. **Yalnız komedi:** parayı etkilemez. |
 | **Gizem** (yan karakter) | Vaka 3'te gelir: pastanenin genç kadın çalışanı (tezgâhtar), yirmili yaşlarının ortasında — yetişkin. Hazırcevap, lafını esirgemez; seksi ve işveli. Cengo'yla atışır; Peri'yi zaman zaman kıskançlık krizine sokar. Vakadan sonra büroya yerleşir. *(Sahibinin kararı, 17 Ekim 2026.)* Lise mezuniyet balosu elbisesini (gece mavisi saten) saklıyor; Vaka 7'de Peri'ye ödünç verir *(15 Kasım 2026)*. Vaka 3'te: Karaköy'deki Susam Pastanesi'nde (büroya birkaç sokak) çalışır; Cengo orada veresiye yer. Artan simitleri, yasak olduğu hâlde, apartmanındaki yaşlılara götürür. Vakanın sonunda istifa eder, maaşsız büroya gelir, çay ocağını üstlenir; unvanı yok. *(Onay 1, 17 Ekim 2026.)* |
@@ -39,7 +40,7 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | nesne | bilinen |
 |---|---|
 | **Kırmızı manto** | Peri'nin evden çıkardığı tek giysi. |
-| **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (kural 27; 16 Kasım 2026'da kasa kalktı, "kasada biriken parayla" geçersiz). 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*. |
+| **Taç** | Peri'nin güzellik kraliçesi tacı. Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (kural 27; 16 Kasım 2026'da kasa kalktı, "kasada biriken parayla" geçersiz). 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*. Vaka 8'de büroda, kadife kutusunda durur *(19 Kasım 2026)*. |
 | **Pırlanta kolye** | Peri hacizden ince bir pırlanta kolyeyi kurtarmıştı (giysi değil; manto "tek giysi" kalır) *(Vaka 7, 15 Kasım 2026)*. |
 | **Büro anahtarı** | Peri'nin anahtarı kapıyı açmaz. |
 | **Tel** | Cengo'nun göğüs cebinde hep bir tel vardır. Kilit açar. |
@@ -70,7 +71,7 @@ Her oyuncu için aynıdır; kararlar değiştirmez.
 - ~~Yan karakterin adı, kişiliği, çırak mı garson mu~~ → Gizem, tezgâhtar, hazırcevap (17 Ekim 2026)
 - ~~Cengo'nun kızının adı~~ → Eylül (Vaka 6, 12 Kasım 2026)
 - Cengo ile Gamze'nin neden ayrıldığı → ileride
-- Avukatın adı ve Cengo'yla bağlantısı → Vaka 8
+- ~~Avukatın adı ve Cengo'yla bağlantısı~~ → Nihat Kora; Cengo'yu tanımaz, kimliğini otoparktan aldılar (Vaka 8, 19 Kasım 2026)
 
 ---
 

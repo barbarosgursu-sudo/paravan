@@ -1,6 +1,6 @@
 # VAKA 8 FORMU — İADE (SEZON FİNALİ)
 
-Şablon 6'ya göre (19 Kasım 2026 güncel hâli). Durum: **TASLAK — Onay 1 bekliyor.** Kaynak: `vaka8_baslangic.md` §1b
+Şablon 6'ya göre (19 Kasım 2026 güncel hâli). Durum: **ONAY 1 VERİLDİ (19 Kasım 2026, ortak; düzeltme: kovalamacada Yeniköy)** — sıradaki: adım 3 diyalog. Kaynak: `vaka8_baslangic.md` §1b
 (ortağın ana hattı, 19 Kasım 2026).
 🟡 = kanona ekleme (onay ister). 🟢 = görünüş/kıyafet (onay ister). **İsimler öneridir** (Onay 1'de değişebilir).
 
@@ -463,14 +463,14 @@ Yeniköy'deki yalı.
 - [x] Her doğru kanıt için Cengo satırı var (4)
 - [x] Sigara yok (19a)
 - [x] Anı özeti yalnız itirafın söylediğini içeriyor
-- [ ] Yeni kanon onaylandı (§18, Onay 1)
+- [x] Yeni kanon onaylandı (§18, Onay 1; kanona yazıldı)
 - [x] Künye kartları yazıldı (denetim aracı veri adımında)
-- [ ] Yeni yan karakterlerin görünüşü onaylandı ve eski bütün konuklardan ayrışıyor (15c; Onay 1)
+- [x] Yeni yan karakterlerin görünüşü onaylandı ve eski bütün konuklardan ayrışıyor (15c; Onay 1)
 - [x] Önceki vakalardan ayrışma yazıldı (§0)
 - [ ] Replikler anlaşılır ve kutuya sığıyor (diyalog adımında ölçülür)
 - [x] Kural kitabıyla çelişen bir şey yok
 
-## Ortağa sorular *(Onay 1)*
+## Ortağa sorular *(Onay 1, 19 Kasım 2026: hepsi ✅)*
 
 1. İsimler uygun mu? (Bahar, Tarkan/Ozan, Orhan, Fikret, **Nihat Kora**, Emir, Pınar, Yusuf)
 2. Kanon eklemeleri (§18, 4 madde) uygun mu?
