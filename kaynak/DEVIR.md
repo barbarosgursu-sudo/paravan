@@ -17,7 +17,7 @@
 > **Önce `sablon/kurallar/PLAN.md`'yi baştan sona oku** (neden, sahibiyle anlaşma, yapılanlar, plan, bulgular, bekleyen sorular).
 > Kısaca: kurallar 34 belgeye dağılmış ve çoğu kendiliğinden uygulanmıyor (G4 Süheyla = V6 Jale bu yüzden geçti). Ham liste
 > çıkarıldı (`sablon/kurallar/HAM.md`, 3.585 kayıt), eski oyunun 18 belgesi `arsiv/`'e taşındı, `kaynak/OKUBENI.md` bölündü.
-> **Durum (17 Kasım akşam):** adım 1 ve adım 2 bitti; 41 soru cevaplandı ve işlendi (çelişki 0). Sıradaki adım 3 (tek `KURALLAR.md`). Açık tek soru PLAN.md'de (Cengo'nun saçı). **PLAN.md en üstteki kutudan devam.** Sahibiyle en basit, en kısa Türkçe. Oğuz Bey etkilenmez.
+> **Durum (17 Kasım akşam):** adım 1 ve adım 2 bitti; 41 soru cevaplandı ve işlendi (çelişki 0). Sıradaki adım 3 (tek `KURALLAR.md`). Açık soru yok (Cengo'nun saçı her vakada aynı — 19 Kasım). **PLAN.md en üstteki kutudan devam.** Sahibiyle en basit, en kısa Türkçe. Oğuz Bey etkilenmez.
 
 > ## 🛑 OĞUZ BEY'E — VAKA 7 RESİMLERİ DURSUN (Barbaros, 16 Kasım 2026 gece). ÖNCE BARBAROS'LA PERİ'NİN KIYAFETİ KONUŞULACAK.
 >

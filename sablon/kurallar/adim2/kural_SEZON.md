@@ -136,7 +136,7 @@ Tek vakalık karar, genel kural olarak yazılmadı: Vaka 7'de (15 Kasım 2026, o
 ### SEZON-19 Konuklar birbirine benzemez
 Bir vakaya özgü her karakter (müşteri, şüpheli, tanık, yan karakter) önceki vakaların BÜTÜN konuklarından açıkça farklıdır (ortağın kararı,
 16 Kasım 2026, bütün seri: "sadece vaka 7 için özel ürettiğin kişiler tamamıyla diğer karakterlerden farklı olacak"). Sürekli karakterler (Peri,
-Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir: onların **yüzü ve kimliği aynı kalır; kıyafet, saç ve takı vakaya göre değişir** (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 30). Benzer yan karakterler yaş, yapı, saç, bıyıkla ayrışır (üç yaşlı bıyıklı balıkçı olmaz).
+Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir: onların **yüzü ve kimliği aynı kalır; kıyafet, saç ve takı vakaya göre değişir** (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 30). İstisna: **Cengo'nun saçı her vakada aynı kalır** (KAR-24) (sahibinin kararı, 19 Kasım 2026). Benzer yan karakterler yaş, yapı, saç, bıyıkla ayrışır (üç yaşlı bıyıklı balıkçı olmaz).
 - Vaka formu onaya gitmeden kontrol edilir: yeni yan karakterlerin görünüşü onaylandı ve benzerlerinden ayrışıyor.
 - Yüz aracının uyarısı (≥ 0,70) yetmez, göz karar verir: V7 Parti 1'de 0,64–0,68 puanlı Necmi ve Ercan gözle Recep'in yüzüydü, Kaan Bülent'in.
   Temel üretilince her yeni konuk, aracın bulduğu en yakın İKİ eski konukla yan yana konur ve gözle bakılır (yüz biçimi, saç, beden, yaş);
@@ -166,7 +166,7 @@ mekân bu sayfayla yan yana konur; benzeyen reddedilir.
 *Kaynak:* 1205, 1206
 
 ### SEZON-22 Peri ve Cengo her vakada yeni kıyafet
-Her vakada Peri ile Cengo'nun kıyafeti, saçı, takısı, aksesuarı vakaya göre değişir (sahibinin isteği); bu yüzden kıyafet kütüphanesi tutulmaz.
+Her vakada Peri ile Cengo'nun kıyafeti, takısı, aksesuarı vakaya göre değişir (sahibinin isteği); Peri'nin saçı da değişir, **Cengo'nun saçı değişmez** (sahibinin kararı, 19 Kasım 2026); bu yüzden kıyafet kütüphanesi tutulmaz.
 Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `kaynak/YENI_OYUN_SEZON.md` §9).
 *Kaynak:* 1857, 3084, 1971
 

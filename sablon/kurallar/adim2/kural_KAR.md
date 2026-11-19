@@ -50,7 +50,7 @@ Sahibinin kararı, 10 Ekim 2026. Eski güzellik kraliçesi olduğu için vakadak
 - **Kendini fazla beğenir:** "Bende bir his var" diye başlayan her cümle oyuncuyu tedirgin etmeli.
 - **Güçlü yanı: insanlar ona açılır.** Peri'nin kapısı kapalı kalan yerde Cengo çay içip çıkar.
 - **Asla soytarı olmaz.** Esprisi bir zırhtır; altında bir şey olduğunu oyuncu arada bir görür, Cengo hemen kapatır.
-- Görünüşünde sabit olan: yüz, saç, tel ve bileklik (KAR-24). Ceket ve öbür kıyafetler her vakada değişir (KAR-22) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17).
+- Görünüşünde sabit olan: yüz, saç (her vakada aynı; 19 Kasım 2026'da sahibince teyit edildi), tel ve bileklik (KAR-24). Ceket ve öbür kıyafetler her vakada değişir (KAR-22) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17).
 - Geçmişi: eski oyundaki hapis sırrı (bir kadının yerine hapis yatması) **kalktı** (sahibinin kararı, 4 Ekim 2026). Yerine yeni, hafif bir sır: tek bir vakada açılır, hüzünlüdür ama yıkıcı değildir, sonra ton geri gelir. Sır: uzaktaki kızı (KAR-29).
 *Kaynak:* 182, 1736, 1739, 1740, 1741, 1742, 1743, 1838, 1840
 

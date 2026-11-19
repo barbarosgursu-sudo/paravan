@@ -11,9 +11,7 @@
 > bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
 > **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
 >
-> **Açık tek soru (sahibine soruldu, cevap yok):** soru 17 "Cengo'nun saçı her vakada aynı" ile soru 30 / SEZON-22 "Peri ve Cengo'nun
-> saçı her vakada değişir" (Ekim kararı) birbirini tutmuyor. Öneri: Cengo'nun saçı da değişebilir; sabit yalnız yüz, tel, bileklik.
-> Onaylanırsa `adim2/kural_KAR.md` KAR-7, KAR-22, KAR-24'teki "yüz, saç, tel ve bileklik" → "yüz, tel ve bileklik".
+> **Cengo'nun saçı (19 Kasım 2026, sahibinin cevabı):** değişmez, her vakada aynı. KAR ve SEZON-19/22 işlendi. Açık soru kalmadı.
 >
 > **Yetki (17 Kasım akşam):** Barbaros'un sınırı doldu (Cuma sıfırlanır); işi Oğuz Bey'in hesabıyla sürdürecek. O hesap her şeye
 > yetkili (kod dahil).
