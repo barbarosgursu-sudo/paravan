@@ -101,4 +101,5 @@ ile okunur (TZ verme).
 
 | adım (7. parça) | başladı | bitti | ortak | makine | not |
 |---|---|---|---|---|---|
-| 0 Konu seçimi | 19 Kas 20:59 | | | | kurallar V7'den sonra güncellendi (6. parça, 15c, tekrar tablosu) |
+| 0 Konu seçimi | 19 Kas 20:59 | 19 Kas 21:43 | sohbet (~45 dk) | — | kurallar V7'den sonra güncellendi (6. parça, 15c, tekrar tablosu); ana hat §1b |
+| 1 Form | 19 Kas 21:44 | 19 Kas 21:55 | 0 | ~11 dk | `vaka8_form.md`; isimler öneri; 4 kanon önerisi 🟡; doğru üçlü 10/20 |
