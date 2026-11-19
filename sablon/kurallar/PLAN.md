@@ -11,6 +11,12 @@
 > bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
 > **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
 >
+> **▶️ ANLAŞILAN SIRA (19 Kasım 2026, sahibi: "bu şekilde ilerleyelim", haftalık sınır yenilenince başlanır):** üretim (Barbaros ve
+> Oğuz Bey) kural işinin bitmesini beklemesin. (1) Sahibinin onayladığı 41 kararın + Cengo'nun saçı kararının KISA listesi üretimin
+> okuduğu belgelerin en üstüne konur (`uretim/CLAUDE.md`, kök `CLAUDE.md`, gerekirse `sablon/` parçaları) — karar metni
+> `adim2/celiski_*.md` "Cevap" satırları. (2) Konuk benzerliği denetimi (aşağıdaki kutu) kurulur. (3) Üretim yeniden başlar. Adım 3 ve
+> adım 4'ün kalanı arka planda, parça parça (sınır bitmesin diye ajan çoğaltmadan, mümkünse programla).
+>
 > **⚠ ADIM 4'TE UNUTMA — KONUK BENZERLİĞİ (19 Kasım 2026, sahibi "son adımda unutmayalım" dedi):** yüzü silinmiş tarz referansı
 > (ISTEM-12) aynen kalır. Üstüne iki otomatik denetim, adım 4'ün İLK işlerinden: (1) **üretimden önce** her yeni konuğun görünüş
 > tablosu (yaş, saç rengi, saç kesimi, yüz biçimi, beden, ayırıcı işaret) önceki vakaların BÜTÜN konuklarıyla program tarafından
