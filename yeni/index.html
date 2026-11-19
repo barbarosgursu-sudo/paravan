@@ -3076,6 +3076,8 @@ function vnAkisKur(tur, ek){
   // Yüzleşme → kovalamaca → karar sahnesi (16 Kasım 2026, kural 22a): sahne kesilmez, seçim konuşmanın içinde.
   if(tur === "yuzlesme") return { sahneler: [s[ek.sahne], s.kovalamaca, kararSahnesi(v)], sonra: () => kararVerFaz(vnKararId), baslik: v.baslik };
   if(tur === "kapanis") return { sahneler: [s.kapanis], sonra: () => kacanEkrani(v.id), baslik: v.baslik };
+  // Kim yaptı?'dan önceki sahne (19 Kasım 2026, ortağın kararı — Vaka 8 "ters köşe"): veride varsa bir kez oynar.
+  if(tur === "ters") return { sahneler: [s.ters_kose], sonra: () => kimYaptiEkrani(), baslik: v.baslik };
   return null;
 }
 function akisBaslat(tur, ek = {}, n = 0, devam = null, sonraOzel = null){
@@ -3091,6 +3093,7 @@ function vnAkisGecerli(y){
   if(y.tur === "ipucu") return !!a && a.id === y.vaka && a.acilanKaynaklar.has(y.ipucu);
   if(y.tur === "yuzlesme") return !!a && a.id === y.vaka && !!a.suclama;
   if(y.tur === "kapanis") return !a && oyun.durum.tamamlanan.includes(y.vaka);
+  if(y.tur === "ters") return !!a && a.id === y.vaka && !a.suclama;
   return false;
 }
 function akisDevam(y){
@@ -3136,6 +3139,9 @@ vakaAc = function(id){
   oyun.vakaBaslat(id);
   sonAcilan = null;
   kayitYaz();
+  // Vaka baştan açılınca "ters köşe" yeniden oynanabilsin (kimYaptiAc).
+  try{ const t = JSON.parse(localStorage.getItem(KAYIT_ANAHTAR + "_ters")) || [];
+       localStorage.setItem(KAYIT_ANAHTAR + "_ters", JSON.stringify(t.filter(x => x !== id))); }catch(e){}
   const v = oyun.durum.aktif.vaka;
   const s = v.sahneler || {};
   vnSonSet = "manto"; vnKasaGorunur = true;
@@ -3185,7 +3191,7 @@ arastirmaFazi = function(){
   document.querySelectorAll('.faz > .bilgi').forEach(el => { if(/Karar verebilmek/.test(el.textContent)) el.remove(); });
   const b = document.createElement("button");
   b.className = "buton"; b.textContent = "Kim yaptı? →";
-  b.addEventListener("click", () => kimYaptiEkrani());
+  b.addEventListener("click", () => kimYaptiAc());
   document.querySelector(".faz").append(b);
   // Reklam yalnız hak bitince ve açılabilecek ipucu kaldıysa (sahibinin kararı, 16 Ekim 2026).
   if(!a.reklamHak && a.arastirmaKalan <= 0 && oyun.acikKaynaklar().length){
@@ -3201,9 +3207,22 @@ arastirmaFazi = function(){
 };
 kararFazi = function(){
   const a = oyun.durum.aktif;
-  if(a && a.vaka.kim_yapti && !a.suclama){ kimYaptiEkrani(); return; }
+  if(a && a.vaka.kim_yapti && !a.suclama){ kimYaptiAc(); return; }
   kararEkrani();
 };
+// Kim yaptı?'ya giriş: vakanın `ters_kose` sahnesi varsa önce o oynar (vaka başına bir kez; araştırmaya dönüp
+// yeniden gelen oyuncuya tekrar oynamaz). Hatırlama yalnız bu tarayıcıda; silinirse sahne bir kez daha oynar, zararsız.
+const TERS_ANAHTAR = KAYIT_ANAHTAR + "_ters";
+function kimYaptiAc(){
+  const a = oyun.durum.aktif;
+  const ters = a && (a.vaka.sahneler || {}).ters_kose;
+  let oynanan = [];
+  try{ oynanan = JSON.parse(localStorage.getItem(TERS_ANAHTAR)) || []; }catch(e){}
+  if(!ters || oynanan.includes(a.id)){ kimYaptiEkrani(); return; }
+  try{ localStorage.setItem(TERS_ANAHTAR, JSON.stringify([...oynanan, a.id])); }catch(e){}
+  vnSonSet = "manto";
+  akisBaslat("ters", { vaka: a.id });
+}
 
 /* İki adım (sahibinin görselsiz testi, 9 Ekim 2026): önce şüpheli, sonra kanıt.
    Kanıtlar şüpheliye göre SÜZÜLMEZ (süzmek hangi kanıtın önemli olduğunu söylemek olurdu).
