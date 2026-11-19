@@ -84,7 +84,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `94` **GİZEM:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz.  
 `95` *Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.*  
 `96` *Cengo elindeki simidi düşürüyor.*  
-`97` **CENGO:** *(sırıtarak)* Olmuş mu şimdi bu? Ahçı mı olmuş?  
+`97` **CENGO:** *(sırıtarak)* Olmuş mu şimdi bu? Aşçı mı olmuş?  
 `98` **PERİ:** Sen önce şoför ol, Cengo.  
 `99` **CENGO:** Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim.  
 `100` *Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.*  
@@ -138,23 +138,23 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 
 ## 3c. İpucu — Fikret Usta (Samatya)
 
-> **Mekân (A63):** Samatya: küçük lokanta, duvarlarda eski fotoğraflar ve çerçeveli bir belge (yazı okunmaz)
+> **Mekân (A63):** Samatya: küçük lokanta, duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa
 
-> **Açıklama:** Samatya, küçük lokanta; duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân), çerçeveli bir belge. Fikret Cengo'yu sever, Peri'yi tanır (şaka 1 doruğu: "Önlük sana yakışmamış"). Notları kabul eder: o da aynı yöntemle soyuldu. Duvardaki çerçeve: Bahar'ın vekâletini bir yıl önce iptal ettirdi.
+> **Açıklama:** Samatya, küçük lokanta; duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân), tezgâhın arkasında eski bir kasa. Fikret Cengo'yu sever, Peri'yi tanır (şaka 1 doruğu: "Önlük sana yakışmamış"; Peri: "Kraliçeye ne yakışmaz!"). Notları kabul eder: o da aynı yöntemle soyuldu. Kasadaki dosya: Bahar'ın vekâletini bir yıl önce iptal ettirdi; iptal kâğıdını orada saklıyor.
 
-`154` *Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, aralarında çerçeveli bir belge.*  
+`154` *Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa.*  
 `155` *Beyaz uzun saçını at kuyruğu yapmış, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.*  
-`156` **FİKRET:** Kapalıyız. Sen şoför müsün, kaptan mı? Otur, çorba var.  
+`156` **FİKRET:** Sen şoför müsün, kaptan mı? Kapalıyız ama otur, çorba var.  
 `157` **CENGO:** Çorbaya hayır demem, usta.  
 `158` *Fikret Peri'yi görünce gülüyor.*  
 `159` **FİKRET:** Kraliçe! Önlük sana yakışmamış, kızım.  
-`160` **PERİ:** Planlamıştım. Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta?  
+`160` **PERİ:** Kraliçeye ne yakışmaz! Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta?  
 `161` **FİKRET:** Ben bırakıyorum. Adımı yazmadım; yazsam okumaz, bana küs.  
 `162` **FİKRET:** Bana da aynısını yaptılar. Bir "avukat", bir vekâlet, olmayan firmalar. Lokantam gitti.  
 `163` **FİKRET:** O Tarkan'ı televizyonda görünce tanıdım. Yüzünü değil, konuşmasını. "Markanızı ben korurum."  
 `164` **CENGO:** Bahar Hanım'ın vekâleti sizde de var mı? Eskiden ortaktınız.  
-`165` *Fikret duvardaki çerçeveyi gösteriyor: noter mühürlü bir kâğıt.*  
-`166` **FİKRET:** Vardı. Bir yıl önce noterde iptal ettirdim. Bir daha kimse kimsenin adına imza atmasın diye astım.  
+`165` *Fikret tezgâhın arkasındaki eski kasayı açıp bir dosya çıkarıyor; içinde noter mühürlü bir kâğıt.*  
+`166` **FİKRET:** Vardı. Bir yıl önce noterde iptal ettirdim. Kâğıdı paradan değerli; kasada saklıyorum.  
 `167` **PERİ:** Bahar Hanım'a bunu neden söylemediniz?  
 `168` **FİKRET:** Söyleseydim "kıskanıyorsun" derdi. Belki kıskanıyorum da. Ama soyulmasını istemem.  
 
@@ -371,7 +371,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `368` **sifre_iki:** Şifreyi bilen iki kişiydi, Peri. Biri o adamdı. Onu söyleseydin "kanıtınız ne" diyemezdi.  
 `369` **kurulus_vekalet:** Firmayı vekâletle açmışlar, Peri. Vekâlet kimdeydi, Yusuf Efendi'nin kâğıdı yazıyordu.  
 `370` **odeme_gecesi:** Nevzat Bey o geceler kulisteydi, Peri. Para kendi kendine çıkmadı.  
-`371` **ortak_iptal:** Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Duvarda asılıydı.  
+`371` **ortak_iptal:** Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Kâğıdı kasasında duruyordu.  
 
 ## 9. Dosya kapandı kartı (çözüm)
 
@@ -391,7 +391,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `392` **nevzat_saklar:** Gece taksi fişleri  
 `393` **odeme_gecesi:** Ödeme geceleri  
 `394` **ortak_kurban:** Fikret'in eski yarası  
-`395` **ortak_iptal:** Duvardaki noter belgesi  
+`395` **ortak_iptal:** Noterin iptal kâğıdı  
 `396` **kurulus_vekalet:** Posta kutusunun kâğıdı  
 `397` **bordro_genc:** Bordrodaki genç  
 `398` **nevzat_ask:** Kartsız çiçekler  
@@ -405,7 +405,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `408` **HİKÂYE:** Avukat Nihat Kora, Peri'nin hesaplarını boşaltıp yurt dışına kaçmıştı. Yıllarca evrakını taşıyan adamı Ozan, yöntemini ezbere biliyordu: genel vekâlet, vekâletle kurulan hayalet firmalar, gerçek görünsünler diye bordroya yazılan gerçek kişiler. Nihat dönünce yeni bir av seçtiler; Ozan "Avukat Tarkan" olarak öne çıktı, Nihat Yeniköy'de kiralık bir yalıda saklandı.  
 `409` **HİKÂYE:** Tarkan, kendi markasını kuran televizyon aşçısı Bahar Hanım'ın programına konuk oldu ve vekâletini aldı. Vekâletle "Kavanoz Ambalaj" diye bir firma kurdu; adresi Mecidiyeköy'de bir posta kutusuydu. Firmanın bordrosuna, Karaköy otoparkındaki genç Emir'i yazdı; kimliğini müdürden telefonla almıştı.  
 `410` **HİKÂYE:** Muhasebeci Nevzat Bey, "denetim için" isteyen avukata şifresini kendi verdi. Tarkan üç çekim gecesi, gece ikide, o şifreyle dışarıdan ödeme gönderdi. O gecelerin üçünde de Nevzat stüdyodaydı: yıllardır âşık olduğu Bahar Hanım'ı kuliste izliyor, kimse bilmesin istiyordu.  
-`411` **HİKÂYE:** Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının duvarına asmıştı. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan "Avukatına güvenme" diye notlar bıraktı. Herkes onları tehdit sandı.  
+`411` **HİKÂYE:** Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının kasasında, bir dosyada saklıyordu. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan "Avukatına güvenme" diye notlar bıraktı. Herkes onları tehdit sandı.  
 `412` **HİKÂYE:** Lansman gecesi yatırımcının parası girecek, Tarkan hesabı boşaltıp payını almak için Nihat'a gidecekti. Bahar ödemeleri bankadan öğrendi ve Peri'ye geldi.  
 
 ## 13a. Karar — İkisini de polise teslim et

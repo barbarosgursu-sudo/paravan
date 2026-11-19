@@ -94,7 +94,7 @@ serbest (SR-A). Sigara yok (19a).
 **GİZEM [triko]:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
 *Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.* {kare: K158, set: kilik}
 *Cengo elindeki simidi düşürüyor.* {kare: K158}
-**CENGO [gulen]:** *(sırıtarak)* Olmuş mu şimdi bu? Ahçı mı olmuş? {kare: K158}
+**CENGO [gulen]:** *(sırıtarak)* Olmuş mu şimdi bu? Aşçı mı olmuş? {kare: K158}
 **PERİ [kas]:** Sen önce şoför ol, Cengo. {kare: K158}
 **CENGO [gulen]:** Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 *Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.* {kare: K159, cset: sofor}
@@ -148,22 +148,22 @@ serbest (SR-A). Sigara yok (19a).
 
 ## ipucu fikret
 ⚙ arka: A63 · figurler: peri, cengo · set: kilik · cset: sofor
-⚙ akış: Samatya, küçük lokanta; duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân), çerçeveli bir belge. Fikret Cengo'yu sever, Peri'yi tanır (şaka 1 doruğu: "Önlük sana yakışmamış"). Notları kabul eder: o da aynı yöntemle soyuldu. Duvardaki çerçeve: Bahar'ın vekâletini bir yıl önce iptal ettirdi.
+⚙ akış: Samatya, küçük lokanta; duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân), tezgâhın arkasında eski bir kasa. Fikret Cengo'yu sever, Peri'yi tanır (şaka 1 doruğu: "Önlük sana yakışmamış"; Peri: "Kraliçeye ne yakışmaz!"). Notları kabul eder: o da aynı yöntemle soyuldu. Kasadaki dosya: Bahar'ın vekâletini bir yıl önce iptal ettirdi; iptal kâğıdını orada saklıyor.
 ⚙ Kural 21c: Fikret'i yöntemi bilen eski kurban olarak gösterir (yanıltır); iptal belgesi onu vekâlet tarafından aklar.
 
-*Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, aralarında çerçeveli bir belge.* {arka: A63, mekan}
+*Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa.* {arka: A63, mekan}
 *Beyaz uzun saçını at kuyruğu yapmış, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.* {gir: fikret, gi: huysuz, ekran: fikret}
-**FİKRET [huysuz]:** Kapalıyız. Sen şoför müsün, kaptan mı? Otur, çorba var. {gir: fikret, kime: cengo, ekran: cengo+fikret, yuz: cengo.normal}
+**FİKRET [huysuz]:** Sen şoför müsün, kaptan mı? Kapalıyız ama otur, çorba var. {gir: fikret, kime: cengo, ekran: cengo+fikret, yuz: cengo.normal}
 **CENGO [gulen]:** Çorbaya hayır demem, usta. {kime: fikret, ekran: cengo+fikret, yuz: fikret.huysuz}
 *Fikret Peri'yi görünce gülüyor.* {gir: fikret, gi: guler, ekran: peri+fikret, yuz: peri.kas}
 **FİKRET [guler]:** Kraliçe! Önlük sana yakışmamış, kızım. {kime: peri, ekran: peri+fikret, yuz: peri.kas}
-**PERİ [kas]:** Planlamıştım. Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta? {kime: fikret, ekran: peri+fikret, yuz: fikret.guler}
+**PERİ [kas]:** Kraliçeye ne yakışmaz! Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta? {kime: fikret, ekran: peri+fikret, yuz: fikret.guler}
 **FİKRET [huysuz]:** Ben bırakıyorum. Adımı yazmadım; yazsam okumaz, bana küs. {kime: peri, ekran: peri+fikret, yuz: peri.kas}
 **FİKRET [huzunlu]:** Bana da aynısını yaptılar. Bir "avukat", bir vekâlet, olmayan firmalar. Lokantam gitti. {ekran: peri+fikret, yuz: peri.kas}
 **FİKRET [huzunlu]:** O Tarkan'ı televizyonda görünce tanıdım. Yüzünü değil, konuşmasını. "Markanızı ben korurum." {ekran: peri+fikret, yuz: peri.kas}
 **CENGO [normal]:** Bahar Hanım'ın vekâleti sizde de var mı? Eskiden ortaktınız. {kime: fikret, ekran: cengo+fikret, yuz: fikret.huzunlu}
-*Fikret duvardaki çerçeveyi gösteriyor: noter mühürlü bir kâğıt.* {kare: D30}
-**FİKRET [huysuz]:** Vardı. Bir yıl önce noterde iptal ettirdim. Bir daha kimse kimsenin adına imza atmasın diye astım. {kare: D30}
+*Fikret tezgâhın arkasındaki eski kasayı açıp bir dosya çıkarıyor; içinde noter mühürlü bir kâğıt.* {kare: D30}
+**FİKRET [huysuz]:** Vardı. Bir yıl önce noterde iptal ettirdim. Kâğıdı paradan değerli; kasada saklıyorum. {kare: D30}
 **PERİ [yumusak]:** Bahar Hanım'a bunu neden söylemediniz? {kime: fikret, ekran: peri+fikret, yuz: fikret.huysuz}
 **FİKRET [huzunlu]:** Söyleseydim "kıskanıyorsun" derdi. Belki kıskanıyorum da. Ama soyulmasını istemem. {kime: peri, ekran: peri+fikret, yuz: peri.yumusak}
 
@@ -368,7 +368,7 @@ serbest (SR-A). Sigara yok (19a).
 **sifre_iki [normal]:** Şifreyi bilen iki kişiydi, Peri. Biri o adamdı. Onu söyleseydin "kanıtınız ne" diyemezdi. {yuz: peri.kas}
 **kurulus_vekalet [normal]:** Firmayı vekâletle açmışlar, Peri. Vekâlet kimdeydi, Yusuf Efendi'nin kâğıdı yazıyordu. {yuz: peri.kas}
 **odeme_gecesi [kas]:** Nevzat Bey o geceler kulisteydi, Peri. Para kendi kendine çıkmadı. {yuz: peri.utanmis}
-**ortak_iptal [normal]:** Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Duvarda asılıydı. {yuz: peri.kas}
+**ortak_iptal [normal]:** Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Kâğıdı kasasında duruyordu. {yuz: peri.kas}
 
 ---
 
@@ -392,7 +392,7 @@ serbest (SR-A). Sigara yok (19a).
 **nevzat_saklar:** Gece taksi fişleri
 **odeme_gecesi:** Ödeme geceleri
 **ortak_kurban:** Fikret'in eski yarası
-**ortak_iptal:** Duvardaki noter belgesi
+**ortak_iptal:** Noterin iptal kâğıdı
 **kurulus_vekalet:** Posta kutusunun kâğıdı
 **bordro_genc:** Bordrodaki genç
 **nevzat_ask:** Kartsız çiçekler
@@ -408,7 +408,7 @@ serbest (SR-A). Sigara yok (19a).
 **HİKÂYE:** Avukat Nihat Kora, Peri'nin hesaplarını boşaltıp yurt dışına kaçmıştı. Yıllarca evrakını taşıyan adamı Ozan, yöntemini ezbere biliyordu: genel vekâlet, vekâletle kurulan hayalet firmalar, gerçek görünsünler diye bordroya yazılan gerçek kişiler. Nihat dönünce yeni bir av seçtiler; Ozan "Avukat Tarkan" olarak öne çıktı, Nihat Yeniköy'de kiralık bir yalıda saklandı.
 **HİKÂYE:** Tarkan, kendi markasını kuran televizyon aşçısı Bahar Hanım'ın programına konuk oldu ve vekâletini aldı. Vekâletle "Kavanoz Ambalaj" diye bir firma kurdu; adresi Mecidiyeköy'de bir posta kutusuydu. Firmanın bordrosuna, Karaköy otoparkındaki genç Emir'i yazdı; kimliğini müdürden telefonla almıştı.
 **HİKÂYE:** Muhasebeci Nevzat Bey, "denetim için" isteyen avukata şifresini kendi verdi. Tarkan üç çekim gecesi, gece ikide, o şifreyle dışarıdan ödeme gönderdi. O gecelerin üçünde de Nevzat stüdyodaydı: yıllardır âşık olduğu Bahar Hanım'ı kuliste izliyor, kimse bilmesin istiyordu.
-**HİKÂYE:** Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının duvarına asmıştı. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan "Avukatına güvenme" diye notlar bıraktı. Herkes onları tehdit sandı.
+**HİKÂYE:** Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının kasasında, bir dosyada saklıyordu. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan "Avukatına güvenme" diye notlar bıraktı. Herkes onları tehdit sandı.
 **HİKÂYE:** Lansman gecesi yatırımcının parası girecek, Tarkan hesabı boşaltıp payını almak için Nihat'a gidecekti. Bahar ödemeleri bankadan öğrendi ve Peri'ye geldi.
 
 ## karar polis
@@ -478,7 +478,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | A60 | büro, gündüz (Vaka 8 için yeniden); masada kapalı kadife kutu | giriş, konuşma |
 | A61 | Kurtuluş: atölyenin üstünde dar muhasebe odası, klasörler, hesap makinesi | nevzat |
 | A62 | Maslak: televizyon stüdyosu, ışıklar altında mutfak dekoru, kameralar | studyo |
-| A63 | Samatya: küçük lokanta, duvarlarda eski fotoğraflar ve çerçeveli bir belge (yazı okunmaz) | fikret |
+| A63 | Samatya: küçük lokanta, duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa | fikret |
 | A64 | Mecidiyeköy: dar kargo dükkânı, duvar boyu numaralı posta kutuları (numara dışında yazı yok) | posta |
 | A65 | Karaköy: otopark, girişte görevli kulübesi (tabela/marka yok) | emir |
 | A66 | stüdyo kulisi: ampullü ayna, masada kartsız buket | kulis |
@@ -489,7 +489,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | A71 | büro, gece (Vaka 8 için yeniden) | kapanış |
 | D28 | ekranda alt alta üç ödeme satırı (rakam, ad okunmaz) | nevzat |
 | D29 | masada bir yığın taksi fişi (yazı okunmaz) | nevzat |
-| D30 | duvarda çerçeveli, noter mühürlü kâğıt (yazı okunmaz) | fikret |
+| D30 | Fikret'in elinde lokantanın eski kasasından çıkmış açık dosya, içinde noter mühürlü kâğıt (yazı okunmaz) | fikret |
 | D31 | tezgâhta açık kalın defter (yazı okunmaz) | posta |
 | D32 | deftere iliştirilmiş noter kâğıdı, Peri'nin eli (yazı okunmaz) | posta |
 | D33 | Tarkan'ın elinde titreyen telefon, ekranda tek harf "N" | yüzleşmeler |

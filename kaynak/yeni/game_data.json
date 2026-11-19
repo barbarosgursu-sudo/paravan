@@ -9903,7 +9903,7 @@
         "nevzat_saklar": "Nevzat Bey'in masasında bir yığın gece taksi fişi var; nereye gittiğini söylemiyor, kızarıyor.",
         "odeme_gecesi": "Ödemelerin yapıldığı üç gece stüdyoda çekim sabaha kadar sürdü. Nevzat Bey üçünde de sabaha kadar kulisteydi; yapım asistanı Pınar onu gördü.",
         "ortak_kurban": "Fikret Usta'yı yıllar önce başka bir \"avukat\" aynı yöntemle soydu: vekâlet, olmayan firmalar. Lokantası gitti. İsimsiz notları o bırakıyor.",
-        "ortak_iptal": "Fikret Usta'nın Bahar Hanım'dan aldığı eski vekâlet, bir yıl önce noterde iptal edilmiş; belgesi lokantanın duvarında çerçeveli.",
+        "ortak_iptal": "Fikret Usta'nın Bahar Hanım'dan aldığı eski vekâlet, bir yıl önce noterde iptal edilmiş; iptal kâğıdı lokantanın kasasında, bir dosyada duruyor.",
         "kurulus_vekalet": "Kavanoz Ambalaj Bahar Hanım adına vekâletle açılmış; adresi Mecidiyeköy'de bir posta kutusu. Bahar Hanım'ın vekâlet verdiği iki kişi var: eski ortağı Fikret Usta ve avukatı Tarkan Bey.",
         "bordro_genc": "Bordrodaki Emir, Karaköy'de bir otoparkta görevli; şirketi hiç görmemiş, ehliyeti bile yok. Kimliğini otopark müdürü vermiş; işe telefonla alınmış. Telefondaki \"avukat bey\"in sesi gençmiş.",
         "nevzat_ask": "Gizem'in yapım asistanı Pınar'dan duyduğuna göre Nevzat Bey her çekim gecesi stüdyoya gelip köşeden Bahar Hanım'ı izliyor; kulisteki kartsız çiçekleri o bırakıyor. Yıllardır ona âşık; kimse bilmesin istiyor."
@@ -10170,7 +10170,7 @@
             "satirlar": [
               {
                 "k": "not",
-                "m": "Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, aralarında çerçeveli bir belge.",
+                "m": "Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa.",
                 "arka": "A63",
                 "mekan": true
               },
@@ -10184,7 +10184,7 @@
               {
                 "k": "fikret",
                 "i": "huysuz",
-                "m": "Kapalıyız. Sen şoför müsün, kaptan mı? Otur, çorba var.",
+                "m": "Sen şoför müsün, kaptan mı? Kapalıyız ama otur, çorba var.",
                 "gir": "fikret",
                 "kime": "cengo",
                 "ekran": "cengo+fikret",
@@ -10217,7 +10217,7 @@
               {
                 "k": "peri",
                 "i": "kas",
-                "m": "Planlamıştım. Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta?",
+                "m": "Kraliçeye ne yakışmaz! Bahar Hanım'ın kapısına notları siz mi bırakıyorsunuz, Fikret Usta?",
                 "kime": "fikret",
                 "ekran": "peri+fikret",
                 "yuz": "fikret.guler"
@@ -10252,11 +10252,15 @@
                 "ekran": "cengo+fikret",
                 "yuz": "fikret.huzunlu"
               },
-              {"k": "not", "m": "Fikret duvardaki çerçeveyi gösteriyor: noter mühürlü bir kâğıt.", "kare": "D30"},
+              {
+                "k": "not",
+                "m": "Fikret tezgâhın arkasındaki eski kasayı açıp bir dosya çıkarıyor; içinde noter mühürlü bir kâğıt.",
+                "kare": "D30"
+              },
               {
                 "k": "fikret",
                 "i": "huysuz",
-                "m": "Vardı. Bir yıl önce noterde iptal ettirdim. Bir daha kimse kimsenin adına imza atmasın diye astım.",
+                "m": "Vardı. Bir yıl önce noterde iptal ettirdim. Kâğıdı paradan değerli; kasada saklıyorum.",
                 "kare": "D30"
               },
               {
@@ -10655,7 +10659,7 @@
           "Avukat Nihat Kora, Peri'nin hesaplarını boşaltıp yurt dışına kaçmıştı. Yıllarca evrakını taşıyan adamı Ozan, yöntemini ezbere biliyordu: genel vekâlet, vekâletle kurulan hayalet firmalar, gerçek görünsünler diye bordroya yazılan gerçek kişiler. Nihat dönünce yeni bir av seçtiler; Ozan \"Avukat Tarkan\" olarak öne çıktı, Nihat Yeniköy'de kiralık bir yalıda saklandı.",
           "Tarkan, kendi markasını kuran televizyon aşçısı Bahar Hanım'ın programına konuk oldu ve vekâletini aldı. Vekâletle \"Kavanoz Ambalaj\" diye bir firma kurdu; adresi Mecidiyeköy'de bir posta kutusuydu. Firmanın bordrosuna, Karaköy otoparkındaki genç Emir'i yazdı; kimliğini müdürden telefonla almıştı.",
           "Muhasebeci Nevzat Bey, \"denetim için\" isteyen avukata şifresini kendi verdi. Tarkan üç çekim gecesi, gece ikide, o şifreyle dışarıdan ödeme gönderdi. O gecelerin üçünde de Nevzat stüdyodaydı: yıllardır âşık olduğu Bahar Hanım'ı kuliste izliyor, kimse bilmesin istiyordu.",
-          "Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının duvarına asmıştı. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan \"Avukatına güvenme\" diye notlar bıraktı. Herkes onları tehdit sandı.",
+          "Bahar'ın eski ortağı Fikret Usta, yıllar önce aynı yöntemle soyulmuştu. Bahar'ın vekâletini bir yıl önce noterde iptal ettirmiş, belgeyi lokantasının kasasında, bir dosyada saklıyordu. Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar küs olduğu için adını yazmadan \"Avukatına güvenme\" diye notlar bıraktı. Herkes onları tehdit sandı.",
           "Lansman gecesi yatırımcının parası girecek, Tarkan hesabı boşaltıp payını almak için Nihat'a gidecekti. Bahar ödemeleri bankadan öğrendi ve Peri'ye geldi."
         ],
         "kanit_ad": {
@@ -10667,7 +10671,7 @@
           "nevzat_saklar": "Gece taksi fişleri",
           "odeme_gecesi": "Ödeme geceleri",
           "ortak_kurban": "Fikret'in eski yarası",
-          "ortak_iptal": "Duvardaki noter belgesi",
+          "ortak_iptal": "Noterin iptal kâğıdı",
           "kurulus_vekalet": "Posta kutusunun kâğıdı",
           "bordro_genc": "Bordrodaki genç",
           "nevzat_ask": "Kartsız çiçekler"
@@ -10676,7 +10680,7 @@
           "sifre_iki": "Şifreyi bilen iki kişiydi, Peri. Biri o adamdı. Onu söyleseydin \"kanıtınız ne\" diyemezdi.",
           "kurulus_vekalet": "Firmayı vekâletle açmışlar, Peri. Vekâlet kimdeydi, Yusuf Efendi'nin kâğıdı yazıyordu.",
           "odeme_gecesi": "Nevzat Bey o geceler kulisteydi, Peri. Para kendi kendine çıkmadı.",
-          "ortak_iptal": "Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Duvarda asılıydı."
+          "ortak_iptal": "Fikret Usta vekâleti bir yıl önce iptal ettirmişti, Peri. Kâğıdı kasasında duruyordu."
         },
         "cengo_kanit_replik": {
           "sifre_iki": {"i": "normal", "yuz": "peri.kas"},
@@ -11062,7 +11066,7 @@
               "set": "kilik"
             },
             {"k": "not", "m": "Cengo elindeki simidi düşürüyor.", "kare": "K158"},
-            {"k": "cengo", "i": "gulen", "m": "(sırıtarak) Olmuş mu şimdi bu? Ahçı mı olmuş?", "kare": "K158"},
+            {"k": "cengo", "i": "gulen", "m": "(sırıtarak) Olmuş mu şimdi bu? Aşçı mı olmuş?", "kare": "K158"},
             {"k": "peri", "i": "kas", "m": "Sen önce şoför ol, Cengo.", "kare": "K158"},
             {
               "k": "cengo",

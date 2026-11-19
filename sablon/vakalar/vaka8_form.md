@@ -48,7 +48,7 @@
   kimse bilmesin istiyor.
 - **Eski ortak Fikret Usta'nın yolu (yanlış iz 2):** 63, Bahar'ın ilk lokantasının ortağı (Samatya). Yıllar önce **aynı
   yöntemle** başka bir "avukat" onu da soydu; lokanta kapandı, Bahar televizyona geçti. Ayrılırken Bahar'a vekâlet
-  vermişti, Bahar da ona — **kendi vekâletini noterde iptal ettirdi**, belgeyi lokantasının duvarına çerçeveletti (acı
+  vermişti, Bahar da ona — **kendi vekâletini noterde iptal ettirdi**, belgeyi lokantasının kasasında bir dosyada saklıyor (acı
   şaka). Tarkan'ı televizyonda görünce yöntemi sezdi; Bahar'a **isimsiz notlar** bıraktı: "AVUKATINA GÜVENME." Kimse
   inanmasın diye adını yazmadı (Bahar ona küs). Herkes notları tehdit sanıyor.
 - **Bahar'ın şüphesi:** Ödemeleri bankadan gelen bir telefonla öğrendi. Polise gidemez: lansman bu akşam, yatırımcı
@@ -144,7 +144,7 @@
 | nevzat_saklar | Nevzat Bey'in masasında her çekim gecesine ait taksi fişleri var; nereye gittiğini söylemiyor, kızarıyor. | A |
 | odeme_gecesi | Ödemelerin yapıldığı üç çekim gecesinde Nevzat Bey sabaha kadar stüdyodaydı; Bahar Hanım'ın kulisinde, yapım asistanının gözü önünde. | B |
 | ortak_kurban | Fikret Usta'yı yıllar önce başka bir "avukat" aynı yöntemle soydu: vekâlet, olmayan firmalar. İsimsiz notları o bırakıyor. | C |
-| ortak_iptal | Fikret Usta'nın Bahar Hanım'dan aldığı eski vekâlet, Kavanoz Ambalaj kurulmadan bir yıl önce noterde iptal edilmiş; belgesi lokantanın duvarında çerçeveli. | C |
+| ortak_iptal | Fikret Usta'nın Bahar Hanım'dan aldığı eski vekâlet, Kavanoz Ambalaj kurulmadan bir yıl önce noterde iptal edilmiş; belgesi lokantanın kasasında, bir dosyada. | C |
 | kurulus_vekalet | Kavanoz Ambalaj Bahar Hanım adına vekâletle kurulmuş; adresi bir posta kutusu. Bahar Hanım'ın vekâlet verdiği iki kişi var: eski ortağı Fikret Usta ve avukatı Tarkan Bey. | D |
 | bordro_genc | Bordrodaki Emir, Karaköy otoparkında görevli; şirketi hiç görmemiş. Kimliğini otopark müdürüne vermiş; işe telefonla alınmış. Telefondaki "avukat bey"in sesi gençmiş. | E |
 | nevzat_ask | (Gizem'in Pınar'dan duyduğu) Nevzat Bey çekim gecelerinde Bahar Hanım'ı izlemeye gidiyor; yıllardır ona âşık. Kimse bilmesin istiyor. | F |
@@ -186,8 +186,8 @@ aynada kendine selam verir.
   ışıkları kapattık, hâlâ oradaydı."
 - **C.** Samatya, küçük lokanta, duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân). Fikret Cengo'yu sever,
   Peri'yi tanır (şaka 1, doruk). Notları kabul eder: "Ben yazdım. Bana da aynısını yaptılar; bir 'avukat', vekâlet,
-  olmayan firmalar. Lokantam gitti." Duvardaki çerçeveyi gösterir: "Bahar'ın vekâletini iptal ettirdim, bir yıl oldu.
-  Bir daha kimse kimsenin adına imza atmasın diye astım."
+  olmayan firmalar. Lokantam gitti." Kasadan bir dosya çıkarır: "Bahar'ın vekâletini iptal ettirdim, bir yıl oldu.
+  Kâğıdı paradan değerli; kasada saklıyorum."
 - **D.** Mecidiyeköy, dar dükkân, duvar boyu posta kutuları. Yusuf Efendi kambur, büyüteçli; Cengo kutularını taşır.
   "Kavanoz Ambalaj mı? Kırk iki numara. Mektubu hiç gelmez. Kâğıdı vekâletle açılmış; Bahar Hanım adına." Defteri
   gösterir; Peri okur: Bahar'ın vekâlet verdiği iki kişi, eski ortak ve avukat.
@@ -364,7 +364,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 | Atölyenin üstündeki muhasebe odası (klasörler) | yeni |
 | Maslak, televizyon stüdyosu (mutfak dekoru, ışıklar, kameralar) | yeni |
 | Stüdyonun kulisi (ayna, çiçekler) | yeni |
-| Samatya, Fikret'in küçük lokantası (duvarda eski fotoğraflar ve çerçeveli belge) | yeni |
+| Samatya, Fikret'in küçük lokantası (duvarda eski fotoğraflar, tezgâhın arkasında eski kasa) | yeni |
 | Mecidiyeköy, posta kutusu ve kargo dükkânı | yeni |
 | Karaköy otoparkı, görevli kulübesi | yeni (Cengo'nun eski yeri) |
 | Arabanın içi / bagaj (lansman kasaları) | yeni |
