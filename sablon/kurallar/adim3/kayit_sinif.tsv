@@ -1,0 +1,840 @@
+id	sinif	hedef	not
+c71d7a1ab4	GECMIS		eski plan notu, sayılar YAPI-4'te
+11448f6b89	GECMIS		tablo başlığı
+9bc6de85cd	GECMIS		ayraç
+463ed8c9ec	GECMIS		cevaplanmış soru; karar YAPI-21'de
+fe9bab5b13	BILGI-VAR	YAPI-3	ters tip ertelendi, YAPI-3'te var
+a18a2d22e9	GECMIS		cevaplanmış soru; YAPI-4'te
+1aea339991	DERS-VAR	YAPI-31	kasa kalkma gerekçesi YAPI-31'de
+b2093fa1f7	DERS	BILGI-6	çıkarımın suçluyu söylediği örnek (Serkan/Nazlı) kuralda yok
+09fa42c5d1	GECMIS		seçenek; karar BILGI-6
+5fc27a364c	GECMIS		reddedilen seçenek
+e83a6a7322	GECMIS		cevaplanmış soru; karar YAPI-15'te
+667f176bca	GECMIS		seçenek; karar YAPI-15
+de1544494e	GECMIS		reddedilen seçenek
+6ccd2693f5	GECMIS		cevaplanmış soru; karar KAR-16
+a99c9693cc	GECMIS		reddedilen seçenek
+e8974ed94d	GECMIS		reddedilen seçenek
+969aed81fe	GECMIS		seçilen seçenek; KAR-16'da
+ce1dd75061	GECMIS		cevaplanmış soru; YAPI-39
+da13ba65af	GECMIS		eski karar ekranı (kasa kalktı)
+11da60639e	GECMIS		eski sonuç ekranı (ücret/kasa)
+3af0859efd	GECMIS		yapıldı notu
+5eecadfbde	GECMIS		tablo başlığı
+87c1075300	GECMIS		yapıldı (iş takibi)
+7600c9ca1b	GECMIS		yapıldı (iş takibi)
+5ca5987fac	GECMIS		yapıldı (iş takibi)
+62310e51fc	GECMIS		yapıldı; kasa artık yok
+7631d51b25	GECMIS		yapıldı (iş takibi)
+1931857860	GECMIS		yapıldı (iş takibi)
+279bbe2241	GECMIS		yapıldı (iş takibi)
+f5d9173636	GECMIS		yapıldı (iş takibi)
+68f1a21b44	GECMIS		yapıldı; K17 KOD-68'de
+84e219bc2b	GECMIS		yapıldı; K18 KOD-69'da
+c129042456	GECMIS		tablo başlığı
+6816942c5e	GECMIS		ayraç
+869b68262e	GECMIS		cevaplanmış soru; ARAYUZ-16 (sonra ekran düzeni)
+3e5a7ae2c1	GECMIS		seçenek
+f024e2bf0e	GECMIS		reddedilen seçenek
+a43af37f93	GECMIS		tablo başlığı (ISTEM-3)
+dcee78f9f9	GECMIS		alt başlık (SATIR-34)
+b3596f2ffc	GECMIS		tablo başlığı
+88fa8f40ac	GECMIS		alt başlık
+b3596f2ffc-2	GECMIS		tablo başlığı
+01a8732b2d	DERS	SATIR-2	V3 Onay 3'te satır satır yeniden açılma olayı; sözleşmenin doğuş sebebi kuralda yok
+48e0cf602f	GECMIS		tablo başlığı
+41ea636f09	GECMIS		tablo başlığı
+bba95c6a63	BILGI	URETIM	yerel SD üretim denemesi (karar verilmedi); LoRA planı için kayıt
+081c2f51f4	BILGI	URETIM	yerel üretim donanımı
+f7e28987c7	BILGI	URETIM	Forge kurulumu
+55ea392e08	BILGI	URETIM	model, lisans, ayarlar
+525396a78e	DERS	URETIM	Forge tuzakları (canlı önizleme, GPU Weights); kural yok
+691fe1d01e	BILGI	URETIM	IP-Adapter ağırlık denemesi (0.5)
+88060fb3de	GECMIS		sıradaki iş notu
+ee2328640e	GECMIS		alt başlık
+94cc78b0b6	GECMIS		tablo başlığı
+8deec9f074	GECMIS		tablo başlığı (GOMME-13)
+a9568132ab	BILGI-VAR	GOMME-13	başlangıç boy, arac_yanyana ile ölçülür: GOMME-13'te
+72f6b56b82	GECMIS		eski saç tablosu başlığı (GOMME-16 tarihî)
+cbd3be3583	GECMIS		eski saça göre zemin tablosu
+fa66c9b5ad	GECMIS		eski saça göre zemin tablosu
+49fc4103e8	DERS-VAR	GOMME-16	kızıl saç/zemin hale dersi GOMME-16'da
+881d373355	GECMIS		eski zemin tablosu; deneme GOMME-19
+6a8b4f42c2	BILGI	KANON	V3 Peri trençkotu uzun (kıyafet ölçüsü)
+6c4c7da199	GECMIS		ayraç
+4e43bf6a21	GECMIS		cevaplanmış soru; SATIR-35
+34909d02c3	GECMIS		reddedilen seçenek
+b124de5bf3	GECMIS		reddedilen seçenek
+aaf4a8269c	GECMIS		reddedilen seçenek
+a42bd5dc70	BILGI-VAR	SHORTS-1	hat kimde: SHORTS-1
+a1ef743df4	GECMIS		ayraç
+6c817f885c	GECMIS		tablo başlığı (SHORTS-7)
+97d98d14c9	BILGI	SHORTS-28	kurulum listesi (Node, Playwright, ffmpeg, edge-tts) kuralda yok
+b2e572baf0	GECMIS		taslak durum bandı
+8cdb2e22b7	BILGI	SEZON-16	sezon tablosu başlığı
+85e4a5ea3c	BILGI	SEZON-16	sezon tablosu V1
+ed3207bf79	BILGI	SEZON-16	sezon tablosu V2
+915b2a014d	BILGI	SEZON-16	sezon tablosu V3
+f01ff35100	BILGI	SEZON-16	sezon tablosu V4
+d17e34f144	BILGI	SEZON-16	sezon tablosu V5
+f2e720c204	DERS	SEZON-17	V1-5'te bulunan tekrarlar
+1a85a46b1d	BILGI	SEZON-17	kullanılmamış seçenek havuzu (neden)
+3940b733a3	BILGI	SEZON-17	seçenek havuzu (suçlu)
+c525f171eb	BILGI	SEZON-17	seçenek havuzu (ne oldu)
+c8730f8960	BILGI	SEZON-17	seçenek havuzu (yanlış iz)
+5ed7cb6f8c	BILGI	SEZON-17	seçenek havuzu (karar)
+c40aa3ac58	DERS	SEZON-17	V1-5 müşteri hep yaşlı büyük
+fbede772af	BILGI	SEZON-17	müşteri seçenekleri (yaş)
+e581e90d6e	BILGI	SEZON-17	müşteri seçenekleri (iş)
+6eef53998a	BILGI	SEZON-17	müşteri seçenekleri (durum)
+e65d71566d	BILGI	SEZON-17	müşteri seçenekleri (tuhaf)
+b62ff4af6e	BILGI	SEZON-17	müşteri seçenekleri (ters dünya)
+5f996bfafb	BILGI	SEZON-17	müşteri seçenekleri (garip)
+6c68f6b063	BILGI	SEZON-17	müşteri seçenekleri (meslek)
+edc8cb6cf9	BILGI	SEZON-17	müşteri seçenekleri (çevre)
+35b49d1a55	BILGI	SINIR-9	ölü/hayalet tonda sınırda notu
+d2d27e6618	DERS	SEZON-17	V1-5 şüpheliler hep iş dünyasından
+5653e8937b	BILGI	SEZON-17	şüpheli seçenekleri (aile)
+eba8dff57b	BILGI	SEZON-17	şüpheli seçenekleri (mahalle)
+e57fda31e7	BILGI	SEZON-17	şüpheli seçenekleri (yaş)
+8a9cd38f29	BILGI	SEZON-17	şüpheli seçenekleri (garip)
+7e317830a7	BILGI	SEZON-17	şüpheli seçenekleri (ters dünya)
+c06c961378	BILGI	SEZON-17	şüpheli seçenekleri (yakın)
+b2d358b38c	BILGI	SEZON-17	şüpheli seçenekleri (müşteri)
+aac3c6315e	BILGI	KANON	dönen figürler listesi ve kanon takvimi
+c018bf7b6e	BILGI	SEZON-6	dönen figür seçenekleri başlığı
+92eae9cc53	BILGI	SEZON-6	dönen figür seçenekleri (garip)
+559e796fa5	BILGI	SEZON-6	dönen figür seçenekleri (mahalle)
+ca4fa77cc9	BILGI	SEZON-6	dönen figür seçenekleri (Peri)
+e1d246b453	BILGI	SEZON-6	dönen figür seçenekleri (Cengo)
+d4326cf62d	BILGI	SEZON-6	dönen figür seçenekleri (resmî)
+3f93f37430	BILGI	SEZON-2	sezon planlamanın dört konusu
+ef50bc7aaa	BILGI	SEZON-2	iplik seçenekleri (Peri)
+95eec10f48	BILGI	SEZON-2	iplik seçenekleri (Cengo)
+e36111c66e	BILGI	SEZON-2	iplik seçenekleri (büro)
+afd58bcbc7	BILGI	SEZON-2	iplik seçenekleri (dış tehdit)
+4c92521162	BILGI	SEZON-2	iplik seçenekleri (garip)
+f0d33f7de0	BILGI	SEZON-3	garip iplik alt seçenekleri (nesne)
+470b8d4096	BILGI	SEZON-3	garip iplik alt seçenekleri (kişi)
+4c0d8d1b9f	BILGI	SEZON-3	garip iplik alt seçenekleri (büro)
+ed82a7e4aa	BILGI	SEZON-3	garip iplik alt seçenekleri (şehir)
+37ec2529d2	DERS	SEZON-5	V1-5 semt/çevre tekrarı
+e504a5b3ba	BILGI	SEZON-5	gidilmeyen semtler listesi
+08f066f3cf	BILGI	SEZON-5	girilmeyen çevreler (gece hayatı gözde)
+06384fb255	BILGI	SEZON-5	gece hayatı çeşitleri
+6d942e747a	GECMIS		alt başlık
+67a07f844a	BILGI	SEZON-8	konuşulmamış biçimler listesi
+e88c5d9db3	GECMIS		alt başlık
+8c84b80519	GECMIS		eski para durumu (kasa kalktı)
+759ee206f5	DERS-VAR	SEZON-9	kararın etkisi hissedilmiyor tespiti
+d7b58c2bf4	DERS-VAR	SEZON-9	anı defteri yalnız kayıt tespiti
+95d5e2a2b6	BILGI	YAPI-44	taslak 'eski karar ipucu döner' tohum kuralını değiştirir notu
+341dc7fbe0	DERS	SEZON-9	kararı kaldırmanın neden önerilmediği; kuralda yok
+bc819ad0dd	BILGI	SEZON-11	benzer oyunlar özeti
+f4efd19ab9	GECMIS		alt başlık
+f15e9a80bb	BILGI	SEZON-10	taslak işlenirken değişecek yerler (K19, taç fiyatı, görseller)
+87a9d5d014	GECMIS		alt başlık (SEZON-25)
+9a3d6568b8	GECMIS		alt başlık
+4afdc4d0b2	DERS	SEZON-16	tekrar sebepleri 1-3 kuralda yok
+b87d818650	DERS	SEZON-16	tekrar sebepleri 4-8 (4-5 kuralda yok)
+cfdb044e16	DERS-VAR	SEZON-16	sebep 9-10 kuralda
+6221d75160	GECMIS		alt başlık
+115878efff	BILGI	SEZON-1	vaka sayısı 8/10 ne zaman kesinleşir
+e077e83d68	BILGI	SEZON-1	sonraki sezon planlama önerisi
+74caee4b2e	BILGI	SEZON-16	V8 taslağı kararının V7'ye benzediği uyarısı; V6-7 dağılımı geçmiş
+5cd840f16f	GECMIS		alt başlık
+7c26f94be4	BILGI-VAR	SEZON-8	iki açık dosya bekliyor
+ef87dc8b99	BILGI	SEZON-10	açık soru: V1-5 kararları yeni etkilere bağlansın mı
+7968cfeb0f	GECMIS		açık soru; SEZON-1'de
+826f23e7e9	BILGI-VAR	SEZON-7	hayvan açık soru
+2b6d96f8fe	BILGI	SEZON-10	taslak onaylanınca işlenecek yerler
+a88e291741	GECMIS		aynı gün iş notu
+c66c8aecf0	GECMIS		bölüm açıklaması
+d600850b16	DERS	SEZON-17	raf ölçeği 60-100 vaka, tekrar kaçınılmaz
+1a237aee91	DERS	SEZON-17	formül: suçlanan hep masum çıkıyor (V1-3)
+b164ae9f21	DERS	KAR-10	kavuşmazlar donarsa tekrara döner; uzun dizi dersleri
+81aae93602	DERS	SEZON-16	darboğaz hız değil çeşitlilik (V5 ~5 sa)
+9856ceeba3	BILGI-VAR	SEZON-16	sebep 1 seçenekleri (ayar düğmeleri)
+8533bbb770	BILGI	SEZON-16	B+C önerisi, iki suçlu motor işi bakılmadı
+c91f38eb7a	BILGI-VAR	SEZON-16	sezon tablosunun çözdüğü sebepler
+9ac4af49ab	BILGI	SEZON-8	önceki karar döner örnekleri ve üç büyüklük
+c7a1e43f9f	BILGI	SEZON-8	Cengo'nun gözünden örneği
+d0fca48b56	BILGI	SEZON-8	tek vaka iki iz örneği
+e39beb3809	BILGI	SEZON-8	iki açık dosya örneği
+01af304157	BILGI	SEZON-8	konuşulmamış biçimler
+23e42069f3	BILGI	SEZON-9	kararı kaldırma önerisi (reddedildi)
+2289cf534a	BILGI	SEZON-9	kararı kaldırmanın kazancı
+e39b93d4c0	DERS	SEZON-9	kararı kaldırmanın kaybı (kimlik, not vermez, paylaşım, bağ)
+7e168a9488	BILGI	SEZON-11	Sherlock C&P araştırması
+ac62384c03	BILGI	SEZON-11	Telltale araştırması
+cd24c72888	BILGI	SEZON-11	Papers Please araştırması
+7483f6da5d	BILGI	SEZON-11	mobil hikâye oyunları araştırması
+2b00a530ef	DERS-VAR	SEZON-11	dersler (Telltale/Sherlock/mobil) SEZON-10/11'de
+e6455a12ec	BILGI	SEZON-8	önceki karar dönmenin kod yükü (seeds, bedelsiz_kosul)
+7449f56334	BILGI-VAR	SEZON-8	gözünden vakanın kod yükü
+3fa8d0d482	BILGI-VAR	SEZON-8	tek vaka/iki dosya kod yükü
+75bbfea219	GECMIS		onaylanmadı bandı
+57b7476274	BILGI	SEZON-8	ters vaka biçimi
+b119913207	BILGI	YAPI-3	ters vaka örnekleri (V5/V3/V8 ilk taslakları)
+a51b87a3cb	BILGI-VAR	YAPI-3	ters tip ertelendi
+770d44f2c7	BILGI	SEZON-8	ters vaka kod yükü
+5bda4b4a8e	BILGI	SEZON-8	ters vaka artıları
+417238f70c	BILGI	SEZON-8	ters vaka eksileri
+7238c8e07a	BILGI	SEZON-8	saatli vaka biçimi
+e104c4a330	BILGI	SEZON-8	saatli vaka örneği
+ba15d9a7e8	BILGI	SEZON-8	saatli vaka kod yükü
+75e105d6fe	BILGI	SEZON-8	saatli vaka artıları
+26840997f4	BILGI	SEZON-8	saatli vaka eksileri
+1f4f228107	BILGI	SEZON-8	yalan bulma biçimi
+4f26d3aab0	BILGI	SEZON-8	yalan bulma örneği
+c43a9ef47a	BILGI	SEZON-8	yalan bulma kod yükü
+009cf6cdbf	BILGI	SEZON-8	yalan bulma artıları
+b16a16caaa	BILGI	SEZON-8	yalan bulma eksileri
+eb5b3a352e	BILGI	SEZON-8	kılık biçimi
+1fa9b3959c	BILGI	SEZON-8	kılık örneği
+73327c77cf	BILGI	SEZON-8	kılık kod yükü
+5e6b3c43d5	BILGI	SEZON-8	kılık artıları
+4077eb3ea9	BILGI	SEZON-8	kılık eksileri
+7bd5f931bb	BILGI	SEZON-8	açık karar: hangi biçim, hangi sezon
+f524b8456b	GECMIS		öneri bandı; karar SUREC-38
+acf6ed66bb	DERS	SUREC-38	V5'te zaman yazmaya değil okuyup hata bulmaya gitti
+55bdff7829	GECMIS		alt başlık
+56ad64f228	DERS-VAR	YAPI-11	Selim ortak+tamirci; YAPI-11'de
+bbbd1bb675	DERS-VAR	YAPI-12	Muammer itirafı duymuştu; YAPI-12'de
+ae21f8c18b	DERS-VAR	YAPI-11	Nedim Moda harita hatası; YAPI-11'de
+4915076b46	DERS-VAR	ISTEM-56	dalga susam getirmez → yosun
+54bdcff244	DERS	TON-14	sorusuz cevap (E iptal ama tecrübe)
+a54e8a287c	DERS	YAPI-8	kilit ipucunun gerekçesi (güverte boş) (F iptal ama tecrübe)
+d9ac408c41	DERS	YAPI-16	itiraf boşluğu: Selim saati neden susturmadı
+1cd0f1adbe	GECMIS		küçük sözcük düzeltmeleri
+5691d10441	DERS-VAR	SUREC-16	kanon ortağın önünde değildi → Onay 2 öncesi kanon okunur
+dc5d1d431f	GECMIS		alt başlık
+610592a2b4	GECMIS		iptal edilen kural D
+479fdccecc	GECMIS		iptal edilen kural E
+5dab6a318d	GECMIS		iptal edilen kural F
+cd1674873b	GECMIS		iptal notu
+611decccba	GECMIS		iptal notu
+ca587ec4b0	GECMIS		işlendi notu
+017b669bdf	GECMIS		plan notu (SUREC-39)
+7339787db6	BILGI	ISTEM-1	onaylı örnek istemlerin yerleri
+26060f010d	BILGI	ISTEM-1	Peri temeli örnek istem
+b8d3c7a8f7	BILGI	ISTEM-1	mekân örnek istemleri
+e6cb5c3497	BILGI	ISTEM-1	yeni karakter örnek istemi
+b779dc0bde	GECMIS		ayraç
+a2da264913	GECMIS		tablo başlığı (ISTEM-9)
+bf3ca47b78	DERS-VAR	ISTEM-9	paragraf karikatüre iter, boyalı referans dengeler
+21a0c569c5	BILGI	ISTEM-1	örnek istem G2
+72b44ab4c4	DERS-VAR	ISTEM-19	V6 Cengo kart tarz kayması
+e98521040c	DERS-VAR	ISTEM-32	yakın kol eli; G25 dört parmak
+b779dc0bde-2	GECMIS		ayraç
+3e8af1ae80	DERS-VAR	ISTEM-9	her istemde tarz paragrafı karikatür yaptı
+4a456fe837	DERS	ISTEM-9	'yağlıboya' sözü zemine tuval dokusu getirdi; kuralda yok
+9e97e516ca	DERS	ISTEM-41	mekânda ışığı yasaklamak havayı öldürdü
+6483fdba8b	BILGI	URETIM	üretim klasörü işleyişi
+5e219e37e9	GECMIS		tablo başlığı
+9881ab43fc	GECMIS		tablo başlığı
+e29f4b9259	BILGI	URETIM	vaka klasörü dosyası LISTE.md
+9384c9322f	BILGI-VAR	URETIM	DURUM.md uretim/CLAUDE.md'de
+02bac89b89	BILGI-VAR	URETIM	WEB_LISTESI.md uretim/CLAUDE.md'de
+a7c863dbe1	BILGI-VAR	URETIM	prompts/G<n>.md
+b9c5be285b	BILGI-VAR	CODEX-4	referanslar/ klasörü
+a4599bb89d	BILGI-VAR	URETIM	uretilen/ klasörü
+14bb1bc855	BILGI-VAR	CODEX-3	onayli/ klasörü
+bc7f9d13a9	BILGI	URETIM	red/ yalnız bilgisayarda (GitHub'a girmez)
+342f1282d4	BILGI	URETIM	yanyana/ denetim kanıtı klasörü
+6b39671e68	BILGI-VAR	CODEX-12	uretim_kaydi.md
+eef97a18e3	GECMIS		belge atfı (eski yer)
+c1dc39b63d	GECMIS		belge atfı (eski yer)
+bbf8ee3eac	BILGI	URETIM	V3 Codex deneyimi BIRIKIM'de; arşive gidince atıf güncellenmeli (CODEX-13 ona atıf yapıyor)
+0e70a0d04e	GECMIS		belge girişi
+251c693c01	GECMIS		ayraç
+96a0e31353	GECMIS		V3 sayıları
+61147e13cb	GECMIS		V3 sayıları
+793f9b4638	GECMIS		V3 sayıları
+0cbb2793df	GECMIS		V3 sayıları
+c44e326d42	GECMIS		V3 sayıları
+ed7021975a	BILGI	ISTEM-26	V3 engel sayısı (14 çağrı) — filtre sıklığı ölçüsü
+707c035038	GECMIS		V3 ret sayıları
+9f416af1ba	GECMIS		V3 sayıları
+ab1c30512a	DERS	CODEX-17	red dosyaları üzerine yazıldı, kayıp — eski hâl korunmalı
+cb71d33700	BILGI	SUREC-30	normal üretim hızı 40-120 sn; izin sorununda 5-12 dk
+251c693c01-2	GECMIS		ayraç
+8a519f926e	GECMIS		bölüm açıklaması
+ec48f67107	GECMIS		V3 tekil not
+c7127234a5	GECMIS		V3 tekil not
+0709d9e3ce	BILGI	DENETIM-15	büyütme için PowerShell kırpma betiği
+1ca20d93c4	BILGI	DENETIM-15	kırpma betiğinin kodu
+f01e7b7de2	GECMIS		alt başlık
+49ccd08169	DERS	DENETIM-15	betik -ExecutionPolicy Bypass ister
+5a024db14a	DERS	DENETIM-15	param tiplenmezse ambiguous overloads
+461fa8bf3d	DERS	DENETIM-15	webp System.Drawing'le açılmaz, WPF gerekir
+0c49770c95	DERS	ISTEM-22	Gizem kolları kavuşuk çözümü sahibinden (G67)
+5dbf1793f8	GECMIS		V3 tekil not
+465321f998	DERS-VAR	ISTEM-26	3. üretimde temiz geldi (deneme)
+f876e05ade	DERS-VAR	DENETIM-21	profile yakın yüz sahibine gösterildi
+d642c817c9	DERS	DENETIM-28	uzaktaki seçilmeyen insan lekeleri onaylanır, rapora yazılır
+7cd584a9d0	DERS	DENETIM-27	kadraj dışı kalan nokta kontrol edilemezse not edilir
+f0f68d59dd	BILGI-VAR	ISTEM-15	konuk şeridi yapımı
+a65b13c2c4	BILGI	ISTEM-15	şerit zemin rengi, webp için WPF
+d2d69b7389	BILGI	ISTEM-15	şerit betiği
+5a7dfc1112	DERS	ISTEM-15	şerit eskiyse ona bağlı resim etkilenebilir; onay sonrası yenile
+251c693c01-3	GECMIS		ayraç
+ce5c54dc58	BILGI	CODEX-8	Codex araç adı imagegen, model bildirmiyor
+a22197365b	BILGI-VAR	ISTEM-4	boyut istem sonunda; size parametresi yok
+8a4e47e2ca	BILGI-VAR	CODEX-8	istem aynen gönderilir, düzeltmeler sona eklenir
+60adaa62b2	GECMIS		tablo başlığı
+bc7724065c	DERS	CODEX-2	AGENTS.md yalnız proje kökünde aranıyor; 'kurallarını özetle' sınaması kuralda yok
+e87f6b6a41	DERS-VAR	CODEX-18	'yalnız' kapsamı belirsiz → 14 resim atlandı
+3eb3661393	DERS-VAR	CODEX-10	G64 yeniden denenmedi → iki deneme kuralı
+8b39f16be9	DERS-VAR	CODEX-5	Codex talimat dosyasına not yazdı
+998cbed3f8	DERS-VAR	CODEX-13	bekleme (§3.4 atfı)
+b620fcc6b3	DERS-VAR	CODEX-15	beğenmediğini yeniden üretme eğilimi
+461e685c9a	DERS-VAR	CODEX-7	bağlı resim atlanır, temeller önce
+bcf1862ad5	BILGI	CODEX-24	Codex çalışırken denetim yapılabilir; erken onay önü açar
+0ab2eb1e80	DERS	CODEX-13	yavaşlama belirtisi: Codex süresi 40-120 sn ama bekleme 5-12 dk
+e8a95efabf	DERS	CODEX-13	sebep: dosya sahibi CodexSandboxOffline oldu
+f53469f5a1	DERS	CODEX-13	icacls Access denied
+1764367054	DERS	CODEX-13	çözüm: kopyala-sil-yerine koy (kuralda yalnız BIRIKIM atfı)
+984e79cb06	BILGI	CODEX-22	terminalde ok tuşu + Enter
+d6f9db0cf3	DERS-VAR	CODEX-5	Codex özet dosyaları yazdı
+42a113d6ae	BILGI	CODEX-6	dene komutu (web resmini Codex'te sınama)
+75a776ce65	GECMIS		dene testi bitti
+251c693c01-4	GECMIS		ayraç
+ac2f6235d8	GECMIS		tablo başlığı
+13e8f4e5cb	DERS-VAR	CODEX-10	G64 engel, kural yoktu
+be95df56c6	DERS-VAR	ISTEM-26	G63 2. denemede geçti
+11871294ee	DERS-VAR	ISTEM-26	G67 2. denemede geçti
+be3ca6312a	DERS-VAR	ISTEM-16	G1 deney
+6b0758f2fa	DERS-VAR	ISTEM-16	G2 deney
+756d8a7960	DERS-VAR	ISTEM-16	filtre output aşamasında; referans dekoltesi taşınıyor
+8774516570	GECMIS		tablo başlığı
+a9f5a596c5	DERS-VAR	ISTEM-16	G1 deney satırı
+2af60f6be7	DERS-VAR	ISTEM-16	metin sebep değil
+bb4f795132	DERS-VAR	ISTEM-16	dekolteli tek referans yetiyor
+f81d505f56	DERS-VAR	ISTEM-16	yalnız yüz + kapalı gövde geçti
+59443df0b1	DERS-VAR	ISTEM-16	G2 deney
+bbf3c1ed1f	DERS-VAR	ISTEM-16	G2 deney
+2e97adab50	DERS-VAR	ISTEM-19	dekolte yazılmazsa kapalı çıkar
+b3b307a017	DERS-VAR	ISTEM-21	dekolte metinle istenince geldi
+31b2f201c6	DERS-VAR	ISTEM-22	G9 dar beyaz tişört geçti ama sorun doğurdu
+f035826164	GECMIS		alt başlık
+251c693c01-5	GECMIS		ayraç
+ed71e52f79	GECMIS		sorunsuz onaylananlar listesi
+30f814d0d6	GECMIS		tablo başlığı
+85e9e52707	DERS-VAR	ISTEM-6	G4 profil, iki göz görünsün
+732d005f9e	DERS-VAR	ISTEM-40	G5 unlu Cengo yaşlı/gri
+f861102794	DERS-VAR	ISTEM-10	tarz yaması, onaylı temel tarz örneği
+f3648e341a	DERS-VAR	ISTEM-39	yorgun göz morluk
+a2fe45bc89	DERS-VAR	ISTEM-28	tuşta rakam, istenmeyen şapka
+1f9d229e17	DERS-VAR	ISTEM-22	Gizem tişört meme ucu
+d829f641c9	DERS-VAR	ISTEM-41	lamba/ateş tek tek yazılır
+77ab9ec0f6	DERS-VAR	ISTEM-28	monitörde logo
+647c7b0085	DERS-VAR	ISTEM-29	istenmeyen çanta; gün batımı
+7867e47664	DERS-VAR	ISTEM-22	kalın mat kumaş
+014891a55c	DERS-VAR	ISTEM-31	üç kol
+8b26ce8f52	DERS-VAR	ISTEM-42	pervaz/bacak konumu, dirsek
+3ab42a25f2	DERS-VAR	CODEX-10	G64 web'de
+d2a1f7c176	DERS-VAR	KAR-23	Peri stilettosu kırmızı sabiti
+6394e496fe	DERS-VAR	ISTEM-43	kart afişi alt %20, tişört izi
+251c693c01-6	GECMIS		ayraç
+67c7f06098	GECMIS		tablo başlığı
+251c693c01-7	GECMIS		ayraç
+ef6f188b9b	GECMIS		tablo notu
+c62525cc1d	GECMIS		tablo başlığı
+d41e47ed3f	BILGI-VAR	ISTEM-16	dekolteli referans L1 (istem_kontrol yasaklı)
+972e8add8f	BILGI-VAR	ISTEM-16	dekolteli referans peri_beden
+e981ec9405	BILGI-VAR	ISTEM-16	dekolteli referans L14
+9e3d2276a8	DERS	ISTEM-15	referans kadrajında istenen nesne yoksa kötü referans
+6af47858cf	BILGI-VAR	ISTEM-16	dekolteli referans L9
+541d493844	DERS	ISTEM-15	referansta karakter sabitine aykırı nesne (siyah stiletto) taşınır
+bba769e144	BILGI-VAR	ISTEM-16	dekolteli referans L25
+28aa2dff5b	BILGI-VAR	ISTEM-16	dekolteli poz referansı
+274de1dec0	BILGI-VAR	ISTEM-16	dekolteli poz referansı
+8071c6f05f	BILGI-VAR	ISTEM-16	dekolteli poz referansı
+caef4a82ea	BILGI-VAR	ISTEM-16	dekolteli poz referansı
+2a9d90f1c0	BILGI-VAR	ISTEM-16	dekolteli poz referansı
+bda3e9c7ed	BILGI	ISTEM-15	kamera açısı referansı örneği
+b2ff0a89c8	DERS-VAR	ISTEM-16	erkek açık göğüs sorun çıkarmadı
+a790171547	DERS-VAR	ISTEM-16	erkek açık göğüs sorun çıkarmadı
+fc3b6cd003	DERS-VAR	ISTEM-16	erkek açık göğüs
+924578342f	DERS-VAR	ISTEM-16	erkek açık göğüs
+14a52003d8	DERS-VAR	ISTEM-16	erkek açık göğüs
+516323e8a5	BILGI-VAR	ISTEM-16	tarz_govde_kadin dekoltesiz anahtar
+df55780060	BILGI-VAR	ISTEM-16	tarz_govde_erkek
+90bfbf30b6	BILGI-VAR	ISTEM-16	tarz_govde_iri_erkek
+afd5225390	DERS	ISTEM-15	şeritte göbeği açık tişört referansa taşınır
+fb5114a950	BILGI	URETIM	ortak referans buro_gunduz
+0f1e7d2962	BILGI	URETIM	ortak referans buro_aksam
+f9dd1c9c86	BILGI	URETIM	ortak referans tarz_mekan_ic
+14a1805a2c	BILGI	URETIM	ortak referans tarz_sokak
+4cadfba3c0	GECMIS		alt başlık
+2f75d062e0	BILGI-VAR	ISTEM-16	dekoltesiz yüz kırpığı
+f1a9b00423	BILGI-VAR	ISTEM-16	dekoltesiz baş kırpığı örneği
+bc2dfd1a91	BILGI-VAR	ISTEM-16	dekoltesiz örnekler
+251c693c01-8	GECMIS		ayraç
+23c0c6d704	DERS	SUREC-3	Claude belleği klasöre bağlı; dersler belgeye yazılmalı
+b8fbaa2c8b	GECMIS		alt başlık
+eb5f99dd91	GECMIS		V3 yerel Claude rol tanımı (eski)
+4dcbb449a3	BILGI-VAR	ISTEM-15	şerit yenileme
+d8a6d2cc43	GECMIS		V3 bitiş talimatı
+9367dcad6e	GECMIS		dene komutu (V3, bitti)
+b4c7b66e7a	GECMIS		dene komutu ayrıntısı
+fdf292a845	GECMIS		dene komutu ayrıntısı
+7c6f301db0	GECMIS		dene komutu ayrıntısı
+20ff04259f	GECMIS		dene komutu ayrıntısı
+5a3ebf3a5b	GECMIS		dene komutu ayrıntısı
+cceea8ecac	GECMIS		dene komutu ayrıntısı
+09fc8f7066	GECMIS		belge bandı
+ba75bb5a01	GECMIS		ayraç
+511341ba8d	GECMIS		alt başlık
+cc72201290	BILGI	RAF-41	10 sezon ~30 $ hesabı
+a8b5ca2100	DERS	RAF-41	fiyat gerekçesi: ödeyen %2-5, belirleyici ilk iki vakanın kalitesi
+c46b6e0be1	GECMIS		tablo başlığı (RAF-47)
+4ea8c5191d	GECMIS		alt başlık
+cd5bbfdc5b	GECMIS		alt başlık
+75508defa9	BILGI	RAF-47	reklam sayısı hesabı (vaka başına ~5, sıklık)
+6a0a914971	BILGI	RAF-91	elenen uygulama adları ve sebepleri
+faef15150e	BILGI	RAF-93	ad kontrolü başlığı (ön eleme)
+6eea972a5c	BILGI	RAF-93	mağaza ad kontrolü sonucu
+6852da3994	BILGI	RAF-93	stüdyo adı kontrolü
+7e74cdb2ce	BILGI	RAF-93	ABD marka kontrolü
+18007f36a7	BILGI-VAR	RAF-93	TÜRKPATENT sınıfları
+85dcbe4ee2	BILGI-VAR	RAF-95	alan adı
+d146be7a75	BILGI	RAF-93	bakılmayanlar: EUIPO, sosyal medya
+42a18a227d	GECMIS		eski yayın sırası adımı
+e5996b6e5a	GECMIS		eski yayın sırası adımı
+c46fa8d9cd	BILGI	RAF-98	Cover Story adının gerekçesi
+a17bede1bd	BILGI	RAF-98	elenen İngilizce adlar
+6d122efc6a	BILGI	RAF-98	ad çakışma kontrolü
+a39e5142f8	BILGI	RAF-105	ölçülen vaka hızı (V2 ~11 sa, V3 3,5 hafta)
+964d2bc73d	DERS	RAF-105	darboğaz: onaylar, oynama, yeniden üretim, çeviri
+bd3f4be947	BILGI	RAF-105	sezon takvimi hesabı
+11cf4ec54a	BILGI-VAR	RAF-106	yayın sözü açık
+f6f0703233	BILGI	RAF-93	açık iş: alan adı alımı ve tescil
+6c9a698a7a	GECMIS		ayraç
+6c9a698a7a-2	GECMIS		ayraç
+2cfdcd13e8	GECMIS		tablo başlığı
+6c9a698a7a-3	GECMIS		ayraç
+566a6f6cd3	GECMIS		alt başlık
+6c9a698a7a-4	GECMIS		ayraç
+566a6f6cd3-2	GECMIS		alt başlık
+6c9a698a7a-5	GECMIS		ayraç
+6c9a698a7a-6	GECMIS		ayraç
+9709957d6f	BILGI	KAR-8	örnek atışmalar notu
+ae4b2f8ec6	BILGI	KAR-8	örnek atışma başlığı (Kapı)
+c2c6a21ccd	BILGI	KAR-8	örnek atışma: kapı/kilit
+885f6efd85	BILGI	KAR-8	örnek atışma başlığı (Peşinat)
+e75c13615d	BILGI	KAR-8	örnek atışma: niyeti peşin
+68c10db620	BILGI	KAR-8	örnek atışma başlığı (Tanınmak)
+9f21e86b4d	BILGI	KAR-8	örnek atışma: tanınmak
+613d957996	BILGI	KAR-10	örnek başlığı (Elektrik)
+74df6f9330	BILGI	KAR-10	yakınlık eylemde örneği (ceket)
+6c9a698a7a-7	GECMIS		ayraç
+530bf9974d	BILGI	KAR-14	bağ kademesi örnek satırları
+6c9a698a7a-8	GECMIS		ayraç
+310cc4a155	DERS	KAR-10	eski oyun: söze dökülmez yanlış uygulanıp ikili karelerde küs gösterdi
+6eca3f4088	GECMIS		alt başlık
+6c9a698a7a-9	GECMIS		ayraç
+6c9a698a7a-10	GECMIS		ayraç
+6c9a698a7a-11	GECMIS		ayraç
+5cafa39bfa	GECMIS		eski ekonomi kararı notu
+9134389f93	DERS	YAPI-36	eski oyunda sabit gider+faiz kasayı batırdı; hafif oyunda olmaz
+fe297381dd	DERS-VAR	YAPI-30	paranın işi cazibe
+77d860bbac	GECMIS		eski karar (kasa kalktı)
+5ee1e6c4d9	GECMIS		kasa kalır (geçersiz)
+681721e767	GECMIS		hedef eklenir (eski ekonomi)
+0937f74aba	GECMIS		sabit ücret kasa (geçersiz)
+e96885132b	DERS-VAR	YAPI-29	dürüst yol ayakta tutar
+a0656f30f0	GECMIS		kasa inip çıkar (geçersiz)
+f134692f60	BILGI-VAR	YAPI-31	para derdi sahne ve atışma malzemesi
+579767c582	GECMIS		eski motor ekonomi alanı
+6c9a698a7a-12	GECMIS		ayraç
+6c9a698a7a-13	GECMIS		ayraç
+1e90658f2e	GECMIS		tablo başlığı (SINIR-11)
+6c9a698a7a-14	GECMIS		ayraç
+6d7d490507	GECMIS		tablo başlığı
+fae97a2689	GECMIS		eski sıradaki iş
+c880e61341	GECMIS		taslak bandı
+3b0b66de49	GECMIS		ayraç
+a115f3551a	GECMIS		tablo başlığı
+ba780cd0a0	DERS-VAR	SINIR-3	dekolte azaltılmaz, üst düğmeler açık
+10e30fcd5d	GECMIS		taşınacak notu
+3b0b66de49-2	GECMIS		ayraç
+00b15c7a9a	BILGI-VAR	KAR-26	açılışın üç kanon eklemesi
+641c9f45bc	BILGI	KANON	açılış: haciz sahnesi tarifi (Peri çay ikram eder, taç gider)
+6b9a037c64	BILGI	KANON	Peri'nin kırmızı mantosu açılışta kurulan temel kıyafet
+14f4392289	BILGI-VAR	KAR-36	anahtar kapıyı açmaz
+74fdf20bb1	BILGI	KANON	Cengo'nun ilk sözü 'Tel lazım mı?'
+7f838b6b77	BILGI-VAR	KAR-28	Cengo bordroda
+960cb9b9c9	GECMIS		alt başlık
+7c64f133d2	BILGI	KAR-8	açılış örnek atışması (bordro)
+307e3efb08	BILGI-VAR	KAR-28	alacağı var, gitmiyor
+6abc7f7279	BILGI	TON-16	'daha alacağım var' sezon boyu tekrar eden espri; anahtar/tel ekseni
+af7cbe18f4	GECMIS		ilk seçim/kasa (eski)
+ba4fd5e709	GECMIS		açılış sahne 4
+a60ae9675b	BILGI	KAR-3	açık nokta: avukat Cengo'yu nereden tanıyor (V8)
+d489252f64	GECMIS		açılış görsel listesi
+3b0b66de49-3	GECMIS		ayraç
+f470d09d74	BILGI	KAR-33	kira borcu tutarı (90.000 ₺); taksit ekonomisi eski
+d8bb01528f	BILGI	KAR-33	ev sahibi döner; Cengo'nun 'borçlulardan saklanırım' kuralı Peri'ye işler
+3b0b66de49-4	GECMIS		ayraç
+8b4df494bf	GECMIS		V1 ilk taslak (vaka yazıldı)
+96eee91154	GECMIS		V1 ilk taslak
+67d68038f1	GECMIS		V1 ilk taslak
+dc69b01724	GECMIS		V1 ilk taslak
+987aa7a7a4	BILGI	RAF-108	ilk vaka: mekanikleri öğretir, kimse kötü değil, tonu kurar
+d4b5a94901	GECMIS		V1 ilk taslak kıyafet
+3b0b66de49-5	GECMIS		ayraç
+47583f518d	GECMIS		V2 ilk taslak
+ebd4591d87	GECMIS		V2 ilk taslak
+57419f0fec	GECMIS		V2 ilk taslak
+15d5c56f1b	GECMIS		V2 ilk taslak
+395f106d29	GECMIS		V2 ilk taslak iplik ucu
+9c54bf6ab2	GECMIS		V2 ilk taslak kıyafet
+3b0b66de49-6	GECMIS		ayraç
+1a5aab1ee8	GECMIS		V3 tip kararı notu (YAPI-3)
+2c3216f0a3	GECMIS		V3 ilk taslak (Columbo)
+cc5f45ec91	GECMIS		V3 ilk taslak
+fe99c9fcc0	GECMIS		V3 ilk taslak
+3cda3ac903	GECMIS		V3 ilk taslak
+96d1c2df32	GECMIS		V3 ilk taslak (Gizem girişi kanonda)
+80cb58bed2	GECMIS		V3 ilk taslak kıyafet
+3b0b66de49-7	GECMIS		ayraç
+7b6d93231d	GECMIS		V4 ilk taslak
+04d154ad22	GECMIS		V4 ilk taslak
+ac1aac37e2	GECMIS		V4 ilk taslak
+0ae7b43641	GECMIS		V4 ilk taslak (dördüncü duvar TON-13)
+cfa6629758	GECMIS		V4 ilk taslak
+f318ad2e58	GECMIS		V4 ilk taslak kıyafet
+3b0b66de49-8	GECMIS		ayraç
+479199dd65	GECMIS		V5 ilk taslak
+ed40aada87	GECMIS		V5 ilk taslak
+b21dc20a8d	GECMIS		V5 ilk taslak
+ee7eb8ffa8	GECMIS		V5 ilk taslak
+b8bb0612cc	GECMIS		V5 ilk taslak kıyafet
+3b0b66de49-9	GECMIS		ayraç
+c26121a7f9	GECMIS		V6 ilk taslak (sır seçildi: kız)
+b6462cdce4	GECMIS		tablo başlığı
+5af707db8e	BILGI	SEZON-17	kullanılmamış fikir: Cengo eski futbolcu (kanon değil)
+4ce0e64eff	GECMIS		seçilen sır; KAR-29'da
+ae5944457c	BILGI	SEZON-17	kullanılmamış fikir: Cengo eski pavyon şarkıcısı (kanon değil)
+90e10d3ddf	GECMIS		V6 ilk taslak komedi motoru
+9852875fea	BILGI	KAR-13	bağ yüksekse V6 'Elektrik' anı; Peri söylemek üzere olur
+c9f308825e	GECMIS		V6 ilk taslak kıyafet
+3b0b66de49-10	GECMIS		ayraç
+29535ea4f6	GECMIS		V7 ilk taslak (plan değişti, SEZON-18)
+617e399b4c	GECMIS		V7 ilk taslak
+2edf003be2	GECMIS		V7 ilk taslak
+c56d7ab05e	GECMIS		V7 ilk taslak
+061ba102ad	GECMIS		V7 ilk taslak kıyafet
+3b0b66de49-11	GECMIS		ayraç
+f3de5a8551	BILGI	SEZON-16	V8 ilk taslağı (kanon değil): avukat yeni kurbanı dolandırıyor
+1011e89b91	BILGI	SEZON-16	V8 ilk taslağı: oyuncunun işi
+6525e65197	BILGI	SEZON-16	V8 ilk taslağı: komedi motoru, ilk kez aynı tarafta
+1511778478	BILGI	SEZON-16	V8 ilk taslağı: karar (V7'ye benzediği uyarısı var)
+ea8b3b23a3	BILGI	KAR-13	sezon sonu: söylenecekken telefon çalar (öneri)
+162de3fa25	BILGI	SEZON-16	V8 ilk taslağı kıyafet (kırmızı manto daire)
+3b0b66de49-12	GECMIS		ayraç
+486a8f209c	GECMIS		eski görsel maliyet hesabı
+0b372deb0e	GECMIS		tablo başlığı
+b8327e06f5	GECMIS		eski maliyet
+eccaebcf50	GECMIS		eski maliyet
+2e9253838c	GECMIS		eski maliyet
+01583a7192	GECMIS		eski maliyet
+b09e44ee2d	GECMIS		eski maliyet
+199dc67ef5	GECMIS		eski maliyet
+5873e6e493	GECMIS		eski maliyet
+dcbdb9a252	GECMIS		eski karar (SATIR-35 yerine geçti)
+7f4cdb19b6	GECMIS		eski karar (KAR-22 her vakada ikisi de)
+3b0b66de49-13	GECMIS		ayraç
+f52eb0cc85	GECMIS		tablo başlığı
+9eaf8a9ebf	DERS-VAR	SINIR-3	dekolte azalmaz
+75abfaa5d8	GECMIS		kapanmış açık soru (Gizem, Eylül)
+a443632830	GECMIS		belge bandı
+b4f1a2e92d	GECMIS		ayraç
+1ce6729bd8	BILGI	SINIR-11	Mavi Ay'dan alınan kurulum (karşılaştırma)
+481749ca07	BILGI	SINIR-11	karşılaştırma tablosu başlığı
+fbc638e89d	BILGI	SINIR-11	Mavi Ay/Paravan eşleşmesi
+e0053fd496	BILGI	SINIR-11	Mavi Ay/Paravan eşleşmesi
+d1b00ff4f4	BILGI	SINIR-11	Mavi Ay/Paravan eşleşmesi
+4926413992	BILGI	SINIR-11	Mavi Ay/Paravan eşleşmesi
+55a1671c86	DERS-VAR	TON-6	eski oyunda 40 kararın 23'ünde Cengo susuyordu
+b4f1a2e92d-2	GECMIS		ayraç
+950dbeb7fd	GECMIS		tablo başlığı
+a7bfb0a34a	BILGI	RAF-28	dil kararı pazar araştırması
+c9e6167049	DERS	RAF-29	screwball kelime oyunu çevrilmez (çeviri riski)
+ea1696dd7e	GECMIS		eski metin anahtarı gerekçesi (RAF-32 yerine geçti)
+45e1172187	BILGI	RAF-101	Steam/mobil pazar verisi
+1010e451c4	BILGI	RAF-7	İngilizce İstanbul-noir ayırt edici
+b4f1a2e92d-3	GECMIS		ayraç
+513b3c2df2	GECMIS		eski ölçüm
+689422cfa2	GECMIS		tablo başlığı
+2ff10b0894	GECMIS		devralınan kod ölçümü
+4ac3c6f6d9	GECMIS		devralınan kod ölçümü
+372bc7ce24	GECMIS		devralınan kod ölçümü
+2ef41a960a	GECMIS		devralınan kod ölçümü
+fa35b1951a	GECMIS		devralınan kod ölçümü
+d93eaa3f33	GECMIS		devralınan kod ölçümü
+434bcb3027	GECMIS		devralınan kod ölçümü
+b4f1a2e92d-4	GECMIS		ayraç
+bcf20fe0da	GECMIS		eski plan
+4cd382c474	GECMIS		konuşma ekranı gerekçesi (yapıldı)
+0b5066d4cd	BILGI	SEZON-8	fikir: sahnede ipucu arama (yapılmadı)
+bebc464dbd	BILGI	SEZON-8	sahnede arama için knowledge sistemi hazır
+6b5e6ba708	GECMIS		eski vaka döngüsü
+b4f1a2e92d-5	GECMIS		ayraç
+b39aee81f3	GECMIS		eski görsel sayımı
+20abf0873d	GECMIS		eski sprite maliyeti
+d56212a803	GECMIS		tablo başlığı
+28ab94b995	GECMIS		eski sprite maliyeti
+8529d3c28d	GECMIS		eski sprite maliyeti
+180bdb80d7	GECMIS		eski sprite maliyeti
+7e16212aad	GECMIS		eski sprite maliyeti
+e3809c13ab	DERS-VAR	YAPI-39	ruh hâli görseli noir, kalktı
+b4f1a2e92d-6	GECMIS		ayraç
+12cd404548	DERS	KAR-10	Mavi Ay laneti: ikili kavuşunca dizi öldü (reyting 9→49)
+32350119ea	DERS	KAR-10	cengoBag bir 'kavuşacaklar mı' sayacı; söze dökülmez sigortası
+b4f1a2e92d-7	GECMIS		ayraç
+8b8537eb80	GECMIS		kapanmış açık soru (ad)
+1b99809e28	DERS-VAR	RAF-30	İngilizce espriyi sahibi geri çeviriyle denetler
+477d50b663	GECMIS		kapanmış açık soru
+155709d03d	BILGI	SEZON-8	açık: sahnede arama ekranı gerekli mi
+b4f1a2e92d-8	GECMIS		ayraç
+5df69ab637	GECMIS		eski sıradaki adım
+2dd102a3ff	DERS-VAR	SUREC-16	kâğıt üstünde (görselsiz) denemek bedava
+5ba44a9964	GECMIS		V2 başlangıç notu
+6abe896ba2	GECMIS		V2 okuma sırası
+e288a69655	GECMIS		V2 okuma sırası
+95f87f39ef	GECMIS		V2 okuma sırası
+f9dfd509f9	GECMIS		V2 okuma sırası
+daed259348	GECMIS		V2 okuma sırası
+1761fc7d12	DERS-VAR	SUREC-30	süre başlangıcı tanımı
+b3ac02a7f2	DERS-VAR	SUREC-30	her adımın bitişi yazılır
+c50f906581	GECMIS		V2 süre notu
+dd5a5b6c38	GECMIS		tablo başlığı
+8e50998956	GECMIS		V2 süre satırı
+89b820a36b	GECMIS		V2 süre satırı
+40c9e69003	GECMIS		V2 süre satırı
+8de2fe14c9	GECMIS		V2 süre satırı
+029a998c5d	GECMIS		V2 süre satırı
+e13a4a0194	GECMIS		V2 süre satırı
+430005b1ee	DERS-VAR	SUREC-30	ara sonrası başlangıç = ilk mesaj anı
+34a487a69c	GECMIS		V2 süre satırı
+e515d2c17d	DERS-VAR	SATIR-20	V2 Onay 3: adı geçen kişiler görünmüyor → kural
+5455d5f360	GECMIS		V2 süre satırı
+03abd1c686	GECMIS		tablo başlığı
+5d9d45eab2	BILGI	SUREC-30	V2 ölçülen süre (form→liste 2 sa 52 dk)
+07fa3d0b8a	BILGI	SUREC-30	V2 görsel süresi 5 sa
+f8dbcdde98	BILGI	SUREC-30	V2 görselli tur süresi
+ad0ffe1c9a	BILGI	SUREC-30	V2 Onay 3 süresi
+2fb041f406	BILGI	SUREC-30	V2 dondurma süresi
+865e7b0b24	BILGI	SUREC-30	V2 toplam ≈11 sa
+3d6b32aaa5	DERS	SUREC-31	V2'de Onay 3'te sonradan 4 görsel (~1,5 sa); adı geçen kişi kuralı baştan listede olursa önlenir
+ae3300f00f	BILGI	SUREC-30	sohbet başına üretim süresi ölçme yöntemi
+22e88dcda9	GECMIS		tablo başlığı
+c19343d93a	GECMIS		V2 sohbet kaydı (eski web/Grok düzeni)
+2c84608af5	GECMIS		V2 sohbet kaydı (eski kesim profilleri)
+de562b2041	DERS-VAR	ISTEM-20	saç rengi metne uymadı (platin) → temel ayrı kontrol
+92c8ddf883	DERS-VAR	GOMME-5	koyu saçta hale elle; göz akı da gidebiliyordu
+870f97c25a	DERS-VAR	ISTEM-28	gözlük sapında yazı izi
+c16b74db6b	DERS-VAR	GOMME-14	havadaki el figür yuvasında ekran dışında kalıyor
+dd029a5e77	DERS-VAR	DENETIM-17	sıra karışık geldi, görselden düzeltildi
+79045fcf21	DERS-VAR	ISTEM-37	elin sahibi kıyafeti başka konuğu çağrıştırdı (G44)
+43270ca92b	DERS-VAR	DENETIM-28	pasta kat sayısı kaydı; buzdolabı markası
+01af18b5c7	GECMIS		V2 sohbet kaydı
+498843e5b8	DERS-VAR	ISTEM-28	kürsü rozeti silindi
+dda82ef815	GECMIS		V2 sohbet kaydı
+bec4a886b1	DERS-VAR	SATIR-1	metinde anılan Cengo karede yoktu
+6d32d407c7	DERS-VAR	ISTEM-36	masanın açık yüzü: Saadet Peri'yi görürdü
+d31ee6e8c5	GECMIS		düzeltme yok
+b7f5214767	GECMIS		düzeltme yok
+8acc86459c	DERS	ISTEM-34	Grok İstanbul yerine Golden Gate çizdi; ChatGPT reddi sonra geçti
+c716a1429e	DERS-VAR	KAR-23	ayakkabı yeşil → kırmızı stiletto
+3b6d3e55d1	GECMIS		düzeltme yok
+626d25035d	GECMIS		düzeltme yok
+cbd46cf933	GECMIS		düzeltme yok
+17f7cd8d63	GECMIS		düzeltme yok
+d4f1bc91a0	GECMIS		düzeltme yok
+6ea6dc53ce	GECMIS		düzeltme yok
+c9e79469d0	GECMIS		küçük fark kabul
+d5f3bfa469	GECMIS		ara kaydı
+4bd4a7c1da	GECMIS		ara kaydı
+1d2e8a379a	GECMIS		ara kaydı
+c6fd956365	GECMIS		ara kaydı
+566ff93116	GECMIS		ara kaydı
+d4479a81ff	GECMIS		ara kaydı
+85a8548a71	GECMIS		ara kaydı
+e9f4b3cbe7	DERS-VAR	SUREC-30	araç yazımı süreden sayılmaz
+f4468f331e	DERS	SUREC-31	V1'de zaman Onay 3'teki görsel sorunlarına gitti; baştan önlenebilirdi
+de49393768	GECMIS		tablo başlığı
+1362873514	BILGI	SUREC-14	yeni vakada araçları vakaya açma (~1 saat)
+68b29406bd	BILGI-VAR	KOD-27	tur aracını yeni vakaya açma
+084dfd2f60	BILGI-VAR	KOD-80	vakadan vakaya geçişi dene
+a900914fa5	BILGI	KOD-12	yeni vakanın test kardeşi
+1b95b6f6e9	GECMIS		V3 başlangıç notu
+bfffd9884c	GECMIS		V3 okuma sırası
+7c90f6df3b	GECMIS		V3 okuma sırası
+758371fb3e	GECMIS		V3 okuma sırası
+6b58907669	GECMIS		V3 okuma sırası
+7f2bfcffbb	GECMIS		V3 okuma sırası
+9674109ef0	BILGI-VAR	YAPI-3	V3 Bilmece kararı
+dc3aa2513f	BILGI-VAR	KAR-34	Gizem tanımı kanonda
+938af19724	GECMIS		tablo başlığı
+d620f821cf	GECMIS		V3 ara kaydı
+019429ead9	GECMIS		V3 ara kaydı
+dba4a4002c	GECMIS		V3 ara kaydı
+f52c82a9f2	GECMIS		V3 ara kaydı
+912d6cf2d1	GECMIS		V3 ara kaydı
+64350d3e20	DERS-VAR	SUREC-30	başlat dendi ama çalışılamadı → aynı anda ara
+bb038271cf	GECMIS		V3 ara kaydı
+e011e89420	GECMIS		V3 ara kaydı
+931e73ecbb	GECMIS		V3 ara kaydı
+25c3855988	GECMIS		V3 ara kaydı
+9f0d1e1b79	GECMIS		V3 ara kaydı
+dfb41da61d	GECMIS		V3 ara kaydı
+f6b2c10f5f	GECMIS		V3 ara kaydı
+99b975ffd4	GECMIS		V3 ara kaydı
+8471844179	GECMIS		tablo başlığı
+3ac136bebe	DERS	SEZON-17	V3 müşterisi aile dışı seçildi (V1 baba–oğul tekrarı olmasın)
+f381604dee	GECMIS		V3 Onay 1 düzeltmeleri
+c39def7c07	GECMIS		V3 süre satırı
+bf21a96163	GECMIS		V3 süre satırı (bulanık replik örnekleri TON-9'da)
+c8df11c9d8	DERS-VAR	TON-9	109 replik anlaşılırlık geçişi
+e515487396	BILGI-VAR	SUREC-22	önce ana referanslar onay, sonra gruplu üretim
+4d1d5f6465	GECMIS		V3 süre satırı
+dc44943a9a	GECMIS		ölçülmedi
+080a1e4c0b	DERS-VAR	SATIR-2	V3 Onay 3'te SR-A…L yazıldı
+bcf87812b9	GECMIS		V3 dondurma kaydı
+8012014c0f	GECMIS		tablo başlığı
+3cdf8d6543	BILGI	SUREC-30	V3 ölçülen süre (form→liste 5 sa)
+10059d552e	GECMIS		V3 kısmi süre
+7da4e2b8a7	GECMIS		ölçülmedi
+c1223d8c32	GECMIS		V3 kısmi toplam
+cd8610b376	DERS	SUREC-30	V3 saat işletilmedi → takvim 3,5 hafta; saat baştan sona işletilmeli
+34e965a1c7	GECMIS		V4 başlangıç notu
+72da04310b	GECMIS		V4 amacı
+123d2fb0bd	GECMIS		V4 amacı
+41c43d4139	GECMIS		V4 hesap notu
+9e2fcbfb48	GECMIS		V4 okuma sırası
+0c02f6dbc7	GECMIS		V4 okuma sırası
+70a5cad1dc	GECMIS		V4 okuma sırası
+2356d55df4	GECMIS		V4 okuma sırası
+e4857a8f65	GECMIS		V4 okuma sırası
+378d4c99ef	GECMIS		V4 okuma sırası
+48cfdb87fc	DERS-VAR	KAR-1	taslak ayrıntısı forma girmeden sahibine sorulur
+3aa52d436b	BILGI	CODEX-22	2 kol denemesi; dongu.sh kol desteği (kilit, ayrı log)
+8418ea683a	GECMIS		V4 çeviri kararı
+e65a7abd18	GECMIS		tablo başlığı
+689b64ddb7	GECMIS		V4 ara kaydı
+23d2e7cfe0	GECMIS		V4 ara kaydı
+4ecb955f71	GECMIS		tablo başlığı
+e4bcfa1e27	GECMIS		V4 süre satırı
+1828d4530e	GECMIS		V4 süre satırı
+24d1f334cf	GECMIS		V4 süre satırı
+2cea0bfc65	GECMIS		V4 süre satırı
+e60b9134cd	DERS-VAR	SUREC-30	saat dururken sahibinin beyan ettiği süre aktif süreye eklenir
+b14aeb307e	GECMIS		boş süre satırı
+9a20b83e4e	GECMIS		boş süre satırı
+52ae851385	GECMIS		boş süre satırı
+47ce0fcdf5	GECMIS		boş süre satırı
+032b5d0363	GECMIS		boş süre satırı
+67db26cd27	BILGI-VAR	SUREC-30	resim sayımı kalıbı (tablo başlığı)
+17fd42edc0	BILGI-VAR	SUREC-30	resim sayımı kalıbı
+74c4b56672	BILGI-VAR	SUREC-30	resim sayımı kalıbı
+ce8836c094	BILGI-VAR	SUREC-30	resim sayımı kalıbı
+3d0aefd9c4	BILGI-VAR	SUREC-30	resim sayımı kalıbı
+b6b4f0d6e2	BILGI-VAR	SUREC-30	resim sayımı kalıbı
+7c3270613e	BILGI-VAR	SUREC-30	resim sayımı kalıbı
+b306415f99	BILGI	SUREC-30	resim sayımına 'hız sınırı görüldü mü' satırı
+763048e1fb	BILGI	SUREC-30	toplam tablosu kalıbı (sahibi/makine/takvim)
+ae0f6c1a41	GECMIS		boş tablo satırı
+fc182fbc3d	GECMIS		boş tablo satırı
+e3d2280bda	GECMIS		boş tablo satırı
+f4de88b1b9	GECMIS		boş tablo satırı
+662a1dd14a	GECMIS		V5 başlangıç notu
+fa799b21bd	GECMIS		V5 okuma sırası
+dbd37367ea	GECMIS		V5 tip notu
+a0ddcfc8ca	GECMIS		V5 başlangıç saati
+ee4b04ce0c	GECMIS		tablo başlığı
+7e2286c71e	GECMIS		V5 ara kaydı
+9c4601d9a1	GECMIS		V5 ara kaydı
+00eac4cb4d	GECMIS		V5 ara kaydı
+9ac477f809	GECMIS		V5 ara kaydı
+55574dc805	GECMIS		V5 ara kaydı
+eb9f0b692b	GECMIS		tablo başlığı
+b20e34dc1e	GECMIS		V5 süre satırı
+ac41ae5ee9	GECMIS		V5 süre satırı
+b57863d708	GECMIS		V5 süre satırı
+e4ebf7589c	GECMIS		V5 süre satırı
+0c9324d2b1	DERS-VAR	SUREC-38	V5 Onay 2 düzeltmeleri (Selim, yosun, kararlar)
+c1e5dcb7e1	BILGI	SUREC-30	V5 metin aşaması ~5 sa
+4c073dd3af	GECMIS		V6 başlangıç notu
+d177a35235	GECMIS		V6 okuma sırası
+76f09952df	GECMIS		V6 konu seçimi
+5936e57f1d	BILGI-VAR	KAR-29	Eylül 16
+831442016d	BILGI-VAR	KAR-30	Gamze
+0f4d3105e4	BILGI-VAR	KAR-30	Haldun
+d33cefbacd	BILGI-VAR	KAR-30	Müzeyyen
+4246d701b2	BILGI-VAR	KAR-30	Jale
+67ddad99fe	BILGI-VAR	KAR-29	Üsküdar
+337e25012e	BILGI-VAR	KAR-30	V6 kişileri kanonda
+31b0e7a581	GECMIS		V6 hayvan yok
+7390bac1d3	DERS-VAR	SUREC-30	saatler UTC yazılmıştı
+14fffbc679	GECMIS		tablo başlığı
+f9b0f92625	GECMIS		V6 ara kaydı
+a142b7f0c4	GECMIS		tablo başlığı
+aeddbd9ec4	GECMIS		V6 süre satırı
+929dc73367	GECMIS		V6 süre satırı
+4f7706c06a	DERS-VAR	SINIR-7	Eylül 16, Cengo baba olduğunda reşit; Gamze ile evliydi (KAR-30)
+59f1f482bc	DERS	BILGI-1	V6: dikiş makinesi sahnesi terziliği sızdırıyordu → sahne salona taşındı (mekân/eşya sızıntısı)
+159cc337ee	DERS-VAR	KOD-90	elle okumada MASUM satırı sızıntısı
+87de01b77f	GECMIS		V6 Onay 2 düzeltmeleri
+d09134c33c	BILGI	SUREC-30	V6 metin aşaması ~3 sa 14 dk
+8ea4cbae96	BILGI-VAR	SUREC-32	gündüz temel, gece Codex düzeni
+e3e5cd9628	DERS	SUREC-33	V6'da kurallar yarım uygulanınca 7 resim boşa gitti
+4c76011d89	GECMIS		tablo başlığı
+8fbc908280	DERS-VAR	SATIR-11	üretimden önce bayraklar kuralla kapandı (SR-M)
+05ebd9184d	GECMIS		V6 parti kaydı
+280e38c738	BILGI	ISTEM-1	istem üretici betik örneği (uretim/v6/uret_istem_parti3.py)
+2f6fc86ccc	GECMIS		V6 gömme kaydı
+f3b38418a1	DERS	KOD-35	V6'da kapı 11 ek resim istedi (görselli turda); kapı erken koşulursa liste baştan tam olur
+0af8665de0	GECMIS		V6 Onay 3 kaydı
+7dd9142ea4	GECMIS		V6 düzeltme kaydı
+2a937a83da	GECMIS		V6 dondurma kaydı
+3c5c0cb364	GECMIS		V7 başlangıç notu
+7e3c05b778	GECMIS		V7 okuma sırası
+962c44ffa3	GECMIS		V7 ilk plan (saat; değişti)
+84969bee69	GECMIS		V7 ilk plan
+dbab0d56ca	GECMIS		V7 ilk plan
+4133621de0	GECMIS		V7 ilk plan
+a8c3848365	GECMIS		V7 ilk plan
+bf48aaf3eb	GECMIS		V7 ilk plan
+f76de8da71	GECMIS		V7 kıyafet (formda)
+1768ea4d1a	GECMIS		V7 kapanış ayrıntısı (diyalogda)
+32e00ff73a	GECMIS		V7 açık sorular (kapandı)
+a7501175e7	GECMIS		V7 planı (formda)
+7b89c255b3	GECMIS		V7 planı (formda)
+e5b0329a90	GECMIS		V7 planı (formda)
+014ff56f87	GECMIS		V7 planı (formda)
+ca597f1c54	GECMIS		V7 planı (formda)
+bffc014daf	GECMIS		V7 planı (formda)
+1260f63210	GECMIS		V7 planı (formda)
+ceaae553e0	GECMIS		V7 planı (formda)
+bfcbc735ee	GECMIS		V7 iş notu
+a4cdeb7612	GECMIS		kapanma notu
+3daccbb27a	DERS-VAR	SEZON-18	V7 ilk planı V5'i tekrarlıyordu
+8478e850b8	DERS-VAR	YAPI-35	taç/kasa/motor çatışması → taç her yolda
+35bc277c53	GECMIS		V7 başlangıç saati
+90293746f5	GECMIS		tablo başlığı
+d3f219e36e	GECMIS		V7 ara kaydı
+0395490a7a	GECMIS		tablo başlığı
+26c14d892a	GECMIS		V7 süre satırı
+48e4d7d162	GECMIS		V7 süre satırı
+b0fe8f55fb	GECMIS		V7 süre satırı
+1c22a8bb57	DERS	KAR-22	V7 elbise rengi zümrüt V5'i tekrarlıyordu → gece mavisi; kıyafet rengi de eski vakalarla karşılaştırılır
+06c17df589	GECMIS		V7 süre satırı
+209f3d58fe	DERS-VAR	SUREC-27	sızıntı taraması birebir yok derken elle okumada 2 bulgu
+939eec41b9	DERS-VAR	YAPI-35	taç kararı yollarla çelişti
+f2c4745b52	BILGI-VAR	YAPI-35	taç her yolda (V7 yolları)
+b435b71488	GECMIS		V7 durum notu
+040e8bfbf2	DERS	SEZON-21	V7: önceki vakaların hazır resimleri kullanılmadı, bütün resimler baştan (büro, manto, triko)
