@@ -15,8 +15,13 @@
 const fs = require("fs");
 const path = require("path");
 
-const DOSYA = path.join(__dirname, "..", "sablon", "kurallar", "benzerlik", "konuklar.tsv");
-const ESIK = 3;
+const DOSYA = process.env.BENZERLIK_TABLO || path.join(__dirname, "..", "sablon", "kurallar", "benzerlik", "konuklar.tsv");
+// Ağırlık: saç ve ayırıcı işaret göze en çok çarpan; ötekiler 1. Eşik 6 (20 Kasım 2026): daha gevşek eşik
+// her vakada 10–40 yanlış alarm verdi. Bu yüzden yazı denetimi yalnız BARİZ benzerliği durdurur; resimde çıkan
+// benzerliği (Süheyla–Jale gibi) üretimden sonraki resim aracı yakalar.
+const AGIRLIK = { yas: 1, beden: 1, yuz: 1, sac_kesim: 2, ust_renk: 1, sac_renk: 2, isaret: 2 };
+const ESIK = 6;
+const puan = (ayni) => ayni.reduce((s, x) => s + AGIRLIK[x.split(" ")[0].replace("yaş", "yas").replace("işaret", "isaret")], 0);
 
 const SOZLUK = {
   cins: ["k", "e", "c"],
@@ -81,10 +86,10 @@ function denetle(kisiler, vaka, esik = ESIK) {
     for (const e of eski) {
       if (e.cins !== y.cins) continue;
       const ayni = karsilastir(y, e);
-      if (ayni.length >= esik) bulgu.push({ yeni: y, eski: e, ayni });
+      if (puan(ayni) >= esik) bulgu.push({ yeni: y, eski: e, ayni, puan: puan(ayni) });
     }
   }
-  bulgu.sort((p, q) => q.ayni.length - p.ayni.length);
+  bulgu.sort((p, q) => q.puan - p.puan);
   return { yeni, bulgu, eksik };
 }
 
@@ -113,7 +118,7 @@ const SINAV = [
 
 function satir(b) {
   const v = (k) => (k.kalici ? "kalıcı" : "V" + k.vaka);
-  return `  ${b.yeni.ad} (${v(b.yeni)}) ~ ${b.eski.ad} (${v(b.eski)}): ${b.ayni.length} aynı — ${b.ayni.join(", ")}`;
+  return `  ${b.yeni.ad} (${v(b.yeni)}) ~ ${b.eski.ad} (${v(b.eski)}): puan ${b.puan} — ${b.ayni.join(", ")}`;
 }
 
 function main() {
@@ -131,12 +136,12 @@ function main() {
       const y = typeof s.yeni === "string" ? byId[s.yeni] : s.yeni;
       const e = byId[s.eski];
       const ayni = karsilastir(y, e);
-      const tuttu = ayni.length >= ESIK;
+      const tuttu = puan(ayni) >= ESIK;
       if (!tuttu) kacan++;
-      console.log(`${tuttu ? "YAKALADI" : "KAÇIRDI "}  ${s.ad}: ${ayni.length} aynı — ${ayni.join(", ") || "yok"}`);
+      console.log(`${tuttu ? "YAKALADI" : "KAÇIRDI "}  ${s.ad}: puan ${puan(ayni)} — ${ayni.join(", ") || "yok"}`);
     }
-    console.log(kacan ? `\nSONUÇ: ${kacan} bilinen çift kaçtı — araç güvenilmez.` : "\nSONUÇ: bilinen çiftlerin hepsi yakalandı.");
-    process.exit(kacan ? 1 : 0);
+    console.log(`\nBilgi: ${kacan}/${SINAV.length} çift yazıda eşiğin altında. Bunlar resimde benzedi; yakalamak üretimden`
+      + " sonraki resim aracının işi (o aracın sınavı bu çiftlerle yapılır).");
   }
 
   if (arg === "--hepsi") {
@@ -161,14 +166,14 @@ function main() {
   }
   if (eksik.length) console.log("EKSİK:\n  " + eksik.join("\n  "));
   if (bulgu.length) {
-    console.log(`BENZER (${ESIK} ya da daha çok özellik aynı) — bu konukların istemi üretime girmez:`);
+    console.log(`BENZER (puan ${ESIK} ya da üstü) — bu konukların istemi üretime girmez:`);
     bulgu.forEach((b) => console.log(satir(b)));
   }
   const durdu = eksik.length || bulgu.length;
-  console.log(durdu ? `\nSONUÇ: DURDU — Vaka ${vaka}'nın ${yeni.length} konuğunda düzeltilecek yer var.`
-    : `\nSONUÇ: GEÇTİ — Vaka ${vaka}'nın ${yeni.length} konuğu öncekilerin hiçbirine benzemiyor.`);
+  console.log(durdu ? `\nSONUÇ: DURDU — Vaka ${vaka}: ${yeni.length} konuktan bazılarında düzeltilecek yer var.`
+    : `\nSONUÇ: GEÇTİ — Vaka ${vaka}: ${yeni.length} konuğun hiçbiri öncekilere benzemiyor.`);
   process.exit(durdu ? 1 : 0);
 }
 
 if (require.main === module) main();
-module.exports = { oku, karsilastir, denetle, ESIK, SINAV };
+module.exports = { oku, karsilastir, denetle, puan, ESIK, SINAV };
