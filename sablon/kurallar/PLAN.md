@@ -4,12 +4,17 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
-> ## ▶️ YENİ PENCERE: BURADAN BAŞLA (17 Kasım 2026)
+> ## ▶️ YENİ PENCERE: BURADAN BAŞLA (güncel: 20 Kasım 2026)
+> **BUGÜNKÜ İŞ, SIRAYLA:** aşağıdaki "ANLAŞILAN SIRA" (1) 41 karar + Cengo'nun saçı → üretim belgelerinin en üstüne, (2) konuk
+> benzerliği denetimi (önce sahibinin kısa onayı), (3) üretim yeniden başlar. Adım 3–4 bundan SONRA, arka planda. Açık soru yok.
+> Hesap: Barbaros'un sınırı azalınca son durum buraya yazılır, iş Oğuz Bey'in hesabından sürer (o hesap her şeye yetkili).
+> Sahibine en kısa, en basit Türkçe (§0).
+>
 > **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
 > kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında
 > "Cevap" satırı). Kod: doğrulayıcı K19'dan önizleme/kesinti/kasa denetimi kalktı, K8 yeni oyunda çalışmaz (`d3b4c7d`). Kapı commit
 > bağlantısı (soru 24) ayrı commit'te. Belgelerdeki eski metinler (ör. veri sözleşmesinde "6 + 2", 7. parça adım 8–9, D-6, Ton belgesi)
-> **adım 3'te** bir seferde düzeltilir. **Sıradaki: adım 3.**
+> **adım 3'te** bir seferde düzeltilir. (Sıra değişti: bkz. en üstteki BUGÜNKÜ İŞ.)
 >
 > ### 🖼️ VAKA 1–5 RESİMLERİ (19 Kasım 2026, Barbaros'un kararı): metinler yeni kurallara göre geçirildikten sonra **yalnız yeni
 > metne uymayan resimler** yeniden üretilir (satır–resim denetimi ve kapı hangilerini işaretlerse). Yeni üretilenler eski, uyan
