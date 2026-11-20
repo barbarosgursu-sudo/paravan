@@ -19,6 +19,14 @@
 >   mesaj yazıyordu (kesin değil). "Siz durdurdunuz" deme — sahibi hiçbir şeyi reddetmemişti ve buna çok kızdı.
 > - Sahibini kural işinden başka işe (üretim) çekme.
 >
+> **ADIM 3 DURUMU (20 Kasım 2026 akşam):** (1) BİTTİ: `sablon/kurallar/KURALLAR.md` — 16 konu dosyası tek dosyada, metne
+> dokunulmadı; artık ASIL dosya (`arac_kurallar.js birlestir` üstüne yazmayı reddeder). `node arac_kurallar.js say`: 3.585 ham
+> kaydın hepsi etiketli, 1.725 KURAL kaydının hepsinin karşılığı var, hata 0. (2) Konular arası tekrar: program 250 aday çift buldu
+> (`adim3/aday.js`), birinci okuma 16 grup (`adim3/tekrar_karar.md`), ikinci göz 3 cümle düzeltmesi + 5 kaçan grup + 3 yeni çelişki
+> (`adim3/denetim_tekrar.md`). **Sahibinin cevabı bekleniyor: `adim3/SORULAR.md`** (21 birleşme + 7 çelişki, önerili). Cevaptan sonra:
+> KURALLAR.md'ye işle (birleşen kodun başlığı kalır, "→ ANA"), atıfları düzelt (SATIR-28, SEZON-24), `say` hata 0; sonra öbür
+> belgelerden kural metinlerini çıkarıp kod koymak (sahibinin onayıyla, bir seferde) ve kırık atıflar (§5).
+>
 > **20 Kasım'da bu pencerede biten (hepsi `main`'de):**
 > - Benzerlik denetimi iki parça tamam: yazı (`kaynak/arac_benzerlik.js`) + resim (`kaynak/arac_benzerlik_resim.py`; yüz + baş/saç + bütün
 >   figür; sınır her çalıştırmada bilinen 4 benzer çiftten kendiliğinden; ölçü ayırt edemezse DUR, çıkış 3). Döngüye bağlı, kural
