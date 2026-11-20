@@ -17,6 +17,7 @@
 >   Cengo şoför üniforması almaya çıkarken onu sessizce alır (yeni kare K201), arabanın yan koltuğunda saklar. Yüzleşme ve
 >   kovalamaca yeni `onluk8` setiyle (önlük, kep/gözlük yok); Peri yüzleşmede "Kraliçe önlükle de suçlar." der. Bagajda reçel
 >   önlüğe bulaşır; hortumdan sonra Cengo aynı mantoyu getirir. `kilik` artık mantosuz (saten bluz + etek üstüne önlük).
+> - **Kapanış (ortak):** "Ofise ilk bu mantoyla gelmiştiniz…" satırı artık Cengo'nun (Gizem ilk vakada yoktu); Peri cevabı Cengo'ya.
 
 > ## ✍️ ORTAKTAN BARBAROS'A (19 Kasım 2026, 22:05) — VAKA 8 BAŞLADI, ONAY 1 VERİLDİ
 > - **Kurallar (V7'den sonra):** kural kitabına **15c** (konuklar birbirine benzemez; soru 30 sözüyle) işlendi; 6. parça

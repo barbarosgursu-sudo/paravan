@@ -456,12 +456,12 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Büro, gece. Peri kırmızı mantoda, kuşağı çözük, saçında reçel. Sezonun başladığı yer. Gizem çay getirir, saçından reçel toplar. Cengo kasketi çıkarır, kendi ceketini giyer. Masada Bahar'ın bir kavanozu. Bağ düşük: Cengo "alacağım duruyor" der, çıkar; Peri tek başına reçel yer; telefon çalmaz. Bağ yüksek: Peri Cengo'nun yakasını düzeltir, "Cengo, ben…" — telefon çalar; yeni müşteri. Kavuşmazlar.
 
 `459` *Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.*  
-`460` *Cengo şoför kasketini askıya asmış; üstünde kendi eski ceketi.*  
+`460` *Cengo şoför kasketini askıya asmış; üstünde kendi ceketi.*  
 `461` *Gizem içeri geliyor.*  
 `462` **GİZEM:** Saçınızda hâlâ reçel var, Peri Hanım.  
-`463` **PERİ:** Vişne, Gizem. Bahar Hanım'ın markası. Çok iyi tutuyor.  
-`464` **GİZEM:** Sezon başında da bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama.  
-`465` **PERİ:** O sabah her şey bağlıydı, Gizem. Sonra hepsi çözüldü.  
+`463` **PERİ:** Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler.  
+`464` **CENGO:** Ofise ilk bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama.  
+`465` **PERİ:** O sabah her şey bağlıydı, Cengo. Sonra hepsi çözüldü.  
 `466` **CENGO:** Alacağım hâlâ duruyor, haberin olsun. Patron bulundu ama maaşı yok. *(bağ düşükse)*  
 `467` *Cengo kapıdan çıkıyor. Peri kavanozu açıp tek başına bir kaşık reçel yiyor.* *(bağ düşükse)*  
 `468` *Peri kalkıp Cengo'nun önüne geçiyor; ceketinin yakasını düzeltiyor. Cengo kıpırdamıyor.* *(bağ yüksekse)*  

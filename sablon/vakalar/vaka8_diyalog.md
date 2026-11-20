@@ -457,12 +457,12 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Sezon finali (kural 12a, eşik +1). Kanon: manto "evden çıkardığı tek giysi".
 
 *Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.* {kare: K187}
-*Cengo şoför kasketini askıya asmış; üstünde kendi eski ceketi.* {kare: K198}
+*Cengo şoför kasketini askıya asmış; üstünde kendi ceketi.* {kare: K198}
 *Gizem içeri geliyor.* {gir: gizem, gi: triko, ekran: gizem}
 **GİZEM [triko]:** Saçınızda hâlâ reçel var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
-**PERİ [kas]:** Vişne, Gizem. Bahar Hanım'ın markası. Çok iyi tutuyor. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
-**GİZEM [triko]:** Sezon başında da bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
-**PERİ [yumusak]:** O sabah her şey bağlıydı, Gizem. Sonra hepsi çözüldü. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+**PERİ [kas]:** Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+**CENGO [yumusak]:** Ofise ilk bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**PERİ [yumusak]:** O sabah her şey bağlıydı, Cengo. Sonra hepsi çözüldü. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 **CENGO [normal]:** Alacağım hâlâ duruyor, haberin olsun. Patron bulundu ama maaşı yok. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.yumusak}
 *Cengo kapıdan çıkıyor. Peri kavanozu açıp tek başına bir kaşık reçel yiyor.* {bag: dusuk, kare: K188}
 *Peri kalkıp Cengo'nun önüne geçiyor; ceketinin yakasını düzeltiyor. Cengo kıpırdamıyor.* {bag: yuksek, kare: K189}

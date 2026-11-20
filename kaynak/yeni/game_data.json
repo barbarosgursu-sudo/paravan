@@ -11722,7 +11722,7 @@
               "m": "Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.",
               "kare": "K187"
             },
-            {"k": "not", "m": "Cengo şoför kasketini askıya asmış; üstünde kendi eski ceketi.", "kare": "K198"},
+            {"k": "not", "m": "Cengo şoför kasketini askıya asmış; üstünde kendi ceketi.", "kare": "K198"},
             {"k": "not", "m": "Gizem içeri geliyor.", "gir": "gizem", "gi": "triko", "ekran": "gizem"},
             {
               "k": "gizem",
@@ -11736,26 +11736,26 @@
             {
               "k": "peri",
               "i": "kas",
-              "m": "Vişne, Gizem. Bahar Hanım'ın markası. Çok iyi tutuyor.",
+              "m": "Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler.",
               "kime": "gizem",
               "ekran": "peri+gizem",
               "yuz": "gizem.triko"
             },
             {
-              "k": "gizem",
-              "i": "triko",
-              "m": "Sezon başında da bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama.",
+              "k": "cengo",
+              "i": "yumusak",
+              "m": "Ofise ilk bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama.",
               "kime": "peri",
-              "ekran": "peri+gizem",
+              "ekran": "peri+cengo",
               "yuz": "peri.kas"
             },
             {
               "k": "peri",
               "i": "yumusak",
-              "m": "O sabah her şey bağlıydı, Gizem. Sonra hepsi çözüldü.",
-              "kime": "gizem",
-              "ekran": "peri+gizem",
-              "yuz": "gizem.triko"
+              "m": "O sabah her şey bağlıydı, Cengo. Sonra hepsi çözüldü.",
+              "kime": "cengo",
+              "ekran": "peri+cengo",
+              "yuz": "cengo.yumusak"
             },
             {
               "k": "cengo",
