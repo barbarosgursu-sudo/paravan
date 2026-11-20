@@ -250,6 +250,19 @@ onaylıları; V6 ve sonrası bilerek çapada değil).
   poz ve bilerek değişen ifade (unlu yüz) ölçüyü bastırıyor, onaylılarla kaymışlar iç içe. Bu kayma gözle (A.7, A.14).
 - Araç değişirse önce `python arac_yuz.py --sinav` → "SINAV GEÇTİ".
 
+**0b2. Yazılımla konuk benzerliği — konuğun figür ve kartında (20 Kasım 2026, sahibi: "vakadaki karakterler önceki vakalardakinden
+mutlaka farklı olmalı… otomasyon şeklinde sağlamalıyız"; V7 G4 Süheyla, V6 Jale'nin aynısı çıktı).** `cd kaynak && python
+arac_benzerlik_resim.py --uretim v<N> G<n>` (döngü yüz denetiminin ardından kendisi koşar, sonuç `$DONGU_LOG/benzerlik.tsv`).
+Yüz + baş (saç dahil) + bütün figür; karşılaştırılan: oyundaki bütün figürler, bütün vakaların onaylıları ve aynı vakada üretilen
+öbür konuklar (aynı cinsiyet). Üretimden önceki yazı denetiminin (`arac_benzerlik.js`) ikinci parçası.
+- **KALDI** (≥ 1,55) → ret; konuğun görünüşü değişir (saç kesimi/rengi, yaş, yüz, beden), sahibine sorulmaz; form ve
+  `sablon/kurallar/benzerlik/adaylar.tsv` güncellenir, `arac_benzerlik.js` yeniden koşulur, yeniden üretilir.
+- **ŞÜPHELİ** (1,40–1,55) → onaylanmaz, aynı yol; iki kez ŞÜPHELİ kalırsa sahibine (görüntü `kaynak/YENI_UI/benzerlik/G<n>_<kişi>.jpg`).
+- **GEÇTİ** → göz denetimi. Kayıt satırına eklenir: `· benzerlik GEÇTİ (en yakın <kişi> 1,1x)`.
+- Peri, Cengo, Gizem denetlenmez (kimlikleri 0b'de). İfade resmi de koşar.
+- Araç değişirse önce `python arac_benzerlik_resim.py --sinav` → "SINAV GEÇTİ" (Süheyla–Jale, Necmi–Recep, Kaan–Cengo/Bülent,
+  Müzeyyen–Nadide). `--havuz-ici` eski vakalarda kalmış benzer çiftleri basar (bilgi).
+
 **0c. El denetimi — kişi görünen HER resimde (14 Kasım 2026, kural 5; V6 K96'da Peri'nin iki SAĞ eli iki kez gözden kaçtı).**
 `cd kaynak && python arac_el.py --sayfa V<N> G<n>` → `kaynak/YENI_UI/el/G<n>.jpg`: her kişinin SOL kolu mavi, SAĞ kolu kırmızı çizili,
 her el büyütülmüş ve hangi kolda olduğu yazılı; ayrıca istemin "TAM n kişi"siyle sayım. Bak: sol kolun ucunda SOL el, sağ kolun ucunda

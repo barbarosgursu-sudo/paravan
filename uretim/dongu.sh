@@ -75,6 +75,10 @@ kol() {
       yz=$(cd ../../kaynak && python arac_yuz.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
       echo "kol$k: G$n ${yz:-YÜZ araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${yz:-YÜZ araç çalışmadı}" >> "$LOG/yuz.tsv"
+      # Yazılımla konuk benzerliği (20 Kasım 2026, sahibi): konuk figür/kartı eski karakterlere ve birlikte üretilenlere benzemez.
+      bz=$(cd ../../kaynak && python arac_benzerlik_resim.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
+      echo "kol$k: G$n ${bz:-BENZERLİK araç çalışmadı}"
+      printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${bz:-BENZERLİK araç çalışmadı}" >> "$LOG/benzerlik.tsv"
     fi
     rmdir "kilit/G$n"
     [ "$sonuc" = SINIR ] && { echo "kol$k: kota/hız sınırı, $BEKLE sn bekliyor (log: $LOG/codex_G$n.log)"; sleep "$BEKLE"; }

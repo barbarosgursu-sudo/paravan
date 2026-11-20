@@ -18,7 +18,12 @@
 > havuza ve birlikte üretilenlere benzerse görünüşü değişir, sahibine sorulmaz; onaylanınca kendiliğinden havuza girer (onay adımı +
 > `arac_paket.js --yaz` yedeği). Ağırlıklı puan, eşik 6 (gevşek eşik her vakada 10–40 yanlış alarm verdi; bilinen çiftler resimde
 > benzedi, yazıda değil → onları üretimden sonraki resim aracı yakalayacak, sahibinin ya da Oğuz Bey'in bilgisayarında). Uygulandı:
-> Pınar'ın saçı at kuyruğu (Dilek'e benziyordu), Yusuf'un saçı yazıldı. Sırada: (2) ikinci parça — resim aracı; sonra (3) üretim.
+> Pınar'ın saçı at kuyruğu (Dilek'e benziyordu), Yusuf'un saçı yazıldı.
+> **(2) ikinci parça BİTTİ (20 Kasım 2026, Barbaros'un bilgisayarında):** üretimden sonraki resim aracı `kaynak/arac_benzerlik_resim.py`
+> (yüz + baş/saç + bütün figür; oyundaki bütün figürler, onaylılar ve aynı vakanın üretilenleriyle). Sınav GEÇTİ: Süheyla–Jale,
+> Necmi–Recep, Müzeyyen–Nadide yakalandı; eski Kaan Bülent'e değil Cengo'ya daha çok benzedi (resimde de öyle). Eski Şükrü ve Ercan
+> da yakalandı. Döngüye bağlı (`uretim/dongu.sh`), kural `uretim/CLAUDE.md` Denetim 0b2. Bugün: V7 G4 Süheyla KALDI (Jale), G5 Nesrin
+> ŞÜPHELİ (Nadide), G7 Vedat GEÇTİ. Eski vakalarda 7 benzer çift kalmış (`--havuz-ici`; bilgi). **Sırada: (3) üretim.**
 >
 > **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
 > kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında
