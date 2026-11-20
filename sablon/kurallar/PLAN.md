@@ -23,7 +23,8 @@
 > (yüz + baş/saç + bütün figür; oyundaki bütün figürler, onaylılar ve aynı vakanın üretilenleriyle). Sınav GEÇTİ: Süheyla–Jale,
 > Necmi–Recep, Müzeyyen–Nadide yakalandı; eski Kaan Bülent'e değil Cengo'ya daha çok benzedi (resimde de öyle). Eski Şükrü ve Ercan
 > da yakalandı. Döngüye bağlı (`uretim/dongu.sh`), kural `uretim/CLAUDE.md` Denetim 0b2. Bugün: V7 G4 Süheyla KALDI (Jale), G5 Nesrin
-> ŞÜPHELİ (Nadide), G7 Vedat GEÇTİ. Eski vakalarda 7 benzer çift kalmış (`--havuz-ici`; bilgi). **Sırada: (3) üretim.**
+> ŞÜPHELİ (Nadide), G7 Vedat GEÇTİ. Eski vakalarda 7 benzer çift kalmış (`--havuz-ici`; bilgi). Sahibinin kararıyla sınır her çalıştırmada bilinen çiftlerden
+> kendiliğinden hesaplanır; ölçü ayırt edemez hâle gelirse araç DUR der. **Sırada: (3) üretim.**
 >
 > **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
 > kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında

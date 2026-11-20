@@ -255,9 +255,12 @@ mutlaka farklı olmalı… otomasyon şeklinde sağlamalıyız"; V7 G4 Süheyla,
 arac_benzerlik_resim.py --uretim v<N> G<n>` (döngü yüz denetiminin ardından kendisi koşar, sonuç `$DONGU_LOG/benzerlik.tsv`).
 Yüz + baş (saç dahil) + bütün figür; karşılaştırılan: oyundaki bütün figürler, bütün vakaların onaylıları ve aynı vakada üretilen
 öbür konuklar (aynı cinsiyet). Üretimden önceki yazı denetiminin (`arac_benzerlik.js`) ikinci parçası.
-- **KALDI** (≥ 1,55) → ret; konuğun görünüşü değişir (saç kesimi/rengi, yaş, yüz, beden), sahibine sorulmaz; form ve
+- **Sınır kendiliğinden (sahibi, 20 Kasım 2026: "sınırı kimse ayarlamasın"):** araç her çalıştırmada bilinen benzer çiftleri de
+  ölçer; sınır = en düşüğünün 0,15 altı (1,55'ten yukarı çıkmaz), şüphe 0,15 daha altı. Sınır o kadar düşer ki onaylı karakter
+  çiftlerinin %10'undan fazlası üstünde kalırsa araç **DUR** der (çıkış 3): üretim durur, sahibine sorulur.
+- **KALDI** (bugün ≥ 1,55) → ret; konuğun görünüşü değişir (saç kesimi/rengi, yaş, yüz, beden), sahibine sorulmaz; form ve
   `sablon/kurallar/benzerlik/adaylar.tsv` güncellenir, `arac_benzerlik.js` yeniden koşulur, yeniden üretilir.
-- **ŞÜPHELİ** (1,40–1,55) → onaylanmaz, aynı yol; iki kez ŞÜPHELİ kalırsa sahibine (görüntü `kaynak/YENI_UI/benzerlik/G<n>_<kişi>.jpg`).
+- **ŞÜPHELİ** (bugün 1,40–1,55) → onaylanmaz, aynı yol; iki kez ŞÜPHELİ kalırsa sahibine (görüntü `kaynak/YENI_UI/benzerlik/G<n>_<kişi>.jpg`).
 - **GEÇTİ** → göz denetimi. Kayıt satırına eklenir: `· benzerlik GEÇTİ (en yakın <kişi> 1,1x)`.
 - Peri, Cengo, Gizem denetlenmez (kimlikleri 0b'de). İfade resmi de koşar.
 - Araç değişirse önce `python arac_benzerlik_resim.py --sinav` → "SINAV GEÇTİ" (Süheyla–Jale, Necmi–Recep, Kaan–Cengo/Bülent,

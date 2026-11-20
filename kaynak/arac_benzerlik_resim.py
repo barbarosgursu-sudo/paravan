@@ -23,11 +23,14 @@
 # koyu saç, yaş, lacivert pantolon; gözle bakıldı), Müzeyyen→Nadide 3,06. Ayrıca Oğuz Bey'in "eskilere benziyor" diye yeniden
 # yazdığı eski Şükrü (→Tahsin 1,58) ve Ercan (→Ferruh 1,82) da KALDI alıyor (sınavda değil, bilgi).
 # Sınav resimleri git geçmişinden çıkarılır (SINAV tablosu), depoya ayrıca konmaz.
-# EŞİK: puan ≥ 1,55 KALDI · 1,40–1,55 ŞÜPHELİ · < 1,40 GEÇTİ. Daha düşük eşik olmaz: bu üslupta herkesin EN YAKIN komşusu 0,9–1,5
+# EŞİK (20 Kasım hesabı): puan ≥ 1,55 KALDI · 1,40–1,55 ŞÜPHELİ · < 1,40 GEÇTİ. Daha düşük eşik olmaz: bu üslupta herkesin EN YAKIN komşusu 0,9–1,5
 # arası çıkıyor (1,00'da onaylıların neredeyse hepsi birine "benzer" sayılırdı). Bu eşikte onaylı 211 çiftten 7'si KALDI, 4'ü
 # ŞÜPHELİ (`--havuz-ici`: Müzeyyen–Nadide, Bülent–Tolga, Lâl–Müjgan, Ferruh–Recep, Peri–Gizem, Dilek–Eylül, Defne–Gizem); gözle
 # bakıldı, gerçekten benziyorlar — eski vakalarda kaçmış benzerlik. Bugün bilgi; yeni konukta kapı.
-# SINIR: Necmi 1,70 eşiğe yakın; havuz büyüdükçe z ölçeği kayar → araç ya da havuz değişince --sinav yeniden koşulur.
+# SINIR KENDİLİĞİNDEN (sahibinin kararı, 20 Kasım 2026: "sınırı kimse ayarlamasın"): puanlar bütün karakterlere göre ölçüldüğü için
+# karakter eklendikçe kayar. Onun için araç HER çalıştırmada sınavı da koşar: sınır = bilinen dört çiftin en düşük puanının 0,15
+# altı (ama 1,55'ten yukarı çıkmaz); şüphe 0,15 daha altı. Bilinen çiftler böylece hep yakalanır. Sınır o kadar düşer ki onaylı
+# karakter çiftlerinin %10'undan fazlası "benzer" sayılırsa ölçü ayırt etmiyor demektir: araç DUR der (çıkış 3), sahibine sorulur.
 #
 # KARAR (sahibinin kuralı, 20 Kasım 2026 — arac_benzerlik.js ile aynı): KALDI → yeni konuğun görünüşü değişir (saç kesimi/rengi,
 # yaş, yüz biçimi, beden), sahibine sorulmaz; form ve adaylar.tsv güncellenir, yeniden üretilir. ŞÜPHELİ → onaylanmaz, aynı yol;
@@ -38,7 +41,7 @@
 #   python arac_benzerlik_resim.py <resim> --kim suheyla [--vaka v7]
 #   python arac_benzerlik_resim.py --sinav                çıkış 0 = sınav geçti
 #   python arac_benzerlik_resim.py --havuz-ici [n]        onaylı karakterlerin birbirine en benzer n çifti (bilgi)
-# Çıkış: 0 GEÇTİ (ya da denetlenecek konuk yok) · 1 ŞÜPHELİ · 2 KALDI. İlk satır döngü kaydına gider.
+# Çıkış: 0 GEÇTİ (ya da denetlenecek konuk yok) · 1 ŞÜPHELİ · 2 KALDI · 3 DUR (sınır kurulamadı). İlk satır döngü kaydına gider.
 import sys, os, re, glob, json, hashlib, argparse, subprocess
 import numpy as np
 from PIL import Image
@@ -51,7 +54,11 @@ TSV = os.path.join(DEPO, "sablon", "kurallar", "benzerlik")
 CIKTI = os.path.join(KOK, "YENI_UI", "benzerlik")
 KANAL = ("yuz", "bas", "tum")
 KOMSU = 3
-KALMA, SUPHE = 1.55, 1.40
+# Sınır her çalıştırmada bilinen çiftlerden hesaplanır (esik_kur); aşağıdakiler yalnız kuralı.
+TAVAN = 1.55        # sınır bundan yukarı çıkmaz (20 Kasım ayarı; yükselirse eskiden yakalanan benzerlik kaçar)
+PAY = 0.15          # bilinen en düşük çiftin bu kadar altı KALDI; onun bu kadar altı ŞÜPHELİ
+AZAMI_ORAN = 0.10   # onaylı çiftlerin bundan fazlası sınırın üstündeyse araç durur (çıkış 3)
+KALMA, SUPHE = TAVAN, TAVAN - PAY
 KALICI = ("peri", "cengo", "gizem")
 
 # (git nesnesi, kişi, benzediği) — bilinen benzer çiftler. Hepsi KALDI almalı.
@@ -264,29 +271,52 @@ def denetle(f, kim, vaka, cins, gorsel=True, havuz=None):
         satir += f" — görüntü: {os.path.relpath(goruntu(f, kim, sira, os.path.splitext(os.path.basename(f))[0] + '_' + kim), KOK)}"
     return k, p, en, satir
 
-# ---------------------------------------------------------------- sınav
-def sinav(cins):
+# ---------------------------------------------------------------- sınav ve kendiliğinden sınır
+def sinav_resmi(nesne, kim):
     d = os.path.join(CIKTI, "sinav"); os.makedirs(d, exist_ok=True)
-    hata = 0
+    f = os.path.join(d, f"{kim}_{hashlib.md5(nesne.encode()).hexdigest()[:6]}.png")
+    if not os.path.exists(f):
+        b = subprocess.run(["git", "show", nesne], cwd=DEPO, capture_output=True).stdout
+        if not b:
+            return None
+        open(f, "wb").write(b)
+    return f
+
+def esik_kur(cins):
+    """Sınırı bilinen çiftlerden hesaplar (sahibinin kararı, 20 Kasım 2026: "sınırı kimse ayarlamasın").
+    KALMA = min(TAVAN, en düşük bilinen çift − PAY); ŞÜPHE = KALMA − PAY. Döner: (bilgi satırları, durma sebebi ya da None)."""
+    global KALMA, SUPHE
+    h = Havuz(havuz_dosyalari(), cins)   # oyundaki figürler + onaylılar; vaka üretileni yok
+    bilgi, puanlar = [], []
     for nesne, kim, benzer in SINAV:
-        f = os.path.join(d, f"{kim}_{hashlib.md5(nesne.encode()).hexdigest()[:6]}.png")
-        if not os.path.exists(f):
-            b = subprocess.run(["git", "show", nesne], cwd=DEPO, capture_output=True).stdout
-            if not b:
-                print(f"  HATA: git nesnesi okunamadı: {nesne}"); hata += 1; continue
-            open(f, "wb").write(b)
-        # Sınavda havuz: oyundaki figürler + onaylılar (vaka uretilen'i yok); kişinin kendi resimleri hariç (reddedilen Müzeyyen
-        # onaylı Müzeyyen'e karşı değil, Nadide'ye karşı ölçülür).
-        k, p, en, satir = denetle(f, kim, None, cins, gorsel=False)
-        print(satir)
-        if k != "KALDI":
-            print(f"  HATA: {kim} {benzer}'e benziyordu; araç {k} dedi"); hata += 1
-        elif en != benzer:
-            print(f"  not: en yakın {en} çıktı ({benzer} değil) — resimde de benziyor mu, gözle bakıldı (SINAV notu)")
-    print("\nSINAV GEÇTİ" if hata == 0 else f"\nSINAV KALDI ({hata} hata)")
-    return 0 if hata == 0 else 1
+        f = sinav_resmi(nesne, kim)
+        if not f:
+            return bilgi, f"sınav resmi git geçmişinden okunamadı ({nesne}); depo tam değil mi? (git fetch --unshallow)"
+        sira = h.karsilastir(olc_onbellekli(f), kim)
+        p, en, _ = sira[0]
+        # Kişinin kendi resimleri hariç: reddedilen Müzeyyen onaylı Müzeyyen'e değil, Nadide'ye karşı ölçülür.
+        puanlar.append(p)
+        bilgi.append(f"{kim} → {en} {p:.2f}" + ("" if en == benzer else f" (bilinen: {benzer})"))
+    onbellek_kaydet()
+    KALMA = min(TAVAN, min(puanlar) - PAY); SUPHE = KALMA - PAY
+    P = [h.puan(h.M[x], h.r[x], x, y)[0] for x, y in h.ciftler()]
+    oran = sum(q >= KALMA for q in P) / max(1, len(P))
+    bilgi.append(f"sınır: kalma ≥ {KALMA:.2f}, şüphe ≥ {SUPHE:.2f}; sınırın üstündeki onaylı çift payı %{100 * oran:.0f}")
+    if oran > AZAMI_ORAN:
+        return bilgi, (f"sınırın üstündeki onaylı çift payı %{100 * oran:.0f} (en çok %{100 * AZAMI_ORAN:.0f}); "
+                       f"ölçü artık ayırt etmiyor — sahibine ya da Oğuz Bey'e sorulmalı")
+    return bilgi, None
+
+def sinav(cins):
+    bilgi, dur = esik_kur(cins)
+    for b in bilgi:
+        print("  " + b)
+    print()
+    print("SINAV GEÇTİ" if not dur else f"SINAV KALDI: {dur}")
+    return 0 if not dur else 1
 
 def havuz_ici(cins, n):
+    esik_kur(cins)
     h = Havuz(havuz_dosyalari(), cins)
     P = sorted(((h.puan(h.M[a], h.r[a], a, b)[0], a, b) for a, b in h.ciftler()), reverse=True)
     print(f"Onaylı karakter çiftleri: {len(P)} (aynı cinsiyet). Eşiği geçenler: KALDI {sum(p >= KALMA for p, _, _ in P)}, "
@@ -305,6 +335,12 @@ def main():
         sys.exit(sinav(cins))
     if a.havuz_ici:
         havuz_ici(cins, a.havuz_ici); return
+    bilgi, dur = esik_kur(cins)
+    if dur:
+        print(f"BENZERLİK DUR     — {dur}")
+        for b in bilgi:
+            print("  " + b)
+        sys.exit(3)
     yollar = []
     if a.uretim:
         for g in a.resim:
