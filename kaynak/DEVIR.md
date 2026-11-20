@@ -8,7 +8,13 @@
 
 ---
 
-> ## ▶️ 20 KASIM 2026 GECE: ADIM 3 BİTTİ → YENİ PENCEREDE ADIM 4
+> ## ▶️ 21 KASIM 2026: ADIM 4 SÜRÜYOR → YENİ PENCEREDE `sablon/kurallar/PLAN.md` EN ÜST KUTU ("ADIM 4 BURADAN SÜRER")
+> Adım 4'ün ilk iki parçası `main`'de (`b262e87`, `f812f60`): 667 kuralın hepsinin `*Uygulayıcı:*` satırı var (program 158, talimat 14,
+> hatırlat 374, yok 229); hatırlatma listesi `sablon/kurallar/HATIRLATMA.md` (programla, `arac_uygulayici.js`); her üretim adımı listeyle
+> kapanır (SUREC-43). Sahibi şu soruya cevap bekliyor: önce **durdurmayan beş programı bağlamak** mı (öneri), **uzun listeleri
+> (adım 3, 8, 10 ~100 madde) kısaltmak** mı. Ayrıntı, açık sorular, araçlar: PLAN.md en üst kutu. "Üretim yok" kararı sürüyor.
+
+> ## (önceki) 20 KASIM 2026 GECE: ADIM 3 BİTTİ → YENİ PENCEREDE ADIM 4
 > Bütün kurallar `sablon/kurallar/KURALLAR.md`'de; eski kural belgeleri `arsiv/`'de; dersler kuralların altında, kullanılmamış
 > fikirler `sablon/FIKIR_HAVUZU.md`'de. Sahibi Adım 4'ü (her kurala program ya da adımda hatırlatma) yeni pencerede yapacak:
 > **`sablon/kurallar/PLAN.md` en üst kutu "ADIM 4 BURADAN BAŞLAR"** — eksiksiz başlangıç, açık sorular, tuzaklar orada.

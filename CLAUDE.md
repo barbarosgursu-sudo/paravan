@@ -9,7 +9,9 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 > ### 📘 BÜTÜN KURALLAR TEK DOSYADA: `sablon/kurallar/KURALLAR.md` (Adım 3 BİTTİ, 20 Kasım 2026 gece). Belgelerdeki `TON-9`,
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
-> ### önerilmez. **Yeni pencere: Adım 4 — `sablon/kurallar/PLAN.md` en üst kutu ("ADIM 4 BURADAN BAŞLAR").**
+> ### önerilmez. **Yeni pencere: Adım 4 SÜRÜYOR — `sablon/kurallar/PLAN.md` en üst kutu ("ADIM 4 BURADAN SÜRER", 21 Kasım 2026).**
+> ### Adım 4: her kuralın `*Uygulayıcı:*` satırı var (program / talimat / hatırlat <adım> / yok) — SUREC-43;
+> ### `node sablon/kurallar/arac_uygulayici.js say|yaz|adim <n>`; liste `sablon/kurallar/HATIRLATMA.md` (elle yazılmaz).
 > ### Sahibiyle çalışma biçimi — SUREC-34 (en kısa Türkçe, uzun işte en geç 3 dakikada bir durum). Commit kapısı artık yalnız değişen vakayı denetler (KOD-35).
 >
 > ### 🔑 YETKİ (17 Kasım 2026, Barbaros'un kararı): **Oğuz Bey'in hesabı Paravan'da HER ŞEYE yetkili** — SUREC-4. Sebep: Barbaros'un

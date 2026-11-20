@@ -4,7 +4,24 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
-> ## ▶️▶️ ADIM 4 SÜRÜYOR (20 Kasım 2026 gece, sahibi biçimi onayladı: "Evet, başla")
+> ## ▶️▶️ YENİ PENCERE: ADIM 4 BURADAN SÜRER (21 Kasım 2026; sahibi biçimi 20 Kasım gece onayladı: "Evet, başla")
+> **Sahibinin cevap beklediği soru (son mesaj):** "Önce hangisini yapayım: programları bağlamak mı (önerim), listeleri kısaltmak mı?"
+> — aşağıdaki "Sahibine sorulacak" madde 2 (öneri) ve madde 1. Sahibi cevap vermeden kod değiştirme (SUREC-1). Cevaba göre:
+> **madde 2** → beş bağlantı: (a) commit kapısı `test_*.js`'i de koşsun; (b) `uretim/dongu.sh` tarz/yüz/benzerlik araçlarının çıkış
+> koduna baksın (KALDI/DUR → onaylanmaz/durur); (c) `uretim/istem_kontrol.sh` yeni konuk temelinde `kaynak/arac_benzerlik.js`'i
+> çağırsın; (d) gömme commit'i (`yeni_gorsel/`, `gorseller.json`) resim kapısını açsın (`.claude/kapi_hook.js`); (e)
+> `kaynak/arac_soz_farki.js` kapıda koşsun. Ayrıca: kapı yalnız Claude Code hook'u — Codex/terminal commit'i geçmiyor (git hook?).
+> Her bağlantıdan sonra ilgili kuralların `*Uygulayıcı:*` satırı `hatırlat`'tan `program`'a döner (KURALLAR.md'de doğrudan ya da
+> `adim4/uyg_*.tsv` + `node adim4/uygula.js --yaz`), sonra `node arac_uygulayici.js yaz && say`. İlgili kurallar `adim4/uyg_*.tsv`
+> `aday` sütununda (DENETIM-53, SEZON-26, DENETIM-49, SATIR-11, SATIR-38/40/41/42, GOMME-1, KOD-3).
+> **madde 1** → `arac_uygulayici.js adim <n>` çıktısını "Claude'un kendi baktığı" / "sahibine giden" diye ayırma biçimi önerilir,
+> onay alınır. Sonra madde 3 (103 aday), madde 4 (çelişkiler) tek tek, sade ("eski: …, yeni: …, önerim: …").
+> **Kural dosyasıyla çalışma:** her değişiklikten sonra `node sablon/kurallar/arac_uygulayici.js say` (eksik uygulayıcı = HATA),
+> `node sablon/kurallar/arac_kurallar.js say`, `node sablon/kurallar/adim3/tasima_say.js` → üçü `hata: 0`. Yeni kural `*Uygulayıcı:*` ve
+> `*Kaynak:* yeni karar (…)` satırıyla yazılır (örnek: SEZON-26, DENETIM-53, SUREC-43). Tuzak: Bash heredoc'ta `\\` ve iç tırnak
+> bozuluyor — betiği Write ile dosyaya yaz ya da Edit kullan; yazdıktan sonra dosyayı kontrol et.
+>
+> ## (önceki durum notu) ADIM 4 SÜRÜYOR (20 Kasım 2026 gece)
 > **Biten (`b262e87`):** benzerlik kuralları SEZON-26 (yazı) + DENETIM-53 (resim); biçim `*Uygulayıcı:* program \`…\` | hatırlat <adım> |
 > yok — <sebep>` (parçalar ` · `); araç `sablon/kurallar/arac_uygulayici.js say|yaz|adim <n>`; liste `HATIRLATMA.md` (programla);
 > SUREC-43 (her adım listeyle kapanır; `7_uretim_sureci.md`'ye bağlı). Yeni kural `*Kaynak:* yeni karar …` der (`say` kaynaksız saymaz).
