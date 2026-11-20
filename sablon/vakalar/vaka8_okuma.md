@@ -460,7 +460,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `461` *Gizem içeri geliyor.*  
 `462` **GİZEM:** Saçınızda hâlâ reçel var, Peri Hanım.  
 `463` **PERİ:** Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler.  
-`464` **CENGO:** Ofise ilk bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama.  
+`464` **CENGO:** Ofise ilk bu mantoyla gelmiştin. Kuşağı bağlıydı ama.  
 `465` **PERİ:** O sabah her şey bağlıydı, Cengo. Sonra hepsi çözüldü.  
 `466` **CENGO:** Alacağım hâlâ duruyor, haberin olsun. Patron bulundu ama maaşı yok. *(bağ düşükse)*  
 `467` *Cengo kapıdan çıkıyor. Peri kavanozu açıp tek başına bir kaşık reçel yiyor.* *(bağ düşükse)*  

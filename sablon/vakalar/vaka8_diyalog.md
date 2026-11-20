@@ -461,7 +461,7 @@ serbest (SR-A). Sigara yok (19a).
 *Gizem içeri geliyor.* {gir: gizem, gi: triko, ekran: gizem}
 **GİZEM [triko]:** Saçınızda hâlâ reçel var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
 **PERİ [kas]:** Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
-**CENGO [yumusak]:** Ofise ilk bu mantoyla gelmiştiniz. Kuşağı bağlıydı ama. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+**CENGO [yumusak]:** Ofise ilk bu mantoyla gelmiştin. Kuşağı bağlıydı ama. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 **PERİ [yumusak]:** O sabah her şey bağlıydı, Cengo. Sonra hepsi çözüldü. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 **CENGO [normal]:** Alacağım hâlâ duruyor, haberin olsun. Patron bulundu ama maaşı yok. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.yumusak}
 *Cengo kapıdan çıkıyor. Peri kavanozu açıp tek başına bir kaşık reçel yiyor.* {bag: dusuk, kare: K188}
