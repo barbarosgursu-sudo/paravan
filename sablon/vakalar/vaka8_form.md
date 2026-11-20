@@ -1,5 +1,18 @@
 # VAKA 8 FORMU — İADE (SEZON FİNALİ)
 
+> **ONAY 2 VERİLDİ (20 Kasım 2026, 03:43, ortak: "bu hâliyle bırakıyoruz").** Hikâye dondu. Metnin TEK kaynağı
+> `vaka8_diyalog.md`; okunur hâli `vaka8_okuma.md`. Bu form Onay 1 kaydıdır; Onay 2'de değişenler (diyalog geçerli):
+> - **Tek manto, yedeği yok:** Peri kılık değiştirirken mantoyu büroda paravana asar; Cengo sessizce alıp arabanın yan
+>   koltuğunda saklar (K201). `kilik` mantosuz; yüzleşme ve kovalamaca `onluk8` (önlük, kep/gözlük yok). Peri önlükle
+>   bagaja atlar (Cengo bagajı açar); reçel önlüğe bulaşır; hortumdan sonra Cengo aynı mantoyu getirir.
+> - **Ağa düşüş:** reçel izi değil, Peri'nin fırlattığı kavanoz; kaçanlar kırılan reçele basıp kayar.
+> - **Para:** Nihat "yarısı" değil "Teknede çok para var… Teknedeki para senin, Perihan" der; anlaş/oyun kararlarında
+>   Peri bütün parayı alır. Polis: "Paralar bir valizde, mühürlü"; Peri'nin parası dava bitince ya gelir ya hiç.
+> - **Replikler:** yüzleşmede Peri "Benim adımı nereden biliyorsunuz!", "Kraliçe önlükle de suçlar."; Tarkan "Demek suçlu
+>   bulundu"; itirafta "Beni affedin, Perihan Hanım"; Nihat Cengo'ya "Her şirkete gerektiğinde kovulacak biri de lazım";
+>   Fikret'in iptal kâğıdı lokantanın kasasında bir dosyada. Kapanışta manto satırı Cengo'nun ("Ofise ilk bu mantoyla
+>   gelmiştin"; Gizem ilk vakada yoktu).
+
 Şablon 6'ya göre (19 Kasım 2026 güncel hâli). Durum: **ONAY 1 VERİLDİ (19 Kasım 2026, ortak; düzeltme: kovalamacada Yeniköy)** — sıradaki: adım 3 diyalog. Kaynak: `vaka8_baslangic.md` §1b
 (ortağın ana hattı, 19 Kasım 2026).
 🟡 = kanona ekleme (onay ister). 🟢 = görünüş/kıyafet (onay ister). **İsimler öneridir** (Onay 1'de değişebilir).
@@ -256,9 +269,9 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 
 | sonuç | yüzleşme (özet) |
 |---|---|
-| Tarkan, doğru kanıt | Peri iki kilidi sayar: şifre ve vekâlet; ikisi de yalnız onda. Tarkan gülümser: "Ben avukatım, Perihan Hanım." Peri: "Bana Perihan yalnız bir kişi derdi." Tarkan'ın gülümsemesi düşer; telefon titrer. Kapıya koşar. |
+| Tarkan, doğru kanıt | Peri iki kilidi sayar: şifre ve vekâlet; ikisi de yalnız onda. Tarkan gülümser: "Ben avukatım, Perihan Hanım." Peri: "Benim adımı nereden biliyorsunuz!" Tarkan'ın gülümsemesi düşer; telefon titrer. Kapıya koşar. |
 | Tarkan, zayıf kanıt | Tarkan: "Vekâlet bende, evet; işim bu. Şifre? Bana verdiler." Peri tutturamaz. Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
-| Nevzat | Nevzat kızarır, kekeler: "Ben o geceler… stüdyodaydım." Bahar ona bakar; Nevzat susar. Tarkan "Muhasebe bulundu" diye ceketini alır; Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
+| Nevzat | Nevzat kızarır, kekeler: "Ben o geceler… stüdyodaydım." Bahar ona bakar; Nevzat susar. Tarkan "Demek suçlu bulundu" diye ceketini alır; Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
 | Fikret | Fikret bağırır: "Ben uyardım! Notları ben yazdım; avukatına güvenme dedim!" Bahar donar. Tarkan geri çekilir; Peri Nihat'ın adını anar; telefon titrer. Kapıya koşar. |
 
 - **Dosya kapandı** (yalnız yüzleşme + itirafın söylediği): *Nevzat Bey masumdu: şifresini "avukata" kendi vermişti.* ·
@@ -281,18 +294,18 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 | 1 | Tarkan atölyeden fırlar, kendi arabasına atlar — direksiyonda şoförü Cengo. "Sür! Yeniköy'e, yalıya!" Cengo: "Başüstüne, beyim." (şaka 2'nin doruğu) Peri arkadan koşar, kapanmakta olan bagaja, lansman kasalarının arasına atlar | bagaja yarı girmiş, bacakları dışarıda, önlük uçuşuyor, bir eli kasada | yeni |
 | 2 | Sahil yolu. Tarkan telefonda: "Geliyorum. Payımı hazırla, tekneyi çalıştır." Cengo direksiyonda yüzünü buruşturmadan sürer. Bagajda her virajda kavanozlar kırılır: Peri baştan aşağı vişne reçeli | bagajda, kasaların içinde yan yatmış; önlük, kollar, bacaklar kıpkırmızı reçel; gözlük yamuk; öfkeli ve gururlu: "Planlamıştım." | yeni |
 | 3 | Yalının önü. Tarkan arabadan iner, iskeleye koşar; yalıdan valizli bir adam çıkar: **Nihat.** Peri bagajdan doğrulur, reçelli, iskeleye; Nihat onu görür, donar: "Perihan?" | bagajın kapağında ayakta, reçel damlıyor, bir eli belinde, öbürü Nihat'ı gösteriyor | yeni |
-| 4 | İkisi tekneye koşar; iskelede Peri'nin reçel izine basıp kayarlar, birbirine çarpar, iskelenin ucundaki balıkçı ağına birlikte düşerler; ağ kapanır. Cengo ağın ipini bağlar: "İkisi bir torbada, beyim." | iskelede, kaymamak için Cengo'nun koluna tutunmuş, reçelli, saçı dağılmış, zafer gülüşü | yeni |
+| 4 | İkisi tekneye koşar; Peri bir reçel kavanozu fırlatır; kırılan reçele basıp kayarlar, birbirine çarpar, iskelenin ucundaki balıkçı ağına birlikte düşerler; ağ kapanır. Cengo ağın ipini bağlar: "İkisi bir torbada, beyim." | iskelede, kaymamak için Cengo'nun koluna tutunmuş, reçelli, saçı dağılmış, zafer gülüşü | yeni |
 
 - **Peri'nin felaketi:** vişne reçeli — müşterinin markasından, lansman kasaları. Kirlenen kılık (önlük, kep); manto
   arabada kalır (finalde temiz).
 - **Cengo'nun komik anı:** suçluyu kendi arabasında, kendi emriyle patronuna kadar sürer; iskelede "Bahşiş?" der.
-- **Kaçanı yakalayan şans:** Peri'nin felaketinden: reçel izi iskeleyi kaydırır; ikisi birbirine çarpar, ağa düşer.
+- **Kaçanı yakalayan şans:** Peri'nin felaketinden: fırlattığı kavanozun reçeli iskeleyi kaydırır; ikisi birbirine çarpar, ağa düşer.
   Kimse hor görülmez (kural 18): ağ yumuşak, kimse yaralanmaz; ikisi ağda kıpırdamadan durur.
 - **Temizlenme:** yalının bahçe hortumu (V1'deki çaycının hortumuna sezon sonu selamı); Peri önlüğü çıkarır, Cengo
   arabadan mantoyu getirir, omzuna koyar. Saçında reçel kalır (kapanışa kadar).
 - **İtiraf** (iskelede, ağın içinden; her yolda aynı): Ozan: "Adım Tarkan değil, Ozan. Avukat da değilim; onun adamıyım.
   Yıllarca evrakını taşıdım, Paravan'ınkini de. Yöntemi ondan öğrendim. Bu gece para girince hesabı boşaltacaktım; payımı almaya geliyordum."
-  Nihat susar, sonra ağzından kaçar: "Perihan'ın parası hâlâ teknede, valizde." *(Peri'nin parasının yeri burada açılır.)*
+  Nihat susar, sonra ağzından kaçar: "Teknede çok para var, Perihan. Kaybettiklerini karşılamaz ama yine de çok." *(paranın yeri burada açılır.)*
 
 ## 12. Kararlar *(gerçek artık biliniyor; yalı iskelesi, 20.20)*
 
@@ -307,13 +320,13 @@ ikisi de yanar. Telefonu titrer (Nihat arıyor). Tarkan kapıya, arabaya koşar.
 | Bahar | yüzleşmeyi: Tarkan'ın kaçtığını, Nihat'ın adını; Nevzat ve Fikret'in yola göre söylediklerini. Yalıda olanı bilmez | yüzleşme |
 | Nevzat, Fikret | Bahar'ın bildiği kadar | yüzleşme |
 
-**Kararı kim soruyor:** **Nihat**, ağın içinden, sakin, eski avukat sesiyle: "Paranın yarısı senin, Perihan. Bu akşam
+**Kararı kim soruyor:** **Nihat**, ağın içinden, sakin, eski avukat sesiyle: "Teknedeki para senin, Perihan. Bu akşam
 burada hiçbir şey olmadı. Ne dersin?" Ekranda: Peri, Nihat ve Ozan (ağda), Cengo ipin başında.
 
 | karar | Peri'nin seçenek cümlesi | sonuç sahnesi: eylem → sonuç → bedel | para sahnede | bağ | Cengo satırı (büroda) | anı defteri |
 |---|---|---|---|---|---|---|
 | **İkisini de polise teslim et** | "Polisi arıyorum. İkiniz de." | Peri telefonu açtı. Polis geldi, ağı kesip ikisini götürdü. Bahar'ın parası bankada kaldı; yatırımcı gece imzaladı. Teknedeki valiz delil diye mühürlendi; Peri'nin parası dava bitene kadar orada, belki hiç gelmeyecek. | Bahar'ın 50.000'i (ücret); valiz mühürlü | +1 | **[gulumser]** "Paranı mühürlediler, adamı götürdüler. Ben ikincisine razıyım." {yuz: peri.huzunlu} | İkisini de polise verdim. Param bir valizde, mühürlü. |
-| **Anlaş, payını al, sus** | "Yarısını alıyorum. Sonra beni hiç görmediniz." | Cengo ağı açtı. Nihat valizden Peri'nin payını saydı; ikisi tekneye binip gitti. Bahar'ın hesabı gece boşaldı; yatırımcı ertesi sabah çekildi, lansman ertelendi. Peri'nin çantası ağırdı. | Peri'ye valizden bir pay; Bahar'ın parası gitti | −2 | **[soguk]** "Paran geldi. Bahar Hanım'ın reçelleri depoda kaldı." {yuz: peri.utanmis} | Payımı aldım, sustum. İkisi gitti, Bahar kaybetti. |
+| **Anlaş, payını al, sus** | "Parayı alıyorum. Sonra beni hiç görmediniz." | Cengo ağı açtı. Nihat valizden Peri'nin payını saydı; ikisi tekneye binip gitti. Bahar'ın hesabı gece boşaldı; yatırımcı ertesi sabah çekildi, lansman ertelendi. Peri'nin çantası ağırdı. | Peri'ye valizden bir pay; Bahar'ın parası gitti | −2 | **[soguk]** "Paran geldi. Bahar Hanım'ın reçelleri depoda kaldı." {yuz: peri.utanmis} | Payımı aldım, sustum. İkisi gitti, Bahar kaybetti. |
 | **Anlaşır gibi yap, parayı al, sonra ikisini de teslim et** | "Anlaştık." *(Peri gülümser.)* | Peri valizden payını aldı, Nihat'ın elini sıktı; sonra telefonu açtı. Polis ikisini ağdan aldı. Nihat arkasından bağırdı: "Sözünü bozdun!" Bahar'ın parası kurtuldu. Polis Peri'nin çantasını sordu; Peri "lansman reçeli" dedi, Cengo başını salladı. | Peri'ye valizden bir pay; Bahar'ın parası kurtuldu | −1 | **[alayci]** "Avukatına onun oyununu oynadın. Polise yalanı ben de söyledim; ortağız artık." {yuz: peri.sinirli} | Anlaştım, sonra ikisini de verdim. Polise yalan söyledik. |
 | **Adamı bırak, avukatı teslim et** | "Sen git, Ozan. O kalıyor." | Cengo ağı açtı, Ozan'ı çıkardı; Ozan arkasına bakmadan yokuşa koştu. Polis Nihat'ı götürdü. Bahar'ın parası kurtuldu; Peri'nin parası Nihat'ın davasına karıştı, hiç geri gelmeyecek. Ozan'ın nereye gittiğini kimse bilmiyor. | Bahar'ın parası kurtuldu; Peri'ye yok | +2 | **[sakin]** "Bir gence şans verdin. Bana da biri vermişti, bordroda." {yuz: peri.duygulu} | Ozan'ı bıraktım, Nihat'ı verdim. Param gitti. Ozan bir yerde. |
 

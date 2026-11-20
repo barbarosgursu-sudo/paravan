@@ -58,7 +58,7 @@ sütunları eski düzen; yeni düzen 6. parça §12).
 - **Sonuç:** sahte avukat kaçar; kovalamacada (Cengo direksiyonda, Peri kılığında, ikisi de rezil) farkında olmadan onları
   patronunun saklandığı yere (Boğaz'da yalı ya da tekne) götürür. Kapıda Peri'yi dolandıran avukat. İkisi birlikte, şansla,
   aynı anda yakalanır. Adam itiraf eder: avukatın adamıdır, yöntemi ondan öğrendi. Avukat Peri'nin parasının yerini
-  ağzından kaçırır. **Kararı avukat sorar:** "Paranın yarısı senin, Peri. Bu akşam burada hiçbir şey olmadı."
+  ağzından kaçırır. **Kararı avukat sorar:** "Teknedeki para senin, Perihan. Bu akşam burada hiçbir şey olmadı." *(Onay 2'de "yarısı" kalktı.)*
 - **Dört karar:**
   1. **İkisini de polise teslim et:** aşçının parası kurtulur; Peri'nin parası dava bitene kadar bağlı kalır, belki hiç gelmez.
   2. **Anlaş, payını al, sus:** Peri parasının bir kısmını geri alır; aşçının parası avukatta kalır, ikisi kaçar.
@@ -108,3 +108,4 @@ ile okunur (TZ verme).
 | 3b Kod eki | 19 Kas 22:13 | 19 Kas 22:16 | ~1 dk ("Evet, ekle") | ~3 dk | `yeni_arayuz.js → kimYaptiAc`: Kim yaptı?'dan önce vakanın `ters_kose` sahnesi bir kez oynar |
 | 4 Veri + künye | 19 Kas 22:17 | 19 Kas 22:23 | 0 | ~6 dk | V8 `game_data.json`'a (yapı betikle, sahneler `arac_diyalog.js` ile); muhasebeci **Orhan → Nevzat** (Orhan Bey V3'te eksperdi); künye 5 kart (Bahar, Tarkan, Nevzat, Fikret, Emir), `arac_kunye_denetim.js` temiz; 199 yer tutucu; kapak A62; K1: kulis olgusuna "Gizem'in Pınar'dan duyduğuna göre". Doğrulayıcı PASS, testler geçti |
 | 5 Görselsiz tur + taramalar | 19 Kas 22:25 | 19 Kas 23:16 | 0 | ~50 dk (çoğu araç süresi) | V8 araçlara eklendi (`arac_yeni_tur.js` yollar sifre/studyo/iptal/cozmez8 + ters köşe adımı, `arac_kapi.js` YOLLAR 5 yol, `vaka8_kapi.md` eş sözler). Tur: ters köşe Kim yaptı?'dan önce oynuyor, JS hatası/taşma yok. Kapı ilk koşuda 33 bulgu (satır–resim: nesne/jest anlatıdan çıktı, giriş anları kareye, telefondaki Gizem kareye, giren ekranda tek) → yeni kareler K196–K200 → **kapı V8 hikaye GEÇTİ**. Sızıntı 40 yol/1203 ekran: birebir yok; elle okumada 1 bulgu düzeltildi (Nevzat'ın MASUM satırı şifreyi kendinin verdiğini anıyordu — ipucu olgusu) |
+| 6 Onay 2 (ortağın okuması) | 20 Kas 00:12 | 20 Kas 03:43 | okuma + 6 düzeltme turu | ~25 dk | satır numaralı `vaka8_okuma.md`; düzeltmeler: 97 aşçı, Fikret'in iptal kâğıdı lokantanın kasasında, 156/160, yüzleşme ve kovalamaca replikleri, ağa düşüş fırlatılan kavanozla, "teknedeki para senin" (yarısı kalktı), **tek manto** (Cengo büroda alır, arabada saklar; yeni `onluk8`, K201), kapanışta manto satırı Cengo'nun. Her turda doğrulayıcı, testler, kapı GEÇTİ, sızıntı temiz. **"Bu hâliyle bırakıyoruz" — hikâye dondu** |

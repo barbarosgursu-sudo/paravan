@@ -8,11 +8,16 @@
 
 ---
 
-> ## ✍️ ORTAKTAN NOT (20 Kasım 2026, 02:55) — VAKA 8 ONAY 2 DÜZELTMELERİ
-> - Yüzleşme ve kovalamacada ortağın satır düzeltmeleri (263, 295, 326, 337–353, 362, 418–434) işlendi. Peri artık mantosuyla
->   bagaja atlıyor; reçelli mantoyu çıkarınca Cengo yedek mantoyu getiriyor (`recel`, `manto8_son` tanımı buna göre). Ağa düşüş
->   artık Peri'nin fırlattığı kavanozla. Nihat "yarısı" değil "teknedeki para senin" diyor; kararlarda pay yerine bütün para.
-> - Doğrulayıcı, testler, kapı (V8 hikâye) ve sızıntı taraması geçti; okuma metni yenilendi. Onay 2 sürüyor.
+> ## ✍️ ORTAKTAN BARBAROS'A (20 Kasım 2026, 03:45) — ✅ VAKA 8 ONAY 2 VERİLDİ, HİKÂYE DONDU
+> - Ortak: **"Vaka 8'i bu hâliyle bırakıyoruz."** Resimsiz oyun yayında (`…/paravan/yeni/`), metin `sablon/vakalar/vaka8_diyalog.md`,
+>   okunur hâli `vaka8_okuma.md` (satır numaralı). Form başına Onay 2 değişiklik kutusu, `vaka8_baslangic.md` süre tablosuna adım 6 yazıldı.
+> - Son durumda doğrulayıcı (iki oyun) PASS, testler geçti, eski `index.html` md5 `bc8714634561` değişmedi, kapı V8 hikâye GEÇTİ, sızıntı 40 yol temiz.
+> - **Sırada (plan, 12 Kasım):** Vaka 6–7–8 resimsiz dondu → Vaka 8'in resim aşaması (adım 8 istemler; yeni setler `kilik` mantosuz,
+>   `onluk8`, `recel`, `manto8_son`; kareler K155–K201) ve/veya Vaka 1–4'ün yeni kurallarla geçişi. Hangisinin önce geleceği sizde.
+>
+> Onay 2 sırasında yapılanlar:
+> - Yüzleşme ve kovalamacada ortağın satır düzeltmeleri (263, 295, 326, 337–353, 362, 418–434) işlendi. Ağa düşüş artık
+>   Peri'nin fırlattığı kavanozla. Nihat "yarısı" değil "teknedeki para senin" diyor; kararlarda pay yerine bütün para.
 > - **03:10 — Tek manto (ortağın kararı):** Vaka 8'de yedek manto YOK. Peri kılık değiştirirken mantoyu büroda paravana asar;
 >   Cengo şoför üniforması almaya çıkarken onu sessizce alır (yeni kare K201), arabanın yan koltuğunda saklar. Yüzleşme ve
 >   kovalamaca yeni `onluk8` setiyle (önlük, kep/gözlük yok); Peri yüzleşmede "Kraliçe önlükle de suçlar." der. Bagajda reçel
