@@ -1,0 +1,18 @@
+kod	uygulayici	aday	not
+RAF-5	yok — kitap boyutu kaydı (vaka süresi hedefi YAPI-4'te)		RAF-5 (~10–15 dk) ile YAPI-4 (15–25 dk) çelişiyor — sahibine sorulacak
+RAF-7	yok — çerçeve kaydı; içeriği TON-1…4, KAR-38, SINIR-11 uygular		
+RAF-35	program `uretim/istem_kontrol.sh` 'yazı yasağı satırı' · hatırlat 10		
+SHORTS-3		EVET: arac_shorts.js --denetle giriş/konuşma metniyle uzun ortak diziyi (6+ kelime) uyarsın	
+YAPI-46			K8 yeni oyunda koşmuyor (dogrulayici.js:618-619); yok doğru
+BILGI-17	hatırlat 8, 10	EVET: ipucu görseline gosterir etiketi arac_diyalog.js'te zorunlu olsun, K1 yeni oyunda da ısırsın	yeni oyunda gosterir yok, K1 görsel denetimi yalnız eski oyun
+BILGI-18	hatırlat 10		aday BILGI-17'de
+BILGI-9	program `kaynak/arac_sizinti_tur.js` 'zincir' ekranı · hatırlat 5		test_tahta.js yalnız eski oyun
+YAPI-31	hatırlat 3		test_yeni_v2.js:62-69 kasa döneminden iki denetim kaldı — sahibine sorulacak (kaldırılsın mı)
+YAPI-13	program `kaynak/dogrulayici.js` K19 (görünme koşulu) · program `kaynak/test_yeni_v2.js` (suçlu her tam yolda) · hatırlat 1		test_yeni_kimyapti.js yalnız V1
+YAPI-14	program `kaynak/dogrulayici.js` K19 (yüzleşme sahneleri) · hatırlat 3	EVET: test_yeni_kimyapti.js bütün vakalara döngülensin (zayıf sonuç kurulabiliyor mu)	
+YAPI-21	program `kaynak/dogrulayici.js` K19 (4 karar, kapı yok) · hatırlat 3		
+YAPI-32		EVET: ücret kademeleri eşit ve kesinti yok — K19, yalnız V6 ve sonrası (V1–V5 bilerek kesintili)	
+SEZON-26	program `kaynak/arac_benzerlik.js` · hatırlat 8	EVET: istem_kontrol.sh konuk isteminde arac_benzerlik.js'i çağırsın	araç çıkış 1 veriyor ama hiçbir kapı çağırmıyor
+SEZON-19	hatırlat 1, 10		programla kısmı SEZON-26 ve DENETIM-53'te
+KAR-15	hatırlat 3		
+BILGI-8			kanıt dogrulayici.js:221 kural1b_kunye

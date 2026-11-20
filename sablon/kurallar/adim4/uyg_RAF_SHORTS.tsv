@@ -1,0 +1,143 @@
+kod	uygulayici	kanit	aday	not
+RAF-1	yok — belge önceliği kaydı			
+RAF-2	yok — raf/yayın kararı			
+RAF-3	yok — raf kararı (kitaplar arası)			
+RAF-4	yok — raf kararı			
+RAF-5	yok — kitap boyutu kaydı (vaka süresi hedefi YAPI-4'te)			vaka ~10–15 dk / ~130–160 satır; arac_okuma.js ya da görselsiz tur bilgi basar, durdurmaz | ikinci göz: RAF-5 (~10–15 dk) ile YAPI-4 (15–25 dk) çelişiyor — sahibine sorulacak
+RAF-6	yok — yayın kararı			
+RAF-7	yok — çerçeve kaydı; içeriği TON-1…4, KAR-38, SINIR-11 uygular			Mavi Ay tonu + İstanbul; ton ayrıntısı TON kurallarında; çerçeve bilgisi, 'yok' da sayılabilir
+RAF-8	yok — raf ekranı tasarımı (Android)			
+RAF-9	yok — raf ekranı (Android)			
+RAF-10	yok — raf kapağı (Android)			
+RAF-11	yok — raf ekranı (Android)			
+RAF-12	yok — raf ekranı (Android)			
+RAF-13	yok — raf ekranı (Android)			
+RAF-14	yok — kitap sayfası (Android)			
+RAF-15	yok — kitap sayfası (Android)			
+RAF-16	yok — kitap sayfası/satış (Android)			
+RAF-17	yok — kitap sayfası (Android)			
+RAF-18	yok — uygulama ekranı (Android)			
+RAF-19	yok — uygulama gezinmesi (Android)			
+RAF-20	yok — kayıt düzeni (Android)			
+RAF-21	yok — raf kayıt düzeni (Android)			
+RAF-22	yok — ayarlar (Android)			
+RAF-23	yok — raf ayarları (Android)			
+RAF-24	yok — kitap ayarları (Android)			
+RAF-25	yok — hesap kararı (Android)			
+RAF-26	yok — uygulama/yayın kararı			
+RAF-27	yok — dil kararı; Türkçe yazım zaten varsayılan			
+RAF-28	yok — yayın dili kararı			
+RAF-29	yok — çeviri aşaması (vaka donduktan sonra)			
+RAF-30	yok — çeviri aşaması			
+RAF-31	yok — çeviri aşaması (Türkçe Nurcan BILGI kurallarında)			replik uzunluğu (~110 harf) çeviride de denetlenecek; doğrulayıcıda 110 sınırı bulunamadı
+RAF-32	yok — çok dilli yapı (Android)			
+RAF-33	yok — dil ayarı (Android)			
+RAF-34	yok — dil yapısı (Android)			
+RAF-35	program `uretim/istem_kontrol.sh` 'yazı yasağı satırı' · hatırlat 10			resimde yazı yok — BILGI-20/ISTEM ile örtüşür; arac_paket.js yazı taramasını insana bırakıyor
+RAF-36	yok — arayüz/çok dilli yapı (Android)			
+RAF-37	yok — satış kararı			
+RAF-38	yok — satış kararı			
+RAF-39	yok — satış kararı			
+RAF-40	yok — satış kararı			
+RAF-41	yok — fiyat kararı			
+RAF-42	yok — satın alma ekranı (Android)			
+RAF-43	yok — satış kararı			
+RAF-44	yok — satış kararı			
+RAF-45	yok — satış kararı			
+RAF-46	program `kaynak/dogrulayici.js` K19 kararda kapı yok (yeni)	kaynak/dogrulayici.js:1011		dolaylı: K19 hiçbir karara kapı koydurmaz (parayla açılan seçim olamaz); belgedeki test_borc.js yalnız eski oyunu sınıyor
+RAF-47	yok — reklam/kredi tablosu (Android)			
+RAF-48	yok — reklam kararı			
+RAF-49	yok — geçiş ekranı (Android)			
+RAF-50	yok — reklam kararı			
+RAF-51	yok — ertelenen gardırop (ikinci sezon)			hikâyenin gerektirdiği kıyafet değişimi serbest (izin, kısıt değil)
+RAF-52	program `kaynak/dogrulayici.js` K19 hak içinde en az 2 doğru çift (yeni)	kaynak/dogrulayici.js:1047		varsayılan hak (vaka.arastirma ?? 3) reklamsız haktır; +1 hak ve Steam kısmı Android işi
+RAF-53	yok — kredi düzeni (Android)			
+RAF-54	yok — kredi düzeni (Android)			
+RAF-55	yok — kredi düzeni			
+RAF-56	yok — kredi düzeni (Android)			
+RAF-57	yok — satın alma (Android)			
+RAF-58	yok — raf reklam sözü			
+RAF-59	yok — reklam kararı			
+RAF-60	yok — izin pencereleri (Android)			
+RAF-61	yok — reklam ağı ayarı			
+RAF-62	yok — reklam düzeni (Android)			
+RAF-63	yok — mağaza etiketi			
+RAF-64	yok — arayüz/motor davranışı (vaka metni üretmez)			'olgu vermez' motor tarafı; vaka üretimini etkilemez
+RAF-65	program `kaynak/arac_diyalog.js` '## hikaye' yoksa YAZILMADI · hatırlat 3	kaynak/arac_diyalog.js:165 (çıkış 1: satır 181)	EVET: '## hikaye' paragraf sayısı 5–7 dışındaysa arac_diyalog.js hata versin	içerik (form §2'den düz dil, masumlar, yanıltan izler) gözle; düğme yeri AÇIK SORU (sahibi)
+RAF-66	yok — Apple/dağıtım kuralı			
+RAF-67	yok — ilk sürüm paketi			
+RAF-68	yok — indirme düzeni			
+RAF-69	yok — uygulama işlevi			
+RAF-70	yok — dağıtım kararı			
+RAF-71	yok — kayıt/bulut (Android)			
+RAF-72	yok — bulut yedeği (Android)			
+RAF-73	yok — platform kararı			
+RAF-74	yok — kayıt çakışması (Android)			
+RAF-75	yok — raf duyurusu (Android)			
+RAF-76	yok — raf duyurusu (Android)			
+RAF-77	yok — bildirim kararı			
+RAF-78	yok — raf tanıtımı			
+RAF-79	yok — pazarlama kararı			
+RAF-80	yok — raf–kitap anlaşması			
+RAF-81	yok — raf–kitap anlaşması			
+RAF-82	yok — raf–kitap anlaşması			
+RAF-83	yok — raf–kitap anlaşması			
+RAF-84	yok — raf–kitap anlaşması			
+RAF-85	yok — raf–kitap anlaşması			
+RAF-86	yok — raf bakımı			
+RAF-87	yok — raf–kitap anlaşması			
+RAF-88	yok — ileriye iş kalemi (Android)			
+RAF-89	yok — marka sözü (not vermeme YAPI-38'de)			
+RAF-90	yok — logo			
+RAF-91	yok — uygulama adı			
+RAF-92	yok — geliştirici adı			
+RAF-93	yok — marka tescili (sahibinin işi)			
+RAF-94	yok — mağaza tanıtımı			
+RAF-95	yok — web sayfası			
+RAF-96	yok — vergi/hesap			
+RAF-97	yok — mağaza bilgisi			
+RAF-98	yok — kitap adı (İngilizce)			
+RAF-99	yok — çeviri kararı			
+RAF-100	yok — çeviri aşaması			
+RAF-101	yok — platform kararı			
+RAF-102	yok — Android paketi			
+RAF-103	yok — yayın sırası			
+RAF-104	yok — stok/yayın planı			
+RAF-105	yok — üretim takvimi			
+RAF-106	yok — yayın sözü			
+RAF-107	yok — mağaza metni			
+RAF-108	hatırlat 1			yalnız Vaka 1–2 (bedava): hafif, tek başına tatmin, V2 sonunda iplik ucu
+RAF-109	yok — sunucu özellikleri ertelendi			
+RAF-110	yok — kitap/raf kararı			
+RAF-111	yok — rozet sistemi henüz yok (Android)			rozet gelince 'vaka başına en fazla bir-iki komik an' hatırlat 3 olur
+RAF-112	yok — sezon sonu tablosu (Android)			
+RAF-113	yok — reddedilen özellikler			
+SHORTS-1	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması
+SHORTS-2	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç yazı gömmez, .srt'yi kendisi üretir
+SHORTS-3	yok — Shorts süreci (8_shorts.md)		EVET: arac_shorts.js --denetle giriş/konuşma metniyle uzun ortak diziyi (6+ kelime) uyarsın	Shorts hatırlatması; oyundan kopyalamayı araç ölçmez; yalnız çözüm/karar/ipucu metniyle 4 kelimelik ortaklığı yakalar
+SHORTS-4	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması
+SHORTS-5	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; son kareyi araç kurar (shorts_ayar.json son_kare)
+SHORTS-6	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç hedef_sure [28,55] dışını yalnız UYARI basar (arac_shorts.js:276), durdurmaz
+SHORTS-7	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; kapanış sorusu yokluğu yalnız uyarı (arac_shorts.js:277)
+SHORTS-8	program `kaynak/arac_shorts.js` --denetle ortak söz / suçlu adı + suç sözü (kısmen)	kaynak/arac_shorts.js:232, 239; BLOCKED 564		Shorts hatırlatması; 'ilk birkaç dakika' sınırının kalanı insan kontrol listesinde (SHORTS-14)
+SHORTS-9	program `kaynak/arac_shorts.js` --denetle giriş/konuşma dışı kare HATA	kaynak/arac_shorts.js:82 IZINLI_SAHNE, 253		Shorts hatırlatması
+SHORTS-10	program `kaynak/arac_shorts.js` --denetle yasak resim/söz/karar adı (kısmen)	kaynak/arac_shorts.js:232, 239, 243, 251, 256		Shorts hatırlatması; 'fazla yer, kuşkulu yüz' ve kanona ekleme gözle (SHORTS-14)
+SHORTS-11	program `kaynak/arac_shorts.js` damga (hash) olmadan üretim yok	kaynak/arac_shorts.js:564, 576-580 (videoHash 282)		
+SHORTS-12	program `kaynak/arac_shorts.js` --denetle HATA listesi	kaynak/arac_shorts.js:176, 232, 239, 243, 249, 251, 253, 256		
+SHORTS-13	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç UYARI basar (arac_shorts.js:264, 268, 270, 271, 276, 277), durdurmaz; karar insanın
+SHORTS-14	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç listeyi basar (KONTROL_LISTESI, arac_shorts.js:284); cevap insanın
+SHORTS-15	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; konuşanı araç kendiliğinden ekler (arac_shorts.js:188-191); hitap edilen ekrandan çıkarsa yalnız uyarı (264)
+SHORTS-16	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; adı geçen ekranda değilse yalnız uyarı (arac_shorts.js:268); söz edilen yer–arka denetimi yok
+SHORTS-17	program `kaynak/arac_shorts.js` --denetle ekranda en çok iki figür	kaynak/arac_shorts.js:194		Shorts hatırlatması; sol/sağ yerleşimi araç kendisi yapar
+SHORTS-18	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; ışığı araç kendisi uygular
+SHORTS-19	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; biçim bilgisi; araç ayrıştırır
+SHORTS-20	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım bilgisi; çözülemeyen anahtar HATA (arac_shorts.js:174)
+SHORTS-21	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım bilgisi; ilk satırda arka yoksa HATA (arac_shorts.js:182)
+SHORTS-22	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım bilgisi
+SHORTS-23	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım bilgisi
+SHORTS-24	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım bilgisi
+SHORTS-25	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım bilgisi
+SHORTS-26	program `kaynak/arac_shorts.js` --denetle ses tanımı olmayan konuşan HATA (kısmen)	kaynak/arac_shorts.js:176	EVET: shorts_ayar.json'da var olan bir karakterin sesi değişirse git'teki önceki sürümle karşılaştırıp uyarsın — arac_shorts.js	Shorts hatırlatması; 'ses bir kez seçilir, değişmez' ölçülmüyor
+SHORTS-27	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; müzik karışımını araç yapar (loudnorm -14, arac_shorts.js:370); depoya girmeyenler .gitignore'da
+SHORTS-28	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; araç kullanım adımları
+SHORTS-29	yok — Shorts süreci (8_shorts.md)			Shorts hatırlatması; YouTube yükleme, elle

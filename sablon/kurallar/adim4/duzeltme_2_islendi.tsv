@@ -1,0 +1,20 @@
+kod	uygulayici	aday	not
+CODEX-1	talimat `uretim/AGENTS.md`		
+CODEX-3	talimat `uretim/AGENTS.md`		
+CODEX-5	talimat `uretim/AGENTS.md`		
+CODEX-6	talimat `uretim/AGENTS.md`		
+CODEX-8	talimat `uretim/AGENTS.md`		
+CODEX-9	talimat `uretim/AGENTS.md`		
+CODEX-10	talimat `uretim/AGENTS.md`		
+CODEX-11	talimat `uretim/AGENTS.md`		
+CODEX-12	talimat `uretim/AGENTS.md`		
+CODEX-14	talimat `uretim/AGENTS.md`		
+CODEX-15	talimat `uretim/AGENTS.md`		
+CODEX-4	talimat `uretim/AGENTS.md` · hatırlat 8		
+CODEX-7	program `uretim/dongu.sh` uretilebilir() · talimat `uretim/AGENTS.md`		
+CODEX-16	program `uretim/istem_kontrol.sh` 'yazı yasağı satırı' · talimat `uretim/AGENTS.md` · hatırlat 10		
+CODEX-13		EVET: dongu.sh zaman.tsv'ye yazarken 300 sn'yi aşan resmi bayraklasın	
+KOD-16	program `kaynak/build_html.js` uzantılı anahtar · program `kaynak/test_yeni_arayuz.js` (yeni oyunda atıf)		yeni kipte atıf denetimi kapalı (build_html.js:1500); kapi_hook.js:25-26 yorumu yanlış
+KOD-33	hatırlat 5, 9		dongu.sh ve arac_kapi.js 'python' çağırıyor; yalnız 'py' olan makinede denetimler sessizce atlanır
+KOD-22			Linux yolu bulut kabının; Windows'ta arac_ortam.js karşılıyor — kural metninde Windows yolu eksik
+KOD-36		EVET: kapi_hook.js commit'te kaynak/motor.js ya da eski game_data.json değişiyorsa dursun	

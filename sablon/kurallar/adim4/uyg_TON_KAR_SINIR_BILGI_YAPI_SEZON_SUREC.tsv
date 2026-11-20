@@ -1,0 +1,200 @@
+kod	uygulayici	kanit	aday	not
+TON-1	hatırlat 1, 3			
+TON-2	hatırlat 1, 6			
+TON-3	hatırlat 1			taslak ekleri (Ton/Sezon §) öneri, kanon değil
+TON-4	hatırlat 3			taslak (YENI_OYUN_TON §1), sahibi onaylamadan kanon değil
+TON-5	hatırlat 1			vakalar arası bağın yokluğunu K19 tohum denetimi kısmen tutar (YAPI-44); taslak
+TON-6	hatırlat 3		EVET: sahne başına Cengo'nun en az bir repliği var mı (ipucu sahneleri dahil) — doğrulayıcı K15'e uyarı olarak	taslak (öneri); ipucu sahnelerinde Cengo'nun bulunmadığı meşru durum olabilir, önce sahibine
+TON-7	hatırlat 3			1879'daki kasa ekranı sözü eskimiş (kasa kalktı), kuralda zaten yazıyor
+TON-8	hatırlat 3, 5			sahne notu; bulanık replik taramasında "Nereden biliyor?"
+TON-9	hatırlat 3, 5		EVET: replik uzunluğu (>~110 harf hata) ve vaka ortalaması (~50 altı uyarı) — arac_diyalog.js ya da doğrulayıcı K15	
+TON-10	program `kaynak/dogrulayici.js` K17 (en az 15 replik, büro, şüpheli adı, ücret) · hatırlat 3, 5	kaynak/dogrulayici.js:913 (n<15), :911 (büro), :918 (şüpheli), :921 (ücret)		45 üstü yalnız uyarı; "ilk okumada anlaşılır" gözle; "Kapsam: V1–2 yeniden yapımı, V3'e dokunulmaz" maddesi eskimiş olabilir
+TON-11	hatırlat 3			
+TON-12	hatırlat 3, 5		EVET: sayı sözü + "kala" (ör. "dokuza yarım saat kala") replik/not/olgu metninde — doğrulayıcı (yeni) metin taraması	
+TON-13	hatırlat 1, 3			V4'ten başlar; vaka başına en çok bir kez, yalnız Cengo
+TON-14	hatırlat 5			bulanık replik taraması (7_uretim_sureci.md)
+TON-15	hatırlat 5			
+TON-16	hatırlat 3, 5			
+TON-21	hatırlat 8			taslak; "yeni görsel stil sözleşmesi" arşivde
+TON-22	hatırlat 3			sezon boyu ara sıra; SINIR-2 sınırıyla birlikte
+KAR-1	hatırlat 1, 8			AÇIK SORU: KAR kuralları ile sablon/3_kanon_kaydi.md aynı gerçekleri tutuyor (iki kaynak) — hangisi asıl, karar sahibinde
+KAR-2	hatırlat 1			AÇIK SORU: kural "tek liste = 3_kanon_kaydi.md" diyor, ama KAR-26…KAR-39 aynı kanonu burada da tutuyor — çift kaynak
+KAR-3	hatırlat 1			kanon açık noktası (AÇIK SORU: KAR ↔ 3_kanon_kaydi.md)
+KAR-4	hatırlat 3		EVET: kalıcı figürlerin (kanon.sahne.figurler, kisiler.json) adı bir önceki commit'tekiyle aynı mı — doğrulayıcı ya da kapı	
+KAR-5	hatırlat 3			
+KAR-6	hatırlat 8, 10			SINIR-3 ile birlikte
+KAR-7	hatırlat 3			görünüş KAR-24
+KAR-8	hatırlat 3, 6			
+KAR-9	hatırlat 1			formda hangi ipucunu kimin yolu açar
+KAR-10	hatırlat 3, 10			görsellerde de "küs değil"
+KAR-11	hatırlat 3			
+KAR-12	hatırlat 3			
+KAR-13	hatırlat 1			planlı anlar V4–V8; S2 için yok
+KAR-14	hatırlat 3			yazım yükü KAR-16'da (iki hâl)
+KAR-15	hatırlat 3			karar seçeneklerinin altında hiçbir şey yazmaz kısmı YAPI-23'te hatırlatılır; eski oyunda alev göstergesi duruyor (CLAUDE.md)
+KAR-16	program `kaynak/dogrulayici.js` K15 ('bag' yalnız yuksek/dusuk) · program `kaynak/test_yeni_kimyapti.js` kapanış eşiği · hatırlat 3	kaynak/dogrulayici.js:847; kaynak/test_yeni_kimyapti.js:166-171	EVET: her vakanın kapanış sahnesinde hem `bag: yuksek` hem `bag: dusuk` satırı var mı — doğrulayıcı K15/K19	program yalnız değeri ve eşiği ölçüyor; iki hâlin yazıldığını ölçmüyor
+KAR-17	hatırlat 3			yeni oyunda karar Cengo satırına uyar; eski oyunda K13 yalnız varyant sırasını tutar
+KAR-18	yok — eski oyunun bakımı			eski oyunda dogrulayici K13 (azalan eşik + varsayilan) ve test_cengo_satir.js tutar
+KAR-19	yok — motor davranışı (vaka yazarı etkilemez)		EVET: test_yeni_kimyapti.js'e "suçlama cengoBag'i değiştirmiyor" kontrolü	bugün hiçbir test ölçmüyor
+KAR-21	hatırlat 3		EVET: her kararın cengoBag değeri −2…+2 aralığında — doğrulayıcı K19	
+KAR-22	hatırlat 1, 8			K15 yalnız setin tanımlı olduğunu ölçer; "yeni kıyafet" ölçülmez
+KAR-23	hatırlat 8, 10		EVET: Peri figür isteminde "kırmızı stiletto"/"çorap yok" (form başka ayakkabı demiyorsa), Cengo isteminde "bileklik" sözü — istem_kontrol.sh	tablo V6 konuklarında kalmış; V7–V8 konukları eklenmemiş görünüyor
+KAR-24	hatırlat 8, 10		EVET: Cengo figür isteminde "tel" ve "bileklik" sözü — istem_kontrol.sh	kıyafet maddeleri yalnız ilk tarif; sabit: yüz, saç, tel, bileklik
+KAR-25	hatırlat 8, 10		EVET: istem "kapı"+"büro" geçiyorsa referanslarda buro_koridor.jpg — istem_kontrol.sh	
+KAR-26	hatırlat 1			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-27	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-28	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-29	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak; reşit değil → SINIR-7
+KAR-30	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-31	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-32	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-33	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak; altındaki *Bilgi* kasa dönemi (eski)
+KAR-34	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-35	hatırlat 1, 8			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-36	hatırlat 1, 3			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak
+KAR-37	hatırlat 1			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak; YAPI-35 ile aynı gerçek
+KAR-38	hatırlat 1			AÇIK SORU: KAR ↔ 3_kanon_kaydi.md çift kaynak; fiyatlar YAPI-33
+KAR-39	yok — gerçek dünya bilgisi (espri dayanağı)			espri sınırı SINIR-2
+SINIR-1	hatırlat 3			
+SINIR-2	hatırlat 3			
+SINIR-3	hatırlat 8, 10		EVET: Peri figür isteminde "üst düğmeleri açık" satırı — istem_kontrol.sh	
+SINIR-5	hatırlat 8, 10			
+SINIR-6	program `uretim/istem_kontrol.sh` figür isteminde 'Çıplaklık yok' satırı · hatırlat 3, 10	uretim/istem_kontrol.sh: has 'Çıplaklık yok'		program yalnız satırın varlığını ölçer; resim gözle
+SINIR-7	hatırlat 3, 8			
+SINIR-8	hatırlat 3, 8			
+SINIR-9	hatırlat 1			
+SINIR-10	hatırlat 3, 5			
+SINIR-11	hatırlat 1, 3			yayın öncesi telif avukatı kısmı yok (yayın işi)
+SINIR-12	hatırlat 5			taze göz briefine madde
+SINIR-13	program `uretim/istem_kontrol.sh` istemde sigara/tütün sözü · hatırlat 3, 10	uretim/istem_kontrol.sh:29	EVET: replik, not, olgu, ifade/poz adı, kare tarifinde sigara/tütün/izmarit/kül tablası/çakmak/puro/nargile — doğrulayıcı (yeni) metin taraması	kuralın kendisi doğrulayıcı taramasının olmadığını söylüyor
+BILGI-1	program `kaynak/dogrulayici.js` K1/K10/K11 · program `kaynak/arac_sizinti_tur.js` (kapı) · hatırlat 5, 14	kaynak/dogrulayici.js:705 (K10), :342 (K11); kaynak/arac_sizinti_tur.js:112 (çıkış 1); kaynak/arac_kapi.js:91-94		test_sizinti.js eski oyunu sınar; espriden sızma anlamsal, gözle
+BILGI-2	hatırlat 3			
+BILGI-3	program `kaynak/dogrulayici.js` K17 (ipucu anahtarı girişte geçmez) · hatırlat 3, 6	kaynak/dogrulayici.js:929		suçlunun dolaylı ele verilmesi gözle (Onay 2)
+BILGI-4	program `kaynak/dogrulayici.js` K19 (kural 21c: tek ipucu suçluyu kanıtlamaz) · hatırlat 1	kaynak/dogrulayici.js:1026		"en az iki şüpheliye uyar" kısmı gözle
+BILGI-5	program `kaynak/dogrulayici.js` K18 (ipucu adında duyulmamış ad) · hatırlat 4	kaynak/dogrulayici.js:961		K18 özel isim kökü bakar; yer/nesne fazlası gözle
+BILGI-6	hatırlat 4, 5			K12 yalnız başlığın varlığını ölçer; arac_tahta_denetim.js bilgi basar (bayrak yok)
+BILGI-7	program `kaynak/arac_diyalog.js` '## ani' bölümü zorunlu · program `kaynak/test_yeni_arayuz.js` ani_ozet var · hatırlat 3	kaynak/arac_diyalog.js:176; kaynak/test_yeni_arayuz.js:80		içerik (yalnız itirafın söylediği) gözle
+BILGI-8	program `kaynak/dogrulayici.js` K1b (katman koşulu var) · hatırlat 4	kaynak/dogrulayici.js:1128		arac_kunye_denetim.js yan yana basar, karar insanın; metnin fazlası anlamsal | ikinci göz: kanıt dogrulayici.js:221 kural1b_kunye
+BILGI-9	program `kaynak/arac_sizinti_tur.js` 'zincir' ekranı · hatırlat 5		EVET: test_tahta.js'in "yalnız tutan alternatif" sınamasını yeni oyunun defterZincir'ine taşı	test_tahta.js yalnız eski oyunun game_data.json'unu okur; yeni oyunda test yok | ikinci göz: test_tahta.js yalnız eski oyun
+BILGI-10	yok — arayüz kuralı (zincir defteri)			
+BILGI-11	yok — arayüz kuralı (zincir defteri)			
+BILGI-12	program `kaynak/test_yeni_v2.js` (hakkını bitiren suçluyu görür) · program `kaynak/dogrulayici.js` K19 (suçlu her tam yolda) · hatırlat 1	kaynak/test_yeni_v2.js:38-40; kaynak/dogrulayici.js:1046		"şüphelenmek için sebep" (görünme koşulu) formda
+BILGI-13	hatırlat 3			
+BILGI-14	hatırlat 8			kart afişi
+BILGI-15	hatırlat 8			kart afişi
+BILGI-16	hatırlat 8			kart afişi; ISTEM-29 ile aynı aile
+BILGI-17	hatırlat 8, 10	kaynak/dogrulayici.js:169-184	EVET: ipucu görseline gosterir etiketi arac_diyalog.js'te zorunlu olsun, K1 yeni oyunda da ısırsın	yalnız görsele `gosterir` etiketi yazılmışsa ölçer; ima/tehlike gözle | ikinci göz: yeni oyunda gosterir yok, K1 görsel denetimi yalnız eski oyun
+BILGI-18	hatırlat 10	kaynak/dogrulayici.js:169-184		yeni oyunda ipucu görsellerine `gosterir` etiketi yazılıyor mu belirsiz — yazılmıyorsa denetim boşa döner | ikinci göz: aday BILGI-17'de
+BILGI-19	hatırlat 8, 10			
+BILGI-20	hatırlat 8, 10			
+BILGI-22	hatırlat 5, 7			
+BILGI-23	hatırlat 5, 14			
+YAPI-1	program `kaynak/dogrulayici.js` K19 (yüzleşme sahneleri var) · hatırlat 1	kaynak/dogrulayici.js:1006-1007		akışın kendisi motorda; formda sıra
+YAPI-2	yok — açılış bir kez yazıldı, vaka üretimine girmez			
+YAPI-3	hatırlat 1			Ters tip ertelendi
+YAPI-4	program `kaynak/dogrulayici.js` K19 (3 şüpheli, 4 karar) · hatırlat 1	kaynak/dogrulayici.js:975, :1009		süre (15–25 dk) gözle/Onay 2
+YAPI-5	program `kaynak/dogrulayici.js` K19 (bedava ipucu yok, ipucu > hak) · program `kaynak/test_yeni_v2.js` (her doğru çift hak içinde) · hatırlat 1	kaynak/dogrulayici.js:1015-1016; kaynak/test_yeni_v2.js:35, :56-60		
+YAPI-6	program `kaynak/dogrulayici.js` K17 (büro, şüpheli adı, ücret) · hatırlat 3	kaynak/dogrulayici.js:911, :918, :921		bitiş (ilk gidilecek yer) gözle
+YAPI-7	hatırlat 1			K19 yalnız masumiyet açıklamasının (cozum.masum) varlığını ölçer: dogrulayici.js:1004
+YAPI-8	program `kaynak/dogrulayici.js` K19 (en az 2 yol) · program `kaynak/test_yeni_v2.js` (en az iki ayrı ipucu yolu) · hatırlat 1	kaynak/dogrulayici.js:1047; kaynak/test_yeni_v2.js:46-52		
+YAPI-9	hatırlat 1			
+YAPI-10	hatırlat 1			
+YAPI-11	hatırlat 1			
+YAPI-12	hatırlat 1, 3			
+YAPI-13	program `kaynak/dogrulayici.js` K19 (görünme koşulu) · program `kaynak/test_yeni_v2.js` (suçlu her tam yolda) · hatırlat 1	kaynak/test_yeni_kimyapti.js:39-52, :73-80		test çoğunu yalnız ilk Kim yaptı?'lı vakada (V1) oynar; "kanıt yalnız ipuçlarından" formda | ikinci göz: test_yeni_kimyapti.js yalnız V1
+YAPI-14	program `kaynak/dogrulayici.js` K19 (yüzleşme sahneleri) · hatırlat 3	kaynak/test_yeni_kimyapti.js:55-70	EVET: test_yeni_kimyapti.js bütün vakalara döngülensin (zayıf sonuç kurulabiliyor mu)	motor davranışı; yalnız ilk vaka
+YAPI-15	hatırlat 3			
+YAPI-16	program `kaynak/dogrulayici.js` K19 (dört yüzleşme sahnesi var) · hatırlat 3	kaynak/dogrulayici.js:1006-1007	EVET: yüzleşme sahnesi 4–6 replik — doğrulayıcı K19 uyarısı	"suçlu kaçar" gözle
+YAPI-17	hatırlat 3, 5			"Neden kaçıyor?" taraması
+YAPI-18	hatırlat 3			
+YAPI-19	hatırlat 1, 8			
+YAPI-20	hatırlat 1, 8			
+YAPI-21	program `kaynak/dogrulayici.js` K19 (4 karar, kapı yok) · hatırlat 3	kaynak/test_yeni_kimyapti.js:77		"oyun bitmez" motor; bedelin sahnede kalması yazım
+YAPI-22	program `kaynak/dogrulayici.js` K19 (kararda kapı yok) · hatırlat 1	kaynak/dogrulayici.js:1011		"doğru cevap yok" gözle
+YAPI-23	hatırlat 3		EVET: `## sahne karar_soru` ve her kararın `**SEÇENEK:**` satırı var mı — arac_diyalog.js ya da K19 (bugün isteğe bağlı, yedek etiket)	YAPI-28 yedeği yüzünden zorunlu değil; V8 ve sonrası için zorunlu yapılabilir
+YAPI-24	hatırlat 3			
+YAPI-25	program `kaynak/test_yeni_kimyapti.js` (cozumYolu yalnız eldeki kanıt) · program `kaynak/arac_diyalog.js` (cengo_kanit olgu mu) · hatırlat 3, 5	kaynak/test_yeni_kimyapti.js:136-164; kaynak/arac_diyalog.js:172	EVET: her doğru kanıt olgusu için cengo_kanit satırı var mı — K19 uyarısı (yoksa Cengo susar)	satırın yalnız o kanıtı anması sızıntı taramasında gözle
+YAPI-26	program `kaynak/dogrulayici.js` K19 (cozum.yollar, her masuma cozum.masum) · program `kaynak/test_yeni_kimyapti.js` (yalnız eldeki kanıt) · hatırlat 5	kaynak/dogrulayici.js:1002, :1004; kaynak/test_yeni_kimyapti.js:136-164		metin Nurcan yüzeyi, elle oku (KOD-90)
+YAPI-27	hatırlat 1			
+YAPI-28	yok — geçiş planı (bir kerelik)			V1–V5 yeniden geçirilince bitecek
+YAPI-29	hatırlat 1		EVET: test_yeni_v1.js'teki "her yolda vicdanı eksi olmayan karar açık" denetimini bütün vakalara (test_yeni_v2.js döngüsü) taşı	bugün yalnız V1 ölçülüyor (test_yeni_v1.js:170)
+YAPI-30	hatırlat 1, 3			
+YAPI-31	hatırlat 3	kaynak/test_yeni_kimyapti.js:87-114		test_yeni_v2.js'teki "en kötü ücret + karar ≥ 0" ve "en çok kazandıran karar ücretin altında" kasa döneminden kalma, eskimiş görünüyor | ikinci göz: test_yeni_v2.js:62-69 kasa döneminden iki denetim kaldı — sahibine sorulacak (kaldırılsın mı)
+YAPI-32	program `kaynak/dogrulayici.js` K17 (ücret girişte konuşuluyor) · hatırlat 3	kaynak/dogrulayici.js:921	EVET: ücret kademeleri eşit ve kesinti yok — K19, yalnız V6 ve sonrası (V1–V5 bilerek kesintili)	bugün K19 ve test yalnız dogru ≥ zayif ≥ yanlis sınıyor (kurala ters değil ama eşitliği ölçmüyor)
+YAPI-33	hatırlat 1			
+YAPI-34	hatırlat 1, 5		EVET: metindeki her ₺ tutarı formun fiyat tablosunda (§17) geçiyor mu — sayı eşleşmesiyle yeni araç ya da arac_diyalog.js	
+YAPI-35	hatırlat 1			yalnız V7 (alınış) ve V8+ (anılmaz); "dürüst yol yalnızca erteler" cümlesi bekleyen iş
+YAPI-36	yok — tasarım sözleşmesi (kasa yok, motor)			
+YAPI-37	hatırlat 1		EVET: YAPI-29'daki gibi "kirli karara zorlamaz" denetimi bütün yeni vakalara	test_borc.js yalnız eski oyunu sınar; yeni oyunda yalnız V1 (test_yeni_v1.js:170)
+YAPI-38	hatırlat 3, 5		EVET: arac_akis_denetim.js'teki HUKUM listesini yeni oyunun SONUÇ / sonuc_ sahnelerine doğrulayıcı hatası olarak taşı	arac_akis_denetim.js eski oyunu basar, bayrak ADAY
+YAPI-39	yok — arayüz kararı			
+YAPI-40	hatırlat 3, 6			arac_akis_denetim.js yalnız eski oyun
+YAPI-42	yok — sezon sonu tablosu (Android aşaması)			
+YAPI-43	program `kaynak/dogrulayici.js` K19 (tohum yok) · hatırlat 1	kaynak/dogrulayici.js:1012, :1014		
+YAPI-44	program `kaynak/dogrulayici.js` K19 (seed_yaz / vaka tohumu hata)	kaynak/dogrulayici.js:1012, :1014		SEZON-10/11 (taslak) bununla çelişir
+YAPI-45	hatırlat 1			
+YAPI-46	yok — eski oyunun bakımı			kural "K8 yeni oyunda kalkar" diyor, ama dogrulayici.js kural8_baskinlik iki kipte de koşuyor (V7'de yeni oyunda K8 uyarısı verdi, SUREC-14 dersi) | ikinci göz: K8 yeni oyunda koşmuyor (dogrulayici.js:618-619); yok doğru
+SEZON-1	yok — sezon çatısı kararı (S1 iplikleri yerleşti)			
+SEZON-2	yok — sezon planlaması (S2+), taslak			
+SEZON-3	hatırlat 1			taslak
+SEZON-4	hatırlat 1			taslak
+SEZON-5	hatırlat 1		EVET: sezon tablosunda semt ve çevre sütunu; her biri en çok iki vaka — sayım aracı	taslak; sezon tablosu henüz dosya değil
+SEZON-6	hatırlat 1			taslak
+SEZON-7	hatırlat 1			taslak; formda "hayvan görünsün mü?" sorusu
+SEZON-8	yok — S2+ oyun biçimi, taslak			
+SEZON-9	yok — açık tasarım sorunu, taslak			16 Kasım karar düzeniyle kısmen eskidi
+SEZON-10	yok — taslak			YAPI-44 (tohum yok, K19) ile çelişir
+SEZON-11	yok — taslak			SEZON-10'a bağlı
+SEZON-12	yok — ek fikir, taslak			
+SEZON-13	yok — ek fikir, taslak			
+SEZON-14	yok — ek fikir, taslak			
+SEZON-15	yok — ek fikir, taslak			YAPI-42 ile aynı konu
+SEZON-16	hatırlat 1			taslak
+SEZON-17	hatırlat 1			taslak
+SEZON-18	yok — tek vakalık örnek (V7)			
+SEZON-19	hatırlat 1, 10			KURALLAR.md'deki *Uygulayıcı:* satırı aynen | ikinci göz: programla kısmı SEZON-26 ve DENETIM-53'te
+SEZON-26	hatırlat 8		EVET: istem_kontrol.sh yeni konuk temelinde arac_benzerlik.js çıkış 0 değilse istemi geçirmesin	KURALLAR.md'deki *Uygulayıcı:* satırı aynen | ikinci göz: araç çıkış 1 veriyor ama hiçbir kapı çağırmıyor | ikinci göz: aracı hiçbir kapı çağırmıyor
+SEZON-20	hatırlat 8, 10			istem_kontrol.sh yalnız 'Kompozisyon:' satırının varlığını ister
+SEZON-21	hatırlat 8, 10		EVET: yeni arka_* resmini eski arka planlarla karşılaştırma (arac_benzerlik_resim.py'ye mekân kipi)	
+SEZON-23	hatırlat 1			K15 setin tanımlı olduğunu ölçer
+SEZON-25	yok — çalışma biçimi (SUREC-34)			taslak
+SUREC-1	yok — Claude'un çalışma kuralı (CLAUDE.md, bellek)			
+SUREC-2	yok — kural değişikliği yolu			eski kural kitabı yolu (arsiv/) artık KURALLAR.md
+SUREC-3	hatırlat 6, 12			sahibinin notlarında söylenen kural dosyaya
+SUREC-4	yok — rol ayrımı			
+SUREC-5	yok — yetki			
+SUREC-6	yok — kurulum			
+SUREC-7	yok — git çalışma kuralı (CLAUDE.md)			
+SUREC-8	yok — çalışma kuralı			
+SUREC-10	program `.claude/kapi_hook.js` → `kaynak/arac_kapi.js` (commit'te kapı)	.claude/kapi_hook.js (kapı geçmezse commit yapılmaz)		adım sırasını SUREC-43 hatırlatma listesi tutar
+SUREC-11	hatırlat 1, 2			
+SUREC-12	program `kaynak/arac_kapi.js` hikâye kapısı (K1, K2, K8; satır–resim İŞ/SOR) · hatırlat 3	kaynak/arac_kapi.js denetle() ve :99-108		
+SUREC-13	program `kaynak/dogrulayici.js` yeni · hatırlat 4		EVET: vakanın her konuğunun kisiler.json'da künye kartı var mı — test_yeni_v2.js ya da doğrulayıcı	arac_kunye_denetim.js bilgi basar
+SUREC-14	program `kaynak/arac_kapi.js` (YOLLAR yoksa durur; turlar, sızıntı, satır–resim) · hatırlat 5	kaynak/arac_kapi.js:89		
+SUREC-15	hatırlat 5			
+SUREC-16	hatırlat 6			
+SUREC-17	hatırlat 7			
+SUREC-18	hatırlat 8			
+SUREC-19	program `kaynak/arac_kapi.js` satır–resim İŞ/SOR = 0 · program `uretim/istem_kontrol.sh` (## Satırlar, kıyafet kartı referansı) · hatırlat 8	kaynak/arac_kapi.js:99-108; uretim/istem_kontrol.sh 'kıyafet kartı'		kıyafet kartı onayı ve tek seferde eksiksiz liste gözle
+SUREC-20	hatırlat 8			yalnız web'de üretilecek resimler
+SUREC-21	hatırlat 9, 10			
+SUREC-22	hatırlat 9			DENETIM-41
+SUREC-23	yok — Vaka 3'e özgü bekleyen karar			
+SUREC-24	program `kaynak/arac_kapi.js` resim kapısı (K3, K9, K11, K12…) · hatırlat 11	kaynak/arac_kapi.js resimDenetle()		
+SUREC-25	hatırlat 12, 13			
+SUREC-26	program `kaynak/arac_sizinti_tur.js` (kapı) · hatırlat 14	kaynak/arac_sizinti_tur.js:112		tablet, 19 boy, kart afişi, portre gözle
+SUREC-27	program `kaynak/arac_sizinti_tur.js` (çıkış 1; kapı koşar) · hatırlat 5, 14	kaynak/arac_sizinti_tur.js:112; kaynak/arac_kapi.js:91-94		sizinti_okuma.txt elle okunur
+SUREC-28	hatırlat 6, 12			
+SUREC-29	hatırlat 7			
+SUREC-30	hatırlat 1			her adımın sonunda saat yazılır
+SUREC-31	yok — kapsam kararı			
+SUREC-32	hatırlat 8, 9			
+SUREC-33	hatırlat 8			
+SUREC-34	yok — çalışma biçimi (CLAUDE.md)			
+SUREC-35	hatırlat 6			
+SUREC-36	yok — belge durumu (arşiv)			
+SUREC-37	yok — yöntem kaydı			SINIR-12 taze göz
+SUREC-38	yok — tarihî karar kaydı			A, B, C YAPI-11/12'de
+SUREC-39	yok — bir kerelik plan			
+SUREC-40	yok — bir kerelik karar (V7)			hâlâ açık mı belirsiz
+SUREC-43	program `sablon/kurallar/arac_uygulayici.js`			KURALLAR.md'deki *Uygulayıcı:* satırı aynen

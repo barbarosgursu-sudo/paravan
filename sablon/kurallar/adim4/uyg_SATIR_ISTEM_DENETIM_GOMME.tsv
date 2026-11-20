@@ -1,0 +1,177 @@
+kod	uygulayici	kanit	aday	not
+SATIR-1	program `kaynak/arac_kapi.js` K2 ve satır–resim İŞ=0 · hatırlat 3	kaynak/arac_kapi.js:143,152 (K2), :103 (İŞ+SOR>0 → bulgu); commit'te .claude/kapi_hook.js çıkış 2		Kapı yalnız Vaka 6+ ve yalnız commit'te; nesne/kıyafet anılıp görünmemesini araç EYLEM/DURUŞ kelime listesiyle yakalar, gerisi göz.
+SATIR-2	hatırlat 3, 8			Çerçeve kuralı (nerede yakalanır); asıl denetimler SATIR-3…42'de. "kural 4a" eski atıf → TON-8.
+SATIR-3	program `kaynak/arac_kapi.js` satır–resim HİTAP/KONUŞAN (İŞ) · hatırlat 3	kaynak/arac_satir_resim.js:123-124 (KONUŞAN, HİTAP → İŞ); arac_kapi.js:103 İŞ>0 durur		Araç yalnız `kime`/konuşan ekranda mı bakar; `kime`nin GERÇEK muhatap olup olmadığı (ör. kime: peri yanlış yazılmış) göze kalır.
+SATIR-4	program `kaynak/arac_kapi.js` satır–resim HİTAP · hatırlat 3	kaynak/arac_satir_resim.js:124; arac_kapi.js:103		Kuralın çoğu motor davranışı (yeni_arayuz.js, SR-M6); yazara düşen `kime`/`gir` etiketini yazmak.
+SATIR-5	program `kaynak/arac_kapi.js` satır–resim HİTAP · hatırlat 3	kaynak/arac_satir_resim.js:124; arac_kapi.js:103		Yer sabitliği (16 Kasım) motor işi; yazara düşen konuk→konuk satırına `{kime}`.
+SATIR-6	hatırlat 3		EVET: `sesler` konuşmacısının (teyze, ses) karesi üstündeki satıra verilen cevap aynı `{kare}`'yi taşımıyorsa bayrak — arac_satir_resim.js / arac_kapi.js'e eklenir.	arac_satir_resim.js teyze/fotografci'yi KONUŞAN denetiminden bilerek çıkarıyor (:123); cevap tarafı hiç ölçülmüyor.
+SATIR-7	hatırlat 8, 11		EVET: vakaN_gorsel.md'de her sahne ve her karar/ara/kapanış karesi için kıyafet hâli satırı var mı (kıyafet hâli tablosu eksiksiz mi) — arac_kapi.js hikâye kipine eklenir.	Süreklilik (açık trençkot, ıslaklık) resimde gözle (adım 11); tablo adım 8'de.
+SATIR-8	program `uretim/istem_kontrol.sh` 'kıyafet kartı' (Peri/Cengo figürü) · hatırlat 8	uretim/istem_kontrol.sh:58-59 (çıkış 1; dongu.sh:38-41 üretmez)	EVET: konuk figürü ve kişili kare istemlerinde de kart referansı aransın (kartı onaylı kıyafet için) — istem_kontrol.sh.	Konuk figüründe ve karede kart referansı denetlenmiyor; "o satırların hâli" yazılmış mı göze kalır.
+SATIR-9	program `kaynak/arac_kapi.js` satır–resim EYLEM/JEST İŞ (K10) · hatırlat 8	kaynak/arac_satir_resim.js:111 (kural 10 bırakma), :113, :121; arac_kapi.js:103		"Tek kare tek an", başlıkta ifade+nesne birleşmemesi, temel figürde boş el — istem yazarken göz (adım 8).
+SATIR-10	program `kaynak/arac_kapi.js` satır–resim İŞ/SOR=0 · hatırlat 5	kaynak/arac_kapi.js:99-110; kalsın: arac_satir_resim.js --karar (vakaN_bayrak.md)	EVET: dongu.sh / istem_kontrol.sh, vakanın satır–resim İŞ sayısı 0 değilse istemleri üretmesin (kural "istem yazılmadan önce" der; kapı yalnız commit'te).	Araç SOR sınıfını hiç atamıyor (yalnız OTO/İŞ); "SOR sahibine gider" adımı fiilen boş.
+SATIR-11	program `kaynak/arac_kapi.js` satır–resim İŞ=0 · hatırlat 10	arac_satir_resim.js:107-127 (M1–M6 sınıflaması); arac_soz_farki.js:21 (söz farkı → çıkış 1)	EVET: arac_soz_farki.js kapıda çağrılsın	arac_soz_farki.js hiçbir kapıda/hook'ta çağrılmıyor; M7 (aynı kare farklı yolda aynı an) ölçülmüyor. | ikinci göz: arac_soz_farki.js hiçbir yerde çağrılmıyor
+SATIR-12	program `kaynak/arac_kapi.js` hikâye (İŞ, DURUŞ, İLK GÖRME, K2) · hatırlat 5	kaynak/arac_kapi.js:103-110 (İŞ/SOR), :143-152 (K2 = adı geçen ekranda)		Kapı commit'te çalışır, adım 5'e bağlı değil; adım 5'te elle koşmak hatırlatılmalı. Kural "SOR adım 5'te sahibine gitmez" der, kapı SOR'u da sayar (araç SOR üretmediği için fark yok).
+SATIR-13	program `kaynak/arac_kapi.js` satır–resim EYLEM/DURUŞ · hatırlat 3	kaynak/arac_satir_resim.js:107-113; arac_kapi.js:103		Araç eylemi kelime listesiyle yakalar; "ipucu taşıyan" ayrımı yok, listede olmayan eylem kaçabilir.
+SATIR-15	program `kaynak/arac_kapi.js` K9 · hatırlat 3, 10	kaynak/arac_kapi.js:170 (hedef ekranda, hikâye), :200 (bakış yönü, resim; poz kaydı)		İfadenin satırın duygusuna uyması ve yeni ifade gereği göze kalır; doğrulayıcı K15 yalnız ifadenin sette var olduğunu sınar.
+SATIR-16	program `kaynak/arac_kapi.js` K8 · hatırlat 3	kaynak/arac_kapi.js:161-165		Vaka 6+; ifadenin satıra UYMASI göze kalır (SATIR-31).
+SATIR-17	hatırlat 8, 10		EVET: ifade varyantı isteminde "Bu ifadeyi … ayıran" satırı var mı — istem_kontrol.sh (figür, temel olmayan).	
+SATIR-18	hatırlat 3, 8			"kural 22b/22c" eski numaralar.
+SATIR-19	program `kaynak/arac_kapi.js` satır–resim İLK GÖRME/DURUŞ · hatırlat 3	kaynak/arac_satir_resim.js:107 (DURUŞ), :127 (İLK GÖRME); arac_kapi.js:103	EVET: diyalogda her sahne başında `⚙ akış:` notu var mı — arac_kapi.js hikâye kipi (ya da arac_diyalog.js).	
+SATIR-20	program `kaynak/arac_kapi.js` K2 · hatırlat 3	kaynak/arac_kapi.js:143 (anılan ekranda), :152 (ekrandaki anılıyor)		Grup adları ve akrabalık sözleri ("annesi") ancak vakaN_kapi.md eş sözüne yazılırsa yakalanır. arac_yeni_tur.js adi_gecen_yok.txt yalnız aday listesi.
+SATIR-21	program `kaynak/arac_kapi.js` K7 · hatırlat 3	kaynak/arac_kapi.js:156-159		`{mekan}`/`gi` kullanımı (kızgın girmesin) göze kalır.
+SATIR-22	hatırlat 3, 8			
+SATIR-23	hatırlat 3, 8		EVET: dökümde aynı arka planda arka arkaya ≈15'ten fazla satır varsa bayrak — arac_satir_resim.js (ARKA listesi zaten tutuluyor).	
+SATIR-24	hatırlat 3, 8			
+SATIR-25	hatırlat 3			"Resim → satırlar" listesini arac_satir_resim.js üretiyor; nesne→figür/kare tablosu elle.
+SATIR-26	hatırlat 3			
+SATIR-28	program `kaynak/arac_kapi.js` satır–resim İŞ=0 · hatırlat 8, 11	kaynak/arac_kapi.js:99-110		Dört aşamanın özeti; ayrıntı SATIR-12, ISTEM-51, DENETIM-30, SATIR-30.
+SATIR-30	program `kaynak/arac_kapi.js` resim (bütün yollar --hepsi + satır–resim) · hatırlat 11	kaynak/arac_kapi.js:89-110 (YOLLAR turları, satır–resim)		Sahibine tablo elle; resim kapısı yalnız onayli/ ya da _gorsel.md değişince açılır (kapi_hook.js).
+SATIR-31	program `kaynak/arac_kapi.js` resim (K2, K8, K9, K11) · hatırlat 11	kaynak/arac_kapi.js:143-170, :185, :200		Yüz satıra uyuyor mu, süreklilik, Nurcan — göz.
+SATIR-32	hatırlat 10, 11			
+SATIR-33	hatırlat 11		EVET: turda figürün saydam olmayan pikselleri ekran kenarına değiyorsa (el/nesne kesiliyor) bayrak — arac_yeni_tur.js --hepsi.	arac_ui_tur.js yalnız sayfa yatay taşmasını ölçer, figür taşmasını değil.
+SATIR-34	hatırlat 3			Başvuru sözlüğü. Doğrulayıcı K15 ifade adının sette olduğunu sınar, anlamını değil. Cengo `sinirli` "henüz yok" notu eskimiş olabilir.
+SATIR-35	hatırlat 8		EVET: vakaN_gorsel.md'deki her figür anahtarının arac_satir_resim.js "Resim → satırlar" listesinde en az bir satırı var mı; yoksa bayrak — arac_satir_resim.js ya da arac_kapi.js.	
+SATIR-36	hatırlat 3		EVET: Vaka 7+ diyalogda etiketsiz `**CENGO:**` satırına hata — arac_diyalog.js.	arac_diyalog.js:96-101 etiketsizi eski düzen diye kabul ediyor.
+SATIR-37	program `kaynak/arac_kapi.js` K1	kaynak/arac_kapi.js:141		
+SATIR-38	program `kaynak/arac_kapi.js` K3 (resim) · hatırlat 10	kaynak/arac_kapi.js:189-191	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	Poz kaydına (vakaN_kapi.md → ## poz) bağlı; kayıtsız poz ayrıca bulgu. | ikinci göz: gömme commit'i resim kapısını açmıyor
+SATIR-39	program `kaynak/arac_kapi.js` K4	kaynak/arac_kapi.js:154-155 (YER sözcük listesi)		
+SATIR-40	program `kaynak/arac_kapi.js` K11 (resim) · hatırlat 10	kaynak/arac_kapi.js:185 (binme > BINME_ESIK)	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	ikinci göz: gömme commit'i resim kapısını açmıyor
+SATIR-41	program `kaynak/arac_kapi.js` K12 (resim) · hatırlat 10	kaynak/arac_kapi.js:192-193	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	Poz kaydına bağlı. | ikinci göz: gömme commit'i resim kapısını açmıyor
+SATIR-42	program `kaynak/arac_kapi.js` K13 (resim) · hatırlat 10	kaynak/arac_kapi.js:202-205 (GORUNUS listesi)	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	Poz kaydına bağlı. | ikinci göz: gömme commit'i resim kapısını açmıyor
+ISTEM-1	hatırlat 8			Zorunlu kalıp dosyası `arsiv/uretim/ISTEM_KALIPLARI.md` arşivde; yaşayan kural arşivdeki belgeyi işaret ediyor. Mekanik kısmı ISTEM-52.
+ISTEM-2	hatırlat 8			
+ISTEM-3	hatırlat 8	uretim/istem_kontrol.sh:76 (tür okunamadı), :83 (exit)	EVET: oran satırındaki oran türle tutuyor mu (figür 4:5, arka/kare/detay 3:4, kart 2:3, afiş 9:16) — istem_kontrol.sh.	Arka plan için ISTEM-3 "900×1200" der, ISTEM-4 "1086×1448" (gömme 900×1200) — tablo ile oran satırı aynı şeyi söylemiyor. | ikinci göz: boyut sütununun anlamı karışık (gömme/üretim)
+ISTEM-4	program `uretim/istem_kontrol.sh` 'Görselin oranı TAM'	uretim/istem_kontrol.sh:25		Yalnız satırın varlığı; oranın doğruluğu ISTEM-3 adayı.
+ISTEM-5	hatırlat 8		EVET: figür isteminde "Kadraj: DİKEY 4:5" ve "Uyluk ortasından" satırı var mı — istem_kontrol.sh.	Zemin parçası ISTEM-7'de programla denetleniyor.
+ISTEM-6	program `uretim/istem_kontrol.sh` 'Başın açısı'	uretim/istem_kontrol.sh:36	EVET: satırın "burnu kadrajın soluna" biçimini de arasın (yalnız "Başın açısı" sözü aranıyor).	
+ISTEM-7	program `uretim/istem_kontrol.sh` 'zemin' (zeminler.tsv, yeşil, zemin.tsv)	uretim/istem_kontrol.sh:37-52		
+ISTEM-8	hatırlat 8			"kural 15" eski numara (→ ISTEM-21).
+ISTEM-9	program `uretim/istem_kontrol.sh` tarz paragrafı (arka plan, ara kare, detay) · hatırlat 8	uretim/istem_kontrol.sh:64, :67	EVET: Peri/Cengo temelinde ve ifade varyantlarında "Yarı gerçekçi dijital" VARSA geçirmesin — istem_kontrol.sh.	Kart afişinde de VAR olmalı; denetlenmiyor ("kart afişi" dalı boş, :75).
+ISTEM-10	program `uretim/istem_kontrol.sh` 'Son referans YALNIZ' (yeni karakter temeli) · hatırlat 8	uretim/istem_kontrol.sh:54-56	EVET: tarz örneği dosyası (tarz_ornek_*) referans listesinde SON sırada mı — istem_kontrol.sh.	Peri/Cengo temelinde de cümle şart ama araç Peri/Cengo başlığını bu denetimden çıkarıyor.
+ISTEM-11	program `uretim/istem_kontrol.sh` kart referansı ve dekolteli referans · hatırlat 8	uretim/istem_kontrol.sh:27, :58-59		
+ISTEM-12	hatırlat 8		EVET: yeni karakter temelinde "Başı bilerek silindi" cümlesi var mı ve tarz_govde_/tarz_ornek_ dışında kişi resmi referans verilmiş mi — istem_kontrol.sh.	"benzemiyor" ve tarz cümlesi ISTEM-10/13'te denetleniyor.
+ISTEM-13	program `uretim/istem_kontrol.sh` 'benzemiyor' (yeni karakter temeli) · hatırlat 8	uretim/istem_kontrol.sh:55		Ayırıcı özelliğin anlamı göze; SEZON-26/DENETIM-49 ile birlikte.
+ISTEM-14	hatırlat 8		EVET: varyant isteminde birinci referans onayli/G<temel> mi ve "Değişen tek şey poz ve ifade" cümlesi var mı — istem_kontrol.sh.	
+ISTEM-15	program `uretim/istem_kontrol.sh` en çok 5 referans · hatırlat 8	uretim/istem_kontrol.sh:26		dongu.sh referans dosyası yoksa bekletir (:42-44), yanlış sırayı yakalamaz.
+ISTEM-16	program `uretim/istem_kontrol.sh` dekolteli Peri referansı · hatırlat 8	uretim/istem_kontrol.sh:27		Yalnız bilinen dosya adlarıyla; konuğun dekolteli onaylı resmi referans verilirse yakalanmaz.
+ISTEM-17	program `uretim/istem_kontrol.sh` kart 'TAM BOY' / 'Çekicilik' yok · hatırlat 8	uretim/istem_kontrol.sh:72-73		İki hâl iki kart, boyalı onaylı referans + tarz cümlesi göze.
+ISTEM-18	yok — Vaka 6'nın bir kerelik kota kararı			Genel kural ISTEM-17.
+ISTEM-19	program `uretim/istem_kontrol.sh` 'kıyafet kartı' (Peri/Cengo figürü) · hatırlat 8	uretim/istem_kontrol.sh:58-59	EVET: kartı referans alan istemde "Kart YALNIZ kıyafetin" cümlesi var mı — istem_kontrol.sh.	
+ISTEM-20	hatırlat 8		EVET: Peri istemlerinde "çorap yok" ve vakanın ayakkabı sabiti (varsayılan "kırmızı stiletto"; istisna formdan) var mı — istem_kontrol.sh.	
+ISTEM-21	hatırlat 8		EVET: Peri'li figür/kare isteminde "Çekicilik:" satırı var mı (kart hariç) — istem_kontrol.sh.	
+ISTEM-22	hatırlat 8		EVET: Peri istemlerinde "kalın ve mat" kumaş satırı varsa geçirmesin — istem_kontrol.sh.	
+ISTEM-23	hatırlat 8			
+ISTEM-24	hatırlat 8			
+ISTEM-25	hatırlat 9			
+ISTEM-26	hatırlat 9			
+ISTEM-27	program `uretim/istem_kontrol.sh` 'Çıplaklık yok'	uretim/istem_kontrol.sh:53		
+ISTEM-28	program `uretim/istem_kontrol.sh` yazı yasağı · hatırlat 8	uretim/istem_kontrol.sh:24		Nesneye özgü yazısızlık (tuşlar düz, ekran çevrik, markasız) göze.
+ISTEM-29	hatırlat 8			
+ISTEM-30	hatırlat 8		EVET: istemde "görünmesin" gibi saklatma sözü varsa bayrak — istem_kontrol.sh.	
+ISTEM-31	program `uretim/istem_kontrol.sh` 'TAM İKİ KOL' · hatırlat 8	uretim/istem_kontrol.sh:35		Her elin işinin ayrı yazılması göze.
+ISTEM-32	hatırlat 8			Resim tarafı DENETIM-14.
+ISTEM-33	hatırlat 8			
+ISTEM-34	hatırlat 8			
+ISTEM-35	hatırlat 8		EVET: ara kare isteminde "Kadrajda TAM n kişi" var mı ve n, diyalogdaki o karenin satırlarında anılan kişi sayısıyla tutuyor mu — istem_kontrol.sh.	arac_el.py "TAM n kişi"yi okuyup resimdeki kişi sayısıyla karşılaştırıyor (DENETIM-28); istem tarafı yok.
+ISTEM-36	hatırlat 8			
+ISTEM-37	hatırlat 8			
+ISTEM-38	hatırlat 8			Başlıktaki Vaka 2 öyküsü Peri'ye aitti; kural bugün yalnız konuk kadınlara.
+ISTEM-39	hatırlat 8		EVET: istemde "yorgun göz" sözü varsa geçirmesin — istem_kontrol.sh.	
+ISTEM-40	hatırlat 8			
+ISTEM-41	hatırlat 8			
+ISTEM-42	hatırlat 8			
+ISTEM-43	hatırlat 8		EVET: istemde kadraj sınırı yüzdeyle ("%20") yazılmışsa bayrak — istem_kontrol.sh.	
+ISTEM-44	hatırlat 8		EVET: yeni yan karakter temelinde "saçın dış çizgisi toplu" (ya da eşarp) satırı var mı — istem_kontrol.sh.	
+ISTEM-45	program `uretim/istem_kontrol.sh` arka planda 'İnsan yok' ve tarz · hatırlat 8	uretim/istem_kontrol.sh:67-68		Mekânın zenginliği, saat — göz.
+ISTEM-46	program `uretim/istem_kontrol.sh` 'Kompozisyon:' · hatırlat 8	uretim/istem_kontrol.sh:69	EVET: referans satırında "KOMPOZİSYONUNU ALMA" var mı — istem_kontrol.sh.	'Kompozisyon:' istem bölümünde değil bütün dosyada aranıyor; Codex'e giden metinde olmayabilir.
+ISTEM-47	hatırlat 8			
+ISTEM-48	program `uretim/istem_kontrol.sh` tarz paragrafı (ara kare, detay) · hatırlat 8	uretim/istem_kontrol.sh:64		Kart afişinde tarz denetlenmiyor (ISTEM-9 adayı).
+ISTEM-49	hatırlat 8			
+ISTEM-50	program `uretim/istem_kontrol.sh` '## Kontrol' ve '## İstem' · hatırlat 8	uretim/istem_kontrol.sh:22-23		Kontrol maddelerinin içeriği göze.
+ISTEM-51	program `uretim/istem_kontrol.sh` '## Satırlar' (figürde boş değil; ara kare, detay) · hatırlat 8	uretim/istem_kontrol.sh:33-34, :63		Satırların istemle uyumu göze. İstemden önce bayrakların kapanması SATIR-10 adayı.
+ISTEM-52	program `uretim/istem_kontrol.sh` · program `uretim/dongu.sh` (geçmeyeni üretmez)	uretim/istem_kontrol.sh:83 (exit $hata); uretim/dongu.sh:38-41		Web'de (sahibinin elle) üretilen resimler döngüden geçmez; web paketine kontrol uygulanmıyor.
+ISTEM-53	hatırlat 8, 10			Tablo uretim/CLAUDE.md:223.
+ISTEM-54	hatırlat 8			
+ISTEM-55	program `uretim/istem_kontrol.sh` sigara/tütün sözü	uretim/istem_kontrol.sh:29		"kural 19a" eski numara.
+ISTEM-56	yok — Vaka 5'e özgü bir kerelik not			
+DENETIM-1	hatırlat 10		EVET: onaylanan resim (onayli/) tarz.tsv'de GEÇTİ değilse dur — arac_kapi.js resim kipi ya da onay adımı.	arac_tarz.py KALDI/ŞÜPHELİ'de çıkış 2/1 verir (:311) ama dongu.sh çıktının ilk satırını kayda yazar, çıkışa bakmaz (dongu.sh:71-73); onayı durduran yok.
+DENETIM-2	hatırlat 10			Eşikler arac_tarz.py'de; kayıt satırı DENETIM-9 adayı.
+DENETIM-3	hatırlat 10			
+DENETIM-4	hatırlat 10			
+DENETIM-5	yok — arac_tarz.py'nin iç ayarı			arac_tarz.py:171 kartta yüz kırpığı; figürde gövde.
+DENETIM-6	yok — araç bakımı, vaka üretimi değil			
+DENETIM-7	hatırlat 10		EVET: Peri/Cengo/Gizem figür ve kartı yuz.tsv'de GEÇTİ değilse dur — arac_kapi.js resim kipi.	arac_yuz.py çıkış verir (:336), dongu.sh çıkışa bakmaz (:75-77).
+DENETIM-8	hatırlat 10			Eşikler araçta.
+DENETIM-9	hatırlat 10		EVET: onayli/'deki her resmin tarz.tsv + yuz.tsv (konukta benzerlik.tsv) GEÇTİ satırı var mı — arac_kapi.js resim kipi (DENETIM-1/7/53'ün tek kapısı).	
+DENETIM-10	hatırlat 10			
+DENETIM-11	hatırlat 10			
+DENETIM-12	hatırlat 10			"kural 9" eski numara (→ DENETIM-49).
+DENETIM-13	program `kaynak/arac_kapi.js` K5 (arac_el.py --kapi) · hatırlat 10	kaynak/arac_kapi.js:212-215; kaynak/arac_el.py:165-182 (onaysız/değişmiş resim → çıkış 1)		Sağ/sol bakışı insana; kapı onay imzasını sınar. Resim kapısı yalnız Vaka 6+ ve onayli/ ya da _gorsel.md commit'inde açılır.
+DENETIM-14	hatırlat 10			
+DENETIM-15	hatırlat 10			
+DENETIM-16	hatırlat 10			
+DENETIM-17	hatırlat 10			arac_paket.js --sira saat sırasıyla numaralar (GOMME-6).
+DENETIM-18	hatırlat 10			
+DENETIM-19	hatırlat 10			Peri/Cengo/Gizem yüzü DENETIM-7 aracıyla da.
+DENETIM-20	hatırlat 10			
+DENETIM-21	hatırlat 10			
+DENETIM-22	program `kaynak/arac_kapi.js` K5 (arac_el.py el sayfası onayı) · hatırlat 10	kaynak/arac_el.py:107, :181; arac_kapi.js:212-215		Parmak sayısı, kaynaşma göze.
+DENETIM-23	hatırlat 10			
+DENETIM-24	hatırlat 10		EVET: üretilen resmin piksel boyutu türüne uyuyor mu (4:5 1122×1402, 3:4 1086×1448, 9:16 941×1672) — dongu.sh üretim sonrası (tarz/yüz yanında).	arac_paket.js yalnız UYARI basar (900×1200 değilse) ve figürü 1122×1402'ye getirir.
+DENETIM-25	hatırlat 10			
+DENETIM-26	hatırlat 10			
+DENETIM-27	hatırlat 10			
+DENETIM-28	program `kaynak/arac_kapi.js` K5 (arac_el.py kişi sayısı) · hatırlat 10	kaynak/arac_el.py:107 ("TAM n kişi" ↔ bulunan); arac_kapi.js:212-215		Onaylı (imzası tutan) resimde sayım uyarısı kapanır (arac_el.py:176-180); adı geçen herkes resimde mi göze.
+DENETIM-29	hatırlat 10			
+DENETIM-30	program `kaynak/arac_kapi.js` resim (K3, K9, K12, K13 poz kaydı) · hatırlat 10	kaynak/arac_kapi.js:189-205		Yüz, el, jestin satıra uyması göze.
+DENETIM-31	hatırlat 10			
+DENETIM-32	hatırlat 10			
+DENETIM-33	hatırlat 10			"kural 15b" eski numara.
+DENETIM-34	hatırlat 10			
+DENETIM-35	hatırlat 10			"kural 19a" eski numara.
+DENETIM-36	hatırlat 10			
+DENETIM-37	hatırlat 10	kaynak/arac_paket.js:118 (profilBul: peri/cengo/konuk)		Araç profili kendisi seçer (denetlemez, uygular); "kesim tutmazsa ret" göze.
+DENETIM-38	hatırlat 10			
+DENETIM-39	hatırlat 10			
+DENETIM-40	hatırlat 12			
+DENETIM-41	hatırlat 9			
+DENETIM-42	hatırlat 9			
+DENETIM-43	hatırlat 9			
+DENETIM-44	hatırlat 10			
+DENETIM-46	hatırlat 10			
+DENETIM-47	hatırlat 10		EVET: LISTE.md'deki her G onayli/'de mi — arac_paket.js --yaz (eksikse gömmesin; GOMME-8 "yarım set gömülmez").	
+DENETIM-48	hatırlat 10			
+DENETIM-49	hatırlat 1, 8		EVET: istem_kontrol.sh yeni karakter temelinde arac_benzerlik.js çıkış 0 değilse istemi geçirmesin	Form tarafı SEZON-26 (arac_benzerlik.js), resim tarafı DENETIM-53; istemde "benzemiyor" ISTEM-13 programla.
+DENETIM-53	hatırlat 10	kaynak/arac_benzerlik_resim.py:343 (DUR → çıkış 3), :372 (KALDI 2 / ŞÜPHELİ 1)	EVET: arac_kapi.js resim kipi onayli/'deki konuk figür/kartında benzerlik.tsv GEÇTİ satırı yoksa dursun	KURALLAR.md'deki *Uygulayıcı:* satırı aynen. Kuşku: dongu.sh (:79-81) aracı koşup çıkış kodunu yok sayıyor; "DUR → üretim durur" ve KALDI'da onayı durduran kapı yok (DENETIM-9 adayı). | ikinci göz: dongu.sh sonucu yalnız kayda yazıyor
+DENETIM-50	hatırlat 9			Sahibinin davranışı.
+DENETIM-51	hatırlat 10			
+DENETIM-52	hatırlat 13			
+GOMME-1	program `kaynak/arac_paket.js` (--eski ile --yaz durur) · program `kaynak/arac_kapi.js` K6 · hatırlat 10	kaynak/arac_paket.js:154, :192-194; arac_kapi.js:210 (kesim_yz)	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	ikinci göz: gömme commit'i resim kapısını açmıyor
+GOMME-2	yok — eski renk kesimi, yalnız karşılaştırma/kayıt			
+GOMME-3	hatırlat 10	kaynak/arac_paket.js:136-142		Araç boyutu kendisi düzeltir (uygular); ölçek (baş–etek) göze.
+GOMME-4	hatırlat 10			
+GOMME-5	hatırlat 10			arac_paket.js temas sayfası büyütülmüş baş gösterir (bilgi).
+GOMME-6	program `kaynak/arac_paket.js` (--sira sayı tutmazsa durur) · hatırlat 10	kaynak/arac_paket.js:92-103		Çoğu kullanım bilgisi.
+GOMME-7	hatırlat 10			
+GOMME-8	hatırlat 10	kaynak/arac_paket.js:220-229	EVET: yarım set gömülmesin (DENETIM-47 ile aynı denetim).	Boy, masa kartı, afiş, portre adımları göze.
+GOMME-9	program `kaynak/test_yeni_arayuz.js` (yeni) · program `kaynak/build_html.js` (eski)	kaynak/test_yeni_arayuz.js:20-33; kaynak/build_html.js:1503-1505		
+GOMME-10	hatırlat 10	kaynak/arac_kes_yz.py:79 (WEBP quality=80); arac_paket.js:159 (-quality 80)	EVET: test_yeni_arayuz.js gorseller.json'daki her dosyanın .webp olduğunu sınasın	Araç uygular, denetlemez; elle gömülen (afiş, masa kartı) dışarıda.
+GOMME-11	yok — eski oyunun bakımı			
+GOMME-12	program `kaynak/test_yeni_v2.js` künye portresi · hatırlat 10	kaynak/test_yeni_v2.js:110-116		"python3" Windows'ta "python".
+GOMME-13	hatırlat 10		EVET: game_data'daki her konuk figürünün gorseller.json → boy'da değeri var mı — test_yeni_arayuz.js (bugün arac_paket.js:217 yalnız "BOY YOK" basar).	
+GOMME-14	hatırlat 10			
+GOMME-15	hatırlat 13			
+GOMME-16	program `uretim/istem_kontrol.sh` zemin.tsv · program `kaynak/arac_zemin.py`	uretim/istem_kontrol.sh:37-52; kaynak/arac_zemin.py (seçim, --yaz → zemin.tsv)		
+GOMME-17	program `kaynak/arac_zemin.py` (KIYAFET DEĞİŞMELİ → çıkış 2, zemin.tsv yazılmaz → istem_kontrol durur) · hatırlat 8	kaynak/arac_zemin.py:95-100, :152-154; uretim/istem_kontrol.sh:49		Kıyafetin değişmesi sahibine/ortağa sorulur.
+GOMME-18	program `uretim/istem_kontrol.sh` (kıyafet zemin.tsv'de yok / yeni konuk 'açık bej') · hatırlat 8	uretim/istem_kontrol.sh:44-51		
+GOMME-19	hatırlat 10			istem_kontrol.sh "zemin denemesi" çiftini atlar (:44); dongu.sh seçilmeyen Gz'yi yeniden üretmez (:36).
+GOMME-20	hatırlat 10			
+GOMME-21	hatırlat 8, 10			test_yeni_arayuz.js:109-110 yalnız kart görselinin gömülü olduğunu sınar; Nurcan göze.
+GOMME-22	hatırlat 8			
+GOMME-23	hatırlat 8			
+GOMME-24	hatırlat 8			
+GOMME-25	hatırlat 8			
+GOMME-26	hatırlat 8			
+GOMME-27	hatırlat 10			
+GOMME-28	hatırlat 10		EVET: her yeni oyun vakasında giris_gorsel = MASA_V<N> ve gorseller.json → dosyalar.MASA_V<N> var mı — test_yeni_arayuz.js.	
+GOMME-29	hatırlat 10			

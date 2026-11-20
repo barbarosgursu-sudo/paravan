@@ -4,64 +4,522 @@
 > `say` bu dosya eskiyse hata verir. Adım numaraları `sablon/7_uretim_sureci.md` tablosudur. Her adımın sonunda bu liste
 > sahibine gösterilir; sahibi "baktım" demeden adım geçmez. Kuralın metni KURALLAR.md'de.
 
-## Adım 1 — Form doldurulur (1)
+## Adım 1 — Form doldurulur (67)
 
+- [ ] **TON-1** Oyunun özü Peri ile Cengo
+- [ ] **TON-2** Gizem gerçektir
+- [ ] **TON-3** Hafif ama bedelli
+- [ ] **TON-5** Her vaka kendi içinde kapanır
+- [ ] **TON-13** Dördüncü duvar seyrek ve yalnız Cengo
+- [ ] **KAR-1** Kanona ekleme sahibinin işidir
+- [ ] **KAR-2** Kanon kaydı: tek liste, iki katman
+- [ ] **KAR-3** Açık noktalar
+- [ ] **KAR-9** İkisi de gerekli
+- [ ] **KAR-13** Sezon boyunca planlı anlar
+- [ ] **KAR-22** Her vakada yeni kıyafet
+- [ ] **KAR-26** Sabit sezon hikâyesi
+- [ ] **KAR-27** Peri (kanon)
+- [ ] **KAR-28** Cengo (kanon)
+- [ ] **KAR-29** Cengo'nun kızı: Eylül
+- [ ] **KAR-30** Eylül'ün ailesi ve V6 çevresi
+- [ ] **KAR-31** Avukat
+- [ ] **KAR-32** Hilmi Bey
+- [ ] **KAR-33** Ev sahibi
+- [ ] **KAR-34** Gizem (yan karakter)
+- [ ] **KAR-35** Yerler
+- [ ] **KAR-36** Nesneler
+- [ ] **KAR-37** Taç
+- [ ] **KAR-38** Dünya
+- [ ] **SINIR-9** Suç olur, vahşet olmaz
+- [ ] **SINIR-11** Mavi Ay'dan yalnız yapı alınır
+- [ ] **BILGI-4** Hiçbir ipucu suçluyu tek başına göstermez (kural 21c)
+- [ ] **BILGI-12** Kim yaptı? ekranında yalnız şüphelenmek için sebebi olan kişiler
+- [ ] **YAPI-1** Vakanın akış sırası
+- [ ] **YAPI-3** İki vaka tipi; şimdilik yalnız Bilmece
+- [ ] **YAPI-4** Sabit sayılar: şüpheli, karar, süre
+- [ ] **YAPI-5** İpucu ve araştırma hakkı
+- [ ] **YAPI-7** Yanlış iz ve aklanma
+- [ ] **YAPI-8** Suçluyu kanıtlayan yollar ve kanıt çiftleri
+- [ ] **YAPI-9** Her vakada bir "aha!" anı
+- [ ] **YAPI-10** Gerçeğin zaman çizelgesi
+- [ ] **YAPI-11** Kişi tablosu: rol kontrolü (A) ve harita kontrolü (C)
+- [ ] **YAPI-12** "Kim neyi biliyor" listesi (B)
+- [ ] **YAPI-13** Kim yaptı? ekranı
+- [ ] **YAPI-19** Kovalamaca
+- [ ] **YAPI-20** Peri'nin felaketi
+- [ ] **YAPI-22** Karar: dört seçenek, doğru cevap yok, kapı yok
+- [ ] **YAPI-27** Karar tablosu (formda)
+- [ ] **YAPI-29** Her durumda en az bir dürüst seçenek
+- [ ] **YAPI-30** Kirli seçenek Peri'nin bir derdine çare olur
+- [ ] **YAPI-33** Her tutar gerçek hayata uygun
+- [ ] **YAPI-34** Her vakanın fiyat tablosu
+- [ ] **YAPI-35** Taç her yolda Vaka 7'de alınır
+- [ ] **YAPI-37** Ekonomi seçenekleri daraltır, kirletmeye zorlamaz
+- [ ] **YAPI-43** Vakalar arasında yalnız Cengo bağı ve sabit sezon hikâyesi taşınır
+- [ ] **YAPI-45** Dallanma yok
+- [ ] **SEZON-3** Doğaüstüne yaklaşanın mantıklı açıklaması olur
+- [ ] **SEZON-4** Gerçekçi + garip harmanı
+- [ ] **SEZON-5** Semt ve çevre sınırı
+- [ ] **SEZON-6** Dönen figürler aynı espriyi tekrarlamaz
+- [ ] **SEZON-7** Büroya gelen hayvan
+- [ ] **SEZON-16** Sezon tablosuyla düşünülür
+- [ ] **SEZON-17** Tahmin edilebilir tekrar olmaz
 - [ ] **SEZON-19** Konuklar birbirine benzemez
+- [ ] **SEZON-23** Vaka içinde kıyafet değişimi serbest
+- [ ] **SUREC-11** Adım 1–2: Form ve Onay 1
+- [ ] **SUREC-30** Süre ölçümü
+- [ ] **DENETIM-49** Yeni karakter eski bütün figürlerle karşılaştırılır
+- [ ] **KOD-51** Motorun yapamadığı istenmez
+- [ ] **KOD-73** Şüpheli ve Kim yaptı? yolları
+- [ ] **ARAYUZ-36** Deneme reklamı
+- [ ] **RAF-108** Bedava vakaların yazımı
 
-## Adım 2 — Onay 1: form (0)
+## Adım 2 — Onay 1: form (1)
 
-_(hatırlatma yok)_
+- [ ] **SUREC-11** Adım 1–2: Form ve Onay 1
 
-## Adım 3 — Diyalog yazılır (0)
+## Adım 3 — Diyalog yazılır (96)
 
-_(hatırlatma yok)_
+- [ ] **TON-1** Oyunun özü Peri ile Cengo
+- [ ] **TON-4** Hava ve mizah
+- [ ] **TON-6** Cengo her sahnede konuşur
+- [ ] **TON-7** Anlatıcı yok
+- [ ] **TON-8** Sahne notu yalnız o an görüleni söyler
+- [ ] **TON-9** Anlaşılır replik
+- [ ] **TON-10** Giriş uzun ve açıklayıcı yazılır
+- [ ] **TON-11** Girişte Peri–Cengo atışması
+- [ ] **TON-12** Saat "kala" ile geriye sayılmaz
+- [ ] **TON-13** Dördüncü duvar seyrek ve yalnız Cengo
+- [ ] **TON-16** Tekrar eden şaka büyür
+- [ ] **TON-22** Paravan'ın yasal durumu tekrarlanan espridir
+- [ ] **KAR-4** İsimler değişmez
+- [ ] **KAR-5** Peri'nin kişiliği
+- [ ] **KAR-7** Cengo'nun kişiliği
+- [ ] **KAR-8** Atışmanın ekseni ve kuralı
+- [ ] **KAR-10** Kavuşmazlar; yakınlık eylemdedir
+- [ ] **KAR-11** Her sahnede yan yana
+- [ ] **KAR-12** İki taraf da hisseder
+- [ ] **KAR-14** Bağın anlamı ve kademeleri
+- [ ] **KAR-15** Bağın değeri görünmez
+- [ ] **KAR-16** Bağ kapanışta iki hâlde görünür
+- [ ] **KAR-17** Sıcaklık onay değildir
+- [ ] **KAR-21** Bağ küçük adımlarla değişir ve kırılabilir
+- [ ] **KAR-27** Peri (kanon)
+- [ ] **KAR-28** Cengo (kanon)
+- [ ] **KAR-29** Cengo'nun kızı: Eylül
+- [ ] **KAR-30** Eylül'ün ailesi ve V6 çevresi
+- [ ] **KAR-31** Avukat
+- [ ] **KAR-32** Hilmi Bey
+- [ ] **KAR-33** Ev sahibi
+- [ ] **KAR-34** Gizem (yan karakter)
+- [ ] **KAR-36** Nesneler
+- [ ] **SINIR-1** Siyaset yok
+- [ ] **SINIR-2** Paravan'ın yasal durumu esprisinin sınırı
+- [ ] **SINIR-6** Kesin çizgi: çıplaklık ve cinsel eylem yok
+- [ ] **SINIR-7** Reşit olmayan hiç kimse bu çerçeveye girmez
+- [ ] **SINIR-8** Kovalamaca: Peri erotik ve gülünç; sahnede acı, tehlike, aşağılanma yok
+- [ ] **SINIR-10** Hakaretin yönü yukarıdır
+- [ ] **SINIR-11** Mavi Ay'dan yalnız yapı alınır
+- [ ] **SINIR-13** Sigara yok
+- [ ] **BILGI-2** Oyun cevabı söylemez
+- [ ] **BILGI-3** Girişte yasak olanlar
+- [ ] **BILGI-7** Anı özeti yalnız herkesin duyduğunu yazar (kural 21d)
+- [ ] **BILGI-13** Kişiyi görünür yapan bağ sahnede söylenir
+- [ ] **YAPI-6** Girişin yeri, içeriği ve bitişi
+- [ ] **YAPI-12** "Kim neyi biliyor" listesi (B)
+- [ ] **YAPI-14** Kim yaptı?'nın üç sonucu
+- [ ] **YAPI-15** Kilit açarak bulunan kanıt
+- [ ] **YAPI-16** Dört yüzleşme sahnesi
+- [ ] **YAPI-17** Panik ve kaçışın somut sebebi
+- [ ] **YAPI-18** Yüzleşmenin yeri
+- [ ] **YAPI-21** Yanlış/zayıf suçlamanın bedeli sahnede ve o vakada kalır; oyun bitmez
+- [ ] **YAPI-23** Karar sahnenin içindedir
+- [ ] **YAPI-24** Sonuç sahnede gösterilir
+- [ ] **YAPI-25** Cengo söylenmeyen doğru kanıtı söyler
+- [ ] **YAPI-30** Kirli seçenek Peri'nin bir derdine çare olur
+- [ ] **YAPI-31** Para yalnız hikâyededir (kasa yok)
+- [ ] **YAPI-32** Ücret hikâyenin parçasıdır; kesinti yok
+- [ ] **YAPI-38** Oyun oyuncuya not vermez
+- [ ] **YAPI-40** Cengo'nun yorumu gizli not olmamalı
+- [ ] **SUREC-12** Adım 3: Diyalog
+- [ ] **SATIR-1** Temel ilke: söylenen görünür, görünen söylenmiş
+- [ ] **SATIR-2** Sözleşmenin amacı, kapsamı ve nerede yakalandığı
+- [ ] **SATIR-3** SR-A Hitap
+- [ ] **SATIR-4** Ekran düzeni ve `kime` işaretleri
+- [ ] **SATIR-5** SR-G Konuk konuğa konuşursa ikisi de ekranda
+- [ ] **SATIR-6** Figürü olmayan konuşmacı
+- [ ] **SATIR-13** SR-F İpucu taşıyan eylem her zaman görünür
+- [ ] **SATIR-15** SR-I Yüz satıra uyar; bakışın yönü ve hedefi
+- [ ] **SATIR-16** Dinleyenin yüzü de satıra uyar
+- [ ] **SATIR-18** SR-K Karar karesi SONUÇ'u gösterir
+- [ ] **SATIR-19** SR-L Mekân ve olay akışı mantıklı
+- [ ] **SATIR-20** Adı geçen herkes ekranda (iki yönlü)
+- [ ] **SATIR-21** Yeni gelen: `{mekan}`, `{gir, gi}` ve yalnız gelen ekranda
+- [ ] **SATIR-22** Sahneden ayrılan ve saklanan kişi
+- [ ] **SATIR-23** Mekân ve açı çeşitliliği
+- [ ] **SATIR-24** Hareket sahneleri (kovalamaca) kareleri
+- [ ] **SATIR-25** Satır → görsel tablosu
+- [ ] **SATIR-26** Diyaloğu satır satır yazmak (adım 3)
+- [ ] **SATIR-34** İfade sözlüğü (Peri ve Cengo)
+- [ ] **SATIR-36** Cengo satırı etiketli replik olarak yazılır
+- [ ] **KOD-44** Karar alanları (16 Kasım 2026 düzeni)
+- [ ] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
+- [ ] **KOD-49** Diyaloğa yeni kare eklerken üç yer
+- [ ] **KOD-51** Motorun yapamadığı istenmez
+- [ ] **KOD-52** Sahne satırı bilgiye göre değişmez
+- [ ] **KOD-75** Karar sahnede; Cengo satırları
+- [ ] **KOD-77** Kasa yok, tohum yok, tutarlar tabloda
+- [ ] **KOD-78** Sigara yok
+- [ ] **KOD-89** Kim yaptı? kanıtları kısa adla
+- [ ] **ARAYUZ-16** Figür yerleşimi
+- [ ] **ARAYUZ-22** Seçim dallanmaz
+- [ ] **ARAYUZ-28** Telefonda yazı kutusu 4 satır
+- [ ] **ARAYUZ-32** Paylaş kartı (vaka)
+- [ ] **RAF-65** Dosyanın tamamı
 
-## Adım 4 — Veri hazırlanır (0)
+## Adım 4 — Veri hazırlanır (12)
 
-_(hatırlatma yok)_
+- [ ] **BILGI-5** İpucu adı açıktır ama fazlasını söylemez
+- [ ] **BILGI-6** Defter yalnız ara bulgu yazar (kural 21a)
+- [ ] **BILGI-8** Künye de Nurcan yüzeyidir
+- [ ] **SUREC-13** Adım 4: Veri ve künye
+- [ ] **KOD-3** Her commit'ten (ve her değişiklikten) önce
+- [ ] **KOD-6** Kapıya boru sokma
+- [ ] **KOD-12** Değiştirmeden önce ilgili teste bak
+- [ ] **KOD-36** Yeni oyun verisi ayrı; eski oyuna dokunulmaz
+- [ ] **KOD-38** Veri elle yazılmaz
+- [ ] **KOD-46** Girişte açılan olgular ve ücret alanı
+- [ ] **KOD-91** Defter ve Künye vaka başına
+- [ ] **ARAYUZ-31** Künye (Kişiler) vaka başına
 
-## Adım 5 — Görselsiz oyun turu (0)
+## Adım 5 — Görselsiz oyun turu (33)
 
-_(hatırlatma yok)_
+- [ ] **TON-8** Sahne notu yalnız o an görüleni söyler
+- [ ] **TON-9** Anlaşılır replik
+- [ ] **TON-10** Giriş uzun ve açıklayıcı yazılır
+- [ ] **TON-12** Saat "kala" ile geriye sayılmaz
+- [ ] **TON-14** Bulanık replik taraması: anlam soruları
+- [ ] **TON-15** Espri açıklanmaz, kurulumu önce gelir
+- [ ] **TON-16** Tekrar eden şaka büyür
+- [ ] **SINIR-10** Hakaretin yönü yukarıdır
+- [ ] **SINIR-12** Benzerlik denetimi (Mavi Ay ve başka eserler)
+- [ ] **BILGI-1** Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz
+- [ ] **BILGI-6** Defter yalnız ara bulgu yazar (kural 21a)
+- [ ] **BILGI-9** Zincir defteri: yalnız hak edilmiş düğüm çizilir
+- [ ] **BILGI-22** Onarım: geri çekme, ekleme kadar iş görür
+- [ ] **BILGI-23** Bir sızıntı bulunca kardeşlerini ara
+- [ ] **YAPI-17** Panik ve kaçışın somut sebebi
+- [ ] **YAPI-25** Cengo söylenmeyen doğru kanıtı söyler
+- [ ] **YAPI-26** "Dosya kapandı" kartı
+- [ ] **YAPI-34** Her vakanın fiyat tablosu
+- [ ] **YAPI-38** Oyun oyuncuya not vermez
+- [ ] **SUREC-14** Adım 5: Görselsiz oyun turu ve üç tarama
+- [ ] **SUREC-15** Bulanık replik taraması
+- [ ] **SUREC-27** Sızıntı taraması
+- [ ] **SATIR-10** SR-E Bayrak kapıdır
+- [ ] **SATIR-12** SR-M8 Hikâye donmadan önce satır–resim aracı (adım 5)
+- [ ] **KOD-25** Önce motora sor, sonra inan
+- [ ] **KOD-26** Kendi aracına da şüpheyle bak
+- [ ] **KOD-33** Ortağın bilgisayarı ve ilk kurulum
+- [ ] **KOD-58** K5 — Belirsizlik (Ceyda koruması), uyarı
+- [ ] **KOD-59** K6 ve K7 — Bütçe ve seçim baskısı
+- [ ] **KOD-72** Doğrulayıcının kapsamı dışı (insanda kalır)
+- [ ] **KOD-74** Defter ve sızıntı denetimi
+- [ ] **KOD-76** Anı özeti zorunlu
+- [ ] **KOD-90** "Dosya kapandı" ve suçlama sonrası metinler Nurcan yüzeyidir
 
-## Adım 6 — Onay 2 (0)
+## Adım 6 — Onay 2 (9)
 
-_(hatırlatma yok)_
+- [ ] **TON-2** Gizem gerçektir
+- [ ] **KAR-8** Atışmanın ekseni ve kuralı
+- [ ] **BILGI-3** Girişte yasak olanlar
+- [ ] **YAPI-40** Cengo'nun yorumu gizli not olmamalı
+- [ ] **SUREC-3** Sahibinin söylediği kural yazıya geçer
+- [ ] **SUREC-16** Adım 6: Onay 2 — görselsiz test
+- [ ] **SUREC-28** Değişiklik kuralı: doğru yerden başla
+- [ ] **SUREC-35** Ortağa cevap: diyalog dosyasının satır numarası
+- [ ] **KOD-68** K17 — Giriş denetimi
 
-## Adım 7 — Hikâye düzeltmeleri (0)
+## Adım 7 — Hikâye düzeltmeleri (4)
 
-_(hatırlatma yok)_
+- [ ] **BILGI-22** Onarım: geri çekme, ekleme kadar iş görür
+- [ ] **SUREC-17** Adım 7: Hikâye donar
+- [ ] **SUREC-29** Değişiklik nereye yazılır (veri yolu)
+- [ ] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
 
-## Adım 8 — Görsel listesi ve promptlar + iş sayfası (0)
+## Adım 8 — Görsel listesi ve promptlar + iş sayfası (100)
 
-_(hatırlatma yok)_
+- [ ] **TON-21** Görsel ton: gün ışığı ve kalabalık
+- [ ] **KAR-1** Kanona ekleme sahibinin işidir
+- [ ] **KAR-6** Peri her zaman en gösterişli kadındır
+- [ ] **KAR-22** Her vakada yeni kıyafet
+- [ ] **KAR-23** Karakter sabitleri (her istemde yazılır, her denetimde aranır)
+- [ ] **KAR-24** Cengo'nun görünüşü
+- [ ] **KAR-25** Mekân sabiti: büro kapısı
+- [ ] **KAR-35** Yerler
+- [ ] **SINIR-3** Çekicilik seviyesi (Peri)
+- [ ] **SINIR-5** Dekolte felaket sahnesinde de bozulmaz
+- [ ] **SINIR-7** Reşit olmayan hiç kimse bu çerçeveye girmez
+- [ ] **SINIR-8** Kovalamaca: Peri erotik ve gülünç; sahnede acı, tehlike, aşağılanma yok
+- [ ] **BILGI-14** Kart afişi: şüpheliler eşit
+- [ ] **BILGI-15** Kart afişi: figürdeki ipuçları nötrlenir
+- [ ] **BILGI-16** Kart afişi: yasak nesneler adıyla sayılır
+- [ ] **BILGI-17** Görsel, bağlı ipucunun açtığından fazlasını gösteremez
+- [ ] **BILGI-19** Görsel eksik gösterebilir, YANLIŞ gösteremez (§7c)
+- [ ] **BILGI-20** Pratik kural: yüzü kapat, boş yüz isteme
+- [ ] **YAPI-19** Kovalamaca
+- [ ] **YAPI-20** Peri'nin felaketi
+- [ ] **SEZON-26** Konuk benzerliği — üretimden önce, yazıda (program)
+- [ ] **SEZON-20** Arka planda aynı kurgu tekrar etmez
+- [ ] **SEZON-21** Yeni mekân eski vakaların resimlerine benzemez
+- [ ] **SUREC-18** Görseller hikâye donduktan sonra; liste formdan
+- [ ] **SUREC-19** Adım 8: Görsel listesi ve istemler
+- [ ] **SUREC-20** Görsel iş sayfası
+- [ ] **SUREC-32** Resim üretim döngüsü (Codex + yerel Claude)
+- [ ] **SUREC-33** Resim oturumunda okunacaklar
+- [ ] **SATIR-2** Sözleşmenin amacı, kapsamı ve nerede yakalandığı
+- [ ] **SATIR-7** SR-B Süreklilik ve kıyafet hâli tablosu
+- [ ] **SATIR-8** SR-C Kıyafet kartı (satır tarafı)
+- [ ] **SATIR-9** SR-D Resim metne bağlı: nesne satırda başlar, satırda biter
+- [ ] **SATIR-17** SR-J Her ifade kardeşlerinden ayırt edilir
+- [ ] **SATIR-18** SR-K Karar karesi SONUÇ'u gösterir
+- [ ] **SATIR-22** Sahneden ayrılan ve saklanan kişi
+- [ ] **SATIR-23** Mekân ve açı çeşitliliği
+- [ ] **SATIR-24** Hareket sahneleri (kovalamaca) kareleri
+- [ ] **SATIR-28** Satır–resim uyumu zorunlu: dört aşama
+- [ ] **SATIR-35** Yalnız satırların istediği ifade ve poz üretilir
+- [ ] **ISTEM-1** Kalıp dosyası zorunlu; ezberden yazılmaz
+- [ ] **ISTEM-2** Sıra: temeller önce
+- [ ] **ISTEM-3** Görsel türleri ve boyutları
+- [ ] **ISTEM-5** Figür kadrajı (H1) ve figür sabitleri
+- [ ] **ISTEM-8** Prompt kalıbının sırası
+- [ ] **ISTEM-9** Tarz paragrafı: metni ve nereye yazıldığı
+- [ ] **ISTEM-10** Tarz örneği cümlesi (§3)
+- [ ] **ISTEM-11** Peri / Cengo temeli (yeni kıyafet)
+- [ ] **ISTEM-12** Yeni (yan) karakter temeli
+- [ ] **ISTEM-13** Birbirine benzeyebilecek karakterler: "X'e benzemiyor"
+- [ ] **ISTEM-14** Varyant (aynı karakter, başka ifade)
+- [ ] **ISTEM-15** Referans verme biçimi
+- [ ] **ISTEM-16** Referanslarda dekolte yok — zorunlu
+- [ ] **ISTEM-17** Kıyafet kartının istemi
+- [ ] **ISTEM-19** Kartı referans alan istem
+- [ ] **ISTEM-20** Karakter sabitleri her istemde
+- [ ] **ISTEM-21** Peri'nin çekicilik satırı ve dekoltesi
+- [ ] **ISTEM-22** "Kalın, mat kumaş" satırı yalnız Gizem'de; göğsü örten poz
+- [ ] **ISTEM-23** Islaklık yalnız üst giyside
+- [ ] **ISTEM-24** Fiziksel komedi / riskli kare satırı
+- [ ] **ISTEM-28** Yazı yasağı ve nesneye özgü yazısızlık
+- [ ] **ISTEM-29** Nesneler tek tek sayılır; yasaklar adıyla
+- [ ] **ISTEM-30** "Görünmesin" yazılmaz; kadraj dışında bırakılır
+- [ ] **ISTEM-31** Tam iki kol, iki el; her el ayrı
+- [ ] **ISTEM-32** Nesne tutan el (§12)
+- [ ] **ISTEM-33** Sayı kayarsa
+- [ ] **ISTEM-34** Pencereden İstanbul
+- [ ] **ISTEM-35** Kalabalık kare
+- [ ] **ISTEM-36** Kim kimi görüyor
+- [ ] **ISTEM-37** Detay karede elin sahibinin kıyafeti
+- [ ] **ISTEM-38** Çorap
+- [ ] **ISTEM-39** Yorgun göz
+- [ ] **ISTEM-40** Unlu ya da kirli karakter
+- [ ] **ISTEM-41** Işık ve saat
+- [ ] **ISTEM-42** Konum ve fizik
+- [ ] **ISTEM-43** Kadraj sınırı yüzdeyle değil görsel tarifle
+- [ ] **ISTEM-44** Saç toplu satırı (yan karakter); Peri ve Cengo istisna
+- [ ] **ISTEM-45** Arka plan (mekân) istemi
+- [ ] **ISTEM-46** Mekân kompozisyonu tekrar etmez (§7a)
+- [ ] **ISTEM-47** Duvardaki portre/afiş
+- [ ] **ISTEM-48** Ara kare, detay, kart afişi
+- [ ] **ISTEM-49** Boya dokusu yüzde, kumaş pürüzsüz
+- [ ] **ISTEM-50** Kontrol bölümü
+- [ ] **ISTEM-51** `## Satırlar` bölümü
+- [ ] **ISTEM-53** Vaka 3 dersleri istemde baştan uygulanır
+- [ ] **ISTEM-54** İfade ızgarası yok
+- [ ] **DENETIM-49** Yeni karakter eski bütün figürlerle karşılaştırılır
+- [ ] **GOMME-17** İki zemin de riskliyse kıyafet değişir
+- [ ] **GOMME-18** Zemin seçiminin zamanı: Peri/Cengo ve konuk
+- [ ] **GOMME-21** Kart afişi: genel
+- [ ] **GOMME-22** Kart afişi: kadro
+- [ ] **GOMME-23** Kart afişi: hareketli ve eğlenceli
+- [ ] **GOMME-24** Kart afişi: zemin satırı şart
+- [ ] **GOMME-25** Kart afişi: düzen
+- [ ] **GOMME-26** Kart afişi: referanslar (5)
+- [ ] **CODEX-4** Referans yalnız `referanslar/` ve `onayli/`'den
+- [ ] **CODEX-20** Komut `istemleri hazırla <N>`
+- [ ] **CODEX-21** Liste oyunla eşleşir (zorunlu)
+- [ ] **ARAYUZ-6** Yeni ekran / yeni arka plan uyarısı
+- [ ] **ARAYUZ-25** Hareket yok
+- [ ] **ARAYUZ-32** Paylaş kartı (vaka)
 
-## Adım 9 — Görseller üretilir (0)
+## Adım 9 — Görseller üretilir (15)
 
-_(hatırlatma yok)_
+- [ ] **SUREC-21** Adım 9–10: Üretim ve toplu işleme
+- [ ] **SUREC-22** Temel görsel önce, türevler onaydan sonra
+- [ ] **SUREC-32** Resim üretim döngüsü (Codex + yerel Claude)
+- [ ] **ISTEM-25** Üretici reddederse
+- [ ] **ISTEM-26** Filtre sınırda: iki deneme kuralı ve sebep arama yöntemi
+- [ ] **DENETIM-41** Takılan temel hemen sahibine
+- [ ] **DENETIM-42** Filtreye iki kez takılan resim web listesine
+- [ ] **DENETIM-43** Web paketi
+- [ ] **DENETIM-50** Görsel sorunu anında söylenir
+- [ ] **CODEX-2** Codex'in projesi tam vaka klasörü, yeni sohbetle başlar
+- [ ] **CODEX-13** Codex yavaşlarsa kayıt dosyasının sahibine/iznine bak
+- [ ] **CODEX-19** Oturum başı: bilgisayar hazır mı
+- [ ] **CODEX-22** Döngüyü başlatma, çalıştırma, durdurma (`dongu.sh`)
+- [ ] **CODEX-24** Döngü çalışırken yerel Claude'un işi
+- [ ] **KOD-33** Ortağın bilgisayarı ve ilk kurulum
 
-## Adım 10 — Kontrol, kesim, yerleştirme (1)
+## Adım 10 — Kontrol, kesim, yerleştirme (93)
 
+- [ ] **KAR-6** Peri her zaman en gösterişli kadındır
+- [ ] **KAR-10** Kavuşmazlar; yakınlık eylemdedir
+- [ ] **KAR-23** Karakter sabitleri (her istemde yazılır, her denetimde aranır)
+- [ ] **KAR-24** Cengo'nun görünüşü
+- [ ] **KAR-25** Mekân sabiti: büro kapısı
+- [ ] **SINIR-3** Çekicilik seviyesi (Peri)
+- [ ] **SINIR-5** Dekolte felaket sahnesinde de bozulmaz
+- [ ] **SINIR-6** Kesin çizgi: çıplaklık ve cinsel eylem yok
+- [ ] **SINIR-13** Sigara yok
+- [ ] **BILGI-17** Görsel, bağlı ipucunun açtığından fazlasını gösteremez
+- [ ] **BILGI-18** Görsel için doğrulayıcı eki (Kural 1 genişletme)
+- [ ] **BILGI-19** Görsel eksik gösterebilir, YANLIŞ gösteremez (§7c)
+- [ ] **BILGI-20** Pratik kural: yüzü kapat, boş yüz isteme
 - [ ] **SEZON-19** Konuklar birbirine benzemez
+- [ ] **SEZON-20** Arka planda aynı kurgu tekrar etmez
+- [ ] **SEZON-21** Yeni mekân eski vakaların resimlerine benzemez
+- [ ] **SUREC-21** Adım 9–10: Üretim ve toplu işleme
+- [ ] **SATIR-11** SR-M Bayraklar kuralla kapanır, onaylı sözler değişmez
+- [ ] **SATIR-15** SR-I Yüz satıra uyar; bakışın yönü ve hedefi
+- [ ] **SATIR-17** SR-J Her ifade kardeşlerinden ayırt edilir
+- [ ] **SATIR-32** Yer ve zaman
+- [ ] **SATIR-38** Kapı K3: yönelen pozun hedefi karşıda
+- [ ] **SATIR-40** Kapı K11: figürler üst üste binmez
+- [ ] **SATIR-41** Kapı K12: konuşur gibi poz yalnız konuşanda
+- [ ] **SATIR-42** Kapı K13: metnin söylediği görünüş figürde
+- [ ] **ISTEM-53** Vaka 3 dersleri istemde baştan uygulanır
+- [ ] **DENETIM-1** Tarz denetimi yazılımla, her resimde gözden önce
+- [ ] **DENETIM-2** Tarz sonucunun üç hâli
+- [ ] **DENETIM-3** Sahibine yalnız GEÇTİ olanlar gider; tarz çapası
+- [ ] **DENETIM-4** Tarz aracının kör noktası
+- [ ] **DENETIM-7** Yüz (kimlik) denetimi yazılımla — Peri, Cengo, Gizem
+- [ ] **DENETIM-8** Yüz eşikleri (figür ve kart)
+- [ ] **DENETIM-9** İki aracın sonucu da kayda yazılır
+- [ ] **DENETIM-10** Karede yüz aracı kapı değildir
+- [ ] **DENETIM-11** Yüz aracının bilinen sınırı
+- [ ] **DENETIM-12** Konuğun yüz denetimi
+- [ ] **DENETIM-13** El denetimi — kişi görünen her resimde, onayı sahibi verir
+- [ ] **DENETIM-14** Nesne tutan el: zorunlu yakın bakış
+- [ ] **DENETIM-15** Önce bütün, sonra büyüt
+- [ ] **DENETIM-16** Temas sayfası
+- [ ] **DENETIM-17** Gelen resmin numarası resimden doğrulanır
+- [ ] **DENETIM-18** Kontrol satırı önce
+- [ ] **DENETIM-19** Kimlik
+- [ ] **DENETIM-20** Karakter sabitleri
+- [ ] **DENETIM-21** Yüz yönü ve bakış
+- [ ] **DENETIM-22** Eller ve kollar (göz)
+- [ ] **DENETIM-23** İstemde olmayan nesne ve yazı yok
+- [ ] **DENETIM-24** Kadraj, oran, ölçek ve zemin
+- [ ] **DENETIM-25** Tarz gözle
+- [ ] **DENETIM-26** Çıplaklık yok
+- [ ] **DENETIM-27** Fiziksel olabilirlik
+- [ ] **DENETIM-28** Sayım ve adı geçen herkes
+- [ ] **DENETIM-29** Mantık, mekân ve hikâye
+- [ ] **DENETIM-30** Satırlarla uyum
+- [ ] **DENETIM-31** Kıyafet kartına uyum ve kumaş yüzeyi
+- [ ] **DENETIM-32** Kardeş resimlerle ayrışma
+- [ ] **DENETIM-33** Çekicilik seviyesi
+- [ ] **DENETIM-34** Nurcan: hak edilmemiş bilgi
+- [ ] **DENETIM-35** Sigara ve duman
+- [ ] **DENETIM-36** Oyunda yan yana denetim
+- [ ] **DENETIM-37** Kesim profili
+- [ ] **DENETIM-38** Onay
+- [ ] **DENETIM-39** Ret ve düzeltme notu
+- [ ] **DENETIM-44** Web'den gelen resim reddedilirse
+- [ ] **DENETIM-46** Sondaki rapor
+- [ ] **DENETIM-47** Vaka sonunda sayım
+- [ ] **DENETIM-48** Kartlar birlikte onaylanır; kart değişirse sorulur
+- [ ] **DENETIM-53** Konuk benzerliği — üretimden sonra, resimde (program)
+- [ ] **DENETIM-51** Tutarlılık sorunu "beğeni" diye geçilmez
+- [ ] **GOMME-1** Figür kesimi yapay zekâyla (tek yöntem)
+- [ ] **GOMME-3** Görsel boyutu ve ölçeği
+- [ ] **GOMME-4** Kesimde kaybolan ya da kalan zemin
+- [ ] **GOMME-5** Saç kenarı (hale) denetimi
+- [ ] **GOMME-6** Paket aracı ve toplu işleme
+- [ ] **GOMME-7** Sahibine göndermeden önce teknik denetim
+- [ ] **GOMME-8** `göm` komutu
+- [ ] **GOMME-10** Biçim: WebP q80
+- [ ] **GOMME-12** Künye portresi
+- [ ] **GOMME-13** Boy — resim değil, tablo belirler
+- [ ] **GOMME-14** Uzanan kol, elde nesne
+- [ ] **GOMME-19** Zemin denemesi
+- [ ] **GOMME-20** Aynı zemin, renk düzeltmesi yok; kesim profili yalnız çerçeve
+- [ ] **GOMME-21** Kart afişi: genel
+- [ ] **GOMME-27** Kart afişi: gömme ve kontrol
+- [ ] **GOMME-28** Masa kartı (Ajansın Masası, vaka seçme)
+- [ ] **GOMME-29** Görsel standardın amacı: oyunda yan yana
+- [ ] **CODEX-16** Resme yazı, filigran, imza yok
+- [ ] **CODEX-17** Resim dosyası PNG, onaylı resim silinmez
+- [ ] **CODEX-24** Döngü çalışırken yerel Claude'un işi
+- [ ] **CODEX-25** Yerel Claude resim üretmez, istem metnini değiştirmez
+- [ ] **KOD-79** Satır–görsel denetimleri
+- [ ] **ARAYUZ-26** Figür boyu sabit
+- [ ] **RAF-35** Resimde yazı yok, yazı tipleri
 
-## Adım 11 — Görselli oyun turu (0)
+## Adım 11 — Görselli oyun turu (13)
 
-_(hatırlatma yok)_
+- [ ] **SUREC-24** Adım 11: Görselli oyun turu
+- [ ] **SATIR-7** SR-B Süreklilik ve kıyafet hâli tablosu
+- [ ] **SATIR-28** Satır–resim uyumu zorunlu: dört aşama
+- [ ] **SATIR-30** Gömmeden sonra
+- [ ] **SATIR-31** Görsel–metin uyum denetimi (adım 11, Onay 3'ten önce)
+- [ ] **SATIR-32** Yer ve zaman
+- [ ] **SATIR-33** Görünürlük: el, jest, nesne kenardan taşmaz
+- [ ] **KOD-23** Tarayıcı turu her şeyi görmez
+- [ ] **KOD-25** Önce motora sor, sonra inan
+- [ ] **KOD-27** arac_yeni_tur.js (yeni oyun turu)
+- [ ] **KOD-28** --hepsi: her satırın görüntüsü ve adı geçen kişiler
+- [ ] **KOD-29** --tablet
+- [ ] **KOD-30** --cihaz (19 ekran boyu)
 
-## Adım 12 — Onay 3 (0)
+## Adım 12 — Onay 3 (4)
 
-_(hatırlatma yok)_
+- [ ] **SUREC-3** Sahibinin söylediği kural yazıya geçer
+- [ ] **SUREC-25** Adım 12–13: Onay 3 ve görsel düzeltmeleri
+- [ ] **SUREC-28** Değişiklik kuralı: doğru yerden başla
+- [ ] **DENETIM-40** Sahibi onaylı resimde hata bulursa
 
-## Adım 13 — Görsel düzeltmeleri (0)
+## Adım 13 — Görsel düzeltmeleri (3)
 
-_(hatırlatma yok)_
+- [ ] **SUREC-25** Adım 12–13: Onay 3 ve görsel düzeltmeleri
+- [ ] **DENETIM-52** Rötuşun sınırı
+- [ ] **GOMME-15** Marka/yazı rötuşu
 
-## Adım 14 — Vaka donar (0)
+## Adım 14 — Vaka donar (7)
 
-_(hatırlatma yok)_
+- [ ] **BILGI-1** Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz
+- [ ] **BILGI-23** Bir sızıntı bulunca kardeşlerini ara
+- [ ] **SUREC-26** Adım 14: Vaka donar
+- [ ] **SUREC-27** Sızıntı taraması
+- [ ] **KOD-3** Her commit'ten (ve her değişiklikten) önce
+- [ ] **KOD-29** --tablet
+- [ ] **KOD-30** --cihaz (19 ekran boyu)
 
 ## Programın uyguladığı kurallar (bilgi; bunlar sahibine sorulmaz, program durdurur)
 
-- `kaynak/arac_benzerlik.js`: SEZON-19, SEZON-26
-- `kaynak/arac_benzerlik_resim.py`: SEZON-19, DENETIM-53
+- `.claude/kapi_hook.js`: SUREC-10, KOD-35
+- `kaynak/arac_diyalog.js`: BILGI-7, YAPI-25, KOD-76, RAF-65
+- `kaynak/arac_kapi.js`: SUREC-10, SUREC-12, SUREC-14, SUREC-19, SUREC-24, SATIR-1, SATIR-3, SATIR-4, SATIR-5, SATIR-9, SATIR-10, SATIR-11, SATIR-12, SATIR-13, SATIR-15, SATIR-16, SATIR-19, SATIR-20, SATIR-21, SATIR-28, SATIR-30, SATIR-31, SATIR-37, SATIR-38, SATIR-39, SATIR-40, SATIR-41, SATIR-42, DENETIM-13, DENETIM-22, DENETIM-28, DENETIM-30, GOMME-1, CODEX-24, KOD-1, KOD-3, KOD-27, KOD-28, KOD-35, KOD-36, KOD-39, KOD-75, KOD-79
+- `kaynak/arac_paket.js`: GOMME-1, GOMME-6
+- `kaynak/arac_shorts.js`: SHORTS-8, SHORTS-9, SHORTS-10, SHORTS-11, SHORTS-12, SHORTS-17, SHORTS-26
+- `kaynak/arac_sizinti_tur.js`: BILGI-1, BILGI-9, SUREC-26, SUREC-27, KOD-74, KOD-90
+- `kaynak/arac_yeni_tur.js`: KOD-75
+- `kaynak/arac_zemin.py`: GOMME-16, GOMME-17
+- `kaynak/build_html.js`: GOMME-9, KOD-14, KOD-16
+- `kaynak/dogrulayici.js`: TON-10, KAR-16, BILGI-1, BILGI-3, BILGI-4, BILGI-5, BILGI-8, BILGI-12, YAPI-1, YAPI-4, YAPI-5, YAPI-6, YAPI-8, YAPI-13, YAPI-14, YAPI-16, YAPI-21, YAPI-22, YAPI-26, YAPI-32, YAPI-43, YAPI-44, SUREC-13, CODEX-21, KOD-4, KOD-5, KOD-37, KOD-40, KOD-41, KOD-42, KOD-43, KOD-45, KOD-46, KOD-49, KOD-54, KOD-55, KOD-56, KOD-57, KOD-59, KOD-62, KOD-63, KOD-64, KOD-65, KOD-66, KOD-67, KOD-68, KOD-69, KOD-70, KOD-73, KOD-77, KOD-89, ARAYUZ-10, RAF-46, RAF-52
+- `kaynak/test_ses.js`: KOD-17, KOD-18
+- `kaynak/test_yeni_arayuz.js`: BILGI-7, GOMME-9, CODEX-21, KOD-16, KOD-39, KOD-48, KOD-49, KOD-76, ARAYUZ-32
+- `kaynak/test_yeni_kimyapti.js`: KAR-16, YAPI-25, YAPI-26, KOD-73, KOD-90
+- `kaynak/test_yeni_v1.js`: KOD-43
+- `kaynak/test_yeni_v2.js`: BILGI-12, YAPI-5, YAPI-8, YAPI-13, GOMME-12, KOD-80, KOD-91, ARAYUZ-31, ARAYUZ-36
 - `sablon/kurallar/arac_uygulayici.js`: SUREC-43
+- `uretim/dongu.sh`: ISTEM-52, CODEX-7
+- `uretim/istem_kontrol.sh`: SINIR-6, SINIR-13, SUREC-19, SATIR-8, ISTEM-4, ISTEM-6, ISTEM-7, ISTEM-9, ISTEM-10, ISTEM-11, ISTEM-13, ISTEM-15, ISTEM-16, ISTEM-17, ISTEM-19, ISTEM-27, ISTEM-28, ISTEM-31, ISTEM-45, ISTEM-46, ISTEM-48, ISTEM-50, ISTEM-51, ISTEM-52, ISTEM-55, GOMME-16, GOMME-18, CODEX-16, KOD-78, RAF-35

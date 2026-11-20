@@ -1,0 +1,19 @@
+kod	uygulayici	aday	not
+DENETIM-53	hatırlat 10	EVET: arac_kapi.js resim kipi onayli/'deki konuk figür/kartında benzerlik.tsv GEÇTİ satırı yoksa dursun	dongu.sh sonucu yalnız kayda yazıyor
+SEZON-26	hatırlat 8	EVET: istem_kontrol.sh yeni konuk temelinde arac_benzerlik.js çıkış 0 değilse istemi geçirmesin	aracı hiçbir kapı çağırmıyor
+SATIR-11	program `kaynak/arac_kapi.js` satır–resim İŞ=0 · hatırlat 10	EVET: arac_soz_farki.js kapıda çağrılsın	arac_soz_farki.js hiçbir yerde çağrılmıyor
+ISTEM-3	hatırlat 8		boyut sütununun anlamı karışık (gömme/üretim)
+ISTEM-13	+hatırlat 8		
+ISTEM-50	+hatırlat 8		
+GOMME-8	hatırlat 10		
+GOMME-10	hatırlat 10	EVET: test_yeni_arayuz.js gorseller.json'daki her dosyanın .webp olduğunu sınasın	
+DENETIM-37	hatırlat 10		
+GOMME-3	hatırlat 10		
+SATIR-38	+hatırlat 10	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	gömme commit'i resim kapısını açmıyor
+SATIR-40	+hatırlat 10	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	gömme commit'i resim kapısını açmıyor
+SATIR-41	+hatırlat 10	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	gömme commit'i resim kapısını açmıyor
+SATIR-42	+hatırlat 10	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	gömme commit'i resim kapısını açmıyor
+GOMME-1	+hatırlat 10	EVET: kapi_hook.js vakanın yeni_gorsel/ ya da gorseller.json değişikliğinde de resim kapısını açsın	gömme commit'i resim kapısını açmıyor
+SATIR-16	+hatırlat 3		
+SATIR-20	+hatırlat 3		
+DENETIM-49		EVET: istem_kontrol.sh yeni karakter temelinde arac_benzerlik.js çıkış 0 değilse istemi geçirmesin	

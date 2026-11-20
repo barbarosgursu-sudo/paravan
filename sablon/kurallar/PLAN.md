@@ -4,7 +4,28 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
-> ## ▶️▶️ YENİ PENCERE: ADIM 4 BURADAN BAŞLAR (güncel: 20 Kasım 2026 gece)
+> ## ▶️▶️ ADIM 4 SÜRÜYOR (20 Kasım 2026 gece, sahibi biçimi onayladı: "Evet, başla")
+> **Biten (`b262e87`):** benzerlik kuralları SEZON-26 (yazı) + DENETIM-53 (resim); biçim `*Uygulayıcı:* program \`…\` | hatırlat <adım> |
+> yok — <sebep>` (parçalar ` · `); araç `sablon/kurallar/arac_uygulayici.js say|yaz|adim <n>`; liste `HATIRLATMA.md` (programla);
+> SUREC-43 (her adım listeyle kapanır; `7_uretim_sureci.md`'ye bağlı). Yeni kural `*Kaynak:* yeni karar …` der (`say` kaynaksız saymaz).
+> **Biten (2. commit):** 667 kuralın HEPSİNE uygulayıcı yazıldı — program 158, talimat 14 (Codex: `uretim/AGENTS.md` kodu anmalı,
+> araç denetler), hatırlat 374, yok 229; `say` artık eksik uygulayıcıyı HATA sayar. Yol: 4 ajan `adim4/uyg_*.tsv` (TALIMAT.md) →
+> 4 ikinci göz `adim4/denetim_*.md` (53 bulgu; hepsi kabul, `adim4/duzeltme_*_islendi.tsv`) → `adim4/uygula.js --yaz`.
+> Yeni tür: `talimat`. "Program" yalnız gerçekten DURDURAN (ikinci göz abartılı program satırlarını hatırlat'a indirdi).
+> **Sahibine sorulacak (sırayla, sade):**
+> 1. Adım 3, 8, 10'un listeleri ~100 madde (1: 67) — "kısa liste" değil. Öneri: o adımları Claude yapıyor; Claude her maddeye
+>    bakar, sahibine yalnız "uymayan / emin olmadığım" maddeler gider. Sahibinin kendi adımları (2, 6, 12) zaten kısa (1, 9, 4).
+> 2. Bugün durdurmayan programlar (ikinci gözün en önemli bulgusu): testler commit'te koşmuyor (kapı yalnız Claude Code hook'u, V6+);
+>    döngü tarz/yüz/benzerlik sonucuna bakmıyor; `arac_benzerlik.js`'i hiçbir şey çağırmıyor; gömme commit'i resim kapısını açmıyor;
+>    `arac_soz_farki.js` hiçbir yerde. Öneri: bu beşini bağla (kod işi; onayla).
+> 3. 103 "aday" (yazılabilecek yeni denetim; `adim4/uyg_*.tsv` `aday` sütunu) — hangileri, hangi sırayla.
+> 4. Çelişkiler: RAF-5 (~10–15 dk) ↔ YAPI-4 (15–25 dk); `test_yeni_v2.js:62-69` kasa döneminden iki denetim (YAPI-31); KOD-33 `py` ↔
+>    `dongu.sh`/`arac_kapi.js` `python`; KOD-51 arşivdeki belgeye yazdırıyor; ISTEM-1 arşivdeki kalıbı gösteriyor; KOD-21 ↔ `alert()`;
+>    DENETIM-24 "%20" ↔ ISTEM-43 "yüzdeyle yazılmaz"; eski kural numaraları (SATIR-2, 18, ISTEM-8, 55, DENETIM-12, 13); `arac_satir_resim.js`
+>    SOR sınıfını hiç atamıyor. Yeni oyunda boşa dönen denetimler: K1 görsel (`gosterir` yok), `test_tahta.js`, `test_yeni_kimyapti.js` (yalnız V1).
+> 5. Eski açıklar (aşağıda): kanon ↔ KAR, KOD-78 sigara, §7 soru 6–7, üç küçük soru.
+>
+> ## (Eski başlık) YENİ PENCERE: ADIM 4 BURADAN BAŞLAR (güncel: 20 Kasım 2026 gece)
 > **Durum:** Adım 1–3 BİTTİ, hepsi `main`'de (son commit'ler `f7f6df7` + `35275f6`). Bütün kurallar `sablon/kurallar/KURALLAR.md`'de
 > (664 asıl kural + 23 "→ ANA" yönlenen kod; başlıklar `#### KOD-n`). 12 eski kural belgesi `arsiv/`'de (silinmedi). Yaşayan belgeler
 > kural yazmaz, kod anar. Hâlâ geçerli: ÖNCE KURALLAR, ÜRETİM YOK (aşağıdaki kutu) — Adım 4 bitince üretime dönülür.

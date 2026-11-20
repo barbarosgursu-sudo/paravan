@@ -1,0 +1,151 @@
+kod	uygulayici	kanit	aday	not
+CODEX-1	talimat `uretim/AGENTS.md`			Codex'in talimatı; uretim/AGENTS.md başında yazılı, Codex her çağrıda okur
+CODEX-2	hatırlat 9			yerel Claude döngüde codex exec'i vaka klasöründe çalıştırır (dongu.sh cd v$N); elle Codex açılırsa geçerli
+CODEX-3	talimat `uretim/AGENTS.md`			AGENTS.md tablosu; Codex uygular
+CODEX-4	talimat `uretim/AGENTS.md` · hatırlat 8		EVET: istem_kontrol.sh Referanslar listesinde `uretilen/` ya da `red/` yolu varsa durdursun	dongu.sh yalnız referans dosyasının VAR olduğuna bakar, hangi klasörden geldiğine bakmaz
+CODEX-5	talimat `uretim/AGENTS.md`		EVET: dongu.sh her Codex çağrısından sonra `git status` ile vaka klasörü dışında değişiklik var mı baksın	AGENTS.md'de yazılı
+CODEX-6	talimat `uretim/AGENTS.md`			dongu.sh gezme sırasını kendi yapıyor (uretilebilir → sort -n); Codex'e tek G verir
+CODEX-7	program `uretim/dongu.sh` uretilebilir() · talimat `uretim/AGENTS.md`	uretim/dongu.sh:33,37,43		elle `codex exec` ile üretimde yalnız AGENTS.md
+CODEX-8	talimat `uretim/AGENTS.md`		EVET: dongu.sh kayıttaki "araca giden tam istem"i prompts/G<n>.md'deki İstem + Düzeltme'lerle karşılaştırsın, fark varsa bayrak	
+CODEX-9	talimat `uretim/AGENTS.md`			dongu.sh uretilen/G<n>.png yoksa zaman.tsv'ye 'uretilemedi' yazar (durdurmaz)
+CODEX-10	talimat `uretim/AGENTS.md`			dongu.sh ENGELLENDİ başlığını görünce o resmi bir daha vermez (uretim/dongu.sh:37,63); iki deneme Codex'te
+CODEX-11	talimat `uretim/AGENTS.md`			
+CODEX-12	talimat `uretim/AGENTS.md`		EVET: dongu.sh her çağrıdan sonra kayit/kol<k>.md'ye yeni satır eklenmiş mi baksın, yoksa bayrak	
+CODEX-13	hatırlat 9		EVET: dongu.sh zaman.tsv'ye yazarken 300 sn'yi aşan resmi bayraklasın	dongu.sh zaman.tsv süreyi yazar; 300 sn üstü için bayrak yok
+CODEX-14	talimat `uretim/AGENTS.md`			döngüde özet dongu.sh çıktısı ve zaman.tsv'den gelir
+CODEX-15	talimat `uretim/AGENTS.md`			
+CODEX-16	program `uretim/istem_kontrol.sh` 'yazı yasağı satırı' · talimat `uretim/AGENTS.md` · hatırlat 10	uretim/istem_kontrol.sh:24		program yalnız istemde yasak cümlesinin varlığını ölçer; resimdeki yazı gözle (adım 10)
+CODEX-17	hatırlat 10		EVET: kapi_hook.js `uretim/v<N>/onayli/` altında silinen ya da .png olmayan dosya içeren commit'i durdursun	
+CODEX-18	yok — AGENTS.md yazım ilkesi; vaka başına uygulanmaz			AGENTS.md değiştirilirken geçerli
+CODEX-19	hatırlat 9		EVET: dongu.sh başlarken `python -c "import onnxruntime, PIL, numpy, torch, open_clip"` ve `codex login status` koşsun, olmazsa başlamasın	KOD-33 "python yok, py ile çalışır" diyor; CODEX-19 ve dongu.sh `python` kullanıyor — çelişki
+CODEX-20	hatırlat 8			"hikâye donmuş olmalı" adım 7'nin sonu
+CODEX-21	program `kaynak/dogrulayici.js` K15 (arka/kare listede) · program `kaynak/test_yeni_arayuz.js` (her kodun görseli ya da yer tutucusu) · hatırlat 8	kaynak/dogrulayici.js:836-837; kaynak/test_yeni_arayuz.js:20-21	EVET: istem_kontrol.sh ya da arac_paket.js LISTE.md ile vakaN_gorsel.md tablosunun numara/tür/anahtar eşliğini denetlesin	
+CODEX-22	hatırlat 9		EVET: dongu.sh başında çalışan başka dongu.sh varsa (kilit dosyası) başlamasın	
+CODEX-23	yok — döngü geliştirme tuzağı (sahte Codex); vaka üretiminde kullanılmaz			
+CODEX-24	program `kaynak/arac_kapi.js` V<N> resim (commit kapısı) · hatırlat 9, 10	.claude/kapi_hook.js:75-77,83-89		kapı onayli/ ya da _gorsel.md değişen commit'te kendiliğinden resim kapısını koşar
+CODEX-25	hatırlat 10		EVET: kapi_hook.js prompts/G<n>.md'de ## İstem bölümünü değiştiren (yalnız sona ## Düzeltme eklemeyen) commit'i durdursun	
+KOD-1	program `kaynak/arac_kapi.js` 'derleme' (yeni/index.html derlemeden farklıysa durur)	kaynak/arac_kapi.js:83-87	EVET: kapi_hook.js index.html ya da yeni/index.html kaydedilirken derlemeyle aynı mı baksın (bugün bu dosya tek başına kapı açmaz)	kapı yalnız vaka/ortak dosya değişince açılır
+KOD-2	yok — depo düzeni; .gitignore dışarıda tutar			.gitignore: kaynak/_gomulu_motor.js, _gomulu_veri.js
+KOD-3	program `kaynak/arac_kapi.js` doğrulayıcı (iki oyun), derleme, tur, sızıntı (commit kapısı, V6+) · hatırlat 4, 14	kaynak/arac_kapi.js:80-96; .claude/kapi_hook.js	EVET: arac_kapi.js test_*.js döngüsünü de koşsun (test_bozuk.js hariç); bugün testler commit'te kendiliğinden koşmaz	
+KOD-4	program `kaynak/dogrulayici.js` (BLOCKED → çıkış 1)	kaynak/dogrulayici.js dogrula() + process.exit(ok?0:1) (satır 1133)		
+KOD-5	program `kaynak/dogrulayici.js` (hata → BLOCKED, uyarı → PASS)	kaynak/dogrulayici.js dogrula()		
+KOD-6	hatırlat 4		EVET: kapi_hook.js Bash komutunda `dogrulayici.js |` ya da `dogrulayici.js ;` + build deseni görürse reddetsin	
+KOD-7	yok — test düzeni bilgisi (KOD-3'ün parçası)			test sayısı tutuyor: 27 test_*.js, test_bozuk hariç 26
+KOD-8	yok — teşhis bilgisi			
+KOD-9	yok — test yazma ilkesi			vaka için yeni test yazılırsa geçerli (KOD-12 bilgisi)
+KOD-10	yok — eski oyunun bakımı (KRIZLER, RUH_GORSEL)			test_ruh.js, test_borc.js eşliyor
+KOD-11	yok — eski oyunun bakımı			test_yedek.js eşliyor
+KOD-12	hatırlat 4			
+KOD-13	yok — kod yazma tuzağı			
+KOD-14	program `kaynak/build_html.js` vm.Script koruması	kaynak/build_html.js:1436,1476		
+KOD-15	yok — yayın ayarı		EVET: arac_kapi.js derleme çıktısında "GELİŞTİRİCİ MODU AÇIK" görürse dursun	build_html.js:1520-1522 yalnız uyarı basar
+KOD-16	program `kaynak/build_html.js` uzantılı anahtar · program `kaynak/test_yeni_arayuz.js` (yeni oyunda atıf)	kaynak/build_html.js:1491-1505		ikinci göz: yeni kipte atıf denetimi kapalı (build_html.js:1500); kapi_hook.js:25-26 yorumu yanlış
+KOD-17	program `kaynak/test_ses.js`	kaynak/test_ses.js		ses vaka üretiminde değişmez
+KOD-18	program `kaynak/test_ses.js` (müzik izi ve müzik dosyası yok)	kaynak/test_ses.js:40-46		
+KOD-19	yok — motor davranış bilgisi			
+KOD-20	yok — bilgi			
+KOD-21	yok — kod yazma ilkesi		EVET: test_yeni_arayuz.js yeni_arayuz.js'de alert(/confirm( arasın	ÇELİŞKİ: yeni_arayuz.js:630 ve :848 hâlâ alert() kullanıyor
+KOD-22	yok — eski oyunun UI turu (arac_ui_tur.js çıkış kodu vermez)			ESKİMİŞ: /opt/pw-browsers/... Linux yolu; Windows'ta araclar/ (KOD-33) | ikinci göz: Linux yolu bulut kabının; Windows'ta arac_ortam.js karşılıyor — kural metninde Windows yolu eksik
+KOD-23	hatırlat 11			
+KOD-24	yok — tur aracı yazma tuzağı			
+KOD-25	hatırlat 5, 11			
+KOD-26	hatırlat 5			genel ilke; yok da olabilir
+KOD-27	program `kaynak/arac_kapi.js` YOLLAR (bütün yollar --hepsi; tur çıkışı ≠ 0 durdurur) · hatırlat 11	kaynak/arac_kapi.js:38-42,89-96		yol listesi V6'da bitiyor; V7, V8 yolları yalnız arac_kapi.js YOLLAR'da
+KOD-28	program `kaynak/arac_kapi.js` (turlar --hepsi; K2 adı geçen ekranda) · hatırlat 11	kaynak/arac_kapi.js:90, denetle() K2		adi_gecen_yok.txt kendisi ADAY; durduran kapının K2'si
+KOD-29	hatırlat 11, 14		EVET: arac_kapi.js resim türünde bir yolu --tablet ile de koşsun (arac_yeni_tur.js:64-65 eşik tutmazsa zaten çıkış 1)	
+KOD-30	hatırlat 11, 14			bayraklar ADAY (arac_cihaz.js ESIK)
+KOD-33	hatırlat 5, 9			"python yok, py" — CODEX-19 ve dongu.sh `python` diyor | ikinci göz: dongu.sh ve arac_kapi.js 'python' çağırıyor; yalnız 'py' olan makinede denetimler sessizce atlanır
+KOD-34	yok — yayın			
+KOD-35	program `.claude/kapi_hook.js` → `kaynak/arac_kapi.js` (commit durur)	.claude/kapi_hook.js:83-89; kaynak/arac_kapi.js:89 (YOLLAR yok → durur)		
+KOD-36	program `kaynak/arac_kapi.js` (eski index.html md5 değişirse durur) · hatırlat 4	kaynak/arac_kapi.js:87; kaynak/arac_paket.js md5	EVET: kapi_hook.js commit'te kaynak/motor.js ya da eski game_data.json değişiyorsa dursun	motor.js'e dokunma yasağı ölçülmüyor
+KOD-37	program `kaynak/dogrulayici.js` yeni (K15, K17–K19)	kaynak/dogrulayici.js:1089-1094		
+KOD-38	hatırlat 4		EVET: arac_kapi.js diyalogdan veriyi geçici yere yeniden yazıp (arac_diyalog.js) yeni/game_data.json'la karşılaştırsın; fark = elle düzenleme	
+KOD-39	program `kaynak/arac_kapi.js` derleme güncel + eski sayfa aynı · program `kaynak/test_yeni_arayuz.js` manifesto↔kanon↔derleyici	kaynak/arac_kapi.js:83-87; kaynak/test_yeni_arayuz.js:17-68		
+KOD-40	program `kaynak/dogrulayici.js` K15	kaynak/dogrulayici.js kural15_sahne		
+KOD-41	program `kaynak/dogrulayici.js` K15 (konuşan, ifade, arka, kare, gir, bag)	kaynak/dogrulayici.js:807-872		kime ve mekan alanları denetlenmiyor
+KOD-42	program `kaynak/dogrulayici.js` K15 (set, cset)	kaynak/dogrulayici.js:822-833		
+KOD-43	program `kaynak/dogrulayici.js` K15 (seçim ≥ 2 seçenek, karar karesi) · program `kaynak/test_yeni_v1.js` (anı notu, sonuç karesi)	kaynak/dogrulayici.js:842,872; kaynak/test_yeni_v1.js:176-179		
+KOD-44	hatırlat 3		EVET: dogrulayici.js yeni cengo_replik.i ve cengo_kanit_replik ifadesinin kapanış setinde var olduğunu denetlesin	arac_diyalog.js alanları yazar, ifadeyi denetlemez
+KOD-45	program `kaynak/dogrulayici.js` K19	kaynak/dogrulayici.js kural19_kimYapti		
+KOD-46	program `kaynak/dogrulayici.js` K14 (acilan gövdesi) · hatırlat 4	kaynak/dogrulayici.js kural14_tanimsizOlgu		ekonomi.gider boş olması ölçülmüyor
+KOD-47	hatırlat 3, 7			K1 ikisini de tarar ama eşliğini ölçmez
+KOD-48	program `kaynak/test_yeni_arayuz.js` (yer tutucu metni, bayat yer tutucu)	kaynak/test_yeni_arayuz.js:20-37		
+KOD-49	program `kaynak/dogrulayici.js` K15 (kanon kareler) · program `kaynak/test_yeni_arayuz.js` (görsel ya da yer tutucu + metin) · hatırlat 3	kaynak/dogrulayici.js:837; kaynak/test_yeni_arayuz.js:20-23	EVET: diyalog dosyasındaki görsel tablosu ile kanon.sahne.kareler eşliğini bir test ölçsün	
+KOD-50	yok — motor kayıt davranışı			test_kayit.js (eski oyun)
+KOD-51	hatırlat 1, 3			atıf eskimiş: arsiv/sablon/4_motor_sinirlari.md arşivde — yeni yetenek nereye yazılacak belirsiz
+KOD-52	hatırlat 3			
+KOD-53	yok — tanım			
+KOD-54	program `kaynak/dogrulayici.js` K1	kaynak/dogrulayici.js kural1_sozluk		
+KOD-55	program `kaynak/dogrulayici.js` K2	kaynak/dogrulayici.js kural2_erisilebilirlik		
+KOD-56	program `kaynak/dogrulayici.js` K3	kaynak/dogrulayici.js kural3_dongu		
+KOD-57	program `kaynak/dogrulayici.js` K4	kaynak/dogrulayici.js kural4_truth		
+KOD-58	hatırlat 5			dogrulayici.js K5 yalnız UYARI basar (durdurmaz)
+KOD-59	program `kaynak/dogrulayici.js` K6 (ölü içerik) · hatırlat 5	kaynak/dogrulayici.js kural6_butce		K7 ve K6'nın kusursuz sıra kolu yalnız uyarı
+KOD-60	yok — yeni oyunda K8 kalktı (para yok, KOD-71)			doğrulayıcı hâlâ koşuyor, uyarı
+KOD-61	yok — yeni oyunda tohum yok (K19 durdurur)			
+KOD-62	program `kaynak/dogrulayici.js` K10	kaynak/dogrulayici.js kural10_olguSizinti		
+KOD-63	program `kaynak/dogrulayici.js` K11	kaynak/dogrulayici.js:334-342		
+KOD-64	program `kaynak/dogrulayici.js` K13	kaynak/dogrulayici.js:732-753		
+KOD-65	program `kaynak/dogrulayici.js` K14	kaynak/dogrulayici.js:363-370		
+KOD-66	program `kaynak/dogrulayici.js` K15	kaynak/dogrulayici.js kural15_sahne		
+KOD-67	program `kaynak/dogrulayici.js` K16	kaynak/dogrulayici.js kural16_kararsizYol		"en az bir dürüst karar her yolda" — test_yeni_v1.js:170 yalnız V1
+KOD-68	program `kaynak/dogrulayici.js` K17 · hatırlat 6	kaynak/dogrulayici.js kural17_giris; kaynak/test_yeni_v1.js:77-94		dolaylı ele verme Onay 2'de sahibinde
+KOD-69	program `kaynak/dogrulayici.js` K18	kaynak/dogrulayici.js kural18_ipucuAdi		
+KOD-70	program `kaynak/dogrulayici.js` K19	kaynak/dogrulayici.js kural19_kimYapti		
+KOD-71	yok — kabul edilmiş uyarıların kaydı			
+KOD-72	hatırlat 5			anlatısal tutarlılık, ton, denge — insanda
+KOD-73	program `kaynak/dogrulayici.js` K19 (3 şüpheli, masum açıklaması) · program `kaynak/test_yeni_kimyapti.js` (her yolda Kim yaptı?) · hatırlat 1	kaynak/dogrulayici.js:975,1003; kaynak/test_yeni_kimyapti.js		"her yanlış şüpheliyi aklayan KANIT" ölçülmüyor; K19 yalnız masum metnine bakar
+KOD-74	program `kaynak/arac_sizinti_tur.js` (çıkış 1; kapıda) · hatırlat 5	kaynak/arac_sizinti_tur.js:66,100; kaynak/arac_kapi.js:92		
+KOD-75	program `kaynak/arac_yeni_tur.js` karar seçiminde rakam (kapıda) · program `kaynak/arac_kapi.js` resim (poz kaydı, K6) · hatırlat 3	kaynak/arac_yeni_tur.js:136-137; kaynak/arac_kapi.js:209-210	EVET: dogrulayici.js yeni her doğru kanıt olgusu için cengo_kanit satırı var mı denetlesin	
+KOD-76	program `kaynak/arac_diyalog.js` (## ani yoksa YAZILMADI) · program `kaynak/test_yeni_arayuz.js` · hatırlat 5	kaynak/arac_diyalog.js:176,181; kaynak/test_yeni_arayuz.js:79-80		içerik (yalnız itirafın söylediği) elle
+KOD-77	program `kaynak/dogrulayici.js` K19 (tohum yok) · hatırlat 3	kaynak/dogrulayici.js:1012-1014	EVET: metindeki tutarları (rakam + TL/lira) vakanın fiyat tablosuyla karşılaştıran tarama (dogrulayici.js yeni ya da arac_diyalog.js)	
+KOD-78	program `uretim/istem_kontrol.sh` (istemde sigara) · hatırlat 3	uretim/istem_kontrol.sh:29	EVET: aynı sözcük listesi arac_diyalog.js / dogrulayici.js yeni'de metin, sahne notu ve ifade adlarında aransın (kural metni Adım 4'e bırakıyor)	
+KOD-79	program `kaynak/arac_kapi.js` satır–resim İŞ/SOR = 0 · hatırlat 10	kaynak/arac_kapi.js:98-109	EVET: arac_kapi.js tur kaydında sol ve sağ aynı figürse bulgu yazsın	"aynı figür iki kez" bugün ölçülmüyor
+KOD-80	program `kaynak/test_yeni_v2.js` (bitince sıradaki vaka)	kaynak/test_yeni_v2.js:86		
+KOD-81	yok — veri formatı başvurusu (eski oyun KANON)			
+KOD-82	yok — veri formatı başvurusu			veri arac_diyalog.js / arac_json_yaz.js ile yazılır (KOD-38)
+KOD-83	yok — veri formatı başvurusu			
+KOD-84	yok — veri formatı başvurusu			
+KOD-85	yok — veri formatı başvurusu			"bütün varyantlar aynı acilan" ölçülmüyor; yeni oyunda tek giriş
+KOD-86	yok — eski oyunun karar formatı			
+KOD-87	yok — eski oyunun tohum formatı			
+KOD-88	yok — motor bilgisi (koşullu metin)			
+KOD-89	program `kaynak/dogrulayici.js` K19 (kanit_ad eksik / 32 harften uzun) · hatırlat 3	kaynak/dogrulayici.js:995-999		"ad olgudan fazlasını söylemez" elle
+KOD-90	program `kaynak/test_yeni_kimyapti.js` · program `kaynak/arac_sizinti_tur.js` · hatırlat 5	kaynak/test_yeni_kimyapti.js; kaynak/arac_sizinti_tur.js:7-10		sizinti_okuma.txt elle okunur
+KOD-91	program `kaynak/test_yeni_v2.js` (künye portresi) · hatırlat 4	kaynak/test_yeni_v2.js:112-116		VN_VAKA_ATLA yayın ayarı
+ARAYUZ-1	yok — arayüz CSS düzeni			kod değişmedikçe ısırmaz; KOD-29/30 turları gözetir
+ARAYUZ-2	yok — arayüz CSS düzeni			
+ARAYUZ-3	yok — arayüz CSS düzeni			arac_yeni_tur.js --tablet eşiği ölçer (çıkış 1)
+ARAYUZ-4	yok — arayüz CSS düzeni			
+ARAYUZ-5	yok — arayüz CSS düzeni			
+ARAYUZ-6	hatırlat 8		EVET: istem_kontrol.sh 'arka plan' türünde oran satırının 3:4 olduğunu, arac_paket.js arka plan resminin 3:4 olduğunu denetlesin	
+ARAYUZ-7	yok — sahibinin tasarım kararı			
+ARAYUZ-8	yok — arayüz kararı (CSS'te)			
+ARAYUZ-9	yok — arayüz davranışı (defterZincir)			arac_sizinti_tur.js Zincir'i tarar
+ARAYUZ-10	program `kaynak/dogrulayici.js` K12	kaynak/dogrulayici.js:716-721		
+ARAYUZ-11	yok — arayüz davranışı (defterAni)			anı özeti KOD-76
+ARAYUZ-13	yok — motor yeteneği			
+ARAYUZ-14	yok — motor yeteneği			
+ARAYUZ-15	yok — arayüz kararı (vnKareGoster)			
+ARAYUZ-16	hatırlat 3		EVET: arac_diyalog.js ekran etiketinde ikiden fazla kişi varsa durdursun	
+ARAYUZ-17	yok — arayüz kodu (vnSatirGoster)			V1–V5'teki iki örnek bilerek bırakıldı
+ARAYUZ-18	yok — motor yeteneği			
+ARAYUZ-19	yok — motor yeteneği			
+ARAYUZ-20	yok — motor yeteneği			
+ARAYUZ-21	yok — motor yeteneği			tanımsız ses K15'te
+ARAYUZ-22	hatırlat 3			
+ARAYUZ-23	yok — arayüz davranışı			
+ARAYUZ-24	yok — yayın öncesi ayar			şu an VN_GERI = true (yeni_arayuz.js:70)
+ARAYUZ-25	hatırlat 8			yeni poz = yeni görsel
+ARAYUZ-26	hatırlat 10			boy GOMME-13
+ARAYUZ-28	hatırlat 3		EVET: dogrulayici.js yeni eşiği aşan uzun replik için uyarı versin (ya da tur yazı kutusu taşmasını ölçsün)	yalnız SONUÇ ~110 harfte kendiliğinden bölünüyor (yeni_arayuz.js:786)
+ARAYUZ-29	yok — kod düzeni			test_yeni_arayuz.js sarmayı eşler
+ARAYUZ-30	yok — tasarım kararı			
+ARAYUZ-31	program `kaynak/test_yeni_v2.js` (künye portresi) · hatırlat 4	kaynak/test_yeni_v2.js:112-116	EVET: test sahnede konuşan/giren her konuk figürünün kisiler.json'da kaydı var mı ölçsün	
+ARAYUZ-32	program `kaynak/test_yeni_arayuz.js` (kapak, kart gömülü, kart yasak alan okumaz) · hatırlat 3, 8	kaynak/test_yeni_arayuz.js:93-116		girişin ilk cümlesinin sızıntısızlığı elle (3); afiş promptu 8
+ARAYUZ-33	yok — Android/sezon sonu			
+ARAYUZ-34	yok — raf/Android kararı			
+ARAYUZ-35	yok — raf/Android kararı			
+ARAYUZ-36	program `kaynak/test_yeni_v2.js` (hak içinde doğru çiftler, ≥ 2 yol) · hatırlat 1	kaynak/test_yeni_v2.js:36-60	EVET: dogrulayici.js yeni vaka.arastirma'nın 3 olduğunu (V1: 4) denetlesin	
+ARAYUZ-37	yok — yayın öncesi ayar			
+ARAYUZ-38	yok — Vaka 6'ya özgü bir kerelik karar			konusu GOMME; yanlış bölümde
