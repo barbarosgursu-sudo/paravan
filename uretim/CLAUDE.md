@@ -72,11 +72,8 @@ GOMME-*, SATIR-* (eski belge: `arsiv/sablon/5_gorsel_sistemi.md` → H. Görsel 
 Komut ve ön koşulu — CODEX-20. Çıktı: `uretim/v<N>/LISTE.md`, `prompts/G<n>.md`, gerekirse `referanslar/`. Listeyi sahibine
 göster; onaylarsa commit → push. Adımlar:
 
-00. **Konuk benzerliği — zorunlu, otomatik (20 Kasım 2026, sahibinin kararı; vaka numarasına bağlı değil; KURALLAR.md'ye henüz
-   işlenmedi, bkz. SEZON-19).** Yeni karakterin görünüşü `sablon/kurallar/benzerlik/adaylar.tsv`'ye yazılır (her özellik dolu).
-   İstemden önce `node kaynak/arac_benzerlik.js <vaka>` GEÇTİ demeli: aday, HAVUZA (`havuz.tsv`: resmi onaylanmış herkes) ve birlikte
-   üretilen adaylara benzememeli. DURDU derse görünüş formda, diyalogdaki tarifte ve `adaylar.tsv`'de değiştirilir — **sahibine
-   sorulmaz** — ve GEÇTİ diyene kadar yeniden denenir.
+00. **Konuk benzerliği — zorunlu, otomatik** — SEZON-26. Görünüş `sablon/kurallar/benzerlik/adaylar.tsv`'ye; istemden önce
+   `node kaynak/arac_benzerlik.js <vaka>` GEÇTİ demeli. DURDU → görünüş değişir (form, diyalog, `adaylar.tsv`), sahibine sorulmaz.
 0. **Liste oyunla eşleşir** — CODEX-21. Anahtar örnekleri `peri.trenckot.kas`, `A23`, `K36`; tablo `sablon/vakalar/vaka<N>_gorsel.md`
    (`| G<n> | figür / arka plan / detay / ara kare / kart afişi | ne | \`anahtar\` | referans | aşama |`); sınayan
    `node dogrulayici.js yeni` ve `test_yeni_arayuz.js`.
@@ -152,21 +149,9 @@ yüzden — DENETIM-5; araç değişirse `python arac_tarz.py --sinav` → "SINA
 - Denenip BIRAKILAN (14 Kasım): ifadeyi temeline CLIP benzerliği ya da renk doygunluğuyla karşılaştırıp "soluk/kaymış" yakalamak —
   poz ve bilerek değişen ifade (unlu yüz) ölçüyü bastırıyor, onaylılarla kaymışlar iç içe. Bu kayma gözle (A.7, A.14).
 
-**0b2. Yazılımla konuk benzerliği — konuğun figür ve kartında (20 Kasım 2026, sahibi: "vakadaki karakterler önceki vakalardakinden
-mutlaka farklı olmalı… otomasyon şeklinde sağlamalıyız"; V7 G4 Süheyla, V6 Jale'nin aynısı çıktı; KURALLAR.md'ye henüz işlenmedi,
-bkz. SEZON-19).** `cd kaynak && python arac_benzerlik_resim.py --uretim v<N> G<n>` (döngü yüz denetiminin ardından kendisi koşar,
-sonuç `$DONGU_LOG/benzerlik.tsv`). Yüz + baş (saç dahil) + bütün figür; karşılaştırılan: oyundaki bütün figürler, bütün vakaların
-onaylıları ve aynı vakada üretilen öbür konuklar (aynı cinsiyet). Üretimden önceki yazı denetiminin (`arac_benzerlik.js`) ikinci parçası.
-- **Sınır kendiliğinden (sahibi, 20 Kasım 2026: "sınırı kimse ayarlamasın"):** araç her çalıştırmada bilinen benzer çiftleri de
-  ölçer; sınır = en düşüğünün 0,15 altı (1,55'ten yukarı çıkmaz), şüphe 0,15 daha altı. Sınır o kadar düşer ki onaylı karakter
-  çiftlerinin %10'undan fazlası üstünde kalırsa araç **DUR** der (çıkış 3): üretim durur, sahibine sorulur.
-- **KALDI** (bugün ≥ 1,55) → ret; konuğun görünüşü değişir (saç kesimi/rengi, yaş, yüz, beden), sahibine sorulmaz; form ve
-  `sablon/kurallar/benzerlik/adaylar.tsv` güncellenir, `arac_benzerlik.js` yeniden koşulur, yeniden üretilir.
-- **ŞÜPHELİ** (bugün 1,40–1,55) → onaylanmaz, aynı yol; iki kez ŞÜPHELİ kalırsa sahibine (görüntü `kaynak/YENI_UI/benzerlik/G<n>_<kişi>.jpg`).
-- **GEÇTİ** → göz denetimi. Kayıt satırına eklenir: `· benzerlik GEÇTİ (en yakın <kişi> 1,1x)`.
-- Peri, Cengo, Gizem denetlenmez (kimlikleri 0b'de). İfade resmi de koşar.
-- Araç değişirse önce `python arac_benzerlik_resim.py --sinav` → "SINAV GEÇTİ" (Süheyla–Jale, Necmi–Recep, Kaan–Cengo/Bülent,
-  Müzeyyen–Nadide). `--havuz-ici` eski vakalarda kalmış benzer çiftleri basar (bilgi).
+**0b2. Yazılımla konuk benzerliği — konuğun figür ve kartında** — DENETIM-53. `cd kaynak && python arac_benzerlik_resim.py
+--uretim v<N> G<n>` (döngü kendisi koşar; `$DONGU_LOG/benzerlik.tsv`). KALDI/ŞÜPHELİ → görünüş değişir, sahibine sorulmaz;
+DUR (çıkış 3) → sahibine. GEÇTİ → kayıt satırına `· benzerlik GEÇTİ (en yakın <kişi> 1,1x)`.
 
 **0c. El denetimi — kişi görünen her resimde, onayı sahibi verir** — DENETIM-13. `cd kaynak && python arac_el.py --sayfa V<N> G<n>`
 → `kaynak/YENI_UI/el/G<n>.jpg`; onay `python arac_el.py --onay V<N> G<n>`.
@@ -205,9 +190,8 @@ Görüntüyü `uretim/v<N>/yanyana/G<n>.png` olarak sakla. Bak: 1. boy (temel fi
 
 **Karar**
 - **Onay** — DENETIM-38 → `onayli/G<n>.png`; temel figürse baş kırpığı (`referanslar/<kim>_bas.png`).
-  **Konuk temel figürü onaylanınca, sormadan:** o kişinin `adaylar.tsv` satırını onaylı RESME göre düzelt (saç, yüz, üst rengi
-  resimde nasılsa; `kaynak` = resim), sonra `node kaynak/arac_benzerlik.js --havuza <kim>` — kişi havuza girer, bundan sonraki her
-  karakter ona da bakılarak üretilir. (Unutulursa `arac_paket.js --yaz` gömerken taşır; ama satırı resme göre düzeltmez.)
+  **Konuk temel figürü onaylanınca, sormadan:** `adaylar.tsv` satırı resme göre düzeltilir, sonra
+  `node kaynak/arac_benzerlik.js --havuza <kim>` — DENETIM-53.
 - **Ret** — DENETIM-39 → `prompts/G<n>.md` sonuna `## Düzeltme <k>`; resim `red/G<n>_red<k>.png` (k = ilk boş numara).
 
 ## Komut: `göm`

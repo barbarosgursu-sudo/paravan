@@ -83,7 +83,10 @@ function say() {
     }
     if (hedef.some(t => tanim.has(t))) say.karsilik++;
   }
-  for (const t of tanim) if (!kullanilan.has(t)) console.log('UYARI kaynaksız kural:', t);
+  // Adım 4'ten sonra eklenen kural ham listede yoktur: "*Kaynak:* yeni karar …" der, kaynaksız sayılmaz.
+  const yeniKarar = new Set(metin.split(/^(?=#### )/m).filter(p => /^\*Kaynak:\* yeni karar/m.test(p))
+    .map(p => (p.match(/^#### ([A-Z]+-\d+)/) || [])[1]).filter(Boolean));
+  for (const t of tanim) if (!kullanilan.has(t) && !yeniKarar.has(t)) console.log('UYARI kaynaksız kural:', t);
   // Birleştirilen kural: "→ KOD" diyorsa hedef var mı
   // ve birleşen kuralın bütün kaynak numaraları ANA'nın *Kaynak:* satırında mı (hiçbir kaynak satırı ortada kalmaz)
   const blok = {}; let cur = null, kodBlok = false;

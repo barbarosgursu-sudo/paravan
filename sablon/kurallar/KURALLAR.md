@@ -12,18 +12,18 @@
 | SINIR — içerik sınırları | 12 |
 | BILGI — Nurcan kuralı / sızıntı | 22 |
 | YAPI — vaka yapısı ve oyun kuralları (birleştirilmiş) | 45 |
-| SEZON — sezon planı ve çeşitlilik | 23 |
-| SUREC — üretim süreci kuralları (birleştirilmiş) | 39 |
+| SEZON — sezon planı ve çeşitlilik | 24 |
+| SUREC — üretim süreci kuralları (birleştirilmiş) | 40 |
 | SATIR — satır–resim sözleşmesi (birleştirilmiş kurallar) | 39 |
 | ISTEM — resim istemi yazma kuralları | 56 |
-| DENETIM — resim denetimi ve onay (birleştirilmiş kurallar) | 51 |
+| DENETIM — resim denetimi ve onay (birleştirilmiş kurallar) | 52 |
 | GOMME — kesim, zemin, boy, gömme | 29 |
 | CODEX — Codex/döngü kuralları (birleştirilmiş) | 25 |
 | KOD — kod, veri ve araçlar (birleştirilmiş kurallar) | 89 |
 | ARAYUZ — arayüz kuralları (birleştirilmiş) | 36 |
 | RAF — yayın ve iş kuralları (raf "Ajar", dil/çeviri, satış, reklam/kredi, platform, Android, ad, yayın sırası) | 113 |
 | SHORTS — YouTube Shorts videoları | 29 |
-| **toplam** | **664** |
+| **toplam** | **667** |
 
 Birleşip başka kurala yönlenen: 23
 
@@ -1081,7 +1081,23 @@ Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir: onların **yüzü v
   `uretim/CLAUDE.md` 9, 9b). Bağlı yerler: 6. parça karakter tarifine "eski konuklardan ayıran: …" satırı; 7. parça Onay 1 denetimine "tarif eski
   konuklarla karşılaştırıldı" maddesi. V1–V6 yeniden geçirilirken aynı göz denetimi yapılır (V6'da Müzeyyen, Dilek, Tahsin, Recep zaten değiştirilmişti;
   Necmi/Ercan Recep'in yüzüne kaydı — üretici aynı kalıba dönüyor).
+- Programla iki yerde denetlenir: üretimden önce yazıda (SEZON-26), üretimden sonra resimde (DENETIM-53).
+*Uygulayıcı:* program `kaynak/arac_benzerlik.js` · program `kaynak/arac_benzerlik_resim.py` · hatırlat 1, 10
 *Kaynak:* 414, 672, 1078, 2763
+
+#### SEZON-26 Konuk benzerliği — üretimden önce, yazıda (program)
+Sahibinin kararı (20 Kasım 2026): kural vaka numarasına bağlı değildir. Yeni karakterin görünüşü `sablon/kurallar/benzerlik/adaylar.tsv`'ye
+yazılır, her özellik dolu: yaş, beden, yüz biçimi, saç rengi, saç kesimi, üst rengi, ayırıcı işaret. İstemden önce
+`node kaynak/arac_benzerlik.js <vaka>` GEÇTİ demeli (çıkış 1 = DURDU; o kişinin istemi üretime girmez).
+- **Havuz** (`havuz.tsv`) = resmi onaylanmış karakterler (değişmez). **Adaylar** (`adaylar.tsv`) = geri kalan herkes (değişebilir).
+  Aday havuzdaki hiç kimseye ve birlikte üretilen öbür adaylara benzememeli. Onaylanan karakter havuza geçer
+  (`arac_benzerlik.js --havuza <id>`; `arac_paket.js --yaz` de çağırır).
+- DURDU derse görünüş formda, diyalogdaki tarifte ve `adaylar.tsv`'de değiştirilir — **sahibine sorulmaz** — ve GEÇTİ diyene dek yeniden denenir.
+- Ağırlıklı puan, eşik 6 (saç kesimi, saç rengi, ayırıcı işaret 2; ötekiler 1). Daha gevşek eşik her vakada 10–40 yanlış alarm verdi.
+  Yazı yalnız BARİZ benzerliği durdurur: bilinen çiftler (Süheyla–Jale vb.) resimde benzedi, yazıda değil — onları DENETIM-53 yakalar.
+- Uygulandı (20 Kasım): Pınar'ın saçı at kuyruğu (Dilek'e benziyordu), Yusuf'un saçı yazıldı; V7'de Süheyla ve Nesrin yeni görünüşle yazıldı.
+*Uygulayıcı:* program `kaynak/arac_benzerlik.js`
+*Kaynak:* yeni karar (uretim/CLAUDE.md istem adımı "00", Adım 4'te koda bağlandı)
 
 #### SEZON-20 Arka planda aynı kurgu tekrar etmez
 Yasak olan öğe değil, TEKRAR (sahibi, 6 Kasım 2026: "deniz ve cami resimlerde olabilir; sorun her resmin aynı ve benzer çıkması"). Deniz, cami,
@@ -1465,6 +1481,16 @@ referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `alti
 #### SUREC-42 Test için vaka düğmeleri
 → ARAYUZ-37 (birleşti, 20 Kasım 2026)
 *Kaynak:* 3055
+
+#### SUREC-43 Her adım hatırlatma listesiyle kapanır
+Sahibinin kararı (20 Kasım 2026, Adım 4): "Bir vakayı üretirken daha önce hallettiğimiz bir sorunla tekrar tekrar uğraşmak istemiyorum."
+Her kuralın bir uygulayıcısı vardır (`*Uygulayıcı:*` satırı): **program** (ölçer, iş durur), **hatırlat <adım>** (program ölçemez) ya da
+**yok** (üretimle ilgisiz karar/bilgi). Üretim sürecinin (`sablon/7_uretim_sureci.md`) her adımının sonunda o adımın listesi
+(`node sablon/kurallar/arac_uygulayici.js adim <n>`; hepsi `sablon/kurallar/HATIRLATMA.md`) sahibine kısa liste olarak gösterilir;
+sahibi "baktım" demeden adım geçmez. Liste elle yazılmaz; `arac_uygulayici.js say` eskiyse hata verir.
+Yeni kural eklenirken uygulayıcısı da yazılır; "hatırlat" yerine program yazılabiliyorsa program tercih edilir.
+*Uygulayıcı:* program `sablon/kurallar/arac_uygulayici.js`
+*Kaynak:* yeni karar (Adım 4, sablon/kurallar/PLAN.md)
 
 ## SATIR — satır–resim sözleşmesi (birleştirilmiş kurallar)
 
@@ -2299,6 +2325,26 @@ Vaka sonunda `prompts/LISTE.md`'deki her G'nin `onayli/`'de olduğu sayılır ve
 #### DENETIM-49 Yeni karakter eski bütün figürlerle karşılaştırılır
 13 Kasım 2026, sahibi (`uretim/CLAUDE.md` komut adımı 9). İstemden önce `kaynak/yeni_gorsel/figur_*_normal.webp` temas sayfası + önceki vakaların formlarındaki tarifler ile yan yana bakılır. Formdaki tarif de benzetebilir (V6'da Müzeyyen = Nadide, Dilek = Gülsüm, Tahsin = Sarkis/Rıza çıktı): benzerse sahibine yeni görünüş önerilir, metinde geçen eşya korunur. İstemde "X'e (ayırıcı özelliği) benzemiyor" yazılır. Benzerlik `istem_kontrol.sh`'ın yakalayamadığı şeydir.
 *Kaynak:* 1077
+
+#### DENETIM-53 Konuk benzerliği — üretimden sonra, resimde (program)
+Sahibinin kararı (20 Kasım 2026: "vakadaki karakterler önceki vakalardakinden mutlaka farklı olmalı… otomasyon şeklinde sağlamalıyız";
+V7 G4 Süheyla, V6 Jale'nin aynısı çıktı). Konuğun figür ve kartında: `cd kaynak && python arac_benzerlik_resim.py --uretim v<N> G<n>`
+(döngü yüz denetiminin ardından kendisi koşar; sonuç `$DONGU_LOG/benzerlik.tsv`). SEZON-26'nın ikinci parçası.
+- Üç kanal: yüz + baş (saç dahil) + bütün figür. Karşılaştırılan: oyundaki bütün figürler, bütün vakaların onaylıları, aynı vakada
+  üretilen öbür konuklar (aynı cinsiyet). Peri, Cengo, Gizem'in kendi resimleri burada denetlenmez (DENETIM-7), ama konuk onlara da benzememeli.
+- **Sınır kendiliğinden** (sahibi: "sınırı kimse ayarlamasın"): araç her çalıştırmada bilinen benzer çiftleri de ölçer (Süheyla–Jale,
+  Necmi–Recep, Kaan–Bülent/Cengo, Müzeyyen–Nadide); sınır = en düşüğünün 0,15 altı (1,55'ten yukarı çıkmaz), şüphe 0,15 daha altı.
+  Onaylı çiftlerin %10'undan fazlası sınırın üstünde kalırsa ölçü ayırt etmiyor demektir: araç **DUR** der (çıkış 3), üretim durur, sahibine sorulur.
+- **KALDI** → ret; görünüş değişir (saç kesimi/rengi, yaş, yüz, beden), sahibine sorulmaz; form ve `adaylar.tsv` güncellenir,
+  SEZON-26 yeniden koşulur, yeniden üretilir. **ŞÜPHELİ** → onaylanmaz, aynı yol; iki kez ŞÜPHELİ kalırsa sahibine
+  (görüntü `kaynak/YENI_UI/benzerlik/G<n>_<kişi>.jpg`).
+- **GEÇTİ** → göz denetimi; kayıt satırına eklenir: `· benzerlik GEÇTİ (en yakın <kişi> 1,1x)`. İfade resmi de koşar.
+- Konuk temel figürü onaylanınca, sormadan: `adaylar.tsv` satırı onaylı RESME göre düzeltilir (saç, yüz, üst rengi resimde nasılsa;
+  `kaynak` = resim), sonra `node kaynak/arac_benzerlik.js --havuza <kim>`. (`arac_paket.js --yaz` gömerken taşır ama satırı resme göre düzeltmez.)
+- Araç değişirse önce `python arac_benzerlik_resim.py --sinav` → "SINAV GEÇTİ".
+- Yüz modeli bulut kabında inmez: sahibinin ya da Oğuz Bey'in bilgisayarında koşar. Eski vakalarda 7 benzer çift kalmış (`--havuz-ici`; bilgi, kapı değil).
+*Uygulayıcı:* program `kaynak/arac_benzerlik_resim.py`
+*Kaynak:* yeni karar (uretim/CLAUDE.md Denetim "0b2", Adım 4'te koda bağlandı)
 
 ### Sahibiyle çalışma ve rötuş
 

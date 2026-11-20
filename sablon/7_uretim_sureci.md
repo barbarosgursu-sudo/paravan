@@ -23,6 +23,9 @@ Bir vaka formdan oynanır hâle bu sırayla gelir — SUREC-10 (adım atlanmaz).
 | 13 | **Görsel düzeltmeleri** — SUREC-25 | ben + sahibi | — |
 | 14 | **Vaka donar** — SUREC-26 (sızıntı taraması bir kez daha) | ben + sahibi | tarama temiz |
 
+- **Her adım hatırlatma listesiyle kapanır** — SUREC-43: adım bitince `node sablon/kurallar/arac_uygulayici.js adim <n>` (hepsi
+  `sablon/kurallar/HATIRLATMA.md`) sahibine kısa liste olarak gösterilir; "baktım" demeden adım geçmez. Programın ölçtüğü kurallar
+  listede yok — onları program durdurur.
 - **Görseller hikâye donmadan üretilmez** — SUREC-18.
 - Görselli testte hikâye değişmez — SUREC-25.
 - Değişiklikler `main`'e — SUREC-7.
