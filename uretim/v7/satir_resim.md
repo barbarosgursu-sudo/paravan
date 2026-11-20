@@ -204,7 +204,7 @@ Bayraklar kuralla ayıklanır (`sablon/5_gorsel_sistemi.md` → SR-M): **OTO** k
 ### nesrin.normal (6 satır)
 
 - **peri**: Nesrin Hanım. Tabloyu siz değiştirdiniz.  _(dinliyor)_
-- *anlatı*: Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.  _(dinliyor)_
+- *anlatı*: Uzun saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.  _(dinliyor)_
 - **nesrin**: Ben çerçeveledim, o kadar. Otuz yıldır tablo taşırım; tablo bana bir şey söylemez, ben de ona.
 - *anlatı*: Nesrin bir an susuyor; gözü kedilerde.  _(dinliyor)_
 - **nesrin**: Vedat Bey dün gece geldi. Depoya indi, tablonun başında yarım saat yalnız kaldı.
@@ -660,7 +660,7 @@ Bayraklar kuralla ayıklanır (`sablon/5_gorsel_sistemi.md` → SR-M): **OTO** k
 
 ### KARE K152 (1 satır)
 
-- *anlatı*: Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.
+- *anlatı*: Kapı çalınıyor. Eşikte kırmızı rujlu, gri ekose ceketli bir kadın.
 
 ### KARE K153 (1 satır)
 

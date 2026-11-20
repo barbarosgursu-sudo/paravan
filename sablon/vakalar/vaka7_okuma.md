@@ -15,7 +15,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `44` **CENGO:** Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade.  
 `45` **PERİ:** Papyonun yamuk.  
 `46` **CENGO:** Gelin de öyle dedi. Böyle kalsın.  
-`47` *Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.*  
+`47` *Kapı çalınıyor. Eşikte kırmızı rujlu, gri ekose ceketli bir kadın.*  
 `48` **SÜHEYLA:** Paravan Dedektiflik? Süheyla. Nişantaşı'nda bir müzayede evim var. Vaktim az.  
 `49` *Süheyla Peri'yi baştan aşağı süzüyor.*  
 `50` **SÜHEYLA:** Sizi bir yerden tanıyorum. Kozmetik reklamı mı?  
@@ -178,7 +178,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Müzayede evinin arka avlusu: kediler, bir çöp konteyneri. Nesrin bir basamakta oturmuş, kedilere bakıyor. Cengo yanına oturur, kediler ona sokulur; uzun sessizlik. Nesrin Peri'yi sevmez. "Ben çerçeveledim, o kadar." Kendiliğinden: dün gece Vedat depoda yarım saat yalnız kaldı.
 
 `204` *Müzayede evinin arka avlusu. Duvar dibinde kediler, köşede bir çöp konteyneri.*  
-`205` *Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.*  
+`205` *Uzun saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.*  
 `206` *Cengo hiçbir şey demeden yanına oturuyor; kediler ona sokuluyor. Bir süre ikisi de konuşmuyor.*  
 `207` **NESRİN:** Kediler sizi sevdi. Herkesi sevmezler.  
 `208` **CENGO:** Simit kokuyorum.  

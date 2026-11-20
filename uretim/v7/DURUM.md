@@ -1,6 +1,15 @@
 **🛑 16 Kasım 2026, gece — VAKA 7 ÜRETİMİ DURDU (Barbaros'un talimatı).** Barbaros'la Peri'nin kıyafeti (önce kırmızı manto, G1)
 konuşulmadan Vaka 7'nin resimlerine devam edilmez. Döngü çalışıyorsa `touch uretim/v7/DUR`. Ayrıntı `kaynak/DEVIR.md` en üst.
 
+**20 Kasım 2026 — SÜHEYLA VE NESRİN YENİ GÖRÜNÜŞLE YENİDEN YAZILDI (Barbaros: "ikisini de değiştir").** Resim benzerlik aracı
+(`kaynak/arac_benzerlik_resim.py`, `uretim/CLAUDE.md` 0b2): G4 Süheyla KALDI (Jale 1,80), G5 Nesrin ŞÜPHELİ (Nadide 1,47).
+Yeni: **Süheyla** siyah saç geriye taranmış, ensede sıkı topuz (küt değil), uzun yüz, krem boğazlı kazak (gri ekose ceket ve ruj
+aynı) · **Nesrin** saç kır değil KOYU KESTANE, yine tek örgü. Hikâye değişmedi: diyalog satır 47 ve 205'ten yalnız saç tarifi
+çıkarıldı (sahibinin onayı; görünüş bir daha değişse metne dokunulmasın diye). Form, K152 satırı, `adaylar.tsv`, veri ve G4/G4z/G5/G5z
+istemleri güncel. `kaynak/yeni/gorseller.json` → K152 tarifi BİLEREK eski (dosya ortak, kapı V7/V8 resimleri olmadığı için durduruyor);
+V7 resimleri üretilince `arac_diyalog.js` yeniden yazar; yazı denetimi GEÇTİ, istem kontrolü çıkış 0. Eski resimler `red/G4*_red1`, `red/G5*_red1`. **ÜRETİLMEDİ:**
+durdurma talimatı sürüyor; "başla" deyince `SADECE="4 4z 5 5z"` eklenir. Üretimden sonra benzerlik aracı yeniden koşar.
+
 **16 Kasım 2026, gece — VAKA 7 ÜRETİMİ BAŞLADI (Oğuz Bey'in bilgisayarında; Barbaros aynı numaraları üretmesin).**
 Parti 1 (temeller): `LISTE.md`. Kartlar (G1–G3) ve mekânlar (G11–G20) istem kontrolünden geçti, döngüye verildi. Konuk temelleri
 (G4–G10, iki zeminle) görselsiz tur bitince (`## Satırlar` için) yazılacak. Görünüş kararları (ortak): Şükrü'nün papyonu koyu

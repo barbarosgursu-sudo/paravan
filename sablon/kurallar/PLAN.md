@@ -211,7 +211,8 @@ el, kıyafet, satır–resim.
 
 ## 7. Sahibinin cevap bekleyen soruları (bu işin dışındakiler dahil)
 
-1. **G4 (Süheyla) reddedilsin mi, yeni görünüş ne olsun?** Henüz karar yok. Sahibi gözle çözümü reddetti, otomasyon istedi.
+1. **CEVAPLANDI (20 Kasım 2026):** G4 Süheyla ve G5 Nesrin reddedildi, yeni görünüşle yeniden yazıldı (`uretim/v7/DURUM.md` en üst).
+   Eski soru: **G4 (Süheyla) reddedilsin mi, yeni görünüş ne olsun?** Sahibi gözle çözümü reddetti, otomasyon istedi.
    Benzerlik otomasyonu önerisi (iki adım: üretimden önce görünüş tablosu karşılaştırması — yaş, saç rengi, kesim, yüz biçimi,
    beden, ayırıcı işaret, ≥2 aynıysa istem üretime girmez; üretimden sonra saç ve genel görünüşü de karşılaştıran araç,
    bilinen benzer çiftlerle sınav: Süheyla–Jale, Necmi–Recep, Kaan–Bülent, Müzeyyen–Nadide…) **sunuldu ama sahibi bunun yerine

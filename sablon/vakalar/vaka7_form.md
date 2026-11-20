@@ -406,10 +406,10 @@ Gizem yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
 
 **Yeni yan karakterlerin görünüşü 🟢** (öncekilerden ayrışır: Müzeyyen kül sarısı mizanpli, Nadide gümüş saç, Jale
 kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
-- **Süheyla Hanım (55):** uzun boylu; parlak siyah, küt kesim (çene hizası) kâküllü saç; koyu kırmızı ruj; siyah boğazlı
-  kazak üstüne gri ekose ceket; parmağında iri kehribar yüzük. Akşam aynı, yakada gümüş hilal broş. Kural 15b:
+- **Süheyla Hanım (55):** uzun boylu, uzun yüzlü; parlak siyah saç geriye taranmış, ensede sıkı bir topuz (küt değil, kâkül yok;
+  20 Kas: ilk resim Jale'ye benzedi, benzerlik aracı); koyu kırmızı ruj; KREM boğazlı kazak üstüne gri ekose ceket; parmağında iri kehribar yüzük. Akşam aynı, yakada gümüş hilal broş. Kural 15b:
   Peri'den gösterişsiz.
-- **Nesrin Hanım (58):** ince, kemikli yüz; uzun kır saç **tek örgü**, omzundan önde; gözlüğü başının üstünde; siyah
+- **Nesrin Hanım (58):** ince, kemikli yüz; uzun KOYU KESTANE saç **tek örgü**, omzundan önde (20 Kas: kır saçlı ilk resim Nadide'ye benzedi, benzerlik aracı); gözlüğü başının üstünde; siyah
   sade elbise üstünde boya lekeli **lacivert iş önlüğü**; parmak uçları boyalı.
 - **Şükrü Bey (64):** ufak tefek; tepesi kel, yanlarda kısa beyaz saç; ince, uzun, sert yüz, dar dudaklar, gülmez; ince kır bıyık, kalın kır kaşlar (Ferruh ve Tahsin’den ayrılsın — ortak, 16 Kas); kahverengi tüvit
   takım, **kusursuz koyu yeşil papyon** (ince beyaz puantiyeli; Ferruh bordo papyonlu olduğu için — ortak, 16 Kas); yelek cebinden zincirli büyüteç (lup).

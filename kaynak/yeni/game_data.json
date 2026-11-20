@@ -8505,7 +8505,7 @@
               },
               {
                 "k": "not",
-                "m": "Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.",
+                "m": "Uzun saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.",
                 "gir": "nesrin",
                 "gi": "normal",
                 "ekran": "nesrin"
@@ -8960,11 +8960,7 @@
               "ekran": "peri+cengo",
               "yuz": "peri.kas"
             },
-            {
-              "k": "not",
-              "m": "Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.",
-              "kare": "K152"
-            },
+            {"k": "not", "m": "Kapı çalınıyor. Eşikte kırmızı rujlu, gri ekose ceketli bir kadın.", "kare": "K152"},
             {
               "k": "suheyla",
               "i": "normal",

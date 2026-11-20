@@ -11,7 +11,8 @@ Sahibi bunları onaylayınca Parti 2 (Peri/Cengo temel figürleri karttan, kared
 puantiyeli** (Ferruh bordo papyonlu); Ercan'ın vale yeleği kırmızı değil **siyah, altın düğmeli**, kendisi tıknaz ve ince
 siyah bıyıklı (Bülent kırmızı yelekli). Metin ve form buna göre değişti. Vedat (Sarkis'ten) ve Necmi (Rıza'dan) istemde
 ayrılır: Vedat iri, gür kır sakallı, bordo kadife ceketli; Necmi'nin çenesi traşlı, hardal bere, kırmızı kareli gömlek.
-Süheyla'nın saçında kâkül yok (Dilek'in kâküllü küt saçından ayrılsın).
+Süheyla'nın saçında kâkül yok (Dilek'in kâküllü küt saçından ayrılsın). **20 Kas (benzerlik aracı):** Süheyla'nın ilk resmi
+Jale'ye benzedi → saç küt değil, geriye taranmış sıkı topuz, kazak krem; Nesrin'in ilki Nadide'ye → saç kır değil koyu kestane.
 
 **Ayakkabı:** Peri `manto7` → kırmızı stiletto (sabit); `gala` → **siyah stiletto** (form §14).
 

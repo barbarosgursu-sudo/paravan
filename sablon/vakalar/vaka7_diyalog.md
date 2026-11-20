@@ -44,7 +44,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **CENGO [kas]:** Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade. {kime: peri, ekran: peri+cengo, yuz: peri.sasirmis}
 **PERİ [kas]:** Papyonun yamuk. {ekran: peri+cengo, yuz: cengo.kas}
 **CENGO [kas]:** Gelin de öyle dedi. Böyle kalsın. {ekran: peri+cengo, yuz: peri.kas}
-*Kapı çalınıyor. Eşikte siyah küt saçlı, kırmızı rujlu, gri ekose ceketli bir kadın.* {kare: K152}
+*Kapı çalınıyor. Eşikte kırmızı rujlu, gri ekose ceketli bir kadın.* {kare: K152}
 **SÜHEYLA [normal]:** Paravan Dedektiflik? Süheyla. Nişantaşı'nda bir müzayede evim var. Vaktim az. {gir: suheyla, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 *Süheyla Peri'yi baştan aşağı süzüyor.* {gir: suheyla, gi: suzuyor, ekran: peri+suheyla, yuz: peri.normal}
 **SÜHEYLA [suzuyor]:** Sizi bir yerden tanıyorum. Kozmetik reklamı mı? {kime: peri, ekran: peri+suheyla, yuz: peri.normal}
@@ -202,7 +202,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: Nesrin'i gösteren bilgi yok (onarımı söylemez; söylerse yalan değil, susar). Dün gece depo Vedat'ı gösterir (yanıltır).
 
 *Müzayede evinin arka avlusu. Duvar dibinde kediler, köşede bir çöp konteyneri.* {arka: A54, mekan}
-*Uzun kır saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.* {gir: nesrin, gi: normal, ekran: nesrin}
+*Uzun saçı tek örgüyle omzunda, boya lekeli lacivert önlüklü ince bir kadın; bir basamakta oturmuş, kedilere bakıyor.* {gir: nesrin, gi: normal, ekran: nesrin}
 *Cengo hiçbir şey demeden yanına oturuyor; kediler ona sokuluyor. Bir süre ikisi de konuşmuyor.* {kare: K131}
 **NESRİN [normal]:** Kediler sizi sevdi. Herkesi sevmezler. {kime: cengo, kare: K131}
 **CENGO [yumusak]:** Simit kokuyorum. {kime: nesrin, kare: K131}
@@ -514,7 +514,7 @@ kodlardan sonra: A50, D22, K124.
 | K144 | Kaan pamuk ve masa örtüsüyle; Peri yüzünü siliyor, eldivenleri çıkarmış, elbise pırıl pırıl | kovalamaca sonu |
 | K145 | çerçeve odası: Nesrin taburede, Peri ve Cengo karşısında, Cengo'nun elinde rulo | itiraf |
 | K146 | papyon Cengo'nun cebinde, Cengo kapıdan çıkıyor; Peri kulak arkasını siliyor | kapanış (bağ düşük) |
-| K152 | Süheyla eşikte: siyah küt saç, kırmızı ruj, gri ekose ceket (yalnız) | giriş |
+| K152 | Süheyla eşikte: kırmızı ruj, gri ekose ceket (yalnız) | giriş |
 | K153 | büro, gece: Peri masada, elbisesiyle; önünde açık kadife kutu, masada gümüş taç (takmıyor, bakıyor) | kapanış |
 | K154 | çerçeve odası: Nesrin taburede, masada açık rulo tuval; Peri (eldivensiz, pırıl pırıl elbise) ve Cengo (smokin) karşısında | karar sorusu, seçim anı |
 | K147 | Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle | kapanış (bağ yüksek) |
