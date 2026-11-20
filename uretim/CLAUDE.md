@@ -3,6 +3,45 @@
 Önce depo kökündeki `CLAUDE.md`'yi oku. Görsel kurallar: `sablon/5_gorsel_sistemi.md` → **H. Görsel standart**.
 Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Codex deneyimi). Türkçe, kısa yaz.
 
+> ## ✅ ONAYLI KARARLAR — ÜRETİMDE GEÇERLİ (17 + 19 Kasım 2026, Barbaros)
+> Aşağıdaki belgelerdeki eski bir metinle çelişirse **bu kutu geçerli**. Belgeler kurallar tek dosyada toplanırken düzeltilecek
+> (`sablon/kurallar/PLAN.md`). Kaynak: `sablon/kurallar/adim2/SORULAR.md` (sorunun numarası parantezde).
+>
+> **Peri ve Cengo**
+> - Cengo'da her vakada aynı kalan: **yüz, saç, tel, bileklik.** Ceket dahil kıyafet her vakada değişir; "haki ceket" yalnız bir vakanın kıyafetiydi (17; saç 19 Kasım).
+> - Dönen kişilerin (Peri, Cengo, Gizem…) yüzü ve kimliği aynı kalır; kıyafet, saç, takı vakaya göre değişir — Cengo'nun saçı hariç (30).
+> - Peri'de külotlu çorap yok; "bacak görünen kadına ten rengi külotlu çorap" öbür kadınlar için geçerli (15).
+> - Kapalı yakalı kıyafette de Peri'nin üst düğmeleri açık çizilir; dekolte asla azaltılmaz (32).
+> - Felaket ve komedi karesinde Peri isteminde "seksi" yazılır; filtrenin sebebi referanstaki dekolte, kelime değil (9).
+> - Cengo'nun neden Peri'nin yanında olduğu bilinir: alacağı var. "Kimse bilmiyor" sözü kalktı (18).
+>
+> **Resim ve istem**
+> - İfade sayısını satırlar belirler: Cengo'ya sabit "4 ifade" yok; konuğa "2–3 ifade" yalnız tahmin, satırlar isterse fazlası üretilir; "görsel sayısı azaltılmaz, dörder ifade" kalktı (28, 29, 31).
+> - Kıyafet kartı referans verilir, kıyafet istemde sözle tarif edilmez; yalnız kartta görünmeyen dekolte derinliği ve o satırın hâli (açık, lekeli) yazılır (10).
+> - Açılıp kapanan kıyafetin iki hâli **iki ayrı kart** (12). Kıyafet kartı **her konuğa** üretilir (13).
+> - Dekoltesiz temelin türevinde referans **bütün temel resim**; baş kırpığı yalnız dekolteli temelde (14).
+> - Konuk figürü de **4:5 (1122×1402)**, herkesle aynı (11). Figür zemini bej değil, **kıyafete göre programla seçilir** (16).
+> - Yüz her resimde **kadrajın soluna** bakar (5).
+> - Kadın konuk boyu yeni tablodaki **0.92–1.00**; eski "0.76–0.82" kalktı (7).
+> - Kesimden sonra elle hale temizliği yok: büyütüp bakılır, hale kalırsa yeniden kesilir ya da üretilir (6). Kesim profili yalnız çerçeveyi belirler; eski renk ayarları kalktı (8).
+> - Denetleyen Claude `referanslar/`'a baş kırpığı koyabilir; var olan dosyayı değiştirmez (2).
+> - 3. kez reddedilen resim üretimi durdurmaz: web listesine yazılır, sonda tek listede gelir (3). Rapor sonundaki "Codex'e üret yaz" adımı kalktı (4).
+> - Resimleri Codex döngüsü üretir; iş sayfası yalnız web'de üretilecek resimler için (40).
+> - Barbaros da üretimi yürütebilir; resim onayında son söz o oturumda üretimi yürütende (41).
+> - Ekranda "Peri solda, sağda tek konuk" yalnız Vaka 1–5'in eski düzeni; Vaka 6'dan beri 16 Kasım kararı geçerli (1).
+>
+> **Metin ve vaka**
+> - Replik **anlaşılır** yazılır, telefon kutusuna sığar (~110 harf); "kısa replik, bir satırı geçen bölünür" kalktı (33).
+> - Cengo'nun teliyle bulunan kanıtın mahkemede geçmemesi gerçek bedel değil, yalnız espri (21b) (34).
+> - Kasa yok, para sayılmaz: sezon tablosunda "kasa dolu/boş", "kasaya bir şey girmedi", "ay sonu gideri 35.000 ₺" kalktı (35, 36).
+> - Yeni vaka gelince oyuncuya bir kez "yeni vaka geldi" kartı çıkar (26). İlk iki vaka reklamsız; "3. vaka da bedava" kalktı (25).
+> - YouTube Shorts 28–55 sn (27).
+>
+> **Kod ve çalışma** (kodu ilgilendirenler yapıldı)
+> - Doğrulayıcı önizleme, ücret kesintisi, kasa ve "Kasaya" satırı istemez; K8 yeni oyunda çalışmaz (19, 20, 21, 37).
+> - Kapı her commit'te kendiliğinden çalışır (24). Oyun her konuşmayı kaydeder (23). Eski oyun "6 + 3" vaka (22).
+> - Yalnız `main`'e gönderilir (38). Sahibine tek öneri + kısa gerekçe sunulur, seçenek listesi değil (39).
+
 ## Her oturumda
 
 - **Başlarken:** `git pull`. Sonra `uretim/v<N>/DURUM.md`'yi oku.
@@ -26,7 +65,7 @@ Ayrıntılı geçmiş ve gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Co
 | karakter | sabit |
 |---|---|
 | Peri | kırmızı stiletto (görünüyorsa HER resimde), çorap yok — **istisna:** vakanın formu başka ayakkabı yazıyorsa o (Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı) |
-| Cengo | haki ceket, renkli boncuklu bileklik |
+| Cengo | yüz, saç, tel, renkli boncuklu bileklik — her vakada aynı; ceket dahil kıyafet vakanın formundan |
 | Ferruh | kalem gibi ince bıyık, bordo papyon |
 | Gizem | bal rengi kâküllü saç, çil |
 | Müzeyyen (V6) | kısa kül sarısı mizanpli saç, ince uzun, lacivert puantiyeli elbise + ince lacivert hırka, inci kolye, gözlük yok |

@@ -11,6 +11,10 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 > sıfırlanır); kural toplama işini Oğuz Bey'in hesabıyla sürdürecek. Aşağıdaki "kurallar Barbaros'ta / Barbaros'a danışılır" sözleri bu
 > kararla askıda; Barbaros geri alana dek geçerli. Kural işi: `sablon/kurallar/PLAN.md` en üst kutu.
 >
+> ### ✅ ONAYLI 41 KARAR + CENGO'NUN SAÇI (17 + 19 Kasım 2026): kısa liste `uretim/CLAUDE.md` en üstte — üretim (metin ve resim)
+> ### onu okur; eski belge metniyle çelişirse liste geçerli. Örn.: Cengo'da sabit yalnız yüz, saç, tel, bileklik (ceket değişir);
+> ### ifade sayısını satırlar belirler; konuk figürü 4:5; figür zemini programla; Peri'de çorap yok; replik anlaşılır (~110 harf).
+>
 > ### ✅ VAKA 6 DONDU (15 Kasım 2026, adım 14): Onay 3 düzeltmeleri gömüldü, kapı GEÇTİ, sızıntı taraması temiz, tablet ve
 > ### 19 ekran boyu denetimi geçti. Sıradaki iş sahibinde — `kaynak/DEVIR.md` en üst.
 > ### Durum `uretim/v6/DURUM.md` en üst. Vaka 7 üretimi Oğuz Bey'de. Her resim önce `kaynak/arac_tarz.py`

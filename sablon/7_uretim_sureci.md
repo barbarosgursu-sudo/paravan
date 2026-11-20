@@ -2,6 +2,8 @@
 
 Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 
+> **Onaylı kararlar (17 + 19 Kasım 2026):** 41 çelişki cevabı ve Cengo'nun saçı kısa liste olarak `uretim/CLAUDE.md` en üstünde. Bu belgedeki eski bir metinle çelişirse o liste geçerli.
+
 ## Adımlar
 
 | # | adım | kim | çıkış şartı |

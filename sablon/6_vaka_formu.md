@@ -4,6 +4,8 @@ Her vaka bu formu doldurarak başlar. Diyalog, veri ve görsel bu formdan türet
 **Form onaylanmadan diyalog yazılmaz, görsel üretilmez.**
 Hikâye değişecekse önce form değişir.
 
+> **Onaylı kararlar (17 + 19 Kasım 2026):** 41 çelişki cevabı ve Cengo'nun saçı kısa liste olarak `uretim/CLAUDE.md` en üstünde. Bu belgedeki eski bir metinle çelişirse o liste geçerli.
+
 **Güncel kurallar (19 Kasım 2026, Vaka 7'den sonra işlendi):** kasa yok, para yalnız hikâyede (kural 24, 25) · karar
 sahnede, soran var, Cengo söylenmeyen kanıtı söyler (22a–d) · sigara yok (19a) · konuklar birbirine benzemez (15c) ·
 replik anlaşılır, telefon kutusuna sığar (~110 harf, kural 5) · Peri ve Cengo'nun ifade sayısını satırlar belirler, sabit

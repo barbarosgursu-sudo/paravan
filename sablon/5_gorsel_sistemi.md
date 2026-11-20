@@ -2,6 +2,8 @@
 
 Görseller hikâye onaylandıktan **sonra** üretilir. Liste vaka formundan çıkar.
 
+> **Onaylı kararlar (17 + 19 Kasım 2026):** 41 çelişki cevabı ve Cengo'nun saçı kısa liste olarak `uretim/CLAUDE.md` en üstünde. Bu belgedeki eski bir metinle çelişirse o liste geçerli.
+
 ## A. Görsel türleri
 
 | tür | ne | boyut |
@@ -9,7 +11,7 @@ Görseller hikâye onaylandıktan **sonra** üretilir. Liste vaka formundan çı
 | **Arka plan** | mekân, insansız | 900×1200 |
 | **Ara kare** | tam ekran an (kovalamaca, karar sonucu) | 900×1200 |
 | **Detay** | yakın çekim nesne (kilit, pruva) | 900×1200 |
-| **Figür** | karakter, düz bej zemin, uyluk ortasından yukarı | Peri ve Cengo 1122×1402, konuk 1086×1448 |
+| **Figür** | karakter, düz tek renk zemin (renk kıyafete göre programla seçilir), uyluk ortasından yukarı | herkes 1122×1402 (4:5) |
 | **Kart afişi** | paylaşım kartı: vakanın kadrosu + mekânı, ipucusuz (bkz. G) | dikey 9:16 (ChatGPT ~941×1672) |
 
 - Bütün görseller WebP, kalite 80.

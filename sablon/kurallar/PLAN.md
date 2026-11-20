@@ -9,6 +9,9 @@
 > benzerliği denetimi (önce sahibinin kısa onayı), (3) üretim yeniden başlar. Adım 3–4 bundan SONRA, arka planda. Açık soru yok.
 > Hesap: Barbaros'un sınırı azalınca son durum buraya yazılır, iş Oğuz Bey'in hesabından sürer (o hesap her şeye yetkili).
 > Sahibine en kısa, en basit Türkçe (§0).
+> **(1) BİTTİ (20 Kasım 2026):** kısa liste `uretim/CLAUDE.md` en üstte; kök `CLAUDE.md` ve `sablon/` 5, 6, 7 en üstte ona
+> işaret eder. Ayrıca iki açık çelişki hemen düzeltildi: `uretim/CLAUDE.md` Cengo satırı (haki ceket → yüz, saç, tel, bileklik) ve 5. parça
+> A figür satırı (bej → programla zemin; konuk 4:5). **Sırada (2):** benzerlik denetimi — önce sahibinin kısa onayı.
 >
 > **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
 > kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında
