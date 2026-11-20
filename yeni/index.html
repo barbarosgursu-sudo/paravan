@@ -2406,8 +2406,8 @@ function yenidenBasla(){
 
 // ============================================================================
 // YENİ OYUN MOTORU EKİ (Peri & Cengo) — motor.js'in ÜSTÜNE, ona dokunmadan.
-// Şablon: sablon/1_oyun_yapisi.md ("Kim yaptı? ekranı", "Karar") ve
-// sablon/2_kural_kitabi.md kural 22a–d ve 24 (karar sahnede; kasa yok, para yalnız hikâyede).
+// Kurallar: YAPI-13, YAPI-14 (Kim yaptı?), YAPI-22…26 (karar sahnede) ve YAPI-31 (kasa yok, para yalnız hikâyede)
+// — sablon/kurallar/KURALLAR.md.
 //
 // Neden ayrı dosya: motor.js eski oyunun sayfasına da gömülüyor ve o sayfa
 // derlemede BİREBİR aynı çıkmalı. Yeni oyunun kuralları burada yaşar; eski
@@ -2430,7 +2430,7 @@ const BAG_ESIK = 1;
 class OyunYeni extends Oyun {
   _ky() { const a = this.durum.aktif; return (a && a.vaka.kim_yapti) || null; }
 
-  // Ekranda yalnız oyuncunun adını duyduğu şüpheliler (1. parça, "Ekranda ne görünür").
+  // Ekranda yalnız oyuncunun adını duyduğu şüpheliler (BILGI-12).
   supheliler() {
     const ky = this._ky(); if (!ky) return [];
     const a = this.durum.aktif;
@@ -2483,7 +2483,7 @@ class OyunYeni extends Oyun {
     return { tamam, eksik, eldeCiftVar: !!yakin };
   }
 
-  // Tek hak: oyuncu bir kez suçlar (1. parça).
+  // Tek hak: oyuncu bir kez suçlar (YAPI-13).
   suclama(supheliId, kanitIdleri) {
     const a = this.durum.aktif, ky = this._ky();
     if (!a || !ky) return { hata: "bu vakada Kim yaptı? yok" };
@@ -2498,7 +2498,7 @@ class OyunYeni extends Oyun {
     return { sonuc, ucret: ky.ucret[sonuc], sahne };
   }
 
-  // Kapı yok: suçlamadan sonra dört karar da açık (1. parça, "Karar").
+  // Kapı yok: suçlamadan sonra dört karar da açık (YAPI-22).
   acikKararlar() {
     const a = this.durum.aktif;
     if (!this._ky()) return super.acikKararlar();
@@ -2506,7 +2506,7 @@ class OyunYeni extends Oyun {
     return a.vaka.decisions.map(d => ({ id: d.id, etiket: d.etiket }));
   }
 
-  // KASA YOK (sahibinin kararı, 16 Kasım 2026; 2. parça kural 24): para yalnız hikâyede. Ücret ve
+  // KASA YOK (sahibinin kararı, 16 Kasım 2026; YAPI-31): para yalnız hikâyede. Ücret ve
   // karar parası veride hikâyenin rakamı olarak durabilir ama kasaya girmez; taban motorun para
   // hesabı (karar parası, giderler) karardan sonra geri alınır. durum.para hiç değişmez.
   kararVer(id) {
@@ -2530,7 +2530,7 @@ class OyunYeni extends Oyun {
 
   bagYuksek() { return this.durum.cengoBag >= BAG_ESIK; }
 
-  /* Ödüllü reklamla ek araştırma hakkı (YENI_OYUN_CERCEVE.md, 16 Ekim 2026): vaka başına bir
+  /* Ödüllü reklamla ek araştırma hakkı (RAF-52, 16 Ekim 2026): vaka başına bir
      kez, suçlamadan önce. Reklam başarı satmaz — her vaka reklamsız haklarla `doğru` çözülür
      (test_yeni_v2.js sınar). Hak kayıtta tutulur; yüklerken bütçe +1 kurulur, yoksa açılmış
      dördüncü ipucu "hak bitti" diye geri yüklenemez. */
@@ -2585,7 +2585,7 @@ class OyunYeni extends Oyun {
    karşısındaki hep ekranda (sahibinin kararı, 9 Ekim 2026). Cengo konuk varken
    Peri'ye konuşuyorsa satıra `kime: peri` yazılır: Cengo eskisi gibi sağa geçer.
    Konuk satırında `kime: peri|cengo` solda kimin duracağını seçer (yoksa sol değişmez).
-   Konuk satırında `kime: <başka konuk>` (SR-G, 8 Kasım 2026): konuşan konuk SOLA geçer (aynalı),
+   Konuk satırında `kime: <başka konuk>` (SATIR-5, 8 Kasım 2026): konuşan konuk SOLA geçer (aynalı),
    hitap edilen sağda; Peri o satırda ekranda değil. Aynı iki kişi karşılıklı konuşmayı sürdürürse
    yerleri sabit kalır, yalnız konuşan aydınlanır (16 Kasım 2026; `ekran` etiketinin sırası o an ezilmez). Peri/Cengo konuşunca ya da soldaki konuk
    `kime`siz konuşunca sol yine Peri'ye döner. */
@@ -2768,7 +2768,7 @@ function vnFigurCiz(satir){
     sol.hidden = false;
     if(sol.dataset.src !== "sol:" + anahtar){ sol.innerHTML = yt ? vnYerTutucu(anahtar, "cengo") : `<img alt="Cengo" src="${src}">`; sol.dataset.src = "sol:" + anahtar; }
   }
-  // Solda konuk: başka bir konuğa konuşuyor (SR-G; aynalı, sağdakine bakar). Sağdakiyle aynı çerçeve ve boy.
+  // Solda konuk: başka bir konuğa konuşuyor (SATIR-5; aynalı, sağdakine bakar). Sağdakiyle aynı çerçeve ve boy.
   const solKonuk = !solCengo && vn.sol !== "peri" && vn.sol !== vn.sag && vn.mevcut.has(vn.sol)
     && !!SAHNE_KANON.figurler[vn.sol] ? vn.sol : null;
   sol.classList.toggle("konuk", !!solKonuk);
@@ -2841,12 +2841,12 @@ function vnSatirGoster(satir){
   // Cengo yalnız SAĞDA bir konuk duruyorsa sola geçer; sağ boşsa ya da Cengo'nun kendisiyse
   // (konuk çıktı) sola geçmek iki Cengo çizer.
   const konukVar = !!vn.sag && vn.sag !== "cengo" && vn.mevcut.has(vn.sag);
-  // Konuk konuğa konuşuyor ({kime: <konuk>}; SR-G, 8 Kasım 2026): konuşan SOLA geçer (aynalı),
+  // Konuk konuğa konuşuyor ({kime: <konuk>}; SATIR-5, 8 Kasım 2026): konuşan SOLA geçer (aynalı),
   // hitap edilen sağda — ikisi de ekranda. Peri o satırda ekrandan çıkar.
   const konukMu = x => !!x && x !== "peri" && x !== "cengo" && !!SAHNE_KANON.figurler[x];
   const konukKonuga = konukMu(k) && konukMu(satir.kime) && satir.kime !== k;
   if(konukKonuga){ vn.mevcut.add(k); vn.mevcut.add(satir.kime); vn.sol = k; vn.sag = satir.kime; }
-  // Peri birine konuşuyorsa ({kime: x}) o kişi sağa gelir — sahnedeyse (SR-A; 13 Kasım 2026, sahibinin kararı:
+  // Peri birine konuşuyorsa ({kime: x}) o kişi sağa gelir — sahnedeyse (SATIR-3; 13 Kasım 2026, sahibinin kararı:
   // hitap bayrakları kuralla kapanır). Cengo→Peri'nin aynası; ekrandaki konuk o satırda çekilir, konuşunca döner.
   else if(k === "peri"){ vn.sol = "peri";
     if(satir.kime && satir.kime !== "peri" && vn.mevcut.has(satir.kime) && SAHNE_KANON.figurler[satir.kime]) vn.sag = satir.kime; }
@@ -2870,7 +2870,7 @@ function vnSatirGoster(satir){
   if(satir.ekran){
     const e = String(satir.ekran).split("+").map(x => x.trim()).filter(Boolean);
     e.forEach(x => vn.mevcut.add(x));
-    // Aynı iki kişi önceki satırda da ekrandaysa yerleri sabit kalır; yalnız konuşan aydınlanır (SR-G, 16 Kasım 2026,
+    // Aynı iki kişi önceki satırda da ekrandaysa yerleri sabit kalır; yalnız konuşan aydınlanır (ARAYUZ-17, 16 Kasım 2026,
     // sahibinin kararı: Gizem ↔ Eylül her satırda yer değiştiriyordu). Peri hep solda, ona dokunulmaz.
     const ayniCift = e.length >= 2 && !e.includes("peri") && onceSol === e[1] && onceSag === e[0]
       && onceVar(e[0]) && onceVar(e[1]) && !onceYalniz;
@@ -3176,7 +3176,7 @@ function ipucuKarti(c, r, yeni){
   app.innerHTML = h; scrollUst();
 }
 
-/* ---------- Kim yaptı? (sablon/1_oyun_yapisi.md) ----------
+/* ---------- Kim yaptı? (YAPI-13, YAPI-14) ----------
    Sıra: araştırma → Kim yaptı? → yüzleşme → kovalamaca → karar → kapanış.
    Suçlama tek haktır; yapıldıktan sonra araştırmaya dönülmez. */
 const _eskiArastirmaFazi = arastirmaFazi;
@@ -3313,7 +3313,7 @@ function kySucla(){
   akisBaslat("yuzlesme", { vaka: a.id, sahne: r.sahne });
 }
 
-/* ---------- Karar anı (sahibinin kararı, 16 Kasım 2026; 2. parça kural 22a–d) ----------
+/* ---------- Karar anı (sahibinin kararı, 16 Kasım 2026; YAPI-23…26) ----------
    Eskiden: "Dosya çözüldü" sayfası → dört kartlı karar menüsü (önizleme, "Kasaya …", Cengo'nun tavrı) →
    sonuç sayfası + hesap kutusu. Şimdi sahne kesilmez:
    kovalamaca → KARAR SAHNESİ (sahnedeki biri sorar, Peri'nin ağzından seçenekler; rakam/tavır/önizleme yok)
@@ -3450,7 +3450,7 @@ function dosyaKartiGoster(){
   h += '</div>';
   app.innerHTML = h; scrollUst();
 }
-/* ---------- Ödüllü reklam (DENEME) — YENI_OYUN_CERCEVE.md, 16 Ekim 2026 ----------
+/* ---------- Ödüllü reklam (DENEME) — ARAYUZ-36, RAF-52, 16 Ekim 2026 ----------
    Web sayfasında gerçek reklam yok: bu pencere reklamı taklit eder (sayaç, sonra "Ödülü al").
    Android aşamasında reklamGoster'ın içi gerçek ödüllü reklam SDK'sıyla değişir; çağıranlar aynı kalır.
    Kapatırsan ödül yok (gerçek ödüllü reklamdaki gibi). Reklam hiçbir zaman sonucu, parayı, bağı
@@ -3535,7 +3535,7 @@ function kacanIzle(id){
 }
 
 
-/* Cengo bağı ekranda görünmez: sayı, alev, kelime yok (kural kitabı 11). Bağ yalnız
+/* Cengo bağı ekranda görünmez: sayı, alev, kelime yok (KAR-15). Bağ yalnız
    kapanışın iki hâlinde hissedilir (12a). Eski arayüzün göstergesi bu sayfada boş döner. */
 cengoGosterge = function(){ return ""; };
 
