@@ -4,7 +4,34 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
-> ## ▶️ YENİ PENCERE: BURADAN BAŞLA (güncel: 20 Kasım 2026)
+> ## ▶️ YENİ PENCERE: BURADAN BAŞLA (güncel: 20 Kasım 2026 öğleden sonra)
+> **SAHİBİNİN KARARI (Barbaros, 20 Kasım 2026): ÖNCE KURALLAR, ÜRETİM YOK.** Sözleri: "Kurallar olmadan bir şeyler üretmemiz hem
+> işleri karıştırıyor hem de sürekli aynı şeyleri tekrar tekrar yapmamıza neden oluyor. Tekrar resim üretme, tekrar yazma…" ve "kural
+> sadeleştirme işini ve kuralların hepsini düzeltip otomatik uygulama işini yapmıyor muyuz?" → Aşağıdaki eski "ANLAŞILAN SIRA"nın
+> "(3) üretim yeniden başlar" adımı **GEÇERSİZ**. Vaka 7/8 resim üretimi, Vaka 1–4 geçişi ve benzeri işler kural işi bitene dek
+> önerilmez. **Bu pencerede yapılacak iş: Adım 3** (aşağıda "Sıradaki iş" madde 3 ve §4 Adım 3), sonra **Adım 4** (otomatik uygulama).
+>
+> **Sahibiyle konuşma (20 Kasım'da üç kez bozuldu, tekrarlama):**
+> - En kısa, en basit Türkçe; önce sonuç. Uzun işte **en geç 3 dakikada bir** 1–3 satır durum yaz ("bana 3 dakikada bir durumu yaz;
+>   bir sorun varsa zamanında söyle").
+> - Bir araç ya da hook işi durdurursa **hemen ve doğru sebebiyle** söyle. Araç çağrısı "The user doesn't want to take this action"
+>   diye dönerse bu sahibinin reddi DEĞİL olabilir: commit'te `.claude/kapi_hook.js` (kapı) durdurur; başka komutlarda sahibi tam o an
+>   mesaj yazıyordu (kesin değil). "Siz durdurdunuz" deme — sahibi hiçbir şeyi reddetmemişti ve buna çok kızdı.
+> - Sahibini kural işinden başka işe (üretim) çekme.
+>
+> **20 Kasım'da bu pencerede biten (hepsi `main`'de):**
+> - Benzerlik denetimi iki parça tamam: yazı (`kaynak/arac_benzerlik.js`) + resim (`kaynak/arac_benzerlik_resim.py`; yüz + baş/saç + bütün
+>   figür; sınır her çalıştırmada bilinen 4 benzer çiftten kendiliğinden; ölçü ayırt edemezse DUR, çıkış 3). Döngüye bağlı, kural
+>   `uretim/CLAUDE.md` Denetim 0b2. Bu Adım 4'ün (otomatik uygulama) ilk örneği sayılabilir.
+> - Vaka 7: Süheyla (Jale'ye benziyordu) ve Nesrin (Nadide'ye) yeni görünüşle yazıldı; resimleri ÜRETİLMEDİ (üretim yok, yukarıda).
+>   Hikâye aynı, yalnız diyalog satır 47 ve 205'ten saç tarifi çıktı. `kaynak/yeni/gorseller.json` → K152 tarifi bilerek eski
+>   (`uretim/v7/DURUM.md` en üst).
+> - **Kapı değişti (sahibinin kararı):** commit kapısı yalnız DEĞİŞEN vakayı denetler. Ortak veride (game_data/kisiler.json) yalnız
+>   içinde değişen vakalar; ortak resim dosyaları resim kapısı açmaz (derleme yakalar); `yeni/index.html` kapı açmaz. Önceden ortak
+>   bir dosyaya dokunmak V6–V8'in hepsini denetletiyor, resimsiz V7–V8 her commit'i durduruyordu. Kuru deneme: komutu
+>   `{"tool_input":{"command":"git commit …"}}` olarak `KAPI_KURU=1 node .claude/kapi_hook.js`'e ver → hangi kapıları koşacağını basar.
+>
+> ### Önceki kutu (20 Kasım sabahı; "(3) üretim" adımı yukarıdaki kararla geçersiz)
 > **BUGÜNKÜ İŞ, SIRAYLA:** aşağıdaki "ANLAŞILAN SIRA" (1) 41 karar + Cengo'nun saçı → üretim belgelerinin en üstüne, (2) konuk
 > benzerliği denetimi (önce sahibinin kısa onayı), (3) üretim yeniden başlar. Adım 3–4 bundan SONRA, arka planda. Açık soru yok.
 > Hesap: Barbaros'un sınırı azalınca son durum buraya yazılır, iş Oğuz Bey'in hesabından sürer (o hesap her şeye yetkili).
@@ -24,7 +51,7 @@
 > Necmi–Recep, Müzeyyen–Nadide yakalandı; eski Kaan Bülent'e değil Cengo'ya daha çok benzedi (resimde de öyle). Eski Şükrü ve Ercan
 > da yakalandı. Döngüye bağlı (`uretim/dongu.sh`), kural `uretim/CLAUDE.md` Denetim 0b2. Bugün: V7 G4 Süheyla KALDI (Jale), G5 Nesrin
 > ŞÜPHELİ (Nadide), G7 Vedat GEÇTİ. Eski vakalarda 7 benzer çift kalmış (`--havuz-ici`; bilgi). Sahibinin kararıyla sınır her çalıştırmada bilinen çiftlerden
-> kendiliğinden hesaplanır; ölçü ayırt edemez hâle gelirse araç DUR der. **Sırada: (3) üretim.**
+> kendiliğinden hesaplanır; ölçü ayırt edemez hâle gelirse araç DUR der. (Öğleden sonra: sahibi "önce kurallar, üretim yok" dedi — en üst kutu.)
 >
 > **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
 > kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında

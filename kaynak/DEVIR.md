@@ -8,6 +8,10 @@
 
 ---
 
+> ## 🛑 BARBAROS (20 Kasım 2026, öğleden sonra): ÖNCE KURALLAR, ÜRETİM YOK
+> Kural işi (Adım 3 tek `KURALLAR.md`, Adım 4 otomatik uygulama) bitmeden Vaka 7/8 resimleri ya da Vaka 1–4 geçişi önerilmez.
+> Aşağıdaki "Sırada: Vaka 8'in resim aşaması…" bu kararla bekliyor. Durum ve sıradaki iş: `sablon/kurallar/PLAN.md` en üst kutu.
+
 > ## ✍️ ORTAKTAN BARBAROS'A (20 Kasım 2026, 03:45) — ✅ VAKA 8 ONAY 2 VERİLDİ, HİKÂYE DONDU
 > - Ortak: **"Vaka 8'i bu hâliyle bırakıyoruz."** Resimsiz oyun yayında (`…/paravan/yeni/`), metin `sablon/vakalar/vaka8_diyalog.md`,
 >   okunur hâli `vaka8_okuma.md` (satır numaralı). Form başına Onay 2 değişiklik kutusu, `vaka8_baslangic.md` süre tablosuna adım 6 yazıldı.

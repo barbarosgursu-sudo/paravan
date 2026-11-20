@@ -6,6 +6,10 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki **`index.html` derleme çıktısıdır — elle düzenlenmez.** Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
+> ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): kural sadeleştirme (Adım 3: tek `KURALLAR.md`) ve
+> ### otomatik uygulama (Adım 4) bitmeden resim/metin üretimi önerilmez. Yeni pencere: `sablon/kurallar/PLAN.md` en üst kutu.
+> ### Sahibine en kısa Türkçe, uzun işte en geç 3 dakikada bir durum. Commit kapısı artık yalnız değişen vakayı denetler.
+>
 > ### 🔑 YETKİ (17 Kasım 2026, Barbaros'un kararı): **Oğuz Bey'in hesabı Paravan'da HER ŞEYE yetkili** — kod, kurallar (kural
 > toplama işi dahil), metin, resim, yayın; Barbaros'a danışmadan karar verir ve yapar. Sebep: Barbaros'un haftalık sınırı doldu (Cuma
 > sıfırlanır); kural toplama işini Oğuz Bey'in hesabıyla sürdürecek. Aşağıdaki "kurallar Barbaros'ta / Barbaros'a danışılır" sözleri bu
