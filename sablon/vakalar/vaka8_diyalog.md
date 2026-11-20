@@ -7,9 +7,10 @@
 Yazım `vaka7_diyalog.md`'deki gibi. Vaka 8'in kıyafetleri (kıyafet hâli):
 - **Peri:** `manto8` (Vaka 1'deki kırmızı manto birebir: kruvaze, geniş açık yaka, kapaksız cepler, altında V yakalı krem
   saten bluz; **kuşak çözük, uçları sarkık**; dar siyah kalem etek, siyah stiletto; saç açık, dalgalı), `kilik` (aşçı
-  yardımcısı: mantonun üstünden beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah çerçeveli gözlük burnunun ucunda;
-  manto yakası ve bacak açıkta), `recel` (kovalamaca: `manto8` baştan aşağı vişne reçeli, saçta
-  reçel), `manto8_son` (temizlenmiş: Cengo'nun getirdiği yedek manto, aynısı; saçta reçel — kovalamaca sonu, karar, kapanış).
+  yardımcısı: manto YOK; krem saten bluz ve dar kalem eteğin üstünde beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah
+  çerçeveli gözlük burnunun ucunda; bluzun yakası ve bacak açıkta), `onluk8` (yüzleşme ve kovalamaca: aynı kılık, kep ve gözlük
+  çıkarılmış, saç açık), `recel` (kovalamaca: `onluk8` baştan aşağı vişne reçeli, saçta reçel), `manto8_son` (temizlenmiş:
+  önlüksüz; Cengo'nun arabada sakladığı AYNI kırmızı manto omzunda, kuşak çözük; saçta reçel. Vaka 8'de tek manto var, yedeği yok — kovalamaca sonu, karar, kapanış).
 - **Cengo:** `sofor` (lacivert iki sıra düğmeli şoför ceketi, kasket, beyaz eldiven, bir beden dar; tel cepte; bileklik),
   `sofor_dugmesiz` (son reçelden sonra bir düğme kopuk — kovalamaca ve karar), `ceket8` (kapanış: kendi ceketi,
   Vaka 1 temel setindeki ceket).
@@ -92,11 +93,12 @@ serbest (SR-A). Sigara yok (19a).
 **GİZEM [triko]:** Kılık lazım, Peri Hanım. Bahar Hanım'ın çantasında önlük, kep, bir de gözlük var. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
 **PERİ [kas]:** Ben aşçı mı olacağım, Gizem? {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
 **GİZEM [triko]:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
-*Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.* {kare: K158, set: kilik}
+*Peri çantayı alıp paravanın arkasına geçiyor; kırmızı mantosunu çıkarıp paravanın üstüne asıyor. Bir süre sonra çıkıyor: beyaz önlük saten bluzun üstünde beline sıkı bağlı, bluzun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.* {kare: K158, set: kilik}
 *Cengo elindeki simidi düşürüyor.* {kare: K158}
 **CENGO [gulen]:** *(sırıtarak)* Olmuş mu şimdi bu? Aşçı mı olmuş? {kare: K158}
 **PERİ [kas]:** Sen önce şoför ol, Cengo. {kare: K158}
 **CENGO [gulen]:** Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+*Peri Gizem'le çantayı karıştırırken Cengo çıkıyor; geçerken paravanın üstündeki kırmızı mantoyu sessizce koluna alıyor. Peri görmüyor.* {kare: K201}
 *Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.* {kare: K159, cset: sofor}
 **GİZEM [triko]:** Avukat sizi sesinizden tanımasın, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
 **PERİ [kas]:** Ben onu sesinden tanırım, Gizem. O beni görmeyecek. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
@@ -248,12 +250,13 @@ serbest (SR-A). Sigara yok (19a).
 ---
 
 ## sahne yuzlesme_dogru
-⚙ arka: A67 · figurler: peri, cengo · set: manto8 · cset: sofor
-⚙ akış: 19.20, atölyenin mutfağı. Bahar, Nevzat, Fikret (Bahar notlar için çağırdı), Tarkan. Peri kılığı çıkarmış, mantoda; Cengo kasketsiz. Ortak açılış: "Bu yöntemi ben bilirim… Bunu bana Nihat Kora yaptı." Peri iki kilidi sayar; Tarkan "Perihan Hanım" der, ağzından kaçar. Telefonu titrer; Nihat'ın adı paniğe sokar. Kapıya koşar.
+⚙ arka: A67 · figurler: peri, cengo · set: onluk8 · cset: sofor
+⚙ akış: 19.20, atölyenin mutfağı. Bahar, Nevzat, Fikret (Bahar notlar için çağırdı), Tarkan. Peri kepi ve gözlüğü çıkarmış, önlükle; Cengo kasketsiz. Ortak açılış: "Bu yöntemi ben bilirim… Bunu bana Nihat Kora yaptı." Peri iki kilidi sayar; Tarkan "Perihan Hanım" der, ağzından kaçar. Telefonu titrer; Nihat'ın adı paniğe sokar. Kapıya koşar.
 ⚙ Kanıtı adıyla anmaz ("şifre ve vekâlet" — iki olgunun ortak dili, hangi çift seçilirse seçilsin doğru).
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
+*Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.* {kare: K200, set: onluk8}
+**PERİ [kas]:** Kraliçe önlükle de suçlar. {kare: K200}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Bunu bana Nihat Kora yaptı. Bütün paramla gitti. {ekran: peri+bahar, yuz: bahar.sasirmis}
@@ -266,11 +269,12 @@ serbest (SR-A). Sigara yok (19a).
 *Tarkan kapıya koşuyor.* {kare: K170}
 
 ## sahne yuzlesme_zayif
-⚙ arka: A67 · figurler: peri, cengo · set: manto8 · cset: sofor
+⚙ arka: A67 · figurler: peri, cengo · set: onluk8 · cset: sofor
 ⚙ akış: Ortak açılış; Peri Tarkan'ı suçlar ama tutturamaz; Tarkan "vekâlet bende, işim bu". Peri Nihat'ın adını anar; telefon titrer; kaçar.
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
+*Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.* {kare: K200, set: onluk8}
+**PERİ [kas]:** Kraliçe önlükle de suçlar. {kare: K200}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Tarkan Bey. Bahar Hanım'ın parasını siz çektiniz. {gir: tarkan, kime: tarkan, ekran: peri+tarkan, yuz: tarkan.normal}
@@ -282,11 +286,12 @@ serbest (SR-A). Sigara yok (19a).
 *Tarkan kapıya koşuyor.* {kare: K170}
 
 ## sahne yuzlesme_nevzat
-⚙ arka: A67 · figurler: peri, cengo · set: manto8 · cset: sofor
+⚙ arka: A67 · figurler: peri, cengo · set: onluk8 · cset: sofor
 ⚙ akış: Ortak açılış; Peri Nevzat'ı suçlar; Nevzat kekeler: "o geceler stüdyodaydım"; Bahar ona bakar; Nevzat susar. Tarkan "muhasebe bulundu" diye ceketini alır; Peri Nihat'ın adını anar; telefon titrer; Tarkan kaçar.
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
+*Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.* {kare: K200, set: onluk8}
+**PERİ [kas]:** Kraliçe önlükle de suçlar. {kare: K200}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Nevzat Bey. Ödemeler sizin şifrenizle çıktı. Parayı siz çektiniz. {gir: nevzat, kime: nevzat, ekran: peri+nevzat, yuz: nevzat.gergin}
@@ -299,11 +304,12 @@ serbest (SR-A). Sigara yok (19a).
 *Tarkan kapıya koşuyor.* {kare: K170}
 
 ## sahne yuzlesme_fikret
-⚙ arka: A67 · figurler: peri, cengo · set: manto8 · cset: sofor
+⚙ arka: A67 · figurler: peri, cengo · set: onluk8 · cset: sofor
 ⚙ akış: Ortak açılış; Peri Fikret'i suçlar; Fikret bağırır: "Ben uyardım! Notları ben yazdım." Bahar donar. Tarkan geri çekilir; Peri Nihat'ın adını anar; telefon titrer; kaçar.
 
 *Atölyenin mutfağı. Bahar tezgâhın başında; Nevzat bir kenarda, Fikret kapının yanında, kollarını kavuşturmuş. Tarkan telefonuyla.* {kare: K169}
-*Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.* {kare: K200, set: manto8}
+*Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.* {kare: K200, set: onluk8}
+**PERİ [kas]:** Kraliçe önlükle de suçlar. {kare: K200}
 **BAHAR [sasirmis]:** Perihan? Siz yardımcı değil miydiniz? {gir: bahar, kime: peri, ekran: peri+bahar, yuz: peri.normal}
 **PERİ [normal]:** Bu yöntemi ben bilirim. Vekâlet, olmayan bir firma, bordroda bir yabancı. {kime: bahar, ekran: peri+bahar, yuz: bahar.sasirmis}
 **PERİ [kas]:** Fikret Usta. Bu yöntemi bilen biri yaptı. Siz biliyordunuz. {gir: fikret, kime: fikret, ekran: peri+fikret, yuz: fikret.huysuz}
@@ -316,11 +322,11 @@ serbest (SR-A). Sigara yok (19a).
 *Tarkan kapıya koşuyor.* {kare: K170}
 
 ## sahne kovalamaca
-⚙ arka: A68 · figurler: peri, cengo · set: manto8 · cset: sofor
-⚙ akış: Tarkan arabaya atlar; direksiyonda Cengo. "Yeniköy'e, yalıya!" Cengo bagajı açar, Peri mantosuyla lansman kasalarının arasına atlar. Sahil yolu: Tarkan telefonda payını ister; bagajda kavanozlar kırılır, Peri reçel olur (`recel`). Yalı: Tarkan iskeleye koşar; yalıdan valizli Nihat çıkar. Peri bagajdan doğrulur; Nihat: "Perihan?" İkisi tekneye koşar; Peri bir kavanoz fırlatır, kırılan reçele basıp kayarlar, birbirine çarpar, balıkçı ağına düşer. Cengo ipi bağlar. Hortum: Peri reçelli mantoyu çıkarıp temizlenir, Cengo yedek mantoyu omzuna koyar (`manto8_son`). Cengo'nun düğmesi kopmuş. İtiraf iskelede, ağın içinden.
+⚙ arka: A68 · figurler: peri, cengo · set: onluk8 · cset: sofor
+⚙ akış: Tarkan arabaya atlar; direksiyonda Cengo. "Yeniköy'e, yalıya!" Cengo bagajı açar, Peri önlüğüyle lansman kasalarının arasına atlar (manto Cengo'nun yan koltuğunda). Sahil yolu: Tarkan telefonda payını ister; bagajda kavanozlar kırılır, Peri reçel olur (`recel`). Yalı: Tarkan iskeleye koşar; yalıdan valizli Nihat çıkar. Peri bagajdan doğrulur; Nihat: "Perihan?" İkisi tekneye koşar; Peri bir kavanoz fırlatır, kırılan reçele basıp kayarlar, birbirine çarpar, balıkçı ağına düşer. Cengo ipi bağlar. Hortum: Peri reçelli önlüğü çıkarıp temizlenir, Cengo arabadan mantoyu getirip omzuna koyar (`manto8_son`). Cengo'nun düğmesi kopmuş. İtiraf iskelede, ağın içinden.
 ⚙ Her sonuçta aynı. Peri erotik + gülünç; felaketi vişne reçeli (müşterinin markası). Şans: fırlatılan reçel kavanozu. Kural 18: kimse yaralanmaz, alay edilmez; ağ yumuşak, ikisi kıpırdamadan durur. Bahar, Nevzat, Fikret itirafı duymaz.
 
-*Atölyenin önü, gece. Tarkan siyah bir arabanın arka kapısını açıp içeri atlıyor. Direksiyonda kasketiyle Cengo.* {arka: A68, kare: K173}
+*Atölyenin önü, gece. Tarkan siyah bir arabanın arka kapısını açıp içeri atlıyor. Direksiyonda kasketiyle Cengo; yan koltukta katlanmış kırmızı bir manto.* {arka: A68, kare: K173}
 **TARKAN [panik]:** Sür! Yeniköy'e, yalıya! {kare: K173}
 **CENGO [kas]:** Başüstüne, beyim. {kare: K173}
 *Peri koşarak geliyor; Cengo'nun onu görüp otomatik açtığı bagaja, lansman kasalarının arasına atlıyor.* {kare: K174}
@@ -328,7 +334,7 @@ serbest (SR-A). Sigara yok (19a).
 *Sahil yolu, gece. Boğaz'ın ışıkları. Araba virajları hızla alıyor.* {arka: A69, kare: K175}
 **TARKAN [panik]:** *(telefonda)* Geliyorum. Payımı hazırla, tekneyi çalıştır. {kare: K175}
 **CENGO [normal]:** Emniyet kemeriniz, beyim. {kare: K175}
-*Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; mantosu da saçı da kıpkırmızı.* {kare: K176, set: recel, peri: sinirli}
+*Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; önlüğü de saçı da kıpkırmızı.* {kare: K176, set: recel, peri: sinirli}
 **PERİ [sinirli]:** Bahar Hanım'ın reçeli gerçekten çok iyi. Her yerime işledi. {kare: K176}
 *Yeniköy. Boğaz kıyısında beyaz bir yalı; önünde uzun, ahşap bir iskele, ucunda bir tekne.* {arka: A70, kare: K177}
 *Tarkan arabadan fırlayıp iskeleye koşuyor. Yalının kapısından beyaz keten takımlı, gümüş saçlı, elinde deri bir valizle bir adam çıkıyor.* {kare: K178}
@@ -340,7 +346,7 @@ serbest (SR-A). Sigara yok (19a).
 **CENGO [gulen]:** İkisi bir torbada, beyim. Bahşiş? {kare: K181}
 *Peri Cengo'nun koluna tutunmuş, kaymamaya çalışıyor; reçelli, saçı dağınık, gülüyor.* {kare: K182}
 **PERİ [kas]:** Cengo, balık mı tutuyorsun? {kare: K182}
-*Cengo yalının bahçesinden bir hortum çekiyor. Peri reçelli mantoyu çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan yedek bir manto getirip omzuna koyuyor; saçında hâlâ reçel.* {kare: K183, set: manto8_son}
+*Cengo yalının bahçesinden bir hortum çekiyor. Peri reçelli önlüğü çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabanın yan koltuğundan kırmızı mantoyu getirip omzuna koyuyor; saçında hâlâ reçel.* {kare: K183, set: manto8_son}
 **CENGO [yumusak]:** Mantonun lazım olacağını tahmin etmiştim. {gir: cengo, kime: peri, ekran: peri+cengo, yuz: peri.kas}
 **PERİ [yumusak]:** Bu sefer kuşağı da lazım. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 *İskele. Ağın içinde Nihat ile Tarkan yan yana oturuyor; Peri ve Cengo karşılarında.* {kare: K184}
@@ -496,7 +502,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | K155 | giriş açılışı: Peri kırmızı mantoda, kuşak çözük, masada kadife kutu (yalnız) | giriş |
 | K156 | Bahar eşikte: platin pixie, çiçekli kaftan, elinde reçel kavanozu (yalnız) | giriş |
 | K157 | Peri ile Cengo birbirine bakıyor; Bahar konuşuyor | giriş |
-| K158 | Peri paravanın arkasından aşçı yardımcısı kılığında çıkıyor (önlük, kep, gözlük, manto yakası ve bacak açık); Cengo'nun elinden simit düşmüş; Gizem | konuşma, çekicilik |
+| K158 | Peri paravanın arkasından aşçı yardımcısı kılığında çıkıyor (önlük, kep, gözlük, bluzun yakası ve bacak açık); kırmızı manto paravanın üstünde asılı; Cengo'nun elinden simit düşmüş; Gizem | konuşma, çekicilik |
 | K159 | Cengo şoför kasketiyle aynada kendine selam veriyor | konuşma |
 | K160 | stüdyo: kılıktaki Peri kameranın önünde soğan doğruyor, ağlıyor | studyo |
 | K161 | kargo dükkânı: Cengo kolileri rafa diziyor, Yusuf izliyor | posta |
@@ -534,9 +540,11 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | K197 | Gizem çay ocağından, elinde tanıtım çantası (önlük, kep, gözlük görünür) | konuşma |
 | K198 | büro, gece: askıda şoför kasketi, Cengo kendi ceketiyle | kapanış |
 | K199 | kulis: Peri aynanın önünde telefonla konuşuyor (yalnız; telefondaki Gizem'in sesi) | kulis |
-| K200 | atölye: Peri paravanın arkasından mantoyla çıkıyor; herkes ona dönmüş | yüzleşme açılışı (dört sonuç) |
+| K200 | atölye: Peri paravanın arkasından önlükle çıkıyor (kep, gözlük yok, saç açık); herkes ona dönmüş | yüzleşme açılışı (dört sonuç) |
+| K201 | büro: Cengo çıkarken paravanın üstündeki kırmızı mantoyu koluna alıyor; arkada Peri ile Gizem çantaya eğilmiş, görmüyor | konuşma |
 | K192–K195 | dört kararın ara karesi (polis: ağı kesen polisler, mühürlenen valiz; anlaş: tekne karanlığa çıkıyor, Peri'nin elinde ağır çanta; oyun: Peri Nihat'ın elini sıkarken telefon kulağında; Ozan'ı bırak: Ozan yokuşa koşuyor, Nihat ağda) | kararlar |
-| Peri `manto8` | normal, kas, sinirli, merakli, sevincli, utanmis, sasirmis, yumusak | giriş, konuşma, yüzleşmeler |
+| Peri `manto8` | normal, kas, sinirli, merakli, sevincli, utanmis, sasirmis, yumusak | giriş, konuşma |
+| Peri `onluk8` | normal, kas, sinirli, utanmis, sasirmis, yumusak | yüzleşmeler, kovalamaca başı |
 | Peri `kilik` | normal, kas, merakli, utanmis, yumusak, sasirmis, sinirli | ipuçları, ters köşe |
 | Peri `recel` | sinirli, kas | kovalamaca |
 | Peri `manto8_son` | normal, kas, yumusak, utanmis, sinirli | kovalamaca sonu, itiraf, karar, kapanış |

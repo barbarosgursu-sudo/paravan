@@ -90,6 +90,7 @@
             ],
             "manto8": ["normal", "kas", "sinirli", "merakli", "sevincli", "utanmis", "sasirmis", "yumusak"],
             "kilik": ["normal", "kas", "merakli", "utanmis", "yumusak", "sasirmis", "sinirli"],
+            "onluk8": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "yumusak"],
             "recel": ["sinirli", "kas"],
             "manto8_son": ["normal", "kas", "yumusak", "utanmis", "sinirli"]
           }
@@ -532,7 +533,8 @@
         "K197",
         "K198",
         "K199",
-        "K200"
+        "K200",
+        "K201"
       ],
       "buro": ["A6", "A6b", "A7", "A8", "A58", "A59", "A60", "A71"]
     }
@@ -11061,7 +11063,7 @@
             },
             {
               "k": "not",
-              "m": "Peri çantayı alıp paravanın arkasına geçiyor. Bir süre sonra çıkıyor: beyaz önlük beline sıkı bağlı, mantonun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.",
+              "m": "Peri çantayı alıp paravanın arkasına geçiyor; kırmızı mantosunu çıkarıp paravanın üstüne asıyor. Bir süre sonra çıkıyor: beyaz önlük saten bluzun üstünde beline sıkı bağlı, bluzun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.",
               "kare": "K158",
               "set": "kilik"
             },
@@ -11075,6 +11077,11 @@
               "kime": "peri",
               "ekran": "peri+cengo",
               "yuz": "peri.kas"
+            },
+            {
+              "k": "not",
+              "m": "Peri Gizem'le çantayı karıştırırken Cengo çıkıyor; geçerken paravanın üstündeki kırmızı mantoyu sessizce koluna alıyor. Peri görmüyor.",
+              "kare": "K201"
             },
             {
               "k": "not",
@@ -11176,7 +11183,7 @@
         },
         "yuzlesme_dogru": {
           "arka": "A67",
-          "set": "manto8",
+          "set": "onluk8",
           "cset": "sofor",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -11187,10 +11194,11 @@
             },
             {
               "k": "not",
-              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "m": "Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.",
               "kare": "K200",
-              "set": "manto8"
+              "set": "onluk8"
             },
+            {"k": "peri", "i": "kas", "m": "Kraliçe önlükle de suçlar.", "kare": "K200"},
             {
               "k": "bahar",
               "i": "sasirmis",
@@ -11266,7 +11274,7 @@
         },
         "yuzlesme_zayif": {
           "arka": "A67",
-          "set": "manto8",
+          "set": "onluk8",
           "cset": "sofor",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -11277,10 +11285,11 @@
             },
             {
               "k": "not",
-              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "m": "Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.",
               "kare": "K200",
-              "set": "manto8"
+              "set": "onluk8"
             },
+            {"k": "peri", "i": "kas", "m": "Kraliçe önlükle de suçlar.", "kare": "K200"},
             {
               "k": "bahar",
               "i": "sasirmis",
@@ -11349,7 +11358,7 @@
         },
         "yuzlesme_nevzat": {
           "arka": "A67",
-          "set": "manto8",
+          "set": "onluk8",
           "cset": "sofor",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -11360,10 +11369,11 @@
             },
             {
               "k": "not",
-              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "m": "Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.",
               "kare": "K200",
-              "set": "manto8"
+              "set": "onluk8"
             },
+            {"k": "peri", "i": "kas", "m": "Kraliçe önlükle de suçlar.", "kare": "K200"},
             {
               "k": "bahar",
               "i": "sasirmis",
@@ -11436,7 +11446,7 @@
         },
         "yuzlesme_fikret": {
           "arka": "A67",
-          "set": "manto8",
+          "set": "onluk8",
           "cset": "sofor",
           "figurler": ["peri", "cengo"],
           "satirlar": [
@@ -11447,10 +11457,11 @@
             },
             {
               "k": "not",
-              "m": "Peri paravanın arkasından çıkıyor; önlüğü, kepi, gözlüğü çıkarmış, kırmızı mantosuyla.",
+              "m": "Peri paravanın arkasından çıkıyor; kepi, gözlüğü çıkarmış, saçı açık, önlüğü üstünde.",
               "kare": "K200",
-              "set": "manto8"
+              "set": "onluk8"
             },
+            {"k": "peri", "i": "kas", "m": "Kraliçe önlükle de suçlar.", "kare": "K200"},
             {
               "k": "bahar",
               "i": "sasirmis",
@@ -11514,13 +11525,13 @@
         },
         "kovalamaca": {
           "arka": "A68",
-          "set": "manto8",
+          "set": "onluk8",
           "cset": "sofor",
           "figurler": ["peri", "cengo"],
           "satirlar": [
             {
               "k": "not",
-              "m": "Atölyenin önü, gece. Tarkan siyah bir arabanın arka kapısını açıp içeri atlıyor. Direksiyonda kasketiyle Cengo.",
+              "m": "Atölyenin önü, gece. Tarkan siyah bir arabanın arka kapısını açıp içeri atlıyor. Direksiyonda kasketiyle Cengo; yan koltukta katlanmış kırmızı bir manto.",
               "arka": "A68",
               "kare": "K173"
             },
@@ -11547,7 +11558,7 @@
             {"k": "cengo", "i": "normal", "m": "Emniyet kemeriniz, beyim.", "kare": "K175"},
             {
               "k": "not",
-              "m": "Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; mantosu da saçı da kıpkırmızı.",
+              "m": "Bagajın içi: her virajda bir kavanoz devriliyor, kırılıyor. Peri baştan aşağı vişne reçeli; önlüğü de saçı da kıpkırmızı.",
               "kare": "K176",
               "set": "recel",
               "peri": "sinirli"
@@ -11601,7 +11612,7 @@
             {"k": "peri", "i": "kas", "m": "Cengo, balık mı tutuyorsun?", "kare": "K182"},
             {
               "k": "not",
-              "m": "Cengo yalının bahçesinden bir hortum çekiyor. Peri reçelli mantoyu çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabadan yedek bir manto getirip omzuna koyuyor; saçında hâlâ reçel.",
+              "m": "Cengo yalının bahçesinden bir hortum çekiyor. Peri reçelli önlüğü çıkarıyor, yüzünü, kollarını yıkıyor. Cengo arabanın yan koltuğundan kırmızı mantoyu getirip omzuna koyuyor; saçında hâlâ reçel.",
               "kare": "K183",
               "set": "manto8_son"
             },

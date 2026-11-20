@@ -787,6 +787,12 @@
     "peri.kilik.yumusak",
     "peri.kilik.sasirmis",
     "peri.kilik.sinirli",
+    "peri.onluk8.normal",
+    "peri.onluk8.kas",
+    "peri.onluk8.sinirli",
+    "peri.onluk8.utanmis",
+    "peri.onluk8.sasirmis",
+    "peri.onluk8.yumusak",
     "peri.recel.sinirli",
     "peri.recel.kas",
     "peri.manto8_son.normal",
@@ -902,7 +908,8 @@
     "K197",
     "K198",
     "K199",
-    "K200"
+    "K200",
+    "K201"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -1087,7 +1094,8 @@
     "K197": "Gizem çay ocağından, elinde tanıtım çantası (önlük, kep, gözlük görünür)",
     "K198": "büro, gece: askıda şoför kasketi, Cengo kendi ceketiyle",
     "K199": "kulis: Peri aynanın önünde telefonla konuşuyor (yalnız; telefondaki Gizem'in sesi)",
-    "K200": "atölye: Peri paravanın arkasından mantoyla çıkıyor; herkes ona dönmüş"
+    "K200": "atölye: Peri paravanın arkasından önlükle çıkıyor (kep, gözlük yok, saç açık); herkes ona dönmüş",
+    "K201": "büro: Cengo çıkarken paravanın üstündeki kırmızı mantoyu koluna alıyor; Peri ile Gizem çantaya eğilmiş, görmüyor"
   },
   "kesim_yz": [
     "muzeyyen.normal",

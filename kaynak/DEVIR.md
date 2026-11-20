@@ -13,6 +13,10 @@
 >   bagaja atlıyor; reçelli mantoyu çıkarınca Cengo yedek mantoyu getiriyor (`recel`, `manto8_son` tanımı buna göre). Ağa düşüş
 >   artık Peri'nin fırlattığı kavanozla. Nihat "yarısı" değil "teknedeki para senin" diyor; kararlarda pay yerine bütün para.
 > - Doğrulayıcı, testler, kapı (V8 hikâye) ve sızıntı taraması geçti; okuma metni yenilendi. Onay 2 sürüyor.
+> - **03:10 — Tek manto (ortağın kararı):** Vaka 8'de yedek manto YOK. Peri kılık değiştirirken mantoyu büroda paravana asar;
+>   Cengo şoför üniforması almaya çıkarken onu sessizce alır (yeni kare K201), arabanın yan koltuğunda saklar. Yüzleşme ve
+>   kovalamaca yeni `onluk8` setiyle (önlük, kep/gözlük yok); Peri yüzleşmede "Kraliçe önlükle de suçlar." der. Bagajda reçel
+>   önlüğe bulaşır; hortumdan sonra Cengo aynı mantoyu getirir. `kilik` artık mantosuz (saten bluz + etek üstüne önlük).
 
 > ## ✍️ ORTAKTAN BARBAROS'A (19 Kasım 2026, 22:05) — VAKA 8 BAŞLADI, ONAY 1 VERİLDİ
 > - **Kurallar (V7'den sonra):** kural kitabına **15c** (konuklar birbirine benzemez; soru 30 sözüyle) işlendi; 6. parça
