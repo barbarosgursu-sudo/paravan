@@ -66,10 +66,10 @@ fa66c9b5ad	GECMIS		eski saça göre zemin tablosu
 34909d02c3	GECMIS		reddedilen seçenek
 b124de5bf3	GECMIS		reddedilen seçenek
 aaf4a8269c	GECMIS		reddedilen seçenek
-a42bd5dc70	BILGI-VAR	SHORTS-1	hat kimde: SHORTS-1
-a1ef743df4	GECMIS		ayraç
-6c817f885c	GECMIS		tablo başlığı (SHORTS-7)
-97d98d14c9	BILGI	SHORTS-28	kurulum listesi (Node, Playwright, ffmpeg, edge-tts) kuralda yok
+a42bd5dc70	YERINDE	SHORTS-1	hat kimde: SHORTS-1; 8_shorts.md yerinde kalır (önce: BILGI-VAR)
+a1ef743df4	YERINDE		ayraç; 8_shorts.md yerinde kalır (önce: GECMIS)
+6c817f885c	YERINDE		tablo başlığı (SHORTS-7); 8_shorts.md yerinde kalır (önce: GECMIS)
+97d98d14c9	YERINDE	SHORTS-28	kurulum listesi (Node, Playwright, ffmpeg, edge-tts) kuralda yok; 8_shorts.md yerinde kalır (önce: BILGI)
 b2e572baf0	GECMIS		taslak durum bandı
 8cdb2e22b7	BILGI	SEZON-16	sezon tablosu başlığı
 85e4a5ea3c	BILGI	SEZON-16	sezon tablosu V1
@@ -78,59 +78,59 @@ ed3207bf79	BILGI	SEZON-16	sezon tablosu V2
 f01ff35100	BILGI	SEZON-16	sezon tablosu V4
 d17e34f144	BILGI	SEZON-16	sezon tablosu V5
 f2e720c204	DERS	SEZON-17	V1-5'te bulunan tekrarlar
-1a85a46b1d	BILGI	SEZON-17	kullanılmamış seçenek havuzu (neden)
-3940b733a3	BILGI	SEZON-17	seçenek havuzu (suçlu)
-c525f171eb	BILGI	SEZON-17	seçenek havuzu (ne oldu)
-c8730f8960	BILGI	SEZON-17	seçenek havuzu (yanlış iz)
-5ed7cb6f8c	BILGI	SEZON-17	seçenek havuzu (karar)
+1a85a46b1d	BILGI	FIKIR	kullanılmamış seçenek havuzu (neden); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+3940b733a3	BILGI	FIKIR	seçenek havuzu (suçlu); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+c525f171eb	BILGI	FIKIR	seçenek havuzu (ne oldu); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+c8730f8960	BILGI	FIKIR	seçenek havuzu (yanlış iz); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+5ed7cb6f8c	BILGI	FIKIR	seçenek havuzu (karar); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
 c40aa3ac58	DERS	SEZON-17	V1-5 müşteri hep yaşlı büyük
-fbede772af	BILGI	SEZON-17	müşteri seçenekleri (yaş)
-e581e90d6e	BILGI	SEZON-17	müşteri seçenekleri (iş)
-6eef53998a	BILGI	SEZON-17	müşteri seçenekleri (durum)
-e65d71566d	BILGI	SEZON-17	müşteri seçenekleri (tuhaf)
-b62ff4af6e	BILGI	SEZON-17	müşteri seçenekleri (ters dünya)
-5f996bfafb	BILGI	SEZON-17	müşteri seçenekleri (garip)
-6c68f6b063	BILGI	SEZON-17	müşteri seçenekleri (meslek)
-edc8cb6cf9	BILGI	SEZON-17	müşteri seçenekleri (çevre)
+fbede772af	BILGI	FIKIR	müşteri seçenekleri (yaş); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+e581e90d6e	BILGI	FIKIR	müşteri seçenekleri (iş); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+6eef53998a	BILGI	FIKIR	müşteri seçenekleri (durum); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+e65d71566d	BILGI	FIKIR	müşteri seçenekleri (tuhaf); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+b62ff4af6e	BILGI	FIKIR	müşteri seçenekleri (ters dünya); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+5f996bfafb	BILGI	FIKIR	müşteri seçenekleri (garip); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+6c68f6b063	BILGI	FIKIR	müşteri seçenekleri (meslek); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+edc8cb6cf9	BILGI	FIKIR	müşteri seçenekleri (çevre); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
 35b49d1a55	BILGI	SINIR-9	ölü/hayalet tonda sınırda notu
 d2d27e6618	DERS	SEZON-17	V1-5 şüpheliler hep iş dünyasından
-5653e8937b	BILGI	SEZON-17	şüpheli seçenekleri (aile)
-eba8dff57b	BILGI	SEZON-17	şüpheli seçenekleri (mahalle)
-e57fda31e7	BILGI	SEZON-17	şüpheli seçenekleri (yaş)
-8a9cd38f29	BILGI	SEZON-17	şüpheli seçenekleri (garip)
-7e317830a7	BILGI	SEZON-17	şüpheli seçenekleri (ters dünya)
-c06c961378	BILGI	SEZON-17	şüpheli seçenekleri (yakın)
-b2d358b38c	BILGI	SEZON-17	şüpheli seçenekleri (müşteri)
+5653e8937b	BILGI	FIKIR	şüpheli seçenekleri (aile); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+eba8dff57b	BILGI	FIKIR	şüpheli seçenekleri (mahalle); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+e57fda31e7	BILGI	FIKIR	şüpheli seçenekleri (yaş); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+8a9cd38f29	BILGI	FIKIR	şüpheli seçenekleri (garip); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+7e317830a7	BILGI	FIKIR	şüpheli seçenekleri (ters dünya); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+c06c961378	BILGI	FIKIR	şüpheli seçenekleri (yakın); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
+b2d358b38c	BILGI	FIKIR	şüpheli seçenekleri (müşteri); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
 aac3c6315e	BILGI	KANON	dönen figürler listesi ve kanon takvimi
-c018bf7b6e	BILGI	SEZON-6	dönen figür seçenekleri başlığı
-92eae9cc53	BILGI	SEZON-6	dönen figür seçenekleri (garip)
-559e796fa5	BILGI	SEZON-6	dönen figür seçenekleri (mahalle)
-ca4fa77cc9	BILGI	SEZON-6	dönen figür seçenekleri (Peri)
-e1d246b453	BILGI	SEZON-6	dönen figür seçenekleri (Cengo)
-d4326cf62d	BILGI	SEZON-6	dönen figür seçenekleri (resmî)
+c018bf7b6e	BILGI	FIKIR	dönen figür seçenekleri başlığı; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-6)
+92eae9cc53	BILGI	FIKIR	dönen figür seçenekleri (garip); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-6)
+559e796fa5	BILGI	FIKIR	dönen figür seçenekleri (mahalle); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-6)
+ca4fa77cc9	BILGI	FIKIR	dönen figür seçenekleri (Peri); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-6)
+e1d246b453	BILGI	FIKIR	dönen figür seçenekleri (Cengo); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-6)
+d4326cf62d	BILGI	FIKIR	dönen figür seçenekleri (resmî); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-6)
 3f93f37430	BILGI	SEZON-2	sezon planlamanın dört konusu
-ef50bc7aaa	BILGI	SEZON-2	iplik seçenekleri (Peri)
-95eec10f48	BILGI	SEZON-2	iplik seçenekleri (Cengo)
-e36111c66e	BILGI	SEZON-2	iplik seçenekleri (büro)
-afd58bcbc7	BILGI	SEZON-2	iplik seçenekleri (dış tehdit)
-4c92521162	BILGI	SEZON-2	iplik seçenekleri (garip)
-f0d33f7de0	BILGI	SEZON-3	garip iplik alt seçenekleri (nesne)
-470b8d4096	BILGI	SEZON-3	garip iplik alt seçenekleri (kişi)
-4c0d8d1b9f	BILGI	SEZON-3	garip iplik alt seçenekleri (büro)
-ed82a7e4aa	BILGI	SEZON-3	garip iplik alt seçenekleri (şehir)
+ef50bc7aaa	BILGI	FIKIR	iplik seçenekleri (Peri); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-2)
+95eec10f48	BILGI	FIKIR	iplik seçenekleri (Cengo); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-2)
+e36111c66e	BILGI	FIKIR	iplik seçenekleri (büro); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-2)
+afd58bcbc7	BILGI	FIKIR	iplik seçenekleri (dış tehdit); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-2)
+4c92521162	BILGI	FIKIR	iplik seçenekleri (garip); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-2)
+f0d33f7de0	BILGI	FIKIR	garip iplik alt seçenekleri (nesne); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-3)
+470b8d4096	BILGI	FIKIR	garip iplik alt seçenekleri (kişi); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-3)
+4c0d8d1b9f	BILGI	FIKIR	garip iplik alt seçenekleri (büro); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-3)
+ed82a7e4aa	BILGI	FIKIR	garip iplik alt seçenekleri (şehir); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-3)
 37ec2529d2	DERS	SEZON-5	V1-5 semt/çevre tekrarı
-e504a5b3ba	BILGI	SEZON-5	gidilmeyen semtler listesi
-08f066f3cf	BILGI	SEZON-5	girilmeyen çevreler (gece hayatı gözde)
-06384fb255	BILGI	SEZON-5	gece hayatı çeşitleri
+e504a5b3ba	BILGI	FIKIR	gidilmeyen semtler listesi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-5)
+08f066f3cf	BILGI	FIKIR	girilmeyen çevreler (gece hayatı gözde); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-5)
+06384fb255	BILGI	FIKIR	gece hayatı çeşitleri; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-5)
 6d942e747a	GECMIS		alt başlık
-67a07f844a	BILGI	SEZON-8	konuşulmamış biçimler listesi
+67a07f844a	BILGI	FIKIR	konuşulmamış biçimler listesi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
 e88c5d9db3	GECMIS		alt başlık
-8c84b80519	GECMIS		eski para durumu (kasa kalktı)
+8c84b80519	DERS	SEZON-9	eski para durumu (kasa kalktı); ikinci göz: "5–20 bin" sayısı SEZON-9da yok, VAR değil DERS
 759ee206f5	DERS-VAR	SEZON-9	kararın etkisi hissedilmiyor tespiti
-d7b58c2bf4	DERS-VAR	SEZON-9	anı defteri yalnız kayıt tespiti
+d7b58c2bf4	DERS	SEZON-9	anı defteri yalnız kayıt tespiti; ikinci göz: kısmi VAR — anı defteri yalnız kayıt
 95d5e2a2b6	BILGI	YAPI-44	taslak 'eski karar ipucu döner' tohum kuralını değiştirir notu
 341dc7fbe0	DERS	SEZON-9	kararı kaldırmanın neden önerilmediği; kuralda yok
-bc819ad0dd	BILGI	SEZON-11	benzer oyunlar özeti
+bc819ad0dd	BILGI	FIKIR	benzer oyunlar özeti; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-11)
 f4efd19ab9	GECMIS		alt başlık
 f15e9a80bb	BILGI	SEZON-10	taslak işlenirken değişecek yerler (K19, taç fiyatı, görseller)
 87a9d5d014	GECMIS		alt başlık (SEZON-25)
@@ -141,7 +141,7 @@ cfdb044e16	DERS-VAR	SEZON-16	sebep 9-10 kuralda
 6221d75160	GECMIS		alt başlık
 115878efff	BILGI	SEZON-1	vaka sayısı 8/10 ne zaman kesinleşir
 e077e83d68	BILGI	SEZON-1	sonraki sezon planlama önerisi
-74caee4b2e	BILGI	SEZON-16	V8 taslağı kararının V7'ye benzediği uyarısı; V6-7 dağılımı geçmiş
+74caee4b2e	BILGI	FIKIR	V8 taslağı kararının V7'ye benzediği uyarısı; V6-7 dağılımı geçmiş; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-16)
 5cd840f16f	GECMIS		alt başlık
 7c26f94be4	BILGI-VAR	SEZON-8	iki açık dosya bekliyor
 ef87dc8b99	BILGI	SEZON-10	açık soru: V1-5 kararları yeni etkilere bağlansın mı
@@ -154,60 +154,60 @@ d600850b16	DERS	SEZON-17	raf ölçeği 60-100 vaka, tekrar kaçınılmaz
 1a237aee91	DERS	SEZON-17	formül: suçlanan hep masum çıkıyor (V1-3)
 b164ae9f21	DERS	KAR-10	kavuşmazlar donarsa tekrara döner; uzun dizi dersleri
 81aae93602	DERS	SEZON-16	darboğaz hız değil çeşitlilik (V5 ~5 sa)
-9856ceeba3	BILGI-VAR	SEZON-16	sebep 1 seçenekleri (ayar düğmeleri)
+9856ceeba3	BILGI	SEZON-16	sebep 1 seçenekleri (ayar düğmeleri); ikinci göz: kısmi VAR — A/B/C değerlendirmesi
 8533bbb770	BILGI	SEZON-16	B+C önerisi, iki suçlu motor işi bakılmadı
-c91f38eb7a	BILGI-VAR	SEZON-16	sezon tablosunun çözdüğü sebepler
-9ac4af49ab	BILGI	SEZON-8	önceki karar döner örnekleri ve üç büyüklük
-c7a1e43f9f	BILGI	SEZON-8	Cengo'nun gözünden örneği
-d0fca48b56	BILGI	SEZON-8	tek vaka iki iz örneği
-e39beb3809	BILGI	SEZON-8	iki açık dosya örneği
-01af304157	BILGI	SEZON-8	konuşulmamış biçimler
+c91f38eb7a	BILGI	SEZON-16	sezon tablosunun çözdüğü sebepler; ikinci göz: kısmi VAR — kısmen/çözmez ayrımı
+9ac4af49ab	BILGI	FIKIR	önceki karar döner örnekleri ve üç büyüklük; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+c7a1e43f9f	BILGI	FIKIR	Cengo'nun gözünden örneği; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+d0fca48b56	BILGI	FIKIR	tek vaka iki iz örneği; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+e39beb3809	BILGI	FIKIR	iki açık dosya örneği; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+01af304157	BILGI	FIKIR	konuşulmamış biçimler; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
 23e42069f3	BILGI	SEZON-9	kararı kaldırma önerisi (reddedildi)
 2289cf534a	BILGI	SEZON-9	kararı kaldırmanın kazancı
 e39b93d4c0	DERS	SEZON-9	kararı kaldırmanın kaybı (kimlik, not vermez, paylaşım, bağ)
-7e168a9488	BILGI	SEZON-11	Sherlock C&P araştırması
-ac62384c03	BILGI	SEZON-11	Telltale araştırması
-cd24c72888	BILGI	SEZON-11	Papers Please araştırması
-7483f6da5d	BILGI	SEZON-11	mobil hikâye oyunları araştırması
+7e168a9488	BILGI	FIKIR	Sherlock C&P araştırması; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-11)
+ac62384c03	BILGI	FIKIR	Telltale araştırması; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-11)
+cd24c72888	BILGI	FIKIR	Papers Please araştırması; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-11)
+7483f6da5d	BILGI	FIKIR	mobil hikâye oyunları araştırması; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-11)
 2b00a530ef	DERS-VAR	SEZON-11	dersler (Telltale/Sherlock/mobil) SEZON-10/11'de
-e6455a12ec	BILGI	SEZON-8	önceki karar dönmenin kod yükü (seeds, bedelsiz_kosul)
+e6455a12ec	BILGI	FIKIR	önceki karar dönmenin kod yükü (seeds, bedelsiz_kosul); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
 7449f56334	BILGI-VAR	SEZON-8	gözünden vakanın kod yükü
 3fa8d0d482	BILGI-VAR	SEZON-8	tek vaka/iki dosya kod yükü
 75bbfea219	GECMIS		onaylanmadı bandı
-57b7476274	BILGI	SEZON-8	ters vaka biçimi
-b119913207	BILGI	YAPI-3	ters vaka örnekleri (V5/V3/V8 ilk taslakları)
+57b7476274	BILGI	FIKIR	ters vaka biçimi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+b119913207	BILGI	FIKIR	ters vaka örnekleri (V5/V3/V8 ilk taslakları); fikir havuzu (sahibinin onayı 2; önce: BILGI YAPI-3)
 a51b87a3cb	BILGI-VAR	YAPI-3	ters tip ertelendi
-770d44f2c7	BILGI	SEZON-8	ters vaka kod yükü
-5bda4b4a8e	BILGI	SEZON-8	ters vaka artıları
-417238f70c	BILGI	SEZON-8	ters vaka eksileri
-7238c8e07a	BILGI	SEZON-8	saatli vaka biçimi
-e104c4a330	BILGI	SEZON-8	saatli vaka örneği
-ba15d9a7e8	BILGI	SEZON-8	saatli vaka kod yükü
-75e105d6fe	BILGI	SEZON-8	saatli vaka artıları
-26840997f4	BILGI	SEZON-8	saatli vaka eksileri
-1f4f228107	BILGI	SEZON-8	yalan bulma biçimi
-4f26d3aab0	BILGI	SEZON-8	yalan bulma örneği
-c43a9ef47a	BILGI	SEZON-8	yalan bulma kod yükü
-009cf6cdbf	BILGI	SEZON-8	yalan bulma artıları
-b16a16caaa	BILGI	SEZON-8	yalan bulma eksileri
-eb5b3a352e	BILGI	SEZON-8	kılık biçimi
-1fa9b3959c	BILGI	SEZON-8	kılık örneği
-73327c77cf	BILGI	SEZON-8	kılık kod yükü
-5e6b3c43d5	BILGI	SEZON-8	kılık artıları
-4077eb3ea9	BILGI	SEZON-8	kılık eksileri
-7bd5f931bb	BILGI	SEZON-8	açık karar: hangi biçim, hangi sezon
+770d44f2c7	BILGI	FIKIR	ters vaka kod yükü; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+5bda4b4a8e	BILGI	FIKIR	ters vaka artıları; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+417238f70c	BILGI	FIKIR	ters vaka eksileri; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+7238c8e07a	BILGI	FIKIR	saatli vaka biçimi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+e104c4a330	BILGI	FIKIR	saatli vaka örneği; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+ba15d9a7e8	BILGI	FIKIR	saatli vaka kod yükü; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+75e105d6fe	BILGI	FIKIR	saatli vaka artıları; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+26840997f4	BILGI	FIKIR	saatli vaka eksileri; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+1f4f228107	BILGI	FIKIR	yalan bulma biçimi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+4f26d3aab0	BILGI	FIKIR	yalan bulma örneği; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+c43a9ef47a	BILGI	FIKIR	yalan bulma kod yükü; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+009cf6cdbf	BILGI	FIKIR	yalan bulma artıları; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+b16a16caaa	BILGI	FIKIR	yalan bulma eksileri; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+eb5b3a352e	BILGI	FIKIR	kılık biçimi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+1fa9b3959c	BILGI	FIKIR	kılık örneği; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+73327c77cf	BILGI	FIKIR	kılık kod yükü; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+5e6b3c43d5	BILGI	FIKIR	kılık artıları; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+4077eb3ea9	BILGI	FIKIR	kılık eksileri; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+7bd5f931bb	BILGI	FIKIR	açık karar: hangi biçim, hangi sezon; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
 f524b8456b	GECMIS		öneri bandı; karar SUREC-38
 acf6ed66bb	DERS	SUREC-38	V5'te zaman yazmaya değil okuyup hata bulmaya gitti
 55bdff7829	GECMIS		alt başlık
 56ad64f228	DERS-VAR	YAPI-11	Selim ortak+tamirci; YAPI-11'de
 bbbd1bb675	DERS-VAR	YAPI-12	Muammer itirafı duymuştu; YAPI-12'de
 ae21f8c18b	DERS-VAR	YAPI-11	Nedim Moda harita hatası; YAPI-11'de
-4915076b46	DERS-VAR	ISTEM-56	dalga susam getirmez → yosun
+4915076b46	DERS	ISTEM-56	dalga susam getirmez → yosun; ikinci göz: sebep (dalga susam getirmez) kuralda yok
 54bdcff244	DERS	TON-14	sorusuz cevap (E iptal ama tecrübe)
-a54e8a287c	DERS	YAPI-8	kilit ipucunun gerekçesi (güverte boş) (F iptal ama tecrübe)
-d9ac408c41	DERS	YAPI-16	itiraf boşluğu: Selim saati neden susturmadı
+a54e8a287c	DERS	TON-14	kilit ipucunun gerekçesi (güverte boş) (F iptal ama tecrübe); ikinci göz: hedef YAPI-8 değil ("nereden biliyor" / gerekçe)
+d9ac408c41	DERS	YAPI-10	itiraf boşluğu: Selim saati neden susturmadı; ikinci göz: hedef YAPI-16 değil
 1cd0f1adbe	GECMIS		küçük sözcük düzeltmeleri
-5691d10441	DERS-VAR	SUREC-16	kanon ortağın önünde değildi → Onay 2 öncesi kanon okunur
+5691d10441	DERS	SUREC-35	kanon ortağın önünde değildi → Onay 2 öncesi kanon okunur; ikinci göz: satır numarası dosya satırına geçti (SUREC-35 düzeltildi, sahibinin onayı 4a)
 dc5d1d431f	GECMIS		alt başlık
 610592a2b4	GECMIS		iptal edilen kural D
 479fdccecc	GECMIS		iptal edilen kural E
@@ -257,7 +257,7 @@ ed7021975a	BILGI	ISTEM-26	V3 engel sayısı (14 çağrı) — filtre sıklığı
 707c035038	GECMIS		V3 ret sayıları
 9f416af1ba	GECMIS		V3 sayıları
 ab1c30512a	DERS	CODEX-17	red dosyaları üzerine yazıldı, kayıp — eski hâl korunmalı
-cb71d33700	BILGI	SUREC-30	normal üretim hızı 40-120 sn; izin sorununda 5-12 dk
+cb71d33700	BILGI	CODEX-13	normal üretim hızı 40-120 sn; izin sorununda 5-12 dk; ikinci göz: yavaşlama eşiği CODEX-13te
 251c693c01-2	GECMIS		ayraç
 8a519f926e	GECMIS		bölüm açıklaması
 ec48f67107	GECMIS		V3 tekil not
@@ -270,7 +270,7 @@ f01e7b7de2	GECMIS		alt başlık
 461fa8bf3d	DERS	DENETIM-15	webp System.Drawing'le açılmaz, WPF gerekir
 0c49770c95	DERS	ISTEM-22	Gizem kolları kavuşuk çözümü sahibinden (G67)
 5dbf1793f8	GECMIS		V3 tekil not
-465321f998	DERS-VAR	ISTEM-26	3. üretimde temiz geldi (deneme)
+465321f998	DERS	DENETIM-42	3. üretimde temiz geldi (deneme); ikinci göz: 3. ret kuralının kanıtı (ISTEM-26 değil)
 f876e05ade	DERS-VAR	DENETIM-21	profile yakın yüz sahibine gösterildi
 d642c817c9	DERS	DENETIM-28	uzaktaki seçilmeyen insan lekeleri onaylanır, rapora yazılır
 7cd584a9d0	DERS	DENETIM-27	kadraj dışı kalan nokta kontrol edilemezse not edilir
@@ -438,13 +438,13 @@ e75c13615d	BILGI	KAR-8	örnek atışma: niyeti peşin
 6c9a698a7a-10	GECMIS		ayraç
 6c9a698a7a-11	GECMIS		ayraç
 5cafa39bfa	GECMIS		eski ekonomi kararı notu
-9134389f93	DERS	YAPI-36	eski oyunda sabit gider+faiz kasayı batırdı; hafif oyunda olmaz
+9134389f93	DERS	YAPI-37	eski oyunda sabit gider+faiz kasayı batırdı; hafif oyunda olmaz; ikinci göz: YAPI-37 daha yakın
 fe297381dd	DERS-VAR	YAPI-30	paranın işi cazibe
 77d860bbac	GECMIS		eski karar (kasa kalktı)
 5ee1e6c4d9	GECMIS		kasa kalır (geçersiz)
 681721e767	GECMIS		hedef eklenir (eski ekonomi)
 0937f74aba	GECMIS		sabit ücret kasa (geçersiz)
-e96885132b	DERS-VAR	YAPI-29	dürüst yol ayakta tutar
+e96885132b	DERS	YAPI-37	dürüst yol ayakta tutar; ikinci göz: kısmi VAR — "fark küçük, testle korunur" (YAPI-29 değil YAPI-37 daha yakın)
 a0656f30f0	GECMIS		kasa inip çıkar (geçersiz)
 f134692f60	BILGI-VAR	YAPI-31	para derdi sahne ve atışma malzemesi
 579767c582	GECMIS		eski motor ekonomi alanı
@@ -461,7 +461,7 @@ ba780cd0a0	DERS-VAR	SINIR-3	dekolte azaltılmaz, üst düğmeler açık
 10e30fcd5d	GECMIS		taşınacak notu
 3b0b66de49-2	GECMIS		ayraç
 00b15c7a9a	BILGI-VAR	KAR-26	açılışın üç kanon eklemesi
-641c9f45bc	BILGI	KANON	açılış: haciz sahnesi tarifi (Peri çay ikram eder, taç gider)
+641c9f45bc	BILGI	FIKIR	açılış: haciz sahnesi tarifi (Peri çay ikram eder, taç gider); taslak, "O koltuk İtalyan" oyunda yok → fikir havuzu (ikinci göz, taşıma denetimi; önce: BILGI KANON)
 6b9a037c64	BILGI	KANON	Peri'nin kırmızı mantosu açılışta kurulan temel kıyafet
 14f4392289	BILGI-VAR	KAR-36	anahtar kapıyı açmaz
 74fdf20bb1	BILGI	KANON	Cengo'nun ilk sözü 'Tel lazım mı?'
@@ -493,10 +493,10 @@ ebd4591d87	GECMIS		V2 ilk taslak
 9c54bf6ab2	GECMIS		V2 ilk taslak kıyafet
 3b0b66de49-6	GECMIS		ayraç
 1a5aab1ee8	GECMIS		V3 tip kararı notu (YAPI-3)
-2c3216f0a3	GECMIS		V3 ilk taslak (Columbo)
-cc5f45ec91	GECMIS		V3 ilk taslak
-fe99c9fcc0	GECMIS		V3 ilk taslak
-3cda3ac903	GECMIS		V3 ilk taslak
+2c3216f0a3	BILGI	FIKIR	V3 ilk taslak (Columbo); fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+cc5f45ec91	BILGI	FIKIR	V3 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+fe99c9fcc0	BILGI	FIKIR	V3 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+3cda3ac903	BILGI	FIKIR	V3 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
 96d1c2df32	GECMIS		V3 ilk taslak (Gizem girişi kanonda)
 80cb58bed2	GECMIS		V3 ilk taslak kıyafet
 3b0b66de49-7	GECMIS		ayraç
@@ -507,33 +507,33 @@ ac1aac37e2	GECMIS		V4 ilk taslak
 cfa6629758	GECMIS		V4 ilk taslak
 f318ad2e58	GECMIS		V4 ilk taslak kıyafet
 3b0b66de49-8	GECMIS		ayraç
-479199dd65	GECMIS		V5 ilk taslak
-ed40aada87	GECMIS		V5 ilk taslak
-b21dc20a8d	GECMIS		V5 ilk taslak
-ee7eb8ffa8	GECMIS		V5 ilk taslak
+479199dd65	BILGI	FIKIR	V5 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+ed40aada87	BILGI	FIKIR	V5 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+b21dc20a8d	BILGI	FIKIR	V5 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+ee7eb8ffa8	BILGI	FIKIR	V5 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
 b8bb0612cc	GECMIS		V5 ilk taslak kıyafet
 3b0b66de49-9	GECMIS		ayraç
-c26121a7f9	GECMIS		V6 ilk taslak (sır seçildi: kız)
+c26121a7f9	BILGI	FIKIR	V6 ilk taslak (sır seçildi: kız); fikir havuzu (sahibinin onayı 2; önce: GECMIS)
 b6462cdce4	GECMIS		tablo başlığı
-5af707db8e	BILGI	SEZON-17	kullanılmamış fikir: Cengo eski futbolcu (kanon değil)
+5af707db8e	BILGI	FIKIR	kullanılmamış fikir: Cengo eski futbolcu (kanon değil); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
 4ce0e64eff	GECMIS		seçilen sır; KAR-29'da
-ae5944457c	BILGI	SEZON-17	kullanılmamış fikir: Cengo eski pavyon şarkıcısı (kanon değil)
+ae5944457c	BILGI	FIKIR	kullanılmamış fikir: Cengo eski pavyon şarkıcısı (kanon değil); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-17)
 90e10d3ddf	GECMIS		V6 ilk taslak komedi motoru
 9852875fea	BILGI	KAR-13	bağ yüksekse V6 'Elektrik' anı; Peri söylemek üzere olur
-c9f308825e	GECMIS		V6 ilk taslak kıyafet
+c9f308825e	BILGI	FIKIR	V6 ilk taslak kıyafet; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
 3b0b66de49-10	GECMIS		ayraç
-29535ea4f6	GECMIS		V7 ilk taslak (plan değişti, SEZON-18)
-617e399b4c	GECMIS		V7 ilk taslak
-2edf003be2	GECMIS		V7 ilk taslak
-c56d7ab05e	GECMIS		V7 ilk taslak
-061ba102ad	GECMIS		V7 ilk taslak kıyafet
+29535ea4f6	BILGI	FIKIR	V7 ilk taslak (plan değişti, SEZON-18); fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+617e399b4c	BILGI	FIKIR	V7 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+2edf003be2	BILGI	FIKIR	V7 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+c56d7ab05e	BILGI	FIKIR	V7 ilk taslak; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
+061ba102ad	BILGI	FIKIR	V7 ilk taslak kıyafet; fikir havuzu (sahibinin onayı 2; önce: GECMIS)
 3b0b66de49-11	GECMIS		ayraç
-f3de5a8551	BILGI	SEZON-16	V8 ilk taslağı (kanon değil): avukat yeni kurbanı dolandırıyor
-1011e89b91	BILGI	SEZON-16	V8 ilk taslağı: oyuncunun işi
-6525e65197	BILGI	SEZON-16	V8 ilk taslağı: komedi motoru, ilk kez aynı tarafta
-1511778478	BILGI	SEZON-16	V8 ilk taslağı: karar (V7'ye benzediği uyarısı var)
+f3de5a8551	BILGI	FIKIR	V8 ilk taslağı (kanon değil): avukat yeni kurbanı dolandırıyor; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-16)
+1011e89b91	BILGI	FIKIR	V8 ilk taslağı: oyuncunun işi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-16)
+6525e65197	BILGI	FIKIR	V8 ilk taslağı: komedi motoru, ilk kez aynı tarafta; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-16)
+1511778478	BILGI	FIKIR	V8 ilk taslağı: karar (V7'ye benzediği uyarısı var); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-16)
 ea8b3b23a3	BILGI	KAR-13	sezon sonu: söylenecekken telefon çalar (öneri)
-162de3fa25	BILGI	SEZON-16	V8 ilk taslağı kıyafet (kırmızı manto daire)
+162de3fa25	BILGI	FIKIR	V8 ilk taslağı kıyafet (kırmızı manto daire); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-16)
 3b0b66de49-12	GECMIS		ayraç
 486a8f209c	GECMIS		eski görsel maliyet hesabı
 0b372deb0e	GECMIS		tablo başlığı
@@ -575,12 +575,12 @@ b4f1a2e92d-3	GECMIS		ayraç
 2ef41a960a	GECMIS		devralınan kod ölçümü
 fa35b1951a	GECMIS		devralınan kod ölçümü
 d93eaa3f33	GECMIS		devralınan kod ölçümü
-434bcb3027	GECMIS		devralınan kod ölçümü
+434bcb3027	BILGI	KOD-36	devralınan kod ölçümü; ikinci göz: motorda gömülü vaka adı yok (korunacak mimari)
 b4f1a2e92d-4	GECMIS		ayraç
 bcf20fe0da	GECMIS		eski plan
 4cd382c474	GECMIS		konuşma ekranı gerekçesi (yapıldı)
-0b5066d4cd	BILGI	SEZON-8	fikir: sahnede ipucu arama (yapılmadı)
-bebc464dbd	BILGI	SEZON-8	sahnede arama için knowledge sistemi hazır
+0b5066d4cd	BILGI	FIKIR	fikir: sahnede ipucu arama (yapılmadı); fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
+bebc464dbd	BILGI	FIKIR	sahnede arama için knowledge sistemi hazır; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
 6b5e6ba708	GECMIS		eski vaka döngüsü
 b4f1a2e92d-5	GECMIS		ayraç
 b39aee81f3	GECMIS		eski görsel sayımı
@@ -589,8 +589,8 @@ d56212a803	GECMIS		tablo başlığı
 28ab94b995	GECMIS		eski sprite maliyeti
 8529d3c28d	GECMIS		eski sprite maliyeti
 180bdb80d7	GECMIS		eski sprite maliyeti
-7e16212aad	GECMIS		eski sprite maliyeti
-e3809c13ab	DERS-VAR	YAPI-39	ruh hâli görseli noir, kalktı
+7e16212aad	DERS	SATIR-35	eski sprite maliyeti; ikinci göz: bırakılan sprite gerekçesi
+e3809c13ab	DERS	YAPI-39	ruh hâli görseli noir, kalktı; ikinci göz: kısmi VAR — ruh hâli görselinin kalkma sebebi
 b4f1a2e92d-6	GECMIS		ayraç
 12cd404548	DERS	KAR-10	Mavi Ay laneti: ikili kavuşunca dizi öldü (reyting 9→49)
 32350119ea	DERS	KAR-10	cengoBag bir 'kavuşacaklar mı' sayacı; söze dökülmez sigortası
@@ -598,243 +598,243 @@ b4f1a2e92d-7	GECMIS		ayraç
 8b8537eb80	GECMIS		kapanmış açık soru (ad)
 1b99809e28	DERS-VAR	RAF-30	İngilizce espriyi sahibi geri çeviriyle denetler
 477d50b663	GECMIS		kapanmış açık soru
-155709d03d	BILGI	SEZON-8	açık: sahnede arama ekranı gerekli mi
+155709d03d	BILGI	FIKIR	açık: sahnede arama ekranı gerekli mi; fikir havuzu (sahibinin onayı 2; önce: BILGI SEZON-8)
 b4f1a2e92d-8	GECMIS		ayraç
 5df69ab637	GECMIS		eski sıradaki adım
-2dd102a3ff	DERS-VAR	SUREC-16	kâğıt üstünde (görselsiz) denemek bedava
-5ba44a9964	GECMIS		V2 başlangıç notu
-6abe896ba2	GECMIS		V2 okuma sırası
-e288a69655	GECMIS		V2 okuma sırası
-95f87f39ef	GECMIS		V2 okuma sırası
-f9dfd509f9	GECMIS		V2 okuma sırası
-daed259348	GECMIS		V2 okuma sırası
-1761fc7d12	DERS-VAR	SUREC-30	süre başlangıcı tanımı
-b3ac02a7f2	DERS-VAR	SUREC-30	her adımın bitişi yazılır
-c50f906581	GECMIS		V2 süre notu
-dd5a5b6c38	GECMIS		tablo başlığı
-8e50998956	GECMIS		V2 süre satırı
-89b820a36b	GECMIS		V2 süre satırı
-40c9e69003	GECMIS		V2 süre satırı
-8de2fe14c9	GECMIS		V2 süre satırı
-029a998c5d	GECMIS		V2 süre satırı
-e13a4a0194	GECMIS		V2 süre satırı
-430005b1ee	DERS-VAR	SUREC-30	ara sonrası başlangıç = ilk mesaj anı
-34a487a69c	GECMIS		V2 süre satırı
-e515d2c17d	DERS-VAR	SATIR-20	V2 Onay 3: adı geçen kişiler görünmüyor → kural
-5455d5f360	GECMIS		V2 süre satırı
-03abd1c686	GECMIS		tablo başlığı
-5d9d45eab2	BILGI	SUREC-30	V2 ölçülen süre (form→liste 2 sa 52 dk)
-07fa3d0b8a	BILGI	SUREC-30	V2 görsel süresi 5 sa
-f8dbcdde98	BILGI	SUREC-30	V2 görselli tur süresi
-ad0ffe1c9a	BILGI	SUREC-30	V2 Onay 3 süresi
-2fb041f406	BILGI	SUREC-30	V2 dondurma süresi
-865e7b0b24	BILGI	SUREC-30	V2 toplam ≈11 sa
-3d6b32aaa5	DERS	SUREC-31	V2'de Onay 3'te sonradan 4 görsel (~1,5 sa); adı geçen kişi kuralı baştan listede olursa önlenir
-ae3300f00f	BILGI	SUREC-30	sohbet başına üretim süresi ölçme yöntemi
-22e88dcda9	GECMIS		tablo başlığı
-c19343d93a	GECMIS		V2 sohbet kaydı (eski web/Grok düzeni)
-2c84608af5	GECMIS		V2 sohbet kaydı (eski kesim profilleri)
-de562b2041	DERS-VAR	ISTEM-20	saç rengi metne uymadı (platin) → temel ayrı kontrol
-92c8ddf883	DERS-VAR	GOMME-5	koyu saçta hale elle; göz akı da gidebiliyordu
-870f97c25a	DERS-VAR	ISTEM-28	gözlük sapında yazı izi
-c16b74db6b	DERS-VAR	GOMME-14	havadaki el figür yuvasında ekran dışında kalıyor
-dd029a5e77	DERS-VAR	DENETIM-17	sıra karışık geldi, görselden düzeltildi
-79045fcf21	DERS-VAR	ISTEM-37	elin sahibi kıyafeti başka konuğu çağrıştırdı (G44)
-43270ca92b	DERS-VAR	DENETIM-28	pasta kat sayısı kaydı; buzdolabı markası
-01af18b5c7	GECMIS		V2 sohbet kaydı
-498843e5b8	DERS-VAR	ISTEM-28	kürsü rozeti silindi
-dda82ef815	GECMIS		V2 sohbet kaydı
-bec4a886b1	DERS-VAR	SATIR-1	metinde anılan Cengo karede yoktu
-6d32d407c7	DERS-VAR	ISTEM-36	masanın açık yüzü: Saadet Peri'yi görürdü
-d31ee6e8c5	GECMIS		düzeltme yok
-b7f5214767	GECMIS		düzeltme yok
-8acc86459c	DERS	ISTEM-34	Grok İstanbul yerine Golden Gate çizdi; ChatGPT reddi sonra geçti
-c716a1429e	DERS-VAR	KAR-23	ayakkabı yeşil → kırmızı stiletto
-3b6d3e55d1	GECMIS		düzeltme yok
-626d25035d	GECMIS		düzeltme yok
-cbd46cf933	GECMIS		düzeltme yok
-17f7cd8d63	GECMIS		düzeltme yok
-d4f1bc91a0	GECMIS		düzeltme yok
-6ea6dc53ce	GECMIS		düzeltme yok
-c9e79469d0	GECMIS		küçük fark kabul
-d5f3bfa469	GECMIS		ara kaydı
-4bd4a7c1da	GECMIS		ara kaydı
-1d2e8a379a	GECMIS		ara kaydı
-c6fd956365	GECMIS		ara kaydı
-566ff93116	GECMIS		ara kaydı
-d4479a81ff	GECMIS		ara kaydı
-85a8548a71	GECMIS		ara kaydı
-e9f4b3cbe7	DERS-VAR	SUREC-30	araç yazımı süreden sayılmaz
-f4468f331e	DERS	SUREC-31	V1'de zaman Onay 3'teki görsel sorunlarına gitti; baştan önlenebilirdi
-de49393768	GECMIS		tablo başlığı
-1362873514	BILGI	SUREC-14	yeni vakada araçları vakaya açma (~1 saat)
-68b29406bd	BILGI-VAR	KOD-27	tur aracını yeni vakaya açma
-084dfd2f60	BILGI-VAR	KOD-80	vakadan vakaya geçişi dene
-a900914fa5	BILGI	KOD-12	yeni vakanın test kardeşi
-1b95b6f6e9	GECMIS		V3 başlangıç notu
-bfffd9884c	GECMIS		V3 okuma sırası
-7c90f6df3b	GECMIS		V3 okuma sırası
-758371fb3e	GECMIS		V3 okuma sırası
-6b58907669	GECMIS		V3 okuma sırası
-7f2bfcffbb	GECMIS		V3 okuma sırası
-9674109ef0	BILGI-VAR	YAPI-3	V3 Bilmece kararı
-dc3aa2513f	BILGI-VAR	KAR-34	Gizem tanımı kanonda
-938af19724	GECMIS		tablo başlığı
-d620f821cf	GECMIS		V3 ara kaydı
-019429ead9	GECMIS		V3 ara kaydı
-dba4a4002c	GECMIS		V3 ara kaydı
-f52c82a9f2	GECMIS		V3 ara kaydı
-912d6cf2d1	GECMIS		V3 ara kaydı
-64350d3e20	DERS-VAR	SUREC-30	başlat dendi ama çalışılamadı → aynı anda ara
-bb038271cf	GECMIS		V3 ara kaydı
-e011e89420	GECMIS		V3 ara kaydı
-931e73ecbb	GECMIS		V3 ara kaydı
-25c3855988	GECMIS		V3 ara kaydı
-9f0d1e1b79	GECMIS		V3 ara kaydı
-dfb41da61d	GECMIS		V3 ara kaydı
-f6b2c10f5f	GECMIS		V3 ara kaydı
-99b975ffd4	GECMIS		V3 ara kaydı
-8471844179	GECMIS		tablo başlığı
-3ac136bebe	DERS	SEZON-17	V3 müşterisi aile dışı seçildi (V1 baba–oğul tekrarı olmasın)
-f381604dee	GECMIS		V3 Onay 1 düzeltmeleri
-c39def7c07	GECMIS		V3 süre satırı
-bf21a96163	GECMIS		V3 süre satırı (bulanık replik örnekleri TON-9'da)
-c8df11c9d8	DERS-VAR	TON-9	109 replik anlaşılırlık geçişi
-e515487396	BILGI-VAR	SUREC-22	önce ana referanslar onay, sonra gruplu üretim
-4d1d5f6465	GECMIS		V3 süre satırı
-dc44943a9a	GECMIS		ölçülmedi
-080a1e4c0b	DERS-VAR	SATIR-2	V3 Onay 3'te SR-A…L yazıldı
-bcf87812b9	GECMIS		V3 dondurma kaydı
-8012014c0f	GECMIS		tablo başlığı
-3cdf8d6543	BILGI	SUREC-30	V3 ölçülen süre (form→liste 5 sa)
-10059d552e	GECMIS		V3 kısmi süre
-7da4e2b8a7	GECMIS		ölçülmedi
-c1223d8c32	GECMIS		V3 kısmi toplam
-cd8610b376	DERS	SUREC-30	V3 saat işletilmedi → takvim 3,5 hafta; saat baştan sona işletilmeli
-34e965a1c7	GECMIS		V4 başlangıç notu
-72da04310b	GECMIS		V4 amacı
-123d2fb0bd	GECMIS		V4 amacı
-41c43d4139	GECMIS		V4 hesap notu
-9e2fcbfb48	GECMIS		V4 okuma sırası
-0c02f6dbc7	GECMIS		V4 okuma sırası
-70a5cad1dc	GECMIS		V4 okuma sırası
-2356d55df4	GECMIS		V4 okuma sırası
-e4857a8f65	GECMIS		V4 okuma sırası
-378d4c99ef	GECMIS		V4 okuma sırası
-48cfdb87fc	DERS-VAR	KAR-1	taslak ayrıntısı forma girmeden sahibine sorulur
-3aa52d436b	BILGI	CODEX-22	2 kol denemesi; dongu.sh kol desteği (kilit, ayrı log)
-8418ea683a	GECMIS		V4 çeviri kararı
-e65a7abd18	GECMIS		tablo başlığı
-689b64ddb7	GECMIS		V4 ara kaydı
-23d2e7cfe0	GECMIS		V4 ara kaydı
-4ecb955f71	GECMIS		tablo başlığı
-e4bcfa1e27	GECMIS		V4 süre satırı
-1828d4530e	GECMIS		V4 süre satırı
-24d1f334cf	GECMIS		V4 süre satırı
-2cea0bfc65	GECMIS		V4 süre satırı
-e60b9134cd	DERS-VAR	SUREC-30	saat dururken sahibinin beyan ettiği süre aktif süreye eklenir
-b14aeb307e	GECMIS		boş süre satırı
-9a20b83e4e	GECMIS		boş süre satırı
-52ae851385	GECMIS		boş süre satırı
-47ce0fcdf5	GECMIS		boş süre satırı
-032b5d0363	GECMIS		boş süre satırı
-67db26cd27	BILGI-VAR	SUREC-30	resim sayımı kalıbı (tablo başlığı)
-17fd42edc0	BILGI-VAR	SUREC-30	resim sayımı kalıbı
-74c4b56672	BILGI-VAR	SUREC-30	resim sayımı kalıbı
-ce8836c094	BILGI-VAR	SUREC-30	resim sayımı kalıbı
-3d0aefd9c4	BILGI-VAR	SUREC-30	resim sayımı kalıbı
-b6b4f0d6e2	BILGI-VAR	SUREC-30	resim sayımı kalıbı
-7c3270613e	BILGI-VAR	SUREC-30	resim sayımı kalıbı
-b306415f99	BILGI	SUREC-30	resim sayımına 'hız sınırı görüldü mü' satırı
-763048e1fb	BILGI	SUREC-30	toplam tablosu kalıbı (sahibi/makine/takvim)
-ae0f6c1a41	GECMIS		boş tablo satırı
-fc182fbc3d	GECMIS		boş tablo satırı
-e3d2280bda	GECMIS		boş tablo satırı
-f4de88b1b9	GECMIS		boş tablo satırı
-662a1dd14a	GECMIS		V5 başlangıç notu
-fa799b21bd	GECMIS		V5 okuma sırası
-dbd37367ea	GECMIS		V5 tip notu
-a0ddcfc8ca	GECMIS		V5 başlangıç saati
-ee4b04ce0c	GECMIS		tablo başlığı
-7e2286c71e	GECMIS		V5 ara kaydı
-9c4601d9a1	GECMIS		V5 ara kaydı
-00eac4cb4d	GECMIS		V5 ara kaydı
-9ac477f809	GECMIS		V5 ara kaydı
-55574dc805	GECMIS		V5 ara kaydı
-eb9f0b692b	GECMIS		tablo başlığı
-b20e34dc1e	GECMIS		V5 süre satırı
-ac41ae5ee9	GECMIS		V5 süre satırı
-b57863d708	GECMIS		V5 süre satırı
-e4ebf7589c	GECMIS		V5 süre satırı
-0c9324d2b1	DERS-VAR	SUREC-38	V5 Onay 2 düzeltmeleri (Selim, yosun, kararlar)
-c1e5dcb7e1	BILGI	SUREC-30	V5 metin aşaması ~5 sa
-4c073dd3af	GECMIS		V6 başlangıç notu
-d177a35235	GECMIS		V6 okuma sırası
-76f09952df	GECMIS		V6 konu seçimi
-5936e57f1d	BILGI-VAR	KAR-29	Eylül 16
-831442016d	BILGI-VAR	KAR-30	Gamze
-0f4d3105e4	BILGI-VAR	KAR-30	Haldun
-d33cefbacd	BILGI-VAR	KAR-30	Müzeyyen
-4246d701b2	BILGI-VAR	KAR-30	Jale
-67ddad99fe	BILGI-VAR	KAR-29	Üsküdar
-337e25012e	BILGI-VAR	KAR-30	V6 kişileri kanonda
-31b0e7a581	GECMIS		V6 hayvan yok
-7390bac1d3	DERS-VAR	SUREC-30	saatler UTC yazılmıştı
-14fffbc679	GECMIS		tablo başlığı
-f9b0f92625	GECMIS		V6 ara kaydı
-a142b7f0c4	GECMIS		tablo başlığı
-aeddbd9ec4	GECMIS		V6 süre satırı
-929dc73367	GECMIS		V6 süre satırı
-4f7706c06a	DERS-VAR	SINIR-7	Eylül 16, Cengo baba olduğunda reşit; Gamze ile evliydi (KAR-30)
-59f1f482bc	DERS	BILGI-1	V6: dikiş makinesi sahnesi terziliği sızdırıyordu → sahne salona taşındı (mekân/eşya sızıntısı)
-159cc337ee	DERS-VAR	KOD-90	elle okumada MASUM satırı sızıntısı
-87de01b77f	GECMIS		V6 Onay 2 düzeltmeleri
-d09134c33c	BILGI	SUREC-30	V6 metin aşaması ~3 sa 14 dk
-8ea4cbae96	BILGI-VAR	SUREC-32	gündüz temel, gece Codex düzeni
-e3e5cd9628	DERS	SUREC-33	V6'da kurallar yarım uygulanınca 7 resim boşa gitti
-4c76011d89	GECMIS		tablo başlığı
-8fbc908280	DERS-VAR	SATIR-11	üretimden önce bayraklar kuralla kapandı (SR-M)
-05ebd9184d	GECMIS		V6 parti kaydı
-280e38c738	BILGI	ISTEM-1	istem üretici betik örneği (uretim/v6/uret_istem_parti3.py)
-2f6fc86ccc	GECMIS		V6 gömme kaydı
-f3b38418a1	DERS	KOD-35	V6'da kapı 11 ek resim istedi (görselli turda); kapı erken koşulursa liste baştan tam olur
-0af8665de0	GECMIS		V6 Onay 3 kaydı
-7dd9142ea4	GECMIS		V6 düzeltme kaydı
-2a937a83da	GECMIS		V6 dondurma kaydı
-3c5c0cb364	GECMIS		V7 başlangıç notu
-7e3c05b778	GECMIS		V7 okuma sırası
-962c44ffa3	GECMIS		V7 ilk plan (saat; değişti)
-84969bee69	GECMIS		V7 ilk plan
-dbab0d56ca	GECMIS		V7 ilk plan
-4133621de0	GECMIS		V7 ilk plan
-a8c3848365	GECMIS		V7 ilk plan
-bf48aaf3eb	GECMIS		V7 ilk plan
-f76de8da71	GECMIS		V7 kıyafet (formda)
-1768ea4d1a	GECMIS		V7 kapanış ayrıntısı (diyalogda)
-32e00ff73a	GECMIS		V7 açık sorular (kapandı)
-a7501175e7	GECMIS		V7 planı (formda)
-7b89c255b3	GECMIS		V7 planı (formda)
-e5b0329a90	GECMIS		V7 planı (formda)
-014ff56f87	GECMIS		V7 planı (formda)
-ca597f1c54	GECMIS		V7 planı (formda)
-bffc014daf	GECMIS		V7 planı (formda)
-1260f63210	GECMIS		V7 planı (formda)
-ceaae553e0	GECMIS		V7 planı (formda)
-bfcbc735ee	GECMIS		V7 iş notu
-a4cdeb7612	GECMIS		kapanma notu
-3daccbb27a	DERS-VAR	SEZON-18	V7 ilk planı V5'i tekrarlıyordu
-8478e850b8	DERS-VAR	YAPI-35	taç/kasa/motor çatışması → taç her yolda
-35bc277c53	GECMIS		V7 başlangıç saati
-90293746f5	GECMIS		tablo başlığı
-d3f219e36e	GECMIS		V7 ara kaydı
-0395490a7a	GECMIS		tablo başlığı
-26c14d892a	GECMIS		V7 süre satırı
-48e4d7d162	GECMIS		V7 süre satırı
-b0fe8f55fb	GECMIS		V7 süre satırı
-1c22a8bb57	DERS	KAR-22	V7 elbise rengi zümrüt V5'i tekrarlıyordu → gece mavisi; kıyafet rengi de eski vakalarla karşılaştırılır
-06c17df589	GECMIS		V7 süre satırı
-209f3d58fe	DERS-VAR	SUREC-27	sızıntı taraması birebir yok derken elle okumada 2 bulgu
-939eec41b9	DERS-VAR	YAPI-35	taç kararı yollarla çelişti
-f2c4745b52	BILGI-VAR	YAPI-35	taç her yolda (V7 yolları)
-b435b71488	GECMIS		V7 durum notu
-040e8bfbf2	DERS	SEZON-21	V7: önceki vakaların hazır resimleri kullanılmadı, bütün resimler baştan (büro, manto, triko)
+2dd102a3ff	DERS	SUREC-16	kâğıt üstünde (görselsiz) denemek bedava; ikinci göz: kısmi VAR — görselsiz testin gerekçesi
+5ba44a9964	YERINDE		V2 başlangıç notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+6abe896ba2	YERINDE		V2 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e288a69655	YERINDE		V2 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+95f87f39ef	YERINDE		V2 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+f9dfd509f9	YERINDE		V2 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+daed259348	YERINDE		V2 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+1761fc7d12	YERINDE	SUREC-30	süre başlangıcı tanımı; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+b3ac02a7f2	YERINDE	SUREC-30	her adımın bitişi yazılır; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+c50f906581	YERINDE		V2 süre notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+dd5a5b6c38	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+8e50998956	YERINDE		V2 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+89b820a36b	YERINDE		V2 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+40c9e69003	YERINDE		V2 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+8de2fe14c9	YERINDE		V2 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+029a998c5d	DERS	SUREC-15	V2 süre satırı; ikinci göz: V2 Onay 2 notlarının hepsi bulanık replik; başlangıç dosyası yerinde kalır, kopyası taşındı
+e13a4a0194	YERINDE		V2 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+430005b1ee	YERINDE	SUREC-30	ara sonrası başlangıç = ilk mesaj anı; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+34a487a69c	DERS	SATIR-21	V2 süre satırı; ikinci göz: V2 görselli turda 7 düzeltmenin 3ü konuk girişi; başlangıç dosyası yerinde kalır, kopyası taşındı
+e515d2c17d	YERINDE	SATIR-20	V2 Onay 3: adı geçen kişiler görünmüyor → kural; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+5455d5f360	YERINDE		V2 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+03abd1c686	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+5d9d45eab2	YERINDE	SUREC-30	V2 ölçülen süre (form→liste 2 sa 52 dk); başlangıç dosyası yerinde kalır (önce: BILGI)
+07fa3d0b8a	YERINDE	SUREC-30	V2 görsel süresi 5 sa; başlangıç dosyası yerinde kalır (önce: BILGI)
+f8dbcdde98	YERINDE	SUREC-30	V2 görselli tur süresi; başlangıç dosyası yerinde kalır (önce: BILGI)
+ad0ffe1c9a	YERINDE	SUREC-30	V2 Onay 3 süresi; başlangıç dosyası yerinde kalır (önce: BILGI)
+2fb041f406	YERINDE	SUREC-30	V2 dondurma süresi; başlangıç dosyası yerinde kalır (önce: BILGI)
+865e7b0b24	YERINDE	SUREC-30	V2 toplam ≈11 sa; başlangıç dosyası yerinde kalır (önce: BILGI)
+3d6b32aaa5	DERS	SATIR-20	V2'de Onay 3'te sonradan 4 görsel (~1,5 sa); adı geçen kişi kuralı baştan listede olursa önlenir; ikinci göz: hedef SUREC-31 değil; başlangıç dosyası yerinde kalır, kopyası taşındı
+ae3300f00f	BILGI	SUREC-30	sohbet başına üretim süresi ölçme yöntemi; başlangıç dosyası yerinde kalır, kopyası taşındı
+22e88dcda9	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+c19343d93a	BILGI	GOMME-3	V2 sohbet kaydı (eski web/Grok düzeni); ikinci göz: web/Grok üretiminde boyut ve kesim tecrübesi; başlangıç dosyası yerinde kalır, kopyası taşındı
+2c84608af5	YERINDE		V2 sohbet kaydı (eski kesim profilleri); başlangıç dosyası yerinde kalır (önce: GECMIS)
+de562b2041	YERINDE	ISTEM-20	saç rengi metne uymadı (platin) → temel ayrı kontrol; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+92c8ddf883	YERINDE	GOMME-5	koyu saçta hale elle; göz akı da gidebiliyordu; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+870f97c25a	YERINDE	ISTEM-28	gözlük sapında yazı izi; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+c16b74db6b	YERINDE	GOMME-14	havadaki el figür yuvasında ekran dışında kalıyor; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+dd029a5e77	YERINDE	DENETIM-17	sıra karışık geldi, görselden düzeltildi; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+79045fcf21	YERINDE	ISTEM-37	elin sahibi kıyafeti başka konuğu çağrıştırdı (G44); başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+43270ca92b	DERS	DENETIM-28	pasta kat sayısı kaydı; buzdolabı markası; ikinci göz: kısmi VAR — nesne sayısı metne uyar; başlangıç dosyası yerinde kalır, kopyası taşındı
+01af18b5c7	YERINDE		V2 sohbet kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+498843e5b8	YERINDE	ISTEM-28	kürsü rozeti silindi; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+dda82ef815	YERINDE		V2 sohbet kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+bec4a886b1	YERINDE	SATIR-1	metinde anılan Cengo karede yoktu; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+6d32d407c7	YERINDE	ISTEM-36	masanın açık yüzü: Saadet Peri'yi görürdü; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+d31ee6e8c5	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+b7f5214767	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+8acc86459c	DERS	ISTEM-34	Grok İstanbul yerine Golden Gate çizdi; ChatGPT reddi sonra geçti; başlangıç dosyası yerinde kalır, kopyası taşındı
+c716a1429e	YERINDE	KAR-23	ayakkabı yeşil → kırmızı stiletto; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+3b6d3e55d1	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+626d25035d	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+cbd46cf933	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+17f7cd8d63	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+d4f1bc91a0	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+6ea6dc53ce	YERINDE		düzeltme yok; başlangıç dosyası yerinde kalır (önce: GECMIS)
+c9e79469d0	BILGI	SATIR-7	küçük fark kabul; ikinci göz: küçük süreklilik farkı kabul emsali (DENETIM-51 ile ilişkisi sahibine sorulabilir); başlangıç dosyası yerinde kalır, kopyası taşındı
+d5f3bfa469	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+4bd4a7c1da	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+1d2e8a379a	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+c6fd956365	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+566ff93116	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+d4479a81ff	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+85a8548a71	YERINDE		ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e9f4b3cbe7	DERS	SUREC-30	araç yazımı süreden sayılmaz; ikinci göz: istem/araç yazımı süreden sayılmaz kuralda yok; başlangıç dosyası yerinde kalır, kopyası taşındı
+f4468f331e	DERS	SUREC-25	V1'de zaman Onay 3'teki görsel sorunlarına gitti; baştan önlenebilirdi; ikinci göz: hedef SUREC-31 değil; başlangıç dosyası yerinde kalır, kopyası taşındı
+de49393768	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+1362873514	BILGI	SUREC-14	yeni vakada araçları vakaya açma (~1 saat); başlangıç dosyası yerinde kalır, kopyası taşındı
+68b29406bd	YERINDE	KOD-27	tur aracını yeni vakaya açma; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+084dfd2f60	YERINDE	KOD-80	vakadan vakaya geçişi dene; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+a900914fa5	BILGI	KOD-12	yeni vakanın test kardeşi; başlangıç dosyası yerinde kalır, kopyası taşındı
+1b95b6f6e9	YERINDE		V3 başlangıç notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+bfffd9884c	YERINDE		V3 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+7c90f6df3b	YERINDE		V3 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+758371fb3e	YERINDE		V3 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+6b58907669	YERINDE		V3 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+7f2bfcffbb	YERINDE		V3 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+9674109ef0	YERINDE	YAPI-3	V3 Bilmece kararı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+dc3aa2513f	YERINDE	KAR-34	Gizem tanımı kanonda; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+938af19724	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+d620f821cf	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+019429ead9	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+dba4a4002c	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+f52c82a9f2	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+912d6cf2d1	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+64350d3e20	YERINDE	SUREC-30	başlat dendi ama çalışılamadı → aynı anda ara; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+bb038271cf	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e011e89420	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+931e73ecbb	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+25c3855988	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+9f0d1e1b79	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+dfb41da61d	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+f6b2c10f5f	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+99b975ffd4	YERINDE		V3 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+8471844179	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+3ac136bebe	DERS	SEZON-17	V3 müşterisi aile dışı seçildi (V1 baba–oğul tekrarı olmasın); başlangıç dosyası yerinde kalır, kopyası taşındı
+f381604dee	YERINDE		V3 Onay 1 düzeltmeleri; başlangıç dosyası yerinde kalır (önce: GECMIS)
+c39def7c07	YERINDE		V3 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+bf21a96163	YERINDE		V3 süre satırı (bulanık replik örnekleri TON-9'da); başlangıç dosyası yerinde kalır (önce: GECMIS)
+c8df11c9d8	YERINDE	TON-9	109 replik anlaşılırlık geçişi; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+e515487396	BILGI	SUREC-22	önce ana referanslar onay, sonra gruplu üretim; ikinci göz: kısmi VAR — 3 pencere paralel (eski düzen); başlangıç dosyası yerinde kalır, kopyası taşındı
+4d1d5f6465	YERINDE		V3 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+dc44943a9a	YERINDE		ölçülmedi; başlangıç dosyası yerinde kalır (önce: GECMIS)
+080a1e4c0b	YERINDE	SATIR-2	V3 Onay 3'te SR-A…L yazıldı; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+bcf87812b9	YERINDE		V3 dondurma kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+8012014c0f	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+3cdf8d6543	YERINDE	SUREC-30	V3 ölçülen süre (form→liste 5 sa); başlangıç dosyası yerinde kalır (önce: BILGI)
+10059d552e	YERINDE		V3 kısmi süre; başlangıç dosyası yerinde kalır (önce: GECMIS)
+7da4e2b8a7	YERINDE		ölçülmedi; başlangıç dosyası yerinde kalır (önce: GECMIS)
+c1223d8c32	YERINDE		V3 kısmi toplam; başlangıç dosyası yerinde kalır (önce: GECMIS)
+cd8610b376	DERS	SUREC-30	V3 saat işletilmedi → takvim 3,5 hafta; saat baştan sona işletilmeli; başlangıç dosyası yerinde kalır, kopyası taşındı
+34e965a1c7	YERINDE		V4 başlangıç notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+72da04310b	YERINDE		V4 amacı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+123d2fb0bd	YERINDE		V4 amacı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+41c43d4139	YERINDE		V4 hesap notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+9e2fcbfb48	YERINDE		V4 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+0c02f6dbc7	YERINDE		V4 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+70a5cad1dc	YERINDE		V4 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+2356d55df4	YERINDE		V4 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e4857a8f65	YERINDE		V4 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+378d4c99ef	YERINDE		V4 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+48cfdb87fc	DERS	KAR-1	taslak ayrıntısı forma girmeden sahibine sorulur; ikinci göz: kısmi VAR — taslak ayrıntısı forma girmeden sorulur; başlangıç dosyası yerinde kalır, kopyası taşındı
+3aa52d436b	BILGI	CODEX-22	2 kol denemesi; dongu.sh kol desteği (kilit, ayrı log); başlangıç dosyası yerinde kalır, kopyası taşındı
+8418ea683a	YERINDE		V4 çeviri kararı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e65a7abd18	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+689b64ddb7	YERINDE		V4 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+23d2e7cfe0	YERINDE		V4 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+4ecb955f71	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e4bcfa1e27	YERINDE		V4 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+1828d4530e	YERINDE		V4 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+24d1f334cf	YERINDE		V4 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+2cea0bfc65	YERINDE		V4 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e60b9134cd	DERS	SUREC-30	saat dururken sahibinin beyan ettiği süre aktif süreye eklenir; ikinci göz: saat dururken beyan edilen süre kuralda yok; başlangıç dosyası yerinde kalır, kopyası taşındı
+b14aeb307e	YERINDE		boş süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+9a20b83e4e	YERINDE		boş süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+52ae851385	YERINDE		boş süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+47ce0fcdf5	YERINDE		boş süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+032b5d0363	YERINDE		boş süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+67db26cd27	YERINDE	SUREC-30	resim sayımı kalıbı (tablo başlığı); başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+17fd42edc0	YERINDE	SUREC-30	resim sayımı kalıbı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+74c4b56672	YERINDE	SUREC-30	resim sayımı kalıbı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+ce8836c094	YERINDE	SUREC-30	resim sayımı kalıbı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+3d0aefd9c4	YERINDE	SUREC-30	resim sayımı kalıbı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+b6b4f0d6e2	YERINDE	SUREC-30	resim sayımı kalıbı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+7c3270613e	YERINDE	SUREC-30	resim sayımı kalıbı; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+b306415f99	BILGI	SUREC-30	resim sayımına 'hız sınırı görüldü mü' satırı; başlangıç dosyası yerinde kalır, kopyası taşındı
+763048e1fb	BILGI	SUREC-30	toplam tablosu kalıbı (sahibi/makine/takvim); başlangıç dosyası yerinde kalır, kopyası taşındı
+ae0f6c1a41	YERINDE		boş tablo satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+fc182fbc3d	YERINDE		boş tablo satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e3d2280bda	YERINDE		boş tablo satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+f4de88b1b9	YERINDE		boş tablo satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+662a1dd14a	YERINDE		V5 başlangıç notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+fa799b21bd	YERINDE		V5 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+dbd37367ea	YERINDE		V5 tip notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+a0ddcfc8ca	YERINDE		V5 başlangıç saati; başlangıç dosyası yerinde kalır (önce: GECMIS)
+ee4b04ce0c	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+7e2286c71e	YERINDE		V5 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+9c4601d9a1	YERINDE		V5 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+00eac4cb4d	YERINDE		V5 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+9ac477f809	YERINDE		V5 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+55574dc805	YERINDE		V5 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+eb9f0b692b	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+b20e34dc1e	YERINDE		V5 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+ac41ae5ee9	YERINDE		V5 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+b57863d708	YERINDE		V5 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+e4ebf7589c	YERINDE		V5 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+0c9324d2b1	YERINDE	SUREC-38	V5 Onay 2 düzeltmeleri (Selim, yosun, kararlar); başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+c1e5dcb7e1	YERINDE	SUREC-30	V5 metin aşaması ~5 sa; başlangıç dosyası yerinde kalır (önce: BILGI)
+4c073dd3af	YERINDE		V6 başlangıç notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+d177a35235	YERINDE		V6 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+76f09952df	YERINDE		V6 konu seçimi; başlangıç dosyası yerinde kalır (önce: GECMIS)
+5936e57f1d	YERINDE	KAR-29	Eylül 16; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+831442016d	YERINDE	KAR-30	Gamze; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+0f4d3105e4	YERINDE	KAR-30	Haldun; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+d33cefbacd	YERINDE	KAR-30	Müzeyyen; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+4246d701b2	YERINDE	KAR-30	Jale; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+67ddad99fe	YERINDE	KAR-29	Üsküdar; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+337e25012e	YERINDE	KAR-30	V6 kişileri kanonda; başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+31b0e7a581	BILGI	SEZON-7	V6 hayvan yok; ikinci göz: hayvan V6da da yok; başlangıç dosyası yerinde kalır, kopyası taşındı
+7390bac1d3	YERINDE	SUREC-30	saatler UTC yazılmıştı; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+14fffbc679	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+f9b0f92625	YERINDE		V6 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+a142b7f0c4	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+aeddbd9ec4	YERINDE		V6 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+929dc73367	BILGI	YAPI-13	V6 süre satırı; ikinci göz: Cengo şüpheli olabilir (sahibinin onayı 4b); başlangıç dosyası yerinde kalır, kopyası taşındı
+4f7706c06a	YERINDE	SINIR-7	Eylül 16, Cengo baba olduğunda reşit; Gamze ile evliydi (KAR-30); başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+59f1f482bc	DERS	BILGI-1	V6: dikiş makinesi sahnesi terziliği sızdırıyordu → sahne salona taşındı (mekân/eşya sızıntısı); başlangıç dosyası yerinde kalır, kopyası taşındı
+159cc337ee	YERINDE	KOD-90	elle okumada MASUM satırı sızıntısı; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+87de01b77f	YERINDE		V6 Onay 2 düzeltmeleri; başlangıç dosyası yerinde kalır (önce: GECMIS)
+d09134c33c	YERINDE	SUREC-30	V6 metin aşaması ~3 sa 14 dk; başlangıç dosyası yerinde kalır (önce: BILGI)
+8ea4cbae96	BILGI	SUREC-32	gündüz temel, gece Codex düzeni; ikinci göz: kısmi VAR — gündüz temel/gece Codex/sabah web düzeni; başlangıç dosyası yerinde kalır, kopyası taşındı
+e3e5cd9628	DERS	SUREC-33	V6'da kurallar yarım uygulanınca 7 resim boşa gitti; başlangıç dosyası yerinde kalır, kopyası taşındı
+4c76011d89	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+8fbc908280	YERINDE	SATIR-11	üretimden önce bayraklar kuralla kapandı (SR-M); başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+05ebd9184d	YERINDE		V6 parti kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+280e38c738	BILGI	ISTEM-1	istem üretici betik örneği (uretim/v6/uret_istem_parti3.py); başlangıç dosyası yerinde kalır, kopyası taşındı
+2f6fc86ccc	YERINDE		V6 gömme kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+f3b38418a1	DERS	KOD-35	V6'da kapı 11 ek resim istedi (görselli turda); kapı erken koşulursa liste baştan tam olur; başlangıç dosyası yerinde kalır, kopyası taşındı
+0af8665de0	YERINDE		V6 Onay 3 kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+7dd9142ea4	YERINDE		V6 düzeltme kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+2a937a83da	YERINDE		V6 dondurma kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+3c5c0cb364	YERINDE		V7 başlangıç notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+7e3c05b778	YERINDE		V7 okuma sırası; başlangıç dosyası yerinde kalır (önce: GECMIS)
+962c44ffa3	BILGI	FIKIR	V7 ilk plan (saat; değişti); fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+84969bee69	BILGI	FIKIR	V7 ilk plan; fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+dbab0d56ca	BILGI	FIKIR	V7 ilk plan; fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+4133621de0	BILGI	FIKIR	V7 ilk plan; fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+a8c3848365	BILGI	FIKIR	V7 ilk plan; fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+bf48aaf3eb	BILGI	FIKIR	V7 ilk plan; fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+f76de8da71	YERINDE		V7 kıyafet (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+1768ea4d1a	YERINDE		V7 kapanış ayrıntısı (diyalogda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+32e00ff73a	BILGI	FIKIR	V7 açık sorular (kapandı); fikir havuzu (sahibinin onayı 2; önce: GECMIS); başlangıç dosyası yerinde kalır, kopyası taşındı
+a7501175e7	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+7b89c255b3	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+e5b0329a90	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+014ff56f87	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+ca597f1c54	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+bffc014daf	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+1260f63210	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+ceaae553e0	YERINDE		V7 planı (formda); başlangıç dosyası yerinde kalır (önce: GECMIS)
+bfcbc735ee	BILGI	SUREC-34	V7 iş notu; ikinci göz: ortağın düzeni; başlangıç dosyası yerinde kalır, kopyası taşındı
+a4cdeb7612	YERINDE		kapanma notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+3daccbb27a	YERINDE	SEZON-18	V7 ilk planı V5'i tekrarlıyordu; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+8478e850b8	YERINDE	YAPI-35	taç/kasa/motor çatışması → taç her yolda; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+35bc277c53	YERINDE		V7 başlangıç saati; başlangıç dosyası yerinde kalır (önce: GECMIS)
+90293746f5	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+d3f219e36e	YERINDE		V7 ara kaydı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+0395490a7a	YERINDE		tablo başlığı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+26c14d892a	YERINDE		V7 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+48e4d7d162	YERINDE		V7 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+b0fe8f55fb	YERINDE		V7 süre satırı; başlangıç dosyası yerinde kalır (önce: GECMIS)
+1c22a8bb57	DERS	KAR-22	V7 elbise rengi zümrüt V5'i tekrarlıyordu → gece mavisi; kıyafet rengi de eski vakalarla karşılaştırılır; başlangıç dosyası yerinde kalır, kopyası taşındı
+06c17df589	DERS	SUREC-14	V7 süre satırı; ikinci göz: yeni vakada kapı kurulumu (sahibinin onayı 4c); başlangıç dosyası yerinde kalır, kopyası taşındı
+209f3d58fe	DERS	SUREC-14	sızıntı taraması birebir yok derken elle okumada 2 bulgu; ikinci göz: kısmi VAR — yeni vakayı araçlara ekleme (adım 5); sızıntı yarısı SUREC-27de; başlangıç dosyası yerinde kalır, kopyası taşındı
+939eec41b9	YERINDE	YAPI-35	taç kararı yollarla çelişti; başlangıç dosyası yerinde kalır (önce: DERS-VAR)
+f2c4745b52	YERINDE	YAPI-35	taç her yolda (V7 yolları); başlangıç dosyası yerinde kalır (önce: BILGI-VAR)
+b435b71488	YERINDE		V7 durum notu; başlangıç dosyası yerinde kalır (önce: GECMIS)
+040e8bfbf2	DERS	SEZON-21	V7: önceki vakaların hazır resimleri kullanılmadı, bütün resimler baştan (büro, manto, triko); başlangıç dosyası yerinde kalır, kopyası taşındı

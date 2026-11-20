@@ -380,3 +380,28 @@ fazla boşluğu kırp). Şeritte dekolte olmamalı.
 | Kart katalog çizimine kayıyor, figür tarzı karttan alıyor (V6 G2 → G18 → bütün Cengo seti; 13 Kasım, sahibi fark etti) | `ISTEM_KALIPLARI.md` §11: kart tek kişi dikey + boyalı yüz referansı + tam §3 cümlesi; kartı alan istemde "kartın çizim tarzını alma"; denetimde temel/kart eski onaylılarla yan yana (tarz) |
 | Çizgi roman / karikatür tarzı, kalın kontur (v3 ilk G1, G4; 6 Kasım, sahibi fark etti) | Eski düzen gibi: Peri, Cengo ve bütün ifade/varyant istemlerinde tarz paragrafı YOK (boyalı referanslar taşır). Yeni karakterde tarz paragrafı + sonda `tarz_ornek_kadin/erkek.jpg` + "Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur… Karikatür değil" cümlesi. Yeni istem yazarken önce `v3_eski/prompts/` ile karşılaştır |
 | Dağınık saç telleri zemine taşıyor → kesimden sonra teller arasında zemin halesi kalıyor (v3 G1, G4) | istemde "saçın dış çizgisi toplu; zemine taşan ince tel yok" (eşarplıysa "saçın tamamı eşarbın içinde"). Hale tek başına RET SEBEBİ DEĞİL: gömmede yalnız baş kutusunda temizlenir (`5_gorsel_sistemi.md` → F "Hale temizliği yöntemi"; Vaka 1–2'de böyle yapıldı). **Peri ve Cengo istisna (sahibi, 6 Kasım):** saçları eskisi gibi dağınık kalır; onlara bu satır yazılmaz, hale gömmede temizlenir |
+
+## Taşınan bilgiler (20 Kasım 2026)
+
+Kural toplama işinin taşıma adımında eski belgelerden buraya alındı; `(k:…)` = `sablon/kurallar/adim3/kayit_aday.tsv` kimliği.
+
+### Resim klasörü ve ortak referanslar (eski `uretim/OKUBENI.md`, `v3_eski/BIRIKIM.md`)
+
+- *Bilgi:* [OKUBENI › Resim üretimi — işleyiş] Oyunun resimleri burada üretilir. Her vaka bir klasör: `v3/`, `v4/` … Her şey GitHub'da durur; bilgisayar kapalıyken telefondan (bulut Claude) da görülür. (k:6483fdba8b)
+- *Bilgi:* [OKUBENI › Bir vakanın klasörü] `LISTE.md` · resim listesi: no · tür · ne · önce onaylanması gereken · ✓ (k:e29f4b9259)
+- *Bilgi:* [OKUBENI › Bir vakanın klasörü] `red/` · reddedilen · ✗ yalnız bilgisayarda (k:bc7f9d13a9)
+- *Bilgi:* [OKUBENI › Bir vakanın klasörü] `yanyana/` · resmin oyundaki hâli (denetim kanıtı) · ✓ (k:342f1282d4)
+- *Bilgi:* [OKUBENI › Belgeler] Vaka 3'ün Codex deneyimi (gerekçeler, ret geçmişi, filtre deneyi): `v3_eski/BIRIKIM.md` (k:bbf8ee3eac)
+- *Bilgi:* [BIRIKIM › 7. `referanslar/` klasörü (26 dosya)] `buro_gunduz.jpg` · Boş büro, gündüz, kemerli pencereden İstanbul · G49, G62 · — (k:fb5114a950)
+- *Bilgi:* [BIRIKIM › 7. `referanslar/` klasörü (26 dosya)] `buro_aksam.jpg` · Aynı büro, akşam, masa lambası · G63, G64, G65, G66 · — (k:0f1e7d2962)
+- *Bilgi:* [BIRIKIM › 7. `referanslar/` klasörü (26 dosya)] `tarz_mekan_ic.jpg` · Eski dükkân içi, yarı inik kepenk, gün batımı ışığı · G10, G11, G17, G18 · — (k:f9dd1c9c86)
+- *Bilgi:* [BIRIKIM › 7. `referanslar/` klasörü (26 dosya)] `tarz_sokak.jpg` · Arnavut kaldırımlı dar sokak, gün batımı, deniz · G15, G16 · — (k:14a1805a2c)
+
+### Yerel üretim denemesi (Stable Diffusion / Forge, 11 Ekim 2026; karar verilmedi)
+
+- *Bilgi:* [5_gorsel_sistemi › D. Üretim yöntemi] 7. **Yerel üretim denemesi (11 Ekim 2026; karar verilmedi, sürüyor).** Amaç: ret/limit yok, gece otomatik üretim, Claude üretir-denetler-yeniden dener, sahibi sabah toplu onaylar. (k:bba95c6a63)
+- *Bilgi:* [5_gorsel_sistemi › D. Üretim yöntemi] Donanım: sahibinin dizüstü HP Omen, GTX 1060 Max-Q **6 GB**, 16 GB RAM, Win 10. Sınırda ama çalışıyor. (k:081c2f51f4)
+- *Bilgi:* [5_gorsel_sistemi › D. Üretim yöntemi] Kurulum: Stable Diffusion WebUI **Forge** (tek tık paketi, CUDA 12.1) → `C:\forge`; NVIDIA 582.78. (k:f7e28987c7)
+- *Bilgi:* [5_gorsel_sistemi › D. Üretim yöntemi] Model: **DreamShaper XL Lightning DPM++ SDE** (civitai 112902). Lisans CreativeML Open RAIL++-M (çıktı üzerinde hak iddia edilmiyor; ticari kullanım yasağı yok). Ayar: 6 adım, CFG 2, DPM++ SDE, Karras, 832×1216, UI = xl. (k:55ea392e08)
+- *Ders:* [5_gorsel_sistemi › D. Üretim yöntemi] Tuzaklar: canlı önizleme GitHub'dan dosya indirmeye çalışıp "getaddrinfo failed" verdi → Settings → Live previews kapat, yöntem "Approx cheap". **GPU Weights 5119 → 4096** süreyi 4 dk 35 sn'den 1 dk 25 sn'ye indirdi (bellek %100 → %87). (k:525396a78e)
+- *Bilgi:* [5_gorsel_sistemi › D. Üretim yöntemi] Karakter tutarlılığı: ControlNet Unit 0 → IP-Adapter (`ip-adapter-plus_sdxl_vit-h`, preprocessor CLIP-ViT-H) + G1 referansı. Weight 0.7: G1'e çok benzer ama fotoğrafa kayar; **0.5: hem benzer hem boyalı**, 1 dk 47 sn. (İlk çalıştırma kodlayıcıyı indirdiği için 14 dk.) (k:691fe1d01e)
