@@ -6,8 +6,10 @@ dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 Depo kökündeki `index.html` derleme çıktısıdır — KOD-1. Kaynak `kaynak/`
 klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
-> ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): kural sadeleştirme (Adım 3: tek `KURALLAR.md`) ve
-> ### otomatik uygulama (Adım 4) bitmeden resim/metin üretimi önerilmez. Yeni pencere: `sablon/kurallar/PLAN.md` en üst kutu.
+> ### 📘 BÜTÜN KURALLAR TEK DOSYADA: `sablon/kurallar/KURALLAR.md` (Adım 3 BİTTİ, 20 Kasım 2026 gece). Belgelerdeki `TON-9`,
+> ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
+> ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
+> ### önerilmez. **Yeni pencere: Adım 4 — `sablon/kurallar/PLAN.md` en üst kutu ("ADIM 4 BURADAN BAŞLAR").**
 > ### Sahibiyle çalışma biçimi — SUREC-34 (en kısa Türkçe, uzun işte en geç 3 dakikada bir durum). Commit kapısı artık yalnız değişen vakayı denetler (KOD-35).
 >
 > ### 🔑 YETKİ (17 Kasım 2026, Barbaros'un kararı): **Oğuz Bey'in hesabı Paravan'da HER ŞEYE yetkili** — SUREC-4. Sebep: Barbaros'un

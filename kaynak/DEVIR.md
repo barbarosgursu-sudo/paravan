@@ -8,6 +8,11 @@
 
 ---
 
+> ## ▶️ 20 KASIM 2026 GECE: ADIM 3 BİTTİ → YENİ PENCEREDE ADIM 4
+> Bütün kurallar `sablon/kurallar/KURALLAR.md`'de; eski kural belgeleri `arsiv/`'de; dersler kuralların altında, kullanılmamış
+> fikirler `sablon/FIKIR_HAVUZU.md`'de. Sahibi Adım 4'ü (her kurala program ya da adımda hatırlatma) yeni pencerede yapacak:
+> **`sablon/kurallar/PLAN.md` en üst kutu "ADIM 4 BURADAN BAŞLAR"** — eksiksiz başlangıç, açık sorular, tuzaklar orada.
+
 > ## 🛑 BARBAROS (20 Kasım 2026, öğleden sonra): ÖNCE KURALLAR, ÜRETİM YOK
 > Kural işi (Adım 3 tek `KURALLAR.md`, Adım 4 otomatik uygulama) bitmeden Vaka 7/8 resimleri ya da Vaka 1–4 geçişi önerilmez.
 > Aşağıdaki "Sırada: Vaka 8'in resim aşaması…" bu kararla bekliyor. Durum ve sıradaki iş: `sablon/kurallar/PLAN.md` en üst kutu.

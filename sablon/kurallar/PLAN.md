@@ -4,7 +4,64 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
-> ## ▶️ YENİ PENCERE: BURADAN BAŞLA (güncel: 20 Kasım 2026 öğleden sonra)
+> ## ▶️▶️ YENİ PENCERE: ADIM 4 BURADAN BAŞLAR (güncel: 20 Kasım 2026 gece)
+> **Durum:** Adım 1–3 BİTTİ, hepsi `main`'de (son commit'ler `f7f6df7` + `35275f6`). Bütün kurallar `sablon/kurallar/KURALLAR.md`'de
+> (664 asıl kural + 23 "→ ANA" yönlenen kod; başlıklar `#### KOD-n`). 12 eski kural belgesi `arsiv/`'de (silinmedi). Yaşayan belgeler
+> kural yazmaz, kod anar. Hâlâ geçerli: ÖNCE KURALLAR, ÜRETİM YOK (aşağıdaki kutu) — Adım 4 bitince üretime dönülür.
+>
+> **Sahibinin hedefi (20 Kasım, sözleri):** "Bu tecrübelerimin kaybolmasını ASLA istemiyorum." "Bu yapacaklarımızı yaptıktan sonra
+> artık vaka üretimi yapmak istiyorum. Bir vakayı üretirken daha önce hallettiğimiz bir sorunla tekrar tekrar uğraşmak istemiyorum."
+> "Artık bu iş bittikten sonra saçmalıklarla uğraşmak istemiyorum." → Her kararı "bir sonraki vakada aynı sorun yine çıkar mı?" diye sına.
+>
+> **ADIM 4 — ne yapılacak (§2 madde 3 ve §4 Adım 4; sahibi onaylı plan):**
+> 1. Her kurala bir **uygulayıcı**: (a) programın ölçebildiği kural → program bağlanır, iş DURUR (doğrulayıcı, `arac_kapi.js`,
+>    `uretim/istem_kontrol.sh`, `arac_tarz.py`, `arac_benzerlik*.js/py`, `arac_satir_resim.js`, testler…); (b) ölçülemeyen kural
+>    (espri, parmak, ton…) → **hangi üretim adımında** sahibine hatırlatılacağı; sahibi "baktım" demeden o adım geçmez. Sahibi 664 kuralı
+>    tek tek sormayacak: hatırlatma yeri gelince, ilgili adımda, kısa liste olarak çıkmalı.
+> 2. Önerilen biçim (sahibine kısaca sunulup onayı alınır): her kuralın bloğuna `*Uygulayıcı:* program <dosya/kural adı>` ya da
+>    `*Uygulayıcı:* hatırlat <SUREC adım no>` satırı; `arac_kurallar.js say` (ya da yeni bir test) uygulayıcısı olmayan kuralı sayar ve
+>    uyarır. Hatırlatmaların adım adım listesi programla üretilir (elle değil), üretim süreci (`sablon/7_uretim_sureci.md`) adımlarında anılır.
+> 3. Önce en çok ısıranlar: **benzerlik, el, kıyafet, satır–resim**. Benzerliğin iki aracı zaten var (`kaynak/arac_benzerlik.js` yazı,
+>    `kaynak/arac_benzerlik_resim.py` resim; `uretim/CLAUDE.md` 00 ve 0b2) — ama **KURALLAR.md'de kodları YOK**: önce KURALLAR'a
+>    eklenmeli (bugünkü sahibi kararı, yeni kanon değil). Aşağıdaki "⚠ ADIM 4'TE UNUTMA — KONUK BENZERLİĞİ" kutusu da buna dair.
+> 4. Elde hazır malzeme: `sablon/KURALLAR_TASLAK.md`'nin uygulayıcı tespitleri (yaklaşık: 30 kural programla, 51 kısmen, 18 kodun yapısı
+>    gereği, 99 programsız — özet olduğu için yaklaşık; kodları KURALLAR.md'ye göre yeniden eşlenmeli). Doğrulayıcı kural listesi
+>    `kaynak/dogrulayici_sozlesmesi.md`, kapının 13 kuralı `kaynak/arac_kapi.js` başı, istem denetimleri `uretim/istem_kontrol.sh`.
+>
+> **Adım 4'te karar bekleyen / çözülecek açıklar (kaybolmasın):**
+> - **Kanon ↔ KAR iki yerde:** `sablon/3_kanon_kaydi.md` gerçekleri metin olarak tutuyor (bilerek geri getirildi — yazar okusun diye);
+>   KAR-24 ve KAR-26…39 aynı gerçekleri tekrar ediyor. Bölünme bir çelişkiyi gizlemişti (KAR-26 avukat; düzeltildi). Tek yere bağlanmalı
+>   (öneri: kanon kaydı asıl, KAR kuralları "kanon kaydında" desin) — sahibine sor.
+> - **KOD-78 sigara:** program yalnız istemi tarıyor; metin, sahne notu, ifade adı taraması eklenecek (sahibi onayladı, B-2).
+> - **§7 soru 6:** Cengo bağı ±2 doğrulayıcıya eklensin mi (cevap yok). **§7 soru 7:** ilk arşivlenen 16 dosya ham listeye (cevap yok).
+> - **Ajanın sorduğu, sahibine iletilmemiş üç küçük soru** (`adim3/tasima.md`, `denetim_tasima.md`): reddedilen seçenekler ayrı bir liste
+>   olsun mu; V1–V6 ilk taslakları fikir havuzuna girsin mi; `c9e79469d0` (tepsi örtüsü farkının kabulü) SATIR-7 ile DENETIM-51 ilişkisi.
+> - **Okuma bedeli:** `7_uretim_sureci.md` tarama soruları artık yalnız ad + kod; uygulayıcı/hatırlatma listesi bunu çözmeli.
+> - `istem_kontrol.sh` hata iletileri ve `uretim/v6/uret_istem_parti3.py` eski belge adlarını (ISTEM_KALIPLARI, BIRIKIM) anıyor — bilerek
+>   bırakıldı (HAM kimlikleri); Adım 4'te program iletileri kural koduna çevrilebilir.
+> - §5'teki "kapı kendiliğinden çalışmıyor" ESKİDİ: kapı commit'te çalışıyor (`.claude/kapi_hook.js`; 20 Kasım'da iki kez durdurdu).
+>
+> **Araçlar ve tuzaklar (Adım 3'te öğrenildi):**
+> - `KURALLAR.md` ASIL dosya: `arac_kurallar.js birlestir` ÇALIŞTIRMA (reddeder; `--yeniden` bütün birleştirmeleri siler).
+> - Her değişiklikten sonra: `node sablon/kurallar/arac_kurallar.js say` ve `node sablon/kurallar/adim3/tasima_say.js` → ikisi `hata: 0`.
+>   `say` birleşen kodun kaynaklarının ANA'da olduğunu da sayar; `*Kaynak:*` satırına kod yazma (rakamı kaynak no sanır).
+> - `kaynak/arac_kural_ham.js`'i HAM.tsv'nin ÜSTÜNE koşma (`no` kayar, `*Kaynak:*` numaraları bozulur); karşılaştırma için `--cikti <klasör>`.
+>   Arşive taşınan belgeleri eski adlarıyla okur (kimlikler aynı).
+> - Bash aracı komut metnindeki `\\`'ı tek `\`'a indiriyor: ters bölü içeren betikleri Write aracıyla dosyaya yaz, öyle çalıştır.
+>   (Adım 3'te bir ajan `kaynak/DEVIR.md`'ye düz `\n` yazdı, 243 yerde satırlar yapıştı; düzeltildi. Belge değiştiren işten sonra
+>   `grep -cF '\n' <dosya>` ile bak.)
+> - Kapı commit'i durdurursa `git add` de ÇALIŞMAMIŞ olur (aynı komuttaysa): commit'ten sonra `git status --short` boş mu bak. Kapı bir kez
+>   "derleme" diye durdu, yeniden denemede geçti (geçici).
+> - Ajanlar 5 saatlik sınıra takılabilir: aynı ajana SendMessage ile "kaldığın yerden" de, yeni ajan açma.
+> - Her büyük adımda birinci uygulayıcı + bağımsız ikinci göz; sahibine yalnız ayrışan/çelişen yerler.
+>
+> **Sahibiyle konuşma (20 Kasım'da öğrenilenler):** en kısa, en basit Türkçe; önce sonuç; en geç 3 dakikada bir 1–2 satır durum.
+> Çelişki/öneri sunarken **tek tek, sade** anlat ("eski kural: …, yeni kural: …, önerim: …") — kod adlarıyla dolu liste anlaşılmadı.
+> Kelimeye dikkat: "telefonda" yanlış anlaşıldı (ayrım cihaz değil, web sayfası ↔ uygulama). Sahibine "failed" görünürse ne olduğunu söyle.
+>
+> ---
+>
+> ## Önceki kutu: YENİ PENCERE (20 Kasım 2026 öğleden sonra — Adım 3 başlarken yazıldı; çoğu artık geçmiş)
 > **SAHİBİNİN KARARI (Barbaros, 20 Kasım 2026): ÖNCE KURALLAR, ÜRETİM YOK.** Sözleri: "Kurallar olmadan bir şeyler üretmemiz hem
 > işleri karıştırıyor hem de sürekli aynı şeyleri tekrar tekrar yapmamıza neden oluyor. Tekrar resim üretme, tekrar yazma…" ve "kural
 > sadeleştirme işini ve kuralların hepsini düzeltip otomatik uygulama işini yapmıyor muyuz?" → Aşağıdaki eski "ANLAŞILAN SIRA"nın
