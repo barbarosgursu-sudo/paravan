@@ -23,9 +23,11 @@
 > dokunulmadı; artık ASIL dosya (`arac_kurallar.js birlestir` üstüne yazmayı reddeder). `node arac_kurallar.js say`: 3.585 ham
 > kaydın hepsi etiketli, 1.725 KURAL kaydının hepsinin karşılığı var, hata 0. (2) Konular arası tekrar: program 250 aday çift buldu
 > (`adim3/aday.js`), birinci okuma 16 grup (`adim3/tekrar_karar.md`), ikinci göz 3 cümle düzeltmesi + 5 kaçan grup + 3 yeni çelişki
-> (`adim3/denetim_tekrar.md`). **Sahibinin cevabı bekleniyor: `adim3/SORULAR.md`** (21 birleşme + 7 çelişki, önerili). Cevaptan sonra:
-> KURALLAR.md'ye işle (birleşen kodun başlığı kalır, "→ ANA"), atıfları düzelt (SATIR-28, SEZON-24), `say` hata 0; sonra öbür
-> belgelerden kural metinlerini çıkarıp kod koymak (sahibinin onayıyla, bir seferde) ve kırık atıflar (§5).
+> (`adim3/denetim_tekrar.md`). (3) BİTTİ: sahibi "öneriler uygulansın" dedi; 21 birleşme + 7 çelişki KURALLAR.md'ye işlendi
+> (`adim3/uygulama.md`, ikinci göz `adim3/denetim_uygulama.md` GEÇTİ, tek düzeltmesi yapıldı). 664 asıl kural + 23 yönlenen kod;
+> `say` hata 0 (artık birleşen kuralın kaynaklarının ANA'da olduğunu da sayar). Açık küçük bulgular (sahibine sorulmadı):
+> GOMME-20 başlığı gövdesiyle ters; RAF-65 "Dosyanın tamamı · reklam" ↔ RAF-47 "Vaka 1–2 reklamsız". **Sırada (4):** öbür belgelerden
+> kural metinlerini çıkarıp kural kodu koymak (sahibinin onayıyla, bir seferde) + kırık atıflar (§5).
 >
 > **20 Kasım'da bu pencerede biten (hepsi `main`'de):**
 > - Benzerlik denetimi iki parça tamam: yazı (`kaynak/arac_benzerlik.js`) + resim (`kaynak/arac_benzerlik_resim.py`; yüz + baş/saç + bütün

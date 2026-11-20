@@ -85,8 +85,26 @@ function say() {
   }
   for (const t of tanim) if (!kullanilan.has(t)) console.log('UYARI kaynaksız kural:', t);
   // Birleştirilen kural: "→ KOD" diyorsa hedef var mı
-  for (const m of metin.matchAll(/^#### ([A-Z]+-\d+)\b.*\n+→ ([A-Z]+-\d+)/gm))
-    if (!tanim.has(m[2])) H('birleşme hedefi yok:', m[1], '→', m[2]);
+  // ve birleşen kuralın bütün kaynak numaraları ANA'nın *Kaynak:* satırında mı (hiçbir kaynak satırı ortada kalmaz)
+  const blok = {}; let cur = null, kodBlok = false;
+  for (const s of metin.split('\n')) {
+    if (/^```/.test(s)) kodBlok = !kodBlok;
+    const m = !kodBlok && s.match(/^#### ([A-Z]+-\d+)\b/);
+    if (m) { cur = blok[m[1]] = { satir: [] }; continue; }
+    if (!kodBlok && /^#{1,3} /.test(s)) { cur = null; continue; }
+    if (cur) cur.satir.push(s);
+  }
+  const kaynak = k => new Set(blok[k].satir.filter(s => /^\*Kaynak:\*/.test(s)).join(' ').replace(/^\*Kaynak:\*/, '').match(/\d+/g) || []);
+  let birlesen = 0;
+  for (const [k, b] of Object.entries(blok)) {
+    const ilk = b.satir.find(s => s.trim()); const m = ilk && ilk.match(/^→ ([A-Z]+-\d+)/);
+    if (!m) continue; birlesen++;
+    const ana = m[1];
+    if (!blok[ana]) { H('birleşme hedefi yok:', k, '→', ana); continue; }
+    if ((blok[ana].satir.find(s => s.trim()) || '').startsWith('→')) H('zincirli birleşme:', k, '→', ana);
+    const ak = kaynak(ana); for (const n of kaynak(k)) if (!ak.has(n)) H('kaynak ANA\'da yok:', k, '→', ana, n);
+  }
+  say.birlesen = birlesen;
   console.log(JSON.stringify({ ham_kayit: ham.length, ...say, kural_basligi: tanim.size }), 'hata:', hata);
   process.exit(hata ? 1 : 0);
 }
