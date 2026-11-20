@@ -1,7 +1,7 @@
 # VAKA 2 — GÖRSEL LİSTESİ VE PROMPTLAR
 
 Üretim adımı 8 (`7_uretim_sureci.md`). **Hikâye 10 Ekim 2026'da dondu** (Onay 2: sahibi "Tamam").
-Kurallar: `5_gorsel_sistemi.md` (prompt kalıbı, bilinen hatalar, kontrol listesi). Üretici önce
+Kurallar: `arsiv/sablon/5_gorsel_sistemi.md` (prompt kalıbı, bilinen hatalar, kontrol listesi). Üretici önce
 ChatGPT; reddederse ya da tutmazsa Grok.
 
 **Referans dosyaları:** `sablon/vakalar/vaka2_referans/` klasöründe, her prompt için numaralı:
@@ -510,7 +510,7 @@ yok; oran 3:4 (1086×1448).
 
 ---
 
-## Kontrol (gelen her görsel — `5_gorsel_sistemi.md` E)
+## Kontrol (gelen her görsel — `arsiv/sablon/5_gorsel_sistemi.md` E)
 
 Kimlik · ölçek ve baş yüksekliği · bakış yönü · el ve parmak sayısı · yazı/harf/logo (büyütüp bak:
 tablet ekranı, vale kürsüsü, tabela, dosya, plaka) · kıyafet sabitleri · çekicilik seviyesi · Nurcan
@@ -545,7 +545,7 @@ görünmüyor); solda Lâl bir nedimenin askısına iğne takıyor. Peri ve Ceng
 
 Bizim Türkçe promptumuz (yukarıdaki tablo, G50) 11 Ekim'de reddedildi. 16 Ekim'de ChatGPT'nin
 düşünen kipinde ("Çalışma") aynı prompt verildi; ChatGPT promptu kendisi İngilizceye çevirip
-yazdı, iki kez filtreye takıldı, üçüncüde üretti (kural: `5_gorsel_sistemi.md` D-5). Promptlar
+yazdı, iki kez filtreye takıldı, üçüncüde üretti (kural: `arsiv/sablon/5_gorsel_sistemi.md` D-5). Promptlar
 sahibinin isteğiyle ChatGPT'den alındı — sonraki vakalarda reddedilebilecek kareleri baştan
 bu dille yazmak için. Hangi ifadenin takıldığı, reddedilenle kabul edilenin farkından okunur.
 

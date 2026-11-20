@@ -1,12 +1,12 @@
 # VAKA 7 FORMU — AÇIK ARTIRMA
 
 Şablon 6'ya göre. Durum: **ONAY 2 VERİLDİ (15 Kasım 2026, ortak; düzeltmesiz)** — sıradaki: taç kararına göre adım 7 (DEVIR en üst, üç soru). Kaynak: `vaka7_baslangic.md` §1a (son plan, 15 Kasım 2026) ve
-`kaynak/YENI_OYUN_SEZON.md` → Vaka 7. Ortağın 15 Kasım seçimleri: isimler (Set A), 4. karar "Tacı Cengo'ya bırak",
+`arsiv/kaynak/YENI_OYUN_SEZON.md` → Vaka 7. Ortağın 15 Kasım seçimleri: isimler (Set A), 4. karar "Tacı Cengo'ya bırak",
 kovalamaca "yaldız + heykel".
 🟡 = kanona ekleme (onay ister). 🟢 = görünüş/kıyafet (onay ister). ❓ = Barbaros'a açık soru (kod/kural; `kaynak/DEVIR.md`
 en üst "Ortaktan not", 15 Kasım).
 
-**Önceki vakalardan ayrışma** (`TASLAK_tekrar_onleme.md` §1, §1a): olay **sahte bir şey** (V1–5 çalınma/sır, V6 tehdit),
+**Önceki vakalardan ayrışma** (`arsiv/sablon/TASLAK_tekrar_onleme.md` §1, §1a): olay **sahte bir şey** (V1–5 çalınma/sır, V6 tehdit),
 neden **öç** (para değil, sevgi değil), müşteri **bir kurum** (müzayede evi), suçlu müşterinin ailesinden değil (evin
 çalışanı). Yanlış izler borçlu değil: biri **rüşvet alan**, biri **hasarı gizleyen** — ikisi de gerçekten bir şey saklıyor
 (V6'daki tür) ama sahtelikten habersiz. Usta dükkânında ipucu yok; saat, kopya-kapak, kazıma motifi yok. Kalan tekrar:

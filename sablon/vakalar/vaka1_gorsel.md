@@ -1,7 +1,7 @@
 # VAKA 1 — GÖRSEL LİSTESİ VE PROMPTLAR
 
 Üretim adımı 8 (`7_uretim_sureci.md`). **Hikâye 9 Ekim 2026'da dondu** (sahibi: "Hikâye tamam").
-Kurallar: `5_gorsel_sistemi.md` (prompt kalıbı, bilinen hatalar, kontrol listesi). Üretici önce
+Kurallar: `arsiv/sablon/5_gorsel_sistemi.md` (prompt kalıbı, bilinen hatalar, kontrol listesi). Üretici önce
 ChatGPT; reddederse ya da tutmazsa Grok.
 
 **Referanslar:** her promptun başında numaralı. Dosyalar sahibine `G<prompt>-<sıra>_...` adıyla
@@ -475,7 +475,7 @@ Kare K18; diyalogda `bag: yuksek` satırında.
 
 ---
 
-## Kontrol (gelen her görsel — `5_gorsel_sistemi.md` E)
+## Kontrol (gelen her görsel — `arsiv/sablon/5_gorsel_sistemi.md` E)
 
 Kimlik · ölçek ve baş yüksekliği · bakış kadrajın soluna · el sayısı · yazı/harf/logo ·
 kıyafet sabitleri (Peri: siyah kalem etek, ince siyah kemer, kırmızı stiletto) · çekicilik ·

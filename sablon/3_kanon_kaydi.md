@@ -28,9 +28,9 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | **Ev sahibi** | Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan saklanır. **Yalnız komedi:** parayı etkilemez. |
 | **Gizem** (yan karakter) | Vaka 3'te gelir: pastanenin genç kadın çalışanı (tezgâhtar), yirmili yaşlarının ortasında — yetişkin. Hazırcevap, lafını esirgemez; seksi ve işveli. Cengo'yla atışır; Peri'yi zaman zaman kıskançlık krizine sokar. Vakadan sonra büroya yerleşir. *(Sahibinin kararı, 17 Ekim 2026.)* Lise mezuniyet balosu elbisesini (gece mavisi saten) saklıyor; Vaka 7'de Peri'ye ödünç verir *(15 Kasım 2026)*. Vaka 3'te: Karaköy'deki Susam Pastanesi'nde (büroya birkaç sokak) çalışır; Cengo orada veresiye yer. Artan simitleri, yasak olduğu hâlde, apartmanındaki yaşlılara götürür. Vakanın sonunda istifa eder, maaşsız büroya gelir, çay ocağını üstlenir; unvanı yok. *(Onay 1, 17 Ekim 2026.)* |
 
-- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `sablon/TASLAK_tekrar_onleme.md` (taslak belge)):* [TASLAK_tekrar_onleme › 6. Dönen figürler] **Şu an kanonda:** Gizem (V3'ten sonra büroda), ev sahibi (V2'den itibaren, yalnız komedi), avukat (V8'de döner), Hilmi Bey (icra memuru, açılış), Kadir (vapur çaycısı, Cengo'nun tanıdığı, V5). Kanon takvimi: V6 Cengo'nun kızı ortaya çıkar · V7 Peri'nin tacı müzayedede · V8 avukat döner. (k:aac3c6315e)
+- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `arsiv/sablon/TASLAK_tekrar_onleme.md` (taslak belge)):* [TASLAK_tekrar_onleme › 6. Dönen figürler] **Şu an kanonda:** Gizem (V3'ten sonra büroda), ev sahibi (V2'den itibaren, yalnız komedi), avukat (V8'de döner), Hilmi Bey (icra memuru, açılış), Kadir (vapur çaycısı, Cengo'nun tanıdığı, V5). Kanon takvimi: V6 Cengo'nun kızı ortaya çıkar · V7 Peri'nin tacı müzayedede · V8 avukat döner. (k:aac3c6315e)
 
-- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `kaynak/YENI_OYUN_SEZON.md` (taslak belge)):* [YENI_OYUN_SEZON › Sahne 3 — Cengo] Arkadan bir ses: *"Tel lazım mı?"* Cengo kapıyı iki saniyede açar. Sonra: (k:74fdf20bb1)
+- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `arsiv/kaynak/YENI_OYUN_SEZON.md` (taslak belge)):* [YENI_OYUN_SEZON › Sahne 3 — Cengo] Arkadan bir ses: *"Tel lazım mı?"* Cengo kapıyı iki saniyede açar. Sonra: (k:74fdf20bb1)
 
 ## Yerler
 
@@ -50,9 +50,9 @@ Oyunun dünyasında **neyin gerçek olduğunun** tek listesi.
 | **Tel** | Cengo'nun göğüs cebinde hep bir tel vardır. Kilit açar. |
 | **Bileklik** | Cengo'nun bileğinde renkli boncuklu ucuz bir bileklik: kızının. Vaka 6'ya kadar kimse sormaz. Eylül yedi yaşındayken yaptı *(Vaka 6, 12 Kasım 2026)*. |
 
-- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `sablon/5_gorsel_sistemi.md`):* [5_gorsel_sistemi › I. Kıyafet kartı (8 Kasım 2026, sahibinin kararı; SR-C)] Vaka 3 kaydı: Peri'nin trençkotu **uzun, diz altına iner** (sahibinin seçtiği ölçü: un deposu karesi, 8 Kasım 2026). (k:6a8b4f42c2)
+- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `arsiv/sablon/5_gorsel_sistemi.md`):* [5_gorsel_sistemi › I. Kıyafet kartı (8 Kasım 2026, sahibinin kararı; SR-C)] Vaka 3 kaydı: Peri'nin trençkotu **uzun, diz altına iner** (sahibinin seçtiği ölçü: un deposu karesi, 8 Kasım 2026). (k:6a8b4f42c2)
 
-- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `kaynak/YENI_OYUN_SEZON.md` (taslak belge)):* [YENI_OYUN_SEZON › Sahne 1 — Haciz sabahı (soğuk açılış)] → Oyuncu Peri'yi, düşüşünü ve **para hedefini** ilk dakikada, anlatılmadan görür. Evden giyip çıktığı tek şey eski günlerden kalan **kırmızı manto** — temel kıyafet burada kurulur. (k:6b9a037c64)
+- *Bilgi (taşındı, 20 Kasım 2026; kaynak: `arsiv/kaynak/YENI_OYUN_SEZON.md` (taslak belge)):* [YENI_OYUN_SEZON › Sahne 1 — Haciz sabahı (soğuk açılış)] → Oyuncu Peri'yi, düşüşünü ve **para hedefini** ilk dakikada, anlatılmadan görür. Evden giyip çıktığı tek şey eski günlerden kalan **kırmızı manto** — temel kıyafet burada kurulur. (k:6b9a037c64)
 
 ## Dünya
 

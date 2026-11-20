@@ -4,20 +4,23 @@
 // Çıktı: sablon/kurallar/HAM.tsv (programların okuyacağı) ve sablon/kurallar/HAM.md (insanın okuyacağı).
 // Kayıt kimliği metnin kendisinden türer (dosya + metin özeti), satır numarası değişse de aynı kalır; sonraki adımda
 // her kimliğin son listede bir karşılığı olduğu bununla sayılır.
-// Kullanım: cd kaynak && node arac_kural_ham.js
+// Kullanım: cd kaynak && node arac_kural_ham.js [--cikti <klasör>]
 const fs = require('fs'), path = require('path'), crypto = require('crypto');
 const KOK = path.join(__dirname, '..');
 
 // Kural yazılı belgeler (16 Kasım 2026 taraması). Resim istemleri (G<n>.md), vaka metinleri ve DURUM kayıtları kural belgesi
 // değildir, girmez. Yeni kural belgesi açılırsa buraya eklenir.
+// Kural toplamanın son adımında (20 Kasım 2026) arşive taşınan belgeler `A(...)` ile yazılır: arsiv/<yol>'dan okunur, kayıtları
+// ESKİ yolun adıyla yazılır (kimlik değişmesin). Sıra değiştirilmez: `no` sütunu sıraya bağlı (KURALLAR.md `*Kaynak:*`).
+const A = yol => ({ yol: 'arsiv/' + yol, etiket: yol });
 const BELGELER = [
   'CLAUDE.md',
-  'sablon/1_oyun_yapisi.md', 'sablon/2_kural_kitabi.md', 'sablon/3_kanon_kaydi.md', 'sablon/4_motor_sinirlari.md',
-  'sablon/5_gorsel_sistemi.md', 'sablon/6_vaka_formu.md', 'sablon/7_uretim_sureci.md', 'sablon/8_shorts.md',
-  'sablon/TASLAK_tekrar_onleme.md',
-  'uretim/CLAUDE.md', 'uretim/ISTEM_KALIPLARI.md', 'uretim/AGENTS.md', 'uretim/OKUBENI.md',
-  'uretim/v3_eski/BIRIKIM.md', 'uretim/v3_eski/CLAUDE.md', 'uretim/v3_eski/AGENTS.md',
-  'kaynak/RAF_KARARLARI.md', 'kaynak/YENI_OYUN_TON.md', 'kaynak/YENI_OYUN_SEZON.md', 'kaynak/YENI_OYUN_CERCEVE.md',
+  A('sablon/1_oyun_yapisi.md'), A('sablon/2_kural_kitabi.md'), 'sablon/3_kanon_kaydi.md', A('sablon/4_motor_sinirlari.md'),
+  A('sablon/5_gorsel_sistemi.md'), 'sablon/6_vaka_formu.md', 'sablon/7_uretim_sureci.md', 'sablon/8_shorts.md',
+  A('sablon/TASLAK_tekrar_onleme.md'),
+  'uretim/CLAUDE.md', A('uretim/ISTEM_KALIPLARI.md'), 'uretim/AGENTS.md', A('uretim/OKUBENI.md'),
+  A('uretim/v3_eski/BIRIKIM.md'), A('uretim/v3_eski/CLAUDE.md'), A('uretim/v3_eski/AGENTS.md'),
+  A('kaynak/RAF_KARARLARI.md'), A('kaynak/YENI_OYUN_TON.md'), A('kaynak/YENI_OYUN_SEZON.md'), A('kaynak/YENI_OYUN_CERCEVE.md'),
   'kaynak/gorsel_stil_sozlesmesi.md', 'kaynak/cengo_bag_mekanigi.md', 'kaynak/dogrulayici_sozlesmesi.md',
   'kaynak/veri_format_sozlesmesi.md', 'kaynak/OKUBENI.md', 'kaynak/yeni/OKUBENI.md',
   'sablon/vakalar/vaka2_baslangic.md', 'sablon/vakalar/vaka3_baslangic.md', 'sablon/vakalar/vaka4_baslangic.md',
@@ -94,7 +97,9 @@ kayitlar.forEach((k, i) => {
   k.id = id; k.no = i + 1;
 });
 
-const CIKTI = path.join(KOK, 'sablon', 'kurallar');
+// --cikti <klasör>: karşılaştırma için başka yere yazar (HAM.tsv'nin üstüne yazmadan).
+const ci = process.argv.indexOf('--cikti');
+const CIKTI = ci > 0 ? path.resolve(process.argv[ci + 1]) : path.join(KOK, 'sablon', 'kurallar');
 fs.mkdirSync(CIKTI, { recursive: true });
 const tsvHucre = s => String(s).replace(/\t/g, '    ').replace(/\r?\n/g, '\\n');
 fs.writeFileSync(path.join(CIKTI, 'HAM.tsv'),
@@ -122,5 +127,5 @@ for (const k of kayitlar) {
   md.push(k.tur === 'kod' ? k.metin : k.metin.split('\n').map(x => '> ' + x).join('\n'), '');
 }
 fs.writeFileSync(path.join(CIKTI, 'HAM.md'), md.join('\n'));
-console.log(`HAM: ${kayitlar.length} kayıt, ${Object.keys(say).length} dosya → sablon/kurallar/HAM.tsv, HAM.md`);
+console.log(`HAM: ${kayitlar.length} kayıt, ${Object.keys(say).length} dosya → ${path.relative(KOK, CIKTI) || '.'}/HAM.tsv, HAM.md`);
 for (const [d, n] of Object.entries(say)) console.log(`  ${String(n).padStart(5)}  ${d}`);

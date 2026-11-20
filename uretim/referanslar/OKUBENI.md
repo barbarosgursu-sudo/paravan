@@ -12,6 +12,6 @@
 | `buro_gunduz.jpg`, `buro_aksam.jpg` | büro, gündüz / akşam | |
 | `tarz_mekan_ic.jpg`, `tarz_sokak.jpg` | mekân tarzı: dükkân içi, sokak | YALNIZ tarz |
 
-Peri'nin eski referansları (L*, peri_*, poz_peri_*) dekolteli olduğu için burada YOK; `v3_eski/referanslar/`'da arşiv.
+Peri'nin eski referansları (L*, peri_*, poz_peri_*) dekolteli olduğu için burada YOK; `arsiv/uretim/v3_eski/referanslar/`'da arşiv.
 Peri'nin pozu ve eşarp gibi kıyafet ayrıntıları istemde metinle anlatılır (eşarplı baş kırpığı
 boyun ve yaka gösterdiği için alınmadı, 6 Kasım 2026). Yeni dosya eklerken dekolte olmadığını büyütüp kontrol et.

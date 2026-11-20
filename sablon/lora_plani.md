@@ -1,7 +1,7 @@
 # LoRA PLANI — Peri ve Cengo (yerel üretim için)
 
 > Yeni pencere bu dosyayla başlar. Önce `CLAUDE.md`, sonra bu dosya, sonra
-> `sablon/5_gorsel_sistemi.md` D-7 (yerel üretim denemesinin sonuçları).
+> `arsiv/sablon/5_gorsel_sistemi.md` D-7 (yerel üretim denemesinin sonuçları).
 > Durum (12 Ekim 2026): Forge kurulu ve çalışıyor; IP-Adapter denendi; **LoRA henüz yok.**
 
 ## Amaç
@@ -92,7 +92,7 @@ daha teknik. Civitai eğiticisi yetmezse.
   Betiği kimin çalıştıracağı karar bekliyor (sahibi mi, bilgisayara kurulacak Claude Code mu).
 - Geçmezse: daha çok/daha çeşitli veriyle yeniden eğitim ya da başka bir temel model; olmazsa
   ChatGPT/Grok/Gemini düzeni sürer, Forge yalnız reddedilen kareler için yedek.
-- Sonuçlar `5_gorsel_sistemi.md` D-7'ye işlenir.
+- Sonuçlar `arsiv/sablon/5_gorsel_sistemi.md` D-7'ye işlenir.
 
 ## Dikkat
 

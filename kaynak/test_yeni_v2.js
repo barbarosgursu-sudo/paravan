@@ -1,7 +1,7 @@
 // YENİ OYUN — her vakanın araştırma ekonomisi (Vaka 2 ile yazıldı; Kim yaptı? taşıyan
 // her vakaya uygulanır). test_yeni_kimyapti.js içeriği sınar (hak sınırı kapalı); bu test
 // HAKKI AÇIK oynar: oyuncunun gerçekten yapabileceği her ipucu sırası denenir.
-// Şablon: 1. parça "Sabit sayılar", "Yanlış iz", "Ekranda ne görünür"; kural 24–26.
+// Kurallar: YAPI-4 (sabit sayılar), YAPI-7 (yanlış iz), BILGI-12 (ekranda ne görünür); YAPI-30…32.
 // Sabit sayı yazılmaz: beklentiler veriden (arastirma, kim_yapti, decisions) türetilir.
 const fs = require("fs");
 const path = require("path");
@@ -35,7 +35,7 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   const kumeler = new Map(ys.map(y => [kume(y), y]));
   k(`hak (${vaka.arastirma}) ipucu sayısından (${vaka.clues.length}) az`, vaka.arastirma < vaka.clues.length);
 
-  // Suçlu, hakkını bitiren her oyuncunun ekranında (1. parça, "Ekranda ne görünür").
+  // Suçlu, hakkını bitiren her oyuncunun ekranında (BILGI-12).
   const gormeyen = ys.filter(y => !y.o.supheliler().some(s => s.id === ky.suclu)).map(kume);
   k("hakkını bitiren her oyuncu suçluyu ekranda görüyor", !gormeyen.length, [...new Set(gormeyen)].join(", "));
 
@@ -87,7 +87,7 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   }
 }
 
-// Ödüllü reklamla ek hak (YENI_OYUN_CERCEVE.md): vaka başına bir, suçlamadan önce; kayıtta kalır.
+// Ödüllü reklamla ek hak (RAF-52): vaka başına bir, suçlamadan önce; kayıtta kalır.
 for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   const o = new OyunYeni(G); o.vakaBaslat(vaka.id);
   const tam = o.durum.aktif.arastirmaKalan;
@@ -106,7 +106,7 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   const KIS = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "kisiler.json"), "utf-8"));
   const MAN = JSON.parse(fs.readFileSync(path.join(__dirname, "yeni", "gorseller.json"), "utf-8"));
   const GOR = MAN.dosyalar;
-  // Görselsiz aşamada (şablon 7. parça adım 5) portre de yer tutucu olabilir; görsel gelince dosyalar'a geçer.
+  // Görselsiz aşamada (SUREC-14, KOD-48) portre de yer tutucu olabilir; görsel gelince dosyalar'a geçer.
   const eksik = KIS.kisiler.flatMap(x => [x.portre, ...(x.portre_katman || []).map(p => p.portre)])
     .filter(p => p && !GOR[String(p).replace(".jpg", "")] && !(MAN.yer_tutucu || []).includes(p));
   k("künyedeki her portre gömülü", !eksik.length, eksik.join(", "));

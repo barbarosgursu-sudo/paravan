@@ -1,7 +1,7 @@
 # VAKA 7 — BAŞLANGIÇ
 
 Vaka 7'yi Oğuz Bey yazar (Barbaros, 13 Kasım 2026). Plana göre **resimsiz**: adım 1–7, hikâye donunca biter.
-Mavi Ay (bilmece) tipi. Sezon taslağı: `kaynak/YENI_OYUN_SEZON.md` → Vaka 7.
+Mavi Ay (bilmece) tipi. Sezon taslağı: `arsiv/kaynak/YENI_OYUN_SEZON.md` → Vaka 7.
 
 ## 0. Okuma sırası
 
@@ -29,8 +29,7 @@ Mavi Ay (bilmece) tipi. Sezon taslağı: `kaynak/YENI_OYUN_SEZON.md` → Vaka 7.
 
 ## 1a. ✅ SON PLAN (15 Kasım 2026, ortağın kararı) — §1'deki saat/usta/aile eşyası planının YERİNE geçer
 
-V5 ile çakışma (cep saati, kopya, tamirci suçlu, koleksiyoncu, kapak kazıması, "yok pahasına alınmış eşya") yüzünden
-değişti. Ayrıca kaçınılacak tekrarlar: borçlu yanlış iz (V1–4, V6), usta dükkânında ipucu sahnesi (V2, V5, V6).
+V5 ile çakışma yüzünden değişti; kaçınılan tekrarlar — SEZON-18 (örnek olarak orada).
 
 - **Müşteri:** Nişantaşı'nda müzayede evinin sahibesi. Akşamki satışın en değerli parçası eski bir **yağlı boya tablo**;
   sahte olduğundan şüpheleniyor, polise gidemez (satış iptal). Katalogda 14 numara **Peri'nin tacı**; Peri müşteriye söylemez.
@@ -63,8 +62,7 @@ değişti. Ayrıca kaçınılacak tekrarlar: borçlu yanlış iz (V1–4, V6), u
 
 ## 2. Süre ölçümü
 
-Saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır. Saat kabukta düz `date`
-ile okunur (TZ verme).
+Süre ölçümü — SUREC-30 (**ortak** ve **makine** süresi ayrı). Saat kabukta düz `date` ile okunur (TZ verme).
 
 **Başladı: 15 Kasım 2026, 02:00 (İstanbul)**, ortağın "bu haliyle yazabiliriz, başlayalım" dediği an. Konu konuşması
 14 Kasım öğleden sonra başlamıştı (sohbet, aralıklı; ölçülmedi).

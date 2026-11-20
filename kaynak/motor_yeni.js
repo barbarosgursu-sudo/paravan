@@ -1,7 +1,7 @@
 // ============================================================================
 // YENİ OYUN MOTORU EKİ (Peri & Cengo) — motor.js'in ÜSTÜNE, ona dokunmadan.
-// Şablon: sablon/1_oyun_yapisi.md ("Kim yaptı? ekranı", "Karar") ve
-// sablon/2_kural_kitabi.md kural 22a–d ve 24 (karar sahnede; kasa yok, para yalnız hikâyede).
+// Kurallar: YAPI-13, YAPI-14 (Kim yaptı?), YAPI-22…26 (karar sahnede) ve YAPI-31 (kasa yok, para yalnız hikâyede)
+// — sablon/kurallar/KURALLAR.md.
 //
 // Neden ayrı dosya: motor.js eski oyunun sayfasına da gömülüyor ve o sayfa
 // derlemede BİREBİR aynı çıkmalı. Yeni oyunun kuralları burada yaşar; eski
@@ -27,7 +27,7 @@ const BAG_ESIK = 1;
 class OyunYeni extends Oyun {
   _ky() { const a = this.durum.aktif; return (a && a.vaka.kim_yapti) || null; }
 
-  // Ekranda yalnız oyuncunun adını duyduğu şüpheliler (1. parça, "Ekranda ne görünür").
+  // Ekranda yalnız oyuncunun adını duyduğu şüpheliler (BILGI-12).
   supheliler() {
     const ky = this._ky(); if (!ky) return [];
     const a = this.durum.aktif;
@@ -80,7 +80,7 @@ class OyunYeni extends Oyun {
     return { tamam, eksik, eldeCiftVar: !!yakin };
   }
 
-  // Tek hak: oyuncu bir kez suçlar (1. parça).
+  // Tek hak: oyuncu bir kez suçlar (YAPI-13).
   suclama(supheliId, kanitIdleri) {
     const a = this.durum.aktif, ky = this._ky();
     if (!a || !ky) return { hata: "bu vakada Kim yaptı? yok" };
@@ -95,7 +95,7 @@ class OyunYeni extends Oyun {
     return { sonuc, ucret: ky.ucret[sonuc], sahne };
   }
 
-  // Kapı yok: suçlamadan sonra dört karar da açık (1. parça, "Karar").
+  // Kapı yok: suçlamadan sonra dört karar da açık (YAPI-22).
   acikKararlar() {
     const a = this.durum.aktif;
     if (!this._ky()) return super.acikKararlar();
@@ -103,7 +103,7 @@ class OyunYeni extends Oyun {
     return a.vaka.decisions.map(d => ({ id: d.id, etiket: d.etiket }));
   }
 
-  // KASA YOK (sahibinin kararı, 16 Kasım 2026; 2. parça kural 24): para yalnız hikâyede. Ücret ve
+  // KASA YOK (sahibinin kararı, 16 Kasım 2026; YAPI-31): para yalnız hikâyede. Ücret ve
   // karar parası veride hikâyenin rakamı olarak durabilir ama kasaya girmez; taban motorun para
   // hesabı (karar parası, giderler) karardan sonra geri alınır. durum.para hiç değişmez.
   kararVer(id) {
@@ -127,7 +127,7 @@ class OyunYeni extends Oyun {
 
   bagYuksek() { return this.durum.cengoBag >= BAG_ESIK; }
 
-  /* Ödüllü reklamla ek araştırma hakkı (YENI_OYUN_CERCEVE.md, 16 Ekim 2026): vaka başına bir
+  /* Ödüllü reklamla ek araştırma hakkı (RAF-52, 16 Ekim 2026): vaka başına bir
      kez, suçlamadan önce. Reklam başarı satmaz — her vaka reklamsız haklarla `doğru` çözülür
      (test_yeni_v2.js sınar). Hak kayıtta tutulur; yüklerken bütçe +1 kurulur, yoksa açılmış
      dördüncü ipucu "hak bitti" diye geri yüklenemez. */

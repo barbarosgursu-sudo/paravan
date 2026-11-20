@@ -1,4 +1,4 @@
-# V6 Parti 3 istemleri — tek kaynaktan, kalıplar ISTEM_KALIPLARI.md'den.
+# V6 Parti 3 istemleri — tek kaynaktan, kalıplar arsiv/uretim/ISTEM_KALIPLARI.md'den (bugün ISTEM-* kuralları).
 import re, os, sys
 V6 = r"D:/Yazilim/paravan/uretim/v6"
 SR = open(V6 + "/satir_resim.md", encoding="utf-8").read()

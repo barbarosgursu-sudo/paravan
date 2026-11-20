@@ -1,7 +1,6 @@
 # Paravan Dedektiflik — Veri Format Sözleşmesi (v1)
 
-> Motor ve doğrulayıcı **ikisi de** bu şekle göre yazılır. Alan adları buradan sonra sabittir.
-> Soyut kalmasın diye §6'da Vaka 1 bu formatta tam kodlanmıştır.
+> Veri formatı sabit — KOD-81. Soyut kalmasın diye §6'da Vaka 1 bu formatta tam kodlanmıştır.
 
 ---
 
@@ -64,7 +63,7 @@ VAKA = {
 
 ## 4. İFADE formatı (knowledge + gate + koşullar)
 
-`VE / VEYA / DEĞİL` mantığı, iç içe geçebilen JSON:
+İFADE biçimi — KOD-83 (`VE / VEYA / DEĞİL`, iç içe JSON):
 
 ```
 <IFADE> =
@@ -99,8 +98,7 @@ CLUE = {
   gorsel:   GORSEL | null                    // kanıt görseli (needs/reveals'e tabi — bkz. GORSEL)
 }
 ```
-> Doğrulayıcı Kural 1: `text`+`meta`+`gorsel.gosterir` içindeki her KANON ismi/olgusu,
-> `needs ∪ reveals` içinde olmalı.
+> Doğrulayıcı Kural 1 — KOD-54.
 
 ### GORSEL — kanıt/portre/mekân görseli
 ```
@@ -111,7 +109,7 @@ GORSEL = {
   alt:      "gölgeli merdiven boşluğu"   // erişilebilirlik + yer tutucu açıklama
 }
 ```
-> Görsel Stil Sözleşmesi §7: `gosterir ⊆ (clue.needs ∪ clue.reveals)`. Değilse doğrulayıcı FAIL.
+> Görsel için doğrulayıcı eki — BILGI-18, KOD-54 (`gosterir ⊆ (clue.needs ∪ clue.reveals)`).
 
 ### GIRIS_VARYANT — koşullu açılış (müşterisiz/keşif vakaları)
 ```
@@ -121,8 +119,7 @@ GIRIS_VARYANT = {
   acilan: [ "olgu", ... ]           // bu giriş hangi olguyu baştan açar
 }
 ```
-> Vaka 4 ve yan vakalarda kullanılır (ör. `{seed:"kaya_kayit_gordu", esit:true}` → farklı giriş).
-> Tüm varyantlar **aynı `acilan` sonucuna** çıkmalı (çelişkisizlik; bkz. Vaka 4 tasarımı).
+> GIRIS_VARYANT — KOD-85 (ör. `{seed:"kaya_kayit_gordu", esit:true}`).
 
 ### DECISION — karar
 ```
@@ -268,11 +265,11 @@ DECISION = {
 
 | Kural | Okuduğu alan |
 |---|---|
-| 1 Sözlük | `clues[].text/meta` + `clues[].gorsel.gosterir` ⊆ `needs ∪ reveals`; KANON.isimler taranır |
-| 2 Erişilebilirlik | `knowledge[].ifade` + `decisions[].gate`'teki her olgu bir `reveals`'te veya türetilebilir |
-| 3 Döngü | `clues[].needs` grafiği DAG; her vakada `needs:[]` en az bir clue |
-| 4 Truth uyumu | `reveals` edilen olgu, `truth`'ta "YOK/AÇILMAZ" işaretini çiğnemez |
-| 5 Belirsizlik | `truth` + metinlerde `KANON.belirsiz` konuları tek yöne kesinleşmez (istisna: V6/kaya_biliyordu) |
+| 1 Sözlük | KOD-54 |
+| 2 Erişilebilirlik | KOD-55 |
+| 3 Döngü | KOD-56 |
+| 4 Truth uyumu | KOD-57 |
+| 5 Belirsizlik | KOD-58 |
 
 ---
 

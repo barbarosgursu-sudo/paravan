@@ -12,7 +12,7 @@ Yazım `vaka1_diyalog.md`'deki gibi. Vaka 2'nin kıyafetleri:
 figürler) görsel gelene kadar gri "görsel yok" kutusuyla görünür.
 
 Her satır için kontrol sorusu: *ekranda kim var, kime bakıyor, yüzü bu satıra uyuyor mu,
-metnin andığı nesne görünüyor mu?* Kurallar: `5_gorsel_sistemi.md` C.
+metnin andığı nesne görünüyor mu?* Kurallar: `arsiv/sablon/5_gorsel_sistemi.md` C.
 
 ---
 

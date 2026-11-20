@@ -1,6 +1,6 @@
 // ARAÇ: diyalog dosyasını (sablon/vakalar/vakaN_diyalog.md) veriye yazar.
 // Sahneler ve karar metinleri YALNIZ diyalog dosyasında yazılır; veri ondan üretilir.
-// Böylece metin ile veri ayrışamaz (şablon 7. parça: "veri ya da görsel, formu
+// Böylece metin ile veri ayrışamaz (SUREC-28: "veri ya da görsel, formu
 // değiştirmeden hikâyeyi değiştiremez").
 //
 // Kullanım:  cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md [V1]
@@ -160,7 +160,7 @@ if (v.kim_yapti) {
   if (!cozumMetin || !cozumMetin.metin.yollar.length) hatalar.push("'## cozum' bölümü (YOL) yok");
   else v.kim_yapti.cozum = cozumMetin.metin;
   // Anı defterinde vakanın hatırlatması (Peri'nin notunun üstünde). Yalnız her yolda oynayan
-  // itiraf sahnesinin söylediği yazılır — şablon 6. parça "Anı özeti".
+  // itiraf sahnesinin söylediği yazılır — BILGI-7 (anı özeti).
   // "Dosyanın tamamı": kaçan ipucunu reklamla izleyen oyuncuya vaka sonunda bir kez (yeni_arayuz.js → hikayeEkrani).
   if (!hikayeMetin || !hikayeMetin.metin.paragraflar.length) hatalar.push("'## hikaye' bölümü (HİKÂYE) yok");
   else v.kim_yapti.hikaye = hikayeMetin.metin.paragraflar;

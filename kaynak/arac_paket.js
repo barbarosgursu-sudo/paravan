@@ -1,4 +1,4 @@
-// ARAÇ (test değil): bir sohbetin görsellerini PAKET hâlinde işler (şablon 7. parça,
+// ARAÇ (test değil): bir sohbetin görsellerini PAKET hâlinde işler (GOMME-6,
 // "Hızlandırma kuralları" → toplu görsel işleme; adım 9–10).
 // Kullanım:
 //   cd kaynak && node arac_paket.js <klasör> [--vaka 2] [--sira G1-G13] [--profil G10=saten,G32=cengo] [--genis G3,G24] [--yaz]
@@ -135,7 +135,7 @@ for (const [no, ad] of Object.entries(girdiler)) {
   if (satir.tur === 'figur') {
     let kaynak = girdi;
     if (w !== 1122 || h !== 1402) {
-      // Zemin rengiyle 1122×1402'ye getir (5. parça F). Zemin rengi sol üst köşeden.
+      // Zemin rengiyle 1122×1402'ye getir (GOMME-16). Zemin rengi sol üst köşeden.
       const zemin = ORTAM.im('convert', [girdi + '[0]', '-format', '%[pixel:p{2,2}]', 'info:']).toString().trim();
       kaynak = path.join(gecici, 'G' + no + '_1122.png');
       ORTAM.im('convert', [girdi + '[0]', '-resize', '1122x1402', '-background', zemin, '-gravity', 'center', '-extent', '1122x1402', kaynak]);

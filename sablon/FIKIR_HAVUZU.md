@@ -2,8 +2,8 @@
 
 Yeni vaka yazarken seçenek kaynağı; kural değildir, kanon değildir.
 
-> 20 Kasım 2026, kural toplama işinin taşıma adımında kullanılmamış fikirler buraya toplandı (çoğu `sablon/TASLAK_tekrar_onleme.md`,
-> `kaynak/YENI_OYUN_SEZON.md`, `kaynak/YENI_OYUN_CERCEVE.md`, `sablon/vakalar/vaka7_baslangic.md`'den). Bir fikri vakada kullanmak kanona
+> 20 Kasım 2026, kural toplama işinin taşıma adımında kullanılmamış fikirler buraya toplandı (çoğu `arsiv/sablon/TASLAK_tekrar_onleme.md`,
+> `arsiv/kaynak/YENI_OYUN_SEZON.md`, `arsiv/kaynak/YENI_OYUN_CERCEVE.md`, `sablon/vakalar/vaka7_baslangic.md`'den). Bir fikri vakada kullanmak kanona
 > eklemektir: önce sahibine söylenir (KAR-1). İlgili kurallar: SEZON-2, SEZON-5, SEZON-6, SEZON-8, SEZON-11, SEZON-16, SEZON-17.
 > `(k:…)` = `sablon/kurallar/adim3/kayit_aday.tsv` kimliği (asıl metin ve hangi belgeden geldiği orada).
 
@@ -81,7 +81,7 @@ Yeni vaka yazarken seçenek kaynağı; kural değildir, kanon değildir.
 ## Ortağın biçim notu — ONAYLANMADI (12 Kasım 2026): ters vaka, saatli vaka, yalan bulma, kılık
 
 - **Ters vaka** — Oyuncu suçluyu baştan görür, Peri görmez; iş "kim?" değil "nasıl kanıtlarım?" (Columbo). (k:57b7476274)
-- Örnek: Vaka 5'in ilk taslağı (`kaynak/YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR); V3 ve V8 taslakları da bu tipteydi. (k:b119913207)
+- Örnek: Vaka 5'in ilk taslağı (`arsiv/kaynak/YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR); V3 ve V8 taslakları da bu tipteydi. (k:b119913207)
 - Kod: yüzleşme "kişi seç" yerine "kanıt seç"; motor ve doğrulayıcı işi. (k:770d44f2c7)
 - Artı: formül çözülemez; oyuncu bilir, Peri bilmez gerilimi; "suçlu müşterinin kendisi" seçeneğine uyar. (k:5bda4b4a8e)
 - Eksi: Kim yaptı? ekranı çalışmaz; Nurcan kuralı zorlaşır (Peri bilmediğini söylememeli); kararın anlamı değişir. (k:417238f70c)

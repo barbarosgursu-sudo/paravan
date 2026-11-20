@@ -1,5 +1,5 @@
 # Vaka 3 — Onay 3 düzeltmeleri: istemleri yazar (8 Kasım 2026, sahibinin onaylı listesi).
-# Kurallar: sablon/5_gorsel_sistemi.md C0 (SR-A…K) ve I (kıyafet kartı); uretim/ISTEM_KALIPLARI.md §9–10.
+# Kurallar: SATIR-1…19 (SR-A…K), ISTEM-17 (kıyafet kartı), ISTEM-21, ISTEM-51 (eski: arsiv/uretim/ISTEM_KALIPLARI.md §9–10).
 #   python onay3_istem.py <döküm klasörü>        (döküm = arac_yeni_tur.js --hepsi'nin dokum.txt'leri, her yol bir dosya)
 # Yenilenen resimler eski numarasıyla (eski onaylı resim eski_onay3/'e taşınır); yeniler G69–G92.
 import io, os, re, sys, glob, collections

@@ -1,7 +1,7 @@
 # Vaka 3 — resim listesi (67)
 
 Numara, tür ve anahtar `sablon/vakalar/vaka3_gorsel.md` ile AYNI (gömme aracı oradan okur). İstemler sıfırdan
-yazıldı (6 Kasım 2026): hikâye `vaka3_diyalog.md`, `5_gorsel_sistemi.md` → H, Vaka 3 dersleri.
+yazıldı (6 Kasım 2026): hikâye `vaka3_diyalog.md`, `arsiv/sablon/5_gorsel_sistemi.md` → H, Vaka 3 dersleri.
 
 **Referans kuralı:** dekolteli resim referans verilmez. G1 (trençkot önü kapalı), G3 (önlük yakayı örter) ve G9
 (dekoltesiz tişört) dekoltesiz üretilir; onaylanırsa bütün hâliyle referans olurlar. G2 dekolteli → onaylanınca
@@ -82,7 +82,7 @@ Ferruh, Gizem, Ayla, Rüstem orta yeşil · Kenan, Sedat açık bej.
 | G67 | kart afişi | Kart afişi: Simit Soygunu | `KART_V3` | G10, G1, G4 + referanslar/serit_susam_dortlu.jpg |
 | G68 | figür | Ferruh, alınmış (suçlanınca; sahibinin bulgusu, 6 Kasım) | `ferruh.alingan` | G7 |
 
-## Kıyafet kartları (8 Kasım 2026; oyuna GÖMÜLMEZ — `sablon/5_gorsel_sistemi.md` I, SR-C)
+## Kıyafet kartları (8 Kasım 2026; oyuna GÖMÜLMEZ — `arsiv/sablon/5_gorsel_sistemi.md` I, SR-C)
 
 Onay 3 düzeltmelerinden önce, yenilenecek resimlerdeki her kıyafet için tam boy ölçü resmi. Hepsi tek sayfada sahibine
 gider, birlikte onaylanır; sonra o kıyafeti taşıyan her istem kartı referans alır. Peri'nin trençkotu UZUN, diz altı

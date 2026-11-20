@@ -2,7 +2,7 @@
 
 Kaynak: arac_yeni_tur.js --hepsi, dört yol (0 sofra dogru, 1 siparis zayif, 2 kagit cengo, 3 cozmez6 jale), 13 Kasım 2026 · 250 farklı satır.
 Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER satıra uymalı. Uymuyorsa ayrı ifade/kare gerekir.
-Bayraklar kuralla ayıklanır (`sablon/5_gorsel_sistemi.md` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
+Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
 
 **Özet:** OTO 18 · İŞ 0 · SOR 0
 

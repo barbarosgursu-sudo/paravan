@@ -9,12 +9,12 @@ Vaka 4'ün resim aşaması bu arada bekler; Vaka 4'ün saati duruk.
 
 ## 1. Konu
 
-Kaynak: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslaktaki Columbo (Ters) tipi kullanılmaz; konu Bilmece'ye
+Kaynak: `arsiv/kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslaktaki Columbo (Ters) tipi kullanılmaz; konu Bilmece'ye
 çevrildi (ortağın kararı, 11 Kasım 2026): müşteri antikacı, suçlu ortağı, oyuncu suçluyu bilmez. Ayrıntı `vaka5_form.md`.
 
 ## 2. Süre ölçümü
 
-Vaka 4 §4'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır.
+Vaka 4 §4'teki düzen — SUREC-30 (**ortak** ve **makine** süresi ayrı).
 
 **Başladı: 11 Kasım 2026, 14:01 (İstanbul)** — ortağın "forma başla" dediği an.
 

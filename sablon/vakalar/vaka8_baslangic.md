@@ -1,11 +1,11 @@
 # VAKA 8 — BAŞLANGIÇ (SEZON FİNALİ)
 
 Vaka 8'i Oğuz Bey yazar (Barbaros, 13 Kasım 2026 akşam izni; 17 Kasım'dan beri Oğuz Bey her şeye yetkili). Plana göre
-**resimsiz**: adım 1–7, hikâye donunca biter. Sezon taslağı: `kaynak/YENI_OYUN_SEZON.md` → Vaka 8.
+**resimsiz**: adım 1–7, hikâye donunca biter. Sezon taslağı: `arsiv/kaynak/YENI_OYUN_SEZON.md` → Vaka 8.
 
 ## 0. Okuma sırası
 
-`../3_kanon_kaydi.md` (kural G) → `../2_kural_kitabi.md` → `../6_vaka_formu.md` (19 Kasım'da güncellendi: §0 ayrışma,
+`../3_kanon_kaydi.md` (kural G) → `../kurallar/KURALLAR.md` → `../6_vaka_formu.md` (19 Kasım'da güncellendi: §0 ayrışma,
 15c konuk satırı, kasa yok) → form `vaka8_form.md`. Örnek form: `vaka7_form.md` (ama §12 tablosundaki kasa/karar parası
 sütunları eski düzen; yeni düzen 6. parça §12).
 
@@ -81,7 +81,7 @@ sütunları eski düzen; yeni düzen 6. parça §12).
   Cengo satırı (22a–d). V7'de bu sonradan eklendi; V8'de formda baştan yazılır.
 - **Para yalnız hikâyede** (24): "Peri'nin parasının bir kısmı" sahnede verilen/alınan para olarak yazılır, kasa yok.
 - **V6 satır 39 dersi:** konuk eşikteyken `gir` verilmez; girdiği satırda verilir.
-- **Tekrar önleme** (`TASLAK_tekrar_onleme.md` §1, V6–V7 eklendi): suçlu 7/7 içeriden; V8'de avukat **dışarıdan** gelir —
+- **Tekrar önleme** (`arsiv/sablon/TASLAK_tekrar_onleme.md` §1, V6–V7 eklendi): suçlu 7/7 içeriden; V8'de avukat **dışarıdan** gelir —
   bu tekrar kendiliğinden kırılıyor. Borçlu yanlış iz, usta dükkânında ipucu kullanılmaz.
 
 ## 3. Formdan önce ortağın kararı gereken sorular

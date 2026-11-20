@@ -2,7 +2,7 @@
 
 Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 17 Ekim 2026).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
-Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 3 — SİMİT SOYGUNU" (Columbo tipiydi; sahibinin kararıyla **Bilmece**).
+Kaynak fikir: `arsiv/kaynak/YENI_OYUN_SEZON.md` → "VAKA 3 — SİMİT SOYGUNU" (Columbo tipiydi; sahibinin kararıyla **Bilmece**).
 Yan karakter **Gizem** (`3_kanon_kaydi.md`). Peri vakadaki her kadından gösterişli (kural 15b).
 🟡 işaretli maddeler **kanona ekleme**: onayın olmadan yazılmaz (§18). 🟢 = görünüş/kıyafet önerisi.
 

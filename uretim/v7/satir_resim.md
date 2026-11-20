@@ -2,7 +2,7 @@
 
 Kaynak: satir_el/dokum.txt, satir_izmir/dokum.txt, satir_tuval/dokum.txt, satir_cozmez7/dokum.txt · 250 farklı satır.
 Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER satıra uymalı. Uymuyorsa ayrı ifade/kare gerekir.
-Bayraklar kuralla ayıklanır (`sablon/5_gorsel_sistemi.md` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
+Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
 
 **Özet:** OTO 14 · İŞ 0 · SOR 0
 

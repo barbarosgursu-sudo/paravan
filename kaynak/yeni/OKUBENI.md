@@ -1,7 +1,6 @@
 # YENİ OYUN VERİSİ (Peri & Cengo)
 
-Bu klasör yeni oyunun verisidir. Eski oyunun (dokuz vaka, `kaynak/game_data.json`)
-verisine **dokunulmaz**; o hâlâ yayındaki `index.html`'in kaynağı.
+Bu klasör yeni oyunun verisidir — KOD-36 (eski oyunun verisi `kaynak/game_data.json`).
 
 | dosya | ne |
 |---|---|
@@ -10,9 +9,8 @@ verisine **dokunulmaz**; o hâlâ yayındaki `index.html`'in kaynağı.
 | `kisiler.json` | künye (`kisiler`), anı defteri notu (`defter.<vaka>.<karar>`), anı özeti (`ani_ozet.<vaka>`, diyalogdaki `## ani`) |
 | `prolog.json` | boş; eski araçlar okuyabilsin diye duruyor |
 
-Kaynak metin: Vaka 2 için `sablon/vakalar/vaka2_diyalog.md` (`… arac_diyalog.js ../sablon/vakalar/vaka2_diyalog.md V2`). Vaka 1 için `sablon/vakalar/vaka1_diyalog.md` (sahneler, karar metinleri, anı
-defteri, anı özeti) — veriye `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`
-yazar; **elle düzenlenmez.** Açılış için `kaynak/YENI_VAKA_1.md` → `acilis.json`.
+Veri elle düzenlenmez — KOD-38. Kaynak metin: `sablon/vakalar/vakaN_diyalog.md`; veriye
+`cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1` yazar. Açılış için `kaynak/YENI_VAKA_1.md` → `acilis.json`.
 
 ## Komutlar
 
@@ -24,7 +22,7 @@ node test_yeni_v2.js              # her vakanın araştırma ekonomisi: hak aç�
 cd yeni && node ../arac_okuma.js V1   # düz okuma (sahneleri değil, düz 'text'i basar)
 ```
 
-Motor, doğrulayıcı ve araçlar **aynen** devralındı (`YENI_OYUN_CERCEVE.md` §3).
+Motor, doğrulayıcı ve araçlar **aynen** devralındı (`arsiv/kaynak/YENI_OYUN_CERCEVE.md` §3).
 
 ## Sayfa ve konuşma ekranı
 
@@ -33,42 +31,22 @@ node build_html.js yeni           # → depo kökü yeni/index.html
 node arac_yeni_tur.js 0 set       # Pixel 5 turu (karar sırası, yol: set | dukkan)
 ```
 
-Akış (şablon, `sablon/1_oyun_yapisi.md`): açılış sahneleri → masa → giriş + konuşma
-sahnesi → araştırma (ipucu açılınca sahnesi oynar, ardından "Deftere düştü" kartı) →
-**Kim yaptı?** (şüpheli + iki kanıt, tek hak) → **yüzleşme** (sonuca göre dört sahneden
-biri) → **kovalamaca** → **karar sahnesi** (16 Kasım 2026'dan beri: sahnedeki biri sorar,
-"Peri ne yapsın?" seçimi; kasa yok) → **sonuç sahnesi** (karar karesinin üstünde) → **Cengo büroda**
-(karar repliği + söylenmeyen doğru kanıt, kural 22c) → **Dosya kapandı** kartı → kapanış sahnesi (bağa göre
-iki hâl) → masa.
+Akış — YAPI-1 (açılış → masa → giriş + konuşma → araştırma → Kim yaptı? → yüzleşme → kovalamaca → karar sahnesi → sonuç →
+Cengo büroda → Dosya kapandı → kapanış → masa).
 
-**Motor eki `kaynak/motor_yeni.js`** (`OyunYeni extends Oyun`): Kim yaptı?, sonda
-ödenen ücret, suçlamanın kaydı. `motor.js`'e dokunmaz (o eski sayfaya da gömülü ve eski
-sayfa birebir aynı çıkmalı). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak
+**Motor eki `kaynak/motor_yeni.js`** (`OyunYeni extends Oyun`) — KOD-36. Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak
 sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
 
-Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün fonksiyonlarını sarar
-(`prologGoster`, `vakaAc`, `kaynakAcFaz`, `arastirmaFazi`, `kararFazi`, `kararVerFaz`,
-`sonEkrani`, `kasaSerit`, `cengoGosterge`). Cengo göstergesi bu sayfada boş döner
-(kural kitabı 11: bağ ekranda görünmez).
-Peri solda; sağda Cengo ya da konuk — sahnede olan ve en son konuşan. "Sahneyi geç"
-seçime kadar sarar, seçimi atlamaz. **GEÇİCİ:** "◂ Geri" düğmesi (sahibinin gözden geçirmesi için, 7 Ekim 2026) satır satır geri gider; sahnenin ilk satırında zincirdeki önceki sahnenin başına döner (açılış, giriş+konuşma). Oyun durumunu geri almaz (ipucu, karar, para). Kapatmak: `yeni_arayuz.js` → `VN_GERI = false`.
+Konuşma ekranı `kaynak/yeni_arayuz.js`: eski arayüzün fonksiyonlarını sarar (`prologGoster`, `vakaAc`, `kaynakAcFaz`,
+`arastirmaFazi`, `kararFazi`, `kararVerFaz`, `sonEkrani`, `kasaSerit`, `cengoGosterge`) — ARAYUZ-29. Figür yerleşimi — ARAYUZ-16;
+"Sahneyi geç" — ARAYUZ-23; GEÇİCİ "◂ Geri" — ARAYUZ-24 (kapatmak: `yeni_arayuz.js` → `VN_GERI = false`).
 
-**Sahne kaydı (9 Ekim 2026, sahibinin isteği):** her konuşma akışı (açılış, giriş, ipucu,
-yüzleşme+kovalamaca, kapanış) `akisBaslat` ile başlar; hangi sahnede ve kaçıncı satırda
-olunduğu ayrı anahtarda (`paravan_yeni_kayit_v1_sahne`) tutulur. Açınca sahne o satıra kadar
-yazı/geçiş beklemeden yeniden oynatılır (`vnSar`), seçimler kaydedildiği gibi yapılır; görüntü
-(arka plan, kıyafet, figürler) aynı gelir. Kayıt motor durumuyla tutarsızsa yok sayılır. Akış
-bitince silinir. Sonuç ekranında kapatılırsa kapanış sahnesinden sürer.
+**Sahne kaydı (9 Ekim 2026, sahibinin isteği)** — KOD-50 (`akisBaslat`, `paravan_yeni_kayit_v1_sahne`, `vnSar`).
 
-**Tarayıcı iletişim kutusu yok:** claude.ai artifact çerçevesi `confirm()`/`alert()`ı engelliyor (kutu çıkmıyor, `confirm` "hayır" döner). Eski sayfanın "Baştan başla"sı bu yüzden hiçbir şey yapmıyordu; yeni oyunda `yenidenBasla` sayfa içi onay ekranıyla değiştirildi. Yeni bir onay/uyarı eklerken iletişim kutusu kullanma. Ruh hâli görseli ve istatistik paneli yeni
-sayfada yok (ikisi de açık soru). `test_yeni_arayuz.js` manifesto ↔ kanon ↔
-derleyici eşlemesini sınar.
+**Tarayıcı iletişim kutusu yok** — KOD-21 (`yenidenBasla` sayfa içi onay ekranı). Ruh hâli görseli ve istatistik paneli yeni
+sayfada yok (YAPI-39). `test_yeni_arayuz.js` manifesto ↔ kanon ↔ derleyici eşlemesini sınar.
 
-**Tema (6 Ekim 2026, sahibinin kararı):** bütün ekranlar konuşma ekranının dilinde —
-kâğıt zemin, koyu mürekkep, kalın kontur, ofset gölge, Nunito + Shrikhand
-(Google Fonts; çevrimdışıyken Georgia'ya düşer — Android aşamasında gömülecek).
-`yeni_arayuz.css`'in ikinci bloğu eski CSS değişkenlerini yeniden tanımlar ve sabit
-renkli kuralları ezer.
+**Tema (6 Ekim 2026, sahibinin kararı)** — ARAYUZ-30 (`yeni_arayuz.css`'in ikinci bloğu).
 
 **Batma uyarısı yok (sahibinin kararı):** kasa şeridi yalnız kasa ve borcu gösterir;
 karar seçeneklerinin altındaki "yeni iş gelmezse batarsın / açık verirsin / borca
@@ -78,9 +56,9 @@ karar ekranının temizlenen sınıf adlarını hâlâ ürettiğini sınar.
 
 ## Eski formata eklenenler
 
-Eski veri formatı (`veri_format_sozlesmesi.md`) aynen geçerli; üstüne:
+Eski veri formatı (`veri_format_sozlesmesi.md`) aynen geçerli; üstüne — KOD-40:
 
-**`kanon.sahne`** — konuşma ekranının görsel seti. Doğrulayıcı K15 her satırı buna karşı denetler.
+**`kanon.sahne`** — konuşma ekranının görsel seti; K15 denetler (KOD-40, KOD-66).
 ```
 figurler: { peri: { setler: { manto: [ifadeler], balikli: [...] } },
             cengo: { ifadeler: [...] }, riza: { ad, ifadeler }, ... }
@@ -89,8 +67,7 @@ arkalar:  ["A1", ...]     // arka plan kodları (YENI_VAKA_1.md görsel planı)
 kareler:  ["D1", "K1", ...]   // detay ve ara kareler
 ```
 
-**Sahne** — vaka içinde `sahneler.{giris, konusma, donus, kapanis}`, her ipucunda
-`sahne`, açılışta `acilis.json → sahneler[]`:
+**Sahne** — KOD-41: vaka içinde `sahneler.{giris, konusma, donus, kapanis}`, her ipucunda `sahne`, açılışta `acilis.json → sahneler[]`:
 ```
 { arka: "A6", figurler: ["peri","cengo"], set: "manto", satirlar: [SATIR, ...] }
 ```
@@ -105,29 +82,23 @@ Satırda isteğe bağlı sahne değişiklikleri:
 
 | alan | anlamı |
 |---|---|
-| `arka: "A5b"` | arka plan değişir (aynı yer+saat çapraz geçiş, değilse karartma — taslaktaki kural) |
-| `kare: "K8"` | tam ekran ara kare / detay; figürler çekilir |
-| `set: "balikli"` | Peri'nin kıyafet seti değişir (sonraki ifadeler o setten seçilir) |
-| `gir: "serkan"` / `cik: true` | konuk sahneye girer / çıkar; `gi` girenin ilk ifadesi; `gizle: "cengo"` figürü ekrandan çeker (konuşunca döner) |
-| `kime: "peri"` | konuk varken Cengo Peri'ye konuşuyor: sağa geçer. Yoksa Cengo konuk varken SOLA geçer (aynalı), konuk sağda kalır. Konuk satırında `kime: peri\|cengo` solda kimin duracağını seçer. Anlatı satırında da `kime: peri\|cengo\|<konuk>` solda kimin duracağını seçer (konuk: sağdakinin karşısında, aynalı; 14 Kasım 2026) |
+| `arka: "A5b"` | arka plan değişir (KOD-41) |
+| `kare: "K8"` | tam ekran ara kare / detay (KOD-41) |
+| `set: "balikli"` | Peri'nin kıyafet seti değişir (KOD-41) |
+| `gir: "serkan"` / `cik: true` | konuk girer / çıkar; `gi` girenin ilk ifadesi; `gizle: "cengo"` (KOD-41) |
+| `kime: "peri"` | solda kimin duracağı (KOD-41, SATIR-4) |
 | `kasa: true` | kasa göstergesi ilk kez görünür (açılış) |
-| `peri: "tac"` | konuşan başkayken Peri'nin (dinleyen) ifadesi; K15 set kuralıyla denetler |
-| `mekan: true` | mekân karesi: figürler çekilir, arka plan çıplak görünür (yeri tanıtan anlatı satırı) |
-| `bag: "yuksek"` / `"dusuk"` | satır yalnız o bağ hâlinde oynar (kapanış; eşik +1, `motor_yeni.js` → `BAG_ESIK`) |
+| `peri: "tac"` | dinleyen Peri'nin ifadesi (KOD-41) |
+| `mekan: true` | mekân karesi (KOD-41) |
+| `bag: "yuksek"` / `"dusuk"` | satır yalnız o bağ hâlinde oynar (KOD-41; `motor_yeni.js` → `BAG_ESIK`) |
 
-**Seçim:** `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
+**Seçim** — KOD-43: `{ secim: "Peri ne desin?", secenekler: [ { m: "…", satirlar: [...] }, ... ] }`
 
-**Karar:** `kare: "K3"` (sonuç ekranının görseli). Anı defteri `kisiler.json → defter.V1.<karar>`; vakanın anı özeti `ani_ozet.V1`.
-Anı sekmesindeki "Suçladığın" ve "Kasaya" satırları motorun `_suclama_<vaka>` tohumundan (`"şüpheli:sonuç"`) okunur; bu tohumdan önceki kayıtlarda o iki satır çıkmaz.
+**Karar** — KOD-43: `kare: "K3"`; anı defteri `kisiler.json → defter.V1.<karar>`; anı özeti `ani_ozet.V1`; `_suclama_<vaka>` tohumu.
 
-**Karar (16 Kasım 2026):** `secenek` = Peri'nin seçim cümlesi (diyalogda `**SEÇENEK:**`); `cengo_sonuc` = Cengo'nun büroda satırı;
-`cengo_replik: { i, yuz }` varsa o satır **Cengo'nun repliği** olarak oynar (`k: "cengo", kime: "peri"`, `i` Cengo'nun ifadesi, `yuz`
-dinleyen Peri'nin yüzü) — diyalogda **etiketli** `**CENGO [ifade]:** metin {yuz: peri.x}` yazar. Etiketsiz `**CENGO:**` → `cengo_replik`
-yok → eski düzende anlatı satırı (V1–V5, V7 yeniden geçirilene dek). `kim_yapti.cengo_kanit: { olgu: metin }` ve
-`kim_yapti.cengo_kanit_replik: { olgu: { i, yuz } }` aynı biçimden gelir (`## cengo_kanit` → `**olgu [ifade]:** metin {yuz: peri.x}`);
-ifade kapanış setinde VAR olmalı (`gorseller.json`), yoksa kapı (K6, poz kaydı) durur.
-**Eski alanlar:** `onizleme` = eski karar ekranındaki tek cümlelik kısa sonuç (artık gösterilmez, isteğe bağlı); `para` = **karar parası** (hikâye rakamı; kasa yok),
-`gate: "yok"` (kapı yok), `seed_yaz` yok (tohum yok).
+**Karar (16 Kasım 2026)** — KOD-44: `secenek` (diyalogda `**SEÇENEK:**`), `cengo_sonuc`, `cengo_replik: { i, yuz }`
+(diyalogda `**CENGO [ifade]:** metin {yuz: peri.x}` — SATIR-36), `kim_yapti.cengo_kanit`, `kim_yapti.cengo_kanit_replik`
+(`## cengo_kanit`). Eski alanlar: `onizleme`, `para`, `gate: "yok"`, `seed_yaz` yok.
 
 **Vaka — Kim yaptı?:**
 ```
@@ -141,61 +112,33 @@ kim_yapti: {
 sahneler: { giris, konusma, yuzlesme_dogru, yuzlesme_zayif, yuzlesme_<masum id>, kovalamaca, kapanis }
 anahtarlar: { <ipucu olgusu>: ["kelime", ...] }                    // K17 sızıntı araması
 ```
-Girişte anlatılan olgular `giris[].acilan`'da (ipucu değil). `ekonomi.gider` boş (para
-yalnız birikir). Ücret Vaka 1'de bilerek `vaka.ucret`'te de duruyor (masa kartı).
+Girişte açılan olgular ve ücret alanı — KOD-46 (`giris[].acilan`, `ekonomi.gider`, `vaka.ucret`).
 
 ## Düz metin ile sahne
 
-İpucunun `text`/`meta`'sı **düz okuma biçimi** (eski arayüz, `arac_okuma.js`, K5/K10);
-`sahne` **oynanan biçim**. İkisi aynı içeriğin iki hâli — birinde değişen ötekinde de
-değişmeli. K1 (isim sızıntısı) ikisini de tarar.
+Düz metin ile sahne aynı içeriğin iki hâli — KOD-47 (`text`/`meta` ↔ `sahne`; K1 ikisini de tarar).
 
 ## Doğrulayıcıya eklenen kurallar
 
-- **K15 — Sahne satırı** (yalnız `kanon.sahne` olan veride): konuşan tanımlı mı, ifade
-  o figürün (Peri için o anki setin) sprite'ı mı, arka plan/kare listede mi, `bag`
-  geçerli mi. Hiçbiri JS hatası vermezdi; tanımsız ifade sessizce eski sprite'ta kalırdı.
-- **K16 — Kararsız yol** (iki oyunda da): hakkı harcamanın her biçiminde en az bir karar
-  açık kalmalı. Yeni oyunda kapı olmadığı için kendiliğinden geçer.
-- **K17 — Giriş** (`kim_yapti` olan vakada): büroda (`kanon.sahne.buro`), en az 15 satır (45'i geçerse uyarı),
-  bir şüphelinin adı geçiyor, ücret konuşuluyor (rakam ya da yazı), ipucu olgularının
-  anahtar kelimeleri (`anahtarlar`) girişte geçmiyor. Kelime arar; dolaylı ele vermeyi
-  yakalamaz — o, görselsiz testte sahibinde.
-- **K18 — İpucu adı:** addaki özel isimler (kesmeli kelime ya da ilk kelime dışında büyük
-  harfle başlayan) ipucu açılabilir olduğunda duyulmuş olmalı (giriş, konuşma, needs
-  zincirindeki ipuçlarının sahne ve olguları; Peri ve Cengo her zaman bilinir).
-- **K19 — Kim yaptı?:** 3 şüpheli, suçlu her yolda görünür, kanıt çiftleri olgu, ücret
-  sırası, dört yüzleşme sahnesi, 4 karar, kapı/tohum/bedava ipucu yok, ipucu > hak,
-  en kötü durumda kasa eksiye düşmez, hak içinde en az 2 farklı doğru kanıt çifti,
-  hiçbir doğru çift tek ipucundan çıkmaz (kural 21c), her kararın `onizleme`si ve her
-  ücret kesintisinin açıklaması (`kesinti`) var (kural 22a).
+- **K15 — Sahne satırı** — KOD-66.
+- **K16 — Kararsız yol** — KOD-67.
+- **K17 — Giriş** — KOD-68.
+- **K18 — İpucu adı** — KOD-69.
+- **K19 — Kim yaptı?** — KOD-70.
 
 ## Açık uyarılar (tasarım; sahibine soruldu)
 
-- **K8 (V4):** `polise_ver` (−10.000, bağ −1) hem `uzaklastir`'ın hem `gercegi_soyle`'nin gerisinde kalıyor; Onay 1'de
-  sahibi karar dağılımını olduğu gibi onayladı (10 Kasım 2026). Kabul edilmiş uyarı.
-- **K8 (V5):** `polise_teslim` (−5.000, bağ −1) `muammere_soyle`'nin (+5.000, bağ 0) iki eksende de gerisinde; ortak
-  bilerek böyle bıraktı, Barbaros kabul etti (12 Kasım 2026). Kabul edilmiş uyarı.
-- **K8:** `sete_gotur` hem `her_seyi_anlat`'ı (aynı para, bağ +1'e 0) hem
-  `serkanla_anlas`'ı (+3.000, aynı bağ) iki eksende de geçiyor.
-- **K17 (V6):** giriş 56 satır (45'i geçiyor); Eylül'ün kıskançlığı ve Gizem girişi uzattı. Ortak bilerek böyle
-  bıraktı, Barbaros kabul etti (13 Kasım 2026). Kabul edilmiş uyarı.
+- **K8 (V4):** `polise_ver` — kabul edilmiş uyarı (KOD-71; 10 Kasım 2026).
+- **K8 (V5):** `polise_teslim` — kabul edilmiş uyarı (KOD-71; 12 Kasım 2026).
+- **K8:** `sete_gotur` — kabul edilmiş uyarı (KOD-71).
+- **K17 (V6):** giriş 56 satır — kabul edilmiş uyarı (KOD-71; 13 Kasım 2026).
 - K9 uyarısı kalktı: tohum yok (şablon, 8 Ekim 2026).
 
 ## Vaka 2 ile gelenler (10 Ekim 2026)
 
-- **Kıyafet seti sahne başında:** diyalogda `⚙ … · set: tayyor · cset: takim`. `set` Peri'nin, `cset`
-  Cengo'nun seti (`kanon.sahne.figurler.cengo.setler`). Cengo'nun sprite anahtarı set varsa
-  `cengo.<set>.<ifade>`, yoksa `cengo.<ifade>` (Vaka 1). K15 ikisini de denetler.
-  Satırda `{cset: unlu}` Cengo'nun setini sahne ortasında değiştirir (Vaka 3, 17 Ekim 2026; Peri'nin `set`'inin kardeşi).
-- **Görselsiz test, arka plan ve kare de yer tutucu olabilir:** `gorseller.json` → `yer_tutucu`
-  listesindeki kod gri bir alan olarak çizilir; üstünde `yer_tutucu_metin`'deki açıklama yazar.
-  Görsel gelince kod `dosyalar`'a eklenir, iki listeden silinir (`test_yeni_arayuz.js` bayatı yakalar).
-- **Diyaloğa yeni kare eklerken üç yer** (18 Ekim 2026, K53): `game_data.json → kanon.sahne.kareler` (arac_diyalog.js
-  bunu YAZMAZ; eksikse K15 BLOCKED der), `gorseller.json → yer_tutucu` + `yer_tutucu_metin`, ve vakanın diyalog
-  dosyasındaki görsel tablosu. Kanon listesine `arac_json_yaz.js` ile yaz. Doğrulayıcı ile derlemeyi `&&` ile zincirle:
-  `;` ile yazınca BLOCKED veri yine `yeni/index.html`'e derlendi.
-- `arac_diyalog.js` konuşan adındaki â/î/û'yu da düzler ("LÂL" → `lal`).
-- **GEÇİCİ "Vaka N'den başla" (10 Ekim 2026, sahibinin testi için):** "Baştan başla" onay ekranında
-  her sonraki omurga vakası için bir düğme. Önceki vakalar motorda kendiliğinden oynanır (her ipucu,
-  doğru suçlama, ilk karar). Yayından önce `yeni_arayuz.js` → `VN_VAKA_ATLA = false`.
+- **Kıyafet seti sahne başında** — KOD-42: diyalogda `⚙ … · set: tayyor · cset: takim`; satırda `{cset: unlu}`.
+- **Görselsiz testte yer tutucu** — KOD-48 (`gorseller.json` → `yer_tutucu`, `yer_tutucu_metin`).
+- **Diyaloğa yeni kare eklerken üç yer** — KOD-49 (`game_data.json → kanon.sahne.kareler`, `gorseller.json → yer_tutucu` +
+  `yer_tutucu_metin`, diyalog dosyasındaki görsel tablosu; `arac_json_yaz.js` — KOD-38; `&&` ile zincir — KOD-6).
+- `arac_diyalog.js` konuşan adındaki â/î/û'yu da düzler ("LÂL" → `lal`) — KOD-38.
+- **GEÇİCİ "Vaka N'den başla"** — ARAYUZ-37 (yayından önce `yeni_arayuz.js` → `VN_VAKA_ATLA = false`).

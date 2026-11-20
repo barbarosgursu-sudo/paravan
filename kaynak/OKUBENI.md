@@ -1,7 +1,7 @@
 # PARAVAN DEDEKTİFLİK — Kaynak Dosyalar
 
 Yayındaki oyun: https://barbarosgursu-sudo.github.io/paravan/
-Depo kökündeki `index.html` **derleme çıktısıdır** — elle düzenlenmez, bu klasörden üretilir.
+Depo kökündeki `index.html` derleme çıktısıdır, bu klasörden üretilir — KOD-1.
 
 ## Nasıl derlenir
 
@@ -16,8 +16,7 @@ gömülür. Biçim JPEG'den WebP'ye geçti: aynı çözünürlükte yarı boyut,
 Veride dosya adları hâlâ `foo.jpg` — o yalnızca bir anahtar, gerçek biçim data URI'nin
 içinde.
 
-Doğrulayıcı veri dosyasını bulamazsa hata koduyla çıkar; yani doğrulama
-koşmadan derleme yapılmaz.
+Doğrulayıcı ne zaman çalışır, ne çıktı verir — KOD-4.
 
 ## Dosyalar
 
@@ -28,21 +27,20 @@ koşmadan derleme yapılmaz.
   `portre_katman` ile bir olgu açılınca yüz değişir — İlyas'ın yarası V3 teşhisiyle gelir)
 - `prolog.json`         → açılış (6 kart)
 - `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
-- `build_html.js`       → derleyici (**DEV_MOD satırı burada — şu an `false`**)
+- `build_html.js`       → derleyici (DEV_MOD satırı burada — KOD-15)
 - `_gomulu_gorseller.js`→ 44 görsel, WebP/base64 (derlemenin girdisi)
 - `vaka2-6.json`, `yan_a/b.json` → tekil vaka yedekleri (game_data.json asıldır)
 - `test_*.js`           → testler
 - `*.md`                → tasarım sözleşmeleri (doğrulayıcı, Cengo bağı, görsel, veri formatı)
 - `ses_promptlari.md`   → 8 müzik + 5 efekt için sipariş metinleri
-- `final_tablo_plani.md`→ sezon sonu istatistik tablosu (yazılmadı; Android aşamasının planı)
+- `arsiv/kaynak/final_tablo_plani.md`→ sezon sonu istatistik tablosu (yazılmadı; Android aşamasının planı)
 
-`_gomulu_motor.js` ve `_gomulu_veri.js` her derlemede üretilir, depoya girmez.
+`_gomulu_motor.js` ve `_gomulu_veri.js` her derlemede üretilir — KOD-2.
 
 ## Geliştirici modu
 
-`build_html.js` içinde `const DEV_MOD = false;` (satır ~508). `true` iken üst
-şeritte 🛠 düğmesi çıkıyor: durum özeti, `cengoBag` oynatma, tohum anahtarları
-ve **ses teşhisi** (hangi dosya çalıyor, uzantı keşfi, kilit durumu).
+DEV_MOD — KOD-15: `build_html.js` içinde `const DEV_MOD = false;` (satır ~508). `true` iken üst şeritte 🛠 düğmesi çıkıyor:
+durum özeti, `cengoBag` oynatma, tohum anahtarları ve ses teşhisi.
 
 **Şu an kapalı — yayın modundayız.** Derleme bunu her seferinde söylüyor:
 
@@ -53,13 +51,8 @@ index.html yenilendi: 4357 KB
 
 İki tuzak var, ikisine de düştüm:
 
-1. Bayrak **üretilen sayfanın içinde** yaşıyor, derleyicinin kendi kapsamında
-   değil — `console.log(DEV_MOD)` doğrudan patlıyor. Kontrol çıktı dizgisine
-   bakmalı.
-2. Çıktıda `dev-btn` aramak **yanıltıcı**: o dizgi sayfanın JS kaynağında her
-   hâlükârda var (koşullu ifadenin içinde), çalışma anında basılmıyor. Grep 1
-   döndürür ama düğme yoktur. Tek doğru kontrol tarayıcıda DOM'a bakmak —
-   `.dev-btn` sayısı 0.
+1. Bayrak üretilen sayfanın içinde yaşıyor (KOD-15).
+2. Çıktıda `dev-btn` aramak yanıltıcı; tek doğru kontrol tarayıcıda `.dev-btn` sayısı 0 (KOD-15).
 
 **Ses üretimine başlarken geri açmak isteyebilirsin** — ses teşhisi paneli
 orada. Tek satır.
@@ -71,56 +64,39 @@ cd kaynak
 for t in test_*.js; do node $t; done
 ```
 
-`test_bozuk.js` negatif testtir: kasten bozuk veriyle doğrulayıcının BLOCKED
-vermesini bekler.
+`test_bozuk.js` negatif testtir — KOD-7.
 
 ## Doğrulayıcı kuralları
 
-**Hata = oyun bozulur, paketlenemez. Uyarı = tasarım kararı bekliyor.**
-Bu ayrım önemli: K1–K4 ve K6'nın ölü içerik kolu çelişki/bozukluk yakalar;
-K5, K7, K8, K9 yazarın karar vermesi gereken tasarım sorularıdır.
+Hata ile uyarı ayrımı — KOD-5.
 
 | | Ne kontrol eder | Şiddet |
 |---|---|---|
-| K1 | Sözlük — metin/görsel/başlık, açılmamış bir ismi sızdırıyor mu (Nurcan kuralı; koşullu metinde her varyant ayrı) | hata |
-| K2 | Erişilebilirlik — olgu zinciri ulaşılabilir mi | hata |
-| K3 | Döngü — needs döngüsü, açık giriş var mı | hata |
-| K4 | Truth uyumu — vaka gerçeğiyle çelişen reveal | hata |
+| K1 | Sözlük — KOD-54 | hata |
+| K2 | Erişilebilirlik — KOD-55 | hata |
+| K3 | Döngü — KOD-56 | hata |
+| K4 | Truth uyumu — KOD-57 | hata |
 | K5 | Belirsizlik — Ceyda/Sevil kesinleşmemeli | uyarı |
-| K6 | **Bütçe** — araştırma hakkıyla açılamayan kaynak | ölü içerik: hata / kusursuz sıra: uyarı |
-| K7 | **Seçim baskısı** — oyuncu hiç iki kaynak arasında seçmek zorunda kalıyor mu | uyarı |
-| K8 | **Baskınlık** — bir karar hem para hem vicdan ekseninde diğerini geçiyor mu | uyarı |
-| K9 | **Ölü tohum** — yazılıp hiçbir yerde okunmayan tohum | uyarı |
-| K10 | **Olgu sızıntısı** — metin, bir kişinin söylediğine gönderme yapıyor ama o olgu needs'te yok | hata |
-| K11 | **Olgu kimliği** — aynı olgu adı birden çok vakada tanımlı mı | hata |
+| K6 | **Bütçe** — KOD-59 | ölü içerik: hata / kusursuz sıra: uyarı |
+| K7 | **Seçim baskısı** — KOD-59 | uyarı |
+| K8 | **Baskınlık** — KOD-60 | uyarı |
+| K9 | **Ölü tohum** — KOD-61 | uyarı |
+| K10 | **Olgu sızıntısı** — KOD-62 | hata |
+| K11 | **Olgu kimliği** — KOD-63 | hata |
 
-K6 ve K7 **gerçek motoru** kullanır (`motor.js`): bütün açma sıralarını
-dener, böylece simülasyon oyunla birebir aynı davranır. K2 bir kaynağın
-*ulaşılabilir* olduğunu söyler; K6 onun **bütçe içinde açılabilir** olduğunu
-söyler — ikisi aynı şey değil, aradaki fark canlı bir hataya yol açmıştı.
+K6 ve K7 gerçek motoru (`motor.js`) kullanır — KOD-59.
 
-K8 yalnızca kararlarında `para` bulunan vakalarda çalışır; ekonomi henüz
-yazılmamış vakaları sessizce atlar.
+K8 yalnız kararlarında `para` bulunan vakalarda çalışır — KOD-60.
 
-K9, tohumları `kisiler.json`, `prolog.json` ve `build_html.js` içinde de arar.
+K9, tohumları `kisiler.json`, `prolog.json` ve `build_html.js` içinde de arar — KOD-61.
 
-**K10, K1'in açığını kapatır.** K1 İSİM sızıntısına bakar ve girişte tanıtılan
-isimleri serbest sayar — ama bir ismin sahnede olması, o kişinin NE DEDİĞİNİ
-bilmek demek değildir. Canlı oyunda yakalanan hata tam buydu: V1'de komşu
-ifadesinin meta'sı "ama Ceyda 'yalnızdım' demişti" diyordu, oysa oyuncu Ceyda
-ile henüz görüşmemiş olabilirdi. K1 susuyordu çünkü Ceyda girişte tanıtılıyor.
+**K10, K1'in açığını kapatır** — KOD-62.
 
-**K11, kalıcı olguların açtığı kapıyı kapatıyor.** Bir vaka bitince açılan olgular
-`kaliciOlgular`a yazılıyor ve künye ile koşullu metinler `tumBilinen()` üzerinden
-okuyor. İki vaka aynı olgu adını kullanırsa, birinde açılan olgu ötekinin katmanını
-açar. Yaşandı: YAN-A'daki `eski_dava` (Cengo'nun sabıkası) ile V5'teki `eski_dava`
-(Cavit'in İlyas'ı kurtardığı dosya) aynı addı; YAN-A'da o kaydı açan oyuncunun
-künyesinde İlyas **V3 daha başlamadan** "Cavit'in kurtardığı katil" diye görünüyordu.
-Ad ayrıldı (`cengo_eski_dava`); kural tekrarını engelliyor.
+**K11, kalıcı olguların açtığı kapıyı kapatıyor** — KOD-63 (`kaliciOlgular`, `tumBilinen()`; `eski_dava` → `cengo_eski_dava`).
 
 ### Koşullu metin
 
-Kaynakların `text` ve `meta` alanları düz dizgi yerine varyant dizisi olabilir:
+Koşullu metin — KOD-88. Kaynakların `text` ve `meta` alanları varyant dizisi olabilir:
 
 ```json
 "meta": [
@@ -129,15 +105,9 @@ Kaynakların `text` ve `meta` alanları düz dizgi yerine varyant dizisi olabili
 ]
 ```
 
-Motorda `metinSec()` çözer. Koşullu metin desteklenen yerler: kaynak `text`
-ve `meta`, karar `sonuc`, anı defteri notu (`defterNotu`), ve vaka `giris`
-varyantları. Hak eden oyuncu bağlantıyı görür, etmeyen sızıntı görmez.
+Motorda `metinSec()` çözer; desteklenen yerler — KOD-88 (kaynak `text`/`meta`, karar `sonuc`, `defterNotu`, vaka `giris`).
 
-**Metin koşulları GENİŞ bilgi kümesini görür** (`_metinBilinen`): aktif
-vakadakiler + önceki vakalardan taşınan kalıcı olgular + tohumlar. Mekanik
-kapılar (`needs`, `gate`) bunu kullanmaz; onlar dar kümeyle çalışır — yoksa
-V1'de öğrenilen bir olgu V5'te kaynak açardı. Bu ayrım olmadan "önceki vakada
-bunu öğrenmiştin" diyen bir varyant asla tetiklenmez.
+**Metin koşulları geniş bilgi kümesini görür** (`_metinBilinen`); mekanik kapılar (`needs`, `gate`) dar kümeyle — KOD-88.
 
 
 ## Eski oyunun vakaları ve ekonomisi
@@ -147,26 +117,15 @@ Eski oyunun (dokuz vaka) açık uyarıları, kapatılan tuzakları, sızıntı v
 
 ## Kayıt sistemi
 
-Tek yuva, otomatik. Motorda `durumAl()` / `durumYukle()`, arayüzde
-`localStorage` (`paravan_kayit_v1`).
+Kayıt sistemi — KOD-50: motorda `durumAl()` / `durumYukle()`, arayüzde `localStorage` (`paravan_kayit_v1`).
 
-Kaydedilen **yalnızca girdilerdir**: tohumlar, tamamlanan vakalar, kalıcı
-olgular ve aktif vakada açılmış kaynakların id'leri. Türetilmiş `knowledge`,
-araştırma hakkı ve giriş metni kaydedilmez — yüklemede güncel veriden yeniden
-üretilir. Böylece eski bir kayıt oyuncunun hak etmediği bir olguyu geri
-getiremez; Nurcan kuralı kayıt üzerinden delinmez.
+Kaydedilen yalnız girdilerdir — KOD-50.
 
-Yükleme, kaynakları kaydedildikleri sırayla yeniden açar. Tekrar oynatma aynı
-zamanda doğrulamadır: veri değiştiyse ya da kayıt kurcalandıysa bir adım
-"kilitli" döner ve kayıt tümden reddedilir, eski durum geri konur.
+Yükleme kaynakları kaydedildikleri sırayla yeniden açar (doğrulama) — KOD-50.
 
-**Karar verilir verilmez yazılır.** Oyuncu uygulamayı kapatıp kararı geri
-alamaz — "geri alınamaz karar" oyunun çekirdeği, kayıt sistemi onu delmemeli.
-Bu yüzden tek yuva var, elle kayıt ve çoklu slot yok.
+**Karar verilir verilmez yazılır**; tek yuva — KOD-50.
 
-`localStorage` yoksa (gizli sekme, kısıtlı WebView) kayıt sessizce devre dışı
-kalır, oyun oynanmaya devam eder. İzole dev testi (🛠 → vakaya atla) ana kaydı
-kirletmez.
+`localStorage` yoksa kayıt sessizce devre dışı — KOD-50.
 
 ## Ses
 
@@ -178,27 +137,20 @@ parçalar değil, geliştirme sırasında duyarak test edebilmek için. Ayrınt�
 `prolog.mp3` konduğu anda geçici `prolog.wav` devre dışı kalır, kodda hiçbir
 şey değişmez.
 
-Dosyalar depo kökündeki `ses/` klasörüne konur; `index.html`'e **gömülmez**
-(gömülürse dosya 15 MB'ı aşar, müzik akıtılamaz, ilk açılış yavaşlar).
-Beklenen adlar `build_html.js` içindeki `MUZIK` ve `EFEKT` haritalarında:
+Ses dosyaları — KOD-19: depo kökündeki `ses/` klasörüne konur, `index.html`'e gömülmez. Beklenen adlar `build_html.js` içindeki
+`EFEKT` haritasında (MUZIK haritası söküldü — KOD-18):
 
 - müzik: `prolog` `masa` `giris` `arastirma` `karar` `sonuc` `huzun` `final`
-- efekt: `efekt_dokun` `efekt_kaynak` `efekt_kilit` `efekt_muhur` `efekt_alev`
+- efekt: `efekt_dokun` `efekt_kaynak` `efekt_kilit` `efekt_muhur` `efekt_alev` (KOD-18)
 
-Uzantı sırası `SES_UZANTILAR = [".mp3", ".wav"]`. Bulunan uzantı akılda tutulur,
-her ses için yalnızca bir kez aranır.
+Uzantı sırası `SES_UZANTILAR = [".mp3", ".wav"]` — KOD-19.
 
 Davranış:
 
-- **Dosya yoksa oyun sessiz devam eder.** Eksik dosya bir kez denenir, işaretlenir,
-  bir daha istenmez. Bir parçanın eksikliği diğerlerini etkilemez.
-- **Otomatik çalma kilidi:** tarayıcı ve Android WebView kullanıcı dokunmadan ses
-  çaldırmaz. İlk dokunuşta kilit açılır, bekleyen parça başlar. `play()` reddi
-  `NotAllowedError` ise kilit (dokunuş bekleniyor), değilse dosya eksik sayılır —
-  ikisi karıştırılırsa tek eksik dosya bütün müziği susturur.
+- **Dosya yoksa oyun sessiz devam eder** — KOD-19.
+- **Otomatik çalma kilidi** — KOD-19 (`NotAllowedError`).
 - **Çapraz geçiş:** sahne değişince parça 700 ms'de karşılıklı kısılıp açılır.
-- **Ses tercihi kayıt yuvasından ayrıdır** (`paravan_ses_v1`): "baştan başla"
-  oyunu sıfırlar ama ses tercihini silmez.
+- **Ses tercihi kayıt yuvasından ayrıdır** (`paravan_ses_v1`) — KOD-19.
 - Kanıt ekranı müziği değiştirmez — kısa bir ekran, kesinti rahatsız eder.
 - V4 `huzun`, V6 `final`; diğer tüm vakalar aynı `arastirma` parçasını çalar.
   Vakaya göre değişseydi oyuncu daha hiçbir şey bulmadan "bu vakada iş kötü"
@@ -211,8 +163,7 @@ Davranış:
 
 ## Sonraki aşama: Android
 
-Oyun Android'e Capacitor ile paketlenecek (WebView; motor ve veri olduğu gibi
-taşınır). O aşamada yapılacaklar — **HTML sürümü bitmeden ellenmeyecek**:
+Android paketi Capacitor ile — RAF-102. O aşamada yapılacaklar (HTML sürümü bitmeden ellenmeyecek):
 
 - Görseller base64'ten çıkıp `gorseller/*.jpg` olacak. Tüm arayüz `GORSELLER[ad]`
   üzerinden gittiği için değişen tek şey o haritanın değerleri; oyun kodu aynı kalır.

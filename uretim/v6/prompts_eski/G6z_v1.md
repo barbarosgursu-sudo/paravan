@@ -3,7 +3,7 @@
 - tür: figür · anahtar: `eylul.normal`
 - önce hazır olmalı: yok
 - zemin denemesi: asıl G6 (açık bej); bu dosya yalnız zemin rengiyle ayrılır (H4)
-- kural 16 (`sablon/2_kural_kitabi.md`): reşit değil; çekicilik satırı YOK, poz sade, kıyafet kapalı.
+- kural 16 (`arsiv/sablon/2_kural_kitabi.md`): reşit değil; çekicilik satırı YOK, poz sade, kıyafet kapalı.
 
 ## Referanslar (bu sırayla ekle; istemdeki "birinci referans" = 1.)
 

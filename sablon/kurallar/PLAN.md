@@ -26,8 +26,14 @@
 > (`adim3/denetim_tekrar.md`). (3) BİTTİ: sahibi "öneriler uygulansın" dedi; 21 birleşme + 7 çelişki KURALLAR.md'ye işlendi
 > (`adim3/uygulama.md`, ikinci göz `adim3/denetim_uygulama.md` GEÇTİ, tek düzeltmesi yapıldı). 664 asıl kural + 23 yönlenen kod;
 > `say` hata 0 (artık birleşen kuralın kaynaklarının ANA'da olduğunu da sayar). Açık küçük bulgular (sahibine sorulmadı):
-> GOMME-20 başlığı ve RAF-65 (uygulamada V1–2 reklamsız) sahibinin onayıyla düzeltildi. **Sırada (4):** öbür belgelerden
-> kural metinlerini çıkarıp kural kodu koymak (sahibinin onayıyla, bir seferde) + kırık atıflar (§5).
+> GOMME-20 başlığı ve RAF-65 (uygulamada V1–2 reklamsız) sahibinin onayıyla düzeltildi.
+> (4) BİTTİ (sahibinin onayıyla): arşive gidecek belgelerin 839 kural-dışı satırı sınıflandı; 286 ders/bilgi yerine taşındı (kural
+> altına `*Ders:*`/`*Bilgi:*`, yeni `sablon/FIKIR_HAVUZU.md`, `uretim/CLAUDE.md`, kanon), her biri `(k:id)` etiketli, `adim3/tasima_say.js`
+> hata 0. 12 belge `arsiv/`'e (1, 2, 4, 5. parça, TASLAK, ISTEM_KALIPLARI, uretim/OKUBENI, TON/SEZON/ÇERÇEVE, RAF_KARARLARI, v3_eski).
+> Yaşayan belgelerde kural cümlesi → kod; kanon kaydı BİLEREK metin olarak kaldı (veri; ikinci gözün önerisi). Vaka başlangıçları ve
+> `8_shorts.md` yerinde. İkinci göz (`adim3/denetim_son.md`) bulgularının hepsi düzeltildi. Doğrulayıcı (iki oyun), testler, iki
+> derleme, `say` temiz. **Adım 3 BİTTİ. Sırada Adım 4** (uygulayıcılar, §4). Açık: 20 Kasım benzerlik kuralları (`uretim/CLAUDE.md` 00,
+> 0b2) KURALLAR.md'de kodsuz; kanon kaydı ile KAR-24…39 aynı gerçekleri iki yerde tutuyor (Adım 4'te tek yere bağlanmalı).
 >
 > **20 Kasım'da bu pencerede biten (hepsi `main`'de):**
 > - Benzerlik denetimi iki parça tamam: yazı (`kaynak/arac_benzerlik.js`) + resim (`kaynak/arac_benzerlik_resim.py`; yüz + baş/saç + bütün
@@ -135,8 +141,8 @@
 1. Oğuz Bey'in Vaka 7 Parti 1'inde **G4 (Süheyla)**, Vaka 6'nın terzisi **Jale**'nin aynısı çıktı (yüz biçimi, yaş, küt saç,
    koyu üst; tek fark saç rengi). Dilek'in de siyah küt saçı var. Sahibi: "Daha önce vakadaki karakterlerin önceki
    vakalardakinden mutlaka farklı olmasını istemiştim, kurala bağlamıştık. Bu kural geçerli değil mi?"
-2. Bulunan: kural **yedi yerde** yazılı (`uretim/CLAUDE.md` 9 ve 9b, `sablon/5_gorsel_sistemi.md` D-4 ve hatalar tablosu,
-   `uretim/ISTEM_KALIPLARI.md` §4, `sablon/6_vaka_formu.md` kontrol kutusu, `uretim/istem_kontrol.sh`, `uretim/CLAUDE.md` 0b),
+2. Bulunan: kural **yedi yerde** yazılı (`uretim/CLAUDE.md` 9 ve 9b, `arsiv/sablon/5_gorsel_sistemi.md` D-4 ve hatalar tablosu,
+   `arsiv/uretim/ISTEM_KALIPLARI.md` §4, `sablon/6_vaka_formu.md` kontrol kutusu, `uretim/istem_kontrol.sh`, `uretim/CLAUDE.md` 0b),
    **kural kitabında yok**, ve **hiçbiri durdurmuyor**: `istem_kontrol.sh` yalnız "benzemiyor" sözcüğünü arıyor; `arac_yuz.py`
    yalnız yüze bakıyor, yalnız uyarıyor (Süheyla'yı en çok Ayla'ya benzetti 0,70, Jale'yi hiç bulmadı); form tarifinde Süheyla
    yalnız Dilek'le karşılaştırılmış ("kâkül yok" diye tek ayrıntı değiştirilmiş).
@@ -165,8 +171,8 @@
 |---|---|
 | `8459cf9` | `sablon/KURALLAR_TASLAK.md` — ilk deneme: 198 kural, uygulayıcı, 16 çelişki, kaynak eşlemesi. **GÜVENİLMEZ, kullanma:** satırlar Claude'un özeti, ~450 kaynak madde gruplanarak 198'e indi (ör. "göz kontrol listesi" tek satırda 17 madde). Sahibi bunu sorguladı; ham listeye geçildi. Yalnız **çelişki listesi** (dosyanın sonu) ve **uygulayıcı tespitleri** işe yarar, yeniden kullanılabilir. |
 | `1661764` | **Ham liste:** `kaynak/arac_kural_ham.js` → `sablon/kurallar/HAM.tsv` (programlar için) + `HAM.md` (okumak için). 34 kural belgesi + 2 programdaki (`arac_kapi.js` K1–K13, `istem_kontrol.sh`) her madde, tablo satırı, paragraf **asıl metniyle**; özet yok, ayıklama yok. Her kaydın kalıcı kimliği (`id`, dosya + metin özeti; satır değişse de aynı). Eksiksizlik programla sayıldı: atlanan satır yok (fazladan sayılanlar yalnız kod bloklarının içindeki boş/`#` satırlar). |
-| `809478b` | **Arşiv 1:** eski oyunun 16 belgesi `arsiv/`'e taşındı (silinmedi): `kaynak/inceleme_*.md` (12), `gorsel_promptlari.md`, `gorsel_promptlari_2.md`, `final_tablo_plani.md`, kökteki `PARA_YOLU.md`. Yeni oyunun kullandığı bilgi olmadığı denetlendi; okuyan program yok; doğrulayıcı geçti. `arsiv/OKUBENI.md` açıklar. |
-| `e66c93b` | **Arşiv 2:** `kaynak/gorsel_stil_sozlesmesi.md` ve `kaynak/cengo_bag_mekanigi.md` `arsiv/kaynak/`'e. İçlerindeki iki işe yarar kural ham listede: **2123** (resim yanlış gösteremez — kanondaki yara/topallık/yaş yokmuş gibi çizilmez, gizlenecekse kadraj dışında; silinmez) ve **2204** (Cengo bağı küçük adımlarla, ±1/±2). Ham araç arşivdekini eski adıyla okur, kimlikler değişmedi (önce/sonra karşılaştırıldı: aynı). |
+| `809478b` | **Arşiv 1:** eski oyunun 16 belgesi `arsiv/`'e taşındı (silinmedi): `kaynak/inceleme_*.md` (12), `arsiv/kaynak/gorsel_promptlari.md`, `arsiv/kaynak/gorsel_promptlari_2.md`, `arsiv/kaynak/final_tablo_plani.md`, kökteki `PARA_YOLU.md`. Yeni oyunun kullandığı bilgi olmadığı denetlendi; okuyan program yok; doğrulayıcı geçti. `arsiv/OKUBENI.md` açıklar. |
+| `e66c93b` | **Arşiv 2:** `arsiv/kaynak/gorsel_stil_sozlesmesi.md` ve `arsiv/kaynak/cengo_bag_mekanigi.md` `arsiv/kaynak/`'e. İçlerindeki iki işe yarar kural ham listede: **2123** (resim yanlış gösteremez — kanondaki yara/topallık/yaş yokmuş gibi çizilmez, gizlenecekse kadraj dışında; silinmez) ve **2204** (Cengo bağı küçük adımlarla, ±1/±2). Ham araç arşivdekini eski adıyla okur, kimlikler değişmedi (önce/sonra karşılaştırıldı: aynı). |
 | `6d25b2f` | **OKUBENI bölündü:** `kaynak/OKUBENI.md`'nin eski oyuna ait satır 142–1146'sı (açık uyarılar, kapatılan tuzaklar, sızıntı, ekonomi, eski vakalar) `arsiv/kaynak/OKUBENI_eski_oyun.md`'ye; ortak kısım kaldı (derleme, dosyalar, geliştirici modu, testler, doğrulayıcı kuralları, koşullu metin, kayıt, ses, Android). Ham liste önce/sonra karşılaştırıldı: **kaybolan 0**, yeni 2 (taşıma notları). Doğrulayıcı ve `test_yedek.js` geçti. |
 
 | (bu commit) | **Etiket önerisi, bütün ham liste** (sahibinin isteği, 16 Kasım gece: "belge belge değil, ham listeden satır satır"; emin olunmayan satır KURAL sayılır, sahibine yalnız kural olmayanlar gruplu gösterilir). `ETIKET_ONERI.tsv` (her `id` → KURAL / KAYIT / ESKİ OYUN + sebep), `ETIKET_KONTROL.md` (sahibinin okuyacağı gruplu liste). Sayım: 3.585 = 1.611 KURAL + 1.379 KAYIT + 595 ESKİ OYUN; atlanan yok. **Sahibinin onayı bekleniyor**; onaylanınca `ETIKET.tsv` olur. |
@@ -184,11 +190,11 @@
 - **ESKİ OYUN** — yalnız eski oyuna ait (asıl listeye girmez, kayıt için ham listede kalır);
 - **KAYIT** — geçmiş, açıklama, örnek, gerekçe; kural değil.
 
-Belge belge gidilir, **ilk belge kural kitabı** (`sablon/2_kural_kitabi.md`, 61 kayıt). Sahibine iki liste gösterilir: KURAL
+Belge belge gidilir, **ilk belge kural kitabı** (`arsiv/sablon/2_kural_kitabi.md`, 61 kayıt). Sahibine iki liste gösterilir: KURAL
 olanlar asıl metinleriyle; öbürleri kısa liste. Sahibi yanlış etiketi söyler. Onaylanınca etiketler **ayrı dosyaya** yazılır:
 `sablon/kurallar/ETIKET.tsv` (`id` → etiket; ham liste ve belgeler değişmez). Bu adımda hiçbir kural birleştirilmez,
 yeniden yazılmaz, silinmez. Sonra öbür belgeler (öneri sırası: 1. parça, 5, 6, 7, `uretim/CLAUDE.md`, `ISTEM_KALIPLARI`, kök
-`CLAUDE.md`, 4. parça, 8. parça, TASLAK, RAF/TON/SEZON/ÇERÇEVE, `uretim/AGENTS.md`, `v3_eski`, vaka başlangıçları, OKUBENI'ler,
+`CLAUDE.md`, 4. parça, 8. parça, TASLAK, RAF/TON/SEZON/ÇERÇEVE, `uretim/AGENTS.md`, `arsiv/uretim/v3_eski`, vaka başlangıçları, OKUBENI'ler,
 doğrulayıcı/veri sözleşmeleri, en son `DEVIR.md` — 445 kaydın çoğu geçmiş).
 
 **Adım 2 — Birleştirme (BİTTİ 17 Kasım; yalnız 41 soru cevap bekliyor — en üstteki kutu).** KURAL etiketlilerden aynı şeyi söyleyenler yan yana, asıl metinleriyle gösterilir; sahibi "birleşsin"
@@ -215,9 +221,9 @@ el, kıyafet, satır–resim.
   "orta yeşil" zemin; kapı bağlantısı kapalı). İkinci taramada **5 yeni**: (1) Ton belgesi "kısa replik" ↔ kural kitabı 5
   "anlaşılır replik"; (2) Ton §6 "bağ her vakada bir konuşmayı değiştirir" ↔ kural 12a "yalnız kapanışta"; (3) Sezon belgesi
   "her kıyafette 4 ifade / ~96 görsel" ↔ 5. parça B "yalnız satırların istediği"; (4) Sezon belgesi "V7'de taç kasaya bağlı"
-  geçersiz (kasa kalktı, kural 27); (5) `uretim/v3_eski/CLAUDE.md` L1'i Peri'nin yüz kaynağı sayıyor.
+  geçersiz (kasa kalktı, kural 27); (5) `arsiv/uretim/v3_eski/CLAUDE.md` L1'i Peri'nin yüz kaynağı sayıyor.
 - **Yalnız taslak dosyasında kalmış, sahibinin onayladığı kararlar** (asıl belgelere işlenmemiş): garip vaka harmanı
-  (`TASLAK_tekrar_onleme.md` §5), dönen figür hâli değişir ve üst üste iki vakada görünmez (§6), her formda "bu vakada hayvan
+  (`arsiv/sablon/TASLAK_tekrar_onleme.md` §5), dönen figür hâli değişir ve üst üste iki vakada görünmez (§6), her formda "bu vakada hayvan
   görünsün mü?" sorusu (§6), sezon kuralları (§7–8).
 - **Yazılı olmayıp uygulanan:** Cengo bağı ±1/±2 (yeni oyunun verisi −2…+2 arasında; kural hiçbir yerde yazılı değildi, şimdi
   ham kayıt 2204). Önerildi: doğrulayıcı ±2'yi aşan kararı durdursun — **sahibi henüz onaylamadı.**
@@ -229,14 +235,15 @@ el, kıyafet, satır–resim.
   olan 34 (+2 program).
 - **Hâlâ kullanılan, arşivlenmeyecek** (sahibiyle konuşuldu): `kaynak/dogrulayici_sozlesmesi.md` (doğrulayıcı yeni oyunda da
   çalışıyor), `kaynak/veri_format_sozlesmesi.md` (yeni oyunun verisi bu biçimde), `kaynak/ses_promptlari.md` + `ses/GECICI.md`
-  (yeni sayfa eski betiği ve sesleri kullanıyor), `kaynak/OKUBENI.md` ortak kısmı, `uretim/v3_eski/` (eski oyun değil; yeni
+  (yeni sayfa eski betiği ve sesleri kullanıyor), `kaynak/OKUBENI.md` ortak kısmı, `arsiv/uretim/v3_eski/` (eski oyun değil; yeni
   oyunun Vaka 3 ilk denemesi; bugünkü resim kuralları gerekçe ve örnek için ona atıf yapıyor).
 - **Eski oyunun kodu arşivlenemez** (yeni oyun `motor.js` ve eski sayfa betiğini kullanıyor). Eski oyunun verisi
   (`game_data.json`, `vaka2-6.json`, `yan_*.json`) ve kökteki `index.html` ayrı karar konusu; dokunulmadı.
 - **Kırık atıflar** (arşive taşınan dosyaların eski yolu): kök `CLAUDE.md` 11 yer, `kaynak/DEVIR.md` 2,
-  `kaynak/RAF_KARARLARI.md` 2, `kaynak/YENI_OYUN_GORSEL_PROMPTLARI.md` 2, `kaynak/referans/OKU.md` 2, `kaynak/OKUBENI.md` 1,
-  `YENI_OYUN_CERCEVE.md` 1, `YENI_OYUN_TON.md` 1, `sablon/TASLAK_tekrar_onleme.md` 1. Dosyalar `arsiv/` altında aynı adla.
-  **Adım 3'te düzeltilecek** (sahibine söylendi).
+  `arsiv/kaynak/RAF_KARARLARI.md` 2, `kaynak/YENI_OYUN_GORSEL_PROMPTLARI.md` 2, `kaynak/referans/OKU.md` 2, `kaynak/OKUBENI.md` 1,
+  `arsiv/kaynak/YENI_OYUN_CERCEVE.md` 1, `arsiv/kaynak/YENI_OYUN_TON.md` 1, `arsiv/sablon/TASLAK_tekrar_onleme.md` 1. Dosyalar `arsiv/` altında aynı adla.
+  **Adım 3'te düzeltilecek** (sahibine söylendi). **DÜZELDİ (20 Kasım 2026, son adım):** bütün atıflar `arsiv/…` yoluna ya da
+  kural koduna çevrildi — `sablon/kurallar/adim3/son_adim.md`.
 
 ## 6. Oğuz Bey ve süren işler
 

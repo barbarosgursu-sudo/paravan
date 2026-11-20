@@ -1,4 +1,4 @@
-# ARAÇ (test değil): yeşil zeminli figürün saç halesini temizler (5_gorsel_sistemi.md → F "Hale temizliği").
+# ARAÇ (test değil): yeşil zeminli figürün saç halesini temizler (GOMME-2, GOMME-5; eski tarif: arsiv/sablon/5_gorsel_sistemi.md → F "Hale temizliği").
 # Kesimden SONRA kalan yeşil, dağınık saç telleri arasındaki kapalı ceplerdir: arac_kes.js'nin kenardan taşkın
 # doldurması onlara ulaşamaz. Bu araç kesilmiş figürü ve aynı resmin KAYNAĞINI (yeşil zeminli png) alır; baş
 # bölgesinde kaynakta yeşil-baskın olan her pikseli (renk anahtarı) saydamlaştırır, yarı yeşilleri yumuşak kenarla

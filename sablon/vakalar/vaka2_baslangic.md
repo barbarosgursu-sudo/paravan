@@ -7,7 +7,7 @@ Tarih: 10 Ekim 2026. **Vaka 1 bitti ve kalıp oldu.** Vaka 2 aynı şablonla, ay
 
 1. `CLAUDE.md` (kalıcı kurallar, tuzaklar, komutlar)
 2. **bu dosya**
-3. `sablon/` — 7 parça, sırayla (özellikle `5_gorsel_sistemi.md` C ve F, `7_uretim_sureci.md`)
+3. `sablon/` — 7 parça, sırayla (özellikle `arsiv/sablon/5_gorsel_sistemi.md` C ve F, `7_uretim_sureci.md`)
 4. Örnek olarak: `sablon/vakalar/vaka1_form.md`, `vaka1_diyalog.md`, `vaka1_gorsel.md`
 5. Gerekirse geçmiş: `sablon/vakalar/vaka1_gorsel_devir.md` (Vaka 1 görsel işinin tamamı)
 
@@ -103,36 +103,32 @@ Hepsi baştan önlenebilirdi:
 
 | sorun (Vaka 1) | Vaka 2'de nasıl önlenir |
 |---|---|
-| Cengo konuğa konuşurken Peri'ye bakıyor gibi | diyalogda her Cengo satırı için kime konuştuğu belli; `{kime: peri}` |
-| Konuk Peri'ye konuşurken Cengo karşısında | konuk satırında `{kime: peri}` |
-| İki Cengo aynı ekranda | görselli turda satır satır denetim (aşağıda §4) |
-| Dinleyenin yüzü bir önceki satırdan kalmış (kızgın Peri) | her yeni olay/kişi girişinde `{peri: …}` / `{cengo: …}` |
-| Kızgın konuk sahneye "zaten kızgın" giriyor | anlatı satırında `{mekan}`, konuk ilk konuştuğu satırda `{gir: x, gi: …}` |
-| Uzun konuşma hep aynı arka planda | ≈15 satırı geçen konuşmaya 2. açı; durum değişince (kapı açıldı, manto asıldı) yeni arka plan |
-| Kovalamacada karelerin sırası/kişisi yanlış | her vuruş bir kare, metinle aynı sıra; sahneden ayrılan figür karede yok (`{gizle: cengo}`) |
-| Islanan/kirlenen Peri sonraki satırda kuru | durum sürekliliği: ara hâl figürü baştan listede |
-| Metin bir nesne anıyor, ekranda yok (telefon, istavrit, tel) | satır → görsel tablosunda her nesne için figür ya da kare |
-| Figürü olmayan konuşan (boyacı, asistan) | ya figür ya o satırda ilgili kare; iki boş figür kalmaz |
-| Yanlış kıyafetle sahne (önlüklü Kemal borç istemeye) | konuk her sahnede o sahneye uygun hâlde; gerekirse ikinci kıyafet |
-| Saçta grilik (kesim halesi) | her figür gönderilmeden önce saç kenarı büyütülüp temizlenir (§4) |
-| Konuk çok büyük/küçük | ekranda Peri'nin yanında boy ayarı (`boy`), sahibine göstermeden önce |
-| Görsel oranı karışık | her prompta oran satırı (figür 4:5, sahne 3:4) |
-| Künye boş kaldı | künye veri adımında yazılır (adım 4), sonradan değil |
-| Promptlar mekânla çelişiyor (olmayan askı, yanlış masa) | prompt yazmadan önce referans görsele bakılır; mekândaki eşyalar adıyla sayılır |
-| Referans dosyaları sonradan istendi | her prompt **referans dosyalarıyla birlikte** gönderilir (`referans/G<n>-<sıra>_ad.png`) |
+| Cengo konuğa konuşurken Peri'ye bakıyor gibi | SATIR-3, SATIR-4 (`{kime: peri}`) |
+| Konuk Peri'ye konuşurken Cengo karşısında | SATIR-3, SATIR-4 (`{kime: peri}`) |
+| İki Cengo aynı ekranda | SATIR-31 (aşağıda §4) |
+| Dinleyenin yüzü bir önceki satırdan kalmış (kızgın Peri) | SATIR-16 (`{peri: …}` / `{cengo: …}`) |
+| Kızgın konuk sahneye "zaten kızgın" giriyor | SATIR-21 (`{mekan}`, `{gir: x, gi: …}`) |
+| Uzun konuşma hep aynı arka planda | SATIR-23 |
+| Kovalamacada karelerin sırası/kişisi yanlış | SATIR-24, SATIR-22 (`{gizle: cengo}`) |
+| Islanan/kirlenen Peri sonraki satırda kuru | SATIR-7 |
+| Metin bir nesne anıyor, ekranda yok (telefon, istavrit, tel) | SATIR-1, SATIR-25 |
+| Figürü olmayan konuşan (boyacı, asistan) | SATIR-6 |
+| Yanlış kıyafetle sahne (önlüklü Kemal borç istemeye) | SATIR-7 |
+| Saçta grilik (kesim halesi) | GOMME-5 (§4) |
+| Konuk çok büyük/küçük | GOMME-7, GOMME-13 (`boy`) |
+| Görsel oranı karışık | ISTEM-4 |
+| Künye boş kaldı | SUREC-13 |
+| Promptlar mekânla çelişiyor (olmayan askı, yanlış masa) | ISTEM-29 |
+| Referans dosyaları sonradan istendi | ISTEM-15 (`referans/G<n>-<sıra>_ad.png`) |
 
 ## 3. Adım adım ne yapacaksın (7. parçaya ek)
 
-**Form (adım 1):** 6. parçanın bütün başlıkları + **künye tablosu** + yeni yan karakterlerin
-görünüş önerisi (benzerlerinden ayrışsın). Görünüş, formla birlikte Onay 1'de onaylanır —
-görsel aşamasında ayrıca sormaya gerek kalmaz.
+**Form (adım 1):** SUREC-11 (6. parçanın — artık `sablon/6_vaka_formu.md` — bütün başlıkları + künye tablosu + yeni yan
+karakterlerin görünüş önerisi; Onay 1).
 
-**Diyalog (adım 3):** her satır için baştan yaz: konuşan, ifade, **kime** (konuk varsa), dinleyenin
-yüzü değişiyorsa işareti, arka plan/açı, kare. Satır → görsel tablosu diyalogla birlikte biter.
-Kontrol sorusu her satırda: "Ekranda kim var, kime bakıyor, yüzü bu satıra uyuyor mu, metnin
-andığı nesne görünüyor mu?"
+**Diyalog (adım 3):** SATIR-26, SATIR-25.
 
-**Veri (adım 4):** `arac_diyalog.js <dosya> V2`; künye `yeni/kisiler.json`;
+**Veri (adım 4):** SUREC-13 — `arac_diyalog.js <dosya> V2`; künye `yeni/kisiler.json`;
 `node arac_kunye_denetim.js yeni` temiz.
 
 **Araçları Vaka 2'ye aç (adım 5'ten önce, ~1 saat):**
@@ -140,13 +136,9 @@ andığı nesne görünüyor mu?"
 - Vaka 1 → Vaka 2 geçişini dene (V1 bitince V2 açılıyor mu, kayıt doğru mu).
 - `test_yeni_v1.js`'in Vaka 2 kardeşi gerekiyorsa yaz.
 
-**Görsel listesi (adım 8):** tek seferde ve EKSİKSİZ: figürler (her ifade), konuk ikinci hâlleri,
-ara kareler (kovalamacanın her vuruşu), ek açılar, durum hâlleri (ıslak/kirli), nesneli pozlar.
-Her prompt: kalıp (5. parça D) + oran satırı + numaralı referans dosyaları hazır.
+**Görsel listesi (adım 8):** SUREC-19 (kalıp ISTEM-8, oran satırı ISTEM-4, referanslar ISTEM-15).
 
-**Görsel gelince (adım 10):** sahibine göndermeden ÖNCE: kes, saç kenarını büyütüp temizle (yalnız
-baş kutusu; gümüş nesneleri koru), ekranda Peri'nin yanında boyuna bak, yazı/harf tara, ilgili
-satırda ekran görüntüsü al. Sahibine yalnız oyundaki son hâli gönder.
+**Görsel gelince (adım 10):** sahibine göndermeden önce teknik denetim — GOMME-7, GOMME-5.
 
 ## 4. Görselli tur denetimi (adım 11) — her sahne, her satır
 
@@ -160,15 +152,8 @@ satırda ekran görüntüsü al. Sahibine yalnız oyundaki son hâli gönder.
 
 ## 5. Sahibiyle çalışma biçimi
 
-- Çok basit, kısa Türkçe; bir adımda dur, eksikleri tek tek konuş.
-- Kanona ekleme → önce sor (nereye ne). Metindeki küçük netleştirmeleri önerip uygula.
-- Commit doğrudan `main`'e ve oturumun dalına. Her değişiklikten sonra: doğrulayıcı, iki
-  derleme (eski `index.html` md5 aynı), testler, gerekiyorsa tur.
-- **Görsel sorunu anında söylenir (11 Ekim, Vaka 2 Sohbet 1 dersi).** Sahibi üretim sırasında bir
-  sorun görürse (fazla ayrıntı, tutarsız kıyafet, el, yazı) o an yazar — özellikle sonraki
-  görsellere **referans olacak** görselde (temel: G1, ilk kremalı, ilk örtülü vb.). Hata referansta
-  düzelmezse zincirle yayılır: Vaka 2'de G8'de doğan çorap bandı G9–G13'e geçti; 5 görsel yeniden
-  üretildi, G13 limite takıldı (~20 dk kayıp).
-- **Claude tutarlılık sorununu "beğeni" diye geçmez.** Setin içinde tutarsız ya da promptta
-  istenmemiş bir ayrıntı görürse gömmeden önce sorar ve düzeltme promptunu verir. Otomatik rötuşa
-  (ör. bant/nesne silme) ancak yüzey düzse girer; yeniden üretim çoğu zaman daha kısadır.
+- Sahibiyle çalışma biçimi — SUREC-34.
+- Kanona ekleme — KAR-1. Metindeki küçük netleştirmeleri önerip uygula.
+- Git — SUREC-7. Her değişiklikten sonra — KOD-3 (doğrulayıcı, iki derleme — eski `index.html` md5 aynı, testler, gerekiyorsa tur).
+- **Görsel sorunu anında söylenir** (11 Ekim, Vaka 2 Sohbet 1 dersi) — DENETIM-50.
+- **Tutarlılık sorunu "beğeni" diye geçilmez** — DENETIM-51; rötuşun sınırı — DENETIM-52.

@@ -1,39 +1,34 @@
 # 7. ÜRETİM SÜRECİ
 
-Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
+Bir vaka formdan oynanır hâle bu sırayla gelir — SUREC-10 (adım atlanmaz).
 
-> **Onaylı kararlar (17 + 19 Kasım 2026):** 41 çelişki cevabı ve Cengo'nun saçı kısa liste olarak `uretim/CLAUDE.md` en üstünde. Bu belgedeki eski bir metinle çelişirse o liste geçerli.
+> **Kurallar `sablon/kurallar/KURALLAR.md`'de; kodu geçen kuralı oradan oku.** Onaylı kararlar (17 + 19 Kasım 2026; 41 çelişki cevabı ve Cengo'nun saçı) oraya işlendi; kısa liste `uretim/CLAUDE.md` en üstünde.
 
 ## Adımlar
 
 | # | adım | kim | çıkış şartı |
 |---|---|---|---|
-| 1 | **Form** doldurulur (6. parça) | ben | formun kontrol listesi tamam |
-| 2 | **Onay 1:** form | sahibi | "onay" |
-| 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`): her satırın konuşanı, ifadesi ve görseli (satır → görsel tablosu). Satır–resim sözleşmesi (5. parça C0): her satırın gerçek muhatabı `kime`/`gir` ile (SR-A, konuk–konuk SR-G); ifade satırın duygusundan seçilir, eldeki yüzlerden değil (SR-I); sahne notu yalnız o an görüleni söyler (SR-H) | ben | otomatik denetimden geçer |
-| 4 | **Veri** hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `arac_diyalog.js` ile diyalogdan; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
-| 5 | **Görselsiz oyun turu:** yeni görsellerin yerinde yer tutucu (eski görsel ya da yazılı gri kutu); bütün yollar otomatik oynanır. Ardından **bulanık replik taraması**, **sızıntı taraması** ve **erken satır–resim taraması** (SR-M8, aşağıda) | ben | hata yok; üç tarama bitti, düzeltmeler veride |
-| 6 | **Onay 2 — görselsiz test:** sahibi oynar. Okuyan, vakaya başlamadan önce `3_kanon_kaydi.md`'yi okur (büro nerede, kim kimdir, dönen figürler; kural G, 12 Kasım 2026). Bakılan: hikâye anlaşılıyor mu, bulmaca çözülüyor mu, Kim yaptı? keyifli mi, espriler, süre | sahibi | notlar tek listede |
-| 7 | **Hikâye düzeltmeleri** (değişiklik kuralına göre) ve tekrar görselsiz test, sahibi "tamam" diyene kadar | ben + sahibi | **hikâye donar** |
-| 8 | **Görsel listesi ve promptlar** tek seferde verilir (numaralı referanslarla) **ve iş sayfası olarak yayımlanır** (`5_gorsel_sistemi.md` D-6). Listeye **kart afişi** de girer (G; prompt `sablon/kart_sayfa/uret.py`, ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve her karar/ara/kapanış karesi için kıyafet hâli, SR-B), **ifade/nesne ayrımı** (SR-D), `arac_satir_resim.js` bayraklarının **hepsi kapalı** (SR-E). İlk figürden önce **kıyafet kartları** tek sayfada sahibine (5. parça I, SR-C) | ben | bayrak kalmadı; kıyafet kartları onaylı |
-| 9 | **Görseller** üretilir; **toplu gönderilir** (aşağıda) | sahibi | — |
-| 10 | **Kontrol, kesim, yerleştirme** (5. parça, kontrol listesi); **toplu işlenir** | ben | her görsel gömülü |
-| 11 | **Görselli oyun turu:** bütün yollar otomatik oynanır; ayrıca her sahne satır satır: konuşan/karşısındaki doğru mu, iki aynı figür var mı, dinleyenin yüzü uygun mu, saç kenarı temiz mi; satır–resim sözleşmesinin (SR-A…L) hepsi | ben | hata yok |
-| 12 | **Onay 3 — görselli test:** sahibi oynar. **Yalnız görsellere** bakılır: metinle uyum, ifade, çekicilik | sahibi | notlar tek listede |
-| 13 | **Görsel düzeltmeleri** | ben + sahibi | — |
-| 14 | **Vaka donar.** Donmadan önce **sızıntı taraması** bir kez daha (aşağıda). Şablonda eksik çıktıysa şablon düzeltilir | ben + sahibi | tarama temiz |
+| 1 | **Form** doldurulur (`sablon/6_vaka_formu.md`) — SUREC-11 | ben | formun kontrol listesi tamam |
+| 2 | **Onay 1:** form — SUREC-11 | sahibi | "onay" |
+| 3 | **Diyalog** yazılır (`vakalar/vakaN_diyalog.md`) — SUREC-12; satır–resim: `kime`/`gir` (SATIR-3, SATIR-5), ifade (SATIR-15), sahne notu (TON-8) | ben | otomatik denetimden geçer |
+| 4 | **Veri** hazırlanır — SUREC-13: yapı elle; sahne ve karar metni `arac_diyalog.js` ile; **künye** (`yeni/kisiler.json`) | ben | otomatik denetimden geçer; künye aracı temiz |
+| 5 | **Görselsiz oyun turu** — SUREC-14 (yer tutucu KOD-48); ardından **bulanık replik taraması** (SUREC-15), **sızıntı taraması** (SUREC-27) ve **erken satır–resim taraması** (SATIR-12) | ben | hata yok; üç tarama bitti, düzeltmeler veride |
+| 6 | **Onay 2 — görselsiz test** — SUREC-16 (okuyan önce `3_kanon_kaydi.md`'yi okur) | sahibi | notlar tek listede |
+| 7 | **Hikâye düzeltmeleri** (SUREC-28) ve tekrar görselsiz test, sahibi "tamam" diyene kadar — SUREC-17 | ben + sahibi | **hikâye donar** |
+| 8 | **Görsel listesi ve promptlar** + iş sayfası — SUREC-19, SUREC-20; kart afişi (GOMME-21…27; prompt `sablon/kart_sayfa/uret.py`); istemlerden önce kıyafet hâli tablosu (SATIR-7), ifade/nesne ayrımı (SATIR-9), `arac_satir_resim.js` bayrakları kapalı (SATIR-10); ilk figürden önce kıyafet kartları (SATIR-8, ISTEM-17) | ben | bayrak kalmadı; kıyafet kartları onaylı |
+| 9 | **Görseller** üretilir — SUREC-21 | sahibi | — |
+| 10 | **Kontrol, kesim, yerleştirme** — SUREC-21 (DENETIM-*, GOMME-*) | ben | her görsel gömülü |
+| 11 | **Görselli oyun turu** — SUREC-24, SATIR-31 | ben | hata yok |
+| 12 | **Onay 3 — görselli test** — SUREC-25 | sahibi | notlar tek listede |
+| 13 | **Görsel düzeltmeleri** — SUREC-25 | ben + sahibi | — |
+| 14 | **Vaka donar** — SUREC-26 (sızıntı taraması bir kez daha) | ben + sahibi | tarama temiz |
 
-- **Görseller, hikâye donmadan (7. adım) üretilmez.**
-- Görselli testte hikâye değişmez; değişecekse forma dönülür ve etkilenen görseller listelenir.
-- Her adımın sonunda değişiklikler `main`'e gönderilir.
-- **Her vakanın süresi ölçülür:** başlangıç ve her adımın bitişi vakanın başlangıç belgesindeki
-  tabloya yazılır (örnek: `vakalar/vaka2_baslangic.md` §1).
-- **Sızıntı taraması (22 Ekim 2026, sahibinin kararı — her vakadan sonra):** `cd kaynak && node build_html.js yeni &&
-  node arac_sizinti_tur.js VN`. İki parça: (1) oyunu farklı yollardan oynar, her ekranda oyuncunun o an bilmediği
-  olgunun metni / kısa adı çıkıyor mu bakar — bulursa çıkış 1; (2) `YENI_UI/sizinti_okuma.txt`'yi ELLE oku:
-  MASUM satırları ve karar ÖNİZLEME/SONUÇ/CENGO yalnız her yolda oynayan sahnelerin (yüzleşmeler + kovalamaca
-  itirafı) söylediğini mi anıyor? Bir ipucunun bilgisi geçiyorsa sızıntıdır (22 Ekim'de 9 tane böyle bulundu:
-  "kodu, fişi", "Gizem'in fotoğrafı", "örtüyü"…). Düzeltme sahibine tek tek, önce/sonra gösterilir.
+- **Görseller hikâye donmadan üretilmez** — SUREC-18.
+- Görselli testte hikâye değişmez — SUREC-25.
+- Değişiklikler `main`'e — SUREC-7.
+- **Süre ölçümü** — SUREC-30 (örnek: `vakalar/vaka2_baslangic.md` §1).
+- **Sızıntı taraması (22 Ekim 2026, sahibinin kararı — her vakadan sonra)** — SUREC-27: `cd kaynak && node build_html.js yeni &&
+  node arac_sizinti_tur.js VN`; sonra `YENI_UI/sizinti_okuma.txt`'yi ELLE oku (KOD-90).
 - **Vaka 1 dersleri** (zamanı en çok yiyen görsel düzeltmeleri ve önlemleri): `vakalar/vaka2_baslangic.md` §2–4.
 
 ## Hızlandırma kuralları (10 Ekim 2026, Vaka 2 ölçümünden)
@@ -41,184 +36,108 @@ Bir vaka formdan oynanır hâle bu sırayla gelir. **Adım atlanmaz.**
 Vaka 2'de metin tarafı 2 sa 52 dk sürdü; bunun 1 sa 56 dk'sı Onay 2'ydi ve 22 notun
 **hepsi bulanık replikti** (hikâye hiç değişmedi). Görselde zaman, tek tek gidip gelmeye gidiyor.
 
-**Bulanık replik taraması (adım 5'in sonu, Onay 2'den ÖNCE).** Diyaloğu baştan sona, oyuncunun
-gördüğü sırayla okurum (`arac_okuma.js` ya da görselsiz turun ekranları) ve her satıra sorarım:
-- **Kime?** Konuşanın kime konuştuğu belli mi; cevap doğru kişiden mi geliyor?
-- **Akış: kim nerede, ne sırayla?** (8 Kasım 2026, 5. parça SR-L) Varışta önce giriş, sonra içerisi; bir şey ilk kez
-  görüldüğü satırda görülür (önceki satırlarda karakter onun önünde tepkisiz durmaz); söylenen yer ("kapıda") figür ve
-  arka planla çelişmez; kare yalnız gösterdiği anın satırında. Diyalog yazılırken her sahnenin başına kısa bir akış notu
-  (`⚙ akış: kim nerede, kim ne zaman giriyor, ne ilk kez görülüyor`) yazılır.
-- **Neyi?** "O", "bu", "orası" neyi gösteriyor; oyuncu bunu bu satıra kadar duydu mu?
-- **Nereden biliyor?** Karakter bu bilgiyi ya da bu kişiyi nereden tanıyor; ekranda görüldü mü? **Sahne notuna da
-  sorulur** (8 Kasım 2026, kural kitabı 4a): not yalnız o an görüleni söyler, sonra ortaya çıkacak gerçeği değil.
-- **Espri tutuyor mu?** Espri tek okumada anlaşılıyor mu; kurulumu ondan ÖNCE mi geliyor?
-- **Sıra:** cevap sorudan, tepki olaydan sonra mı; iki iş tek replikte karışmış mı?
-- **Saat "kala" ile mi söyleniyor?** (18 Ekim 2026, sahibinin kararı; kural kitabı 5b) "Sekiz buçuğa çeyrek kala",
-  "on bire on dört kala" gibi geriye sayış yok; dijital okunur ("sekiz on beşte", "on kırk altı"). "Buçuk", "çeyrek geçe"
-  serbest. Cihazdan okunan saat her zaman ekrandaki gibi. Yazılı yüzeylerde rakam.
-- **Tekrar eden şaka büyüyor mu?** (18 Ekim 2026, sahibinin onayı) Vaka boyunca dönen bir şaka ("Ben o değilim /
-  Tabii, tabii") her dönüşünde bir basamak tırmanır; aynı kurulum aynı sırayla ikinci kez gelmez. Vurucu sözü karşı
-  taraf önceden söyleyip esprinin hedefini kuru bırakmaz. En güçlü kaynak karakterin zaafıdır: Vaka 3'te Peri
-  kılıktayken afişini eleştirmekten kendini alamaz ("hep söylerdim"), Ferruh "Kime söylerdiniz efendim?" diye
-  sıkıştırır. Şaka bir sahnede en çok dört replik sürer; sahne kapanışı ona geri dönebilir (callback).
-- **Ne istiyor?** Karakterin bu satırdaki niyeti (iltifat mı, iğne mi, yalan mı) belli mi?
-- **Giriş ilk okumada anlaşılıyor mu?** (10 Kasım 2026, sahibinin kararı; kural 5c, 1. parça "Giriş") Girişe ayrıca
-  sorulur: müşteri, olay, her şüphelinin şüphe sebebi, kimin neyi nereden bildiği, tehdidin/kaybın kendisi açıkça
-  söylendi mi? Satır sınırı yüzünden sıkıştırılan cümle yok mu? Yer açmak için bölünmesi gereken uzun replik bölünür.
-- **Fazla kısa mı?** (17 Ekim 2026, sahibinin kararı; kural kitabı 5) Replik tek başına okununca normal bir oyuncu
-  ne demek istediğini anlıyor mu? İki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?",
-  "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Diyalog **baştan bu ölçüyle yazılır**;
-  tarama yalnız kaçanı yakalar. Vaka 3'te sahibi bunu Onay 2'den önce istedi, 109 replik sonradan açıldı.
-- **Bilmediğini biliyor mu?** (B, 12 Kasım 2026) Karar metni, Cengo satırı ve kapanış formdaki "kim neyi biliyor"
-  listesine uyuyor mu?
-- **Neden kaçıyor?** (17 Ekim 2026, sahibinin kararı; 1. parça "Yüzleşme sahneleri") Her yüzleşmede suçlunun paniği
-  somut bir tetikleyiciye bağlı mı: kanıt yalanını çürütüyor ya da sakladığı şey tehlikeye giriyor? "His mi?", "Neredeydin?",
-  "Fırına bakayım" gibi cevabı kolay bir sözle kaçış yazılmaz. Vaka 3'te üç yüzleşme bu yüzden yeniden yazıldı.
+**Bulanık replik taraması (adım 5'in sonu, Onay 2'den ÖNCE)** — SUREC-15. Diyaloğu oyuncunun gördüğü sırayla okurum
+(`arac_okuma.js` ya da görselsiz turun ekranları) ve her satıra sorarım (sorular TON-14):
+- **Kime?** (TON-14)
+- **Akış: kim nerede, ne sırayla?** (SATIR-19) Sahne başına akış notu: `⚙ akış: kim nerede, kim ne zaman giriyor, ne ilk kez görülüyor`.
+- **Neyi?** (TON-14)
+- **Nereden biliyor?** (TON-14; sahne notuna da — TON-8)
+- **Espri tutuyor mu?** (TON-15)
+- **Sıra** (TON-14)
+- **Saat "kala" ile mi söyleniyor?** (TON-12)
+- **Tekrar eden şaka büyüyor mu?** (TON-16)
+- **Ne istiyor?** (TON-14)
+- **Giriş ilk okumada anlaşılıyor mu?** (TON-10)
+- **Fazla kısa mı?** (TON-9)
+- **Bilmediğini biliyor mu?** (YAPI-12)
+- **Neden kaçıyor?** (YAPI-17)
 
-Düzeltme yalnız **netleştirme**dir (hikâyeye yeni olgu eklenmez; eklenecekse önce sahibine
-sorulur — CLAUDE.md çalışma kuralı). Bulunanlar ve yapılanlar sahibine **tek liste** hâlinde
-verilir; sahibi Onay 2'ye temizlenmiş metinle başlar. Sahibi de notlarını sahne sahne,
-**toplu** verir.
+Düzeltme yalnız netleştirmedir; bulunanlar sahibine tek liste — SUREC-15 (kanona ekleme KAR-1).
 
-**Temel görsel önce, tek başına (Vaka 2'nin asıl hızlandırıcısı).** Her sohbette sahibi önce temel
-görseli (G1, G14, G19…; mekânda G35, G40, G43) **tek** gönderir; ben kontrol listesinden geçirip
-"doğru, devam" ya da düzeltme promptu veririm; onaydan sonra türevler üretilir. Vaka 2'de bunu
-yapmayan Sohbet 1 (G8'deki çorap bandı G9–G13'e yayıldı) 64 dk sürdü; yapan sohbetler görsel başına
-3–5 dk. Sahibi görselleri sohbete **doğrudan yapıştırır**; numarayı ben veririm (dosya adı gerekmez).
-Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır.
+**Temel görsel önce, tek başına** — SUREC-22. Sahibi "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır.
 
-**Satır–resim uyumu ZORUNLU (sahibi, 6 Kasım 2026).** Her metin, gösterildiği resimle uyumlu olmalı ve resim bunu bilerek
-üretilir. Üç aşama, araç `kaynak/arac_satir_resim.js` (tur dökümünden her resmin göründüğü satırları ve riskli satırları basar):
-- **Hikâye donmadan önce (adım 5; SR-M8, 14 Kasım 2026, sahibinin kararı; Vaka 7'den itibaren):** görselsiz tur bütün yollarda
-  `--hepsi` ile → `node arac_satir_resim.js <dokum…> --vaka V<N>`. **İŞ** bayrakları yazara gider; sözle çözülecek olan
-  (nesneyi bırakan cümle, netleşen hitap…) şimdi sözle çözülür. **SOR** bayrakları burada sahibine GİTMEZ — hikâye dondukça
-  bir kısmı kendiliğinden kalkar; kalanlar adım 8'de bir kez sorulur. Hikâye donduktan sonra yalnız etiket ve resimle (SR-M).
-  Aynı turda iki liste daha burada kapanır (14 Kasım 2026, V6 açılışı yayında bulununca): aracın **DURUŞ** ve **İLK GÖRME**
-  bayrakları, ve turun `satir/adi_gecen_yok.txt`'si (anlatıda adı geçen ama ekranda olmayan kişi). V6'da bu liste "metin işi"
-  diye resimlerden sonraya kaldı ve yayına çıktı; artık hikâye donmadan biri bile açık kalmaz. Üç kişiyi birden anan satır
-  kare ister — o kare görsel listesine (adım 8) baştan girer.
-- **İstem yazarken:** görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`, her yolun `satir/`'ını kopyala) →
-  `node arac_satir_resim.js <dokum…> --vaka V<N>`. Her figür/kare isteminin `## Satırlar` bölümüne o resmin satırları
-  konur. Bir yüz hepsine uymuyorsa (ör. güler yüz + suçlanma satırı) AYRI ifade istenir. EYLEM bayraklı anlatı satırı
-  (yiyor, uzatıyor, kesiyor…) kare ister ya da diyalogda o satıra uygun kare/figür bağlanır. JEST bayraklı replik
-  ("(papyonunu düzelterek)") konuşanın figürünün pozuna yazılır.
-  **8 Kasım 2026 (sahibinin kararı, 5. parça C0):** `## Satırlar` **bütün vakalarda** zorunlu. İstem yazılmadan önce
-  her bayrak kapanır (SR-E): figür/kare bağlanır ya da sahibi "kalsın" der; "kısmen uyuyor" da sahibine gider. Her satır
-  şu soruyla okunur: *bu pozdaki her nesne ve hareket BU satırda metinde var mı; metindeki her kişi ve şey ekranda mı?*
-  Bir satır uymazsa istem bölünür (SR-D). İstemde bakışın yönü ve hedefi (SR-I) ve ifadeyi kardeşlerinden ayıran şey
-  (SR-J) yazılır; kıyafet sözle değil kıyafet kartıyla verilir (SR-C).
-- **Denetimde:** resim istemle birlikte o satırlarla da okunur: yüz, el, jest, konuşanın kim olduğu (dinleyen
-  parmağıyla işaret ediyorsa konuşan o sanılır — Vaka 3, Gizem konuşurken Peri'nin işaret eden figürü).
-- **Gömmeden sonra:** bütün yollar `--hepsi` ile oynanır, araç yeniden çalışır; her bayrak ve her satırın ekranı
-  metniyle okunur, sonuç sahibine tablo hâlinde verilir (satır · metin · uyuyor/uymuyor · neden).
+**Satır–resim uyumu zorunlu** — SATIR-28; araç `kaynak/arac_satir_resim.js`:
+- **Hikâye donmadan önce** (adım 5) — SATIR-12: görselsiz tur bütün yollarda `--hepsi` ile →
+  `node arac_satir_resim.js <dokum…> --vaka V<N>`; DURUŞ / İLK GÖRME bayrakları ve `satir/adi_gecen_yok.txt` burada kapanır.
+- **İstem yazarken** — ISTEM-51, SATIR-10, SATIR-15, SATIR-17, SATIR-8: görselsiz tur bütün yollarda (`arac_yeni_tur.js … --hepsi`,
+  her yolun `satir/`'ını kopyala) → `node arac_satir_resim.js <dokum…> --vaka V<N>`.
+- **Denetimde** — DENETIM-30.
+- **Gömmeden sonra** — SATIR-30.
 
-**Görsel–metin uyum denetimi (adım 11, Onay 3'ten ÖNCE).** Bulanık replik taramasının görsel
-kardeşi. Bütün görseller gömülünce görselli turu **bütün yollarda** koşarım
+**Görsel–metin uyum denetimi (adım 11, Onay 3'ten ÖNCE)** — SATIR-31. Görselli turu bütün yollarda koşarım
 (`arac_yeni_tur.js`) ve her ekranı altındaki metinle yan yana okurum:
-- **Kim var?** Metindeki/kare satırındaki herkes ekranda mı; fazladan ya da iki kez görünen var mı?
-  **ZORUNLU (16 Ekim 2026, sahibinin kararı):** anlatı satırında adı geçen her kişi (ya da grup:
-  nedimeler, annesi, misafirler) o satırda ekranda olmalı. Tek kişiyse figürü `{gir: x}` ile o
-  satırda girer (yeri tanıtan `{mekan}` satırı bile olsa); ekranda aynı anda yalnız iki figür
-  durabildiği için **iki kişiden fazlası ya da grup → kare**. Bu yüzden denetim üç adımda yapılır:
-  diyalog yazılırken (adım 3: kişi sayan her anlatı satırına `gir` ya da kare), görsel listesinde
-  (adım 8: kalabalık anlatan her satıra kare) ve turda (adım 11: `arac_yeni_tur.js … --hepsi`
-  `satir/adi_gecen_yok.txt`'ye aday listesi yazar; grup adlarını ve akrabalık sözlerini
-  — "annesi" — yakalamaz, onlara gözle bakılır). Vaka 2'de sahibi Onay 3'te buldu: son prova
-  açılışları, "Bütün nedimeler Defne'ye dönüyor", "Gelme anne!" → K33–K34 sonradan üretildi.
-- **Kime konuşuyor?** Konuşanın karşısında, hitap ettiği kişi mi duruyor?
-  **Figürü olmayan konuşmacı** (`sesler`: teyze, ses) bir karenin üstünde konuşuyorsa, ona verilen cevap da
-  AYNI karede kalır (`{kare: K38}`). Kare kalkarsa motor solda Peri'yi gösterir ve cevap Peri'ye verilmiş gibi
-  görünür (Vaka 3, Gizem → teyze; sahibi 18 Ekim'de buldu). Kare, cevaplayan başka birine dönünce kalkar.
-- **Saklanan kişi** (masanın altı, kapı arkası) **ara kareyle** gösterilir: kapıda gelen, masanın altında saklanan
-  aynı karede (Vaka 2 K20, Vaka 3 K53 — aynı açı, tekrar eden şaka). Anlatı + gelenin ilk repliği o karede; figür
-  düzeninde `gizle` ile yapılırsa saklanan, adı geçtiği satırda ekranda olmaz (18 Ekim, sahibinin kararı).
-- **Yüz satıra uyuyor mu?** Konuşanın ve dinleyenin ifadesi bu satırın duygusu mu (önceki satırdan kalmış mı)?
-- **Anılan şey görünüyor mu?** Metindeki nesne, hareket, kıyafet (krema, örtü, kravat gevşek/çözük, gözlük elde).
-- **Süreklilik:** Kıyafet, saç, takı sahneden sahneye aynı mı; bir önceki olay (pastaya oturma) görselde izini taşıyor mu?
-- **Yer ve zaman:** Arka plan, yer etiketi ve ışık (gündüz/akşam) metinle aynı mı?
-- **Görünürlük:** El, jest, nesne ekran kenarından taşıp kayboluyor mu (Vaka 2: Tolga "Ben mi canım?")?
-- **Nurcan:** Görsel, oyuncunun o ana kadar hak etmediği bir şeyi gösteriyor mu?
-- Teknik: saç kenarı, boy, kesim kalıntısı.
-Bulunanlar sahibine **tek liste** hâlinde, ekran görüntüsüyle verilir; düzeltilebilenleri (yerleşim,
-boy, takma, kesim) önce ben düzeltirim, yeniden üretim gerektirenler için prompt veririm. Sahibi
-Onay 3'e temizlenmiş turla başlar.
+- **Kim var?** (SATIR-20, SATIR-31; turda `arac_yeni_tur.js … --hepsi` → `satir/adi_gecen_yok.txt`)
+- **Kime konuşuyor?** (SATIR-3, SATIR-6, SATIR-31)
+- **Saklanan kişi** (SATIR-22)
+- **Yüz satıra uyuyor mu?** (SATIR-15, SATIR-16)
+- **Anılan şey görünüyor mu?** (SATIR-1)
+- **Süreklilik** (SATIR-7)
+- **Yer ve zaman** (SATIR-32)
+- **Görünürlük** (SATIR-33)
+- **Nurcan** (BILGI-17)
+- Teknik: saç kenarı, boy, kesim kalıntısı (GOMME-7).
+Bulunanlar sahibine tek liste — SUREC-24.
 
-**Toplu görsel işleme (adım 9–10).** Sahibi görselleri tek tek değil, **sohbet sohbet** gönderir
-(bir sohbetin bütün çıktıları). Dosyalar **ChatGPT'nin verdiği adla** kalır; sahibi yalnız hangi
-numaralar olduğunu yazar ("Sohbet 1, G1–G13") ve araç `--sira G1-G13` ile dosya adındaki üretim
-saatine göre numara verir. Pakette her numaradan **bir** görsel olur (beğenilmeyen çıkarılır);
-sayı tutmazsa araç durur.
-Ben o paketin hepsini birden işlerim: `cd kaynak && node arac_paket.js <klasör> --vaka N` önce
-**önizler** (proje dosyasına dokunmaz; temas sayfası `YENI_UI/paket_<klasör>.png`: yeşil zemin +
-büyütülmüş baş), uygunsa aynı komut `--yaz` ile keser/küçültür, gömer, manifestoyu günceller,
-doğrulayıcı ve iki derlemeyi koşar. Araca kalmayan: saç halesi temizliği, yazı/harf taraması,
-boy ayarı (araç boyu olmayan konuğu söyler), ilgili satırlarda ekran görüntüsü (`arac_yeni_tur.js`). Sahibine paketin **oyundaki son
-hâli tek seferde** gösterilir; düzeltme istenen görseller tek listede döner. Temel görseller
-(G1, G14…) bitince öbür sohbetler aynı anda (başka sekmede, ChatGPT ya da Grok) yürüyebilir.
+**Toplu görsel işleme (adım 9–10)** — GOMME-6: `cd kaynak && node arac_paket.js <klasör> --vaka N` (önizler; temas sayfası
+`YENI_UI/paket_<klasör>.png`), sonra aynı komut `--yaz`; `--sira G1-G13`. Ekran görüntüsü `arac_yeni_tur.js`.
 
-**İş sayfası (11 Ekim 2026, sahibinin kararı).** Vaka 2'de görsel aşamasını en çok hızlandıran şey
-iş sayfasıydı (59 görsel, sohbet sırasıyla, kopyala/indir/Yapıldı). Her vakada **aynı biçimde**
-üretilir ve sahibi sohbetleri **sayfadaki sırayla** yürütür; belgelerdeki sohbet bölümlemesi
-sayfayla aynı tutulur (Vaka 2'de "7 = G35–G45" diyen belge sayfayla ayrışmıştı). Ayrıntı:
-`5_gorsel_sistemi.md` D-6.
+**İş sayfası (11 Ekim 2026, sahibinin kararı)** — SUREC-20.
 
-Kapsam dışı bırakılanlar (sahibinin kararı): görsel sayısı azaltılmaz; ifade ızgarası (bir
-istekte birkaç ifade) kullanılmaz, çözünürlük düşüyor; ücretli üretim (API) yok; her vakada
-Peri ve Cengo yeni kıyafet giyer, kıyafet kütüphanesi tutulmaz.
+Kapsam dışı bırakılanlar — SUREC-31.
 
 ## Otomatik denetimler
 
-Geçmeyen vaka bir sonraki adıma geçmez.
+Geçmeyen vaka bir sonraki adıma geçmez — SUREC-10.
 
 **Giriş (K17)**
-- Arka plan büro.
-- En az 15 satır (üst sınır yok; 45'i geçerse uyarı — girişte açıklık kısalıktan önce gelir, kural 5c).
-- Formdaki şüphelinin adı metinde geçiyor.
-- Metindeki ücret formdaki ücretle aynı.
-- Bir ipucunun vereceği bilgi metinde geçmiyor (ipucu olgularının anahtar kelimeleriyle aranır).
+- Arka plan büro (KOD-68).
+- En az 15 satır (KOD-68, TON-10).
+- Formdaki şüphelinin adı metinde geçiyor (KOD-68).
+- Metindeki ücret formdaki ücretle aynı (KOD-68).
+- Bir ipucunun vereceği bilgi metinde geçmiyor (KOD-68).
 
 **Hikâye**
-- 3 şüpheli var; her yanlış şüpheliyi aklayan bir kanıt var.
-- Suçluyu kanıtlayan en az 2 ipucu yolu var.
-- Hiçbir doğru kanıt çifti tek bir ipucundan çıkmıyor (kural 21c).
-- Her ipucu yolunda "Kim yaptı?" ekranı çalışıyor (tam, zayıf ya da yanlış sonuç).
-- Defter cümleleri suçluyu söylemiyor.
-- Hak edilmemiş bilgi sızmıyor (isim, olgu, görsel).
-- İpucu adındaki özel isimler, ipucu açılabilir olduğu anda oyuncunun duyduğu adlar arasında.
+- 3 şüpheli; her yanlış şüpheliyi aklayan kanıt (KOD-73).
+- Suçluyu kanıtlayan en az 2 ipucu yolu (KOD-70).
+- Hiçbir doğru kanıt çifti tek ipucundan çıkmıyor (KOD-70, BILGI-4).
+- Her ipucu yolunda "Kim yaptı?" çalışıyor (KOD-73).
+- Defter cümleleri suçluyu söylemiyor (KOD-74).
+- Hak edilmemiş bilgi sızmıyor (KOD-74).
+- İpucu adındaki özel isimler (KOD-69).
 
 **Karar ve para**
-- En az bir dürüst karar her yolda açık.
-- Kararı sahnedeki biri soruyor; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b). Önizleme ve rakam yok.
-- Her doğru kanıt için Cengo'nun söylenmeyen kanıt satırı var; açılmamış ipucunu anmıyor (kural 22c).
-- Cengo'nun karar ve kanıt satırları **etiketli**: `**CENGO [ifade]:** … {yuz: peri.x}` / `**olgu [ifade]:** … {yuz: peri.x}` —
-  ifade kapanış setinde var olan bir resim (`arac_kapi.js … resim` K2/K8/K6 bunu yakalar).
-- Anı özeti var: diyalogda `## ani` yoksa `arac_diyalog.js` yazmaz, `test_yeni_arayuz.js` de eksiği yakalar. İçeriği (yalnız itirafın söylediği, kural 21d) bulanık replik taramasında okunur.
-- Kasa yok; para yalnız hikâyede, her kararın parası kendi sahnesinde bitiyor (kural 24). Tohum yok.
-- Sigara yok: metinde, sahne notunda, ifade adında, istemde (kural 19a).
-- Metindeki her tutar fiyat tablosunda.
+- En az bir dürüst karar her yolda açık (KOD-67).
+- Kararı sahnedeki biri soruyor; seçenek cümlesi ve sahnede sonuç (KOD-75, YAPI-23, YAPI-24).
+- Her doğru kanıt için Cengo'nun satırı (KOD-75, YAPI-25).
+- Cengo satırları etiketli (KOD-75, KOD-35, SATIR-36): `**CENGO [ifade]:** … {yuz: peri.x}` / `**olgu [ifade]:** … {yuz: peri.x}`
+  (`arac_kapi.js … resim` K2/K8/K6).
+- Anı özeti var (KOD-76, BILGI-7): `## ani`; `test_yeni_arayuz.js`.
+- Kasa yok, tohum yok (KOD-77, YAPI-31).
+- Sigara yok (KOD-78, SINIR-13).
+- Her tutar fiyat tablosunda (KOD-77).
 
 **Görsel**
-- Her satırın ifadesi sözlükte ve görseli var.
-- Hiçbir satırda ekranda aynı figür iki kez yok (Cengo hem solda hem sağda).
-- Önceki vakaya geçiş: vaka bitince sonraki vaka açılıyor (ilk iki vakada elle denenir).
-- Metinde anılan nesne ya da hareket o satırda görünüyor (satır → görsel tablosu).
-- Her görsel gömülü, adı doğru.
+- Her satırın ifadesi sözlükte ve görseli var (KOD-66).
+- Ekranda aynı figür iki kez yok (KOD-79).
+- Vakadan vakaya geçiş (KOD-80).
+- Anılan nesne/hareket o satırda görünüyor (KOD-79).
+- Her görsel gömülü, adı doğru (KOD-16).
 
-**Elle bakılanlar** (makine yapamaz): espri tutuyor mu, çekicilik seviyesi, görsel kalitesi. Girişte: suçlu dolaylı yoldan ele veriliyor mu, çekicilik anı ve espri tutuyor mu, giriş ilk gidilecek yer belli olarak bitiyor mu (Onay 2'de sahibi bakar).
+**Elle bakılanlar** — SUREC-16 (makine yapamaz; Onay 2'de sahibi bakar).
 
 ## Değişiklik kuralı
 
-Bir şey beğenilmezse değişiklik **doğru yerden** başlar:
+Değişiklik doğru yerden başlar — SUREC-28:
 
 | ne değişiyor | nereden başlar | sonra |
 |---|---|---|
 | Bir replik, bir ifade | diyalog | veri → denetim |
 | Bir görsel | görsel | kontrol listesi → yerleştirme |
 | Bir olay, şüpheli, ipucu, karar | **form** (Onay 1'e döner) | diyalog → veri → denetim → etkilenen görseller |
-| Bir kural | **şablon** (sahibinin onayı) | etkilenen vakalar yeniden denetlenir |
+| Bir kural | **`sablon/kurallar/KURALLAR.md`** (sahibinin onayı — SUREC-2) | etkilenen vakalar yeniden denetlenir |
 
-- Veri ya da görsel, formu değiştirmeden hikâyeyi değiştiremez.
-- Sahibinin oyun testi notları önce bu tabloya göre sınıflanır, sonra uygulanır.
+- Veri ya da görsel formu değiştirmeden hikâyeyi değiştiremez (SUREC-28).
+- Oyun testi notları önce bu tabloya göre sınıflanır (SUREC-28).
 
 ## Süre
 

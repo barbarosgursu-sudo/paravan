@@ -2,7 +2,7 @@
 
 Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih: 9 Ekim 2026.
 Önce bunu, sonra sırayla `CLAUDE.md`, `kaynak/DEVIR.md`, `sablon/vakalar/vaka1_gorsel.md`,
-`sablon/5_gorsel_sistemi.md` oku.
+`arsiv/sablon/5_gorsel_sistemi.md` oku.
 
 ---
 
@@ -50,7 +50,7 @@ Bu belge görsel işini yeni bir pencerede eksiksiz sürdürmek içindir. Tarih:
 - **Nurcan kuralı:** görsel, oyuncunun henüz hak etmediği bilgiyi göstermez.
 - **Yazı riski:** yazı taşıyabilecek her nesnenin yüzü kapalı tarif edilir. Görselde harf,
   rakam, logo olmamalı (büyütüp bak).
-- Prompt kalıbı ve bilinen hatalar: `sablon/5_gorsel_sistemi.md` D. Ayrıntılı geçmiş:
+- Prompt kalıbı ve bilinen hatalar: `arsiv/sablon/5_gorsel_sistemi.md` D. Ayrıntılı geçmiş:
   `kaynak/YENI_OYUN_GORSEL_PROMPTLARI.md` (3800+ satır; "YAN KARAKTERLER — VAKA 1" ve
   "KESİM ARACI" başlıkları en yararlıları).
 - Üretici: önce ChatGPT; reddederse ya da tutmazsa Grok.
@@ -94,7 +94,7 @@ Kemal'in kesim profili: `arac_kes.js --profil kemal`; Serkan ve sonraki konuklar
 
 ## 5. Görsel gelince yapılacaklar (sırayla)
 
-1. **Kontrol** (`5_gorsel_sistemi.md` E): kimlik, ölçek ve baş yüksekliği, bakış (kadrajın
+1. **Kontrol** (`arsiv/sablon/5_gorsel_sistemi.md` E): kimlik, ölçek ve baş yüksekliği, bakış (kadrajın
    soluna), el ve parmak sayısı, yazı/harf/logo (büyüt), kıyafet sabitleri, çekicilik,
    hak edilmemiş bilgi, metindeki satırla uyum. Sorun varsa sahibine **kısa** söyle,
    düzeltme promptu ver.

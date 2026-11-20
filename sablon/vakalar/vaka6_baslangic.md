@@ -11,7 +11,7 @@ biliyor") → form `vaka6_form.md`. Örnek form: `vaka5_form.md`.
 ## 1. Konu ve ortağın kararları (12 Kasım 2026)
 
 - **Konu: "İsimsiz Mektuplar" (Üsküdar)**, `vaka6_oneri.md`'deki öneri olduğu gibi seçildi.
-- **İsimler:** ortak Claude'a bıraktı. Sabit karakterlerin ve önceki vakaların isimleri değişmez.
+- **İsimler:** ortak Claude'a bıraktı. İsimler değişmez — KAR-4.
   - **Eylül:** Cengo'nun kızı, 16 yaşında (müşteri; Onay 1'de 17'den düzeltildi).
   - **Gamze:** Eylül'ün annesi, evlenecek kişi.
   - **Haldun Bey:** damat; isimsiz mektuplar ona geliyor.
@@ -23,7 +23,7 @@ biliyor") → form `vaka6_form.md`. Örnek form: `vaka5_form.md`.
 
 ## 2. Süre ölçümü
 
-Vaka 5'teki düzen: saat yalnız ortağın sözüyle durur/başlar; her adıma **ortak** ve **makine** süresi ayrı yazılır.
+Vaka 5'teki düzen — SUREC-30 (**ortak** ve **makine** süresi ayrı).
 
 **Başladı: 12 Kasım 2026, 20:57 (İstanbul)** *(13 Kas düzeltmesi: ilk kayıtlar UTC ile yazılmıştı, hepsi +3 saat düzeltildi; süreler değişmedi)*, ortağın konuyu seçip soruları cevapladığı an.
 

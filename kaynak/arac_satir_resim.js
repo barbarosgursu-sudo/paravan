@@ -9,13 +9,13 @@
 // Çıktı (Markdown):
 //   1. RESİM → SATIRLAR: her figür ifadesi, kare için o resmin ekranda olduğu bütün satırlar.
 //   2. BAYRAKLAR — 13 Kasım 2026'dan beri KURALLA AYIKLANIR (sahibinin kararı: "en az karar bana gelsin";
-//      kurallar `sablon/5_gorsel_sistemi.md` → SR-M). Her bayrak üç sınıftan birine düşer:
+//      kural SATIR-11). Her bayrak üç sınıftan birine düşer:
 //        OTO  — kural kapattı (gerekçesiyle listelenir, kimseye sorulmaz).
 //        İŞ   — kural ne yapılacağını söylüyor; yazar (Claude) diyalogda uygular, araç yeniden koşar.
 //        SOR  — kural karar veremedi; yalnız bunlar sahibine gider.
 //      Türler: EYLEM (anlatıda eylem/nesne, kare yok), JEST (replikte parantez), KONUŞAN (konuşan ekranda değil),
 //      HİTAP (`kime` ekranda değil), DURUŞ (anlatıda duruş/uğraş, figür bunu göstermiyor; 14 Kasım 2026),
-//      İLK GÖRME (figür ekranda ama sahnede adı henüz geçmedi, SR-L; 14 Kasım 2026).
+//      İLK GÖRME (figür ekranda ama sahnede adı henüz geçmedi, SATIR-19; 14 Kasım 2026).
 //   --karar: sahibinin "kalsın" dediği satırlar (dosyada `- kalsın: <satırın başı>`); bir daha sorulmaz.
 const fs = require('fs'), path = require('path');
 const arg = process.argv.slice(2);
@@ -52,7 +52,7 @@ const figurNesneyiTasir = (figurler, metin) => {
 };
 
 const satirlar = new Map(); // anahtar: konuşan+metin → kayıt
-const ilkGorme = new Map(); // SR-L: anahtar → [figür, satır kaydı]
+const ilkGorme = new Map(); // SATIR-19: anahtar → [figür, satır kaydı]
 const figAd = x => x.replace(/^sol:/, '').split('.')[0];
 const ANILMAZ = new Set(['-', '', 'teyze', 'fotografci']);
 for (const d of arg) {
@@ -71,7 +71,7 @@ for (const d of arg) {
     const anahtar = k + '|' + m;
     if (!satirlar.has(anahtar)) satirlar.set(anahtar, { ad, k, kime: kime || '', m, arka, kare, sol, sag, cekik, gorulen: new Set() });
     satirlar.get(anahtar).gorulen.add(`${sol}·${sag}·${kare}`);
-    // SR-L: sahne (vaka bölümü + arka plan) içinde sırayla. Figür adı geçmeden ekrana geldiyse "bekleyen" olur; o konuşur ya
+    // SATIR-19: sahne (vaka bölümü + arka plan) içinde sırayla. Figür adı geçmeden ekrana geldiyse "bekleyen" olur; o konuşur ya
     // da ona hitap edilirse bekleme biter (dedektiflerin mekâna gelişi, tarifle giren konuk: sorun yok). Ama ondan önce bir
     // anlatı cümlesi ONUNLA başlıyorsa ("Cengo kapının önünde duruyor") anlatı onu ekrana sonradan getiriyor demektir:
     // figür erken gösterildi. Kare satırında figürlere bakılmaz (kare kendi resmi).
@@ -128,7 +128,7 @@ for (const [f, s, sonra] of ilkGorme.values()) B('İLK GÖRME', 'İŞ', s, `SR-L
 const say = (sinif, t) => bayrak.filter(b => b[1] === sinif && (!t || b[0] === t)).length;
 let o = `# Satır → resim uyumu${VAKA ? ' — ' + VAKA : ''}\n\nKaynak: ${arg.map(a => path.basename(path.dirname(a)) + '/' + path.basename(a)).join(', ')} · ${satirlar.size} farklı satır.\n` +
   `Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER satıra uymalı. Uymuyorsa ayrı ifade/kare gerekir.\n` +
-  `Bayraklar kuralla ayıklanır (\`sablon/5_gorsel_sistemi.md\` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.\n\n`;
+  `Bayraklar kuralla ayıklanır (\`sablon/kurallar/KURALLAR.md\` → SATIR-11): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.\n\n`;
 o += `**Özet:** OTO ${say('OTO')} · İŞ ${say('İŞ')} · SOR ${say('SOR')}\n\n`;
 for (const sinif of ['SOR', 'İŞ', 'OTO']) {
   const l = bayrak.filter(b => b[1] === sinif); if (!l.length) continue;

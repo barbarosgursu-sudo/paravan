@@ -13,9 +13,9 @@
 - Vaka 6'da Cengo'nun 17 yaşındaki kızı ortaya çıkar; babasını büyük dedektif sanıyor, yardım istemeye gelir.
 - Kız reşit değil, her zaman masum çizilir → şüpheliler ve suçlu yetişkin.
 - Cengo'nun bileğindeki boncuklu bileklik kızının; Vaka 6'ya kadar kimse sormadı.
-- Sezon taslağı (`kaynak/YENI_OYUN_SEZON.md` → Vaka 6): Peri kot + gömlek, at kuyruğu ("mesai dışı" Peri);
+- Sezon taslağı (`arsiv/kaynak/YENI_OYUN_SEZON.md` → Vaka 6): Peri kot + gömlek, at kuyruğu ("mesai dışı" Peri);
   Cengo kızı için ütülü gömlek. Bağ yüksekse Peri bir şey söylemek üzere olur ve söylemez.
-- Tekrar tablosu (`sablon/TASLAK_tekrar_onleme.md` §1): V1–5'te suçlu hep içeriden, neden çoğu para, olay çoğu
+- Tekrar tablosu (`arsiv/sablon/TASLAK_tekrar_onleme.md` §1): V1–5'te suçlu hep içeriden, neden çoğu para, olay çoğu
   çalınma, yanlış iz hep "biri suçluyor", karar hep "gerçeği söyle mi, ört mü".
 
 ## Öneri: "İsimsiz Mektuplar" (Üsküdar)

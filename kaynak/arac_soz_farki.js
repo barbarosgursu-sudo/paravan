@@ -1,4 +1,4 @@
-// ARAÇ (test değil): donmuş diyaloğun SÖZLERİ değişti mi? (13 Kasım 2026, sahibinin kuralı — SR-M:
+// ARAÇ (test değil): donmuş diyaloğun SÖZLERİ değişti mi? (13 Kasım 2026, sahibinin kuralı — SATIR-11:
 // "onayladığımız diyaloglar değişmesin; değişecekse resim üretilsin.")
 // Resim işi yalnız oyuncunun görmediği etiketleri değiştirebilir: [ifade], {kare/gir/gi/kime…}, ⚙ notları, görsel tablosu.
 // Araç iki sürümün etiketsiz metnini satır satır karşılaştırır; fark varsa basar ve 1 ile çıkar.

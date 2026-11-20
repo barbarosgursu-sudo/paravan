@@ -2,7 +2,7 @@
 
 Şablon 6'ya göre. Durum: **ONAYLANDI (Onay 1, 11 Kasım 2026, ortak).** Değişiklik yalnız 7. parçadaki "değişiklik kuralı"na göre.
 
-Kaynak fikir: `kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslak Columbo (Ters) tipindeydi; **Bilmece**'ye çevrildi
+Kaynak fikir: `arsiv/kaynak/YENI_OYUN_SEZON.md` → "VAKA 5 — VAPUR". Taslak Columbo (Ters) tipindeydi; **Bilmece**'ye çevrildi
 (ortağın kararı, 11 Kasım 2026): müşteri antikacı, saati tamircisi alıyor, oyuncu suçluyu bilmiyor. Taslaktan kalanlar:
 Karaköy–Kadıköy vapuru, çaycı, martı besleyen çocuk, iskele görevlisi, "o sırada üst güvertedeydim" yalanı, Peri'yi deniz
 tutması, Cengo'nun simitçiyle pazarlığı, kararın üç ucu (gerçeği söyle / "buldum" de, iki taraftan para / saatin gerçek

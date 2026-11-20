@@ -1,5 +1,5 @@
 // YENİ OYUN — Kim yaptı? ve sonda ödenen ücret (motor_yeni.js).
-// Şablon: sablon/1_oyun_yapisi.md "Kim yaptı? ekranı", "Karar"; kural kitabı 24–25.
+// Kurallar: YAPI-13, YAPI-22 (Kim yaptı?, karar); YAPI-31, YAPI-32.
 // Sabit sayı yazılmaz: beklentiler veriden (kim_yapti, decisions) türetilir.
 const fs = require("fs");
 const path = require("path");

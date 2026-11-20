@@ -14,7 +14,7 @@ Sonradan eklenen: G93 (K40k), G94 (`gizem.tabla`), G95 (A23d, dükkânın dış 
 Sahibi oyunu oynuyor; yeni bulgu gelirse istem `prompts/`'ta düzeltme notuyla, döngü `../dongu.sh 3`.
 
 **Aşama (8 Kasım 2026): ONAY 3 DÜZELTMELERİ.** Sahibi Onay 3'te satır–resim uyumsuzluklarını gösterdi; kurallar
-`sablon/5_gorsel_sistemi.md` C0 (SR-A…K) ve I'ya yazıldı. Kıyafet kartları G101–G111 onaylı. 56 istem hazır
+`arsiv/sablon/5_gorsel_sistemi.md` C0 (SR-A…K) ve I'ya yazıldı. Kıyafet kartları G101–G111 onaylı. 56 istem hazır
 (`onay3_istem.py` → `onay3_liste.tsv`, `LISTE.md` sonu): 32 yenileme (eskiler `eski_onay3/`) + 24 yeni (G69–G92).
 Üretim sırası: temeller (G1, G69, G2, G3) ve bağımsız konuk figürleri → onaylanınca baş kırpıkları
 (`peri_trenckot2_bas`, `peri_acik_bas`, `peri_simit2_bas`, `peri_onluk2_bas`) → ifadeler ve kareler.
@@ -34,12 +34,12 @@ yazıldı (Ferruh suçlanınca alınmış, Gizem konuşurken Peri dinliyor, Kena
 67/67 onaylı ve oyuna gömüldü (`arac_paket.js --yaz`). Saç halesi `kaynak/arac_hale.py` ile temizlendi (Peri 14, Gizem 4 figür).
 Boy (yeni Peri'ye göre, gorseller.json): nadide 0.64 · ferruh 0.64 · kenan 0.66 · gizem 0.60 · sedat 0.60 · ayla 0.66 · rustem 0.63.
 Portreler ve kart afişi yenilendi. Doğrulayıcı (eski + yeni) PASS, iki derleme, 27 test geçti, eski index.html aynı.
-Görselli tur yapıldı (4 yol). Zemin rengi sorusu karara bağlandı: `5_gorsel_sistemi.md` H4 (Vaka 4'ten itibaren).
+Görselli tur yapıldı (4 yol). Zemin rengi sorusu karara bağlandı: `arsiv/sablon/5_gorsel_sistemi.md` H4 (Vaka 4'ten itibaren).
 
 **Araç notu (bu bilgisayar):** `arac_yanyana.js` için `PW=D:/Yazilim/paravan/araclar/node_modules/playwright`,
 `CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe`.
 
-**Sahibinin kararları (6 Kasım):** tarz = eski resimler (`uretim/ISTEM_KALIPLARI.md`); çekicilik ve dekolte = "dünkü ayarlar"
+**Sahibinin kararları (6 Kasım):** tarz = eski resimler (`arsiv/uretim/ISTEM_KALIPLARI.md`); çekicilik ve dekolte = "dünkü ayarlar"
 (§9); Peri ve Cengo'nun saçı dağınık, hale gömmede temizlenir. Hazır referanslar: `referanslar/peri_trenckot_bas.png` (G1),
 `referanslar/peri_simit_bas.png` (G2). Şerit hazır.
 

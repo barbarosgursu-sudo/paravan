@@ -1,7 +1,7 @@
 # AÇILIŞ + VAKA 1 — KAYIP TEKNE (KÂĞIT ÜSTÜ, TASLAK 1)
 
 *4 Ekim 2026. Kod yok, motora veri girilmedi. Bu metin okunup düzeltildikten sonra
-`game_data` biçimine çevrilir. Kurallar: `YENI_OYUN_TON.md`, `YENI_OYUN_SEZON.md`.*
+`game_data` biçimine çevrilir. Kurallar: `arsiv/kaynak/YENI_OYUN_TON.md`, `arsiv/kaynak/YENI_OYUN_SEZON.md`.*
 
 **Okuma anahtarı**
 - `PERİ [sinirli]:` — köşeli parantez o replikteki sprite ifadesi (normal, kas,

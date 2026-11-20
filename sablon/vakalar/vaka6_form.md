@@ -3,13 +3,13 @@
 Şablon 6'ya göre. Durum: **HİKÂYE DONDU (Onay 2, 13 Kasım 2026, ortak)**; Onay 1 (12 Kasım 2026) — iki düzeltmeyle: Cengo baba olduğunda reşitti (Eylül 16'ya
 indi), Gamze ile evlenmişlerdi. Ortağın eki: Eylül Peri'yi kıskanır; Gizem'in rolü büyür, Eylül'le çok iyi anlaşır.
 
-Kaynak: `vaka6_oneri.md` (ortağın seçimi, 12 Kasım 2026) ve `kaynak/YENI_OYUN_SEZON.md` → Vaka 6 (öneri b: Cengo'nun
+Kaynak: `vaka6_oneri.md` (ortağın seçimi, 12 Kasım 2026) ve `arsiv/kaynak/YENI_OYUN_SEZON.md` → Vaka 6 (öneri b: Cengo'nun
 kızı). Sezon taslağından kalanlar: Peri'nin Cengo'yu ilk kez "başkasının gözünden" görmesi (komedi motoru), Peri kot +
 gömlek + at kuyruğu ("mesai dışı"), Cengo kızı için ütülü gömlek, bağ yüksekse Peri bir şey söylemek üzere olur ve
 söylemez.
 🟡 = kanona ekleme (§18, onaylandı). 🟢 = görünüş/kıyafet (onaylandı).
 
-**Önceki vakalardan ayrışma** (`TASLAK_tekrar_onleme.md` §1): olay **tehdit** (V1–5'te çalınma ya da sır), neden
+**Önceki vakalardan ayrışma** (`arsiv/sablon/TASLAK_tekrar_onleme.md` §1): olay **tehdit** (V1–5'te çalınma ya da sır), neden
 **sevgi** (para değil), yanlış izlerden biri **Cengo'nun kendisi**, öbürü gerçekten şüpheli davranan ama **başka bir şey
 saklayan** biri (yeni yanlış iz türü), semt Üsküdar–Kadıköy. Kalan tekrar: suçlu yine müşterinin yakını.
 

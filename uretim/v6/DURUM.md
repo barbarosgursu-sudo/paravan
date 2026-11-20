@@ -92,7 +92,7 @@ Sonra `node arac_kapi.js V6 resim` GEÇTİ demeli; demezse rapor `kaynak/YENI_UI
 `uretim/KURULUM_ORTAK.md`).** G18 (Cengo temeli, 3. deneme) ve G6 (Eylül, kumaş ayarıyla 4. deneme) sahibince ONAYLI. Eylül'ün
 G42–G45'i aynı ayarla yeniden üretildi → `uretilen/`'de, DENETLENMEDİ (araç + göz + sahibine tek sayfa). Sıradaki: G34–G41 (Cengo
 ifadeleri), G47–G60 (konuklar), kareler G61–G85 — hepsi araçtan geçerek; parti sonunda tek sayfa sahibine. Kumaş dersi
-`ISTEM_KALIPLARI.md` §11'de.
+`arsiv/uretim/ISTEM_KALIPLARI.md` §11'de.
 
 **13 Kasım 2026, 19:30 — DURAKLADI (sahibi: ChatGPT 5 saatlik kota %93).** Döngü çalışmıyor. Kaldığımız yer:
 - **Tarz aracı** `kaynak/arac_tarz.py` hazır, sınav GEÇTİ (kaymış 8/8, iyi 42/42), `dongu.sh`'a bağlı; kural `uretim/CLAUDE.md` → Denetim 0.
@@ -105,7 +105,7 @@ ifadeleri), G47–G60 (konuklar), kareler G61–G85 — hepsi araçtan geçerek;
   dokusu bir tık AZ, kumaş pürüzsüz ve yumuşak geçişli; boya dokusu yüzde ve saçta; saç koyu kahve kalsın. Sıra: önce G6 (temel) →
   sahibine çapayla yan yana → onaylanırsa G42–G45 (4 ifade) aynı notla yeniden. Eski onaylılar `red/*_kot.png`'ye taşınır.
 - **Ders:** "görünür fırça darbesi, dokulu boya" vurgusu düz kumaşta kırışık/kâğıt dokusu yapıyor (G18 1. deneme, G86 1. deneme).
-  Kural taslağı: doku yüz/saç/ışıkta, kumaş "pürüzsüz, yumuşak geçişli". `ISTEM_KALIPLARI.md`'ye henüz yazılmadı.
+  Kural taslağı: doku yüz/saç/ışıkta, kumaş "pürüzsüz, yumuşak geçişli". `arsiv/uretim/ISTEM_KALIPLARI.md`'ye henüz yazılmadı.
 - **Araç için not:** figürde tarz puanı gövdeden; düz geniş kumaşta yanlış ŞÜPHELİ verebilir (yüzü katmak denendi, işe yaramadı — 14 Kasım notu).
 - Yeniden başlarken: `cd uretim && KOL=2 DONGU_LOG=<scratchpad> ./dongu.sh 6` (kilit/ içindeki eski G42, G44 kilitleri başlangıçta silinir).
 
@@ -133,7 +133,7 @@ iz), Dilek açık bej (G8; G8z'nin mezurasında rakam), Tahsin **açık bej** (G
 iz). Boy ölçüsü (`arac_yanyana --oran`): Müzeyyen, Jale, Haldun, Recep, Tahsin ~0,65 (oran 1,00); Dilek ~0,59 (0,90) —
 H2 tablosuyla gömmede kesinleşir. Baş kırpıkları: `referanslar/<kim>_bas.png` (6 karakter).
 
-**Bugün çıkan kurallar:** `ISTEM_KALIPLARI.md` §7a (mekân kompozisyonu tekrar etmez; yeni mekân eskilere benzemez, aynı
+**Bugün çıkan kurallar:** `arsiv/uretim/ISTEM_KALIPLARI.md` §7a (mekân kompozisyonu tekrar etmez; yeni mekân eskilere benzemez, aynı
 yer dönüyorsa farklı açı; `istem_kontrol.sh` `Kompozisyon:` arar). `dongu.sh` seçilmeyen zemini üretmez.
 
 **Sıradaki:** sahibinin onayı → Parti 2 (Peri/Cengo temel figürleri karttan; Müzeyyen, Jale, Dilek kıyafet kartları) ve

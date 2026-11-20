@@ -322,7 +322,7 @@ kare(66, "Kapanış: kapıda Gizem ve Cengo; masanın altında Peri", "K53",
   True, "Kapıdakiler masanın altını göremiyor (ön panel kapalı) · TAM üç kişi · Gizem'in tablası")
 
 # =====================================================================================
-# AFİŞ (paylaşım kartı) — sablon/5_gorsel_sistemi.md → G
+# AFİŞ (paylaşım kartı) — GOMME-21…27, BILGI-14…16
 # =====================================================================================
 ekle(67, "Kart afişi: Simit Soygunu", "KART_V3", "kart afişi", K,
   [cikti(10, "mekân: Susam'ın dükkânı"), cikti(1, "Peri"), cikti(4, "Cengo"), dosya("serit_susam_dortlu.jpg", "Susam dörtlüsü: soldan Nadide, Ferruh, Kenan, Gizem"), dosya("L19_peri_yuruyor.jpg", "YALNIZ Peri'nin yürüyüşü")],

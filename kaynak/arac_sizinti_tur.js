@@ -1,4 +1,4 @@
-// ARAÇ: sızıntı taraması (22 Ekim 2026, sahibinin isteği — her vakadan sonra koşulur; şablon 7. parça).
+// ARAÇ: sızıntı taraması (22 Ekim 2026, sahibinin isteği — her vakadan sonra koşulur; SUREC-27).
 // İki iş yapar:
 //  1) Yeni oyunu farklı yollardan oynar (rastgele ipucu alt kümesi, şüpheli, kanıt çifti, karar) ve HER
 //     ekranda (araştırma, ipucu kartı, Kim yaptı?, onay, Dosya çözüldü, karar, sonuç, kaçan ipuçları,

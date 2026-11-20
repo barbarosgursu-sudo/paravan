@@ -15,7 +15,7 @@ const k = (ad, ok, ayrinti) => { console.log((ok ? "✓ " : "✗ BAŞARISIZ ") +
 const var_ = a => M.dosyalar[a] || (M.takma && M.dosyalar[M.takma[a]]) || (M.yer_tutucu || []).includes(a);
 
 console.log("=== Manifesto ↔ kanon.sahne ===");
-// Görselsiz testte (şablon 7. parça adım 5) arka plan ve kare de yer tutucu olabilir; o zaman
+// Görselsiz testte (SUREC-14, KOD-48) arka plan ve kare de yer tutucu olabilir; o zaman
 // ekranda ne göstereceği yazılı olmalı, yoksa gri alan boş kalır.
 const eksikKod = [...S.arkalar, ...S.kareler].filter(a => !M.dosyalar[a] && !(M.yer_tutucu || []).includes(a));
 k("her arka plan ve kare kodunun görseli ya da yer tutucusu var", !eksikKod.length, eksikKod.join(", "));
@@ -100,7 +100,7 @@ console.log("\n=== Paylaş (davet kartı) ===");
     const ipucuArka = new Set((v.clues || []).map(c => c.sahne && c.sahne.arka).filter(Boolean));
     k(`${v.id}: kapak var, gömülü ve ipucu sahnelerinde geçen bir arka plan (gorseller.json → kapak)`,
       !!kod && (!!M.dosyalar[kod] || (M.yer_tutucu || []).includes(kod)) && ipucuArka.has(kod), kod ? `${kod} — ipucu arkaları: ${[...ipucuArka].join(" ")}` : "kapak yok");
-    // Görselsiz aşamada (şablon 7. parça adım 5) kapak yer tutucu olabilir; görsel gelince dosyalar'a geçer.
+    // Görselsiz aşamada (SUREC-14, KOD-48) kapak yer tutucu olabilir; görsel gelince dosyalar'a geçer.
     if (kod && !M.dosyalar[kod] && (M.yer_tutucu || []).includes(kod)) console.log(`  ⚠ ${v.id}: kapak ${kod} henüz yer tutucu (görselsiz aşama)`);
     k(`${v.id}: girişin varsayılan metni var (kartın cümlesi)`,
       !!(v.giris || []).some(g => g.kosul === "varsayilan" && g.metin));

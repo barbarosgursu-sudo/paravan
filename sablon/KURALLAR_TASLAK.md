@@ -18,8 +18,8 @@ için yazılan bağlantı (`.claude/kapi_hook.js`) **açılmamış** — `.claud
 
 **Kısaltmalar (nerede yazılı):** KK = kural kitabı (`sablon/2`), OY = oyun yapısı (`sablon/1`), MS = motor sınırları
 (`sablon/4`), GS = görsel sistemi (`sablon/5`), VF = vaka formu (`sablon/6`), ÜS = üretim süreci (`sablon/7`),
-UC = `uretim/CLAUDE.md`, İK = `uretim/ISTEM_KALIPLARI.md`, KC = kök `CLAUDE.md`, KP = kapı (`kaynak/arac_kapi.js` K1–K13),
-DV = `kaynak/DEVIR.md`, TS = `sablon/TASLAK_tekrar_onleme.md`, GSS = `kaynak/gorsel_stil_sozlesmesi.md`.
+UC = `uretim/CLAUDE.md`, İK = `arsiv/uretim/ISTEM_KALIPLARI.md`, KC = kök `CLAUDE.md`, KP = kapı (`kaynak/arac_kapi.js` K1–K13),
+DV = `kaynak/DEVIR.md`, TS = `arsiv/sablon/TASLAK_tekrar_onleme.md`, GSS = `arsiv/kaynak/gorsel_stil_sozlesmesi.md`.
 
 **Programlar:** Doğ = `dogrulayici.js` (K1–K19) · Kapı = `arac_kapi.js` (yalnız Vaka 6+) · İstem = `istem_kontrol.sh`
 (döngü her istemi bundan geçirir) · Sızıntı = `arac_sizinti_tur.js` · Satır = `arac_satir_resim.js` · Tarz/Yüz/El =
@@ -319,7 +319,7 @@ test_* = test dosyaları.
    duyulan şüpheliler" yazıyor; oyun yapısı "adının geçmesi yetmez" diyor.
 3. **Peri'nin poz kütüphanesi:** 5. parça D-2 "L1 her temel Peri'de yüz referansı" diyor; `uretim/CLAUDE.md` "Peri'nin eski
    referanslarının (L*) hepsi dekolteli, kullanılmaz" diyor; İstem kontrolü L1'i durduruyor.
-4. **Zemin:** `ISTEM_KALIPLARI.md` §6 hâlâ "orta yeşil" ve "yeni temelde iki zeminle deneme" diyor; H4'e göre yeşil yok ve
+4. **Zemin:** `arsiv/uretim/ISTEM_KALIPLARI.md` §6 hâlâ "orta yeşil" ve "yeni temelde iki zeminle deneme" diyor; H4'e göre yeşil yok ve
    iki zemin yalnız gerektiğinde.
 5. **Figür oranı:** 5. parça A tablosu konuk figürünü 1086×1448 (3:4) veriyor; H1 ve oran satırı 4:5 diyor.
 6. **Cengo'nun ifade sayısı:** vaka formu §16 "Cengo: 4 ifade"; 5. parça B "yalnız satırların istediği".
@@ -342,9 +342,9 @@ test_* = test dosyaları.
 
 ## Bu taslağa girmeyen belgeler (ikinci turda bakılabilir)
 
-Kural içerebilir ama bu turda taranmadı: `kaynak/RAF_KARARLARI.md`, `kaynak/YENI_OYUN_TON.md`, `YENI_OYUN_SEZON.md`,
-`YENI_OYUN_CERCEVE.md`, `uretim/v3_eski/BIRIKIM.md`, `kaynak/dogrulayici_sozlesmesi.md`, `veri_format_sozlesmesi.md`,
-`cengo_bag_mekanigi.md`, `sablon/8_shorts.md` (yalnız ana satır alındı), vaka başına kayıtlar (`vakaN_bayrak.md`,
+Kural içerebilir ama bu turda taranmadı: `arsiv/kaynak/RAF_KARARLARI.md`, `arsiv/kaynak/YENI_OYUN_TON.md`, `arsiv/kaynak/YENI_OYUN_SEZON.md`,
+`arsiv/kaynak/YENI_OYUN_CERCEVE.md`, `arsiv/uretim/v3_eski/BIRIKIM.md`, `kaynak/dogrulayici_sozlesmesi.md`, `veri_format_sozlesmesi.md`,
+`arsiv/kaynak/cengo_bag_mekanigi.md`, `sablon/8_shorts.md` (yalnız ana satır alındı), vaka başına kayıtlar (`vakaN_bayrak.md`,
 `vakaN_kapi.md`). `sablon/3_kanon_kaydi.md` kural değil kanon gerçekleri (yalnız ekleme yolu alındı: 88).
 
 ---
@@ -413,7 +413,7 @@ WEB_LISTESI, zemin resmi→133 · onaylıda hata→152 · Denetim 0→145 · 0b�
 testler→173, tur→179 · şerit→124 · yapma→151, 172 · Vaka 3 dersleri→137 (yan karakter benzer→119, saç→131, karikatür→120,
 kart kayması→128).
 
-**`uretim/ISTEM_KALIPLARI.md`:** §1→120 · §2→120, 116, 131 · §3→120 · §4→119, 120 · §5→120, 144 · §6→121, 132 (çelişki 4) ·
+**`arsiv/uretim/ISTEM_KALIPLARI.md`:** §1→120 · §2→120, 116, 131 · §3→120 · §4→119, 120 · §5→120, 144 · §6→121, 132 (çelişki 4) ·
 §7→127 · §7a→127 · portre→139 · §8→124, 27 · §9→125, 116, 26, 34 · §10→126, 94, 95, 99, 100, 101 · §11→128, 129, 145 ·
 §12→130 · "Neden"→138.
 
@@ -434,7 +434,7 @@ K11→110 · K12→109 · K13→93 · commit bağlantısı (`.claude/kapi_hook.j
 **`kaynak/DEVIR.md` (yalnız orada duran kararlar):** rol ayrımı→170 · aynı kare kalır, yer etiketi→111 · yerler sabit→98 ·
 kesinti kalktı→82 · 15c önerisi→119 · V1–V5 yeniden geçirilecek→çelişki 16.
 
-**`sablon/TASLAK_tekrar_onleme.md`:** §5→13 · §6 dönen figür→23 · hayvan sorusu→24 · §7a, 7b, 7c, §8→90 · §12 A→68, B→70, C→68,
+**`arsiv/sablon/TASLAK_tekrar_onleme.md`:** §5→13 · §6 dönen figür→23 · hayvan sorusu→24 · §7a, 7b, 7c, §8→90 · §12 A→68, B→70, C→68,
 G→71 (D, E, F iptal edilmiş).
 
-**`kaynak/gorsel_stil_sozlesmesi.md`:** §7, 7b, 7c→46 · §1–6, 8–10→197.
+**`arsiv/kaynak/gorsel_stil_sozlesmesi.md`:** §7, 7b, 7c→46 · §1–6, 8–10→197.

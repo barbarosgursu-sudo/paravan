@@ -12,51 +12,49 @@ Vaka 4 yalnız sahibinin Claude hesabıyla yürür (ikinci kişi/hesap yok). Bit
 2. **bu dosya**
 3. `kaynak/DEVIR.md` en üst bölüm
 4. `sablon/` — 7 parça, sırayla (özellikle `7_uretim_sureci.md`: adımlar, hızlandırma kuralları, bulanık replik taraması,
-   sızıntı taraması; `5_gorsel_sistemi.md` C0 SR-A…L, H, I)
+   sızıntı taraması; `arsiv/sablon/5_gorsel_sistemi.md` C0 SR-A…L, H, I)
 5. Örnek: `sablon/vakalar/vaka3_form.md`, `vaka3_diyalog.md`, `vaka3_gorsel.md`, `vaka3_baslangic.md` §1 (Vaka 3'te yeni olanlar)
-6. Resim aşamasında: `uretim/CLAUDE.md`, `uretim/ISTEM_KALIPLARI.md`
+6. Resim aşamasında: `uretim/CLAUDE.md`, `arsiv/uretim/ISTEM_KALIPLARI.md`
 
 ## 1. Konu (taslak — Onay 1'de sahibiyle kesinleşir)
 
-Kaynak: `kaynak/YENI_OYUN_SEZON.md` → **"VAKA 4 — FALCI"** (Cihangir'de kahve falcısı, şantaj suçlaması, kafenin garsonu;
+Kaynak: `arsiv/kaynak/YENI_OYUN_SEZON.md` → **"VAKA 4 — FALCI"** (Cihangir'de kahve falcısı, şantaj suçlaması, kafenin garsonu;
 komedi motoru, dördüncü duvar, kararın düğümü, kıyafetler orada). Taslakta "Mavi Ay tipi" yazıyor = Vaka 1–2 gibi **Bilmece**
-(`1_oyun_yapisi.md`; Ters tip ertelendi). Taslaktaki her ayrıntı forma girmeden önce sahibine sorulur; taslakta olmayan
+(`arsiv/sablon/1_oyun_yapisi.md`; Ters tip ertelendi). Taslaktaki her ayrıntı forma girmeden önce sahibine sorulur; taslakta olmayan
 bir şey eklemek kanona eklemektir (önce söyle, onay al).
 
 ## 2. Bu vakada geçerli olan (Vaka 3'ten gelen, şablonda yazılı)
 
-- Adım 3'te diyalog satır–resim sözleşmesiyle yazılır: `kime`/`gir`, ifade satırın duygusundan, sahne başına `⚙ akış:` notu,
-  sahne notu yalnız o an görüleni söyler (SR-A…L, kural 4a).
-- Anlaşılır replik (kural 5), yüzleşmede somut panik sebebi, saatte "kala" yok (5b), Kim yaptı? kısa kanıt adları (`## kanit`),
-  anı özeti (`## ani`, kural 21d), masum/karar metni yalnız her yolda oynayan sahneleri anar.
-- Adım 8: kıyafet hâli tablosu, ifade/nesne ayrımı, `arac_satir_resim.js` bayrakları kapalı, **kıyafet kartları** önce
-  sahibine (taslakta Peri kaşe palto, Cengo deri ceket → yeni kartlar; yüz için Vaka 3'teki baş kırpıkları kullanılır).
-  Yalnız satırların istediği ifade üretilir. Zemin saçtan da uzak (Vaka 4'ten itibaren, `5_gorsel_sistemi.md` H4).
-- Resimler Codex + yerel Claude düzeniyle (`uretim/CLAUDE.md`): `istemleri hazırla 4` → `vaka 4 resimlerini üret`.
-- Bitişte: sızıntı taraması, bütün yollar `--hepsi`, tablet, 19 boy, kart afişi, masa kartı, künye portreleri.
+- Adım 3'te diyalog satır–resim sözleşmesiyle yazılır — SATIR-2, SATIR-19; sahne notu — TON-8 (`kime`/`gir`, sahne başına
+  `⚙ akış:` notu).
+- Anlaşılır replik — TON-9; yüzleşmede somut panik sebebi — YAPI-17; saatte "kala" yok — TON-12; Kim yaptı? kısa kanıt adları
+  (`## kanit`) — KOD-89; anı özeti (`## ani`) — BILGI-7; masum/karar metni — KOD-90.
+- Adım 8: kıyafet hâli tablosu — SATIR-7; ifade/nesne ayrımı — SATIR-9; bayraklar kapalı — SATIR-10; kıyafet kartları önce
+  sahibine — ISTEM-17 (taslakta Peri kaşe palto, Cengo deri ceket → yeni kartlar; yüz için Vaka 3'teki baş kırpıkları);
+  yalnız satırların istediği ifade — SATIR-35; zemin — ISTEM-7, GOMME-16.
+- Resim üretim döngüsü — SUREC-32 (`uretim/CLAUDE.md`): `istemleri hazırla 4` → `vaka 4 resimlerini üret`.
+- Bitişte — SUREC-26: sızıntı taraması, bütün yollar `--hepsi`, tablet, 19 boy, kart afişi, masa kartı, künye portreleri.
 
 ## 3. Bu vakada yeni olan
 
-- **Ölçüm genişledi** (§4): sahibinin süresi ile makine süresi ayrı; resim aşamasında sayımlar.
+- **Ölçüm genişledi** (§4) — SUREC-30.
 - **Codex 2 kolla denenir** (resim aşaması). Amaç: hesabın aynı anda kaç resim isteğini kabul ettiğini, hız sınırı olup
   olmadığını görmek; Vaka 1–2 paralel üretiminin kol sayısı buna göre seçilir. **Ön koşul:** `uretim/dongu.sh`'ye kol desteği
   (aynı resmi iki kolun almaması için kilit, kol başına ayrı log ve kayıt dosyası) ve `AGENTS.md` kayıt kuralı. Henüz
   YAZILMADI — resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır. Sahibi ayrıca kendi bilgisayarında
   `git pull` yapar, Codex'in güncel ve girişli olduğuna bakar, açık kalmış eski döngü olmadığından emin olur.
-- **Çeviri (cevaplandı, 10 Kasım 2026):** `RAF_KARARLARI.md` §11c Vaka 4'ü çeviri dahil ölçmeyi söylüyordu; sahibinin
+- **Çeviri (cevaplandı, 10 Kasım 2026):** `arsiv/kaynak/RAF_KARARLARI.md` §11c Vaka 4'ü çeviri dahil ölçmeyi söylüyordu; sahibinin
   kararı: Vaka 4'ün İngilizcesi **sonra**, İngilizce aşamasında yapılır. Bu ölçüm Türkçe metin + resimle sınırlı.
 
 ## 4. Süre ölçümü
 
-**Başladı: 10 Kasım 2026, 12:49 (İstanbul).** Başlangıç = sahibinin "Vaka 4'e başla" dediği an. Saat yalnız sahibinin sözüyle işler ya da durur ("zamanı durdur" /
-"tekrar başlat"); aralar ara tablosuna yazılır, aktif süre = toplam − aralar (Vaka 3 §2 ile aynı). **Bu kez saat sonuna kadar
-işletilir.** Her adımın satırına iki süre yazılır:
-- **sahibi:** sahibinin bilfiil çalıştığı süre (onaylar, oynama, web'de resim üretimi, okuma),
-- **makine:** sahibi beklemeden Claude/Codex'in çalıştığı süre (yazım, turlar, Codex üretimi, denetim).
-Kesin ayrılamayan yerde tahmin yazılır ve "~" konur.
+**Başladı: 10 Kasım 2026, 12:49 (İstanbul).** Süre ölçümü — SUREC-30 (Vaka 3 §2 ile aynı; bu kez saat sonuna kadar
+işletilir). Her adımın satırına iki süre yazılır:
+- **sahibi:** sahibinin bilfiil süresi (SUREC-30),
+- **makine:** Claude/Codex'in süresi (SUREC-30).
+Tahmin "~" ile (SUREC-30).
 
-Resim aşamasında ayrıca: resim sayısı (liste), Codex çağrısı, ret, filtre engeli, web'de üretilen; resim başına ortalama
-Codex süresi (1 kol ve 2 kol ayrı, bekleme dahil). Kaynak: `uretim/v4/uretim_kaydi.md` + döngü logu.
+Resim aşamasındaki sayımlar — SUREC-30. Kaynak: `uretim/v4/uretim_kaydi.md` + döngü logu.
 
 | ara | durdu | başladı | süre |
 |---|---|---|---|

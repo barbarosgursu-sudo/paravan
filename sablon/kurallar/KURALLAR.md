@@ -31,7 +31,7 @@ Birleşip başka kurala yönlenen: 23
 
 #### TON-1 Oyunun özü Peri ile Cengo
 Vaka bahanedir, atışma asıl yemektir. Oyuncunun geri gelme sebebi gizem değil, bu ikisidir. Oyunun tek cümlesi: "Batmış bir eski güzellik kraliçesiyle beş parasız bir sokak çocuğu, sahte bir dedektiflik bürosunu ayakta tutmaya çalışırken birbirlerini çıldırtıyorlar — ve vakaları, birbirlerine rağmen çözüyorlar." Vakalar arası süreklilik olay örgüsünden değil, Peri–Cengo ilişkisinden ve ajansın para derdinden gelir.
-(Tek cümle ve süreklilik satırı `YENI_OYUN_TON.md` taslağından; o belgede §9–11 dışı öneridir.)
+(Tek cümle ve süreklilik satırı `arsiv/kaynak/YENI_OYUN_TON.md` taslağından; o belgede §9–11 dışı öneridir.)
 *Kaynak:* 172, 1714, 1715, 1720
 
 #### TON-2 Gizem gerçektir
@@ -40,22 +40,22 @@ Oyuncuyu kandıran, hile yapan gizem yok. Hile yapan bir gizem komediyi de öld�
 
 #### TON-3 Hafif ama bedelli
 Bedel utanç, para, gurur ya da bir fırsattır; ölüm ya da hapis değil (kural kitabı 3).
-Taslaktan ekler (`YENI_OYUN_TON.md` §1 ve `YENI_OYUN_SEZON.md` §0 taslağı; öneri, sahibi onaylamadan kanon değil): bedel listesinde ayrıca "bir dostluk" ve "kiranın yarısı"; eski oyundaki "yıkım" da yok. Komedi bedeli silmez: kararlar hâlâ bir şeye mal olur. Hafif ≠ önemsiz. Sezon komedidir; acı, tehlike, aşağılanma yok.
+Taslaktan ekler (`arsiv/kaynak/YENI_OYUN_TON.md` §1 ve `arsiv/kaynak/YENI_OYUN_SEZON.md` §0 taslağı; öneri, sahibi onaylamadan kanon değil): bedel listesinde ayrıca "bir dostluk" ve "kiranın yarısı"; eski oyundaki "yıkım" da yok. Komedi bedeli silmez: kararlar hâlâ bir şeye mal olur. Hafif ≠ önemsiz. Sezon komedidir; acı, tehlike, aşağılanma yok.
 *Kaynak:* 174, 1722, 1725, 1866
 
 #### TON-4 Hava ve mizah
 Hava sıcak, hızlı, şehirlidir (eski oyunun kasveti, yası, borç batağı değil). Mizah taşıyıcı kolondur. Peri gururunu korumaya çalışır ("Planlamıştım.").
-(`YENI_OYUN_TON.md` §1 tablosu ve `YENI_OYUN_SEZON.md` §0 taslağı; öneri, sahibi onaylamadan kanon değil.)
+(`arsiv/kaynak/YENI_OYUN_TON.md` §1 tablosu ve `arsiv/kaynak/YENI_OYUN_SEZON.md` §0 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1718, 1723, 1866
 
 #### TON-5 Her vaka kendi içinde kapanır
 Vakalar birbirine zincirli tek büyük cinayet değil; her biri kendi içinde kapanan hafif vakalardır.
-(`YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
+(`arsiv/kaynak/YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1719
 
 #### TON-6 Cengo her sahnede konuşur
 Eski oyunda Cengo çoğu kararda susuyordu (40 kararın 23'ünde); yeni oyunda her sahnede ağzı açıktır.
-(`YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
+(`arsiv/kaynak/YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1721
 
 #### TON-7 Anlatıcı yok
@@ -131,7 +131,7 @@ Espri açıklanmaz ama kurulumu görünür olur (sahibinin kararı, 17 Ekim 2026
 
 #### TON-21 Görsel ton: gün ışığı ve kalabalık
 Gece ve yağmur değil, gün ışığı ve kalabalık: İstanbul'un gürültülü, renkli, pazarlıklı yüzü. Ayrıntısı yeni görsel stil sözleşmesinde.
-(`YENI_OYUN_TON.md` §8 taslağı; öneri, sahibi onaylamadan kanon değil.)
+(`arsiv/kaynak/YENI_OYUN_TON.md` §8 taslağı; öneri, sahibi onaylamadan kanon değil.)
 *Kaynak:* 1801
 
 #### TON-22 Paravan'ın yasal durumu tekrarlanan espridir
@@ -148,7 +148,7 @@ Sahibinin kararı, 5 Ekim 2026. Paravan, kanunda var sayılmayan bir mesleği ya
 - Yol: **öneri (nereye ne ekleneceğini söyle) → sahibinin onayı → kanon kaydına (`sablon/3_kanon_kaydi.md`) yazılır → vakada kullanılır.** Bu sıra atlanmaz. (Bir kez işledi: V5 kanıtı; şekli sahibi seçti.)
 - Resim istemi hazırlarken de hikâyede olmayan ayrıntı eklenmez; gerekirse sahibine sorulur (`uretim/CLAUDE.md`, `istemleri hazırla <N>` adım 6).
 - Vaka formu (18. Kanon) sorar: "Sezon kanonuna eklenecek bir şey var mı?" (varsa sahibinin onayı gerekir); form onaya gitmeden kontrol: "[ ] Yeni kanon varsa onaylandı".
-- *Ders:* [V4 başlangıç › 1. Konu (taslak — Onay 1'de sahibiyle kesinleşir)] Kaynak: `kaynak/YENI_OYUN_SEZON.md` → **"VAKA 4 — FALCI"** (Cihangir'de kahve falcısı, şantaj suçlaması, kafenin garsonu; komedi motoru, dördüncü duvar, kararın düğümü, kıyafetler orada). Taslakta "Mavi Ay tipi" yazıyor = Vaka 1–2 gibi **Bilmece** (`1_oyun_yapisi.md`; Ters tip ertelendi). Taslaktaki her ayrıntı forma girmeden önce sahibine sorulur; taslakta olmayan bir şey eklemek kanona eklemektir (önce söyle, onay al). (k:48cfdb87fc)
+- *Ders:* [V4 başlangıç › 1. Konu (taslak — Onay 1'de sahibiyle kesinleşir)] Kaynak: `arsiv/kaynak/YENI_OYUN_SEZON.md` → **"VAKA 4 — FALCI"** (Cihangir'de kahve falcısı, şantaj suçlaması, kafenin garsonu; komedi motoru, dördüncü duvar, kararın düğümü, kıyafetler orada). Taslakta "Mavi Ay tipi" yazıyor = Vaka 1–2 gibi **Bilmece** (`arsiv/sablon/1_oyun_yapisi.md`; Ters tip ertelendi). Taslaktaki her ayrıntı forma girmeden önce sahibine sorulur; taslakta olmayan bir şey eklemek kanona eklemektir (önce söyle, onay al). (k:48cfdb87fc)
 *Kaynak:* 8, 237, 1070, 653, 670, 2554, 3196
 
 #### KAR-2 Kanon kaydı: tek liste, iki katman
@@ -225,7 +225,7 @@ Bazı ipuçlarını Peri'nin yolu (kural, kibarlık), bazılarını Cengo'nun yo
 - *Ders:* [TASLAK_tekrar_onleme › 10a. Sonraki sezonlar sıkıcılaşır mı?] Uzun dizileri ayakta tutan üç şey: (1) formül gizli kalır, (2) her sezon bir yenilik (dünya, oyun biçimi, iplik), (3) karakterler değişir — "kavuşmazlar" kuralı 8–10 sezon aynı noktada donarsa o da tekrara döner (ayrıca konuşulmalı). (k:b164ae9f21)
 - *Bilgi:* [YENI_OYUN_TON › 5. ÖRNEK ATIŞMALAR] **Elektrik** *(bağ yüksekken, tehlikeli bir anın hemen sonrası)* (k:613d957996)
 - *Bilgi:* [YENI_OYUN_TON › 5. ÖRNEK ATIŞMALAR] **CENGO:** Elin titriyor. / **PERİ:** Soğuktan. / **CENGO:** Temmuzdayız. / **PERİ:** İçim üşüyor, Cengo. O da mı yasak? / *Cengo ceketini uzatır. Peri almaz. Cengo ceketi sandalyeye bırakıp çıkar. / Kapı kapanınca Peri ceketi giyer.* (k:74df6f9330)
-- *Ders:* [YENI_OYUN_TON › İlişki nasıl oynanır (sahibinin kararı, 5 Ekim 2026)] **Eski oyunun teşhisi:** ilişki ölçülüyordu ama oynanmıyordu. Bağ 31 kararda değişiyordu; 40 kararın 23'ünde Cengo konuşmuyordu; bağa göre değişen metin sonradan ve yalnız 17 kararda eklendi. "Söze dökülmez" ilkesi yanlış uygulanıp ikili karelerde ikisini birbirine küs gösterdi (`gorsel_promptlari_2.md` PAKET 7). (k:310cc4a155)
+- *Ders:* [YENI_OYUN_TON › İlişki nasıl oynanır (sahibinin kararı, 5 Ekim 2026)] **Eski oyunun teşhisi:** ilişki ölçülüyordu ama oynanmıyordu. Bağ 31 kararda değişiyordu; 40 kararın 23'ünde Cengo konuşmuyordu; bağa göre değişen metin sonradan ve yalnız 17 kararda eklendi. "Söze dökülmez" ilkesi yanlış uygulanıp ikili karelerde ikisini birbirine küs gösterdi (`arsiv/kaynak/gorsel_promptlari_2.md` PAKET 7). (k:310cc4a155)
 - *Ders:* [YENI_OYUN_CERCEVE › Ve bir uyarı: Mavi Ay laneti] Dizide 3. sezonda ikili kavuşunca dizi öldü — reyting 9. sıradan 49'a düştü. "İki başrolü kavuşturma" kuralının adı o diziden geliyor. (k:12cd404548)
 - *Ders:* [YENI_OYUN_CERCEVE › Ve bir uyarı: Mavi Ay laneti] `cengoBag` tam olarak bir "kavuşacaklar mı" sayacı. Eski sözleşmedeki şu satır farkında olmadan buna karşı yazılmış bir sigorta: (k:32350119ea)
 *Kaynak:* 185, 1770, 1778, 1786, 1789, 1852, 2203
@@ -290,7 +290,7 @@ Bağ küçük adımlarla (±1/±2) değişir — yavaş, inandırıcı birikim. 
 
 #### KAR-22 Her vakada yeni kıyafet
 Peri ve Cengo her vakada yeni kıyafet giyer; kıyafeti, takısı, aksesuarı vakaya göre değişir (sahibinin isteği); bu yüzden kıyafet kütüphanesi tutulmaz. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (kural 15a); çekicilik anı burada olur. Peri'nin saçı da değişir. Cengo'da sabit kalan yalnız yüz, saç, tel ve bileklik; ceket dahil kıyafet değişir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17); **Cengo'nun saçı değişmez** (sahibinin kararı, 19 Kasım 2026).
-Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `kaynak/YENI_OYUN_SEZON.md` §9).
+Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `arsiv/kaynak/YENI_OYUN_SEZON.md` §9).
 - *Ders:* [V7 başlangıç › 2. Süre ölçümü] 3 Diyalog · 15 Kas 12:07 · 15 Kas 12:16 · ~1 dk (renk sorusu) · ~8 dk · `vaka7_diyalog.md` (252 satır); `arac_diyalog.js` ayrıştırması geçti (scratchpad'de V7 taslağıyla; gerçek veri adım 4'te). Elbise zümrüt → gece mavisi (V5 tekrarı; ortak onayladı; form + kanon düzeltildi) (k:1c22a8bb57)
 *Kaynak:* 193, 102, 1857, 3084, 1971
 
@@ -305,7 +305,7 @@ Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `kaynak/
 - Recep (V6): tombul, kısa kıvırcık kır saç, bıyık/sakal yok, koyu yeşil yün yelek.
 - Dilek (V6): kısa kâküllü siyah saç, hardal kazak + açık pembe önlük, beyaz mezura, ağzında iğneler.
 - Tahsin (V6): ince uzun, gür dalgalı beyaz saç, temiz traşlı, kalın gözlük, mürekkepli önlük.
-Yeni vakada yeni karakter bu tabloya (`uretim/CLAUDE.md`) sahibinin onayıyla eklenir. (Vaka 3 birikimi de sonraki vakaya Cengo, Ferruh, Gizem sabitlerini aynı biçimde devretti.)
+Yeni vakada yeni karakter bu tabloya (bu kural) sahibinin onayıyla eklenir. (Vaka 3 birikimi de sonraki vakaya Cengo, Ferruh, Gizem sabitlerini aynı biçimde devretti.)
 *Kaynak:* 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049, 1050, 1051, 1052, 1497, 1498, 1499
 
 #### KAR-24 Cengo'nun görünüşü
@@ -333,7 +333,7 @@ Peri'nin geçmişi (dolandırıcı avukat, haczedilen taç) sabit sezon hikâyes
 - 3: Yan karakter gelir.
 - 6: Cengo'nun kızı ortaya çıkar.
 - 7: Taç müzayedede.
-- 8: Avukat döner. Avukatın Cengo'yu nereden tanıdığı açılır.
+- 8: Avukat döner. Avukatın Cengo'yu nereden tanıdığı açılır. (Kapandı, 19 Kasım 2026: Nihat Kora Cengo'yu tanımaz, kimliğini otoparktan aldılar — kanon kaydı.)
 *Kaynak:* 162, 263, 265, 266, 267, 269, 270, 271
 
 #### KAR-27 Peri (kanon)
@@ -504,7 +504,7 @@ Ortağın isteği, sahibinin (Barbaros) onayı, 16 Kasım 2026; bütün seri.
 #### BILGI-1 Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz
 Projenin çekirdeği; korunacak sözleşmelerden biridir. Oyuncu henüz hak etmediği bir bilgiyi hiçbir yerden almaz: metin, görsel, defter, ipucu adı, Cengo'nun esprisi.
 - Şakaya da uyar: Cengo'nun esprisi, oyuncunun henüz hak etmediği bir ipucunu "yanlışlıkla" söyleyemez. Komik yan karakterlerin en kolay düştüğü tuzak budur.
-- Metin tarafını doğrulayıcı K1/K10/K11 ve `test_sizinti.js` kollar; görsel tarafı `kaynak/gorsel_stil_sozlesmesi.md` §7. Künye portresi de katmanlıdır (`kisiler.json` → `portre_katman`).
+- Metin tarafını doğrulayıcı K1/K10/K11 ve `test_sizinti.js` kollar; görsel tarafı `arsiv/kaynak/gorsel_stil_sozlesmesi.md` §7. Künye portresi de katmanlıdır (`kisiler.json` → `portre_katman`).
 - *Ders:* [V6 başlangıç › 2. Süre ölçümü] 3–4 Diyalog + veri + künye · 12 Kas 21:28 · 12 Kas 21:41 · 0 · ~13 dk · diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 (k:59f1f482bc)
 *Kaynak:* 31, 199, 1799, 2045
 
@@ -530,7 +530,7 @@ Sahibinin görselsiz testi, 8 Ekim 2026. Suçlunun adı, ona özgü bir eşya ya
 *Kaynak:* 201, 295, 604, 659
 
 #### BILGI-7 Anı özeti yalnız herkesin duyduğunu yazar (kural 21d)
-Sahibinin isteği, 17 Ekim 2026. Anı defterinde (Anı sekmesinde) her biten vakanın üstünde (Peri'nin notunun üstünde) 2–3 cümlelik hatırlatma — anı özeti — durur: müşteri ve kayıp, kim almıştı, neden. Bütün kararlarda aynıdır. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği girer; bir ipucunda kalmış ayrıntı ya da karara göre değişen hiçbir şey (sonuç dahil) girmez (kural 21d, `2_kural_kitabi.md`). Formda §12'nin altına yazılır; diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider. Bölüm zorunlu: yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`. (Vaka 3 başlangıç notunda istendi: `vaka3_baslangic.md` §1; örnek Vaka 2'de.) Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, kural 24). Vaka formu onaya gitmeden "Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor" kontrolü işaretlenir.
+Sahibinin isteği, 17 Ekim 2026. Anı defterinde (Anı sekmesinde) her biten vakanın üstünde (Peri'nin notunun üstünde) 2–3 cümlelik hatırlatma — anı özeti — durur: müşteri ve kayıp, kim almıştı, neden. Bütün kararlarda aynıdır. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği girer; bir ipucunda kalmış ayrıntı ya da karara göre değişen hiçbir şey (sonuç dahil) girmez (kural 21d, `arsiv/sablon/2_kural_kitabi.md`). Formda §12'nin altına yazılır; diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider. Bölüm zorunlu: yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`. (Vaka 3 başlangıç notunda istendi: `vaka3_baslangic.md` §1; örnek Vaka 2'de.) Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, kural 24). Vaka formu onaya gitmeden "Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor" kontrolü işaretlenir.
 *Kaynak:* 203, 634, 669, 2577, 3007
 
 #### BILGI-8 Künye de Nurcan yüzeyidir
@@ -639,7 +639,7 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) vaka değildir, vaka form
 - Bedava ipucu yok: her ipucu bir hak harcar. İpucu sayısı haktan fazladır.
 - Vaka 1: 5 ipucu, 4 hak. Vaka 2: 6 ipucu, 3 hak. Vaka 2'den itibaren 3 hak.
 - **3 hakla `doğru` yolu şart** (`test_yeni_v2.js` sınar); 4. ipucu resmi genişletir.
-- Reklamla +1 hak (16 Ekim 2026, sahibinin kararı; Android'de): reklam düğmesi hak bitince çıkar; kapanıştan sonra "Kaçırdığın ipuçları". Ayrıntı `kaynak/YENI_OYUN_CERCEVE.md`.
+- Reklamla +1 hak (16 Ekim 2026, sahibinin kararı; Android'de): reklam düğmesi hak bitince çıkar; kapanıştan sonra "Kaçırdığın ipuçları". Ayrıntı `arsiv/kaynak/YENI_OYUN_CERCEVE.md`.
 - Motor araştırmada ipucu listesi, hak sayısı, ipucu sahnesi ve "deftere düştü" kartı gösterir.
 - Formda her ipucunun kısa sahne özeti ayrıca yazılır.
 *Kaynak:* 85, 118, 119, 120, 294, 571, 599, 600, 2575
@@ -717,7 +717,7 @@ Her vaka 4 kısa yüzleşme sahnesi yazar (her biri 4–6 replik); hepsinde ger�
 *Kaynak:* 87, 140, 141, 142, 143, 144
 
 #### YAPI-17 Panik ve kaçışın somut sebebi
-Sahibinin kararı, 17 Ekim 2026; Vaka 4'te de geçerli. Yüzleşmede suçlunun paniği somut bir sebebe bağlanır. Suçlu "Bir his", "His mi?", "Neredeydin?", "Fırına bakayım" gibi zayıf / cevabı kolay bir sözle kaçmaz. Kaçışı bir tetikleyici başlatır: ya kanıt yalanını çürütür (doğru kanıt), ya da **sakladığı şey tehlikeye girer** (biri, farkında olmadan, onun sakladığı yeri arayacağını söyler). Oyuncu kovalamacada "ha, bu yüzden kaçtı" diyebilmeli. Örnek, Vaka 3: Nadide "Yarın eksper dükkânı arayacak, depodaki un çuvallarına kadar" der; para o çuvaldadır, Ferruh depoya koşar. Üretimde her yüzleşme "Neden kaçıyor?" diye denetlenir; Vaka 3'te üç yüzleşme bu yüzden yeniden yazıldı. Ayrıntı `sablon/1_oyun_yapisi.md` → Yüzleşme sahneleri.
+Sahibinin kararı, 17 Ekim 2026; Vaka 4'te de geçerli. Yüzleşmede suçlunun paniği somut bir sebebe bağlanır. Suçlu "Bir his", "His mi?", "Neredeydin?", "Fırına bakayım" gibi zayıf / cevabı kolay bir sözle kaçmaz. Kaçışı bir tetikleyici başlatır: ya kanıt yalanını çürütür (doğru kanıt), ya da **sakladığı şey tehlikeye girer** (biri, farkında olmadan, onun sakladığı yeri arayacağını söyler). Oyuncu kovalamacada "ha, bu yüzden kaçtı" diyebilmeli. Örnek, Vaka 3: Nadide "Yarın eksper dükkânı arayacak, depodaki un çuvallarına kadar" der; para o çuvaldadır, Ferruh depoya koşar. Üretimde her yüzleşme "Neden kaçıyor?" diye denetlenir; Vaka 3'te üç yüzleşme bu yüzden yeniden yazıldı. Ayrıntı `arsiv/sablon/1_oyun_yapisi.md` → Yüzleşme sahneleri.
 *Kaynak:* 145, 710, 5, 2629
 
 #### YAPI-18 Yüzleşmenin yeri
@@ -870,7 +870,7 @@ Komedi "not vermez" kuralını yeni bir yerden deler: Cengo'nun esprisi gizli bi
 *Kaynak:* 1698, 1703
 
 #### YAPI-42 Sezon sonu tablosu: puan değil, sezonun dosyası
-9 Kasım 2026 raf kararı (`final_tablo_plani.md`'deki "ne kadar ahlaki/kirli" isteğinin yerine; ruh hâli sınıflaması oyuncuya asla kelime olarak gösterilmez, oyun not vermez).
+9 Kasım 2026 raf kararı (`arsiv/kaynak/final_tablo_plani.md`'deki "ne kadar ahlaki/kirli" isteğinin yerine; ruh hâli sınıflaması oyuncuya asla kelime olarak gösterilmez, oyun not vermez).
 - Puan/grafik değil: her vaka bir satır, kalıp **eylem → sonuç → bedel** (örn. "Vaka 2 · Kayıp Gelinlik — Defne'yi suçladın. Parayı ona bıraktın. Düğün yapıldı."). Defter → Anı'dan türetilebilir. Yargı yok.
 - Altında **Peri'nin sezon notu**, 3–4 değişkenle. Değişkenler yargı değil sezonun sonucunu anlatır (Peri kimlerle bağ kurdu, kimlerle bozuştu). Yazar işi.
 - Kasa geçmez: eski örnekteki "kasaya bir şey girmedi" ve "kasa dolu/boş" değişkeni kalktı — kasa yok (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 35).
@@ -882,7 +882,7 @@ Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır: *
 
 #### YAPI-44 Tohum yok
 Bir vakadaki karar başka bir vakanın metnini, kişilerini ya da olaylarını değiştirmez. Vaka 1'in tohumları silindi; doğrulayıcı K19 tohumu hata sayar.
-- *Bilgi:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] Sonraki vakalar: hiç etkilenmez — **bilerek**: `1_oyun_yapisi.md` "Tohum yok", doğrulayıcı K19 tohumu hata sayar. "Eski karar ipucu olarak döner" kararı bu kuralı değiştirir. (k:95d5e2a2b6)
+- *Bilgi:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] Sonraki vakalar: hiç etkilenmez — **bilerek**: `arsiv/sablon/1_oyun_yapisi.md` "Tohum yok", doğrulayıcı K19 tohumu hata sayar. "Eski karar ipucu olarak döner" kararı bu kuralı değiştirir. (k:95d5e2a2b6)
 *Kaynak:* 163, 219
 
 #### YAPI-45 Dallanma yok
@@ -890,7 +890,7 @@ Dallanma YOK (Chapters dallanır, biz dallanmayız): kararlar birleşir; değiş
 *Kaynak:* 1724, 2044, 2049
 
 #### YAPI-46 Karar uyarısı (K8)
-Taslak (`TASLAK_tekrar_onleme.md`, 12 Kasım 2026; kasa kalkmadan önce yazıldı). Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
+Taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`, 12 Kasım 2026; kasa kalkmadan önce yazıldı). Bir karar ötekinden hem daha çok para verip hem Cengo'nun daha çok hoşuna gidiyorsa doğrulayıcı uyarır: ikinciyi seçmenin sebebi kalmaz (yalnız vicdan). V1, V4, V5'te var, üçü de kabul edildi. Kararların etkisi yeniden düzenlenince tekrar bakılır.
 16 Kasım 2026'da kasa ve karar parası ekrandan kalktı (YAPI-31). Bu yüzden K8 **yeni oyunda kalkar** (para yok); eski oyunda kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 37).
 *Kaynak:* 980
 
@@ -900,7 +900,7 @@ Taslak (`TASLAK_tekrar_onleme.md`, 12 Kasım 2026; kasa kalkmadan önce yazıld�
 
 ## SEZON — sezon planı ve çeşitlilik
 
-Durum notu: `sablon/TASLAK_tekrar_onleme.md` kaynaklı kurallar (867–971) o dosyada "sahibi onayladı" diye duruyor; dosyanın başlığı
+Durum notu: `arsiv/sablon/TASLAK_tekrar_onleme.md` kaynaklı kurallar (867–971) o dosyada "sahibi onayladı" diye duruyor; dosyanın başlığı
 ise "TASLAK — ONAYLANMADI, Barbaros 'yaz' deyince şablona/kanona/koda işlenir" diyor (12 Kasım 2026). Aşağıda her birinin yanına
 bu durum yazıldı: her birinde "*Durum:* taslak" satırı var (Barbaros "yaz" demedi; dosyadaki "sahibi onayladı"
 taslak içindeki onaydır, yürürlük değil). Taslağın kapsamı: Vaka 5 bundan etkilenmez (Barbaros: "Vaka 5 bu şekilde kalsın"); kurallar Vaka 6'dan
@@ -919,13 +919,13 @@ Vakaları birbirine bağlayan iplikler kararlarla ilerler:
 #### SEZON-2 Her sezonun ipliği farklı gruptan
 Her sezonun ipliği farklı bir gruptan seçilir: Peri, Cengo, büro, dış tehdit, garip. Gerekçe: S2 de "Peri bir şeyini geri alır,
 Cengo'nun sırrı açılır" diye kurulursa kalıp tekrar eder. (Sahibi onayladı, 12 Kasım 2026; taslak dosyasında.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 - *Bilgi:* [TASLAK_tekrar_onleme › 7. Sezon] Dört konu: iplik · dünya (semtler, çevreler) · yenilik (yeni oyun biçimi) · Peri–Cengo ilişkisi. (k:3f93f37430)
 *Kaynak:* 884
 
 #### SEZON-3 Doğaüstüne yaklaşanın mantıklı açıklaması olur
 Garip grubundan seçilen sezon ipliğinde doğaüstüne yaklaşan her şey sonunda mantıklı bir açıklamaya bağlanır; oyun gerçekçidir. (Taslak, 12 Kasım 2026.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 894
 
 #### SEZON-4 Gerçekçi + garip harmanı
@@ -936,19 +936,19 @@ Oyun gerçekçi kalır; arada bir **garip vaka** gelir, bazı vakaların içinde
 - gerisi tamamen gerçekçi;
 - iki garip vaka yan yana gelmez;
 - aynı garip öğe sezonda iki kez kullanılmaz (iki papağan, iki ikiz yok).
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 867, 868, 869, 870, 871, 872, 873
 
 #### SEZON-5 Semt ve çevre sınırı
 Bir semt bir sezonda en çok iki vakada; bir çevre bir sezonda en çok iki vakada kullanılır. (Sahibi onayladı, 12 Kasım 2026; taslak dosyasında.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 - *Ders:* [TASLAK_tekrar_onleme › 7b. Sezonun dünyası (sahibi: hepsi olabilir; gece hayatı özellikle …] V1 Karaköy, Bebek — balıkçılar, dizi seti · V2 Nişantaşı, Teşvikiye — zengin aile, moda · V3 Karaköy, Kadıköy — esnaf, pastane · V4 Cihangir — kafe, falcılar · V5 vapur, Kadıköy, Çukurcuma — antikacılar. Tekrar: hep Karaköy/Beyoğlu/sahil; çevreler hep esnaf, sanat, zenginler. (k:37ec2529d2)
 *Kaynak:* 899
 
 #### SEZON-6 Dönen figürler aynı espriyi tekrarlamaz
 Dönen figürün her dönüşünde hâlinde bir şey değişir (ör. ev sahibi bir gün yardım ister, bir gün müşteri olur); "ev sahibi gelir, Peri
 saklanır" gibi aynı espri her dönüşte yapılmaz. Bir figür üst üste iki vakada görünmez — Gizem hariç (o büroda). (Sahibi onayladı, 12 Kasım 2026.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 875
 
 #### SEZON-7 Büroya gelen hayvan
@@ -956,7 +956,7 @@ Sahibinin gözdesi: büroya gelen bir hayvan (kedi ya da martı gibi; hangi hayv
 düzensiz/tesadüfi görünür (sahibi, 12 Kasım 2026). Hangi vakalarda görüneceğini **yazar seçer**; her oyuncu aynısını görür (oyun rastgele
 seçmez, kod gerekmez). **Her yeni vakanın formunda (adım 1) sahibine sorulur: "Bu vakada hayvan görünsün mü?"**; cevap forma yazılır.
 Belgelere işlenirken yeri: `sablon/7_uretim_sureci.md` adım 1 ve vaka formu.
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 - *Bilgi:* [V6 başlangıç › 1. Konu ve ortağın kararları (12 Kasım 2026)] **Büro hayvanı / garip öğe:** bu vakada yok, sonraki bir vakaya kalıyor. (k:31b0e7a581)
 *Kaynak:* 877
 
@@ -969,14 +969,14 @@ Sezon 1'de yeni oyun biçimi yok; S2'den itibaren sezon başına bir tane; önce
 - **Gizem'in gözünden vaka: olmalı**; ayrıca Gizem olaylara daha çok katılmalı. Not: "ana kişi"yi ayarlanabilir yapmak tek iş, Cengo ve Gizem'i birlikte çözer.
 - **Tek vaka, içinde iki iz** (kod yok): **olur.**
 - **Gerçekten iki açık dosya** (çok kod; motor aynı anda tek vaka açar): sahibi emin değil, oyunu karmaşıklaştırabilir — **bekliyor.**
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 900, 902, 903, 904, 905, 906
 
 #### SEZON-9 Kararın etkisi görünür olmalı
 Sahibi (12 Kasım 2026): vaka sonundaki kararların oyuna gerçek bir etkisi yok gibi (Cengo'nun hoşuna gidiyor/gitmiyor, az/çok para — hiçbiri
 hissedilmiyor). Karar kalır, ama etkisi muhakkak düzeltilir; etkisi görünmezse karar ekranı yalnız karmaşıklaştırır (Barbaros'un sonucu).
 Ara yol olarak "4 yerine 2 karar" anıldı; karar verilmedi.
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 - *Ders:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] Para: birikir, hiç harcanmaz; amacı V7'de taç (V7 yok). Kararlar arası fark küçük (5–20 bin). (k:8c84b80519)
 - *Ders:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] Anı defteri: yalnız kayıt. (k:d7b58c2bf4)
 - *Ders:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] Konuşuldu: kararı tamamen kaldırıp sonucu suçlamanın doğru/yanlışına bağlamak → önerilmedi (oyunun kimliği "ahlaki tercih"; "not vermez" kuralına ters; paylaşım kartı "Sen olsan ne yapardın?"; bağ kararlarla besleniyor). Ara yol: 4 yerine 2 karar. (k:341dc7fbe0)
@@ -990,10 +990,10 @@ Sahibinin onayladığı üçlü (12 Kasım 2026; taslakta):
 1. Karardan sonraki vakada kısa bir haber (Sherlock'un mektubu gibi): "Rıza Reis oğluyla barıştı."
 2. Cengo bağı yüksekse bir ipucu bedava açılır.
 3. Eski bir kararın sonucu sonraki bir vakada ipucu olarak döner (bkz. SEZON-8: yalnız ipucu olarak).
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
-- *Bilgi:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] **Belgelere işlenirken değişecekler (not):** `1_oyun_yapisi.md` "Tohum yok" kuralı ve doğrulayıcı K19 (tohumu hata sayar); taç fiyatı kanona girer (sahibinin kararı); duvar/vitrin/haber için yeni görseller; hangi vakalara uygulanacağı (V1–5 dondu). (k:f15e9a80bb)
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+- *Bilgi:* [TASLAK_tekrar_onleme › 8. Kararların etkisi — SORUN (sahibi açtı, 12 Kasım 2026)] **Belgelere işlenirken değişecekler (not):** `arsiv/sablon/1_oyun_yapisi.md` "Tohum yok" kuralı ve doğrulayıcı K19 (tohumu hata sayar); taç fiyatı kanona girer (sahibinin kararı); duvar/vitrin/haber için yeni görseller; hangi vakalara uygulanacağı (V1–5 dondu). (k:f15e9a80bb)
 - *Bilgi:* [TASLAK_tekrar_onleme › 9. Devam etmek için (yeni oturum buradan başlar)] 2. Vaka 1–5'in kararları yeni etkilere (haber, ipucu, duvar…) bağlansın mı, hangisi neye? (k:ef87dc8b99)
-- *Bilgi:* [TASLAK_tekrar_onleme › 9. Devam etmek için (yeni oturum buradan başlar)] 5. Belgelere işleme: Barbaros onaylayınca — `1_oyun_yapisi.md` (Tohum yok), doğrulayıcı K19, `7_uretim_sureci.md` adım 1 (hayvan sorusu, sezon tablosu), `3_kanon_kaydi.md` (taç fiyatı, hayvan), `YENI_OYUN_SEZON.md`. Kod işi Barbaros'un alanında. (k:2b6d96f8fe)
+- *Bilgi:* [TASLAK_tekrar_onleme › 9. Devam etmek için (yeni oturum buradan başlar)] 5. Belgelere işleme: Barbaros onaylayınca — `arsiv/sablon/1_oyun_yapisi.md` (Tohum yok), doğrulayıcı K19, `7_uretim_sureci.md` adım 1 (hayvan sorusu, sezon tablosu), `3_kanon_kaydi.md` (taç fiyatı, hayvan), `arsiv/kaynak/YENI_OYUN_SEZON.md`. Kod işi Barbaros'un alanında. (k:2b6d96f8fe)
 *Kaynak:* 916, 917, 918, 919
 
 #### SEZON-11 Oyuncu etkinin hangi karardan geldiğini anlar
@@ -1004,27 +1004,27 @@ ve değerini görür (Telltale'in hatasının tersi). Bağlantıyı gösterme yo
 3. Dönen ipucu eski kararı hatırlatır: "🔓 Serkan yardım ediyor. Vaka 1'de onu babasından korumuştun."
 4. Anı defteri bağlantıyı kaydeder: "Bu kararın sonucu: Vaka 4'te Serkan sana yardım etti."
 5. Karar anında küçük uyarı: "Bu kararın sonucu ileride karşına çıkabilir."
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 920, 921, 922, 923, 924, 925, 926
 
 #### SEZON-12 Büronun duvarı
 Her kararın izi büronun duvarında birikir (teşekkür kartı, nikâh fotoğrafı, gazete kupürü); büroya her dönüşte görünür. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 928
 
 #### SEZON-13 Taç vitrinde
 Taç bir antikacının vitrininde, fiyatıyla durur; Peri her geçişte bakar → para Vaka 1'den itibaren anlam taşır. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 929
 
 #### SEZON-14 Gizem de karara tepki verir
 Gizem de karara tepki verir ve Cengo'yla farklı düşünebilir (biri beğenir, öteki beğenmez) → "doğru cevap" hissi oluşmaz. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 930
 
 #### SEZON-15 Sezon sonu özeti
-Sezon sonunda "Senin İstanbul'un" özeti: kararların kime ne yaptığı. Plan zaten var: `kaynak/final_tablo_plani.md`. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+Sezon sonunda "Senin İstanbul'un" özeti: kararların kime ne yaptığı. Plan zaten var: `arsiv/kaynak/final_tablo_plani.md`. (Ek fikir; sahibi: hepsi olabilir, 12 Kasım 2026.)
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 931
 
 #### SEZON-16 Sezon tablosuyla düşünülür
@@ -1032,7 +1032,7 @@ Vakalar tek tek değil, **sezon tablosuyla** düşünülür (tekrara düşmenin 
 suçlu kim · neden yaptı · yanlış iz · karar. Tablo kitap boyu tutulur. Konuşulan ama **onaylanmayan** öneriler: sebep 1 (şablon her vakada aynı) için önerilen ayar düğmeleri (şüpheli sayısı 2–4,
 iki suçlu, yanlış izin başka bir şey saklaması, kovalananın başkası olması, olayın Peri'nin başına gelmesi) ve "yan yana iki vaka aynı seçimi yapmaz,
 bir seçim sezonda en çok iki kez" kuralı.
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 - *Bilgi:* [TASLAK_tekrar_onleme › 1. Vaka 1–5 tablosu] Ne oldu · Suçlu kim · Neden yaptı · Yanlış iz · Karar (k:8cdb2e22b7)
 - *Bilgi:* [TASLAK_tekrar_onleme › 1. Vaka 1–5 tablosu] V1 Tekne · tekne kayboldu · müşterinin oğlu · borç · Kemal: müşteri suçluyor · Tuba: tekne onların setinde · oğlunun yaptığını babaya söylemek mi, susmak mı (k:85e4a5ea3c)
 - *Bilgi:* [TASLAK_tekrar_onleme › 1. Vaka 1–5 tablosu] V2 Gelinlik · gelinlik kayboldu · müşterinin kızı · istemediği düğün · Lâl: anne suçluyor, borçlu · Tolga: gelin suçluyor · anneyi mi tutacaksın, kızı mı (k:ed3207bf79)
@@ -1050,7 +1050,7 @@ bir seçim sezonda en çok iki kez" kuralı.
 #### SEZON-17 Tahmin edilebilir tekrar olmaz
 Amaç "hiçbir şeyi tekrarlama" değil (imkânsız), **"tahmin edilebilir biçimde tekrarlama"**mak. Suçlunun şüphe sırasındaki yeri döner: bazen en
 şüpheli gerçekten suçlu, bazen hiç akla gelmeyen, bazen müşteri.
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 - *Ders:* [TASLAK_tekrar_onleme › 1. Vaka 1–5 tablosu] **Tekrarlar:** suçlu hep içeriden/yakın (5/5) · neden çoğu para (3/5) · çoğu çalınma/kayıp (4/5) · yanlış iz çoğu "biri suçluyor" (5/6) · karar hep "gerçeği söyle mi, ört mü". (k:f2e720c204)
 - *Ders:* [TASLAK_tekrar_onleme › 3. Müşteri tipleri (sahibi: hepsi kullanılabilir)] Vaka 1–5'te müşteri hep yaşlı, bir işin ya da ailenin büyüğü. (k:c40aa3ac58)
 - *Ders:* [TASLAK_tekrar_onleme › 4. Şüpheliler (sahibi: hepsi kullanılabilir; en çok garip olanlarla…] Vaka 1–5'te suçlu olmayan şüpheliler hep müşterinin iş dünyasından: çalışan, rakip, iş ortağı; hepsi yetişkin. V1 Kemal (rakip balıkçı), Tuba (set sorumlusu) · V2 Lâl (modacı), Tolga (organizatör) · V3 Kenan (müdür), Gizem (tezgâhtar) · V4 Tarık (falcının müşterisi), Rana (rakip falcı) · V5 Kadir (çaycı), Nedim (koleksiyoncu). (k:d2d27e6618)
@@ -1112,7 +1112,7 @@ Hikâye gerektirirse kıyafet vaka içinde değişebilir (Vaka 2'deki gibi; 16 E
 
 #### SEZON-25 Barbaros'a anlatım biçimi
 Barbaros'la konuşurken her şey **basit ve kısa** anlatılır; her seferinde söyletilmez (Barbaros'un isteği).
-*Durum:* taslak (`sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
+*Durum:* taslak (`arsiv/sablon/TASLAK_tekrar_onleme.md`; Barbaros "yaz" demedi).
 *Kaynak:* 935
 
 ## SUREC — üretim süreci kuralları (birleştirilmiş)
@@ -1125,7 +1125,7 @@ değiştirmek bu kurala tabidir.
 *Kaynak:* 7, 936, 2783
 
 #### SUREC-2 Kural değişikliği yolu
-Bütün vakalar kural kitabına (`sablon/2_kural_kitabi.md`) uyar; kural değişecekse önce orada (şablonda) değişir, sahibinin onayıyla;
+Bütün vakalar kural kitabına (`arsiv/sablon/2_kural_kitabi.md`) uyar; kural değişecekse önce orada (şablonda) değişir, sahibinin onayıyla;
 sonra etkilenen vakalar yeniden denetlenir. Kural kitabının kaynağı: Ton, Sezon, Çerçeve belgeleri ve sahibinin kararları (8 Ekim
 2026'da toplandı); görsel kuralları 5. parçada, üretim kuralları 7. parçada. Vaka yazımı sırasında yeni kural gerekirse şablona
 sahibinin onayıyla eklenir (12 Kasım 2026 planı).
@@ -1145,7 +1145,7 @@ söylediği şey kural hâline getirilir.
 - **Ortak (Oğuz Bey) kendisi karar verir (işletme):** var olan kurallara göre vaka üretmek, hikâyeye yeni ayrıntı eklemek (kanon), metin
   düzeltmek, resim üretmek, test/araç/derleme çalıştırmak, `main`'e göndermek. Belgelerdeki "sahibine sor" bu işler için ortağa sorulur.
 - **Barbaros'a danışılır, ortak tek başına onaylamaz:** yeni kural yazmak ya da var olanı değiştirmek (`CLAUDE.md`, `sablon/`,
-  sözleşmeler), kod ve altyapı (motor, arayüz, araçlar, derleme), yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş
+  sözleşmeler), kod ve altyapı (motor, arayüz, araçlar, derleme), yayın, satış ve platform kararları (`arsiv/kaynak/RAF_KARARLARI.md`). Böyle bir iş
   çıkarsa Claude yapmaz; ne istendiğini kısaca yazar, ortak Barbaros'a iletir. Codex/ChatGPT hesabı Barbaros'undur. Bu liste 14 Kasım'da
   da değişmedi.
 - **14 Kasım 2026'dan beri bütün üretim (vaka metni + resim) Oğuz Bey'de:** Barbaros vaka üretmez — ama Barbaros da resim üretimini yürütebilir (aşağıda "üretimin yeri"
@@ -1280,7 +1280,7 @@ ayrı iş sayfası). İstemlerden ÖNCE: **kıyafet hâli tablosu** (sahne ve he
 önceki vakanın (Vaka 2'nin) klasörü kopyalanır, `uret.py`'deki görsel listesi ve `sira` değiştirilir; `sablon.html` aynen kalır. Sayfa
 adım 8'in **çıktısıdır**: `vakaN_gorsel.md` biter bitmez üretilir, yayımlanır, bağlantısı sahibine ve `DEVIR.md`'ye yazılır. Sahibi
 sohbetleri **sayfadaki sırayla** yürütür; süre tablosu, `DEVIR.md` ve belgelerdeki sohbet bölümlemesi sayfayla aynı tutulur (Vaka 2'de
-"7 = G35–G45" diyen belge sayfayla ayrışmıştı). Sohbet sırası değişirse önce sayfa, sonra belgeler. Ayrıntı: `5_gorsel_sistemi.md` D-6.
+"7 = G35–G45" diyen belge sayfayla ayrışmıştı). Sohbet sırası değişirse önce sayfa, sonra belgeler. Ayrıntı: `arsiv/sablon/5_gorsel_sistemi.md` D-6.
 **Codex düzeninde (Vaka 4'ten beri) bu madde yalnız web'de üretilecek resimler için geçerlidir**; öbür resimleri Codex döngüsü üretir
 (SUREC-32), sohbet sırası ve sayfa onlar için yok. 7. parçanın adım 8–9'u ve D-6 buna göre yazılır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 40).
 *Kaynak:* 416, 417, 418, 419, 420, 421, 731, 2571
@@ -1299,7 +1299,7 @@ listesinden geçirip "doğru, devam" ya da düzeltme promptu verir; türevler on
 (G33, G34, G35, G54, G57) bekletti. Sahibi görselleri sohbete **doğrudan yapıştırır**, numarayı Claude verir (dosya adı gerekmez); sahibi
 "Sohbet N'e başlıyorum" / "bitti" der, saatler süre tablosuna yazılır. Sahibi "üret" dediğinde hiçbir resim (temel) hazır değilse bu
 söylenir ve önce "kontrol et" istenir. Vaka 2'nin bütün görsel dersleri (kıyafet sabiti kayması, külotlu çorap, sayı, şehir, marka izi,
-kalabalıkta kişi düşmesi, kim kimi görüyor, red) `5_gorsel_sistemi.md` D (bilinen hatalar tablosu), E (kontrol listesi 10–12) ve F'de
+kalabalıkta kişi düşmesi, kim kimi görüyor, red) `arsiv/sablon/5_gorsel_sistemi.md` D (bilinen hatalar tablosu), E (kontrol listesi 10–12) ve F'de
 (kesim profilleri, hale, rötuş sınırı); prompt yazarken D tablosundaki önlemler promptlara baştan konur. Temel önce kuralı Codex düzeninde de
 sürer (DENETIM-41); sohbet/yapıştırma ayrıntısı yalnız web'deki resimler için kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 40).
 - *Bilgi:* [V3 başlangıç › 2. Süre ölçümü] 8 Görsel listesi + promptlar · 22 Eki 12:59 · 22 Eki 13:09 · sahibinin yeni düzeni: önce ana referanslar (onay), sonra referansa göre gruplu toplu üretim, 3 pencere paralel (k:e515487396)
@@ -1374,7 +1374,7 @@ tablosunda değişti).
   tanımıyor), hepsi +3 saat düzeltildi; V5 kayıtları doğru.
 - *Bilgi:* [V2 başlangıç › Toplam (aralar ve "sayılmaz" işler hariç)] **Adım 9–10 sohbet sohbet (sahibinin isteği: üretim süresi de ölçülür).** Sahibi "Sohbet N'e başlıyorum" deyince **üretim başladı** yazılır; görselleri gönderince **üretim bitti**; paket oyuna gömülüp sahibine gösterilince **işleme bitti**. ChatGPT dosya adlarındaki saat (ilk ve son görsel) üretim süresini ayrıca doğrular. Sohbetler arasındaki boşluk da tablodan okunur; sahibi "ara" demedikçe çalışma süresidir. (k:ae3300f00f)
 - *Ders:* [V2 başlangıç › Toplam (aralar ve "sayılmaz" işler hariç)] **Ara:** 10 Ekim 19:44'te ara verildi (sahibi). Ara süresi toplama girmez; yeniden başlanınca saat yazılır. Aradan sonra 19:54'te G1'in (Peri, tayyör) promptu ve referansları sahibine verildi; sahibinin isteğiyle **süreden sayılmaz**. Toplu görsel işleme aracının (`kaynak/arac_paket.js`) yazımı da sahibinin isteğiyle **süreden sayılmaz**; kalan 59 görsel bu araçla, paket paket işlenir. (k:e9f4b3cbe7)
-- *Ders:* [V3 başlangıç › Toplam] Takvimde: 17 Ekim → 9 Kasım, ~3,5 hafta. Vaka 4'te saat baştan sona işletilmeli (`RAF_KARARLARI.md` §11c). (k:cd8610b376)
+- *Ders:* [V3 başlangıç › Toplam] Takvimde: 17 Ekim → 9 Kasım, ~3,5 hafta. Vaka 4'te saat baştan sona işletilmeli (`arsiv/kaynak/RAF_KARARLARI.md` §11c). (k:cd8610b376)
 - *Ders:* [V4 başlangıç › 4. Süre ölçümü] 6–7 Onay 2, hikâye donar · 10 Kas 14:40 · 11 Kas (onay) · 1 sa 28 dk + 45 dk · ~15 dk (notları işleme) · giriş 13 not (10 Kas, saat işlerken 1 sa 28 dk); kalanını sahibi saat dururken inceledi (**45 dk**, sahibinin beyanı; ara 2'nin içinde ama aktif süreye eklenir); 11 Kas sabah "onay" — **hikâye dondu** (k:e60b9134cd)
 - *Bilgi:* [V4 başlangıç › 4. Süre ölçümü] hız sınırı görüldü mü (k:b306415f99)
 - *Bilgi:* [V4 başlangıç › Toplam] bölüm · sahibi · makine · takvim (k:763048e1fb)
@@ -1395,8 +1395,8 @@ Vaka 4'ten beri resimler bu düzenle (`uretim/CLAUDE.md`). Adım 8–9 bu düzen
 *Kaynak:* 1270, 1271, 1272, 2631
 
 #### SUREC-33 Resim oturumunda okunacaklar
-Önce depo kökündeki `CLAUDE.md` okunur. Görsel kurallar: `sablon/5_gorsel_sistemi.md` → H. Görsel standart. Ayrıntılı geçmiş ve
-gerekçeler: `uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Codex deneyimi). Türkçe, kısa yazılır.
+Önce depo kökündeki `CLAUDE.md` okunur. Görsel kurallar: `sablon/kurallar/KURALLAR.md` (SATIR, ISTEM, DENETIM, GOMME); eski kaynak `arsiv/sablon/5_gorsel_sistemi.md` → H. Görsel standart. Ayrıntılı geçmiş ve
+gerekçeler: `arsiv/uretim/v3_eski/BIRIKIM.md` (Vaka 3'ün Codex deneyimi). Türkçe, kısa yazılır.
 - *Ders:* [V6 başlangıç › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)] Saat resim aşamasında Barbaros'un sözüyle işler. Adım 8'in hazırlığı (kuralların okunması, istemler, satır aracı, kontrol listesi) 13 Kas ~12:00–15:00 arasında saat dışında yapıldı (~3 sa makine; kuralların yarım uygulanması yüzünden 7 resim boşa). (k:e3e5cd9628)
 *Kaynak:* 1031
 
@@ -1427,8 +1427,8 @@ kapanis) ve `clues[].sahne` (Vaka 5'te: vapur_cayci, ust_guverte, kadikoy_iskele
 *Kaynak:* 2884
 
 #### SUREC-36 Ton belgesi taslaktır
-`YENI_OYUN_TON.md` (4 Ekim 2026) taslaktır: §9–11'deki kararlar sahibinindir; geri kalan her karakter ayrıntısı ve her örnek replik
-öneridir, kanon değildir. Sahibi onaylamadan hiçbir vaka bunlara dayanarak yazılmaz. Çerçeve kararları ayrı belgede: `YENI_OYUN_CERCEVE.md`.
+`arsiv/kaynak/YENI_OYUN_TON.md` (4 Ekim 2026) taslaktır: §9–11'deki kararlar sahibinindir; geri kalan her karakter ayrıntısı ve her örnek replik
+öneridir, kanon değildir. Sahibi onaylamadan hiçbir vaka bunlara dayanarak yazılmaz. Çerçeve kararları ayrı belgede: `arsiv/kaynak/YENI_OYUN_CERCEVE.md`.
 *Kaynak:* 1712
 
 #### SUREC-37 Dış inceleme yöntemi
@@ -1469,7 +1469,7 @@ referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `alti
 ## SATIR — satır–resim sözleşmesi (birleştirilmiş kurallar)
 
 #### SATIR-1 Temel ilke: söylenen görünür, görünen söylenmiş
-Satır–resim sözleşmesi sahibinin kararıdır (8 Kasım 2026; ana metni `sablon/5_gorsel_sistemi.md` C0). Bir şey söylendiğinde ilgili kişi ya da kişiler ekranda görünür, ya da söylenen şey resimde görünür. Tersi de geçerlidir: resimde görünen şey o an söylenmiş olmalı. Sahnede bulunmayan ya da geçmişte kalan birinden söz etmek serbesttir ("Kenan dün akşam neredeydi?" kare istemez).
+Satır–resim sözleşmesi sahibinin kararıdır (8 Kasım 2026; ana metni `arsiv/sablon/5_gorsel_sistemi.md` C0). Bir şey söylendiğinde ilgili kişi ya da kişiler ekranda görünür, ya da söylenen şey resimde görünür. Tersi de geçerlidir: resimde görünen şey o an söylenmiş olmalı. Sahnede bulunmayan ya da geçmişte kalan birinden söz etmek serbesttir ("Kenan dün akşam neredeydi?" kare istemez).
 Metin bir nesneyi, hareketi ya da kıyafeti anıyorsa o satırda ekranda görünür. Üç yol var:
 - figürün ifadesi o nesneyle ya da hareketle,
 - bir ara kare,
@@ -1681,11 +1681,11 @@ Metnin söylediği görünüş (terli, ıslak, yaralı…) o figürde görünür
 ## ISTEM — resim istemi yazma kuralları
 
 #### ISTEM-1 Kalıp dosyası zorunlu; ezberden yazılmaz
-`istemleri hazırla <N>` her vakada `uretim/ISTEM_KALIPLARI.md`'deki kalıplarla yazılır (6 Kasım 2026, sahibinin onayı). Amaç: eski resimlerin (Vaka 1–2 ve eski Vaka 3) tarzını ve kalitesini tutturmak; kalıplar Vaka 3'te iki kez yanlış kurulup düzeltildi, nedenleri o dosyanın sonunda. Yeni istem yazmadan önce o dosya ve onaylı örnekler açılır, `v3_eski/prompts/` ile yan yana karşılaştırılır. Ayrıca **H. Görsel standart** uygulanır: kadraj (H1), bakış (H3), zemin (H4), iki kol iki el, yazı yok, oran.
+`istemleri hazırla <N>` her vakada `arsiv/uretim/ISTEM_KALIPLARI.md`'deki kalıplarla yazılır (6 Kasım 2026, sahibinin onayı). Amaç: eski resimlerin (Vaka 1–2 ve eski Vaka 3) tarzını ve kalitesini tutturmak; kalıplar Vaka 3'te iki kez yanlış kurulup düzeltildi, nedenleri o dosyanın sonunda. Yeni istem yazmadan önce o dosya ve onaylı örnekler açılır, `arsiv/uretim/v3_eski/prompts/` ile yan yana karşılaştırılır. Ayrıca **H. Görsel standart** uygulanır: kadraj (H1), bakış (H3), zemin (H4), iki kol iki el, yazı yok, oran.
 - *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Onaylı örnekler (bu kalıplarla üretilip onaylandı): (k:7339787db6)
 - *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Peri temeli: `v3/prompts/G1.md` → `v3/onayli/G1.png` (k:26060f010d)
 - *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Mekânlar: `v3/prompts/G10.md`, `G11`, `G15`–`G18` → `v3/onayli/` (k:b8d3c7a8f7)
-- *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Yeni karakter: `v3/prompts/G7.md` (Ferruh) — eski Vaka 3'te aynı kalıp onaylandı (`v3_eski/prompts/G6–G14`) (k:e6cb5c3497)
+- *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Yeni karakter: `v3/prompts/G7.md` (Ferruh) — eski Vaka 3'te aynı kalıp onaylandı (`arsiv/uretim/v3_eski/prompts/G6–G14`) (k:e6cb5c3497)
 - *Bilgi:* [ISTEM_KALIPLARI › 9. Çekicilik ve dekolte — "dünkü ayarlar" (sahibi, 6 Kasım: "bütün …] Örnek: `v3/prompts/G2.md` → `v3/onayli/G2.png` (sahibinin "daha iyi" dediği hâl). (k:21a0c569c5)
 - *Bilgi:* [V6 başlangıç › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)] 8 Görsel — Parti 3 (ifadeler, kareler, 11 ek, Eylül; 67 istem) · 13 Kas 16:20 · 14 Kas ~17:15 · istemler 15:55–16:18 (üretici betik `uretim/v6/uret_istem_parti3.py`); sahibi dışarıda, döngü sahibine sormadan (k:280e38c738)
 *Kaynak:* 1067, 1172, 1240, 1170
@@ -1730,7 +1730,7 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 
 #### ISTEM-7 Figür zemini
 - Zemin satırı ISTEM-5'teki kalıpla yazılır; renk adları `uretim/referanslar/zeminler.tsv`'den (14 Kasım 2026). Kıyafetin zemini `kaynak/arac_zemin.py` ile seçilir ve `v<N>/zemin.tsv`'ye yazılır; istem ona uymalı.
-- Kayıt (artık geçerli değil; zemini program seçer, GOMME-16): Vaka 4'ten itibaren zemin kıyafetten olduğu gibi saçtan da uzak (kızıl/açık saç → gri-mavi); yeşil zemin yok; temelde iki zemin denemesi (`5_gorsel_sistemi.md` H4; sahibinin kalıcı kararı 6–7 Kasım). (§6'daki eski aday listesi "açık bej | orta yeşil | gri-mavi"daki yeşil bu yüzden düştü.)
+- Kayıt (artık geçerli değil; zemini program seçer, GOMME-16): Vaka 4'ten itibaren zemin kıyafetten olduğu gibi saçtan da uzak (kızıl/açık saç → gri-mavi); yeşil zemin yok; temelde iki zemin denemesi (`arsiv/sablon/5_gorsel_sistemi.md` H4; sahibinin kalıcı kararı 6–7 Kasım). (§6'daki eski aday listesi "açık bej | orta yeşil | gri-mavi"daki yeşil bu yüzden düştü.)
 - `istem_kontrol.sh` denetimleri (figür): zemin satırı yoksa ya da renk zeminler.tsv'de değilse; zemin yeşilse; kıyafet zemin.tsv'de yoksa ("önce kaynak/arac_zemin.py --kiyafet … --yaz"); zemin zemin.tsv'nin bu kıyafete dediğinden farklıysa; yeni konuk temeli zemin.tsv'den önce gelir → varsayılanı "açık bej" olmalı. Zemin denemesi çifti (G<n> ve G<n>z, `- zemin denemesi:` satırı) bilerek iki renklidir, atlanır. Uymayan istem üretilmez.
 *Kaynak:* 1198, 540, 3569, 3570, 3571, 3572, 3573, 2967, 2630
 
@@ -1774,7 +1774,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 - Referanslar sırayla, hepsi dekoltesiz: 1. yüz: `../referanslar/peri_bas.jpg` ya da `../referanslar/C1_cengo_yuz.jpg`; 2. beden/ölçek: `../referanslar/tarz_govde_kadin.jpg` ya da `../referanslar/cengo_beden.jpg`; 3. tarz örneği: `tarz_ornek_kadin.jpg` ya da `tarz_ornek_erkek.jpg`. (Kıyafet kartı referansı: ISTEM-19.)
 - İstem sırası: "Birinci referans görseldeki … AYNISI" → kıyafet (kart nasılsa öyle + kartta görünmeyen dekolte derinliği; ISTEM-19) → "Poz: TAM İKİ KOL, İKİ EL." + her elin işi → bakış satırı (H3) → ifade → kadraj + zemin satırı → çıplaklık satırı → tarz örneği cümlesi (ISTEM-10) → yazı yasağı → oran.
 - Peri'nin eski referansları (L*, peri_*, poz_peri_*; `sablon/peri_poz/` L1–L25 kütüphanesi) HEPSİ dekolteli — kullanılmaz; Peri'nin pozu metinle anlatılır.
-- Cengo poz kütüphanesi `sablon/cengo_poz/` (C1–C25, dizin `OKUBENI.md`; 17 Ekim'de tamam): C1 yüz, G14-1 beden; zor pozda uygun C "YALNIZ poz için" (ör. C25 koltukta bacak bacak üstünde, C16 işaret eden, C24 arkadan, C19 yürüyor). İfadeler vakanın temel figürünün düzenlemesi (ISTEM-14); kıyafet V1/V2 ile aynıysa oyundaki figür referanstır. Adım 8'de her Cengo kartına hangi C'nin gireceğini Claude yazar.
+- Cengo poz kütüphanesi `sablon/cengo_poz/` (C1–C25, dizin `arsiv/uretim/OKUBENI.md`; 17 Ekim'de tamam): C1 yüz, G14-1 beden; zor pozda uygun C "YALNIZ poz için" (ör. C25 koltukta bacak bacak üstünde, C16 işaret eden, C24 arkadan, C19 yürüyor). İfadeler vakanın temel figürünün düzenlemesi (ISTEM-14); kıyafet V1/V2 ile aynıysa oyundaki figür referanstır. Adım 8'de her Cengo kartına hangi C'nin gireceğini Claude yazar.
 *Kaynak:* 1186, 1187, 1188, 1189, 1190, 1191, 1192, 1063, 1479, 3012, 2581, 412
 
 #### ISTEM-12 Yeni (yan) karakter temeli
@@ -1911,7 +1911,7 @@ Her figür isteminde çıplaklık satırı ("Çıplaklık yok") bulunur (H6); `i
 *Kaynak:* 71, 436, 448, 1429, 1156, 2535
 
 #### ISTEM-30 "Görünmesin" yazılmaz; kadraj dışında bırakılır
-Görsel yalan söyleyebilir: "yarası görünmesin" yarayı saklatmaz, yarasız bir yüz ürettirir. Kanondaki fiziksel gerçek kadraj dışında bırakılır, silinmez (`gorsel_stil_sozlesmesi.md` §7c).
+Görsel yalan söyleyebilir: "yarası görünmesin" yarayı saklatmaz, yarasız bir yüz ürettirir. Kanondaki fiziksel gerçek kadraj dışında bırakılır, silinmez (`arsiv/kaynak/gorsel_stil_sozlesmesi.md` §7c).
 *Kaynak:* 72, 449
 
 #### ISTEM-31 Tam iki kol, iki el; her el ayrı
@@ -1973,7 +1973,7 @@ Yüzde tutmuyor ("alt %20 boş" tekrar edildi, 3 üretimde ayaklar yine taştı)
 *Kaynak:* 1164, 1433, 1441, 1493
 
 #### ISTEM-44 Saç toplu satırı (yan karakter); Peri ve Cengo istisna
-- Yan karakter isteminde: "saçın dış çizgisi toplu; zemine taşan ince tel yok" (eşarplıysa "saçın tamamı eşarbın içinde"). Gerekçe: dağınık teller zemine taşınca kesimden sonra teller arasında zemin halesi kalıyor (v3 G1, G4). Hale tek başına ret sebebi değil: gömmede yalnız baş kutusunda temizlenir (`5_gorsel_sistemi.md` → F "Hale temizliği yöntemi"; Vaka 1–2'de böyle).
+- Yan karakter isteminde: "saçın dış çizgisi toplu; zemine taşan ince tel yok" (eşarplıysa "saçın tamamı eşarbın içinde"). Gerekçe: dağınık teller zemine taşınca kesimden sonra teller arasında zemin halesi kalıyor (v3 G1, G4). Hale tek başına ret sebebi değil: gömmede yalnız baş kutusunda temizlenir (`arsiv/sablon/5_gorsel_sistemi.md` → F "Hale temizliği yöntemi"; Vaka 1–2'de böyle).
 - Peri ve Cengo istisna (sahibi, 6 Kasım): saçları dağınık kalır; onlara bu satır yazılmaz, kesimde kalan hale gömmede temizlenir.
 *Kaynak:* 1171, 1193, 2967
 
@@ -2112,7 +2112,7 @@ Uç ifadeler (gözler kapalı, yüz buruşuk, yüz kısmen kapalı) puanı düş
 2. beş parmak sayılıyor mu,
 3. el bir ön kola bağlı mı,
 4. nesnenin kenarında fazla parmak var mı.
-Başparmak görünmüyorsa resim onaylanmaz; istemde §12 (`ISTEM_KALIPLARI.md`) kalıbıyla yeniden üretilir. Nesne tutan eller topluca onaylanmaz; büyütülmüş görüntü sahibine resim resim gösterilir. Bu bakışı yapan Claude kendi okumasında kuşkuluysa ("sol el gibi") bunu söyler, "doğru" demez.
+Başparmak görünmüyorsa resim onaylanmaz; istemde §12 (`arsiv/uretim/ISTEM_KALIPLARI.md`) kalıbıyla yeniden üretilir. Nesne tutan eller topluca onaylanmaz; büyütülmüş görüntü sahibine resim resim gösterilir. Bu bakışı yapan Claude kendi okumasında kuşkuluysa ("sol el gibi") bunu söyler, "doğru" demez.
 *Kaynak:* 1113
 
 ### Göz denetimi — yöntem
@@ -2145,7 +2145,7 @@ Birden çok resmi karşılaştırmak için temas sayfası işe yarar: hepsini k�
 Gelen görselin numarası mesaj sırasından değil görselden doğrulanır (Vaka 2 konuklarında 3. ve 4. ters gelmişti).
 *Kaynak:* 472, 473
 
-### Göz denetimi — A. İstemle karşılaştır (her resim; `5_gorsel_sistemi.md` E kontrol listesi de bunlardır)
+### Göz denetimi — A. İstemle karşılaştır (her resim; `arsiv/sablon/5_gorsel_sistemi.md` E kontrol listesi de bunlardır)
 
 #### DENETIM-18 Kontrol satırı önce
 İstem dosyasının `## Kontrol` satırındaki her madde denetlenir; önce bunlara bakılır. Sebep: resme özgü en riskli noktaları istemi yazan belirler.
@@ -2175,7 +2175,7 @@ Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun **he
 - Kadraj ve oran istemdeki gibi. Figürlerde uyluk ortasından yukarısı. Afişte alt %20 boş.
 - Boyutu dosya başlığından doğrula. Doğru değerler: 4:5 → 1122×1402, 3:4 → 1086×1448, 9:16 → 941×1672.
 - Ölçek ve baş yüksekliği aynı mı (kontrol listesi E.2).
-- Zemin düz ve H4'teki renk (`5_gorsel_sistemi.md` H4). (Vaka 3 kaydındaki "düz açık bej zemin" H4'ün Vaka 4 ve 14 Kasım 2026 kararlarıyla eskidi.)
+- Zemin düz ve H4'teki renk (`arsiv/sablon/5_gorsel_sistemi.md` H4). (Vaka 3 kaydındaki "düz açık bej zemin" H4'ün Vaka 4 ve 14 Kasım 2026 kararlarıyla eskidi.)
 *Kaynak:* 462, 1122, 1311, 1514, 3048
 
 #### DENETIM-25 Tarz gözle
@@ -2214,7 +2214,7 @@ Aynı kişinin onaylı ifadeleriyle yan yana bakılır; yüz ve poz onlardan aç
 *Kaynak:* 1130
 
 #### DENETIM-33 Çekicilik seviyesi
-Çekicilik seviyesi kurala uygun olmalı. Peri ve Gizem için (sahibi, 8 Kasım 2026): yeni resim o karakterin eski onaylı resimleriyle yan yana; çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan onaylanmaz, `ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. Kıyafet kartı bu maddeden muaf. Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
+Çekicilik seviyesi kurala uygun olmalı. Peri ve Gizem için (sahibi, 8 Kasım 2026): yeni resim o karakterin eski onaylı resimleriyle yan yana; çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan onaylanmaz, `arsiv/uretim/ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. Kıyafet kartı bu maddeden muaf. Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
 *Kaynak:* 467, 1131, 3048
 
 #### DENETIM-34 Nurcan: hak edilmemiş bilgi
@@ -2405,6 +2405,7 @@ Her figürlü kişinin yüzü portreye kırpılır (`yeni_gorsel/portre/`): her 
 - Telefonda bakmak yeter (16 Ekim 2026'dan beri her ekranda telefondaki oran geçerli); `--cihaz` boy sapmasını yine sınar.
 - Tablo (Peri'ye göre): Peri 1,00; Cengo 1,00; Nadide 0,98; Ferruh 0,98; Kenan 1,02; Gizem 0,93; Sedat 0,92; Ayla 1,00; Rüstem 0,95; Müzeyyen (V6) 1,00; Jale (V6) 1,00; Haldun (V6) 1,02; Eylül (V6) 0,94; Recep (V6) 0,94; Dilek (V6) 0,92; Tahsin (V6) 1,00.
 - Kadın yan karakterler için eski aralık (0.76–0.82, çok kısa/tombul 0.72) **kalktı**; boyu yalnız bu tablo belirler (17 Kasım 2026, çelişki sorusu 7).
+- Kadın konuk boyu yeni tablodaki **0.92–1.00**; eski "0.76–0.82" kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 7; eski `uretim/CLAUDE.md` karar listesi).
 *Kaynak:* 487, 504, 505, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 524, 2532, 3036, 3052
 
 #### GOMME-14 Uzanan kol, elde nesne
@@ -2483,7 +2484,7 @@ Görsel standart (6 Kasım 2026, sahibinin onayı): resimler tek tek değil, **o
 
 ## CODEX — Codex/döngü kuralları (birleştirilmiş)
 
-Not: `uretim/v3_eski/` belgeleri eski Vaka 3 düzenidir (yerel `uretim/CLAUDE.md` onları "geçmiş ve gerekçeler" diye anar). Aynı şeyi söyleyen
+Not: `arsiv/uretim/v3_eski/` belgeleri eski Vaka 3 düzenidir (yerel `uretim/CLAUDE.md` onları "geçmiş ve gerekçeler" diye anar). Aynı şeyi söyleyen
 eski satırlar yeni kurala birleştirildi; yalnız eskide olan ayrıntılar korundu ve "(eski Vaka 3 talimatı)" diye işaretlendi.
 
 #### CODEX-1 Codex'in rolü, çalışma yeri ve dili
@@ -2852,7 +2853,7 @@ Yeni vakada kapının kurulumu (YOLLAR tablosu + `vakaN_kapi.md`, adım 5): bkz.
 
 #### KOD-36 Yeni oyun verisi ayrı; eski oyuna dokunulmaz
 - Yeni oyunun verisi `kaynak/yeni/`'de (Vaka 1 + açılış …). Eski oyunun verisine (dokuz vaka, `kaynak/game_data.json`) dokunulmaz; o hâlâ yayındaki `index.html`'in kaynağı.
-- Yeni oyunun motor eki `kaynak/motor_yeni.js` (`OyunYeni extends Oyun`): Kim yaptı?, sonda ödenen ücret, suçlamanın kaydı; 16 Kasım 2026'dan beri kasa yok, karar sahnede (`sablon/2_kural_kitabi.md` 22a–d, 24). `motor.js`'e dokunulmaz (eski sayfaya da gömülü; eski sayfa birebir aynı kalmalı). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
+- Yeni oyunun motor eki `kaynak/motor_yeni.js` (`OyunYeni extends Oyun`): Kim yaptı?, sonda ödenen ücret, suçlamanın kaydı; 16 Kasım 2026'dan beri kasa yok, karar sahnede (`arsiv/sablon/2_kural_kitabi.md` 22a–d, 24). `motor.js`'e dokunulmaz (eski sayfaya da gömülü; eski sayfa birebir aynı kalmalı). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
 - Yeni oyun yapım şablonuyla üretilir: `sablon/` (7 parça + `vakalar/`). Şablon ile CLAUDE.md çelişirse yeni oyun için şablon geçerlidir.
 - *Bilgi:* [YENI_OYUN_CERCEVE › 3. NE DEVRALINIYOR] **~7.100 satır makine, ~3.500 satır hikâye.** Motorda ve derleyicide gömülü tek bir vaka adı yok (tek istisna bir yorum satırı). (k:434bcb3027)
 *Kaynak:* 14, 2398, 2409
@@ -2955,7 +2956,7 @@ Arka plan ve kare de yer tutucu olabilir: `gorseller.json` → `yer_tutucu` list
 ### E. Motor sınırları
 
 #### KOD-51 Motorun yapamadığı istenmez
-Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gerekirse önce `sablon/4_motor_sinirlari.md`'ye eklenir, sonra yapılır.
+Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gerekirse önce `arsiv/sablon/4_motor_sinirlari.md`'ye eklenir, sonra yapılır.
 *Kaynak:* 282
 
 #### KOD-52 Sahne satırı bilgiye göre değişmez
@@ -3163,7 +3164,7 @@ Motorda `metinSec()` çözer. Desteklenen yerler: kaynak `text` ve `meta`, karar
 #### KOD-91 Defter ve Künye vaka başına
 - (17 Ekim 2026) Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın anı özetini (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi suçladığını, kararını ve Peri'nin notunu basar (kasa 16 Kasım 2026'da kalktı) (`yeni_arayuz.js → defterZincir, defterAni`).
 - Künye (Kişiler) yalnız içinde bulunulan vakanın kişilerini gösterir (`yeni_arayuz.js → vnKisiGorunur`); portre `python3 arac_portre.py <figür> yeni_gorsel/portre/portre_<id>.webp`.
-- Deneme reklamı (`reklamGoster`, +1 hak ve kaçırılan ipuçları) ve test için vaka düğmeleri (`VN_VAKA_ATLA`, yayından önce `false`): `kaynak/YENI_OYUN_CERCEVE.md`.
+- Deneme reklamı (`reklamGoster`, +1 hak ve kaçırılan ipuçları) ve test için vaka düğmeleri (`VN_VAKA_ATLA`, yayından önce `false`): `arsiv/kaynak/YENI_OYUN_CERCEVE.md`.
 *Kaynak:* 15
 
 #### KOD-92 Paylaş (davet kartı) — yalnız yeni oyun
@@ -3244,7 +3245,7 @@ Aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir (`yeni_aray
 *Kaynak:* 286, 304, 2410, 2779
 
 #### ARAYUZ-17 Karşılıklı konuşmada yerler sabit
-Aynı iki kişi bir önceki satırda da ekrandaysa yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js` (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G; `86db39d`. `ekran` etiketli vakalara (V6'dan beri) uyar; eski "Peri solda, sağda tek konuk" düzeni yalnız V1–V5'indir (ARAYUZ-16; 17 Kasım 2026). Sebep: V6 girişinde Gizem ↔ Eylül her satırda yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). (Sahibinin kararı, 16 Kasım 2026.)
+Aynı iki kişi bir önceki satırda da ekrandaysa yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js` (`vnSatirGoster`, `ekran` dalı), kural `arsiv/sablon/5_gorsel_sistemi.md` SR-G; `86db39d`. `ekran` etiketli vakalara (V6'dan beri) uyar; eski "Peri solda, sağda tek konuk" düzeni yalnız V1–V5'indir (ARAYUZ-16; 17 Kasım 2026). Sebep: V6 girişinde Gizem ↔ Eylül her satırda yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). (Sahibinin kararı, 16 Kasım 2026.)
 - V6 tarandı: bu türden başka yer kalmadı.
 - Kalan taraf değiştirmeler (Cengo konukla solda, Peri konuşunca sağda; tek görünen konuk karşısına biri gelince sola) sahibince sorunsuz bulundu, **dokunulmayacak**.
 - V1–V5'teki iki örnek (V4: Rana ↔ Feraye, Feraye ↔ Sadık; eski `kime` düzeni) **bilerek düzeltilmedi**; o vakalar yeni kurallara göre yeniden geçirilecek.
@@ -3309,9 +3310,9 @@ Bütün ekranlar konuşma ekranının dilinde: kâğıt zemin, koyu mürekkep, k
 *Kaynak:* 648, 2576, 3016
 
 #### ARAYUZ-32 Paylaş kartı (vaka)
-Yalnız yeni oyun. Biten vaka afişli bir kartla, "Arkadaşına öner" düğmesiyle paylaşılır (web'de kuruldu, 17 Ekim 2026; ayrıntı `CLAUDE.md` → "Paylaş"); düğme kapanıştan sonraki ekranda (kaçan ipucu yoksa "Dosya kapandı") ve Defter → Anı'da. Kart 1080×1920 tarayıcıda çizilir (`yeni_arayuz.js → paylasKartCiz`): vakanın afişi (`gorseller.json → kart`; yoksa `kapak` arka planı) ve altta KÜÇÜK bir kutu — vaka no/adı, "Sen olsan ne yapardın?" — ile bağlantı. Sahibinin kuralı: önce resim, yazı az; girişin ilk cümlesi kartta değil paylaşım mesajında (`paylasMetin`). Suçlu, karar, suçlama, kasa, not karta GİRMEZ (Nurcan — arkadaş oynamadı; ve oyun not vermez); kasa 16 Kasım 2026'dan beri yok. `navigator.share` varsa görselle paylaşır, yoksa indir + bağlantıyı kopyala. Her vakaya iki şey gerekir:
+Yalnız yeni oyun. Biten vaka afişli bir kartla, "Arkadaşına öner" düğmesiyle paylaşılır (web'de kuruldu, 17 Ekim 2026); düğme kapanıştan sonraki ekranda (kaçan ipucu yoksa "Dosya kapandı") ve Defter → Anı'da. Kart 1080×1920 tarayıcıda çizilir (`yeni_arayuz.js → paylasKartCiz`): vakanın afişi (`gorseller.json → kart`; yoksa `kapak` arka planı) ve altta KÜÇÜK bir kutu — vaka no/adı, "Sen olsan ne yapardın?" — ile bağlantı. Sahibinin kuralı: önce resim, yazı az; girişin ilk cümlesi kartta değil paylaşım mesajında (`paylasMetin`). Suçlu, karar, suçlama, kasa, not karta GİRMEZ (Nurcan — arkadaş oynamadı; ve oyun not vermez); kasa 16 Kasım 2026'dan beri yok. `navigator.share` varsa görselle paylaşır, yoksa indir + bağlantıyı kopyala. Her vakaya iki şey gerekir:
 1. **Kapak** (`gorseller.json → kapak`, zorunlu, yedek): ipucu sahnelerinde geçen bir ARKA PLAN; yüzleşme/kovalamaca/kapanış ve K kareleri olmaz (Nurcan). `test_yeni_arayuz.js` kapaksız vakayı yakalar.
-2. **Kart afişi** (`gorseller.json → kart`, `KART_V3`): kişiler + mekân, ipucusuz, hareketli. Adım 8'de görsel listesine eklenir, promptu `sablon/kart_sayfa/uret.py`'ye yazılır (afiş promptları ve iş sayfası); yeni vakanın afişi için kurallar `5_gorsel_sistemi.md` → **G**.
+2. **Kart afişi** (`gorseller.json → kart`, `KART_V3`): kişiler + mekân, ipucusuz, hareketli. Adım 8'de görsel listesine eklenir, promptu `sablon/kart_sayfa/uret.py`'ye yazılır (afiş promptları ve iş sayfası); yeni vakanın afişi için kurallar `arsiv/sablon/5_gorsel_sistemi.md` → **G**.
 `giris` varsayılanının ilk cümlesi paylaşım mesajına girer: sızıntısız ve tek başına anlaşılır olsun.
 Bağlantı önizlemesi (`og:` etiketleri) `build_html.js yeni`'de; görseli `yeni_gorsel/paylas_onizleme.jpg` → `yeni/paylas.jpg`.
 Android'de kalan (Android aşaması): anı karşılaştırması (bitirmiş arkadaşa kilitli) ve davet kodu.
@@ -3352,8 +3353,8 @@ Oğuz Bey'in G65'i (Düzeltme 2: sol el, avuç içi bize dönük) kullanılır �
 
 ### A. Belgelerin önceliği ve rafın fikri
 
-#### RAF-1 RAF_KARARLARI.md'nin önceliği
-`kaynak/RAF_KARARLARI.md`, `YENI_OYUN_CERCEVE.md`'deki platform, dil, metin anahtarı, satış, reklam ve gardırop kararlarının yerine geçer (9 Kasım 2026; mobil kütüphane uygulaması "Ajar", Paravan rafın ilk kitabı). Çelişki olursa RAF_KARARLARI.md geçerlidir. Çerçeve belgesinde eskiyen satırlar işaretlidir.
+#### RAF-1 arsiv/kaynak/RAF_KARARLARI.md'nin önceliği
+`arsiv/kaynak/RAF_KARARLARI.md`, `arsiv/kaynak/YENI_OYUN_CERCEVE.md`'deki platform, dil, metin anahtarı, satış, reklam ve gardırop kararlarının yerine geçer (9 Kasım 2026; mobil kütüphane uygulaması "Ajar", Paravan rafın ilk kitabı). Çelişki olursa arsiv/kaynak/RAF_KARARLARI.md geçerlidir. Çerçeve belgesinde eskiyen satırlar işaretlidir.
 *Kaynak:* 1548, 1976
 
 #### RAF-2 Raf: tek uygulama, içinde kitaplar
@@ -3639,7 +3640,7 @@ Mağaza sayfasında "Reklam içerir" ve "Uygulama içi satın alma" etiketleri (
 *Kaynak:* 2005, 3019
 
 #### RAF-65 Dosyanın tamamı
-(17 Ekim 2026, sahibinin kararı.) Kapanıştan sonraki ekranda (vaka sonundaki ekran: Kaçırdığın ipuçları / Dosya kapandı) ayrı bir düğme, reklamla açılır: "Dosyanın tamamı · reklam". Açan oyuncu vakanın gerçekte nasıl olduğunu olay sırasıyla okur: 5–7 kısa paragraf — suçlu ne yaptı, neden; masumlar o gece neredeydi; yanıltan izler nereden geldi. Formun §2'sinden (Gerçek) düz dille. "Geri" ile aynı ekrana döner. Kaçan ipucu reklamlarından bağımsızdır; bir kez izlenince o ekranda yeniden reklamsız açılır. Masaya dönünce kapanır, Defter'den açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`**HİKÂYE:**` paragrafları) → `kim_yapti.hikaye`; yoksa `arac_diyalog.js` yazmaz (`YENI_OYUN_CERCEVE.md`). Ekran `yeni_arayuz.js → hikayeIzle, hikayeEkrani`. AÇIK SORU (sahibi): düğmenin yeri geçici — kaçan ipuçlarının altında durunca oyuncu ipuçlarını izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse gitmez. Şimdilik böyle kalıyor, sonra düşünülecek.
+(17 Ekim 2026, sahibinin kararı.) Kapanıştan sonraki ekranda (vaka sonundaki ekran: Kaçırdığın ipuçları / Dosya kapandı) ayrı bir düğme, reklamla açılır: "Dosyanın tamamı · reklam". Açan oyuncu vakanın gerçekte nasıl olduğunu olay sırasıyla okur: 5–7 kısa paragraf — suçlu ne yaptı, neden; masumlar o gece neredeydi; yanıltan izler nereden geldi. Formun §2'sinden (Gerçek) düz dille. "Geri" ile aynı ekrana döner. Kaçan ipucu reklamlarından bağımsızdır; bir kez izlenince o ekranda yeniden reklamsız açılır. Masaya dönünce kapanır, Defter'den açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`**HİKÂYE:**` paragrafları) → `kim_yapti.hikaye`; yoksa `arac_diyalog.js` yazmaz (`arsiv/kaynak/YENI_OYUN_CERCEVE.md`). Ekran `yeni_arayuz.js → hikayeIzle, hikayeEkrani`. AÇIK SORU (sahibi): düğmenin yeri geçici — kaçan ipuçlarının altında durunca oyuncu ipuçlarını izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse gitmez. Şimdilik böyle kalıyor, sonra düşünülecek.
 Uygulamada (telefon ve tablet) Vaka 1–2'de ve satın alanlarda reklamsız açılır (RAF-47; sahibinin kararı, 20 Kasım 2026).
 *Kaynak:* 2006, 636
 
@@ -3852,11 +3853,11 @@ Bedava vakalar hafif, hızlı, eğlenceli ve tek başına tatmin edici olur; üc
 #### RAF-109 Sunucu isteyen üç özellik ilk sürümde yok
 Eski Android planındaki (16 Ekim 2026) sunucu gerektiren üç özellik ilk sürümden çıkarıldı (9 Kasım 2026): arkadaş daveti, karar istatistiği, anı karşılaştırması. Gerekçe: para olarak ucuz (Firebase gibi bir hizmet; birkaç bin oyuncuda bedava kota, on binlerce oyuncuda ~5–20 $/ay), ama kurmak ve bakmak, gizlilik (izin, mağaza beyanı, sunucuda "verilerimi sil"), hile (sahte davetle kredi) ve kesinti yükü getirir; "hesap yok, veri yok" kararını zorlar. Karar istatistiği az oyuncuyla anlamsız. Oyuncu sayısı belli olunca en çok işe yarayanla (öneri: karar istatistiği) başlanır. Ertelenen tasarımlar:
 - Arkadaş daveti: davet eden de gelen de birer ek araştırma hakkı kazanır; haklar birikir, istenen vakada harcanır. Aynı koruma: her vaka reklamsız/davetsiz haklarla `doğru` çözülür. Takip: Google Play Install Referrer.
-- Karar istatistiği: karardan sonra "Oyuncuların %38'i senin gibi karar verdi". Not vermez, sıralamaz. Plan `kaynak/final_tablo_plani.md` (sezon sonu tablosu) ile birlikte; sunucu gerekir.
+- Karar istatistiği: karardan sonra "Oyuncuların %38'i senin gibi karar verdi". Not vermez, sıralamaz. Plan `arsiv/kaynak/final_tablo_plani.md` (sezon sonu tablosu) ile birlikte; sunucu gerekir.
 *Kaynak:* 1696, 2007, 2009, 2010, 3019
 
 #### RAF-110 Rozetler ve sezon sonu tablosu kitabın kararı
-Komik rozetler ve sezon sonu tablosu (karşılaştırmasız hâli, `final_tablo_plani.md`) sunucu istemez; bunlar her kitabın kendi kararıdır, raf karışmaz. Paravan için kararlar RAF_KARARLARI §12b'de.
+Komik rozetler ve sezon sonu tablosu (karşılaştırmasız hâli, `arsiv/kaynak/final_tablo_plani.md`) sunucu istemez; bunlar her kitabın kendi kararıdır, raf karışmaz. Paravan için kararlar RAF_KARARLARI §12b'de.
 *Kaynak:* 1697
 
 #### RAF-111 Paravan'ın rozetleri: komik anlar, yalnız kazanılan görünür, Play başarı sistemi yok

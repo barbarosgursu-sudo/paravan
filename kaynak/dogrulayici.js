@@ -876,7 +876,7 @@ function kural15_sahne(game, hatalar, acilis) {
 
 
 // ============================================================================
-// YENİ OYUN — şablon denetimleri (sablon/4_motor_sinirlari.md, 7_uretim_sureci.md).
+// YENİ OYUN — şablon denetimleri (KOD-66…70; sablon/7_uretim_sureci.md; eski belge arsiv/sablon/4_motor_sinirlari.md).
 // Yalnız `kim_yapti` taşıyan vakalarda çalışır; eski oyunun vakalarında yoktur.
 // ============================================================================
 const trKucuk = x => String(x || "").toLocaleLowerCase("tr");
@@ -898,7 +898,7 @@ function girisMetni(vaka) {
   return [sahneMetni((vaka.sahneler || {}).giris), ...(vaka.giris || []).map(g => g.metin || "")].join(" ");
 }
 
-// KURAL 17 — Giriş (1. parça, "Giriş"): büro, en az 15 satır (45'i geçerse uyarı, 10 Kasım 2026), şüpheli adı, ücret,
+// KURAL 17 — Giriş (KOD-68, TON-10): büro, en az 15 satır (45'i geçerse uyarı, 10 Kasım 2026), şüpheli adı, ücret,
 // ipucu bilgisi önceden söylenmez. Kelime arar; dolaylı ele vermeyi yakalayamaz.
 function kural17_giris(game, hatalar, uyarilar = []) {
   const buro = new Set(((game.kanon || {}).sahne || {}).buro || []);
@@ -931,7 +931,7 @@ function kural17_giris(game, hatalar, uyarilar = []) {
   }
 }
 
-// KURAL 18 — İpucu adı (1. parça, "Yanlış iz"): ad, ipucu açılabilir olduğu anda
+// KURAL 18 — İpucu adı (KOD-69, BILGI-5): ad, ipucu açılabilir olduğu anda
 // oyuncunun duyduğundan fazla özel isim söylemez. Özel isim: kesmeli kelime
 // (Serkan'ın, Bebek'teki) ya da ilk kelime dışında büyük harfle başlayan kelime.
 function kural18_ipucuAdi(game, hatalar) {
@@ -964,7 +964,7 @@ function kural18_ipucuAdi(game, hatalar) {
   }
 }
 
-// KURAL 19 — Kim yaptı? ve şablonun sabitleri (1. parça; kural kitabı 24–25).
+// KURAL 19 — Kim yaptı? ve şablonun sabitleri (KOD-70; YAPI-13, YAPI-31, YAPI-32).
 function kural19_kimYapti(game, hatalar) {
   let OyunYeni;
   try { OyunYeni = require("./motor_yeni.js").OyunYeni; } catch (e) { OyunYeni = null; }

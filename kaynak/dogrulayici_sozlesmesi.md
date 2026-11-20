@@ -1,9 +1,7 @@
 # Paravan Dedektiflik — Doğrulayıcı Sözleşmesi (v1)
 
-> Bu belge, oyunu açmadan önce çalışacak **build-time doğrulayıcının** ne yapacağını
-> kesin olarak tanımlar. Amaç tek cümle: *hiçbir kaynak, oyuncunun o an bilemeyeceği
-> bir isimden veya olgudan bahsetmesin.* Yani "Nurcan hatasını" insana değil makineye
-> yakalatmak. Kodlama aşamasında (Adım 4) bu sözleşmeden gerçek kod yazılacak.
+> Doğrulayıcının amacı — KOD-53. Kuralların metni `sablon/kurallar/KURALLAR.md`'de (KOD-53…72); bu belge kodları ve
+> örnekleri tutar.
 
 ---
 
@@ -29,8 +27,7 @@ KANON = {
 }
 ```
 
-Doğrulayıcı, **tüm vakaları + KANON'u** girdi alır, beş kuralı sırayla çalıştırır,
-biri bile patlarsa çıkışı `FAIL` verir ve oyun paketlenmez.
+Doğrulayıcı ne zaman çalışır, ne çıktı verir — KOD-4.
 
 ---
 
@@ -38,14 +35,13 @@ biri bile patlarsa çıkışı `FAIL` verir ve oyun paketlenmez.
 
 ### Kural 1 — Sözlük Denetimi  *(Nurcan'ın asıl dersi)*
 
-**Ne denetler:** Her `clue`'nun `text` ve `meta` metninde geçen her **kanon ismi** ve
-her **olgu-anahtarı**, o clue'nun `needs ∪ reveals` kümesinde bulunmalı.
+**Ne denetler** — KOD-54.
 
-**Geçme koşulu:** Metinde görünen her tanınabilir isim/olgu için:
-- ya o clue onu `reveals` ediyordur (ilk kez o açıyor),
-- ya da bir `needs` şartı olarak listelenmiştir (daha önce açılmış olmalı).
+**Geçme koşulu** — KOD-54.
+- `reveals` (KOD-54),
+- ya da `needs` (KOD-54).
 
-**Patlama koşulu:** Metinde, `needs ∪ reveals`'te olmayan bir isim/olgu geçiyorsa → **FAIL**.
+**Patlama koşulu** — KOD-54 (FAIL).
 
 **Nurcan örneği (bu kuralın doğuş sebebi):**
 ```
@@ -55,8 +51,7 @@ clue "kamera":
   reveals: [...]       ← burada da YOK
 → FAIL: "kamera metni 'Nurcan' diyor ama needs/reveals'te yok."
 ```
-Düzeltme iki yoldan biri olur: ya `needs:["nurcan_suclamasi"]` eklenir (o ismi açan
-kaynak görülmeden kamera açılmaz), ya da isim metinden çıkarılır.
+Düzeltme iki yoldan biri — KOD-54 (`needs:["nurcan_suclamasi"]` eklenir ya da isim metinden çıkarılır).
 
 **Doğru örnek (Paravan V3):**
 ```
@@ -67,35 +62,19 @@ clue "cengo_okuma":
 → PASS: metinde "Cavit" ismi GEÇMİYOR; sadece "biri" deniyor (el_var, isimsiz).
 ```
 
-> **Kapsam notu (sonraki tur).** Kural 1 dört noktada keskinleşti:
-> (1) "Girişte tanıtılmış" sayılan isimler yalnızca **varsayılan** giriş varyantından alınır —
-> tüm varyantların birleşimi, bir varyantta geçen ismi o vakanın her kaynağında serbest
-> kılıyordu. (2) Koşullu metinler (varyant dizisi) **her varyant ayrı** denetlenir; varyantın
-> koşul olguları o varyantın havuzuna katılır. Kaynak `ad`'ı da taranır — araştırma ekranında
-> açmadan önce görünen tek şey odur. (3) Havuzdaki türetilmiş olgular bileşenlerine açılır;
-> ismi taşıyan açıklama bileşende durabilir. (4) Varyantın koşulu bir tohumsa,
-> `KANON.tohum_isimleri` o tohumun hangi değerinde hangi isimleri garanti ettiğini söyler.
->
-> **İsim tespiti notu:** Doğrulayıcı KANON.isimler listesini kelime sınırıyla arar
-> (büyük/küçük harf ve Türkçe ekler dahil: "İlyas", "İlyas'ı", "İlyas'ın" → hepsi
-> "İlyas" sayılır). Olgu-anahtarları metne `{olgu}` şablonuyla veya açık atıfla girer;
-> serbest metinde olgu-anahtarı geçmesi beklenmez, isimler asıl risktir.
+> **Kapsam notu (sonraki tur)** — KOD-54.
 
 ---
 
 ### Kural 2 — Erişilebilirlik Denetimi  *(ulaşılamaz bilgi / ölü karar)*
 
-**Ne denetler:** `knowledge` ve `decisions` içinde kullanılan her olgu ve çıkarımın,
-en az bir yoldan **açılabilir** olduğunu.
+**Ne denetler** — KOD-55.
 
 **Geçme koşulu:**
-- Bir `knowledge` çıkarımının `gerekli` listesindeki her olgu, en az bir clue tarafından
-  `reveals` ediliyor **veya** başka bir ulaşılabilir çıkarımdan türüyor.
-- Bir `decision`'ın `gate`'i, ulaşılabilir bir olgu/çıkarım.
+- `knowledge` çıkarımının `gerekli` olguları (KOD-55).
+- `decision`'ın `gate`'i (KOD-55).
 
-**Patlama koşulu:** Hiçbir clue'nun `reveals` etmediği ve hiçbir çıkarımdan türemeyen bir
-olgu, bir `knowledge` veya `gate` içinde kullanılıyorsa → **FAIL**
-("ulaşılamaz bilgi: oyuncu bu olguya asla varamaz").
+**Patlama koşulu** — KOD-55 (FAIL, "ulaşılamaz bilgi").
 
 **Örnek:**
 ```
@@ -109,29 +88,23 @@ knowledge: cinayet_suphesi = dusus_acisi VE (ceyda_celiski VEYA komsu_ses)
 
 ### Kural 3 — Bağımlılık Döngüsü Denetimi
 
-**Ne denetler:** `needs` zincirlerinde kısır döngü olmadığını.
+**Ne denetler** — KOD-56.
 
-**Geçme koşulu:** clue'ların `needs` bağımlılık grafiği **döngüsüz** (DAG). Yani
-"A açılması için B, B açılması için A" gibi bir çember yok.
+**Geçme koşulu** — KOD-56 (DAG).
 
-**Patlama koşulu:** Bir döngü tespit edilirse → **FAIL** ("kilitli kapı arkasında kilitli
-anahtar: şu clue'lar birbirini bekliyor: [...]").
+**Patlama koşulu** — KOD-56 (FAIL).
 
-**Not:** Girişi `needs:[]` olan (baştan açık) en az bir clue her vakada bulunmalı,
-yoksa vaka hiç başlamaz — bu da bu kural altında FAIL sayılır ("vakanın açık girişi yok").
+**Not:** açık giriş (`needs:[]`) — KOD-56.
 
 ---
 
 ### Kural 4 — Truth Uyumu Denetimi
 
-**Ne denetler:** Hiçbir clue'nun, vakanın `truth` objesiyle çelişen bir olgu
-`reveals` etmediğini.
+**Ne denetler** — KOD-57.
 
-**Geçme koşulu:** Her `reveals` edilen olgu, `truth`'ta "YOK/GİZLİ" işaretlenmiş bir
-gerçeği açığa vurmuyor.
+**Geçme koşulu** — KOD-57.
 
-**Patlama koşulu:** `truth` bir şeyi "bu vakada YOK" diyorsa ve bir clue onu açıyorsa →
-**FAIL**.
+**Patlama koşulu** — KOD-57 (FAIL).
 
 **Örnek (V2):**
 ```
@@ -145,16 +118,11 @@ truth (V2): ilyas_cinayet = "GİZLİ — bu vakada YOK"
 
 ### Kural 5 — Belirsizlik Denetimi  *(Ceyda koruması)*
 
-**Ne denetler:** `KANON.belirsiz` listesindeki konuların (ör. `ceyda_pay`,
-`kaya_biliyordu`) tek yönlü kesin bir hükme bağlanmadığını.
+**Ne denetler** — KOD-58 (`KANON.belirsiz`: `ceyda_pay`, `kaya_biliyordu`).
 
-**Geçme koşulu:** Belirsiz bir konuyla ilgili her olgu/metin, **çift-okunuş** taşır
-(hem "soğuk hesap" hem "korkan mağdur" gibi iki yorumu birden barındırır) veya en azından
-tek yönlü kesin bir yargı **cümlesi kurmaz.**
+**Geçme koşulu** — KOD-58 (çift okunuş).
 
-**Patlama koşulu (uyarı):** Belirsiz bir konuda "kesinlikle / açıkça / hiç şüphesiz X'tir"
-gibi tek yönlü bir hüküm cümlesi tespit edilirse → **WARN** (sert FAIL değil; çünkü dil
-tespiti kusursuz değil, ama yazarı uyarır).
+**Patlama koşulu (uyarı)** — KOD-58 (WARN).
 
 **İstisna:** `kaya_biliyordu` finalde (V6) **çözülür** — "bilmiyordu" kesinleşir. Bu yüzden
 Kural 5, `kaya_biliyordu` için yalnızca **V6 dışındaki** vakalarda geçerlidir. V6'da bu
@@ -178,28 +146,26 @@ Kural 5 (Belirsizlik):    1 UYARI
 SONUÇ: PASS (1 uyarı) — oyun paketlenebilir.
 ```
 
-- **FAIL** varsa: sonuç `BLOCKED`, oyun paketlenmez, hangi vaka/clue/kural olduğu yazılır.
-- **Yalnız WARN** varsa: sonuç `PASS (n uyarı)`, oyun paketlenir ama yazar uyarılır.
-- Hepsi temizse: `PASS` .
+- **FAIL** → `BLOCKED` (KOD-4).
+- **Yalnız WARN** → `PASS (n uyarı)` (KOD-4).
+- Hepsi temizse: `PASS` (KOD-4).
 
 ---
 
 ## 4. Ne zaman çalışır
 
-- Her oyun değişikliğinden sonra, `node --check`'ten **önce**.
-- Görseller/ses gömülmeden önce (metin ve mantık dondurulurken).
-- İdeal olarak tek komut: `node dogrulayici.js` → yukarıdaki raporu basar.
+- Her oyun değişikliğinden sonra (KOD-4, KOD-3).
+- Görseller/ses gömülmeden önce (KOD-4).
+- Komut: `node dogrulayici.js` (yeni oyun: `node dogrulayici.js yeni`) — KOD-4.
 
 ---
 
 ## 5. Kapsam DIŞI (dürüst sınırlar)
 
-Doğrulayıcı şunları yakalamaz — bunlar insan kontrolünde kalır:
-- **Anlatısal tutarlılık:** İki cümlenin *mantıken* çelişmesi (ör. bir yerde "sabah",
-  başka yerde "gece") — doğrulayıcı olgu-anahtarı düzeyinde bakar, üslup/zaman düzeyinde
-  değil. Bunun için ayrı bir "kanon dosyası" tek gerçek kaynağı olarak tutulur.
-- **Ton/kalite:** Bir metnin sıkıcı, düz veya duygusuz olması. (Bu tasarım işi.)
-- **Denge:** Bir kararın çok kolay/zor, bir ödülün çok cömert olması.
+Doğrulayıcının kapsamı dışı (insanda kalır) — KOD-72:
+- **Anlatısal tutarlılık** (KOD-72).
+- **Ton/kalite** (KOD-72).
+- **Denge** (KOD-72).
 
 Bu sınırlar, doğrulayıcının **çelişki** (yapısal) ile **kalite** (yazınsal) sorunlarını
 ayırdığını gösterir: makine birincisini garanti eder, ikincisi bizde kalır.
@@ -219,15 +185,14 @@ oyunun içine sızamaz.
 
 Sözleşme beş kuralla yazıldı; uygulama sırasında altı kural daha eklendi (K6 bütçe,
 K7 seçim baskısı, K8 baskınlık, K9 ölü tohum, K10 olgu sızıntısı, K11 olgu kimliği).
-Hepsinin gerekçesi ve şiddeti `OKUBENI.md` → "Doğrulayıcı kuralları" tablosunda.
+Hepsinin gerekçesi ve şiddeti `arsiv/uretim/OKUBENI.md` → "Doğrulayıcı kuralları" tablosunda.
 
 ### Kural 11 — Olgu kimliği (hata)
 
-**Ne denetler:** Bir olgu adının (`facts` anahtarı ya da `knowledge.turetilen`) yalnızca
-tek bir vakada tanımlı olduğunu.
+**Ne denetler** — KOD-63.
 
 **Neden:** Vaka bitince olgular `kaliciOlgular`a taşınıyor; künye katmanları ve koşullu
 metinler bu birleşik kümeyi okuyor. Aynı ad iki vakada iki şey anlamına gelirse, birinde
 hak edilen bilgi ötekinin kapısını açar — Nurcan kuralının sessiz bir ihlali.
 
-**Patlama koşulu:** Aynı olgu adı birden çok vakada tanımlıysa → **FAIL**.
+**Patlama koşulu** — KOD-63 (FAIL).

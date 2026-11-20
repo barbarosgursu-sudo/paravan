@@ -1,7 +1,7 @@
 # YENİ OYUN — GÖRSEL PROMPTLARI
 
-*Yeni oyunun görsel siparişleri. Eski oyununkiler `gorsel_promptlari.md` ve
-`gorsel_promptlari_2.md`'de; o belgelerdeki dersler (nesneleri tek tek say, yazı
+*Yeni oyunun görsel siparişleri. Eski oyununkiler `arsiv/kaynak/gorsel_promptlari.md` ve
+`arsiv/kaynak/gorsel_promptlari_2.md`'de; o belgelerdeki dersler (nesneleri tek tek say, yazı
 taşıyan yüzü kapat, yönü burun-kulak geometrisiyle ver, "görünmesin" deme) burada da
 geçerli.*
 
@@ -100,7 +100,7 @@ ve `deneme_peri_b.webp`'de duruyor (referans olarak, oyuna gömülmedi).
 | **Yazı taraması** | Temiz: düğmede, küpede, kuşakta harf/logo yok. |
 | **Arka plan** | Düz bej, nesne yok. Kesip sahneye koymaya uygun. |
 | **Kadraj** | Diz yerine uyluk ortasından kesilmiş. Sprite için sorun değil. |
-| **Göğüs dekoltesi** | Derin. **Sahibinin kararı (4 Ekim 2026): olduğu gibi kalıyor, ve bütün vakalarda, bütün kıyafetlerde bu seviyede — azalmaz.** Kural `YENI_OYUN_SEZON.md` §0. |
+| **Göğüs dekoltesi** | Derin. **Sahibinin kararı (4 Ekim 2026): olduğu gibi kalıyor, ve bütün vakalarda, bütün kıyafetlerde bu seviyede — azalmaz.** Kural `arsiv/kaynak/YENI_OYUN_SEZON.md` §0. |
 
 **Açık karar (sahibi):** bu tarzda mı kalınacak, yoksa daha çizgisel bir tarz
 için ikinci deneme mi yapılacak?

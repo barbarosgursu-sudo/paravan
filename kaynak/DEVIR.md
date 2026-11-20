@@ -31,7 +31,7 @@
 > ## ✍️ ORTAKTAN BARBAROS'A (19 Kasım 2026, 22:05) — VAKA 8 BAŞLADI, ONAY 1 VERİLDİ
 > - **Kurallar (V7'den sonra):** kural kitabına **15c** (konuklar birbirine benzemez; soru 30 sözüyle) işlendi; 6. parça
 >   güncellendi (§0 önceki vakalardan ayrışma, "eski konuklardan ayıran" satırı, kasa yok, sabit "4 ifade" yok);
->   `TASLAK_tekrar_onleme.md` §1'e V6–V7 eklendi.
+>   `arsiv/sablon/TASLAK_tekrar_onleme.md` §1'e V6–V7 eklendi.
 > - **Vaka 8 "İade"** (Bilmece): suçlu Peri'nin avukatı değil, onun adamı "Avukat Tarkan" (Ozan); kovalamacada patronu
 >   **Nihat Kora**'ya götürür, ikisi birlikte yakalanır; kararı Nihat sorar. Kayıt: `sablon/vakalar/vaka8_baslangic.md`,
 >   form `vaka8_form.md` (Onay 1 ✅). **Kanona girdi:** avukatın adı Nihat Kora; Cengo'yu tanımaz, kimliğini otoparktan
@@ -67,7 +67,7 @@
 > peri_manto_normal.webp`) **kruvaze, yalnız kuşakla bağlı, geniş yakası açık, kapaksız cepli, altında V yakalı krem saten bluz**.
 > Bu hâliyle üretilirse oyuncu başka bir manto görür. Claude'un önerisi: G1, Vaka 1'deki mantoya göre düzeltilsin (biçim için
 > Vaka 1 resminin dekoltesiz kırpığı referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `altin_temiz`) de
-> aynı konuşmada geçilsin.
+> aynı konuşmada geçilsin. *(Kural: SUREC-40)*
 
 > ## 📏 ORTAKTAN BARBAROS'A (16 Kasım 2026, 22:00) — YENİ GENEL KURAL İSTEĞİ: KONUKLAR BİRBİRİNE BENZEMEZ
 > Oğuz Bey bunun bütün seri için genel kural olmasını istiyor ("her vakada bir kez kullanılacak, bir daha kullanılmayacak
@@ -83,7 +83,7 @@
 >
 > **Bağlı yerler (öneri):** 6. parça (form) karakter tarifine "eski konuklardan ayıran: …" satırı; 7. parça Onay 1 denetimine
 > "tarif eski konuklarla karşılaştırıldı" maddesi. **V1–V6:** yeniden geçirilirken aynı göz denetimi yapılsın (V6'da Müzeyyen,
-> Dilek, Tahsin, Recep zaten değiştirilmişti; ama Necmi/Ercan Recep'in yüzüne kaydı — üretici aynı kalıba dönüyor).
+> Dilek, Tahsin, Recep zaten değiştirilmişti; ama Necmi/Ercan Recep'in yüzüne kaydı — üretici aynı kalıba dönüyor). *(Kural: SEZON-19)*
 
 > ## 🖼️ ORTAKTAN BARBAROS'A (16 Kasım 2026, 21:50) — V7 PARTİ 1 ÜRETİLDİ; DURDURMA NOTUN GÖRÜLDÜ
 > Senin durdurma notun gelmeden döngü Parti 1'i bitirmişti (21:23). **Hiçbiri onaylanmadı, gömülmedi**; yeni üretim yok.
@@ -224,19 +224,19 @@
 > silindi, `kim_yapti.ucret` kademeleri eşit (dogru = zayif = yanlis), `kesinti` yok. `arac_diyalog.js`: `## ucret` isteğe bağlı.
 > Kural: 2. parça 25, 1. parça "Bedel sahnededir". Sus payı / prim (kesinti değil) kaldı. **V1–V5'teki kesinti metinleri bilerek
 > bırakıldı** (yeniden geçirilecekler; o zaman `## ucret` silinir, kademeler eşitlenir). Sızıntı taraması V6 40 temiz.
-> ✅ **Kare ekrandayken yer etiketi gizli (aynı gün):** sofra karesinin üstünde "Büro · akşam" yazıyordu (`vnKareGoster`).
+> ✅ **Kare ekrandayken yer etiketi gizli (aynı gün):** sofra karesinin üstünde "Büro · akşam" yazıyordu (`vnKareGoster`). *(Kural: YAPI-32)*
 
 > ✅ **Aynı kare üst üste satırlarda kalır (16 Kasım 2026, sahibinin kararı):** V6 D18'de (Eylül'ün zarfları) kare her satırda
 > silinip yeniden beliriyor, arada büro bir an görünüyordu. Artık aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir
-> (`yeni_arayuz.js → vnKareGoster`, kare kodu `data-kod`'da). Bütün vakalara uyar; farklı kareye ya da karesiz satıra geçiş eskisi gibi.
+> (`yeni_arayuz.js → vnKareGoster`, kare kodu `data-kod`'da). Bütün vakalara uyar; farklı kareye ya da karesiz satıra geçiş eskisi gibi. *(Kural: ARAYUZ-15)*
 
 > ✅ **Karşılıklı konuşmada yerler sabit (16 Kasım 2026, sahibinin kararı; `86db39d`):** V6 girişinde Gizem ↔ Eylül her satırda
 > yer değiştiriyordu (`ekran` etiketinin sırası konuşanı sola alıyordu). Artık aynı iki kişi bir önceki satırda da ekrandaysa
 > yerleri korunur, yalnız konuşan aydınlanır; yer ancak ekrandaki çift değişince değişir. Peri hep solda. Kod `yeni_arayuz.js`
-> (`vnSatirGoster`, `ekran` dalı), kural `sablon/5_gorsel_sistemi.md` SR-G. Yalnız `ekran` etiketli vakalara (V6, V7) uyar.
+> (`vnSatirGoster`, `ekran` dalı), kural `arsiv/sablon/5_gorsel_sistemi.md` SR-G. Yalnız `ekran` etiketli vakalara (V6, V7) uyar.
 > V6 tarandı: bu türden başka yer kalmadı. Kalan taraf değiştirmeler (Cengo konukla solda, Peri konuşunca sağda; tek görünen
 > konuk karşısına biri gelince sola) **sahibince sorunsuz bulundu, dokunulmayacak.** V1–V5'te iki örnek var (V4: Rana ↔ Feraye,
-> Feraye ↔ Sadık; eski `kime` düzeni) — **bilerek düzeltilmedi**, o vakalar zaten yeni kurallara göre yeniden geçirilecek.
+> Feraye ↔ Sadık; eski `kime` düzeni) — **bilerek düzeltilmedi**, o vakalar zaten yeni kurallara göre yeniden geçirilecek. *(Kural: ARAYUZ-17)*
 
 > ✅ **Gözden geçirme bitti (16 Kasım 2026, Barbaros + Oğuz Bey):** aşağıdaki 6 replik **onaylandı**; Vaka 6'nın geri kalanı
 > **uygun**, eklenecek/çıkarılacak bir şey yok. **Kalan tek iş: 7 yeni replik (4 ve 5), Oğuz Bey yazacak.**
@@ -309,16 +309,9 @@
 > - ~~**Kod:** `motor_yeni.js` (ücret/kasa kalkar), `yeni_arayuz.js` (karar → konuşma seçimi, sonuç sahnesi, kapanış kartı, kasa
 >   göstergesi/hesap kutusu/Anı kasası kalkar), doğrulayıcı (ikilem denetimi para yerine), testler. Eski oyun (`motor.js`, `index.html`)
 >   etkilenmez.
-> - **Sıra:** önce **Vaka 6** (resimleri tam) → tutarsa V7, V8 bu düzenle → V1–V5 yeniden geçirilir.
+> - **Sıra:** önce **Vaka 6** (resimleri tam) → tutarsa V7, V8 bu düzenle → V1–V5 yeniden geçirilir. *(Kural: YAPI-23, YAPI-24, YAPI-25, YAPI-26, YAPI-28, YAPI-30, YAPI-31, YAPI-35)*
 
-> ✅ **Barbaros onayladı (16 Kas): kural 19a yazıldı** (2. parça; 5. parça A ve E.13; `uretim/CLAUDE.md`; `istem_kontrol.sh` istemde
-> sigara/tütün sözünü yakalar). Doğrulayıcıya metin taraması henüz yok (kod adımında eklenebilir).
-> **Ortaktan not (16 Kasım 2026, Barbaros'a) — YENİ KURAL İSTEĞİ: SİGARA YOK.**
-> Ortağın kararı: bu seride **hiçbir yerde sigara içilmez**; sigarayla ilgili hiçbir konu geçmez (metin, sahne notu, ifade/poz adı,
-> kare tarifi) ve **sigara içen resim yapılmaz**. Ortak bunun **kural hâline getirilmesini** istiyor (kural kitabı + görsel sistemi;
-> istersen doğrulayıcıya "sigara/tütün/izmarit" taraması). Yapılan: Vaka 7'deki tek örnek (Nesrin ipucu, arka avlu: Nesrin ve
-> Cengo sigara içiyordu) değiştirildi — artık bir basamakta oturup kedilere bakıyorlar; `nesrin.sigara` ifadesi silindi. Yeni oyunun
-> verisinde (V1–V7) ve şablonlarda başka sigara geçmiyor (16 Kas taraması).
+> **Barbaros onayladı (16 Kas): kural 19a yazıldı** — SINIR-13.
 
 > **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7 SON HÂLİ KAYDEDİLDİ, ONAYINI BEKLİYOR (DONMADI):**
 > Adım 7 bitti (c3c47bf): taç her yolda Peri'ye geçiyor (ihbar: Süheyla katalog fiyatına satar, "eksiği benden"; sus: kasa
@@ -334,7 +327,7 @@
 > 4. **"Tacı Cengo'ya bırak":** Cengo tacı kendi parasıyla alır, kapanışta Peri'ye verir (taç alınmış sayılır).
 > 5. **Fiyat ~200.000 ₺** (kasanın ortası; yaklaşık yarısına yetmez, "kasa yetmiyor" komedisi çalışır).
 > Vaka 7'nin metni (form, karar metinleri, kapanış) buna göre adım 7'de düzeltilecek. Kural 24/27 ve motor işi (kasadan düşme,
-> kasaya göre sonuç, "taç alındı" işareti) sende. Onay 2 verildi (düzeltmesiz); hikâye bu düzeltmeden sonra donar.
+> kasaya göre sonuç, "taç alındı" işareti) sende. Onay 2 verildi (düzeltmesiz); hikâye bu düzeltmeden sonra donar. *(Kural: YAPI-35)*
 
 > **Barbaros'tan Oğuz Bey'e (15 Kasım 2026) — Vaka 7, taç ve kasa: CEVAP + SANA ÜÇ SORU**
 >
@@ -364,7 +357,7 @@
 > - **"İhbar et":** formda "taç bu akşam satılmaz / taç yok", kapanışta kâğıt taç. Karara göre ihbarda da taç V7'de alınmalı (3. soru).
 > - **"Tacı Cengo'ya bırak":** taç Cengo'da kalıyor ("Alacağıma sayarım"). Bu "taç alındı" sayılır mı, yoksa sonunda Peri'ye mi geçer? — senin kararın.
 > - **Fiyat:** önerdiğin ~80.000 ₺ ile kasa (V7'ye 72.000+ gelir) hemen herkese yetiyor; "kasa yetmezse Cengo/dalavere" yolu
->   neredeyse hiç açılmaz. Komedinin çalışması isteniyorsa fiyat daha yüksek (kasanın ortası) olmalı; istemezsen böyle de olur.
+>   neredeyse hiç açılmaz. Komedinin çalışması isteniyorsa fiyat daha yüksek (kasanın ortası) olmalı; istemezsen böyle de olur. *(Kural: YAPI-35)*
 
 > **Ortaktan not (15 Kasım 2026, Barbaros'a) — Vaka 7, taç ve kasa — CEVAPLANDI (yukarıda) (kod/kural işi, senin kararın):**
 > (1) Motor kasaya bağlı sonuç bilmiyor (kapanış yalnız bağa göre); kanon "taç kasaya bağlı" diyor.
@@ -384,7 +377,7 @@
 > **Barbaros'tan Oğuz Bey'e (15 Kasım 2026): senin yaptığın G65'i kullanıyoruz.** Önce "geçersiz" denmişti; aynı gece
 > Barbaros senin G65'ini (Düzeltme 2) kabul etti — gömülü
 > olan o (`ara_k96.webp`, `onayli/G65.png`, el onayı `fa557717b270`). Vaka 6'nın resimleri Barbaros'ta; ortak Vaka 7'ye bakıyor.
-> V6'ya resim gömmeden önce Barbaros'a sor.
+> V6'ya resim gömmeden önce Barbaros'a sor. *(Kural: ARAYUZ-16, ARAYUZ-38)*
 
 ## 00000000000000000000000000000000000. ⬅️ 15 Kasım 2026, 11:40 — VAKA 6 DONDU
 
@@ -404,9 +397,7 @@ K11'di (Üsküdar apartman, Peri'nin dirseği Recep'in kolunda): yerleşimle ç�
 üretimde (`uretim/v6/DURUM.md` en üst). **Sahibinin sırası: aşağıdaki iki denetim bu üç resim GÖMÜLDÜKTEN SONRA koşulur.**
 
 **"Yeni pencerede devam edelim" denince — sahibine sormadan bu iki denetimi koş (Barbaros'un isteği, 15 Kasım 2026):**
-1. **Sızıntı taraması** (adım 14'ün ön koşulu): `cd kaynak && node arac_sizinti_tur.js V6 40` — çıkış 1 = sızıntı. Sonra
-   `kaynak/YENI_UI/sizinti_okuma.txt`'yi elle oku (Nurcan; "Dosya çözüldü", `## cozum` ve karar metinleri yalnız her yolda oynayan
-   sahneleri anar — CLAUDE.md). Bulguyu sahibine kısa liste olarak ver; metin değiştirme "önce konuş" kuralına tabi.
+1. **Sızıntı taraması** — SUREC-27, SUREC-1 (`cd kaynak && node arac_sizinti_tur.js V6 40`).
 2. **Ekran boyu denetimi** (yeni resimler girdi): `node arac_yeni_tur.js sofra dogru --tablet` (tablet dikey, eşik tutmazsa hata
    basar) ve `node arac_yeni_tur.js sofra dogru --cihaz` (~3 dk, 19 boy; çıktı `YENI_UI/cihaz/`, bayraklar `bayraklar.txt`). Bayraklar
    ADAY'dır: karşılaştırma sayfasına göz at; bilinen tek bayrak 1280×650 seçim ekranı. Gerekirse öteki yollar (`siparis|kagit|cozmez6`).
@@ -426,20 +417,18 @@ Sonuçları `uretim/v6/DURUM.md` en üste yaz, commit + push (`main`).
 
 - **Kapı** (`kaynak/arac_kapi.js`, sahibinin kararı): vaka kaydedilmeden önce 13 kural + eski denetimler kendiliğinden koşar. Vaka 6 ve
   sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) yazıldı ama
-  **Vaka 6 kapıdan geçince açılacak** (`.claude/settings.json` henüz yok). Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle").
+  **Vaka 6 kapıdan geçince açılacak** (`.claude/settings.json` henüz yok). Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). *(Kural: KOD-35)*
 - **Vaka 6 kalan:** 11 resim (G87–G95, G65 ve G46 yeniden) — **Barbaros kendi bilgisayarında üretiyor** (Oğuz Bey'e mesaj kaldırıldı).
   Ayrıntı ve bağlama etiketleri `uretim/v6/DURUM.md` en üst. Üretim artık iki bilgisayarda da olabilir (`uretim/CLAUDE.md` başı).
-- Figür kesimi yapay zekâyla (`arac_kes_yz.py`, tek yöntem); el denetimi `arac_el.py` (onayı sahibi verir).
+- **Figür kesimi yapay zekâyla (tek yöntem)** — GOMME-1.
 
 ## 00000000000000000000000000000000. ⬅️ 14 Kasım 2026 — ROL DEĞİŞTİ: BÜTÜN ÜRETİM OĞUZ BEY'DE
 
 **Barbaros'un kararı (14 Kasım 2026):**
-- Vaka metinlerini ve resimleri bundan sonra yalnız **Oğuz Bey** üretir, Oğuz Bey'in bilgisayarında (`C:\Yazilim\paravan`).
-  Barbaros vaka üretmez ve kendi bilgisayarında Codex kullanmaz.
-- Codex ve web ChatGPT için **Barbaros'un hesabı** kullanılır. Bu şimdilik böyle, ileride değişebilir.
-- Belgelerde "sahibine onaya / sahibine sor" yazan üretim işlerinin hepsi Oğuz Bey'e gider: temel onayı, resim onayı/reddi,
-  web listesi (filtreye takılanlar), tarz soruları.
-- Barbaros'a danışılan işler değişmedi: yeni kural ya da kural değişikliği, kod ve altyapı, yayın (aşağıda 11 Kasım rol ayrımı).
+- **Rol ayrımı: kim neye karar verir** — SUREC-4.
+- **Rol ayrımı: kim neye karar verir** — SUREC-4.
+- **Rol ayrımı: kim neye karar verir** — SUREC-4.
+- **Rol ayrımı: kim neye karar verir** — SUREC-4.
 - G2, G86 ve G6 temelleri 13 Kasım akşamı Barbaros'ça ONAYLANDI (`uretim/v6/DURUM.md`); aşağıdaki "onayını bekliyor" eskidi.
 - Kurulum 14 Kasım'da yapıldı, G47 denemesi onaylı (`uretim/KURULUM_ORTAK.md` → Kayıt).
 - **Sıradaki iş:** Vaka 6 resimlerinin kalanı (46 resim, döngü) — güncel durum ve komut `uretim/v6/DURUM.md` en üst blok.
@@ -455,9 +444,9 @@ Sonuçları `uretim/v6/DURUM.md` en üste yaz, commit + push (`main`).
 
 **Kurulum notu (yalnız Barbaros isteyince):** Barbaros Oğuz Bey'in bilgisayarının başına geçip "resim üretim programlarını
 kurdurt" dediğinde `uretim/KURULUM_ORTAK.md`'yi ona adım adım uygulat. Kurulumu yalnız Barbaros yapar; Oğuz Bey'in oturumlarında
-bu konuyu açma (Barbaros, 13 Kasım).
+bu konuyu açma (Barbaros, 13 Kasım). *(Kural: SUREC-6)*
 
-**Vaka 6 resimleri:** tarz kayması bulundu (Cengo kartı → bütün Cengo seti; teşhis `uretim/v6/DURUM.md`). Kural `ISTEM_KALIPLARI.md`
+**Vaka 6 resimleri:** tarz kayması bulundu (Cengo kartı → bütün Cengo seti; teşhis `uretim/v6/DURUM.md`). Kural `arsiv/uretim/ISTEM_KALIPLARI.md`
 §11. Yeni temeller G2, G86, G6 Barbaros'un onayını bekliyor (⚠ eskidi: 13 Kas akşamı onaylandı). Her resmi yazılımla tarz denetiminden geçirecek araç
 (`kaynak/arac_tarz.py`, PyTorch) yazılıyor; araç sınavı geçmeden döngü yeniden başlamaz.
 
@@ -483,22 +472,22 @@ denetle → temelleri Barbaros'a onaya.
 - Görünüş değişti (Barbaros onayı): Müzeyyen (Nadide'ye benziyordu; dikiş çantası da Nurcan sızıntısıydı), Recep, Dilek,
   Tahsin — `vaka6_form.md` §16, `vaka6_diyalog.md` (Müzeyyen'in tarif satırı), veri yeniden yazıldı; doğrulayıcı PASS,
   iki derleme, testler geçti, eski `index.html` aynı.
-- `5_gorsel_sistemi.md` H2'ye V6 karakterleri (başlangıç değerleri), `uretim/CLAUDE.md`'ye kural 9–10 (eski karakterlerle
+- `arsiv/sablon/5_gorsel_sistemi.md` H2'ye V6 karakterleri (başlangıç değerleri), `uretim/CLAUDE.md`'ye kural 9–10 (eski karakterlerle
   karşılaştırma, elde yalnız metindeki nesne) ve yeni karakter sabitleri.
 
 **Barbaros'a açık sorular (üretimi bekletmiyor):**
 1. Konuk kıyafet kartı altı konuğa mı, yalnız karede görünenlere mi (Müzeyyen, Jale, Dilek)? — Parti 2'den önce.
    → *Cevap (13 Kas):* **yalnız üçüne** (kota); sonradan kareye giren olursa kartı o zaman. İki zemin kuralı olduğu gibi kalır
-   ("şimdilik kurallar neyse o"). `uretim/v6/LISTE.md`'ye yazıldı.
+   ("şimdilik kurallar neyse o"). `uretim/v6/LISTE.md`'ye yazıldı. *(Kural: ISTEM-18)*
 2. `uretim/v6/satir_resim.md`'deki 29 bayrak ve Müzeyyen'in iki satırı (börek tepsisi pozu; "Kanıtınız ne?" güler yüzle) —
    Parti 3'ten (ifadeler, kareler) önce.
    → *Cevap (13 Kas):* "en az karar bana gelsin, her şey kurala bağlansın, sahneler saçma olmasın; onayladığımız diyaloglar
-   değişmesin, değişecekse resim üretilsin." Yapıldı: kural **SR-M** (`5_gorsel_sistemi.md`), motor kuralı (Peri'nin `kime`si sahnedeyse
+   değişmesin, değişecekse resim üretilsin." Yapıldı: kural **SR-M** (`arsiv/sablon/5_gorsel_sistemi.md`), motor kuralı (Peri'nin `kime`si sahnedeyse
    sağa gelir, `yeni_arayuz.js`; V1–V5'i de etkiler), `arac_satir_resim.js` bayrakları OTO/İŞ/SOR ayırır. V6 diyaloğunda yalnız
    etiketler değişti (söz farkı 0, makineyle sınandı); 11 yeni resim (`uretim/v6/LISTE.md`).
    **Barbaros'a öneri:** SR-M8 — araç hikâye donmadan önce (adım 5) de koşsun ki sözle çözülecek olan o zaman çözülsün.
    → *Cevap (14 Kas):* kabul; adım 5'te yalnız İŞ yazara, SOR adım 8'de sahibine. Vaka 7'den itibaren. `7_uretim_sureci.md`
-   (adım 5 ve Satır–resim uyumu) ile `5_gorsel_sistemi.md` M8'e yazıldı.
+   (adım 5 ve Satır–resim uyumu) ile `arsiv/sablon/5_gorsel_sistemi.md` M8'e yazıldı. *(Kural: SATIR-11, SATIR-12, SATIR-10, SATIR-4)*
 
 **Bu bilgisayarda yerel not:** "eski yerel Vaka 5 değişiklikleri" stash'i Barbaros'un isteğiyle silindi (13 Kas).
 
@@ -516,14 +505,14 @@ ortakta; adım 7 kapandı. Plana göre (aşağıda "YENİ PLAN") Vaka 6 **resims
   (adım 5'te 2 sızıntı düzeltildi: Jale'nin MASUM satırı; bank itirafa girdi).
 - **Süre:** metin aşaması toplam ~3 sa 14 dk (`vaka6_baslangic.md` §2). Saat durdu.
 - **Saat kaydı düzeltmesi:** 12 Kasım'daki V6 saatleri UTC ile yazılmıştı (Git Bash `TZ=Europe/Istanbul`'u tanımıyor);
-  hepsi +3 saat düzeltildi. Doğru saat için kabukta yalnız `date` kullanılır. V5 kayıtları doğru.
+  hepsi +3 saat düzeltildi. Doğru saat için kabukta yalnız `date` kullanılır. V5 kayıtları doğru. *(Kural: SUREC-30)*
 
 **Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
 1. **Vaka 6'nın hikâyesi dondu.** Barbaros okuyup itiraz etmek isterse şimdi etmeli. → *Cevap (13 Kas):* itirazı yok.
 2. **Kanon değişikliği:** ortak Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda 18'di, reşit); Cengo ile
    Gamze evliymiş, sonra ayrılmışlar (sebebi açık nokta). Yeni kanon: Eylül, Gamze, Haldun Bey, Müzeyyen Hanım, Jale Hanım;
    Cengo cumartesileri bankta kızını izler; bileklik Eylül'ün yedi yaşındaki işi; Eylül Peri'yi kıskanır, Gizem'le anlaşır
-   (`3_kanon_kaydi.md`). `YENI_OYUN_SEZON.md`'deki "on yedi" güncellensin mi? → *Cevap (13 Kas):* evet — iki satırda 17 → 16 yapıldı.
+   (`3_kanon_kaydi.md`). `arsiv/kaynak/YENI_OYUN_SEZON.md`'deki "on yedi" güncellensin mi? → *Cevap (13 Kas):* evet — iki satırda 17 → 16 yapıldı.
 3. **V6 K17 uyarısı** (giriş 56 replik; Eylül'ün kıskançlığı ve Gizem girişi uzattı): kabul edilmiş uyarı sayılsın mı?
    → *Cevap (13 Kas):* kabul; `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı.
 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 6'nın yolları** eklensin mi:
@@ -535,12 +524,12 @@ ortakta; adım 7 kapandı. Plana göre (aşağıda "YENİ PLAN") Vaka 6 **resims
 
 **Ortağın yedi kuralı (TASLAK §12) onaylandı, Vaka 6'dan itibaren geçerli:** A, B, C olduğu gibi; **D, E, F iptal** (önce
 onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge değil, Onay 2'den önce `3_kanon_kaydi.md` okunur. İşlendi:
-`6_vaka_formu.md` (§2 kişi tablosu, §12 "kim neyi biliyor", §19), `7_uretim_sureci.md` (adım 6, bulanık replik taraması).
+`6_vaka_formu.md` (§2 kişi tablosu, §12 "kim neyi biliyor", §19), `7_uretim_sureci.md` (adım 6, bulanık replik taraması). *(Kural: SUREC-38)*
 
-**YENİ PLAN (önceki sırayı değiştirir; `RAF_KARARLARI.md` yayın sırası buna göre okunur):**
-1. **Vaka 6, 7, 8** yazılır — **resimsiz**; üçünün de onayı (Onay 2'ye kadar, hikâye donar) yapılır.
-2. Bu sırada yeni kural gerekirse eklenir (şablona, sahibinin onayıyla).
-3. Sonra **başa dönülür: Vaka 1, 2, 3, 4** yeni kurallara göre yeniden geçirilir.
+**YENİ PLAN (önceki sırayı değiştirir; `arsiv/kaynak/RAF_KARARLARI.md` yayın sırası buna göre okunur):**
+1. **Vaka 6, 7, 8** — SUREC-39.
+2. **Yeni plan (12 Kasım 2026, Barbaros'un kararı)** — SUREC-39, SUREC-2.
+3. **başa dönülür: Vaka 1, 2, 3, 4** — SUREC-39.
 
 **Vaka 6:** ortak yazacak. Claude'un önerisi `sablon/vakalar/vaka6_oneri.md` (ONAYLANMADI); **bütün kararlar ortağın**
 (Barbaros, 12 Kasım 2026). Ortak öneriyi değiştirir/seçer, sonra formu doldurur.
@@ -554,17 +543,16 @@ onaylandı, aynı gün geri alındı — şimdilik kontrol yok); G yeni belge de
 Müzeyyen Hanım, Jale Hanım kanona girdi; büro hayvanı yok. Saat işliyor. Form yazıldı, **Onay 1 verildi** (ortak). **Adım 3–4 bitti:** diyalog + veri + künye; doğrulayıcı PASS (yeni uyarı: V6 girişi 56 replik, K17). **Adım 5 bitti** (görselsiz tur, sızıntı ve bulanık tarama temiz). Sıradaki: **Onay 2** — ortak Vaka 6'yı oynar. Saat 12 Kas 22:15'te durdu, **13 Kas 08:30'da yeniden başladı** (ortağın sözüyle; ara 1 = 615 dk). Onay 2 sürüyor.
 **araç: Vaka 6 eklendi** — `arac_yeni_tur.js` yolları: `[sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]` (Vaka 1–5 önce hızlı oynanır). `CLAUDE.md`'deki tur komutu satırına V6 eklenmedi (CLAUDE.md Barbaros'ta) — eklemek istersen yollar burada.
 **Barbaros'a bilgi:** `test_yeni_v1.js` "tanımsız kare" örneği `K99` idi; V6 ile K99 gerçek kare oldu, örnek `K999` yapıldı (yalnız örnek numarası).
-**Barbaros'a bilgi:** ortak kanonda Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda reşit olsun; Cengo 34 kaldı); Cengo ile Gamze evliymiş. Yaş oyun metninde geçmiyordu. `YENI_OYUN_SEZON.md`'deki "on yedi" eski kaldı.
+**Barbaros'a bilgi:** ortak kanonda Cengo'nun kızının yaşını **17 → 16** yaptı (Cengo baba olduğunda reşit olsun; Cengo 34 kaldı); Cengo ile Gamze evliymiş. Yaş oyun metninde geçmiyordu. `arsiv/kaynak/YENI_OYUN_SEZON.md`'deki "on yedi" eski kaldı.
 Kayıt: `sablon/vakalar/vaka6_baslangic.md`.
 
 **Barbaros'un cevapları (12 Kasım 2026):**
-- **Vaka 4'ün resimleri şimdi yapılmıyor** (ortak da başlamasın). Vaka 8'den sonra, yeni kurallara göre ortaya çıkan
-  duruma bakılıp yapılacak.
+- **Vaka 4'ün resimleri şimdi yapılmıyor** — SUREC-39.
 - **Vaka 5:** belki incelenir; çıkan hatalara göre yeniden geçirilip geçirilmeyeceğine o zaman karar verilir.
 
 ## 000000000000000000000000000. 12 Kasım 2026 — BARBAROS'A: ORTAĞIN İKİ NOTU (§12 onaylandı, §11 bekliyor)
 
-`sablon/TASLAK_tekrar_onleme.md` sonuna ortak iki not ekledi, ikisi de **onaylanmadı**:
+`arsiv/sablon/TASLAK_tekrar_onleme.md` sonuna ortak iki not ekledi, ikisi de **onaylanmadı**:
 - **§11:** dört yeni oyun biçimi (ters vaka, saatli vaka, yalan bulma, kılık) konuşuldu; karar Barbaros'la.
 - **§12:** Vaka 5 dersleri → yedi kural önerisi (A–G: rol kontrolü, "kim neyi biliyor" listesi, harita kontrolü, aksiyon
   gerçekliği, her cevabın sorusu, şaşırtıcı bilginin gerekçesi, ortağa kanon özeti). Cevap §12'nin sonuna.
@@ -581,17 +569,17 @@ Ortak düzeltmeleri bitirdi ve "metin ve senaryo tamam" dedi. Rol ayrımına gö
 **Barbaros'a sorular. Ortak bunları sordu, cevap buraya yazılsın:**
 1. **Vaka 5'in hikâyesi dondu.** Barbaros oynayıp itiraz etmek isterse şimdi etmeli; dondu kabul edilirse adım 8'den sonra hikâye
    değişmez (değişirse forma dönülür). → *Cevap:* **EVET, dondu** — Barbaros'un itirazı yok (12 Kasım 2026).
-2. **Sıradaki iş:** `RAF_KARARLARI.md:236`'ya göre Vaka 4'ün resim aşaması (adım 8–14), Vaka 5'in resimleri ondan sonra.
+2. **Sıradaki iş:** `arsiv/kaynak/RAF_KARARLARI.md:236`'ya göre Vaka 4'ün resim aşaması (adım 8–14), Vaka 5'in resimleri ondan sonra.
    Vaka 4'ün resimlerini **kim** yapacak, Barbaros mu, ortak mı? Ortak yapacaksa önce `codex login` (kendi hesabı). → *Cevap:* **Ortak yapacak** (Barbaros, 12 Kasım 2026). Önce `codex login`.
    **⚠ Sonradan değişti (12 Kasım, yeni plan):** Vaka 4'ün resimleri şimdi YAPILMIYOR; Vaka 8'den sonraya kaldı (en üst bölüm).
 3. **V5 K8 uyarısı** ("Saati Muammer'e bırak", "Polise teslim et"in iki eksende de önünde): ortak kararları bilerek böyle bıraktı
-   (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:* **EVET, kabul edilmiş uyarı** (Barbaros, 12 Kasım 2026); `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı. Kararların etkisi zaten yeniden konuşuluyor (`sablon/TASLAK_tekrar_onleme.md` §8).
+   (V4'teki gibi). Kabul edilmiş uyarı olarak sayılsın mı? → *Cevap:* **EVET, kabul edilmiş uyarı** (Barbaros, 12 Kasım 2026); `yeni/OKUBENI.md` → Açık uyarılar'a yazıldı. Kararların etkisi zaten yeniden konuşuluyor (`arsiv/sablon/TASLAK_tekrar_onleme.md` §8).
 4. **`CLAUDE.md`'deki tur komutu satırına Vaka 5'in yolları** eklensin mi: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`?
    `CLAUDE.md` Barbaros'ta, ortak eklemedi. → *Cevap:* **EVET** — eklendi (Barbaros, 12 Kasım 2026).
 
 **Ortağa not (12 Kasım 2026):** Barbaros ile tekrarı önleme üzerine bir konuşma sürüyor — vaka/karakter/sezon seçenekleri ve
 **kararların gerçek bir etkisi olması** (haber, bedava ipucu, dönen ipucu, büronun duvarı…). Taslak, ONAYLANMADI:
-`sablon/TASLAK_tekrar_onleme.md`. Vaka 4 ve 5'i etkilemez; kurallar Vaka 6'dan itibaren düşünülüyor. Okuyabilirsin.
+`arsiv/sablon/TASLAK_tekrar_onleme.md`. Vaka 4 ve 5'i etkilemez; kurallar Vaka 6'dan itibaren düşünülüyor. Okuyabilirsin.
 
 ## 0000000000000000000000000. 11 Kasım 2026 akşam — VAKA 5: ONAY 2 SÜRÜYOR (ortağın düzeltmeleri işleniyor)
 
@@ -614,7 +602,7 @@ Hikâye henüz donmadı (Onay 2 bitmedi).
   - Peri'nin "Beni deniz tutmuyor. Deniz bana saldırıyor!" sözü dalga anından K86'ya (martı saldırısı) taşındı.
   - Kapanış: "Martılar yosunları sevdi". Peri'nin saçında yosun.
   - `islak` set tarifi, K84/K86 görsel tarifi (`gorseller.json` yer tutucu metni dahil) ve form da yosuna çevrildi.
-  - **Adım 8'de istem yazarken: susam değil yosun.**
+  - **Adım 8'de istem yazarken: susam değil yosun** — ISTEM-56.
 - **Selim'in itirafı:**
   - "'Deniz tutar, yukarı çıkacağım' dedim; çıkmadım. Bir direğin dibinde fırsat kolladım."
   - "Dükkânın bütün saatlerini ben kurarım; Muammer bunu bana sormadan kurmuş, çalacağından haberim yoktu. Çantadayken sesini de duymamışım."
@@ -648,15 +636,15 @@ Hikâye henüz donmadı (Onay 2 bitmedi).
 - **Ortağa cevap: basit ve kısa.** Ortak replikleri sahne sahne, sahne içinde 1'den başlayan satır numarasıyla görüyor
   (ör. "İpucu: Nedim Bey, 11"). Liste veriden üretildi: `yeni/game_data.json` V5 → `sahneler` (giris, konusma,
   yuzlesme_dogru/zayif/kadir/nedim, kovalamaca, kapanis) ve `clues[].sahne` (vapur_cayci, ust_guverte, kadikoy_iskele,
-  nedim, deri_ustasi, dukkan_cukurcuma); numara = `satirlar` dizisindeki sıra + 1 (sahne notları dahil).
+  nedim, deri_ustasi, dukkan_cukurcuma); numara = `satirlar` dizisindeki sıra + 1 (sahne notları dahil). *(Kural: SUREC-35)*
 - **Değişiklik nereye:** replik, sahne notu, karar metni → `sablon/vakalar/vaka5_diyalog.md`, sonra
   `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka5_diyalog.md V5`. Yapı (olgu metni `facts`, ipucu kartı
   `clues[].text/meta`, çıkarım, `kim_yapti`, karar parası/bağ, `anahtarlar`) ve künye (`yeni/kisiler.json`) diyalogdan
-  üretilmez: veride doğrudan (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). Hikâye değişirse `vaka5_form.md`'ye de işle.
+  üretilmez: veride doğrudan (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). Hikâye değişirse `vaka5_form.md`'ye de işle. *(Kural: SUREC-29)*
 - **Her değişiklikten sonra:** `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js`, testler;
-  sahneyi etkileyen değişiklikte tur: `node arac_yeni_tur.js 0 vapur dogru` (yollar yukarıda). Sızıntı: `node arac_sizinti_tur.js V5 40`.
+  sahneyi etkileyen değişiklikte tur: `node arac_yeni_tur.js 0 vapur dogru` (yollar yukarıda). Sızıntı: `node arac_sizinti_tur.js V5 40`. *(Kural: KOD-3, SUREC-27)*
 - **Tuzak (ortağın bilgisayarı):** Claude'un kabuğu `PW` kullanıcı değişkenini görmüyor; tur araçlarından önce
-  `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok).
+  `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok). *(Kural: KOD-33)*
 - **Saat işliyor** (14:01'den beri; adım 6–7 14:55'te başladı). Ortak "durdur" derse ara tablosuna yaz
   (`vaka5_baslangic.md`). Onay 2'de ortağın oynama/inceleme süresi "ortak" sütununa.
 
@@ -680,7 +668,7 @@ küçük, mekanik değişiklikler için ortağa genel izin verilsin mi?** Motor,
 **Barbaros'un cevabı (11 Kasım 2026): EVET — genel izin, bu sınırla.** Ortak, yeni bir vakayı **var olan** araç ve
 testlere ekleyebilir (yol listeleri, vaka adları, önceki vakanın kalıbıyla). Aracın **nasıl çalıştığını** değiştirmek,
 yeni araç yazmak, motor, arayüz ve derleme yine Barbaros'ta. Böyle bir commit'in mesajında "araç: Vaka N eklendi"
-yazar ki Barbaros görsün. → Adım 5 başlayabilir.
+yazar ki Barbaros görsün. → Adım 5 başlayabilir. *(Kural: SUREC-5)*
 
 ## 0000000000000000000000. 11 Kasım 2026 — ORTAĞIN BİLGİSAYARI KURULDU; İKİ SORU CEVAPLANDI → VAKA 5 METNİ BAŞLAYABİLİR
 
@@ -694,14 +682,14 @@ yazar ki Barbaros görsün. → Adım 5 başlayabilir.
 **İki soru — Barbaros'un cevapları (11 Kasım 2026):**
 1. **Sıra değişti: EVET.** Ortak, Vaka 4'ün resim aşamasını (adım 8–14) bekletip önce **Vaka 5'in metnini** (adım 1–7)
    yazar. Vaka 4'ün saati duruk kalır (10 Kas 18:04'ten beri); dönünce kaldığı yerden işler, ölçüm bozulmaz.
-   `RAF_KARARLARI.md` → Yayın sırası da buna göre güncellendi.
-2. **Vaka 5 Bilmece tipinde yazılır** (Vaka 1–4 gibi; kod gerekmez). `YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR'daki
-   "Columbo tipi" (Ters tip) kullanılmaz; Ters tip ertelenmiş olarak kalır (`1_oyun_yapisi.md`, 17 Ekim).
+   `arsiv/kaynak/RAF_KARARLARI.md` → Yayın sırası da buna göre güncellendi.
+2. **Vaka 5 Bilmece tipinde yazılır** (Vaka 1–4 gibi; kod gerekmez). `arsiv/kaynak/YENI_OYUN_SEZON.md` → VAKA 5 — VAPUR'daki
+   "Columbo tipi" (Ters tip) kullanılmaz; Ters tip ertelenmiş olarak kalır (`arsiv/sablon/1_oyun_yapisi.md`, 17 Ekim).
    Vapur konusundan ne kalacağı ve Bilmece'ye nasıl çevrileceği hikâye işidir — ortak karar verir.
 
 **Dikkat (iki kişi aynı dosyada):** Vaka 5'in verisi de `yeni/game_data.json`'a yazılır. Barbaros bu arada Vaka 4'te
 çalışırsa aynı dosyaya dokunabilir — her oturumun başında `git pull`, göndermeden önce yine `git pull`.
-Vaka dosyalarını ayırmak (vaka başına ayrı veri/künye/görsel dosyası) konuşuldu; Barbaros: **şimdilik ayrılmayacak.**
+Vaka dosyalarını ayırmak (vaka başına ayrı veri/künye/görsel dosyası) konuşuldu; Barbaros: **şimdilik ayrılmayacak.** *(Kural: SUREC-8)*
 
 ## 000000000000000000000. 11 Kasım 2026 öğlen — İŞ ARKADAŞA DEVREDİLDİ (rol ayrımı)
 
@@ -711,25 +699,18 @@ Aşağıdaki "Barbaros'a danışılır" listesi geçerli.
 Proje artık başka bir bilgisayarda, başka bir Claude hesabıyla, ortak bir kişi tarafından da yürütülüyor.
 Depo yine `barbarosgursu-sudo/paravan`; ortak, depoya "collaborator" olarak eklendi ve `main`'e gönderir.
 
-**Kim neye karar verir (sahibinin kararı, 11 Kasım 2026):**
-- **Barbaros (sahibi) her şeyi yapabilir** — aşağıdaki iki listenin ikisindeki işleri de. Ortağın yetkisi onunkini daraltmaz.
-- **Ortak kendisi karar verir (işletme):** var olan kurallara göre vaka üretmek, hikâyeye yeni ayrıntı eklemek
-  (kanon), metin düzeltmek, resim üretmek, test/araç/derleme çalıştırmak, `main`'e göndermek.
-  Belgelerdeki "sahibine sor" kuralı bu işler için ortağa sorulur.
-- **Barbaros'a danışılır, ortak tek başına onaylamaz:** yeni kural yazmak ya da var olanı değiştirmek
-  (`CLAUDE.md`, `sablon/`, sözleşmeler), kod ve altyapı değişiklikleri (motor, arayüz, araçlar, derleme),
-  yayın, satış ve platform kararları (`RAF_KARARLARI.md`). Böyle bir iş çıkarsa Claude yapmaz;
-  ne istendiğini kısaca yazar, ortak bunu Barbaros'a iletir.
-- **İstisna (11 Kasım 2026):** ortak, yeni bir vakayı **var olan** araç ve testlere ekleyebilir (yol listeleri, vaka
-  adları, önceki vakanın kalıbıyla); commit mesajında "araç: Vaka N eklendi" yazar. Aracın nasıl çalıştığını
-  değiştirmek ya da yeni araç yazmak yine Barbaros'ta.
+**Kim neye karar verir (sahibinin kararı, 11 Kasım 2026)** — SUREC-4.
+- **Barbaros (sahibi) her şeyi yapabilir** — SUREC-4.
+- **Ortak kendisi karar verir (işletme)** — SUREC-4.
+- **Barbaros'a danışılır, ortak tek başına onaylamaz** — SUREC-4.
+- **İstisna (11 Kasım 2026)** — SUREC-5.
 
 **Yeni bilgisayarda ilk kurulum (bir kez):** Git, Node.js, Python 3 kurulu olmalı. Depoda olmayan tarayıcı aracı
 (`araclar/`, Playwright + Chromium) yeniden kurulur: `npx playwright install chromium`. Resim üretimi için
 ortağın kendi Codex erişimi gerekir (`uretim/CLAUDE.md`). Kurulumdan sonra `cd kaynak && node dogrulayici.js yeni`
-ve test döngüsü geçmeli.
+ve test döngüsü geçmeli. *(Kural: KOD-33)*
 
-**İki kişi aynı depoda:** her oturumun başında `git pull`. Aynı anda aynı vakaya iki kişi dokunmaz.
+**İki kişi aynı depoda** — SUREC-8 (`git pull`).
 
 Bu ayrım, aşağıda "arkadaşın ikinci Claude hesabıyla metin kolu (onaylar birlikte verilir)" diye bekleyen planın
 yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağıdaki bölüm): Vaka 4, adım 8. **⚠ Eskidi — sıradaki iş en üst bölümde (12 Kasım yeni plan).**
@@ -762,16 +743,16 @@ yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağı
   10 satırı yaz" isteyebilir), öneri verilir, sahibinin seçtiği hâl not listesine yazılır; "yayına koy / güncelle" deyince
   hepsi birlikte işlenir. Giriş bitti (13 not işli); **sahibi girişi yeniden inceleyecek** — yeni kural 5c (giriş uzun ve
   açıklayıcı, en az 15 satır, üst sınır yok) Vaka 4'e henüz uygulanmadı, sahibinin kararı. Sıradaki: konuşma sahnesi ve
-  ipuçları.
+  ipuçları. *(Kural: SUREC-16)*
 - **Değişiklik nereye yazılır:** replik, sahne, karar metni → `sablon/vakalar/vaka4_diyalog.md`, sonra
   `node arac_diyalog.js ../sablon/vakalar/vaka4_diyalog.md V4`. **Yapı** (olgu metni `facts`, ipucu kartı `clues[].text/meta`,
   çıkarım başlığı, `kim_yapti`, karar parası/bağ, `anahtarlar`) ve **künye** (`yeni/kisiler.json`) diyalogdan üretilmez:
   `yeni/game_data.json` V4'te doğrudan değişir (node ile oku-değiştir, `arac_json_yaz.js` ile yaz). İlk iskelet geçici bir
   betikle kuruldu, depoda yok — yeniden kurmak gerekmez, veri artık tek kaynak. Aynı değişikliği `vaka4_form.md`'ye de
-  işle (örnek: "yüz lira" diyalogda, olguda, ipucu kartında, itirafta, hikâyede ve formun fiyat tablosunda değişti).
+  işle (örnek: "yüz lira" diyalogda, olguda, ipucu kartında, itirafta, hikâyede ve formun fiyat tablosunda değişti). *(Kural: SUREC-29)*
 - **Yayın kontrolü:** `main`'e push yayını tetikler (~2–10 dk). GitHub'ın "deploy" adımı bir kez zaman aşımına uğradı ve
   sayfa eski kaldı. Şüphede: GitHub MCP `actions_list` → `list_workflow_runs` (pages build and deployment); `failure`
-  ise `actions_run_trigger` → `rerun_workflow_run`. Oturumdan github.io'ya doğrudan erişim yok.
+  ise `actions_run_trigger` → `rerun_workflow_run`. Oturumdan github.io'ya doğrudan erişim yok. *(Kural: KOD-34)*
 - **Resim aşamasından önce hatırlat:** Codex 2 kol desteği (`uretim/dongu.sh` kilit, kol başına log/kayıt, `AGENTS.md`)
   henüz yazılmadı; sahibi "yap" deyince (`vaka4_baslangic.md` §3).
 
@@ -780,7 +761,7 @@ yerini alır: hikâye onayı artık ortakta. Sıradaki iş değişmedi (aşağı
 Sahibinin kararı (yalnız belge, kod yazılmadı):
 - **Yeni sıra:** 1) **Vaka 4** sıfırdan, Vaka 3'ün kurallarıyla, saat baştan sona işler; 2) **Vaka 1 + 2** Vaka 3'ün
   kurallarına göre yeniden, resimleri iki pencerede paralel; 3) İngilizce; 4) kapalı test, yayın. Vaka 4 yayında stok olur.
-- **Başlarken:** `sablon/vakalar/vaka4_baslangic.md` (okuma sırası, konu = `YENI_OYUN_SEZON.md` → FALCI, genişletilmiş süre
+- **Başlarken:** `sablon/vakalar/vaka4_baslangic.md` (okuma sırası, konu = `arsiv/kaynak/YENI_OYUN_SEZON.md` → FALCI, genişletilmiş süre
   tablosu: sahibi/makine ayrı + resim sayımları). Sahibi "Vaka 4'e başla" deyince saat o an başlar.
 - **Codex 2 kol denemesi** Vaka 4'ün resim aşamasında. `dongu.sh` kol desteği ve `AGENTS.md` kol başına kayıt **henüz yok**;
   resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır.
@@ -799,24 +780,24 @@ Sahibinin kararı (yalnız belge, kod yazılmadı):
 - **Sızıntı taraması** (40 yol, 1406 ekran) temiz; elle okumada tek aday: MASUM Kenan'daki "Yalanı iş aradığı içindi"
   (`kenan_yalan` yalnız D ipucunda) — sahibinin onayıyla çıkarıldı.
 - **Son turlar** temiz: kod/foto/borç/Badem doğru, zayıf, Kenan'ı ve Gizem'i suçlama, tablet, 19 boy (bilinen tek bayrak 1280×650 seçim ekranı).
-- **"Vaka N'den başla" düğmesi AÇIK KALIR** (`VN_VAKA_ATLA = true`, sahibinin kararı; yayından önce yine kapanır).
+- **"Vaka N'den başla" düğmesi AÇIK KALIR** — ARAYUZ-37.
 - Süre: 22 Eki 21:09'dan sonrası **ölçülmedi** (sahibinin kararı); ölçülen ≈ 7 sa 09 dk — `vaka3_baslangic.md` §2.
-- **Sıradaki iş:** `RAF_KARARLARI.md` yayın sırası — Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden; sonra İngilizce.
+- **Sıradaki iş:** `arsiv/kaynak/RAF_KARARLARI.md` yayın sırası — Vaka 1 ve 2, Vaka 3'ün kurallarına göre yeniden; sonra İngilizce.
   Sahibi başlatınca konuşulur (önce konuş, sonra yap).
 
 ## 0000000000000000. 9 Kasım 2026 — Yayın planı konuşuldu: mobil kitap rafı (yalnız belge)
 
-Sahibiyle Play Store / App Store yolu fikir olarak konuşuldu; kararların tamamı **`kaynak/RAF_KARARLARI.md`**.
+Sahibiyle Play Store / App Store yolu fikir olarak konuşuldu; kararların tamamı **`arsiv/kaynak/RAF_KARARLARI.md`**.
 Özet: tek mobil uygulama "Ajar: Story Choices" (geliştirici "Ajar Interactive", `ajarstories.com`), içinde bağımsız oyunlar (kitaplar), Paravan ilki. Türkçe
 kanon, rafta yalnız İngilizce (yapay zekâ çevirisi, vaka vaka), çok dilli yapı. Her sezon ayrı satılır; Vaka 1–2
 reklamsız, sonrası kredi (reklam = 1 kredi, tavan 5, parayla satılmaz). Önce Android, iPhone sonra, Steam ileride.
 Sıra: Vaka 3 bitir → Vaka 1–2'yi Vaka 3 kurallarına göre yeniden yap → İngilizce → kapalı test → üç vakayla yayın.
-Kod yazılmadı. `YENI_OYUN_CERCEVE.md`'de eskiyen satırlar işaretlendi. Sıradaki iş değişmedi (Vaka 3).
+Kod yazılmadı. `arsiv/kaynak/YENI_OYUN_CERCEVE.md`'de eskiyen satırlar işaretlendi. Sıradaki iş değişmedi (Vaka 3).
 Aynı gün açık konular da kapandı: söz *"No right answers. Only consequences."*, logo aralık kapı + ışık,
 fiyat eksik sezon 1,99 $ / tamamlanmış 2,99 $ (kitap 8–10 sezon × 8–10 vaka), davet/istatistik/anı karşılaştırması
 ileriye, Steam gündem dışı. Ad kesinleşti: raf "Ajar: Story Choices"; Paravan'ın İngilizce adı "Cover Story: An Istanbul Mystery".
 Takvim: hedef haftada bir vaka üretmek, söz daha seyrek (Vaka 4–5 ölçülünce); yayından önce ve her zaman 1–2 vaka stok.
-Vaka 4 ve 5'te süre çeviri dahil ölçülecek (`RAF_KARARLARI.md` §11c).
+Vaka 4 ve 5'te süre çeviri dahil ölçülecek (`arsiv/kaynak/RAF_KARARLARI.md` §11c).
 
 ## 000000000000000. ⬅️ 8 Kasım 2026 akşam — Vaka 3 Onay 3 düzeltmeleri BİTTİ, oyunda ve yayında
 
@@ -834,8 +815,8 @@ web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
   A23'e geçer (afişi oyuncu da ilk kez burada görür) → "Bu afiş…" satırında K37. `gorseller.json → kapak.V3 = A23d`
   (test_yeni_arayuz kapak ipucu sahnesinin başlangıç arkasında olmalı diyor; afişsiz olduğu için de uygun).
   A23d'nin ışığı sabah/akşam arası belirsiz; sahibine soruldu, cevap gelmedi.
-- **Yeni kural SR-L — mekân ve olay akışı mantıklı** (`5_gorsel_sistemi.md` C0; `7_uretim_sureci.md` bulanık replik
-  taraması "Akış: kim nerede, ne sırayla?"; diyalogda sahne başına `⚙ akış:` notu). Sözleşme artık SR-A…L.
+- **Yeni kural SR-L — mekân ve olay akışı mantıklı** (`arsiv/sablon/5_gorsel_sistemi.md` C0; `7_uretim_sureci.md` bulanık replik
+  taraması "Akış: kim nerede, ne sırayla?"; diyalogda sahne başına `⚙ akış:` notu). Sözleşme artık SR-A…L. *(Kural: SATIR-19, SATIR-2)*
 - **Peri %23 büyük çiziliyordu** ("Tamam. Ben yaptım." satırında Ferruh bir baş kısa görünüyordu): `peri.simit.sinirli`,
   `peri.simit.utanmis`, `peri.onluklu.utanmis` dar yeniden kesilmiş ama `gorseller.json → genis` listesinde kalmıştı;
   listeden çıkarıldı. `build_html.js yeni` artık geniş liste ↔ kesim genişliğini iki yönde de denetliyor, uyuşmazsa durur.
@@ -852,8 +833,8 @@ web paketi her zaman tam istem + indirilebilir referans dosyalarıyla verilir.
 ## 00000000000000. 8 Kasım 2026 — Satır–resim sözleşmesi yazıldı; Vaka 3 düzeltme listesi (aşağıdaki iş YAPILDI)
 
 **Durum tek cümle:** sahibi Onay 3'te Vaka 3 ekranlarını tek tek gösterdi; kurallar birlikte bağlandı ve belgelere
-yazıldı (`sablon/5_gorsel_sistemi.md` C0 SR-A…K ve I. Kıyafet kartı; `2_kural_kitabi.md` 4a; `7_uretim_sureci.md`
-adım 3/8/11 ve "Satır–resim uyumu"; `uretim/CLAUDE.md` madde 8 ve denetim 12–14; `uretim/ISTEM_KALIPLARI.md` §10).
+yazıldı (`arsiv/sablon/5_gorsel_sistemi.md` C0 SR-A…K ve I. Kıyafet kartı; `arsiv/sablon/2_kural_kitabi.md` 4a; `7_uretim_sureci.md`
+adım 3/8/11 ve "Satır–resim uyumu"; `uretim/CLAUDE.md` madde 8 ve denetim 12–14; `arsiv/uretim/ISTEM_KALIPLARI.md` §10).
 Aşağıdaki işlerin **hiçbiri yapılmadı**; sahibine sırayla sor, "yap" demeden başlama.
 
 **Kod/araç — YAPILDI (8 Kasım):** motor konuk–konuk düzeni (`{kime: <konuk>}` → konuşan solda aynalı, hitap edilen
@@ -896,7 +877,7 @@ doğru koşuyor."); 192 Rüstem: "elindeki hesap makinesini bırakıp" → "hesa
 
 **Durum tek cümle:** Vaka 3'ün 68 resmi (G68 = `ferruh.alingan`, sonradan eklendi) eski tarzla ve "dünkü ayarlarla"
 (Peri ve Gizem dekolteli) yeniden üretildi, oyuna gömüldü, dört yol görselli turla denetlendi, `main`'de ve yayında.
-Ayrıntı ve sayım: `uretim/v3/DURUM.md`. Resim düzeni: `uretim/CLAUDE.md`, istem kalıpları: `uretim/ISTEM_KALIPLARI.md`.
+Ayrıntı ve sayım: `uretim/v3/DURUM.md`. Resim düzeni: `uretim/CLAUDE.md`, istem kalıpları: `arsiv/uretim/ISTEM_KALIPLARI.md`.
 
 - **Yeni araçlar:** `kaynak/arac_hale.py` (saç halesi; yeşil zemin varsayılan, `--zemin bej` koyu saçlı bej zeminli figür),
   `kaynak/arac_satir_resim.js` (tur dökümünden resim→satır listesi ve EYLEM/JEST/KONUŞAN bayrakları),
@@ -904,8 +885,8 @@ Ayrıntı ve sayım: `uretim/v3/DURUM.md`. Resim düzeni: `uretim/CLAUDE.md`, is
 - **Sahibinin kalıcı kararları (6–7 Kasım):** tarz = eski resimler (Peri/Cengo/varyant istemlerinde tarz paragrafı YOK);
   Peri ve Gizem dekolteli (§9); Peri ve Cengo'nun saçı dağınık, hale gömmede temizlenir; **satır–resim uyumu zorunlu**
   (her istemde `## Satırlar`, denetimde satırlarla okuma, gömmeden sonra bütün yollar + tablo); **Vaka 4'ten itibaren
-  zemin saçtan da uzak** (kızıl/açık saç → gri-mavi, yeşil yok, temelde iki zemin denemesi — `5_gorsel_sistemi.md` H4);
-  her vakaya kendi **masa kartı** (`MASA_V<N>`, kart afişinden yatay kırpık).
+  zemin saçtan da uzak** (kızıl/açık saç → gri-mavi, yeşil yok, temelde iki zemin denemesi — `arsiv/sablon/5_gorsel_sistemi.md` H4);
+  her vakaya kendi **masa kartı** (`MASA_V<N>`, kart afişinden yatay kırpık). *(Kural: ISTEM-7, ISTEM-9, ISTEM-21, ISTEM-44, ISTEM-51, GOMME-28)*
 - **Bu bilgisayarda araç ortamı:** `PW=D:/Yazilim/paravan/araclar/node_modules/playwright`,
   `CHROME=C:/Users/BG/AppData/Local/ms-playwright/chromium-1228/chrome-win64/chrome.exe`, `PYTHONIOENCODING=utf-8`.
 - **Açık kalan (sahibine sorulmadı, isteğe bağlı):** `YENI_UI/satir_resim.md`'deki 5 EYLEM / 10 JEST bayrağı küçük jest farkları
@@ -971,12 +952,11 @@ bilerek kaldı (çaycı sezdiriyor; espri). Kural: masum açıklaması ve karar 
 - **Gizem sahnesi:** "Hepsi susamlı teyzeciğim" K38 karesinde kalır (kare kalkınca Peri karşısında görünüyordu).
   Kural: `7_uretim_sureci.md` → "Figürü olmayan konuşmacı". Aynı sahnede Gizem gece olanları anlatırken Cengo'nun
   dinleme yüzü `kas` (önceki satırdan "gülen" kalıyordu).
-- **Saat "kala" ile geriye sayılmaz** (kural kitabı 5b, bütün vakalar): Vaka 3'te "on bire … kala", "gece yarısına beş
-  kala" dijitale çevrildi; cihazdan okunanlar ekrandaki gibi. "Buçuk", "çeyrek geçe" doğru — Vaka 2 olduğu gibi kalır (sahibi).
+- **Saat "kala" ile geriye sayılmaz** — TON-12.
 - **Gizem'in fotoğrafı bilerek çekilir** (sahibinin onayı): "teyzelere atacaktım" zayıftı; Gizem kasanın başında birini görünce
   telefonla çeker, tablayı elinden bırakmamış. D9 = önde tablayı tutan eli. Fotoğraf yol 3'ün ve Gizem'in masumluğunun kanıtı —
   kamera (D8) dükkâna gitmeyen oyuncuya ulaşmaz, o yüzden kalkamaz.
-- **Yeni kare eklerken üç yer** (`kanon.sahne.kareler` dahil): `kaynak/yeni/OKUBENI.md`.
+- **Yeni kare eklerken üç yer** — KOD-49.
 - **Açık, sahibine soruldu:** Vaka 2'deki aynı kalıp (`vaka2_diyalog.md:349`, Lâl gelirken Peri masanın arkasında,
   `gizle` aynı satırda) — Vaka 2 donmuş, dokunulmadı; sahibi isterse.
 
@@ -985,13 +965,12 @@ bilerek kaldı (çaycı sezdiriyor; espri). Kural: masum açıklaması ve karar 
 **Durum tek cümle:** Vaka 3'ün çerçevesi sahibiyle konuşuldu; süre ölçümü ve form henüz başlamadı.
 Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 1 (form, `vaka3_form.md`).
 
-- **Tip: Bilmece** (Vaka 1–2 gibi). Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`1_oyun_yapisi.md`).
-- **Konu: Simit Soygunu** (`YENI_OYUN_SEZON.md`), Bilmece'ye çevrilmiş hâli: pastane sahibi sigorta için kendi
+- **Tip: Bilmece** (Vaka 1–2 gibi). Columbo/Ters tip ileride ayrı bir deneme vakasıyla (`arsiv/sablon/1_oyun_yapisi.md`).
+- **Konu: Simit Soygunu** (`arsiv/kaynak/YENI_OYUN_SEZON.md`), Bilmece'ye çevrilmiş hâli: pastane sahibi sigorta için kendi
   dükkânını sahte soyduruyor; oyuncu da bilmiyor. Taslak şüpheliler: sahip (suçlu), ortak/müdür (yanıltan iz),
   Gizem (masum, tek gerçek tanık). Kararlar taslaktaki üçlü.
-- **Yan karakter: Gizem** — tezgâhtar, yirmili yaşlarının ortası, hazırcevap, seksi ve işveli; Cengo'yla atışır,
-  Peri'yi zaman zaman kıskançlık krizine sokar; vakadan sonra büroya yerleşir (`3_kanon_kaydi.md`).
-- **Peri her zaman Gizem'den üstün** (Vaka 2 kuralı sürer; promptlara baştan).
+- **Yan karakter: Gizem** — KAR-34.
+- **Peri her zaman Gizem'den üstün** — KAR-6.
 - **Gizem referans seti:** şimdi yok. Vaka 3'te önce temel figür; Vaka 3 bitince sahibiyle karar: küçük set
   (8–10) ya da tam set (25). Ölçü: Cengo setinde C2–C25 ≈ 62 dk (commit saatleri, ~2,5 dk/görsel).
 
@@ -1005,11 +984,11 @@ Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 
   ne yapardın?") + bağlantı. Giriş cümlesi ve "Ben bu dosyayı kapattım." kartta değil, paylaşım metninde.
   Ayrıntı ve sözleşme: `CLAUDE.md` → "Paylaş". Bağlantı önizlemesi (`og:`, `yeni/paylas.jpg`) hazır.
 - **Sahibinin kararları (17 Ekim):** "önce resim, yazı az" (kutu küçük); afişler eğlenceli ve hareketli, Peri ile
-  Cengo'nun kendine özgü pozu var; Vaka 2 afişi balo salonunda. Yalnız `main`'e push (CLAUDE.md).
+  Cengo'nun kendine özgü pozu var; Vaka 2 afişi balo salonunda. Yalnız `main`'e push (CLAUDE.md). *(Kural: GOMME-21, GOMME-23, GOMME-25)*
 - **Afişler:** `KART_V1` (iskele: Peri yürüyor, Cengo martıdan eğiliyor) ve `KART_V2` (balo salonu: Cengo
   Peri'yi dansa davet ediyor). İş sayfası https://claude.ai/artifact/FoLWwgaEXNtLnqBV4HCBFG, üreticisi
   `sablon/kart_sayfa/uret.py` (5 referans: mekân, Peri, Cengo, konuk şeridi, L19 yalnız poz). Yeni vakanın
-  afişi nasıl yazılır: `sablon/5_gorsel_sistemi.md` → **G. Kart afişi**.
+  afişi nasıl yazılır: `arsiv/sablon/5_gorsel_sistemi.md` → **G. Kart afişi**.
 - **Kabul edilen sapma:** `KART_V2`'de Peri'nin ceketinin altında yeşil üst (prompt "bluz yok" diyordu); ipucu
   değil, kaldı. Sahibi isterse aynı sohbette düzelttirir.
 - **Sahibine hâlâ sorulmadı (düşük öncelik):** afişi olmayan vakanın yedek kapağı (V1 = A9, V2 = A15 — artık
@@ -1019,10 +998,10 @@ Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 
 
 ## 0000000. 17 Ekim 2026 — Defter (kısa; sıradaki iş değişmedi, aşağıdaki bölümden devam)
 
-- **Zincir vaka başına:** Vaka 2'de Vaka 1'in olguları görünüyordu; artık yalnız içinde bulunulan vaka.
+- **Zincir vaka başına** — ARAYUZ-9.
 - **Anı zenginleşti:** her biten vakada anı özeti (2–3 cümle) + kimi suçladın · karar · kasa + Peri'nin notu.
-  Yeni kural 21d (`2_kural_kitabi.md`); formda §12 altı, diyalogda `## ani` (zorunlu, `arac_diyalog.js` yoksa
-  yazmaz). Vaka 3'te yazılacak: `vaka3_baslangic.md` §1.
+  Yeni kural 21d (`arsiv/sablon/2_kural_kitabi.md`); formda §12 altı, diyalogda `## ani` (zorunlu, `arac_diyalog.js` yoksa
+  yazmaz). Vaka 3'te yazılacak: `vaka3_baslangic.md` §1. *(Kural: ARAYUZ-11, BILGI-7)*
 - **Eski dallar:** Android aşamasında sahibi toplu silecek; liste `CLAUDE.md` sonunda (hatırlat).
 
 ---
@@ -1036,10 +1015,10 @@ Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 
 ### Yeni pencerede ilk iş
 1. `CLAUDE.md` → 2. **bu bölüm** → 3. `sablon/vakalar/vaka3_baslangic.md` (bütün yeni kurallar orada
    özetli) → 4. `sablon/` 7 parça.
-2. Cengo seti **bitti** (17 Ekim): `sablon/cengo_poz/` C1–C25 + `OKUBENI.md` dizini. Yapılacak iş yok;
+2. Cengo seti **bitti** (17 Ekim): `sablon/cengo_poz/` C1–C25 + `arsiv/uretim/OKUBENI.md` dizini. Yapılacak iş yok;
    sahibi "Vaka 3'e başla" deyince başla. Kullanım: her yeni Cengo temel figürü C1 (yüz) + G14-1 (beden),
    zor pozda uygun C "YALNIZ poz için"; ifadeler vakanın temel figürünün düzenlemesi (D-1); kıyafet V1/V2
-   ile aynıysa oyundaki figür referanstır. Adım 8'de her Cengo kartına hangi C'nin gireceğini Claude yazar.
+   ile aynıysa oyundaki figür referanstır. Adım 8'de her Cengo kartına hangi C'nin gireceğini Claude yazar. *(Kural: ISTEM-11)*
 
 ### Bu oturumda yapılanlar (16 Ekim, hepsi `main`'de; eski `index.html` md5 her adımda aynı)
 - **Vaka 2 bitti:** K23 gömüldü (ChatGPT düşünen kip; reddedilen 2 + kabul edilen prompt
@@ -1048,23 +1027,22 @@ Sahibi "Vaka 3'e başla" deyince: saat `vaka3_baslangic.md` §2'ye, sonra adım 
   Onay 3: sahibinin notuyla **4 yeni görsel** (K33 son prova, K34 herkes Defne'ye dönüyor, K35
   kumaşçının adamı, `lal.kilif`). Vaka dondu; süre tablosu `vaka2_baslangic.md` §1.
 - **Yeni kurallar (şablonda):** anlatıda adı geçen herkes ekranda (tek kişi `gir`, kalabalık kare —
-  `7_uretim_sureci.md`); ChatGPT reddederse düşünen kip, sonra Grok (`5_gorsel_sistemi.md` D-5);
-  en çok 5 referans (D-2); her yeni kişiye künye portresi (`arac_portre.py`).
+  `7_uretim_sureci.md`); ChatGPT reddederse düşünen kip, sonra Grok (`arsiv/sablon/5_gorsel_sistemi.md` D-5);
+  en çok 5 referans (D-2); her yeni kişiye künye portresi (`arac_portre.py`). *(Kural: SATIR-20)*
 - **Peri poz/kıyafet kütüphanesi:** `sablon/peri_poz/` L1–L25 + dizin. L1 = her temel Peri'de yüz
   referansı; zor pozda uygun L "YALNIZ poz için".
 - **Künye:** Vaka 2'nin 7 kişisine portre + **Saadet Hanım** eklendi (sahibinin onayıyla metin).
   Künye artık **yalnız içinde bulunulan vakanın kişilerini** gösterir (Peri, Cengo her vakada;
-  Hilmi Bey yalnız açılışın). Eski kişi dönerse `tanisma` dizi olur. Test: eksik portre yakalanır.
-- **Test aşaması düğmeleri:** "Baştan başla" penceresinde her vakaya düğme (`VN_VAKA_ATLA = true`).
-  **Yayından önce `false`.**
+  Hilmi Bey yalnız açılışın). Eski kişi dönerse `tanisma` dizi olur. Test: eksik portre yakalanır. *(Kural: ARAYUZ-31)*
+- **Test aşaması düğmeleri** — ARAYUZ-37.
 - **Deneme reklamı (web; Android'de gerçek ödüllü reklam):** araştırma hakkı **bitince** "Reklam izle
   · +1 araştırma hakkı" (vaka başına bir; `reklamHakAl`, kayıtta); kapanıştan sonra **"Kaçırdığın
   ipuçları"** (her biri reklamla, olgu vermez). Kural: her vaka reklamsız 3 hakla `doğru` çözülür
-  (`test_yeni_v2.js`). Vaka 2'den itibaren **3 hak** (Vaka 1: 4).
-- **Kararlar (`kaynak/YENI_OYUN_CERCEVE.md`):** reklam yasağı gevşetildi — Android'de gardırop
+  (`test_yeni_v2.js`). Vaka 2'den itibaren **3 hak** (Vaka 1: 4). *(Kural: ARAYUZ-36)*
+- **Kararlar (`arsiv/kaynak/YENI_OYUN_CERCEVE.md`):** reklam yasağı gevşetildi — Android'de gardırop
   (kozmetik kıyafet, yalnız figürlerde), +1 hak, kaçırılan ipuçları; arkadaş daveti (+1 hak),
-  karar istatistiği, komik rozetler. **Reddedildi:** günlük seri, sıralama tablosu.
-- Hikâyenin gerektirdiği kıyafet değişimi vaka içinde serbest (Vaka 2'deki gibi).
+  karar istatistiği, komik rozetler. **Reddedildi:** günlük seri, sıralama tablosu. *(Kural: RAF-51, RAF-52, RAF-64, RAF-109, RAF-111, RAF-113)*
+- **Vaka içinde kıyafet değişimi serbest** — SEZON-23.
 
 ### Sahibinin kararları (bu oturum, kısa)
 Defne itirafta gülümsüyor → kalsın. Kremalı Peri'nin itirafta sinirli yüzü ve G2–G7 tutam → kalsın.
@@ -1102,17 +1080,17 @@ Sahibinin sırayla bildirdiği sorunlar ve çözümleri — hepsi `kaynak/yeni_a
    **"Telefonu dikey çevir" uyarısını** seçti (`body::before`, alçak + yatay + dokunmatik ekran).
 
 ### Sahibinin kararları (bu oturum)
-- Her cihaza ayrı ayar **yapılmaz**; kurallar orana dayalı, denetim taklitle (`--cihaz`).
-- Yatay telefon için ayrı düzen **yok**, uyarı var.
-- Yatay tablette konuşma ekranının dar kalması kabul (yalnız diğer ekranlar büyüdü).
+- **Cihaza ayrı ayar yok** — ARAYUZ-7.
+- **Yatay telefon** — ARAYUZ-8.
+- **Yatay tablet / geniş ekran** — ARAYUZ-4.
 - Sahibi değişikliği görmek için adrese `?v=N` ekliyor (önbellek); son verilen `?v=30`.
 
 ### Bundan sonra dikkat
 - **Yeni vaka / yeni görsel / düzen değişikliğinden sonra** `node arac_yeni_tur.js 0 ortu dogru --cihaz`
-  (~3–5 dk). Güncel derlemede tek bayrak: 1280×650 seçim ekranında arka planın ~%51'i (göze batmıyor).
+  (~3–5 dk). Güncel derlemede tek bayrak: 1280×650 seçim ekranında arka planın ~%51'i (göze batmıyor). *(Kural: KOD-30)*
 - Yeni konuk boyu (`boy`) ayarlanırken artık her ekranda telefondaki oran geçerli — telefonda bak yeter,
-  ama `--cihaz` boy sapmasını yine sınar.
-- Düz tur (`arac_yeni_tur.js`, `--cihaz`sız) `YENI_UI/`'yi siler — `cihaz/` sayfaları da gider.
+  ama `--cihaz` boy sapmasını yine sınar. *(Kural: GOMME-13)*
+- **arac_yeni_tur.js (yeni oyun turu)** — KOD-27.
 - Gözlenen, dokunulmayan: `arac_yeni_tur.js 0 defne dogru` "bu yolda doğru sonucu verecek seçim yok"
   der (Vaka 2 notundaki bilinen durum, aşağıda).
 
@@ -1133,7 +1111,7 @@ demedikçe sohbetler arası boşluk çalışma süresidir.
 ### Okuma sırası
 1. `CLAUDE.md` · 2. **bu bölüm** · 3. `sablon/vakalar/vaka2_baslangic.md` (§2 Vaka 1 dersleri,
 §4 görselli tur denetimi, §5 çalışma biçimi) · 4. `sablon/7_uretim_sureci.md` → **Hızlandırma
-kuralları** · 5. `sablon/5_gorsel_sistemi.md` E–F (kontrol listesi, kesim) · 6. `sablon/vakalar/vaka2_gorsel.md`
+kuralları** · 5. `arsiv/sablon/5_gorsel_sistemi.md` E–F (kontrol listesi, kesim) · 6. `sablon/vakalar/vaka2_gorsel.md`
 (59 görselin listesi, promptlar, sohbet sırası) · 7. gerekirse `vaka1_gorsel_devir.md` §5–6 (elle iş tarifleri, saç halesi).
 
 ### Sahibinin iş sayfası
@@ -1155,18 +1133,18 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
    - **Bilinmeyen:** yüklenen dosyaların adı korunuyor mu henüz görülmedi. Ad değişmişse araç
      "dosya tarihine göre dizildi" der → sırayı görselden tek tek doğrula; gerekirse dosyaları
      `G1.png…` diye adlandırıp `--sira`sız çalıştır.
-2. Her görsele **kontrol listesi** (`5_gorsel_sistemi.md` E): iki kol iki el / beşer parmak,
+2. Her görsele **kontrol listesi** (`arsiv/sablon/5_gorsel_sistemi.md` E): iki kol iki el / beşer parmak,
    kıyafet promptla tutuyor mu (kartın `bak` satırı), oran, **yazı/harf** (büyütüp), Nurcan.
-   Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
+   Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli. *(Kural: DENETIM-19, DENETIM-20, DENETIM-22, DENETIM-23, DENETIM-24, DENETIM-31, DENETIM-33, DENETIM-34)*
 3. Kesim sorunları: zemine yakın renk silinirse (Peri'nin **beyaz masa örtüsü G10–13**, beyaz
    gömlekler) `--profil` ile değiştir. Dikkat: `cengo` profilinin çerçevesi Peri'ninkinden farklı;
    Peri'ye delik doldurmasız bir profil gerekirse `arac_kes.js` PROFILLER'e `peri` çerçeveli,
-   `delik:false` bir profil ekle. El çerçeveden taşarsa `--genis G<n>`.
+   `delik:false` bir profil ekle. El çerçeveden taşarsa `--genis G<n>`. *(Kural: GOMME-2)*
 4. Sorunlu görsel → sahibine **tek listede** düzeltme promptu (o sohbette "şunu düzelt").
 5. Hepsi iyi → aynı komut **`--yaz`** ile: yeni_gorsel/'e yazar, `gorseller.json` günceller,
    doğrulayıcı + iki derleme koşar, eski `index.html` md5 aynı mı bakar (`bc871463456171ae79f25847a2b962ad`).
 6. **Elle:** saç halesi (yalnız baş kutusu; tarif `vaka1_gorsel_devir.md` §6), yeni konuğun
-   **boyu** (`gorseller.json` → `boy`; araç boysuzları söyler; kadınlar ~0.76–0.82).
+   **boyu** (`gorseller.json` → `boy`; araç boysuzları söyler; kadınlar ~0.76–0.82). *(Kural: GOMME-5, GOMME-13)*
 7. Görselli tur: `node arac_yeni_tur.js 0 ortu dogru` (yollar: `ortu|vale|terzi|defne`,
    sonuç: `dogru|zayif|lal|tolga`) → `kaynak/YENI_UI/`. Satır satır §4 denetimi.
 8. Sahibine **paketin oyundaki son hâlini tek seferde** göster. Commit + push `main`.
@@ -1175,14 +1153,14 @@ node arac_paket.js <scratchpad>/paket_s1 --vaka 2 --sira G1-G13          # ÖNİ
 Toplam ≈ 11 sa 06 dk (tablo: `sablon/vakalar/vaka2_baslangic.md` §1). 63 görsel (59 + Onay 3'te 4). Test aşaması
 (sahibinin isteği, 16 Eki 20:20): "Baştan başla" penceresinde **her vakaya düğme** ("Vaka N · Başlık (test)",
 Vaka 1 dahil, açılış atlanır) — `VN_VAKA_ATLA = true`. Yeni vaka eklenince düğmesi kendiliğinden çıkar.
-**Yayından önce `false` yapılır.** **Sıradaki iş: Vaka 3** — sahibi "Vaka 3'e başla" deyince `sablon/vakalar/vaka3_baslangic.md`.
+**Yayından önce `false` yapılır.** **Sıradaki iş: Vaka 3** — sahibi "Vaka 3'e başla" deyince `sablon/vakalar/vaka3_baslangic.md`. *(Kural: ARAYUZ-37)*
 
 ### ✅ 16 Ekim 19:31: Onay 3 sürüyor — sahibinin ilk notu uygulandı
 Sahibi: "yazıda bahsedilen kişiler görünmüyor" → kural (ZORUNLU, `7_uretim_sureci.md`), `--hepsi` aday listesi,
 dört yeni görsel üretilip gömüldü: K33 son prova (4 açılış), K34 herkes Defne'ye dönüyor (7 satır), K35 atölye
 kapısında kumaşçının adamı, `lal.kilif` (kapanışta "Bunu giy"). Gülsüm/Bülent/Defne/Tolga tanıtım satırında
-`gir`. ChatGPT en çok 5 referans alıyor (kural `5_gorsel_sistemi.md` D-2). Sahibinin kararı (16 Eki): Defne itirafında
-Peri'nin sinirli yüzü ve G2–G7'deki tutam **kalıyor**. Sırada: sahibinin Onay 3'teki öbür notları.
+`gir`. ChatGPT en çok 5 referans alıyor (kural `arsiv/sablon/5_gorsel_sistemi.md` D-2). Sahibinin kararı (16 Eki): Defne itirafında
+Peri'nin sinirli yüzü ve G2–G7'deki tutam **kalıyor**. Sırada: sahibinin Onay 3'teki öbür notları. *(Kural: SATIR-20)*
 
 ### ✅ 16 Ekim 17:40: adım 11 bitti — sırada Onay 3 (sahibi görsellere bakar)
 `arac_yeni_tur.js --hepsi` her satırı `YENI_UI/satir/`'a görüntüler + `dokum.txt`. Bütün yollar ve dört karar koşuldu,
@@ -1202,7 +1180,7 @@ Gömülü: G1–G49, G51–G59 (58/59). G13 Gemini'de üretildi (12 Eki). **Bekl
 ChatGPT reddetti) — Grok'ta orijinal promptla.
 Grok da reddederse sahibine sor, kendiliğinden yumuşatma. İki görsel gelince → **adım 11 görselli tur (bütün yollar)** → Onay 3. Sahibi başladığını haber verince
 saati `vaka2_baslangic.md` §1'e yaz. Adım 11'de bakılacaklar: Tolga G30'un eli ekran dışında;
-`arac_yeni_tur.js 0 defne dogru` yolu yok.
+`arac_yeni_tur.js 0 defne dogru` yolu yok. *(Kural: ISTEM-25)*
 
 **16 Ekim notu:** K23'ün Grok denemesi 12 Ekim'den beri kayda geçmedi — yeni pencere **ilk iş sahibine
 sorsun** (denendi mi, görsel var mı). 12 Ekim'deki LoRA / Forge (yerel üretim) işi Vaka 2'nin yolu
@@ -1227,7 +1205,7 @@ Kullanılan komut: `node arac_paket.js <paket> --vaka 2 --profil G8=peri_beyaz,�
 - **Çorap bandı (sahibinin kararı: kaldır).** İlk G8–G13'te çorabın üst bandı görünüyordu (bazısında
   tek, G9'da iki bacak). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" promptuyla
   yeniden üretildi (Grok, 912×1136) ve gömüldü. Otomatik rötuş denendi, olmadı (bant etek ucuna
-  yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönme.
+  yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönme. *(Kural: ISTEM-38)*
 - ⚠️ **AÇIK: G13 (`peri.ortulu.utanmis`) yeniden üretilemedi** (ChatGPT yapmıyor, Grok limiti doldu).
   Geçici: `gorseller.json` → `takma` ile G12'nin (`peri.ortulu.sasirmis`) karesi görünüyor; bantlı eski
   sprite silindi. Sahibi G13'ü getirince: `arac_paket.js <klasör> --vaka 2 --profil G13=peri_beyaz --yaz`,
@@ -1257,7 +1235,7 @@ yok"); `defne zayif` çalışıyor.
 ### Sohbet 5 (Lâl, G26–G28) — gömüldü (11 Eki 12:13)
 Üretici gözlüğün sapına (menteşe yanı) her seferinde marka yazısı benzeri bir iz koydu; düz siyah
 yüzeyde, dikeyde koyu komşulardan medyanla dolduruldu (kaynak `ozgun/` scratchpad'de). Gözlük/kalem/saat
-gibi markalı olabilen nesnelerde sapı ve kenarı büyütüp tara. G28 → `konuk_sag`. Boy `lal` 0.80.
+gibi markalı olabilen nesnelerde sapı ve kenarı büyütüp tara. G28 → `konuk_sag`. Boy `lal` 0.80. *(Kural: DENETIM-23)*
 
 ### Sohbet 6 (Tolga, G29–G30) — gömüldü (11 Eki 12:21)
 Düzeltme yok; `konuk` profili temiz. Boy `tolga` 0.90. **Adım 11'de bak:** G30'un ("Ben mi canım?")
@@ -1270,7 +1248,7 @@ sırasından değil görselden doğrula**. Yeni profil **`konuk_beyaz`** (beyaz 
 `konuk`un delik doldurması Bülent ve Sarkis'in gömleğini delik delik yiyordu). Saadet'in kızıl saçı
 `hale_koyu`nun ten korumasına takıldı (kızıl = ten rengi); baş bölgesinde (y<170) yalnız saydama
 komşu, zemine <32 uzak pikseller 8 tur aşındırıldı. Mezuralarda çentik/rakam benzeri işaretler var;
-mezuranın doğası, oyun boyutunda okunmuyor — kabul.
+mezuranın doğası, oyun boyutunda okunmuyor — kabul. *(Kural: GOMME-5, GOMME-6, GOMME-2)*
 
 ### Sohbet 7 (Atölye) — gömüldü (11 Eki 12:46)
 G35–G37 (A15–A17) gömüldü, temiz. **G44 (D6) düzeltilip gömüldü (12:49):** ilk hâlinde örtüyü kaldıran el siyah uzun kollu ve
@@ -1289,23 +1267,23 @@ prompt istenmiyor; Grok da reddederse o zaman düşünülür). Yedek yumuşatıl
 oturmuş, dizler bükülü, ayaklar kenardan sarkıyor; "seksi / bacaklar havada / etek" kelimeleri YOK.
 Ref: G42 (mutfak) + G8 (kremalı Peri). Reddedilen karelerde bu kelimeleri çıkarıp açıyı yandan al.
 Saklanma/görme içeren karede **kim kimi görüyor** geometrisini kur (K20: kamera masanın arkasında, ön panel kapalı → seyirci Peri'yi görür, Saadet görmez).
-Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) aç, adı geçen herkes var mı say.
+Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) aç, adı geçen herkes var mı say. *(Kural: ISTEM-25, ISTEM-35, ISTEM-36)*
 
 ### Sonra
 - Bütün sohbetler bitince → adım 11 (görselli tur, bütün yollar) → **Onay 3** (sahibi yalnız
   görsellere bakar) → düzeltmeler → **adım 14 Vaka donar**. Süre tablosunu doldur, **toplamı
   hesapla** (aralar ve "sayılmaz" işler hariç) — sahibi bununla vaka başına süreyi tahmin edecek
   (önceki tahmin: 7–10 saat).
-- Yayından önce: geçici "Vaka 2'den başla" düğmesini kapat (`yeni_arayuz.js` → `VN_VAKA_ATLA = false`).
+- **"Vaka N'den başla" test düğmeleri (GEÇİCİ)** — ARAYUZ-37.
 - Vaka 3: `sablon/vakalar/vaka3_baslangic.md` hazır (iki yeni kural: **bulanık replik taraması**
   Onay 2'den önce, **toplu görsel işleme**). Sahibi "Vaka 3'e başla" deyince başlar.
 
 ### Bu oturumda alınan kararlar (sahibinin)
-- Görsel sayısı **azaltılmaz** (çok görsel oyunu güzelleştiriyor).
-- **İfade ızgarası yok** (bir istekte birkaç ifade → çözünürlük düşüyor).
-- **Ücretli üretim (API) yok**, şimdilik; ChatGPT/Grok sohbetinde elle üretim.
-- **Her vakada Peri ve Cengo yeni kıyafet** giyer → kıyafet kütüphanesi tutulmaz.
-- Görseller sohbet sohbet, **toplu** gelir; adlandırmayı araç yapar (`--sira`).
+- **Yalnız satırların istediği ifade ve poz üretilir** — SATIR-35.
+- **İfade ızgarası yok** — ISTEM-54.
+- **Ücretli üretim (API) yok** — SUREC-31.
+- **Her vakada Peri ve Cengo yeni kıyafet** — KAR-22.
+- **Paket aracı ve toplu işleme** — GOMME-6.
 - `arac_paket.js` yazımı ve G1 hazırlığı Vaka 2 süresine **sayılmaz**.
 - Platform/tür sohbeti yapıldı (Choices benzeri platform, gazeteci/avukat gibi türler) — karar yok, iş yok.
 
@@ -1357,8 +1335,7 @@ Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) 
   (numaralı referanslarla sahibine gönderildi). Görsel geldikçe: kontrol (dosyanın sonu),
   figürse `arac_kes.js`, göm, `gorseller.json` → `yer_tutucu`'dan çıkar, tur. Sonra Onay 3.
 - Tur: `node arac_yeni_tur.js [karar] [set|dukkan] [dogru|zayif|kemal|tuba]`.
-- **Sahibiyle çalışma biçimi:** çok basit ve kısa yaz, Türkçe kelime kullan; bir adımda dur,
-  eksikleri tek tek konuş; yalnız Vaka 1 üzerinde çalış.
+- **Sahibiyle çalışma biçimi** — SUREC-34.
 
 ---
 
@@ -1370,7 +1347,7 @@ Her karede **metindeki kare satırını** (`vaka2_diyalog.md` → `{kare: Kn}`) 
 
 | | |
 |---|---|
-| Kaynak metin | `YENI_VAKA_1.md` (açılış + Vaka 1), `YENI_OYUN_SEZON.md` (sezon kuralları), `YENI_OYUN_TON.md` |
+| Kaynak metin | `YENI_VAKA_1.md` (açılış + Vaka 1), `arsiv/kaynak/YENI_OYUN_SEZON.md` (sezon kuralları), `arsiv/kaynak/YENI_OYUN_TON.md` |
 | Veri | `kaynak/yeni/` — `node dogrulayici.js yeni` PASS (3 uyarı: K8 ×2, K9) |
 | Sayfa | `node build_html.js yeni` → `yeni/index.html` (yayında `…/paravan/yeni/`), tema yeni, batma uyarısı yok |
 | Görsel | Vaka 1: **49/49** (`YENI_OYUN_GORSEL_PROMPTLARI.md`, son bölümler kovalamaca K10–K12) |
@@ -1386,13 +1363,13 @@ kareye çıktı (simit → Peri çarşafta → balık kasası → yakalama); sez
 - Ruh hâli görseli / istatistik paneli yeni sayfada yok (eski açık sorular).
 - Cengo'nun "sinirli" sprite'ı yok (normal'e takma).
 
-**Sıradaki iş:** Vaka 2'yi kâğıt üstünde yazmak (`YENI_OYUN_SEZON.md` sırası); kovalamacayı
+**Sıradaki iş:** Vaka 2'yi kâğıt üstünde yazmak (`arsiv/kaynak/YENI_OYUN_SEZON.md` sırası); kovalamacayı
 karardan önceki doruğa koymak önerildi.
 
 **Duran kurallar (sahibinin):** doğrudan `main`; her prompta referans resimleri numaralı
 ve aynı mesajda; mantolu Peri'nin altında siyah kalem etek, ayakkabıları kırmızı stiletto;
 Peri'nin dekoltesi asla azaltılmaz; yan karakterlere ana karakter referans verilmez; yeni
-kanon eklemeden önce sor.
+kanon eklemeden önce sor. *(Kural: ISTEM-12, ISTEM-15, ISTEM-20, ISTEM-21)*
 
 ---
 
@@ -1408,8 +1385,7 @@ Her şey **`main`**'de ve push edilmiş; çalışma ağacı temiz. Son commit'in
 | Tarayıcı turu | dokuz vakayı da oynuyor, hata yok |
 | İçerik | 9 vaka · 48 ipucu · 67 olgu · 40 karar |
 
-**Cache uyarısı:** GitHub Pages `index.html`'i `max-age=600` ile sunuyor. Sahibi
-değişikliği göremezse **`?v=8`** gibi bir sorgu eki ver.
+**Cache uyarısı** — KOD-34.
 
 ---
 
@@ -1422,7 +1398,7 @@ taze göz incelemesinden geçirildi ve düzeltildi. **Metin incelemesi bitti.**
 ### Yöntem — tekrar kurulabilir
 
 1. `node arac_okuma.js V3 > /tmp/v3.txt` — vakanın tam dökümü
-2. `kaynak/inceleme_brief_v3.md` — ChatGPT'ye brief (format sözlüğü + sözleşmeler
+2. `arsiv/kaynak/inceleme_brief_v3.md` — ChatGPT'ye brief (format sözlüğü + sözleşmeler
    + o vakaya özgü uyarılar + önceki turun karnesi)
 3. Rapor gelince **her maddeyi veriye/motora karşı doğrula**, sonra ayıkla
 4. Geçerli olanları uygula, geçmeyenlerin gerekçesini bir sonraki brief'e yaz
@@ -1509,7 +1485,7 @@ kullanıldıkça kör noktaları çıktı:
 Son üçü düzeltildi ve negatif sınandı (eski metinler geçici geri konunca araç
 yakaladı). Türkçe tuzağının yeni bir yüzü de burada çıktı: **JS'in `\b` sınırı
 "ğ"yi harf saymıyor**, yani `/\bsordu\b/` **"sorduğu"** ile eşleşiyor. Sınır
-Türkçe harf kümesiyle elle kuruldu.
+Türkçe harf kümesiyle elle kuruldu. *(Kural: KOD-13)*
 
 ### Yeni korumalar
 
@@ -1547,7 +1523,7 @@ Motor ve doğrulayıcı her yerde `c.reveals || []` okuyor, boş dizi güvenli.
 
 `reveals`/`acilan` ile açılan her olgunun bir gövdesi olmalı: ya `vaka.facts`'te bir
 metni, ya bir `knowledge.turetilen` karşılığı. Yoksa **hata** — uyarı değil, çünkü bu
-bir tasarım kararı olamaz.
+bir tasarım kararı olamaz. *(Kural: KOD-65)*
 
 Tuttuğu şey: `ilyas_yuzu` yerine `ilyas_yuz` yazmak. Eskiden doğrulayıcı geçerdi,
 oyun çalışırdı, ipucu açılırdı ve olgu buharlaşırdı — ona bağlı çıkarım hiç doğmaz,
@@ -1555,7 +1531,7 @@ o çıkarıma bağlı karar hiç açılmaz, vakanın yarısı sessizce kapanırd
 
 **`needs` bilerek denetlenmiyor:** bir ipucu önceki vakadan taşınan kalıcı bir olguyu
 ya da bir tohumu isteyebilir; orada "bu vakada tanımlı değil" demek yanlış pozitif
-üretirdi. `reveals`/`acilan` ise BEYANDIR — bu vakanın açtığını söyler.
+üretirdi. `reveals`/`acilan` ise BEYANDIR — bu vakanın açtığını söyler. *(Kural: KOD-65)*
 
 Negatif sınandı ve `test_bozuk.js`'e **TEST 8** olarak eklendi (tek harflik yazım
 hatası → BLOCKED). Betik artık yedi senaryo basıyor.
@@ -1567,7 +1543,7 @@ hatası → BLOCKED). Betik artık yedi senaryo basıyor.
 ### 🆕 YENİ OYUN — çerçeve kararları alındı (23 Eylül 2026)
 
 Sahibi Mavi Ay (*Moonlighting*) tonunda, **İngilizce**, İstanbul'da geçen yeni bir oyun
-yapmaya karar verdi. Kararların tamamı ve gerekçeleri: **`YENI_OYUN_CERCEVE.md`**.
+yapmaya karar verdi. Kararların tamamı ve gerekçeleri: **`arsiv/kaynak/YENI_OYUN_CERCEVE.md`**.
 
 Özet: sadece İngilizce (orijinal, çeviri değil) · İstanbul kalıyor · Steam birinci,
 Android ikinci · ilk 2-3 vaka bedava, gerisi tek ödeme · reklam/elmas/abonelik yok ·
@@ -1624,46 +1600,32 @@ eşliyor (EFEKT tablosu, `efektCal` çağrıları, `ses/` klasörü).
 
 ### ⚪ Sonraki faz
 Android: Capacitor, görselleri base64'ten çıkarma, donanım geri tuşu,
-erişilebilirlik, `final_tablo_plani.md`'deki sezon sonu istatistik tablosu.
+erişilebilirlik, `arsiv/kaynak/final_tablo_plani.md`'deki sezon sonu istatistik tablosu.
 
 ---
 
 ## 5. SAHİBİYLE ÇALIŞMA BİÇİMİ
 
-**Kısa konuş.** Bu oturumda sahibi dört kez "basit ve kısaca anlat" dedi. Uzun
-tablo ve çok maddeli cevap işe yaramıyor; **iki-üç cümle + bir soru** çalışıyor.
+**Kısa konuş** — SUREC-34.
 
-**"Senin fikrin nedir?" diye sorar.** Seçenek listesi sunmak yerine **bir tane
-öner ve gerekçesini tek cümlede söyle.** Bu oturumda beş kez böyle ilerledi.
+**"Senin fikrin nedir?" diye sorar** — SUREC-34.
 
-**Kanona ekleme yapmadan önce onay al** — nereye ne ekleyeceğini söyle, onaylasın,
-sonra yap. Bu oturumda bir kez işledi (V5 kanıtı) ve şekli sahibi seçti.
+**Kanona ekleme yapmadan önce onay al** — KAR-1.
 
-**Taslak → oku → uygula.** Her seferinde taslakta bir hata yakalandı.
+**Taslak → oku → uygula** — SUREC-34.
 
-**Sahibinin prozasına dokunma.** Onun cümlesini değiştirmek öneriyle olur.
+**Sahibinin prozasına dokunma** — SUREC-34.
 
 ---
 
 ## 6. BU OTURUMDA ISIRAN DERSLER
 
-**Önce motora sor, sonra inan.** İnceleme üç kez "bu bozuk" dedi ve üçü de
-doğruydu; ama iki kez de yanlış alarm verdi ve ikisi de ancak **motoru
-çalıştırınca** çürütülebildi (`boslukla_kapat` kapısı, `%100` paneli).
+**Önce motora sor, sonra inan** — KOD-25.
 
-**Tuhaf görünen şey kasıtlı olabilir.** `vedat_yuz`'ü "gizli tuzak" sanıp bedelsiz
-yaptım; `test_v2b.js` kırıldı ve testin kendi yorumu tasarımı yazıyordu:
-*"gerçek seçim: tam gerçek (güç) vs Vedat'a acıma (empati). İkisi birden değil."*
-**Değiştirmeden önce ilgili teste bak.**
+**Tuhaf görünen şey kasıtlı olabilir** — KOD-12.
 
-**Kendi aracına da şüpheyle bak.** İki yanlış alarmdan biri verinin değil
-`arac_okuma.js`'in hatasıydı. Bir teşhiste de kendi "düzeltmem" hatayı büyüttü
-(tur döngüsünün frenini 8'den 4'e düşürdüm).
+**Kendi aracına da şüpheyle bak** — KOD-24, KOD-26.
 
-**Geri çekme, ekleme kadar iş görür.** Bu oturumda uygulanan 30 düzeltmenin
-büyük çoğunluğu **cümle kısaltmaktı** — "kimseye söylememiş" → "desteği veren
-oydu", "Adalet geldi" → "Hepsi düştü". Yeni kanon yalnız bir kez eklendi.
+**Geri çekme, ekleme kadar iş görür** — BILGI-22.
 
-**Aynı kök, farklı yüzey.** V4'teki altı sızıntının hepsi tek bir sebeptendi:
-vaka "bunu kim biliyordu?" sorusunu cevaplıyordu, oysa o soru V5'in. Bir bulgu
-bulduğunda **kardeşlerini ara.**
+**Aynı kök, farklı yüzey** — BILGI-23.
