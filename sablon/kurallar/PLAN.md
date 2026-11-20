@@ -26,7 +26,7 @@
 > (`adim3/denetim_tekrar.md`). (3) BİTTİ: sahibi "öneriler uygulansın" dedi; 21 birleşme + 7 çelişki KURALLAR.md'ye işlendi
 > (`adim3/uygulama.md`, ikinci göz `adim3/denetim_uygulama.md` GEÇTİ, tek düzeltmesi yapıldı). 664 asıl kural + 23 yönlenen kod;
 > `say` hata 0 (artık birleşen kuralın kaynaklarının ANA'da olduğunu da sayar). Açık küçük bulgular (sahibine sorulmadı):
-> GOMME-20 başlığı gövdesiyle ters; RAF-65 "Dosyanın tamamı · reklam" ↔ RAF-47 "Vaka 1–2 reklamsız". **Sırada (4):** öbür belgelerden
+> GOMME-20 başlığı ve RAF-65 (uygulamada V1–2 reklamsız) sahibinin onayıyla düzeltildi. **Sırada (4):** öbür belgelerden
 > kural metinlerini çıkarıp kural kodu koymak (sahibinin onayıyla, bir seferde) + kırık atıflar (§5).
 >
 > **20 Kasım'da bu pencerede biten (hepsi `main`'de):**

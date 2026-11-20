@@ -2277,7 +2277,7 @@ Düz yüzeyde (gözlük sapı, çelik kapak, rozet) satır satır yatay ara değ
 Yalnız araç gri-mavi seçip saç açıksa (gri-mavi açık/sıcak saçta mavi hale bıraktı — V6: Eylül, Recep, Tahsin, Gizem) bej ile deneme yapılır: temel istemi iki zeminle (`G<n>.md` + `G<n>z.md`) üretilir, ikisi oyunda kesilip (`arac_yanyana.js`) başı büyütülür, saç kenarı temiz olan seçilir; seçilen `onayli/G<n>.png`, öbürü `red/`. O kıyafetin bütün ifadeleri o zemini alır.
 *Kaynak:* 541, 543, 1084
 
-#### GOMME-20 Aynı zemin, renk düzeltmesi yok; kesim profili zemine göre
+#### GOMME-20 Aynı zemin, renk düzeltmesi yok; kesim profili yalnız çerçeve
 - Aynı karakterin (aynı kıyafetin) bütün ifadeleri aynı zeminde.
 - Renk düzeltmesi yapılmaz: renk yanlışsa resim yeniden üretilir.
 - Kesim profilinin adı kalır ama **yalnız karakterin çerçevesini** belirler (GOMME-1). Zemine göre "dar profil" seçimi (`peri_mavi`/`cengo_beyaz`/`konuk_beyaz_delik`)
@@ -3456,6 +3456,7 @@ Mağaza sayfasında "Reklam içerir" ve "Uygulama içi satın alma" etiketleri (
 
 #### RAF-65 Dosyanın tamamı
 (17 Ekim 2026, sahibinin kararı.) Kapanıştan sonraki ekranda (vaka sonundaki ekran: Kaçırdığın ipuçları / Dosya kapandı) ayrı bir düğme, reklamla açılır: "Dosyanın tamamı · reklam". Açan oyuncu vakanın gerçekte nasıl olduğunu olay sırasıyla okur: 5–7 kısa paragraf — suçlu ne yaptı, neden; masumlar o gece neredeydi; yanıltan izler nereden geldi. Formun §2'sinden (Gerçek) düz dille. "Geri" ile aynı ekrana döner. Kaçan ipucu reklamlarından bağımsızdır; bir kez izlenince o ekranda yeniden reklamsız açılır. Masaya dönünce kapanır, Defter'den açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`**HİKÂYE:**` paragrafları) → `kim_yapti.hikaye`; yoksa `arac_diyalog.js` yazmaz (`YENI_OYUN_CERCEVE.md`). Ekran `yeni_arayuz.js → hikayeIzle, hikayeEkrani`. AÇIK SORU (sahibi): düğmenin yeri geçici — kaçan ipuçlarının altında durunca oyuncu ipuçlarını izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse gitmez. Şimdilik böyle kalıyor, sonra düşünülecek.
+Uygulamada (telefon ve tablet) Vaka 1–2'de ve satın alanlarda reklamsız açılır (RAF-47; sahibinin kararı, 20 Kasım 2026).
 *Kaynak:* 2006, 636
 
 ### H. İndirme, yer, kayıt ve bulut
