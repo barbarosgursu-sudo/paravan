@@ -1,0 +1,65 @@
+# Konuk görünüş tablosu — benzerlik denetiminin girdisi (kaynak/arac_benzerlik.js).
+# Her konuk bir satır. Yalnız aşağıdaki SÖZLÜK değerleri yazılır (program başka değeri reddeder).
+# yas: sayı (yaklaşık). isaret: virgülle ayrılmış liste ya da "-". kaynak: resim (oyundaki resimden okundu) | metin (formdan).
+# vaka = K: kalıcı karakter (Peri, Cengo, Gizem) — kendisi denetlenmez, ama hiçbir yeni konuk ona benzememeli.
+#   Kıyafeti ve (Peri'nin) saç biçimi vakaya göre değiştiği için o alanlar "?".
+# Yeni vakanın konukları formun Onay 1'inden ÖNCE buraya eklenir; program önceki vakaların hepsiyle karşılaştırır.
+vaka	id	ad	cins	yas	beden	yuz	sac_renk	sac_kesim	isaret	ust_renk	kaynak
+K	peri	Peri	k	35	ince	oval	kizil	?	-	?	resim
+K	cengo	Cengo	e	34	orta	kare	koyu_kahve	kisa_kivircik	sakal	?	resim
+K	gizem	Gizem	k	25	orta	oval	kumral	uzun_dalgali	kakul,cil	?	resim
+0	hilmi	Hilmi (icra memuru)	e	30	ince	uzun	koyu_kahve	kisa_kivircik	biyik,gozluk	gri	resim
+1	riza	Rıza Reis	e	70	iri	kare	kir	kisa	kasket,biyik,sakal	lacivert	resim
+1	serkan	Serkan	e	32	orta	yuvarlak	koyu_kahve	cok_kisa	sakal	yesil	resim
+1	tuba	Tuba	k	42	orta	oval	koyu_kahve	topuz	-	lacivert	resim
+1	kemal	Kemal Reis	e	55	iri	kare	kir	kisa	sakal,onluk	lacivert	resim
+1	cayci	Çaycı	e	65	tombul	yuvarlak	beyaz	kel	biyik,onluk	beyaz	resim
+2	defne	Defne	k	29	ince	oval	koyu_kahve	uzun_dalgali	-	beyaz	resim
+2	lal	Lâl Hanım	k	62	ince	kemikli	kir	kisa	gozluk	siyah	resim
+2	tolga	Tolga	e	42	ince	kare	siyah	kisa	kulaklik,yelek	lacivert	resim
+2	mujgan	Müjgan	k	58	orta	oval	platin	omuz	-	krem	resim
+2	gulsum	Gülsüm	k	55	tombul	yuvarlak	siyah	topuz	gozluk,onluk	siyah	resim
+2	bulent	Bülent (vale)	e	25	ince	oval	koyu_kahve	kisa_kivircik	yelek	kirmizi	resim
+2	sarkis	Sarkis Usta	e	75	orta	yuvarlak	beyaz	kel	gozluk	beyaz	resim
+2	saadet	Saadet Hanım	k	70	ufak	yuvarlak	kizil	mizanpli	-	bordo	resim
+3	ferruh	Ferruh	e	55	tombul	yuvarlak	kir	geriye	biyik,papyon,onluk	lacivert	resim
+3	kenan	Kenan	e	42	ince	uzun	siyah	kisa	sakal,onluk	lacivert	resim
+3	nadide	Nadide Hanım	k	72	iri	yuvarlak	beyaz	topuz	gozluk,hirka	yesil	resim
+3	sedat	Sedat (alarmcı)	e	35	ufak	yuvarlak	siyah	kisa_kivircik	-	gri	resim
+3	ayla	Ayla Hanım	k	55	ince	kemikli	kir	kisa	-	beyaz	resim
+3	rustem	Rüstem Bey	e	65	iri	kare	beyaz	geriye	biyik,yelek	gri	resim
+4	feraye	Feraye	k	65	tombul	yuvarlak	siyah	kabarik	-	mor	metin
+4	sadik	Sadık	e	26	ince	oval	siyah	kisa	onluk	beyaz	metin
+4	tarik	Tarık Bey	e	45	orta	kare	koyu_kahve	topuz	sakal	krem	metin
+4	rana	Rana	k	35	ince	oval	siyah	uzun	-	siyah	metin
+4	zerrin	Zerrin	k	55	orta	oval	kir	kisa	gozluk,onluk	renkli	metin
+4	sebnem	Şebnem Hanım	k	45	orta	oval	kumral	kut	onluk	beyaz	metin
+5	muammer	Muammer Bey	e	65	orta	yuvarlak	beyaz	kel	biyik,gozluk,papyon,yelek	kahve	metin
+5	selim	Selim	e	58	ince	uzun	kir	kisa_kivircik	hirka	kahve	metin
+5	kadir	Kadir	e	45	tombul	yuvarlak	siyah	kisa	biyik	beyaz	metin
+5	nedim	Nedim Bey	e	75	ince	uzun	kir	geriye	-	lacivert	metin
+5	derya	Derya Hanım	k	35	ince	oval	?	?	bere	renkli	metin
+5	efe	Efe	c	8	ufak	yuvarlak	?	?	-	sari	metin
+5	ismet	İsmet Usta	e	75	orta	?	?	?	gozluk,onluk	kahve	metin
+6	eylul	Eylül	k	16	ince	oval	koyu_kahve	uzun	-	siyah	resim
+6	muzeyyen	Müzeyyen Hanım	k	60	ince	oval	sari	mizanpli	hirka	lacivert	resim
+6	jale	Jale Hanım	k	44	ince	kemikli	kizil	kut	-	siyah	resim
+6	haldun	Haldun Bey	e	48	orta	kare	kir	kisa	gozluk	gri	resim
+6	recep	Recep Efendi	e	62	tombul	yuvarlak	kir	kisa_kivircik	yelek	yesil	resim
+6	dilek	Dilek	k	22	ince	yuvarlak	siyah	kut	kakul,onluk	hardal	resim
+6	tahsin	Tahsin Usta	e	75	ince	uzun	beyaz	geriye	gozluk,onluk	mavi	resim
+7	suheyla	Süheyla Hanım	k	55	ince	kemikli	siyah	kut	-	siyah	resim
+7	nesrin	Nesrin Hanım	k	58	ince	kemikli	kir	orgu	gozluk,onluk	siyah	resim
+7	sukru	Şükrü Bey	e	64	ufak	uzun	beyaz	kel	biyik,papyon	kahve	metin
+7	vedat	Vedat Bey	e	50	iri	yuvarlak	kir	kel	sakal,gozluk	bordo	resim
+7	kaan	Kaan	e	28	ince	uzun	kumral	kisa	gozluk,cil	lacivert	metin
+7	ercan	Ercan (vale)	e	40	ince	uzun	siyah	geriye	yelek	siyah	metin
+7	necmi	Necmi	e	55	iri	uzun	kir	?	bere,altin_dis	renkli	metin
+8	bahar	Bahar Hanım	k	52	iri	yuvarlak	platin	kisa	-	renkli	metin
+8	tarkan	Tarkan / Ozan	e	34	ince	kare	sari	kisa	yara_izi,yelek	lacivert	metin
+8	nevzat	Nevzat Bey	e	47	tombul	yuvarlak	koyu_kahve	kisa	biyik,gozluk,kolluk	beyaz	metin
+8	fikret	Fikret Usta	e	63	iri	kare	beyaz	at_kuyrugu	dovme	beyaz	metin
+8	nihat	Nihat Kora	e	55	ince	uzun	kir	uzun_dalgali	-	beyaz	metin
+8	emir	Emir	e	22	ufak	uzun	siyah	kisa_kivircik	dis_teli	turuncu	metin
+8	pinar	Pınar	k	30	ince	oval	mor	kut	kakul,kulaklik	siyah	metin
+8	yusuf	Yusuf Efendi	e	75	ufak	?	?	?	gozluk,kasket,hirka	?	metin
