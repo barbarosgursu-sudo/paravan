@@ -135,7 +135,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: yalnız Nevzat'ı aklar; kimseyi göstermez.
 
 *Maslak. Televizyon stüdyosu: ışıkların altında bir mutfak dekoru, kameralar.* {arka: A62, mekan}
-*Mor saçlı, küt kâküllü, ince bir kadın koşturuyor.* {gir: pinar, gi: telasli, ekran: pinar}
+*Mor saçlarını yüksek bir at kuyruğu yapmış, ince bir kadın koşturuyor.* {gir: pinar, gi: telasli, ekran: pinar}
 **PINAR [telasli]:** Yeni yardımcı sen misin? Tezgâha, çabuk! Soğanlar doğranacak, kamera açık! {gir: pinar, kime: peri, ekran: peri+pinar, yuz: peri.normal}
 *Peri kameranın önünde soğan doğruyor; gözlerinden yaşlar süzülüyor.* {kare: K160}
 **PERİ [utanmis]:** Ağlamıyorum. Soğan. {kare: K160}

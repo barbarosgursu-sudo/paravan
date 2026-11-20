@@ -94,6 +94,10 @@ kapıya bakar; kişi eşikte, arkasında koridor.
 Hikâye donmuş olmalı (`sablon/vakalar/vaka<N>_diyalog.md`). Çıktı: `uretim/v<N>/LISTE.md`, `prompts/G<n>.md`,
 gerekirse `referanslar/`. Listeyi sahibine göster; onaylarsa commit → push. Kurallar:
 
+00. **Konuk benzerliği — zorunlu, otomatik (20 Kasım 2026, sahibinin kararı; vaka numarasına bağlı değil).** Yeni karakterin
+   görünüşü `sablon/kurallar/benzerlik/adaylar.tsv`'ye yazılır (her özellik dolu). İstemden önce `node kaynak/arac_benzerlik.js <vaka>`
+   GEÇTİ demeli: aday, HAVUZA (`havuz.tsv`: resmi onaylanmış herkes) ve birlikte üretilen adaylara benzememeli. DURDU derse
+   görünüş formda, diyalogdaki tarifte ve `adaylar.tsv`'de değiştirilir — **sahibine sorulmaz** — ve GEÇTİ diyene kadar yeniden denenir.
 0. **Liste oyunla eşleşir — zorunlu.** Oyun her resmi bir anahtarla arar (ör. `peri.trenckot.kas`, `A23`, `K36`);
    gömme aracı (`arac_paket.js`) numarayı ve anahtarı `sablon/vakalar/vaka<N>_gorsel.md` tablosundan okur.
    - Listesi zaten olan vaka (Vaka 3): `vaka<N>_gorsel.md`'deki liste AYNEN alınır — aynı numaralar, tür, anahtar.
@@ -301,6 +305,9 @@ başka profil dene; yine olmazsa reddet.
 
 **Karar**
 - **Onay** → `onayli/G<n>.png`. Temel figürse baş kırpığını hazırla (`referanslar/<kim>_bas.png`).
+  **Konuk temel figürü onaylanınca, sormadan:** o kişinin `adaylar.tsv` satırını onaylı RESME göre düzelt (saç, yüz, üst rengi
+  resimde nasılsa; `kaynak` = resim), sonra `node kaynak/arac_benzerlik.js --havuza <kim>` — kişi havuza girer, bundan sonraki her
+  karakter ona da bakılarak üretilir. (Unutulursa `arac_paket.js --yaz` gömerken taşır; ama satırı resme göre düzeltmez.)
 - **Ret** → `prompts/G<n>.md` sonuna `## Düzeltme <k>` + tek-iki cümle (NE değişecek); resmi `red/G<n>_red<k>.png`'ye
   taşı (k = ilk boş numara; üzerine yazma).
 

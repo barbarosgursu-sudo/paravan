@@ -68,7 +68,7 @@ kalıplar adıyla anılır (Vaka 7 örnek).
 | Onu aklayan kanıt | — | | |
 | O gece gerçekte ne yaptı | | | |
 | Görünüşü (figür için) | | | |
-| Eski konuklardan ayıran (15c) | | | |
+| Eski konuklardan ayıran (15c; `node kaynak/arac_benzerlik.js <vaka>` GEÇTİ — havuz: `sablon/kurallar/benzerlik/`) | | | |
 
 ## 5. Olgular
 

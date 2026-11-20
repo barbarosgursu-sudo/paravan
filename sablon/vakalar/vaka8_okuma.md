@@ -124,7 +124,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Maslak, programın stüdyosu: mutfak dekoru, ışıklar, kameralar. Pınar (yapım asistanı, kulaklıklı) Peri'yi "yeni yardımcı" sanıp kameranın önüne iter; Peri soğan doğrar, ağlar (şaka 1). Molada: ödeme gecelerinin üçü de çekim gecesi; Nevzat sabaha kadar kulisteydi.
 
 `137` *Maslak. Televizyon stüdyosu: ışıkların altında bir mutfak dekoru, kameralar.*  
-`138` *Mor saçlı, küt kâküllü, ince bir kadın koşturuyor.*  
+`138` *Mor saçlarını yüksek bir at kuyruğu yapmış, ince bir kadın koşturuyor.*  
 `139` **PINAR:** Yeni yardımcı sen misin? Tezgâha, çabuk! Soğanlar doğranacak, kamera açık!  
 `140` *Peri kameranın önünde soğan doğruyor; gözlerinden yaşlar süzülüyor.*  
 `141` **PERİ:** Ağlamıyorum. Soğan.  

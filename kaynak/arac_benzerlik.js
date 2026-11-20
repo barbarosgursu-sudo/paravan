@@ -1,28 +1,30 @@
 #!/usr/bin/env node
-// Konuk benzerliği denetimi — ÜRETİMDEN ÖNCE (kural işi adım 4, sahibinin kararı 19 Kasım 2026).
-// Girdi: sablon/kurallar/benzerlik/konuklar.tsv (her konuğun görünüş tablosu, kapalı sözlük).
-// Her yeni konuk, ÖNCEKİ vakaların bütün konuklarıyla (aynı cins) karşılaştırılır. Aynı sayılan özellik sayısı
-// ESIK'e ulaşırsa çıkış 1: o konuğun istemi üretime girmez — görünüşü değiştirilip tablo yeniden yazılır.
+// Konuk benzerliği denetimi — karakter üretilmeden ÖNCE (sahibinin kararı, 20 Kasım 2026). Kurala vaka numarası karışmaz.
+//   HAVUZ   (sablon/kurallar/benzerlik/havuz.tsv):   resmi onaylanmış karakterler; değişmez.
+//   ADAYLAR (sablon/kurallar/benzerlik/adaylar.tsv): resmi onaylanmamış herkes; değişebilir.
+// Yeni karakter havuzdaki HİÇ kimseye ve birlikte denetlenen öbür adaylara benzememeli. Benzerse görünüşü formda ve
+// adaylar.tsv'de değiştirilir (sahibine sorulmaz) ve program GEÇTİ diyene kadar yeniden denenir. Resmi onaylanınca
+// karakter havuza taşınır; ondan sonraki her karakter ona da bakılarak üretilir.
 //
-//   node arac_benzerlik.js <vaka>       → o vakanın konuklarını önceki vakalarla karşılaştırır (çıkış 1 = benzer var)
-//   node arac_benzerlik.js --hepsi      → her vakayı kendinden öncekilerle (bilgi; çıkış hep 0)
-//   node arac_benzerlik.js --sinav      → bilinen benzer çiftleri yakalıyor mu (çıkış 1 = araç güvenilmez)
+//   node arac_benzerlik.js <seçim> ...  → seçilen adaylar (vaka sütunu ya da id; ör. "8" ya da "nevzat pinar") havuza ve
+//                                         birbirine karşı. Çıkış 1 = değişecek biri var; o kişinin istemi üretime girmez.
+//   node arac_benzerlik.js              → bütün adaylar havuza karşı (bilgi; adaylar birbirine karşı denetlenmez)
+//   node arac_benzerlik.js --havuza <id> ...  → onaylanan karakteri adaylardan havuza taşır (onay anında; gömme aracı da çağırır)
+//   node arac_benzerlik.js --sinav      → bilinen benzer çiftlerin yazıdaki puanı (bilgi)
 //
-// Özellikler: yaş (±10 yıl aynı sayılır), beden, yüz biçimi, saç rengi (yakın renkler aynı), saç kesimi,
-// üst rengi, ayırıcı işaret (ortak bir işaret varsa aynı). "?" hiçbir şeyle aynı sayılmaz; ama YENİ vakanın
-// konuğunda "?" yasak (bilinmeyen özellik denetimi deler).
+// Özellikler: yaş (±10 yıl aynı), beden, yüz biçimi, saç rengi (yakın renkler aynı), saç kesimi, üst rengi, ayırıcı
+// işaret (ortak işaret varsa aynı). Ağırlıklı puan, eşik 6: daha gevşek eşik her vakada 10–40 yanlış alarm verdi. Yazı
+// denetimi BARİZ benzerliği durdurur; resimde çıkan benzerliği (Süheyla–Jale gibi) üretimden sonraki resim aracı yakalar.
 "use strict";
 const fs = require("fs");
 const path = require("path");
 
-const DOSYA = process.env.BENZERLIK_TABLO || path.join(__dirname, "..", "sablon", "kurallar", "benzerlik", "konuklar.tsv");
-// Ağırlık: saç ve ayırıcı işaret göze en çok çarpan; ötekiler 1. Eşik 6 (20 Kasım 2026): daha gevşek eşik
-// her vakada 10–40 yanlış alarm verdi. Bu yüzden yazı denetimi yalnız BARİZ benzerliği durdurur; resimde çıkan
-// benzerliği (Süheyla–Jale gibi) üretimden sonraki resim aracı yakalar.
+const KLASOR = process.env.BENZERLIK_KLASOR || path.join(__dirname, "..", "sablon", "kurallar", "benzerlik");
+const HAVUZ = path.join(KLASOR, "havuz.tsv");
+const ADAY = path.join(KLASOR, "adaylar.tsv");
+
 const AGIRLIK = { yas: 1, beden: 1, yuz: 1, sac_kesim: 2, ust_renk: 1, sac_renk: 2, isaret: 2 };
 const ESIK = 6;
-const puan = (ayni) => ayni.reduce((s, x) => s + AGIRLIK[x.split(" ")[0].replace("yaş", "yas").replace("işaret", "isaret")], 0);
-
 const SOZLUK = {
   cins: ["k", "e", "c"],
   beden: ["ince", "orta", "iri", "tombul", "ufak"],
@@ -39,141 +41,151 @@ const SOZLUK = {
 const RENK_GRUP = { kir: "agarmis", beyaz: "agarmis", sari: "acik", platin: "acik", siyah: "koyu", koyu_kahve: "koyu" };
 // Meslek giysisi ortak işaret sayılmaz (önlüğü olan çok; yüzü ayırmaz).
 const ISARET_SAYILMAZ = new Set(["onluk"]);
+const OZELLIK = ["yas", "beden", "yuz", "sac_renk", "sac_kesim", "ust_renk"];
+const bilinir = (x) => x && x !== "?";
 
-function oku(dosya = DOSYA) {
-  const satirlar = fs.readFileSync(dosya, "utf8").split("\n").filter((s) => s.trim() && !s.startsWith("#"));
-  const bas = satirlar.shift().split("\t");
+function dosyaOku(dosya) {
+  const metin = fs.readFileSync(dosya, "utf8");
+  const satir = metin.split("\n");
+  const ust = satir.filter((s) => s.startsWith("#"));
+  const veri = satir.filter((s) => s.trim() && !s.startsWith("#"));
+  const bas = veri.shift().split("\t");
   const hata = [];
-  const kisiler = satirlar.map((s, i) => {
+  const kisiler = veri.map((s, sira) => {
     const h = s.split("\t");
-    const o = {};
+    const o = { sira, ham: s };
     bas.forEach((b, j) => (o[b] = (h[j] || "").trim()));
-    o.kalici = o.vaka === "K";
-    o.vaka = o.kalici ? -1 : Number(o.vaka);
     o.isaret = o.isaret === "-" ? [] : o.isaret.split(",").map((x) => x.trim()).filter(Boolean);
     for (const [alan, izin] of Object.entries(SOZLUK)) {
       const degerler = alan === "isaret" ? o.isaret : [o[alan]];
-      for (const d of degerler) if (d !== "?" && !izin.includes(d)) hata.push(`${o.id}: ${alan} = "${d}" sözlükte yok`);
+      for (const d of degerler) if (d !== "?" && !izin.includes(d)) hata.push(`${path.basename(dosya)} ${o.id}: ${alan} = "${d}" sözlükte yok`);
     }
     if (o.yas !== "?" && !/^\d+$/.test(o.yas)) hata.push(`${o.id}: yas sayı değil`);
     return o;
   });
-  return { kisiler, hata };
+  return { ust, bas, kisiler, hata };
+}
+
+function oku() {
+  const h = dosyaOku(HAVUZ), a = dosyaOku(ADAY);
+  const hata = h.hata.concat(a.hata);
+  const ids = new Set();
+  for (const k of h.kisiler.concat(a.kisiler)) {
+    if (ids.has(k.id)) hata.push(`${k.id}: iki kez yazılı (havuz ve adaylar birlikte)`);
+    ids.add(k.id);
+  }
+  return { havuz: h, aday: a, hata };
 }
 
 function karsilastir(a, b) {
   const ayni = [];
-  const bilinir = (x) => x && x !== "?";
-  if (bilinir(a.yas) && bilinir(b.yas) && Math.abs(+a.yas - +b.yas) <= 10) ayni.push(`yaş (${a.yas}/${b.yas})`);
+  if (bilinir(a.yas) && bilinir(b.yas) && Math.abs(+a.yas - +b.yas) <= 10) ayni.push(["yas", `yaş (${a.yas}/${b.yas})`]);
   for (const alan of ["beden", "yuz", "sac_kesim", "ust_renk"])
-    if (bilinir(a[alan]) && a[alan] === b[alan]) ayni.push(`${alan} (${a[alan]})`);
+    if (bilinir(a[alan]) && a[alan] === b[alan]) ayni.push([alan, `${alan} (${a[alan]})`]);
   if (bilinir(a.sac_renk) && bilinir(b.sac_renk) &&
       (a.sac_renk === b.sac_renk || (RENK_GRUP[a.sac_renk] && RENK_GRUP[a.sac_renk] === RENK_GRUP[b.sac_renk])))
-    ayni.push(`sac_renk (${a.sac_renk}/${b.sac_renk})`);
+    ayni.push(["sac_renk", `saç rengi (${a.sac_renk}/${b.sac_renk})`]);
   const ortak = a.isaret.filter((x) => b.isaret.includes(x) && !ISARET_SAYILMAZ.has(x));
-  if (ortak.length) ayni.push(`işaret (${ortak.join(",")})`);
-  return ayni;
+  if (ortak.length) ayni.push(["isaret", `işaret (${ortak.join(",")})`]);
+  return { puan: ayni.reduce((s, [alan]) => s + AGIRLIK[alan], 0), ayni: ayni.map(([, m]) => m) };
 }
 
-function denetle(kisiler, vaka, esik = ESIK) {
-  const yeni = kisiler.filter((k) => k.vaka === vaka);
-  const eski = kisiler.filter((k) => k.vaka < vaka); // kalıcılar (vaka -1) her zaman içinde
-  const bulgu = [];
-  const eksik = [];
-  for (const y of yeni) {
-    for (const alan of ["yas", "beden", "yuz", "sac_renk", "sac_kesim", "ust_renk"])
-      if (!y[alan] || y[alan] === "?") eksik.push(`${y.id}: ${alan} boş ("?") — yeni konukta her özellik yazılır`);
-    for (const e of eski) {
+// Seçilen adaylar: havuzdaki herkese ve birbirine karşı. İki aday benzerse adaylar listesinde SONRA yazılan değişir.
+function denetle(havuz, secili, birbirine = true) {
+  const bulgu = [], eksik = [];
+  for (const y of secili) {
+    for (const alan of OZELLIK) if (!bilinir(y[alan])) eksik.push(`${y.id}: ${alan} boş ("?") — adayda her özellik yazılır`);
+    const karsi = havuz.concat(birbirine ? secili.filter((o) => o.sira < y.sira) : []);
+    for (const e of karsi) {
       if (e.cins !== y.cins) continue;
-      const ayni = karsilastir(y, e);
-      if (puan(ayni) >= esik) bulgu.push({ yeni: y, eski: e, ayni, puan: puan(ayni) });
+      const { puan, ayni } = karsilastir(y, e);
+      if (puan >= ESIK) bulgu.push({ y, e, puan, ayni });
     }
   }
   bulgu.sort((p, q) => q.puan - p.puan);
-  return { yeni, bulgu, eksik };
+  return { bulgu, eksik };
 }
 
-// Bilinen benzer çiftler: resimleri birbirine benzemiş, sahibinin ya da ortağın yakaladığı. Araç bunları
-// tablodaki bugünkü görünüşleriyle ya da sorunlu İLK tarifleriyle yakalamalı; yakalayamazsa güvenilmez.
+// Onaylanan karakteri adaylardan havuza taşır. Dönüş: taşınan id'ler. Havuzda zaten olan sessizce geçilir.
+function havuzaTasi(idler) {
+  const { havuz, aday, hata } = oku();
+  if (hata.length) throw new Error("benzerlik tabloları hatalı: " + hata.join("; "));
+  const havuzda = new Set(havuz.kisiler.map((k) => k.id));
+  const tasinan = [];
+  for (const id of idler) {
+    if (havuzda.has(id)) continue;
+    const k = aday.kisiler.find((x) => x.id === id);
+    if (!k) continue;
+    tasinan.push(k);
+  }
+  if (!tasinan.length) return [];
+  const tasId = new Set(tasinan.map((k) => k.id));
+  const yaz = (d, ust, bas, kisiler) => fs.writeFileSync(d, ust.join("\n") + "\n" + bas.join("\t") + "\n" + kisiler.map((k) => k.ham).join("\n") + "\n");
+  yaz(HAVUZ, havuz.ust, havuz.bas, havuz.kisiler.concat(tasinan));
+  yaz(ADAY, aday.ust, aday.bas, aday.kisiler.filter((k) => !tasId.has(k.id)));
+  return [...tasId];
+}
+
 const SINAV = [
-  // Vaka 7 G4: Süheyla, Jale'nin aynısı çıktı (19 Kasım 2026). Tablodaki hâli = resimde çıkan.
-  { ad: "Süheyla – Jale (V7 G4)", yeni: "suheyla", eski: "jale" },
-  // Vaka 6 ilk tarif (13 Kasım 2026, Barbaros: Nadide'ye çok benzedi): gümüş saç, örgü hırka, zincirli gözlük.
-  { ad: "Müzeyyen ilk tarif – Nadide", eski: "nadide",
-    yeni: { id: "muzeyyen_ilk", vaka: 6, cins: "k", yas: "60", beden: "?", yuz: "?", sac_renk: "kir", sac_kesim: "?",
-      ust_renk: "?", isaret: ["gozluk", "hirka"] } },
-  // Vaka 7 ilk tarif (16 Kasım, ortak: Bülent'e benzedi): uzun ince, perçemli kahverengi saç, genç.
-  { ad: "Kaan ilk tarif – Bülent", eski: "bulent",
-    yeni: { id: "kaan_ilk", vaka: 7, cins: "e", yas: "28", beden: "ince", yuz: "?", sac_renk: "koyu_kahve",
-      sac_kesim: "?", ust_renk: "lacivert", isaret: [] } },
-  // Vaka 7 ilk tarif (16 Kasım, ortak: Recep'e benzedi): iri, kır favoriler, yün bere, 50'ler.
-  { ad: "Necmi ilk tarif – Recep", eski: "recep",
-    yeni: { id: "necmi_ilk", vaka: 7, cins: "e", yas: "55", beden: "tombul", yuz: "yuvarlak", sac_renk: "kir",
-      sac_kesim: "?", ust_renk: "?", isaret: ["bere"] } },
-  // Vaka 7 ilk tarif (16 Kasım, ortak: Bülent'ten ayrılsın): jöleli siyah saç, kırmızı vale yeleği.
-  { ad: "Ercan ilk tarif – Bülent", eski: "bulent",
-    yeni: { id: "ercan_ilk", vaka: 7, cins: "e", yas: "40", beden: "?", yuz: "?", sac_renk: "siyah",
-      sac_kesim: "geriye", ust_renk: "kirmizi", isaret: ["yelek"] } },
+  { ad: "Süheyla – Jale", a: "suheyla", b: "jale" },
+  { ad: "Müzeyyen ilk tarif – Nadide", b: "nadide",
+    a: { cins: "k", yas: "60", sac_renk: "kir", isaret: ["gozluk", "hirka"] } },
+  { ad: "Kaan ilk tarif – Bülent", b: "bulent",
+    a: { cins: "e", yas: "28", beden: "ince", sac_renk: "koyu_kahve", ust_renk: "lacivert", isaret: [] } },
+  { ad: "Necmi ilk tarif – Recep", b: "recep",
+    a: { cins: "e", yas: "55", beden: "tombul", yuz: "yuvarlak", sac_renk: "kir", isaret: ["bere"] } },
+  { ad: "Ercan ilk tarif – Bülent", b: "bulent",
+    a: { cins: "e", yas: "40", sac_renk: "siyah", sac_kesim: "geriye", ust_renk: "kirmizi", isaret: ["yelek"] } },
 ];
 
-function satir(b) {
-  const v = (k) => (k.kalici ? "kalıcı" : "V" + k.vaka);
-  return `  ${b.yeni.ad} (${v(b.yeni)}) ~ ${b.eski.ad} (${v(b.eski)}): puan ${b.puan} — ${b.ayni.join(", ")}`;
-}
-
 function main() {
-  const arg = process.argv[2];
-  const { kisiler, hata } = oku();
-  if (hata.length) {
-    console.log("TABLO HATALI:\n  " + hata.join("\n  "));
-    process.exit(1);
+  const args = process.argv.slice(2);
+  if (args[0] === "--havuza") {
+    const t = havuzaTasi(args.slice(1));
+    console.log(t.length ? "Havuza taşındı: " + t.join(", ") : "Taşınacak kimse yok (zaten havuzda ya da adaylarda yok).");
+    return;
   }
-  const byId = Object.fromEntries(kisiler.map((k) => [k.id, k]));
+  const { havuz, aday, hata } = oku();
+  if (hata.length) { console.log("TABLO HATALI:\n  " + hata.join("\n  ")); process.exit(1); }
+  const herkes = Object.fromEntries(havuz.kisiler.concat(aday.kisiler).map((k) => [k.id, k]));
 
-  if (arg === "--sinav") {
-    let kacan = 0;
+  if (args[0] === "--sinav") {
     for (const s of SINAV) {
-      const y = typeof s.yeni === "string" ? byId[s.yeni] : s.yeni;
-      const e = byId[s.eski];
-      const ayni = karsilastir(y, e);
-      const tuttu = puan(ayni) >= ESIK;
-      if (!tuttu) kacan++;
-      console.log(`${tuttu ? "YAKALADI" : "KAÇIRDI "}  ${s.ad}: puan ${puan(ayni)} — ${ayni.join(", ") || "yok"}`);
-    }
-    console.log(`\nBilgi: ${kacan}/${SINAV.length} çift yazıda eşiğin altında. Bunlar resimde benzedi; yakalamak üretimden`
-      + " sonraki resim aracının işi (o aracın sınavı bu çiftlerle yapılır).");
-  }
-
-  if (arg === "--hepsi") {
-    const vakalar = [...new Set(kisiler.map((k) => k.vaka))].filter((v) => v > 0).sort((a, b) => a - b);
-    for (const v of vakalar) {
-      const { bulgu } = denetle(kisiler, v);
-      console.log(`== Vaka ${v}: ${bulgu.length} benzer çift`);
-      bulgu.forEach((b) => console.log(satir(b)));
+      const a = typeof s.a === "string" ? herkes[s.a] : s.a;
+      const { puan, ayni } = karsilastir(a, herkes[s.b]);
+      console.log(`${puan >= ESIK ? "YAKALADI" : "eşik altı"}  ${s.ad}: puan ${puan} — ${ayni.join(", ") || "yok"}`);
     }
     return;
   }
 
-  const vaka = Number(arg);
-  if (!vaka) {
-    console.log("Kullanım: node arac_benzerlik.js <vaka> | --hepsi | --sinav");
-    process.exit(2);
+  let secili = aday.kisiler;
+  if (args.length) {
+    const s = new Set();
+    for (const a of args) {
+      const bul = aday.kisiler.filter((k) => k.vaka === a || k.id === a);
+      if (!bul.length) {
+        if (havuz.kisiler.some((k) => k.id === a)) { console.log(`${a} havuzda (onaylı); denetlenmez.`); continue; }
+        console.log(`"${a}" adaylarda yok (${path.relative(process.cwd(), ADAY)}). Yeni karakteri önce oraya ekle.`);
+        process.exit(1);
+      }
+      bul.forEach((k) => s.add(k));
+    }
+    secili = [...s].sort((p, q) => p.sira - q.sira);
   }
-  const { yeni, bulgu, eksik } = denetle(kisiler, vaka);
-  if (!yeni.length) {
-    console.log(`Vaka ${vaka}'nın konukları tabloda yok (${path.relative(process.cwd(), DOSYA)}). Önce tabloya ekle.`);
-    process.exit(1);
-  }
+  const { bulgu, eksik } = denetle(havuz.kisiler, secili, args.length > 0);
+  const ad = (k) => `${k.ad} (${k.vaka === "K" ? "kalıcı" : "V" + k.vaka})`;
   if (eksik.length) console.log("EKSİK:\n  " + eksik.join("\n  "));
   if (bulgu.length) {
-    console.log(`BENZER (puan ${ESIK} ya da üstü) — bu konukların istemi üretime girmez:`);
-    bulgu.forEach((b) => console.log(satir(b)));
+    console.log(`BENZER (puan ${ESIK} ya da üstü) — öndeki değişir, istemi üretime girmez:`);
+    bulgu.forEach((b) => console.log(`  ${ad(b.y)} ~ ${ad(b.e)}${havuz.kisiler.includes(b.e) ? " [havuz]" : ""}: puan ${b.puan} — ${b.ayni.join(", ")}`));
   }
-  const durdu = eksik.length || bulgu.length;
-  console.log(durdu ? `\nSONUÇ: DURDU — Vaka ${vaka}: ${yeni.length} konuktan bazılarında düzeltilecek yer var.`
-    : `\nSONUÇ: GEÇTİ — Vaka ${vaka}: ${yeni.length} konuğun hiçbiri öncekilere benzemiyor.`);
+  const kisi = [...new Set(bulgu.map((b) => b.y.id))];
+  const durdu = eksik.length || kisi.length;
+  console.log(durdu
+    ? `\nSONUÇ: DURDU — değişecek: ${kisi.join(", ") || "-"}${eksik.length ? "; eksik özellik var" : ""}.`
+    : `\nSONUÇ: GEÇTİ — ${secili.length} aday havuzdaki ${havuz.kisiler.length} karaktere${args.length ? " ve birbirine" : ""} benzemiyor.`);
   process.exit(durdu ? 1 : 0);
 }
 
 if (require.main === module) main();
-module.exports = { oku, karsilastir, denetle, puan, ESIK, SINAV };
+module.exports = { oku, karsilastir, denetle, havuzaTasi, ESIK, SINAV };

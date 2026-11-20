@@ -1,0 +1,17 @@
+# Benzerlik denetiminin girdisi (kaynak/arac_benzerlik.js). Sahibinin kararı, 20 Kasım 2026. Kurala vaka numarası karışmaz.
+# Yalnız SÖZLÜK değerleri yazılır (program başka değeri reddeder). yas: sayı. isaret: virgülle liste ya da "-".
+# vaka: yalnız bilgi (K = kalıcı karakter). kaynak: resim (onaylı resimden okundu) | metin (formdan).
+# HAVUZ: resmi üretilip ONAYLANMIŞ karakterler. Görünüşleri değişmez. Elle eklenmez: onay anında
+# `node arac_benzerlik.js --havuza <id>` adaylardan buraya taşır (gömme aracı da yedek olarak taşır).
+# Kıyafeti vakaya göre değişen kalıcılarda (Peri, Cengo, Gizem) o alanlar "?".
+vaka	id	ad	cins	yas	beden	yuz	sac_renk	sac_kesim	isaret	ust_renk	kaynak
+K	peri	Peri	k	35	ince	oval	kizil	?	-	?	resim
+K	cengo	Cengo	e	34	orta	kare	koyu_kahve	kisa_kivircik	sakal	?	resim
+K	gizem	Gizem	k	25	orta	oval	kumral	uzun_dalgali	kakul,cil	?	resim
+6	eylul	Eylül	k	16	ince	oval	koyu_kahve	uzun	-	siyah	resim
+6	muzeyyen	Müzeyyen Hanım	k	60	ince	oval	sari	mizanpli	hirka	lacivert	resim
+6	jale	Jale Hanım	k	44	ince	kemikli	kizil	kut	-	siyah	resim
+6	haldun	Haldun Bey	e	48	orta	kare	kir	kisa	gozluk	gri	resim
+6	recep	Recep Efendi	e	62	tombul	yuvarlak	kir	kisa_kivircik	yelek	yesil	resim
+6	dilek	Dilek	k	22	ince	yuvarlak	siyah	kut	kakul,onluk	hardal	resim
+6	tahsin	Tahsin Usta	e	75	ince	uzun	beyaz	geriye	gozluk,onluk	mavi	resim

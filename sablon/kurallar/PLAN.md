@@ -12,6 +12,13 @@
 > **(1) BİTTİ (20 Kasım 2026):** kısa liste `uretim/CLAUDE.md` en üstte; kök `CLAUDE.md` ve `sablon/` 5, 6, 7 en üstte ona
 > işaret eder. Ayrıca iki açık çelişki hemen düzeltildi: `uretim/CLAUDE.md` Cengo satırı (haki ceket → yüz, saç, tel, bileklik) ve 5. parça
 > A figür satırı (bej → programla zemin; konuk 4:5). **Sırada (2):** benzerlik denetimi — önce sahibinin kısa onayı.
+> **(2) ilk parça BİTTİ (20 Kasım 2026):** üretimden önceki yazı denetimi `kaynak/arac_benzerlik.js`. Sahibinin kararı: kural vaka
+> numarasına bağlı değil. **Havuz** (`sablon/kurallar/benzerlik/havuz.tsv`) = resmi onaylanmış karakterler (bugün yalnız Vaka 6'nınkiler
+> + Peri, Cengo, Gizem); **adaylar** (`adaylar.tsv`) = geri kalan herkes (Vaka 1–5, 7, 8, açılış; hepsi değişebilir). Yeni karakter
+> havuza ve birlikte üretilenlere benzerse görünüşü değişir, sahibine sorulmaz; onaylanınca kendiliğinden havuza girer (onay adımı +
+> `arac_paket.js --yaz` yedeği). Ağırlıklı puan, eşik 6 (gevşek eşik her vakada 10–40 yanlış alarm verdi; bilinen çiftler resimde
+> benzedi, yazıda değil → onları üretimden sonraki resim aracı yakalayacak, sahibinin ya da Oğuz Bey'in bilgisayarında). Uygulandı:
+> Pınar'ın saçı at kuyruğu (Dilek'e benziyordu), Yusuf'un saçı yazıldı. Sırada: (2) ikinci parça — resim aracı; sonra (3) üretim.
 >
 > **17 Kasım 2026 öğleden sonra:** sahibi 41 önerinin hepsini onayladı ("41 kuraldaki önerilerini onaylıyorum"). Cevaplar
 > kural dosyalarına işlendi (`kapsam.js`: 687 kural, 17 YOK, 11 ESKİDİ, **0 çelişki, hata 0**; her `celiski_*.md` sorusunun altında

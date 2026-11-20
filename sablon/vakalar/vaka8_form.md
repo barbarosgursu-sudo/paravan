@@ -416,9 +416,9 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   sakallı; Haldun ince gözlüklü).
 - **Emir (22):** kısa, sıska; **sık kıvırcık siyah saç**, kepçe kulaklar, **diş teli**; turuncu otopark yeleği.
   *Ayıran:* diş teli + kepçe kulak (Kaan uzun ince gözlüklü).
-- **Pınar (30):** ince; **mor boyalı, küt kâküllü** saç; boynunda kulaklık, elinde klipsli defter; siyah tişört, kargo
-  pantolon. *Ayıran:* mor saç + kulaklık (Dilek siyah kâküllü, önlüklü).
-- **Yusuf Efendi (70'ler):** çok kambur, ufak; **kalın büyüteç camlı gözlük** gözlerini kocaman gösterir; **kasket**, yün
+- **Pınar (30):** ince; **mor boyalı, yüksek at kuyruğu, kâkülsüz** saç; boynunda kulaklık, elinde klipsli defter; siyah tişört, kargo
+  pantolon. *Ayıran:* mor at kuyruğu + kulaklık (Dilek'in küt kâküllü saçından ayrılsın — benzerlik aracı, 20 Kasım 2026).
+- **Yusuf Efendi (70'ler):** çok kambur, ufak; **kalın büyüteç camlı gözlük** gözlerini kocaman gösterir; **kasket** (altından seyrek, uzun beyaz saç taşar — benzerlik aracı, 20 Kasım 2026), yün
   hırka, elinde zarflar. *Ayıran:* kocaman gözler + kambur (Necmi iri; Şükrü kel, papyonlu).
 
 **Kişiler (künye):**
