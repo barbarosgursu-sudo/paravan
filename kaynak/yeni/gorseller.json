@@ -366,7 +366,8 @@
     "K120": "ara_k120.webp",
     "K121": "ara_k121.webp",
     "K122": "ara_k122.webp",
-    "K123": "ara_k123.webp"
+    "K123": "ara_k123.webp",
+    "portre_tahsin": "portre/portre_tahsin.webp"
   },
   "takma": {"_not": "Kendi görseli olmayan ifade başka bir sprite'ı kullanır."},
   "genis": [
@@ -911,7 +912,12 @@
     "K200",
     "K201",
     "MASA_V4",
-    "MASA_V5"
+    "MASA_V5",
+    "portre_derya",
+    "portre_efe",
+    "portre_necmi",
+    "portre_pinar",
+    "portre_yusuf"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {

@@ -10,8 +10,9 @@
 > `arac_diyalog.js` (SATIR-36), `arac_paket.js --yaz` (yarım set). KAR-24'e "bileklik SOL bilekte" eklendi. Uygulayıcı satırları
 > güncellendi (program 158 → 178).
 > **GOMME-28 YAZILDI (sahibi: "a yolu"):** K20 her vakada giris_gorsel = MASA_V<N> ve resim ya da yer tutucu; V4, V5 yer tutucuya eklendi
-> (masa ekranı resimsiz vakaya düz kart çiziyor — yanlış resim çıkmıyordu). **Bekleyen:** SUREC-13 — 7 adlı kişinin künyesi yok: V5 Derya, Efe; V6 Tahsin Usta; V7 Necmi;
-> V8 Nihat, Pınar, Yusuf (adsızlar — Kapıcı, Kalfa, Görevli, Simitçi, Vale, Set asistanı — kural "adı olan herkes" diyor).
+> (masa ekranı resimsiz vakaya düz kart çiziyor — yanlış resim çıkmıyordu). **SUREC-13 YAZILDI (sahibi: "yedisini de yaz"):** Derya, Efe, Tahsin Usta, Necmi, Pınar, Yusuf Efendi künyede (Tahsin’in portresi
+> kesildi, öbürleri yer tutucu); K20 her figür künyede ya da `kisiler.json → kunyesiz`’de sebebiyle. **Bekleyen:** Nihat (yalnız kovalamacada;
+> tanışmayı bağlayacak olgu yok) ve V8 satır 85 ↔ 344 (Tarkan = Nihat mı, iki kişi mi?) — sahibine soruldu.
 > **Bulgu:** V3 ve V6 Cengo istemlerinin çoğunda "tel" yok (KAR-24 17 Kasım'da kondu); program yeni istemlerde arar.
 > **Sonra:** madde 3'ün kalan grupları (zor ama değerli ~35, yazmaya değmez ~36) — yine tek tek; ardından eski oyunun arşivi (ayrı iş).
 >

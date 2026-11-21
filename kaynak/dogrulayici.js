@@ -1082,6 +1082,15 @@ function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
   if (acilis) sigaraAra("acilis.json", acilis);
   if (gorseller) for (const [k, f] of Object.entries(gorseller.dosyalar || {}))
     if (!/\.webp$/i.test(f)) hatalar.push(`[K20] gorseller.json → ${k}: '${f}' webp değil — oyuna webp girer (GOMME-10).`);
+  // Her figürün künye kartı var ya da künyesiz olduğu sebebiyle yazılı (SUREC-13, ARAYUZ-31: adı olan herkese künye).
+  if (kisiler) {
+    const kunyeli = new Set((kisiler.kisiler || []).map(k => k.id)), kunyesiz = kisiler.kunyesiz || {};
+    for (const id of Object.keys(game.kanon.sahne.figurler || {})) {
+      if (["peri", "cengo", "hilmi"].includes(id) || kunyeli.has(id)) continue;
+      if (!String(kunyesiz[id] || "").trim()) hatalar.push(`[K20] '${id}' (${(game.kanon.sahne.figurler[id] || {}).ad || id}) künyede yok — kart yaz ya da kisiler.json → kunyesiz'e sebebiyle ekle (SUREC-13).`);
+    }
+    for (const id of Object.keys(kunyesiz)) if (kunyeli.has(id)) hatalar.push(`[K20] '${id}' hem künyede hem kunyesiz listesinde (SUREC-13).`);
+  }
   // Her vakanın kendi masa kartı (GOMME-28): yoksa seçme ekranında başka vakanın resmi çıkar (Vaka 3'te sahibi buldu).
   // Resim henüz yoksa yer tutucu olur (ekranda "görsel yok" kutusu) — sessizce yanlış resim çıkmaz.
   if (gorseller) for (const vaka of game.vakalar) {

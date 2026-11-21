@@ -1397,7 +1397,7 @@ eldeki yüzlerden değil (SR-I); sahne notu yalnız o an görüleni söyler (SR-
 Veri Claude'ca hazırlanır: yapı (ipuçları, olgular, Kim yaptı?) elle; sahne ve karar metni `node arac_diyalog.js <dosya> VN` ile
 diyalogdan; **künye** (`yeni/kisiler.json`) bu adımda yazılır, sonradan değil (Vaka 1'de künye boş kalmıştı). Ölçüt: otomatik denetimden
 geçer; `node arac_kunye_denetim.js yeni` temiz.
-*Uygulayıcı:* program `kaynak/dogrulayici.js` yeni · hatırlat 4
+*Uygulayıcı:* program `kaynak/dogrulayici.js` yeni (K20: her figür künyede ya da kisiler.json → kunyesiz’de sebebiyle) · hatırlat 4
 *Kaynak:* 679, 2534, 2539
 
 #### SUREC-14 Adım 5: Görselsiz oyun turu ve üç tarama
@@ -3877,7 +3877,7 @@ Bütün ekranlar konuşma ekranının dilinde: kâğıt zemin, koyu mürekkep, k
 - Künyede yalnız içinde bulunulan vakanın kişileri (+ Peri, Cengo her vakada; Hilmi Bey yalnız açılışın) (16 Ekim 2026).
 - Vakada tanışılan / konuşan her kişiye (adı olan herkes) künye kaydı (kart) ve portre. Vaka 2'de Saadet unutulmuştu; Vaka 2'nin 7 kişisine portre + Saadet Hanım eklendi (sahibinin onayıyla metin). Test eksik portreyi yakalar.
 - Önceki vakadan dönen kişi için `tanisma` dizi olur.
-*Uygulayıcı:* program `kaynak/test_yeni_v2.js` (künye portresi) · hatırlat 4
+*Uygulayıcı:* program `kaynak/test_yeni_v2.js` (künye portresi) · program `kaynak/dogrulayici.js` K20 (künyesi olmayan figür) · hatırlat 4
 *Kaynak:* 648, 2576, 3016
 
 #### ARAYUZ-32 Paylaş kartı (vaka)

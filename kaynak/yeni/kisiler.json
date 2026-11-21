@@ -411,6 +411,30 @@
       "katmanlar": [{"kosul": "usta_uc", "tanim": "Kadıköy çarşısında deri ustası. Muammer Bey'in çantasını o yapmış."}]
     },
     {
+      "id": "derya",
+      "ad": "Derya Hanım",
+      "portre": "portre_derya",
+      "tanisma": "ust_tek",
+      "katmanlar": [
+        {
+          "kosul": "ust_tek",
+          "tanim": "Küçük Efe’yle her salı vapurun üst güvertesinde martılara simit atıyor. O sabah bütün yol güvertedeydi."
+        }
+      ]
+    },
+    {
+      "id": "efe",
+      "ad": "Efe",
+      "portre": "portre_efe",
+      "tanisma": "ust_tek",
+      "katmanlar": [
+        {
+          "kosul": "ust_tek",
+          "tanim": "Sarı yağmurluklu küçük bir çocuk; martılara bayılıyor. Her salı Derya Hanım’la vapurun üst güvertesinde."
+        }
+      ]
+    },
+    {
       "id": "eylul",
       "ad": "Eylül",
       "portre": "portre_eylul",
@@ -461,6 +485,18 @@
         {
           "kosul": "kalip_kagit",
           "tanim": "Eylül'ün anneannesi; aynı apartmanda, üst katta oturuyor. Yıllarca terzilik yapmış."
+        }
+      ]
+    },
+    {
+      "id": "tahsin",
+      "ad": "Tahsin Usta",
+      "portre": "portre_tahsin",
+      "tanisma": "kalip_kagit",
+      "katmanlar": [
+        {
+          "kosul": "kalip_kagit",
+          "tanim": "Karaköy’de küçük bir matbaanın ustası. Cengo gençken onun yanında çıraklık yapmış. Mektupların terzi kalıp kâğıdına yazıldığını o fark etti."
         }
       ]
     },
@@ -527,6 +563,18 @@
       ]
     },
     {
+      "id": "necmi",
+      "ad": "Necmi",
+      "portre": "portre_necmi",
+      "tanisma": "eski_tuval",
+      "katmanlar": [
+        {
+          "kosul": "eski_tuval",
+          "tanim": "Feriköy’de bir tezgâhı var; Cengo’nun eski tanıdığı. Peri’yi 2009’un güzellik kraliçesi olarak hatırlıyor. Süheyla Hanım’ın evi yıllardır ondan alışveriş yapıyor."
+        }
+      ]
+    },
+    {
       "id": "bahar",
       "ad": "Bahar Hanım",
       "portre": "portre_bahar",
@@ -583,8 +631,37 @@
           "tanim": "Bordroda şoför görünen genç; Bahar Hanım onu tanımıyor. Karaköy'de otopark görevlisi; şirketi hiç görmemiş."
         }
       ]
+    },
+    {
+      "id": "pinar",
+      "ad": "Pınar",
+      "portre": "portre_pinar",
+      "tanisma": "odeme_gecesi",
+      "katmanlar": [{"kosul": "odeme_gecesi", "tanim": "Stüdyodaki yemek programının yapım asistanı. Çekim defteri onda."}]
+    },
+    {
+      "id": "yusuf",
+      "ad": "Yusuf Efendi",
+      "portre": "portre_yusuf",
+      "tanisma": "kurulus_vekalet",
+      "katmanlar": [
+        {
+          "kosul": "kurulus_vekalet",
+          "tanim": "Mecidiyeköy’de posta kutuları kiralanan küçük bir dükkânı var. Gözleri iyi görmüyor."
+        }
+      ]
     }
   ],
+  "_not_kunyesiz": "Künyesi bilerek olmayan figürler ve sebebi (SUREC-13, ARAYUZ-31: künye adı olan herkese). Doğrulayıcı K20: her figür ya kisiler’de ya burada.",
+  "kunyesiz": {
+    "asistan": "adsız — set asistanı (V1)",
+    "gorevli": "adsız — vapur görevlisi (V5)",
+    "simitci": "adsız — simitçi (V5)",
+    "recep": "adsız — oyunda yalnız ‘Kapıcı’ (V6)",
+    "dilek": "adsız — oyunda yalnız ‘Kalfa’ (V6)",
+    "ercan": "adsız — oyunda yalnız ‘Vale’ (V7)",
+    "nihat": "SAHİBİNE SORULDU (21 Kasım 2026): yalnız kovalamacada çıkıyor, tanışmayı bağlayacak olgu yok"
+  },
   "defter": {
     "V1": {
       "sete_gotur": "Rıza Reis teknesine sette kavuştu; oğlunun yaptığını herkesin önünde öğrendi.",
