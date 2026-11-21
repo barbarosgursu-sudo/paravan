@@ -965,7 +965,7 @@ function kural18_ipucuAdi(game, hatalar) {
 }
 
 // KURAL 19 — Kim yaptı? ve şablonun sabitleri (KOD-70; YAPI-13, YAPI-31, YAPI-32).
-function kural19_kimYapti(game, hatalar) {
+function kural19_kimYapti(game, hatalar, uyarilar) {
   let OyunYeni;
   try { OyunYeni = require("./motor_yeni.js").OyunYeni; } catch (e) { OyunYeni = null; }
   for (const vaka of game.vakalar) {
@@ -982,6 +982,15 @@ function kural19_kimYapti(game, hatalar) {
     for (const c of ky.dogru_ciftler || []) {
       if (!Array.isArray(c) || c.length !== 2) { hatalar.push(`[K19] ${yer}: kanıt çifti iki öğeli olmalı.`); continue; }
       for (const o of ifadeOlgulari({ all: c })) if (!facts[o]) hatalar.push(`[K19] ${yer}: kanıt çiftindeki '${o}' bir olgu değil.`);
+    }
+    // YAPI-25 (21 Kasım 2026): doğru çiftteki her kanıtın Cengo satırı olmalı; yoksa kapanışta Cengo sessizce susar
+    // (yeni_arayuz.js → cengoKanitSatirlari). Şimdilik UYARI: V1–V5 eski düzende, elden geçerken yazılınca hataya çevrilir.
+    if (uyarilar) {
+      const m = ky.cengo_kanit || {}, r = ky.cengo_kanit_replik || {};
+      const eksik = [...new Set(ifadeOlgulari({ all: (ky.dogru_ciftler || []).flat() }))].filter(o => !String(m[o] || "").trim());
+      if (eksik.length) uyarilar.push(`[K19] ${yer}: Cengo'nun kanıt satırı yok (YAPI-25): ${eksik.join(", ")} — kapanışta susar.`);
+      for (const o of Object.keys(m)) if (!r[o] || !r[o].i)
+        uyarilar.push(`[K19] ${yer}: '${o}' Cengo kanıt satırının ifadesi yok (cengo_kanit_replik).`);
     }
     const u = ky.ucret || {};
     if (!(u.dogru >= u.zayif && u.zayif >= u.yanlis && u.yanlis >= 0))
@@ -1122,7 +1131,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural16_kararsizYol(game, hatalar);
   kural17_giris(game, hatalar, uyarilar);
   kural18_ipucuAdi(game, hatalar);
-  kural19_kimYapti(game, hatalar);
+  kural19_kimYapti(game, hatalar, uyarilar);
   kural20_sabitler(game, hatalar, kisiler, acilis, gorseller);
 
   console.log("PARAVAN DOĞRULAYICI v2");

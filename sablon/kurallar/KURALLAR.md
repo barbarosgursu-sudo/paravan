@@ -891,7 +891,7 @@ Kural 22c; sahibinin kararı, 16 Kasım 2026 (eski ücret kesintisinin ve formda
 - Örnek (V6, zayıf): "Elbise kılıfını o gün iki kişi tuttu, Peri. Onu söyleseydin kadın 'kanıtınız ne?' diyemezdi." (DEVIR'deki karar notunda aynı örnek "Torbayı o gün iki kişi tuttu…" biçimindedir.)
 - Karar satırı da kanıt satırı da **Cengo'nun repliğidir** (Peri'ye söyler, anlatı değil; Peri dinler). Diyalogda etiketle yazılır: karar satırı `**CENGO [ifade]:** … {yuz: peri.x}`; kanıt satırı `## cengo_kanit` bölümünde `**olgu [Cengo'nun ifadesi]:** metin {yuz: peri.x}` — ifade ve Peri'nin yüzü yazılır (kapıda K8). Biçim `sablon/6_vaka_formu.md`. Veride `kim_yapti.cengo_kanit[olgu]`.
 - Bir doğru kanıtın Cengo satırı yoksa o yolda Cengo susar.
-*Uygulayıcı:* program `kaynak/test_yeni_kimyapti.js` (cozumYolu yalnız eldeki kanıt) · program `kaynak/arac_diyalog.js` (cengo_kanit olgu mu) · hatırlat 3, 5
+*Uygulayıcı:* program `kaynak/test_yeni_kimyapti.js` (cozumYolu yalnız eldeki kanıt) · program `kaynak/arac_diyalog.js` (cengo_kanit olgu mu) · program `kaynak/dogrulayici.js` K19 doğru çiftteki her kanıtın Cengo satırı ve ifadesi (şimdilik uyarı; V1–V5 elden geçince hata) · hatırlat 3, 5
 *Kaynak:* 208, 614, 667, 2773
 
 #### YAPI-26 "Dosya kapandı" kartı
@@ -3602,7 +3602,7 @@ Defter cümleleri suçluyu söylemez. Hak edilmemiş bilgi sızmaz (isim, olgu, 
 - Kararı sahnedeki biri sorar; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b). Önizleme, kesinti ve rakam yok (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–20).
 - Her doğru kanıt için Cengo'nun söylenmeyen kanıt satırı var; açılmamış ipucunu anmaz (kural 22c).
 - Cengo'nun karar ve kanıt satırları etiketli: `**CENGO [ifade]:** … {yuz: peri.x}` / `**olgu [ifade]:** … {yuz: peri.x}`; ifade kapanış setinde (`gorseller.json`) var olan bir resim olmalı, yoksa kapı (`arac_kapi.js … resim` K2/K8/K6, poz kaydı) durur.
-*Uygulayıcı:* program `kaynak/arac_yeni_tur.js` karar seçiminde rakam (kapıda) · program `kaynak/arac_kapi.js` resim (poz kaydı, K6) · hatırlat 3
+*Uygulayıcı:* program `kaynak/arac_yeni_tur.js` karar seçiminde rakam (kapıda) · program `kaynak/arac_kapi.js` resim (poz kaydı, K6) · program `kaynak/dogrulayici.js` K19 her doğru kanıtın Cengo satırı (uyarı) · hatırlat 3
 *Kaynak:* 750, 751, 752
 
 #### KOD-76 Anı özeti zorunlu
