@@ -76,7 +76,7 @@ Sahibinin kararı, 8 Kasım 2026 (5. parça SR-H; kural kitabı 4a). Anlatı sat
 
 #### TON-9 Anlaşılır replik
 Sahibinin kararı, 17 Ekim 2026 (kural kitabı 5). Replik ilk okumada anlaşılır: kim, neyi, neden söylüyor belli olur. Çok kısa, şifreli cümle yazılmaz; iki-üç kelimelik, bağlamı oyuncuya çözdüren cümle ("Önce dükkân.", "Hangi iz?", "Kavrulmamış.") açılır: kimden/neyden söz ettiği cümlenin içinde söylenir. Örnekler: "Senin defterin ayrı, oğlum." → "Seni tanırım oğlum. Dükkânda veresiye defterin var; o borcun ayrı."; "Önce dükkân." → "İşe soygunun olduğu yerden, dükkândan başlarız." Aptala anlatır gibi uzatılmaz: bir replik telefondaki yazı kutusuna (4 satır, ~110 harf) sığar; geçerse bölünür. Ölçü Vaka 3: ortalama ~50 harf (Vaka 2'de 37'ydi ve çok kısa bulundu). Diyalog baştan bu ölçüyle yazılır; bulanık replik taramasındaki "Fazla kısa mı?" sorusu (`sablon/7_uretim_sureci.md`) yalnız kaçanı yakalar. Vaka 3'te sahibi bunu Onay 2'den önce istedi, 109 replik sonradan açıldı. Vaka 4'te de geçerli. Ton taslağındaki eski "Kısa replik; bir replik bir satırı geçiyorsa bölünür" kuralı kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 33).
-*Uygulayıcı:* hatırlat 3, 5
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K21 (yeni oyun; UYARI): 110 harfi geçen replik, vaka ortalaması 45 harfin altı · hatırlat 3, 5
 *Kaynak:* 5, 177, 708, 2629, 1755
 
 #### TON-10 Giriş uzun ve açıklayıcı yazılır
@@ -3860,7 +3860,7 @@ Her konuğun boyu bir kez ayarlanır.
 
 #### ARAYUZ-28 Telefonda yazı kutusu 4 satır
 Telefon dikey ekranda yazı kutusu 4 satır; uzun replik bölünür.
-*Uygulayıcı:* hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K21 (yeni oyun; UYARI) 110 harfi geçen replik · hatırlat 3
 *Kaynak:* 310
 
 #### ARAYUZ-29 Konuşma ekranı eski arayüzü sarar; Cengo göstergesi boş

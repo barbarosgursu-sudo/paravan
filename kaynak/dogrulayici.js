@@ -1110,6 +1110,35 @@ function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
   }
 }
 
+// K21 — replik boyu (TON-9, ARAYUZ-28; Adım 4 madde 3, 21 Kasım 2026, sahibi: "Yaz"). Yalnız UYARI, durdurmaz.
+//   Replik telefondaki yazı kutusuna (4 satır, ~110 harf) sığar; geçerse bölünür. Vaka ortalaması ~50 harf; 45'in altı
+//   "çok kısa, şifreli" demektir (Vaka 2'de 37'ydi). Replik = `k` ve `m` taşıyan, anlatı (`not`) olmayan sahne satırı —
+//   nerede durursa dursun (sahneler, ipucu sahneleri). Açılışın yalnız uzun repliklerine bakılır (vaka değil).
+const REPLIK_UST = 110, REPLIK_ORT_ALT = 45;
+function kural21_replik(game, uyarilar, acilis) {
+  if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
+  const tara = (kok, ad) => {
+    let n = 0, top = 0;
+    const gez = x => {
+      if (Array.isArray(x)) x.forEach(gez);
+      else if (x && typeof x === "object") {
+        if (typeof x.k === "string" && typeof x.m === "string" && x.k !== "not") {
+          const L = [...x.m].length; n++; top += L;
+          if (L > REPLIK_UST) uyarilar.push(`[K21] ${ad}: ${x.k} repliği ${L} harf (>${REPLIK_UST}) — yazı kutusuna sığmaz, böl (TON-9): "${x.m.slice(0, 50)}…"`);
+        }
+        Object.values(x).forEach(gez);
+      }
+    };
+    gez(kok);
+    return { n, ort: n ? top / n : 0 };
+  };
+  for (const vaka of game.vakalar) {
+    const { n, ort } = tara(vaka, vaka.id);
+    if (n && ort < REPLIK_ORT_ALT) uyarilar.push(`[K21] ${vaka.id}: replik ortalaması ${Math.round(ort)} harf (<${REPLIK_ORT_ALT}) — çok kısa, şifreli replik olabilir; ölçü ~50 (TON-9).`);
+  }
+  if (acilis) tara(acilis, "açılış");
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -1133,6 +1162,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural18_ipucuAdi(game, hatalar);
   kural19_kimYapti(game, hatalar, uyarilar);
   kural20_sabitler(game, hatalar, kisiler, acilis, gorseller);
+  kural21_replik(game, uyarilar, acilis);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -1163,6 +1193,8 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   console.log(`Kural 7 (Seçim baskısı) : ${uyariSay("[K7]") ? uyariSay("[K7]") + " UYARI" : "PASS"}`);
   console.log(`Kural 8 (Baskınlık)     : ${uyariSay("[K8]") ? uyariSay("[K8]") + " UYARI" : "PASS"}`);
   console.log(`Kural 9 (Ölü tohum)     : ${uyariSay("[K9]") ? "UYARI" : "PASS"}`);
+  if (game.kanon && game.kanon.sahne)
+    console.log(`Kural 21 (Replik boyu)  : ${uyariSay("[K21]") ? uyariSay("[K21]") + " UYARI" : "PASS"}`);
   console.log("──────────────────────");
   hatalar.forEach(h => console.log("  ✗ " + h));
   uyarilar.forEach(u => console.log("  ⚠ " + u));

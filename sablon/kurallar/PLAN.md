@@ -10,10 +10,10 @@
 > diyaloglardan geçici kopyaya yeniden yazar, fark = elle düzenleme → durur; araçla yazılamayan eski biçimli V1–V5 atlanır ve bildirilir;
 > `arac_diyalog.js`'e `VERI_DIZIN` ortam değişkeni eklendi). Codex veriye dokunmuyor (yalnız `uretim/vN/`; git kaydında 0 dokunuş).
 >
-> **İLK İŞ — sahibine sorulmuş, cevap bekleyen madde: TON-9 / ARAYUZ-28 (replik uzunluğu).** Öneri: doğrulayıcı (yeni) 110 harfi
-> geçen repliği ve vaka ortalaması 45'in altını UYARI olarak listeler (durdurmaz). Ölçüm (anlatı `not` hariç): V1 3, V2 1, V3 4, V4 4, V5 1,
-> V6 1, **V7 8** (ör. Cengo "Nesrin Hanım'la ben konuşurum…" 143 harf), V8 0 uzun replik; ortalamalar V1 36, V2 37, V3 52, V4 56, V5 58,
-> V6 58, V7 60, V8 54. Yeni pencerede iki satırla hatırlat, "Yaz / Yazma" sor.
+> **(3) TON-9 / ARAYUZ-28 YAZILDI (sahibi: "Yaz", 21 Kasım 2026):** `dogrulayici.js yeni` yeni **K21** (yalnız UYARI): 110 harfi geçen
+> replik (sahneler + ipucu sahneleri + açılış; anlatı `not` hariç) ve vaka ortalaması 45'in altı. Bugün 25 uyarı: V1 3, V2 1, V3 4, V4 4, V5 1,
+> V6 1, V7 8, açılış 1 uzun replik; V1 (36) ve V2 (37) ortalaması düşük. Bilerek V8'e 120 harf sokuldu → yakalandı. Eski oyun etkilenmez.
+> **SIRADAKİ:** ARAYUZ-16 (ekran etiketinde 2'den fazla kişi → arac_diyalog durdurur).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
