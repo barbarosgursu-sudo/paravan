@@ -58,12 +58,6 @@ Vakalar birbirine zincirli tek büyük cinayet değil; her biri kendi içinde ka
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 1719
 
-#### TON-6 Cengo her sahnede konuşur
-Eski oyunda Cengo çoğu kararda susuyordu (40 kararın 23'ünde); yeni oyunda her sahnede ağzı açıktır.
-(`arsiv/kaynak/YENI_OYUN_TON.md` §1 taslağı; öneri, sahibi onaylamadan kanon değil.)
-*Uygulayıcı:* hatırlat 3
-*Kaynak:* 1721
-
 #### TON-7 Anlatıcı yok
 Sahne, diyalog ve kısa, tarafsız sahne notları. Eski oyunun açılışındaki Peri'nin iç sesi kalkar (sahibinin kararı, 4 Ekim 2026, Ton §11). "Nasıl oynanır" kartı da yok: oyuncu hikâyeyi sahnelerin içinde görür; konuşma ve seçim ekranlarını oynayarak öğrenir. (1879'daki "kasa ekranı" eskidi: kasa 16 Kasım 2026'da kalktı, CLAUDE.md.)
 *Uygulayıcı:* hatırlat 3

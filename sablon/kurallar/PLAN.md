@@ -28,7 +28,10 @@
 > Sahibi "ne kadar kaldı" diye sordu: zor ama değerli 21, istem 16 (toplu onay önerildi), yazmaya değmez 15 (tek soru).
 > **(8) YAPI-16 YAZILDI (sahibi: "4–9 uyarı olsun"):** kural metni 4–6 → **4–9 replik** (ölçüm: 32 yüzleşmeden 15'i 6'yı geçiyordu, V4–V8
 > 7–9 yazılmış); `6_vaka_formu.md` de. K19 her yüzleşmede `not` dışı replik sayısı 4–9 değilse UYARI; bugün 1 (V1 Tuba 3). Bilerek
-> V8 dogru 11'e çıkarıldı → uyarıldı. **SIRADAKİ:** TON-6 (her sahnede Cengo'nun en az bir repliği, uyarı).
+> V8 dogru 11'e çıkarıldı → uyarıldı.
+> **(9) TON-6 SİLİNDİ (sahibi, 22 Kasım 2026: "Cengo ya da Peri sahneler ne kadar gerektiriyorsa o kadar konuşmalı"; yeniden yazmak bir şey
+> kazandırmıyorsa sil):** KURALLAR.md'den çıktı; kaynağı (HAM 1721) `harita_TON.tsv`'de ESKIDI, kayıt `kayit_sinif.tsv`'de GECMIS.
+> (`adim4/uyg_*.tsv`'deki TON-6 aday satırı tarihî kayıt, dokunulmadı.) **SIRADAKİ:** TON-12 ("… kala" saat sözü).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

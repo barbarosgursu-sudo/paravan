@@ -79,11 +79,10 @@
 
 - [ ] **SUREC-11** Adım 1–2: Form ve Onay 1
 
-## Adım 3 — Diyalog yazılır (93)
+## Adım 3 — Diyalog yazılır (92)
 
 - [ ] **TON-1** Oyunun özü Peri ile Cengo
 - [ ] **TON-4** Hava ve mizah
-- [ ] **TON-6** Cengo her sahnede konuşur
 - [ ] **TON-7** Anlatıcı yok
 - [ ] **TON-8** Sahne notu yalnız o an görüleni söyler
 - [ ] **TON-9** Anlaşılır replik
