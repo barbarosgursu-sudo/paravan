@@ -42,7 +42,9 @@
 > **(13) YAPI-14 YAZILDI, YAPI-29/37 YAZILMADI (sahibi: "Önerilerini uygula"):** `test_yeni_kimyapti.js` yeni blok — her vakada (öncekiler
 > oynanmış) doğru/zayıf/yanlış sonucu, ücret sırası, suçlamadan sonra kararların hepsi açık; 8/8 geçer; bozuk kopyada V7 ücret sırası →
 > yakalandı. YAPI-29/37: yeni oyunda kasa yok, karar kapısı yok (K19 `gate: "yok"`) → dört karar hep açık, zorlanma olmaz; "dürüst" mü
-> yargısı insanın (hatırlat 1 kalır). **SIRADAKİ:** KAR-19 (suçlama cengoBag'i değiştirmez, test).
+> yargısı insanın (hatırlat 1 kalır).
+> **(14) KAR-19 YAZILDI (sahibi: "Yaz"):** aynı blokta her vakada yanlış/zayıf/doğru suçlama Cengo bağını değiştirmez; 8/8 geçer; suçlamaya
+> bağ ekleyen yamayla 8/8 yakalandı. Uygulayıcı "yok" → program. **SIRADAKİ:** YAPI-38 (HUKUM listesi yeni oyunun sonuç sahnelerine).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

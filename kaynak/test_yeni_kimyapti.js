@@ -90,9 +90,17 @@ for (const VK of G.vakalar.filter(v => v.kim_yapti)) {
   if (!zayif || o.suclamaSonucu(ky.suclu, zayif) !== "zayif") sorun.push("zayıf sonuç kurulamıyor");
   if (o.suclamaSonucu(masum, cift) !== "yanlis") sorun.push("yanlış kişi → yanlis değil");
   if (!(u.dogru >= u.zayif && u.zayif >= u.yanlis && u.yanlis >= 0)) sorun.push("ücret sırası bozuk");
+  // Suçlama Cengo bağını değiştirmez; bağ yalnız ahlaki kararla oynar (KAR-19).
+  const bagOnce = o.durum.cengoBag;
+  for (const [kim, kanit] of [[masum, cift], ...(zayif ? [[ky.suclu, zayif]] : [])]) {
+    o.durum.aktif.suclama = null; o.suclama(kim, kanit);
+    if (o.durum.cengoBag !== bagOnce) sorun.push(`suçlama Cengo bağını değiştirdi (${bagOnce} → ${o.durum.cengoBag})`);
+  }
+  o.durum.aktif.suclama = null;
   const r = o.suclama(ky.suclu, cift);
+  if (o.durum.cengoBag !== bagOnce) sorun.push(`doğru suçlama Cengo bağını değiştirdi (${bagOnce} → ${o.durum.cengoBag})`);
   if (r.hata || o.acikKararlar().length !== VK.decisions.length) sorun.push("suçlamadan sonra kararların hepsi açık değil");
-  k(`${VK.id}: üç sonuç, ücret sırası, kararlar açık` + (sorun.length ? " — " + sorun.join("; ") : ""), !sorun.length);
+  k(`${VK.id}: üç sonuç, ücret sırası, kararlar açık, bağ değişmez` + (sorun.length ? " — " + sorun.join("; ") : ""), !sorun.length);
 }
 
 console.log("\n=== Tek hak, sahneler ===");

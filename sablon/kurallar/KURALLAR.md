@@ -306,7 +306,7 @@ Eski oyunun karar sonrası Cengo satırı (`cengo_sonuc`), kararın SONRASINDAK�
 
 #### KAR-19 Bağ yalnız ahlaki kararlara bağlıdır
 "Kim yaptı?" ekranı Cengo bağını etkilemez.
-*Uygulayıcı:* yok — motor davranışı (vaka yazarı etkilemez)
+*Uygulayıcı:* program `kaynak/test_yeni_kimyapti.js` her vakada üç suçlama sonucu da Cengo bağını değiştirmez
 *Kaynak:* 149
 
 #### KAR-20 Cengo'nun tepkisi ahlaka değil duruma göredir
