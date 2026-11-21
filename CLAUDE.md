@@ -9,7 +9,9 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 > ### 📘 BÜTÜN KURALLAR TEK DOSYADA: `sablon/kurallar/KURALLAR.md` (Adım 3 BİTTİ, 20 Kasım 2026 gece). Belgelerdeki `TON-9`,
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
-> ### önerilmez. **Yeni pencere: Adım 4 SÜRÜYOR — `sablon/kurallar/PLAN.md` en üst kutu ("ADIM 4 BURADAN SÜRER", 21 Kasım 2026).**
+> ### önerilmez. **Yeni pencere: Adım 4 SÜRÜYOR, sırada madde 3 (program adayları) — `sablon/kurallar/PLAN.md` en üst kutu ("ADIM 4 BURADAN SÜRER — MADDE 3", 21 Kasım 2026 akşam).**
+> ### Commit kapısı git kancasıyla da çalışır (`.githooks/commit-msg`; yeni bilgisayarda bir kez `git config core.hooksPath .githooks`) — KOD-35.
+> ### Üretim adımlarının hatırlatma listesine Claude bakar, sahibine yalnız sorunlu madde gider (`arac_uygulayici.js kayit|bitti`) — SUREC-43.
 > ### Adım 4: her kuralın `*Uygulayıcı:*` satırı var (program / talimat / hatırlat <adım> / yok) — SUREC-43;
 > ### `node sablon/kurallar/arac_uygulayici.js say|yaz|adim <n>`; liste `sablon/kurallar/HATIRLATMA.md` (elle yazılmaz).
 > ### Sahibiyle çalışma biçimi — SUREC-34 (en kısa Türkçe, uzun işte en geç 3 dakikada bir durum). Commit kapısı artık yalnız değişen vakayı denetler (KOD-35).

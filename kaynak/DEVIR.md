@@ -8,7 +8,15 @@
 
 ---
 
-> ## ▶️ 21 KASIM 2026: ADIM 4 SÜRÜYOR → YENİ PENCEREDE `sablon/kurallar/PLAN.md` EN ÜST KUTU ("ADIM 4 BURADAN SÜRER")
+> ## ▶️ 21 KASIM 2026 AKŞAM: ADIM 4 SÜRÜYOR — SIRADA MADDE 3 → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("ADIM 4 BURADAN SÜRER — MADDE 3")
+> Bugün `main`'de: **beş program bağlandı** (`d1ec1f6`: commit'te testler; döngü tarz/yüz/benzerlik çıkış koduna bakar ve kapı onaylı resimde
+> araçları yeniden koşar; istem denetimi yazı benzerliğini çağırır; gömme commit'i yalnız o vakanın resim kapısını açar; diyalogda söz farkı
+> commit'i durdurur; git kancası `.githooks/commit-msg` — Oğuz Bey'in bilgisayarında bir kez `git config core.hooksPath .githooks`) ve
+> **hatırlatma listelerine Claude bakar** (`ee0a081`: `arac_uygulayici.js kayit|bitti`, `vaka<N>_hatirlatma.md`; sahibine yalnız sorunlu
+> madde, onay anında). Sırada: 91 program adayı (madde 3), sonra çelişkiler, eski açıklar, kuralları gözden geçirme sayfası, üretime dönüş.
+> "Üretim yok" sürüyor.
+
+> ## (önceki) 21 KASIM 2026 SABAH: ADIM 4 SÜRÜYOR → YENİ PENCEREDE `sablon/kurallar/PLAN.md` EN ÜST KUTU ("ADIM 4 BURADAN SÜRER")
 > Adım 4'ün ilk iki parçası `main`'de (`b262e87`, `f812f60`): 667 kuralın hepsinin `*Uygulayıcı:*` satırı var (program 158, talimat 14,
 > hatırlat 374, yok 229); hatırlatma listesi `sablon/kurallar/HATIRLATMA.md` (programla, `arac_uygulayici.js`); her üretim adımı listeyle
 > kapanır (SUREC-43). Sahibi şu soruya cevap bekliyor: önce **durdurmayan beş programı bağlamak** mı (öneri), **uzun listeleri

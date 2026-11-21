@@ -2669,7 +2669,7 @@ Vaka sonunda `prompts/LISTE.md`'deki her G'nin `onayli/`'de olduğu sayılır ve
 
 #### DENETIM-49 Yeni karakter eski bütün figürlerle karşılaştırılır
 13 Kasım 2026, sahibi (`uretim/CLAUDE.md` komut adımı 9). İstemden önce `kaynak/yeni_gorsel/figur_*_normal.webp` temas sayfası + önceki vakaların formlarındaki tarifler ile yan yana bakılır. Formdaki tarif de benzetebilir (V6'da Müzeyyen = Nadide, Dilek = Gülsüm, Tahsin = Sarkis/Rıza çıktı): benzerse sahibine yeni görünüş önerilir, metinde geçen eşya korunur. İstemde "X'e (ayırıcı özelliği) benzemiyor" yazılır. Benzerlik `istem_kontrol.sh`'ın yakalayamadığı şeydir.
-*Uygulayıcı:* hatırlat 1, 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` → `kaynak/arac_benzerlik.js` (yazıdaki benzerlik; göz karşılaştırması insana) · hatırlat 1, 8
 *Kaynak:* 1077
 
 #### DENETIM-53 Konuk benzerliği — üretimden sonra, resimde (program)

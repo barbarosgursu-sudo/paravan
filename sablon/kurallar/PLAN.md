@@ -4,6 +4,46 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
+> ## ▶️▶️▶️ YENİ PENCERE: ADIM 4 BURADAN SÜRER — MADDE 3 (21 Kasım 2026 akşam; sahibi: "Bunu yeni pencerede yapacağım")
+> **Durum:** "Sahibine sorulacak" listesinin (aşağıda, "(önceki durum notu)" kutusu) madde 2'si ve madde 1'i BİTTİ, `main`'de
+> (`d1ec1f6` beş bağlantı, `ee0a081` listelere Claude bakar). "ÖNCE KURALLAR, ÜRETİM YOK" sürüyor.
+>
+> **Sıradaki iş: madde 3 — programla denetlenebilecek adaylar.** Sahibine anlatıldı ve "başlayayım mı?" sorusuna "yeni pencerede" dedi;
+> yani **yeni pencerede önce iki satırla hatırlat, "başlıyorum" de ve başla** (anlatım onaylandı, yeniden ayrıntılı sorma).
+> Sahibine anlatılan ve onun anladığı biçim (aynen uygula):
+> 1. Adayları üç gruba ayır: **kolay ve faydalı / zor ama değerli / yazmaya değmez**.
+> 2. Sahibine kısa liste: her aday TEK SATIR, sade Türkçe — "şu kural · program şunu yapar · önerim: yaz / yazma". Kod adı satırın sonunda.
+>    Örnekler (sahibine bunlar gösterildi): eski motor dosyasına (`kaynak/motor.js`) dokunan commit dursun (KOD-36); `onayli/`'den resim
+>    silen commit dursun (CODEX-17); oyun sayfası (`index.html`, `yeni/index.html`) derlemeyle aynı mı (KOD-1).
+> 3. Sahibinin seçtiklerini yaz; **her birini bilerek hata koyarak dene** (bugünkü beş bağlantı böyle sınandı); uygulayıcı satırı
+>    `hatırlat` → `program`; üç sayaç `hata: 0`; commit.
+> **Aday listesi:** `adim4/uyg_*.tsv` → `aday` sütununda "EVET:" olan 103 satır. **Bunlardan 12'si bugün kapandı, sayma:** KOD-3, SATIR-11,
+> SATIR-38, 40, 41, 42, GOMME-1, DENETIM-1, 7, 49, 53, SEZON-26 → **kalan 91** (ARAYUZ 5, BILGI 2, CODEX 10, DENETIM 3, GOMME 4, ISTEM 17,
+> KAR 7, KOD 13, RAF 1, SATIR 10, SEZON 2, SHORTS 2, SINIR 2, SUREC 1, TON 3, YAPI 9). Komut:
+> `awk -F'\t' 'FNR>1 && $0 ~ /EVET/ {print $1" | "$4}' sablon/kurallar/adim4/uyg_*.tsv`. 91'i sahibine tek seferde dökme: önce grupla,
+> "kolay ve faydalı" grubunu getir (ör. 10–20 satır), gerisini sonra.
+> **Not:** `kaynak/` dışındaki programlar da yazılabilir; yeni kapı denetimi `.claude/kapi_hook.js`'e eklenir (git kancası da onu çağırır).
+>
+> **Madde 3'ten sonra sırayla:** madde 4 (çelişkiler — tek tek, "eski: …, yeni: …, önerim: …"), madde 5 (eski açıklar: kanon ↔ KAR,
+> KOD-78 sigara taraması metne/sahne notuna, §7 soru 6–7, üç küçük soru) → **kuralları gözden geçirme sayfası** (sahibinin isteği, 21 Kasım:
+> "Peri'de çorap yok yalnız o vakada söylediğim bir şeydi ama genel kural olarak yazılmış; bunun gibi başka şeyler olabilir". Öneri ve
+> sahibinin onayladığı sıra: Adım 4 bitince, **üretime dönmeden önce**; okunaklı sayfa — üretim adımına göre gruplu, her kural tek satır
+> sade Türkçe, yanında "doğru / yalnız o vakaydı / yanlış" düğmeleri; işaretleri Claude okur, KURALLAR.md'yi düzeltir. Örnek kural ISTEM-20
+> ve ISTEM-38: kayıtta "17 Kasım çelişki sorusu 15, sahibinin kararı" yazıyor; sahibi yalnız o vaka diyor — sayfada ilk sorulacak.)
+> → üretime dönüş. Ayrıca: **Oğuz Bey'in bilgisayarında bir kez `git config core.hooksPath .githooks`** (Codex/terminal commit'leri kapıdan geçsin).
+>
+> **Bugün öğrenilen tuzaklar:**
+> - **Kapı, Bash komutunun METNİNDE "git … commit" geçerse çalışır** (echo içinde bile): deneme komutlarını betik dosyasına yaz
+>   (`K=git; C=commit` gibi), yoksa gerçek kapı koşar ve komut durur. Bu bilgisayarda git kancası kurulu olduğundan Claude Code kipi
+>   kendini atlar; asıl denetim git kancasında (`.githooks/commit-msg` → `node .claude/kapi_hook.js --git`). Kuru deneme: `KAPI_KURU=1`.
+> - Uygulayıcı satırında ters tırnak içindeki her şey dosya sayılır (`say` "program dosyası yok" der): yalnız gerçek dosya yollarını tırnakla.
+> - Onaylı resim commit'i tarz/yüz/benzerlik araçlarıyla ~30 sn sürer (resim başına değil, commit başına; modeller yükleniyor).
+> - Söz farkı aracı diyalog dosyasının baş notlarını da söz sayar; onları değiştiren commit de iletide `[söz onaylı]` ister.
+>
+> **Sahibiyle konuşma (21 Kasım'da yeniden öğrenildi):** her yeni adımı önce **basit bir örnekle** anlat (soyut anlatımı anlamadı; "örnekle"
+> isteyince anladı). "Şimdi bir kez ne yapacağım" ile "her vakada ne olacak"ı ayır. "Okunmaz" gibi öznesiz söz kullanma (kim okuyamaz?).
+> Teknik ölçüyü doğru söyle (önce "resim başına 30 sn" dendi, doğrusu commit başına — düzeltildi). En kısa Türkçe, önce sonuç.
+>
 > ## ✅ MADDE 1 BİTTİ — LİSTELERE CLAUDE BAKAR (21 Kasım 2026, sahibi: "Evet")
 > Claude'un adımlarında listeye Claude bakar, `sablon/vakalar/vaka<N>_hatirlatma.md`'de işaretler (`arac_uygulayici.js kayit <vaka> <adım>`);
 > sahibine yalnız UYMUYOR / EMİN DEĞİLİM gider, onay anında (`… bitti <vaka> onay1|onay2|don|resim|onay3|son`; işaretsiz madde → çıkış 1).
@@ -21,7 +61,7 @@
 > `program`'a döndü (KOD-3, KOD-35, SATIR-11, 38, 40–42, SEZON-26, DENETIM-1, 2, 7, 8, 38, 53, GOMME-1). **Sırada madde 1** (listeleri
 > kısaltma), sonra 3, 4, 5. Açık küçük not: söz farkı aracı diyalog dosyasının baş notlarını da söz sayar (onları değiştirmek de `[söz onaylı]` ister).
 >
-> ## ▶️▶️ YENİ PENCERE: ADIM 4 BURADAN SÜRER (21 Kasım 2026; sahibi biçimi 20 Kasım gece onayladı: "Evet, başla")
+> ## (önceki kutu, 21 Kasım sabah — madde 1 ve 2 artık BİTTİ) ADIM 4 BURADAN SÜRER (sahibi biçimi 20 Kasım gece onayladı: "Evet, başla")
 > **Sahibinin cevap beklediği soru (son mesaj):** "Önce hangisini yapayım: programları bağlamak mı (önerim), listeleri kısaltmak mı?"
 > — aşağıdaki "Sahibine sorulacak" madde 2 (öneri) ve madde 1. Sahibi cevap vermeden kod değiştirme (SUREC-1). Cevaba göre:
 > **madde 2** → beş bağlantı: (a) commit kapısı `test_*.js`'i de koşsun; (b) `uretim/dongu.sh` tarz/yüz/benzerlik araçlarının çıkış
