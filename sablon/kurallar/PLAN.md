@@ -22,7 +22,11 @@
 > **(6) KOD-77/YAPI-34 YAZILDI (sahibi: "Yaz"):** `dogrulayici.js yeni` yeni **K22** (UYARI): metindeki tutar (rakam ya da sayı sözü +
 > ₺/lira/TL, ya da "bin"/"milyon"lu sayı; "buçuk", "yirmişer" okunur) `sablon/vakalar/vakaN_form.md` §17 tablosunda yoksa. 8 vakada 111 tutar;
 > tek uyarı V7 "Doksan lira, Cengo. Deftere yaz." (tabloda kartpostal 100 ₺) — sahibine söylendi, düzeltme Oğuz Bey'in/sahibinin işi.
-> Bilerek V8'e "yetmiş beş bin" ve "12.500 ₺" eklendi → ikisi de uyarıldı. **SIRADAKİ:** YAPI-23 (`## sahne karar_soru` + `**SEÇENEK:**`).
+> Bilerek V8'e "yetmiş beş bin" ve "12.500 ₺" eklendi → ikisi de uyarıldı.
+> **(7) YAPI-23 YAZILDI (sahibi: "Yaz"):** K20 — `karar_soru` varsa her kararda `secenek`, `secenek` varsa `karar_soru` (yarımsa HATA);
+> ikisi de yoksa UYARI (eski düzen; bugün V1–V5, 5 uyarı). Bilerek V7'de bir SEÇENEK, V8'de karar_soru silindi → ikisi de durdu.
+> **SIRADAKİ:** YAPI-16 (yüzleşme 4–6 replik, uyarı). Sahibi "ne kadar kaldı" diye sordu: zor ama değerli 21, istem 16 (toplu onay
+> önerildi), yazmaya değmez 15 (tek soru).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

@@ -1076,7 +1076,7 @@ function kural19_kimYapti(game, hatalar, uyarilar) {
 //   KAR-16 kapanışta hem sıcak (bag: yuksek) hem soğuk (bag: dusuk) satır · GOMME-10 oyuna giren resim webp ·
 //   GOMME-28 her vakanın masa kartı (resim ya da yer tutucu).
 const SIGARA = /(^|[^\p{L}])(sigara|izmarit|tütün|puro|pipo|nargile|kül ?tabla|çakma[kğ])/iu;
-function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
+function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller, uyarilar = []) {
   if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
   const sigaraAra = (yer, deger) => {
     const gez = (x, iz) => {
@@ -1092,6 +1092,14 @@ function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
       const b = d.cengoBag;
       if (b !== undefined && !(Number.isInteger(b) && b >= -2 && b <= 2)) hatalar.push(`[K20] ${vaka.id}/${d.id}: cengoBag ${b} — bağ küçük adımlarla değişir, −2…+2 (KAR-21).`);
     }
+    // Karar sahnenin içinde sorulur (YAPI-23): soran sahne (sahneler.karar_soru) varsa her kararın Peri ağzından seçenek
+    // cümlesi (secenek) olur; biri varken öbürü eksikse HATA. İkisi de yoksa karar eski düzende ayrı ekrandadır → UYARI
+    // (vaka no istisnası yok; vaka elden geçince uyarı kendiliğinden kalkar).
+    const kararlar = Array.isArray(vaka.decisions) ? vaka.decisions : Object.values(vaka.decisions || {});
+    const soru = !!(vaka.sahneler || {}).karar_soru, secenekli = kararlar.filter(d => String(d.secenek || "").trim());
+    if (soru) { for (const d of kararlar) if (!secenekli.includes(d)) hatalar.push(`[K20] ${vaka.id}/${d.id}: '**SEÇENEK:**' satırı yok — karar sahnede soruluyor, her kararın Peri ağzından seçim cümlesi olur (YAPI-23).`); }
+    else if (secenekli.length) hatalar.push(`[K20] ${vaka.id}: kararlarda SEÇENEK var ama '## sahne karar_soru' yok — kararı sahnedeki biri sorar (YAPI-23).`);
+    else if (kararlar.length) uyarilar.push(`[K20] ${vaka.id}: karar sahnede sorulmuyor (karar_soru ve SEÇENEK yok) — eski düzen; vaka elden geçince yazılır (YAPI-23).`);
     const hak = vaka.id === "V1" ? 4 : 3;
     if (vaka.arastirma !== hak) hatalar.push(`[K20] ${vaka.id}: araştırma hakkı ${vaka.arastirma} — ${hak} olmalı (ARAYUZ-36).`);
     const kap = (vaka.sahneler || {}).kapanis;
@@ -1235,7 +1243,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural17_giris(game, hatalar, uyarilar);
   kural18_ipucuAdi(game, hatalar);
   kural19_kimYapti(game, hatalar, uyarilar);
-  kural20_sabitler(game, hatalar, kisiler, acilis, gorseller);
+  kural20_sabitler(game, hatalar, kisiler, acilis, gorseller, uyarilar);
   kural21_replik(game, uyarilar, acilis);
   kural22_tutar(game, uyarilar);
 

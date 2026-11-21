@@ -874,7 +874,7 @@ Kural 22a; sahibinin kararı, 16 Kasım 2026 (8 Ekim'deki "oyuncu seçmeden önc
 - Taslak: `sablon/taslak_karar/vaka6_akis.jpg` (önerilen akış, onaylandı) ve `vaka6_simdi_oneri.jpg` (eskisiyle yan yana).
 - Form kontrolü: kararı sahnedeki biri soruyor; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (22a–b).
 - Uygulama (kod, 16 Kasım 2026): `yeni_arayuz.js → kararSahnesi`; veride `sahneler.karar_soru` varsa soran satırlar, sonda "Peri ne yapsın?" seçimi; seçenek = kararın `SEÇENEK` satırı, yoksa etiket. `arac_diyalog.js`: `## sahne karar_soru` (⚙ `secim_kare`), karar `**SEÇENEK:**` (ÖNİZLEME artık isteğe bağlı).
-*Uygulayıcı:* hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K20 karar_soru varsa her kararda SEÇENEK, SEÇENEK varsa karar_soru (ikisi de yoksa UYARI) · hatırlat 3
 *Kaynak:* 153, 206, 627, 631, 666, 2773
 
 #### YAPI-24 Sonuç sahnede gösterilir
