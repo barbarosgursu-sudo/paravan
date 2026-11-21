@@ -815,12 +815,12 @@ Sonuca göre yüzleşme sahnesi oynar (YAPI-16).
 *Kaynak:* 204, 1822
 
 #### YAPI-16 Dört yüzleşme sahnesi
-Her vaka 4 kısa yüzleşme sahnesi yazar (her biri 4–6 replik); hepsinde gerçek suçlu kaçar:
+Her vaka 4 kısa yüzleşme sahnesi yazar (her biri 4–9 replik; sahibinin kararı, 21 Kasım 2026: eskisi 4–6 idi, V4–V8 7–9 yazıldı); hepsinde gerçek suçlu kaçar:
 - Doğru kişi, doğru kanıt → suçlu köşeye sıkışır, kaçar.
 - Doğru kişi, zayıf kanıt → suçlu inkâr eder, sonra paniğe kapılıp kaçar.
 - Yanlış şüpheli 1 → masum kendini savunurken gerçeği ele verir, suçlu kaçar.
 - Yanlış şüpheli 2 → aynı, kendi tepkisiyle.
-*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (dört yüzleşme sahnesi var) · hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (dört yüzleşme sahnesi var; her biri 4–9 replik, UYARI) · hatırlat 3
 *Kaynak:* 87, 140, 141, 142, 143, 144
 
 #### YAPI-17 Panik ve kaçışın somut sebebi

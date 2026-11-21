@@ -1028,6 +1028,10 @@ function kural19_kimYapti(game, hatalar, uyarilar) {
     const sahneler = vaka.sahneler || {};
     for (const ad of ["yuzlesme_dogru", "yuzlesme_zayif", ...sup.filter(x => x.id !== ky.suclu).map(x => "yuzlesme_" + x.id)])
       if (!sahneler[ad]) hatalar.push(`[K19] ${vaka.id}: '${ad}' sahnesi yok.`);
+      else {   // Yüzleşme kısa: 4–9 replik, anlatı (`not`) sayılmaz (YAPI-16; sahibi 21 Kasım 2026: UYARI)
+        const n = (sahneler[ad].satirlar || []).filter(s => s && s.k && s.k !== "not").length;
+        if (n < 4 || n > 9) uyarilar.push(`[K19] ${vaka.id}: '${ad}' ${n} replik — yüzleşme 4–9 replik olur (YAPI-16).`);
+      }
     const dec = vaka.decisions || [];
     if (dec.length !== 4) hatalar.push(`[K19] ${vaka.id}: ${dec.length} karar; şablon 4 ister.`);
     for (const d of dec) {

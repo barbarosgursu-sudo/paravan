@@ -98,7 +98,7 @@ Olgular birleşince deftere yazılan ara bulgular — BILGI-6.
 
 ## 10. Kim yaptı? ve yüzleşme
 
-| sonuç | yüzleşme sahnesi (özet, 4–6 replik) |
+| sonuç | yüzleşme sahnesi (özet, 4–9 replik — YAPI-16) |
 |---|---|
 | Doğru kişi, doğru kanıt | |
 | Doğru kişi, zayıf kanıt | |

@@ -25,8 +25,10 @@
 > Bilerek V8'e "yetmiş beş bin" ve "12.500 ₺" eklendi → ikisi de uyarıldı.
 > **(7) YAPI-23 YAZILDI (sahibi: "Yaz"):** K20 — `karar_soru` varsa her kararda `secenek`, `secenek` varsa `karar_soru` (yarımsa HATA);
 > ikisi de yoksa UYARI (eski düzen; bugün V1–V5, 5 uyarı). Bilerek V7'de bir SEÇENEK, V8'de karar_soru silindi → ikisi de durdu.
-> **SIRADAKİ:** YAPI-16 (yüzleşme 4–6 replik, uyarı). Sahibi "ne kadar kaldı" diye sordu: zor ama değerli 21, istem 16 (toplu onay
-> önerildi), yazmaya değmez 15 (tek soru).
+> Sahibi "ne kadar kaldı" diye sordu: zor ama değerli 21, istem 16 (toplu onay önerildi), yazmaya değmez 15 (tek soru).
+> **(8) YAPI-16 YAZILDI (sahibi: "4–9 uyarı olsun"):** kural metni 4–6 → **4–9 replik** (ölçüm: 32 yüzleşmeden 15'i 6'yı geçiyordu, V4–V8
+> 7–9 yazılmış); `6_vaka_formu.md` de. K19 her yüzleşmede `not` dışı replik sayısı 4–9 değilse UYARI; bugün 1 (V1 Tuba 3). Bilerek
+> V8 dogru 11'e çıkarıldı → uyarıldı. **SIRADAKİ:** TON-6 (her sahnede Cengo'nun en az bir repliği, uyarı).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
