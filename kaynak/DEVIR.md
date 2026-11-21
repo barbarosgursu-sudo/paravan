@@ -8,6 +8,11 @@
 
 ---
 
+> ## ▶️▶️ 21 KASIM 2026 GECE GEÇ: MADDE 3 SÜRÜYOR → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("MADDE 3 BURADAN SÜRER")
+> Bu pencerede yazılanlar `main`'de: kolay ve faydalı 18 aday (`1639910`, `268eea6`, `7f5d874` — K20 sabitler, kapıda CODEX-17/25 ve KOD-1,
+> istem denetimleri, künyesi eksik altı kişi, masa kartı), sonra YAPI-25 (`e2ac785`) ve KOD-38 (`aae4326`). Kalan adaylar gruplu olarak
+> PLAN'da; ilk iş sahibine sorulmuş TON-9 (replik uzunluğu). Oğuz Bey'e soru: V8'de Tarkan = Nihat mı.
+
 > ## ▶️ 21 KASIM 2026 AKŞAM: ADIM 4 SÜRÜYOR — SIRADA MADDE 3 → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("ADIM 4 BURADAN SÜRER — MADDE 3")
 > Bugün `main`'de: **beş program bağlandı** (`d1ec1f6`: commit'te testler; döngü tarz/yüz/benzerlik çıkış koduna bakar ve kapı onaylı resimde
 > araçları yeniden koşar; istem denetimi yazı benzerliğini çağırır; gömme commit'i yalnız o vakanın resim kapısını açar; diyalogda söz farkı

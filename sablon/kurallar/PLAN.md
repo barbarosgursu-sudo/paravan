@@ -4,6 +4,52 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
+> ## ▶️▶️▶️ YENİ PENCERE: MADDE 3 BURADAN SÜRER (21 Kasım 2026 gece geç; sahibi: "geri kalanları yeni pencerede yapacağım")
+> **Durum:** "Kolay ve faydalı" 20 aday bitti (18 yazıldı, 2'si arşiv işine). "Zor ama değerli"den 2'si yazıldı, `main`'de:
+> `e2ac785` YAPI-25/KOD-75 (K19: doğru kanıtın Cengo satırı + ifadesi; şimdilik UYARI — V1–V5'te yok) ve `aae4326` KOD-38 (kapı veriyi
+> diyaloglardan geçici kopyaya yeniden yazar, fark = elle düzenleme → durur; araçla yazılamayan eski biçimli V1–V5 atlanır ve bildirilir;
+> `arac_diyalog.js`'e `VERI_DIZIN` ortam değişkeni eklendi). Codex veriye dokunmuyor (yalnız `uretim/vN/`; git kaydında 0 dokunuş).
+>
+> **İLK İŞ — sahibine sorulmuş, cevap bekleyen madde: TON-9 / ARAYUZ-28 (replik uzunluğu).** Öneri: doğrulayıcı (yeni) 110 harfi
+> geçen repliği ve vaka ortalaması 45'in altını UYARI olarak listeler (durdurmaz). Ölçüm (anlatı `not` hariç): V1 3, V2 1, V3 4, V4 4, V5 1,
+> V6 1, **V7 8** (ör. Cengo "Nesrin Hanım'la ben konuşurum…" 143 harf), V8 0 uzun replik; ortalamalar V1 36, V2 37, V3 52, V4 56, V5 58,
+> V6 58, V7 60, V8 54. Yeni pencerede iki satırla hatırlat, "Yaz / Yazma" sor.
+>
+> **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
+> (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
+> (`arac_uygulayici.js yaz` + `say`, `arac_kurallar.js say`, `adim3/tasima_say.js`) → PLAN'a bir satır → commit (`kaynak/` değişirse kapı
+> testleri + V6–V8 denetimini koşar, 10 dk'yı geçebilir: arka planda koş, sahibine "kapı çalışıyor, sorun yok" de) → `git push origin HEAD:main`.
+> Denetim vakadan bağımsız: V1–V5 eski düzende tutmuyorsa vaka no istisnası YAZMA; uyarı ver ya da biçime göre atla, sebebini yaz.
+>
+> **Kalan adaylar (Claude'un gruplaması, sahibine tek tek getirilecek):**
+> - *Zor ama değerli (önce bunlar, bu sırayla):* TON-9/ARAYUZ-28 (yukarıda) · ARAYUZ-16 (ekran etiketinde 2'den fazla kişi → arac_diyalog
+>   durdurur) · KOD-44 (Cengo karar/kanıt repliğinin ifadesi kapanış setinde var mı) · KOD-77/YAPI-34 (metindeki ₺ tutarları fiyat tablosunda mı)
+>   · YAPI-23 (`## sahne karar_soru` ve her kararın `**SEÇENEK:**` satırı zorunlu) · YAPI-16 (yüzleşme 4–6 replik, uyarı) · TON-6 (her sahnede
+>   Cengo'nun en az bir repliği, uyarı) · TON-12 ("… kala" saat sözü) · RAF-65 (`## hikaye` 5–7 paragraf) · BILGI-17 (ipucu görseline
+>   `gosterir` zorunlu, K1 yeni oyunda) · YAPI-14, YAPI-29/37 (Kim yaptı? ve "kirli karara zorlamaz" testleri bütün vakalara) · KAR-19 (suçlama
+>   cengoBag'i değiştirmez, test) · YAPI-38 (HUKUM listesi yeni oyunun sonuç sahnelerine) · BILGI-9 (tahta testi yeni defterZincir'e) ·
+>   KAR-4 (kalıcı figür adı değişmez) · GOMME-13 (her konuk figürünün `boy` değeri) · SATIR-7 (kıyafet hâli tablosu eksiksiz) · SATIR-19
+>   (sahne başında `⚙ akış:`) · SATIR-35 (her figür resminin en az bir satırı) · DENETIM-9 (onaylı her resmin tarz/yüz/benzerlik GEÇTİ satırı)
+>   · DENETIM-24 (üretilen resmin piksel boyu türüne uyar) · CODEX-21 (LISTE.md ↔ vakaN_gorsel.md eşliği) · CODEX-19 (dongu.sh başında
+>   bağımlılık + `codex login status`) · CODEX-22 (dongu.sh kilit dosyası) · CODEX-5 (Codex sonrası vaka klasörü dışında değişiklik var mı).
+> - *İstem denetimleri (`istem_kontrol.sh`, çoğu kolay):* ISTEM-5 (figürde "DİKEY 4:5", "Uyluk ortasından") · ISTEM-6 ("burnu kadrajın
+>   soluna" biçimi) · ISTEM-12 (yeni temelde "Başı bilerek silindi", kişi resmi referansı yok) · ISTEM-14 (varyantta 1. referans onayli/G<temel>,
+>   "Değişen tek şey poz ve ifade") · ISTEM-19 ("Kart YALNIZ kıyafetin") · ISTEM-21 (Peri'de "Çekicilik:") · ISTEM-30 ("görünmesin" bayrağı)
+>   · ISTEM-35 ("Kadrajda TAM n kişi" ↔ diyalog) · ISTEM-43 (kadraj yüzdeyle yazılmaz — DİKKAT: DENETIM-24 "%20" ile çelişki, madde 4) ·
+>   ISTEM-44 (yeni yan karakterde "saçın dış çizgisi toplu") · SATIR-8 (konuk istemlerinde kart referansı) · SATIR-17 (ifade varyantında
+>   "Bu ifadeyi … ayıran") · SATIR-10 (satır–resim İŞ sayısı 0 değilse istem üretilmez) · KAR-25 ("kapı"+"büro" → buro_koridor.jpg) ·
+>   SINIR-3 (Peri'de "üst düğmeleri açık" — önce gözden geçirme sayfasında sorulabilir, ISTEM-20/38 gibi) · ARAYUZ-6 (arka plan 3:4; ISTEM-3
+>   istem tarafını zaten yapıyor, kalan resim tarafı).
+> - *Yazmaya değmez olabilir (sahibine kısaca sor, önerim "yazma"):* CODEX-8, CODEX-12, CODEX-13 (dongu.sh kayıt/süre bayrakları) · KOD-6
+>   (Bash'te doğrulayıcıya boru — artık kapı git kancasında) · KOD-29 (kapıda --tablet turu; süre) · KOD-49 (görsel tablosu ↔ kareler) · KOD-79
+>   (sol=sağ figür) · SATIR-6, SATIR-23, SATIR-33 (tur/döküm bayrakları) · YAPI-32 (ücret kademeleri; V6+ diyor — vakadan bağımsız değil) ·
+>   SHORTS-3, SHORTS-26 (Shorts — başka pencerenin işi, dokunma) · SEZON-5, SEZON-21.
+> Tam liste komutu: `awk -F'	' 'FNR>1 && $0 ~ /EVET/ {print $1" | "$4}' sablon/kurallar/adim4/uyg_*.tsv` (yazılanları çıkar: aşağıdaki kutular).
+>
+> **Bekleyen dış soru:** Oğuz Bey'e — V8'de Tarkan = Nihat mı (aşağıdaki kutu). **Madde 3'ten sonra:** eski oyunun arşivi (ayrı iş; 🛠 DEV_MOD
+> düğmesi sökülür, KOD-36/KOD-15), madde 4 (çelişkiler; KOD-21 alert, ISTEM-43 ↔ DENETIM-24), madde 5, kuralları gözden geçirme sayfası
+> (ilk soru ISTEM-20/38 "Peri'de çorap yok"), sonra üretime dönüş. Oğuz Bey'in bilgisayarında bir kez `git config core.hooksPath .githooks`.
+>
 > ## ✅ 16'SI YAZILDI, 2'Sİ SAHİBİNİN CEVABINI BEKLİYOR (21 Kasım 2026 gece)
 > Yazıldı ve bilerek hatayla sınandı: kapı (CODEX-17, CODEX-25, KOD-1), `istem_kontrol.sh` (CODEX-4, ISTEM-3/9/10/22/39/46, KAR-24 —
 > V7'nin 27 istemi yine geçiyor), `dogrulayici.js yeni` yeni **K20** (sigara, bağ ±2, araştırma hakkı, kapanış iki hâl, webp),
