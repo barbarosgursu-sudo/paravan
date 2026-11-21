@@ -3798,7 +3798,7 @@ Aynı kare sürüyorsa resim yerinde kalır, yalnız yazı değişir (`yeni_aray
 - **`ekran` düzeni (V6'dan beri):** ARAYUZ-17 geçerli — Peri'siz iki konuk karşılıklı durabilir, Cengo konukla solda durabilir. (Sahibinin kararı, 17 Kasım 2026, çelişki sorusu 1.)
 - Konuşan aydınlanır, dinleyen kararır.
 - Sahnede tek kişi varken ortada durur; ikinci kişi gelince kaymadan, anında yanlara geçer (`yeni_arayuz.js/.css`, `.vn-figurler.tek`; `f8dfc4e`, 14 Kasım 2026).
-*Uygulayıcı:* hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K15 ekran etiketinde en çok iki kişi · hatırlat 3
 *Kaynak:* 286, 304, 2410, 2779
 
 #### ARAYUZ-17 Karşılıklı konuşmada yerler sabit

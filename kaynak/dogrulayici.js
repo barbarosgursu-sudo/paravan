@@ -822,6 +822,11 @@ function kural15_sahne(game, hatalar, acilis) {
       hatalar.push(`[K15] ${yer}: Cengo'nun '${cset}' diye bir kıyafet seti yok.`);
     const yuru = (satirlar, yol) => satirlar.forEach((s, n) => {
       const y = `${yer} satır ${yol}${n + 1}`;
+      // Ekranda en çok iki figür (ARAYUZ-16): konuşma ekranı yalnız ilk ikisini çizer, üçüncüsü sessizce kaybolur.
+      if (typeof s.ekran === "string") {
+        const e = s.ekran.split("+").map(x => x.trim()).filter(Boolean);
+        if (e.length > 2) hatalar.push(`[K15] ${y}: ekran '${s.ekran}' ${e.length} kişi — ekranda en çok iki figür durur (ARAYUZ-16).`);
+      }
       if (s.set) {
         if (!(fig.peri && fig.peri.setler && fig.peri.setler[s.set]))
           hatalar.push(`[K15] ${y}: Peri'nin '${s.set}' diye bir kıyafet seti yok.`);

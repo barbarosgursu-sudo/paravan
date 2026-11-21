@@ -13,7 +13,8 @@
 > **(3) TON-9 / ARAYUZ-28 YAZILDI (sahibi: "Yaz", 21 Kasım 2026):** `dogrulayici.js yeni` yeni **K21** (yalnız UYARI): 110 harfi geçen
 > replik (sahneler + ipucu sahneleri + açılış; anlatı `not` hariç) ve vaka ortalaması 45'in altı. Bugün 25 uyarı: V1 3, V2 1, V3 4, V4 4, V5 1,
 > V6 1, V7 8, açılış 1 uzun replik; V1 (36) ve V2 (37) ortalaması düşük. Bilerek V8'e 120 harf sokuldu → yakalandı. Eski oyun etkilenmez.
-> **SIRADAKİ:** ARAYUZ-16 (ekran etiketinde 2'den fazla kişi → arac_diyalog durdurur).
+> **(4) ARAYUZ-16 YAZILDI (sahibi: "Yaz"):** K15 ekran etiketinde 2'den fazla kişi → HATA (arac_diyalog yerine doğrulayıcı: kapı
+> zaten koşuyor). Bugün 0 ihlal; bilerek V6'ya `peri+cengo+jale` yazıldı → durdu. **SIRADAKİ:** KOD-44.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
