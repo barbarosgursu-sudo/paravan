@@ -1253,6 +1253,32 @@ function kural23_kala(game, uyarilar, kisiler, acilis) {
   if (kisiler) ara(kisiler, "kisiler.json");
 }
 
+// Hüküm sözleri (YAPI-38): sonuç metni seçimi yargılamaz. Liste eskiden yalnız arac_akis_denetim.js'teydi (eski oyun);
+// 22 Kasım 2026'dan beri burada, araç buradan alır. Sıralama da hükümdür ("en dürüst" — 23 Eylül 2026, YAN-B).
+const HUKUM = ["doğru olanı yaptın", "en adil", "doğrusu buydu", "doğru olanı yaptım",
+  "en iyisini yaptın", "haklıydın", "doğru olan buydu", "iyi bir insansın",
+  "en dürüst", "en temiz", "en onurlu", "en doğru", "en erdemli"];
+// K20 eki — yeni oyunun karar yüzeylerinde hüküm sözü (YAPI-38; Adım 4 madde 3, 22 Kasım 2026, sahibi: "Yaz"). HATA.
+//   Yüzeyler: kararın kendisi (sonuç, Cengo satırı, seçenek, etiket, önizleme), varsa `sonuc_<karar>` sahnesi, anı defteri
+//   (kisiler.json → defter). Sahne diyaloğu taranmaz: bir karakterin "haklıydın" demesi hüküm değildir.
+function kural20_hukum(game, hatalar, kisiler) {
+  if (!(game.kanon && game.kanon.sahne)) return;
+  const ara = (yer, deger) => {
+    const gez = x => {
+      if (typeof x === "string") { const s = x.toLocaleLowerCase("tr"); for (const h of HUKUM) if (s.includes(h))
+        hatalar.push(`[K20] ${yer}: hüküm sözü "${h}" — sonuç seçimi yargılamaz, eylem → sonuç → bedel (YAPI-38).`); }
+      else if (Array.isArray(x)) x.forEach(gez);
+      else if (x && typeof x === "object") Object.values(x).forEach(gez);
+    };
+    gez(deger);
+  };
+  for (const vaka of game.vakalar) for (const d of vaka.decisions || []) {
+    ara(`${vaka.id}/${d.id}`, d);
+    const s = (vaka.sahneler || {})["sonuc_" + d.id]; if (s) ara(`${vaka.id}/sahneler.sonuc_${d.id}`, s);
+    const df = ((kisiler || {}).defter || {})[vaka.id]; if (df && df[d.id]) ara(`kisiler.json → defter.${vaka.id}.${d.id}`, df[d.id]);
+  }
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -1276,6 +1302,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural18_ipucuAdi(game, hatalar);
   kural19_kimYapti(game, hatalar, uyarilar);
   kural20_sabitler(game, hatalar, kisiler, acilis, gorseller, uyarilar);
+  kural20_hukum(game, hatalar, kisiler);
   kural21_replik(game, uyarilar, acilis);
   kural22_tutar(game, uyarilar);
   kural23_kala(game, uyarilar, kisiler, acilis);
@@ -1324,7 +1351,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   return true;
 }
 
-module.exports = { dogrula, ifadeDegerlendir, acilabilirOlgular, ifadeOlgulari };
+module.exports = { dogrula, ifadeDegerlendir, acilabilirOlgular, ifadeOlgulari, HUKUM };
 
 // Doğrudan çalıştırılırsa game_data.js'i dene.
 // İsteğe bağlı argüman: veri klasörü. `node dogrulayici.js yeni` yeni oyunun

@@ -55,12 +55,10 @@ const CENGO_SOGUK = ["yüzü asık", "suratı", "tek kelime etmedi", "bir şey d
   "soru sormadı", "sormadı bile", "kaldıramaz", "bakmıyor"];
 const CENGO_SICAK = ["gülümse", "omzuna", "sırtını sıvazla", "başını salladı",
   "güldü", "sevindi", "rahatladı"];
-const HUKUM = ["doğru olanı yaptın", "en adil", "doğrusu buydu", "doğru olanı yaptım",
-  "en iyisini yaptın", "haklıydın", "doğru olan buydu", "iyi bir insansın",
-  // Sıralama da hükümdür: seçenekleri ahlaki sıraya dizen her üstünlük derecesi.
-  // 23 Eylül 2026'da YAN-B "en pahalı, en dürüst hali" diyordu ve bu liste
-  // yalnız "en adil"i tanıdığı için göremedi.
-  "en dürüst", "en temiz", "en onurlu", "en doğru", "en erdemli"];
+// Hüküm listesi doğrulayıcıda (YAPI-38; yeni oyunu da o tarar). Sıralama da hükümdür: seçenekleri ahlaki
+// sıraya dizen her üstünlük derecesi — 23 Eylül 2026'da YAN-B "en pahalı, en dürüst hali" diyordu ve liste
+// yalnız "en adil"i tanıdığı için göremedi.
+const { HUKUM } = require("./dogrulayici.js");
 
 /* Motorun kararRuhHali sınıflaması (temiz/bedel/bosluk/kirli) oyuncuya ASLA
    kelime olarak gösterilmez — sözleşme böyle diyor ama hiçbir yer denetlemiyordu.

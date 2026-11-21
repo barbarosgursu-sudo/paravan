@@ -973,7 +973,7 @@ Ekonomi seçenekleri daraltabilir ama oyuncuyu kirli karara zorlayamaz: bütçey
 - "Doğru olanı yaptın", "en adil" gibi hüküm cümleleri yasak.
 - Nitelik + bedel yapısı ("Onurlu ama ölümcül", "Dürüstsün ama saf") hüküm değildir, kalabilir — orada oyuncunun seçimi değil dünyanın tepkisi anlatılır.
 - Eski oyundan yeni oyuna aynen taşınan yapı sözleşmelerinden biridir (kural 22).
-*Uygulayıcı:* hatırlat 3, 5
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K20 hüküm sözü (HUKUM listesi) karar yüzeylerinde: sonuç, Cengo satırı, seçenek, sonuç sahnesi, anı defteri · hatırlat 3, 5
 *Kaynak:* 48, 155, 205, 932, 1724, 1793, 2044, 2048
 
 #### YAPI-39 Ruh hâli sınıflaması kelime olarak gösterilmez; yeni oyunda ruh hâli görseli ve istatistik paneli yok

@@ -44,7 +44,10 @@
 > yakalandı. YAPI-29/37: yeni oyunda kasa yok, karar kapısı yok (K19 `gate: "yok"`) → dört karar hep açık, zorlanma olmaz; "dürüst" mü
 > yargısı insanın (hatırlat 1 kalır).
 > **(14) KAR-19 YAZILDI (sahibi: "Yaz"):** aynı blokta her vakada yanlış/zayıf/doğru suçlama Cengo bağını değiştirmez; 8/8 geçer; suçlamaya
-> bağ ekleyen yamayla 8/8 yakalandı. Uygulayıcı "yok" → program. **SIRADAKİ:** YAPI-38 (HUKUM listesi yeni oyunun sonuç sahnelerine).
+> bağ ekleyen yamayla 8/8 yakalandı. Uygulayıcı "yok" → program.
+> **(15) YAPI-38 YAZILDI (sahibi: "Yaz"):** HUKUM listesi `arac_akis_denetim.js`'ten `dogrulayici.js`'e taşındı (araç oradan alır); K20 yeni
+> oyunda kararın kendisi, `sonuc_<karar>` sahnesi ve anı defterinde hüküm sözü → HATA. Sahne diyaloğu taranmaz. Bugün 0; bilerek V7 sonuç +
+> Cengo satırı + V8 defter → üçü durdu, sahnedeki "Haklıydın" geçti. **SIRADAKİ:** BILGI-9 (tahta testi yeni defterZincir'e).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
