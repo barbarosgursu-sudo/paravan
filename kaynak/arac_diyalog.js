@@ -94,10 +94,12 @@ for (const ham of md) {
   }
   if (hedef.tur === "karar") {
     // **CENGO [ifade]:** metin {yuz: peri.x} → Cengo'nun büroda repliği (16 Kasım 2026, etiket yöntemi);
-    // etiketsiz **CENGO:** eski düzende anlatı satırı kalır (V1–V5 yeniden geçirilene dek).
+    // Etiketsiz **CENGO:** (eski düzenin anlatı satırı) artık YAZILMAZ — SATIR-36 (Adım 4 madde 3, 21 Kasım 2026; bütün vakalar,
+    // eski vakalar elden geçerken burada durur ve etiketlenir).
     if ((m = s.match(/^\*\*CENGO\s*\[(\w+)\]:\*\*\s*(.+?)\s*(?:\{([^}]*)\})?$/))) {
       hedef.metin.CENGO = m[2].trim(); hedef.cengoReplik = { i: m[1], ...(m[3] ? ayar(m[3]) : {}) };
     }
+    else if (/^\*\*CENGO:\*\*/.test(s)) hatalar.push(`${satirNo}: etiketsiz **CENGO:** — Cengo ifadeyle konuşur: **CENGO [ifade]:** metin (SATIR-36)`);
     else if ((m = s.match(/^\*\*(ÖNİZLEME|SEÇENEK|SONUÇ|CENGO|DEFTER):\*\*\s*(.+)$/))) hedef.metin[m[1]] = m[2].trim();
     else hatalar.push(`${satirNo}: karar bölümünde tanınmayan satır`);
     continue;
@@ -110,6 +112,7 @@ for (const ham of md) {
   if ((m = govde.match(/^\*\*([^*\[]+?)(?:\s*\[([\w]+)\])?:\*\*\s*(.+)$/))) {
     satir = { k: kimlik(m[1].trim()) };
     if (m[2]) satir.i = m[2];
+    if (satir.k === "cengo" && !m[2]) { hatalar.push(`${satirNo}: etiketsiz **CENGO:** — Cengo ifadeyle konuşur: **CENGO [ifade]:** metin (SATIR-36)`); continue; }
     satir.m = temiz(m[3]);
   } else if ((m = govde.match(/^\*(.+)\*$/))) {
     satir = { k: "not", m: temiz(m[1]) };

@@ -20,7 +20,8 @@
 const fs = require('fs'), path = require('path');
 const { spawnSync } = require('child_process');
 const kok = process.env.CLAUDE_PROJECT_DIR || path.resolve(__dirname, '..');
-const git = a => spawnSync('git', a, { cwd: kok, encoding: 'utf8' }).stdout || '';
+// maxBuffer büyük: yeni/index.html birkaç MB (gömülü resimler); varsayılan 1 MB sayfayı yarım okutuyordu (KOD-1 yanlış alarmı).
+const git = a => spawnSync('git', a, { cwd: kok, encoding: 'utf8', maxBuffer: 1 << 28 }).stdout || '';
 const GIT_KIPI = process.argv[2] === '--git';
 let komut = '', ileti = '';
 if (GIT_KIPI) {
@@ -173,6 +174,47 @@ if (sozDosya.length && !sozOnayli) {
     if (r.status !== 0) dur.push(`${f}: SÖZLER değişti — SATIR-11 (onaylı sözler değişmez). ` + ((r.stdout || '').split('\n').slice(0, 7).join(' | ')) +
       ' … Sahibi onayladıysa commit iletisine [söz onaylı] yaz.');
   }
+}
+
+// ---- Adım 4 madde 3 (21 Kasım 2026, sahibi tek tek onayladı) ----
+// CODEX-17: onaylı resim silinmez; onayli/'e png dışında dosya girmez. Sahibi bilerek siliyorsa iletiye [onaylı sil].
+{
+  const ONAYLI = /^uretim\/v\d+\/onayli\//;
+  const silinen = dosyalar.filter(f => ONAYLI.test(f) && !fs.existsSync(path.join(kok, f)) &&
+    spawnSync('git', ['cat-file', '-e', 'HEAD:' + f], { cwd: kok }).status === 0);
+  const pngDisi = dosyalar.filter(f => ONAYLI.test(f) && fs.existsSync(path.join(kok, f)) && !/\/G\d+z?\.png$/.test(f));
+  if (silinen.length && !/\[onaylı sil\]/.test(ileti)) dur.push(`onaylı resim silindi: ${silinen.join(', ')} — onaylı resim emektir (CODEX-17). Bilerek siliyorsan commit iletisine [onaylı sil] yaz.`);
+  if (pngDisi.length) dur.push(`onayli/'e png olmayan ya da adı G<n>.png olmayan dosya: ${pngDisi.join(', ')} (CODEX-17)`);
+}
+// CODEX-25: üretilmiş bir resmin isteminde `## İstem` bölümü değişmez; yalnız sona `## Düzeltme` / `## ENGELLENDİ` eklenir
+// (neyin denendiği kayıtta kalsın). Henüz üretilmemiş istem serbest. Sahibi onayladıysa iletiye [istem onaylı].
+if (!/\[istem onaylı\]/.test(ileti)) {
+  const istemBolumu = t => { const m = String(t).replace(/\r/g, '').split(/\n(?=## )/).find(b => b.startsWith('## İstem')); return (m || '').trim(); };
+  for (const f of dosyalar) {
+    const m = f.match(/^uretim\/(v\d+)\/prompts\/(G\d+z?)\.md$/);
+    if (!m || !fs.existsSync(path.join(kok, f)) || spawnSync('git', ['cat-file', '-e', 'HEAD:' + f], { cwd: kok }).status !== 0) continue;
+    const vd = path.join(kok, 'uretim', m[1]);
+    const uretildi = ['uretilen', 'onayli'].some(k => fs.existsSync(path.join(vd, k, m[2] + '.png'))) ||
+      (fs.existsSync(path.join(vd, 'red')) && fs.readdirSync(path.join(vd, 'red')).some(x => x.startsWith(m[2] + '_red')));
+    if (!uretildi) continue;
+    if (istemBolumu(git(['show', 'HEAD:' + f])) !== istemBolumu(yeniHal(f)))
+      dur.push(`${f}: '## İstem' bölümü değişti, resim üretilmişti — istem değiştirilmez, sona '## Düzeltme <k>' eklenir (CODEX-25). Sahibi onayladıysa iletiye [istem onaylı].`);
+  }
+}
+// KOD-1: oyun sayfası (yeni/index.html) elle yazılmaz, derlenir. Sayfa ya da kaynak/ kaydediliyorsa sayfa yeniden derlenir ve
+// kaydedilecek sayfayla karşılaştırılır; fark varsa durur. Çalışma kopyası eski hâline döner (yan etki yok).
+if (dosyalar.includes('yeni/index.html') || testGerek) {
+  const SAYFA = path.join(kok, 'yeni', 'index.html');
+  const once = fs.existsSync(SAYFA) ? fs.readFileSync(SAYFA) : null;
+  const rb = spawnSync('node', ['build_html.js', 'yeni'], { cwd: path.join(kok, 'kaynak'), encoding: 'utf8' });
+  const derlenen = fs.existsSync(SAYFA) ? fs.readFileSync(SAYFA, 'utf8') : '';
+  if (once) fs.writeFileSync(SAYFA, once);
+  spawnSync('node', ['build_html.js'], { cwd: path.join(kok, 'kaynak'), encoding: 'utf8' });   // _gomulu_veri.js'i eski kipe döndürür
+  const lf = s => String(s).replace(/\r\n/g, '\n');
+  const kaydedilecek = dosyalar.includes('yeni/index.html') ? yeniHal('yeni/index.html') : git(['show', 'HEAD:yeni/index.html']);
+  if (rb.status !== 0) dur.push('derleme (yeni) çalışmadı: ' + String(rb.stderr || rb.stdout).trim().split('\n').pop());
+  else if (lf(derlenen) !== lf(kaydedilecek)) dur.push('yeni/index.html derlemeden çıkanla aynı değil — sayfa elle yazılmaz ya da derlenmeyi unuttun (KOD-1). ' +
+    'Çözüm: cd kaynak && node build_html.js yeni && node build_html.js, sonra git add yeni/index.html.');
 }
 
 const ARAC = { tarz: 'arac_tarz.py', 'yüz': 'arac_yuz.py', benzerlik: 'arac_benzerlik_resim.py' };

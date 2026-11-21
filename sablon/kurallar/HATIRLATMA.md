@@ -79,7 +79,7 @@
 
 - [ ] **SUREC-11** Adım 1–2: Form ve Onay 1
 
-## Adım 3 — Diyalog yazılır (96)
+## Adım 3 — Diyalog yazılır (93)
 
 - [ ] **TON-1** Oyunun özü Peri ile Cengo
 - [ ] **TON-4** Hava ve mizah
@@ -121,7 +121,6 @@
 - [ ] **SINIR-8** Kovalamaca: Peri erotik ve gülünç; sahnede acı, tehlike, aşağılanma yok
 - [ ] **SINIR-10** Hakaretin yönü yukarıdır
 - [ ] **SINIR-11** Mavi Ay'dan yalnız yapı alınır
-- [ ] **SINIR-13** Sigara yok
 - [ ] **BILGI-2** Oyun cevabı söylemez
 - [ ] **BILGI-3** Girişte yasak olanlar
 - [ ] **BILGI-7** Anı özeti yalnız herkesin duyduğunu yazar (kural 21d)
@@ -162,7 +161,6 @@
 - [ ] **SATIR-25** Satır → görsel tablosu
 - [ ] **SATIR-26** Diyaloğu satır satır yazmak (adım 3)
 - [ ] **SATIR-34** İfade sözlüğü (Peri ve Cengo)
-- [ ] **SATIR-36** Cengo satırı etiketli replik olarak yazılır
 - [ ] **KOD-44** Karar alanları (16 Kasım 2026 düzeni)
 - [ ] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
 - [ ] **KOD-49** Diyaloğa yeni kare eklerken üç yer
@@ -170,7 +168,6 @@
 - [ ] **KOD-52** Sahne satırı bilgiye göre değişmez
 - [ ] **KOD-75** Karar sahnede; Cengo satırları
 - [ ] **KOD-77** Kasa yok, tohum yok, tutarlar tabloda
-- [ ] **KOD-78** Sigara yok
 - [ ] **KOD-89** Kim yaptı? kanıtları kısa adla
 - [ ] **ARAYUZ-16** Figür yerleşimi
 - [ ] **ARAYUZ-22** Seçim dallanmaz
@@ -248,14 +245,13 @@
 - [ ] **SUREC-29** Değişiklik nereye yazılır (veri yolu)
 - [ ] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
 
-## Adım 8 — Görsel listesi ve promptlar + iş sayfası (100)
+## Adım 8 — Görsel listesi ve promptlar + iş sayfası (96)
 
 - [ ] **TON-21** Görsel ton: gün ışığı ve kalabalık
 - [ ] **KAR-1** Kanona ekleme sahibinin işidir
 - [ ] **KAR-6** Peri her zaman en gösterişli kadındır
 - [ ] **KAR-22** Her vakada yeni kıyafet
 - [ ] **KAR-23** Karakter sabitleri (her istemde yazılır, her denetimde aranır)
-- [ ] **KAR-24** Cengo'nun görünüşü
 - [ ] **KAR-25** Mekân sabiti: büro kapısı
 - [ ] **KAR-35** Yerler
 - [ ] **SINIR-3** Çekicilik seviyesi (Peri)
@@ -291,7 +287,6 @@
 - [ ] **SATIR-35** Yalnız satırların istediği ifade ve poz üretilir
 - [ ] **ISTEM-1** Kalıp dosyası zorunlu; ezberden yazılmaz
 - [ ] **ISTEM-2** Sıra: temeller önce
-- [ ] **ISTEM-3** Görsel türleri ve boyutları
 - [ ] **ISTEM-5** Figür kadrajı (H1) ve figür sabitleri
 - [ ] **ISTEM-8** Prompt kalıbının sırası
 - [ ] **ISTEM-9** Tarz paragrafı: metni ve nereye yazıldığı
@@ -320,7 +315,6 @@
 - [ ] **ISTEM-36** Kim kimi görüyor
 - [ ] **ISTEM-37** Detay karede elin sahibinin kıyafeti
 - [ ] **ISTEM-38** Çorap
-- [ ] **ISTEM-39** Yorgun göz
 - [ ] **ISTEM-40** Unlu ya da kirli karakter
 - [ ] **ISTEM-41** Işık ve saat
 - [ ] **ISTEM-42** Konum ve fizik
@@ -344,7 +338,6 @@
 - [ ] **GOMME-24** Kart afişi: zemin satırı şart
 - [ ] **GOMME-25** Kart afişi: düzen
 - [ ] **GOMME-26** Kart afişi: referanslar (5)
-- [ ] **CODEX-4** Referans yalnız `referanslar/` ve `onayli/`'den
 - [ ] **CODEX-20** Komut `istemleri hazırla <N>`
 - [ ] **CODEX-21** Liste oyunla eşleşir (zorunlu)
 - [ ] **ARAYUZ-6** Yeni ekran / yeni arka plan uyarısı
@@ -369,7 +362,7 @@
 - [ ] **CODEX-24** Döngü çalışırken yerel Claude'un işi
 - [ ] **KOD-33** Ortağın bilgisayarı ve ilk kurulum
 
-## Adım 10 — Kontrol, kesim, yerleştirme (93)
+## Adım 10 — Kontrol, kesim, yerleştirme (91)
 
 - [ ] **KAR-6** Peri her zaman en gösterişli kadındır
 - [ ] **KAR-10** Kavuşmazlar; yakınlık eylemdedir
@@ -447,7 +440,6 @@
 - [ ] **GOMME-6** Paket aracı ve toplu işleme
 - [ ] **GOMME-7** Sahibine göndermeden önce teknik denetim
 - [ ] **GOMME-8** `göm` komutu
-- [ ] **GOMME-10** Biçim: WebP q80
 - [ ] **GOMME-12** Künye portresi
 - [ ] **GOMME-13** Boy — resim değil, tablo belirler
 - [ ] **GOMME-14** Uzanan kol, elde nesne
@@ -458,7 +450,6 @@
 - [ ] **GOMME-28** Masa kartı (Ajansın Masası, vaka seçme)
 - [ ] **GOMME-29** Görsel standardın amacı: oyunda yan yana
 - [ ] **CODEX-16** Resme yazı, filigran, imza yok
-- [ ] **CODEX-17** Resim dosyası PNG, onaylı resim silinmez
 - [ ] **CODEX-24** Döngü çalışırken yerel Claude'un işi
 - [ ] **CODEX-25** Yerel Claude resim üretmez, istem metnini değiştirmez
 - [ ] **KOD-79** Satır–görsel denetimleri
@@ -506,20 +497,20 @@
 
 ## Programın uyguladığı kurallar (bilgi; bunlar sahibine sorulmaz, program durdurur)
 
-- `.claude/kapi_hook.js`: SUREC-10, SATIR-11, SATIR-38, SATIR-40, SATIR-41, SATIR-42, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-38, DENETIM-53, GOMME-1, KOD-3, KOD-35
+- `.claude/kapi_hook.js`: SUREC-10, SATIR-11, SATIR-38, SATIR-40, SATIR-41, SATIR-42, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-38, DENETIM-53, GOMME-1, CODEX-17, CODEX-25, KOD-1, KOD-3, KOD-35
 - `.githooks/commit-msg`: KOD-3, KOD-35
 - `kaynak/`: KOD-3
 - `kaynak/arac_benzerlik.js`: SEZON-26, DENETIM-49
-- `kaynak/arac_diyalog.js`: BILGI-7, YAPI-25, KOD-76, RAF-65
+- `kaynak/arac_diyalog.js`: BILGI-7, YAPI-25, SATIR-36, KOD-76, RAF-65
 - `kaynak/arac_kapi.js`: SUREC-10, SUREC-12, SUREC-14, SUREC-19, SUREC-24, SATIR-1, SATIR-3, SATIR-4, SATIR-5, SATIR-9, SATIR-10, SATIR-11, SATIR-12, SATIR-13, SATIR-15, SATIR-16, SATIR-19, SATIR-20, SATIR-21, SATIR-28, SATIR-30, SATIR-31, SATIR-37, SATIR-38, SATIR-39, SATIR-40, SATIR-41, SATIR-42, DENETIM-13, DENETIM-22, DENETIM-28, DENETIM-30, GOMME-1, CODEX-24, KOD-1, KOD-3, KOD-27, KOD-28, KOD-35, KOD-36, KOD-39, KOD-75, KOD-79
-- `kaynak/arac_paket.js`: GOMME-1, GOMME-6
+- `kaynak/arac_paket.js`: DENETIM-47, GOMME-1, GOMME-6, GOMME-8
 - `kaynak/arac_shorts.js`: SHORTS-8, SHORTS-9, SHORTS-10, SHORTS-11, SHORTS-12, SHORTS-17, SHORTS-26
 - `kaynak/arac_sizinti_tur.js`: BILGI-1, BILGI-9, SUREC-26, SUREC-27, KOD-74, KOD-90
 - `kaynak/arac_soz_farki.js`: SATIR-11
 - `kaynak/arac_yeni_tur.js`: KOD-75
 - `kaynak/arac_zemin.py`: GOMME-16, GOMME-17
 - `kaynak/build_html.js`: GOMME-9, KOD-14, KOD-16
-- `kaynak/dogrulayici.js`: TON-10, KAR-16, BILGI-1, BILGI-3, BILGI-4, BILGI-5, BILGI-8, BILGI-12, YAPI-1, YAPI-4, YAPI-5, YAPI-6, YAPI-8, YAPI-13, YAPI-14, YAPI-16, YAPI-21, YAPI-22, YAPI-26, YAPI-32, YAPI-43, YAPI-44, SUREC-13, CODEX-21, KOD-4, KOD-5, KOD-37, KOD-40, KOD-41, KOD-42, KOD-43, KOD-45, KOD-46, KOD-49, KOD-54, KOD-55, KOD-56, KOD-57, KOD-59, KOD-62, KOD-63, KOD-64, KOD-65, KOD-66, KOD-67, KOD-68, KOD-69, KOD-70, KOD-73, KOD-77, KOD-89, ARAYUZ-10, RAF-46, RAF-52
+- `kaynak/dogrulayici.js`: TON-10, KAR-16, KAR-16, KAR-21, SINIR-13, BILGI-1, BILGI-3, BILGI-4, BILGI-5, BILGI-8, BILGI-12, YAPI-1, YAPI-4, YAPI-5, YAPI-6, YAPI-8, YAPI-13, YAPI-14, YAPI-16, YAPI-21, YAPI-22, YAPI-26, YAPI-32, YAPI-43, YAPI-44, SUREC-13, GOMME-10, CODEX-21, KOD-4, KOD-5, KOD-37, KOD-40, KOD-41, KOD-42, KOD-43, KOD-45, KOD-46, KOD-49, KOD-54, KOD-55, KOD-56, KOD-57, KOD-59, KOD-62, KOD-63, KOD-64, KOD-65, KOD-66, KOD-67, KOD-68, KOD-69, KOD-70, KOD-73, KOD-77, KOD-78, KOD-89, ARAYUZ-10, ARAYUZ-36, RAF-46, RAF-52
 - `kaynak/test_ses.js`: KOD-17, KOD-18
 - `kaynak/test_yeni_arayuz.js`: BILGI-7, GOMME-9, CODEX-21, KOD-16, KOD-39, KOD-48, KOD-49, KOD-76, ARAYUZ-32
 - `kaynak/test_yeni_kimyapti.js`: KAR-16, YAPI-25, YAPI-26, KOD-73, KOD-90
@@ -527,4 +518,4 @@
 - `kaynak/test_yeni_v2.js`: BILGI-12, YAPI-5, YAPI-8, YAPI-13, GOMME-12, KOD-80, KOD-91, ARAYUZ-31, ARAYUZ-36
 - `sablon/kurallar/arac_uygulayici.js`: SUREC-43
 - `uretim/dongu.sh`: ISTEM-52, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-53, CODEX-7
-- `uretim/istem_kontrol.sh`: SINIR-6, SINIR-13, SEZON-26, SUREC-19, SATIR-8, ISTEM-4, ISTEM-6, ISTEM-7, ISTEM-9, ISTEM-10, ISTEM-11, ISTEM-13, ISTEM-15, ISTEM-16, ISTEM-17, ISTEM-19, ISTEM-27, ISTEM-28, ISTEM-31, ISTEM-45, ISTEM-46, ISTEM-48, ISTEM-50, ISTEM-51, ISTEM-52, ISTEM-55, DENETIM-49, GOMME-16, GOMME-18, CODEX-16, KOD-78, RAF-35
+- `uretim/istem_kontrol.sh`: KAR-24, SINIR-6, SINIR-13, SEZON-26, SUREC-19, SATIR-8, ISTEM-3, ISTEM-4, ISTEM-6, ISTEM-7, ISTEM-9, ISTEM-10, ISTEM-11, ISTEM-13, ISTEM-15, ISTEM-16, ISTEM-17, ISTEM-19, ISTEM-22, ISTEM-27, ISTEM-28, ISTEM-31, ISTEM-39, ISTEM-45, ISTEM-46, ISTEM-48, ISTEM-50, ISTEM-51, ISTEM-52, ISTEM-55, DENETIM-49, GOMME-16, GOMME-18, CODEX-4, CODEX-16, KOD-78, RAF-35

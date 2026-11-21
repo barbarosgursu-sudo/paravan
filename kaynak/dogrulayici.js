@@ -1048,7 +1048,42 @@ function kural19_kimYapti(game, hatalar) {
   }
 }
 
-function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
+// K20 — yeni oyunun sabitleri (Adım 4 madde 3, 21 Kasım 2026; sahibi tek tek onayladı). Bütün vakalara aynı uygulanır.
+//   SINIR-13/KOD-78 sigara yok (metin, sahne notu, ifade adı) · KAR-21 karar bağı −2…+2 · ARAYUZ-36 araştırma hakkı 3 (Vaka 1: 4) ·
+//   KAR-16 kapanışta hem sıcak (bag: yuksek) hem soğuk (bag: dusuk) satır · GOMME-10 oyuna giren resim webp.
+const SIGARA = /(^|[^\p{L}])(sigara|izmarit|tütün|puro|pipo|nargile|kül ?tabla|çakma[kğ])/iu;
+function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
+  if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
+  const sigaraAra = (yer, deger) => {
+    const gez = (x, iz) => {
+      if (typeof x === "string") { const m = String(x).toLocaleLowerCase("tr").match(SIGARA); if (m) hatalar.push(`[K20] ${yer}${iz}: sigara sözü ("${m[2]}") — seride sigara yok (SINIR-13).`); }
+      else if (Array.isArray(x)) x.forEach((y, i) => gez(y, `${iz}[${i}]`));
+      else if (x && typeof x === "object") for (const [k, y] of Object.entries(x)) { gez(k, `${iz}.${k}(ad)`); gez(y, `${iz}.${k}`); }
+    };
+    gez(deger, "");
+  };
+  for (const vaka of game.vakalar) {
+    sigaraAra(vaka.id, vaka);
+    for (const d of (Array.isArray(vaka.decisions) ? vaka.decisions : Object.values(vaka.decisions || {}))) {
+      const b = d.cengoBag;
+      if (b !== undefined && !(Number.isInteger(b) && b >= -2 && b <= 2)) hatalar.push(`[K20] ${vaka.id}/${d.id}: cengoBag ${b} — bağ küçük adımlarla değişir, −2…+2 (KAR-21).`);
+    }
+    const hak = vaka.id === "V1" ? 4 : 3;
+    if (vaka.arastirma !== hak) hatalar.push(`[K20] ${vaka.id}: araştırma hakkı ${vaka.arastirma} — ${hak} olmalı (ARAYUZ-36).`);
+    const kap = (vaka.sahneler || {}).kapanis;
+    if (kap) {
+      const bag = new Set((Array.isArray(kap) ? kap : (kap.satirlar || [])).map(s => s && s.bag).filter(Boolean));
+      for (const h of ["yuksek", "dusuk"]) if (!bag.has(h)) hatalar.push(`[K20] ${vaka.id}: kapanışta 'bag: ${h}' satırı yok — Cengo iki hâlde de yazılır (KAR-16).`);
+    }
+  }
+  sigaraAra("kanon.sahne", game.kanon.sahne);
+  if (kisiler) sigaraAra("kisiler.json", kisiler);
+  if (acilis) sigaraAra("acilis.json", acilis);
+  if (gorseller) for (const [k, f] of Object.entries(gorseller.dosyalar || {}))
+    if (!/\.webp$/i.test(f)) hatalar.push(`[K20] gorseller.json → ${k}: '${f}' webp değil — oyuna webp girer (GOMME-10).`);
+}
+
+function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
   kural1b_kunye(game, hatalar, kisiler);
@@ -1070,6 +1105,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
   kural17_giris(game, hatalar, uyarilar);
   kural18_ipucuAdi(game, hatalar);
   kural19_kimYapti(game, hatalar);
+  kural20_sabitler(game, hatalar, kisiler, acilis, gorseller);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -1092,6 +1128,8 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis) {
     kural("Kural 18 (İpucu adı)     ", hatalar.some(h => h.startsWith("[K18]")));
     kural("Kural 19 (Kim yaptı?)    ", hatalar.some(h => h.startsWith("[K19]")));
   }
+  if (game.kanon && game.kanon.sahne)
+    kural("Kural 20 (Sabitler)      ", hatalar.some(h => h.startsWith("[K20]")));
 
   const uyariSay = ek => uyarilar.filter(u => u.startsWith(ek)).length;
   console.log(`Kural 5 (Belirsizlik)   : ${uyariSay("[K5]") ? uyariSay("[K5]") + " UYARI" : "PASS"}`);
@@ -1129,7 +1167,9 @@ if (require.main === module) {
     try { kisiler = JSON.parse(fs.readFileSync(yol("kisiler.json"), "utf-8")); } catch (e) {}
     let acilis = null;                       // K15 açılış sahnelerini de denetler
     try { acilis = JSON.parse(fs.readFileSync(yol("acilis.json"), "utf-8")); } catch (e) {}
-    const ok = dogrula(GAME, ekstra, kisiler, acilis);
+    let gorseller = null;                    // K20 webp
+    try { gorseller = JSON.parse(fs.readFileSync(yol("gorseller.json"), "utf-8")); } catch (e) {}
+    const ok = dogrula(GAME, ekstra, kisiler, acilis, gorseller);
     process.exit(ok ? 0 : 1);
   } catch (e) {
     console.log("game_data.js bulunamadı — test verisiyle çalıştırmak için test_dogrulayici.js kullanın.");

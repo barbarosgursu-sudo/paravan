@@ -27,6 +27,24 @@ for f in "$@"; do
   grep -qiE 'peri_beden|L1_peri|L14_|L9_|L19_|L25_|poz_peri_|peri_kirmizi' <<<"$refs" && eksik+=("dekolteli Peri referansı (BIRIKIM §4, §7)")
   # Sigara yok (16 Kasım 2026, kural 19a): istem sigarayı hiç anmaz — "sigara yok" demek bile üreticiye onu hatırlatır.
   grep -qiE 'sigara|izmarit|kül tablası|tütün|puro|pipo|nargile|çakmak|cigar|smoke|smoking' <<<"$istem" && eksik+=("istemde sigara/tütün sözü var (kural 19a)")
+  # --- Adım 4 madde 3 (21 Kasım 2026, sahibi tek tek onayladı) ---
+  # Referans yalnız referanslar/ ve onayli/'den: reddedilen ya da onaylanmamış resim hatasını yeni resme taşır — CODEX-4.
+  grep -qE '(^|[/`. ])(red|uretilen)/' <<<"$refs" && eksik+=("referansta red/ ya da uretilen/ yolu var — referans yalnız referanslar/ ve onayli/'den (CODEX-4)")
+  # "Yorgun göz" model yüze morluk çizdi — ISTEM-39.
+  grep -qiE 'yorgun göz|yorgun bakan göz' <<<"$istem" && eksik+=("'yorgun göz' yazılmış — model morluk çiziyor; 'iki gözün altında hafif koyu halka; morluk ya da yara yok' yaz (ISTEM-39)")
+  # Tarz örneği resmi referans listesinde EN SONDA; başta olursa model onu çizilecek kişi sanıyor — ISTEM-10.
+  if grep -q 'tarz_ornek_' <<<"$refs" && ! grep -q 'tarz_ornek_' <<<"$(tail -1 <<<"$refs")"; then
+    eksik+=("tarz örneği (tarz_ornek_*) referans listesinde son sırada değil (ISTEM-10)")
+  fi
+  # Oran resmin türüyle tutar: figür 4:5, arka plan/ara kare/detay 3:4, kıyafet kartı 2:3, kart afişi 9:16 — ISTEM-3.
+  case "$tur" in figür) oran=4:5 ;; "arka plan"|"ara kare"|detay) oran=3:4 ;; "kıyafet kartı") oran=2:3 ;; "kart afişi") oran=9:16 ;; *) oran= ;; esac
+  if [ -n "$oran" ] && has 'Görselin oranı TAM' && ! has "Görselin oranı TAM $oran"; then
+    eksik+=("oran türe uymuyor: $tur → TAM $oran olmalı, istemde '$(grep -o 'Görselin oranı TAM [0-9:]*' <<<"$istem" | head -1)' (ISTEM-3)")
+  fi
+  # Peri'ye "kumaş kalın ve mat" yazılmaz (dekolteyi bastırdı; yalnız Gizem'in tişörtü) — ISTEM-22.
+  if grep -qE '^# G[0-9a-z]+ — Peri' <<<"$baslik" && grep -qiE 'kalın ve mat|kalın, mat' <<<"$istem"; then
+    eksik+=("Peri isteminde 'kalın ve mat' kumaş satırı var — dekolteyi bastırır, yalnız Gizem'de (ISTEM-22)")
+  fi
 
   case "$tur" in
     figür)
@@ -71,6 +89,19 @@ for f in "$@"; do
       if grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then
         grep -qi 'kıyafet kartı' <<<"$refs" || eksik+=("Peri/Cengo figürü: kıyafet kartı referansı yok (SR-C)")
       fi
+      # Tarz paragrafı yalnız yeni karakter temelinde; Peri/Cengo temeli ve her ifade/varyant isteminde YOK (çizgi roman
+      # tarzına, kalın kontura kaydırdı — v3 ilk G1, G4) — ISTEM-9.
+      if has 'Yarı gerçekçi dijital' && ! { grep -q 'tarz_govde_' <<<"$refs" && ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; }; then
+        eksik+=("figür isteminde tarz paragrafı ('Yarı gerçekçi dijital') var — yalnız yeni karakter temelinde yazılır (ISTEM-9)")
+      fi
+      # Cengo'nun sabitleri: tel ve bileklik; bileklik SOL bilekte (kameraya bakınca kadrajın sağında kalan bilek) — KAR-24.
+      if grep -qE '^# G[0-9a-z]+ — Cengo' <<<"$baslik"; then
+        grep -qiE '(^|[^[:alpha:]çğıöşüÇĞİÖŞÜ])tel(i|in|ini|le)?([^[:alpha:]çğıöşüÇĞİÖŞÜ]|$)' <<<"$istem" || eksik+=("Cengo figürü: 'tel' sözü yok (göğüs cebinden telin ucu) (KAR-24)")
+        if ! has 'bileklik'; then eksik+=("Cengo figürü: 'bileklik' sözü yok (KAR-24)")
+        elif ! grep -qE 'sol bile|[Kk]adrajın (SAĞ|sağ)[^.]{0,40}bile' <<<"$istem"; then
+          eksik+=("Cengo figürü: bilekliğin kolu yazılmamış — 'sol bileğinde' ya da 'kadrajın SAĞ tarafında kalan bileğinde' (KAR-24)")
+        fi
+      fi
       ;;
     "ara kare"|detay)
       grep -q '^## Satırlar' "$f"      || eksik+=("## Satırlar bölümü yok (SR-D, SR-K)")
@@ -80,6 +111,7 @@ for f in "$@"; do
       has 'Yarı gerçekçi dijital'      || eksik+=("tarz paragrafı yok (§1)")
       has 'İnsan yok'                  || eksik+=("'İnsan yok' satırı yok (§7)")
       grep -q 'Kompozisyon:' "$f"      || eksik+=("'Kompozisyon:' satırı yok — eski mekân kalıbı tekrar eder (§7a)")
+      has 'KOMPOZİSYONUNU ALMA'        || eksik+=("'KOMPOZİSYONUNU ALMA' yok — referans resmin düzeni kopyalanır (ISTEM-46)")
       ;;
     "kıyafet kartı")
       has 'TAM BOY'                    || eksik+=("kart TAM BOY değil (I)")

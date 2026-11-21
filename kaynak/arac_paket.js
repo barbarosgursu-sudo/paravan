@@ -193,11 +193,19 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
     console.log('\nKAPI: ' + hatali.length + ' figür gömülemez — ' + hatali.map(k => 'G' + k.no).join(', ') + '. Gömülmez; temas sayfasına bak.');
     if (yaz) { console.log('DURDU: --yaz yapılmadı; proje dosyalarına dokunulmadı.'); process.exitCode = 1; return; }
   }
+  // Yarım set gömülmez — DENETIM-47, GOMME-8 (Adım 4 madde 3, 21 Kasım 2026). Tablodaki her resim ya bu klasörde ya da zaten
+  // oyunda (manifestoda, yer tutucu değil) olmalı; tek bir düzeltilmiş resmi yeniden gömmek bu yüzden serbest.
+  const gm = JSON.parse(fs.readFileSync(path.join(KOK, 'yeni', 'gorseller.json'), 'utf8'));
+  const yarim = gelmeyen.filter(no => !(tablo[no].anahtar in (gm.dosyalar || {})) || (gm.yer_tutucu || []).includes(tablo[no].anahtar));
+  const yarimNot = yarim.length ? 'YARIM SET: ' + yarim.length + ' resim ne bu klasörde ne oyunda — ' +
+    yarim.slice(0, 12).map(no => 'G' + no).join(', ') + (yarim.length > 12 ? ' …' : '') + ' (DENETIM-47, GOMME-8: önce hepsi onaylansın).' : '';
   if (!yaz) {
     console.log('ÖNİZLEME — proje dosyalarına dokunulmadı. Uygunsa aynı komutu --yaz ile çalıştır.');
     if (gelmeyen.length) console.log('Tabloda olup henüz gelmeyen: ' + gelmeyen.length + ' görsel.');
+    if (yarimNot) console.log(yarimNot + ' --yaz bu hâlde gömmez.');
     return;
   }
+  if (yarimNot) { console.log('DURDU: ' + yarimNot + ' Proje dosyalarına dokunulmadı.'); process.exitCode = 1; return; }
 
   // 4) Dosyalar ve manifesto
   for (const k of sonuc) { const h = path.join(KOK, 'yeni_gorsel', k.rel); fs.mkdirSync(path.dirname(h), { recursive: true }); fs.copyFileSync(k.cikti, h); }

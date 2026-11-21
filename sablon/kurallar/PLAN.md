@@ -4,6 +4,31 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
+> ## ✅ 16'SI YAZILDI, 2'Sİ SAHİBİNİN CEVABINI BEKLİYOR (21 Kasım 2026 gece)
+> Yazıldı ve bilerek hatayla sınandı: kapı (CODEX-17, CODEX-25, KOD-1), `istem_kontrol.sh` (CODEX-4, ISTEM-3/9/10/22/39/46, KAR-24 —
+> V7'nin 27 istemi yine geçiyor), `dogrulayici.js yeni` yeni **K20** (sigara, bağ ±2, araştırma hakkı, kapanış iki hâl, webp),
+> `arac_diyalog.js` (SATIR-36), `arac_paket.js --yaz` (yarım set). KAR-24'e "bileklik SOL bilekte" eklendi. Uygulayıcı satırları
+> güncellendi (program 158 → 178).
+> **Bekleyen (sahibine soruldu):** (1) GOMME-28 — V4 ve V5'te masa kartı YOK (ne dosya ne yer tutucu; seçme ekranında yanlış resim
+> çıkıyor olabilir — Vaka 3 hatasının aynısı). (2) SUREC-13 — 7 adlı kişinin künyesi yok: V5 Derya, Efe; V6 Tahsin Usta; V7 Necmi;
+> V8 Nihat, Pınar, Yusuf (adsızlar — Kapıcı, Kalfa, Görevli, Simitçi, Vale, Set asistanı — kural "adı olan herkes" diyor).
+> **Bulgu:** V3 ve V6 Cengo istemlerinin çoğunda "tel" yok (KAR-24 17 Kasım'da kondu); program yeni istemlerde arar.
+> **Sonra:** madde 3'ün kalan grupları (zor ama değerli ~35, yazmaya değmez ~36) — yine tek tek; ardından eski oyunun arşivi (ayrı iş).
+>
+> ## ▶️ MADDE 3 — "KOLAY VE FAYDALI" 20 ADAY SAHİBİYLE TEK TEK KONUŞULDU (21 Kasım 2026 gece)
+> **YAZILACAK (18):** CODEX-17 (onayli/ silme/png dışı → dur), KOD-1 (yalnız `yeni/index.html` derlemeyle aynı), CODEX-25 (`## İstem`
+> değişmez; sona `## Düzeltme`/`## ENGELLENDİ` serbest), CODEX-4 (referansta `red/`/`uretilen/` yok), ISTEM-3 (oran türle tutar),
+> ISTEM-9/22/39 (Peri-Cengo'da tarz paragrafı, Peri'de "kalın ve mat", her yerde "yorgun göz" yok), ISTEM-10 (tarz örneği en sonda),
+> ISTEM-46 ("KOMPOZİSYONUNU ALMA"), KAR-24 (Cengo: tel + bileklik + **yeni kural: bileklik SOL bilekte** — istemde "sol bilek" ya da
+> "kadrajın sağında kalan bilek"), SINIR-13/KOD-78 (metinde sigara), KAR-21 (bağ −2…+2), ARAYUZ-36 (araştırma 3, V1 4 — sahibi onayladı),
+> SATIR-36 (etiketsiz `**CENGO:**` yok; diyalog yazılırken), KAR-16 (kapanışta yüksek+düşük), SUREC-13/ARAYUZ-31 (her konuğa künye),
+> GOMME-10 (webp), GOMME-28 (MASA_V<N>), DENETIM-47/GOMME-8 (yarım set gömülmez).
+> **ÇIKTI:** KOD-36 ve KOD-15 → arşiv işine (eski motor korunmaz, 🛠 düğmesi sökülür). KOD-21 (alert) çelişki → madde 4. ISTEM-20/38,
+> KAR-23 (çorap) → gözden geçirme sayfası.
+> **SAHİBİNİN YENİ KARARLARI:** (1) Eski oyun prototipti → madde 3'ten hemen sonra AYRI İŞ olarak arşivlenir; ana adreste bir şey
+> çıkması gerekmez. (2) Denetimler vakadan bağımsız ("Vaka 7+" istisnası yok). Sıra: V7, V8 tamamlanır → V1–5 yeni kurallarla elden geçer.
+> (3) Sahibiyle aday konuşması TEK TEK, her madde çok kısa, örnekle.
+>
 > ## ▶️▶️▶️ YENİ PENCERE: ADIM 4 BURADAN SÜRER — MADDE 3 (21 Kasım 2026 akşam; sahibi: "Bunu yeni pencerede yapacağım")
 > **Durum:** "Sahibine sorulacak" listesinin (aşağıda, "(önceki durum notu)" kutusu) madde 2'si ve madde 1'i BİTTİ, `main`'de
 > (`d1ec1f6` beş bağlantı, `ee0a081` listelere Claude bakar). "ÖNCE KURALLAR, ÜRETİM YOK" sürüyor.

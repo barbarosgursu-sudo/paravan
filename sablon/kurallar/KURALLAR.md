@@ -297,7 +297,7 @@ Metin yazımında bağ yalnız iki hâlde yazılır (KAR-16); dört kademeye gö
 
 #### KAR-16 Bağ kapanışta iki hâlde görünür
 Her vakanın kapanış sahnesinde 2–3 replik bağa göre iki hâlde yazılır: düşükse soğuk, yüksekse sıcak. **Eşik:** bağ +1 ve üstü sıcak, 0 ve altı soğuk (kapanış anındaki bağ; kararın etkisi dahil). Motorda kapanış satırı `bag: yuksek|dusuk` ile işaretlenir (eşik +1). (Sahibinin kararı: kural kitabı soru 3, seçenek c.)
-*Uygulayıcı:* program `kaynak/dogrulayici.js` K15 ('bag' yalnız yuksek/dusuk) · program `kaynak/test_yeni_kimyapti.js` kapanış eşiği · hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K15 ('bag' yalnız yuksek/dusuk) · program `kaynak/dogrulayici.js` K20 kapanışta ikisi de var · program `kaynak/test_yeni_kimyapti.js` kapanış eşiği · hatırlat 3
 *Kaynak:* 187, 301
 
 #### KAR-17 Sıcaklık onay değildir
@@ -321,7 +321,7 @@ Eski oyunun karar sonrası Cengo satırı (`cengo_sonuc`), kararın SONRASINDAK�
 
 #### KAR-21 Bağ küçük adımlarla değişir ve kırılabilir
 Bağ küçük adımlarla (±1/±2) değişir — yavaş, inandırıcı birikim. Kırılabilir: negatife düşebilir; kirli kararlar uzaklaştırır.
-*Uygulayıcı:* hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K20 karar bağı −2…+2 · hatırlat 3
 *Kaynak:* 2204, 2205
 
 ### Görünüş (metin tarafı)
@@ -354,11 +354,12 @@ Sahibinin kararı, 5 Ekim 2026. Mavi Ay'daki David'in tarzının **ruhu** alın�
 - **Beyaz gömlek**, üst iki düğmesi açık, yakası yamuk
 - **Koyu kot** — takımın pantolonu değil; uyumsuzluk kasıtlı
 - **Kravatı takmıyor ama atmıyor:** koyu bordo, ucu ceketin cebinden sarkıyor ("Gerekirse takarım.")
+- **Bileklik Cengo'nun SOL bileğinde** (sahibinin kararı, 21 Kasım 2026; V3 ve V6'da hep öyleydi, V6'da öbür bilekte çıkan resim reddedildi). İstemde "sol bileğinde" ya da kameraya bakan pozda "kadrajın SAĞ tarafında kalan bileğinde" yazılır (sol/sağ ters anlaşılıyor — ISTEM-6).
 - **Tel:** göğüs cebinden telin ucu görünür (açılıştaki kilit; kapanışta teli Peri'ye verir, cebinde hep yenisi olur).
 - **Bileklik:** bileğinde renkli boncuklu, ucuz bir bileklik — kızının (Eylül yedi yaşındayken yaptı; Vaka 6, 12 Kasım 2026). Vaka 6'ya kadar kimse sormaz, açıklanmaz. Boncuklarda harf yok.
 - Siyah, dağınık, hafif kıvırcık saç; iki üç günlük sakal; kalın kaşlar, koyu kahve gözler; hınzır yarım gülümseme. Peri'den yarım baş uzun.
 - **İfadeler:** normal (hınzır), kaşı kalkık, gülen, **yumuşak** (ilk gülmediği, "elektrik" anları). Göz kırpan dördüncü duvar görseli Vaka 4'te.
-*Uygulayıcı:* hatırlat 8, 10
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` Cengo figürü: 'tel', 'bileklik', bilekliğin kolu (sol bilek) · hatırlat 10
 *Kaynak:* 1745, 1746, 1747, 1748, 1749, 1750, 1751, 1752, 1753, 259, 260
 
 #### KAR-25 Mekân sabiti: büro kapısı
@@ -564,7 +565,7 @@ Ortağın isteği, sahibinin (Barbaros) onayı, 16 Kasım 2026; bütün seri.
 - Resim denetiminde (5. parça E.13) yakın bakışla aranır. Form onaya gitmeden kontrol listesinde işaretlenir: "[ ] Sigara yok (kural 19a)".
 - Durum (16 Kasım 2026): Vaka 7'deki tek örnek (Nesrin ipucu, arka avlu) değiştirildi, `nesrin.sigara` ifadesi silindi; yeni oyunun verisinde
   (V1–V7) ve şablonlarda başka sigara geçmiyor. Doğrulayıcıda "sigara/tütün/izmarit" metin taraması henüz yok (kod adımında eklenebilir).
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` istemde sigara/tütün sözü · hatırlat 3, 10
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` istemde sigara/tütün sözü · program `kaynak/dogrulayici.js` K20 metinde, sahne notunda, ifade adında · hatırlat 10
 *Kaynak:* 198, 349, 668, 1054, 2774
 
 ## BILGI — Nurcan kuralı / sızıntı
@@ -1912,8 +1913,8 @@ Kıyafet başına sayı (sahibinin kararı, 8 Kasım 2026 — 8 Ekim kararının
 *Kaynak:* 371, 372, 373, 645, 370, 646, 1971, 3081
 
 #### SATIR-36 Cengo satırı etiketli replik olarak yazılır
-Diyalogda Cengo satırı **etiketli** yazılır: `**CENGO [ifade]:** metin {yuz: peri.x}` → büroda Cengo'nun repliği (16 Kasım 2026). Etiketsiz `**CENGO:**` eski düzendir (anlatı satırı; V1–V5 yeniden geçirilene dek).
-*Uygulayıcı:* hatırlat 3
+Diyalogda Cengo satırı **etiketli** yazılır: `**CENGO [ifade]:** metin {yuz: peri.x}` → büroda Cengo'nun repliği (16 Kasım 2026). Etiketsiz `**CENGO:**` (eski düzenin anlatı satırı) artık yazılmaz: `arac_diyalog.js` durdurur; eski vakalar elden geçerken etiketlenir (Adım 4, 21 Kasım 2026; denetim vakadan bağımsız).
+*Uygulayıcı:* program `kaynak/arac_diyalog.js` etiketsiz **CENGO:** satırında yazmaz
 *Kaynak:* 633
 
 #### SATIR-37 Kapı K1: ekran metinden gelir
@@ -1972,7 +1973,7 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 | Detay | yakın çekim nesne (kilit, pruva) | 900×1200 |
 | Figür | karakter, düz tek renk zemin (renk kıyafete göre programla seçilir: ISTEM-7; eski "bej" kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 16)), uyluk ortasından yukarı | herkes 1122×1402 (4:5; eski "konuk 1086×1448" kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 11)) |
 | Kart afişi | paylaşım kartı: vakanın kadrosu + mekânı, ipucusuz (bkz. 5_gorsel_sistemi G) | dikey 9:16 (ChatGPT ~941×1672) |
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` oran türle tutar (figür 4:5, arka plan/ara kare/detay 3:4, kart 2:3, afiş 9:16)
 *Kaynak:* 343, 344, 345, 346, 347
 
 #### ISTEM-4 Oran satırı her istemin sonunda
@@ -2037,7 +2038,7 @@ Tarz paragrafı her istemde DEĞİL (6 Kasım 2026 düzeltmesi; eski "her istemi
 | Arka plan, detay, ara kare, kart afişi | VAR |
 `istem_kontrol.sh` arka plan, ara kare ve detayda "Yarı gerçekçi dijital" yoksa geçirmez.
 - *Ders:* [ISTEM_KALIPLARI › Neden (Vaka 3, 6 Kasım 2026)] 2. "Yağlıboya" gibi bir tarz sözü eklemek zemine tuval dokusu getirdi. Tarzı kelimeyle değil referansla taşı. (k:4a456fe837)
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` tarz paragrafı (arka plan, ara kare, detay) · hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` tarz paragrafı (arka plan, ara kare, detay: var; figürde yalnız yeni karakter temelinde) · hatırlat 8
 *Kaynak:* 1178, 1179, 1181, 1182, 1183, 1184, 551, 1170, 2967, 3579, 3580
 
 #### ISTEM-10 Tarz örneği cümlesi (§3)
@@ -2045,7 +2046,7 @@ Temel ve yeni karakter isteminde, en sonda, yazı yasağından önce:
 > Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur, yumuşak gölgeler, yüz çiziminin gerçekçiliği, renkler ve ölçek onun gibi olsun. Oradaki kişinin yüzünü, saçını, kıyafetini ve pozunu ALMA. Karikatür değil: doğal yüz oranları, abartısız ifade.
 
 Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (eski Nadide) ya da `tarz_ornek_erkek.jpg` (eski Kenan); ikisi de dekoltesiz, boyalı. Yeni karakterin kendi temeli onaylanınca o karakterin varyantlarında gerekmez. (Vaka 3'te tarz yamasından sonra onaylı bir temel bu rolde, "YALNIZ bitmiş çizim tarzı örneği (kişi, kıyafet, poz alınmaz)" diye eklenince yeni karakterler serinin tarzına oturdu.) `istem_kontrol.sh` yeni karakter temelinde "Son referans YALNIZ" yoksa geçirmez.
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'Son referans YALNIZ' (yeni karakter temeli) · hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'Son referans YALNIZ' (yeni karakter temeli) ve tarz örneği referans listesinde en sonda · hatırlat 8
 *Kaynak:* 1194, 1195, 1418, 3576, 1170
 
 #### ISTEM-11 Peri / Cengo temeli (yeni kıyafet)
@@ -2161,7 +2162,7 @@ Vaka 6'da (Parti 2'den önce sorulan soru; 13 Kasım 2026, sahibinin cevabı) ko
 - "Kumaş kalın ve mat, altından vücut ayrıntısı belirmiyor" satırı Peri'ye YAZILMAZ (dekolteyi ve seksiliği bastırdı). Yalnız Gizem'in dar beyaz tişörtünde kalır; Gizem'de ayrıca kollar göğsü örter.
 - Ders: dar beyaz tişörtün altından meme ucu izi çıktı. "Vücudu saran, derin yuvarlak yakalı beyaz tişört" (G9) filtreden geçti ama sorun oradan doğdu: beyaz, dar ve ince tarif meme ucu izini çağırıyor. Yalnız "kalın kumaş" / "tişört kalın kumaş; meme ucu belirmiyor" yetmedi (G56'da 2, G67'de 3 üretimde tutmadı; poz değişmeden düzelmedi). Çözüm: göğsü örten poz (kollar kavuşuk) + "kalın, mat, düz renk kumaş"; kollar göğsü örtünce sorun bitti.
 - *Ders:* [BIRIKIM › 2.3 Karar kuralları ve sebepleri] Sahibi 3. düzeltmeyi kendisi verdi: "Gizem kolları kavuşuk". (k:0c49770c95)
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` Peri isteminde 'kalın ve mat' · hatırlat 8
 *Kaynak:* 1212, 1154, 1434, 1439, 1444, 1490
 
 #### ISTEM-23 Islaklık yalnız üst giyside
@@ -2259,7 +2260,7 @@ Bacak görünen her kadın görselinde (**Peri hariç** — Peri'de çorap yok, 
 
 #### ISTEM-39 Yorgun göz
 "Yorgun gözler" yazılmaz (model morluk çizdi); yerine: "iki gözün altında hafif koyu halka; morluk ya da yara yok".
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'yorgun göz'
 *Kaynak:* 1160, 1442
 
 #### ISTEM-40 Unlu ya da kirli karakter
@@ -2301,7 +2302,7 @@ Yüzde tutmuyor ("alt %20 boş" tekrar edildi, 3 üretimde ayaklar yine taştı)
 - `Kompozisyon:` satırı — kamera nerede durur, nereye bakar; ön, orta, arka planda ne var. Metnin istediği an (ör. "bankta oturup kapıya bakar") kompozisyonu belirler.
 - Referans satırı: "yalnız boya dokusu ve sıcak renk; KOMPOZİSYONUNU ALMA".
 - `istem_kontrol.sh` arka plan isteminde `Kompozisyon:` arar; yoksa geçirmez (eski mekân kalıbı tekrar eder).
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'Kompozisyon:' · hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'Kompozisyon:' ve 'KOMPOZİSYONUNU ALMA' · hatırlat 8
 *Kaynak:* 1201, 1202, 1203, 1207, 3582
 
 #### ISTEM-47 Duvardaki portre/afiş
@@ -2654,7 +2655,7 @@ Sonda sahibine kısa tablo: onaylanan / reddedilen (nedeni) / Codex'te ENGELLEND
 
 #### DENETIM-47 Vaka sonunda sayım
 Vaka sonunda `prompts/LISTE.md`'deki her G'nin `onayli/`'de olduğu sayılır ve doğrulanır. Sonra sahibine "onayli/ klasörünü Claude penceresine gönder" denir.
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_paket.js` --yaz yarım seti gömmez (tablodaki her resim klasörde ya da oyunda) · hatırlat 10
 *Kaynak:* 1504
 
 ### Kıyafet kartı onayı
@@ -2785,7 +2786,7 @@ Yalnız LISTE'deki her resim `onayli/`'deyken gömülür (yarım set gömülmez;
 2. Aynı komut `--yaz` ile (doğrulayıcı ve derlemeleri kendisi çalıştırır).
 3. Not edilen boy ölçekleri `kaynak/yeni/gorseller.json → boy`'a yazılır (`arac_json_yaz.js` ile).
 4. Masa kartı (GOMME-28), kart afişi elle (GOMME-21, GOMME-27) ve yeni karakterin künye portresi (GOMME-12).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_paket.js` --yaz yarım seti gömmez · hatırlat 10
 *Kaynak:* 1140, 1141, 1142, 1143, 1146
 
 #### GOMME-9 Derleme "her görsel gömülü" demeli
@@ -2795,7 +2796,7 @@ Gömüldükten sonra derleme "her görsel gömülü" demelidir.
 
 #### GOMME-10 Biçim: WebP q80
 Bütün görseller WebP, kalite 80.
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K20 gorseller.json'daki her dosya webp
 *Kaynak:* 348
 
 #### GOMME-11 Eski oyunun görsel boru hattı
@@ -2945,7 +2946,7 @@ Eski Vaka 3 düzeninde özet liste `prompts/LISTE.md`'deydi; yeni düzende liste
 #### CODEX-4 Referans yalnız `referanslar/` ve `onayli/`'den
 Referans = istemin "Referanslar" listesindeki dosyalar; `referanslar/` (ve `../referanslar/`) ile `onayli/` ikisi de geçerli. Önceki G resimlerinden
 referans YALNIZ `onayli/`'den olur. `uretilen/` ve `red/` asla referans olmaz.
-*Uygulayıcı:* talimat `uretim/AGENTS.md` · hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` referansta red/ ya da uretilen/ · talimat `uretim/AGENTS.md`
 *Kaynak:* 1250, 1357, 1527, 1528, 1246, 1247
 
 #### CODEX-5 Codex'in yazma sınırları
@@ -3040,7 +3041,7 @@ Codex resme yazı, filigran, imza eklemez.
 Resim dosyası PNG'dir, adı `G<n>.png` (görsel standart H7). Onaylı resim silinmez. (Vaka 3'te web'den gelenler `.webp`/`.jpg`, Codex'inkiler `.png` idi; ders:
 mümkünse hepsi `.png` tutulur, araç uyumu kolaylaşır.)
 - *Ders:* [BIRIKIM › 1. Sayılarla Vaka 3] `red/` dosyası · 26. G8_red1 ile G14_red1'in yama öncesi halleri üzerine yazıldı, kayıp. (k:ab1c30512a)
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `.claude/kapi_hook.js` onaylı resim silinirse ya da onayli/'e G<n>.png dışında dosya girerse durur ([onaylı sil] ile bilerek silinir)
 *Kaynak:* 552, 1487, 1527
 
 #### CODEX-18 Codex talimatında kapsam açık yazılır
@@ -3111,7 +3112,7 @@ Deneme kopyası klasörü (`v99`) komut sonunda `rm -rf` ile silinmez: içinde g
 Yerel Claude resim üretmez (Codex üretir). `prompts/`'taki istem metnini değiştirmez; istem dosyasına yalnız sonuna `## Düzeltme` eklenir.
 `referanslar/`'taki var olan dosyayı değiştirmez; oraya yalnız baş kırpığı/şerit gibi yeni dosya koyar (CODEX-24 madde 2). Eski Vaka 3
 talimatının "`referanslar/`'a dokunma" yasağı bu kadarıyla kalır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 2).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `.claude/kapi_hook.js` üretilmiş resmin isteminde '## İstem' bölümü değişirse durur ([istem onaylı]) · hatırlat 10
 *Kaynak:* 1150, 1506
 
 ## KOD — kod, veri ve araçlar (birleştirilmiş kurallar)
@@ -3121,7 +3122,7 @@ talimatının "`referanslar/`'a dokunma" yasağı bu kadarıyla kalır (sahibini
 #### KOD-1 index.html derleme çıktısıdır
 Depo kökündeki `index.html` derleme çıktısıdır, elle düzenlenmez; `kaynak/` klasöründen üretilir. Ayrıntılı belge `kaynak/OKUBENI.md`.
 Yayındaki oyun: https://barbarosgursu-sudo.github.io/paravan/
-*Uygulayıcı:* program `kaynak/arac_kapi.js` 'derleme' (yeni/index.html derlemeden farklıysa durur)
+*Uygulayıcı:* program `kaynak/arac_kapi.js` 'derleme' (yeni/index.html derlemeden farklıysa durur) · program `.claude/kapi_hook.js` kaynak/ ya da yeni/index.html kaydedilirken sayfayı derleyip karşılaştırır
 *Kaynak:* 2, 2325
 
 #### KOD-2 Ara dosyalar depoya girmez
@@ -3615,8 +3616,8 @@ Kasa yok; para yalnız hikâyede, her kararın parası kendi sahnesinde biter (k
 *Kaynak:* 754, 756
 
 #### KOD-78 Sigara yok
-Metinde, sahne notunda, ifade adında, istemde sigara yok (kural 19a). Şimdilik yalnız istemde programla aranır (`istem_kontrol.sh`); metin, sahne notu ve ifade adı taraması Adım 4'te eklenecek.
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` (istemde sigara) · hatırlat 3
+Metinde, sahne notunda, ifade adında, istemde sigara yok (kural 19a). İstemde `istem_kontrol.sh`, metin/sahne notu/ifade adında `dogrulayici.js yeni` K20 arar (Adım 4, 21 Kasım 2026).
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` (istemde sigara) · program `kaynak/dogrulayici.js` K20 (metin, sahne notu, ifade adı)
 *Kaynak:* 755
 
 #### KOD-79 Satır–görsel denetimleri
@@ -3912,7 +3913,7 @@ Web sayfasında gerçek reklam yok; `yeni_arayuz.js → reklamGoster` 5 saniyeli
 - Kapanıştan sonra "Kaçırdığın ipuçları" ekranı (`kacanEkrani`, liste `…_kacan` anahtarında); her biri reklamla açılır, olgu vermez.
 - Kural: her vaka reklamsız 3 hakla `doğru` çözülür (`test_yeni_v2.js`). Vaka 2'den itibaren 3 hak (Vaka 1: 4).
 - Android'de yalnız `reklamGoster`'ın içi gerçek ödüllü reklamla değişir. Android'de de ilk iki vaka reklamsız (RAF-48). Steam sürümü için düğmeler kapatılacak.
-*Uygulayıcı:* program `kaynak/test_yeni_v2.js` (hak içinde doğru çiftler, ≥ 2 yol) · hatırlat 1
+*Uygulayıcı:* program `kaynak/test_yeni_v2.js` (hak içinde doğru çiftler, ≥ 2 yol) · program `kaynak/dogrulayici.js` K20 araştırma hakkı 3 (Vaka 1: 4) · hatırlat 1
 *Kaynak:* 2004, 3018
 
 #### ARAYUZ-37 "Vaka N'den başla" test düğmeleri (GEÇİCİ)
