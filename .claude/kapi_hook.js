@@ -217,6 +217,36 @@ if (dosyalar.includes('yeni/index.html') || testGerek) {
     'Çözüm: cd kaynak && node build_html.js yeni && node build_html.js, sonra git add yeni/index.html.');
 }
 
+// KOD-38: oyun verisi elle yazılmaz; diyalogdan `arac_diyalog.js` yazar. Veri ya da bir diyalog kaydediliyorsa kaydedilecek veri
+// geçici klasöre kopyalanır, her vakanın kaydedilecek diyaloğu üstüne yeniden yazılır; sonuç kaydedilecek veriden farklıysa elle
+// düzenleme var (bir sonraki yazımda kaybolur). Araçla yazılamayan diyalog (eski biçim, ör. etiketsiz **CENGO:**) atlanır ve
+// bildirilir — vaka no ile değil, dosyanın biçimiyle (sahibinin kararı: denetim vakadan bağımsız).
+{
+  const VERI = ['kaynak/yeni/game_data.json', 'kaynak/yeni/kisiler.json'];
+  if (dosyalar.some(f => VERI.includes(f) || /^sablon\/vakalar\/vaka\d+_diyalog\.md$/.test(f))) {
+    const gec = fs.mkdtempSync(path.join(require('os').tmpdir(), 'kod38-'));
+    for (const f of VERI) fs.writeFileSync(path.join(gec, path.basename(f)), yeniHal(f));
+    const once = VERI.map(f => fs.readFileSync(path.join(gec, path.basename(f)), 'utf8'));
+    const vdir = path.join(kok, 'sablon', 'vakalar'), atlanan = [];
+    const diyaloglar = fs.readdirSync(vdir).map(x => x.match(/^vaka(\d+)_diyalog\.md$/)).filter(Boolean).sort((a, b) => a[1] - b[1]);
+    for (const m of diyaloglar) {
+      const md = path.join(gec, m[0]);
+      fs.writeFileSync(md, yeniHal('sablon/vakalar/' + m[0]));
+      const r = spawnSync('node', ['arac_diyalog.js', md, 'V' + m[1]], { cwd: KAYNAK, encoding: 'utf8', env: { ...process.env, VERI_DIZIN: gec } });
+      if (r.status !== 0) atlanan.push('V' + m[1]);
+    }
+    const lf = s => String(s).replace(/\r\n/g, '\n');
+    VERI.forEach((f, i) => {
+      if (lf(fs.readFileSync(path.join(gec, path.basename(f)), 'utf8')) !== lf(once[i]))
+        dur.push(`${f} diyalogdan yazılanla aynı değil — veri elle düzenlenmiş; bir sonraki yazımda kaybolur (KOD-38). ` +
+          'Çözüm: değişikliği sablon/vakalar/vakaN_diyalog.md\'ye yaz, cd kaynak && node arac_diyalog.js ../sablon/vakalar/vakaN_diyalog.md VN. ' +
+          '(Yapı alanları — ipucu koşulu, olgu, Kim yaptı? — veride elle değil arac_json_yaz.js ile yazılır; onlara bu denetim bakmaz.)');
+    });
+    if (atlanan.length) process.stderr.write(`KAPI (bilgi): KOD-38 — araçla yazılamayan (eski biçim) diyaloglar atlandı: ${atlanan.join(', ')}\n`);
+    fs.rmSync(gec, { recursive: true, force: true });
+  }
+}
+
 const ARAC = { tarz: 'arac_tarz.py', 'yüz': 'arac_yuz.py', benzerlik: 'arac_benzerlik_resim.py' };
 for (const [v, gler] of Object.entries(onay)) {
   const n = v.slice(1);

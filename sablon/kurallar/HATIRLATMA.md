@@ -497,7 +497,7 @@
 
 ## Programın uyguladığı kurallar (bilgi; bunlar sahibine sorulmaz, program durdurur)
 
-- `.claude/kapi_hook.js`: SUREC-10, SATIR-11, SATIR-38, SATIR-40, SATIR-41, SATIR-42, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-38, DENETIM-53, GOMME-1, CODEX-17, CODEX-25, KOD-1, KOD-3, KOD-35
+- `.claude/kapi_hook.js`: SUREC-10, SATIR-11, SATIR-38, SATIR-40, SATIR-41, SATIR-42, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-38, DENETIM-53, GOMME-1, CODEX-17, CODEX-25, KOD-1, KOD-3, KOD-35, KOD-38
 - `.githooks/commit-msg`: KOD-3, KOD-35
 - `kaynak/`: KOD-3
 - `kaynak/arac_benzerlik.js`: SEZON-26, DENETIM-49

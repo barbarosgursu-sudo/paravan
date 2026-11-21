@@ -3354,7 +3354,7 @@ Yeni vakada kapının kurulumu (YOLLAR tablosu + `vakaN_kapi.md`, adım 5): bkz.
 - Veri JSON'unu elle değil `arac_json_yaz.js` ile yaz (kısa, okunur biçim); kanon listesine ekleme de bununla.
 - Vaka metni `sablon/vakalar/vakaN_diyalog.md`'de değişir (sahneler, karar metinleri, anı defteri, anı özeti); veriye `cd kaynak && node arac_diyalog.js <dosya> <vaka>` yazar (ör. `node arac_diyalog.js ../sablon/vakalar/vaka1_diyalog.md V1`); veri elle düzenlenmez. Açılış metni hâlâ `YENI_VAKA_1.md` → `yeni/acilis.json`.
 - `arac_diyalog.js` konuşan adındaki â/î/û'yu düzler ("LÂL" → `lal`).
-*Uygulayıcı:* hatırlat 4
+*Uygulayıcı:* program `.claude/kapi_hook.js` veri ya da diyalog kaydedilirken veriyi diyaloglardan geçici kopyaya yeniden yazar, fark varsa durur (araçla yazılamayan eski biçimli diyalog atlanır ve bildirilir) · hatırlat 4
 *Kaynak:* 14, 303, 2404, 2452, 2453
 
 #### KOD-39 Yeni oyunun sayfası

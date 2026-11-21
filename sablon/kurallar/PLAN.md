@@ -15,7 +15,8 @@
 > biliyor, sonra çözelim", 21 Kasım 2026):** V8 diyalog satır 85 "Tarkan Bey … Nihat Kora. Adını değiştirmiş" (aynı kişi) ↔ satır 344
 > "Nihat ile Tarkan tekneye koşuyor… ikisi de ağa düşüyor" (iki kişi). Cevaba göre Nihat ya künyeye girer ya `kunyesiz`'de kalır (şimdilik orada).
 > **ZOR AMA DEĞERLİ — tek tek (21 Kasım gece):** (1) YAPI-25/KOD-75 YAZILDI: K19 doğru çiftteki her kanıtın Cengo satırı + ifadesi;
-> şimdilik UYARI (V1–V5'te satır yok, eski düzen; elden geçince hataya çevrilir). Kalan adaylar: `awk` komutu aşağıda, yazılanları çıkar.
+> şimdilik UYARI (V1–V5'te satır yok, eski düzen; elden geçince hataya çevrilir). (2) KOD-38 YAZILDI: kapı veriyi
+> diyaloglardan geçici kopyaya yeniden yazar, fark = elle düzenleme → durur (eski biçimli diyalog atlanır, bildirilir; Codex veriye dokunmuyor). Kalan adaylar: `awk` komutu aşağıda, yazılanları çıkar.
 > **Bulgu:** V3 ve V6 Cengo istemlerinin çoğunda "tel" yok (KAR-24 17 Kasım'da kondu); program yeni istemlerde arar.
 > **Sonra:** madde 3'ün kalan grupları (zor ama değerli ~35, yazmaya değmez ~36) — yine tek tek; ardından eski oyunun arşivi (ayrı iş).
 >

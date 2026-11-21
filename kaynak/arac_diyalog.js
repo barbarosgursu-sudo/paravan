@@ -127,7 +127,9 @@ const sahneYap = h => ({ ...(h.ayar.arka ? { arka: h.ayar.arka } : {}),
   ...(h.ayar.secim_kare ? { secim_kare: h.ayar.secim_kare } : {}),
   figurler: h.ayar.figurler || ["peri", "cengo"], satirlar: h.satirlar });
 
-const vYol = path.join(__dirname, "yeni", "game_data.json"), kYol = path.join(__dirname, "yeni", "kisiler.json");
+// VERI_DIZIN: başka klasördeki kopyaya yazar (kapı KOD-38 denetimi: veri diyalogdan yeniden yazılınca aynı mı).
+const vDizin = process.env.VERI_DIZIN || path.join(__dirname, "yeni");
+const vYol = path.join(vDizin, "game_data.json"), kYol = path.join(vDizin, "kisiler.json");
 const G = JSON.parse(fs.readFileSync(vYol, "utf-8")), K = JSON.parse(fs.readFileSync(kYol, "utf-8"));
 const v = G.vakalar.find(x => x.id === vakaId);
 if (!v) { console.error("vaka yok: " + vakaId); process.exit(1); }
