@@ -1,8 +1,9 @@
 # HATIRLATMA LİSTESİ — üretim adımı başına
 
 > **Elle yazılmaz.** `node sablon/kurallar/arac_uygulayici.js yaz` KURALLAR.md'deki `*Uygulayıcı:*` satırlarından üretir;
-> `say` bu dosya eskiyse hata verir. Adım numaraları `sablon/7_uretim_sureci.md` tablosudur. Her adımın sonunda bu liste
-> sahibine gösterilir; sahibi "baktım" demeden adım geçmez. Kuralın metni KURALLAR.md'de.
+> `say` bu dosya eskiyse hata verir. Adım numaraları `sablon/7_uretim_sureci.md` tablosudur. Claude'un adımlarında listeye
+> Claude bakar ve vaka kaydına işaretler (`kayit` / `bitti`); sahibine yalnız UYMUYOR ve EMİN DEĞİLİM gider, onay anında.
+> Sahibinin adımları (2, 6, 12) olduğu gibi gösterilir — SUREC-43. Kuralın metni KURALLAR.md'de.
 
 ## Adım 1 — Form doldurulur (67)
 

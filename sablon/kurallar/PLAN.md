@@ -4,6 +4,13 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
+> ## ✅ MADDE 1 BİTTİ — LİSTELERE CLAUDE BAKAR (21 Kasım 2026, sahibi: "Evet")
+> Claude'un adımlarında listeye Claude bakar, `sablon/vakalar/vaka<N>_hatirlatma.md`'de işaretler (`arac_uygulayici.js kayit <vaka> <adım>`);
+> sahibine yalnız UYMUYOR / EMİN DEĞİLİM gider, onay anında (`… bitti <vaka> onay1|onay2|don|resim|onay3|son`; işaretsiz madde → çıkış 1).
+> SUREC-43 ve `7_uretim_sureci.md` buna göre yazıldı. **Sırada:** madde 3 (103 aday), 4 (çelişkiler), 5 (eski açıklar), sonra sahibiyle
+> kuralları gözden geçirme sayfası (sahibi: bazı kurallar yalnız bir vakaya söylenmişken genel yazılmış olabilir — örnek ISTEM-20/38
+> "Peri'de çorap yok"; üretime dönmeden önce), Oğuz Bey'in bilgisayarında `git config core.hooksPath .githooks`.
+>
 > ## ✅ BEŞ BAĞLANTI YAPILDI (21 Kasım 2026, sahibi: "programları bağlayalım") — aşağıdaki "Sahibine sorulacak" madde 2 BİTTİ
 > (a) kapı `kaynak/` değişen her commit'te iki doğrulayıcı + `test_*.js`'i koşar; (b) `uretim/dongu.sh` üç aracın çıkış koduna bakar
 > (KALDI/ŞÜPHELİ → `v<N>/kayit/denetim.tsv` ONAYLANAMAZ; benzerlik DUR → döngü durur) ve kapı `onayli/`'e giren resimde araçları yeniden

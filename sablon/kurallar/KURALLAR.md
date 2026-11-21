@@ -1682,9 +1682,15 @@ referans). Peri'nin öbür V7 kıyafetleri (`gala` balo elbisesi, `altin`, `alti
 #### SUREC-43 Her adım hatırlatma listesiyle kapanır
 Sahibinin kararı (20 Kasım 2026, Adım 4): "Bir vakayı üretirken daha önce hallettiğimiz bir sorunla tekrar tekrar uğraşmak istemiyorum."
 Her kuralın bir uygulayıcısı vardır (`*Uygulayıcı:*` satırı): **program** (ölçer, iş durur), **hatırlat <adım>** (program ölçemez) ya da
-**yok** (üretimle ilgisiz karar/bilgi). Üretim sürecinin (`sablon/7_uretim_sureci.md`) her adımının sonunda o adımın listesi
-(`node sablon/kurallar/arac_uygulayici.js adim <n>`; hepsi `sablon/kurallar/HATIRLATMA.md`) sahibine kısa liste olarak gösterilir;
-sahibi "baktım" demeden adım geçmez. Liste elle yazılmaz; `arac_uygulayici.js say` eskiyse hata verir.
+**yok** (üretimle ilgisiz karar/bilgi). Üretim sürecinin (`sablon/7_uretim_sureci.md`) her adımının bir listesi var
+(`node sablon/kurallar/arac_uygulayici.js adim <n>`; hepsi `sablon/kurallar/HATIRLATMA.md`). Liste elle yazılmaz; `arac_uygulayici.js say` eskiyse hata verir.
+- **Claude'un adımlarında listeye Claude bakar** (sahibinin kararı, 21 Kasım 2026: 100 maddelik liste sahibine okunmaz). Adım
+  başlarken `arac_uygulayici.js kayit <vaka> <adım>` maddeleri `sablon/vakalar/vaka<N>_hatirlatma.md`'ye yazar; Claude her maddeyi
+  işaretler: `[u]` uyuyor · `[X]` UYMUYOR · `[?]` EMİN DEĞİLİM · `[-]` bu vakayla ilgisi yok (`[X]`/`[?]` satır sonunda `· NOT: …`).
+- **Sahibine yalnız UYMUYOR ve EMİN DEĞİLİM gider, onun zaten onay verdiği anda:** `arac_uygulayici.js bitti <vaka> <an>` —
+  `onay1` (adım 1), `onay2` (3–5, metin donmadan önce), `don` (7), `resim` (8, üretimden önce), `onay3` (9–11), `son` (13–14).
+  İşaretsiz ya da notsuz madde varsa çıkış 1 = adım BİTMEDİ, onay istenmez. Sorunsuzsa sahibine tek satır gider ("93 maddeye bakıldı, sorun yok").
+- Sahibinin kendi adımlarının listesi (2, 6, 12) aynı notun altında olduğu gibi gösterilir.
 Yeni kural eklenirken uygulayıcısı da yazılır; "hatırlat" yerine program yazılabiliyorsa program tercih edilir.
 *Uygulayıcı:* program `sablon/kurallar/arac_uygulayici.js`
 *Kaynak:* yeni karar (Adım 4, sablon/kurallar/PLAN.md)
