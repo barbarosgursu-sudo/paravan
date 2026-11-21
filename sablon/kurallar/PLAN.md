@@ -36,7 +36,13 @@
 > (vakalar, açılış, künye). Bugün 0 (tek "kala" V2 "düğüne üç gün kala", doğru). Bilerek V8'e üç saat + bir süre cümlesi → üçü uyarıldı,
 > süre ve "çeyrek geçe" uyarılmadı.
 > **(11) RAF-65 YAZILDI (sahibi: "Yaz"):** K19 "Dosyanın tamamı" (`kim_yapti.hikaye`) yoksa ya da 5–7 paragraf değilse UYARI. Bugün 0
-> (V1–V3 6, V4–V8 5). Bilerek V7 2 paragrafa indirildi, V8'de silindi → ikisi uyarıldı. **SIRADAKİ:** BILGI-17 (ipucu görseline `gosterir`).
+> (V1–V3 6, V4–V8 5). Bilerek V7 2 paragrafa indirildi, V8'de silindi → ikisi uyarıldı.
+> **(12) BILGI-17 YAZILMADI (sahibi: "Yazma"):** yeni oyunda ipucunda `gorsel`/`gosterir` alanı yok (resim sahne karesi; ne gösterdiği veride
+> yazılı değil) — program karşılaştıramaz; görsel denetiminde göz sorar (hatırlat 8, 10 kalır).
+> **(13) YAPI-14 YAZILDI, YAPI-29/37 YAZILMADI (sahibi: "Önerilerini uygula"):** `test_yeni_kimyapti.js` yeni blok — her vakada (öncekiler
+> oynanmış) doğru/zayıf/yanlış sonucu, ücret sırası, suçlamadan sonra kararların hepsi açık; 8/8 geçer; bozuk kopyada V7 ücret sırası →
+> yakalandı. YAPI-29/37: yeni oyunda kasa yok, karar kapısı yok (K19 `gate: "yok"`) → dört karar hep açık, zorlanma olmaz; "dürüst" mü
+> yargısı insanın (hatırlat 1 kalır). **SIRADAKİ:** KAR-19 (suçlama cengoBag'i değiştirmez, test).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

@@ -70,6 +70,31 @@ console.log("\n=== Üç sonuç ===");
     KY.ucret.dogru >= KY.ucret.zayif && KY.ucret.zayif >= KY.ucret.yanlis && KY.ucret.yanlis >= 0);
 }
 
+console.log("\n=== Üç sonuç: bütün vakalar (YAPI-14) ===");
+// Yukarıdaki blok yalnız ilk vakayı sınar; burada her vaka, önceki vakalar oynanmış hâlde (Adım 4, 22 Kasım 2026).
+for (const VK of G.vakalar.filter(v => v.kim_yapti)) {
+  const ky = VK.kim_yapti, o = new OyunYeni(G);
+  for (const v of G.vakalar.filter(x => x.kim_yapti && x.sira < VK.sira).sort((x, y) => x.sira - y.sira)) {
+    o.vakaBaslat(v.id); o.durum.aktif.arastirmaKalan = 99;
+    let ac; while ((ac = o.acikKaynaklar()).length) o.kaynakAc(ac[0].id);
+    const kn = o.kanitlar().map(x => x.id); o.suclama(v.kim_yapti.suclu, kn.slice(0, 2)); o.kararVer(v.decisions[0].id);
+  }
+  o.vakaBaslat(VK.id); o.durum.aktif.arastirmaKalan = 99;
+  let ac; while ((ac = o.acikKaynaklar()).length) o.kaynakAc(ac[0].id);
+  const cift = ky.dogru_ciftler[0].map(somut), ol = o.kanitlar().map(x => x.id);
+  let zayif = null;
+  for (const a of ol) for (const b of ol) if (!zayif && a !== b && o.suclamaSonucu(ky.suclu, [a, b]) !== "dogru") zayif = [a, b];
+  const masum = ky.supheliler.find(s => s.id !== ky.suclu).id, u = ky.ucret || {};
+  const sorun = [];
+  if (o.suclamaSonucu(ky.suclu, cift) !== "dogru") sorun.push("doğru çift → dogru değil");
+  if (!zayif || o.suclamaSonucu(ky.suclu, zayif) !== "zayif") sorun.push("zayıf sonuç kurulamıyor");
+  if (o.suclamaSonucu(masum, cift) !== "yanlis") sorun.push("yanlış kişi → yanlis değil");
+  if (!(u.dogru >= u.zayif && u.zayif >= u.yanlis && u.yanlis >= 0)) sorun.push("ücret sırası bozuk");
+  const r = o.suclama(ky.suclu, cift);
+  if (r.hata || o.acikKararlar().length !== VK.decisions.length) sorun.push("suçlamadan sonra kararların hepsi açık değil");
+  k(`${VK.id}: üç sonuç, ücret sırası, kararlar açık` + (sorun.length ? " — " + sorun.join("; ") : ""), !sorun.length);
+}
+
 console.log("\n=== Tek hak, sahneler ===");
 {
   const o = tumIpuclari();

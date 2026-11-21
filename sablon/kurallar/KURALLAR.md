@@ -797,7 +797,7 @@ Form onaya gitmeden kişi tablosu dolu olmalı.
 | Doğru kişi, zayıf kanıt | Peri haklıdır ama inandıramaz (yüzleşmede duyulur). Sonda Cengo elindeki doğru kanıtı söyler (YAPI-25). |
 | Yanlış kişi | Masum biri suçlanır. Gerçek yine ortaya çıkar. Sonda Cengo elindeki doğru kanıtı söyler (YAPI-25). |
 Sonuca göre yüzleşme sahnesi oynar (YAPI-16).
-*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (yüzleşme sahneleri) · hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (yüzleşme sahneleri) · program `kaynak/test_yeni_kimyapti.js` her vakada üç sonuç, ücret sırası, kararlar açık · hatırlat 3
 *Kaynak:* 133, 134, 135, 296
 
 #### YAPI-15 Kilit açarak bulunan kanıt
