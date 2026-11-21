@@ -18,7 +18,11 @@
 > **(5) KOD-44 YAZILDI (sahibi: "Yaz"):** K15 Cengo'nun büro satırlarını (cengo_replik, cengo_kanit_replik) kapanışın arka/set/cset'iyle
 > denetler — ifade o kıyafette yoksa HATA. V6–V8'de 24 satır, 0 ihlal; bilerek V7 karar + V8 kanıt ifadesi bozuldu → durdu.
 > **Bulgu (sahibine söylendi):** `yuz` (dinleyenin yüzü, `peri.x+cengo.y`) hiçbir yerde denetlenmiyor; 524 satır ölçüldü, hepsi geçerli.
-> Ayrı aday olarak sorulabilir. **SIRADAKİ:** KOD-77/YAPI-34 (₺ tutarları fiyat tablosunda mı).
+> Ayrı aday olarak sorulabilir.
+> **(6) KOD-77/YAPI-34 YAZILDI (sahibi: "Yaz"):** `dogrulayici.js yeni` yeni **K22** (UYARI): metindeki tutar (rakam ya da sayı sözü +
+> ₺/lira/TL, ya da "bin"/"milyon"lu sayı; "buçuk", "yirmişer" okunur) `sablon/vakalar/vakaN_form.md` §17 tablosunda yoksa. 8 vakada 111 tutar;
+> tek uyarı V7 "Doksan lira, Cengo. Deftere yaz." (tabloda kartpostal 100 ₺) — sahibine söylendi, düzeltme Oğuz Bey'in/sahibinin işi.
+> Bilerek V8'e "yetmiş beş bin" ve "12.500 ₺" eklendi → ikisi de uyarıldı. **SIRADAKİ:** YAPI-23 (`## sahne karar_soru` + `**SEÇENEK:**`).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

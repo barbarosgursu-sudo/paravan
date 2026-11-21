@@ -945,7 +945,7 @@ Kural 27b; sahibinin kuralı, 5 Ekim 2026. Her tutar o yılın İstanbul fiyatla
 
 #### YAPI-34 Her vakanın fiyat tablosu
 Kural 27c. Her vaka kendi fiyat (referans) tablosunu taşır (ilki `YENI_VAKA_1.md`'de; formda §17). Metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır; tabloda olmayan tutar metne giremez (denetimde ve form kontrolünde aranır: "Her tutar fiyat tablosunda"). Eski "ay sonu gideri (Ekim 2026: 35.000 ₺)" tablodan kalktı — oyun para saymaz (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 36).
-*Uygulayıcı:* hatırlat 1, 5
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K22 (yeni oyun; UYARI) metindeki tutar fiyat tablosunda (formun §17) · hatırlat 1, 5
 *Kaynak:* 217, 652, 664, 1815
 
 #### YAPI-35 Taç her yolda Vaka 7'de alınır
@@ -3612,7 +3612,7 @@ Diyalogda `## ani` yoksa `arac_diyalog.js` yazmaz, `test_yeni_arayuz.js` eksiği
 
 #### KOD-77 Kasa yok, tohum yok, tutarlar tabloda
 Kasa yok; para yalnız hikâyede, her kararın parası kendi sahnesinde biter (kural 24). Tohum yok. Metindeki her tutar fiyat tablosunda.
-*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (tohum yok) · hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (tohum yok) · program `kaynak/dogrulayici.js` K22 (UYARI) metindeki tutar fiyat tablosunda · hatırlat 3
 *Kaynak:* 754, 756
 
 #### KOD-78 Sigara yok

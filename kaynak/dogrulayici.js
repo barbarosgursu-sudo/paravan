@@ -1153,6 +1153,66 @@ function kural21_replik(game, uyarilar, acilis) {
   if (acilis) tara(acilis, "açılış");
 }
 
+// K22 — metindeki her tutar fiyat tablosunda (KOD-77, YAPI-34; Adım 4 madde 3, 21 Kasım 2026, sahibi: "Yaz"). Yalnız UYARI:
+//   yazıyla sayı okumak kırılgandır. Tutar = rakam ya da sayı sözü + ₺/lira/TL, ya da "bin"/"milyon" geçen sayı ("elli bin",
+//   "iki yüz kırk bin", "altı buçuk milyon"). Tablo: `sablon/vakalar/vakaN_form.md` → "## 17. Fiyat tablosu" (rakamla yazılır).
+//   Formu olmayan vaka atlanır.
+const SAYI_SOZ = { bir: 1, iki: 2, "üç": 3, "dört": 4, "beş": 5, "altı": 6, yedi: 7, sekiz: 8, dokuz: 9, on: 10, yirmi: 20,
+  otuz: 30, "kırk": 40, elli: 50, "altmış": 60, "yetmiş": 70, seksen: 80, doksan: 90 };
+const rakam = s => parseFloat(s.replace(/\./g, "").replace(",", "."));
+function sayiCevir(sozler) {
+  let top = 0, ara = 0;
+  for (const w0 of sozler) {
+    const w = w0.replace(/(şer|şar|er|ar)$/, "");                      // "yirmişer bin"
+    if (SAYI_SOZ[w0] !== undefined) ara += SAYI_SOZ[w0];
+    else if (SAYI_SOZ[w] !== undefined) ara += SAYI_SOZ[w];
+    else if (/^\d[\d.,]*$/.test(w0)) ara += rakam(w0);
+    else if (w0 === "yüz") ara = (ara || 1) * 100;
+    else if (w0 === "bin") { top += (ara || 1) * 1000; ara = 0; }
+    else if (w0 === "milyon") { top += (ara || 1) * 1e6; ara = 0; }
+    else return null;
+  }
+  return top + ara;
+}
+const SOZ = "\\d[\\d.,]*|" + Object.keys(SAYI_SOZ).join("|") + "|yüz|bin|milyon";
+const TUTAR_RE = new RegExp(`(?<!\\p{L})((?:(?:${SOZ})(?:şer|şar|er|ar)?\\s+){0,5}(?:${SOZ}))(?!\\p{L})\\s*(₺|lira|tl)?`, "gu");
+function metinTutarlari(metin) {
+  const t = String(metin).toLocaleLowerCase("tr").replace(/(\p{L}+) buçuk (milyon|bin)/gu,
+    (a, s, b) => SAYI_SOZ[s] && SAYI_SOZ[s] < 10 ? `${SAYI_SOZ[s]},5 ${b}` : a);
+  const out = [];
+  for (const m of t.matchAll(TUTAR_RE)) {
+    if (!m[2] && !/(^|\s)(bin|milyon)$/.test(m[1].trim())) continue;   // para birimi yoksa bin/milyonla bitmeli
+    const y = sayiCevir(m[1].trim().split(/\s+/));
+    if (y !== null && y >= 10) out.push({ deger: y, metin: m[0].trim() });
+  }
+  return out;
+}
+function kural22_tutar(game, uyarilar) {
+  if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
+  const fs = require("fs"), path = require("path");
+  for (const vaka of game.vakalar) {
+    let form;
+    try { form = fs.readFileSync(path.join(__dirname, "..", "sablon", "vakalar", `vaka${vaka.id.slice(1)}_form.md`), "utf-8"); }
+    catch (e) { continue; }
+    const tablo = (form.split(/^## 17\. Fiyat tablosu/m)[1] || "").split(/^## /m)[0];
+    if (!tablo.trim()) { uyarilar.push(`[K22] ${vaka.id}: formda '## 17. Fiyat tablosu' yok (YAPI-34).`); continue; }
+    const izinli = new Set();
+    for (const m of tablo.matchAll(/(\d[\d.,]*)\s*(milyon|bin)?/g))
+      izinli.add(rakam(m[1]) * (m[2] === "milyon" ? 1e6 : m[2] === "bin" ? 1e3 : 1));
+    const goruldu = new Set();
+    const gez = x => {
+      if (typeof x === "string") {
+        for (const t of metinTutarlari(x)) if (!izinli.has(t.deger) && !goruldu.has(t.metin)) {
+          goruldu.add(t.metin);
+          uyarilar.push(`[K22] ${vaka.id}: "${t.metin}" (${t.deger.toLocaleString("tr")} ₺) fiyat tablosunda yok — tabloya dayanağıyla yaz ya da metinden çıkar (KOD-77, YAPI-34).`);
+        }
+      } else if (Array.isArray(x)) x.forEach(gez);
+      else if (x && typeof x === "object") Object.values(x).forEach(gez);
+    };
+    gez(vaka);
+  }
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -1177,6 +1237,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural19_kimYapti(game, hatalar, uyarilar);
   kural20_sabitler(game, hatalar, kisiler, acilis, gorseller);
   kural21_replik(game, uyarilar, acilis);
+  kural22_tutar(game, uyarilar);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -1209,6 +1270,8 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   console.log(`Kural 9 (Ölü tohum)     : ${uyariSay("[K9]") ? "UYARI" : "PASS"}`);
   if (game.kanon && game.kanon.sahne)
     console.log(`Kural 21 (Replik boyu)  : ${uyariSay("[K21]") ? uyariSay("[K21]") + " UYARI" : "PASS"}`);
+  if (game.kanon && game.kanon.sahne)
+    console.log(`Kural 22 (Tutar tablosu): ${uyariSay("[K22]") ? uyariSay("[K22]") + " UYARI" : "PASS"}`);
   console.log("──────────────────────");
   hatalar.forEach(h => console.log("  ✗ " + h));
   uyarilar.forEach(u => console.log("  ⚠ " + u));
