@@ -54,6 +54,19 @@ for f in "$@"; do
       if grep -q 'tarz_govde_' <<<"$refs" && ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then   # yeni karakter temeli (§4); Peri/Cengo yeni değil
         has 'benzemiyor'               || eksik+=("yeni karakter: 'X'e benzemiyor' satırı yok (D-4, BIRIKIM §8.7)")
         has 'Son referans YALNIZ'      || eksik+=("tarz örneği cümlesi yok (§3)")
+        # Konuk benzerliği, yazıda (21 Kasım 2026, Adım 4 — SEZON-26): kişi adaylar.tsv'de olmalı ve havuzdaki kimseye,
+        # aynı vakanın öbür adaylarına benzememeli. Benzerse istem üretime girmez.
+        kim=${anahtar%%.*}
+        vno=$(cd "$(dirname "$f")/.." && basename "$(pwd)" | sed 's/^v//')
+        if [ -n "$kim" ]; then
+          bcikti=$(cd "$(dirname "$0")/../kaynak" && node arac_benzerlik.js "$vno" "$kim" 2>&1); bkod=$?
+          if [ $bkod -ne 0 ]; then
+            if grep -q "adaylarda yok" <<<"$bcikti"; then eksik+=("benzerlik: '$kim' adaylar.tsv'de yok — önce oraya yaz (SEZON-26)")
+            elif grep -qE "değişecek: .*\b$kim\b|^  $kim:" <<<"$bcikti"; then eksik+=("benzerlik DURDU: '$kim' — $(grep -E "^  .*($kim|~)" <<<"$bcikti" | head -2 | tr -s ' ' | tr '\n' ' ')(SEZON-26: görünüşü değiştir)")
+            elif grep -q "TABLO HATALI" <<<"$bcikti"; then eksik+=("benzerlik: adaylar/havuz tablosu hatalı (arac_benzerlik.js)")
+            fi
+          fi
+        fi
       fi
       if grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then
         grep -qi 'kıyafet kartı' <<<"$refs" || eksik+=("Peri/Cengo figürü: kıyafet kartı referansı yok (SR-C)")

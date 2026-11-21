@@ -153,6 +153,11 @@ yüzden — DENETIM-5; araç değişirse `python arac_tarz.py --sinav` → "SINA
 --uretim v<N> G<n>` (döngü kendisi koşar; `$DONGU_LOG/benzerlik.tsv`). KALDI/ŞÜPHELİ → görünüş değişir, sahibine sorulmaz;
 DUR (çıkış 3) → sahibine. GEÇTİ → kayıt satırına `· benzerlik GEÇTİ (en yakın <kişi> 1,1x)`.
 
+**0d. Araçlar işi durdurur (21 Kasım 2026, Adım 4)** — döngü 0, 0b, 0b2'nin çıkış koduna bakar: biri GEÇTİ demezse resim
+`v<N>/kayit/denetim.tsv`'de **ONAYLANAMAZ** yazılır; benzerlik DUR → döngü durur (sahibine). Commit kapısı `onayli/`'e giren resimde üç
+aracı yeniden koşar; geçmeyen kaydedilmez. Sahibinin "kalsın"ı: `sablon/vakalar/vaka<N>_kapi.md` → `## kalsın` → `- G<n> | tarz|yüz|benzerlik | <sebep>`.
+Yeni konuk temelinin istemi `istem_kontrol.sh`'tan geçerken yazı benzerliği (`arac_benzerlik.js`) de koşar — SEZON-26.
+
 **0c. El denetimi — kişi görünen her resimde, onayı sahibi verir** — DENETIM-13. `cd kaynak && python arac_el.py --sayfa V<N> G<n>`
 → `kaynak/YENI_UI/el/G<n>.jpg`; onay `python arac_el.py --onay V<N> G<n>`.
 - **Nesne tutan el: zorunlu yakın bakış** — DENETIM-14 (`magick <resim> -crop WxH+X+Y +repage -resize 500% <çıktı>`; istem kalıbı ISTEM-32).

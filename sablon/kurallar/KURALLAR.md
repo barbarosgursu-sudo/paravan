@@ -1241,8 +1241,8 @@ Cengo, Gizem; birden çok vakada dönen kişiler) hariçtir: onların **yüzü v
 #### SEZON-26 Konuk benzerliği — üretimden önce, yazıda (program)
 Sahibinin kararı (20 Kasım 2026): kural vaka numarasına bağlı değildir. Yeni karakterin görünüşü `sablon/kurallar/benzerlik/adaylar.tsv`'ye
 yazılır, her özellik dolu: yaş, beden, yüz biçimi, saç rengi, saç kesimi, üst rengi, ayırıcı işaret. İstemden önce
-`node kaynak/arac_benzerlik.js <vaka>` GEÇTİ demeli (çıkış 1 = DURDU; o kişinin istemi üretime girmez). Bugün aracı hiçbir
-kapı kendiliğinden çağırmaz (Adım 4 denetimi): elle koşulur, 8. adımda hatırlatılır.
+`node kaynak/arac_benzerlik.js <vaka>` GEÇTİ demeli (çıkış 1 = DURDU; o kişinin istemi üretime girmez). Yeni konuk
+temelinin istemi `uretim/istem_kontrol.sh`'tan geçerken araç kendiliğinden koşar (21 Kasım 2026, Adım 4); DURDU → istem üretilmez.
 - **Havuz** (`havuz.tsv`) = resmi onaylanmış karakterler (değişmez). **Adaylar** (`adaylar.tsv`) = geri kalan herkes (değişebilir).
   Aday havuzdaki hiç kimseye ve birlikte üretilen öbür adaylara benzememeli. Onaylanan karakter havuza geçer
   (`arac_benzerlik.js --havuza <id>`; elle — gömme aracı çağırmaz).
@@ -1250,7 +1250,7 @@ kapı kendiliğinden çağırmaz (Adım 4 denetimi): elle koşulur, 8. adımda h
 - Ağırlıklı puan, eşik 6 (saç kesimi, saç rengi, ayırıcı işaret 2; ötekiler 1). Daha gevşek eşik her vakada 10–40 yanlış alarm verdi.
   Yazı yalnız BARİZ benzerliği durdurur: bilinen çiftler (Süheyla–Jale vb.) resimde benzedi, yazıda değil — onları DENETIM-53 yakalar.
 - Uygulandı (20 Kasım): Pınar'ın saçı at kuyruğu (Dilek'e benziyordu), Yusuf'un saçı yazıldı; V7'de Süheyla ve Nesrin yeni görünüşle yazıldı.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` → `kaynak/arac_benzerlik.js` (yeni konuk temeli; DURDU ya da adaylarda yok → istem üretilmez) · hatırlat 8
 *Kaynak:* yeni karar (uretim/CLAUDE.md istem adımı "00", Adım 4'te koda bağlandı)
 
 #### SEZON-20 Arka planda aynı kurgu tekrar etmez
@@ -1768,7 +1768,7 @@ Sahibinin kararı (13 Kasım 2026): "en az karar bana gelsin; onayladığımız 
 - **M7** Aynı kare birden çok yolda kullanılıyorsa her yolda aynı anı göstermeli; anlar farklıysa yola özel kare (`K99j`).
 - **M8** → SATIR-12.
 Örnek (V6): 29 bayrak; 12 HİTAP motorla, gerisi kuralla kapandı; sözlerde 0 fark. Yeni resim: `muzeyyen.tepsi`, `muzeyyen.tepsi_uzgun`, `cengo.utulu.borek`, `gizem.triko_tepsi`, `gizem.triko_tepsi_telefon`, `recep.supurge`, `jale.makbuz`, `jale.uzaniyor`, `K99j`, `K113` (ipucu: hırkaya giren kâğıt), `K114` (DEVIR'de "11 yeni resim"). K99 "askıdan" / "Jale'nin elinden" iki ayrı andı (M7).
-*Uygulayıcı:* program `kaynak/arac_kapi.js` satır–resim İŞ=0 · hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_kapi.js` satır–resim İŞ=0 · program `.claude/kapi_hook.js` → `kaynak/arac_soz_farki.js` (diyalogda söz farkı commit'i durdurur; sahibi onayladıysa iletide [söz onaylı]) · hatırlat 10
 *Kaynak:* 389, 1076, 2817
 
 #### SATIR-12 SR-M8 Hikâye donmadan önce satır–resim aracı (adım 5)
@@ -1917,7 +1917,7 @@ Kapı (`kaynak/arac_kapi.js`, 14 Kasım 2026, sahibinin kararı; Vaka 6 ve sonra
 
 #### SATIR-38 Kapı K3: yönelen pozun hedefi karşıda
 Poz bir kişiye yöneliyorsa (sarılma, uzanma, dokunma) o kişi karşıda durur. (Kapı, Vaka 6 ve sonrası.)
-*Uygulayıcı:* program `kaynak/arac_kapi.js` K3 (resim) · hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_kapi.js` K3 (resim; onayli/, _gorsel.md ya da gömme commit'inde — `.claude/kapi_hook.js`) · hatırlat 10
 *Kaynak:* 3548 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 #### SATIR-39 Kapı K4: uzak yer sözü kare ister
@@ -1927,17 +1927,17 @@ Poz bir kişiye yöneliyorsa (sarılma, uzanma, dokunma) o kişi karşıda durur
 
 #### SATIR-40 Kapı K11: figürler üst üste binmez
 İki figür üst üste binmez (ekranda ölçülür). (Kapı, Vaka 6 ve sonrası.)
-*Uygulayıcı:* program `kaynak/arac_kapi.js` K11 (resim) · hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_kapi.js` K11 (resim; onayli/, _gorsel.md ya da gömme commit'inde — `.claude/kapi_hook.js`) · hatırlat 10
 *Kaynak:* 3556 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 #### SATIR-41 Kapı K12: konuşur gibi poz yalnız konuşanda
 Konuşur gibi poz yalnız konuşma satırında, konuşanda kullanılır. (Kapı, Vaka 6 ve sonrası.)
-*Uygulayıcı:* program `kaynak/arac_kapi.js` K12 (resim) · hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_kapi.js` K12 (resim; onayli/, _gorsel.md ya da gömme commit'inde — `.claude/kapi_hook.js`) · hatırlat 10
 *Kaynak:* 3557 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 #### SATIR-42 Kapı K13: metnin söylediği görünüş figürde
 Metnin söylediği görünüş (terli, ıslak, yaralı…) o figürde görünür; poz kaydında yazılı olur. (Kapı, Vaka 6 ve sonrası.)
-*Uygulayıcı:* program `kaynak/arac_kapi.js` K13 (resim) · hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_kapi.js` K13 (resim; onayli/, _gorsel.md ya da gömme commit'inde — `.claude/kapi_hook.js`) · hatırlat 10
 *Kaynak:* 3558 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
 ## ISTEM — resim istemi yazma kuralları
@@ -2362,14 +2362,14 @@ Sıra: 0 tarz (yazılım) → 0b yüz (yazılım) → 0c el (araç + sahibinin o
 
 #### DENETIM-1 Tarz denetimi yazılımla, her resimde gözden önce
 Her resim, gözle bakılmadan ÖNCE yazılımla tarz denetiminden geçer (13 Kasım 2026, sahibi: "benim gözle görüp onaylamamdan önce bu işin yazılımsal olarak yapılması gerekiyor; yoksa gene aynı durumla tekrar üretmek zorunda kalırız"). Komut: `cd kaynak && python arac_tarz.py --uretim v<N> G<n>`. Araç CLIP tarz puanı verir; çapası LoRA ve Vaka 1–3. Döngü her üretimden sonra aracı kendisi koşar; sonuç `$DONGU_LOG/tarz.tsv`'de ve kol çıktısında. KALDI ya da ŞÜPHELİ çıkan resim onaylanmaz. Kart da bu denetime girer.
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `uretim/dongu.sh` (çıkış kodu: KALDI/ŞÜPHELİ → kayit/denetim.tsv ONAYLANAMAZ) · program `.claude/kapi_hook.js` (onayli/ commit'inde yeniden koşar; geçmeyen kaydedilmez) · hatırlat 10
 *Kaynak:* 1096, 559, 1230
 
 #### DENETIM-2 Tarz sonucunun üç hâli
 - **KALDI** (tarz puanı < 0) → ret; `## Düzeltme`: tarz (boyalı, sıcak ışık, dokulu; kalın kontur/düz boya yok).
 - **ŞÜPHELİ** (0–0,02) → onaylanmaz; aynı düzeltmeyle yeniden üretilir. İki kez ŞÜPHELİ kalırsa sahibine sorulur (görüntüyle).
 - **GEÇTİ** → göz denetimi (A ve B). Kayda `G<n> tarz GEÇTİ (+0,0xx)` yazılır; bu satırı olmayan resim onaylı sayılmaz.
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `uretim/dongu.sh` (çıkış kodu: KALDI/ŞÜPHELİ → kayit/denetim.tsv ONAYLANAMAZ) · program `.claude/kapi_hook.js` (onayli/ commit'inde yeniden koşar; geçmeyen kaydedilmez) · hatırlat 10
 *Kaynak:* 1097, 1098, 1099
 
 #### DENETIM-3 Sahibine yalnız GEÇTİ olanlar gider; tarz çapası
@@ -2395,14 +2395,14 @@ Figürde tarz kararı GÖVDEDEN verilir; yüz tarz puanı karara katılmaz (14 K
 
 #### DENETIM-7 Yüz (kimlik) denetimi yazılımla — Peri, Cengo, Gizem
 14 Kasım 2026, sahibi: "ilerleyen vakalarda Peri ve Cengo'nun yüzü bozulabilir". Komut: `cd kaynak && python arac_yuz.py --uretim v<N> G<n>`. Döngü tarz denetiminin hemen ardından kendisi koşar; sonuç `$DONGU_LOG/yuz.tsv`. Yüz tanıma modeliyle resimdeki yüzü karakterin çapasıyla karşılaştırır (çapa: LoRA + oyundaki sprite'lar + Vaka 3 onaylıları; V6 ve sonrası bilerek çapada değil).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `uretim/dongu.sh` (çıkış kodu: KALDI/ŞÜPHELİ → kayit/denetim.tsv ONAYLANAMAZ) · program `.claude/kapi_hook.js` (onayli/ commit'inde yeniden koşar; geçmeyen kaydedilmez) · hatırlat 10
 *Kaynak:* 1104
 
 #### DENETIM-8 Yüz eşikleri (figür ve kart)
 - **KALDI** (< 0,66, başka karaktere daha yakın ya da yüz bulunamadı) → ret, `## Düzeltme`: yüz referanstaki gibi.
 - **ŞÜPHELİ** (0,66–0,70) → onaylanmaz, yeniden üretilir; iki kez ŞÜPHELİ kalırsa sahibine.
 - **GEÇTİ** → göz denetimi.
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `uretim/dongu.sh` (çıkış kodu: KALDI/ŞÜPHELİ → kayit/denetim.tsv ONAYLANAMAZ) · program `.claude/kapi_hook.js` (onayli/ commit'inde yeniden koşar; geçmeyen kaydedilmez) · hatırlat 10
 *Kaynak:* 1105
 
 #### DENETIM-9 İki aracın sonucu da kayda yazılır
@@ -2600,7 +2600,7 @@ Profil zemine göre seçilmez; yalnız karakterin çerçevesini verir (Peri `per
 
 #### DENETIM-38 Onay
 Onaylanan resim `uretilen/G<n>.*` → `onayli/G<n>.<aynı uzantı>` taşınır. Buna bağlı resimlerin önü açılır, çünkü Codex yalnız `onayli/`'yi referans alır. Temel figürse baş kırpığı hazırlanır (`referanslar/<kim>_bas.png`).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `.claude/kapi_hook.js` (onayli/ commit'inde yeniden koşar; geçmeyen kaydedilmez) · hatırlat 10
 *Kaynak:* 1138, 1325, 1517
 
 #### DENETIM-39 Ret ve düzeltme notu
@@ -2672,8 +2672,9 @@ V7 G4 Süheyla, V6 Jale'nin aynısı çıktı). Konuğun figür ve kartında: `c
 (döngü yüz denetiminin ardından kendisi koşar; sonuç `$DONGU_LOG/benzerlik.tsv`). SEZON-26'nın ikinci parçası.
 - Üç kanal: yüz + baş (saç dahil) + bütün figür. Karşılaştırılan: oyundaki bütün figürler, bütün vakaların onaylıları, aynı vakada
   üretilen öbür konuklar (aynı cinsiyet). Peri, Cengo, Gizem'in kendi resimleri burada denetlenmez (DENETIM-7), ama konuk onlara da benzememeli.
-- **Bugün kapı değil (Adım 4 denetimi, 20 Kasım 2026):** döngü (`uretim/dongu.sh`) aracın sonucunu yalnız kayda yazar, çıkış koduna
-  bakmaz; KALDI resmi onaya taşımayı durduran bir şey yok. Sonuç 10. adımda gözle okunur.
+- **Kapı (21 Kasım 2026, Adım 4):** döngü aracın çıkış koduna bakar — KALDI/ŞÜPHELİ → `uretim/v<N>/kayit/denetim.tsv`'de ONAYLANAMAZ;
+  DUR → döngü `DUR` dosyasını koyar, durur. Commit kapısı (`.claude/kapi_hook.js`) `onayli/`'e giren resimde aracı yeniden koşar; geçmeyen
+  kaydedilmez. Sahibinin "kalsın"ı: `sablon/vakalar/vaka<N>_kapi.md` → `## kalsın` → `- G<n> | benzerlik | <sebep>` (tarz ve yüz için de aynı biçim).
 - **Sınır kendiliğinden** (sahibi: "sınırı kimse ayarlamasın"): araç her çalıştırmada bilinen benzer çiftleri de ölçer (Süheyla–Jale,
   Necmi–Recep, Kaan–Bülent/Cengo, Müzeyyen–Nadide); sınır = en düşüğünün 0,15 altı (1,55'ten yukarı çıkmaz), şüphe 0,15 daha altı.
   Onaylı çiftlerin %10'undan fazlası sınırın üstünde kalırsa ölçü ayırt etmiyor demektir: araç **DUR** der (çıkış 3), üretim durur, sahibine sorulur.
@@ -2685,7 +2686,7 @@ V7 G4 Süheyla, V6 Jale'nin aynısı çıktı). Konuğun figür ve kartında: `c
   `kaynak` = resim), sonra `node kaynak/arac_benzerlik.js --havuza <kim>`. Bunu bugün hiçbir araç kendiliğinden yapmaz (gömme aracı da).
 - Araç değişirse önce `python arac_benzerlik_resim.py --sinav` → "SINAV GEÇTİ".
 - Yüz modeli bulut kabında inmez: sahibinin ya da Oğuz Bey'in bilgisayarında koşar. Eski vakalarda 7 benzer çift kalmış (`--havuz-ici`; bilgi, kapı değil).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `uretim/dongu.sh` (çıkış kodu: KALDI/ŞÜPHELİ → ONAYLANAMAZ; DUR → döngü durur) · program `.claude/kapi_hook.js` (onayli/ commit'inde yeniden koşar; geçmeyen kaydedilmez) · hatırlat 10
 *Kaynak:* yeni karar (uretim/CLAUDE.md Denetim "0b2", Adım 4'te koda bağlandı)
 
 ### Sahibiyle çalışma ve rötuş
@@ -2717,7 +2718,7 @@ Otomatik rötuşa (ör. bant/nesne silme) ancak yüzey düzse girilir; yeniden �
 - Sebep: V6'da hale adımı atlandı; Peri'nin saçında mavi, Cengo'nun kol arasında bej yayına çıktı.
 - El denetimi `arac_el.py` ile yapılır; onayı sahibi verir.
 - Araçtır, test değil.
-*Uygulayıcı:* program `kaynak/arac_paket.js` (--eski ile --yaz durur) · program `kaynak/arac_kapi.js` K6 · hatırlat 10
+*Uygulayıcı:* program `kaynak/arac_paket.js` (--eski ile --yaz durur) · program `kaynak/arac_kapi.js` K6 (gömme commit'i de resim kapısını açar — `.claude/kapi_hook.js`) · hatırlat 10
 *Kaynak:* 27, 475, 1144, 2793, 3551
 
 #### GOMME-2 Eski renk kesimi ve arac_hale.py — yalnız karşılaştırma / kayıt
@@ -3130,7 +3131,7 @@ for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçm
 ```
 Yeni oyunda her değişiklikten sonra: `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js` (iki derleme; eski `index.html`'in md5'i aynı kalmalı), testler. Sahneyi etkileyen
 değişiklikte ayrıca tur (`node arac_yeni_tur.js 0 vapur dogru` gibi, yollar KOD-27'de) ve sızıntı taraması (`node arac_sizinti_tur.js V5 40`). Resim gömmede (`göm` komutu) adım 5: kök CLAUDE.md'deki "Her commit'ten önce" komutları (yukarıdaki kod bloğu); hepsi geçerse commit → push.
-*Uygulayıcı:* program `kaynak/arac_kapi.js` doğrulayıcı (iki oyun), derleme, tur, sızıntı (commit kapısı, V6+) · hatırlat 4, 14
+*Uygulayıcı:* program `.claude/kapi_hook.js` iki doğrulayıcı + test_*.js (`kaynak/` değişen her commit; git kancası `.githooks/commit-msg`) · program `kaynak/arac_kapi.js` doğrulayıcı (iki oyun), derleme, tur, sızıntı (commit kapısı, V6+) · hatırlat 4, 14
 *Kaynak:* 10, 11, 2326, 2350, 2886, 2555, 1147
 
 #### KOD-4 Doğrulayıcı ne zaman çalışır, ne çıktı verir
@@ -3320,11 +3321,11 @@ Bayraklar ADAY'dır: yatay taşma, figür başı kadraj dışı, konuk/Peri boy 
 *Kaynak:* 2927, 3127
 
 #### KOD-35 Kapı (arac_kapi.js)
-Sahibinin kararı: vaka kaydedilmeden önce `kaynak/arac_kapi.js` 13 kural + eski denetimleri kendiliğinden koşar; Vaka 6 ve sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) **açık olmalı**: kapı her commit'te kendiliğinden çalışır, geçmezse commit olmaz (`.claude/settings.json` ile bağlanır) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 24). (14 Kasım'da "Vaka 6 kapıdan geçince açılacak" deniyordu; Vaka 6 15 Kasım'da geçti.) Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). `arac_kapi.js … resim` K2/K8/K6, Cengo satırlarındaki ifadenin kapanış setinde olmamasını yakalar (KOD-75).
+Sahibinin kararı: vaka kaydedilmeden önce `kaynak/arac_kapi.js` 13 kural + eski denetimleri kendiliğinden koşar; Vaka 6 ve sonrası. Kurallar dosyanın başında; vaka kaydı `sablon/vakalar/vaka6_kapi.md`. Commit bağlantısı (`.claude/kapi_hook.js`) **açık olmalı**: kapı her commit'te kendiliğinden çalışır, geçmezse commit olmaz (`.claude/settings.json` ile bağlanır) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 24). (14 Kasım'da "Vaka 6 kapıdan geçince açılacak" deniyordu; Vaka 6 15 Kasım'da geçti.) Ondan sonra: GitHub yayın koruması (sahibi: "sonra ekle"). **21 Kasım 2026 (Adım 4):** kapı ayrıca testleri koşar (KOD-3), diyalogda söz farkını durdurur (SATIR-11), gömme commit'inde değişen resmin vakasına resim kapısı açar, `onayli/`'e giren resimde tarz/yüz/benzerlik araçlarını yeniden koşar (DENETIM-2, 8, 53). Git kancası `.githooks/commit-msg` Codex ve terminal commit'lerini de geçirir — her bilgisayarda bir kez `git config core.hooksPath .githooks`; kanca kuruluysa Claude Code bağlantısı iki kez koşmasın diye kendini atlar. `arac_kapi.js … resim` K2/K8/K6, Cengo satırlarındaki ifadenin kapanış setinde olmamasını yakalar (KOD-75).
 Yeni vakada kapının kurulumu (YOLLAR tablosu + `vakaN_kapi.md`, adım 5): bkz. SUREC-14.
 
 - *Ders:* [V6 başlangıç › 3. Resim aşaması (13 Kasım 2026, Barbaros'un kararı)] 11 Görselli tur + kapı · 14 Kas gece · 15 Kas sabah · kapı için 11 ek resim (G46, G65, G87–G95); K11 yerleşimle; `arac_kapi.js V6 resim` GEÇTİ (k:f3b38418a1)
-*Uygulayıcı:* program `.claude/kapi_hook.js` → `kaynak/arac_kapi.js` (commit durur)
+*Uygulayıcı:* program `.claude/kapi_hook.js` → `kaynak/arac_kapi.js` (commit durur; git kancası `.githooks/commit-msg`)
 *Kaynak:* 2791, 752
 
 ### D. Yeni oyunun verisi ve derlemesi

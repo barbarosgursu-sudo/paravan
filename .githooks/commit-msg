@@ -1,0 +1,5 @@
+#!/bin/sh
+# Commit kapısı (21 Kasım 2026): Codex ve terminal commit'leri de kapıdan geçer. Kurulum, her bilgisayarda bir kez:
+#   git config core.hooksPath .githooks
+# Ayrıntı .claude/kapi_hook.js başında.
+exec node "$(git rev-parse --show-toplevel)/.claude/kapi_hook.js" --git "$1"

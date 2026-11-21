@@ -67,18 +67,30 @@ kol() {
     echo "kol$k: G$n $sonuc $(date +%H:%M) ($((e-b)) sn)"
     # Yazılımla tarz denetimi (13 Kasım 2026, sahibi): her yeni resim gözden önce arac_tarz.py'den geçer; sonuç kayda düşer.
     # KALDI/ŞÜPHELİ resim onaylanmaz (uretim/CLAUDE.md → Denetim 0). Döngü resmi taşımaz; kararı denetleyen verir.
+    # 21 Kasım 2026 (Adım 4, sahibinin onayı): döngü üç aracın ÇIKIŞ KODUNA da bakar. Sonuç kalıcı kayda gider:
+    # kayit/denetim.tsv (G · saat · tarz · yüz · benzerlik · karar). KALDI/ŞÜPHELİ/araç çalışmadı → karar ONAYLANAMAZ
+    # (commit kapısı da onayli/'e giren resimde araçları yeniden koşar, geçmeyeni kaydettirmez). Benzerlik DUR (çıkış 3) →
+    # ölçü ayırt etmiyor, sahibine sorulur: döngü DUR dosyasını koyar, bütün kollar durur.
     if [ "$sonuc" = uretildi ]; then
-      tz=$(cd ../../kaynak && python arac_tarz.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
+      cikti=$(cd ../../kaynak && python arac_tarz.py --uretim "v$N" "G$n" 2>/dev/null); tk=$?; tz=$(head -1 <<<"$cikti")
       echo "kol$k: G$n TARZ: ${tz:-araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${tz:-araç çalışmadı}" >> "$LOG/tarz.tsv"
       # Yazılımla yüz (kimlik) denetimi (14 Kasım 2026, sahibi): Peri, Cengo, Gizem figür/kartında kapı; karede yalnız bilgi.
-      yz=$(cd ../../kaynak && python arac_yuz.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
+      cikti=$(cd ../../kaynak && python arac_yuz.py --uretim "v$N" "G$n" 2>/dev/null); yk=$?; yz=$(head -1 <<<"$cikti")
       echo "kol$k: G$n ${yz:-YÜZ araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${yz:-YÜZ araç çalışmadı}" >> "$LOG/yuz.tsv"
       # Yazılımla konuk benzerliği (20 Kasım 2026, sahibi): konuk figür/kartı eski karakterlere ve birlikte üretilenlere benzemez.
-      bz=$(cd ../../kaynak && python arac_benzerlik_resim.py --uretim "v$N" "G$n" 2>/dev/null | head -1)
+      cikti=$(cd ../../kaynak && python arac_benzerlik_resim.py --uretim "v$N" "G$n" 2>/dev/null); bk=$?; bz=$(head -1 <<<"$cikti")
       echo "kol$k: G$n ${bz:-BENZERLİK araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${bz:-BENZERLİK araç çalışmadı}" >> "$LOG/benzerlik.tsv"
+      if [ "$tk" = 0 ] && [ "$yk" = 0 ] && [ "$bk" = 0 ]; then karar=GECTI; else karar=ONAYLANAMAZ; fi
+      [ -f kayit/denetim.tsv ] || printf 'G\tsaat\ttarz\tyuz\tbenzerlik\tkarar\n' > kayit/denetim.tsv
+      printf 'G%s\t%s\t%s\t%s\t%s\t%s\n' "$n" "$(date '+%d.%m %H:%M')" "$tk" "$yk" "$bk" "$karar" >> kayit/denetim.tsv
+      [ "$karar" = ONAYLANAMAZ ] && echo "kol$k: G$n ONAYLANAMAZ (çıkış kodları tarz $tk · yüz $yk · benzerlik $bk; 1 ŞÜPHELİ, 2 KALDI, 3 DUR) — onayli/'e taşınmaz, ret yolu (DENETIM-2/8/53)"
+      if [ "$bk" = 3 ]; then
+        touch DUR
+        echo "kol$k: G$n BENZERLİK DUR — sınır kurulamadı, döngü durdu; SAHİBİNE SOR (DENETIM-53)"
+      fi
     fi
     rmdir "kilit/G$n"
     [ "$sonuc" = SINIR ] && { echo "kol$k: kota/hız sınırı, $BEKLE sn bekliyor (log: $LOG/codex_G$n.log)"; sleep "$BEKLE"; }

@@ -4,6 +4,16 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
+> ## ✅ BEŞ BAĞLANTI YAPILDI (21 Kasım 2026, sahibi: "programları bağlayalım") — aşağıdaki "Sahibine sorulacak" madde 2 BİTTİ
+> (a) kapı `kaynak/` değişen her commit'te iki doğrulayıcı + `test_*.js`'i koşar; (b) `uretim/dongu.sh` üç aracın çıkış koduna bakar
+> (KALDI/ŞÜPHELİ → `v<N>/kayit/denetim.tsv` ONAYLANAMAZ; benzerlik DUR → döngü durur) ve kapı `onayli/`'e giren resimde araçları yeniden
+> koşar; (c) `istem_kontrol.sh` yeni konuk temelinde `arac_benzerlik.js`'i çağırır; (d) gömme commit'i (gorseller.json, yeni_gorsel/)
+> YALNIZ değişen resmin vakasına resim kapısı açar (anahtar → `uretim/v<N>/LISTE.md` / `vaka<N>_gorsel.md`); (e) diyalogda söz farkı
+> commit'i durdurur (`[söz onaylı]` iletide → geçer). Git kancası `.githooks/commit-msg` (bu bilgisayarda `core.hooksPath` kuruldu;
+> Oğuz Bey'in bilgisayarında bir kez `git config core.hooksPath .githooks`). Hepsi gerçek denemeyle sınandı. Uygulayıcı satırları
+> `program`'a döndü (KOD-3, KOD-35, SATIR-11, 38, 40–42, SEZON-26, DENETIM-1, 2, 7, 8, 38, 53, GOMME-1). **Sırada madde 1** (listeleri
+> kısaltma), sonra 3, 4, 5. Açık küçük not: söz farkı aracı diyalog dosyasının baş notlarını da söz sayar (onları değiştirmek de `[söz onaylı]` ister).
+>
 > ## ▶️▶️ YENİ PENCERE: ADIM 4 BURADAN SÜRER (21 Kasım 2026; sahibi biçimi 20 Kasım gece onayladı: "Evet, başla")
 > **Sahibinin cevap beklediği soru (son mesaj):** "Önce hangisini yapayım: programları bağlamak mı (önerim), listeleri kısaltmak mı?"
 > — aşağıdaki "Sahibine sorulacak" madde 2 (öneri) ve madde 1. Sahibi cevap vermeden kod değiştirme (SUREC-1). Cevaba göre:

@@ -76,6 +76,9 @@ cd kaynak
 node dogrulayici.js && node build_html.js     # doğrulayıcı geçmezse derleme olmaz
 for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçmeli
 ```
+Commit kapısı bunları (iki doğrulayıcı + testler) `kaynak/` değişen her commit'te kendisi koşar; diyalogda söz farkını da durdurur
+(sahibi onayladıysa iletiye `[söz onaylı]`) — KOD-35. **Yeni bilgisayarda bir kez:** `git config core.hooksPath .githooks`
+(Codex ve terminal commit'leri de kapıdan geçsin).
 `test_bozuk.js` ve test sayısı — KOD-7 (`test_bozuk.js` yedi senaryoda BLOCKED basar, çıkış kodu 0; öbür 26 test
 geçmelidir: 22'si eski oyunun; `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js` ve `test_yeni_kimyapti.js` yeni oyunun).
 
