@@ -34,7 +34,9 @@
 > (`adim4/uyg_*.tsv`'deki TON-6 aday satırı tarihî kayıt, dokunulmadı.)
 > **(10) TON-12 YAZILDI (sahibi: "Yaz"):** `dogrulayici.js yeni` yeni **K23** (UYARI): "çeyrek / yarım saat / sayı (+ dakika) kala"
 > (vakalar, açılış, künye). Bugün 0 (tek "kala" V2 "düğüne üç gün kala", doğru). Bilerek V8'e üç saat + bir süre cümlesi → üçü uyarıldı,
-> süre ve "çeyrek geçe" uyarılmadı. **SIRADAKİ:** RAF-65 (`## hikaye` 5–7 paragraf).
+> süre ve "çeyrek geçe" uyarılmadı.
+> **(11) RAF-65 YAZILDI (sahibi: "Yaz"):** K19 "Dosyanın tamamı" (`kim_yapti.hikaye`) yoksa ya da 5–7 paragraf değilse UYARI. Bugün 0
+> (V1–V3 6, V4–V8 5). Bilerek V7 2 paragrafa indirildi, V8'de silindi → ikisi uyarıldı. **SIRADAKİ:** BILGI-17 (ipucu görseline `gosterir`).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

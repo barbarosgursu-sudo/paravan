@@ -4278,7 +4278,7 @@ Mağaza sayfasında "Reklam içerir" ve "Uygulama içi satın alma" etiketleri (
 #### RAF-65 Dosyanın tamamı
 (17 Ekim 2026, sahibinin kararı.) Kapanıştan sonraki ekranda (vaka sonundaki ekran: Kaçırdığın ipuçları / Dosya kapandı) ayrı bir düğme, reklamla açılır: "Dosyanın tamamı · reklam". Açan oyuncu vakanın gerçekte nasıl olduğunu olay sırasıyla okur: 5–7 kısa paragraf — suçlu ne yaptı, neden; masumlar o gece neredeydi; yanıltan izler nereden geldi. Formun §2'sinden (Gerçek) düz dille. "Geri" ile aynı ekrana döner. Kaçan ipucu reklamlarından bağımsızdır; bir kez izlenince o ekranda yeniden reklamsız açılır. Masaya dönünce kapanır, Defter'den açılmaz — reklamın ödülüdür. Metin diyalogda `## hikaye` (`**HİKÂYE:**` paragrafları) → `kim_yapti.hikaye`; yoksa `arac_diyalog.js` yazmaz (`arsiv/kaynak/YENI_OYUN_CERCEVE.md`). Ekran `yeni_arayuz.js → hikayeIzle, hikayeEkrani`. AÇIK SORU (sahibi): düğmenin yeri geçici — kaçan ipuçlarının altında durunca oyuncu ipuçlarını izlemeyip doğrudan hikâyeyi açar; Defter → Anı'ya ise vaka sonrası kimse gitmez. Şimdilik böyle kalıyor, sonra düşünülecek.
 Uygulamada (telefon ve tablet) Vaka 1–2'de ve satın alanlarda reklamsız açılır (RAF-47; sahibinin kararı, 20 Kasım 2026).
-*Uygulayıcı:* program `kaynak/arac_diyalog.js` '## hikaye' yoksa YAZILMADI · hatırlat 3
+*Uygulayıcı:* program `kaynak/arac_diyalog.js` '## hikaye' yoksa YAZILMADI · program `kaynak/dogrulayici.js` K19 (UYARI) metin yok ya da 5–7 paragraf değil · hatırlat 3
 *Kaynak:* 2006, 636
 
 ### H. İndirme, yer, kayıt ve bulut

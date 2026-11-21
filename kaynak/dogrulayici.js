@@ -1032,6 +1032,11 @@ function kural19_kimYapti(game, hatalar, uyarilar) {
         const n = (sahneler[ad].satirlar || []).filter(s => s && s.k && s.k !== "not").length;
         if (n < 4 || n > 9) uyarilar.push(`[K19] ${vaka.id}: '${ad}' ${n} replik — yüzleşme 4–9 replik olur (YAPI-16).`);
       }
+    // "Dosyanın tamamı" (RAF-65; sahibi 22 Kasım 2026: UYARI): 5–7 kısa paragraf, diyalogda `## hikaye`.
+    const hik = ky.hikaye, par = Array.isArray(hik) ? hik.filter(p => String(p || "").trim()).length
+      : typeof hik === "string" ? hik.split(/\n\s*\n/).filter(p => p.trim()).length : 0;
+    if (!par) uyarilar.push(`[K19] ${vaka.id}: 'Dosyanın tamamı' metni yok (kim_yapti.hikaye; diyalogda '## hikaye') (RAF-65).`);
+    else if (par < 5 || par > 7) uyarilar.push(`[K19] ${vaka.id}: 'Dosyanın tamamı' ${par} paragraf — 5–7 kısa paragraf olur (RAF-65).`);
     const dec = vaka.decisions || [];
     if (dec.length !== 4) hatalar.push(`[K19] ${vaka.id}: ${dec.length} karar; şablon 4 ister.`);
     for (const d of dec) {
