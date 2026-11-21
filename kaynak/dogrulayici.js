@@ -1225,6 +1225,29 @@ function kural22_tutar(game, uyarilar) {
   }
 }
 
+// K23 — saat "kala" ile geriye sayılmaz (TON-12; Adım 4 madde 3, 22 Kasım 2026, sahibi: "Yaz"). Yalnız UYARI.
+//   "dokuza çeyrek kala", "sekiz buçuğa yirmi kala", "gece yarısına beş kala" yakalanır; "kala"dan önce çeyrek / yarım saat /
+//   dakika / sayı gelir. "düğüne üç gün kala" gibi saat olmayan süre (gün, hafta, ay, yıl) yakalanmaz.
+const KALA_RE = /(?<!\p{L})(çeyrek|yarım saat|(?:\d+|bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz|on|yirmi|otuz|kırk|elli)(?:\s+(?:bir|iki|üç|dört|beş|altı|yedi|sekiz|dokuz))?(?:\s+dakika)?)\s+kala(?!\p{L})/u;
+function kural23_kala(game, uyarilar, kisiler, acilis) {
+  if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
+  const ara = (kok, ad) => {
+    const goruldu = new Set();
+    const gez = x => {
+      if (typeof x === "string") {
+        const m = String(x).toLocaleLowerCase("tr").match(KALA_RE);
+        if (m && !goruldu.has(m[0])) { goruldu.add(m[0]);
+          uyarilar.push(`[K23] ${ad}: "${m[0]}" — saat "kala" ile geriye sayılmaz, ekrandan okunur gibi söylenir ("sekiz kırk beşte") (TON-12).`); }
+      } else if (Array.isArray(x)) x.forEach(gez);
+      else if (x && typeof x === "object") Object.values(x).forEach(gez);
+    };
+    gez(kok);
+  };
+  for (const vaka of game.vakalar) ara(vaka, vaka.id);
+  if (acilis) ara(acilis, "açılış");
+  if (kisiler) ara(kisiler, "kisiler.json");
+}
+
 function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   const hatalar = [], uyarilar = [];
   kural1_sozluk(game, hatalar);
@@ -1250,6 +1273,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural20_sabitler(game, hatalar, kisiler, acilis, gorseller, uyarilar);
   kural21_replik(game, uyarilar, acilis);
   kural22_tutar(game, uyarilar);
+  kural23_kala(game, uyarilar, kisiler, acilis);
 
   console.log("PARAVAN DOĞRULAYICI v2");
   console.log("──────────────────────");
@@ -1284,6 +1308,8 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
     console.log(`Kural 21 (Replik boyu)  : ${uyariSay("[K21]") ? uyariSay("[K21]") + " UYARI" : "PASS"}`);
   if (game.kanon && game.kanon.sahne)
     console.log(`Kural 22 (Tutar tablosu): ${uyariSay("[K22]") ? uyariSay("[K22]") + " UYARI" : "PASS"}`);
+  if (game.kanon && game.kanon.sahne)
+    console.log(`Kural 23 (Saat "kala")  : ${uyariSay("[K23]") ? uyariSay("[K23]") + " UYARI" : "PASS"}`);
   console.log("──────────────────────");
   hatalar.forEach(h => console.log("  ✗ " + h));
   uyarilar.forEach(u => console.log("  ⚠ " + u));

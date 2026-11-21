@@ -31,7 +31,10 @@
 > V8 dogru 11'e çıkarıldı → uyarıldı.
 > **(9) TON-6 SİLİNDİ (sahibi, 22 Kasım 2026: "Cengo ya da Peri sahneler ne kadar gerektiriyorsa o kadar konuşmalı"; yeniden yazmak bir şey
 > kazandırmıyorsa sil):** KURALLAR.md'den çıktı; kaynağı (HAM 1721) `harita_TON.tsv`'de ESKIDI, kayıt `kayit_sinif.tsv`'de GECMIS.
-> (`adim4/uyg_*.tsv`'deki TON-6 aday satırı tarihî kayıt, dokunulmadı.) **SIRADAKİ:** TON-12 ("… kala" saat sözü).
+> (`adim4/uyg_*.tsv`'deki TON-6 aday satırı tarihî kayıt, dokunulmadı.)
+> **(10) TON-12 YAZILDI (sahibi: "Yaz"):** `dogrulayici.js yeni` yeni **K23** (UYARI): "çeyrek / yarım saat / sayı (+ dakika) kala"
+> (vakalar, açılış, künye). Bugün 0 (tek "kala" V2 "düğüne üç gün kala", doğru). Bilerek V8'e üç saat + bir süre cümlesi → üçü uyarıldı,
+> süre ve "çeyrek geçe" uyarılmadı. **SIRADAKİ:** RAF-65 (`## hikaye` 5–7 paragraf).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

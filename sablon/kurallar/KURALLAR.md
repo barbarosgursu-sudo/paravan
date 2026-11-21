@@ -91,7 +91,7 @@ Her vakanın girişinde Peri ile Cengo arasında bir espri ya da atışma olur.
 
 #### TON-12 Saat "kala" ile geriye sayılmaz
 Sahibinin kararı, 18 Ekim 2026; bütün vakalar (kural kitabı 5b). "Sekiz buçuğa çeyrek kala", "dokuza yarım saat kala", "sekiz buçuğa yirmi kala", "on bire on dört kala" gibi geriye sayan söyleyiş yazılmaz; o saat dijital ekrandan okunur gibi söylenir: "sekiz on beşte", "sekiz otuzda", "on kırk altı". "Buçuk", "çeyrek geçe", "on geçe" doğru ve serbesttir ("sekiz buçukta", "sekizi çeyrek geçe"). Kamera, alarm, telefon gibi bir cihazdan okunan saat her zaman ekrandaki gibi söylenir ("son kayıt on kırk altı"). Yazılı yüzeylerde (ipucu metni, olgu) rakam: "22.46'da". Taramada sorulur: "Saat 'kala' ile mi söyleniyor?" Uygulama: Vaka 3'te "on bire … kala", "gece yarısına beş kala" dijitale çevrildi; Vaka 2 olduğu gibi kalır (sahibinin kararı; "buçuk", "çeyrek geçe" doğrudur).
-*Uygulayıcı:* hatırlat 3, 5
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K23 (yeni oyun; UYARI) saat sözünde "… kala" · hatırlat 3, 5
 *Kaynak:* 180, 704, 2629, 2989
 
 #### TON-13 Dördüncü duvar seyrek ve yalnız Cengo
