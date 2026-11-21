@@ -14,7 +14,11 @@
 > replik (sahneler + ipucu sahneleri + açılış; anlatı `not` hariç) ve vaka ortalaması 45'in altı. Bugün 25 uyarı: V1 3, V2 1, V3 4, V4 4, V5 1,
 > V6 1, V7 8, açılış 1 uzun replik; V1 (36) ve V2 (37) ortalaması düşük. Bilerek V8'e 120 harf sokuldu → yakalandı. Eski oyun etkilenmez.
 > **(4) ARAYUZ-16 YAZILDI (sahibi: "Yaz"):** K15 ekran etiketinde 2'den fazla kişi → HATA (arac_diyalog yerine doğrulayıcı: kapı
-> zaten koşuyor). Bugün 0 ihlal; bilerek V6'ya `peri+cengo+jale` yazıldı → durdu. **SIRADAKİ:** KOD-44.
+> zaten koşuyor). Bugün 0 ihlal; bilerek V6'ya `peri+cengo+jale` yazıldı → durdu.
+> **(5) KOD-44 YAZILDI (sahibi: "Yaz"):** K15 Cengo'nun büro satırlarını (cengo_replik, cengo_kanit_replik) kapanışın arka/set/cset'iyle
+> denetler — ifade o kıyafette yoksa HATA. V6–V8'de 24 satır, 0 ihlal; bilerek V7 karar + V8 kanıt ifadesi bozuldu → durdu.
+> **Bulgu (sahibine söylendi):** `yuz` (dinleyenin yüzü, `peri.x+cengo.y`) hiçbir yerde denetlenmiyor; 524 satır ölçüldü, hepsi geçerli.
+> Ayrı aday olarak sorulabilir. **SIRADAKİ:** KOD-77/YAPI-34 (₺ tutarları fiyat tablosunda mı).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

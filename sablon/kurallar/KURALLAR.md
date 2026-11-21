@@ -3405,7 +3405,7 @@ Diyalogda `⚙ … · set: tayyor · cset: takim`: `set` Peri'nin, `cset` Cengo'
 - `cengo_replik: { i, yuz }` varsa o satır Cengo'nun repliği olarak oynar (`k: "cengo", kime: "peri"`, `i` Cengo'nun ifadesi, `yuz` dinleyen Peri'nin yüzü); diyalogda etiketli `**CENGO [ifade]:** metin {yuz: peri.x}`. Etiketsiz `**CENGO:**` → `cengo_replik` yok → eski düzende anlatı satırı (V1–V5 yeniden geçirilene dek).
 - `kim_yapti.cengo_kanit: { olgu: metin }` ve `kim_yapti.cengo_kanit_replik: { olgu: { i, yuz } }` aynı biçimden gelir (`## cengo_kanit` → `**olgu [ifade]:** metin {yuz: peri.x}`).
 - Eski alanlar: `onizleme` = eski karar ekranındaki tek cümlelik kısa sonuç (artık gösterilmez; zorunlu değil, doğrulayıcı da istemez (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19)); `para` = karar parası (hikâye rakamı; kasa yok); `gate: "yok"` (kapı yok); `seed_yaz` yok (tohum yok).
-*Uygulayıcı:* hatırlat 3
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K15 Cengo karar/kanıt repliğinin ifadesi kapanışın kıyafetinde · hatırlat 3
 *Kaynak:* 2435
 
 #### KOD-45 Kim yaptı? veri şeması

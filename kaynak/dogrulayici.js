@@ -873,6 +873,15 @@ function kural15_sahne(game, hatalar, acilis) {
   for (const vaka of game.vakalar) {
     for (const [ad, sahne] of Object.entries(vaka.sahneler || {})) denetle(`${vaka.id}/sahneler.${ad}`, sahne);
     for (const c of vaka.clues || []) if (c.sahne) denetle(`${vaka.id}/${c.id}.sahne`, c.sahne);
+    // Cengo'nun büro satırları (KOD-44): karar repliği (cengo_replik) ve söylenmeyen kanıt (cengo_kanit_replik) kararın
+    // ardından kapanışın mekânında ve kıyafetleriyle oynar (yeni_arayuz.js → kararVerFaz) — ifadesi o kıyafette olmalı.
+    const kp = (vaka.sahneler || {}).kapanis;
+    if (kp && !Array.isArray(kp)) {
+      const bur = (ad, r) => denetle(`${vaka.id}/${ad} (Cengo büroda)`, { arka: kp.arka, set: kp.set, cset: kp.cset,
+        figurler: ["peri", "cengo"], satirlar: [{ k: "cengo", ...r, m: "—", kime: "peri", ekran: "peri+cengo" }] });
+      for (const d of vaka.decisions || []) if (d.cengo_replik) bur(`karar ${d.id}`, d.cengo_replik);
+      for (const [o, r] of Object.entries((vaka.kim_yapti || {}).cengo_kanit_replik || {})) bur(`kanıt ${o}`, r);
+    }
     for (const d of vaka.decisions || [])
       if (d.kare && !kareler.has(d.kare)) hatalar.push(`[K15] ${vaka.id}/${d.id}: kare '${d.kare}' görsel listesinde yok.`);
   }
