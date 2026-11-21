@@ -9,8 +9,8 @@
 > V7'nin 27 istemi yine geçiyor), `dogrulayici.js yeni` yeni **K20** (sigara, bağ ±2, araştırma hakkı, kapanış iki hâl, webp),
 > `arac_diyalog.js` (SATIR-36), `arac_paket.js --yaz` (yarım set). KAR-24'e "bileklik SOL bilekte" eklendi. Uygulayıcı satırları
 > güncellendi (program 158 → 178).
-> **Bekleyen (sahibine soruldu):** (1) GOMME-28 — V4 ve V5'te masa kartı YOK (ne dosya ne yer tutucu; seçme ekranında yanlış resim
-> çıkıyor olabilir — Vaka 3 hatasının aynısı). (2) SUREC-13 — 7 adlı kişinin künyesi yok: V5 Derya, Efe; V6 Tahsin Usta; V7 Necmi;
+> **GOMME-28 YAZILDI (sahibi: "a yolu"):** K20 her vakada giris_gorsel = MASA_V<N> ve resim ya da yer tutucu; V4, V5 yer tutucuya eklendi
+> (masa ekranı resimsiz vakaya düz kart çiziyor — yanlış resim çıkmıyordu). **Bekleyen:** SUREC-13 — 7 adlı kişinin künyesi yok: V5 Derya, Efe; V6 Tahsin Usta; V7 Necmi;
 > V8 Nihat, Pınar, Yusuf (adsızlar — Kapıcı, Kalfa, Görevli, Simitçi, Vale, Set asistanı — kural "adı olan herkes" diyor).
 > **Bulgu:** V3 ve V6 Cengo istemlerinin çoğunda "tel" yok (KAR-24 17 Kasım'da kondu); program yeni istemlerde arar.
 > **Sonra:** madde 3'ün kalan grupları (zor ama değerli ~35, yazmaya değmez ~36) — yine tek tek; ardından eski oyunun arşivi (ayrı iş).

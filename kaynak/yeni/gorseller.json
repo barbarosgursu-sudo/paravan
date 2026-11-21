@@ -909,7 +909,9 @@
     "K198",
     "K199",
     "K200",
-    "K201"
+    "K201",
+    "MASA_V4",
+    "MASA_V5"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -1095,7 +1097,9 @@
     "K198": "büro, gece: askıda şoför kasketi, Cengo kendi ceketiyle",
     "K199": "kulis: Peri aynanın önünde telefonla konuşuyor (yalnız; telefondaki Gizem'in sesi)",
     "K200": "atölye: Peri paravanın arkasından önlükle çıkıyor (kep, gözlük yok, saç açık); herkes ona dönmüş",
-    "K201": "büro: Cengo çıkarken paravanın üstündeki kırmızı mantoyu koluna alıyor; Peri ile Gizem çantaya eğilmiş, görmüyor"
+    "K201": "büro: Cengo çıkarken paravanın üstündeki kırmızı mantoyu koluna alıyor; Peri ile Gizem çantaya eğilmiş, görmüyor",
+    "MASA_V4": "Vaka 4’ün masa kartı: vakanın afişinden yatay kırpık (afiş henüz yok)",
+    "MASA_V5": "Vaka 5’in masa kartı: vakanın afişinden yatay kırpık (afiş henüz yok)"
   },
   "kesim_yz": [
     "muzeyyen.normal",

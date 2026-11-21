@@ -2902,7 +2902,7 @@ Gelen görsel olduğu gibi WebP q80 → `kaynak/yeni_gorsel/kart_v<n>.webp`; `do
 
 #### GOMME-28 Masa kartı (Ajansın Masası, vaka seçme)
 Her vakaya kendi masa kartı (`MASA_V<N>`) — sahibinin kalıcı kararı (6–7 Kasım). Kart afişinden yatay kırpık, yüzler görünür: `magick yeni_gorsel/kart_v<N>.webp -resize 900x -crop 900x500+0+<y> +repage -quality 80 yeni_gorsel/masa_v<N>.webp`; `gorseller.json → dosyalar.MASA_V<N>` ve `game_data.json → vakalar[V<N>].giris_gorsel = "MASA_V<N>"` (yoksa önceki vakanın büro resmi görünür — Vaka 3'te sahibi buldu, 6 Kasım).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K20 giris_gorsel = MASA_V<N>, resim ya da yer tutucu · hatırlat 10
 *Kaynak:* 1145, 2967
 
 #### GOMME-29 Görsel standardın amacı: oyunda yan yana

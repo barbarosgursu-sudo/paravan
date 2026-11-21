@@ -1050,7 +1050,8 @@ function kural19_kimYapti(game, hatalar) {
 
 // K20 — yeni oyunun sabitleri (Adım 4 madde 3, 21 Kasım 2026; sahibi tek tek onayladı). Bütün vakalara aynı uygulanır.
 //   SINIR-13/KOD-78 sigara yok (metin, sahne notu, ifade adı) · KAR-21 karar bağı −2…+2 · ARAYUZ-36 araştırma hakkı 3 (Vaka 1: 4) ·
-//   KAR-16 kapanışta hem sıcak (bag: yuksek) hem soğuk (bag: dusuk) satır · GOMME-10 oyuna giren resim webp.
+//   KAR-16 kapanışta hem sıcak (bag: yuksek) hem soğuk (bag: dusuk) satır · GOMME-10 oyuna giren resim webp ·
+//   GOMME-28 her vakanın masa kartı (resim ya da yer tutucu).
 const SIGARA = /(^|[^\p{L}])(sigara|izmarit|tütün|puro|pipo|nargile|kül ?tabla|çakma[kğ])/iu;
 function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
   if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
@@ -1081,6 +1082,14 @@ function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller) {
   if (acilis) sigaraAra("acilis.json", acilis);
   if (gorseller) for (const [k, f] of Object.entries(gorseller.dosyalar || {}))
     if (!/\.webp$/i.test(f)) hatalar.push(`[K20] gorseller.json → ${k}: '${f}' webp değil — oyuna webp girer (GOMME-10).`);
+  // Her vakanın kendi masa kartı (GOMME-28): yoksa seçme ekranında başka vakanın resmi çıkar (Vaka 3'te sahibi buldu).
+  // Resim henüz yoksa yer tutucu olur (ekranda "görsel yok" kutusu) — sessizce yanlış resim çıkmaz.
+  if (gorseller) for (const vaka of game.vakalar) {
+    const masa = "MASA_" + vaka.id;
+    if (vaka.giris_gorsel !== masa) hatalar.push(`[K20] ${vaka.id}: giris_gorsel '${vaka.giris_gorsel}' — '${masa}' olmalı (GOMME-28).`);
+    else if (!(masa in (gorseller.dosyalar || {})) && !(gorseller.yer_tutucu || []).includes(masa))
+      hatalar.push(`[K20] ${vaka.id}: masa kartı '${masa}' ne gorseller.json → dosyalar'da ne yer_tutucu'da (GOMME-28).`);
+  }
 }
 
 function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
