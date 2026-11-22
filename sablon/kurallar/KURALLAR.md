@@ -2515,7 +2515,7 @@ Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun **he
 
 #### DENETIM-24 Kadraj, oran, ölçek ve zemin
 - Kadraj ve oran istemdeki gibi. Figürlerde uyluk ortasından yukarısı. Afişte alt %20 boş.
-- Boyutu dosya başlığından doğrula. Doğru değerler: 4:5 → 1122×1402, 3:4 → 1086×1448, 9:16 → 941×1672.
+- Boyutu dosya başlığından doğrula. Doğru değerler: 4:5 → 1122×1402, 3:4 → 1086×1448, 2:3 → 1024×1536 (kart), 9:16 → 941×1672.
 - Ölçek ve baş yüksekliği aynı mı (kontrol listesi E.2).
 - Zemin düz ve H4'teki renk (`arsiv/sablon/5_gorsel_sistemi.md` H4). (Vaka 3 kaydındaki "düz açık bej zemin" H4'ün Vaka 4 ve 14 Kasım 2026 kararlarıyla eskidi.)
 *Uygulayıcı:* hatırlat 10
