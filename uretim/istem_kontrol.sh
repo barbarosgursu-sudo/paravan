@@ -79,6 +79,11 @@ for f in "$@"; do
       if grep -q 'tarz_govde_' <<<"$refs" && ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then   # yeni karakter temeli (§4); Peri/Cengo yeni değil
         has 'benzemiyor'               || eksik+=("yeni karakter: 'X'e benzemiyor' satırı yok (D-4, BIRIKIM §8.7)")
         has 'Son referans YALNIZ'      || eksik+=("tarz örneği cümlesi yok (§3)")
+        # Gerçekten yeni karakter (kendi baş kırpığı yok — dönen Gizem gibi değil): baş silik referans söylenir, yoksa model
+        # referanstaki yüzü kopyalıyor (V3: Kenan, Sedat → V1'in Serkan'ı) — ISTEM-12. (22 Kasım 2026, sahibi.)
+        if ! grep -q '_bas\.' <<<"$refs"; then
+          has 'Başı bilerek silindi'   || eksik+=("yeni karakter temeli: 'Başı bilerek silindi: yüzü sıfırdan …' satırı yok (ISTEM-12)")
+        fi
         # Konuk benzerliği, yazıda (21 Kasım 2026, Adım 4 — SEZON-26): kişi adaylar.tsv'de olmalı ve havuzdaki kimseye,
         # aynı vakanın öbür adaylarına benzememeli. Benzerse istem üretime girmez.
         kim=${anahtar%%.*}

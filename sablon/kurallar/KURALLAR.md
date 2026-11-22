@@ -2056,7 +2056,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 - Referanslar: 1. `tarz_govde_<kadin|erkek|iri_erkek>.jpg` (başı silik), 2. `tarz_ornek_<kadin|erkek>.jpg`. Yüzü açık tarz referansı verilmez. Vaka 3 dersi (22 Ekim 2026, sahibi buldu): yüzü açık referans verilince ChatGPT yüzü ve pozu kopyaladı — Kenan ve Sedat Vaka 1'in Serkan'ı, Ferruh Rüstem'le aynı aileden çıktı; "İçindeki kişi bu görselde yok" satırı yetmedi.
 - İstem: tarz paragrafı → "Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi." → karakter (yaş, boy, yüz, saç, ayırıcı özellik — yüz biçimi, sakal/bıyık türü, saç kesimi; benzeyebileceği kişiye "X'e benzemiyor") → kıyafet → poz → bakış → ifade → (saç toplu satırı, yan karakterde; ISTEM-44) → kadraj + zemin → çıplaklık → tarz örneği cümlesi → yazı yasağı → oran.
 - (Vaka 3'teki eski cümlede "… kadraj ve arka plan içindir" yazıyordu; kalıptaki güncel biçimde "arka plan" yok, zemin istemde ayrıca yazılır.)
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` yeni karakter temelinde (baş kırpığı yok) 'Başı bilerek silindi' · hatırlat 8
 *Kaynak:* 1196, 1417, 413, 459, 1167, 3119
 
 #### ISTEM-13 Birbirine benzeyebilecek karakterler: "X'e benzemiyor"
