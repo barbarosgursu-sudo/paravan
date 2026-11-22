@@ -108,7 +108,7 @@
 
 ## 3. Giriş
 
-- **Yer, saat:** Büro, sabah. Peri **kırmızı mantoda** (Vaka 1'deki manto, kuşağı çözük — §14). Taç masada, kadife
+- **Yer, saat:** Büro, sabah. Peri **kırmızı mantoda** (Vaka 1'deki manto, kuşağı çözük — §14). **Resimde Vaka 1'deki manto birebir (sahibinin kararı, 22 Kasım 2026):** mantolu her V8 isteminde Vaka 1'in onaylı manto resimleri (`kaynak/yeni_gorsel/sprite/peri_manto_*.webp`, önce `peri_manto_normal`) referans verilir; dekoltesi kırpılmış/kapatılmış kopya (ISTEM-16). Manto yalnız Vaka 1 ve Vaka 8'de; Vaka 7'de yok. Taç masada, kadife
   kutusunda kapalı; anılmaz (kural 27). Cengo sabit kıyafetiyle.
 - **Müşteri:** **Bahar Hanım**, televizyonun sevilen aşçısı; sıcak, kahkahası büyük, eli boş gelmez (bir kavanoz reçel).
   Peri'yi tanır: "Siz… kozmetik reklamlarındaki kraliçe!" **Sezonda Peri'yi girişte tanıyan ilk müşteri** (V7'nin

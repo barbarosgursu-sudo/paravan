@@ -1,3 +1,5 @@
+**22 Kasım 2026 — PERİ'NİN GİRİŞ KIYAFETİ DEĞİŞTİ (Barbaros: "Kırmızı manto vaka 1'de kaldı").** Vaka 7'de manto YOK; formdaki "sabit kırmızı manto" yanlışlıktı (KAR-22). Yeni set `kadife7`: bordo kadife dar kalem etek (diz üstü), derin V yakalı krem ince triko, kırmızı stiletto, gevşek topuz; ifadeler satırların istediği dört: normal, kas, merakli, sasirmis. Form §3/§14, diyalog (iki sahne notu, set satırları, K124), veri (`setler`, `yer_tutucu`), G1 istemi ve LISTE güncel; eski G1 → `red/G1_red1.png`. `satir_resim.md` eski adı (`manto7`) taşıyor — araç yeniden koşunca düzelir. Kolye repliği ("mantonun cebine saklamıştım") aynen kaldı. **16 Kasım durdurma talimatının sebebi (manto) kapandı;** üretime dönüş için Barbaros "başla" der. Vaka 8'deki manto Vaka 1'dekinin aynısı, referans Vaka 1 resimleri (`vaka8_form.md` §3).
+
 **🛑 16 Kasım 2026, gece — VAKA 7 ÜRETİMİ DURDU (Barbaros'un talimatı).** Barbaros'la Peri'nin kıyafeti (önce kırmızı manto, G1)
 konuşulmadan Vaka 7'nin resimlerine devam edilmez. Döngü çalışıyorsa `touch uretim/v7/DUR`. Ayrıntı `kaynak/DEVIR.md` en üst.
 

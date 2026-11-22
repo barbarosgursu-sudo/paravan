@@ -14,11 +14,11 @@ ayrılır: Vedat iri, gür kır sakallı, bordo kadife ceketli; Necmi'nin çenes
 Süheyla'nın saçında kâkül yok (Dilek'in kâküllü küt saçından ayrılsın). **20 Kas (benzerlik aracı):** Süheyla'nın ilk resmi
 Jale'ye benzedi → saç küt değil, geriye taranmış sıkı topuz, kazak krem; Nesrin'in ilki Nadide'ye → saç kır değil koyu kestane.
 
-**Ayakkabı:** Peri `manto7` → kırmızı stiletto (sabit); `gala` → **siyah stiletto** (form §14).
+**Ayakkabı:** Peri `kadife7` → kırmızı stiletto (sabit); `gala` → **siyah stiletto** (form §14).
 
 | # | tür | ne | anahtar | bekler |
 |---|---|---|---|---|
-| G1 | kıyafet kartı | Peri, kırmızı manto (`manto7`) | — | — |
+| G1 | kıyafet kartı | Peri, bordo kadife etek + krem triko (`kadife7`; 22 Kas: manto Vaka 7'de yok) | — | — |
 | G2 | kıyafet kartı | Peri, gece mavisi balo elbisesi (`gala`; `altin`, `altin_temiz` hâlleri bu karttan) | — | — |
 | G3 | kıyafet kartı | Cengo, kiralık smokin (`smokin`, `smokin_tepsi`) | — | — |
 | G4 / G4z | figür | Süheyla Hanım, normal (temel) — açık bej / gri-mavi | `suheyla.normal` | tur |

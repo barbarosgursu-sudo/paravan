@@ -5,7 +5,8 @@
 `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka8_diyalog.md V8`.
 
 Yazım `vaka7_diyalog.md`'deki gibi. Vaka 8'in kıyafetleri (kıyafet hâli):
-- **Peri:** `manto8` (Vaka 1'deki kırmızı manto birebir: kruvaze, geniş açık yaka, kapaksız cepler, altında V yakalı krem
+- **Peri:** **Resimde Vaka 1'deki manto birebir (sahibinin kararı, 22 Kasım 2026):** mantolu her V8 isteminde Vaka 1'in onaylı manto resimleri (`kaynak/yeni_gorsel/sprite/peri_manto_*.webp`, önce `peri_manto_normal`) referans verilir; dekoltesi kırpılmış/kapatılmış kopya (ISTEM-16). Manto yalnız Vaka 1 ve Vaka 8'de; Vaka 7'de yok.
+  `manto8` (Vaka 1'deki kırmızı manto birebir: kruvaze, geniş açık yaka, kapaksız cepler, altında V yakalı krem
   saten bluz; **kuşak çözük, uçları sarkık**; dar siyah kalem etek, siyah stiletto; saç açık, dalgalı), `kilik` (aşçı
   yardımcısı: manto YOK; krem saten bluz ve dar kalem eteğin üstünde beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah
   çerçeveli gözlük burnunun ucunda; bluzun yakası ve bacak açıkta), `onluk8` (yüzleşme ve kovalamaca: aynı kılık, kep ve gözlük

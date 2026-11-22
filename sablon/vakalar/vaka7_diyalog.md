@@ -5,7 +5,7 @@
 `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka7_diyalog.md V7`.
 
 Yazım `vaka6_diyalog.md`'deki gibi. Vaka 7'nin kıyafetleri (kıyafet hâli):
-- **Peri:** `manto7` (kırmızı manto, Vaka 7 için yeniden çizilecek — yalnız giriş), `gala` (Gizem'in balo elbisesi: **gece mavisi** saten, ona dar ve
+- **Peri:** `kadife7` (bordo kadife dar kalem etek (diz üstü), derin V yakalı krem ince triko kazak, kırmızı stiletto, saç gevşek topuz — yalnız giriş; sahibinin kararı, 22 Kasım 2026: kırmızı manto Vaka 1'de kaldı, Vaka 8'de döner), `gala` (Gizem'in balo elbisesi: **gece mavisi** saten, ona dar ve
   kısa, derin yaka ve sırt, yüksek yırtmaç; dirseği geçen siyah saten eldiven; topuz; ince pırlanta kolye; siyah stiletto),
   `altin` (kovalamaca: aynı elbise, baştan aşağı yaldız ve vernik, eldivenler altın, topuz dağılmış), `altin_temiz` (yüzü
   silinmiş, eldivensiz, elbise pırıl pırıl, kulak arkasında yaldız — kovalamaca sonu, kararlar, kapanış).
@@ -34,11 +34,11 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ---
 
 ## sahne giris
-⚙ arka: A58 · figurler: peri, cengo · set: manto7 · cset: smokin
-⚙ akış: Büro, pazar, öğleden önce. Peri masada, kırmızı mantosuyla. Cengo dün geceki düğünden kiralık smokinle gelir. Kapı çalar, Süheyla girer; Peri'yi tanımaz (şaka 1). Tablo, şüpheler, Nesrin anılır. Katalog masada açılır: 14 numara, taç. Peri donar, söylemez. Süheyla Cengo'nun papyonuna uzanır (şaka 3). Ücret elli bin. Süheyla çıkar.
+⚙ arka: A58 · figurler: peri, cengo · set: kadife7 · cset: smokin
+⚙ akış: Büro, pazar, öğleden önce. Peri masada, bordo kadife eteği ve krem trikosuyla. Cengo dün geceki düğünden kiralık smokinle gelir. Kapı çalar, Süheyla girer; Peri'yi tanımaz (şaka 1). Tablo, şüpheler, Nesrin anılır. Katalog masada açılır: 14 numara, taç. Peri donar, söylemez. Süheyla Cengo'nun papyonuna uzanır (şaka 3). Ücret elli bin. Süheyla çıkar.
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheliler (Şükrü, Vedat) anılıyor, Nesrin suçlanmadan anılıyor, ücret elli bin; ipucu bilgisi yok (UV, kopya, onarım, yırtık, zarf, İzmir, Feriköy tuvali, eller, dün gece depo).
 
-*Pazar sabahı. Büro. Peri kırmızı mantosuyla masasında, bir gazetenin bulmacasını çözüyor.* {kare: K124}
+*Pazar sabahı. Büro. Peri bordo kadife eteği ve krem trikosuyla masasında, bir gazetenin bulmacasını çözüyor.* {kare: K124}
 *Kapı açılıyor. Cengo eşikte: üstünde bol bir siyah smokin, papyonu yamuk, gözleri uykusuz.* {gir: cengo, kare: K125}
 **PERİ [sasirmis]:** Cengo? Evlendin mi? {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 **CENGO [kas]:** Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade. {kime: peri, ekran: peri+cengo, yuz: peri.sasirmis}
@@ -76,7 +76,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SÜHEYLA [normal]:** Nasıl isterseniz. Akşam yedi. Hiç geç kalmayın. {cik, kime: peri, ekran: peri+suheyla, yuz: peri.normal}
 
 ## sahne konusma
-⚙ arka: A58 · figurler: peri, cengo · set: manto7 · cset: smokin
+⚙ arka: A58 · figurler: peri, cengo · set: kadife7 · cset: smokin
 ⚙ akış: Süheyla çıkmış; büroda Peri ve Cengo. Cengo taçtan söz eder; Peri geçiştirir. Kasa hesabı (şaka 2). Gizem askıda bir elbiseyle gelir; Peri paravanın arkasında değişir, çıkar: çekicilik anı. Plan: depo, Şükrü, Vedat, Nesrin; Cengo: vale, Feriköy. İpucu adlarındaki kişiler (Şükrü, Vedat, Nesrin) girişte duyuldu (K18).
 
 *Kapı kapanıyor. Cengo masadaki kataloğu açıp on dört numaraya bakıyor.* {gir: cengo, ekran: cengo, yuz: cengo.normal}
@@ -491,7 +491,7 @@ kodlardan sonra: A50, D22, K124.
 | D25 | UV ışığında tablonun köşesi: ince onarım izi | tablo |
 | D26 | Peri'nin eldivenli elinde tacın kartpostalı, arkasında kurşun kalemle "100" | tuval |
 | D27 | çerçeve odasında masaya açılmış rulo tuval: Boğaz'da akşam, köşede ince onarım | itiraf |
-| K124 | Giriş açılışı: Peri kırmızı mantosuyla masada, bulmaca (yalnız) | giriş |
+| K124 | Giriş açılışı: Peri bordo kadife etek ve krem trikoyla masada, bulmaca (yalnız) | giriş |
 | K125 | Cengo eşikte, bol smokin, yamuk papyon, uykusuz (yalnız) | giriş |
 | K126 | Peri açık katalog sayfasına bakıp kalmış; Cengo ona bakıyor; Süheyla konuşuyor | giriş |
 | K127 | Süheyla Cengo'nun papyonuna uzanıyor, Cengo geri çekiliyor; Peri masada | giriş |
@@ -519,7 +519,7 @@ kodlardan sonra: A50, D22, K124.
 | K154 | çerçeve odası: Nesrin taburede, masada açık rulo tuval; Peri (eldivensiz, pırıl pırıl elbise) ve Cengo (smokin) karşısında | karar sorusu, seçim anı |
 | K147 | Peri Cengo'nun papyonunu düzeltiyor, Cengo kıpırdamıyor; Gizem arkada tepsiyle | kapanış (bağ yüksek) |
 | K148–K151 | dört kararın ara karesi (ihbar: boşalan salon, Süheyla kadife kutuyu Peri'nin önüne koyuyor; sus: Peri'nin elinde taç, alkışlayan salon; sus payı: Süheyla tacı kutusuyla uzatıyor; Cengo: buruşuk paralar, Cengo'nun koltuğunda kutu) | kararlar |
-| Peri `manto7` | normal, kas, sasirmis, merakli | giriş, konuşma başı |
+| Peri `kadife7` | normal, kas, sasirmis, merakli | giriş, konuşma başı |
 | Peri `gala` | normal, kas, merakli, sasirmis, sevincli, utanmis | konuşma sonu, ipuçları, yüzleşmeler |
 | Peri `altin` | sinirli, kas | kovalamaca |
 | Peri `altin_temiz` | normal, kas, yumusak | kovalamaca sonu, itiraf, kapanış |

@@ -74,20 +74,7 @@
             "gala": ["normal", "kas", "merakli", "sasirmis", "sevincli", "utanmis", "yumusak"],
             "altin": ["sinirli", "kas"],
             "altin_temiz": ["normal", "kas", "yumusak"],
-            "manto7": [
-              "normal",
-              "kas",
-              "sinirli",
-              "utanmis",
-              "kagit",
-              "cuzdan",
-              "sasirmis",
-              "merakli",
-              "aci",
-              "telefon",
-              "islak",
-              "tel"
-            ],
+            "kadife7": ["normal", "kas", "merakli", "sasirmis"],
             "manto8": ["normal", "kas", "sinirli", "merakli", "sevincli", "utanmis", "sasirmis", "yumusak"],
             "kilik": ["normal", "kas", "merakli", "utanmis", "yumusak", "sasirmis", "sinirli"],
             "onluk8": ["normal", "kas", "sinirli", "utanmis", "sasirmis", "yumusak"],
@@ -8921,13 +8908,13 @@
       "sahneler": {
         "giris": {
           "arka": "A58",
-          "set": "manto7",
+          "set": "kadife7",
           "cset": "smokin",
           "figurler": ["peri", "cengo"],
           "satirlar": [
             {
               "k": "not",
-              "m": "Pazar sabahı. Büro. Peri kırmızı mantosuyla masasında, bir gazetenin bulmacasını çözüyor.",
+              "m": "Pazar sabahı. Büro. Peri bordo kadife eteği ve krem trikosuyla masasında, bir gazetenin bulmacasını çözüyor.",
               "kare": "K124"
             },
             {
@@ -9159,7 +9146,7 @@
         },
         "konusma": {
           "arka": "A58",
-          "set": "manto7",
+          "set": "kadife7",
           "cset": "smokin",
           "figurler": ["peri", "cengo"],
           "satirlar": [

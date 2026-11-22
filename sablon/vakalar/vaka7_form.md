@@ -97,7 +97,7 @@ suçlu yine "içeriden".
 
 ## 3. Giriş
 
-- **Yer, saat:** Büro, pazar, öğleden önce. Peri sabit kıyafetinde (kırmızı manto). **Cengo kiralık smokinle gelir:**
+- **Yer, saat:** Büro, pazar, öğleden önce. Peri yeni kıyafetinde (bordo kadife etek, krem triko). **Cengo kiralık smokinle gelir:**
   dün gece bir düğünde garsonluk yaptı, smokin pazartesi iade, papyon yamuk. Peri: "Evlendin mi?" Cengo: "Servis
   ettim."
 - **Müşteri:** **Süheyla Hanım**, Nişantaşı'nda müzayede evinin sahibesi; keskin, hızlı konuşur, gözü her şeyi fiyatlar.
@@ -361,7 +361,7 @@ Gizem yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
 
 ## 14. Kıyafet
 
-- **Peri (yeni) 🟢:** girişte sabit kırmızı manto. Sonra **Gizem'in mezuniyet balosu elbisesi**: gece mavisi saten,
+- **Peri (yeni) 🟢:** girişte bordo kadife dar kalem etek (diz üstü), derin V yakalı krem ince triko kazak, kırmızı stiletto, saç gevşek topuz (sahibinin kararı, 22 Kasım 2026: kırmızı manto Vaka 1'de kaldı; formdaki "sabit kırmızı manto" yanlışlıktı — KAR-22). Sonra **Gizem'in mezuniyet balosu elbisesi**: gece mavisi saten,
   ona dar ve kısa; derin yaka ve sırt dekoltesi, yüksek yırtmaç; dirseği geçen **siyah saten eldiven**; saç **topuz**;
   boynunda ince **pırlanta kolye** — hacizden kurtardığı tek mücevher 🟡; siyah stiletto. Kural: dekolte tabanda.
 - **Cengo (yeni) 🟢:** **kiralık siyah smokin** (bir beden büyük, kolları uzun), beyaz gömlek, **yamuk siyah papyon**,
@@ -391,7 +391,7 @@ Gizem yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
 
 | tür | ne |
 |---|---|
-| Peri, manto (giriş) | sabit set |
+| Peri, kadife (giriş) | satırların istediği ifadeler (normal, kas, merakli, sasirmis) |
 | Peri, gece elbisesi | satırların istediği ifadeler; çekicilik anı (paravandan çıkış); taç anı (donar) |
 | Peri, altın | felaket: yerde, kaidede heykel, Nesrin'i yakalarken; temizlenmiş (pırıltılı elbise) |
 | Cengo, smokin | satırların istediği ifadeler; tepsiyle; papyonu düzeltilirken (kapanış) |
