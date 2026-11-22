@@ -720,7 +720,7 @@ Oyunun en başındaki açılış (haciz, büro, Cengo) vaka değildir, vaka form
 #### YAPI-4 Sabit sayılar: şüpheli, karar, süre
 - **3 şüpheli:** 1 gerçek suçlu, 2 yanlış iz.
 - **4 karar.**
-- **Süre:** bir vaka 15–25 dakika (formda "süre hedefi").
+- Dakika hedefi YOK (sahibinin kararı, 22 Kasım 2026): süre ölçülmüyor; uzunluğu şüpheli/karar sayısı, araştırma hakkı, yüzleşme replik sayısı (YAPI-16) ve replik boyu (TON-9) belirler. Süre tahmini RAF-5'te. (Eskiden: "bir vaka 15–25 dakika", formda "süre hedefi"; RAF-5'in ~10–15 dk'sıyla çelişiyordu.)
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (3 şüpheli, 4 karar) · hatırlat 1
 *Kaynak:* 117, 122, 123, 573, 656
 
@@ -3946,8 +3946,8 @@ Türler serbest (dedektiflik, gerilim, aşk, tarih…). Ortak ruh: kararların b
 *Kaynak:* 1552
 
 #### RAF-5 Kitabın boyutu
-Sahibinin kararı: her kitap 8–10 sezon, her sezon 8–10 vaka. Paravan'da bir vaka ~10–15 dakika (metin sayımı, 9 Kasım 2026: oyuncunun gördüğü yolda V1 ~130 satır, V2 ~150, V3 ~160; vakalar uzuyor). Bir sezon ~1,5–2,5 saat.
-*Uygulayıcı:* yok — kitap boyutu kaydı (vaka süresi hedefi YAPI-4'te)
+Sahibinin kararı: her kitap 8–10 sezon, her sezon 8–10 vaka. Süre **tahmindir, hedef değil** (sahibinin kararı, 22 Kasım 2026; dakika hedefi yok — YAPI-4): bir vaka ~10–15 dakika (metin sayımı, 9 Kasım 2026: oyuncunun gördüğü yolda V1 ~130 satır, V2 ~150, V3 ~160; vakalar uzuyor), bir sezon ~1,5–2,5 saat. Gerçek oyuncu süresi ölçülünce (Android aşaması) tahmin güncellenir.
+*Uygulayıcı:* yok — kitap boyutu kaydı; süre tahmini
 *Kaynak:* 1553
 
 #### RAF-6 Eski Paravan yayınlanmaz

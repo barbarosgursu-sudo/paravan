@@ -24,7 +24,6 @@ Hangi tekrardan kaçınıldığı, hangisinin bilerek kaldığı yazılır.
 | Tip | Bilmece — YAPI-3 *(Ters tip ertelendi; kullanılacaksa ortak karar verir ve formda yazılır)* |
 | İpucu / hak | (Vaka 1: 5/4 · Vaka 2: 6/3) — YAPI-5 (3 hak; 3 hakla `doğru` yolu şart; +1 hak RAF-52) |
 | Vaka ücreti | (fiyat tablosundan) — YAPI-32 |
-| Süre hedefi | YAPI-4 |
 
 ## 2. Gerçek *(oyuncuya asla gösterilmez)*
 
