@@ -59,14 +59,8 @@ for (const vaka of G.vakalar.filter(v => v.kim_yapti)) {
   }));
   k("her doğru kanıt çifti hak içinde toplanabiliyor", !ulasilmaz.length, ulasilmaz.map(c => c.join("+")).join(", "));
 
-  // Kasa yalnız birikir (kural 24): en kötü ücret + en kötü karar parası ≥ 0.
-  const enAzUcret = Math.min(...Object.values(ky.ucret));
-  const enAzPara = Math.min(...vaka.decisions.map(d => d.para || 0));
-  k("en kötü ücret + en kötü karar ≥ 0", enAzUcret + enAzPara >= 0, `${enAzUcret} + ${enAzPara}`);
-
-  // Kirli seçenek biraz daha çok kazandırır (kural 26), ama ücreti geçmez.
-  const enCok = Math.max(...vaka.decisions.map(d => d.para || 0));
-  k("en çok kazandıran karar ücretin altında", enCok < ky.ucret.dogru, `${enCok} / ${ky.ucret.dogru}`);
+  // Kasa denetimleri ("en kötü ücret + karar ≥ 0", "kirli karar ücreti geçmez") 22 Kasım 2026'da kalktı: kasa yok
+  // (YAPI-31), para yalnız sahnede. Tutarların fiyat tablosunda olmasını K22 (YAPI-34), sahnede görünmesini göz denetimi kollar.
 }
 
 // Vakalar sırayla açılır: Vaka 1 bitince sıradaki omurga (sira) gelir.
