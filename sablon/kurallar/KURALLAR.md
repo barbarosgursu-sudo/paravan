@@ -2155,7 +2155,7 @@ Fiziksel komedi karesinde: "Sahne aile dostu bir fiziksel komedi anıdır; kamer
 *Kaynak:* 1215, 415
 
 #### ISTEM-25 Üretici reddederse
-- Üretici: önce ChatGPT; reddederse ya da tutmazsa Grok.
+- Üretici: önce Codex, iki deneme (CODEX-10). İki kez engellenen resim web'e gider (DENETIM-42): orada önce ChatGPT; reddederse ya da tutmazsa Grok (sahibinin kararı, 22 Kasım 2026; eski satır "önce ChatGPT" Codex döngüsünden önceydi).
 - ChatGPT reddederse önce (16 Ekim 2026, sahibinin kararı; Vaka 2 K23): aynı promptu ChatGPT'nin düşünen kipinde ("Çalışma") yeniden ver. Filtreye takılınca promptu kendisi yeniden yazıp dener ("seksi" → "şık ve çekici moda estetiği", ceket kapalı, kamera açısı nötr, sahne "aile dostu fiziksel komedi"). 11 Ekim'de reddedilen K23 böyle üretildi ve Grok'unkinden iyi çıktı. Gelince bak: yumuşatılmış tarif Peri'nin görünüşünü (dekolte, kıyafet sabitleri) değiştirmiş mi — K23'te değiştirmemişti. Olmazsa aynı promptla (orijinal istemle) Grok. Grok da reddederse sahibine sorulur, istem kendiliğinden yumuşatılmaz.
 - Claude promptu kendiliğinden yumuşatmaz (sahibi yumuşatılmış prompt istemiyor).
 *Uygulayıcı:* hatırlat 9

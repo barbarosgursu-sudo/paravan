@@ -139,6 +139,7 @@
 > (65) **Şüpheli 4 — DENETIM-21 ÇÖZÜLDÜ** (sahibi: "Önerinle devam edelim"): burun sola yalnız figürde (oyun aynalar); ara kare, detay, afişte yön serbest. Sayfada "vaka" (kısmen). **SIRADAKİ:** şüpheli 5 — ISTEM-21 (felakette de seksi).
 > (66) **Şüpheli 5 — ISTEM-21 KALDI** (sahibi: "Kalsın"): felakette de "seksi ve komik"; SINIR-5, SINIR-8 ile uyumlu. Sayfada "doğru". **SIRADAKİ:** şüpheli 6 — KAR-13 (sezonun planlı anları).
 > (67) **Şüpheli 6 — KAR-13 KAYDA ALINDI** (sahibi: "1"): sezon 1'in planlı anları dördü de yazıldı; uygulayıcı "yok — kayıt", artık hatırlatılmaz; sezon 2 listesi ayrıca yazılır. **SIRADAKİ:** şüpheli 7 — ISTEM-25 (ChatGPT→Grok).
+> (68) **Şüpheli 7 — ISTEM-25 DÜZELTİLDİ** (sahibi: "Önerini uygulayalım"): üretici sırası önce Codex (iki deneme, CODEX-10), engellenen web'de ChatGPT, sonra Grok. Sayfada "yanlış" (düzeltildi). **SIRADAKİ:** şüpheli 8 — SEZON-23 (6–8 figür ↔ SATIR-35).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
