@@ -3081,7 +3081,7 @@ Oyun her resmi bir anahtarla arar (ör. `peri.trenckot.kas`, `A23`, `K36`); göm
 - Durdurmak için `touch uretim/v<N>/DUR` (TaskStop Windows'ta kabuğu öldürmez); sonra kalan `codex`/`bash` süreci var mı bakılır.
 - *Bilgi:* [BIRIKIM › 3.4 Yavaşlama ve izinler (önemli)] Sahibine not: terminalde Ok tuşu komutu yalnız kutuya getirir; çalıştırmak için Enter gerekir. (k:984e79cb06)
 - *Bilgi:* [V4 başlangıç › 3. Bu vakada yeni olan] **Codex 2 kolla denenir** (resim aşaması). Amaç: hesabın aynı anda kaç resim isteğini kabul ettiğini, hız sınırı olup olmadığını görmek; Vaka 1–2 paralel üretiminin kol sayısı buna göre seçilir. **Ön koşul:** `uretim/dongu.sh`'ye kol desteği (aynı resmi iki kolun almaması için kilit, kol başına ayrı log ve kayıt dosyası) ve `AGENTS.md` kayıt kuralı. Henüz YAZILMADI — resim aşamasından önce sahibine hatırlat, "yap" deyince yazılır. Sahibi ayrıca kendi bilgisayarında `git pull` yapar, Codex'in güncel ve girişli olduğuna bakar, açık kalmış eski döngü olmadığından emin olur. (k:3aa52d436b)
-*Uygulayıcı:* program `uretim/dongu.sh` ikinci döngüyü durdurur (`kilit/DONGU` süreç numarası; çıkış 4) · hatırlat 9
+*Uygulayıcı:* program `uretim/dongu.sh` ikinci döngüyü durdurur (DONGU kilidinde süreç numarası; çıkış 4) · hatırlat 9
 *Kaynak:* 1081
 
 #### CODEX-23 Tuzak: sahte Codex'le deneme (13 Kasım 2026)
