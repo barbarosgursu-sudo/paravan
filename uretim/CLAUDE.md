@@ -12,7 +12,7 @@ GOMME-*, SATIR-* (eski belge: `arsiv/sablon/5_gorsel_sistemi.md` → H. Görsel 
 > **Peri ve Cengo**
 > - Cengo'da her vakada aynı kalan: yüz, saç, tel, bileklik — KAR-24, KAR-23 (17; saç 19 Kasım).
 > - Dönen kişilerin yüzü ve kimliği aynı kalır, Cengo'nun saçı hariç kıyafet/saç/takı değişir — SEZON-19 (30).
-> - Peri'de külotlu çorap yok — ISTEM-38, ISTEM-20 (15).
+> - Peri'nin çorabı vakanın kıyafetine göre (çoraplı ya da çorapsız, bant serbest) — ISTEM-20 (22 Kasım 2026; 17 Kasım'daki "çorap yok" kalktı).
 > - Peri'nin dekoltesi asla azaltılmaz — SINIR-3 (32).
 > - Felaket ve komedi karesinde "seksi"; filtrenin sebebi referanstaki dekolte — ISTEM-16, ISTEM-21, ISTEM-24 (9).
 > - Cengo'nun Peri'nin yanında olma sebebi bilinir (alacağı var) — KAR-7 (18).

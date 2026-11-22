@@ -22,7 +22,7 @@ arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak
 >
 > ### ✅ ONAYLI 41 KARAR + CENGO'NUN SAÇI (17 + 19 Kasım 2026): kararlar `sablon/kurallar/KURALLAR.md`'ye işlendi; kısa liste
 > ### `uretim/CLAUDE.md` en üstte. Örn.: Cengo'da sabit yalnız yüz, saç, tel, bileklik — KAR-24; ifade sayısını satırlar belirler — SATIR-35;
-> ### konuk figürü 4:5 — ISTEM-3; figür zemini programla — GOMME-16; Peri'de çorap yok — ISTEM-38; replik anlaşılır — TON-9.
+> ### konuk figürü 4:5 — ISTEM-3; figür zemini programla — GOMME-16; Peri'nin çorabı vakanın kıyafetine göre — ISTEM-20; replik anlaşılır — TON-9.
 >
 > ### ✅ VAKA 6 DONDU (15 Kasım 2026, adım 14): Onay 3 düzeltmeleri gömüldü, kapı GEÇTİ, sızıntı taraması temiz, tablet ve
 > ### 19 ekran boyu denetimi geçti. Sıradaki iş sahibinde — `kaynak/DEVIR.md` en üst.

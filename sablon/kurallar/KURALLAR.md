@@ -328,7 +328,7 @@ Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `arsiv/k
 *Kaynak:* 193, 102, 1857, 3084, 1971
 
 #### KAR-23 Karakter sabitleri (her istemde yazılır, her denetimde aranır)
-- Peri: kırmızı stiletto (görünüyorsa HER resimde), çorap yok — istisna: vakanın formu başka ayakkabı yazıyorsa o (Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı).
+- Peri: kırmızı stiletto (görünüyorsa HER resimde). Çorabı sabit değil: vakanın kıyafetine göre çoraplı ya da çorapsız, bant görünebilir (sahibinin kararı, 22 Kasım 2026). Ayakkabının istisnası: vakanın formu başka ayakkabı yazıyorsa o (Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı).
 - Cengo: renkli boncuklu bileklik. Ceket sabit değil — `uretim/CLAUDE.md`'deki "haki ceket" yalnız Vaka 3'ün kıyafetiydi; ceket vakanın formundan gelir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17).
 - Ferruh: kalem gibi ince bıyık, bordo papyon.
 - Gizem: bal rengi kâküllü saç, çil.
@@ -2124,7 +2124,7 @@ Vaka 6'da (Parti 2'den önce sorulan soru; 13 Kasım 2026, sahibinin cevabı) ko
 
 #### ISTEM-20 Karakter sabitleri her istemde
 - Karakter sabitleri her istemde tek tek yeniden yazılır; referansa güvenilmez (Vaka 2 K24, G19: ayakkabı yeşil, saç kumral çıktı). Ör. "kırmızı stiletto", "platin saç".
-- Peri: HER istemde "kırmızı stiletto" (Vaka 3'te ayakkabı siyah çıktı) ve "çorap yok" (sahnelerde "ÇORAP YOK"). Ayakkabının istisnası (vakanın formu başka ayakkabı yazıyorsa o: Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı) ve sabitler tablosu: KAR-23 (uretim/CLAUDE.md, karakter sabitleri). Peri'de çorap yok; ISTEM-38'deki külotlu çorap kuralı Peri'ye uygulanmaz (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 15). Mantolu Peri'nin altında siyah kalem etek (sahibinin duran kuralı, 7 Ekim 2026).
+- Peri: HER istemde "kırmızı stiletto" (Vaka 3'te ayakkabı siyah çıktı) ; çorabı vakanın kıyafetine göre — çoraplı da olabilir çorapsız da, formdaki kıyafet söyler; çorapsızsa istemde "ÇORAP YOK", çoraplıysa bandın görünmesi sorun değil (sahibinin kararı, 22 Kasım 2026; 17 Kasım'daki "Peri'de çorap yok" yalnız o vakanındı). Ayakkabının istisnası (vakanın formu başka ayakkabı yazıyorsa o: Vaka 4 kahverengi süet çizme, Vaka 6 beyaz spor ayakkabı) ve sabitler tablosu: KAR-23 (uretim/CLAUDE.md, karakter sabitleri). ISTEM-38'deki külotlu çorap kuralı Peri'ye uygulanmaz. Mantolu Peri'nin altında siyah kalem etek (sahibinin duran kuralı, 7 Ekim 2026).
 - Kıyafet sabitleri kalıpta 8. sırada (vakaya göre: etek, ayakkabı rengi…). Karakter sabitleri listesi CLAUDE.md'de durmalı (Vaka 3'te tek sabit Peri'nin kırmızı stilettosuydu; diğer karakterlerde benzeri tutulur).
 *Uygulayıcı:* hatırlat 8
 *Kaynak:* 551, 1157, 1492, 1496, 451, 3119, 437
@@ -2232,7 +2232,7 @@ Detay karede elin sahibinin kıyafeti yazılır (Gülsüm: kısa kollu tişört,
 *Kaynak:* 458
 
 #### ISTEM-38 Çorap
-Bacak görünen her kadın görselinde (**Peri hariç** — Peri'de çorap yok, ISTEM-20 (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 15)): "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor" (Vaka 2 G8–G13; sahibinin kararı: bant kaldırılır). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" istemiyle yeniden üretildi (Grok, 912×1136). Otomatik rötuş denendi, olmadı (bant etek ucuna yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönülmez. Not: bu kararın doğduğu G8–G13 Peri'nin resimleriydi (Vaka 2, Sohbet 1); sonradan Peri için "çorap yok" sabiti kondu (ISTEM-20).
+Bacak görünen her kadın görselinde (**Peri hariç** — Peri'nin çorabı vakanın kıyafetine göre, bandı serbest: ISTEM-20, sahibinin kararı 22 Kasım 2026): "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor" (Vaka 2 G8–G13; sahibinin kararı: bant kaldırılır). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" istemiyle yeniden üretildi (Grok, 912×1136). Otomatik rötuş denendi, olmadı (bant etek ucuna yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönülmez. Not: bu kararın doğduğu G8–G13 Peri'nin resimleriydi (Vaka 2, Sohbet 1); 17 Kasım'da Peri için "çorap yok" sabiti kondu, 22 Kasım'da kalktı (ISTEM-20).
 *Uygulayıcı:* hatırlat 8
 *Kaynak:* 452, 3066
 
