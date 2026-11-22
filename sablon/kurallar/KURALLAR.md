@@ -2232,7 +2232,7 @@ Detay karede elin sahibinin kıyafeti yazılır (Gülsüm: kısa kollu tişört,
 *Kaynak:* 458
 
 #### ISTEM-38 Çorap
-Bacak görünen her kadın görselinde (**Peri hariç** — Peri'nin çorabı vakanın kıyafetine göre, bandı serbest: ISTEM-20, sahibinin kararı 22 Kasım 2026): "ince ten rengi KÜLOTLU çorap; üst bandı hiçbir yerde görünmüyor" (Vaka 2 G8–G13; sahibinin kararı: bant kaldırılır). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" istemiyle yeniden üretildi (Grok, 912×1136). Otomatik rötuş denendi, olmadı (bant etek ucuna yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönülmez. Not: bu kararın doğduğu G8–G13 Peri'nin resimleriydi (Vaka 2, Sohbet 1); 17 Kasım'da Peri için "çorap yok" sabiti kondu, 22 Kasım'da kalktı (ISTEM-20).
+Her kadının (Peri dahil, ISTEM-20) çorabı vakanın kıyafetine göre: çoraplı da olabilir çorapsız da, formdaki kıyafet söyler; istemde hangisi olduğu açıkça yazılır ("ÇORAP YOK" ya da "ince ten rengi külotlu çorap"). Bandın görünmesi sorun değil (sahibinin kararı, 22 Kasım 2026). Kayıt: eski kural "Peri dışında bacak görünen her kadın külotlu çoraplı, üst bandı hiçbir yerde görünmüyor" idi (Vaka 2 G8–G13; sahibinin kararı: bant kaldırılır). G8–G12 "iki bacakta KÜLOTLU çorap, bant hiçbir yerde görünmesin" istemiyle yeniden üretildi (Grok, 912×1136). Otomatik rötuş denendi, olmadı (bant etek ucuna yapışık, krema üstünden geçiyor; maske gölgeyi de bant sanıyor) — bu yola dönülmez. Not: bu kararın doğduğu G8–G13 Peri'nin resimleriydi (Vaka 2, Sohbet 1); 17 Kasım'da Peri için "çorap yok" sabiti kondu, 22 Kasım'da kalktı (ISTEM-20).
 *Uygulayıcı:* hatırlat 8
 *Kaynak:* 452, 3066
 
