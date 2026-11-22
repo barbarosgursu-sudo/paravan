@@ -3241,7 +3241,7 @@ Görseller sayfaya gömülü; bir görsel ~50–120 KB; sezon için yer var.
 *Kaynak:* 311
 
 #### KOD-21 Tarayıcı iletişim kutusu kullanma
-claude.ai artifact çerçevesi `confirm()`/`alert()`ı engeller (kutu çıkmaz, `confirm` "hayır" döner); eski sayfanın "Baştan başla"sı bu yüzden hiçbir şey yapmıyordu. Yeni oyunda `yenidenBasla` sayfa içi onay ekranıyla değiştirildi. Yeni onay/uyarı eklerken iletişim kutusu kullanma. Tarayıcı uyarı kutusu yok (Claude sayfası engelliyor); her onay sayfanın içinde.
+claude.ai artifact çerçevesi `confirm()`/`alert()`ı engeller (kutu çıkmaz, `confirm` "hayır" döner); eski sayfanın "Baştan başla"sı bu yüzden hiçbir şey yapmıyordu. Yeni oyunda `yenidenBasla` sayfa içi onay ekranıyla değiştirildi. Yeni onay/uyarı eklerken iletişim kutusu kullanma. Tarayıcı uyarı kutusu yok (Claude sayfası engelliyor); her onay sayfanın içinde. Hata iletisi için `sayfaUyari(metin)` (`build_html.js`; altta 4 sn görünen sayfa içi satır). 22 Kasım 2026: kalan üç `alert` (karar, reklam hakkı) `sayfaUyari`'ya döndü, eski sayfanın `confirm`'lü `yenidenBasla`'sı söküldü; kodda tarayıcı iletişim kutusu kalmadı.
 *Uygulayıcı:* yok — kod yazma ilkesi
 *Kaynak:* 2412, 309
 

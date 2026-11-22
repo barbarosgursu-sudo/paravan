@@ -115,6 +115,7 @@ body{
 .anlati-italik{font-style:italic;color:var(--sonuk)}
 
 /* buton (faz ilerletme) */
+.sayfa-uyari{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:9999;max-width:calc(100% - 48px);padding:12px 18px;background:#1B2A3A !important;border:1px solid #C25B52;border-radius:6px;color:#FFF6E8 !important;font-weight:700;font-size:14px;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.4)}
 .buton{display:block;width:calc(100% - 48px);margin:22px 24px 0;padding:16px;
   text-align:center;background:var(--kehribar);color:#12263a;border:none;border-radius:5px;
   font-family:inherit;font-size:14px;letter-spacing:2px;font-weight:bold;cursor:pointer;text-transform:uppercase}
@@ -791,11 +792,20 @@ function kararFazi(){
 }
 
 /* ---------- FAZ 4: SONUÇ + DEFTER NOTU ---------- */
+// Tarayıcı uyarı kutusu (alert/confirm) yok — claude.ai çerçevesi engelliyor, kutu çıkmaz (KOD-21).
+// Hata iletisi sayfanın içinde, altta birkaç saniye görünür.
+function sayfaUyari(metin){
+  let u = document.getElementById("sayfaUyari");
+  if(!u){ u = document.createElement("div"); u.id = "sayfaUyari"; u.className = "sayfa-uyari"; u.setAttribute("role","alert"); document.body.appendChild(u); }
+  u.textContent = metin; u.style.display = "block";
+  clearTimeout(sayfaUyari.zaman);
+  sayfaUyari.zaman = setTimeout(() => { u.style.display = "none"; }, 4000);
+}
 function kararVerFaz(id){
   const vid = oyun.durum.aktif.id;
   const mevcutIdler = oyun.acikKararlar().map(x=>x.id);   // karar vermeden önce
   const r = oyun.kararVer(id);
-  if(r.hata){ alert(r.hata); return; }
+  if(r.hata){ sayfaUyari(r.hata); return; }
   kayitYaz();   // hemen: kapatıp kararı geri almak yok
   efektCal('muhur');
   const not = defterNotu(vid, id);
@@ -1244,14 +1254,9 @@ function kayittanDevam(){
   if(oyun.durum.aktif) arastirmaFazi(); else masaGoster();
 }
 
-function yenidenBasla(){
-  if(!confirm("Kayıtlı ilerleme silinecek, oyun baştan başlayacak. Emin misin?")) return;
-  kayitSil();
-  const yeni = new Oyun(GAME);
-  oyun.durum = yeni.durum;
-  cengoSonAlev = null;   // yeni oyun: ilk gösterge çizimi yine sessiz
-  prologIndex = 0; prologGoster();
-}
+// "Baştan başla": asıl tanım yeni_arayuz.js'te (sayfa içi onay ekranı). Eski sayfanın confirm()'lü hâli
+// 22 Kasım 2026'da söküldü — tarayıcı iletişim kutusu yok (KOD-21).
+function yenidenBasla(){}
 
 baslat();
 </script>

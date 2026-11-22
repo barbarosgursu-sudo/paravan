@@ -627,7 +627,7 @@ arastirmaFazi = function(){
     rk.className = "buton ikincil reklam-dugme"; rk.id = "reklamHak";
     rk.textContent = "▶ Reklam izle · +1 araştırma hakkı";
     rk.addEventListener("click", () => reklamGoster(() => {
-      const r = oyun.reklamHakAl(); if(r.hata){ alert(r.hata); return; }
+      const r = oyun.reklamHakAl(); if(r.hata){ sayfaUyari(r.hata); return; }
       kayitYaz(); arastirmaFazi();
     }));
     document.querySelector(".faz").insertBefore(rk, b);
@@ -845,7 +845,7 @@ kararVerFaz = function(id){
   const kacan = (v.clues || []).filter(c => c.sahne && !acilan.has(c.id)).map(c => c.id);
   const kart = v.kim_yapti ? dosyaKartiIcerik() : null;   // karardan önce (aktif vaka henüz duruyor)
   const r = oyun.kararVer(id);
-  if(r.hata){ alert(r.hata); return; }
+  if(r.hata){ sayfaUyari(r.hata); return; }
   kacanYaz(kacan.length ? { vaka: vid, ipuclari: kacan, izlenen: [] } : null);
   kayitYaz();
   efektCal('muhur');
