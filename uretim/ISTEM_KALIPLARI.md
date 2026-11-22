@@ -1,5 +1,9 @@
 # İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)
 
+> **Çalışma aracı, kural belgesi değil** (22 Kasım 2026: arşivden `uretim/`'e döndü — ISTEM-1). Kurallar `sablon/kurallar/KURALLAR.md`'de
+> (ISTEM-*); bu dosya kopyalanacak cümleleri tutar. Kalıptan kurulan istem `./istem_kontrol.sh`'tan geçmelidir; kural
+> yeni bir zorunlu satır getirirse o satır buraya da yazılır.
+
 `istemleri hazırla <N>` her vakada bu kalıplarla yazılır. Amaç: eski resimlerin (Vaka 1–2 ve eski Vaka 3) tarzını ve
 kalitesini tutturmak. Bu kalıplar Vaka 3'te iki kez yanlış kurulup düzeltildi; neyin neden böyle olduğu en altta.
 **Yeni istem yazarken bu dosyayı ve onaylı örnekleri aç; ezberden yazma.**
@@ -66,6 +70,17 @@ Referanslar: 1. `onayli/G<temel>.png` (dekolteliyse baş kırpığı + kapalı g
 "YALNIZ poz"). Tarz paragrafı YOK, §3 YOK. İstem: "Birinci referans görseldeki X'in AYNISI: aynı yüz, saç, kıyafet ve
 takılar; aynı çizim tarzı, aynı düz <renk> arka plan, aynı ölçek ve kadraj. Değişen yalnız poz ve ifade." → poz → bakış →
 ifade → kadraj + zemin → çıplaklık → yazı yasağı → oran.
+
+## 5b. Her figürde aynen yazılan iki satır (22 Kasım 2026; `istem_kontrol.sh` arar)
+
+**Bakış satırı (H3 — ISTEM-6, DENETIM-21):** yön burun geometrisiyle yazılır; "sola bak" tek başına ters anlaşılıyor.
+> Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor;
+> yukarı, aşağı ya da kameraya değil.
+
+**Saç toplu satırı (yan karakter — ISTEM-44; Peri ve Cengo'ya YAZILMAZ, §2):**
+> Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
+
+Eşarplı karakterde bunun yerine: "Saçın tamamı eşarbın içinde; eşarbın dışına taşan tel yok."
 
 ## 6. Figür zemin satırı
 

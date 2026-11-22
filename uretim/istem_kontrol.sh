@@ -2,7 +2,7 @@
 # İstem kontrol listesi (13 Kasım 2026, sahibinin isteği: "kuralları baştan tam uygula, iki kez üretmeyelim").
 # Kullanım: uretim/istem_kontrol.sh <prompts/G<n>.md> [...]   → eksikleri basar; eksik varsa çıkış 1.
 # dongu.sh her istemi üretmeden önce bundan geçirir; geçmeyen ÜRETİLMEZ.
-# Kurallar: ISTEM-*, SATIR-* (sablon/kurallar/KURALLAR.md; ISTEM-52). Eski kaynaklar: arsiv/uretim/ISTEM_KALIPLARI.md (§1–10),
+# Kurallar: ISTEM-*, SATIR-* (sablon/kurallar/KURALLAR.md; ISTEM-52). Eski kaynaklar: uretim/ISTEM_KALIPLARI.md (§1–10),
 # arsiv/sablon/5_gorsel_sistemi.md (C0 SR-*, D-2/3/4, H1–H6, I), arsiv/uretim/v3_eski/BIRIKIM.md §6–8.
 # Mekanik olarak yakalanabilenleri yakalar; anlamı (satırlara uyuyor mu, Nurcan) yine istemi yazan okur.
 set -u

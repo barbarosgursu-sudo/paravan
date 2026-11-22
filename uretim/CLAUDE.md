@@ -81,7 +81,7 @@ göster; onaylarsa commit → push. Adımlar:
 2. **Referanslarda dekolte yok** — ISTEM-16 (kadın: baş kırpığı + `uretim/referanslar/tarz_govde_kadin.jpg`); Peri temeli — ISTEM-11;
    varyant — ISTEM-14; kıyafet referansı — ISTEM-19.
 3. **İstem kalıpları ezberden yazılmaz** — ISTEM-1; tarz paragrafı — ISTEM-9, örnek cümlesi — ISTEM-10; kadraj ISTEM-5, bakış
-   ISTEM-6, zemin ISTEM-7, iki kol iki el ISTEM-31, yazı yok ISTEM-28, oran ISTEM-4. Onaylı örnekler: `arsiv/uretim/ISTEM_KALIPLARI.md`
+   ISTEM-6, zemin ISTEM-7, iki kol iki el ISTEM-31, yazı yok ISTEM-28, oran ISTEM-4. Onaylı örnekler: `uretim/ISTEM_KALIPLARI.md`
    ve `arsiv/uretim/v3_eski/prompts/` ile yan yana karşılaştır.
 4. **Vaka 3 dersleri baştan istemde** — ISTEM-53 (aşağıdaki tablo).
 5. **Kontrol satırı** — ISTEM-50.

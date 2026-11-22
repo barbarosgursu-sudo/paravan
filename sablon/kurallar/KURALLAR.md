@@ -1944,7 +1944,7 @@ Metnin söylediği görünüş (terli, ıslak, yaralı…) o figürde görünür
 ## ISTEM — resim istemi yazma kuralları
 
 #### ISTEM-1 Kalıp dosyası zorunlu; ezberden yazılmaz
-`istemleri hazırla <N>` her vakada `arsiv/uretim/ISTEM_KALIPLARI.md`'deki kalıplarla yazılır (6 Kasım 2026, sahibinin onayı). Amaç: eski resimlerin (Vaka 1–2 ve eski Vaka 3) tarzını ve kalitesini tutturmak; kalıplar Vaka 3'te iki kez yanlış kurulup düzeltildi, nedenleri o dosyanın sonunda. Yeni istem yazmadan önce o dosya ve onaylı örnekler açılır, `arsiv/uretim/v3_eski/prompts/` ile yan yana karşılaştırılır. Ayrıca **H. Görsel standart** uygulanır: kadraj (H1), bakış (H3), zemin (H4), iki kol iki el, yazı yok, oran.
+`istemleri hazırla <N>` her vakada `uretim/ISTEM_KALIPLARI.md`'deki kalıplarla yazılır (6 Kasım 2026, sahibinin onayı). Amaç: eski resimlerin (Vaka 1–2 ve eski Vaka 3) tarzını ve kalitesini tutturmak; kalıplar Vaka 3'te iki kez yanlış kurulup düzeltildi, nedenleri o dosyanın sonunda. Yeni istem yazmadan önce o dosya ve onaylı örnekler açılır, `arsiv/uretim/v3_eski/prompts/` ile yan yana karşılaştırılır. Ayrıca **H. Görsel standart** uygulanır: kadraj (H1), bakış (H3), zemin (H4), iki kol iki el, yazı yok, oran.
 - *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Onaylı örnekler (bu kalıplarla üretilip onaylandı): (k:7339787db6)
 - *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Peri temeli: `v3/prompts/G1.md` → `v3/onayli/G1.png` (k:26060f010d)
 - *Bilgi:* [ISTEM_KALIPLARI › İstem kalıpları — onaylı tarz (6 Kasım 2026, sahibinin onayı)] Mekânlar: `v3/prompts/G10.md`, `G11`, `G15`–`G18` → `v3/onayli/` (k:b8d3c7a8f7)
@@ -2444,7 +2444,7 @@ Uç ifadeler (gözler kapalı, yüz buruşuk, yüz kısmen kapalı) puanı düş
 2. beş parmak sayılıyor mu,
 3. el bir ön kola bağlı mı,
 4. nesnenin kenarında fazla parmak var mı.
-Başparmak görünmüyorsa resim onaylanmaz; istemde §12 (`arsiv/uretim/ISTEM_KALIPLARI.md`) kalıbıyla yeniden üretilir. Nesne tutan eller topluca onaylanmaz; büyütülmüş görüntü sahibine resim resim gösterilir. Bu bakışı yapan Claude kendi okumasında kuşkuluysa ("sol el gibi") bunu söyler, "doğru" demez.
+Başparmak görünmüyorsa resim onaylanmaz; istemde §12 (`uretim/ISTEM_KALIPLARI.md`) kalıbıyla yeniden üretilir. Nesne tutan eller topluca onaylanmaz; büyütülmüş görüntü sahibine resim resim gösterilir. Bu bakışı yapan Claude kendi okumasında kuşkuluysa ("sol el gibi") bunu söyler, "doğru" demez.
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 1113
 
@@ -2565,7 +2565,7 @@ Aynı kişinin onaylı ifadeleriyle yan yana bakılır; yüz ve poz onlardan aç
 *Kaynak:* 1130
 
 #### DENETIM-33 Çekicilik seviyesi
-Çekicilik seviyesi kurala uygun olmalı. Peri ve Gizem için (sahibi, 8 Kasım 2026): yeni resim o karakterin eski onaylı resimleriyle yan yana; çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan onaylanmaz, `arsiv/uretim/ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. Kıyafet kartı bu maddeden muaf. Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
+Çekicilik seviyesi kurala uygun olmalı. Peri ve Gizem için (sahibi, 8 Kasım 2026): yeni resim o karakterin eski onaylı resimleriyle yan yana; çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan onaylanmaz, `uretim/ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. Kıyafet kartı bu maddeden muaf. Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 467, 1131, 3048
 
