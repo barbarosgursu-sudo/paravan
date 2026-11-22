@@ -141,6 +141,7 @@
 > (67) **Şüpheli 6 — KAR-13 KAYDA ALINDI** (sahibi: "1"): sezon 1'in planlı anları dördü de yazıldı; uygulayıcı "yok — kayıt", artık hatırlatılmaz; sezon 2 listesi ayrıca yazılır. **SIRADAKİ:** şüpheli 7 — ISTEM-25 (ChatGPT→Grok).
 > (68) **Şüpheli 7 — ISTEM-25 DÜZELTİLDİ** (sahibi: "Önerini uygulayalım"): üretici sırası önce Codex (iki deneme, CODEX-10), engellenen web'de ChatGPT, sonra Grok. Sayfada "yanlış" (düzeltildi). **SIRADAKİ:** şüpheli 8 — SEZON-23 (6–8 figür ↔ SATIR-35).
 > (69) **Şüpheli 8 — SEZON-23 DÜZELTİLDİ** (sahibi: "Önerini uygula"): "~6–8 figür" kalktı; yeni kıyafette de yalnız satırların istediği ifade (SATIR-35). Sayfada "yanlış" (düzeltildi). **SIRADAKİ:** şüpheli 9 — GOMME-24 (afişte "su/tekneler").
+> (70) **Şüpheli 9 — GOMME-24 GENELLEŞTİ** (sahibi: "Önerini uygula"): "Kadrodaki herkes <zemin>in üstünde …; <vakanın arka planı> arkada"; Vaka 1 dersi kayıtta. `kart_sayfa/uret.py`'deki vaka istemleri zaten vakaya özel (dokunulmadı). Sayfada "vaka". **SIRADAKİ:** şüpheli 10 — GOMME-23 (afiş pozları), son.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

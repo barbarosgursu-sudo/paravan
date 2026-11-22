@@ -2860,7 +2860,7 @@ Sahibinin kararı (17 Ekim): afişler eğlenceli ve hareketli; Peri ile Cengo'nu
 *Kaynak:* 495, 3001
 
 #### GOMME-24 Kart afişi: zemin satırı şart
-İstemde şu satır ŞART: "Altı kişinin hepsi <zemin>in üstünde, ayakları <zemin>e basıyor; su/tekneler arkada." (Vaka 1'in ilk denemesinde arka sıra suyun üstünde durdu.)
+İstemde şu satır ŞART: "Kadrodaki herkes <zemin>in üstünde, ayakları <zemin>e basıyor; <vakanın arka planı: su, yol, salon…> arkada." (Ders: Vaka 1'in ilk denemesinde arka sıra suyun üstünde durdu. Eski satır "Altı kişinin hepsi … su/tekneler arkada" Vaka 1'e özeldi; sahibinin kararıyla genelleşti, 22 Kasım 2026.)
 *Uygulayıcı:* hatırlat 8
 *Kaynak:* 496
 
