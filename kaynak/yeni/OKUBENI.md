@@ -16,10 +16,9 @@ Veri elle düzenlenmez — KOD-38. Kaynak metin: `sablon/vakalar/vakaN_diyalog.m
 
 ```
 cd kaynak
-node dogrulayici.js yeni          # yeni veriyi denetler (argümansız = eski oyun)
+node dogrulayici.js               # yeni veriyi denetler (`… yeni` ile aynı; eski oyun arşivde)
 node test_yeni_v1.js              # yeni verinin testi (test_*.js döngüsüne girer)
 node test_yeni_v2.js              # her vakanın araştırma ekonomisi: hak açıkken bütün ipucu sıraları
-cd yeni && node ../arac_okuma.js V1   # düz okuma (sahneleri değil, düz 'text'i basar)
 ```
 
 Motor, doğrulayıcı ve araçlar **aynen** devralındı (`arsiv/kaynak/YENI_OYUN_CERCEVE.md` §3).

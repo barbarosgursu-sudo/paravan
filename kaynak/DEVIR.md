@@ -8,7 +8,15 @@
 
 ---
 
-> ## ▶️▶️ 21 KASIM 2026 GECE GEÇ: MADDE 3 SÜRÜYOR → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("MADDE 3 BURADAN SÜRER")
+> ## ▶️▶️▶️ 22 KASIM 2026 GECE: MADDE 4 SÜRÜYOR → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("MADDE 4 BURADAN SÜRER")
+> Bu pencerede `main`'de: madde 3 bitti (istem kontrolüne ISTEM-5/6/12/14/19/21/35/44, SATIR-17; döngüye CODEX-19/22; K20 boy, K24
+> satırsız ifade; gömmede 3:4 kapısı — ARAYUZ-6), **eski oyun arşivlendi** (`1a60aee`; veri, 22 test, 4 araç `arsiv/kaynak/eski_oyun/`;
+> kökteki `index.html` donmuş, ana adres değişmedi; derleyici ve doğrulayıcı tek kip; 🛠 DEV_MOD söküldü), yeni oyuna üç ortak test
+> (`f795856`: kayıt, bozuk veri, takılma; `kaynak/`'ta 8 test), madde 4'ün 4.1–4.7'si (dakika hedefi kalktı; kasa döneminin iki test
+> denetimi; Python'u programlar kendisi bulur; arşive yeni bir şey yazılmaz; istem kalıbı `uretim/ISTEM_KALIPLARI.md`'ye döndü; alert
+> yerine sayfa içi uyarı; yüzde denetimde ölçü). İlk iş 4.8 (sahibi onayladı). "Üretim yok" sürüyor.
+
+> ## (önceki) 21 KASIM 2026 GECE GEÇ: MADDE 3 SÜRÜYOR → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("MADDE 3 BURADAN SÜRER")
 > Bu pencerede yazılanlar `main`'de: kolay ve faydalı 18 aday (`1639910`, `268eea6`, `7f5d874` — K20 sabitler, kapıda CODEX-17/25 ve KOD-1,
 > istem denetimleri, künyesi eksik altı kişi, masa kartı), sonra YAPI-25 (`e2ac785`) ve KOD-38 (`aae4326`). Kalan adaylar gruplu olarak
 > PLAN'da; ilk iş sahibine sorulmuş TON-9 (replik uzunluğu). Oğuz Bey'e soru: V8'de Tarkan = Nihat mı.

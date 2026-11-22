@@ -9,7 +9,7 @@ arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak
 > ### 📘 BÜTÜN KURALLAR TEK DOSYADA: `sablon/kurallar/KURALLAR.md` (Adım 3 BİTTİ, 20 Kasım 2026 gece). Belgelerdeki `TON-9`,
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
-> ### önerilmez. **Adım 4: madde 3 BİTTİ ve eski oyun arşivlendi (22 Kasım 2026); sırada madde 4 (çelişkiler) — `sablon/kurallar/PLAN.md` (43).**
+> ### önerilmez. **Yeni pencere: Adım 4 madde 4 SÜRÜYOR — `sablon/kurallar/PLAN.md` en üst kutu ("MADDE 4 BURADAN SÜRER", 22 Kasım 2026 gece); ilk iş 4.8 (eski "kural N" atıfları → kodlar, sahibi onayladı).** Madde 3 bitti, eski oyun arşivde (`arsiv/kaynak/eski_oyun/`).
 > ### Commit kapısı git kancasıyla da çalışır (`.githooks/commit-msg`; yeni bilgisayarda bir kez `git config core.hooksPath .githooks`) — KOD-35.
 > ### Üretim adımlarının hatırlatma listesine Claude bakar, sahibine yalnız sorunlu madde gider (`arac_uygulayici.js kayit|bitti`) — SUREC-43.
 > ### Adım 4: her kuralın `*Uygulayıcı:*` satırı var (program / talimat / hatırlat <adım> / yok) — SUREC-43;

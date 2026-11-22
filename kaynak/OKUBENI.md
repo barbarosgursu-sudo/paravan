@@ -20,51 +20,32 @@ Doğrulayıcı ne zaman çalışır, ne çıktı verir — KOD-4.
 
 ## Dosyalar
 
-- `motor.js`            → oyun mantığı (arayüzsüz, `class Oyun`)
-- `game_data.json`      → 9 vaka + kanon (**asıl veri**)
-- `game_data.js`        → doğrulayıcının beklediği modül köprüsü (json'u dışa verir)
-- `kisiler.json`        → katmanlı künye + anı defteri (portre de katmanlı olabilir:
-  `portre_katman` ile bir olgu açılınca yüz değişir — İlyas'ın yarası V3 teşhisiyle gelir)
-- `prolog.json`         → açılış (6 kart)
-- `dogrulayici.js`      → çelişki denetleyici (9 kural, bkz. aşağısı)
-- `build_html.js`       → derleyici (DEV_MOD satırı burada — KOD-15)
-- `_gomulu_gorseller.js`→ 44 görsel, WebP/base64 (derlemenin girdisi)
-- `vaka2-6.json`, `yan_a/b.json` → tekil vaka yedekleri (game_data.json asıldır)
-- `test_*.js`           → testler
-- `*.md`                → tasarım sözleşmeleri (doğrulayıcı, Cengo bağı, görsel, veri formatı)
-- `ses_promptlari.md`   → 8 müzik + 5 efekt için sipariş metinleri
+> **22 Kasım 2026: eski oyun arşivde** (KOD-36). Verisi (`game_data.json/.js`, `vaka2-6.json`, `yan_a/b.json`, eski `kisiler.json`,
+> `prolog.json`, `_gomulu_gorseller.js`), 22 testi ve dört aracı (`arac_akis_denetim`, `arac_tahta_denetim`, `arac_okuma`, `arac_ui_tur`)
+> `arsiv/kaynak/eski_oyun/`'de (OKUBENI orada). Depo kökündeki `index.html` donmuş, derlenmez. 🛠 geliştirici modu (DEV_MOD) söküldü — KOD-15.
+
+- `motor.js`            → oyun mantığı (arayüzsüz, `class Oyun`); yeni oyunun tabanı
+- `motor_yeni.js`       → yeni oyunun motor eki (`OyunYeni`: Kim yaptı?, karar sahnede, kasa yok)
+- `yeni/`               → yeni oyunun verisi (`game_data.json`, `kisiler.json`, `acilis.json`, `gorseller.json`, `prolog.json`) — KOD-36
+- `dogrulayici.js`      → çelişki denetleyici (tek kip: yeni oyun; `node dogrulayici.js` = `… yeni`)
+- `build_html.js`       → derleyici (tek kip: `../yeni/index.html`)
+- `yeni_arayuz.js/.css` → konuşma ekranı; `yeni_gorsel/` → görseller (manifesto `yeni/gorseller.json`)
+- `arac_python.js`      → Python komutunu bulur (python → py → python3; KOD-33)
+- `test_*.js`           → 8 test (KOD-7)
+- `*.md`                → tasarım sözleşmeleri
+- `ses_promptlari.md`   → 5 efekt için sipariş metinleri
 - `arsiv/kaynak/final_tablo_plani.md`→ sezon sonu istatistik tablosu (yazılmadı; Android aşamasının planı)
 
 `_gomulu_motor.js` ve `_gomulu_veri.js` her derlemede üretilir — KOD-2.
-
-## Geliştirici modu
-
-DEV_MOD — KOD-15: `build_html.js` içinde `const DEV_MOD = false;` (satır ~508). `true` iken üst şeritte 🛠 düğmesi çıkıyor:
-durum özeti, `cengoBag` oynatma, tohum anahtarları ve ses teşhisi.
-
-**Şu an kapalı — yayın modundayız.** Derleme bunu her seferinde söylüyor:
-
-```
-index.html yenilendi: 4357 KB
-  ✓ yayın modu — 🛠 düğmesi basılmadı
-```
-
-İki tuzak var, ikisine de düştüm:
-
-1. Bayrak üretilen sayfanın içinde yaşıyor (KOD-15).
-2. Çıktıda `dev-btn` aramak yanıltıcı; tek doğru kontrol tarayıcıda `.dev-btn` sayısı 0 (KOD-15).
-
-**Ses üretimine başlarken geri açmak isteyebilirsin** — ses teşhisi paneli
-orada. Tek satır.
 
 ## Testler
 
 ```
 cd kaynak
-for t in test_*.js; do node $t; done
+for t in test_*.js; do node $t; done          # hepsi geçmeli
 ```
 
-`test_bozuk.js` negatif testtir — KOD-7.
+Sayı ve içerik — KOD-7.
 
 ## Doğrulayıcı kuralları
 

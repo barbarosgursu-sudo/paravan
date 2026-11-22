@@ -4,7 +4,42 @@
 > işi "çok kritik" saydı ve hiçbir ayrıntının unutulmamasını istedi. İş başka pencerede, aşağıdaki **Sıradaki adım**dan sürer.
 > Kök `CLAUDE.md` ve `kaynak/DEVIR.md` en üstte buraya işaret eder.
 
-> ## ▶️▶️▶️ YENİ PENCERE: MADDE 3 BURADAN SÜRER (21 Kasım 2026 gece geç; sahibi: "geri kalanları yeni pencerede yapacağım")
+> ## ▶️▶️▶️ YENİ PENCERE: MADDE 4 BURADAN SÜRER (22 Kasım 2026 gece; sahibi: "Yap ama bu işleme ve kalan işlemlere yeni pencerede devam etmek istiyorum")
+> **Durum (hepsi `main`'de, `1572826`):** Madde 3 BİTTİ (aşağıda (16)…(42)). Eski oyun ARŞİVLENDİ ((43): `arsiv/kaynak/eski_oyun/`, kökteki
+> `index.html` donmuş, derleyici/doğrulayıcı tek kip, 🛠 söküldü). Üç ortak test yeni veriyle yazıldı ((44): `test_yeni_kayit.js`,
+> `test_yeni_bozuk.js`, `test_yeni_softlock.js`; `kaynak/`'ta 8 test). Madde 4'ün 4.1–4.7'si çözüldü ((45)…(51)).
+>
+> **İLK İŞ — 4.8 (sahibi ONAYLADI, 22 Kasım: "Yap"):** `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
+> madde numaraları: "kural 22b", "(kural 19a)", "Kural 24; sahibinin kararı" …) bugünkü kodlara çevrilir. Örnek: "(kural 22b)" → "(YAPI-23)",
+> "(kural 19a)" → "(SINIR-13)", "(kural 9, bkz. DENETIM-49)" → "(DENETIM-49)". Bir kuralın KENDİ kökenini anlatan yerde ("YAPI-31: Kural 24;
+> sahibinin kararı") → "eski kural kitabı 24" (kayıt, silinmez). Eşleme: eski kitaptaki maddenin metni ↔ bugünkü kuralın metni (aynı tarih,
+> aynı cümle). **Emin olunamayan eşleşme sahibine liste olarak sorulur.** Bulma: `grep -o -E "[Kk]ural [0-9]+[a-z]?" sablon/kurallar/KURALLAR.md`
+> ("kural 2026" bir tarih, atla). Sonra üç sayaç `hata: 0`, PLAN (52), commit, push.
+>
+> **Sonra madde 4'ün kalanı (sahibine tek tek, çok kısa, örnekle; "eski: …, yeni: …, önerim: …"):**
+> - 4.9 `kaynak/arac_satir_resim.js` SOR sınıfını hiç atamıyor: bütün `B(…)` çağrıları OTO ya da İŞ (satır 99'daki B; başlık yorumu satır 15
+>   "SOR — kural karar veremedi; yalnız bunlar sahibine gider" diyor). SATIR-10/SATIR-11 "sahibine yalnız SOR gider" der. Ya SOR'a düşecek
+>   durum tanımlanır ya kural/yorum "SOR şimdilik yok" diye düzeltilir.
+> - 4.10 Doğrulayıcı K1'in görsel denetimi (`gorsel.gosterir`, `gorsel.alt`; `dogrulayici.js` ~satır 175–205) yeni oyunda boşa dönüyor: hiçbir
+>   ipucunda `gorsel` alanı yok (0). BILGI-17 "yazılmadı" kararı (PLAN (12)). Öneri adayı: kodu bırak (zararsız) ya da KOD-54'e "yeni oyunda
+>   görsel alanı yok" notu.
+> - ÇÖZÜLMÜŞ (sahibine sorma): `test_yeni_kimyapti.js` artık bütün vakaları sınıyor (22 Kasım, "Üç sonuç: bütün vakalar"); K19'un kasa/önizleme/
+>   kesinti denetimleri 17 Kasım'da kalkmış (`dogrulayici.js` kural19 başı); `test_tahta.js` arşivde.
+>
+> **Madde 4'ten sonra sırayla:** madde 5 (eski açıklar: kanon ↔ KAR, KOD-78 sigara, §7 soru 6–7, üç küçük soru — aşağıdaki "Sahibine sorulacak"
+> madde 5 ve "(önceki durum notu)" kutusu), kuralları gözden geçirme sayfası (ilk soru ISTEM-20/38 "Peri'de çorap yok"; kayıtta "17 Kasım çelişki
+> sorusu 15", sahibi yalnız o vaka diyor), sonra üretime dönüş ("ÖNCE KURALLAR, ÜRETİM YOK" o zamana dek sürer).
+>
+> **Açık dış notlar:** Oğuz Bey'e — V8'de Tarkan = Nihat mı; V7 "Doksan lira, Cengo. Deftere yaz." fiyat tablosunda yok (K22 uyarısı);
+> Oğuz Bey'in bilgisayarında bir kez `git config core.hooksPath .githooks`. Python artık kendiliğinden bulunur ((47); `py` ise kütüphaneler
+> o Python'a kurulmalı — CODEX-19 durdurur).
+>
+> **Çalışma biçimi (sahibi):** tek tek, çok kısa ve basit Türkçe, somut örnekle; her madde "Yaz/Yazma" ya da iki seçenek; uzun işte en geç
+> 3 dakikada bir kısa durum. Her değişiklikten sonra üç sayaç (`node sablon/kurallar/arac_uygulayici.js yaz && … say`, `arac_kurallar.js say`,
+> `adim3/tasima_say.js`) `hata: 0`; PLAN'a satır; commit (kapı koşar; `kaynak/` değişirse bütün vakaların turu ~10+ dk, arka planda);
+> `git push origin HEAD:main`. Shorts dosyalarına (`arac_shorts.js`, `shorts_ayar.json`, `shorts/`) dokunulmaz. Arşive yeni bir şey yazılmaz (KOD-51).
+>
+> ## (önceki kutu — MADDE 3 BİTTİ) YENİ PENCERE: MADDE 3 BURADAN SÜRER (21 Kasım 2026 gece geç; sahibi: "geri kalanları yeni pencerede yapacağım")
 > **Durum:** "Kolay ve faydalı" 20 aday bitti (18 yazıldı, 2'si arşiv işine). "Zor ama değerli"den 2'si yazıldı, `main`'de:
 > `e2ac785` YAPI-25/KOD-75 (K19: doğru kanıtın Cengo satırı + ifadesi; şimdilik UYARI — V1–V5'te yok) ve `aae4326` KOD-38 (kapı veriyi
 > diyaloglardan geçici kopyaya yeniden yazar, fark = elle düzenleme → durur; araçla yazılamayan eski biçimli V1–V5 atlanır ve bildirilir;
