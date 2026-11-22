@@ -364,93 +364,77 @@ Barbaros, 14 Kasım 2026 (V6 G90–G92). Büronun kapısı hanın üçüncü kat
 ### Sezon kanonu
 
 #### KAR-26 Sabit sezon hikâyesi
-Peri'nin geçmişi (dolandırıcı avukat, haczedilen taç) sabit sezon hikâyesidir: her oyuncu için aynıdır; oyuncunun kararları değiştirmez. Vaka vaka:
-- Açılış: haciz, taç gider, büro, Cengo.
-- 2: Ev sahibi gelir (komedi).
-- 3: Yan karakter gelir.
-- 6: Cengo'nun kızı ortaya çıkar.
-- 7: Taç müzayedede.
-- 8: Avukat döner. Avukatın Cengo'yu nereden tanıdığı açılır. (Kapandı, 19 Kasım 2026: Nihat Kora Cengo'yu tanımaz, kimliğini otoparktan aldılar — kanon kaydı.)
+Kanonda: `sablon/3_kanon_kaydi.md` → Sabit sezon hikâyesi. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 162, 263, 265, 266, 267, 269, 270, 271
 
 #### KAR-27 Peri (kanon)
-37. Eski güzellik kraliçesi. Salonları ve kozmetik markası vardı. Avukatı hesapları boşaltıp kaçtı; geriye vergi için kurulmuş göstermelik bir şirket kaldı. Evi haczedildi. Elinde kalan tek şey Paravan Dedektiflik. Deniz tutar *(Vaka 5, ortağın onayı, 11 Kasım 2026)*.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Peri. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 240, 1728
 
 #### KAR-28 Cengo (kanon)
-34. Sokağı bilir, beş parasız. Avukat onu Paravan'ın bordrosuna yazmış; yedi yıl hesabına küçük bir maaş yatmış, hiç sormamış. Maaş kesilince büroya geldi. "Alacağı" var, gitmiyor. Karaköy–Kadıköy vapurunun çaycısı Kadir'i tanır *(Vaka 5, 11 Kasım 2026)*. Bir zamanlar Karaköy'de bir otoparkta çalışmış; bazen düğünlerde garsonluk yapar *(Vaka 7, 15 Kasım 2026)*. 18 yaşında baba oldu; Eylül'ün annesi Gamze ile evlendi, sonra ayrıldılar (sebebi açık nokta). Eylül'e "dedektiflik bürosunda çalışıyorum" demiş (bordro yüzünden yalan değil). Aylardır cumartesi sabahları Eylül'ün apartmanının karşısındaki bankta oturup onu uzaktan izliyor *(Vaka 6, ortağın onayı, 12 Kasım 2026)*.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Cengo. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 241
 
 #### KAR-29 Cengo'nun kızı: Eylül
-Cengo'nun sırrı (V6, sahibinin kararı 4 Ekim 2026, seçenek b — uzaktaki kızı). Adı **Eylül** *(ortağın kararı, 12 Kasım 2026)*. **16 yaşında** (ilk taslakta 17'ydi; ortak 12 Kasım 2026'da düzeltti — Cengo baba olduğunda reşit olsun; sezon belgesinde 13 Kasım 2026 tarihiyle 17 → 16). Annesiyle uzakta, şehrin öbür yakasında, Üsküdar'da yaşıyor; Cengo, annesiyle anlaşarak, uzaktan bakıyor. Kızı babasını büyük bir dedektif sanıyor ve (V6'da) yardım istemeye geliyor. Vaka 6'ya kadar açıklanmaz. Reşit değil: her zaman masum çizilir. Peri'yi kıskanır; Gizem'le çok iyi anlaşır, ona "abla" der, mesajlaşırlar *(Vaka 6, 12 Kasım 2026)*.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Cengo'nun kızı. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 242, 1968
 
 #### KAR-30 Eylül'ün ailesi ve V6 çevresi
-- **Gamze:** Eylül'ün annesi, Cengo'nun eski eşi. Haldun Bey'le evlenecek.
-- **Haldun Bey:** Gamze'nin evleneceği adam (damat).
-- **Müzeyyen Hanım:** Gamze'nin annesi, Eylül'ün anneannesi.
-- **Jale Hanım:** Haldun Bey'in eski eşi.
-*(Hepsi Vaka 6, 12 Kasım 2026.)*
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Gamze, Haldun Bey, Müzeyyen Hanım, Jale Hanım. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 243, 244, 245, 246
 
 #### KAR-31 Avukat
-Peri'yi dolandırıp kaçtı. Paravan'ı vergi için o kurdu, Cengo'yu bordroya o yazdı. Vaka 8'de döner.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Avukat (ve Ozan). Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 247
 
 #### KAR-32 Hilmi Bey
-İcra memuru, otuzlarında. Açılışta Peri'nin evini haczeder. Annesi bir zamanlar Peri'ye oy vermiş.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Hilmi Bey. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 248
 
 #### KAR-33 Ev sahibi
-Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan saklanır. **Yalnız komedi:** parayı etkilemez.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Ev sahibi. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 - *Bilgi (eski — kasa dönemi; bugünkü kural parayı etkilemez):* [YENI_OYUN_SEZON › EV SAHİBİ — sezon boyu dönen yan figür (sahibinin kararı, 5 Ekim 2026)] Avukat kaçtığından beri büronun kirası ödenmemiş: **90.000 ₺** (3 ay × 30.000 ₺). Borç kasaya yazılmaz (batmak keyif vermez). Ev sahibi **Vaka 2'de** kapıya gelir; borç taksite bağlanır ve taksit o vakadan itibaren ay sonu giderine eklenir (öneri: 6 ay × 15.000 ₺ → ay sonu gideri 50.000 ₺). (k:f470d09d74)
 - *Bilgi:* [YENI_OYUN_SEZON › EV SAHİBİ — sezon boyu dönen yan figür (sahibinin kararı, 5 Ekim 2026)] Sonra ara sıra döner: kira gününde kapıda, merdivende, en kötü anda. Peri ondan saklanır (Ton §9.4); Cengo'nun "borçlu olduklarımdan ben saklanırım" kuralı bu kez Peri'ye işler. **Kim olduğu** (adı, yaşı, tuhaflığı) Vaka 2 ile birlikte yazılır. §0 özgünlük kuralı: Mavi Ay'daki hiçbir figüre benzemez. (k:d8bb01528f)
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 249
 
 #### KAR-34 Gizem (yan karakter)
-- Sahibinin kararı (4 Ekim 2026): yan kadro büroya kendiliğinden "atanmış" biridir, maaşlı sekreter değil; tuhaflığı telefon/tekerleme olmaz (Ton §10). V3'ün yan karakteri pastanenin genç kadın çalışanı olacak; **yetişkin: yirmili yaşlarının ortası** (her görsel ve metinde açıkça belirtilir). Güzel, alımlı; kıyafetlerinde zaman zaman dekolte olabilir.
-- Adı **Gizem**; Vaka 3'te gelir: pastanenin tezgâhtarı, yirmili yaşlarının ortasında. Hazırcevap, lafını esirgemez; seksi ve işveli. Cengo'yla atışır; Peri'yi zaman zaman kıskançlık krizine sokar. Vakadan sonra büroya yerleşir *(sahibinin kararı, 17 Ekim 2026)*.
-- Vaka 3'te Karaköy'deki Susam Pastanesi'nde (büroya birkaç sokak) çalışır; Cengo orada veresiye yer. Artan simitleri, yasak olduğu hâlde, apartmanındaki yaşlılara götürür. Vakanın sonunda istifa eder, maaşsız büroya gelir, çay ocağını üstlenir; unvanı yok *(Onay 1, 17 Ekim 2026)*.
-- Lise mezuniyet balosu elbisesini (gece mavisi saten) saklıyor; Vaka 7'de Peri'ye ödünç verir *(15 Kasım 2026)*.
+Kanonda: `sablon/3_kanon_kaydi.md` → Kişiler › Gizem. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 250, 1841, 1970, 2996
 
 #### KAR-35 Yerler
-- **Peri'nin evi:** Nişantaşı. Haczedildi; açılışta boşaltılıyor.
-- **Büro:** Karaköy, eski bir hanın 3. katı, asansör yok. Penceresi iskeleye bakıyor; camda "Paravan Dedektiflik" yazısı dışarıdan ters okunuyor. (Kapı/koridor: KAR-25.)
+Kanonda: `sablon/3_kanon_kaydi.md` → Yerler. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
+- (Kapı/koridor: KAR-25.)
 *Uygulayıcı:* hatırlat 1, 8
 *Kaynak:* 252, 253
 
 #### KAR-36 Nesneler
-- **Kırmızı manto:** Peri'nin evden çıkardığı tek giysi.
-- **Pırlanta kolye:** Peri hacizden ince bir pırlanta kolyeyi kurtarmıştı (giysi değil; manto "tek giysi" kalır) *(Vaka 7, 15 Kasım 2026)*.
-- **Büro anahtarı:** Peri'nin anahtarı kapıyı açmaz.
-- (Tel ve bileklik: KAR-24.)
+Kanonda: `sablon/3_kanon_kaydi.md` → Nesneler. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
+- (Tel ve bileklik görünüşü: KAR-24.)
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 255, 257, 258
 
 #### KAR-37 Taç
-- Peri'nin eski hayatından geri alınacak şey (sahibinin kararı, 4 Ekim 2026: güzellik kraliçesi tacı; haczedilip satılmış, müzayedede karşısına çıkar).
-- Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (YAPI-35). 16 Kasım 2026'da kasa kalktı; "kasada biriken parayla" geçersiz.
-- 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*.
+Kanonda: `sablon/3_kanon_kaydi.md` → Nesneler › Taç. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
+- Her yolda Vaka 7'de geri alınır — YAPI-35.
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 256, 1844, 1969
 
 #### KAR-38 Dünya
-İstanbul, 2026. Türk karakterler, Türk mekânlar. Fiyatlar o yılın gerçek fiyatları.
+Kanonda: `sablon/3_kanon_kaydi.md` → Dünya. Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 261, 1992
 
 #### KAR-39 Paravan'ın yasal durumu (gerçek)
-Sahibinin kararı, 5 Ekim 2026 (tekrarlanan espri). Türkiye'de özel dedektiflik için bir kanun yok: 1994'te hazırlanan Özel Dedektiflik Kanunu (3963) yürürlüğe girmedi. Meslek ne yasak ne lisanslı; delil hukuka uygun toplandığı sürece iş yapılabiliyor, çoğu büro "danışmanlık" ya da "araştırma" şirketi olarak çalışıyor.
+Kanonda: `sablon/3_kanon_kaydi.md` → Dünya (ikinci madde). Bilgi yalnız orada yazılır ve değişir (KAR-1; 22 Kasım 2026, sahibi: aynı bilgi iki yerde durmaz).
 *Uygulayıcı:* yok — gerçek dünya bilgisi (espri dayanağı)
 *Kaynak:* 1819
 
