@@ -60,6 +60,8 @@
 > (25) CODEX-19 YAZILDI: `uretim/dongu.sh` başta Python kütüphanelerine, `codex --version`'a ve `codex login status`'a bakar; eksikse listeyi basar, çıkış 3, döngü başlamaz (PY/CODEX değişkeniyle bozuk araç verilince ikisini de yakaladı).
 > (26) CODEX-22 YAZILDI: `uretim/dongu.sh` ikinci döngüyü durdurur — başlangıçtaki kilit temizliği çalışan döngünün kilitlerini de siliyordu (iki Codex aynı resme, boşa kota). `kilit/DONGU`'da süreç numarası: yaşıyorsa çıkış 4, ölmüşse devralır; çıkışta kendi kilidini siler. Canlı ve ölü süreçle denendi. 
 > (27) CODEX-5 YAZILMADI (sahibinin kararı, 22 Kasım 2026): Codex `--approve-for-me` ile çalışma klasörüne (v<N>) yazan korumalı alanda; AGENTS.md ve .git dışarıda. Kayıtlarda ihlal yok; denemeyle doğrulanmadı (kota). **ZOR ADAYLAR BİTTİ.** **SIRADAKİ:** istem denetimleri (16) ve "yazmaya değmez" (15) — sahibi toplu/tek tek kararını henüz vermedi.
+> (28) "YAZMAYA DEĞMEZ" 15'İN HEPSİ YAZILMADI (sahibinin kararı, 22 Kasım 2026, tek soru): CODEX-8, CODEX-12, CODEX-13, KOD-6, KOD-29, KOD-49,
+> KOD-79, SATIR-6, SATIR-23, SATIR-33, YAPI-32, SHORTS-3, SHORTS-26, SEZON-5, SEZON-21 — gerekçeler yukarıdaki listede. **SIRADAKİ:** istem denetimleri (16), ISTEM-5'ten.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
