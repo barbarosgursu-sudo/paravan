@@ -2274,7 +2274,7 @@ Oturan figürün nereye oturduğu, bacaklarının nereye sarktığı, dirseğini
 *Kaynak:* 1163, 1165, 1432
 
 #### ISTEM-43 Kadraj sınırı yüzdeyle değil görsel tarifle
-Yüzde tutmuyor ("alt %20 boş" tekrar edildi, 3 üretimde ayaklar yine taştı). Görsel tarif: "kişiler daha küçük ve kadrajda daha yukarıda; en öndekinin ayakkabısı dahil herkesin ayakları üst %80'in içinde".
+Yüzde tutmuyor ("alt %20 boş" tekrar edildi, 3 üretimde ayaklar yine taştı). Görsel tarif: "kişiler daha küçük ve kadrajda daha yukarıda; en öndekinin ayakkabısı dahil herkesin ayakları üst %80'in içinde". Denetim aynı sınırı yüzdeyle ölçer (DENETIM-24); çelişki değil (22 Kasım 2026, sahibi).
 *Uygulayıcı:* hatırlat 8
 *Kaynak:* 1164, 1433, 1441, 1493
 
@@ -2514,7 +2514,7 @@ Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun **he
 *Kaynak:* 465, 1121, 1310, 1513, 3048, 3072
 
 #### DENETIM-24 Kadraj, oran, ölçek ve zemin
-- Kadraj ve oran istemdeki gibi. Figürlerde uyluk ortasından yukarısı. Afişte alt %20 boş.
+- Kadraj ve oran istemdeki gibi. Figürlerde uyluk ortasından yukarısı. Afişte alt %20 boş. Yüzde denetimin ölçüsüdür; istemde bu sınır görsel tarifle yazılır (ISTEM-43).
 - Boyutu dosya başlığından doğrula. Doğru değerler: 4:5 → 1122×1402, 3:4 → 1086×1448, 2:3 → 1024×1536 (kart), 9:16 → 941×1672.
 - Ölçek ve baş yüksekliği aynı mı (kontrol listesi E.2).
 - Zemin düz ve H4'teki renk (`arsiv/sablon/5_gorsel_sistemi.md` H4). (Vaka 3 kaydındaki "düz açık bej zemin" H4'ün Vaka 4 ve 14 Kasım 2026 kararlarıyla eskidi.)
