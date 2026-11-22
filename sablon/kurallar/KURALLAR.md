@@ -1255,7 +1255,7 @@ mekân bu sayfayla yan yana konur; benzeyen reddedilir.
 *Kaynak:* 1857, 3084, 1971
 
 #### SEZON-23 Vaka içinde kıyafet değişimi serbest
-Hikâye gerektirirse kıyafet vaka içinde değişebilir (Vaka 2'deki gibi; 16 Ekim 2026). Her yeni kıyafet = bir ifade seti (Vaka 3 notunda ~6–8 figür).
+Hikâye gerektirirse kıyafet vaka içinde değişebilir (Vaka 2'deki gibi; 16 Ekim 2026). Yeni kıyafette de yalnız satırların istediği ifadeler üretilir (SATIR-35; sahibinin kararı, 22 Kasım 2026 — eski "her yeni kıyafet = bir ifade seti, ~6–8 figür" sözü kalktı).
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 2579, 3020
 
