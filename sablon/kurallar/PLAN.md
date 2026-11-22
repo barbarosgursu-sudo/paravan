@@ -72,7 +72,8 @@
 > (33) ISTEM-19 YAZILDI: `istem_kontrol.sh` referansında kart olan her istemde (kart afişi hariç) İstem metninde 'YALNIZ kıyafetin' arar. V6'da 10 istem (G17, G23, G23z, G27–G33) bunu yalnız referans listesinde yazmış — Codex'e yalnız İstem bölümü gider, yani not modele ulaşmamış; resimler onaylı, geçmişe dokunulmadı. Bozulmuş G34 durdu. ~~SIRADAKİ: ISTEM-30~~
 > (34) ISTEM-30 YAZILMADI (sahibi): 'görünmesin' V3+V6'da hiç yok; 'görünmüyor' 20 yerde, hepsi yerinde. Tehlike anlamda (kanondaki şeyi saklatmak), söz yasağı yakalamaz. Gözde kalır. ~~SIRADAKİ: ISTEM-35~~
 > (35) ISTEM-35 YAZILDI: `istem_kontrol.sh` ara karede (başlığı 'Detay' olan yakın plan hariç) 'TAM <n> kişi' arar; kalabalıkta yüzü seçilenler sayılır. V3+V6'da 61 ara karenin tek eksiği V6 G76 (düğün; onaylı, dokunulmadı); bozulmuş G65 durdu. Kişi başına referans/kıyafet parantezi gözde. ~~SIRADAKİ: ISTEM-43~~
-> (36) ISTEM-43 YAZILMADI (sahibi): V3+V6'da yüzde yalnız 2 istemde, ikisi de görsel tarifle birlikte; kuralın kendi örneğinde 'üst %80' var — '%' yasağı doğru cümleyi de durdurur. Gözde kalır. DENETIM-24 çelişkisi madde 4 listesinde. **SIRADAKİ:** ISTEM-44.
+> (36) ISTEM-43 YAZILMADI (sahibi): V3+V6'da yüzde yalnız 2 istemde, ikisi de görsel tarifle birlikte; kuralın kendi örneğinde 'üst %80' var — '%' yasağı doğru cümleyi de durdurur. Gözde kalır. DENETIM-24 çelişkisi madde 4 listesinde. ~~SIRADAKİ: ISTEM-44~~
+> (37) ISTEM-44 YAZILDI: `istem_kontrol.sh` Peri/Cengo dışı figürde 'dış çizgisi toplu' ya da 'eşarbın içinde' arar. V6'da 36 yan karakter isteminin hepsi geçiyor; V3'te 9 eksik (Gizem, kuraldan önce 6 Kasım; onaylı, dokunulmadı). Bozulmuş G24 durdu. **SIRADAKİ:** SATIR-8.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

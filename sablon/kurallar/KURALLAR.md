@@ -2281,7 +2281,7 @@ Yüzde tutmuyor ("alt %20 boş" tekrar edildi, 3 üretimde ayaklar yine taştı)
 #### ISTEM-44 Saç toplu satırı (yan karakter); Peri ve Cengo istisna
 - Yan karakter isteminde: "saçın dış çizgisi toplu; zemine taşan ince tel yok" (eşarplıysa "saçın tamamı eşarbın içinde"). Gerekçe: dağınık teller zemine taşınca kesimden sonra teller arasında zemin halesi kalıyor (v3 G1, G4). Hale tek başına ret sebebi değil: gömmede yalnız baş kutusunda temizlenir (`arsiv/sablon/5_gorsel_sistemi.md` → F "Hale temizliği yöntemi"; Vaka 1–2'de böyle).
 - Peri ve Cengo istisna (sahibi, 6 Kasım): saçları dağınık kalır; onlara bu satır yazılmaz, kesimde kalan hale gömmede temizlenir.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` yan karakter figüründe 'dış çizgisi toplu' ya da 'eşarbın içinde' · hatırlat 8
 *Kaynak:* 1171, 1193, 2967
 
 #### ISTEM-45 Arka plan (mekân) istemi

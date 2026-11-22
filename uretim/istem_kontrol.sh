@@ -64,6 +64,10 @@ for f in "$@"; do
       has 'DİKEY 4:5'                  || eksik+=("kadraj satırında 'DİKEY 4:5' yok (ISTEM-5)")
       has 'Uyluk ortasından'           || eksik+=("kadraj satırında 'Uyluk ortasından yukarısı' yok (ISTEM-5)")
       has 'burnu kadrajın soluna'      || eksik+=("bakış burun geometrisiyle yazılmamış: 'Başın açısı: burnu kadrajın soluna bakıyor…' (ISTEM-6)")
+      # Yan karakterde saç toplu; dağınık tel kesimde hale bırakıyor (v3 G1, G4). Peri ve Cengo istisna — ISTEM-44.
+      if ! grep -qE '^# G[0-9a-z]+ — (Peri|Cengo)' <<<"$baslik"; then
+        grep -qiE 'dış çizgisi toplu|eşarbın içinde' <<<"$istem" || eksik+=("yan karakter: 'saçın dış çizgisi toplu; zemine taşan ince tel yok' (eşarplıysa 'saçın tamamı eşarbın içinde') yok (ISTEM-44)")
+      fi
       if grep -qE '^# G[0-9a-z]+ — Peri' <<<"$baslik"; then
         has 'Çekicilik:'               || eksik+=("Peri figürü: 'Çekicilik:' satırı yok (ISTEM-21)")
       fi
