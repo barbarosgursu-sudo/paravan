@@ -1984,7 +1984,7 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 - Bakış kadrajın soluna; Peri ekranda aynalanır, Cengo'ya bakar (bkz. ISTEM-6).
 - Kalıp satırı (§6): "Kadraj: DİKEY 4:5. Tek kişi, ayakta, kadrajın ortasında. Uyluk ortasından yukarısı; başın tepesinin üstünde ince bir boşluk. Arka plan: düz, tek renk <zemin>; gölgesiz, dokusuz, lekesiz, renk geçişi yok (bilgisayarda doldurulmuş tek renk gibi); hiçbir nesne yok."
 - "dokusuz, lekesiz" şart: bir denemede zemin tuval dokulu, lekeli çıktı ve kesim tutmazdı.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` figürde 'DİKEY 4:5' ve 'Uyluk ortasından' · hatırlat 8
 *Kaynak:* 502, 503, 350, 431, 1198, 1199, 1424
 
 #### ISTEM-6 Baş açısı ve bakış: burun-kulak geometrisi
@@ -1994,7 +1994,7 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 - Gerekçe: oyunda Peri solda aynalanır, konuk sağda durur; bu satırla ikisi birbirine bakar.
 - Yüz profile dönüyorsa: "üç çeyrek, İKİ göz de açıkça görünsün" (Vaka 3'te en sık bozulanlardan biri profil yüzdü).
 - `istem_kontrol.sh` figürde "Başın açısı" yoksa geçirmez.
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'Başın açısı'
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'Başın açısı' ve 'burnu kadrajın soluna'
 *Kaynak:* 73, 432, 446, 525, 526, 527, 350, 1423, 1159, 1495, 3568
 
 #### ISTEM-7 Figür zemini
@@ -2149,7 +2149,7 @@ Vaka 6'da (Parti 2'den önce sorulan soru; 13 Kasım 2026, sahibinin cevabı) ko
 - Peri'nin her isteminde ("dünkü ayarlar", sahibi 6 Kasım): "Çekicilik: en üst seviyede zarif ve seksi; belin inceliği ve bacakların hattı belirgin. Çıplaklık yok." Felaket/komedi hâlinde: "Çekicilik: en üst seviyede seksi ve komik, ikisi aynı anda. Acı ya da aşağılanma yok." Felaket ve komedi karesinde de "seksi" yazılır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 9).
 - Peri'nin dekoltesi asla azaltılmaz (sahibinin duran kuralı, 7 Ekim); tek istisna kıyafet kartı (ISTEM-17, sahibi 8 Kasım). Peri ve Gizem dekolteli (6–7 Kasım).
 - Peri'nin olduğu sahnelerde: "Kadrajdaki en gösterişli, en çekici kadın Peri'dir: ışık onun üstünde…; öbür kadın(lar) çekici ama Peri'yi gölgede bırakmıyor." Bu satır filtreye takılmadı.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` Peri figüründe 'Çekicilik:' · hatırlat 8
 *Kaynak:* 1211, 438, 3119, 2967, 1428
 
 #### ISTEM-22 "Kalın, mat kumaş" satırı yalnız Gizem'de; göğsü örten poz

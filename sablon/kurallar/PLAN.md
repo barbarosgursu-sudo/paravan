@@ -62,6 +62,10 @@
 > (27) CODEX-5 YAZILMADI (sahibinin kararı, 22 Kasım 2026): Codex `--approve-for-me` ile çalışma klasörüne (v<N>) yazan korumalı alanda; AGENTS.md ve .git dışarıda. Kayıtlarda ihlal yok; denemeyle doğrulanmadı (kota). **ZOR ADAYLAR BİTTİ.** **SIRADAKİ:** istem denetimleri (16) ve "yazmaya değmez" (15) — sahibi toplu/tek tek kararını henüz vermedi.
 > (28) "YAZMAYA DEĞMEZ" 15'İN HEPSİ YAZILMADI (sahibinin kararı, 22 Kasım 2026, tek soru): CODEX-8, CODEX-12, CODEX-13, KOD-6, KOD-29, KOD-49,
 > KOD-79, SATIR-6, SATIR-23, SATIR-33, YAPI-32, SHORTS-3, SHORTS-26, SEZON-5, SEZON-21 — gerekçeler yukarıdaki listede. **SIRADAKİ:** istem denetimleri (16), ISTEM-5'ten.
+> (29) İSTEM A GRUBU YAZILDI (ISTEM-5, ISTEM-6, ISTEM-21): `istem_kontrol.sh` figürde 'DİKEY 4:5', 'Uyluk ortasından', 'burnu kadrajın soluna';
+> Peri figüründe 'Çekicilik:'. V6'da 53/53, 53/53, 8/8 geçiyordu; bozulmuş Peri istemi durdu. **SIRADAKİ:** istem B grubu (13, tek tek):
+> ISTEM-12 (V6 13/15), ISTEM-14 (29/30), SATIR-17 (17/30), ISTEM-19 (kartta "YALNIZ kıyafetin" 0/8), ISTEM-30, ISTEM-35, ISTEM-43, ISTEM-44,
+> SATIR-8, SATIR-10, KAR-25, SINIR-3, ARAYUZ-6.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

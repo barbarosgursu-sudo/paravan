@@ -52,6 +52,13 @@ for f in "$@"; do
                                        || eksik+=("## Satırlar bölümü yok ya da boş (ISTEM_KALIPLARI §10, SR-E)")
       has 'TAM İKİ KOL'                || eksik+=("'TAM İKİ KOL, İKİ EL' yok (H6)")
       has 'Başın açısı'                || eksik+=("bakış satırı yok (H3)")
+      # Adım 4 madde 3 (22 Kasım 2026, sahibi): kadraj kalıbı ISTEM-5, bakış burun geometrisiyle ISTEM-6, Peri'de çekicilik ISTEM-21.
+      has 'DİKEY 4:5'                  || eksik+=("kadraj satırında 'DİKEY 4:5' yok (ISTEM-5)")
+      has 'Uyluk ortasından'           || eksik+=("kadraj satırında 'Uyluk ortasından yukarısı' yok (ISTEM-5)")
+      has 'burnu kadrajın soluna'      || eksik+=("bakış burun geometrisiyle yazılmamış: 'Başın açısı: burnu kadrajın soluna bakıyor…' (ISTEM-6)")
+      if grep -qE '^# G[0-9a-z]+ — Peri' <<<"$baslik"; then
+        has 'Çekicilik:'               || eksik+=("Peri figürü: 'Çekicilik:' satırı yok (ISTEM-21)")
+      fi
       zemin=$(grep -o 'Arka plan: düz, tek renk [^;]*' <<<"$istem" | head -1 | sed 's/Arka plan: düz, tek renk //')
       grep -qxE "$ZEMINLER" <<<"$zemin" || eksik+=("zemin satırı yok ya da renk zeminler.tsv'de değil: '$zemin' (H4)")
       grep -q 'yeşil' <<<"$zemin"      && eksik+=("yeşil zemin (H4: Vaka 4'ten sonra yok)")
