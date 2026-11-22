@@ -2234,7 +2234,7 @@ Pencere görünen mekânda: "pencereden İstanbul: eski apartmanlar, uzakta mina
 #### ISTEM-35 Kalabalık kare
 - Kare promptunda kişi sayısı yazılır: "Kadrajda TAM n kişi: …" (K19'da kenardaki Cengo düştü); gelince metindeki kare satırıyla (`vakaN_diyalog.md` → `{kare: Kn}`) sayılır, adı geçen herkes var mı bakılır.
 - Her kişi için parantez içinde referans numarası ve kıyafet özeti. Örnek: "Peri (ikinci referans; kısa bej trençkot kemeri bağlı, krem eşarp, güneş gözlüğü alnında, kırmızı stiletto, ÇORAP YOK)". Peri varsa "en gösterişli kadın" satırı (ISTEM-21); her elin işi.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` ara karede (Detay hariç) 'TAM n kişi' · hatırlat 8
 *Kaynak:* 456, 1209, 1426, 1427, 1428, 3077
 
 #### ISTEM-36 Kim kimi görüyor

@@ -45,6 +45,10 @@ for f in "$@"; do
   if grep -qi 'kart' <<<"$refs" && [ "$tur" != "kart afişi" ]; then
     has 'YALNIZ kıyafetin'            || eksik+=("kart referansı var ama 'Kart YALNIZ kıyafetin kesimi, boyu ve rengi içindir; çizim tarzını, yüzünü, pozunu ALMA' yok (ISTEM-19)")
   fi
+  # Ara karede kişi sayısı yazılır (V1 K19'da kenardaki Cengo düştü); "Detay:" yakın planı hariç — ISTEM-35.
+  if [ "$tur" = "ara kare" ] && ! grep -qE '^# G[0-9a-z]+ — Detay' <<<"$baslik"; then
+    grep -qE 'TAM [0-9A-Za-zÇĞİÖŞÜçğıöşü]+ kişi' <<<"$istem" || eksik+=("ara kare: 'Kadrajda TAM <n> kişi: …' satırı yok; kalabalıkta yüzü seçilenler sayılır (ISTEM-35)")
+  fi
   # Peri'ye "kumaş kalın ve mat" yazılmaz (dekolteyi bastırdı; yalnız Gizem'in tişörtü) — ISTEM-22.
   if grep -qE '^# G[0-9a-z]+ — Peri' <<<"$baslik" && grep -qiE 'kalın ve mat|kalın, mat' <<<"$istem"; then
     eksik+=("Peri isteminde 'kalın ve mat' kumaş satırı var — dekolteyi bastırır, yalnız Gizem'de (ISTEM-22)")
