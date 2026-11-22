@@ -59,6 +59,11 @@ for f in "$@"; do
       if grep -qE '^# G[0-9a-z]+ — Peri' <<<"$baslik"; then
         has 'Çekicilik:'               || eksik+=("Peri figürü: 'Çekicilik:' satırı yok (ISTEM-21)")
       fi
+      # Varyant (birinci referans onaylı resim, başlıkta "temel" yok): temelin AYNISI, değişen yalnız poz ve ifade — ISTEM-14.
+      if head -1 <<<"$refs" | grep -q 'onayli/G' && ! grep -qi 'temel' <<<"$baslik"; then
+        has 'AYNISI'                   || eksik+=("varyant: 'Birinci referans görseldeki X'in AYNISI' satırı yok (ISTEM-14)")
+        has 'Değişen'                  || eksik+=("varyant: 'Değişen yalnız poz ve ifade' satırı yok (ISTEM-14)")
+      fi
       zemin=$(grep -o 'Arka plan: düz, tek renk [^;]*' <<<"$istem" | head -1 | sed 's/Arka plan: düz, tek renk //')
       grep -qxE "$ZEMINLER" <<<"$zemin" || eksik+=("zemin satırı yok ya da renk zeminler.tsv'de değil: '$zemin' (H4)")
       grep -q 'yeşil' <<<"$zemin"      && eksik+=("yeşil zemin (H4: Vaka 4'ten sonra yok)")

@@ -2069,7 +2069,7 @@ Tarz örneği dosyası referans listesinde SON sırada: `tarz_ornek_kadin.jpg` (
 - Referanslar: 1. `onayli/G<temel>.png`; temel dekoltesizse **bütün resim** verilir; onaylı temel dekolteliyse bütün hâliyle verilmez, onun baş kırpığı + kapalı gövde verilir (baş kırpığını temel onaylanınca yerel Claude hazırlar, `referanslar/`). Baş kırpığı yalnız dekolteli temelde kullanılır (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 14). Gerekirse 2. poz (`poz_cengo_*` ya da `poz_*.jpg`, "YALNIZ poz").
 - Tarz paragrafı YOK, tarz örneği cümlesi YOK.
 - İstem: "Birinci referans görseldeki X'in AYNISI: aynı yüz, saç, kıyafet ve takılar; aynı çizim tarzı, aynı düz <renk> arka plan, aynı ölçek ve kadraj. Değişen tek şey poz ve ifade." → poz → bakış → ifade → kadraj + zemin → çıplaklık → yazı yasağı → oran.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` varyantta (birinci referans onaylı resim, başlıkta temel yok) 'AYNISI' ve 'Değişen' · hatırlat 8
 *Kaynak:* 411, 1197, 1419, 1420, 1064, 433, 450
 
 #### ISTEM-15 Referans verme biçimi

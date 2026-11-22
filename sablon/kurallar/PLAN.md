@@ -66,7 +66,8 @@
 > Peri figüründe 'Çekicilik:'. V6'da 53/53, 53/53, 8/8 geçiyordu; bozulmuş Peri istemi durdu. **SIRADAKİ:** istem B grubu (13, tek tek):
 > ~~ISTEM-12~~ (YAZILDI, 30), ISTEM-14 (29/30), SATIR-17 (17/30), ISTEM-19 (kartta "YALNIZ kıyafetin" 0/8), ISTEM-30, ISTEM-35, ISTEM-43, ISTEM-44,
 > SATIR-8, SATIR-10, KAR-25, SINIR-3, ARAYUZ-6.
-> (30) ISTEM-12 YAZILDI: `istem_kontrol.sh` yeni karakter temelinde (gövde referansı var, kendi baş kırpığı yok) 'Başı bilerek silindi' arar. V6'da eksik görünen 2 istem (G23, G23z) Gizem'in — dönen karakter, kendi baş kırpığıyla; gerçekten yeni 13 temelin 13'ü geçiyor; bozulmuş G3 durdu. **SIRADAKİ:** ISTEM-14.
+> (30) ISTEM-12 YAZILDI: `istem_kontrol.sh` yeni karakter temelinde (gövde referansı var, kendi baş kırpığı yok) 'Başı bilerek silindi' arar. V6'da eksik görünen 2 istem (G23, G23z) Gizem'in — dönen karakter, kendi baş kırpığıyla; gerçekten yeni 13 temelin 13'ü geçiyor; bozulmuş G3 durdu. ~~SIRADAKİ: ISTEM-14~~
+> (31) ISTEM-14 YAZILDI: `istem_kontrol.sh` varyantta (birinci referans onaylı resim, başlıkta "temel" yok) "AYNISI" ve "Değişen" arar. V6'da 55 varyantın hepsi geçiyor; bozulmuş G24 durdu. **SIRADAKİ:** SATIR-17.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
