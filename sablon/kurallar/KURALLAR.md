@@ -266,7 +266,8 @@ Yalnız Cengo tepki vermez; Peri'nin de tarafı var. Vaka 3'teki yan karakterin 
 V4 falcı ("bir kadın, kırmızı"); V6 Cengo'nun kızı (Peri onu ilk kez başkasının gözünden görür); V7 müzayede (smokin ve gece elbisesi); V8 telefon (söylenecekken çalar).
 - *Bilgi:* [YENI_OYUN_SEZON › VAKA 6 — CENGO'NUN SIRRI · Mavi Ay tipi] **Kararın düğümü** sırra göre yazılır. Sabit olan: bağ yüksekse bu vaka en çok "Elektrik" anı taşıyan vakadır; Peri bir şeyi söylemek üzere olur ve söylemez. (k:9852875fea)
 - *Bilgi:* [YENI_OYUN_SEZON › VAKA 8 — İADE · Columbo + Mavi Ay · sezon finali] **Sezon sonu:** kavuşmazlar. En yüksek bağın ödülü: bir şey söylenecekken telefon çalar; arayan yeni bir müşteridir. Sezon 2'nin kapısı. (k:ea8b3b23a3)
-*Uygulayıcı:* hatırlat 1
+- **Durum (22 Kasım 2026, sahibi):** sezon 1'in planıydı; dördü de yazıldı (V4 falcı "Bir kadın görüyorum. Kırmızı.", V6 Eylül, V7 smokin/gece elbisesi, V8 telefon karesi K190). Kayıt olarak durur, artık hatırlatılmaz; sezon 2'nin planlı anları ayrıca yazılır.
+*Uygulayıcı:* yok — sezon 1'in planı, yapıldı (kayıt)
 *Kaynak:* 1788
 
 ### Cengo bağı (`cengoBag`)

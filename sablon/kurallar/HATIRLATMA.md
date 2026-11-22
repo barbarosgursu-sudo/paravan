@@ -5,7 +5,7 @@
 > Claude bakar ve vaka kaydına işaretler (`kayit` / `bitti`); sahibine yalnız UYMUYOR ve EMİN DEĞİLİM gider, onay anında.
 > Sahibinin adımları (2, 6, 12) olduğu gibi gösterilir — SUREC-43. Kuralın metni KURALLAR.md'de.
 
-## Adım 1 — Form doldurulur (67)
+## Adım 1 — Form doldurulur (66)
 
 - [ ] **TON-1** Oyunun özü Peri ile Cengo
 - [ ] **TON-2** Gizem gerçektir
@@ -16,7 +16,6 @@
 - [ ] **KAR-2** Kanon kaydı: tek liste, iki katman
 - [ ] **KAR-3** Açık noktalar
 - [ ] **KAR-9** İkisi de gerekli
-- [ ] **KAR-13** Sezon boyunca planlı anlar
 - [ ] **KAR-22** Her vakada yeni kıyafet
 - [ ] **KAR-26** Sabit sezon hikâyesi
 - [ ] **KAR-27** Peri (kanon)
