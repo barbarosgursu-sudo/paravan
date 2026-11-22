@@ -260,7 +260,7 @@ for (const [v, gler] of Object.entries(onay)) {
   for (const [ad, betik] of Object.entries(ARAC)) {
     const bak = gler.filter(g => !kalsin.has(g + ' ' + ad) && !ikili.includes(g));
     if (!bak.length) continue;
-    const r = kos('python', [betik, '--uretim', v, ...bak]);
+    const r = kos(require(path.join(kok, 'kaynak', 'arac_python.js')).python(), [betik, '--uretim', v, ...bak]);   // python → py → python3 (KOD-33)
     if (r.status === 0) continue;
     const satir = ((r.stdout || '') + (r.stderr || '')).split('\n').filter(l => /^\s*(YÜZ\s+|BENZERLİK\s+)?(KALDI|ŞÜPHELİ|DUR)/.test(l)).slice(0, 6).join(' | ');
     const ne = { 1: 'ŞÜPHELİ', 2: 'KALDI', 3: 'DUR (sınır kurulamadı — sahibine)' }[r.status] || 'araç çalışmadı';

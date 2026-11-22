@@ -34,7 +34,7 @@ const arg = process.argv.slice(2);
 const bayrak = ad => { const i = arg.indexOf(ad); if (i < 0) return null; const v = arg[i + 1]; arg.splice(i, 2); return v; };
 const yaz = arg.includes('--yaz'); if (yaz) arg.splice(arg.indexOf('--yaz'), 1);
 const ESKI = arg.includes('--eski'); if (ESKI) arg.splice(arg.indexOf('--eski'), 1);
-const PY = process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
+const PY = require('./arac_python.js').python();   // python → py → python3 (KOD-33)
 const KALINTI_ESIK = Number(process.env.KALINTI_ESIK || 1000);
 const vaka = bayrak('--vaka') || '2';
 const profilEk = Object.fromEntries((bayrak('--profil') || '').split(',').filter(Boolean).map(s => s.split('=')));

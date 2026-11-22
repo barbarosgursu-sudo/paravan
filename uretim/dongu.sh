@@ -22,7 +22,9 @@ BEKLE="${BEKLE:-900}"
 ZAMAN_ASIMI="${ZAMAN_ASIMI:-900}"
 KONTROL="$(cd "$(dirname "$0")" && pwd)/istem_kontrol.sh"   # geçmeyen istem üretilmez
 # Bilgisayar hazır mı (CODEX-19): eksik varsa üretime başlanmaz, eksik listesi sahibine. PY/CODEX denemek için değiştirilebilir.
-PY="${PY:-python}"; CODEX="${CODEX:-codex}"; EKSIK=""
+# Python'un adı bilgisayara göre değişir (ortağınkinde yalnız `py`) — KOD-33: PY verilmediyse python → py → python3, çalışan ilki.
+if [ -z "$PY" ]; then for c in python py python3; do "$c" -c "import sys" >/dev/null 2>&1 && { PY=$c; break; }; done; PY=${PY:-python}; fi
+CODEX="${CODEX:-codex}"; EKSIK=""
 "$PY" -c "import onnxruntime, PIL, numpy, torch, open_clip" >/dev/null 2>&1 \
   || EKSIK="$EKSIK\n- Python kütüphanesi eksik (onnxruntime, PIL, numpy, torch, open_clip) — KURULUM_ORTAK.md'deki pip install satırı"
 if ! "$CODEX" --version >/dev/null 2>&1; then EKSIK="$EKSIK\n- Codex kurulu değil (codex --version çalışmıyor)"
@@ -79,15 +81,15 @@ kol() {
     # (commit kapısı da onayli/'e giren resimde araçları yeniden koşar, geçmeyeni kaydettirmez). Benzerlik DUR (çıkış 3) →
     # ölçü ayırt etmiyor, sahibine sorulur: döngü DUR dosyasını koyar, bütün kollar durur.
     if [ "$sonuc" = uretildi ]; then
-      cikti=$(cd ../../kaynak && python arac_tarz.py --uretim "v$N" "G$n" 2>/dev/null); tk=$?; tz=$(head -1 <<<"$cikti")
+      cikti=$(cd ../../kaynak && "$PY" arac_tarz.py --uretim "v$N" "G$n" 2>/dev/null); tk=$?; tz=$(head -1 <<<"$cikti")
       echo "kol$k: G$n TARZ: ${tz:-araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${tz:-araç çalışmadı}" >> "$LOG/tarz.tsv"
       # Yazılımla yüz (kimlik) denetimi (14 Kasım 2026, sahibi): Peri, Cengo, Gizem figür/kartında kapı; karede yalnız bilgi.
-      cikti=$(cd ../../kaynak && python arac_yuz.py --uretim "v$N" "G$n" 2>/dev/null); yk=$?; yz=$(head -1 <<<"$cikti")
+      cikti=$(cd ../../kaynak && "$PY" arac_yuz.py --uretim "v$N" "G$n" 2>/dev/null); yk=$?; yz=$(head -1 <<<"$cikti")
       echo "kol$k: G$n ${yz:-YÜZ araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${yz:-YÜZ araç çalışmadı}" >> "$LOG/yuz.tsv"
       # Yazılımla konuk benzerliği (20 Kasım 2026, sahibi): konuk figür/kartı eski karakterlere ve birlikte üretilenlere benzemez.
-      cikti=$(cd ../../kaynak && python arac_benzerlik_resim.py --uretim "v$N" "G$n" 2>/dev/null); bk=$?; bz=$(head -1 <<<"$cikti")
+      cikti=$(cd ../../kaynak && "$PY" arac_benzerlik_resim.py --uretim "v$N" "G$n" 2>/dev/null); bk=$?; bz=$(head -1 <<<"$cikti")
       echo "kol$k: G$n ${bz:-BENZERLİK araç çalışmadı}"
       printf 'G%s\t%s\t%s\n' "$n" "$(date +%H:%M)" "${bz:-BENZERLİK araç çalışmadı}" >> "$LOG/benzerlik.tsv"
       if [ "$tk" = 0 ] && [ "$yk" = 0 ] && [ "$bk" = 0 ]; then karar=GECTI; else karar=ONAYLANAMAZ; fi

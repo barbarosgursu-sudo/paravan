@@ -209,7 +209,7 @@ function resimDenetle(g) {
     if (!yz.has(f)) B('K6', f, 'figür yapay zekâ kesimiyle gömülmemiş (gorseller.json → kesim_yz) — saç/kol arasında zemin kalabilir');
   }
   // K5: el sayfası onayı (arac_el.py yazar; sahibi/denetleyen onaylar)
-  const el = spawnSync(process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3'), [path.join(KOK, 'arac_el.py'), '--kapi', VAKA], { cwd: KOK, encoding: 'utf8' });
+  const el = spawnSync(require('./arac_python.js').python(), [path.join(KOK, 'arac_el.py'), '--kapi', VAKA], { cwd: KOK, encoding: 'utf8' });
   if (el.status !== 0) for (const l of (el.stdout + el.stderr).trim().split('\n').filter(l => /^K5/.test(l))) { const c = l.split('|').map(x => x.trim()); B('K5', c[1], c[2]); }
   if (el.status !== 0 && !/^K5/m.test(el.stdout + el.stderr)) B('K5', 'arac_el.py', (el.stdout + el.stderr).trim().split('\n').slice(-2).join(' / '));
 }

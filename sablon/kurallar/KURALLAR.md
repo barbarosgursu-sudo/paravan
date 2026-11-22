@@ -3311,7 +3311,7 @@ Bayraklar ADAY'dır: yatay taşma, figür başı kadraj dışı, konuk/Peri boy 
 
 #### KOD-33 Ortağın bilgisayarı ve ilk kurulum
 - İlk kurulum (bir kez): Git, Node.js, Python 3 kurulu olmalı. Depoda olmayan tarayıcı aracı (`araclar/`, Playwright + Chromium) yeniden kurulur: `npx playwright install chromium`. Resim üretimi için ortağın kendi Codex erişimi gerekir (`uretim/CLAUDE.md`). Kurulumdan sonra `cd kaynak && node dogrulayici.js yeni` ve test döngüsü geçmeli.
-- Tuzak: Claude'un kabuğu `PW` kullanıcı değişkenini görmez; tur araçlarından önce `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok).
+- Tuzak: Claude'un kabuğu `PW` kullanıcı değişkenini görmez; tur araçlarından önce `export PW=C:/Yazilim/paravan/araclar/node_modules/playwright`. Python `py` ile çalışır (`python` yok). Programlar Python'u kendisi bulur (22 Kasım 2026, sahibinin kararı): sıra `PYTHON` ortam değişkeni → `python` → `py` → `python3`, çalışan ilki (`kaynak/arac_python.js`; `uretim/dongu.sh` aynı sırayla, `PY` verilirse o). Bulunan Python'da kütüphaneler eksikse döngü başlamaz (CODEX-19) — o zaman `pip install` o Python'a yapılır (`py -m pip install …`).
 *Uygulayıcı:* hatırlat 5, 9
 *Kaynak:* 2887, 2912
 
