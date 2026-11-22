@@ -47,7 +47,8 @@
 > bağ ekleyen yamayla 8/8 yakalandı. Uygulayıcı "yok" → program.
 > **(15) YAPI-38 YAZILDI (sahibi: "Yaz"):** HUKUM listesi `arac_akis_denetim.js`'ten `dogrulayici.js`'e taşındı (araç oradan alır); K20 yeni
 > oyunda kararın kendisi, `sonuc_<karar>` sahnesi ve anı defterinde hüküm sözü → HATA. Sahne diyaloğu taranmaz. Bugün 0; bilerek V7 sonuç +
-> Cengo satırı + V8 defter → üçü durdu, sahnedeki "Haklıydın" geçti. **SIRADAKİ:** BILGI-9 (tahta testi yeni defterZincir'e).
+> Cengo satırı + V8 defter → üçü durdu, sahnedeki "Haklıydın" geçti. 
+> (16) BILGI-9 YAZILMADI (sahibinin kararı, 22 Kasım 2026): zincir defterini commit kapısı zaten denetliyor (`arac_kapi.js` → `arac_sizinti_tur.js` "zincir" ekranı, vaka değişince kendiliğinden). **SIRADAKİ:** KAR-4 (isimler değişmez).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
