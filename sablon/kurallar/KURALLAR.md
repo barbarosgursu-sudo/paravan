@@ -1903,7 +1903,7 @@ Kıyafet başına sayı (sahibinin kararı, 8 Kasım 2026 — 8 Ekim kararının
 - Konuklar, arka planlar, ara kareler, detaylar görsel listesinde ayrıca yer alır.
 - Görsel sayısını satırlar belirler: satırın istemediği ifade üretilmez, istediği de esirgenmez. Eski "görsel sayısı azaltılmaz" (11 Ekim 2026) ve "~96 görsel, her vakada Peri ile Cengo için dörder ifade" (4 Ekim 2026) kuralları kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 31). Her vakada Peri ile Cengo yeni kıyafet giyer (KAR-22).
 - *Ders:* [YENI_OYUN_CERCEVE › 5. GÖRSEL — asıl maliyet] Şimdiki modelde sezon başına ~40 görsel; sprite modelinde ilk sezonda ~20, sonrası neredeyse bedava. İfadeler komediyi taşır — aynı sprite kaş kaldırmış hâliyle üç ayrı replikte çalışır. (k:7e16212aad)
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K24 (görsel listesindeki ifadeyi hiçbir satır istemiyorsa uyarı; temel ifade hariç) · hatırlat 8
 *Kaynak:* 371, 372, 373, 645, 370, 646, 1971, 3081
 
 #### SATIR-36 Cengo satırı etiketli replik olarak yazılır

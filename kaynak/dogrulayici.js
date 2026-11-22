@@ -804,9 +804,16 @@ function kural16_kararsizYol(game, hatalar) {
 // bulunmalı. Hiçbiri JS hatası vermez: tanımsız ifade sessizce eski sprite'ta
 // kalır, tanımsız arka plan sessizce boş kalır. "Arayüz/veri ayrışması sessizdir"
 // dersinin konuşma ekranındaki karşılığı. kanon.sahne yoksa (eski oyun) çalışmaz.
-function kural15_sahne(game, hatalar, acilis) {
+function kural15_sahne(game, hatalar, acilis, kullan = null) {
   const S = game.kanon && game.kanon.sahne;
   if (!S) return;
+  // SATIR-35 için: satırların istediği ifadeler (vaka → "figür.set.ifade" ya da "konuk.ifade"); kural24 okur.
+  let aktif = "*";
+  const iste = (f, set, cset, i) => {
+    if (!kullan || !f || !i) return;
+    const k = f === "peri" ? `peri.${set}.${i}` : f === "cengo" && cset ? `cengo.${cset}.${i}` : `${f}.${i}`;
+    (kullan[aktif] = kullan[aktif] || new Set()).add(k);
+  };
   const fig = S.figurler || {}, sesler = S.sesler || {};
   const arkalar = new Set(S.arkalar || []), kareler = new Set(S.kareler || []);
   const denetle = (yer, sahne) => {
@@ -857,11 +864,16 @@ function kural15_sahne(game, hatalar, acilis) {
         if (!izinliP.includes(s.peri))
           hatalar.push(`[K15] ${y}: dinleyen Peri için '${s.peri}' ifadesi yok ('${set}' setinde: ${izinliP.join(", ")}).`);
       }
+      if (s.peri) iste("peri", set, cset, s.peri);
+      if (s.cengo) iste("cengo", set, cset, s.cengo);
+      if (s.gir && s.gi) iste(s.gir, set, cset, s.gi);   // sahneye giren figürün giriş ifadesi
+      if (typeof s.yuz === "string") for (const p of s.yuz.split("+")) { const [f, i] = p.trim().split("."); iste(f, set, cset, i); }
       if (s.k === "not") { if (s.i) hatalar.push(`[K15] ${y}: anlatı satırının ifadesi olmaz.`); return; }
       if (sesler[s.k]) { if (s.i) hatalar.push(`[K15] ${y}: '${s.k}' figürü olmayan bir ses; ifade alamaz.`); return; }
       const f = fig[s.k];
       if (!f) { hatalar.push(`[K15] ${y}: konuşan '${s.k}' ne figür ne tanımlı ses.`); return; }
       if (!s.i) return;                              // ifade verilmezse önceki kalır
+      iste(s.k, set, cset, s.i);
       const izinli = s.k === "peri" ? (f.setler[set] || [])
         : s.k === "cengo" && cset ? ((f.setler || {})[cset] || []) : (f.ifadeler || []);
       if (!izinli.includes(s.i))
@@ -871,6 +883,7 @@ function kural15_sahne(game, hatalar, acilis) {
     yuru(sahne.satirlar, "");
   };
   for (const vaka of game.vakalar) {
+    aktif = vaka.id;
     for (const [ad, sahne] of Object.entries(vaka.sahneler || {})) denetle(`${vaka.id}/sahneler.${ad}`, sahne);
     for (const c of vaka.clues || []) if (c.sahne) denetle(`${vaka.id}/${c.id}.sahne`, c.sahne);
     // Cengo'nun büro satırları (KOD-44): karar repliği (cengo_replik) ve söylenmeyen kanıt (cengo_kanit_replik) kararın
@@ -885,7 +898,33 @@ function kural15_sahne(game, hatalar, acilis) {
     for (const d of vaka.decisions || [])
       if (d.kare && !kareler.has(d.kare)) hatalar.push(`[K15] ${vaka.id}/${d.id}: kare '${d.kare}' görsel listesinde yok.`);
   }
+  aktif = "*";
   for (const sahne of (acilis && acilis.sahneler) || []) denetle(`açılış/${sahne.id}`, sahne);
+}
+
+// KURAL 24 — Satırsız ifade (SATIR-35): görsel listesindeki (sablon/vakalar/vakaN_gorsel.md) her figür ifadesini en az bir
+// satır istemeli; istemiyorsa resim boşa üretilir (Vaka 3'te altı resim). Tur yolları değil bütün veri taranır (K15'in topladığı).
+// 'normal' sayılmaz: temel figür öbür ifadelerin referansıdır. Anahtar sütunu backtick'siz eski listeler (V1) atlanır; listesi
+// olmayan vaka da. Uyarı: liste üretimden önce yazılır, satır sonra eklenebilir.
+function kural24_satirsiz(game, uyarilar, kullan) {
+  if (!(game.kanon && game.kanon.sahne)) return;
+  const fs = require("fs"), path = require("path");
+  const herkes = kullan["*"] || new Set();
+  for (const vaka of game.vakalar) {
+    const n = String(vaka.id).replace(/^V/, "");
+    let md; try { md = fs.readFileSync(path.join(__dirname, "..", "sablon", "vakalar", `vaka${n}_gorsel.md`), "utf8"); } catch (e) { continue; }
+    const ist = kullan[vaka.id] || new Set();
+    const bos = [];
+    for (const satir of md.split(/\r?\n/)) {
+      const c = satir.split("|").map(x => x.trim());
+      if (!/^G\d/.test(c[1] || "") || !/figür/.test(c[2] || "")) continue;
+      for (const [, k] of (c[4] || "").matchAll(/`([^`]+)`/g)) {
+        if (k.endsWith(".normal") || ist.has(k) || herkes.has(k)) continue;
+        bos.push(`${c[1]} ${k}`);
+      }
+    }
+    if (bos.length) uyarilar.push(`[K24] ${vaka.id}: görsel listesinde var, hiçbir satır istemiyor — ${bos.join(", ")} (SATIR-35: satırsız ifade üretilmez).`);
+  }
 }
 
 
@@ -1304,7 +1343,9 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
   kural12_cikarimBaslik(game, hatalar);
   kural13_cengoSatir(game, hatalar);
   kural14_tanimsizOlgu(game, hatalar);
-  kural15_sahne(game, hatalar, acilis);
+  const kullan = {};
+  kural15_sahne(game, hatalar, acilis, kullan);
+  kural24_satirsiz(game, uyarilar, kullan);
   kural16_kararsizYol(game, hatalar);
   kural17_giris(game, hatalar, uyarilar);
   kural18_ipucuAdi(game, hatalar);
@@ -1350,6 +1391,7 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
     console.log(`Kural 22 (Tutar tablosu): ${uyariSay("[K22]") ? uyariSay("[K22]") + " UYARI" : "PASS"}`);
   if (game.kanon && game.kanon.sahne)
     console.log(`Kural 23 (Saat "kala")  : ${uyariSay("[K23]") ? uyariSay("[K23]") + " UYARI" : "PASS"}`);
+    console.log(`Kural 24 (Satırsız ifade): ${uyariSay("[K24]") ? uyariSay("[K24]") + " UYARI" : "PASS"}`);
   console.log("──────────────────────");
   hatalar.forEach(h => console.log("  ✗ " + h));
   uyarilar.forEach(u => console.log("  ⚠ " + u));
