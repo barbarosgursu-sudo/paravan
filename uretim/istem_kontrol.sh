@@ -41,6 +41,10 @@ for f in "$@"; do
   if [ -n "$oran" ] && has 'Görselin oranı TAM' && ! has "Görselin oranı TAM $oran"; then
     eksik+=("oran türe uymuyor: $tur → TAM $oran olmalı, istemde '$(grep -o 'Görselin oranı TAM [0-9:]*' <<<"$istem" | head -1)' (ISTEM-3)")
   fi
+  # Kıyafet kartı referanssa model kartın çizim tarzını da kopyalıyor (V6 G18 → bütün Cengo seti) — ISTEM-19.
+  if grep -qi 'kart' <<<"$refs" && [ "$tur" != "kart afişi" ]; then
+    has 'YALNIZ kıyafetin'            || eksik+=("kart referansı var ama 'Kart YALNIZ kıyafetin kesimi, boyu ve rengi içindir; çizim tarzını, yüzünü, pozunu ALMA' yok (ISTEM-19)")
+  fi
   # Peri'ye "kumaş kalın ve mat" yazılmaz (dekolteyi bastırdı; yalnız Gizem'in tişörtü) — ISTEM-22.
   if grep -qE '^# G[0-9a-z]+ — Peri' <<<"$baslik" && grep -qiE 'kalın ve mat|kalın, mat' <<<"$istem"; then
     eksik+=("Peri isteminde 'kalın ve mat' kumaş satırı var — dekolteyi bastırır, yalnız Gizem'de (ISTEM-22)")

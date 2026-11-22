@@ -2135,7 +2135,7 @@ Vaka 6'da (Parti 2'den önce sorulan soru; 13 Kasım 2026, sahibinin cevabı) ko
 - Onaydan sonra o kıyafetin geçtiği her figür ve kare istemi kıyafet kartını referans olarak alır (SR-C). Peri/Cengo figüründe kart referansı zorunlu; `istem_kontrol.sh` referanslarda "kıyafet kartı" yoksa geçirmez. 
 - Kıyafet istemde sözle yeniden **tarif edilmez**; kart referans verilir, "kart nasılsa öyle" yazılır. Yalnız kartta görünmeyen şey yazılır: **dekolte derinliği** (kartta hafif çizilir, ISTEM-17; yazılmazsa resimde çıkmaz — Vaka 2 G2 tur 3) ve **o satırın hâli** (açık, kapalı, lekeli) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 10). Karakter sabitleri (ISTEM-20) ayrıca her istemde yazılır.
 - Kartı referans alan her istemde: "Kart YALNIZ kıyafetin kesimi, boyu ve rengi içindir; kartın çizim tarzını, ışığını, yüzünü ve pozunu ALMA." Tarz ve yüz birinci referanstan (boyalı onaylı resim). Gerekçe: V6'da G18 (temel) kartı referans alınca tarzı da karttan kopyaladı; ifadeler G18'in "aynısı" istendiği için kayma bütün Cengo setine geçti (13 Kasım, sahibi fark etti). Denetimde temel/kart eski onaylılarla yan yana konur (tarz).
-*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'kıyafet kartı' (Peri/Cengo figürü) · hatırlat 8
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` 'kıyafet kartı' (Peri/Cengo figürü); kart referansı olan her istemde 'YALNIZ kıyafetin' · hatırlat 8
 *Kaynak:* 379, 557, 1228, 560, 1169, 3577
 
 #### ISTEM-20 Karakter sabitleri her istemde

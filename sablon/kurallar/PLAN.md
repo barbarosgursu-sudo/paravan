@@ -68,7 +68,8 @@
 > SATIR-8, SATIR-10, KAR-25, SINIR-3, ARAYUZ-6.
 > (30) ISTEM-12 YAZILDI: `istem_kontrol.sh` yeni karakter temelinde (gövde referansı var, kendi baş kırpığı yok) 'Başı bilerek silindi' arar. V6'da eksik görünen 2 istem (G23, G23z) Gizem'in — dönen karakter, kendi baş kırpığıyla; gerçekten yeni 13 temelin 13'ü geçiyor; bozulmuş G3 durdu. ~~SIRADAKİ: ISTEM-14~~
 > (31) ISTEM-14 YAZILDI: `istem_kontrol.sh` varyantta (birinci referans onaylı resim, başlıkta "temel" yok) "AYNISI" ve "Değişen" arar. V6'da 55 varyantın hepsi geçiyor; bozulmuş G24 durdu. ~~SIRADAKİ: SATIR-17~~
-> (32) SATIR-17 YAZILDI: `istem_kontrol.sh` varyantta 'Bu figürü/ifadeyi … ayıran:' satırını arar. V6'da 55 varyantın hepsi geçiyor; bozulmuş G24 durdu. Ayrımın resimde gerçekten görünmesi gözde kalır. **SIRADAKİ:** ISTEM-19.
+> (32) SATIR-17 YAZILDI: `istem_kontrol.sh` varyantta 'Bu figürü/ifadeyi … ayıran:' satırını arar. V6'da 55 varyantın hepsi geçiyor; bozulmuş G24 durdu. Ayrımın resimde gerçekten görünmesi gözde kalır. ~~SIRADAKİ: ISTEM-19~~
+> (33) ISTEM-19 YAZILDI: `istem_kontrol.sh` referansında kart olan her istemde (kart afişi hariç) İstem metninde 'YALNIZ kıyafetin' arar. V6'da 10 istem (G17, G23, G23z, G27–G33) bunu yalnız referans listesinde yazmış — Codex'e yalnız İstem bölümü gider, yani not modele ulaşmamış; resimler onaylı, geçmişe dokunulmadı. Bozulmuş G34 durdu. **SIRADAKİ:** ISTEM-30.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
