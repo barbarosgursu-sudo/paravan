@@ -2811,7 +2811,7 @@ Her figürlü kişinin yüzü portreye kırpılır (`yeni_gorsel/portre/`): her 
 - Tablo (Peri'ye göre): Peri 1,00; Cengo 1,00; Nadide 0,98; Ferruh 0,98; Kenan 1,02; Gizem 0,93; Sedat 0,92; Ayla 1,00; Rüstem 0,95; Müzeyyen (V6) 1,00; Jale (V6) 1,00; Haldun (V6) 1,02; Eylül (V6) 0,94; Recep (V6) 0,94; Dilek (V6) 0,92; Tahsin (V6) 1,00.
 - Kadın yan karakterler için eski aralık (0.76–0.82, çok kısa/tombul 0.72) **kalktı**; boyu yalnız bu tablo belirler (17 Kasım 2026, çelişki sorusu 7).
 - Kadın konuk boyu yeni tablodaki **0.92–1.00**; eski "0.76–0.82" kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 7; eski `uretim/CLAUDE.md` karar listesi).
-*Uygulayıcı:* hatırlat 10
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K20 (gömülü konuk figürünün boyu tabloda yoksa hata) · hatırlat 10
 *Kaynak:* 487, 504, 505, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 524, 2532, 3036, 3052
 
 #### GOMME-14 Uzanan kol, elde nesne

@@ -1087,6 +1087,14 @@ function kural19_kimYapti(game, hatalar, uyarilar) {
 const SIGARA = /(^|[^\p{L}])(sigara|izmarit|tütün|puro|pipo|nargile|kül ?tabla|çakma[kğ])/iu;
 function kural20_sabitler(game, hatalar, kisiler, acilis, gorseller, uyarilar = []) {
   if (!(game.kanon && game.kanon.sahne)) return;   // yalnız yeni oyun
+  // GOMME-13: gömülü konuk figürünün boyu tabloda olmalı; yoksa ekran sessizce 1 verir (konuklardan büyük).
+  if (gorseller && gorseller.dosyalar) {
+    const boy = gorseller.boy || {};
+    const konuk = new Set(Object.keys(gorseller.dosyalar).filter(a => a.includes(".")).map(a => a.split(".")[0])
+      .filter(f => f !== "peri" && f !== "cengo"));
+    for (const f of konuk) if (typeof boy[f] !== "number")
+      hatalar.push(`[K20] ${f}: figürü gömülü ama gorseller.json → boy'da boyu yok — ekran 1 verir (GOMME-13; ölç: arac_yanyana.js --oran).`);
+  }
   const sigaraAra = (yer, deger) => {
     const gez = (x, iz) => {
       if (typeof x === "string") { const m = String(x).toLocaleLowerCase("tr").match(SIGARA); if (m) hatalar.push(`[K20] ${yer}${iz}: sigara sözü ("${m[2]}") — seride sigara yok (SINIR-13).`); }

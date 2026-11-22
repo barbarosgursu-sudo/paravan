@@ -49,7 +49,8 @@
 > oyunda kararın kendisi, `sonuc_<karar>` sahnesi ve anı defterinde hüküm sözü → HATA. Sahne diyaloğu taranmaz. Bugün 0; bilerek V7 sonuç +
 > Cengo satırı + V8 defter → üçü durdu, sahnedeki "Haklıydın" geçti. 
 > (16) BILGI-9 YAZILMADI (sahibinin kararı, 22 Kasım 2026): zincir defterini commit kapısı zaten denetliyor (`arac_kapi.js` → `arac_sizinti_tur.js` "zincir" ekranı, vaka değişince kendiliğinden). 
-> (17) KAR-4 YAZILMADI (sahibinin kararı, 22 Kasım 2026): 22 commit'te ad hiç değişmedi; diyalogdaki ad değişimini söz farkı kapısı zaten durdurur (KOD-35). **SIRADAKİ:** GOMME-13.
+> (17) KAR-4 YAZILMADI (sahibinin kararı, 22 Kasım 2026): 22 commit'te ad hiç değişmedi; diyalogdaki ad değişimini söz farkı kapısı zaten durdurur (KOD-35).
+> (18) GOMME-13 YAZILDI: doğrulayıcı K20 — gömülü konuk figürünün `gorseller.json → boy`'u yoksa hata (ekran sessizce 1 veriyordu). Bugün 29 konuk, 0 eksik; Gizem'in boyu silinince durdu. **SIRADAKİ:** SATIR-7.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
