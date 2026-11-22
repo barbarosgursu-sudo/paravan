@@ -12,7 +12,8 @@
 //      kural SATIR-11). Her bayrak üç sınıftan birine düşer:
 //        OTO  — kural kapattı (gerekçesiyle listelenir, kimseye sorulmaz).
 //        İŞ   — kural ne yapılacağını söylüyor; yazar (Claude) diyalogda uygular, araç yeniden koşar.
-//        SOR  — kural karar veremedi; yalnız bunlar sahibine gider.
+//        SOR  — kural karar veremedi; yalnız bunlar sahibine gider. ŞİMDİLİK YOK (22 Kasım 2026, sahibi;
+//               SATIR-10): hiçbir B(…) SOR atamıyor; gerekirse önce kural tanımlanır.
 //      Türler: EYLEM (anlatıda eylem/nesne, kare yok), JEST (replikte parantez), KONUŞAN (konuşan ekranda değil),
 //      HİTAP (`kime` ekranda değil), DURUŞ (anlatıda duruş/uğraş, figür bunu göstermiyor; 14 Kasım 2026),
 //      İLK GÖRME (figür ekranda ama sahnede adı henüz geçmedi, SATIR-19; 14 Kasım 2026).
