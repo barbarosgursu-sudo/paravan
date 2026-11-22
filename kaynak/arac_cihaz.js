@@ -2,7 +2,7 @@
 // anda bu modül sayfayı sırayla aşağıdaki ekran boylarına getirir, görüntü alır ve ölçer.
 // Cihaz elde olmadan yerleşimi denetlemenin yolu bu: tarayıcı ekran boyunu taklit eder.
 // Çıktı: kaynak/YENI_UI/cihaz/<an>.png (her anda bütün boylar yan yana) + bayraklar.txt.
-// Bayraklar ADAY listesidir, hata listesi değil (arac_akis_denetim.js --bayrak gibi):
+// Bayraklar ADAY listesidir, hata listesi değil (eski oyunun akış denetimi gibi):
 // sayısal sorunları yakalar, "kötü duruyor" yargısı karşılaştırma sayfalarına bakan insana kalır.
 // Taklit gerçek cihazın aynısı değil: Safari farkları, çentik/alt çubuk payı, yazı tipi çizimi.
 const fs = require('fs'), path = require('path');

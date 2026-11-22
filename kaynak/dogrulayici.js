@@ -1,7 +1,7 @@
 // ============================================================================
 // PARAVAN DETEKTİFLİK — DOĞRULAYICI v1
 // Veri Format Sözleşmesi'nden okur, 11 kuralı çalıştırır (bkz. OKUBENI → Doğrulayıcı kuralları).
-// Kullanım: node dogrulayici.js  (GAME'i ./game_data.js'ten import eder)
+// Kullanım: node dogrulayici.js [veri klasörü]  (varsayılan yeni/ — yeni oyun; eski oyun arşivde, KOD-36)
 // ============================================================================
 
 // ---- İFADE değerlendirme + olgu toplama --------------------------------------
@@ -1403,17 +1403,15 @@ function dogrula(game, ekstraKaynaklar, kisiler, acilis, gorseller) {
 
 module.exports = { dogrula, ifadeDegerlendir, acilabilirOlgular, ifadeOlgulari, HUKUM };
 
-// Doğrudan çalıştırılırsa game_data.js'i dene.
-// İsteğe bağlı argüman: veri klasörü. `node dogrulayici.js yeni` yeni oyunun
-// verisini (yeni/game_data.json, kisiler.json, acilis.json) denetler; argümansız
-// çağrı eskisi gibi eski oyunu denetler.
+// Doğrudan çalıştırılırsa yeni oyunun verisini (yeni/game_data.json, kisiler.json, acilis.json) denetler.
+// İsteğe bağlı argüman: veri klasörü (varsayılan yeni/; `node dogrulayici.js yeni` ile aynı). Eski oyun
+// 22 Kasım 2026'da arşive gitti (KOD-36); verisi arsiv/kaynak/eski_oyun/'de.
 if (require.main === module) {
   try {
     const fs = require("fs"), path = require("path");
-    const dizin = process.argv[2];
-    const yol = f => dizin ? path.join(dizin, f) : f;
-    const GAME = dizin ? JSON.parse(fs.readFileSync(yol("game_data.json"), "utf-8"))
-                       : require("./game_data.js").GAME;
+    const dizin = path.resolve(__dirname, process.argv[2] || "yeni");
+    const yol = f => path.join(dizin, f);
+    const GAME = JSON.parse(fs.readFileSync(yol("game_data.json"), "utf-8"));
     const ekstra = [];                       // K9 tohumları burada da arar
     for (const f of ["kisiler.json", "prolog.json", "acilis.json"]) {
       try { ekstra.push(fs.readFileSync(yol(f), "utf-8")); } catch (e) {}
@@ -1428,7 +1426,7 @@ if (require.main === module) {
     const ok = dogrula(GAME, ekstra, kisiler, acilis, gorseller);
     process.exit(ok ? 0 : 1);
   } catch (e) {
-    console.log("game_data.js bulunamadı — test verisiyle çalıştırmak için test_dogrulayici.js kullanın.");
+    console.log("veri okunamadı (" + (process.argv[2] || "yeni") + "/game_data.json):");
     console.log(e.message);
     process.exit(1); // doğrulama koşmadıysa "doğrula && derle" zinciri derlemeye geçmesin
   }

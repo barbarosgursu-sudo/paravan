@@ -567,7 +567,7 @@ Ortağın isteği, sahibinin (Barbaros) onayı, 16 Kasım 2026; bütün seri.
 #### BILGI-1 Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz
 Projenin çekirdeği; korunacak sözleşmelerden biridir. Oyuncu henüz hak etmediği bir bilgiyi hiçbir yerden almaz: metin, görsel, defter, ipucu adı, Cengo'nun esprisi.
 - Şakaya da uyar: Cengo'nun esprisi, oyuncunun henüz hak etmediği bir ipucunu "yanlışlıkla" söyleyemez. Komik yan karakterlerin en kolay düştüğü tuzak budur.
-- Metin tarafını doğrulayıcı K1/K10/K11 ve `test_sizinti.js` kollar; görsel tarafı `arsiv/kaynak/gorsel_stil_sozlesmesi.md` §7. Künye portresi de katmanlıdır (`kisiler.json` → `portre_katman`).
+- Metin tarafını doğrulayıcı K1/K10/K11 ve sızıntı taraması (`arac_sizinti_tur.js`) kollar (eski oyunda `test_sizinti.js` da vardı, 22 Kasım 2026'dan beri arşivde); görsel tarafı `arsiv/kaynak/gorsel_stil_sozlesmesi.md` §7. Künye portresi de katmanlıdır (`kisiler.json` → `portre_katman`).
 - *Ders:* [V6 başlangıç › 2. Süre ölçümü] 3–4 Diyalog + veri + künye · 12 Kas 21:28 · 12 Kas 21:41 · 0 · ~13 dk · diyalog `vaka6_diyalog.md` (265 satır); iskelet betikle (scratchpad); E sahnesi salona taşındı (dikiş makinesi terziliği sızdırıyordu); K8 için iki karar tutarı yer değiştirdi (−10.000 / −5.000); giriş 56 replik (K17 uyarısı); `test_yeni_v1.js` örnek kare K99 → K999 (k:59f1f482bc)
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K1/K10/K11 · program `kaynak/arac_sizinti_tur.js` (kapı) · hatırlat 5, 14
 *Kaynak:* 31, 199, 1799, 2045
@@ -961,7 +961,7 @@ Kural 27; sahibinin kararı, 15–16 Kasım 2026.
 *Kaynak:* 47, 164, 1724, 1807, 1816, 2044, 2047
 
 #### YAPI-37 Ekonomi seçenekleri daraltır, kirletmeye zorlamaz
-Ekonomi seçenekleri daraltabilir ama oyuncuyu kirli karara zorlayamaz: bütçeyi harcamanın hiçbir biçiminde oyuncunun elinde yalnızca vicdanı eksi kararlar kalamaz. `test_borc.js` bunu eski oyunun dokuz vakasının hepsinde sınıyor. Eski oyundan yeni oyuna aynen taşınan yapı sözleşmelerinden biridir.
+Ekonomi seçenekleri daraltabilir ama oyuncuyu kirli karara zorlayamaz: bütçeyi harcamanın hiçbir biçiminde oyuncunun elinde yalnızca vicdanı eksi kararlar kalamaz. `test_borc.js` bunu eski oyunun dokuz vakasının hepsinde sınıyordu (22 Kasım 2026'dan beri `arsiv/kaynak/eski_oyun/test/`'te; yeni oyunda kasa yok — YAPI-31). Eski oyundan yeni oyuna aynen taşınan yapı sözleşmelerinden biridir.
 - *Ders:* [YENI_OYUN_TON › 9. EKONOMİ] **Eski oyunda ne oldu.** Her omurga vakadan sonra 59.000 lira sabit gider kesiliyordu. Kararların çoğu bunun altında kazandırıyordu; temiz kararların çoğu 0 ya da eksiydi. Borca vaka başına %10 faiz biniyordu. Sonuç: hangi yolu seçersen seç kasa eksiye gidiyor, bir kez düşen bir daha çıkamıyordu. Kasvetli bir oyunda bu bilinçli bir baskıydı; hafif bir oyunda keyfi öldürür. (k:9134389f93)
 - *Ders:* [YENI_OYUN_TON › 9. EKONOMİ] 2. **Dürüst yol ayakta tutar.** Her vakada en az bir temiz seçenek kasayı eksiye düşürmez. Kirli yol daha çok kazandırır, ama fark küçüktür. Bu bir testle korunur (`test_borc.js`'in kardeşi). (k:e96885132b)
 *Uygulayıcı:* hatırlat 1
@@ -986,7 +986,7 @@ Ekonomi seçenekleri daraltabilir ama oyuncuyu kirli karara zorlayamaz: bütçey
 #### YAPI-40 Cengo'nun yorumu gizli not olmamalı
 Komedi "not vermez" kuralını yeni bir yerden deler: Cengo'nun esprisi gizli bir not olabilir — her temiz karara alkış, her kirli karara laf sokarsa Cengo puan tabelasına döner.
 - Cengo yorum yapabilir, çünkü o bir karakterdir, hakem değil. Ama tepkisi ahlaka değil **duruma** göredir: bazen kurnazca kirli bir oyunu sever (eski besleme tablosunda da öyleydi), bazen dürüst bir karar ona pahalıya patlar ve söylenir.
-- Bir vakadaki (dört) kararın Cengo satırları yan yana konunca "doğru cevap" okunmamalı; `arac_akis_denetim.js` tam bunu basar; vaka formu 12. Kararlar'da da denetlenir.
+- Bir vakadaki (dört) kararın Cengo satırları yan yana konunca "doğru cevap" okunmamalı; eski oyunda `arac_akis_denetim.js` tam bunu basıyordu (arşivde); vaka formu 12. Kararlar'da da denetlenir.
 *Uygulayıcı:* hatırlat 3, 6
 *Kaynak:* 1792, 1794, 1795, 210, 632
 
@@ -1404,7 +1404,7 @@ taraması**, **sızıntı taraması** ve **erken satır–resim taraması** (SR-
 *Kaynak:* 680
 
 #### SUREC-15 Bulanık replik taraması
-Adım 5'in sonunda, Onay 2'den ÖNCE: diyalog baştan sona oyuncunun gördüğü sırayla okunur (`arac_okuma.js` ya da görselsiz turun
+Adım 5'in sonunda, Onay 2'den ÖNCE: diyalog baştan sona oyuncunun gördüğü sırayla okunur (eski oyunun `arac_okuma.js`'i arşivde; görselsiz turun
 ekranları) ve her replik "kime, neyi, nereden biliyor, espri, sıra, niyet" sorularıyla sınanır (soruların ayrıntısı 7. parçada). Düzeltme
 yalnız **netleştirme**dir; hikâyeye yeni olgu eklenmez, eklenecekse önce sahibine sorulur. Bulunanlar ve yapılanlar sahibine **tek liste**
 hâlinde verilir; sahibi Onay 2'ye temizlenmiş metinle başlar ve notlarını sahne sahne, **toplu** verir. Ölçü (neden): Vaka 2'de Onay 2 =
@@ -2762,7 +2762,7 @@ sahibinin kararı, 17 Kasım 2026, çelişki sorusu 6). Aşağıdaki elle temizl
 Görseller tek tek değil, **sohbet sohbet** (bir sohbetin bütün çıktıları), toplu gelir.
 - Dosyalar `G<n>` ile başlar ya da ChatGPT'nin verdiği adla kalır; sahibi yalnız numaraları yazar ("Sohbet 1, G1–G13"), araç `--sira G1-G13` ile dosya adındaki üretim saatine göre numara verir. Pakette her numaradan **bir** görsel olur (beğenilmeyen çıkarılır); sayı tutmazsa araç durur. Numarayı mesaj sırasından değil görselden doğrula (Vaka 2'de 3. ve 4. tablonun tersiydi).
 - Numara `sablon/vakalar/vakaN_gorsel.md` tablosundan tür ve anahtara çevrilir.
-- `cd kaynak && node arac_paket.js <klasör> --vaka N [--yaz]`: `--yaz` yokken yalnız önizler, proje dosyasına dokunmaz (temas sayfası `YENI_UI/paket_<klasör>.png`: yeşil zemin + büyütülmüş baş). `--yaz` ile keser/küçültür, gömer, manifestoyu günceller, doğrulayıcı + iki derlemeyi koşar ve eski `index.html`'in değişmediğini md5 ile sınar.
+- `cd kaynak && node arac_paket.js <klasör> --vaka N [--yaz]`: `--yaz` yokken yalnız önizler, proje dosyasına dokunmaz (temas sayfası `YENI_UI/paket_<klasör>.png`: yeşil zemin + büyütülmüş baş). `--yaz` ile keser/küçültür, gömer, manifestoyu günceller, doğrulayıcı + derlemeyi koşar ve depo kökündeki donmuş eski sayfanın (`index.html`) değişmediğini md5 ile sınar.
 - Araca kalmayan (insana): saç halesi, yazı/harf taraması, boy ayarı (araç boyu olmayan konuğu söyler), ilgili satırlarda ekran görüntüsü (`arac_yeni_tur.js`).
 - Sahibine paketin oyundaki son hâli tek seferde gösterilir; düzeltme istenen görseller tek listede döner. Temel görseller (G1, G14…) bitince öbür sohbetler aynı anda (başka sekmede, ChatGPT ya da Grok) yürüyebilir.
 - Araçtır, test değil.
@@ -3128,11 +3128,11 @@ Yayındaki oyun: https://barbarosgursu-sudo.github.io/paravan/
 ```
 cd kaynak
 node dogrulayici.js && node build_html.js     # doğrulayıcı geçmezse derleme olmaz
-for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçmeli
+for t in test_*.js; do node $t; done          # hepsi geçmeli
 ```
-Yeni oyunda her değişiklikten sonra: `node dogrulayici.js yeni`, `node build_html.js yeni`, `node build_html.js` (iki derleme; eski `index.html`'in md5'i aynı kalmalı), testler. Sahneyi etkileyen
+22 Kasım 2026'dan beri tek oyun var: `node dogrulayici.js` ile `… yeni`, `node build_html.js` ile `… yeni` aynıdır (eski oyun arşivde, kökteki `index.html` donmuş — KOD-36). Sahneyi etkileyen
 değişiklikte ayrıca tur (`node arac_yeni_tur.js 0 vapur dogru` gibi, yollar KOD-27'de) ve sızıntı taraması (`node arac_sizinti_tur.js V5 40`). Resim gömmede (`göm` komutu) adım 5: kök CLAUDE.md'deki "Her commit'ten önce" komutları (yukarıdaki kod bloğu); hepsi geçerse commit → push.
-*Uygulayıcı:* program `.claude/kapi_hook.js` iki doğrulayıcı + test_*.js (`kaynak/` değişen her commit; git kancası `.githooks/commit-msg`) · program `kaynak/arac_kapi.js` doğrulayıcı (iki oyun), derleme, tur, sızıntı (commit kapısı, V6+) · hatırlat 4, 14
+*Uygulayıcı:* program `.claude/kapi_hook.js` doğrulayıcı + test_*.js (`kaynak/` değişen her commit; git kancası `.githooks/commit-msg`) · program `kaynak/arac_kapi.js` doğrulayıcı, derleme, tur, sızıntı (commit kapısı, V6+) · hatırlat 4, 14
 *Kaynak:* 10, 11, 2326, 2350, 2886, 2555, 1147
 
 #### KOD-4 Doğrulayıcı ne zaman çalışır, ne çıktı verir
@@ -3160,12 +3160,12 @@ Kardeş tuzak: test döngüsünde `|| echo FAIL` yazıp sonunda koşulsuz "hepsi
 *Kaynak:* 52, 53, 54, 2452
 
 #### KOD-7 test_bozuk.js ve test sayısı
-`test_bozuk.js` negatif testtir: bilerek bozuk veri besler, yedi senaryonun her birinde BLOCKED basar ve çıkış kodu 0'dır (gösteri başarılı; buradaki "BLOCKED" beklenen sonuçtur, hata değil). Diğer 26 test geçmelidir (22'si eski oyunun; `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js` yeni oyunun).
+22 Kasım 2026'dan beri `kaynak/`'ta 5 test var ve hepsi geçmelidir: `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js`, `test_ses.js`. Eski oyunun 22 testi `test_bozuk.js` dahil `arsiv/kaynak/eski_oyun/test/`'te (`test_bozuk.js` negatif testti: bilerek bozuk veri besler, yedi senaryoda BLOCKED basar, çıkış kodu 0).
 *Uygulayıcı:* yok — test düzeni bilgisi (KOD-3'ün parçası)
 *Kaynak:* 12, 2351
 
 #### KOD-8 Doğrulayıcı testlerin içinde de çalışır
-`test_v5.js` ve `test_v6.js` doğrulayıcıyı çağırıp temiz geçmesini bekler; bir K1 hatası bu ikisini de kırar. Üç kırık görünce tek kök sebep ara.
+`test_yeni_v1.js` doğrulayıcıyı çağırıp temiz geçmesini bekler (eski oyunda `test_v5.js` ve `test_v6.js` de, arşivde); bir K1 hatası bu ikisini de kırar. Üç kırık görünce tek kök sebep ara.
 *Uygulayıcı:* yok — teşhis bilgisi
 *Kaynak:* 55
 
@@ -3180,7 +3180,7 @@ Kardeş tuzak: test döngüsünde `|| echo FAIL` yazıp sonunda koşulsuz "hepsi
 *Kaynak:* 57
 
 #### KOD-11 game_data.json asıl, yedekler eşlenir
-`game_data.json` ASIL; `vaka2-6.json` ve `yan_a/b.json` YEDEK. Asılda değiştirdiğini yedekte de değiştir. Önceden denetlenmiyordu ve yedi yedeğin yedisi de kaymıştı (22–80 satır; Cengo satırı gibi bütün bir özellik hiç işlenmemişti); ayrışma sessizdir. `test_yedek.js` artık eşliyor, kayma olursa hangi alanın ayrıldığını basar. V1 ve YAN-C'nin yedeği bilerek yok; küme OKUBENI'de tanımlı.
+(Eski oyun; 22 Kasım 2026'dan beri dosyalar ve test `arsiv/kaynak/eski_oyun/`'de.) `game_data.json` ASIL; `vaka2-6.json` ve `yan_a/b.json` YEDEK. Asılda değiştirdiğini yedekte de değiştir. Önceden denetlenmiyordu ve yedi yedeğin yedisi de kaymıştı (22–80 satır; Cengo satırı gibi bütün bir özellik hiç işlenmemişti); ayrışma sessizdir. `test_yedek.js` artık eşliyor, kayma olursa hangi alanın ayrıldığını basar. V1 ve YAN-C'nin yedeği bilerek yok; küme OKUBENI'de tanımlı.
 *Uygulayıcı:* yok — eski oyunun bakımı
 *Kaynak:* 58
 
@@ -3204,15 +3204,15 @@ Tuhaf görünen şey kasıtlı olabilir. Örnek: `vedat_yuz` "gizli tuzak" sanı
 *Kaynak:* 50
 
 #### KOD-15 DEV_MOD
-- `build_html.js` içinde `const DEV_MOD = false;` (satır ~508), **şu an `false`** — yayın modu. Derleme bunu her seferinde söyler (`index.html yenilendi: 4357 KB` / `✓ yayın modu — 🛠 düğmesi basılmadı`).
+- **22 Kasım 2026: 🛠 düğmesi ve DEV_MOD bayrağı söküldü** (eski oyunun arşiviyle; tohum anahtarları eski oyunundu). Aşağısı geçmiş kayıt. `build_html.js` içinde `const DEV_MOD = false;` (satır ~508) vardı — yayın modu. Derleme bunu her seferinde söyler (`index.html yenilendi: 4357 KB` / `✓ yayın modu — 🛠 düğmesi basılmadı`).
 - `true` iken üst şeritte 🛠 düğmesi çıkar: durum özeti, `cengoBag` oynatma, tohum anahtarları ve ses teşhisi (hangi dosya çalıyor, uzantı keşfi, kilit durumu). Ses teşhisi paneli de bu bayrağın arkasında.
 - Tuzak 1: bayrak üretilen sayfanın içinde yaşar, derleyicinin kapsamında değil — `console.log(DEV_MOD)` doğrudan patlar; kontrol çıktı dizgisine bakmalı.
 - Tuzak 2: çıktıda `dev-btn` aramak yanıltıcıdır (dizgi koşulun içinde her hâlükârda var, grep 1 döndürür ama düğme yoktur). Tek doğru kontrol tarayıcıda DOM: `.dev-btn` sayısı 0.
-*Uygulayıcı:* yok — yayın ayarı
+*Uygulayıcı:* yok — bayrak söküldü
 *Kaynak:* 51, 2335, 2343, 2344, 2345, 2347, 2348
 
 #### KOD-16 GORSELLER anahtarı uzantısız
-Sayfa her aramada `.replace('.jpg','')` yapar; `"v5_takip.jpg"` diye gömülen görsel hiç bulunamaz. Eksik görsel JS hatası vermez, sessizce metin yer tutucuya düşer; `arac_ui_tur.js` de yakalamaz (düşüldü: 7 görsel uzantılı gömüldü, hiçbiri görünmedi). `build_html.js` artık uzantılı anahtarı ve gömülmemiş atfı yakalayıp derlemeyi durdurur; görsel gömdükten sonra "✓ görsel: N atıfın hepsi gömülü" satırını görmek şart. Otomatik denetim: her görsel gömülü, adı doğru.
+Sayfa her aramada `.replace('.jpg','')` yapar; `"v5_takip.jpg"` diye gömülen görsel hiç bulunamaz. Eksik görsel JS hatası vermez, sessizce metin yer tutucuya düşer; eski oyunun UI turu da yakalamamıştı (düşüldü: 7 görsel uzantılı gömüldü, hiçbiri görünmedi). `build_html.js` artık uzantılı anahtarı ve gömülmemiş atfı yakalayıp derlemeyi durdurur; görsel gömdükten sonra "✓ görsel: N atıfın hepsi gömülü" satırını görmek şart. Otomatik denetim: her görsel gömülü, adı doğru.
 *Uygulayıcı:* program `kaynak/build_html.js` uzantılı anahtar · program `kaynak/test_yeni_arayuz.js` (yeni oyunda atıf)
 *Kaynak:* 59, 762
 
@@ -3248,8 +3248,8 @@ claude.ai artifact çerçevesi `confirm()`/`alert()`ı engeller (kutu çıkmaz, 
 ### C. Tarayıcı turları ve araçlar
 
 #### KOD-22 UI doğrulaması tarayıcıda
-UI değişikliği Playwright + Chromium ile tarayıcıda doğrulanır: `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`, Pixel 5 profili. UI değişikliğinden sonra `cd kaynak && node arac_ui_tur.js`: oyunu Pixel 5'te gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, dokunma hedefi, kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
-*Uygulayıcı:* yok — eski oyunun UI turu (arac_ui_tur.js çıkış kodu vermez)
+UI değişikliği Playwright + Chromium ile tarayıcıda doğrulanır: `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`, Pixel 5 profili. UI değişikliğinden sonra `cd kaynak && node arac_yeni_tur.js` (KOD-27): oyunu Pixel 5'te gerçek tıklamayla baştan sona oynatır (JS hatası, yatay taşma, kayıt). Test değil, araç; `test_*.js` döngüsüne girmez. Eski oyunun `arac_ui_tur.js`'i 22 Kasım 2026'dan beri arşivde.
+*Uygulayıcı:* yok — tur aracı insana bakar
 *Kaynak:* 30, 64
 
 #### KOD-23 Tarayıcı turu her şeyi görmez
@@ -3332,11 +3332,11 @@ Yeni vakada kapının kurulumu (YOLLAR tablosu + `vakaN_kapi.md`, adım 5): bkz.
 ### D. Yeni oyunun verisi ve derlemesi
 
 #### KOD-36 Yeni oyun verisi ayrı; eski oyuna dokunulmaz
-- Yeni oyunun verisi `kaynak/yeni/`'de (Vaka 1 + açılış …). Eski oyunun verisine (dokuz vaka, `kaynak/game_data.json`) dokunulmaz; o hâlâ yayındaki `index.html`'in kaynağı.
-- Yeni oyunun motor eki `kaynak/motor_yeni.js` (`OyunYeni extends Oyun`): Kim yaptı?, sonda ödenen ücret, suçlamanın kaydı; 16 Kasım 2026'dan beri kasa yok, karar sahnede (`arsiv/sablon/2_kural_kitabi.md` 22a–d, 24). `motor.js`'e dokunulmaz (eski sayfaya da gömülü; eski sayfa birebir aynı kalmalı). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
+- Yeni oyunun verisi `kaynak/yeni/`'de (Vaka 1 + açılış …). **22 Kasım 2026'dan beri eski oyun arşivde** (sahibinin kararı: prototipti): verisi, 22 testi ve dört aracı `arsiv/kaynak/eski_oyun/`'de; depo kökündeki `index.html` son hâliyle donmuş, artık derlenmez (ana adres olduğu gibi durur). Derleyici ve doğrulayıcı tek kip: yeni oyun.
+- Yeni oyunun motor eki `kaynak/motor_yeni.js` (`OyunYeni extends Oyun`): Kim yaptı?, sonda ödenen ücret, suçlamanın kaydı; 16 Kasım 2026'dan beri kasa yok, karar sahnede (`arsiv/sablon/2_kural_kitabi.md` 22a–d, 24). `motor.js` yeni oyunun tabanıdır; eski oyun için korunması gerekmez, değişiklik yeni oyunun testleri ve turuyla sınanır (eskiden: `motor.js`'e dokunulmaz (eski sayfaya da gömülü; eski sayfa birebir aynı kalmalı)). Yeni kip derlemesi dosyayı `// <node>` bloklarını atarak sayfaya ekler; `yeni_arayuz.js` sayfadaki `Oyun` adını `OyunYeni`'ye bağlar.
 - Yeni oyun yapım şablonuyla üretilir: `sablon/` (7 parça + `vakalar/`). Şablon ile CLAUDE.md çelişirse yeni oyun için şablon geçerlidir.
 - *Bilgi:* [YENI_OYUN_CERCEVE › 3. NE DEVRALINIYOR] **~7.100 satır makine, ~3.500 satır hikâye.** Motorda ve derleyicide gömülü tek bir vaka adı yok (tek istisna bir yorum satırı). (k:434bcb3027)
-*Uygulayıcı:* program `kaynak/arac_kapi.js` (eski index.html md5 değişirse durur) · hatırlat 4
+*Uygulayıcı:* program `kaynak/arac_paket.js` (donmuş eski index.html md5 değişirse uyarır) · hatırlat 4
 *Kaynak:* 14, 2398, 2409
 
 #### KOD-37 Yeni oyunun doğrulayıcısı
@@ -4168,7 +4168,7 @@ Aile paylaşımı açık.
 *Kaynak:* 1598
 
 #### RAF-46 Vaka sat, seçim satma
-Satış modelinin tek kuralı: vaka sat, seçim satma — raf düzeninde de aynen geçerli. Chapters'ın modeli (elmasla açılan özel seçenekler) sözleşmeyi doğrudan deler, "düzgün insan olmak için para öde" demeye gelir. `test_borc.js` dokuz vakada da tersini sınıyor.
+Satış modelinin tek kuralı: vaka sat, seçim satma — raf düzeninde de aynen geçerli. Chapters'ın modeli (elmasla açılan özel seçenekler) sözleşmeyi doğrudan deler, "düzgün insan olmak için para öde" demeye gelir. eski oyunda `test_borc.js` dokuz vakada da tersini sınıyordu (arşivde).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 kararda kapı yok (yeni)
 *Kaynak:* 1599, 2001
 
@@ -4209,7 +4209,7 @@ Kıyafet ilk sezonda hiç yok; ikinci sezonda düşünülür (9 Kasım 2026; çe
 *Kaynak:* 1610, 2002, 3019
 
 #### RAF-52 +1 araştırma hakkı ve koruma kuralı
-Koruma kuralı (pazarlığa kapalı, raf düzeninde aynen): her vaka reklamsız haklarla `doğru` çözülebilir olmalı — reklam başarı satmaz, yalnız daha geniş resim verir. Doğrulayıcı/test bunu vaka başına sınar (reklamsız hak sayısıyla en az bir `doğru` yolu); ekonomi sözleşmesi aynen (`test_borc.js`). +1 hak (16 Ekim 2026, sahibinin kararı; sahibi oynarken 3 hakkı az buldu): vaka başına bir kez, bir ek araştırma hakkı (bugün kredi/reklam ile, RAF-47). Reklamsız sürümde (web, Steam) ek hak düğmesi çıkmaz; Steam'de hak sayısı sonra kararlaştırılır (ör. reklamın yerine +1 sabit).
+Koruma kuralı (pazarlığa kapalı, raf düzeninde aynen): her vaka reklamsız haklarla `doğru` çözülebilir olmalı — reklam başarı satmaz, yalnız daha geniş resim verir. Doğrulayıcı/test bunu vaka başına sınar (reklamsız hak sayısıyla en az bir `doğru` yolu); ekonomi sözleşmesi aynen (eski oyunda `test_borc.js`, arşivde). +1 hak (16 Ekim 2026, sahibinin kararı; sahibi oynarken 3 hakkı az buldu): vaka başına bir kez, bir ek araştırma hakkı (bugün kredi/reklam ile, RAF-47). Reklamsız sürümde (web, Steam) ek hak düğmesi çıkmaz; Steam'de hak sayısı sonra kararlaştırılır (ör. reklamın yerine +1 sabit).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 hak içinde en az 2 doğru çift (yeni)
 *Kaynak:* 1611, 2003, 3019
 

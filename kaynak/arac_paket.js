@@ -15,8 +15,8 @@
 // --yaz YOKKEN (önizleme): hiçbir proje dosyasına dokunmaz; çıktılar geçici klasöre gider,
 //   temas sayfası YENI_UI/paket_<klasör>.png yazılır (yeşil zemin + büyütülmüş baş).
 // --yaz İLE: webp'ler yeni_gorsel/'e, manifesto (yeni/gorseller.json) güncellenir — dosyalar'a
-//   eklenir, yer_tutucu'dan silinir — ardından doğrulayıcı (yeni) ve iki derleme çalışır,
-//   eski index.html'in değişmediği md5 ile sınanır.
+//   eklenir, yer_tutucu'dan silinir — ardından doğrulayıcı ve derleme çalışır; depo kökündeki
+//   donmuş eski sayfanın (index.html, arşivlenen eski oyun) değişmediği md5 ile sınanır.
 //
 // YAPMADIĞI (insana kalan): saç halesi temizliği, yazı/harf taraması, boy ayarı, metinle uyum.
 // Temas sayfası bunlara bakmak içindir; görselli tur (arac_yeni_tur.js) ayrıca koşulur.
@@ -226,15 +226,15 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
   if (boysuz.length) console.log('BOY YOK (Peri\'nin yanında ekranda bak, gorseller.json → boy): ' + boysuz.join(', '));
   if (sonuc.some(k => k.genis)) console.log('GENİŞ: arac_kes.js\'nin bastığı CSS\'e bak (yukarıda).');
 
-  // 5) Kapı: doğrulayıcı → iki derleme → eski sayfa birebir aynı mı (boru yok, çıkış kodu tek tek)
+  // 5) Kapı: doğrulayıcı → derleme → donmuş eski sayfa birebir aynı mı (boru yok, çıkış kodu tek tek)
   const md5 = f => crypto.createHash('md5').update(fs.readFileSync(f)).digest('hex');
   const eski = path.join(KOK, '..', 'index.html'), once = md5(eski);
-  for (const komut of [['dogrulayici.js', 'yeni'], ['build_html.js', 'yeni'], ['build_html.js']]) {
+  for (const komut of [['dogrulayici.js', 'yeni'], ['build_html.js', 'yeni']]) {
     const r = spawnSync('node', komut, { cwd: KOK, encoding: 'utf8' });
     const son = (r.stdout + r.stderr).trim().split('\n');
     console.log('node ' + komut.join(' ') + ' → çıkış ' + r.status + '\n  ' + son.filter(s => /görsel|SONUÇ|✓|HATA|BLOCKED/.test(s)).slice(-4).join('\n  '));
     if (r.status !== 0) { console.log('DURDU: ' + komut.join(' ') + ' geçmedi.'); process.exitCode = 1; return; }
   }
-  console.log(md5(eski) === once ? 'Eski index.html birebir aynı ✓' : 'UYARI: eski index.html DEĞİŞTİ — yeni kip eski sayfaya dokunmamalı');
+  console.log(md5(eski) === once ? 'Eski index.html birebir aynı ✓' : 'UYARI: eski index.html DEĞİŞTİ — arşivlenen eski oyunun sayfası donmuştur, dokunulmaz');
   console.log('Sırada: arac_yeni_tur.js ile görselli tur; saç kenarı ve yazı taraması temas sayfasından.');
 })();

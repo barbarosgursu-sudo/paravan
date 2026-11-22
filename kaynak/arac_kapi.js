@@ -77,14 +77,13 @@ const arka = (komut, a, env) => new Promise(r => { const c = spawn(komut, a, { c
 
 (async () => {
   console.log(`KAPI ${VAKA} ${TUR} — denetimler koşuyor (bütün yollar paralel; birkaç dakika).`);
-  // 1) doğrulayıcı (iki oyun)
-  for (const a of [['dogrulayici.js', 'yeni'], ['dogrulayici.js']]) { const r = kos('node', a); if (r.status !== 0) B('doğrulayıcı', a.join(' '), (r.stdout + r.stderr).trim().split('\n').slice(-3).join(' / ')); }
-  // 2) derleme güncel mi: yeni sayfa derlenir; kaydedilecek sayfa ondan farklıysa durur (eski sayfa da birebir aynı kalmalı).
-  const sayfa = path.join(KOK, '..', 'yeni', 'index.html'), eski = path.join(KOK, '..', 'index.html');
-  const once = [sayfa, eski].map(f => md5(fs.readFileSync(f)));
+  // 1) doğrulayıcı (eski oyun 22 Kasım 2026'da arşive gitti — KOD-36)
+  for (const a of [['dogrulayici.js', 'yeni']]) { const r = kos('node', a); if (r.status !== 0) B('doğrulayıcı', a.join(' '), (r.stdout + r.stderr).trim().split('\n').slice(-3).join(' / ')); }
+  // 2) derleme güncel mi: yeni sayfa derlenir; kaydedilecek sayfa ondan farklıysa durur.
+  const sayfa = path.join(KOK, '..', 'yeni', 'index.html');
+  const once = [md5(fs.readFileSync(sayfa))];
   const rb = kos('node', ['build_html.js', 'yeni']); if (rb.status !== 0) B('derleme', 'build_html.js yeni', rb.stderr.trim().split('\n').pop());
   if (md5(fs.readFileSync(sayfa)) !== once[0]) B('derleme', 'yeni/index.html', 'derlenmiş sayfa güncel değildi — şimdi derlendi; onu da kaydet (git add yeni/index.html)');
-  if (md5(fs.readFileSync(eski)) !== once[1]) B('derleme', 'index.html', 'eski oyunun sayfası değişti — yeni kip ona dokunmamalı');
   // 3) turlar (paralel) + sızıntı taraması
   const yollar = YOLLAR[VAKA]; if (!yollar) { B('yol', VAKA, 'arac_kapi.js → YOLLAR tablosunda bu vakanın yolları yok'); return bitir(); }
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'kapi_'));

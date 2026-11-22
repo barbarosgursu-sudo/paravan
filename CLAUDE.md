@@ -3,13 +3,13 @@
 Türkçe, İstanbul-Noir, ahlaki tercih temelli dedektiflik oyunu. Tek dosyalık HTML,
 dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 
-Depo kökündeki `index.html` derleme çıktısıdır — KOD-1. Kaynak `kaynak/`
-klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
+Oyunun sayfası `yeni/index.html` derleme çıktısıdır — KOD-1 (yayında `…/paravan/yeni/`). Depo kökündeki `index.html`
+arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak `kaynak/` klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 
 > ### 📘 BÜTÜN KURALLAR TEK DOSYADA: `sablon/kurallar/KURALLAR.md` (Adım 3 BİTTİ, 20 Kasım 2026 gece). Belgelerdeki `TON-9`,
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
-> ### önerilmez. **Yeni pencere: Adım 4 SÜRÜYOR, madde 3'ün kalan adayları — `sablon/kurallar/PLAN.md` en üst kutu ("MADDE 3 BURADAN SÜRER", 21 Kasım 2026 gece geç); ilk iş TON-9 sorusu.**
+> ### önerilmez. **Adım 4: madde 3 BİTTİ ve eski oyun arşivlendi (22 Kasım 2026); sırada madde 4 (çelişkiler) — `sablon/kurallar/PLAN.md` (43).**
 > ### Commit kapısı git kancasıyla da çalışır (`.githooks/commit-msg`; yeni bilgisayarda bir kez `git config core.hooksPath .githooks`) — KOD-35.
 > ### Üretim adımlarının hatırlatma listesine Claude bakar, sahibine yalnız sorunlu madde gider (`arac_uygulayici.js kayit|bitti`) — SUREC-43.
 > ### Adım 4: her kuralın `*Uygulayıcı:*` satırı var (program / talimat / hatırlat <adım> / yok) — SUREC-43;
@@ -76,31 +76,31 @@ klasöründe. Ayrıntılı belge: `kaynak/OKUBENI.md`.
 ```
 cd kaynak
 node dogrulayici.js && node build_html.js     # doğrulayıcı geçmezse derleme olmaz
-for t in test_*.js; do node $t; done          # test_bozuk.js hariç hepsi geçmeli
+for t in test_*.js; do node $t; done          # hepsi geçmeli
 ```
-Commit kapısı bunları (iki doğrulayıcı + testler) `kaynak/` değişen her commit'te kendisi koşar; diyalogda söz farkını da durdurur
+Commit kapısı bunları (doğrulayıcı + testler) `kaynak/` değişen her commit'te kendisi koşar; diyalogda söz farkını da durdurur
 (sahibi onayladıysa iletiye `[söz onaylı]`) — KOD-35. **Yeni bilgisayarda bir kez:** `git config core.hooksPath .githooks`
 (Codex ve terminal commit'leri de kapıdan geçsin).
-`test_bozuk.js` ve test sayısı — KOD-7 (`test_bozuk.js` yedi senaryoda BLOCKED basar, çıkış kodu 0; öbür 26 test
-geçmelidir: 22'si eski oyunun; `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js` ve `test_yeni_kimyapti.js` yeni oyunun).
+Test sayısı — KOD-7: `kaynak/`'ta 5 test (`test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js`,
+`test_ses.js`), hepsi geçmeli. Hata ile uyarı ayrımı — KOD-5.
 
-Doğrulayıcı eski oyunda **15 kural** çalıştırıyor (K16 kararsız yol dahil; K15 yalnız yeni oyunda) ve hâlihazırda **5 kabul edilmiş uyarı** ile PASS
-veriyor (K6 V2/mahalle_konus; K7 V3, V6, YAN-B; K9'un 6 ölü tohumu). Hata ile uyarı ayrımı — KOD-5.
+> **ESKİ OYUN ARŞİVDE (22 Kasım 2026, sahibinin kararı: prototipti)** — KOD-36. Verisi (`game_data.json`, yedekler, `kisiler.json`,
+> `prolog.json`, `_gomulu_gorseller.js`), 22 testi ve dört aracı (akış, tahta, okuma, UI turu) `arsiv/kaynak/eski_oyun/`'de. Depo
+> kökündeki `index.html` son hâliyle **donmuş**, artık derlenmez; ana adres olduğu gibi durur. Derleyici ve doğrulayıcı tek kip: yeni
+> oyun (`yeni` argümanı kabul edilir, gerekmez). 🛠 düğmesi (DEV_MOD) söküldü. Aşağıda eski oyuna ait anlatımlar geçmiş kayıttır.
 
-**Yeni oyunun verisi `kaynak/yeni/`'de** (Vaka 1 + açılış) — KOD-36. Doğrulayıcı: `cd kaynak && node dogrulayici.js yeni`
-(argümansız çağrı eski oyunu denetler) — KOD-37. Yeni oyun yapım şablonuyla üretilir: `sablon/` (3, 6, 7 ve `vakalar/`) +
+**Yeni oyunun verisi `kaynak/yeni/`'de** (Vaka 1 + açılış) — KOD-36. Doğrulayıcı: `cd kaynak && node dogrulayici.js`
+(`… yeni` ile aynı) — KOD-37. Yeni oyun yapım şablonuyla üretilir: `sablon/` (3, 6, 7 ve `vakalar/`) +
 kurallar `sablon/kurallar/KURALLAR.md`. Yeni oyunun motor eki `kaynak/motor_yeni.js` (Kim yaptı?; karar sahnede, kasa yok —
-YAPI-13, YAPI-23, YAPI-31); `motor.js`'e dokunulmaz — KOD-36. Doğrulayıcı yeni oyunda ayrıca K17 (giriş, KOD-68), K18 (ipucu
+YAPI-13, YAPI-23, YAPI-31); `motor.js` yeni oyunun tabanıdır (eski oyun için korunması gerekmez) — KOD-36. Doğrulayıcı yeni oyunda ayrıca K17 (giriş, KOD-68), K18 (ipucu
 adı, KOD-69), K19 (Kim yaptı?, KOD-70) çalıştırır. Veri elle yazılmaz — KOD-38: JSON'u `arac_json_yaz.js` yazar. Sahne satırı
 biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Vaka metni `sablon/vakalar/vakaN_diyalog.md`'de değişir; veriye
 `node arac_diyalog.js <dosya> <vaka>` yazar. Açılış metni hâlâ `YENI_VAKA_1.md` → `yeni/acilis.json`.
 
-**Yeni oyunun sayfası** — KOD-39: `cd kaynak && node build_html.js yeni` → depo kökünde
+**Yeni oyunun sayfası** — KOD-39: `cd kaynak && node build_html.js` → depo kökünde
 `yeni/index.html` (yayında `…/paravan/yeni/`). Eski sayfanın betiği aynen kullanılır;
 konuşma ekranı `kaynak/yeni_arayuz.js` + `.css`'ten eklenir, görseller
-`kaynak/yeni/gorseller.json` manifestosundan gömülür. Argümansız derleme eski
-`index.html`'i üretir ve ondan birebir aynı çıkar. Kayıt anahtarı ayrı (`paravan_yeni_kayit_v1`): iki oyun aynı alan adında. Yeni kip
-`_gomulu_veri.js`'in üstüne yazar; ardından argümansız derleme onu yeniden üretir.
+`kaynak/yeni/gorseller.json` manifestosundan gömülür. Kayıt anahtarı ayrı (`paravan_yeni_kayit_v1`): donmuş eski sayfa aynı alan adında.
 
 **Yeni oyun turu** — KOD-27: konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — yeni oyunu
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
@@ -137,30 +137,15 @@ görseli `yeni_gorsel/paylas_onizleme.jpg` → `yeni/paylas.jpg`. Anı karşıla
 - Yatay tablet / geniş ekran — ARAYUZ-4 (`min-width:1000px` ve `min-height:700px`).
 - Figür katmanı Pixel 5 oranına kilitli — ARAYUZ-5 (`.vn-figurler`, `max(78cqh, min(115cqh, 100cqw·498/393))`, `min-width:0`).
 - Yeni ekran / yeni arka plan — ARAYUZ-6.
-Eski oyunun sayfası bu kurallara girmez (CSS yalnız `build_html.js yeni`'de gömülür).
+Donmuş eski sayfa (kökteki `index.html`) bu kurallara girmez.
 
-**Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` (yeni oyun: `… yeni`) — BILGI-8. Test değil, araç.
+**Künye değişikliğinden sonra** `cd kaynak && node arac_kunye_denetim.js` — BILGI-8. Test değil, araç.
 
-**Çıkarım başlığı değiştirdikten sonra** `cd kaynak && node arac_tahta_denetim.js` —
-her başlığı, o çıkarıma ulaşan oyuncunun *kesinlikle* bildiği olguların yanına basar;
-fazla söyleyeni gözle ararsın. Künye aracının kardeşi, aynı sebeple insana bırakıldı.
-
-**Karar metni / cengoBag / para değiştirdikten sonra** `cd kaynak && node arac_akis_denetim.js`
-— 40 kararın her birinin bütün yüzeylerini (sonuç, Cengo satırı, anı defteri, para, bağ,
-ruh hâli, ruh görseli) tek ekranda yan yana basar. Çelişkiler tek dosyanın içinde değil,
-anlamla bağlı ama kodla bağlı olmayan yüzeyler ARASINDA duruyor — "Cengo'nun yüzü asık"
-notu bağı +2 yükselten bir kararda öyle oturmuştu. `--bayrak` yalnız şüpheli kararları
-basar; bayraklar ADAY listesidir, hata listesi değil. Künye ve tahta araçlarının kardeşi,
-test değil.
-
-**Bir vakayı baştan sona okumak için** `cd kaynak && node arac_okuma.js V1` — vakanın
-bütün metnini oyuncunun karşılaştığı sırayla düz okunur hâlde basar: yazarın gerçeği,
-giriş, ipuçları (bedelsiz olanlar işaretli), açılan olgular, çıkarımlar, kararların
-bütün yüzeyleri, tohumlar. `--hepsi` dokuz vakayı birden verir (~2300 satır).
-Oyunu oynayarak denetleyemezsin — hiçbir oyun bütün yolları birden gezmez; araştırma
-hakkı ipuçlarını, kapılar kararları, koşullu varyantlar metni daraltır. Bu araç o
-daralmayı kaldırır. `arac_akis_denetim.js`'in kardeşi: o dar ve derin (kararların
-yüzeyleri yan yana), bu geniş ve sığ (vakanın tamamı akış sırasıyla).
+**Eski oyunun üç okuma aracı arşivde** (`arsiv/kaynak/eski_oyun/`): `arac_tahta_denetim.js` (çıkarım başlığını oyuncunun kesin
+bildiği olguların yanına basar), `arac_akis_denetim.js` (her kararın bütün yüzeyleri yan yana — çelişki yüzeyler ARASINDA durur;
+"Cengo'nun yüzü asık" notu bağı +2 yükselten bir kararda öyle oturmuştu), `arac_okuma.js` (vakanın tamamı akış sırasıyla düz metin;
+oynayarak bütün yollar gezilemez). Yeni oyunda aynı işi görselsiz tur (`arac_yeni_tur.js … --hepsi` → `dokum.txt`) ve
+`sablon/vakalar/vakaN_diyalog.md` görür; yeni oyuna uyarlanmaları gerekirse ayrı iş.
 
 **Figür kesimi yapay zekâyla, tek yöntem** — GOMME-1: `cd kaynak && python arac_kes_yz.py <girdi> <çıktı.webp> --profil peri|cengo|konuk… [--genis]`
 (BiRefNet; `KALINTI` sayısını uyarı olarak basar). Eski renk kesimi yalnız karşılaştırma için — GOMME-2:
@@ -178,8 +163,8 @@ değişmediğini md5 ile sınar. Saç halesi (GOMME-5), yazı taraması ve boy (
 senaryo `sablon/vakalar/vakaN_shorts.md`; araç `cd kaynak && node arac_shorts.js N --denetle | --onayla | [video] [--onizle]`
 (`shorts/vN/denetim.json`; sesler ve son kare `kaynak/shorts_ayar.json`). Örnek: Vaka 3 (üç video). Üretimi Oğuz Bey yapar.
 
-**UI değişikliğinden sonra** `cd kaynak && node arac_ui_tur.js` — KOD-22, KOD-23 (Pixel 5'te gerçek tıklamayla baştan sona;
-JS hatası, yatay taşma, dokunma hedefi, kayıt-sürdürme). Test değil, araç; `test_*.js` döngüsüne girmez.
+**UI değişikliğinden sonra** `cd kaynak && node arac_yeni_tur.js` — KOD-22, KOD-23, KOD-27 (Pixel 5'te gerçek tıklamayla baştan
+sona; JS hatası, yatay taşma, kayıt). Test değil, araç; `test_*.js` döngüsüne girmez. Eski oyunun `arac_ui_tur.js`'i arşivde.
 
 ## Bozulmaz sözleşmeler
 
@@ -207,16 +192,15 @@ JS hatası, yatay taşma, dokunma hedefi, kayıt-sürdürme). Test değil, araç
 
 - **Türkçe İ** — KOD-13 (`String(x).toLocaleLowerCase("tr")`).
 - **`index.html` tek bir JS şablon dizgisidir** — KOD-14 (`build_html.js`; `vm.Script` derleme koruması).
-- **`DEV_MOD`** — KOD-15 (`build_html.js` içinde, şu an `false`; ses teşhisi paneli de bu bayrağın arkasında).
+- **`DEV_MOD`** — KOD-15 (22 Kasım 2026'da 🛠 düğmesiyle birlikte söküldü).
 - **Kapıya boru sokma** — KOD-6. Çıktıyı kısaltman gerekiyorsa önce dosyaya yaz, çıkış kodunu ayrı oku:
   ```
   node dogrulayici.js > /tmp/dog.txt 2>&1; echo $?; tail -1 /tmp/dog.txt
   ```
-- **Doğrulayıcı testlerin içinde de çalışır** — KOD-8 (`test_v5.js`, `test_v6.js`).
+- **Doğrulayıcı testlerin içinde de çalışır** — KOD-8 (`test_yeni_v1.js`).
 - **Testlerde sabit sayı yazma** — KOD-9.
 - **Arayüz/motor ayrışması testle eşlenir** — KOD-10 (KRIZLER/KRIZ_METIN, kararRuhHali/RUH_GORSEL).
-- **`game_data.json` asıl, yedekler eşlenir** — KOD-11 (`vaka2-6.json`, `yan_a/b.json`; `test_yedek.js`; V1 ve YAN-C'nin yedeği
-  bilerek yok, küme OKUBENI'de).
+- **`game_data.json` asıl, yedekler eşlenir** — KOD-11 (eski oyun; dosyalar ve `test_yedek.js` arşivde).
 - **`GORSELLER` anahtarı uzantısız** — KOD-16 (derlemenin "✓ görsel: N atıfın hepsi gömülü" satırını gör).
 - **Tarayıcı turunda `text=` seçicisi kullanma; fren sabit** — KOD-24 (`.buton:has-text("Geri")`, `.ust-btn:has-text("Kişiler")`).
 - **Tur "karar düğmesi yok" derse önce motora sor** — KOD-25 (`oyun.acikKararlar()`).
@@ -229,6 +213,8 @@ UI doğrulaması tarayıcıda — KOD-22: Playwright + Chromium,
 `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`, Pixel 5 profili.
 
 ## Şu anki durum (Eylül 2026)
+
+> **Bu bölüm eski oyunundur (22 Kasım 2026'dan beri arşivde — KOD-36); geçmiş kayıt olarak duruyor.**
 
 Metin, mantık ve ekonomi **bitti**. Fable 5.1 taze göz incelemesi (16 Eylül 2026)
 uygulandı — bulgular ve commit'ler `arsiv/kaynak/inceleme_fable.md`, uygulama talimatları

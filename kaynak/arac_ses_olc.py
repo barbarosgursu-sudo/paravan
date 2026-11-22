@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Gelen ses dosyalarını kabul etmeden önce ölçer. Test değil, araç —
-`test_*.js` döngüsüne girmez (arac_ui_tur.js gibi).
+`test_*.js` döngüsüne girmez (arac_yeni_tur.js gibi).
 
     python3 arac_ses_olc.py ../ses/*.mp3
 

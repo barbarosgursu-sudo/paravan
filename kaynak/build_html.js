@@ -1,9 +1,9 @@
 const fs = require("fs");
-// İki kip: argümansız = eski oyun (../index.html); `node build_html.js yeni` = yeni
-// oyun (veri kaynak/yeni/, çıktı ../yeni/index.html). Yeni kip eski sayfanın
-// betiğini AYNEN kullanır, üstüne yeni_arayuz.css/js'i ekler (konuşma ekranı).
-// Eski kipin çıktısı bu ayrımdan etkilenmez — eklemeler yalnız YENI dalında.
-const YENI = process.argv[2] === "yeni";
+// Tek kip (22 Kasım 2026, eski oyun arşive gitti — KOD-36): yeni oyunu derler (veri kaynak/yeni/, çıktı
+// ../yeni/index.html). `node build_html.js` ile `node build_html.js yeni` aynıdır. Eski oyunun sayfası
+// (depo kökündeki index.html) artık derlenmez, son hâliyle durur. Aşağıdaki betik eski sayfanın şablonudur;
+// yeni_arayuz.css/js onun üstüne eklenir (konuşma ekranı).
+const YENI = true;
 const VERI_DIZIN = YENI ? "yeni/" : "";
 // Gömme verilerini HER derlemede kaynak dosyalardan TAZE üret (bayat veri hatası olmasın)
 {
@@ -25,7 +25,7 @@ const veri  = fs.readFileSync("_gomulu_veri.js","utf-8");
 // Yeni kipte görseller manifestodan (yeni/gorseller.json) gömülür; anahtar kod ya da
 // sprite adı (A6, K9, peri.manto.kas). Eksik dosya derlemeyi durdurur.
 const yeniManifesto = YENI ? JSON.parse(fs.readFileSync("yeni/gorseller.json","utf-8")) : null;
-const gorselveri = !YENI ? fs.readFileSync("_gomulu_gorseller.js","utf-8") : (() => {
+const gorselveri = (() => {
   const harita = {};
   for (const [anahtar, dosya] of Object.entries(yeniManifesto.dosyalar)) {
     const yol = "yeni_gorsel/" + dosya;
@@ -322,23 +322,6 @@ body{
 .prolog-nokta{display:flex;gap:7px;justify-content:center;padding:22px 0 4px}
 .prolog-nokta span{width:7px;height:7px;border-radius:50%;background:var(--cizgi)}
 .prolog-nokta span.aktif{background:var(--kehribar);width:20px;border-radius:4px}
-.dev-btn{background:#4a2f1a !important;border-color:var(--kehribar) !important}
-.dev-ekran{padding-bottom:40px}
-.dev-uyari{margin:16px 24px;padding:10px 14px;background:#4a2f1a;border:1px solid var(--kehribar);border-radius:5px;color:var(--koz);font-size:12px;letter-spacing:1px;text-align:center;text-transform:uppercase}
-.dev-blok{margin:16px 24px;padding:14px;background:var(--panel);border:1px solid var(--cizgi);border-radius:6px}
-.dev-baslik{font-size:11px;letter-spacing:2px;color:var(--duman);text-transform:uppercase;margin-bottom:12px}
-.dev-satir{font-size:13px;color:var(--sonuk);margin-bottom:6px}
-.dev-satir b{color:var(--kehribar)}
-.dev-mini{display:inline-block;background:var(--panel2);border:1px solid var(--cizgi);border-radius:4px;padding:1px 8px;margin-left:6px;cursor:pointer;color:var(--metin);font-size:12px}
-.dev-mini:hover{border-color:var(--kehribar)}
-.dev-vaka{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;margin-bottom:6px;background:var(--panel2);border:1px solid var(--cizgi);border-radius:5px;cursor:pointer;font-size:14px}
-.dev-vaka:hover{border-color:var(--kehribar);color:var(--kehribar)}
-.dev-etik{font-size:10px;color:var(--duman);letter-spacing:1px}
-.dev-seed{padding:10px 12px;margin-bottom:6px;background:var(--panel2);border:1px solid var(--cizgi);border-radius:5px;cursor:pointer}
-.dev-seed.aktif{border-color:var(--kehribar);background:rgba(224,164,92,.08)}
-.dev-seed-ad{font-size:13px;color:var(--metin)}
-.dev-seed-val{float:right;font-size:12px;color:var(--kehribar);font-family:monospace}
-.dev-seed-not{font-size:11px;color:var(--duman);margin-top:3px;font-style:italic}
 .cengo-gosterge{margin:20px auto;text-align:center}
 .cengo-etiket{font-size:11px;letter-spacing:2px;color:var(--duman);text-transform:uppercase;margin-bottom:10px}
 .cengo-alevler{display:flex;gap:8px;justify-content:center;align-items:flex-end}
@@ -386,7 +369,7 @@ let sonUyari = null;  // açılamayan kaynağın sebebi (bir kez gösterilir)
 const KAYIT_ANAHTAR = "paravan_kayit_v1";
 let kayitKapali = false;   // depolama yoksa (özel sekme, dosya kısıtı) sessizce devre dışı kalır
 function kayitYaz(){
-  if(kayitKapali || devIzole) return;         // izole dev testi ana kaydı kirletmez
+  if(kayitKapali) return;
   try{ localStorage.setItem(KAYIT_ANAHTAR, JSON.stringify(oyun.durumAl())); }
   catch(e){ kayitKapali = true; }             // yazılamıyorsa oyun yine de oynanır
 }
@@ -511,146 +494,6 @@ function sesDugmeTazele(){
   });
 }
 
-/* ============================================================
-   🛠 GELİŞTİRİCİ MODU — YAYINA ALIRKEN AŞAĞIDAKİ SATIRI false YAP
-   ============================================================ */
-const DEV_MOD = false;
-
-// Test için ayarlanabilir seed anahtarları (giriş varyantlarını/koşullu içeriği tetikler)
-const DEV_SEEDLER = [
-  ["ilyas_yuz_tandi", "V2'de İlyas görüldü (V3 girişi)"],
-  ["kaya_kayit_gordu", "Kaya kayıtları görüldü (V4 girişi)"],
-  ["ilyas_kime_gitti", "İlyas'a ne oldu (V5 girişi) — polis/koz/cavit"],
-  ["cavit_ceyda_bilinir", "V5 tam resim çözüldü (V6 girişi)"],
-  ["cavit_karsi_konum", "V5 konum (silahli→hepsini_ifsa açılır)"],
-  ["kaya_insani", "Kaya insanileşti (V6 ağırlık)"],
-  ["el_sezildi", "V3'te 'el' sezildi"],
-];
-
-function devPanel(){
-  const d = oyun.durum;
-  let h = ust() + '<div class="faz panel-ekran dev-ekran">';
-  h += \`<div class="dev-uyari">🛠 GELİŞTİRİCİ MODU · yayında kaldır</div>\`;
-
-  // Durum özeti
-  h += \`<div class="dev-blok"><div class="dev-baslik">Durum</div>
-    <div class="dev-satir">cengoBag: <b>\${d.cengoBag}</b> (\${oyun.cengoDurum()}, \${oyun.cengoAlevSayisi()} alev)
-      <span class="dev-mini" onclick="devCengo(-1)">−1</span>
-      <span class="dev-mini" onclick="devCengo(1)">+1</span></div>
-    <div class="dev-satir">Tamamlanan: \${d.tamamlanan.length? d.tamamlanan.join(", ") : "(yok)"}</div>
-  </div>\`;
-
-  // Ses teşhisi
-  const uzOzet = Object.keys(ses.uzanti).length
-    ? Object.entries(ses.uzanti).map(([a,i]) => a+SES_UZANTILAR[i]).slice(0,3).join(", ")+"…"
-    : "(keşif yok)";
-  h += \`<div class="dev-blok"><div class="dev-baslik">Ses teşhisi</div>
-    <div class="dev-satir">açık: <b>\${ses.acik}</b> · kilitli: <b>\${ses.kilitli}</b></div>
-    <div class="dev-satir">bulunan: \${uzOzet}</div>
-    <div class="dev-satir">eksik: \${Object.keys(ses.yok).join(", ")||"(yok)"}</div>
-    <div class="dev-satir"><span class="dev-mini" onclick="devSesDene()">▶ zorla çal</span>
-      <span class="dev-mini" onclick="devSesRapor()">⎘ raporu göster</span></div>
-  </div>\`;
-
-  // Vakaya atla
-  h += \`<div class="dev-blok"><div class="dev-baslik">Vakaya atla (izole, temiz başlar)</div>\`;
-  for(const v of GAME.vakalar){
-    const bitti = d.tamamlanan.includes(v.id);
-    h += \`<div class="dev-vaka" onclick="devVakaAtla('\${v.id}')">
-      <span>\${v.id} · \${v.baslik}</span>
-      <span class="dev-etik">\${v.tur==='yan'?'yan':'omurga'}\${bitti?' ✓':''}</span>
-    </div>\`;
-  }
-  h += \`</div>\`;
-
-  // Seed anahtarları
-  h += \`<div class="dev-blok"><div class="dev-baslik">Seed anahtarları (giriş varyantları/koşullar)</div>\`;
-  for(const [key, aciklama] of DEV_SEEDLER){
-    const val = d.seeds[key];
-    const aktif = val!==undefined && val!==false;
-    h += \`<div class="dev-seed \${aktif?'aktif':''}" onclick="devSeedTogle('\${key}')">
-      <span class="dev-seed-ad">\${key}</span>
-      <span class="dev-seed-val">\${val===undefined?'—':String(val)}</span>
-      <div class="dev-seed-not">\${aciklama}</div>
-    </div>\`;
-  }
-  h += \`</div>\`;
-
-  // Genel işlemler
-  h += \`<div class="dev-blok">
-    <button class="buton ikincil" onclick="devBastan()">↺ Baştan başla (prolog)</button>
-    <button class="buton ikincil" onclick="masaGoster()">← Masaya dön</button>
-  </div>\`;
-
-  h += '</div>';
-  app.innerHTML=h; scrollUst();
-}
-function devCengo(delta){ oyun.durum.cengoBag += delta; devPanel(); }
-// Ses çalmıyorsa sebebini doğrudan gösterir: play() ne diyor?
-function devSesDene(){
-  ses.kilitli = false; ses.acik = true;
-  const a = new Audio(SES_KLASOR + EFEKT.muhur + SES_UZANTILAR[ses.uzanti[EFEKT.muhur] ?? 0]);
-  a.volume = 1;
-  const p = a.play();
-  if(p && p.then) p.then(() => alert("ÇALDI: " + a.src.split("/").pop() + "\\nSes duymuyorsan cihazın sesi kısık ya da sessiz modda."))
-                   .catch(err => alert("REDDEDİLDİ: " + err.name + "\\n" + err.message));
-  else alert("play() söz döndürmedi (eski tarayıcı)");
-}
-function devSesRapor(){
-  const r = {
-    adres: location.href,
-    acik: ses.acik, kilitli: ses.kilitli,
-    bulunan: ses.uzanti, eksik: Object.keys(ses.yok),
-    wavDestek: (new Audio()).canPlayType("audio/wav"),
-    mp3Destek: (new Audio()).canPlayType("audio/mpeg"),
-    tarayici: navigator.userAgent,
-  };
-  alert(JSON.stringify(r, null, 1));
-}
-function devVakaAtla(id){
-  // İZOLE TEST: ana oyun durumuna dokunma. Geçici bir kopya oyun kur, onu oynat.
-  devAnaDurum = JSON.parse(JSON.stringify(oyun.durum));  // ana durumu sakla
-  devIzole = true;
-  // temiz bir durum kur ama mevcut seed'leri koru (giriş varyantları test edilebilsin)
-  const korunanSeeds = JSON.parse(JSON.stringify(oyun.durum.seeds));
-  const yeni = new Oyun(GAME);
-  Object.assign(oyun.durum, yeni.durum);
-  oyun.durum.seeds = korunanSeeds;
-  vakaAc(id);
-}
-let devAnaDurum = null;
-let devIzole = false;
-function devIzoleBitir(){
-  // izole testten çık, ana durumu geri yükle
-  if(devAnaDurum){ Object.assign(oyun.durum, devAnaDurum); devAnaDurum=null; }
-  devIzole = false;
-  devPanel();
-}
-function devSeedTogle(key){
-  const d = oyun.durum;
-  const cur = d.seeds[key];
-  // ilyas_kime_gitti gibi string seed'ler için döngü; boolean için aç/kapa
-  if(key==="ilyas_kime_gitti"){
-    const sira = [undefined,"polis","koz","cavit","lekele"];
-    const i = sira.indexOf(cur);
-    d.seeds[key] = sira[(i+1)%sira.length];
-  } else if(key==="cavit_karsi_konum"){
-    const sira = [undefined,"silahli","dusman","ortak","ceyda_ittifak"];
-    const i = sira.indexOf(cur);
-    d.seeds[key] = sira[(i+1)%sira.length];
-  } else {
-    d.seeds[key] = cur ? false : true;
-  }
-  devPanel();
-}
-function devBastan(){
-  // durumu sıfırla
-  kayitSil();
-  const yeni = new Oyun(GAME);
-  Object.assign(oyun.durum, yeni.durum);
-  prologIndex = 0; prologGoster();
-}
-
 // prolog ve sürdürme ekranlarının sade şeridi — ses düğmesi burada da bulunmalı,
 // oyuncu daha masaya varmadan sesi kısabilsin
 function ustSade(){
@@ -662,7 +505,6 @@ function ust(geriMasa){
   return \`<div class="ust">
     <div class="marka">PARAVAN<small>DEDEKTİFLİK</small></div>
     <div class="ust-butonlar">
-      \${DEV_MOD ? '<button class="ust-btn dev-btn" onclick="devPanel()">🛠</button>' : ''}
       <button class="ust-btn ses-btn" onclick="sesTogle()" aria-label="Ses">\${sesDugmeSvg()}</button>
       <button class="ust-btn" onclick="kisilerGoster()">☗ Kişiler</button>
       <button class="ust-btn" onclick="defterGoster()">✎ Defter</button>
@@ -968,19 +810,14 @@ function kararVerFaz(id){
   h += istatistikPanel(vid, id, mevcutIdler);
   h += cengoGorseli();
   h += cengoGosterge();
-  if(devIzole){
-    h += \`<div class="dev-uyari" style="margin-top:20px">🛠 İZOLE TEST — bu sonuç kaydedilmedi</div>\`;
-    h += \`<button class="buton" onclick="devIzoleBitir()">🛠 Testi bitir, panele dön</button></div>\`;
-  } else {
-    h += \`<button class="buton" onclick="masaGoster()">Devam et</button></div>\`;
-  }
+  h += \`<button class="buton" onclick="masaGoster()">Devam et</button></div>\`;
   app.innerHTML=h; scrollUst();
 }
 
 /* Kararın parasal sonucu: oyuncu ne kazandığını VE ayın giderlerini görmeli.
    Ekonomik çöküş hikâyede varsa oyunda da görünmeli. */
 // Motordaki KRIZLER ile aynı metinler; arayüz motordan okuyamadığı için
-// burada duruyor. İkisinin ayrışmasını test_borc.js yakalıyor.
+// burada duruyor. İkisinin ayrışmasını eski oyunun test_borc.js'i yakalıyordu (arşivde).
 const KRIZ_METIN = {
   isletme: { ad: "Elektrik kesildi",
              aciklama: "Fatura ödenmedi. Karanlıkta dosya okunmuyor — bundan sonraki vakada bir araştırma hakkın eksik." },
@@ -1035,7 +872,7 @@ function hesapKutusu(e){
    oyuncuya not vermeme sözü metinde olduğu gibi görselde de geçerli. */
 /* Cengo–Peri ikili kareleri. RUH_GORSEL'in kardeşi: dört görsel, cengoDurum()'un
    dört hâline bağlı. Anahtarlar motordaki ESIKLER.ad ile BİREBİR aynı olmalı —
-   arayüz/motor ayrışması bu depoda sessizdir, test_cengo_gorsel.js ikisini eşliyor.
+   arayüz/motor ayrışması bu depoda sessizdir, eski oyunun test_cengo_gorsel.js'i ikisini eşliyordu (arşivde).
    Sahibinin tespiti (20 Eylül 2026): ilişki her kararda ÖLÇÜLÜYOR ama hiçbir yerde
    OYNANMIYORDU; oyuncu göstergenin dolduğunu görüyor, Cengo'nun değiştiğini
    görmüyordu. Bu tablo o boşluğun görsel yanıtı.
@@ -1514,10 +1351,3 @@ if (YENI) {
 }
 fs.writeFileSync(HEDEF, cikti);
 console.log(HEDEF.slice(3) + " yenilendi:", (cikti.length/1024).toFixed(0), "KB");
-// Geliştirici modunun yanlışlıkla yayına gitmesi sessizce olabilecek bir hata.
-// Bayrak üretilen sayfanın içinde yaşıyor, derleyicinin kapsamında değil —
-// o yüzden ÇIKTIYA bakıyoruz: 🛠 düğmesi gerçekten basıldı mı?
-const devAcik = /const DEV_MOD = true/.test(html);
-console.log(devAcik
-  ? "  ⚠ GELİŞTİRİCİ MODU AÇIK — 🛠 düğmesi çıktıda. Yayın öncesi DEV_MOD = false yap."
-  : "  ✓ yayın modu — 🛠 düğmesi basılmadı");

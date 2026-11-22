@@ -5,7 +5,7 @@
 // Kapı aynı girdilerle önce geçtiyse saniyede döner (önbellek).
 //
 // ADIM 4 BAĞLANTILARI (21 Kasım 2026, sahibinin onayı: "programları bağlayalım") — kapı bunları da yapar:
-//  (a) kaynak/ değişiyorsa: iki doğrulayıcı + test_*.js (test_bozuk.js hariç) — KOD-3. Biri geçmezse commit yok.
+//  (a) kaynak/ değişiyorsa: doğrulayıcı (yeni oyun) + test_*.js — KOD-3. Biri geçmezse commit yok.
 //  (d) gömme: gorseller.json ya da yeni_gorsel/ değişiyorsa, değişen resmin VAKASI (Vaka 6+) resim kapısına girer — yalnız o vaka.
 //      Resim → vaka: anahtar uretim/v<N>/LISTE.md ya da sablon/vakalar/vaka<N>_gorsel.md'de geçiyor mu.
 //  (e) diyalog: sablon/vakalar/vaka<N>_diyalog.md'nin SÖZLERİ değiştiyse (arac_soz_farki.js) commit yok — SATIR-11.
@@ -156,12 +156,12 @@ const kos = (komut, argv, cwd) => spawnSync(komut, argv, { cwd: cwd || KAYNAK, e
 const son = (r, n) => ((r.stdout || '') + (r.stderr || '') + (r.error ? String(r.error) : '')).trim().split('\n').slice(-(n || 2)).join(' — ');
 
 if (testGerek) {
-  for (const a of [[], ['yeni']]) {
-    const r = kos('node', ['dogrulayici.js', ...a]);
-    if (r.status !== 0) dur.push(`doğrulayıcı${a.length ? ' (yeni)' : ''} geçmedi: ` + son(r));
+  {   // yalnız yeni oyun — eski oyun 22 Kasım 2026'da arşive gitti (KOD-36)
+    const r = kos('node', ['dogrulayici.js', 'yeni']);
+    if (r.status !== 0) dur.push('doğrulayıcı geçmedi: ' + son(r));
   }
   const kalan = [];
-  for (const t of fs.readdirSync(KAYNAK).filter(f => /^test_.*\.js$/.test(f) && f !== 'test_bozuk.js').sort()) {
+  for (const t of fs.readdirSync(KAYNAK).filter(f => /^test_.*\.js$/.test(f)).sort()) {
     const r = kos('node', [t]);
     if (r.status !== 0) kalan.push(t + ' (' + son(r, 1).slice(0, 160) + ')');
   }
@@ -209,12 +209,11 @@ if (dosyalar.includes('yeni/index.html') || testGerek) {
   const rb = spawnSync('node', ['build_html.js', 'yeni'], { cwd: path.join(kok, 'kaynak'), encoding: 'utf8' });
   const derlenen = fs.existsSync(SAYFA) ? fs.readFileSync(SAYFA, 'utf8') : '';
   if (once) fs.writeFileSync(SAYFA, once);
-  spawnSync('node', ['build_html.js'], { cwd: path.join(kok, 'kaynak'), encoding: 'utf8' });   // _gomulu_veri.js'i eski kipe döndürür
   const lf = s => String(s).replace(/\r\n/g, '\n');
   const kaydedilecek = dosyalar.includes('yeni/index.html') ? yeniHal('yeni/index.html') : git(['show', 'HEAD:yeni/index.html']);
   if (rb.status !== 0) dur.push('derleme (yeni) çalışmadı: ' + String(rb.stderr || rb.stdout).trim().split('\n').pop());
   else if (lf(derlenen) !== lf(kaydedilecek)) dur.push('yeni/index.html derlemeden çıkanla aynı değil — sayfa elle yazılmaz ya da derlenmeyi unuttun (KOD-1). ' +
-    'Çözüm: cd kaynak && node build_html.js yeni && node build_html.js, sonra git add yeni/index.html.');
+    'Çözüm: cd kaynak && node build_html.js, sonra git add yeni/index.html.');
 }
 
 // KOD-38: oyun verisi elle yazılmaz; diyalogdan `arac_diyalog.js` yazar. Veri ya da bir diyalog kaydediliyorsa kaydedilecek veri

@@ -1,5 +1,5 @@
 /* Künye katmanlarını insan gözüne serer. Test değil, araç —
-   `test_*.js` döngüsüne girmez (arac_ui_tur.js gibi).
+   `test_*.js` döngüsüne girmez (arac_yeni_tur.js gibi).
 
        node arac_kunye_denetim.js          (eski oyun)
        node arac_kunye_denetim.js yeni     (yeni oyun)
@@ -26,10 +26,9 @@
    Ayrıca kanonun ÇÖZÜLMEZ dediği olgular (kanon.belirsiz) hakkında hiçbir
    katman kesin konuşamaz. */
 const fs = require("fs");
-// `node arac_kunye_denetim.js yeni` → yeni oyunun verisi (yeni/game_data.json, yeni/kisiler.json).
-const YENI = process.argv[2] === "yeni";
-const GAME = YENI ? JSON.parse(fs.readFileSync(__dirname + "/yeni/game_data.json", "utf-8")) : require("./game_data.js").GAME;
-const KISILER = JSON.parse(fs.readFileSync(__dirname + (YENI ? "/yeni/kisiler.json" : "/kisiler.json"), "utf-8"));
+// Yeni oyunun verisi (yeni/game_data.json, yeni/kisiler.json); `yeni` argümanı kabul edilir. Eski oyun arşivde (KOD-36).
+const GAME = JSON.parse(fs.readFileSync(__dirname + "/yeni/game_data.json", "utf-8"));
+const KISILER = JSON.parse(fs.readFileSync(__dirname + "/yeni/kisiler.json", "utf-8"));
 
 const olguMetni = {}, sahipVaka = {}, acan = {};
 for (const v of GAME.vakalar) {
