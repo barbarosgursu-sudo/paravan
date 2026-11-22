@@ -1723,7 +1723,7 @@ Sesi olan ama figürü olmayan biri (boyacı, asistan, telefon) konuşurken ya f
 
 #### SATIR-7 SR-B Süreklilik ve kıyafet hâli tablosu
 Sahne içinde kıyafet hâli (açık trençkot), çıkarılan şey (önlük) ve elde tutulan nesne (tabla, yarım simit) sürer — dinleyen için de. Bir nesne bırakılıyorsa bu metinde söylenir. Durum da sürer: ıslandı, kirlendi, balık pulu, manto çıkarıldı/asıldı — sonraki satırlarda figür de o hâlde; gerekirse ara hâl figürü üretilir (ıslak Peri) ve bu ara hâl figürü görsel listesine baştan girer. Kıyafet, saç, takı sahneden sahneye aynı kalır; bir önceki olay (pastaya oturma) görselde izini taşır. Konuk her sahnede o sahneye uygun hâldedir; gerekirse ikinci kıyafet üretilir (Vaka 1: önlüklü Kemal borç istemeye geldi). Sahneler arası doğal geçiş serbesttir (dışarıda kapalı, içeride açık; satır gerekmez), ama her sahnenin ve her karar/ara/kapanış karesinin kıyafet hâli görsel listesinde önceden yazılır (**kıyafet hâli tablosu**); karenin referansı o hâlden seçilir. Hatalı örnekler: trençkot açılınca figür kapalı; Kenan önlüğünü çıkarınca yine önlüklü; karar karelerinde unlu değil haki Cengo.
-- *Bilgi:* [V2 başlangıç › Toplam (aralar ve "sayılmaz" işler hariç)] K31, K32 · G58, G59 · 11 Eki 15:52 · düzeltme yok (K32'de tepsi örtüsü çizgili, K20'de dantelli — küçük fark, kabul) (k:c9e79469d0)
+- *Bilgi:* [V2 başlangıç › Toplam (aralar ve "sayılmaz" işler hariç)] K31, K32 · G58, G59 · 11 Eki 15:52 · düzeltme yok (K32'de tepsi örtüsü çizgili, K20'de dantelli — küçük fark, kabul) (k:c9e79469d0) — Bugün böyle bir fark görülürse önce sahibine sorulur (DENETIM-51); kabul kararını sahibi verir (22 Kasım 2026, sahibi).
 *Uygulayıcı:* hatırlat 8, 11
 *Kaynak:* 6, 378, 409, 724, 2527, 2530, 1076
 
