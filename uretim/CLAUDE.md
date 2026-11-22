@@ -23,7 +23,7 @@ GOMME-*, SATIR-* (eski belge: `arsiv/sablon/5_gorsel_sistemi.md` → H. Görsel 
 > - Açılıp kapanan kıyafetin iki hâli iki kart; kart her konuğa — ISTEM-17, ISTEM-18 (12, 13).
 > - Dekoltesiz temelin türevinde referans bütün temel — ISTEM-14 (14).
 > - Konuk figürü de 4:5 (1122×1402); zemin kıyafete göre programla — ISTEM-3 (11, 16).
-> - Yüz her resimde kadrajın soluna bakar — DENETIM-21 (5).
+> - Figürde yüz kadrajın soluna bakar; ara kare, detay ve afişte yön serbest — DENETIM-21 (5; 22 Kasım 2026).
 > - Boyu tablo belirler — GOMME-13 (7).
 > - Elle hale temizliği yok; kesim profili yalnız çerçeve — GOMME-4, GOMME-5, GOMME-20, DENETIM-37 (6, 8).
 > - Denetleyen Claude `referanslar/`'a baş kırpığı koyabilir — CODEX-24, CODEX-25 (2).
