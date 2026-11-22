@@ -2430,7 +2430,7 @@ Uç ifadeler (gözler kapalı, yüz buruşuk, yüz kısmen kapalı) puanı düş
 *Kaynak:* 1109
 
 #### DENETIM-13 El denetimi — kişi görünen her resimde, onayı sahibi verir
-14 Kasım 2026, kural 5 (V6 K96'da Peri'nin iki SAĞ eli iki kez gözden kaçtı). Komut: `cd kaynak && python arac_el.py --sayfa V<N> G<n>` → `kaynak/YENI_UI/el/G<n>.jpg`. Sayfada her kişinin SOL kolu mavi, SAĞ kolu kırmızı çizili; her el büyütülmüş ve hangi kolda olduğu yazılı; ayrıca istemin "TAM n kişi"siyle sayım var.
+14 Kasım 2026 (V6 K96'da Peri'nin iki SAĞ eli iki kez gözden kaçtı). Komut: `cd kaynak && python arac_el.py --sayfa V<N> G<n>` → `kaynak/YENI_UI/el/G<n>.jpg`. Sayfada her kişinin SOL kolu mavi, SAĞ kolu kırmızı çizili; her el büyütülmüş ve hangi kolda olduğu yazılı; ayrıca istemin "TAM n kişi"siyle sayım var.
 - Bak: sol kolun ucunda SOL el, sağ kolun ucunda SAĞ el mi (başparmağın yönü); fazla/eksik el var mı.
 - Doğruysa sayfayı sahibine göster ya da sonucu söyle; **onayı sahibi verir** (kendisi bakar ya da "onayla" der) → `python arac_el.py --onay V<N> G<n>`.
 - Onaysız resim kapıdan (`arac_kapi.js`, K5: "her el bir kola bağlı, sağ/sol doğru — el sayfasına bakılmış ve onaylanmış olmalı") geçmez; resim değişirse onay düşer.
