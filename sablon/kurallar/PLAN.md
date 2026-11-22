@@ -9,7 +9,7 @@
 > `index.html` donmuş, derleyici/doğrulayıcı tek kip, 🛠 söküldü). Üç ortak test yeni veriyle yazıldı ((44): `test_yeni_kayit.js`,
 > `test_yeni_bozuk.js`, `test_yeni_softlock.js`; `kaynak/`'ta 8 test). Madde 4'ün 4.1–4.7'si çözüldü ((45)…(51)).
 >
-> **İLK İŞ — 4.8 (sahibi ONAYLADI, 22 Kasım: "Yap"):** `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
+> **✅ 4.8 BİTTİ ((52)); SIRADAKİ 4.9.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
 > madde numaraları: "kural 22b", "(kural 19a)", "Kural 24; sahibinin kararı" …) bugünkü kodlara çevrilir. Örnek: "(kural 22b)" → "(YAPI-23)",
 > "(kural 19a)" → "(SINIR-13)", "(kural 9, bkz. DENETIM-49)" → "(DENETIM-49)". Bir kuralın KENDİ kökenini anlatan yerde ("YAPI-31: Kural 24;
 > sahibinin kararı") → "eski kural kitabı 24" (kayıt, silinmez). Eşleme: eski kitaptaki maddenin metni ↔ bugünkü kuralın metni (aynı tarih,
@@ -123,6 +123,7 @@
 > (49) **4.5 ÇÖZÜLDÜ** (sahibi: "Kalıp dosyası arşivden çıkıp güncellensin"): `arsiv/uretim/ISTEM_KALIPLARI.md` → `uretim/ISTEM_KALIPLARI.md` (git mv; başına 'çalışma aracı, kural belgesi değil'); yeni §5b: bakış satırı (ISTEM-6) ve yan karakter saç satırı (ISTEM-44) aynen. Atıflar: KURALLAR (ISTEM-1 ve iki yer), `uretim/CLAUDE.md`, `istem_kontrol.sh`; geçmiş kayıtlar (DEVIR, DURUM, eski istemler) eski yolla kaldı. Deneme: G24'ün bakış ve saç satırı kalıptakilerle değiştirildi → geçti; satırsız kopya → ISTEM-6 ve ISTEM-44 durdurdu. ~~SIRADAKİ: 4.6~~
 > (50) **4.6 ÇÖZÜLDÜ** (sahibi: "Önerini yapalım"): yeni `sayfaUyari(metin)` (`build_html.js`, altta 4 sn, koyu zemin sabit renk — açık temada okunur); üç `alert(r.hata)` ona döndü (`build_html.js` kararVerFaz, `yeni_arayuz.js` reklam hakkı ve karar); eski `confirm`'lü `yenidenBasla` boş tanıma indi (asıl tanım yeni_arayuz.js'te). Deneme: Pixel 5'te gerçek motor hatası ('açık vaka yok') sayfada göründü, 4 sn sonra kayboldu, iletişim kutusu 0, JS hatası 0; tam tur temiz; 8 test geçti. KOD-21 güncellendi. ~~SIRADAKİ: 4.7~~
 > (51) **4.7 ÇÖZÜLDÜ** (sahibi: "Önerini uygulayalım"): çelişki değil — DENETIM-24'ün yüzdesi denetim ölçüsü, ISTEM-43 istemin yazılışı. İkisine birer açıklama cümlesi. **SIRADAKİ:** 4.8 eski 'kural N' atıfları (~50; arşivdeki kural kitabı) → bugünkü kodlar.
+> (52) **4.8 ÇÖZÜLDÜ** (sahibi: "Yap"): `KURALLAR.md`'deki 52 eski "kural N" atfı (`arsiv/sablon/2_kural_kitabi.md` madde numaraları) bugünkü kodlara çevrildi (ör. "(kural 22b)" → "(YAPI-24)", "(kural 19a)" → "(SINIR-13)", BILGI-18 "Kural 1 genişletme" → "K1 genişletme"); kuralın kendi kökenini anlatan yerler "eski kural kitabı N" oldu (YAPI-23…26, 30…35, BILGI-4/6/7, KAR-6, KAR-22, YAPI-15, 38, 39). İki yer bırakıldı: KOD-4 "Kural 1 (Sözlük): PASS" eski doğrulayıcının rapor örneği (atıf değil); DENETIM-13 "14 Kasım 2026, kural 5" eski kitabın 5'i değil (üretim belgesinin el denetimi maddesi) — sahibine soruldu. Üç sayaç hata: 0. ~~SIRADAKİ: 4.8~~ **SIRADAKİ: 4.9**
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

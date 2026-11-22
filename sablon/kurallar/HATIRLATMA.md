@@ -33,7 +33,7 @@
 - [ ] **KAR-38** Dünya
 - [ ] **SINIR-9** Suç olur, vahşet olmaz
 - [ ] **SINIR-11** Mavi Ay'dan yalnız yapı alınır
-- [ ] **BILGI-4** Hiçbir ipucu suçluyu tek başına göstermez (kural 21c)
+- [ ] **BILGI-4** Hiçbir ipucu suçluyu tek başına göstermez (eski kural kitabı 21c)
 - [ ] **BILGI-12** Kim yaptı? ekranında yalnız şüphelenmek için sebebi olan kişiler
 - [ ] **YAPI-1** Vakanın akış sırası
 - [ ] **YAPI-3** İki vaka tipi; şimdilik yalnız Bilmece
@@ -122,7 +122,7 @@
 - [ ] **SINIR-11** Mavi Ay'dan yalnız yapı alınır
 - [ ] **BILGI-2** Oyun cevabı söylemez
 - [ ] **BILGI-3** Girişte yasak olanlar
-- [ ] **BILGI-7** Anı özeti yalnız herkesin duyduğunu yazar (kural 21d)
+- [ ] **BILGI-7** Anı özeti yalnız herkesin duyduğunu yazar (eski kural kitabı 21d)
 - [ ] **BILGI-13** Kişiyi görünür yapan bağ sahnede söylenir
 - [ ] **YAPI-6** Girişin yeri, içeriği ve bitişi
 - [ ] **YAPI-12** "Kim neyi biliyor" listesi (B)
@@ -177,7 +177,7 @@
 ## Adım 4 — Veri hazırlanır (12)
 
 - [ ] **BILGI-5** İpucu adı açıktır ama fazlasını söylemez
-- [ ] **BILGI-6** Defter yalnız ara bulgu yazar (kural 21a)
+- [ ] **BILGI-6** Defter yalnız ara bulgu yazar (eski kural kitabı 21a)
 - [ ] **BILGI-8** Künye de Nurcan yüzeyidir
 - [ ] **SUREC-13** Adım 4: Veri ve künye
 - [ ] **KOD-3** Her commit'ten (ve her değişiklikten) önce
@@ -201,7 +201,7 @@
 - [ ] **SINIR-10** Hakaretin yönü yukarıdır
 - [ ] **SINIR-12** Benzerlik denetimi (Mavi Ay ve başka eserler)
 - [ ] **BILGI-1** Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz
-- [ ] **BILGI-6** Defter yalnız ara bulgu yazar (kural 21a)
+- [ ] **BILGI-6** Defter yalnız ara bulgu yazar (eski kural kitabı 21a)
 - [ ] **BILGI-9** Zincir defteri: yalnız hak edilmiş düğüm çizilir
 - [ ] **BILGI-22** Onarım: geri çekme, ekleme kadar iş görür
 - [ ] **BILGI-23** Bir sızıntı bulunca kardeşlerini ara
@@ -373,7 +373,7 @@
 - [ ] **SINIR-6** Kesin çizgi: çıplaklık ve cinsel eylem yok
 - [ ] **SINIR-13** Sigara yok
 - [ ] **BILGI-17** Görsel, bağlı ipucunun açtığından fazlasını gösteremez
-- [ ] **BILGI-18** Görsel için doğrulayıcı eki (Kural 1 genişletme)
+- [ ] **BILGI-18** Görsel için doğrulayıcı eki (K1 genişletme)
 - [ ] **BILGI-19** Görsel eksik gösterebilir, YANLIŞ gösteremez (§7c)
 - [ ] **BILGI-20** Pratik kural: yüzü kapat, boş yüz isteme
 - [ ] **SEZON-19** Konuklar birbirine benzemez

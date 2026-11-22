@@ -77,8 +77,8 @@ Sahibinin kararı, 17 Ekim 2026 (kural kitabı 5). Replik ilk okumada anlaşıl�
 Sahibinin kararı, 10 Kasım 2026 (Vaka 4 Onay 2'den; kural kitabı 5c, 1. parça "Giriş" madde 2). Vaka 4'ün Onay 2'sinde vaktin çoğu girişe gitti: satır sınırına sığdırmak için sıkıştırılan cümleler bulanık kaldı. Oyuncu ilk izlenimi girişten alır; hiçbir şey anlamadan vakaya giren oyuncunun kafası karışır. Açıklık kısalıktan önce gelir.
 - En az 15 satır, üst sınır yok; 45'i geçerse doğrulayıcı yalnız uyarır.
 - Baştan eksiksiz yazılır; kısaltmayı gerekirse sahibi yapar.
-- Oyuncu ilk okumada, tahmin yürütmeden şunları anlar: müşteri kim, neden geldi, ne istiyor; ne oldu (olay adım adım); kim kimdir; her şüpheli neden şüpheli (sebep açıkça söylenir); karakterler birbirini nereden tanıyor, neyi nereden biliyor (kimse "nereden biliyor?" dedirtmez); tehdit, kayıp, istek gibi olayın özü cümlede açıkça yazılır, çıkarıma bırakılmaz; ücret (hikâye içinde, kural 25) ve ilk gidilecek yer.
-- Uzun replik bölünür (kural 5: ~110 harf); bölmek için satır eksiltilmez; satır sınırı yüzünden sıkıştırılmış cümle kalmaz.
+- Oyuncu ilk okumada, tahmin yürütmeden şunları anlar: müşteri kim, neden geldi, ne istiyor; ne oldu (olay adım adım); kim kimdir; her şüpheli neden şüpheli (sebep açıkça söylenir); karakterler birbirini nereden tanıyor, neyi nereden biliyor (kimse "nereden biliyor?" dedirtmez); tehdit, kayıp, istek gibi olayın özü cümlede açıkça yazılır, çıkarıma bırakılmaz; ücret (hikâye içinde, YAPI-32) ve ilk gidilecek yer.
+- Uzun replik bölünür (TON-9: ~110 harf); bölmek için satır eksiltilmez; satır sınırı yüzünden sıkıştırılmış cümle kalmaz.
 - Taramada girişe ayrıca sorulur: "Giriş ilk okumada anlaşılıyor mu?" (yukarıdaki maddeler açıkça söylendi mi, sıkıştırılmış cümle var mı).
 - Kapsam: Vaka 1–2'nin yeniden yapımına uygulanır; Vaka 3'e dokunulmaz.
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K17 (en az 15 replik, büro, şüpheli adı, ücret) · hatırlat 3, 5
@@ -191,13 +191,13 @@ Sabit karakterlerin ve önceki vakaların isimleri değişmez. (Vaka 6'da ortak 
 - **Güçlü yanı: insanları okur**, yalanı okur (podyumda, jüride, yönetim kurulunda yıllarca yalan söyleyen yüzlere baktı). Cengo kilidi açar; Peri yalanı açar.
 - **Eski hayatın alışkanlıkları ölmemiş:** taksiyi kapıya çağırır, parasını Cengo öder; menüye fiyatına bakmadan bakar; "Asistanım sizi arar" der, asistanı Cengo.
 - **Tanınmak ister, tanınmaktan korkar:** biri "Siz şey değil misiniz?" deyince yarım saniye dikleşir — ve her seferinde yanlış "şey" çıkar.
-- Güzel ve çekicidir (bkz. KAR-6, kural 15).
+- Güzel ve çekicidir (bkz. KAR-6, SINIR-3).
 - **Asla** dırdırcı ya da yalnızca "doğruyu söyleyen kadın" olmaz. Kendi kurallarını çiğnediği anlar en komik ve en insani anlarıdır.
 *Uygulayıcı:* hatırlat 3
 *Kaynak:* 181, 1727, 1730, 1731, 1732, 1733, 1734, 1838
 
 #### KAR-6 Peri her zaman en gösterişli kadındır
-Sahibinin kararı, 10 Ekim 2026 (kural 15b); 17 Ekim 2026'da Vaka 3 için sürdürüldü; 6 Kasım 2026 "dünkü ayarlar". Eski güzellik kraliçesi olduğu için her resimde, vakadaki kadınların içinde en gösterişli ve en seksi odur; dekolte istenir. Başka bir kadınla aynı karede Peri açıkça daha alımlı görünür (ışık, duruş, kıyafet); öbür kadınlar çekici kalır ama onu gölgede bırakmaz. Başka bir kadınla (ör. Gizem) yan yana Peri çok daha alımlı görünür. Vaka 3'te kıskançlık bundan doğar: Peri üstün olduğu hâlde huzursuzlanır. Görsel istemlerine (adım 8) baştan konur.
+Sahibinin kararı, 10 Ekim 2026 (eski kural kitabı 15b); 17 Ekim 2026'da Vaka 3 için sürdürüldü; 6 Kasım 2026 "dünkü ayarlar". Eski güzellik kraliçesi olduğu için her resimde, vakadaki kadınların içinde en gösterişli ve en seksi odur; dekolte istenir. Başka bir kadınla aynı karede Peri açıkça daha alımlı görünür (ışık, duruş, kıyafet); öbür kadınlar çekici kalır ama onu gölgede bırakmaz. Başka bir kadınla (ör. Gizem) yan yana Peri çok daha alımlı görünür. Vaka 3'te kıskançlık bundan doğar: Peri üstün olduğu hâlde huzursuzlanır. Görsel istemlerine (adım 8) baştan konur.
 *Uygulayıcı:* hatırlat 8, 10
 *Kaynak:* 192, 1210, 2566, 2997
 
@@ -285,7 +285,7 @@ Metin yazımında bağ yalnız iki hâlde yazılır (KAR-16); dört kademeye gö
 #### KAR-15 Bağın değeri görünmez
 - Bağ ekranda sayı, çubuk, alev ya da söz/kelime olarak yer almaz; oyuncu onu atışmanın tonundan, yüz ifadelerinden ve Cengo'nun satırlarından okur. Gösterge olsaydı oyuncu ilişkiyi puan toplamaya çevirirdi ("sıcaklık onay değildir"i deler). His üstüne kurulu, mekanik üstüne değil.
 - Eski oyundaki 5 alevlik bağ göstergesi yeni oyunda yok; eski Türkçe oyundaki gösterge olduğu gibi kalır (bu karar yalnız yeni oyun için).
-- 8 Ekim 2026'daki istisna (karar ekranında "Cengo'nun hoşuna gider / gitmez") 16 Kasım 2026'da sahibinin kararıyla kalktı: karar artık sahnede, seçeneklerin altında hiçbir şey yazmaz (kural 22a).
+- 8 Ekim 2026'daki istisna (karar ekranında "Cengo'nun hoşuna gider / gitmez") 16 Kasım 2026'da sahibinin kararıyla kalktı: karar artık sahnede, seçeneklerin altında hiçbir şey yazmaz (YAPI-23).
 *Uygulayıcı:* hatırlat 3
 *Kaynak:* 186, 1790, 2202
 
@@ -321,7 +321,7 @@ Bağ küçük adımlarla (±1/±2) değişir — yavaş, inandırıcı birikim. 
 ### Görünüş (metin tarafı)
 
 #### KAR-22 Her vakada yeni kıyafet
-Peri ve Cengo her vakada yeni kıyafet giyer; kıyafeti, takısı, aksesuarı vakaya göre değişir (sahibinin isteği); bu yüzden kıyafet kütüphanesi tutulmaz. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (kural 15a); çekicilik anı burada olur. Peri'nin saçı da değişir. Cengo'da sabit kalan yalnız yüz, saç, tel ve bileklik; ceket dahil kıyafet değişir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17); **Cengo'nun saçı değişmez** (sahibinin kararı, 19 Kasım 2026).
+Peri ve Cengo her vakada yeni kıyafet giyer; kıyafeti, takısı, aksesuarı vakaya göre değişir (sahibinin isteği); bu yüzden kıyafet kütüphanesi tutulmaz. İstisna: Vaka 1 temel kıyafeti kullanır; yeni kıyafet Vaka 2'den başlar. Kovalamacadaki felaket kıyafeti her vakada yenidir. Peri'nin vakadaki kıyafeti girişte ilk kez görünür (eski kural kitabı 15a); çekicilik anı burada olur. Peri'nin saçı da değişir. Cengo'da sabit kalan yalnız yüz, saç, tel ve bileklik; ceket dahil kıyafet değişir (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 17); **Cengo'nun saçı değişmez** (sahibinin kararı, 19 Kasım 2026).
 Görsel üretimi vaka metni yazıldıktan sonra yapılır (maliyet notu `arsiv/kaynak/YENI_OYUN_SEZON.md` §9).
 - *Ders:* [V7 başlangıç › 2. Süre ölçümü] 3 Diyalog · 15 Kas 12:07 · 15 Kas 12:16 · ~1 dk (renk sorusu) · ~8 dk · `vaka7_diyalog.md` (252 satır); `arac_diyalog.js` ayrıştırması geçti (scratchpad'de V7 taslağıyla; gerçek veri adım 4'te). Elbise zümrüt → gece mavisi (V5 tekrarı; ortak onayladı; form + kanon düzeltildi) (k:1c22a8bb57)
 *Uygulayıcı:* hatırlat 1, 8
@@ -439,7 +439,7 @@ Büronun ev sahibi. Vaka 2'de kapıya gelir, sonra ara sıra döner; Peri ondan 
 
 #### KAR-37 Taç
 - Peri'nin eski hayatından geri alınacak şey (sahibinin kararı, 4 Ekim 2026: güzellik kraliçesi tacı; haczedilip satılmış, müzayedede karşısına çıkar).
-- Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (kural 27). 16 Kasım 2026'da kasa kalktı; "kasada biriken parayla" geçersiz.
+- Hacizde gitti. Vaka 7'de müzayedede karşısına çıkar; **her yolda Vaka 7'de geri alınır**, karar yalnız nasıl alındığını değiştirir (YAPI-35). 16 Kasım 2026'da kasa kalktı; "kasada biriken parayla" geçersiz.
 - 2009 tarihli güzellik yarışması tacı; gümüş, kristal taşlı. İcra satışından bir tüccar almış; Nişantaşı'ndaki müzayede evinin kataloğunda 14 numara *(Vaka 7, ortağın onayı, 15 Kasım 2026)*.
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 256, 1844, 1969
@@ -556,7 +556,7 @@ Ortağın isteği, sahibinin (Barbaros) onayı, 16 Kasım 2026; bütün seri.
 - Sigara içen ya da kadrajında sigara, izmarit, kül tablası, çakmak, puro, pipo, nargile, duman bulunan resim yapılmaz (5. parça A).
 - İstem bunları hiç anmaz ("sigara yok" bile yazılmaz); `uretim/istem_kontrol.sh` istemde sigara/tütün sözünü yakalar. "Mola", "dışarıda
   bekleme" gibi anlar sigarasız kurulur ve tarif edilir (V7: Nesrin ile Cengo basamakta oturup kedilere bakar).
-- Resim denetiminde (5. parça E.13) yakın bakışla aranır. Form onaya gitmeden kontrol listesinde işaretlenir: "[ ] Sigara yok (kural 19a)".
+- Resim denetiminde (5. parça E.13) yakın bakışla aranır. Form onaya gitmeden kontrol listesinde işaretlenir: "[ ] Sigara yok (SINIR-13)".
 - Durum (16 Kasım 2026): Vaka 7'deki tek örnek (Nesrin ipucu, arka avlu) değiştirildi, `nesrin.sigara` ifadesi silindi; yeni oyunun verisinde
   (V1–V7) ve şablonlarda başka sigara geçmiyor. Doğrulayıcıda "sigara/tütün/izmarit" metin taraması henüz yok (kod adımında eklenebilir).
 *Uygulayıcı:* program `uretim/istem_kontrol.sh` istemde sigara/tütün sözü · program `kaynak/dogrulayici.js` K20 metinde, sahne notunda, ifade adında · hatırlat 10
@@ -582,9 +582,9 @@ Her vakanın girişinde: suçlu ele verilmez; bir ipucunun vereceği bilgi önce
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K17 (ipucu anahtarı girişte geçmez) · hatırlat 3, 6
 *Kaynak:* 104, 105, 106
 
-#### BILGI-4 Hiçbir ipucu suçluyu tek başına göstermez (kural 21c)
+#### BILGI-4 Hiçbir ipucu suçluyu tek başına göstermez (eski kural kitabı 21c)
 Sahibinin görselsiz testi, 8 Ekim 2026. Suçlunun adı, ona özgü bir eşya ya da itiraf tek ipucunda verilmez; her ipucunun bilgisi en az iki şüpheliye uyar ya da masum bir açıklaması vardır. Suçlu, en az iki ipucunun birleşmesiyle bulunur. K19 denetler: hiçbir doğru kanıt çifti tek ipucundan çıkmaz. Vaka formu onaya gitmeden kontrol listesinde işaretlenir.
-*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (kural 21c: tek ipucu suçluyu kanıtlamaz) · hatırlat 1
+*Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (tek ipucu suçluyu kanıtlamaz) · hatırlat 1
 *Kaynak:* 128, 202, 658
 
 #### BILGI-5 İpucu adı açıktır ama fazlasını söylemez
@@ -592,14 +592,14 @@ Sahibinin görselsiz testi, 8 Ekim 2026. Suçlunun adı, ona özgü bir eşya ya
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K18 (ipucu adında duyulmamış ad) · hatırlat 4
 *Kaynak:* 129, 130
 
-#### BILGI-6 Defter yalnız ara bulgu yazar (kural 21a)
+#### BILGI-6 Defter yalnız ara bulgu yazar (eski kural kitabı 21a)
 İpucu açılınca olgular gelir; olgular birleşince deftere bir ara bulgu cümlesi yazılır (ör. "Tekne sette"). Bu cümle suçluyu asla söylemez. Vaka formu onaya gitmeden "Defter cümleleri suçluyu söylemiyor" kontrolü işaretlenir.
 - *Ders:* [2_kural_kitabi › Sahibine sorular (çelişkiler)] 1. ✓ *Karar: a (21a).* **Çıkarımlar cevabı söylüyor.** Şu an oyun iki olguyu birleştirip "Nazlı'yı sete Serkan götürmüş" diye deftere yazıyor. Bu, 21. kuralla çelişiyor. Ne olsun? (k:b2093fa1f7)
 *Uygulayıcı:* hatırlat 4, 5
 *Kaynak:* 201, 295, 604, 659
 
-#### BILGI-7 Anı özeti yalnız herkesin duyduğunu yazar (kural 21d)
-Sahibinin isteği, 17 Ekim 2026. Anı defterinde (Anı sekmesinde) her biten vakanın üstünde (Peri'nin notunun üstünde) 2–3 cümlelik hatırlatma — anı özeti — durur: müşteri ve kayıp, kim almıştı, neden. Bütün kararlarda aynıdır. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği girer; bir ipucunda kalmış ayrıntı ya da karara göre değişen hiçbir şey (sonuç dahil) girmez (kural 21d, `arsiv/sablon/2_kural_kitabi.md`). Formda §12'nin altına yazılır; diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider. Bölüm zorunlu: yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`. (Vaka 3 başlangıç notunda istendi: `vaka3_baslangic.md` §1; örnek Vaka 2'de.) Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, kural 24). Vaka formu onaya gitmeden "Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor" kontrolü işaretlenir.
+#### BILGI-7 Anı özeti yalnız herkesin duyduğunu yazar (eski kural kitabı 21d)
+Sahibinin isteği, 17 Ekim 2026. Anı defterinde (Anı sekmesinde) her biten vakanın üstünde (Peri'nin notunun üstünde) 2–3 cümlelik hatırlatma — anı özeti — durur: müşteri ve kayıp, kim almıştı, neden. Bütün kararlarda aynıdır. Yalnız her yolda oynayan itiraf sahnesinin (kovalamaca) söylediği girer; bir ipucunda kalmış ayrıntı ya da karara göre değişen hiçbir şey (sonuç dahil) girmez (eski kural kitabı 21d, `arsiv/sablon/2_kural_kitabi.md`). Formda §12'nin altına yazılır; diyalogda `## ani` bölümüne (`**ANI:** …`, `## cozum`'dan sonra) gider. Bölüm zorunlu: yoksa `arac_diyalog.js` veriyi yazmaz. Örnek: `vaka2_diyalog.md` → `## ani`. (Vaka 3 başlangıç notunda istendi: `vaka3_baslangic.md` §1; örnek Vaka 2'de.) Kimi suçladığın ve kararın oyunun kendi kaydından yazılır (kasa yok, YAPI-31). Vaka formu onaya gitmeden "Anı özeti yazıldı; yalnız itirafın söylediğini içeriyor" kontrolü işaretlenir.
 *Uygulayıcı:* program `kaynak/arac_diyalog.js` '## ani' bölümü zorunlu · program `kaynak/test_yeni_arayuz.js` ani_ozet var · hatırlat 3
 *Kaynak:* 203, 634, 669, 2577, 3007
 
@@ -657,7 +657,7 @@ Bir kanıt görseli de metin gibi bilgi taşır. Bir görsel, bağlı olduğu ip
 *Uygulayıcı:* hatırlat 8, 10
 *Kaynak:* 727, 2115, 2116, 2140, 2142
 
-#### BILGI-18 Görsel için doğrulayıcı eki (Kural 1 genişletme)
+#### BILGI-18 Görsel için doğrulayıcı eki (K1 genişletme)
 Her görsel, bağlı clue'nun `reveals`ine etiketlenir. Görsel bir kanon yüzü/olguyu gösteriyorsa, o yüz/olgu clue'nun `needs ∪ reveals` kümesinde olmalıdır; değilse → FAIL. Nurcan'ın görsel versiyonu böyle engellenir.
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 2127
@@ -700,7 +700,7 @@ Adımların özü:
 6. Kovalamaca: her durumda aynı.
 7. Karar: oyuncu ne yapacağını seçer (ahlaki seçim).
 8. Kapanış: kısa bir son sahne.
-Ayrıntı: 2. parça kural 22a–d ve 24, `kaynak/DEVIR.md` en üst.
+Ayrıntı: YAPI-23…YAPI-26 ve YAPI-31, `kaynak/DEVIR.md` en üst.
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (yüzleşme sahneleri var) · hatırlat 1
 *Kaynak:* 81, 83, 84, 85, 86, 87, 88, 89, 90, 293, 297, 2408
 
@@ -803,7 +803,7 @@ Sonuca göre yüzleşme sahnesi oynar (YAPI-16).
 #### YAPI-15 Kilit açarak bulunan kanıt
 - Kilit açarak bulunan kanıt (Cengo'nun teli) "Kim yaptı?"da geçerlidir.
 - Hikâyede kuralın tarafı: delil hukuka uygun olmalı; kilit açarak bulunan şey mahkemede işe yaramaz, kapıyı çalarak bulunan şey yarar. Bu, Peri'nin kuralı ile Cengo'nun içgüdüsü arasındaki kavganın gerçek hayattaki dayanağıdır (Ton §9, 5 Ekim 2026, "tekrarlanan espri").
-- Kural 21b: mahkemede geçmemesi yalnız espri olarak kullanılır.
+- Eski kural kitabı 21b: mahkemede geçmemesi yalnız espri olarak kullanılır.
 - Hikâyede gerçek bir bedel **değildir**; Ton taslağındaki "Cengo'nun teli hep bir bedel taşır" sözü kalktı (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 34).
 *Uygulayıcı:* hatırlat 3
 *Kaynak:* 204, 1822
@@ -860,10 +860,10 @@ Sahibinin kararı, 6 Ekim 2026. Her vakada Peri'nin üstü başı bir şekilde b
 *Kaynak:* 89, 151, 152
 
 #### YAPI-23 Karar sahnenin içindedir
-Kural 22a; sahibinin kararı, 16 Kasım 2026 (8 Ekim'deki "oyuncu seçmeden önce sonucu bilir" kuralının yerine).
+Eski kural kitabı 22a; sahibinin kararı, 16 Kasım 2026 (8 Ekim'deki "oyuncu seçmeden önce sonucu bilir" kuralının yerine).
 - İtiraftan sonra konuşma ekranı kesilmez; ayrı karar ekranı, "Dosya çözüldü" sayfası, karar menüsü, sonuç sayfası yoktur (kalkan ekranlar).
 - Kararı **sahnedeki biri sorar** — itiraftan sonra sahnede kalan biri (V6: Müzeyyen bankta "Şimdi ne olacak, kızım?"); soran ve dinleyen ekrandadır (5. parça SR-A). Formda kararı kimin sorduğu, repliği ve ekranda kimin olduğu yazılır.
-- Seçenekler **Peri'nin ağzından kısa cümlelerdir**, konuşma kutusundaki seçimle gelir ("Peri ne yapsın?"; açılıştaki "Peri ne desin?" kutusu gibi). Seçenek cümlesi ne yapılacağını açıkça söyler (kural 5); sonucu söylemez.
+- Seçenekler **Peri'nin ağzından kısa cümlelerdir**, konuşma kutusundaki seçimle gelir ("Peri ne yapsın?"; açılıştaki "Peri ne desin?" kutusu gibi). Seçenek cümlesi ne yapılacağını açıkça söyler (TON-9); sonucu söylemez.
 - Seçeneğin altında hiçbir şey yazmaz: **sonuç önizlemesi, rakam, Cengo'nun tavrı yok.**
 - Taslak: `sablon/taslak_karar/vaka6_akis.jpg` (önerilen akış, onaylandı) ve `vaka6_simdi_oneri.jpg` (eskisiyle yan yana).
 - Form kontrolü: kararı sahnedeki biri soruyor; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (22a–b).
@@ -872,14 +872,14 @@ Kural 22a; sahibinin kararı, 16 Kasım 2026 (8 Ekim'deki "oyuncu seçmeden önc
 *Kaynak:* 153, 206, 627, 631, 666, 2773
 
 #### YAPI-24 Sonuç sahnede gösterilir
-Kural 22b. Seçimden sonra SONUÇ anlatı satırlarına bölünür ve karar karesinin (5. parça SR-K; V6: K106) üstünde akar; bedel de orada görünür (eylem → sonuç → bedel, YAPI-38). Cengo'nun karar satırı (bağ etkisi, kural 23) kendi ağzından, kendisi ekrandayken söylenir (V6: büroda). Ardından Cengo'nun söylenmeyen doğru kanıtı (YAPI-25), "Dosya kapandı" kartı (YAPI-26), kapanış sahnesi gelir. Uygulama: veride `sahneler.sonuc_<karar>` varsa o oynar, yoksa SONUÇ ~110 harflik anlatı satırlarına bölünür.
+Eski kural kitabı 22b. Seçimden sonra SONUÇ anlatı satırlarına bölünür ve karar karesinin (5. parça SR-K; V6: K106) üstünde akar; bedel de orada görünür (eylem → sonuç → bedel, YAPI-38). Cengo'nun karar satırı (bağ etkisi, KAR-20) kendi ağzından, kendisi ekrandayken söylenir (V6: büroda). Ardından Cengo'nun söylenmeyen doğru kanıtı (YAPI-25), "Dosya kapandı" kartı (YAPI-26), kapanış sahnesi gelir. Uygulama: veride `sahneler.sonuc_<karar>` varsa o oynar, yoksa SONUÇ ~110 harflik anlatı satırlarına bölünür.
 *Uygulayıcı:* hatırlat 3
 *Kaynak:* 154, 207, 666, 2773
 
 #### YAPI-25 Cengo söylenmeyen doğru kanıtı söyler
-Kural 22c; sahibinin kararı, 16 Kasım 2026 (eski ücret kesintisinin ve formdaki "kesinti açıklaması"nın yerine; kasa yok).
+Eski kural kitabı 22c; sahibinin kararı, 16 Kasım 2026 (eski ücret kesintisinin ve formdaki "kesinti açıklaması"nın yerine; kasa yok).
 - Kapanıştan önce, büroda, Cengo yalnız oyuncunun **elinde olup** suçlamada kullanmadığı doğru kanıtı anar ("Elindeydi"; seçimi `cozumYolu()` yapar, testli).
-- **Açılmamış ipucunun bilgisi asla anılmaz** (kural 20 / 20 Ekim kuralı; reklamlı "kaçan ipucu" da bunun için korunur).
+- **Açılmamış ipucunun bilgisi asla anılmaz** (BILGI-1; reklamlı "kaçan ipucu" da bunun için korunur).
 - Doğru kişi + sağlam kanıtta Cengo bu konuyu açmaz. Yanlış kişi suçlandıysa da aynı kural: elindeki doğru kanıt.
 - Yazar suçluyu kanıtlayan **her doğru kanıt için bir** Cengo satırı yazar; satır yalnız o kanıtı anar, kanıtın kendi bilgisinden fazlasını söylemez, çiftin öbür kanıtını anmaz (oyuncu onu açmamış olabilir — V6'nın ilk örneğindeki "Sofradaki tarihle" sözü sızıntı taramasında yakalandı, 16 Kasım 2026). Form kontrolü: her doğru kanıt için satır var, yalnız o kanıtın bilgisini söylüyor.
 - Örnek (V6, zayıf): "Elbise kılıfını o gün iki kişi tuttu, Peri. Onu söyleseydin kadın 'kanıtınız ne?' diyemezdi." (DEVIR'deki karar notunda aynı örnek "Torbayı o gün iki kişi tuttu…" biçimindedir.)
@@ -889,7 +889,7 @@ Kural 22c; sahibinin kararı, 16 Kasım 2026 (eski ücret kesintisinin ve formda
 *Kaynak:* 208, 614, 667, 2773
 
 #### YAPI-26 "Dosya kapandı" kartı
-Kural 22d (16 Kasım 2026; eski "Dosya çözüldü" ekranının yerine). Vakanın sonunda, kapanış sahnesinden önce tek bir kart: sonuç başlığı (sağlam / zayıf / yanlış), oyuncunun kanıtları ✓/✗, "Elindeydi", yanlışsa suçlananın neden masum olduğu (`## cozum` MASUM satırı), Peri'nin anı cümlesi, "Devam" ve "Arkadaşına öner". Rakam yok. Yalnız oyuncunun elindeki kanıt anılır (20 Ekim kuralı). Seçim mantığı `cozumYolu()`. Formda karta giden metin yazılır: suçluyu kanıtlayan yollar (sade dille) ve her yanlış şüphelinin neden masum olduğu.
+Eski kural kitabı 22d (16 Kasım 2026; eski "Dosya çözüldü" ekranının yerine). Vakanın sonunda, kapanış sahnesinden önce tek bir kart: sonuç başlığı (sağlam / zayıf / yanlış), oyuncunun kanıtları ✓/✗, "Elindeydi", yanlışsa suçlananın neden masum olduğu (`## cozum` MASUM satırı), Peri'nin anı cümlesi, "Devam" ve "Arkadaşına öner". Rakam yok. Yalnız oyuncunun elindeki kanıt anılır (20 Ekim kuralı). Seçim mantığı `cozumYolu()`. Formda karta giden metin yazılır: suçluyu kanıtlayan yollar (sade dille) ve her yanlış şüphelinin neden masum olduğu.
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (cozum.yollar, her masuma cozum.masum) · program `kaynak/test_yeni_kimyapti.js` (yalnız eldeki kanıt) · hatırlat 5
 *Kaynak:* 138, 209, 613, 2773
 
@@ -909,12 +909,12 @@ Her durumda en az bir dürüst karar seçeneği açıktır (form kontrolü: "En 
 *Kaynak:* 165, 630, 665
 
 #### YAPI-30 Kirli seçenek Peri'nin bir derdine çare olur
-Kural 26. Kirli seçeneğin cazibesi rakamla değil hikâyeyle kurulur: Peri'nin bir derdine çare olur. Peri'nin parasızlığı (haciz, taç, faturalar) hikâyede ara ara hatırlatılır ki "parasını al" gibi bir seçenek rakamsız da çekici görünsün. Dürüst seçeneğin de bir karşılığı vardır; "doğru cevap" çıkmaz (kural 23).
+Eski kural kitabı 26. Kirli seçeneğin cazibesi rakamla değil hikâyeyle kurulur: Peri'nin bir derdine çare olur. Peri'nin parasızlığı (haciz, taç, faturalar) hikâyede ara ara hatırlatılır ki "parasını al" gibi bir seçenek rakamsız da çekici görünsün. Dürüst seçeneğin de bir karşılığı vardır; "doğru cevap" çıkmaz (KAR-20).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 214, 630, 2773
 
 #### YAPI-31 Para yalnız hikâyededir (kasa yok)
-Kural 24; sahibinin kararı, 16 Kasım 2026 (sebep: kasa yalnız birikiyordu, hiçbir şeye bağlanmıyordu; karar ekranı tablo karşılaştırmasına dönmüştü).
+Eski kural kitabı 24; sahibinin kararı, 16 Kasım 2026 (sebep: kasa yalnız birikiyordu, hiçbir şeye bağlanmıyordu; karar ekranı tablo karşılaştırmasına dönmüştü).
 - Ekranda kasa, ücret, karar parası, kasa göstergesi, hesap kutusu, "Kasaya …", Anı'daki "Kasaya" satırı yok; oyunun saydığı bir para yok.
 - Para sahnede yaşar: kim kime ne veriyor, kim neyi kesiyor, kim borç topluyor. **Her kararın parası kendi sahnesinde görünür ve orada biter** (V6: Haldun ücreti öder — "Bir hafta bekledim, şimdi bir yıl bekleyeceğim"; Müzeyyen zarfı uzatır).
 - Para vakalar arasında taşınmaz (YAPI-43). Para hiçbir yolu kapatmaz.
@@ -923,7 +923,7 @@ Kural 24; sahibinin kararı, 16 Kasım 2026 (sebep: kasa yalnız birikiyordu, hi
 *Kaynak:* 212, 2773
 
 #### YAPI-32 Ücret hikâyenin parçasıdır; kesinti yok
-Kural 25.
+Eski kural kitabı 25.
 - Ücret girişte konuşulabilir (tutar fiyat tablosundan, formda "Vaka ücreti: fiyat tablosundan"); ekranda rakam olarak tutulmaz; sonda ödendiği sahnede söylenebilir.
 - **Müşteri girişte söylediği ücreti öder; kesinti yoktur** (16 Kasım 2026, sahibinin kararı — kasa kalktı, kesintinin anlamı kalmadı): sonuç metninde "beş bin kesti" gibi satır yazılmaz, `## ucret` bölümü yazılmaz (`arac_diyalog.js`'te isteğe bağlı), verideki ücret kademeleri eşittir (`kim_yapti.ucret`: dogru = zayif = yanlis), `kesinti` yok.
 - Sus payı / prim (kesinti değil) kaldı.
@@ -933,17 +933,17 @@ Kural 25.
 *Kaynak:* 100, 147, 213, 572, 2768
 
 #### YAPI-33 Her tutar gerçek hayata uygun
-Kural 27b; sahibinin kuralı, 5 Ekim 2026. Her tutar o yılın İstanbul fiyatlarına uyar: vaka ücreti, kararların getirdiği para ve metinde geçen her tutar (kira, ücret, kiralama, borç, rüşvet, balığın kilosu…).
+Eski kural kitabı 27b; sahibinin kuralı, 5 Ekim 2026. Her tutar o yılın İstanbul fiyatlarına uyar: vaka ücreti, kararların getirdiği para ve metinde geçen her tutar (kira, ücret, kiralama, borç, rüşvet, balığın kilosu…).
 *Uygulayıcı:* hatırlat 1
 *Kaynak:* 216, 1815
 
 #### YAPI-34 Her vakanın fiyat tablosu
-Kural 27c. Her vaka kendi fiyat (referans) tablosunu taşır (ilki `YENI_VAKA_1.md`'de; formda §17). Metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır; tabloda olmayan tutar metne giremez (denetimde ve form kontrolünde aranır: "Her tutar fiyat tablosunda"). Eski "ay sonu gideri (Ekim 2026: 35.000 ₺)" tablodan kalktı — oyun para saymaz (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 36).
+Eski kural kitabı 27c. Her vaka kendi fiyat (referans) tablosunu taşır (ilki `YENI_VAKA_1.md`'de; formda §17). Metinde geçen her tutar, dayanağıyla birlikte tabloda yazılıdır; tabloda olmayan tutar metne giremez (denetimde ve form kontrolünde aranır: "Her tutar fiyat tablosunda"). Eski "ay sonu gideri (Ekim 2026: 35.000 ₺)" tablodan kalktı — oyun para saymaz (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 36).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K22 (yeni oyun; UYARI) metindeki tutar fiyat tablosunda (formun §17) · hatırlat 1, 5
 *Kaynak:* 217, 652, 664, 1815
 
 #### YAPI-35 Taç her yolda Vaka 7'de alınır
-Kural 27; sahibinin kararı, 15–16 Kasım 2026.
+Eski kural kitabı 27; sahibinin kararı, 15–16 Kasım 2026.
 - Taç her yolda Vaka 7'de alınır. Karar yalnız **nasıl** alındığını ve bedelini değiştirir (kimin parasıyla, kime borçlu kalarak; örn. kendi parası / sahibenin sus payı / Cengo'nun borcu / dalavere). Bedel tacın kaybı değil, nasıl alındığıdır; sonuç metninde ve bağda görünür.
 - Taç Vaka 8'e ve sonrasına taşınmaz; V8 ve sonrası tacın alınmış olduğu hâlden başlar; nasıl alındığı sonraki vakalarda anılmaz.
 - Kasa olmadığı için taç bir hesaptan düşmez. Kasadan düşme, kasaya göre sonuç seçimi ve "taç alındı" işareti için yazılan motor planı iptal.
@@ -972,13 +972,13 @@ Ekonomi seçenekleri daraltabilir ama oyuncuyu kirli karara zorlayamaz: bütçey
 - Kalıp: **eylem → sonuç → bedel.** Karar sonucu somut bir fiille açılır ("İlyas'ı polise teslim ettin"), sonra ne olduğunu gösterir; bedeli göster, kararı oyuncu versin. Anlatıcı hüküm vermez.
 - "Doğru olanı yaptın", "en adil" gibi hüküm cümleleri yasak.
 - Nitelik + bedel yapısı ("Onurlu ama ölümcül", "Dürüstsün ama saf") hüküm değildir, kalabilir — orada oyuncunun seçimi değil dünyanın tepkisi anlatılır.
-- Eski oyundan yeni oyuna aynen taşınan yapı sözleşmelerinden biridir (kural 22).
+- Eski oyundan yeni oyuna aynen taşınan yapı sözleşmelerinden biridir (eski kural kitabı 22).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K20 hüküm sözü (HUKUM listesi) karar yüzeylerinde: sonuç, Cengo satırı, seçenek, sonuç sahnesi, anı defteri · hatırlat 3, 5
 *Kaynak:* 48, 155, 205, 932, 1724, 1793, 2044, 2048
 
 #### YAPI-39 Ruh hâli sınıflaması kelime olarak gösterilmez; yeni oyunda ruh hâli görseli ve istatistik paneli yok
 - Eski motordaki `kararRuhHali` sınıflaması (temiz/bedel/bosluk/kirli) oyuncuya ASLA kelime olarak gösterilmez; yalnızca atmosfer görseli seçer.
-- Yeni oyunda (kural 27a) ruh hâli görseli ve istatistik paneli yok; kararın sonucunu kararın kendi ara karesi gösterir.
+- Yeni oyunda (eski kural kitabı 27a) ruh hâli görseli ve istatistik paneli yok; kararın sonucunu kararın kendi ara karesi gösterir.
 - *Ders:* [YENI_OYUN_CERCEVE › 5. GÖRSEL — asıl maliyet] **Not:** 4 ruh hâli görseli noir tonunda (kül tablası vb.); neşeli bir oyunda tutmayabilir. (k:e3809c13ab)
 *Uygulayıcı:* yok — arayüz kararı
 *Kaynak:* 48, 218, 1704, 2048
@@ -1003,7 +1003,7 @@ Komedi "not vermez" kuralını yeni bir yerden deler: Cengo'nun esprisi gizli bi
 *Kaynak:* 1704, 1705, 1706
 
 #### YAPI-43 Vakalar arasında yalnız Cengo bağı ve sabit sezon hikâyesi taşınır
-Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır: **Cengo bağı** (sistem, vakadan vakaya sürer) ve sabit sezon hikâyesi. Para/kasa 16 Kasım 2026'da kalktı; para taşınmaz, yalnız hikâyededir (kural 24).
+Her vaka kendi içinde kapanır. Vakalar arasında yalnız şunlar taşınır: **Cengo bağı** (sistem, vakadan vakaya sürer) ve sabit sezon hikâyesi. Para/kasa 16 Kasım 2026'da kalktı; para taşınmaz, yalnız hikâyededir (YAPI-31).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (tohum yok) · hatırlat 1
 *Kaynak:* 160, 161, 219
 
@@ -1423,7 +1423,7 @@ Genel olarak elle (makinenin yapamadığı) bakılanlar: espri tutuyor mu, çeki
 bağlı değil; görsel kalitesine görselsiz testte bakılamaz).
 Yürüyüş (Vaka 4, 10 Kasım 2026): sahibi telefondan ekran görüntüsüyle not gönderir; satır üstünde konuşulur ("önceki/sonraki 10 satırı yaz"
 isteyebilir), öneri verilir, sahibinin seçtiği hâl not listesine yazılır; "yayına koy / güncelle" deyince hepsi birlikte işlenir. (Vaka 4
-kaydı: giriş bitti, 13 not işli; sahibi girişi yeniden inceleyecek — kural 5c Vaka 4'e henüz uygulanmadı, sahibinin kararı; sıradaki
+kaydı: giriş bitti, 13 not işli; sahibi girişi yeniden inceleyecek — TON-10 Vaka 4'e henüz uygulanmadı, sahibinin kararı; sıradaki
 konuşma sahnesi ve ipuçları.)
 - *Ders:* [YENI_OYUN_CERCEVE › 8. SIRADAKİ ADIM] Bittiğinde iki şey netleşir: konuşma ekranının nasıl duracağı, ve arama ekranının gerçekten gerekip gerekmediği. Kâğıt üstünde "bu ekran gereksizmiş" demek bedava. (k:2dd102a3ff)
 *Uygulayıcı:* hatırlat 6
@@ -1704,7 +1704,7 @@ Hiçbiri yoksa metin değişir. (Vaka 1'de yaşanan: metin telefon, istavrit, te
 
 #### SATIR-2 Sözleşmenin amacı, kapsamı ve nerede yakalandığı
 Sözleşme SR-A…M maddelerinden oluşur (SR-L 8 Kasım 2026'da, SR-M 13 Kasım 2026'da eklendi; eski belgelerde "SR-A…L" yazar). Amaç: bir vakanın resimleri **bir kez** üretilir; kurallar hatayı istem yazılırken yakalar (7. parça adım 3, 8 ve "Satır–resim uyumu"). Nerede yakalanır:
-- diyalog yazılırken (adım 3): SR-A, H, I, L (`kime`/`gir`, anlatı, ifade satırın duygusundan, sahne başında akış notu; sahne notu yalnız o an görüleni söyler — kural 4a);
+- diyalog yazılırken (adım 3): SR-A, H, I, L (`kime`/`gir`, anlatı, ifade satırın duygusundan, sahne başında akış notu; sahne notu yalnız o an görüleni söyler — TON-8);
 - görsel listesinde (adım 8): SR-B, C, D, K (kıyafet kartı, kıyafet hâli tablosu, ifade/nesne ayrımı);
 - istem yazılırken: SR-D, E, I, J (`## Satırlar` her vakada zorunlu, bayraklar kapalı);
 - gömmeden sonra hepsi doğrulanır. Bu son adım artık hata aramak için değil, öncekilerin tuttuğunu görmek içindir.
@@ -1802,7 +1802,7 @@ Dinleyenin ifadesi de uyar: konuşmadığı satırda da hikâyeye uygun durur (t
 *Kaynak:* 6, 386, 1223, 715, 1076
 
 #### SATIR-18 SR-K Karar karesi SONUÇ'u gösterir
-Karar karesi SONUÇ metninin asıl anını gösterir (bedeli yaşayan kişiler karede). Karar karesi SONUÇ'un anlatı satırlarının altında durur (kural 22b). Cengo'nun karar satırı ve söylenmeyen kanıt satırı (22c) Cengo ekrandayken söylenir; kararı soran kişi de seçim anında ekrandadır (SR-A). Hatalı örnek: K47 Cengo satırını (Kenan'ın simidi) gösteriyordu; SONUÇ'taki Ferruh ve telefon yoktu.
+Karar karesi SONUÇ metninin asıl anını gösterir (bedeli yaşayan kişiler karede). Karar karesi SONUÇ'un anlatı satırlarının altında durur (YAPI-24). Cengo'nun karar satırı ve söylenmeyen kanıt satırı (22c) Cengo ekrandayken söylenir; kararı soran kişi de seçim anında ekrandadır (SR-A). Hatalı örnek: K47 Cengo satırını (Kenan'ın simidi) gösteriyordu; SONUÇ'taki Ferruh ve telefon yoktu.
 *Uygulayıcı:* hatırlat 3, 8
 *Kaynak:* 6, 387, 1224, 1076
 
@@ -2013,7 +2013,7 @@ Karakter temel figürleri ve mekân temelleri ilk numaralarda; ifadeler ve karel
 6. İfade
 7. Nesneler: tek tek sayılır; yazı taşıyan nesnenin yüzü kapalı
 8. Kıyafet sabitleri (vakaya göre: etek, ayakkabı rengi…)
-9. Çekicilik satırı (kural 15)
+9. Çekicilik satırı (SINIR-3)
 10. "Hiçbir yazı, harf, rakam, logo yok."
 11. Oran satırı (ISTEM-4)
 *Uygulayıcı:* hatırlat 8
@@ -2341,7 +2341,7 @@ Bir istekte birkaç ifade istenmez (çözünürlük düşüyor; sahibinin karar�
 *Kaynak:* 3082, 732
 
 #### ISTEM-55 İstemde sigara sözü yok
-İstem sigara/tütünü hiç anmaz (kural 19a, 16 Kasım 2026); `istem_kontrol.sh` sigara, izmarit, kül tablası, tütün, puro, pipo, nargile, çakmak, cigar, smoke, smoking sözünü bulursa geçirmez.
+İstem sigara/tütünü hiç anmaz (SINIR-13, 16 Kasım 2026); `istem_kontrol.sh` sigara, izmarit, kül tablası, tütün, puro, pipo, nargile, çakmak, cigar, smoke, smoking sözünü bulursa geçirmez.
 *Uygulayıcı:* program `uretim/istem_kontrol.sh` sigara/tütün sözü
 *Kaynak:* 3565
 
@@ -2424,7 +2424,7 @@ Uç ifadeler (gözler kapalı, yüz buruşuk, yüz kısmen kapalı) puanı düş
 #### DENETIM-12 Konuğun yüz denetimi
 14 Kasım 2026'dan beri:
 - Çapa AYNI vakadaki kendi onaylı figürleri (temel + onaylı ifadeler). Başka konuğa daha yakınsa KALDI; < 0,60 KALDI; 0,60–0,70 ŞÜPHELİ.
-- Temelde kimlik kapısı yok; onun yerine eski karakterlere (oyundaki bütün figür ve sprite'lar) yüz benzerliği basılır. ≥ 0,70 ise **UYARI: yan yana bak (kural 9, bkz. DENETIM-49)** — kapı değil (onaylı Müzeyyen Nadide'ye 0,748, Recep Ferruh'a 0,724 çıkıyor; görünüşle ayrıldılar).
+- Temelde kimlik kapısı yok; onun yerine eski karakterlere (oyundaki bütün figür ve sprite'lar) yüz benzerliği basılır. ≥ 0,70 ise **UYARI: yan yana bak (DENETIM-49)** — kapı değil (onaylı Müzeyyen Nadide'ye 0,748, Recep Ferruh'a 0,724 çıkıyor; görünüşle ayrıldılar).
 - Sonraki vakada tekrar çıkan konuk olursa önceki vakadaki resimleri çapaya eklenir (sahibi, 14 Kasım).
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 1109
@@ -2565,7 +2565,7 @@ Aynı kişinin onaylı ifadeleriyle yan yana bakılır; yüz ve poz onlardan aç
 *Kaynak:* 1130
 
 #### DENETIM-33 Çekicilik seviyesi
-Çekicilik seviyesi kurala uygun olmalı. Peri ve Gizem için (sahibi, 8 Kasım 2026): yeni resim o karakterin eski onaylı resimleriyle yan yana; çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan onaylanmaz, `uretim/ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. Kıyafet kartı bu maddeden muaf. Peri "vakadaki en gösterişli kadın" (kural 15b) — konuk kadınlar onu geçmemeli.
+Çekicilik seviyesi kurala uygun olmalı. Peri ve Gizem için (sahibi, 8 Kasım 2026): yeni resim o karakterin eski onaylı resimleriyle yan yana; çekicilik ve dekolte onlardan AZ DEĞİL. Filtreden kaçarken istem farkında olmadan hafifleyebilir; sönük kalan onaylanmaz, `uretim/ISTEM_KALIPLARI.md` §9 satırlarıyla yeniden üretilir. Kıyafet kartı bu maddeden muaf. Peri "vakadaki en gösterişli kadın" (KAR-6) — konuk kadınlar onu geçmemeli.
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 467, 1131, 3048
 
@@ -2575,7 +2575,7 @@ Resim hak edilmemiş bir bilgi gösteriyor mu? Gösteriyorsa onaylanmaz.
 *Kaynak:* 468, 3048
 
 #### DENETIM-35 Sigara ve duman
-Sigara, izmarit, kül tablası, çakmak, puro, pipo, nargile ya da duman var mı? Varsa ret (kural 19a).
+Sigara, izmarit, kül tablası, çakmak, puro, pipo, nargile ya da duman var mı? Varsa ret (SINIR-13).
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 474
 
@@ -3546,7 +3546,7 @@ Yalnız `kanon.sahne` olan veride: konuşan tanımlı mı, ifade o figürün (Pe
 #### KOD-68 K17 — Giriş denetimi
 `dogrulayici.js`'te, yalnız yeni oyunda (`kim_yapti` olan vakada) giriş sahnesine bakar:
 1. Büro: arka plan kanondaki büro görselleri listesinde (`kanon.sahne.buro`).
-2. Uzunluk: en az 15 satır, üst sınır yok; 45'i geçerse uyarı (10 Kasım 2026, kural 5c — girişte açıklık kısalıktan önce gelir).
+2. Uzunluk: en az 15 satır, üst sınır yok; 45'i geçerse uyarı (10 Kasım 2026, TON-10 — girişte açıklık kısalıktan önce gelir).
 3. Şüpheli: vakanın şüpheliler listesinden (formdaki) en az bir ad metinde geçer.
 4. Ücret: vakanın ücreti (ör. "35.000") metinde konuşulur (rakam ya da yazı) ve formdaki ücretle aynıdır.
 5. Sızıntı: ipucu olgularının anahtar kelimeleri (`anahtarlar`, her ipucu olgusuna 1–3 kelime) metinde geçmez.
@@ -3560,7 +3560,7 @@ Arama `toLocaleLowerCase("tr")` ile. Biri tutmazsa hata, derleme durur (45 üst�
 *Kaynak:* 747, 2443
 
 #### KOD-70 K19 — Kim yaptı? yapısı
-3 şüpheli; suçlu her yolda görünür; kanıt çiftleri olgu; ücret sırası; dört yüzleşme sahnesi; 4 karar; kapı/tohum/bedava ipucu yok; ipucu > hak; hak içinde en az 2 farklı doğru kanıt çifti; hiçbir doğru çift tek ipucundan çıkmaz (kural 21c); K19 artık `kesinti` açıklaması, karar `onizleme`si ve "kasa eksiye düşmez" denetimi **istemez** — üçü de 16 Kasım düzeniyle kalktı (kesinti, önizleme, kasa yok) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–21). Üretim denetiminde ayrıca: suçluyu kanıtlayan en az 2 ipucu yolu var (742).
+3 şüpheli; suçlu her yolda görünür; kanıt çiftleri olgu; ücret sırası; dört yüzleşme sahnesi; 4 karar; kapı/tohum/bedava ipucu yok; ipucu > hak; hak içinde en az 2 farklı doğru kanıt çifti; hiçbir doğru çift tek ipucundan çıkmaz (BILGI-4); K19 artık `kesinti` açıklaması, karar `onizleme`si ve "kasa eksiye düşmez" denetimi **istemez** — üçü de 16 Kasım düzeniyle kalktı (kesinti, önizleme, kasa yok) (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–21). Üretim denetiminde ayrıca: suçluyu kanıtlayan en az 2 ipucu yolu var (742).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19
 *Kaynak:* 2444, 742, 743
 
@@ -3593,24 +3593,24 @@ Defter cümleleri suçluyu söylemez. Hak edilmemiş bilgi sızmaz (isim, olgu, 
 *Kaynak:* 745, 746
 
 #### KOD-75 Karar sahnede; Cengo satırları
-- Kararı sahnedeki biri sorar; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (kural 22a–b). Önizleme, kesinti ve rakam yok (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–20).
-- Her doğru kanıt için Cengo'nun söylenmeyen kanıt satırı var; açılmamış ipucunu anmaz (kural 22c).
+- Kararı sahnedeki biri sorar; her kararın Peri ağzından seçenek cümlesi ve sahne satırlarına bölünmüş sonucu var (YAPI-23, YAPI-24). Önizleme, kesinti ve rakam yok (sahibinin kararı, 17 Kasım 2026, çelişki sorusu 19–20).
+- Her doğru kanıt için Cengo'nun söylenmeyen kanıt satırı var; açılmamış ipucunu anmaz (YAPI-25).
 - Cengo'nun karar ve kanıt satırları etiketli: `**CENGO [ifade]:** … {yuz: peri.x}` / `**olgu [ifade]:** … {yuz: peri.x}`; ifade kapanış setinde (`gorseller.json`) var olan bir resim olmalı, yoksa kapı (`arac_kapi.js … resim` K2/K8/K6, poz kaydı) durur.
 *Uygulayıcı:* program `kaynak/arac_yeni_tur.js` karar seçiminde rakam (kapıda) · program `kaynak/arac_kapi.js` resim (poz kaydı, K6) · program `kaynak/dogrulayici.js` K19 her doğru kanıtın Cengo satırı (uyarı) · hatırlat 3
 *Kaynak:* 750, 751, 752
 
 #### KOD-76 Anı özeti zorunlu
-Diyalogda `## ani` yoksa `arac_diyalog.js` yazmaz, `test_yeni_arayuz.js` eksiği yakalar. İçerik (yalnız itirafın söylediği, kural 21d) bulanık replik taramasında okunur.
+Diyalogda `## ani` yoksa `arac_diyalog.js` yazmaz, `test_yeni_arayuz.js` eksiği yakalar. İçerik (yalnız itirafın söylediği, BILGI-7) bulanık replik taramasında okunur.
 *Uygulayıcı:* program `kaynak/arac_diyalog.js` (## ani yoksa YAZILMADI) · program `kaynak/test_yeni_arayuz.js` · hatırlat 5
 *Kaynak:* 753
 
 #### KOD-77 Kasa yok, tohum yok, tutarlar tabloda
-Kasa yok; para yalnız hikâyede, her kararın parası kendi sahnesinde biter (kural 24). Tohum yok. Metindeki her tutar fiyat tablosunda.
+Kasa yok; para yalnız hikâyede, her kararın parası kendi sahnesinde biter (YAPI-31). Tohum yok. Metindeki her tutar fiyat tablosunda.
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K19 (tohum yok) · program `kaynak/dogrulayici.js` K22 (UYARI) metindeki tutar fiyat tablosunda · hatırlat 3
 *Kaynak:* 754, 756
 
 #### KOD-78 Sigara yok
-Metinde, sahne notunda, ifade adında, istemde sigara yok (kural 19a). İstemde `istem_kontrol.sh`, metin/sahne notu/ifade adında `dogrulayici.js yeni` K20 arar (Adım 4, 21 Kasım 2026).
+Metinde, sahne notunda, ifade adında, istemde sigara yok (SINIR-13). İstemde `istem_kontrol.sh`, metin/sahne notu/ifade adında `dogrulayici.js yeni` K20 arar (Adım 4, 21 Kasım 2026).
 *Uygulayıcı:* program `uretim/istem_kontrol.sh` (istemde sigara) · program `kaynak/dogrulayici.js` K20 (metin, sahne notu, ifade adı)
 *Kaynak:* 755
 
@@ -3697,7 +3697,7 @@ Motorda `metinSec()` çözer. Desteklenen yerler: kaynak `text` ve `meta`, karar
 *Kaynak:* 15
 
 #### KOD-91 Defter ve Künye vaka başına
-- (17 Ekim 2026) Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın anı özetini (diyalogda `## ani`, `kisiler.json → ani_ozet`; kural 21d: yalnız itirafın söylediği), kimi suçladığını, kararını ve Peri'nin notunu basar (kasa 16 Kasım 2026'da kalktı) (`yeni_arayuz.js → defterZincir, defterAni`).
+- (17 Ekim 2026) Zincir yalnız içinde bulunulan vakayı gösterir; Anı her biten vakanın anı özetini (diyalogda `## ani`, `kisiler.json → ani_ozet`; BILGI-7: yalnız itirafın söylediği), kimi suçladığını, kararını ve Peri'nin notunu basar (kasa 16 Kasım 2026'da kalktı) (`yeni_arayuz.js → defterZincir, defterAni`).
 - Künye (Kişiler) yalnız içinde bulunulan vakanın kişilerini gösterir (`yeni_arayuz.js → vnKisiGorunur`); portre `python3 arac_portre.py <figür> yeni_gorsel/portre/portre_<id>.webp`.
 - Deneme reklamı (`reklamGoster`, +1 hak ve kaçırılan ipuçları) ve test için vaka düğmeleri (`VN_VAKA_ATLA`, yayından önce `false`): `arsiv/kaynak/YENI_OYUN_CERCEVE.md`.
 *Uygulayıcı:* program `kaynak/test_yeni_v2.js` (künye portresi) · hatırlat 4
@@ -3761,8 +3761,8 @@ Zincir sekmesi yalnız içinde bulunulan vakanın olgularını ve çıkarımlar�
 *Kaynak:* 37
 
 #### ARAYUZ-11 Defter → Anı
-Biten her vaka için bir kayıt, sırayla: **anı özeti** (2–3 cümle, kural 21d) → oyuncunun izi (kimi suçladı · sonucu, kararı) → Peri'nin karara göre notu. Anı, vakalar arası tek geriye bakış yeridir. Kod: `yeni_arayuz.js → defterAni`. Suçlama vaka bitince `_suclama_<vaka>` tohumunda kalır (`motor_yeni.js`). (Sahibinin isteği, 17 Ekim 2026.)
-Kasa artık Anı'da basılmaz: kasa 16 Kasım 2026'da kalktı (kural 24).
+Biten her vaka için bir kayıt, sırayla: **anı özeti** (2–3 cümle, BILGI-7) → oyuncunun izi (kimi suçladı · sonucu, kararı) → Peri'nin karara göre notu. Anı, vakalar arası tek geriye bakış yeridir. Kod: `yeni_arayuz.js → defterAni`. Suçlama vaka bitince `_suclama_<vaka>` tohumunda kalır (`motor_yeni.js`). (Sahibinin isteği, 17 Ekim 2026.)
+Kasa artık Anı'da basılmaz: kasa 16 Kasım 2026'da kalktı (YAPI-31).
 *Uygulayıcı:* yok — arayüz davranışı (defterAni)
 *Kaynak:* 157, 300, 2577, 3007
 
