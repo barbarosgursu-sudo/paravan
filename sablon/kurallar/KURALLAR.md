@@ -3451,7 +3451,7 @@ Arka plan ve kare de yer tutucu olabilir: `gorseller.json` → `yer_tutucu` list
 ### E. Motor sınırları
 
 #### KOD-51 Motorun yapamadığı istenmez
-Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gerekirse önce `arsiv/sablon/4_motor_sinirlari.md`'ye eklenir, sonra yapılır.
+Vaka yazılırken motorun yapamadığı bir şey istenmez. Yeni bir yetenek gerekirse önce bu dosyaya, konuşma ekranı kurallarının (ARAYUZ-13…) yanına sahibinin onayıyla kural olarak yazılır, sonra yapılır. Arşivdeki belgelere yeni bir şey yazılmaz (22 Kasım 2026, sahibi; eski motor sınırları belgesi `arsiv/sablon/4_motor_sinirlari.md` yalnız kayıttır, içeriği ARAYUZ-13…17'de).
 *Uygulayıcı:* hatırlat 1, 3
 *Kaynak:* 282
 

@@ -92,7 +92,7 @@ daha teknik. Civitai eğiticisi yetmezse.
   Betiği kimin çalıştıracağı karar bekliyor (sahibi mi, bilgisayara kurulacak Claude Code mu).
 - Geçmezse: daha çok/daha çeşitli veriyle yeniden eğitim ya da başka bir temel model; olmazsa
   ChatGPT/Grok/Gemini düzeni sürer, Forge yalnız reddedilen kareler için yedek.
-- Sonuçlar `arsiv/sablon/5_gorsel_sistemi.md` D-7'ye işlenir.
+- Sonuçlar `uretim/CLAUDE.md` → "Yerel üretim denemesi" başlığına, kural doğarsa `sablon/kurallar/KURALLAR.md`'ye işlenir (arşive yazılmaz — 22 Kasım 2026).
 
 ## Dikkat
 
