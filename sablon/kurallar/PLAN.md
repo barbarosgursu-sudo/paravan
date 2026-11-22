@@ -75,7 +75,8 @@
 > (36) ISTEM-43 YAZILMADI (sahibi): V3+V6'da yüzde yalnız 2 istemde, ikisi de görsel tarifle birlikte; kuralın kendi örneğinde 'üst %80' var — '%' yasağı doğru cümleyi de durdurur. Gözde kalır. DENETIM-24 çelişkisi madde 4 listesinde. ~~SIRADAKİ: ISTEM-44~~
 > (37) ISTEM-44 YAZILDI: `istem_kontrol.sh` Peri/Cengo dışı figürde 'dış çizgisi toplu' ya da 'eşarbın içinde' arar. V6'da 36 yan karakter isteminin hepsi geçiyor; V3'te 9 eksik (Gizem, kuraldan önce 6 Kasım; onaylı, dokunulmadı). Bozulmuş G24 durdu. ~~SIRADAKİ: SATIR-8~~
 > (38) SATIR-8 YAZILMADI (sahibi): mekanik kısmı zaten iki denetimde (Peri/Cengo'da kart referansı; ISTEM-19 'YALNIZ kıyafetin'). 'Kartla birebir aynı' cümlesi V6'da 49'un 10'unda; öbürleri başka sözle ('kart referansındaki ütülü hâl') — 39 yanlış alarm. Satırın hâli anlam işi, gözde. ~~SIRADAKİ: SATIR-10~~
-> (39) SATIR-10 YAZILMADI (sahibi): kapı zaten diyalog değişen her commit'te satır–resim aracını koşuyor, İŞ/SOR açıkken diyalog kaydedilemiyor — istemden önce kapanmış oluyor. İstem commit'inde ayrıca koşturmak aynı turu ikinci kez yapar. **SIRADAKİ:** KAR-25.
+> (39) SATIR-10 YAZILMADI (sahibi): kapı zaten diyalog değişen her commit'te satır–resim aracını koşuyor, İŞ/SOR açıkken diyalog kaydedilemiyor — istemden önce kapanmış oluyor. İstem commit'inde ayrıca koşturmak aynı turu ikinci kez yapar. ~~SIRADAKİ: KAR-25~~
+> (40) KAR-25 YAZILMADI (sahibi): V3+V6'da büro referanslı, kapısı açık 4 kare; G90–G92 koridor referansı ve sözüyle tam. G87 'kapı açık' der ama kamera kapının ağzından içeri bakar, ardı görünmez — program bunu ayırt edemez, tek uyarısı yanlış olurdu. Hatırlatmada kalır. **SIRADAKİ:** SINIR-3.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
