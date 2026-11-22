@@ -3160,7 +3160,7 @@ Kardeş tuzak: test döngüsünde `|| echo FAIL` yazıp sonunda koşulsuz "hepsi
 *Kaynak:* 52, 53, 54, 2452
 
 #### KOD-7 test_bozuk.js ve test sayısı
-22 Kasım 2026'dan beri `kaynak/`'ta 5 test var ve hepsi geçmelidir: `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js`, `test_ses.js`. Eski oyunun 22 testi `test_bozuk.js` dahil `arsiv/kaynak/eski_oyun/test/`'te (`test_bozuk.js` negatif testti: bilerek bozuk veri besler, yedi senaryoda BLOCKED basar, çıkış kodu 0).
+22 Kasım 2026'dan beri `kaynak/`'ta 8 test var ve hepsi geçmelidir: `test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js`, `test_ses.js` ve eski oyunun üç ortak testinin yeni veriye uyarlanmışı — `test_yeni_kayit.js` (kayıt yalnız girdi taşır, kurcalanmış kayıt reddedilir), `test_yeni_bozuk.js` (K1, K2, K3, K4, K11, K14 bozuk veride gerçekten durdurur; eskisinin aksine çıkış kodu da düşer), `test_yeni_softlock.js` (her ipucu kümesi × şüpheli × karar vakayı kapatır). Eski oyunun 22 testi `test_bozuk.js` dahil `arsiv/kaynak/eski_oyun/test/`'te (`test_bozuk.js` negatif testti: bilerek bozuk veri besler, yedi senaryoda BLOCKED basar, çıkış kodu 0).
 *Uygulayıcı:* yok — test düzeni bilgisi (KOD-3'ün parçası)
 *Kaynak:* 12, 2351
 

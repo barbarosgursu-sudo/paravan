@@ -81,8 +81,8 @@ for t in test_*.js; do node $t; done          # hepsi geçmeli
 Commit kapısı bunları (doğrulayıcı + testler) `kaynak/` değişen her commit'te kendisi koşar; diyalogda söz farkını da durdurur
 (sahibi onayladıysa iletiye `[söz onaylı]`) — KOD-35. **Yeni bilgisayarda bir kez:** `git config core.hooksPath .githooks`
 (Codex ve terminal commit'leri de kapıdan geçsin).
-Test sayısı — KOD-7: `kaynak/`'ta 5 test (`test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js`,
-`test_ses.js`), hepsi geçmeli. Hata ile uyarı ayrımı — KOD-5.
+Test sayısı — KOD-7: `kaynak/`'ta 8 test (`test_yeni_v1.js`, `test_yeni_v2.js`, `test_yeni_arayuz.js`, `test_yeni_kimyapti.js`,
+`test_ses.js`, `test_yeni_kayit.js`, `test_yeni_bozuk.js`, `test_yeni_softlock.js`), hepsi geçmeli. Hata ile uyarı ayrımı — KOD-5.
 
 > **ESKİ OYUN ARŞİVDE (22 Kasım 2026, sahibinin kararı: prototipti)** — KOD-36. Verisi (`game_data.json`, yedekler, `kisiler.json`,
 > `prolog.json`, `_gomulu_gorseller.js`), 22 testi ve dört aracı (akış, tahta, okuma, UI turu) `arsiv/kaynak/eski_oyun/`'de. Depo
