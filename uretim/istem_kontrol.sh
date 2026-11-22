@@ -63,6 +63,8 @@ for f in "$@"; do
       if head -1 <<<"$refs" | grep -q 'onayli/G' && ! grep -qi 'temel' <<<"$baslik"; then
         has 'AYNISI'                   || eksik+=("varyant: 'Birinci referans görseldeki X'in AYNISI' satırı yok (ISTEM-14)")
         has 'Değişen'                  || eksik+=("varyant: 'Değişen yalnız poz ve ifade' satırı yok (ISTEM-14)")
+        # Kardeş ifadeden ayıran satır (ferruh.terli ≈ ferruh.alingan) — SATIR-17.
+        grep -qE "^Bu (ifadeyi|figürü) .*ayıran:" <<<"$istem" || eksik+=("varyant: 'Bu figürü <kardeş ifade>'den ayıran: …' satırı yok (SATIR-17)")
       fi
       zemin=$(grep -o 'Arka plan: düz, tek renk [^;]*' <<<"$istem" | head -1 | sed 's/Arka plan: düz, tek renk //')
       grep -qxE "$ZEMINLER" <<<"$zemin" || eksik+=("zemin satırı yok ya da renk zeminler.tsv'de değil: '$zemin' (H4)")

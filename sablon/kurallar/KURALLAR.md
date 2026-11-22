@@ -1798,7 +1798,7 @@ Dinleyenin ifadesi de uyar: konuşmadığı satırda da hikâyeye uygun durur (t
 
 #### SATIR-17 SR-J Her ifade kardeşlerinden ayırt edilir
 İstemde ifadeyi ötekilerden neyin ayırdığı yazılır: yeni ifadede "Bu ifadeyi <kardeş ifade>'den ayıran: …" satırı (yüz rengi, ağız, eller). Denetimde aynı kişinin ifadeleri yan yana konur, benzeyen kabul edilmez. Hatalı örnek: `ferruh.terli` ≈ `ferruh.alingan` → "yüzü bembeyaz" karşılıksız.
-*Uygulayıcı:* hatırlat 8, 10
+*Uygulayıcı:* program `uretim/istem_kontrol.sh` varyantta 'Bu figürü … ayıran:' satırı · hatırlat 8, 10
 *Kaynak:* 6, 386, 1223, 715, 1076
 
 #### SATIR-18 SR-K Karar karesi SONUÇ'u gösterir
