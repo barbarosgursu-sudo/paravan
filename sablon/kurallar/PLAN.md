@@ -137,6 +137,7 @@
 > (63) **Şüpheli 2 — ISTEM-38 ÇÖZÜLDÜ** (sahibi: "Önerini uygula"): her kadının çorabı vakanın kıyafetine göre, istemde açıkça yazılır, bant serbest; eski kural kayıt olarak durur. Sayfada "vaka". **SIRADAKİ:** şüpheli 3 — DENETIM-20 (Peri'nin ayakkabısı kırmızı stiletto değilse ret).
 > (64) **Şüpheli 3 — DENETIM-20 KALDI** (sahibi: "Önerini uygula"): kırmızı stiletto Peri'nin imzası; başka ayakkabı formda yazılır. Sayfada "doğru". **SIRADAKİ:** şüpheli 4 — DENETIM-21 (burun her resimde sola).
 > (65) **Şüpheli 4 — DENETIM-21 ÇÖZÜLDÜ** (sahibi: "Önerinle devam edelim"): burun sola yalnız figürde (oyun aynalar); ara kare, detay, afişte yön serbest. Sayfada "vaka" (kısmen). **SIRADAKİ:** şüpheli 5 — ISTEM-21 (felakette de seksi).
+> (66) **Şüpheli 5 — ISTEM-21 KALDI** (sahibi: "Kalsın"): felakette de "seksi ve komik"; SINIR-5, SINIR-8 ile uyumlu. Sayfada "doğru". **SIRADAKİ:** şüpheli 6 — KAR-13 (sezonun planlı anları).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
