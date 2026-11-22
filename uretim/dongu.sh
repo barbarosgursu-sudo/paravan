@@ -104,6 +104,13 @@ kol() {
   done
 }
 
+# İkinci döngü yok (CODEX-22): aşağıdaki kilit temizliği çalışan döngünün kilitlerini de siler, iki Codex aynı resmi üretir.
+# kilit/DONGU'da önceki döngünün süreç numarası; o süreç yaşıyorsa başlanmaz, ölmüşse devralınır.
+if [ -f kilit/DONGU ] && eski=$(cat kilit/DONGU) && [ -n "$eski" ] && kill -0 "$eski" 2>/dev/null; then
+  echo "DÖNGÜ BAŞLAMADI — v$N'de döngü zaten çalışıyor (süreç $eski; CODEX-22). Durdurmak için: touch uretim/v$N/DUR" >&2; exit 4
+fi
+echo $$ > kilit/DONGU
+trap '[ "$(cat kilit/DONGU 2>/dev/null)" = "$$" ] && rm -f kilit/DONGU' EXIT
 rm -f DUR
 rm -rf kilit/G*   # önceki çalıştırmadan kalan kilitler
 for k in $(seq 1 "$KOL"); do kol "$k" & sleep 3; done

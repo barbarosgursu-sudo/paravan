@@ -57,7 +57,8 @@
 > (22) DENETIM-9 YAZILMADI (sahibinin kararı, 22 Kasım 2026): onaylı resimde kapı tarz + yüz araçlarını zaten koşar, biri geçmezse kaydetmez (`.claude/kapi_hook.js` → ARAC); kayda yazma alışkanlık, V6 DURUM'da düzenli.
 > (23) DENETIM-24 YAZILMADI (sahibinin kararı, 22 Kasım 2026): oran istem denetiminde, figür boyu paket aracında, zemin GOMME-16'da; kadraj/ölçek göz işi. Onaylı 203 resimden 20'si 1024×1536 (2:3 kart) — kural listesine "2:3 → 1024×1536 (kart)" eklendi.
 > (24) CODEX-21 YAZILMADI (sahibinin kararı, 22 Kasım 2026): liste fazlasını K24, gömülmemiş anahtarı derleme + `test_yeni_arayuz.js` yakalıyor; "satır istiyor, listede yok" yönü V2/V3'te 0, V6'da 3 aday — üçü de kare arkasında (figür görünmüyor), A6/A8 önceki vakadan yeniden kullanım; gerçek eksik 0.
-> (25) CODEX-19 YAZILDI: `uretim/dongu.sh` başta Python kütüphanelerine, `codex --version`'a ve `codex login status`'a bakar; eksikse listeyi basar, çıkış 3, döngü başlamaz (PY/CODEX değişkeniyle bozuk araç verilince ikisini de yakaladı). **SIRADAKİ:** CODEX-22.
+> (25) CODEX-19 YAZILDI: `uretim/dongu.sh` başta Python kütüphanelerine, `codex --version`'a ve `codex login status`'a bakar; eksikse listeyi basar, çıkış 3, döngü başlamaz (PY/CODEX değişkeniyle bozuk araç verilince ikisini de yakaladı).
+> (26) CODEX-22 YAZILDI: `uretim/dongu.sh` ikinci döngüyü durdurur — başlangıçtaki kilit temizliği çalışan döngünün kilitlerini de siliyordu (iki Codex aynı resme, boşa kota). `kilit/DONGU`'da süreç numarası: yaşıyorsa çıkış 4, ölmüşse devralır; çıkışta kendi kilidini siler. Canlı ve ölü süreçle denendi. **SIRADAKİ:** CODEX-5 (zor adayların sonuncusu).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
