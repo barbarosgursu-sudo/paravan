@@ -187,6 +187,7 @@ Yeni konuk temelinin istemi `istem_kontrol.sh`'tan geçerken yazı benzerliği (
 13. Kıyafet kartına uyum ve kumaş yüzeyi — DENETIM-31.
 14. Kardeş resimlerle ayrışma — DENETIM-32.
 15. Çekicilik seviyesi (Peri ve Gizem) — DENETIM-33.
+16. Sızıntı yok: resim, bağlı ipucu açılmadan oyuncunun bilmediği bir şeyi göstermiyor; kanondaki bir gerçeği yanlış da göstermiyor — BILGI-17, BILGI-19.
 
 **B. Oyundaki hâli (figürler)** — DENETIM-36. `kaynak` içinde:
 `node arac_yanyana.js ../uretim/v<N>/uretilen/G<n>.png --kim <id> --profil <profil> --oran <H2 tablosu>`

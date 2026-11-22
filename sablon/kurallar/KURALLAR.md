@@ -3473,6 +3473,7 @@ Oyunu açmadan önce çalışan build-time doğrulayıcı. Amaç: hiçbir kaynak
 - Keskinleştirmeler: (1) "girişte tanıtılmış" isimler yalnız varsayılan giriş varyantından alınır; (2) koşullu metinlerde her varyant ayrı denetlenir, varyantın koşul olguları o varyantın havuzuna katılır; (3) havuzdaki türetilmiş olgular bileşenlerine açılır; (4) varyantın koşulu bir tohumsa `KANON.tohum_isimleri` o tohumun hangi değerinde hangi isimleri garanti ettiğini söyler.
 - İsim tespiti: KANON.isimler kelime sınırıyla, büyük/küçük harf ve Türkçe ekler dahil aranır ("İlyas'ı", "İlyas'ın" → "İlyas"). Olgu-anahtarları metne `{olgu}` şablonuyla ya da açık atıfla girer; asıl risk isimlerdir.
 - Yeni oyunda K1 ipucunun hem düz metnini hem `sahne`'sini tarar (KOD-47).
+- **Yeni oyunda görsel kısmı boşta** (22 Kasım 2026, sahibi): hiçbir ipucunda `gorsel` alanı yok (BILGI-17 "yazılmadı" kararı); kod durur, alan eklenirse kendiliğinden çalışır. Resimdeki sızıntıya Claude bakar: istemde (adım 8) ve resim denetiminde (adım 10; `uretim/CLAUDE.md` → Denetim A.16).
 *Uygulayıcı:* program `kaynak/dogrulayici.js` K1
 *Kaynak:* 2236, 2237, 2238, 2239, 2240, 2243, 2246, 2307, 2309, 2318, 2354
 

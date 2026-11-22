@@ -9,7 +9,7 @@
 > `index.html` donmuş, derleyici/doğrulayıcı tek kip, 🛠 söküldü). Üç ortak test yeni veriyle yazıldı ((44): `test_yeni_kayit.js`,
 > `test_yeni_bozuk.js`, `test_yeni_softlock.js`; `kaynak/`'ta 8 test). Madde 4'ün 4.1–4.7'si çözüldü ((45)…(51)).
 >
-> **✅ 4.8 BİTTİ ((52)), ✅ 4.9 BİTTİ ((53)); SIRADAKİ 4.10.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
+> **✅ 4.8 BİTTİ ((52)), ✅ 4.9 BİTTİ ((53)), ✅ 4.10 BİTTİ ((54)) — MADDE 4 BİTTİ; SIRADAKİ madde 5.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
 > madde numaraları: "kural 22b", "(kural 19a)", "Kural 24; sahibinin kararı" …) bugünkü kodlara çevrilir. Örnek: "(kural 22b)" → "(YAPI-23)",
 > "(kural 19a)" → "(SINIR-13)", "(kural 9, bkz. DENETIM-49)" → "(DENETIM-49)". Bir kuralın KENDİ kökenini anlatan yerde ("YAPI-31: Kural 24;
 > sahibinin kararı") → "eski kural kitabı 24" (kayıt, silinmez). Eşleme: eski kitaptaki maddenin metni ↔ bugünkü kuralın metni (aynı tarih,
@@ -125,6 +125,7 @@
 > (51) **4.7 ÇÖZÜLDÜ** (sahibi: "Önerini uygulayalım"): çelişki değil — DENETIM-24'ün yüzdesi denetim ölçüsü, ISTEM-43 istemin yazılışı. İkisine birer açıklama cümlesi. **SIRADAKİ:** 4.8 eski 'kural N' atıfları (~50; arşivdeki kural kitabı) → bugünkü kodlar.
 > (52) **4.8 ÇÖZÜLDÜ** (sahibi: "Yap"): `KURALLAR.md`'deki 52 eski "kural N" atfı (`arsiv/sablon/2_kural_kitabi.md` madde numaraları) bugünkü kodlara çevrildi (ör. "(kural 22b)" → "(YAPI-24)", "(kural 19a)" → "(SINIR-13)", BILGI-18 "Kural 1 genişletme" → "K1 genişletme"); kuralın kendi kökenini anlatan yerler "eski kural kitabı N" oldu (YAPI-23…26, 30…35, BILGI-4/6/7, KAR-6, KAR-22, YAPI-15, 38, 39). İki yer bırakıldı: KOD-4 "Kural 1 (Sözlük): PASS" eski doğrulayıcının rapor örneği (atıf değil); DENETIM-13 "kural 5" (eski üretim belgesinin madde numarası) sahibinin kararıyla silindi ("Yap"); tarih ve sebep kaldı. Üç sayaç hata: 0. ~~SIRADAKİ: 4.8~~ **SIRADAKİ: 4.9**
 > (53) **4.9 ÇÖZÜLDÜ** (sahibi: "1" — "SOR şimdilik yok" yazılsın): SATIR-10'a ve `arac_satir_resim.js` başlık yorumuna "SOR şimdilik yok; gerekirse önce kural tanımlanır" eklendi. Davranış değişmedi. ~~SIRADAKİ: 4.9~~ **SIRADAKİ: 4.10**
+> (54) **4.10 ÇÖZÜLDÜ** (sahibi: "Evet"): K1'in görsel kodu durur, KOD-54'e "yeni oyunda boşta" notu. Konuşurken açık bulundu: resim denetim listesinde (`uretim/CLAUDE.md` → Denetim A) sızıntı sorusu yoktu, yalnız hatırlatma listesindeydi (iki günlük) → A.16 eklendi (BILGI-17, BILGI-19). Önceki vakaların resimlerinde bu soru açıkça sorulmamış olabilir. **MADDE 4 BİTTİ.** **SIRADAKİ: madde 5**
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
