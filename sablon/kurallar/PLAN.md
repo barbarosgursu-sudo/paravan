@@ -136,6 +136,7 @@
 > (62) **Sahibi 425 emin kuralın hepsini doğru saydı** (`ayar/emin`). **Şüpheli 1 — Peri'de çorap ÇÖZÜLDÜ** (sahibi: "Peri'nin çorabı vakanın kıyafetine göre olur. Çoraplı da olabilir çorapsız da. Çorapta bant görünmesi sorun değil"): ISTEM-20, KAR-23, ISTEM-38 (Peri hariç notu), kök CLAUDE.md ve `uretim/CLAUDE.md` özet satırları güncellendi. ISTEM-29/35'teki "ÇORAP YOK" yalnız örnek, kaldı. Sayfada ISTEM-20, KAR-23 "vaka"; ISTEM-29, ISTEM-35 "doğru" işaretlendi. **SIRADAKİ:** şüpheli 2 — ISTEM-38 (öbür kadınlarda külotlu çorap, bant görünmez).
 > (63) **Şüpheli 2 — ISTEM-38 ÇÖZÜLDÜ** (sahibi: "Önerini uygula"): her kadının çorabı vakanın kıyafetine göre, istemde açıkça yazılır, bant serbest; eski kural kayıt olarak durur. Sayfada "vaka". **SIRADAKİ:** şüpheli 3 — DENETIM-20 (Peri'nin ayakkabısı kırmızı stiletto değilse ret).
 > (64) **Şüpheli 3 — DENETIM-20 KALDI** (sahibi: "Önerini uygula"): kırmızı stiletto Peri'nin imzası; başka ayakkabı formda yazılır. Sayfada "doğru". **SIRADAKİ:** şüpheli 4 — DENETIM-21 (burun her resimde sola).
+> (65) **Şüpheli 4 — DENETIM-21 ÇÖZÜLDÜ** (sahibi: "Önerinle devam edelim"): burun sola yalnız figürde (oyun aynalar); ara kare, detay, afişte yön serbest. Sayfada "vaka" (kısmen). **SIRADAKİ:** şüpheli 5 — ISTEM-21 (felakette de seksi).
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`

@@ -2483,7 +2483,7 @@ Karakter sabitleri görünüyorsa her resimde denetlenir, uymazsa ret. Örnek: P
 *Kaynak:* 466, 1118, 1305, 1509, 1510
 
 #### DENETIM-21 Yüz yönü ve bakış
-Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. Burun **her resimde** kadrajın soluna bakar (koşulsuz; Vaka 3'teki "istemin dediği yöne" koşulu kalktı — sahibinin kararı, 17 Kasım 2026, çelişki sorusu 5). Kontrol listesinde: "Bakış yönü doğru mu?" Sebep: G4 ilk geldiğinde neredeyse profildi (uzaktaki göz burun kemerinin arkasında kalmıştı); G50'de Peri'nin yüzü profile yakındı ve gözlük gözüne inmişti — afişteki yüzle tanındığı için onaylandı ve sahibine bildirildi.
+Yüz ¾ (üç çeyrek) dönük, İKİ göz görünür, profil değil. **Figürde** burun her zaman kadrajın soluna bakar (koşulsuz; oyun figürü gerektiğinde aynalar, bu yüzden bütün figürler aynı yöne bakar; Vaka 3'teki "istemin dediği yöne" koşulu kalktı — sahibinin kararı, 17 Kasım 2026, çelişki sorusu 5). **Ara kare, detay ve afişte** yön serbest: kişi sahnenin gerektirdiği yere bakar; oyun bunları aynalamaz (sahibinin kararı, 22 Kasım 2026). Kontrol listesinde: "Bakış yönü doğru mu?" Sebep: G4 ilk geldiğinde neredeyse profildi (uzaktaki göz burun kemerinin arkasında kalmıştı); G50'de Peri'nin yüzü profile yakındı ve gözlük gözüne inmişti — afişteki yüzle tanındığı için onaylandı ve sahibine bildirildi.
 *Uygulayıcı:* hatırlat 10
 *Kaynak:* 463, 1119, 1308, 1511
 
