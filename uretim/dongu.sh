@@ -21,6 +21,13 @@ SADECE="${SADECE:-}"
 BEKLE="${BEKLE:-900}"
 ZAMAN_ASIMI="${ZAMAN_ASIMI:-900}"
 KONTROL="$(cd "$(dirname "$0")" && pwd)/istem_kontrol.sh"   # geçmeyen istem üretilmez
+# Bilgisayar hazır mı (CODEX-19): eksik varsa üretime başlanmaz, eksik listesi sahibine. PY/CODEX denemek için değiştirilebilir.
+PY="${PY:-python}"; CODEX="${CODEX:-codex}"; EKSIK=""
+"$PY" -c "import onnxruntime, PIL, numpy, torch, open_clip" >/dev/null 2>&1 \
+  || EKSIK="$EKSIK\n- Python kütüphanesi eksik (onnxruntime, PIL, numpy, torch, open_clip) — KURULUM_ORTAK.md'deki pip install satırı"
+if ! "$CODEX" --version >/dev/null 2>&1; then EKSIK="$EKSIK\n- Codex kurulu değil (codex --version çalışmıyor)"
+elif ! "$CODEX" login status 2>&1 | grep -qi "logged in"; then EKSIK="$EKSIK\n- Codex'te oturum açık değil (codex login)"; fi
+if [ -n "$EKSIK" ]; then printf "DÖNGÜ BAŞLAMADI — bilgisayar hazır değil (CODEX-19):$EKSIK\n" >&2; exit 3; fi
 cd "$(dirname "$0")/v$N" || exit 1
 LOG="${DONGU_LOG:-/tmp}"
 mkdir -p "$LOG" kayit kilit

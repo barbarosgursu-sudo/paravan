@@ -56,7 +56,7 @@ GOMME-*, SATIR-* (eski belge: `arsiv/sablon/5_gorsel_sistemi.md` → H. Görsel 
   1. `python -c "import onnxruntime, PIL, numpy, torch, open_clip"` (eksikse `KURULUM_ORTAK.md`'deki `pip install` satırını sahibine söyle).
   2. `codex --version` ve `codex login status`.
   3. İlk kullanımda modeller kendiliğinden iner (~1,3 GB).
-  Eksik varsa üretime başlama; sahibine eksik listesini ver.
+  Eksik varsa üretime başlama; sahibine eksik listesini ver. (`dongu.sh` da başta bu üçüne bakar, eksikse başlamaz.)
 
 ## Karakter sabitleri ve mekân
 

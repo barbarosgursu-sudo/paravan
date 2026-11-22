@@ -3050,7 +3050,7 @@ Yerel Claude her oturumda, üretimden önce denetler:
 2. `codex --version` çalışmalı ve Codex girişli olmalı (`codex login status`); değilse sahibine söyler, döngüyü başlatmaz.
 3. İlk kullanımda modeller kendiliğinden iner (~1,3 GB: kesim ve el modelleri) — internet gerekir, birkaç dakika sürer.
 Eksik varsa üretime başlanmaz; sahibine eksik listesi verilir.
-*Uygulayıcı:* hatırlat 9
+*Uygulayıcı:* program `uretim/dongu.sh` başta (kütüphane, Codex, oturum; eksikse başlamaz, çıkış 3) · hatırlat 9
 *Kaynak:* 1037, 1038, 1039, 1040
 
 #### CODEX-20 Komut `istemleri hazırla <N>`
