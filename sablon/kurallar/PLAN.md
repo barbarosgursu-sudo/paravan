@@ -9,7 +9,7 @@
 > `index.html` donmuş, derleyici/doğrulayıcı tek kip, 🛠 söküldü). Üç ortak test yeni veriyle yazıldı ((44): `test_yeni_kayit.js`,
 > `test_yeni_bozuk.js`, `test_yeni_softlock.js`; `kaynak/`'ta 8 test). Madde 4'ün 4.1–4.7'si çözüldü ((45)…(51)).
 >
-> **✅ 4.8 BİTTİ ((52)), ✅ 4.9 BİTTİ ((53)), ✅ 4.10 BİTTİ ((54)) — MADDE 4 BİTTİ; ✅ MADDE 5 BİTTİ ((55)…(59)); SIRADAKİ kuralları gözden geçirme sayfası.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
+> **✅ 4.8 BİTTİ ((52)), ✅ 4.9 BİTTİ ((53)), ✅ 4.10 BİTTİ ((54)) — MADDE 4 BİTTİ; ✅ MADDE 5 BİTTİ ((55)…(59)); SIRADAKİ: gözden geçirme sayfası YAYINDA ((60)) — sahibinin işaretleri okunup uygulanır.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
 > madde numaraları: "kural 22b", "(kural 19a)", "Kural 24; sahibinin kararı" …) bugünkü kodlara çevrilir. Örnek: "(kural 22b)" → "(YAPI-23)",
 > "(kural 19a)" → "(SINIR-13)", "(kural 9, bkz. DENETIM-49)" → "(DENETIM-49)". Bir kuralın KENDİ kökenini anlatan yerde ("YAPI-31: Kural 24;
 > sahibinin kararı") → "eski kural kitabı 24" (kayıt, silinmez). Eşleme: eski kitaptaki maddenin metni ↔ bugünkü kuralın metni (aynı tarih,
@@ -131,6 +131,7 @@
 > (57) **5.3a ÇÖZÜLDÜ** (sahibi: "Yazılmasın"): ayrı "reddedilenler" listesi yok — reddedilen 8 öneri kararı kendi kuralında durur (aynı bilgi iki yerde durmaz). **SIRADAKİ: 5.3b** ilk taslakların kullanılmayan parçaları fikir havuzuna mı.
 > (58) **5.3b ÇÖZÜLDÜ** (sahibi: "Girmesin"): V1, V2, V4, V6 ilk taslaklarının kullanılmayan parçaları fikir havuzuna girmez; arşivde kalır. **SIRADAKİ: 5.3c** c9e79469d0 (SATIR-7) ↔ DENETIM-51.
 > (59) **5.3c ÇÖZÜLDÜ** (sahibi: "Önerini uygula"): SATIR-7'deki V2 tepsi örtüsü kaydına (k:c9e79469d0) "bugün böyle bir fark görülürse önce sahibine sorulur (DENETIM-51); kabul kararını sahibi verir" eklendi. **MADDE 5 BİTTİ.** **SIRADAKİ:** kuralları gözden geçirme sayfası (ilk soru ISTEM-20/38 "Peri'de çorap yok"), sonra üretime dönüş.
+> (60) **GÖZDEN GEÇİRME SAYFASI YAYINDA** (sahibi: "Sayfaya başla", 22 Kasım 2026): https://claude.ai/artifact/Gevpp6scVCyvXv9ck6Prtw (yalnız sahibi açar). Uygulayıcısı "yok" ve "→ ANA" olmayan 438 kural, ilk hatırlat adımına göre gruplu (yalnız programın denetledikleri "P" grubunda); en üstte ISTEM-20/38. Her kuralda Doğru / Yalnız o vakaydı / Yanlış + not; işaretler sayfanın veritabanında: koleksiyon `isaretler`, belge kimliği kural kodu, `{karar: dogru|vaka|yanlis, not, t}` — Claude `ArtifactData list` ile okur, KURALLAR.md'yi düzeltir. **SIRADAKİ:** sahibi işaretler; "vaka"/"yanlış" olanlar tek tek düzeltilir (sayaçlar, PLAN, commit); sonra üretime dönüş.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
