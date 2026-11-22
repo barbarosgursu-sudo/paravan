@@ -73,7 +73,8 @@
 > (34) ISTEM-30 YAZILMADI (sahibi): 'görünmesin' V3+V6'da hiç yok; 'görünmüyor' 20 yerde, hepsi yerinde. Tehlike anlamda (kanondaki şeyi saklatmak), söz yasağı yakalamaz. Gözde kalır. ~~SIRADAKİ: ISTEM-35~~
 > (35) ISTEM-35 YAZILDI: `istem_kontrol.sh` ara karede (başlığı 'Detay' olan yakın plan hariç) 'TAM <n> kişi' arar; kalabalıkta yüzü seçilenler sayılır. V3+V6'da 61 ara karenin tek eksiği V6 G76 (düğün; onaylı, dokunulmadı); bozulmuş G65 durdu. Kişi başına referans/kıyafet parantezi gözde. ~~SIRADAKİ: ISTEM-43~~
 > (36) ISTEM-43 YAZILMADI (sahibi): V3+V6'da yüzde yalnız 2 istemde, ikisi de görsel tarifle birlikte; kuralın kendi örneğinde 'üst %80' var — '%' yasağı doğru cümleyi de durdurur. Gözde kalır. DENETIM-24 çelişkisi madde 4 listesinde. ~~SIRADAKİ: ISTEM-44~~
-> (37) ISTEM-44 YAZILDI: `istem_kontrol.sh` Peri/Cengo dışı figürde 'dış çizgisi toplu' ya da 'eşarbın içinde' arar. V6'da 36 yan karakter isteminin hepsi geçiyor; V3'te 9 eksik (Gizem, kuraldan önce 6 Kasım; onaylı, dokunulmadı). Bozulmuş G24 durdu. **SIRADAKİ:** SATIR-8.
+> (37) ISTEM-44 YAZILDI: `istem_kontrol.sh` Peri/Cengo dışı figürde 'dış çizgisi toplu' ya da 'eşarbın içinde' arar. V6'da 36 yan karakter isteminin hepsi geçiyor; V3'te 9 eksik (Gizem, kuraldan önce 6 Kasım; onaylı, dokunulmadı). Bozulmuş G24 durdu. ~~SIRADAKİ: SATIR-8~~
+> (38) SATIR-8 YAZILMADI (sahibi): mekanik kısmı zaten iki denetimde (Peri/Cengo'da kart referansı; ISTEM-19 'YALNIZ kıyafetin'). 'Kartla birebir aynı' cümlesi V6'da 49'un 10'unda; öbürleri başka sözle ('kart referansındaki ütülü hâl') — 39 yanlış alarm. Satırın hâli anlam işi, gözde. **SIRADAKİ:** SATIR-10.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
