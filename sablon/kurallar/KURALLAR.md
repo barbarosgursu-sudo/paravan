@@ -3737,7 +3737,7 @@ Eski oyunun sayfası bu kurallara girmez (CSS yalnız `build_html.js yeni`'de g�
 
 #### ARAYUZ-6 Yeni ekran / yeni arka plan uyarısı
 Yeni bir ekran ya da pencere `#app`'in ya da `.vn`'in DIŞINA eklenirse tablet kuralları ona uygulanmaz; tablette ayrıca bak. Yeni arka plan 3:4 değilse kesim oranı değişir.
-*Uygulayıcı:* hatırlat 8
+*Uygulayıcı:* program `kaynak/arac_paket.js` arka plan 900×1200 değilse gömmez; yeni ekranın tableti · hatırlat 8
 *Kaynak:* 21
 
 #### ARAYUZ-7 Cihaza ayrı ayar yok

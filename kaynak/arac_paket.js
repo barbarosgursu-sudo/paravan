@@ -159,7 +159,8 @@ for (const [no, ad] of Object.entries(girdiler)) {
     ORTAM.im('convert', [girdi + '[0]', '-resize', '900x1200', '-quality', '80', cikti]);
     const [w2, h2] = olcu(cikti);
     kayit.notlar.push(path.basename(rel) + ': ' + w2 + '×' + h2 + ' · kaynak ' + w + '×' + h);
-    if (w2 !== 900 || h2 !== 1200) kayit.notlar.push('UYARI: 900×1200 değil — oran 3:4 değil, ekranda kayabilir');
+    // Arka plan/kare 3:4 olmalı; değilse ekranda kesim kayar — ARAYUZ-6 (Adım 4 madde 3, 22 Kasım 2026: uyarı → kapı).
+    if (w2 !== 900 || h2 !== 1200) { kayit.hata = true; kayit.notlar.push('HATA: 900×1200 değil — oran 3:4 değil, ekranda kesim kayar (ARAYUZ-6)'); }
     kayit.onizleme = cikti;
   }
   sonuc.push(kayit);
@@ -190,7 +191,7 @@ const gelmeyen = Object.keys(tablo).filter(no => !girdiler[no]);
 
   const hatali = sonuc.filter(k => k.hata);
   if (hatali.length) {
-    console.log('\nKAPI: ' + hatali.length + ' figür gömülemez — ' + hatali.map(k => 'G' + k.no).join(', ') + '. Gömülmez; temas sayfasına bak.');
+    console.log('\nKAPI: ' + hatali.length + ' resim gömülemez — ' + hatali.map(k => 'G' + k.no).join(', ') + '. Gömülmez; temas sayfasına bak.');
     if (yaz) { console.log('DURDU: --yaz yapılmadı; proje dosyalarına dokunulmadı.'); process.exitCode = 1; return; }
   }
   // Yarım set gömülmez — DENETIM-47, GOMME-8 (Adım 4 madde 3, 21 Kasım 2026). Tablodaki her resim ya bu klasörde ya da zaten
