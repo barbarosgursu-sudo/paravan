@@ -9,7 +9,7 @@
 > `index.html` donmuş, derleyici/doğrulayıcı tek kip, 🛠 söküldü). Üç ortak test yeni veriyle yazıldı ((44): `test_yeni_kayit.js`,
 > `test_yeni_bozuk.js`, `test_yeni_softlock.js`; `kaynak/`'ta 8 test). Madde 4'ün 4.1–4.7'si çözüldü ((45)…(51)).
 >
-> **✅ 4.8 BİTTİ ((52)), ✅ 4.9 BİTTİ ((53)), ✅ 4.10 BİTTİ ((54)) — MADDE 4 BİTTİ; ✅ MADDE 5 BİTTİ ((55)…(59)); SIRADAKİ: gözden geçirme sayfası YAYINDA ((60)) — sahibinin işaretleri okunup uygulanır.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
+> **✅ 4.8 BİTTİ ((52)), ✅ 4.9 BİTTİ ((53)), ✅ 4.10 BİTTİ ((54)) — MADDE 4 BİTTİ; ✅ MADDE 5 BİTTİ ((55)…(59)); ✅ GÖZDEN GEÇİRME BİTTİ ((60)…(71)); SIRADAKİ: üretime dönüş.** ~~İLK İŞ — 4.8~~ (sahibi ONAYLADI, 22 Kasım: "Yap"): `KURALLAR.md`'de ~50 eski "kural N" atfı (arşivdeki `arsiv/sablon/2_kural_kitabi.md`'nin
 > madde numaraları: "kural 22b", "(kural 19a)", "Kural 24; sahibinin kararı" …) bugünkü kodlara çevrilir. Örnek: "(kural 22b)" → "(YAPI-23)",
 > "(kural 19a)" → "(SINIR-13)", "(kural 9, bkz. DENETIM-49)" → "(DENETIM-49)". Bir kuralın KENDİ kökenini anlatan yerde ("YAPI-31: Kural 24;
 > sahibinin kararı") → "eski kural kitabı 24" (kayıt, silinmez). Eşleme: eski kitaptaki maddenin metni ↔ bugünkü kuralın metni (aynı tarih,
@@ -142,6 +142,7 @@
 > (68) **Şüpheli 7 — ISTEM-25 DÜZELTİLDİ** (sahibi: "Önerini uygulayalım"): üretici sırası önce Codex (iki deneme, CODEX-10), engellenen web'de ChatGPT, sonra Grok. Sayfada "yanlış" (düzeltildi). **SIRADAKİ:** şüpheli 8 — SEZON-23 (6–8 figür ↔ SATIR-35).
 > (69) **Şüpheli 8 — SEZON-23 DÜZELTİLDİ** (sahibi: "Önerini uygula"): "~6–8 figür" kalktı; yeni kıyafette de yalnız satırların istediği ifade (SATIR-35). Sayfada "yanlış" (düzeltildi). **SIRADAKİ:** şüpheli 9 — GOMME-24 (afişte "su/tekneler").
 > (70) **Şüpheli 9 — GOMME-24 GENELLEŞTİ** (sahibi: "Önerini uygula"): "Kadrodaki herkes <zemin>in üstünde …; <vakanın arka planı> arkada"; Vaka 1 dersi kayıtta. `kart_sayfa/uret.py`'deki vaka istemleri zaten vakaya özel (dokunulmadı). Sayfada "vaka". **SIRADAKİ:** şüpheli 10 — GOMME-23 (afiş pozları), son.
+> (71) **Şüpheli 10 — GOMME-23 KALDI** (sahibi: "Önerini uygula"): Peri her afişte kameraya yürür (imza), Cengo'nun hareketi vakaya göre. **GÖZDEN GEÇİRME BİTTİ:** 425 emin + 13 şüpheli; şüphelilerden 5'i kaldı (DENETIM-20, ISTEM-21, ISTEM-29, ISTEM-35, GOMME-23), 8'i değişti (ISTEM-20, KAR-23, ISTEM-38 çorap; DENETIM-21 burun yalnız figürde; KAR-13 kayda; ISTEM-25 önce Codex; SEZON-23 6–8 figür kalktı; GOMME-24 zemin satırı genelleşti). **SIRADAKİ: ÜRETİME DÖNÜŞ** ("ÖNCE KURALLAR, ÜRETİM YOK" kalkar — sahibine sorulur); Oğuz Bey'in bilgisayarında bir kez `git config core.hooksPath .githooks`.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
