@@ -55,7 +55,8 @@
 > (20) SATIR-19 YAZILMADI (sahibinin kararı, 22 Kasım 2026): İLK GÖRME/DURUŞ zaten kapıda (`arac_kapi.js`); `⚙ akış` notu V4–V8'de karar_soru dışında her sahnede var, yazım yardımı, hata yakalamaz.
 > (21) SATIR-35 YAZILDI: doğrulayıcı K24 (uyarı) — `vakaN_gorsel.md`'deki figür ifadesini (K15'in bütün veriden topladığı: `i`, `peri`, `cengo`, `yuz`, `gi`, büro satırları) hiçbir satır istemiyorsa; `normal` sayılmaz, backtick'siz eski liste (V1) atlanır. Bugün V2'de 2, V3'te 7 (eski "her kıyafete yedi ifade" döneminden, gerçekten kullanılmıyor), V6'da 0; sahte G999 eklenince uyardı.
 > (22) DENETIM-9 YAZILMADI (sahibinin kararı, 22 Kasım 2026): onaylı resimde kapı tarz + yüz araçlarını zaten koşar, biri geçmezse kaydetmez (`.claude/kapi_hook.js` → ARAC); kayda yazma alışkanlık, V6 DURUM'da düzenli.
-> (23) DENETIM-24 YAZILMADI (sahibinin kararı, 22 Kasım 2026): oran istem denetiminde, figür boyu paket aracında, zemin GOMME-16'da; kadraj/ölçek göz işi. Onaylı 203 resimden 20'si 1024×1536 (2:3 kart) — kural listesine "2:3 → 1024×1536 (kart)" eklendi. **SIRADAKİ:** CODEX-21.
+> (23) DENETIM-24 YAZILMADI (sahibinin kararı, 22 Kasım 2026): oran istem denetiminde, figür boyu paket aracında, zemin GOMME-16'da; kadraj/ölçek göz işi. Onaylı 203 resimden 20'si 1024×1536 (2:3 kart) — kural listesine "2:3 → 1024×1536 (kart)" eklendi.
+> (24) CODEX-21 YAZILMADI (sahibinin kararı, 22 Kasım 2026): liste fazlasını K24, gömülmemiş anahtarı derleme + `test_yeni_arayuz.js` yakalıyor; "satır istiyor, listede yok" yönü V2/V3'te 0, V6'da 3 aday — üçü de kare arkasında (figür görünmüyor), A6/A8 önceki vakadan yeniden kullanım; gerçek eksik 0. **SIRADAKİ:** CODEX-19.
 >
 > **Konuşma biçimi (aynen sürdür):** her aday TEK TEK; çok kısa, sade Türkçe, bir somut örnekle; "program şunu yapar"; bugünkü durum
 > (ölçerek); önerim. Sahibi "Yaz" deyince: yaz → bilerek hatayla dene → uygulayıcı satırı (`*Uygulayıcı:*`) → üç sayaç `hata: 0`
