@@ -2023,11 +2023,11 @@
         "gizem": "Gizem 21.00'de kapattı; 23.31'de artan simitler için döndü, kasanın başında lacivert önlüklü birini görüp kaçtı. Şifreyi bilmez."
       },
       "facts": {
-        "susam_soyuldu": "Susam Pastanesi'nin Karaköy'deki merkezi pazar gece soyuldu: arka cam kırık, kasa açık, hafta sonu hasılatı yok. Sigortaya 720.000 ₺ bildirildi.",
+        "susam_soyuldu": "Susam Pastanesi'nin Karaköy'deki merkezi pazar gece soyuldu: arka cam kırık, kasa açık, hafta sonu hasılatı yok. Sigortaya 720.000 lira bildirildi.",
         "gizem_kapatti": "Pazar akşamı dükkânı tezgâhtar Gizem kapattı; Ferruh ondan şüpheleniyor.",
         "kenan_acti": "Pazartesi sabah dükkânı müdür Kenan açtı; sigorta eksperi ondan şüpheleniyor.",
         "cam_iceriden": "Arka camın kırıkları sokakta, dışarıda: cam içeriden kırılmış.",
-        "kasa_sifre": "Kasa zorlanmamış, şifreyle açılmış. Şifreyi yalnız Kenan'la Ferruh Bey bilir; Gizem hasılatı kasanın üstündeki yarıktan atar.",
+        "kasa_sifre": "Kimse kasayı zorlamamış; şifreyle açılmış. Şifreyi yalnız Kenan'la Ferruh Bey bilir; Gizem hasılatı kasanın üstündeki yarıktan atar.",
         "kamera_fis": "Kamera bozuk değil: kayıt cihazının fişi pazar gece 22.46'da çekilmiş. Son karede ofis kapısında lacivert bir önlük kolu var. Lacivert önlüğü Kenan'la Ferruh Bey giyer; tezgâh pembe giyer.",
         "alarm_kodu": "Alarmcı Sedat'ın kaydına göre alarm pazar gece 22.44'te dükkânın ortak koduyla kapatılmış, 23.55'te aynı kodla kurulmuş. Ortak kodu Gizem'le Ferruh Bey bilir; Kenan'ın kendi müdür kodu var, o gece kullanılmamış.",
         "cam_sensor": "Cam sensörü hiç ötmemiş: cam kırılırken alarm kapalıymış.",
@@ -2038,7 +2038,7 @@
         "kenan_onluk": "Kenan'ın dolabında başka bir pastanenin önlüğü var: Kadıköy'deki Badem Pastanesi.",
         "kenan_deneme": "Kenan pazar gece ondan sabah ikiye kadar Badem'de deneme vardiyasındaydı. Susam'dan gitmek istiyor.",
         "merkez_satilik": "Ferruh Bey geçen ay Susam'ın merkezini Badem'e satmaya çalışmış; Nadide Hanım'ın haberi yok.",
-        "borc_elden": "Cumartesi sabah Susam'dan biri un toptancısına gelip borcu elden ödedi: 240.000 ₺, bir Susam poşetinin içinde. Cuma hasılatı kadar. Getireni Rüstem Bey görmedi.",
+        "borc_elden": "Cumartesi sabah Susam'dan biri un toptancısına gelip borcu elden ödedi: 240.000 lira, bir Susam poşetinin içinde. Cuma hasılatı kadar. Getireni Rüstem Bey görmedi.",
         "ferruh_borc": "Toptancıya göre Susam'ın piyasada başka borçları da var. Rüstem Bey: \"Ferruh Bey çok sıkışık.\""
       },
       "knowledge": [

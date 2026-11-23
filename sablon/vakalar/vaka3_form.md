@@ -79,7 +79,7 @@ ailesi değil: kurucu ortak. Suçlu ona yıllarca güvenilmiş ortak.
 | kod | cümle | ipucu |
 |---|---|---|
 | cam_iceriden | Arka camın kırıkları sokakta, dışarıda: cam içeriden kırılmış. | A |
-| kasa_sifre | Kasa zorlanmamış, şifreyle açılmış. Şifreyi yalnız Kenan'la Ferruh Bey bilir; Gizem hasılatı kasanın üstündeki yarıktan atar. | A |
+| kasa_sifre | Kimse kasayı zorlamamış; şifreyle açılmış. Şifreyi yalnız Kenan'la Ferruh Bey bilir; Gizem hasılatı kasanın üstündeki yarıktan atar. | A |
 | kamera_fis | Kamera bozuk değil: kayıt cihazının fişi pazar gece 22.46'da çekilmiş. Son karede ofis kapısında lacivert bir önlük kolu var. Lacivert önlüğü Kenan'la Ferruh Bey giyer; tezgâh pembe giyer. | A |
 | alarm_kodu | Alarm pazar gece 22.44'te dükkânın ortak koduyla kapatılmış, 23.55'te aynı kodla kurulmuş. Ortak kodu Gizem'le Ferruh Bey bilir; Kenan'ın kendi müdür kodu var, o gece kullanılmamış. | B |
 | cam_sensor | Cam sensörü hiç ötmemiş: cam kırılırken alarm kapalıymış. | B |
@@ -90,7 +90,7 @@ ailesi değil: kurucu ortak. Suçlu ona yıllarca güvenilmiş ortak.
 | kenan_onluk | Kenan'ın dolabında başka bir pastanenin önlüğü asılı: Kadıköy'deki Badem Pastanesi. | D |
 | kenan_deneme | Kenan pazar gece ondan sabah ikiye kadar Badem'de deneme vardiyasındaydı. Susam'dan gitmek istiyor. | E |
 | merkez_satilik | Ferruh Bey geçen ay Susam'ın merkezini Badem'e satmaya çalışmış; Nadide Hanım'ın haberi yok. | E |
-| borc_elden | Cumartesi sabah Susam'dan biri gelip un borcunu elden ödedi: 240.000 ₺, bir Susam poşetinin içinde. Cuma hasılatı kadar. Parayı kalfa aldı, getireni Rüstem Bey görmedi. | F |
+| borc_elden | Cumartesi sabah Susam'dan biri gelip un borcunu elden ödedi: 240.000 lira, bir Susam poşetinin içinde. Cuma hasılatı kadar. Parayı kalfa aldı, getireni Rüstem Bey görmedi. | F |
 | ferruh_borc | Toptancıya göre Susam'ın piyasada başka borçları da var. Rüstem Bey: "Ferruh Bey çok sıkışık." | F |
 
 ## 6. İpuçları (6 ipucu, 3 hak)
