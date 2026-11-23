@@ -3983,10 +3983,11 @@
           "cengoBag": -1,
           "para": -10000,
           "etiket": "Sadık'ı polise teslim et",
-          "onizleme": "Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Sadık'ın Feraye'ye not sattığı da. Feraye Hanım 10.000 ₺ keser.",
-          "sonuc": "Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Sadık'ın Feraye'ye not sattığı da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücretten on bin kesti: \"Adımı temizleyin dedim, gömün demedim.\"",
+          "onizleme": "Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Sadık'ın Feraye'ye not sattığı da. Feraye Hanım kızar.",
+          "sonuc": "Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Sadık'ın Feraye'ye not sattığı da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücreti ödedi, ama kapıda söylendi: \"Adımı temizleyin dedim, gömün demedim.\"",
           "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Mahalle grubu kaynıyor, Peri. Tarık'ın kitabı en çok şimdi satar."}],
-          "cengo_replik": {"i": "kas", "yuz": "peri.kas"}
+          "cengo_replik": {"i": "kas", "yuz": "peri.kas"},
+          "secenek": "“Sadık'ı da telefonu da polise götürüyorum.”"
         },
         {
           "id": "uzaklastir",
@@ -4003,7 +4004,8 @@
               "metin": "Duydun mu, Peri? Sadık Moda'da bir kafede başlamış. Pencerenin önünde masaları varmış."
             }
           ],
-          "cengo_replik": {"i": "kas", "yuz": "peri.kas"}
+          "cengo_replik": {"i": "kas", "yuz": "peri.kas"},
+          "secenek": "“Sadık Cihangir'den gider. Kimse bir şey duymaz.”"
         },
         {
           "id": "dosya_sakla",
@@ -4013,14 +4015,15 @@
           "para": 20000,
           "etiket": "Telefonu \"dosya\" olarak sakla",
           "onizleme": "Sırların durduğu telefonu sen saklarsın; Sadık susman için 20.000 ₺ bırakır. Kurbanlar paralarını geri alamaz.",
-          "sonuc": "Faturasız telefonu çekmecene koydun; içinde üç kişinin sırrı. Sadık'ı bıraktın; Sadık susman için yirmi bin bıraktı. Feraye adının temizlendiğini sanıyor. Tarık Bey ile Şebnem Hanım paralarını geri alamadı; mesajlar kesildi ama bir yerde birinin bildiğini biliyorlar.",
+          "sonuc": "Sadık'ın telefonunu çekmecene koydun; içinde üç kişinin sırrı. Sadık'ı bıraktın; Sadık susman için yirmi bin bıraktı. Feraye adının temizlendiğini sanıyor. Tarık Bey ile Şebnem Hanım paralarını geri alamadı; mesajlar kesildi ama bir yerde birinin bildiğini biliyorlar.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
               "metin": "O telefonu çekmecede tutma, Peri. Bir gün biri de senin pencerenin önünde durur."
             }
           ],
-          "cengo_replik": {"i": "kas", "yuz": "peri.kas"}
+          "cengo_replik": {"i": "kas", "yuz": "peri.kas"},
+          "secenek": "“Telefon bende kalsın. Susmamın bedelini Sadık öder.”"
         },
         {
           "id": "gercegi_soyle",
@@ -4032,7 +4035,8 @@
           "onizleme": "Zarfları sahiplerine sen götürür, sırlarının nasıl gittiğini anlatırsın; polis yok, sırlar duyulmaz. Feraye fal masasını kapatır. Şebnem Hanım 5.000 ₺ teşekkür bırakır.",
           "sonuc": "Zarfları Tarık Bey'e, Şebnem Hanım'a ve üçüncü kurbana kendin götürdün; sırlarının fincandan değil Sadık'ın kulağından, oradan Feraye'nin masasına gittiğini anlattın. Polise kimse gitmedi, sırlar duyulmadı. Zerrin Sadık'ı kapıya koydu; Feraye fal masasını topladı. Şebnem Hanım sana beş bin teşekkür bıraktı.",
           "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Fincan bilmedi, Peri. Ama bu boncuğu yine de çıkarmam."}],
-          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"}
+          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"},
+          "secenek": "“Zarfları sahiplerine ben götüreceğim. Gerçeği de ben söyleyeceğim.”"
         }
       ],
       "seeds": {},
@@ -4057,12 +4061,8 @@
           ["tarik_sir", "mesaj_cumle"],
           ["tarik_sir", "sebnem_aksam"]
         ],
-        "ucret": {"dogru": 40000, "zayif": 30000, "yanlis": 20000},
+        "ucret": {"dogru": 40000, "zayif": 40000, "yanlis": 40000},
         "giris_grup": "Feraye Hanım'ın anlattıkları",
-        "kesinti": {
-          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Feraye Hanım {kesinti} kesti.",
-          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Feraye Hanım {kesinti} kesti."
-        },
         "cozum": {
           "yollar": [
             "Sırlar kafede, pencere önündeki telefonlardan duyuldu (Tarık ya da Sadık) + mesajı Feraye'nin sözünü ezbere bilen biri yazdı (Rana ya da Sadık).",
@@ -4096,6 +4096,22 @@
           "sadik_aksam": "Akşam vardiyası",
           "sebnem_aksam": "Şebnem'in akşam telefonu",
           "ilham_kaynak": "Feraye'nin notları"
+        },
+        "cengo_kanit": {
+          "pencere_cekim": "Kuytu'da telefon yalnız pencerede çekiyor, Peri. Orada her gün Tarık Bey oturuyor, servisi garson yapıyor.",
+          "mesaj_cumle": "O sözü ezbere bilen iki kişi var, Peri: Rana, bir de Feraye'ye her gün kahve taşıyan garson.",
+          "sebnem_aksam": "Şebnem Hanım'ın sırrı salı akşamı sekiz buçukta söylendi, Peri. Tarık Bey o saatte kafede değildi.",
+          "raf_kor": "Kamera rafı görmüyor, Peri. Rafın dibinde Tarık Bey'in masası var; akşamları rafı da garson topluyor.",
+          "ilham_kaynak": "Feraye sırları bir nottan öğreniyor, Peri. Notu, kafede her gün olan biri getiriyor.",
+          "tarik_sir": "Tarık Bey'in sırrı ne falda ne tarotta açıldı, Peri. Yalnız kafede, pencerenin önünde telefonda söylendi."
+        },
+        "cengo_kanit_replik": {
+          "pencere_cekim": {"i": "normal", "yuz": "peri.kas"},
+          "mesaj_cumle": {"i": "normal", "yuz": "peri.kas"},
+          "sebnem_aksam": {"i": "normal", "yuz": "peri.kas"},
+          "raf_kor": {"i": "normal", "yuz": "peri.kas"},
+          "ilham_kaynak": {"i": "normal", "yuz": "peri.kas"},
+          "tarik_sir": {"i": "normal", "yuz": "peri.kas"}
         }
       },
       "anahtarlar": {
@@ -4163,10 +4179,11 @@
               "m": "Üç haftadır müşterilerime mesaj geliyor. Sırlarını herkese yaymakla tehdit edip para istiyorlar. Bakın.",
               "kare": "D11"
             },
+            {"k": "feraye", "i": "dertli", "m": "\"Fincanında bir gölge var, gölge konuşur.\"", "kare": "D11"},
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "\"Fincanında bir gölge var, gölge konuşur. Kuytu'daki rafta yeşil kitaba yirmi bin bırak; yoksa sırrını herkes duyar.\"",
+              "m": "\"Kuytu'daki rafta yeşil kitaba yirmi bin bırak; yoksa sırrını herkes duyar.\"",
               "kare": "D11"
             },
             {
@@ -4181,7 +4198,15 @@
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "Mesaj, müşterim olan yaşam koçu Tarık Bey'e de gelmiş. Cuma sokakta bana \"şantajcı\" diye bağırdı, müşterilerim kaçtı.",
+              "m": "Mesaj, müşterim olan yaşam koçu Tarık Bey'e de gelmiş.",
+              "kime": "peri",
+              "ekran": "peri+feraye",
+              "yuz": "peri.normal"
+            },
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "Cuma sokakta bana \"şantajcı\" diye bağırdı, müşterilerim kaçtı.",
               "kime": "peri",
               "ekran": "peri+feraye",
               "yuz": "peri.normal"
@@ -4196,14 +4221,28 @@
             {
               "k": "feraye",
               "i": "ofkeli",
-              "m": "Eski çırağım Rana. Bu sözü ezbere bilir; karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor.",
+              "m": "Eski çırağım Rana. Bu sözü ezbere bilir; karşıda tarot bakar, müşterilerimi ister.",
+              "ekran": "peri+feraye",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "feraye",
+              "i": "ofkeli",
+              "m": "Zerrin onu iki yıldır kafeye sokmuyor.",
               "ekran": "peri+feraye",
               "yuz": "peri.merakli"
             },
             {
               "k": "feraye",
               "i": "dertli",
-              "m": "Belki şantajcı Tarık Bey'in kendisi. Başkalarının parasını toplarken kimse ondan şüphelenmesin diye kendine de mesaj gelmiş gibi yapıyor.",
+              "m": "Belki şantajcı Tarık Bey'in kendisi.",
+              "ekran": "peri+feraye",
+              "yuz": "peri.merakli"
+            },
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "Başkalarının parasını toplarken kimse ondan şüphelenmesin diye kendine de mesaj gelmiş gibi yapıyor.",
               "ekran": "peri+feraye",
               "yuz": "peri.merakli"
             },
@@ -4864,6 +4903,23 @@
               "kime": "feraye",
               "ekran": "peri+feraye",
               "yuz": "feraye.fal"
+            }
+          ]
+        },
+        "karar_soru": {
+          "arka": "A35",
+          "set": "salli",
+          "cset": "deri",
+          "secim_kare": "K70",
+          "figurler": ["peri", "cengo", "feraye"],
+          "satirlar": [
+            {
+              "k": "feraye",
+              "i": "dertli",
+              "m": "Sadık'ı ne yapacaksın, kızım? Bu iş duyulursa benim notlarım da duyulur.",
+              "kime": "peri",
+              "ekran": "peri+feraye",
+              "yuz": "peri.kas"
             }
           ]
         },

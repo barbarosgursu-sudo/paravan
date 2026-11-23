@@ -1,0 +1,152 @@
+# Vaka 4 — hatırlatma kaydı (SUREC-43)
+
+> Programla üretilir (`node sablon/kurallar/arac_uygulayici.js kayit <vaka> <adım>`), işaretleri Claude koyar.
+> İşaret: `[u]` uyuyor · `[X]` UYMUYOR · `[?]` EMİN DEĞİLİM · `[-]` bu vakayla ilgisi yok. `[X]` ve `[?]` satır sonunda `· NOT: …` ister.
+> Sahibine yalnız `[X]` ve `[?]` gider, onay anında (`… bitti <vaka> <an>`). Kuralın metni `sablon/kurallar/KURALLAR.md`.
+
+## Adım 3 — Diyalog yazılır
+
+- [u] **TON-1** Oyunun özü Peri ile Cengo
+- [u] **TON-4** Hava ve mizah
+- [u] **TON-7** Anlatıcı yok
+- [u] **TON-8** Sahne notu yalnız o an görüleni söyler
+- [u] **TON-9** Anlaşılır replik
+- [u] **TON-10** Giriş uzun ve açıklayıcı yazılır
+- [?] **TON-11** Girişte Peri–Cengo atışması · NOT: Girişte Peri ile Cengo doğrudan atışmıyor; ilk atışmaları hemen sonraki konuşma sahnesinde (nazar boncuğu).
+- [u] **TON-12** Saat "kala" ile geriye sayılmaz
+- [u] **TON-13** Dördüncü duvar seyrek ve yalnız Cengo
+- [u] **TON-16** Tekrar eden şaka büyür
+- [u] **TON-22** Paravan'ın yasal durumu tekrarlanan espridir
+- [u] **KAR-4** İsimler değişmez
+- [u] **KAR-5** Peri'nin kişiliği
+- [u] **KAR-7** Cengo'nun kişiliği
+- [u] **KAR-8** Atışmanın ekseni ve kuralı
+- [u] **KAR-10** Kavuşmazlar; yakınlık eylemdedir
+- [u] **KAR-11** Her sahnede yan yana
+- [u] **KAR-12** İki taraf da hisseder
+- [u] **KAR-14** Bağın anlamı ve kademeleri
+- [u] **KAR-15** Bağın değeri görünmez
+- [u] **KAR-16** Bağ kapanışta iki hâlde görünür
+- [u] **KAR-17** Sıcaklık onay değildir
+- [u] **KAR-21** Bağ küçük adımlarla değişir ve kırılabilir
+- [u] **KAR-27** Peri (kanon)
+- [u] **KAR-28** Cengo (kanon)
+- [-] **KAR-29** Cengo'nun kızı: Eylül
+- [-] **KAR-30** Eylül'ün ailesi ve V6 çevresi
+- [-] **KAR-31** Avukat
+- [-] **KAR-32** Hilmi Bey
+- [-] **KAR-33** Ev sahibi
+- [u] **KAR-34** Gizem (yan karakter)
+- [u] **KAR-36** Nesneler
+- [u] **SINIR-1** Siyaset yok
+- [-] **SINIR-2** Paravan'ın yasal durumu esprisinin sınırı
+- [u] **SINIR-6** Kesin çizgi: çıplaklık ve cinsel eylem yok
+- [u] **SINIR-7** Reşit olmayan hiç kimse bu çerçeveye girmez
+- [u] **SINIR-8** Kovalamaca: Peri erotik ve gülünç; sahnede acı, tehlike, aşağılanma yok
+- [u] **SINIR-10** Hakaretin yönü yukarıdır
+- [u] **SINIR-11** Mavi Ay'dan yalnız yapı alınır
+- [u] **BILGI-2** Oyun cevabı söylemez
+- [u] **BILGI-3** Girişte yasak olanlar
+- [u] **BILGI-7** Anı özeti yalnız herkesin duyduğunu yazar (eski kural kitabı 21d)
+- [u] **BILGI-13** Kişiyi görünür yapan bağ sahnede söylenir
+- [u] **YAPI-6** Girişin yeri, içeriği ve bitişi
+- [u] **YAPI-12** "Kim neyi biliyor" listesi (B)
+- [u] **YAPI-14** Kim yaptı?'nın üç sonucu
+- [-] **YAPI-15** Kilit açarak bulunan kanıt
+- [u] **YAPI-16** Dört yüzleşme sahnesi
+- [u] **YAPI-17** Panik ve kaçışın somut sebebi
+- [u] **YAPI-18** Yüzleşmenin yeri
+- [u] **YAPI-21** Yanlış/zayıf suçlamanın bedeli sahnede ve o vakada kalır; oyun bitmez
+- [u] **YAPI-23** Karar sahnenin içindedir
+- [u] **YAPI-24** Sonuç sahnede gösterilir
+- [u] **YAPI-25** Cengo söylenmeyen doğru kanıtı söyler
+- [?] **YAPI-30** Kirli seçenek Peri'nin bir derdine çare olur · NOT: Peri'nin para derdi V4'te hiç anılmıyor; "Dosyayı sakla"nın (20.000 sus payı) çekiciliği hikâyede kurulmamış.
+- [u] **YAPI-31** Para yalnız hikâyededir (kasa yok)
+- [u] **YAPI-32** Ücret hikâyenin parçasıdır; kesinti yok
+- [u] **YAPI-38** Oyun oyuncuya not vermez
+- [?] **YAPI-40** Cengo'nun yorumu gizli not olmamalı · NOT: Cengo'nun dört karar satırı yan yana: iki kirli karara iğne, "gerçeği söyle"ye sıcak; "doğru cevap" gibi okunabilir.
+- [u] **SUREC-12** Adım 3: Diyalog
+- [u] **SATIR-1** Temel ilke: söylenen görünür, görünen söylenmiş
+- [u] **SATIR-2** Sözleşmenin amacı, kapsamı ve nerede yakalandığı
+- [u] **SATIR-3** SR-A Hitap
+- [u] **SATIR-4** Ekran düzeni ve `kime` işaretleri
+- [u] **SATIR-5** SR-G Konuk konuğa konuşursa ikisi de ekranda
+- [-] **SATIR-6** Figürü olmayan konuşmacı
+- [u] **SATIR-13** SR-F İpucu taşıyan eylem her zaman görünür
+- [u] **SATIR-15** SR-I Yüz satıra uyar; bakışın yönü ve hedefi
+- [u] **SATIR-16** Dinleyenin yüzü de satıra uyar
+- [?] **SATIR-18** SR-K Karar karesi SONUÇ'u gösterir · NOT: K75–K78 tabloda tek satır ("dört kararın ara karesi"); her kararın SONUÇ anını gösteren kare tanımı yok — resim notunda yazılmalı.
+- [u] **SATIR-19** SR-L Mekân ve olay akışı mantıklı
+- [u] **SATIR-20** Adı geçen herkes ekranda (iki yönlü)
+- [u] **SATIR-21** Yeni gelen: `{mekan}`, `{gir, gi}` ve yalnız gelen ekranda
+- [u] **SATIR-22** Sahneden ayrılan ve saklanan kişi
+- [u] **SATIR-23** Mekân ve açı çeşitliliği
+- [u] **SATIR-24** Hareket sahneleri (kovalamaca) kareleri
+- [u] **SATIR-25** Satır → görsel tablosu
+- [u] **SATIR-26** Diyaloğu satır satır yazmak (adım 3)
+- [u] **SATIR-34** İfade sözlüğü (Peri ve Cengo)
+- [u] **SATIR-43** Satır–resim bulgusu o vakanın kendi resmiyle kapanır
+- [u] **KOD-44** Karar alanları (16 Kasım 2026 düzeni)
+- [u] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
+- [u] **KOD-49** Diyaloğa yeni kare eklerken üç yer
+- [u] **KOD-51** Motorun yapamadığı istenmez
+- [u] **KOD-52** Sahne satırı bilgiye göre değişmez
+- [?] **KOD-75** Karar sahnede; Cengo satırları · NOT: KOD-75 "önizleme yok" diyor; V4'te ÖNİZLEME satırları duruyor (ekranda gösterilmiyor; V5 ve V6'da da duruyor).
+- [u] **KOD-77** Kasa yok, tohum yok, tutarlar tabloda
+- [u] **KOD-89** Kim yaptı? kanıtları kısa adla
+- [u] **ARAYUZ-16** Figür yerleşimi
+- [u] **ARAYUZ-22** Seçim dallanmaz
+- [u] **ARAYUZ-28** Telefonda yazı kutusu 4 satır
+- [u] **ARAYUZ-32** Paylaş kartı (vaka)
+- [u] **RAF-65** Dosyanın tamamı
+
+## Adım 4 — Veri hazırlanır
+
+- [u] **BILGI-5** İpucu adı açıktır ama fazlasını söylemez
+- [u] **BILGI-6** Defter yalnız ara bulgu yazar (eski kural kitabı 21a)
+- [u] **BILGI-8** Künye de Nurcan yüzeyidir
+- [u] **SUREC-13** Adım 4: Veri ve künye
+- [u] **KOD-3** Her commit'ten (ve her değişiklikten) önce
+- [u] **KOD-6** Kapıya boru sokma
+- [u] **KOD-12** Değiştirmeden önce ilgili teste bak
+- [u] **KOD-36** Yeni oyun verisi ayrı; eski oyuna dokunulmaz
+- [u] **KOD-38** Veri elle yazılmaz
+- [u] **KOD-46** Girişte açılan olgular ve ücret alanı
+- [u] **KOD-91** Defter ve Künye vaka başına
+- [u] **ARAYUZ-31** Künye (Kişiler) vaka başına
+
+## Adım 5 — Görselsiz oyun turu
+
+- [u] **TON-8** Sahne notu yalnız o an görüleni söyler
+- [u] **TON-9** Anlaşılır replik
+- [u] **TON-10** Giriş uzun ve açıklayıcı yazılır
+- [u] **TON-12** Saat "kala" ile geriye sayılmaz
+- [u] **TON-14** Bulanık replik taraması: anlam soruları
+- [u] **TON-15** Espri açıklanmaz, kurulumu önce gelir
+- [u] **TON-16** Tekrar eden şaka büyür
+- [u] **SINIR-10** Hakaretin yönü yukarıdır
+- [-] **SINIR-12** Benzerlik denetimi (Mavi Ay ve başka eserler)
+- [?] **BILGI-1** Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz · NOT: "Polise ver" Cengo satırı "Tarık'ın kitabı" diyor; kitap yalnız Tarık ve Zerrin ipuçlarında geçiyor, her yolda değil.
+- [u] **BILGI-6** Defter yalnız ara bulgu yazar (eski kural kitabı 21a)
+- [u] **BILGI-9** Zincir defteri: yalnız hak edilmiş düğüm çizilir
+- [-] **BILGI-22** Onarım: geri çekme, ekleme kadar iş görür
+- [u] **BILGI-23** Bir sızıntı bulunca kardeşlerini ara
+- [u] **YAPI-17** Panik ve kaçışın somut sebebi
+- [u] **YAPI-25** Cengo söylenmeyen doğru kanıtı söyler
+- [u] **YAPI-26** "Dosya kapandı" kartı
+- [u] **YAPI-34** Her vakanın fiyat tablosu
+- [u] **YAPI-38** Oyun oyuncuya not vermez
+- [u] **SUREC-14** Adım 5: Görselsiz oyun turu ve üç tarama
+- [u] **SUREC-15** Bulanık replik taraması
+- [u] **SUREC-27** Sızıntı taraması
+- [u] **SATIR-10** SR-E Bayrak kapıdır
+- [u] **SATIR-12** SR-M8 Hikâye donmadan önce satır–resim aracı (adım 5)
+- [-] **KOD-25** Önce motora sor, sonra inan
+- [u] **KOD-26** Kendi aracına da şüpheyle bak
+- [-] **KOD-33** Ortağın bilgisayarı ve ilk kurulum
+- [-] **KOD-58** K5 — Belirsizlik (Ceyda koruması), uyarı
+- [u] **KOD-59** K6 ve K7 — Bütçe ve seçim baskısı
+- [u] **KOD-72** Doğrulayıcının kapsamı dışı (insanda kalır)
+- [u] **KOD-74** Defter ve sızıntı denetimi
+- [u] **KOD-76** Anı özeti zorunlu
+- [u] **KOD-90** "Dosya kapandı" ve suçlama sonrası metinler Nurcan yüzeyidir
