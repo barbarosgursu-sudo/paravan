@@ -66,9 +66,12 @@ function veriDegisen(f) {   // döner: Set(vaka no) ya da 'hepsi'
   try { eski = JSON.parse(git(['show', 'HEAD:' + f]) || '{}'); yeni = JSON.parse(yeniHal(f) || '{}'); } catch (e) { return 'hepsi'; }
   const s = new Set(), no = id => Number(String(id).replace(/\D/g, '')) || 0;
   if (f.endsWith('game_data.json')) {
-    for (const k of new Set([...Object.keys(eski), ...Object.keys(yeni)])) if (k !== 'vakalar' && k !== '_not' && !ayni(eski[k], yeni[k])) return 'hepsi';
+    for (const k of new Set([...Object.keys(eski), ...Object.keys(yeni)])) if (!['vakalar', '_not', 'kanon'].includes(k) && !ayni(eski[k], yeni[k])) return 'hepsi';
     const e = new Map((eski.vakalar || []).map(v => [v.id, v])), y = new Map((yeni.vakalar || []).map(v => [v.id, v]));
     for (const id of new Set([...e.keys(), ...y.keys()])) if (!ayni(e.get(id), y.get(id))) s.add(no(id));
+    const kv = kanonDegisen(eski.kanon || {}, yeni.kanon || {}, [...e.values(), ...y.values()]);
+    if (kv === 'hepsi') return 'hepsi';
+    kv.forEach(n => s.add(n));
     return s;
   }
   // kisiler.json: defter/ani_ozet vaka anahtarlı; kişi listesinde kişinin vakası benzerlik tablolarından (K = kalıcı → hepsi)
@@ -88,6 +91,52 @@ function veriDegisen(f) {   // döner: Set(vaka no) ya da 'hepsi'
     s.add(v);
   }
   for (const k of Object.keys(eski)) if (!['defter', 'ani_ozet', 'kisiler', '_not'].includes(k) && !ayni(eski[k], yeni[k])) return 'hepsi';
+  return s;
+}
+// Kanondaki poz değişikliği → o pozu kullanan vaka (23 Kasım 2026, Barbaros: "50 vaka olunca her pozda hepsi mi derlenecek?").
+// Önceden kanona dokunmak (ör. V4'e yeni poz `sadik.tepsi`) kapıdaki BÜTÜN vakaları baştan denetletiyordu. Şimdi yalnız
+// kanon.sahne.figurler değişince, değişen her poz (kişi, [set,] ifade) eski ya da yeni veride onu KULLANAN vakaya bağlanır:
+// satırda {k, i} ya da {gir, gi}, `yuz` içinde "kisi.ifade" / "kisi.set.ifade". Peri/Cengo'nun bir setine dokunmak o seti
+// kullanan vakalar (set/cset/setler). Kimsenin kullanmadığı poz hiçbir vakayı denetletmez (doğrulayıcı yine koşar).
+// Kanonun başka bir yeri (isimler, arkalar, kareler, sesler…) ya da bir kişinin adı/yapısı değişirse eskisi gibi: hepsi.
+function kanonDegisen(eK, yK, vakaVerisi) {
+  const s = new Set(), no = id => Number(String(id).replace(/\D/g, '')) || 0;
+  for (const k of new Set([...Object.keys(eK), ...Object.keys(yK)])) if (k !== 'sahne' && !ayni(eK[k], yK[k])) return 'hepsi';
+  const eS = eK.sahne || {}, yS = yK.sahne || {};
+  for (const k of new Set([...Object.keys(eS), ...Object.keys(yS)])) if (k !== 'figurler' && !ayni(eS[k], yS[k])) return 'hepsi';
+  const eF = eS.figurler || {}, yF = yS.figurler || {};
+  const pozlar = [], setler = [];   // pozlar: [kişi, ifade]; setler: [kişi, set]
+  const fark = (a, b) => [...a.filter(x => !b.includes(x)), ...b.filter(x => !a.includes(x))];
+  for (const p of new Set([...Object.keys(eF), ...Object.keys(yF)])) {
+    const a = eF[p], b = yF[p];
+    if (ayni(a, b)) continue;
+    if (!a || !b) return 'hepsi';
+    for (const k of new Set([...Object.keys(a), ...Object.keys(b)])) {
+      if (ayni(a[k], b[k])) continue;
+      if (k === 'ifadeler' && Array.isArray(a[k]) && Array.isArray(b[k])) fark(a[k], b[k]).forEach(i => pozlar.push([p, i]));
+      else if (k === 'setler' && a[k] && b[k]) {
+        for (const st of new Set([...Object.keys(a[k]), ...Object.keys(b[k])])) if (!ayni(a[k][st], b[k][st])) setler.push([p, st]);
+      } else return 'hepsi';
+    }
+  }
+  for (const v of vakaVerisi) {
+    if (!v) continue;
+    let hit = false;
+    (function gez(o) {
+      if (hit || !o || typeof o !== 'object') return;
+      if (Array.isArray(o)) { o.forEach(gez); return; }
+      for (const [p, i] of pozlar) {
+        if ((o.k === p && o.i === i) || (o.gir === p && o.gi === i)) { hit = true; return; }
+        if (typeof o.yuz === 'string' && o.yuz.split('+').some(t => t === `${p}.${i}` || (t.startsWith(p + '.') && t.endsWith('.' + i)))) { hit = true; return; }
+      }
+      for (const [p, st] of setler) {
+        if ((p === 'peri' && o.set === st) || (p === 'cengo' && o.cset === st)) { hit = true; return; }
+        if (o.setler && o.setler[p] === st) { hit = true; return; }
+      }
+      Object.values(o).forEach(gez);
+    })(v);
+    if (hit) s.add(no(v.id));
+  }
   return s;
 }
 const metinVaka = new Set();

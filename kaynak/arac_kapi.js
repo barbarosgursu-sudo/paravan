@@ -83,7 +83,14 @@ const arka = (komut, a, env) => new Promise(r => { const c = spawn(komut, a, { c
   // 2) derleme güncel mi: yeni sayfa derlenir; kaydedilecek sayfa ondan farklıysa durur.
   const sayfa = path.join(KOK, '..', 'yeni', 'index.html');
   const once = [md5(fs.readFileSync(sayfa))];
-  const rb = kos('node', ['build_html.js', 'yeni']); if (rb.status !== 0) B('derleme', 'build_html.js yeni', rb.stderr.trim().split('\n').pop());
+  // Hata metni: yalnız son satır yazılırsa Node'un sürüm satırı ("Node.js v26…") kalıyordu, asıl hata görünmüyordu (23 Kasım 2026,
+  // V6'da bir kez, tekrarlanamadı). Şimdi hatanın kendi satırı + çıkış kodu/sinyal yazılır.
+  const rb = kos('node', ['build_html.js', 'yeni']);
+  if (rb.status !== 0) {
+    const sat = String(rb.stderr || rb.error || '').split('\n').map(s => s.trim()).filter(Boolean);
+    const hata = sat.filter(s => /error|hata|enoent|ebusy|eperm|eacces/i.test(s)).slice(0, 3).join(' / ') || sat.slice(-3).join(' / ');
+    B('derleme', 'build_html.js yeni', `çıkış ${rb.status}${rb.signal ? ' sinyal ' + rb.signal : ''}: ${hata || '(hata metni yok)'}`);
+  }
   if (md5(fs.readFileSync(sayfa)) !== once[0]) B('derleme', 'yeni/index.html', 'derlenmiş sayfa güncel değildi — şimdi derlendi; onu da kaydet (git add yeni/index.html)');
   // 3) turlar (paralel) + sızıntı taraması
   if (!yollar.length) { B('yol', VAKA, `vaka${N}_kapi.md → ## yollar bölümünde bu vakanın yolları yok`); return bitir(); }
