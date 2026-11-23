@@ -32,7 +32,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MUAMMER [normal]:** Paravan Dedektiflik? Ben Muammer. Çukurcuma'da otuz yıldır antikacıyım. {gir: muammer, kime: peri}
 **PERİ [normal]:** Buyurun Muammer Bey, oturun. Sizi dinliyorum.
 **MUAMMER [dertli]:** Salı günü saat ikide Karaköy'den Kadıköy vapuruna bindim. Çantamda bir cep saati vardı. {kime: peri}
-**MUAMMER [normal]:** On dokuzuncu yüzyıldan, alaturka rakamlı, çalar bir cep saati. Kadıköy'deki bir alıcıya dört yüz bine satacaktım.
+**MUAMMER [normal]:** On dokuzuncu yüzyıldan, alaturka rakamlı, çalar bir cep saati.
+**MUAMMER [normal]:** Kadıköy'deki bir alıcıya dört yüz bine satacaktım.
 **MUAMMER [dertli]:** Yolun yarısında bir dalga geldi; çaycının tepsisi devrildi, bütün çay pantolonuma döküldü.
 **MUAMMER [dertli]:** Beş dakika lavaboda temizlendim. Çanta koltukta kaldı. Döndüğümde yerindeydi.
 **MUAMMER [ofkeli]:** Kadıköy'de alıcının masasında kutuyu açtım. Bakın. {kare: D14}
@@ -317,11 +318,22 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 ---
 
-## ucret
-⚙ Karar ekranının üstünde, ücret kesildiyse çıkan açıklama. `{anlasilan}` ve `{kesinti}` tutarla dolar.
+## sahne karar_soru
+⚙ arka: A42 · figurler: peri, cengo, muammer · set: battaniye · cset: simitli · secim_kare: K88
+⚙ 23 Kasım 2026 (YAPI-23): kararı iskelede, saati elinde tutan Muammer sorar; seçim kutusu ("Peri ne yapsın?") arayüzce eklenir,
+⚙ seçenekler kararların SEÇENEK satırları. Ücret kesintisi yok (YAPI-32): eski `## ucret` bölümü silindi.
 
-**ZAYIF:** Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Muammer Bey {kesinti} kesti.
-**YANLIS:** Anlaşılan ücret {anlasilan}. Masum birini suçladın; Muammer Bey {kesinti} kesti.
+**MUAMMER [kacamak]:** Saatimi verin, Peri Hanım. Gerisini ben hallederim. {kime: peri, ekran: peri+muammer, yuz: peri.kas}
+
+## cengo_kanit
+⚙ YAPI-25: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Satır yalnız kendi kanıtının
+⚙ bilgisini söyler. Biçim: **olgu [Cengo ifadesi]:** metin {yuz: peri.x}.
+
+**cayci_bilen [normal]:** Saatin o salı satılacağını iki kişi biliyordu, Peri: çaycı ve tamirci. Onu söyleseydin liste kısalırdı. {yuz: peri.kas}
+**ust_tek [normal]:** Üst güvertede bütün yol tek bir adam vardı, Peri. İkisi birden "yukarıdaydım" diyemezdi. {yuz: peri.kas}
+**vapur_arandi [normal]:** Vapur baştan sona arandı; çanta karaya çıkmıştı, Peri. Çantayla inenleri saysaydın iş biterdi. {yuz: peri.kas}
+**usta_uc [normal]:** Usta o çantadan üç tane yapmış, Peri. İkizi kimdeyse değişikliği o yapabilirdi. {yuz: peri.kas}
+**kolek_kasada [normal]:** Nedim Bey o sabah saati sormuş, çırak "kasada" demiş, Peri. Saatin yolda olduğunu bilmeyen adam vapurda çalamaz. {yuz: peri.kas}
 
 ## cozum
 ⚙ "Dosya çözüldü" ekranı. YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: neden masum (yalnız yüzleşme + itirafın söylediği).
@@ -368,7 +380,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 **ÖNİZLEME:** Saat Muammer'de kalır, kazımayı sormazsın. Muammer Selim'i dükkândan çıkarır, saati satar; 5.000 ₺ teşekkür bırakır.
 **SONUÇ:** Saati Muammer'in elinde bıraktın; kapaktaki kazımayı bir daha sormadın. Muammer polise gitmedi; Selim'i o akşam dükkândan çıkardı, Selim tamir aletlerini toplayıp gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.
-**CENGO:** Cengo dükkânın önünden geçerken vitrine baktı. "Otuz yıl. Bir saat için" dedi.
+**SEÇENEK:** “Saat sizin, Muammer Bey. Kazımayı ben görmedim.”
+**CENGO [kas]:** Otuz yıl, Peri. Bir saat için. Kazımayı da kimse sormadı. {yuz: peri.kas}
 **DEFTER:** Muammer saatini sattı, Selim'i kaybetti.
 
 ## karar vapurda_bulduk
@@ -376,23 +389,26 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 **ÖNİZLEME:** Muammer polise gitmez, Selim'i çıkarmaz; Selim de kazımayı unutur. Selim 15.000 ₺, Muammer 5.000 ₺ verir.
 **SONUÇ:** Muammer'e kapaktaki kazımayı hatırlattın: polis gelirse saatin nereden geldiği de sorulacaktı. Anlaştılar: Muammer Selim'i çıkarmadı, Selim kazımayı unuttu. Selim sana on beş bin bıraktı, Muammer beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; ikisi de ötekinin sırrını biliyor, sen ikisininkini.
-**CENGO:** Cengo parayı saydı. "İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy" dedi.
+**SEÇENEK:** “Polis yok. Selim dükkânda kalır, kazıma da aranızda kalır.”
+**CENGO [kas]:** İki taraftan para. Vapur gibi, Peri: bir Kadıköy, bir Karaköy. {yuz: peri.kas}
 **DEFTER:** Selim dükkânda kaldı. İkisinin sırrını bir ben biliyorum.
 
 ## karar gercek_sahip
 ⚙ etiket: Saatin gerçek sahibini bul
 
-**ÖNİZLEME:** Saati Muammer'den alır, kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.
-**SONUÇ:** Saati Muammer'in elinden aldın: "Bu kazıma bir gün birine sorulacak, Muammer Bey. Ben sorayım." Muammer itiraz edemedi. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer ücretten on bin kesti: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı.
-**CENGO:** Cengo, Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzattı. "Al. Bu vakadan kazandığımız bu" dedi.
-**DEFTER:** Saat sahibine döndü. Kasaya az para girdi.
+**ÖNİZLEME:** Saati Muammer'den alır, kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer kızar.
+**SONUÇ:** Saati Muammer'in elinden aldın: "Bu kazıma bir gün birine sorulacak, Muammer Bey. Ben sorayım." Muammer itiraz edemedi. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer ücreti masaya bıraktı: "Ben sizi saati bulun diye tuttum, dağıtın diye değil." Selim'i de dükkândan çıkardı.
+**SEÇENEK:** “Saat bende kalsın. Kazımadaki adı ben bulacağım.”
+**CENGO [yumusak]:** Nermin Hanım kurabiye verdi. Al, Peri; bu vakadan kazandığımız bu. {yuz: peri.normal}
+**DEFTER:** Saat sahibine döndü; satış olmadı.
 
 ## karar polise_teslim
 ⚙ etiket: Selim'i polise teslim et
 
-**ÖNİZLEME:** Selim yargılanır; saat delil olarak emanete alınır, satış yatar. Muammer 5.000 ₺ keser.
-**SONUÇ:** Selim'i polise teslim ettin. Saat delil olarak emanete alındı; kapaktaki kazıma sorulunca saatin geçen kış Kuzguncuk'ta soyulan bir evden çıktığı anlaşıldı, Muammer de ifade verdi. Satış yattı. Muammer ücretten beş bin kesti: "Sessiz olsun dedim, karakol olsun demedim."
-**CENGO:** Cengo saatine baktı. "Saat emanette. Her gün üçte orada çalacak" dedi.
+**ÖNİZLEME:** Selim yargılanır; saat delil olarak emanete alınır, satış yatar. Muammer kızar.
+**SONUÇ:** Selim'i polise teslim ettin. Saat delil olarak emanete alındı; kapaktaki kazıma sorulunca saatin geçen kış Kuzguncuk'ta soyulan bir evden çıktığı anlaşıldı, Muammer de ifade verdi. Satış yattı. Muammer ücreti ödedi ama yüzüne bakmadı: "Sessiz olsun dedim, karakol olsun demedim."
+**SEÇENEK:** “Selim'i de saati de polise götürüyorum.”
+**CENGO [normal]:** Saat emanette, Peri. Her gün üçte orada çalacak. {yuz: peri.normal}
 **DEFTER:** Selim polise teslim edildi. Saat emanette.
 
 ---
@@ -444,7 +460,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka5_
 | K85 | Peri'nin topuğu iskele tahtasına sıkışmış; Peri tek ayakkabıyla koşuyor, ileride Selim | kovalamaca 3 |
 | K86 | Martı sürüsü yosunlu Peri'nin peşinde, Selim'i de sarmış; Selim halata takılıp düşüyor | kovalamaca 4 |
 | K87 | Simitli Cengo Selim'in üstünde oturuyor; Peri tek ayakkabılı, saçı darmadağın, çenesi havada | kovalamaca sonu |
-| K88 | Kadir battaniyeyi Peri'nin ıslak omuzlarına atıyor, elinde çay | kovalamaca sonu |
+| K88 | Kadir battaniyeyi Peri'nin ıslak omuzlarına atıyor, elinde çay; arkada Muammer, elinde açık saat (karar sorusunun seçim karesi) | kovalamaca sonu |
 | K89 | Cengo masanın kenarında, kasketinde simit; Peri battaniyeli masada; Gizem pencerede | kapanış |
 | K90 | Simit Peri'nin masasında; Cengo kapıdan çıkıyor | kapanış (bağ düşük) |
 | K91 | Cengo kazağını Peri'ye uzatıyor (altında tişört); Peri kazağın içinde, kollar uzun; Gizem arkada | kapanış (bağ yüksek) |

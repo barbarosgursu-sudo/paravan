@@ -4910,12 +4910,9 @@
           "etiket": "Saati Muammer'e bırak",
           "onizleme": "Saat Muammer'de kalır, kazımayı sormazsın. Muammer Selim'i dükkândan çıkarır, saati satar; 5.000 ₺ teşekkür bırakır.",
           "sonuc": "Saati Muammer'in elinde bıraktın; kapaktaki kazımayı bir daha sormadın. Muammer polise gitmedi; Selim'i o akşam dükkândan çıkardı, Selim tamir aletlerini toplayıp gitti. Muammer saati Kadıköy'deki alıcıya sattı, sana beş bin teşekkür bıraktı.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo dükkânın önünden geçerken vitrine baktı. \"Otuz yıl. Bir saat için\" dedi."
-            }
-          ]
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Otuz yıl, Peri. Bir saat için. Kazımayı da kimse sormadı."}],
+          "secenek": "“Saat sizin, Muammer Bey. Kazımayı ben görmedim.”",
+          "cengo_replik": {"i": "kas", "yuz": "peri.kas"}
         },
         {
           "id": "vapurda_bulduk",
@@ -4926,12 +4923,9 @@
           "etiket": "\"Aranızda kalsın\" de, Selim'i koru",
           "onizleme": "Muammer polise gitmez, Selim'i çıkarmaz; Selim de kazımayı unutur. Selim 15.000 ₺, Muammer 5.000 ₺ verir.",
           "sonuc": "Muammer'e kapaktaki kazımayı hatırlattın: polis gelirse saatin nereden geldiği de sorulacaktı. Anlaştılar: Muammer Selim'i çıkarmadı, Selim kazımayı unuttu. Selim sana on beş bin bıraktı, Muammer beş bin ekledi. Ertesi gün ikisi yine aynı dükkânda; ikisi de ötekinin sırrını biliyor, sen ikisininkini.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo parayı saydı. \"İki taraftan para. Vapur gibi: bir Kadıköy, bir Karaköy\" dedi."
-            }
-          ]
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "İki taraftan para. Vapur gibi, Peri: bir Kadıköy, bir Karaköy."}],
+          "secenek": "“Polis yok. Selim dükkânda kalır, kazıma da aranızda kalır.”",
+          "cengo_replik": {"i": "kas", "yuz": "peri.kas"}
         },
         {
           "id": "gercek_sahip",
@@ -4940,14 +4934,11 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Saatin gerçek sahibini bul",
-          "onizleme": "Saati Muammer'den alır, kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer 10.000 ₺ keser.",
-          "sonuc": "Saati Muammer'in elinden aldın: \"Bu kazıma bir gün birine sorulacak, Muammer Bey. Ben sorayım.\" Muammer itiraz edemedi. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer ücretten on bin kesti: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'i de dükkândan çıkardı.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo, Nermin Hanım'ın verdiği kurabiyeyi Peri'ye uzattı. \"Al. Bu vakadan kazandığımız bu\" dedi."
-            }
-          ]
+          "onizleme": "Saati Muammer'den alır, kapaktaki kazımanın izini sürersin; saat sahibine döner, satış olmaz. Muammer kızar.",
+          "sonuc": "Saati Muammer'in elinden aldın: \"Bu kazıma bir gün birine sorulacak, Muammer Bey. Ben sorayım.\" Muammer itiraz edemedi. Saat geçen kış Kuzguncuk'ta soyulan bir evdendi; Nermin Hanım kocasının saatini sana sarılarak geri aldı. Muammer ücreti masaya bıraktı: \"Ben sizi saati bulun diye tuttum, dağıtın diye değil.\" Selim'i de dükkândan çıkardı.",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Nermin Hanım kurabiye verdi. Al, Peri; bu vakadan kazandığımız bu."}],
+          "secenek": "“Saat bende kalsın. Kazımadaki adı ben bulacağım.”",
+          "cengo_replik": {"i": "yumusak", "yuz": "peri.normal"}
         },
         {
           "id": "polise_teslim",
@@ -4956,9 +4947,11 @@
           "cengoBag": -1,
           "para": -5000,
           "etiket": "Selim'i polise teslim et",
-          "onizleme": "Selim yargılanır; saat delil olarak emanete alınır, satış yatar. Muammer 5.000 ₺ keser.",
-          "sonuc": "Selim'i polise teslim ettin. Saat delil olarak emanete alındı; kapaktaki kazıma sorulunca saatin geçen kış Kuzguncuk'ta soyulan bir evden çıktığı anlaşıldı, Muammer de ifade verdi. Satış yattı. Muammer ücretten beş bin kesti: \"Sessiz olsun dedim, karakol olsun demedim.\"",
-          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Cengo saatine baktı. \"Saat emanette. Her gün üçte orada çalacak\" dedi."}]
+          "onizleme": "Selim yargılanır; saat delil olarak emanete alınır, satış yatar. Muammer kızar.",
+          "sonuc": "Selim'i polise teslim ettin. Saat delil olarak emanete alındı; kapaktaki kazıma sorulunca saatin geçen kış Kuzguncuk'ta soyulan bir evden çıktığı anlaşıldı, Muammer de ifade verdi. Satış yattı. Muammer ücreti ödedi ama yüzüne bakmadı: \"Sessiz olsun dedim, karakol olsun demedim.\"",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Saat emanette, Peri. Her gün üçte orada çalacak."}],
+          "secenek": "“Selim'i de saati de polise götürüyorum.”",
+          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
         }
       ],
       "seeds": {},
@@ -4977,12 +4970,8 @@
           ["kolek_kasada", "vapur_arandi"],
           ["kolek_kasada", "usta_uc"]
         ],
-        "ucret": {"dogru": 40000, "zayif": 30000, "yanlis": 20000},
+        "ucret": {"dogru": 40000, "zayif": 40000, "yanlis": 40000},
         "giris_grup": "Muammer Bey'in anlattıkları",
-        "kesinti": {
-          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Muammer Bey {kesinti} kesti.",
-          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Muammer Bey {kesinti} kesti."
-        },
         "cozum": {
           "yollar": [
             "Saatin salı satılacağını iki kişi biliyordu (Kadir ya da Selim) + üst güvertede tek bir adam vardı, \"yukarıdaydım\" diyenlerden biri yalan söylüyordu (Selim ya da Nedim).",
@@ -5015,6 +5004,20 @@
           "canta_damga": "Ustanın damgası",
           "saat_belgesiz": "Belgesiz saat",
           "usta_uc": "Üç ikiz çanta"
+        },
+        "cengo_kanit": {
+          "cayci_bilen": "Saatin o salı satılacağını iki kişi biliyordu, Peri: çaycı ve tamirci. Onu söyleseydin liste kısalırdı.",
+          "ust_tek": "Üst güvertede bütün yol tek bir adam vardı, Peri. İkisi birden \"yukarıdaydım\" diyemezdi.",
+          "vapur_arandi": "Vapur baştan sona arandı; çanta karaya çıkmıştı, Peri. Çantayla inenleri saysaydın iş biterdi.",
+          "usta_uc": "Usta o çantadan üç tane yapmış, Peri. İkizi kimdeyse değişikliği o yapabilirdi.",
+          "kolek_kasada": "Nedim Bey o sabah saati sormuş, çırak \"kasada\" demiş, Peri. Saatin yolda olduğunu bilmeyen adam vapurda çalamaz."
+        },
+        "cengo_kanit_replik": {
+          "cayci_bilen": {"i": "normal", "yuz": "peri.kas"},
+          "ust_tek": {"i": "normal", "yuz": "peri.kas"},
+          "vapur_arandi": {"i": "normal", "yuz": "peri.kas"},
+          "usta_uc": {"i": "normal", "yuz": "peri.kas"},
+          "kolek_kasada": {"i": "normal", "yuz": "peri.kas"}
         }
       },
       "anahtarlar": {
@@ -5059,11 +5062,8 @@
               "m": "Salı günü saat ikide Karaköy'den Kadıköy vapuruna bindim. Çantamda bir cep saati vardı.",
               "kime": "peri"
             },
-            {
-              "k": "muammer",
-              "i": "normal",
-              "m": "On dokuzuncu yüzyıldan, alaturka rakamlı, çalar bir cep saati. Kadıköy'deki bir alıcıya dört yüz bine satacaktım."
-            },
+            {"k": "muammer", "i": "normal", "m": "On dokuzuncu yüzyıldan, alaturka rakamlı, çalar bir cep saati."},
+            {"k": "muammer", "i": "normal", "m": "Kadıköy'deki bir alıcıya dört yüz bine satacaktım."},
             {
               "k": "muammer",
               "i": "dertli",
@@ -5495,6 +5495,23 @@
               "kime": "peri"
             },
             {"k": "peri", "i": "normal", "m": "Karada beni deniz tutmuyor, Kadir Bey."}
+          ]
+        },
+        "karar_soru": {
+          "arka": "A42",
+          "set": "battaniye",
+          "cset": "simitli",
+          "secim_kare": "K88",
+          "figurler": ["peri", "cengo", "muammer"],
+          "satirlar": [
+            {
+              "k": "muammer",
+              "i": "kacamak",
+              "m": "Saatimi verin, Peri Hanım. Gerisini ben hallederim.",
+              "kime": "peri",
+              "ekran": "peri+muammer",
+              "yuz": "peri.kas"
+            }
           ]
         },
         "kapanis": {
