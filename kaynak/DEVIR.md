@@ -8,6 +8,14 @@
 
 ---
 
+> ## 👤 OĞUZ BEY'E (23 Kasım 2026, Barbaros): Vaka 7'de "Doksan lira" uyarısı
+> Doğrulayıcı uyarısı: `[K22] V7: "doksan lira" (90 ₺) fiyat tablosunda yok` (KOD-77, YAPI-34). Yer: `sablon/vakalar/vaka7_diyalog.md`
+> satır 234 (Necmi: "Size doksan.") ve 243 (Peri: "Doksan lira, Cengo. Deftere yaz."). Ya fiyat tablosuna dayanağıyla yazılır ya da
+> metinden çıkar — karar Oğuz Bey'de (Barbaros bilmiyor). Hata değil uyarı; üretimi durdurmuyor.
+>
+> ## 🖼️ 23 Kasım 2026: Vaka 7 üretimi önce BARBAROS'UN bilgisayarında denenir (sorun çıkarsa orada çözülür), sonra asıl üretim Oğuz Bey'de.
+> Aynı anda iki bilgisayarda üretme — durum `uretim/v7/DURUM.md` en üst.
+
 > ## ▶️▶️▶️ 22 KASIM 2026 GECE: MADDE 4, MADDE 5 VE GÖZDEN GEÇİRME BİTTİ → `sablon/kurallar/PLAN.md` (52)…(71); SIRADA ÜRETİME DÖNÜŞ (sahibi "üretim yok"u kaldırır)
 > Bu pencerede `main`'de: madde 3 bitti (istem kontrolüne ISTEM-5/6/12/14/19/21/35/44, SATIR-17; döngüye CODEX-19/22; K20 boy, K24
 > satırsız ifade; gömmede 3:4 kapısı — ARAYUZ-6), **eski oyun arşivlendi** (`1a60aee`; veri, 22 test, 4 araç `arsiv/kaynak/eski_oyun/`;
