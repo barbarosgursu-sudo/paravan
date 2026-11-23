@@ -8,21 +8,37 @@
 
 ---
 
-> ## 👤 OĞUZ BEY'E (23 Kasım 2026, Barbaros): Vaka 7'de "Doksan lira" uyarısı
-> Doğrulayıcı uyarısı: `[K22] V7: "doksan lira" (90 ₺) fiyat tablosunda yok` (KOD-77, YAPI-34). Yer: `sablon/vakalar/vaka7_diyalog.md`
-> satır 234 (Necmi: "Size doksan.") ve 243 (Peri: "Doksan lira, Cengo. Deftere yaz."). Ya fiyat tablosuna dayanağıyla yazılır ya da
-> metinden çıkar — karar Oğuz Bey'de (Barbaros bilmiyor). Hata değil uyarı; üretimi durdurmuyor.
->
-> ## 🖼️ 23 Kasım 2026: Vaka 7 üretimi önce BARBAROS'UN bilgisayarında denenir (sorun çıkarsa orada çözülür), sonra asıl üretim Oğuz Bey'de.
-> Aynı anda iki bilgisayarda üretme — durum `uretim/v7/DURUM.md` en üst.
+> ## ▶️▶️▶️ 23 KASIM 2026: ÜRETİME DÖNÜLDÜ — VAKA 7 PARTİ 1 BARBAROS'UN BİLGİSAYARINDA (yeni pencere buradan başlar)
+> **Önce `uretim/v7/DURUM.md` en üst (günün kaydı orada), sonra `uretim/CLAUDE.md`.** Üretim Barbaros'un bilgisayarında DENEME olarak
+> başladı ("sorun çıkarsa burada halledelim; sonra asıl üretim Oğuz Bey'de"). Aynı anda iki bilgisayarda V7 üretilmez.
+> **Yapılanlar (hepsi `main`'de):**
+> - Peri'nin V7 giriş kıyafeti `kadife7` (bordo kadife etek + krem triko; manto V1'de kaldı, V8'de V1'in aynısı) — `138cdbe`.
+> - Bugün üretilen 7 resim onaylı (`uretim/v7/onayli/`): G1 Peri kartı, G4 Süheyla, G5 Nesrin (G5z'den), G6 Şükrü, G8 Kaan (G8z'den),
+>   G9 Ercan (G9z'den; benzerlik Cengo 1,41 → Barbaros "kalsın", `vaka7_kapi.md`), G10 Necmi. El onayı Barbaros'ta (`uretim/v7/el_onay.md`).
+> - **Görünüşü değişen üç konuk** (benzerlik aracı kaldırdı, Barbaros onayladı; form §16, `adaylar.tsv`, istemler): **Süheyla** dolgun
+>   yuvarlak yüz + kalın siyah gözlük · **Kaan** açık sarı düz kısa saç, kısa boy, bebek yüzü · **Ercan** geniş kare yüz, kalın kaş, yassı burun.
+>   Diyaloğa dokunulmadı.
+> - `zemin.tsv` yazıldı (Ercan gri-mavi, öbürleri açık bej). ⚠ Kaan'ın temeli gri-mavi zeminde, saçı açık sarı → gömmede hale (DENETIM-37).
+> - `sablon/vakalar/vaka7_gorsel.md` yazıldı (LISTE'den, Parti 1; `arac_el.py` istiyor).
+> **Deneme sırasında bulunan ve düzeltilen araç hataları:** `dongu.sh` `PY` boşken `set -u` ile çöküyordu · istem kontrolü yeni ISTEM-44'e
+> G5/G10'da takıldı (sona `## Düzeltme 1`) · `arac_el.py` Windows'ta "→" basamıyordu (UTF-8) · **commit kapısı** (`.claude/kapi_hook.js`):
+> onaylı resim / el onayı / görsel tablosu kaydedilirken vakanın TAMAMINI denetliyordu, üretim sürerken hiçbir onay kaydedilemiyordu →
+> artık onaylı resim yalnız kendi üç aracından + el onayından (`arac_el.py --kapi`) geçer; vakanın tamamı gömmede (Barbaros "Evet").
+> **Sırada (Barbaros'a sorulacak ilk iş):** Oğuz Bey'in 16 Kasım'da ürettiği 12 resmin denetimi — `uretilen/` G3 (Cengo smokin kartı),
+> G7/G7z (Vedat), G11, G13–G20 (mekânlar). Sonra G12 (G11 onayına bağlı), G2 (Peri gala kartı, engellendi → `WEB_G2.md`, web'de),
+> sonra Parti 2 (`LISTE.md`). Döngü: `cd uretim && KOL=2 SADECE="…" DONGU_LOG=<scratchpad> ./dongu.sh 7`.
+> **Oğuz Bey'e bekleyenler:** (1) "Doksan lira" uyarısı — `[K22] V7: "doksan lira" (90 ₺) fiyat tablosunda yok` (KOD-77, YAPI-34);
+> `vaka7_diyalog.md` satır 234 ve 243; tabloya dayanağıyla yaz ya da metinden çıkar — karar Oğuz Bey'de (Barbaros bilmiyor), üretimi
+> durdurmuyor. (2) V8'de Tarkan = Nihat mı. (3) Bilgisayarında bir kez `git config core.hooksPath .githooks`.
+> **Çalışma biçimi:** sahibine hep TÜRKÇE yaz (ara notlar dahil); kısa, tek soru, somut örnek.
 
-> ## ▶️▶️▶️ 22 KASIM 2026 GECE: MADDE 4, MADDE 5 VE GÖZDEN GEÇİRME BİTTİ → `sablon/kurallar/PLAN.md` (52)…(71); SIRADA ÜRETİME DÖNÜŞ (sahibi "üretim yok"u kaldırır)
+> ## (önceki) 22 KASIM 2026 GECE: MADDE 4, MADDE 5 VE GÖZDEN GEÇİRME BİTTİ → `sablon/kurallar/PLAN.md` (52)…(71); SIRADA ÜRETİME DÖNÜŞ (sahibi "üretim yok"u kaldırır)
 > Bu pencerede `main`'de: madde 3 bitti (istem kontrolüne ISTEM-5/6/12/14/19/21/35/44, SATIR-17; döngüye CODEX-19/22; K20 boy, K24
 > satırsız ifade; gömmede 3:4 kapısı — ARAYUZ-6), **eski oyun arşivlendi** (`1a60aee`; veri, 22 test, 4 araç `arsiv/kaynak/eski_oyun/`;
 > kökteki `index.html` donmuş, ana adres değişmedi; derleyici ve doğrulayıcı tek kip; 🛠 DEV_MOD söküldü), yeni oyuna üç ortak test
 > (`f795856`: kayıt, bozuk veri, takılma; `kaynak/`'ta 8 test), madde 4'ün 4.1–4.7'si (dakika hedefi kalktı; kasa döneminin iki test
 > denetimi; Python'u programlar kendisi bulur; arşive yeni bir şey yazılmaz; istem kalıbı `uretim/ISTEM_KALIPLARI.md`'ye döndü; alert
-> yerine sayfa içi uyarı; yüzde denetimde ölçü). İlk iş 4.8 (sahibi onayladı). "Üretim yok" sürüyor.
+> yerine sayfa içi uyarı; yüzde denetimde ölçü). (4.8 ve kalanı bitti; "üretim yok" 23 Kasım'da kalktı.)
 
 > ## (önceki) 21 KASIM 2026 GECE GEÇ: MADDE 3 SÜRÜYOR → `sablon/kurallar/PLAN.md` EN ÜST KUTU ("MADDE 3 BURADAN SÜRER")
 > Bu pencerede yazılanlar `main`'de: kolay ve faydalı 18 aday (`1639910`, `268eea6`, `7f5d874` — K20 sabitler, kapıda CODEX-17/25 ve KOD-1,

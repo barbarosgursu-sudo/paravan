@@ -9,7 +9,10 @@ arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak
 > ### 📘 BÜTÜN KURALLAR TEK DOSYADA: `sablon/kurallar/KURALLAR.md` (Adım 3 BİTTİ, 20 Kasım 2026 gece). Belgelerdeki `TON-9`,
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
-> ### önerilmez. **Adım 4 madde 4–5 ve kuralların gözden geçirmesi BİTTİ (22 Kasım 2026; `sablon/kurallar/PLAN.md` (52)…(71)). Sırada üretime dönüş — "üretim yok" kararını sahibi kaldırır.** Madde 3 bitti, eski oyun arşivde (`arsiv/kaynak/eski_oyun/`).
+> ### önerilmez. **Adım 4 madde 4–5 ve kuralların gözden geçirmesi BİTTİ (22 Kasım 2026; `sablon/kurallar/PLAN.md` (52)…(71)).**
+> ### ▶️ **23 Kasım 2026: ÜRETİME DÖNÜLDÜ** (Barbaros "üretim yok"u kaldırdı). Vaka 7 Parti 1 Barbaros'un bilgisayarında deneniyor, 7 resim onaylı;
+> ### sıradaki iş ve bulunan araç hataları `kaynak/DEVIR.md` en üst, günün kaydı `uretim/v7/DURUM.md` en üst. Commit kapısı: onaylı resim yalnız
+> ### kendi araçlarından + el onayından geçer, vakanın tamamı gömmede (`.claude/kapi_hook.js`, 23 Kasım). Madde 3 bitti, eski oyun arşivde (`arsiv/kaynak/eski_oyun/`).
 > ### Commit kapısı git kancasıyla da çalışır (`.githooks/commit-msg`; yeni bilgisayarda bir kez `git config core.hooksPath .githooks`) — KOD-35.
 > ### Üretim adımlarının hatırlatma listesine Claude bakar, sahibine yalnız sorunlu madde gider (`arac_uygulayici.js kayit|bitti`) — SUREC-43.
 > ### Adım 4: her kuralın `*Uygulayıcı:*` satırı var (program / talimat / hatırlat <adım> / yok) — SUREC-43;

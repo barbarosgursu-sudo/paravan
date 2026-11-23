@@ -155,10 +155,14 @@ DUR (çıkış 3) → sahibine. GEÇTİ → kayıt satırına `· benzerlik GEÇ
 
 **0d. Araçlar işi durdurur (21 Kasım 2026, Adım 4)** — döngü 0, 0b, 0b2'nin çıkış koduna bakar: biri GEÇTİ demezse resim
 `v<N>/kayit/denetim.tsv`'de **ONAYLANAMAZ** yazılır; benzerlik DUR → döngü durur (sahibine). Commit kapısı `onayli/`'e giren resimde üç
-aracı yeniden koşar; geçmeyen kaydedilmez. Sahibinin "kalsın"ı: `sablon/vakalar/vaka<N>_kapi.md` → `## kalsın` → `- G<n> | tarz|yüz|benzerlik | <sebep>`.
+aracı yeniden koşar; geçmeyen kaydedilmez. El onayı da aranır (`arac_el.py --kapi`). 23 Kasım 2026'dan beri onaylı resim, el onayı ve `vaka<N>_gorsel.md`
+vakanın TAMAMININ resim kapısını açmaz (üretim sürerken her onay kalıyordu); vakanın tamamı gömmede denetlenir.
+**Onaya taşırken (23 Kasım 2026 dersi):** resmi `uretilen/`'den TAŞI (kopyalama — ikisi birden olursa kapı durur); zemin denemesi
+seçildiyse `onayli/G<n>.png` adıyla (G5z → `onayli/G5.png`), seçilmeyen `red/`'e. Araçlar sınırda gidip gelebilir (G9: 1,34 → 1,41). Sahibinin "kalsın"ı: `sablon/vakalar/vaka<N>_kapi.md` → `## kalsın` → `- G<n> | tarz|yüz|benzerlik | <sebep>`.
 Yeni konuk temelinin istemi `istem_kontrol.sh`'tan geçerken yazı benzerliği (`arac_benzerlik.js`) de koşar — SEZON-26.
 
 **0c. El denetimi — kişi görünen her resimde, onayı sahibi verir** — DENETIM-13. `cd kaynak && python arac_el.py --sayfa V<N> G<n>`
+(resim `onayli/`'de olmalı; araç `sablon/vakalar/vaka<N>_gorsel.md` tablosunu okur — yoksa önce yaz)
 → `kaynak/YENI_UI/el/G<n>.jpg`; onay `python arac_el.py --onay V<N> G<n>`.
 - **Nesne tutan el: zorunlu yakın bakış** — DENETIM-14 (`magick <resim> -crop WxH+X+Y +repage -resize 500% <çıktı>`; istem kalıbı ISTEM-32).
 - **Denenip BIRAKILAN (15 Kasım 2026): yazılımla sağ/sol el.** DWPose kol tarafı × MediaPipe Hands el sınıfı (sağ/sol), ayrıca
