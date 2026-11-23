@@ -134,7 +134,7 @@ for (const n of vakalar) {
   // kapısını açmaz — üretim sürerken her onayda vakanın tamamı (poz kaydı, satır–resim) kalıyor, hiçbir onay kaydedilemiyordu.
   // Onaylı resim yalnız kendi denetimlerinden geçer (aşağıda (b): üç araç + el onayı); vakanın tamamı gömmede ((d)) denetlenir.
   const resim = resimVaka.has(n);
-  const metin = metinHepsi || metinVaka.has(n) || kendi.some(f => /_(diyalog|kapi|bayrak)\.md$/.test(f));
+  const metin = metinHepsi || metinVaka.has(n) || kendi.some(f => /_(diyalog|kapi|bayrak|tur)\.md$/.test(f));
   if (resim) is.push(['V' + n, 'resim']); else if (metin) is.push(['V' + n, 'hikaye']);
 }
 // (a) Testler: kaynak/ değişiyorsa (görüntü klasörü hariç).

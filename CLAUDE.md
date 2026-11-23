@@ -117,7 +117,9 @@ Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne
 Vaka 3: `[kod|foto|borc|badem|cozmez] [dogru|zayif|kenan|gizem]`; Vaka 4: `[soz|aksam|ilham|cozmez4] [dogru|zayif|tarik|rana]`;
 Vaka 5: `[vapur|iskele|usta|cozmez5] [dogru|zayif|kadir|nedim]`;
 Vaka 6: `[sofra|siparis|kagit|cozmez6] [dogru|zayif|cengo|jale]`
-(önceki vakalar hızlı oynanır).
+(önceki vakalar hızlı oynanır). Yol adları, hızlı oynatma ve kapanış satır başları aracın içinde değil, her vakanın
+`sablon/vakalar/vakaN_tur.md` dosyasında; kapının yolları `vakaN_kapi.md` → `## yollar` (23 Kasım 2026: yeni vaka aracı
+değiştirmez, öbür vakaları yeniden denetletmez).
 - `--hepsi` — KOD-28: incelenen vakanın her satırı `YENI_UI/satir/`'a, `dokum.txt`'ye (konuşan/kime/arka/kare/figür); görselli
   tur denetimi (adım 11) bununla yapılır. Ayrıca `satir/adi_gecen_yok.txt` (adı geçen herkes ekranda — SATIR-20).
 - `--tablet` — KOD-29: dikey tablette (800×1280) oynatır, tam sayfa görüntü alır. Yeni vaka bittiğinde iki kipte de koş.

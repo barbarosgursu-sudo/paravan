@@ -62,7 +62,9 @@ const kalsinMi = (kural, metin) => kalsin.some(([k, s]) => k === kural && metin.
 if (!kayitMetin) B('kayıt', path.basename(KAYIT), 'vaka kaydı yok (eş sözler, poz kaydı) — şablon: sablon/vakalar/vaka6_kapi.md');
 
 // ---------- önbellek ----------
-const girdiler = [DIYALOG, KAYIT, BAYRAK, 'yeni/game_data.json', 'yeni/gorseller.json', 'yeni/kisiler.json', 'yeni_arayuz.js', 'yeni_arayuz.css',
+// Tur dosyaları (vaka<N>_tur.md): bu vakanınki ve hızlı oynanan öncekiler; sonraki vakalarınki bu vakanın turunu etkilemez.
+const turlar = Array.from({ length: N }, (_, i) => path.join(KOK, '..', 'sablon', 'vakalar', `vaka${i + 1}_tur.md`));
+const girdiler = [DIYALOG, KAYIT, BAYRAK, ...turlar, 'yeni/game_data.json', 'yeni/gorseller.json', 'yeni/kisiler.json', 'yeni_arayuz.js', 'yeni_arayuz.css',
   'motor_yeni.js', 'arac_kapi.js', 'arac_satir_resim.js', 'arac_yeni_tur.js'].map(f => path.resolve(KOK, f));
 const resimler = TUR === 'resim' ? fs.readdirSync(path.join(KOK, 'yeni_gorsel'), { recursive: true }).filter(f => /\.webp$/.test(f)).map(f => path.join(KOK, 'yeni_gorsel', f)) : [];
 const imza = md5([TUR, VAKA, ...[...girdiler, ...resimler].map(f => f + ':' + (fs.existsSync(f) ? md5(fs.readFileSync(f)) : '-'))].join('\n'));

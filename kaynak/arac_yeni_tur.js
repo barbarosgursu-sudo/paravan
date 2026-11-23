@@ -2,7 +2,7 @@
 // açılış, Vaka 1 girişi, iki araştırma yolundan biri, Kim yaptı? (seçilen sonuçla),
 // yüzleşme + kovalamaca, bir karar, kapanış, kayıt-sürdürme. JS hatası, yatay taşma ve konuşma ekranının bitip bitmediğine bakar;
 // önemli anların ekran görüntüsünü kaynak/YENI_UI/'ye yazar (gözle bakmak için).
-// Kullanım:
+// Kullanım (yol adları her vakanın sablon/vakalar/vaka<N>_tur.md dosyasında; yeni vaka için o dosyayı yaz):
 //   cd kaynak && node build_html.js yeni && node arac_yeni_tur.js [karar_sırası] [set|dukkan] [dogru|zayif|<şüpheli id>]
 //   Vaka 2: node arac_yeni_tur.js [karar_sırası] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]
 //   (Vaka 1 önce hızlı oynanır: V1 → V2 geçişi ve kayıt da böylece denenir.)
@@ -37,21 +37,23 @@ const TABLET = process.argv.includes('--tablet'), CIHAZ = process.argv.includes(
 const HEPSI = process.argv.includes('--hepsi');
 const ARG = process.argv.filter(a => a !== '--tablet' && a !== '--cihaz' && a !== '--hepsi');
 const KARAR = Number(ARG[2]||0), YOL = ARG[3]||"set", SONUC = ARG[4]||"dogru";
-// Vaka 2: yol adı ortu|vale|terzi|defne verilirse Vaka 1 hızlı oynanır, sonra Vaka 2.
-const YOL2 = ["ortu", "vale", "terzi", "defne"].includes(YOL) ? YOL : null;
-// Vaka 3: yol adı kod|foto|borc|badem|cozmez verilirse Vaka 1 ve 2 hızlı oynanır, sonra Vaka 3.
-const YOL3 = ["kod", "foto", "borc", "badem", "cozmez"].includes(YOL) ? YOL : null;
-// Vaka 4: yol adı soz|aksam|ilham|cozmez4 verilirse Vaka 1–3 hızlı oynanır, sonra Vaka 4.
-const YOL4 = ["soz", "aksam", "ilham", "cozmez4"].includes(YOL) ? YOL : null;
-// Vaka 5: yol adı vapur|iskele|usta|cozmez5 verilirse Vaka 1–4 hızlı oynanır, sonra Vaka 5.
-const YOL5 = ["vapur", "iskele", "usta", "cozmez5"].includes(YOL) ? YOL : null;
-// Vaka 6: yol adı sofra|siparis|kagit|cozmez6 verilirse Vaka 1–5 hızlı oynanır, sonra Vaka 6.
-const YOL6 = ["sofra", "siparis", "kagit", "cozmez6"].includes(YOL) ? YOL : null;
-// Vaka 7: yol adı el|izmir|tuval|cozmez7 verilirse Vaka 1–6 hızlı oynanır, sonra Vaka 7.
-const YOL7 = ["el", "izmir", "tuval", "cozmez7"].includes(YOL) ? YOL : null;
-// Vaka 8: yol adı sifre|studyo|iptal|cozmez8 verilirse Vaka 1–7 hızlı oynanır, sonra Vaka 8.
-const YOL8 = ["sifre", "studyo", "iptal", "cozmez8"].includes(YOL) ? YOL : null;
-const VAKA = YOL8 ? "V8" : YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4" : YOL3 ? "V3" : YOL2 ? "V2" : "V1";
+// Yollar, hızlı oynatma ve kapanış satır başları her vakanın kendi dosyasında: sablon/vakalar/vaka<N>_tur.md (23 Kasım 2026,
+// Barbaros: yeni vaka bu aracı değiştirmesin, öbür vakaları yeniden denetletmesin). Yol adı hangi vakanın dosyasındaysa o vaka
+// incelenir; ondan önceki vakalar "hızlı" listesiyle oynanır. Bilinmeyen yol adı: Vaka 1, ikinci yol (eski davranış).
+const TUR_DIZIN = path.join(__dirname, '..', 'sablon', 'vakalar');
+const TUR = {};   // 'V5' → { yollar: {ad: [başlık…]}, hizli: [başlık…], sicak, soguk }
+for (const f of fs.readdirSync(TUR_DIZIN).filter(f => /^vaka\d+_tur\.md$/.test(f))) {
+  const n = Number(f.match(/\d+/)[0]), t = { yollar: {}, hizli: [], sicak: '', soguk: '' };
+  const bolumler = fs.readFileSync(path.join(TUR_DIZIN, f), 'utf8').replace(/\r/g, '').split(/\n(?=## )/);
+  const bol = ad => (bolumler.find(b => b.startsWith('## ' + ad)) || '').split('\n').filter(l => /^-\s/.test(l)).map(l => l.replace(/^-\s*/, ''));
+  for (const l of bol('yollar')) { const m = l.match(/^(\S+):\s*(.+)$/); if (m) t.yollar[m[1]] = m[2].split('|').map(x => x.trim()); }
+  t.hizli = (bol('hızlı')[0] || '').split('|').map(x => x.trim()).filter(Boolean);
+  for (const l of bol('kapanış')) { const m = l.match(/^(sıcak|soğuk):\s*(.+)$/); if (m) t[m[1] === 'sıcak' ? 'sicak' : 'soguk'] = m[2].trim(); }
+  TUR['V' + n] = t;
+}
+const TUR_SIRA = Object.keys(TUR).sort((a, b) => a.slice(1) - b.slice(1));
+const VAKA = TUR_SIRA.find(v => TUR[v].yollar[YOL]) || 'V1';
+const SIRA = (TUR[VAKA].yollar[YOL]) || Object.values(TUR.V1.yollar)[1];
 (async () => {
   const b = await chromium.launch(ORTAM.tarayici());
   const cihaz = TABLET ? { viewport: { width: 800, height: 1280 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true } : devices['Pixel 5'];
@@ -205,7 +207,7 @@ const VAKA = YOL8 ? "V8" : YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4"
     await p.click('#dosyaDevam');
     gorulen = [];
     const bagY = await p.evaluate(() => oyun.bagYuksek());
-    const sicak = { V1: 'Teli Peri', V2: 'Siz evlenseniz', V3: 'Gizem tabladan', V4: 'Soğusun', V5: 'Islaksın', V6: 'Cengo, ben', V7: 'Bütün gün yamuktu', V8: 'Cengo, ben' }[vid], soguk = { V1: 'Teli kilitte', V2: 'Cengo kravatını çözüp', V3: 'Ben çıkıyorum', V4: 'Bu sende dursun', V5: 'Bu sana. Martılar', V6: 'Neden söylemedin', V7: 'Smokin yarın iade', V8: 'Alacağım hâlâ' }[vid];
+    const sicak = (TUR[vid] || {}).sicak || '§yok§', soguk = (TUR[vid] || {}).soguk || '§yok§';
     console.log(`[${vid}] kapanış`, await vnOyna(vid + '_kapanis', ['Koridor. Peri', 'Cengo merdivenden', 'Teli kilitte', 'Teli Peri', 'Hiç unutmadım', 'Geçen hafta elime', 'Siz evlenseniz', 'Takım yarın']),
       '· bağ', bagY ? 'yüksek' : 'düşük', '→', gorulen.some(t => t.startsWith(sicak)) ? 'sıcak satırlar' : gorulen.some(t => t.startsWith(soguk)) ? 'soğuk satırlar' : 'iki hâl yok',
       '· kasa (görünmez, değişmemeli)', await p.evaluate(() => oyun.durum.para));
@@ -213,103 +215,11 @@ const VAKA = YOL8 ? "V8" : YOL7 ? "V7" : YOL6 ? "V6" : YOL5 ? "V5" : YOL4 ? "V4"
     // Kaçırılan ipuçları ekranı (reklamla izlenir; deneme reklamı) — varsa masaya dön.
     if (await p.$('#kacanDon')) { await foto(vid + '_kacan'); await p.click('#kacanDon'); await p.waitForTimeout(200); }
   };
-  const V1_SIRA = YOL === "set" ? ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla','Serkan\'ı bulmak']
-                                : ['İskele ve Kemal','Serkan\'ı bulmak','Çaycıyla konuşmak','Bebek\'teki beyaz','Setin sorumlusuyla'];
-  // Vaka 2 yolları (form §7): ortu = atölye + Gülsüm (aha); vale = atölye + vale (+ terzi);
-  // terzi = vale → terzi + nedime provası; defne = Defne + prova + Gülsüm (çözmeyen yol, zayıf ya da yanlış için).
-  const V2_SIRA = { ortu: ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"],
-                    vale: ["Lâl Hanım'ın atölyesi", 'Sokaktaki vale', "Kurtuluş'taki terzi"],
-                    terzi: ['Sokaktaki vale', "Kurtuluş'taki terzi", 'Nedime provası'],
-                    defne: ["Defne'yle konuşmak", 'Nedime provası', 'Usta Gülsüm'] }[YOL2] || [];
-  // Vaka 3 yolları (form §7): kod = dükkân + alarm (+ Gizem); foto = alarm + Gizem (aha);
-  // borc = alarm + toptancı; badem = Kenan → Badem + dükkân; cozmez = Kenan → Badem + alarm (zayıf/yanlış için).
-  const V3_SIRA = { kod: ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"],
-                    foto: ['Alarmcı Sedat', "Gizem'le konuşmak", "Kenan'la konuşmak"],
-                    borc: ['Alarmcı Sedat', 'Un toptancısı', "Kenan'la konuşmak"],
-                    badem: ["Kenan'la konuşmak", "Kadıköy'deki pastane", "Susam'ın merkezi"],
-                    cozmez: ["Kenan'la konuşmak", "Kadıköy'deki pastane", 'Alarmcı Sedat'] }[YOL3] || [];
-  // Vaka 4 yolları (form §7): soz = kafe + Rana (A+C); aksam = Tarık → Şebnem + kafe (aha, A+E);
-  // ilham = fal masası + Rana + Tarık (F+C, B+C); cozmez4 = kafe + Tarık + Zerrin (zayıf/yanlış için).
-  const V4_SIRA = { soz: ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'],
-                    aksam: ["Tarık Bey'le konuşmak", 'Şebnem Hanım', 'Kuytu Kafe'],
-                    ilham: ["Feraye'nin fal masası", "Rana'nın dükkânı", "Tarık Bey'le konuşmak"],
-                    cozmez4: ['Kuytu Kafe', "Tarık Bey'le konuşmak", 'Kafenin sahibi Zerrin'] }[YOL4] || [];
-  // Vaka 5 yolları (form §7): vapur = Kadir + üst güverte + iskele (aha, A+B); iskele = Nedim + iskele + üst güverte (D+C);
-  // usta = dükkân → deri ustası + Kadir (F→E, A+E); cozmez5 = üst güverte + iskele + dükkân (zayıf/yanlış için).
-  const V5_SIRA = { vapur: ['Çaycı Kadir', 'Vapurun üst güvertesi', 'Kadıköy iskelesi'],
-                    iskele: ['Nedim Bey', 'Kadıköy iskelesi', 'Vapurun üst güvertesi'],
-                    usta: ["Muammer'in dükkânı", 'Deri ustası', 'Çaycı Kadir'],
-                    cozmez5: ['Vapurun üst güvertesi', 'Kadıköy iskelesi', "Muammer'in dükkânı"] }[YOL5] || [];
-  // Vaka 6 yolları (form §7): sofra = Haldun + kalfa + kapıcı (aha, A+C); siparis = Jale + mektuplar + anneanne (D+F);
-  // kagit = mektuplar + Haldun + Jale (A+F); cozmez6 = kapıcı + anneanne + kalfa (bilgi tarafı yok: zayıf/yanlış için).
-  const V6_SIRA = { sofra: ['Haldun Bey', 'Atölyenin kalfası', 'Apartmanın kapıcısı'],
-                    siparis: ['Jale Hanım', 'Mektuplar', "Eylül'ün anneannesi"],
-                    kagit: ['Mektuplar', 'Haldun Bey', 'Jale Hanım'],
-                    cozmez6: ['Apartmanın kapıcısı', "Eylül'ün anneannesi", 'Atölyenin kalfası'] }[YOL6] || [];
-  // Vaka 7 yolları (form §7): el = tablo + Vedat + vale (aha, A+D); izmir = tablo + Şükrü + Nesrin (A+B);
-  // tuval = eski tuval + Vedat + Nesrin (F+D); cozmez7 = vale + Nesrin + Şükrü (el tarafı yok: zayıf/yanlış için).
-  const V7_SIRA = { el: ['Tablo', 'Vedat Bey', 'Vale'],
-                    izmir: ['Tablo', 'Şükrü Bey', 'Nesrin Hanım'],
-                    tuval: ['Eski tuval', 'Vedat Bey', 'Nesrin Hanım'],
-                    cozmez7: ['Vale', 'Nesrin Hanım', 'Şükrü Bey'] }[YOL7] || [];
-  // Vaka 8 yolları (form §7): sifre = Nevzat + posta kutusu + Emir (aha, A+D); studyo = Nevzat + stüdyo + kulis (A+B);
-  // iptal = posta kutusu + Fikret + kulis (D+C); cozmez8 = Fikret + Emir + kulis (şifre/vekâlet çifti yok: zayıf/yanlış için).
-  const V8_SIRA = { sifre: ['Nevzat Bey', 'Posta kutusu', 'Emir'],
-                    studyo: ['Nevzat Bey', 'Stüdyo', 'Kulis'],
-                    iptal: ['Posta kutusu', 'Fikret Usta', 'Kulis'],
-                    cozmez8: ['Fikret Usta', 'Emir', 'Kulis'] }[YOL8] || [];
   incelenen = VAKA;
-  if (VAKA === 'V8') {
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
-    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
-    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
-    await vakaOyna('V4', ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'], 0, 'dogru');
-    await vakaOyna('V5', ['Çaycı Kadir', 'Vapurun üst güvertesi', 'Kadıköy iskelesi'], 0, 'dogru');
-    await vakaOyna('V6', ['Haldun Bey', 'Atölyenin kalfası', 'Apartmanın kapıcısı'], 0, 'dogru');
-    await vakaOyna('V7', ['Tablo', 'Vedat Bey', 'Vale'], 0, 'dogru');
-    await foto('masa_v8'); await tasmaBak('masa_v8');
-    await vakaOyna('V8', V8_SIRA, KARAR, SONUC);
-  } else if (VAKA === 'V7') {
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
-    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
-    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
-    await vakaOyna('V4', ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'], 0, 'dogru');
-    await vakaOyna('V5', ['Çaycı Kadir', 'Vapurun üst güvertesi', 'Kadıköy iskelesi'], 0, 'dogru');
-    await vakaOyna('V6', ['Haldun Bey', 'Atölyenin kalfası', 'Apartmanın kapıcısı'], 0, 'dogru');
-    await foto('masa_v7'); await tasmaBak('masa_v7');
-    await vakaOyna('V7', V7_SIRA, KARAR, SONUC);
-  } else if (VAKA === 'V6') {
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
-    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
-    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
-    await vakaOyna('V4', ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'], 0, 'dogru');
-    await vakaOyna('V5', ['Çaycı Kadir', 'Vapurun üst güvertesi', 'Kadıköy iskelesi'], 0, 'dogru');
-    await foto('masa_v6'); await tasmaBak('masa_v6');
-    await vakaOyna('V6', V6_SIRA, KARAR, SONUC);
-  } else if (VAKA === 'V5') {
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal',"Bebek'teki beyaz",'Setin sorumlusuyla'], 0, 'dogru');
-    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
-    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
-    await vakaOyna('V4', ['Kuytu Kafe', "Rana'nın dükkânı", 'Kafenin sahibi Zerrin'], 0, 'dogru');
-    await foto('masa_v5'); await tasmaBak('masa_v5');
-    await vakaOyna('V5', V5_SIRA, KARAR, SONUC);
-  } else if (VAKA === 'V4') {
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla'], 0, 'dogru');
-    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
-    await vakaOyna('V3', ["Susam'ın merkezi", 'Alarmcı Sedat', "Gizem'le konuşmak"], 0, 'dogru');
-    await foto('masa_v4'); await tasmaBak('masa_v4');
-    await vakaOyna('V4', V4_SIRA, KARAR, SONUC);
-  } else if (VAKA === 'V3') {
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla'], 0, 'dogru');
-    await vakaOyna('V2', ["Lâl Hanım'ın atölyesi", 'Usta Gülsüm', "Defne'yle konuşmak"], 0, 'dogru');
-    await foto('masa_v3'); await tasmaBak('masa_v3');
-    await vakaOyna('V3', V3_SIRA, KARAR, SONUC);
-  } else if (VAKA === 'V2') {
-    // Vaka 1 hızlı geçilir (ilk yol, doğru, ilk karar); asıl tur Vaka 2.
-    await vakaOyna('V1', ['Çaycıyla konuşmak','İskele ve Kemal','Bebek\'teki beyaz','Setin sorumlusuyla'], 0, 'dogru');
-    await foto('masa_v2'); await tasmaBak('masa_v2');
-    await vakaOyna('V2', V2_SIRA, KARAR, SONUC);
-  } else await vakaOyna('V1', V1_SIRA, KARAR, SONUC);
+  // İncelenen vakadan önceki vakalar hızlı oynanır (ilk karar, doğru suçlama): geçiş ve kayıt da böylece denenir.
+  for (const v of TUR_SIRA.slice(0, TUR_SIRA.indexOf(VAKA))) await vakaOyna(v, TUR[v].hizli, 0, 'dogru');
+  if (VAKA !== 'V1') { const m = 'masa_v' + VAKA.slice(1); await foto(m); await tasmaBak(m); }
+  await vakaOyna(VAKA, SIRA, KARAR, SONUC);
   // kayıt-sürdürme: yeniden yükle
   await p.reload(); await p.waitForTimeout(400); await foto('yeniden');
   const anahtar = await p.evaluate(() => Object.keys(localStorage));
