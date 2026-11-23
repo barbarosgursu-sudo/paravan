@@ -1,0 +1,38 @@
+# Vaka 5 — kapı kaydı
+
+Kapı aracı (`kaynak/arac_kapi.js`) bu dosyayı okur. Vaka başına bir kez yazılır; figür ya da metin değişince güncellenir.
+Kurallar ve gerekçeleri `arac_kapi.js`'in başında. Vaka 5 kapıya 23 Kasım 2026'da girdi (elden geçirme, Barbaros).
+
+## yollar
+
+Kapının oynattığı yollar (her şüpheli ve her ipucu yolu en az bir kez): `- <karar> <ipucu yolu> <suçlama>`,
+`arac_yeni_tur.js` argümanları. 23 Kasım 2026'da `arac_kapi.js`'teki tablodan buraya taşındı.
+
+- 0 vapur dogru
+- 2 iskele zayif
+- 0 usta kadir
+- 3 cozmez5 nedim
+
+## eş söz
+
+Anlatıda kişiyi adı yerine anan sözler (adın kendisi kanondan otomatik). Yalnız kesin olanlar; her çekim ayrı yazılır.
+
+- selim: tamirci, tamircisi, tamircinin, tamirciyi, tamirciye
+- kadir: çaycı, çaycının, çaycıyı, çaycıya
+- nedim: koleksiyoncu, koleksiyoncunun
+- efe: çocuk, çocuğa, çocuğun, çocuğu
+- ismet: usta, ustası, ustanın, ustaya
+- gorevli: görevli, görevlinin, görevliye
+- simitci: simitçi, simitçinin, simitçiye, simitçiyle
+
+## poz
+
+Her figür pozu için: **hedef**, **bakış** (`karşı` / `yan` / `aşağı`), **konuşur**, **görünüş** (biçim `vaka6_kapi.md`).
+Vaka 5'in figürleri henüz üretilmedi (23 Kasım 2026: hepsi gri yer tutucu); resimler geldikçe figürlere bakılarak yazılır.
+
+| anahtar | hedef | bakış | konuşur | görünüş |
+|---|---|---|---|---|
+
+## kalsın
+
+Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.

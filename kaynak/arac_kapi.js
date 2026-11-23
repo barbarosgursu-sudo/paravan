@@ -32,14 +32,9 @@ const VAKA = (arg.find(a => /^V\d+$/i.test(a)) || '').toUpperCase();
 const TUR = arg.includes('resim') ? 'resim' : 'hikaye';
 const N = Number(VAKA.slice(1));
 if (!N) { console.error('Kullanım: node arac_kapi.js V6 [hikaye|resim] [--yeniden]'); process.exit(2); }
-if (N < 6) { console.log(`${VAKA}: kapı Vaka 6 ve sonrasına uygulanır (sahibinin kararı) — geçti sayıldı.`); process.exit(0); }
 
-// Bütün yollar (her şüpheli ve her ipucu yolu en az bir kez). Yeni vaka eklenince buraya yazılır; yoksa kapı durur.
-const YOLLAR = {
-  V6: [['0', 'sofra', 'dogru'], ['2', 'siparis', 'zayif'], ['0', 'kagit', 'cengo'], ['3', 'cozmez6', 'jale']],
-  V7: [['0', 'el', 'dogru'], ['1', 'izmir', 'dogru'], ['2', 'tuval', 'zayif'], ['3', 'cozmez7', 'sukru'], ['0', 'cozmez7', 'vedat']],
-  V8: [['0', 'sifre', 'dogru'], ['1', 'studyo', 'dogru'], ['2', 'iptal', 'zayif'], ['3', 'cozmez8', 'nevzat'], ['0', 'cozmez8', 'fikret']],
-};
+// Vaka 1–5 kapıya, elden geçip kapı kaydı (vaka<N>_kapi.md) yazılınca girer (23 Kasım 2026; V5 ilk). Kaydı yoksa eski düzendedir.
+if (N < 6 && !fs.existsSync(path.join(KOK, '..', 'sablon', 'vakalar', `vaka${N}_kapi.md`))) { console.log(`${VAKA}: kapı kaydı yok, vaka henüz elden geçmedi — geçti sayıldı.`); process.exit(0); }
 const katla = s => String(s).toLocaleLowerCase('tr');
 const md5 = b => crypto.createHash('md5').update(b).digest('hex');
 const DIYALOG = path.join(KOK, '..', 'sablon', 'vakalar', `vaka${N}_diyalog.md`);
@@ -51,6 +46,10 @@ const B = (kural, yer, not) => bulgu.push([kural, yer, not]);
 // ---------- vaka kaydı: eş sözler, poz kaydı, kalsın ----------
 const kayitMetin = fs.existsSync(KAYIT) ? fs.readFileSync(KAYIT, 'utf8') : '';
 const bolum = ad => { const m = kayitMetin.split(/\n(?=## )/).find(b => b.startsWith('## ' + ad)); return m || ''; };
+// Bütün yollar (her şüpheli ve her ipucu yolu en az bir kez): vaka kaydının `## yollar` bölümünde, satır başına
+// `- <karar> <ipucu yolu> <suçlama>` (arac_yeni_tur.js argümanları). 23 Kasım 2026 (Barbaros): yollar koddan kayda taşındı —
+// yeni vaka eklemek kapı aracını değiştirmesin, öbür vakaları yeniden denetletmesin. Bölüm yoksa kapı durur.
+const yollar = bolum('yollar').split('\n').map(l => l.replace(/\r$/, '')).map(l => l.match(/^-\s*(\d+)\s+(\S+)\s+(\S+)\s*$/)).filter(Boolean).map(m => m.slice(1));
 const esSoz = {};   // id → [söz…]
 for (const l of bolum('eş söz').split('\n')) { const m = l.match(/^-\s*(\w+)\s*:\s*(.+)$/); if (m) esSoz[m[1]] = m[2].split(',').map(x => katla(x.trim())).filter(Boolean); }
 const poz = {};     // anahtar → {hedef, bakis, konusur, gorunus[]}
@@ -85,7 +84,7 @@ const arka = (komut, a, env) => new Promise(r => { const c = spawn(komut, a, { c
   const rb = kos('node', ['build_html.js', 'yeni']); if (rb.status !== 0) B('derleme', 'build_html.js yeni', rb.stderr.trim().split('\n').pop());
   if (md5(fs.readFileSync(sayfa)) !== once[0]) B('derleme', 'yeni/index.html', 'derlenmiş sayfa güncel değildi — şimdi derlendi; onu da kaydet (git add yeni/index.html)');
   // 3) turlar (paralel) + sızıntı taraması
-  const yollar = YOLLAR[VAKA]; if (!yollar) { B('yol', VAKA, 'arac_kapi.js → YOLLAR tablosunda bu vakanın yolları yok'); return bitir(); }
+  if (!yollar.length) { B('yol', VAKA, `vaka${N}_kapi.md → ## yollar bölümünde bu vakanın yolları yok`); return bitir(); }
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'kapi_'));
   const isler = yollar.map((y, i) => arka('node', ['arac_yeni_tur.js', ...y, '--hepsi'], { TUR_CIKTI: path.join(tmp, 'y' + i) }));
   isler.push(arka('node', ['arac_sizinti_tur.js', VAKA, '40']));
@@ -124,7 +123,10 @@ const FIG = veri.kanon.sahne.figurler;
 const adlar = id => { const a = id === 'peri' ? 'Peri' : id === 'cengo' ? 'Cengo' : (FIG[id] || {}).ad || id; return [...new Set([katla(a), katla(a.split(/\s+/)[0]), ...(esSoz[id] || [])])].filter(x => x.length >= 3); };
 const KIMLER = [...new Set(['peri', 'cengo', ...Object.keys(FIG)])];
 const gecer = (metin, soz) => new RegExp('(^|[^\\p{L}])' + soz.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + "(?=$|[^\\p{L}]|['’])", 'u').test(katla(metin));
-const anilanlar = metin => KIMLER.filter(id => adlar(id).some(s => gecer(metin, s)));
+// Anılan kişi yalnız bu vakada görünen/konuşanlar arasından aranır (23 Kasım 2026): kanonda başka vakanın aynı adlı figürü
+// olabilir (V1'in "Çaycı" figürü; V5'te "çaycı" Kadir'dir).
+let VAKA_KISI = null;
+const anilanlar = metin => KIMLER.filter(id => (!VAKA_KISI || VAKA_KISI.has(id)) && adlar(id).some(s => gecer(metin, s)));
 const fid = x => (x && x !== '-' ? x.split('.')[0] : null);
 const ekrandakiler = r => (r.kare || r.cekilmis) ? [] : [r.sol, r.sag].map(fid).filter(Boolean).filter((v, i, a) => a.indexOf(v) === i);
 const yer = r => `${r.no} ${r.ad} · ${(r.k === 'not' ? '' : r.k + ': ') + r.m.slice(0, 80)}`;
@@ -133,6 +135,7 @@ const YER = /(eşik|kapıda|kapının önünde|kapının ağzında|uzakta|uzakta
 const GORUNUS = ['terli', 'ıslak', 'sırılsıklam', 'yaralı', 'morluk', 'kanlı', 'ağlıyor', 'gözyaşı', 'unlu', 'çamurlu', 'güllü', 'duvaklı', 'şallı', 'buruşuk'];
 
 function denetle(g) {
+  VAKA_KISI = new Set(['peri', 'cengo', ...g.flatMap(r => [fid(r.sol), fid(r.sag), r.k, r.gir, r.kime])].filter(Boolean));
   for (const r of g) {
     const ekran = ekrandakiler(r), anilan = anilanlar(r.m), anlati = r.k === 'not', duz = r.kare || r.mekan;
     const B2 = (kural, not) => { if (!kalsinMi(kural, r.m)) B(kural, yer(r), not); };
