@@ -8,6 +8,50 @@
 
 ---
 
+> ## 🖼️ VAKA 5 RESİM İŞİ — OĞUZ BEY'İN (23 Kasım 2026 akşam, Barbaros'un kararı; Oğuz Bey'in bilgisayarındaki Claude buradan başlar)
+> **İş bölümü (Barbaros, kesin):** metni Barbaros elden geçirir (V5 bitti; sırada V4 → V3 → V2 → V1). **Resim işinin TAMAMI — hazırlık
+> (liste, istemler), üretim, onay, gömme — Oğuz Bey'in bilgisayarında, onun hesabıyla.** **Görünüş kararlarının hepsini Oğuz Bey verir**
+> (konukların yüzü, saçı, kıyafeti, benzerlik değişiklikleri); Barbaros'a sorulmaz. Oğuz Bey'in teknik bilgisi yok: teknik işi Claude
+> yürütür, Oğuz Bey resme bakıp karar verir, sahibine yalnız sorunlu madde gider (SUREC-43, SUREC-34 — kısa Türkçe, tek soru, örnekle).
+> Sıra: V7 ve V8'in resimleri önce (yukarıdaki notlar), V5 ondan sonra (V5'in metni hazır, beklemesi sorun değil).
+>
+> **Başlamadan:** `git pull` · `git config --get core.hooksPath` → `.githooks` · hazırlık denetimi (CODEX-19) · `uretim/CLAUDE.md`'yi baştan
+> oku (komutlar: `istemleri hazırla 5` → `vaka 5 resimlerini üret` → `göm`) · `uretim/v5/DURUM.md` yok: ilk iş onu aç, en üste "üretim Oğuz
+> Bey'in bilgisayarında" yaz (iki bilgisayar aynı vakayı aynı anda üretmez). Örnek vaka **V7**: `uretim/v7/` (LISTE, prompts, zemin.tsv,
+> DURUM) ve `sablon/vakalar/vaka7_gorsel.md`.
+>
+> **V5'in bugünkü durumu (Claude ölçtü, 23 Kasım):**
+> - **Hiç resmi yok** — 76 anahtarın hepsi gri yer tutucu (`kaynak/yeni/gorseller.json` → `yer_tutucu`): mekânlar A36–A42, detaylar D14–D17,
+>   ara kareler K79–K95 (K92–K95 dört kararın karesi), masa `MASA_V5`, Gizem `gizem.triko` (diğer Gizem pozlarının dosyası var), Peri `ipek` (6),
+>   `islak` (2), `battaniye` (2); Cengo `balikci` (5), `simitli` (4); konuklar muammer (5), selim (4), kadir (4), nedim (3), derya (1), efe (3),
+>   gorevli (2), ismet (2), simitci (3). Kapak V5 = A42. Künye portreleri (`portre_muammer`, `_selim`, `_kadir`, `_nedim`) figürler gelince
+>   `python3 arac_portre.py` ile.
+> - **Eski resim yok → "eskisinden farklı görünmesin" kuralı V5'e uygulanmaz.** Peri/Cengo/Gizem için ortak referanslar (`uretim/referanslar/`);
+>   Peri'nin eski dekolteli referansları kullanılmaz. Yeni konukların hepsi ilk kez çiziliyor.
+> - **Kaynaklar:** metin `sablon/vakalar/vaka5_diyalog.md` (dondu; sonunda "Satır → görsel" tablosu: her kodun ne olduğu ve nerede geçtiği);
+>   kıyafet ve görsel özeti `vaka5_form.md` §14–16; Peri `ipek` = zümrüt yeşili ince ipek elbise + krem hırka + siyah topuklu sandalet,
+>   `ipek_acik` hırkasız; `islak` sırılsıklam, yosunlu, tek ayakkabı; `battaniye` vapur battaniyesi. Cengo `balikci` lacivert balıkçı yaka
+>   kazak + kahverengi kasket; `simitli` kolunda ve kasketinde simitler. Peri'nin vakaya özel ifadesi `yesil` (deniz tutmuş: solgun, bir eli midesinde).
+> - **23 Kasım'da eklenen 11 nesneli poz** (satır–resim için; figür nesneyle çizilir, metin değişmez): `muammer.kutu` (kadife kutuyla girer),
+>   `kadir.tepsi` (ince belli bardaklı tepsi), `efe.simit` (martılara simit atar), `gorevli.defter` (elinde defter, boynunda düdük),
+>   `simitci.tabla` (tabladan simit uzatır), `nedim.baston` (gümüş başlı baston; iki satır), `peri.ipek.canta` (kalan çantayı tezgâha koyar),
+>   `cengo.balikci.kollar` (kollar açık, martı gibi bağırır), `cengo.balikci.simit` (martılara simit atar), `selim.sandalye` (sandalye tamir eder,
+>   başını kaldırmaz), `ismet.dikiyor` (deri önlük, gözlük burnunda, kayış diker).
+> - **K88** karar sorusunun seçim karesi: Kadir battaniyeyi Peri'nin omzuna atıyor, elinde çay; **arkada Muammer, elinde açık saat**.
+>   **K79** iki satırda: giriş çekicilik anı + "Peri pencereyi hemen kapatıyor".
+> - **Konuk benzerliği DURDU** (`node kaynak/arac_benzerlik.js 5`, SEZON-26 — istemden önce zorunlu): Nedim ~ Tahsin Usta (V6) puan 7,
+>   Muammer ~ Recep Efendi (V6) puan 6 → **ikisinin görünüşü değişir** (Oğuz Bey karar verir); ayrıca derya, efe, ismet'in `adaylar.tsv`
+>   satırında boş (`?`) özellik var — doldurulur. Görünüş değişince form §16, `sablon/kurallar/benzerlik/adaylar.tsv` ve diyalogdaki
+>   görünüş anlatısı birlikte değişir (ör. giriş: "papyonlu, tüvit yelekli, beyaz bıyıklı bir bey"). **Diyalogda söz değişirse:** önce
+>   `node arac_diyalog.js ../sablon/vakalar/vaka5_diyalog.md V5`, commit iletisine `[söz onaylı]` (Oğuz Bey onaylar, yetkisi var); kapı V5'i
+>   artık denetliyor (hikâye kapısı geçmeli: `node arac_kapi.js V5 hikaye`).
+> - **Kapı V5'te açık** (23 Kasım): onaylı resim kendi üç aracından + el onayından geçer; gömmede resim kapısı (`node arac_kapi.js V5 resim`)
+>   **poz tablosu** ister — `sablon/vakalar/vaka5_kapi.md` → `## poz` bugün boş (figür yoktu); resimler geldikçe figürlere bakılarak
+>   `vaka6_kapi.md`'deki gibi doldurulur. Kalsınlar: `vaka5_kapi.md` → `## kalsın` (K4 "Sabah. Büro."), `vaka5_bayrak.md` (Moda mekân satırı).
+> - Yapılacak dosyalar: `sablon/vakalar/vaka5_gorsel.md` (tablo; `| G<n> | tür | ne | anahtar | referans | aşama |` — CODEX-21; paket
+>   aracı ve `arac_el.py` bunu ister), `uretim/v5/LISTE.md`, `uretim/v5/prompts/G<n>.md`, `uretim/v5/zemin.tsv`, gerekirse `uretim/v5/referanslar/`.
+>   İstemler `./istem_kontrol.sh v5/prompts/*.md` çıkış 0 olmadan üretime girmez.
+
 > ## ✅ 23 KASIM 2026 AKŞAM: VAKA 5 METNİ YENİ DÜZENDE, KAPIDAN GEÇTİ — SIRADA VAKA 4'ÜN EKSİK LİSTESİ (yeni pencere buradan başlar)
 > **Yapılanlar (hepsi `main`'de, Barbaros'un onayıyla):**
 > - `219f1f6` Kararlar: Muammer iskelede soruyor (`karar_soru`, seçim karesi K88), dört SEÇENEK, Cengo karar satırları etiketli,
@@ -23,8 +67,8 @@
 > `vaka4_kapi.md` yazılıp `node arac_kapi.js V4 hikaye --yeniden` ile ölçüm). V4 kapı kaydı commit edilince V4 kapıya girer — bulgular
 > bitmeden commit etme (V5'te öyle yapıldı). Etiket betiği (ekran/yüz) tek seferlikti, yeniden yazılabilir: tur dökümünden konuşan +
 > hitap/kime, anlatıda anılanlar; yüz ekrandaki figürden.
-> **Açık kalanlar:** `kaynak/YENI_UI/sizinti_okuma.txt` V5 için bir kez elle okunacak (SUREC-27); V5'in resim tablosu (`vaka5_gorsel.md`)
-> ve Oğuz Bey'e resim işi (yeni pozlar dahil) metin onayından sonra; öneri bekliyor: araç değişikliğinde commit bütün vakaları beklemesin.
+> **Açık kalanlar:** V5 sızıntı okuması YAPILDI (23 Kasım akşam, temiz). V5 resim işi Oğuz Bey'de (yukarıdaki 🖼️ bölüm). Öneri bekliyor:
+> araç değişikliğinde commit bütün vakaları beklemesin (yollar artık vaka dosyasında; yalnız ortak araç/motor/arayüz değişince olur).
 > V5'in dört yolunda bilinen: kapanıştaki "Gizem pencerenin önünde" satırında tur aracı `gizem_tel` uyarısı basar (aday, kapı saymaz).
 
 > ## ▶️▶️▶️▶️ 23 KASIM 2026 ÖĞLEDEN SONRA: YENİ İŞ BÖLÜMÜ — BARBAROS VAKA 5→1 METNİ, OĞUZ BEY RESİMLER (yeni pencere buradan başlar)
@@ -37,9 +81,9 @@
 > - **Oğuz Bey (kendi bilgisayarı):** önce **Vaka 7 ve 8'in resimleri** (V7 üretimi Barbaros'un denemesinden Oğuz Bey'e geçti; aşağıdaki
 >   23 Kasım sabah notu ve `uretim/v7/DURUM.md` en üst: sırada 16 Kasım'da üretilen 12 resmin denetimi, G12, G2, Parti 2). Sonra
 >   **Vaka 5→1'in yeniden üretilecek resimleri**.
-> - **Resim aktarımı vaka vaka (beşinin sonu beklenmez):** bir vakanın metni onaylanınca Barbaros'un tarafı o vakanın resim işini
->   hazırlar — yeni metne uymayan resimlerin listesi (kapı işaretler), `uretim/vN/LISTE.md` + `prompts/G<n>.md`, istem kontrolü geçmiş.
->   Oğuz Bey yalnız üretir ve onaylar. Yeniden üretilen resim eskisinden farklı görünmez (aynı yüz, saç, kıyafet, ölçek, zemin, tarz;
+> - **Resim aktarımı vaka vaka (beşinin sonu beklenmez):** bir vakanın metni onaylanınca o vakanın resim işi
+>   Oğuz Bey'e geçer. **23 Kasım akşam değişti (Barbaros): hazırlık da (liste, istemler, istem kontrolü) Oğuz Bey'in bilgisayarında;
+>   görünüş kararlarını Oğuz Bey verir** — Barbaros her vakanın metni bitince DEVIR'e o vakanın resim notunu yazdırır (V5'inki en üstte). Yeniden üretilen resim eskisinden farklı görünmez (aynı yüz, saç, kıyafet, ölçek, zemin, tarz;
 >   eski onaylı resim 1. referans) — 19 Kasım kararı aşağıda "🖼️ VAKA 1–5 RESİMLERİ". Eski iş sayfası araçları arşivde; referanslar
 >   `uretim/referanslar/` ve `uretim/vN/referanslar/` (Peri'nin eski dekolteli referansları kullanılmaz).
 > - **Çakışma:** iki bilgisayar ortak dosyalara yazar (`kaynak/yeni/game_data.json`, `gorseller.json`, `kisiler.json`, `yeni/index.html`).
