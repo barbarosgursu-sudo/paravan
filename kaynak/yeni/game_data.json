@@ -139,7 +139,8 @@
             "triko_telefon",
             "triko_tepsi",
             "triko_tepsi_telefon",
-            "triko_aski"
+            "triko_aski",
+            "triko_kahve"
           ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
@@ -3955,7 +3956,13 @@
                 "ekran": "peri+feraye",
                 "yuz": "peri.kas"
               },
-              {"k": "peri", "i": "merakli", "m": "O kuş değil. Balık.", "ekran": "peri+feraye", "yuz": "feraye.fal"},
+              {
+                "k": "peri",
+                "i": "fincan",
+                "m": "(fincana eğilip) O kuş değil. Balık.",
+                "ekran": "peri+feraye",
+                "yuz": "feraye.fal"
+              },
               {
                 "k": "feraye",
                 "i": "normal",
@@ -4217,8 +4224,8 @@
             },
             {
               "k": "gizem",
-              "i": "triko",
-              "m": "Üç sade kahve. Köpüksüz olmuş, kusura bakmayın.",
+              "i": "triko_kahve",
+              "m": "(çay ocağından kahvelerle gelerek) Üç sade kahve. Köpüksüz olmuş, kusura bakmayın.",
               "gir": "gizem",
               "kime": "peri",
               "ekran": "peri+gizem",

@@ -39,7 +39,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **FERAYE [dertli]:** Belki şantajcı Tarık Bey'in kendisi. Başkalarının parasını toplarken kimse ondan şüphelenmesin diye kendine de mesaj gelmiş gibi yapıyor. {ekran: peri+feraye, yuz: peri.merakli}
 **PERİ [kas]:** Peki siz o sırları nereden biliyorsunuz, Feraye Hanım? {ekran: peri+feraye, yuz: feraye.dertli}
 **FERAYE [normal]:** Fincandan, kızım. Kuytu Kafe'de sorun: sahibi Zerrin de söyler, garson Sadık da. {kime: peri, ekran: peri+feraye, yuz: peri.kas}
-**GİZEM [triko]:** Üç sade kahve. Köpüksüz olmuş, kusura bakmayın. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**GİZEM [triko_kahve]:** *(çay ocağından kahvelerle gelerek)* Üç sade kahve. Köpüksüz olmuş, kusura bakmayın. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
 *Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor. Fincan soğuyunca açıp içine bakıyor.* {gir: feraye, gi: fincan, ekran: feraye+cengo, yuz: cengo.gulen}
 **FERAYE [fal]:** Bir kadın görüyorum. Kırmızı. {kime: cengo, ekran: cengo+feraye, yuz: cengo.gulen}
 *Peri, farkında olmadan, eşarbına dokunuyor. Cengo bir an başını çeviriyor ve doğrudan bize bakıyor.* {kare: K60}
@@ -195,7 +195,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **FERAYE [cokmus]:** Adını vermem. Verirsem ekmeğim biter. {kime: cengo, ekran: cengo+feraye, yuz: cengo.kas}
 *Feraye konuyu değiştirmek için masadaki bir fincanı açıp içine bakıyor.* {gir: feraye, gi: fal, ekran: feraye}
 **FERAYE [fal]:** Bakın, bu fincanda bir kuş var. Haber gelecek. {kime: peri, ekran: peri+feraye, yuz: peri.kas}
-**PERİ [merakli]:** O kuş değil. Balık. {ekran: peri+feraye, yuz: feraye.fal}
+**PERİ [fincan]:** *(fincana eğilip)* O kuş değil. Balık. {ekran: peri+feraye, yuz: feraye.fal}
 **FERAYE [normal]:** Hani fala inanmıyordunuz? {ekran: peri+feraye, yuz: peri.merakli}
 **PERİ [kas]:** İnanmıyorum. Ama balık. {ekran: peri+feraye, yuz: feraye.normal}
 
