@@ -11,6 +11,8 @@
 #   python arac_el.py --kapi V6            → kapı: onaysız ya da değişmiş resim, kişi sayısı tutmayan resim → çıkış 1
 # Modeller ilk kullanımda indirilir (~350 MB, huggingface.co/yzd-v/DWPose, Apache-2.0) → ~/.cache/paravan/.
 import os, re, sys, hashlib, urllib.request
+try: sys.stdout.reconfigure(encoding="utf-8")   # Windows konsolu (cp1252) "→" basamıyordu — 23 Kasım 2026
+except Exception: pass
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 

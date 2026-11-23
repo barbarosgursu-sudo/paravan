@@ -12,7 +12,8 @@
 //      Sahibi söz değişikliğini onayladıysa commit iletisine `[söz onaylı]` yazılır.
 //  (b) onay: uretim/v<N>/onayli/G<n>.png (Vaka 6+) kaydedilirken tarz, yüz ve benzerlik araçları yeniden koşar; GEÇTİ
 //      demeyen resim onaylı kaydedilmez — DENETIM-2, DENETIM-8, DENETIM-53. Sahibinin "kalsın"ı:
-//      sablon/vakalar/vaka<N>_kapi.md → ## kalsın satırı `- G<n> | tarz|yüz|benzerlik | <sebep>`.
+//      sablon/vakalar/vaka<N>_kapi.md → ## kalsın satırı `- G<n> | tarz|yüz|benzerlik | <sebep>`. El onayı da aranır
+//      (arac_el.py --kapi; DENETIM-13). 23 Kasım 2026'dan beri onaylı resim vakanın TAMAMININ resim kapısını açmaz (yalnız (d)).
 //
 // İKİ KİP: Claude Code'da PreToolUse (stdin JSON). Git kancası olarak: `.githooks/commit-msg` → `node .claude/kapi_hook.js --git <ileti>`
 // (Codex ve terminal commit'leri de geçer; bir kez `git config core.hooksPath .githooks`). Git kancası kuruluysa Claude Code kipi
@@ -126,7 +127,10 @@ const resimVaka = new Set();
 const is = [];
 for (const n of vakalar) {
   const kendi = dosyalar.filter(f => f.startsWith(`sablon/vakalar/vaka${n}_`) || f.startsWith(`uretim/v${n}/`));
-  const resim = resimVaka.has(n) || kendi.some(f => /^uretim\/v\d+\/(onayli|el_onay)/.test(f) || /_gorsel\.md$/.test(f));
+  // 23 Kasım 2026 (Barbaros, V7 ilk üretim denemesi): onaylı resim, el onayı ve görsel tablosu artık BÜTÜN vakanın resim
+  // kapısını açmaz — üretim sürerken her onayda vakanın tamamı (poz kaydı, satır–resim) kalıyor, hiçbir onay kaydedilemiyordu.
+  // Onaylı resim yalnız kendi denetimlerinden geçer (aşağıda (b): üç araç + el onayı); vakanın tamamı gömmede ((d)) denetlenir.
+  const resim = resimVaka.has(n);
   const metin = metinHepsi || metinVaka.has(n) || kendi.some(f => /_(diyalog|kapi|bayrak)\.md$/.test(f));
   if (resim) is.push(['V' + n, 'resim']); else if (metin) is.push(['V' + n, 'hikaye']);
 }
@@ -265,6 +269,14 @@ for (const [v, gler] of Object.entries(onay)) {
     const satir = ((r.stdout || '') + (r.stderr || '')).split('\n').filter(l => /^\s*(YÜZ\s+|BENZERLİK\s+)?(KALDI|ŞÜPHELİ|DUR)/.test(l)).slice(0, 6).join(' | ');
     const ne = { 1: 'ŞÜPHELİ', 2: 'KALDI', 3: 'DUR (sınır kurulamadı — sahibine)' }[r.status] || 'araç çalışmadı';
     dur.push(`${v} onay — ${ad} ${ne}: ${satir || son(r)} — onaylı kaydedilmez (DENETIM-2/8/53). Sahibi "kalsın" dediyse vaka${n}_kapi.md → ## kalsın: \`- G<n> | ${ad} | <sebep>\`.`);
+  }
+  // El onayı (DENETIM-13; 23 Kasım 2026): kişi görünen onaylı resmin el sayfasına bakılmış ve sahibince onaylanmış olmalı
+  // (imza tutmalı). Kişi sayısı bilinmeyen resim (ör. kıyafet kartı, görsel tablosu yokken) araçta atlanır.
+  const elBak = gler.filter(g => !/z$/.test(g));
+  if (elBak.length) {
+    const r = spawnSync(require(path.join(kok, 'kaynak', 'arac_python.js')).python(), ['arac_el.py', '--kapi', 'V' + n, ...elBak],
+      { cwd: KAYNAK, encoding: 'utf8', maxBuffer: 1 << 26, env: Object.assign({}, process.env, { PYTHONIOENCODING: 'utf-8' }) });
+    if (r.status !== 0) dur.push(`${v} onay — el onayı yok ya da resim değişti: ${((r.stdout || '') + (r.stderr || '')).split('\n').filter(l => /^K5/.test(l)).slice(0, 6).join(' | ') || son(r)} — python arac_el.py --sayfa V${n} <G…>, sahibi bakar, sonra --onay (DENETIM-13).`);
   }
 }
 
