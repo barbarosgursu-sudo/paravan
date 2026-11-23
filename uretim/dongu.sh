@@ -23,7 +23,7 @@ ZAMAN_ASIMI="${ZAMAN_ASIMI:-900}"
 KONTROL="$(cd "$(dirname "$0")" && pwd)/istem_kontrol.sh"   # geçmeyen istem üretilmez
 # Bilgisayar hazır mı (CODEX-19): eksik varsa üretime başlanmaz, eksik listesi sahibine. PY/CODEX denemek için değiştirilebilir.
 # Python'un adı bilgisayara göre değişir (ortağınkinde yalnız `py`) — KOD-33: PY verilmediyse python → py → python3, çalışan ilki.
-if [ -z "$PY" ]; then for c in python py python3; do "$c" -c "import sys" >/dev/null 2>&1 && { PY=$c; break; }; done; PY=${PY:-python}; fi
+if [ -z "${PY:-}" ]; then for c in python py python3; do "$c" -c "import sys" >/dev/null 2>&1 && { PY=$c; break; }; done; PY=${PY:-python}; fi
 CODEX="${CODEX:-codex}"; EKSIK=""
 "$PY" -c "import onnxruntime, PIL, numpy, torch, open_clip" >/dev/null 2>&1 \
   || EKSIK="$EKSIK\n- Python kütüphanesi eksik (onnxruntime, PIL, numpy, torch, open_clip) — KURULUM_ORTAK.md'deki pip install satırı"
