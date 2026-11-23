@@ -13,7 +13,9 @@ arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
 > ### önerilmez. **Adım 4 madde 4–5 ve kuralların gözden geçirmesi BİTTİ (22 Kasım 2026; `sablon/kurallar/PLAN.md` (52)…(71)).**
-> ### ▶️ **23 Kasım 2026: ÜRETİME DÖNÜLDÜ** (Barbaros "üretim yok"u kaldırdı). Vaka 7 Parti 1 Barbaros'un bilgisayarında deneniyor, 7 resim onaylı;
+> ### 👥 **23 Kasım 2026 öğleden sonra — İŞ BÖLÜMÜ:** Barbaros Vaka 5→1'i yeni kurallarla elden geçirir (her vakada önce eksik listesi);
+> ### Oğuz Bey önce V7–V8 resimleri, sonra V5→1'in yeniden üretilecek resimleri (vaka vaka). Ayrıntı `kaynak/DEVIR.md` en üst.
+> ### ▶️ **23 Kasım 2026: ÜRETİME DÖNÜLDÜ** (Barbaros "üretim yok"u kaldırdı). Vaka 7 Parti 1 Barbaros'un bilgisayarında denendi (öğleden sonra Oğuz Bey'e geçti), 7 resim onaylı;
 > ### sıradaki iş ve bulunan araç hataları `kaynak/DEVIR.md` en üst, günün kaydı `uretim/v7/DURUM.md` en üst. Commit kapısı: onaylı resim yalnız
 > ### kendi araçlarından + el onayından geçer, vakanın tamamı gömmede (`.claude/kapi_hook.js`, 23 Kasım). Madde 3 bitti, eski oyun arşivde (`arsiv/kaynak/eski_oyun/`).
 > ### Commit kapısı git kancasıyla da çalışır (`.githooks/commit-msg`; yeni bilgisayarda bir kez `git config core.hooksPath .githooks`) — KOD-35.

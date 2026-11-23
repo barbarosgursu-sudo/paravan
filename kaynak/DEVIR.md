@@ -8,6 +8,37 @@
 
 ---
 
+> ## ▶️▶️▶️▶️ 23 KASIM 2026 ÖĞLEDEN SONRA: YENİ İŞ BÖLÜMÜ — BARBAROS VAKA 5→1 METNİ, OĞUZ BEY RESİMLER (yeni pencere buradan başlar)
+> **Başlamadan önce** aşağıdaki "🔧 BAŞLAMADAN ÖNCE" üç adımı (pull, kapı kancası, hazırlık denetimi) — her pencerede, her bilgisayarda.
+>
+> **Plan (Barbaros, 23 Kasım 2026):**
+> - **Barbaros (kendi bilgisayarı):** Vaka 1–5 yeni kurallarla elden geçer, **geriye doğru: V5 → V4 → V3 → V2 → V1.** Her vaka için
+>   önce Claude **eksik listesini** çıkarır (hangi kural tutmuyor; iş başlamadan büyüklüğü görünsün), sonra Barbaros eksikleri giderir.
+>   V5 ilk çünkü yeni düzene en yakın (doğrulayıcı uyarısı V5 3 · V4 6 · V3 7 · V2 5 · V1 7).
+> - **Oğuz Bey (kendi bilgisayarı):** önce **Vaka 7 ve 8'in resimleri** (V7 üretimi Barbaros'un denemesinden Oğuz Bey'e geçti; aşağıdaki
+>   23 Kasım sabah notu ve `uretim/v7/DURUM.md` en üst: sırada 16 Kasım'da üretilen 12 resmin denetimi, G12, G2, Parti 2). Sonra
+>   **Vaka 5→1'in yeniden üretilecek resimleri**.
+> - **Resim aktarımı vaka vaka (beşinin sonu beklenmez):** bir vakanın metni onaylanınca Barbaros'un tarafı o vakanın resim işini
+>   hazırlar — yeni metne uymayan resimlerin listesi (kapı işaretler), `uretim/vN/LISTE.md` + `prompts/G<n>.md`, istem kontrolü geçmiş.
+>   Oğuz Bey yalnız üretir ve onaylar. Yeniden üretilen resim eskisinden farklı görünmez (aynı yüz, saç, kıyafet, ölçek, zemin, tarz;
+>   eski onaylı resim 1. referans) — 19 Kasım kararı aşağıda "🖼️ VAKA 1–5 RESİMLERİ". Eski iş sayfası araçları arşivde; referanslar
+>   `uretim/referanslar/` ve `uretim/vN/referanslar/` (Peri'nin eski dekolteli referansları kullanılmaz).
+> - **Çakışma:** iki bilgisayar ortak dosyalara yazar (`kaynak/yeni/game_data.json`, `gorseller.json`, `kisiler.json`, `yeni/index.html`).
+>   İşe başlarken `git pull`; her küçük adımdan sonra commit + hemen push. Çakışmada veri ve sayfa elle birleştirilmez: diyalogdan
+>   `arac_diyalog.js` ile yeniden yazılır, sayfa `build_html.js` ile yeniden derlenir.
+> - **Bilinen:** metni değişen vaka, resimleri yenilenene dek yayında eski resimlerle görünür (bazı karelerde metin–resim farkı olabilir).
+>
+> **Vaka 1–5'in bugünkü durumu (Claude ölçtü, 23 Kasım):** diyalogları **eski biçimde** — `arac_diyalog.js` yazamıyor (kapı commit'te
+> "KOD-38 — araçla yazılamayan (eski biçim) diyaloglar atlandı: V1…V5" diyor); **kapıda tanımlı değiller** (`kaynak/arac_kapi.js` YOLLAR
+> yalnız V6–V8; `vakaN_kapi.md` yok — SUREC-14); V4 ve V5'in `vakaN_gorsel.md`'si yok; `vaka3_gorsel.md` eski araçla yazılmıştı (başındaki not).
+> **Yeni pencerede ilk iş: Vaka 5'in eksik listesi** (dosya değiştirmeden; önce Barbaros'la konuş — SUREC-1): doğrulayıcı uyarıları,
+> diyaloğu yeni biçime çevirmenin kapsamı (V6 örnek: `vaka6_diyalog.md`), kapı kurulumu (YOLLAR + `vaka5_kapi.md`), sonra kapı hikâye,
+> sızıntı (`arac_sizinti_tur.js V5 40`), satır–resim. Liste sahibine kısa ve maddeli.
+>
+> **Bu pencerede yapılanlar (23 Kasım, hepsi `main`'de):** V6 bütün denetimlerden geçiyor (doğrulayıcı, 8 test, kapı hikâye + resim,
+> sızıntı) · `arac_el.py` önbellek kodlaması düzeldi, kapıya KOD-93 (kodlamasız `open()` olan `.py` commit edilmez; `5287395`) ·
+> Vaka 2–3 eski iş sayfası araçları arşive, ortak kalıp `sablon/is_sayfasi_sablon.html` · Jale'nin 114 harflik repliği ikiye bölündü (`4bb1026`).
+
 > ## ▶️▶️▶️ 23 KASIM 2026: ÜRETİME DÖNÜLDÜ — VAKA 7 PARTİ 1 BARBAROS'UN BİLGİSAYARINDA (yeni pencere buradan başlar)
 > **🔧 BAŞLAMADAN ÖNCE — HER BİLGİSAYARDA, SIRAYLA (Claude kendisi yapar, sahibine sormadan):**
 > 1. `git pull` (SUREC-8).
@@ -32,7 +63,7 @@
 > artık onaylı resim yalnız kendi üç aracından + el onayından (`arac_el.py --kapi`) geçer; vakanın tamamı gömmede (Barbaros "Evet").
 > · `arac_el.py` önbelleği (`YENI_UI/el/sayim.json`) kodlamasız yazıyordu, V6 resim kapısı duruyordu → UTF-8 + yarım dosya bırakmaz;
 > kapıya KOD-93 bağlandı (kodlamasız `open()` olan `.py` commit edilmez; `kaynak/arac_kodlama.js`). V6 bütün denetimlerden geçiyor (23 Kasım).
-> **Sırada (Barbaros'a sorulacak ilk iş):** Oğuz Bey'in 16 Kasım'da ürettiği 12 resmin denetimi — `uretilen/` G3 (Cengo smokin kartı),
+> **Sırada (öğleden sonra: artık Oğuz Bey'in işi — yukarıdaki yeni iş bölümü):** Oğuz Bey'in 16 Kasım'da ürettiği 12 resmin denetimi — `uretilen/` G3 (Cengo smokin kartı),
 > G7/G7z (Vedat), G11, G13–G20 (mekânlar). Sonra G12 (G11 onayına bağlı), G2 (Peri gala kartı, engellendi → `WEB_G2.md`, web'de),
 > sonra Parti 2 (`LISTE.md`). Döngü: `cd uretim && KOL=2 SADECE="…" DONGU_LOG=<scratchpad> ./dongu.sh 7`.
 > **Oğuz Bey'e bekleyenler:** (1) "Doksan lira" uyarısı — `[K22] V7: "doksan lira" (90 ₺) fiyat tablosunda yok` (KOD-77, YAPI-34);
