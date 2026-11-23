@@ -9,6 +9,12 @@
 ---
 
 > ## ▶️▶️▶️ 23 KASIM 2026: ÜRETİME DÖNÜLDÜ — VAKA 7 PARTİ 1 BARBAROS'UN BİLGİSAYARINDA (yeni pencere buradan başlar)
+> **🔧 BAŞLAMADAN ÖNCE — HER BİLGİSAYARDA, SIRAYLA (Claude kendisi yapar, sahibine sormadan):**
+> 1. `git pull` (SUREC-8).
+> 2. `git config --get core.hooksPath` → `.githooks` değilse `git config core.hooksPath .githooks` (kayıt kapısı; KOD-35).
+> 3. Hazırlık denetimi (CODEX-19): `python -c "import onnxruntime, PIL, numpy, torch, open_clip"` (Oğuz Bey'de `py`), `codex --version`,
+>    `codex login status`. Eksik varsa üretime başlama, eksik listesini sahibine ver (`uretim/KURULUM_ORTAK.md`).
+> Sonra `uretim/v7/DURUM.md` en üstüne "üretim <kimin> bilgisayarında" satırı yazılır (iki bilgisayar aynı anda üretmez).
 > **Önce `uretim/v7/DURUM.md` en üst (günün kaydı orada), sonra `uretim/CLAUDE.md`.** Üretim Barbaros'un bilgisayarında DENEME olarak
 > başladı ("sorun çıkarsa burada halledelim; sonra asıl üretim Oğuz Bey'de"). Aynı anda iki bilgisayarda V7 üretilmez.
 > **Yapılanlar (hepsi `main`'de):**
