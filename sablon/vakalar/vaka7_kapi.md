@@ -25,3 +25,4 @@ Resimler gelince (adım 8–10) figürlere bakılarak yazılır. Görselsiz aşa
 ## kalsın
 
 Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.
+- G9 | benzerlik | Ercan ↔ Cengo 1,41 (şüphe sınırı 1,40; aynı resim önce 1,34 ölçüldü). Gözle ayrışıyor: jöleli düz saç, traşlı, yelek, eldiven — Cengo dağınık saçlı, sakallı, ceketli. Barbaros, 23 Kasım 2026.
