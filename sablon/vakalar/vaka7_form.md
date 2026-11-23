@@ -417,7 +417,7 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
   (Haldun'un incesinden ayrışır).
 - **Kaan (28):** KISA boylu, ufak yapılı, bebek yüzlü; AÇIK SARI, düz, kısa, yandan ayrılmış, alna düşen perçemli saç (23 Kas, Barbaros: kumral hâli Cengo'ya benzedi — benzerlik aracı), yuvarlak kemik çerçeveli gözlük, çil (Bülent ve Cengo’dan ayrılsın — ortak, 16 Kas); dar lacivert takım, beyaz spor ayakkabı; elinde mor ışıklı UV
   lambası; akşam kürsüde tokmak.
-- **Ercan (vale, 40'lar):** kırk yaşında, UZUN ve sırık gibi İNCE; uzun, köşeli yüz, çökük yanaklar, kemerli burun, bıyıksız; jöleli, geriye taranmış siyah saç (Recep, Ferruh ve Bülent’ten ayrılsın — ortak, 16 Kas); siyah, altın düğmeli vale yeleği (Bülent kırmızı yelekli olduğu için — ortak, 16 Kas), beyaz eldiven,
+- **Ercan (vale, 30'ların sonu):** UZUN ve sırık gibi İNCE bedenli ama yüzü GENİŞ: kare çene, dolgun yanaklar, kalın düz kaşlar, yassı burun, bıyıksız (23 Kas, Barbaros: uzun köşeli yüzlü hâli Şükrü'ye benzedi — benzerlik aracı); jöleli, geriye taranmış siyah saç (Recep, Ferruh ve Bülent’ten ayrılsın — ortak, 16 Kas); siyah, altın düğmeli vale yeleği (Bülent kırmızı yelekli olduğu için — ortak, 16 Kas), beyaz eldiven,
   elinde anahtar halkası.
 - **Necmi (50'ler):** iri; yüzü uzun ve kemikli, kalın siyah kaşlar, iri burun, çene traşlı, güldüğünde bir altın diş (Recep ve Rıza’dan ayrılsın — ortak, 16 Kas); gür kır favoriler; hardal yün bere, bol kareli oduncu gömleği, üstünde kolsuz şişme yelek; elinde
   eski kartpostallar.
