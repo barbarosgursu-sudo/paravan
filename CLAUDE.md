@@ -13,7 +13,7 @@ arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak
 > ### `SATIR-3` gibi kodlar oradaki kuraldır. Eski kural belgeleri `arsiv/`'de (silinmedi). Fikir havuzu `sablon/FIKIR_HAVUZU.md`.
 > ### 🛑 ÖNCE KURALLAR, ÜRETİM YOK (20 Kasım 2026, Barbaros'un kararı): otomatik uygulama (Adım 4) bitmeden resim/metin üretimi
 > ### önerilmez. **Adım 4 madde 4–5 ve kuralların gözden geçirmesi BİTTİ (22 Kasım 2026; `sablon/kurallar/PLAN.md` (52)…(71)).**
-> ### ✅ **23 Kasım 2026 akşam: Vaka 5 metni bitti, kapıdan geçti; V5 resim işi Oğuz Bey'de; SIRADA VAKA 4** — tarif `kaynak/DEVIR.md` en üst.
+> ### ✅ **23 Kasım 2026 gece: Vaka 5 ve Vaka 4 metni bitti, kapıdan geçti; V5 ve V4 resim işi Oğuz Bey'de; SIRADA VAKA 3** — tarif `kaynak/DEVIR.md` en üst.
 > ### Tur ve kapı yolları vaka dosyasında (`vakaN_tur.md`, `vakaN_kapi.md` → `## yollar`); etiket aracı `kaynak/arac_ekran_etiket.js`.
 > ### 👥 **23 Kasım 2026 öğleden sonra — İŞ BÖLÜMÜ:** Barbaros Vaka 5→1'i yeni kurallarla elden geçirir (her vakada önce eksik listesi);
 > ### Oğuz Bey önce V7–V8 resimleri, sonra V5→1'in yeniden üretilecek resimleri (vaka vaka). Ayrıntı `kaynak/DEVIR.md` en üst.

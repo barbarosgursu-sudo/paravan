@@ -8,9 +8,57 @@
 
 ---
 
-> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (23 Kasım 2026 akşam)
-> - **Barbaros'un penceresi (metin):** VAKA 4 → aşağıda "▶️ YENİ PENCERE: VAKA 4" (adım adım tarif, V5'te izlenen sıra).
-> - **Oğuz Bey'in penceresi (resim):** önce V7–V8 (aşağıdaki 23 Kasım sabah notu, `uretim/v7/DURUM.md`), sonra V5 → hemen altta "🖼️ VAKA 5 RESİM İŞİ".
+> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (23 Kasım 2026 gece)
+> - **Barbaros'un penceresi (metin):** V4 BİTTİ (aşağıda "✅ VAKA 4 METNİ BİTTİ"); sırada **VAKA 3** — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V3).
+>   ⚠ V3'ün resimleri VAR: yeni poz = yeni resim; önce kare bağlama / parantez çıkarma / kalsın (SATIR-43: başka vakanın resmi seçenek değil).
+> - **Oğuz Bey'in penceresi (resim):** önce V7–V8 (aşağıdaki 23 Kasım sabah notu, `uretim/v7/DURUM.md`), sonra V5 → "🖼️ VAKA 5 RESİM İŞİ",
+>   sonra V4 → hemen altta "🖼️ VAKA 4 RESİM İŞİ".
+
+> ## 🖼️ VAKA 4 RESİM İŞİ — OĞUZ BEY'İN (23 Kasım 2026 gece, V5'teki düzenin aynısı; Oğuz Bey'in bilgisayarındaki Claude buradan başlar)
+> **İş bölümü ve başlamadan yapılacaklar V5 notuyla aynı** (aşağıda "🖼️ VAKA 5 RESİM İŞİ": görünüş kararları Oğuz Bey'de, teknik işi Claude
+> yürütür; komutlar `istemleri hazırla 4` → `vaka 4 resimlerini üret` → `göm`). `uretim/v4/DURUM.md` yok: ilk iş onu aç, en üste "üretim Oğuz
+> Bey'in bilgisayarında" yaz. Sıra: V7–V8 → V5 → V4.
+>
+> **V4'ün bugünkü durumu (Claude ölçtü, 23 Kasım):**
+> - **Hiç kendi resmi yok** — 86 anahtarın hepsi gri yer tutucu (`kaynak/yeni/gorseller.json` → `yer_tutucu`): mekânlar A30, A30b, A30c, A30d,
+>   A31–A35; detaylar D11–D13; ara kareler K60–K78 (K75–K78 dört kararın karesi); masa `MASA_V4`; Peri `kase` (7), `kase_acik` (3), `telveli` (2),
+>   `salli` (3); Cengo `deri` (4), `salli` (2); Gizem `triko`, `triko_isveli`, `triko_kahve`, `kirmizi`, `kirmizi_isveli`; konuklar feraye (7),
+>   sadik (4), tarik (4), rana (3), zerrin (1), sebnem (3); künye portreleri (feraye, tarik, rana, sadik, zerrin, sebnem) figürler gelince
+>   `python3 arac_portre.py` ile. Kapak V4 = A31.
+> - **Eski resim yok → "eskisinden farklı görünmesin" kuralı V4'e uygulanmaz** (V5 gibi). Peri/Cengo/Gizem için ortak referanslar
+>   (`uretim/referanslar/`); Peri'nin eski dekolteli referansları kullanılmaz. **Başka vakanın resmi kullanılmaz** (SATIR-43; ör. V6'nın çaylı
+>   `gizem.triko_tepsi`'si V4'ün "üç sade kahve" satırına uymaz → V4'e kendi pozu `gizem.triko_kahve`).
+> - **Kaynaklar:** metin `sablon/vakalar/vaka4_diyalog.md` (bitti; sonunda "Satır → görsel" tablosu: her kodun ne olduğu ve nerede geçtiği,
+>   K75–K78 ve yeni pozlar dahil); kıyafet ve görsel özeti `vaka4_form.md` §14–16; kıyafet hâlleri diyaloğun başında: Peri `kase` (deve tüyü kaşe
+>   palto kapalı, kırmızı eşarp, kahverengi süet çizme), `kase_acik` (palto askıda: kısa siyah triko elbise), `telveli` (palto ve elbise telveli,
+>   eşarp temiz), `salli` (telvelinin üstünde Feraye'nin mor şalı); Cengo `deri` (kahverengi deri ceket, boynunda nazar boncuğu), `salli` (mor şal
+>   başında, boncuk alnında); Gizem girişte `triko` (krem triko, kot; kırmızı yok), kapanışta `kirmizi` (kırmızı elbise).
+> - **23 Kasım'da eklenen 7 nesneli poz** (satır–resim için; metin değişmedi): `sadik.tepsi` (elinde tepsi), `feraye.fincan` (fincanı tabağına
+>   ters çeviriyor), `tarik.telefon` (elinde telefon, öbür elinde yeşil smoothie; iki satır), `sebnem.kasik` (tencerenin başında, tahta kaşık),
+>   `rana.kart` (kart karıştırıyor), `peri.kase.kamera` (tavandaki kameraya bakıyor), `gizem.triko_kahve` (tepside üç fincan kahve).
+> - **Karar kareleri** (diyalog tablosunda): K75 karakol — masada zarflar ve telefon, Tarık Bey ve Şebnem Hanım ifade veriyor · K76 bir kapının
+>   eşiğinde isimsiz zarf, arkada Sadık sırt çantasıyla merdivenden iniyor · K77 büro, Peri'nin yarı açık çekmecesinde Sadık'ın telefonu, masada
+>   zarf · K78 Peri Şebnem Hanım'a zarfını uzatıyor. **Karar sorusunun seçim karesi K70** (Feraye şalı Peri'nin telveli omuzlarına atıyor;
+>   kararı Feraye sorar). Zarflar ve telefon yazısız.
+> - **Konuk benzerliği DURDU** (`node kaynak/arac_benzerlik.js 4`, SEZON-26 — istemden önce zorunlu): **Rana ~ Eylül (V6) puan 7** (ince, oval,
+>   uzun siyah saç, siyah giysi), **Tarık Bey ~ Cengo puan 6** (orta beden, kare yüz, koyu kahve saç, sakal) → **ikisinin görünüşü değişir**
+>   (Oğuz Bey karar verir). Görünüş değişince form §16, `sablon/kurallar/benzerlik/adaylar.tsv` ve diyalogdaki görünüş anlatısı birlikte değişir
+>   (ör. Rana: "Uzun düz siyah saçlı bir kadın…"; Tarık: "Topuzlu, sakallı, keten gömlekli bir adam…"). **Diyalogda söz değişirse:** önce
+>   `node arac_diyalog.js ../sablon/vakalar/vaka4_diyalog.md V4`, commit iletisine `[söz onaylı]`; kapı V4'ü denetliyor (`node arac_kapi.js V4 hikaye`).
+> - **Kapı V4'te açık:** gömmede resim kapısı (`node arac_kapi.js V4 resim`) **poz tablosu** ister — `sablon/vakalar/vaka4_kapi.md` → `## poz`
+>   bugün boş; resimler geldikçe `vaka6_kapi.md`'deki gibi doldurulur. Kalsınlar: `vaka4_kapi.md` → `## kalsın`, `vaka4_bayrak.md`.
+> - Yapılacak dosyalar: `sablon/vakalar/vaka4_gorsel.md` (tablo; `| G<n> | tür | ne | anahtar | referans | aşama |` — CODEX-21), `uretim/v4/LISTE.md`,
+>   `uretim/v4/prompts/G<n>.md`, `uretim/v4/zemin.tsv`. İstemler `./istem_kontrol.sh v4/prompts/*.md` çıkış 0 olmadan üretime girmez.
+
+> ## ✅ 23 KASIM 2026 GECE: VAKA 4 METNİ BİTTİ (Barbaros'un penceresi)
+> - `main`'de: `2625822` (170 etiket, Cengo karar satırları, 17 satır–resim bulgusu), `41a1f48` (Gizem ve Peri parantezleri pozla), `a659207`
+>   (SATIR-43), `375243a` (karar sorusu, dört SEÇENEK, Cengo'nun altı kanıt satırı, kesinti kalktı, Feraye bölündü, "faturasız" çıktı),
+>   `f870831` (sahibinin altı cevabı: K75–K78, "Tarık Bey'in videoları"). Kapı V4 GEÇTİ, doğrulayıcıda V4 uyarısı yok, sızıntı temiz.
+> - Hatırlatma listesi adım 3–5 yapıldı (`sablon/vakalar/vaka4_hatirlatma.md`, 138 madde; sahibi dördüne "kalsın" dedi).
+> - **Bekleyen (commit edilmedi, Barbaros'un bilgisayarında yerel):** `.claude/kapi_hook.js` (kanona yeni poz eklemek yalnız o pozu kullanan
+>   vakayı denetletsin — önceden hepsini) + `kaynak/arac_kapi.js` (derleme hatasının asıl satırını yazar). Commit kapısı V8'de durdurdu:
+>   `Error: UNKNOWN … open 'yeni\index.html'` — Windows dosyayı açamıyor (başka bir program tutuyor olabilir). Sebep araştırılmadı.
+> - Sahibiyle konuşulan, karar verilmeyen öneri: "bitti"nin tanımı kapı olsun, kurallar dondurulsun (yeni kural bitmiş vakayı açmaz).
 
 > ## 🖼️ VAKA 5 RESİM İŞİ — OĞUZ BEY'İN (23 Kasım 2026 akşam, Barbaros'un kararı; Oğuz Bey'in bilgisayarındaki Claude buradan başlar)
 > **İş bölümü (Barbaros, kesin):** metni Barbaros elden geçirir (V5 bitti; sırada V4 → V3 → V2 → V1). **Resim işinin TAMAMI — hazırlık
