@@ -74,7 +74,7 @@
 >    `**CENGO:**` karar satırlarıydı — SATIR-36) · `## ucret` ve SONUÇ'taki kesinti (YAPI-32: silinir, kademeler eşit) · sızıntı
 >    (`node arac_sizinti_tur.js V4 40` + `YENI_UI/sizinti_okuma.txt` elle) · dört yol turu (`vaka4_tur.md` yolları) + satır–resim.
 > 2. **Kapı ölçümü:** `vaka4_kapi.md`'yi `vaka5_kapi.md` gibi yaz (`## yollar` = `vaka4_tur.md`'deki dört yol + karar sırası/suçlama;
->    `## eş söz`; `## poz` boş — V4'ün eski resimleri VAR, poz tablosu onlara bakılarak doldurulabilir; `## kalsın`), sonra
+>    `## eş söz`; `## poz` boş — V4'ün de kendi resmi YOK, V5 gibi; `## kalsın`), sonra
 >    `node arac_kapi.js V4 hikaye --yeniden`. **Bu dosyayı bulgular bitmeden commit etme** — commit edilince V4 kapıya girer, her V4
 >    commit'i kapıdan geçmek zorunda kalır (V5'te öyle yapıldı: dosya en son commit'te girdi).
 > 3. **Etiketler (mekanik, söz aynı):** `node arac_ekran_etiket.js ../sablon/vakalar/vaka4_diyalog.md <kapının "tur çıktıları" klasörü>`
@@ -82,10 +82,12 @@
 >    aynı adlı figürü olabilir (kapı artık yalnız o vakada görünenlere bakıyor); eş sözler (`çaycı`, `usta` …) `vaka4_kapi.md`'ye.
 > 4. **Metin kararları Barbaros'ta** (taslak + onay, söz değişen commit'e `[söz onaylı]`): karar sorusu (soran kişi, ekran, seçim karesi =
 >    kovalamaca sonundaki bir K), dört SEÇENEK, Cengo karar satırları `**CENGO [ifade]:** … {yuz: peri.x}`, her doğru kanıta
->    `## cengo_kanit` satırı (yalnız o kanıtın bilgisi), satır–resim İŞ'leri. **V4'ün resimleri VAR** (eski, onaylı): nesneli poz eklemek
->    yeni resim demek — önce kare bağlama / parantez çıkarma / kalsın düşün; yeni poz gerekirse resim notuna yaz.
+>    `## cengo_kanit` satırı (yalnız o kanıtın bilgisi), satır–resim İŞ'leri. **V4'ün kendi resmi YOK** (24 yer tutucu: A30–A35, feraye, tarik, rana, zerrin,
+>    sebnem, `MASA_V4`; gömülü 2–3 resim büro gibi ortak arka plan) → V5'teki gibi nesneli poz serbest, resimler zaten yeni üretilecek.
+>    **Resmi olan eski vakalar V1, V2, V3** (23 Kasım ölçüm): onlarda yeni poz = yeni resim; önce kare bağlama / parantez çıkarma / kalsın.
 > 5. **Bitiş:** kapı GEÇTİ → `vaka4_kapi.md` dahil commit → push. Sonra DEVIR'e **V4 resim notu** (V5'inki gibi: Oğuz Bey'e; yeni metne
->    uymayan eski resimler, yeni pozlar, değişen kareler; "yeniden üretilen resim eskisinden farklı görünmez" V4'te GEÇERLİ).
+>    yeni pozlar, değişen kareler, benzerlik; V4'te eski resim yok → "eskisinden farklı görünmez" kuralı V4'e uygulanmaz,
+>    V1–V3'te GEÇERLİ).
 > **Açık kalanlar:** V5 sızıntı okuması YAPILDI (23 Kasım akşam, temiz). V5 resim işi Oğuz Bey'de (yukarıdaki 🖼️ bölüm). Öneri bekliyor:
 > araç değişikliğinde commit bütün vakaları beklemesin (yollar artık vaka dosyasında; yalnız ortak araç/motor/arayüz değişince olur).
 > V5'in dört yolunda bilinen: kapanıştaki "Gizem pencerenin önünde" satırında tur aracı `gizem_tel` uyarısı basar (aday, kapı saymaz).
@@ -225,6 +227,8 @@
 > resimlerden **farklı görünmemeli**: aynı yüz, saç, kıyafet, ölçek, zemin ve çizim tarzı. Yol: eski onaylı resim 1. referans (yüz/tarz),
 > o kıyafetin kıyafet kartı eski resimden çıkarılır, her yeni resim `arac_tarz.py` ile eski setle karşılaştırılır ve oyunda eski
 > komşularıyla yan yana konup bakılır.
+> **Not (23 Kasım 2026 ölçüm):** bu karar yalnız resmi olan **V1, V2, V3** için geçerli. **V4 ve V5'in kendi resmi hiç yok** (hepsi gri
+> yer tutucu); onların resimleri baştan üretilir, "eskisinden farklı görünmesin" uygulanmaz.
 >
 > ## 📚 BARBAROS İLE — KURALLARI TEK DOSYADA TOPLAMA (16 Kasım 2026 akşam) — KRİTİK, YARIM, AYRI PENCEREDE SÜRECEK
 > **Önce `sablon/kurallar/PLAN.md`'yi baştan sona oku** (neden, sahibiyle anlaşma, yapılanlar, plan, bulgular, bekleyen sorular).
