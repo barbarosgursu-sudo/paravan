@@ -406,7 +406,7 @@ Gizem yaldızı gösterir: "Burada hâlâ altın var." Peri: "Kalsın."
 
 **Yeni yan karakterlerin görünüşü 🟢** (öncekilerden ayrışır: Müzeyyen kül sarısı mizanpli, Nadide gümüş saç, Jale
 kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
-- **Süheyla Hanım (55):** uzun boylu, uzun yüzlü; parlak siyah saç geriye taranmış, ensede sıkı bir topuz (küt değil, kâkül yok;
+- **Süheyla Hanım (55):** orta boylu, DOLGUN, yuvarlak yüzlü, tombul yanaklı; KALIN SİYAH çerçeveli gözlük (23 Kas, Barbaros: ikinci resim de Jale'ye, Nesrin de ona benzedi — benzerlik aracı); parlak siyah saç geriye taranmış, ensede sıkı bir topuz (küt değil, kâkül yok;
   20 Kas: ilk resim Jale'ye benzedi, benzerlik aracı); koyu kırmızı ruj; KREM boğazlı kazak üstüne gri ekose ceket; parmağında iri kehribar yüzük. Akşam aynı, yakada gümüş hilal broş. Kural 15b:
   Peri'den gösterişsiz.
 - **Nesrin Hanım (58):** ince, kemikli yüz; uzun KOYU KESTANE saç **tek örgü**, omzundan önde (20 Kas: kır saçlı ilk resim Nadide'ye benzedi, benzerlik aracı); gözlüğü başının üstünde; siyah
@@ -415,7 +415,7 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
   takım, **kusursuz koyu yeşil papyon** (ince beyaz puantiyeli; Ferruh bordo papyonlu olduğu için — ortak, 16 Kas); yelek cebinden zincirli büyüteç (lup).
 - **Vedat Bey (50):** iri, kel; kısa kır sakal; bordo kadife ceket, beyaz boğazlı kazak; kalın siyah çerçeveli gözlük
   (Haldun'un incesinden ayrışır).
-- **Kaan (28):** uzun, ince, çocuksu yüzlü; alna düşen perçemli AÇIK KUMRAL saç, yuvarlak kemik çerçeveli gözlük, çil (Bülent ve Cengo’dan ayrılsın — ortak, 16 Kas); dar lacivert takım, beyaz spor ayakkabı; elinde mor ışıklı UV
+- **Kaan (28):** KISA boylu, ufak yapılı, bebek yüzlü; AÇIK SARI, düz, kısa, yandan ayrılmış, alna düşen perçemli saç (23 Kas, Barbaros: kumral hâli Cengo'ya benzedi — benzerlik aracı), yuvarlak kemik çerçeveli gözlük, çil (Bülent ve Cengo’dan ayrılsın — ortak, 16 Kas); dar lacivert takım, beyaz spor ayakkabı; elinde mor ışıklı UV
   lambası; akşam kürsüde tokmak.
 - **Ercan (vale, 40'lar):** kırk yaşında, UZUN ve sırık gibi İNCE; uzun, köşeli yüz, çökük yanaklar, kemerli burun, bıyıksız; jöleli, geriye taranmış siyah saç (Recep, Ferruh ve Bülent’ten ayrılsın — ortak, 16 Kas); siyah, altın düğmeli vale yeleği (Bülent kırmızı yelekli olduğu için — ortak, 16 Kas), beyaz eldiven,
   elinde anahtar halkası.

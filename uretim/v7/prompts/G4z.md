@@ -26,7 +26,7 @@
 
 ## Kontrol
 
-siyah saç GERİYE TARANMIŞ, ensede SIKI TOPUZ (küt değil, kâkülsüz) · uzun yüz · koyu kırmızı ruj · KREM boğazlı kazak + GRİ EKOSE ceket · kehribar yüzük · eller boş · Dilek'e benzemiyor · zemin gri-mavi
+DOLGUN, YUVARLAK yüz, tombul yanaklar · KALIN SİYAH çerçeveli gözlük gözünde · siyah saç GERİYE TARANMIŞ, ensede SIKI TOPUZ (küt değil, kâkülsüz) · koyu kırmızı ruj · KREM boğazlı kazak + GRİ EKOSE ceket · kehribar yüzük · eller boş · Jale'ye, Nesrin'e, Gülsüm'e benzemiyor · zemin gri-mavi
 
 ## İstem
 
@@ -35,7 +35,7 @@ Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. 
 
 Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
 
-Süheyla Hanım: elli beş yaşında, UZUN boylu, dimdik, zayıf, keskin hatlı, Nişantaşı'nda bir müzayede evinin sahibi; hızlı konuşan, gözü her şeyi fiyatlayan bir iş kadını. Yüzü UZUN, ince ve kemerli bir burun, hafif kalkık bir çene. Parlak SİYAH saçı alnından ve şakaklarından sıkıca GERİYE taranmış, ensede küçük, SIKI, düzgün bir TOPUZ; kâkül YOK, yüzünün yanına düşen tel yok, saç omza değmiyor (küt kesim DEĞİL). İnce, kemerli kaşlar, koyu KIRMIZI ruj. KREM rengi, ince örgü, BOĞAZLI bir kazağın üstünde iyi kesimli, GRİ EKOSE yün bir ceket. Bir elinin yüzük parmağında iri, oval, bal rengi bir KEHRİBAR yüzük. Kulaklarında küçük gümüş küpeler. Gözlük YOK. Peri'den gösterişsiz: zarif ama sade, iş kıyafeti. Jale'ye (çene hizasında KÜT kızıl saçlı, siyah elbiseli, keskin yüzlü kadın) benzemiyor: Süheyla'nın saçı geriye topuz, kazağı krem. Dilek'e (kâküllü küt siyah saçlı genç kız) benzemiyor.
+Süheyla Hanım: elli beş yaşında, orta boylu, DOLGUN, etli yapılı ama dimdik ve kendinden emin, Nişantaşı'nda bir müzayede evinin sahibi; hızlı konuşan, gözü her şeyi fiyatlayan bir iş kadını. Yüzü DOLGUN ve YUVARLAK: tombul yanaklar, yumuşak, hafif çift bir çene, küçük kalkık bir burun; zayıf ya da kemikli DEĞİL. Parlak SİYAH saçı alnından ve şakaklarından sıkıca GERİYE taranmış, ensede küçük, SIKI, düzgün bir TOPUZ; kâkül YOK, yüzünün yanına düşen tel yok, saç omza değmiyor (küt kesim DEĞİL). Gözlerinde KALIN, SİYAH, köşeli çerçeveli bir GÖZLÜK (gözünde, başının üstünde değil). Dolgun kaşlar, koyu KIRMIZI ruj. KREM rengi, ince örgü, BOĞAZLI bir kazağın üstünde iyi kesimli, GRİ EKOSE yün bir ceket. Bir elinin yüzük parmağında iri, oval, bal rengi bir KEHRİBAR yüzük. Kulaklarında küçük gümüş küpeler. Peri'den gösterişsiz: zarif ama sade, iş kıyafeti. Jale'ye (çene hizasında KÜT kızıl saçlı, siyah elbiseli, ince keskin yüzlü kadın) benzemiyor: Süheyla dolgun, yuvarlak yüzlü, gözlüklü, saçı geriye topuz. Nesrin'e (ince, uzun yüzlü, koyu kestane örgülü restoratör) benzemiyor. Gülsüm'e (koyu kıvırcık saçlı, gri önlüklü aşçı kadın) benzemiyor: Süheyla şık, ekose ceketli, kırmızı rujlu. Dilek'e (kâküllü küt siyah saçlı genç kız) benzemiyor.
 
 Poz: TAM İKİ KOL, İKİ EL. Bir eli belinde, ceketin kenarında; öbür kolu gövdesinin yanında, eli boş ve gevşek. Elleri boş: çanta, katalog, telefon YOK.
 
