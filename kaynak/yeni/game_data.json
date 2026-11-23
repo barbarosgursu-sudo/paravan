@@ -3985,7 +3985,12 @@
           "etiket": "Sadık'ı polise teslim et",
           "onizleme": "Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Sadık'ın Feraye'ye not sattığı da. Feraye Hanım kızar.",
           "sonuc": "Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Sadık'ın Feraye'ye not sattığı da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücreti ödedi, ama kapıda söylendi: \"Adımı temizleyin dedim, gömün demedim.\"",
-          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Mahalle grubu kaynıyor, Peri. Tarık'ın kitabı en çok şimdi satar."}],
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Mahalle grubu kaynıyor, Peri. Tarık Bey'in videoları en çok şimdi izlenir."
+            }
+          ],
           "cengo_replik": {"i": "kas", "yuz": "peri.kas"},
           "secenek": "“Sadık'ı da telefonu da polise götürüyorum.”"
         },

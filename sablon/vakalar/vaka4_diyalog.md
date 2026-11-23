@@ -365,7 +365,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **ÖNİZLEME:** Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Sadık'ın Feraye'ye not sattığı da. Feraye Hanım kızar.
 **SONUÇ:** Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Sadık'ın Feraye'ye not sattığı da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücreti ödedi, ama kapıda söylendi: "Adımı temizleyin dedim, gömün demedim."
 **SEÇENEK:** “Sadık'ı da telefonu da polise götürüyorum.”
-**CENGO [kas]:** Mahalle grubu kaynıyor, Peri. Tarık'ın kitabı en çok şimdi satar. {yuz: peri.kas}
+**CENGO [kas]:** Mahalle grubu kaynıyor, Peri. Tarık Bey'in videoları en çok şimdi izlenir. {yuz: peri.kas}
 **DEFTER:** Sadık polise teslim edildi. Cihangir'in sırları tutanakta.
 
 ## karar uzaklastir
@@ -453,7 +453,10 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka4_
 | K72 | Cengo sessiz, Gizem'e sonra Peri'nin eşarbına bakıyor | kapanış |
 | K73 | Nazar boncuğu Peri'nin masasında; Cengo kapıda çıkıyor | kapanış (bağ düşük) |
 | K74 | Cengo Peri'nin fincanını tabağa kapatıyor; Peri bakıyor; Gizem arkada | kapanış (bağ yüksek) |
-| K75–K78 | dört kararın ara karesi | kararlar |
+| K75 | Karakol: masada zarflar ve telefon (delil, yazısız); Sadık bir polisin yanında; Tarık Bey ve Şebnem Hanım ifade veriyor | karar polise_ver |
+| K76 | Sabah, Cihangir: bir kapının eşiğinde isimsiz bir zarf (yazısız); arkada Sadık sırt çantasıyla merdivenlerden iniyor | karar uzaklastir |
+| K77 | Büro: Peri'nin çekmecesi yarı açık, içinde Sadık'ın telefonu; masada Sadık'ın bıraktığı zarf (yazısız) | karar dosya_sakla |
+| K78 | Şebnem Hanım'ın kapısında Peri zarfını uzatıyor; Şebnem zarfı alıyor, yüzünde rahatlama | karar gercegi_soyle |
 | Peri `kase` | normal, kas, merakli, utanmis, fincan, kamera (tavandaki kameraya bakıyor) | dışarıda, kafede, yüzleşme |
 | Peri `kase_acik` | normal, kas, merakli | giriş (çekicilikten sonra), konuşma |
 | Peri `telveli` | sinirli, kas | kovalamaca |

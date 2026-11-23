@@ -12,7 +12,7 @@
 - [u] **TON-8** Sahne notu yalnız o an görüleni söyler
 - [u] **TON-9** Anlaşılır replik
 - [u] **TON-10** Giriş uzun ve açıklayıcı yazılır
-- [?] **TON-11** Girişte Peri–Cengo atışması · NOT: Girişte Peri ile Cengo doğrudan atışmıyor; ilk atışmaları hemen sonraki konuşma sahnesinde (nazar boncuğu).
+- [u] **TON-11** Girişte Peri–Cengo atışması · NOT: sahibi: kalsın (23 Kasım 2026)
 - [u] **TON-12** Saat "kala" ile geriye sayılmaz
 - [u] **TON-13** Dördüncü duvar seyrek ve yalnız Cengo
 - [u] **TON-16** Tekrar eden şaka büyür
@@ -60,11 +60,11 @@
 - [u] **YAPI-23** Karar sahnenin içindedir
 - [u] **YAPI-24** Sonuç sahnede gösterilir
 - [u] **YAPI-25** Cengo söylenmeyen doğru kanıtı söyler
-- [?] **YAPI-30** Kirli seçenek Peri'nin bir derdine çare olur · NOT: Peri'nin para derdi V4'te hiç anılmıyor; "Dosyayı sakla"nın (20.000 sus payı) çekiciliği hikâyede kurulmamış.
+- [u] **YAPI-30** Kirli seçenek Peri'nin bir derdine çare olur · NOT: sahibi: kalsın (23 Kasım 2026)
 - [u] **YAPI-31** Para yalnız hikâyededir (kasa yok)
 - [u] **YAPI-32** Ücret hikâyenin parçasıdır; kesinti yok
 - [u] **YAPI-38** Oyun oyuncuya not vermez
-- [?] **YAPI-40** Cengo'nun yorumu gizli not olmamalı · NOT: Cengo'nun dört karar satırı yan yana: iki kirli karara iğne, "gerçeği söyle"ye sıcak; "doğru cevap" gibi okunabilir.
+- [u] **YAPI-40** Cengo'nun yorumu gizli not olmamalı · NOT: sahibi: kalsın (23 Kasım 2026)
 - [u] **SUREC-12** Adım 3: Diyalog
 - [u] **SATIR-1** Temel ilke: söylenen görünür, görünen söylenmiş
 - [u] **SATIR-2** Sözleşmenin amacı, kapsamı ve nerede yakalandığı
@@ -75,7 +75,7 @@
 - [u] **SATIR-13** SR-F İpucu taşıyan eylem her zaman görünür
 - [u] **SATIR-15** SR-I Yüz satıra uyar; bakışın yönü ve hedefi
 - [u] **SATIR-16** Dinleyenin yüzü de satıra uyar
-- [?] **SATIR-18** SR-K Karar karesi SONUÇ'u gösterir · NOT: K75–K78 tabloda tek satır ("dört kararın ara karesi"); her kararın SONUÇ anını gösteren kare tanımı yok — resim notunda yazılmalı.
+- [u] **SATIR-18** SR-K Karar karesi SONUÇ'u gösterir · NOT: düzeltildi: K75–K78 tabloda ayrı ayrı tanımlandı (sahibi, 23 Kasım 2026)
 - [u] **SATIR-19** SR-L Mekân ve olay akışı mantıklı
 - [u] **SATIR-20** Adı geçen herkes ekranda (iki yönlü)
 - [u] **SATIR-21** Yeni gelen: `{mekan}`, `{gir, gi}` ve yalnız gelen ekranda
@@ -91,7 +91,7 @@
 - [u] **KOD-49** Diyaloğa yeni kare eklerken üç yer
 - [u] **KOD-51** Motorun yapamadığı istenmez
 - [u] **KOD-52** Sahne satırı bilgiye göre değişmez
-- [?] **KOD-75** Karar sahnede; Cengo satırları · NOT: KOD-75 "önizleme yok" diyor; V4'te ÖNİZLEME satırları duruyor (ekranda gösterilmiyor; V5 ve V6'da da duruyor).
+- [u] **KOD-75** Karar sahnede; Cengo satırları · NOT: sahibi: kalsın (23 Kasım 2026)
 - [u] **KOD-77** Kasa yok, tohum yok, tutarlar tabloda
 - [u] **KOD-89** Kim yaptı? kanıtları kısa adla
 - [u] **ARAYUZ-16** Figür yerleşimi
@@ -126,7 +126,7 @@
 - [u] **TON-16** Tekrar eden şaka büyür
 - [u] **SINIR-10** Hakaretin yönü yukarıdır
 - [-] **SINIR-12** Benzerlik denetimi (Mavi Ay ve başka eserler)
-- [?] **BILGI-1** Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz · NOT: "Polise ver" Cengo satırı "Tarık'ın kitabı" diyor; kitap yalnız Tarık ve Zerrin ipuçlarında geçiyor, her yolda değil.
+- [u] **BILGI-1** Nurcan kuralı: hak edilmemiş bilgi hiçbir yerden sızmaz · NOT: düzeltildi: "Tarık'ın kitabı" → "Tarık Bey'in videoları" (videolar konuşma sahnesinde, her yolda) (sahibi, 23 Kasım 2026)
 - [u] **BILGI-6** Defter yalnız ara bulgu yazar (eski kural kitabı 21a)
 - [u] **BILGI-9** Zincir defteri: yalnız hak edilmiş düğüm çizilir
 - [-] **BILGI-22** Onarım: geri çekme, ekleme kadar iş görür
