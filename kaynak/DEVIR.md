@@ -30,6 +30,8 @@
 > G5/G10'da takıldı (sona `## Düzeltme 1`) · `arac_el.py` Windows'ta "→" basamıyordu (UTF-8) · **commit kapısı** (`.claude/kapi_hook.js`):
 > onaylı resim / el onayı / görsel tablosu kaydedilirken vakanın TAMAMINI denetliyordu, üretim sürerken hiçbir onay kaydedilemiyordu →
 > artık onaylı resim yalnız kendi üç aracından + el onayından (`arac_el.py --kapi`) geçer; vakanın tamamı gömmede (Barbaros "Evet").
+> · `arac_el.py` önbelleği (`YENI_UI/el/sayim.json`) kodlamasız yazıyordu, V6 resim kapısı duruyordu → UTF-8 + yarım dosya bırakmaz;
+> kapıya KOD-93 bağlandı (kodlamasız `open()` olan `.py` commit edilmez; `kaynak/arac_kodlama.js`). V6 bütün denetimlerden geçiyor (23 Kasım).
 > **Sırada (Barbaros'a sorulacak ilk iş):** Oğuz Bey'in 16 Kasım'da ürettiği 12 resmin denetimi — `uretilen/` G3 (Cengo smokin kartı),
 > G7/G7z (Vedat), G11, G13–G20 (mekânlar). Sonra G12 (G11 onayına bağlı), G2 (Peri gala kartı, engellendi → `WEB_G2.md`, web'de),
 > sonra Parti 2 (`LISTE.md`). Döngü: `cd uretim && KOL=2 SADECE="…" DONGU_LOG=<scratchpad> ./dongu.sh 7`.

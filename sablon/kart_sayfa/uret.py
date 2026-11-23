@@ -1,7 +1,10 @@
 # Paylaş kartı görsellerinin iş sayfası (17 Ekim 2026). Vaka başına bir afiş görseli: o vakanın kişileri
-# ve mekânı, hiçbir ipucu vermeden (Nurcan). Sayfa Vaka 2'nin iş sayfası şablonundan üretilir.
+# ve mekânı, hiçbir ipucu vermeden (Nurcan). Sayfa ortak iş sayfası kalıbından (`sablon/is_sayfasi_sablon.html`, eskiden
+# Vaka 2'nin iş sayfası şablonu) üretilir.
 # Kullanım: python3 uret.py  → kart_gorseller.html (yayın: Artifact, ref/ ile birlikte)
-import json, os
+import json, os, sys
+try: sys.stdout.reconfigure(encoding="utf-8")   # Windows konsolu (cp1252) "→" basamıyordu — 23 Kasım 2026
+except Exception: pass
 STIL = ("Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek insan oranları, "
         "ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. "
         "Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.")
@@ -109,7 +112,7 @@ G.append(dict(no=2, ad="Vaka 2 · Gelinlik — kart görseli", anahtar="kart.V2"
 
 yol = os.path.dirname(os.path.abspath(__file__))
 gruplar = [{"ad": g["sohbet"], "gorseller": [g]} for g in G]
-h = open(os.path.join(yol, "..", "vakalar", "vaka2_sayfa", "sablon.html"), encoding="utf-8").read()
+h = open(os.path.join(yol, "..", "is_sayfasi_sablon.html"), encoding="utf-8").read()
 for eski, yeni in [
     ("/*VERI*/", "const GRUPLAR=" + json.dumps(gruplar, ensure_ascii=False) + ";"),
     ('"vaka2_gorsel_yapildi"', '"kart_gorsel_yapildi"'),

@@ -14,6 +14,7 @@
 //      demeyen resim onaylı kaydedilmez — DENETIM-2, DENETIM-8, DENETIM-53. Sahibinin "kalsın"ı:
 //      sablon/vakalar/vaka<N>_kapi.md → ## kalsın satırı `- G<n> | tarz|yüz|benzerlik | <sebep>`. El onayı da aranır
 //      (arac_el.py --kapi; DENETIM-13). 23 Kasım 2026'dan beri onaylı resim vakanın TAMAMININ resim kapısını açmaz (yalnız (d)).
+//  (f) kodlama: kaydedilen .py dosyasında kodlamasız open()/read_text()/write_text() varsa commit yok — KOD-93 (kaynak/arac_kodlama.js).
 //
 // İKİ KİP: Claude Code'da PreToolUse (stdin JSON). Git kancası olarak: `.githooks/commit-msg` → `node .claude/kapi_hook.js --git <ileti>`
 // (Codex ve terminal commit'leri de geçer; bir kez `git config core.hooksPath .githooks`). Git kancası kuruluysa Claude Code kipi
@@ -247,6 +248,17 @@ if (dosyalar.includes('yeni/index.html') || testGerek) {
     });
     if (atlanan.length) process.stderr.write(`KAPI (bilgi): KOD-38 — araçla yazılamayan (eski biçim) diyaloglar atlandı: ${atlanan.join(', ')}\n`);
     fs.rmSync(gec, { recursive: true, force: true });
+  }
+}
+
+// KOD-93 (23 Kasım 2026, Barbaros): Python'da metin dosyası kodlama belirtilmeden açılmaz — Windows'ta cp1252 Türkçe harfi
+// yazamıyor, dosya yarım kalıyordu (arac_el.py → sayim.json). Yalnız kaydedilen .py dosyalarına bakılır (arsiv/ hariç).
+{
+  const { bul } = require(path.join(kok, 'kaynak', 'arac_kodlama.js'));
+  for (const f of dosyalar.filter(f => /\.py$/.test(f) && !f.startsWith('arsiv/') && fs.existsSync(path.join(kok, f)))) {
+    const b = bul(yeniHal(f));
+    if (b.length) dur.push(`${f}: kodlamasız dosya açma (${b.slice(0, 4).map(x => 'satır ' + x.satir).join(', ')}${b.length > 4 ? ' …' : ''}) — ` +
+      `encoding='utf-8' ekle, ikili dosyada 'rb'/'wb' (KOD-93). Liste: node kaynak/arac_kodlama.js ${f}`);
   }
 }
 

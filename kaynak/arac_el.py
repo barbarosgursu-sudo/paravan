@@ -168,13 +168,20 @@ if __name__ == '__main__':
         on = onaylar(N); kotu = 0
         import json
         sf = os.path.join(KOK, 'YENI_UI', 'el', 'sayim.json'); os.makedirs(os.path.dirname(sf), exist_ok=True)
-        say = json.load(open(sf)) if os.path.exists(sf) else {}
+        # Önbellek hep UTF-8 (Windows'ta varsayılan cp1252 "ş"yi yazamıyor, dosya yarım kalıyordu — 23 Kasım 2026);
+        # bozuk önbellek kapıyı durdurmaz, baştan sayılır; yazma geçici dosyaya, sonra yer değiştirir (yarım dosya kalmaz).
+        try: say = json.load(open(sf, encoding='utf-8')) if os.path.exists(sf) else {}
+        except (ValueError, UnicodeDecodeError): say = {}
+        def say_yaz():
+            gec = sf + '.gecici'
+            with open(gec, 'w', encoding='utf-8') as y: json.dump(say, y, ensure_ascii=False)
+            os.replace(gec, sf)
         for g in secim(N, gs):
             f = kaynak(N, g)
             if not os.path.exists(f): continue
             i = imza(f)
             if (say.get(g) or [None])[0] != i:   # kişi sayısı: resim başına bir kez (imzayla önbellek)
-                _, _, _, b = incele(N, g); say[g] = [i, b]; json.dump(say, open(sf, 'w'), ensure_ascii=False)
+                _, _, _, b = incele(N, g); say[g] = [i, b]; say_yaz()
             # Onaylanmış (imzası tutan) resimde otomatik kişi sayısı uyarısı da kapanır: onaylayan kişi sayıyı da gördü
             # (araç sarılan iki kişiyi tek, mankeni kişi sayabiliyor — V6 G66, G70, G77).
             if on.get(g) != i:

@@ -197,6 +197,8 @@ sona; JS hatası, yatay taşma, kayıt). Test değil, araç; `test_*.js` döngü
 ## Teknik tuzaklar (hepsine düşüldü)
 
 - **Türkçe İ** — KOD-13 (`String(x).toLocaleLowerCase("tr")`).
+- **Python'da metin dosyası hep `encoding='utf-8'`** — KOD-93 (Windows cp1252 "ş"yi yazamaz, dosya yarım kalır; kapı kaydedilen
+  `.py`'de durdurur; elle: `node kaynak/arac_kodlama.js <dosya.py>`).
 - **`index.html` tek bir JS şablon dizgisidir** — KOD-14 (`build_html.js`; `vm.Script` derleme koruması).
 - **`DEV_MOD`** — KOD-15 (22 Kasım 2026'da 🛠 düğmesiyle birlikte söküldü).
 - **Kapıya boru sokma** — KOD-6. Çıktıyı kısaltman gerekiyorsa önce dosyaya yaz, çıkış kodunu ayrı oku:

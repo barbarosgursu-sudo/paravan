@@ -1,4 +1,4 @@
-# Cengo LoRA eğitim seti iş sayfası. Kullanım: python3 uret_cengo.py → cengo_lora.html (vaka2_sayfa/sablon.html'den)
+# Cengo LoRA eğitim seti iş sayfası. Kullanım: python3 uret_cengo.py → cengo_lora.html (sablon/is_sayfasi_sablon.html'den)
 # Peri setinin (uret.py) aynı düzeni: 8 yakın yüz + 9 bel üstü + 8 boydan; C1 setin yüz referansı.
 import json, os
 YOL = os.path.dirname(os.path.abspath(__file__))
@@ -72,7 +72,7 @@ for no, ad, kiy, poz, ifade, zemin in [
 sira = [S1, S2, S3]
 gruplar = [{"ad": s, "gorseller": [g for g in G if g["sohbet"] == s]} for s in sira]
 N = len(G)
-h = open(os.path.join(YOL, "..", "vakalar", "vaka2_sayfa", "sablon.html")).read()
+h = open(os.path.join(YOL, "..", "is_sayfasi_sablon.html"), encoding="utf-8").read()
 deg = [
   ("<title>Vaka 2 Görselleri</title>", "<title>Cengo LoRA Seti</title>"),
   ("<h1>Vaka 2 Görselleri</h1>", "<h1>Cengo LoRA Seti</h1>"),
@@ -91,5 +91,5 @@ for a, b in deg:
     assert a in h, a
     h = h.replace(a, b)
 h = h.replace("/*VERI*/", "const GRUPLAR=" + json.dumps(gruplar, ensure_ascii=False) + ";")
-open(os.path.join(YOL, "cengo_lora.html"), "w").write(h)
+open(os.path.join(YOL, "cengo_lora.html"), "w", encoding="utf-8").write(h)
 print(N, "görsel")

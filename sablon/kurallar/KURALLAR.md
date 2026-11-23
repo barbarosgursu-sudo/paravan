@@ -3693,6 +3693,12 @@ Motorda `metinSec()` çözer. Desteklenen yerler: kaynak `text` ve `meta`, karar
 → ARAYUZ-32 (birleşti, 20 Kasım 2026)
 *Kaynak:* 15
 
+#### KOD-93 Python'da metin dosyası kodlamasız açılmaz
+Python aracında her metin dosyası `encoding='utf-8'` ile açılır (`open`, `read_text`, `write_text`); ikili dosya `'rb'`/`'wb'` ile. Windows'ta Python'un varsayılan kodlaması cp1252'dir: "ş", "ı" yazılamaz, dosya yarıda kesilir, sonraki koşu yarım dosyada çöker. Önbellek gibi araç dosyaları geçici dosyaya yazılıp yerine konur (yarım dosya kalmaz); bozuk önbellek aracı durdurmaz, baştan hesaplanır.
+- *Ders:* (23 Kasım 2026, Barbaros: "bir daha yaşamayalım") `arac_el.py` el denetiminin önbelleğini (`YENI_UI/el/sayim.json`) kodlamasız yazıyordu; dondurulmuş Vaka 6'nın resim kapısı bu yüzden iki kez durdu (önce "ş" yazılamadı, sonra yarım JSON). `PYTHONUTF8=1` geçici çareydi; araç düzeltildi, kapıya denetim bağlandı. Arşivdeki ve dokunulmayan eski araçlar (vaka 2–3 sayfa üreticileri, LoRA sayfaları, YouTube video araçları) kaydedilince denetime girer.
+*Uygulayıcı:* program `.claude/kapi_hook.js` → `kaynak/arac_kodlama.js` (kaydedilen Python dosyası; commit durur)
+*Kaynak:* yeni karar (23 Kasım 2026, Barbaros)
+
 ## ARAYUZ — arayüz kuralları (birleştirilmiş)
 
 #### ARAYUZ-1 Tablet düzeni: genel çerçeve

@@ -1,7 +1,10 @@
 # VAKA 3 — GÖRSEL LİSTESİ VE PROMPTLAR
 
 Üretim adımı 8 (`7_uretim_sureci.md`). **Hikâye 22 Ekim 2026'da donmuş sayıldı** (sahibi: "hikâyeyi donmuş sayalım").
-**Bu dosya `vaka3_sayfa/uret.py` ile üretilir — elle düzenlenmez.** Promptların tam metni iş sayfasında ve `uret.py`'de.
+**Bu dosya eski iş sayfası aracıyla (`vaka3_sayfa/uret.py`) üretilmişti.** Araç 23 Kasım 2026'da arşive gitti
+(`arsiv/sablon/vakalar/vaka3_sayfa/`; Barbaros). Vaka 3 yeni kurallarla yeniden geçirilirken bu tablo yeni üretim düzeninden
+(`uretim/v3/`) yeniden yazılır. Aşağıdaki "iş sayfası", "`uret.py`" ve "`vaka3_sayfa/ref/`" sözleri eski düzene aittir; referansların
+kullanılabilir olanları `uretim/referanslar/` ve `uretim/v3/referanslar/`'da (Peri'nin eski dekolteli referansları kullanılmaz).
 
 **Sahibinin düzeni (22 Ekim 2026):** Aşama 1 ana referanslar tek pencerede → Claude onaylar → Aşama 2 gruplar üç
 pencerede paralel, onaylı referans her pencereye bir kez eklenir → 8–10 görsel birikince toplu gönderilir, Claude toplu değerlendirir
