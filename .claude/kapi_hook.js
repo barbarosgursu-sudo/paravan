@@ -40,8 +40,10 @@ let dosyalar = git(['diff', '--cached', '--name-only']).split('\n').filter(Boole
 if (!GIT_KIPI && (/\bcommit\b[^|;&]*\s-[a-zA-Z]*a/.test(komut) || /\bgit add\b/.test(komut))) dosyalar = dosyalar.concat(git(['diff', '--name-only']).split('\n').filter(Boolean), git(['ls-files', '--others', '--exclude-standard']).split('\n').filter(Boolean));
 dosyalar = [...new Set(dosyalar)];
 
-// Hangi vakalar kapıya girer: Vaka 6 ve sonrası (sahibinin kararı). Vaka listesi diyalog dosyalarından.
-const vakalar = fs.readdirSync(path.join(kok, 'sablon', 'vakalar')).map(f => (f.match(/^vaka(\d+)_diyalog\.md$/) || [])[1]).filter(Boolean).map(Number).filter(n => n >= 6);
+// Hangi vakalar kapıya girer: Vaka 6 ve sonrası (sahibinin kararı) + kapı kaydı (vaka<N>_kapi.md) yazılmış Vaka 1–5
+// (23 Kasım 2026: eski vakalar elden geçip kapıdan geçince girer; V5 ilk). Vaka listesi diyalog dosyalarından.
+const kapida = n => n >= 6 || fs.existsSync(path.join(kok, 'sablon', 'vakalar', `vaka${n}_kapi.md`));
+const vakalar = fs.readdirSync(path.join(kok, 'sablon', 'vakalar')).map(f => (f.match(/^vaka(\d+)_diyalog\.md$/) || [])[1]).filter(Boolean).map(Number).filter(kapida);
 // YALNIZ DEĞİŞEN VAKA (20 Kasım 2026, sahibinin kararı: "kapı yalnız değişen vakayı denetlesin"). Önceden ortak bir dosyaya
 // (veri, resim listesi) dokunmak Vaka 6 ve sonrasının HEPSİNİ baştan denetletiyordu; resimleri henüz üretilmemiş Vaka 7–8 her
 // seferinde kalıyor, tek satırlık bir değişiklik saatlerce bekliyordu. Şimdi:
@@ -145,7 +147,7 @@ const sozOnayli = /\[söz onaylı\]/.test(ileti);
 const onay = {};   // 'v7' → ['G4', …]
 for (const f of dosyalar) {
   const m = f.match(/^uretim\/v(\d+)\/onayli\/(G\d+z?)\.png$/);
-  if (m && Number(m[1]) >= 6 && fs.existsSync(path.join(kok, f))) (onay['v' + m[1]] = onay['v' + m[1]] || []).push(m[2]);
+  if (m && kapida(Number(m[1])) && fs.existsSync(path.join(kok, f))) (onay['v' + m[1]] = onay['v' + m[1]] || []).push(m[2]);
 }
 
 if (process.env.KAPI_KURU) {

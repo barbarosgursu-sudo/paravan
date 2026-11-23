@@ -28,7 +28,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheli (Kadir, Nedim) anılıyor, Selim suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (saati kime gösterdiği, üst güvertede kaç kişi olduğu, vapurun arandığı, çantanın ustası, saatin nereden alındığı).
 
 *Sabah. Büro. Peri masada; ince bir hırkanın altında zümrüt yeşili bir elbise. Cengo pencereden iskeleyi seyrediyor.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
-*Kapı çalınıyor. Eşikte papyonlu, tüvit yelekli, beyaz bıyıklı bir bey; elinde kadife bir kutu.* {gir: muammer, gi: normal, ekran: muammer}
+*Kapı çalınıyor. İçeri papyonlu, tüvit yelekli, beyaz bıyıklı bir bey giriyor; elinde kadife bir kutu.* {gir: muammer, gi: kutu, ekran: muammer}
 **MUAMMER [normal]:** Paravan Dedektiflik? Ben Muammer. Çukurcuma'da otuz yıldır antikacıyım. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
 **PERİ [normal]:** Buyurun Muammer Bey, oturun. Sizi dinliyorum. {ekran: peri+muammer, yuz: muammer.normal}
 **MUAMMER [dertli]:** Salı günü saat ikide Karaköy'den Kadıköy vapuruna bindim. Çantamda bir cep saati vardı. {kime: peri, ekran: peri+muammer, yuz: peri.normal}
@@ -66,7 +66,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ arka: A6 · figurler: peri, cengo · set: ipek_acik · cset: balikci
 ⚙ akış: Muammer çıkmış; büroda Peri ve Cengo. Plan: vapur (Kadir ve üst güverte), Kadıköy iskelesi, Nedim Bey, Muammer'in dükkânı. İpucu adlarındaki kişiler (Kadir, Nedim, Muammer) girişte duyuldu (K18).
 
-*Kapı kapanıyor. Peri pencereyi hemen kapatıyor.* {ekran: peri, yuz: peri.normal}
+*Kapı kapanıyor. Peri pencereyi hemen kapatıyor.* {kare: K79}
 **CENGO [kas]:** Kasımda ipek elbise. Vapura binileceğini bilseydin palto giyerdin. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 **PERİ [kas]:** Bugün vapura bineceğimi bilmiyordum. Bilseydim hiç gelmezdim. {ekran: peri+cengo, yuz: cengo.kas}
 **CENGO [normal]:** Bu iş vapurda başladı, vapurda biter. Önce Kadir'e gideriz; o vapurda her şeyi görür. {ekran: peri+cengo, yuz: peri.kas}
@@ -86,7 +86,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Karaköy iskelesi. Bir vapur yanaşmış; martılar bacanın çevresinde dönüyor.* {arka: A42, mekan, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Vapurun alt salonu: sıra sıra ahşap koltuklar, ortada bir direk, köşede çay tezgâhı. Peri bir direğe tutunmuş, yüzü yeşile çalıyor.* {arka: A36, mekan, peri: yesil, ekran: peri}
-*Tezgâhta tombul, kalın bıyıklı, beyaz ceketli bir çaycı; elinde ince belli bardaklarla dolu bir tepsi.* {gir: kadir, gi: normal, ekran: kadir}
+*Tezgâhta tombul, kalın bıyıklı, beyaz ceketli bir çaycı; elinde ince belli bardaklarla dolu bir tepsi.* {gir: kadir, gi: tepsi, ekran: kadir}
 **KADİR [normal]:** Cengo! Gel bakalım, çayın hazır. Hanımefendiye de bir tane mi? {gir: kadir, kime: cengo, ekran: cengo+kadir, yuz: cengo.normal}
 **PERİ [yesil]:** Bana çay değil, kara lazım. {ekran: peri+kadir, yuz: kadir.normal}
 **CENGO [kas]:** Kadir, salı günkü çay kazasını soracağız. Muammer Bey'in üstüne döktüğün çay. {kime: kadir, ekran: cengo+kadir, yuz: kadir.normal}
@@ -111,8 +111,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Karaköy iskelesi. Vapur kalkmak üzere.* {arka: A42, mekan, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Vapurun üst güvertesi. Rüzgâr sert; martılar korkuluğun üstünde asılı duruyor. Peri'nin saçı yüzüne yapışıyor.* {arka: A37, mekan, peri: yesil, ekran: peri}
-*Sarı yağmurluklu küçük bir çocuk martılara simit atıyor. Yanında bereli, sportif bir kadın.* {gir: derya, gi: normal, ekran: efe, yuz: efe.normal}
-**CENGO [gulen]:** *(kollarını açıp martı gibi bağırarak)* Kiyaaa! {gir: derya, kime: derya, ekran: cengo+derya, yuz: derya.normal}
+*Sarı yağmurluklu küçük bir çocuk martılara simit atıyor. Yanında bereli, sportif bir kadın.* {gir: efe, gi: simit, ekran: efe+derya, yuz: derya.normal}
+**CENGO [kollar]:** *(kollarını açıp martı gibi bağırarak)* Kiyaaa! {gir: derya, kime: derya, ekran: cengo+derya, yuz: derya.normal}
 **EFE [gulen]:** Bir daha yap! Bir daha! {gir: efe, kime: cengo, ekran: cengo+efe, yuz: cengo.gulen}
 **DERYA [normal]:** Efe, abiyi rahat bırak. Kusura bakmayın; her salı bu vapurdayız, martılar için. {gir: derya, kime: cengo, ekran: cengo+derya, yuz: cengo.gulen}
 **PERİ [yesil]:** Geçen salı, ikide kalkan vapurda da burada mıydınız? {ekran: peri+derya, yuz: derya.normal}
@@ -125,7 +125,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** İki kişi "bütün yol yukarıdaydım" diyor, Cengo. Burada bir kişi varmış. {ekran: peri+derya, yuz: derya.normal}
 **EFE [normal]:** Abla, sen niye yeşilsin? {gir: efe, kime: peri, ekran: peri+efe, yuz: peri.kas}
 **PERİ [yesil]:** Ben yeşil değilim. Elbisem yeşil. {ekran: peri+efe, yuz: efe.normal}
-**CENGO [gulen]:** *(martılara simit atarak)* Simitçiyi yirmi beşe ikna ettim. Martılar da benim gibi pazarlıkçı. {ekran: peri+cengo, yuz: peri.yesil}
+**CENGO [simit]:** *(martılara simit atarak)* Simitçiyi yirmi beşe ikna ettim. Martılar da benim gibi pazarlıkçı. {ekran: peri+cengo, yuz: peri.yesil}
 
 ## ipucu kadikoy_iskele
 ⚙ arka: A38 · figurler: peri, cengo · set: ipek · cset: balikci
@@ -133,7 +133,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: çanta karaya çıktı, Kadir vapurdan inmez; çantayla inen üç kişi (Muammer, Selim, Nedim) — Selim ya da Nedim.
 
 *Kadıköy iskelesi. Turnikelerden insanlar akıyor; bir vapur yanaşıyor.* {arka: A38, mekan, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
-*Lacivert yelekli, boynunda düdük olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.* {gir: gorevli, gi: normal, ekran: gorevli}
+*Lacivert yelekli, boynunda düdük olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.* {gir: gorevli, gi: defter, ekran: gorevli}
 **PERİ [normal]:** İyi günler. Salı günü ikide Karaköy'den kalkan vapurda bir çanta kaybolmuş. Sahibi size gelmiş. {gir: gorevli, kime: gorevli, ekran: peri+gorevli, yuz: gorevli.normal}
 **GÖREVLİ [normal]:** Muammer Bey. Hatırlıyorum; kıpkırmızıydı. Hanımefendi, siz otursanız iyi olur, renginiz gitmiş. {kime: peri, ekran: peri+gorevli, yuz: peri.normal}
 *Peri iskelenin bankına oturuyor; bacak bacak üstüne atıp ipek eteğini düzeltiyor.* {peri: yesil, ekran: peri}
@@ -152,7 +152,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Moda'da bir apartman dairesi; koleksiyon odası: duvarlarda saatler, vitrinde cep saatleri. Nedim bastonuyla karşılar. Sahne sonunda bütün saatler aynı anda çalar (öğlen on iki).
 ⚙ Kural 21c: Nedim saatin o gün yola çıktığını bilmiyordu (çırağın sözü) — bilen Kadir ya da Selim. Salı vapuru Nedim'i şüpheli gösterir, masum açıklaması var.
 
-*Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
+*Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan}
 *Gümüş saçları geriye taranmış, fularlı, bastonlu yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
 **NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. {gir: nedim, kime: peri, ekran: peri+nedim, yuz: peri.normal}
 **NEDİM [normal]:** Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli. {ekran: peri+nedim, yuz: peri.normal}
@@ -164,7 +164,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [merakli]:** Saatin o gün Kadıköy'e satılmaya gittiğini biliyor muydunuz? {gir: nedim, kime: nedim, ekran: peri+nedim, yuz: nedim.normal}
 **NEDİM [normal]:** Bilseydim vapurda yanına oturur, alıcıdan önce davranırdım. {kime: peri, ekran: peri+nedim, yuz: peri.merakli}
 **NEDİM [normal]:** Salı sabahı dükkâna uğradım, saati yine sordum. Çırak "kasada, Muammer Bey satmıyor" dedi. {ekran: peri+nedim, yuz: peri.merakli}
-*Peri Nedim'in yüzüne bakıyor. Bastonunun gümüş başı elinde kıpırdamıyor.* {ekran: peri+nedim, yuz: peri.merakli+nedim.normal}
+*Peri Nedim'in yüzüne bakıyor. Bastonunun gümüş başı elinde kıpırdamıyor.* {ekran: peri+nedim, yuz: peri.merakli+nedim.baston}
 **PERİ [kas]:** Doğru söylüyorsunuz. Yalan söyleseydiniz bunu bu kadar keyifle anlatmazdınız. {kime: nedim, ekran: peri+nedim, yuz: nedim.normal}
 *Odadaki bütün saatler aynı anda çalmaya başlıyor. Peri yerinden sıçrıyor.* {kare: D15}
 **NEDİM [alayci]:** Öğlen oldu. Alışırsınız. {gir: nedim, kime: peri, ekran: peri+nedim, yuz: peri.kas}
@@ -177,8 +177,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: bu çantadan üç tane yapıldı: Muammer, Selim, Nedim — ikizi olabilecek iki kişi Selim ya da Nedim.
 
 *Kadıköy çarşısı. Balıkçıların arasında dar bir kapı; içeride deri kokan küçük bir atölye. Tezgâhta yarım kalmış çantalar.* {arka: A40, mekan, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
-*Deri önlüklü, gözlüğü burnunun ucunda yaşlı bir usta, bir kayışı dikiyor.* {gir: ismet, gi: normal, ekran: ismet}
-*Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.* {ekran: peri+muammer, yuz: peri.normal+muammer.ofkeli}
+*Deri önlüklü, gözlüğü burnunun ucunda yaşlı bir usta, bir kayışı dikiyor.* {gir: ismet, gi: dikiyor, ekran: ismet}
+*Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.* {ekran: peri+muammer, yuz: peri.canta+muammer.ofkeli}
 **PERİ [normal]:** Bu çanta sizin işiniz mi? İçinde bir damga var. {gir: ismet, kime: ismet, ekran: peri+ismet, yuz: ismet.normal}
 **İSMET [normal]:** *(damgaya bakıp)* Benim işim. İsmet. Elli yıldır bu damgayı vururum. {kime: peri, ekran: peri+ismet, yuz: peri.normal}
 **CENGO [kas]:** Bu çantadan kaç tane yaptın, usta? {ekran: cengo+ismet, yuz: ismet.normal}
@@ -191,7 +191,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **İSMET [normal]:** Senin için iki bin. {kime: cengo, ekran: cengo+ismet, yuz: cengo.gulen}
 **CENGO [kas]:** Bin lira olmaz mı, usta? {ekran: cengo+ismet, yuz: ismet.normal}
 **İSMET [normal]:** İki bin beş yüz. Pazarlık ettikçe artar. {kime: cengo, ekran: cengo+ismet, yuz: cengo.kas}
-**PERİ [normal]:** *(derin bir nefes alarak)* Ayağımın altı ilk kez sallanmıyor. Burada biraz daha kalalım. {ekran: peri+ismet, yuz: ismet.normal}
+**PERİ [normal]:** Ayağımın altı ilk kez sallanmıyor. Burada biraz daha kalalım. {ekran: peri+ismet, yuz: ismet.normal}
 
 ## ipucu dukkan_cukurcuma
 ⚙ arka: A41 · figurler: peri, cengo · set: ipek · cset: balikci
@@ -214,7 +214,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Muammer bıyığını iki parmağıyla düzeltiyor; Peri'nin gözüne bakmıyor.* {gir: muammer, gi: kacamak, ekran: peri+muammer, yuz: peri.kas}
 **PERİ [kas]:** Yalan söylerken bıyığınızı düzeltiyorsunuz. {kime: muammer, ekran: peri+muammer, yuz: muammer.kacamak}
 **MUAMMER [kacamak]:** …Bir hurdacıdan aldım. İki ay önce. Belgesi yok. Değerinin çok altındaydı, sormadım. {kime: peri, ekran: peri+muammer, yuz: peri.kas}
-**SELİM [normal]:** *(sandalyenin başından, başını kaldırmadan)* Ben sana o gün de söylemiştim, Muammer. {gir: selim, kime: muammer, ekran: selim+muammer, yuz: muammer.kacamak}
+**SELİM [sandalye]:** *(sandalyenin başından, başını kaldırmadan)* Ben sana o gün de söylemiştim, Muammer. {gir: selim, kime: muammer, ekran: selim+muammer, yuz: muammer.kacamak}
 **MUAMMER [ofkeli]:** Sen sandalyene bak, Selim. {kime: selim, ekran: muammer+selim, yuz: selim.normal}
 **CENGO [gulen]:** Selim Bey, salı vapurda deniz tuttu mu sizi? {kime: selim, ekran: cengo+selim, yuz: selim.normal}
 **SELİM [normal]:** Her seferinde. Yukarı çıkıp hava alırım, yoksa yaşayamam. {kime: cengo, ekran: cengo+selim, yuz: cengo.gulen}
@@ -229,7 +229,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.* {kare: K80}
 **MUAMMER [normal]:** Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
-*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: normal, ekran: simitci+cengo, yuz: cengo.normal}
+*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: tabla, ekran: simitci+cengo, yuz: cengo.normal}
 **SİMİTÇİ [normal]:** Al abi, bedava. Yeter ki pazarlık etme. {kime: cengo, ekran: cengo+simitci, yuz: cengo.normal}
 **PERİ [normal]:** Selim Bey. Saati siz aldınız. Çantaları siz değiştirdiniz. {gir: selim, kime: selim, ekran: peri+selim, yuz: selim.normal}
 **SELİM [normal]:** Ben mi? Otuz yıl o dükkânda… Ben Muammer'in tamircisiyim, hanımefendi. {kime: peri, ekran: peri+selim, yuz: peri.normal}
@@ -246,7 +246,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.* {kare: K80}
 **MUAMMER [normal]:** Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
-*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: normal, ekran: simitci+cengo, yuz: cengo.normal}
+*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: tabla, ekran: simitci+cengo, yuz: cengo.normal}
 **SİMİTÇİ [normal]:** Al abi, bedava. Yeter ki pazarlık etme. {kime: cengo, ekran: cengo+simitci, yuz: cengo.normal}
 **PERİ [normal]:** Selim Bey. Saati siz aldınız. {gir: selim, kime: selim, ekran: peri+selim, yuz: selim.normal}
 **SELİM [normal]:** Beni deniz tutar, hanımefendi. Bütün yol yukarıdaydım. Kanıtınız ne? {kime: peri, ekran: peri+selim, yuz: peri.normal}
@@ -262,11 +262,11 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.* {kare: K80}
 **MUAMMER [normal]:** Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
-*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: normal, ekran: simitci+cengo, yuz: cengo.normal}
+*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: tabla, ekran: simitci+cengo, yuz: cengo.normal}
 **SİMİTÇİ [normal]:** Al abi, bedava. Yeter ki pazarlık etme. {kime: cengo, ekran: cengo+simitci, yuz: cengo.normal}
 **PERİ [kas]:** Kadir. Çayı sen döktün, çantanın başında da sen kaldın. Saati sen aldın. {gir: kadir, kime: kadir, ekran: peri+kadir, yuz: kadir.normal}
 **KADİR [alinmis]:** Ben mi? Yirmi yıldır bu vapurda bir kaşık eksik vermedim! {kime: peri, ekran: peri+kadir, yuz: peri.kas}
-**KADİR [alinmis]:** *(tepsiyi bırakıp kollarını açarak)* Arayın beni! Ceplerim, tezgâhım, her yer sizin! {ekran: peri+kadir, yuz: peri.kas}
+**KADİR [alinmis]:** Arayın beni! Ceplerim, tezgâhım, her yer sizin! {ekran: peri+kadir, yuz: peri.kas}
 *Saat üç. Selim'in ceketinin iç cebinden ince, tiz bir zil sesi yükseliyor.* {kare: K81}
 **MUAMMER [ofkeli]:** Benim saatim! {gir: muammer, kime: selim, ekran: muammer+selim, yuz: selim.gergin}
 *Herkes Selim'e dönüyor. Selim merdivene koşuyor.* {cik, kare: K82}
@@ -277,11 +277,11 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Perşembe öğleden sonra. Kadıköy'den Karaköy'e giden vapurun alt salonu. Muammer herkesi aynı koltukların başına toplamış: Selim, Nedim Bey. Kadir tezgâhta.* {kare: K80}
 **MUAMMER [normal]:** Saat iki kırk beş. Aynı vapur, aynı salon. Hırsız buradaysa, burada bulunsun. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
-*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: normal, ekran: simitci+cengo, yuz: cengo.normal}
+*Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.* {gir: simitci, gi: tabla, ekran: simitci+cengo, yuz: cengo.normal}
 **SİMİTÇİ [normal]:** Al abi, bedava. Yeter ki pazarlık etme. {kime: cengo, ekran: cengo+simitci, yuz: cengo.normal}
 **PERİ [kas]:** Nedim Bey. Saati istiyordunuz, aynı vapurdaydınız. Saati siz aldınız. {gir: nedim, kime: nedim, ekran: peri+nedim, yuz: nedim.normal}
 **NEDİM [alayci]:** Ben o saati alsaydım, hanımefendi, şimdi Moda'da duvarımda çalıyor olurdu. {kime: peri, ekran: peri+nedim, yuz: peri.kas}
-**NEDİM [alayci]:** *(bastonuyla salonu göstererek)* Saat üç olmak üzere. Dinleyin bakalım, nerede çalacak. {ekran: peri+nedim, yuz: peri.kas}
+**NEDİM [baston]:** *(bastonuyla salonu göstererek)* Saat üç olmak üzere. Dinleyin bakalım, nerede çalacak. {ekran: peri+nedim, yuz: peri.kas}
 *Saat üç. Selim'in ceketinin iç cebinden ince, tiz bir zil sesi yükseliyor.* {kare: K81}
 **MUAMMER [ofkeli]:** Benim saatim! {gir: muammer, kime: selim, ekran: muammer+selim, yuz: selim.gergin}
 *Herkes Selim'e dönüyor. Selim merdivene koşuyor.* {cik, kare: K82}

@@ -64,7 +64,7 @@
             "kase_acik": ["normal", "kas", "merakli"],
             "telveli": ["sinirli", "kas"],
             "salli": ["kas", "sasirmis", "kiskanc"],
-            "ipek": ["normal", "kas", "merakli", "utanmis", "yesil"],
+            "ipek": ["normal", "kas", "merakli", "utanmis", "yesil", "canta"],
             "ipek_acik": ["normal", "kas"],
             "islak": ["sinirli", "kas"],
             "battaniye": ["normal", "kas"],
@@ -90,7 +90,7 @@
             "unlu": ["normal", "kas", "gulen", "yumusak"],
             "deri": ["normal", "kas", "gulen", "yumusak"],
             "salli": ["kas", "gulen"],
-            "balikci": ["normal", "kas", "gulen"],
+            "balikci": ["normal", "kas", "gulen", "kollar", "simit"],
             "simitli": ["kas", "normal", "gulen", "yumusak"],
             "utulu": ["normal", "kas", "gulen", "yumusak", "sinirli", "borek"],
             "duvakli": ["kas", "yumusak"],
@@ -151,15 +151,15 @@
         "rana": {"ad": "Rana", "ifadeler": ["normal", "alayci"]},
         "zerrin": {"ad": "Zerrin", "ifadeler": ["normal"]},
         "sebnem": {"ad": "Şebnem", "ifadeler": ["gergin", "normal"]},
-        "muammer": {"ad": "Muammer", "ifadeler": ["normal", "dertli", "ofkeli", "kacamak"]},
-        "selim": {"ad": "Selim", "ifadeler": ["normal", "gergin", "itiraf"]},
-        "kadir": {"ad": "Kadir", "ifadeler": ["normal", "alinmis", "gulen"]},
-        "nedim": {"ad": "Nedim", "ifadeler": ["normal", "alayci"]},
+        "muammer": {"ad": "Muammer", "ifadeler": ["normal", "dertli", "ofkeli", "kacamak", "kutu"]},
+        "selim": {"ad": "Selim", "ifadeler": ["normal", "gergin", "itiraf", "sandalye"]},
+        "kadir": {"ad": "Kadir", "ifadeler": ["normal", "alinmis", "gulen", "tepsi"]},
+        "nedim": {"ad": "Nedim", "ifadeler": ["normal", "alayci", "baston"]},
         "derya": {"ad": "Derya", "ifadeler": ["normal"]},
-        "efe": {"ad": "Efe", "ifadeler": ["gulen", "normal"]},
-        "gorevli": {"ad": "Görevli", "ifadeler": ["normal"]},
-        "ismet": {"ad": "İsmet Usta", "ifadeler": ["normal"]},
-        "simitci": {"ad": "Simitçi", "ifadeler": ["normal", "ofkeli"]},
+        "efe": {"ad": "Efe", "ifadeler": ["gulen", "normal", "simit"]},
+        "gorevli": {"ad": "Görevli", "ifadeler": ["normal", "defter"]},
+        "ismet": {"ad": "İsmet Usta", "ifadeler": ["normal", "dikiyor"]},
+        "simitci": {"ad": "Simitçi", "ifadeler": ["normal", "ofkeli", "tabla"]},
         "eylul": {"ad": "Eylül", "ifadeler": ["sevincli", "kiskanc", "gulen", "uzgun", "normal"]},
         "haldun": {"ad": "Haldun", "ifadeler": ["dertli", "normal", "yumusak"]},
         "muzeyyen": {"ad": "Müzeyyen", "ifadeler": ["normal", "gergin", "itiraf", "tepsi", "tepsi_uzgun"]},
@@ -4409,7 +4409,7 @@
                 "k": "not",
                 "m": "Tezgâhta tombul, kalın bıyıklı, beyaz ceketli bir çaycı; elinde ince belli bardaklarla dolu bir tepsi.",
                 "gir": "kadir",
-                "gi": "normal",
+                "gi": "tepsi",
                 "ekran": "kadir"
               },
               {
@@ -4561,14 +4561,14 @@
               {
                 "k": "not",
                 "m": "Sarı yağmurluklu küçük bir çocuk martılara simit atıyor. Yanında bereli, sportif bir kadın.",
-                "gir": "derya",
-                "gi": "normal",
-                "ekran": "efe",
-                "yuz": "efe.normal"
+                "gir": "efe",
+                "gi": "simit",
+                "ekran": "efe+derya",
+                "yuz": "derya.normal"
               },
               {
                 "k": "cengo",
-                "i": "gulen",
+                "i": "kollar",
                 "m": "(kollarını açıp martı gibi bağırarak) Kiyaaa!",
                 "gir": "derya",
                 "kime": "derya",
@@ -4670,7 +4670,7 @@
               },
               {
                 "k": "cengo",
-                "i": "gulen",
+                "i": "simit",
                 "m": "(martılara simit atarak) Simitçiyi yirmi beşe ikna ettim. Martılar da benim gibi pazarlıkçı.",
                 "ekran": "peri+cengo",
                 "yuz": "peri.yesil"
@@ -4705,7 +4705,7 @@
                 "k": "not",
                 "m": "Lacivert yelekli, boynunda düdük olan bir görevli, elinde bir defterle kulübesinin önünde duruyor.",
                 "gir": "gorevli",
-                "gi": "normal",
+                "gi": "defter",
                 "ekran": "gorevli"
               },
               {
@@ -4823,9 +4823,7 @@
                 "k": "not",
                 "m": "Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.",
                 "arka": "A39",
-                "mekan": true,
-                "ekran": "peri+cengo",
-                "yuz": "peri.normal+cengo.normal"
+                "mekan": true
               },
               {
                 "k": "not",
@@ -4909,7 +4907,7 @@
                 "k": "not",
                 "m": "Peri Nedim'in yüzüne bakıyor. Bastonunun gümüş başı elinde kıpırdamıyor.",
                 "ekran": "peri+nedim",
-                "yuz": "peri.merakli+nedim.normal"
+                "yuz": "peri.merakli+nedim.baston"
               },
               {
                 "k": "peri",
@@ -4978,14 +4976,14 @@
                 "k": "not",
                 "m": "Deri önlüklü, gözlüğü burnunun ucunda yaşlı bir usta, bir kayışı dikiyor.",
                 "gir": "ismet",
-                "gi": "normal",
+                "gi": "dikiyor",
                 "ekran": "ismet"
               },
               {
                 "k": "not",
                 "m": "Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.",
                 "ekran": "peri+muammer",
-                "yuz": "peri.normal+muammer.ofkeli"
+                "yuz": "peri.canta+muammer.ofkeli"
               },
               {
                 "k": "peri",
@@ -5071,7 +5069,7 @@
               {
                 "k": "peri",
                 "i": "normal",
-                "m": "(derin bir nefes alarak) Ayağımın altı ilk kez sallanmıyor. Burada biraz daha kalalım.",
+                "m": "Ayağımın altı ilk kez sallanmıyor. Burada biraz daha kalalım.",
                 "ekran": "peri+ismet",
                 "yuz": "ismet.normal"
               }
@@ -5213,7 +5211,7 @@
               },
               {
                 "k": "selim",
-                "i": "normal",
+                "i": "sandalye",
                 "m": "(sandalyenin başından, başını kaldırmadan) Ben sana o gün de söylemiştim, Muammer.",
                 "gir": "selim",
                 "kime": "muammer",
@@ -5401,9 +5399,9 @@
             },
             {
               "k": "not",
-              "m": "Kapı çalınıyor. Eşikte papyonlu, tüvit yelekli, beyaz bıyıklı bir bey; elinde kadife bir kutu.",
+              "m": "Kapı çalınıyor. İçeri papyonlu, tüvit yelekli, beyaz bıyıklı bir bey giriyor; elinde kadife bir kutu.",
               "gir": "muammer",
-              "gi": "normal",
+              "gi": "kutu",
               "ekran": "muammer"
             },
             {
@@ -5640,7 +5638,7 @@
           "cset": "balikci",
           "figurler": ["peri", "cengo"],
           "satirlar": [
-            {"k": "not", "m": "Kapı kapanıyor. Peri pencereyi hemen kapatıyor.", "ekran": "peri", "yuz": "peri.normal"},
+            {"k": "not", "m": "Kapı kapanıyor. Peri pencereyi hemen kapatıyor.", "kare": "K79"},
             {
               "k": "cengo",
               "i": "kas",
@@ -5725,7 +5723,7 @@
               "k": "not",
               "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
               "gir": "simitci",
-              "gi": "normal",
+              "gi": "tabla",
               "ekran": "simitci+cengo",
               "yuz": "cengo.normal"
             },
@@ -5816,7 +5814,7 @@
               "k": "not",
               "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
               "gir": "simitci",
-              "gi": "normal",
+              "gi": "tabla",
               "ekran": "simitci+cengo",
               "yuz": "cengo.normal"
             },
@@ -5897,7 +5895,7 @@
               "k": "not",
               "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
               "gir": "simitci",
-              "gi": "normal",
+              "gi": "tabla",
               "ekran": "simitci+cengo",
               "yuz": "cengo.normal"
             },
@@ -5929,7 +5927,7 @@
             {
               "k": "kadir",
               "i": "alinmis",
-              "m": "(tepsiyi bırakıp kollarını açarak) Arayın beni! Ceplerim, tezgâhım, her yer sizin!",
+              "m": "Arayın beni! Ceplerim, tezgâhım, her yer sizin!",
               "ekran": "peri+kadir",
               "yuz": "peri.kas"
             },
@@ -5974,7 +5972,7 @@
               "k": "not",
               "m": "Simitçi Cengo'nun önünde duruyor, tablasından bir simidi uzatıyor.",
               "gir": "simitci",
-              "gi": "normal",
+              "gi": "tabla",
               "ekran": "simitci+cengo",
               "yuz": "cengo.normal"
             },
@@ -6005,7 +6003,7 @@
             },
             {
               "k": "nedim",
-              "i": "alayci",
+              "i": "baston",
               "m": "(bastonuyla salonu göstererek) Saat üç olmak üzere. Dinleyin bakalım, nerede çalacak.",
               "ekran": "peri+nedim",
               "yuz": "peri.kas"

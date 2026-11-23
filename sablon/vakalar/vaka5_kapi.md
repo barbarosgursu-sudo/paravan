@@ -24,6 +24,7 @@ Anlatıda kişiyi adı yerine anan sözler (adın kendisi kanondan otomatik). Ya
 - ismet: usta, ustası, ustanın, ustaya
 - gorevli: görevli, görevlinin, görevliye
 - simitci: simitçi, simitçinin, simitçiye, simitçiyle
+- derya: kadın, kadının, kadına
 
 ## poz
 
@@ -36,3 +37,4 @@ Vaka 5'in figürleri henüz üretilmedi (23 Kasım 2026: hepsi gri yer tutucu); 
 ## kalsın
 
 Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.
+- K4 | Sabah. Büro. Peri masada
