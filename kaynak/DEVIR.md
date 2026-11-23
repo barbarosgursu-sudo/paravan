@@ -8,6 +8,10 @@
 
 ---
 
+> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (23 Kasım 2026 akşam)
+> - **Barbaros'un penceresi (metin):** VAKA 4 → aşağıda "▶️ YENİ PENCERE: VAKA 4" (adım adım tarif, V5'te izlenen sıra).
+> - **Oğuz Bey'in penceresi (resim):** önce V7–V8 (aşağıdaki 23 Kasım sabah notu, `uretim/v7/DURUM.md`), sonra V5 → hemen altta "🖼️ VAKA 5 RESİM İŞİ".
+
 > ## 🖼️ VAKA 5 RESİM İŞİ — OĞUZ BEY'İN (23 Kasım 2026 akşam, Barbaros'un kararı; Oğuz Bey'in bilgisayarındaki Claude buradan başlar)
 > **İş bölümü (Barbaros, kesin):** metni Barbaros elden geçirir (V5 bitti; sırada V4 → V3 → V2 → V1). **Resim işinin TAMAMI — hazırlık
 > (liste, istemler), üretim, onay, gömme — Oğuz Bey'in bilgisayarında, onun hesabıyla.** **Görünüş kararlarının hepsini Oğuz Bey verir**
@@ -63,10 +67,25 @@
 >   `vaka5_bayrak.md`. **Kapı V5 hikâye GEÇTİ**; commit kancası V5'i de denetliyor (`kapida()`: n ≥ 6 ya da kapı kaydı var).
 > - `9758009` Tur yolları koddan `sablon/vakalar/vakaN_tur.md`'ye (V1–V8): yeni vaka (V9…) araçları değiştirmez, öbür vakaları
 >   yeniden denetletmez. Eski/yeni tur üç yolda birebir aynı.
-> **V4'e geçerken (aynı sıra):** önce eksik listesi (doğrulayıcı uyarıları — V4'te 6; `arac_diyalog.js` deneme yazımı geçici klasörde;
-> `vaka4_kapi.md` yazılıp `node arac_kapi.js V4 hikaye --yeniden` ile ölçüm). V4 kapı kaydı commit edilince V4 kapıya girer — bulgular
-> bitmeden commit etme (V5'te öyle yapıldı). Etiket betiği (ekran/yüz) tek seferlikti, yeniden yazılabilir: tur dökümünden konuşan +
-> hitap/kime, anlatıda anılanlar; yüz ekrandaki figürden.
+> **▶️ YENİ PENCERE: VAKA 4 (Barbaros, 23 Kasım akşam — "yeni pencerede V4'ün eksik listesi").** V5'te izlenen sıra, aynen:
+> 1. **Eksik listesi, dosya değiştirmeden** (SUREC-1; Barbaros'a kısa, maddeli, önce sonuç): doğrulayıcı uyarıları (`node dogrulayici.js`
+>    → V4 satırları; V5'te K19 cengo_kanit, K20 karar_soru/SEÇENEK, K21 uzun replik çıkmıştı) · diyaloğun araçla yazılıp yazılmadığı
+>    (geçici klasörde: `VERI_DIZIN=<geçici> node arac_diyalog.js ../sablon/vakalar/vaka4_diyalog.md V4`; V5'te tek engel etiketsiz
+>    `**CENGO:**` karar satırlarıydı — SATIR-36) · `## ucret` ve SONUÇ'taki kesinti (YAPI-32: silinir, kademeler eşit) · sızıntı
+>    (`node arac_sizinti_tur.js V4 40` + `YENI_UI/sizinti_okuma.txt` elle) · dört yol turu (`vaka4_tur.md` yolları) + satır–resim.
+> 2. **Kapı ölçümü:** `vaka4_kapi.md`'yi `vaka5_kapi.md` gibi yaz (`## yollar` = `vaka4_tur.md`'deki dört yol + karar sırası/suçlama;
+>    `## eş söz`; `## poz` boş — V4'ün eski resimleri VAR, poz tablosu onlara bakılarak doldurulabilir; `## kalsın`), sonra
+>    `node arac_kapi.js V4 hikaye --yeniden`. **Bu dosyayı bulgular bitmeden commit etme** — commit edilince V4 kapıya girer, her V4
+>    commit'i kapıdan geçmek zorunda kalır (V5'te öyle yapıldı: dosya en son commit'te girdi).
+> 3. **Etiketler (mekanik, söz aynı):** `node arac_ekran_etiket.js ../sablon/vakalar/vaka4_diyalog.md <kapının "tur çıktıları" klasörü>`
+>    (önizleme, sonra `--yaz`) → `node arac_diyalog.js …` → kapı yeniden. V5'te K1/K8 358 bulguyu bu kapattı. Tuzak: kanonda başka vakanın
+>    aynı adlı figürü olabilir (kapı artık yalnız o vakada görünenlere bakıyor); eş sözler (`çaycı`, `usta` …) `vaka4_kapi.md`'ye.
+> 4. **Metin kararları Barbaros'ta** (taslak + onay, söz değişen commit'e `[söz onaylı]`): karar sorusu (soran kişi, ekran, seçim karesi =
+>    kovalamaca sonundaki bir K), dört SEÇENEK, Cengo karar satırları `**CENGO [ifade]:** … {yuz: peri.x}`, her doğru kanıta
+>    `## cengo_kanit` satırı (yalnız o kanıtın bilgisi), satır–resim İŞ'leri. **V4'ün resimleri VAR** (eski, onaylı): nesneli poz eklemek
+>    yeni resim demek — önce kare bağlama / parantez çıkarma / kalsın düşün; yeni poz gerekirse resim notuna yaz.
+> 5. **Bitiş:** kapı GEÇTİ → `vaka4_kapi.md` dahil commit → push. Sonra DEVIR'e **V4 resim notu** (V5'inki gibi: Oğuz Bey'e; yeni metne
+>    uymayan eski resimler, yeni pozlar, değişen kareler; "yeniden üretilen resim eskisinden farklı görünmez" V4'te GEÇERLİ).
 > **Açık kalanlar:** V5 sızıntı okuması YAPILDI (23 Kasım akşam, temiz). V5 resim işi Oğuz Bey'de (yukarıdaki 🖼️ bölüm). Öneri bekliyor:
 > araç değişikliğinde commit bütün vakaları beklemesin (yollar artık vaka dosyasında; yalnız ortak araç/motor/arayüz değişince olur).
 > V5'in dört yolunda bilinen: kapanıştaki "Gizem pencerenin önünde" satırında tur aracı `gizem_tel` uyarısı basar (aday, kapı saymaz).
