@@ -1926,6 +1926,12 @@ Metnin söylediği görünüş (terli, ıslak, yaralı…) o figürde görünür
 *Uygulayıcı:* program `kaynak/arac_kapi.js` K13 (resim; onayli/, _gorsel.md ya da gömme commit'inde — `.claude/kapi_hook.js`) · hatırlat 10
 *Kaynak:* 3558 (+ "Vaka 6 ve sonrası": `kaynak/arac_kapi.js` başlık yorumu, satır 1–3; KURAL_SATIRLAR.tsv'de yok)
 
+#### SATIR-43 Satır–resim bulgusu o vakanın kendi resmiyle kapanır
+Bir satırın istediği poz ya da kare, **o vakanın kendi kanonundan** (vakanın pozu, vakanın karesi) ya da yeni bir pozla/kareyle karşılanır. Başka vakanın figür ya da kare resmi seçenek değildir; "hazır resim var mı" diye başka vakaya bakılmaz, önerilmez. Her vaka kendi resmini ve kıyafetini üretir; resim metne göre üretilir, metin hazır resme göre yazılmaz. (Yüzün ve saçın tutarlılığı için ortak referanslar — `uretim/referanslar/` — bu kuralın dışındadır: onlar istemin referansıdır, oyuna konan resim değil.)
+- *Ders:* (23 Kasım 2026, Barbaros: "Neden başka vakalardan resim alıp koyacağız?") Vaka 4'te Gizem'in "(çay ocağından kahvelerle gelerek)" satırına poz aranırken Vaka 6'nın çaylı `gizem.triko_tepsi` resmine bakıldı; uymadı, kullanılmadı, ama karar sürecine gereksiz bir unsur soktu. V4'ün hiç resmi yok; doğru yol baştan yeni pozdu (`gizem.triko_kahve`).
+*Uygulayıcı:* hatırlat 3, 8
+*Kaynak:* yeni karar (23 Kasım 2026, Barbaros)
+
 ## ISTEM — resim istemi yazma kuralları
 
 #### ISTEM-1 Kalıp dosyası zorunlu; ezberden yazılmaz

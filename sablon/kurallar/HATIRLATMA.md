@@ -78,7 +78,7 @@
 
 - [ ] **SUREC-11** Adım 1–2: Form ve Onay 1
 
-## Adım 3 — Diyalog yazılır (92)
+## Adım 3 — Diyalog yazılır (93)
 
 - [ ] **TON-1** Oyunun özü Peri ile Cengo
 - [ ] **TON-4** Hava ve mizah
@@ -159,6 +159,7 @@
 - [ ] **SATIR-25** Satır → görsel tablosu
 - [ ] **SATIR-26** Diyaloğu satır satır yazmak (adım 3)
 - [ ] **SATIR-34** İfade sözlüğü (Peri ve Cengo)
+- [ ] **SATIR-43** Satır–resim bulgusu o vakanın kendi resmiyle kapanır
 - [ ] **KOD-44** Karar alanları (16 Kasım 2026 düzeni)
 - [ ] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
 - [ ] **KOD-49** Diyaloğa yeni kare eklerken üç yer
@@ -243,7 +244,7 @@
 - [ ] **SUREC-29** Değişiklik nereye yazılır (veri yolu)
 - [ ] **KOD-47** Düz metin ile sahne aynı içeriğin iki hâli
 
-## Adım 8 — Görsel listesi ve promptlar + iş sayfası (96)
+## Adım 8 — Görsel listesi ve promptlar + iş sayfası (97)
 
 - [ ] **TON-21** Görsel ton: gün ışığı ve kalabalık
 - [ ] **KAR-1** Kanona ekleme sahibinin işidir
@@ -283,6 +284,7 @@
 - [ ] **SATIR-24** Hareket sahneleri (kovalamaca) kareleri
 - [ ] **SATIR-28** Satır–resim uyumu zorunlu: dört aşama
 - [ ] **SATIR-35** Yalnız satırların istediği ifade ve poz üretilir
+- [ ] **SATIR-43** Satır–resim bulgusu o vakanın kendi resmiyle kapanır
 - [ ] **ISTEM-1** Kalıp dosyası zorunlu; ezberden yazılmaz
 - [ ] **ISTEM-2** Sıra: temeller önce
 - [ ] **ISTEM-5** Figür kadrajı (H1) ve figür sabitleri
@@ -495,6 +497,7 @@
 
 ## Programın uyguladığı kurallar (bilgi; bunlar sahibine sorulmaz, program durdurur)
 
+- `##`: SUREC-14
 - `.claude/kapi_hook.js`: SUREC-10, SATIR-11, SATIR-38, SATIR-40, SATIR-41, SATIR-42, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-38, DENETIM-53, GOMME-1, CODEX-17, CODEX-25, KOD-1, KOD-3, KOD-35, KOD-38, KOD-93
 - `.githooks/commit-msg`: KOD-3, KOD-35
 - `kaynak/`: KOD-3
@@ -518,3 +521,4 @@
 - `sablon/kurallar/arac_uygulayici.js`: SUREC-43
 - `uretim/dongu.sh`: ISTEM-52, DENETIM-1, DENETIM-2, DENETIM-7, DENETIM-8, DENETIM-53, CODEX-7, CODEX-19, CODEX-22
 - `uretim/istem_kontrol.sh`: KAR-24, SINIR-6, SINIR-13, SEZON-26, SUREC-19, SATIR-8, SATIR-17, ISTEM-3, ISTEM-4, ISTEM-5, ISTEM-6, ISTEM-7, ISTEM-9, ISTEM-10, ISTEM-11, ISTEM-12, ISTEM-13, ISTEM-14, ISTEM-15, ISTEM-16, ISTEM-17, ISTEM-19, ISTEM-21, ISTEM-22, ISTEM-27, ISTEM-28, ISTEM-31, ISTEM-35, ISTEM-39, ISTEM-44, ISTEM-45, ISTEM-46, ISTEM-48, ISTEM-50, ISTEM-51, ISTEM-52, ISTEM-55, DENETIM-49, GOMME-16, GOMME-18, CODEX-4, CODEX-16, KOD-78, RAF-35
+- `vakaN_kapi.md`: SUREC-14
