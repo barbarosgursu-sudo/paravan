@@ -11,6 +11,10 @@
 > ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (23 Kasım 2026 gece)
 > - **Barbaros'un penceresi (metin):** V4 BİTTİ (aşağıda "✅ VAKA 4 METNİ BİTTİ"); sırada **VAKA 3** — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V3).
 >   ⚠ V3'ün resimleri VAR: yeni poz = yeni resim; önce kare bağlama / parantez çıkarma / kalsın (SATIR-43: başka vakanın resmi seçenek değil).
+>   ⚠ V4'te atlanıp sonradan yapılanlar (V3'te baştan yap): (1) kesinti YAPI-32'nin TAMAMI — `## ucret` silinir, kademeler eşit VE karar
+>   ÖNİZLEME/SONUÇ'ta "₺ keser / kesti" sözü kalmaz (prim ve sus payı kalır); (2) metin bitince hatırlatma listesi adım 3–5
+>   (`node sablon/kurallar/arac_uygulayici.js kayit 3 3|4|5`, işaretle, `bitti 3 onay2`; sahibine yalnız [X]/[?]). Kural yorumlanmadan önce
+>   `KURALLAR.md`'deki tam metni okunur. Sahibine kısa ve basit yaz.
 > - **Oğuz Bey'in penceresi (resim):** önce V7–V8 (aşağıdaki 23 Kasım sabah notu, `uretim/v7/DURUM.md`), sonra V5 → "🖼️ VAKA 5 RESİM İŞİ",
 >   sonra V4 → hemen altta "🖼️ VAKA 4 RESİM İŞİ".
 
