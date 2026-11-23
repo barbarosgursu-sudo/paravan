@@ -25,48 +25,48 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Büro, sabah. Peri masada paltosuyla, Cengo içeride. Feraye kapıdan girer. Gizem çay ocağından kahvelerle gelir (girişte ilk kez ekranda), fal anında kalır. Çekicilik anı falın ardından: Peri paltoyu çıkarır.
 ⚙ K17: büro, en az 15 satır (üst sınır yok, kural 5c), şüpheli (Rana, Tarık) anılıyor, ücret kırk bin; ipucu bilgisi yok (telefonun çektiği yer, kamera, akşam saati, tarot müşterisi, not).
 
-*Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla. Kapı çalınıyor; Cengo açıyor. Eşikte tombul, simsiyah saçlı, mor şallı bir kadın.* {gir: feraye, gi: normal}
-**CENGO [gulen]:** Feraye Abla, hoş geldin! Geleceğini haber verince senin boncuğu hemen boynuma taktım. {gir: feraye}
-**FERAYE [normal]:** Aferin oğlum. Çıkarma, kötü gözden korur. {kime: cengo}
-**FERAYE [normal]:** Dedektif hanım siz misiniz? Ben Feraye. Kırk yıldır Cihangir'de, Kuytu Kafe'de kahve falı bakarım. {kime: peri}
-**PERİ [normal]:** Buyurun, oturun Feraye Hanım. Derdinizi dinliyorum.
+*Sabah. Büro. Peri masada, kaşe paltosu ve kırmızı eşarbıyla. Kapı çalınıyor; Cengo açıyor. İçeri tombul, simsiyah saçlı, mor şallı bir kadın giriyor.* {gir: feraye, gi: normal, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
+**CENGO [gulen]:** Feraye Abla, hoş geldin! Geleceğini haber verince senin boncuğu hemen boynuma taktım. {gir: feraye, kime: feraye, ekran: cengo+feraye, yuz: feraye.normal}
+**FERAYE [normal]:** Aferin oğlum. Çıkarma, kötü gözden korur. {kime: cengo, ekran: cengo+feraye, yuz: cengo.gulen}
+**FERAYE [normal]:** Dedektif hanım siz misiniz? Ben Feraye. Kırk yıldır Cihangir'de, Kuytu Kafe'de kahve falı bakarım. {kime: peri, ekran: peri+feraye, yuz: peri.normal}
+**PERİ [normal]:** Buyurun, oturun Feraye Hanım. Derdinizi dinliyorum. {ekran: peri+feraye, yuz: feraye.normal}
 **FERAYE [dertli]:** Üç haftadır müşterilerime mesaj geliyor. Sırlarını herkese yaymakla tehdit edip para istiyorlar. Bakın. {kare: D11}
 **FERAYE [dertli]:** "Fincanında bir gölge var, gölge konuşur. Kuytu'daki rafta yeşil kitaba yirmi bin bırak; yoksa sırrını herkes duyar." {kare: D11}
-**FERAYE [ofkeli]:** Bu benim sözüm! Kırk yıldır her fala böyle başlarım. Mesajdaki numarayı arayan çok oldu, hep kapalı. {gir: feraye, kime: peri}
-**FERAYE [dertli]:** Mesaj, müşterim olan yaşam koçu Tarık Bey'e de gelmiş. Cuma sokakta bana "şantajcı" diye bağırdı, müşterilerim kaçtı. {kime: peri}
-**PERİ [merakli]:** Sizce bu sözü kullanıp müşterilerinize şantajı kim yapmış olabilir?
-**FERAYE [ofkeli]:** Eski çırağım Rana. Bu sözü ezbere bilir; karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor.
-**FERAYE [dertli]:** Belki şantajcı Tarık Bey'in kendisi. Başkalarının parasını toplarken kimse ondan şüphelenmesin diye kendine de mesaj gelmiş gibi yapıyor.
-**PERİ [kas]:** Peki siz o sırları nereden biliyorsunuz, Feraye Hanım?
-**FERAYE [normal]:** Fincandan, kızım. Kuytu Kafe'de sorun: sahibi Zerrin de söyler, garson Sadık da. {kime: peri}
-**GİZEM [triko]:** *(çay ocağından kahvelerle gelerek)* Üç sade kahve. Köpüksüz olmuş, kusura bakmayın. {gir: gizem, kime: peri}
-*Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor. Fincan soğuyunca açıp içine bakıyor.* {gir: feraye, gi: fal}
-**FERAYE [fal]:** Bir kadın görüyorum. Kırmızı. {kime: cengo}
+**FERAYE [ofkeli]:** Bu benim sözüm! Kırk yıldır her fala böyle başlarım. Mesajdaki numarayı arayan çok oldu, hep kapalı. {gir: feraye, kime: peri, ekran: peri+feraye, yuz: peri.normal}
+**FERAYE [dertli]:** Mesaj, müşterim olan yaşam koçu Tarık Bey'e de gelmiş. Cuma sokakta bana "şantajcı" diye bağırdı, müşterilerim kaçtı. {kime: peri, ekran: peri+feraye, yuz: peri.normal}
+**PERİ [merakli]:** Sizce bu sözü kullanıp müşterilerinize şantajı kim yapmış olabilir? {ekran: peri+feraye, yuz: feraye.dertli}
+**FERAYE [ofkeli]:** Eski çırağım Rana. Bu sözü ezbere bilir; karşıda tarot bakar, müşterilerimi ister. Zerrin onu iki yıldır kafeye sokmuyor. {ekran: peri+feraye, yuz: peri.merakli}
+**FERAYE [dertli]:** Belki şantajcı Tarık Bey'in kendisi. Başkalarının parasını toplarken kimse ondan şüphelenmesin diye kendine de mesaj gelmiş gibi yapıyor. {ekran: peri+feraye, yuz: peri.merakli}
+**PERİ [kas]:** Peki siz o sırları nereden biliyorsunuz, Feraye Hanım? {ekran: peri+feraye, yuz: feraye.dertli}
+**FERAYE [normal]:** Fincandan, kızım. Kuytu Kafe'de sorun: sahibi Zerrin de söyler, garson Sadık da. {kime: peri, ekran: peri+feraye, yuz: peri.kas}
+**GİZEM [triko]:** Üç sade kahve. Köpüksüz olmuş, kusura bakmayın. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
+*Cengo kahvesini bitiriyor. Feraye fincanı alıp tabağına kapatıyor, ters çeviriyor. Fincan soğuyunca açıp içine bakıyor.* {gir: feraye, gi: fincan, ekran: feraye+cengo, yuz: cengo.gulen}
+**FERAYE [fal]:** Bir kadın görüyorum. Kırmızı. {kime: cengo, ekran: cengo+feraye, yuz: cengo.gulen}
 *Peri, farkında olmadan, eşarbına dokunuyor. Cengo bir an başını çeviriyor ve doğrudan bize bakıyor.* {kare: K60}
-**PERİ [kas]:** Fala inanmam. {gir: feraye, gi: fal}
-**GİZEM [triko_isveli]:** Bana da bakar mısınız? {gir: gizem, kime: feraye}
-**FERAYE [normal]:** Sana bakmaya gerek yok kızım. Kırmızı sana da yakışır. {kime: gizem}
+**PERİ [kas]:** Fala inanmam. {gir: feraye, gi: fal, kime: feraye, ekran: peri+feraye, yuz: feraye.fal}
+**GİZEM [triko_isveli]:** Bana da bakar mısınız? {gir: gizem, kime: feraye, ekran: gizem+feraye, yuz: feraye.fal}
+**FERAYE [normal]:** Sana bakmaya gerek yok kızım. Kırmızı sana da yakışır. {kime: gizem, ekran: feraye+gizem, yuz: gizem.triko_isveli}
 *Gizem fincanları toplayıp çay ocağına dönüyor. Büro ısınmış; Peri paltosunu çıkarıp askıya asıyor. Altında vücudu saran kısa siyah triko bir elbise. Bacak bacak üstüne atıyor.* {kare: K61, set: kase_acik}
-**PERİ [normal]:** Gelelim işe. Ücretimiz kırk bin lira; şantajcıyı bulduğumuzda ödersiniz. {gir: feraye}
-**FERAYE [normal]:** Kırk bin, tamam. Üstüne bir fal da benden, bedava. {kime: peri}
-**PERİ [kas]:** Anlaştık. Ama benim fincanıma bakmayın, ben fala inanmam.
+**PERİ [normal]:** Gelelim işe. Ücretimiz kırk bin lira; şantajcıyı bulduğumuzda ödersiniz. {gir: feraye, kime: feraye, ekran: peri+feraye, yuz: feraye.normal}
+**FERAYE [normal]:** Kırk bin, tamam. Üstüne bir fal da benden, bedava. {kime: peri, ekran: peri+feraye, yuz: peri.normal}
+**PERİ [kas]:** Anlaştık. Ama benim fincanıma bakmayın, ben fala inanmam. {ekran: peri+feraye, yuz: feraye.normal}
 
 ## sahne konusma
 ⚙ arka: A6 · figurler: peri, cengo · set: kase_acik · cset: deri
 ⚙ akış: Feraye çıkmış; büroda Peri ve Cengo. Plan: kafe, Tarık, Rana, Zerrin, Feraye. İpucu adlarındaki kişiler (Rana, Zerrin, Tarık, Feraye) girişte duyuldu (K18).
 
-*Kapı kapanıyor. Peri fincanının dibine bakmamaya çalışıyor.*
-**CENGO [kas]:** Feraye Abla'yı tanırım. Yalan söyleyecek kadın değil. Ama bir şey saklıyor.
-**PERİ [merakli]:** Ne saklıyor?
-**CENGO [kas]:** Sırları fincandan okumuyor. Fincanda o kadar ayrıntı olmaz. Ben de kahve içerim.
-**PERİ [kas]:** Boynunuzda nazar boncuğuyla fala inanmadığınızı mı söylüyorsunuz?
-**CENGO [gulen]:** Boncuğa inanırım, fincana inanmam. Boncuk bir şey söylemez, yalnız korur.
-**PERİ [normal]:** Plan şu: önce kafeye gideriz, o kitap rafına bakarız. Sonra Tarık Bey'le ve Rana'yla konuşuruz. {arka: A7}
-**CENGO [gulen]:** Rana'yı tanırım. Bir kere bana kart açtı, "yakında para gelecek" dedi.
-**PERİ [merakli]:** Geldi mi?
-**CENGO [kas]:** Gitti. Kart ters çıkmış.
-**PERİ [kas]:** Kafenin sahibi Zerrin'le de konuşalım. Feraye Hanım'la da bir kez daha, bu sefer yalnız.
-**CENGO [normal]:** Tarık Bey'i bulmak kolay. Her gün kafenin önündeki yokuşta telefonuna video çekiyor.
+*Kapı kapanıyor. Peri fincanının dibine bakmamaya çalışıyor.* {ekran: peri, yuz: peri.normal}
+**CENGO [kas]:** Feraye Abla'yı tanırım. Yalan söyleyecek kadın değil. Ama bir şey saklıyor. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
+**PERİ [merakli]:** Ne saklıyor? {ekran: peri+cengo, yuz: cengo.kas}
+**CENGO [kas]:** Sırları fincandan okumuyor. Fincanda o kadar ayrıntı olmaz. Ben de kahve içerim. {ekran: peri+cengo, yuz: peri.merakli}
+**PERİ [kas]:** Boynunuzda nazar boncuğuyla fala inanmadığınızı mı söylüyorsunuz? {ekran: peri+cengo, yuz: cengo.kas}
+**CENGO [gulen]:** Boncuğa inanırım, fincana inanmam. Boncuk bir şey söylemez, yalnız korur. {ekran: peri+cengo, yuz: peri.kas}
+**PERİ [normal]:** Plan şu: önce kafeye gideriz, o kitap rafına bakarız. Sonra Tarık Bey'le ve Rana'yla konuşuruz. {arka: A7, ekran: peri+cengo, yuz: cengo.gulen}
+**CENGO [gulen]:** Rana'yı tanırım. Bir kere bana kart açtı, "yakında para gelecek" dedi. {ekran: peri+cengo, yuz: peri.normal}
+**PERİ [merakli]:** Geldi mi? {ekran: peri+cengo, yuz: cengo.gulen}
+**CENGO [kas]:** Gitti. Kart ters çıkmış. {ekran: peri+cengo, yuz: peri.merakli}
+**PERİ [kas]:** Kafenin sahibi Zerrin'le de konuşalım. Feraye Hanım'la da bir kez daha, bu sefer yalnız. {ekran: peri+cengo, yuz: cengo.kas}
+**CENGO [normal]:** Tarık Bey'i bulmak kolay. Her gün kafenin önündeki yokuşta telefonuna video çekiyor. {ekran: peri+cengo, yuz: peri.kas}
 
 ---
 
@@ -76,45 +76,45 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: pencere önünü duyan ve rafın yanındaki — Tarık da Sadık da. Sadık ekranda: servisi ve rafı kendisi söyler.
 
 *Cihangir. Dik bir yokuş; bir apartmanın altında, birkaç basamakla inilen bir kafe kapısı.* {arka: A31, mekan}
-*Kapıda ince uzun, siyah önlüklü genç bir garson; elinde tepsi.* {gir: sadik, gi: normal}
-**SADIK [normal]:** Hoş geldiniz. Ben Sadık. Feraye Hanım'ın dedektifleri siz misiniz? Buyurun, içeri. {gir: sadik, kime: peri}
+*İçeride ince uzun, siyah önlüklü genç bir garson; elinde tepsi.* {gir: sadik, gi: tepsi, ekran: sadik}
+**SADIK [normal]:** Hoş geldiniz. Ben Sadık. Feraye Hanım'ın dedektifleri siz misiniz? Buyurun, içeri. {gir: sadik, kime: peri, ekran: peri+sadik, yuz: peri.normal}
 *Peri basamakları inip içeri giriyor: alçak tavanlı bir bodrum, sokağa bakan geniş bir pencere, önünde üç masa. Duvarda bir kitap rafı.* {arka: A30, mekan}
-**PERİ [merakli]:** Telefonum çekmiyor. {gir: sadik, gi: normal}
-**SADIK [normal]:** Burada çekmez, hanımefendi. Yalnız pencerenin önünde çeker; herkes konuşmaya oraya geçer. {kime: peri}
-**CENGO [kas]:** Pencerenin önündeki masalarda kim oturur?
-**SADIK [normal]:** Ortadakinde her gün Tarık Bey oturur, öğlenden beşe yazı yazar. Servisini ben yaparım. {kime: cengo}
-*Peri kitap rafının önüne geçip tavandaki kameraya bakıyor. Kamera tezgâha dönük; rafı görmüyor.*
-**PERİ [merakli]:** Kamera rafı görmüyor. Rafın hemen dibinde de Tarık Bey'in masası var.
-**SADIK [normal]:** Rafı akşamları ben toplarım. Kitaplar gün boyu dağılır, ben dizerim. {kime: peri}
-**CENGO [kas]:** Feraye Abla nerede oturur?
-**SADIK [normal]:** Arka köşede. Oradan pencere duyulmaz; kahvesini ben götürürüm. {kime: cengo}
-*Peri pencerenin önündeki masada kalmış boş bir fincanı alıp içine bakıyor.* {peri: fincan}
-**PERİ [fincan]:** Kuş. Haber gelecek demek.
-**CENGO [gulen]:** Hani fala inanmıyordun? {kime: peri}
-**PERİ [kas]:** İnanmam. Ama kuş.
+**PERİ [merakli]:** Telefonum çekmiyor. {gir: sadik, gi: normal, kime: sadik, ekran: peri+sadik}
+**SADIK [normal]:** Burada çekmez, hanımefendi. Yalnız pencerenin önünde çeker; herkes konuşmaya oraya geçer. {kime: peri, ekran: peri+sadik, yuz: peri.merakli}
+**CENGO [kas]:** Pencerenin önündeki masalarda kim oturur? {ekran: cengo+sadik, yuz: sadik.normal}
+**SADIK [normal]:** Ortadakinde her gün Tarık Bey oturur, öğlenden beşe yazı yazar. Servisini ben yaparım. {kime: cengo, ekran: cengo+sadik, yuz: cengo.kas}
+*Peri kitap rafının önüne geçip tavandaki kameraya bakıyor. Kamera tezgâha dönük; rafı görmüyor.* {ekran: peri, yuz: peri.kamera}
+**PERİ [merakli]:** Kamera rafı görmüyor. Rafın hemen dibinde de Tarık Bey'in masası var. {kime: sadik, ekran: peri+sadik, yuz: sadik.normal}
+**SADIK [normal]:** Rafı akşamları ben toplarım. Kitaplar gün boyu dağılır, ben dizerim. {kime: peri, ekran: peri+sadik, yuz: peri.merakli}
+**CENGO [kas]:** Feraye Abla nerede oturur? {ekran: cengo+sadik, yuz: sadik.normal}
+**SADIK [normal]:** Arka köşede. Oradan pencere duyulmaz; kahvesini ben götürürüm. {kime: cengo, ekran: cengo+sadik, yuz: cengo.kas}
+*Peri pencerenin önündeki masada kalmış boş bir fincanı alıp içine bakıyor.* {peri: fincan, ekran: peri}
+**PERİ [fincan]:** Kuş. Haber gelecek demek. {kime: sadik, ekran: peri+sadik, yuz: sadik.normal}
+**CENGO [gulen]:** Hani fala inanmıyordun? {kime: peri, ekran: peri+cengo, yuz: peri.fincan}
+**PERİ [kas]:** İnanmam. Ama kuş. {ekran: peri+cengo, yuz: cengo.gulen}
 
 ## ipucu tarik
 ⚙ arka: A31 · figurler: peri, cengo · set: kase · cset: deri
 ⚙ akış: Kafenin önündeki yokuş; Tarık telefonuna video çekerken. Peri ve Cengo yanına gider.
 ⚙ Kural 21c: sır yalnız kafede telefonda söylendi (Tarık ya da Sadık duyabilir; tarot değil). Ödeme Tarık'ı kurban gösterir; kendi parasını kendi de alabilir. Şebnem burada duyulur (E'nin adı, K18).
 
-*Kafenin önündeki yokuş. Topuzlu, sakallı, keten gömlekli bir adam, elinde yeşil bir smoothie, telefonuna konuşuyor.* {gir: tarik, gi: ofkeli}
-**TARIK [ofkeli]:** …ve o kadın sırrımı falında söyledi! Takipçilerim bilsin, Cihangir bilsin!
-**CENGO [normal]:** Tarık Bey. Feraye Abla'nın işine bakıyoruz. Bir dakikanız var mı?
-**TARIK [ofkeli]:** O kadının işine mi? Siz de mi onun adamısınız? {kime: cengo}
-**CENGO [gulen]:** Ben kimsenin adamı değilim. Ama bir smoothie'ye hayır demem.
-**TARIK [normal]:** Smoothie yok. Ama konuşalım; şu kadının ne olduğunu herkes bilsin. {kime: cengo}
-**PERİ [kas]:** Size gelen mesajda "Sırrın bende" yazıyor. Neymiş o sır?
-**TARIK [utanmis]:** Ben sabah beşi hiç görmedim. Öğlene kadar uyurum; "sabah beş" videolarını akşamdan çekiyoruz. {kime: peri}
-**TARIK [utanmis]:** Perdeleri kapatıp lambayı sabah gibi yakıyoruz. Kitabımın adı da "Sabah Beşte Kalk".
-**TARIK [utanmis]:** Bunu bir kez söyledim, telefonda, o kafede, pencerenin önünde. Ne falda açtım ne o tarotçu kızın masasında.
-**CENGO [kas]:** Parayı ödediniz mi?
-**TARIK [ofkeli]:** Geçen perşembe akşam altıda yeşil kitaba yirmi bin koydum. Cuma sabah zarf yoktu. {kime: cengo}
-**TARIK [ofkeli]:** Aynı mesaj Şebnem Hanım'a da gelmiş. Dizideki aşçı. O da ödemiş.
-**PERİ [merakli]:** Kafeye her gün öğlen geliyorsunuz. Kitabınızın adı da "Sabah Beşte Kalk". {gir: tarik}
-**TARIK [utanmis]:** Akşam beşte de kalkarım. Kafeden kalkıp eve uyumaya giderim. {kime: peri}
-**TARIK [normal]:** *(Peri'ye gülümseyerek)* Siz bir videoma gelin. Işığınız çok güzel.
-**PERİ [kas]:** Akşamdan mı çekeceğiz?
+*Kafenin önündeki yokuş. Topuzlu, sakallı, keten gömlekli bir adam, elinde yeşil bir smoothie, telefonuna konuşuyor.* {gir: tarik, gi: telefon, ekran: tarik}
+**TARIK [ofkeli]:** …ve o kadın sırrımı falında söyledi! Takipçilerim bilsin, Cihangir bilsin! {kime: peri, ekran: peri+tarik, yuz: peri.normal}
+**CENGO [normal]:** Tarık Bey. Feraye Abla'nın işine bakıyoruz. Bir dakikanız var mı? {kime: tarik, ekran: cengo+tarik, yuz: tarik.ofkeli}
+**TARIK [ofkeli]:** O kadının işine mi? Siz de mi onun adamısınız? {kime: cengo, ekran: cengo+tarik, yuz: cengo.normal}
+**CENGO [gulen]:** Ben kimsenin adamı değilim. Ama bir smoothie'ye hayır demem. {ekran: cengo+tarik, yuz: tarik.ofkeli}
+**TARIK [normal]:** Smoothie yok. Ama konuşalım; şu kadının ne olduğunu herkes bilsin. {kime: cengo, ekran: cengo+tarik, yuz: cengo.gulen}
+**PERİ [kas]:** Size gelen mesajda "Sırrın bende" yazıyor. Neymiş o sır? {ekran: peri+tarik, yuz: tarik.normal}
+**TARIK [utanmis]:** Ben sabah beşi hiç görmedim. Öğlene kadar uyurum; "sabah beş" videolarını akşamdan çekiyoruz. {kime: peri, ekran: peri+tarik, yuz: peri.kas}
+**TARIK [utanmis]:** Perdeleri kapatıp lambayı sabah gibi yakıyoruz. Kitabımın adı da "Sabah Beşte Kalk". {ekran: peri+tarik, yuz: peri.kas}
+**TARIK [utanmis]:** Bunu bir kez söyledim, telefonda, o kafede, pencerenin önünde. Ne falda açtım ne o tarotçu kızın masasında. {ekran: peri+tarik, yuz: peri.kas}
+**CENGO [kas]:** Parayı ödediniz mi? {ekran: cengo+tarik, yuz: tarik.utanmis}
+**TARIK [ofkeli]:** Geçen perşembe akşam altıda yeşil kitaba yirmi bin koydum. Cuma sabah zarf yoktu. {kime: cengo, ekran: cengo+tarik, yuz: cengo.kas}
+**TARIK [ofkeli]:** Aynı mesaj Şebnem Hanım'a da gelmiş. Dizideki aşçı. O da ödemiş. {ekran: cengo+tarik, yuz: cengo.kas}
+**PERİ [merakli]:** Kafeye her gün öğlen geliyorsunuz. Kitabınızın adı da "Sabah Beşte Kalk". {gir: tarik, kime: tarik, ekran: peri+tarik, yuz: tarik.ofkeli}
+**TARIK [utanmis]:** Akşam beşte de kalkarım. Kafeden kalkıp eve uyumaya giderim. {kime: peri, ekran: peri+tarik, yuz: peri.merakli}
+**TARIK [normal]:** *(Peri'ye gülümseyerek)* Siz bir videoma gelin. Işığınız çok güzel. {ekran: peri+tarik, yuz: peri.merakli}
+**PERİ [kas]:** Akşamdan mı çekeceğiz? {ekran: peri+tarik, yuz: tarik.normal}
 
 ## ipucu rana
 ⚙ arka: A32 · figurler: peri, cengo · set: kase · cset: deri
@@ -122,20 +122,20 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: sözü ezbere bilen Rana ya da garson (Sadık adıyla değil işiyle anılır; ekranda görünmesi için yeter). Kurbanlar ona da gidiyor: Rana'yı şüpheli gösterir.
 
 *Kafenin karşısında küçük bir tarot dükkânı: mum ışığı, kadife örtülü bir masa. Camdan Kuytu'nun kapısı görünüyor.* {arka: A32, mekan}
-*Uzun düz siyah saçlı bir kadın masada kart karıştırıyor.* {gir: rana, gi: normal}
-**RANA [normal]:** Cengo. Yine mi kart? Geçen sefer ters çıkmıştı. {gir: rana, kime: cengo}
-**CENGO [gulen]:** O yüzden bu sefer kart için gelmedim. Feraye Abla'nın işine bakıyoruz.
-**RANA [alayci]:** Feraye benden şüpheleniyordur. Bunu bilmek için kart açmama gerek yok. {kime: cengo}
-**PERİ [kas]:** Mesaj şöyle başlıyor: "Fincanında bir gölge var, gölge konuşur."
-**RANA [normal]:** Feraye'nin sözü, kelimesi kelimesine. Kırk yıldır her fala böyle başlar. {kime: peri}
-**RANA [normal]:** Ezbere bilen iki kişi tanırım: ben, bir de her gün onun masasına kahve taşıyan garson.
-**CENGO [kas]:** Kendini de saydın.
-**RANA [alayci]:** Saymasam Feraye sayardı. {kime: cengo}
-**RANA [normal]:** Müşterileri faldan çıkınca karşıya, bana gelir. O yaşam koçu da geldi, dizideki aşçı da. Ama ben sır satmam.
+*Uzun düz siyah saçlı bir kadın masada kart karıştırıyor.* {gir: rana, gi: kart, ekran: rana}
+**RANA [normal]:** Cengo. Yine mi kart? Geçen sefer ters çıkmıştı. {gir: rana, kime: cengo, ekran: cengo+rana, yuz: cengo.normal}
+**CENGO [gulen]:** O yüzden bu sefer kart için gelmedim. Feraye Abla'nın işine bakıyoruz. {ekran: cengo+rana, yuz: rana.normal}
+**RANA [alayci]:** Feraye benden şüpheleniyordur. Bunu bilmek için kart açmama gerek yok. {kime: cengo, ekran: cengo+rana, yuz: cengo.gulen}
+**PERİ [kas]:** Mesaj şöyle başlıyor: "Fincanında bir gölge var, gölge konuşur." {ekran: peri+rana, yuz: rana.alayci}
+**RANA [normal]:** Feraye'nin sözü, kelimesi kelimesine. Kırk yıldır her fala böyle başlar. {kime: peri, ekran: peri+rana, yuz: peri.kas}
+**RANA [normal]:** Ezbere bilen iki kişi tanırım: ben, bir de her gün onun masasına kahve taşıyan garson. {ekran: peri+rana, yuz: peri.kas}
+**CENGO [kas]:** Kendini de saydın. {ekran: cengo+rana, yuz: rana.normal}
+**RANA [alayci]:** Saymasam Feraye sayardı. {kime: cengo, ekran: cengo+rana, yuz: cengo.kas}
+**RANA [normal]:** Müşterileri faldan çıkınca karşıya, bana gelir. O yaşam koçu da geldi, dizideki aşçı da. Ama ben sır satmam. {ekran: cengo+rana, yuz: cengo.kas}
 *Peri masada açık duran bir karta eğiliyor: yıldırım çarpmış bir kule.* {kare: D12}
 **PERİ [merakli]:** Bu kule yıkılıyor. {kare: D12}
-**RANA [alayci]:** Tarota da mı inanmıyorsunuz? {gir: rana, kime: peri}
-**PERİ [kas]:** Hiçbirine inanmam. Ama yıkılıyor.
+**RANA [alayci]:** Tarota da mı inanmıyorsunuz? {gir: rana, kime: peri, ekran: peri+rana, yuz: peri.merakli}
+**PERİ [kas]:** Hiçbirine inanmam. Ama yıkılıyor. {ekran: peri+rana, yuz: rana.alayci}
 
 ## ipucu zerrin
 ⚙ arka: A31 · figurler: peri, cengo · set: kase · cset: deri
@@ -143,19 +143,19 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: Tarık'ın borcu onu şüpheli gösterir; akşam vardiyası Sadık'ın işi (masum açıklama). Rana'nın yasağı girişte zaten söylendi.
 
 *Sabah. Kuytu'nun basamakları.* {arka: A31, mekan}
-*Tezgâhta kısa kır saçlı, kot önlüklü bir kadın kahve çekiyor; gözlüğü başının üstünde.* {arka: A30c, gir: zerrin, gi: normal}
-**PERİ [normal]:** Zerrin Hanım? Feraye Hanım'ın işi için geldik. {gir: zerrin}
-**ZERRİN [normal]:** Feraye anlattı. Sorun bakalım, öğütücü bitene kadar. {kime: peri}
-**CENGO [kas]:** Tarık Bey'i anlat. Her gün buradaymış.
-**ZERRİN [normal]:** Burada ama parası yok. Üç aydır veresiye yazdırıyor; kitapları satmıyor, smoothie'yi de bana yazdırıyor. {kime: cengo}
-**PERİ [merakli]:** Akşamları kafede kim kalıyor?
-**ZERRİN [normal]:** Ben altıda çıkarım. Akşamları kafeyi Sadık çevirir, kapanışı da o yapar. {kime: peri}
-*Tezgâhın arkasında fincan silen garson başını kaldırıp gülümsüyor.* {gir: sadik, gi: normal}
-**SADIK [normal]:** Kapanışta kapıyı ben kilitlerim. İçeride kimse kalmaz, merak etmeyin. {kime: peri}
-**CENGO [gulen]:** Rana bu tarafa hiç geçmiyor mu? {gir: zerrin}
-**ZERRİN [normal]:** Geçemez. İki yıl önce burada Feraye'nin müşterilerine kart dağıttı; o günden beri bu kapıdan girmez. {kime: cengo}
-**PERİ [normal]:** Kahveniz güzel kokuyor.
-**ZERRİN [normal]:** Telvesi daha güzel kokar. Komşulara, saksılarına gübre olsun diye bedava veririm. {kime: peri}
+*Tezgâhta kısa kır saçlı, kot önlüklü bir kadın kahve çekiyor; gözlüğü başının üstünde.* {arka: A30c, gir: zerrin, gi: normal, ekran: zerrin}
+**PERİ [normal]:** Zerrin Hanım? Feraye Hanım'ın işi için geldik. {gir: zerrin, kime: zerrin, ekran: peri+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Feraye anlattı. Sorun bakalım, öğütücü bitene kadar. {kime: peri, ekran: peri+zerrin, yuz: peri.normal}
+**CENGO [kas]:** Tarık Bey'i anlat. Her gün buradaymış. {ekran: cengo+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Burada ama parası yok. Üç aydır veresiye yazdırıyor; kitapları satmıyor, smoothie'yi de bana yazdırıyor. {kime: cengo, ekran: cengo+zerrin, yuz: cengo.kas}
+**PERİ [merakli]:** Akşamları kafede kim kalıyor? {ekran: peri+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Ben altıda çıkarım. Akşamları kafeyi Sadık çevirir, kapanışı da o yapar. {kime: peri, ekran: peri+zerrin, yuz: peri.merakli}
+*Tezgâhın arkasında fincan silen garson başını kaldırıp gülümsüyor.* {gir: sadik, gi: normal, ekran: sadik}
+**SADIK [normal]:** Kapanışta kapıyı ben kilitlerim. İçeride kimse kalmaz, merak etmeyin. {kime: peri, ekran: peri+sadik, yuz: peri.merakli}
+**CENGO [gulen]:** Rana bu tarafa hiç geçmiyor mu? {gir: zerrin, kime: zerrin, ekran: cengo+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Geçemez. İki yıl önce burada Feraye'nin müşterilerine kart dağıttı; o günden beri bu kapıdan girmez. {kime: cengo, ekran: cengo+zerrin, yuz: cengo.gulen}
+**PERİ [normal]:** Kahveniz güzel kokuyor. {ekran: peri+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Telvesi daha güzel kokar. Komşulara, saksılarına gübre olsun diye bedava veririm. {kime: peri, ekran: peri+zerrin, yuz: peri.normal}
 
 ## ipucu sebnem
 ⚙ arka: A33 · figurler: peri, cengo · set: kase · cset: deri
@@ -163,19 +163,19 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: akşam sırrı Tarık'ı aklar; o saatte kafede Sadık da Rana da olabilir mi — Rana'nın tarot yolu burada kapanmaz.
 
 *Bir dizi stüdyosu. Işıkların altında sahte bir mutfak; bakır tencerede dokunulmamış bir karnıyarık.* {arka: A33, mekan}
-*Çene hizasında küt saçlı, beyaz aşçı önlüklü bir kadın tencerenin başında; elinde tahta kaşık.* {gir: sebnem, gi: gergin}
-**CENGO [normal]:** Şebnem Hanım. Setin çaycısı tanıdığım; bizi o içeri aldı. {gir: sebnem}
-**ŞEBNEM [gergin]:** Mesaj geldiğini Tarık mı söyledi? Kimseye söylemeyecekti. {kime: cengo}
-**PERİ [normal]:** Feraye Hanım'ın işine bakıyoruz. Size gelen mesajı soracağız.
-**ŞEBNEM [gergin]:** Programda her yemeğe "anneannemin tarifi" diyorum. Yemekler köşedeki esnaf lokantasından geliyor. {kime: peri}
+*Çene hizasında küt saçlı, beyaz aşçı önlüklü bir kadın tencerenin başında; elinde tahta kaşık.* {gir: sebnem, gi: kasik, ekran: sebnem}
+**CENGO [normal]:** Şebnem Hanım. Setin çaycısı tanıdığım; bizi o içeri aldı. {gir: sebnem, kime: sebnem, ekran: cengo+sebnem, yuz: sebnem.gergin}
+**ŞEBNEM [gergin]:** Mesaj geldiğini Tarık mı söyledi? Kimseye söylemeyecekti. {kime: cengo, ekran: cengo+sebnem, yuz: cengo.normal}
+**PERİ [normal]:** Feraye Hanım'ın işine bakıyoruz. Size gelen mesajı soracağız. {ekran: peri+sebnem, yuz: sebnem.gergin}
+**ŞEBNEM [gergin]:** Programda her yemeğe "anneannemin tarifi" diyorum. Yemekler köşedeki esnaf lokantasından geliyor. {kime: peri, ekran: peri+sebnem, yuz: peri.normal}
 *Peri tezgâhın altına eğiliyor: lokantanın boş alüminyum kabı.* {kare: D13}
 **PERİ [kas]:** Kabını saklamayı bile unutmuşsunuz. {kare: D13}
-**ŞEBNEM [gergin]:** Bunu bir kere söyledim, lokantaya, telefonda. Salı akşamı, sekiz buçukta, Kuytu'da pencerenin önünde. {gir: sebnem, kime: peri}
-**CENGO [kas]:** O saatte kafede kim vardı?
-**ŞEBNEM [normal]:** Kafe boştu. O yaşam koçu bile gitmişti; o hep beşte çıkar. {kime: cengo}
-**ŞEBNEM [normal]:** Ertesi hafta mesaj geldi. Ben de yirmi bini yeşil kitaba koydum.
-**CENGO [gulen]:** Karnıyarık soğumuş. Ziyan olmasın, ben yerim.
-**ŞEBNEM [gergin]:** Yeme! O yarınki çekimin. {kime: cengo}
+**ŞEBNEM [gergin]:** Bunu bir kere söyledim, lokantaya, telefonda. Salı akşamı, sekiz buçukta, Kuytu'da pencerenin önünde. {gir: sebnem, kime: peri, ekran: peri+sebnem, yuz: peri.kas}
+**CENGO [kas]:** O saatte kafede kim vardı? {ekran: cengo+sebnem, yuz: sebnem.gergin}
+**ŞEBNEM [normal]:** Kafe boştu. O yaşam koçu bile gitmişti; o hep beşte çıkar. {kime: cengo, ekran: cengo+sebnem, yuz: cengo.kas}
+**ŞEBNEM [normal]:** Ertesi hafta mesaj geldi. Ben de yirmi bini yeşil kitaba koydum. {ekran: cengo+sebnem, yuz: cengo.kas}
+**CENGO [gulen]:** Karnıyarık soğumuş. Ziyan olmasın, ben yerim. {ekran: cengo+sebnem, yuz: sebnem.normal}
+**ŞEBNEM [gergin]:** Yeme! O yarınki çekimin. {kime: cengo, ekran: cengo+sebnem, yuz: cengo.gulen}
 
 ## ipucu fal_masasi
 ⚙ arka: A31 · figurler: peri, cengo · set: kase · cset: deri
@@ -183,21 +183,21 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: notu getiren "kafede her gün olan biri": Tarık da olabilir, Sadık da.
 
 *Kuytu'nun basamakları.* {arka: A31, mekan}
-*Kafenin arka köşesi: mor örtülü bir masa, ters kapanmış fincanlar, yanık bir mum. Feraye tek başına oturuyor.* {arka: A30b, gir: feraye, gi: dertli}
-**FERAYE [dertli]:** Bir hafta önce bu köşede sıra beklenirdi. Bugün kimse yok. {gir: feraye, kime: peri}
-**PERİ [normal]:** Feraye Hanım. O sırları nereden biliyorsunuz?
-**FERAYE [normal]:** Fincandan, kızım. Söyledim ya.
-*Feraye yüzüklerini parmağında çeviriyor; Peri'nin gözüne bakmıyor.* {gir: feraye, gi: kacamak}
-**PERİ [kas]:** Yalan söylerken yüzüklerinizi çeviriyorsunuz. Fincan o kadar ayrıntı bilmez.
-**FERAYE [cokmus]:** …Bu kafede bir kulağım var. Her gün burada olan biri. {kime: peri}
-**FERAYE [cokmus]:** Fala oturmadan önce bana bir not bırakır. Not başına yüz lira.
-**CENGO [kas]:** Kim bu kulak, Feraye Abla?
-**FERAYE [cokmus]:** Adını vermem. Verirsem ekmeğim biter. {kime: cengo}
-*Feraye konuyu değiştirmek için masadaki bir fincanı açıp içine bakıyor.* {gir: feraye, gi: fal}
-**FERAYE [fal]:** Bakın, bu fincanda bir kuş var. Haber gelecek. {kime: peri}
-**PERİ [merakli]:** *(fincana eğilip)* O kuş değil. Balık.
-**FERAYE [normal]:** Hani fala inanmıyordunuz?
-**PERİ [kas]:** İnanmıyorum. Ama balık.
+*Kafenin arka köşesi: mor örtülü bir masa, ters kapanmış fincanlar, yanık bir mum. Feraye tek başına oturuyor.* {arka: A30b, gir: feraye, gi: dertli, ekran: feraye}
+**FERAYE [dertli]:** Bir hafta önce bu köşede sıra beklenirdi. Bugün kimse yok. {gir: feraye, kime: peri, ekran: peri+feraye, yuz: peri.normal}
+**PERİ [normal]:** Feraye Hanım. O sırları nereden biliyorsunuz? {kime: feraye, ekran: peri+feraye, yuz: feraye.dertli}
+**FERAYE [normal]:** Fincandan, kızım. Söyledim ya. {ekran: peri+feraye, yuz: peri.normal}
+*Feraye yüzüklerini parmağında çeviriyor; Peri'nin gözüne bakmıyor.* {gir: feraye, gi: kacamak, ekran: peri+feraye, yuz: peri.normal}
+**PERİ [kas]:** Yalan söylerken yüzüklerinizi çeviriyorsunuz. Fincan o kadar ayrıntı bilmez. {kime: feraye, ekran: peri+feraye, yuz: feraye.kacamak}
+**FERAYE [cokmus]:** …Bu kafede bir kulağım var. Her gün burada olan biri. {kime: peri, ekran: peri+feraye, yuz: peri.kas}
+**FERAYE [cokmus]:** Fala oturmadan önce bana bir not bırakır. Not başına yüz lira. {ekran: peri+feraye, yuz: peri.kas}
+**CENGO [kas]:** Kim bu kulak, Feraye Abla? {ekran: cengo+feraye, yuz: feraye.cokmus}
+**FERAYE [cokmus]:** Adını vermem. Verirsem ekmeğim biter. {kime: cengo, ekran: cengo+feraye, yuz: cengo.kas}
+*Feraye konuyu değiştirmek için masadaki bir fincanı açıp içine bakıyor.* {gir: feraye, gi: fal, ekran: feraye}
+**FERAYE [fal]:** Bakın, bu fincanda bir kuş var. Haber gelecek. {kime: peri, ekran: peri+feraye, yuz: peri.kas}
+**PERİ [merakli]:** O kuş değil. Balık. {ekran: peri+feraye, yuz: feraye.fal}
+**FERAYE [normal]:** Hani fala inanmıyordunuz? {ekran: peri+feraye, yuz: peri.merakli}
+**PERİ [kas]:** İnanmıyorum. Ama balık. {ekran: peri+feraye, yuz: feraye.normal}
 
 ---
 
@@ -207,15 +207,15 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Oyuncu hangi doğru çifti seçtiyse seçsin aynı sahne; kanıtı adıyla anmaz.
 
 *Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.* {kare: K62}
-*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova}
-**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik}
-**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin}
-**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo}
-*Sadık kovayı boşaltıp tepsisiyle geri geliyor.* {gir: sadik, gi: normal}
-**PERİ [normal]:** Sadık. Şantajcı sensin. Nasıl yaptığını da biliyorum. {gir: sadik}
-**SADIK [normal]:** *(tepsiyi tutup gülümseyerek)* Ben kahve taşırım, efendim. {kime: peri}
-**PERİ [kas]:** Elimde iki kanıt var. İkisi de seni gösteriyor.
-**PERİ [kas]:** Şantajcı bu odadaysa, telefonu da üstündedir. Numarayı arıyorum.
+*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova, ekran: sadik}
+**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik, ekran: zerrin+sadik, yuz: sadik.kova}
+**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin, kime: zerrin, ekran: cengo+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo, ekran: cengo+zerrin, yuz: cengo.kas}
+*Sadık kovayı boşaltıp tepsisiyle geri geliyor.* {gir: sadik, gi: normal, ekran: sadik}
+**PERİ [normal]:** Sadık. Şantajcı sensin. Nasıl yaptığını da biliyorum. {gir: sadik, kime: sadik, ekran: peri+sadik, yuz: sadik.normal}
+**SADIK [normal]:** *(tepsiyi tutup gülümseyerek)* Ben kahve taşırım, efendim. {kime: peri, ekran: peri+sadik, yuz: peri.normal}
+**PERİ [kas]:** Elimde iki kanıt var. İkisi de seni gösteriyor. {ekran: peri+sadik, yuz: sadik.normal}
+**PERİ [kas]:** Şantajcı bu odadaysa, telefonu da üstündedir. Numarayı arıyorum. {ekran: peri+sadik, yuz: sadik.normal}
 *Peri numarayı arıyor. Sadık'ın önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.* {kare: K63}
 *Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.* {cik, kare: K64}
 
@@ -224,15 +224,15 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Ortak açılış; Peri inandıramaz; Tarık öfkeyle numarayı arar.
 
 *Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.* {kare: K62}
-*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova}
-**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik}
-**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin}
-**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo}
-*Sadık kovayı boşaltıp tepsisiyle geri geliyor.* {gir: sadik, gi: normal}
-**PERİ [normal]:** Sadık. Şantajcı sensin. {gir: sadik}
-**SADIK [normal]:** İki yıldır burada çalışıyorum, efendim. Bir kahve fazlası almadım. Kanıtınız ne? {kime: peri}
-**PERİ [utanmis]:** …Elimde bir şey var ama sizi ikna edecek kadar değil.
-**TARIK [ofkeli]:** Ben o numarayı yine arıyorum. Belki bu sefer açarlar! {gir: tarik}
+*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova, ekran: sadik}
+**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik, ekran: zerrin+sadik, yuz: sadik.kova}
+**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin, kime: zerrin, ekran: cengo+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo, ekran: cengo+zerrin, yuz: cengo.kas}
+*Sadık kovayı boşaltıp tepsisiyle geri geliyor.* {gir: sadik, gi: normal, ekran: sadik}
+**PERİ [normal]:** Sadık. Şantajcı sensin. {gir: sadik, kime: sadik, ekran: peri+sadik, yuz: sadik.normal}
+**SADIK [normal]:** İki yıldır burada çalışıyorum, efendim. Bir kahve fazlası almadım. Kanıtınız ne? {kime: peri, ekran: peri+sadik, yuz: peri.normal}
+**PERİ [utanmis]:** …Elimde bir şey var ama sizi ikna edecek kadar değil. {ekran: peri+sadik, yuz: sadik.normal}
+**TARIK [ofkeli]:** Ben o numarayı yine arıyorum. Belki bu sefer açarlar! {gir: tarik, ekran: peri+tarik, yuz: peri.utanmis}
 *Tarık numarayı arıyor. Sadık'ın önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.* {kare: K63}
 *Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.* {cik, kare: K64}
 
@@ -241,13 +241,13 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Ortak açılış; Tarık kendini savunurken arama geçmişini gösterip numaraya bir kez daha basar.
 
 *Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.* {kare: K62}
-*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova}
-**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik}
-**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin}
-**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo}
-**PERİ [kas]:** Tarık Bey. Mesajları siz yazdınız. {gir: tarik}
-**TARIK [ofkeli]:** Ben mi? Ben de ödedim! Yirmi bin lira! {kime: peri}
-**TARIK [ofkeli]:** Bakın, o numarayı kaç kere aradım! *(telefonunu uzatıp numaraya bir daha basarak)*
+*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova, ekran: sadik}
+**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik, ekran: zerrin+sadik, yuz: sadik.kova}
+**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin, kime: zerrin, ekran: cengo+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo, ekran: cengo+zerrin, yuz: cengo.kas}
+**PERİ [kas]:** Tarık Bey. Mesajları siz yazdınız. {gir: tarik, kime: tarik, ekran: peri+tarik, yuz: tarik.ofkeli}
+**TARIK [ofkeli]:** Ben mi? Ben de ödedim! Yirmi bin lira! {kime: peri, ekran: peri+tarik, yuz: peri.kas}
+**TARIK [telefon]:** Bakın, o numarayı kaç kere aradım! *(telefonunu uzatıp numaraya bir daha basarak)* {ekran: peri+tarik, yuz: peri.kas}
 *Garsonun önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.* {kare: K63}
 *Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.* {cik, kare: K64}
 
@@ -256,14 +256,14 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ akış: Ortak açılış; Rana kendini savunur, Feraye'ye numarayı aratır.
 
 *Salı akşamı. Kuytu kapanıyor. Feraye herkesi pencerenin önüne toplamış: Tarık Bey, Rana, Zerrin. Sadık tepsiyle servis yapıyor.* {kare: K62}
-*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova}
-**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik}
-**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin}
-**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo}
-**PERİ [kas]:** Rana. Feraye Hanım'ın sözünü ezbere biliyorsun. Mesajları sen yazdın. {gir: rana}
-**RANA [alayci]:** İki yıldır bu kapıdan girmedim. Bu akşam da Zerrin izin verdi diye buradayım. {kime: peri}
-**RANA [alayci]:** Ben yazsaydım o telefon benim çantamda olurdu. Ara Feraye, bakalım burada çalacak mı. {kime: feraye}
-**FERAYE [ofkeli]:** Arıyorum. Kimin cebinde çalacak, görelim. {gir: feraye, kime: rana}
+*Sadık ağzına kadar dolu bir kovayla arka kapıya gidiyor.* {gir: sadik, gi: kova, ekran: sadik}
+**ZERRİN [normal]:** Sadık, telveyi avludaki bidona boşalt. Komşular sabah saksılarına alıyor. {gir: zerrin, kime: sadik, ekran: zerrin+sadik, yuz: sadik.kova}
+**CENGO [kas]:** Kahvenin artığını mı satıyorsunuz? {gir: zerrin, kime: zerrin, ekran: cengo+zerrin, yuz: zerrin.normal}
+**ZERRİN [normal]:** Bedava veriyoruz. Telve iyi gübredir. {kime: cengo, ekran: cengo+zerrin, yuz: cengo.kas}
+**PERİ [kas]:** Rana. Feraye Hanım'ın sözünü ezbere biliyorsun. Mesajları sen yazdın. {gir: rana, kime: rana, ekran: peri+rana, yuz: rana.normal}
+**RANA [alayci]:** İki yıldır bu kapıdan girmedim. Bu akşam da Zerrin izin verdi diye buradayım. {kime: peri, ekran: peri+rana, yuz: peri.kas}
+**RANA [alayci]:** Ben yazsaydım o telefon benim çantamda olurdu. Ara Feraye, bakalım burada çalacak mı. {kime: feraye, ekran: rana+feraye, yuz: feraye.normal}
+**FERAYE [ofkeli]:** Arıyorum. Kimin cebinde çalacak, görelim. {gir: feraye, kime: rana, ekran: feraye+rana, yuz: rana.alayci}
 *Garsonun önlük cebi titriyor; tepsideki fincanlar şıngırdıyor.* {kare: K63}
 *Herkes Sadık'a dönüyor. Sadık tepsiyi bırakıp arka kapıya koşuyor.* {cik, kare: K64}
 
@@ -281,18 +281,18 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Kayarken Peri'nin çizmesinin biri ayağından fırlıyor, havada dönüyor ve aşağıdaki Sadık'ın kafasına iniyor. Sadık sendeleyip son basamaklarda düşüyor; cebinden bir telefon basamaklara savruluyor.* {kare: K68}
 *Şallı Cengo yetişip Sadık'ın üstüne oturuyor. Peri tek çizmeyle tırabzanın dibine iniyor.* {kare: K69}
 **PERİ [kas]:** Ben attığımı vururum. {kare: K69}
-**SADIK [itiraf]:** Tamam. Ben yaptım. {gir: sadik}
-**SADIK [itiraf]:** İki yıldır Feraye Hanım'a not satıyorum. Kuytu'da telefon yalnız pencerede çeker; herkes orada konuşur.
-**SADIK [itiraf]:** Ben de servis yaparken duyarım. Sır başına yüz lira. Sonra düşündüm: sırrın sahibi daha çok verir.
-**SADIK [itiraf]:** Feraye Hanım'ın sözünü her gün kahve taşırken ezberledim. Mesajları onunla yazdım, herkes falcıya baksın diye.
-**SADIK [itiraf]:** Telefonu her akşam kapanışta açardım, mesajlara bakmak için. Bu akşam da açıktı.
-**SADIK [itiraf]:** Tarık Bey'den, Şebnem Hanım'dan, bir kişiden daha yirmişer bin aldım. Hepsi personel dolabımda.
-*Feraye nefes nefese merdivenden iniyor.* {gir: feraye, gi: ofkeli}
-**FERAYE [ofkeli]:** Benim sözümle mi, Sadık? Ben sana ekmek verdim. {kime: sadik}
-**SADIK [itiraf]:** Siz de benden sır aldınız, Feraye Hanım. {kime: feraye}
+**SADIK [itiraf]:** Tamam. Ben yaptım. {gir: sadik, ekran: peri+sadik, yuz: peri.kas}
+**SADIK [itiraf]:** İki yıldır Feraye Hanım'a not satıyorum. Kuytu'da telefon yalnız pencerede çeker; herkes orada konuşur. {ekran: peri+sadik, yuz: peri.kas}
+**SADIK [itiraf]:** Ben de servis yaparken duyarım. Sır başına yüz lira. Sonra düşündüm: sırrın sahibi daha çok verir. {ekran: peri+sadik, yuz: peri.kas}
+**SADIK [itiraf]:** Feraye Hanım'ın sözünü her gün kahve taşırken ezberledim. Mesajları onunla yazdım, herkes falcıya baksın diye. {ekran: peri+sadik, yuz: peri.kas}
+**SADIK [itiraf]:** Telefonu her akşam kapanışta açardım, mesajlara bakmak için. Bu akşam da açıktı. {ekran: peri+sadik, yuz: peri.kas}
+**SADIK [itiraf]:** Tarık Bey'den, Şebnem Hanım'dan, bir kişiden daha yirmişer bin aldım. Hepsi personel dolabımda. {ekran: peri+sadik, yuz: peri.kas}
+*Feraye nefes nefese yetişiyor.* {gir: feraye, gi: ofkeli, ekran: feraye}
+**FERAYE [ofkeli]:** Benim sözümle mi, Sadık? Ben sana ekmek verdim. {kime: sadik, ekran: feraye+sadik, yuz: sadik.itiraf}
+**SADIK [itiraf]:** Siz de benden sır aldınız, Feraye Hanım. {kime: feraye, ekran: sadik+feraye, yuz: feraye.ofkeli}
 *Feraye şalı Cengo'nun başından alıp Peri'nin telveli omuzlarına atıyor. Sonra Peri'nin elbisesindeki telveye eğiliyor.* {kare: K70, set: salli, cset: deri}
-**FERAYE [fal]:** Burada uzun bir yol görüyorum… {gir: feraye, kime: peri}
-**PERİ [kas]:** Fala inanmam.
+**FERAYE [fal]:** Burada uzun bir yol görüyorum… {gir: feraye, kime: peri, ekran: peri+feraye, yuz: peri.kas}
+**PERİ [kas]:** Fala inanmam. {kime: feraye, ekran: peri+feraye, yuz: feraye.fal}
 
 ---
 
@@ -348,7 +348,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 **ÖNİZLEME:** Sadık yargılanır; kurbanların sırları ifadelerle duyulur, Sadık'ın Feraye'ye not sattığı da. Feraye Hanım 10.000 ₺ keser.
 **SONUÇ:** Sadık'ı polise teslim ettin. Zarflar ve telefon delil oldu; Tarık Bey ile Şebnem Hanım ifade verdi, sırları bir haftada bütün Cihangir'de konuşuldu. Sadık'ın Feraye'ye not sattığı da dosyaya girdi; Zerrin fal masasını kaldırdı. Feraye ücretten on bin kesti: "Adımı temizleyin dedim, gömün demedim."
-**CENGO:** Cengo telefonundaki mahalle grubuna baktı. "Tarık'ın kitabı en çok şimdi satar" dedi.
+**CENGO [kas]:** Mahalle grubu kaynıyor, Peri. Tarık'ın kitabı en çok şimdi satar. {yuz: peri.kas}
 **DEFTER:** Sadık polise teslim edildi. Cihangir'in sırları tutanakta.
 
 ## karar uzaklastir
@@ -356,7 +356,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 **ÖNİZLEME:** Sadık Cihangir'den gider, kimseye bir şey söylenmez. Feraye Hanım 10.000 ₺ fazladan verir.
 **SONUÇ:** Sadık'a zarfları bıraktırıp onu Cihangir'den gönderdin. Zarfları sahiplerinin kapısına isimsiz bıraktın. Mesajlar kesildi, Feraye'nin müşterileri döndü; Feraye sana on bin fazladan verdi. Feraye'nin fincanları artık eskisi kadar bilmiyor.
-**CENGO:** Bir hafta sonra Cengo büroya haber getirdi: "Sadık Moda'da bir kafede başlamış. Pencerenin önünde masaları varmış."
+**CENGO [kas]:** Duydun mu, Peri? Sadık Moda'da bir kafede başlamış. Pencerenin önünde masaları varmış. {yuz: peri.kas}
 **DEFTER:** Sadık gitti, Feraye kaldı. Kimse bir şey öğrenmedi.
 
 ## karar dosya_sakla
@@ -364,7 +364,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 **ÖNİZLEME:** Sırların durduğu telefonu sen saklarsın; Sadık susman için 20.000 ₺ bırakır. Kurbanlar paralarını geri alamaz.
 **SONUÇ:** Faturasız telefonu çekmecene koydun; içinde üç kişinin sırrı. Sadık'ı bıraktın; Sadık susman için yirmi bin bıraktı. Feraye adının temizlendiğini sanıyor. Tarık Bey ile Şebnem Hanım paralarını geri alamadı; mesajlar kesildi ama bir yerde birinin bildiğini biliyorlar.
-**CENGO:** Cengo çekmeceye baktı. "O telefonu orada tutma. Bir gün biri de senin pencerenin önünde durur" dedi.
+**CENGO [kas]:** O telefonu çekmecede tutma, Peri. Bir gün biri de senin pencerenin önünde durur. {yuz: peri.kas}
 **DEFTER:** Cihangir'in sırları çekmecemde.
 
 ## karar gercegi_soyle
@@ -372,7 +372,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 **ÖNİZLEME:** Zarfları sahiplerine sen götürür, sırlarının nasıl gittiğini anlatırsın; polis yok, sırlar duyulmaz. Feraye fal masasını kapatır. Şebnem Hanım 5.000 ₺ teşekkür bırakır.
 **SONUÇ:** Zarfları Tarık Bey'e, Şebnem Hanım'a ve üçüncü kurbana kendin götürdün; sırlarının fincandan değil Sadık'ın kulağından, oradan Feraye'nin masasına gittiğini anlattın. Polise kimse gitmedi, sırlar duyulmadı. Zerrin Sadık'ı kapıya koydu; Feraye fal masasını topladı. Şebnem Hanım sana beş bin teşekkür bıraktı.
-**CENGO:** Cengo boynundaki nazar boncuğunu tutup baktı. "Bunu yine de çıkarmam" dedi.
+**CENGO [gulen]:** Fincan bilmedi, Peri. Ama bu boncuğu yine de çıkarmam. {yuz: peri.normal}
 **DEFTER:** Kurbanlar gerçeği benden duydu. Feraye artık fal bakmıyor.
 
 ---
@@ -381,22 +381,22 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ arka: A8 · figurler: peri, cengo · set: salli · cset: deri
 ⚙ akış: Büro, akşam. Peri şala sarınmış masada, Cengo içeride. Gizem kapıdan kırmızı elbiseyle girer (kapanış karesinde Gizem öne çıkar — kural 15b'ye tek seferlik istisna, sahibinin kararı). Bağın iki hâli (kural 12a, eşik +1).
 
-*Akşam. Büro. Peri Feraye'nin mor şalına sarınmış; saçında hâlâ telve, boynunda kırmızı eşarp. Cengo'nun boynunda nazar boncuğu.*
+*Akşam. Büro. Peri Feraye'nin mor şalına sarınmış; saçında hâlâ telve, boynunda kırmızı eşarp. Cengo'nun boynunda nazar boncuğu.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Kapı açılıyor. Gizem giriyor: kırmızı, vücudu saran bir elbiseyle.* {kare: K71, gir: gizem, gi: kirmizi}
 **GİZEM [kirmizi]:** Üstüme çay döküldü. Çantamda bu vardı. {kime: peri, kare: K71}
-**PERİ [sasirmis]:** Çantanda neden kırmızı bir elbise var? {gir: gizem}
-**GİZEM [kirmizi_isveli]:** Her kadının çantasında bir kırmızı elbise olur, tatlım. {kime: peri}
+**PERİ [sasirmis]:** Çantanda neden kırmızı bir elbise var? {gir: gizem, kime: gizem, ekran: peri+gizem, yuz: gizem.kirmizi}
+**GİZEM [kirmizi_isveli]:** Her kadının çantasında bir kırmızı elbise olur, tatlım. {kime: peri, ekran: peri+gizem, yuz: peri.sasirmis}
 *Cengo hiçbir şey demiyor. Gizem'e bakıyor, sonra Peri'nin boynundaki kırmızı eşarba.* {kare: K72}
-**PERİ [kiskanc]:** *(alçak sesle, kendi kendine)* Fala inanmıyorum. {gir: gizem, gi: kirmizi}
+**PERİ [kiskanc]:** *(alçak sesle, kendi kendine)* Fala inanmıyorum. {gir: gizem, gi: kirmizi, kime: gizem, ekran: peri+gizem}
 *Cengo nazar boncuğunu boynundan çıkarıp Peri'nin masasına bırakıyor.* {bag: dusuk, kare: K73}
-**CENGO [normal]:** Bu sende dursun. Bana bir işe yaramadı. {bag: dusuk, kime: peri}
-*Cengo çıkıyor. Gizem boncuğa bakıyor, sonra Peri'ye. Peri boncuğu çekmeceye koyuyor.* {bag: dusuk, gir: gizem, gi: kirmizi}
+**CENGO [normal]:** Bu sende dursun. Bana bir işe yaramadı. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.kiskanc}
+*Cengo çıkıyor. Gizem boncuğa bakıyor, sonra Peri'ye. Peri boncuğu çekmeceye koyuyor.* {bag: dusuk, kare: K73}
 *Cengo Peri'nin soğumuş fincanını alıp tabağına kapatıyor, ters çeviriyor.* {bag: yuksek, kare: K74}
-**CENGO [yumusak]:** Soğusun. Ben bakacağım. {bag: yuksek, kime: peri}
-**PERİ [kas]:** Fala inanmam. {bag: yuksek}
-**CENGO [gulen]:** Biliyorum. {bag: yuksek}
+**CENGO [yumusak]:** Soğusun. Ben bakacağım. {bag: yuksek, kime: peri, ekran: peri+cengo, yuz: peri.kiskanc}
+**PERİ [kas]:** Fala inanmam. {bag: yuksek, kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
+**CENGO [gulen]:** Biliyorum. {bag: yuksek, ekran: peri+cengo, yuz: peri.kas}
 *Cengo fincanı açmıyor; Peri de açmasını istemiyor.* {bag: yuksek, kare: K74}
-**GİZEM [kirmizi]:** Hıh. {bag: yuksek, gir: gizem, kime: peri}
+**GİZEM [kirmizi]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
 
 ---
 
