@@ -8,6 +8,25 @@
 
 ---
 
+> ## ✅ 23 KASIM 2026 AKŞAM: VAKA 5 METNİ YENİ DÜZENDE, KAPIDAN GEÇTİ — SIRADA VAKA 4'ÜN EKSİK LİSTESİ (yeni pencere buradan başlar)
+> **Yapılanlar (hepsi `main`'de, Barbaros'un onayıyla):**
+> - `219f1f6` Kararlar: Muammer iskelede soruyor (`karar_soru`, seçim karesi K88), dört SEÇENEK, Cengo karar satırları etiketli,
+>   beş `cengo_kanit` satırı; `## ucret` ve kesinti kalktı, ücret kademeleri eşit (40.000); uzun replik bölündü.
+> - `2f63a5d` 196 sahne satırına `ekran`/`yuz` etiketi (söz aynı; kapı 418 bulgu → 18). Kapı: yollar koddan `vakaN_kapi.md` → `## yollar`;
+>   Vaka 1–5 kapıya kapı kaydı yazılınca girer; anılan kişi yalnız o vakada görünenlerden (V1'in "Çaycı" figürü V5'te Kadir'i çalıyordu).
+> - `ddec175` Kalan 18 bulgu: 11 nesneli poz (kanon + yer tutucu: muammer.kutu, kadir.tepsi, efe.simit, gorevli.defter, simitci.tabla,
+>   nedim.baston, peri.ipek.canta, cengo.balikci.kollar/simit, selim.sandalye, ismet.dikiyor), 3 küçük söz değişikliği, K79 bağlama,
+>   `vaka5_bayrak.md`. **Kapı V5 hikâye GEÇTİ**; commit kancası V5'i de denetliyor (`kapida()`: n ≥ 6 ya da kapı kaydı var).
+> - `9758009` Tur yolları koddan `sablon/vakalar/vakaN_tur.md`'ye (V1–V8): yeni vaka (V9…) araçları değiştirmez, öbür vakaları
+>   yeniden denetletmez. Eski/yeni tur üç yolda birebir aynı.
+> **V4'e geçerken (aynı sıra):** önce eksik listesi (doğrulayıcı uyarıları — V4'te 6; `arac_diyalog.js` deneme yazımı geçici klasörde;
+> `vaka4_kapi.md` yazılıp `node arac_kapi.js V4 hikaye --yeniden` ile ölçüm). V4 kapı kaydı commit edilince V4 kapıya girer — bulgular
+> bitmeden commit etme (V5'te öyle yapıldı). Etiket betiği (ekran/yüz) tek seferlikti, yeniden yazılabilir: tur dökümünden konuşan +
+> hitap/kime, anlatıda anılanlar; yüz ekrandaki figürden.
+> **Açık kalanlar:** `kaynak/YENI_UI/sizinti_okuma.txt` V5 için bir kez elle okunacak (SUREC-27); V5'in resim tablosu (`vaka5_gorsel.md`)
+> ve Oğuz Bey'e resim işi (yeni pozlar dahil) metin onayından sonra; öneri bekliyor: araç değişikliğinde commit bütün vakaları beklemesin.
+> V5'in dört yolunda bilinen: kapanıştaki "Gizem pencerenin önünde" satırında tur aracı `gizem_tel` uyarısı basar (aday, kapı saymaz).
+
 > ## ▶️▶️▶️▶️ 23 KASIM 2026 ÖĞLEDEN SONRA: YENİ İŞ BÖLÜMÜ — BARBAROS VAKA 5→1 METNİ, OĞUZ BEY RESİMLER (yeni pencere buradan başlar)
 > **Başlamadan önce** aşağıdaki "🔧 BAŞLAMADAN ÖNCE" üç adımı (pull, kapı kancası, hazırlık denetimi) — her pencerede, her bilgisayarda.
 >
