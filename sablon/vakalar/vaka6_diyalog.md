@@ -318,7 +318,8 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MÜZEYYEN [normal]:** Gamze işten çıkamadı, gelinliği ben götüreceğim. Siz neden geldiniz, oğlum? {kime: cengo, ekran: cengo+muzeyyen, yuz: cengo.normal}
 **PERİ [kas]:** Jale Hanım, bir dakika gelir misiniz? Mektupları siz yazdınız. {gir: jale, kime: jale, ekran: peri+jale, yuz: jale.soguk}
 **JALE [ofkeli]:** Ben mi? Kendi atölyemde, kendi müşterimin gelinliğine tehdit koyup kendi işimi mi batırayım? {kime: peri, ekran: peri+jale, yuz: peri.kas}
-**JALE [uzaniyor]:** *(kılıfa uzanarak)* Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün. {kare: K123}
+**JALE [uzaniyor]:** *(kılıfa uzanarak)* Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. {kare: K123}
+**JALE [uzaniyor]:** Şimdi açıyorum, görün. {kare: K123}
 *Müzeyyen elbise kılıfını Jale'nin elinden kapıp kapıya koşuyor.* {cik, kare: K99j}
 
 ## sahne kovalamaca

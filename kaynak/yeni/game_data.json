@@ -7548,9 +7548,10 @@
             {
               "k": "jale",
               "i": "uzaniyor",
-              "m": "(kılıfa uzanarak) Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum. Şimdi açıyorum, görün.",
+              "m": "(kılıfa uzanarak) Cumartesiden beri hiçbir elbise kılıfını içine bakmadan teslim etmiyorum.",
               "kare": "K123"
             },
+            {"k": "jale", "i": "uzaniyor", "m": "Şimdi açıyorum, görün.", "kare": "K123"},
             {
               "k": "not",
               "m": "Müzeyyen elbise kılıfını Jale'nin elinden kapıp kapıya koşuyor.",
