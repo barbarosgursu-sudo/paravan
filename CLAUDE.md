@@ -1,5 +1,8 @@
 # Paravan Dedektiflik
 
+> ## 🔄 HER YENİ OTURUMDA İLK İŞ: `git pull` (sormadan), SONRA `kaynak/DEVIR.md` EN ÜST — oradaki "başlamadan önce" listesi.
+> ## İki bilgisayarda çalışılıyor (Barbaros, Oğuz Bey); çekmeden okunan belge eski olabilir.
+
 Türkçe, İstanbul-Noir, ahlaki tercih temelli dedektiflik oyunu. Tek dosyalık HTML,
 dikey/mobil. Yayında: https://barbarosgursu-sudo.github.io/paravan/
 
