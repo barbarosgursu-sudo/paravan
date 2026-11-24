@@ -8,15 +8,49 @@
 
 ---
 
-> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (23 Kasım 2026 gece)
-> - **Barbaros'un penceresi (metin):** V4 BİTTİ (aşağıda "✅ VAKA 4 METNİ BİTTİ"); sırada **VAKA 3** — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V3).
+> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026)
+> - **Barbaros'un penceresi (metin):** V4 ve **V3 BİTTİ** (aşağıda "✅ VAKA 3 METNİ BİTTİ"); sırada **VAKA 2** — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V2).
+>   ⚠ V2'nin de resimleri VAR (V3 gibi): kapı satır–resim bulgularının çoğu yanlış alarm olabilir — önce figüre bak; resim satırın dediğini
+>   gösteriyorsa sahibine "kalsın" öner (`vaka2_bayrak.md`, `vaka2_kapi.md` → `## kalsın`). Kesinti/₺ temizliğinden sonra yanlış suçlama
+>   yolunda tur "kasa/rakam izi" derse "Elindeydi" kartındaki kanıt metnine bak ("₺", büyük harfle "Kasa…" yanlış alarm verir).
+>   Kapı kaydını (`vaka2_kapi.md`) bulgular bitene dek commit dışında tut: kanca dosyanın diskte olup olmadığına bakar → commit'ten önce geçici taşı.
+>   (Aşağıdaki V3 satırları geçmiş kayıt.)
+> - ~~Barbaros'un penceresi: sırada VAKA 3~~ — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V3).
 >   ⚠ V3'ün resimleri VAR: yeni poz = yeni resim; önce kare bağlama / parantez çıkarma / kalsın (SATIR-43: başka vakanın resmi seçenek değil).
 >   ⚠ V4'te atlanıp sonradan yapılanlar (V3'te baştan yap): (1) kesinti YAPI-32'nin TAMAMI — `## ucret` silinir, kademeler eşit VE karar
 >   ÖNİZLEME/SONUÇ'ta "₺ keser / kesti" sözü kalmaz (prim ve sus payı kalır); (2) metin bitince hatırlatma listesi adım 3–5
 >   (`node sablon/kurallar/arac_uygulayici.js kayit 3 3|4|5`, işaretle, `bitti 3 onay2`; sahibine yalnız [X]/[?]). Kural yorumlanmadan önce
 >   `KURALLAR.md`'deki tam metni okunur. Sahibine kısa ve basit yaz.
 > - **Oğuz Bey'in penceresi (resim):** önce V7–V8 (aşağıdaki 23 Kasım sabah notu, `uretim/v7/DURUM.md`), sonra V5 → "🖼️ VAKA 5 RESİM İŞİ",
->   sonra V4 → hemen altta "🖼️ VAKA 4 RESİM İŞİ".
+>   sonra V4 → "🖼️ VAKA 4 RESİM İŞİ", sonra V3 → hemen altta "🖼️ VAKA 3 RESİM İŞİ".
+
+> ## 🖼️ VAKA 3 RESİM İŞİ — OĞUZ BEY'İN (24 Kasım 2026; düzen V5/V4 notlarıyla aynı, ama V3'ün RESİMLERİ VAR)
+> - **V3'ün resimleri gömülü ve yayında** (7 Kasım 2026 üretimi) → yeniden üretilen ya da eklenen resim **eskisinden farklı görünmez**
+>   (aynı yüz, saç, kıyafet, ölçek, zemin, tarz; eski onaylı resim 1. referans — "🖼️ VAKA 1–5 RESİMLERİ", 19 Kasım kararı). Peri'nin eski
+>   dekolteli referansları kullanılmaz. Başka vakanın resmi kullanılmaz (SATIR-43).
+> - **Metinden gelen zorunlu iş — 3 yeni açı (SATIR-23; Barbaros 24 Kasım: "yeni uygun resimler üretelim"):** uzun sahnede tek arka plan.
+>   (1) **giriş, büro A6** — 23 replik, tek kare K36 → büronun ikinci açısı; (2) **Gizem sahnesi A27** — 18 replik (K38) → ikinci açı;
+>   (3) **Kenan sahnesi, imalathane A25** — 17 replik (K54) → ikinci açı. Resimler gelince diyalogda arka plan sahnenin ortasında değişir
+>   (yalnız `{arka: …}` etiketi, söz aynı; yeni anahtar kanona `arac_json_yaz.js` ile — KOD-49), sonra `arac_diyalog.js … V3` ve kapı.
+>   Hatırlatma kaydında `[X] SATIR-23` bu iş bitince `[u]` olur (`sablon/vakalar/vaka3_hatirlatma.md`).
+> - **Yeni poz yok.** Karar sorusunu Gizem soruyor, seçim karesi var olan **K44**; Cengo'nun karar/kanıt satırları var olan yüzlerle
+>   (`cengo.unlu.kas/gulen/normal`, `peri.kas/normal/utanmis`).
+> - **Listeden çıkan 6 figür** (hiçbir satır istemiyor): `peri.trenckot.sinirli/utanmis/sasirmis`, `peri.simit.utanmis`, `peri.onluklu.sinirli`,
+>   `cengo.haki.yumusak` — üretilmez (dosyaları duruyor).
+> - **Kapı:** `vaka3_kapi.md` → `## poz` **boş**; gömmede resim kapısı (`node arac_kapi.js V3 resim`) bu tabloyu ister — V3'ün figürlerine
+>   bakılarak `vaka6_kapi.md` biçiminde doldurulur. Kalsınlar: `vaka3_kapi.md` → `## kalsın` (üç K4), `vaka3_bayrak.md` (on satır–resim:
+>   resim satırı zaten gösteriyor).
+> - Eski görsel tablosu `sablon/vakalar/vaka3_gorsel.md` eski araçla yazılmıştı; yeni üretim düzeninde (`uretim/v3/`) yeniden yazılır.
+>   Hangi eski V3 resimlerinin yeni kurallara göre yeniden üretileceği (tarz denetimi vb.) Oğuz Bey'in kararı.
+
+> ## ✅ 24 KASIM 2026: VAKA 3 METNİ BİTTİ (Barbaros'un penceresi)
+> - `main`'de: `452a76f` (173 ekran/yüz etiketi + 15 konuşan ifadesi; Gizem soruyor — karar_soru, K44; dört SEÇENEK; Cengo karar satırları
+>   etiketli; altı `cengo_kanit`; `## ucret` ve kesinti kalktı, kademeler eşit 40.000; Nadide'nin dört uzun repliği bölündü), `d36f116`
+>   (kanıt metinleri: "₺" → "lira", "Kasa zorlanmamış" → "Kimse kasayı zorlamamış" — turun kasa denetimi "Elindeydi" kartında yanlış alarm
+>   veriyordu), kapı kaydı commit'i (`vaka3_kapi.md`, `vaka3_bayrak.md`), son commit (Badem sızıntısı, 6 figür listeden, hatırlatma listesi).
+> - Kapı V3 hikaye GEÇTİ (420 → 0), doğrulayıcıda V3 uyarısı yok, 8 test geçti, sızıntı V3 40 temiz + elle okundu (Badem adı ipucusuz
+>   oyuncuya karar sonucunda geçiyordu → "rakip bir pastane").
+> - Hatırlatma listesi adım 3–5: 138 madde — 130 uyuyor, 7 ilgisiz, 1 `[X]` SATIR-23 (yukarıdaki resim işi).
 
 > ## 🖼️ VAKA 4 RESİM İŞİ — OĞUZ BEY'İN (23 Kasım 2026 gece, V5'teki düzenin aynısı; Oğuz Bey'in bilgisayarındaki Claude buradan başlar)
 > **İş bölümü ve başlamadan yapılacaklar V5 notuyla aynı** (aşağıda "🖼️ VAKA 5 RESİM İŞİ": görünüş kararları Oğuz Bey'de, teknik işi Claude
