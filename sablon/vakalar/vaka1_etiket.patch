@@ -1,0 +1,378 @@
+diff --git a/sablon/vakalar/vaka1_diyalog.md b/sablon/vakalar/vaka1_diyalog.md
+index 74e1469..56f7b09 100644
+--- a/sablon/vakalar/vaka1_diyalog.md
++++ b/sablon/vakalar/vaka1_diyalog.md
+@@ -25,45 +25,45 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
+ ⚙ arka: A6 · figurler: peri, cengo, riza
+ ⚙ K17: büro, 15–25 replik, şüpheli (Kemal) anılıyor, ücret konuşuluyor, ipucu bilgisi yok.
+ 
+-*Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri. Bugün çarşamba.*
+-**PERİ [normal]:** Ev sahibi değilsiniz.
+-**RIZA [normal]:** Değilim. Dedektif burası mı? Camda öyle yazıyor.
+-**CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım.
++*Kapıda yetmişlerinde bir adam. Kasket, lacivert yelek, ellerinde ağ izleri. Bugün çarşamba.* {ekran: peri+riza, yuz: peri.normal+riza.normal}
++**PERİ [normal]:** Ev sahibi değilsiniz. {kime: riza, ekran: peri+riza, yuz: riza.normal}
++**RIZA [normal]:** Değilim. Dedektif burası mı? Camda öyle yazıyor. {ekran: peri+riza, yuz: peri.normal}
++**CENGO [kas]:** Camda yazıyor muymuş? Üç aydır geliyorum, hiç bakmadım. {ekran: cengo+riza, yuz: riza.normal}
+ *Peri mantosunu çıkarıp askıya asıyor. Rıza Reis gözünü kaçırıyor.* {set: mantosuz, kare: K15, arka: A6b}
+-**RIZA [normal]:** Kızım, sen o yarışmadaki değil misin? {kime: peri}
+-**CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu. {kime: peri}
+-**PERİ [kas]:** Buyurun, oturun. Ne oldu? {gir: riza}
+-**RIZA [dertli]:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı.
+-**CENGO [kas]:** Nazlı kim?
+-**RIZA:** Tekne. Rahmetli hanımın adı.
+-**PERİ [normal]:** Ne zaman?
+-**RIZA:** Dün gece. Sabah iskeleye indim, yok. Karakola gittim, tutanak tuttular, "bakarız" dediler.
+-**RIZA [ofkeli]:** Kemal'dir. Yanımda bağlar. Yirmi yıldır yerime göz diker; geçen hafta yakama yapıştı.
+-**CENGO [kas]:** Kemal'in teknesi yerinde mi?
+-**RIZA:** Yerinde. Akıllı adam.
+-**RIZA [normal]:** Zinciri her akşam kendim kilitlerim. Anahtarı boynumda. Yedekleri evde dururdu; yıllar önce kayboldu.
+-**RIZA [dertli]:** Bir hafta denize çıkmazsam batarım.
+-**PERİ [normal]:** Otuz beş bin.
+-**RIZA [dertli]:** *(yutkunarak)* …Tekne dönünce.
+-**CENGO [gulen]:** *(Rıza Reis'e, alçak sesle)* Merak etme reis, ben bedavaya çalışıyorum.
+-**PERİ [kas]:** Anlaştık. Önce iskele.
+-*Rıza Reis kapıdan çıkarken duruyor.*
+-**RIZA [normal]:** Bir de… oğlum Serkan'a söylemeyin. Üzülür. {cik}
++**RIZA [normal]:** Kızım, sen o yarışmadaki değil misin? {kime: peri, ekran: peri+riza, yuz: peri.normal}
++**CENGO [gulen]:** Yarışmayı hatırlayan son seyirci de bulundu. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
++**PERİ [kas]:** Buyurun, oturun. Ne oldu? {gir: riza, kime: riza, ekran: peri+riza, yuz: riza.normal}
++**RIZA [dertli]:** Teknemi aldılar. Kırk yıllık teknemi. Nazlı'yı. {ekran: peri+riza, yuz: peri.kas}
++**CENGO [kas]:** Nazlı kim? {ekran: cengo+riza, yuz: riza.dertli}
++**RIZA [dertli]:** Tekne. Rahmetli hanımın adı. {ekran: cengo+riza, yuz: cengo.kas}
++**PERİ [normal]:** Ne zaman? {ekran: peri+riza, yuz: riza.dertli}
++**RIZA [dertli]:** Dün gece. Sabah iskeleye indim, yok. Karakola gittim, tutanak tuttular, "bakarız" dediler. {ekran: peri+riza, yuz: peri.normal}
++**RIZA [ofkeli]:** Kemal'dir. Yanımda bağlar. Yirmi yıldır yerime göz diker; geçen hafta yakama yapıştı. {ekran: peri+riza, yuz: peri.normal}
++**CENGO [kas]:** Kemal'in teknesi yerinde mi? {ekran: cengo+riza, yuz: riza.ofkeli}
++**RIZA [ofkeli]:** Yerinde. Akıllı adam. {ekran: cengo+riza, yuz: cengo.kas}
++**RIZA [normal]:** Zinciri her akşam kendim kilitlerim. Anahtarı boynumda. Yedekleri evde dururdu; yıllar önce kayboldu. {ekran: cengo+riza, yuz: cengo.kas}
++**RIZA [dertli]:** Bir hafta denize çıkmazsam batarım. {ekran: cengo+riza, yuz: cengo.kas}
++**PERİ [normal]:** Otuz beş bin. {ekran: peri+riza, yuz: riza.dertli}
++**RIZA [dertli]:** *(yutkunarak)* …Tekne dönünce. {ekran: peri+riza, yuz: peri.normal}
++**CENGO [gulen]:** *(Rıza Reis'e, alçak sesle)* Merak etme reis, ben bedavaya çalışıyorum. {ekran: cengo+riza, yuz: riza.dertli}
++**PERİ [kas]:** Anlaştık. Önce iskele. {ekran: peri+cengo, yuz: cengo.gulen}
++*Rıza Reis kapıdan çıkarken duruyor.* {ekran: riza, yuz: riza.dertli}
++**RIZA [normal]:** Bir de… oğlum Serkan'a söylemeyin. Üzülür. {cik, kime: peri, ekran: peri+riza, yuz: peri.kas}
+ 
+ ## sahne konusma
+ ⚙ arka: A6b · figurler: peri, cengo
+ 
+-**CENGO [gulen]:** İlk müşteri.
+-**PERİ [kas]:** Parası tekne dönünce.
+-**CENGO [gulen]:** Tekne dönerse para döner. Basit iş.
+-**PERİ [normal]:** Plan şu. İskeleye gideriz, kayıt tutarız, liman başkanlığına yazılı başvuru yaparız. {arka: A7}
+-**CENGO [normal]:** Başvurunun cevabı gelene kadar Reis batar. İskeledeki çaycıya sorarız. Çaycı gece de oradadır.
+-**PERİ [kas]:** Çaycıyı tanıyor musunuz?
+-**CENGO [normal]:** Bana üç bardak borcu var.
+-**PERİ:** Siz herkese mi borçlusunuz, herkes size mi?
+-**CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım.
+-**PERİ [normal]:** İskele. Çaycınız. Bir de şu Kemal.
+-**CENGO [kas]:** Benim değil o çaycı. Bana borçlu, o kadar.
++**CENGO [gulen]:** İlk müşteri. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
++**PERİ [kas]:** Parası tekne dönünce. {ekran: peri+cengo, yuz: cengo.gulen}
++**CENGO [gulen]:** Tekne dönerse para döner. Basit iş. {ekran: peri+cengo, yuz: peri.kas}
++**PERİ [normal]:** Plan şu. İskeleye gideriz, kayıt tutarız, liman başkanlığına yazılı başvuru yaparız. {arka: A7, ekran: peri+cengo, yuz: cengo.gulen}
++**CENGO [normal]:** Başvurunun cevabı gelene kadar Reis batar. İskeledeki çaycıya sorarız. Çaycı gece de oradadır. {ekran: peri+cengo, yuz: peri.normal}
++**PERİ [kas]:** Çaycıyı tanıyor musunuz? {ekran: peri+cengo, yuz: cengo.normal}
++**CENGO [normal]:** Bana üç bardak borcu var. {ekran: peri+cengo, yuz: peri.kas}
++**PERİ [kas]:** Siz herkese mi borçlusunuz, herkes size mi? {ekran: peri+cengo, yuz: cengo.normal}
++**CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım. {ekran: peri+cengo, yuz: peri.kas}
++**PERİ [normal]:** İskele. Çaycınız. Bir de şu Kemal. {ekran: peri+cengo, yuz: cengo.gulen}
++**CENGO [kas]:** Benim değil o çaycı. Bana borçlu, o kadar. {ekran: peri+cengo, yuz: peri.normal}
+ 
+ ---
+ 
+@@ -71,92 +71,92 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
+ ⚙ arka: A10 · figurler: peri, cengo
+ 
+ *İskelenin çay ocağı. Çaycı, Cengo'yu görünce cebini yokluyor.* {mekan}
+-**ÇAYCI [normal]:** Üç bardak. Al, ödedim. Bitti mi? {gir: cayci}
+-**CENGO [gulen]:** Bitti. Şimdi bir de konuş.
+-**ÇAYCI:** Salı gece yarısı Nazlı'nın motoru çalıştı. Boğaz'a doğru, kuzeye gitti.
+-**ÇAYCI:** Dümendeki bana el salladı. Karanlıktı, yüzünü seçemedim.
+-**CENGO [kas]:** El sallayan hırsız görmedim ben. Kemal o gece neredeydi?
+-**ÇAYCI:** Burada, okey oynuyordu. Gece yarısına doğru "tekneye bakıp geleyim" dedi; yarım saat yoktu.
+-**PERİ [kas]:** Tam gece yarısı.
+-**ÇAYCI:** Bir de sabah Bebek'teki balıkçı arkadaşım aradı. "Sizin Nazlı'ya benzer bir tekne var burada," dedi. "Ama beyaz."
+-**PERİ [merakli]:** Beyaz mı?
+-**ÇAYCI:** Öyle dedi. Ben görmedim. {cik}
++**ÇAYCI [normal]:** Üç bardak. Al, ödedim. Bitti mi? {gir: cayci, kime: cengo, ekran: cengo+cayci, yuz: cengo.gulen}
++**CENGO [gulen]:** Bitti. Şimdi bir de konuş. {ekran: cengo+cayci, yuz: cayci.normal}
++**ÇAYCI [normal]:** Salı gece yarısı Nazlı'nın motoru çalıştı. Boğaz'a doğru, kuzeye gitti. {ekran: cengo+cayci, yuz: cengo.gulen}
++**ÇAYCI [normal]:** Dümendeki bana el salladı. Karanlıktı, yüzünü seçemedim. {ekran: cengo+cayci, yuz: cengo.gulen}
++**CENGO [kas]:** El sallayan hırsız görmedim ben. Kemal o gece neredeydi? {ekran: cengo+cayci, yuz: cayci.normal}
++**ÇAYCI [normal]:** Burada, okey oynuyordu. Gece yarısına doğru "tekneye bakıp geleyim" dedi; yarım saat yoktu. {ekran: cengo+cayci, yuz: cengo.kas}
++**PERİ [kas]:** Tam gece yarısı. {ekran: peri+cayci, yuz: cayci.normal}
++**ÇAYCI [normal]:** Bir de sabah Bebek'teki balıkçı arkadaşım aradı. "Sizin Nazlı'ya benzer bir tekne var burada," dedi. "Ama beyaz." {ekran: peri+cayci, yuz: peri.kas}
++**PERİ [merakli]:** Beyaz mı? {ekran: peri+cayci, yuz: cayci.normal}
++**ÇAYCI [normal]:** Öyle dedi. Ben görmedim. {cik, ekran: peri+cayci, yuz: peri.merakli}
+ 
+ ## ipucu iskele
+ ⚙ arka: A9 · figurler: peri, cengo
+ 
+ *Karaköy iskelesi. Nazlı'nın yeri boş; zincir yerinde.* {mekan}
+ *Kilidi kırılmamış, zorlanmamış. Cengo kilide eğiliyor.* {kare: D2}
+-**CENGO [kas]:** Bu anahtarla açılmış, sonra yeniden kilitlenmiş. Ya da benden iyi biri varmış; ona inanmam.
+-**PERİ [kas]:** Rıza Reis "yedekler evde dururdu" demişti.
+-**CENGO [kas]:** Evde kim var?
+-**PERİ [normal]:** Bir oğlu var. Serkan.
+-*Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.* {gir: kemal}
+-**PERİ [normal]:** Kemal Reis?
+-**KEMAL [normal]:** Ne olacak?
+-**PERİ [kas]:** Salı gece neredeydiniz?
+-**KEMAL:** Teknemdeydim. Ne olacak?
+-**CENGO [kas]:** Nazlı giderken?
+-**KEMAL:** Nazlı'yı ben ne yapayım?
+-*Fırçayı kovaya atıyor.*
+-**KEMAL [ofkeli]:** Hırsız arıyorsanız uzağa bakmayın.
+-**CENGO [kas]:** Bu bir itiraf mıydı, tavsiye mi? {kime: peri}
+-**PERİ [kas]:** Belki ikisi.
++**CENGO [kas]:** Bu anahtarla açılmış, sonra yeniden kilitlenmiş. Ya da benden iyi biri varmış; ona inanmam. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
++**PERİ [kas]:** Rıza Reis "yedekler evde dururdu" demişti. {ekran: peri+cengo, yuz: cengo.kas}
++**CENGO [kas]:** Evde kim var? {ekran: peri+cengo, yuz: peri.kas}
++**PERİ [normal]:** Bir oğlu var. Serkan. {ekran: peri+cengo, yuz: cengo.kas}
++*Yan bağlamada iri bir adam teknesinin başında. Elleri bileklerine kadar beyaz boya; küpeşte taze boyalı.* {gir: kemal, ekran: kemal, yuz: kemal.normal}
++**PERİ [normal]:** Kemal Reis? {kime: kemal, ekran: peri+kemal, yuz: kemal.normal}
++**KEMAL [normal]:** Ne olacak? {ekran: peri+kemal, yuz: peri.normal}
++**PERİ [kas]:** Salı gece neredeydiniz? {ekran: peri+kemal, yuz: kemal.normal}
++**KEMAL [normal]:** Teknemdeydim. Ne olacak? {ekran: peri+kemal, yuz: peri.kas}
++**CENGO [kas]:** Nazlı giderken? {ekran: cengo+kemal, yuz: kemal.normal}
++**KEMAL [normal]:** Nazlı'yı ben ne yapayım? {ekran: cengo+kemal, yuz: cengo.kas}
++*Fırçayı kovaya atıyor.* {ekran: cengo+kemal, yuz: cengo.kas+kemal.normal}
++**KEMAL [ofkeli]:** Hırsız arıyorsanız uzağa bakmayın. {kime: cengo, ekran: cengo+kemal, yuz: cengo.kas}
++**CENGO [kas]:** Bu bir itiraf mıydı, tavsiye mi? {kime: peri, ekran: peri+cengo, yuz: peri.kas}
++**PERİ [kas]:** Belki ikisi. {ekran: peri+cengo, yuz: cengo.kas}
+ 
+ ## ipucu bebek
+ ⚙ arka: A11 · figurler: peri, cengo
+ 
+ *Bebek. Sahil yolunda bir dizi seti: bariyerler, kablolar, jeneratör sesi.* {mekan}
+-**PERİ [normal]:** Dur, ben hallederim. Beni tanırlar.
+-**CENGO [kas]:** Kim tanır?
+-**PERİ [kas]:** Herkes. Ben güzellik kraliçesiydim.
+-**ASİSTAN:** *(Peri'yi baştan aşağı süzüp)* Figüranlar arkadan.
+-**PERİ [sinirli]:** …Figüran mı?
+-**CENGO [gulen]:** Kraliçeler arkadan giriyormuş. {kime: peri}
+-**PERİ [sinirli]:** Bir kelime daha edersen maaşını keserim.
+-**CENGO [gulen]:** Önce bir verin, sonra kesin. {kime: peri}
+-**ASİSTAN:** *(telefonunu figüranlara gösteriyor)* Bu sezonun yıldızı: gerçek bir lüks yat.
++**PERİ [normal]:** Dur, ben hallederim. Beni tanırlar. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
++**CENGO [kas]:** Kim tanır? {ekran: peri+cengo, yuz: peri.normal}
++**PERİ [kas]:** Herkes. Ben güzellik kraliçesiydim. {ekran: peri+cengo, yuz: cengo.kas}
++**ASİSTAN [normal]:** *(Peri'yi baştan aşağı süzüp)* Figüranlar arkadan. {ekran: peri+asistan, yuz: peri.kas}
++**PERİ [sinirli]:** …Figüran mı? {ekran: peri+asistan, yuz: asistan.normal}
++**CENGO [gulen]:** Kraliçeler arkadan giriyormuş. {kime: peri, ekran: peri+cengo, yuz: peri.sinirli}
++**PERİ [sinirli]:** Bir kelime daha edersen maaşını keserim. {ekran: peri+cengo, yuz: cengo.gulen}
++**CENGO [gulen]:** Önce bir verin, sonra kesin. {kime: peri, ekran: peri+cengo, yuz: peri.sinirli}
++**ASİSTAN [normal]:** *(telefonunu figüranlara gösteriyor)* Bu sezonun yıldızı: gerçek bir lüks yat. {ekran: asistan+cengo, yuz: cengo.gulen}
+ *Setin ortasında "lüks yat": beyaza boyanmış, ahşap gövdeli, yaşlı bir balıkçı teknesi. Pruvadaki taze boyanın altından eski bir ad seçiliyor: Nazlı.* {kare: D3}
+ **BOYACI:** Dokunmayın, daha kurumadı. Dün gece geldi, sabah biz boyadık. {kare: D3}
+-**PERİ [sinirli]:** Hırsızı bulduk.
+-**CENGO [kas]:** Hırsız kamera kurmaz. {kime: peri}
+-*Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba, peri: merakli}
+-**TUBA [normal]:** Tekne bizim, belgesi tamam. Çekimdeyiz, gidin.
+-**PERİ [kas]:** Belgeyi görebilir miyim?
+-**TUBA:** Çekimdeyiz dedim. {cik}
+-**CENGO [kas]:** Belgesi o kadar tamam ki göstermeye kıyamıyor.
++**PERİ [sinirli]:** Hırsızı bulduk. {ekran: peri+boyaci, yuz: boyaci.normal}
++**CENGO [kas]:** Hırsız kamera kurmaz. {kime: peri, ekran: peri+cengo, yuz: peri.sinirli}
++*Elinde üç telefonla bir kadın koşarak geliyor; herkes ona "Tuba Hanım" diyor.* {gir: tuba, peri: merakli, ekran: tuba, yuz: tuba.normal}
++**TUBA [normal]:** Tekne bizim, belgesi tamam. Çekimdeyiz, gidin. {kime: peri, ekran: peri+tuba, yuz: peri.merakli}
++**PERİ [kas]:** Belgeyi görebilir miyim? {ekran: peri+tuba, yuz: tuba.normal}
++**TUBA [normal]:** Çekimdeyiz dedim. {cik, ekran: peri+tuba, yuz: peri.kas}
++**CENGO [kas]:** Belgesi o kadar tamam ki göstermeye kıyamıyor. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+ 
+ ## ipucu set_sorumlusu
+ ⚙ arka: A12 · figurler: peri, cengo
+ ⚙ Kural 21c: Tuba kiralayanın adını VERMEZ. "Karaköy'den bir balıkçı" Kemal'e de Serkan'a da uyar.
+ 
+ *Set arkası, yemek masası. Cengo bir tabak pilav alıp Tuba'nın yanına oturuyor.* {mekan, kare: K16}
+-**CENGO [gulen]:** Pilavınız güzel. {gir: tuba}
+-**TUBA [normal]:** Sen kimsin?
+-**CENGO [normal]:** Teknenin sahibinin adamıyım.
+-**TUBA:** Sahibi değil mi o? Karaköy'den bir balıkçı geldi, "sahibiyim" dedi. Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin.
+-**PERİ [kas]:** Adı neydi?
+-**TUBA:** Sormadım. Nakit veren adama ad sorulmaz.
+-**PERİ [kas]:** Ruhsatını gördünüz mü?
+-**TUBA:** Göstermedi, ben de sormadım. Çekim cumaya yetişmezse ben yetişemem. {cik}
+-**CENGO [gulen]:** Pilavı da güzeldi.
++**CENGO [gulen]:** Pilavınız güzel. {gir: tuba, kime: tuba, ekran: cengo+tuba, yuz: tuba.normal}
++**TUBA [normal]:** Sen kimsin? {ekran: cengo+tuba, yuz: cengo.gulen}
++**CENGO [normal]:** Teknenin sahibinin adamıyım. {ekran: cengo+tuba, yuz: tuba.normal}
++**TUBA [normal]:** Sahibi değil mi o? Karaköy'den bir balıkçı geldi, "sahibiyim" dedi. Kiraladık, nakit. Üç günlüğüne, günü otuz beş bin. {ekran: cengo+tuba, yuz: cengo.normal}
++**PERİ [kas]:** Adı neydi? {ekran: peri+tuba, yuz: tuba.normal}
++**TUBA [normal]:** Sormadım. Nakit veren adama ad sorulmaz. {ekran: peri+tuba, yuz: peri.kas}
++**PERİ [kas]:** Ruhsatını gördünüz mü? {ekran: peri+tuba, yuz: tuba.normal}
++**TUBA [normal]:** Göstermedi, ben de sormadım. Çekim cumaya yetişmezse ben yetişemem. {cik, ekran: peri+tuba, yuz: peri.kas}
++**CENGO [gulen]:** Pilavı da güzeldi. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+ 
+ ## ipucu serkan
+ ⚙ arka: A13 · figurler: peri, cengo
+ ⚙ Kural 21c: Serkan sakin; tek başına ele vermez. Borç notu sebebi gösterir, suçu değil.
+ 
+-**PERİ [utanmis]:** Rıza Reis "oğluma söylemeyin" dedi.
+-**CENGO [gulen]:** Söylemiyoruz. Soruyoruz.
+-*Karaköy'de kapalı bir balık-ekmek dükkânı. Kepengin önünde otuzlarında bir adam.* {gir: serkan}
+-**PERİ [normal]:** Serkan Bey? Babanızın teknesi…
+-**SERKAN [normal]:** Duydum. Kemal'le kavgalılar, biliyorsunuz.
+-**CENGO [kas]:** Teknenin yedek anahtarı kimde?
+-**SERKAN:** Yedek mi? Yıllar önce babamda kaldı. Evde bir yerdedir.
++**PERİ [utanmis]:** Rıza Reis "oğluma söylemeyin" dedi. {ekran: peri+cengo, yuz: cengo.normal}
++**CENGO [gulen]:** Söylemiyoruz. Soruyoruz. {ekran: peri+cengo, yuz: peri.utanmis}
++*Karaköy'de kapalı bir balık-ekmek dükkânı. Kepengin önünde otuzlarında bir adam.* {gir: serkan, ekran: serkan, yuz: serkan.normal}
++**PERİ [normal]:** Serkan Bey? Babanızın teknesi… {kime: serkan, ekran: peri+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** Duydum. Kemal'le kavgalılar, biliyorsunuz. {ekran: peri+serkan, yuz: peri.normal}
++**CENGO [kas]:** Teknenin yedek anahtarı kimde? {ekran: cengo+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** Yedek mi? Yıllar önce babamda kaldı. Evde bir yerdedir. {ekran: cengo+serkan, yuz: cengo.kas}
+ *Kepengin üstüne bantlanmış, el yazısı bir not: "Cuma günü ya para ya anahtar. — Ev sahibi."* {kare: D4}
+-**PERİ [normal]:** Cumaya ne kadar borcunuz var?
+-**SERKAN:** Yüz bine yakın. Ne alakası var?
+-**PERİ [kas]:** Bilmiyorum. Henüz.
+-**CENGO [kas]:** Dükkân kapalı, borç açık. {kime: peri}
++**PERİ [normal]:** Cumaya ne kadar borcunuz var? {kime: serkan, ekran: peri+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** Yüz bine yakın. Ne alakası var? {ekran: peri+serkan, yuz: peri.normal}
++**PERİ [kas]:** Bilmiyorum. Henüz. {ekran: peri+serkan, yuz: serkan.normal}
++**CENGO [kas]:** Dükkân kapalı, borç açık. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
+ 
+ ---
+ 
+@@ -164,48 +164,48 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
+ ⚙ arka: A13 · figurler: peri, cengo, serkan
+ ⚙ Oyuncu hangi doğru çifti seçtiyse seçsin aynı sahne; bu yüzden kanıtı adıyla anmaz.
+ 
+-*Serkan'ın dükkânının önü. Serkan kepengin önünde.* {gir: serkan}
+-**PERİ [normal]:** Nazlı'yı siz aldınız, Serkan Bey. Nasıl aldığınızı da biliyorum.
+-**SERKAN [normal]:** Ne diyorsunuz siz?
+-**PERİ [kas]:** İki şey diyorum. İkisini de biliyorsunuz.
+-**CENGO [kas]:** Baban da bilecek.
+-**SERKAN [panik]:** Babam mı?
+-*Serkan bir babasının iskelesine bakıyor, bir yola. Sonra koşuyor.* {cik}
++*Serkan'ın dükkânının önü. Serkan kepengin önünde.* {gir: serkan, ekran: serkan, yuz: serkan.normal}
++**PERİ [normal]:** Nazlı'yı siz aldınız, Serkan Bey. Nasıl aldığınızı da biliyorum. {kime: serkan, ekran: peri+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** Ne diyorsunuz siz? {ekran: peri+serkan, yuz: peri.normal}
++**PERİ [kas]:** İki şey diyorum. İkisini de biliyorsunuz. {ekran: peri+serkan, yuz: serkan.normal}
++**CENGO [kas]:** Baban da bilecek. {ekran: peri+cengo, yuz: peri.kas}
++**SERKAN [panik]:** Babam mı? {ekran: cengo+serkan, yuz: cengo.kas}
++*Serkan bir babasının iskelesine bakıyor, bir yola. Sonra koşuyor.* {cik, ekran: serkan, yuz: serkan.panik}
+ 
+ ## sahne yuzlesme_zayif
+ ⚙ arka: A13 · figurler: peri, cengo, serkan
+ 
+-*Serkan'ın dükkânının önü. Serkan kepengin önünde.* {gir: serkan}
+-**PERİ [normal]:** Tekneyi siz aldınız.
+-**SERKAN [normal]:** Ne kanıtınız var?
+-**PERİ [utanmis]:** …Bir his.
+-**SERKAN [normal]:** His mi? Gidin işinize. {peri: aci}
+-**SERKAN [panik]:** *(Cengo bir adım yaklaşınca)* Yaklaşmayın!
+-*Serkan paniğe kapılıp koşuyor.* {cik}
++*Serkan'ın dükkânının önü. Serkan kepengin önünde.* {gir: serkan, ekran: serkan, yuz: serkan.normal}
++**PERİ [normal]:** Tekneyi siz aldınız. {kime: serkan, ekran: peri+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** Ne kanıtınız var? {ekran: peri+serkan, yuz: peri.normal}
++**PERİ [utanmis]:** …Bir his. {ekran: peri+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** His mi? Gidin işinize. {peri: aci, ekran: peri+serkan}
++**SERKAN [panik]:** *(Cengo bir adım yaklaşınca)* Yaklaşmayın! {ekran: peri+serkan, yuz: peri.aci}
++*Serkan paniğe kapılıp koşuyor.* {cik, ekran: serkan, yuz: serkan.panik}
+ 
+ ## sahne yuzlesme_kemal
+ ⚙ arka: A13 · figurler: peri, cengo, serkan
+ ⚙ Kemal, Serkan'dan alacağını istemeye gelmiş (form §10, onaylı).
+ 
+ *Serkan'ın dükkânının önü. Kemal Reis, Serkan'dan alacağını istemeye gelmiş.* {mekan}
+-**PERİ [kas]:** Kemal Reis. Nazlı'yı siz aldınız. {gir: kemal, gi: sokak}
+-**KEMAL [sokak]:** Ben mi? Ben buraya alacağımı almaya geldim!
+-**KEMAL:** Dümende Rıza'nın oğlu vardı. Gözümle gördüm!
+-**CENGO [kas]:** Gördün de sustun mu?
+-**KEMAL:** Rıza'ya mı söyleyecektim? Yakama yapışan adama?
+-*Herkes kepengin önündeki Serkan'a dönüyor.* {gir: serkan}
+-**SERKAN [panik]:** Ben… bir şey yapmadım!
+-*Serkan koşuyor.* {cik}
++**PERİ [kas]:** Kemal Reis. Nazlı'yı siz aldınız. {gir: kemal, gi: sokak, kime: kemal, ekran: peri+kemal}
++**KEMAL [sokak]:** Ben mi? Ben buraya alacağımı almaya geldim! {ekran: peri+kemal, yuz: peri.kas}
++**KEMAL [sokak]:** Dümende Rıza'nın oğlu vardı. Gözümle gördüm! {ekran: peri+kemal, yuz: peri.kas}
++**CENGO [kas]:** Gördün de sustun mu? {ekran: cengo+kemal, yuz: kemal.sokak}
++**KEMAL [sokak]:** Rıza'ya mı söyleyecektim? Yakama yapışan adama? {ekran: cengo+kemal, yuz: cengo.kas}
++*Herkes kepengin önündeki Serkan'a dönüyor.* {gir: serkan, ekran: serkan, yuz: serkan.normal}
++**SERKAN [panik]:** Ben… bir şey yapmadım! {kime: cengo, ekran: cengo+serkan, yuz: cengo.kas}
++*Serkan koşuyor.* {cik, ekran: serkan, yuz: serkan.panik}
+ 
+ ## sahne yuzlesme_tuba
+ ⚙ arka: A13 · figurler: peri, cengo, serkan
+ ⚙ Tuba sette; yüzleşme telefonla, hoparlörden (form §10).
+ 
+-*Serkan'ın dükkânının önü. Peri, Serkan'ın gözü önünde Tuba'yı arıyor; hoparlörü açıyor. Serkan kepengin önünde, ensesini kaşıyarak dinliyor.* {gir: serkan, peri: telefon}
+-**PERİ [telefon]:** Tuba Hanım, tekneyi siz çaldınız.
+-**TUBA_TEL:** Çaldık mı? Kiraladık! Karaköylü bir balıkçı geldi, "sahibiyim" dedi!
+-**CENGO [kas]:** Karaköylü bir balıkçı.
+-*Herkes Serkan'a dönüyor. Serkan koşuyor.* {cik}
++*Serkan'ın dükkânının önü. Peri, Serkan'ın gözü önünde Tuba'yı arıyor; hoparlörü açıyor. Serkan kepengin önünde, ensesini kaşıyarak dinliyor.* {gir: serkan, peri: telefon, ekran: peri+serkan, yuz: serkan.normal}
++**PERİ [telefon]:** Tuba Hanım, tekneyi siz çaldınız. {ekran: peri}
++**TUBA_TEL:** Çaldık mı? Kiraladık! Karaköylü bir balıkçı geldi, "sahibiyim" dedi! {ekran: peri, yuz: peri.telefon}
++**CENGO [kas]:** Karaköylü bir balıkçı. {kime: serkan, ekran: cengo+serkan, yuz: serkan.normal}
++*Herkes Serkan'a dönüyor. Serkan koşuyor.* {cik, ekran: serkan, yuz: serkan.normal}
+ 
+ ## sahne kovalamaca
+ ⚙ arka: A13 · figurler: peri, cengo
+@@ -221,16 +221,16 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
+ *Peri çarşafı üstünden atıyor, koşmaya devam ediyor.* {kare: K11c, arka: A9}
+ *Serkan iskeleye doğru kaçıyor; ıslak rıhtımda balıkçıların sabah avıyla dolu kasalara takılıyor. Kasa devriliyor, levrekler rıhtıma saçılıyor. Serkan levreklere basıyor, kayıyor, sırt üstü düşüyor. Arkadan topuklularıyla koşan Peri de levreklerin üstünde kayıyor ve kasaların içine oturuyor.* {kare: K8, arka: A9}
+ *Cengo nefes nefese kestirmeden çıkıyor ve yerdeki Serkan'ın yakasına yapışıyor.* {kare: K12}
+-**CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi. {set: balikli}
+-**PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım.
+-**SERKAN [normal]:** Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan}
+-**CENGO [sinirli]:** Babana söyleyecek miydin?
+-**SERKAN:** Cumartesi. Tekneyle birlikte. {cik}
+-*Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.* {cengo: gulen, peri: utanmis}
+-**PERİ [istavrit]:** *(istavriti havada tutarak)* Bunu kime veriyorum?
+-**CENGO [gulen]:** Akşam yemeği çıktı.
++**CENGO [gulen]:** Siz düştünüz, o kaydı. Ekip işi. {set: balikli, kime: peri, ekran: peri+cengo, yuz: peri.sinirli}
++**PERİ [sinirli]:** *(saçından pul ayıklayarak)* Planlamıştım. {ekran: peri+cengo, yuz: cengo.gulen}
++**SERKAN [normal]:** Tamam! Ben aldım. Yedek anahtar bendeydi; babam yıllar önce vermişti, unuttu. Cuma borcum var. Sete kiraladım; cumartesi geri getirecektim. {gir: serkan, ekran: peri+serkan, yuz: peri.sinirli}
++**CENGO [sinirli]:** Babana söyleyecek miydin? {ekran: cengo+serkan, yuz: serkan.normal}
++**SERKAN [normal]:** Cumartesi. Tekneyle birlikte. {cik, ekran: cengo+serkan, yuz: cengo.sinirli}
++*Peri ayağa kalkıyor. Bir şey kıpırdıyor. Göğsünün arasına küçük bir istavrit sıkışmış. Peri kıpkırmızı, iki parmağıyla kuyruğundan çekip çıkarıyor.* {cengo: gulen, peri: utanmis, ekran: peri}
++**PERİ [istavrit]:** *(istavriti havada tutarak)* Bunu kime veriyorum? {kime: cengo, ekran: peri+cengo, yuz: cengo.gulen}
++**CENGO [gulen]:** Akşam yemeği çıktı. {ekran: peri+cengo, yuz: peri.istavrit}
+ *Çaycı hortumu uzatıyor. Peri gözlerini kapatıp bekliyor; su saçındaki son pulları da götürüyor.* {kare: K9}
+-*Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.* {set: manto, peri: islak}
++*Peri mantosunu sıkıyor. Akşama kadar üstünden hafif bir balık kokusu çıkmıyor değil.* {set: manto, peri: islak, ekran: peri}
+ 
+ ---
+ 
+@@ -303,22 +303,22 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
+ ⚙ arka: A8 · figurler: peri, cengo
+ ⚙ Bağın iki hâli (kural 12a, eşik +1): `bag: dusuk` / `bag: yuksek` satırları.
+ 
+-*Aynı akşam. Büro. İskelenin ışıkları yanmış. Cengo kapıya yürüyor.*
++*Aynı akşam. Büro. İskelenin ışıkları yanmış. Cengo kapıya yürüyor.* {ekran: cengo, yuz: cengo.normal}
+ *Koridor. Peri anahtarı kilide sokuyor. Olmuyor. Bir daha deniyor. Olmuyor.* {arka: A5b, kare: K17}
+-**PERİ [sinirli]:** Bu kapı beni hiç sevmedi.
+-**CENGO [gulen]:** Kapı kimseyi sevmez. Kilit sever.
++**PERİ [sinirli]:** Bu kapı beni hiç sevmedi. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
++**CENGO [gulen]:** Kapı kimseyi sevmez. Kilit sever. {ekran: peri+cengo, yuz: peri.sinirli}
+ *Cengo geri dönüyor. Teli kilide sokuyor; bir çıt, kapı kilitleniyor.* {kare: D1}
+-*Teli kilitte bırakıyor. Peri'ye uzatmıyor.* {bag: dusuk}
+-**CENGO [normal]:** Lazım olursa. {bag: dusuk}
+-*Peri teli almıyor. Cengo dönünce kilitten çekip mantosunun cebine koyuyor.* {bag: dusuk}
++*Teli kilitte bırakıyor. Peri'ye uzatmıyor.* {bag: dusuk, ekran: peri, yuz: peri.sinirli}
++**CENGO [normal]:** Lazım olursa. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.sinirli}
++*Peri teli almıyor. Cengo dönünce kilitten çekip mantosunun cebine koyuyor.* {bag: dusuk, ekran: peri+cengo, yuz: peri.sinirli+cengo.normal}
+ *Teli Peri'nin avucuna koyuyor. Eli bir an orada kalıyor.* {bag: yuksek, kare: K18}
+-**PERİ [tel]:** Ben hırsız değilim. Kilit kurcalamam. {bag: yuksek}
+-**CENGO [yumusak]:** Biliyorum. Cebinizde dursun. {bag: yuksek}
+-*Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.* {bag: yuksek}
+-**PERİ [normal]:** Yarın kaçta geliyorsunuz?
+-**CENGO [kas]:** Ben pazartesileri geliyordum.
+-**PERİ:** Yarın gelin.
+-**CENGO [kas]:** Maaş?
+-**PERİ [kas]:** Alacağınıza yazılır.
+-**CENGO [gulen]:** Yazılsın.
++**PERİ [tel]:** Ben hırsız değilim. Kilit kurcalamam. {bag: yuksek, kime: cengo, ekran: peri+cengo, yuz: cengo.gulen}
++**CENGO [yumusak]:** Biliyorum. Cebinizde dursun. {bag: yuksek, ekran: peri+cengo, yuz: peri.tel}
++*Peri teli bir süre tutuyor. Sonra mantosunun cebine koyuyor.* {bag: yuksek, ekran: peri, yuz: peri.tel}
++**PERİ [normal]:** Yarın kaçta geliyorsunuz? {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
++**CENGO [kas]:** Ben pazartesileri geliyordum. {ekran: peri+cengo, yuz: peri.normal}
++**PERİ [normal]:** Yarın gelin. {ekran: peri+cengo, yuz: cengo.kas}
++**CENGO [kas]:** Maaş? {ekran: peri+cengo, yuz: peri.normal}
++**PERİ [kas]:** Alacağınıza yazılır. {ekran: peri+cengo, yuz: cengo.kas}
++**CENGO [gulen]:** Yazılsın. {ekran: peri+cengo, yuz: peri.kas}
+ *Cengo merdivenden iniyor. Peri bir an kapının önünde duruyor, elini cebine sokuyor; tel orada.* {kare: K7}

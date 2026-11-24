@@ -8,6 +8,37 @@
 
 ---
 
+> ## 🧭 VAKA 1 — TAMAMI OĞUZ BEY'DE (24 Kasım 2026 gece, Barbaros'un kararı)
+> **Barbaros:** "Vaka 1'in parantezleri, diğer kısımları ve resimlerin hepsi Oğuz Bey tarafından gözden geçirilsin. İlk vaka olduğu
+> için düzgün olmasını istiyorum. Oğuz Bey hem metinlerin uzunluğuna, hem metinlere, hem resimlere kendisi karar versin."
+> → V1'in **metin kararları da** (replik uzunluğu, sözler, parantezler, karar sorusu, kanıt satırları, kesinti) **resimleri de Oğuz Bey'de**.
+> Barbaros'a sorulmaz. Claude taslak hazırlar, Oğuz Bey'e tek tek sorar (SUREC-34: kısa Türkçe, tek soru, örnekle).
+>
+> **Bugün yapılan (Barbaros'un penceresi):**
+> - `main`'de `2585d50`: 8 etiketsiz Cengo satırı çözüldü (4'üne yalnız ifade; 4 karar satırı anlatıdan Cengo'nun ağzından konuşmaya —
+>   Barbaros onayladı). `arac_diyalog.js` artık V1'i yazıyor.
+> - Ortak araç düzeltmeleri (commit'te): `arac_ekran_etiket.js` setsiz Cengo (`cengo.kas`) yüzünü boş bırakıyordu; `arac_satir_resim.js`
+>   telefondaki sesi (`*_tel`, `telefon`) "konuşan ekranda değil" sayıyordu. `vaka1_tur.md`'ye iki yol: `kisa` (iskele + Serkan), `bebek`
+>   (çaycı + Bebek).
+> - **Commit EDİLMEDİ, hazır bekliyor** (sahibi karar vermek istemedi): ekran/yüz etiketleri + 24 konuşan ifadesi (söz aynı; kapı 390 → 12)
+>   → `sablon/vakalar/vaka1_etiket.patch`. Uygulamak: `git apply sablon/vakalar/vaka1_etiket.patch` → `cd kaynak && node arac_diyalog.js
+>   ../sablon/vakalar/vaka1_diyalog.md V1 && node build_html.js` → commit `[söz onaylı]` (Oğuz Bey "söz aynı, yalnız ifade"yi onaylarsa).
+>   Elle düzeltilen 5 satır patch'in içinde: konuşma sahnesi "İlk müşteri" (Rıza çıkmıştı), Çaycı'nın "Üç bardak" (Cengo'ya), Bebek ve set
+>   sorumlusunda Tuba çıktıktan sonraki iki Cengo satırı, Tuba telefon yüzleşmesi (TUBA_TEL ses: ifade almaz, ekranda Peri).
+> - Kapı kaydı taslağı `sablon/vakalar/vaka1_kapi_taslak.md` (yollar: `0 set dogru`, `1 dukkan zayif`, `2 kisa kemal`, `3 bebek tuba`).
+>   Bulgular bitince adı `vaka1_kapi.md` olur — o adla diskte durunca kanca V1'i kapıdan geçirmeye başlar.
+> - Kalan 12 kapı bulgusu (patch uygulanmış hâlde): `sablon/vakalar/vaka1_kapi_bulgular.md`. Claude'un önerileri (karar Oğuz Bey'in):
+>   parantez sil — Rıza "(yutkunarak)", Asistan'ın iki parantezi, Serkan "(Cengo bir adım yaklaşınca)"; kalsın — Peri "(saçından pul
+>   ayıklayarak)", istavrit anlatısı, Tuba'yı arama anlatısı (EYLEM + K2), iki K4 kapı satırı; kare D1'e bağla — "Teli kilitte bırakıyor";
+>   satırı sil — "Fırçayı kovaya atıyor".
+>
+> **Açık metin işleri (ön ölçüm, yukarıdaki notta ayrıntı):** karar sorusu + 4 SEÇENEK (K20; öneri: kovalamaca sonunda Serkan sorar,
+> seçim karesi K9/K12) · 3 `cengo_kanit` (`kiralayan_balikci`, `kilit_saglam`, `serkan_borc`) · Tuba yüzleşmesi 3 → 4+ replik (YAPI-16) ·
+> 3 uzun replik bölünür (Serkan 139, Çaycı 113, Tuba 118) · replik ortalaması 36 (TON-9, kısa replik taraması) · `## ucret` ve "3.000 ₺
+> kırar" kalkar, kademeler eşit (YAPI-32) · sızıntı: Bebek'e gitmeden suçlayan oyuncuya karar metinleri "Bebek", "beyaz boya", "boyanmış
+> tekne" diyor (birebir sızıntı yok, elle okuma) · hatırlatma listesi adım 3–5 · boy (GOMME-13; Rıza, Hilmi ~%15, Serkan, Kemal ~%8 uzun).
+> **Resim:** V1'in resimleri VAR → yenisi eskisinden farklı görünmez (SATIR-43); hangilerinin yeniden üretileceği Oğuz Bey'in kararı.
+
 > ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026 akşam)
 > - **Barbaros'un penceresi:** V2'nin ana metni bitti (aşağıda "✅ VAKA 2"); **V2'nin kalan metin işleri ve resimleri Oğuz Bey'de**
 >   (Barbaros: "bu metin işlerine de Vaka 2 için Oğuz Bey baksın"). **Sırada VAKA 1 — yeni pencere buradan başlar:** aynı tarif

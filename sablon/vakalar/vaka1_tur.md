@@ -10,6 +10,8 @@ Yol adı: açılacak ipuçlarının başlıkları, sırayla (`- <yol>: <başlık
 
 - set: Çaycıyla konuşmak | İskele ve Kemal | Bebek'teki beyaz | Setin sorumlusuyla | Serkan'ı bulmak
 - dukkan: İskele ve Kemal | Serkan'ı bulmak | Çaycıyla konuşmak | Bebek'teki beyaz | Setin sorumlusuyla
+- kisa: İskele ve Kemal | Serkan'ı bulmak
+- bebek: Çaycıyla konuşmak | Bebek'teki beyaz
 
 ## hızlı
 
