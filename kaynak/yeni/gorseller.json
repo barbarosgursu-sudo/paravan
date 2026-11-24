@@ -927,7 +927,9 @@
     "sebnem.kasik",
     "rana.kart",
     "peri.kase.kamera",
-    "gizem.triko_kahve"
+    "gizem.triko_kahve",
+    "defne.bardak",
+    "cengo.takim.kravat"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -1115,7 +1117,9 @@
     "K200": "atölye: Peri paravanın arkasından önlükle çıkıyor (kep, gözlük yok, saç açık); herkes ona dönmüş",
     "K201": "büro: Cengo çıkarken paravanın üstündeki kırmızı mantoyu koluna alıyor; Peri ile Gizem çantaya eğilmiş, görmüyor",
     "MASA_V4": "Vaka 4’ün masa kartı: vakanın afişinden yatay kırpık (afiş henüz yok)",
-    "MASA_V5": "Vaka 5’in masa kartı: vakanın afişinden yatay kırpık (afiş henüz yok)"
+    "MASA_V5": "Vaka 5’in masa kartı: vakanın afişinden yatay kırpık (afiş henüz yok)",
+    "defne.bardak": "Defne (defne.gergin ile aynı yüz, saç, kıyafet, ölçek): gergin, elinde bir su bardağını iki eliyle sıkıyor",
+    "cengo.takim.kravat": "Cengo (cengo.takim.normal ile aynı yüz, saç, ödünç lacivert takım, ölçek): kravatını çözmüş, bordo kravat elinde, masaya bırakmak üzere; gömlek yakası açık"
   },
   "kesim_yz": [
     "muzeyyen.normal",

@@ -46,7 +46,7 @@ const YUZ = /(göz kırp|bakarak|bakıp|gülümse|gülerek|iç çek|kaşlarını
 const HITAP_ISARETI = /^\(\s*[A-ZÇĞİÖŞÜ][^\s)]*['’](y?[ae]|n[ae])\s*\)$/u;
 // Nesne → figür adında aranan kök (figür nesneyi gösteriyorsa bayrak kapanır).
 const ES = { telefon: ['telefon', 'yazarak', 'mesaj'], tepsi: ['tepsi', 'tepsiyle'], borek: ['borek'], simit: ['simit'], tabla: ['tabla'],
-  buket: ['buket', 'cicek'], tablet: ['tablet'], kova: ['kova'], kilif: ['kilif'], uzatir: ['uzat'], uzaniyor: ['uzan'], makbuz: ['makbuz'], supurge: ['supurge'] };
+  buket: ['buket', 'cicek'], tablet: ['tablet'], kova: ['kova'], kilif: ['kilif'], uzatir: ['uzat'], uzaniyor: ['uzan'], makbuz: ['makbuz'], supurge: ['supurge'], bardak: ['bardak', 'bardag'] };
 const figurNesneyiTasir = (figurler, metin) => {
   const m = katla(metin);
   return figurler.some(f => f.split('.').slice(1).join('_').split('_').some(p => (ES[p] || [p]).some(e => e.length > 3 && m.includes(e))));
