@@ -55,11 +55,11 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 **CENGO [gulen]:** İlk müşteri.
 **PERİ [kas]:** Parası tekne dönünce.
-**CENGO:** Tekne dönerse para döner. Basit iş.
+**CENGO [gulen]:** Tekne dönerse para döner. Basit iş.
 **PERİ [normal]:** Plan şu. İskeleye gideriz, kayıt tutarız, liman başkanlığına yazılı başvuru yaparız. {arka: A7}
 **CENGO [normal]:** Başvurunun cevabı gelene kadar Reis batar. İskeledeki çaycıya sorarız. Çaycı gece de oradadır.
 **PERİ [kas]:** Çaycıyı tanıyor musunuz?
-**CENGO:** Bana üç bardak borcu var.
+**CENGO [normal]:** Bana üç bardak borcu var.
 **PERİ:** Siz herkese mi borçlusunuz, herkes size mi?
 **CENGO [gulen]:** Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım.
 **PERİ [normal]:** İskele. Çaycınız. Bir de şu Kemal.
@@ -214,7 +214,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 *Serkan dükkânın önünden fırlıyor, yan dükkânın simitçisinin tablasına çarpıyor. Simitler havada uçuşuyor.* {kare: K10b}
 **CENGO [gulen]:** *(havadaki bir simidi yakalayıp ısırarak)* Ben kestirmeden! {kare: K10}
 **PERİ [sinirli]:** Kestirme nereye çıkıyor? {kare: K10c}
-**CENGO:** *(uzaktan)* Bilmiyorum! {kare: K10c}
+**CENGO [gulen]:** *(uzaktan)* Bilmiyorum! {kare: K10c}
 *Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.* {kare: K11}
 **TEYZE:** O çarşaf yeni yıkandı! {kare: K11}
 **PERİ [sinirli]:** *(çarşafın içinden)* Getireceğim! {kare: K11}
@@ -270,7 +270,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 **ÖNİZLEME:** Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir.
 **SONUÇ:** Rıza Reis'i Bebek'e, sete götürdün. Çekimin ortasında tekneye çıktı, boyaya tırnağını geçirdi. Çekim durdu. Set sorumlusu kiralayanı herkesin önünde tarif etti; Rıza Reis oğlunun yaptığını kırk kişinin içinde öğrendi. Yapım, Serkan'dan kira parasını geri istedi. Tekne o akşam iskeleye döndü, beyaz.
-**CENGO:** Cengo bütün çekimi bir figüranın yanında ayakta izledi. Dönüşte "Bu dizinin en iyi bölümüydü" dedi.
+**CENGO [gulen]:** Bütün çekimi bir figüranın yanında ayakta izledim, Peri. Dizinin en iyi bölümüydü. {yuz: peri.normal}
 **DEFTER:** Rıza Reis teknesine sette kavuştu; oğlunun yaptığını herkesin önünde öğrendi.
 
 ## karar her_seyi_anlat
@@ -278,7 +278,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 **ÖNİZLEME:** Tekne yarın döner. Baba oğul küser.
 **SONUÇ:** Rıza Reis'e her şeyi anlattın: tekneyi, seti, oğlunu, cuma günkü borcu. Rıza Reis kasketini çıkardı, taktı, yine çıkardı. Ertesi sabah Nazlı iskeledeydi. Baba oğul bir hafta konuşmadı; sonra Rıza Reis borcun yarısını ödedi. Büroya bir kasa levrek geldi.
-**CENGO:** Cengo levrek kasasını büronun tek buzdolabına sığdırmaya çalıştı. Sığmadı. "Bir hafta balık yiyoruz" dedi. "Maaşımdan düşmeyin."
+**CENGO [gulen]:** Levrek kasası buzdolabına sığmadı, Peri. Bir hafta balık yiyoruz. Maaşımdan düşmeyin. {yuz: peri.normal}
 **DEFTER:** Rıza Reis her şeyi benden duydu. Büro bir hafta balık koktu.
 
 ## karar serkanla_anlas
@@ -286,7 +286,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 **ÖNİZLEME:** Rıza'ya yalan söylersin. Tekne üç gün sonra döner; Rıza ücretten 3.000 ₺ kırar.
 **SONUÇ:** Serkan'la anlaştın: çekim cuma bitecek, tekne cumartesi sabahı iskelede olacak, boyasını yapım sökecek. Rıza Reis'e "gençler almış, Bebek'te bırakmışlar, cumartesi getiriyorlar" dedin. İnanmadı, sormadı. Üç gün daha denize çıkamadı; teknesi kendiliğinden bulunduğu için ücretten üç bin lira kırdırdı.
-**CENGO:** Cengo, Serkan'ın omzuna vurdu: "Cumartesi sabah. Bir dakika geç kalırsan baban da duyar, ben de."
+**CENGO [kas]:** Serkan'a söyledim, Peri: cumartesi sabah. Bir dakika geç kalırsa babası da duyar, ben de. {yuz: peri.utanmis}
 **DEFTER:** Rıza Reis'e yalan söyledim. Tekne cumartesi döndü.
 
 ## karar susmayi_sat
@@ -294,7 +294,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 
 **ÖNİZLEME:** Yapımcı sana 10.000 ₺ öder. Tekne üç gün sette kalır.
 **SONUÇ:** Yapımcıyla bir "danışmanlık sözleşmesi" imzaladın. Konusu: dizinin "lüks yatının" boyanmış bir balıkçı teknesi olduğunu kimseye söylememek. Yapımcı on bin ödedi, hem de hızlı. Nazlı çekim bitene kadar sette kaldı; Rıza Reis üç gün daha denize çıkamadı. Cumartesi teknesini iskelede, beyaz buldu.
-**CENGO:** Cengo yapımcının yüzünü taklit ederek on dakika güldü. Sonra pencereden boş iskeleye baktı ve gülmeyi bıraktı.
+**CENGO [kas]:** Yapımcının yüzünü gördün mü, Peri? On dakika güldüm. Sonra iskeleye baktım. Boş. {yuz: peri.utanmis}
 **DEFTER:** Yapımcı on bin ödedi. Rıza Reis üç gün iskelede bekledi.
 
 ---
@@ -318,7 +318,7 @@ Peri mantolu acı, Cengo sinirli) ekranda gri "görsel yok" kutusuyla görünür
 **PERİ [normal]:** Yarın kaçta geliyorsunuz?
 **CENGO [kas]:** Ben pazartesileri geliyordum.
 **PERİ:** Yarın gelin.
-**CENGO:** Maaş?
+**CENGO [kas]:** Maaş?
 **PERİ [kas]:** Alacağınıza yazılır.
 **CENGO [gulen]:** Yazılsın.
 *Cengo merdivenden iniyor. Peri bir an kapının önünde duruyor, elini cebine sokuyor; tel orada.* {kare: K7}

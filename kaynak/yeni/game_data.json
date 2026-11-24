@@ -650,7 +650,7 @@
           "satirlar": [
             {"k": "cengo", "i": "gulen", "m": "İlk müşteri."},
             {"k": "peri", "i": "kas", "m": "Parası tekne dönünce."},
-            {"k": "cengo", "m": "Tekne dönerse para döner. Basit iş."},
+            {"k": "cengo", "i": "gulen", "m": "Tekne dönerse para döner. Basit iş."},
             {
               "k": "peri",
               "i": "normal",
@@ -663,7 +663,7 @@
               "m": "Başvurunun cevabı gelene kadar Reis batar. İskeledeki çaycıya sorarız. Çaycı gece de oradadır."
             },
             {"k": "peri", "i": "kas", "m": "Çaycıyı tanıyor musunuz?"},
-            {"k": "cengo", "m": "Bana üç bardak borcu var."},
+            {"k": "cengo", "i": "normal", "m": "Bana üç bardak borcu var."},
             {"k": "peri", "m": "Siz herkese mi borçlusunuz, herkes size mi?"},
             {"k": "cengo", "i": "gulen", "m": "Bana borçlu olanlar konuşur. Benim borçlu olduklarımdan ben saklanırım."},
             {"k": "peri", "i": "normal", "m": "İskele. Çaycınız. Bir de şu Kemal."},
@@ -747,7 +747,7 @@
               "kare": "K10"
             },
             {"k": "peri", "i": "sinirli", "m": "Kestirme nereye çıkıyor?", "kare": "K10c"},
-            {"k": "cengo", "m": "(uzaktan) Bilmiyorum!", "kare": "K10c"},
+            {"k": "cengo", "i": "gulen", "m": "(uzaktan) Bilmiyorum!", "kare": "K10c"},
             {
               "k": "not",
               "m": "Cengo kestirmeye sapıyor. Peri, Serkan'ın peşinden ara sokakta topuklularıyla koşarken bir çamaşır ipine dalıyor; beyaz bir çarşafa sarılıp hayalet gibi koşmaya devam ediyor. Pencereden bir teyze bağırıyor.",
@@ -831,7 +831,7 @@
             {"k": "peri", "i": "normal", "m": "Yarın kaçta geliyorsunuz?"},
             {"k": "cengo", "i": "kas", "m": "Ben pazartesileri geliyordum."},
             {"k": "peri", "m": "Yarın gelin."},
-            {"k": "cengo", "m": "Maaş?"},
+            {"k": "cengo", "i": "kas", "m": "Maaş?"},
             {"k": "peri", "i": "kas", "m": "Alacağınıza yazılır."},
             {"k": "cengo", "i": "gulen", "m": "Yazılsın."},
             {
@@ -1046,13 +1046,14 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo bütün çekimi bir figüranın yanında ayakta izledi. Dönüşte \"Bu dizinin en iyi bölümüydü\" dedi."
+              "metin": "Bütün çekimi bir figüranın yanında ayakta izledim, Peri. Dizinin en iyi bölümüydü."
             }
           ],
           "kare": "K3",
           "cengoBag": 1,
           "para": 0,
-          "onizleme": "Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir."
+          "onizleme": "Tekne bugün döner. Rıza, oğlunun yaptığını herkesin önünde öğrenir.",
+          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"}
         },
         {
           "id": "her_seyi_anlat",
@@ -1062,13 +1063,14 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo levrek kasasını büronun tek buzdolabına sığdırmaya çalıştı. Sığmadı. \"Bir hafta balık yiyoruz\" dedi. \"Maaşımdan düşmeyin.\""
+              "metin": "Levrek kasası buzdolabına sığmadı, Peri. Bir hafta balık yiyoruz. Maaşımdan düşmeyin."
             }
           ],
           "kare": "K4",
           "cengoBag": 0,
           "para": 0,
-          "onizleme": "Tekne yarın döner. Baba oğul küser."
+          "onizleme": "Tekne yarın döner. Baba oğul küser.",
+          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"}
         },
         {
           "id": "serkanla_anlas",
@@ -1078,13 +1080,14 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo, Serkan'ın omzuna vurdu: \"Cumartesi sabah. Bir dakika geç kalırsan baban da duyar, ben de.\""
+              "metin": "Serkan'a söyledim, Peri: cumartesi sabah. Bir dakika geç kalırsa babası da duyar, ben de."
             }
           ],
           "kare": "K5",
           "cengoBag": 1,
           "para": -3000,
-          "onizleme": "Rıza'ya yalan söylersin. Tekne üç gün sonra döner; Rıza ücretten 3.000 ₺ kırar."
+          "onizleme": "Rıza'ya yalan söylersin. Tekne üç gün sonra döner; Rıza ücretten 3.000 ₺ kırar.",
+          "cengo_replik": {"i": "kas", "yuz": "peri.utanmis"}
         },
         {
           "id": "susmayi_sat",
@@ -1094,13 +1097,14 @@
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo yapımcının yüzünü taklit ederek on dakika güldü. Sonra pencereden boş iskeleye baktı ve gülmeyi bıraktı."
+              "metin": "Yapımcının yüzünü gördün mü, Peri? On dakika güldüm. Sonra iskeleye baktım. Boş."
             }
           ],
           "kare": "K6",
           "cengoBag": -1,
           "para": 10000,
-          "onizleme": "Yapımcı sana 10.000 ₺ öder. Tekne üç gün sette kalır."
+          "onizleme": "Yapımcı sana 10.000 ₺ öder. Tekne üç gün sette kalır.",
+          "cengo_replik": {"i": "kas", "yuz": "peri.utanmis"}
         }
       ],
       "seeds": {},
