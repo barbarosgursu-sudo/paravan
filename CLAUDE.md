@@ -24,7 +24,7 @@ arşivlenen eski oyunun donmuş sayfasıdır (22 Kasım 2026), derlenmez. Kaynak
 > ### Üretim adımlarının hatırlatma listesine Claude bakar, sahibine yalnız sorunlu madde gider (`arac_uygulayici.js kayit|bitti`) — SUREC-43.
 > ### Adım 4: her kuralın `*Uygulayıcı:*` satırı var (program / talimat / hatırlat <adım> / yok) — SUREC-43;
 > ### `node sablon/kurallar/arac_uygulayici.js say|yaz|adim <n>`; liste `sablon/kurallar/HATIRLATMA.md` (elle yazılmaz).
-> ### Sahibiyle çalışma biçimi — SUREC-34 (en kısa Türkçe, uzun işte en geç 3 dakikada bir durum). Commit kapısı artık yalnız değişen vakayı denetler (KOD-35).
+> ### Sahibiyle çalışma biçimi — SUREC-34 (en kısa Türkçe, uzun işte en geç 3 dakikada bir durum). Commit kapısı artık yalnız değişen vakayı denetler (KOD-35); ortak araç/motor/arayüz değişince bütün vakaları (20 dk'yı aşabilir — ayrı commit, arka planda).
 >
 > ### 🔑 YETKİ (17 Kasım 2026, Barbaros'un kararı): **Oğuz Bey'in hesabı Paravan'da HER ŞEYE yetkili** — SUREC-4. Sebep: Barbaros'un
 > haftalık sınırı doldu (Cuma sıfırlanır); kural toplama işini Oğuz Bey'in hesabıyla sürdürecek. Aşağıdaki "kurallar Barbaros'ta /
@@ -112,7 +112,7 @@ biçimi, K15/K16 ve açık uyarılar: `kaynak/yeni/OKUBENI.md`. Vaka metni `sabl
 konuşma ekranı `kaynak/yeni_arayuz.js` + `.css`'ten eklenir, görseller
 `kaynak/yeni/gorseller.json` manifestosundan gömülür. Kayıt anahtarı ayrı (`paravan_yeni_kayit_v1`): donmuş eski sayfa aynı alan adında.
 
-**Yeni oyun turu** — KOD-27: konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan]` — yeni oyunu
+**Yeni oyun turu** — KOD-27: konuşma ekranı değişince `node arac_yeni_tur.js [karar] [set|dukkan|kisa|bebek]` — yeni oyunu
 Pixel 5'te baştan sona oynatır, görüntüleri `kaynak/YENI_UI/`'ye yazar. Test değil, araç.
 Vaka 2 için yol adı ver: `node arac_yeni_tur.js [karar] [ortu|vale|terzi|defne] [dogru|zayif|lal|tolga]`
 (Vaka 1 önce hızlı oynanır; V1 → V2 geçişi de böylece denenir).

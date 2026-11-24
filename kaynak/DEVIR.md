@@ -32,6 +32,9 @@
 >   ayıklayarak)", istavrit anlatısı, Tuba'yı arama anlatısı (EYLEM + K2), iki K4 kapı satırı; kare D1'e bağla — "Teli kilitte bırakıyor";
 >   satırı sil — "Fırçayı kovaya atıyor".
 >
+> **Commit süresi:** ortak araç (`kaynak/arac_*.js`, motor, arayüz) değişince kanca BÜTÜN vakaları denetler — 24 Kasım'da 20 dakikayı
+> aştı. Böyle commit'i ayrı yap, arka planda uzun süre ver (Claude Code: `run_in_background`, zaman aşımı ≥ 60 dk); vaka dosyalarını ayrı commit et.
+>
 > **Açık metin işleri (ön ölçüm, yukarıdaki notta ayrıntı):** karar sorusu + 4 SEÇENEK (K20; öneri: kovalamaca sonunda Serkan sorar,
 > seçim karesi K9/K12) · 3 `cengo_kanit` (`kiralayan_balikci`, `kilit_saglam`, `serkan_borc`) · Tuba yüzleşmesi 3 → 4+ replik (YAPI-16) ·
 > 3 uzun replik bölünür (Serkan 139, Çaycı 113, Tuba 118) · replik ortalaması 36 (TON-9, kısa replik taraması) · `## ucret` ve "3.000 ₺
@@ -39,7 +42,8 @@
 > tekne" diyor (birebir sızıntı yok, elle okuma) · hatırlatma listesi adım 3–5 · boy (GOMME-13; Rıza, Hilmi ~%15, Serkan, Kemal ~%8 uzun).
 > **Resim:** V1'in resimleri VAR → yenisi eskisinden farklı görünmez (SATIR-43); hangilerinin yeniden üretileceği Oğuz Bey'in kararı.
 
-> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026 akşam)
+> ## 🧭 (eski — üstteki "VAKA 1 — TAMAMI OĞUZ BEY'DE" geçerli) HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026 akşam)
+> ⚠ Aşağıdaki "metin kararları Barbaros'ta" artık geçersiz: V1'in bütün kararları Oğuz Bey'de. Ön ölçüm ve V2 dersleri geçerli.
 > - **Barbaros'un penceresi:** V2'nin ana metni bitti (aşağıda "✅ VAKA 2"); **V2'nin kalan metin işleri ve resimleri Oğuz Bey'de**
 >   (Barbaros: "bu metin işlerine de Vaka 2 için Oğuz Bey baksın"). **Sırada VAKA 1 — yeni pencere buradan başlar:** aynı tarif
 >   ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V1): önce eksik listesi (dosya değiştirmeden), sonra `vaka1_kapi.md` + kapı ölçümü, etiketler,
