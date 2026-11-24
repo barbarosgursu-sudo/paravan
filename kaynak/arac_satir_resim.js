@@ -121,7 +121,7 @@ for (const s of satirlar.values()) {
     else if (figurNesneyiTasir([fig], par)) B('JEST', 'OTO', s, `SR-M4: figür nesneyi gösteriyor (${fig})`);
     else B('JEST', 'İŞ', s, `SR-M5: figür ${fig} bunu yapmıyor — komşu kareye bağla, nesneli poz, ya da parantezi çıkar`);
   }
-  if (s.k !== 'not' && !s.kare && !s.cekik && !ekranda.includes(s.k) && !['teyze', 'fotografci'].includes(s.k)) B('KONUŞAN', 'İŞ', s, `SR-M6: konuşanı ekrana al (gir) — ekranda: ${s.sol}, ${s.sag}`);
+  if (s.k !== 'not' && !s.kare && !s.cekik && !ekranda.includes(s.k) && !['teyze', 'fotografci', 'telefon'].includes(s.k) && !/_tel$/.test(s.k)) B('KONUŞAN', 'İŞ', s, `SR-M6: konuşanı ekrana al (gir) — ekranda: ${s.sol}, ${s.sag}`);
   if (s.k !== 'not' && s.kime && !s.kare && !s.cekik && !ekranda.includes(s.kime)) B('HİTAP', 'İŞ', s, `SR-M6: ${s.kime} sahnede değil ya da motor getiremedi — gir ekle ya da kime'yi düzelt; ekranda: ${s.sol}, ${s.sag}`);
 }
 

@@ -25,7 +25,8 @@ const gecer = (metin, soz) => new RegExp('(^|[^\\p{L}])' + soz.replace(/[.*+?^${
 let VK = null;
 const anilanlar = metin => KIMLER.filter(id => (!VK || VK.has(id)) && adlar(id).some(s => gecer(metin, s)));
 const fid = x => (x && x !== '-' ? x.split('.')[0] : null);
-const ifade = f => { const p = f.split('.'); return (p[0] === 'peri' || p[0] === 'cengo') ? p.slice(2).join('.') : p.slice(1).join('.'); };
+// Peri/Cengo: <kim>.<set>.<ifade>; V1'de Cengo'nun seti yok (cengo.kas) → iki parçada ifade ikinci parçadır (24 Kasım 2026).
+const ifade = f => { const p = f.split('.'); return (p[0] === 'peri' || p[0] === 'cengo') && p.length > 2 ? p.slice(2).join('.') : p.slice(1).join('.'); };
 const norm = s => String(s).replace(/\*/g, '').replace(/\s+/g, ' ').trim();
 
 // kayıtlar
