@@ -10,7 +10,29 @@
 
 > ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026 akşam)
 > - **Barbaros'un penceresi:** V2'nin ana metni bitti (aşağıda "✅ VAKA 2"); **V2'nin kalan metin işleri ve resimleri Oğuz Bey'de**
->   (Barbaros: "bu metin işlerine de Vaka 2 için Oğuz Bey baksın"). Barbaros'un sıradaki vakası V1 (aynı tarif, "▶️ YENİ PENCERE: VAKA 4").
+>   (Barbaros: "bu metin işlerine de Vaka 2 için Oğuz Bey baksın"). **Sırada VAKA 1 — yeni pencere buradan başlar:** aynı tarif
+>   ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V1): önce eksik listesi (dosya değiştirmeden), sonra `vaka1_kapi.md` + kapı ölçümü, etiketler,
+>   metin kararları Barbaros'ta. **V1'in bugünkü ön ölçümü (24 Kasım akşam, Claude):**
+>   - Doğrulayıcı V1: K19 (3 kanıtın Cengo satırı yok: `kiralayan_balikci`, `kilit_saglam`, `serkan_borc`; `yuzlesme_tuba` 3 replik — YAPI-16
+>     4–9 ister), K20 (karar_soru/SEÇENEK yok), K21 (Serkan 139, Çaycı 113, Tuba 118 harf; ortalama 36 — TON-9).
+>   - `arac_diyalog.js` V1'i yazamıyor: 8 etiketsiz `**CENGO:**` (satır 58, 62, 217, 273, 281, 289, 297, 321 — ikisi girişte, biri kovalamacada,
+>     dördü kararlarda, biri kapanışta). V2'deki gibi önce ifade etiketi (söz aynı) → araç yazar → kapı ölçülür.
+>   - `## ucret` var (zayıf/yanlış kesinti; kademeler 35.000 / 30.000 / 20.000 → eşitlenir). Karar `serkanla_anlas` önizlemesinde
+>     "Rıza ücretten 3.000 ₺ kırar" — YAPI-32 (rakamlı kesinti sözü kalkar, karar parası kalır).
+>   - `vaka1_tur.md` yolları yalnız `set` ve `dukkan` (ikisi de 5 ipucunun hepsini açıyor); şüpheliler serkan, kemal, tuba → `vaka1_kapi.md`
+>     `## yollar`'da her şüpheli ve her ipucu yolu en az bir kez geçmeli; gerekirse `vaka1_tur.md`'ye yeni yol (ör. 3–4 ipuçlu) eklenir.
+>   - V1 ilk vaka: açılış (`yeni/acilis.json`, metni `YENI_VAKA_1.md`) ayrı; kapı yalnız V1 vakasını denetler.
+>   - **Boy tutmuyor** (GOMME-13): Rıza, Hilmi ~%15, Serkan, Kemal ~%8 Peri'den uzun (Tuba, Çaycı, Asistan ölçülmedi). V2'deki yol:
+>     hedef boylar (kadın 0,92–1,00, erkek 0,92–1,02) Barbaros'a sorulur → `arac_yanyana.js <figür> --kim <id> --kesik --oran <hedef>`
+>     ölçeği verir → `gorseller.json → boy` + KURALLAR GOMME-13 tablosu → tur.
+>   **V2'den dersler (V1'de baştan uygula):**
+>   - Etiket aracı `{cik}` sonrası satırlarda çıkan kişiyi ekranda bırakabilir (V2 kapanışta 3 satır) → önizlemede çıkış sonrası satırlara bak.
+>   - Konuşana ifade eklemek (`**X:**` → `**X [kas]:**`) kancada "söz değişti" diye durur (yanlış alarm) → commit `[söz onaylı]` ister:
+>     sahibine "söz aynı, yalnız ifade" diye sor.
+>   - `arac_yeni_tur.js`'te karar sırası 0'dan başlar (0–3); 4 verilirse tur karar düğmesini bulamaz.
+>   - Kapanış satırında anılan bir nesne için önce var olan karelere bak (V2'de kravat → K32, yeni resim gerekmedi).
+>   - Ortak araç (`arac_*.js`) değişince commit kancası bütün vakaları denetler: ~10 dk; arka planda bekle.
+>   - V2 sohbetinde Barbaros "kalan metin işleri Oğuz Bey'de" dedi; V1'de aynı mı, sor.
 > - **Oğuz Bey'in penceresi:** sıra V7–V8 → V5 → V4 → V3 → **V2** ("🖼️ VAKA 2 — OĞUZ BEY'İN" hemen altta).
 
 > ## 🖼️ VAKA 2 — OĞUZ BEY'İN: KALAN METİN İŞLERİ + RESİM (24 Kasım 2026 akşam, Barbaros'un kararı)
