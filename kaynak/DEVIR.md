@@ -14,6 +14,11 @@
 >   gösteriyorsa sahibine "kalsın" öner (`vaka2_bayrak.md`, `vaka2_kapi.md` → `## kalsın`). Kesinti/₺ temizliğinden sonra yanlış suçlama
 >   yolunda tur "kasa/rakam izi" derse "Elindeydi" kartındaki kanıt metnine bak ("₺", büyük harfle "Kasa…" yanlış alarm verir).
 >   Kapı kaydını (`vaka2_kapi.md`) bulgular bitene dek commit dışında tut: kanca dosyanın diskte olup olmadığına bakar → commit'ten önce geçici taşı.
+>   `arac_diyalog.js` ücret kademelerini EŞİTLEMEZ: `kim_yapti.ucret`'i `arac_json_yaz.js` ile yaz (dogru = zayif = yanlis) ve dosya sonuna
+>   satır sonu koy — yoksa kanca "veri diyalogdan yazılanla aynı değil" deyip durdurur. Etiket aracının "yollar arası farklı" satırlarında
+>   ilk yolun önerisi yazılır; aynı cümle iki sahnede geçiyorsa ("Ben o değilim") ikincisini elle düzelt, sonra söz farkını sına.
+>   V2'nin bugünkü doğrulayıcı uyarıları (24 Kasım): K19 (6 kanıtın Cengo satırı yok), K20 (karar_soru/SEÇENEK yok), K21 (Müjgan 118 harf;
+>   replik ortalaması 37 — TON-9), K24 (satırsız 2 figür: `peri.tayyor.sinirli`, `peri.kremali.utanmis`). `vaka2_kapi.md` yok, `vaka2_tur.md` var.
 >   (Aşağıdaki V3 satırları geçmiş kayıt.)
 > - ~~Barbaros'un penceresi: sırada VAKA 3~~ — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V3).
 >   ⚠ V3'ün resimleri VAR: yeni poz = yeni resim; önce kare bağlama / parantez çıkarma / kalsın (SATIR-43: başka vakanın resmi seçenek değil).
