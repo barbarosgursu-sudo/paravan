@@ -2918,8 +2918,13 @@
           "para": 0,
           "etiket": "Kararı Nadide Hanım'a bırak",
           "onizleme": "Dükkân onun; ne yapılacağına Nadide Hanım karar verir, sen sigortaya bir şey söylemezsin. Nadide Hanım talebi geri çeker, merkezi satar.",
-          "sonuc": "\"Dükkân sizin, karar da sizin\" dedin ve çekildin. Nadide Hanım talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi Badem'e sattı; dört dükkândan üçü kaldı. Kenan Badem'e geçti.",
-          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Merkezin tabelası değişmiş, Peri. Badem yazıyor. Susam daha iyiydi."}],
+          "sonuc": "\"Dükkân sizin, karar da sizin\" dedin ve çekildin. Nadide Hanım talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi rakip bir pastaneye sattı; dört dükkândan üçü kaldı. Kenan da oraya geçti.",
+          "cengo_sonuc": [
+            {
+              "kosul": "varsayilan",
+              "metin": "Merkezin tabelası değişmiş, Peri. Susam yazmıyor artık. Susam daha iyiydi."
+            }
+          ],
           "secenek": "“Dükkân Nadide Hanım'ın. Kararı da o versin.”",
           "cengo_replik": {"i": "kas", "yuz": "peri.kas"}
         },

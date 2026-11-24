@@ -10,6 +10,8 @@ kullanılabilir olanları `uretim/referanslar/` ve `uretim/v3/referanslar/`'da (
 pencerede paralel, onaylı referans her pencereye bir kez eklenir → 8–10 görsel birikince toplu gönderilir, Claude toplu değerlendirir
 → Aşama 3 kareler. "Beklemeden" bölümü hiçbir onaya bağlı değil.
 
+**24 Kasım 2026 (Barbaros):** hiçbir satırın istemediği altı figür listeden çıktı (SATIR-35, doğrulayıcı K24): G20–G22 `peri.trenckot.sinirli/utanmis/sasirmis`, G25 `peri.simit.utanmis`, G29 `peri.onluklu.sinirli`, G32 `cengo.haki.yumusak`. Dosyaları silinmedi.
+
 Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40'ın atası, afiş): G6–G9 onaylanınca Claude birleştirir.
 
 ## Liste (67 görsel)
@@ -35,19 +37,13 @@ Referans dosyaları: `vaka3_sayfa/ref/`. **Susam dörtlüsü şeridi** (K39, K40
 | G17 | arka plan | Badem Pastanesi, Kadıköy | `A28` | tarz_mekan_ic.jpg, G13 | Beklemeden · onaya bağlı değil |
 | G18 | arka plan | Rüstem'in un toptancısı, Eminönü | `A29` | tarz_mekan_ic.jpg | Beklemeden · onaya bağlı değil |
 | G19 | figür | Peri, trençkot, kaşı kalkık | `peri.trenckot.kas` | G1, poz_peri_kas.jpg | G1 → Peri, trençkot ifadeleri |
-| G20 | figür | Peri, trençkot, sinirli | `peri.trenckot.sinirli` | G1, poz_peri_sinirli.jpg | G1 → Peri, trençkot ifadeleri |
-| G21 | figür | Peri, trençkot, utanmış | `peri.trenckot.utanmis` | G1, poz_peri_utanmis.jpg | G1 → Peri, trençkot ifadeleri |
-| G22 | figür | Peri, trençkot, şaşırmış | `peri.trenckot.sasirmis` | G1, poz_peri_sasirmis.jpg | G1 → Peri, trençkot ifadeleri |
 | G23 | figür | Peri, trençkot, meraklı | `peri.trenckot.merakli` | G1, poz_peri_merakli.jpg | G1 → Peri, trençkot ifadeleri |
 | G24 | figür | Peri, trençkot, kıskanç | `peri.trenckot.kiskanc` | G1, L9_peri_kollar_kavusuk.jpg | G1 → Peri, trençkot ifadeleri |
-| G25 | figür | Peri, pekmezli-susamlı, utanmış | `peri.simit.utanmis` | G2, poz_peri_utanmis.jpg | G2 → Peri, pekmezli-susamlı |
 | G26 | figür | Peri, önlüklü, kaşı kalkık | `peri.onluklu.kas` | G3, poz_peri_kas.jpg | G3 → Peri, pembe önlüklü |
 | G27 | figür | Peri, önlüklü, şaşırmış | `peri.onluklu.sasirmis` | G3, poz_peri_sasirmis.jpg | G3 → Peri, pembe önlüklü |
 | G28 | figür | Peri, önlüklü, utanmış | `peri.onluklu.utanmis` | G3, poz_peri_utanmis.jpg | G3 → Peri, pembe önlüklü |
-| G29 | figür | Peri, önlüklü, sinirli | `peri.onluklu.sinirli` | G3, poz_peri_sinirli.jpg | G3 → Peri, pembe önlüklü |
 | G30 | figür | Cengo, haki, kaşı kalkık | `cengo.haki.kas` | G4, poz_cengo_kas.jpg | G4 → Cengo, haki ceket |
 | G31 | figür | Cengo, haki, gülen | `cengo.haki.gulen` | G4, poz_cengo_gulen.jpg | G4 → Cengo, haki ceket |
-| G32 | figür | Cengo, haki, yumuşak | `cengo.haki.yumusak` | G4, poz_cengo_yumusak.jpg | G4 → Cengo, haki ceket |
 | G33 | figür | Cengo, unlu, kaşı kalkık | `cengo.unlu.kas` | G5, poz_cengo_kas.jpg | G5 → Cengo, unlu |
 | G34 | figür | Cengo, unlu, gülen | `cengo.unlu.gulen` | G5, poz_cengo_gulen.jpg | G5 → Cengo, unlu |
 | G35 | figür | Cengo, unlu, yumuşak | `cengo.unlu.yumusak` | G5, poz_cengo_yumusak.jpg | G5 → Cengo, unlu |

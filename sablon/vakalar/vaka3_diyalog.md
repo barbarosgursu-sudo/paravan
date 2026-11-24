@@ -372,10 +372,10 @@ metnin andığı nesne görünüyor mu?* Adı geçen her kişi o satırda ekrand
 ⚙ etiket: Kararı Nadide Hanım'a bırak
 
 **ÖNİZLEME:** Dükkân onun; ne yapılacağına Nadide Hanım karar verir, sen sigortaya bir şey söylemezsin. Nadide Hanım talebi geri çeker, merkezi satar.
-**SONUÇ:** "Dükkân sizin, karar da sizin" dedin ve çekildin. Nadide Hanım talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi Badem'e sattı; dört dükkândan üçü kaldı. Kenan Badem'e geçti.
+**SONUÇ:** "Dükkân sizin, karar da sizin" dedin ve çekildin. Nadide Hanım talebi geri çekti, Ferruh'u kapıya koydu. Borçları ödemek için merkezi rakip bir pastaneye sattı; dört dükkândan üçü kaldı. Kenan da oraya geçti.
 **SEÇENEK:** “Dükkân Nadide Hanım'ın. Kararı da o versin.”
-**CENGO [kas]:** Merkezin tabelası değişmiş, Peri. Badem yazıyor. Susam daha iyiydi. {yuz: peri.kas}
-**DEFTER:** Karar Nadide Hanım'ındı. Merkez Badem oldu.
+**CENGO [kas]:** Merkezin tabelası değişmiş, Peri. Susam yazmıyor artık. Susam daha iyiydi. {yuz: peri.kas}
+**DEFTER:** Karar Nadide Hanım'ındı. Merkez satıldı.
 
 ## karar ferruh_payi
 ⚙ etiket: Ferruh'tan payını al, sus
