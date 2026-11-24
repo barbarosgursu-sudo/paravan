@@ -8,6 +8,13 @@
 
 ---
 
+> ## 🎬 SHORTS — HAREKETLİ VİDEO (24 Kasım 2026 öğleden sonra, Barbaros'un penceresi)
+> **Karar (Barbaros):** Oğuz Bey vakaları tamamlarken Barbaros Shorts hattını geliştirir; ilk örnek **Vaka 6**. Video izleyiciyi
+> oyuna çekmeli; durağan resim yerine karakterler konuşan, hareketli video (yapay zekâ; örnek `kanepe.mp4`), ses ElevenLabs, dil Türkçe.
+> Senaryo `sablon/vakalar/vaka6_shorts.md` (denetim PASS, damga yok); başka pencere için iş tarifi `sablon/vakalar/vaka6_shorts_hareketli.md`.
+> Ders: suçlunun sade resmi (`muzeyyen.normal`) yalnız yüzleşmede → videoda şüpheliler Künye portresiyle. Önceki Shorts kayıtları:
+> 9 Kasım (V3 uzun video denemesi, `uretim/video_v3_youtube/`), 14 Kasım (hat kuruldu, `sablon/8_shorts.md`).
+
 > ## 🌍 SONRAKİ YOL: İNGİLİZCE ÇEVİRİ (24 Kasım 2026, Barbaros'un penceresi)
 > **Karar (Barbaros):** ilk yayında **Vaka 1–3**, Vaka 4–5 yedek → ilk çeviri işi bu beş vaka (RAF-103, RAF-104). Android paketi sonra (RAF-102).
 > **Sıra (Claude'un önerisi, Barbaros "başlayalım" dedi):** (1) İngilizce ses rehberi — RAF-29 (isimler, hitaplar, İstanbul'a özgü sözler,
