@@ -8,7 +8,39 @@
 
 ---
 
-> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026)
+> ## 🧭 HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026 akşam)
+> - **Barbaros'un penceresi:** V2'nin ana metni bitti (aşağıda "✅ VAKA 2"); **V2'nin kalan metin işleri ve resimleri Oğuz Bey'de**
+>   (Barbaros: "bu metin işlerine de Vaka 2 için Oğuz Bey baksın"). Barbaros'un sıradaki vakası V1 (aynı tarif, "▶️ YENİ PENCERE: VAKA 4").
+> - **Oğuz Bey'in penceresi:** sıra V7–V8 → V5 → V4 → V3 → **V2** ("🖼️ VAKA 2 — OĞUZ BEY'İN" hemen altta).
+
+> ## 🖼️ VAKA 2 — OĞUZ BEY'İN: KALAN METİN İŞLERİ + RESİM (24 Kasım 2026 akşam, Barbaros'un kararı)
+> **Metin (karar Oğuz Bey'de; Claude taslağı hazır, sahibine tek tek sorar — SUREC-34):**
+> 1. **Kısa replik taraması (TON-9):** `sablon/vakalar/vaka2_kisa_replik.md` — 37 öneri + yol seçimi (a: yalnız bunlar, ortalama ~40;
+>    b: 45'e çıkar). Doğrulayıcıda V2'nin tek uyarısı bu (K21 replik ortalaması 37).
+> 2. **"Defne'nin parası" kararında tutarsızlık:** önizleme "anneye 'atölyeden çalınmış, terzide bulduk' dersin", sonuç "Müjgan Hanım'a
+>    hırsızın bulunamadığını söyledin". Biri öbürüne uydurulur (söz değişir → `[söz onaylı]`).
+> 3. **Hatırlatma listesi adım 3–5** (`node sablon/kurallar/arac_uygulayici.js kayit 2 3|4|5`, işaretle, `bitti 2 onay2`; sahibine yalnız [X]/[?]).
+> Söz değişince: `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka2_diyalog.md V2` → `node arac_kapi.js V2 hikaye` (**V2 artık
+> kapıda**, `vaka2_kapi.md` commit'te) → sızıntı `node arac_sizinti_tur.js V2 40` + `YENI_UI/sizinti_okuma.txt` elle.
+> **Resim (V2'nin resimleri VAR → yeni resim eskisinden farklı görünmez; eski onaylı resim 1. referans; SATIR-43):**
+> - **1 yeni poz:** `defne.bardak` ("*(bardağı sıkarak)* Biliyorum kaç kişi.") — kanonda + gri yer tutucu; temel resim `defne.normal`
+>   (o resimde Defne'nin elinde zaten bardak var), yüz `defne.gergin` gibi gergin. Tarif `gorseller.json → yer_tutucu_metin`.
+> - **Kravat satırı K32'ye bağlandı** (yeni resim yok; `cengo.takim.kravat` kanondan çıktı).
+> - **Boy düzeldi** (GOMME-13, Barbaros onayı): Müjgan 1,00 · Defne 0,95 · Lâl 0,95 · Gülsüm 0,94 · Saadet 0,92 · Tolga 1,00 · Bülent 1,02 ·
+>   Sarkis 0,92; ölçekler 0,59–0,66 (`arac_yanyana.js --oran`). Yeni V2 resmi aynı çerçevede (560×700) üretilirse aynı ölçek tutar.
+> - Listeden çıkan 2 figür: `peri.tayyor.sinirli` (G8'in referansı, dosyası duruyor), `peri.kremali.utanmis`.
+> - Gömmede resim kapısı (`node arac_kapi.js V2 resim`) **poz tablosu** ister: `vaka2_kapi.md` → `## poz` boş, `vaka6_kapi.md` biçiminde doldurulur.
+
+> ## ✅ 24 KASIM 2026 AKŞAM: VAKA 2 ANA METNİ BİTTİ (Barbaros'un penceresi)
+> - `main`'de: `09055ae` (178 ekran/yüz etiketi, 30 konuşan ifadesi, satır–resim: `defne.bardak`, Sarkis "(gözlüğünü düzeltip)", börek çıktı;
+>   `vaka2_bayrak.md`; `arac_satir_resim.js` bardak eş sözü), `799139b` (boy), `9c1bd19` (Defne soruyor — karar_soru, seçim karesi K26;
+>   dört SEÇENEK; Cengo karar satırları konuşma; altı cengo_kanit; `## ucret` ve kesinti kalktı, ücret eşit 50.000; Sarkis sızıntısı → "terzi";
+>   Müjgan bölündü; kravat → K32; `vaka2_kapi.md` girdi). Kapı V2 GEÇTİ (467 → 0), 8 test, sızıntı V2 40 temiz + elle okundu.
+> - **V1 de boy tutmuyor** (Rıza, Hilmi ~%15, Serkan, Kemal ~%8 Peri'den uzun) — V1'e sıra gelince.
+> - Kapanışta etiket aracı Lâl çıktıktan sonra onu ekranda bırakıyordu (3 satır elle düzeldi) — V1'de de etiket önizlemesinde `{cik}`
+>   sonrası satırlara bak.
+
+> ## 🧭 (eski) HANGİ PENCERE NEREDEN BAŞLAR (24 Kasım 2026)
 > - **Barbaros'un penceresi (metin):** V4 ve **V3 BİTTİ** (aşağıda "✅ VAKA 3 METNİ BİTTİ"); sırada **VAKA 2** — aynı tarif ("▶️ YENİ PENCERE: VAKA 4", V4 yerine V2).
 >   ⚠ V2'nin de resimleri VAR (V3 gibi): kapı satır–resim bulgularının çoğu yanlış alarm olabilir — önce figüre bak; resim satırın dediğini
 >   gösteriyorsa sahibine "kalsın" öner (`vaka2_bayrak.md`, `vaka2_kapi.md` → `## kalsın`). Kesinti/₺ temizliğinden sonra yanlış suçlama
