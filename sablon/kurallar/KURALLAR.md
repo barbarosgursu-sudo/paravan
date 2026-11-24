@@ -4491,7 +4491,7 @@ Oyun Android'e Capacitor ile paketlenir (WebView; motor ve veri olduğu gibi ta�
 
 #### RAF-103 Paravan'ın yayın sırası
 (Önceki adımlar — Vaka 3'ün bitmesi, Vaka 4 ve Vaka 1–2'nin yeniden yapımı, 12 Kasım planı — bu konunun dışındaki satırlarda.) Sonra:
-3. Üç vaka İngilizceye çevrilir.
+3. Üç vaka İngilizceye çevrilir. **Kesin (24 Kasım 2026, Barbaros): ilk yayında Vaka 1–3; Vaka 4–5 yedek (RAF-104), ilk çeviri işi bu beş vaka.**
 4. Google'ın zorunlu kapalı testi (12 kişi, 14 gün) — test oyuncuları internetteki test topluluklarından.
 5. Üç vakayla yayın; sonraki vakalar güncellemeyle eklenir.
 *Uygulayıcı:* yok — yayın sırası

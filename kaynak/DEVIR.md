@@ -8,6 +8,13 @@
 
 ---
 
+> ## 🌍 SONRAKİ YOL: İNGİLİZCE ÇEVİRİ (24 Kasım 2026, Barbaros'un penceresi)
+> **Karar (Barbaros):** ilk yayında **Vaka 1–3**, Vaka 4–5 yedek → ilk çeviri işi bu beş vaka (RAF-103, RAF-104). Android paketi sonra (RAF-102).
+> **Sıra (Claude'un önerisi, Barbaros "başlayalım" dedi):** (1) İngilizce ses rehberi — RAF-29 (isimler, hitaplar, İstanbul'a özgü sözler,
+> espri, noir tonu; RAF-98/99/100 orada) · (2) deneme: Vaka 2 (metni bitti; vaka başına süre ölçülür → yayın sözü RAF-106) · (3) V3, V4, V5 ·
+> (4) V1 en son (Oğuz Bey'de, metni değişiyor). Çeviride RAF-30 (geri çeviri, ikinci göz), RAF-31 (olgu eklemez, Nurcan + uzunluk), RAF-32
+> (metin kimliği). Ayrıca küçük teknik deneme önerildi: bugünkü sayfayı Capacitor ile Android'de açmak (büyük base64 sayfa WebView'da sorun mu).
+
 > ## 🧭 VAKA 1 — TAMAMI OĞUZ BEY'DE (24 Kasım 2026 gece, Barbaros'un kararı)
 > **Barbaros:** "Vaka 1'in parantezleri, diğer kısımları ve resimlerin hepsi Oğuz Bey tarafından gözden geçirilsin. İlk vaka olduğu
 > için düzgün olmasını istiyorum. Oğuz Bey hem metinlerin uzunluğuna, hem metinlere, hem resimlere kendisi karar versin."
