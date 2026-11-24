@@ -10,7 +10,8 @@
     "gizem":    { "ses": "tr-TR-EmelNeural",  "hiz": "+8%", "perde": "+10Hz" },
     "sedat":    { "ses": "tr-TR-AhmetNeural", "hiz": "+4%", "perde": "+12Hz" },
     "rustem":   { "ses": "tr-TR-AhmetNeural", "hiz": "-10%", "perde": "-20Hz" },
-    "ayla":     { "ses": "tr-TR-EmelNeural",  "hiz": "-4%", "perde": "-6Hz" }
+    "ayla":     { "ses": "tr-TR-EmelNeural",  "hiz": "-4%", "perde": "-6Hz" },
+    "eylul":    { "ses": "tr-TR-EmelNeural",  "hiz": "+6%", "perde": "+14Hz" }
   },
   "zaman": {
     "fps": 30,
