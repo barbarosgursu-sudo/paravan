@@ -39,7 +39,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `arsiv/sablon/5_gorsel_sistem
 **CENGO [kas]:** Kapı? {ekran: cengo+mujgan, yuz: mujgan.ofkeli}
 **MÜJGAN [normal]:** Kırılmamış. Anahtar yalnız Lâl'de. {kime: cengo, ekran: cengo+mujgan, yuz: cengo.kas}
 **MÜJGAN [ofkeli]:** Lâl batıyor, herkes biliyor. Gelinliğe İtalyan dantel koydum. {ekran: cengo+mujgan, yuz: cengo.kas}
-**MÜJGAN [normal]:** Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor. Gelinlik yok diye düğün iptal olmaz. {ekran: cengo+mujgan, yuz: cengo.kas}
+**MÜJGAN [normal]:** Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor. {ekran: cengo+mujgan, yuz: cengo.kas}
+**MÜJGAN [normal]:** Gelinlik yok diye düğün iptal olmaz. {ekran: cengo+mujgan, yuz: cengo.kas}
 **PERİ [normal]:** Elli bin. {ekran: peri+mujgan, yuz: mujgan.normal}
 **MÜJGAN [normal]:** Gelinlik üç yüz bin, siz elli bin. Makul. Gelinlik bulununca. Basına duyulmasın. {ekran: peri+mujgan, yuz: peri.normal}
 **CENGO [kas]:** Makul dedi. Az istemişiz. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
@@ -273,11 +274,23 @@ metnin andığı nesne görünüyor mu?* Kurallar: `arsiv/sablon/5_gorsel_sistem
 
 ---
 
-## ucret
-⚙ Karar ekranının üstünde, ücret kesildiyse çıkan açıklama. `{anlasilan}` ve `{kesinti}` tutarla dolar.
+## sahne karar_soru
+⚙ arka: A20 · figurler: peri, cengo, defne · set: ortulu · cset: takim · secim_kare: K26
+⚙ 24 Kasım 2026 (YAPI-23): kararı kovalamacanın sonunda, balo salonunda Defne sorar (Müjgan lâl/tolga yollarında orada değil);
+⚙ seçim kutusu ("Peri ne yapsın?") arayüzce eklenir, seçenekler kararların SEÇENEK satırları. Ücret kesintisi yok (YAPI-32): eski `## ucret` bölümü silindi.
 
-**ZAYIF:** Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Müjgan Hanım {kesinti} kesti.
-**YANLIS:** Anlaşılan ücret {anlasilan}. Masum birini suçladın; Müjgan Hanım {kesinti} kesti.
+**DEFNE [itiraf]:** Cumaya iki gün var, Peri Hanım. Anneme ne diyeceksiniz? {kime: peri, ekran: peri+defne, yuz: peri.kas}
+
+## cengo_kanit
+⚙ YAPI-25: oyuncu bu doğru kanıtı ELİNDE tutup suçlamada kullanmadıysa Cengo büroda söyler. Satır yalnız kendi kanıtının
+⚙ bilgisini söyler. Biçim: **olgu [Cengo ifadesi]:** metin {yuz: peri.x}.
+
+**defne_kaldi [normal]:** Provadan sonra Defne "biraz yalnız kalayım" demiş, Peri. Sekizden sonra prova odasında tek başına kalmış. {yuz: peri.kas}
+**kilifli_kadin [normal]:** Salı sekiz buçukta arka kapıdan uzun, siyah bir elbise kılıfıyla genç bir kadın çıkmış, Peri. Lâl Hanım değilmiş. {yuz: peri.kas}
+**ortu_ortulmez [normal]:** Gülsüm Usta gelinliğe örtü örtmezmiş, Peri: "Tül yapışır." Sekizde çıkarken gelinlik açıktaymış. {yuz: peri.kas}
+**tolga_gordu [normal]:** Tolga sekizi on geçe atölyeye uğramış, Peri. Gelinlik mankende açıktaymış, gelin de içerideymiş. {yuz: peri.kas}
+**cuma_sekiz [normal]:** Gelinliği getiren genç kadın cuma sabah sekizde alacakmış, Peri. Adını bırakmamış. {yuz: peri.kas}
+**defne_cuma [normal]:** Defne nedime provalarına gelmiyormuş, Peri. Nedimelere "cuma sabahı işim var" demiş. {yuz: peri.kas}
 
 ## cozum
 ⚙ "Dosya çözüldü" ekranı. YOL: suçluyu kanıtlayan her doğru çift, sade dille. MASUM <id>: neden masum.
@@ -309,24 +322,27 @@ metnin andığı nesne görünüyor mu?* Kurallar: `arsiv/sablon/5_gorsel_sistem
 ⚙ etiket: Müjgan Hanım'a hemen anlat
 
 **ÖNİZLEME:** Gelinlik cumartesiye döner; Defne'nin cuma nikâhı olmaz. Müjgan Hanım 5.000 ₺ bahşiş verir.
-**SONUÇ:** Müjgan Hanım'a her şeyi anlattın: terziyi, cuma nikâhını, beş yüz kişiyi istemediğini. Müjgan Hanım kızını alıp Kurtuluş'a gitti; Sarkis Usta kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.
-**CENGO [normal]:** Cengo düğünde ikinci tabağı alırken "Ana kız meselesi" dedi. "Ben yemeğe bakarım." {yuz: peri.normal}
+**SONUÇ:** Müjgan Hanım'a her şeyi anlattın: terziyi, cuma nikâhını, beş yüz kişiyi istemediğini. Müjgan Hanım kızını alıp Kurtuluş'a gitti; terzi kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.
+**SEÇENEK:** “Annene her şeyi anlatacağım, Defne. Bugün.”
+**CENGO [gulen]:** Ana kız meselesi, Peri. Ben yemeğe bakarım; ikinci tabağı aldım bile. {yuz: peri.normal}
 **DEFTER:** Gelinlik cumartesiye yetişti. Gelin de.
 
 ## karar nikahtan_sonra
 ⚙ etiket: Nikâhtan sonra söyle
 
-**ÖNİZLEME:** Defne cuma nikâhını kıyar; sen anneye ancak ondan sonra söylersin. Müjgan Hanım geç kaldın diye 10.000 ₺ keser.
-**SONUÇ:** Cuma sabahı gelinliği Defne'yle birlikte terziden aldın. Nikâh iki şahitle kıyıldı; gelinlik kısaydı. Öğlen Müjgan Hanım'a anlattın. Telefonu yüzüne kapattı, akşam ücreti gönderdi: on bin eksik.
-**CENGO [normal]:** Şahitlerden biri Cengo'ydu. "Bu hafta ikinci nikâhım" dedi. "Artık ücret alacağım." {yuz: peri.normal}
+**ÖNİZLEME:** Defne cuma nikâhını kıyar; sen anneye ancak ondan sonra söylersin. Müjgan Hanım sana küser.
+**SONUÇ:** Cuma sabahı gelinliği Defne'yle birlikte terziden aldın. Nikâh iki şahitle kıyıldı; gelinlik kısaydı. Öğlen Müjgan Hanım'a anlattın. Telefonu yüzüne kapattı, akşam ücreti gönderdi, tek kelime yazmadı.
+**SEÇENEK:** “Cuma nikâhını kıy. Annene ondan sonra söylerim.”
+**CENGO [gulen]:** Bu hafta ikinci şahitliğim, Peri. Artık ücret alacağım. {yuz: peri.normal}
 **DEFTER:** Defne nikâhını istediği gibi kıydı. Müjgan Hanım bir gün geç öğrendi.
 
 ## karar yuz_yuze
 ⚙ etiket: Ana kızı yüz yüze oturt
 
-**ÖNİZLEME:** Ana kızı aynı masaya oturtursun. Nikâh cuma, anne şahit olur. Salonun iptal cezası için Müjgan Hanım 5.000 ₺ keser.
-**SONUÇ:** Müjgan Hanım'la Defne'yi boş balo salonunda bir masaya oturttun. Bir saat sustular, sonra konuştular. Nikâh cuma kıyıldı; şahitlerden biri Müjgan Hanım'dı. Cumartesi beş yüz kişi yerine yirmi kişilik bir yemek oldu. Salonun iptal cezasından payını ücretten kesti.
-**CENGO [normal]:** Cengo kapının dışında bekledi, bir şey demedi. Ana kız çıkınca "Pasta kaldı mı?" diye sordu. {yuz: peri.normal}
+**ÖNİZLEME:** Ana kızı aynı masaya oturtursun. Nikâh cuma, anne şahit olur. Cumartesi düğünü iptal olur.
+**SONUÇ:** Müjgan Hanım'la Defne'yi boş balo salonunda bir masaya oturttun. Bir saat sustular, sonra konuştular. Nikâh cuma kıyıldı; şahitlerden biri Müjgan Hanım'dı. Cumartesi beş yüz kişi yerine yirmi kişilik bir yemek oldu. Salonun iptal cezasını Müjgan Hanım söylene söylene ödedi.
+**SEÇENEK:** “İkinizi bir masaya oturtacağım. Konuşacaksınız.”
+**CENGO [kas]:** Bir saat kapıda bekledim, Peri. İçeride konuştular, ben sustum. Pasta kaldı mı? {yuz: peri.normal}
 **DEFTER:** Ana kız aynı masaya oturdu. Nikâh cuma, cumartesi yemek.
 
 ## karar defnenin_parasi
@@ -334,7 +350,8 @@ metnin andığı nesne görünüyor mu?* Kurallar: `arsiv/sablon/5_gorsel_sistem
 
 **ÖNİZLEME:** Defne sana 15.000 ₺ verir; anneye "atölyeden çalınmış, terzide bulduk" dersin. Suç Lâl'in atölyesine kalır.
 **SONUÇ:** Defne'nin parasını aldın ve Müjgan Hanım'a hırsızın bulunamadığını söyledin. Gelinlik cumartesiye döndü; Defne nikâhından vazgeçti. Müjgan Hanım Nişantaşı'nda "Lâl'in atölyesi kalbur gibi" dedi. İki müşteri siparişini geri çekti.
-**CENGO [normal]:** Cengo parayı saydı, bir an durdu. "Lâl Hanım'ın atölyesine bir daha kim gider?" diye sordu. {yuz: peri.normal}
+**SEÇENEK:** “Parayı ver. Sırrın bende kalır.”
+**CENGO [kas]:** Parayı saydım, Peri. Lâl Hanım'ın atölyesine bir daha kim gider? {yuz: peri.utanmis}
 **DEFTER:** Defne'nin sırrı bende kaldı. Lâl Hanım'ın iki müşterisi gitti.
 
 ---
@@ -357,7 +374,7 @@ metnin andığı nesne görünüyor mu?* Kurallar: `arsiv/sablon/5_gorsel_sistem
 **PERİ [sasirmis]:** Ne? {ekran: peri+lal, yuz: lal.normal}
 **LÂL [kas]:** Sonra. {cik, ekran: peri+lal, yuz: peri.sasirmis}
 **CENGO [normal]:** Gitti. {kime: peri, bag: dusuk, ekran: peri+cengo, yuz: peri.sasirmis}
-*Cengo kravatını çözüp masaya bırakıyor.* {bag: dusuk, cengo: kravat, ekran: cengo, yuz: cengo.kravat}
+*Cengo kravatını çözüp masaya bırakıyor.* {bag: dusuk, kare: K32}
 **CENGO [normal]:** Takım yarın sahibine döner. İyi akşamlar. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.sasirmis}
 **PERİ [sasirmis]:** Cengo… {bag: dusuk, ekran: peri+cengo, yuz: cengo.normal}
 *Cengo dönmüyor; merdivenden iniyor. Peri örtüsüne sarılı, boş büroda tek başına kalıyor.* {bag: dusuk, kare: K32}

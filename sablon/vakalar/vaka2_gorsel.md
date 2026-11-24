@@ -27,19 +27,19 @@ promptun son satırı.
 > renkler. Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi
 > filmi değil, fotoğraf değil.
 
-## Liste (59 görsel)
+## Liste (57 görsel)
+
+**24 Kasım 2026 (Barbaros):** hiçbir satırın istemediği iki figür listeden çıktı (SATIR-35, doğrulayıcı K24): G3 `peri.tayyor.sinirli` (G8'in referansı olarak dosyası duruyor), G9 `peri.kremali.utanmis`. Dosyaları silinmedi.
 
 | # | tür | ne | anahtar | referans |
 |---|---|---|---|---|
 | G1 | figür | Peri, tayyör, normal (temel) | `peri.tayyor.normal` | Peri mantosuz, Peri mantolu |
 | G2 | figür | Peri, tayyör, kaşı kalkık | `peri.tayyor.kas` | G1, eski poz |
-| G3 | figür | Peri, tayyör, sinirli | `peri.tayyor.sinirli` | G1, eski poz |
 | G4 | figür | Peri, tayyör, acı | `peri.tayyor.aci` | G1, eski poz |
 | G5 | figür | Peri, tayyör, utanmış | `peri.tayyor.utanmis` | G1, eski poz |
 | G6 | figür | Peri, tayyör, şaşırmış | `peri.tayyor.sasirmis` | G1, eski poz |
 | G7 | figür | Peri, tayyör, meraklı | `peri.tayyor.merakli` | G1, eski poz |
 | G8 | figür | Peri, kremalı, sinirli | `peri.kremali.sinirli` | G3 |
-| G9 | figür | Peri, kremalı, utanmış | `peri.kremali.utanmis` | G8, G5 |
 | G10 | figür | Peri, masa örtüsüne sarılı, normal | `peri.ortulu.normal` | G8 |
 | G11 | figür | Peri, örtülü, kaşı kalkık | `peri.ortulu.kas` | G10 |
 | G12 | figür | Peri, örtülü, şaşırmış | `peri.ortulu.sasirmis` | G10 |

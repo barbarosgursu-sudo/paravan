@@ -85,7 +85,7 @@
         "cengo": {
           "ifadeler": ["normal", "kas", "gulen", "sinirli", "yumusak", "buyrun"],
           "setler": {
-            "takim": ["normal", "kas", "gulen", "yumusak", "buket", "kravat"],
+            "takim": ["normal", "kas", "gulen", "yumusak", "buket"],
             "haki": ["normal", "kas", "gulen", "yumusak"],
             "unlu": ["normal", "kas", "gulen", "yumusak"],
             "deri": ["normal", "kas", "gulen", "yumusak"],
@@ -1914,14 +1914,10 @@
           "para": 5000,
           "etiket": "Müjgan Hanım'a hemen anlat",
           "onizleme": "Gelinlik cumartesiye döner; Defne'nin cuma nikâhı olmaz. Müjgan Hanım 5.000 ₺ bahşiş verir.",
-          "sonuc": "Müjgan Hanım'a her şeyi anlattın: terziyi, cuma nikâhını, beş yüz kişiyi istemediğini. Müjgan Hanım kızını alıp Kurtuluş'a gitti; Sarkis Usta kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo düğünde ikinci tabağı alırken \"Ana kız meselesi\" dedi. \"Ben yemeğe bakarım.\""
-            }
-          ],
-          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
+          "sonuc": "Müjgan Hanım'a her şeyi anlattın: terziyi, cuma nikâhını, beş yüz kişiyi istemediğini. Müjgan Hanım kızını alıp Kurtuluş'a gitti; terzi kuyruğu geri dikti. Cumartesi beş yüz kişi alkışladı. Müjgan Hanım ücretin üstüne beş bin bahşiş bıraktı. Defne gülümsedi, sana bakmadı.",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Ana kız meselesi, Peri. Ben yemeğe bakarım; ikinci tabağı aldım bile."}],
+          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"},
+          "secenek": "“Annene her şeyi anlatacağım, Defne. Bugün.”"
         },
         {
           "id": "nikahtan_sonra",
@@ -1930,15 +1926,11 @@
           "cengoBag": 2,
           "para": -10000,
           "etiket": "Nikâhtan sonra söyle",
-          "onizleme": "Defne cuma nikâhını kıyar; sen anneye ancak ondan sonra söylersin. Müjgan Hanım geç kaldın diye 10.000 ₺ keser.",
-          "sonuc": "Cuma sabahı gelinliği Defne'yle birlikte terziden aldın. Nikâh iki şahitle kıyıldı; gelinlik kısaydı. Öğlen Müjgan Hanım'a anlattın. Telefonu yüzüne kapattı, akşam ücreti gönderdi: on bin eksik.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Şahitlerden biri Cengo'ydu. \"Bu hafta ikinci nikâhım\" dedi. \"Artık ücret alacağım.\""
-            }
-          ],
-          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
+          "onizleme": "Defne cuma nikâhını kıyar; sen anneye ancak ondan sonra söylersin. Müjgan Hanım sana küser.",
+          "sonuc": "Cuma sabahı gelinliği Defne'yle birlikte terziden aldın. Nikâh iki şahitle kıyıldı; gelinlik kısaydı. Öğlen Müjgan Hanım'a anlattın. Telefonu yüzüne kapattı, akşam ücreti gönderdi, tek kelime yazmadı.",
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Bu hafta ikinci şahitliğim, Peri. Artık ücret alacağım."}],
+          "cengo_replik": {"i": "gulen", "yuz": "peri.normal"},
+          "secenek": "“Cuma nikâhını kıy. Annene ondan sonra söylerim.”"
         },
         {
           "id": "yuz_yuze",
@@ -1947,15 +1939,16 @@
           "cengoBag": 1,
           "para": -5000,
           "etiket": "Ana kızı yüz yüze oturt",
-          "onizleme": "Ana kızı aynı masaya oturtursun. Nikâh cuma, anne şahit olur. Salonun iptal cezası için Müjgan Hanım 5.000 ₺ keser.",
-          "sonuc": "Müjgan Hanım'la Defne'yi boş balo salonunda bir masaya oturttun. Bir saat sustular, sonra konuştular. Nikâh cuma kıyıldı; şahitlerden biri Müjgan Hanım'dı. Cumartesi beş yüz kişi yerine yirmi kişilik bir yemek oldu. Salonun iptal cezasından payını ücretten kesti.",
+          "onizleme": "Ana kızı aynı masaya oturtursun. Nikâh cuma, anne şahit olur. Cumartesi düğünü iptal olur.",
+          "sonuc": "Müjgan Hanım'la Defne'yi boş balo salonunda bir masaya oturttun. Bir saat sustular, sonra konuştular. Nikâh cuma kıyıldı; şahitlerden biri Müjgan Hanım'dı. Cumartesi beş yüz kişi yerine yirmi kişilik bir yemek oldu. Salonun iptal cezasını Müjgan Hanım söylene söylene ödedi.",
           "cengo_sonuc": [
             {
               "kosul": "varsayilan",
-              "metin": "Cengo kapının dışında bekledi, bir şey demedi. Ana kız çıkınca \"Pasta kaldı mı?\" diye sordu."
+              "metin": "Bir saat kapıda bekledim, Peri. İçeride konuştular, ben sustum. Pasta kaldı mı?"
             }
           ],
-          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
+          "cengo_replik": {"i": "kas", "yuz": "peri.normal"},
+          "secenek": "“İkinizi bir masaya oturtacağım. Konuşacaksınız.”"
         },
         {
           "id": "defnenin_parasi",
@@ -1966,13 +1959,9 @@
           "etiket": "Defne'nin parasını al, sırrını sakla",
           "onizleme": "Defne sana 15.000 ₺ verir; anneye \"atölyeden çalınmış, terzide bulduk\" dersin. Suç Lâl'in atölyesine kalır.",
           "sonuc": "Defne'nin parasını aldın ve Müjgan Hanım'a hırsızın bulunamadığını söyledin. Gelinlik cumartesiye döndü; Defne nikâhından vazgeçti. Müjgan Hanım Nişantaşı'nda \"Lâl'in atölyesi kalbur gibi\" dedi. İki müşteri siparişini geri çekti.",
-          "cengo_sonuc": [
-            {
-              "kosul": "varsayilan",
-              "metin": "Cengo parayı saydı, bir an durdu. \"Lâl Hanım'ın atölyesine bir daha kim gider?\" diye sordu."
-            }
-          ],
-          "cengo_replik": {"i": "normal", "yuz": "peri.normal"}
+          "cengo_sonuc": [{"kosul": "varsayilan", "metin": "Parayı saydım, Peri. Lâl Hanım'ın atölyesine bir daha kim gider?"}],
+          "cengo_replik": {"i": "kas", "yuz": "peri.utanmis"},
+          "secenek": "“Parayı ver. Sırrın bende kalır.”"
         }
       ],
       "seeds": {},
@@ -1997,12 +1986,8 @@
           ["tolga_gordu", "kilifli_kadin"],
           ["cuma_sekiz", "defne_cuma"]
         ],
-        "ucret": {"dogru": 50000, "zayif": 40000, "yanlis": 25000},
+        "ucret": {"dogru": 50000, "zayif": 50000, "yanlis": 50000},
         "giris_grup": "Müjgan Hanım'ın anlattıkları",
-        "kesinti": {
-          "zayif": "Anlaşılan ücret {anlasilan}. Kanıtın zayıf kaldı; Müjgan Hanım {kesinti} kesti.",
-          "yanlis": "Anlaşılan ücret {anlasilan}. Masum birini suçladın; Müjgan Hanım {kesinti} kesti."
-        },
         "cozum": {
           "yollar": [
             "Defne sekizden sonra prova odasında yalnız kaldı + sekiz buçukta arka kapıdan kılıflı genç bir kadın çıktı.",
@@ -2022,7 +2007,23 @@
           "Defne gelinliği siyah bir kılıfa koydu, boş mankene örtü örttü ki gelinlik yerindeymiş gibi görünsün. Sekiz buçukta arka kapıdan çıktı; vale Bülent onu gördü ama yüzünü seçemedi. Taksiye \"Kurtuluş'a, terziye\" dedi.",
           "Dokuzda Lâl Hanım aşağı indi, örtülü mankene bakmadan kapıları kilitledi. Borcu gerçekti, hırsızlığı değil.",
           "Gelinlik Sarkis Usta'daydı; kuyruğu kesilip kısaltılacak, cuma sabah sekizde alınacaktı. Defne gelinliği seviyordu; istemediği, gösteriydi."
-        ]
+        ],
+        "cengo_kanit": {
+          "defne_kaldi": "Provadan sonra Defne \"biraz yalnız kalayım\" demiş, Peri. Sekizden sonra prova odasında tek başına kalmış.",
+          "kilifli_kadin": "Salı sekiz buçukta arka kapıdan uzun, siyah bir elbise kılıfıyla genç bir kadın çıkmış, Peri. Lâl Hanım değilmiş.",
+          "ortu_ortulmez": "Gülsüm Usta gelinliğe örtü örtmezmiş, Peri: \"Tül yapışır.\" Sekizde çıkarken gelinlik açıktaymış.",
+          "tolga_gordu": "Tolga sekizi on geçe atölyeye uğramış, Peri. Gelinlik mankende açıktaymış, gelin de içerideymiş.",
+          "cuma_sekiz": "Gelinliği getiren genç kadın cuma sabah sekizde alacakmış, Peri. Adını bırakmamış.",
+          "defne_cuma": "Defne nedime provalarına gelmiyormuş, Peri. Nedimelere \"cuma sabahı işim var\" demiş."
+        },
+        "cengo_kanit_replik": {
+          "defne_kaldi": {"i": "normal", "yuz": "peri.kas"},
+          "kilifli_kadin": {"i": "normal", "yuz": "peri.kas"},
+          "ortu_ortulmez": {"i": "normal", "yuz": "peri.kas"},
+          "tolga_gordu": {"i": "normal", "yuz": "peri.kas"},
+          "cuma_sekiz": {"i": "normal", "yuz": "peri.kas"},
+          "defne_cuma": {"i": "normal", "yuz": "peri.kas"}
+        }
       },
       "anahtarlar": {
         "lal_kilitledi": ["kilitledi", "örtülü"],
@@ -2151,7 +2152,14 @@
             {
               "k": "mujgan",
               "i": "normal",
-              "m": "Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor. Gelinlik yok diye düğün iptal olmaz.",
+              "m": "Kızım Defne perişan. Organizatörüm Tolga Bey bugün otelde nedime provası yapıyor.",
+              "ekran": "cengo+mujgan",
+              "yuz": "cengo.kas"
+            },
+            {
+              "k": "mujgan",
+              "i": "normal",
+              "m": "Gelinlik yok diye düğün iptal olmaz.",
               "ekran": "cengo+mujgan",
               "yuz": "cengo.kas"
             },
@@ -2594,6 +2602,23 @@
             }
           ]
         },
+        "karar_soru": {
+          "arka": "A20",
+          "set": "ortulu",
+          "cset": "takim",
+          "secim_kare": "K26",
+          "figurler": ["peri", "cengo", "defne"],
+          "satirlar": [
+            {
+              "k": "defne",
+              "i": "itiraf",
+              "m": "Cumaya iki gün var, Peri Hanım. Anneme ne diyeceksiniz?",
+              "kime": "peri",
+              "ekran": "peri+defne",
+              "yuz": "peri.kas"
+            }
+          ]
+        },
         "kapanis": {
           "arka": "A8",
           "set": "ortulu",
@@ -2679,14 +2704,7 @@
               "ekran": "peri+cengo",
               "yuz": "peri.sasirmis"
             },
-            {
-              "k": "not",
-              "m": "Cengo kravatını çözüp masaya bırakıyor.",
-              "bag": "dusuk",
-              "cengo": "kravat",
-              "ekran": "cengo",
-              "yuz": "cengo.kravat"
-            },
+            {"k": "not", "m": "Cengo kravatını çözüp masaya bırakıyor.", "bag": "dusuk", "kare": "K32"},
             {
               "k": "cengo",
               "i": "normal",
