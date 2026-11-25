@@ -13,3 +13,16 @@ El sayfasına (python kaynak/arac_el.py --sayfa V8 G<n>) bakılıp her elin kend
 - G11 9f12ba5287b4
 - G12 cee931739f03
 - G13 6323b7c9951e
+- G26 22cc0a77dc03
+- G27 aa895002ba86
+- G28 7cd3cf159d58
+- G29 cfb74ed7f09d
+- G30 5ddedfeb2e73
+- G31 aedf96c7ed38
+- G32 c90d827b3f0a
+- G33 d966fa2b9023
+- G34 c9eae26f9181
+- G35 e50a774784a3
+- G36 5eb542bd9964
+- G37 5ac018d506ca
+- G38 f8d4d1ca0b7b

@@ -1,5 +1,10 @@
 # Vaka 8 — resim durumu
 
+**26 Kasım 2026, 00:35 — PARTİ 2 TAMAM (13/13, ilk üretimde).** Temeller: G26 Peri manto (yüz 0,876), G27 Peri kılık (gri-mavi; gözlük burnun
+ucunda, yüz 0,743), G28 Cengo şoför (0,891), G29 Cengo ceket (0,957), G30 Gizem kazak (0,909). Konuk kartları G31–G38 (benzerlik `--kim` ile
+elle; Fikret ~ Kenan 1,44 ve Nihat ~ Cengo 1,90 temellerindeki "kalsın"la). Belden aşağısı ve el onayı Oğuz Bey. Sırada Parti 3: ifadeler,
+hâller (onluk8, recel, manto8_son, sofor_dugmesiz), detaylar, kareler, kart afişi.
+
 **26 Kasım 2026, gece — PARTİ 1 TAMAM (25/25 onaylı).** Son üç (Oğuz Bey): G7 Tarkan (kel, sarı kaş, siyah takım; açık bej), G8 Nevzat (görünüş
 aynı; açık bej — G8z gri-mavide mavi gömlek kesim riski %8 olduğu için aynı tarifle yeniden üretildi, Oğuz Bey açık bej'i seçti), G9 Fikret
 (siyah at kuyruğu, keçi sakalı; Kenan 1,64 — kalsın). Hepsi havuzda, el onayı Oğuz Bey. Sırada Parti 2: Peri/Cengo/Gizem temel figürleri

@@ -43,3 +43,5 @@ Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha s
 - G7 | benzerlik | Tarkan (kel, sarı kaş, siyah takım) ~ Nihat 1,47 / Cengo 1,44 ŞÜPHELİ. Gözle ayrışıyor. Oğuz Bey, 25 Kasım 2026.
 - G8 | benzerlik | Nevzat ~ Haldun 1,55 / 1,44 ŞÜPHELİ. Gözle ayrışıyor (kabarık kumral saç, kolluk). Oğuz Bey, 25 Kasım 2026.
 - G9 | benzerlik | Fikret (siyah at kuyruğu, keçi sakalı — Oğuz Bey'in tarifi) ~ Kenan 1,64. Oğuz Bey "onaylı", 25 Kasım 2026.
+- G34 | benzerlik | Fikret'in kıyafet kartı ~ Kenan 1,44 ŞÜPHELİ — temel G9 için Oğuz Bey'in "onaylı"sı (25 Kasım 2026) karta da geçer.
+- G35 | benzerlik | Nihat'ın kıyafet kartı ~ Cengo 1,90 — temel G10 için Oğuz Bey'in "diğer karakterler iyi"si (25 Kasım 2026) karta da geçer.
