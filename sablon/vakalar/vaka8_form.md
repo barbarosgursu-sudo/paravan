@@ -423,7 +423,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   gözlüklü — 25 Kasım 2026: uzun yüz Hilmi'ye benzedi → yuvarlak).
 - **Pınar (30):** ince; **mor boyalı, yüksek at kuyruğu, kâkülsüz** saç; boynunda kulaklık, elinde klipsli defter; siyah tişört, kargo
   pantolon. *Ayıran:* mor at kuyruğu + kulaklık (Dilek'in küt kâküllü saçından ayrılsın — benzerlik aracı, 20 Kasım 2026).
-- **Yusuf Efendi (70'ler):** çok kambur, ufak; **kalın büyüteç camlı gözlük** gözlerini kocaman gösterir; **kasket** (altından seyrek, uzun beyaz saç taşar — benzerlik aracı, 20 Kasım 2026), yün
+- **Yusuf Efendi (70'ler):** çok kambur, ufak; **kalın büyüteç camlı gözlük** gözlerini kocaman gösterir; **kasket** (altından seyrek, uzun beyaz saç taşar — benzerlik aracı, 20 Kasım 2026),
   **yeşil** yün hırka, elinde zarflar. *Ayıran:* kocaman gözler + kambur (Necmi iri; Şükrü kel, papyonlu; Muammer V5 kel,
   bıyıklı, papyonlu, kahve yelekli — 25 Kasım 2026: kahve hırka Muammer'e yaklaştı → yeşil).
 

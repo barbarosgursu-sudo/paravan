@@ -1,5 +1,10 @@
 # Vaka 8 — resim durumu
 
+**25 Kasım 2026, gece — PARTİ 1 İSTEMLERİ HAZIR (33 dosya, G1–G25 + 8 zemin denemesi), `istem_kontrol.sh` çıkış 0.** Görselsiz tur beş
+kapı yolunda → `satir_resim.md` (250 satır, OTO 3, İŞ 0, SOR 0); konuk istemlerinin `## Satırlar`'ı oradan. Referanslar `v8/referanslar/`:
+`peri_manto_v1_ref.png` (V1 mantosunun kemerden aşağısı — dekolte kırpıldı, ISTEM-16), `cengo_ceket_v1_ref.png` (V1 ceketi). Zemin:
+asıl G6–G13 açık bej, `z` gri-mavi. Sırada döngü: `cd uretim && KOL=2 DONGU_LOG=<scratchpad> ./dongu.sh 8`.
+
 **25 Kasım 2026, gece — V7 KURALLARI V8'E UYGULANDI (Oğuz Bey: "Vaka 7'nin bütün kuralları uygulansın, konuklar eski vakalara benzemesin").**
 Benzerlik bütün vakalarla (V1–V7): Nevzat (Kadir V5) → zayıf, kabarık kumral saç, bıyıksız, açık mavi gömlek; Emir (Hilmi) → yuvarlak
 yüz; Yusuf (Muammer) → yeşil hırka; GEÇTİ. SATIR-43: Gizem'e yeni kıyafet `kazak8` (koyu yeşil balıkçı yaka kazak, siyah pantolon),
