@@ -1,3 +1,5 @@
+**25 Kasım 2026, 10:25 — G12 onaylı** (G11'in gece hâli, aynı açı; tarz GEÇTİ +0,205). **Parti 1'de yalnız G2 kaldı (web, `WEB_G2.md`, Oğuz Bey üretir).** Sonra Parti 2.
+
 **25 Kasım 2026, 10:20 — G11 onaylı** (Düzeltme 1'den sonra: tabla yok, gazete yerine yazısız dosya; tarz GEÇTİ +0,203). Sırada G12 (büro gece), G2 (web), Parti 2.
 
 **25 Kasım 2026 — ÜRETİM OĞUZ BEY'İN BİLGİSAYARINDA (Barbaros V7 üretmesin).** 16 Kasım'ın 12 resmi denetlendi: üç araç hepsinde GEÇTİ
