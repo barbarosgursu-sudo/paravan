@@ -1,7 +1,7 @@
 # VAKA 8 — GÖRSEL LİSTESİ
 
 Kaynak: `uretim/v8/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac_paket.js` ve `arac_el.py`'nin numara → tür/anahtar
-eşlemesidir; 25 Kasım 2026'da `uretim/v8/LISTE.md`'den (Parti 1) üretildi. Kıyafet kartları oyuna gömülmez. `G<n>z` zemin
+eşlemesidir; 25 Kasım 2026'da `uretim/v8/LISTE.md`'den (Parti 1) üretildi; Parti 2 (G26–G38) 26 Kasım 2026'da eklendi. Kıyafet kartları oyuna gömülmez. `G<n>z` zemin
 denemeleri listede yok (seçilen `G<n>.png` olur). Kart afişi ve masa kartı gömmede (GOMME-21…28).
 
 ## Liste
@@ -33,3 +33,16 @@ denemeleri listede yok (seçilen `G<n>.png` olur). Kart afişi ve masa kartı g�
 | G23 | arka plan | Atölyenin önü, gece, siyah araba | `A68` | (istemde) | Parti 1 |
 | G24 | arka plan | Sahil yolu, gece, Boğaz ışıkları | `A69` | (istemde) | Parti 1 |
 | G25 | arka plan | Yeniköy: beyaz yalı, uzun ahşap iskele, ucunda tekne, balıkçı ağı (gece) | `A70` | (istemde) | Parti 1 |
+| G26 | figür | Peri, kırmızı manto, normal (temel; açık bej) | `peri.manto8.normal` | (istemde) | Parti 2 |
+| G27 | figür | Peri, aşçı yardımcısı kılığı, normal (temel; gri-mavi — beyaz önlük açık bej'e karışır) | `peri.kilik.normal` | (istemde) | Parti 2 |
+| G28 | figür | Cengo, şoför üniforması, normal (temel) | `cengo.sofor.normal` | (istemde) | Parti 2 |
+| G29 | figür | Cengo, kendi ceketi, normal (temel) | `cengo.ceket8.normal` | (istemde) | Parti 2 |
+| G30 | figür | Gizem, koyu yeşil kazak (bu kıyafetin temeli) | `gizem.kazak8` | (istemde) | Parti 2 |
+| G31 | kıyafet kartı | Bahar Hanım (tam boy) | — | (istemde) | Parti 2 |
+| G32 | kıyafet kartı | Tarkan (tam boy) | — | (istemde) | Parti 2 |
+| G33 | kıyafet kartı | Nevzat Bey (tam boy) | — | (istemde) | Parti 2 |
+| G34 | kıyafet kartı | Fikret Usta (tam boy) | — | (istemde) | Parti 2 |
+| G35 | kıyafet kartı | Nihat Kora (tam boy) | — | (istemde) | Parti 2 |
+| G36 | kıyafet kartı | Emir (tam boy) | — | (istemde) | Parti 2 |
+| G37 | kıyafet kartı | Pınar (tam boy) | — | (istemde) | Parti 2 |
+| G38 | kıyafet kartı | Yusuf Efendi (tam boy) | — | (istemde) | Parti 2 |

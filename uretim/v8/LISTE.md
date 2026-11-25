@@ -55,3 +55,23 @@ ama resimleri V8 için yeniden üretilir (kart Vaka 1 ceketini referans alır).
 **İstemlerden önce (adım 8):** kıyafet hâli tablosu (SATIR-7), görselsiz tur kapı yollarında → `satir_resim.md`
 (`arac_satir_resim.js` bayrakları kapalı — SATIR-10), istem kalıbı `uretim/ISTEM_KALIPLARI.md`, istem denetimi
 `uretim/istem_kontrol.sh` (ISTEM-52). Hatırlatma listesi `sablon/vakalar/vaka8_hatirlatma.md` (97 madde).
+
+## Parti 2 (26 Kasım 2026): temel figürler karttan, konukların kıyafet kartları
+
+Zeminler `zemin.tsv` (kartlardan `arac_zemin.py`). Konuk kartlarının belden aşağısı Oğuz Bey'in onayına (V7'deki gibi).
+
+| # | tür | ne | anahtar | bekler |
+|---|---|---|---|---|
+| G26 | figür | Peri, kırmızı manto, normal (temel; açık bej) | `peri.manto8.normal` | G1 |
+| G27 | figür | Peri, aşçı yardımcısı kılığı, normal (temel; gri-mavi — beyaz önlük açık bej'e karışır) | `peri.kilik.normal` | G2 |
+| G28 | figür | Cengo, şoför üniforması, normal (temel) | `cengo.sofor.normal` | G3 |
+| G29 | figür | Cengo, kendi ceketi, normal (temel) | `cengo.ceket8.normal` | G4 |
+| G30 | figür | Gizem, koyu yeşil kazak (bu kıyafetin temeli) | `gizem.kazak8` | G5 |
+| G31 | kıyafet kartı | Bahar Hanım (tam boy) | — | G6 |
+| G32 | kıyafet kartı | Tarkan (tam boy) | — | G7 |
+| G33 | kıyafet kartı | Nevzat Bey (tam boy) | — | G8 |
+| G34 | kıyafet kartı | Fikret Usta (tam boy) | — | G9 |
+| G35 | kıyafet kartı | Nihat Kora (tam boy) | — | G10 |
+| G36 | kıyafet kartı | Emir (tam boy) | — | G11 |
+| G37 | kıyafet kartı | Pınar (tam boy) | — | G12 |
+| G38 | kıyafet kartı | Yusuf Efendi (tam boy) | — | G13 |
