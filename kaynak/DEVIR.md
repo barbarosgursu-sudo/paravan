@@ -8,14 +8,19 @@
 
 ---
 
-> ## 🖼️ ORTAKTAN NOT — VAKA 7 RESİMLERİ ÜRETİLDİ (25 Kasım 2026, Oğuz Bey'in bilgisayarı)
+> ## 🖼️ ORTAKTAN NOT — VAKA 7 RESİMLERİ ÜRETİLDİ VE GÖMÜLDÜ (25 Kasım 2026, Oğuz Bey'in bilgisayarı)
 > Vaka 7'nin bütün resimleri onaylı: **G1–G99** (Parti 1 mekân/temel, Parti 2 Peri/Cengo temelleri + 7 konuk kartı, Parti 3 32 ifade +
 > 6 detay + 31 kare). Liste `sablon/vakalar/vaka7_gorsel.md`, durum `uretim/v7/DURUM.md` en üst, üretici betikler
 > `uretim/v7/uret_istem_parti3a.py`, `uret_istem_parti3b.py`. Kalsın: G36, G38 (tarz +0,016), G55 (yüz 0,693) — `vaka7_kapi.md`.
 > Bilerek üretilmeyen yer tutucular (satırı yok, yalnız karede): `peri.altin.*`, `peri.gala.yumusak`, `cengo.smokin.sinirli`,
 > `cengo.smokin_tepsi.kas` — gömmede yer tutucudan silinmeli ya da öyle kalmalı (Barbaros'un kararı).
 > Araç düzeltmesi: `arac_el.py --kapi` kişi görünmeyen resmi (arka plan) atlıyor. Döngü kıyafet kartında kişiyi istemden okuyamıyor
-> (benzerlik `--kim` ile elle). **Sırada (Oğuz Bey):** göm (GOMME-8), kart afişi, masa kartı, 5 künye portresi, resim kapısı.
+> (benzerlik `--kim` ile elle). **GÖMÜLDÜ:** 89 görsel + `kart_v7` (G100) + `masa_v7` + 6 portre; yeni konuk boyları GOMME-13'te;
+> poz kaydı ve resim kapısının 30 bulgusu "kalsın" (`vaka7_kapi.md`); **V7 resim kapısı GEÇTİ**, doğrulayıcı PASS, 8 test.
+> `arac_kes_yz.py` artık `PARAVAN_IPLIK=<n>` ile çekirdek sınırlıyor (verilmezse eskisi gibi). Tuzak: Windows'ta Python ile
+> yazılan `vakaN_kapi.md` CRLF olursa `## kalsın` satırları eşleşmiyor — `newline="
+"`.
+> **Sırada:** Vaka 7'nin çeviri öncesi kalan işleri (sahibine sorulacak: bilerek yer tutucu kalan 4 ifade); sonra Vaka 8 resimleri.
 
 > ## 🎬 SHORTS — HAREKETLİ VİDEO (24 Kasım 2026 öğleden sonra, Barbaros'un penceresi)
 > **Karar (Barbaros):** Oğuz Bey vakaları tamamlarken Barbaros Shorts hattını geliştirir; ilk örnek **Vaka 6**. Video izleyiciyi
