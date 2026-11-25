@@ -1,3 +1,10 @@
+**25 Kasım 2026 — ÜRETİM OĞUZ BEY'İN BİLGİSAYARINDA (Barbaros V7 üretmesin).** 16 Kasım'ın 12 resmi denetlendi: üç araç hepsinde GEÇTİ
+(G3 tarz +0,063 · yüz GEÇTİ 0,897; G7 tarz +0,070 · benzerlik GEÇTİ (en yakın Sarkis 1,18); G7z tarz +0,045 · benzerlik GEÇTİ (Sarkis 1,25);
+mekânlar +0,182…+0,262). Gözle: G13–G20 onaylı (onayli/'e taşındı). **G11 RET** (arkadaki masada cam kül tablası — SINIR-13; öndeki gazetede
+yazıya benzer sütunlar) → `red/G11_red1.png`, `## Düzeltme 1` (istem kontrolü 0), döngüde yeniden üretiliyor; G12 onu bekliyor.
+Zemin (`arac_zemin.py --yaz`): Vedat açık bej → **G7 = G7z** (G7 → `red/G7_red1.png`); Cengo smokin açık bej. G3 ve G7 için el sayfaları
+hazır (`kaynak/YENI_UI/el/`); el onayı Oğuz Bey'de. Kalan Parti 1: G2 (web), G11, G12.
+
 **23 Kasım 2026, öğleden sonra — ÜRETİM OĞUZ BEY'İN BİLGİSAYARINA GEÇTİ (Barbaros'un iş bölümü; `kaynak/DEVIR.md` en üst).** Barbaros'un bilgisayarında V7 üretilmez; Barbaros Vaka 5→1 metnine geçti. Sırada: 16 Kasım'da üretilen 12 resmin denetimi (G3, G7/G7z, G11, G13–G20), sonra G12, G2 (web), Parti 2; ardından Vaka 8.
 
 **23 Kasım 2026, 10:00 — G9 (Ercan) onayli/'de, benzerlik "kalsın" (Barbaros): Cengo 1,41, sınırda; `vaka7_kapi.md` → ## kalsın. PARTİ 1'İN YENİ RESİMLERİ TAMAM (7/7). Kalan Parti 1: G2 (web), G3, G7/G7z, G11–G20 onay bekliyor (Oğuz Bey'in 16 Kasım üretimi), G12 G11'i bekliyor.**
