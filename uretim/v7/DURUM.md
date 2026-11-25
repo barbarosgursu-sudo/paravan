@@ -1,3 +1,20 @@
+**25 Kasım 2026 — G22 onaylı (Düzeltme 1: tarz GEÇTİ +0,022 · yüz 0,883; eldiven saten), el onayı Oğuz Bey. PARTİ 2 TAMAM (G21–G30).** Sırada Parti 3'ün listesi ve istemleri (ifadeler, kareler, detaylar, kart afişi); Peri kadife/gala ifadeleri için baş kırpıkları.
+
+**25 Kasım 2026, öğleden sonra — PARTİ 2 (G21–G30).** Görselsiz tur beş yolda (kapı yolları) yeniden koşuldu → `satir_resim.md` güncel (250 satır, OTO 14, İŞ 0, SOR 0). Zemin: peri.kadife7 ve peri.gala açık bej. Konuk kartlarının belden aşağısı Oğuz Bey'in onayı. Onaylı: G21 Peri kadife (tarz +0,064 · yüz 0,889), G23 Cengo smokin (tarz +0,047 · yüz 0,937), G24–G30 yedi konuk kartı (yüz tarzı +0,079…+0,129; benzerlik hepsi GEÇTİ, en yakın Ercan→Cengo 1,32). El onayı G21, G23 (Oğuz Bey). **G22 Peri gala RET** (tarz ŞÜPHELİ +0,017; eldiven deri) → Düzeltme 1, yeniden üretiliyor. Not: döngü kartta kişiyi istemden okuyamıyor (benzerlik `--kim` ile elle koşuldu).
+
+**25 Kasım 2026, öğlen — G2 onaylı, PARTİ 1 TAMAM (20/20).** G2 web'de üretildi (Oğuz Bey); tarz GEÇTİ +0,058 · yüz GEÇTİ 0,813; el onayı Oğuz Bey. Not: eldivenler saten değil deri görünüyor, oyun boyunda seçilmez — kalsın. Sırada Parti 2'nin listesi ve istemleri (`vaka7_gorsel.md`'ye eklenecek).
+
+**25 Kasım 2026, 10:25 — G12 onaylı** (G11'in gece hâli, aynı açı; tarz GEÇTİ +0,205). **Parti 1'de yalnız G2 kaldı (web, `WEB_G2.md`, Oğuz Bey üretir).** Sonra Parti 2.
+
+**25 Kasım 2026, 10:20 — G11 onaylı** (Düzeltme 1'den sonra: tabla yok, gazete yerine yazısız dosya; tarz GEÇTİ +0,203). Sırada G12 (büro gece), G2 (web), Parti 2.
+
+**25 Kasım 2026 — ÜRETİM OĞUZ BEY'İN BİLGİSAYARINDA (Barbaros V7 üretmesin).** 16 Kasım'ın 12 resmi denetlendi: üç araç hepsinde GEÇTİ
+(G3 tarz +0,063 · yüz GEÇTİ 0,897; G7 tarz +0,070 · benzerlik GEÇTİ (en yakın Sarkis 1,18); G7z tarz +0,045 · benzerlik GEÇTİ (Sarkis 1,25);
+mekânlar +0,182…+0,262). Gözle: G13–G20 onaylı (onayli/'e taşındı). **G11 RET** (arkadaki masada cam kül tablası — SINIR-13; öndeki gazetede
+yazıya benzer sütunlar) → `red/G11_red1.png`, `## Düzeltme 1` (istem kontrolü 0), döngüde yeniden üretiliyor; G12 onu bekliyor.
+Zemin (`arac_zemin.py --yaz`): Vedat açık bej → **G7 = G7z** (G7 → `red/G7_red1.png`); Cengo smokin açık bej. G3 ve G7 için el sayfaları
+hazır (`kaynak/YENI_UI/el/`); el onayı Oğuz Bey'de. Kalan Parti 1: G2 (web), G11, G12.
+
 **23 Kasım 2026, öğleden sonra — ÜRETİM OĞUZ BEY'İN BİLGİSAYARINA GEÇTİ (Barbaros'un iş bölümü; `kaynak/DEVIR.md` en üst).** Barbaros'un bilgisayarında V7 üretilmez; Barbaros Vaka 5→1 metnine geçti. Sırada: 16 Kasım'da üretilen 12 resmin denetimi (G3, G7/G7z, G11, G13–G20), sonra G12, G2 (web), Parti 2; ardından Vaka 8.
 
 **23 Kasım 2026, 10:00 — G9 (Ercan) onayli/'de, benzerlik "kalsın" (Barbaros): Cengo 1,41, sınırda; `vaka7_kapi.md` → ## kalsın. PARTİ 1'İN YENİ RESİMLERİ TAMAM (7/7). Kalan Parti 1: G2 (web), G3, G7/G7z, G11–G20 onay bekliyor (Oğuz Bey'in 16 Kasım üretimi), G12 G11'i bekliyor.**

@@ -1,8 +1,8 @@
 # Satır → resim uyumu — V7
 
-Kaynak: satir_el/dokum.txt, satir_izmir/dokum.txt, satir_tuval/dokum.txt, satir_cozmez7/dokum.txt · 250 farklı satır.
+Kaynak: satir_1/dokum.txt, satir_2/dokum.txt, satir_3/dokum.txt, satir_4/dokum.txt, satir_5/dokum.txt · 250 farklı satır.
 Her resim, ekranda olduğu satırlarla birlikte okunur: yüz, el ve jest HER satıra uymalı. Uymuyorsa ayrı ifade/kare gerekir.
-Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
+Bayraklar kuralla ayıklanır (`sablon/kurallar/KURALLAR.md` → SATIR-11): **OTO** kural kapattı · **İŞ** yazar kurala göre düzeltir · **SOR** sahibine.
 
 **Özet:** OTO 14 · İŞ 0 · SOR 0
 
@@ -86,12 +86,12 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 - **nesrin**: Sahibi ya. Kim ne der.  _(dinliyor)_
 - **cengo**: Bu kadın az konuşuyor, ama konuşunca hep birini gösteriyor.
 - **cengo**: Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun, Peri. Takınca bana bakma.
-- **cengo**: Şükrü Bey tabloyu bir saat gördü, sonra iki hafta İzmir'deydi, Peri. Bir saatte kopya yapılmaz.
 - *anlatı*: Feriköy Antika Pazarı. Açık hava; tezgâhlarda eski çerçeveler, kartpostallar, lambalar.  _(dinliyor)_
 - **necmi**: Cengo, gel bakalım. Bu kılık ne?  _(dinliyor)_
 - **peri**: Sonunda biri tanıdı.  _(dinliyor)_
 - **necmi**: Size doksan. Siz kraliçesiniz. (Cengo'ya) Papyonun yamuk, oğlum; gel düzelteyim.  _(dinliyor)_
 - **cengo**: Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?
+- **cengo**: Tablo iki hafta gizlice Nesrin Hanım'ın elindeydi, Peri. Onu söyleseydin kimse inkâr edemezdi.
 
 ### cengo.smokin.yumusak (7 satır)
 
@@ -122,7 +122,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 
 ### ercan.normal (2 satır)
 
-- *anlatı*: Kırmızı vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.  _(dinliyor)_
+- *anlatı*: Siyah vale yelekli, beyaz eldivenli, saçı jöleyle geriye taranmış bir adam.  _(dinliyor)_
 - **ercan**: On dakika sonra eli boş döndü. Kime verdi, görmedim; arka kapının içi bana görünmez.
 
 ### gizem.triko (7 satır)
@@ -160,7 +160,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 
 ### kaan.normal (6 satır)
 
-- *anlatı*: Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli genç bir adam.  _(dinliyor)_
+- *anlatı*: Dar lacivert takımlı, beyaz spor ayakkabılı, perçemli, gözlüklü genç bir adam.  _(dinliyor)_
 - **kaan**: Bu evde iki el var. Restoratörümüz Nesrin Hanım. Bir de Şükrü Bey: gençliğinde Beyoğlu'nda kopya ressamıymış.
 - **kaan**: Söz. (Peri'ye bakarak) Sizi bir yerden tanıyorum, eminim.
 - **cengo**: Herkes onu bir yerden tanıyor. Kimse nereden tanıdığını bilmiyor.  _(dinliyor)_
@@ -238,8 +238,8 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 - **gizem**: Satmadın ama.  _(dinliyor)_
 - **peri**: Kraliçeler kendini elli beşe satmaz.
 - **cengo**: Biri bir kopyaya altı buçuk milyon verdi, sen de tacına kavuştun, Peri. Takınca bana bakma.  _(dinliyor)_
-- **cengo**: Şükrü Bey tabloyu bir saat gördü, sonra iki hafta İzmir'deydi, Peri. Bir saatte kopya yapılmaz.  _(dinliyor)_
 - **cengo**: Tacı sana o kadın aldı, Peri. Kraliçeliği de mi aldı?  _(dinliyor)_
+- **cengo**: Tablo iki hafta gizlice Nesrin Hanım'ın elindeydi, Peri. Onu söyleseydin kimse inkâr edemezdi.  _(dinliyor)_
 
 ### peri.altin_temiz.normal (5 satır)
 
@@ -328,10 +328,10 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 - **sukru**: Süheyla'nın misafirleri. Buyurun. (Peri'ye) Sizi bir dizide görmüştüm. Hemşireydiniz.  _(dinliyor)_
 - *anlatı*: Müzayede evinin arka avlusu. Duvar dibinde kediler, köşede bir çöp konteyneri.  _(dinliyor)_
 - **nesrin**: (Peri'ye bakarak) Elbiseniz size dar, hanımefendi.  _(dinliyor)_
-- **nesrin**: Otuz yıldır tablo onarırım, hanımefendi. Bu evden geçen her tabloyu ben mi değiştirdim? Kanıtınız ne?  _(dinliyor)_
 - *anlatı*: Feriköy Antika Pazarı. Açık hava; tezgâhlarda eski çerçeveler, kartpostallar, lambalar.  _(dinliyor)_
 - *anlatı*: Necmi Peri'yi görünce donup kalıyor.  _(dinliyor)_
 - **necmi**: Kraliçe! 2009! Bekleyin! Tacınızın fotoğrafı, bende kartpostal!  _(dinliyor)_
+- **nesrin**: Otuz yıldır tablo onarırım, hanımefendi. Bu evden geçen her tabloyu ben mi değiştirdim? Kanıtınız ne?  _(dinliyor)_
 
 ### peri.gala.sasirmis (2 satır)
 
@@ -346,7 +346,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 
 - **peri**: …Elimde bir şey var, ama sizi ikna edecek kadar değil.
 
-### peri.manto7.kas (12 satır)
+### peri.kadife7.kas (12 satır)
 
 - **peri**: Papyonun yamuk.
 - **cengo**: Gelin de öyle dedi. Böyle kalsın.  _(dinliyor)_
@@ -361,7 +361,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 - **peri**: Senin bedenin bana olur mu, Gizem?
 - **gizem**: Olmaz. Ama çok güzel olmaz.  _(dinliyor)_
 
-### peri.manto7.merakli (12 satır)
+### peri.kadife7.merakli (12 satır)
 
 - **peri**: Tabloda bir sorun mu var?
 - **suheyla**: Tabloyu iki ay önce Vedat Bey'in Maçka'daki evinde kendim fotoğrafladım. Katalog o fotoğrafla basıldı.  _(dinliyor)_
@@ -376,7 +376,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 - **peri**: Kasada ne var?
 - **cengo**: Senin sandığından az, benim sandığımdan çok.  _(dinliyor)_
 
-### peri.manto7.normal (7 satır)
+### peri.kadife7.normal (7 satır)
 
 - **suheyla**: Paravan Dedektiflik? Süheyla. Nişantaşı'nda bir müzayede evim var. Vaktim az.  _(dinliyor)_
 - *anlatı*: Süheyla Peri'yi baştan aşağı süzüyor.  _(dinliyor)_
@@ -386,7 +386,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 - **suheyla**: Nasıl isterseniz. Akşam yedi. Hiç geç kalmayın.  _(dinliyor)_
 - **cengo**: Senin tacın, değil mi Peri? Ona neden söylemedin?  _(dinliyor)_
 
-### peri.manto7.sasirmis (2 satır)
+### peri.kadife7.sasirmis (2 satır)
 
 - **peri**: Cengo? Evlendin mi?
 - **cengo**: Servis ettim. Dün gece bir düğünde garsonluk yaptım. Smokin kiralık, pazartesi iade.  _(dinliyor)_
@@ -443,7 +443,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 
 ### sukru.normal (9 satır)
 
-- *anlatı*: Kahverengi tüvit takımlı, kusursuz bordo papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.  _(dinliyor)_
+- *anlatı*: Kahverengi tüvit takımlı, kusursuz koyu yeşil papyonlu, ince bıyıklı ufak tefek bir adam; yelek cebinden bir büyüteç zinciri sarkıyor.  _(dinliyor)_
 - **sukru**: Süheyla'nın misafirleri. Buyurun. (Peri'ye) Sizi bir dizide görmüştüm. Hemşireydiniz.
 - **peri**: Hiç hemşire olmadım, Şükrü Bey. Ama size iyi gelecek bir sorum var.  _(dinliyor)_
 - **peri**: Hüsnü Faik'in raporunu siz imzaladınız. "Onarım görmemiş." Tabloyu ne zaman incelediniz?  _(dinliyor)_
@@ -517,7 +517,7 @@ Bayraklar kuralla ayıklanır (`arsiv/sablon/5_gorsel_sistemi.md` → SR-M): **O
 
 ### KARE K124 (1 satır)
 
-- *anlatı*: Pazar sabahı. Büro. Peri kırmızı mantosuyla masasında, bir gazetenin bulmacasını çözüyor.
+- *anlatı*: Pazar sabahı. Büro. Peri bordo kadife eteği ve krem trikosuyla masasında, bir gazetenin bulmacasını çözüyor.
 
 ### KARE K125 (1 satır)
 

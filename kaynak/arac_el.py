@@ -179,6 +179,9 @@ if __name__ == '__main__':
         for g in secim(N, gs):
             f = kaynak(N, g)
             if not os.path.exists(f): continue
+            # Kişi görünmeyen resim (arka plan) ve kişi sayısı bilinmeyen resim atlanır (kancadaki söz; 25 Kasım 2026: V7 mekânları
+            # G13–G20 el onayı istiyordu).
+            if g not in tablo(N) and kac_kisi(N, g) is None: continue
             i = imza(f)
             if (say.get(g) or [None])[0] != i:   # kişi sayısı: resim başına bir kez (imzayla önbellek)
                 _, _, _, b = incele(N, g); say[g] = [i, b]; say_yaz()
