@@ -1,5 +1,10 @@
 # Vaka 8 — resim durumu
 
+**26 Kasım 2026, gece — PARTİ 1 TAMAM (25/25 onaylı).** Son üç (Oğuz Bey): G7 Tarkan (kel, sarı kaş, siyah takım; açık bej), G8 Nevzat (görünüş
+aynı; açık bej — G8z gri-mavide mavi gömlek kesim riski %8 olduğu için aynı tarifle yeniden üretildi, Oğuz Bey açık bej'i seçti), G9 Fikret
+(siyah at kuyruğu, keçi sakalı; Kenan 1,64 — kalsın). Hepsi havuzda, el onayı Oğuz Bey. Sırada Parti 2: Peri/Cengo/Gizem temel figürleri
+karttan, karede görünen konukların kıyafet kartları.
+
 **25 Kasım 2026, 23:45 — Oğuz Bey: "Tarkan kel, kaşları sarı olsun. Fikret keçi sakallı ve siyah saçlı olsun. Diğer karakterler iyi."**
 Onaylı + havuzda + el onayı: G10 Nihat (= G10z gri-mavi; beyaz keten açık bej'e riskli), G11 Emir, G12 Pınar, G13 Yusuf (`vaka8_kapi.md` → kalsın).
 G15 büro gece onaylı → **MEKÂNLAR 12/12**. Fikret G9 onayı geri alındı (havuzdan adaylara; siyah at kuyruğu + keçi sakalı; form, diyalog 158).
