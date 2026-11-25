@@ -37,3 +37,6 @@ Resimler gelince (adım 8–10) figürlere bakılarak yazılır. Görselsiz aşa
 
 Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.
 - G9 | benzerlik | Ercan ↔ Cengo 1,41 (şüphe sınırı 1,40; aynı resim önce 1,34 ölçüldü). Gözle ayrışıyor: jöleli düz saç, traşlı, yelek, eldiven — Cengo dağınık saçlı, sakallı, ceketli. Barbaros, 23 Kasım 2026.
+- G36 | tarz | peri.gala.sasirmis +0,016 iki üretimde (şüphe sınırı 0,02); onaylı G34 ile yan yana aynı boyalı tarz. Oğuz Bey, 25 Kasım 2026.
+- G38 | tarz | peri.gala.utanmis +0,016 iki üretimde (şüphe sınırı 0,02); onaylı G34 ile yan yana aynı boyalı tarz. Oğuz Bey, 25 Kasım 2026.
+- G55 | yüz | vedat.yakalanmis 0,693 (geçme 0,70; ilk üretim 0,608); kel, kır sakallı, kalın gözlüklü Vedat açıkça tanınıyor, çökmüş ifade puanı düşürüyor. Oğuz Bey, 25 Kasım 2026.
