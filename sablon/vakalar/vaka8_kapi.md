@@ -35,3 +35,4 @@ Resimler gelince (adım 8–10) figürlere bakılarak yazılır. Görselsiz aşa
 ## kalsın
 
 Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.
+- G2 | tarz | kıyafet kartı (oyuna gömülmez); üç üretimde tarz −0,024 / −0,021 / −0,012, yüz son üretimde GEÇTİ 0,856 — Oğuz Bey "kalsın" (25 Kasım 2026)

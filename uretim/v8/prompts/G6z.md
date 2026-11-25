@@ -55,3 +55,7 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Görselin oranı TAM 4:5, dikey (1122×1402).
 ```
+
+## Düzeltme 1
+
+Benzerlik aracı ilk resmi Vaka 2'deki Nadide'ye çok yakın buldu (1,70: ikisi de yuvarlak, dolgun, açık tenli, ağarmış saçlı). Yüz DEĞİŞİYOR (form güncellendi, 25 Kasım 2026): Bahar yaşından GENÇ ve DİNÇ görünüyor, yüzünde kırışık az; İRİ yapılı, uzun boylu, geniş omuzlu; GENİŞ, KARE çeneli, köşeli bir yüz (yuvarlak ya da sarkık DEĞİL); ESMER, güneşte yanmış bir ten; KALIN, KOYU kahverengi kaşlar (saçı boyalı platin, kaşları koyu); geniş, gülen bir ağız, sağ yanağında DERİN gamze. Saç (kısa platin pixie), küpeler, kaftan, pantolon, poz ve ifade aynı kalsın. Nadide'ye (yetmişlerinde, yumuşak yuvarlak yüzlü, açık tenli, gümüş topuzlu, hırkalı yaşlı kadın) benzemiyor.

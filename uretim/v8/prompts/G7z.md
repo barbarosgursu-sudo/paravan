@@ -20,7 +20,7 @@
 
 ## Kontrol
 
-otuzlarının ortası, İNCE, orta boy · KARE çene · SİYAH, makineyle KISACIK KAZINMIŞ saç · sol kaşında İNCE YARA İZİ · KÖMÜR GRİSİ takım (yeleksiz), beyaz gömlek, kravatsız · altın kol düğmeleri · kendinden emin, hafif gülümseme · Kaan'a, Ercan'a, Cengo'ya, Serkan'a benzemiyor · zemin gri-mavi
+otuzlarının ortası ama yirmilerinin sonu gibi genç, İNCE, orta boy · DAR, UZUN yüz, SİVRİ ince çene, çökük yanaklar · AÇIK, solgun ten · İNCE kaşlar · SİYAH, makineyle KISACIK KAZINMIŞ saç · sol kaşında İNCE YARA İZİ · KÖMÜR GRİSİ takım (yeleksiz), beyaz gömlek, kravatsız · altın kol düğmeleri · kendinden emin, hafif gülümseme · Kaan'a, Ercan'a, Cengo'ya, Serkan'a benzemiyor · zemin gri-mavi
 
 ## İstem
 
@@ -29,7 +29,7 @@ Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. 
 
 Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
 
-Tarkan: otuz dört yaşında, kendini avukat diye tanıtan, kendinden emin, kibar ve kaygan bir genç adam. İNCE, orta boylu, dik duruşlu. Belirgin, KARE bir çene, düz burun, temiz traşlı yüz (sakal, bıyık YOK). Saçı SİYAH, makineyle KISACIK KAZINMIŞ (kafa derisi belli belirsiz görünüyor); perçem, jöle, dalga YOK. Kadrajda görünen kaşında, kaşı ikiye bölen İNCE, soluk bir YARA İZİ. Vücuda oturan, pahalı, KÖMÜR GRİSİ bir takım elbise (yelek YOK), beyaz gömlek, yakası açık, kravat YOK; gömlek kollarında küçük ALTIN kol düğmeleri. Kaan'a (kısa boylu, açık sarı perçemli, gözlüklü, bebek yüzlü) benzemiyor; Ercan'a (siyah jöleli saçı geriye taranmış, ince bıyıklı, siyah yelekli vale) benzemiyor; Cengo'ya ve Serkan'a (koyu dalgalı dağınık saçlı, sakallı) benzemiyor: Tarkan kazınmış saçlı, kaşı izli, kare çeneli, temiz traşlı.
+Tarkan: otuz dört yaşında, kendini avukat diye tanıtan, kendinden emin, kibar ve kaygan bir genç adam. İNCE, orta boylu, dik duruşlu. DAR, UZUN, oval bir yüz, SİVRİ, ince bir çene (kare ya da geniş çene DEĞİL), hafif çökük yanaklar, ince, kemerli bir burun; AÇIK, solgun bir ten (esmer DEĞİL); İNCE, düzgün kaşlar; yaşından genç, neredeyse çocuksu görünüyor; temiz traşlı yüz (sakal, bıyık, sakal gölgesi YOK). Saçı SİYAH, makineyle KISACIK KAZINMIŞ (kafa derisi belli belirsiz görünüyor); perçem, jöle, dalga YOK. Kadrajda görünen kaşında, kaşı ikiye bölen İNCE, soluk bir YARA İZİ. Vücuda oturan, pahalı, KÖMÜR GRİSİ bir takım elbise (yelek YOK), beyaz gömlek, yakası açık, kravat YOK; gömlek kollarında küçük ALTIN kol düğmeleri. Kaan'a (kısa boylu, açık sarı perçemli, gözlüklü, bebek yüzlü) benzemiyor; Ercan'a (siyah jöleli saçı geriye taranmış, ince bıyıklı, siyah yelekli, geniş kare yüzlü, esmer vale) benzemiyor; Kenan'a benzemiyor; Cengo'ya ve Serkan'a (koyu dalgalı dağınık saçlı, sakallı) benzemiyor: Tarkan kazınmış saçlı, kaşı izli, dar uzun yüzlü, solgun, temiz traşlı.
 
 Poz: TAM İKİ KOL, İKİ EL. Bir eli pantolon cebinde, öbür eli ceketinin önünü düzeltiyor; elleri boş: telefon, kâğıt, çanta YOK.
 

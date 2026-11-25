@@ -400,11 +400,13 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 | Ara kareler | kovalamaca 4, karar 4 (SONUÇ), ters köşe (paravan aralığı), itiraf (ağ), kapanış telefon |
 
 **Yeni konukların görünüşü 🟢** (15c: eski konukların hepsinden ayrışır):
-- **Bahar Hanım (52):** iri yapılı, yuvarlak yüz, elmacık kemiklerinde pembe; **kısa, platin beyaz pixie** saç; yanakta
+- **Bahar Hanım (52):** iri yapılı, yaşından genç ve dinç; **geniş, kare çeneli yüz, esmer ten, kalın koyu kaşlar** (25 Kasım 2026:
+  ilk resim Nadide'ye benzedi — benzerlik aracı 1,70 → yüz değişti); **kısa, platin beyaz pixie** saç; yanakta
   derin gamze; kocaman gümüş halka küpe; renkli çiçekli kaftan bluz, bol keten pantolon. Kural 15b: Peri'den gösterişsiz.
   *Eski konuklardan ayıran:* platin pixie + iri yapı (Müzeyyen kül sarısı mizanpli ve ince; Nadide gümüş, ince; Süheyla
   siyah küt).
-- **Tarkan / Ozan (34):** ince, orta boy; **kare çene**, **siyah, makineyle kısacık kazınmış** saç; **sol kaşında ince yara
+- **Tarkan / Ozan (34):** ince, orta boy; **dar, uzun yüz, sivri çene, solgun ten** (25 Kasım 2026: ilk resim Ercan'a benzedi — kare çene
+  kalktı), **siyah, makineyle kısacık kazınmış** saç; **sol kaşında ince yara
   izi**; kömür grisi takım (yeleksiz), altın kol düğmeleri; telefonu hep elinde. *Ayıran:* kazınmış saç + kaş izi (Kaan
   kısa boylu, açık sarı perçemli, gözlüklü; Ercan siyah jöleli, geriye taranmış). *25 Kasım 2026: sarı saç Kaan'a benzedi
   (benzerlik aracı) → değişti.*
