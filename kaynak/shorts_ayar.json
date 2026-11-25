@@ -11,7 +11,9 @@
     "sedat":    { "ses": "tr-TR-AhmetNeural", "hiz": "+4%", "perde": "+12Hz" },
     "rustem":   { "ses": "tr-TR-AhmetNeural", "hiz": "-10%", "perde": "-20Hz" },
     "ayla":     { "ses": "tr-TR-EmelNeural",  "hiz": "-4%", "perde": "-6Hz" },
-    "eylul":    { "ses": "tr-TR-EmelNeural",  "hiz": "+6%", "perde": "+14Hz", "el": { "id": "cgSgspJ2msm6clMCkdW9", "ad": "Jessica", "model": "eleven_multilingual_v2" } }
+    "eylul":    { "ses": "tr-TR-EmelNeural",  "hiz": "+6%", "perde": "+14Hz", "el": { "id": "cgSgspJ2msm6clMCkdW9", "ad": "Jessica", "model": "eleven_multilingual_v2" } },
+    "jale":     { "ses": "tr-TR-EmelNeural",  "hiz": "-2%", "perde": "-8Hz", "el": { "id": "EXAVITQu4vr4xnSDxMaL", "ad": "Sarah", "model": "eleven_multilingual_v2" } },
+    "muzeyyen": { "ses": "tr-TR-EmelNeural",  "hiz": "-8%", "perde": "-14Hz", "el": { "id": "XrExE9yKIg1WjnnlVkGX", "ad": "Matilda (deneme; yayında kitaplıktan yaşlı ses)", "model": "eleven_multilingual_v2" } }
   },
   "zaman": {
     "fps": 30,
