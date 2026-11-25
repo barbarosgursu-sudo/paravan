@@ -2,7 +2,7 @@
 
 Kaynak: `uretim/v7/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac_paket.js` ve `arac_el.py`'nin numara → tür/anahtar
 eşlemesidir; 23 Kasım 2026'da `uretim/v7/LISTE.md`'den (Parti 1) üretildi. Kıyafet kartları oyuna gömülmez. `G<n>z` zemin
-denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2 (G21–G30) 25 Kasım 2026'da eklendi; Parti 3 yazılınca buraya eklenir.
+denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2 (G21–G30) 25 Kasım 2026'da eklendi; Parti 3a (ifadeler, G31–G62) 25 Kasım 2026'da eklendi; Parti 3b (detay, kare) yazılınca buraya eklenir.
 
 ## Liste
 
@@ -38,3 +38,35 @@ denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2 (G21–G30) 25 Kasım
 | G28 | kıyafet kartı | Kaan (kıyafet kartı) | — | G8.png, tarz_govde_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
 | G29 | kıyafet kartı | Ercan, vale (kıyafet kartı) | — | G9.png, tarz_govde_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
 | G30 | kıyafet kartı | Necmi (kıyafet kartı) | — | G10.png, tarz_govde_iri_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
+| G31 | figür | Peri, kadife7, kaşı kalkık | `peri.kadife7.kas` | peri_kadife7_bas.png, tarz_govde_kadin.jpg, G1.png | Parti 3a |
+| G32 | figür | Peri, kadife7, meraklı, soruyor | `peri.kadife7.merakli` | peri_kadife7_bas.png, tarz_govde_kadin.jpg, G1.png | Parti 3a |
+| G33 | figür | Peri, kadife7, şaşırmış | `peri.kadife7.sasirmis` | peri_kadife7_bas.png, tarz_govde_kadin.jpg, G1.png | Parti 3a |
+| G34 | figür | Peri, gala, kaşı kalkık | `peri.gala.kas` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png | Parti 3a |
+| G35 | figür | Peri, gala, meraklı, soruyor | `peri.gala.merakli` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png | Parti 3a |
+| G36 | figür | Peri, gala, şaşırmış | `peri.gala.sasirmis` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png | Parti 3a |
+| G37 | figür | Peri, gala, sevinçli (biri onu tanıdı) | `peri.gala.sevincli` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png | Parti 3a |
+| G38 | figür | Peri, gala, mahcup (zayıf kanıt) | `peri.gala.utanmis` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png | Parti 3a |
+| G39 | figür | Peri, altin_temiz, temizlenmiş, normal (bu hâlin temeli) | `peri.altin_temiz.normal` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png | Parti 3a |
+| G40 | figür | Peri, altin_temiz, temizlenmiş, kaşı kalkık | `peri.altin_temiz.kas` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png, G39.png | Parti 3a |
+| G41 | figür | Peri, altin_temiz, temizlenmiş, yumuşamış | `peri.altin_temiz.yumusak` | peri_gala_bas.png, tarz_govde_kadin.jpg, G2.png, G39.png | Parti 3a |
+| G42 | figür | Cengo, smokin, kaşı kalkık | `cengo.smokin.kas` | G23.png, G3.png | Parti 3a |
+| G43 | figür | Cengo, smokin, gülüyor | `cengo.smokin.gulen` | G23.png, G3.png | Parti 3a |
+| G44 | figür | Cengo, smokin, yumuşak | `cengo.smokin.yumusak` | G23.png, G3.png | Parti 3a |
+| G45 | figür | Gizem, triko (sade, normal) | `gizem.triko` | V6 G23.png, V6 G22.png | Parti 3a |
+| G46 | figür | Gizem, elinde askıda gece mavisi elbise | `gizem.triko_aski` | V6 G23.png, V6 G22.png | Parti 3a |
+| G47 | figür | Süheyla Hanım, süzüyor | `suheyla.suzuyor` | G4.png | Parti 3a |
+| G48 | figür | Süheyla Hanım, endişeli | `suheyla.endiseli` | G4.png | Parti 3a |
+| G49 | figür | Süheyla Hanım, sert | `suheyla.sert` | G4.png | Parti 3a |
+| G50 | figür | Kaan, heyecanlı | `kaan.heyecanli` | G8.png | Parti 3a |
+| G51 | figür | Kaan, ciddi (uzman) | `kaan.ciddi` | G8.png | Parti 3a |
+| G52 | figür | Şükrü Bey, dik, mağrur | `sukru.dik` | G6.png | Parti 3a |
+| G53 | figür | Şükrü Bey, kırgın | `sukru.kirgin` | G6.png | Parti 3a |
+| G54 | figür | Vedat Bey, kaçamak | `vedat.kacamak` | G7.png | Parti 3a |
+| G55 | figür | Vedat Bey, yakalanmış | `vedat.yakalanmis` | G7.png | Parti 3a |
+| G56 | figür | Vedat Bey, öfkeli | `vedat.ofkeli` | G7.png | Parti 3a |
+| G57 | figür | Nesrin Hanım, soğuk | `nesrin.soguk` | G5.png | Parti 3a |
+| G58 | figür | Nesrin Hanım, itiraf (hüzünlü, dik) | `nesrin.itiraf` | G5.png | Parti 3a |
+| G59 | figür | Ercan, gülüyor | `ercan.gulen` | G9.png | Parti 3a |
+| G60 | figür | Ercan, fısıldıyor (sır veriyor) | `ercan.fisilti` | G9.png | Parti 3a |
+| G61 | figür | Necmi, heyecanlı (kraliçeyi tanıdı) | `necmi.heyecanli` | G10.png | Parti 3a |
+| G62 | figür | Necmi, elinde buruşuk defter | `necmi.defter` | G10.png | Parti 3a |
