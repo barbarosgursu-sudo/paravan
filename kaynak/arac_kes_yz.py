@@ -33,7 +33,13 @@ def model():
         print('model indiriliyor (~970 MB, bir kez):', MODEL, flush=True)
         urllib.request.urlretrieve(URL, MODEL + '.part'); os.replace(MODEL + '.part', MODEL)
     import onnxruntime as ort
-    return ort.InferenceSession(MODEL, providers=['CPUExecutionProvider'])
+    so = ort.SessionOptions()
+    # PARAVAN_IPLIK=3 → kesim en çok 3 çekirdek kullanır (25 Kasım 2026, Oğuz Bey: bilgisayar uzun kesimde kilitlenmesin).
+    # Verilmezse onnxruntime'ın varsayılanı (bütün çekirdekler).
+    n = int(os.environ.get('PARAVAN_IPLIK', '0') or 0)
+    if n > 0:
+        so.intra_op_num_threads = n; so.inter_op_num_threads = 1
+    return ort.InferenceSession(MODEL, sess_options=so, providers=['CPUExecutionProvider'])
 
 def maske(sess, im):
     W, H = im.size
