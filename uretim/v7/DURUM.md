@@ -1,3 +1,5 @@
+**25 Kasım 2026, öğlen — G2 onaylı, PARTİ 1 TAMAM (20/20).** G2 web'de üretildi (Oğuz Bey); tarz GEÇTİ +0,058 · yüz GEÇTİ 0,813; el onayı Oğuz Bey. Not: eldivenler saten değil deri görünüyor, oyun boyunda seçilmez — kalsın. Sırada Parti 2'nin listesi ve istemleri (`vaka7_gorsel.md`'ye eklenecek).
+
 **25 Kasım 2026, 10:25 — G12 onaylı** (G11'in gece hâli, aynı açı; tarz GEÇTİ +0,205). **Parti 1'de yalnız G2 kaldı (web, `WEB_G2.md`, Oğuz Bey üretir).** Sonra Parti 2.
 
 **25 Kasım 2026, 10:20 — G11 onaylı** (Düzeltme 1'den sonra: tabla yok, gazete yerine yazısız dosya; tarz GEÇTİ +0,203). Sırada G12 (büro gece), G2 (web), Parti 2.
