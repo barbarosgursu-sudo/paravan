@@ -8,6 +8,14 @@
 
 ---
 
+> ## 🖼️ ORTAKTAN NOT — VAKA 8 RESİMLERİNE HAZIRLIK (25 Kasım 2026 gece, Oğuz Bey'in bilgisayarı)
+> V8 hikâyesi bugünkü araçlarla yeniden denetlendi (doğrulayıcı PASS, kapı V8 hikaye GEÇTİ, 8 test). V7'den sonraki kurallar uygulandı:
+> konuk benzerliği **bütün vakalarla** — Tarkan (Kaan'a), Nevzat (Kadir'e), Emir (Hilmi'ye), Yusuf (Muammer'e) benzedi, görünüşleri
+> değişti (form, diyalog anlatısı K166 ve satır 118, `adaylar.tsv`); SATIR-43 — Gizem'e V8 kıyafeti `kazak8`; Peri kırmızı stiletto, çorap yok.
+> **Araç hatası:** V7 gömülünce konukları benzerlik havuzuna taşınmamıştı (`--havuza` elle yapıldı). **Bilgi:** `node arac_benzerlik.js
+> 0 1 2 3 4 5 8` V1–V5 konuklarının kendi aralarında da çok benzerlik buluyor (Rüstem~Rıza, Nedim~Tahsin…) — V5→1 resimleri yenilenirken bakılmalı.
+> Parti 1 listesi `uretim/v8/LISTE.md` (G1–G25), durum `uretim/v8/DURUM.md`.
+
 > ## 🖼️ ORTAKTAN NOT — VAKA 7 RESİMLERİ ÜRETİLDİ VE GÖMÜLDÜ (25 Kasım 2026, Oğuz Bey'in bilgisayarı)
 > Vaka 7'nin bütün resimleri onaylı: **G1–G99** (Parti 1 mekân/temel, Parti 2 Peri/Cengo temelleri + 7 konuk kartı, Parti 3 32 ifade +
 > 6 detay + 31 kare). Liste `sablon/vakalar/vaka7_gorsel.md`, durum `uretim/v7/DURUM.md` en üst, üretici betikler
