@@ -14,6 +14,10 @@
 > Senaryo `sablon/vakalar/vaka6_shorts.md` (denetim PASS, damga yok); başka pencere için iş tarifi `sablon/vakalar/vaka6_shorts_hareketli.md`.
 > Ders: suçlunun sade resmi (`muzeyyen.normal`) yalnız yüzleşmede → videoda şüpheliler Künye portresiyle. Önceki Shorts kayıtları:
 > 9 Kasım (V3 uzun video denemesi, `uretim/video_v3_youtube/`), 14 Kasım (hat kuruldu, `sablon/8_shorts.md`).
+> **25 Kasım:** Shorts artık **İngilizce** (Barbaros). Taslak video `shorts/v6/v6_1.mp4` (depoda değil; `node arac_shorts.js 6 --el`).
+> Araca eklenenler: `--el` (ElevenLabs; ücretsiz plan yalnız hazır sesler George/Lily/Callum/Jessica), `⚙ dil: en`, `⚙ izin:`,
+> `- sessiz: <sn>`, `odak:`, `figur_olcek`, ifade geçişi; düzeltilenler: figür boyu oyunla birebir, kıyafet (cset) seçimi.
+> Kalan: ses seviyesi −16,6 LUFS (hedef −14); hareketli (yapay zekâ) üretim başka pencerede.
 
 > ## 🌍 SONRAKİ YOL: İNGİLİZCE ÇEVİRİ (24 Kasım 2026, Barbaros'un penceresi)
 > **Karar (Barbaros):** ilk yayında **Vaka 1–3**, Vaka 4–5 yedek → ilk çeviri işi bu beş vaka (RAF-103, RAF-104). Android paketi sonra (RAF-102).

@@ -5,6 +5,10 @@ Kurallar: `sablon/8_shorts.md` (SHORTS-1…29). Senaryonun araç biçimi: `sablo
 (`cd kaynak && node arac_shorts.js 6 --denetle` → **PASS**, üç uyarı; damga henüz BASILMADI).
 Resimlerin hepsi (13 PNG, adlarında satır no): `kaynak/YENI_UI/shorts_v6_resimler/` (depoda değil; yoksa §4'teki dosyalardan).
 
+> **25 Kasım 2026 güncellemesi (Barbaros):** video **İngilizce**; büro sahnesinde baştan sona yalnız **Eylül ve Cengo**
+> (yerleri değişmez, tek çekim — "giriş kopuk kopuk"); Peri'nin sorusu çıktı; açılış K120 ("Dad!") + K97 sarılma (sessiz).
+> **Güncel ve geçerli metin `sablon/vakalar/vaka6_shorts.md`** — aşağıdaki Türkçe tablo ilk taslaktır, sözler oradan alınır.
+
 ---
 
 ## 1. Amaç ve alınan kararlar
@@ -13,7 +17,7 @@ Resimlerin hepsi (13 PNG, adlarında satır no): `kaynak/YENI_UI/shorts_v6_resim
 - Bugünkü araç durağan resim + kamera kaydırması yapıyor; bu "yüzsüz video" gibi duruyor. Hedef: karakterler
   **konuşuyor, ağzı oynuyor, birbirine bakıyor** (örnek: Barbaros'un gönderdiği `kanepe.mp4` — Peri ve Cengo
   kanepede konuşuyor; dudak hareketi ve el hareketleri iyi, Cengo'nun saçı kayıyor, yatay 896×448).
-- Ses: **ElevenLabs** (aylık kredi yenilendi). Dil: **Türkçe** (yayındaki oyun Türkçe; ilgiyi ölçmek için).
+- Ses: **ElevenLabs** (aylık kredi yenilendi). Dil: **İngilizce** (25 Kasım kararı; ilk taslak Türkçeydi).
 - Video tipi: **Kanca** — tek sahne, kesintisiz; anlatıcı yalnız sonda. Üç şüpheli **eşit** yer alır ki izleyici
   "bu çözülebilir bir bilmece" diye görsün.
 - Anneannenin "evliliği istemediği" söylenmez: bu onun gerçek sebebi (ipucu ve itiraf bilgisi) — spoiler.

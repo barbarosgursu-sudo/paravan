@@ -523,8 +523,15 @@ function figCiz(t){
   const ayni=i>0&&V.satirlar[i-1].arka===s.arka, dt=t-s.bas;
   const gorunen=new Set();
   const ciz=(y,op,x)=>{const kisi=y.a.split('.')[0];gorunen.add(kisi);
-    let el=figEl[kisi];if(!el){el=document.createElement('div');el.className='fig';el.innerHTML='<img>';$('#figurler').appendChild(el);figEl[kisi]=el;}
-    const img=el.firstChild;if(img.dataset.k!==y.a){img.src=V.resim[y.a];img.dataset.k=y.a;}
+    let el=figEl[kisi];if(!el){el=document.createElement('div');el.className='fig';
+      el.innerHTML='<img><img style="position:absolute;left:0;bottom:0">';$('#figurler').appendChild(el);figEl[kisi]=el;
+      el._cur=el.children[0];el._eski=el.children[1];el._t0=-99;}
+    // İfade değişince resim birden sıçramasın: yeni ifade eskisinin üstünde 0,3 sn'de belirir
+    if(el._cur.dataset.k!==y.a){if(el._cur.dataset.k){const e=el._cur;el._cur=el._eski;el._eski=e;el._t0=t;}
+      el._cur.src=V.resim[y.a];el._cur.dataset.k=y.a;}
+    const gp=Math.min(1,Math.max(0,(t-el._t0)/.3));
+    el._cur.style.opacity=gp<1?yumusak(gp):1;el._cur.style.zIndex=2;el._eski.style.zIndex=1;el._eski.style.opacity=gp<1?1:0;
+    const img=el._cur;
     const konusan=s.kisi===kisi, anlatici=s.kisi==='anlatici';
     const nefes=konusan?1+.006*Math.sin(t*3.1):1;
     const h=figBoy(kisi,img);
