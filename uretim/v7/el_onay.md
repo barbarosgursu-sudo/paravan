@@ -85,3 +85,4 @@ El sayfasına (python kaynak/arac_el.py --sayfa V7 G<n>) bakılıp her elin kend
 - G97 3eabad2dd54c
 - G98 c523c17d967f
 - G99 a33a1a5f09a0
+- G100 4e4769077b62
