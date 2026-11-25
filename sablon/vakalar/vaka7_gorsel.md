@@ -2,7 +2,7 @@
 
 Kaynak: `uretim/v7/prompts/G<n>.md` (istemlerin tam metni orada). Bu tablo `arac_paket.js` ve `arac_el.py`'nin numara → tür/anahtar
 eşlemesidir; 23 Kasım 2026'da `uretim/v7/LISTE.md`'den (Parti 1) üretildi. Kıyafet kartları oyuna gömülmez. `G<n>z` zemin
-denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2–3 yazılınca buraya eklenir.
+denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2 (G21–G30) 25 Kasım 2026'da eklendi; Parti 3 yazılınca buraya eklenir.
 
 ## Liste
 
@@ -28,3 +28,13 @@ denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2–3 yazılınca buray
 | G18 | arka plan | Feriköy Antika Pazarı | `A55` | (istemde) | Parti 1 |
 | G19 | arka plan | Çerçeve odası | `A56` | (istemde) | Parti 1 |
 | G20 | arka plan | Müzayede salonu (kürsü, kaide, taçlı vitrin) | `A57` | (istemde) | Parti 1 |
+| G21 | figür | Peri, kadife (bordo kadife etek, krem triko), normal (temel) | `peri.kadife7.normal` | peri_bas.jpg, tarz_govde_kadin.jpg, G1.png, tarz_ornek_kadin.jpg | Parti 2 |
+| G22 | figür | Peri, gala (gece mavisi saten), normal (temel) | `peri.gala.normal` | peri_bas.jpg, tarz_govde_kadin.jpg, G2.png, tarz_ornek_kadin.jpg | Parti 2 |
+| G23 | figür | Cengo, kiralık smokin, normal (temel) | `cengo.smokin.normal` | v3 G4.png, G3.png, tarz_ornek_erkek.jpg | Parti 2 |
+| G24 | kıyafet kartı | Süheyla Hanım (kıyafet kartı) | — | G4.png, tarz_govde_kadin.jpg, tarz_ornek_kadin.jpg | Parti 2 |
+| G25 | kıyafet kartı | Nesrin Hanım (kıyafet kartı) | — | G5.png, tarz_govde_kadin.jpg, tarz_ornek_kadin.jpg | Parti 2 |
+| G26 | kıyafet kartı | Şükrü Bey (kıyafet kartı) | — | G6.png, tarz_govde_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
+| G27 | kıyafet kartı | Vedat Bey (kıyafet kartı) | — | G7.png, tarz_govde_iri_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
+| G28 | kıyafet kartı | Kaan (kıyafet kartı) | — | G8.png, tarz_govde_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
+| G29 | kıyafet kartı | Ercan, vale (kıyafet kartı) | — | G9.png, tarz_govde_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |
+| G30 | kıyafet kartı | Necmi (kıyafet kartı) | — | G10.png, tarz_govde_iri_erkek.jpg, tarz_ornek_erkek.jpg | Parti 2 |

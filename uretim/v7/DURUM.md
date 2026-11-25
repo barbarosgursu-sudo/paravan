@@ -1,3 +1,5 @@
+**25 Kasım 2026, öğleden sonra — PARTİ 2 (G21–G30).** Görselsiz tur beş yolda (kapı yolları) yeniden koşuldu → `satir_resim.md` güncel (250 satır, OTO 14, İŞ 0, SOR 0). Zemin: peri.kadife7 ve peri.gala açık bej. Konuk kartlarının belden aşağısı Oğuz Bey'in onayı. Onaylı: G21 Peri kadife (tarz +0,064 · yüz 0,889), G23 Cengo smokin (tarz +0,047 · yüz 0,937), G24–G30 yedi konuk kartı (yüz tarzı +0,079…+0,129; benzerlik hepsi GEÇTİ, en yakın Ercan→Cengo 1,32). El onayı G21, G23 (Oğuz Bey). **G22 Peri gala RET** (tarz ŞÜPHELİ +0,017; eldiven deri) → Düzeltme 1, yeniden üretiliyor. Not: döngü kartta kişiyi istemden okuyamıyor (benzerlik `--kim` ile elle koşuldu).
+
 **25 Kasım 2026, öğlen — G2 onaylı, PARTİ 1 TAMAM (20/20).** G2 web'de üretildi (Oğuz Bey); tarz GEÇTİ +0,058 · yüz GEÇTİ 0,813; el onayı Oğuz Bey. Not: eldivenler saten değil deri görünüyor, oyun boyunda seçilmez — kalsın. Sırada Parti 2'nin listesi ve istemleri (`vaka7_gorsel.md`'ye eklenecek).
 
 **25 Kasım 2026, 10:25 — G12 onaylı** (G11'in gece hâli, aynı açı; tarz GEÇTİ +0,205). **Parti 1'de yalnız G2 kaldı (web, `WEB_G2.md`, Oğuz Bey üretir).** Sonra Parti 2.
