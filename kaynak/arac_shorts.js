@@ -28,6 +28,7 @@ const bayrak = b => args.includes(b);
 // ⚙ baslik: … · muzik: muzik/x.mp3 · set: trenckot · cset: haki
 // ⚙ aciklama: …
 // odak: 0–100 → dikey kadraja kırpılan resmin yatayda hangi yeri görünür (50 orta, 100 sağ kenar)
+// dis: dış ses (konuşan ekranda görünmez; ör. Peri'nin anlatıcılığı)
 // - sessiz: 1.5 | arka: K97   (konuşmasız çekim, metin = saniye)
 // ⚙ dil: en   (yalnız --el; seslendirme dili ve son kare yazıları shorts_ayar.json → son_kare_dil)
 // ⚙ izin: muzeyyen.normal   (sahibinin onayıyla suçlunun sade figürü; yalnız .normal)
@@ -191,7 +192,7 @@ function plan(video) {
         .map(t => { const a = spriteCoz(t, set, cset); if (!a) h(`figür resmi bulunamadı: "${t}"`); return a; }).filter(Boolean);
     }
     let ekran = figurler.slice();
-    if (konusanAnahtar) {
+    if (konusanAnahtar && !s.ayar.dis) {   // dis: dış ses — konuşan ekrana eklenmez
       ekran = ekran.filter(a => a.split('.')[0] !== kisi);
       ekran.push(konusanAnahtar);
     }
