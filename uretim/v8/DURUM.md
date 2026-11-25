@@ -1,5 +1,10 @@
 # Vaka 8 — resim durumu
 
+**26 Kasım 2026, 01:15 — PARTİ 3 İSTEMLERİ HAZIR (96 dosya, G39–G134), `istem_kontrol.sh` çıkış 0.** 3a: 43 ifade (yalnız satırların
+istedikleri; hâller onluk8 G47, manto8_son G51 temelleriyle; Cengo `sofor_dugmesiz` G59–G60). 3b: 6 detay (D28–D33), 47 kare (K155–K201;
+seçim karesi K186, karar kareleri K192–K195). Yeni zeminler: peri.onluk8 gri-mavi, peri.manto8_son ve cengo.sofor_dugmesiz açık bej.
+Referanslar: Peri baş kırpıkları (manto8, kilik), iki şerit. Sırada döngü (~96 resim, 2 kol ~2,5–3 saat; kota ~80 resim/5 saat).
+
 **26 Kasım 2026, 00:35 — PARTİ 2 TAMAM (13/13, ilk üretimde).** Temeller: G26 Peri manto (yüz 0,876), G27 Peri kılık (gri-mavi; gözlük burnun
 ucunda, yüz 0,743), G28 Cengo şoför (0,891), G29 Cengo ceket (0,957), G30 Gizem kazak (0,909). Konuk kartları G31–G38 (benzerlik `--kim` ile
 elle; Fikret ~ Kenan 1,44 ve Nihat ~ Cengo 1,90 temellerindeki "kalsın"la). Belden aşağısı ve el onayı Oğuz Bey. Sırada Parti 3: ifadeler,
