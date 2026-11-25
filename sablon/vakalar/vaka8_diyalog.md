@@ -7,7 +7,7 @@
 Yazım `vaka7_diyalog.md`'deki gibi. Vaka 8'in kıyafetleri (kıyafet hâli):
 - **Peri:** **Resimde Vaka 1'deki manto birebir (sahibinin kararı, 22 Kasım 2026):** mantolu her V8 isteminde Vaka 1'in onaylı manto resimleri (`kaynak/yeni_gorsel/sprite/peri_manto_*.webp`, önce `peri_manto_normal`) referans verilir; dekoltesi kırpılmış/kapatılmış kopya (ISTEM-16). Manto yalnız Vaka 1 ve Vaka 8'de; Vaka 7'de yok.
   `manto8` (Vaka 1'deki kırmızı manto birebir: kruvaze, geniş açık yaka, kapaksız cepler, altında V yakalı krem
-  saten bluz; **kuşak çözük, uçları sarkık**; dar siyah kalem etek, siyah stiletto; saç açık, dalgalı), `kilik` (aşçı
+  saten bluz; **kuşak çözük, uçları sarkık**; dar siyah kalem etek, kırmızı stiletto (Vaka 1 gibi), ÇORAP YOK; saç açık, dalgalı), `kilik` (aşçı
   yardımcısı: manto YOK; krem saten bluz ve dar kalem eteğin üstünde beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah
   çerçeveli gözlük burnunun ucunda; bluzun yakası ve bacak açıkta), `onluk8` (yüzleşme ve kovalamaca: aynı kılık, kep ve gözlük
   çıkarılmış, saç açık), `recel` (kovalamaca: `onluk8` baştan aşağı vişne reçeli, saçta reçel), `manto8_son` (temizlenmiş:
@@ -15,7 +15,7 @@ Yazım `vaka7_diyalog.md`'deki gibi. Vaka 8'in kıyafetleri (kıyafet hâli):
 - **Cengo:** `sofor` (lacivert iki sıra düğmeli şoför ceketi, kasket, beyaz eldiven, bir beden dar; tel cepte; bileklik),
   `sofor_dugmesiz` (son reçelden sonra bir düğme kopuk — kovalamaca ve karar), `ceket8` (kapanış: kendi ceketi,
   Vaka 1 temel setindeki ceket).
-- **Gizem:** `triko` (sade kıyafet).
+- **Gizem:** `kazak8` (V8'in kendi kıyafeti — SATIR-43, 25 Kasım 2026: koyu yeşil balıkçı yaka kalın kazak, siyah pantolon).
 
 **Görselsiz test için yer tutucu:** Vaka 8'in bütün görselleri gri "görsel yok" kutusuyla görünür (V7'deki gibi baştan
 yapılır). Kodlar V7'nin sonundan: A60, D28, K155.
@@ -91,9 +91,9 @@ serbest (SR-A). Sigara yok (19a).
 **CENGO [gulen]:** Bahar Hanım ona şoför arıyor. O şoför benim. {ekran: peri+cengo, yuz: peri.merakli}
 **PERİ [kas]:** Ya beni? Beni görürse tanır. {kime: cengo, ekran: peri+cengo, yuz: cengo.gulen}
 *Gizem çay ocağından geliyor; elinde masada unutulmuş bir tanıtım çantası.* {kare: K197}
-**GİZEM [triko]:** Kılık lazım, Peri Hanım. Bahar Hanım'ın çantasında önlük, kep, bir de gözlük var. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
-**PERİ [kas]:** Ben aşçı mı olacağım, Gizem? {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
-**GİZEM [triko]:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**GİZEM [kazak8]:** Kılık lazım, Peri Hanım. Bahar Hanım'ın çantasında önlük, kep, bir de gözlük var. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**PERİ [kas]:** Ben aşçı mı olacağım, Gizem? {kime: gizem, ekran: peri+gizem, yuz: gizem.kazak8}
+**GİZEM [kazak8]:** Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz. {kime: peri, ekran: peri+gizem, yuz: peri.kas}
 *Peri çantayı alıp paravanın arkasına geçiyor; kırmızı mantosunu çıkarıp paravanın üstüne asıyor. Bir süre sonra çıkıyor: beyaz önlük saten bluzun üstünde beline sıkı bağlı, bluzun yakası ve bacakları açıkta, kep başında, iri gözlük burnunun ucunda.* {kare: K158, set: kilik}
 *Cengo elindeki simidi düşürüyor.* {kare: K158}
 **CENGO [gulen]:** *(sırıtarak)* Olmuş mu şimdi bu? Aşçı mı olmuş? {kare: K158}
@@ -101,8 +101,8 @@ serbest (SR-A). Sigara yok (19a).
 **CENGO [gulen]:** Smokini kiraladığım dükkânda şoför üniforması da var. Bir saate dönerim. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 *Peri Gizem'le çantayı karıştırırken Cengo çıkıyor; geçerken paravanın üstündeki kırmızı mantoyu sessizce koluna alıyor. Peri görmüyor.* {kare: K201}
 *Bir saat sonra: Cengo lacivert şoför üniformasıyla, kasketini takıp aynada kendine selam veriyor.* {kare: K159, cset: sofor}
-**GİZEM [triko]:** Avukat sizi sesinizden tanımasın, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
-**PERİ [kas]:** Ben onu sesinden tanırım, Gizem. O beni görmeyecek. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+**GİZEM [kazak8]:** Avukat sizi sesinizden tanımasın, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**PERİ [kas]:** Ben onu sesinden tanırım, Gizem. O beni görmeyecek. {kime: gizem, ekran: peri+gizem, yuz: gizem.kazak8}
 **PERİ [normal]:** Ben Nevzat Bey'e giderim. Bahar Hanım'ın çekimleri Maslak'taki stüdyoda; oraya da bakarım. {kime: cengo, ekran: peri+cengo, yuz: cengo.normal}
 **CENGO [normal]:** Ben Fikret Usta'yı bulurum. Bir de o "Kavanoz Ambalaj"ın kapısı nerede, bakarım. {kime: peri, ekran: peri+cengo, yuz: peri.normal}
 **CENGO [yumusak]:** Bir de Emir'i bulayım. Bordrodaki o çocuk benim gibi bir şeyi bilmiyordur. {ekran: peri+cengo, yuz: peri.normal}
@@ -115,7 +115,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: şifre {Nevzat, Tarkan} — tek başına kimseyi göstermez. Taksi fişi Nevzat'ı gösterir (yanıltır).
 
 *Kurtuluş. Mutfak atölyesinin üstünde dar bir muhasebe odası: raflarda klasörler, masada hesap makinesi.* {arka: A61, mekan}
-*Kollarında siyah kolluk, kulağında kurşun kalem, kalın bıyıklı, tombul bir adam; gözlüğü boynunda zincirle sarkıyor.* {gir: nevzat, gi: normal, ekran: nevzat}
+*Kollarında siyah kolluk, kulağında kurşun kalem, kabarık kumral saçlı, zayıf bir adam; gözlüğü boynunda zincirle sarkıyor.* {gir: nevzat, gi: normal, ekran: nevzat}
 **NEVZAT [normal]:** Yeni stajyer misiniz? Şekersiz bir kahve, lütfen. {gir: nevzat, kime: peri, ekran: peri+nevzat, yuz: peri.normal}
 **PERİ [kas]:** Kahveyi sonra yaparım, Nevzat Bey. Bahar Hanım ödemelere bakmamı istedi. {kime: nevzat, ekran: peri+nevzat, yuz: nevzat.normal}
 *Nevzat ekranı çeviriyor: alt alta üç ödeme satırı.* {kare: D28}
@@ -459,9 +459,9 @@ serbest (SR-A). Sigara yok (19a).
 
 *Gece. Büro. Peri masasında, kırmızı mantosuyla; kuşağı hâlâ çözük, saçında reçel. Masada bir kavanoz vişne reçeli.* {kare: K187}
 *Cengo şoför kasketini askıya asmış; üstünde kendi ceketi.* {kare: K198}
-*Gizem içeri geliyor.* {gir: gizem, gi: triko, ekran: gizem}
-**GİZEM [triko]:** Saçınızda hâlâ reçel var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
-**PERİ [kas]:** Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler. {kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+*Gizem içeri geliyor.* {gir: gizem, gi: kazak8, ekran: gizem}
+**GİZEM [kazak8]:** Saçınızda hâlâ reçel var, Peri Hanım. {gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**PERİ [kas]:** Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler. {kime: gizem, ekran: peri+gizem, yuz: gizem.kazak8}
 **CENGO [yumusak]:** Ofise ilk bu mantoyla gelmiştin. Kuşağı bağlıydı ama. {kime: peri, ekran: peri+cengo, yuz: peri.kas}
 **PERİ [yumusak]:** O sabah her şey bağlıydı, Cengo. Sonra hepsi çözüldü. {kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 **CENGO [normal]:** Alacağım hâlâ duruyor, haberin olsun. Patron bulundu ama maaşı yok. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.yumusak}
@@ -472,7 +472,7 @@ serbest (SR-A). Sigara yok (19a).
 **PERİ [normal]:** *(telefonu açarak)* Paravan Dedektiflik. {bag: yuksek, kare: K190}
 **TELEFON:** İyi akşamlar. Bir işim var. Yarın sabah gelebilir miyim? {bag: yuksek, kare: K190}
 *Peri Cengo'ya bakıyor. Cengo gülümseyip kapıya gidiyor, kapıyı açık bırakıyor.* {bag: yuksek, kare: K191}
-**GİZEM [triko]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.yumusak}
+**GİZEM [kazak8]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.yumusak}
 
 ---
 
@@ -552,7 +552,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | Cengo `sofor` | normal, kas, gulen, yumusak | her yerde |
 | Cengo `sofor_dugmesiz` | kas, gulen, yumusak | kovalamaca sonu, itiraf |
 | Cengo `ceket8` | normal, kas, gulen, yumusak, sinirli | kapanış, karar ve kanıt satırları |
-| Gizem | triko | konuşma, kapanış |
+| Gizem | kazak8 | konuşma, kapanış |
 | Bahar | gulen, sasirmis, endiseli, sert, normal | giriş, yüzleşme |
 | Tarkan (Ozan) | normal, gulen, panik, itiraf | ters köşe, yüzleşme, kovalamaca |
 | Nihat | sasirmis, normal, pazarlik | kovalamaca, itiraf, karar |

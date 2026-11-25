@@ -102,7 +102,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Kurtuluş, mutfak atölyesinin üstündeki muhasebe odası: klasörler, hesap makinesi. Nevzat Peri'yi stajyer sanıp kahve ister (şaka 1). Ekran: üç ödeme onun şifresiyle, gece ikide, dışarıdan. Şifreyi Tarkan'a verdi, "denetim için". Masada taksi fişleri; nereye gittiğini söylemez, kızarır.
 
 `116` *Kurtuluş. Mutfak atölyesinin üstünde dar bir muhasebe odası: raflarda klasörler, masada hesap makinesi.*  
-`117` *Kollarında siyah kolluk, kulağında kurşun kalem, kalın bıyıklı, tombul bir adam; gözlüğü boynunda zincirle sarkıyor.*  
+`117` *Kollarında siyah kolluk, kulağında kurşun kalem, kabarık kumral saçlı, zayıf bir adam; gözlüğü boynunda zincirle sarkıyor.*  
 `118` **NEVZAT:** Yeni stajyer misiniz? Şekersiz bir kahve, lütfen.  
 `119` **PERİ:** Kahveyi sonra yaparım, Nevzat Bey. Bahar Hanım ödemelere bakmamı istedi.  
 `120` *Nevzat ekranı çeviriyor: alt alta üç ödeme satırı.*  

@@ -140,7 +140,8 @@
             "triko_tepsi",
             "triko_tepsi_telefon",
             "triko_aski",
-            "triko_kahve"
+            "triko_kahve",
+            "kazak8"
           ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
@@ -12920,7 +12921,7 @@
               },
               {
                 "k": "not",
-                "m": "Kollarında siyah kolluk, kulağında kurşun kalem, kalın bıyıklı, tombul bir adam; gözlüğü boynunda zincirle sarkıyor.",
+                "m": "Kollarında siyah kolluk, kulağında kurşun kalem, kabarık kumral saçlı, zayıf bir adam; gözlüğü boynunda zincirle sarkıyor.",
                 "gir": "nevzat",
                 "gi": "normal",
                 "ekran": "nevzat"
@@ -13990,7 +13991,7 @@
             },
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "kazak8",
               "m": "Kılık lazım, Peri Hanım. Bahar Hanım'ın çantasında önlük, kep, bir de gözlük var.",
               "gir": "gizem",
               "kime": "peri",
@@ -14003,11 +14004,11 @@
               "m": "Ben aşçı mı olacağım, Gizem?",
               "kime": "gizem",
               "ekran": "peri+gizem",
-              "yuz": "gizem.triko"
+              "yuz": "gizem.kazak8"
             },
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "kazak8",
               "m": "Aşçı yardımcısı. Aşçı olmanıza kimse inanmaz.",
               "kime": "peri",
               "ekran": "peri+gizem",
@@ -14043,7 +14044,7 @@
             },
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "kazak8",
               "m": "Avukat sizi sesinizden tanımasın, Peri Hanım.",
               "gir": "gizem",
               "kime": "peri",
@@ -14056,7 +14057,7 @@
               "m": "Ben onu sesinden tanırım, Gizem. O beni görmeyecek.",
               "kime": "gizem",
               "ekran": "peri+gizem",
-              "yuz": "gizem.triko"
+              "yuz": "gizem.kazak8"
             },
             {
               "k": "peri",
@@ -14675,10 +14676,10 @@
               "kare": "K187"
             },
             {"k": "not", "m": "Cengo şoför kasketini askıya asmış; üstünde kendi ceketi.", "kare": "K198"},
-            {"k": "not", "m": "Gizem içeri geliyor.", "gir": "gizem", "gi": "triko", "ekran": "gizem"},
+            {"k": "not", "m": "Gizem içeri geliyor.", "gir": "gizem", "gi": "kazak8", "ekran": "gizem"},
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "kazak8",
               "m": "Saçınızda hâlâ reçel var, Peri Hanım.",
               "gir": "gizem",
               "kime": "peri",
@@ -14691,7 +14692,7 @@
               "m": "Vişne, Gizem. Bahar Hanım'ın markası. Çok popüler.",
               "kime": "gizem",
               "ekran": "peri+gizem",
-              "yuz": "gizem.triko"
+              "yuz": "gizem.kazak8"
             },
             {
               "k": "cengo",
@@ -14747,7 +14748,7 @@
             },
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "kazak8",
               "m": "Hıh.",
               "bag": "yuksek",
               "gir": "gizem",

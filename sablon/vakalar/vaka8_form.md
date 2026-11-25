@@ -356,8 +356,8 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 
 - **Peri (yeni) 🟢:** **kırmızı manto** — Vaka 1'deki manto birebir (kruvaze, kuşakla bağlanan, geniş açık yaka,
   kapaksız cepli; altında V yakalı krem saten bluz); bu kez **kuşak çözük, uçları sarkık**. Referans
-  `kaynak/yeni_gorsel/sprite/peri_manto_normal.webp` (G1 kartı hatası tekrarlanmaz). Altına dar siyah kalem etek, siyah
-  stiletto; saç **açık, dalgalı** (sezonun başındaki gibi). Dekolte tabanda.
+  `kaynak/yeni_gorsel/sprite/peri_manto_normal.webp` (G1 kartı hatası tekrarlanmaz). Altına dar siyah kalem etek,
+  **kırmızı stiletto** (Vaka 1 gibi; 25 Kasım 2026, Oğuz Bey), **çorap yok**; saç **açık, dalgalı** (sezonun başındaki gibi). Dekolte tabanda.
 - **Peri'nin kılığı (aşçı yardımcısı) 🟢:** manto YOK (tek manto: Cengo büroda alır, arabada saklar — Onay 2); krem saten
   bluz ve dar kalem eteğin üstünde beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah çerçeveli gözlük burnunun ucunda;
   bluzun yakası ve bacak açıkta. Çekicilik anı bu kılıkla. Yüzleşme ve kovalamacada kep ve gözlük çıkar (`onluk8`).
@@ -366,7 +366,8 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
 - **Cengo (yeni) 🟢:** **şoför üniforması** — lacivert, iki sıra düğmeli ceket, aynı renk kasket, beyaz eldiven, bir beden
   dar (son reçelde düğme kopar); tel göğüs cebinde, boncuklu bileklik (sabit). **Finalde kendi ceketi** (Vaka 1 temel
   setindeki ceket — sezonun dairesi).
-- **Gizem:** konuşma ve kapanış (önceki kıyafeti; adım 8'de).
+- **Gizem (yeni) 🟢:** `kazak8` — koyu yeşil balıkçı yaka kalın kazak, siyah pantolon (25 Kasım 2026, Oğuz Bey; SATIR-43: her
+  vaka kendi resmini ve kıyafetini üretir, V6'nın triko resimleri kullanılmaz). Konuşma ve kapanış.
 - *Kanon: manto "evden çıkardığı tek giysi" kalır; önlük ve kep Bahar'ın tanıtım çantasından.*
 
 ## 15. Mekânlar
@@ -407,9 +408,10 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   izi**; kömür grisi takım (yeleksiz), altın kol düğmeleri; telefonu hep elinde. *Ayıran:* kazınmış saç + kaş izi (Kaan
   kısa boylu, açık sarı perçemli, gözlüklü; Ercan siyah jöleli, geriye taranmış). *25 Kasım 2026: sarı saç Kaan'a benzedi
   (benzerlik aracı) → değişti.*
-- **Nevzat Bey (47):** kısa, tombul, yuvarlak yüz; **koyu kahve, yağlı, alnına düşen tek perçem**; **kalın kara bıyık**;
-  ince metal gözlük boynunda zincirle; beyaz gömlek, **kollarında siyah kolluk**, kulağında kurşun kalem. *Ayıran:*
-  kolluk + kalın bıyık (Recep tombul ama kır kıvırcık, bıyıksız).
+- **Nevzat Bey (47):** orta boy, zayıf, kemikli yüz, çökük yanaklar; **gür, kabarık, kumral (açık kestane) saç** (derli toplu,
+  dağınık tel yok); **bıyıksız, temiz traşlı**; ince metal gözlük boynunda zincirle; **açık mavi gömlek**, **kollarında siyah
+  kolluk**, kulağında kurşun kalem. *Ayıran:* kabarık kumral saç + kolluk (Haldun ve Tahsin kır; Kadir V5 tombul, bıyıklı, beyaz gömlekli; Recep
+  tombul kır kıvırcık). *25 Kasım 2026: ilk tarif (tombul, kalın bıyık) Kadir'e benzedi (benzerlik aracı) → değişti.*
 - **Fikret Usta (63):** uzun, iri kemikli, geniş omuzlu; **beyaz uzun saç at kuyruğu**, temiz traşlı; çatık beyaz kaşlar;
   kolları sıvalı, ön kolunda **soluk çapa dövmesi**; lekeli beyaz aşçı ceketi. *Ayıran:* at kuyruğu + dövme (Tahsin beyaz
   ama geriye taranmış, ince).
@@ -417,11 +419,13 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   açık yaka, başında güneş gözlüğü; elinde deri valiz. *Ayıran:* bronz + keten + uzunca gümüş saç (Vedat iri kel kır
   sakallı; Haldun ince gözlüklü).
 - **Emir (22):** kısa, sıska; **sık kıvırcık siyah saç**, kepçe kulaklar, **diş teli**; turuncu otopark yeleği.
-  *Ayıran:* diş teli + kepçe kulak (Kaan uzun ince gözlüklü).
+  **Yuvarlak, çocuksu yüz.** *Ayıran:* diş teli + kepçe kulak (Kaan ufak, sarı, gözlüklü; Hilmi V1 uzun yüzlü, bıyıklı,
+  gözlüklü — 25 Kasım 2026: uzun yüz Hilmi'ye benzedi → yuvarlak).
 - **Pınar (30):** ince; **mor boyalı, yüksek at kuyruğu, kâkülsüz** saç; boynunda kulaklık, elinde klipsli defter; siyah tişört, kargo
   pantolon. *Ayıran:* mor at kuyruğu + kulaklık (Dilek'in küt kâküllü saçından ayrılsın — benzerlik aracı, 20 Kasım 2026).
 - **Yusuf Efendi (70'ler):** çok kambur, ufak; **kalın büyüteç camlı gözlük** gözlerini kocaman gösterir; **kasket** (altından seyrek, uzun beyaz saç taşar — benzerlik aracı, 20 Kasım 2026), yün
-  hırka, elinde zarflar. *Ayıran:* kocaman gözler + kambur (Necmi iri; Şükrü kel, papyonlu).
+  **yeşil** yün hırka, elinde zarflar. *Ayıran:* kocaman gözler + kambur (Necmi iri; Şükrü kel, papyonlu; Muammer V5 kel,
+  bıyıklı, papyonlu, kahve yelekli — 25 Kasım 2026: kahve hırka Muammer'e yaklaştı → yeşil).
 
 **Kişiler (künye):**
 
