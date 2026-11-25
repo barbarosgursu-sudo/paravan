@@ -107,3 +107,4 @@ denemeleri listede yok (seçilen `G<n>.png` olur). Parti 2 (G21–G30) 25 Kasım
 | G97 | ara kare | Giriş: Süheyla eşikte — kırmızı ruj, gri ekose ceket (yalnız) | `K152` | G11.png, G24.png | Parti 3b |
 | G98 | ara kare | Kapanış: büro, gece — Peri masada, önünde açık kadife kutu, masada gümüş taç (takmıyor) | `K153` | G12.png, peri_gala_bas.png, G2.png | Parti 3b |
 | G99 | ara kare | Karar sorusu: çerçeve odası — Nesrin taburede, masada açık rulo; Peri ve Cengo karşısında | `K154` | G19.png, G25.png, peri_gala_bas.png, G2.png, G23.png | Parti 3b |
+| G100 | kart afişi | Kart afişi: Açık Artırma (Peri gala, Cengo smokin; arkada Süheyla, Şükrü, Vedat, Nesrin) | `KART_V7` | G20.png, peri_gala_bas.png, G2.png, G23.png, serit_kart_v7.jpg | Parti 3 |
