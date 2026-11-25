@@ -20,7 +20,9 @@
 > `arac_kes_yz.py` artık `PARAVAN_IPLIK=<n>` ile çekirdek sınırlıyor (verilmezse eskisi gibi). Tuzak: Windows'ta Python ile
 > yazılan `vakaN_kapi.md` CRLF olursa `## kalsın` satırları eşleşmiyor — `newline="
 "`.
-> **Sırada:** Vaka 7'nin çeviri öncesi kalan işleri (sahibine sorulacak: bilerek yer tutucu kalan 4 ifade); sonra Vaka 8 resimleri.
+> **Çeviri öncesi denetimler bitti (25 Kasım 2026 gece):** sızıntı turu (V7 40 yol, birebir sızıntı yok, elle okuma temiz), tablet ve
+> 19 ekran turu (V7'de bayrak yok; 11 bayrak V1 karar ekranı ve açılış), doğrulayıcı PASS ("doksan lira" kapandı).
+> **Barbaros'a soru:** bilerek yer tutucu kalan 4 ifade (yukarıda) silinsin mi, kalsın mı? Sonra Vaka 8 resimleri (Oğuz Bey).
 
 > ## 🎬 SHORTS — HAREKETLİ VİDEO (24 Kasım 2026 öğleden sonra, Barbaros'un penceresi)
 > **Karar (Barbaros):** Oğuz Bey vakaları tamamlarken Barbaros Shorts hattını geliştirir; ilk örnek **Vaka 6**. Video izleyiciyi
@@ -362,7 +364,7 @@
 > **Sırada (öğleden sonra: artık Oğuz Bey'in işi — yukarıdaki yeni iş bölümü):** Oğuz Bey'in 16 Kasım'da ürettiği 12 resmin denetimi — `uretilen/` G3 (Cengo smokin kartı),
 > G7/G7z (Vedat), G11, G13–G20 (mekânlar). Sonra G12 (G11 onayına bağlı), G2 (Peri gala kartı, engellendi → `WEB_G2.md`, web'de),
 > sonra Parti 2 (`LISTE.md`). Döngü: `cd uretim && KOL=2 SADECE="…" DONGU_LOG=<scratchpad> ./dongu.sh 7`.
-> **Oğuz Bey'e bekleyenler:** (1) "Doksan lira" uyarısı — `[K22] V7: "doksan lira" (90 ₺) fiyat tablosunda yok` (KOD-77, YAPI-34);
+> **Oğuz Bey'e bekleyenler:** (1) ✅ KAPANDI 25 Kasım 2026: 90 ₺ `vaka7_form.md` §17 fiyat tablosuna eklendi (metin aynı) — eski not: "Doksan lira" uyarısı — `[K22] V7: "doksan lira" (90 ₺) fiyat tablosunda yok` (KOD-77, YAPI-34);
 > `vaka7_diyalog.md` satır 234 ve 243; tabloya dayanağıyla yaz ya da metinden çıkar — karar Oğuz Bey'de (Barbaros bilmiyor), üretimi
 > durdurmuyor. (2) V8'de Tarkan = Nihat mı. (3) Bilgisayarında bir kez `git config core.hooksPath .githooks`.
 > **Çalışma biçimi:** sahibine hep TÜRKÇE yaz (ara notlar dahil); kısa, tek soru, somut örnek.

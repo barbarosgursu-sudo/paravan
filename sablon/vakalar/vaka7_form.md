@@ -444,6 +444,7 @@ kısa kızıl, Haldun ince gözlük, Tahsin beyaz geriye taranmış saç):
 | 15.000 ₺ | "sus"ta Süheyla'nın primi | hikâye içi; kural 26 (ücretin altında) |
 | 50.000 ₺ | tacın parasında Peri'nin payı (sus, Cengo'ya bırak): Süheyla'nın ödediği ücret; ihbarda katalog fiyatının içinde | ortak, 16 Kas (kasa kalktı; eksiği Cengo ya da Süheyla kapatır) |
 | 100 ₺ | Necmi'nin kartpostalı | bitpazarı fiyatı (şaka) |
+| 90 ₺ | Necmi'nin kraliçeye indirdiği kartpostal fiyatı ("Size doksan"; Peri "Doksan lira, Cengo. Deftere yaz.") | şaka; Oğuz Bey, 25 Kasım 2026 |
 | ~200.000 ₺ | tacın fiyatı | ortak, 15 Kas (kasanın ortası); **metne girmez**; kanona Barbaros'un kural işiyle girer |
 | 50.000 / 55.000 ₺ | "altın kadın" şaka teklifleri | şaka; gerçek satış değil |
 
