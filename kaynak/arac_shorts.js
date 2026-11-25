@@ -459,7 +459,7 @@ html,body{margin:0;width:${V.W}px;height:${V.H}px;overflow:hidden;background:#0d
 .kat{position:absolute;inset:0;overflow:hidden}
 .kat img{position:absolute;left:50%;top:50%;width:100%;height:100%;object-fit:cover;transform-origin:50% 50%}
 #figurler{position:absolute;inset:0}
-.fig{position:absolute;bottom:${-V.H * 0.012}px;height:${V.H * 0.70}px;transform-origin:50% 100%}
+.fig{position:absolute;bottom:${-V.W * 6 / 393}px;height:${V.H * 0.50}px;transform-origin:50% 100%}
 .fig img{height:100%;display:block}
 #golge{position:absolute;inset:0;pointer-events:none;
  background:radial-gradient(ellipse 85% 70% at 50% 45%,rgba(0,0,0,0) 55%,rgba(0,0,0,.55) 100%),
@@ -502,6 +502,14 @@ function yerler(ekran){if(!ekran.length)return [];const k=ekran.map(a=>a.split('
   if(k[1]==='peri'||(k[1]==='cengo'&&k[0]!=='peri'))sira=[1,0];
   return [{a:ekran[sira[0]],x:.27,ayna:true},{a:ekran[sira[1]],x:.73,ayna:false}];}
 const satirYer=V.satirlar.map(s=>s.kare?[]:yerler(s.ekran));
+// Boy: oyunun figür sahnesiyle birebir (yeni_arayuz.css .vn-figurler/.vn-figur; GOMME-13, ARAYUZ-5). Sahne Pixel 5
+// oranında (393/498), video genişliği kadar. Peri çerçevesi %58 geniş, %100 yüksek; Cengo ve konuk %78 geniş, %105 yüksek;
+// resim çerçeveye 'contain' sığar; konuk boy ölçeğiyle (gorseller.json → boy) çerçeve yüksekliğinin o kadarı olur.
+// Eskiden Peri/Cengo %70 ekran, konuk %70×boy idi: boy ölçeği oyunun çerçevesine göre ayarlı olduğundan konuklar cüce çıkıyordu.
+function figBoy(kisi,img){const L=V.W*498/393, peri=kisi==='peri';
+  const fw=V.W*(peri?.58:.78), fh=L*(peri?1:1.05), olcek=(kisi==='peri'||kisi==='cengo')?1:(V.boy[kisi]||1);
+  if(olcek<1)return fh*olcek;
+  const nw=img.naturalWidth||560, nh=img.naturalHeight||700; return Math.min(fw/nw,fh/nh)*nh;}
 function figCiz(t){
   let i=V.satirlar.findIndex(s=>t<s.bit);if(i<0)i=V.satirlar.length-1;
   const s=V.satirlar[i], simdi=satirYer[i], once=i>0?satirYer[i-1]:[];
@@ -510,11 +518,11 @@ function figCiz(t){
   const ciz=(y,op,x)=>{const kisi=y.a.split('.')[0];gorunen.add(kisi);
     let el=figEl[kisi];if(!el){el=document.createElement('div');el.className='fig';el.innerHTML='<img>';$('#figurler').appendChild(el);figEl[kisi]=el;}
     const img=el.firstChild;if(img.dataset.k!==y.a){img.src=V.resim[y.a];img.dataset.k=y.a;}
-    const olcek=(kisi==='peri'||kisi==='cengo')?1:(V.boy[kisi]||1);
     const konusan=s.kisi===kisi, anlatici=s.kisi==='anlatici';
     const nefes=konusan?1+.006*Math.sin(t*3.1):1;
-    el.style.height=(V.H*.70*olcek)+'px';
-    const w=img.naturalWidth?img.naturalWidth*(V.H*.70*olcek)/img.naturalHeight:V.W*.6;
+    const h=figBoy(kisi,img);
+    el.style.height=h+'px';
+    const w=img.naturalWidth?img.naturalWidth*h/img.naturalHeight:V.W*.6;
     el.style.left=(x*V.W-w/2)+'px';
     el.style.transform=(y.ayna?'scaleX(-1) ':'')+'scale('+nefes+')';
     el.style.filter=anlatici?'brightness(.92)':konusan?'brightness(1.04)':'brightness(.62) saturate(.75)';
