@@ -74,11 +74,10 @@ def peri(n, set_, ifade_key, baslik, poz, ifade, ayiran, kontrol, ek=None):
     p = PERI[set_]
     once = f"{p['temel'] if set_ == 'altin_temiz' else 'G' + p['kart'][0][-6:-4].lstrip('G')} ve baş kırpığı"
     ust = [f"- tür: figür · anahtar: `peri.{set_}.{ifade_key}`",
-           f"- önce hazır olmalı: {p['kart'][0].split('/')[1][:-4]} (kart), `{p['bas'][0]}` (hazır)" + (", G39 (temiz hâlin temeli)" if set_ == "altin_temiz" and ifade_key != "normal" else ""),
+           f"- önce hazır olmalı: {p['kart'][0].split('/')[1][:-4]} (kart), `{p['bas'][0]}` (hazır)",
            "- zemin: açık bej (`zemin.tsv`)"]
     refs = [p["bas"], GOVDE_K, p["kart"]]
-    if set_ == "altin_temiz" and ifade_key != "normal":
-        refs.append(("onayli/G39.png", "temizlenmiş hâlin onaylı temeli: YALNIZ elbisenin altın parıltısı ve eldivensiz kollar; yüzü buradan alma"))
+    # G39 dekolteli: referans verilmez (ISTEM-16); temiz hâl sözle anlatılır.
     govde = [
         ("Birinci referans Peri'nin başıdır: aynı yüz, aynı kızıl-kahve saç, ela-yeşil gözler, kırmızı ruj. İkinci referans YALNIZ "
          "ölçek ve kadraj içindir (başı bilerek silindi); oradaki kıyafeti ve pozu alma. Düz açık bej arka plan. Çizim tarzı boyalı, "
