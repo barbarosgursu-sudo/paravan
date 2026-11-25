@@ -233,13 +233,13 @@ serbest (SR-A). Sigara yok (19a).
 
 ## sahne ters_kose
 ⚙ arka: A67 · figurler: peri, cengo · set: kilik · cset: sofor
-⚙ akış: Akşam 19.00, Kurtuluş'taki mutfak atölyesi; lansman provası, tezgâhlarda kavanoz kuleleri; köşede bir soyunma paravanı. Cengo şoför üniformasıyla Tarkan'ı kapıya getirir. Peri paravanın arkasından aralıktan bakar: genç, kazınmış siyah saçlı, kaşında iz — Nihat değil. "Bu o değil." Cengo: "Yöntem aynı ama." Peri: "Yöntem çalınabilir." Ardından Kim yaptı?.
+⚙ akış: Akşam 19.00, Kurtuluş'taki mutfak atölyesi; lansman provası, tezgâhlarda kavanoz kuleleri; köşede bir soyunma paravanı. Cengo şoför üniformasıyla Tarkan'ı kapıya getirir. Peri paravanın arkasından aralıktan bakar: genç, kel, kafası parlak, kaşında iz — Nihat değil. "Bu o değil." Cengo: "Yöntem aynı ama." Peri: "Yöntem çalınabilir." Ardından Kim yaptı?.
 ⚙ HER YOLDA, Kim yaptı?'dan önce (kod eki gerekiyor, dosya başındaki not). Hiçbir kanıtı anmaz; yalnız Tarkan'ın yüzünü gösterir.
 
 *Akşam. Kurtuluş'ta Bahar'ın mutfak atölyesi: tezgâhlarda kavanozdan kuleler, köşede bir soyunma paravanı.* {arka: A67, kare: K164}
 *Peri paravanın arkasına saklanmış. Kapıda Cengo, kasketiyle, bir adama kapıyı açıyor.* {kare: K165}
 **CENGO [normal]:** Buyurun, Tarkan Bey. Atölye burası. {kare: K165}
-*Kare: paravanın aralığından. Kömür grisi takımlı, siyah saçları kısacık kazınmış, kaşında ince bir iz olan genç bir adam; telefonu elinde, gülümsüyor.* {kare: K166}
+*Kare: paravanın aralığından. Siyah takımlı, siyah gömlekli, kafası usturayla kazınmış, parlak, kaşında ince bir iz olan genç bir adam; telefonu elinde, gülümsüyor.* {kare: K166}
 **TARKAN [gulen]:** Bahar Hanım! Büyük gece. Yatırımcımız dokuzda burada. {kare: K166}
 *Peri paravanın arkasında donup kalıyor.* {kare: K167}
 **PERİ [sasirmis]:** *(fısıldayarak)* Cengo. Bu o değil. {kare: K167}
@@ -511,7 +511,7 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de. Kodlar 
 | K163 | kulis: Peri buketten bir çiçek koklıyor, elinde telefon | kulis |
 | K164 | akşam atölye, tezgâhlarda kavanoz kuleleri, köşede paravan (kişisiz) | ters köşe |
 | K165 | kapıda kasketli Cengo, bir adama kapıyı açıyor; paravanın kenarında Peri'nin önlüğü | ters köşe |
-| K166 | paravan aralığından bakış: Tarkan (kazınmış siyah saç, kaş izi, gri takım, telefon) | ters köşe |
+| K166 | paravan aralığından bakış: Tarkan (usturayla kazınmış parlak kafa, kaş izi, siyah takım, siyah gömlek, telefon) | ters köşe |
 | K167 | paravanın arkasında donmuş Peri (kılık) | ters köşe |
 | K168 | Cengo paravanın yanında eğilmiş, Peri'yle fısıldaşıyor | ters köşe |
 | K169 | atölyenin mutfağı: Bahar tezgâhta, Nevzat kenarda, Fikret kapıda, Tarkan telefonla; Peri ve Cengo | yüzleşme açılışı (dört sonuç) |

@@ -1,5 +1,11 @@
 # Vaka 8 — resim durumu
 
+**25 Kasım 2026, 22:45 —** Onaylı: G6 Bahar (= G6z gri-mavi; benzerlik Nadide 1,34; havuzda) · G9 Fikret (tarz +0,103 · benzerlik Şükrü 1,28;
+havuzda). **Tarkan** iki değişiklik daha (Oğuz Bey): kel, parlak kafa (siyah saçla Ercan/Cengo'ya benzedi) → G7z geçti ama zemin aracı açık gri
+takımı iki zemine çakışık buldu → **siyah takım, siyah gömlek**; G7/G7z yeniden. **Nihat** (Cengo 1,89) → düz, geriye yatırılmış gümüş saç,
+kemikli yüz, kemerli burun. **Emir** (Sedat V3 1,81) → oval yüz, kıvırcık saç tepede kabarık. **Nevzat** G8 tarz KALDI −0,008, G8z tarz ve
+benzerlik (Haldun 1,52) ŞÜPHELİ → G8 Düzeltme 1 (sıcak, boyalı tarz). Form, diyalog (K166), `adaylar.tsv` güncel.
+
 **25 Kasım 2026, 22:10 —** G2 üçüncü üretimde yüz GEÇTİ 0,856, tarz −0,012 → Oğuz Bey "kalsın" (`vaka8_kapi.md`), onaylı. **Kart 5/5 TAMAM.**
 G6 Bahar: benzerlik KALDI (Nadide 1,70) → yüz değişti (kare çene, esmer, kalın koyu kaşlar; form, `adaylar.tsv`, G6/G6z); yeni G6z GEÇTİ
 (Nadide 1,34; yüz uyarısı Ayla 0,700 — gözle ayrışıyor), açık bej G6 bekleniyor, seçim saç kenarına göre. G7 Tarkan: benzerlik KALDI

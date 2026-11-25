@@ -51,3 +51,11 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Görselin oranı TAM 4:5, dikey (1122×1402).
 ```
+
+## Düzeltme 1
+
+Benzerlik aracı yine Ercan'a ve Cengo'ya yakın buldu (siyah kısa saç + koyu takım). Görünüş DEĞİŞİYOR (Oğuz Bey, 25 Kasım 2026): Tarkan'ın kafası usturayla TAMAMEN KAZINMIŞ, KEL ve PARLAK; kafa derisinde saç, sakal gölgesi, perçem YOK. DAR, UZUN, solgun yüz, sivri çene, ince kaşlar, sol kaşında ince yara izi; temiz traşlı. Takım AÇIK GRİ (koyu ya da kömür grisi DEĞİL), beyaz gömlek, yakası açık, altın kol düğmeleri. Poz ve ifade aynı kalsın. Ercan'a (siyah jöleli saçlı, esmer vale), Cengo'ya (koyu dalgalı saçlı, sakallı) ve Vedat'a (iri, kır sakallı, kel ama yaşlı) benzemiyor: Tarkan genç, ince, kel, solgun.
+
+## Düzeltme 2
+
+Kıyafet DEĞİŞİYOR (Oğuz Bey, 25 Kasım 2026; açık gri takım ve beyaz gömlek zeminle karıştı): SİYAH, ince kesim takım elbise ve SİYAH gömlek, yakası açık, kravat YOK; gömlek kollarında küçük ALTIN kol düğmeleri. Kişi bir önceki resimdeki gibi kalsın: usturayla kazınmış parlak KEL kafa, dar uzun solgun yüz, sivri çene, ince kaşlar, sol kaşında ince yara izi, temiz traşlı. Poz ve ifade aynı.
