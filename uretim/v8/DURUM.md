@@ -1,5 +1,11 @@
 # Vaka 8 — resim durumu
 
+**25 Kasım 2026, 23:30 — MEKÂNLAR ONAYLI (11/12):** G14, G16–G25 üç araçtan GEÇTİ (+0,117 üstü), gözle yazı/rakam yok (kavanoz etiketleri
+boş, plaka görünmüyor, posta kutusu plakaları yazısız). G15 (büro gece, G14'ün aynısı) döngüde. Konuklardan bekleyenler (`uretilen/`):
+Tarkan G7/G7z (Cengo 1,44 ŞÜPHELİ / 1,58), Nevzat G8/G8z (Haldun 1,60 / 1,44), Nihat G10/G10z (Cengo 1,78 / Tarkan 1,79), Emir G11
+(tarz +0,013 ŞÜPHELİ, benzerlik GEÇTİ), Pınar G12/G12z (tarz +0,003/+0,010 ŞÜPHELİ), Yusuf G13/G13z (Tahsin 1,81) — Oğuz Bey'e soruldu:
+gözle ayrışanlar "kalsın" mı. Sayfa: `uretim/v8/erkekler.jpg`.
+
 **25 Kasım 2026, 22:45 —** Onaylı: G6 Bahar (= G6z gri-mavi; benzerlik Nadide 1,34; havuzda) · G9 Fikret (tarz +0,103 · benzerlik Şükrü 1,28;
 havuzda). **Tarkan** iki değişiklik daha (Oğuz Bey): kel, parlak kafa (siyah saçla Ercan/Cengo'ya benzedi) → G7z geçti ama zemin aracı açık gri
 takımı iki zemine çakışık buldu → **siyah takım, siyah gömlek**; G7/G7z yeniden. **Nihat** (Cengo 1,89) → düz, geriye yatırılmış gümüş saç,
