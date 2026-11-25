@@ -1,3 +1,5 @@
+**25 Kasım 2026, 10:20 — G11 onaylı** (Düzeltme 1'den sonra: tabla yok, gazete yerine yazısız dosya; tarz GEÇTİ +0,203). Sırada G12 (büro gece), G2 (web), Parti 2.
+
 **25 Kasım 2026 — ÜRETİM OĞUZ BEY'İN BİLGİSAYARINDA (Barbaros V7 üretmesin).** 16 Kasım'ın 12 resmi denetlendi: üç araç hepsinde GEÇTİ
 (G3 tarz +0,063 · yüz GEÇTİ 0,897; G7 tarz +0,070 · benzerlik GEÇTİ (en yakın Sarkis 1,18); G7z tarz +0,045 · benzerlik GEÇTİ (Sarkis 1,25);
 mekânlar +0,182…+0,262). Gözle: G13–G20 onaylı (onayli/'e taşındı). **G11 RET** (arkadaki masada cam kül tablası — SINIR-13; öndeki gazetede
