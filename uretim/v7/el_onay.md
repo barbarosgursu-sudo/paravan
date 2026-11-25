@@ -59,7 +59,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V7 G<n>) bakılıp her elin kend
 - G71 e42e653a1c9d
 - G72 333640ef94dd
 - G73 0f395463134f
-- G74 31c3c1ec6f9a
+- G74 bf5e574fb5c8
 - G75 d7fb5ba6b1d9
 - G76 f43c9921a9f6
 - G77 9010837748c1
