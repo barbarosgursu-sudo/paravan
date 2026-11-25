@@ -55,7 +55,8 @@ ipucu sahnelerinin **mekânları** (arka planlar) ve şüphelilerin sade hâller
 - **suçlunun adı ile bir suç sözü aynı cümlede** (soydu, sakladı, yalan, itiraf…; soru cümleleri hariç).
   Başlık ve açıklama da bu denetimden geçer.
 - karar adları
-- yalnız yüzleşme, kovalamaca, kapanış ve karar sahnelerinde geçen resimler
+- yalnız yüzleşme, kovalamaca, kapanış ve karar sahnelerinde geçen resimler (istisna: suçlunun sade figürü,
+  sahibinin onayıyla `⚙ izin: <kişi>.normal` — SHORTS-12)
 - giriş ve konuşmada görülmeyen kareler (`K…`); vakanın kapak ve kart resimleri hariç
 - suçlunun "normal" dışındaki ifadeleri (giriş ve konuşmada görünenler hariç)
 - henüz üretilmemiş resim (yer tutucu), ses tanımı olmayan konuşan

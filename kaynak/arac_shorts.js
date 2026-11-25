@@ -27,6 +27,7 @@ const bayrak = b => args.includes(b);
 // ## video 1 · Kanca
 // ⚙ baslik: … · muzik: muzik/x.mp3 · set: trenckot · cset: haki
 // ⚙ aciklama: …
+// ⚙ izin: muzeyyen.normal   (sahibinin onayıyla suçlunun sade figürü; yalnız .normal)
 // - anlatici: Metin. | arka: A23d · kamera: yakin
 // - nadide.kirgin: Metin. | figur: peri.kas
 // - anlatici: Kim yaptı? | son
@@ -245,9 +246,15 @@ function denetle(vakaNo, videolar) {
     // 4) Resimler
     const kullanilan = new Set();
     p.satirlar.forEach(s => { if (s.arka) kullanilan.add(s.arka); s.ekran.forEach(a => kullanilan.add(a)); });
+    // ⚙ izin: — sahibinin onayıyla suçlunun SADE figürü (yalnız yüzleşmede geçse de; kare ve başka ifade olmaz) — SHORTS-12
+    const sahipIzin = new Set(String(v.ayar.izin || '').split(',').map(x => x.trim()).filter(Boolean));
+    for (const a of sahipIzin) {
+      if (!/\.normal$/.test(a) || kareMi(a)) hatalar.push(`⚙ izin: yalnız bir figürün "normal" hâli olabilir: ${a}`);
+      else if (kullanilan.has(a)) uyarilar.push(`sahibinin izniyle kullanılıyor (oyunda yalnız sonraki sahnelerde geçiyor): ${a}`);
+    }
     for (const a of kullanilan) {
       if ((GOR.yer_tutucu || []).includes(a) && !dosyaVar(a)) hatalar.push(`resim henüz üretilmedi (yer tutucu): ${a}`);
-      if (Y.yasakSahne.has(a) && !Y.izinli.has(a) && !Y.ipucuSahne.has(a))
+      if (Y.yasakSahne.has(a) && !Y.izinli.has(a) && !Y.ipucuSahne.has(a) && !(sahipIzin.has(a) && /\.normal$/.test(a) && !kareMi(a)))
         hatalar.push(`resim yalnız yüzleşme/kovalamaca/kapanış/karar sahnelerinde geçiyor: ${a}`);
       if (kareMi(a) && !Y.izinli.has(a) && !Object.values(GOR.kapak || {}).includes(a) && !Object.values(GOR.kart || {}).includes(a))
         hatalar.push(`kare giriş/konuşmada görülmüyor (ipucu ya da sonrası olabilir): ${a}`);

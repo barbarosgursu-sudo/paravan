@@ -4626,7 +4626,7 @@ Spoiler ancak video üretildikten sonra fark edilirse ses ve görüntü baştan 
 - çözüm, anı, hikâye ve kanıt bölümleriyle, karar ve ipucu metinleriyle, ipucuyla açılan olgularla **4 kelimelik ortak söz** (girişte ya da konuşmada da geçen sözler hariç);
 - **suçlunun adı ile bir suç sözü aynı cümlede** (soydu, sakladı, yalan, itiraf…; soru cümleleri hariç). Başlık ve açıklama da bu denetimden geçer;
 - karar adları;
-- yalnız yüzleşme, kovalamaca, kapanış ve karar sahnelerinde geçen resimler;
+- yalnız yüzleşme, kovalamaca, kapanış ve karar sahnelerinde geçen resimler; istisna: suçlunun **sade figürü** (`<kişi>.normal`, kare değil) sahibinin onayıyla senaryoda `⚙ izin:` satırına yazılırsa geçer, araç uyarı basar (25 Kasım 2026, Barbaros: Vaka 6'da Müzeyyen'in sade resmi yalnız yüzleşmede geçiyordu; şüpheliler eşit, tam boy gösterilsin diye);
 - giriş ve konuşmada görülmeyen kareler (`K…`); vakanın kapak ve kart resimleri hariç;
 - suçlunun "normal" dışındaki ifadeleri (giriş ve konuşmada görünenler hariç);
 - henüz üretilmemiş resim (yer tutucu), ses tanımı olmayan konuşan.
