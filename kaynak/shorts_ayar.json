@@ -26,6 +26,9 @@
     "cagri": "Şimdi oyna",
     "baglanti": "barbarosgursu-sudo.github.io/paravan/yeni"
   },
+  "son_kare_dil": {
+    "en": { "baslik": "COVER STORY", "alt_baslik": "AN ISTANBUL MYSTERY", "cagri": "Play now" }
+  },
   "muzik_seviye": 0.22,
   "hedef_sure": [28, 55]
 }

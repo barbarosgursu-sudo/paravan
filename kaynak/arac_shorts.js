@@ -27,6 +27,7 @@ const bayrak = b => args.includes(b);
 // ## video 1 · Kanca
 // ⚙ baslik: … · muzik: muzik/x.mp3 · set: trenckot · cset: haki
 // ⚙ aciklama: …
+// ⚙ dil: en   (yalnız --el; seslendirme dili ve son kare yazıları shorts_ayar.json → son_kare_dil)
 // ⚙ izin: muzeyyen.normal   (sahibinin onayıyla suçlunun sade figürü; yalnız .normal)
 // - anlatici: Metin. | arka: A23d · kamera: yakin
 // - nadide.kirgin: Metin. | figur: peri.kas
@@ -307,10 +308,10 @@ function calistir(komut, a, secenek = {}) {
 const sure = f => parseFloat(calistir('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]));
 // --el: ElevenLabs (sesler.<kişi>.el = { id, model }); yoksa Edge TTS. Ücretsiz plan kitaplık seslerine izin vermez.
 const EL = process.argv.includes('--el');
-function seslendirEL(metin, kisi, out) {
+function seslendirEL(metin, kisi, out, dil) {
   const e = (AYAR.sesler[kisi] || {}).el;
   if (!e || !e.id) throw new Error(`--el: "${kisi}" için ElevenLabs sesi yok — shorts_ayar.json → sesler.${kisi}.el`);
-  const govde = JSON.stringify({ text: metin, model_id: e.model || 'eleven_multilingual_v2', language_code: 'tr',
+  const govde = JSON.stringify({ text: metin, model_id: e.model || 'eleven_multilingual_v2', language_code: dil || 'tr',
     voice_settings: e.ayar || { stability: 0.45, similarity_boost: 0.8, style: 0.35 } });
   const ham = out + '.ham.mp3';
   for (let deneme = 1; deneme <= 4; deneme++) {
@@ -325,12 +326,13 @@ function seslendirEL(metin, kisi, out) {
   fs.unlinkSync(ham);
   return out;
 }
-function seslendir(metin, kisi, klasor) {
+function seslendir(metin, kisi, klasor, dil = 'tr') {
   const s = AYAR.sesler[kisi];
-  const h = crypto.createHash('sha1').update(JSON.stringify([EL ? s.el : s, metin])).digest('hex').slice(0, 12);
+  if (dil !== 'tr' && !EL) throw new Error(`⚙ dil: ${dil} yalnız --el ile (Edge TTS sesleri Türkçe)`);
+  const h = crypto.createHash('sha1').update(JSON.stringify([EL ? s.el : s, metin, dil === 'tr' ? undefined : dil])).digest('hex').slice(0, 12);
   const out = path.join(klasor, `${kisi}_${EL ? 'el_' : ''}${h}.mp3`);
   if (fs.existsSync(out) && fs.statSync(out).size > 0) return out;
-  if (EL) return seslendirEL(metin, kisi, out);
+  if (EL) return seslendirEL(metin, kisi, out, dil);
   for (let deneme = 1; deneme <= 4; deneme++) {
     const r = spawnSync('python', ['-m', 'edge_tts', '--voice', s.ses, `--rate=${s.hiz || '+0%'}`, `--pitch=${s.perde || '+0Hz'}`,
       '--text', metin, '--write-media', out], { encoding: 'utf8' });
@@ -364,7 +366,7 @@ async function uret(vakaNo, video, onizle) {
   const cizelge = [];
   const normal = p.satirlar.filter(s => !s.son), son = p.satirlar.filter(s => s.son);
   for (const s of normal) {
-    const f = seslendir(s.metin, s.kisi, is), d = sure(f);
+    const f = seslendir(s.metin, s.kisi, is, video.ayar.dil || 'tr'), d = sure(f);
     cizelge.push({ ...s, ses: f, bas: t, sesSure: d, bit: t + d + Z.satir_arasi });
     t += d + Z.satir_arasi;
     process.stdout.write('.');
@@ -372,7 +374,7 @@ async function uret(vakaNo, video, onizle) {
   const sonBas = t;
   let ts = sonBas + 0.4;
   for (const s of son) {
-    const f = seslendir(s.metin, s.kisi, is), d = sure(f);
+    const f = seslendir(s.metin, s.kisi, is, video.ayar.dil || 'tr'), d = sure(f);
     cizelge.push({ ...s, ses: f, bas: ts, sesSure: d, bit: ts + d + Z.satir_arasi });
     ts += d + Z.satir_arasi;
   }
@@ -408,7 +410,7 @@ async function uret(vakaNo, video, onizle) {
   const resim = {}; anahtarlar.forEach(k => { resim[k] = dosyaURL(k); });
   const veri = {
     W: G.w, H: G.h, gecis: Z.gecis, toplam, sonBas, kapak, resim,
-    boy: GOR.boy || {}, genis: GOR.genis || [], sk: AYAR.son_kare,
+    boy: GOR.boy || {}, genis: GOR.genis || [], sk: Object.assign({}, AYAR.son_kare, (AYAR.son_kare_dil || {})[video.ayar.dil] || {}),
     satirlar: cizelge.filter(c => !c.son).map(c => ({ bas: c.bas, bit: c.bit, arka: c.arka, kare: c.kare, ekran: c.ekran, kisi: c.kisi, kamera: c.kamera })),
   };
   const html = path.join(is, 'sahne.html');

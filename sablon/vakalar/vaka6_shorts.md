@@ -24,3 +24,19 @@ Cengo sonda (24 Kasım 2026, Barbaros). `muzeyyen.normal` oyunda yalnız yüzle�
 - anlatici: Anneanne. Torununu bu büroya o gönderdi. | arka: A47 · figur: muzeyyen.normal · kamera: uzak
 - anlatici: Baba. Gelin onu suçluyor. | arka: A6 · figur: cengo.utulu.normal · kamera: uzak
 - anlatici: Sence kim yazdı? | son
+
+## video 2 · Kanca (İngilizce)
+⚙ baslik: Her mom says her dad wrote the letters. Who really did? #shorts
+⚙ aciklama: Cover Story: An Istanbul Mystery · Case 6: The Anonymous Letters. A wedding, three anonymous letters, three suspects. Solve the case yourself.
+⚙ set: mesai · cset: utulu · dil: en
+⚙ izin: muzeyyen.normal
+- eylul.uzgun: Dad… Mom says you wrote these letters. | arka: A6 · figur: cengo.utulu.normal, eylul.uzgun · kamera: yakin
+- cengo.sinirli: Me? Why would I write letters to your mother?
+- peri.merakli: What do the letters say? | figur: peri.merakli, eylul.normal
+- eylul.normal: All three say the same thing: "If this wedding happens, everyone will find out." | kamera: yakin
+- eylul.uzgun: Mom's fiancé, Haldun, suspects his ex-wife. And Grandma is heartbroken. | figur: eylul.uzgun
+- eylul.sevincli: You're a detective, Dad. You'll find out who did it. | figur: cengo.utulu.yumusak, eylul.sevincli
+- anlatici: The ex-wife. During the divorce, she said, "I'll never leave you alone." | arka: A45 · figur: jale.normal · kamera: uzak
+- anlatici: The grandmother. She's the one who sent her granddaughter here. | arka: A47 · figur: muzeyyen.normal · kamera: uzak
+- anlatici: The father. The bride blames him. | arka: A6 · figur: cengo.utulu.normal · kamera: uzak
+- anlatici: Who do you think wrote them? | son
