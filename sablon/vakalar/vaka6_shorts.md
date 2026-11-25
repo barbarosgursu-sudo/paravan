@@ -14,6 +14,8 @@ Cengo sonda (24 Kasım 2026, Barbaros). `muzeyyen.normal` oyunda yalnız yüzle�
 ⚙ aciklama: Paravan Dedektiflik · Vaka 6: İsimsiz Mektuplar. Bir düğün, üç isimsiz mektup, üç şüpheli. Dosyayı sen çöz.
 ⚙ set: mesai · cset: utulu
 ⚙ izin: muzeyyen.normal
+- eylul.sevincli: Baba! | arka: K120 · kamera: yakin
+- sessiz: 1.2 | arka: K97 · kamera: uzak · odak: 80
 - eylul.uzgun: Baba… annem bu mektupları senin yazdığını söylüyor. | arka: A6 · figur: cengo.utulu.normal, eylul.uzgun · kamera: yakin
 - cengo.sinirli: Ben mi? Ben annene mektup mu yazacağım?
 - peri.merakli: Ne yazıyor mektuplarda? | figur: peri.merakli, eylul.normal
@@ -30,6 +32,8 @@ Cengo sonda (24 Kasım 2026, Barbaros). `muzeyyen.normal` oyunda yalnız yüzle�
 ⚙ aciklama: Cover Story: An Istanbul Mystery · Case 6: The Anonymous Letters. A wedding, three anonymous letters, three suspects. Solve the case yourself.
 ⚙ set: mesai · cset: utulu · dil: en
 ⚙ izin: muzeyyen.normal
+- eylul.sevincli: Dad! | arka: K120 · kamera: yakin
+- sessiz: 1.2 | arka: K97 · kamera: uzak · odak: 80
 - eylul.uzgun: Dad… Mom says you wrote these letters. | arka: A6 · figur: cengo.utulu.normal, eylul.uzgun · kamera: yakin
 - cengo.sinirli: Me? Why would I write letters to your mother?
 - peri.merakli: What do the letters say? | figur: peri.merakli, eylul.normal

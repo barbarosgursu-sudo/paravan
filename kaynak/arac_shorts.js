@@ -27,6 +27,8 @@ const bayrak = b => args.includes(b);
 // ## video 1 · Kanca
 // ⚙ baslik: … · muzik: muzik/x.mp3 · set: trenckot · cset: haki
 // ⚙ aciklama: …
+// odak: 0–100 → dikey kadraja kırpılan resmin yatayda hangi yeri görünür (50 orta, 100 sağ kenar)
+// - sessiz: 1.5 | arka: K97   (konuşmasız çekim, metin = saniye)
 // ⚙ dil: en   (yalnız --el; seslendirme dili ve son kare yazıları shorts_ayar.json → son_kare_dil)
 // ⚙ izin: muzeyyen.normal   (sahibinin onayıyla suçlunun sade figürü; yalnız .normal)
 // - anlatici: Metin. | arka: A23d · kamera: yakin
@@ -170,13 +172,14 @@ function plan(video) {
   let arka = null, figurler = [];
   const satirlar = video.satirlar.map(s => {
     const h = m => hatalar.push(`satır ${s.satirNo}: ${m}`);
-    const kisi = s.kim === 'anlatici' ? 'anlatici' : s.kim.split('.')[0];
+    const kisi = s.kim === 'anlatici' || s.kim === 'sessiz' ? s.kim : s.kim.split('.')[0];
     let konusanAnahtar = null;
-    if (kisi !== 'anlatici') {
+    if (kisi === 'sessiz' && !(Number(String(s.metin).replace(',', '.')) > 0)) h('sessiz: satırın metni saniye olur (ör. "- sessiz: 1.5 | arka: K97")');
+    if (kisi !== 'anlatici' && kisi !== 'sessiz') {
       konusanAnahtar = spriteCoz(s.kim, set, cset);
       if (!konusanAnahtar) h(`konuşanın resmi bulunamadı: "${s.kim}" (peri için ⚙ set:, cengo için ⚙ cset: gerekebilir)`);
     }
-    if (!AYAR.sesler[kisi]) h(`"${kisi}" için ses tanımı yok — kaynak/shorts_ayar.json → sesler`);
+    if (kisi !== 'sessiz' && !AYAR.sesler[kisi]) h(`"${kisi}" için ses tanımı yok — kaynak/shorts_ayar.json → sesler`);
     if (s.ayar.arka) {
       if (s.ayar.arka !== arka) figurler = [];
       arka = s.ayar.arka;
@@ -196,7 +199,7 @@ function plan(video) {
     if (kare) ekran = [];
     if (ekran.length > 2) h(`ekranda en çok iki figür olur (${ekran.join(', ')})`);
     return { ...s, kisi, arka, kare, ekran: ekran.slice(0, 2), konusanAnahtar,
-      kamera: s.ayar.kamera, son: !!s.ayar.son };
+      kamera: s.ayar.kamera, odak: s.ayar.odak, son: !!s.ayar.son };
   });
   return { satirlar, hatalar, uyarilar };
 }
@@ -276,7 +279,7 @@ function denetle(vakaNo, videolar) {
         if (new RegExp('(^|[^a-zçğıöşü])' + kucuk(ad) + '([^a-zçğıöşü]|$|\'|’)').test(kucuk(s.metin)) && !s.kare && !s.son)
           uyarilar.push(`satır ${s.satirNo}: "${ad}" anılıyor ama ekranda değil (SR: adı geçen ekranda)`);
       }
-      if (s.kare && s.kisi !== 'anlatici') uyarilar.push(`satır ${s.satirNo}: ${s.kisi} konuşuyor, ekranda kare (${s.arka}) var — karede o mu, göz kontrol etsin`);
+      if (s.kare && s.kisi !== 'anlatici' && s.kisi !== 'sessiz') uyarilar.push(`satır ${s.satirNo}: ${s.kisi} konuşuyor, ekranda kare (${s.arka}) var — karede o mu, göz kontrol etsin`);
       if (s.metin.length > 170) uyarilar.push(`satır ${s.satirNo}: uzun (${s.metin.length} harf) — tek karede çok uzun kalır, böl`);
     });
     // 6) Süre tahmini (Türkçe seslendirme ~2 kelime/sn, Edge TTS ölçümü)
@@ -366,7 +369,9 @@ async function uret(vakaNo, video, onizle) {
   const cizelge = [];
   const normal = p.satirlar.filter(s => !s.son), son = p.satirlar.filter(s => s.son);
   for (const s of normal) {
-    const f = seslendir(s.metin, s.kisi, is, video.ayar.dil || 'tr'), d = sure(f);
+    const sessiz = s.kisi === 'sessiz';
+    const f = sessiz ? null : seslendir(s.metin, s.kisi, is, video.ayar.dil || 'tr');
+    const d = sessiz ? Number(String(s.metin).replace(',', '.')) : sure(f);
     cizelge.push({ ...s, ses: f, bas: t, sesSure: d, bit: t + d + Z.satir_arasi });
     t += d + Z.satir_arasi;
     process.stdout.write('.');
@@ -384,13 +389,14 @@ async function uret(vakaNo, video, onizle) {
   // 2) Ses karışımı
   const sesDosya = path.join(is, `v${vakaNo}_${video.no}_ses.wav`);
   const girdi = [], filtre = [];
-  cizelge.forEach((c, i) => { girdi.push('-i', c.ses); const ms = Math.round(c.bas * 1000); filtre.push(`[${i}:a]aresample=48000,adelay=${ms}|${ms}[s${i}]`); });
-  filtre.push(`${cizelge.map((_, i) => `[s${i}]`).join('')}amix=inputs=${cizelge.length}:normalize=0,apad=whole_dur=${toplam.toFixed(2)},atrim=0:${toplam.toFixed(2)}[ses]`);
+  const sesli = cizelge.filter(c => c.ses);
+  sesli.forEach((c, i) => { girdi.push('-i', c.ses); const ms = Math.round(c.bas * 1000); filtre.push(`[${i}:a]aresample=48000,adelay=${ms}|${ms}[s${i}]`); });
+  filtre.push(`${sesli.map((_, i) => `[s${i}]`).join('')}amix=inputs=${sesli.length}:normalize=0,apad=whole_dur=${toplam.toFixed(2)},atrim=0:${toplam.toFixed(2)}[ses]`);
   let son_etiket = '[ses]';
   const muzik = video.ayar.muzik && path.resolve(KOK, 'shorts', video.ayar.muzik);
   if (video.ayar.muzik) {
     if (!fs.existsSync(muzik)) throw new Error('müzik dosyası yok: ' + muzik);
-    const mi = cizelge.length;
+    const mi = sesli.length;
     girdi.push('-stream_loop', '-1', '-i', muzik);
     filtre.push(`[ses]asplit=2[ses1][yan]`);
     filtre.push(`[${mi}:a]aresample=48000,atrim=0:${toplam.toFixed(2)},volume=${AYAR.muzik_seviye},afade=t=in:d=0.8,afade=t=out:st=${(toplam - 1.5).toFixed(2)}:d=1.5[m0]`);
@@ -410,8 +416,8 @@ async function uret(vakaNo, video, onizle) {
   const resim = {}; anahtarlar.forEach(k => { resim[k] = dosyaURL(k); });
   const veri = {
     W: G.w, H: G.h, gecis: Z.gecis, toplam, sonBas, kapak, resim,
-    boy: GOR.boy || {}, genis: GOR.genis || [], sk: Object.assign({}, AYAR.son_kare, (AYAR.son_kare_dil || {})[video.ayar.dil] || {}),
-    satirlar: cizelge.filter(c => !c.son).map(c => ({ bas: c.bas, bit: c.bit, arka: c.arka, kare: c.kare, ekran: c.ekran, kisi: c.kisi, kamera: c.kamera })),
+    figOlcek: AYAR.figur_olcek || 1, boy: GOR.boy || {}, genis: GOR.genis || [], sk: Object.assign({}, AYAR.son_kare, (AYAR.son_kare_dil || {})[video.ayar.dil] || {}),
+    satirlar: cizelge.filter(c => !c.son).map(c => ({ bas: c.bas, bit: c.bit, arka: c.arka, kare: c.kare, ekran: c.ekran, kisi: c.kisi, kamera: c.kamera, odak: c.odak })),
   };
   const html = path.join(is, 'sahne.html');
   fs.writeFileSync(html, sahneHTML(veri));
@@ -441,7 +447,7 @@ async function uret(vakaNo, video, onizle) {
   // 4) Altyazı (videoya GÖMÜLMEZ; YouTube'a ayrıca yüklenebilir) ve yükleme notu
   if (!onizle) {
     fs.writeFileSync(path.join(klasor, `v${vakaNo}_${video.no}.srt`),
-      cizelge.map((c, i) => `${i + 1}\n${srtZaman(c.bas)} --> ${srtZaman(c.bas + c.sesSure)}\n${c.metin}\n`).join('\n'));
+      cizelge.filter(c => c.ses).map((c, i) => `${i + 1}\n${srtZaman(c.bas)} --> ${srtZaman(c.bas + c.sesSure)}\n${c.metin}\n`).join('\n'));
     fs.writeFileSync(path.join(klasor, `v${vakaNo}_${video.no}_yukleme.txt`),
       `Başlık: ${video.ayar.baslik || '(senaryoda ⚙ baslik: yok)'}\n\nAçıklama:\n${video.ayar.aciklama || '(senaryoda ⚙ aciklama: yok)'}\n\n` +
       `Oyna: https://${AYAR.son_kare.baglanti}\n\nSüre: ${toplam.toFixed(1)} sn · Müzik: ${video.ayar.muzik || 'yok'}\n` +
@@ -483,7 +489,7 @@ const yumusak=x=>x<=0?0:x>=1?1:x*x*(3-2*x);
 // Çekimler: aynı arka arka arkaya gelen satırlar tek çekim (kamera hareketi kesilmez)
 const cekim=[];
 V.satirlar.forEach((s,i)=>{const o=cekim[cekim.length-1];
-  if(o&&o.arka===s.arka){o.bit=s.bit;o.son=i;} else cekim.push({arka:s.arka,kare:s.kare,bas:s.bas,bit:s.bit,ilk:i,son:i,kamera:s.kamera});});
+  if(o&&o.arka===s.arka){o.bit=s.bit;o.son=i;} else cekim.push({arka:s.arka,kare:s.kare,bas:s.bas,bit:s.bit,ilk:i,son:i,kamera:s.kamera,odak:s.odak});});
 if(cekim.length){cekim[0].bas=0;}
 cekim.forEach((c,i)=>{if(i+1<cekim.length)c.bit=cekim[i+1].bas+V.gecis; else c.bit=V.sonBas+V.gecis;
   c.kamera=c.kamera||['yakin','sola','uzak','saga'][i%4];});
@@ -493,6 +499,7 @@ function kamera(c,t){const p=yumusak((t-c.bas)/Math.max(.1,c.bit-c.bas));let s=1
   return 'translate(-50%,-50%) translate('+x+'%,'+y+'%) scale('+s+')';}
 function katCiz(el,c,t,op){const img=el.firstChild;if(!c){el.style.opacity=0;return;}
   if(img.dataset.k!==c.arka){img.src=V.resim[c.arka];img.dataset.k=c.arka;}
+  img.style.objectPosition=(c.odak!=null?c.odak:50)+'% 50%';
   img.style.transform=kamera(c,t);el.style.opacity=op;}
 // Figürler: kişi başına tek <img>; yer (sol/orta/sağ) satırdan satıra kayarak değişir
 const figEl={};
@@ -506,8 +513,8 @@ const satirYer=V.satirlar.map(s=>s.kare?[]:yerler(s.ekran));
 // oranında (393/498), video genişliği kadar. Peri çerçevesi %58 geniş, %100 yüksek; Cengo ve konuk %78 geniş, %105 yüksek;
 // resim çerçeveye 'contain' sığar; konuk boy ölçeğiyle (gorseller.json → boy) çerçeve yüksekliğinin o kadarı olur.
 // Eskiden Peri/Cengo %70 ekran, konuk %70×boy idi: boy ölçeği oyunun çerçevesine göre ayarlı olduğundan konuklar cüce çıkıyordu.
-function figBoy(kisi,img){const L=V.W*498/393, peri=kisi==='peri';
-  const fw=V.W*(peri?.58:.78), fh=L*(peri?1:1.05), olcek=(kisi==='peri'||kisi==='cengo')?1:(V.boy[kisi]||1);
+function figBoy(kisi,img){const L=V.W*498/393*V.figOlcek, peri=kisi==='peri';
+  const fw=V.W*V.figOlcek*(peri?.58:.78), fh=L*(peri?1:1.05), olcek=(kisi==='peri'||kisi==='cengo')?1:(V.boy[kisi]||1);
   if(olcek<1)return fh*olcek;
   const nw=img.naturalWidth||560, nh=img.naturalHeight||700; return Math.min(fw/nw,fh/nh)*nh;}
 function figCiz(t){

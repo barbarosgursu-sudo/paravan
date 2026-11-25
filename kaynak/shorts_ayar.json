@@ -29,6 +29,8 @@
   "son_kare_dil": {
     "en": { "baslik": "COVER STORY", "alt_baslik": "AN ISTANBUL MYSTERY", "cagri": "Play now" }
   },
+  "_not_figur_olcek": "Figürlerin hepsi birlikte büyür (yakın çekim); oranlar oyundaki gibi kalır. 1 = oyunun ekranı.",
+  "figur_olcek": 1.25,
   "muzik_seviye": 0.22,
   "hedef_sure": [28, 55]
 }
