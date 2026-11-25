@@ -144,7 +144,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 > **Açıklama:** Samatya, küçük lokanta; duvarlarda eski fotoğraflar (genç Bahar ve Fikret, ilk dükkân), tezgâhın arkasında eski bir kasa. Fikret Cengo'yu sever, Peri'yi tanır (şaka 1 doruğu: "Önlük sana yakışmamış"; Peri: "Kraliçeye ne yakışmaz!"). Notları kabul eder: o da aynı yöntemle soyuldu. Kasadaki dosya: Bahar'ın vekâletini bir yıl önce iptal ettirdi; iptal kâğıdını orada saklıyor.
 
 `156` *Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa.*  
-`157` *Beyaz uzun saçını at kuyruğu yapmış, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.*  
+`157` *Siyah uzun saçını at kuyruğu yapmış, keçi sakallı, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.*  
 `158` **FİKRET:** Sen şoför müsün, kaptan mı? Kapalıyız ama otur, çorba var.  
 `159` **CENGO:** Çorbaya hayır demem, usta.  
 `160` *Fikret Peri'yi görünce gülüyor.*  

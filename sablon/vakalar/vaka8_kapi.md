@@ -36,3 +36,7 @@ Resimler gelince (adım 8–10) figürlere bakılarak yazılır. Görselsiz aşa
 
 Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.
 - G2 | tarz | kıyafet kartı (oyuna gömülmez); üç üretimde tarz −0,024 / −0,021 / −0,012, yüz son üretimde GEÇTİ 0,856 — Oğuz Bey "kalsın" (25 Kasım 2026)
+- G10 | benzerlik | Nihat ~ Cengo 1,78 / ~ Tarkan 1,79 (iki üretim). Gözle ayrışıyor: düz geriye yatırılmış gümüş saç, beyaz keten takım, yaşlı. Oğuz Bey: "diğer karakterler iyi", 25 Kasım 2026.
+- G11 | tarz | Emir +0,013 (şüphe sınırı 0,02); benzerlik GEÇTİ (Sedat 1,22). Oğuz Bey, 25 Kasım 2026.
+- G12 | tarz | Pınar +0,003 (şüphe sınırı 0,02); benzerlik GEÇTİ. Oğuz Bey, 25 Kasım 2026.
+- G13 | benzerlik | Yusuf ~ Tahsin 1,81. Gözle ayrışıyor: çok kambur, ufak, kasketli, büyüteç gözlüklü, yeşil hırkalı. Oğuz Bey, 25 Kasım 2026.

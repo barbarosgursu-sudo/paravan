@@ -406,7 +406,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   *Eski konuklardan ayıran:* platin pixie + iri yapı (Müzeyyen kül sarısı mizanpli ve ince; Nadide gümüş, ince; Süheyla
   siyah küt).
 - **Tarkan / Ozan (34):** ince, orta boy; **dar, uzun yüz, sivri çene, solgun ten** (25 Kasım 2026: ilk resim Ercan'a benzedi — kare çene
-  kalktı), **usturayla tamamen kazınmış, parlak kel kafa** (25 Kasım 2026: siyah kısa saçla dört üretimde Ercan'a ve
+  kalktı), **usturayla tamamen kazınmış, parlak kel kafa, SARI kaşlar** (sarı kaş: Oğuz Bey, 25 Kasım 2026) (25 Kasım 2026: siyah kısa saçla dört üretimde Ercan'a ve
   Cengo'ya benzedi — Oğuz Bey kel seçti); **sol kaşında ince yara
   izi**; siyah takım, siyah gömlek (yeleksiz; 25 Kasım 2026: açık gri zemine karıştı — zemin aracı, Oğuz Bey), altın kol düğmeleri; telefonu hep elinde. *Ayıran:* kazınmış saç + kaş izi (Kaan
   kısa boylu, açık sarı perçemli, gözlüklü; Ercan siyah jöleli, geriye taranmış). *25 Kasım 2026: sarı saç Kaan'a benzedi
@@ -415,7 +415,7 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   dağınık tel yok); **bıyıksız, temiz traşlı**; ince metal gözlük boynunda zincirle; **açık mavi gömlek**, **kollarında siyah
   kolluk**, kulağında kurşun kalem. *Ayıran:* kabarık kumral saç + kolluk (Haldun ve Tahsin kır; Kadir V5 tombul, bıyıklı, beyaz gömlekli; Recep
   tombul kır kıvırcık). *25 Kasım 2026: ilk tarif (tombul, kalın bıyık) Kadir'e benzedi (benzerlik aracı) → değişti.*
-- **Fikret Usta (63):** uzun, iri kemikli, geniş omuzlu; **beyaz uzun saç at kuyruğu**, temiz traşlı; çatık beyaz kaşlar;
+- **Fikret Usta (63):** uzun, iri kemikli, geniş omuzlu; **siyah uzun saç at kuyruğu**, **siyah-kır keçi sakalı**; çatık, gür kara kaşlar (25 Kasım 2026, Oğuz Bey);
   kolları sıvalı, ön kolunda **soluk çapa dövmesi**; lekeli beyaz aşçı ceketi. *Ayıran:* at kuyruğu + dövme (Tahsin beyaz
   ama geriye taranmış, ince).
 - **Nihat Kora (55):** ince, uzun yüz; **düz, parlak, geriye yatırılmış, ense hizasında gümüş** saç; keskin elmacık

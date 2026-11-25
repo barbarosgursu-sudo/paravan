@@ -53,3 +53,7 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Görselin oranı TAM 4:5, dikey (1122×1402).
 ```
+
+## Düzeltme 1
+
+Oğuz Bey'in kararı (25 Kasım 2026): saç SİYAH (boyalı gibi parlak, koyu kara; beyaz ya da kır DEĞİL), uzun, ensede sıkı bir AT KUYRUĞU; çenesinde SİYAH, kırları seçilen, sivri, bakımlı bir KEÇİ SAKALI (bıyık ince, sakal yalnız çenede; yanaklar traşlı); gür, çatık, KARA kaşlar. Yaşı aynı (altmışlarının başı, yüzde kırışıklar). İri yapı, kolları sıvalı, ön kolda soluk çapa dövmesi, lekeli beyaz aşçı ceketi, kareli pantolon, kollar göğüste kavuşturulmuş, huysuz ifade aynı kalsın.

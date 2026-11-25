@@ -59,3 +59,7 @@ Benzerlik aracı yine Ercan'a ve Cengo'ya yakın buldu (siyah kısa saç + koyu 
 ## Düzeltme 2
 
 Kıyafet DEĞİŞİYOR (Oğuz Bey, 25 Kasım 2026; açık gri takım ve beyaz gömlek zeminle karıştı): SİYAH, ince kesim takım elbise ve SİYAH gömlek, yakası açık, kravat YOK; gömlek kollarında küçük ALTIN kol düğmeleri. Kişi bir önceki resimdeki gibi kalsın: usturayla kazınmış parlak KEL kafa, dar uzun solgun yüz, sivri çene, ince kaşlar, sol kaşında ince yara izi, temiz traşlı. Poz ve ifade aynı.
+
+## Düzeltme 3
+
+Oğuz Bey'in kararı (25 Kasım 2026): KAŞLAR SARI — açık, buğday sarısı, belirgin, ince kaşlar (siyah ya da koyu kaş YOK); sol kaşta ince yara izi kalır. Kafa usturayla kazınmış, parlak, KEL. Siyah takım, siyah gömlek, altın kol düğmeleri, dar uzun solgun yüz, temiz traşlı; poz ve ifade aynı.

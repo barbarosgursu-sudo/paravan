@@ -1,5 +1,10 @@
 # Vaka 8 — resim durumu
 
+**25 Kasım 2026, 23:45 — Oğuz Bey: "Tarkan kel, kaşları sarı olsun. Fikret keçi sakallı ve siyah saçlı olsun. Diğer karakterler iyi."**
+Onaylı + havuzda + el onayı: G10 Nihat (= G10z gri-mavi; beyaz keten açık bej'e riskli), G11 Emir, G12 Pınar, G13 Yusuf (`vaka8_kapi.md` → kalsın).
+G15 büro gece onaylı → **MEKÂNLAR 12/12**. Fikret G9 onayı geri alındı (havuzdan adaylara; siyah at kuyruğu + keçi sakalı; form, diyalog 158).
+Tarkan G7/G7z sarı kaşla, Fikret G9/G9z, Nevzat G8 (açık bej; G8z gri-mavi mavi gömlekle riskli %8) döngüde.
+
 **25 Kasım 2026, 23:30 — MEKÂNLAR ONAYLI (11/12):** G14, G16–G25 üç araçtan GEÇTİ (+0,117 üstü), gözle yazı/rakam yok (kavanoz etiketleri
 boş, plaka görünmüyor, posta kutusu plakaları yazısız). G15 (büro gece, G14'ün aynısı) döngüde. Konuklardan bekleyenler (`uretilen/`):
 Tarkan G7/G7z (Cengo 1,44 ŞÜPHELİ / 1,58), Nevzat G8/G8z (Haldun 1,60 / 1,44), Nihat G10/G10z (Cengo 1,78 / Tarkan 1,79), Emir G11

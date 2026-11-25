@@ -7,3 +7,7 @@ El sayfasına (python kaynak/arac_el.py --sayfa V8 G<n>) bakılıp her elin kend
 - G4 dd594dd0602e
 - G6 bf8b1d11504e
 - G9 c142e47d59ce
+- G10 b1d5280331fa
+- G11 9f12ba5287b4
+- G12 cee931739f03
+- G13 6323b7c9951e

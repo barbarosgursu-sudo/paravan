@@ -39,8 +39,5 @@ vaka	id	ad	cins	yas	beden	yuz	sac_renk	sac_kesim	isaret	ust_renk	kaynak
 5	efe	Efe	c	8	ufak	yuvarlak	?	?	-	sari	metin
 5	ismet	İsmet Usta	e	75	orta	?	?	?	gozluk,onluk	kahve	metin
 8	nevzat	Nevzat Bey	e	47	orta	kemikli	kumral	kabarik	gozluk,kolluk	mavi	metin
-8	nihat	Nihat Kora	e	55	ince	kemikli	kir	geriye	-	beyaz	metin
-8	emir	Emir	e	22	ufak	oval	siyah	kabarik	dis_teli	turuncu	metin
-8	pinar	Pınar	k	30	ince	oval	mor	at_kuyrugu	kulaklik	siyah	metin
-8	yusuf	Yusuf Efendi	e	75	ufak	kemikli	beyaz	uzun	gozluk,kasket,hirka	yesil	metin
 8	tarkan	Tarkan / Ozan	e	34	ince	uzun	siyah	kel	yara_izi	siyah	metin
+8	fikret	Fikret Usta	e	63	iri	kare	siyah	at_kuyrugu	sakal,dovme	beyaz	metin

@@ -155,7 +155,7 @@ serbest (SR-A). Sigara yok (19a).
 ⚙ Kural 21c: Fikret'i yöntemi bilen eski kurban olarak gösterir (yanıltır); iptal belgesi onu vekâlet tarafından aklar.
 
 *Samatya. Küçük bir lokanta; duvarlarda eski fotoğraflar, tezgâhın arkasında eski bir kasa.* {arka: A63, mekan}
-*Beyaz uzun saçını at kuyruğu yapmış, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.* {gir: fikret, gi: huysuz, ekran: fikret}
+*Siyah uzun saçını at kuyruğu yapmış, keçi sakallı, kolları sıvalı, ön kolunda soluk bir çapa dövmesi olan iri bir adam.* {gir: fikret, gi: huysuz, ekran: fikret}
 **FİKRET [huysuz]:** Sen şoför müsün, kaptan mı? Kapalıyız ama otur, çorba var. {gir: fikret, kime: cengo, ekran: cengo+fikret, yuz: cengo.normal}
 **CENGO [gulen]:** Çorbaya hayır demem, usta. {kime: fikret, ekran: cengo+fikret, yuz: fikret.huysuz}
 *Fikret Peri'yi görünce gülüyor.* {gir: fikret, gi: guler, ekran: peri+fikret, yuz: peri.kas}
