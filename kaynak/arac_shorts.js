@@ -138,8 +138,9 @@ const dosyaVar = k => !!(GOR.dosyalar && GOR.dosyalar[k]);
 const kareMi = k => /^(K\d|MASA_|KART_)/.test(k);
 function spriteCoz(tok, set, cset) {
   if (!tok) return null;
-  if (dosyaVar(tok)) return tok;
   const p = tok.split('.');
+  // Peri/Cengo iki parçalıysa (cengo.sinirli) önce videonun kıyafeti denenir: kıyafetsiz eski sprite da var olabilir
+  if (!((p[0] === 'peri' || p[0] === 'cengo') && p.length === 2) && dosyaVar(tok)) return tok;
   if (p[0] === 'peri') {
     const ifade = p.length === 1 ? 'normal' : p[p.length - 1];
     const s = p.length === 3 ? p[1] : set;
@@ -304,11 +305,32 @@ function calistir(komut, a, secenek = {}) {
   return r.stdout;
 }
 const sure = f => parseFloat(calistir('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]));
+// --el: ElevenLabs (sesler.<kişi>.el = { id, model }); yoksa Edge TTS. Ücretsiz plan kitaplık seslerine izin vermez.
+const EL = process.argv.includes('--el');
+function seslendirEL(metin, kisi, out) {
+  const e = (AYAR.sesler[kisi] || {}).el;
+  if (!e || !e.id) throw new Error(`--el: "${kisi}" için ElevenLabs sesi yok — shorts_ayar.json → sesler.${kisi}.el`);
+  const govde = JSON.stringify({ text: metin, model_id: e.model || 'eleven_multilingual_v2', language_code: 'tr',
+    voice_settings: e.ayar || { stability: 0.45, similarity_boost: 0.8, style: 0.35 } });
+  const ham = out + '.ham.mp3';
+  for (let deneme = 1; deneme <= 4; deneme++) {
+    const r = spawnSync('curl', ['-s', '-o', ham, '-w', '%{http_code}', `https://api.elevenlabs.io/v1/text-to-speech/${e.id}?output_format=mp3_44100_128`,
+      '-H', 'xi-api-key: ' + (process.env.ELEVENLABS_API_KEY || 'vekil'), '-H', 'Content-Type: application/json', '--data-binary', govde], { encoding: 'utf8' });
+    if (r.stdout === '200' && fs.existsSync(ham) && fs.statSync(ham).size > 1000) break;
+    if (deneme === 4) throw new Error(`ElevenLabs ses üretemedi (${kisi}): HTTP ${r.stdout} ${fs.existsSync(ham) ? fs.readFileSync(ham, 'utf8').slice(0, 300) : ''}`);
+  }
+  calistir('ffmpeg', ['-y', '-v', 'error', '-i', ham, '-af',
+    'silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse',
+    '-c:a', 'libmp3lame', '-q:a', '2', out]);
+  fs.unlinkSync(ham);
+  return out;
+}
 function seslendir(metin, kisi, klasor) {
   const s = AYAR.sesler[kisi];
-  const h = crypto.createHash('sha1').update(JSON.stringify([s, metin])).digest('hex').slice(0, 12);
-  const out = path.join(klasor, `${kisi}_${h}.mp3`);
+  const h = crypto.createHash('sha1').update(JSON.stringify([EL ? s.el : s, metin])).digest('hex').slice(0, 12);
+  const out = path.join(klasor, `${kisi}_${EL ? 'el_' : ''}${h}.mp3`);
   if (fs.existsSync(out) && fs.statSync(out).size > 0) return out;
+  if (EL) return seslendirEL(metin, kisi, out);
   for (let deneme = 1; deneme <= 4; deneme++) {
     const r = spawnSync('python', ['-m', 'edge_tts', '--voice', s.ses, `--rate=${s.hiz || '+0%'}`, `--pitch=${s.perde || '+0Hz'}`,
       '--text', metin, '--write-media', out], { encoding: 'utf8' });

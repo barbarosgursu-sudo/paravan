@@ -1,9 +1,9 @@
 {
   "_not": "arac_shorts.js ayarı. Sesler: Edge TTS (ücretsiz, hesapsız). Türkçe ana dilli iki ses var: tr-TR-AhmetNeural (erkek), tr-TR-EmelNeural (kadın). Karakterler hız ve perdeyle ayrılır. Çok dilli sesler de Türkçe okur ama aksanlı olabilir (en-US-AvaMultilingualNeural, it-IT-GiuseppeMultilingualNeural...). Bir karakterin sesi bir kez seçilir, bütün vakalarda aynı kalır. Denemek için: node arac_shorts.js --ses-dene",
   "sesler": {
-    "anlatici": { "ses": "tr-TR-AhmetNeural", "hiz": "+0%", "perde": "-10Hz" },
-    "peri":     { "ses": "tr-TR-EmelNeural",  "hiz": "+2%", "perde": "+0Hz" },
-    "cengo":    { "ses": "tr-TR-AhmetNeural", "hiz": "+8%", "perde": "+6Hz" },
+    "anlatici": { "ses": "tr-TR-AhmetNeural", "hiz": "+0%", "perde": "-10Hz", "el": { "id": "JBFqnCBsd6RMkjVDRZzb", "ad": "George", "model": "eleven_multilingual_v2" } },
+    "peri":     { "ses": "tr-TR-EmelNeural",  "hiz": "+2%", "perde": "+0Hz", "el": { "id": "pFZP5JQG7iQjIQuC4Bku", "ad": "Lily", "model": "eleven_multilingual_v2" } },
+    "cengo":    { "ses": "tr-TR-AhmetNeural", "hiz": "+8%", "perde": "+6Hz", "el": { "id": "N2lVS1w4EtoT3dr4eOWO", "ad": "Callum", "model": "eleven_multilingual_v2" } },
     "nadide":   { "ses": "tr-TR-EmelNeural",  "hiz": "-12%", "perde": "-12Hz" },
     "ferruh":   { "ses": "tr-TR-AhmetNeural", "hiz": "+0%", "perde": "-2Hz" },
     "kenan":    { "ses": "tr-TR-AhmetNeural", "hiz": "-4%", "perde": "-16Hz" },
@@ -11,7 +11,7 @@
     "sedat":    { "ses": "tr-TR-AhmetNeural", "hiz": "+4%", "perde": "+12Hz" },
     "rustem":   { "ses": "tr-TR-AhmetNeural", "hiz": "-10%", "perde": "-20Hz" },
     "ayla":     { "ses": "tr-TR-EmelNeural",  "hiz": "-4%", "perde": "-6Hz" },
-    "eylul":    { "ses": "tr-TR-EmelNeural",  "hiz": "+6%", "perde": "+14Hz" }
+    "eylul":    { "ses": "tr-TR-EmelNeural",  "hiz": "+6%", "perde": "+14Hz", "el": { "id": "cgSgspJ2msm6clMCkdW9", "ad": "Jessica", "model": "eleven_multilingual_v2" } }
   },
   "zaman": {
     "fps": 30,
