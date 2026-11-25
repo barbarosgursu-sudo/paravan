@@ -358,8 +358,9 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   kapaksız cepli; altında V yakalı krem saten bluz); bu kez **kuşak çözük, uçları sarkık**. Referans
   `kaynak/yeni_gorsel/sprite/peri_manto_normal.webp` (G1 kartı hatası tekrarlanmaz). Altına dar siyah kalem etek, siyah
   stiletto; saç **açık, dalgalı** (sezonun başındaki gibi). Dekolte tabanda.
-- **Peri'nin kılığı (aşçı yardımcısı) 🟢:** mantonun üstünden beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah
-  çerçeveli gözlük burnunun ucunda; manto yakası ve bacak açıkta. Çekicilik anı bu kılıkla.
+- **Peri'nin kılığı (aşçı yardımcısı) 🟢:** manto YOK (tek manto: Cengo büroda alır, arabada saklar — Onay 2); krem saten
+  bluz ve dar kalem eteğin üstünde beyaz şef önlüğü beline sıkı bağlı, beyaz kep, iri siyah çerçeveli gözlük burnunun ucunda;
+  bluzun yakası ve bacak açıkta. Çekicilik anı bu kılıkla. Yüzleşme ve kovalamacada kep ve gözlük çıkar (`onluk8`).
 - **Peri'nin felaket kıyafeti:** kılık baştan aşağı vişne reçeli; kep yok, gözlük yamuk, saçta reçel. Temizlenmeden sonra:
   önlüksüz, manto omzunda, saçta reçel.
 - **Cengo (yeni) 🟢:** **şoför üniforması** — lacivert, iki sıra düğmeli ceket, aynı renk kasket, beyaz eldiven, bir beden
@@ -402,9 +403,10 @@ kasketini çıkarır, kendi ceketini giyer (finalde kendi ceketi). Bahar'ın bı
   derin gamze; kocaman gümüş halka küpe; renkli çiçekli kaftan bluz, bol keten pantolon. Kural 15b: Peri'den gösterişsiz.
   *Eski konuklardan ayıran:* platin pixie + iri yapı (Müzeyyen kül sarısı mizanpli ve ince; Nadide gümüş, ince; Süheyla
   siyah küt).
-- **Tarkan / Ozan (34):** ince, orta boy; **kare çene**, **açık sarı, kısa, yandan ayrık** saç; **sol kaşında ince yara
-  izi**; lacivert yelekli takım, altın kol düğmeleri; telefonu hep elinde. *Ayıran:* sarı saç + kaş izi (Kaan açık kumral
-  perçemli gözlüklü; Ercan siyah jöleli).
+- **Tarkan / Ozan (34):** ince, orta boy; **kare çene**, **siyah, makineyle kısacık kazınmış** saç; **sol kaşında ince yara
+  izi**; kömür grisi takım (yeleksiz), altın kol düğmeleri; telefonu hep elinde. *Ayıran:* kazınmış saç + kaş izi (Kaan
+  kısa boylu, açık sarı perçemli, gözlüklü; Ercan siyah jöleli, geriye taranmış). *25 Kasım 2026: sarı saç Kaan'a benzedi
+  (benzerlik aracı) → değişti.*
 - **Nevzat Bey (47):** kısa, tombul, yuvarlak yüz; **koyu kahve, yağlı, alnına düşen tek perçem**; **kalın kara bıyık**;
   ince metal gözlük boynunda zincirle; beyaz gömlek, **kollarında siyah kolluk**, kulağında kurşun kalem. *Ayıran:*
   kolluk + kalın bıyık (Recep tombul ama kır kıvırcık, bıyıksız).

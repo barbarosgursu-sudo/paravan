@@ -232,7 +232,7 @@ Teknik etiketler ({…}) ve yüz ifadeleri ([…]) çıkarıldı. *Eğik yazı* 
 `238` *Akşam. Kurtuluş'ta Bahar'ın mutfak atölyesi: tezgâhlarda kavanozdan kuleler, köşede bir soyunma paravanı.*  
 `239` *Peri paravanın arkasına saklanmış. Kapıda Cengo, kasketiyle, bir adama kapıyı açıyor.*  
 `240` **CENGO:** Buyurun, Tarkan Bey. Atölye burası.  
-`241` *Kare: paravanın aralığından. Lacivert yelekli takımlı, açık sarı saçlı, kaşında ince bir iz olan genç bir adam; telefonu elinde, gülümsüyor.*  
+`241` *Kare: paravanın aralığından. Kömür grisi takımlı, siyah saçları kısacık kazınmış, kaşında ince bir iz olan genç bir adam; telefonu elinde, gülümsüyor.*  
 `242` **TARKAN:** Bahar Hanım! Büyük gece. Yatırımcımız dokuzda burada.  
 `243` *Peri paravanın arkasında donup kalıyor.*  
 `244` **PERİ:** *(fısıldayarak)* Cengo. Bu o değil.  

@@ -1,0 +1,105 @@
+# Vaka 8 — hatırlatma kaydı (SUREC-43)
+
+> Programla üretilir (`node sablon/kurallar/arac_uygulayici.js kayit <vaka> <adım>`), işaretleri Claude koyar.
+> İşaret: `[u]` uyuyor · `[X]` UYMUYOR · `[?]` EMİN DEĞİLİM · `[-]` bu vakayla ilgisi yok. `[X]` ve `[?]` satır sonunda `· NOT: …` ister.
+> Sahibine yalnız `[X]` ve `[?]` gider, onay anında (`… bitti <vaka> <an>`). Kuralın metni `sablon/kurallar/KURALLAR.md`.
+
+## Adım 8 — Görsel listesi ve promptlar + iş sayfası
+
+- [ ] **TON-21** Görsel ton: gün ışığı ve kalabalık
+- [ ] **KAR-1** Kanona ekleme sahibinin işidir
+- [ ] **KAR-6** Peri her zaman en gösterişli kadındır
+- [ ] **KAR-22** Her vakada yeni kıyafet
+- [ ] **KAR-23** Karakter sabitleri (her istemde yazılır, her denetimde aranır)
+- [ ] **KAR-25** Mekân sabiti: büro kapısı
+- [ ] **KAR-35** Yerler
+- [ ] **SINIR-3** Çekicilik seviyesi (Peri)
+- [ ] **SINIR-5** Dekolte felaket sahnesinde de bozulmaz
+- [ ] **SINIR-7** Reşit olmayan hiç kimse bu çerçeveye girmez
+- [ ] **SINIR-8** Kovalamaca: Peri erotik ve gülünç; sahnede acı, tehlike, aşağılanma yok
+- [ ] **BILGI-14** Kart afişi: şüpheliler eşit
+- [ ] **BILGI-15** Kart afişi: figürdeki ipuçları nötrlenir
+- [ ] **BILGI-16** Kart afişi: yasak nesneler adıyla sayılır
+- [ ] **BILGI-17** Görsel, bağlı ipucunun açtığından fazlasını gösteremez
+- [ ] **BILGI-19** Görsel eksik gösterebilir, YANLIŞ gösteremez (§7c)
+- [ ] **BILGI-20** Pratik kural: yüzü kapat, boş yüz isteme
+- [ ] **YAPI-19** Kovalamaca
+- [ ] **YAPI-20** Peri'nin felaketi
+- [ ] **SEZON-26** Konuk benzerliği — üretimden önce, yazıda (program)
+- [ ] **SEZON-20** Arka planda aynı kurgu tekrar etmez
+- [ ] **SEZON-21** Yeni mekân eski vakaların resimlerine benzemez
+- [ ] **SUREC-18** Görseller hikâye donduktan sonra; liste formdan
+- [ ] **SUREC-19** Adım 8: Görsel listesi ve istemler
+- [ ] **SUREC-20** Görsel iş sayfası
+- [ ] **SUREC-32** Resim üretim döngüsü (Codex + yerel Claude)
+- [ ] **SUREC-33** Resim oturumunda okunacaklar
+- [ ] **SATIR-2** Sözleşmenin amacı, kapsamı ve nerede yakalandığı
+- [ ] **SATIR-7** SR-B Süreklilik ve kıyafet hâli tablosu
+- [ ] **SATIR-8** SR-C Kıyafet kartı (satır tarafı)
+- [ ] **SATIR-9** SR-D Resim metne bağlı: nesne satırda başlar, satırda biter
+- [ ] **SATIR-17** SR-J Her ifade kardeşlerinden ayırt edilir
+- [ ] **SATIR-18** SR-K Karar karesi SONUÇ'u gösterir
+- [ ] **SATIR-22** Sahneden ayrılan ve saklanan kişi
+- [ ] **SATIR-23** Mekân ve açı çeşitliliği
+- [ ] **SATIR-24** Hareket sahneleri (kovalamaca) kareleri
+- [ ] **SATIR-28** Satır–resim uyumu zorunlu: dört aşama
+- [ ] **SATIR-35** Yalnız satırların istediği ifade ve poz üretilir
+- [ ] **SATIR-43** Satır–resim bulgusu o vakanın kendi resmiyle kapanır
+- [ ] **ISTEM-1** Kalıp dosyası zorunlu; ezberden yazılmaz
+- [ ] **ISTEM-2** Sıra: temeller önce
+- [ ] **ISTEM-5** Figür kadrajı (H1) ve figür sabitleri
+- [ ] **ISTEM-8** Prompt kalıbının sırası
+- [ ] **ISTEM-9** Tarz paragrafı: metni ve nereye yazıldığı
+- [ ] **ISTEM-10** Tarz örneği cümlesi (§3)
+- [ ] **ISTEM-11** Peri / Cengo temeli (yeni kıyafet)
+- [ ] **ISTEM-12** Yeni (yan) karakter temeli
+- [ ] **ISTEM-13** Birbirine benzeyebilecek karakterler: "X'e benzemiyor"
+- [ ] **ISTEM-14** Varyant (aynı karakter, başka ifade)
+- [ ] **ISTEM-15** Referans verme biçimi
+- [ ] **ISTEM-16** Referanslarda dekolte yok — zorunlu
+- [ ] **ISTEM-17** Kıyafet kartının istemi
+- [ ] **ISTEM-19** Kartı referans alan istem
+- [ ] **ISTEM-20** Karakter sabitleri her istemde
+- [ ] **ISTEM-21** Peri'nin çekicilik satırı ve dekoltesi
+- [ ] **ISTEM-22** "Kalın, mat kumaş" satırı yalnız Gizem'de; göğsü örten poz
+- [ ] **ISTEM-23** Islaklık yalnız üst giyside
+- [ ] **ISTEM-24** Fiziksel komedi / riskli kare satırı
+- [ ] **ISTEM-28** Yazı yasağı ve nesneye özgü yazısızlık
+- [ ] **ISTEM-29** Nesneler tek tek sayılır; yasaklar adıyla
+- [ ] **ISTEM-30** "Görünmesin" yazılmaz; kadraj dışında bırakılır
+- [ ] **ISTEM-31** Tam iki kol, iki el; her el ayrı
+- [ ] **ISTEM-32** Nesne tutan el (§12)
+- [ ] **ISTEM-33** Sayı kayarsa
+- [ ] **ISTEM-34** Pencereden İstanbul
+- [ ] **ISTEM-35** Kalabalık kare
+- [ ] **ISTEM-36** Kim kimi görüyor
+- [ ] **ISTEM-37** Detay karede elin sahibinin kıyafeti
+- [ ] **ISTEM-38** Çorap
+- [ ] **ISTEM-40** Unlu ya da kirli karakter
+- [ ] **ISTEM-41** Işık ve saat
+- [ ] **ISTEM-42** Konum ve fizik
+- [ ] **ISTEM-43** Kadraj sınırı yüzdeyle değil görsel tarifle
+- [ ] **ISTEM-44** Saç toplu satırı (yan karakter); Peri ve Cengo istisna
+- [ ] **ISTEM-45** Arka plan (mekân) istemi
+- [ ] **ISTEM-46** Mekân kompozisyonu tekrar etmez (§7a)
+- [ ] **ISTEM-47** Duvardaki portre/afiş
+- [ ] **ISTEM-48** Ara kare, detay, kart afişi
+- [ ] **ISTEM-49** Boya dokusu yüzde, kumaş pürüzsüz
+- [ ] **ISTEM-50** Kontrol bölümü
+- [ ] **ISTEM-51** `## Satırlar` bölümü
+- [ ] **ISTEM-53** Vaka 3 dersleri istemde baştan uygulanır
+- [ ] **ISTEM-54** İfade ızgarası yok
+- [ ] **DENETIM-49** Yeni karakter eski bütün figürlerle karşılaştırılır
+- [ ] **GOMME-17** İki zemin de riskliyse kıyafet değişir
+- [ ] **GOMME-18** Zemin seçiminin zamanı: Peri/Cengo ve konuk
+- [ ] **GOMME-21** Kart afişi: genel
+- [ ] **GOMME-22** Kart afişi: kadro
+- [ ] **GOMME-23** Kart afişi: hareketli ve eğlenceli
+- [ ] **GOMME-24** Kart afişi: zemin satırı şart
+- [ ] **GOMME-25** Kart afişi: düzen
+- [ ] **GOMME-26** Kart afişi: referanslar (5)
+- [ ] **CODEX-20** Komut `istemleri hazırla <N>`
+- [ ] **CODEX-21** Liste oyunla eşleşir (zorunlu)
+- [ ] **ARAYUZ-6** Yeni ekran / yeni arka plan uyarısı
+- [ ] **ARAYUZ-25** Hareket yok
+- [ ] **ARAYUZ-32** Paylaş kartı (vaka)

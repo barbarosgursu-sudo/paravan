@@ -38,15 +38,8 @@ vaka	id	ad	cins	yas	beden	yuz	sac_renk	sac_kesim	isaret	ust_renk	kaynak
 5	derya	Derya Hanım	k	35	ince	oval	?	?	bere	renkli	metin
 5	efe	Efe	c	8	ufak	yuvarlak	?	?	-	sari	metin
 5	ismet	İsmet Usta	e	75	orta	?	?	?	gozluk,onluk	kahve	metin
-7	suheyla	Süheyla Hanım	k	55	tombul	yuvarlak	siyah	geriye	gozluk	krem	metin
-7	nesrin	Nesrin Hanım	k	58	ince	kemikli	koyu_kahve	orgu	gozluk,onluk	siyah	metin
-7	sukru	Şükrü Bey	e	64	ufak	uzun	beyaz	kel	biyik,papyon	kahve	metin
-7	vedat	Vedat Bey	e	50	iri	yuvarlak	kir	kel	sakal,gozluk	bordo	resim
-7	kaan	Kaan	e	28	ufak	yuvarlak	sari	kisa	gozluk,cil	lacivert	metin
-7	ercan	Ercan (vale)	e	38	ince	kare	siyah	geriye	yelek	siyah	metin
-7	necmi	Necmi	e	55	iri	uzun	kir	cok_kisa	bere,altin_dis	renkli	metin
 8	bahar	Bahar Hanım	k	52	iri	yuvarlak	platin	kisa	-	renkli	metin
-8	tarkan	Tarkan / Ozan	e	34	ince	kare	sari	kisa	yara_izi,yelek	lacivert	metin
+8	tarkan	Tarkan / Ozan	e	34	ince	kare	siyah	cok_kisa	yara_izi	gri	metin
 8	nevzat	Nevzat Bey	e	47	tombul	yuvarlak	koyu_kahve	kisa	biyik,gozluk,kolluk	beyaz	metin
 8	fikret	Fikret Usta	e	63	iri	kare	beyaz	at_kuyrugu	dovme	beyaz	metin
 8	nihat	Nihat Kora	e	55	ince	uzun	kir	uzun_dalgali	-	beyaz	metin
