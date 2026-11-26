@@ -1,5 +1,12 @@
 # Vaka 8 — resim durumu
 
+**26 Kasım 2026, 22:20 — PARTİ 3 TAMAM: VAKA 8'İN 134 RESMİNİN HEPSİ ONAYLI.** G96–G134 bu akşam üretildi ve denetlendi; düzeltmeyle
+geçenler: G98 (kapı/paravan), G101 (Peri saklanıyor), G106 ve G134 (mantoda düğme yok), G109 ve G112 (reçel kan gibi değil, vişne taneli),
+G117 (yüzlerde reçel yok), G119, G127, G128 (Nihat ağın içinde). Kalan reçelli istemlere önleyici not eklendi. Oğuz Bey'e sorulacak iki
+küçük göz bulgusu: G107 küpe inci (altın halka olmalı), G125 uzaktaki polis arabasında okunmayan şerit. El sayfaları G39–G134 hazır
+(`kaynak/YENI_UI/el/`, toplu `uretim/v8/el_p3_1..4.jpg`); el onayı Oğuz Bey'de, sonra commit. Sırada `göm` (GOMME-8), kart afişi, masa
+kartı, portreler, `arac_kapi.js V8 resim`.
+
 **26 Kasım 2026, 20:40 — PARTİ 3 YARIDA (94/134 onaylı).** Gece döngüsü 04:16'da G95'te durdu (bilgisayar kapandı). G39–G95 denetlendi:
 düzeltmelerle geçenler onaylı; 20 resim gözle doğru ama araçta sınırda → Oğuz Bey "hepsi kalsın" (`vaka8_kapi.md`: G42, G57, G62, G63,
 G65, G67, G69, G71–G81, G86, G87). G90 (K157) Düzeltme 1 (bakışma). Döngü G90 + G96–G134 için yeniden çalışıyor. El onayı Parti 3 sonunda
