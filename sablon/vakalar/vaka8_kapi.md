@@ -45,3 +45,23 @@ Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha s
 - G9 | benzerlik | Fikret (siyah at kuyruğu, keçi sakalı — Oğuz Bey'in tarifi) ~ Kenan 1,64. Oğuz Bey "onaylı", 25 Kasım 2026.
 - G34 | benzerlik | Fikret'in kıyafet kartı ~ Kenan 1,44 ŞÜPHELİ — temel G9 için Oğuz Bey'in "onaylı"sı (25 Kasım 2026) karta da geçer.
 - G35 | benzerlik | Nihat'ın kıyafet kartı ~ Cengo 1,90 — temel G10 için Oğuz Bey'in "diğer karakterler iyi"si (25 Kasım 2026) karta da geçer.
+- G42 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G57 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G62 | yüz yönü (gözler sağa) | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G63 | yüz yönü (gözler sağa) | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G65 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G67 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G69 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G71 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G72 | tarz, benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G73 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G74 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G75 | yüz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G76 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G77 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G78 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G79 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G80 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G81 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G86 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G87 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.

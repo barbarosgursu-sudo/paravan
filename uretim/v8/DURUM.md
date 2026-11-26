@@ -1,5 +1,10 @@
 # Vaka 8 — resim durumu
 
+**26 Kasım 2026, 20:40 — PARTİ 3 YARIDA (94/134 onaylı).** Gece döngüsü 04:16'da G95'te durdu (bilgisayar kapandı). G39–G95 denetlendi:
+düzeltmelerle geçenler onaylı; 20 resim gözle doğru ama araçta sınırda → Oğuz Bey "hepsi kalsın" (`vaka8_kapi.md`: G42, G57, G62, G63,
+G65, G67, G69, G71–G81, G86, G87). G90 (K157) Düzeltme 1 (bakışma). Döngü G90 + G96–G134 için yeniden çalışıyor. El onayı Parti 3 sonunda
+toplu (G39–G134); onaylılar ondan sonra commit edilir.
+
 **26 Kasım 2026, 01:15 — PARTİ 3 İSTEMLERİ HAZIR (96 dosya, G39–G134), `istem_kontrol.sh` çıkış 0.** 3a: 43 ifade (yalnız satırların
 istedikleri; hâller onluk8 G47, manto8_son G51 temelleriyle; Cengo `sofor_dugmesiz` G59–G60). 3b: 6 detay (D28–D33), 47 kare (K155–K201;
 seçim karesi K186, karar kareleri K192–K195). Yeni zeminler: peri.onluk8 gri-mavi, peri.manto8_son ve cengo.sofor_dugmesiz açık bej.
