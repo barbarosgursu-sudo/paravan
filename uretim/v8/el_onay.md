@@ -122,3 +122,4 @@ El sayfasına (python kaynak/arac_el.py --sayfa V8 G<n>) bakılıp her elin kend
 - G132 383069dcc42c
 - G133 457055d21fe1
 - G134 99815ab5d2b3
+- G135 90974d828463

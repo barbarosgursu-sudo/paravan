@@ -142,3 +142,4 @@ denemeleri listede yok (seçilen `G<n>.png` olur). Kart afişi ve masa kartı g�
 | G132 | ara kare | Kulis: Peri aynanın önünde telefonla konuşuyor (yalnız) | `K199` | (istemde) | Parti 3b |
 | G133 | ara kare | Yüzleşme açılışı: Peri paravanın arkasından önlükle çıkıyor; herkes ona dönmüş | `K200` | (istemde) | Parti 3b |
 | G134 | ara kare | Konuşma: Cengo çıkarken paravanın üstündeki kırmızı mantoyu koluna alıyor; Peri ile Gizem görmüyor | `K201` | (istemde) | Parti 3b |
+| G135 | kart afişi | Kart afişi: İade (Peri, Cengo; arkada Bahar, Nevzat, Fikret, Tarkan) | `KART_V8` | (istemde) | gömme |
