@@ -10,7 +10,7 @@
 
 > ## ✅ ORTAKTAN NOT — VAKA 8 GÖMÜLDÜ (27 Kasım 2026 sabah, Oğuz Bey'in bilgisayarı)
 > 134 resim + kart afişi onaylı; 121 görsel gömüldü, boylar, `kart_v8`, `masa_v8`, 7 portre. Resim kapısı GEÇTİ (23 K11 "kalsın"),
-> doğrulayıcı PASS, 8 test. Ayrıntı ve bilerek bırakılan yer tutucular `uretim/v8/DURUM.md` en üst. Sırada: V8 görselli tur, sonra V5→1 resimleri.
+> doğrulayıcı PASS, 8 test. Ayrıntı ve bilerek bırakılan yer tutucular `uretim/v8/DURUM.md` en üst. Görselli tur (sifre · dogru, --hepsi) temiz: JS hatası yok, taşma yok; tek bayrak 169 (Gizem ekranda, yanlış alarm). Sırada: V5→1 resimleri.
 
 > ## 🖼️ ORTAKTAN NOT — VAKA 8 RESİMLERİNE HAZIRLIK (25 Kasım 2026 gece, Oğuz Bey'in bilgisayarı)
 > V8 hikâyesi bugünkü araçlarla yeniden denetlendi (doğrulayıcı PASS, kapı V8 hikaye GEÇTİ, 8 test). V7'den sonraki kurallar uygulandı:
