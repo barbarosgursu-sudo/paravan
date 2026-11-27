@@ -1,5 +1,11 @@
 # Vaka 8 — resim durumu
 
+**27 Kasım 2026, 05:00 — GÖMME BAŞLADI.** 134 resim onaylı ve kaydedildi (G92, G100 el düzeltmesi; G107 bagaj boş; G125 polis aracı orta
+planda, amblem rötuşla silindi). Kart afişi G135 onaylı (Düzeltme 1: kadro yukarıda). V8 konuk boyları GOMME-13'e yazıldı (Oğuz Bey): Bahar
+1,00 · Tarkan 1,02 · Nevzat 1,00 · Fikret 1,06 · Nihat 1,05 · Emir 0,93 · Pınar 0,96 · Yusuf 0,85. Önizleme çok yavaştı (figür başına
+~5 dk, BiRefNet her figürde yeniden yükleniyor) → durduruldu, doğrudan `arac_paket.js --yaz` (PARAVAN_IPLIK=4, profiller: kilik/onluk8
+peri_mavi, Nihat konuk_beyaz_delik). Sonra: boy ölçeği `gorseller.json → boy`, kart_v8 + masa_v8, 5 portre, `arac_kapi.js V8 resim`, tur.
+
 **26 Kasım 2026, 22:20 — PARTİ 3 TAMAM: VAKA 8'İN 134 RESMİNİN HEPSİ ONAYLI.** G96–G134 bu akşam üretildi ve denetlendi; düzeltmeyle
 geçenler: G98 (kapı/paravan), G101 (Peri saklanıyor), G106 ve G134 (mantoda düğme yok), G109 ve G112 (reçel kan gibi değil, vişne taneli),
 G117 (yüzlerde reçel yok), G119, G127, G128 (Nihat ağın içinde). Kalan reçelli istemlere önleyici not eklendi. Oğuz Bey'e sorulacak iki
