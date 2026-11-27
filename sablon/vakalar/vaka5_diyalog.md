@@ -153,7 +153,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: Nedim saatin o gün yola çıktığını bilmiyordu (çırağın sözü) — bilen Kadir ya da Selim. Salı vapuru Nedim'i şüpheli gösterir, masum açıklaması var.
 
 *Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan}
-*Bembeyaz saçları kısacık kesilmiş, keçi sakallı, fularlı, bastonlu, ufak tefek yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
+*Bembeyaz saçlarını ensesinde at kuyruğu yapmış, keçi sakallı, fularlı, bastonlu, tombul yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
 **NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. {gir: nedim, kime: peri, ekran: peri+nedim, yuz: peri.normal}
 **NEDİM [normal]:** Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli. {ekran: peri+nedim, yuz: peri.normal}
 **PERİ [kas]:** Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey. {ekran: peri+nedim, yuz: nedim.normal}

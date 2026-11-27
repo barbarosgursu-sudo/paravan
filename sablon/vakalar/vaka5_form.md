@@ -314,12 +314,12 @@ saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne o
 **Yeni yan karakterlerin görünüşü 🟢** (öncekilerden ayrışır):
 - **Muammer Bey:** 60'larında, kemikli yüz, koyu kahveye boyalı fönlü kabarık saç, kalın bıyık, bir altın diş; bordo kadife ceket, cebinden saat
   zinciri sarkar (boş).
-- **Selim:** 58, uzun ve zayıf, kır kıvırcık saç, yorgun nazik yüz; eski kahverengi hırka, gri pardösü, elleri yağlı.
+- **Selim:** 58, uzun ve zayıf, kır kıvırcık saç, kısa kır sakal, yorgun nazik yüz (27 Kas: sakal — resim Nevzat'a benzedi); eski kahverengi hırka, gri pardösü, elleri yağlı.
 - **Kadir:** 40'larında, tombul, kırmızı yanaklı, kalın siyah bıyık; beyaz çaycı ceketi, elinde ince belli bardaklı tepsi.
-- **Nedim Bey:** 70'lerinde, ufak tefek, oval yüz, kısacık kesilmiş bembeyaz saç, bakımlı beyaz keçi sakalı; gri blazer, ipek fular, gümüş başlı baston.
+- **Nedim Bey:** 70'lerinde, tombul, yuvarlak yüz, bembeyaz saç ensede at kuyruğu, bakımlı beyaz keçi sakalı (27 Kas: kısa saçlı resim Şükrü'ye benzedi); gri blazer, ipek fular, gümüş başlı baston.
 - **Derya Hanım:** 30'larında, sportif, kısa kumral saç, bere, yağmurluk. **Efe** (8): kısa siyah saç, sarı yağmurluk, elinde simit poşeti (kural 16:
   çocuk yalnız masum çizilir).
-- **İskele görevlisi:** 50'lerinde, iri yarı, kare yüz, kısacık kumral saç, gür kumral bıyık; lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
+- **İskele görevlisi:** 50'lerinde, iri yarı, kare yüz, kısacık kumral saç, bıyıksız, kalın siyah çerçeveli gözlük (27 Kas: bıyıklı resim Muammer'e benzedi); lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
 - **İsmet Usta:** 68, tombul, kare yüz, siyaha boyalı geriye taranmış saç; deri önlük, gözlüğü burnunun ucunda.
 - **Simitçi:** yirmi yaşında, ince uzun, kısa kıvırcık kızıl saç; beyaz önlük, başında simit tablası.
 

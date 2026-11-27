@@ -42,3 +42,23 @@ A72 (gündüz) / A73 (akşam), ortak A6 yerine.
 | G22 | arka plan | Karaköy iskelesi: yanaşmış vapur, aralıklı ahşap tahtalar, halatlar, martılar (kapak V5) | `A42` | — |
 
 **Satır dökümü:** `satir_resim.md` (kapı V5 hikâye, dört yol; OTO 17 · İŞ 0 · SOR 0).
+
+## Parti 2 (27 Kasım 2026): temel figürler karttan, konukların kıyafet kartları
+
+Zeminler `zemin.tsv` (kartlardan `arac_zemin.py`; dördü de açık bej). İstemler `uret_istem_parti2.py`. Konuk kartlarının belden aşağısı Oğuz Bey'in onayına.
+
+| # | tür | ne | anahtar | bekler |
+|---|---|---|---|---|
+| G23 | figür | Peri, zümrüt yeşili ipek elbise + krem hırka, normal (temel; açık bej) | `peri.ipek.normal` | G1 |
+| G24 | figür | Peri, ipek elbise hırkasız, normal (temel; açık bej) | `peri.ipek_acik.normal` | G2 |
+| G25 | figür | Cengo, lacivert balıkçı yaka + kasket, normal (temel; açık bej) | `cengo.balikci.normal` | G3 |
+| G26 | figür | Gizem, kiremit örgü hırka (bu kıyafetin temeli; açık bej) | `gizem.hirka5` | G4 |
+| G27 | kıyafet kartı | Muammer Bey (tam boy) | — | G5 |
+| G28 | kıyafet kartı | Selim (tam boy) | — | G6 |
+| G29 | kıyafet kartı | Kadir (tam boy) | — | G7 |
+| G30 | kıyafet kartı | Nedim Bey (tam boy) | — | G8 |
+| G31 | kıyafet kartı | Derya Hanım (tam boy) | — | G9 |
+| G32 | kıyafet kartı | Efe (tam boy) | — | G10 |
+| G33 | kıyafet kartı | İskele görevlisi (tam boy) | — | G11 |
+| G34 | kıyafet kartı | İsmet Usta (tam boy) | — | G12 |
+| G35 | kıyafet kartı | Simitçi (tam boy) | — | G13 |

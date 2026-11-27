@@ -53,3 +53,7 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Görselin oranı TAM 4:5, dikey (1122×1402).
 ```
+
+## Düzeltme 1
+
+Benzerlik aracı KALDI iki kez (27 Kasım 2026): kısacık beyaz saçlı, ince yüzlü hâli V7'deki Şükrü Bey'e (kel, beyaz bıyıklı, uzun yüzlü yaşlı bey) çok benzedi. Nedim'in görünüşü değişti: TOMBUL, göbekli; yüzü YUVARLAK, dolgun yanaklı; BEMBEYAZ saçı UZUN, geriye taranmış, ENSESİNDE küçük bir AT KUYRUĞU (kel DEĞİL, kısa DEĞİL); çenesinde bakımlı beyaz KEÇİ SAKALI. Kıyafet ve baston aynı (gri blazer, açık mavi gömlek, ipek fular, gümüş başlı siyah baston). Şükrü'ye (kel, uzun yüzlü, papyonlu) ve Tahsin'e (ince uzun, gür dalgalı saç, gözlüklü) benzemiyor.

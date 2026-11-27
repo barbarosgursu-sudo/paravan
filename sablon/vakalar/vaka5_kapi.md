@@ -37,4 +37,8 @@ Vaka 5'in figürleri henüz üretilmedi (23 Kasım 2026: hepsi gri yer tutucu); 
 ## kalsın
 
 Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha sorulmaz.
+- G5 | benzerlik | temel figür; iki üretimde ŞÜPHELİ (Cengo 1,54 / Nihat 1,47, kalma 1,55); gözle benzemiyor — Oğuz Bey "kalsın" (27 Kasım 2026)
+- G8 | benzerlik | temel figür (at kuyruklu); dört üretimde KALDI (kısa saçlı Şükrü 1,99; at kuyruklu Rüstem 1,62–1,66); gözle ayrı (at kuyruğu, keçi sakalı, baston) — Oğuz Bey "kalsın" (27 Kasım 2026)
+- G11 | benzerlik | temel figür (bıyıksız, gözlüklü; gri-mavi); bıyıklı hâli Muammer'e KALDI, bu hâli iki kez ŞÜPHELİ (Haldun 1,42–1,47); gözle ayrı — Oğuz Bey "kalsın" (27 Kasım 2026)
+- G6 | benzerlik | temel figür (kır sakallı); döngüde GEÇTİ (Rıza 1,36), commit kapısında sınırda ŞÜPHELİ (Rıza 1,41); gözle ayrı — Oğuz Bey "kalsın" (27 Kasım 2026)
 - K4 | Sabah. Büro. Peri masada

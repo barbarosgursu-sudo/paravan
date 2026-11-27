@@ -53,3 +53,7 @@ Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
 
 Görselin oranı TAM 4:5, dikey (1122×1402).
 ```
+
+## Düzeltme 1
+
+Benzerlik aracı KALDI (27 Kasım 2026): yüz V8'deki Nevzat'a (zayıf, uzun, çökük yanaklı yüz) çok benzedi. Selim'in görünüşü değişti: çenesinde ve yanaklarında KISA, düzgün kesilmiş, KIR bir SAKAL (bıyıkla birleşik) var; yüzü uzun ama yanakları dolgun, çökük DEĞİL; saç aynı (kısa, kıvırcık, kır). Kıyafet aynı (eski kahverengi hırka, açık gri pardösü). Nevzat'a (bıyıksız, kabarık kumral saç, kolluklu) benzemiyor; Şükrü'ye (kel, papyonlu) ve Nihat'a (geriye taranmış kır saç, beyaz takım) benzemiyor.
