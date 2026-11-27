@@ -10,7 +10,7 @@ Yazım `vaka4_diyalog.md`'deki gibi. Vaka 5'in kıyafetleri (kıyafet hâli):
   `islak` (kovalamaca: elbise sırılsıklam, yosunlu, tek ayakkabı), `battaniye` (ıslak hâlin üstünde vapur battaniyesi —
   kovalamaca sonu ve kapanış).
 - **Cengo:** `balikci` (lacivert balıkçı yaka kazak, kahverengi kasket), `simitli` (kolunda ve kasketinde simitler — kovalamaca).
-- **Gizem:** `triko` (Vaka 4'teki sade kıyafet; yalnız kapanış).
+- **Gizem:** `hirka5` (V5'in kendi kıyafeti — SATIR-43, 27 Kasım 2026, Oğuz Bey: hardal rengi örgü hırka, beyaz gömlek, gri kumaş pantolon; yalnız kapanış).
 
 **İfadeler:** Peri'nin yeni ifadesi `yesil` (deniz tutmuş: solgun, dudakları sıkılı, bir eli midesinde) — vapur sahnelerinde.
 
@@ -28,7 +28,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheli (Kadir, Nedim) anılıyor, Selim suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (saati kime gösterdiği, üst güvertede kaç kişi olduğu, vapurun arandığı, çantanın ustası, saatin nereden alındığı).
 
 *Sabah. Büro. Peri masada; ince bir hırkanın altında zümrüt yeşili bir elbise. Cengo pencereden iskeleyi seyrediyor.* {ekran: peri+cengo, yuz: peri.normal+cengo.normal}
-*Kapı çalınıyor. İçeri papyonlu, tüvit yelekli, beyaz bıyıklı bir bey giriyor; elinde kadife bir kutu.* {gir: muammer, gi: kutu, ekran: muammer}
+*Kapı çalınıyor. İçeri bordo kadife ceketli, fönlü saçlı, kalın bıyıklı bir bey giriyor; elinde kadife bir kutu.* {gir: muammer, gi: kutu, ekran: muammer}
 **MUAMMER [normal]:** Paravan Dedektiflik? Ben Muammer. Çukurcuma'da otuz yıldır antikacıyım. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
 **PERİ [normal]:** Buyurun Muammer Bey, oturun. Sizi dinliyorum. {ekran: peri+muammer, yuz: muammer.normal}
 **MUAMMER [dertli]:** Salı günü saat ikide Karaköy'den Kadıköy vapuruna bindim. Çantamda bir cep saati vardı. {kime: peri, ekran: peri+muammer, yuz: peri.normal}
@@ -153,7 +153,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: Nedim saatin o gün yola çıktığını bilmiyordu (çırağın sözü) — bilen Kadir ya da Selim. Salı vapuru Nedim'i şüpheli gösterir, masum açıklaması var.
 
 *Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan}
-*Gümüş saçları geriye taranmış, fularlı, bastonlu yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
+*Beyaz saçları omzuna dökülen, fularlı, bastonlu, ufak tefek yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
 **NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. {gir: nedim, kime: peri, ekran: peri+nedim, yuz: peri.normal}
 **NEDİM [normal]:** Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli. {ekran: peri+nedim, yuz: peri.normal}
 **PERİ [kas]:** Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey. {ekran: peri+nedim, yuz: nedim.normal}
@@ -417,11 +417,11 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ arka: A8 · figurler: peri, cengo · set: battaniye · cset: simitli
 ⚙ akış: Büro, akşam. Peri battaniyeye sarınmış masada, tek ayakkabılı. Gizem pencerenin önünde (iskeleyi gören pencere). Cengo masanın kenarında, kasketinde hâlâ bir simit. Bağın iki hâli (kural 12a, eşik +1).
 
-*Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında yosun, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.* {gir: gizem, gi: triko, ekran: peri+gizem, yuz: peri.normal}
-**GİZEM [triko]:** Her şeyi buradan izledim. Martılar sizi çok sevdi, tatlım. {kime: peri, ekran: peri+gizem, yuz: peri.normal}
-**PERİ [kas]:** Martılar yosunları sevdi, Gizem. {gir: gizem, kime: gizem, ekran: peri+gizem, yuz: gizem.triko}
+*Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında yosun, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.* {gir: gizem, gi: hirka5, ekran: peri+gizem, yuz: peri.normal}
+**GİZEM [hirka5]:** Her şeyi buradan izledim. Martılar sizi çok sevdi, tatlım. {kime: peri, ekran: peri+gizem, yuz: peri.normal}
+**PERİ [kas]:** Martılar yosunları sevdi, Gizem. {gir: gizem, kime: gizem, ekran: peri+gizem, yuz: gizem.hirka5}
 *Cengo masanın kenarına ilişmiş; kasketinde hâlâ bir simit takılı.* {kare: K89}
-**GİZEM [triko_isveli]:** Simitçi abiye selam söyle, Cengo. {gir: gizem, kime: cengo, ekran: cengo+gizem, yuz: cengo.normal}
+**GİZEM [hirka5_isveli]:** Simitçi abiye selam söyle, Cengo. {gir: gizem, kime: cengo, ekran: cengo+gizem, yuz: cengo.normal}
 *Cengo kasketindeki simidi çıkarıp Peri'nin masasına bırakıyor.* {bag: dusuk, kare: K90}
 **CENGO [normal]:** Bu sana. Martılar görmesin. {bag: dusuk, kime: peri, ekran: peri+cengo, yuz: peri.kas}
 *Cengo çıkıyor. Peri simide bakıyor, yemiyor.* {bag: dusuk, kare: K90}
@@ -430,7 +430,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Peri kazağı battaniyenin altından giyiyor; kollar ellerinden uzun.* {bag: yuksek, kare: K91}
 **PERİ [kas]:** Bu arada beni deniz tutmadı. {bag: yuksek, kime: cengo, ekran: peri+cengo, yuz: cengo.yumusak}
 **CENGO [gulen]:** Biliyorum. {bag: yuksek, ekran: peri+cengo, yuz: peri.kas}
-**GİZEM [triko]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
+**GİZEM [hirka5]:** Hıh. {bag: yuksek, gir: gizem, kime: peri, ekran: peri+gizem, yuz: peri.kas}
 
 ---
 
@@ -480,4 +480,4 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka5_
 | Görevli | normal | kadikoy_iskele |
 | İsmet | normal | deri_ustasi |
 | Simitçi | normal, ofkeli | vapur_cayci, yüzleşme, kovalamaca |
-| Gizem | triko, triko_isveli | kapanış |
+| Gizem | hirka5, hirka5_isveli | kapanış |

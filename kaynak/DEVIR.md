@@ -8,6 +8,13 @@
 
 ---
 
+> ## 🔎 ORTAKTAN NOT — VAKA 5 RESİMLERİ ÖNCESİ DENETİM (27 Kasım 2026, Oğuz Bey'in bilgisayarı)
+> V5 metni bugünkü kurallarla denetlendi: doğrulayıcı PASS, kapı V5 hikâye GEÇTİ, 8 test, sigara yok. Düzeltilen (Oğuz Bey onayladı):
+> **benzerlik bütün vakalarla** — Muammer (Sarkis, Şükrü, Çaycı…) → bordo kadife ceket, fönlü koyu kahve saç, kalın bıyık, altın diş;
+> Nedim (Tahsin) → ufak tefek, omzuna dökülen beyaz dalgalı saç; İsmet → tombul, kare yüz, siyaha boyalı geriye saç; Derya, Efe saçları
+> dolduruldu (`adaylar.tsv`, form §16, diyalog anlatısı). **SATIR-43:** Gizem V5'te V6'nın `triko`'sunu giyiyordu → `hirka5` (hardal örgü
+> hırka, beyaz gömlek, gri pantolon), `hirka5`/`hirka5_isveli` yer tutucu. `arac_benzerlik.js 0 1 2 3 4 5` V5 için temiz. Sırada V5 resimleri.
+
 > ## 💻 ORTAKTAN NOT — VAKA 8'DE BİLGİSAYAR NEREDE ZORLANDI (27 Kasım 2026, Oğuz Bey'in isteği)
 > Oğuz Bey'in bilgisayarı: Intel i5-6200U (2 çekirdek), 8 GB bellek, yapay zekâ için kullanılabilir ekran kartı yok — ağır iş hep işlemcide.
 > 1. **Figür kesimi (en ağır):** 56 figür × ~5 dk ≈ 2 saat, işlemci tam yükte. Sebep: `arac_kes_yz.py` ~1 GB BiRefNet modelini HER figürde

@@ -141,7 +141,9 @@
             "triko_tepsi_telefon",
             "triko_aski",
             "triko_kahve",
-            "kazak8"
+            "kazak8",
+            "hirka5",
+            "hirka5_isveli"
           ]
         },
         "sedat": {"ad": "Sedat", "ifadeler": ["normal", "tablet"]},
@@ -7042,7 +7044,7 @@
               },
               {
                 "k": "not",
-                "m": "Gümüş saçları geriye taranmış, fularlı, bastonlu yaşlı bir bey.",
+                "m": "Beyaz saçları omzuna dökülen, fularlı, bastonlu, ufak tefek yaşlı bir bey.",
                 "gir": "nedim",
                 "gi": "normal",
                 "ekran": "nedim"
@@ -7614,7 +7616,7 @@
             },
             {
               "k": "not",
-              "m": "Kapı çalınıyor. İçeri papyonlu, tüvit yelekli, beyaz bıyıklı bir bey giriyor; elinde kadife bir kutu.",
+              "m": "Kapı çalınıyor. İçeri bordo kadife ceketli, fönlü saçlı, kalın bıyıklı bir bey giriyor; elinde kadife bir kutu.",
               "gir": "muammer",
               "gi": "kutu",
               "ekran": "muammer"
@@ -8429,13 +8431,13 @@
               "k": "not",
               "m": "Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında yosun, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.",
               "gir": "gizem",
-              "gi": "triko",
+              "gi": "hirka5",
               "ekran": "peri+gizem",
               "yuz": "peri.normal"
             },
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "hirka5",
               "m": "Her şeyi buradan izledim. Martılar sizi çok sevdi, tatlım.",
               "kime": "peri",
               "ekran": "peri+gizem",
@@ -8448,12 +8450,12 @@
               "gir": "gizem",
               "kime": "gizem",
               "ekran": "peri+gizem",
-              "yuz": "gizem.triko"
+              "yuz": "gizem.hirka5"
             },
             {"k": "not", "m": "Cengo masanın kenarına ilişmiş; kasketinde hâlâ bir simit takılı.", "kare": "K89"},
             {
               "k": "gizem",
-              "i": "triko_isveli",
+              "i": "hirka5_isveli",
               "m": "Simitçi abiye selam söyle, Cengo.",
               "gir": "gizem",
               "kime": "cengo",
@@ -8504,7 +8506,7 @@
             {"k": "cengo", "i": "gulen", "m": "Biliyorum.", "bag": "yuksek", "ekran": "peri+cengo", "yuz": "peri.kas"},
             {
               "k": "gizem",
-              "i": "triko",
+              "i": "hirka5",
               "m": "Hıh.",
               "bag": "yuksek",
               "gir": "gizem",

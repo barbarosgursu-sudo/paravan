@@ -279,7 +279,7 @@ saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne o
 - **Peri'nin felaket kıyafeti:** aynı elbise sırılsıklam, yosunlu, saç ıslak; tek ayakkabı. Kapanışta üstünde vapur
   battaniyesi (bağ yüksekse Cengo'nun kazağı).
 - **Cengo'nun felaket hâli:** kolunda ve kasketinde dizili simitler.
-- **Gizem:** sade (önceki kıyafeti ya da yeni sade bir kart; adım 8'de).
+- **Gizem (yeni):** `hirka5` — hardal rengi örgü hırka, beyaz gömlek, gri kumaş pantolon (27 Kasım 2026, Oğuz Bey; SATIR-43).
 
 ## 15. Mekânlar
 
@@ -312,15 +312,15 @@ saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne o
 | Kart afişi + kapak + masa kartı | adım 8 (G) |
 
 **Yeni yan karakterlerin görünüşü 🟢** (öncekilerden ayrışır):
-- **Muammer Bey:** 60'larında, kel, kalın beyaz bıyık, kemik çerçeveli gözlük; tüvit yelek, papyon, cebinden saat
+- **Muammer Bey:** 60'larında, kemikli yüz, koyu kahveye boyalı fönlü kabarık saç, kalın bıyık, bir altın diş; bordo kadife ceket, cebinden saat
   zinciri sarkar (boş).
 - **Selim:** 58, uzun ve zayıf, kır kıvırcık saç, yorgun nazik yüz; eski kahverengi hırka, gri pardösü, elleri yağlı.
 - **Kadir:** 40'larında, tombul, kırmızı yanaklı, kalın siyah bıyık; beyaz çaycı ceketi, elinde ince belli bardaklı tepsi.
-- **Nedim Bey:** 70'lerinde, sinekkaydı traş, gümüş geriye taranmış saç; lacivert blazer, ipek fular, gümüş başlı baston.
-- **Derya Hanım:** 30'larında, sportif, bere, yağmurluk. **Efe** (8): sarı yağmurluk, elinde simit poşeti (kural 16:
+- **Nedim Bey:** 70'lerinde, ufak tefek, oval yüz, sinekkaydı traş, omzuna dökülen beyaz dalgalı saç; lacivert blazer, ipek fular, gümüş başlı baston.
+- **Derya Hanım:** 30'larında, sportif, kısa kumral saç, bere, yağmurluk. **Efe** (8): kısa siyah saç, sarı yağmurluk, elinde simit poşeti (kural 16:
   çocuk yalnız masum çizilir).
 - **İskele görevlisi:** 50'lerinde, lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
-- **İsmet Usta:** 70'lerinde, deri önlük, gözlüğü burnunun ucunda.
+- **İsmet Usta:** 68, tombul, kare yüz, siyaha boyalı geriye taranmış saç; deri önlük, gözlüğü burnunun ucunda.
 - **Simitçi:** genç, beyaz önlük, başında simit tablası.
 
 **Kişiler (künye):**
