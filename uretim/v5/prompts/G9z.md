@@ -1,0 +1,55 @@
+# G9z — Derya Hanım, normal (temel) — ZEMİN DENEMESİ (gri-mavi)
+
+- tür: figür · anahtar: `derya.normal`
+- önce hazır olmalı: yok
+- zemin denemesi: asıl G9 (açık bej); bu dosya yalnız zemin rengiyle ayrılır (H4)
+
+## Referanslar (bu sırayla ekle; istemdeki "birinci referans" = 1.)
+
+1. `../referanslar/tarz_govde_kadin.jpg` — YALNIZ tarz, ölçek, kadraj (başı silik)
+2. `../referanslar/tarz_ornek_erkek.jpg` — YALNIZ çizim tarzı örneği (kişi, kıyafet, poz alınmaz)
+
+## Satırlar
+
+`arac_satir_resim.js` (27 Kasım 2026, V5 dört kapı yolu: 0 vapur dogru, 2 iskele zayif, 0 usta kadir, 3 cozmez5 nedim). Codex bu bölümü istem metnine katmaz.
+
+- *anlatı*: Sarı yağmurluklu küçük bir çocuk martılara simit atıyor. Yanında bereli, sportif bir kadın.  _(dinliyor)_
+- **cengo**: (kollarını açıp martı gibi bağırarak) Kiyaaa!  _(dinliyor)_
+- **derya**: Efe, abiyi rahat bırak. Kusura bakmayın; her salı bu vapurdayız, martılar için.
+- **peri**: Geçen salı, ikide kalkan vapurda da burada mıydınız?  _(dinliyor)_
+- **derya**: Bütün yol buradaydık. Efe martıları bırakmaz, ben de onu bırakmam.
+- **cengo**: Yukarıda sizden başka kim vardı?  _(dinliyor)_
+
+## Kontrol
+
+otuz beş yaşında · İNCE, sportif · OVAL yüz · KISA KUMRAL saç · açık gri yün BERE · kırmızı-lacivert, dize inen YAĞMURLUK · kot pantolon · eller boş · çekicilik pozu YOK · Ayla'ya, Pınar'a, Eylül'e benzemiyor · zemin gri-mavi
+
+## İstem
+
+```text
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+
+Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
+
+Derya Hanım: otuz beş yaşında, sportif, güler yüzlü bir anne. İnce, dinç. OVAL bir yüz. Saçı KISA, KUMRAL, düz; başında yün, açık gri bir BERE. Üstünde DİZE kadar inen, KIRMIZI-LACİVERT renkli, fermuarlı bir YAĞMURLUK; altında kot pantolon. Makyajsız, doğal. Ayla Hanım'a, Pınar'a ve Eylül'e benzemiyor: Derya kısa kumral saçlı, bereli, yağmurluklu, sade bir anne.
+
+Poz: TAM İKİ KOL, İKİ EL. Bir eli yağmurluğunun cebinde, öbürü gövdesinin yanında; elleri boş: poşet, simit YOK.
+
+Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
+
+İfade: güler yüzlü, biraz mahcup; dudaklar kapalı, sıcak bir gülümseme.
+
+Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
+
+Boya dokusu yüzde, saçta ve ışıkta; kumaş pürüzsüz, yumuşak geçişli.
+
+Kadraj: DİKEY 4:5. Tek kişi, ayakta, kadrajın ortasında. Uyluk ortasından yukarısı; başın tepesinin üstünde ince bir boşluk. Arka plan: düz, tek renk gri-mavi; gölgesiz, dokusuz, lekesiz, renk geçişi yok (bilgisayarda doldurulmuş tek renk gibi); hiçbir nesne yok.
+
+Çıplaklık yok.
+
+Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur, yumuşak gölgeler, yüz çiziminin gerçekçiliği, renkler ve ölçek onun gibi olsun. Oradaki kişinin yüzünü, saçını, kıyafetini ve pozunu ALMA. Karikatür değil: doğal yüz oranları, abartısız ifade.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+
+Görselin oranı TAM 4:5, dikey (1122×1402).
+```

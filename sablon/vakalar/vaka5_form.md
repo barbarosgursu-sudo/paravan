@@ -274,12 +274,12 @@ saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne o
 ## 14. Kıyafet
 
 - **Peri (yeni) 🟢:** **zümrüt yeşili ince ipek elbise** (askılı, diz üstü, dökümlü — denize yanlış seçilmiş), **ince
-  topuklu siyah sandalet**, küçük inci küpe; saç açık, rüzgârda dağınık. Üstünde ince krem bir hırka (girişte çıkarır).
+  kırmızı stiletto, çorap yok** (27 Kasım 2026, Oğuz Bey), küçük inci küpe; saç açık, rüzgârda dağınık. Üstünde ince krem bir hırka (girişte çıkarır).
 - **Cengo (yeni):** **lacivert balıkçı yaka kazak**, kahverengi **kasket**, kot, bot; tel kazağın altında, gömlek cebinde.
 - **Peri'nin felaket kıyafeti:** aynı elbise sırılsıklam, yosunlu, saç ıslak; tek ayakkabı. Kapanışta üstünde vapur
   battaniyesi (bağ yüksekse Cengo'nun kazağı).
 - **Cengo'nun felaket hâli:** kolunda ve kasketinde dizili simitler.
-- **Gizem (yeni):** `hirka5` — hardal rengi örgü hırka, beyaz gömlek, gri kumaş pantolon (27 Kasım 2026, Oğuz Bey; SATIR-43).
+- **Gizem (yeni):** `hirka5` — kiremit rengi örgü hırka, krem gömlek, gri kumaş pantolon (27 Kasım 2026, Oğuz Bey; SATIR-43).
 
 ## 15. Mekânlar
 
@@ -316,12 +316,12 @@ saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne o
   zinciri sarkar (boş).
 - **Selim:** 58, uzun ve zayıf, kır kıvırcık saç, yorgun nazik yüz; eski kahverengi hırka, gri pardösü, elleri yağlı.
 - **Kadir:** 40'larında, tombul, kırmızı yanaklı, kalın siyah bıyık; beyaz çaycı ceketi, elinde ince belli bardaklı tepsi.
-- **Nedim Bey:** 70'lerinde, ufak tefek, oval yüz, sinekkaydı traş, omzuna dökülen beyaz dalgalı saç; lacivert blazer, ipek fular, gümüş başlı baston.
+- **Nedim Bey:** 70'lerinde, ufak tefek, oval yüz, kısacık kesilmiş bembeyaz saç, bakımlı beyaz keçi sakalı; gri blazer, ipek fular, gümüş başlı baston.
 - **Derya Hanım:** 30'larında, sportif, kısa kumral saç, bere, yağmurluk. **Efe** (8): kısa siyah saç, sarı yağmurluk, elinde simit poşeti (kural 16:
   çocuk yalnız masum çizilir).
-- **İskele görevlisi:** 50'lerinde, lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
+- **İskele görevlisi:** 50'lerinde, iri yarı, kare yüz, kısacık kumral saç, gür kumral bıyık; lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
 - **İsmet Usta:** 68, tombul, kare yüz, siyaha boyalı geriye taranmış saç; deri önlük, gözlüğü burnunun ucunda.
-- **Simitçi:** genç, beyaz önlük, başında simit tablası.
+- **Simitçi:** yirmi yaşında, ince uzun, kısa kıvırcık kızıl saç; beyaz önlük, başında simit tablası.
 
 **Kişiler (künye):**
 
@@ -381,6 +381,6 @@ iskele görevlisi, simitçi, Nermin Hanım (yalnız 3. kararda), çalar cep saat
 ## Ortağa sorular *(Onay 1: hepsi "uygun", 11 Kasım 2026)*
 
 1. ✅ Kanon: Peri'yi deniz tutar; Cengo çaycı Kadir'i tanır — eklensin mi?
-2. ✅ Peri: zümrüt yeşili ipek elbise + siyah topuklu sandalet; Cengo: lacivert balıkçı yaka + kahverengi kasket — uygun mu?
+2. ✅ Peri: zümrüt yeşili ipek elbise + kırmızı stiletto (27 Kasım: sandaletten değişti); Cengo: lacivert balıkçı yaka + kahverengi kasket — uygun mu?
 3. ✅ Yan karakterlerin görünüşleri (§16) uygun mu?
 4. ✅ Kararlar: dürüst olan "gerçek sahibi bul" para kaybettiriyor ama Cengo'nun hoşuna gidiyor — uygun mu?

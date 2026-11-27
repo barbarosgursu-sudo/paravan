@@ -34,7 +34,9 @@ vaka	id	ad	cins	yas	beden	yuz	sac_renk	sac_kesim	isaret	ust_renk	kaynak
 5	muammer	Muammer Bey	e	60	orta	kemikli	koyu_kahve	kabarik	biyik,altin_dis	bordo	metin
 5	selim	Selim	e	58	ince	uzun	kir	kisa_kivircik	hirka	kahve	metin
 5	kadir	Kadir	e	45	tombul	yuvarlak	siyah	kisa	biyik	beyaz	metin
-5	nedim	Nedim Bey	e	72	ufak	oval	beyaz	uzun_dalgali	-	lacivert	metin
+5	nedim	Nedim Bey	e	72	ufak	oval	beyaz	cok_kisa	sakal	gri	metin
 5	derya	Derya Hanım	k	35	ince	oval	kumral	kisa	bere	renkli	metin
 5	efe	Efe	c	8	ufak	yuvarlak	siyah	kisa	-	sari	metin
 5	ismet	İsmet Usta	e	68	tombul	kare	siyah	geriye	gozluk,onluk	kahve	metin
+5	gorevli	İskele görevlisi	e	56	iri	kare	kumral	cok_kisa	biyik	lacivert	metin
+5	simitci	Simitçi	e	20	ince	uzun	kizil	kisa_kivircik	onluk	beyaz	metin

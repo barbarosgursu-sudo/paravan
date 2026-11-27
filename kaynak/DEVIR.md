@@ -11,9 +11,11 @@
 > ## 🔎 ORTAKTAN NOT — VAKA 5 RESİMLERİ ÖNCESİ DENETİM (27 Kasım 2026, Oğuz Bey'in bilgisayarı)
 > V5 metni bugünkü kurallarla denetlendi: doğrulayıcı PASS, kapı V5 hikâye GEÇTİ, 8 test, sigara yok. Düzeltilen (Oğuz Bey onayladı):
 > **benzerlik bütün vakalarla** — Muammer (Sarkis, Şükrü, Çaycı…) → bordo kadife ceket, fönlü koyu kahve saç, kalın bıyık, altın diş;
-> Nedim (Tahsin) → ufak tefek, omzuna dökülen beyaz dalgalı saç; İsmet → tombul, kare yüz, siyaha boyalı geriye saç; Derya, Efe saçları
-> dolduruldu (`adaylar.tsv`, form §16, diyalog anlatısı). **SATIR-43:** Gizem V5'te V6'nın `triko`'sunu giyiyordu → `hirka5` (hardal örgü
-> hırka, beyaz gömlek, gri pantolon), `hirka5`/`hirka5_isveli` yer tutucu. `arac_benzerlik.js 0 1 2 3 4 5` V5 için temiz. Sırada V5 resimleri.
+> Nedim (Tahsin) → ufak tefek, kısacık bembeyaz saç, keçi sakalı, gri blazer; İsmet → tombul, kare yüz, siyaha boyalı geriye saç; Derya, Efe saçları
+> dolduruldu (`adaylar.tsv`, form §16, diyalog anlatısı). **SATIR-43:** Gizem V5'te V6'nın `triko`'sunu giyiyordu → `hirka5` (kiremit örgü
+> hırka, krem gömlek, gri pantolon), `hirka5`/`hirka5_isveli` yer tutucu. `arac_benzerlik.js 0 1 2 3 4 5` V5 için temiz. Peri kırmızı stiletto, çorap yok; V5'e kendi bürosu A72 (gündüz) / A73 (akşam). Sırada V5 resimleri (Oğuz Bey'in bilgisayarında, `uretim/v5/DURUM.md`).
+> **Kapı düzeltmesi (Oğuz Bey'in onayı):** `.claude/kapi_hook.js` (d) gömme artık yalnız DOSYASI olan resmin anahtarına bakar;
+> yer tutucu eklemek (A72/A73, `gizem.hirka5`) resmi olmayan V5'in resim kapısını açıp commit'i durduruyordu. Gerçek gömme eskisi gibi denetlenir.
 
 > ## 💻 ORTAKTAN NOT — VAKA 8'DE BİLGİSAYAR NEREDE ZORLANDI (27 Kasım 2026, Oğuz Bey'in isteği)
 > Oğuz Bey'in bilgisayarı: Intel i5-6200U (2 çekirdek), 8 GB bellek, yapay zekâ için kullanılabilir ekran kartı yok — ağır iş hep işlemcide.

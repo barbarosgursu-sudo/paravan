@@ -283,7 +283,9 @@
         "A68",
         "A69",
         "A70",
-        "A71"
+        "A71",
+        "A72",
+        "A73"
       ],
       "kareler": [
         "D1",
@@ -527,7 +529,7 @@
         "K200",
         "K201"
       ],
-      "buro": ["A6", "A6b", "A7", "A8", "A58", "A59", "A60", "A71"]
+      "buro": ["A6", "A6b", "A7", "A8", "A58", "A59", "A60", "A71", "A72", "A73"]
     }
   },
   "ekonomi": {"baslangic_kasa": 4250, "gider": {}, "borc_faizi": 0},
@@ -7044,7 +7046,7 @@
               },
               {
                 "k": "not",
-                "m": "Beyaz saçları omzuna dökülen, fularlı, bastonlu, ufak tefek yaşlı bir bey.",
+                "m": "Bembeyaz saçları kısacık kesilmiş, keçi sakallı, fularlı, bastonlu, ufak tefek yaşlı bir bey.",
                 "gir": "nedim",
                 "gi": "normal",
                 "ekran": "nedim"
@@ -7603,7 +7605,7 @@
       },
       "sahneler": {
         "giris": {
-          "arka": "A6",
+          "arka": "A72",
           "set": "ipek",
           "cset": "balikci",
           "figurler": ["peri", "cengo"],
@@ -7850,7 +7852,7 @@
           ]
         },
         "konusma": {
-          "arka": "A6",
+          "arka": "A72",
           "set": "ipek_acik",
           "cset": "balikci",
           "figurler": ["peri", "cengo"],
@@ -8266,7 +8268,7 @@
             {"k": "cengo", "i": "kas", "m": "Bedava dedin!", "kare": "K83"},
             {
               "k": "not",
-              "m": "Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; dalganın getirdiği yosunlar ıslak elbisesine yapışıyor.",
+              "m": "Üst güverte. Peri kırmızı stilettolarıyla merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; dalganın getirdiği yosunlar ıslak elbisesine yapışıyor.",
               "arka": "A37",
               "kare": "K84",
               "set": "islak",
@@ -8422,7 +8424,7 @@
           ]
         },
         "kapanis": {
-          "arka": "A8",
+          "arka": "A73",
           "set": "battaniye",
           "cset": "simitli",
           "figurler": ["peri", "cengo"],

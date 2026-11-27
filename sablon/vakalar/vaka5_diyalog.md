@@ -5,12 +5,12 @@
 `cd kaynak && node arac_diyalog.js ../sablon/vakalar/vaka5_diyalog.md V5`.
 
 Yazım `vaka4_diyalog.md`'deki gibi. Vaka 5'in kıyafetleri (kıyafet hâli):
-- **Peri:** `ipek` (zümrüt yeşili ince ipek elbise, üstünde krem hırka, siyah topuklu sandalet — dışarıda),
+- **Peri:** `ipek` (zümrüt yeşili ince ipek elbise, üstünde krem hırka, kırmızı stiletto, çorap yok — dışarıda),
   `ipek_acik` (hırka sandalyede: yalnız ipek elbise — yalnız büroda, giriş çekicilik anından sonra ve konuşma),
   `islak` (kovalamaca: elbise sırılsıklam, yosunlu, tek ayakkabı), `battaniye` (ıslak hâlin üstünde vapur battaniyesi —
   kovalamaca sonu ve kapanış).
 - **Cengo:** `balikci` (lacivert balıkçı yaka kazak, kahverengi kasket), `simitli` (kolunda ve kasketinde simitler — kovalamaca).
-- **Gizem:** `hirka5` (V5'in kendi kıyafeti — SATIR-43, 27 Kasım 2026, Oğuz Bey: hardal rengi örgü hırka, beyaz gömlek, gri kumaş pantolon; yalnız kapanış).
+- **Gizem:** `hirka5` (V5'in kendi kıyafeti — SATIR-43, 27 Kasım 2026, Oğuz Bey: kiremit rengi örgü hırka, krem gömlek, gri kumaş pantolon; yalnız kapanış).
 
 **İfadeler:** Peri'nin yeni ifadesi `yesil` (deniz tutmuş: solgun, dudakları sıkılı, bir eli midesinde) — vapur sahnelerinde.
 
@@ -23,7 +23,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ---
 
 ## sahne giris
-⚙ arka: A6 · figurler: peri, cengo · set: ipek · cset: balikci
+⚙ arka: A72 · figurler: peri, cengo · set: ipek · cset: balikci
 ⚙ akış: Büro, sabah. Peri masada hırkasıyla, Cengo pencerede iskeleyi seyrediyor. Muammer kapıdan girer, elinde kadife kutu. Çekicilik anı şüphelilerden sonra: Peri pencereyi açıp hırkasını çıkarır.
 ⚙ K17: büro, en az 15 satır (kural 5c), şüpheli (Kadir, Nedim) anılıyor, Selim suçlanmadan anılıyor, ücret kırk bin; ipucu bilgisi yok (saati kime gösterdiği, üst güvertede kaç kişi olduğu, vapurun arandığı, çantanın ustası, saatin nereden alındığı).
 
@@ -63,7 +63,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [kas]:** Pencereden bakınca da tutuyor. {ekran: peri+cengo, yuz: cengo.gulen}
 
 ## sahne konusma
-⚙ arka: A6 · figurler: peri, cengo · set: ipek_acik · cset: balikci
+⚙ arka: A72 · figurler: peri, cengo · set: ipek_acik · cset: balikci
 ⚙ akış: Muammer çıkmış; büroda Peri ve Cengo. Plan: vapur (Kadir ve üst güverte), Kadıköy iskelesi, Nedim Bey, Muammer'in dükkânı. İpucu adlarındaki kişiler (Kadir, Nedim, Muammer) girişte duyuldu (K18).
 
 *Kapı kapanıyor. Peri pencereyi hemen kapatıyor.* {kare: K79}
@@ -153,7 +153,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ⚙ Kural 21c: Nedim saatin o gün yola çıktığını bilmiyordu (çırağın sözü) — bilen Kadir ya da Selim. Salı vapuru Nedim'i şüpheli gösterir, masum açıklaması var.
 
 *Moda. Duvarları saatlerle kaplı bir oda; her biri başka bir saati gösteriyor. Vitrinlerde sıra sıra cep saatleri.* {arka: A39, mekan}
-*Beyaz saçları omzuna dökülen, fularlı, bastonlu, ufak tefek yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
+*Bembeyaz saçları kısacık kesilmiş, keçi sakallı, fularlı, bastonlu, ufak tefek yaşlı bir bey.* {gir: nedim, gi: normal, ekran: nedim}
 **NEDİM [normal]:** Muammer'in dedektifleri. Aradı, geleceğinizi söyledi. {gir: nedim, kime: peri, ekran: peri+nedim, yuz: peri.normal}
 **NEDİM [normal]:** Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli. {ekran: peri+nedim, yuz: peri.normal}
 **PERİ [kas]:** Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey. {ekran: peri+nedim, yuz: nedim.normal}
@@ -294,7 +294,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 *Selim merdivene koşuyor. Cengo peşinden atılırken simitçiyle çarpışıyor; tabla havaya uçuyor. Simitler Cengo'nun koluna ve kasketine geçiyor.* {kare: K83, cset: simitli}
 **SİMİTÇİ [ofkeli]:** Abi, parasını ver! {gir: simitci, kime: cengo, ekran: cengo+simitci, yuz: cengo.normal}
 **CENGO [kas]:** Bedava dedin! {kare: K83}
-*Üst güverte. Peri topuklu sandaletleriyle merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; dalganın getirdiği yosunlar ıslak elbisesine yapışıyor.* {arka: A37, kare: K84, set: islak, peri: sinirli}
+*Üst güverte. Peri kırmızı stilettolarıyla merdivenden çıkıyor. Bir dalga bordayı aşıp üstüne boşalıyor; dalganın getirdiği yosunlar ıslak elbisesine yapışıyor.* {arka: A37, kare: K84, set: islak, peri: sinirli}
 *Vapur Karaköy'e yanaşıyor. Selim halat atılmadan iskeleye atlıyor. Peri arkasından atlıyor; topuğu iskelenin tahtaları arasına sıkışıyor. Ayakkabıyı orada bırakıp tek topukla koşuyor.* {arka: A42, kare: K85}
 *Peri'nin üstündeki yosunları gören martılar ona saldırıyor. Peri çığlıkla koşarken Selim'in yanından geçiyor; sürü Selim'i de sarıyor. Selim saati korumak için ellerini göğsüne bastırıyor, bir halata takılıp düşüyor.* {kare: K86}
 **PERİ [sinirli]:** *(kollarını sallayarak)* Beni deniz tutmuyor. Deniz bana saldırıyor! {kare: K86}
@@ -414,7 +414,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 ---
 
 ## sahne kapanis
-⚙ arka: A8 · figurler: peri, cengo · set: battaniye · cset: simitli
+⚙ arka: A73 · figurler: peri, cengo · set: battaniye · cset: simitli
 ⚙ akış: Büro, akşam. Peri battaniyeye sarınmış masada, tek ayakkabılı. Gizem pencerenin önünde (iskeleyi gören pencere). Cengo masanın kenarında, kasketinde hâlâ bir simit. Bağın iki hâli (kural 12a, eşik +1).
 
 *Akşam. Büro. Peri vapurun battaniyesine sarınmış; saçında yosun, bir ayağı çıplak. Gizem pencerenin önünde, iskeleye bakıyor.* {gir: gizem, gi: hirka5, ekran: peri+gizem, yuz: peri.normal}
@@ -446,6 +446,8 @@ Görselsiz turda hepsi gri yer tutucu. Tam liste ve istemler adım 8'de (`vaka5_
 | A39 | Nedim Bey'in koleksiyon odası (Moda): duvarlar saatlerle kaplı, vitrinde cep saatleri | nedim |
 | A40 | Kadıköy çarşısında dar bir deri atölyesi: tezgâhta yarım çantalar, kayışlar | deri_ustasi |
 | A41 | Muammer'in dükkânı (Çukurcuma): tozlu vitrinler, gramofon, kasa, tezgâh | dukkan_cukurcuma |
+| A72 | Büro, gündüz (V5'in kendi bürosu; pencereden iskele) | giriş, konuşma |
+| A73 | Büro, akşam (A72'nin aynı açısı, masa lambası) | kapanış |
 | A42 | Karaköy iskelesi: yanaşmış vapur, ahşap iskele tahtaları, halatlar, martılar (yazı/logo yok) | vapur_cayci, ust_guverte, kovalamaca |
 | D14 | kadife kutuda parlak, ucuz bir cep saati (rakam okunmaz) | giriş |
 | D15 | Nedim'in duvarındaki saatler aynı anda çalıyor (yakın, rakam okunmaz) | ipucu nedim |

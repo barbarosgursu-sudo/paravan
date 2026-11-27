@@ -754,7 +754,9 @@
     "A68": {"ad": "Kurtuluş · gece", "grup": "atolye", "aksam": true},
     "A69": {"ad": "Sahil yolu · gece", "grup": "sahil", "aksam": true},
     "A70": {"ad": "Yeniköy · iskele", "grup": "yenikoy", "aksam": true},
-    "A71": {"ad": "Büro · akşam (V8)", "grup": "buro_aksam", "aksam": true}
+    "A71": {"ad": "Büro · akşam (V8)", "grup": "buro_aksam", "aksam": true},
+    "A72": {"ad": "Büro · gündüz (V5)", "grup": "buro_gunduz"},
+    "A73": {"ad": "Büro · akşam (V5)", "grup": "buro_aksam", "aksam": true}
   },
   "yer_tutucu": [
     "A30",
@@ -948,7 +950,9 @@
     "gizem.triko_kahve",
     "defne.bardak",
     "gizem.hirka5",
-    "gizem.hirka5_isveli"
+    "gizem.hirka5_isveli",
+    "A72",
+    "A73"
   ],
   "_not_yer_tutucu": "Görseli henüz üretilmemiş ifadeler. Ekranda gri 'görsel yok' kutusu çıkar (görselsiz test, şablon 7. parça adım 5). Görsel gelince dosyalar'a eklenir, buradan silinir.",
   "yer_tutucu_metin": {
@@ -996,6 +1000,8 @@
     "A40": "Kadıköy çarşısında dar bir deri atölyesi: tezgâhta yarım çantalar, kayışlar",
     "A41": "Muammer'in dükkânı (Çukurcuma): tozlu vitrinler, gramofon, kasa, tezgâh",
     "A42": "Karaköy iskelesi: yanaşmış vapur, ahşap iskele tahtaları, halatlar, martılar",
+    "A72": "Büro, gündüz (Vaka 5): kemerli pencereden Karaköy iskelesi ve vapur",
+    "A73": "Büro, akşam (Vaka 5): masa lambası, pencerede iskelenin ışıkları",
     "D14": "kadife kutuda parlak, ucuz bir cep saati",
     "D15": "Nedim'in duvarındaki saatler aynı anda çalıyor",
     "D16": "çanta astarına basılmış küçük deri damgası",

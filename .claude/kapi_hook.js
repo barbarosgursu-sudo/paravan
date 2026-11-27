@@ -8,6 +8,7 @@
 //  (a) kaynak/ değişiyorsa: doğrulayıcı (yeni oyun) + test_*.js — KOD-3. Biri geçmezse commit yok.
 //  (d) gömme: gorseller.json ya da yeni_gorsel/ değişiyorsa, değişen resmin VAKASI (Vaka 6+) resim kapısına girer — yalnız o vaka.
 //      Resim → vaka: anahtar uretim/v<N>/LISTE.md ya da sablon/vakalar/vaka<N>_gorsel.md'de geçiyor mu.
+//      Yalnız dosyası olan resim sayılır; yer tutucu eklemek gömme değildir (27 Kasım 2026).
 //  (e) diyalog: sablon/vakalar/vaka<N>_diyalog.md'nin SÖZLERİ değiştiyse (arac_soz_farki.js) commit yok — SATIR-11.
 //      Sahibi söz değişikliğini onayladıysa commit iletisine `[söz onaylı]` yazılır.
 //  (b) onay: uretim/v<N>/onayli/G<n>.png (Vaka 6+) kaydedilirken tarz, yüz ve benzerlik araçları yeniden koşar; GEÇTİ
@@ -154,11 +155,15 @@ const resimVaka = new Set();
   try { eskiG = JSON.parse(git(['show', 'HEAD:' + GJ]) || '{}'); } catch (e) {}
   try { yeniG = JSON.parse(fs.readFileSync(path.join(kok, GJ), 'utf8')); } catch (e) {}
   if (dosyalar.includes(GJ)) {
+    // 27 Kasım 2026 (Oğuz Bey): yalnız DOSYASI olan (gömülü ya da gömülen) resmin anahtarı sayılır. Resmi henüz olmayan
+    // yer tutucunun (yer_tutucu_metin, arka adı) eklenmesi gömme değildir; V5 Parti 1'de A72/A73 ve gizem.hirka5 yer
+    // tutucusu, resmi hiç olmayan vakanın resim kapısını açıp 50 "poz kaydı yok" bulgusuyla commit'i durduruyordu.
+    const dosyali = new Set([...Object.keys(eskiG.dosyalar || {}), ...Object.keys(yeniG.dosyalar || {})]);
     for (const b of new Set([...Object.keys(eskiG), ...Object.keys(yeniG)])) {
       if (b.startsWith('_')) continue;
       const e = eskiG[b] || {}, y = yeniG[b] || {};
       if (Array.isArray(e) || Array.isArray(y) || typeof e !== 'object' || typeof y !== 'object') continue;
-      for (const k of new Set([...Object.keys(e), ...Object.keys(y)])) if (!k.startsWith('_') && !ayni(e[k], y[k])) anahtar.add(k);
+      for (const k of new Set([...Object.keys(e), ...Object.keys(y)])) if (!k.startsWith('_') && dosyali.has(k) && !ayni(e[k], y[k])) anahtar.add(k);
     }
   }
   const dosyaAnahtar = {};

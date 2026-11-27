@@ -1,0 +1,55 @@
+# G8z — Nedim Bey, normal (temel) — ZEMİN DENEMESİ (gri-mavi)
+
+- tür: figür · anahtar: `nedim.normal`
+- önce hazır olmalı: yok
+- zemin denemesi: asıl G8 (açık bej); bu dosya yalnız zemin rengiyle ayrılır (H4)
+
+## Referanslar (bu sırayla ekle; istemdeki "birinci referans" = 1.)
+
+1. `../referanslar/tarz_govde_erkek.jpg` — YALNIZ tarz, ölçek, kadraj (başı silik)
+2. `../referanslar/tarz_ornek_erkek.jpg` — YALNIZ çizim tarzı örneği (kişi, kıyafet, poz alınmaz)
+
+## Satırlar
+
+`arac_satir_resim.js` (27 Kasım 2026, V5 dört kapı yolu: 0 vapur dogru, 2 iskele zayif, 0 usta kadir, 3 cozmez5 nedim). Codex bu bölümü istem metnine katmaz.
+
+- *anlatı*: Bembeyaz saçları kısacık kesilmiş, keçi sakallı, fularlı, bastonlu, ufak tefek yaşlı bir bey.  _(dinliyor)_
+- **nedim**: Muammer'in dedektifleri. Aradı, geleceğinizi söyledi.
+- **nedim**: Hanımefendi, bu ipek size antika bir saat kadar yakışmış. Muammer'in antika saatleri kadar da değerli.
+- **peri**: Teşekkür ederim. O saati iki kez istemişsiniz, Nedim Bey.  _(dinliyor)_
+- **nedim**: Her salı o vapura binerim. Kız kardeşim Cihangir'de; her salı ona çaya giderim. Kırk yıldır.
+- **nedim**: Bütün yol üst güvertedeydim. Bu yaşta deniz havası ilaçtır.
+
+## Kontrol
+
+yetmiş iki yaşında · UFAK TEFEK · OVAL yüz · BEMBEYAZ, KISACIK saç (geriye taranmış ya da dalgalı DEĞİL) · BEYAZ KEÇİ SAKALI · gözlük YOK · GRİ blazer, ipek FULAR · GÜMÜŞ başlı siyah BASTON tek elde · Tahsin'e, Yusuf'a, Rüstem'e benzemiyor · zemin gri-mavi
+
+## İstem
+
+```text
+Yarı gerçekçi dijital illüstrasyon, boyalı görsel roman karakter çizimi. Gerçek insan oranları, ama fotoğraf değil: belirgin, temiz kontur çizgileri, yumuşak boyalı gölgeler, sıcak ve canlı renkler. Animasyon filmi afişi ile modern çizgi roman arası bir tarz. Anime değil, çocuk çizgi filmi değil, fotoğraf değil.
+
+Referans görsel YALNIZ çizim tarzı, renk, ölçek ve kadraj içindir. Başı bilerek silindi: yüzü sıfırdan, aşağıdaki tarife göre çiz; referanstaki kişinin bedenini, kıyafetini ve POZUNU alma. Bu yepyeni, kimseye benzemeyen bir kişi.
+
+Nedim Bey: yetmiş iki yaşında, alaycı, zarif bir saat koleksiyoncusu. UFAK TEFEK, kısa boylu, ince. OVAL bir yüz. Saçı BEMBEYAZ, KISACIK kesilmiş (kafa derisine yakın). Çenesinde bakımlı, sivri, BEYAZ bir KEÇİ SAKALI; bıyığı ince, sakalla birleşik. Gözlük YOK. Üstünde GRİ, iyi dikilmiş bir BLAZER ceket, açık mavi gömlek; boynunda bordo-lacivert desenli İPEK bir FULAR. Koyu gri pantolon. Bir elinde GÜMÜŞ başlı, siyah, ince bir BASTON. Tahsin Usta'ya (ince uzun, gür dalgalı beyaz saç, kalın gözlük, önlük) benzemiyor; Yusuf Efendi'ye (uzun beyaz saç, kasket, hırka) ve Rüstem Bey'e (iri, geriye taranmış beyaz saç, bıyık) benzemiyor: Nedim ufak tefek, kısacık beyaz saçlı, keçi sakallı.
+
+Poz: TAM İKİ KOL, İKİ EL. Bir eli gümüş başlı bastonun başında, baston yere dayalı; öbür eli gövdesinin yanında, boş.
+
+Başın açısı: burnu kadrajın soluna bakıyor; yüzü üç çeyrek, iki göz de görünüyor. Gözler kadrajın soluna, yatay bakıyor; yukarı, aşağı ya da kameraya değil. Profil değil: uzaktaki göz de açıkça görünüyor.
+
+İfade: alaycı, kendinden emin; tek kaşı hafif kalkık, dudaklar kapalı, ince bir gülümseme.
+
+Saçın dış çizgisi toplu ve net: arka plana taşan ince tek teller, havada kıvrılan uçlar yok.
+
+Boya dokusu yüzde, saçta ve ışıkta; kumaş pürüzsüz, yumuşak geçişli.
+
+Kadraj: DİKEY 4:5. Tek kişi, ayakta, kadrajın ortasında. Uyluk ortasından yukarısı; başın tepesinin üstünde ince bir boşluk. Arka plan: düz, tek renk gri-mavi; gölgesiz, dokusuz, lekesiz, renk geçişi yok (bilgisayarda doldurulmuş tek renk gibi); hiçbir nesne yok.
+
+Çıplaklık yok.
+
+Son referans YALNIZ bitmiş çizim tarzı örneğidir: boya dokusu, ince kontur, yumuşak gölgeler, yüz çiziminin gerçekçiliği, renkler ve ölçek onun gibi olsun. Oradaki kişinin yüzünü, saçını, kıyafetini ve pozunu ALMA. Karikatür değil: doğal yüz oranları, abartısız ifade.
+
+Görselde hiçbir yazı, harf, rakam, logo ya da etiket olmasın.
+
+Görselin oranı TAM 4:5, dikey (1122×1402).
+```
