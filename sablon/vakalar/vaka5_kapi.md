@@ -41,4 +41,6 @@ Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha s
 - G8 | benzerlik | temel figür (at kuyruklu); dört üretimde KALDI (kısa saçlı Şükrü 1,99; at kuyruklu Rüstem 1,62–1,66); gözle ayrı (at kuyruğu, keçi sakalı, baston) — Oğuz Bey "kalsın" (27 Kasım 2026)
 - G11 | benzerlik | temel figür (bıyıksız, gözlüklü; gri-mavi); bıyıklı hâli Muammer'e KALDI, bu hâli iki kez ŞÜPHELİ (Haldun 1,42–1,47); gözle ayrı — Oğuz Bey "kalsın" (27 Kasım 2026)
 - G6 | benzerlik | temel figür (kır sakallı); döngüde GEÇTİ (Rıza 1,36), commit kapısında sınırda ŞÜPHELİ (Rıza 1,41); gözle ayrı — Oğuz Bey "kalsın" (27 Kasım 2026)
+- G27 | benzerlik | Muammer'in kıyafet kartı (oyuna gömülmez); --kim ile KALDI Cengo 1,69 — temelin (G5) kalsın'ı; Oğuz Bey kartları onayladı (27 Kasım 2026)
+- G29 | benzerlik | Kadir'in kıyafet kartı (oyuna gömülmez); --kim ile ŞÜPHELİ İsmet 1,41; gözle ayrı — Oğuz Bey kartları onayladı (27 Kasım 2026)
 - K4 | Sabah. Büro. Peri masada

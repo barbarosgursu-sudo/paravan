@@ -2,6 +2,11 @@
 
 > **Üretim Oğuz Bey'in bilgisayarında** (27 Kasım 2026'dan beri). İki bilgisayar aynı vakayı aynı anda üretmez.
 
+**27 Kasım 2026, 23:50 — PARTİ 2 TAMAM: 13/13 ONAYLI, el onayı (Oğuz Bey).** Döngü 23:25–23:41, hepsi ilk üretimde. Temeller:
+G23 Peri ipek, G24 Peri ipek_acik, G25 Cengo balikci, G26 Gizem hirka5 (hepsi açık bej). Konuk kartları G27–G35 (benzerlik `--kim`
+ile elle: G27 Muammer ~ Cengo 1,69 ve G29 Kadir ~ İsmet 1,41 → kalsın, Oğuz Bey kartları onayladı). Sırada Parti 3: ifadeler (satırların
+istediği — SATIR-35), nesneli pozlar, hâller (islak, battaniye, simitli, yesil), detaylar D14–D17, kareler K79–K95, kart afişi.
+
 **27 Kasım 2026, 23:10 — PARTİ 1 TAMAM: 22/22 ONAYLI** (el onayı Oğuz Bey'de, sonra commit). Döngü 21:47–22:57.
 Benzerlik aracı yaşlı erkek konuklarda çok takıldı: Selim (Nevzat'a) → kısa kır sakal; Nedim (Şükrü'ye) → tombul, beyaz at kuyruğu,
 keçi sakalı; görevli (Muammer'e) → bıyıksız, kalın siyah gözlük. Oğuz Bey "kalsın": G5 Muammer (ŞÜPHELİ Cengo/Nihat), G8 Nedim (KALDI
