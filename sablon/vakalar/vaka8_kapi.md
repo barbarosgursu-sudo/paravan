@@ -53,7 +53,8 @@ Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha s
 - G67 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
 - G69 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
 - G71 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
-- G72 | tarz, benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G72 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
+- G72 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
 - G73 | tarz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
 - G74 | benzerlik | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
 - G75 | yüz | Parti 3; gözle doğru, araçta sınırda (konuklarda temeldeki kalsın'ın devamı). Oğuz Bey "hepsi kalsın", 26 Kasım 2026.
