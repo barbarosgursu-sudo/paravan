@@ -8,6 +8,17 @@
 
 ---
 
+> ## 💻 ORTAKTAN NOT — VAKA 8'DE BİLGİSAYAR NEREDE ZORLANDI (27 Kasım 2026, Oğuz Bey'in isteği)
+> Oğuz Bey'in bilgisayarı: Intel i5-6200U (2 çekirdek), 8 GB bellek, yapay zekâ için kullanılabilir ekran kartı yok — ağır iş hep işlemcide.
+> 1. **Figür kesimi (en ağır):** 56 figür × ~5 dk ≈ 2 saat, işlemci tam yükte. Sebep: `arac_kes_yz.py` ~1 GB BiRefNet modelini HER figürde
+>    yeniden yüklüyor. Önerilen iyileştirme: modeli bir kez yükleyip bütün figürleri tek süreçte kesmek (ölçülmedi).
+> 2. **Denetim araçları:** tarz, yüz, benzerlik her resimde işlemcide model koşuyor (~190 resim); commit kapısı onaylı resimde üçünü yeniden
+>    koşuyor — her resim iki kez denetleniyor.
+> 3. **Resim kapısı ve turlar:** kapı 5 yolu aynı anda 5 tarayıcıyla oynatıyor; 8 GB bellekte ağır. Kesimle aynı anda koşan hikâye turu
+>    zaman aşımına düştü — ağır işler üst üste koşturulmamalı.
+> 4. **72 MB oyun sayfası:** bütün resimler tek HTML'de; her derleme/testte baştan yazılıp okunuyor.
+> Hafif olan: resim üretimi (Codex) bulutta; resim başına ~100 sn bekleme, bilgisayarı yormuyor.
+
 > ## ✅ ORTAKTAN NOT — VAKA 8 GÖMÜLDÜ (27 Kasım 2026 sabah, Oğuz Bey'in bilgisayarı)
 > 134 resim + kart afişi onaylı; 121 görsel gömüldü, boylar, `kart_v8`, `masa_v8`, 7 portre. Resim kapısı GEÇTİ (23 K11 "kalsın"),
 > doğrulayıcı PASS, 8 test. Ayrıntı ve bilerek bırakılan yer tutucular `uretim/v8/DURUM.md` en üst. Görselli tur (sifre · dogru, --hepsi) temiz: JS hatası yok, taşma yok; tek bayrak 169 (Gizem ekranda, yanlış alarm). Sırada: V5→1 resimleri.
