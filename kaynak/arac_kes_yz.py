@@ -8,6 +8,7 @@
 # figür ekranda zıplamaz; --genis aynı anlamda (tam genişlik).
 #
 # Kullanım: python arac_kes_yz.py <girdi.png> <cikti.webp> --profil <arac_kes profili> [--genis] [--onizleme <yesil.png>]
+#           python arac_kes_yz.py --toplu <liste.tsv>   (model bir kez yüklenir; arac_paket.js bunu kullanır)
 # Çıktı satırı: "KALINTI <n>" = kenarda zemin rengine yakın kalan piksel sayısı (arac_paket.js kapı olarak okur).
 #
 # Model ilk kullanımda indirilir (~970 MB, huggingface.co/onnx-community/BiRefNet-ONNX) → PARAVAN_YZ_MODEL ya da
@@ -92,6 +93,29 @@ if __name__ == '__main__' and len(sys.argv) > 1 and sys.argv[1] == '--olc':
     src = np.asarray(Image.open(sys.argv[2]).convert('RGB'), np.float32); W = src.shape[1]
     Z = np.concatenate([src[5:40, 5:40].reshape(-1, 3), src[5:40, W - 40:W - 5].reshape(-1, 3)]).mean(0)
     print('KALINTI', kalinti_say(np.asarray(Image.open(sys.argv[3]).convert('RGBA'), np.float32), Z)); sys.exit(0)
+
+if __name__ == '__main__' and len(sys.argv) > 1 and sys.argv[1] == '--toplu':
+    # python arac_kes_yz.py --toplu <liste.tsv> : model BİR KEZ yüklenir, listedeki bütün figürler sırayla kesilir
+    # (27 Kasım 2026, Oğuz Bey: V8'de model her figürde yeniden yüklendiği için 56 figür ~2 saat sürdü).
+    # Satır: girdi <TAB> cikti <TAB> profil <TAB> genis(0/1) <TAB> onizleme(boş olabilir). Sonuç aynı kes()'ten çıkar.
+    # Her figürün çıktısı "== <cikti>" satırıyla başlar; kesilemeyen figür "HATA <cikti> <sebep>" yazar, iş durmaz.
+    import time
+    satirlar = [s.rstrip('\n').split('\t') for s in open(sys.argv[2], encoding='utf-8') if s.strip()]
+    t0 = time.time(); sess = model(); print(f'MODEL yüklendi {time.time() - t0:.1f} sn', flush=True)
+    hatali = 0
+    for s in satirlar:
+        girdi, cikti, profil, genis = s[0], s[1], s[2], s[3] == '1'
+        on = s[4] if len(s) > 4 and s[4] else None
+        print('== ' + cikti, flush=True)
+        try:
+            t = time.time()
+            boy, kalinti, z = kes(girdi, cikti, profil, genis, on, sess=sess)
+            print(f'{os.path.basename(cikti)}: {boy[0]}×{boy[1]} · yapay zekâ kesimi · zemin {z}')
+            print(f'KALINTI {kalinti}')
+            print(f'SURE {time.time() - t:.1f}', flush=True)
+        except Exception as e:
+            hatali += 1; print(f'HATA {cikti} {e!r}', flush=True)
+    sys.exit(1 if hatali else 0)
 
 if __name__ == '__main__':
     arg = sys.argv[1:]

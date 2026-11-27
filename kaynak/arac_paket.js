@@ -7,7 +7,7 @@
 // YA DA ChatGPT'nin verdiği adla kalır ve --sira G1-G13 verilir: dosyalar adlarındaki üretim
 // saatine dizilir, numaralar sırayla dağıtılır (sayı tutmazsa durur). Eşleşme temas sayfasında.
 // Numara → tür ve anahtar, sablon/vakalar/vaka<N>_gorsel.md tablosundan okunur.
-//   figür              → arac_kes_yz.py ile kesilir (yapay zekâ; 14 Kasım 2026'dan beri tek yöntem). Profil yalnız çerçeveyi
+//   figür              → arac_kes_yz.py ile kesilir (yapay zekâ; 14 Kasım 2026'dan beri tek yöntem; 27 Kasım 2026'dan beri bütün figürler tek süreçte, model bir kez yüklenir). Profil yalnız çerçeveyi
 //                        verir (peri / cengo / konuk; --profil ile değişir). --eski: eski renk kesimi (arac_kes.js), yalnız
 //                        karşılaştırma için; --yaz ile gömülmez. Düz zemin rengi ölçüsü (KALINTI) yalnız uyarıdır.
 //   arka plan/kare/detay → 900×1200, WebP q80
@@ -121,7 +121,7 @@ const dosyaAdi = ({ tur, anahtar }) =>
   : ({ arka: 'arka_', detay: 'detay_', kare: 'ara_' })[tur] + sozcuk(anahtar) + '.webp';
 const olcu = f => ORTAM.im('identify', ['-format', '%w %h', f + '[0]']).toString().trim().split(' ').map(Number);
 
-const sonuc = [];
+const sonuc = [], kesilecek = [];
 for (const [no, ad] of Object.entries(girdiler)) {
   if (!ad) continue;
   const satir = tablo[no];
@@ -144,17 +144,19 @@ for (const [no, ad] of Object.entries(girdiler)) {
     const profil = profilBul(no, satir.anahtar);
     const genis = genisEk.has('G' + no);
     kayit.onizleme = path.join(gecici, 'G' + no + '_yesil.png');
-    const r = ESKI
-      ? spawnSync('node', [path.join(KOK, 'arac_kes.js'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' })
-      : spawnSync(PY, [path.join(KOK, 'arac_kes_yz.py'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' });
+    kayit.genis = genis;
+    if (!ESKI) {
+      // Yapay zekâ kesimi döngüden sonra TOPLU koşar: model bir kez yüklenir (27 Kasım 2026; V8'de her figürde yeniden
+      // yükleme 56 figürü ~2 saate çıkarmıştı). Sonuç tek tek kesimle aynı (kes() aynı).
+      kesilecek.push({ kayit, kaynak, cikti, profil, genis });
+      sonuc.push(kayit);
+      continue;
+    }
+    const r = spawnSync('node', [path.join(KOK, 'arac_kes.js'), kaynak, cikti, '--profil', profil, ...(genis ? ['--genis'] : []), '--onizleme', kayit.onizleme], { encoding: 'utf8' });
     if (r.status !== 0) { console.log('HATA: G' + no + ' kesilemedi\n' + r.stderr + r.stdout); continue; }
     kayit.notlar.push(...r.stdout.trim().split('\n'));
-    // Kapı yöntemdir: yalnız yapay zekâ kesimi gömülür (renk kesimi saç arası/kol arası zemini bırakıyordu). KALINTI ölçüsü
-    // (düz, zemin renginde piksel) yalnız UYARI: zemine benzeyen kumaşı da sayıyor, karışık hale pikselini kaçırıyor (14 Kas ölçümü).
-    if (ESKI) { kayit.hata = true; kayit.notlar.push('HATA: renk kesimi (--eski) gömülmez — yalnız karşılaştırma için'); }
-    const kal = Number((r.stdout.match(/KALINTI (\d+)/) || [])[1] || 0);
-    if (kal > KALINTI_ESIK) kayit.notlar.push('UYARI: düz zemin rengi ' + kal + ' px — temas sayfasında koyu zeminde bak');
-    kayit.genis = genis;
+    // Kapı yöntemdir: yalnız yapay zekâ kesimi gömülür (renk kesimi saç arası/kol arası zemini bırakıyordu).
+    kayit.hata = true; kayit.notlar.push('HATA: renk kesimi (--eski) gömülmez — yalnız karşılaştırma için');
   } else {
     ORTAM.im('convert', [girdi + '[0]', '-resize', '900x1200', '-quality', '80', cikti]);
     const [w2, h2] = olcu(cikti);
@@ -164,6 +166,35 @@ for (const [no, ad] of Object.entries(girdiler)) {
     kayit.onizleme = cikti;
   }
   sonuc.push(kayit);
+}
+
+if (kesilecek.length) {
+  // Toplu yapay zekâ kesimi: tek python süreci, model bir kez. Kesilemeyen figür atlanır (sonuçtan çıkar), öbürleri sürer.
+  const liste = path.join(gecici, 'kesim_listesi.tsv');
+  fs.writeFileSync(liste, kesilecek.map(j => [j.kaynak, j.cikti, j.profil, j.genis ? 1 : 0, j.kayit.onizleme].join('\t')).join('\n') + '\n');
+  console.log('Yapay zekâ kesimi: ' + kesilecek.length + ' figür, model bir kez yükleniyor…');
+  const r = spawnSync(PY, [path.join(KOK, 'arac_kes_yz.py'), '--toplu', liste], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024, env: { ...process.env, PYTHONIOENCODING: 'utf-8' } });
+  const bloklar = {};
+  let su = null;
+  for (const l of (r.stdout || '').split('\n')) {
+    if (l.startsWith('== ')) { su = l.slice(3).trim(); bloklar[su] = []; } else if (su && l.trim()) bloklar[su].push(l.trim());
+  }
+  const model = (r.stdout || '').match(/MODEL yüklendi [\d.]+ sn/);
+  if (model) console.log(model[0]);
+  for (const j of kesilecek) {
+    const b = bloklar[j.cikti] || [];
+    const hata = b.find(l => l.startsWith('HATA ')) || (!b.length ? 'çıktı yok' + (r.stderr ? '\n' + r.stderr : '') : null);
+    if (hata) {
+      console.log('HATA: G' + j.kayit.no + ' kesilemedi — ' + hata);
+      sonuc.splice(sonuc.indexOf(j.kayit), 1);
+      continue;
+    }
+    j.kayit.notlar.push(...b.filter(l => !l.startsWith('SURE ')));
+    // KALINTI ölçüsü (düz, zemin renginde piksel) yalnız UYARI: zemine benzeyen kumaşı da sayıyor, karışık hale pikselini
+    // kaçırıyor (14 Kas ölçümü).
+    const kal = Number(((b.join('\n')).match(/KALINTI (\d+)/) || [])[1] || 0);
+    if (kal > KALINTI_ESIK) j.kayit.notlar.push('UYARI: düz zemin rengi ' + kal + ' px — temas sayfasında koyu zeminde bak');
+  }
 }
 
 for (const k of sonuc) console.log('G' + k.no + ' ' + k.anahtar + ' → ' + k.rel + '\n  ' + k.notlar.join('\n  '));

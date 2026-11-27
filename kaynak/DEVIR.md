@@ -24,7 +24,11 @@
 > - Dikkat 2, bozuk figür: bugün her figür ayrı süreçte, biri çökse öbürleri etkilenmiyor. Tek süreçte hatalı figür atlanıp sona yazılmalı, iş durmamalı.
 > - Sınama: değişiklikten sonra 5 V8 figürünü yeni yöntemle kesip gömülü olanlarla karşılaştır; aynıysa güvenli.
 > - Süre tahmini: kod 10–15 dk, deneme 10–25 dk (figür başına 5 dk'nın ne kadarının yükleme olduğu bilinmiyor; deneme bunu da ölçer), kayıt birkaç dk — toplam ~30–45 dk.
-> - Durum: YAPILMADI, Oğuz Bey'in kararını bekliyor.
+> - **Durum: YAPILDI (27 Kasım 2026, Oğuz Bey'in isteği).** `arac_kes_yz.py --toplu <liste.tsv>`; `arac_paket.js` bütün figürleri tek süreçte keser,
+>   kesilemeyen figür atlanır, iş durmaz. **Sınama:** 5 V8 figürü (G6, G7, G8, G9, G13) gömülülerle **0 piksel fark** — sonuç birebir aynı.
+>   **Ölçüm (beklenenden az kazanç):** model yükleme yalnız ~15 sn; asıl süre modelin kendi hesabı, figür başına ~120–140 sn (2 çekirdekli
+>   işlemcide 1024×1024 BiRefNet). Kazanç figür başına ~15 sn (~%10); 56 figürde ~15 dk. Daha büyük hız ancak sonucu değiştiren yollarla
+>   (küçük giriş boyu, sıkıştırılmış model) ya da güçlü bilgisayarla gelir — denenmedi, sahibine sorulmadan yapılmaz.
 
 > ## ✅ ORTAKTAN NOT — VAKA 8 GÖMÜLDÜ (27 Kasım 2026 sabah, Oğuz Bey'in bilgisayarı)
 > 134 resim + kart afişi onaylı; 121 görsel gömüldü, boylar, `kart_v8`, `masa_v8`, 7 portre. Resim kapısı GEÇTİ (23 K11 "kalsın"),
