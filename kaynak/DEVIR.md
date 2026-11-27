@@ -18,6 +18,13 @@
 >    zaman aşımına düştü — ağır işler üst üste koşturulmamalı.
 > 4. **72 MB oyun sayfası:** bütün resimler tek HTML'de; her derleme/testte baştan yazılıp okunuyor.
 > Hafif olan: resim üretimi (Codex) bulutta; resim başına ~100 sn bekleme, bilgisayarı yormuyor.
+> **Önerilen iyileştirme (modeli bir kez yükle) — Oğuz Bey'in soruları üzerine:**
+> - Sonuç değişmez, hata artmaz: model, ayar ve figürler aynı; değişen yalnız modelin her figürde yeniden yüklenmemesi. Aynı model aynı resme aynı kesimi verir.
+> - Dikkat 1, bellek: model iş boyunca bellekte kalır (~1–2 GB); kesim sürerken tur/kapı gibi ağır iş koşturulmaz (bugün de geçerli).
+> - Dikkat 2, bozuk figür: bugün her figür ayrı süreçte, biri çökse öbürleri etkilenmiyor. Tek süreçte hatalı figür atlanıp sona yazılmalı, iş durmamalı.
+> - Sınama: değişiklikten sonra 5 V8 figürünü yeni yöntemle kesip gömülü olanlarla karşılaştır; aynıysa güvenli.
+> - Süre tahmini: kod 10–15 dk, deneme 10–25 dk (figür başına 5 dk'nın ne kadarının yükleme olduğu bilinmiyor; deneme bunu da ölçer), kayıt birkaç dk — toplam ~30–45 dk.
+> - Durum: YAPILMADI, Oğuz Bey'in kararını bekliyor.
 
 > ## ✅ ORTAKTAN NOT — VAKA 8 GÖMÜLDÜ (27 Kasım 2026 sabah, Oğuz Bey'in bilgisayarı)
 > 134 resim + kart afişi onaylı; 121 görsel gömüldü, boylar, `kart_v8`, `masa_v8`, 7 portre. Resim kapısı GEÇTİ (23 K11 "kalsın"),
