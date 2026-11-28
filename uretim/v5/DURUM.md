@@ -2,6 +2,14 @@
 
 > **Üretim Oğuz Bey'in bilgisayarında** (27 Kasım 2026'dan beri). İki bilgisayar aynı vakayı aynı anda üretmez.
 
+**28 Kasım 2026, 13:10 — PARTİ 3 TAMAM: 94/94 ONAYLI, el onayı (Oğuz Bey).** 3a G36–G72 (ifade, poz, hâl temelleri G43 islak,
+G44 battaniye, G50 simitli), 3b G73–G76 detay, G77–G93 kare (K79–K95), G94 kart afişi. Gece döngüsü 02:09'da kotaya takıldı, 02:47'de
+sürdü, 03:03'te bitti. Düzeltmeyle geçenler: G36 (kaş, tarz), G42 (elbise boyu), G59 (Kadir yüzü), G71 (tarz), G73 (ucuz kopya saat),
+G75 (aynı çanta, deri astar), G83 (kovalamaca yönü), G94 (kadro yukarıda). Kalsın (Oğuz Bey, `vaka5_kapi.md`): G59, G62, G63 (tarz),
+G64, G65, G67, G69, G70. **Oğuz Bey'in iki düzeltmesi:** görevliye armalı kaptan şapkası → G11/G33/G57 ENGELLENDİ, yerlerine G95 (temel),
+G96 (kart), G97 (defter); Cengo martı pozu G48 iki düzeltmeyle (çöp adam iskeleti `referanslar/poz_cengo_kanat.jpg`, avuçlar yere dönük).
+Sırada `göm`.
+
 **27 Kasım 2026, 23:50 — PARTİ 2 TAMAM: 13/13 ONAYLI, el onayı (Oğuz Bey).** Döngü 23:25–23:41, hepsi ilk üretimde. Temeller:
 G23 Peri ipek, G24 Peri ipek_acik, G25 Cengo balikci, G26 Gizem hirka5 (hepsi açık bej). Konuk kartları G27–G35 (benzerlik `--kim`
 ile elle: G27 Muammer ~ Cengo 1,69 ve G29 Kadir ~ İsmet 1,41 → kalsın, Oğuz Bey kartları onayladı). Sırada Parti 3: ifadeler (satırların

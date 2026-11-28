@@ -62,3 +62,69 @@ Zeminler `zemin.tsv` (kartlardan `arac_zemin.py`; dördü de açık bej). İstem
 | G33 | kıyafet kartı | İskele görevlisi (tam boy) | — | G11 |
 | G34 | kıyafet kartı | İsmet Usta (tam boy) | — | G12 |
 | G35 | kıyafet kartı | Simitçi (tam boy) | — | G13 |
+
+## Parti 3 (27–28 Kasım 2026): 3a ifadeler ve nesneli pozlar G36–G72 (satırların istediği — SATIR-35), 3b detaylar G73–G76, kareler G77–G93, kart afişi G94
+
+İstemler `uret_istem_parti3a.py`, `uret_istem_parti3b.py`; baş kırpıkları `referanslar/peri_ipek_bas.png`, `gizem_hirka5_bas.png`; şerit `referanslar/serit_muammer_selim_nedim_kadir.jpg`. Hâl temelleri: `peri.islak` G43, `peri.battaniye` G44, `cengo.simitli` G50.
+
+| # | tür | ne | anahtar | bekler |
+|---|---|---|---|---|
+| G36 | figür | Peri, ipek, kaşı kalkık | `peri.ipek.kas` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G37 | figür | Peri, ipek, meraklı, soruyor | `peri.ipek.merakli` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G38 | figür | Peri, ipek, mahcup (zayıf kanıt) | `peri.ipek.utanmis` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G39 | figür | Peri, ipek, deniz tutmuş (yeşil) | `peri.ipek.yesil` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G40 | figür | Peri, ipek, kalan çantayı tezgâha koyuyor | `peri.ipek.canta` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G41 | figür | Peri, ipek_acik, kaşı kalkık | `peri.ipek_acik.kas` | G2 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G42 | figür | Peri, ipek_acik, meraklı (iltifat duyuyor) | `peri.ipek_acik.merakli` | G2 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G43 | figür | Peri, islak, sırılsıklam, kaşı kalkık (bu hâlin temeli) | `peri.islak.kas` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G44 | figür | Peri, battaniye, battaniyeye sarınmış (bu hâlin temeli) | `peri.battaniye.normal` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır) |
+| G45 | figür | Peri, battaniye, battaniyede, kaşı kalkık | `peri.battaniye.kas` | G1 (kart), `referanslar/peri_ipek_bas.png` (hazır), G44 |
+| G46 | figür | Cengo, balikci, gülen | `cengo.balikci.gulen` | G25, G3 (onaylı) |
+| G47 | figür | Cengo, balikci, kaşı kalkık | `cengo.balikci.kas` | G25, G3 (onaylı) |
+| G48 | figür | Cengo, balikci, kollarını açmış, martı gibi bağırıyor | `cengo.balikci.kollar` | G25, G3 (onaylı) |
+| G49 | figür | Cengo, balikci, martılara simit atıyor | `cengo.balikci.simit` | G25, G3 (onaylı) |
+| G50 | figür | Cengo, simitli, kolunda ve kasketinde simitler (bu hâlin temeli) | `cengo.simitli.normal` | G25, G3 (onaylı) |
+| G51 | figür | Cengo, simitli, simitli, gülen | `cengo.simitli.gulen` | G50, G3 (onaylı) |
+| G52 | figür | Cengo, simitli, simitli, kaşı kalkık | `cengo.simitli.kas` | G50, G3 (onaylı) |
+| G53 | figür | Cengo, simitli, simitli, yumuşak | `cengo.simitli.yumusak` | G50, G3 (onaylı) |
+| G54 | figür | Gizem, kiremit hırka, işveli | `gizem.hirka5_isveli` | G26 (onaylı temel) |
+| G55 | figür | Efe, gülen (bir daha!) | `efe.gulen` | G10 (onaylı temel) |
+| G56 | figür | Efe, martılara simit atıyor | `efe.simit` | G10 (onaylı temel) |
+| G57 | figür | İskele görevlisi, elinde defter | `gorevli.defter` | G11 (onaylı temel) |
+| G58 | figür | İsmet Usta, kayış dikiyor | `ismet.dikiyor` | G12 (onaylı temel) |
+| G59 | figür | Kadir, alınmış (kazaydı!) | `kadir.alinmis` | G7 (onaylı temel) |
+| G60 | figür | Kadir, gülen (unuttum) | `kadir.gulen` | G7 (onaylı temel) |
+| G61 | figür | Kadir, elinde çay tepsisi | `kadir.tepsi` | G7 (onaylı temel) |
+| G62 | figür | Muammer Bey, dertli (anlatıyor) | `muammer.dertli` | G5 (onaylı temel) |
+| G63 | figür | Muammer Bey, kaçamak (bıyığını düzeltiyor) | `muammer.kacamak` | G5 (onaylı temel) |
+| G64 | figür | Muammer Bey, elinde kadife kutu | `muammer.kutu` | G5 (onaylı temel) |
+| G65 | figür | Muammer Bey, öfkeli | `muammer.ofkeli` | G5 (onaylı temel) |
+| G66 | figür | Nedim Bey, alaycı | `nedim.alayci` | G8 (onaylı temel) |
+| G67 | figür | Nedim Bey, bastonuyla gösteriyor | `nedim.baston` | G8 (onaylı temel) |
+| G68 | figür | Selim, gergin (eli göğsünde) | `selim.gergin` | G6 (onaylı temel) |
+| G69 | figür | Selim, itiraf (yıkılmış) | `selim.itiraf` | G6 (onaylı temel) |
+| G70 | figür | Selim, sandalye bacağı yapıştırıyor | `selim.sandalye` | G6 (onaylı temel) |
+| G71 | figür | Simitçi, öfkeli (parasını ver!) | `simitci.ofkeli` | G13 (onaylı temel) |
+| G72 | figür | Simitçi, tablasından simit uzatıyor | `simitci.tabla` | G13 (onaylı temel) |
+| G73 | detay | Detay: kadife kutuda parlak, ucuz bir cep saati | `D14` | referanslardaki onaylı resimler |
+| G74 | detay | Detay: Nedim'in duvarındaki saatler aynı anda çalıyor | `D15` | referanslardaki onaylı resimler |
+| G75 | detay | Detay: çanta astarında küçük deri damgası | `D16` | referanslardaki onaylı resimler |
+| G76 | detay | Detay: açık cep saati kapağının içinde ince bir kazıma | `D17` | referanslardaki onaylı resimler |
+| G77 | ara kare | Giriş (çekicilik): Peri açık pencerenin önünde, hırkasız; Muammer bakıyor; Cengo | `K79` | referanslardaki onaylı resimler |
+| G78 | ara kare | Yüzleşme açılışı: alt salon; Muammer, Selim, Nedim koltukların başında; Kadir tezgâhta; Peri ve Cengo | `K80` | referanslardaki onaylı resimler |
+| G79 | ara kare | Yüzleşme: Selim'in ceketinin iç cebi, eli göğsünde, zil sesi (yakın) | `K81` | referanslardaki onaylı resimler |
+| G80 | ara kare | Yüzleşme: herkes Selim'e dönmüş; Selim merdivene koşuyor | `K82` | referanslardaki onaylı resimler |
+| G81 | ara kare | Kovalamaca 1: Cengo simitçiyle çarpışıyor; tabla havada, simitler koluna ve kasketine geçiyor | `K83` | referanslardaki onaylı resimler |
+| G82 | ara kare | Kovalamaca 2: üst güverte, dalga Peri'nin üstüne boşalmış; ıslak, yosunlu | `K84` | referanslardaki onaylı resimler |
+| G83 | ara kare | Kovalamaca 3: Peri'nin topuğu iskele tahtasına sıkışmış; tek ayakkabıyla koşuyor; ileride Selim | `K85` | referanslardaki onaylı resimler |
+| G84 | ara kare | Kovalamaca 4: martı sürüsü yosunlu Peri'nin peşinde; Selim'i de sarmış, halata takılıp düşüyor | `K86` | referanslardaki onaylı resimler |
+| G85 | ara kare | Kovalamaca sonu: simitli Cengo Selim'in üstünde oturuyor; Peri tek ayakkabılı, çenesi havada | `K87` | referanslardaki onaylı resimler |
+| G86 | ara kare | Karar sorusu (seçim karesi): Kadir battaniyeyi Peri'nin omzuna atıyor, elinde çay; arkada Muammer, elinde açık saat | `K88` | referanslardaki onaylı resimler |
+| G87 | ara kare | Kapanış: Cengo masanın kenarında, kasketinde simit; Peri battaniyeli masada; Gizem pencerede | `K89` | referanslardaki onaylı resimler |
+| G88 | ara kare | Kapanış (bağ düşük): simit Peri'nin masasında; Cengo çıkıyor | `K90` | referanslardaki onaylı resimler |
+| G89 | ara kare | Kapanış (bağ yüksek): Peri Cengo'nun kazağının içinde, kollar uzun; Cengo tişörtle; Gizem arkada | `K91` | referanslardaki onaylı resimler |
+| G90 | ara kare | Karar (Saati Muammer'e bırak): Muammer dükkânında saati cebine koyuyor; Selim aletleriyle çıkıyor | `K92` | referanslardaki onaylı resimler |
+| G91 | ara kare | Karar ("Aranızda kalsın"): ertesi gün Muammer ve Selim yine aynı dükkânda, ikisi de sır tutuyor | `K93` | referanslardaki onaylı resimler |
+| G92 | ara kare | Karar (saatin gerçek sahibi): Peri saati yaşlı bir kadının ellerine bırakıyor | `K94` | referanslardaki onaylı resimler |
+| G93 | ara kare | Karar (polise teslim): Selim başı önde, amblemsiz bir polis memuruyla götürülüyor; Peri ve Cengo izliyor | `K95` | referanslardaki onaylı resimler |
+| G94 | kart afişi | Kart afişi: Vapur | `KART_V5` | referanslardaki onaylı resimler · GOMME-21…27, BILGI-14…16: kadro = Peri, Cengo + müşteri Muammer + üç şüpheli (Selim, Nedim, Kadir); şüpheliler eşit; yöntem nesneleri yasak; Peri'nin dekolteli temeli verilmez (baş kırpığı + kart). |

@@ -319,7 +319,7 @@ saat onun elinde. Soru: saate (başkasına verilmiş bir hediye) ve Selim'e ne o
 - **Nedim Bey:** 70'lerinde, tombul, yuvarlak yüz, bembeyaz saç ensede at kuyruğu, bakımlı beyaz keçi sakalı (27 Kas: kısa saçlı resim Şükrü'ye benzedi); gri blazer, ipek fular, gümüş başlı baston.
 - **Derya Hanım:** 30'larında, sportif, kısa kumral saç, bere, yağmurluk. **Efe** (8): kısa siyah saç, sarı yağmurluk, elinde simit poşeti (kural 16:
   çocuk yalnız masum çizilir).
-- **İskele görevlisi:** 50'lerinde, iri yarı, kare yüz, kısacık kumral saç, bıyıksız, kalın siyah çerçeveli gözlük (27 Kas: bıyıklı resim Muammer'e benzedi); lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
+- **İskele görevlisi:** 50'lerinde, iri yarı, kare yüz, kısacık kumral saç, bıyıksız, kalın siyah çerçeveli gözlük (27 Kas: bıyıklı resim Muammer'e benzedi); başında lacivert, siyah siperli kaptan şapkası, önünde altın meşe çelengi ve deniz feneri arması (28 Kas, Oğuz Bey); lacivert yelek, ıslık boynunda, elinde defter (kurum adı/logo yok — kural 14).
 - **İsmet Usta:** 68, tombul, kare yüz, siyaha boyalı geriye taranmış saç; deri önlük, gözlüğü burnunun ucunda.
 - **Simitçi:** yirmi yaşında, ince uzun, kısa kıvırcık kızıl saç; beyaz önlük, başında simit tablası.
 

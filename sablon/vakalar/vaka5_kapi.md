@@ -43,4 +43,12 @@ Sahibinin "kalsın" dediği bulgular (`- K<n> | <satırın başı>`). Bir daha s
 - G6 | benzerlik | temel figür (kır sakallı); döngüde GEÇTİ (Rıza 1,36), commit kapısında sınırda ŞÜPHELİ (Rıza 1,41); gözle ayrı — Oğuz Bey "kalsın" (27 Kasım 2026)
 - G27 | benzerlik | Muammer'in kıyafet kartı (oyuna gömülmez); --kim ile KALDI Cengo 1,69 — temelin (G5) kalsın'ı; Oğuz Bey kartları onayladı (27 Kasım 2026)
 - G29 | benzerlik | Kadir'in kıyafet kartı (oyuna gömülmez); --kim ile ŞÜPHELİ İsmet 1,41; gözle ayrı — Oğuz Bey kartları onayladı (27 Kasım 2026)
+- G59 | benzerlik | Kadir alınmış ifadesi; iki üretimde KALDI/ŞÜPHELİ (İsmet 1,59 / 1,55); onaylı Kadir'in yüzü, gözle ayrı — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G62 | benzerlik | Muammer dertli; ŞÜPHELİ Nevzat 1,52; onaylı Muammer, gözle ayrı — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G64 | benzerlik | Muammer kutulu; ŞÜPHELİ Fikret 1,42 — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G65 | benzerlik | Muammer öfkeli; iki üretimde KALDI Fikret 1,85 / 1,73 (bağıran yüz); gözle Muammer — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G67 | benzerlik | Nedim bastonla gösteriyor; ŞÜPHELİ Rüstem 1,41 — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G69 | benzerlik | Selim itiraf; ŞÜPHELİ Şükrü 1,44 — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G70 | benzerlik | Selim sandalye; ŞÜPHELİ Rıza 1,51 — Oğuz Bey "kalsın" (28 Kasım 2026)
+- G63 | tarz | Muammer kaçamak; üç üretimde ŞÜPHELİ (+0,009 / +0,005 / +0,019; sınır +0,020); gözle doğru — Oğuz Bey "kalsın" (28 Kasım 2026)
 - K4 | Sabah. Büro. Peri masada
