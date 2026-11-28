@@ -39,14 +39,14 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **MUAMMER [ofkeli]:** Kadıköy'de alıcının masasında kutuyu açtım. Bakın. {kare: D14}
 *Kadife kutunun içinde parlak, ucuz görünüşlü bir cep saati.* {kare: D14}
 **MUAMMER [ofkeli]:** Bu benim saatim değil, çarşı malı bir kopya. Çanta da benim çantam değil: tıpatıp aynısı. Dükkânda duruyor. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.normal}
-**CENGO [kas]:** Yani siz lavabodayken biri çantanızı ikiziyle değiştirmiş, içine de bu kopyayı koymuş. {kime: muammer, ekran: cengo+muammer, yuz: muammer.ofkeli}
+**CENGO [kas]:** Yani siz lavabodayken biri çantanızı ikiziyle değiştirmiş, içine de bu kopyayı koymuş. {kime: muammer, ekran: cengo+muammer, yuz: muammer.dertli}
 **MUAMMER [dertli]:** Öyle. İskeleye geri koştum, görevliye anlattım. Ama saat gitmişti. {kime: cengo, ekran: cengo+muammer, yuz: cengo.kas}
 **PERİ [merakli]:** Kimden şüpheleniyorsunuz, Muammer Bey? {ekran: peri+muammer, yuz: muammer.dertli}
 **MUAMMER [ofkeli]:** Çayı döken çaycıdan, Kadir'den. Kaza mıydı, bilmiyorum. Lavaboya giderken koltuğumu silmeye eğiliyordu. {kime: peri, ekran: peri+muammer, yuz: peri.merakli}
-**CENGO [kas]:** Kadir'i tanırım. Her sabah onun vapurunda çay içerim. Kimsenin çantasına el sürmez. {kime: muammer, ekran: cengo+muammer, yuz: muammer.ofkeli}
+**CENGO [kas]:** Kadir'i tanırım. Her sabah onun vapurunda çay içerim. Kimsenin çantasına el sürmez. {kime: muammer, ekran: cengo+muammer, yuz: muammer.dertli}
 **MUAMMER [normal]:** Bir de Nedim Bey var. Koleksiyoncu. Bu saati benden iki kez istedi; ikisinde de satmadım. {kime: cengo, ekran: cengo+muammer, yuz: cengo.kas}
 **MUAMMER [ofkeli]:** Salı o da aynı vapurdaymış. Kadıköy'de iskelede karşılaştık; "bütün yol yukarıdaydım" dedi. Tesadüf mü? {ekran: cengo+muammer, yuz: cengo.kas}
-**PERİ [merakli]:** Vapurda tanıdığınız başka kim vardı? {ekran: peri+muammer, yuz: muammer.ofkeli}
+**PERİ [merakli]:** Vapurda tanıdığınız başka kim vardı? {ekran: peri+muammer, yuz: muammer.dertli}
 **MUAMMER [normal]:** Tamircim Selim. Vapura birlikte bindik. Onu deniz tutar; bütün yol üst güvertede hava aldı. {kime: peri, ekran: peri+muammer, yuz: peri.merakli}
 **MUAMMER [normal]:** Kadıköy'de yukarıdan indi, iskelede buluştuk. Otuz yıldır yanımda çalışır; dükkânın tamircisi odur. {ekran: peri+muammer, yuz: peri.merakli}
 **MUAMMER [normal]:** Bir şey daha: saat çalar. Her gün öğleden sonra üçte. Alıcıya göstermek için ben kurmuştum. {ekran: peri+muammer, yuz: peri.merakli}
@@ -178,7 +178,7 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 
 *Kadıköy çarşısı. Balıkçıların arasında dar bir kapı; içeride deri kokan küçük bir atölye. Tezgâhta yarım kalmış çantalar.* {arka: A40, mekan, ekran: peri+cengo, yuz: peri.normal+cengo.normal}
 *Deri önlüklü, gözlüğü burnunun ucunda yaşlı bir usta, bir kayışı dikiyor.* {gir: ismet, gi: dikiyor, ekran: ismet}
-*Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.* {ekran: peri+muammer, yuz: peri.canta+muammer.ofkeli}
+*Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.* {ekran: peri+muammer, yuz: peri.canta+muammer.normal}
 **PERİ [normal]:** Bu çanta sizin işiniz mi? İçinde bir damga var. {gir: ismet, kime: ismet, ekran: peri+ismet, yuz: ismet.normal}
 **İSMET [normal]:** *(damgaya bakıp)* Benim işim. İsmet. Elli yıldır bu damgayı vururum. {kime: peri, ekran: peri+ismet, yuz: peri.normal}
 **CENGO [kas]:** Bu çantadan kaç tane yaptın, usta? {ekran: cengo+ismet, yuz: ismet.normal}
@@ -207,9 +207,9 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **PERİ [merakli]:** İçinde bir damga var. Kadıköy'de bir deri ustasının. {kare: D16}
 **MUAMMER [normal]:** Benim çantamı da o yapmıştı. Kadıköy çarşısında, balıkçıların arasında. {gir: muammer, kime: peri, ekran: peri+muammer, yuz: peri.merakli}
 **MUAMMER [ofkeli]:** Kutudaki kopyayı çırağa sordurdum: çarşıda yedi yüz elli liraya satıyorlarmış. {kime: peri, ekran: peri+muammer, yuz: peri.merakli}
-**CENGO [kas]:** Dört yüz binlik saatin yerine yedi yüz elli liralık bir saat. {kime: muammer, ekran: cengo+muammer, yuz: muammer.ofkeli}
+**CENGO [kas]:** Dört yüz binlik saatin yerine yedi yüz elli liralık bir saat. {kime: muammer, ekran: cengo+muammer, yuz: muammer.dertli}
 **MUAMMER [ofkeli]:** Bir de siz söylemeyin! {kime: cengo, ekran: cengo+muammer, yuz: cengo.kas}
-**PERİ [kas]:** O saati nereden almıştınız, Muammer Bey? {ekran: peri+muammer, yuz: muammer.ofkeli}
+**PERİ [kas]:** O saati nereden almıştınız, Muammer Bey? {ekran: peri+muammer, yuz: muammer.dertli}
 **MUAMMER [normal]:** Bir mezattan. Belgesiyle, faturasıyla. {kime: peri, ekran: peri+muammer, yuz: peri.kas}
 *Muammer bıyığını iki parmağıyla düzeltiyor; Peri'nin gözüne bakmıyor.* {gir: muammer, gi: kacamak, ekran: peri+muammer, yuz: peri.kas}
 **PERİ [kas]:** Yalan söylerken bıyığınızı düzeltiyorsunuz. {kime: muammer, ekran: peri+muammer, yuz: muammer.kacamak}
@@ -307,9 +307,9 @@ Sahnede olmayan ya da geçmişte kalan birinden söz serbest (SR-A).
 **SELİM [itiraf]:** Çay dökülüp Muammer lavaboya gidince çantaları değiştirdim. Saati bu akşam satacaktım. {ekran: peri+selim, yuz: peri.kas}
 **SELİM [itiraf]:** Dükkânın bütün saatlerini ben kurarım. Muammer bunu bana sormadan kurmuş; çalacağından haberim yoktu. {ekran: peri+selim, yuz: peri.kas}
 **SELİM [itiraf]:** Çantadayken sesini de duymamışım. {ekran: peri+selim, yuz: peri.kas}
-*Muammer nefes nefese iskeleden koşarak geliyor.* {gir: muammer, gi: ofkeli, ekran: muammer}
+*Muammer nefes nefese iskeleden koşarak geliyor.* {gir: muammer, gi: dertli, ekran: muammer}
 **MUAMMER [ofkeli]:** Otuz yıl, Selim! Otuz yılı bir saate mi değiştin? {kime: selim, ekran: muammer+selim, yuz: selim.itiraf}
-**SELİM [itiraf]:** Sen otuz yılı bir teşekküre değiştin, Muammer. {kime: muammer, ekran: selim+muammer, yuz: muammer.ofkeli}
+**SELİM [itiraf]:** Sen otuz yılı bir teşekküre değiştin, Muammer. {kime: muammer, ekran: selim+muammer, yuz: muammer.dertli}
 *Muammer saati Selim'in cebinden alıp kapağını açıyor. Peri omzunun üstünden eğiliyor: kapağın içine ince bir kazıma işlenmiş, bir harf ve bir yıl.* {kare: D17}
 **PERİ [kas]:** Kapağın içinde bir kazıma var. Birine verilmiş bir hediye bu. {kare: D17}
 *Kadir vapurdan bir battaniye ve bir bardak sıcak çayla iniyor; battaniyeyi Peri'nin ıslak omuzlarına atıyor.* {kare: K88, set: battaniye, cset: simitli}

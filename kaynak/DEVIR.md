@@ -8,6 +8,13 @@
 
 ---
 
+> ## ✅ ORTAKTAN NOT — VAKA 5 GÖMÜLDÜ (28 Kasım 2026, Oğuz Bey'in bilgisayarı)
+> 94 resim onaylı (G1–G97; G11/G33/G57 yerine şapkalı G95–G97), 80 görsel gömüldü, boylar, `kart_v5`, `masa_v5`, 7 portre, poz kaydı.
+> **Resim kapısı V5 GEÇTİ** (24 K11 kalsın; Muammer'in dinleme yüzü 8 satırda `dertli`/`normal`, söz aynı). Görselli tur temiz.
+> Oğuz Bey'in kararları: görevliye armalı kaptan şapkası (formdaki "amblem yok" kuralına bilerek istisna), Cengo martı pozu. Yeni konuk
+> görünüşleri benzerlik aracıyla değişti (Selim kır sakal, Nedim beyaz at kuyruğu, görevli gözlüklü). Kapı düzeltmesi: yer tutucu eklemek
+> gömme sayılmaz (`.claude/kapi_hook.js`). Ayrıntı `uretim/v5/DURUM.md` en üst. **Sırada: V4 resimleri.**
+
 > ## 🔎 ORTAKTAN NOT — VAKA 5 RESİMLERİ ÖNCESİ DENETİM (27 Kasım 2026, Oğuz Bey'in bilgisayarı)
 > V5 metni bugünkü kurallarla denetlendi: doğrulayıcı PASS, kapı V5 hikâye GEÇTİ, 8 test, sigara yok. Düzeltilen (Oğuz Bey onayladı):
 > **benzerlik bütün vakalarla** — Muammer (Sarkis, Şükrü, Çaycı…) → bordo kadife ceket, fönlü koyu kahve saç, kalın bıyık, altın diş;

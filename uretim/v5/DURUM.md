@@ -2,6 +2,16 @@
 
 > **Üretim Oğuz Bey'in bilgisayarında** (27 Kasım 2026'dan beri). İki bilgisayar aynı vakayı aynı anda üretmez.
 
+**28 Kasım 2026, 16:00 — VAKA 5 GÖMÜLDÜ.** `arac_paket.js --yaz` (PARAVAN_IPLIK=4, 50 figür tek süreçte, ~1,5 saat): 80 görsel. Konuk boyları
+GOMME-13'e yazıldı (Oğuz Bey: Muammer 1,00 · Selim 1,05 · Kadir 0,96 · Nedim 0,90 · Derya 0,95 · Efe 0,62 · görevli 1,04 · İsmet 0,95 ·
+simitçi 1,04); ölçek `arac_yanyana.js --oran`: muammer 0,65 · selim 0,69 · kadir 0,63 · nedim 0,60 · derya 0,62 · efe 0,40 · ismet 0,62 ·
+gorevli 0,67 · simitci 0,77 (başındaki tabla ölçümü şaşırttığı için saç tepesine göre elle). `kart_v5` (G94), `masa_v5` (900×500, y=300),
+7 portre (Muammer, Selim, Kadir, Nedim, İsmet, Derya, Efe; görevli ve simitçi künyesiz). Poz kaydı `vaka5_kapi.md → ## poz` (50 figür).
+Resim kapısı: 24 K11 (yan yana el binmesi) Oğuz Bey "kalsın"; 8 K12 (Muammer'in öfkeli yüzü dinlerken) → diyalogda 8 satırda dinleme
+yüzü `dertli`/`normal` (söz aynı). **`arac_kapi.js V5 resim` GEÇTİ.** Görselli tur (vapur · dogru, --hepsi): JS hatası yok, taşma yok;
+adı geçen bayrakları 046/065 (mekân satırı, bilerek boş) ve 136 (gizem_tel, bilinen). Bilerek yer tutucu: `peri.islak.sinirli` (yalnız kare
+üstünde geçiyor, figürü görünmüyor).
+
 **28 Kasım 2026, 13:10 — PARTİ 3 TAMAM: 94/94 ONAYLI, el onayı (Oğuz Bey).** 3a G36–G72 (ifade, poz, hâl temelleri G43 islak,
 G44 battaniye, G50 simitli), 3b G73–G76 detay, G77–G93 kare (K79–K95), G94 kart afişi. Gece döngüsü 02:09'da kotaya takıldı, 02:47'de
 sürdü, 03:03'te bitti. Düzeltmeyle geçenler: G36 (kaş, tarz), G42 (elbise boyu), G59 (Kadir yüzü), G71 (tarz), G73 (ucuz kopya saat),

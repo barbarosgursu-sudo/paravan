@@ -7202,7 +7202,7 @@
                 "k": "not",
                 "m": "Peri, Muammer'in dükkânından aldığı kalan çantayı tezgâha koyuyor.",
                 "ekran": "peri+muammer",
-                "yuz": "peri.canta+muammer.ofkeli"
+                "yuz": "peri.canta+muammer.normal"
               },
               {
                 "k": "peri",
@@ -7379,7 +7379,7 @@
                 "m": "Dört yüz binlik saatin yerine yedi yüz elli liralık bir saat.",
                 "kime": "muammer",
                 "ekran": "cengo+muammer",
-                "yuz": "muammer.ofkeli"
+                "yuz": "muammer.dertli"
               },
               {
                 "k": "muammer",
@@ -7394,7 +7394,7 @@
                 "i": "kas",
                 "m": "O saati nereden almıştınız, Muammer Bey?",
                 "ekran": "peri+muammer",
-                "yuz": "muammer.ofkeli"
+                "yuz": "muammer.dertli"
               },
               {
                 "k": "muammer",
@@ -7692,7 +7692,7 @@
               "m": "Yani siz lavabodayken biri çantanızı ikiziyle değiştirmiş, içine de bu kopyayı koymuş.",
               "kime": "muammer",
               "ekran": "cengo+muammer",
-              "yuz": "muammer.ofkeli"
+              "yuz": "muammer.dertli"
             },
             {
               "k": "muammer",
@@ -7723,7 +7723,7 @@
               "m": "Kadir'i tanırım. Her sabah onun vapurunda çay içerim. Kimsenin çantasına el sürmez.",
               "kime": "muammer",
               "ekran": "cengo+muammer",
-              "yuz": "muammer.ofkeli"
+              "yuz": "muammer.dertli"
             },
             {
               "k": "muammer",
@@ -7745,7 +7745,7 @@
               "i": "merakli",
               "m": "Vapurda tanıdığınız başka kim vardı?",
               "ekran": "peri+muammer",
-              "yuz": "muammer.ofkeli"
+              "yuz": "muammer.dertli"
             },
             {
               "k": "muammer",
@@ -8351,7 +8351,7 @@
               "k": "not",
               "m": "Muammer nefes nefese iskeleden koşarak geliyor.",
               "gir": "muammer",
-              "gi": "ofkeli",
+              "gi": "dertli",
               "ekran": "muammer"
             },
             {
@@ -8368,7 +8368,7 @@
               "m": "Sen otuz yılı bir teşekküre değiştin, Muammer.",
               "kime": "muammer",
               "ekran": "selim+muammer",
-              "yuz": "muammer.ofkeli"
+              "yuz": "muammer.dertli"
             },
             {
               "k": "not",
